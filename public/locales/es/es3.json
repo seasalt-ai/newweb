@@ -1,0 +1,1551 @@
+{
+  "seachat": {
+    "solutions": {
+      "healthcare": {
+        "title": "Soluciones de atención médica",
+        "subtitle": "Transforme la atención al paciente con un soporte al cliente compatible con HIPAA que mejora la satisfacción del paciente, agiliza las operaciones y mejora la coordinación de la atención.",
+        "trialButton": "Comience la atención médica de forma gratuita",
+        "demoButton": "Programar demostración de atención médica",
+        "featuresTitle": "Características específicas de la atención médica",
+        "featuresSubtitle": "Funciones especialmente diseñadas para que los proveedores de atención médica brinden una atención excepcional al paciente.",
+        "features": {
+          "hipaa": {
+            "title": "Cumplimiento de HIPAA",
+            "description": "Cumplimiento total de HIPAA con comunicaciones cifradas y manejo seguro de datos",
+            "benefits": {
+              "encryption": "Cifrado de extremo a extremo",
+              "audit": "Pistas de auditoría",
+              "access": "Controles de acceso",
+              "anonymization": "Anonimización de datos"
+            }
+          },
+          "appointments": {
+            "title": "Gestión de citas",
+            "description": "Sistemas de programación, reprogramación y recordatorio de citas sin problemas",
+            "benefits": {
+              "availability": "Disponibilidad en tiempo real",
+              "reminders": "Recordatorios automáticos",
+              "cancellation": "Manejo de cancelaciones",
+              "waitlist": "Gestión de listas de espera"
+            }
+          },
+          "telehealth": {
+            "title": "Soporte de telesalud",
+            "description": "Capacidades de telesalud integradas para consultas remotas de pacientes",
+            "benefits": {
+              "video": "Consultas por video",
+              "messaging": "Mensajería segura",
+              "documents": "Uso compartido de documentos",
+              "followup": "Atención de seguimiento"
+            }
+          },
+          "engagement": {
+            "title": "Compromiso del paciente",
+            "description": "Mejore la satisfacción del paciente con soporte 24/7 y atención personalizada",
+            "benefits": {
+              "availability": "Disponibilidad 24/7",
+              "multilanguage": "Soporte multilingüe",
+              "coordination": "Coordinación de la atención",
+              "education": "Educación para la salud"
+            }
+          }
+        },
+        "metricsTitle": "Métricas de impacto en la atención médica",
+        "metricsSubtitle": "Resultados reales de proveedores de atención médica que usan SeaChat para el soporte al paciente.",
+        "metrics": {
+          "noshows": {
+            "label": "Reducción de ausencias",
+            "description": "Con recordatorios de citas automáticos",
+            "value": "40%"
+          },
+          "response": {
+            "label": "Tiempo de respuesta más rápido",
+            "description": "Para consultas e inquietudes de los pacientes",
+            "value": "60%"
+          },
+          "satisfaction": {
+            "label": "Satisfacción del paciente",
+            "description": "Con disponibilidad de soporte 24/7",
+            "value": "85%"
+          },
+          "efficiency": {
+            "label": "Eficiencia administrativa",
+            "description": "A través de flujos de trabajo automatizados",
+            "value": "50%"
+          }
+        },
+        "useCasesTitle": "Casos de uso comunes en la atención médica",
+        "useCasesSubtitle": "Vea cómo SeaChat maneja las interacciones típicas de los pacientes y las tareas administrativas.",
+        "useCases": {
+          "appointments": {
+            "title": "Programación de citas",
+            "description": "Los pacientes pueden reservar, reprogramar o cancelar citas a través del chat",
+            "example": "Necesito reprogramar mi cita para el próximo martes",
+            "outcome": "Programación automatizada con integración de calendario y confirmación"
+          },
+          "prescriptions": {
+            "title": "Consultas sobre recetas",
+            "description": "Maneje las recargas de recetas y las preguntas sobre medicamentos de forma segura",
+            "example": "¿Cuándo estará lista mi receta para que la recoja?",
+            "outcome": "Integración de farmacia en tiempo real y actualizaciones de estado"
+          },
+          "insurance": {
+            "title": "Verificación de seguro",
+            "description": "Verifique la cobertura del seguro y explique los beneficios a los pacientes",
+            "example": "¿Mi procedimiento está cubierto por mi plan de seguro?",
+            "outcome": "Verificación instantánea del seguro y explicación de la cobertura"
+          },
+          "symptoms": {
+            "title": "Preselección de síntomas",
+            "description": "Evaluación de síntomas impulsada por IA y recomendaciones de clasificación",
+            "example": "Tengo fiebre y tos, ¿debería entrar?",
+            "outcome": "Evaluación de síntomas con recomendaciones de atención adecuadas"
+          }
+        },
+        "patientRequest": "Solicitud del paciente",
+        "seachatResponse": "Respuesta de SeaChat",
+        "hipaaTitle": "Cumplimiento y seguridad de HIPAA",
+        "hipaaSubtitle": "Creado desde cero pensando en la seguridad y el cumplimiento de la atención médica. Proteja los datos de los pacientes mientras brinda experiencias de atención excepcionales.",
+        "compliance": {
+          "complianceFeatures": [
+            "Cifrado de extremo a extremo",
+            "Pistas de auditoría",
+            "Controles de acceso",
+            "Anonimización de datos",
+            "Almacenamiento seguro de datos",
+            "Auditorías de seguridad periódicas",
+            "Capacitación y certificación del personal",
+            "Procedimientos de respuesta a incidentes"
+          ]
+        },
+        "certificationsTitle": "Certificaciones de seguridad",
+        "certifications": {
+          "hipaa": "Compatible con HIPAA",
+          "soc2": "SOC 2 Tipo II",
+          "iso": "ISO 27001",
+          "gdpr": "Listo para GDPR"
+        },
+        "certified": "Certificado",
+        "compliant": "Compatible",
+        "ctaTitle": "¿Listo para transformar la atención al paciente?",
+        "ctaSubtitle": "Únase a los proveedores de atención médica que ya usan SeaChat para brindar experiencias excepcionales a los pacientes mientras mantienen los más altos estándares de seguridad y cumplimiento.",
+        "ctaTrialButton": "Comience la atención médica de forma gratuita",
+        "ctaDemoButton": "Programar demostración de atención médica"
+      },
+      "fintech": {
+        "securityFeatures": [
+          "Cifrado de extremo a extremo para todas las comunicaciones",
+          "Autenticación multifactor y verificación de identidad",
+          "Auditorías de seguridad y pruebas de penetración periódicas",
+          "Infraestructura certificada ISO 27001",
+          "Monitoreo y detección de fraudes en tiempo real",
+          "Puntos finales de API seguros con limitación de velocidad"
+        ],
+        "title": "Soluciones Fintech",
+        "subtitle": "Soporte al cliente seguro y compatible para servicios financieros. Maneje las transacciones, brinde orientación sobre inversiones y garantice el cumplimiento normativo con confianza.",
+        "trialButton": "Comience Fintech gratis",
+        "demoButton": "Programar demostración financiera",
+        "featuresTitle": "Características de los servicios financieros",
+        "featuresSubtitle": "Funciones especialmente diseñadas para que las instituciones financieras brinden un soporte al cliente seguro y compatible.",
+        "features": {
+          "security": {
+            "title": "Seguridad de grado financiero",
+            "description": "Seguridad a nivel bancario con cumplimiento de PCI DSS y protección contra fraudes",
+            "benefits": {
+              "pci": "Cumplimiento de PCI DSS",
+              "fraud": "Detección de fraude",
+              "transactions": "Transacciones seguras",
+              "identity": "Verificación de identidad"
+            }
+          },
+          "payment": {
+            "title": "Soporte de pago",
+            "description": "Soporte integral de procesamiento de pagos y resolución de disputas",
+            "benefits": {
+              "tracking": "Seguimiento de transacciones",
+              "dispute": "Manejo de disputas",
+              "refund": "Procesamiento de reembolsos",
+              "methods": "Métodos de pago"
+            }
+          },
+          "investment": {
+            "title": "Orientación de inversión",
+            "description": "Asesoramiento de inversión impulsado por IA y soporte de gestión de carteras",
+            "benefits": {
+              "insights": "Información del mercado",
+              "portfolio": "Análisis de cartera",
+              "risk": "Evaluación de riesgos",
+              "recommendations": "Recomendaciones de inversión"
+            }
+          },
+          "compliance": {
+            "title": "Cumplimiento normativo",
+            "description": "Cumplimiento integrado con las regulaciones financieras y los requisitos de presentación de informes",
+            "benefits": {
+              "kyc": "Cumplimiento de KYC/AML",
+              "reporting": "Informes regulatorios",
+              "audit": "Pistas de auditoría",
+              "protection": "Protección de datos"
+            }
+          }
+        },
+        "impactTitle": "Impacto de los servicios financieros",
+        "impactSubtitle": "Resultados reales de instituciones financieras que usan SeaChat para la atención al cliente.",
+        "metrics": {
+          "accuracy": {
+            "label": "Precisión de la transacción",
+            "description": "Con procesamiento y verificación automatizados"
+          },
+          "resolution": {
+            "label": "Resolución más rápida",
+            "description": "Para consultas y disputas financieras"
+          },
+          "fraud": {
+            "label": "Tasa de detección de fraude",
+            "description": "Con sistemas de monitoreo impulsados por IA"
+          },
+          "satisfaction": {
+            "label": "Satisfacción del cliente",
+            "description": "Para interacciones de soporte financiero"
+          }
+        },
+        "useCasesTitle": "Casos de uso de soporte financiero",
+        "useCasesSubtitle": "Vea cómo SeaChat maneja consultas y transacciones financieras complejas.",
+        "useCases": {
+          "account": {
+            "title": "Gestión de cuentas",
+            "description": "Ayude a los clientes con la configuración, verificación y administración de la cuenta",
+            "example": "Necesito ayuda para configurar mi cuenta comercial",
+            "outcome": "Configuración de cuenta guiada con verificación de documentos y verificaciones de cumplimiento"
+          },
+          "transaction": {
+            "title": "Consultas de transacciones",
+            "description": "Proporcione el estado de la transacción en tiempo real y la información del historial",
+            "example": "¿Dónde está mi transferencia bancaria a la empresa ABC?",
+            "outcome": "Seguimiento de transacciones en tiempo real con actualizaciones de estado detalladas"
+          },
+          "fraud": {
+            "title": "Prevención de fraude",
+            "description": "Detecte y prevenga actividades fraudulentas con el monitoreo de IA",
+            "example": "Veo un cargo sospechoso en mi cuenta",
+            "outcome": "Investigación inmediata de fraude y medidas de protección de la cuenta"
+          },
+          "investment": {
+            "title": "Soporte de inversión",
+            "description": "Brindar orientación de inversión y asistencia en la gestión de carteras",
+            "example": "¿Debería invertir en acciones de tecnología en este momento?",
+            "outcome": "Asesoramiento de inversión personalizado basado en el perfil de riesgo y el análisis de mercado"
+          }
+        },
+        "customerInquiry": "Consulta del cliente",
+        "seachatResponse": "Respuesta de SeaChat",
+        "securityTitle": "Seguridad y cumplimiento de nivel bancario",
+        "securitySubtitle": "Creado con los más altos estándares de seguridad y requisitos de cumplimiento normativo para instituciones de servicios financieros.",
+        "regulatoryTitle": "Cumplimiento normativo",
+        "regulations": {
+          "pci": {
+            "name": "PCI DSS",
+            "description": "Estándar de seguridad de datos de la industria de tarjetas de pago",
+            "status": "Compatible"
+          },
+          "sox": {
+            "name": "SOX",
+            "description": "Cumplimiento de la Ley Sarbanes-Oxley",
+            "status": "Compatible"
+          },
+          "gdpr": {
+            "name": "GDPR",
+            "description": "Reglamento general de protección de datos",
+            "status": "Compatible"
+          },
+          "kyc": {
+            "name": "KYC/AML",
+            "description": "Conozca a su cliente / Antilavado de dinero",
+            "status": "Soportado"
+          },
+          "ccpa": {
+            "name": "CCPA",
+            "description": "Ley de Privacidad del Consumidor de California",
+            "status": "Compatible"
+          },
+          "finra": {
+            "name": "FINRA",
+            "description": "Autoridad Reguladora de la Industria Financiera",
+            "status": "Soportado"
+          }
+        },
+        "ctaTitle": "¿Listo para asegurar sus servicios financieros?",
+        "ctaSubtitle": "Únase a las instituciones financieras que ya usan SeaChat para brindar un soporte al cliente seguro y compatible que genera confianza e impulsa el crecimiento.",
+        "ctaTrialButton": "Comience Fintech gratis",
+        "ctaDemoButton": "Programar demostración financiera"
+      },
+      "ecommerce": {
+        "title": "Comercio electrónico y minorista",
+        "subtitle": "Transforme su tienda en línea con un soporte al cliente inteligente que impulsa las ventas, reduce el abandono del carrito y crea clientes leales.",
+        "trialButton": "Comience el comercio electrónico de forma gratuita",
+        "demoButton": "Programar demostración de comercio electrónico",
+        "featuresTitle": "Funciones especializadas en comercio electrónico",
+        "featuresSubtitle": "Funciones especialmente diseñadas para que los minoristas en línea maximicen las ventas y la satisfacción del cliente.",
+        "features": {
+          "orders": {
+            "title": "Integración de la gestión de pedidos",
+            "description": "Integre sin problemas con su plataforma de comercio electrónico para el seguimiento y las actualizaciones de pedidos en tiempo real.",
+            "benefits": {
+              "status": "Estado del pedido en tiempo real",
+              "shipping": "Actualizaciones de envío automáticas",
+              "returns": "Procesamiento de devoluciones",
+              "inventory": "Consultas de inventario"
+            }
+          },
+          "accounts": {
+            "title": "Soporte de cuenta de cliente",
+            "description": "Ayude a los clientes con problemas de cuenta, restablecimiento de contraseñas y administración de perfiles.",
+            "benefits": {
+              "recovery": "Recuperación de cuenta",
+              "updates": "Actualizaciones de perfil",
+              "subscriptions": "Gestión de suscripciones",
+              "billing": "Soporte de facturación"
+            }
+          },
+          "recommendations": {
+            "title": "Recomendaciones de productos",
+            "description": "Sugerencias de productos impulsadas por IA basadas en las preferencias del cliente y el historial de navegación.",
+            "benefits": {
+              "personalized": "Sugerencias personalizadas",
+              "cross": "Oportunidades de venta cruzada",
+              "upselling": "Automatización de ventas adicionales",
+              "inventory": "Optimización de inventario"
+            }
+          },
+          "assistance": {
+            "title": "Asistencia de compras 24/7",
+            "description": "Soporte las 24 horas para clientes en diferentes zonas horarias y patrones de compra.",
+            "benefits": {
+              "global": "Cobertura global",
+              "peak": "Soporte en horas pico",
+              "holiday": "Asistencia en vacaciones",
+              "mobile": "Ayuda para compras móviles"
+            }
+          }
+        },
+        "resultsTitle": "Resultados probados de comercio electrónico",
+        "resultsSubtitle": "Métricas del mundo real de empresas de comercio electrónico que usan SeaChat para la atención al cliente.",
+        "metrics": {
+          "conversion": {
+            "label": "Aumento de la conversión de ventas",
+            "description": "A través de un soporte proactivo al cliente"
+          },
+          "abandonment": {
+            "label": "Reducción del abandono del carrito",
+            "description": "Con asistencia de compras en tiempo real"
+          },
+          "resolution": {
+            "label": "Resolución de pedidos más rápida",
+            "description": "Actualizaciones automáticas del estado de los pedidos"
+          },
+          "satisfaction": {
+            "label": "Tasa de satisfacción del cliente",
+            "description": "Para interacciones de soporte de comercio electrónico"
+          }
+        },
+        "integrationsTitle": "Integraciones de la plataforma de comercio electrónico",
+        "integrationsSubtitle": "Conéctese sin problemas con su pila de comercio electrónico existente para un soporte al cliente unificado.",
+        "integrations": {
+          "shopify": {
+            "name": "Shopify",
+            "description": "Aplicación nativa de Shopify con integración completa de pedidos"
+          },
+          "woocommerce": {
+            "name": "WooCommerce",
+            "description": "Complemento de WordPress para tiendas de WooCommerce"
+          },
+          "magento": {
+            "name": "Magento",
+            "description": "Integración de Magento de nivel empresarial"
+          },
+          "bigcommerce": {
+            "name": "BigCommerce",
+            "description": "Integración completa de la API de BigCommerce"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "Soporte de procesamiento de pagos y facturación"
+          },
+          "paypal": {
+            "name": "PayPal",
+            "description": "Manejo de transacciones y disputas de PayPal"
+          }
+        },
+        "successTitle": "Historia de éxito: minorista de moda",
+        "challenge": "Desafío",
+        "challengeDescription": "Alta tasa de abandono del carrito y clientes que se van debido a preguntas sobre el tamaño y preocupaciones sobre la disponibilidad del producto.",
+        "solution": "Solución",
+        "solutionDescription": "Implementó SeaChat con integración del catálogo de productos, guías de tallas y recuperación proactiva de carritos abandonados.",
+        "results": "Resultados",
+        "result1": "Aumento del 45% en la tasa de conversión",
+        "result2": "Reducción del 60% en el abandono del carrito",
+        "result3": "$2.3 millones de ingresos adicionales en 6 meses",
+        "chatPreview": "Vista previa del chat en vivo",
+        "customer": "Cliente",
+        "customerQuestion": "¿Este vestido está disponible en talla M?",
+        "seachatAI": "SeaChat AI",
+        "aiResponse1": "¡Sí! El vestido de verano azul está disponible en talla M. Tenemos 3 en stock. ¿Le gustaría que lo agregue a su carrito?",
+        "customerResponse": "¡Perfecto! Sí, por favor agréguelo.",
+        "aiResponse2": "¡Agregado al carrito! 🛍️ Califica para envío gratis. ¿Listo para pagar?",
+        "ctaTitle": "¿Listo para impulsar sus ventas de comercio electrónico?",
+        "ctaSubtitle": "Únase a cientos de minoristas en línea que usan SeaChat para aumentar las conversiones, reducir el abandono del carrito y crear experiencias de compra excepcionales.",
+        "ctaTrialButton": "Comience el comercio electrónico de forma gratuita",
+        "ctaDemoButton": "Programar demostración de comercio electrónico"
+      },
+      "education": {
+        "title": "Soluciones educativas",
+        "subtitle": "Transforme el soporte educativo con asistencia impulsada por IA para estudiantes, padres, profesores y personal. Agilice las operaciones y mejore la experiencia de aprendizaje.",
+        "trialButton": "Comience la educación gratis",
+        "demoButton": "Programar demostración de educación",
+        "featuresTitle": "Características específicas de la educación",
+        "featuresSubtitle": "Funciones especialmente diseñadas para que las instituciones educativas mejoren el éxito de los estudiantes y la eficiencia operativa.",
+        "features": {
+          "student": {
+            "title": "Servicios de apoyo estudiantil",
+            "description": "Soporte integral para consultas de estudiantes, inscripción y asistencia académica",
+            "benefits": {
+              "support": "Soporte estudiantil 24/7",
+              "enrollment": "Asistencia para la inscripción",
+              "academic": "Orientación académica",
+              "technical": "Ayuda técnica"
+            }
+          },
+          "admin": {
+            "title": "Automatización administrativa",
+            "description": "Agilice las tareas administrativas con programación y notificaciones automatizadas",
+            "benefits": {
+              "scheduling": "Programación de clases",
+              "events": "Gestión de eventos",
+              "deadlines": "Recordatorios de fechas límite",
+              "registration": "Soporte de registro"
+            }
+          },
+          "stakeholder": {
+            "title": "Soporte de múltiples partes interesadas",
+            "description": "Apoye a estudiantes, padres, profesores y personal con experiencias personalizadas",
+            "benefits": {
+              "portals": "Portales de estudiantes",
+              "parent": "Comunicación con los padres",
+              "faculty": "Asistencia de la facultad",
+              "staff": "Coordinación del personal"
+            }
+          },
+          "lms": {
+            "title": "Integración de la gestión del aprendizaje",
+            "description": "Integración perfecta con plataformas LMS y herramientas educativas",
+            "benefits": {
+              "connectivity": "Conectividad LMS",
+              "grades": "Consultas de calificaciones",
+              "assignments": "Ayuda con las tareas",
+              "courses": "Información del curso"
+            }
+          }
+        },
+        "stakeholdersTitle": "Soporte para todas las partes interesadas",
+        "stakeholdersSubtitle": "Experiencias personalizadas para cada miembro de su comunidad educativa.",
+        "stakeholders": {
+          "students": {
+            "title": "Estudiantes",
+            "description": "Soporte académico, ayuda para la inscripción y servicios del campus",
+            "features": {
+              "courses": "Información del curso",
+              "assignments": "Fechas límite de las tareas",
+              "grades": "Consultas de calificaciones",
+              "campus": "Navegación del campus"
+            }
+          },
+          "parents": {
+            "title": "Padres",
+            "description": "Manténgase informado sobre el progreso de los estudiantes y las actualizaciones institucionales",
+            "features": {
+              "progress": "Actualizaciones de progreso",
+              "payment": "Información de pago",
+              "events": "Notificaciones de eventos",
+              "communication": "Comunicación con la facultad"
+            }
+          },
+          "faculty": {
+            "title": "Facultad",
+            "description": "Soporte administrativo y asistencia docente",
+            "features": {
+              "management": "Gestión de clases",
+              "inquiries": "Consultas de los estudiantes",
+              "resources": "Solicitudes de recursos",
+              "technical": "Soporte técnico"
+            }
+          },
+          "staff": {
+            "title": "Personal",
+            "description": "Eficiencia operativa y automatización administrativa",
+            "features": {
+              "automation": "Automatización de procesos",
+              "information": "Acceso a la información",
+              "workflow": "Gestión del flujo de trabajo",
+              "reporting": "Herramientas de informes"
+            }
+          }
+        },
+        "metricsTitle": "Métricas de impacto educativo",
+        "metricsSubtitle": "Resultados del mundo real de instituciones educativas que usan SeaChat para el apoyo estudiantil y administrativo.",
+        "metrics": {
+          "admin": {
+            "label": "Reducción de la carga de trabajo del administrador",
+            "description": "A través de consultas automatizadas de los estudiantes"
+          },
+          "satisfaction": {
+            "label": "Satisfacción del estudiante",
+            "description": "Con disponibilidad de soporte 24/7"
+          },
+          "response": {
+            "label": "Tiempo de respuesta más rápido",
+            "description": "Para consultas de estudiantes y padres"
+          },
+          "enrollment": {
+            "label": "Aumento de la inscripción",
+            "description": "Con un proceso de solicitud simplificado"
+          }
+        },
+        "useCasesTitle": "Casos de uso educativos comunes",
+        "useCasesSubtitle": "Vea cómo SeaChat maneja las interacciones típicas de los estudiantes y administrativos.",
+        "useCases": {
+          "enrollment": {
+            "title": "Inscripción de estudiantes",
+            "description": "Guíe a los estudiantes potenciales a través del proceso de inscripción",
+            "example": "Quiero postularme para el programa de Ciencias de la Computación",
+            "outcome": "Guía de inscripción paso a paso con los requisitos de los documentos y los plazos"
+          },
+          "academic": {
+            "title": "Soporte académico",
+            "description": "Brindar asistencia académica e información del curso",
+            "example": "¿Cuándo es la fecha límite para mi tarea de historia?",
+            "outcome": "Acceso en tiempo real a los plazos de las tareas y las pautas de envío"
+          },
+          "campus": {
+            "title": "Servicios del campus",
+            "description": "Ayuda con las instalaciones del campus, el comedor, la vivienda y el transporte",
+            "example": "¿Cómo reservo una sala de estudio en la biblioteca?",
+            "outcome": "Integración directa del sistema de reservas con disponibilidad y confirmación"
+          },
+          "financial": {
+            "title": "Ayuda financiera",
+            "description": "Ayudar con las solicitudes de ayuda financiera y la información sobre becas",
+            "example": "¿Para qué becas soy elegible?",
+            "outcome": "Recomendaciones de becas personalizadas basadas en el perfil del estudiante"
+          }
+        },
+        "studentInquiry": "Consulta del estudiante",
+        "seachatResponse": "Respuesta de SeaChat",
+        "integrationsTitle": "Integraciones de la plataforma educativa",
+        "integrationsSubtitle": "Conéctese sin problemas con las herramientas y plataformas educativas populares.",
+        "integrations": {
+          "canvas": {
+            "name": "Canvas LMS",
+            "description": "Integración del sistema de gestión del aprendizaje"
+          },
+          "blackboard": {
+            "name": "Blackboard",
+            "description": "Gestión de cursos y entrega de contenido"
+          },
+          "moodle": {
+            "name": "Moodle",
+            "description": "Plataforma de aprendizaje de código abierto"
+          },
+          "google": {
+            "name": "Google Classroom",
+            "description": "Plataforma de colaboración educativa"
+          },
+          "zoom": {
+            "name": "Zoom",
+            "description": "Videoconferencia para clases virtuales"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Colaboración y comunicación educativa"
+          },
+          "sis": {
+            "name": "Sistemas de información estudiantil",
+            "description": "Integración de SIS para registros de estudiantes"
+          },
+          "library": {
+            "name": "Sistemas de biblioteca",
+            "description": "Reserva de recursos y búsqueda en el catálogo"
+          }
+        },
+        "ctaTitle": "¿Listo para transformar el soporte educativo?",
+        "ctaSubtitle": "Únase a las instituciones educativas que ya usan SeaChat para mejorar el éxito de los estudiantes y agilizar las operaciones administrativas.",
+        "ctaTrialButton": "Comience la educación gratis",
+        "ctaDemoButton": "Programar demostración de educación"
+      },
+      "realEstate": {
+        "title": "Soluciones inmobiliarias",
+        "subtitle": "Transforme su negocio inmobiliario con un soporte al cliente impulsado por IA que captura clientes potenciales, coordina visitas y brinda asistencia al cliente las 24 horas del día, los 7 días de la semana.",
+        "trialButton": "Comience gratis en el sector inmobiliario",
+        "demoButton": "Programar demostración de bienes raíces",
+        "featuresTitle": "Características especializadas en bienes raíces",
+        "featuresSubtitle": "Funciones especialmente diseñadas para que los profesionales inmobiliarios capturen clientes potenciales y atiendan mejor a los clientes.",
+        "features": {
+          "search": {
+            "title": "Asistencia en la búsqueda de propiedades",
+            "description": "Ayude a los clientes a encontrar su propiedad perfecta con búsquedas y recomendaciones impulsadas por IA",
+            "benefits": {
+              "matching": "Coincidencia de propiedades inteligente",
+              "insights": "Información del mercado",
+              "neighborhood": "Información del vecindario",
+              "analysis": "Análisis de precios"
+            }
+          },
+          "showing": {
+            "title": "Coordinación de visitas",
+            "description": "Agilice las visitas a las propiedades con programación y coordinación automatizadas",
+            "benefits": {
+              "scheduling": "Programación automatizada",
+              "availability": "Sincronización de disponibilidad",
+              "reminders": "Notificaciones de recordatorio",
+              "route": "Optimización de rutas"
+            }
+          },
+          "leads": {
+            "title": "Gestión de leads",
+            "description": "Capture y fomente clientes potenciales con calificación y seguimiento inteligentes",
+            "benefits": {
+              "qualification": "Calificación de leads",
+              "followup": "Seguimiento automatizado",
+              "crm": "Integración de CRM",
+              "tracking": "Seguimiento de conversiones"
+            }
+          },
+          "communication": {
+            "title": "Comunicación con el cliente",
+            "description": "Soporte al cliente 24/7 para consultas, actualizaciones y asistencia en transacciones",
+            "benefits": {
+              "availability": "Disponibilidad 24/7",
+              "updates": "Actualizaciones de transacciones",
+              "assistance": "Asistencia con documentos",
+              "market": "Actualizaciones del mercado"
+            }
+          }
+        },
+        "metricsTitle": "Métricas de impacto en el sector inmobiliario",
+        "metricsSubtitle": "Resultados del mundo real de profesionales inmobiliarios que usan SeaChat para el soporte al cliente y la generación de clientes potenciales.",
+        "metrics": {
+          "leads": {
+            "label": "Más clientes potenciales calificados",
+            "description": "A través de la calificación inteligente de clientes potenciales"
+          },
+          "response": {
+            "label": "Tiempo de respuesta más rápido",
+            "description": "Para consultas y solicitudes de clientes"
+          },
+          "showing": {
+            "label": "Eficiencia en las visitas",
+            "description": "Con coordinación de programación automatizada"
+          },
+          "satisfaction": {
+            "label": "Satisfacción del cliente",
+            "description": "Con disponibilidad de soporte 24/7"
+          }
+        },
+        "propertyTypesTitle": "Todos los tipos de propiedades compatibles",
+        "propertyTypesSubtitle": "Ya sea que se especialice en propiedades residenciales, comerciales o de inversión, lo tenemos cubierto.",
+        "propertyTypes": {
+          "residential": {
+            "name": "Ventas residenciales",
+            "description": "Viviendas unifamiliares, condominios y casas adosadas"
+          },
+          "commercial": {
+            "name": "Bienes raíces comerciales",
+            "description": "Edificios de oficinas, locales comerciales y almacenes"
+          },
+          "rental": {
+            "name": "Propiedades de alquiler",
+            "description": "Complejos de apartamentos y gestión de alquileres"
+          },
+          "luxury": {
+            "name": "Propiedades de lujo",
+            "description": "Viviendas de alta gama y listados exclusivos"
+          },
+          "investment": {
+            "name": "Propiedades de inversión",
+            "description": "Inversiones de reparación y alquiler"
+          },
+          "new": {
+            "name": "Nueva construcción",
+            "description": "Asociaciones de constructores y nuevos desarrollos"
+          }
+        },
+        "useCasesTitle": "Casos de uso de bienes raíces",
+        "useCasesSubtitle": "Vea cómo SeaChat maneja las interacciones típicas de los clientes inmobiliarios y la generación de clientes potenciales.",
+        "useCases": {
+          "property": {
+            "title": "Consultas sobre propiedades",
+            "description": "Maneje las preguntas sobre propiedades y proporcione información detallada",
+            "example": "Hábleme de la casa de 3 dormitorios en Oak Street",
+            "outcome": "Información detallada de la propiedad con fotos, precios y datos del vecindario"
+          },
+          "showing": {
+            "title": "Solicitudes de visita",
+            "description": "Programe visitas a propiedades y coordine con todas las partes",
+            "example": "Me gustaría programar una visita para este fin de semana",
+            "outcome": "Programación automatizada con disponibilidad y confirmación del agente"
+          },
+          "market": {
+            "title": "Análisis de mercado",
+            "description": "Proporcione información sobre el mercado y valoraciones de propiedades",
+            "example": "¿Cuánto vale mi casa en el mercado actual?",
+            "outcome": "Análisis comparativo de mercado con ventas y tendencias recientes"
+          },
+          "transaction": {
+            "title": "Soporte de transacciones",
+            "description": "Guíe a los clientes a través del proceso de compra o venta",
+            "example": "¿Qué documentos necesito para el cierre?",
+            "outcome": "Lista de verificación de los documentos requeridos con plazos e instrucciones"
+          }
+        },
+        "clientInquiry": "Consulta del cliente",
+        "seachatResponse": "Respuesta de SeaChat",
+        "integrationsTitle": "Integraciones de la plataforma inmobiliaria",
+        "integrationsSubtitle": "Conéctese sin problemas con las herramientas y plataformas que ya utiliza para administrar su negocio inmobiliario.",
+        "leadCaptureTitle": "Ejemplo de captura de clientes potenciales",
+        "websiteVisitor": "Visitante del sitio web",
+        "visitorQuery": "Estoy buscando una casa de 3 dormitorios por menos de $500,000",
+        "seachatAI": "SeaChat AI",
+        "aiResponse": "¡Me encantaría ayudarte a encontrar la casa perfecta! Tengo varias propiedades de 3 dormitorios por menos de $500,000. ¿Puedo obtener su información de contacto para enviarle algunas opciones?",
+        "visitorResponse": "¡Claro! Mi correo electrónico es john@email.com",
+        "systemAction": "Acción del sistema",
+        "leadCaptured": "Cliente potencial capturado y agregado a CRM con preferencias de propiedad",
+        "ctaTitle": "¿Listo para transformar su negocio inmobiliario?",
+        "ctaSubtitle": "Únase a los profesionales inmobiliarios que ya usan SeaChat para capturar más clientes potenciales, coordinar visitas y brindar un servicio al cliente excepcional.",
+        "ctaTrialButton": "Comience gratis en el sector inmobiliario",
+        "ctaDemoButton": "Programar demostración de bienes raíces",
+        "integrations": {
+          "0": "Integración de MLS",
+          "1": "Sistemas CRM",
+          "2": "Gestión de la propiedad",
+          "3": "Herramientas de generación de leads",
+          "4": "Calendario y programación",
+          "5": "Marketing por correo electrónico",
+          "6": "Gestión de documentos",
+          "7": "Plataformas de visitas virtuales"
+        }
+      },
+      "saas": {
+        "title": "SaaS y tecnología",
+        "subtitle": "Acelere la adopción de los usuarios y reduzca la rotación con un soporte al cliente inteligente que brinda asistencia técnica, orientación de incorporación y gestión proactiva del éxito.",
+        "trialButton": "Comience SaaS gratis",
+        "demoButton": "Programar demostración de SaaS",
+        "featuresTitle": "Características específicas de SaaS",
+        "featuresSubtitle": "Funciones especialmente diseñadas para que las empresas de SaaS impulsen el éxito de los usuarios y el crecimiento empresarial.",
+        "features": {
+          "technical": {
+            "title": "Soporte técnico",
+            "description": "Brindar asistencia técnica experta para problemas e integraciones de software",
+            "benefits": {
+              "api": "Ayuda con la documentación de la API",
+              "integration": "Soporte de integración",
+              "troubleshooting": "Guías de solución de problemas",
+              "resources": "Recursos para desarrolladores"
+            }
+          },
+          "onboarding": {
+            "title": "Incorporación de usuarios",
+            "description": "Agilice la incorporación de usuarios con una configuración guiada y una introducción a las funciones",
+            "benefits": {
+              "tutorials": "Tutoriales interactivos",
+              "walkthroughs": "Tutoriales de funciones",
+              "setup": "Asistencia de configuración",
+              "practices": "Mejores prácticas"
+            }
+          },
+          "success": {
+            "title": "Éxito del cliente",
+            "description": "Impulse la adopción de productos y reduzca la rotación con un soporte proactivo",
+            "benefits": {
+              "analytics": "Análisis de uso",
+              "adoption": "Adopción de funciones",
+              "churn": "Prevención de la rotación",
+              "upselling": "Oportunidades de venta adicional"
+            }
+          },
+          "security": {
+            "title": "Seguridad y cumplimiento",
+            "description": "Aborde las preocupaciones de seguridad y los requisitos de cumplimiento",
+            "benefits": {
+              "documentation": "Documentación de seguridad",
+              "compliance": "Guías de cumplimiento",
+              "protection": "Protección de datos",
+              "audit": "Soporte de auditoría"
+            }
+          }
+        },
+        "useCases": {
+          "api": {
+            "title": "Ayuda con la integración de la API",
+            "description": "Ayude a los desarrolladores con la implementación y la solución de problemas de la API",
+            "example": "¿Cómo me autentico con su API?",
+            "outcome": "Guía de autenticación paso a paso con ejemplos de código y herramientas de prueba"
+          },
+          "feature": {
+            "title": "Orientación de funciones",
+            "description": "Ayude a los usuarios a descubrir e implementar funciones avanzadas",
+            "example": "¿Cómo configuro los flujos de trabajo automatizados?",
+            "outcome": "Tutorial interactivo con plantillas de flujo de trabajo y asistencia de configuración"
+          },
+          "billing": {
+            "title": "Facturación y suscripciones",
+            "description": "Maneje las consultas de facturación y la gestión de suscripciones",
+            "example": "Quiero actualizar mi plan, ¿cuáles son las diferencias?",
+            "outcome": "Comparación de planes con detalles de precios y asistencia de actualización"
+          },
+          "performance": {
+            "title": "Optimización del rendimiento",
+            "description": "Brindar orientación sobre la optimización del rendimiento del software",
+            "example": "Mi panel se carga lentamente, ¿cómo puedo solucionarlo?",
+            "outcome": "Análisis de rendimiento con recomendaciones de optimización y ayuda de implementación"
+          }
+        },
+        "metrics": {
+          "tickets": {
+            "label": "Tickets de soporte reducidos",
+            "description": "A través de la automatización de autoservicio"
+          },
+          "onboarding": {
+            "label": "Incorporación más rápida",
+            "description": "Con asistencia de configuración guiada"
+          },
+          "adoption": {
+            "label": "Mayor adopción de funciones",
+            "description": "A través de la orientación proactiva de las funciones"
+          },
+          "churn": {
+            "label": "Tasa de rotación reducida",
+            "description": "Con el éxito proactivo del cliente"
+          }
+        },
+        "types": {
+          "b2b": {
+            "title": "Plataformas SaaS B2B",
+            "description": "Software empresarial y herramientas comerciales",
+            "features": {
+              "tenant": "Soporte multiinquilino",
+              "security": "Seguridad empresarial",
+              "api": "Documentación de la API",
+              "assistance": "Asistencia de integración"
+            }
+          },
+          "developer": {
+            "title": "Herramientas para desarrolladores",
+            "description": "API, SDK y plataformas de desarrollo",
+            "features": {
+              "examples": "Ejemplos de código",
+              "documentation": "Documentación técnica",
+              "debugging": "Ayuda para la depuración",
+              "community": "Soporte de la comunidad"
+            }
+          },
+          "marketing": {
+            "title": "Software de marketing",
+            "description": "Herramientas de automatización de marketing y análisis",
+            "features": {
+              "campaign": "Configuración de la campaña",
+              "analytics": "Orientación de análisis",
+              "integration": "Ayuda de integración",
+              "practices": "Mejores prácticas"
+            }
+          },
+          "productivity": {
+            "title": "Aplicaciones de productividad",
+            "description": "Software de colaboración y productividad",
+            "features": {
+              "tutorials": "Tutoriales de funciones",
+              "workflow": "Optimización del flujo de trabajo",
+              "team": "Configuración del equipo",
+              "usage": "Análisis de uso"
+            }
+          },
+          "ecommerce": {
+            "title": "Plataformas de comercio electrónico",
+            "description": "Tienda en línea y soluciones de pago",
+            "features": {
+              "store": "Configuración de la tienda",
+              "payment": "Integración de pagos",
+              "theme": "Personalización del tema",
+              "performance": "Optimización del rendimiento"
+            }
+          },
+          "analytics": {
+            "title": "Plataformas de análisis",
+            "description": "Análisis de datos e inteligencia empresarial",
+            "features": {
+              "dashboard": "Creación de paneles",
+              "data": "Integración de datos",
+              "report": "Generación de informes",
+              "visualization": "Ayuda para la visualización"
+            }
+          }
+        },
+        "typesTitle": "Todas las categorías de SaaS compatibles",
+        "typesSubtitle": "Desde plataformas empresariales hasta herramientas para desarrolladores, admitimos todo tipo de negocios de SaaS.",
+        "impactTitle": "Impacto comercial de SaaS",
+        "impactSubtitle": "Resultados reales de empresas de SaaS que usan SeaChat para la atención y el éxito del cliente.",
+        "useCasesTitle": "Casos de uso de soporte de SaaS",
+        "useCasesSubtitle": "Vea cómo SeaChat maneja las interacciones típicas de los clientes de SaaS y el soporte técnico.",
+        "userQuestion": "Pregunta del usuario",
+        "seachatResponse": "Respuesta de SeaChat",
+        "integrationsTitle": "Integraciones de la plataforma SaaS",
+        "integrationsSubtitle": "Conéctese con las herramientas y plataformas que impulsan su negocio de SaaS para operaciones unificadas de éxito del cliente.",
+        "successFlowTitle": "Flujo de éxito del cliente",
+        "flow": {
+          "onboarding": {
+            "title": "Incorporación de usuarios",
+            "description": "Configuración guiada e introducción de funciones"
+          },
+          "adoption": {
+            "title": "Adopción de funciones",
+            "description": "Recomendaciones proactivas de funciones"
+          },
+          "monitoring": {
+            "title": "Monitoreo de uso",
+            "description": "Realice un seguimiento de la participación e identifique problemas"
+          },
+          "growth": {
+            "title": "Éxito y crecimiento",
+            "description": "Oportunidades de venta adicional y expansión"
+          }
+        },
+        "ctaTitle": "¿Listo para acelerar el crecimiento de SaaS?",
+        "ctaSubtitle": "Únase a las empresas de SaaS que ya usan SeaChat para impulsar la adopción de los usuarios, reducir la rotación y acelerar el éxito de los clientes.",
+        "ctaTrialButton": "Comience SaaS gratis",
+        "ctaDemoButton": "Programar demostración de SaaS",
+        "integrations": {
+          "0": "Integración de Slack",
+          "1": "Salesforce CRM",
+          "2": "HubSpot",
+          "3": "Zendesk",
+          "4": "Intercom",
+          "5": "Stripe",
+          "6": "Google Analytics",
+          "7": "Microsoft Teams",
+          "8": "Jira",
+          "9": "GitHub",
+          "10": "Atlassian Suite",
+          "11": "Servicios de AWS"
+        }
+      },
+      "smallBusiness": {
+        "title": "Soluciones para pequeñas empresas",
+        "subtitle": "Soporte al cliente asequible y fácil de usar para pequeñas empresas. Comience gratis y crezca con funciones que lo ayudan a atender mejor a los clientes sin arruinarse.",
+        "startButton": "Comience gratis hoy",
+        "demoButton": "Ver demostración para pequeñas empresas",
+        "featuresTitle": "Creado para el éxito de las pequeñas empresas",
+        "featuresSubtitle": "Todo lo que las pequeñas empresas necesitan para brindar un soporte al cliente profesional sin la complejidad ni el costo.",
+        "features": {
+          "local": {
+            "title": "Soporte para empresas locales",
+            "description": "Perfecto para tiendas, restaurantes y proveedores de servicios locales",
+            "benefits": {
+              "seo": "Optimización de SEO local",
+              "google": "Integración de Google My Business",
+              "reviews": "Gestión de reseñas",
+              "customer": "Base de clientes local"
+            }
+          },
+          "cost": {
+            "title": "Solución rentable",
+            "description": "Precios asequibles que crecen con su negocio",
+            "benefits": {
+              "free": "Plan gratuito disponible",
+              "setup": "Sin tarifas de configuración",
+              "pricing": "Precios flexibles",
+              "roi": "Seguimiento del ROI"
+            }
+          },
+          "setup": {
+            "title": "Configuración rápida",
+            "description": "Comience en minutos, no en horas o días",
+            "benefits": {
+              "minutes": "Configuración de 5 minutos",
+              "templates": "Plantillas preconstruidas",
+              "integration": "Fácil integración",
+              "activation": "Activación instantánea"
+            }
+          },
+          "personal": {
+            "title": "Toque personal",
+            "description": "Mantenga las relaciones personales mientras escala de manera eficiente",
+            "benefits": {
+              "history": "Historial del cliente",
+              "notes": "Notas personales",
+              "relationship": "Construcción de relaciones",
+              "community": "Enfoque en la comunidad local"
+            }
+          }
+        },
+        "typesTitle": "Perfecto para todas las pequeñas empresas",
+        "typesSubtitle": "Desde tiendas minoristas hasta servicios profesionales, apoyamos a todo tipo de pequeñas empresas.",
+        "types": {
+          "retail": {
+            "title": "Tiendas minoristas",
+            "description": "Ropa, electrónica, artículos para el hogar y tiendas especializadas",
+            "features": {
+              "product": "Consultas de productos",
+              "hours": "Horario de la tienda",
+              "inventory": "Verificaciones de inventario",
+              "appointment": "Reserva de citas"
+            }
+          },
+          "restaurants": {
+            "title": "Restaurantes y cafeterías",
+            "description": "Establecimientos de restauración y empresas de servicios de alimentación",
+            "features": {
+              "menu": "Preguntas del menú",
+              "reservations": "Reservas",
+              "takeout": "Pedidos para llevar",
+              "dietary": "Información dietética"
+            }
+          },
+          "professional": {
+            "title": "Servicios profesionales",
+            "description": "Abogados, contadores, consultores y agencias",
+            "features": {
+              "consultation": "Reserva de consultas",
+              "service": "Información del servicio",
+              "documents": "Solicitudes de documentos",
+              "followup": "Programación de seguimiento"
+            }
+          },
+          "health": {
+            "title": "Salud y bienestar",
+            "description": "Gimnasios, spas, clínicas y centros de bienestar",
+            "features": {
+              "appointment": "Programación de citas",
+              "class": "Reservas de clases",
+              "membership": "Información de membresía",
+              "consultations": "Consultas de salud"
+            }
+          },
+          "home": {
+            "title": "Servicios para el hogar",
+            "description": "Contratistas, limpiadores, paisajistas y servicios de reparación",
+            "features": {
+              "quotes": "Cotizaciones de servicios",
+              "scheduling": "Programación",
+              "emergency": "Solicitudes de emergencia",
+              "followup": "Soporte de seguimiento"
+            }
+          },
+          "creative": {
+            "title": "Servicios creativos",
+            "description": "Fotógrafos, diseñadores, artistas y estudios",
+            "features": {
+              "portfolio": "Uso compartido de carteras",
+              "quotes": "Cotizaciones de proyectos",
+              "booking": "Sesiones de reserva",
+              "consultations": "Consultas creativas"
+            }
+          }
+        },
+        "affordableTitle": "Asequible para todos los presupuestos",
+        "affordableSubtitle": "Comience completamente gratis y solo pague por lo que necesita a medida que crece. Sin cargos ocultos, sin contratos a largo plazo, sin sorpresas.",
+        "pricingTitle": "Precios simples",
+        "pricing": {
+          "free": {
+            "title": "Gratis para siempre",
+            "period": "por mes",
+            "agent": "1 agente humano de por vida",
+            "conversations": "Conversaciones ilimitadas",
+            "widget": "Widget básico del sitio web",
+            "support": "Soporte por correo electrónico"
+          },
+          "starter": {
+            "title": "AI Starter",
+            "period": "por mes",
+            "everything": "Todo en Gratis",
+            "ai": "Automatización de IA",
+            "analytics": "Análisis avanzados",
+            "priority": "Soporte prioritario"
+          }
+        },
+        "resultsTitle": "Resultados de pequeñas empresas",
+        "resultsSubtitle": "Resultados reales de pequeñas empresas que usan SeaChat para mejorar el servicio al cliente y hacer crecer su negocio.",
+        "metrics": {
+          "inquiries": {
+            "label": "Más consultas de clientes",
+            "description": "Con disponibilidad 24/7"
+          },
+          "bookings": {
+            "label": "Aumento de las reservas",
+            "description": "A través de la programación automatizada"
+          },
+          "time": {
+            "label": "Ahorro de tiempo",
+            "description": "En preguntas de rutina de los clientes"
+          },
+          "satisfaction": {
+            "label": "Satisfacción del cliente",
+            "description": "Con respuestas instantáneas"
+          }
+        },
+        "scenariosTitle": "Escenarios comunes de pequeñas empresas",
+        "scenariosSubtitle": "Vea cómo SeaChat maneja las interacciones típicas de los clientes de pequeñas empresas.",
+        "useCases": {
+          "inquiries": {
+            "title": "Consultas de clientes",
+            "description": "Maneje preguntas comunes sobre productos, servicios y horarios comerciales",
+            "example": "¿Están abiertos los domingos? ¿A qué hora cierran?",
+            "outcome": "Respuesta instantánea con el horario actual y la información del horario de vacaciones"
+          },
+          "booking": {
+            "title": "Reserva de citas",
+            "description": "Permita que los clientes reserven citas y servicios directamente",
+            "example": "Necesito programar un corte de pelo para este viernes por la tarde",
+            "outcome": "Verificación de disponibilidad en tiempo real con confirmación de reserva y recordatorios"
+          },
+          "product": {
+            "title": "Información del producto",
+            "description": "Proporcione información detallada del producto y disponibilidad",
+            "example": "¿Tienen el iPhone 15 en color azul?",
+            "outcome": "Verificación de disponibilidad del producto con precios y opciones de reserva"
+          },
+          "directions": {
+            "title": "Direcciones locales",
+            "description": "Ayude a los clientes a encontrar su ubicación y obtener direcciones",
+            "example": "¿Cómo llego a su tienda desde el centro?",
+            "outcome": "Mapa interactivo con direcciones e información de estacionamiento"
+          }
+        },
+        "customerQuestion": "Pregunta del cliente",
+        "seachatResponse": "Respuesta de SeaChat",
+        "ctaTitle": "¿Listo para hacer crecer su pequeña empresa?",
+        "ctaSubtitle": "Únase a miles de pequeñas empresas que ya usan SeaChat para brindar un soporte al cliente profesional y hacer crecer su negocio sin los grandes costos comerciales.",
+        "ctaStartButton": "Comience gratis para pequeñas empresas",
+        "ctaDemoButton": "Programar demostración para pequeñas empresas",
+        "affordableFeatures": [
+          "Comience completamente gratis para siempre",
+          "Sin tarifas de configuración ni de incorporación",
+          "Pague solo por las funciones que usa",
+          "Cancele en cualquier momento, sin contratos",
+          "Escale los precios con su crecimiento",
+          "Asistencia de migración gratuita",
+          "Soporte por correo electrónico 24/7 incluido",
+          "Garantía de devolución de dinero de 30 días"
+        ]
+      },
+      "travel": {
+        "bookingFlowTitle": "Flujo de reserva de viajes",
+        "ctaDemoButton": "Programar demostración de viajes",
+        "ctaSubtitle": "Únase a las compañías de viajes que ya usan SeaChat para brindar un servicio al cliente excepcional y agilizar los procesos de reserva en todo el mundo.",
+        "ctaTitle": "¿Listo para transformar las experiencias de viaje?",
+        "ctaTrialButton": "Comience a viajar gratis",
+        "demoButton": "Programar demostración de viajes",
+        "features": {
+          "booking": {
+            "benefits": {
+              "availability": "Disponibilidad en tiempo real",
+              "cancellation": "Soporte de cancelación",
+              "comparisons": "Comparaciones de precios",
+              "modifications": "Modificaciones de reserva"
+            },
+            "description": "Ayude a los clientes con las reservas de vuelos, hoteles y actividades con disponibilidad en tiempo real",
+            "title": "Asistencia de reserva"
+          },
+          "management": {
+            "benefits": {
+              "documents": "Gestión de documentos",
+              "loyalty": "Programas de lealtad",
+              "reminders": "Notificaciones de recordatorio",
+              "tracking": "Seguimiento de viajes"
+            },
+            "description": "Gestión integral de viajes desde la reserva hasta el seguimiento posterior al viaje",
+            "title": "Gestión de viajes"
+          },
+          "planning": {
+            "benefits": {
+              "insights": "Información sobre el destino",
+              "itinerary": "Creación de itinerarios",
+              "recommendations": "Recomendaciones locales",
+              "weather": "Actualizaciones del tiempo"
+            },
+            "description": "Proporcione recomendaciones de viaje personalizadas y planificación de itinerarios",
+            "title": "Planificación de viajes"
+          },
+          "support": {
+            "benefits": {
+              "emergency": "Asistencia de emergencia",
+              "multilanguage": "Ayuda multilingüe",
+              "timezone": "Soporte de zona horaria global",
+              "updates": "Actualizaciones en tiempo real"
+            },
+            "description": "Asistencia las 24 horas para viajeros en diferentes zonas horarias",
+            "title": "Soporte de viaje 24/7"
+          }
+        },
+        "featuresSubtitle": "Funciones especialmente diseñadas para empresas de viajes y hospitalidad para mejorar las experiencias de los clientes.",
+        "featuresTitle": "Características de la industria de viajes",
+        "flow": {
+          "assistance": {
+            "description": "Reserva guiada con procesamiento de pagos",
+            "title": "Asistencia de reserva"
+          },
+          "confirmation": {
+            "description": "Confirmación de reserva con soporte continuo",
+            "title": "Confirmación y soporte"
+          },
+          "inquiry": {
+            "description": "El cliente pregunta sobre las opciones de viaje",
+            "title": "Consulta de viaje"
+          },
+          "search": {
+            "description": "La IA busca en múltiples sistemas",
+            "title": "Búsqueda en tiempo real"
+          }
+        },
+        "impactSubtitle": "Resultados reales de compañías de viajes que usan SeaChat para soporte al cliente y asistencia de reserva.",
+        "impactTitle": "Impacto de la industria de viajes",
+        "integrationsSubtitle": "Conéctese sin problemas con los sistemas de reserva de viajes, las plataformas GDS y las herramientas de gestión de la hospitalidad para operaciones unificadas.",
+        "integrationsTitle": "Integraciones de la industria de viajes",
+        "metrics": {
+          "booking": {
+            "description": "Con búsqueda y reserva asistidas por IA",
+            "label": "Proceso de reserva más rápido",
+            "value": "60%"
+          },
+          "call": {
+            "description": "A través de la asistencia de viaje automatizada",
+            "label": "Volumen de llamadas reducido",
+            "value": "40%"
+          },
+          "resolution": {
+            "description": "Para consultas relacionadas con viajes",
+            "label": "Tasa de resolución de problemas",
+            "value": "95%"
+          },
+          "satisfaction": {
+            "description": "Con disponibilidad de soporte de viaje 24/7",
+            "label": "Satisfacción del cliente",
+            "value": "85%"
+          }
+        },
+        "seachatResponse": "Respuesta de SeaChat",
+        "services": {
+          "agencies": {
+            "description": "Servicios integrales de planificación y reserva de viajes",
+            "features": {
+              "deals": "Paquetes de ofertas",
+              "groups": "Reservas de grupo",
+              "insurance": "Seguro de viaje",
+              "itineraries": "Itinerarios personalizados"
+            },
+            "title": "Agencias de viajes"
+          },
+          "airlines": {
+            "description": "Reservas de vuelos, check-ins y actualizaciones de viajes",
+            "features": {
+              "baggage": "Seguimiento de equipaje",
+              "loyalty": "Programas de lealtad",
+              "seat": "Selección de asientos",
+              "status": "Estado del vuelo"
+            },
+            "title": "Aerolíneas"
+          },
+          "car": {
+            "description": "Asistencia y soporte para el alquiler de vehículos",
+            "features": {
+              "availability": "Disponibilidad de automóviles",
+              "insurance": "Opciones de seguro",
+              "locations": "Lugares de recogida",
+              "roadside": "Asistencia en carretera"
+            },
+            "title": "Alquiler de coches"
+          },
+          "cruise": {
+            "description": "Reserva de cruceros y servicios a bordo",
+            "features": {
+              "cabin": "Selección de cabina",
+              "dining": "Reservas para cenar",
+              "entertainment": "Reserva de entretenimiento",
+              "shore": "Excursiones en tierra"
+            },
+            "title": "Líneas de cruceros"
+          },
+          "hotels": {
+            "description": "Reservas de hotel y servicios para huéspedes",
+            "features": {
+              "amenity": "Información sobre servicios",
+              "booking": "Reserva de habitaciones",
+              "loyalty": "Recompensas de lealtad",
+              "requests": "Solicitudes especiales"
+            },
+            "title": "Hoteles y alojamiento"
+          },
+          "tour": {
+            "description": "Visitas guiadas y reservas de actividades",
+            "features": {
+              "availability": "Disponibilidad de la visita",
+              "equipment": "Alquiler de equipos",
+              "guides": "Guías locales",
+              "sizes": "Tamaños de grupo"
+            },
+            "title": "Operadores turísticos"
+          }
+        },
+        "servicesSubtitle": "Desde aerolíneas hasta hoteles, alquiler de coches y líneas de cruceros, apoyamos todos los aspectos de los viajes.",
+        "servicesTitle": "Todos los servicios de viaje cubiertos",
+        "subtitle": "Transforme las experiencias de viaje con un soporte al cliente impulsado por IA que maneja las reservas, brinda asistencia las 24 horas del día, los 7 días de la semana y crea viajes memorables para sus clientes.",
+        "title": "Viajes y hospitalidad",
+        "travelerRequest": "Solicitud del viajero",
+        "trialButton": "Comience a viajar gratis",
+        "useCases": {
+          "destination": {
+            "description": "Proporcione consejos de viaje, información local y recomendaciones de destinos",
+            "example": "¿Cuáles son los mejores restaurantes de París?",
+            "outcome": "Recomendaciones de restaurantes seleccionadas con reservas e información local",
+            "title": "Información del destino"
+          },
+          "disruptions": {
+            "description": "Maneje los retrasos de los vuelos, las cancelaciones y la asistencia para volver a reservar",
+            "example": "Mi vuelo fue cancelado, ¿cuáles son mis opciones?",
+            "outcome": "Asistencia inmediata para volver a reservar con vuelos alternativos e información de compensación",
+            "title": "Interrupciones de viaje"
+          },
+          "documentation": {
+            "description": "Ayuda con los requisitos de visa, la información del pasaporte y los documentos de viaje",
+            "example": "¿Necesito una visa para viajar a Japón?",
+            "outcome": "Requisitos de visa completos con el proceso de solicitud y el cronograma",
+            "title": "Documentación de viaje"
+          },
+          "flight": {
+            "description": "Ayudar con las reservas, los cambios y las cancelaciones de vuelos",
+            "example": "Necesito cambiar mi vuelo del martes al jueves",
+            "outcome": "Verificación de disponibilidad de vuelos en tiempo real con opciones de cambio de reserva e información sobre tarifas",
+            "title": "Reserva y cambios de vuelos"
+          }
+        },
+        "useCasesSubtitle": "Vea cómo SeaChat maneja las consultas típicas de viajes y la asistencia de reserva.",
+        "useCasesTitle": "Casos de uso de soporte de viaje",
+        "integrations": {
+          "0": "Sistemas GDS (Amadeus, Sabre, Galileo)",
+          "1": "Sistemas de reserva de aerolíneas",
+          "2": "Sistemas de reserva de hotel",
+          "3": "Plataformas de alquiler de coches",
+          "4": "Proveedores de seguros de viaje",
+          "5": "Sistemas de procesamiento de pagos"
+        }
+      }
+    },
+    "channels": {
+      "title": "Conecte todos los canales de clientes",
+      "description": "Unifique todas las comunicaciones con sus clientes en una sola plataforma. Desde WhatsApp hasta llamadas telefónicas, SMS y redes sociales, administre cada conversación desde un solo panel.",
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "description": "Conéctese con los clientes en la plataforma de mensajería más popular del mundo"
+      },
+      "voice": {
+        "title": "Llamadas de voz y telefónicas",
+        "description": "Sistema telefónico profesional con robot de voz de IA y soporte de agentes humanos"
+      },
+      "sms": {
+        "title": "Mensajería SMS",
+        "description": "Llegue a los clientes al instante con campañas de SMS personalizadas"
+      },
+      "website": {
+        "title": "Widget de chat del sitio web",
+        "description": "Convierta a los visitantes del sitio web en conversaciones con un chat impulsado por IA"
+      },
+      "cta": {
+        "exploreAll": "Explorar todos los canales",
+        "subtitle": "Vea cómo los 9 canales funcionan juntos sin problemas"
+      }
+    },
+    "comparison": {
+      "title": "Por qué las empresas en crecimiento eligen Seasalt.ai sobre las alternativas",
+      "description": "Vea cómo nos comparamos con otras soluciones. Somos la única plataforma que ofrece funciones de nivel empresarial con la simplicidad que necesitan las pequeñas empresas.",
+      "recommended": "Recomendado",
+      "table": {
+        "headers": {
+          "platform": "Plataforma",
+          "startingPrice": "Precio inicial",
+          "pricingModel": "Modelo de precios",
+          "unifiedVoiceDigital": "Voz y digital unificados",
+          "aiCapabilities": "Capacidades de IA",
+          "bestFor": "Mejor para"
+        }
+      },
+      "competitors": {
+        "seasalt": {
+          "startingPrice": "$20/agente/mes",
+          "pricingModel": "Precios simples por usuario",
+          "unifiedVoiceDigital": "✅ Sí, soporte nativo",
+          "aiCapabilities": "✅ Sí, voz y chatbot nativos",
+          "bestFor": "PYMES que necesitan una plataforma todo en uno verdaderamente asequible."
+        },
+        "aircall": {
+          "startingPrice": "$30/usuario/mes",
+          "pricingModel": "Por usuario + complementos",
+          "unifiedVoiceDigital": "⚠️ Voz + WhatsApp (complemento)",
+          "aiCapabilities": "⚠️ La IA es un complemento de pago",
+          "bestFor": "Equipos de ventas que pueden permitirse múltiples complementos y cumplir con el mínimo de 3 usuarios."
+        },
+        "ringcentral": {
+          "startingPrice": "$65/agente/mes",
+          "pricingModel": "Niveles complejos",
+          "unifiedVoiceDigital": "❌ Productos separados",
+          "aiCapabilities": "✅ Sí (CCaaS con tecnología de IA)",
+          "bestFor": "Grandes empresas que necesitan una amplia plataforma UCaaS con CCaaS separado."
+        },
+        "genesys": {
+          "startingPrice": "$75/usuario/mes",
+          "pricingModel": "Por usuario + mínimos altos",
+          "unifiedVoiceDigital": "✅ Sí (en planes premium)",
+          "aiCapabilities": "✅ Sí (sistema de tokens complejo)",
+          "bestFor": "Empresas con equipos y presupuestos de centros de contacto dedicados."
+        },
+        "five9": {
+          "startingPrice": "$119/usuario/mes",
+          "pricingModel": "Por usuario + paquetes",
+          "unifiedVoiceDigital": "✅ Sí (en planes premium)",
+          "aiCapabilities": "✅ Sí (IA avanzada)",
+          "bestFor": "Grandes centros de contacto centrados en las salidas que necesitan herramientas de nivel empresarial."
+        },
+        "googleVoice": {
+          "startingPrice": "$10/usuario/mes",
+          "pricingModel": "Por usuario + tarifa de Workspace",
+          "unifiedVoiceDigital": "❌ No",
+          "aiCapabilities": "❌ No (solo transcripción de correo de voz)",
+          "bestFor": "Emprendedores individuales que necesitan un número de teléfono independiente básico (solo en EE. UU.)."
+        }
+      },
+      "cta": {
+        "seeAllComparisons": "Ver todas las comparaciones detalladas"
+      }
+    },
+    "footer": {
+      "product": "Producto",
+      "company": {
+        "productWiki": "Wiki del producto",
+        "apiReferences": "Referencias de API",
+        "careers": "Carreras",
+        "title": "Compañía",
+        "about": "Sobre"
+      },
+      "resources": "Recursos",
+      "legal": {
+        "privacyPolicy": "Política de privacidad",
+        "termsOfService": "Términos de servicio"
+      },
+      "getStarted": "¿Listo para comenzar?",
+      "joinThousands": "Únase a miles de empresas que ya usan SeaChat para brindar experiencias excepcionales a los clientes.",
+      "enterEmail": "Ingrese su correo electrónico",
+      "noCredit": "No se requiere tarjeta de crédito • Configuración en 2 minutos • Cancele en cualquier momento",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. Todos los derechos reservados.",
+      "compliance": "🔒 Cumple con SOC 2",
+      "gdpr": "🛡️ Listo para GDPR",
+      "uptime": "⚡ 99.9% de tiempo de actividad",
+      "brand": {
+        "description": "Transforme su atención al cliente con la combinación perfecta de agentes humanos y automatización de IA. Comience gratis, escale de manera inteligente, tenga éxito más rápido."
+      },
+      "contact": {
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "Seattle, WA"
+      },
+      "stats": {
+        "messagesDaily": "Más de 5 millones de mensajes diarios",
+        "activeUsers": "Más de 100 mil usuarios activos",
+        "uptime": "99.9% de tiempo de actividad"
+      },
+      "cta": {
+        "title": "¿Listo para transformar su atención al cliente?",
+        "description": "Únase a miles de empresas que usan SeaChat para brindar experiencias excepcionales a los clientes con soporte de chat impulsado por IA.",
+        "signUpFree": "Regístrese gratis",
+        "scheduleDemo": "Programar demostración",
+        "disclaimer": "No se requiere tarjeta de crédito • Configuración en 2 minutos • Cancele en cualquier momento"
+      }
+    },
+    "featureComparison": {
+      "title": "¿Por qué elegir SeaChat sobre la competencia?",
+      "subtitle": "Vea cómo SeaChat reemplaza múltiples herramientas con una plataforma integral. Ahorre dinero mientras obtiene más funciones.",
+      "valueTitle": "El valor que obtienes:",
+      "totalValue": "$331 o más/mes",
+      "competitorTotal": "Valor total de los competidores",
+      "priceTitle": "El precio que pagas:",
+      "seachatPrice": "$29.99 /mes",
+      "seachatAll": "Todas las funciones incluidas",
+      "seeDetailedPricing": "Ver precios detallados",
+      "ctaTitle": "¿Listo para experimentar la ventaja de SeaChat?",
+      "ctaSubtitle": "Únase a miles de empresas que eligieron la solución más inteligente y asequible.",
+      "startFree": "Comience gratis ahora",
+      "bookDemo": "Reservar una demostración",
+      "features": {
+        "chatbotWebsite": "Chatbot para sitio web",
+        "chatWidget": "Widget de chat con agente en vivo",
+        "whatsappMessenger": "WhatsApp/Messenger/Instagram",
+        "multiCalendar": "Reservas de varios calendarios",
+        "phoneCallAI": "Agentes de IA de llamadas telefónicas entrantes",
+        "smsActions": "Acciones integradas - SMS",
+        "emailActions": "Acciones integradas - Correo electrónico",
+        "phoneNumber": "Comprar número de teléfono",
+        "agencyMode": "Modo de agencia",
+        "bulkSMS": "SMS, llamadas y WhatsApp salientes masivos",
+        "unlimitedContacts": "Contactos ilimitados",
+        "knowledgeBase": "Base de conocimientos adicional",
+        "extraChatbot": "Chatbot adicional"
+      },
+      "table": {
+        "headers": {
+          "features": "Características",
+          "replaces": "Reemplaza",
+          "otherTools": "Otras herramientas",
+          "seachat": "SeaChat"
+        },
+        "total": "Total",
+        "totalPrice": "$331 o más por mes",
+        "seachatPrice": "$29.99 por mes",
+        "explanations": {
+          "valueYouGet": "↑ El valor que obtienes",
+          "priceYouWouldPay": "↑ El precio que pagarías de otra manera",
+          "priceYouPay": "↑ El precio que pagas"
+        }
+      },
+      "mobile": {
+        "replaces": "Reemplaza:",
+        "otherTools": "Otras herramientas:",
+        "seachat": "SeaChat:",
+        "otherToolsTotal": "Total de otras herramientas:",
+        "seachatTotal": "Total de SeaChat:",
+        "totalPrice": "Más de $331 por mes",
+        "seachatTotalPrice": "$29.99 por mes",
+        "priceYouWouldPay": "↑ El precio que pagarías de otra manera",
+        "priceYouPay": "↑ El precio que pagas"
+      },
+      "uniqueToSeachat": "ÚNICO",
+      "pricing": {
+        "chatbotWebsite": "$99 por mes",
+        "chatWidget": "$23 por agente por mes",
+        "whatsappMessenger": "$89 por usuario por mes",
+        "multiCalendar": "$10 por puesto por mes",
+        "phoneCallAI": "$29 por mes",
+        "smsActions": "$59 por mes",
+        "emailActions": "$20 por mes",
+        "phoneNumber": "$2 a $3 por mes",
+        "unlimitedContacts": "$65 por 10K contactos",
+        "knowledgeBase": "$8 por base de conocimientos adicional",
+        "extraChatbot": "$7 por chatbot adicional"
+      },
+      "seachatValues": {
+        "agencyMode": "Múltiples espacios de trabajo: un espacio de trabajo por cliente",
+        "bulkSMS": "Integre con SeaX desde Seasalt.ai",
+        "unlimitedContacts": "Ilimitado",
+        "knowledgeBase": "5,000 documentos o 50 millones de tokens",
+        "extraChatbot": "10 bots × 5 canales = 50 bots de canal"
+      },
+      "replaces": {
+        "uniqueToSeachat": "ÚNICO para SeaChat"
+      }
+    }
+  }
+}
