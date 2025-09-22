@@ -37,6 +37,12 @@ const { t, translations } = await getTranslationHelpers(currentLang);
 const title = t('seachat.seo.title') || 'SeaChat - AI-Powered Chatbot Platform | SeaSalt.ai';
 const description = t('seachat.seo.description') || 'Transform your customer support with SeaChat\'s AI-powered chatbot platform. Automate conversations across WhatsApp, SMS, webchat, and voice calls.';
 const keywords = t('seachat.seo.keywords') || 'AI chatbot, customer service automation, WhatsApp business, conversational AI, chatbot platform, customer support';
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` }
+];
 ---
 
 <Layout 
@@ -47,6 +53,7 @@ const keywords = t('seachat.seo.keywords') || 'AI chatbot, customer service auto
   type="website"
   headerVersion="seachat"
   footerVersion="seachat"
+  breadcrumbs={breadcrumbs}
 >
   <!-- Hero Section -->
   <Hero 

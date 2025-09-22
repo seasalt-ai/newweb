@@ -29,6 +29,14 @@ const seoData = {
   type: 'website'
 };
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform', url: `/${currentLang}/seavoice/platform/` },
+  { name: 'WhatsApp Voice' }
+];
+
 // Schema.org JSON-LD
 const jsonLd = {
   "@context": "https://schema.org",
@@ -65,6 +73,7 @@ const jsonLd = {
   keywords={seoData.keywords}
   lang={seoData.lang}
   type={seoData.type}
+  breadcrumbs={breadcrumbs}
   customJsonLd={[jsonLd]}
 >
   <div class="min-h-screen bg-white">

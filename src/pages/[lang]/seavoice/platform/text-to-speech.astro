@@ -20,12 +20,36 @@ const { lang } = Astro.params;
 const currentLang = (lang as SupportedLanguage) || 'en';
 const { t, translations } = await getTranslationHelpers(currentLang);
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform', url: `/${currentLang}/seavoice/platform/` },
+  { name: 'Text to Speech' }
+];
+
 // SEO配置
 const seoData = {
   title: t('textToSpeech.hero.title') || 'Text-to-Speech Technology - SeaVoice',
   description: t('textToSpeech.hero.subtitle') || 'Generate human-like speech from text with our advanced neural text-to-speech technology. Create custom voices, support 40+ languages, and deliver exceptional audio quality.',
   canonical: `/${currentLang}/seavoice/platform/text-to-speech`,
 };
+
+// FAQs
+const faqs = [
+  {
+    question: t('textToSpeech.faq.q1') || 'Can I create a custom brand voice?',
+    answer: t('textToSpeech.faq.a1') || 'Yes. SeaVoice supports custom voice cloning with fine-grained control over tone, pronunciation, and style.'
+  },
+  {
+    question: t('textToSpeech.faq.q2') || 'How many languages and accents are supported?',
+    answer: t('textToSpeech.faq.a2') || 'Over 40 languages are supported with regional accents and natural prosody for high intelligibility.'
+  },
+  {
+    question: t('textToSpeech.faq.q3') || 'Is latency suitable for real-time use?',
+    answer: t('textToSpeech.faq.a3') || 'Yes. Typical text-to-audio latency is under 200ms, suitable for interactive applications.'
+  }
+];
 
 // 功能特色配置
 const features = [
@@ -144,7 +168,7 @@ function getIconSvg(iconName: string) {
 }
 ---
 
-<Layout seo={seoData} lang={currentLang}>
+<Layout title={seoData.title} description={seoData.description} canonical={seoData.canonical} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-purple-50 via-white to-blue-50 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

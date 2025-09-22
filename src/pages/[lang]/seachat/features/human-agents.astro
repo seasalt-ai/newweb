@@ -34,6 +34,14 @@ const seoData = {
   ogType: 'website'
 };
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Features', url: `/${currentLang}/seachat/features/` },
+  { name: t('seachat.features.humanAgents.title') || 'Human Agent Chat' }
+];
+
 // Features data
 const features = [
   {
@@ -101,6 +109,7 @@ const benefits = [
   ogTitle={seoData.ogTitle}
   ogDescription={seoData.ogDescription}
   ogType={seoData.ogType}
+  breadcrumbs={breadcrumbs}
 >
   <div>
     <!-- Hero Section -->

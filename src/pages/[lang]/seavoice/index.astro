@@ -27,6 +27,12 @@ const { t } = await getTranslationHelpers(validatedLang);
 
 // Use translations for SEO - matching original structure
 const seoTitle = t('seo.seavoice.homepage.title') || 'SeaVoice - AI Voice Automation Platform | Seasalt.ai';
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${validatedLang}/` },
+  { name: 'SeaVoice', url: `/${validatedLang}/seavoice/` }
+];
 const seoDescription = t('seo.seavoice.homepage.description') || 'Transform your customer interactions with AI-powered voice agents. 24/7 availability, unlimited scalability, and seamless integration.';
 const seoKeywords = t('seo.seavoice.homepage.keywords') || 'AI voice, call center software, voice analytics, SeaVoice, intelligent call routing, automated phone system, voice assistant, 24/7 customer service';
 
@@ -262,6 +268,8 @@ const faqItems = [
   lang={validatedLang}
   headerVersion="seavoice"
   footerVersion="seavoice"
+  breadcrumbs={breadcrumbs}
+  faqs={faqItems}
 >
 
   <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">

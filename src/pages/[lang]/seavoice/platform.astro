@@ -18,12 +18,35 @@ const { lang } = Astro.params;
 const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform' }
+];
+
 // SEO配置
 const seoData = {
   title: t('seavoice.platform.hero.title') || 'The Complete AI Voice Platform - SeaVoice',
   description: t('seavoice.platform.hero.description') || 'Discover the technology that powers human-like voice interactions, seamless integrations, and actionable insights for your business.',
   canonical: `/${currentLang}/seavoice/platform`,
 };
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.platform.faq.q1') || 'What is SeaVoice and how does it work?',
+    answer: t('seavoice.platform.faq.a1') || 'SeaVoice is an AI voice platform that powers inbound and outbound calls with human-like voice agents, analytics, and integrations. It combines STT, NLU, and TTS to deliver natural conversations.'
+  },
+  {
+    question: t('seavoice.platform.faq.q2') || 'Which languages are supported?',
+    answer: t('seavoice.platform.faq.a2') || 'SeaVoice supports 10+ languages for speech-to-text and text-to-speech, with options for custom voices and regional accents.'
+  },
+  {
+    question: t('seavoice.platform.faq.q3') || 'Can SeaVoice integrate with our CRM and calendar?',
+    answer: t('seavoice.platform.faq.a3') || 'Yes. SeaVoice integrates with popular CRMs (Salesforce, HubSpot) and calendars (Google, Outlook), and supports BYOC telephony.'
+  }
+];
 
 // 平台特色功能配置
 const features = [
@@ -140,7 +163,7 @@ function getIconSvg(iconName: string) {
 }
 ---
 
-<Layout seo={seoData} lang={currentLang}>
+<Layout title={seoData.title} description={seoData.description} canonical={seoData.canonical} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

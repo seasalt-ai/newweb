@@ -29,6 +29,14 @@ const seoKeywords = t('seachat.solutions.smallBusiness.keywords') || 'SeaChat sm
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/small-business`;
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Solutions', url: `/${currentLang}/seachat/solutions/` },
+  { name: t('seachat.solutions.smallBusiness.breadcrumb') || 'Small Business' }
+];
+
 // Open Graph and Twitter data
 const ogData = {
   title: seoTitle,
@@ -255,11 +263,12 @@ const affordableFeatures = [
 
 <Layout 
   title={seoTitle} 
-  description={seoDescription}
-  keywords={seoKeywords}
+  description={seoDescription} 
+  keywords={seoKeywords} 
   lang={currentLang}
-  canonicalUrl={canonicalUrl}
-  ogData={ogData}
+  headerVersion="seachat"
+  footerVersion="seachat"
+  breadcrumbs={breadcrumbs}
   twitterData={twitterData}
   structuredData={structuredData}
 >

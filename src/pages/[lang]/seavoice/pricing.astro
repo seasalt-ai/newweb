@@ -20,6 +20,13 @@ const { lang } = Astro.params;
 const currentLang = (lang as SupportedLanguage) || 'en';
 const { t, translations } = await getTranslationHelpers(currentLang);
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Pricing' }
+];
+
 // SEO配置
 const seoData = {
   title: t('seavoice.pricing.hero.title') || 'Simple, Transparent Pricing - SeaVoice',
@@ -160,7 +167,7 @@ const faqs = [
 ];
 ---
 
-<Layout seo={seoData} lang={currentLang}>
+<Layout title={seoData.title} description={seoData.description} canonical={seoData.canonical} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

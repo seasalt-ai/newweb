@@ -29,6 +29,14 @@ const seoKeywords = t('seachat.solutions.realEstate.keywords') || 'SeaChat real 
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/real-estate`;
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Solutions', url: `/${currentLang}/seachat/solutions/` },
+  { name: t('seachat.solutions.realEstate.breadcrumb') || 'Real Estate' }
+];
+
 // Open Graph and Twitter data
 const ogData = {
   title: seoTitle,
@@ -260,6 +268,7 @@ const meetingUrl = getMeetingUrl(currentLang);
   ogData={ogData}
   twitterData={twitterData}
   structuredData={structuredData}
+  breadcrumbs={breadcrumbs}
 >
   <div>
     <!-- Hero Section -->

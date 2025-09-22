@@ -81,6 +81,13 @@ const integrationCategories = [
 const seoTitle = t('seachat.integrations.title');
 const seoDescription = t('seachat.integrations.subtitle');
 const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations`;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${lang}/` },
+  { name: 'SeaChat', url: `/${lang}/seachat/` },
+  { name: 'Integrations' }
+];
 ---
 
 <Layout 
@@ -88,6 +95,7 @@ const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations`;
   description={seoDescription}
   canonical={canonicalUrl}
   lang={lang as SupportedLanguage}
+  breadcrumbs={breadcrumbs}
 >
   <div>
     <!-- Hero Section -->

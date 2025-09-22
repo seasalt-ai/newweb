@@ -23,6 +23,15 @@ const { t } = await getTranslationHelpers(currentLang);
 
 // SEO data using the same structure as original
 const seoTitle = t('seavoice.solutions.inbound.appointmentBooking.hero.title') || 'Appointment Booking & Management - AI Voice Solutions | SeaVoice';
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${currentLang}/seavoice/solutions/inbound/` },
+  { name: 'Appointment Booking' }
+];
 const seoDescription = t('seavoice.solutions.inbound.appointmentBooking.hero.description') || 'Automate appointment scheduling with AI that understands availability, preferences, and business rules. Reduce no-shows and streamline your booking process.';
 const seoKeywords = 'appointment booking, AI scheduling, voice automation, appointment management, SeaVoice, automated booking, appointment reminders';
 
@@ -176,6 +185,7 @@ const reminderTimeline = [
   description={seoDescription}
   keywords={seoKeywords}
   lang={currentLang}
+  breadcrumbs={breadcrumbs}
 >
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-purple-50 via-white to-pink-50 py-20">

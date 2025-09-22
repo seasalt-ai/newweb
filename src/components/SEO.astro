@@ -1,5 +1,7 @@
 ---
 import { defaultLang, languages } from '../i18n/helpers';
+import { SCHEMA_IDS, ORGANIZATION_INFO, PRODUCTS_INFO, getLocalizedProductInfo, type ProductKey } from '../config/schemaData';
+import { getProductKeyFromPath } from '../utils/schemaGenerator';
 
 interface Props {
   title?: string;
@@ -126,11 +128,13 @@ interface Props {
   
   organization?: {
     name?: string;
+    alternateName?: string;
     url?: string;
     logo?: string;
     sameAs?: string[];
     contactPoint?: {
       telephone?: string;
+      email?: string;
       contactType?: string;
       availableLanguage?: string[];
       areaServed?: string;
@@ -340,13 +344,18 @@ const baseStructuredData = {
   "inLanguage": lang,
 };
 
-// Website search functionality
+// Website search functionality and richer WebSite metadata
 if (type === 'website') {
+  baseStructuredData["@id"] = SCHEMA_IDS.WEBSITE;
   baseStructuredData.potentialAction = {
     "@type": "SearchAction",
     "target": `${baseUrl}/search?q={search_term_string}`,
     "query-input": "required name=search_term_string"
   };
+  // Use all supported languages for site-level inLanguage
+  baseStructuredData.inLanguage = Object.keys(languages);
+  // Link publisher organization if available
+  baseStructuredData.publisher = { "@id": SCHEMA_IDS.ORGANIZATION };
 }
 
 // Rating data
@@ -371,41 +380,47 @@ if (geo) {
 
 const structuredDataArray = [baseStructuredData];
 
-// Organization data
+// Organization data (richer defaults)
 const organizationData = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": organization?.name || "SeaSalt.ai",
-  "url": organization?.url || "https://seasalt.ai",
+  "@id": SCHEMA_IDS.ORGANIZATION,
+  "name": organization?.name || ORGANIZATION_INFO.name,
+  "alternateName": organization?.alternateName || ORGANIZATION_INFO.alternateName,
+  "url": organization?.url || ORGANIZATION_INFO.url,
   "logo": {
     "@type": "ImageObject",
-    "url": (organization?.logo && organization.logo.startsWith('http')) ? organization.logo : `${baseUrl}${organization?.logo || '/images/seasalt-ai-logo.png'}`,
-    "width": 512,
-    "height": 512
+    "url": (organization?.logo && organization.logo.startsWith('http'))
+      ? organization.logo
+      : (ORGANIZATION_INFO.logo.url || `${baseUrl}${organization?.logo || '/images/seasalt-ai-logo.png'}`),
+    "width": ORGANIZATION_INFO.logo.width || 512,
+    "height": ORGANIZATION_INFO.logo.height || 512
   },
-  "sameAs": organization?.sameAs || [
-    "https://twitter.com/seasalt_ai",
-    "https://linkedin.com/company/seasalt-ai",
-    "https://github.com/seasaltai"
-  ]
+  "sameAs": organization?.sameAs || ORGANIZATION_INFO.sameAs,
+  "foundingDate": ORGANIZATION_INFO.foundingDate,
 };
 
-if (organization?.contactPoint) {
-  organizationData.contactPoint = {
-    "@type": "ContactPoint",
-    "telephone": organization.contactPoint.telephone,
-    "contactType": organization.contactPoint.contactType || "customer service",
-    "availableLanguage": organization.contactPoint.availableLanguage || ["en", "zh"],
-    "areaServed": organization.contactPoint.areaServed || "Worldwide"
+// ContactPoint
+organizationData.contactPoint = {
+  "@type": "ContactPoint",
+  ...(organization?.contactPoint?.telephone && { "telephone": organization.contactPoint.telephone }),
+  ...(organization?.contactPoint?.email && { "email": organization.contactPoint.email }),
+  "contactType": organization?.contactPoint?.contactType || "customer service",
+  "availableLanguage": organization?.contactPoint?.availableLanguage || ORGANIZATION_INFO.contactPoint.availableLanguage,
+};
+
+// Address
+if (organization?.address || ORGANIZATION_INFO.address) {
+  organizationData.address = {
+    "@type": "PostalAddress",
+    ...(ORGANIZATION_INFO.address || {}),
+    ...(organization?.address || {})
   };
 }
 
-if (organization?.address) {
-  organizationData.address = {
-    "@type": "PostalAddress",
-    ...organization.address
-  };
-}
+// Market coverage
+organizationData.areaServed = ORGANIZATION_INFO.areaServed;
+organizationData.availableLanguage = ORGANIZATION_INFO.availableLanguage;
 
 structuredDataArray.push(organizationData);
 
@@ -598,6 +613,21 @@ if (faqs && faqs.length > 0) {
   });
 }
 
+// Add WebPage schema in addition to WebSite for richer context
+if (type === 'website') {
+  structuredDataArray.push({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": canonicalUrl,
+    "name": title,
+    "description": description,
+    "url": canonicalUrl,
+    "inLanguage": lang,
+    "isPartOf": { "@id": SCHEMA_IDS.WEBSITE },
+    "publisher": { "@id": SCHEMA_IDS.ORGANIZATION }
+  });
+}
+
 // Breadcrumb data
 if (breadcrumbs && breadcrumbs.length > 0) {
   structuredDataArray.push({
@@ -626,6 +656,56 @@ if (video) {
     "embedUrl": video.embedUrl,
     "transcript": video.transcript
   });
+}
+
+// Auto-generate SoftwareApplication schema for product pages (SeaChat / SeaX / SeaVoice)
+try {
+  const pathname = new URL(Astro.url).pathname;
+  const detectedProduct = getProductKeyFromPath(pathname) as ProductKey | null;
+  if (detectedProduct) {
+    const localized = getLocalizedProductInfo(detectedProduct, lang);
+    const productIdMap: Record<ProductKey, string> = {
+      seachat: SCHEMA_IDS.SEACHAT_PRODUCT,
+      seax: SCHEMA_IDS.SEAX_PRODUCT,
+      seavoice: SCHEMA_IDS.SEAVOICE_PRODUCT,
+    };
+    const abs = (p: string) => (p && p.startsWith('http')) ? p : `${baseUrl}${p}`;
+
+    const softwareSchema = {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "@id": productIdMap[detectedProduct],
+      "name": localized.name,
+      "description": localized.description,
+      "applicationCategory": localized.applicationCategory,
+      "operatingSystem": localized.operatingSystem,
+      "url": canonicalUrl,
+      "image": abs(localized.image),
+      ...(localized.screenshots?.length ? { "screenshot": localized.screenshots.map(abs) } : {}),
+      ...(localized.features?.length ? { "featureList": localized.features } : {}),
+      "offers": {
+        "@type": "Offer",
+        "price": PRODUCTS_INFO[detectedProduct].offers.price,
+        "priceCurrency": PRODUCTS_INFO[detectedProduct].offers.priceCurrency,
+        "availability": PRODUCTS_INFO[detectedProduct].offers.availability,
+        "description": PRODUCTS_INFO[detectedProduct].offers.description,
+        "seller": { "@id": SCHEMA_IDS.ORGANIZATION }
+      },
+      ...(PRODUCTS_INFO[detectedProduct].aggregateRating ? {
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": PRODUCTS_INFO[detectedProduct].aggregateRating!.ratingValue,
+          "bestRating": PRODUCTS_INFO[detectedProduct].aggregateRating!.bestRating,
+          "ratingCount": PRODUCTS_INFO[detectedProduct].aggregateRating!.ratingCount
+        }
+      } : {}),
+      "publisher": { "@id": SCHEMA_IDS.ORGANIZATION }
+    };
+
+    structuredDataArray.push(softwareSchema);
+  }
+} catch (e) {
+  // fail silently to avoid breaking page rendering
 }
 
 // Custom JSON-LD

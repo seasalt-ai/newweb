@@ -23,6 +23,14 @@ const { t } = await getTranslationHelpers(currentLang);
 
 // SEO data for the advanced AI page
 const title = t('seachat.features.advancedAI.title') || 'Advanced AI Features';
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Features', url: `/${currentLang}/seachat/features/` },
+  { name: title }
+];
 const description = t('seachat.features.advancedAI.subtitle') || 'Next-generation AI intelligence with memory, context awareness, and advanced reasoning capabilities for truly personalized customer experiences.';
 
 const seoData = {
@@ -143,6 +151,7 @@ const memoryExamples = [
   ogTitle={seoData.ogTitle}
   ogDescription={seoData.ogDescription}
   ogType={seoData.ogType}
+  breadcrumbs={breadcrumbs}
 >
   <div>
     <!-- Hero Section -->

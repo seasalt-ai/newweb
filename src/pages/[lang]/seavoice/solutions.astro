@@ -18,12 +18,35 @@ const { lang } = Astro.params;
 const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions' }
+];
+
 // SEO配置
 const seoData = {
   title: t('seavoice.pages.solutions.hero.title') || 'AI Voice Solutions - SeaVoice',
   description: t('seavoice.pages.solutions.hero.description') || 'Discover comprehensive voice AI solutions for inbound customer service and outbound campaigns that transform your business communications.',
   canonical: `/${currentLang}/seavoice/solutions`,
 };
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.faq.q1') || 'What inbound solutions does SeaVoice offer?',
+    answer: t('seavoice.pages.solutions.faq.a1') || 'Inbound solutions include virtual assistants, IVR replacement, smart call transfer, technical support, scam protection, and more.'
+  },
+  {
+    question: t('seavoice.pages.solutions.faq.q2') || 'What outbound capabilities are available?',
+    answer: t('seavoice.pages.solutions.faq.a2') || 'Outbound capabilities include lead generation, reactivation, renewals, collections, proactive support, large-scale campaigns, and surveys.'
+  },
+  {
+    question: t('seavoice.pages.solutions.faq.q3') || 'Can I start with inbound only and add outbound later?',
+    answer: t('seavoice.pages.solutions.faq.a3') || 'Yes. You can begin with inbound solutions and later enable outbound campaigns as your needs grow.'
+  }
+];
 
 // Inbound Solutions 配置
 const inboundSolutions = [
@@ -248,7 +271,7 @@ function getIconSvg(iconName: string) {
 }
 ---
 
-<Layout seo={seoData} lang={currentLang}>
+<Layout title={seoData.title} description={seoData.description} canonical={seoData.canonical} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

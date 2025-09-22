@@ -29,6 +29,14 @@ const seoKeywords = t('seachat.solutions.fintech.keywords') || 'fintech customer
 // Canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/fintech`;
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Solutions', url: `/${currentLang}/seachat/solutions/` },
+  { name: t('seachat.solutions.fintech.breadcrumb') || 'Fintech' }
+];
+
 // Open Graph and Twitter data
 const ogData = {
   title: seoTitle,
@@ -290,14 +298,15 @@ function getIconSVG(iconName: string) {
 ---
 
 <Layout 
-  title={seoTitle}
+  title={seoTitle} 
   description={seoDescription}
   keywords={seoKeywords}
-  canonical={canonicalUrl}
   lang={currentLang}
+  canonicalUrl={canonicalUrl}
   ogData={ogData}
   twitterData={twitterData}
   structuredData={structuredData}
+  breadcrumbs={breadcrumbs}
 >
   <div>
     <!-- Hero Section -->

@@ -248,7 +248,8 @@ const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/ecommerce`
 ---
 
 <Layout 
-  title={seoTitle}
+  breadcrumbs={[{ name: 'Home', url: `/${lang}/` }, { name: 'SeaChat', url: `/${lang}/seachat/` }, { name: 'Integrations', url: `/${lang}/seachat/integrations/` }, { name: 'E-commerce' }]}
+  title=
   description={seoDescription}
   canonical={canonicalUrl}
   lang={lang as SupportedLanguage}

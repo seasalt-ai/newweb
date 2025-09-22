@@ -144,6 +144,30 @@ const keywords = 'speech to text, voice recognition, AI transcription, SeaVoice,
 
 // 構建 canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seavoice/platform/speech-to-text`;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform', url: `/${currentLang}/seavoice/platform/` },
+  { name: 'Speech to Text' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.platform.speechToText.faq.q1') || 'What accuracy can I expect from STT?',
+    answer: t('seavoice.platform.speechToText.faq.a1') || 'SeaVoice STT achieves high accuracy with domain adaptation and noise robustness, often exceeding 95% in typical business conditions.'
+  },
+  {
+    question: t('seavoice.platform.speechToText.faq.q2') || 'Does it support real-time transcription?',
+    answer: t('seavoice.platform.speechToText.faq.a2') || 'Yes. Real-time streaming is supported with low latency for live interactions and analytics.'
+  },
+  {
+    question: t('seavoice.platform.speechToText.faq.q3') || 'Which languages are available?',
+    answer: t('seavoice.platform.speechToText.faq.a3') || 'Multiple languages are supported and can be extended with custom vocabularies for specialized terminology.'
+  }
+];
 ---
 
 <Layout
@@ -152,6 +176,8 @@ const canonicalUrl = `https://seasalt.ai/${currentLang}/seavoice/platform/speech
   keywords={keywords}
   canonical={canonicalUrl}
   lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">

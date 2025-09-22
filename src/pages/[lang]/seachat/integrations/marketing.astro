@@ -201,8 +201,9 @@ const seoDescription = t('seachat.integrations.marketing.subtitle');
 const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/marketing`;
 ---
 
-<Layout
-  title={seoTitle}
+<Layout 
+  breadcrumbs={[{ name: 'Home', url: `/${lang}/` }, { name: 'SeaChat', url: `/${lang}/seachat/` }, { name: 'Integrations', url: `/${lang}/seachat/integrations/` }, { name: 'Marketing' }]}
+  title=
   description={seoDescription}
   canonical={canonicalUrl}
   lang={lang as SupportedLanguage}
