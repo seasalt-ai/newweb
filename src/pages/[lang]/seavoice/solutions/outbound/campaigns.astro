@@ -35,6 +35,18 @@ const breadcrumbs = [
   { name: 'Large Scale Campaigns' }
 ];
 
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.faq.q1') || 'How many calls can a campaign handle?',
+    answer: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.faq.a1') || 'SeaVoice scales to thousands of concurrent calls with real-time analytics and pacing controls.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.faq.q2') || 'Can messages be personalized?',
+    answer: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.faq.a2') || 'Yes. Campaigns support dynamic fields, segment rules, and context-aware scripts.'
+  }
+];
+
 // Service structured data
 const serviceData = {
   serviceType: 'AI-Powered Mass Voice Campaigns',
@@ -193,8 +205,9 @@ const scalingCapabilities = [
   keywords={seoKeywords}
   lang={currentLang}
   type="service"
-  service={serviceData}
+service={serviceData}
   breadcrumbs={breadcrumbs}
+  faqs={faqs}
   headerVersion="seavoice"
   footerVersion="seavoice"
 >

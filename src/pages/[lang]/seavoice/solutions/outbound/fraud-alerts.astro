@@ -25,6 +25,27 @@ const seoData = {
   canonical: `/${currentLang}/seavoice/solutions/outbound/fraud-alerts`,
 };
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.fraudAlerts.breadcrumb') || 'Fraud Alerts' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.fraudAlerts.faq.q1') || 'How quickly are customers contacted after detection?',
+    answer: t('seavoice.pages.solutions.outbound.fraudAlerts.faq.a1') || 'Typically within 2 minutes. The system prioritizes high-risk events for immediate outreach.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.fraudAlerts.faq.q2') || 'Can alerts be customized per risk level?',
+    answer: t('seavoice.pages.solutions.outbound.fraudAlerts.faq.a2') || 'Yes. Alert scripts, channels, and thresholds can be tailored by segment and risk category.'
+  }
+];
+
 // 功能配置
 const features = [
   {
@@ -165,7 +186,7 @@ function getStepColor(color: string) {
 }
 ---
 
-<Layout seo={seoData} lang={currentLang}>
+<Layout seo={seoData} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->
   <section class="bg-gradient-to-r from-red-600 to-orange-600 text-white py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

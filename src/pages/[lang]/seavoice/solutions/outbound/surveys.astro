@@ -29,7 +29,28 @@ const seoData = {
 };
 ---
 
-<Layout seo={seoData} lang={currentLang}>
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.customerSurveys.breadcrumb') || 'Customer Surveys' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.customerSurveys.faq.q1') || 'Do voice surveys get higher response rates?',
+    answer: t('seavoice.pages.solutions.outbound.customerSurveys.faq.a1') || 'Yes. Conversational voice surveys often achieve higher completion rates and richer responses than forms.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.customerSurveys.faq.q2') || 'Can results be exported to analytics tools?',
+    answer: t('seavoice.pages.solutions.outbound.customerSurveys.faq.a2') || 'Yes. Responses and insights can be exported to BI tools or data warehouses.'
+  }
+];
+
+<Layout seo={seoData} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <main>
     <!-- Hero Section -->
     <section class="bg-gradient-to-br from-cyan-50 via-white to-blue-50 py-20">

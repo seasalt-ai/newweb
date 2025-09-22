@@ -26,6 +26,27 @@ const seoTitle = t('seavoice.pages.solutions.inbound.orderTracking.hero.title') 
 const seoDescription = t('seavoice.pages.solutions.inbound.orderTracking.hero.subtitle') || 'Provide real-time order updates and shipping information through AI-powered voice interactions. Keep customers informed automatically.';
 const seoKeywords = 'order tracking, delivery updates, shipping status, voice automation, SeaVoice, order management, customer service';
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${currentLang}/seavoice/solutions/inbound/` },
+  { name: t('seavoice.pages.solutions.inbound.orderTracking.breadcrumb') || 'Order Tracking' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.inbound.orderTracking.faq.q1') || 'Which carriers do you integrate with?',
+    answer: t('seavoice.pages.solutions.inbound.orderTracking.faq.a1') || 'We integrate with major carriers like FedEx, UPS, USPS, DHL, and can support custom carriers.'
+  },
+  {
+    question: t('seavoice.pages.solutions.inbound.orderTracking.faq.q2') || 'Can customers receive proactive updates?',
+    answer: t('seavoice.pages.solutions.inbound.orderTracking.faq.a2') || 'Yes. Automated notifications for delays, delivery windows, and confirmations are supported.'
+  }
+];
+
 // Features data matching original structure
 const features = [
   {
@@ -136,6 +157,8 @@ const integrations = [
   description={seoDescription}
   keywords={seoKeywords}
   lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-green-50 via-white to-blue-50 py-20">

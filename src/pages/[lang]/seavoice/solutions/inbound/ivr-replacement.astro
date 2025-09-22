@@ -27,6 +27,27 @@ const seoTitle = t('seo.seavoice.ivrReplacement.title') || 'IVR Replacement with
 const seoDescription = t('seo.seavoice.ivrReplacement.description') || 'Replace frustrating phone trees with natural language understanding. Transform your IVR system for better customer experience.';
 const seoKeywords = t('seo.seavoice.ivrReplacement.keywords') || 'IVR replacement, natural language IVR, phone menu alternative, voice AI, customer experience';
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${validatedLang}/` },
+  { name: 'SeaVoice', url: `/${validatedLang}/seavoice/` },
+  { name: 'Solutions', url: `/${validatedLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${validatedLang}/seavoice/solutions/inbound/` },
+  { name: t('seavoice.pages.solutions.inbound.ivrReplacement.breadcrumb') || 'IVR Replacement' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.inbound.ivrReplacement.faq.q1') || 'How is natural language IVR different from phone trees?',
+    answer: t('seavoice.pages.solutions.inbound.ivrReplacement.faq.a1') || 'Customers can speak naturally. The AI understands intent and routes or resolves requests without requiring numeric menu navigation.'
+  },
+  {
+    question: t('seavoice.pages.solutions.inbound.ivrReplacement.faq.q2') || 'Can we keep our existing numbers and backend systems?',
+    answer: t('seavoice.pages.solutions.inbound.ivrReplacement.faq.a2') || 'Yes. SeaVoice integrates with your telephony, CRM, and ticketing systems while keeping your numbers.'
+  }
+];
+
 // Features data - exactly matching the original structure
 const features = [
   {
@@ -112,6 +133,8 @@ const benefits = [
   description={seoDescription} 
   keywords={seoKeywords} 
   lang={validatedLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
   headerVersion="seavoice"
   footerVersion="seavoice"
 >

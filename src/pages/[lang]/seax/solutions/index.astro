@@ -22,6 +22,25 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t, translations } = await getTranslationHelpers(currentLang);
 ---
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaX', url: `/${currentLang}/seax/` },
+  { name: 'Solutions', url: `/${currentLang}/seax/solutions/` }
+];
+
+// FAQs (light)
+const faqs = [
+  {
+    question: t('seax.solutionsOverview.faq.q1') || 'What business solutions does SeaX offer?',
+    answer: t('seax.solutionsOverview.faq.a1') || 'SeaX supports high-scale customer engagement: appointment reminders, lead generation, emergency alerts, marketing automation, and more across SMS, Voice, and WhatsApp.'
+  },
+  {
+    question: t('seax.solutionsOverview.faq.q2') || 'Can I run cross-channel campaigns?',
+    answer: t('seax.solutionsOverview.faq.a2') || 'Yes. SeaX orchestrates multi-channel journeys with unified analytics and automation.'
+  }
+];
+
 <SeaxLayout 
   seoData={{
     title: t('seax.solutionsOverview.seo.title') || 'SeaX Solutions Overview - Scale Your Business',
@@ -30,6 +49,8 @@ const { t, translations } = await getTranslationHelpers(currentLang);
     canonical: `https://seasalt.ai/${currentLang}/seax/solutions`
   }}
   lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
   headerVersion="seax"
   footerVersion="seax"
 >

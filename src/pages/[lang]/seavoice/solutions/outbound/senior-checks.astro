@@ -24,6 +24,27 @@ const title = t('seavoice.pages.solutions.outbound.seniorCheckCalls.hero.title')
 const description = t('seavoice.pages.solutions.outbound.seniorCheckCalls.hero.description');
 const canonicalUrl = `${Astro.site}${currentLang}/seavoice/solutions/outbound/senior-checks`;
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.seniorCheckCalls.breadcrumb') || 'Senior Check Calls' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.seniorCheckCalls.faq.q1') || 'How are emergencies handled?',
+    answer: t('seavoice.pages.solutions.outbound.seniorCheckCalls.faq.a1') || 'Emergency keywords and missed-call escalation trigger alerts to family or providers, with optional emergency services integration.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.seniorCheckCalls.faq.q2') || 'Can call schedules be customized?',
+    answer: t('seavoice.pages.solutions.outbound.seniorCheckCalls.faq.a2') || 'Yes. Daily or weekly check-ins with flexible time windows are supported per recipient preferences.'
+  }
+];
+
 // Page data structures
 const features = [
   {
@@ -139,6 +160,8 @@ const safetyProtocols = [
   description={description}
   lang={currentLang}
   canonicalUrl={canonicalUrl}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <div class="min-h-screen bg-white">
     <!-- Hero Section -->

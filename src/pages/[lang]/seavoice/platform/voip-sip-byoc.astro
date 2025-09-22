@@ -63,6 +63,26 @@ const seoData = {
 };
 ---
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform', url: `/${currentLang}/seavoice/platform/` },
+  { name: 'VoIP, SIP & BYOC' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.platform.voipSipByoc.faq.q1') || 'Can we bring our own carrier (BYOC)?',
+    answer: t('seavoice.platform.voipSipByoc.faq.a1') || 'Yes. We support BYOC with SIP trunking and interop guides for major carriers.'
+  },
+  {
+    question: t('seavoice.platform.voipSipByoc.faq.q2') || 'Do you support mixed environments?',
+    answer: t('seavoice.platform.voipSipByoc.faq.a2') || 'Yes. You can combine VoIP, SIP trunks, and PSTN connectivity in one deployment.'
+  }
+];
+
 <Layout
   title={seoData.title}
   description={seoData.description}
@@ -71,6 +91,8 @@ const seoData = {
   lang={seoData.lang}
   type={seoData.type}
   service={seoData.service}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <div class="min-h-screen bg-white">
     <!-- Hero Section -->

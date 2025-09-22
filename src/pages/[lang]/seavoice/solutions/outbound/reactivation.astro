@@ -26,6 +26,27 @@ const seoData = {
   keywords: t('seo.seavoice.reactivation.keywords') || 'customer reactivation, win-back campaigns, AI outreach, personalized marketing, customer retention, SeaVoice',
 };
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.customerReactivation.breadcrumb') || 'Customer Reactivation' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.customerReactivation.faq.q1') || 'How do you segment inactive customers?',
+    answer: t('seavoice.pages.solutions.outbound.customerReactivation.faq.a1') || 'AI groups customers by recency, frequency, and monetary value with behavior signals to tailor messages.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.customerReactivation.faq.q2') || 'What incentives work best for reactivation?',
+    answer: t('seavoice.pages.solutions.outbound.customerReactivation.faq.a2') || 'Common tactics include exclusive discounts, loyalty rewards, and product update invitations.'
+  }
+];
+
 // 功能配置
 const features = [
   {
@@ -161,7 +182,7 @@ function getIconSvg(iconName: string) {
 }
 ---
 
-<Layout seo={seoData} lang={currentLang}>
+<Layout seo={seoData} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-orange-50 via-white to-red-50 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

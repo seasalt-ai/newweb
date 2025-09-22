@@ -24,6 +24,27 @@ const seoTitle = t('seavoice.pages.solutions.outbound.proactiveSupport.hero.titl
 const seoDescription = t('seavoice.pages.solutions.outbound.proactiveSupport.hero.description') || 'Stay ahead of customer issues with intelligent proactive notifications. Automatically inform customers about service updates, account changes, and important information before they need to call you.';
 const seoKeywords = 'proactive support, customer notifications, service alerts, AI notifications, account updates, SeaVoice';
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.proactiveSupport.breadcrumb') || 'Proactive Support' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.proactiveSupport.faq.q1') || 'What kinds of proactive notifications can be sent?',
+    answer: t('seavoice.pages.solutions.outbound.proactiveSupport.faq.a1') || 'Service outages, account changes, security alerts, billing notices, and delivery updates are supported.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.proactiveSupport.faq.q2') || 'How do you avoid notification fatigue?',
+    answer: t('seavoice.pages.solutions.outbound.proactiveSupport.faq.a2') || 'Preference management, intelligent prioritization, and optimal timing controls reduce fatigue.'
+  }
+];
+
 // 準備數據結構 - 使用與舊版本完全相同的翻譯鍵路徑
 const features = [
   {
@@ -161,6 +182,8 @@ const automationFeatures = [
   description={seoDescription}
   keywords={seoKeywords}
   lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <div class="min-h-screen bg-white">
     <!-- Hero Section -->

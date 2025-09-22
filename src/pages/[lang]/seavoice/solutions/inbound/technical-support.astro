@@ -14,6 +14,27 @@ const { lang } = Astro.params;
 const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${currentLang}/seavoice/solutions/inbound/` },
+  { name: t('seavoice.pages.solutions.inbound.technicalSupport.breadcrumb') || 'Technical Support' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.inbound.technicalSupport.faq.q1') || 'What issues can AI technical support resolve?',
+    answer: t('seavoice.pages.solutions.inbound.technicalSupport.faq.a1') || 'Hardware, software, network, and account security issues with guided troubleshooting and smart escalation.'
+  },
+  {
+    question: t('seavoice.pages.solutions.inbound.technicalSupport.faq.q2') || 'How are complex cases handled?',
+    answer: t('seavoice.pages.solutions.inbound.technicalSupport.faq.a2') || 'Complex cases are transferred to human agents with context, transcripts, and diagnostic results.'
+  }
+];
+
 // SEO配置
 const title = t('seavoice.pages.solutions.inbound.technicalSupport.hero.title');
 const description = t('seavoice.pages.solutions.inbound.technicalSupport.hero.description');
@@ -128,6 +149,8 @@ const troubleshootingSteps = [
   description={description}
   canonical={canonicalURL}
   lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <div class="min-h-screen bg-white">
     <!-- Hero Section -->

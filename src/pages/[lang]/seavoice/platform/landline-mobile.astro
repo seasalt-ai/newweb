@@ -26,6 +26,26 @@ const seoData = {
   canonical: `/${currentLang}/seavoice/platform/landline-mobile`,
 };
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform', url: `/${currentLang}/seavoice/platform/` },
+  { name: 'Landline & Mobile' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.platform.landlineMobile.faq.q1') || 'Can I keep my current phone numbers?',
+    answer: t('seavoice.platform.landlineMobile.faq.a1') || 'Yes. We support number porting and forwarding with minimal downtime.'
+  },
+  {
+    question: t('seavoice.platform.landlineMobile.faq.q2') || 'Do you support global coverage?',
+    answer: t('seavoice.platform.landlineMobile.faq.a2') || 'Yes. We cover 200+ countries with local number presentation where available.'
+  }
+];
+
 // Features 區塊資料（使用既有鍵）
 const features = [
   {
@@ -155,7 +175,7 @@ function getIconSvg(icon) {
 }
 ---
 
-<Layout seo={seoData} lang={currentLang}>
+<Layout seo={seoData} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

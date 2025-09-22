@@ -26,6 +26,27 @@ const seoData = {
   ogImage: '/images/og/seavoice-call-transfer.jpg'
 };
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${currentLang}/seavoice/solutions/inbound/` },
+  { name: t('seavoice.solutions.inbound.callTransfer.breadcrumb') || 'Call Transfer' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.solutions.inbound.callTransfer.faq.q1') || 'How does smart call transfer decide where to route calls?',
+    answer: t('seavoice.solutions.inbound.callTransfer.faq.a1') || 'AI analyzes caller intent, skills required, and agent availability to route calls to the most suitable destination.'
+  },
+  {
+    question: t('seavoice.solutions.inbound.callTransfer.faq.q2') || 'Can it prioritize VIP customers?',
+    answer: t('seavoice.solutions.inbound.callTransfer.faq.a2') || 'Yes. You can configure VIP customers and business rules to ensure priority handling and shorter wait times.'
+  }
+];
+
 // Data structures from the original React component
 const features = [
   {
@@ -97,6 +118,8 @@ const benefits = [
   keywords={seoData.keywords}
   ogImage={seoData.ogImage}
   lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
   jsonLd={{
     "@context": "https://schema.org",
     "@type": "WebPage",

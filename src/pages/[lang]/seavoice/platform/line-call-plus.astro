@@ -111,7 +111,27 @@ function getIconSvg(iconName: string) {
 }
 ---
 
-<Layout seo={seoData} lang={currentLang}>
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform', url: `/${currentLang}/seavoice/platform/` },
+  { name: 'LINE Call Plus' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.platform.lineCallPlus.faq.q1') || 'Which regions does LINE Call Plus support?',
+    answer: t('seavoice.platform.lineCallPlus.faq.a1') || 'Optimized for Japan, Thailand, Taiwan, and South Korea, with expanding coverage.'
+  },
+  {
+    question: t('seavoice.platform.lineCallPlus.faq.q2') || 'Can we use our LINE Business account?',
+    answer: t('seavoice.platform.lineCallPlus.faq.a2') || 'Yes. We support LINE Business accounts with native voice calling integration.'
+  }
+];
+
+<Layout seo={seoData} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-emerald-50 via-white to-green-50 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -26,6 +26,27 @@ const seoTitle = t('seo.seavoice.virtualAssistant.title') || '24/7 Virtual Assis
 const seoDescription = t('seo.seavoice.virtualAssistant.description') || 'Transform customer service with AI-powered virtual assistants that handle calls 24/7. Reduce wait times and improve satisfaction.';
 const seoKeywords = t('seo.seavoice.virtualAssistant.keywords') || 'virtual assistant, AI voice agent, 24/7 customer service, automated phone support, SeaVoice';
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${validatedLang}/` },
+  { name: 'SeaVoice', url: `/${validatedLang}/seavoice/` },
+  { name: 'Solutions', url: `/${validatedLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${validatedLang}/seavoice/solutions/inbound/` },
+  { name: t('seavoice.pages.solutions.inbound.virtualAssistant.breadcrumb') || 'Virtual Assistant' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.inbound.virtualAssistant.faq.q1') || 'What tasks can the virtual assistant handle?',
+    answer: t('seavoice.pages.solutions.inbound.virtualAssistant.faq.a1') || 'It can answer FAQs, route calls, schedule, collect information, and escalate to human agents with full context.'
+  },
+  {
+    question: t('seavoice.pages.solutions.inbound.virtualAssistant.faq.q2') || 'Does it support multiple languages?',
+    answer: t('seavoice.pages.solutions.inbound.virtualAssistant.faq.a2') || 'Yes. Multi-language is supported with natural speech understanding and generation.'
+  }
+];
+
 // Features data
 const features = [
   {
@@ -117,6 +138,8 @@ const benefits = [
   description={seoDescription}
   keywords={seoKeywords}
   lang={validatedLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">

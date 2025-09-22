@@ -30,6 +30,26 @@ const keywords = 'end-to-end LLM, AI voice, large language model, conversation A
 // 構建 canonical URL
 const canonicalUrl = `https://seasalt.ai/${currentLang}/seavoice/platform/end-to-end-llms`;
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform', url: `/${currentLang}/seavoice/platform/` },
+  { name: 'End-to-End LLMs' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.platform.endToEndLLMs.faq.q1') || 'Do you support custom fine-tuning?',
+    answer: t('seavoice.platform.endToEndLLMs.faq.a1') || 'Yes. We support fine-tuning and retrieval-augmented generation (RAG) for domain adaptation.'
+  },
+  {
+    question: t('seavoice.platform.endToEndLLMs.faq.q2') || 'How do you handle data security?',
+    answer: t('seavoice.platform.endToEndLLMs.faq.a2') || 'Enterprise-grade encryption, access controls, and audit logging with compliance readiness.'
+  }
+];
+
 // Component data arrays
 const features = [
   {
@@ -208,6 +228,8 @@ const getIconSVG = (iconName: string) => {
   keywords={keywords}
   canonical={canonicalUrl}
   lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <div class="min-h-screen bg-white">
     <!-- Hero Section -->

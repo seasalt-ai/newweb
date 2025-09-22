@@ -175,7 +175,28 @@ function getIconSvg(iconName: string) {
 }
 ---
 
-<Layout seo={seoData} lang={currentLang}>
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.subscriptionRenewals.breadcrumb') || 'Subscription Renewals' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.subscriptionRenewals.faq.q1') || 'How do you reduce involuntary churn?',
+    answer: t('seavoice.pages.solutions.outbound.subscriptionRenewals.faq.a1') || 'We send intelligent reminders, recover failed payments, and target at-risk customers with tailored offers.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.subscriptionRenewals.faq.q2') || 'Can payments be processed during the call?',
+    answer: t('seavoice.pages.solutions.outbound.subscriptionRenewals.faq.a2') || 'Yes. PCI-compliant voice payment processing is supported with instant confirmation.'
+  }
+];
+
+<Layout seo={seoData} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-green-50 via-white to-emerald-50 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

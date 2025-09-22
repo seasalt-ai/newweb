@@ -19,6 +19,27 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 
 const { t, translations } = await getTranslationHelpers(currentLang);
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.leadGeneration.breadcrumb') || 'Lead Generation' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.leadGeneration.faq.q1') || 'How are leads qualified?',
+    answer: t('seavoice.pages.solutions.outbound.leadGeneration.faq.a1') || 'AI uses intent detection, demographic profiling, and engagement scoring to qualify leads automatically.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.leadGeneration.faq.q2') || 'Can we integrate results into our CRM?',
+    answer: t('seavoice.pages.solutions.outbound.leadGeneration.faq.a2') || 'Yes. Qualified leads, scores, and transcripts can be synced to your CRM for sales follow-up.'
+  }
+];
+
 // SEO metadata - 使用現有的翻譯鍵或提供 fallback
 const title = t('seavoice.home.useCases.outbound.leadGeneration.title') || 'Lead Generation & Qualification - SeaVoice';
 const description = t('seavoice.home.useCases.outbound.leadGeneration.description') || 'Transform your sales pipeline with AI-powered lead generation that identifies and qualifies prospects automatically. Generate more qualified leads with intelligent voice conversations.';
@@ -139,6 +160,8 @@ const industries = [
   description={description}
   lang={currentLang}
   canonicalUrl={canonicalUrl}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <div class="min-h-screen bg-white">
     <!-- Hero Section -->

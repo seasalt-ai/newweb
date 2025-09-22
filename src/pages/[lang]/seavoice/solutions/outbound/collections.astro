@@ -163,6 +163,16 @@ const complianceFeatures = [
   type="service"
   service={serviceData}
   breadcrumbs={breadcrumbs}
+  faqs={[
+    {
+      question: t('seavoice.pages.solutions.outbound.collections.faq.q1') || 'Is this compliant with FDCPA and TCPA?',
+      answer: t('seavoice.pages.solutions.outbound.collections.faq.a1') || 'Yes. SeaVoice includes built-in compliance features including consent management, call recording, and audit trails.'
+    },
+    {
+      question: t('seavoice.pages.solutions.outbound.collections.faq.q2') || 'Can customers set up payment plans during calls?',
+      answer: t('seavoice.pages.solutions.outbound.collections.faq.a2') || 'Yes. AI agents can offer plan options and process payments securely during the call.'
+    }
+  ]}
   headerVersion="seavoice"
   footerVersion="seavoice"
 >

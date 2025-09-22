@@ -21,6 +21,27 @@ const validatedLang = (lang as SupportedLanguage) || 'en';
 // Get translation helpers
 const { t } = await getTranslationHelpers(validatedLang);
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${validatedLang}/` },
+  { name: 'SeaVoice', url: `/${validatedLang}/seavoice/` },
+  { name: 'Solutions', url: `/${validatedLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${validatedLang}/seavoice/solutions/inbound/` },
+  { name: t('seavoice.solutions.inbound.scamShield.breadcrumb') || 'Scam Shield' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.solutions.inbound.scamShield.faq.q1') || 'How do you detect scam calls?',
+    answer: t('seavoice.solutions.inbound.scamShield.faq.a1') || 'We combine threat intelligence, voice pattern analysis, and behavioral signals to identify and block scams.'
+  },
+  {
+    question: t('seavoice.solutions.inbound.scamShield.faq.q2') || 'Will legitimate calls be blocked?',
+    answer: t('seavoice.solutions.inbound.scamShield.faq.a2') || 'Legitimate calls are preserved at a 99.9% rate thanks to layered verification and allowlists.'
+  }
+];
+
 // SEO data
 const seoTitle = t('seo.seavoice.scamShield.title') || 'Scam Shield Protection - AI-Powered Fraud Detection | SeaVoice';
 const seoDescription = t('seo.seavoice.scamShield.description') || 'Protect your customers from phone scams and fraudulent calls with AI-powered detection that identifies and blocks threats in real-time.';
@@ -124,6 +145,8 @@ const protectionLayers = [
   description={seoDescription}
   keywords={seoKeywords}
   lang={validatedLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-red-50 via-white to-orange-50 py-20">

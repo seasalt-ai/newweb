@@ -26,6 +26,27 @@ const seoData = {
   ogImage: '/images/og/seavoice-mental-health.jpg'
 };
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${currentLang}/seavoice/solutions/inbound/` },
+  { name: t('seavoice.solutions.inbound.mentalHealth.breadcrumb') || 'Mental Health' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.solutions.inbound.mentalHealth.faq.q1') || 'Is this a replacement for professional care?',
+    answer: t('seavoice.solutions.inbound.mentalHealth.faq.a1') || 'No. It provides supportive listening, screening, and referrals; crises are escalated to professionals per protocol.'
+  },
+  {
+    question: t('seavoice.solutions.inbound.mentalHealth.faq.q2') || 'How is user privacy protected?',
+    answer: t('seavoice.solutions.inbound.mentalHealth.faq.a2') || 'Interactions are encrypted and handled on a HIPAA-compliant platform with privacy controls.'
+  }
+];
+
 // Features data - matching the original structure exactly
 const features = [
   {
@@ -137,6 +158,8 @@ const safetyFeatures = [
   keywords={seoData.keywords}
   ogImage={seoData.ogImage}
   lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
   jsonLd={{
     "@context": "https://schema.org",
     "@type": "WebPage",

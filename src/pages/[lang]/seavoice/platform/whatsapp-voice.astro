@@ -66,6 +66,18 @@ const jsonLd = {
 };
 ---
 
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.platform.whatsAppVoice.faq.q1') || 'Is WhatsApp Voice available in all regions?',
+    answer: t('seavoice.platform.whatsAppVoice.faq.a1') || 'Coverage depends on WhatsApp Business Platform availability; we support most active regions.'
+  },
+  {
+    question: t('seavoice.platform.whatsAppVoice.faq.q2') || 'Can we integrate with our CRM?',
+    answer: t('seavoice.platform.whatsAppVoice.faq.a2') || 'Yes. Leads, calls, and transcripts can be synced with common CRMs.'
+  }
+];
+
 <Layout
   title={seoData.title}
   description={seoData.description}
@@ -75,6 +87,7 @@ const jsonLd = {
   type={seoData.type}
   breadcrumbs={breadcrumbs}
   customJsonLd={[jsonLd]}
+  faqs={faqs}
 >
   <div class="min-h-screen bg-white">
     <!-- Hero Section -->

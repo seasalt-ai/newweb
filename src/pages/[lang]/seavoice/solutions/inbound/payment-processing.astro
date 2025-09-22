@@ -26,6 +26,27 @@ const seoTitle = t('seavoice.pages.solutions.inbound.paymentProcessing.hero.titl
 const seoDescription = t('seavoice.pages.solutions.inbound.paymentProcessing.hero.description') || 'Enable secure, PCI-compliant payment processing through voice interactions. Let customers make payments safely over the phone with advanced fraud protection.';
 const seoKeywords = 'payment processing, secure payments, voice payments, PCI compliance, fraud protection, SeaVoice, payment automation';
 
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${currentLang}/seavoice/solutions/inbound/` },
+  { name: t('seavoice.pages.solutions.inbound.paymentProcessing.breadcrumb') || 'Payment Processing' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.inbound.paymentProcessing.faq.q1') || 'Is voice payment processing PCI compliant?',
+    answer: t('seavoice.pages.solutions.inbound.paymentProcessing.faq.a1') || 'Yes. The system is PCI DSS compliant with encryption, tokenization, and MFA to protect data.'
+  },
+  {
+    question: t('seavoice.pages.solutions.inbound.paymentProcessing.faq.q2') || 'What payment methods are supported?',
+    answer: t('seavoice.pages.solutions.inbound.paymentProcessing.faq.a2') || 'Credit/debit cards, bank transfers (ACH), and popular digital wallets such as Apple Pay and Google Pay.'
+  }
+];
+
 // Features data matching original structure
 const features = [
   {
@@ -136,6 +157,8 @@ const securityFeatures = [
   description={seoDescription}
   keywords={seoKeywords}
   lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-emerald-50 via-white to-blue-50 py-20">

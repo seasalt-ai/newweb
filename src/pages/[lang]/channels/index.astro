@@ -19,6 +19,18 @@ const breadcrumbs = [
   { name: t('breadcrumbs.channels') }
 ];
 
+// FAQs for channels overview
+const faqs = [
+  {
+    question: t('channelsOverview.faq.q1') || 'Which channels are supported?',
+    answer: t('channelsOverview.faq.a1') || 'WhatsApp Business, SMS, Voice calls, Website chat, Instagram DMs, Facebook Messenger, LINE, contact forms, and website widgets.'
+  },
+  {
+    question: t('channelsOverview.faq.q2') || 'Can campaigns span multiple channels?',
+    answer: t('channelsOverview.faq.a2') || 'Yes. You can build cross-channel journeys with unified analytics and attribution.'
+  }
+];
+
 const channels = [
   {
     name: t('channelsOverview.channels.whatsappBusiness.name'),
@@ -93,6 +105,7 @@ const channels = [
   lang={lang}
   type="software"
   breadcrumbs={breadcrumbs}
+  faqs={faqs}
 >
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-20">
