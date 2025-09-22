@@ -8,15 +8,30 @@
         try {
           // Store full path (pathname + search + hash)
           var fullPath = window.location.pathname + window.location.search + window.location.hash;
-          sessionStorage.setItem('redirectPath', fullPath);
-          // Also pass it via query param for robustness (in case sessionStorage isn't available)
+          console.log('[404] fullPath =', fullPath);
+          try { sessionStorage.setItem('redirectPath', fullPath); } catch (e) { console.warn('[404] sessionStorage.setItem failed:', e); }
+
+          // If already has a supported locale prefix, do NOT redirect again (avoid loops)
+          var supported = ['en','es','zh-tw','zh-cn','ja','ko','fr','de','ar','fa','fil','hi','id','ms','pl','pt','ru','ta','th','vi'];
+          var pathOnly = (fullPath.split('?')[0] || '').split('#')[0] || '';
+          var first = (pathOnly.split('/').filter(Boolean)[0] || '').toLowerCase();
+          console.log('[404] first segment =', first, 'supported? ', supported.indexOf(first) !== -1);
+          if (supported.indexOf(first) !== -1) {
+            // Already localized path; show 404 content as-is
+            console.log('[404] Already localized, staying on 404 page for', fullPath);
+            return;
+          }
+
+          // Otherwise, forward to our redirect helper with the original path preserved
           var encoded = encodeURIComponent(fullPath);
-          // Redirect to the root with preserved path as ?p=
-          window.location.replace('/?p=' + encoded);
+          var target = '/redirect.html?p=' + encoded;
+          console.log('[404] Redirecting to helper:', target);
+          window.location.replace(target);
           return;
         } catch (e) {
-          // If anything goes wrong, fall back to simple root redirect
-          window.location.replace('/');
+          // If anything goes wrong, fall back to default locale home
+          console.error('[404] Error, fallback to /en/:', e);
+          window.location.replace('/en/');
           return;
         }
       })();
