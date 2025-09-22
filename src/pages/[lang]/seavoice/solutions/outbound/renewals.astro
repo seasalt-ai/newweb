@@ -173,7 +173,6 @@ function getIconSvg(iconName: string) {
   };
   return icons[iconName as keyof typeof icons] || icons.refresh;
 }
----
 
 // Breadcrumbs
 const breadcrumbs = [
@@ -195,6 +194,8 @@ const faqs = [
     answer: t('seavoice.pages.solutions.outbound.subscriptionRenewals.faq.a2') || 'Yes. PCI-compliant voice payment processing is supported with instant confirmation.'
   }
 ];
+
+---
 
 <Layout seo={seoData} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->

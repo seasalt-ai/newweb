@@ -20,7 +20,6 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 
 // 獲取翻譯
 const { t, translations } = await getTranslationHelpers(currentLang);
----
 
 // Breadcrumbs
 const breadcrumbs = [
@@ -40,6 +39,7 @@ const faqs = [
     answer: t('seax.solutionsOverview.faq.a2') || 'Yes. SeaX orchestrates multi-channel journeys with unified analytics and automation.'
   }
 ];
+---
 
 <SeaxLayout 
   seoData={{
