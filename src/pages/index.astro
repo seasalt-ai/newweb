@@ -169,8 +169,23 @@
 
             function buildRedirectTarget(preferredLang) {
                 // 支援 404.html 的回跳（目前專案使用 redirectPath，相鄰專案使用 spa_redirect）
-                const saved = sessionStorage.getItem('redirectPath') || sessionStorage.getItem('spa_redirect') || '/';
+                // 另外也支援 404 透過 ?p= 傳遞完整路徑，避免某些環境下 sessionStorage 取不到
+                const params = new URLSearchParams(window.location.search);
+                const paramPath = params.get('p');
+                const saved = sessionStorage.getItem('redirectPath')
+                    || sessionStorage.getItem('spa_redirect')
+                    || (paramPath ? decodeURIComponent(paramPath) : '/')
+                    || '/';
+
                 let originalPath = typeof saved === 'string' && saved.length > 0 ? saved : '/';
+
+                // 若誤傳了絕對 URL，轉回相對路徑（只保留 path + query + hash）
+                try {
+                    if (/^https?:/i.test(originalPath)) {
+                        const u = new URL(originalPath, window.location.origin);
+                        originalPath = (u.pathname || '/') + (u.search || '') + (u.hash || '');
+                    }
+                } catch {}
 
                 // 標準化
                 if (!originalPath.startsWith('/')) originalPath = '/' + originalPath;

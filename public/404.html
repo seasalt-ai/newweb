@@ -9,9 +9,16 @@
           // Store full path (pathname + search + hash)
           var fullPath = window.location.pathname + window.location.search + window.location.hash;
           sessionStorage.setItem('redirectPath', fullPath);
-        } catch (e) {}
-        // Redirect to the root for unified language handling
-        window.location.replace('/');
+          // Also pass it via query param for robustness (in case sessionStorage isn't available)
+          var encoded = encodeURIComponent(fullPath);
+          // Redirect to the root with preserved path as ?p=
+          window.location.replace('/?p=' + encoded);
+          return;
+        } catch (e) {
+          // If anything goes wrong, fall back to simple root redirect
+          window.location.replace('/');
+          return;
+        }
       })();
     </script>
     <noscript>
