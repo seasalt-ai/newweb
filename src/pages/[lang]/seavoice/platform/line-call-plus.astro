@@ -109,7 +109,6 @@ function getIconSvg(iconName: string) {
   };
   return icons[iconName as keyof typeof icons] || icons['message-circle'];
 }
----
 
 // Breadcrumbs
 const breadcrumbs = [
@@ -130,6 +129,8 @@ const faqs = [
     answer: t('seavoice.platform.lineCallPlus.faq.a2') || 'Yes. We support LINE Business accounts with native voice calling integration.'
   }
 ];
+---
+
 
 <Layout seo={seoData} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
   <!-- Hero Section -->
