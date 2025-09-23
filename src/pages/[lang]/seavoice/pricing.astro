@@ -167,7 +167,24 @@ const faqs = [
 ];
 ---
 
-<Layout title={seoData.title} description={seoData.description} canonical={seoData.canonical} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
+<Layout 
+  title={seoData.title} 
+  description={seoData.description} 
+  canonical={seoData.canonical} 
+  lang={currentLang} 
+  breadcrumbs={breadcrumbs} 
+  faqs={faqs}
+  type="product"
+  product={{
+    name: "SeaVoice",
+    brand: "Seasalt.ai",
+    category: "AI Voice Communication Platform",
+    description: "AI-powered voice communication platform with intelligent call routing, voice analytics, and automated responses for inbound and outbound calls",
+    price: "29.99",
+    currency: "USD",
+    availability: "InStock"
+  }}
+>
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

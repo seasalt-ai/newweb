@@ -664,10 +664,11 @@ if (video) {
 }
 
 // Auto-generate SoftwareApplication schema for product pages (SeaChat / SeaX / SeaVoice)
+// Skip if an explicit product schema is already provided
 try {
   const pathname = Astro.url.pathname;
   const detectedProduct = getProductKeyFromPath(pathname) as ProductKey | null;
-  if (detectedProduct) {
+  if (detectedProduct && type !== 'product') {
     const localized = getLocalizedProductInfo(detectedProduct, lang);
     const productIdMap: Record<ProductKey, string> = {
       seachat: SCHEMA_IDS.SEACHAT_PRODUCT,

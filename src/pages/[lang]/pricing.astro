@@ -167,9 +167,14 @@ const meetingUrl = getMeetingUrl(currentLang);
   description={description} 
   lang={currentLang}
   keywords={keywords}
-  type="product"
-  faqs={faqData}
-  breadcrumbs={breadcrumbs}
+  type="service"
+  service={{
+    serviceType: "AI Contact Center Platform",
+    provider: "Seasalt.ai",
+    areaServed: "Global",
+    offers: pricingOffers
+  }}
+  faqs={faqData.filter(faq => faq.question && faq.answer)}
   customJsonLd={customJsonLd}
 >
   <!-- Hero Section with Gradient Background -->
