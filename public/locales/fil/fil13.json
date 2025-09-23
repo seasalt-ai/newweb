@@ -1,0 +1,1884 @@
+{
+  "seavoice": {
+    "pages": {
+      "solutions": {
+        "inbound": {
+          "ivrReplacement": {
+            "hero": {
+              "title": "[FIL]IVR Replacement with Natural Language",
+              "subtitle": "[FIL]Eliminate frustrating phone trees and menu navigation. Let customers speak naturally to describe their needs and get connected to the right place instantly.",
+              "cta": "[FIL]Replace Your IVR Today"
+            },
+            "features": {
+              "title": "[FIL]Modern Voice Interface Features",
+              "subtitle": "[FIL]Transform outdated phone systems with intelligent conversation",
+              "naturalLanguage": {
+                "title": "[FIL]Natural Language Understanding",
+                "description": "[FIL]Replace confusing menu options with natural conversation that understands what customers really want.",
+                "benefit1": "[FIL]Conversational interface",
+                "benefit2": "[FIL]Intent recognition",
+                "benefit3": "[FIL]Context awareness"
+              },
+              "instantResolution": {
+                "title": "[FIL]Instant Resolution",
+                "description": "[FIL]Resolve customer inquiries immediately without navigating through multiple menu levels.",
+                "benefit1": "[FIL]Zero wait time",
+                "benefit2": "[FIL]Direct answers",
+                "benefit3": "[FIL]Immediate assistance"
+              },
+              "improvedExperience": {
+                "title": "[FIL]Improved Experience",
+                "description": "[FIL]Transform frustrating phone trees into pleasant, efficient customer interactions.",
+                "benefit1": "[FIL]Higher satisfaction",
+                "benefit2": "[FIL]Reduced abandonment",
+                "benefit3": "[FIL]Better accessibility"
+              }
+            },
+            "comparison": {
+              "title": "[FIL]Traditional IVR vs. Natural Language",
+              "subtitle": "[FIL]See the dramatic difference in customer experience",
+              "customerExperience": {
+                "aspect": "[FIL]Customer Experience",
+                "traditional": "[FIL]Press 1 for sales, 2 for support...",
+                "modern": "[FIL]I need help with my order\" - Instantly connected",
+                "improvement": "[FIL]85% satisfaction increase"
+              },
+              "timeToResolution": {
+                "aspect": "[FIL]Time to Resolution",
+                "traditional": "[FIL]3-5 minutes navigating menus",
+                "modern": "[FIL]30 seconds to reach right department",
+                "improvement": "[FIL]80% time reduction"
+              },
+              "callAbandonment": {
+                "aspect": "[FIL]Call Abandonment",
+                "traditional": "[FIL]25% abandon during menu navigation",
+                "modern": "[FIL]5% abandonment rate",
+                "improvement": "[FIL]80% reduction"
+              },
+              "accessibility": {
+                "aspect": "[FIL]Accessibility",
+                "traditional": "[FIL]Difficult for elderly/disabled users",
+                "modern": "[FIL]Natural speech for all users",
+                "improvement": "[FIL]100% accessibility"
+              },
+              "traditionalIvr": "[FIL]Traditional IVR",
+              "naturalLanguage": "[FIL]Natural Language"
+            },
+            "benefits": {
+              "title": "[FIL]Measurable Improvements",
+              "subtitle": "[FIL]Real results from replacing traditional IVR systems",
+              "satisfaction": {
+                "metric": "[FIL]85%",
+                "description": "[FIL]Increase in customer satisfaction"
+              },
+              "abandonment": {
+                "metric": "[FIL]80%",
+                "description": "[FIL]Reduction in call abandonment"
+              },
+              "resolution": {
+                "metric": "[FIL]70%",
+                "description": "[FIL]Faster call resolution"
+              },
+              "misdirected": {
+                "metric": "[FIL]90%",
+                "description": "[FIL]Reduction in misdirected calls"
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready to Modernize Your Phone System?",
+              "subtitle": "[FIL]Replace frustrating phone trees with natural conversation that customers love",
+              "startTrial": "[FIL]Start Free Trial",
+              "seeDemo": "[FIL]See Demo"
+            },
+            "title": "[FIL]IVR Replacement",
+            "description": "[FIL]Replace outdated phone menus with natural language understanding.",
+            "benefit1": "[FIL]Natural conversations",
+            "benefit2": "[FIL]Better UX",
+            "benefit3": "[FIL]Higher satisfaction"
+          },
+          "technicalSupport": {
+            "hero": {
+              "title": "[FIL]Technical Support Automation",
+              "description": "[FIL]Provide instant technical support with AI that can diagnose problems, guide customers through solutions, and escalate complex issues to human experts when needed.",
+              "primaryCta": "[FIL]Automate Technical Support"
+            },
+            "features": {
+              "title": "[FIL]Intelligent Technical Support",
+              "description": "[FIL]Advanced AI that understands technical problems and provides solutions",
+              "automatedTroubleshooting": {
+                "title": "[FIL]Automated Troubleshooting",
+                "description": "[FIL]Guide customers through step-by-step solutions for common technical issues.",
+                "benefits": {
+                  "0": "[FIL]Self-service resolution",
+                  "1": "[FIL]Instant diagnostics",
+                  "2": "[FIL]Interactive guidance"
+                }
+              },
+              "intelligentEscalation": {
+                "title": "[FIL]Intelligent Escalation",
+                "description": "[FIL]Automatically escalate complex issues to human technicians with full context.",
+                "benefits": {
+                  "0": "[FIL]Smart routing",
+                  "1": "[FIL]Context preservation",
+                  "2": "[FIL]Seamless handoff"
+                }
+              },
+              "multiPlatformSupport": {
+                "title": "[FIL]Multi-Platform Support",
+                "description": "[FIL]Provide technical assistance across different devices, software, and platforms.",
+                "benefits": {
+                  "0": "[FIL]Universal compatibility",
+                  "1": "[FIL]Cross-platform expertise",
+                  "2": "[FIL]Comprehensive coverage"
+                }
+              }
+            },
+            "capabilities": {
+              "title": "[FIL]Comprehensive Support Coverage",
+              "description": "[FIL]Handle a wide range of technical issues across all platforms",
+              "hardwareIssues": {
+                "category": "[FIL]Hardware Issues",
+                "description": "[FIL]Diagnose and resolve hardware-related problems",
+                "examples": {
+                  "0": "[FIL]Device connectivity",
+                  "1": "[FIL]Performance issues",
+                  "2": "[FIL]Hardware setup"
+                }
+              },
+              "softwareTroubleshooting": {
+                "category": "[FIL]Software Troubleshooting",
+                "description": "[FIL]Help with software installation and configuration",
+                "examples": {
+                  "0": "[FIL]App installation",
+                  "1": "[FIL]Settings configuration",
+                  "2": "[FIL]Update assistance"
+                }
+              },
+              "networkProblems": {
+                "category": "[FIL]Network Problems",
+                "description": "[FIL]Resolve internet and network connectivity issues",
+                "examples": {
+                  "0": "[FIL]WiFi setup",
+                  "1": "[FIL]Connection problems",
+                  "2": "[FIL]Speed optimization"
+                }
+              },
+              "accountSecurity": {
+                "category": "[FIL]Account & Security",
+                "description": "[FIL]Assist with account access and security concerns",
+                "examples": {
+                  "0": "[FIL]Password reset",
+                  "1": "[FIL]Account recovery",
+                  "2": "[FIL]Security settings"
+                }
+              }
+            },
+            "process": {
+              "title": "[FIL]AI Troubleshooting Process",
+              "description": "[FIL]Systematic approach to diagnosing and resolving technical issues",
+              "steps": {
+                "issueIdentification": {
+                  "title": "[FIL]Issue Identification",
+                  "description": "[FIL]AI listens to the problem description and asks clarifying questions"
+                },
+                "diagnosticAnalysis": {
+                  "title": "[FIL]Diagnostic Analysis",
+                  "description": "[FIL]System analyzes symptoms and identifies potential causes"
+                },
+                "solutionGuidance": {
+                  "title": "[FIL]Solution Guidance",
+                  "description": "[FIL]Provides step-by-step instructions to resolve the issue"
+                },
+                "verificationFollowup": {
+                  "title": "[FIL]Verification & Follow-up",
+                  "description": "[FIL]Confirms resolution and offers additional assistance if needed"
+                }
+              }
+            },
+            "benefits": {
+              "title": "[FIL]Support Efficiency Results",
+              "description": "[FIL]Measurable improvements in technical support operations"
+            },
+            "metrics": {
+              "resolution": {
+                "description": "[FIL]Issues resolved without human agent"
+              },
+              "reductionTime": {
+                "description": "[FIL]Reduction in average resolution time"
+              },
+              "satisfaction": {
+                "description": "[FIL]Customer satisfaction with AI support"
+              },
+              "availability": {
+                "description": "[FIL]Technical support availability"
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready to Automate Technical Support?",
+              "description": "[FIL]Provide instant, intelligent technical assistance that resolves issues faster",
+              "primaryButton": "[FIL]Start Free Trial",
+              "secondaryButton": "[FIL]See Demo"
+            },
+            "title": "[FIL]Technical Support",
+            "description": "[FIL]Automate troubleshooting and guide users through technical issues.",
+            "benefit1": "[FIL]Self-service solutions",
+            "benefit2": "[FIL]Faster resolution",
+            "benefit3": "[FIL]Cost savings"
+          },
+          "orderTracking": {
+            "hero": {
+              "title": "[FIL]Order Status & Tracking",
+              "subtitle": "[FIL]Let customers instantly check their order status, track shipments, and get delivery updates through natural voice conversations. Reduce support calls while improving customer satisfaction.",
+              "cta": "[FIL]Enable Order Tracking"
+            },
+            "features": {
+              "title": "[FIL]Comprehensive Order Tracking",
+              "subtitle": "[FIL]Complete visibility into order status and delivery progress",
+              "realTimeStatus": {
+                "title": "[FIL]Real-Time Order Status",
+                "description": "[FIL]Instantly provide customers with up-to-date information about their orders and shipments.",
+                "benefits": {
+                  "liveTracking": "[FIL]Live tracking updates",
+                  "deliveryEstimates": "[FIL]Delivery estimates",
+                  "statusNotifications": "[FIL]Status notifications"
+                }
+              },
+              "locationTracking": {
+                "title": "[FIL]Location Tracking",
+                "description": "[FIL]Share precise location information and delivery progress with customers.",
+                "benefits": {
+                  "gpsTracking": "[FIL]GPS tracking",
+                  "routeOptimization": "[FIL]Route optimization",
+                  "deliveryMapping": "[FIL]Delivery mapping"
+                }
+              },
+              "proactiveUpdates": {
+                "title": "[FIL]Proactive Updates",
+                "description": "[FIL]Automatically notify customers of delays, changes, or delivery confirmations.",
+                "benefits": {
+                  "delayNotifications": "[FIL]Delay notifications",
+                  "scheduleChanges": "[FIL]Schedule changes",
+                  "deliveryConfirmations": "[FIL]Delivery confirmations"
+                }
+              }
+            },
+            "tracking": {
+              "title": "[FIL]Complete Delivery Journey",
+              "subtitle": "[FIL]Track every stage from order placement to final delivery",
+              "stages": {
+                "orderPlaced": {
+                  "title": "[FIL]Order Placed",
+                  "description": "[FIL]Confirmation of order receipt and processing start",
+                  "info": {
+                    "orderNumber": "[FIL]Order number",
+                    "itemsOrdered": "[FIL]Items ordered",
+                    "processingTimeline": "[FIL]Processing timeline"
+                  }
+                },
+                "inTransit": {
+                  "title": "[FIL]In Transit",
+                  "description": "[FIL]Package is on its way to the destination",
+                  "info": {
+                    "currentLocation": "[FIL]Current location",
+                    "expectedDelivery": "[FIL]Expected delivery",
+                    "carrierInformation": "[FIL]Carrier information"
+                  }
+                },
+                "outForDelivery": {
+                  "title": "[FIL]Out for Delivery",
+                  "description": "[FIL]Package is with delivery driver for final delivery",
+                  "info": {
+                    "deliveryWindow": "[FIL]Delivery window",
+                    "driverContact": "[FIL]Driver contact",
+                    "specialInstructions": "[FIL]Special instructions"
+                  }
+                },
+                "delivered": {
+                  "title": "[FIL]Delivered",
+                  "description": "[FIL]Package has been successfully delivered",
+                  "info": {
+                    "deliveryTime": "[FIL]Delivery time",
+                    "deliveryLocation": "[FIL]Delivery location",
+                    "signatureConfirmation": "[FIL]Signature confirmation"
+                  }
+                }
+              }
+            },
+            "integration": {
+              "title": "[FIL]Universal Carrier Integration",
+              "description": "[FIL]Connect with all major shipping carriers and logistics providers to provide comprehensive tracking information regardless of how packages are shipped.",
+              "multiCarrier": {
+                "title": "[FIL]Multi-Carrier Support",
+                "description": "[FIL]Track packages across all major carriers"
+              },
+              "realTimeUpdates": {
+                "title": "[FIL]Real-Time Updates",
+                "description": "[FIL]Live tracking data from carrier APIs"
+              },
+              "deliveryAnalytics": {
+                "title": "[FIL]Delivery Analytics",
+                "description": "[FIL]Performance insights and delivery metrics"
+              },
+              "carriers": {
+                "title": "[FIL]Supported Carriers",
+                "fedex": "[FIL]FedEx API",
+                "ups": "[FIL]UPS Tracking",
+                "usps": "[FIL]USPS Integration",
+                "dhl": "[FIL]DHL Services",
+                "amazon": "[FIL]Amazon Logistics",
+                "custom": "[FIL]Custom Carriers"
+              }
+            },
+            "impact": {
+              "title": "[FIL]Customer Service Impact",
+              "subtitle": "[FIL]Measurable improvements in customer satisfaction and support efficiency",
+              "callReduction": {
+                "metric": "[FIL]85%",
+                "description": "[FIL]Reduction in \"Where is my order?\" calls"
+              },
+              "satisfaction": {
+                "metric": "[FIL]95%",
+                "description": "[FIL]Customer satisfaction with tracking info"
+              },
+              "availability": {
+                "metric": "[FIL]24/7",
+                "description": "[FIL]Order status availability"
+              },
+              "workloadReduction": {
+                "metric": "[FIL]60%",
+                "description": "[FIL]Decrease in customer service workload"
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready to Automate Order Tracking?",
+              "subtitle": "[FIL]Reduce support calls and improve customer satisfaction with instant order status",
+              "startTrial": "[FIL]Start Free Trial",
+              "seeDemo": "[FIL]See Demo"
+            },
+            "title": "[FIL]Order Status & Tracking",
+            "description": "[FIL]Let customers check order status and delivery information instantly.",
+            "benefit1": "[FIL]Instant updates",
+            "benefit2": "[FIL]Reduced calls",
+            "benefit3": "[FIL]Better experience"
+          },
+          "paymentProcessing": {
+            "hero": {
+              "title": "[FIL]Secure Payment Processing",
+              "description": "[FIL]Enable secure, PCI-compliant payment processing through voice interactions. Let customers make payments safely over the phone with advanced fraud protection and instant transaction processing.",
+              "cta": "[FIL]Enable Secure Payments"
+            },
+            "features": {
+              "title": "[FIL]Secure Voice Payment Features",
+              "description": "[FIL]Enterprise-grade security meets seamless customer experience",
+              "secure": {
+                "title": "[FIL]Secure Payment Processing",
+                "description": "[FIL]Process payments safely over the phone with PCI-compliant voice technology.",
+                "benefits": {
+                  "pciCompliance": "[FIL]PCI DSS compliance",
+                  "encryptedTransactions": "[FIL]Encrypted transactions",
+                  "multiplePaymentMethods": "[FIL]Multiple payment methods"
+                }
+              },
+              "fraud": {
+                "title": "[FIL]Fraud Protection",
+                "description": "[FIL]Advanced fraud detection and prevention to protect both business and customers.",
+                "benefits": {
+                  "realtimeFraudDetection": "[FIL]Real-time fraud detection",
+                  "riskAssessment": "[FIL]Risk assessment",
+                  "secureAuthentication": "[FIL]Secure authentication"
+                }
+              },
+              "instant": {
+                "title": "[FIL]Instant Processing",
+                "description": "[FIL]Process payments immediately with real-time authorization and confirmation.",
+                "benefits": {
+                  "realtimeAuthorization": "[FIL]Real-time authorization",
+                  "instantConfirmation": "[FIL]Instant confirmation",
+                  "immediateReceipts": "[FIL]Immediate receipts"
+                }
+              }
+            },
+            "paymentMethods": {
+              "title": "[FIL]Comprehensive Payment Options",
+              "description": "[FIL]Accept all major payment methods with secure voice processing",
+              "creditCards": {
+                "method": "[FIL]Credit Cards",
+                "description": "[FIL]Accept all major credit cards with secure voice processing",
+                "features": {
+                  "visaMastercardAmex": "[FIL]Visa, Mastercard, Amex",
+                  "cvvVerification": "[FIL]CVV verification",
+                  "expiryValidation": "[FIL]Expiry validation"
+                }
+              },
+              "debitCards": {
+                "method": "[FIL]Debit Cards",
+                "description": "[FIL]Process debit card payments with PIN verification",
+                "features": {
+                  "pinEntryVoice": "[FIL]PIN entry via voice",
+                  "bankVerification": "[FIL]Bank verification",
+                  "instantDeduction": "[FIL]Instant deduction"
+                }
+              },
+              "bankTransfers": {
+                "method": "[FIL]Bank Transfers",
+                "description": "[FIL]Direct bank account transfers and ACH payments",
+                "features": {
+                  "accountVerification": "[FIL]Account verification",
+                  "routingNumberValidation": "[FIL]Routing number validation",
+                  "achProcessing": "[FIL]ACH processing"
+                }
+              },
+              "digitalWallets": {
+                "method": "[FIL]Digital Wallets",
+                "description": "[FIL]Support for popular digital payment platforms",
+                "features": {
+                  "applePay": "[FIL]Apple Pay",
+                  "googlePay": "[FIL]Google Pay",
+                  "paypalIntegration": "[FIL]PayPal integration"
+                }
+              }
+            },
+            "security": {
+              "title": "[FIL]Bank-Level Security",
+              "description": "[FIL]Our payment processing system meets the highest security standards in the industry, ensuring that every transaction is protected with multiple layers of encryption and fraud prevention.",
+              "features": {
+                "title": "[FIL]Security Features"
+              },
+              "encryption": {
+                "title": "[FIL]End-to-End Encryption",
+                "description": "[FIL]All payment data encrypted in transit and at rest"
+              },
+              "pciCompliance": {
+                "title": "[FIL]PCI DSS Compliance",
+                "description": "[FIL]Level 1 PCI DSS certified infrastructure"
+              },
+              "monitoring": {
+                "title": "[FIL]Real-Time Monitoring",
+                "description": "[FIL]Continuous fraud detection and prevention"
+              }
+            },
+            "securityFeatures": {
+              "endToEndEncryption": "[FIL]End-to-end encryption",
+              "pciDssCompliance": "[FIL]PCI DSS Level 1 compliance",
+              "tokenization": "[FIL]Tokenization of card data",
+              "multiFactorAuth": "[FIL]Multi-factor authentication",
+              "fraudMonitoring": "[FIL]Real-time fraud monitoring",
+              "voiceRecognition": "[FIL]Secure voice recognition"
+            },
+            "benefits": {
+              "title": "[FIL]Payment Processing Performance",
+              "description": "[FIL]Industry-leading reliability and security metrics",
+              "uptime": "[FIL]Payment processing uptime",
+              "transactionTime": "[FIL]Average transaction time",
+              "compliance": "[FIL]PCI DSS compliance",
+              "fraudRate": "[FIL]Fraud rate with AI protection"
+            },
+            "cta": {
+              "title": "[FIL]Ready for Secure Voice Payments?",
+              "description": "[FIL]Enable PCI-compliant payment processing with advanced fraud protection",
+              "startProcessing": "[FIL]Start Secure Processing",
+              "securityOverview": "[FIL]Security Overview"
+            },
+            "title": "[FIL]Payment Processing",
+            "description": "[FIL]Securely process payments and handle billing inquiries.",
+            "benefit1": "[FIL]Secure transactions",
+            "benefit2": "[FIL]Automated billing",
+            "benefit3": "[FIL]PCI compliance"
+          },
+          "virtualAssistant": {
+            "hero": {
+              "title": "[FIL]24/7 Virtual Assistant for After-Hour Calls",
+              "description": "[FIL]Never miss another customer call. Our AI virtual assistant provides intelligent, human-like support around the clock, ensuring your customers always receive immediate assistance when they need it most.",
+              "primaryCta": "[FIL]Start Your 24/7 Assistant"
+            },
+            "features": {
+              "title": "[FIL]Always-On Customer Support",
+              "description": "[FIL]Comprehensive after-hours support that maintains your service quality 24/7",
+              "availability": {
+                "title": "[FIL]24/7 Availability",
+                "description": "[FIL]Never miss a call again with round-the-clock AI assistance that handles inquiries at any hour.",
+                "benefits": {
+                  "0": "[FIL]Always available",
+                  "1": "[FIL]No overtime costs",
+                  "2": "[FIL]Global time zone coverage"
+                }
+              },
+              "callHandling": {
+                "title": "[FIL]Intelligent Call Handling",
+                "description": "[FIL]Advanced AI understands caller intent and provides appropriate responses or escalation.",
+                "benefits": {
+                  "0": "[FIL]Natural conversations",
+                  "1": "[FIL]Context awareness",
+                  "2": "[FIL]Smart escalation"
+                }
+              },
+              "handoffs": {
+                "title": "[FIL]Seamless Handoffs",
+                "description": "[FIL]Smooth transition to human agents when needed, with full context preservation.",
+                "benefits": {
+                  "0": "[FIL]Context retention",
+                  "1": "[FIL]Warm transfers",
+                  "2": "[FIL]No repeated information"
+                }
+              }
+            },
+            "benefits": {
+              "title": "[FIL]Proven Results",
+              "description": "[FIL]See the impact of 24/7 virtual assistance on your business"
+            },
+            "metrics": {
+              "abandonment": {
+                "description": "[FIL]Reduction in after-hours call abandonment"
+              },
+              "availability": {
+                "description": "[FIL]Continuous customer service availability"
+              },
+              "costSavings": {
+                "description": "[FIL]Cost savings compared to human agents"
+              },
+              "satisfaction": {
+                "description": "[FIL]Customer satisfaction with AI interactions"
+              }
+            },
+            "useCases": {
+              "title": "[FIL]Industry Applications",
+              "description": "[FIL]See how different industries benefit from 24/7 virtual assistance",
+              "healthcare": {
+                "title": "[FIL]Healthcare After-Hours",
+                "description": "[FIL]Handle patient inquiries, appointment requests, and emergency triage outside office hours.",
+                "metrics": {
+                  "0": "[FIL]60% reduction in missed calls",
+                  "1": "[FIL]24/7 patient support",
+                  "2": "HIPAA[FIL] compliant"
+                }
+              },
+              "ecommerce": {
+                "title": "[FIL]E-commerce Support",
+                "description": "[FIL]Assist customers with order inquiries, returns, and product information anytime.",
+                "metrics": {
+                  "0": "[FIL]40% increase in customer satisfaction",
+                  "1": "[FIL]Instant order status",
+                  "2": "[FIL]24/7 availability"
+                }
+              },
+              "financial": {
+                "title": "[FIL]Financial Services",
+                "description": "[FIL]Provide account information, fraud alerts, and basic banking services after hours.",
+                "metrics": {
+                  "0": "[FIL]Secure authentication",
+                  "1": "[FIL]Fraud prevention",
+                  "2": "[FIL]Regulatory compliance"
+                }
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready for 24/7 Customer Support?",
+              "description": "[FIL]Transform your after-hours customer experience with intelligent virtual assistance",
+              "primaryButton": "[FIL]Start Free Trial",
+              "secondaryButton": "[FIL]Schedule Demo"
+            },
+            "title": "[FIL]24/7 Virtual Assistant",
+            "description": "[FIL]Provide immediate support outside business hours with intelligent call handling.",
+            "benefit1": "[FIL]24/7 availability",
+            "benefit2": "[FIL]Instant response",
+            "benefit3": "[FIL]Cost reduction"
+          },
+          "header": "[FIL]Inbound Solutions",
+          "description": "[FIL]Handle incoming calls with intelligent automation and superior customer experience",
+          "smartCallTransfer": {
+            "title": "[FIL]Smart Call Transfer",
+            "description": "[FIL]Intelligently route calls to the right department based on caller intent.",
+            "benefit1": "[FIL]Reduced wait times",
+            "benefit2": "[FIL]Better routing",
+            "benefit3": "[FIL]Improved efficiency"
+          },
+          "mentalHealth": {
+            "title": "[FIL]Mental Health Companion",
+            "description": "[FIL]Provide empathetic support for mental health screenings and resources.",
+            "benefit1": "[FIL]24/7 support",
+            "benefit2": "[FIL]Empathetic responses",
+            "benefit3": "[FIL]Crisis escalation"
+          },
+          "scamShield": {
+            "title": "[FIL]Scam Shield Protection",
+            "description": "[FIL]Identify and block fraudulent calls to protect your customers.",
+            "benefit1": "[FIL]Fraud detection",
+            "benefit2": "[FIL]Customer protection",
+            "benefit3": "[FIL]Reduced scam calls"
+          },
+          "appointmentBooking": {
+            "title": "[FIL]Appointment Booking",
+            "description": "[FIL]Enable autonomous appointment scheduling and management.",
+            "benefit1": "[FIL]24/7 booking",
+            "benefit2": "[FIL]Calendar sync",
+            "benefit3": "[FIL]Automated reminders"
+          }
+        },
+        "outbound": {
+          "customerReactivation": {
+            "hero": {
+              "title": "[FIL]Customer Reactivation Campaigns",
+              "subtitle": "[FIL]Win back inactive customers with personalized AI-powered outreach campaigns. Re-engage past customers with compelling offers and rebuild valuable relationships that drive recurring revenue.",
+              "cta": "[FIL]Start Reactivation Campaign"
+            },
+            "features": {
+              "title": "[FIL]Smart Reactivation Features",
+              "subtitle": "[FIL]AI-powered campaigns that understand customer behavior and preferences",
+              "personalizedOutreach": {
+                "title": "[FIL]Personalized Outreach",
+                "description": "[FIL]AI-powered conversations tailored to each customer's history and preferences.",
+                "benefits": {
+                  "customMessaging": "[FIL]Custom messaging",
+                  "historicalContext": "[FIL]Historical context",
+                  "behavioralInsights": "[FIL]Behavioral insights"
+                }
+              },
+              "winBackCampaigns": {
+                "title": "[FIL]Win-Back Campaigns",
+                "description": "[FIL]Strategic campaigns designed to re-engage inactive customers with compelling offers.",
+                "benefits": {
+                  "specialPromotions": "[FIL]Special promotions",
+                  "loyaltyRewards": "[FIL]Loyalty rewards",
+                  "exclusiveAccess": "[FIL]Exclusive access"
+                }
+              },
+              "performanceAnalytics": {
+                "title": "[FIL]Performance Analytics",
+                "description": "[FIL]Track reactivation success rates and optimize campaigns for better results.",
+                "benefits": {
+                  "conversionTracking": "[FIL]Conversion tracking",
+                  "abTesting": "[FIL]A/B testing",
+                  "roiAnalysis": "[FIL]ROI analysis"
+                }
+              }
+            },
+            "process": {
+              "title": "[FIL]Reactivation Process",
+              "subtitle": "[FIL]Strategic approach to winning back valuable customers",
+              "steps": {
+                "customerSegmentation": {
+                  "title": "[FIL]Customer Segmentation",
+                  "description": "[FIL]Identify and categorize inactive customers based on their history and value",
+                  "outcome": "[FIL]Targeted approach: 3x higher response rate"
+                },
+                "personalizedOutreach": {
+                  "title": "[FIL]Personalized Outreach",
+                  "description": "[FIL]AI crafts personalized messages based on customer preferences and history",
+                  "outcome": "[FIL]Engagement rate: 45% vs 12% generic"
+                },
+                "offerPresentation": {
+                  "title": "[FIL]Offer Presentation",
+                  "description": "[FIL]Present compelling win-back offers tailored to customer value and interests",
+                  "outcome": "[FIL]Conversion rate: 25% with personalized offers"
+                },
+                "followUpNurturing": {
+                  "title": "[FIL]Follow-up & Nurturing",
+                  "description": "[FIL]Automated follow-up sequences to nurture interested customers back to active status",
+                  "outcome": "[FIL]Retention rate: 80% of reactivated customers"
+                }
+              }
+            },
+            "campaigns": {
+              "title": "[FIL]Reactivation Campaign Types",
+              "subtitle": "[FIL]Multiple strategies to re-engage different customer segments",
+              "winBackOffers": {
+                "title": "[FIL]Win-Back Offers",
+                "description": "[FIL]Special discounts and promotions to entice customers back",
+                "tactics": {
+                  "exclusiveDiscounts": "[FIL]Exclusive discounts",
+                  "limitedTimeOffers": "[FIL]Limited-time offers",
+                  "freeTrials": "[FIL]Free trials"
+                }
+              },
+              "feedbackCollection": {
+                "title": "[FIL]Feedback Collection",
+                "description": "[FIL]Understand why customers left and address their concerns",
+                "tactics": {
+                  "exitSurveys": "[FIL]Exit surveys",
+                  "concernResolution": "[FIL]Concern resolution",
+                  "serviceImprovements": "[FIL]Service improvements"
+                }
+              },
+              "productUpdates": {
+                "title": "[FIL]Product Updates",
+                "description": "[FIL]Inform customers about new features or improvements",
+                "tactics": {
+                  "featureAnnouncements": "[FIL]Feature announcements",
+                  "benefitExplanations": "[FIL]Benefit explanations",
+                  "demoInvitations": "[FIL]Demo invitations"
+                }
+              },
+              "loyaltyRewards": {
+                "title": "[FIL]Loyalty Rewards",
+                "description": "[FIL]Recognize past loyalty and offer special treatment",
+                "tactics": {
+                  "vipStatus": "[FIL]VIP status",
+                  "loyaltyPoints": "[FIL]Loyalty points",
+                  "exclusiveAccess": "[FIL]Exclusive access"
+                }
+              }
+            },
+            "results": {
+              "title": "[FIL]Reactivation Results",
+              "subtitle": "[FIL]Proven success in winning back valuable customers",
+              "reactivationRate": {
+                "metric": "[FIL]35%",
+                "description": "[FIL]Customer reactivation rate"
+              },
+              "costReduction": {
+                "metric": "[FIL]60%",
+                "description": "[FIL]Cost reduction vs traditional methods"
+              },
+              "responseRate": {
+                "metric": "[FIL]3x",
+                "description": "[FIL]Higher response rate than generic campaigns"
+              },
+              "retentionRate": {
+                "metric": "[FIL]80%",
+                "description": "[FIL]Retention rate of reactivated customers"
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready to Win Back Your Customers?",
+              "subtitle": "[FIL]Start personalized reactivation campaigns that rebuild valuable customer relationships",
+              "startCampaign": "[FIL]Start Campaign",
+              "viewCaseStudies": "[FIL]View Case Studies"
+            }
+          },
+          "fraudAlerts": {
+            "hero": {
+              "title": "[FIL]Fraud Alert System",
+              "description": "[FIL]Protect your customers with instant fraud alerts. Our AI-powered system detects suspicious activities and automatically contacts customers to verify transactions."
+            },
+            "features": {
+              "title": "[FIL]Advanced Fraud Detection",
+              "subtitle": "[FIL]Real-time monitoring and intelligent alerting to protect your customers",
+              "realTimeDetection": {
+                "title": "[FIL]Real-time Detection",
+                "description": "[FIL]Monitor transactions 24/7 and detect suspicious patterns instantly using advanced AI algorithms."
+              },
+              "instantAlerts": {
+                "title": "[FIL]Instant Alerts",
+                "description": "[FIL]Automatically call customers within minutes of detecting suspicious activity to verify transactions."
+              },
+              "detailedAnalytics": {
+                "title": "[FIL]Detailed Analytics",
+                "description": "[FIL]Track fraud prevention metrics and customer response rates with comprehensive reporting."
+              }
+            },
+            "howItWorks": {
+              "title": "[FIL]How Fraud Alerts Work",
+              "step1": {
+                "title": "[FIL]Fraud Detection",
+                "description": "[FIL]System identifies suspicious transaction patterns"
+              },
+              "step2": {
+                "title": "[FIL]Immediate Alert",
+                "description": "[FIL]AI agent calls customer within 2 minutes"
+              },
+              "step3": {
+                "title": "[FIL]Verification",
+                "description": "[FIL]Customer confirms or denies the transaction"
+              },
+              "step4": {
+                "title": "[FIL]Action Taken",
+                "description": "[FIL]Transaction approved or security measures activated"
+              },
+              "sampleCall": {
+                "title": "[FIL]Sample Alert Call",
+                "message": "[FIL]Hello, this is a security alert from [Bank Name]. We've detected unusual activity on your account. A transaction of $500 at Amazon was just attempted. Did you authorize this purchase? Please press 1 to confirm or 2 if this was not you."
+              }
+            },
+            "benefits": {
+              "title": "[FIL]Key Benefits",
+              "fraudPrevention": {
+                "title": "[FIL]Fraud Prevention",
+                "description": "[FIL]Reduce fraudulent transactions by up to 85%"
+              },
+              "instantResponse": {
+                "title": "[FIL]Instant Response",
+                "description": "[FIL]Alert customers within 2 minutes of detection"
+              },
+              "customerTrust": {
+                "title": "[FIL]Customer Trust",
+                "description": "[FIL]Build confidence with proactive protection"
+              },
+              "smartAnalytics": {
+                "title": "[FIL]Smart Analytics",
+                "description": "[FIL]Detailed insights on fraud patterns and trends"
+              }
+            },
+            "useCases": {
+              "title": "[FIL]Common Use Cases",
+              "banking": {
+                "title": "[FIL]Banking & Financial Services",
+                "item1": "[FIL]Credit card fraud detection",
+                "item2": "[FIL]Unusual spending pattern alerts",
+                "item3": "[FIL]Account takeover prevention",
+                "item4": "[FIL]Large transaction verification"
+              },
+              "ecommerce": {
+                "title": "[FIL]E-commerce & Retail",
+                "item1": "[FIL]Suspicious purchase patterns",
+                "item2": "[FIL]High-value order verification",
+                "item3": "[FIL]Identity theft protection",
+                "item4": "[FIL]Payment method changes"
+              }
+            },
+            "cta": {
+              "title": "[FIL]Protect Your Customers Today",
+              "description": "[FIL]Implement advanced fraud detection with automated customer alerts to reduce losses and build trust.",
+              "button": "[FIL]Get Started with Fraud Alerts"
+            },
+            "title": "[FIL]Fraud Alerts",
+            "description": "[FIL]Alert customers to suspicious account activity immediately.",
+            "benefit1": "[FIL]Real-time alerts",
+            "benefit2": "[FIL]Account protection",
+            "benefit3": "[FIL]Fraud prevention"
+          },
+          "largeScaleCampaigns": {
+            "hero": {
+              "title": "[FIL]Large Scale Outbound Campaigns",
+              "description": "[FIL]Execute massive voice campaigns that reach thousands of customers simultaneously. From product launches to emergency notifications, deliver personalized messages at unprecedented scale with AI-powered efficiency.",
+              "cta": "[FIL]Launch Mass Campaign"
+            },
+            "features": {
+              "title": "[FIL]Enterprise-Scale Campaign Features",
+              "subtitle": "[FIL]Powerful tools for managing and executing large-scale voice campaigns",
+              "massCommunication": {
+                "title": "[FIL]Mass Communication",
+                "description": "[FIL]Reach thousands of customers simultaneously with personalized voice messages.",
+                "benefit1": "[FIL]Unlimited concurrent calls",
+                "benefit2": "[FIL]Personalized messaging",
+                "benefit3": "[FIL]Global reach"
+              },
+              "audienceSegmentation": {
+                "title": "[FIL]Audience Segmentation",
+                "description": "[FIL]Target specific customer segments with tailored messages and timing.",
+                "benefit1": "[FIL]Demographic targeting",
+                "benefit2": "[FIL]Behavioral segmentation",
+                "benefit3": "[FIL]Custom audiences"
+              },
+              "realTimeAnalytics": {
+                "title": "[FIL]Real-Time Analytics",
+                "description": "[FIL]Monitor campaign performance and optimize in real-time for better results.",
+                "benefit1": "[FIL]Live dashboards",
+                "benefit2": "[FIL]Performance metrics",
+                "benefit3": "[FIL]A/B testing"
+              }
+            },
+            "campaignTypes": {
+              "title": "[FIL]Campaign Types & Applications",
+              "subtitle": "[FIL]Versatile solutions for different business communication needs",
+              "productAnnouncements": {
+                "type": "[FIL]Product Announcements",
+                "description": "[FIL]Launch new products or services with widespread awareness campaigns",
+                "example1": "[FIL]New feature releases",
+                "example2": "[FIL]Product launches",
+                "example3": "[FIL]Service updates",
+                "metric1": "[FIL]Reach: 100K+ customers",
+                "metric2": "[FIL]Awareness: 85% increase",
+                "metric3": "[FIL]Engagement: 45% response"
+              },
+              "emergencyNotifications": {
+                "type": "[FIL]Emergency Notifications",
+                "description": "[FIL]Rapidly disseminate critical information during emergencies",
+                "example1": "[FIL]Service outages",
+                "example2": "[FIL]Safety alerts",
+                "example3": "[FIL]Policy changes",
+                "metric1": "[FIL]Speed: 1000 calls/minute",
+                "metric2": "[FIL]Delivery: 99% success",
+                "metric3": "[FIL]Response: < 5 minutes"
+              },
+              "marketingCampaigns": {
+                "type": "[FIL]Marketing Campaigns",
+                "description": "[FIL]Execute large-scale promotional and marketing initiatives",
+                "example1": "[FIL]Seasonal promotions",
+                "example2": "[FIL]Brand campaigns",
+                "example3": "[FIL]Event invitations",
+                "metric1": "[FIL]Conversion: 12% average",
+                "metric2": "[FIL]ROI: 300% typical",
+                "metric3": "[FIL]Reach: Unlimited scale"
+              },
+              "surveyResearch": {
+                "type": "[FIL]Survey & Research",
+                "description": "[FIL]Conduct market research and gather customer feedback at scale",
+                "example1": "[FIL]Market research",
+                "example2": "[FIL]Customer satisfaction",
+                "example3": "[FIL]Product feedback",
+                "metric1": "[FIL]Response: 35% rate",
+                "metric2": "[FIL]Completion: 80%",
+                "metric3": "[FIL]Insights: Real-time"
+              },
+              "commonExamples": "[FIL]Common Examples:",
+              "performanceMetrics": "[FIL]Performance Metrics:"
+            },
+            "scaling": {
+              "title": "[FIL]Unlimited Scale & Reach",
+              "description": "[FIL]Our platform is built to handle campaigns of any size, from thousands to millions of calls. With global carrier partnerships and advanced infrastructure, we ensure reliable delivery at massive scale.",
+              "globalInfrastructure": {
+                "title": "[FIL]Global Infrastructure",
+                "description": "[FIL]Worldwide carrier network for maximum reach"
+              },
+              "highSpeedExecution": {
+                "title": "[FIL]High-Speed Execution",
+                "description": "[FIL]1000+ concurrent calls per minute"
+              },
+              "realTimeMonitoring": {
+                "title": "[FIL]Real-Time Monitoring",
+                "description": "[FIL]Live campaign performance tracking"
+              },
+              "capabilities": {
+                "title": "[FIL]Scaling Capabilities",
+                "capability1": "[FIL]Unlimited concurrent calls",
+                "capability2": "[FIL]Global carrier network",
+                "capability3": "[FIL]Multi-language support",
+                "capability4": "[FIL]Time zone optimization",
+                "capability5": "[FIL]Regulatory compliance",
+                "capability6": "[FIL]Real-time monitoring"
+              },
+              "dashboard": {
+                "title": "[FIL]Campaign Dashboard",
+                "activeCalls": "[FIL]Active Calls:",
+                "completionRate": "[FIL]Completion Rate:",
+                "responseRate": "[FIL]Response Rate:"
+              }
+            },
+            "benefits": {
+              "title": "[FIL]Campaign Performance Results",
+              "subtitle": "[FIL]Proven effectiveness at enterprise scale",
+              "metric1": {
+                "value": "[FIL]10,000+",
+                "description": "[FIL]Concurrent calls supported"
+              },
+              "metric2": {
+                "value": "[FIL]99.9%",
+                "description": "[FIL]Message delivery success rate"
+              },
+              "metric3": {
+                "value": "[FIL]75%",
+                "description": "[FIL]Cost reduction vs traditional methods"
+              },
+              "metric4": {
+                "value": "[FIL]24/7",
+                "description": "[FIL]Campaign execution capability"
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready to Scale Your Communications?",
+              "description": "[FIL]Launch massive voice campaigns that reach thousands of customers with personalized messages",
+              "primaryButton": "[FIL]Plan Your Campaign",
+              "secondaryButton": "[FIL]See Case Studies"
+            }
+          },
+          "hero": {
+            "title": "[FIL]Collections Service Automation",
+            "description": "[FIL]Streamline your debt collection process with AI-powered calling that maintains customer relationships while improving collection rates. Fully compliant with FDCPA[FIL] and TCPA[FIL] regulations.",
+            "cta": "[FIL]Improve Collection Rates"
+          },
+          "features": {
+            "title": "[FIL]Smart Collections Features",
+            "subtitle": "[FIL]Professional, compliant, and effective debt collection automation",
+            "paymentReminders": {
+              "title": "[FIL]Automated Payment Reminders",
+              "description": "[FIL]Gentle, professional reminders that maintain customer relationships while encouraging payment.",
+              "benefit1": "[FIL]Customizable messaging",
+              "benefit2": "[FIL]Multiple contact attempts",
+              "benefit3": "[FIL]Payment plan options"
+            },
+            "compliance": {
+              "title": "[FIL]Compliance & Regulation",
+              "description": "[FIL]Built-in compliance with FDCPA[FIL], TCPA[FIL], and other debt collection regulations.",
+              "benefit1": "[FIL]Regulatory compliance",
+              "benefit2": "[FIL]Call recording",
+              "benefit3": "[FIL]Audit trails"
+            },
+            "optimalTiming": {
+              "title": "[FIL]Optimal Timing",
+              "description": "[FIL]AI determines the best times to contact customers for maximum response rates.",
+              "benefit1": "[FIL]Time zone awareness",
+              "benefit2": "[FIL]Behavioral patterns",
+              "benefit3": "[FIL]Response optimization"
+            }
+          },
+          "collectionProcess": {
+            "title": "[FIL]Progressive Collection Strategy",
+            "subtitle": "[FIL]Escalating approach that maximizes collection while preserving relationships",
+            "earlyReminder": {
+              "stage": "[FIL]Early Reminder",
+              "description": "[FIL]Friendly payment reminders for recently overdue accounts",
+              "approach": "[FIL]Soft, helpful tone with payment options",
+              "success": "[FIL]65% payment rate"
+            },
+            "followUp": {
+              "stage": "[FIL]Follow-up",
+              "description": "[FIL]More direct communication for persistent overdue accounts",
+              "approach": "[FIL]Clear consequences, payment plan offers",
+              "success": "[FIL]45% payment rate"
+            },
+            "finalNotice": {
+              "stage": "[FIL]Final Notice",
+              "description": "[FIL]Last attempt before escalation to human collectors",
+              "approach": "[FIL]Urgent tone, final payment deadline",
+              "success": "[FIL]30% payment rate"
+            },
+            "humanHandoff": {
+              "stage": "[FIL]Human Handoff",
+              "description": "[FIL]Complex cases transferred to human collectors with full context",
+              "approach": "[FIL]Detailed account history and previous interactions",
+              "success": "[FIL]25% resolution rate"
+            }
+          },
+          "benefits": {
+            "title": "[FIL]Proven Collection Results",
+            "subtitle": "[FIL]See the impact of AI-powered collections on your recovery rates",
+            "collectionRates": {
+              "metric": "[FIL]40%",
+              "description": "[FIL]Increase in collection rates"
+            },
+            "costReduction": {
+              "metric": "[FIL]60%",
+              "description": "[FIL]Reduction in collection costs"
+            },
+            "paymentProcessing": {
+              "metric": "[FIL]80%",
+              "description": "[FIL]Faster payment processing"
+            },
+            "complianceRate": {
+              "metric": "[FIL]95%",
+              "description": "[FIL]Regulatory compliance rate"
+            }
+          },
+          "complianceSection": {
+            "title": "[FIL]Built-in Compliance",
+            "description": "[FIL]Our collections platform is designed with compliance at its core, ensuring all interactions meet federal and state regulations while maintaining professional standards.",
+            "features": {
+              "fdcpaCompliance": "FDCPA[FIL] Compliance",
+              "tcpaCompliance": "TCPA[FIL] Compliance",
+              "stateRegulation": "[FIL]State Regulation Adherence",
+              "callRecording": "[FIL]Call Recording & Monitoring",
+              "disputeHandling": "[FIL]Dispute Handling",
+              "ceaseDesist": "[FIL]Cease & Desist Management"
+            },
+            "subFeatures": {
+              "regulatoryCompliance": {
+                "title": "[FIL]Regulatory Compliance",
+                "description": "FDCPA[FIL], TCPA[FIL], and state-specific regulations"
+              },
+              "auditTrail": {
+                "title": "[FIL]Complete Audit Trail",
+                "description": "[FIL]Detailed logging of all interactions and outcomes"
+              },
+              "timingControls": {
+                "title": "[FIL]Timing Controls",
+                "description": "[FIL]Automatic adherence to calling time restrictions"
+              }
+            },
+            "featuresTitle": "[FIL]Compliance Features"
+          },
+          "cta": {
+            "title": "[FIL]Ready to Improve Your Collection Rates?",
+            "subtitle": "[FIL]Start recovering more debt with compliant, professional AI-powered collections",
+            "startFreeTrial": "[FIL]Start Free Trial",
+            "scheduleDemo": "[FIL]Schedule Demo"
+          },
+          "leadGeneration": {
+            "hero": {
+              "title": "[FIL]Lead Generation & Qualification",
+              "subtitle": "[FIL]Transform your sales pipeline with AI-powered lead generation that identifies, qualifies, and nurtures prospects automatically, delivering only the highest-quality leads to your sales team.",
+              "cta": "[FIL]Boost Your Lead Generation"
+            },
+            "features": {
+              "title": "[FIL]Intelligent Lead Generation Features",
+              "subtitle": "[FIL]Advanced AI technology that identifies and qualifies prospects with precision",
+              "intelligentQualification": {
+                "title": "[FIL]Intelligent Lead Qualification",
+                "description": "[FIL]AI-powered conversations that identify high-quality prospects and gather essential information.",
+                "benefits": {
+                  "automatedScoring": "[FIL]Automated scoring",
+                  "intentDetection": "[FIL]Intent detection",
+                  "demographicProfiling": "[FIL]Demographic profiling"
+                }
+              },
+              "personalizedOutreach": {
+                "title": "[FIL]Personalized Outreach",
+                "description": "[FIL]Dynamic conversations tailored to each prospect based on their profile and interests.",
+                "benefits": {
+                  "customMessaging": "[FIL]Custom messaging",
+                  "behavioralTriggers": "[FIL]Behavioral triggers",
+                  "contextualResponses": "[FIL]Contextual responses"
+                }
+              },
+              "realTimeAnalytics": {
+                "title": "[FIL]Real-Time Analytics",
+                "description": "[FIL]Track campaign performance and lead quality with comprehensive reporting.",
+                "benefits": {
+                  "conversionTracking": "[FIL]Conversion tracking",
+                  "qualityMetrics": "[FIL]Quality metrics",
+                  "roiAnalysis": "[FIL]ROI analysis"
+                }
+              }
+            },
+            "process": {
+              "title": "[FIL]Lead Qualification Process",
+              "subtitle": "[FIL]From initial contact to qualified handoff - see how our AI works",
+              "steps": {
+                "initialContact": {
+                  "title": "[FIL]Initial Contact",
+                  "description": "[FIL]AI agent makes personalized outbound calls to prospects",
+                  "outcome": "[FIL]Engagement rate: 35%"
+                },
+                "needsAssessment": {
+                  "title": "[FIL]Needs Assessment",
+                  "description": "[FIL]Intelligent questioning to understand prospect requirements",
+                  "outcome": "[FIL]Qualification rate: 60%"
+                },
+                "interestScoring": {
+                  "title": "[FIL]Interest Scoring",
+                  "description": "[FIL]AI scores lead quality based on responses and engagement",
+                  "outcome": "[FIL]Accuracy rate: 85%"
+                },
+                "handoffToSales": {
+                  "title": "[FIL]Handoff to Sales",
+                  "description": "[FIL]Qualified leads transferred to human sales team with full context",
+                  "outcome": "[FIL]Conversion rate: 25%"
+                }
+              }
+            },
+            "results": {
+              "title": "[FIL]Proven Results",
+              "subtitle": "[FIL]See the impact of AI-powered lead generation on your sales pipeline",
+              "qualifiedLeads": {
+                "metric": "[FIL]300%",
+                "description": "[FIL]Increase in qualified leads"
+              },
+              "costReduction": {
+                "metric": "[FIL]60%",
+                "description": "[FIL]Reduction in cost per lead"
+              },
+              "accuracy": {
+                "metric": "[FIL]85%",
+                "description": "[FIL]Lead qualification accuracy"
+              },
+              "conversion": {
+                "metric": "[FIL]25%",
+                "description": "[FIL]Lead to customer conversion rate"
+              }
+            },
+            "industries": {
+              "title": "[FIL]Industry Success Stories",
+              "subtitle": "[FIL]See how different industries benefit from AI lead generation",
+              "realEstate": {
+                "name": "[FIL]Real Estate",
+                "description": "[FIL]Qualify property buyers and sellers, schedule viewings",
+                "results": {
+                  "moreLeads": "[FIL]40% more qualified leads",
+                  "fasterCycle": "[FIL]50% faster sales cycle"
+                }
+              },
+              "insurance": {
+                "name": "[FIL]Insurance",
+                "description": "[FIL]Identify prospects needing coverage, gather risk information",
+                "results": {
+                  "increaseSales": "[FIL]35% increase in policy sales",
+                  "costReduction": "[FIL]60% cost reduction"
+                }
+              },
+              "softwareSaas": {
+                "name": "[FIL]Software/SaaS",
+                "description": "[FIL]Qualify enterprise prospects, schedule product demos",
+                "results": {
+                  "demoBookings": "[FIL]3x more demo bookings",
+                  "closeRate": "[FIL]45% higher close rate"
+                }
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready to Transform Your Lead Generation?",
+              "subtitle": "[FIL]Start generating and qualifying more leads with AI-powered outbound calling",
+              "startTrial": "[FIL]Start Free Trial",
+              "scheduleDemo": "[FIL]Schedule Demo"
+            },
+            "title": "[FIL]Lead Generation & Qualification",
+            "description": "[FIL]Proactively qualify leads and schedule follow-ups for sales teams.",
+            "benefit1": "[FIL]Higher conversion",
+            "benefit2": "[FIL]Qualified leads",
+            "benefit3": "[FIL]Sales efficiency"
+          },
+          "customerSurveys": {
+            "hero": {
+              "title": "[FIL]Customer Survey Automation",
+              "description": "[FIL]Gather valuable customer feedback through natural voice conversations. Conduct automated surveys that feel personal and engaging, achieving higher response rates and more detailed insights than traditional methods.",
+              "cta": "[FIL]Start Survey Campaign"
+            },
+            "sections": {
+              "features": {
+                "title": "[FIL]Intelligent Survey Features",
+                "subtitle": "[FIL]Advanced AI technology that makes surveys feel like natural conversations"
+              },
+              "surveys": {
+                "title": "[FIL]Comprehensive Survey Solutions",
+                "subtitle": "[FIL]Tailored survey types for different business objectives and insights"
+              },
+              "sampleQuestions": "[FIL]Sample Questions:",
+              "keyMetrics": "[FIL]Key Metrics:",
+              "analytics": {
+                "title": "[FIL]Advanced Analytics & Insights",
+                "description": "[FIL]Our AI doesn't just collect responses—it analyzes sentiment, identifies trends, and provides actionable insights that help you make data-driven decisions to improve your business."
+              },
+              "analysisFeatures": {
+                "title": "[FIL]Analysis Features"
+              },
+              "benefits": {
+                "title": "[FIL]Survey Performance Results",
+                "subtitle": "[FIL]Proven improvements in feedback collection and customer insights"
+              }
+            },
+            "features": {
+              "conversational": {
+                "title": "[FIL]Conversational Surveys",
+                "description": "[FIL]Natural voice conversations that feel like friendly discussions rather than formal surveys.",
+                "benefits": {
+                  "0": "[FIL]Higher response rates",
+                  "1": "[FIL]Natural interactions",
+                  "2": "[FIL]Detailed feedback"
+                }
+              },
+              "analytics": {
+                "title": "[FIL]Real-Time Analytics",
+                "description": "[FIL]Instant analysis and reporting of survey responses with actionable insights.",
+                "benefits": {
+                  "0": "[FIL]Live dashboards",
+                  "1": "[FIL]Sentiment analysis",
+                  "2": "[FIL]Trend identification"
+                }
+              },
+              "outreach": {
+                "title": "[FIL]Targeted Outreach",
+                "description": "[FIL]Reach specific customer segments with personalized survey experiences.",
+                "benefits": {
+                  "0": "[FIL]Demographic targeting",
+                  "1": "[FIL]Behavioral segmentation",
+                  "2": "[FIL]Custom timing"
+                }
+              }
+            },
+            "surveyTypes": {
+              "csat": {
+                "title": "[FIL]Customer Satisfaction (CSAT)",
+                "description": "[FIL]Measure overall satisfaction with products, services, or interactions",
+                "questions": {
+                  "0": "[FIL]How satisfied are you with our service?",
+                  "1": "[FIL]What could we improve?",
+                  "2": "[FIL]Would you recommend us?"
+                },
+                "metrics": {
+                  "0": "[FIL]CSAT Score",
+                  "1": "[FIL]Net Promoter Score",
+                  "2": "[FIL]Response Rate"
+                }
+              },
+              "postPurchase": {
+                "title": "[FIL]Post-Purchase Feedback",
+                "description": "[FIL]Gather insights immediately after a purchase or service interaction",
+                "questions": {
+                  "0": "[FIL]How was your buying experience?",
+                  "1": "[FIL]Did the product meet expectations?",
+                  "2": "[FIL]Any delivery issues?"
+                },
+                "metrics": {
+                  "0": "[FIL]Purchase Satisfaction",
+                  "1": "[FIL]Delivery Rating",
+                  "2": "[FIL]Product Quality"
+                }
+              },
+              "productDev": {
+                "title": "[FIL]Product Development",
+                "description": "[FIL]Collect input for new features, products, or service improvements",
+                "questions": {
+                  "0": "[FIL]What features would you like to see?",
+                  "1": "[FIL]How do you use our product?",
+                  "2": "[FIL]What problems need solving?"
+                },
+                "metrics": {
+                  "0": "[FIL]Feature Requests",
+                  "1": "[FIL]Usage Patterns",
+                  "2": "[FIL]Pain Points"
+                }
+              },
+              "marketResearch": {
+                "title": "[FIL]Market Research",
+                "description": "[FIL]Understand market trends, preferences, and competitive landscape",
+                "questions": {
+                  "0": "[FIL]What brands do you prefer?",
+                  "1": "[FIL]How do you make purchasing decisions?",
+                  "2": "[FIL]What influences your choices?"
+                },
+                "metrics": {
+                  "0": "[FIL]Brand Awareness",
+                  "1": "[FIL]Purchase Drivers",
+                  "2": "[FIL]Market Trends"
+                }
+              }
+            },
+            "analytics": {
+              "sentimentAnalysis": {
+                "title": "[FIL]Sentiment Analysis",
+                "description": "[FIL]Understand emotional tone behind responses"
+              },
+              "trendIdentification": {
+                "title": "[FIL]Trend Identification",
+                "description": "[FIL]Spot patterns and emerging issues early"
+              },
+              "actionableReports": {
+                "title": "[FIL]Actionable Reports",
+                "description": "[FIL]Get specific recommendations for improvement"
+              }
+            },
+            "analysisFeatures": {
+              "0": "[FIL]Real-time sentiment analysis",
+              "1": "[FIL]Automated response categorization",
+              "2": "[FIL]Trend identification and alerts",
+              "3": "[FIL]Custom reporting dashboards",
+              "4": "[FIL]Integration with CRM systems",
+              "5": "[FIL]Actionable insights generation"
+            },
+            "dashboard": {
+              "title": "[FIL]Live Survey Dashboard",
+              "responsesToday": "[FIL]Responses Today:",
+              "completionRate": "[FIL]Completion Rate:",
+              "avgSatisfaction": "[FIL]Avg. Satisfaction:",
+              "sentiment": "[FIL]Sentiment:",
+              "responsesTodayValue": "[FIL]1,847",
+              "completionRateValue": "[FIL]85.3%",
+              "avgSatisfactionValue": "[FIL]4.2/5",
+              "sentimentValue": "[FIL]78% Positive"
+            },
+            "benefits": {
+              "0": {
+                "metric": "[FIL]3x",
+                "description": "[FIL]Higher response rate than traditional surveys"
+              },
+              "1": {
+                "metric": "[FIL]85%",
+                "description": "[FIL]Survey completion rate"
+              },
+              "2": {
+                "metric": "[FIL]60%",
+                "description": "[FIL]More detailed feedback collected"
+              },
+              "3": {
+                "metric": "[FIL]24/7",
+                "description": "[FIL]Automated survey deployment"
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready to Gather Better Customer Insights?",
+              "subtitle": "[FIL]Start collecting valuable feedback with conversational surveys that customers actually want to complete",
+              "primaryBtn": "[FIL]Launch Survey Campaign",
+              "secondaryBtn": "[FIL]See Sample Survey"
+            }
+          },
+          "proactiveSupport": {
+            "hero": {
+              "title": "[FIL]Proactive Customer Support",
+              "description": "[FIL]Stay ahead of customer issues with intelligent proactive notifications. Automatically inform customers about service updates, account changes, and important information before they need to call you.",
+              "cta": "[FIL]Enable Proactive Support"
+            },
+            "features": {
+              "title": "[FIL]Intelligent Proactive Features",
+              "subtitle": "[FIL]Advanced automation that anticipates customer needs and prevents issues",
+              "proactiveNotifications": {
+                "title": "[FIL]Proactive Notifications",
+                "description": "[FIL]Automatically notify customers about important updates, changes, or issues before they become problems.",
+                "benefit1": "[FIL]Service alerts",
+                "benefit2": "[FIL]Account updates",
+                "benefit3": "[FIL]Preventive notifications"
+              },
+              "issuePrevention": {
+                "title": "[FIL]Issue Prevention",
+                "description": "[FIL]Identify potential problems early and reach out to customers with solutions.",
+                "benefit1": "[FIL]Early detection",
+                "benefit2": "[FIL]Preventive measures",
+                "benefit3": "[FIL]Problem resolution"
+              },
+              "timelyCommunication": {
+                "title": "[FIL]Timely Communication",
+                "description": "[FIL]Deliver critical information at the right time to maximize customer satisfaction.",
+                "benefit1": "[FIL]Optimal timing",
+                "benefit2": "[FIL]Urgency awareness",
+                "benefit3": "[FIL]Scheduled delivery"
+              }
+            },
+            "notificationTypes": {
+              "title": "[FIL]Comprehensive Notification Types",
+              "subtitle": "[FIL]Cover all aspects of customer communication with intelligent automation",
+              "serviceOutages": {
+                "type": "[FIL]Service Outages",
+                "description": "[FIL]Inform customers about planned maintenance or unexpected service disruptions",
+                "example1": "[FIL]Planned maintenance windows",
+                "example2": "[FIL]Unexpected outages",
+                "example3": "[FIL]Service restoration updates",
+                "urgency": "[FIL]High",
+                "timing": "[FIL]Immediate"
+              },
+              "accountChanges": {
+                "type": "[FIL]Account Changes",
+                "description": "[FIL]Notify customers about important changes to their accounts or services",
+                "example1": "[FIL]Policy updates",
+                "example2": "[FIL]Rate changes",
+                "example3": "[FIL]Feature modifications",
+                "urgency": "[FIL]Medium",
+                "timing": "[FIL]Advance notice"
+              },
+              "securityAlerts": {
+                "type": "[FIL]Security Alerts",
+                "description": "[FIL]Alert customers to potential security issues or suspicious activities",
+                "example1": "[FIL]Login attempts",
+                "example2": "[FIL]Password changes",
+                "example3": "[FIL]Account access",
+                "urgency": "[FIL]High",
+                "timing": "[FIL]Real-time"
+              },
+              "productUpdates": {
+                "type": "[FIL]Product Updates",
+                "description": "[FIL]Share information about new features, improvements, or changes",
+                "example1": "[FIL]New features",
+                "example2": "[FIL]App updates",
+                "example3": "[FIL]Service enhancements",
+                "urgency": "[FIL]Low",
+                "timing": "[FIL]Scheduled"
+              },
+              "billingNotifications": {
+                "type": "[FIL]Billing Notifications",
+                "description": "[FIL]Proactive communication about billing, payments, and account status",
+                "example1": "[FIL]Payment due dates",
+                "example2": "[FIL]Failed payments",
+                "example3": "[FIL]Credit updates",
+                "urgency": "[FIL]Medium",
+                "timing": "[FIL]Advance notice"
+              },
+              "deliveryUpdates": {
+                "type": "[FIL]Delivery Updates",
+                "description": "[FIL]Keep customers informed about shipment and delivery status changes",
+                "example1": "[FIL]Shipping delays",
+                "example2": "[FIL]Delivery confirmations",
+                "example3": "[FIL]Address issues",
+                "urgency": "[FIL]Medium",
+                "timing": "[FIL]Real-time"
+              }
+            },
+            "urgency": {
+              "high": "[FIL]High",
+              "medium": "[FIL]Medium",
+              "low": "[FIL]Low"
+            },
+            "labels": {
+              "examples": "[FIL]Examples",
+              "timing": "[FIL]Timing"
+            },
+            "automationSection": {
+              "title": "[FIL]Advanced Automation Engine",
+              "description": "[FIL]Our intelligent automation system continuously monitors your services and customer accounts, automatically triggering appropriate notifications based on predefined rules and customer preferences.",
+              "subFeatures": {
+                "realTimeMonitoring": {
+                  "title": "[FIL]Real-Time Monitoring",
+                  "description": "[FIL]Continuous system and account monitoring"
+                },
+                "smartPrioritization": {
+                  "title": "[FIL]Smart Prioritization",
+                  "description": "[FIL]Intelligent alert ranking and delivery"
+                },
+                "customerPreferences": {
+                  "title": "[FIL]Customer Preferences",
+                  "description": "[FIL]Respect individual communication preferences"
+                }
+              },
+              "featuresTitle": "[FIL]Automation Features",
+              "features": {
+                "realTimeMonitoring": "[FIL]Real-time system monitoring",
+                "intelligentPrioritization": "[FIL]Intelligent alert prioritization",
+                "preferenceManagement": "[FIL]Customer preference management",
+                "multiChannelDelivery": "[FIL]Multi-channel delivery options",
+                "escalationProtocols": "[FIL]Escalation protocols",
+                "performanceAnalytics": "[FIL]Performance analytics"
+              },
+              "liveMonitoring": {
+                "title": "[FIL]Live Monitoring",
+                "activeMonitors": "[FIL]Active Monitors:",
+                "activeMonitorsValue": "[FIL]1,247",
+                "notificationsSent": "[FIL]Notifications Sent:",
+                "notificationsSentValue": "[FIL]3,892",
+                "issuesPrevented": "[FIL]Issues Prevented:",
+                "issuesPreventedValue": "[FIL]156"
+              }
+            },
+            "benefits": {
+              "title": "[FIL]Proactive Support Impact",
+              "subtitle": "[FIL]Measurable improvements in customer satisfaction and support efficiency",
+              "reactiveCalls": {
+                "metric": "[FIL]70%",
+                "description": "[FIL]Reduction in reactive support calls"
+              },
+              "customerSatisfaction": {
+                "metric": "[FIL]85%",
+                "description": "[FIL]Customer satisfaction with proactive updates"
+              },
+              "customerChurn": {
+                "metric": "[FIL]50%",
+                "description": "[FIL]Decrease in customer churn"
+              },
+              "automatedMonitoring": {
+                "metric": "[FIL]24/7",
+                "description": "[FIL]Automated monitoring and alerts"
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready to Get Ahead of Customer Issues?",
+              "subtitle": "[FIL]Transform your customer support with intelligent proactive notifications and issue prevention",
+              "startProactiveSupport": "[FIL]Start Proactive Support",
+              "seeDemo": "[FIL]See Demo"
+            },
+            "title": "[FIL]Proactive Support",
+            "description": "[FIL]Notify customers about service updates and important information.",
+            "benefit1": "[FIL]Proactive communication",
+            "benefit2": "[FIL]Issue prevention",
+            "benefit3": "[FIL]Customer satisfaction"
+          },
+          "seniorCheckCalls": {
+            "hero": {
+              "title": "[FIL]Senior Check Calls & Wellness Monitoring",
+              "description": "[FIL]Provide peace of mind for families with regular AI-powered wellness checks for seniors. Compassionate conversations that monitor health, detect emergencies, and ensure safety while maintaining dignity and independence.",
+              "button": "[FIL]Start Wellness Monitoring"
+            },
+            "features": {
+              "title": "[FIL]Compassionate Senior Care",
+              "subtitle": "[FIL]AI technology designed specifically for senior wellness and safety",
+              "wellnessMonitoring": {
+                "title": "[FIL]Wellness Monitoring",
+                "description": "[FIL]Regular check-ins to monitor senior health and well-being with compassionate AI conversations.",
+                "benefit1": "[FIL]Daily/weekly schedules",
+                "benefit2": "[FIL]Health status tracking",
+                "benefit3": "[FIL]Medication reminders"
+              },
+              "emergencyDetection": {
+                "title": "[FIL]Emergency Detection",
+                "description": "[FIL]Advanced AI recognizes distress signals and emergency situations for immediate response.",
+                "benefit1": "[FIL]Crisis recognition",
+                "benefit2": "[FIL]Emergency contacts",
+                "benefit3": "[FIL]First responder alerts"
+              },
+              "flexibleScheduling": {
+                "title": "[FIL]Flexible Scheduling",
+                "description": "[FIL]Customizable call schedules that adapt to individual preferences and needs.",
+                "benefit1": "[FIL]Personalized timing",
+                "benefit2": "[FIL]Holiday adjustments",
+                "benefit3": "[FIL]Family coordination"
+              }
+            },
+            "checkTypes": {
+              "title": "[FIL]Comprehensive Check-In Services",
+              "subtitle": "[FIL]Flexible wellness monitoring tailored to individual needs",
+              "dailyWellness": {
+                "type": "[FIL]Daily Wellness Checks",
+                "description": "[FIL]Brief daily calls to ensure seniors are safe and well",
+                "frequency": "[FIL]Daily at preferred time",
+                "duration": "[FIL]3-5 minutes",
+                "focus1": "[FIL]General well-being",
+                "focus2": "[FIL]Medication compliance",
+                "focus3": "[FIL]Safety confirmation"
+              },
+              "weeklyHealth": {
+                "type": "[FIL]Weekly Health Reviews",
+                "description": "[FIL]Comprehensive weekly assessments of health and needs",
+                "frequency": "[FIL]Weekly on chosen day",
+                "duration": "[FIL]10-15 minutes",
+                "focus1": "[FIL]Health changes",
+                "focus2": "[FIL]Appointment reminders",
+                "focus3": "[FIL]Family updates"
+              },
+              "emergencyResponse": {
+                "type": "[FIL]Emergency Response",
+                "description": "[FIL]Immediate response to missed calls or distress signals",
+                "frequency": "[FIL]As needed",
+                "duration": "[FIL]Variable",
+                "focus1": "[FIL]Welfare verification",
+                "focus2": "[FIL]Emergency services",
+                "focus3": "[FIL]Family notification"
+              },
+              "socialConnection": {
+                "type": "[FIL]Social Connection",
+                "description": "[FIL]Friendly conversations to reduce isolation and loneliness",
+                "frequency": "[FIL]Bi-weekly or monthly",
+                "duration": "[FIL]15-20 minutes",
+                "focus1": "[FIL]Companionship",
+                "focus2": "[FIL]Mental health",
+                "focus3": "[FIL]Activity suggestions"
+              },
+              "labels": {
+                "frequency": "[FIL]Frequency",
+                "duration": "[FIL]Duration",
+                "focusAreas": "[FIL]Focus Areas:"
+              }
+            },
+            "safetyProtocols": {
+              "title": "[FIL]Advanced Safety Protocols",
+              "description": "[FIL]Our senior check call system includes comprehensive safety measures designed to detect emergencies, coordinate with family members, and ensure rapid response when needed.",
+              "emergencyResponse": {
+                "title": "[FIL]Emergency Response",
+                "description": "[FIL]Immediate escalation for missed calls or distress"
+              },
+              "familyCoordination": {
+                "title": "[FIL]Family Coordination",
+                "description": "[FIL]Automatic notifications to family and caregivers"
+              },
+              "healthcareIntegration": {
+                "title": "[FIL]Healthcare Integration",
+                "description": "[FIL]Coordination with healthcare providers and services"
+              },
+              "featuresTitle": "[FIL]Safety Features",
+              "protocols": {
+                "missedCallEscalation": "[FIL]Missed call escalation procedures",
+                "emergencyKeyword": "[FIL]Emergency keyword recognition",
+                "familyNotifications": "[FIL]Family and caregiver notifications",
+                "healthcareProvider": "[FIL]Healthcare provider integration",
+                "emergencyServices": "[FIL]Local emergency services coordination",
+                "medicalAlert": "[FIL]Medical alert system compatibility"
+              }
+            },
+            "benefits": {
+              "title": "[FIL]Wellness Monitoring Impact",
+              "subtitle": "[FIL]Measurable improvements in senior safety and family peace of mind",
+              "seniorSatisfaction": {
+                "metric": "[FIL]95%",
+                "description": "[FIL]Senior satisfaction with AI companion"
+              },
+              "emergencyReduction": {
+                "metric": "[FIL]40%",
+                "description": "[FIL]Reduction in emergency incidents"
+              },
+              "availability": {
+                "metric": "[FIL]24/7",
+                "description": "[FIL]Emergency response availability"
+              },
+              "familyPeace": {
+                "metric": "[FIL]85%",
+                "description": "[FIL]Family peace of mind improvement"
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready to Ensure Senior Safety?",
+              "description": "[FIL]Provide peace of mind with compassionate AI wellness monitoring for your loved ones",
+              "startButton": "[FIL]Start Monitoring",
+              "learnButton": "[FIL]Learn More"
+            }
+          },
+          "subscriptionRenewals": {
+            "hero": {
+              "title": "[FIL]Subscription Renewal Automation",
+              "description": "[FIL]Maximize subscription renewals with intelligent AI-powered campaigns that engage customers at the right time with personalized messages, process payments seamlessly, and reduce churn through proactive retention strategies.",
+              "cta": "[FIL]Automate Renewals"
+            },
+            "features": {
+              "title": "[FIL]Smart Renewal Management",
+              "subtitle": "[FIL]Comprehensive automation that maximizes renewals and reduces churn",
+              "automatedRenewalReminders": {
+                "title": "[FIL]Automated Renewal Reminders",
+                "description": "[FIL]Intelligent reminders sent at optimal times to maximize renewal rates and reduce churn.",
+                "benefit1": "[FIL]Personalized timing",
+                "benefit2": "[FIL]Multiple touchpoints",
+                "benefit3": "[FIL]Renewal optimization"
+              },
+              "paymentProcessing": {
+                "title": "[FIL]Payment Processing",
+                "description": "[FIL]Seamless payment collection and processing for subscription renewals over the phone.",
+                "benefit1": "[FIL]Secure transactions",
+                "benefit2": "[FIL]Multiple payment methods",
+                "benefit3": "[FIL]Failed payment recovery"
+              },
+              "customerRetention": {
+                "title": "[FIL]Customer Retention",
+                "description": "[FIL]Proactive engagement to address concerns and retain valuable subscribers.",
+                "benefit1": "[FIL]Churn prevention",
+                "benefit2": "[FIL]Value reinforcement",
+                "benefit3": "[FIL]Loyalty building"
+              }
+            },
+            "renewalProcess": {
+              "title": "[FIL]Strategic Renewal Timeline",
+              "subtitle": "[FIL]Optimized touchpoint sequence to maximize renewal success",
+              "step1": {
+                "title": "[FIL]Early Notification",
+                "description": "[FIL]Initial reminder sent 30 days before renewal date",
+                "timing": "[FIL]30 days before",
+                "action": "[FIL]Awareness and preparation"
+              },
+              "step2": {
+                "title": "[FIL]Value Reinforcement",
+                "description": "[FIL]Highlight subscription benefits and usage statistics",
+                "timing": "[FIL]14 days before",
+                "action": "[FIL]Value demonstration"
+              },
+              "step3": {
+                "title": "[FIL]Renewal Confirmation",
+                "description": "[FIL]Direct renewal request with payment processing",
+                "timing": "[FIL]7 days before",
+                "action": "[FIL]Renewal processing"
+              },
+              "step4": {
+                "title": "[FIL]Last Chance Offer",
+                "description": "[FIL]Final reminder with special retention offers",
+                "timing": "[FIL]1 day before",
+                "action": "[FIL]Retention attempt"
+              }
+            },
+            "subscriptionTypes": {
+              "title": "[FIL]Industry-Specific Strategies",
+              "subtitle": "[FIL]Tailored renewal approaches for different subscription models",
+              "saas": {
+                "type": "[FIL]Software as a Service (SaaS)",
+                "description": "[FIL]Monthly and annual software subscription renewals",
+                "strategy1": "[FIL]Feature usage reports",
+                "strategy2": "[FIL]ROI demonstrations",
+                "strategy3": "[FIL]Upgrade opportunities"
+              },
+              "mediaEntertainment": {
+                "type": "[FIL]Media & Entertainment",
+                "description": "[FIL]Streaming services and digital content subscriptions",
+                "strategy1": "[FIL]Content recommendations",
+                "strategy2": "[FIL]Viewing statistics",
+                "strategy3": "[FIL]Exclusive offers"
+              },
+              "professionalServices": {
+                "type": "[FIL]Professional Services",
+                "description": "[FIL]Consulting, coaching, and professional service renewals",
+                "strategy1": "[FIL]Success metrics",
+                "strategy2": "[FIL]Relationship building",
+                "strategy3": "[FIL]Service expansion"
+              },
+              "ecommerce": {
+                "type": "[FIL]E-commerce Subscriptions",
+                "description": "[FIL]Product delivery and membership renewals",
+                "strategy1": "[FIL]Delivery convenience",
+                "strategy2": "[FIL]Cost savings",
+                "strategy3": "[FIL]Product variety"
+              },
+              "renewalStrategies": "[FIL]Renewal Strategies:"
+            },
+            "retention": {
+              "title": "[FIL]Advanced Retention Strategies",
+              "description": "[FIL]Our AI analyzes customer behavior, usage patterns, and engagement levels to determine the most effective retention approach for each subscriber, maximizing renewal rates and customer lifetime value.",
+              "optimalTiming": {
+                "title": "[FIL]Optimal Timing",
+                "description": "[FIL]AI determines best contact times for each customer"
+              },
+              "usageAnalytics": {
+                "title": "[FIL]Usage Analytics",
+                "description": "[FIL]Leverage customer data for personalized approaches"
+              },
+              "segmentedCampaigns": {
+                "title": "[FIL]Segmented Campaigns",
+                "description": "[FIL]Tailored messages for different customer segments"
+              },
+              "tactics": {
+                "title": "[FIL]Retention Tactics",
+                "tactic1": "[FIL]Personalized renewal offers",
+                "tactic2": "[FIL]Usage analytics and insights",
+                "tactic3": "[FIL]Loyalty rewards and discounts",
+                "tactic4": "[FIL]Service upgrade options",
+                "tactic5": "[FIL]Payment plan flexibility",
+                "tactic6": "[FIL]Win-back campaigns"
+              },
+              "dashboard": {
+                "title": "[FIL]Renewal Dashboard",
+                "renewalsThisMonth": "[FIL]Renewals This Month:",
+                "renewalRate": "[FIL]Renewal Rate:",
+                "revenueRetained": "[FIL]Revenue Retained:"
+              }
+            },
+            "benefits": {
+              "title": "[FIL]Renewal Performance Results",
+              "subtitle": "[FIL]Proven impact on subscription business metrics",
+              "metric1": {
+                "value": "[FIL]85%",
+                "description": "[FIL]Subscription renewal rate"
+              },
+              "metric2": {
+                "value": "[FIL]40%",
+                "description": "[FIL]Reduction in involuntary churn"
+              },
+              "metric3": {
+                "value": "[FIL]60%",
+                "description": "[FIL]Decrease in payment failures"
+              },
+              "metric4": {
+                "value": "[FIL]25%",
+                "description": "[FIL]Increase in customer lifetime value"
+              }
+            },
+            "cta": {
+              "title": "[FIL]Ready to Maximize Subscription Renewals?",
+              "description": "[FIL]Automate your renewal process and reduce churn with intelligent AI-powered campaigns",
+              "primaryButton": "[FIL]Start Renewal Automation",
+              "secondaryButton": "[FIL]Calculate ROI"
+            }
+          },
+          "header": "[FIL]Outbound Solutions",
+          "description": "[FIL]Proactively engage customers with automated outbound calling campaigns",
+          "collections": {
+            "title": "[FIL]Collections Service",
+            "description": "[FIL]Automate payment reminders and collection processes.",
+            "benefit1": "[FIL]Faster collections",
+            "benefit2": "[FIL]Payment arrangements",
+            "benefit3": "[FIL]Compliance"
+          },
+          "reactivation": {
+            "title": "[FIL]Customer Reactivation",
+            "description": "[FIL]Re-engage inactive customers with personalized outreach.",
+            "benefit1": "[FIL]Win-back campaigns",
+            "benefit2": "[FIL]Personalized offers",
+            "benefit3": "[FIL]Customer retention"
+          },
+          "seniorChecks": {
+            "title": "[FIL]Senior Check Calls",
+            "description": "[FIL]Provide wellness checks for seniors on regular or on-demand basis.",
+            "benefit1": "[FIL]Wellness monitoring",
+            "benefit2": "[FIL]Emergency escalation",
+            "benefit3": "[FIL]Peace of mind"
+          },
+          "campaigns": {
+            "title": "[FIL]Large Scale Campaigns",
+            "description": "[FIL]Execute high-volume marketing and informational campaigns.",
+            "benefit1": "[FIL]Mass reach",
+            "benefit2": "[FIL]Personalized messages",
+            "benefit3": "[FIL]Cost effective"
+          },
+          "renewals": {
+            "title": "[FIL]Subscription Renewals",
+            "description": "[FIL]Automate subscription renewal reminders and processing.",
+            "benefit1": "[FIL]Automated renewals",
+            "benefit2": "[FIL]Reduced churn",
+            "benefit3": "[FIL]Revenue protection"
+          },
+          "surveys": {
+            "title": "[FIL]Customer Surveys",
+            "description": "[FIL]Conduct automated post-service feedback collection.",
+            "benefit1": "[FIL]Feedback collection",
+            "benefit2": "[FIL]Quality insights",
+            "benefit3": "[FIL]Improvement data"
+          }
+        },
+        "hero": {
+          "title": "[FIL]AI Voice Solutions for Every Business Need",
+          "description": "[FIL]Discover comprehensive inbound and outbound voice automation solutions designed to transform your customer communications and business operations."
+        },
+        "cta": {
+          "title": "[FIL]Ready to Transform Your Business Communications?",
+          "description": "[FIL]Discover how our AI voice solutions can automate your customer interactions and drive business growth",
+          "button": "[FIL]Schedule a Consultation"
+        },
+        "learnMore": "[FIL]Learn More"
+      }
+    }
+  }
+}

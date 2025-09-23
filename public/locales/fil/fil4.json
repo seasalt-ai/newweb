@@ -1,0 +1,1605 @@
+{
+  "seachat": {
+    "integrations": {
+      "crm": {
+        "title": "[FIL]CRM Integrations",
+        "subtitle": "[FIL]Connect SeaChat[FIL] with your CRM to create a unified customer experience. Sync contacts, track leads, and manage relationships seamlessly.",
+        "connectButton": "[FIL]Connect Your CRM",
+        "guideButton": "[FIL]View Integration Guide",
+        "platformsTitle": "[FIL]Supported CRM Platforms",
+        "platformsSubtitle": "[FIL]Choose from our extensive list of CRM integrations, each optimized for seamless data flow.",
+        "setupTime": "[FIL]Setup time",
+        "connectPlatform": "[FIL]Connect",
+        "whyIntegrateTitle": "[FIL]Why Integrate with Your CRM?",
+        "whyIntegrateSubtitle": "[FIL]Transform your customer support into a powerful sales and relationship management tool.",
+        "featuresTitle": "[FIL]Comprehensive CRM Integration Features",
+        "featuresSubtitle": "[FIL]Our CRM integrations go beyond basic contact sync to provide a complete customer relationship management solution.",
+        "workflowTitle": "[FIL]Integration Workflow",
+        "ctaTitle": "[FIL]Ready to Connect Your CRM?",
+        "ctaSubtitle": "[FIL]Start syncing your customer data and transform support conversations into business opportunities.",
+        "ctaChooseButton": "[FIL]Sign Up For Free",
+        "ctaGuideButton": "[FIL]View Setup Guide",
+        "platforms": {
+          "salesforce": {
+            "name": "[FIL]Salesforce",
+            "description": "[FIL]Complete integration with Salesforce CRM for enterprise teams",
+            "features": {
+              "contacts": "[FIL]Contact sync",
+              "leads": "[FIL]Lead management",
+              "opportunities": "[FIL]Opportunity tracking",
+              "fields": "[FIL]Custom fields"
+            },
+            "setupTime": "[FIL]15 minutes",
+            "popularity": "[FIL]Most Popular"
+          },
+          "hubspot": {
+            "name": "HubSpot",
+            "description": "[FIL]Seamless HubSpot[FIL] integration for marketing and sales alignment",
+            "features": {
+              "properties": "[FIL]Contact properties",
+              "deals": "[FIL]Deal pipeline",
+              "sequences": "[FIL]Email sequences",
+              "reporting": "[FIL]Reporting"
+            },
+            "setupTime": "[FIL]10 minutes",
+            "popularity": "[FIL]Recommended"
+          },
+          "pipedrive": {
+            "name": "[FIL]Pipedrive",
+            "description": "[FIL]Simple yet powerful Pipedrive integration for sales teams",
+            "features": {
+              "pipeline": "[FIL]Pipeline management",
+              "activity": "[FIL]Activity tracking",
+              "history": "[FIL]Contact history",
+              "automation": "[FIL]Automation"
+            },
+            "setupTime": "[FIL]8 minutes",
+            "popularity": "[FIL]Easy Setup"
+          },
+          "zoho": {
+            "name": "[FIL]Zoho CRM",
+            "description": "[FIL]Comprehensive Zoho CRM integration with advanced workflows",
+            "features": {
+              "scoring": "[FIL]Lead scoring",
+              "workflow": "[FIL]Workflow automation",
+              "modules": "[FIL]Custom modules",
+              "analytics": "[FIL]Analytics"
+            },
+            "setupTime": "[FIL]12 minutes",
+            "popularity": "[FIL]Feature Rich"
+          },
+          "dynamics": {
+            "name": "[FIL]Microsoft Dynamics",
+            "description": "[FIL]Enterprise-grade integration with Microsoft Dynamics 365",
+            "features": {
+              "mapping": "[FIL]Entity mapping",
+              "processes": "[FIL]Business processes",
+              "powerbi": "[FIL]Power BI integration",
+              "security": "[FIL]Security"
+            },
+            "setupTime": "[FIL]20 minutes",
+            "popularity": "[FIL]Enterprise"
+          },
+          "freshworks": {
+            "name": "[FIL]Freshworks CRM",
+            "description": "[FIL]Modern CRM integration with Freshworks suite",
+            "features": {
+              "management": "[FIL]Contact management",
+              "sequences": "[FIL]Sales sequences",
+              "phone": "[FIL]Phone integration",
+              "insights": "[FIL]AI insights"
+            },
+            "setupTime": "[FIL]10 minutes",
+            "popularity": "[FIL]Modern"
+          }
+        },
+        "benefits": {
+          "data": {
+            "title": "[FIL]Unified Customer Data",
+            "description": "[FIL]Sync customer information automatically between SeaChat[FIL] and your CRM"
+          },
+          "leads": {
+            "title": "[FIL]Improved Lead Quality",
+            "description": "[FIL]Convert support conversations into qualified leads"
+          },
+          "sync": {
+            "title": "[FIL]Real-time Synchronization",
+            "description": "[FIL]Keep customer data updated across all platforms instantly"
+          },
+          "context": {
+            "title": "[FIL]Better Customer Context",
+            "description": "[FIL]Access complete customer history during support conversations"
+          }
+        },
+        "features": [
+          {
+            "title": "[FIL]Seamless Data Sync",
+            "description": "[FIL]Automatically sync customer contact information, conversation history, and interaction records",
+            "icon": "[FIL]sync"
+          },
+          {
+            "title": "[FIL]Lead Automation",
+            "description": "[FIL]Automatically convert support conversations into qualified leads in your CRM",
+            "icon": "[FIL]users"
+          },
+          {
+            "title": "[FIL]Smart Routing",
+            "description": "[FIL]Intelligently route customers to the right sales or support team based on CRM data",
+            "icon": "[FIL]route"
+          },
+          {
+            "title": "[FIL]Unified Customer View",
+            "description": "[FIL]Access complete customer history and transaction records instantly during support conversations",
+            "icon": "[FIL]eye"
+          },
+          {
+            "title": "[FIL]Activity Triggers",
+            "description": "[FIL]Automatically trigger CRM workflows and marketing campaigns based on customer interactions",
+            "icon": "[FIL]zap"
+          },
+          {
+            "title": "[FIL]Reports & Analytics",
+            "description": "[FIL]Unified reporting across platforms with deep insights into customer lifecycle and conversion metrics",
+            "icon": "[FIL]chart"
+          }
+        ],
+        "workflow": {
+          "connect": {
+            "title": "[FIL]Connect Your CRM",
+            "description": "[FIL]Authenticate and configure your CRM connection"
+          },
+          "map": {
+            "title": "[FIL]Map Data Fields",
+            "description": "[FIL]Configure how data flows between systems"
+          },
+          "sync": {
+            "title": "[FIL]Start Syncing",
+            "description": "[FIL]Enjoy automatic data synchronization"
+          }
+        }
+      },
+      "api": {
+        "accessButton": "[FIL]Get API Access",
+        "benefits": {
+          "dataFlow": {
+            "description": "[FIL]Automatic synchronization between SeaChat[FIL] and your systems",
+            "title": "[FIL]Seamless Data Flow"
+          },
+          "implementation": {
+            "description": "[FIL]Quick setup with pre-built integration templates",
+            "title": "[FIL]Faster Implementation"
+          },
+          "insights": {
+            "description": "[FIL]Enhanced reporting with integrated data sources",
+            "title": "[FIL]Better Insights"
+          },
+          "manualWork": {
+            "description": "[FIL]Eliminate repetitive tasks with intelligent automation",
+            "title": "[FIL]Reduced Manual Work"
+          }
+        },
+        "benefitsSubtitle": "[FIL]Transform your workflow with powerful custom Seachat integrations.",
+        "benefitsTitle": "[FIL]Integration Benefits",
+        "buildSubtitle": "[FIL]Follow these simple steps to get started with custom API Seachat integrations.",
+        "buildTitle": "[FIL]Ready to Build Your Integration?",
+        "capabilitiesSubtitle": "[FIL]Everything you need to build robust, scalable integrations with SeaChat[FIL].",
+        "capabilitiesTitle": "[FIL]Powerful Integration Capabilities",
+        "copyCode": "[FIL]Copy Code",
+        "ctaAccessButton": "[FIL]Get API Access",
+        "ctaDocsButton": "[FIL]View Documentation",
+        "ctaSubtitle": "[FIL]Get API access and start building powerful custom integrations that transform your customer support workflow.",
+        "ctaTitle": "[FIL]Start Building Today",
+        "docsButton": "[FIL]View API Documentation",
+        "exampleSubtitle": "[FIL]Get started with our API in just a few lines of code.",
+        "exampleTitle": "[FIL]Quick Start Code Example",
+        "features": {
+          "custom": {
+            "description": "[FIL]Build custom integrations for your specific business needs",
+            "title": "[FIL]Custom Integrations"
+          },
+          "restful": {
+            "description": "[FIL]Clean, well-documented REST API for seamless integration",
+            "title": "[FIL]RESTful API"
+          },
+          "webhooks": {
+            "description": "[FIL]Instant notifications for events and conversation updates",
+            "title": "[FIL]Real-time Webhooks"
+          },
+          "workflow": {
+            "description": "[FIL]Automate complex workflows with our integration platform",
+            "title": "[FIL]Workflow Automation"
+          }
+        },
+        "integrationExample": "[FIL]Custom Integration Example",
+        "patternsSubtitle": "[FIL]Explore popular integration scenarios and implementation examples.",
+        "patternsTitle": "[FIL]Common Integration Patterns",
+        "resources": {
+          "community": "[FIL]Developer community support",
+          "docs": "[FIL]Comprehensive API documentation",
+          "examples": "[FIL]Code examples in multiple languages",
+          "explorer": "[FIL]Interactive API explorer",
+          "sandbox": "[FIL]Sandbox environment for testing",
+          "simulator": "[FIL]Webhook event simulator"
+        },
+        "resourcesTitle": "[FIL]Developer Resources",
+        "steps": {
+          "build": {
+            "description": "[FIL]Develop your integration using our sandbox environment",
+            "title": "[FIL]Build & Test"
+          },
+          "credentials": {
+            "description": "[FIL]Sign up and generate your API key and webhook secret",
+            "title": "[FIL]Get API Credentials"
+          },
+          "deploy": {
+            "description": "[FIL]Launch your integration and monitor performance",
+            "title": "[FIL]Deploy & Monitor"
+          },
+          "docs": {
+            "description": "[FIL]Explore our comprehensive API documentation and examples",
+            "title": "[FIL]Review Documentation"
+          }
+        },
+        "subtitle": "[FIL]Build powerful custom integrations with our comprehensive API. Connect SeaChat[FIL] to any system or workflow with our developer-friendly tools.",
+        "title": "[FIL]Custom API Integrations",
+        "types": {
+          "analytics": {
+            "complexity": "[FIL]Low",
+            "description": "[FIL]Send conversation data to your analytics tools",
+            "example": "[FIL]Track customer satisfaction and support metrics",
+            "time": "[FIL]1-2 hours",
+            "title": "[FIL]Analytics Platform"
+          },
+          "crm": {
+            "complexity": "[FIL]Medium",
+            "description": "[FIL]Sync customer data with your CRM system",
+            "example": "[FIL]Automatically create leads from support conversations",
+            "time": "[FIL]2-4 hours",
+            "title": "[FIL]CRM Integration"
+          },
+          "ecommerce": {
+            "complexity": "[FIL]Medium",
+            "description": "[FIL]Connect with your online store for order management",
+            "example": "[FIL]Provide real-time order status and tracking information",
+            "time": "[FIL]3-6 hours",
+            "title": "[FIL]E-commerce Platform"
+          },
+          "payment": {
+            "complexity": "[FIL]High",
+            "description": "[FIL]Integrate with payment gateways for billing support",
+            "example": "[FIL]Handle refunds and payment inquiries automatically",
+            "time": "[FIL]4-8 hours",
+            "title": "[FIL]Payment Processing"
+          }
+        },
+        "useCaseTitle": "[FIL]Example Use Case"
+      },
+      "calendar": {
+        "benefits": {
+          "noShows": {
+            "description": "[FIL]Automatic reminders and confirmations reduce missed appointments",
+            "title": "[FIL]Reduced No-Shows"
+          },
+          "scheduling": {
+            "description": "[FIL]Let customers book appointments directly from chat conversations",
+            "title": "[FIL]Automated Scheduling"
+          },
+          "timeSavings": {
+            "description": "[FIL]Eliminate back-and-forth scheduling emails and calls",
+            "title": "[FIL]Time Savings"
+          },
+          "utilization": {
+            "description": "[FIL]Optimize calendar usage with intelligent scheduling",
+            "title": "[FIL]Better Utilization"
+          }
+        },
+        "benefitsSubtitle": "[FIL]Streamline your scheduling process and improve customer experience with automated booking.",
+        "benefitsTitle": "[FIL]Calendar Integration Benefits",
+        "connectButton": "[FIL]Connect Calendar",
+        "connectPlatform": "[FIL]Connect",
+        "ctaConnectButton": "[FIL]Connect Your Calendar",
+        "ctaGuideButton": "[FIL]View Setup Guide",
+        "ctaSubtitle": "[FIL]Connect your calendar and let customers book appointments seamlessly through your support conversations.",
+        "ctaTitle": "[FIL]Ready to Automate Your Scheduling?",
+        "customer": "[FIL]Customer",
+        "customerChoice": "[FIL]Tuesday at 2 PM works perfect!",
+        "demoButton": "[FIL]Book Scheduling Demo",
+        "exampleTitle": "[FIL]Scheduling Example",
+        "features": [
+          "[FIL]Real-time availability sync",
+          "[FIL]Automated booking confirmations",
+          "[FIL]Calendar invite generation",
+          "[FIL]Reminder notifications",
+          "[FIL]Multi-timezone support",
+          "[FIL]Recurring appointment handling"
+        ],
+        "flow": {
+          "availability": {
+            "description": "[FIL]System checks real-time calendar availability",
+            "example": "[FIL]Available slots: Tue 2PM, Wed 10AM, Thu 3PM",
+            "title": "[FIL]Availability Check"
+          },
+          "confirmation": {
+            "description": "[FIL]Customer selects time and appointment is automatically booked",
+            "example": "[FIL]Meeting booked for Tuesday 2PM with calendar invite sent",
+            "title": "[FIL]Booking Confirmation"
+          },
+          "followup": {
+            "description": "[FIL]Reminders and confirmations sent automatically",
+            "example": "[FIL]24hr reminder + meeting link + preparation materials",
+            "title": "[FIL]Automated Follow-up"
+          },
+          "request": {
+            "description": "[FIL]Customer asks to schedule a meeting or appointment",
+            "example": "[FIL]\"I'd like to schedule a demo for next week\"",
+            "title": "[FIL]Customer Request"
+          }
+        },
+        "flowSubtitle": "[FIL]See how seamless appointment booking works within customer conversations.",
+        "flowTitle": "[FIL]Automated Scheduling Flow",
+        "platforms": {
+          "acuity": {
+            "category": "[FIL]Professional",
+            "description": "[FIL]Advanced scheduling with client management features",
+            "features": {
+              "group": "[FIL]Group appointments",
+              "intake": "[FIL]Client intake forms",
+              "packages": "[FIL]Package scheduling",
+              "workflows": "[FIL]Automated workflows"
+            },
+            "name": "[FIL]Acuity Scheduling",
+            "setupTime": "[FIL]12 minutes"
+          },
+          "apple": {
+            "category": "[FIL]Apple Ecosystem",
+            "description": "[FIL]iCloud calendar integration for Apple ecosystem users",
+            "features": {
+              "devices": "[FIL]Cross-device access",
+              "location": "[FIL]Location services",
+              "sharing": "[FIL]Event sharing",
+              "sync": "[FIL]iCloud sync"
+            },
+            "name": "[FIL]Apple Calendar",
+            "setupTime": "[FIL]6 minutes"
+          },
+          "calcom": {
+            "category": "[FIL]Open Scheduling",
+            "description": "[FIL]Open scheduling infrastructure for teams and individuals",
+            "features": {
+              "api": "[FIL]API & webhooks",
+              "booking": "[FIL]Booking links",
+              "payments": "[FIL]Payment integration",
+              "workflows": "[FIL]Custom workflows"
+            },
+            "name": "[FIL]Cal.com",
+            "setupTime": "[FIL]7 minutes"
+          },
+          "calendly": {
+            "category": "[FIL]Scheduling",
+            "description": "[FIL]Popular scheduling tool for automated appointment booking",
+            "features": {
+              "booking": "[FIL]Booking pages",
+              "buffer": "[FIL]Buffer times",
+              "payment": "[FIL]Payment integration",
+              "questions": "[FIL]Custom questions"
+            },
+            "name": "[FIL]Calendly",
+            "setupTime": "[FIL]10 minutes"
+          },
+          "google": {
+            "category": "[FIL]Google Workspace",
+            "description": "[FIL]Seamless integration with Google Calendar for appointment scheduling",
+            "features": {
+              "availability": "[FIL]Availability sync",
+              "events": "[FIL]Event creation",
+              "meetings": "[FIL]Meeting scheduling",
+              "reminders": "[FIL]Reminder notifications"
+            },
+            "name": "[FIL]Google Calendar",
+            "setupTime": "[FIL]5 minutes"
+          },
+          "highlevel": {
+            "category": "[FIL]All-in-One",
+            "description": "[FIL]All-in-one sales, marketing, and calendar automation",
+            "features": {
+              "forms": "[FIL]Booking forms",
+              "integration": "[FIL]CRM integration",
+              "pipelines": "[FIL]Sales pipelines",
+              "reminders": "[FIL]Automated reminders"
+            },
+            "name": "[FIL]HighLevel",
+            "setupTime": "[FIL]9 minutes"
+          },
+          "notion": {
+            "category": "[FIL]Productivity",
+            "description": "[FIL]Calendar and project management with Notion integration",
+            "features": {
+              "automation": "[FIL]Workflow automation",
+              "sync": "[FIL]Calendar sync",
+              "tasks": "[FIL]Task scheduling",
+              "templates": "[FIL]Custom templates"
+            },
+            "name": "[FIL]Notion",
+            "setupTime": "[FIL]6 minutes"
+          },
+          "outlook": {
+            "category": "[FIL]Microsoft 365",
+            "description": "[FIL]Microsoft Outlook and Office 365 calendar integration",
+            "features": {
+              "exchange": "[FIL]Exchange sync",
+              "recurring": "[FIL]Recurring events",
+              "rooms": "[FIL]Meeting rooms",
+              "team": "[FIL]Team calendars"
+            },
+            "name": "[FIL]Microsoft Outlook",
+            "setupTime": "[FIL]8 minutes"
+          },
+          "zoom": {
+            "category": "[FIL]Video Conferencing",
+            "description": "[FIL]Video meeting scheduling with Zoom integration",
+            "features": {
+              "meetings": "[FIL]Video meetings",
+              "recording": "[FIL]Recording setup",
+              "waiting": "[FIL]Waiting rooms",
+              "webinar": "[FIL]Webinar scheduling"
+            },
+            "name": "[FIL]Zoom Scheduler",
+            "setupTime": "[FIL]7 minutes"
+          }
+        },
+        "platformsSubtitle": "[FIL]Connect with all major calendar and scheduling platforms for seamless appointment management.",
+        "platformsTitle": "[FIL]Calendar Platform Seachat Integrations",
+        "seachatAI": "SeaChat[FIL] AI",
+        "slot1": "[FIL]Tuesday, Jan 16 - 2:00 PM PST",
+        "slot2": "[FIL]Wednesday, Jan 17 - 10:00 AM PST",
+        "slot3": "[FIL]Thursday, Jan 18 - 3:00 PM PST",
+        "solutionSubtitle": "[FIL]Everything you need to manage appointments, meetings, and events directly from your customer support platform.",
+        "solutionTitle": "[FIL]Complete Scheduling Solution",
+        "subtitle": "[FIL]Integrate with popular calendar platforms to enable seamless appointment scheduling directly from customer support conversations.",
+        "title": "[FIL]Calendar & Scheduling",
+        "setup": "[FIL]Set up"
+      },
+      "communication": {
+        "benefits": {
+          "collaboration": {
+            "description": "[FIL]Improve internal team coordination and response times",
+            "title": "[FIL]Team Collaboration"
+          },
+          "efficiency": {
+            "description": "[FIL]Faster resolution with integrated communication tools",
+            "title": "[FIL]Response Efficiency"
+          },
+          "satisfaction": {
+            "description": "[FIL]Better support experience across all channels",
+            "title": "[FIL]Customer Satisfaction"
+          },
+          "unified": {
+            "description": "[FIL]Manage all communication channels from one central hub",
+            "title": "[FIL]Unified Communication"
+          }
+        },
+        "benefitsSubtitle": "[FIL]Enhance your customer support and internal collaboration with seamless Seachat integrations.",
+        "benefitsTitle": "[FIL]Benefits of Integrated Communication",
+        "connectButton": "[FIL]Connect Communication Tools",
+        "connectPlatform": "[FIL]Connect with",
+        "cta": {
+          "connectButton": "[FIL]Get Started Now",
+          "contactButton": "[FIL]Contact Sales",
+          "title": "[FIL]Ready to Streamline Your Communication?",
+          "subtitle": "[FIL]Connect your favorite communication tools and enhance your team's productivity and customer engagement."
+        },
+        "demoButton": "[FIL]Schedule Integration Demo",
+        "features": {
+          "feature1": {
+            "description": "[FIL]Engage with customers instantly across all integrated platforms, ensuring timely responses and improved satisfaction.",
+            "title": "[FIL]Real-time Messaging"
+          },
+          "feature2": {
+            "description": "[FIL]Set up automated responses and routing rules to efficiently manage incoming messages and reduce manual effort.",
+            "title": "[FIL]Automated Workflows"
+          },
+          "feature3": {
+            "description": "[FIL]Manage all conversations from a single, intuitive interface, eliminating the need to switch between different applications.",
+            "title": "[FIL]Unified Inbox"
+          },
+          "feature4": {
+            "description": "[FIL]Gain insights into communication volume, response times, and agent performance with comprehensive analytics and reporting.",
+            "title": "[FIL]Performance Analytics"
+          }
+        },
+        "featuresSubtitle": "[FIL]Discover how our communication Seachat integrations can transform your workflow.",
+        "featuresTitle": "[FIL]Key Features",
+        "platforms": {
+          "discord": {
+            "category": "[FIL]Community",
+            "description": "[FIL]Community support through Discord servers and channels",
+            "features": {
+              "bot": "[FIL]Bot features",
+              "moderation": "[FIL]Community moderation",
+              "server": "[FIL]Server integration",
+              "voice": "[FIL]Voice channels"
+            },
+            "name": "[FIL]Discord",
+            "setupTime": "[FIL]10 minutes"
+          },
+          "email": {
+            "category": "[FIL]Email",
+            "description": "[FIL]Connect with Gmail, Outlook, and other email providers",
+            "features": {
+              "attachments": "[FIL]Attachment handling",
+              "routing": "[FIL]Email routing",
+              "templates": "[FIL]Template responses",
+              "threading": "[FIL]Threading"
+            },
+            "name": "[FIL]Email Platforms",
+            "setupTime": "[FIL]7 minutes"
+          },
+          "googlechat": {
+            "category": "[FIL]Team Chat",
+            "description": "[FIL]Streamline team communication within the Google Workspace ecosystem.",
+            "features": {
+              "bots": "[FIL]Bot Seachat integrations",
+              "files": "[FIL]File sharing",
+              "meetings": "[FIL]Meet integration",
+              "spaces": "[FIL]Spaces for collaboration"
+            },
+            "name": "[FIL]Google Chat",
+            "setupTime": "[FIL]8 minutes"
+          },
+          "kakaotalk": {
+            "category": "[FIL]Messaging",
+            "description": "[FIL]Connect with users in South Korea and beyond with KakaoTalk.",
+            "features": {
+              "channels": "[FIL]Plus Friend Channels",
+              "commerce": "[FIL]Kakao Commerce integration",
+              "messages": "[FIL]Rich messages",
+              "payments": "[FIL]Kakao Pay integration"
+            },
+            "name": "[FIL]KakaoTalk",
+            "setupTime": "[FIL]12 minutes"
+          },
+          "slack": {
+            "category": "[FIL]Team Chat",
+            "description": "[FIL]Integrate with Slack for team collaboration and internal notifications",
+            "features": {
+              "channels": "[FIL]Channel notifications",
+              "commands": "[FIL]Bot commands",
+              "files": "[FIL]File sharing",
+              "messages": "[FIL]Direct messages"
+            },
+            "name": "[FIL]Slack",
+            "setupTime": "[FIL]5 minutes"
+          },
+          "teams": {
+            "category": "[FIL]Enterprise",
+            "description": "[FIL]Connect with Microsoft Teams for enterprise communication",
+            "features": {
+              "apps": "[FIL]App integration",
+              "calls": "[FIL]Video calls",
+              "channels": "[FIL]Team channels",
+              "files": "[FIL]File collaboration"
+            },
+            "name": "[FIL]Microsoft Teams",
+            "setupTime": "[FIL]8 minutes"
+          },
+          "telegram": {
+            "category": "[FIL]Messaging",
+            "description": "[FIL]Telegram bot integration for instant messaging support",
+            "features": {
+              "api": "[FIL]Bot API",
+              "channels": "[FIL]Channel broadcasting",
+              "files": "[FIL]File transfers",
+              "groups": "[FIL]Group chats"
+            },
+            "name": "[FIL]Telegram",
+            "setupTime": "[FIL]15 minutes"
+          },
+          "whatsapp": {
+            "category": "[FIL]Messaging",
+            "features": {
+              "automation": "[FIL]Automated responses",
+              "businessApi": "[FIL]Business API",
+              "messaging": "[FIL]Rich messaging",
+              "templates": "[FIL]Message templates"
+            },
+            "name": "WhatsApp",
+            "setupTime": "[FIL]10 minutes",
+            "description": "[FIL]Engage with customers directly on the world's most popular messaging app."
+          },
+          "zalo": {
+            "category": "[FIL]Messaging",
+            "description": "[FIL]Connect with customers in Vietnam and Southeast Asia via Zalo.",
+            "features": {
+              "messaging": "[FIL]Rich messaging",
+              "miniApp": "[FIL]Mini Apps",
+              "officialAccount": "[FIL]Official Accounts",
+              "payments": "[FIL]Zalo Pay integration"
+            },
+            "name": "[FIL]Zalo",
+            "setupTime": "[FIL]10 minutes"
+          }
+        },
+        "platformsSubtitle": "[FIL]Connect with the communication tools your team already uses for seamless workflow integration.",
+        "platformsTitle": "[FIL]Popular Communication Platforms",
+        "subtitle": "[FIL]Integrate with popular communication platforms like Slack, Teams, Discord, and more to streamline your support workflow and team collaboration.",
+        "title": "[FIL]Communication Tools",
+        "setup": "[FIL]Setup time"
+      },
+      "ecommerce": {
+        "benefits": {
+          "cart": {
+            "description": "[FIL]Reduce cart abandonment with proactive support",
+            "title": "[FIL]Cart Recovery"
+          },
+          "orders": {
+            "description": "[FIL]Handle order inquiries, tracking, and updates automatically",
+            "title": "[FIL]Order Management"
+          },
+          "payment": {
+            "description": "[FIL]Assist with payment issues and billing questions",
+            "title": "[FIL]Payment Support"
+          },
+          "sales": {
+            "description": "[FIL]Convert support conversations into additional sales",
+            "title": "[FIL]Sales Increase"
+          }
+        },
+        "benefitsSubtitle": "[FIL]Transform your customer support into a sales-driving, retention-boosting powerhouse.",
+        "benefitsTitle": "[FIL]E-commerce Support Benefits",
+        "connectPlatform": "[FIL]Connect",
+        "cta": {
+          "button1": "[FIL]Connect Your Store Now",
+          "button2": "[FIL]Schedule E-commerce Demo"
+        },
+        "ctaSubtitle": "[FIL]Connect your online store and start providing exceptional customer support that drives sales and loyalty.",
+        "ctaTitle": "[FIL]Ready to Boost Your E-commerce Sales?",
+        "customer": "[FIL]Customer",
+        "hero": {
+          "button1": "[FIL]Connect Your Store",
+          "button2": "[FIL]Schedule E-commerce Demo"
+        },
+        "orderQuestion": "[FIL]Where is my order #12345?",
+        "orderResponse": "[FIL]Your order #12345 shipped yesterday and is currently in transit. Expected delivery: Tomorrow by 6 PM. Track it here: [tracking link]",
+        "platforms": {
+          "bigcommerce": {
+            "description": "[FIL]BigCommerce API integration for growing online stores",
+            "features": {
+              "customers": "[FIL]Customer insights",
+              "orders": "[FIL]Order management",
+              "products": "[FIL]Product data",
+              "shipping": "[FIL]Shipping info"
+            },
+            "name": "[FIL]BigCommerce",
+            "popularity": "[FIL]Growing",
+            "setupTime": "[FIL]10 minutes"
+          },
+          "etsy": {
+            "description": "[FIL]Etsy marketplace integration for creative sellers",
+            "features": {
+              "listings": "[FIL]Listing help",
+              "messages": "[FIL]Customer messages",
+              "orders": "[FIL]Order support",
+              "shop": "[FIL]Shop management"
+            },
+            "name": "[FIL]Etsy",
+            "popularity": "[FIL]Creative",
+            "setupTime": "[FIL]12 minutes"
+          },
+          "fourthwall": {
+            "description": "[FIL]Platform for creators to build a free website, sell products, and manage memberships",
+            "features": {
+              "community": "[FIL]Community tools",
+              "donations": "[FIL]Donations",
+              "memberships": "[FIL]Memberships",
+              "merch": "[FIL]Custom merch"
+            },
+            "name": "[FIL]Fourthwall",
+            "popularity": "[FIL]Creator Economy",
+            "setupTime": "[FIL]10 minutes"
+          },
+          "godaddy": {
+            "description": "[FIL]All-in-one solution for websites, marketing, and online stores",
+            "features": {
+              "scheduling": "[FIL]Appointment scheduling",
+              "security": "[FIL]SSL security",
+              "social": "[FIL]Social media tools",
+              "website": "[FIL]Website builder"
+            },
+            "name": "[FIL]GoDaddy",
+            "popularity": "[FIL]Comprehensive",
+            "setupTime": "[FIL]15 minutes"
+          },
+          "hostinger": {
+            "description": "[FIL]Web hosting provider with an integrated website builder and e-commerce features",
+            "features": {
+              "builder": "[FIL]AI website builder",
+              "hosting": "[FIL]Reliable hosting",
+              "ssl": "[FIL]Free SSL",
+              "support": "[FIL]24/7 support"
+            },
+            "name": "[FIL]Hostinger",
+            "popularity": "[FIL]Budget-Friendly",
+            "setupTime": "[FIL]10 minutes"
+          },
+          "magento": {
+            "description": "[FIL]Enterprise Magento integration for large-scale e-commerce",
+            "features": {
+              "catalog": "[FIL]Catalog sync",
+              "multistore": "[FIL]Multi-store support",
+              "orders": "[FIL]Advanced orders",
+              "segments": "[FIL]Customer segments"
+            },
+            "name": "[FIL]Magento",
+            "popularity": "[FIL]Enterprise",
+            "setupTime": "[FIL]15 minutes"
+          },
+          "opencart": {
+            "description": "[FIL]Free open-source e-commerce platform for online stores",
+            "features": {
+              "dashboard": "[FIL]Admin dashboard",
+              "extensions": "[FIL]Rich extensions",
+              "multi_store": "[FIL]Multi-store functionality",
+              "themes": "[FIL]Themable"
+            },
+            "name": "[FIL]OpenCart",
+            "popularity": "[FIL]Flexible",
+            "setupTime": "[FIL]25 minutes"
+          },
+          "prestashop": {
+            "description": "[FIL]Open-source e-commerce solution for small to large businesses",
+            "features": {
+              "analytics": "[FIL]Advanced analytics",
+              "customizable": "[FIL]Highly customizable",
+              "modules": "[FIL]Thousands of modules",
+              "multilingual": "[FIL]Multilingual support"
+            },
+            "name": "[FIL]PrestaShop",
+            "popularity": "[FIL]Open-Source",
+            "setupTime": "[FIL]30 minutes"
+          },
+          "sellfy": {
+            "description": "[FIL]E-commerce platform for creators to sell digital products, subscriptions, and physical goods",
+            "features": {
+              "digital": "[FIL]Digital product sales",
+              "marketing": "[FIL]Built-in marketing",
+              "print_on_demand": "[FIL]Print-on-demand",
+              "subscriptions": "[FIL]Subscription services"
+            },
+            "name": "[FIL]Sellfy",
+            "popularity": "[FIL]Creator-Focused",
+            "setupTime": "[FIL]5 minutes"
+          },
+          "shopify": {
+            "description": "[FIL]Complete Shopify[FIL] integration with order management and customer sync",
+            "features": {
+              "catalog": "[FIL]Product catalog",
+              "customers": "[FIL]Customer profiles",
+              "inventory": "[FIL]Inventory sync",
+              "orders": "[FIL]Order tracking"
+            },
+            "name": "Shopify",
+            "popularity": "[FIL]Most Popular",
+            "setupTime": "[FIL]5 minutes"
+          },
+          "square": {
+            "description": "[FIL]Point-of-sale and e-commerce solutions for businesses of all sizes",
+            "features": {
+              "invoicing": "[FIL]Invoicing",
+              "loyalty": "[FIL]Loyalty programs",
+              "pos": "[FIL]Integrated POS",
+              "reporting": "[FIL]Sales reporting"
+            },
+            "name": "[FIL]Square",
+            "popularity": "[FIL]Retail",
+            "setupTime": "[FIL]5 minutes"
+          },
+          "squarespace": {
+            "description": "[FIL]Website builder known for its beautiful design templates and e-commerce capabilities",
+            "features": {
+              "blogging": "[FIL]Blogging tools",
+              "commerce": "[FIL]Full commerce features",
+              "design": "[FIL]Award-winning design",
+              "portfolio": "[FIL]Portfolio options"
+            },
+            "name": "Squarespace",
+            "popularity": "[FIL]Design-Focused",
+            "setupTime": "[FIL]20 minutes"
+          },
+          "weebly": {
+            "description": "[FIL]Simple drag-and-drop website builder with e-commerce features",
+            "features": {
+              "marketing": "[FIL]Marketing tools",
+              "payments": "[FIL]Integrated payments",
+              "seo": "[FIL]SEO optimization",
+              "storefront": "[FIL]Customizable storefront"
+            },
+            "name": "[FIL]Weebly",
+            "popularity": "[FIL]User-Friendly",
+            "setupTime": "[FIL]10 minutes"
+          },
+          "wix": {
+            "description": "[FIL]Cloud-based web development platform for creating HTML5 websites and mobile sites",
+            "features": {
+              "analytics": "[FIL]Site analytics",
+              "apps": "[FIL]App market",
+              "mobile": "[FIL]Mobile optimized",
+              "templates": "[FIL]Designer templates"
+            },
+            "name": "Wix",
+            "popularity": "[FIL]Versatile",
+            "setupTime": "[FIL]10 minutes"
+          },
+          "woocommerce": {
+            "description": "WordPress[FIL] WooCommerce plugin for seamless store integration",
+            "features": {
+              "customers": "[FIL]Customer history",
+              "orders": "[FIL]Order status",
+              "payments": "[FIL]Payment tracking",
+              "products": "[FIL]Product support"
+            },
+            "name": "[FIL]WooCommerce",
+            "popularity": "WordPress",
+            "setupTime": "[FIL]8 minutes"
+          }
+        },
+        "platformsSubtitle": "[FIL]Integrate with all major e-commerce platforms and marketplaces for unified customer support.",
+        "platformsTitle": "[FIL]Supported E-commerce Platforms",
+        "recommendationQuestion": "[FIL]Great! Can you recommend similar products?",
+        "recommendationResponse": "[FIL]Based on your purchase, you might like these items: [Product A], [Product B]. Would you like a 10% discount on your next order?",
+        "scenarioTitle": "[FIL]Customer Support Scenario",
+        "seachatAI": "SeaChat[FIL] AI",
+        "subtitle": "[FIL]Connect SeaChat[FIL] with your online store to provide exceptional customer support, increase sales, and reduce cart abandonment.",
+        "supportSubtitle": "[FIL]Everything you need to provide exceptional customer support for your online store, from order tracking to product recommendations.",
+        "supportTitle": "[FIL]Complete E-commerce Support Suite",
+        "title": "[FIL]E-commerce Seachat integrations",
+        "setup": "[FIL]Setup time",
+        "features": [
+          {
+            "title": "[FIL]Real-Time Order Tracking",
+            "description": "[FIL]Automatically sync order status and provide instant tracking information to customers",
+            "icon": "[FIL]package"
+          },
+          {
+            "title": "[FIL]Inventory Management",
+            "description": "[FIL]Keep customers informed about product availability and restock notifications",
+            "icon": "[FIL]warehouse"
+          },
+          {
+            "title": "[FIL]Smart Product Recommendations",
+            "description": "[FIL]AI-powered product suggestions based on customer purchase history and preferences",
+            "icon": "[FIL]target"
+          },
+          {
+            "title": "[FIL]Cart Abandonment Recovery",
+            "description": "[FIL]Proactively reach out to customers who abandoned their carts with personalized messages",
+            "icon": "[FIL]shopping-cart"
+          },
+          {
+            "title": "[FIL]Payment Issue Resolution",
+            "description": "[FIL]Handle payment failures and billing inquiries with instant access to transaction data",
+            "icon": "[FIL]credit-card"
+          },
+          {
+            "title": "[FIL]Customer Purchase History",
+            "description": "[FIL]Access complete customer purchase history for better support and personalized service",
+            "icon": "[FIL]history"
+          }
+        ]
+      },
+      "marketing": {
+        "automationTitle": "[FIL]Marketing Automation Flow",
+        "benefits": {
+          "campaigns": {
+            "description": "[FIL]Better campaign results with customer support insights",
+            "title": "[FIL]Campaign Performance"
+          },
+          "leads": {
+            "description": "[FIL]Convert support conversations into marketing qualified leads",
+            "title": "[FIL]Lead Generation"
+          },
+          "retention": {
+            "description": "[FIL]Improve retention with personalized marketing campaigns",
+            "title": "[FIL]Customer Retention"
+          },
+          "revenue": {
+            "description": "[FIL]Increase revenue through integrated marketing efforts",
+            "title": "[FIL]Revenue Growth"
+          }
+        },
+        "benefitsSubtitle": "[FIL]Transform customer support into a powerful marketing and growth engine.",
+        "benefitsTitle": "[FIL]Marketing Integration Benefits",
+        "connectButton": "[FIL]Connect Marketing Tools",
+        "connectPlatform": "[FIL]Connect",
+        "ctaConnectButton": "[FIL]Connect Marketing Tools",
+        "ctaGuideButton": "[FIL]View Setup Guide",
+        "ctaSubtitle": "[FIL]Connect your marketing platforms and turn every customer support conversation into a growth opportunity.",
+        "ctaTitle": "[FIL]Ready to Supercharge Your Marketing?",
+        "demoButton": "[FIL]Schedule Marketing Demo",
+        "flow": {
+          "conversation": {
+            "description": "[FIL]Customer asks about premium features",
+            "title": "[FIL]Support Conversation"
+          },
+          "conversion": {
+            "description": "[FIL]Customer upgrades to premium plan",
+            "title": "[FIL]Conversion"
+          },
+          "tagging": {
+            "description": "[FIL]Customer tagged as \"interested in upgrade",
+            "title": "[FIL]Automatic Tagging"
+          },
+          "trigger": {
+            "description": "[FIL]Automated email sequence starts",
+            "title": "[FIL]Campaign Trigger"
+          }
+        },
+        "integrationSubtitle": "[FIL]Bridge the gap between customer support and marketing with intelligent automation that turns every conversation into a growth opportunity.",
+        "integrationTitle": "[FIL]Complete Marketing Integration",
+        "features": [
+          {
+            "title": "[FIL]Lead Qualification & Scoring",
+            "description": "[FIL]Automatically qualify and score leads from support conversations based on engagement and intent",
+            "icon": "[FIL]target"
+          },
+          {
+            "title": "[FIL]Campaign Trigger Automation",
+            "description": "[FIL]Trigger targeted marketing campaigns based on specific customer interactions and behavior patterns",
+            "icon": "[FIL]zap"
+          },
+          {
+            "title": "[FIL]Customer Journey Mapping",
+            "description": "[FIL]Track and optimize the complete customer journey from first contact to conversion and retention",
+            "icon": "[FIL]map"
+          },
+          {
+            "title": "[FIL]Personalized Content Delivery",
+            "description": "[FIL]Deliver personalized marketing content and offers based on support conversation history and preferences",
+            "icon": "[FIL]heart"
+          },
+          {
+            "title": "[FIL]Multi-Channel Campaign Sync",
+            "description": "[FIL]Synchronize marketing campaigns across email, SMS[FIL], WhatsApp[FIL], and social media for consistent messaging",
+            "icon": "[FIL]sync"
+          },
+          {
+            "title": "[FIL]Performance Analytics & ROI",
+            "description": "[FIL]Measure campaign performance and ROI with detailed analytics on conversion rates and customer lifetime value",
+            "icon": "[FIL]chart"
+          }
+        ],
+        "platforms": {
+          "activecampaign": {
+            "category": "[FIL]Automation",
+            "description": "[FIL]Customer experience automation platform",
+            "features": {
+              "automation": "[FIL]Marketing automation",
+              "crm": "[FIL]CRM integration",
+              "learning": "[FIL]Machine learning",
+              "sending": "[FIL]Predictive sending"
+            },
+            "name": "[FIL]ActiveCampaign",
+            "setupTime": "[FIL]18 minutes"
+          },
+          "constantcontact": {
+            "category": "[FIL]Email Marketing",
+            "description": "[FIL]Email marketing and automation for small businesses",
+            "features": {
+              "analytics": "[FIL]Analytics dashboard",
+              "scheduling": "[FIL]Campaign scheduling",
+              "social": "[FIL]Social media tools",
+              "templates": "[FIL]Email templates"
+            },
+            "name": "Constant Contact",
+            "setupTime": "[FIL]7 minutes"
+          },
+          "convertkit": {
+            "category": "[FIL]Creator Economy",
+            "description": "[FIL]Creator-focused email marketing with automation sequences",
+            "features": {
+              "integrations": "[FIL]Integrations",
+              "landing": "[FIL]Landing pages",
+              "sequences": "[FIL]Email sequences",
+              "tagging": "[FIL]Subscriber tagging"
+            },
+            "name": "[FIL]ConvertKit",
+            "setupTime": "[FIL]9 minutes"
+          },
+          "engagebay": {
+            "category": "[FIL]All-in-One",
+            "description": "[FIL]All-in-one marketing, sales, and support CRM",
+            "features": {
+              "automation": "[FIL]Marketing automation",
+              "crm": "[FIL]CRM integration",
+              "email": "[FIL]Email marketing",
+              "forms": "[FIL]Lead forms & popups"
+            },
+            "name": "[FIL]EngageBay",
+            "setupTime": "[FIL]11 minutes"
+          },
+          "hubspot": {
+            "category": "[FIL]Marketing Hub",
+            "description": "[FIL]Inbound marketing platform with lead nurturing capabilities",
+            "features": {
+              "automation": "[FIL]Marketing automation",
+              "landing": "[FIL]Landing pages",
+              "scoring": "[FIL]Lead scoring",
+              "social": "[FIL]Social media"
+            },
+            "name": "HubSpot[FIL] Marketing",
+            "setupTime": "[FIL]15 minutes"
+          },
+          "klaviyo": {
+            "category": "[FIL]E-commerce",
+            "description": "[FIL]E-commerce focused email and SMS[FIL] marketing platform",
+            "features": {
+              "recommendations": "[FIL]Product recommendations",
+              "revenue": "[FIL]Revenue tracking",
+              "sms": "SMS[FIL] campaigns",
+              "triggers": "[FIL]Behavioral triggers"
+            },
+            "name": "[FIL]Klaviyo",
+            "setupTime": "[FIL]12 minutes"
+          },
+          "mailchimp": {
+            "category": "[FIL]Email Marketing",
+            "description": "[FIL]Comprehensive email marketing platform with audience insights",
+            "features": {
+              "builder": "[FIL]Campaign builder",
+              "reporting": "[FIL]Reporting",
+              "segmentation": "[FIL]Audience segmentation",
+              "testing": "[FIL]A/B testing"
+            },
+            "name": "Mailchimp",
+            "setupTime": "[FIL]10 minutes"
+          },
+          "mailerlite": {
+            "category": "[FIL]Email Marketing",
+            "description": "[FIL]Email marketing automation with customer support integration",
+            "features": {
+              "analytics": "[FIL]Analytics",
+              "automation": "[FIL]Automation workflows",
+              "campaigns": "[FIL]Email campaigns",
+              "subscribers": "[FIL]Subscriber management"
+            },
+            "name": "MailerLite",
+            "setupTime": "[FIL]8 minutes"
+          },
+          "omnisend": {
+            "category": "[FIL]E-commerce",
+            "description": "[FIL]Omnichannel marketing automation for e-commerce",
+            "features": {
+              "automation": "[FIL]Automation workflows",
+              "email": "[FIL]Email & SMS[FIL] campaigns",
+              "reports": "[FIL]Advanced reporting",
+              "segmentation": "[FIL]Audience segmentation"
+            },
+            "name": "[FIL]Omnisend",
+            "setupTime": "[FIL]10 minutes"
+          }
+        },
+        "platformsSubtitle": "[FIL]Integrate with leading marketing platforms to create seamless customer experiences.",
+        "platformsTitle": "[FIL]Popular Marketing Platforms",
+        "subtitle": "[FIL]Connect SeaChat[FIL] with your marketing tools to turn customer support conversations into powerful marketing opportunities and personalized campaigns.",
+        "title": "[FIL]Marketing Platforms",
+        "useCases": {
+          "nurturing": {
+            "description": "[FIL]Automatically add support contacts to nurturing campaigns",
+            "example": "[FIL]Customer asks about pricing → Added to product demo email sequence",
+            "title": "[FIL]Lead Nurturing"
+          },
+          "onboarding": {
+            "description": "[FIL]Seamless onboarding experience with marketing automation",
+            "example": "[FIL]New customer support ticket → Welcome series with helpful resources",
+            "title": "[FIL]Customer Onboarding"
+          },
+          "retention": {
+            "description": "[FIL]Proactive retention based on support interaction patterns",
+            "example": "[FIL]Multiple support tickets → Triggered customer success outreach",
+            "title": "[FIL]Retention Campaigns"
+          },
+          "upselling": {
+            "description": "[FIL]Identify upselling opportunities from support conversations",
+            "example": "[FIL]Customer mentions growth plans → Triggered upgrade campaign",
+            "title": "[FIL]Upselling Opportunities"
+          }
+        },
+        "useCasesSubtitle": "[FIL]See how support conversations can trigger powerful marketing workflows.",
+        "useCasesTitle": "[FIL]Marketing Automation Use Cases",
+        "workflowExample": "[FIL]Example Workflow",
+        "setup": "[FIL]Set up"
+      },
+      "social": {
+        "features": [
+          {
+            "title": "[FIL]Instant Customer Responses",
+            "description": "[FIL]Reply to social media inquiries in real-time across all platforms",
+            "icon": "[FIL]message-circle"
+          },
+          {
+            "title": "[FIL]Unified Social Inbox",
+            "description": "[FIL]Manage all social media messages from one centralized dashboard",
+            "icon": "[FIL]inbox"
+          },
+          {
+            "title": "[FIL]Smart Auto-Routing",
+            "description": "[FIL]Automatically route social messages to the right team members",
+            "icon": "[FIL]route"
+          },
+          {
+            "title": "[FIL]Brand Reputation Management",
+            "description": "[FIL]Monitor and respond to brand mentions and comments quickly",
+            "icon": "[FIL]shield"
+          },
+          {
+            "title": "[FIL]Multi-Language Support",
+            "description": "[FIL]Communicate with global customers in their preferred language",
+            "icon": "[FIL]globe"
+          },
+          {
+            "title": "[FIL]Social Analytics",
+            "description": "[FIL]Track response times, engagement rates, and customer satisfaction",
+            "icon": "[FIL]chart"
+          }
+        ],
+        "benefits": {
+          "meet": {
+            "description": "[FIL]Provide support on the platforms your customers already use daily",
+            "title": "[FIL]Meet Customers Where They Are"
+          },
+          "reputation": {
+            "description": "[FIL]Maintain positive brand image with quick, helpful responses",
+            "title": "[FIL]Brand Reputation"
+          },
+          "response": {
+            "description": "[FIL]Respond to social media inquiries in real-time",
+            "title": "[FIL]Faster Response Times"
+          },
+          "unified": {
+            "description": "[FIL]Handle all social platforms from one dashboard",
+            "title": "[FIL]Unified Management"
+          }
+        },
+        "benefitsSubtitle": "[FIL]Transform your social media presence into a powerful customer support channel.",
+        "benefitsTitle": "[FIL]Social Media Support Benefits",
+        "brandMentions": "[FIL]Brand mentions requiring response",
+        "connectButton": "[FIL]Connect Social Platforms",
+        "connectPlatform": "[FIL]Connect",
+        "ctaConnectButton": "[FIL]Connect Social Platforms",
+        "ctaGuideButton": "[FIL]Schedule E-commerce Demo",
+        "ctaSubtitle": "[FIL]Connect all your social media platforms and provide exceptional customer support where your customers spend their time.",
+        "ctaTitle": "[FIL]Ready to Unify Your Social Media Support?",
+        "dashboardTitle": "[FIL]Social Media Dashboard",
+        "demoButton": "[FIL]Schedule Social Demo",
+        "facebook": "[FIL]Facebook",
+        "instagram": "[FIL]Instagram",
+        "managementSubtitle": "[FIL]Everything you need to manage customer interactions across all social media platforms from one unified dashboard.",
+        "managementTitle": "[FIL]Complete Social Media Management",
+        "mentions": "[FIL]3 mentions",
+        "newMessages": "[FIL]12 new messages",
+        "pageMessages": "[FIL]5 page messages",
+        "platforms": {
+          "facebook": {
+            "description": "[FIL]Provide customer support through Facebook's messaging platform",
+            "features": {
+              "cards": "[FIL]Rich cards",
+              "menu": "[FIL]Persistent menu",
+              "page": "[FIL]Page integration",
+              "responses": "[FIL]Automated responses"
+            },
+            "name": "[FIL]Facebook Messenger",
+            "setupTime": "[FIL]12 minutes",
+            "users": "[FIL]1.3B+ users"
+          },
+          "instagram": {
+            "description": "[FIL]Manage Instagram DMs and story replies in one unified inbox",
+            "features": {
+              "dm": "[FIL]Direct messages",
+              "media": "[FIL]Media sharing",
+              "responses": "[FIL]Quick responses",
+              "stories": "[FIL]Story replies"
+            },
+            "name": "[FIL]Instagram",
+            "setupTime": "[FIL]8 minutes",
+            "users": "[FIL]1.4B+ users"
+          },
+          "line": {
+            "description": "[FIL]Provide seamless customer support and engagement on LINE",
+            "features": {
+              "broadcast": "[FIL]Broadcast messages",
+              "messaging": "[FIL]Rich messaging",
+              "payments": "LINE[FIL] Pay integration",
+              "stickers": "[FIL]Sticker support"
+            },
+            "name": "LINE",
+            "setupTime": "[FIL]10 minutes",
+            "users": "[FIL]180M+ users"
+          },
+          "tiktok": {
+            "description": "[FIL]Engage with your audience and manage customer interactions on TikTok",
+            "features": {
+              "ads": "[FIL]Ad campaign support",
+              "analytics": "[FIL]Audience analytics",
+              "comments": "[FIL]Comment management",
+              "dm": "[FIL]Direct messages"
+            },
+            "name": "[FIL]TikTok",
+            "setupTime": "[FIL]15 minutes",
+            "users": "[FIL]1B+ users"
+          },
+          "twitter": {
+            "description": "[FIL]Handle customer inquiries and mentions on Twitter/X platform",
+            "features": {
+              "dm": "[FIL]Direct messages",
+              "mentions": "[FIL]Mention tracking",
+              "responses": "[FIL]Tweet responses",
+              "threads": "[FIL]Thread management"
+            },
+            "name": "[FIL]Twitter/X",
+            "setupTime": "[FIL]15 minutes",
+            "users": "[FIL]450M+ users"
+          },
+          "whatsapp": {
+            "description": "[FIL]Connect with customers on the world's most popular messaging platform",
+            "features": {
+              "api": "[FIL]Business API",
+              "groups": "[FIL]Groups",
+              "media": "[FIL]Rich media",
+              "templates": "[FIL]Templates"
+            },
+            "name": "WhatsApp[FIL] Business",
+            "setupTime": "[FIL]10 minutes",
+            "users": "[FIL]2B+ users"
+          }
+        },
+        "platformsSubtitle": "[FIL]Integrate with every social platform your customers use for comprehensive social media support.",
+        "platformsTitle": "[FIL]All Major Social Platforms",
+        "productComments": "[FIL]Comments on latest product showcase",
+        "productInquiries": "[FIL]Customer inquiries about product availability",
+        "setup": "[FIL]Setup time",
+        "storyReplies": "[FIL]8 story replies",
+        "subtitle": "[FIL]Connect all your social media platforms and provide seamless customer support across WhatsApp[FIL], Instagram, Facebook, Twitter, and more.",
+        "supportRequests": "[FIL]Support requests and general inquiries",
+        "title": "[FIL]Social Media Integrations",
+        "twitter": "[FIL]Twitter/X",
+        "whatsapp": "WhatsApp[FIL] Business",
+        "worldwide": "[FIL]worldwide"
+      },
+      "websites": {
+        "code": "[FIL]Code",
+        "codeButton": "[FIL]Get Widget Code",
+        "copyCode": "[FIL]Copy Code",
+        "ctaCodeButton": "[FIL]Get Widget Code Now",
+        "ctaDocsButton": "[FIL]View Integration Docs",
+        "ctaSubtitle": "[FIL]Get your custom widget code and start providing exceptional customer support in minutes.",
+        "ctaTitle": "[FIL]Ready to Add SeaChat[FIL] to Your Website?",
+        "customization": {
+          "colors": {
+            "description": "[FIL]Match your brand colors, fonts, and styling",
+            "features": {
+              "css": "[FIL]CSS overrides",
+              "fonts": "[FIL]Font customization",
+              "logo": "[FIL]Brand logo integration",
+              "schemes": "[FIL]Custom color schemes"
+            },
+            "title": "[FIL]Colors & Branding"
+          },
+          "content": {
+            "description": "[FIL]Customize all text and messaging",
+            "features": {
+              "greetings": "[FIL]Custom greetings",
+              "multilanguage": "[FIL]Multi-language support",
+              "offline": "[FIL]Offline messages",
+              "welcome": "[FIL]Welcome messages"
+            },
+            "title": "[FIL]Content & Messages"
+          },
+          "position": {
+            "description": "[FIL]Control where and how the widget appears",
+            "features": {
+              "auto": "[FIL]Auto-open settings",
+              "corner": "[FIL]Corner positioning",
+              "mobile": "[FIL]Mobile responsiveness",
+              "trigger": "[FIL]Trigger conditions"
+            },
+            "title": "[FIL]Position & Behavior"
+          }
+        },
+        "customizationSubtitle": "[FIL]Make SeaChat[FIL] match your brand perfectly with extensive customization options.",
+        "customizationTitle": "[FIL]Customization Options",
+        "demoButton": "[FIL]Schedule Demo",
+        "getPlatformCode": "[FIL]Get",
+        "installation": {
+          "step1": {
+            "description": "[FIL]Copy your unique SeaChat[FIL] widget code from the dashboard",
+            "title": "[FIL]Get Your Widget Code"
+          },
+          "step2": {
+            "description": "[FIL]Paste the code before the closing </body> tag",
+            "title": "[FIL]Add to Your Website"
+          },
+          "step3": {
+            "description": "[FIL]Optional: Customize colors, position, and behavior",
+            "title": "[FIL]Customize Appearance"
+          }
+        },
+        "installationSubtitle": "[FIL]Follow these simple steps to add SeaChat[FIL] to any website in minutes.",
+        "installationTitle": "[FIL]Universal Installation Guide",
+        "platforms": {
+          "generic": {
+            "description": "[FIL]Universal widget that works on any HTML website",
+            "difficulty": "[FIL]Easy",
+            "features": {
+              "compatibility": "[FIL]Universal compatibility",
+              "installation": "[FIL]Easy installation",
+              "responsive": "[FIL]Responsive design",
+              "styling": "[FIL]Custom styling"
+            },
+            "name": "[FIL]Generic Website",
+            "setupTime": "[FIL]2 minutes"
+          },
+          "shopify": {
+            "description": "[FIL]E-commerce optimized with order tracking integration",
+            "difficulty": "[FIL]Easy",
+            "features": {
+              "cart": "[FIL]Cart abandonment",
+              "customers": "[FIL]Customer data sync",
+              "orders": "[FIL]Order integration",
+              "products": "[FIL]Product recommendations"
+            },
+            "name": "Shopify",
+            "setupTime": "[FIL]3 minutes"
+          },
+          "squarespace": {
+            "description": "[FIL]Seamless integration with Squarespace[FIL] design system",
+            "difficulty": "[FIL]Medium",
+            "features": {
+              "code": "[FIL]Code injection",
+              "design": "[FIL]Design system match",
+              "style": "[FIL]Style customization",
+              "templates": "[FIL]Template compatibility"
+            },
+            "name": "Squarespace",
+            "setupTime": "[FIL]3 minutes"
+          },
+          "webflow": {
+            "description": "[FIL]Native integration for Webflow CMS and e-commerce",
+            "difficulty": "[FIL]Easy",
+            "features": {
+              "cms": "[FIL]CMS integration",
+              "custom": "[FIL]Custom code injection",
+              "design": "[FIL]Designer-friendly",
+              "ecommerce": "[FIL]E-commerce support"
+            },
+            "name": "[FIL]Webflow",
+            "setupTime": "[FIL]2 minutes"
+          },
+          "wix": {
+            "description": "[FIL]Drag-and-drop integration for Wix[FIL] websites",
+            "difficulty": "[FIL]Easy",
+            "features": {
+              "app": "Wix[FIL] app store",
+              "editor": "[FIL]Visual editor",
+              "mobile": "[FIL]Mobile optimized",
+              "positioning": "[FIL]Custom positioning"
+            },
+            "name": "Wix",
+            "setupTime": "[FIL]2 minutes"
+          },
+          "wordpress": {
+            "description": "[FIL]Native WordPress[FIL] plugin with advanced customization",
+            "difficulty": "[FIL]Easy",
+            "features": {
+              "dashboard": "[FIL]Admin dashboard",
+              "plugin": "WordPress[FIL] plugin",
+              "shortcode": "[FIL]Shortcode support",
+              "theme": "[FIL]Theme integration"
+            },
+            "name": "WordPress",
+            "setupTime": "[FIL]1 minute"
+          }
+        },
+        "platformsSubtitle": "[FIL]Choose your platform for optimized integration and setup instructions.",
+        "platformsTitle": "[FIL]Supported Platforms",
+        "subtitle": "[FIL]Deploy SeaChat[FIL] on any website platform in minutes. Universal compatibility with custom styling and responsive design.",
+        "title": "[FIL]Website Integrations",
+        "viewDocs": "[FIL]View Documentation",
+        "setup": "[FIL]Setup time"
+      }
+    },
+    "heroAnimations": {
+      "agentToAI": {
+        "phases": {
+          "learning": "[FIL]🧑‍💼 Learning from Human",
+          "handoff": "[FIL]🤝 Smooth Handoff",
+          "autonomous": "[FIL]🤖 AI Autonomous"
+        },
+        "humanMessages": {
+          "0": "[FIL]Thank you for contacting support! How can I help?",
+          "1": "[FIL]I understand your concern. Let me check that for you.",
+          "2": "[FIL]Based on our policy, here's what I recommend...",
+          "3": "[FIL]Is there anything else I can help you with today?"
+        },
+        "aiMessages": {
+          "0": "[FIL]I've learned to handle this type of inquiry automatically.",
+          "1": "[FIL]Based on previous conversations, I can help with this.",
+          "2": "[FIL]I understand your question and can provide instant assistance.",
+          "3": "[FIL]I'm ready to handle similar requests independently."
+        },
+        "learned": "[FIL]Learned",
+        "title": "[FIL]Human-to-AI Handoff",
+        "subtitle": "[FIL]Start with humans, scale with intelligent AI"
+      },
+      "conversationLearning": {
+        "documentTypes": {
+          "0": "[FIL]Product Manual.pdf",
+          "1": "[FIL]FAQ Database.csv",
+          "2": "[FIL]Support Guide.doc",
+          "3": "[FIL]Website Content"
+        },
+        "knowledgeConcepts": {
+          "0": "[FIL]Product Features",
+          "1": "[FIL]Pricing Plans",
+          "2": "[FIL]Support Policies",
+          "3": "[FIL]Technical Specs",
+          "4": "[FIL]User Guidelines",
+          "5": "[FIL]Troubleshooting",
+          "6": "[FIL]Integration Steps",
+          "7": "[FIL]Best Practices"
+        },
+        "conversationExamples": {
+          "0": {
+            "question": "[FIL]How do I reset my password?",
+            "improvement": "[FIL]Learned step-by-step process"
+          },
+          "1": {
+            "question": "[FIL]What are your pricing plans?",
+            "improvement": "[FIL]Added detailed comparisons"
+          },
+          "2": {
+            "question": "[FIL]Integration with Slack?",
+            "improvement": "[FIL]Improved technical guidance"
+          },
+          "3": {
+            "question": "[FIL]Billing question",
+            "improvement": "[FIL]Enhanced policy understanding"
+          }
+        },
+        "phaseLabel": "[FIL]Phase",
+        "accuracy": "[FIL]Accuracy",
+        "title": "[FIL]AI Learning Journey",
+        "subtitle": "[FIL]Watch AI get smarter from your content"
+      },
+      "interactiveChannels": {
+        "whatsapp": {
+          "messages": {
+            "0": "[FIL]Hi! Need help with my order 📦",
+            "1": "[FIL]What's your return policy?",
+            "2": "[FIL]Thanks for the quick response! 😊"
+          }
+        },
+        "instagram": {
+          "messages": {
+            "0": "[FIL]Love your new product! 💕",
+            "1": "[FIL]Is this available in blue?",
+            "2": "[FIL]Can you ship to Europe?"
+          }
+        },
+        "website": {
+          "messages": {
+            "0": "[FIL]I need technical support",
+            "1": "[FIL]How do I reset my password?",
+            "2": "[FIL]The checkout isn't working"
+          }
+        },
+        "email": {
+          "messages": {
+            "0": "[FIL]Following up on my previous email",
+            "1": "[FIL]Request for bulk pricing",
+            "2": "[FIL]Thank you for your assistance"
+          }
+        },
+        "agentResponse": "[FIL]I'd be happy to help you with that! Let me check that information for you.",
+        "channelNames": {
+          "whatsapp": "WhatsApp",
+          "instagram": "[FIL]Instagram",
+          "website": "[FIL]Website",
+          "email": "[FIL]Email"
+        },
+        "supportSuffix": "[FIL]Support",
+        "online": "[FIL]Online",
+        "typePlaceholder": "[FIL]Type your message...",
+        "title": "[FIL]Interactive Channel Selector",
+        "subtitle": "[FIL]Click channels to see different conversations"
+      },
+      "multiChannelFlow": {
+        "channels": {
+          "whatsapp": "WhatsApp",
+          "instagram": "[FIL]Instagram",
+          "facebook": "[FIL]Facebook",
+          "email": "[FIL]Email",
+          "website": "[FIL]Website"
+        },
+        "messageTemplates": {
+          "0": "[FIL]Need help with order",
+          "1": "[FIL]Product question",
+          "2": "[FIL]Technical support",
+          "3": "[FIL]Billing inquiry",
+          "4": "[FIL]General question"
+        },
+        "title": "[FIL]Multi-Channel Message Flow",
+        "subtitle": "[FIL]Messages flowing between channels in real-time"
+      },
+      "phoneVoiceAI": {
+        "callerNames": {
+          "0": "[FIL]John Smith",
+          "1": "Sarah Johnson",
+          "2": "[FIL]Mike Chen",
+          "3": "[FIL]Emma Davis",
+          "4": "[FIL]David Wilson"
+        },
+        "conversationFlow": {
+          "0": {
+            "caller": "[FIL]Hi, I need help with my order status",
+            "ai": "[FIL]Hello! I'd be happy to help you check your order status. Could you please provide your order number?"
+          },
+          "1": {
+            "caller": "[FIL]Yes, it's order number 12345",
+            "ai": "[FIL]Thank you! Let me look that up for you. I can see your order was shipped yesterday and should arrive tomorrow."
+          },
+          "2": {
+            "caller": "[FIL]Perfect! Can I change the delivery address?",
+            "ai": "[FIL]I can help you with that. What would you like the new delivery address to be?"
+          }
+        },
+        "status": {
+          "seachatVoiceAI": "SeaChat[FIL] Voice AI",
+          "connectedWith": "[FIL]Connected with",
+          "listening": "[FIL]Listening...",
+          "aiSpeaking": "[FIL]AI Speaking...",
+          "processing": "[FIL]Processing...",
+          "liveTranscript": "[FIL]Live Transcript:"
+        },
+        "waiting": {
+          "ready": "[FIL]Voice AI Ready",
+          "subtitle": "[FIL]Waiting for incoming calls..."
+        },
+        "stats": {
+          "callsHandled": "[FIL]Calls Handled",
+          "available": "[FIL]Available"
+        },
+        "incomingCall": "[FIL]📞 Incoming Call",
+        "features": {
+          "naturalSpeech": {
+            "title": "[FIL]Natural Speech",
+            "description": "[FIL]Human-like conversation"
+          },
+          "smartRecognition": {
+            "title": "[FIL]Smart Recognition",
+            "description": "[FIL]Accurate speech-to-text"
+          },
+          "contextAware": {
+            "title": "[FIL]Context Aware",
+            "description": "[FIL]Understands intent"
+          }
+        }
+      },
+      "realtimeDashboard": {
+        "metrics": {
+          "conversations": "[FIL]Active Chats",
+          "response": "[FIL]Avg Response",
+          "agents": "[FIL]Online Agents",
+          "satisfaction": "[FIL]Satisfaction"
+        },
+        "title": "[FIL]Live Dashboard",
+        "status": {
+          "live": "[FIL]Live"
+        },
+        "timeLabels": {
+          "12hAgo": "[FIL]12h ago",
+          "6hAgo": "[FIL]6h ago",
+          "now": "[FIL]Now"
+        }
+      }
+    }
+  }
+}

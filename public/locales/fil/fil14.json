@@ -1,0 +1,403 @@
+{
+  "textToSpeech": {
+    "hero": {
+      "title": "[FIL]Text-to-Speech Technology",
+      "subtitle": "[FIL]Generate human-like speech from text with our advanced neural text-to-speech technology. Create custom voices, support 40+ languages, and deliver exceptional audio quality.",
+      "cta": "[FIL]Try Voice Generation"
+    },
+    "demo": {
+      "title": "[FIL]Experience Our Voice Technology",
+      "subtitle": "[FIL]Try different voices and hear the quality for yourself",
+      "chooseVoice": "[FIL]Choose a voice:",
+      "textPrompt": "[FIL]Enter text to convert to speech:",
+      "defaultText": "[FIL]Hello! I'm an AI voice assistant powered by SeaVoice[FIL] technology. I can help you with customer service, sales, and support in a natural, human-like voice.",
+      "placeholderText": "[FIL]Type something for our AI to say...",
+      "generateSpeech": "[FIL]Generate Speech",
+      "playing": "[FIL]Playing..."
+    },
+    "voices": {
+      "sarah": {
+        "name": "[FIL]Sarah",
+        "gender": "[FIL]Female",
+        "accent": "[FIL]US English",
+        "description": "[FIL]Professional, warm"
+      },
+      "tom": {
+        "name": "[FIL]Tom",
+        "gender": "[FIL]Male",
+        "accent": "[FIL]US English",
+        "description": "[FIL]Friendly, conversational"
+      },
+      "lissa": {
+        "name": "[FIL]Lissa",
+        "gender": "[FIL]Female",
+        "accent": "[FIL]UK English",
+        "description": "[FIL]Energetic, helpful"
+      },
+      "alex": {
+        "name": "[FIL]Alex",
+        "gender": "[FIL]Male",
+        "accent": "[FIL]Australian",
+        "description": "[FIL]Clear, confident"
+      },
+      "maria": {
+        "name": "[FIL]Maria",
+        "gender": "[FIL]Female",
+        "accent": "[FIL]Spanish",
+        "description": "[FIL]Expressive, natural"
+      },
+      "hiroshi": {
+        "name": "[FIL]Hiroshi",
+        "gender": "[FIL]Male",
+        "accent": "[FIL]Japanese",
+        "description": "[FIL]Polite, professional"
+      }
+    },
+    "features": {
+      "title": "[FIL]Advanced Voice Generation",
+      "subtitle": "[FIL]Cutting-edge neural networks deliver human-like speech quality",
+      "customVoiceCloning": {
+        "title": "[FIL]Custom Voice Cloning",
+        "description": "[FIL]Create unique voice profiles that match your brand personality and speaking style.",
+        "capabilities": {
+          "voiceCloning": "[FIL]Voice cloning from samples",
+          "brandVoice": "[FIL]Brand voice consistency",
+          "emotionalExpression": "[FIL]Emotional expression",
+          "customPronunciations": "[FIL]Custom pronunciations"
+        }
+      },
+      "advancedControls": {
+        "title": "[FIL]Advanced Controls",
+        "description": "[FIL]Fine-tune every aspect of speech generation for perfect audio output.",
+        "capabilities": {
+          "speedAdjustment": "[FIL]Speed adjustment",
+          "pitchControl": "[FIL]Pitch control",
+          "emphasisPlacement": "[FIL]Emphasis placement",
+          "pauseInsertion": "[FIL]Pause insertion"
+        }
+      },
+      "multiLanguageSupport": {
+        "title": "[FIL]Multi-Language Support",
+        "description": "[FIL]Generate natural speech in 40+ languages with native pronunciation.",
+        "capabilities": {
+          "fortyPlusLanguages": "[FIL]40+ languages",
+          "regionalAccents": "[FIL]Regional accents",
+          "codeSwitching": "[FIL]Code-switching",
+          "multilingualVoices": "[FIL]Multilingual voices"
+        }
+      }
+    },
+    "qualityMetrics": {
+      "title": "[FIL]Exceptional Quality Metrics",
+      "subtitle": "[FIL]Measured performance that delivers professional results",
+      "naturalness": {
+        "metric": "[FIL]Naturalness Score",
+        "value": "[FIL]4.8/5",
+        "description": "[FIL]Human evaluation rating"
+      },
+      "intelligibility": {
+        "metric": "[FIL]Intelligibility",
+        "value": "[FIL]99.2%",
+        "description": "[FIL]Word recognition accuracy"
+      },
+      "latency": {
+        "metric": "[FIL]Latency",
+        "value": "[FIL]< 200ms",
+        "description": "[FIL]Text to audio generation"
+      },
+      "audioQuality": {
+        "metric": "[FIL]Audio Quality",
+        "value": "[FIL]48kHz",
+        "description": "[FIL]High-fidelity output"
+      }
+    },
+    "useCases": {
+      "title": "[FIL]Versatile Applications",
+      "subtitle": "[FIL]Transform text into speech across industries and use cases",
+      "customerService": {
+        "title": "[FIL]Customer Service",
+        "description": "[FIL]Provide consistent, professional voice responses for customer interactions.",
+        "benefits": {
+          "availability": "[FIL]24/7 availability",
+          "consistentQuality": "[FIL]Consistent quality",
+          "multiLanguageSupport": "[FIL]Multi-language support",
+          "brandVoiceAlignment": "[FIL]Brand voice alignment"
+        }
+      },
+      "contentCreation": {
+        "title": "[FIL]Content Creation",
+        "description": "[FIL]Generate voiceovers for videos, podcasts, and multimedia content.",
+        "benefits": {
+          "costEffectiveProduction": "[FIL]Cost-effective production",
+          "quickTurnaround": "[FIL]Quick turnaround",
+          "multipleVoiceOptions": "[FIL]Multiple voice options",
+          "easyRevisions": "[FIL]Easy revisions"
+        }
+      },
+      "accessibility": {
+        "title": "[FIL]Accessibility",
+        "description": "[FIL]Make content accessible with high-quality text-to-speech for visually impaired users.",
+        "benefits": {
+          "screenReaderEnhancement": "[FIL]Screen reader enhancement",
+          "documentNarration": "[FIL]Document narration",
+          "webAccessibility": "[FIL]Web accessibility",
+          "educationalSupport": "[FIL]Educational support"
+        }
+      },
+      "interactiveApplications": {
+        "title": "[FIL]Interactive Applications",
+        "description": "[FIL]Add voice capabilities to apps, games, and interactive experiences.",
+        "benefits": {
+          "realTimeGeneration": "[FIL]Real-time generation",
+          "dynamicContent": "[FIL]Dynamic content",
+          "userEngagement": "[FIL]User engagement",
+          "immersiveExperiences": "[FIL]Immersive experiences"
+        }
+      }
+    },
+    "voiceCloning": {
+      "title": "[FIL]Custom Voice Cloning",
+      "subtitle": "[FIL]Create unique voice profiles that perfectly match your brand personality. Our advanced voice cloning technology can replicate speaking styles, accents, and emotional expressions with just a few minutes of sample audio.",
+      "brandVoiceConsistency": {
+        "title": "[FIL]Brand Voice Consistency",
+        "description": "[FIL]Maintain consistent brand voice across all interactions"
+      },
+      "fineTunedControl": {
+        "title": "[FIL]Fine-Tuned Control",
+        "description": "[FIL]Adjust tone, pace, and emotional expression"
+      },
+      "highFidelityOutput": {
+        "title": "[FIL]High Fidelity Output",
+        "description": "[FIL]Professional quality audio for any application"
+      },
+      "process": {
+        "title": "[FIL]Voice Cloning Process",
+        "step1": {
+          "title": "[FIL]Upload Audio Samples",
+          "description": "[FIL]Provide 5-10 minutes of clean audio recordings"
+        },
+        "step2": {
+          "title": "[FIL]AI Training",
+          "description": "[FIL]Our neural networks learn your unique voice characteristics"
+        },
+        "step3": {
+          "title": "[FIL]Voice Generation",
+          "description": "[FIL]Generate unlimited speech with your custom voice"
+        }
+      }
+    },
+    "cta": {
+      "title": "[FIL]Ready to Give Your Brand a Voice?",
+      "subtitle": "[FIL]Create custom voices and generate professional-quality speech for any application",
+      "startVoiceCloning": "[FIL]Start Voice Cloning",
+      "exploreApi": "[FIL]Explore API"
+    }
+  },
+  "components": {
+    "aiVoiceAvatar": {
+      "badge": {
+        "label": "[FIL]Interactive AI Avatar"
+      },
+      "hero": {
+        "title": {
+          "line1": "[FIL]Meet Your",
+          "line2": "[FIL]AI Voice Agent"
+        },
+        "subtitle": "[FIL]Experience the future of AI communication. Our avatars demonstrate human-like conversations with emotional intelligence and multiple personality options."
+      },
+      "voices": {
+        "professional": {
+          "name": "[FIL]Professional Sarah",
+          "description": "[FIL]Clear, authoritative business voice"
+        },
+        "friendly": {
+          "name": "[FIL]Friendly Mike",
+          "description": "[FIL]Warm, approachable customer service"
+        },
+        "empathetic": {
+          "name": "[FIL]Caring Emma",
+          "description": "[FIL]Compassionate healthcare voice"
+        }
+      },
+      "languages": {
+        "english": "[FIL]English",
+        "spanish": "[FIL]Spanish",
+        "french": "[FIL]French",
+        "german": "[FIL]German",
+        "chinese": "[FIL]Chinese"
+      },
+      "demoScripts": {
+        "professional": "[FIL]Hello, I'm Sarah, your AI business assistant. I can handle customer inquiries, schedule appointments, and provide detailed product information with precision and clarity.",
+        "friendly": "[FIL]Hi there! I'm Mike, and I'm here to make your experience amazing. Whether you need help with an order or just have a quick question, I'm happy to chat!",
+        "empathetic": "[FIL]Hello, I'm Emma. I understand that healthcare questions can be stressful, and I'm here to provide caring, accurate support whenever you need it."
+      },
+      "controls": {
+        "voicePersonality": "[FIL]Choose Voice Personality:",
+        "language": "[FIL]Language:",
+        "demoVoice": "[FIL]Demo Voice",
+        "tryVoiceInput": "[FIL]Try Voice Input"
+      },
+      "status": {
+        "listening": "[FIL]Listening...",
+        "speaking": "[FIL]Speaking...",
+        "ready": "[FIL]Ready",
+        "label": "[FIL]Status:"
+      },
+      "listeningResponse": "[FIL]I heard you! This is where I would respond to your voice input with contextual understanding.",
+      "avatarMoods": {
+        "neutral": "[FIL]neutral",
+        "speaking": "[FIL]speaking",
+        "listening": "[FIL]listening",
+        "thinking": "[FIL]thinking"
+      }
+    }
+  },
+  "voiceConversationFlow": {
+    "steps": {
+      "callConnected": {
+        "title": "[FIL]Call Connected",
+        "description": "[FIL]Customer connected with your business"
+      },
+      "listening": {
+        "title": "[FIL]AI Listening",
+        "description": "[FIL]Advanced speech recognition captures every word"
+      },
+      "processing": {
+        "title": "[FIL]AI Processing",
+        "description": "[FIL]Neural networks understand intent and context"
+      },
+      "responding": {
+        "title": "[FIL]AI Responding",
+        "description": "[FIL]Human-like voice delivers perfect response"
+      }
+    },
+    "conversationTypes": {
+      "appointmentBooking": "[FIL]Appointment Booking",
+      "orderSupport": "[FIL]Order Support",
+      "salesInquiry": "[FIL]Sales Inquiry"
+    },
+    "conversations": {
+      "appointmentBooking": {
+        "customer": "[FIL]Hi, I'd like to schedule an appointment for next Tuesday.",
+        "ai": "[FIL]I'd be happy to help you schedule an appointment. Let me check our availability for next Tuesday. What time would work best for you?"
+      },
+      "orderSupport": {
+        "customer": "[FIL]I'm having trouble with my recent order. It hasn't arrived yet.",
+        "ai": "[FIL]I understand your concern about your order. Let me look that up for you right away. Can you please provide your order number?"
+      },
+      "salesInquiry": {
+        "customer": "[FIL]Can you tell me about your pricing plans?",
+        "ai": "[FIL]Absolutely! We have several pricing options to fit different needs. Our basic plan starts at $29/month and includes all core features. Would you like me to explain the differences?"
+      }
+    },
+    "ui": {
+      "chooseConversationType": "[FIL]Choose Conversation Type:",
+      "autoProgressing": "[FIL]Auto-progressing through scenarios...",
+      "liveConversation": "[FIL]Live Conversation:",
+      "speaking": "[FIL]Speaking...",
+      "aiSpeaking": "[FIL]AI Speaking...",
+      "aiThinking": "[FIL]AI Thinking...",
+      "processingContext": "[FIL]Processing context",
+      "accuracyRate": "[FIL]Accuracy Rate"
+    }
+  },
+  "// Large Scale Campaigns Page - English key-value pairs": "",
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai[FIL] | Omni-Channel Contact Center for Small Businesses",
+      "description": "[FIL]Stop juggling apps. Unify every customer call, WhatsApp[FIL], and chat in one simple inbox. The all-in-one contact center built for small businesses.",
+      "keywords": "[FIL]omni-channel contact center, small business communication, unified inbox, customer service software, WhatsApp[FIL] business, voice calls, chat support"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice[FIL] | AI-Powered Voice Communication - Seasalt.ai",
+        "description": "[FIL]Transform your voice communications with AI. SeaVoice[FIL] offers intelligent call routing, voice analytics, and automated responses. Handle customer calls 24/7 with human-like AI agents.",
+        "keywords": "[FIL]AI voice, call center software, voice analytics, SeaVoice[FIL], intelligent call routing, automated phone system, voice assistant, 24/7 customer service"
+      },
+      "virtualAssistant": {
+        "title": "[FIL]24/7 Virtual Assistant | SeaVoice[FIL] AI Voice Solutions - Seasalt.ai",
+        "description": "[FIL]Provide round-the-clock customer service with SeaVoice[FIL] AI Virtual Assistant. Intelligent voice agents handle customer inquiries, appointment scheduling, and support requests, improving satisfaction while reducing costs.",
+        "keywords": "[FIL]virtual assistant, AI voice assistant, 24/7 customer service, intelligent customer service, SeaVoice[FIL], voice automation, customer service automation"
+      }
+    }
+  },
+  "// Key structure: seavoice": {
+    "pages": {
+      "solutions": {
+        "outbound": {
+          "largeScaleCampaigns": "",
+          "subscriptionRenewals": ""
+        }
+      }
+    }
+  },
+  "statsCounter": {
+    "section": {
+      "title": "[FIL]Trusted by businesses worldwide",
+      "subtitle": "[FIL]Our platform powers millions of conversations every day"
+    },
+    "stats": {
+      "messages": {
+        "label": "[FIL]Messages Sent",
+        "suffix": "[FIL]M+"
+      },
+      "calls": {
+        "label": "[FIL]Calls Made",
+        "suffix": "[FIL]K+"
+      },
+      "uptime": {
+        "label": "[FIL]System Uptime",
+        "suffix": "[FIL]%"
+      },
+      "countries": {
+        "label": "[FIL]Countries Served",
+        "suffix": "[FIL]+"
+      },
+      "roi": {
+        "label": "[FIL]ROI Increase",
+        "suffix": "[FIL]%"
+      }
+    },
+    "dashboard": {
+      "title": "SeaX[FIL] Dashboard",
+      "messagesSent": "[FIL]Messages Sent",
+      "deliveryRate": "[FIL]Delivery Rate",
+      "recentActivity": "[FIL]Recent Activity",
+      "demo": {
+        "messagesSent": "[FIL]2.4M",
+        "deliveryRate": "[FIL]85%"
+      }
+    },
+    "activity": {
+      "flashSale": {
+        "title": "[FIL]Flash Sale Campaign",
+        "detail": "[FIL]50,000 SMS[FIL] sent • 2 min ago"
+      },
+      "leadFollowup": {
+        "title": "[FIL]Lead Follow-up",
+        "detail": "[FIL]12,000 calls completed • 5 min ago"
+      },
+      "whatsapp": {
+        "title": "WhatsApp[FIL] Campaign",
+        "detail": "[FIL]25,000 messages queued • 8 min ago"
+      }
+    },
+    "status": {
+      "liveRunning": "[FIL]Live campaigns running",
+      "liveActivity": "[FIL]Live activity: Messages being sent right now"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "[FIL]0",
+      "smsMax": "[FIL]10k+",
+      "callsMax": "[FIL]5k+",
+      "voicemailMax": "[FIL]1k+",
+      "whatsappMax": "[FIL]10k+"
+    },
+    "breakdown": {
+      "localPlus": "[FIL]local +",
+      "tollFreeMinus": "[FIL]toll-free"
+    }
+  }
+}

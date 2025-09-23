@@ -1,0 +1,743 @@
+{
+  "seavoice": {
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "[FIL]Appointment Booking & Management",
+            "description": "[FIL]Automate appointment scheduling with AI that understands availability, preferences, and business rules. Reduce no-shows and streamline your booking process with intelligent voice interactions.",
+            "cta": "[FIL]Automate Appointment Booking"
+          },
+          "features": {
+            "title": "[FIL]Smart Appointment Management",
+            "subtitle": "[FIL]Comprehensive booking system that handles complex scheduling scenarios",
+            "intelligentScheduling": {
+              "title": "[FIL]Intelligent Scheduling",
+              "description": "[FIL]AI-powered appointment booking that understands availability and preferences.",
+              "benefit1": "[FIL]Real-time availability",
+              "benefit2": "[FIL]Smart conflict resolution",
+              "benefit3": "[FIL]Preference matching"
+            },
+            "automatedReminders": {
+              "title": "[FIL]Automated Reminders",
+              "description": "[FIL]Reduce no-shows with automated appointment reminders and confirmations.",
+              "benefit1": "SMS[FIL] & voice reminders",
+              "benefit2": "[FIL]Customizable timing",
+              "benefit3": "[FIL]Confirmation tracking"
+            },
+            "multiProviderSupport": {
+              "title": "[FIL]Multi-Provider Support",
+              "description": "[FIL]Manage appointments across multiple providers, locations, and services.",
+              "benefit1": "[FIL]Provider availability",
+              "benefit2": "[FIL]Location management",
+              "benefit3": "[FIL]Service categorization"
+            }
+          },
+          "capabilities": {
+            "title": "[FIL]Complete Booking Solution",
+            "subtitle": "[FIL]Handle every aspect of appointment management automatically",
+            "appointmentScheduling": {
+              "capability": "[FIL]Appointment Scheduling",
+              "description": "[FIL]Book new appointments based on availability and preferences",
+              "feature1": "[FIL]Available time slots",
+              "feature2": "[FIL]Provider selection",
+              "feature3": "[FIL]Service type matching"
+            },
+            "rescheduling": {
+              "capability": "[FIL]Rescheduling",
+              "description": "[FIL]Modify existing appointments with automatic conflict resolution",
+              "feature1": "[FIL]Conflict detection",
+              "feature2": "[FIL]Alternative suggestions",
+              "feature3": "[FIL]Automatic updates"
+            },
+            "cancellationManagement": {
+              "capability": "[FIL]Cancellation Management",
+              "description": "[FIL]Handle cancellations and waitlist management efficiently",
+              "feature1": "[FIL]Cancellation policies",
+              "feature2": "[FIL]Waitlist automation",
+              "feature3": "[FIL]Refund processing"
+            },
+            "reminderSystem": {
+              "capability": "[FIL]Reminder System",
+              "description": "[FIL]Automated reminders to reduce no-shows and improve attendance",
+              "feature1": "[FIL]Multi-channel reminders",
+              "feature2": "[FIL]Customizable timing",
+              "feature3": "[FIL]Confirmation requests"
+            }
+          },
+          "industries": {
+            "title": "[FIL]Industry Applications",
+            "subtitle": "[FIL]Tailored booking solutions for different industries and use cases",
+            "healthcare": {
+              "industry": "[FIL]Healthcare",
+              "description": "[FIL]Medical appointments, consultations, and procedures",
+              "benefit1": "[FIL]Patient scheduling",
+              "benefit2": "[FIL]Provider coordination",
+              "benefit3": "[FIL]Insurance verification"
+            },
+            "beautyWellness": {
+              "industry": "[FIL]Beauty & Wellness",
+              "description": "[FIL]Salon appointments, spa services, and wellness sessions",
+              "benefit1": "[FIL]Service duration tracking",
+              "benefit2": "[FIL]Stylist preferences",
+              "benefit3": "[FIL]Package bookings"
+            },
+            "professionalServices": {
+              "industry": "[FIL]Professional Services",
+              "description": "[FIL]Consultations, meetings, and service appointments",
+              "benefit1": "[FIL]Meeting room booking",
+              "benefit2": "[FIL]Consultant availability",
+              "benefit3": "[FIL]Client preferences"
+            }
+          },
+          "reminderSection": {
+            "title": "[FIL]Automated Reminder System",
+            "description": "[FIL]Significantly reduce no-shows with intelligent reminder campaigns that reach customers through their preferred communication channels at optimal times.",
+            "multiChannelReminders": {
+              "title": "[FIL]Multi-Channel Reminders",
+              "description": "[FIL]Voice calls, SMS[FIL], and email reminders"
+            },
+            "optimalTiming": {
+              "title": "[FIL]Optimal Timing",
+              "description": "[FIL]AI determines best times to send reminders"
+            },
+            "performanceTracking": {
+              "title": "[FIL]Performance Tracking",
+              "description": "[FIL]Monitor reminder effectiveness and optimize"
+            },
+            "reminderTimeline": {
+              "title": "[FIL]Reminder Timeline"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "[FIL]Initial Confirmation",
+                "description": "[FIL]Appointment confirmation and details"
+              },
+              "dayBefore": {
+                "title": "[FIL]Day Before Reminder",
+                "description": "[FIL]Final reminder with preparation instructions"
+              },
+              "lastMinute": {
+                "title": "[FIL]Last Minute Check",
+                "description": "[FIL]Final confirmation and directions"
+              },
+              "sevenDays": "[FIL]7d",
+              "oneDay": "[FIL]1d",
+              "twoHours": "[FIL]2h"
+            }
+          },
+          "benefits": {
+            "title": "[FIL]Booking Performance Results",
+            "subtitle": "[FIL]Measurable improvements in appointment management efficiency",
+            "noShowReduction": {
+              "metric": "[FIL]40%",
+              "description": "[FIL]Reduction in no-show rates"
+            },
+            "availabilityWindow": {
+              "metric": "[FIL]24/7",
+              "description": "[FIL]Booking availability"
+            },
+            "bookingAccuracy": {
+              "metric": "[FIL]85%",
+              "description": "[FIL]Booking accuracy rate"
+            },
+            "workloadReduction": {
+              "metric": "[FIL]60%",
+              "description": "[FIL]Reduction in admin workload"
+            }
+          },
+          "cta": {
+            "title": "[FIL]Ready to Automate Appointment Booking?",
+            "description": "[FIL]Streamline scheduling and reduce no-shows with intelligent appointment management",
+            "startFreeTrial": "[FIL]Start Free Trial",
+            "scheduleDemo": "[FIL]Schedule Demo"
+          }
+        },
+        "mentalHealth": {
+          "hero": {
+            "title": "[FIL]Mental Health Voice Companion",
+            "description": "[FIL]Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
+            "cta": "[FIL]Learn About Mental Health AI"
+          },
+          "features": {
+            "title": "[FIL]Compassionate AI Support",
+            "description": "[FIL]Advanced AI trained in mental health support and crisis intervention",
+            "empathetic": {
+              "title": "[FIL]Empathetic AI Companion",
+              "description": "[FIL]Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
+              "benefits": {
+                "activeListening": "[FIL]Active listening",
+                "emotionalValidation": "[FIL]Emotional validation",
+                "crisisRecognition": "[FIL]Crisis recognition"
+              }
+            },
+            "safe": {
+              "title": "[FIL]Safe & Confidential",
+              "description": "HIPAA[FIL]-compliant platform ensuring complete privacy and confidentiality for all interactions.",
+              "benefits": {
+                "hipaaCompliance": "HIPAA[FIL] compliance",
+                "encryptedConversations": "[FIL]Encrypted conversations",
+                "anonymousOptions": "[FIL]Anonymous options"
+              }
+            },
+            "availability": {
+              "title": "[FIL]24/7 Availability",
+              "description": "[FIL]Always available when someone needs to talk, providing immediate support during crisis moments.",
+              "benefits": {
+                "roundTheClockAccess": "[FIL]Round-the-clock access",
+                "immediateResponse": "[FIL]Immediate response",
+                "noWaitTimes": "[FIL]No wait times"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "[FIL]Mental Health Support Capabilities",
+            "description": "[FIL]Comprehensive support across the mental health care spectrum",
+            "screening": {
+              "title": "[FIL]Initial Mental Health Screening",
+              "description": "[FIL]Conduct preliminary assessments using validated screening tools",
+              "outcomes": {
+                "earlyIdentification": "[FIL]Early identification",
+                "riskAssessment": "[FIL]Risk assessment",
+                "appropriateReferrals": "[FIL]Appropriate referrals"
+              }
+            },
+            "crisis": {
+              "title": "[FIL]Crisis Intervention",
+              "description": "[FIL]Recognize crisis situations and provide immediate support or escalation",
+              "outcomes": {
+                "crisisDetection": "[FIL]Crisis detection",
+                "deEscalationTechniques": "[FIL]De-escalation techniques",
+                "emergencyProtocols": "[FIL]Emergency protocols"
+              }
+            },
+            "navigation": {
+              "title": "[FIL]Resource Navigation",
+              "description": "[FIL]Guide users to appropriate mental health resources and services",
+              "outcomes": {
+                "serviceMatching": "[FIL]Service matching",
+                "appointmentScheduling": "[FIL]Appointment scheduling",
+                "followUpSupport": "[FIL]Follow-up support"
+              }
+            },
+            "emotional": {
+              "title": "[FIL]Emotional Support",
+              "description": "[FIL]Provide compassionate listening and emotional validation",
+              "outcomes": {
+                "reducedIsolation": "[FIL]Reduced isolation",
+                "emotionalRelief": "[FIL]Emotional relief",
+                "copingStrategies": "[FIL]Coping strategies"
+              }
+            }
+          },
+          "safety": {
+            "title": "[FIL]Safety-First Design",
+            "description": "[FIL]Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+            "features": {
+              "title": "[FIL]Safety Features"
+            },
+            "crisisDetection": {
+              "title": "[FIL]Crisis Detection",
+              "description": "[FIL]Advanced algorithms identify crisis situations"
+            },
+            "professionalHandoff": {
+              "title": "[FIL]Professional Handoff",
+              "description": "[FIL]Seamless transfer to human mental health professionals"
+            },
+            "emergencyProtocols": {
+              "title": "[FIL]Emergency Protocols",
+              "description": "[FIL]Immediate connection to crisis hotlines when needed"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "[FIL]Crisis keyword detection",
+            "suicideRiskAssessment": "[FIL]Suicide risk assessment",
+            "automaticEscalationProtocols": "[FIL]Automatic escalation protocols",
+            "emergencyContactIntegration": "[FIL]Emergency contact integration",
+            "professionalHandoffProcedures": "[FIL]Professional handoff procedures",
+            "followUpScheduling": "[FIL]Follow-up scheduling"
+          },
+          "benefits": {
+            "title": "[FIL]Mental Health Impact",
+            "description": "[FIL]Measurable improvements in mental health support accessibility",
+            "alwaysAvailableSupport": "[FIL]Always available support",
+            "crisisEscalationReduction": "[FIL]Reduction in crisis escalation",
+            "userSatisfactionRate": "[FIL]User satisfaction rate",
+            "helpSeekingBehaviorIncrease": "[FIL]Increase in help-seeking behavior"
+          },
+          "cta": {
+            "title": "[FIL]Ready to Support Mental Health?",
+            "description": "[FIL]Provide compassionate, 24/7 mental health support with AI that truly cares",
+            "learnMore": "[FIL]Learn More",
+            "contactSpecialists": "[FIL]Contact Specialists"
+          }
+        },
+        "callTransfer": {
+          "hero": {
+            "title": "[FIL]Smart Call Transfer During Business Hours",
+            "description": "[FIL]Revolutionize your call routing with AI-powered intelligent transfer that understands caller intent and connects them to the right person instantly, reducing wait times and improving customer satisfaction.",
+            "primaryCta": "[FIL]Optimize Your Call Routing"
+          },
+          "features": {
+            "title": "[FIL]Intelligent Call Routing Features",
+            "description": "[FIL]Advanced AI technology that understands and routes calls with precision",
+            "intelligentRouting": {
+              "title": "[FIL]Intelligent Routing",
+              "description": "[FIL]AI analyzes caller intent and routes to the most appropriate department or agent.",
+              "benefits": {
+                "0": "[FIL]Intent recognition",
+                "1": "[FIL]Skill-based routing",
+                "2": "[FIL]Priority handling"
+              }
+            },
+            "agentOptimization": {
+              "title": "[FIL]Agent Optimization",
+              "description": "[FIL]Balance workload across agents and ensure calls reach available specialists.",
+              "benefits": {
+                "0": "[FIL]Load balancing",
+                "1": "[FIL]Availability checking",
+                "2": "[FIL]Expertise matching"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "[FIL]Reduced Wait Times",
+              "description": "[FIL]Minimize customer wait times with efficient routing and queue management.",
+              "benefits": {
+                "0": "[FIL]Queue optimization",
+                "1": "[FIL]Callback options",
+                "2": "[FIL]Real-time updates"
+              }
+            }
+          },
+          "routing": {
+            "title": "[FIL]Smart Routing in Action",
+            "description": "[FIL]See how our AI identifies intent and routes calls for optimal outcomes"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "[FIL]Billing Inquiry",
+              "action": "[FIL]Route to Billing Department",
+              "result": "[FIL]90% first-call resolution"
+            },
+            "technicalSupport": {
+              "trigger": "[FIL]Technical Support",
+              "action": "[FIL]Route to Technical Team",
+              "result": "[FIL]85% issue resolution"
+            },
+            "salesInterest": {
+              "trigger": "[FIL]Sales Interest",
+              "action": "[FIL]Route to Sales Team",
+              "result": "[FIL]40% conversion rate"
+            },
+            "vipCustomer": {
+              "trigger": "[FIL]VIP Customer",
+              "action": "[FIL]Priority Queue",
+              "result": "[FIL]< 30 second wait time"
+            }
+          },
+          "benefits": {
+            "title": "[FIL]Measurable Impact",
+            "description": "[FIL]Real results from implementing intelligent call transfer"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "[FIL]Reduction in average wait time"
+            },
+            "resolution": {
+              "description": "[FIL]First-call resolution rate"
+            },
+            "efficiency": {
+              "description": "[FIL]Improvement in agent efficiency"
+            },
+            "accuracy": {
+              "description": "[FIL]Accurate routing to correct department"
+            }
+          },
+          "cta": {
+            "title": "[FIL]Ready to Optimize Your Call Routing?",
+            "description": "[FIL]Reduce wait times and improve customer satisfaction with intelligent call transfer",
+            "primaryButton": "[FIL]Start Free Trial",
+            "secondaryButton": "[FIL]See Demo"
+          }
+        },
+        "scamShield": {
+          "hero": {
+            "title": "[FIL]Scam Shield Protection",
+            "subtitle": "[FIL]Protect your customers from phone scams and fraudulent calls with AI-powered detection that identifies and blocks threats in real-time, keeping your community safe from financial fraud.",
+            "cta": "[FIL]Activate Scam Protection"
+          },
+          "features": {
+            "title": "[FIL]Advanced Scam Detection",
+            "subtitle": "[FIL]Multi-layered protection against evolving fraud tactics",
+            "realTimeDetection": {
+              "title": "[FIL]Real-Time Scam Detection",
+              "description": "[FIL]Advanced AI algorithms identify and block fraudulent calls before they reach your customers.",
+              "benefit1": "[FIL]Pattern recognition",
+              "benefit2": "[FIL]Behavioral analysis",
+              "benefit3": "[FIL]Instant blocking"
+            },
+            "threatIntelligence": {
+              "title": "[FIL]Threat Intelligence",
+              "description": "[FIL]Continuously updated database of known scam patterns and fraudulent phone numbers.",
+              "benefit1": "[FIL]Global threat data",
+              "benefit2": "[FIL]Real-time updates",
+              "benefit3": "[FIL]Machine learning"
+            },
+            "customerProtection": {
+              "title": "[FIL]Customer Protection",
+              "description": "[FIL]Proactively protect customers from financial fraud and identity theft attempts.",
+              "benefit1": "[FIL]Fraud prevention",
+              "benefit2": "[FIL]Identity protection",
+              "benefit3": "[FIL]Financial security"
+            }
+          },
+          "scamTypes": {
+            "title": "[FIL]Protected Against All Scam Types",
+            "subtitle": "[FIL]Comprehensive protection against the most common fraud tactics",
+            "phishing": {
+              "type": "[FIL]Phishing Calls",
+              "description": "[FIL]Attempts to steal personal information or login credentials",
+              "detection": "[FIL]Voice pattern analysis and keyword detection",
+              "action": "[FIL]Immediate call termination and customer alert"
+            },
+            "techSupport": {
+              "type": "[FIL]Tech Support Scams",
+              "description": "[FIL]Fake technical support claiming computer problems",
+              "detection": "[FIL]Script pattern recognition and caller ID verification",
+              "action": "[FIL]Block call and provide legitimate support contact"
+            },
+            "financialFraud": {
+              "type": "[FIL]Financial Fraud",
+              "description": "[FIL]Impersonating banks or financial institutions",
+              "detection": "[FIL]Institution verification and voice authentication",
+              "action": "[FIL]Terminate call and notify real financial institution"
+            },
+            "romance": {
+              "type": "[FIL]Romance Scams",
+              "description": "[FIL]Building fake relationships to extract money",
+              "detection": "[FIL]Conversation pattern analysis and emotional manipulation detection",
+              "action": "[FIL]Warning alerts and resource provision"
+            },
+            "detectionMethod": "[FIL]Detection Method:",
+            "protectionAction": "[FIL]Protection Action:",
+            "detectionMethodLabel": "[FIL]Detection Method",
+            "protectionActionLabel": "[FIL]Protection Action"
+          },
+          "protection": {
+            "title": "[FIL]Multi-Layer Protection System",
+            "subtitle": "[FIL]Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "realTimeAnalysis": {
+              "title": "[FIL]Real-Time Analysis",
+              "description": "[FIL]Instant evaluation of every incoming call"
+            },
+            "continuousLearning": {
+              "title": "[FIL]Continuous Learning",
+              "description": "[FIL]AI improves detection with every blocked scam"
+            },
+            "zeroFalsePositives": {
+              "title": "[FIL]Zero False Positives",
+              "description": "[FIL]Legitimate calls are never blocked"
+            },
+            "layersTitle": "[FIL]Protection Layers",
+            "layer1": "[FIL]Caller ID verification",
+            "layer2": "[FIL]Voice pattern analysis",
+            "layer3": "[FIL]Script detection algorithms",
+            "layer4": "[FIL]Behavioral anomaly detection",
+            "layer5": "[FIL]Real-time threat intelligence",
+            "layer6": "[FIL]Customer education alerts"
+          },
+          "benefits": {
+            "title": "[FIL]Protection Results",
+            "subtitle": "[FIL]Proven effectiveness in stopping fraud and protecting customers",
+            "accuracy": {
+              "metric": "[FIL]95%",
+              "description": "[FIL]Scam call detection accuracy"
+            },
+            "reduction": {
+              "metric": "[FIL]80%",
+              "description": "[FIL]Reduction in successful fraud attempts"
+            },
+            "coverage": {
+              "metric": "[FIL]24/7",
+              "description": "[FIL]Continuous protection coverage"
+            },
+            "preservation": {
+              "metric": "[FIL]99.9%",
+              "description": "[FIL]Legitimate call preservation rate"
+            }
+          },
+          "cta": {
+            "title": "[FIL]Ready to Protect Your Customers?",
+            "subtitle": "[FIL]Stop scammers in their tracks with AI-powered fraud detection and protection",
+            "activateProtection": "[FIL]Activate Protection",
+            "learnMore": "[FIL]Learn More",
+            "primaryButton": "[FIL]Activate Protection",
+            "secondaryButton": "[FIL]Learn More"
+          },
+          "protectionSystem": {
+            "title": "[FIL]Multi-Layer Protection System",
+            "subtitle": "[FIL]Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "realTimeAnalysis": {
+              "title": "[FIL]Real-Time Analysis",
+              "description": "[FIL]Instant evaluation of every incoming call"
+            },
+            "continuousLearning": {
+              "title": "[FIL]Continuous Learning",
+              "description": "[FIL]AI improves detection with every blocked scam"
+            },
+            "zeroFalsePositives": {
+              "title": "[FIL]Zero False Positives",
+              "description": "[FIL]Legitimate calls are never blocked"
+            }
+          },
+          "results": {
+            "title": "[FIL]Protection Results",
+            "subtitle": "[FIL]Proven effectiveness in stopping fraud and protecting customers"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "[FIL]Secure Payment Processing",
+            "description": "[FIL]Enable secure, PCI-compliant payment processing through voice interactions. Let customers make payments safely over the phone with advanced fraud protection and instant transaction processing.",
+            "cta": "[FIL]Enable Secure Payments"
+          },
+          "features": {
+            "title": "[FIL]Secure Voice Payment Features",
+            "subtitle": "[FIL]Enterprise-grade security meets seamless customer experience",
+            "securePayment": {
+              "title": "[FIL]Secure Payment Processing",
+              "description": "[FIL]Process payments safely over the phone with PCI-compliant voice technology.",
+              "benefit1": "[FIL]PCI DSS compliance",
+              "benefit2": "[FIL]Encrypted transactions",
+              "benefit3": "[FIL]Multiple payment methods"
+            },
+            "fraudProtection": {
+              "title": "[FIL]Fraud Protection",
+              "description": "[FIL]Advanced fraud detection and prevention to protect both business and customers.",
+              "benefit1": "[FIL]Real-time fraud detection",
+              "benefit2": "[FIL]Risk assessment",
+              "benefit3": "[FIL]Secure authentication"
+            },
+            "instantProcessing": {
+              "title": "[FIL]Instant Processing",
+              "description": "[FIL]Process payments immediately with real-time authorization and confirmation.",
+              "benefit1": "[FIL]Real-time authorization",
+              "benefit2": "[FIL]Instant confirmation",
+              "benefit3": "[FIL]Immediate receipts"
+            }
+          },
+          "paymentMethods": {
+            "title": "[FIL]Comprehensive Payment Options",
+            "subtitle": "[FIL]Accept all major payment methods with secure voice processing",
+            "creditCards": {
+              "method": "[FIL]Credit Cards",
+              "description": "[FIL]Accept all major credit cards with secure voice processing",
+              "feature1": "[FIL]Visa, Mastercard, Amex",
+              "feature2": "[FIL]CVV verification",
+              "feature3": "[FIL]Expiry validation"
+            },
+            "debitCards": {
+              "method": "[FIL]Debit Cards",
+              "description": "[FIL]Process debit card payments with PIN verification",
+              "feature1": "[FIL]PIN entry via voice",
+              "feature2": "[FIL]Bank verification",
+              "feature3": "[FIL]Instant deduction"
+            },
+            "bankTransfers": {
+              "method": "[FIL]Bank Transfers",
+              "description": "[FIL]Direct bank account transfers and ACH payments",
+              "feature1": "[FIL]Account verification",
+              "feature2": "[FIL]Routing number validation",
+              "feature3": "[FIL]ACH processing"
+            },
+            "digitalWallets": {
+              "method": "[FIL]Digital Wallets",
+              "description": "[FIL]Support for popular digital payment platforms",
+              "feature1": "[FIL]Apple Pay",
+              "feature2": "[FIL]Google Pay",
+              "feature3": "[FIL]PayPal integration"
+            }
+          },
+          "security": {
+            "title": "[FIL]Bank-Level Security",
+            "description": "[FIL]Our payment processing system meets the highest security standards in the industry, ensuring that every transaction is protected with multiple layers of encryption and fraud prevention.",
+            "endToEndEncryption": {
+              "title": "[FIL]End-to-End Encryption",
+              "description": "[FIL]All payment data encrypted in transit and at rest"
+            },
+            "pciCompliance": {
+              "title": "[FIL]PCI DSS Compliance",
+              "description": "[FIL]Level 1 PCI DSS certified infrastructure"
+            },
+            "realTimeMonitoring": {
+              "title": "[FIL]Real-Time Monitoring",
+              "description": "[FIL]Continuous fraud detection and prevention"
+            },
+            "featuresTitle": "[FIL]Security Features",
+            "feature1": "[FIL]End-to-end encryption",
+            "feature2": "[FIL]PCI DSS Level 1 compliance",
+            "feature3": "[FIL]Tokenization of card data",
+            "feature4": "[FIL]Multi-factor authentication",
+            "feature5": "[FIL]Real-time fraud monitoring",
+            "feature6": "[FIL]Secure voice recognition"
+          },
+          "benefits": {
+            "title": "[FIL]Payment Processing Performance",
+            "subtitle": "[FIL]Industry-leading reliability and security metrics",
+            "uptime": {
+              "metric": "[FIL]99.9%",
+              "description": "[FIL]Payment processing uptime"
+            },
+            "transactionTime": {
+              "metric": "[FIL]< 3s",
+              "description": "[FIL]Average transaction time"
+            },
+            "compliance": {
+              "metric": "[FIL]100%",
+              "description": "[FIL]PCI DSS compliance"
+            },
+            "fraudRate": {
+              "metric": "[FIL]0.1%",
+              "description": "[FIL]Fraud rate with AI protection"
+            }
+          },
+          "cta": {
+            "title": "[FIL]Ready for Secure Voice Payments?",
+            "subtitle": "[FIL]Enable PCI-compliant payment processing with advanced fraud protection",
+            "primaryButton": "[FIL]Start Secure Processing",
+            "secondaryButton": "[FIL]Security Overview"
+          }
+        }
+      },
+      "mentalHealth": {
+        "hero": {
+          "title": "[FIL]Mental Health Voice Companion",
+          "subtitle": "[FIL]Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
+          "cta": "[FIL]Learn About Mental Health AI"
+        },
+        "features": {
+          "title": "[FIL]Compassionate AI Support",
+          "subtitle": "[FIL]Advanced AI trained in mental health support and crisis intervention",
+          "empathetic": {
+            "title": "[FIL]Empathetic AI Companion",
+            "description": "[FIL]Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
+            "benefits": {
+              "activeListing": "[FIL]Active listening",
+              "emotionalValidation": "[FIL]Emotional validation",
+              "crisisRecognition": "[FIL]Crisis recognition"
+            }
+          },
+          "safe": {
+            "title": "[FIL]Safe & Confidential",
+            "description": "HIPAA[FIL]-compliant platform ensuring complete privacy and confidentiality for all interactions.",
+            "benefits": {
+              "hipaaCompliance": "HIPAA[FIL] compliance",
+              "encryptedConversations": "[FIL]Encrypted conversations",
+              "anonymousOptions": "[FIL]Anonymous options"
+            }
+          },
+          "available": {
+            "title": "[FIL]24/7 Availability",
+            "description": "[FIL]Always available when someone needs to talk, providing immediate support during crisis moments.",
+            "benefits": {
+              "roundTheClockAccess": "[FIL]Round-the-clock access",
+              "immediateResponse": "[FIL]Immediate response",
+              "noWaitTimes": "[FIL]No wait times"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "[FIL]Mental Health Support Capabilities",
+          "subtitle": "[FIL]Comprehensive support across the mental health care spectrum",
+          "screening": {
+            "title": "[FIL]Initial Mental Health Screening",
+            "description": "[FIL]Conduct preliminary assessments using validated screening tools",
+            "outcomes": {
+              "earlyIdentification": "[FIL]Early identification",
+              "riskAssessment": "[FIL]Risk assessment",
+              "appropriateReferrals": "[FIL]Appropriate referrals"
+            }
+          },
+          "crisis": {
+            "title": "[FIL]Crisis Intervention",
+            "description": "[FIL]Recognize crisis situations and provide immediate support or escalation",
+            "outcomes": {
+              "crisisDetection": "[FIL]Crisis detection",
+              "deEscalationTechniques": "[FIL]De-escalation techniques",
+              "emergencyProtocols": "[FIL]Emergency protocols"
+            }
+          },
+          "navigation": {
+            "title": "[FIL]Resource Navigation",
+            "description": "[FIL]Guide users to appropriate mental health resources and services",
+            "outcomes": {
+              "serviceMatching": "[FIL]Service matching",
+              "appointmentScheduling": "[FIL]Appointment scheduling",
+              "followUpSupport": "[FIL]Follow-up support"
+            }
+          },
+          "emotional": {
+            "title": "[FIL]Emotional Support",
+            "description": "[FIL]Provide compassionate listening and emotional validation",
+            "outcomes": {
+              "reducedIsolation": "[FIL]Reduced isolation",
+              "emotionalRelief": "[FIL]Emotional relief",
+              "copingStrategies": "[FIL]Coping strategies"
+            }
+          }
+        },
+        "safety": {
+          "title": "[FIL]Safety-First Design",
+          "description": "[FIL]Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+          "crisisDetection": {
+            "title": "[FIL]Crisis Detection",
+            "description": "[FIL]Advanced algorithms identify crisis situations"
+          },
+          "professionalHandoff": {
+            "title": "[FIL]Professional Handoff",
+            "description": "[FIL]Seamless transfer to human mental health professionals"
+          },
+          "emergencyProtocols": {
+            "title": "[FIL]Emergency Protocols",
+            "description": "[FIL]Immediate connection to crisis hotlines when needed"
+          },
+          "features": {
+            "title": "[FIL]Safety Features",
+            "crisisKeywordDetection": "[FIL]Crisis keyword detection",
+            "suicideRiskAssessment": "[FIL]Suicide risk assessment",
+            "automaticEscalationProtocols": "[FIL]Automatic escalation protocols",
+            "emergencyContactIntegration": "[FIL]Emergency contact integration",
+            "professionalHandoffProcedures": "[FIL]Professional handoff procedures",
+            "followUpScheduling": "[FIL]Follow-up scheduling"
+          }
+        },
+        "impact": {
+          "title": "[FIL]Mental Health Impact",
+          "subtitle": "[FIL]Measurable improvements in mental health support accessibility",
+          "availability": {
+            "metric": "[FIL]24/7",
+            "description": "[FIL]Always available support"
+          },
+          "crisisReduction": {
+            "metric": "[FIL]60%",
+            "description": "[FIL]Reduction in crisis escalation"
+          },
+          "satisfaction": {
+            "metric": "[FIL]85%",
+            "description": "[FIL]User satisfaction rate"
+          },
+          "helpSeeking": {
+            "metric": "[FIL]40%",
+            "description": "[FIL]Increase in help-seeking behavior"
+          }
+        },
+        "cta": {
+          "title": "[FIL]Ready to Support Mental Health?",
+          "subtitle": "[FIL]Provide compassionate, 24/7 mental health support with AI that truly cares",
+          "learnMore": "[FIL]Learn More",
+          "contactSpecialists": "[FIL]Contact Specialists"
+        }
+      }
+    }
+  }
+}

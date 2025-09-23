@@ -1,0 +1,1868 @@
+{
+  "seavoice": {
+    "header": {
+      "navigation": {
+        "platform": {
+          "title": "[FIL]Platform",
+          "overview": "[FIL]Platform Overview",
+          "landlineMobile": "[FIL]Landline & Mobile Voice",
+          "voipSipByoc": "[FIL]VoIP & SIP & BYOC Voice",
+          "lineCallPlus": "[FIL]Line Call Plus for Businesses",
+          "whatsAppVoice": "WhatsApp[FIL] Voice API for Businesses",
+          "speechToText": "[FIL]Speech To Text",
+          "textToSpeech": "[FIL]Text To Speech",
+          "endToEndLlms": "[FIL]End To End LLMs"
+        },
+        "inboundSolutions": {
+          "title": "[FIL]Inbound Solutions",
+          "virtualAssistant": "[FIL]24/7 Virtual Assistant",
+          "callTransfer": "[FIL]Smart Call Transfer",
+          "ivrReplacement": "[FIL]IVR Replacement",
+          "mentalHealth": "[FIL]Mental Health Companion",
+          "scamShield": "[FIL]Scam Shield Protection",
+          "technicalSupport": "[FIL]Technical Support",
+          "orderTracking": "[FIL]Order Status & Tracking",
+          "paymentProcessing": "[FIL]Payment Processing",
+          "appointmentBooking": "[FIL]Appointment Booking"
+        },
+        "outboundSolutions": {
+          "title": "[FIL]Outbound Solutions",
+          "leadGeneration": "[FIL]Lead Generation & Qualification",
+          "collections": "[FIL]Collections Service",
+          "reactivation": "[FIL]Customer Reactivation",
+          "seniorChecks": "[FIL]Senior Check Calls",
+          "campaigns": "[FIL]Large Scale Campaigns",
+          "proactiveSupport": "[FIL]Proactive Support",
+          "renewals": "[FIL]Subscription Renewals",
+          "surveys": "[FIL]Customer Surveys",
+          "fraudAlerts": "[FIL]Fraud Alerts"
+        },
+        "pricing": "[FIL]Pricing"
+      },
+      "auth": {
+        "signIn": "[FIL]Sign In",
+        "getStarted": "[FIL]Get Started"
+      },
+      "backToMainSite": "[FIL]Back to Main Site"
+    },
+    "home": {
+      "hero": {
+        "tagline": "[FIL]Your Business Never Sleeps",
+        "title": {
+          "line1": "[FIL]AI Voice Agents",
+          "line2": "[FIL]Handle Calls 24/7"
+        },
+        "subtitle": {
+          "line1": "[FIL]Transform customer interactions with human-like AI that never sleeps.",
+          "line2": "[FIL]Automate support, bookings, and outbound call with scale."
+        },
+        "bookDemo": "[FIL]Book a Demo",
+        "signUp": "[FIL]Sign Up Now"
+      },
+      "voiceDemo": {
+        "title": "[FIL]Try Our Voice Technology",
+        "subtitle": "[FIL]Listen to real examples of SeaVoice[FIL] in action and experience the future of AI-powered conversations"
+      },
+      "conversationFlow": {
+        "step1": {
+          "title": "[FIL]Customer Calls",
+          "description": "[FIL]Caller dials your business number"
+        },
+        "step2": {
+          "title": "[FIL]AI Agent Answers",
+          "description": "SeaVoice[FIL] AI picks up instantly"
+        },
+        "step3": {
+          "title": "[FIL]Natural Conversation",
+          "description": "[FIL]Human-like voice interaction"
+        },
+        "step4": {
+          "title": "[FIL]Task Completion",
+          "description": "[FIL]Booking, support, or transfer"
+        }
+      },
+      "conversationExamples": {
+        "appointment": {
+          "customer": "[FIL]Hi, I'd like to book an appointment for next week.",
+          "ai": "[FIL]I'd be happy to help you schedule an appointment! Let me check our availability for next week. What type of service are you looking for?",
+          "scenario": "[FIL]Appointment booking"
+        },
+        "support": {
+          "customer": "[FIL]I'm having trouble with my recent order. Can you help?",
+          "ai": "[FIL]Of course! I'm here to help with your order. Can you please provide your order number so I can look up the details for you?",
+          "scenario": "[FIL]Customer support"
+        },
+        "inquiry": {
+          "customer": "[FIL]What are your business hours?",
+          "ai": "[FIL]We're open Monday through Friday from 9 AM to 6 PM, and Saturday from 10 AM to 4 PM. We're closed on Sundays. Is there anything specific you'd like to know about our services?",
+          "scenario": "[FIL]General inquiry"
+        }
+      },
+      "useCases": {
+        "title": {
+          "line1": "[FIL]Transform Your Business with",
+          "line2": "[FIL]Successful Use Cases"
+        },
+        "subtitle": "[FIL]Discover how industry leaders leverage SeaVoice[FIL] AI to revolutionize customer interactions and drive growth",
+        "badge": "[FIL]Proven Success Stories",
+        "inbound": {
+          "category": "[FIL]Inbound Solutions",
+          "appointmentBooking": {
+            "title": "[FIL]Appointment Booking & Management",
+            "description": "[FIL]Automate appointment scheduling with AI that understands availability, preferences, and business rules."
+          },
+          "technicalSupport": {
+            "title": "[FIL]Technical Support Automation",
+            "description": "[FIL]Provide instant technical support with AI that can diagnose problems and guide customers through solutions."
+          },
+          "virtualAssistant": {
+            "title": "[FIL]Virtual Assistant",
+            "description": "[FIL]Handle general inquiries, provide information, and route calls intelligently."
+          },
+          "callTransfer": {
+            "title": "[FIL]Call Transfer & Routing",
+            "description": "[FIL]Intelligently route calls to the right department or agent based on caller needs."
+          },
+          "orderTracking": {
+            "title": "[FIL]Order Tracking & Support",
+            "description": "[FIL]Allow customers to check order status, track shipments, and get delivery updates."
+          },
+          "paymentProcessing": {
+            "title": "[FIL]Payment Processing",
+            "description": "[FIL]Securely process payments, handle billing inquiries, and manage account information."
+          },
+          "ivrReplacement": {
+            "title": "[FIL]IVR Replacement",
+            "description": "[FIL]Replace traditional menus with natural language understanding for a smoother experience."
+          },
+          "mentalHealth": {
+            "title": "[FIL]Mental Health Support",
+            "description": "[FIL]Provide empathetic AI-driven mental health support around the clock."
+          },
+          "scamShield": {
+            "title": "[FIL]Scam Shield Protection",
+            "description": "[FIL]Protect your users from scams with real-time detection and blocking."
+          },
+          "type": "[FIL]Inbound"
+        },
+        "outbound": {
+          "category": "[FIL]Outbound Solutions",
+          "leadGeneration": {
+            "title": "[FIL]Lead Generation & Qualification",
+            "description": "[FIL]Transform your sales pipeline with AI-powered lead generation that identifies and qualifies prospects."
+          },
+          "seniorChecks": {
+            "title": "[FIL]Senior Check Calls & Wellness",
+            "description": "[FIL]Regular AI-powered wellness checks for seniors with compassionate conversations that monitor health."
+          },
+          "surveys": {
+            "title": "[FIL]Customer Surveys & Feedback",
+            "description": "[FIL]Conduct post-purchase surveys and collect valuable customer feedback automatically."
+          },
+          "collections": {
+            "title": "[FIL]Collections & Payment Reminders",
+            "description": "[FIL]Respectful and effective collection calls that improve payment rates while maintaining relationships."
+          },
+          "reactivation": {
+            "title": "[FIL]Customer Reactivation",
+            "description": "[FIL]Re-engage dormant customers with personalized outreach campaigns."
+          },
+          "fraudAlerts": {
+            "title": "[FIL]Fraud Alerts & Verification",
+            "description": "[FIL]Notify customers about suspicious transactions and verify their identity for security."
+          },
+          "campaigns": {
+            "title": "[FIL]Large Scale Campaigns",
+            "description": "[FIL]Execute massive voice campaigns to reach thousands of customers globally."
+          },
+          "proactiveSupport": {
+            "title": "[FIL]Proactive Customer Support",
+            "description": "[FIL]Keep customers informed proactively with intelligent notifications."
+          },
+          "renewals": {
+            "title": "[FIL]Subscription Renewals",
+            "description": "[FIL]Automate renewals with reminders and seamless payment processing."
+          },
+          "type": "[FIL]Outbound"
+        },
+        "types": {
+          "inbound": "[FIL]Inbound",
+          "outbound": "[FIL]Outbound"
+        }
+      },
+      "howItWorks": {
+        "title": {
+          "prefix": "",
+          "highlight": "[FIL]Get Started in ",
+          "suffix": "[FIL]5 Easy Steps"
+        },
+        "subtitle": "[FIL]From setup to go-live in under 20 minutes. Our streamlined process gets your AI voice agent ready to handle calls immediately.",
+        "badge": "[FIL]Simple Setup Process",
+        "step1": {
+          "title": "[FIL]Train Your Voice Agent",
+          "description": "[FIL]Customize your voice, scripts, and responses in minutes. Our AI learns from your website and Google Business Profile to accurately represent your brand."
+        },
+        "step2": {
+          "title": "[FIL]Connect Your Phone System",
+          "description": "[FIL]Seamlessly integrate SeaVoice[FIL] with your existing phone setup (SIP/VoIP/PSTN). Forward calls to SeaVoice[FIL] without changing your business number."
+        },
+        "step3": {
+          "title": "[FIL]Set Up Call Rules",
+          "description": "[FIL]Define how SeaVoice[FIL] handles different call types and when to escalate to your team. Ensure every caller gets the right response."
+        },
+        "step4": {
+          "title": "[FIL]Go Live",
+          "description": "[FIL]Activate your AI voice agent and start handling calls. The entire process typically takes less than 20 minutes from start to finish."
+        },
+        "step5": {
+          "title": "[FIL]24/7 Support & Analytics",
+          "description": "[FIL]Monitor calls in real-time, receive detailed transcripts, and leverage insights to improve your business. Our support team is always available to help you optimize performance."
+        },
+        "ctaBadge": "[FIL]Most customers are live within 20 minutes",
+        "liveTime": "[FIL]Most customers are live within 20 minutes"
+      },
+      "comparison": {
+        "title": "[FIL]Voice AI vs Human vs Outsourced Services",
+        "subtitle": "[FIL]See how SeaVoice[FIL] AI compares to traditional alternatives",
+        "seavoiceAi": "SeaVoice[FIL] AI",
+        "fullTimeHuman": "[FIL]Full-Time Human",
+        "outsourcedService": "[FIL]Outsourced Service",
+        "availability": {
+          "feature": "[FIL]24/7 Availability",
+          "seavoice": "[FIL]Always on",
+          "human": "[FIL]9-5 only",
+          "outsourced": "[FIL]Extra fees"
+        },
+        "callVolume": {
+          "feature": "[FIL]Call Volume Handling",
+          "seavoice": "[FIL]500+ concurrent",
+          "human": "[FIL]1 call at a time",
+          "outsourced": "[FIL]5-10 concurrent"
+        },
+        "language": {
+          "feature": "[FIL]Language Support",
+          "seavoice": "[FIL]30+ languages",
+          "human": "[FIL]Limited by hire",
+          "outsourced": "[FIL]Extra $/language"
+        },
+        "emotional": {
+          "feature": "[FIL]Emotional Intelligence",
+          "seavoice": "[FIL]Basic empathy",
+          "human": "[FIL]High",
+          "outsourced": "[FIL]Agent-dependent"
+        },
+        "compliance": {
+          "feature": "[FIL]Compliance",
+          "seavoice": "[FIL]Built-in tools",
+          "human": "[FIL]Training required",
+          "outsourced": "[FIL]Training required"
+        },
+        "implementation": {
+          "feature": "[FIL]Implementation Time",
+          "seavoice": "[FIL]<1 day",
+          "human": "[FIL]6-8 week hiring",
+          "outsourced": "[FIL]2-4 weeks"
+        },
+        "costComparison": "[FIL]💰 Cost Comparison",
+        "cost": {
+          "monthly": {
+            "feature": "[FIL]Monthly Cost",
+            "seavoice": "[FIL]Starts at $30",
+            "human": "[FIL]$3,397+",
+            "outsourced": "[FIL]$1,500-$2,500"
+          },
+          "effective": {
+            "feature": "[FIL]Effective Rate",
+            "seavoice": "[FIL]$0.12/minute",
+            "human": "[FIL]$6.79/call",
+            "outsourced": "[FIL]$3.00-$5.00/call"
+          },
+          "hidden": {
+            "feature": "[FIL]Hidden Costs",
+            "seavoice": "[FIL]None",
+            "human": "[FIL]Benefits ($800+/mo)",
+            "outsourced": "[FIL]Setup fees"
+          }
+        },
+        "savings": {
+          "costVsHuman": "[FIL]95%",
+          "costVsHumanLabel": "[FIL]Cost Savings vs Human",
+          "costVsOutsourced": "[FIL]80%",
+          "costVsOutsourcedLabel": "[FIL]Savings vs Outsourced",
+          "annualSavings": "[FIL]$40K+",
+          "annualSavingsLabel": "[FIL]Annual Savings"
+        },
+        "cta": {
+          "title": "[FIL]Ready to Experience the SeaVoice[FIL] AI Advantage?",
+          "subtitle": "[FIL]Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business.",
+          "bookDemo": "[FIL]Book a Demo",
+          "signUp": "[FIL]Sign Up Now",
+          "description": "[FIL]Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business."
+        },
+        "seavoiceAI": "SeaVoice[FIL] AI",
+        "costDescription": "[FIL]See the dramatic cost savings with SeaVoice[FIL] AI",
+        "costSavings": "[FIL]95%",
+        "costSavingsLabel": "[FIL]Cost Savings vs Human",
+        "outsourcedSavings": "[FIL]80%",
+        "outsourcedSavingsLabel": "[FIL]Savings vs Outsourced",
+        "annualSavings": "[FIL]$40K+",
+        "annualSavingsLabel": "[FIL]Annual Savings",
+        "features": {
+          "availability": "[FIL]24/7 Availability",
+          "callVolume": "[FIL]Call Volume Handling",
+          "language": "[FIL]Language Support",
+          "emotional": "[FIL]Emotional Intelligence",
+          "compliance": "[FIL]Compliance",
+          "implementation": "[FIL]Implementation Time",
+          "monthlyCost": "[FIL]Monthly Cost",
+          "effectiveRate": "[FIL]Effective Rate",
+          "hiddenCosts": "[FIL]Hidden Costs"
+        },
+        "seavoice": {
+          "availability": "[FIL]Always on",
+          "callVolume": "[FIL]500+ concurrent",
+          "language": "[FIL]30+ languages",
+          "emotional": "[FIL]Basic empathy",
+          "compliance": "[FIL]Built-in tools",
+          "implementation": "[FIL]<1 day",
+          "monthlyCost": "[FIL]Starts at $30",
+          "effectiveRate": "[FIL]$0.12/minute",
+          "hiddenCosts": "[FIL]None"
+        },
+        "human": {
+          "availability": "[FIL]9-5 only",
+          "callVolume": "[FIL]1 call at a time",
+          "language": "[FIL]Limited by hire",
+          "emotional": "[FIL]High",
+          "compliance": "[FIL]Training required",
+          "implementation": "[FIL]6-8 week hiring",
+          "monthlyCost": "[FIL]$3,397+",
+          "effectiveRate": "[FIL]$6.79/call",
+          "hiddenCosts": "[FIL]Benefits ($800+/mo)"
+        },
+        "outsourced": {
+          "availability": "[FIL]Extra fees",
+          "callVolume": "[FIL]5-10 concurrent",
+          "language": "[FIL]Extra $/language",
+          "emotional": "[FIL]Agent-dependent",
+          "compliance": "[FIL]Training required",
+          "implementation": "[FIL]2-4 weeks",
+          "monthlyCost": "[FIL]$1,500-$2,500",
+          "effectiveRate": "[FIL]$3.00-$5.00/call",
+          "hiddenCosts": "[FIL]Setup fees"
+        }
+      },
+      "seachat": {
+        "title": {
+          "prefix": "[FIL]Capabilities of SeaVoice[FIL] is brought to you by ",
+          "highlight": "SeaChat",
+          "suffix": " "
+        },
+        "subtitle": "[FIL]An omni-channel and multi-modal no-code agent platform",
+        "teamwork": {
+          "title": "[FIL]One Team, Working Together for You"
+        },
+        "chatAgent": {
+          "title": "[FIL]Chat AI Agent",
+          "description": "[FIL]Instant responses across web, mobile, and messaging platforms"
+        },
+        "humanAgent": {
+          "title": "[FIL]Human Agent",
+          "description": "[FIL]Seamless handoff for complex queries that need a human touch"
+        },
+        "voiceAgent": {
+          "title": "[FIL]Voice AI Agent",
+          "description": "[FIL]Natural phone conversations powered by advanced voice AI"
+        },
+        "learnMore": "[FIL]Learn more about SeaChat",
+        "teamTitle": "[FIL]One Team, Working Together for You"
+      },
+      "testimonial": {
+        "quote": "SeaVoice[FIL] reduced our agent training time by 2 weeks and increased efficiency by 20%",
+        "author": "Sarah Johnson",
+        "role": "[FIL]VP of Customer Success",
+        "company": "[FIL]TechCorp Inc.",
+        "stat1": "[FIL]2 weeks",
+        "stat1Label": "[FIL]Reduced training time",
+        "stat2": "[FIL]20%",
+        "stat2Label": "[FIL]Efficiency gain",
+        "stat3": "[FIL]94%",
+        "stat3Label": "[FIL]Customer satisfaction",
+        "stat4": "[FIL]500+",
+        "stat4Label": "[FIL]Simultaneous calls"
+      },
+      "faq": {
+        "title": {
+          "line1": "[FIL]Frequently Asked",
+          "line2": "[FIL]Questions"
+        },
+        "subtitle": "[FIL]Everything you need to know about SeaVoice[FIL] AI and how it can transform your business communications",
+        "badge": "[FIL]Got Questions?",
+        "expandAll": "[FIL]Expand All Questions",
+        "collapseAll": "[FIL]Collapse All",
+        "q1": {
+          "question": "[FIL]How does SeaVoice[FIL] differ from a traditional chatbot?",
+          "answer": "SeaVoice[FIL] provides real-time voice conversations with advanced AI that can understand context, handle interruptions, and deliver human-like responses over the phone. Unlike text-based chatbots, SeaVoice[FIL] handles actual voice calls with natural speech patterns."
+        },
+        "q2": {
+          "question": "[FIL]How long does it take to set up?",
+          "answer": "[FIL]Setup typically takes less than 20 minutes. You can train your voice agent, connect your phone system, set up call rules, and go live in one session."
+        },
+        "q3": {
+          "question": "[FIL]Can callers tell they're speaking with an AI?",
+          "answer": "[FIL]Our advanced voice technology creates very human-like conversations. While some callers may notice, most find the experience natural and helpful. You can also customize the AI to introduce itself as an AI assistant if preferred."
+        },
+        "q4": {
+          "question": "[FIL]What happens if SeaVoice[FIL] can't answer a question?",
+          "answer": "SeaVoice[FIL] is designed to handle escalations gracefully. It can transfer calls to human agents, take messages, schedule callbacks, or direct callers to appropriate resources based on your configured rules."
+        },
+        "q5": {
+          "question": "[FIL]How does pricing work?",
+          "answer": "[FIL]We offer transparent per-minute pricing. Premium plans include base minutes with additional usage billed per minute. Enterprise plans are customized based on volume and specific needs."
+        },
+        "q6": {
+          "question": "[FIL]Can I customize the AI's voice?",
+          "answer": "[FIL]Yes! You can choose from multiple voice options, adjust tone and speaking style, and even clone custom voices for Enterprise plans. The AI can be trained to match your brand's communication style."
+        },
+        "q7": {
+          "question": "[FIL]Is SeaVoice[FIL] multilingual?",
+          "answer": "[FIL]Yes, SeaVoice[FIL] supports conversations in over 10 languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, and Japanese."
+        },
+        "q8": {
+          "question": "[FIL]What industries benefit most from SeaVoice[FIL]?",
+          "answer": "SeaVoice[FIL] works well across industries including healthcare, real estate, hospitality, financial services, e-commerce, professional services, and any business that handles high call volumes or needs 24/7 availability."
+        },
+        "q9": {
+          "question": "[FIL]Can SeaVoice[FIL] handle emergency calls?",
+          "answer": "[FIL]While SeaVoice[FIL] can handle urgent inquiries and escalate appropriately, we recommend maintaining direct emergency protocols. SeaVoice[FIL] can be configured to immediately transfer emergency-related calls to human operators."
+        },
+        "q10": {
+          "question": "[FIL]Can SeaVoice[FIL] detect spam calls?",
+          "answer": "[FIL]Yes, SeaVoice[FIL] includes built-in spam detection that can identify and filter suspicious calls, protecting your business from unwanted interruptions while ensuring legitimate calls get through."
+        },
+        "q11": {
+          "question": "[FIL]How do I get started?",
+          "answer": "[FIL]Getting started is easy! Book a demo to see SeaVoice[FIL] in action, then our team will help you set up your voice agent, integrate with your phone system, and configure it for your specific needs. Most customers are up and running within a day."
+        }
+      },
+      "finalCta": {
+        "title": "[FIL]Ready to see it in action?",
+        "subtitle": "[FIL]Get a personalized demo and discover how SeaVoice[FIL] can transform your customer communications",
+        "bookDemo": "[FIL]Book a Demo Today",
+        "signUp": "[FIL]Sign Up Now"
+      },
+      "dashboard": {
+        "stats": {
+          "totalCalls": "[FIL]247",
+          "activeCalls": "[FIL]3",
+          "avgWaitTime": "[FIL]0:12",
+          "satisfaction": "[FIL]4.8",
+          "resolutionRate": "[FIL]92"
+        },
+        "calls": {
+          "sarah": {
+            "customer": "Sarah Johnson",
+            "type": "[FIL]Appointment Booking",
+            "status": "[FIL]completed",
+            "duration": "[FIL]3:42",
+            "time": "[FIL]2 minutes ago",
+            "outcome": "[FIL]Appointment scheduled for next Tuesday at 2 PM",
+            "tag1": "[FIL]booking",
+            "tag2": "[FIL]satisfied"
+          },
+          "mike": {
+            "customer": "[FIL]Mike Chen",
+            "type": "[FIL]Technical Support",
+            "status": "[FIL]transferred",
+            "duration": "[FIL]1:28",
+            "time": "[FIL]5 minutes ago",
+            "outcome": "[FIL]Transferred to technical specialist - Issue: Login problems",
+            "tag1": "[FIL]support",
+            "tag2": "[FIL]escalated"
+          },
+          "emily": {
+            "customer": "[FIL]Emily Rodriguez",
+            "type": "[FIL]Order Inquiry",
+            "status": "[FIL]completed",
+            "duration": "[FIL]2:15",
+            "time": "[FIL]8 minutes ago",
+            "outcome": "[FIL]Order status provided - Package will arrive tomorrow",
+            "tag1": "[FIL]inquiry",
+            "tag2": "[FIL]resolved"
+          },
+          "david": {
+            "customer": "[FIL]David Wilson",
+            "type": "[FIL]Billing Question",
+            "status": "[FIL]in-progress",
+            "duration": "[FIL]1:03",
+            "time": "[FIL]Just now",
+            "outcome": "[FIL]Currently discussing billing discrepancy",
+            "tag1": "[FIL]billing",
+            "tag2": "[FIL]active"
+          }
+        },
+        "mockCalls": {
+          "customer1": "Sarah Johnson",
+          "type1": "[FIL]Appointment Booking",
+          "status1": "[FIL]completed",
+          "duration1": "[FIL]3:42",
+          "time1": "[FIL]2 minutes ago",
+          "outcome1": "[FIL]Appointment scheduled for next Tuesday at 2 PM",
+          "customer2": "[FIL]Mike Chen",
+          "type2": "[FIL]Technical Support",
+          "status2": "[FIL]transferred",
+          "duration2": "[FIL]1:28",
+          "time2": "[FIL]5 minutes ago",
+          "outcome2": "[FIL]Transferred to technical specialist - Issue: Login problems",
+          "customer3": "[FIL]Emily Rodriguez",
+          "type3": "[FIL]Order Inquiry",
+          "status3": "[FIL]completed",
+          "duration3": "[FIL]2:15",
+          "time3": "[FIL]8 minutes ago",
+          "outcome3": "[FIL]Order status provided - Package will arrive tomorrow",
+          "customer4": "[FIL]David Wilson",
+          "type4": "[FIL]Billing Question",
+          "status4": "[FIL]in-progress",
+          "duration4": "[FIL]1:03",
+          "time4": "[FIL]Just now",
+          "outcome4": "[FIL]Currently discussing billing discrepancy"
+        }
+      },
+      "testimonials": {
+        "metrics": {
+          "trainingTime": "[FIL]2 weeks",
+          "trainingTimeLabel": "[FIL]Reduced training time",
+          "efficiency": "[FIL]20%",
+          "efficiencyLabel": "[FIL]Efficiency gain",
+          "satisfaction": "[FIL]94%",
+          "satisfactionLabel": "[FIL]Customer satisfaction",
+          "simultaneousCalls": "[FIL]500+",
+          "simultaneousCallsLabel": "[FIL]Simultaneous calls"
+        },
+        "quote": "SeaVoice[FIL] reduced our agent training time by 2 weeks and increased efficiency by 20%",
+        "author": "Sarah Johnson",
+        "role": "[FIL]VP of Customer Success",
+        "company": "[FIL]TechCorp Inc."
+      }
+    },
+    "pricing": {
+      "hero": {
+        "title": "[FIL]Simple, Transparent Pricing",
+        "subtitle": "[FIL]Voice AI solutions designed for inbound customer service and outbound campaigns. Built on SeaChat[FIL] Premium ($29.99) and SeaX[FIL] Omni-channel ($99) foundations."
+      },
+      "plans": {
+        "inboundOnly": {
+          "name": "[FIL]Inbound Only",
+          "tagline": "[FIL]Perfect for Customer Service",
+          "price": "[FIL]$29.99",
+          "period": "[FIL]/month",
+          "description": "[FIL]Ideal for businesses needing an inbound call solution with Voice AI (based on SeaChat[FIL] Premium plan)",
+          "features": {
+            "aiCallHandling": "[FIL]AI-based call handling (inbound calls only)",
+            "voiceAIPrice": "[FIL]Voice AI starts at $0.12 per minute (ChatGPT-4o mini model)",
+            "phoneNumber": "[FIL]Phone number included ($2-$3/month with E911 address)",
+            "callRecording": "[FIL]Call recording and summary",
+            "transferHuman": "[FIL]Transfer to human agent support",
+            "multiLanguage": "[FIL]Multi-language voice support",
+            "sttLanguages": "[FIL]10+ Speech-To-Text languages",
+            "ttsLanguages": "[FIL]10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI",
+            "crmIntegrations": "[FIL]CRM integrations (Salesforce, HubSpot[FIL])",
+            "calendarIntegration": "[FIL]Calendar integration (Google, Outlook)",
+            "callAnalytics": "[FIL]Call analytics and reporting",
+            "emailNotifications": "[FIL]Email notifications for calls"
+          },
+          "limitations": {
+            "noOutbound": "[FIL]No outbound calling capabilities",
+            "noBulkCampaigns": "[FIL]No bulk campaign features"
+          },
+          "cta": "[FIL]Start with Inbound Only",
+          "poweredBy": "[FIL]Powered by SeaChat"
+        },
+        "inboundOutbound": {
+          "name": "[FIL]Inbound + Outbound",
+          "tagline": "[FIL]Scale Your Voice Campaigns",
+          "price": "[FIL]$99",
+          "period": "[FIL]/month",
+          "description": "[FIL]Perfect for large-scale voice AI campaigns (equivalent to SeaX[FIL] Omni-channel plan for first user)",
+          "badge": "[FIL]Most Popular",
+          "features": {
+            "everythingInbound": "[FIL]Everything in Inbound Only plan",
+            "outboundCalling": "[FIL]Outbound calling and campaigns",
+            "bulkCampaigns": "[FIL]Bulk voice AI campaigns",
+            "voiceAIPrice": "[FIL]Voice AI starts at $0.12 per minute (ChatGPT-4o mini model)",
+            "additionalUsers": "[FIL]Additional users: $49/month each",
+            "multipleNumbers": "[FIL]Multiple phone numbers supported",
+            "campaignScheduling": "[FIL]Campaign scheduling and automation",
+            "advancedRouting": "[FIL]Advanced call routing",
+            "customVoiceTraining": "[FIL]Custom voice training",
+            "voicemailDrop": "[FIL]Voicemail drop capability ($0.05 per drop)",
+            "apiAccess": "[FIL]RESTful API access",
+            "seachatIntegration": "SeaChat[FIL] integration for multi-channel support",
+            "advancedAnalytics": "[FIL]Advanced analytics dashboard",
+            "prioritySupport": "[FIL]Priority support"
+          },
+          "cta": "[FIL]Start with Inbound + Outbound",
+          "poweredBy": "[FIL]Powered by SeaX[FIL] + SeaChat"
+        },
+        "custom": {
+          "name": "[FIL]Custom Plan",
+          "tagline": "[FIL]Enterprise-Grade Solutions",
+          "price": "[FIL]Contact Us",
+          "period": "",
+          "description": "[FIL]Bespoke solutions tailored to specific business needs (similar to SeaChat[FIL]/SeaX[FIL] Enterprise plans)",
+          "customPriceMessage": "[FIL]Let's build a project",
+          "features": {
+            "everythingInboundOutbound": "[FIL]Everything in Inbound + Outbound plan",
+            "multipleWorkspaces": "[FIL]Multiple workspaces (perfect for agencies)",
+            "workspaceAgents": "[FIL]Each workspace has multiple AI agents and phone numbers",
+            "customPricing": "[FIL]Custom pricing per minute based on volume",
+            "accountManager": "[FIL]Dedicated account manager",
+            "uptimeSLA": "[FIL]99.99% uptime SLA",
+            "compliance": "HIPAA[FIL]/PCI compliance available",
+            "whiteLabel": "[FIL]White-label solutions",
+            "customAPI": "[FIL]Custom API integrations",
+            "advancedSecurity": "[FIL]Advanced security features",
+            "voiceCloning": "[FIL]Custom voice cloning",
+            "phoneSupport": "[FIL]Priority phone support",
+            "technicalSupport": "[FIL]Professional design guidelines and technical support",
+            "onPremise": "[FIL]On-premise deployment options"
+          },
+          "cta": "[FIL]Contact Us"
+        }
+      },
+      "productRelationship": {
+        "title": "[FIL]How SeaVoice[FIL] Connects with SeaChat[FIL] & SeaX",
+        "seachatIntegration": {
+          "title": "[FIL]🔗 SeaChat[FIL] Integration",
+          "description": "SeaVoice[FIL] Inbound Only ($29.99/month) is built on SeaChat[FIL] Premium plan foundations, providing voice AI capabilities for incoming calls at $0.12 per minute.",
+          "subtitle": "[FIL]Perfect for businesses wanting to add voice AI to their existing SeaChat[FIL] setup."
+        },
+        "seaxIntegration": {
+          "title": "[FIL]📞 SeaX[FIL] Integration",
+          "description": "SeaVoice[FIL] Inbound + Outbound ($99/month) mirrors SeaX[FIL] Omni-channel pricing, enabling large-scale voice campaigns with callback handling.",
+          "subtitle": "[FIL]Ideal for businesses running outbound campaigns who need comprehensive voice AI coverage."
+        },
+        "completePicture": {
+          "title": "[FIL]✨ The Complete Picture",
+          "description": "[FIL]All Voice AI calls across SeaChat[FIL], SeaX[FIL], and SeaVoice[FIL] use the same $0.12 per minute rate with ChatGPT-4o mini model. When contacts call back after outbound campaigns, SeaVoice[FIL] seamlessly handles these inbound calls with the same AI intelligence."
+        }
+      },
+      "faq": {
+        "title": "[FIL]Frequently Asked Questions",
+        "subtitle": "[FIL]Everything you need to know about SeaVoice[FIL] pricing and features",
+        "question1": "[FIL]How does SeaVoice[FIL] pricing relate to SeaChat[FIL] and SeaX[FIL]?",
+        "answer1": "SeaVoice[FIL] Inbound Only plan ($29.99/month) is based on SeaChat[FIL] Premium plan, focusing on inbound voice AI. The Inbound + Outbound plan ($99/month) mirrors SeaX[FIL] Omni-channel pricing for comprehensive voice campaigns. All voice AI calls start at $0.12 per minute using ChatGPT-4o mini model.",
+        "question2": "[FIL]What's the difference between Inbound Only and Inbound + Outbound plans?",
+        "answer2": "[FIL]Inbound Only ($29.99/month) handles incoming calls with AI, perfect for customer service. Inbound + Outbound ($99/month for first user) adds bulk campaign capabilities and outbound calling, ideal for sales and marketing teams running large-scale voice campaigns.",
+        "question3": "[FIL]Can I keep my existing business phone numbers?",
+        "answer3": "[FIL]Yes, you can keep your existing business numbers and forward calls to SeaVoice[FIL], or we can provide new numbers. Each phone number costs $2-$3/month with E911 address registration.",
+        "question4": "[FIL]How much do voice AI calls actually cost?",
+        "answer4": "[FIL]All voice AI calls start at $0.12 per minute using the ChatGPT-4o mini model. This is the same rate across SeaChat[FIL] Premium and SeaVoice[FIL] plans. Higher-tier models like ChatGPT-4o cost $0.80 per minute and are available on custom plans.",
+        "question5": "[FIL]What happens when contacts call back after an outbound campaign?",
+        "answer5": "[FIL]With the Inbound + Outbound plan, when contacts call back after receiving campaign calls, our inbound Voice AI will automatically handle these calls, providing seamless continuity in your customer communications.",
+        "question6": "[FIL]Can I upgrade from Inbound Only to Inbound + Outbound?",
+        "answer6": "[FIL]Absolutely! You can upgrade your plan at any time. The upgrade takes effect immediately, and you'll gain access to outbound calling, campaign features, and additional user seats.",
+        "question7": "[FIL]Do you offer volume discounts for high-usage customers?",
+        "answer7": "[FIL]Yes, our Custom Plan offers negotiated pricing based on your specific volume and usage patterns. Contact our sales team to discuss custom pricing that scales with your business needs."
+      },
+      "cta": {
+        "title": "[FIL]Ready to Get Started?",
+        "subtitle": "[FIL]Start your free trial today and experience the power of AI voice automation",
+        "signUpFree": "[FIL]Sign Up For Free",
+        "scheduleDemo": "[FIL]Schedule Demo"
+      }
+    },
+    "footer": {
+      "description": "[FIL]Automate 80% of customer calls with AI voice agents that sound human and integrate seamlessly with your business.",
+      "platform": {
+        "title": "[FIL]Platform",
+        "overview": "[FIL]Platform Overview",
+        "landlineMobile": "[FIL]Landline & Mobile Voice",
+        "voipSipByoc": "[FIL]VoIP & SIP & BYOC Voice",
+        "lineCallPlus": "[FIL]Line Call Plus for Businesses",
+        "whatsAppVoice": "WhatsApp[FIL] Voice API for Businesses",
+        "speechToText": "[FIL]Speech To Text",
+        "textToSpeech": "[FIL]Text To Speech",
+        "endToEndLlms": "[FIL]End To End LLMs"
+      },
+      "inboundSolutions": {
+        "title": "[FIL]Inbound Solutions",
+        "virtualAssistant": "[FIL]24/7 Virtual Assistant",
+        "callTransfer": "[FIL]Smart Call Transfer",
+        "ivrReplacement": "[FIL]IVR Replacement",
+        "mentalHealth": "[FIL]Mental Health Companion",
+        "scamShield": "[FIL]Scam Shield Protection",
+        "technicalSupport": "[FIL]Technical Support",
+        "orderTracking": "[FIL]Order Status & Tracking",
+        "paymentProcessing": "[FIL]Payment Processing",
+        "appointmentBooking": "[FIL]Appointment Booking"
+      },
+      "outboundSolutions": {
+        "title": "[FIL]Outbound Solutions",
+        "leadGeneration": "[FIL]Lead Generation & Qualification",
+        "collections": "[FIL]Collections Service",
+        "reactivation": "[FIL]Customer Reactivation",
+        "seniorChecks": "[FIL]Senior Check Calls",
+        "campaigns": "[FIL]Large Scale Campaigns",
+        "proactiveSupport": "[FIL]Proactive Support",
+        "renewals": "[FIL]Subscription Renewals",
+        "surveys": "[FIL]Customer Surveys",
+        "fraudAlerts": "[FIL]Fraud Alerts"
+      },
+      "company": {
+        "title": "[FIL]Company",
+        "pricing": "[FIL]Pricing",
+        "productWiki": "[FIL]Product Wiki",
+        "apiReferences": "[FIL]API References"
+      },
+      "legal": {
+        "copyright": "[FIL]© 2020 - {{year}} Seasalt.ai[FIL]. All rights reserved.",
+        "privacyPolicy": "[FIL]Privacy Policy",
+        "termsOfService": "[FIL]Terms of Service"
+      },
+      "stats": {
+        "callsHandled": "[FIL]1M+ Calls Handled",
+        "activeAgents": "[FIL]50K+ Active Agents",
+        "uptime": "[FIL]99.99% Uptime"
+      },
+      "cta": {
+        "title": "[FIL]Ready to Automate 80% of Your Customer Calls?",
+        "description": "[FIL]Join hundreds of businesses using SeaVoice[FIL] AI agents to handle customer calls 24/7, reduce costs, and improve customer satisfaction.",
+        "getStartedFree": "[FIL]Get Started Free",
+        "bookDemo": "[FIL]Book a Demo"
+      }
+    },
+    "priceCalculator": {
+      "hero": {
+        "title": "[FIL]Monthly Price Calculator",
+        "subtitle": "[FIL]Calculate your exact monthly cost based on your usage needs. All pricing is for USA/Canada with phone charges included."
+      },
+      "configure": {
+        "title": "[FIL]Configure Your Plan"
+      },
+      "planType": {
+        "label": "[FIL]1. Choose Your Plan Type",
+        "inbound": {
+          "title": "[FIL]Inbound Only - $29.99/month",
+          "description": "[FIL]Perfect for customer service"
+        },
+        "inboundOutbound": {
+          "title": "[FIL]Inbound + Outbound - $99/month",
+          "description": "[FIL]Scale your voice campaigns"
+        }
+      },
+      "phoneNumbers": {
+        "label": "[FIL]2. Phone Numbers (with E911 address)",
+        "local": {
+          "label": "[FIL]Local Numbers ($2/month each)"
+        },
+        "tollFree": {
+          "label": "[FIL]Toll-Free Numbers ($3/month each)"
+        }
+      },
+      "voiceAI": {
+        "label": "[FIL]3. Voice AI Minutes ($0.12/minute - ChatGPT-4o mini)",
+        "range": {
+          "min": "[FIL]0 min",
+          "max": "[FIL]5,000 min",
+          "current": "[FIL]minutes"
+        }
+      },
+      "humanAgent": {
+        "label": "[FIL]4. Human Agent Minutes ($0.015/minute)",
+        "range": {
+          "min": "[FIL]0 min",
+          "max": "[FIL]2,000 min",
+          "current": "[FIL]minutes"
+        }
+      },
+      "breakdown": {
+        "title": "[FIL]Monthly Cost Breakdown",
+        "inboundPlan": "[FIL]Inbound Only Plan",
+        "inboundOutboundPlan": "[FIL]Inbound + Outbound Plan",
+        "phoneNumbersTitle": "[FIL]Phone Numbers",
+        "phoneNumbers": {
+          "local": "[FIL]local",
+          "tollFree": "[FIL]toll-free"
+        },
+        "voiceAI": {
+          "title": "[FIL]Voice AI Minutes",
+          "calculation": "[FIL]min × $0.12"
+        },
+        "humanAgent": {
+          "title": "[FIL]Human Agent Minutes",
+          "calculation": "[FIL]min × $0.015"
+        },
+        "total": "[FIL]Total Monthly Cost"
+      },
+      "features": {
+        "usaCanada": "[FIL]USA/Canada coverage included",
+        "phoneCharges": "[FIL]All phone charges included",
+        "e911": "[FIL]E911 address registration included",
+        "recording": "[FIL]Call recording and analytics",
+        "outboundCampaigns": "[FIL]Outbound campaigns and bulk calling"
+      },
+      "cta": {
+        "getStartedInbound": "[FIL]Get Started with Inbound Only",
+        "getStartedInboundOutbound": "[FIL]Get Started with Inbound + Outbound",
+        "scheduleDemo": "[FIL]Schedule a Demo"
+      },
+      "notes": {
+        "title": "[FIL]Important Notes",
+        "usaCanadaOnly": "[FIL]Pricing shown is for USA/Canada only",
+        "phoneChargesIncluded": "[FIL]All phone call charges are included in the rates shown",
+        "voiceAIModel": "[FIL]Voice AI uses ChatGPT-4o mini model at $0.12/minute",
+        "humanAgentMinutes": "[FIL]Human agent minutes are for call transfers and direct calls"
+      }
+    },
+    "platform": {
+      "hero": {
+        "title": "[FIL]The Complete AI Voice Platform",
+        "description": "[FIL]Discover the technology that powers human-like voice interactions, seamless integrations, and actionable insights for your business.",
+        "cta": "[FIL]Explore Platform Capabilities"
+      },
+      "features": {
+        "aiVoice": {
+          "title": "[FIL]AI Voice Agents",
+          "description": "[FIL]Human-like voice agents that handle inbound and outbound calls 24/7 with perfect consistency.",
+          "feature1": "[FIL]24/7 availability",
+          "feature2": "[FIL]Human-like conversations",
+          "feature3": "[FIL]Dynamic pauses and tone shifts",
+          "feature4": "[FIL]Multi-language support"
+        },
+        "conversationalAI": {
+          "title": "[FIL]Conversational AI",
+          "description": "[FIL]Advanced AI that learns from your documents and remembers past interactions for personalized service.",
+          "feature1": "[FIL]RAG technology",
+          "feature2": "[FIL]Long-term memory",
+          "feature3": "[FIL]Custom knowledge base",
+          "feature4": "[FIL]Context awareness"
+        },
+        "analytics": {
+          "title": "[FIL]Analytics & Insights",
+          "description": "[FIL]Real-time transcripts, sentiment analysis, and actionable insights from every conversation.",
+          "feature1": "[FIL]Real-time transcripts",
+          "feature2": "[FIL]Sentiment analysis",
+          "feature3": "[FIL]Performance metrics",
+          "feature4": "[FIL]Call volume analytics"
+        },
+        "telephony": {
+          "title": "[FIL]Telephony & Connectivity",
+          "description": "[FIL]Flexible integration with VoIP, SIP, and BYOC options for seamless connectivity.",
+          "feature1": "[FIL]VoIP integration",
+          "feature2": "[FIL]SIP trunking",
+          "feature3": "[FIL]BYOC support",
+          "feature4": "[FIL]Global coverage"
+        },
+        "integrations": {
+          "title": "[FIL]Integrations & Channels",
+          "description": "[FIL]Connect with your existing tools and reach customers across multiple channels.",
+          "feature1": "[FIL]CRM integration",
+          "feature2": "WhatsApp[FIL] Voice API",
+          "feature3": "LINE[FIL] Business Calls",
+          "feature4": "[FIL]Calendar sync"
+        },
+        "speech": {
+          "title": "[FIL]Speech Technologies",
+          "description": "[FIL]Industry-leading speech-to-text and text-to-speech with custom voice profiles.",
+          "feature1": "[FIL]High accuracy STT",
+          "feature2": "[FIL]Natural TTS",
+          "feature3": "[FIL]Voice cloning",
+          "feature4": "[FIL]10+ languages"
+        }
+      },
+      "technology": {
+        "title": "[FIL]Built on Industry-Leading Technology",
+        "subtitle": "[FIL]Powered by the original Kaldi team's expertise in speech recognition",
+        "speechRecognition": {
+          "title": "[FIL]Speech Recognition",
+          "description": "[FIL]Advanced STT technology with 99%+ accuracy, even with background noise and industry jargon.",
+          "metric1": "[FIL]99%+ accuracy",
+          "metric2": "[FIL]Real-time processing",
+          "metric3": "[FIL]Noise reduction"
+        },
+        "nlp": {
+          "title": "[FIL]Natural Language Processing",
+          "description": "[FIL]Context-aware AI that understands intent and maintains natural conversation flow.",
+          "metric1": "[FIL]Intent recognition",
+          "metric2": "[FIL]Context retention",
+          "metric3": "[FIL]Emotional intelligence"
+        },
+        "voiceSynthesis": {
+          "title": "[FIL]Voice Synthesis",
+          "description": "[FIL]Human-like text-to-speech with customizable voices and natural prosody.",
+          "metric1": "[FIL]Natural prosody",
+          "metric2": "[FIL]Voice cloning",
+          "metric3": "[FIL]Emotion control"
+        }
+      },
+      "landlineMobile": {
+        "hero": {
+          "title": "[FIL]Landline & Mobile Voice Solutions",
+          "subtitle": "[FIL]Transform your traditional phone systems with AI-powered voice agents that work seamlessly with landlines and mobile networks worldwide.",
+          "cta": "[FIL]Sign Up For Free"
+        },
+        "features": {
+          "0": {
+            "title": "[FIL]Traditional Landline Integration",
+            "description": "[FIL]Seamlessly connect your existing landline infrastructure with AI voice capabilities.",
+            "benefits": {
+              "0": "[FIL]Keep your existing phone numbers",
+              "1": "[FIL]No hardware changes required",
+              "2": "[FIL]Instant AI backup for busy lines"
+            }
+          },
+          "1": {
+            "title": "[FIL]Mobile Network Connectivity",
+            "description": "[FIL]Direct integration with mobile carriers for outbound campaigns and customer engagement.",
+            "benefits": {
+              "0": "[FIL]Reach customers on their mobile devices",
+              "1": "[FIL]High delivery rates",
+              "2": "SMS[FIL] fallback options"
+            }
+          },
+          "2": {
+            "title": "[FIL]Global Coverage",
+            "description": "[FIL]Connect with customers worldwide through our extensive carrier network partnerships.",
+            "benefits": {
+              "0": "[FIL]200+ countries supported",
+              "1": "[FIL]Local number presence",
+              "2": "[FIL]Competitive international rates"
+            }
+          },
+          "title": "[FIL]Universal Voice Connectivity",
+          "subtitle": "[FIL]Connect with any phone system, anywhere in the world"
+        },
+        "useCases": {
+          "0": {
+            "title": "[FIL]Appointment Reminders",
+            "description": "[FIL]Automatically call patients, customers, or clients to confirm upcoming appointments.",
+            "metrics": {
+              "0": "[FIL]40% reduction in no-shows",
+              "1": "[FIL]95% contact success rate",
+              "2": "[FIL]24/7 automated calling"
+            }
+          },
+          "1": {
+            "title": "[FIL]Emergency Notifications",
+            "description": "[FIL]Rapidly notify large groups during emergencies or critical updates.",
+            "metrics": {
+              "0": "[FIL]1000+ calls per minute",
+              "1": "[FIL]Multi-language support",
+              "2": "[FIL]Delivery confirmation"
+            }
+          },
+          "2": {
+            "title": "[FIL]Customer Surveys",
+            "description": "[FIL]Conduct post-service surveys to gather valuable customer feedback.",
+            "metrics": {
+              "0": "[FIL]3x higher response rates",
+              "1": "[FIL]Real-time sentiment analysis",
+              "2": "[FIL]Automated reporting"
+            }
+          },
+          "title": "[FIL]Popular Use Cases",
+          "subtitle": "[FIL]See how businesses leverage landline and mobile voice automation"
+        },
+        "specs": {
+          "title": "[FIL]Enterprise-Grade Reliability",
+          "subtitle": "[FIL]Built for mission-critical communications with carrier-grade infrastructure and 99.99% uptime guarantee.",
+          "security": {
+            "title": "[FIL]Security & Compliance",
+            "description": "SOC 2[FIL], HIPAA[FIL], and PCI compliant infrastructure"
+          },
+          "monitoring": {
+            "title": "[FIL]24/7 Monitoring",
+            "description": "[FIL]Real-time system monitoring and instant failover"
+          },
+          "infrastructure": {
+            "title": "[FIL]Global Infrastructure",
+            "description": "[FIL]Redundant data centers across multiple regions"
+          },
+          "technical": {
+            "title": "[FIL]Technical Specifications",
+            "concurrentCalls": {
+              "label": "[FIL]Concurrent Calls",
+              "value": "[FIL]Unlimited"
+            },
+            "audioQuality": {
+              "label": "[FIL]Audio Quality",
+              "value": "[FIL]HD Voice (G.722)"
+            },
+            "latency": {
+              "label": "[FIL]Latency",
+              "value": "[FIL]< 150ms"
+            },
+            "uptimeSLA": {
+              "label": "[FIL]Uptime SLA",
+              "value": "[FIL]99.99%"
+            },
+            "globalCoverage": {
+              "label": "[FIL]Global Coverage",
+              "value": "[FIL]200+ Countries"
+            }
+          }
+        },
+        "cta": {
+          "title": "[FIL]Ready to Modernize Your Phone System?",
+          "subtitle": "[FIL]Connect your landline and mobile infrastructure with AI voice agents in minutes",
+          "button": "[FIL]Schedule Integration Call"
+        }
+      },
+      "endToEndLLMs": {
+        "hero": {
+          "title": "[FIL]End-to-End LLM Solutions",
+          "subtitle": "[FIL]Complete large language model integration from speech input to intelligent response generation. Powered by advanced AI that understands context, maintains conversations, and executes business logic.",
+          "cta": "[FIL]Explore LLM Capabilities"
+        },
+        "features": {
+          "title": "[FIL]Complete LLM Integration",
+          "subtitle": "[FIL]From speech understanding to intelligent response generation",
+          "advancedModels": {
+            "title": "[FIL]Advanced Language Models",
+            "description": "[FIL]State-of-the-art large language models optimized for conversational AI and business applications.",
+            "gpt4Integration": "[FIL]GPT-4 integration",
+            "customFineTuning": "[FIL]Custom fine-tuning",
+            "domainSpecific": "[FIL]Domain-specific models",
+            "multiModal": "[FIL]Multi-modal support"
+          },
+          "knowledgeIntegration": {
+            "title": "[FIL]Knowledge Integration",
+            "description": "[FIL]Seamlessly integrate your business knowledge base with RAG (Retrieval-Augmented Generation) technology.",
+            "documentIngestion": "[FIL]Document ingestion",
+            "realTimeUpdates": "[FIL]Real-time updates",
+            "semanticSearch": "[FIL]Semantic search",
+            "contextAwareness": "[FIL]Context awareness"
+          },
+          "enterpriseSecurity": {
+            "title": "[FIL]Enterprise Security",
+            "description": "[FIL]Enterprise-grade security and compliance for sensitive business conversations.",
+            "dataEncryption": "[FIL]Data encryption",
+            "accessControls": "[FIL]Access controls",
+            "auditLogging": "[FIL]Audit logging",
+            "complianceReady": "[FIL]Compliance ready"
+          }
+        },
+        "capabilities": {
+          "title": "[FIL]Advanced LLM Capabilities",
+          "subtitle": "[FIL]Sophisticated language understanding and generation for business applications",
+          "nlu": {
+            "category": "[FIL]Natural Language Understanding",
+            "description": "[FIL]Advanced comprehension of user intent, context, and nuanced communication.",
+            "intentAccuracy": "[FIL]Intent accuracy: 98%",
+            "contextRetention": "[FIL]Context retention: 95%",
+            "sentimentAnalysis": "[FIL]Sentiment analysis: 96%"
+          },
+          "conversationalFlow": {
+            "category": "[FIL]Conversational Flow",
+            "description": "[FIL]Maintain natural, coherent conversations across multiple turns and topics.",
+            "multiTurnCoherence": "[FIL]Multi-turn coherence: 94%",
+            "topicSwitching": "[FIL]Topic switching: 92%",
+            "contextPreservation": "[FIL]Context preservation: 97%"
+          },
+          "businessLogic": {
+            "category": "[FIL]Business Logic Integration",
+            "description": "[FIL]Execute complex business workflows and decision-making processes.",
+            "workflowAccuracy": "[FIL]Workflow accuracy: 99%",
+            "decisionConsistency": "[FIL]Decision consistency: 98%",
+            "errorHandling": "[FIL]Error handling: 95%"
+          },
+          "personalization": {
+            "category": "[FIL]Personalization",
+            "description": "[FIL]Adapt responses based on user history, preferences, and business context.",
+            "personalizationScore": "[FIL]Personalization score: 93%",
+            "userSatisfaction": "[FIL]User satisfaction: 96%",
+            "engagementRate": "[FIL]Engagement rate: 89%"
+          }
+        },
+        "architecture": {
+          "title": "[FIL]End-to-End Architecture",
+          "subtitle": "[FIL]Complete pipeline from speech input to intelligent voice response",
+          "speechInput": {
+            "title": "[FIL]Speech Input Processing",
+            "description": "[FIL]Convert speech to text with industry-leading accuracy",
+            "kaldiASR": "[FIL]Kaldi-based ASR",
+            "noiseReduction": "[FIL]Noise reduction",
+            "speakerDiarization": "[FIL]Speaker diarization"
+          },
+          "llmProcessing": {
+            "title": "[FIL]Language Model Processing",
+            "description": "[FIL]Advanced LLM processing with business context integration",
+            "gpt4Turbo": "[FIL]GPT-4 Turbo",
+            "customFineTuning": "[FIL]Custom fine-tuning",
+            "ragIntegration": "[FIL]RAG integration"
+          },
+          "responseGeneration": {
+            "title": "[FIL]Response Generation",
+            "description": "[FIL]Generate contextually appropriate and business-aligned responses",
+            "templateSystems": "[FIL]Template systems",
+            "dynamicContent": "[FIL]Dynamic content",
+            "complianceChecking": "[FIL]Compliance checking"
+          },
+          "speechOutput": {
+            "title": "[FIL]Speech Output Synthesis",
+            "description": "[FIL]Convert text responses to natural-sounding speech",
+            "neuralTTS": "[FIL]Neural TTS",
+            "voiceCloning": "[FIL]Voice cloning",
+            "emotionControl": "[FIL]Emotion control"
+          }
+        },
+        "useCases": {
+          "title": "[FIL]Intelligent Use Cases",
+          "subtitle": "[FIL]Transform business operations with AI-powered conversations",
+          "customerSupport": {
+            "title": "[FIL]Intelligent Customer Support",
+            "description": "[FIL]Handle complex customer inquiries with human-like understanding and problem-solving capabilities.",
+            "reducedEscalation": "[FIL]Reduced escalation rates",
+            "fasterResolution": "[FIL]Faster resolution times",
+            "consistentQuality": "[FIL]Consistent service quality",
+            "availability24x7": "[FIL]24/7 availability"
+          },
+          "salesConversations": {
+            "title": "[FIL]Sales Conversations",
+            "description": "[FIL]Engage prospects with personalized sales conversations that adapt to customer needs and preferences.",
+            "higherConversion": "[FIL]Higher conversion rates",
+            "personalizedRecommendations": "[FIL]Personalized recommendations",
+            "objectionHandling": "[FIL]Objection handling",
+            "leadQualification": "[FIL]Lead qualification"
+          },
+          "technicalSupport": {
+            "title": "[FIL]Technical Support",
+            "description": "[FIL]Provide expert-level technical assistance with access to comprehensive knowledge bases.",
+            "complexTroubleshooting": "[FIL]Complex troubleshooting",
+            "stepByStepGuidance": "[FIL]Step-by-step guidance",
+            "documentationAccess": "[FIL]Documentation access",
+            "escalationIntelligence": "[FIL]Escalation intelligence"
+          },
+          "healthcareAssistance": {
+            "title": "[FIL]Healthcare Assistance",
+            "description": "[FIL]Support healthcare workflows with HIPAA[FIL]-compliant AI that understands medical terminology.",
+            "medicalKnowledge": "[FIL]Medical knowledge base",
+            "appointmentScheduling": "[FIL]Appointment scheduling",
+            "symptomAssessment": "[FIL]Symptom assessment",
+            "careCoordination": "[FIL]Care coordination"
+          }
+        },
+        "performance": {
+          "title": "[FIL]Enterprise Performance",
+          "description": "[FIL]Our end-to-end LLM solution delivers enterprise-grade performance with real-time processing, high accuracy, and reliable scalability for mission-critical business applications.",
+          "realTimeTitle": "[FIL]Real-Time Processing",
+          "realTimeDesc": "[FIL]Sub-second response times for natural conversations",
+          "securityTitle": "[FIL]Enterprise Security",
+          "securityDesc": "SOC 2[FIL], HIPAA[FIL], and PCI compliant infrastructure",
+          "qualityTitle": "[FIL]Conversation Quality",
+          "qualityDesc": "[FIL]Human-like interactions with context awareness",
+          "metricsTitle": "[FIL]Performance Metrics",
+          "responseLatency": "[FIL]Response Latency",
+          "responseLatencyValue": "[FIL]< 500ms",
+          "intentAccuracy": "[FIL]Intent Accuracy",
+          "intentAccuracyValue": "[FIL]98.2%",
+          "contextRetention": "[FIL]Context Retention",
+          "contextRetentionValue": "[FIL]95.8%",
+          "uptimeSLA": "[FIL]Uptime SLA",
+          "uptimeSLAValue": "[FIL]99.99%",
+          "concurrentUsers": "[FIL]Concurrent Users",
+          "concurrentUsersValue": "[FIL]10,000+"
+        },
+        "cta": {
+          "title": "[FIL]Ready to Deploy Intelligent Conversations?",
+          "subtitle": "[FIL]Transform your business with end-to-end LLM solutions that understand, reason, and respond intelligently",
+          "scheduleDemoButton": "[FIL]Schedule LLM Demo",
+          "exploreArchButton": "[FIL]Explore Architecture"
+        }
+      },
+      "lineCallPlus": {
+        "hero": {
+          "title": "LINE[FIL] Call Plus for Businesses",
+          "description": "[FIL]Transform your LINE[FIL] Business account with AI-powered voice calling. Connect with customers across Asia-Pacific markets through their preferred messaging platform.",
+          "cta": "[FIL]Start LINE[FIL] Integration"
+        },
+        "marketReach": {
+          "title": "[FIL]Reach Millions Across Asia-Pacific",
+          "subtitle": "LINE[FIL] dominates business communications in key Asian markets",
+          "activeUsers": "[FIL]Active Users",
+          "marketPenetration": "[FIL]Market Penetration"
+        },
+        "features": {
+          "title": "[FIL]Powerful LINE[FIL] Business Features",
+          "subtitle": "[FIL]Everything you need to provide exceptional voice experiences on LINE",
+          "nativeIntegration": {
+            "title": "[FIL]Native LINE[FIL] Integration",
+            "description": "[FIL]Seamlessly integrate voice calling directly within the LINE[FIL] messaging platform.",
+            "benefit1": "[FIL]One-tap calling from chat",
+            "benefit2": "[FIL]Unified conversation history",
+            "benefit3": "[FIL]Rich media support"
+          },
+          "businessAccount": {
+            "title": "[FIL]Business Account Support",
+            "description": "[FIL]Full support for LINE[FIL] Business accounts with advanced features and analytics.",
+            "benefit1": "[FIL]Verified business profiles",
+            "benefit2": "[FIL]Custom branding options",
+            "benefit3": "[FIL]Advanced user management"
+          },
+          "asiaPacific": {
+            "title": "[FIL]Asia-Pacific Focus",
+            "description": "[FIL]Optimized for key Asian markets where LINE[FIL] dominates business communications.",
+            "benefit1": "[FIL]Local language support",
+            "benefit2": "[FIL]Regional compliance",
+            "benefit3": "[FIL]Cultural customization"
+          }
+        },
+        "useCases": {
+          "title": "[FIL]Transform Customer Interactions",
+          "subtitle": "[FIL]See how businesses use LINE[FIL] Call Plus to enhance customer relationships",
+          "customerSupport": {
+            "title": "[FIL]Customer Support",
+            "description": "[FIL]Provide instant voice support directly within LINE[FIL] conversations.",
+            "metric1": "[FIL]50% faster resolution",
+            "metric2": "[FIL]90% customer satisfaction",
+            "metric3": "[FIL]24/7 availability"
+          },
+          "salesConsultations": {
+            "title": "[FIL]Sales Consultations",
+            "description": "[FIL]Convert chat inquiries to voice calls for personalized sales experiences.",
+            "metric1": "[FIL]3x higher conversion",
+            "metric2": "[FIL]Personalized recommendations",
+            "metric3": "[FIL]Trust building"
+          },
+          "appointmentBooking": {
+            "title": "[FIL]Appointment Booking",
+            "description": "[FIL]Enable voice-based appointment scheduling within LINE[FIL] Business accounts.",
+            "metric1": "[FIL]Instant confirmations",
+            "metric2": "[FIL]Calendar integration",
+            "metric3": "[FIL]Automated reminders"
+          }
+        },
+        "integration": {
+          "title": "[FIL]Simple Integration Process",
+          "subtitle": "[FIL]Get started with LINE[FIL] Call Plus in just a few steps",
+          "step1": {
+            "title": "[FIL]Connect LINE[FIL] Business",
+            "description": "[FIL]Link your existing LINE[FIL] Business account or create a new one with our guided setup."
+          },
+          "step2": {
+            "title": "[FIL]Configure Voice Agents",
+            "description": "[FIL]Set up your AI voice agents with custom scripts, voices, and business logic."
+          },
+          "step3": {
+            "title": "[FIL]Go Live",
+            "description": "[FIL]Launch your voice-enabled LINE[FIL] Business account and start engaging customers."
+          }
+        },
+        "analytics": {
+          "title": "[FIL]Comprehensive Analytics",
+          "description": "[FIL]Track performance, understand customer behavior, and optimize your LINE[FIL] voice interactions with detailed analytics and reporting.",
+          "callAnalytics": {
+            "title": "[FIL]Call Analytics",
+            "description": "[FIL]Track call volume, duration, and success rates"
+          },
+          "userEngagement": {
+            "title": "[FIL]User Engagement",
+            "description": "[FIL]Monitor user interactions and satisfaction scores"
+          },
+          "platformInsights": {
+            "title": "[FIL]Platform Insights",
+            "description": "LINE[FIL]-specific metrics and performance data"
+          },
+          "dashboard": {
+            "title": "LINE[FIL] Call Analytics",
+            "live": "[FIL]Live",
+            "activeCalls": "[FIL]Active Calls",
+            "responseRate": "[FIL]Response Rate",
+            "avgCallDuration": "[FIL]Avg. Call Duration",
+            "customerSatisfaction": "[FIL]Customer Satisfaction",
+            "sampleResponse": "[FIL]Japanese voice agent responding to customer"
+          }
+        },
+        "cta": {
+          "title": "[FIL]Ready to Expand in Asia-Pacific?",
+          "description": "[FIL]Connect with millions of LINE[FIL] users and transform your customer engagement across key Asian markets",
+          "button": "[FIL]Start LINE[FIL] Integration"
+        }
+      },
+      "speechToText": {
+        "hero": {
+          "title": "[FIL]Speech-to-Text Technology",
+          "subtitle": "[FIL]Industry-leading speech recognition with 99%+ accuracy. Convert any audio to text in real-time with support for 50+ languages and specialized industry vocabularies.",
+          "cta": "[FIL]Try Speech Recognition"
+        },
+        "features": {
+          "0": {
+            "title": "[FIL]Real-Time Processing",
+            "description": "[FIL]Convert speech to text in real-time with ultra-low latency for live conversations.",
+            "specs": {
+              "0": "[FIL]< 100ms latency",
+              "1": "[FIL]Streaming recognition",
+              "2": "[FIL]Live transcription"
+            }
+          },
+          "1": {
+            "title": "[FIL]Multi-Language Support",
+            "description": "[FIL]Support for 50+ languages and dialects with automatic language detection.",
+            "specs": {
+              "0": "[FIL]50+ languages",
+              "1": "[FIL]Auto-detection",
+              "2": "[FIL]Regional accents"
+            }
+          },
+          "2": {
+            "title": "[FIL]Industry Accuracy",
+            "description": "[FIL]Specialized models trained for different industries and use cases.",
+            "specs": {
+              "0": "[FIL]99%+ accuracy",
+              "1": "[FIL]Domain-specific",
+              "2": "[FIL]Custom vocabularies"
+            }
+          },
+          "title": "[FIL]Advanced Speech Recognition",
+          "subtitle": "[FIL]Built on the original Kaldi framework with modern deep learning enhancements"
+        },
+        "accuracy": {
+          "title": "[FIL]Industry-Leading Accuracy",
+          "subtitle": "[FIL]Specialized models trained for different industries and use cases",
+          "stats": {
+            "0": {
+              "category": "[FIL]General Conversation",
+              "accuracy": "[FIL]99.2%",
+              "improvement": "[FIL]+15%"
+            },
+            "1": {
+              "category": "[FIL]Medical Terminology",
+              "accuracy": "[FIL]98.8%",
+              "improvement": "[FIL]+22%"
+            },
+            "2": {
+              "category": "[FIL]Financial Services",
+              "accuracy": "[FIL]99.1%",
+              "improvement": "[FIL]+18%"
+            },
+            "3": {
+              "category": "[FIL]Technical Support",
+              "accuracy": "[FIL]98.9%",
+              "improvement": "[FIL]+20%"
+            }
+          },
+          "improvementSuffix": "[FIL] vs industry average"
+        },
+        "languages": {
+          "title": "[FIL]Global Language Support",
+          "subtitle": "[FIL]Comprehensive support for major world languages with automatic language detection and regional accent recognition. Our models are continuously trained on diverse datasets to ensure accuracy across different speaking styles and environments.",
+          "features": {
+            "0": {
+              "title": "[FIL]50+ Languages",
+              "description": "[FIL]Major world languages and regional dialects"
+            },
+            "1": {
+              "title": "[FIL]Auto-Detection",
+              "description": "[FIL]Automatic language identification and switching"
+            },
+            "2": {
+              "title": "[FIL]Continuous Learning",
+              "description": "[FIL]Models improve with usage and feedback"
+            }
+          },
+          "supportedTitle": "[FIL]Supported Languages",
+          "supportedLanguages": {
+            "0": "[FIL]English (US, UK, AU)",
+            "1": "[FIL]Spanish (ES, MX, AR)",
+            "2": "[FIL]French (FR, CA)",
+            "3": "[FIL]German",
+            "4": "[FIL]Italian",
+            "5": "[FIL]Portuguese (BR, PT)",
+            "6": "[FIL]Japanese",
+            "7": "[FIL]Korean",
+            "8": "[FIL]Mandarin Chinese",
+            "9": "[FIL]Cantonese",
+            "10": "[FIL]Hindi",
+            "11": "[FIL]Arabic",
+            "12": "[FIL]Russian",
+            "13": "[FIL]Dutch",
+            "14": "[FIL]Swedish",
+            "15": "[FIL]Norwegian"
+          },
+          "customNote": "[FIL]Custom language models available for specialized vocabularies and industry-specific terminology"
+        },
+        "useCases": {
+          "0": {
+            "title": "[FIL]Call Center Transcription",
+            "description": "[FIL]Real-time transcription of customer service calls for quality assurance and training.",
+            "benefits": {
+              "0": "[FIL]Quality monitoring",
+              "1": "[FIL]Compliance recording",
+              "2": "[FIL]Agent training",
+              "3": "[FIL]Customer insights"
+            }
+          },
+          "1": {
+            "title": "[FIL]Meeting Documentation",
+            "description": "[FIL]Automatic transcription of meetings, conferences, and business discussions.",
+            "benefits": {
+              "0": "[FIL]Meeting minutes",
+              "1": "[FIL]Action item extraction",
+              "2": "[FIL]Searchable archives",
+              "3": "[FIL]Multi-speaker ID"
+            }
+          },
+          "2": {
+            "title": "[FIL]Voice Commands",
+            "description": "[FIL]Convert voice commands to text for voice-controlled applications and interfaces.",
+            "benefits": {
+              "0": "[FIL]Hands-free operation",
+              "1": "[FIL]Accessibility features",
+              "2": "[FIL]Smart home control",
+              "3": "[FIL]Mobile apps"
+            }
+          },
+          "3": {
+            "title": "[FIL]Content Creation",
+            "description": "[FIL]Transform audio content into text for podcasts, videos, and media production.",
+            "benefits": {
+              "0": "[FIL]Subtitle generation",
+              "1": "[FIL]Content indexing",
+              "2": "[FIL]SEO optimization",
+              "3": "[FIL]Accessibility compliance"
+            }
+          },
+          "title": "[FIL]Powerful Use Cases",
+          "subtitle": "[FIL]Transform audio into actionable text across industries and applications"
+        },
+        "specs": {
+          "title": "[FIL]Technical Specifications",
+          "subtitle": "[FIL]Enterprise-grade performance and reliability",
+          "performance": {
+            "title": "[FIL]Performance",
+            "latency": {
+              "label": "[FIL]Latency",
+              "value": "[FIL]< 100ms"
+            },
+            "accuracy": {
+              "label": "[FIL]Accuracy",
+              "value": "[FIL]99%+"
+            },
+            "throughput": {
+              "label": "[FIL]Throughput",
+              "value": "[FIL]1000+ concurrent"
+            },
+            "uptime": {
+              "label": "[FIL]Uptime",
+              "value": "[FIL]99.99%"
+            }
+          },
+          "audioFormats": {
+            "title": "[FIL]Audio Formats",
+            "sampleRate": {
+              "label": "[FIL]Sample Rate",
+              "value": "[FIL]8-48 kHz"
+            },
+            "bitDepth": {
+              "label": "[FIL]Bit Depth",
+              "value": "[FIL]16-32 bit"
+            },
+            "formats": {
+              "label": "[FIL]Formats",
+              "value": "[FIL]WAV, MP3, FLAC"
+            },
+            "streaming": {
+              "label": "[FIL]Streaming",
+              "value": "[FIL]Real-time"
+            }
+          },
+          "integration": {
+            "title": "[FIL]Integration",
+            "api": {
+              "label": "[FIL]API",
+              "value": "[FIL]REST & WebSocket"
+            },
+            "sdks": {
+              "label": "[FIL]SDKs",
+              "value": "[FIL]Python, Node.js, Go"
+            },
+            "webhooks": {
+              "label": "[FIL]Webhooks",
+              "value": "[FIL]Real-time events"
+            },
+            "security": {
+              "label": "[FIL]Security",
+              "value": "[FIL]TLS 1.3, OAuth 2.0"
+            }
+          }
+        },
+        "cta": {
+          "title": "[FIL]Ready to Transform Audio to Text?",
+          "subtitle": "[FIL]Experience the power of industry-leading speech recognition technology",
+          "primaryButton": "[FIL]Try Free Demo",
+          "secondaryButton": "[FIL]View API Docs"
+        }
+      },
+      "voipSipByoc": {
+        "hero": {
+          "title": "[FIL]VoIP, SIP & BYOC Voice Solutions",
+          "subtitle": "[FIL]Enterprise-grade voice connectivity with maximum flexibility. Choose from VoIP integration, direct SIP trunking, or bring your own carrier for complete control.",
+          "cta": "[FIL]Talk to Connectivity Specialist"
+        },
+        "connectionTypes": {
+          "title": "[FIL]Flexible Connectivity Options",
+          "subtitle": "[FIL]Choose the connection method that best fits your infrastructure and requirements",
+          "keyFeatures": "[FIL]Key Features:",
+          "voip": {
+            "title": "[FIL]VoIP Integration",
+            "description": "[FIL]Connect your existing VoIP infrastructure seamlessly with our AI voice platform.",
+            "features": {
+              "sipTrunk": "[FIL]SIP trunk compatibility",
+              "codecOptimization": "[FIL]Codec optimization",
+              "qos": "[FIL]Quality of Service (QoS)",
+              "bandwidthManagement": "[FIL]Bandwidth management"
+            },
+            "pricing": "[FIL]Starting at $0.08/minute"
+          },
+          "sip": {
+            "title": "[FIL]SIP Trunking",
+            "description": "[FIL]Direct SIP connectivity for maximum control and customization of your voice traffic.",
+            "features": {
+              "directEndpoints": "[FIL]Direct SIP endpoints",
+              "customRouting": "[FIL]Custom routing rules",
+              "failoverProtection": "[FIL]Failover protection",
+              "realTimeMonitoring": "[FIL]Real-time monitoring"
+            },
+            "pricing": "[FIL]Starting at $0.06/minute"
+          },
+          "byoc": {
+            "title": "[FIL]Bring Your Own Carrier (BYOC)",
+            "description": "[FIL]Use your preferred carriers while leveraging our AI voice capabilities.",
+            "features": {
+              "carrierIndependence": "[FIL]Carrier independence",
+              "costOptimization": "[FIL]Cost optimization",
+              "globalReach": "[FIL]Global reach",
+              "vendorFlexibility": "[FIL]Vendor flexibility"
+            },
+            "pricing": "[FIL]Platform fee + carrier rates"
+          }
+        },
+        "benefits": {
+          "title": "[FIL]Enterprise Benefits",
+          "subtitle": "[FIL]Why leading enterprises choose our voice connectivity solutions",
+          "costSavings": {
+            "title": "[FIL]Cost Savings",
+            "description": "[FIL]Reduce communication costs by up to 60% with optimized routing and carrier selection.",
+            "metric": "[FIL]60%"
+          },
+          "reliability": {
+            "title": "[FIL]Reliability",
+            "description": "[FIL]Enterprise-grade uptime with automatic failover and redundant infrastructure.",
+            "metric": "[FIL]99.99%"
+          },
+          "scalability": {
+            "title": "[FIL]Scalability",
+            "description": "[FIL]Handle thousands of concurrent calls with elastic scaling capabilities.",
+            "metric": "[FIL]10,000+"
+          },
+          "globalReach": {
+            "title": "[FIL]Global Reach",
+            "description": "[FIL]Connect to customers worldwide with local presence in major markets.",
+            "metric": "[FIL]200+"
+          }
+        },
+        "technicalExcellence": {
+          "title": "[FIL]Technical Excellence",
+          "subtitle": "[FIL]Built on industry-standard protocols with enterprise-grade security and performance. Our platform supports all major codecs and provides real-time quality monitoring.",
+          "endToEndEncryption": {
+            "title": "[FIL]End-to-End Encryption",
+            "description": "[FIL]TLS 1.3 and SRTP for secure voice transmission"
+          },
+          "lowLatency": {
+            "title": "[FIL]Low Latency",
+            "description": "[FIL]Sub-150ms latency for crystal clear conversations"
+          },
+          "advancedConfiguration": {
+            "title": "[FIL]Advanced Configuration",
+            "description": "[FIL]Granular control over routing and quality settings"
+          }
+        },
+        "technicalSpecs": {
+          "title": "[FIL]Technical Specifications",
+          "supportedProtocols": {
+            "feature": "[FIL]Supported Protocols",
+            "value": "[FIL]SIP 2.0, RTP, SRTP"
+          },
+          "audioCodecs": {
+            "feature": "[FIL]Audio Codecs",
+            "value": "[FIL]G.711, G.722, G.729, Opus"
+          },
+          "encryption": {
+            "feature": "[FIL]Encryption",
+            "value": "[FIL]TLS 1.3, SRTP, AES-256"
+          },
+          "networkRequirements": {
+            "feature": "[FIL]Network Requirements",
+            "value": "[FIL]100 kbps per concurrent call"
+          },
+          "latency": {
+            "feature": "[FIL]Latency",
+            "value": "[FIL]< 150ms end-to-end"
+          },
+          "jitterBuffer": {
+            "feature": "[FIL]Jitter Buffer",
+            "value": "[FIL]Adaptive, 20-200ms"
+          }
+        },
+        "howItWorks": {
+          "title": "[FIL]How It Works",
+          "subtitle": "[FIL]Simple integration with your existing infrastructure",
+          "yourInfrastructure": {
+            "title": "[FIL]Your Infrastructure",
+            "description": "[FIL]Existing PBX, VoIP system, or carrier"
+          },
+          "seavoicePlatform": {
+            "title": "SeaVoice[FIL] Platform",
+            "description": "[FIL]AI voice processing and routing"
+          },
+          "globalNetwork": {
+            "title": "[FIL]Global Network",
+            "description": "[FIL]Worldwide carrier connections"
+          }
+        },
+        "cta": {
+          "title": "[FIL]Ready to Optimize Your Voice Infrastructure?",
+          "subtitle": "[FIL]Speak with our connectivity specialists to design the perfect solution for your needs",
+          "scheduleConsultation": "[FIL]Schedule Consultation",
+          "signUpForFree": "[FIL]Sign Up For Free"
+        }
+      },
+      "whatsAppVoice": {
+        "hero": {
+          "title": "WhatsApp[FIL] Voice API for Businesses",
+          "subtitle": "[FIL]Transform your WhatsApp[FIL] Business account with AI-powered voice calling. Reach 2+ billion users worldwide with seamless voice interactions.",
+          "cta": "[FIL]Get WhatsApp[FIL] Business Platform API"
+        },
+        "globalStats": {
+          "title": "[FIL]Reach the World's Largest Messaging Platform",
+          "subtitle": "WhatsApp[FIL] dominates global messaging with unprecedented reach and engagement",
+          "stats": {
+            "0": {
+              "region": "[FIL]Global Users",
+              "count": "[FIL]2.78B+",
+              "growth": "[FIL]+3.2% YoY"
+            },
+            "1": {
+              "region": "[FIL]Business Accounts",
+              "count": "[FIL]200M+",
+              "growth": "[FIL]+15% YoY"
+            },
+            "2": {
+              "region": "[FIL]Daily Messages",
+              "count": "[FIL]100B+",
+              "growth": "[FIL]+8% YoY"
+            },
+            "3": {
+              "region": "[FIL]Countries",
+              "count": "[FIL]180+",
+              "growth": "[FIL]Full Coverage"
+            }
+          }
+        },
+        "features": {
+          "0": {
+            "title": "WhatsApp[FIL] Business Platform API",
+            "description": "[FIL]Official integration with WhatsApp[FIL] Business Platform API for verified business communications.",
+            "benefits": {
+              "0": "[FIL]Green checkmark verification",
+              "1": "[FIL]Business profile features",
+              "2": "[FIL]Message templates"
+            }
+          },
+          "1": {
+            "title": "[FIL]Global Reach",
+            "description": "[FIL]Connect with 2+ billion WhatsApp[FIL] users worldwide through voice calling.",
+            "benefits": {
+              "0": "[FIL]180+ countries supported",
+              "1": "[FIL]Multi-language capabilities",
+              "2": "[FIL]Local number presence"
+            }
+          },
+          "2": {
+            "title": "[FIL]End-to-End Security",
+            "description": "[FIL]Leverage WhatsApp[FIL]'s end-to-end encryption for secure business communications.",
+            "benefits": {
+              "0": "[FIL]Message encryption",
+              "1": "[FIL]Secure voice calls",
+              "2": "[FIL]Privacy compliance"
+            }
+          },
+          "title": "[FIL]Enterprise WhatsApp[FIL] Voice Features",
+          "subtitle": "[FIL]Everything you need to provide exceptional voice experiences on WhatsApp"
+        },
+        "useCases": {
+          "0": {
+            "title": "[FIL]Customer Support",
+            "description": "[FIL]Provide instant voice support directly within WhatsApp[FIL] conversations.",
+            "metrics": {
+              "0": "[FIL]60% faster resolution",
+              "1": "[FIL]95% customer satisfaction",
+              "2": "[FIL]Seamless escalation"
+            }
+          },
+          "1": {
+            "title": "[FIL]Sales & Consultations",
+            "description": "[FIL]Convert chat inquiries to voice calls for personalized sales experiences.",
+            "metrics": {
+              "0": "[FIL]4x higher conversion",
+              "1": "[FIL]Personal touch",
+              "2": "[FIL]Trust building"
+            }
+          },
+          "2": {
+            "title": "[FIL]Appointment Booking",
+            "description": "[FIL]Enable voice-based appointment scheduling within WhatsApp[FIL] Business Platform.",
+            "metrics": {
+              "0": "[FIL]One-tap booking",
+              "1": "[FIL]Calendar sync",
+              "2": "[FIL]Automated confirmations"
+            }
+          },
+          "3": {
+            "title": "[FIL]Order Management",
+            "description": "[FIL]Handle order inquiries, updates, and support through voice interactions.",
+            "metrics": {
+              "0": "[FIL]Real-time updates",
+              "1": "[FIL]Order tracking",
+              "2": "[FIL]Issue resolution"
+            }
+          },
+          "title": "[FIL]Transform Customer Interactions",
+          "subtitle": "[FIL]See how businesses use WhatsApp[FIL] Voice API to enhance customer relationships"
+        },
+        "integration": {
+          "title": "[FIL]Simple Integration Process",
+          "subtitle": "[FIL]Get started with WhatsApp[FIL] Voice API in just four steps",
+          "steps": {
+            "0": {
+              "title": "WhatsApp[FIL] Business Setup",
+              "description": "[FIL]Connect your WhatsApp[FIL] Business account or create a new verified business profile."
+            },
+            "1": {
+              "title": "[FIL]Voice Agent Configuration",
+              "description": "[FIL]Configure AI voice agents with your business logic, scripts, and brand voice."
+            },
+            "2": {
+              "title": "[FIL]API Integration",
+              "description": "[FIL]Integrate with your existing systems using our comprehensive API and webhooks."
+            },
+            "3": {
+              "title": "[FIL]Go Live",
+              "description": "[FIL]Launch your voice-enabled WhatsApp[FIL] Business and start engaging customers."
+            }
+          }
+        },
+        "demo": {
+          "title": "[FIL]See It in Action",
+          "subtitle": "[FIL]Experience how seamlessly voice calling integrates with WhatsApp[FIL] Business Platform. Our AI agents can handle complex conversations while maintaining the familiar WhatsApp[FIL] experience your customers love.",
+          "features": {
+            "0": {
+              "title": "[FIL]One-Tap Calling",
+              "description": "[FIL]Customers can initiate voice calls directly from chat"
+            },
+            "1": {
+              "title": "[FIL]Seamless Handoff",
+              "description": "[FIL]Smooth transition between AI and human agents"
+            },
+            "2": {
+              "title": "[FIL]Unified History",
+              "description": "[FIL]Complete conversation history across chat and voice"
+            }
+          },
+          "dashboard": {
+            "title": "WhatsApp[FIL] Business Dashboard",
+            "liveStatus": "[FIL]Live",
+            "stats": {
+              "activeVoiceCalls": {
+                "label": "[FIL]Active Voice Calls",
+                "value": "[FIL]89"
+              },
+              "messagesToday": {
+                "label": "[FIL]Messages Today",
+                "value": "[FIL]2,847"
+              },
+              "responseRate": {
+                "label": "[FIL]Response Rate",
+                "value": "[FIL]96%"
+              },
+              "customerSatisfaction": {
+                "label": "[FIL]Customer Satisfaction",
+                "value": "[FIL]4.9/5"
+              }
+            }
+          },
+          "aiAssistant": {
+            "name": "[FIL]AI Assistant",
+            "message": "[FIL]Hi! I'm here to help with your order. Would you like to speak with me directly? Just tap the call button above!"
+          }
+        },
+        "cta": {
+          "title": "[FIL]Ready to Transform WhatsApp[FIL] Business?",
+          "subtitle": "[FIL]Join thousands of businesses using WhatsApp[FIL] Voice API to provide exceptional customer experiences",
+          "primaryButton": "[FIL]Get Started Today",
+          "secondaryButton": "[FIL]Schedule Demo"
+        }
+      }
+    },
+    "components": {
+      "interactiveCallDashboard": {
+        "liveDashboard": "[FIL]Live Dashboard",
+        "controlCenter": "[FIL]Control Center",
+        "realTimeAnalytics": "[FIL]Real-Time Analytics",
+        "description": "[FIL]Watch our AI voice platform handle thousands of simultaneous calls with human-like conversations and real-time analytics.",
+        "bookDemo": "[FIL]Book a Demo",
+        "controlCenterTitle": "SeaVoice[FIL] Control Center",
+        "live": "[FIL]Live",
+        "activeCalls": "[FIL]Active Calls",
+        "avgQueueTime": "[FIL]Avg Queue Time",
+        "resolutionRate": "[FIL]Resolution Rate",
+        "availability": "[FIL]Availability",
+        "globalCallActivity": "[FIL]Global Call Activity",
+        "recentConversations": "[FIL]Recent Conversations",
+        "customerInquiryResolved": "[FIL]Customer inquiry resolved",
+        "appointmentScheduled": "[FIL]Appointment scheduled",
+        "paymentProcessed": "[FIL]Payment processed",
+        "supportTicketCreated": "[FIL]Support ticket created",
+        "justNow": "[FIL]Just now",
+        "concurrentCalls": "[FIL]Concurrent Calls",
+        "uptime": "[FIL]Uptime",
+        "conversations": {
+          "appointmentRequest": "[FIL]Hi, I'd like to schedule an appointment",
+          "techCorpGreeting": "[FIL]Thank you for calling TechCorp...",
+          "orderTracking": "[FIL]Can you help me track my order?",
+          "availabilityResponse": "[FIL]I'm available Tuesday at 2 PM"
+        }
+      },
+      "voiceDemo": {
+        "demos": {
+          "restaurant": {
+            "title": "[FIL]Restaurant reservation booking",
+            "description": "[FIL]AI handles table bookings, availability checks, and special requests"
+          },
+          "insurance": {
+            "title": "[FIL]Insurance verification call",
+            "description": "[FIL]Automated insurance verification and claim processing"
+          },
+          "techSupport": {
+            "title": "[FIL]Tech support",
+            "description": "[FIL]Technical troubleshooting and customer support automation"
+          },
+          "salesLead": {
+            "title": "[FIL]Sales lead qualification",
+            "description": "[FIL]Intelligent lead qualification and sales funnel management"
+          },
+          "realEstate": {
+            "title": "[FIL]Real estate inquiry handling",
+            "description": "[FIL]Property inquiries, scheduling viewings, and client management"
+          },
+          "donation": {
+            "title": "[FIL]Donation campaign outreach",
+            "description": "[FIL]Fundraising campaigns and donor engagement automation"
+          }
+        },
+        "seekTooltip": "[FIL]Click to seek"
+      }
+    }
+  }
+}
