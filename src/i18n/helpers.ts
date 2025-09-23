@@ -141,7 +141,7 @@ function createTranslationFunction(translations: any, lang?: SupportedLanguage, 
       }
     }
     
-    return key; // 找不到翻譯時返回 key
+    // return key; // 找不到翻譯時返回 key
     
     // 如果參數中包含 returnObjects: true，直接返回結果
     if (params?.returnObjects === true) {
@@ -163,7 +163,8 @@ function createTranslationFunction(translations: any, lang?: SupportedLanguage, 
       return result;
     }
     
-    return key;
+    // return key;
+    return null;
   };
 }
 
