@@ -46,6 +46,42 @@ const channels = [
   { title: t('header.channelsDropdown.websiteWidget'), path: '/channels/website-widget', icon: 'Monitor' }
 ];
 
+// Emoji mapping for default header icons
+const solutionEmoji: Record<string, string> = {
+  TrendingUp: '📈',
+  Headphones: '🎧',
+  Bot: '🤖',
+  Building2: '🏢'
+};
+
+const industryEmoji: Record<string, string> = {
+  ShoppingCart: '🛒',
+  Heart: '❤️',
+  Home: '🏠',
+  Utensils: '🍽️',
+  GraduationCap: '🎓',
+  Car: '🚗',
+  Briefcase: '💼',
+  Building: '🏢'
+};
+
+// Brand logo URLs (Simple Icons CDN) for channel items
+const channelLogoMap: Record<string, { url: string; alt: string }> = {
+  '/channels/whatsapp': { url: 'https://cdn.simpleicons.org/whatsapp/25D366', alt: 'WhatsApp' },
+  '/channels/instagram': { url: 'https://cdn.simpleicons.org/instagram/E4405F', alt: 'Instagram' },
+  '/channels/facebook-messenger': { url: 'https://cdn.simpleicons.org/messenger/00B2FF', alt: 'Facebook Messenger' },
+  '/channels/line': { url: 'https://cdn.simpleicons.org/line/00C300', alt: 'LINE' }
+};
+
+// Emoji mapping for non-brand channels
+const nonBrandEmoji: Record<string, string> = {
+  '/channels/phone-calls': '📞',
+  '/channels/sms': '✉️',
+  '/channels/website-chat': '💬',
+  '/channels/website-widget': '🧩',
+  '/channels/contact-forms': '📝'
+};
+
 const competitors = [
   { title: 'vs. Aircall', path: '/compare/aircall-alternative' },
   { title: 'vs. RingCentral', path: '/compare/ringcentral-alternative' },
@@ -134,12 +170,12 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
             data-dropdown-menu="solutions"
           >
             <!-- Existing Solutions -->
-            {solutions.map((solution) => (
+{solutions.map((solution) => (
               <a 
                 href={`/${lang}${solution.path}`}
                 class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
               >
-                <Fragment set:html={getIcon(solution.icon, 'h-5 w-5 text-gray-400')} />
+                <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="solution-icon">{solutionEmoji[solution.icon] || '✨'}</span>
                 {solution.title}
               </a>
             ))}
@@ -238,12 +274,12 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
             class="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
             data-dropdown-menu="industries"
           >
-            {industries.map((industry) => (
+{industries.map((industry) => (
               <a 
                 href={`/${lang}${industry.path}`}
                 class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
               >
-                <Fragment set:html={getIcon(industry.icon, 'h-5 w-5 text-gray-400')} />
+                <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="industry-icon">{industryEmoji[industry.icon] || '⭐'}</span>
                 {industry.title}
               </a>
             ))}
@@ -265,15 +301,25 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
             class="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
             data-dropdown-menu="channels"
           >
-            {channels.map((channel) => (
-              <a 
-                href={`/${lang}${channel.path}`}
-                class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
-              >
-                <Fragment set:html={getIcon(channel.icon, 'h-5 w-5 text-gray-400')} />
-                {channel.title}
-              </a>
-            ))}
+{channels.map((channel) => {
+              const brand = channelLogoMap[channel.path];
+              const emoji = nonBrandEmoji[channel.path];
+              return (
+                <a 
+                  href={`/${lang}${channel.path}`}
+                  class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                >
+                  {brand ? (
+                    <img src={brand.url} alt={brand.alt} class="h-5 w-5" loading="lazy" />
+                  ) : emoji ? (
+                    <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="channel-emoji">{emoji}</span>
+                  ) : (
+                    <Fragment set:html={getIcon(channel.icon, 'h-5 w-5 text-gray-400')} />
+                  )}
+                  {channel.title}
+                </a>
+              );
+            })}
           </div>
         </div>
 

@@ -149,7 +149,30 @@ const getIcon = (iconName: string, iconText?: string) => {
     'dollar-sign': `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path></svg>`
   };
   
-  return icons[iconName] || '';
+return icons[iconName] || '';
+};
+
+// Brand logos for channel items
+const getBrandLogo = (href: string) => {
+  if (href && href.includes('/seax/channels/whatsapp')) {
+    return { url: 'https://cdn.simpleicons.org/whatsapp/25D366', alt: 'WhatsApp' };
+  }
+  return null;
+};
+
+// Emoji mappings for non-brand icons
+const iconEmojiMap: Record<string, string> = {
+  'phone': '📞',
+  'target': '🎯',
+  'zap': '⚡️',
+  'users': '👥',
+  'calendar': '🗓️',
+  'alert-triangle': '⚠️',
+  'shopping-cart': '🛒',
+  'building': '🏢',
+  'vote': '🗳️',
+  'heart': '❤️',
+  'dollar-sign': '💵'
 };
 
 // Helper function to get the correct Wiki URL based on language
@@ -204,9 +227,15 @@ const getWikiUrl = () => {
 														? 'text-gray-600 pl-8' 
 														: 'text-gray-700'
 											}`}>
-												{(subItem.icon || subItem.iconText) && (
-													<div class="flex items-center justify-center w-5 h-5 mr-3 flex-shrink-0" set:html={getIcon(subItem.icon, subItem.iconText)} />
-												)}
+{(subItem.icon || subItem.iconText) && (
+                    subItem.iconText ? (
+                      <span class="text-xs font-mono font-bold text-blue-600 w-5 h-5 mr-3 flex items-center justify-center">{subItem.iconText}</span>
+                    ) : getBrandLogo(subItem.href) ? (
+                      <img src={getBrandLogo(subItem.href).url} alt={getBrandLogo(subItem.href).alt} class="w-5 h-5 mr-3 flex-shrink-0" loading="lazy" />
+                    ) : (
+                      <span class="w-5 h-5 mr-3 flex items-center justify-center text-base" role="img" aria-label="emoji">{iconEmojiMap[subItem.icon] || '⭐'}</span>
+                    )
+                  )}
 												<span>{subItem.name}</span>
 											</a>
 										))}
@@ -312,9 +341,15 @@ const getWikiUrl = () => {
 													? 'text-gray-600 pl-6' 
 													: 'text-gray-600'
 										}`}>
-											{(subItem.icon || subItem.iconText) && (
-												<div class="flex items-center justify-center w-5 h-5 mr-3 flex-shrink-0" set:html={getIcon(subItem.icon, subItem.iconText)} />
-											)}
+{(subItem.icon || subItem.iconText) && (
+                      subItem.iconText ? (
+                        <span class="text-xs font-mono font-bold text-blue-600 w-5 h-5 mr-3 flex items-center justify-center">{subItem.iconText}</span>
+                      ) : getBrandLogo(subItem.href) ? (
+                        <img src={getBrandLogo(subItem.href).url} alt={getBrandLogo(subItem.href).alt} class="w-5 h-5 mr-3 flex-shrink-0" loading="lazy" />
+                      ) : (
+                        <span class="w-5 h-5 mr-3 flex items-center justify-center text-base" role="img" aria-label="emoji">{iconEmojiMap[subItem.icon] || '⭐'}</span>
+                      )
+                    )}
 											<span>{subItem.name}</span>
 										</a>
 									))}

@@ -94,6 +94,53 @@ const outboundSolutionItems = [
   { name: t('seavoice.header.navigation.outboundSolutions.fraudAlerts') || 'Fraud Alerts', href: `/${lang}/seavoice/solutions/outbound/fraud-alerts`, icon: 'AlertTriangle' }
 ];
 
+// Brand logos for channel-like items in SeaVoice (platform)
+const getBrandLogo = (href: string) => {
+  if (href.endsWith('/seavoice/platform/whatsapp-voice')) {
+    return { url: 'https://cdn.simpleicons.org/whatsapp/25D366', alt: 'WhatsApp' };
+  }
+  if (href.endsWith('/seavoice/platform/line-call-plus')) {
+    return { url: 'https://cdn.simpleicons.org/line/00C300', alt: 'LINE' };
+  }
+  return null;
+};
+
+// Emoji mappings
+const platformEmoji: Record<string, string> = {
+  Monitor: '🖥️',
+  Phone: '📞',
+  Wifi: '📶',
+  PhoneCall: '📞',
+  MessageCircle: '💬',
+  AudioLines: '🎙️',
+  Volume2: '🔊',
+  Brain: '🧠'
+};
+
+const inboundEmoji: Record<string, string> = {
+  Bot: '🤖',
+  ArrowRightLeft: '🔁',
+  Zap: '⚡️',
+  Heart: '❤️',
+  Shield: '🛡️',
+  Headphones: '🎧',
+  Package: '📦',
+  CreditCard: '💳',
+  Calendar: '🗓️'
+};
+
+const outboundEmoji: Record<string, string> = {
+  Target: '🎯',
+  DollarSign: '💵',
+  UserCheck: '✅',
+  Clock: '⏰',
+  Megaphone: '📣',
+  Headset: '🎧',
+  RefreshCw: '🔄',
+  FileText: '📄',
+  AlertTriangle: '⚠️'
+};
+
 // Check if current path matches
 const isActivePath = (path: string) => {
   return currentPath === path;
@@ -162,7 +209,11 @@ const isActiveSection = (section: string) => {
                       : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'
                   }`}
                 >
-                  <Fragment set:html={getIcon(item.icon, 'w-4 h-4 mr-2')} />
+{getBrandLogo(item.href) ? (
+                  <img src={getBrandLogo(item.href).url} alt={getBrandLogo(item.href).alt} class="w-4 h-4 mr-2" loading="lazy" />
+                ) : (
+                  <span class="w-4 h-4 mr-2 flex items-center justify-center text-base" role="img" aria-label="platform-emoji">{platformEmoji[item.icon] || '⭐'}</span>
+                )}
                   {item.name}
                 </a>
               ))}
@@ -201,7 +252,7 @@ const isActiveSection = (section: string) => {
                       : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'
                   }`}
                 >
-                  <Fragment set:html={getIcon(item.icon, 'w-4 h-4 mr-2 text-blue-600')} />
+<span class="w-4 h-4 mr-2 flex items-center justify-center text-base" role="img" aria-label="inbound-emoji">{inboundEmoji[item.icon] || '⭐'}</span>
                   {item.name}
                 </a>
               ))}
@@ -240,7 +291,7 @@ const isActiveSection = (section: string) => {
                       : 'text-gray-700 hover:bg-teal-50 hover:text-teal-600'
                   }`}
                 >
-                  <Fragment set:html={getIcon(item.icon, 'w-4 h-4 mr-2 text-teal-600')} />
+<span class="w-4 h-4 mr-2 flex items-center justify-center text-base" role="img" aria-label="outbound-emoji">{outboundEmoji[item.icon] || '⭐'}</span>
                   {item.name}
                 </a>
               ))}
@@ -344,7 +395,11 @@ const isActiveSection = (section: string) => {
                 href={item.href}
                 class="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-md"
               >
-                <Fragment set:html={getIcon(item.icon, 'w-4 h-4 mr-2')} />
+{getBrandLogo(item.href) ? (
+                <img src={getBrandLogo(item.href).url} alt={getBrandLogo(item.href).alt} class="w-4 h-4 mr-2" loading="lazy" />
+              ) : (
+                <span class="w-4 h-4 mr-2 flex items-center justify-center text-base" role="img" aria-label="platform-emoji">{platformEmoji[item.icon] || '⭐'}</span>
+              )}
                 {item.name}
               </a>
             ))}
@@ -369,7 +424,7 @@ const isActiveSection = (section: string) => {
                 href={item.href}
                 class="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-md"
               >
-                <Fragment set:html={getIcon(item.icon, 'w-4 h-4 mr-2')} />
+<span class="w-4 h-4 mr-2 flex items-center justify-center text-base" role="img" aria-label="inbound-emoji">{inboundEmoji[item.icon] || '⭐'}</span>
                 {item.name}
               </a>
             ))}
@@ -394,7 +449,7 @@ const isActiveSection = (section: string) => {
                 href={item.href}
                 class="flex items-center px-3 py-2 text-sm text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-md"
               >
-                <Fragment set:html={getIcon(item.icon, 'w-4 h-4 mr-2')} />
+<span class="w-4 h-4 mr-2 flex items-center justify-center text-base" role="img" aria-label="outbound-emoji">{outboundEmoji[item.icon] || '⭐'}</span>
                 {item.name}
               </a>
             ))}

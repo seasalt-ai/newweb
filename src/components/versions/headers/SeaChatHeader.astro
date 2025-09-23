@@ -145,6 +145,40 @@ const solutionsDropdown = [
   }
 ];
 
+// Emoji mappings for SeaChat header
+const featureEmoji: Record<string, string> = {
+  Users: '👥',
+  Bot: '🤖',
+  Brain: '🧠',
+  Database: '🗄️',
+  Phone: '📞',
+  BarChart3: '📊',
+  MessageSquare: '💬',
+  Code: '🧩'
+};
+
+const integrationEmoji: Record<string, string> = {
+  Globe: '🌐',
+  Users: '👥',
+  ShoppingCart: '🛒',
+  MessageSquare: '💬',
+  Phone: '📞',
+  BarChart3: '📊',
+  Settings: '⚙️',
+  Code: '🧩'
+};
+
+const solutionEmoji: Record<string, string> = {
+  ShoppingCart: '🛒',
+  Heart: '❤️',
+  DollarSign: '💵',
+  GraduationCap: '🎓',
+  Building2: '🏢',
+  Briefcase: '💼',
+  MapPin: '📍',
+  Monitor: '🖥️'
+};
+
 // Helper function to render SVG icons
 const getIcon = (iconName: string, className = 'w-4 h-4') => {
   const icons = {
@@ -235,7 +269,7 @@ const isActiveSection = (section: string) => {
                 href={feature.href}
                 class="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors"
               >
-                <Fragment set:html={getIcon(feature.icon, 'h-4 w-4 mr-3 text-teal-600')} />
+<span class="h-4 w-4 mr-3 flex items-center justify-center text-base" role="img" aria-label="feature-emoji">{featureEmoji[feature.icon] || '✨'}</span>
                 {feature.name}
               </a>
             ))}
@@ -262,7 +296,7 @@ const isActiveSection = (section: string) => {
                 href={integration.href}
                 class="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors"
               >
-                <Fragment set:html={getIcon(integration.icon, 'h-4 w-4 mr-3 text-teal-600')} />
+<span class="h-4 w-4 mr-3 flex items-center justify-center text-base" role="img" aria-label="integration-emoji">{integrationEmoji[integration.icon] || '✨'}</span>
                 {integration.name}
               </a>
             ))}
@@ -289,7 +323,7 @@ const isActiveSection = (section: string) => {
                 href={solution.href}
                 class="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-teal-50 hover:text-teal-600 transition-colors"
               >
-                <Fragment set:html={getIcon(solution.icon, 'h-4 w-4 mr-3 text-teal-600')} />
+<span class="h-4 w-4 mr-3 flex items-center justify-center text-base" role="img" aria-label="solution-emoji">{solutionEmoji[solution.icon] || '✨'}</span>
                 {solution.name}
               </a>
             ))}
@@ -431,7 +465,7 @@ const isActiveSection = (section: string) => {
                       : 'text-gray-600 hover:text-blue-600'
                   }`}
                 >
-                  <Fragment set:html={getIcon(item.icon, 'w-4 h-4 mr-3 text-blue-600')} />
+<span class="w-4 h-4 mr-3 flex items-center justify-center text-base" role="img" aria-label="feature-emoji">{featureEmoji[item.icon] || '✨'}</span>
                   {item.name}
                 </a>
               ))}
@@ -463,7 +497,7 @@ const isActiveSection = (section: string) => {
                       : 'text-gray-600 hover:text-blue-600'
                   }`}
                 >
-                  <Fragment set:html={getIcon(item.icon, 'w-4 h-4 mr-3 text-blue-600')} />
+<span class="w-4 h-4 mr-3 flex items-center justify-center text-base" role="img" aria-label="integration-emoji">{integrationEmoji[item.icon] || '✨'}</span>
                   {item.name}
                 </a>
               ))}
@@ -496,7 +530,7 @@ const isActiveSection = (section: string) => {
                       : 'text-gray-600 hover:text-blue-600'
                   }`}
                 >
-                  <Fragment set:html={getIcon(item.icon, 'w-4 h-4 mr-3 text-blue-600')} />
+<span class="w-4 h-4 mr-3 flex items-center justify-center text-base" role="img" aria-label="solution-emoji">{solutionEmoji[item.icon] || '✨'}</span>
                   {item.name}
                 </a>
               ))}
