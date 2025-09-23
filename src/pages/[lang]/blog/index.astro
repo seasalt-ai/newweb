@@ -1,15 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
-import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { getTranslationHelpers, toBcp47LanguageTag, normalizeContentLangToRouteLang, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
 
 // 生成所有支持的語言路徑
 export async function getStaticPaths() {
-  const supportedLocales = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi', 'ro'
-  ];
-  
+  // 僅用支援的語言（不再包含 ro）
   return supportedLocales.map((lang) => ({
     params: { lang }
   }));
@@ -22,9 +18,10 @@ const { t, translations } = await getTranslationHelpers(currentLang);
 
 // 獲取當前語言的 blog 文章
 const allBlogPosts = await getCollection('blog', ({ data, id }) => {
-  // 從文件路徑中提取語言 (blog/en/post-name.md -> en)
-  const postLang = id.split('/')[0];
-  return data.draft !== true && postLang === currentLang;
+  // 從文件路徑中提取內容語言 (blog/en/post-name.md -> en)，再標準化到路由語言
+  const contentLang = id.split('/')[0];
+  const routeLang = normalizeContentLangToRouteLang(contentLang);
+  return data.draft !== true && routeLang === currentLang;
 });
 
 // 為每篇文章處理並渲柔內容，用於提取圖片
@@ -67,6 +64,9 @@ const allTags = Array.from(new Set(
   sortedPosts.flatMap(post => post.data.tags || [])
 )).sort();
 
+// 用於日期等 API 的 BCP47 語言代碼
+const bcp47 = toBcp47LanguageTag(currentLang);
+
 // 生成結構化資料
 const structuredData = {
   "@context": "https://schema.org",
@@ -108,8 +108,8 @@ const description = t('blog.seo.description') || t('blog.hero.description') || '
       <section class="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="text-center mb-16 flex flex-col">
-            <a 
-              href={`/${currentLang}`} 
+<a 
+href={`/${currentLang}`}
               class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-6 sm:mb-8"
             >
               <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -171,18 +171,18 @@ const description = t('blog.seo.description') || t('blog.hero.description') || '
             ) : (
               <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8" id="posts-grid">
                 {sortedPosts.map((post) => {
-                  const publishDate = new Date(post.data.publishDate).toLocaleDateString(
-                    currentLang === 'zh-tw' ? 'zh-TW' : currentLang === 'zh-cn' ? 'zh-CN' : currentLang, 
-                    {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric'
-                    }
-                  );
+const publishDate = new Date(post.data.publishDate).toLocaleDateString(
+  bcp47,
+  {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  }
+);
                   
-                  const updatedDate = post.data.updatedDate ? new Date(post.data.updatedDate).toLocaleDateString(
-                    currentLang === 'zh-tw' ? 'zh-TW' : currentLang === 'zh-cn' ? 'zh-CN' : currentLang
-                  ) : null;
+const updatedDate = post.data.updatedDate ? new Date(post.data.updatedDate).toLocaleDateString(
+  bcp47
+) : null;
 
                   return (
                     <article 
@@ -232,7 +232,7 @@ const description = t('blog.seo.description') || t('blog.hero.description') || '
                         </div>
                         
                         <h2 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-blue-600 transition-colors duration-200">
-                          <a href={`/${currentLang}/blog/${post.slug.split('/')[1]}`}>
+<a href={`/${currentLang}/blog/${post.slug.split('/')[1]}`}>
                             {post.data.title}
                           </a>
                         </h2>
@@ -263,7 +263,7 @@ const description = t('blog.seo.description') || t('blog.hero.description') || '
                         )}
                         
                         <a
-                          href={`/${currentLang}/blog/${post.slug.split('/')[1]}`}
+href={`/${currentLang}/blog/${post.slug.split('/')[1]}`}
                           class="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
                         >
                           {t('blog.post.readMore') || 'Read More →'}

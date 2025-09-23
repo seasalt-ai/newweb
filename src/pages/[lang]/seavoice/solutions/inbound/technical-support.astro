@@ -1,12 +1,10 @@
 ---
-import { getTranslationHelpers, type SupportedLanguage } from '../../../../../i18n/helpers';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
 import Layout from '../../../../../layouts/Layout.astro';
-import { getSupportedLanguages, getLocalizedPath } from '../../../../../i18n/helpers';
 
 export async function getStaticPaths() {
-  const supportedLanguages = getSupportedLanguages();
-  return supportedLanguages.map((lang) => ({
-    params: { lang: lang.code }
+  return supportedLocales.map((lang) => ({
+    params: { lang }
   }));
 }
 

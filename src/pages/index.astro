@@ -18,8 +18,8 @@
     
     <!-- Hreflang 標籤 -->
     <link rel="alternate" hreflang="en" href="https://seasalt.ai/en/">
-    <link rel="alternate" hreflang="zh-tw" href="https://seasalt.ai/zh-tw/">
-    <link rel="alternate" hreflang="zh-cn" href="https://seasalt.ai/zh-cn/">
+    <link rel="alternate" hreflang="zh-TW" href="https://seasalt.ai/zh-TW/">
+    <link rel="alternate" hreflang="zh-CN" href="https://seasalt.ai/zh-CN/">
     <link rel="alternate" hreflang="ja" href="https://seasalt.ai/ja/">
     <link rel="alternate" hreflang="ko" href="https://seasalt.ai/ko/">
     <link rel="alternate" hreflang="es" href="https://seasalt.ai/es/">
@@ -32,18 +32,18 @@
         (function() {
             // 支援的語言列表（需與 astro.config.mjs 同步）
             const supportedLocales = [
-                'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
+                'en', 'es', 'zh-TW', 'zh-CN', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
                 'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
             ];
 
             // 語言映射表（瀏覽器/地區變體 → 專案語言碼）
             const languageMap = {
-                'zh-Hans': 'zh-cn',
-                'zh-Hant': 'zh-tw',
-                'zh-HK': 'zh-tw',
-                'zh-MO': 'zh-tw',
-                'zh-SG': 'zh-cn',
-                'zh': 'zh-tw',
+                'zh-Hans': 'zh-CN',
+                'zh-Hant': 'zh-TW',
+                'zh-HK': 'zh-TW',
+                'zh-MO': 'zh-TW',
+                'zh-SG': 'zh-CN',
+                'zh': 'zh-TW',
                 'fil-PH': 'fil',
                 'tl': 'fil',
                 'fa-IR': 'fa',
@@ -59,10 +59,10 @@
             const timezoneToLanguage = {
                 'Asia/Tokyo': 'ja',
                 'Asia/Seoul': 'ko',
-                'Asia/Shanghai': 'zh-cn',
-                'Asia/Hong_Kong': 'zh-tw',
-                'Asia/Taipei': 'zh-tw',
-                'Asia/Singapore': 'zh-cn',
+                'Asia/Shanghai': 'zh-CN',
+                'Asia/Hong_Kong': 'zh-TW',
+                'Asia/Taipei': 'zh-TW',
+                'Asia/Singapore': 'zh-CN',
                 'Asia/Bangkok': 'th',
                 'Asia/Ho_Chi_Minh': 'vi',
                 'Asia/Jakarta': 'id',
@@ -143,7 +143,7 @@
                         return prefix;
                     }
                     if (prefix === 'zh') {
-                        const zh = (lower.includes('cn') || lower.includes('hans')) ? 'zh-cn' : 'zh-tw';
+                        const zh = (lower.includes('cn') || lower.includes('hans')) ? 'zh-CN' : 'zh-TW';
                         log.push(`Browser zh variant: ${lower} → ${zh}`);
                         debug && console.log(log.join('\n'));
                         return zh;

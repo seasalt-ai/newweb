@@ -1,14 +1,9 @@
 ---
 import Layout from '../../../../../layouts/Layout.astro';
-import { getTranslationHelpers, type SupportedLanguage } from '../../../../../i18n/helpers';
+import { getTranslationHelpers, type SupportedLanguage,supportedLocales } from '../../../../../i18n/helpers';
 import LeadGenerationInteractive from '../../../../../components/react/seavoice/LeadGenerationInteractive.tsx';
 
 export async function getStaticPaths() {
-  const supportedLocales: SupportedLanguage[] = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
-  ];
-  
   return supportedLocales.map((lang) => ({
     params: { lang }
   }));

@@ -28,8 +28,8 @@ const LanguageSwitcher = ({ className = '', lang, currentPath, translations }: L
   const languages = [
     { code: 'en' as SupportedLanguage, name: 'English', shortCode: 'EN' },
     { code: 'es' as SupportedLanguage, name: 'Español', shortCode: 'ES' },
-    { code: 'zh-tw' as SupportedLanguage, name: '繁體中文', shortCode: 'TW' },
-    { code: 'zh-cn' as SupportedLanguage, name: '简体中文', shortCode: 'CN' },
+{ code: 'zh-TW' as SupportedLanguage, name: '繁體中文', shortCode: 'TW' },
+    { code: 'zh-CN' as SupportedLanguage, name: '简体中文', shortCode: 'CN' },
     { code: 'ja' as SupportedLanguage, name: '日本語', shortCode: 'JA' },
     { code: 'ko' as SupportedLanguage, name: '한국어', shortCode: 'KO' },
     { code: 'fr' as SupportedLanguage, name: 'Français', shortCode: 'FR' },

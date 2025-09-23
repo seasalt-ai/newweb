@@ -1,10 +1,9 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import Industries from '../../../components/Industries.astro';
-import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
 
 export async function getStaticPaths() {
-  const supportedLocales = ['en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'];
   return supportedLocales.map((lang) => ({ params: { lang } }));
 }
 

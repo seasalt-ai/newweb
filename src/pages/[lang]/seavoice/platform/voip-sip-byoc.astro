@@ -1,18 +1,13 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
-import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
 import ConnectionTypesSection from '../../../../components/react/seavoice/voip-sip-byoc/ConnectionTypesSection';
 import BenefitsSection from '../../../../components/react/seavoice/voip-sip-byoc/BenefitsSection';
 import TechnicalSpecsSection from '../../../../components/react/seavoice/voip-sip-byoc/TechnicalSpecsSection';
 import HowItWorksSection from '../../../../components/react/seavoice/voip-sip-byoc/HowItWorksSection';
 
 export async function getStaticPaths() {
-  const supportedLanguages = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
-  ];
-  
-  return supportedLanguages.map((lang) => ({
+  return supportedLocales.map((lang) => ({
     params: { lang }
   }));
 }

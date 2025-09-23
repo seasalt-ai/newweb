@@ -1,6 +1,6 @@
 ---
 import SeaxLayout from '../../../layouts/SeaxLayout.astro';
-import { getTranslationHelpers, languages, getLocalizedPath } from '../../../i18n/helpers';
+import { getTranslationHelpers, supportedLocales, getLocalizedPath, type SupportedLanguage } from '../../../i18n/helpers';
 import Hero from '../../../components/react/seax/Hero';
 import StatsCounter from '../../../components/react/seax/StatsCounter';
 import ScaleComparison from '../../../components/react/seax/ScaleComparison';
@@ -45,7 +45,7 @@ const faqs = [
 ];
 
 export async function getStaticPaths() {
-  return Object.keys(languages).map(lang => ({
+  return supportedLocales.map(lang => ({
     params: { lang },
   }));
 }

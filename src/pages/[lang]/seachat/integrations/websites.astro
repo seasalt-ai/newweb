@@ -15,7 +15,7 @@ const { t, translations } = await getTranslationHelpers(lang as SupportedLanguag
 // Helper function to get the correct SeaChat Wiki URL based on language
 const getSeaChatWikiUrl = () => {
   const currentLanguage = lang as string;
-  const wikiLanguage = (currentLanguage === 'zh-tw' || currentLanguage === 'zh-cn') ? 'zh' : 'en';
+  const wikiLanguage = (currentLanguage === 'zh-TW' || currentLanguage === 'zh-CN') ? 'zh' : 'en';
   return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
 };
 

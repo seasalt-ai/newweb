@@ -1,14 +1,12 @@
 ---
 import Layout from '../../../../../layouts/Layout.astro';
-import { getTranslationHelpers, type SupportedLanguage } from '../../../../../i18n/helpers';
-import { getSupportedLanguages } from '../../../../../i18n/helpers';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
 import CustomerSurveysHero from '../../../../../components/react/seavoice/CustomerSurveysHero';
 
 // Generate static paths for all supported languages
 export async function getStaticPaths() {
-  const languages = getSupportedLanguages();
-  return languages.map((lang) => ({
-    params: { lang: lang.code },
+  return supportedLocales.map((lang) => ({
+    params: { lang },
   }));
 }
 

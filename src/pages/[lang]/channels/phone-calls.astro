@@ -1,11 +1,11 @@
 ---
-import { getTranslationHelpers, extractLangFromPath, languages } from '../../../i18n/helpers';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
 import { getMeetingUrl } from "../../../constants/urls";
 import Layout from '../../../layouts/Layout.astro';
 
 // 生成所有語言的靜態路徑
 export async function getStaticPaths() {
-  const paths = Object.keys(languages).map((lang) => ({
+const paths = supportedLocales.map((lang) => ({
     params: { lang }
   }));
   return paths;
@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 
 // 從 params 取得語言
 const { lang } = Astro.params;
-const { t } = await getTranslationHelpers(lang as keyof typeof languages);
+const { t } = await getTranslationHelpers(lang as SupportedLanguage);
 
 // SEO 資料
 const seoTitle = t('channels.phoneCalls.seo.title') || 'Phone Calls & Voice Support - Seasalt.ai';
@@ -23,8 +23,8 @@ const canonicalUrl = lang === 'en' ? 'https://seasalt.ai/channels/phone-calls' :
 
 // 麵包屑導航
 const breadcrumbs = [
-  { name: 'Home', url: `/${lang}/` },
-  { name: 'Channels', url: `/${lang}/channels/` },
+{ name: 'Home', url: `/${lang}/` },
+{ name: 'Channels', url: `/${lang}/channels/` },
   { name: 'Phone Calls' }
 ];
 
@@ -95,7 +95,7 @@ const useCases = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
         <div>
-          <a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+<a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
             <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
             </svg>

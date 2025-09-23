@@ -1,14 +1,14 @@
 ---
-import { getTranslationHelpers, extractLangFromPath, languages } from '../../../i18n/helpers';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
 import { getMeetingUrl } from "../../../constants/urls";
 import Layout from '../../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
-  return Object.keys(languages).map(lang => ({ params: { lang } }));
+  return supportedLocales.map(lang => ({ params: { lang } }));
 }
 
 const { lang } = Astro.params;
-const { t } = await getTranslationHelpers(lang as keyof typeof languages);
+const { t } = await getTranslationHelpers(lang as SupportedLanguage);
 
 const seoTitle = t('channels.websiteChat.seo.title');
 const seoDescription = t('channels.websiteChat.seo.description');
@@ -16,8 +16,8 @@ const seoKeywords = t('channels.websiteChat.seo.keywords');
 const canonicalUrl = `https://seasalt.ai/${lang}/channels/website-chat`;
 
 const breadcrumbs = [
-  { name: t('breadcrumbs.home'), url: `/${lang}/` },
-  { name: t('breadcrumbs.channels'), url: `/${lang}/channels/` },
+{ name: t('breadcrumbs.home'), url: `/${lang}/` },
+{ name: t('breadcrumbs.channels'), url: `/${lang}/channels/` },
   { name: t('breadcrumbs.websiteChat') }
 ];
 
@@ -87,7 +87,7 @@ const customizationOptions = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
         <div>
-          <a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-indigo-600 transition-colors duration-200 mb-8">
+<a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-indigo-600 transition-colors duration-200 mb-8">
             <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
             </svg>

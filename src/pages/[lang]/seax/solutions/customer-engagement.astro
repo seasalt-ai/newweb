@@ -1,14 +1,9 @@
 ---
 import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
-import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
 
 export async function getStaticPaths() {
-  const supportedLanguages = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
-  ];
-  
-  return supportedLanguages.map((lang) => ({
+  return supportedLocales.map((lang) => ({
     params: { lang }
   }));
 }

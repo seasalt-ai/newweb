@@ -1,5 +1,5 @@
 ---
-import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
 import { getMeetingUrl } from "../../../constants/urls";
 import Layout from '../../../layouts/Layout.astro';
 import VoiceConversationFlow from '../../../components/react/seavoice/VoiceConversationFlow.tsx';
@@ -8,11 +8,6 @@ import InteractiveCallDashboard from '../../../components/react/seavoice/Interac
 
 // Generate static paths for all supported languages
 export async function getStaticPaths() {
-  const supportedLocales = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
-  ];
-  
   return supportedLocales.map((lang) => ({
     params: { lang }
   }));
@@ -421,10 +416,10 @@ const faqItems = [
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {category.cases.map((useCase, index) => (
+{category.cases.map((useCase, index) => (
                 <a 
                   key={index} 
-                  href={`/${validatedLang}/seavoice${useCase.url}`}
+href={`/${validatedLang}/seavoice${useCase.url}`}
                   class={`${colorClasses[category.color as keyof typeof colorClasses].bg50} rounded-xl p-6 hover:shadow-lg transition-all border ${colorClasses[category.color as keyof typeof colorClasses].border100} cursor-pointer group block use-case-card`}
                   data-url={useCase.url}
                 >
@@ -847,8 +842,8 @@ const faqItems = [
           </div>
           
           <div class="mt-8 text-center">
-            <a 
-              href="/seachat"
+<a 
+href={`/${validatedLang}/seachat`}
               class="inline-flex items-center text-teal-400 hover:text-teal-300 font-semibold transition-colors group"
             >
               {t('seavoice.home.seachat.learnMore') || 'Learn more about SeaChat'}

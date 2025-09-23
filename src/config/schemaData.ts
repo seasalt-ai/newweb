@@ -281,8 +281,8 @@ export const SCHEMA_AVAILABILITY = {
 
 export const LOCALIZED_ORGANIZATION_DESCRIPTIONS: Record<string, string> = {
   'en': 'Leading AI conversation intelligence platform offering omnichannel customer communication solutions for businesses of all sizes.',
-  'zh-tw': '領先的 AI 對話智能平台，為各種規模的企業提供全通路客戶溝通解決方案。',
-  'zh-cn': '领先的 AI 对话智能平台，为各种规模的企业提供全渠道客户沟通解决方案。',
+  'zh-TW': '領先的 AI 對話智能平台，為各種規模的企業提供全通路客戶溝通解決方案。',
+  'zh-CN': '领先的 AI 对话智能平台，为各种规模的企业提供全渠道客户沟通解决方案。',
   'es': 'Plataforma líder de inteligencia conversacional de IA que ofrece soluciones de comunicación omnicanal para empresas de todos los tamaños.',
   'fr': 'Plateforme leader d\'intelligence conversationnelle IA offrant des solutions de communication omnicanale pour les entreprises de toutes tailles.',
   'de': 'Führende KI-Gesprächsintelligenz-Plattform, die Omnichannel-Kundenkommunikationslösungen für Unternehmen jeder Größe bietet.',
@@ -327,7 +327,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
       ],
       audienceType: 'Businesses, Educational Institutions, Customer Support Teams'
     },
-    'zh-tw': {
+    'zh-TW': {
       name: 'SeaChat',
       description: 'SeaChat：Seasalt AI 推出的 AI 聊天自動化和客服輔助平台，支援多語言、真人客服轉接、網頁聊天、簡訊、WhatsApp 和 CRM 整合，提供 24/7 對話支援。',
       keywords: 'AI 聊天機器人, 真人客服轉接, 多語言, 網頁聊天, 簡訊, WhatsApp, CRM 整合',
@@ -339,7 +339,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
       ],
       audienceType: '企業、教育機構、客戶服務團隊'
     },
-    'zh-cn': {
+    'zh-CN': {
       name: 'SeaChat',
       description: 'SeaChat：Seasalt AI 推出的 AI 聊天自动化和客服辅助平台，支持多语言、真人客服转接、网页聊天、短信、WhatsApp 和 CRM 整合，提供 24/7 对话支持。',
       keywords: 'AI 聊天机器人, 真人客服转接, 多语言, 网页聊天, 短信, WhatsApp, CRM 整合',
@@ -573,7 +573,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
       ],
       audienceType: 'Enterprises, Marketing Teams, Sales Organizations, Political Campaigns'
     },
-    'zh-tw': {
+    'zh-TW': {
       name: 'SeaX',
       description: 'SeaX：Seasalt AI 大規模推廣雲端通訊平台，讓企業能夠發送數百萬條簡訊、撥打數千通語音電話，並透過 AI 自動化和即時分析大規模執行 WhatsApp 行銷活動。',
       keywords: '大量簡訊, 大規模通訊, WhatsApp 行銷活動, 語音通話, 潛在客戶開發, 行銷自動化, 全通路推廣',
@@ -589,7 +589,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
       ],
       audienceType: '企業、行銷團隊、銷售組織、政治競選'
     },
-    'zh-cn': {
+    'zh-CN': {
       name: 'SeaX',
       description: 'SeaX：Seasalt AI 大规模推广云端通讯平台，让企业能够发送数百万条短信、拨打数千通语音电话，并通过 AI 自动化和实时分析大规模执行 WhatsApp 营销活动。',
       keywords: '大量短信, 大规模通讯, WhatsApp 营销活动, 语音通话, 潜在客户开发, 营销自动化, 全渠道推广',
@@ -895,7 +895,7 @@ export const LOCALIZED_FAQ_SCHEMAS = {
       answer: "Seasalt.ai helps businesses reduce customer service costs, improve response times, automate repetitive tasks, and provide 24/7 customer support across multiple communication channels using advanced AI technology."
     }
   ],
-  'zh-tw': [
+  'zh-TW': [
     {
       question: "什麼是 Seasalt.ai？",
       answer: "Seasalt.ai 是一個 AI 驅動的全通路客戶溝通平台，幫助企業在多個通道（包括 WhatsApp、簡訊、語音通話和網頁聊天）上自動化客戶服務。"
@@ -909,7 +909,7 @@ export const LOCALIZED_FAQ_SCHEMAS = {
       answer: "Seasalt.ai 幫助企業降低客戶服務成本、改善回應時間、自動化重複性任務，並使用先進的 AI 技術在多個溝通通道上提供 24/7 客戶支援。"
     }
   ],
-  'zh-cn': [
+  'zh-CN': [
     {
       question: "什么是 Seasalt.ai？",
       answer: "Seasalt.ai 是一个 AI 驱动的全渠道客户沟通平台，帮助企业在多个渠道（包括 WhatsApp、短信、语音通话和网页聊天）上自动化客户服务。"
@@ -1184,8 +1184,8 @@ export function getLocalizedFaqSchema(language: string) {
 export const LOCALIZED_PRODUCT_DESCRIPTIONS: Record<ProductKey, Record<string, string>> = {
   seachat: {
     'en': 'Free AI chatbot platform with unlimited conversations, 4 human agents, and enterprise AI models. Build powerful conversational AI experiences.',
-    'zh-tw': '免費的 AI 聊天機器人平台，提供無限對話、4 名人工客服和企業級 AI 模型。打造強大的對話式 AI 體驗。',
-    'zh-cn': '免费的 AI 聊天机器人平台，提供无限对话、4 名人工客服和企业级 AI 模型。打造强大的对话式 AI 体验。',
+    'zh-TW': '免費的 AI 聊天機器人平台，提供無限對話、4 名人工客服和企業級 AI 模型。打造強大的對話式 AI 體驗。',
+    'zh-CN': '免费的 AI 聊天机器人平台，提供无限对话、4 名人工客服和企业级 AI 模型。打造强大的对话式 AI 体验。',
     'es': 'Plataforma de chatbot de IA gratuita con conversaciones ilimitadas, 4 agentes humanos y modelos de IA empresariales.',
     'fr': 'Plateforme de chatbot IA gratuite avec conversations illimitées, 4 agents humains et modèles d\'IA d\'entreprise.',
     'de': 'Kostenlose KI-Chatbot-Plattform mit unbegrenzten Gesprächen, 4 menschlichen Agenten und Enterprise-KI-Modellen.',
@@ -1206,8 +1206,8 @@ export const LOCALIZED_PRODUCT_DESCRIPTIONS: Record<ProductKey, Record<string, s
   },
   seax: {
     'en': 'Omnichannel communication platform that unifies WhatsApp, SMS, voice calls, and more in one dashboard. Scale your customer communications.',
-    'zh-tw': '全通路溝通平台，將 WhatsApp、簡訊、語音通話等整合在一個儀表板中。擴展您的客戶溝通。',
-    'zh-cn': '全渠道沟通平台，将 WhatsApp、短信、语音通话等整合在一个仪表板中。扩展您的客户沟通。',
+    'zh-TW': '全通路溝通平台，將 WhatsApp、簡訊、語音通話等整合在一個儀表板中。擴展您的客戶溝通。',
+    'zh-CN': '全渠道沟通平台，将 WhatsApp、短信、语音通话等整合在一个仪表板中。扩展您的客户沟通。',
     'es': 'Plataforma de comunicación omnicanal que unifica WhatsApp, SMS, llamadas de voz y más en un solo panel.',
     'fr': 'Plateforme de communication omnicanale qui unifie WhatsApp, SMS, appels vocaux et plus encore dans un seul tableau de bord.',
     'de': 'Omnichannel-Kommunikationsplattform, die WhatsApp, SMS, Sprachanrufe und mehr in einem Dashboard vereint.',
@@ -1228,8 +1228,8 @@ export const LOCALIZED_PRODUCT_DESCRIPTIONS: Record<ProductKey, Record<string, s
   },
   seavoice: {
     'en': 'AI-powered voice communication platform with intelligent call routing, voice analytics, and automated responses. Transform your voice operations.',
-    'zh-tw': '採用 AI 技術的語音溝通平台，具備智能通話路由、語音分析和自動化回應。轉型您的語音營運。',
-    'zh-cn': '采用 AI 技术的语音沟通平台，具备智能通话路由、语音分析和自动化响应。转型您的语音运营。',
+    'zh-TW': '採用 AI 技術的語音溝通平台，具備智能通話路由、語音分析和自動化回應。轉型您的語音營運。',
+    'zh-CN': '采用 AI 技术的语音沟通平台，具备智能通话路由、语音分析和自动化响应。转型您的语音运营。',
     'es': 'Plataforma de comunicación de voz impulsada por IA con enrutamiento inteligente de llamadas, analítica de voz y respuestas automatizadas.',
     'fr': 'Plateforme de communication vocale alimentée par l\'IA avec routage intelligent des appels, analytique vocale et réponses automatisées.',
     'de': 'KI-gestützte Sprachkommunikationsplattform mit intelligentem Anrufrouting, Sprachanalysen und automatisierten Antworten.',
@@ -1292,7 +1292,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         'Custom branding',
         'API access'
       ],
-      'zh-tw': [
+      'zh-TW': [
         '無限AI對話',
         '包含1位人工客服（免費方案）',
         '企業級AI模型（GPT-4、Claude）',
@@ -1302,7 +1302,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         '客製化品牌',
         'API存取'
       ],
-      'zh-cn': [
+      'zh-CN': [
         '无限AI对话',
         '包含1位人工客服（免费方案）',
         '企业级AI模型（GPT-4、Claude）',
@@ -1494,7 +1494,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         'Contact management',
         'Performance analytics'
       ],
-      'zh-tw': [
+      'zh-TW': [
         'WhatsApp商業整合',
         'SMS行銷活動',
         '語音通話管理',
@@ -1504,7 +1504,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         '聯絡人管理',
         '效能分析'
       ],
-      'zh-cn': [
+      'zh-CN': [
         'WhatsApp商业整合',
         'SMS营销活动',
         '语音通话管理',
@@ -1696,7 +1696,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         'Real-time monitoring',
         'CRM integration'
       ],
-      'zh-tw': [
+      'zh-TW': [
         'AI語音代理',
         '智能通話路由',
         '語音分析',
@@ -1706,7 +1706,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         '即時監控',
         'CRM整合'
       ],
-      'zh-cn': [
+      'zh-CN': [
         'AI语音代理',
         '智能通话路由',
         '语音分析',

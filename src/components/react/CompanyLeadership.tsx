@@ -1,8 +1,28 @@
-import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
-import { ExternalLink } from 'lucide-react';
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { ExternalLink } from "lucide-react";
 
-type SupportedLanguage = 'en' | 'es' | 'zh-tw' | 'zh-cn' | 'ja' | 'ko' | 'fr' | 'de' | 'ar' | 'fa' | 'fil' | 'hi' | 'id' | 'ms' | 'pl' | 'pt' | 'ru' | 'ta' | 'th' | 'vi';
+type SupportedLanguage =
+  | "en"
+  | "es"
+  | "zh-TW"
+  | "zh-CN"
+  | "ja"
+  | "ko"
+  | "fr"
+  | "de"
+  | "ar"
+  | "fa"
+  | "fil"
+  | "hi"
+  | "id"
+  | "ms"
+  | "pl"
+  | "pt"
+  | "ru"
+  | "ta"
+  | "th"
+  | "vi";
 
 interface CompanyLeadershipProps {
   lang: SupportedLanguage;
@@ -22,11 +42,14 @@ const CompanyLeadership: React.FC<CompanyLeadershipProps> = ({ lang }) => {
   useEffect(() => {
     const loadTranslations = async () => {
       try {
-        const langKey = lang === 'zh-tw' ? 'zh-TW' : lang === 'zh-cn' ? 'zh-CN' : lang;
-        const translationModule = await import(`../../i18n/locales/${langKey}.json`);
+        const langKey =
+          lang === "zh-TW" ? "zh-TW" : lang === "zh-CN" ? "zh-CN" : lang;
+        const translationModule = await import(
+          `../../i18n/locales/${langKey}.json`
+        );
         setTranslations(translationModule.default || translationModule);
       } catch (error) {
-        console.error('Failed to load translations:', error);
+        console.error("Failed to load translations:", error);
       }
     };
 
@@ -38,33 +61,34 @@ const CompanyLeadership: React.FC<CompanyLeadershipProps> = ({ lang }) => {
   }
 
   const t = (key: string) => {
-    const keys = key.split('.');
+    const keys = key.split(".");
     let result: any = translations;
-    
+
     for (const k of keys) {
-      if (result && typeof result === 'object' && k in result) {
+      if (result && typeof result === "object" && k in result) {
         result = result[k];
       } else {
         return key;
       }
     }
-    
-    return typeof result === 'string' ? result : key;
+
+    return typeof result === "string" ? result : key;
   };
 
   const leadership: Leader[] = [
     {
-      name: 'Xuchen Yao',
-      key: 'company.leadership.0',
-      homepage: 'https://xuchen.github.io/',
-      image: '/people-images/xuchen_yao.jpg'
+      name: "Xuchen Yao",
+      key: "company.leadership.0",
+      homepage: "https://xuchen.github.io/",
+      image: "/people-images/xuchen_yao.jpg",
     },
     {
-      name: 'Guoguo Chen',
-      key: 'company.leadership.1',
-      scholar: 'https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao',
-      image: '/people-images/guoguo_chen.jpg'
-    }
+      name: "Guoguo Chen",
+      key: "company.leadership.1",
+      scholar:
+        "https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao",
+      image: "/people-images/guoguo_chen.jpg",
+    },
   ];
 
   return (
@@ -77,7 +101,7 @@ const CompanyLeadership: React.FC<CompanyLeadershipProps> = ({ lang }) => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
-            {t('company.leadership.title') || 'Leadership Team'}
+            {t("company.leadership.title") || "Leadership Team"}
           </h2>
         </motion.div>
 
@@ -116,7 +140,9 @@ const CompanyLeadership: React.FC<CompanyLeadershipProps> = ({ lang }) => {
                     className="text-blue-600 hover:text-blue-800 flex items-center space-x-1"
                   >
                     <ExternalLink className="w-4 h-4" />
-                    <span>{t('company.leadership.homepage') || 'Homepage'}</span>
+                    <span>
+                      {t("company.leadership.homepage") || "Homepage"}
+                    </span>
                   </a>
                 )}
                 {leader.scholar && (
@@ -127,7 +153,7 @@ const CompanyLeadership: React.FC<CompanyLeadershipProps> = ({ lang }) => {
                     className="text-blue-600 hover:text-blue-800 flex items-center space-x-1"
                   >
                     <ExternalLink className="w-4 h-4" />
-                    <span>{t('company.leadership.scholar') || 'Scholar'}</span>
+                    <span>{t("company.leadership.scholar") || "Scholar"}</span>
                   </a>
                 )}
               </div>

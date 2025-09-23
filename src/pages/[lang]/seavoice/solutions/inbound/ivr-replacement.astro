@@ -1,15 +1,10 @@
 ---
-import { getTranslationHelpers, type SupportedLanguage } from '../../../../../i18n/helpers';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
 import { getMeetingUrl } from "../../../../../constants/urls";
 import Layout from '../../../../../layouts/Layout.astro';
 
 // Generate static paths for all supported languages
 export async function getStaticPaths() {
-  const supportedLocales = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
-  ];
-  
   return supportedLocales.map((lang) => ({
     params: { lang }
   }));

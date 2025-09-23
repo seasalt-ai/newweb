@@ -1,16 +1,11 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
-import { getTranslationHelpers, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
 import { Code, Zap, Shield, Globe, Book } from 'lucide-react';
 import { CodeExample, ApiEndpoints } from '../../../../components/react/seachat/ApiPageComponents';
 
 // 為所有支持的語言生成靜態路徑
 export async function getStaticPaths() {
-  const supportedLocales = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
-  ];
-  
   return supportedLocales.map((lang) => ({
     params: { lang }
   }));

@@ -1,9 +1,9 @@
-// 支援的語言 - 與 astro.config.mjs 保持一致
+// 支援的語言 - 與 astro.config.mjs 保持一致（內部一律使用小寫鍵值）
 export const languages = {
   'en': { name: 'English', englishName: 'English', shortCode: 'EN' },
   'es': { name: 'Español', englishName: 'Spanish', shortCode: 'ES' },
-  'zh-tw': { name: '繁體中文', englishName: 'Chinese (Traditional)', shortCode: 'TW' },
-  'zh-cn': { name: '简体中文', englishName: 'Chinese (Simplified)', shortCode: 'CN' },
+  'zh-TW': { name: '繁體中文', englishName: 'Chinese (Traditional)', shortCode: 'TW' },
+  'zh-CN': { name: '简体中文', englishName: 'Chinese (Simplified)', shortCode: 'CN' },
   'ja': { name: '日本語', englishName: 'Japanese', shortCode: 'JA' },
   'ko': { name: '한국어', englishName: 'Korean', shortCode: 'KO' },
   'fr': { name: 'Français', englishName: 'French', shortCode: 'FR' },
@@ -23,6 +23,7 @@ export const languages = {
 } as const;
 
 export type SupportedLanguage = keyof typeof languages;
+export const supportedLocales = Object.keys(languages) as SupportedLanguage[];
 export const defaultLang: SupportedLanguage = 'en';
 
 // 翻譯緩存
@@ -35,9 +36,24 @@ const loggedMissingKeys = new Set<string>();
 const isDev = import.meta.env?.DEV || process.env.NODE_ENV === 'development';
 
 
+// 將語言代碼轉為 BCP 47（目前內外一致，直接回傳）
+export function toBcp47LanguageTag(lang: string | SupportedLanguage): string {
+  return String(lang);
+}
+
+// 將內容資料夾語言代碼轉為路由語言代碼（blog 內容資料夾使用 zh-cn/zh-tw 等）
+export function normalizeContentLangToRouteLang(contentLang: string): SupportedLanguage | null {
+  const map: Record<string, SupportedLanguage> = {
+    'zh-cn': 'zh-CN',
+    'zh-tw': 'zh-TW'
+  };
+  const candidate = map[contentLang] || (contentLang as SupportedLanguage);
+  return (candidate in languages) ? candidate as SupportedLanguage : null;
+}
+
 // 動態載入翻譯文件
 async function loadTranslations(lang: SupportedLanguage) {
-  const langKey = lang === 'zh-tw' ? 'zh-TW' : lang === 'zh-cn' ? 'zh-CN' : lang;
+  const langKey = toBcp47LanguageTag(lang);
   
   if (translationCache.has(langKey)) {
     return translationCache.get(langKey);
@@ -191,7 +207,7 @@ export async function getTranslationHelpers(lang: SupportedLanguage) {
 // 從 URL 中提取語言代碼
 export function extractLangFromPath(pathname: string): SupportedLanguage {
   const segments = pathname.split('/').filter(Boolean);
-  const firstSegment = segments[0]?.toLowerCase();
+  const firstSegment = segments[0];
   
   // 檢查是否是支援的語言
   if (firstSegment && firstSegment in languages) {
@@ -205,7 +221,7 @@ export function extractLangFromPath(pathname: string): SupportedLanguage {
 export function getLocalizedPath(path: string, targetLang: SupportedLanguage): string {
   // 檢查路徑是否已經包含支援的語言前綴
   const segments = path.split('/').filter(Boolean);
-  const firstSegment = segments[0]?.toLowerCase();
+  const firstSegment = segments[0];
   
   let cleanPath = path;
   
@@ -261,14 +277,14 @@ export function useTranslation(lang: SupportedLanguage) {
   // Check if we're in a browser environment
   if (typeof window === 'undefined') {
     // SSR environment: load translations synchronously if cached
-    const langKey = lang === 'zh-tw' ? 'zh-TW' : lang === 'zh-cn' ? 'zh-CN' : lang;
+    const langKey = toBcp47LanguageTag(lang);
     const cachedTranslations = translationCache.get(langKey);
     
     if (cachedTranslations) {
       // 如果不是默認語言，嘗試取得 fallback 翻譯
       let fallbackTranslations = null;
       if (lang !== defaultLang) {
-        const fallbackKey = defaultLang === 'zh-tw' ? 'zh-TW' : defaultLang === 'zh-cn' ? 'zh-CN' : defaultLang;
+        const fallbackKey = toBcp47LanguageTag(defaultLang);
         fallbackTranslations = translationCache.get(fallbackKey);
       }
       

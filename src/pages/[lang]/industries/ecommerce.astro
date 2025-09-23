@@ -1,14 +1,9 @@
 ---
 import IndustryPageTemplate from '../../../components/IndustryPageTemplate.astro';
-import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
 
 // 為所有支持的語言生成靜態路徑
 export async function getStaticPaths() {
-  const supportedLocales = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
-  ];
-  
   return supportedLocales.map((lang) => ({
     params: { lang }
   }));

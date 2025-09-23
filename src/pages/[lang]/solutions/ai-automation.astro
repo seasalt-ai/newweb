@@ -1,16 +1,11 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
-import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
 import { getMeetingUrl } from "../../../constants/urls";
 import { ArrowLeft, Check, Star, Bot, Zap, Cog, Brain, Clock, BarChart3, Shield, Workflow } from 'lucide-react';
 
 // 為所有支持的語言生成靜態路徑
 export async function getStaticPaths() {
-  const supportedLocales = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
-  ];
-  
   return supportedLocales.map((lang) => ({
     params: { lang }
   }));
@@ -194,7 +189,7 @@ const metrics = [
         <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
           <div>
             <a 
-              href={currentLang === 'en' ? '/' : `/${currentLang}/`} 
+href={currentLang === 'en' ? '/' : `/${currentLang}/`}
               class="inline-flex items-center text-gray-600 hover:text-purple-600 transition-colors duration-200 mb-8"
             >
               <ArrowLeft size={20} class="mr-2" />

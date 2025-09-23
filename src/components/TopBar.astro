@@ -5,7 +5,7 @@ const currentLang = extractLangFromPath(Astro.url.pathname);
 const { t } = await getTranslationHelpers(currentLang);
 
 // Use Taiwan phone number for zh-TW, US toll-free for others
-const phoneHref = currentLang === 'zh-tw' 
+const phoneHref = currentLang === 'zh-TW' 
   ? 'tel:+886-2-77443577'  // Taiwan number
   : 'tel:+1-762-242-4368'; // US toll-free number
 ---

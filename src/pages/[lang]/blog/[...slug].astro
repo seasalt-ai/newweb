@@ -1,33 +1,30 @@
 ---
 import { type CollectionEntry, getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
-import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { getTranslationHelpers, toBcp47LanguageTag, normalizeContentLangToRouteLang, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
 
 export async function getStaticPaths() {
-  const supportedLocales = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi', 'ro'
-  ];
-  
   const blogEntries = await getCollection('blog');
   const paths: any[] = [];
-  
+
   for (const entry of blogEntries) {
-    const postLang = entry.id.split('/')[0]; // 從 "en/post-name.md" 中提取 "en"
-    const slug = entry.id.split('/')[1].replace('.md', ''); // 從 "en/post-name.md" 中提取 "post-name"
-    
-    // 只為支持的語言生成路径
-    if (supportedLocales.includes(postLang)) {
+    const contentLang = entry.id.split('/')[0]; // 內容資料夾語言，如 'en' 或 'zh-cn'
+    const routeLang = normalizeContentLangToRouteLang(contentLang);
+    if (!routeLang) continue; // 跳過不支援的語言（如 ro）
+    const slug = entry.id.split('/')[1].replace('.md', '');
+
+    // 僅為在 supportedLocales 中的語言生成
+    if (supportedLocales.includes(routeLang)) {
       paths.push({
-        params: { 
-          lang: postLang, 
-          slug: slug 
+        params: {
+          lang: routeLang,
+          slug
         },
         props: { entry }
       });
     }
   }
-  
+
   return paths;
 }
 
@@ -62,8 +59,9 @@ const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
 // 格式化日期
+const bcp47 = toBcp47LanguageTag(currentLang);
 const publishDate = new Date(entry.data.publishDate).toLocaleDateString(
-  currentLang === 'zh-tw' ? 'zh-TW' : currentLang === 'zh-cn' ? 'zh-CN' : currentLang, 
+  bcp47,
   {
     year: 'numeric',
     month: 'long',
@@ -72,7 +70,7 @@ const publishDate = new Date(entry.data.publishDate).toLocaleDateString(
 );
 
 const updatedDate = entry.data.updatedDate ? new Date(entry.data.updatedDate).toLocaleDateString(
-  currentLang === 'zh-tw' ? 'zh-TW' : currentLang === 'zh-cn' ? 'zh-CN' : currentLang
+  bcp47
 ) : null;
 
 // 估算閱讀時間
@@ -127,18 +125,15 @@ const availableLanguages = allBlogEntries
     const postSlug = post.id.split('/')[1].replace('.md', '');
     return postSlug === currentSlug && post.data.draft !== true;
   })
-  .map(post => {
-    const postLang = post.id.split('/')[0];
-    return postLang;
-  })
-  .filter(lang => lang !== currentLang); // 排除當前語言
+  .map(post => normalizeContentLangToRouteLang(post.id.split('/')[0]))
+  .filter((l): l is SupportedLanguage => !!l && l !== currentLang);
 
 // 語言名稱對應
 const languageNames = {
   'en': 'English',
   'es': 'Español', 
-  'zh-tw': '繁體中文',
-  'zh-cn': '简体中文',
+  'zh-TW': '繁體中文',
+  'zh-CN': '简体中文',
   'ja': '日本語',
   'ko': '한국어',
   'fr': 'Français',
@@ -154,8 +149,7 @@ const languageNames = {
   'ru': 'Русский',
   'ta': 'தமிழ்',
   'th': 'ไทย',
-  'vi': 'Tiếng Việt',
-  'ro': 'Română'
+  'vi': 'Tiếng Việt'
 };
 
 // 生成結構化資料
@@ -386,7 +380,7 @@ const breadcrumbs = [
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {limitedRelatedPosts.map((relatedPost) => {
                 const relatedPublishDate = new Date(relatedPost.data.publishDate).toLocaleDateString(
-                  currentLang === 'zh-tw' ? 'zh-TW' : currentLang === 'zh-cn' ? 'zh-CN' : currentLang
+                  currentLang === 'zh-TW' ? 'zh-TW' : currentLang === 'zh-CN' ? 'zh-CN' : currentLang
                 );
                 
                 return (

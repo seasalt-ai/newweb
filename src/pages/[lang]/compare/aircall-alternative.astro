@@ -1,16 +1,11 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import { getMeetingUrl } from "../../../constants/urls";
-import { getTranslationHelpers, type SupportedLanguage } from '../../../i18n/helpers';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../i18n/helpers';
 import { ArrowLeft, Check, X } from 'lucide-react';
 
 // 為所有支持的語言生成靜態路徑
 export async function getStaticPaths() {
-  const supportedLocales = [
-    'en', 'es', 'zh-tw', 'zh-cn', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
-    'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
-  ];
-  
   return supportedLocales.map((lang) => ({
     params: { lang }
   }));
@@ -93,7 +88,7 @@ const meetingUrl = getMeetingUrl(currentLang);
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <a href={`/${currentLang}/compare`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+<a href={`/${currentLang}/compare`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
         <ArrowLeft className="h-5 w-5 mr-2" />
         {t('compare.aircallAlternative.nav.backToOverview')}
       </a>
