@@ -1190,7 +1190,19 @@ export const LOCALIZED_PRODUCT_DESCRIPTIONS: Record<ProductKey, Record<string, s
     'fr': 'Plateforme de chatbot IA gratuite avec conversations illimitées, 4 agents humains et modèles d\'IA d\'entreprise.',
     'de': 'Kostenlose KI-Chatbot-Plattform mit unbegrenzten Gesprächen, 4 menschlichen Agenten und Enterprise-KI-Modellen.',
     'ja': '無制限の会話、4人のヒューマンエージェント、エンタープライズAIモデルを備えた無料のAIチャットボットプラットフォーム。',
-    'ko': '무제한 대화, 4명의 휴먼 에이전트, 엔터프라이즈 AI 모델을 제공하는 무료 AI 챗봇 플랫폼.'
+    'ko': '무제한 대화, 4명의 휴먼 에이전트, 엔터프라이즈 AI 모델을 제공하는 무료 AI 챗봇 플랫폼.',
+    'ar': 'منصة روبوت دردشة ذكاء اصطناعي مجانية مع محادثات غير محدودة و 4 وكلاء بشريين ونماذج ذكاء اصطناعي للمؤسسات.',
+    'fa': 'پلتفرم رایگان چت‌بات هوش مصنوعی با مکالمات نامحدود، 4 عامل انسانی و مدل‌های هوش مصنوعی سازمانی.',
+    'fil': 'Libreng AI chatbot platform na may walang limitasyon na conversations, 4 human agents, at enterprise AI models.',
+    'hi': 'असीमित बातचीत, 4 मानव एजेंट और एंटरप्राइज़ AI मॉडल के साथ मुफ्त AI चैटबॉट प्लेटफॉर्म।',
+    'id': 'Platform chatbot AI gratis dengan percakapan tak terbatas, 4 agen manusia, dan model AI enterprise.',
+    'ms': 'Platform chatbot AI percuma dengan perbualan tanpa had, 4 ejen manusia, dan model AI perusahaan.',
+    'pl': 'Darmowa platforma chatbotów AI z nieograniczonymi rozmowami, 4 agentami ludzkimi i modelami AI dla przedsiębiorstw.',
+    'pt': 'Plataforma de chatbot de IA gratuita com conversas ilimitadas, 4 agentes humanos e modelos de IA empresariais.',
+    'ru': 'Бесплатная платформа AI-чатботов с неограниченными разговорами, 4 человеческими агентами и корпоративными AI-моделями.',
+    'ta': 'வரம்பற்ற உரையாடல்கள், 4 மனித முகவர்கள் மற்றும் நிறுவன AI மாதிரிகளுடன் இலவச AI அரட்டைபோட் தளம்।',
+    'th': 'แพลตฟอร์มแชทบอท AI ฟรีพร้อมการสนทนาไม่จำกัด เอเจนต์มนุษย์ 4 คน และโมเดล AI ระดับองค์กร',
+    'vi': 'Nền tảng chatbot AI miễn phí với cuộc trò chuyện không giới hạn, 4 đại lý con người và mô hình AI doanh nghiệp.'
   },
   seax: {
     'en': 'Omnichannel communication platform that unifies WhatsApp, SMS, voice calls, and more in one dashboard. Scale your customer communications.',
@@ -1200,7 +1212,19 @@ export const LOCALIZED_PRODUCT_DESCRIPTIONS: Record<ProductKey, Record<string, s
     'fr': 'Plateforme de communication omnicanale qui unifie WhatsApp, SMS, appels vocaux et plus encore dans un seul tableau de bord.',
     'de': 'Omnichannel-Kommunikationsplattform, die WhatsApp, SMS, Sprachanrufe und mehr in einem Dashboard vereint.',
     'ja': 'WhatsApp、SMS、音声通話などを1つのダッシュボードに統合するオムニチャネルコミュニケーションプラットフォーム。',
-    'ko': 'WhatsApp, SMS, 음성 통화 등을 하나의 대시보드에 통합하는 옴니채널 커뮤니케이션 플랫폼.'
+    'ko': 'WhatsApp, SMS, 음성 통화 등을 하나의 대시보드에 통합하는 옴니채널 커뮤니케이션 플랫폼.',
+    'ar': 'منصة اتصالات متعددة القنوات توحد WhatsApp والرسائل النصية والمكالمات الصوتية والمزيد في لوحة تحكم واحدة.',
+    'fa': 'پلتفرم ارتباطات چندکاناله که WhatsApp، پیامک، تماس‌های صوتی و موارد دیگر را در یک داشبورد متحد می‌کند.',
+    'fil': 'Omnichannel communication platform na nag-uunify ng WhatsApp, SMS, voice calls, at iba pa sa isang dashboard.',
+    'hi': 'ओमनीचैनल संचार प्लेटफॉर्म जो WhatsApp, SMS, आवाज कॉल और अधिक को एक डैशबोर्ड में एकीकृत करता है।',
+    'id': 'Platform komunikasi omnichannel yang menyatukan WhatsApp, SMS, panggilan suara, dan lainnya dalam satu dashboard.',
+    'ms': 'Platform komunikasi omnichannel yang menyatukan WhatsApp, SMS, panggilan suara, dan lain-lain dalam satu papan pemuka.',
+    'pl': 'Platforma komunikacji omnichannel, która łączy WhatsApp, SMS, połączenia głosowe i więcej w jednym panelu.',
+    'pt': 'Plataforma de comunicação omnichannel que unifica WhatsApp, SMS, chamadas de voz e mais em um painel.',
+    'ru': 'Омниканальная коммуникационная платформа, объединяющая WhatsApp, SMS, голосовые звонки и многое другое в одной панели.',
+    'ta': 'WhatsApp, SMS, குரல் அழைப்புகள் மற்றும் பலவற்றை ஒரே டாஷ்போர்டில் ஒருங்கிணைக்கும் பல்வேறு சேனல் தொடர்பு தளம்।',
+    'th': 'แพลตฟอร์มการสื่อสารแบบหลายช่องทางที่รวม WhatsApp, SMS, การโทรเสียง และอื่นๆ ในแดชบอร์ดเดียว',
+    'vi': 'Nền tảng giao tiếp đa kênh hợp nhất WhatsApp, SMS, cuộc gọi thoại và nhiều hơn nữa trong một bảng điều khiển.'
   },
   seavoice: {
     'en': 'AI-powered voice communication platform with intelligent call routing, voice analytics, and automated responses. Transform your voice operations.',
@@ -1210,7 +1234,19 @@ export const LOCALIZED_PRODUCT_DESCRIPTIONS: Record<ProductKey, Record<string, s
     'fr': 'Plateforme de communication vocale alimentée par l\'IA avec routage intelligent des appels, analytique vocale et réponses automatisées.',
     'de': 'KI-gestützte Sprachkommunikationsplattform mit intelligentem Anrufrouting, Sprachanalysen und automatisierten Antworten.',
     'ja': 'インテリジェントなコールルーティング、音声分析、自動応答を備えたAI音声コミュニケーションプラットフォーム。',
-    'ko': '지능형 통화 라우팅, 음성 분석, 자동 응답을 갖춘 AI 기반 음성 커뮤니케이션 플랫폼.'
+    'ko': '지능형 통화 라우팅, 음성 분석, 자동 응답을 갖춘 AI 기반 음성 커뮤니케이션 플랫폼.',
+    'ar': 'منصة اتصالات صوتية مدعومة بالذكاء الاصطناعي مع توجيه ذكي للمكالمات وتحليلات صوتية واستجابات آلية.',
+    'fa': 'پلتفرم ارتباطات صوتی مبتنی بر هوش مصنوعی با مسیریابی هوشمند تماس، تحلیل‌های صوتی و پاسخ‌های خودکار.',
+    'fil': 'AI-powered na voice communication platform na may intelligent call routing, voice analytics, at automated responses.',
+    'hi': 'बुद्धिमान कॉल राउटिंग, वॉयस एनालिटिक्स और स्वचालित प्रतिक्रियाओं के साथ AI-संचालित वॉयस कम्युनिकेशन प्लेटफॉर्म।',
+    'id': 'Platform komunikasi suara bertenaga AI dengan routing panggilan cerdas, analitik suara, dan respons otomatis.',
+    'ms': 'Platform komunikasi suara berkuasa AI dengan penghalaan panggilan pintar, analitik suara, dan respons automatik.',
+    'pl': 'Platforma komunikacji głosowej napędzana przez AI z inteligentnym routowaniem połączeń, analizą głosu i automatycznymi odpowiedziami.',
+    'pt': 'Plataforma de comunicação de voz alimentada por IA com roteamento inteligente de chamadas, análise de voz e respostas automatizadas.',
+    'ru': 'Платформа голосовой связи на основе ИИ с интеллектуальной маршрутизацией звонков, голосовой аналитикой и автоматизированными ответами.',
+    'ta': 'புத்திசாலித்தனமான அழைப்பு பாதை, குரல் பகுப்பாய்வு மற்றும் தானியங்கு பதில்களுடன் AI-இயங்கும் குரல் தொடர்பு தளம்।',
+    'th': 'แพลตฟอร์มการสื่อสารด้วยเสียงที่ขับเคลื่อนด้วย AI พร้อมการกำหนดเส้นทางการโทรอัจฉริยะ การวิเคราะห์เสียง และการตอบสนองอัตโนมัติ',
+    'vi': 'Nền tảng giao tiếp bằng giọng nói được hỗ trợ bởi AI với định tuyến cuộc gọi thông minh, phân tích giọng nói và phản hồi tự động.'
   }
 };
 
@@ -1265,6 +1301,186 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         '進階分析',
         '客製化品牌',
         'API存取'
+      ],
+      'zh-cn': [
+        '无限AI对话',
+        '包含1位人工客服（免费方案）',
+        '企业级AI模型（GPT-4、Claude）',
+        '全渠道整合',
+        '知识库管理',
+        '高级分析',
+        '定制品牌',
+        'API访问'
+      ],
+      'es': [
+        'Conversaciones de IA ilimitadas',
+        '1 agente humano incluido (plan gratuito)',
+        'Modelos de IA empresariales (GPT-4, Claude)',
+        'Integración omnicanal',
+        'Gestión de base de conocimientos',
+        'Análisis avanzado',
+        'Marca personalizada',
+        'Acceso API'
+      ],
+      'fr': [
+        'Conversations IA illimitées',
+        '1 agent humain inclus (plan gratuit)',
+        'Modèles IA d\'entreprise (GPT-4, Claude)',
+        'Intégration omnicanale',
+        'Gestion de base de connaissances',
+        'Analyses avancées',
+        'Image de marque personnalisée',
+        'Accès API'
+      ],
+      'de': [
+        'Unbegrenzte KI-Gespräche',
+        '1 menschlicher Agent enthalten (kostenloser Plan)',
+        'Enterprise-KI-Modelle (GPT-4, Claude)',
+        'Omnichannel-Integration',
+        'Wissensdatenbank-Management',
+        'Erweiterte Analysen',
+        'Individuelles Branding',
+        'API-Zugang'
+      ],
+      'ja': [
+        '無制限のAI会話',
+        '1名のヒューマンエージェント含む（無料プラン）',
+        'エンタープライズAIモデル（GPT-4、Claude）',
+        'オムニチャネル統合',
+        'ナレッジベース管理',
+        '高度な分析',
+        'カスタムブランディング',
+        'APIアクセス'
+      ],
+      'ko': [
+        '무제한 AI 대화',
+        '1명의 휴먼 에이전트 포함 (무료 플랜)',
+        '엔터프라이즈 AI 모델 (GPT-4, Claude)',
+        '옴니채널 통합',
+        '지식베이스 관리',
+        '고급 분석',
+        '커스텀 브랜딩',
+        'API 액세스'
+      ],
+      'ar': [
+        'محادثات ذكاء اصطناعي غير محدودة',
+        'وكيل بشري واحد مشمول (خطة مجانية)',
+        'نماذج ذكاء اصطناعي للمؤسسات (GPT-4، Claude)',
+        'التكامل متعدد القنوات',
+        'إدارة قاعدة المعرفة',
+        'تحليلات متقدمة',
+        'علامة تجارية مخصصة',
+        'وصول API'
+      ],
+      'fa': [
+        'مکالمات نامحدود هوش مصنوعی',
+        '1 عامل انسانی شامل (طرح رایگان)',
+        'مدل‌های هوش مصنوعی سازمانی (GPT-4، Claude)',
+        'ادغام چندکاناله',
+        'مدیریت پایگاه دانش',
+        'تحلیل‌های پیشرفته',
+        'برندسازی سفارشی',
+        'دسترسی API'
+      ],
+      'fil': [
+        'Walang limitasyon na AI conversations',
+        '1 human agent kasama (libreng plan)',
+        'Enterprise AI models (GPT-4, Claude)',
+        'Omnichannel integration',
+        'Knowledge base management',
+        'Advanced analytics',
+        'Custom branding',
+        'API access'
+      ],
+      'hi': [
+        'असीमित AI बातचीत',
+        '1 मानव एजेंट शामिल (मुफ्त योजना)',
+        'एंटरप्राइज़ AI मॉडल (GPT-4, Claude)',
+        'ओमनीचैनल एकीकरण',
+        'ज्ञान आधार प्रबंधन',
+        'उन्नत विश्लेषण',
+        'कस्टम ब्रांडिंग',
+        'API पहुंच'
+      ],
+      'id': [
+        'Percakapan AI tanpa batas',
+        '1 agen manusia termasuk (paket gratis)',
+        'Model AI enterprise (GPT-4, Claude)',
+        'Integrasi omnichannel',
+        'Manajemen basis pengetahuan',
+        'Analitik lanjutan',
+        'Branding kustom',
+        'Akses API'
+      ],
+      'ms': [
+        'Perbualan AI tanpa had',
+        '1 ejen manusia disertakan (pelan percuma)',
+        'Model AI perusahaan (GPT-4, Claude)',
+        'Integrasi omnichannel',
+        'Pengurusan pangkalan pengetahuan',
+        'Analitik lanjutan',
+        'Penjenamaan tersuai',
+        'Akses API'
+      ],
+      'pl': [
+        'Nieograniczone rozmowy AI',
+        '1 agent ludzki w zestawie (plan darmowy)',
+        'Modele AI dla przedsiębiorstw (GPT-4, Claude)',
+        'Integracja omnichannel',
+        'Zarządzanie bazą wiedzy',
+        'Zaawansowane analityki',
+        'Niestandardowy branding',
+        'Dostęp do API'
+      ],
+      'pt': [
+        'Conversas de IA ilimitadas',
+        '1 agente humano incluído (plano gratuito)',
+        'Modelos de IA empresariais (GPT-4, Claude)',
+        'Integração omnichannel',
+        'Gestão de base de conhecimento',
+        'Análises avançadas',
+        'Marca personalizada',
+        'Acesso à API'
+      ],
+      'ru': [
+        'Неограниченные ИИ-разговоры',
+        '1 человеческий агент включен (бесплатный план)',
+        'Корпоративные ИИ-модели (GPT-4, Claude)',
+        'Омниканальная интеграция',
+        'Управление базой знаний',
+        'Расширенная аналитика',
+        'Индивидуальный брендинг',
+        'Доступ к API'
+      ],
+      'ta': [
+        'வரம்பற்ற AI உரையாடல்கள்',
+        '1 மனித முகவர் சேர்க்கப்பட்டுள்ளது (இலவச திட்டம்)',
+        'நிறுவன AI மாதிரிகள் (GPT-4, Claude)',
+        'ஆம்னிசேனல் ஒருங்கிணைப்பு',
+        'அறிவுத் தளக் கட்டுப்பாடு',
+        'மேம்பட்ட பகுப்பாய்வு',
+        'தனிப்பயன் பிராண்டிங்',
+        'API அணுகல்'
+      ],
+      'th': [
+        'การสนทนา AI ไม่จำกัด',
+        'รวมเอเจนต์มนุษย์ 1 คน (แผนฟรี)',
+        'โมเดล AI ระดับองค์กร (GPT-4, Claude)',
+        'การรวมแบบหลายช่องทาง',
+        'การจัดการฐานความรู้',
+        'การวิเคราะห์ขั้นสูง',
+        'การสร้างแบรนด์แบบกำหนดเอง',
+        'การเข้าถึง API'
+      ],
+      'vi': [
+        'Cuộc trò chuyện AI không giới hạn',
+        '1 đại lý con người được bao gồm (gói miễn phí)',
+        'Mô hình AI doanh nghiệp (GPT-4, Claude)',
+        'Tích hợp đa kênh',
+        'Quản lý cơ sở tri thức',
+        'Phân tích nâng cao',
+        'Thương hiệu tùy chỉnh',
+        'Truy cập API'
       ]
     },
     seax: {
@@ -1287,6 +1503,186 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         '自動化工作流程',
         '聯絡人管理',
         '效能分析'
+      ],
+      'zh-cn': [
+        'WhatsApp商业整合',
+        'SMS营销活动',
+        '语音通话管理',
+        '统一收件箱',
+        '团队协作',
+        '自动化工作流程',
+        '联系人管理',
+        '性能分析'
+      ],
+      'es': [
+        'Integración de WhatsApp Business',
+        'Campañas de marketing por SMS',
+        'Gestión de llamadas de voz',
+        'Bandeja de entrada unificada',
+        'Colaboración en equipo',
+        'Flujos de trabajo automatizados',
+        'Gestión de contactos',
+        'Análisis de rendimiento'
+      ],
+      'fr': [
+        'Intégration WhatsApp Business',
+        'Campagnes marketing SMS',
+        'Gestion d\'appels vocaux',
+        'Boîte de réception unifiée',
+        'Collaboration d\'équipe',
+        'Flux de travail automatisés',
+        'Gestion de contacts',
+        'Analyses de performance'
+      ],
+      'de': [
+        'WhatsApp Business Integration',
+        'SMS-Marketing-Kampagnen',
+        'Sprachanruf-Management',
+        'Einheitlicher Posteingang',
+        'Team-Zusammenarbeit',
+        'Automatisierte Workflows',
+        'Kontakt-Management',
+        'Leistungsanalysen'
+      ],
+      'ja': [
+        'WhatsApp Business統合',
+        'SMSマーケティングキャンペーン',
+        '音声通話管理',
+        '統合受信箱',
+        'チーム連携',
+        '自動化ワークフロー',
+        '連絡先管理',
+        'パフォーマンス分析'
+      ],
+      'ko': [
+        'WhatsApp Business 통합',
+        'SMS 마케팅 캠페인',
+        '음성 통화 관리',
+        '통합 받은편지함',
+        '팀 협업',
+        '자동화 워크플로우',
+        '연락처 관리',
+        '성능 분석'
+      ],
+      'ar': [
+        'تكامل WhatsApp Business',
+        'حملات التسويق عبر الرسائل النصية',
+        'إدارة المكالمات الصوتية',
+        'صندوق وارد موحد',
+        'التعاون الجماعي',
+        'سير العمل الآلي',
+        'إدارة جهات الاتصال',
+        'تحليلات الأداء'
+      ],
+      'fa': [
+        'ادغام WhatsApp Business',
+        'کمپین‌های بازاریابی پیامک',
+        'مدیریت تماس‌های صوتی',
+        'صندوق ورودی یکپارچه',
+        'همکاری تیمی',
+        'گردش‌های کار خودکار',
+        'مدیریت مخاطبین',
+        'تحلیل‌های عملکرد'
+      ],
+      'fil': [
+        'WhatsApp Business integration',
+        'SMS marketing campaigns',
+        'Voice call management',
+        'Unified inbox',
+        'Team collaboration',
+        'Automation workflows',
+        'Contact management',
+        'Performance analytics'
+      ],
+      'hi': [
+        'WhatsApp Business एकीकरण',
+        'SMS मार्केटिंग अभियान',
+        'वॉयस कॉल प्रबंधन',
+        'एकीकृत इनबॉक्स',
+        'टीम सहयोग',
+        'स्वचालन वर्कफ़्लो',
+        'संपर्क प्रबंधन',
+        'प्रदर्शन विश्लेषण'
+      ],
+      'id': [
+        'Integrasi WhatsApp Business',
+        'Kampanye pemasaran SMS',
+        'Manajemen panggilan suara',
+        'Kotak masuk terpadu',
+        'Kolaborasi tim',
+        'Alur kerja otomatis',
+        'Manajemen kontak',
+        'Analitik kinerja'
+      ],
+      'ms': [
+        'Integrasi WhatsApp Business',
+        'Kempen pemasaran SMS',
+        'Pengurusan panggilan suara',
+        'Peti masuk bersepadu',
+        'Kerjasama pasukan',
+        'Alir kerja automasi',
+        'Pengurusan kenalan',
+        'Analitik prestasi'
+      ],
+      'pl': [
+        'Integracja WhatsApp Business',
+        'Kampanie marketingowe SMS',
+        'Zarządzanie połączeniami głosowymi',
+        'Zunifikowana skrzynka odbiorcza',
+        'Współpraca zespołowa',
+        'Automatyczne przepływy pracy',
+        'Zarządzanie kontaktami',
+        'Analityka wydajności'
+      ],
+      'pt': [
+        'Integração WhatsApp Business',
+        'Campanhas de marketing por SMS',
+        'Gestão de chamadas de voz',
+        'Caixa de entrada unificada',
+        'Colaboração em equipe',
+        'Fluxos de trabalho automatizados',
+        'Gestão de contatos',
+        'Análises de desempenho'
+      ],
+      'ru': [
+        'Интеграция WhatsApp Business',
+        'SMS-маркетинговые кампании',
+        'Управление голосовыми звонками',
+        'Единый почтовый ящик',
+        'Командная работа',
+        'Автоматизированные рабочие процессы',
+        'Управление контактами',
+        'Аналитика производительности'
+      ],
+      'ta': [
+        'WhatsApp Business ஒருங்கிணைப்பு',
+        'SMS சந்தைப்படுத்தல் பிரச்சாரங்கள்',
+        'குரல் அழைப்பு மேலாண்மை',
+        'ஒருங்கிணைந்த இன்பாக்ஸ்',
+        'குழு ஒத்துழைப்பு',
+        'தானியங்கு பணிப்பாய்வுகள்',
+        'தொடர்பு மேலாண்மை',
+        'செயல்திறன் பகுப்பாய்வு'
+      ],
+      'th': [
+        'การรวม WhatsApp Business',
+        'แคมเปญการตลาด SMS',
+        'การจัดการการโทรเสียง',
+        'กล่องจดหมายแบบรวม',
+        'การทำงานร่วมกันของทีม',
+        'เวิร์กโฟลว์อัตโนมัติ',
+        'การจัดการรายชื่อติดต่อ',
+        'การวิเคราะห์ประสิทธิภาพ'
+      ],
+      'vi': [
+        'Tích hợp WhatsApp Business',
+        'Chiến dịch tiếp thị SMS',
+        'Quản lý cuộc gọi thoại',
+        'Hộp thư đến thống nhất',
+        'Cộng tác nhóm',
+        'Quy trình tự động',
+        'Quản lý liên hệ',
+        'Phân tích hiệu suất'
       ]
     },
     seavoice: {
@@ -1309,6 +1705,186 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         '通話錄音',
         '即時監控',
         'CRM整合'
+      ],
+      'zh-cn': [
+        'AI语音代理',
+        '智能通话路由',
+        '语音分析',
+        '语音转文字',
+        '文字转语音',
+        '通话录音',
+        '实时监控',
+        'CRM整合'
+      ],
+      'es': [
+        'Agentes de voz IA',
+        'Enrutamiento inteligente de llamadas',
+        'Análisis de voz',
+        'Voz a texto',
+        'Texto a voz',
+        'Grabación de llamadas',
+        'Monitoreo en tiempo real',
+        'Integración CRM'
+      ],
+      'fr': [
+        'Agents vocaux IA',
+        'Routage intelligent d\'appels',
+        'Analyses vocales',
+        'Parole-vers-texte',
+        'Texte-vers-parole',
+        'Enregistrement d\'appels',
+        'Surveillance en temps réel',
+        'Intégration CRM'
+      ],
+      'de': [
+        'KI-Sprachagenten',
+        'Intelligentes Anruf-Routing',
+        'Sprachanalysen',
+        'Sprache-zu-Text',
+        'Text-zu-Sprache',
+        'Anrufaufzeichnung',
+        'Echtzeit-Überwachung',
+        'CRM-Integration'
+      ],
+      'ja': [
+        'AI音声エージェント',
+        'インテリジェントコールルーティング',
+        '音声分析',
+        '音声テキスト変換',
+        'テキスト音声変換',
+        '通話録音',
+        'リアルタイム監視',
+        'CRM統合'
+      ],
+      'ko': [
+        'AI 음성 에이전트',
+        '지능형 통화 라우팅',
+        '음성 분석',
+        '음성-텍스트 변환',
+        '텍스트-음성 변환',
+        '통화 녹음',
+        '실시간 모니터링',
+        'CRM 통합'
+      ],
+      'ar': [
+        'وكلاء الصوت بالذكاء الاصطناعي',
+        'توجيه المكالمات الذكي',
+        'تحليلات الصوت',
+        'الكلام إلى نص',
+        'النص إلى كلام',
+        'تسجيل المكالمات',
+        'المراقبة في الوقت الفعلي',
+        'تكامل CRM'
+      ],
+      'fa': [
+        'عوامل صوتی هوش مصنوعی',
+        'مسیریابی هوشمند تماس',
+        'تحلیل‌های صوتی',
+        'گفتار به متن',
+        'متن به گفتار',
+        'ضبط تماس',
+        'نظارت بلادرنگ',
+        'ادغام CRM'
+      ],
+      'fil': [
+        'AI voice agents',
+        'Intelligent call routing',
+        'Voice analytics',
+        'Speech-to-text',
+        'Text-to-speech',
+        'Call recording',
+        'Real-time monitoring',
+        'CRM integration'
+      ],
+      'hi': [
+        'AI वॉयस एजेंट',
+        'बुद्धिमान कॉल राउटिंग',
+        'वॉयस एनालिटिक्स',
+        'भाषण-से-पाठ',
+        'पाठ-से-भाषण',
+        'कॉल रिकॉर्डिंग',
+        'रीयल-टाइम निगरानी',
+        'CRM एकीकरण'
+      ],
+      'id': [
+        'Agen suara AI',
+        'Routing panggilan cerdas',
+        'Analitik suara',
+        'Ucapan-ke-teks',
+        'Teks-ke-ucapan',
+        'Perekaman panggilan',
+        'Pemantauan real-time',
+        'Integrasi CRM'
+      ],
+      'ms': [
+        'Ejen suara AI',
+        'Penghalaan panggilan pintar',
+        'Analitik suara',
+        'Pertuturan-ke-teks',
+        'Teks-ke-pertuturan',
+        'Rakaman panggilan',
+        'Pemantauan masa nyata',
+        'Integrasi CRM'
+      ],
+      'pl': [
+        'Agenci głosowi AI',
+        'Inteligentne routowanie połączeń',
+        'Analityka głosu',
+        'Mowa-na-tekst',
+        'Tekst-na-mowę',
+        'Nagrywanie połączeń',
+        'Monitorowanie w czasie rzeczywistym',
+        'Integracja CRM'
+      ],
+      'pt': [
+        'Agentes de voz IA',
+        'Roteamento inteligente de chamadas',
+        'Análises de voz',
+        'Fala-para-texto',
+        'Texto-para-fala',
+        'Gravação de chamadas',
+        'Monitoramento em tempo real',
+        'Integração CRM'
+      ],
+      'ru': [
+        'ИИ голосовые агенты',
+        'Интеллектуальная маршрутизация звонков',
+        'Голосовая аналитика',
+        'Речь-в-текст',
+        'Текст-в-речь',
+        'Запись звонков',
+        'Мониторинг в реальном времени',
+        'Интеграция CRM'
+      ],
+      'ta': [
+        'AI குரல் முகவர்கள்',
+        'புத்திசாலித்தனமான அழைப்பு பாதை',
+        'குரல் பகுப்பாய்வு',
+        'பேச்சு-இல்-உரை',
+        'உரை-இல்-பேச்சு',
+        'அழைப்பு பதிவு',
+        'நேரடி நேர கண்காணிப்பு',
+        'CRM ஒருங்கிணைப்பு'
+      ],
+      'th': [
+        'เอเจนต์เสียง AI',
+        'การกำหนดเส้นทางการโทรอัจฉริยะ',
+        'การวิเคราะห์เสียง',
+        'การแปลงเสียงเป็นข้อความ',
+        'การแปลงข้อความเป็นเสียง',
+        'การบันทึกการโทร',
+        'การติดตามแบบเรียลไทม์',
+        'การรวม CRM'
+      ],
+      'vi': [
+        'Đại lý giọng nói AI',
+        'Định tuyến cuộc gọi thông minh',
+        'Phân tích giọng nói',
+        'Giọng nói-thành-văn bản',
+        'Văn bản-thành-giọng nói',
+        'Ghi âm cuộc gọi',
+        'Giám sát thời gian thực',
+        'Tích hợp CRM'
       ]
     }
   };
