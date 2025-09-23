@@ -9,6 +9,7 @@ import Industries from '../../components/Industries.astro';
 import Channels from '../../components/Channels.astro';
 import Comparison from '../../components/Comparison.astro';
 import { getTranslationHelpers, type SupportedLanguage } from '../../i18n/helpers';
+import { getLocalizedServiceSchema, getLocalizedFaqSchema } from '../../config/schemaData';
 
 // 為所有支持的語言生成靜態路徑
 export async function getStaticPaths() {
@@ -34,21 +35,8 @@ const title = t('seo.homepage.title') || 'SeaSalt.ai - AI-Powered Contact Center
 const description = t('seo.homepage.description') || 'Transform your customer communications with SeaSalt.ai\'s AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.';
 const keywords = t('seo.homepage.keywords') || 'omni-channel contact center, small business communication, unified inbox, customer service software, WhatsApp business, voice calls, chat support';
 
-// 首頁的 FAQ 結構化資料
-const homepageFaqs = [
-  {
-    question: "What is Seasalt.ai?",
-    answer: "Seasalt.ai is an AI-powered omnichannel customer communication platform that helps businesses automate customer service across multiple channels including WhatsApp, SMS, voice calls, and web chat."
-  },
-  {
-    question: "What products does Seasalt.ai offer?",
-    answer: "Seasalt.ai offers three main products: SeaChat for AI chatbots and customer service automation, SeaX for omnichannel communication campaigns, and SeaVoice for AI voice agents and call automation."
-  },
-  {
-    question: "How does Seasalt.ai help businesses?",
-    answer: "Seasalt.ai helps businesses reduce customer service costs, improve response times, automate repetitive tasks, and provide 24/7 customer support across multiple communication channels using advanced AI technology."
-  }
-];
+// 首頁的 FAQ 結構化資料 (本地化)
+const homepageFaqs = getLocalizedFaqSchema(currentLang);
 
 // 首頁的麵包屑導航
 const homepageBreadcrumbs = [
@@ -89,14 +77,17 @@ const enhancedOrganization = {
   }
 };
 
-// 自訂 JSON-LD 結構化資料
+// 自訂 JSON-LD 結構化資料 (本地化)
+const seaChatSchema = getLocalizedServiceSchema('seachat', currentLang);
+const seaXSchema = getLocalizedServiceSchema('seax', currentLang);
+
 const customJsonLd = [
-  // SeaChat Service 結構化資料 (符合您原本提供的格式)
+  // SeaChat Service 結構化資料 (本地化)
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "SeaChat",
-    "description": "SeaChat: AI-powered chat automation and agent-assist platform by Seasalt AI, enabling multilingual, live-agent-transfer, webchat, SMS, WhatsApp, and CRM integrations for 24/7 conversational support.",
+    "name": seaChatSchema.name,
+    "description": seaChatSchema.description,
     "url": "https://chat.seasalt.ai/",
     "provider": {
       "@type": "Organization",
@@ -105,17 +96,34 @@ const customJsonLd = [
     },
     "applicationCategory": "ChatBot",
     "isAccessibleForFree": "True",
-    "keywords": "AI chatbot, live agent transfer, multilingual, webchat, SMS, WhatsApp, CRM integration",
-    "featureList": [
-      "No-code setup in 10 minutes",
-      "Live agent transfer",
-      "Multilingual support",
-      "Integrates with webchat, SMS, Line, WhatsApp, CRM, Shopify, calendars, Twilio"
-    ],
+    "keywords": seaChatSchema.keywords,
+    "featureList": seaChatSchema.featureList,
     "availableOnDevice": "Web",
     "audience": {
       "@type": "Audience",
-      "audienceType": "Businesses, Educational Institutions, Customer Support Teams"
+      "audienceType": seaChatSchema.audienceType
+    }
+  },
+  // SeaX Service 結構化資料 (本地化)
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": seaXSchema.name,
+    "description": seaXSchema.description,
+    "url": "https://seasalt.ai/seax",
+    "provider": {
+      "@type": "Organization",
+      "name": "Seasalt AI",
+      "url": "https://seasalt.ai/"
+    },
+    "applicationCategory": "Communication Platform",
+    "isAccessibleForFree": "False",
+    "keywords": seaXSchema.keywords,
+    "featureList": seaXSchema.featureList,
+    "availableOnDevice": "Web",
+    "audience": {
+      "@type": "Audience",
+      "audienceType": seaXSchema.audienceType
     }
   }
 ];

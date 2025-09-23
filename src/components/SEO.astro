@@ -1,6 +1,6 @@
 ---
 import { defaultLang, languages } from '../i18n/helpers';
-import { SCHEMA_IDS, ORGANIZATION_INFO, PRODUCTS_INFO, getLocalizedProductInfo, type ProductKey } from '../config/schemaData';
+import { SCHEMA_IDS, ORGANIZATION_INFO, PRODUCTS_INFO, getLocalizedProductInfo, getLocalizedOrganizationDescription, type ProductKey } from '../config/schemaData';
 import { getProductKeyFromPath } from '../utils/schemaGenerator';
 
 interface Props {
@@ -227,7 +227,7 @@ const {
   title = 'SeaSalt.ai - AI-Powered Omnichannel Customer Communication Platform',
   description = 'Transform your customer communications with SeaSalt.ai\'s AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.',
   keywords = 'AI customer service, omnichannel platform, WhatsApp business, customer support software, contact center solutions, conversational AI, customer communication',
-  image = '/images/og/seasalt-ai-social-card.png',
+  image = '/seasalt-ai-logo.png',
   canonical,
   lang = defaultLang,
   type = 'website',
@@ -280,7 +280,7 @@ const baseUrl = `${currentUrl.protocol}//${currentUrl.host}`;
 const canonicalUrl = canonical ? new URL(canonical, Astro.url).href : Astro.url.href;
 
 // Safe image URL handling
-const safeImage = image || '/images/og/seasalt-ai-social-card.png';
+const safeImage = image || '/seasalt-ai-logo.png';
 const absoluteImageUrl = (safeImage && safeImage.startsWith && safeImage.startsWith('http')) 
   ? safeImage 
   : `${baseUrl}${safeImage}`;
@@ -345,14 +345,9 @@ const baseStructuredData = {
   "inLanguage": lang,
 };
 
-// Website search functionality and richer WebSite metadata
+// Website metadata
 if (type === 'website') {
   baseStructuredData["@id"] = SCHEMA_IDS.WEBSITE;
-  baseStructuredData.potentialAction = {
-    "@type": "SearchAction",
-    "target": `${baseUrl}/search?q={search_term_string}`,
-    "query-input": "required name=search_term_string"
-  };
   // Use all supported languages for site-level inLanguage
   baseStructuredData.inLanguage = Object.keys(languages);
   // Link publisher organization if available
@@ -388,14 +383,15 @@ const organizationData = {
   "@id": SCHEMA_IDS.ORGANIZATION,
   "name": organization?.name || ORGANIZATION_INFO.name,
   "alternateName": organization?.alternateName || ORGANIZATION_INFO.alternateName,
+  "description": organization?.description || getLocalizedOrganizationDescription(lang),
   "url": organization?.url || ORGANIZATION_INFO.url,
   "logo": {
     "@type": "ImageObject",
     "url": (organization?.logo && organization.logo.startsWith('http'))
       ? organization.logo
-      : (ORGANIZATION_INFO.logo.url || `${baseUrl}${organization?.logo || '/images/seasalt-ai-logo.png'}`),
-    "width": ORGANIZATION_INFO.logo.width || 512,
-    "height": ORGANIZATION_INFO.logo.height || 512
+      : (ORGANIZATION_INFO.logo.url || `${baseUrl}${organization?.logo || '/seasalt-ai-logo.png'}`),
+    "width": ORGANIZATION_INFO.logo.width || 1200,
+    "height": ORGANIZATION_INFO.logo.height || 630
   },
   "sameAs": organization?.sameAs || ORGANIZATION_INFO.sameAs,
   "foundingDate": ORGANIZATION_INFO.foundingDate,
@@ -404,8 +400,8 @@ const organizationData = {
 // ContactPoint
 organizationData.contactPoint = {
   "@type": "ContactPoint",
+  "email": organization?.contactPoint?.email || ORGANIZATION_INFO.contactPoint.email,
   ...(organization?.contactPoint?.telephone && { "telephone": organization.contactPoint.telephone }),
-  ...(organization?.contactPoint?.email && { "email": organization.contactPoint.email }),
   "contactType": organization?.contactPoint?.contactType || "customer service",
   "availableLanguage": organization?.contactPoint?.availableLanguage || ORGANIZATION_INFO.contactPoint.availableLanguage,
 };
@@ -419,9 +415,17 @@ if (organization?.address || ORGANIZATION_INFO.address) {
   };
 }
 
-// Market coverage
-organizationData.areaServed = ORGANIZATION_INFO.areaServed;
-organizationData.availableLanguage = ORGANIZATION_INFO.availableLanguage;
+// Market coverage - structured format
+organizationData.areaServed = ORGANIZATION_INFO.areaServed.map(countryCode => ({
+  "@type": "Country",
+  "identifier": countryCode
+}));
+
+// Available languages - structured format
+organizationData.availableLanguage = ORGANIZATION_INFO.availableLanguage.map(langCode => ({
+  "@type": "Language",
+  "name": langCode
+}));
 
 structuredDataArray.push(organizationData);
 
