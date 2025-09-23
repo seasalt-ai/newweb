@@ -1,0 +1,1938 @@
+{
+  "compare": {
+    "aircallAlternative": {
+      "seo": {
+        "title": "Aircall Alternative - Seasalt.ai Unified Communication",
+        "description": "Escape Aircall's add-on fees and user minimums. See why growing teams choose Seasalt.ai's all-in-one communication platform with transparent pricing."
+      },
+      "nav": {
+        "backToOverview": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": {
+          "part1": "[FA]Tired of Add-on Fees and User Minimums?",
+          "part2": "See Why Growing Teams Choose Seasalt.ai Over Aircall"
+        },
+        "subtitle": "Aircall is known for its user-friendly interface but forces small teams into a corner with a mandatory 3-user minimum and a pricing model that walls off critical features like AI, advanced analytics, and even WhatsApp integration behind expensive monthly add-ons. Seasalt.ai provides a truly all-in-one platform with transparent pricing."
+      },
+      "comparison": {
+        "title": "[FA]Feature-by-Feature Comparison",
+        "subtitle": "See how Seasalt.ai delivers all the features you need without the add-on fees and complexity",
+        "table": {
+          "headers": {
+            "feature": "[FA]Feature",
+            "seasalt": "Seasalt.ai",
+            "aircall": "[FA]Aircall"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "[FA]Pricing Model",
+            "seasalt": "[FA]Simple per-user fee",
+            "competitor": "[FA]Per-license + multiple required add-ons"
+          },
+          "userMinimum": {
+            "name": "[FA]User Minimum",
+            "seasalt": "[FA]1",
+            "competitor": "[FA]3"
+          },
+          "unifiedComm": {
+            "name": "[FA]Unified Voice & WhatsApp",
+            "seasalt": "[FA]Yes, natively included",
+            "competitor": "[FA]No, requires $10/mo add-on"
+          },
+          "aiVoiceAgent": {
+            "name": "[FA]AI Voice Agent",
+            "seasalt": "[FA]Yes, included (usage-based)",
+            "competitor": "[FA]No, requires $0.99/min add-on"
+          },
+          "aiCallSummaries": {
+            "name": "[FA]AI Call Summaries",
+            "seasalt": "[FA]Yes, included",
+            "competitor": "[FA]No, requires $9/mo add-on"
+          },
+          "advancedAnalytics": {
+            "name": "[FA]Advanced Analytics",
+            "seasalt": "[FA]Yes, included",
+            "competitor": "[FA]No, requires $15/mo add-on"
+          },
+          "callQuality": {
+            "name": "[FA]Reported Call Quality",
+            "seasalt": "[FA]High-quality voice",
+            "competitor": "[FA]Users report inconsistent quality and dropped calls"
+          },
+          "bestFor": {
+            "name": "[FA]Best For",
+            "seasalt": "[FA]SMEs needing an affordable, truly all-in-one solution",
+            "competitor": "[FA]Sales/support teams that can meet the user minimum and afford multiple add-ons"
+          }
+        }
+      },
+      "costComparison": {
+        "title": "[FA]The Real Cost Comparison",
+        "subtitle": "See how Aircall's add-on fees quickly add up compared to Seasalt.ai's transparent pricing",
+        "aircall": {
+          "title": "[FA]Aircall Reality Check",
+          "basePlan": "[FA]Base plan (per user)",
+          "basePlanCost": "[FA]$30/month",
+          "aiVoiceAddon": "[FA]AI Voice add-on",
+          "aiVoiceAddonCost": "[FA]+$9/month",
+          "whatsappIntegration": "[FA]WhatsApp integration",
+          "whatsappIntegrationCost": "[FA]+$10/month",
+          "advancedAnalytics": "[FA]Advanced analytics",
+          "advancedAnalyticsCost": "[FA]+$15/month",
+          "totalPerUser": "[FA]Total per user",
+          "totalPerUserCost": "[FA]$64/month",
+          "minimumNote": "[FA]Plus 3-user minimum = $192/month minimum"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "admin": "[FA]Admin (first user)",
+          "adminCost": "[FA]$50/month",
+          "additionalAgents": "[FA]Additional agents",
+          "additionalAgentsCost": "[FA]$25/month each",
+          "aiVoiceIncluded": "[FA]AI Voice + Chat included",
+          "aiVoiceIncludedCost": "[FA]$0",
+          "allChannelsIncluded": "[FA]All channels included",
+          "allChannelsIncludedCost": "[FA]$0",
+          "analyticsIncluded": "[FA]Analytics included",
+          "analyticsIncludedCost": "[FA]$0",
+          "total": "[FA]Total (3 users)",
+          "totalCost": "[FA]$100/month",
+          "savings": "[FA]Save $92/month vs. Aircall"
+        }
+      },
+      "cta": {
+        "title": "[FA]Ready to Escape Add-on Fees?",
+        "subtitle": "[FA]Join thousands of growing businesses who switched from Aircall to get all the features they need without the complexity and hidden costs.",
+        "signUp": "[FA]Sign Up",
+        "bookDemo": "[FA]Book A Demo"
+      }
+    },
+    "ringcentral": {
+      "seo": {
+        "title": "RingCentral Alternative - Unified Contact Center vs Fragmented Solutions | Seasalt.ai",
+        "description": "Discover why Seasalt.ai's truly unified contact center outperforms RingCentral's fragmented UCaaS and CCaaS approach. Compare pricing, features, and architecture.",
+        "canonicalPath": "[FA]/compare/ringcentral-alternative"
+      },
+      "navigation": {
+        "backToOverview": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": {
+          "part1": "[FA]Looking for a True All-in-One Contact Center?",
+          "part2": "[FA]See Why RingCentral's \"Unified\" Platform Falls Short"
+        },
+        "subtitle": "RingCentral is a giant in communications, but its solution is fragmented. Their main offering is a business phone system (UCaaS), while their contact center (RingCX) is a separate, premium product starting at $65/agent/month. This creates complexity and silos. Seasalt.ai is built from the ground up as a single, unified contact center."
+      },
+      "comparison": {
+        "title": "[FA]Unified vs. Fragmented Architecture",
+        "subtitle": "[FA]See why a truly unified platform beats separate products bolted together",
+        "table": {
+          "headers": {
+            "feature": "[FA]Feature",
+            "seasalt": "Seasalt.ai",
+            "ringcentral": "[FA]RingCentral"
+          }
+        },
+        "features": {
+          "platformArchitecture": {
+            "name": "[FA]Platform Architecture",
+            "seasalt": "[FA]True Unified Contact Center",
+            "ringcentral": "[FA]Separate UCaaS and CCaaS products"
+          },
+          "startingPrice": {
+            "name": "[FA]Starting Price (Contact Center)",
+            "seasalt": "[FA]$25/agent/month",
+            "ringcentral": "[FA]$65/agent/month (RingCX)"
+          },
+          "unifiedVoiceDigital": {
+            "name": "[FA]Unified Voice & Digital",
+            "seasalt": "[FA]Yes, natively included",
+            "ringcentral": "[FA]No, not natively unified in one inbox"
+          },
+          "integrationQuality": {
+            "name": "[FA]Integration Quality",
+            "seasalt": "[FA]Reliable, modern integrations",
+            "ringcentral": "[FA]Users report buggy integrations and logging issues"
+          },
+          "easeOfUse": {
+            "name": "[FA]Ease of Use",
+            "seasalt": "[FA]Intuitive for small teams",
+            "ringcentral": "[FA]Users report setup can be \"mind-numbing"
+          },
+          "bestFor": {
+            "name": "[FA]Best For",
+            "seasalt": "[FA]SMEs wanting a simple, powerful, and truly unified contact center",
+            "ringcentral": "[FA]Larger companies needing a broad UCaaS platform and willing to pay extra for a separate contact center solution"
+          }
+        }
+      },
+      "architecture": {
+        "title": "[FA]Architecture Matters",
+        "subtitle": "[FA]Why unified beats fragmented when it comes to customer communications",
+        "seasalt": {
+          "title": "Seasalt.ai: Unified Platform",
+          "features": {
+            "singleLogin": "[FA]Single login for all channels",
+            "unifiedHistory": "[FA]Unified conversation history",
+            "seamlessSwitching": "[FA]Seamless channel switching",
+            "oneBilling": "[FA]One billing, one support contact",
+            "builtInIntegrations": "[FA]Built-in integrations that work"
+          }
+        },
+        "ringcentral": {
+          "title": "[FA]RingCentral: Separate Products",
+          "issues": {
+            "multipleLogins": "[FA]Multiple logins and interfaces",
+            "fragmentedData": "[FA]Fragmented conversation data",
+            "complexIntegration": "[FA]Complex integration requirements",
+            "separateBilling": "[FA]Separate billing for UCaaS and CCaaS",
+            "buggyIntegrations": "[FA]Users report buggy integrations"
+          }
+        }
+      },
+      "cta": {
+        "title": "[FA]Ready for True Unification?",
+        "subtitle": "[FA]Stop juggling separate systems. Get a truly unified contact center that works seamlessly from day one.",
+        "signUp": "[FA]Sign Up",
+        "bookDemo": "[FA]Book A Demo"
+      }
+    },
+    "genesysAlternative": {
+      "seo": {
+        "title": "[FA]Genesys Alternative - SME-Focused Contact Center Solutions",
+        "description": "Enterprise-grade features without enterprise complexity. Compare Seasalt.ai vs Genesys Cloud CX for small and medium businesses."
+      },
+      "nav": {
+        "backToOverview": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title1": "[FA]Enterprise Power,",
+        "title2": "[FA]Without the Enterprise Price & Complexity",
+        "subtitle": "[FA]Genesys is a powerful, enterprise-grade platform designed for massive corporations with dedicated IT teams and deep pockets. Their pricing models reflect this, with high per-user costs, significant minimum monthly commitments (~$2,000/mo minimum), and complex, token-based billing for AI features. For an SME, this is not just unaffordable—it's unmanageable."
+      },
+      "comparison": {
+        "title": "[FA]SME-Focused vs. Enterprise-Only",
+        "subtitle": "See why Seasalt.ai delivers the power you need without the complexity you don't"
+      },
+      "table": {
+        "headers": {
+          "feature": "[FA]Feature",
+          "seasalt": "Seasalt.ai",
+          "genesys": "[FA]Genesys Cloud CX"
+        }
+      },
+      "features": {
+        "targetCustomer": {
+          "name": "[FA]Target Customer",
+          "seasalt": "[FA]Small to Medium Businesses (SMEs)",
+          "competitor": "[FA]Large Enterprises"
+        },
+        "startingPrice": {
+          "name": "[FA]Starting Price",
+          "seasalt": "[FA]$25/agent/month",
+          "competitor": "[FA]$75/user/month"
+        },
+        "minimumCommitment": {
+          "name": "[FA]Minimum Commitment",
+          "seasalt": "[FA]None",
+          "competitor": "[FA]High (~$2,000/month minimum)"
+        },
+        "pricingComplexity": {
+          "name": "[FA]Pricing Complexity",
+          "seasalt": "[FA]Simple & Transparent",
+          "competitor": "[FA]Extremely Complex. Tiered plans, usage tokens, add-ons, quote-based"
+        },
+        "easeOfSetup": {
+          "name": "[FA]Ease of Setup",
+          "seasalt": "[FA]Minutes to go live",
+          "competitor": "[FA]Requires significant implementation resources"
+        },
+        "bestFor": {
+          "name": "[FA]Best For",
+          "seasalt": "[FA]SMEs needing powerful features with simplicity and affordability",
+          "competitor": "[FA]Global corporations with 100s of agents and dedicated management teams"
+        }
+      },
+      "costReality": {
+        "title": "[FA]The Real Cost of Enterprise Solutions",
+        "subtitle": "[FA]Why enterprise pricing doesn't make sense for growing businesses"
+      },
+      "seasaltBenefits": {
+        "title": "Seasalt.ai: Built for SMEs",
+        "noMinimum": {
+          "title": "[FA]No Minimum Commitment",
+          "description": "[FA]Start with 1 user, scale as you grow"
+        },
+        "simplePricing": {
+          "title": "[FA]Simple Pricing",
+          "description": "[FA]$25/agent/month, all features included"
+        },
+        "quickSetup": {
+          "title": "[FA]Quick Setup",
+          "description": "[FA]Go live in minutes, not months"
+        },
+        "selfService": {
+          "title": "[FA]Self-Service",
+          "description": "[FA]No implementation team required"
+        }
+      },
+      "genesysLimitations": {
+        "title": "[FA]Genesys: Enterprise Focus",
+        "highMinimums": {
+          "title": "[FA]High Minimums",
+          "description": "[FA]~$2,000/month minimum commitment"
+        },
+        "complexPricing": {
+          "title": "[FA]Complex Pricing",
+          "description": "[FA]Tiered plans, usage tokens, quote-based"
+        },
+        "longImplementation": {
+          "title": "[FA]Long Implementation",
+          "description": "[FA]Requires dedicated implementation resources"
+        },
+        "enterpriseSales": {
+          "title": "[FA]Enterprise Sales",
+          "description": "[FA]Must contact sales for pricing"
+        }
+      },
+      "cta": {
+        "title": "[FA]Get Enterprise Features at SME Prices",
+        "subtitle": "[FA]Why pay enterprise prices when you can get the features you need at a fraction of the cost?",
+        "signUp": "[FA]Sign Up",
+        "bookDemo": "[FA]Book A Demo"
+      }
+    },
+    "five9Alternative": {
+      "seo": {
+        "title": "Five9 Alternative - Affordable Contact Center Solution | Seasalt.ai",
+        "description": "Looking for a Five9 alternative? Seasalt.ai offers powerful omnichannel contact center features at $25/agent/month vs Five9's $119/user/month. Perfect for SMEs."
+      },
+      "navigation": {
+        "backLink": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": {
+          "part1": "[FA]Powerful Outbound Without the",
+          "part2": "[FA]Enterprise Price Tag"
+        },
+        "subtitle": "Five9 is a powerful platform designed for large, outbound-heavy contact centers with enterprise budgets starting at $119/user/month. While excellent for massive call centers, it's overkill and overpriced for most growing businesses. Seasalt.ai delivers the omnichannel and AI capabilities SMEs need with balanced inbound/outbound features at a fraction of the cost."
+      },
+      "comparison": {
+        "title": "[FA]Enterprise vs. SME-Focused Solutions",
+        "subtitle": "[FA]See why you don't need enterprise complexity to get powerful results",
+        "table": {
+          "headers": {
+            "feature": "[FA]Feature",
+            "seasalt": "Seasalt.ai",
+            "five9": "[FA]Five9"
+          }
+        },
+        "features": {
+          "targetCustomer": {
+            "name": "[FA]Target Customer",
+            "seasalt": "[FA]Small to Medium Businesses (SMEs)",
+            "competitor": "[FA]Large Enterprises"
+          },
+          "startingPrice": {
+            "name": "[FA]Starting Price",
+            "seasalt": "[FA]$25/agent/month",
+            "competitor": "[FA]$119/user/month"
+          },
+          "pricingModel": {
+            "name": "[FA]Pricing Model",
+            "seasalt": "[FA]Simple & Transparent",
+            "competitor": "[FA]Per-User + Bundles + Complex tiers"
+          },
+          "setupComplexity": {
+            "name": "[FA]Setup Complexity",
+            "seasalt": "[FA]Self-service, minutes to deploy",
+            "competitor": "[FA]Requires professional services and implementation team"
+          },
+          "outboundFocus": {
+            "name": "[FA]Outbound Focus",
+            "seasalt": "[FA]Balanced inbound/outbound with AI automation",
+            "competitor": "[FA]Heavy outbound focus with advanced dialing"
+          },
+          "bestFor": {
+            "name": "[FA]Best For",
+            "seasalt": "[FA]SMEs needing affordable omnichannel with AI automation",
+            "competitor": "[FA]Large, outbound-heavy contact centers with dedicated teams"
+          }
+        }
+      },
+      "cost": {
+        "title": "[FA]The Cost Reality",
+        "subtitle": "See how Five9's enterprise pricing compares to Seasalt.ai's SME-focused approach",
+        "agents5": {
+          "title": "[FA]5 Agents",
+          "seasalt": {
+            "price": "[FA]$175/mo",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "[FA]$595/mo",
+            "label": "[FA]Five9"
+          },
+          "savings": "[FA]Save $420/month"
+        },
+        "agents10": {
+          "title": "[FA]10 Agents",
+          "seasalt": {
+            "price": "[FA]$275/mo",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "[FA]$1,190/mo",
+            "label": "[FA]Five9"
+          },
+          "savings": "[FA]Save $915/month"
+        },
+        "agents20": {
+          "title": "[FA]20 Agents",
+          "seasalt": {
+            "price": "[FA]$525/mo",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "[FA]$2,380/mo",
+            "label": "[FA]Five9"
+          },
+          "savings": "[FA]Save $1,855/month"
+        }
+      },
+      "features": {
+        "title": "[FA]Balanced Approach vs. Outbound-Heavy",
+        "subtitle": "[FA]Most businesses need both inbound and outbound capabilities, not just heavy outbound focus",
+        "seasalt": {
+          "title": "Seasalt.ai: Balanced Omnichannel",
+          "feature1": "[FA]Inbound customer support across all channels",
+          "feature2": "[FA]Outbound marketing campaigns (SMS, WhatsApp, Voice)",
+          "feature3": "[FA]AI automation for both inbound and outbound",
+          "feature4": "[FA]Unified inbox for all customer interactions",
+          "feature5": "[FA]Perfect for growing businesses"
+        },
+        "five9": {
+          "title": "[FA]Five9: Outbound-Heavy Focus",
+          "feature1": "[FA]Advanced predictive dialing capabilities",
+          "feature2": "[FA]Complex campaign management tools",
+          "feature3": "[FA]Enterprise-grade compliance features",
+          "feature4": "[FA]Designed for high-volume call centers",
+          "feature5": "[FA]Requires dedicated management team"
+        }
+      },
+      "cta": {
+        "title": "[FA]Get Powerful Features Without Enterprise Complexity",
+        "subtitle": "[FA]Why pay 5x more for features you don't need? Get the balanced omnichannel solution that grows with your business.",
+        "signUp": "[FA]Sign Up",
+        "bookDemo": "[FA]Book A Demo"
+      }
+    },
+    "avayaAlternative": {
+      "seo": {
+        "title": "Modern Cloud-Native vs. Legacy Infrastructure - Avaya Alternative | Seasalt.ai",
+        "description": "Compare Seasalt.ai's modern cloud-native architecture with Avaya's legacy infrastructure. See why cloud-first beats adapted legacy systems for growing businesses."
+      },
+      "navigation": {
+        "backToCompare": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": {
+          "main": "[FA]Modern Cloud-Native vs.",
+          "highlight": "[FA]Legacy Infrastructure"
+        },
+        "description": "Avaya has been a telecommunications giant for decades, but their legacy architecture and complex enterprise focus make them a poor fit for modern, growing businesses. While they're transitioning to cloud solutions, their pricing remains enterprise-focused with complex licensing and professional services requirements. Seasalt.ai is built cloud-native from day one for the modern business."
+      },
+      "comparison": {
+        "title": "[FA]Cloud-Native vs. Legacy Migration",
+        "subtitle": "[FA]See why starting with modern architecture beats adapting legacy systems",
+        "tableHeaders": {
+          "feature": "[FA]Feature",
+          "seasalt": "Seasalt.ai",
+          "avaya": "[FA]Avaya"
+        },
+        "features": {
+          "platformType": {
+            "name": "[FA]Platform Type",
+            "seasalt": "[FA]Cloud-Native Unified Communications",
+            "competitor": "[FA]Legacy On-Premise with Cloud Migration"
+          },
+          "startingPrice": {
+            "name": "[FA]Starting Price",
+            "seasalt": "[FA]$25/agent/month",
+            "competitor": "[FA]Quote-based (typically $50-100+/user/month)"
+          },
+          "setupComplexity": {
+            "name": "[FA]Setup Complexity",
+            "seasalt": "[FA]Self-service, minutes to deploy",
+            "competitor": "[FA]Requires professional services and implementation"
+          },
+          "modernArchitecture": {
+            "name": "[FA]Modern Architecture",
+            "seasalt": "[FA]Built for cloud-first, API-driven",
+            "competitor": "[FA]Legacy architecture with cloud adaptations"
+          },
+          "aiIntegration": {
+            "name": "[FA]AI Integration",
+            "seasalt": "[FA]Native AI voice and chatbots included",
+            "competitor": "[FA]AI capabilities through partnerships and add-ons"
+          },
+          "targetMarket": {
+            "name": "[FA]Target Market",
+            "seasalt": "[FA]SMEs and growing businesses",
+            "competitor": "[FA]Large enterprises with existing Avaya infrastructure"
+          }
+        }
+      },
+      "architecture": {
+        "title": "[FA]Modern vs. Legacy Architecture",
+        "subtitle": "[FA]Why cloud-native architecture matters for growing businesses",
+        "seasalt": {
+          "title": "Seasalt.ai: Cloud-Native",
+          "feature1": "[FA]Built for cloud from day one",
+          "feature2": "[FA]API-first architecture",
+          "feature3": "[FA]Automatic updates and scaling",
+          "feature4": "[FA]Modern integrations",
+          "feature5": "[FA]Self-service deployment"
+        },
+        "avaya": {
+          "title": "[FA]Avaya: Legacy Migration",
+          "feature1": "[FA]Legacy on-premise roots",
+          "feature2": "[FA]Complex licensing models",
+          "feature3": "[FA]Professional services required",
+          "feature4": "[FA]Integration complexity",
+          "feature5": "[FA]Enterprise sales process"
+        }
+      },
+      "businessImpact": {
+        "title": "[FA]Business Impact",
+        "subtitle": "[FA]How architecture choices affect your business operations",
+        "timeToValue": {
+          "title": "[FA]Time to Value",
+          "seasalt": {
+            "value": "[FA]Minutes",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "[FA]Months",
+            "label": "[FA]Avaya"
+          }
+        },
+        "setupComplexity": {
+          "title": "[FA]Setup Complexity",
+          "seasalt": {
+            "value": "[FA]Self-Service",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "[FA]Professional Services",
+            "label": "[FA]Avaya"
+          }
+        },
+        "ongoingMaintenance": {
+          "title": "[FA]Ongoing Maintenance",
+          "seasalt": {
+            "value": "[FA]Automatic",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "[FA]Manual",
+            "label": "[FA]Avaya"
+          }
+        }
+      },
+      "cta": {
+        "title": "[FA]Choose Modern Over Legacy",
+        "subtitle": "[FA]Why struggle with legacy architecture when you can have a modern, cloud-native solution built for today's businesses?",
+        "signUp": "[FA]Sign Up",
+        "bookDemo": "[FA]Book A Demo"
+      }
+    },
+    "googleVoiceAlternative": {
+      "seo": {
+        "title": "Graduating from Google Voice? Here's the Professional Solution You Need - Seasalt.ai",
+        "description": "See why growing businesses need more than Google Voice's basic VoIP service. Compare features and discover Seasalt.ai's professional communication platform."
+      },
+      "nav": {
+        "backToOverview": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": {
+          "line1": "[FA]Graduating from Google Voice?",
+          "line2": "[FA]Here's the Professional Solution You Need"
+        },
+        "subtitle": "[FA]Google Voice is a great tool for personal use or solopreneurs, but it's not a true business phone system. As soon as you hire a team, you'll hit a wall. It lacks critical business features like a shared team inbox, call queues, toll-free numbers, and analytics. Most importantly, it has no public API, meaning it cannot integrate with your CRM or other essential business software."
+      },
+      "comparison": {
+        "title": "[FA]Professional Business System vs. Personal VoIP",
+        "subtitle": "[FA]See why growing businesses need more than a basic phone service",
+        "table": {
+          "feature": "[FA]Feature",
+          "seasalt": "Seasalt.ai",
+          "competitor": "[FA]Google Voice"
+        },
+        "features": {
+          "systemType": {
+            "feature": "[FA]System Type",
+            "seasalt": "[FA]Professional Omni-Channel Contact Center",
+            "competitor": "[FA]Basic VoIP Service (not a true phone system)"
+          },
+          "teamCollaboration": {
+            "feature": "[FA]Team Collaboration",
+            "seasalt": "[FA]Shared Inbox, Team Management",
+            "competitor": "[FA]No Shared Inbox. Designed for individuals, not teams"
+          },
+          "crmIntegrations": {
+            "feature": "[FA]CRM & 3rd Party Integrations",
+            "seasalt": "[FA]Yes, extensive integrations",
+            "competitor": "[FA]No. Only integrates with Google Workspace apps"
+          },
+          "supportedChannels": {
+            "feature": "[FA]Supported Channels",
+            "seasalt": "[FA]Voice, SMS, WhatsApp, Messenger, Instagram, LINE, Webchat",
+            "competitor": "[FA]Voice, SMS (US only)"
+          },
+          "automation": {
+            "feature": "[FA]Automation (Bots/IVR)",
+            "seasalt": "[FA]AI Voicebot, Chatbot, Advanced IVR",
+            "competitor": "[FA]Basic Auto-Attendant only. No other automation"
+          },
+          "tollFree": {
+            "feature": "[FA]Toll-Free Numbers",
+            "seasalt": "[FA]Yes",
+            "competitor": "[FA]No"
+          },
+          "callAnalytics": {
+            "feature": "[FA]Call Analytics",
+            "seasalt": "[FA]Yes, detailed reporting",
+            "competitor": "[FA]No. Basic usage logs only"
+          },
+          "bestFor": {
+            "feature": "[FA]Best For",
+            "seasalt": "[FA]Growing businesses needing a professional, scalable communications platform",
+            "competitor": "[FA]Solopreneurs or freelancers in the US needing a simple, separate phone number"
+          }
+        }
+      },
+      "growthLimitations": {
+        "title": "[FA]When You Outgrow Google Voice",
+        "subtitle": "[FA]Signs it's time to upgrade to a professional business communications platform",
+        "firstEmployee": {
+          "title": "[FA]You Hired Your First Employee",
+          "description": "[FA]Google Voice doesn't support shared inboxes or team collaboration. Each person needs their own number."
+        },
+        "crmIntegration": {
+          "title": "[FA]You Need CRM Integration",
+          "description": "[FA]No API means no integration with Salesforce, HubSpot, or any other business tools."
+        },
+        "professionalFeatures": {
+          "title": "[FA]You Want Professional Features",
+          "description": "[FA]No call queues, advanced IVR, call analytics, or toll-free numbers available."
+        },
+        "multipleChannels": {
+          "title": "[FA]You Need Multiple Channels",
+          "description": "[FA]Only supports voice and SMS. No WhatsApp, webchat, or social media integration."
+        },
+        "automation": {
+          "title": "[FA]You Want Automation",
+          "description": "[FA]No AI chatbots, voicebots, or advanced automation capabilities available."
+        },
+        "internationalSupport": {
+          "title": "[FA]You Need International Support",
+          "description": "[FA]Limited international calling and SMS support compared to business platforms."
+        }
+      },
+      "benefits": {
+        "title": "What You Gain with Seasalt.ai",
+        "subtitle": "[FA]The professional features your growing business needs",
+        "teamCollaboration": {
+          "title": "[FA]Team Collaboration",
+          "feature1": "[FA]Shared team inbox for all communications",
+          "feature2": "[FA]Round-robin call distribution",
+          "feature3": "[FA]Team performance analytics",
+          "feature4": "[FA]Conversation handoffs between agents"
+        },
+        "professionalFeatures": {
+          "title": "[FA]Professional Features",
+          "feature1": "[FA]Advanced IVR and call routing",
+          "feature2": "[FA]Toll-free numbers available",
+          "feature3": "[FA]Detailed call analytics and reporting",
+          "feature4": "[FA]CRM and business tool integrations"
+        }
+      },
+      "cta": {
+        "title": "[FA]Ready to Upgrade to Professional Communications?",
+        "subtitle": "[FA]Make the switch from Google Voice to a platform built for growing businesses. Keep your existing number and gain powerful new capabilities.",
+        "signUp": "[FA]Sign Up",
+        "bookDemo": "[FA]Book a Demo"
+      }
+    },
+    "respondIoAlternative": {
+      "seo": {
+        "title": "Respond.io Alternative - Seasalt.ai",
+        "description": "Compare Seasalt.ai vs Respond.io. Get true omnichannel with native voice calling instead of beta features. Predictable per-agent pricing vs complex MACs model."
+      },
+      "navigation": {
+        "backLink": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": {
+          "main": "[FA]Don't Settle for Digital-Only.",
+          "highlight": "[FA]Get True Omnichannel with Native Voice and Messaging"
+        },
+        "description": "Respond.io is a strong platform for businesses focused on messaging channels like WhatsApp. However, its pricing is based on Monthly Active Contacts (MACs), which can become unpredictable, and crucial channels like Voice are still in beta. Furthermore, WhatsApp usage fees are billed separately, adding another layer of cost complexity. Seasalt.ai offers a truly unified platform where voice is a core, native feature."
+      },
+      "comparison": {
+        "title": "[FA]Unified Omnichannel vs. Digital-First",
+        "subtitle": "[FA]See why native voice integration matters for complete customer communication",
+        "table": {
+          "headers": {
+            "feature": "[FA]Feature",
+            "seasalt": "Seasalt.ai",
+            "competitor": "[FA]respond.io"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "[FA]Pricing Model",
+            "seasalt": "[FA]Simple & predictable per-agent fee",
+            "competitor": "[FA]Monthly Active Contacts (MACs) + Users"
+          },
+          "startingPrice": {
+            "name": "[FA]Starting Price",
+            "seasalt": "[FA]$25/agent/month",
+            "competitor": "[FA]$79/month (includes 5 users)"
+          },
+          "voiceCalling": {
+            "name": "[FA]Voice Calling",
+            "seasalt": "[FA]Yes, native and fully supported",
+            "competitor": "[FA]Beta feature"
+          },
+          "whatsappFees": {
+            "name": "[FA]WhatsApp Fees",
+            "seasalt": "[FA]Included in usage",
+            "competitor": "[FA]Billed separately by Meta"
+          },
+          "aiAgent": {
+            "name": "[FA]AI Agent",
+            "seasalt": "[FA]Yes, included in all plans",
+            "competitor": "[FA]Requires Growth plan ($159/mo+)"
+          },
+          "coreFocus": {
+            "name": "[FA]Core Focus",
+            "seasalt": "[FA]True Omnichannel (Voice + Digital)",
+            "competitor": "[FA]Digital-First Messaging"
+          },
+          "bestFor": {
+            "name": "[FA]Best For",
+            "seasalt": "[FA]SMEs needing a unified hub for all customer conversations, including phone calls",
+            "competitor": "[FA]Marketing and sales teams focused primarily on lead generation through chat"
+          }
+        }
+      },
+      "pricing": {
+        "title": "[FA]Predictable vs. Variable Pricing",
+        "subtitle": "[FA]Why simple per-agent pricing beats complex contact-based models",
+        "seasalt": {
+          "title": "Seasalt.ai: Simple & Predictable",
+          "perAgent": {
+            "title": "[FA]Per-Agent Pricing",
+            "description": "[FA]$25/agent/month - easy to budget and scale"
+          },
+          "allChannels": {
+            "title": "[FA]All Channels Included",
+            "description": "[FA]Voice, SMS, WhatsApp, chat - no extra fees"
+          },
+          "usageIncluded": {
+            "title": "[FA]Usage Included",
+            "description": "[FA]WhatsApp and SMS usage included in plan"
+          },
+          "noSurprises": {
+            "title": "[FA]No Surprises",
+            "description": "[FA]Predictable monthly costs, easy to forecast"
+          }
+        },
+        "competitor": {
+          "title": "[FA]respond.io: Complex Variables",
+          "monthlyContacts": {
+            "title": "[FA]Monthly Active Contacts",
+            "description": "[FA]Pricing varies based on contact activity"
+          },
+          "separateFees": {
+            "title": "[FA]Separate WhatsApp Fees",
+            "description": "[FA]Meta charges billed separately"
+          },
+          "voiceBeta": {
+            "title": "[FA]Voice in Beta",
+            "description": "[FA]Core feature still being developed"
+          },
+          "unpredictableCosts": {
+            "title": "[FA]Unpredictable Costs",
+            "description": "[FA]Monthly bills can vary significantly"
+          }
+        }
+      },
+      "voice": {
+        "title": "[FA]Native Voice vs. Beta Feature",
+        "subtitle": "[FA]Why voice should be a core feature, not an afterthought",
+        "seasalt": {
+          "title": "Seasalt.ai: Voice-First Design",
+          "nativeVoice": "[FA]Native voice calling built into platform",
+          "aiVoicebot": "[FA]AI voicebot with human handoff",
+          "unifiedHistory": "[FA]Unified conversation history across voice and digital",
+          "phoneFeatures": "[FA]Professional phone system features",
+          "productionReady": "[FA]Production-ready and fully supported"
+        },
+        "competitor": {
+          "title": "[FA]respond.io: Voice as Beta",
+          "betaTesting": "[FA]Voice calling still in beta testing",
+          "limitedFeatures": "[FA]Limited voice features and reliability",
+          "potentialBugs": "[FA]Potential for bugs and instability",
+          "uncertainRoadmap": "[FA]Uncertain roadmap and timeline",
+          "notRecommended": "[FA]Not recommended for production use"
+        }
+      },
+      "cta": {
+        "title": "[FA]Ready for True Omnichannel?",
+        "description": "[FA]Stop waiting for beta features. Get a platform where voice and digital channels work together seamlessly from day one.",
+        "signUp": "[FA]Sign Up",
+        "bookDemo": "[FA]Book A Demo"
+      }
+    },
+    "intercomAlternative": {
+      "seo": {
+        "title": "Intercom Alternative - Complete Customer Communication Platform - Seasalt.ai",
+        "description": "Compare Seasalt.ai vs Intercom: Get unified contact center beyond website widgets. Transparent pricing vs per-resolution charges. Voice, SMS, WhatsApp included."
+      },
+      "navigation": {
+        "backText": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": {
+          "prefix": "[FA]Beyond the Website Widget.",
+          "highlight": "[FA]Get a Complete Customer Communication Platform"
+        },
+        "subtitle": "Intercom excels at proactive website engagement with its best-in-class live chat and AI chatbot, Fin. However, its pricing model is complex and expensive, with separate charges per seat, per AI resolution ($0.99 each), and for add-ons. Voice and SMS are pay-as-you-go afterthoughts. Seasalt.ai is built as a true contact center, where voice is a primary channel."
+      },
+      "comparison": {
+        "title": "[FA]Complete Platform vs. Website-Focused Tool",
+        "subtitle": "[FA]See why a unified contact center beats a specialized website engagement tool",
+        "table": {
+          "feature": "[FA]Feature",
+          "seasalt": "Seasalt.ai",
+          "competitor": "[FA]Intercom"
+        },
+        "features": {
+          "pricingModel": {
+            "name": "[FA]Pricing Model",
+            "seasalt": "[FA]Simple & predictable per-agent fee",
+            "competitor": "[FA]Per-Seat + Per-Resolution + Add-ons"
+          },
+          "startingPrice": {
+            "name": "[FA]Starting Price",
+            "seasalt": "[FA]$25/agent/month",
+            "competitor": "[FA]$29-$39/seat/month"
+          },
+          "aiAgentCost": {
+            "name": "[FA]AI Agent Cost",
+            "seasalt": "[FA]Included (usage-based)",
+            "competitor": "[FA]$0.99 per resolution"
+          },
+          "voiceCalling": {
+            "name": "[FA]Voice Calling",
+            "seasalt": "[FA]Yes, native and fully supported",
+            "competitor": "[FA]Pay-as-you-go add-on"
+          },
+          "coreFocus": {
+            "name": "[FA]Core Focus",
+            "seasalt": "[FA]Unified Contact Center",
+            "competitor": "[FA]Website Engagement & Support"
+          },
+          "bestFor": {
+            "name": "[FA]Best For",
+            "seasalt": "[FA]SMEs needing a complete communication hub for all channels",
+            "competitor": "[FA]SaaS and web-based businesses focused on converting and supporting users on their site"
+          }
+        }
+      },
+      "pricing": {
+        "title": "[FA]Simple vs. Complex Pricing",
+        "subtitle": "[FA]Why transparent pricing beats per-resolution charges and usage fees",
+        "seasalt": {
+          "title": "Seasalt.ai: Transparent Pricing",
+          "perAgent": {
+            "title": "[FA]$25/agent/month",
+            "description": "[FA]Everything included, no surprises"
+          },
+          "aiIncluded": {
+            "title": "[FA]AI Included",
+            "description": "[FA]Voice and chatbots included in plan"
+          },
+          "allChannels": {
+            "title": "[FA]All Channels",
+            "description": "[FA]Voice, SMS, WhatsApp, chat - no extra fees"
+          },
+          "predictable": {
+            "title": "[FA]Predictable Costs",
+            "description": "[FA]Easy to budget and forecast"
+          }
+        },
+        "intercom": {
+          "title": "[FA]Intercom: Complex Billing",
+          "basePrice": {
+            "title": "[FA]$39/seat/month",
+            "description": "[FA]Base price before add-ons"
+          },
+          "aiResolution": {
+            "title": "[FA]$0.99 per AI resolution",
+            "description": "[FA]Charges for each AI interaction"
+          },
+          "payPerUse": {
+            "title": "[FA]Pay-per-use Voice",
+            "description": "[FA]Voice calling charged separately"
+          },
+          "unpredictable": {
+            "title": "[FA]Unpredictable Bills",
+            "description": "[FA]Costs vary based on usage"
+          }
+        }
+      },
+      "scenarios": {
+        "title": "[FA]Real-World Cost Scenarios",
+        "subtitle": "[FA]See how Intercom's per-resolution pricing can quickly add up",
+        "light": {
+          "title": "[FA]Light Usage",
+          "description": "[FA]3 agents, 100 AI resolutions/month",
+          "seasalt": {
+            "price": "[FA]$75/mo",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "[FA]$216/mo",
+            "label": "[FA]Intercom",
+            "breakdown": "[FA]($117 base + $99 AI)"
+          }
+        },
+        "medium": {
+          "title": "[FA]Medium Usage",
+          "description": "[FA]5 agents, 300 AI resolutions/month",
+          "seasalt": {
+            "price": "[FA]$150/mo",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "[FA]$492/mo",
+            "label": "[FA]Intercom",
+            "breakdown": "[FA]($195 base + $297 AI)"
+          }
+        },
+        "heavy": {
+          "title": "[FA]Heavy Usage",
+          "description": "[FA]10 agents, 1000 AI resolutions/month",
+          "seasalt": {
+            "price": "[FA]$275/mo",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "[FA]$1,380/mo",
+            "label": "[FA]Intercom",
+            "breakdown": "[FA]($390 base + $990 AI)"
+          }
+        }
+      },
+      "channels": {
+        "title": "[FA]Complete Channel Coverage vs. Website Focus",
+        "subtitle": "[FA]Why businesses need more than just website engagement",
+        "seasalt": {
+          "title": "Seasalt.ai: Complete Coverage",
+          "voice": "[FA]Native voice calling and phone system",
+          "whatsapp": "[FA]WhatsApp Business integration",
+          "sms": "[FA]SMS marketing and support",
+          "social": "[FA]Social media messaging (Instagram, Facebook)",
+          "website": "[FA]Website chat and contact forms",
+          "unified": "[FA]Unified inbox for all channels"
+        },
+        "intercom": {
+          "title": "[FA]Intercom: Website-Focused",
+          "websiteChat": "[FA]Excellent website chat and engagement",
+          "proactive": "[FA]Proactive messaging and targeting",
+          "voiceAddon": "[FA]Voice calling as pay-per-use add-on",
+          "smsLimited": "[FA]Limited SMS capabilities",
+          "noWhatsapp": "[FA]No native WhatsApp Business integration",
+          "noSocial": "[FA]No social media messaging support"
+        }
+      },
+      "cta": {
+        "title": "[FA]Ready for Complete Customer Communication?",
+        "subtitle": "[FA]Stop paying per resolution and get a complete platform that covers all your customer communication needs at a predictable price.",
+        "signUp": "[FA]Sign Up",
+        "bookDemo": "[FA]Book A Demo"
+      }
+    },
+    "kustomerAlternative": {
+      "seo": {
+        "title": "Kustomer Alternative | Seasalt.ai vs Kustomer Comparison",
+        "description": "Compare Seasalt.ai vs Kustomer for customer support. See why SMEs choose our affordable omnichannel solution over enterprise-priced platforms."
+      },
+      "nav": {
+        "backLink": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": "[FA]Enterprise Power for an SME Price.",
+        "highlight": "[FA]Why Pay for 8 Seats When You Only Need 2?",
+        "description": "Kustomer is a powerful, true omnichannel platform that provides a unified view of the customer journey. However, its power comes at an enterprise price. The per-seat plan starts at $89/month with a mandatory 8-seat minimum, making it inaccessible for most SMEs. Critical AI capabilities are also expensive add-ons. Seasalt.ai delivers the core omnichannel functionality and AI automation SMEs need."
+      },
+      "comparison": {
+        "title": "[FA]SME-Accessible vs. Enterprise-Only",
+        "subtitle": "[FA]See why powerful features shouldn't require enterprise minimums",
+        "table": {
+          "headers": {
+            "feature": "[FA]Feature",
+            "seasalt": "Seasalt.ai",
+            "kustomer": "[FA]Kustomer"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "[FA]Pricing Model",
+            "seasalt": "[FA]Simple & predictable per-agent fee",
+            "kustomer": "[FA]Per-Seat or Per-Conversation"
+          },
+          "startingPrice": {
+            "name": "[FA]Starting Price",
+            "seasalt": "[FA]$25/agent/month",
+            "kustomer": "[FA]$89/seat/month"
+          },
+          "minimumCommitment": {
+            "name": "[FA]Minimum Commitment",
+            "seasalt": "[FA]1 User",
+            "kustomer": "[FA]8 Seats (on per-seat plan)"
+          },
+          "aiCapabilities": {
+            "name": "[FA]AI Capabilities",
+            "seasalt": "[FA]Included (usage-based)",
+            "kustomer": "[FA]Paid Add-on ($40/user/mo or $0.60/convo)"
+          },
+          "omnichannelTimeline": {
+            "name": "[FA]Omnichannel Timeline",
+            "seasalt": "[FA]Yes",
+            "kustomer": "[FA]Yes, very strong"
+          },
+          "coreFocus": {
+            "name": "[FA]Core Focus",
+            "seasalt": "[FA]Affordable, unified communications for SMEs",
+            "kustomer": "[FA]Enterprise-scale, data-driven customer service"
+          },
+          "bestFor": {
+            "name": "[FA]Best For",
+            "seasalt": "[FA]Growing businesses needing a powerful but affordable omnichannel solution",
+            "kustomer": "[FA]Large support teams that can meet the seat minimum and need deep data integration"
+          }
+        }
+      },
+      "costBarrier": {
+        "title": "[FA]The 8-Seat Minimum Barrier",
+        "subtitle": "[FA]See how Kustomer's minimum commitment prices out growing businesses",
+        "scenarios": {
+          "twoAgents": {
+            "title": "[FA]2 Agents",
+            "seasaltPrice": "[FA]$75/mo",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "[FA]$712/mo",
+            "kustomerLabel": "[FA]Kustomer (8-seat min)",
+            "savings": "[FA]Save $637/month"
+          },
+          "fiveAgents": {
+            "title": "[FA]5 Agents",
+            "seasaltPrice": "[FA]$175/mo",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "[FA]$712/mo",
+            "kustomerLabel": "[FA]Kustomer (8-seat min)",
+            "savings": "[FA]Save $537/month"
+          },
+          "eightAgents": {
+            "title": "[FA]8 Agents",
+            "seasaltPrice": "[FA]$225/mo",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "[FA]$712/mo",
+            "kustomerLabel": "[FA]Kustomer",
+            "savings": "[FA]Save $487/month"
+          }
+        },
+        "problem": {
+          "title": "[FA]The SME Accessibility Problem",
+          "description": "[FA]Kustomer's 8-seat minimum means even a 2-person team pays for 6 unused seats. This creates an artificial barrier that prevents growing businesses from accessing powerful omnichannel features until they reach enterprise scale."
+        }
+      },
+      "aiCosts": {
+        "title": "[FA]AI Included vs. Expensive Add-On",
+        "subtitle": "[FA]See how AI costs add up when it's treated as a premium feature",
+        "seasalt": {
+          "title": "Seasalt.ai: AI Included",
+          "voiceAi": {
+            "title": "[FA]Voice AI",
+            "description": "[FA]Included in base plan"
+          },
+          "chatAi": {
+            "title": "[FA]Chat AI",
+            "description": "[FA]Included in base plan"
+          },
+          "smartRouting": {
+            "title": "[FA]Smart Routing",
+            "description": "[FA]Included in base plan"
+          },
+          "totalCost": {
+            "title": "[FA]Total AI Cost",
+            "amount": "[FA]$0 additional"
+          }
+        },
+        "kustomer": {
+          "title": "[FA]Kustomer: AI as Add-On",
+          "perUser": {
+            "title": "[FA]KIQ AI (Per-User)",
+            "description": "[FA]$40/user/month additional"
+          },
+          "perConversation": {
+            "title": "[FA]KIQ AI (Per-Conversation)",
+            "description": "[FA]$0.60/conversation"
+          },
+          "example": {
+            "title": "[FA]Example: 8 users",
+            "calculation": "[FA]8 × $40 = $320/month extra"
+          },
+          "totalCost": {
+            "title": "[FA]Total AI Cost",
+            "amount": "[FA]$320+ additional"
+          }
+        }
+      },
+      "features": {
+        "title": "[FA]What You Get vs. What You Pay For",
+        "subtitle": "[FA]Both platforms offer strong omnichannel capabilities, but at very different price points",
+        "shared": {
+          "title": "[FA]What You Get with Both",
+          "unifiedInbox": "[FA]Unified omnichannel inbox",
+          "conversationHistory": "[FA]Customer conversation history",
+          "teamCollaboration": "[FA]Team collaboration tools",
+          "analytics": "[FA]Analytics and reporting",
+          "crmIntegrations": "[FA]CRM integrations"
+        },
+        "advantages": {
+          "title": "Seasalt.ai Advantages",
+          "noMinimum": "[FA]No minimum seat requirements",
+          "aiIncluded": "[FA]AI included in base price",
+          "nativeVoice": "[FA]Native voice calling platform",
+          "selfService": "[FA]Self-service setup and management",
+          "smeFocused": "[FA]SME-focused pricing and features"
+        }
+      },
+      "cta": {
+        "title": "[FA]Get Enterprise Features Without Enterprise Minimums",
+        "subtitle": "[FA]Why pay for 8 seats when you only need 2? Get powerful omnichannel capabilities that scale with your actual team size.",
+        "signUp": "[FA]Sign Up",
+        "bookDemo": "[FA]Book A Demo"
+      }
+    },
+    "threeCXAlternative": {
+      "seo": {
+        "title": "Seasalt.ai vs 3CX Alternative - Managed Cloud vs Self-Hosted",
+        "description": "Compare Seasalt.ai's fully managed cloud solution with 3CX's self-hosted PBX. See the real costs and complexity behind 3CX's \"affordable\" pricing."
+      },
+      "nav": {
+        "backLink": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": "[FA]Choose Simplicity and Cloud Power.",
+        "highlight": "[FA]Stop Managing Servers and Start Talking to Customers",
+        "description": "3CX offers an open-platform PBX with a unique pricing model based on simultaneous calls, not users, which can be cost-effective for some. However, this comes with significant hidden complexity and costs. You are responsible for hosting, SSL certificates, and technical support (which starts at $75 per ticket). It is fundamentally a phone system, not a native omnichannel platform. Seasalt.ai is a fully managed, cloud-native solution."
+      },
+      "comparison": {
+        "title": "[FA]Managed Cloud vs. Self-Hosted Complexity",
+        "subtitle": "[FA]See why fully managed beats do-it-yourself for growing businesses",
+        "table": {
+          "headers": {
+            "feature": "[FA]Feature",
+            "seasalt": "Seasalt.ai",
+            "threeCX": "[FA]3CX"
+          }
+        },
+        "features": {
+          "platformType": {
+            "name": "[FA]Platform Type",
+            "seasalt": "[FA]Cloud-Native Unified Communications",
+            "threeCX": "[FA]Self-Hosted or Hosted IP PBX"
+          },
+          "pricingModel": {
+            "name": "[FA]Pricing Model",
+            "seasalt": "[FA]Simple per-agent fee",
+            "threeCX": "[FA]Per-Simultaneous Call + Hosting + Support"
+          },
+          "managementOverhead": {
+            "name": "[FA]Management Overhead",
+            "seasalt": "None (Fully managed by Seasalt.ai)",
+            "threeCX": "[FA]High (Requires technical expertise for setup & maintenance)"
+          },
+          "omnichannelInbox": {
+            "name": "[FA]Omnichannel Inbox",
+            "seasalt": "[FA]Yes, native",
+            "threeCX": "[FA]No, primarily a phone system"
+          },
+          "aiCapabilities": {
+            "name": "[FA]AI Capabilities",
+            "seasalt": "[FA]Yes, native Voice & Chatbots",
+            "threeCX": "[FA]Coming Soon\" Add-on"
+          },
+          "bestFor": {
+            "name": "[FA]Best For",
+            "seasalt": "[FA]Businesses that want a powerful, easy-to-use, all-in-one solution",
+            "threeCX": "[FA]Tech-savvy organizations that want full control over their PBX"
+          }
+        }
+      },
+      "hiddenCosts": {
+        "title": "[FA]The Hidden Costs of \"Affordable\" 3CX",
+        "subtitle": "[FA]See what 3CX doesn't include in their advertised pricing",
+        "seasalt": {
+          "title": "Seasalt.ai: All-Inclusive",
+          "pricing": "[FA]25/agent/month",
+          "pricingDescription": "[FA]Everything included",
+          "cloudHosting": {
+            "title": "[FA]Cloud Hosting",
+            "description": "[FA]Included - no server management"
+          },
+          "support": {
+            "title": "[FA]Support",
+            "description": "[FA]Included - unlimited support"
+          },
+          "updates": {
+            "title": "[FA]Updates & Maintenance",
+            "description": "[FA]Included - automatic updates"
+          },
+          "ssl": {
+            "title": "[FA]SSL Certificates",
+            "description": "[FA]Included - managed automatically"
+          }
+        },
+        "threeCX": {
+          "title": "[FA]3CX: Hidden Costs",
+          "baseLicense": {
+            "price": "[FA]~$25/mo (4 calls)",
+            "description": "[FA]Base license only"
+          },
+          "hostingCosts": {
+            "title": "[FA]Hosting Costs",
+            "description": "[FA]$20-100+/month for VPS/cloud hosting"
+          },
+          "supportTickets": {
+            "title": "[FA]Support Tickets",
+            "description": "[FA]$75+ per support ticket"
+          },
+          "itManagement": {
+            "title": "[FA]IT Management",
+            "description": "[FA]Your time or consultant fees"
+          },
+          "sslCerts": {
+            "title": "[FA]SSL Certificates",
+            "description": "[FA]$50-200+/year for certificates"
+          }
+        },
+        "realCost": {
+          "title": "[FA]The Real Total Cost of Ownership",
+          "description": "[FA]3CX's advertised pricing doesn't include hosting, support, maintenance, or the time you'll spend managing it. For most businesses, the total cost quickly exceeds a fully managed solution.",
+          "calculation": "[FA]3CX \"Real\" Cost: $25 license + $50 hosting + $75 support ticket + your time = $150+ per month"
+        }
+      },
+      "technicalComplexity": {
+        "title": "[FA]Focus on Business, Not IT Management",
+        "subtitle": "See what you'll need to manage with 3CX vs. what Seasalt.ai handles for you",
+        "threeCX": {
+          "title": "[FA]What You Manage with 3CX",
+          "serverProvisioning": "[FA]Server provisioning and configuration",
+          "osUpdates": "[FA]Operating system updates and security patches",
+          "sslInstallation": "[FA]SSL certificate installation and renewal",
+          "firewallConfig": "[FA]Firewall configuration and security",
+          "backupRecovery": "[FA]Backup and disaster recovery",
+          "troubleshooting": "[FA]Troubleshooting and support tickets",
+          "capacityPlanning": "[FA]Capacity planning and scaling"
+        },
+        "seasalt": {
+          "title": "What Seasalt.ai Handles",
+          "infrastructure": "[FA]Complete infrastructure management",
+          "securityUpdates": "[FA]Automatic security updates",
+          "sslManagement": "[FA]SSL certificates managed automatically",
+          "enterpriseSecurity": "[FA]Enterprise-grade security built-in",
+          "backups": "[FA]Automated backups and redundancy",
+          "monitoring": "[FA]24/7 monitoring and support",
+          "scaling": "[FA]Automatic scaling and optimization"
+        }
+      },
+      "cta": {
+        "title": "[FA]Focus on Growing Your Business, Not Managing Servers",
+        "subtitle": "[FA]Why spend time on IT management when you could be talking to customers? Get a fully managed solution that just works.",
+        "signUp": "[FA]Sign Up",
+        "bookDemo": "[FA]Book A Demo"
+      }
+    },
+    "dialpadAlternative": {
+      "seo": {
+        "title": "Dialpad Alternative: Unified Contact Center vs Expensive Upgrades | Seasalt.ai",
+        "description": "Don't get trapped by Dialpad's upgrade costs. Get a unified contact center from the start with Seasalt.ai - full features at $25/agent/month vs. $80+ for Dialpad's contact center tier."
+      },
+      "nav": {
+        "backLink": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": "[FA]Don't Pay Extra for a \"Contact Center.",
+        "highlight": "[FA]Get One Unified Platform from the Start",
+        "description": "Dialpad offers a strong UCaaS platform with excellent voice intelligence (AI transcription and summaries) at an attractive entry price of $15/user/month. However, this is not their contact center solution. True contact center features, including omnichannel routing and advanced analytics, require upgrading to much more expensive plans like Dialpad Support, which starts at $80/user/month. Seasalt.ai is built as a unified contact center from the ground up."
+      },
+      "comparison": {
+        "title": "[FA]Unified Contact Center vs. Separate Products",
+        "subtitle": "[FA]See why starting with a unified platform beats upgrading to expensive contact center tiers",
+        "table": {
+          "headers": {
+            "feature": "[FA]Feature",
+            "seasalt": "Seasalt.ai",
+            "dialpad": "[FA]Dialpad"
+          }
+        },
+        "features": {
+          "platformArchitecture": {
+            "name": "[FA]Platform Architecture",
+            "seasalt": "[FA]True Unified Contact Center",
+            "dialpad": "[FA]Separate UCaaS and CCaaS products"
+          },
+          "startingPrice": {
+            "name": "[FA]Starting Price (UCaaS)",
+            "seasalt": "[FA]$25/agent/month",
+            "dialpad": "[FA]$15/user/month"
+          },
+          "contactCenterPrice": {
+            "name": "[FA]Contact Center Price",
+            "seasalt": "[FA]$25/agent/month",
+            "dialpad": "[FA]$80+/user/month"
+          },
+          "unifiedVoiceDigital": {
+            "name": "[FA]Unified Voice & Digital",
+            "seasalt": "[FA]Yes, natively included",
+            "dialpad": "[FA]No, requires expensive CCaaS plan"
+          },
+          "voiceAI": {
+            "name": "[FA]Voice AI",
+            "seasalt": "[FA]Yes, Voicebots & Transcription",
+            "dialpad": "[FA]Yes, strong transcription & summaries"
+          },
+          "globalSMS": {
+            "name": "[FA]Global SMS",
+            "seasalt": "[FA]Yes",
+            "dialpad": "[FA]Requires Pro plan ($25/mo+)"
+          },
+          "bestFor": {
+            "name": "[FA]Best For",
+            "seasalt": "[FA]SMEs wanting a simple, powerful, and truly unified contact center",
+            "dialpad": "[FA]Businesses that prioritize AI for voice calls but don't need a unified digital inbox"
+          }
+        }
+      },
+      "pricingTiers": {
+        "title": "[FA]The Contact Center Upgrade Trap",
+        "subtitle": "[FA]See how Dialpad's attractive entry price leads to expensive upgrades for contact center features",
+        "dialpadStandard": {
+          "title": "[FA]Dialpad Standard",
+          "price": "[FA]$15",
+          "period": "[FA]/user/month",
+          "features": {
+            "basicCalling": "[FA]Basic calling",
+            "voiceIntelligence": "[FA]Voice intelligence",
+            "noOmnichannel": "[FA]No omnichannel",
+            "noContactCenter": "[FA]No contact center features"
+          },
+          "goodFor": "[FA]Good for: Basic business phone"
+        },
+        "dialpadSupport": {
+          "title": "[FA]Dialpad Support",
+          "price": "[FA]$80+",
+          "period": "[FA]/user/month",
+          "features": {
+            "contactCenterFeatures": "[FA]Contact center features",
+            "omnichannelRouting": "[FA]Omnichannel routing",
+            "advancedAnalytics": "[FA]Advanced analytics",
+            "digitalChannels": "[FA]Digital channels"
+          },
+          "requiredFor": "[FA]Required for: Contact center needs"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "price": "[FA]$25",
+          "period": "[FA]/agent/month",
+          "features": {
+            "fullContactCenter": "[FA]Full contact center",
+            "allChannelsIncluded": "[FA]All channels included",
+            "aiVoiceChat": "[FA]AI voice & chat",
+            "noUpgradeRequired": "[FA]No upgrade required"
+          },
+          "perfectFor": "[FA]Perfect for: Complete solution"
+        }
+      },
+      "costAnalysis": {
+        "title": "[FA]The Real Cost of Contact Center Features",
+        "subtitle": "See how Dialpad's upgrade costs compare to Seasalt.ai's unified pricing",
+        "agents5": {
+          "title": "[FA]5 Agents",
+          "seasalt": {
+            "price": "[FA]$125/mo",
+            "label": "Seasalt.ai (Complete)"
+          },
+          "dialpadBasic": {
+            "price": "[FA]$75/mo",
+            "label": "[FA]Dialpad (Basic only)"
+          },
+          "dialpadCC": {
+            "price": "[FA]$400/mo",
+            "label": "[FA]Dialpad (Contact Center)"
+          }
+        },
+        "agents10": {
+          "title": "[FA]10 Agents",
+          "seasalt": {
+            "price": "[FA]$275/mo",
+            "label": "Seasalt.ai (Complete)"
+          },
+          "dialpadBasic": {
+            "price": "[FA]$150/mo",
+            "label": "[FA]Dialpad (Basic only)"
+          },
+          "dialpadCC": {
+            "price": "[FA]$800/mo",
+            "label": "[FA]Dialpad (Contact Center)"
+          }
+        },
+        "agents20": {
+          "title": "[FA]20 Agents",
+          "seasalt": {
+            "price": "[FA]$525/mo",
+            "label": "Seasalt.ai (Complete)"
+          },
+          "dialpadBasic": {
+            "price": "[FA]$300/mo",
+            "label": "[FA]Dialpad (Basic only)"
+          },
+          "dialpadCC": {
+            "price": "[FA]$1,600/mo",
+            "label": "[FA]Dialpad (Contact Center)"
+          }
+        }
+      },
+      "voiceAI": {
+        "title": "[FA]Voice AI: Both Platforms Excel",
+        "subtitle": "[FA]Both platforms offer strong voice AI capabilities, but in different contexts",
+        "seasalt": {
+          "title": "Seasalt.ai: Complete AI Suite",
+          "features": {
+            "voicebotHandling": "[FA]AI voicebot for automated call handling",
+            "realtimeTranscription": "[FA]Real-time transcription and summaries",
+            "aiChatbots": "[FA]AI chatbots for digital channels",
+            "unifiedAI": "[FA]Unified AI across all channels",
+            "includedPricing": "[FA]Included in base pricing"
+          }
+        },
+        "dialpad": {
+          "title": "[FA]Dialpad: Voice-Focused AI",
+          "features": {
+            "excellentTranscription": "[FA]Excellent real-time transcription",
+            "aiSummaries": "[FA]AI-powered call summaries",
+            "sentimentAnalysis": "[FA]Sentiment analysis",
+            "limitedVoiceOnly": "[FA]Limited to voice channel only",
+            "noAutomatedHandling": "[FA]No automated call handling"
+          }
+        }
+      },
+      "cta": {
+        "title": "[FA]Skip the Expensive Upgrade Path",
+        "description": "[FA]Why start with basic features and pay 3x more for contact center capabilities? Get everything you need from day one at a fraction of the cost.",
+        "buttons": {
+          "signUp": "[FA]Sign Up",
+          "bookDemo": "[FA]Book A Demo"
+        }
+      }
+    },
+    "eightXEightAlternative": {
+      "seo": {
+        "title": "8x8 Alternative: Enterprise Features Without Enterprise Price | Seasalt.ai",
+        "description": "[FA]Get the enterprise-grade omnichannel features you need at SME-friendly pricing. Transparent, simple, and affordable alternative to complex 8x8 enterprise solutions."
+      },
+      "nav": {
+        "backLink": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": "[FA]Get the Enterprise Features You Need,",
+        "highlight": "[FA]Without the Enterprise Price You Don't",
+        "description": "8x8 is a comprehensive, enterprise-grade solution offering a full suite of UCaaS and CCaaS features, including true omnichannel routing and advanced analytics. While powerful, its pricing is opaque (quote-based) and historically expensive, targeting larger organizations. For SMEs, the complexity and cost are often prohibitive. Seasalt.ai provides the key omnichannel and AI features that drive value for a growing business."
+      },
+      "comparison": {
+        "title": "[FA]SME-Focused vs. Enterprise-Complex",
+        "subtitle": "[FA]See why simple and transparent beats complex and opaque for growing businesses",
+        "table": {
+          "headers": {
+            "feature": "[FA]Feature",
+            "seasalt": "Seasalt.ai",
+            "eightXEight": "[FA]8x8"
+          }
+        },
+        "features": {
+          "targetCustomer": {
+            "name": "[FA]Target Customer",
+            "seasalt": "[FA]Small to Medium Businesses (SMEs)",
+            "eightXEight": "[FA]Mid-Market to Enterprise"
+          },
+          "pricingModel": {
+            "name": "[FA]Pricing Model",
+            "seasalt": "[FA]Simple & predictable per-agent fee",
+            "eightXEight": "[FA]Quote-Based (Historically expensive tiers)"
+          },
+          "startingPrice": {
+            "name": "[FA]Starting Price",
+            "seasalt": "[FA]$25/agent/month",
+            "eightXEight": "[FA]Not Publicly Listed (Previously started at $24/mo for basic UCaaS)"
+          },
+          "omnichannelRouting": {
+            "name": "[FA]Omnichannel Routing",
+            "seasalt": "[FA]Yes",
+            "eightXEight": "[FA]Yes, advanced"
+          },
+          "workforceManagement": {
+            "name": "[FA]Workforce Management",
+            "seasalt": "[FA]Basic",
+            "eightXEight": "[FA]Yes, advanced"
+          },
+          "easeOfSetup": {
+            "name": "[FA]Ease of Setup",
+            "seasalt": "[FA]Simple, self-service",
+            "eightXEight": "[FA]Complex, must contact sales"
+          },
+          "bestFor": {
+            "name": "[FA]Best For",
+            "seasalt": "[FA]SMEs needing a powerful but affordable and easy-to-use platform",
+            "eightXEight": "[FA]Large enterprises requiring a full suite of advanced communication and management tools"
+          }
+        }
+      },
+      "pricingTransparency": {
+        "title": "[FA]Transparent vs. Hidden Pricing",
+        "subtitle": "[FA]Why quote-based pricing creates barriers for growing businesses",
+        "seasalt": {
+          "title": "Seasalt.ai: Transparent Pricing",
+          "pricing": {
+            "title": "[FA]$25/agent/month",
+            "description": "[FA]Clear, published pricing"
+          },
+          "selfService": {
+            "title": "[FA]Self-Service Signup",
+            "description": "[FA]Start immediately, no sales calls required"
+          },
+          "noMinimums": {
+            "title": "[FA]No Minimums",
+            "description": "[FA]Start with 1 user, scale as needed"
+          },
+          "predictableCosts": {
+            "title": "[FA]Predictable Costs",
+            "description": "[FA]Easy budgeting and forecasting"
+          }
+        },
+        "eightXEight": {
+          "title": "[FA]8x8: Quote-Based Complexity",
+          "hiddenPricing": {
+            "title": "[FA]Hidden Pricing",
+            "description": "[FA]Must contact sales for pricing"
+          },
+          "salesProcess": {
+            "title": "[FA]Sales Process",
+            "description": "[FA]Lengthy sales cycles and negotiations"
+          },
+          "enterpriseFocus": {
+            "title": "[FA]Enterprise Focus",
+            "description": "[FA]Pricing optimized for large organizations"
+          },
+          "complexContracts": {
+            "title": "[FA]Complex Contracts",
+            "description": "[FA]Multi-year commitments and complex terms"
+          }
+        },
+        "quoteBasedProblem": {
+          "title": "[FA]The Quote-Based Pricing Problem",
+          "description": "[FA]When pricing isn't transparent, it usually means it's expensive. Quote-based pricing creates barriers for SMEs who need to budget and make quick decisions. It's designed for enterprise buyers with dedicated procurement teams and large budgets."
+        }
+      },
+      "featureComparison": {
+        "title": "[FA]Essential vs. Over-Engineered",
+        "subtitle": "See how Seasalt.ai focuses on what SMEs actually need vs. enterprise complexity",
+        "seasalt": {
+          "title": "Seasalt.ai: SME-Focused",
+          "features": {
+            "essentialOmnichannel": "[FA]Essential omnichannel features",
+            "aiAutomation": "[FA]AI automation included",
+            "simpleSetup": "[FA]Simple setup and management",
+            "intuitiveUI": "[FA]Intuitive user interface",
+            "affordableScaling": "[FA]Affordable scaling",
+            "fastTimeToValue": "[FA]Fast time to value"
+          }
+        },
+        "eightXEight": {
+          "title": "[FA]8x8: Enterprise-Complex",
+          "features": {
+            "advancedWorkforce": "[FA]Advanced workforce management",
+            "comprehensiveAnalytics": "[FA]Comprehensive analytics suite",
+            "complexImplementation": "[FA]Complex implementation required",
+            "steepLearning": "[FA]Steep learning curve",
+            "highTotalCost": "[FA]High total cost of ownership",
+            "longDeployment": "[FA]Long deployment timelines"
+          }
+        }
+      },
+      "businessImpact": {
+        "title": "[FA]Business Impact Comparison",
+        "subtitle": "[FA]How platform choice affects your business operations and growth",
+        "timeToDeploy": {
+          "title": "[FA]Time to Deploy",
+          "seasalt": {
+            "value": "[FA]Minutes",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "[FA]Months",
+            "label": "[FA]8x8"
+          }
+        },
+        "learningCurve": {
+          "title": "[FA]Learning Curve",
+          "seasalt": {
+            "value": "[FA]Low",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "[FA]High",
+            "label": "[FA]8x8"
+          }
+        },
+        "totalCost": {
+          "title": "[FA]Total Cost",
+          "seasalt": {
+            "value": "[FA]Predictable",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "[FA]Variable",
+            "label": "[FA]8x8"
+          }
+        }
+      },
+      "cta": {
+        "title": "[FA]Get Enterprise Power with SME Simplicity",
+        "description": "[FA]Why deal with enterprise complexity when you can get the features you need in a simple, affordable package designed for growing businesses?",
+        "buttons": {
+          "signUp": "[FA]Sign Up",
+          "bookDemo": "[FA]Book A Demo"
+        }
+      }
+    },
+    "openPhoneAlternative": {
+      "seo": {
+        "title": "OpenPhone Alternative: True Omnichannel Beyond Phone & SMS | Seasalt.ai",
+        "description": "[FA]Graduate from OpenPhone's voice/SMS limitations to a complete omnichannel platform. Get WhatsApp, webchat, AI automation, and advanced routing at $25/agent."
+      },
+      "nav": {
+        "backLink": "[FA]Back to Compare Us Overview"
+      },
+      "hero": {
+        "title": "[FA]Your Business Needs More Than Just a Phone Number.",
+        "highlight": "[FA]Graduate to a True Communications Platform",
+        "description": "OpenPhone is an excellent, modern, and affordable business phone system, perfect for teams needing a shared number for calls and texts. However, it is not an omnichannel contact center. It lacks crucial channels like webchat and social media, and its automation and AI capabilities are limited to add-ons or basic integrations. Seasalt.ai is the logical next step for businesses that have outgrown a simple phone solution."
+      },
+      "comparison": {
+        "title": "[FA]Phone System vs. Complete Communication Platform",
+        "subtitle": "[FA]See why growing businesses need more than just voice and SMS",
+        "table": {
+          "headers": {
+            "feature": "[FA]Feature",
+            "seasalt": "Seasalt.ai",
+            "openPhone": "[FA]OpenPhone"
+          }
+        },
+        "features": {
+          "platformType": {
+            "name": "[FA]Platform Type",
+            "seasalt": "[FA]Omni-Channel Contact Center",
+            "openPhone": "[FA]Business Phone System (VoIP)"
+          },
+          "supportedChannels": {
+            "name": "[FA]Supported Channels",
+            "seasalt": "[FA]Voice, SMS, WhatsApp, Webchat, Social",
+            "openPhone": "[FA]Voice & SMS/MMS only"
+          },
+          "unifiedInbox": {
+            "name": "[FA]Unified Inbox",
+            "seasalt": "[FA]Yes, for all channels",
+            "openPhone": "[FA]Yes, but for calls & texts only"
+          },
+          "aiFeatures": {
+            "name": "[FA]AI Voice/Chatbots",
+            "seasalt": "[FA]Yes, native and included",
+            "openPhone": "[FA]AI is a paid add-on ($49/mo)"
+          },
+          "advancedRouting": {
+            "name": "[FA]Advanced Routing",
+            "seasalt": "[FA]Yes, skill-based & IVR",
+            "openPhone": "[FA]Basic IVR on Business plan ($23/mo+)"
+          },
+          "crmIntegrations": {
+            "name": "[FA]CRM Integrations",
+            "seasalt": "[FA]Yes",
+            "openPhone": "[FA]HubSpot/Salesforce on Business plan only"
+          },
+          "bestFor": {
+            "name": "[FA]Best For",
+            "seasalt": "[FA]Businesses needing to manage all customer communication channels in one place",
+            "openPhone": "[FA]Small teams and startups needing a simple, affordable shared phone number"
+          }
+        }
+      },
+      "growthLimitations": {
+        "title": "[FA]When You Outgrow a Simple Phone System",
+        "subtitle": "[FA]Signs it's time to upgrade from OpenPhone to a complete communication platform",
+        "customerChat": {
+          "title": "[FA]Customers Want to Chat",
+          "description": "[FA]Your customers are asking for website chat, WhatsApp support, or social media messaging that OpenPhone can't provide."
+        },
+        "automation": {
+          "title": "[FA]You Need Automation",
+          "description": "[FA]You want AI to handle routine questions, book appointments, or provide 24/7 support beyond basic auto-replies."
+        },
+        "complexRouting": {
+          "title": "[FA]Complex Call Routing",
+          "description": "[FA]You need advanced IVR, skill-based routing, or queue management beyond OpenPhone's basic features."
+        },
+        "marketingCampaigns": {
+          "title": "[FA]Marketing Campaigns",
+          "description": "[FA]You want to run outbound SMS campaigns, WhatsApp marketing, or multi-channel customer outreach."
+        },
+        "unifiedCustomerView": {
+          "title": "[FA]Unified Customer View",
+          "description": "[FA]You need to see all customer interactions across channels, not just phone calls and texts."
+        },
+        "advancedAnalytics": {
+          "title": "[FA]Advanced Analytics",
+          "description": "[FA]You want detailed reporting on customer interactions, agent performance, and business metrics."
+        }
+      },
+      "featureExpansion": {
+        "title": "What You Gain with Seasalt.ai",
+        "subtitle": "[FA]Keep everything you love about OpenPhone and add powerful omnichannel capabilities",
+        "keepWorks": {
+          "title": "[FA]Keep What Works",
+          "sharedNumber": "[FA]Shared business phone number",
+          "teamSMS": "[FA]Team SMS and MMS messaging",
+          "simpleInterface": "[FA]Simple, intuitive interface",
+          "mobileApp": "[FA]Mobile app for on-the-go",
+          "affordablePricing": "[FA]Affordable pricing"
+        },
+        "addCapabilities": {
+          "title": "[FA]Add New Capabilities",
+          "whatsapp": "[FA]WhatsApp Business integration",
+          "webchat": "[FA]Website chat widget",
+          "socialMedia": "[FA]Social media messaging",
+          "aiVoicebots": "[FA]AI voicebot and chatbot",
+          "analytics": "[FA]Advanced analytics and reporting"
+        }
+      },
+      "pricingComparison": {
+        "title": "[FA]Pricing Comparison",
+        "subtitle": "See how Seasalt.ai's complete platform compares to OpenPhone with add-ons",
+        "openPhoneStarter": {
+          "title": "[FA]OpenPhone Starter",
+          "price": "[FA]$15",
+          "period": "[FA]/user/month",
+          "voiceOnly": "[FA]Voice & SMS only",
+          "noAI": "[FA]No AI features",
+          "noChannels": "[FA]No other channels"
+        },
+        "openPhoneAddons": {
+          "title": "[FA]OpenPhone + Add-ons",
+          "price": "[FA]$72",
+          "period": "[FA]/user/month",
+          "businessPlan": "[FA]Business plan ($23)",
+          "aiFeatures": "[FA]AI features ($49)",
+          "stillLimited": "[FA]Still voice & SMS only"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "price": "[FA]$25",
+          "period": "[FA]/agent/month",
+          "allChannels": "[FA]All channels included",
+          "aiIncluded": "[FA]AI included",
+          "completePlatform": "[FA]Complete platform"
+        }
+      },
+      "migrationPath": {
+        "title": "[FA]Easy Migration Path",
+        "subtitle": "Seamlessly transition from OpenPhone to Seasalt.ai without losing your number or disrupting service",
+        "keepNumber": {
+          "title": "[FA]Keep Your Number",
+          "description": "Port your existing business number to Seasalt.ai"
+        },
+        "addChannels": {
+          "title": "[FA]Add New Channels",
+          "description": "[FA]Connect WhatsApp, webchat, and social media"
+        },
+        "enableAI": {
+          "title": "[FA]Enable AI",
+          "description": "[FA]Set up automated responses and voicebots"
+        },
+        "trainTeam": {
+          "title": "[FA]Train Your Team",
+          "description": "[FA]Quick onboarding to new features and capabilities"
+        }
+      },
+      "cta": {
+        "title": "[FA]Ready to Upgrade Your Communication Platform?",
+        "description": "[FA]Keep everything you love about OpenPhone and add powerful omnichannel capabilities that will help your business grow.",
+        "buttons": {
+          "signUp": "[FA]Sign Up",
+          "bookDemo": "[FA]Book a Demo"
+        }
+      }
+    }
+  },
+  "channelsOverview": {
+    "seo": {
+      "title": "Communication Channels - Seasalt.ai",
+      "description": "[FA]Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform."
+    },
+    "hero": {
+      "backToHome": "[FA]Back to Home",
+      "title": "[FA]Every Customer Channel,",
+      "titleHighlight": "[FA]One Unified Platform",
+      "subtitle": "[FA]Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform.",
+      "hubTitle": "Seasalt.ai Hub",
+      "hubSubtitle": "[FA]All channels unified"
+    },
+    "channelsSection": {
+      "title": "[FA]Choose Your Channels",
+      "subtitle": "[FA]Start with the channels your customers use most, then expand as you grow. Each integration takes minutes, not months."
+    },
+    "channels": {
+      "whatsappBusiness": {
+        "name": "[FA]WhatsApp Business",
+        "capabilities": {
+          "0": "[FA]AI-powered chatbot responses",
+          "1": "[FA]Bulk messaging campaigns",
+          "2": "[FA]Voice message support",
+          "3": "[FA]Meta Cloud API integration"
+        }
+      },
+      "voicePhoneCalls": {
+        "name": "[FA]Voice & Phone Calls",
+        "capabilities": {
+          "0": "[FA]AI voicebot with human handoff",
+          "1": "[FA]Auto dialer campaigns",
+          "2": "[FA]Multi-agent round robin",
+          "3": "[FA]Twilio Flex integration"
+        }
+      },
+      "smsMessaging": {
+        "name": "[FA]SMS Messaging",
+        "capabilities": {
+          "0": "[FA]Bulk SMS campaigns",
+          "1": "[FA]Two-way conversations",
+          "2": "[FA]Global delivery (200+ countries)",
+          "3": "[FA]TCPA compliance tools"
+        }
+      },
+      "websiteChatWidget": {
+        "name": "[FA]Website Chat Widget",
+        "capabilities": {
+          "0": "[FA]Embeddable chat widget",
+          "1": "[FA]Customizable design",
+          "2": "[FA]Lead capture forms",
+          "3": "[FA]WordPress, Shopify integration"
+        }
+      },
+      "instagramDMs": {
+        "name": "[FA]Instagram DMs",
+        "capabilities": {
+          "0": "[FA]Automated DM responses",
+          "1": "[FA]Story interaction handling",
+          "2": "[FA]Image recognition AI",
+          "3": "[FA]Business account integration"
+        }
+      },
+      "facebookMessenger": {
+        "name": "[FA]Facebook Messenger",
+        "capabilities": {
+          "0": "[FA]Facebook business integration",
+          "1": "[FA]Shop integration",
+          "2": "[FA]Lead generation tools",
+          "3": "[FA]Social proof features"
+        }
+      },
+      "contactForms": {
+        "name": "[FA]Contact Forms",
+        "capabilities": {
+          "0": "[FA]MailerLite integration",
+          "1": "[FA]HubSpot form sync",
+          "2": "[FA]Instant lead engagement",
+          "3": "[FA]CRM synchronization"
+        }
+      },
+      "lineBusiness": {
+        "name": "[FA]LINE Business",
+        "capabilities": {
+          "0": "[FA]LINE Official Account",
+          "1": "[FA]Asian market focus",
+          "2": "[FA]Business messaging",
+          "3": "[FA]Cultural localization"
+        }
+      },
+      "websiteWidget": {
+        "name": "[FA]Website Widget",
+        "capabilities": {
+          "0": "[FA]Omnichannel widget",
+          "1": "[FA]WordPress, Shopify, Wix support",
+          "2": "[FA]MailerLite integration",
+          "3": "[FA]Advanced analytics"
+        }
+      }
+    },
+    "labels": {
+      "difficulty": {
+        "easy": "[FA]Easy",
+        "medium": "[FA]Medium"
+      },
+      "learnMore": "[FA]Learn More"
+    },
+    "benefitsSection": {
+      "title": "[FA]Integration Benefits",
+      "subtitle": "[FA]When all your channels work together, magic happens. See why unified communication is the future of customer engagement."
+    },
+    "benefits": {
+      "unifiedCustomerView": {
+        "title": "[FA]Unified Customer View",
+        "description": "[FA]Single conversation history across all channels with complete context"
+      },
+      "consistentAITraining": {
+        "title": "[FA]Consistent AI Training",
+        "description": "[FA]One knowledge base powers responses across all communication platforms"
+      },
+      "seamlessHandoffs": {
+        "title": "[FA]Seamless Handoffs",
+        "description": "[FA]Transfer conversations between channels without losing context or history"
+      }
+    },
+    "cta": {
+      "title": "[FA]Ready to Unify Your Customer Channels?",
+      "subtitle": "[FA]Start with our free plan and connect your first channel in minutes. Scale up as your business grows.",
+      "signUp": "[FA]Sign Up",
+      "bookDemo": "[FA]Book A Demo"
+    }
+  }
+}

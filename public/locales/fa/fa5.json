@@ -1,0 +1,658 @@
+{
+  "seachat": {
+    "features": {
+      "advancedAI": {
+        "title": "[FA]Advanced AI Features",
+        "subtitle": "[FA]Next-generation AI intelligence with memory, context awareness, and advanced reasoning capabilities for truly personalized customer experiences.",
+        "exploreButton": "[FA]Explore Advanced AI",
+        "scheduleDemo": "[FA]Schedule Demo",
+        "capabilities": {
+          "title": "[FA]Cutting-Edge AI Capabilities",
+          "subtitle": "[FA]Experience the future of customer support with our advanced AI features that learn, remember, and adapt."
+        },
+        "rag": {
+          "title": "[FA]Retrieval Augmented Generation (RAG)",
+          "description": "[FA]Advanced search capabilities combining keyword, vector, and hybrid search for precise information retrieval.",
+          "details": {
+            "semantic": "[FA]Semantic vector search for contextual understanding",
+            "keyword": "[FA]Traditional keyword matching for exact queries",
+            "hybrid": "[FA]Hybrid algorithms combining both approaches",
+            "indexing": "[FA]Real-time content indexing and updates"
+          },
+          "sectionTitle": "[FA]Retrieval Augmented Generation",
+          "sectionSubtitle": "[FA]Advanced search technology that combines multiple approaches for the most accurate information retrieval.",
+          "keyword": "[FA]Keyword Search",
+          "keywordDesc": "[FA]Traditional exact-match searching for precise queries and specific terms.",
+          "vector": "[FA]Vector Search",
+          "vectorDesc": "[FA]Semantic understanding that finds contextually relevant information.",
+          "hybrid": "[FA]Hybrid Search",
+          "hybridDesc": "[FA]Best of both worlds, combining keyword precision with semantic understanding."
+        },
+        "memory": {
+          "title": "[FA]Long Term Memory System",
+          "description": "[FA]Persistent user memory that creates personalized experiences across all interactions.",
+          "details": {
+            "preferences": "[FA]User preference tracking and storage",
+            "history": "[FA]Conversation history analysis",
+            "patterns": "[FA]Behavioral pattern recognition",
+            "continuity": "[FA]Cross-session continuity and context"
+          },
+          "sectionTitle": "[FA]Long Term Memory in Action",
+          "sectionSubtitle": "[FA]See how our AI remembers and learns from every interaction to provide increasingly personalized support.",
+          "fieldsTitle": "[FA]Context Extraction Fields",
+          "fieldsDescription": "[FA]Our AI automatically identifies and stores key information about each user, creating rich profiles that enhance every future interaction.",
+          "example": "[FA]Example",
+          "timeline": "[FA]Memory Timeline",
+          "firstInteraction": "[FA]First Interaction",
+          "firstInteractionDesc": "[FA]AI learns user preferences and context",
+          "ongoingConversations": "[FA]Ongoing Conversations",
+          "ongoingConversationsDesc": "[FA]Continuously updates user profile",
+          "returnVisits": "[FA]Return Visits",
+          "returnVisitsDesc": "[FA]Provides personalized, context-aware responses"
+        },
+        "timeAwareness": {
+          "title": "[FA]Time Awareness Integration",
+          "description": "[FA]Context-aware responses based on current time, timezone, and temporal relevance.",
+          "details": {
+            "timestamp": "[FA]Real-time timestamp integration",
+            "timezone": "[FA]Timezone-aware scheduling and responses",
+            "recommendations": "[FA]Time-sensitive recommendations",
+            "hours": "[FA]Business hours optimization"
+          }
+        },
+        "context": {
+          "title": "[FA]Smart Context Extraction",
+          "description": "[FA]Intelligent field mapping and data extraction for better user comprehension.",
+          "details": {
+            "fields": "[FA]Custom field definitions and mapping",
+            "extraction": "[FA]Automatic data extraction from conversations",
+            "language": "[FA]User language preference detection",
+            "dynamic": "[FA]Dynamic context building and updates"
+          }
+        },
+        "references": {
+          "title": "[FA]Referenced Chat Results",
+          "description": "[FA]Transparent AI responses with source citations and confidence scoring.",
+          "details": {
+            "linking": "[FA]Source document linking and citations",
+            "tracking": "[FA]Citation tracking and verification",
+            "confidence": "[FA]Confidence scoring for responses",
+            "verification": "[FA]Fact verification and validation"
+          }
+        },
+        "knowledge": {
+          "title": "[FA]Knowledge Base Refinement",
+          "description": "[FA]Continuous improvement of knowledge base accuracy and relevance.",
+          "details": {
+            "updating": "[FA]Auto-updating content based on interactions",
+            "scoring": "[FA]Quality scoring and content ranking",
+            "relevance": "[FA]Relevance optimization algorithms",
+            "analytics": "[FA]Performance analytics and insights"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "[FA]User_Language",
+            "description": "[FA]Remembers preferred communication language",
+            "example": "[FA]Customer prefers Spanish responses"
+          },
+          "product": {
+            "field": "[FA]Product_Interest",
+            "description": "[FA]Tracks product categories of interest",
+            "example": "[FA]Interested in premium software solutions"
+          },
+          "history": {
+            "field": "[FA]Support_History",
+            "description": "[FA]Maintains context of previous issues",
+            "example": "[FA]Previously had billing questions resolved"
+          },
+          "style": {
+            "field": "[FA]Communication_Style",
+            "description": "[FA]Adapts to preferred interaction style",
+            "example": "[FA]Prefers detailed technical explanations"
+          }
+        },
+        "cta": {
+          "title": "[FA]Experience the Future of AI",
+          "subtitle": "[FA]Ready to transform your customer support with advanced AI that remembers, learns, and adapts? Start your journey with our cutting-edge technology.",
+          "signUp": "[FA]Sign Up For Free",
+          "scheduleDemo": "[FA]Schedule Demo"
+        }
+      },
+      "aiAutomation": {
+        "title": "[FA]AI Automation",
+        "subtitle": "[FA]Scale your customer support with intelligent AI that learns, adapts, and provides instant responses while maintaining the human touch when needed.",
+        "tryButton": "[FA]Try AI Automation",
+        "featuresTitle": "[FA]Intelligent AI Features",
+        "featuresSubtitle": "[FA]Our AI automation goes beyond simple chatbots to provide truly intelligent customer support.",
+        "performanceTitle": "[FA]Automation That Actually Works",
+        "performanceSubtitle": "[FA]See how our AI automation handles different types of customer inquiries with impressive accuracy rates.",
+        "hybridTitle": "[FA]The Perfect Balance: AI + Human",
+        "hybridSubtitle": "[FA]Our hybrid approach combines the speed of AI with the empathy of human agents.",
+        "aiStrengthsTitle": "[FA]AI Automation Excels At",
+        "aiStrengths": [
+          "[FA]Instant responses to common questions",
+          "[FA]24/7 availability without breaks",
+          "[FA]Handling multiple conversations simultaneously",
+          "[FA]Consistent service quality",
+          "[FA]Multilingual communication support",
+          "[FA]Quick access to knowledge base information"
+        ],
+        "humanStrengthsTitle": "[FA]Human Agents Excel At",
+        "humanStrengths": [
+          "[FA]Complex problem-solving and empathy",
+          "[FA]Building personal relationships with customers",
+          "[FA]Handling sensitive or emotional situations",
+          "[FA]Creative solutions and out-of-box thinking",
+          "[FA]Understanding nuanced customer needs",
+          "[FA]Making judgment calls in ambiguous scenarios"
+        ],
+        "ctaTitle": "[FA]Ready to Scale with AI?",
+        "ctaSubtitle": "[FA]Start with free human agents, then add AI automation when you're ready to scale. The perfect hybrid approach for growing businesses.",
+        "contextAware": {
+          "title": "[FA]Context-Aware Responses",
+          "description": "[FA]AI understands conversation context and provides relevant, intelligent responses."
+        },
+        "learning": {
+          "title": "[FA]Learning from Conversations",
+          "description": "[FA]Continuously improves by learning from every customer interaction."
+        },
+        "handoff": {
+          "title": "[FA]Seamless Human Handoff",
+          "description": "[FA]Smooth transition to human agents when complex issues arise."
+        },
+        "availability": {
+          "title": "[FA]24/7 Availability",
+          "description": "[FA]Provide instant support around the clock, even when agents are offline."
+        },
+        "response": {
+          "title": "[FA]Instant Response Time",
+          "description": "[FA]Respond to customer queries in milliseconds, not minutes."
+        },
+        "multilanguage": {
+          "title": "[FA]Multi-language Support",
+          "description": "[FA]Communicate with customers in their preferred language automatically."
+        },
+        "types": {
+          "faq": {
+            "title": "[FA]FAQ Automation",
+            "description": "[FA]Instantly answer common questions with accurate, up-to-date information."
+          },
+          "orders": {
+            "title": "[FA]Order Status Updates",
+            "description": "[FA]Provide real-time order tracking and shipping information."
+          },
+          "appointments": {
+            "title": "[FA]Appointment Scheduling",
+            "description": "[FA]Book appointments and manage calendars automatically."
+          },
+          "recommendations": {
+            "title": "[FA]Product Recommendations",
+            "description": "[FA]Suggest relevant products based on customer preferences."
+          }
+        },
+        "scheduleDemo": "[FA]Schedule Demo",
+        "signUpForFree": "[FA]Sign Up For Free"
+      },
+      "api": {
+        "restful": {
+          "title": "[FA]RESTful API",
+          "description": "[FA]Clean, intuitive REST API with comprehensive documentation"
+        },
+        "webhooks": {
+          "title": "[FA]Real-time Webhooks",
+          "description": "[FA]Get instant notifications for events and conversation updates"
+        },
+        "security": {
+          "title": "[FA]Secure Authentication",
+          "description": "[FA]OAuth 2.0 and API key authentication with rate limiting"
+        },
+        "cdn": {
+          "title": "[FA]Global CDN",
+          "description": "[FA]Low-latency API access from anywhere in the world"
+        },
+        "endpoints": {
+          "createConversation": "[FA]Create a new conversation",
+          "getConversation": "[FA]Retrieve conversation details",
+          "sendMessage": "[FA]Send a message in a conversation"
+        },
+        "sdks": {
+          "available": "[FA]Available",
+          "comingSoon": "[FA]Coming Soon"
+        },
+        "title": "[FA]API & Developer Tools",
+        "subtitle": "Build custom integrations and extend SeaChat's capabilities with our comprehensive API and developer-friendly tools.",
+        "getKeyButton": "[FA]Get API Key",
+        "viewDocsButton": "[FA]View Documentation",
+        "featuresTitle": "[FA]Powerful API Features",
+        "featuresSubtitle": "Everything you need to integrate SeaChat into your existing systems and workflows.",
+        "endpointsTitle": "[FA]API Endpoints",
+        "endpointsSubtitle": "[FA]Explore our comprehensive API with examples and interactive documentation.",
+        "exampleRequestResponse": "[FA]Example Request/Response",
+        "tryItOut": "[FA]Try it out",
+        "testConsole": "[FA]Test in Console",
+        "copyCurl": "[FA]Copy cURL",
+        "sdksTitle": "[FA]SDKs & Libraries",
+        "sdksSubtitle": "[FA]Get started quickly with our official SDKs for popular programming languages.",
+        "exampleTitle": "[FA]Quick Start Example",
+        "exampleSubtitle": "Get up and running with SeaChat API in just a few lines of code.",
+        "jsExample": "[FA]JavaScript Example",
+        "copy": "[FA]Copy",
+        "ctaTitle": "[FA]Ready to Start Building?",
+        "ctaSubtitle": "Get your API key and start integrating SeaChat into your applications today.",
+        "ctaAccessButton": "[FA]Get API Access",
+        "ctaDocsButton": "[FA]Read Documentation"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "[FA]Customer Satisfaction"
+          },
+          "responseTime": {
+            "title": "[FA]Average Response Time"
+          },
+          "resolution": {
+            "title": "[FA]Resolution Rate"
+          },
+          "growth": {
+            "title": "[FA]Monthly Growth"
+          },
+          "period": "[FA]this month"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "[FA]Real-time Dashboards",
+              "description": "[FA]Monitor your support performance with live, customizable dashboards.",
+              "benefits": {
+                "metrics": "[FA]Live performance metrics",
+                "kpi": "[FA]Custom KPI tracking",
+                "team": "[FA]Team performance views",
+                "alerts": "[FA]Alert notifications"
+              }
+            },
+            "reporting": {
+              "title": "[FA]Advanced Reporting",
+              "description": "[FA]Generate detailed reports with actionable insights and trends.",
+              "benefits": {
+                "automated": "[FA]Automated report generation",
+                "dates": "[FA]Custom date ranges",
+                "export": "[FA]Export capabilities",
+                "scheduled": "[FA]Scheduled delivery"
+              }
+            },
+            "journey": {
+              "title": "[FA]Customer Journey Analytics",
+              "description": "[FA]Track customer interactions across all touchpoints and channels.",
+              "benefits": {
+                "tracking": "[FA]Multi-channel tracking",
+                "visualization": "[FA]Journey visualization",
+                "conversion": "[FA]Conversion analysis",
+                "dropoff": "[FA]Drop-off identification"
+              }
+            },
+            "optimization": {
+              "title": "[FA]Performance Optimization",
+              "description": "[FA]Identify bottlenecks and optimize your support operations.",
+              "benefits": {
+                "bottlenecks": "[FA]Bottleneck detection",
+                "resources": "[FA]Resource allocation",
+                "efficiency": "[FA]Efficiency recommendations",
+                "roi": "[FA]ROI analysis"
+              }
+            }
+          }
+        },
+        "title": "[FA]Analytics & Insights",
+        "subtitle": "[FA]Make data-driven decisions with comprehensive analytics that reveal customer behavior, agent performance, and optimization opportunities.",
+        "metricsTitle": "[FA]Key Performance Metrics",
+        "metricsSubtitle": "[FA]Track the metrics that matter most to your customer support success.",
+        "featuresTitle": "[FA]Comprehensive Analytics Suite",
+        "featuresSubtitle": "[FA]Everything you need to understand, measure, and improve your customer support operations.",
+        "dashboardTitle": "[FA]Interactive Dashboard Preview",
+        "dashboardSubtitle": "[FA]See how our analytics dashboard provides actionable insights at a glance.",
+        "dashboard": {
+          "overview": "[FA]Performance Overview",
+          "months": {
+            "jan": "[FA]Jan",
+            "dec": "[FA]Dec"
+          },
+          "quickStats": "[FA]Quick Stats",
+          "activeConversations": "[FA]Active Conversations",
+          "systemUptime": "[FA]System Uptime",
+          "customerRating": "[FA]Customer Rating"
+        },
+        "ctaTitle": "[FA]Start Making Data-Driven Decisions",
+        "ctaSubtitle": "[FA]Unlock the power of analytics to optimize your customer support and drive business growth."
+      },
+      "humanAgents": {
+        "title": "[FA]Human Agent Chat",
+        "subtitle": "[FA]Start with real human support agents, completely free for life. No limits, no catches, just genuine human connection with your customers.",
+        "startButton": "[FA]Start Free Forever",
+        "demoButton": "[FA]Watch Demo",
+        "unlimited": {
+          "title": "[FA]Unlimited Agent Hours",
+          "description": "[FA]No time limits, no hourly caps. Your human agent works as much as you need, completely free."
+        },
+        "realtime": {
+          "title": "[FA]Real-time Chat Management",
+          "description": "[FA]Handle multiple conversations simultaneously with our intuitive chat interface."
+        },
+        "collaboration": {
+          "title": "[FA]Multi-agent Collaboration",
+          "description": "[FA]Scale your team with seamless agent-to-agent handoffs and collaboration tools."
+        },
+        "security": {
+          "title": "[FA]Advanced Security",
+          "description": "[FA]Enterprise-grade security with end-to-end encryption and data protection."
+        },
+        "analytics": {
+          "title": "[FA]Performance Analytics",
+          "description": "[FA]Track response times, customer satisfaction, and agent performance metrics."
+        },
+        "workflows": {
+          "title": "[FA]Custom Workflows",
+          "description": "[FA]Create personalized workflows and automation rules for your support process."
+        },
+        "benefits": {
+          "personal": {
+            "title": "[FA]Personal Touch",
+            "description": "[FA]Human empathy and understanding that AI cannot replicate"
+          },
+          "complex": {
+            "title": "[FA]Complex Problem Solving",
+            "description": "[FA]Handle nuanced situations that require human judgment"
+          },
+          "brand": {
+            "title": "[FA]Brand Representation",
+            "description": "[FA]Agents who truly understand and represent your brand values"
+          },
+          "relationships": {
+            "title": "[FA]Customer Relationships",
+            "description": "[FA]Build lasting relationships through genuine human connections"
+          }
+        },
+        "freeForever": {
+          "title": "[FA]Truly Free as in Free 🍺 & 🎙️",
+          "subtitle": "[FA]We mean it when we say free. One human agent for life, with unlimited everything.",
+          "meaningTitle": "[FA]What \"Free Forever\" Really Means",
+          "agent": "[FA]1 Human Agent for Life",
+          "conversations": "[FA]Unlimited Chat Conversations",
+          "history": "[FA]Unlimited Chat History",
+          "contacts": "[FA]Unlimited Contacts",
+          "export": "[FA]Freedom to Export All Data",
+          "noCredit": "[FA]No Credit Card Required",
+          "unlimited": "[FA]Unlimited Everything",
+          "noCaps": "[FA]No hidden fees, no time limits, no conversation caps. Just pure, unlimited human support.",
+          "forever": "[FA]Forever"
+        },
+        "featuresTitle": "[FA]Powerful Human Agent Features",
+        "featuresSubtitle": "[FA]Everything you need to provide exceptional human-powered customer support.",
+        "whyMatterTitle": "[FA]Why Human Agents Still Matter",
+        "whyMatterSubtitle": "[FA]In an AI-driven world, human connection remains irreplaceable for building trust and solving complex problems.",
+        "ctaTitle": "[FA]Ready to Start with Human Agents?",
+        "ctaSubtitle": "[FA]Join thousands of businesses providing exceptional customer support with our free human agents.",
+        "ctaStartButton": "[FA]Start Free Now",
+        "ctaDemoButton": "[FA]Schedule Demo"
+      },
+      "knowledgeBase": {
+        "subtitle": "[FA]Empower your AI agents with comprehensive knowledge management. Create, organize, and maintain a centralized repository of information that enables intelligent, accurate responses.",
+        "managementTitle": "[FA]Intelligent Knowledge Management",
+        "managementSubtitle": "[FA]Build a powerful knowledge foundation that grows with your business and enhances every customer interaction.",
+        "smartSearch": {
+          "title": "[FA]Smart Search",
+          "description": "[FA]Advanced semantic search capabilities that understand context and intent, delivering precise information instantly."
+        },
+        "documentManagement": {
+          "title": "[FA]Document Management",
+          "description": "[FA]Upload, organize, and version control documents, FAQs, policies, and procedures in one centralized location."
+        },
+        "collaboration": {
+          "title": "[FA]Collaborative Editing",
+          "description": "[FA]Enable team collaboration with real-time editing, approval workflows, and role-based access controls."
+        },
+        "autoLearning": {
+          "title": "[FA]Auto-Learning",
+          "description": "[FA]Automatically capture and learn from successful interactions to continuously improve knowledge accuracy."
+        },
+        "accessControl": {
+          "title": "[FA]Access Control",
+          "description": "[FA]Secure sensitive information with granular permissions and ensure compliance with data protection regulations."
+        },
+        "multiLanguage": {
+          "title": "[FA]Multi-Language",
+          "description": "[FA]Support multiple languages and localization to serve global customers with culturally appropriate responses."
+        },
+        "demoTitle": "[FA]See Knowledge Base in Action",
+        "demoSubtitle": "[FA]Watch how our intelligent knowledge system powers accurate, contextual responses.",
+        "interfaceTitle": "[FA]Knowledge Base Interface",
+        "categories": "[FA]Document Categories",
+        "productDocs": "[FA]Product Documentation",
+        "articles": "[FA]articles",
+        "supportFaqs": "[FA]Customer Support FAQs",
+        "policies": "[FA]Company Policies",
+        "recentUpdates": "[FA]Recent Updates",
+        "refundUpdate": "[FA]Refund Policy Updated",
+        "hoursAgo": "[FA]hours ago",
+        "returnWindow": "[FA]Updated return window from 14 to 30 days",
+        "featureGuide": "[FA]New Feature Guide",
+        "dayAgo": "[FA]day ago",
+        "analyticsDoc": "[FA]Added documentation for advanced analytics",
+        "transformTitle": "[FA]Transform Your Customer Support",
+        "transformSubtitle": "[FA]A well-organized knowledge base is the foundation of exceptional customer service and efficient operations.",
+        "benefitsTitle": "[FA]Key Benefits",
+        "fasterResponse": {
+          "title": "[FA]Faster Response Times",
+          "description": "[FA]Reduce average response time by 60% with instant access to accurate information."
+        },
+        "consistency": {
+          "title": "[FA]Consistent Accuracy",
+          "description": "[FA]Ensure all agents provide consistent, up-to-date information across all channels."
+        },
+        "training": {
+          "title": "[FA]Scalable Training",
+          "description": "[FA]Onboard new agents faster with comprehensive, searchable documentation."
+        },
+        "readyTitle": "[FA]Ready to Get Started?",
+        "readySubtitle": "[FA]Build your knowledge base today and transform how your team delivers customer support.",
+        "startButton": "[FA]Start Building",
+        "scheduleDemo": "[FA]Schedule Demo"
+      },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "[FA]Website Chat",
+            "description": "[FA]Embed chat widgets on any website platform",
+            "seachat": {
+              "features": {
+                "compatibility": "[FA]Universal compatibility",
+                "styling": "[FA]Custom styling",
+                "responsive": "[FA]Mobile responsive",
+                "sync": "[FA]Real-time sync"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "[FA]WhatsApp Business",
+            "seachat": {
+              "features": {
+                "api": "[FA]Business API integration",
+                "media": "[FA]Rich media support",
+                "templates": "[FA]Template messages",
+                "groups": "[FA]Group messaging"
+              }
+            },
+            "description": "[FA]Connect with customers on the world's most popular messaging app"
+          },
+          "instagram": {
+            "name": "[FA]Instagram Direct",
+            "description": "[FA]Manage Instagram DMs and story replies in one place",
+            "seachat": {
+              "features": {
+                "replies": "[FA]Story reply management",
+                "media": "[FA]Media sharing",
+                "responses": "[FA]Quick responses",
+                "greetings": "[FA]Automated greetings"
+              }
+            }
+          },
+          "facebook": {
+            "name": "[FA]Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "[FA]Page integration",
+                "responses": "[FA]Automated responses",
+                "cards": "[FA]Rich cards",
+                "menu": "[FA]Persistent menu"
+              }
+            },
+            "description": "[FA]Provide support through Facebook's messaging platform"
+          },
+          "voice": {
+            "name": "[FA]Voice Calls",
+            "description": "[FA]Handle phone support with AI voice agents",
+            "seachat": {
+              "features": {
+                "conversations": "[FA]Natural conversations",
+                "routing": "[FA]Call routing",
+                "voicemail": "[FA]Voicemail transcription",
+                "conference": "[FA]Conference calls"
+              }
+            }
+          },
+          "email": {
+            "name": "[FA]Email Support",
+            "description": "[FA]Manage email tickets with intelligent routing",
+            "seachat": {
+              "features": {
+                "categorization": "[FA]Smart categorization",
+                "responses": "[FA]Auto-responses",
+                "templates": "[FA]Email templates",
+                "priority": "[FA]Priority handling"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "[FA]Unified Customer View",
+            "description": "[FA]See complete customer history across all channels in one interface"
+          },
+          "handoffs": {
+            "title": "[FA]Seamless Handoffs",
+            "description": "[FA]Customers can switch channels without losing conversation context"
+          },
+          "resolution": {
+            "title": "[FA]Faster Resolution",
+            "description": "[FA]Reduce resolution time with unified agent workflows"
+          },
+          "satisfaction": {
+            "title": "[FA]Higher Satisfaction",
+            "description": "[FA]Consistent experience across all touchpoints"
+          }
+        },
+        "title": "[FA]Omnichannel Support",
+        "subtitle": "[FA]Connect all your customer touchpoints in one unified platform. Provide consistent, seamless support across websites, social media, phone, and email.",
+        "channelsTitle": "[FA]All Your Channels, One Platform",
+        "channelsSubtitle": "[FA]Connect and manage customer conversations across every channel your customers use.",
+        "benefitsTitle": "[FA]The Power of True Omnichannel",
+        "benefitsSubtitle": "[FA]Go beyond just having multiple channels. Create unified experiences that delight customers.",
+        "inboxTitle": "[FA]Unified Inbox Experience",
+        "inboxSubtitle": "[FA]See how all your customer conversations come together in one intelligent interface.",
+        "activeConversations": "[FA]Active Conversations",
+        "websiteChat": "[FA]Website chat about product seachat.features...",
+        "whatsappInquiry": "[FA]WhatsApp inquiry about order status...",
+        "instagramDM": "[FA]Instagram DM about return policy...",
+        "conversationView": "[FA]Conversation View",
+        "customerVia": "[FA]Customer via Website",
+        "agentResponse": "[FA]Agent Response",
+        "customerViaWhatsapp": "[FA]Customer via WhatsApp",
+        "whatsappMessage": "[FA]Thanks! Can I continue this conversation on WhatsApp?",
+        "ctaTitle": "[FA]Ready to Unify Your Customer Channels?",
+        "ctaSubtitle": "[FA]Connect all your customer touchpoints and provide seamless support experiences that keep customers coming back.",
+        "customerMessage": "[FA]Hi, I'm interested in your AI automation features. Can you tell me more?",
+        "agentMessage": "[FA]I'd be happy to help! Our AI automation can handle up to 80% of routine inquiries..."
+      },
+      "voiceAgents": {
+        "title": "[FA]Voice Agents",
+        "subtitle": "[FA]Transform phone support with AI voice agents that sound natural, understand context, and provide instant assistance in multiple languages.",
+        "signUpFree": "[FA]Sign Up For Free",
+        "scheduleDemo": "[FA]Schedule Demo",
+        "natural": {
+          "title": "[FA]Natural Voice Conversations",
+          "description": "[FA]AI-powered voice agents that sound natural and understand context."
+        },
+        "speech": {
+          "title": "[FA]Advanced Speech Recognition",
+          "description": "[FA]Accurate speech-to-text conversion in multiple languages and accents."
+        },
+        "synthesis": {
+          "title": "[FA]High-Quality Voice Synthesis",
+          "description": "[FA]Crystal-clear, human-like voice output with emotional intelligence."
+        },
+        "support": {
+          "title": "[FA]24/7 Voice Support",
+          "description": "[FA]Round-the-clock voice assistance for global customer support."
+        },
+        "multilanguage": {
+          "title": "[FA]Multi-Language Support",
+          "description": "[FA]Support for 50+ languages with native pronunciation."
+        },
+        "routing": {
+          "title": "[FA]Intelligent Call Routing",
+          "description": "[FA]Smart routing to human agents when complex issues arise."
+        },
+        "capabilitiesTitle": "[FA]Advanced Voice Capabilities",
+        "capabilitiesSubtitle": "[FA]Our voice agents combine cutting-edge AI with natural language processing for human-like conversations.",
+        "capabilities": {
+          "service": {
+            "title": "[FA]Customer Service Calls",
+            "description": "[FA]Handle routine inquiries, order status, and basic troubleshooting"
+          },
+          "appointments": {
+            "title": "[FA]Appointment Scheduling",
+            "description": "[FA]Book, reschedule, and confirm appointments automatically"
+          },
+          "orders": {
+            "title": "[FA]Order Processing",
+            "description": "[FA]Take orders, process payments, and confirm details"
+          },
+          "support": {
+            "title": "[FA]Technical Support",
+            "description": "[FA]Guide customers through basic troubleshooting steps"
+          }
+        },
+        "performanceTitle": "[FA]Voice Agent Performance",
+        "performanceSubtitle": "[FA]See how our voice agents perform across different types of customer interactions.",
+        "accuracyRate": "[FA]Accuracy Rate",
+        "avgDuration": "[FA]Avg Duration",
+        "experienceTitle": "[FA]Experience Voice AI in Action",
+        "experienceSubtitle": "[FA]Listen to real conversations between customers and our voice agents.",
+        "sampleTitle": "[FA]Sample Conversation",
+        "voiceAgent": "[FA]Voice Agent",
+        "customer": "[FA]Customer",
+        "agentGreeting": "Hello! Thank you for calling SeaChat support. How can I help you today?",
+        "customerQuestion": "[FA]Hi, I need to check the status of my recent order.",
+        "agentResponse": "[FA]I'd be happy to help you with that. Could you please provide your order number or the email address associated with your account?",
+        "playDemo": "[FA]Play Full Demo",
+        "moreSamples": "[FA]More Samples",
+        "featuresTitle": "[FA]Voice Agent Features",
+        "featuresList": {
+          "0": "[FA]Natural speech processing",
+          "1": "[FA]Multi-language support",
+          "2": "[FA]Phone system integration",
+          "3": "[FA]Voice sentiment analysis",
+          "4": "[FA]Call recording and analysis",
+          "5": "[FA]Intelligent human escalation"
+        },
+        "ctaTitle": "[FA]Ready to Transform Phone Support?",
+        "ctaSubtitle": "[FA]Experience the future of voice customer support with AI agents that sound and feel human."
+      }
+    },
+    "seo": {
+      "title": "SeaChat - AI Chatbot & Customer Service Automation | Seasalt.ai",
+      "titleSuffix": " - AI Chatbot & Customer Service Automation | Seasalt.ai",
+      "description": "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more."
+    }
+  }
+}

@@ -1,0 +1,743 @@
+{
+  "seavoice": {
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "[FA]Appointment Booking & Management",
+            "description": "[FA]Automate appointment scheduling with AI that understands availability, preferences, and business rules. Reduce no-shows and streamline your booking process with intelligent voice interactions.",
+            "cta": "[FA]Automate Appointment Booking"
+          },
+          "features": {
+            "title": "[FA]Smart Appointment Management",
+            "subtitle": "[FA]Comprehensive booking system that handles complex scheduling scenarios",
+            "intelligentScheduling": {
+              "title": "[FA]Intelligent Scheduling",
+              "description": "[FA]AI-powered appointment booking that understands availability and preferences.",
+              "benefit1": "[FA]Real-time availability",
+              "benefit2": "[FA]Smart conflict resolution",
+              "benefit3": "[FA]Preference matching"
+            },
+            "automatedReminders": {
+              "title": "[FA]Automated Reminders",
+              "description": "[FA]Reduce no-shows with automated appointment reminders and confirmations.",
+              "benefit1": "[FA]SMS & voice reminders",
+              "benefit2": "[FA]Customizable timing",
+              "benefit3": "[FA]Confirmation tracking"
+            },
+            "multiProviderSupport": {
+              "title": "[FA]Multi-Provider Support",
+              "description": "[FA]Manage appointments across multiple providers, locations, and services.",
+              "benefit1": "[FA]Provider availability",
+              "benefit2": "[FA]Location management",
+              "benefit3": "[FA]Service categorization"
+            }
+          },
+          "capabilities": {
+            "title": "[FA]Complete Booking Solution",
+            "subtitle": "[FA]Handle every aspect of appointment management automatically",
+            "appointmentScheduling": {
+              "capability": "[FA]Appointment Scheduling",
+              "description": "[FA]Book new appointments based on availability and preferences",
+              "feature1": "[FA]Available time slots",
+              "feature2": "[FA]Provider selection",
+              "feature3": "[FA]Service type matching"
+            },
+            "rescheduling": {
+              "capability": "[FA]Rescheduling",
+              "description": "[FA]Modify existing appointments with automatic conflict resolution",
+              "feature1": "[FA]Conflict detection",
+              "feature2": "[FA]Alternative suggestions",
+              "feature3": "[FA]Automatic updates"
+            },
+            "cancellationManagement": {
+              "capability": "[FA]Cancellation Management",
+              "description": "[FA]Handle cancellations and waitlist management efficiently",
+              "feature1": "[FA]Cancellation policies",
+              "feature2": "[FA]Waitlist automation",
+              "feature3": "[FA]Refund processing"
+            },
+            "reminderSystem": {
+              "capability": "[FA]Reminder System",
+              "description": "[FA]Automated reminders to reduce no-shows and improve attendance",
+              "feature1": "[FA]Multi-channel reminders",
+              "feature2": "[FA]Customizable timing",
+              "feature3": "[FA]Confirmation requests"
+            }
+          },
+          "industries": {
+            "title": "[FA]Industry Applications",
+            "subtitle": "[FA]Tailored booking solutions for different industries and use cases",
+            "healthcare": {
+              "industry": "[FA]Healthcare",
+              "description": "[FA]Medical appointments, consultations, and procedures",
+              "benefit1": "[FA]Patient scheduling",
+              "benefit2": "[FA]Provider coordination",
+              "benefit3": "[FA]Insurance verification"
+            },
+            "beautyWellness": {
+              "industry": "[FA]Beauty & Wellness",
+              "description": "[FA]Salon appointments, spa services, and wellness sessions",
+              "benefit1": "[FA]Service duration tracking",
+              "benefit2": "[FA]Stylist preferences",
+              "benefit3": "[FA]Package bookings"
+            },
+            "professionalServices": {
+              "industry": "[FA]Professional Services",
+              "description": "[FA]Consultations, meetings, and service appointments",
+              "benefit1": "[FA]Meeting room booking",
+              "benefit2": "[FA]Consultant availability",
+              "benefit3": "[FA]Client preferences"
+            }
+          },
+          "reminderSection": {
+            "title": "[FA]Automated Reminder System",
+            "description": "[FA]Significantly reduce no-shows with intelligent reminder campaigns that reach customers through their preferred communication channels at optimal times.",
+            "multiChannelReminders": {
+              "title": "[FA]Multi-Channel Reminders",
+              "description": "[FA]Voice calls, SMS, and email reminders"
+            },
+            "optimalTiming": {
+              "title": "[FA]Optimal Timing",
+              "description": "[FA]AI determines best times to send reminders"
+            },
+            "performanceTracking": {
+              "title": "[FA]Performance Tracking",
+              "description": "[FA]Monitor reminder effectiveness and optimize"
+            },
+            "reminderTimeline": {
+              "title": "[FA]Reminder Timeline"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "[FA]Initial Confirmation",
+                "description": "[FA]Appointment confirmation and details"
+              },
+              "dayBefore": {
+                "title": "[FA]Day Before Reminder",
+                "description": "[FA]Final reminder with preparation instructions"
+              },
+              "lastMinute": {
+                "title": "[FA]Last Minute Check",
+                "description": "[FA]Final confirmation and directions"
+              },
+              "sevenDays": "[FA]7d",
+              "oneDay": "[FA]1d",
+              "twoHours": "[FA]2h"
+            }
+          },
+          "benefits": {
+            "title": "[FA]Booking Performance Results",
+            "subtitle": "[FA]Measurable improvements in appointment management efficiency",
+            "noShowReduction": {
+              "metric": "[FA]40%",
+              "description": "[FA]Reduction in no-show rates"
+            },
+            "availabilityWindow": {
+              "metric": "[FA]24/7",
+              "description": "[FA]Booking availability"
+            },
+            "bookingAccuracy": {
+              "metric": "[FA]85%",
+              "description": "[FA]Booking accuracy rate"
+            },
+            "workloadReduction": {
+              "metric": "[FA]60%",
+              "description": "[FA]Reduction in admin workload"
+            }
+          },
+          "cta": {
+            "title": "[FA]Ready to Automate Appointment Booking?",
+            "description": "[FA]Streamline scheduling and reduce no-shows with intelligent appointment management",
+            "startFreeTrial": "[FA]Start Free Trial",
+            "scheduleDemo": "[FA]Schedule Demo"
+          }
+        },
+        "mentalHealth": {
+          "hero": {
+            "title": "[FA]Mental Health Voice Companion",
+            "description": "[FA]Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
+            "cta": "[FA]Learn About Mental Health AI"
+          },
+          "features": {
+            "title": "[FA]Compassionate AI Support",
+            "description": "[FA]Advanced AI trained in mental health support and crisis intervention",
+            "empathetic": {
+              "title": "[FA]Empathetic AI Companion",
+              "description": "[FA]Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
+              "benefits": {
+                "activeListening": "[FA]Active listening",
+                "emotionalValidation": "[FA]Emotional validation",
+                "crisisRecognition": "[FA]Crisis recognition"
+              }
+            },
+            "safe": {
+              "title": "[FA]Safe & Confidential",
+              "description": "[FA]HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.",
+              "benefits": {
+                "hipaaCompliance": "[FA]HIPAA compliance",
+                "encryptedConversations": "[FA]Encrypted conversations",
+                "anonymousOptions": "[FA]Anonymous options"
+              }
+            },
+            "availability": {
+              "title": "[FA]24/7 Availability",
+              "description": "[FA]Always available when someone needs to talk, providing immediate support during crisis moments.",
+              "benefits": {
+                "roundTheClockAccess": "[FA]Round-the-clock access",
+                "immediateResponse": "[FA]Immediate response",
+                "noWaitTimes": "[FA]No wait times"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "[FA]Mental Health Support Capabilities",
+            "description": "[FA]Comprehensive support across the mental health care spectrum",
+            "screening": {
+              "title": "[FA]Initial Mental Health Screening",
+              "description": "[FA]Conduct preliminary assessments using validated screening tools",
+              "outcomes": {
+                "earlyIdentification": "[FA]Early identification",
+                "riskAssessment": "[FA]Risk assessment",
+                "appropriateReferrals": "[FA]Appropriate referrals"
+              }
+            },
+            "crisis": {
+              "title": "[FA]Crisis Intervention",
+              "description": "[FA]Recognize crisis situations and provide immediate support or escalation",
+              "outcomes": {
+                "crisisDetection": "[FA]Crisis detection",
+                "deEscalationTechniques": "[FA]De-escalation techniques",
+                "emergencyProtocols": "[FA]Emergency protocols"
+              }
+            },
+            "navigation": {
+              "title": "[FA]Resource Navigation",
+              "description": "[FA]Guide users to appropriate mental health resources and services",
+              "outcomes": {
+                "serviceMatching": "[FA]Service matching",
+                "appointmentScheduling": "[FA]Appointment scheduling",
+                "followUpSupport": "[FA]Follow-up support"
+              }
+            },
+            "emotional": {
+              "title": "[FA]Emotional Support",
+              "description": "[FA]Provide compassionate listening and emotional validation",
+              "outcomes": {
+                "reducedIsolation": "[FA]Reduced isolation",
+                "emotionalRelief": "[FA]Emotional relief",
+                "copingStrategies": "[FA]Coping strategies"
+              }
+            }
+          },
+          "safety": {
+            "title": "[FA]Safety-First Design",
+            "description": "[FA]Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+            "features": {
+              "title": "[FA]Safety Features"
+            },
+            "crisisDetection": {
+              "title": "[FA]Crisis Detection",
+              "description": "[FA]Advanced algorithms identify crisis situations"
+            },
+            "professionalHandoff": {
+              "title": "[FA]Professional Handoff",
+              "description": "[FA]Seamless transfer to human mental health professionals"
+            },
+            "emergencyProtocols": {
+              "title": "[FA]Emergency Protocols",
+              "description": "[FA]Immediate connection to crisis hotlines when needed"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "[FA]Crisis keyword detection",
+            "suicideRiskAssessment": "[FA]Suicide risk assessment",
+            "automaticEscalationProtocols": "[FA]Automatic escalation protocols",
+            "emergencyContactIntegration": "[FA]Emergency contact integration",
+            "professionalHandoffProcedures": "[FA]Professional handoff procedures",
+            "followUpScheduling": "[FA]Follow-up scheduling"
+          },
+          "benefits": {
+            "title": "[FA]Mental Health Impact",
+            "description": "[FA]Measurable improvements in mental health support accessibility",
+            "alwaysAvailableSupport": "[FA]Always available support",
+            "crisisEscalationReduction": "[FA]Reduction in crisis escalation",
+            "userSatisfactionRate": "[FA]User satisfaction rate",
+            "helpSeekingBehaviorIncrease": "[FA]Increase in help-seeking behavior"
+          },
+          "cta": {
+            "title": "[FA]Ready to Support Mental Health?",
+            "description": "[FA]Provide compassionate, 24/7 mental health support with AI that truly cares",
+            "learnMore": "[FA]Learn More",
+            "contactSpecialists": "[FA]Contact Specialists"
+          }
+        },
+        "callTransfer": {
+          "hero": {
+            "title": "[FA]Smart Call Transfer During Business Hours",
+            "description": "[FA]Revolutionize your call routing with AI-powered intelligent transfer that understands caller intent and connects them to the right person instantly, reducing wait times and improving customer satisfaction.",
+            "primaryCta": "[FA]Optimize Your Call Routing"
+          },
+          "features": {
+            "title": "[FA]Intelligent Call Routing Features",
+            "description": "[FA]Advanced AI technology that understands and routes calls with precision",
+            "intelligentRouting": {
+              "title": "[FA]Intelligent Routing",
+              "description": "[FA]AI analyzes caller intent and routes to the most appropriate department or agent.",
+              "benefits": {
+                "0": "[FA]Intent recognition",
+                "1": "[FA]Skill-based routing",
+                "2": "[FA]Priority handling"
+              }
+            },
+            "agentOptimization": {
+              "title": "[FA]Agent Optimization",
+              "description": "[FA]Balance workload across agents and ensure calls reach available specialists.",
+              "benefits": {
+                "0": "[FA]Load balancing",
+                "1": "[FA]Availability checking",
+                "2": "[FA]Expertise matching"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "[FA]Reduced Wait Times",
+              "description": "[FA]Minimize customer wait times with efficient routing and queue management.",
+              "benefits": {
+                "0": "[FA]Queue optimization",
+                "1": "[FA]Callback options",
+                "2": "[FA]Real-time updates"
+              }
+            }
+          },
+          "routing": {
+            "title": "[FA]Smart Routing in Action",
+            "description": "[FA]See how our AI identifies intent and routes calls for optimal outcomes"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "[FA]Billing Inquiry",
+              "action": "[FA]Route to Billing Department",
+              "result": "[FA]90% first-call resolution"
+            },
+            "technicalSupport": {
+              "trigger": "[FA]Technical Support",
+              "action": "[FA]Route to Technical Team",
+              "result": "[FA]85% issue resolution"
+            },
+            "salesInterest": {
+              "trigger": "[FA]Sales Interest",
+              "action": "[FA]Route to Sales Team",
+              "result": "[FA]40% conversion rate"
+            },
+            "vipCustomer": {
+              "trigger": "[FA]VIP Customer",
+              "action": "[FA]Priority Queue",
+              "result": "[FA]< 30 second wait time"
+            }
+          },
+          "benefits": {
+            "title": "[FA]Measurable Impact",
+            "description": "[FA]Real results from implementing intelligent call transfer"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "[FA]Reduction in average wait time"
+            },
+            "resolution": {
+              "description": "[FA]First-call resolution rate"
+            },
+            "efficiency": {
+              "description": "[FA]Improvement in agent efficiency"
+            },
+            "accuracy": {
+              "description": "[FA]Accurate routing to correct department"
+            }
+          },
+          "cta": {
+            "title": "[FA]Ready to Optimize Your Call Routing?",
+            "description": "[FA]Reduce wait times and improve customer satisfaction with intelligent call transfer",
+            "primaryButton": "[FA]Start Free Trial",
+            "secondaryButton": "[FA]See Demo"
+          }
+        },
+        "scamShield": {
+          "hero": {
+            "title": "[FA]Scam Shield Protection",
+            "subtitle": "[FA]Protect your customers from phone scams and fraudulent calls with AI-powered detection that identifies and blocks threats in real-time, keeping your community safe from financial fraud.",
+            "cta": "[FA]Activate Scam Protection"
+          },
+          "features": {
+            "title": "[FA]Advanced Scam Detection",
+            "subtitle": "[FA]Multi-layered protection against evolving fraud tactics",
+            "realTimeDetection": {
+              "title": "[FA]Real-Time Scam Detection",
+              "description": "[FA]Advanced AI algorithms identify and block fraudulent calls before they reach your customers.",
+              "benefit1": "[FA]Pattern recognition",
+              "benefit2": "[FA]Behavioral analysis",
+              "benefit3": "[FA]Instant blocking"
+            },
+            "threatIntelligence": {
+              "title": "[FA]Threat Intelligence",
+              "description": "[FA]Continuously updated database of known scam patterns and fraudulent phone numbers.",
+              "benefit1": "[FA]Global threat data",
+              "benefit2": "[FA]Real-time updates",
+              "benefit3": "[FA]Machine learning"
+            },
+            "customerProtection": {
+              "title": "[FA]Customer Protection",
+              "description": "[FA]Proactively protect customers from financial fraud and identity theft attempts.",
+              "benefit1": "[FA]Fraud prevention",
+              "benefit2": "[FA]Identity protection",
+              "benefit3": "[FA]Financial security"
+            }
+          },
+          "scamTypes": {
+            "title": "[FA]Protected Against All Scam Types",
+            "subtitle": "[FA]Comprehensive protection against the most common fraud tactics",
+            "phishing": {
+              "type": "[FA]Phishing Calls",
+              "description": "[FA]Attempts to steal personal information or login credentials",
+              "detection": "[FA]Voice pattern analysis and keyword detection",
+              "action": "[FA]Immediate call termination and customer alert"
+            },
+            "techSupport": {
+              "type": "[FA]Tech Support Scams",
+              "description": "[FA]Fake technical support claiming computer problems",
+              "detection": "[FA]Script pattern recognition and caller ID verification",
+              "action": "[FA]Block call and provide legitimate support contact"
+            },
+            "financialFraud": {
+              "type": "[FA]Financial Fraud",
+              "description": "[FA]Impersonating banks or financial institutions",
+              "detection": "[FA]Institution verification and voice authentication",
+              "action": "[FA]Terminate call and notify real financial institution"
+            },
+            "romance": {
+              "type": "[FA]Romance Scams",
+              "description": "[FA]Building fake relationships to extract money",
+              "detection": "[FA]Conversation pattern analysis and emotional manipulation detection",
+              "action": "[FA]Warning alerts and resource provision"
+            },
+            "detectionMethod": "[FA]Detection Method:",
+            "protectionAction": "[FA]Protection Action:",
+            "detectionMethodLabel": "[FA]Detection Method",
+            "protectionActionLabel": "[FA]Protection Action"
+          },
+          "protection": {
+            "title": "[FA]Multi-Layer Protection System",
+            "subtitle": "[FA]Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "realTimeAnalysis": {
+              "title": "[FA]Real-Time Analysis",
+              "description": "[FA]Instant evaluation of every incoming call"
+            },
+            "continuousLearning": {
+              "title": "[FA]Continuous Learning",
+              "description": "[FA]AI improves detection with every blocked scam"
+            },
+            "zeroFalsePositives": {
+              "title": "[FA]Zero False Positives",
+              "description": "[FA]Legitimate calls are never blocked"
+            },
+            "layersTitle": "[FA]Protection Layers",
+            "layer1": "[FA]Caller ID verification",
+            "layer2": "[FA]Voice pattern analysis",
+            "layer3": "[FA]Script detection algorithms",
+            "layer4": "[FA]Behavioral anomaly detection",
+            "layer5": "[FA]Real-time threat intelligence",
+            "layer6": "[FA]Customer education alerts"
+          },
+          "benefits": {
+            "title": "[FA]Protection Results",
+            "subtitle": "[FA]Proven effectiveness in stopping fraud and protecting customers",
+            "accuracy": {
+              "metric": "[FA]95%",
+              "description": "[FA]Scam call detection accuracy"
+            },
+            "reduction": {
+              "metric": "[FA]80%",
+              "description": "[FA]Reduction in successful fraud attempts"
+            },
+            "coverage": {
+              "metric": "[FA]24/7",
+              "description": "[FA]Continuous protection coverage"
+            },
+            "preservation": {
+              "metric": "[FA]99.9%",
+              "description": "[FA]Legitimate call preservation rate"
+            }
+          },
+          "cta": {
+            "title": "[FA]Ready to Protect Your Customers?",
+            "subtitle": "[FA]Stop scammers in their tracks with AI-powered fraud detection and protection",
+            "activateProtection": "[FA]Activate Protection",
+            "learnMore": "[FA]Learn More",
+            "primaryButton": "[FA]Activate Protection",
+            "secondaryButton": "[FA]Learn More"
+          },
+          "protectionSystem": {
+            "title": "[FA]Multi-Layer Protection System",
+            "subtitle": "[FA]Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "realTimeAnalysis": {
+              "title": "[FA]Real-Time Analysis",
+              "description": "[FA]Instant evaluation of every incoming call"
+            },
+            "continuousLearning": {
+              "title": "[FA]Continuous Learning",
+              "description": "[FA]AI improves detection with every blocked scam"
+            },
+            "zeroFalsePositives": {
+              "title": "[FA]Zero False Positives",
+              "description": "[FA]Legitimate calls are never blocked"
+            }
+          },
+          "results": {
+            "title": "[FA]Protection Results",
+            "subtitle": "[FA]Proven effectiveness in stopping fraud and protecting customers"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "[FA]Secure Payment Processing",
+            "description": "[FA]Enable secure, PCI-compliant payment processing through voice interactions. Let customers make payments safely over the phone with advanced fraud protection and instant transaction processing.",
+            "cta": "[FA]Enable Secure Payments"
+          },
+          "features": {
+            "title": "[FA]Secure Voice Payment Features",
+            "subtitle": "[FA]Enterprise-grade security meets seamless customer experience",
+            "securePayment": {
+              "title": "[FA]Secure Payment Processing",
+              "description": "[FA]Process payments safely over the phone with PCI-compliant voice technology.",
+              "benefit1": "[FA]PCI DSS compliance",
+              "benefit2": "[FA]Encrypted transactions",
+              "benefit3": "[FA]Multiple payment methods"
+            },
+            "fraudProtection": {
+              "title": "[FA]Fraud Protection",
+              "description": "[FA]Advanced fraud detection and prevention to protect both business and customers.",
+              "benefit1": "[FA]Real-time fraud detection",
+              "benefit2": "[FA]Risk assessment",
+              "benefit3": "[FA]Secure authentication"
+            },
+            "instantProcessing": {
+              "title": "[FA]Instant Processing",
+              "description": "[FA]Process payments immediately with real-time authorization and confirmation.",
+              "benefit1": "[FA]Real-time authorization",
+              "benefit2": "[FA]Instant confirmation",
+              "benefit3": "[FA]Immediate receipts"
+            }
+          },
+          "paymentMethods": {
+            "title": "[FA]Comprehensive Payment Options",
+            "subtitle": "[FA]Accept all major payment methods with secure voice processing",
+            "creditCards": {
+              "method": "[FA]Credit Cards",
+              "description": "[FA]Accept all major credit cards with secure voice processing",
+              "feature1": "[FA]Visa, Mastercard, Amex",
+              "feature2": "[FA]CVV verification",
+              "feature3": "[FA]Expiry validation"
+            },
+            "debitCards": {
+              "method": "[FA]Debit Cards",
+              "description": "[FA]Process debit card payments with PIN verification",
+              "feature1": "[FA]PIN entry via voice",
+              "feature2": "[FA]Bank verification",
+              "feature3": "[FA]Instant deduction"
+            },
+            "bankTransfers": {
+              "method": "[FA]Bank Transfers",
+              "description": "[FA]Direct bank account transfers and ACH payments",
+              "feature1": "[FA]Account verification",
+              "feature2": "[FA]Routing number validation",
+              "feature3": "[FA]ACH processing"
+            },
+            "digitalWallets": {
+              "method": "[FA]Digital Wallets",
+              "description": "[FA]Support for popular digital payment platforms",
+              "feature1": "[FA]Apple Pay",
+              "feature2": "[FA]Google Pay",
+              "feature3": "[FA]PayPal integration"
+            }
+          },
+          "security": {
+            "title": "[FA]Bank-Level Security",
+            "description": "[FA]Our payment processing system meets the highest security standards in the industry, ensuring that every transaction is protected with multiple layers of encryption and fraud prevention.",
+            "endToEndEncryption": {
+              "title": "[FA]End-to-End Encryption",
+              "description": "[FA]All payment data encrypted in transit and at rest"
+            },
+            "pciCompliance": {
+              "title": "[FA]PCI DSS Compliance",
+              "description": "[FA]Level 1 PCI DSS certified infrastructure"
+            },
+            "realTimeMonitoring": {
+              "title": "[FA]Real-Time Monitoring",
+              "description": "[FA]Continuous fraud detection and prevention"
+            },
+            "featuresTitle": "[FA]Security Features",
+            "feature1": "[FA]End-to-end encryption",
+            "feature2": "[FA]PCI DSS Level 1 compliance",
+            "feature3": "[FA]Tokenization of card data",
+            "feature4": "[FA]Multi-factor authentication",
+            "feature5": "[FA]Real-time fraud monitoring",
+            "feature6": "[FA]Secure voice recognition"
+          },
+          "benefits": {
+            "title": "[FA]Payment Processing Performance",
+            "subtitle": "[FA]Industry-leading reliability and security metrics",
+            "uptime": {
+              "metric": "[FA]99.9%",
+              "description": "[FA]Payment processing uptime"
+            },
+            "transactionTime": {
+              "metric": "[FA]< 3s",
+              "description": "[FA]Average transaction time"
+            },
+            "compliance": {
+              "metric": "[FA]100%",
+              "description": "[FA]PCI DSS compliance"
+            },
+            "fraudRate": {
+              "metric": "[FA]0.1%",
+              "description": "[FA]Fraud rate with AI protection"
+            }
+          },
+          "cta": {
+            "title": "[FA]Ready for Secure Voice Payments?",
+            "subtitle": "[FA]Enable PCI-compliant payment processing with advanced fraud protection",
+            "primaryButton": "[FA]Start Secure Processing",
+            "secondaryButton": "[FA]Security Overview"
+          }
+        }
+      },
+      "mentalHealth": {
+        "hero": {
+          "title": "[FA]Mental Health Voice Companion",
+          "subtitle": "[FA]Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
+          "cta": "[FA]Learn About Mental Health AI"
+        },
+        "features": {
+          "title": "[FA]Compassionate AI Support",
+          "subtitle": "[FA]Advanced AI trained in mental health support and crisis intervention",
+          "empathetic": {
+            "title": "[FA]Empathetic AI Companion",
+            "description": "[FA]Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
+            "benefits": {
+              "activeListing": "[FA]Active listening",
+              "emotionalValidation": "[FA]Emotional validation",
+              "crisisRecognition": "[FA]Crisis recognition"
+            }
+          },
+          "safe": {
+            "title": "[FA]Safe & Confidential",
+            "description": "[FA]HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.",
+            "benefits": {
+              "hipaaCompliance": "[FA]HIPAA compliance",
+              "encryptedConversations": "[FA]Encrypted conversations",
+              "anonymousOptions": "[FA]Anonymous options"
+            }
+          },
+          "available": {
+            "title": "[FA]24/7 Availability",
+            "description": "[FA]Always available when someone needs to talk, providing immediate support during crisis moments.",
+            "benefits": {
+              "roundTheClockAccess": "[FA]Round-the-clock access",
+              "immediateResponse": "[FA]Immediate response",
+              "noWaitTimes": "[FA]No wait times"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "[FA]Mental Health Support Capabilities",
+          "subtitle": "[FA]Comprehensive support across the mental health care spectrum",
+          "screening": {
+            "title": "[FA]Initial Mental Health Screening",
+            "description": "[FA]Conduct preliminary assessments using validated screening tools",
+            "outcomes": {
+              "earlyIdentification": "[FA]Early identification",
+              "riskAssessment": "[FA]Risk assessment",
+              "appropriateReferrals": "[FA]Appropriate referrals"
+            }
+          },
+          "crisis": {
+            "title": "[FA]Crisis Intervention",
+            "description": "[FA]Recognize crisis situations and provide immediate support or escalation",
+            "outcomes": {
+              "crisisDetection": "[FA]Crisis detection",
+              "deEscalationTechniques": "[FA]De-escalation techniques",
+              "emergencyProtocols": "[FA]Emergency protocols"
+            }
+          },
+          "navigation": {
+            "title": "[FA]Resource Navigation",
+            "description": "[FA]Guide users to appropriate mental health resources and services",
+            "outcomes": {
+              "serviceMatching": "[FA]Service matching",
+              "appointmentScheduling": "[FA]Appointment scheduling",
+              "followUpSupport": "[FA]Follow-up support"
+            }
+          },
+          "emotional": {
+            "title": "[FA]Emotional Support",
+            "description": "[FA]Provide compassionate listening and emotional validation",
+            "outcomes": {
+              "reducedIsolation": "[FA]Reduced isolation",
+              "emotionalRelief": "[FA]Emotional relief",
+              "copingStrategies": "[FA]Coping strategies"
+            }
+          }
+        },
+        "safety": {
+          "title": "[FA]Safety-First Design",
+          "description": "[FA]Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+          "crisisDetection": {
+            "title": "[FA]Crisis Detection",
+            "description": "[FA]Advanced algorithms identify crisis situations"
+          },
+          "professionalHandoff": {
+            "title": "[FA]Professional Handoff",
+            "description": "[FA]Seamless transfer to human mental health professionals"
+          },
+          "emergencyProtocols": {
+            "title": "[FA]Emergency Protocols",
+            "description": "[FA]Immediate connection to crisis hotlines when needed"
+          },
+          "features": {
+            "title": "[FA]Safety Features",
+            "crisisKeywordDetection": "[FA]Crisis keyword detection",
+            "suicideRiskAssessment": "[FA]Suicide risk assessment",
+            "automaticEscalationProtocols": "[FA]Automatic escalation protocols",
+            "emergencyContactIntegration": "[FA]Emergency contact integration",
+            "professionalHandoffProcedures": "[FA]Professional handoff procedures",
+            "followUpScheduling": "[FA]Follow-up scheduling"
+          }
+        },
+        "impact": {
+          "title": "[FA]Mental Health Impact",
+          "subtitle": "[FA]Measurable improvements in mental health support accessibility",
+          "availability": {
+            "metric": "[FA]24/7",
+            "description": "[FA]Always available support"
+          },
+          "crisisReduction": {
+            "metric": "[FA]60%",
+            "description": "[FA]Reduction in crisis escalation"
+          },
+          "satisfaction": {
+            "metric": "[FA]85%",
+            "description": "[FA]User satisfaction rate"
+          },
+          "helpSeeking": {
+            "metric": "[FA]40%",
+            "description": "[FA]Increase in help-seeking behavior"
+          }
+        },
+        "cta": {
+          "title": "[FA]Ready to Support Mental Health?",
+          "subtitle": "[FA]Provide compassionate, 24/7 mental health support with AI that truly cares",
+          "learnMore": "[FA]Learn More",
+          "contactSpecialists": "[FA]Contact Specialists"
+        }
+      }
+    }
+  }
+}
