@@ -2164,7 +2164,7 @@
             "channels": "Channels: WhatsApp Messenger, chat widget",
             "integrations": "Integrations: Wix, WordPress, Shopify, Make.com, Squarespace",
             "aiAgent": "AI agent with 100 lifetime AI replies:",
-            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "aiAgentModel": "ChatGPT-4o mini",
             "knowledgeBase": "Knowledge base includes 20 documents (200KB max) and 250k tokens",
             "workspace": "1 workspace"
           },
@@ -2328,8 +2328,8 @@
             "enterprise": "Custom build"
           },
           "aiModels": {
-            "free": "ChatGPT-3.5",
-            "premium": "ChatGPT-4o, Mistral",
+            "free": "ChatGPT-4o mini",
+            "premium": "ChatGPT-4o, ChatGPT-4o mini, ChatGPT-4.1 mini, ChatGPT-5 mini, Mistral",
             "enterprise": "Advanced models"
           },
           "knowledgeBase": {

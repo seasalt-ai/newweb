@@ -2164,7 +2164,7 @@
             "channels": "通道：WhatsApp Messenger、聊天小工具",
             "integrations": "整合：Wix、WordPress、Shopify、Make.com、Squarespace",
             "aiAgent": "AI 代理具有 100 次終身 AI 回覆：",
-            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "aiAgentModel": "ChatGPT-4o mini",
             "knowledgeBase": "知識庫包含 20 個文件（最大 200KB）和 250k 令牌",
             "workspace": "1 個工作空間"
           },
@@ -2328,8 +2328,8 @@
             "enterprise": "客製化開發"
           },
           "aiModels": {
-            "free": "ChatGPT-3.5",
-            "premium": "ChatGPT-4o、Mistral",
+            "free": "ChatGPT-4o mini",
+            "premium": "ChatGPT-4o, ChatGPT-4o mini, ChatGPT-4.1 mini, ChatGPT-5 mini, Mistral",
             "enterprise": "進階模型"
           },
           "knowledgeBase": {

@@ -39,19 +39,38 @@ const breadcrumbs = [
   { name: 'SeaChat', url: `/${currentLang}/seachat/` }
 ];
 ---
-
 <Layout 
   title={title} 
   description={description} 
   lang={currentLang}
   keywords={keywords}
-  type="website"
+  type="service"
   headerVersion="seachat"
   footerVersion="seachat"
   breadcrumbs={breadcrumbs}
->
-  <!-- Hero Section -->
-  <Hero 
+  service={{
+    "offers": [
+      {
+        "name": t('seachat.pricing.plans.free.name') || 'Free',
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": t('seachat.pricing.plans.free.description')
+      },
+      {
+        "name": t('seachat.pricing.plans.premium.name') || 'Premium',
+        "price": "29.99",
+        "priceCurrency": "USD",
+        "description": t('seachat.pricing.plans.premium.description')
+      },
+      {
+        "name": t('seachat.pricing.plans.enterprise.name') || 'Enterprise',
+        "price": "Contact for pricing",
+        "priceCurrency": "USD",
+        "description": t('seachat.pricing.plans.enterprise.description')
+      }
+    ]
+  }}
+><Hero 
     client:only="react" 
     lang={currentLang} 
     translations={translations}
@@ -119,6 +138,4 @@ const breadcrumbs = [
           {t('footer.cta.scheduleDemo') || 'Schedule Demo'}
         </a>
       </div>
-    </div>
-  </section>
-</Layout>
+    </Layout>

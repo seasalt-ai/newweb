@@ -23,6 +23,8 @@ export interface Props {
 	lang?: string;
 	headerVersion?: string;
 	footerVersion?: string;
+	type?: string;
+	service?: any;
 }
 
 const { 
@@ -32,7 +34,9 @@ const {
 	faqs,
 	lang = 'en',
 	headerVersion = 'seax',
-	footerVersion = 'seax'
+	footerVersion = 'seax',
+	type = 'software',
+	service
 } = Astro.props;
 ---
 
@@ -46,9 +50,10 @@ const {
 			keywords={seoData.keywords}
 			image={seoData.ogImage}
 			canonical={seoData.canonical}
-			type="software"
+			type={type}
 			faqs={faqs}
 			breadcrumbs={breadcrumbs}
+			service={service}
 		/>
 		<meta name="generator" content={Astro.generator} />
 		

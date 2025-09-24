@@ -689,7 +689,13 @@ try {
       "image": abs(localized.image),
       ...(localized.screenshots?.length ? { "screenshot": localized.screenshots.map(abs) } : {}),
       ...(localized.features?.length ? { "featureList": localized.features } : {}),
-      "offers": {
+      "offers": service && service.offers ? service.offers.map(offer => ({
+        "@type": "Offer",
+        "name": offer.name,
+        "description": offer.description,
+        "price": offer.price,
+        "priceCurrency": offer.priceCurrency || "USD"
+      })) : {
         "@type": "Offer",
         "price": PRODUCTS_INFO[detectedProduct].offers.price,
         "priceCurrency": PRODUCTS_INFO[detectedProduct].offers.priceCurrency,

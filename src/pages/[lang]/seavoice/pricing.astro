@@ -169,15 +169,29 @@ const faqs = [
   lang={currentLang} 
   breadcrumbs={breadcrumbs} 
   faqs={faqs}
-  type="product"
-  product={{
-    name: "SeaVoice",
-    brand: "Seasalt.ai",
-    category: "AI Voice Communication Platform",
-    description: "AI-powered voice communication platform with intelligent call routing, voice analytics, and automated responses for inbound and outbound calls",
-    price: "29.99",
-    currency: "USD",
-    availability: "InStock"
+  productKey={null}
+  type="service"
+  service={{
+    "offers": [
+      {
+        "name": t('seavoice.pricing.plans.inboundOnly.name') || 'Inbound Only',
+        "price": "29.99",
+        "priceCurrency": "USD",
+        "description": t('seavoice.pricing.plans.inboundOnly.description')
+      },
+      {
+        "name": t('seavoice.pricing.plans.inboundOutbound.name') || 'Inbound + Outbound',
+        "price": "99",
+        "priceCurrency": "USD",
+        "description": t('seavoice.pricing.plans.inboundOutbound.description')
+      },
+      {
+        "name": t('seavoice.pricing.plans.custom.name') || 'Custom Plan',
+        "price": "Contact for pricing",
+        "priceCurrency": "USD",
+        "description": t('seavoice.pricing.plans.custom.description')
+      }
+    ]
   }}
 >
   <!-- Hero Section -->

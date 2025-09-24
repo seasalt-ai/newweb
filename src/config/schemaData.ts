@@ -877,6 +877,328 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
       ],
       audienceType: 'Doanh nghiệp, Đội Marketing, Tổ chức Bán hàng, Chiến dịch Chính trị'
     }
+  },
+  seavoice: {
+    'en': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: AI-powered voice communication platform by Seasalt AI, enabling intelligent call routing, voice analytics, automated responses, and seamless integration with CRM systems for 24/7 voice support.',
+      keywords: 'AI voice agents, call automation, voice analytics, intelligent routing, speech-to-text, text-to-speech, voice AI',
+      featureList: [
+        'AI voice agents',
+        'Intelligent call routing',
+        'Voice analytics',
+        'Speech-to-text conversion',
+        'Text-to-speech synthesis',
+        'Call recording and monitoring',
+        'Real-time voice analysis',
+        'CRM integration'
+      ],
+      audienceType: 'Call Centers, Customer Support Teams, Healthcare Providers, Financial Services'
+    },
+    'zh-TW': {
+      name: 'SeaVoice',
+      description: 'SeaVoice：Seasalt AI 推出的 AI 語音通訊平台，提供智能通話路由、語音分析、自動回應，並與 CRM 系統無縫整合，提供 24/7 語音支援。',
+      keywords: 'AI 語音代理, 通話自動化, 語音分析, 智能路由, 語音轉文字, 文字轉語音, 語音 AI',
+      featureList: [
+        'AI語音代理',
+        '智能通話路由',
+        '語音分析',
+        '語音轉文字',
+        '文字轉語音',
+        '通話錄音監控',
+        '即時語音分析',
+        'CRM整合'
+      ],
+      audienceType: '客服中心、客戶支援團隊、醫療保健提供者、金融服務'
+    },
+    'zh-CN': {
+      name: 'SeaVoice',
+      description: 'SeaVoice：Seasalt AI 推出的 AI 语音通信平台，提供智能通话路由、语音分析、自动响应，并与 CRM 系统无缝整合，提供 24/7 语音支持。',
+      keywords: 'AI 语音代理, 通话自动化, 语音分析, 智能路由, 语音转文字, 文字转语音, 语音 AI',
+      featureList: [
+        'AI语音代理',
+        '智能通话路由',
+        '语音分析',
+        '语音转文字',
+        '文字转语音',
+        '通话录音监控',
+        '实时语音分析',
+        'CRM整合'
+      ],
+      audienceType: '客服中心、客户支持团队、医疗保健提供者、金融服务'
+    },
+    'es': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Plataforma de comunicación de voz impulsada por IA de Seasalt AI, que permite enrutamiento inteligente de llamadas, análisis de voz, respuestas automatizadas e integración perfecta con sistemas CRM para soporte de voz 24/7.',
+      keywords: 'agentes de voz IA, automatización de llamadas, análisis de voz, enrutamiento inteligente, voz a texto, texto a voz, IA de voz',
+      featureList: [
+        'Agentes de voz IA',
+        'Enrutamiento inteligente de llamadas',
+        'Análisis de voz',
+        'Conversión de voz a texto',
+        'Síntesis de texto a voz',
+        'Grabación y monitoreo de llamadas',
+        'Análisis de voz en tiempo real',
+        'Integración CRM'
+      ],
+      audienceType: 'Centros de Llamadas, Equipos de Soporte al Cliente, Proveedores de Salud, Servicios Financieros'
+    },
+    'fr': {
+      name: 'SeaVoice',
+      description: 'SeaVoice : Plateforme de communication vocale alimentée par l\'IA de Seasalt AI, permettant le routage intelligent d\'appels, l\'analyse vocale, les réponses automatisées et l\'intégration transparente avec les systèmes CRM pour un support vocal 24/7.',
+      keywords: 'agents vocaux IA, automatisation d\'appels, analyse vocale, routage intelligent, parole vers texte, texte vers parole, IA vocale',
+      featureList: [
+        'Agents vocaux IA',
+        'Routage intelligent d\'appels',
+        'Analyse vocale',
+        'Conversion parole vers texte',
+        'Synthèse texte vers parole',
+        'Enregistrement et surveillance d\'appels',
+        'Analyse vocale en temps réel',
+        'Intégration CRM'
+      ],
+      audienceType: 'Centres d\'Appels, Équipes de Support Client, Fournisseurs de Santé, Services Financiers'
+    },
+    'de': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: KI-gestützte Sprachkommunikationsplattform von Seasalt AI, die intelligentes Anrufrouting, Sprachanalyse, automatisierte Antworten und nahtlose Integration mit CRM-Systemen für 24/7-Sprachsupport ermöglicht.',
+      keywords: 'KI-Sprachagenten, Anrufautomatisierung, Sprachanalyse, intelligentes Routing, Sprache zu Text, Text zu Sprache, Sprach-KI',
+      featureList: [
+        'KI-Sprachagenten',
+        'Intelligentes Anrufrouting',
+        'Sprachanalyse',
+        'Sprache-zu-Text-Konvertierung',
+        'Text-zu-Sprache-Synthese',
+        'Anrufaufzeichnung und -überwachung',
+        'Echtzeit-Sprachanalyse',
+        'CRM-Integration'
+      ],
+      audienceType: 'Call Center, Kundensupport-Teams, Gesundheitsdienstleister, Finanzdienstleistungen'
+    },
+    'ja': {
+      name: 'SeaVoice',
+      description: 'SeaVoice：Seasalt AIによるAI搭載音声通信プラットフォーム。インテリジェントコールルーティング、音声分析、自動応答、CRMシステムとのシームレス統合により24/7音声サポートを実現。',
+      keywords: 'AI音声エージェント, 通話自動化, 音声分析, インテリジェントルーティング, 音声テキスト変換, テキスト音声変換, 音声AI',
+      featureList: [
+        'AI音声エージェント',
+        'インテリジェントコールルーティング',
+        '音声分析',
+        '音声テキスト変換',
+        'テキスト音声変換',
+        '通話録音・監視',
+        'リアルタイム音声分析',
+        'CRM統合'
+      ],
+      audienceType: 'コールセンター、カスタマーサポートチーム、医療提供者、金融サービス'
+    },
+    'ko': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Seasalt AI의 AI 기반 음성 통신 플랫폼으로, 지능형 통화 라우팅, 음성 분석, 자동 응답 및 CRM 시스템과의 원활한 통합을 통해 24/7 음성 지원을 제공합니다.',
+      keywords: 'AI 음성 에이전트, 통화 자동화, 음성 분석, 지능형 라우팅, 음성-텍스트 변환, 텍스트-음성 변환, 음성 AI',
+      featureList: [
+        'AI 음성 에이전트',
+        '지능형 통화 라우팅',
+        '음성 분석',
+        '음성-텍스트 변환',
+        '텍스트-음성 변환',
+        '통화 녹음 및 모니터링',
+        '실시간 음성 분석',
+        'CRM 통합'
+      ],
+      audienceType: '콜센터, 고객 지원팀, 의료 서비스 제공자, 금융 서비스'
+    },
+    'ar': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: منصة اتصالات صوتية مدعومة بالذكاء الاصطناعي من Seasalt AI، تتيح توجيه المكالمات الذكي، وتحليل الصوت، والاستجابات الآلية، والتكامل السلس مع أنظمة CRM لدعم صوتي على مدار الساعة طوال أيام الأسبوع.',
+      keywords: 'وكلاء صوتيون بالذكاء الاصطناعي، أتمتة المكالمات، تحليل الصوت، التوجيه الذكي، الكلام إلى نص، النص إلى كلام، ذكاء اصطناعي صوتي',
+      featureList: [
+        'وكلاء الصوت بالذكاء الاصطناعي',
+        'توجيه المكالمات الذكي',
+        'تحليلات الصوت',
+        'تحويل الكلام إلى نص',
+        'تركيب النص إلى كلام',
+        'تسجيل ومراقبة المكالمات',
+        'تحليل الصوت في الوقت الفعلي',
+        'تكامل CRM'
+      ],
+      audienceType: 'مراكز الاتصال، فرق دعم العملاء، مقدمو الرعاية الصحية، الخدمات المالية'
+    },
+    'fa': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: پلتفرم ارتباطات صوتی مبتنی بر هوش مصنوعی توسط Seasalt AI که مسیریابی هوشمند تماس، تحلیل صوت، پاسخ‌های خودکار و ادغام یکپارچه با سیستم‌های CRM را برای پشتیبانی صوتی 24/7 فراهم می‌کند.',
+      keywords: 'عوامل صوتی هوش مصنوعی، اتوماسیون تماس، تحلیل صوت، مسیریابی هوشمند، گفتار به متن، متن به گفتار، هوش مصنوعی صوتی',
+      featureList: [
+        'عوامل صوتی هوش مصنوعی',
+        'مسیریابی هوشمند تماس',
+        'تحلیل‌های صوتی',
+        'تبدیل گفتار به متن',
+        'سنتز متن به گفتار',
+        'ضبط و نظارت بر تماس',
+        'تحلیل صوتی بلادرنگ',
+        'ادغام CRM'
+      ],
+      audienceType: 'مراکز تماس، تیم‌های پشتیبانی مشتری، ارائه‌دهندگان مراقبت‌های بهداشتی، خدمات مالی'
+    },
+    'fil': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: AI-powered voice communication platform ng Seasalt AI na nagbibigay-daan sa intelligent call routing, voice analytics, automated responses, at seamless integration sa CRM systems para sa 24/7 voice support.',
+      keywords: 'AI voice agents, call automation, voice analytics, intelligent routing, speech-to-text, text-to-speech, voice AI',
+      featureList: [
+        'AI voice agents',
+        'Intelligent call routing',
+        'Voice analytics',
+        'Speech-to-text conversion',
+        'Text-to-speech synthesis',
+        'Call recording at monitoring',
+        'Real-time voice analysis',
+        'CRM integration'
+      ],
+      audienceType: 'Call Centers, Customer Support Teams, Healthcare Providers, Financial Services'
+    },
+    'hi': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Seasalt AI का AI-संचालित वॉयस कम्युनिकेशन प्लेटफॉर्म जो बुद्धिमान कॉल राउटिंग, वॉयस एनालिटिक्स, स्वचालित प्रतिक्रियाओं और CRM सिस्टम के साथ सहज एकीकरण के माध्यम से 24/7 वॉयस सपोर्ट प्रदान करता है।',
+      keywords: 'AI वॉयस एजेंट, कॉल ऑटोमेशन, वॉयस एनालिटिक्स, बुद्धिमान राउटिंग, भाषण-से-पाठ, पाठ-से-भाषण, वॉयस AI',
+      featureList: [
+        'AI वॉयस एजेंट',
+        'बुद्धिमान कॉल राउटिंग',
+        'वॉयस एनालिटिक्स',
+        'भाषण-से-पाठ रूपांतरण',
+        'पाठ-से-भाषण संश्लेषण',
+        'कॉल रिकॉर्डिंग और निगरानी',
+        'रीयल-टाइम वॉयस विश्लेषण',
+        'CRM एकीकरण'
+      ],
+      audienceType: 'कॉल सेंटर, ग्राहक सहायता टीम, स्वास्थ्य सेवा प्रदाता, वित्तीय सेवाएं'
+    },
+    'id': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Platform komunikasi suara bertenaga AI oleh Seasalt AI yang memungkinkan routing panggilan cerdas, analitik suara, respons otomatis, dan integrasi mulus dengan sistem CRM untuk dukungan suara 24/7.',
+      keywords: 'agen suara AI, otomatisasi panggilan, analitik suara, routing cerdas, ucapan-ke-teks, teks-ke-ucapan, AI suara',
+      featureList: [
+        'Agen suara AI',
+        'Routing panggilan cerdas',
+        'Analitik suara',
+        'Konversi ucapan-ke-teks',
+        'Sintesis teks-ke-ucapan',
+        'Perekaman dan pemantauan panggilan',
+        'Analisis suara real-time',
+        'Integrasi CRM'
+      ],
+      audienceType: 'Call Center, Tim Dukungan Pelanggan, Penyedia Layanan Kesehatan, Layanan Keuangan'
+    },
+    'ms': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Platform komunikasi suara berkuasa AI oleh Seasalt AI yang membolehkan penghalaan panggilan pintar, analitik suara, respons automatik, dan integrasi lancar dengan sistem CRM untuk sokongan suara 24/7.',
+      keywords: 'ejen suara AI, automasi panggilan, analitik suara, penghalaan pintar, pertuturan-ke-teks, teks-ke-pertuturan, AI suara',
+      featureList: [
+        'Ejen suara AI',
+        'Penghalaan panggilan pintar',
+        'Analitik suara',
+        'Penukaran pertuturan-ke-teks',
+        'Sintesis teks-ke-pertuturan',
+        'Rakaman dan pemantauan panggilan',
+        'Analisis suara masa nyata',
+        'Integrasi CRM'
+      ],
+      audienceType: 'Pusat Panggilan, Pasukan Sokongan Pelanggan, Pembekal Penjagaan Kesihatan, Perkhidmatan Kewangan'
+    },
+    'pl': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Platforma komunikacji głosowej napędzana przez AI od Seasalt AI, umożliwiająca inteligentne routowanie połączeń, analizę głosu, automatyczne odpowiedzi i bezproblemową integrację z systemami CRM dla całodobowego wsparcia głosowego.',
+      keywords: 'agenci głosowi AI, automatyzacja połączeń, analiza głosu, inteligentne routowanie, mowa na tekst, tekst na mowę, AI głosowe',
+      featureList: [
+        'Agenci głosowi AI',
+        'Inteligentne routowanie połączeń',
+        'Analiza głosu',
+        'Konwersja mowy na tekst',
+        'Synteza tekstu na mowę',
+        'Nagrywanie i monitorowanie połączeń',
+        'Analiza głosu w czasie rzeczywistym',
+        'Integracja CRM'
+      ],
+      audienceType: 'Centra Obsługi Telefonicznej, Zespoły Wsparcia Klienta, Dostawcy Opieki Zdrowotnej, Usługi Finansowe'
+    },
+    'pt': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Plataforma de comunicação de voz alimentada por IA da Seasalt AI que permite roteamento inteligente de chamadas, análise de voz, respostas automatizadas e integração perfeita com sistemas CRM para suporte de voz 24/7.',
+      keywords: 'agentes de voz IA, automação de chamadas, análise de voz, roteamento inteligente, fala-para-texto, texto-para-fala, IA de voz',
+      featureList: [
+        'Agentes de voz IA',
+        'Roteamento inteligente de chamadas',
+        'Análise de voz',
+        'Conversão de fala para texto',
+        'Síntese de texto para fala',
+        'Gravação e monitoramento de chamadas',
+        'Análise de voz em tempo real',
+        'Integração CRM'
+      ],
+      audienceType: 'Centros de Atendimento, Equipes de Suporte ao Cliente, Provedores de Saúde, Serviços Financeiros'
+    },
+    'ru': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Платформа голосовой связи на основе ИИ от Seasalt AI, обеспечивающая интеллектуальную маршрутизацию звонков, анализ голоса, автоматизированные ответы и бесшовную интеграцию с системами CRM для круглосуточной голосовой поддержки.',
+      keywords: 'голосовые агенты ИИ, автоматизация звонков, анализ голоса, интеллектуальная маршрутизация, речь в текст, текст в речь, голосовой ИИ',
+      featureList: [
+        'Голосовые агенты ИИ',
+        'Интеллектуальная маршрутизация звонков',
+        'Анализ голоса',
+        'Преобразование речи в текст',
+        'Синтез текста в речь',
+        'Запись и мониторинг звонков',
+        'Анализ голоса в реальном времени',
+        'Интеграция CRM'
+      ],
+      audienceType: 'Колл-центры, Команды поддержки клиентов, Поставщики медицинских услуг, Финансовые услуги'
+    },
+    'ta': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Seasalt AI இன் AI-இயங்கும் குரல் தொடர்பு தளம் புத்திசாலித்தனமான அழைப்பு வழிகாட்டல், குரல் பகுப்பாய்வு, தானியங்கு பதில்கள் மற்றும் 24/7 குரல் ஆதரவுக்கான CRM அமைப்புகளுடன் தடையில்லா ஒருங்கிணைப்பை செயல்படுத்துகிறது.',
+      keywords: 'AI குரல் முகவர்கள், அழைப்பு தானியங்கு, குரல் பகுப்பாய்வு, புத்திசாலித்தனமான வழிகாட்டல், பேச்சு-செய்-உரை, உரை-செய்-பேச்சு, குரல் AI',
+      featureList: [
+        'AI குரல் முகவர்கள்',
+        'புத்திசாலித்தனமான அழைப்பு வழிகாட்டல்',
+        'குரல் பகுப்பாய்வு',
+        'பேச்சு-உரை மாற்றம்',
+        'உரை-பேச்சு தொகுப்பு',
+        'அழைப்பு பதிவு மற்றும் கண்காணிப்பு',
+        'நேரடி குரல் பகுப்பாய்வு',
+        'CRM ஒருங்கிணைப்பு'
+      ],
+      audienceType: 'அழைப்பு மையங்கள், வாடிக்கையாளர் ஆதரவு குழுக்கள், சுகாதார சேவை வழங்குநர்கள், நிதி சேவைகள்'
+    },
+    'th': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: แพลตฟอร์มการสื่อสารด้วยเสียงที่ขับเคลื่อนด้วย AI จาก Seasalt AI ที่ช่วยในการกำหนดเส้นทางการโทรอัจฉริยะ, การวิเคราะห์เสียง, การตอบสนองอัตโนมัติ และการผสานรวมกับระบบ CRM อย่างไร้รอยต่อสำหรับการสนับสนุนด้วยเสียง 24/7',
+      keywords: 'เอเจนต์เสียง AI, การทำให้การโทรเป็นอัตโนมัติ, การวิเคราะห์เสียง, การกำหนดเส้นทางอัจฉริยะ, การแปลงเสียงเป็นข้อความ, การแปลงข้อความเป็นเสียง, AI เสียง',
+      featureList: [
+        'เอเจนต์เสียง AI',
+        'การกำหนดเส้นทางการโทรอัจฉริยะ',
+        'การวิเคราะห์เสียง',
+        'การแปลงเสียงเป็นข้อความ',
+        'การสังเคราะห์ข้อความเป็นเสียง',
+        'การบันทึกและตรวจสอบการโทร',
+        'การวิเคราะห์เสียงแบบเรียลไทม์',
+        'การผสานรวม CRM'
+      ],
+      audienceType: 'ศูนย์รับสาย, ทีมสนับสนุนลูกค้า, ผู้ให้บริการด้านสุขภาพ, บริการทางการเงิน'
+    },
+    'vi': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Nền tảng giao tiếp bằng giọng nói được hỗ trợ bởi AI của Seasalt AI cho phép định tuyến cuộc gọi thông minh, phân tích giọng nói, phản hồi tự động và tích hợp liền mạch với hệ thống CRM để hỗ trợ giọng nói 24/7.',
+      keywords: 'đại lý giọng nói AI, tự động hóa cuộc gọi, phân tích giọng nói, định tuyến thông minh, giọng nói-sang-văn bản, văn bản-sang-giọng nói, AI giọng nói',
+      featureList: [
+        'Đại lý giọng nói AI',
+        'Định tuyến cuộc gọi thông minh',
+        'Phân tích giọng nói',
+        'Chuyển đổi giọng nói sang văn bản',
+        'Tổng hợp văn bản sang giọng nói',
+        'Ghi âm và giám sát cuộc gọi',
+        'Phân tích giọng nói thời gian thực',
+        'Tích hợp CRM'
+      ],
+      audienceType: 'Trung tâm Cuộc gọi, Đội Hỗ trợ Khách hàng, Nhà cung cấp Chăm sóc Sức khỏe, Dịch vụ Tài chính'
+    }
   }
 };
 
@@ -1285,7 +1607,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'en': [
         'Unlimited AI conversations',
         '1 human agent included (free plan)',
-        'Enterprise AI models (GPT-4, Claude)',
+        'Enterprise AI models (GPT-4, GPT-5, Claude)',
         'Omnichannel integration',
         'Knowledge base management',
         'Advanced analytics',
@@ -1315,7 +1637,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'es': [
         'Conversaciones de IA ilimitadas',
         '1 agente humano incluido (plan gratuito)',
-        'Modelos de IA empresariales (GPT-4, Claude)',
+        'Modelos de IA empresariales (GPT-4, GPT-5, Claude)',
         'Integración omnicanal',
         'Gestión de base de conocimientos',
         'Análisis avanzado',
@@ -1325,7 +1647,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'fr': [
         'Conversations IA illimitées',
         '1 agent humain inclus (plan gratuit)',
-        'Modèles IA d\'entreprise (GPT-4, Claude)',
+        'Modèles IA d\'entreprise (GPT-4, GPT-5, Claude)',
         'Intégration omnicanale',
         'Gestion de base de connaissances',
         'Analyses avancées',
@@ -1335,7 +1657,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'de': [
         'Unbegrenzte KI-Gespräche',
         '1 menschlicher Agent enthalten (kostenloser Plan)',
-        'Enterprise-KI-Modelle (GPT-4, Claude)',
+        'Enterprise-KI-Modelle (GPT-4, GPT-5, Claude)',
         'Omnichannel-Integration',
         'Wissensdatenbank-Management',
         'Erweiterte Analysen',
@@ -1355,7 +1677,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'ko': [
         '무제한 AI 대화',
         '1명의 휴먼 에이전트 포함 (무료 플랜)',
-        '엔터프라이즈 AI 모델 (GPT-4, Claude)',
+        '엔터프라이즈 AI 모델 (GPT-4, GPT-5, Claude)',
         '옴니채널 통합',
         '지식베이스 관리',
         '고급 분석',
@@ -1385,7 +1707,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'fil': [
         'Walang limitasyon na AI conversations',
         '1 human agent kasama (libreng plan)',
-        'Enterprise AI models (GPT-4, Claude)',
+        'Enterprise AI models (GPT-4, GPT-5, Claude)',
         'Omnichannel integration',
         'Knowledge base management',
         'Advanced analytics',
@@ -1395,7 +1717,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'hi': [
         'असीमित AI बातचीत',
         '1 मानव एजेंट शामिल (मुफ्त योजना)',
-        'एंटरप्राइज़ AI मॉडल (GPT-4, Claude)',
+        'एंटरप्राइज़ AI मॉडल (GPT-4, GPT-5, Claude)',
         'ओमनीचैनल एकीकरण',
         'ज्ञान आधार प्रबंधन',
         'उन्नत विश्लेषण',
@@ -1405,7 +1727,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'id': [
         'Percakapan AI tanpa batas',
         '1 agen manusia termasuk (paket gratis)',
-        'Model AI enterprise (GPT-4, Claude)',
+        'Model AI enterprise (GPT-4, GPT-5, Claude)',
         'Integrasi omnichannel',
         'Manajemen basis pengetahuan',
         'Analitik lanjutan',
@@ -1415,7 +1737,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'ms': [
         'Perbualan AI tanpa had',
         '1 ejen manusia disertakan (pelan percuma)',
-        'Model AI perusahaan (GPT-4, Claude)',
+        'Model AI perusahaan (GPT-4, GPT-5, Claude)',
         'Integrasi omnichannel',
         'Pengurusan pangkalan pengetahuan',
         'Analitik lanjutan',
@@ -1425,7 +1747,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'pl': [
         'Nieograniczone rozmowy AI',
         '1 agent ludzki w zestawie (plan darmowy)',
-        'Modele AI dla przedsiębiorstw (GPT-4, Claude)',
+        'Modele AI dla przedsiębiorstw (GPT-4, GPT-5, Claude)',
         'Integracja omnichannel',
         'Zarządzanie bazą wiedzy',
         'Zaawansowane analityki',
@@ -1435,7 +1757,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'pt': [
         'Conversas de IA ilimitadas',
         '1 agente humano incluído (plano gratuito)',
-        'Modelos de IA empresariais (GPT-4, Claude)',
+        'Modelos de IA empresariais (GPT-4, GPT-5, Claude)',
         'Integração omnichannel',
         'Gestão de base de conhecimento',
         'Análises avançadas',
@@ -1445,7 +1767,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'ru': [
         'Неограниченные ИИ-разговоры',
         '1 человеческий агент включен (бесплатный план)',
-        'Корпоративные ИИ-модели (GPT-4, Claude)',
+        'Корпоративные ИИ-модели (GPT-4, GPT-5, Claude)',
         'Омниканальная интеграция',
         'Управление базой знаний',
         'Расширенная аналитика',
@@ -1455,7 +1777,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'ta': [
         'வரம்பற்ற AI உரையாடல்கள்',
         '1 மனித முகவர் சேர்க்கப்பட்டுள்ளது (இலவச திட்டம்)',
-        'நிறுவன AI மாதிரிகள் (GPT-4, Claude)',
+        'நிறுவன AI மாதிரிகள் (GPT-4, GPT-5, Claude)',
         'ஆம்னிசேனல் ஒருங்கிணைப்பு',
         'அறிவுத் தளக் கட்டுப்பாடு',
         'மேம்பட்ட பகுப்பாய்வு',
@@ -1465,7 +1787,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'th': [
         'การสนทนา AI ไม่จำกัด',
         'รวมเอเจนต์มนุษย์ 1 คน (แผนฟรี)',
-        'โมเดล AI ระดับองค์กร (GPT-4, Claude)',
+        'โมเดล AI ระดับองค์กร (GPT-4, GPT-5, Claude)',
         'การรวมแบบหลายช่องทาง',
         'การจัดการฐานความรู้',
         'การวิเคราะห์ขั้นสูง',
@@ -1475,7 +1797,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
       'vi': [
         'Cuộc trò chuyện AI không giới hạn',
         '1 đại lý con người được bao gồm (gói miễn phí)',
-        'Mô hình AI doanh nghiệp (GPT-4, Claude)',
+        'Mô hình AI doanh nghiệp (GPT-4, GPT-5, Claude)',
         'Tích hợp đa kênh',
         'Quản lý cơ sở tri thức',
         'Phân tích nâng cao',

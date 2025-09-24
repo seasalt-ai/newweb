@@ -53,12 +53,34 @@ export async function getStaticPaths() {
 
 <SeaxLayout 
   {seoData} 
-  productKey="seax" 
   breadcrumbs={breadcrumbs} 
   faqs={faqs} 
   lang={lang}
   headerVersion="seax"
   footerVersion="seax"
+  type="service"
+  service={{
+    "offers": [
+      {
+        "name": t('seax.pricing.plans.whatsapp.name'),
+        "price": t('seax.pricing.plans.whatsapp.price.monthly'),
+        "priceCurrency": "USD",
+        "description": t('seax.pricing.plans.whatsapp.description')
+      },
+      {
+        "name": t('seax.pricing.plans.omnichannel.name'),
+        "price": t('seax.pricing.plans.omnichannel.price.monthly'),
+        "priceCurrency": "USD",
+        "description": t('seax.pricing.plans.omnichannel.description')
+      },
+      {
+        "name": t('seax.pricing.plans.custom.name'),
+        "price": "Contact for pricing",
+        "priceCurrency": "USD",
+        "description": t('seax.pricing.plans.custom.description')
+      }
+    ]
+  }}
 >
       <Hero client:only="react" lang={lang} translations_obj={translations} translations={{
         badge: t('seax.hero.badge') || '🚀 The Ultimate Mass Communication Platform',

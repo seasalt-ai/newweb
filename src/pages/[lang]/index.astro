@@ -75,6 +75,7 @@ const enhancedOrganization = {
 // 自訂 JSON-LD 結構化資料 (本地化)
 const seaChatSchema = getLocalizedServiceSchema('seachat', currentLang);
 const seaXSchema = getLocalizedServiceSchema('seax', currentLang);
+const seaVoiceSchema = getLocalizedServiceSchema('seavoice', currentLang);
 
 const customJsonLd = [
   // SeaChat Service 結構化資料 (本地化)
@@ -119,6 +120,28 @@ const customJsonLd = [
     "audience": {
       "@type": "Audience",
       "audienceType": seaXSchema.audienceType
+    }
+  },
+  // SeaVoice Service 結構化資料 (本地化)
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": seaVoiceSchema.name,
+    "description": seaVoiceSchema.description,
+    "url": "https://seasalt.ai/seavoice",
+    "provider": {
+      "@type": "Organization",
+      "name": "Seasalt AI",
+      "url": "https://seasalt.ai/"
+    },
+    "applicationCategory": "Voice Communication Platform",
+    "isAccessibleForFree": "False",
+    "keywords": seaVoiceSchema.keywords,
+    "featureList": seaVoiceSchema.featureList,
+    "availableOnDevice": "Web",
+    "audience": {
+      "@type": "Audience",
+      "audienceType": seaVoiceSchema.audienceType
     }
   }
 ];

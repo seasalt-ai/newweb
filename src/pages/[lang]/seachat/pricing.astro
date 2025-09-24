@@ -31,19 +31,33 @@ const keywords = 'SeaChat pricing, AI chatbot cost, customer service automation 
   description={description} 
   lang={currentLang}
   keywords={keywords}
-  type="product"
-  product={{
-    name: "SeaChat",
-    brand: "Seasalt.ai",
-    category: "AI Chatbot Platform",
-    description: "Free AI chatbot platform with unlimited conversations, enterprise AI models, and omnichannel integration",
-    price: "0",
-    currency: "USD",
-    availability: "InStock"
+  type="service"
+  service={{
+    "offers": [
+      {
+        "name": t('seachat.pricing.plans.free.name') || 'Free',
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": t('seachat.pricing.plans.free.description')
+      },
+      {
+        "name": t('seachat.pricing.plans.premium.name') || 'Premium',
+        "price": "29.99",
+        "priceCurrency": "USD",
+        "description": t('seachat.pricing.plans.premium.description')
+      },
+      {
+        "name": t('seachat.pricing.plans.enterprise.name') || 'Enterprise',
+        "price": "Contact for pricing",
+        "priceCurrency": "USD",
+        "description": t('seachat.pricing.plans.enterprise.description')
+      }
+    ]
   }}
   headerVersion="seachat"
   footerVersion="seachat"
   breadcrumbs={[{ name: 'Home', url: `/${currentLang}/` }, { name: 'SeaChat', url: `/${currentLang}/seachat/` }, { name: 'Pricing' }]}
+  productKey={null}
 >
   <!-- SeaChat Pricing Page Content -->
   <div class="pt-4">
@@ -169,7 +183,7 @@ const keywords = 'SeaChat pricing, AI chatbot cost, customer service automation 
                     <ul class="ml-8 mt-2 space-y-1">
                       <li class="flex items-start space-x-2">
                         <span class="text-xs text-gray-500 mt-1">•</span>
-                        <span class="text-xs text-gray-600">{t('seachat.pricing.plans.free.features.aiAgentModel') || 'ChatGPT-3.5-turbo model'}</span>
+                        <span class="text-xs text-gray-600">{t('seachat.pricing.plans.free.features.aiAgentModel') || 'ChatGPT-4o mini model'}</span>
                       </li>
                     </ul>
                   </li>
@@ -314,7 +328,7 @@ const keywords = 'SeaChat pricing, AI chatbot cost, customer service automation 
                     <ul class="ml-8 mt-2 space-y-1">
                       <li class="flex items-start space-x-2">
                         <span class="text-xs text-gray-500 mt-1">•</span>
-                        <span class="text-xs text-gray-600">{t('seachat.pricing.plans.premium.features.aiModels') || 'Advanced AI models (GPT-4, Claude, etc.)'}</span>
+                        <span class="text-xs text-gray-600">{t('seachat.pricing.plans.premium.features.aiModels') || 'Advanced AI models (GPT-4, GPT-5, Claude, etc.)'}</span>
                       </li>
                       <li class="flex items-start space-x-2">
                         <span class="text-xs text-gray-500 mt-1">•</span>
@@ -628,7 +642,7 @@ const keywords = 'SeaChat pricing, AI chatbot cost, customer service automation 
                 </tr>
                 <tr class="hover:bg-gray-50">
                   <td class="px-6 py-4 text-sm font-medium text-gray-900">{t('seachat.pricing.comparison.aiModels') || 'AI Models'}</td>
-                  <td class="px-6 py-4 text-sm text-gray-600 text-center">{t('seachat.pricing.comparison.features.aiModels.free') || 'GPT-3.5-turbo'}</td>
+                  <td class="px-6 py-4 text-sm text-gray-600 text-center">{t('seachat.pricing.comparison.features.aiModels.free') || 'GPT-4o mini'}</td>
                   <td class="px-6 py-4 text-sm text-gray-600 text-center">{t('seachat.pricing.comparison.features.aiModels.premium') || 'All Models'}</td>
                   <td class="px-6 py-4 text-sm text-gray-600 text-center">{t('seachat.pricing.comparison.features.aiModels.enterprise') || 'Custom Models'}</td>
                 </tr>
@@ -726,7 +740,7 @@ const keywords = 'SeaChat pricing, AI chatbot cost, customer service automation 
         <div class="space-y-8">
           <div class="bg-gray-50 rounded-xl p-8">
             <h3 class="text-xl font-bold text-gray-900 mb-4">{t('seachat.pricing.faq.question1') || 'What is included in the Free plan?'}</h3>
-            <p class="text-gray-700 leading-relaxed">{t('seachat.pricing.faq.answer1') || 'The Free plan includes 1 human agent, unlimited human chats, unlimited contacts, basic knowledge base, and 1 AI agent powered by ChatGPT-3.5-turbo.'}</p>
+            <p class="text-gray-700 leading-relaxed">{t('seachat.pricing.faq.answer1') || 'The Free plan includes 1 human agent, unlimited human chats, unlimited contacts, basic knowledge base, and 1 AI agent powered by ChatGPT-4o mini.'}</p>
           </div>
           
           <div class="bg-gray-50 rounded-xl p-8">
@@ -741,7 +755,7 @@ const keywords = 'SeaChat pricing, AI chatbot cost, customer service automation 
           
           <div class="bg-gray-50 rounded-xl p-8">
             <h3 class="text-xl font-bold text-gray-900 mb-4">{t('seachat.pricing.faq.question4') || 'What AI models are available?'}</h3>
-            <p class="text-gray-700 leading-relaxed">{t('seachat.pricing.faq.answer4') || 'Free plan includes ChatGPT-3.5-turbo. Premium and Enterprise plans include access to advanced models like ChatGPT-4o, ChatGPT-4.1, and Mistral-large.'}</p>
+            <p class="text-gray-700 leading-relaxed">{t('seachat.pricing.faq.answer4') || 'Free plan includes ChatGPT-4o mini. Premium and Enterprise plans include access to advanced models like ChatGPT-4o, ChatGPT-4.1, and Mistral-large.'}</p>
           </div>
           
           <div class="bg-gray-50 rounded-xl p-8">

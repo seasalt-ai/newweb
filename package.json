@@ -6,7 +6,9 @@
   "homepage": "https://seasalt.ai",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && npm run build:sitemap",
+    "build:sitemap": "node scripts/generate-sitemap.js",
+    "build:full": "npm run build && npm run build:sitemap",
     "preview": "astro preview",
     "astro": "astro"
   },

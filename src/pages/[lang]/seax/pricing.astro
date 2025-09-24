@@ -53,21 +53,35 @@ export async function getStaticPaths() {
 
 <SeaxLayout 
   {seoData} 
-  productKey="seax" 
+
   breadcrumbs={breadcrumbs} 
   faqs={faqs} 
   lang={lang}
   headerVersion="seax"
   footerVersion="seax"
-  type="product"
-  product={{
-    name: "SeaX",
-    brand: "Seasalt.ai", 
-    category: "Omnichannel Communication Platform",
-    description: "Professional omnichannel communication platform for WhatsApp, SMS, and voice calls",
-    price: "19.99",
-    currency: "USD",
-    availability: "InStock"
+  productKey={null}
+  type="service"
+  service={{
+    "offers": [
+      {
+        "name": t('seax.pricing.plans.whatsapp.name'),
+        "price": t('seax.pricing.plans.whatsapp.price.monthly'),
+        "priceCurrency": "USD",
+        "description": t('seax.pricing.plans.whatsapp.description')
+      },
+      {
+        "name": t('seax.pricing.plans.omnichannel.name'),
+        "price": t('seax.pricing.plans.omnichannel.price.monthly'),
+        "priceCurrency": "USD",
+        "description": t('seax.pricing.plans.omnichannel.description')
+      },
+      {
+        "name": t('seax.pricing.plans.custom.name'),
+        "price": "Contact for pricing",
+        "priceCurrency": "USD",
+        "description": t('seax.pricing.plans.custom.description')
+      }
+    ]
   }}
 >
   <!-- Hero Section -->
