@@ -1,10 +1,10 @@
 ---
-import { getTranslationHelpers, getLocalizedPath } from '../../../i18n/helpers';
+import { getTranslationHelpers, getLocalizedPath, type SupportedLanguage } from '../../../i18n/helpers';
 import type { VersionConfig } from '../config';
 
 export interface Props {
   currentPath?: string;
-  lang?: string;
+  lang?: SupportedLanguage;
   versionConfig?: VersionConfig;
 }
 
@@ -55,15 +55,50 @@ const industryLinks = [
 
 // Company links configuration using correct translation keys
 const companyLinks = [
-  { name: t('footer.links.company.features') || 'Features', path: '/features' },
-  { name: t('header.pricing') || 'Pricing', path: '/pricing' },
-  { name: t('footer.links.company.productWiki') || 'Product Wiki', href: getWikiUrl(), external: true },
-  { name: t('footer.links.company.apiReferences') || 'API References', href: 'https://api.seasalt.ai', external: true },
-  { name: t('header.blog') || 'Blog', href: getLocalizedPath('/blog', lang) },
-  { name: t('header.compareUs') || 'Compare Us', href: getLocalizedPath('/compare-us-overview', lang) },
-  { name: t('footer.company.about') || 'About', href: getLocalizedPath('/company', lang) },
-  { name: t('footer.links.company.careers') || 'Careers', href: getLocalizedPath('/careers', lang) }
+  { 
+    name: t('footer.links.company.features') || 'Features', 
+    path: '/features',
+    icon: '⚙️' 
+  },
+  { 
+    name: t('header.pricing') || 'Pricing', 
+    path: '/pricing',
+    icon: '💲' 
+  },
+  { 
+    name: t('footer.links.company.productWiki') || 'Product Wiki', 
+    href: getWikiUrl(), 
+    external: true, 
+    icon: '📚' 
+  },
+  { 
+    name: t('footer.links.company.apiReferences') || 'API References', 
+    href: 'https://api.seasalt.ai', 
+    external: true, 
+    icon: '🔌' 
+  },
+  { 
+    name: t('header.blog') || 'Blog', 
+    href: getLocalizedPath('/blog', lang), 
+    icon: '📰' 
+  },
+  { 
+    name: t('header.compareUs') || 'Compare Us', 
+    href: getLocalizedPath('/compare-us-overview', lang), 
+    icon: '📊' 
+  },
+  { 
+    name: t('footer.company.about') || 'About', 
+    href: getLocalizedPath('/company', lang), 
+    icon: '🏢' 
+  },
+  { 
+    name: t('footer.links.company.careers') || 'Careers', 
+    href: getLocalizedPath('/careers', lang), 
+    icon: '💼' 
+  }
 ];
+
 ---
 
 <footer class="bg-gray-900 text-white">
@@ -121,8 +156,8 @@ const companyLinks = [
       <div>
         <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.section.channels') || 'Channels'}</h3>
         <ul class="space-y-2 sm:space-y-3">
-          {channelLinks.map((link, index) => (
-            <li key={index}>
+          {channelLinks.map((link) => (
+            <li>
               <a 
                 href={getSeaXPath(link.path)}
                 class={`text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center ${
@@ -157,8 +192,8 @@ const companyLinks = [
       <div>
         <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.section.solutions') || 'Solutions'}</h3>
         <ul class="space-y-2 sm:space-y-3">
-          {solutionLinks.map((link, index) => (
-            <li key={index}>
+          {solutionLinks.map((link) => (
+            <li>
               <a 
                 href={getSeaXPath(link.path)}
                 class="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
@@ -189,8 +224,8 @@ const companyLinks = [
       <div>
         <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.section.industries') || 'Industries'}</h3>
         <ul class="space-y-2 sm:space-y-3">
-          {industryLinks.map((link, index) => (
-            <li key={index}>
+          {industryLinks.map((link) => (
+            <li>
               <a 
                 href={getSeaXPath(link.path)}
                 class="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
@@ -221,58 +256,28 @@ const companyLinks = [
       <div>
         <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.company.title') || 'Company'}</h3>
         <ul class="space-y-2 sm:space-y-3">
-          {companyLinks.map((link, index) => (
-            <li key={index}>
-              {link.external ? (
-                <a 
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+          {companyLinks.map((link) => {
+            const href = link.path ? getSeaXPath(link.path) : link.href;
+            return (
+              <li>
+                <a
+                  href={href}
+                  {...(link.external && { target: "_blank", rel: "noopener noreferrer" })}
                   class="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
                 >
-                  {(link.name === 'Product Wiki' || link.href?.includes('wiki')) && (
-                    <span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle text-blue-400" aria-hidden="true">📚</span>
-                  )}
-                  {(link.name === 'API References' || link.href?.includes('api')) && (
-                    <span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle text-blue-400" aria-hidden="true">🔌</span>
+                  {link.icon && (
+                    <span
+                      class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle text-blue-400"
+                      aria-hidden="true"
+                    >
+                      {link.icon}
+                    </span>
                   )}
                   {link.name}
                 </a>
-              ) : link.path ? (
-                <a 
-                  href={getSeaXPath(link.path)}
-                  class="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
-                >
-                  {link.path === '/features' && (
-                    <span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle text-blue-400" aria-hidden="true">⚙️</span>
-                  )}
-                  {link.path === '/pricing' && (
-                    <span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle text-blue-400" aria-hidden="true">💲</span>
-                  )}
-                  {link.name}
-                </a>
-              ) : (
-                <a 
-                  href={link.href}
-                  class="text-gray-300 hover:text-white transition-colors duration-200 text-sm flex items-center"
-                >
-                  {(link.name === 'Blog' || link.href?.includes('blog')) && (
-                    <span class="h-3 w-3 mr-2 text-blue-400" aria-hidden="true">📰</span>
-                  )}
-                  {(link.name === 'Compare Us' || link.href?.includes('compare')) && (
-                    <span class="h-3 w-3 mr-2 text-blue-400" aria-hidden="true">📊</span>
-                  )}
-                  {(link.name === 'About' || link.href?.includes('company')) && (
-                    <span class="h-3 w-3 mr-2 text-blue-400" aria-hidden="true">🏢</span>
-                  )}
-                  {(link.name === 'Careers' || link.href?.includes('careers')) && (
-                    <span class="h-3 w-3 mr-2 text-blue-400" aria-hidden="true">💼</span>
-                  )}
-                  {link.name}
-                </a>
-              )}
-            </li>
-          ))}
+              </li>
+            );
+          })}
         </ul>
       </div>
     </div>
