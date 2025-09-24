@@ -16,6 +16,7 @@ export const languages = {
   'ms': { name: 'Bahasa Melayu', englishName: 'Malay', shortCode: 'MY' },
   'pl': { name: 'Polski', englishName: 'Polish', shortCode: 'PL' },
   'pt': { name: 'Português', englishName: 'Portuguese', shortCode: 'PT' },
+  'ro': { name: 'Română', englishName: 'Romanian', shortCode: 'RO' },
   'ru': { name: 'Русский', englishName: 'Russian', shortCode: 'RU' },
   'ta': { name: 'தமிழ்', englishName: 'Tamil', shortCode: 'IN' },
   'th': { name: 'ไทย', englishName: 'Thai', shortCode: 'TH' },

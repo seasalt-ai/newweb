@@ -29,6 +29,7 @@
           "ta",
           "th",
           "vi",
+          "ro",
         ];
 
         function normalizePath(p) {
@@ -60,32 +61,92 @@
             console.warn("[redirect] read localStorage failed:", e);
           }
 
-          // 2) Browser languages
+          // 2) Browser languages with comprehensive mapping
           try {
             var langs = navigator.languages || [
               navigator.language || navigator.userLanguage || "",
             ];
+            
+            // Language mapping table
+            var languageMap = {
+              'zh-Hans': 'zh-CN',
+              'zh-Hant': 'zh-TW',
+              'zh-HK': 'zh-TW',
+              'zh-MO': 'zh-TW',
+              'zh-SG': 'zh-CN',
+              'zh': 'zh-TW',
+              'fil-PH': 'fil',
+              'tl': 'fil',
+              'fa-IR': 'fa',
+              'ms-MY': 'ms',
+              'ta-IN': 'ta',
+              'hi-IN': 'hi',
+              'id-ID': 'id',
+              'th-TH': 'th',
+              'vi-VN': 'vi'
+            };
+            
             for (var i = 0; i < langs.length; i++) {
               var lang = String(langs[i] || "").trim();
               var lower = lang.toLowerCase();
+              
+              // Direct match
               if (supported.indexOf(lower) !== -1) return lower;
-              if (lower.startsWith("zh")) {
-                if (
-                  lower.includes("cn") ||
-                  lower.includes("hans") ||
-                  lower.includes("sg")
-                )
-                  return "zh-CN";
-                return "zh-TW";
+              
+              // Language mapping
+              if (languageMap[lang] && supported.indexOf(languageMap[lang]) !== -1) {
+                return languageMap[lang];
               }
+              
+              // Prefix matching
               var prefix = lower.split("-")[0];
               if (supported.indexOf(prefix) !== -1) return prefix;
+              
+              // Special Chinese handling
+              if (prefix === "zh") {
+                if (lower.includes("cn") || lower.includes("hans") || lower.includes("sg")) {
+                  return "zh-CN";
+                }
+                return "zh-TW";
+              }
             }
           } catch (e) {
             console.warn("[redirect] detect from navigator failed:", e);
           }
 
-          // 3) Fallback
+          // 3) Timezone fallback
+          try {
+            var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            var timezoneMap = {
+              'Asia/Tokyo': 'ja',
+              'Asia/Seoul': 'ko',
+              'Asia/Shanghai': 'zh-CN',
+              'Asia/Hong_Kong': 'zh-TW',
+              'Asia/Taipei': 'zh-TW',
+              'Asia/Singapore': 'zh-CN',
+              'Asia/Bangkok': 'th',
+              'Asia/Ho_Chi_Minh': 'vi',
+              'Asia/Jakarta': 'id',
+              'Asia/Kuala_Lumpur': 'ms',
+              'Asia/Manila': 'fil',
+              'Asia/Kolkata': 'hi',
+              'Asia/Tehran': 'fa',
+              'Asia/Dubai': 'ar',
+              'Europe/Berlin': 'de',
+              'Europe/Paris': 'fr',
+              'Europe/Madrid': 'es',
+              'Europe/Warsaw': 'pl',
+              'Europe/Moscow': 'ru',
+              'America/Mexico_City': 'es',
+              'America/Sao_Paulo': 'pt'
+            };
+            var tzLang = timezoneMap[tz];
+            if (tzLang && supported.indexOf(tzLang) !== -1) return tzLang;
+          } catch (e) {
+            console.warn("[redirect] timezone detection failed:", e);
+          }
+
+          // 4) Fallback
           return "en";
         }
 

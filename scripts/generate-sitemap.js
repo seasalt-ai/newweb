@@ -6,10 +6,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SITE_URL = 'https://seasalt.ai';
-// Output to dist folder after build, fallback to public during development
-const OUTPUT_DIR = fs.existsSync(path.join(__dirname, '../dist')) 
-  ? path.join(__dirname, '../dist') 
-  : path.join(__dirname, '../public');
+// Output to dist folder after build, and also to public for development
+const OUTPUT_DIR = path.join(__dirname, '../dist');
+const PUBLIC_DIR = path.join(__dirname, '../public');
+
+// For development, also copy to public directory
+const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV === 'development';
+const DEV_OUTPUT = isDevelopment ? PUBLIC_DIR : null;
 
 // Supported languages from astro.config.mjs
 export const SUPPORTED_LANGUAGES = [
@@ -51,9 +54,27 @@ const EXTERNAL_URLS = [
   }
 ];
 
-// Ensure output directory exists
+// Ensure output directories exist
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+}
+if (DEV_OUTPUT && !fs.existsSync(DEV_OUTPUT)) {
+  fs.mkdirSync(DEV_OUTPUT, { recursive: true });
+}
+
+/**
+ * Write file to both production and development locations
+ */
+function writeToAllLocations(filename, content) {
+  const prodPath = path.join(OUTPUT_DIR, filename);
+  fs.writeFileSync(prodPath, content);
+  
+  if (DEV_OUTPUT) {
+    const devPath = path.join(DEV_OUTPUT, filename);
+    fs.writeFileSync(devPath, content);
+  }
+  
+  return prodPath;
 }
 
 /**
@@ -259,8 +280,7 @@ function generateMainSitemap() {
 
   xml += `</urlset>`;
 
-  const outputPath = path.join(OUTPUT_DIR, 'sitemap.xml');
-  fs.writeFileSync(outputPath, xml);
+  const outputPath = writeToAllLocations('sitemap.xml', xml);
   
   const stats = fs.statSync(outputPath);
   const fileSizeInKB = stats.size / 1024;
@@ -361,8 +381,7 @@ function generateHreflangSitemap() {
   
   xml += `</urlset>`;
   
-  const outputPath = path.join(OUTPUT_DIR, 'sitemap-hreflang.xml');
-  fs.writeFileSync(outputPath, xml);
+  const outputPath = writeToAllLocations('sitemap-hreflang.xml', xml);
   
   const stats = fs.statSync(outputPath);
   const fileSizeInKB = stats.size / 1024;
@@ -401,10 +420,12 @@ function generateSitemapIndex() {
   
   xml += `</sitemapindex>`;
   
-  const outputPath = path.join(OUTPUT_DIR, 'sitemap-index.xml');
-  fs.writeFileSync(outputPath, xml);
+  const outputPath = writeToAllLocations('sitemap-index.xml', xml);
   
-  console.log(`✅ Sitemap index generated at ${outputPath}`);
+  console.log(`\u2705 Sitemap index generated at ${outputPath}`);
+  if (DEV_OUTPUT) {
+    console.log(`\u2705 Also copied to ${path.join(DEV_OUTPUT, 'sitemap-index.xml')} for development`);  
+  }
 }
 
 /**

@@ -17,7 +17,7 @@ export default defineConfig({
     defaultLocale: 'en',
     locales: [
       'en', 'es', 'zh-TW', 'zh-CN', 'ja', 'ko', 'fr', 'de', 'ar', 'fa', 
-      'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi'
+      'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi', 'ro'
     ],
     routing: {
       prefixDefaultLocale: true

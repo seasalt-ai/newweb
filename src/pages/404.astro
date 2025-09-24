@@ -1,9 +1,13 @@
+---
+// Astro 404 page that handles language redirection in development mode
+---
+
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
     <title>Redirecting...</title>
-    <script>
+    <script is:inline>
       (function () {
         try {
           // Store full path (pathname + search + hash)
