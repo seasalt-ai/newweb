@@ -1,1720 +1,1716 @@
 {
   "header": {
-    "products": "[FA]Products",
-    "solutions": "[FA]Solutions",
-    "industries": "[FA]Industries",
-    "channels": "[FA]Channels",
-    "pricing": "[FA]Pricing",
-    "compareUs": "[FA]Compare Us",
-    "blog": "[FA]Blog",
-    "login": "[FA]Login",
-    "startForFree": "[FA]Sign Up",
-    "backToChannels": "[FA]Back to Channels",
-    "allChannelsOverview": "[FA]All Channels Overview",
+    "products": "محصولات",
+    "solutions": "راهکارها",
+    "industries": "صنایع",
+    "channels": "کانال‌ها",
+    "pricing": "قیمت‌گذاری",
+    "compareUs": "ما را مقایسه کنید",
+    "blog": "وبلاگ",
+    "login": "ورود",
+    "startForFree": "ثبت نام",
+    "backToChannels": "بازگشت به کانال‌ها",
+    "allChannelsOverview": "بررسی اجمالی همه کانال‌ها",
     "solutionsDropdown": {
-      "seahealth": "[FA]SeaHealth - Optimized Healthcare",
-      "useCases": "[FA]Use Cases"
+      "seahealth": "SeaHealth - Optimized Healthcare",
+      "useCases": "موارد استفاده"
     },
     "useCasesDropdown": {
-      "salesMarketing": "[FA]For Sales & Marketing",
-      "customerSupport": "[FA]For Customer Support",
-      "aiAutomation": "[FA]AI & Automation",
-      "smeOwners": "[FA]For SME Owners"
+      "salesMarketing": "برای فروش و بازاریابی",
+      "customerSupport": "برای پشتیبانی مشتریان",
+      "aiAutomation": "هوش مصنوعی و اتوماسیون",
+      "smeOwners": "برای صاحبان کسب و کارهای کوچک و متوسط"
     },
     "channelsDropdown": {
-      "whatsapp": "[FA]WhatsApp",
-      "phoneCalls": "[FA]Phone Calls",
-      "sms": "[FA]SMS",
-      "websiteChat": "[FA]Website Chat",
-      "instagram": "[FA]Instagram",
-      "facebookMessenger": "[FA]Facebook Messenger",
-      "contactForms": "[FA]Contact Forms",
-      "line": "[FA]Line",
-      "websiteWidget": "[FA]Website Widget"
+      "whatsapp": "WhatsApp",
+      "phoneCalls": "تماس‌های تلفنی",
+      "sms": "SMS",
+      "websiteChat": "چت وب‌سایت",
+      "instagram": "Instagram",
+      "facebookMessenger": "Facebook Messenger",
+      "contactForms": "فرم‌های تماس",
+      "line": "Line",
+      "websiteWidget": "ویجت وب‌سایت"
     },
     "comparisonsDropdown": {
-      "title": "[FA]Comparisons",
-      "allComparisonsOverview": "[FA]All Comparisons Overview"
+      "title": "مقایسه‌ها",
+      "allComparisonsOverview": "بررسی اجمالی همه مقایسه‌ها"
     },
     "compareDropdown": {
-      "allComparisonsOverview": "[FA]All Comparisons Overview"
+      "allComparisonsOverview": "بررسی اجمالی همه مقایسه‌ها"
     },
-    "signIn": "[FA]Sign In"
+    "signIn": "ورود"
   },
   "footer": {
     "company": {
-      "title": "[FA]Company",
-      "contact": "[FA]Contact Us",
-      "about": "[FA]About Us",
-      "careers": "[FA]Careers"
+      "title": "شرکت",
+      "contact": "تماس با ما",
+      "about": "درباره ما",
+      "careers": "فرصت‌های شغلی"
     },
-    "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
-    "privacyPolicy": "[FA]Privacy Policy",
-    "termsOfService": "[FA]Terms of Service",
-    "security": "[FA]Security",
+    "copyright": "© 2020 - {{year}} Seasalt.ai. کلیه حقوق محفوظ است.",
+    "privacyPolicy": "سیاست حفظ حریم خصوصی",
+    "termsOfService": "شرایط خدمات",
+    "security": "امنیت",
     "compliance": {
-      "soc2": "[FA]SOC 2 Compliant",
-      "hipaa": "[FA]HIPAA Available",
-      "uptime": "[FA]99.9% Uptime"
+      "soc2": "SOC 2 Compliant",
+      "hipaa": "HIPAA Available",
+      "uptime": "99.9% Uptime"
     },
     "cta": {
-      "title": "[FA]Ready to Scale Your Outreach to Millions?",
-      "startFreeTrial": "[FA]Sign Up for Free",
-      "scheduleDemo": "[FA]Schedule Demo",
-      "subtitle": "Join thousands of companies using SeaX to reach more customers, generate more leads, and grow faster.",
-      "signUpNow": "[FA]Sign Up Now"
+      "title": "آماده‌اید تا ارتباطات خود را به میلیون‌ها نفر گسترش دهید؟",
+      "startFreeTrial": "ثبت نام رایگان",
+      "scheduleDemo": "زمان‌بندی دمو",
+      "subtitle": "به هزاران شرکتی بپیوندید که از SeaX برای دستیابی به مشتریان بیشتر، تولید سرنخ‌های بیشتر و رشد سریع‌تر استفاده می‌کنند.",
+      "signUpNow": "اکنون ثبت نام کنید"
     },
-    "tagline": "[FA]An all-in-one contact center built for small businesses. Automate support, capture every lead, and unify all your customer conversations.",
-    "seahealth": "[FA]SeaHealth - Optimized Healthcare",
-    "productWiki": "[FA]Product Wiki",
-    "apiReferences": "[FA]API References",
+    "tagline": "یک مرکز تماس همه‌کاره که برای کسب‌وکارهای کوچک ساخته شده است. پشتیبانی را خودکار کنید، هر سرنخ را جذب کنید و تمام مکالمات مشتریان خود را یکپارچه کنید.",
+    "seahealth": "SeaHealth - Optimized Healthcare",
+    "productWiki": "ویکی محصول",
+    "apiReferences": "مرجع API",
     "madeWith": {
-      "text": "[FA]Made with",
-      "inCityOf": "[FA]in the city of"
+      "text": "ساخته شده با",
+      "inCityOf": "در شهر"
     },
-    "inCityOf": "[FA]in",
+    "inCityOf": "در",
     "description": {
-      "company": "[FA]Reach millions instantly. The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business."
+      "company": "به میلیون‌ها نفر فوراً دسترسی پیدا کنید. پلتفرم نهایی برای ارسال میلیون‌ها پیامک، پیام واتس‌اپ و تماس‌های تلفنی خودکار. قیف فروش خود را پر کنید، درآمد کسب کنید و کسب‌وکار خود را مقیاس‌پذیر کنید."
     },
     "section": {
-      "channels": "[FA]Channels",
-      "solutions": "[FA]Solutions",
-      "industries": "[FA]Industries"
+      "channels": "کانال‌ها",
+      "solutions": "راهکارها",
+      "industries": "صنایع"
     },
     "links": {
       "channels": {
-        "smsOverview": "[FA]SMS Overview",
-        "smsLocal": "[FA]Local Number (10DLC)",
-        "smsTollFree": "[FA]Toll-Free Number",
-        "smsShortCode": "[FA]Short Code",
-        "whatsapp": "[FA]WhatsApp Business Platform",
-        "voice": "[FA]Phone Call Voice"
+        "smsOverview": "بررسی اجمالی پیامک",
+        "smsLocal": "شماره محلی (10DLC)",
+        "smsTollFree": "شماره تلفن رایگان",
+        "smsShortCode": "کد کوتاه",
+        "whatsapp": "پلتفرم کسب‌وکار واتس‌اپ",
+        "voice": "صدای تماس تلفنی"
       },
       "solutions": {
-        "leadGeneration": "[FA]Lead Generation",
-        "marketingAutomation": "[FA]Marketing Automation",
-        "customerEngagement": "[FA]Customer Engagement",
-        "appointmentReminders": "[FA]Appointment Reminders",
-        "emergencyAlerts": "[FA]Emergency Alerts"
+        "leadGeneration": "تولید سرنخ",
+        "marketingAutomation": "اتوماسیون بازاریابی",
+        "customerEngagement": "تعامل با مشتری",
+        "appointmentReminders": "یادآوری قرار ملاقات",
+        "emergencyAlerts": "هشدارهای اضطراری"
       },
       "industries": {
-        "ecommerceRetail": "[FA]E-commerce & Retail",
-        "realEstate": "[FA]Real Estate",
-        "politicalCampaigns": "[FA]Political Campaigns",
-        "healthcare": "[FA]Healthcare",
-        "financialServices": "[FA]Financial Services"
+        "ecommerceRetail": "تجارت الکترونیک و خرده‌فروشی",
+        "realEstate": "مشاور املاک",
+        "politicalCampaigns": "کمپین‌های سیاسی",
+        "healthcare": "مراقبت‌های بهداشتی",
+        "financialServices": "خدمات مالی"
       },
       "company": {
-        "features": "[FA]Features",
-        "pricing": "[FA]Pricing",
-        "productWiki": "[FA]Product Wiki",
-        "apiReferences": "[FA]API References",
-        "careers": "[FA]Careers"
+        "features": "ویژگی‌ها",
+        "pricing": "قیمت‌گذاری",
+        "productWiki": "ویکی محصول",
+        "apiReferences": "مرجع API",
+        "careers": "فرصت‌های شغلی"
       }
     },
     "stats": {
-      "messagesDaily": "[FA]10M+ Messages Daily",
-      "activeUsers": "[FA]500K+ Active Users",
-      "uptime": "[FA]99.9% Uptime"
+      "messagesDaily": "بیش از ۱۰ میلیون پیام روزانه",
+      "activeUsers": "بیش از ۵۰۰ هزار کاربر فعال",
+      "uptime": "99.9% Uptime"
     },
     "legal": {
-      "privacyPolicy": "[FA]Privacy Policy",
-      "termsOfService": "[FA]Terms of Service"
+      "privacyPolicy": "سیاست حفظ حریم خصوصی",
+      "termsOfService": "شرایط خدمات"
     },
     "contact": {
-      "phone": "[FA]+1 (SMB)-AI-AGENT",
-      "email": "[FA]info@seasalt.ai",
-      "location": "[FA]Seattle, WA"
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "سیاتل، واشنگتن"
     },
     "logo": {
       "alt": "SeaX"
     },
     "technical": {
-      "tenDlc": "[FA]10DLC",
-      "tollFree": "[FA]8XX",
-      "sms": "[FA]SMS",
-      "shortCode": "[FA]xxxxx"
+      "tenDlc": "10DLC",
+      "tollFree": "8XX",
+      "sms": "SMS",
+      "shortCode": "xxxxx"
     }
   },
   "hero": {
     "title": {
-      "line1": "[FA]Stop Juggling Apps",
-      "line2": "[FA]Unify Every Customer",
-      "line3": "[FA]Call, WhatsApp, and Chat",
-      "line4": "[FA]in One Simple Inbox."
+      "line1": "دست از سر و کله زدن با اپلیکیشن‌های مختلف بردارید",
+      "line2": "همه مشتریان را یکپارچه کنید",
+      "line3": "تماس، واتس‌اپ و چت",
+      "line4": "در یک صندوق ورودی ساده"
     },
-    "titleWithGradient": "Stop Juggling Apps. <1>Unify Every Customer</1> Call, Text, WhatsApp, and Chat in One Simple Inbox.",
-    "description": "Seasalt.ai is the all-in-one contact center built for small businesses. Automate support, capture every lead, and manage all your conversations from a single screen.",
-    "signUp": "[FA]Sign Up",
-    "seeDemo": "[FA]Book A Demo",
-    "trustedBy": "[FA]Trusted by growing businesses worldwide",
-    "developerMessage": "Seasalt.ai brings developers an agentic communication tool for the following <1>tool use</1>:",
+    "titleWithGradient": "دست از سر و کله زدن با اپلیکیشن‌های مختلف بردارید. <1>همه مشتریان را یکپارچه کنید</1> تماس، پیامک، واتس‌اپ و چت در یک صندوق ورودی ساده.",
+    "description": "Seasalt.ai مرکز تماس همه‌کاره‌ای است که برای کسب‌وکارهای کوچک ساخته شده است. پشتیبانی را خودکار کنید، هر سرنخ را به دست آورید و تمام مکالمات خود را از یک صفحه مدیریت کنید.",
+    "signUp": "ثبت نام",
+    "seeDemo": "رزرو دمو",
+    "trustedBy": "مورد اعتماد کسب‌وکارهای در حال رشد در سراسر جهان",
+    "developerMessage": "Seasalt.ai یک ابزار ارتباطی مبتنی بر ایجنت برای توسعه‌دهندگان برای موارد زیر ارائه می‌دهد <1>tool use</1>:",
     "developerTools": {
-      "phoneUse": "[FA]phone use",
-      "messageUse": "[FA]message use",
-      "emailUse": "[FA]email use",
-      "meetingUse": "[FA]meeting use"
+      "phoneUse": "استفاده از تلفن",
+      "messageUse": "استفاده از پیام",
+      "emailUse": "استفاده از ایمیل",
+      "meetingUse": "استفاده از جلسه"
     },
-    "unifiedInbox": "[FA]Unified Inbox",
+    "unifiedInbox": "صندوق ورودی یکپارچه",
     "appNames": {
-      "whatsapp": "[FA]WhatsApp",
-      "sms": "[FA]SMS",
-      "phone": "[FA]Phone",
-      "chat": "[FA]Chat"
+      "whatsapp": "WhatsApp",
+      "sms": "SMS",
+      "phone": "تلفن",
+      "chat": "چت"
     }
   },
   "features": {
-    "mainTitle": "[FA]The Omni-Channel Copiloted Contact Center for SMEs",
-    "mainDescription": "[FA]Seamlessly blend AI automation with human expertise across all channels. Empower your team to deliver exceptional service and drive growth.",
+    "mainTitle": "مرکز تماس چندکاناله با کمک هوش مصنوعی برای کسب‌وکارهای کوچک و متوسط",
+    "mainDescription": "اتوماسیون هوش مصنوعی را با تخصص انسانی در تمام کانال‌ها یکپارچه کنید. تیم خود را برای ارائه خدمات استثنایی و پیشبرد رشد توانمند سازید.",
     "omniChannel": {
-      "title": "[FA]Unified Omni-Channel Inbox",
-      "description": "[FA]Never miss a lead. See every customer interaction from every channel in one unified view, enabling seamless human-AI collaboration and saving your team 5+ hours per week."
+      "title": "صندوق ورودی یکپارچه چندکاناله",
+      "description": "هیچ فرصتی را از دست ندهید. تمام تعاملات مشتری از هر کانال را در یک نمای یکپارچه مشاهده کنید، که امکان همکاری بی‌نقص انسان و هوش مصنوعی را فراهم کرده و بیش از ۵ ساعت در هفته برای تیم شما صرفه‌جویی می‌کند."
     },
     "aiVoicebot": {
-      "title": "[FA]AI Voicebot & Chatbot",
-      "description": "[FA]Your first digital employee works 24/7. Automate up to 80% of routine queries, book 5+ appointments daily, and seamlessly handoff to human agents when needed."
+      "title": "ربات صوتی و ربات گفتگوی هوش مصنوعی",
+      "description": "اولین کارمند دیجیتال شما ۲۴/۷ کار می‌کند. تا ۸۰٪ از سوالات متداول را خودکار کنید، روزانه بیش از ۵ قرار ملاقات رزرو کنید و در صورت نیاز به صورت یکپارچه به کارشناسان انسانی منتقل کنید."
     },
     "voiceWhatsapp": {
-      "title": "[FA]Native Voice & WhatsApp Integration",
-      "description": "[FA]Serve every customer on their preferred channel, seamlessly. Instantly see WhatsApp chat history when they call."
+      "title": "ادغام بومی صدا و واتس‌اپ",
+      "description": "به هر مشتری در کانال مورد نظرشان به صورت یکپارچه خدمت‌رسانی کنید. هنگام تماس، تاریخچه گفتگوی واتس‌اپ آنها را فوراً مشاهده کنید."
     },
     "outboundMarketing": {
-      "title": "[FA]Outbound Marketing Campaigns",
-      "description": "[FA]Create seamless, closed-loop customer journeys. Launch targeted campaigns and manage all replies on the same platform."
+      "title": "کمپین‌های بازاریابی خروجی",
+      "description": "سفرهای مشتری یکپارچه و با چرخه بسته ایجاد کنید. کمپین‌های هدفمند راه‌اندازی کرده و تمام پاسخ‌ها را در همان پلتفرم مدیریت کنید."
     },
     "enterpriseSecurity": {
-      "title": "[FA]Enterprise-Grade Security",
-      "description": "[FA]HIPAA-compliant solution with bank-level encryption. Trust your customer data is always protected."
+      "title": "امنیت در سطح سازمانی",
+      "description": "راه‌حل سازگار با HIPAA با رمزگذاری در سطح بانکی. اطمینان داشته باشید که داده‌های مشتریان شما همیشه محافظت می‌شود."
     },
     "predictablePricing": {
-      "title": "[FA]Simple, Predictable Pricing",
-      "description": "[FA]Budget with confidence. Transparent pricing means you know exactly what you'll pay each month."
+      "title": "قیمت‌گذاری ساده و قابل پیش‌بینی",
+      "description": "با اطمینان بودجه‌بندی کنید. قیمت‌گذاری شفاف به این معنی است که شما دقیقاً می‌دانید هر ماه چقدر پرداخت خواهید کرد."
     },
     "testimonial": {
-      "quote": "I recommend Seasalt.ai for its powerful knowledge base system and omni-channel support!",
+      "quote": "من Seasalt.ai را به دلیل سیستم پایگاه دانش قدرتمند و پشتیبانی چندکاناله‌اش توصیه می‌کنم!",
       "author": "— Solution Architect Review"
     },
     "knowledgeBase": {
-      "title": "[FA]Knowledge Base"
+      "title": "پایگاه دانش"
     }
   },
   "howItWorks": {
-    "title": "[FA]Get Started in 3 Simple Steps",
-    "description1": "[FA]Transform your customer communications in minutes, not months.",
-    "description2": "[FA]No complex setup or technical knowledge required.",
+    "title": "شروع کار در ۳ مرحله ساده",
+    "description1": "ارتباطات با مشتریان خود را در چند دقیقه متحول کنید، نه در چند ماه.",
+    "description2": "بدون نیاز به راه اندازی پیچیده یا دانش فنی.",
     "connectYourChannels": {
-      "title": "[FA]Connect Your Channels",
-      "description": "[FA]Link your phone, WhatsApp, SMS, website chat, and social media in minutes. No technical expertise required."
+      "title": "کانال های خود را متصل کنید",
+      "description": "تلفن، واتس‌اپ، پیامک، چت وب‌سایت و رسانه‌های اجتماعی خود را در چند دقیقه پیوند دهید. بدون نیاز به تخصص فنی."
     },
     "automateRoutineWork": {
-      "title": "[FA]Automate Routine Work",
-      "description": "[FA]Set up AI to handle common questions like \"Where's my order?\" and book appointments automatically."
+      "title": "کارهای روزمره را خودکار کنید",
+      "description": "هوش مصنوعی را برای رسیدگی به سؤالات متداول مانند \"سفارش من کجاست؟\" و رزرو خودکار قرار ملاقات‌ها تنظیم کنید."
     },
     "unifyYourTeam": {
-      "title": "[FA]Unify Your Team",
-      "description": "[FA]Your team sees the complete conversation history when customers switch from chat to phone calls."
+      "title": "تیم خود را یکپارچه کنید",
+      "description": "تیم شما تاریخچه کامل مکالمه را هنگامی که مشتریان از چت به تماس تلفنی روی می‌آورند، می‌بیند."
     },
-    "signUpNow": "[FA]Sign Up Now",
-    "setupTime": "[FA]Setup in under 5 minutes"
+    "signUpNow": "اکنون ثبت نام کنید",
+    "setupTime": "راه اندازی در کمتر از ۵ دقیقه"
   },
   "useCases": {
-    "title": "[FA]Powerful Use Cases for Every Business Need",
-    "description": "From contact centers to marketing campaigns, see how Seasalt.ai adapts to your specific business requirements with enterprise-grade features in a simple, unified platform.",
-    "keyFeatures": "[FA]Key Features",
+    "title": "موارد استفاده قدرتمند برای هر نیاز تجاری",
+    "description": "از مراکز تماس گرفته تا کمپین‌های بازاریابی، ببینید چگونه Seasalt.ai با ویژگی‌های درجه یک سازمانی در یک پلتفرم ساده و یکپارچه، با نیازهای تجاری خاص شما سازگار می‌شود.",
+    "keyFeatures": "ویژگی‌های کلیدی",
     "contactCenter": {
-      "title": "[FA]Contact Center Operations",
-      "headline": "[FA]Professional Contact Center with Full Call Management",
-      "description": "[FA]Transform your business into a professional contact center with enterprise-grade features.",
+      "title": "عملیات مرکز تماس",
+      "headline": "مرکز تماس حرفه‌ای با مدیریت کامل تماس",
+      "description": "کسب و کار خود را به یک مرکز تماس حرفه‌ای با ویژگی‌های درجه یک سازمانی تبدیل کنید.",
       "features": {
-        "ivr": "[FA]Advanced IVR system for call routing",
-        "recording": "[FA]Automatic call recording & transcription",
-        "voicemail": "[FA]Intelligent voicemail with notifications",
-        "analytics": "[FA]Real-time call analytics & reporting",
-        "dashboards": "[FA]Agent performance dashboards",
-        "queueManagement": "[FA]Call queue management"
+        "ivr": "سیستم IVR پیشرفته برای مسیریابی تماس",
+        "recording": "ضبط و رونویسی خودکار تماس",
+        "voicemail": "پست صوتی هوشمند با اعلان‌ها",
+        "analytics": "تجزیه و تحلیل و گزارش تماس بی‌درنگ",
+        "dashboards": "داشبورد عملکرد نمایندگان",
+        "queueManagement": "مدیریت صف تماس"
       }
     },
     "virtualReceptionist": {
-      "title": "[FA]24/7 Virtual Receptionist",
-      "headline": "[FA]Never Miss a Call Again with AI-Powered Reception",
-      "description": "[FA]Deploy an intelligent voicebot that works around the clock to capture inbound calls and qualify leads.",
+      "title": "منشی مجازی ۲۴/۷",
+      "headline": "با پذیرش مبتنی بر هوش مصنوعی، دیگر هیچ تماسی را از دست ندهید",
+      "description": "یک ربات صوتی هوشمند را مستقر کنید که به صورت شبانه‌روزی برای دریافت تماس‌های ورودی و ارزیابی مشتریان بالقوه کار می‌کند.",
       "features": {
-        "aiVoicebot": "[FA]AI voicebot answers calls 24/7",
-        "appointments": "[FA]Appointment booking & scheduling",
-        "leadQualification": "[FA]Lead qualification & routing",
-        "customGreeting": "[FA]Custom greeting & responses",
-        "handoff": "[FA]Seamless handoff to human agents",
-        "multiLanguage": "[FA]Multi-language support"
+        "aiVoicebot": "ربات صوتی هوش مصنوعی به صورت ۲۴/۷ به تماس‌ها پاسخ می‌دهد",
+        "appointments": "رزرو و زمان‌بندی قرار ملاقات",
+        "leadQualification": "ارزیابی و هدایت مشتریان بالقوه",
+        "customGreeting": "پیام خوشامدگویی و پاسخ‌های سفارشی",
+        "handoff": "انتقال یکپارچه به اپراتورهای انسانی",
+        "multiLanguage": "پشتیبانی از چند زبان"
       }
     },
     "smsManagement": {
-      "title": "[FA]Unified SMS Management",
-      "headline": "[FA]Manage Multiple Phone Lines & Two-Way SMS in One Platform",
-      "description": "[FA]Consolidate all your business phone lines and SMS communications into a single, powerful platform.",
+      "title": "مدیریت یکپارچه پیامک",
+      "headline": "مدیریت چندین خط تلفن و پیامک دو طرفه در یک پلتفرم",
+      "description": "تمام خطوط تلفن تجاری و ارتباطات پیامکی خود را در یک پلتفرم قدرتمند و واحد ادغام کنید.",
       "features": {
-        "multipleLines": "[FA]Multiple phone lines in one dashboard",
-        "twoWaySms": "[FA]Two-way SMS conversations",
-        "unifiedHistory": "[FA]SMS & call history unified",
-        "teamCollaboration": "[FA]Team collaboration on messages",
-        "automatedResponses": "[FA]Automated SMS responses",
-        "numberSupport": "[FA]Local & toll-free number support"
+        "multipleLines": "چندین خط تلفن در یک داشبورد",
+        "twoWaySms": "مکالمات پیامکی دو طرفه",
+        "unifiedHistory": "تاریخچه یکپارچه پیامک و تماس",
+        "teamCollaboration": "همکاری تیمی بر روی پیام‌ها",
+        "automatedResponses": "پاسخگویی خودکار پیامک",
+        "numberSupport": "پشتیبانی از شماره‌های محلی و رایگان"
       }
     },
     "smsMarketing": {
-      "title": "[FA]SMS Marketing Campaigns",
-      "headline": "[FA]Launch Powerful A2P SMS Campaigns with 10DLC & Toll-Free",
-      "description": "[FA]Execute professional SMS marketing campaigns with high deliverability and compliance.",
+      "title": "کمپین‌های بازاریابی پیامکی",
+      "headline": "کمپین‌های قدرتمند پیامکی A2P را با 10DLC و شماره‌های رایگان (Toll-Free) راه‌اندازی کنید",
+      "description": "کمپین‌های بازاریابی پیامکی حرفه‌ای را با قابلیت تحویل بالا و رعایت قوانین اجرا کنید.",
       "features": {
-        "tenDlc": "[FA]10DLC registered campaigns",
-        "tollFree": "[FA]Toll-free & short code support",
-        "highVolume": "[FA]High-volume message delivery",
-        "analytics": "[FA]Campaign performance analytics",
-        "compliance": "[FA]Compliance & opt-out management",
-        "dripCampaigns": "[FA]Automated drip campaigns"
+        "tenDlc": "کمپین‌های ثبت‌شده 10DLC",
+        "tollFree": "پشتیبانی از شماره‌های رایگان و کد کوتاه",
+        "highVolume": "ارسال پیام با حجم بالا",
+        "analytics": "تجزیه و تحلیل عملکرد کمپین",
+        "compliance": "مدیریت رعایت قوانین و لغو اشتراک",
+        "dripCampaigns": "کمپین‌های قطره‌ای خودکار"
       }
     },
     "whatsappBusiness": {
-      "title": "[FA]WhatsApp Business Campaigns",
-      "headline": "[FA]Reach Global Customers with WhatsApp Business Platform",
-      "description": "[FA]Launch targeted WhatsApp campaigns using the official WhatsApp Business Platform.",
+      "title": "کمپین‌های واتساپ تجاری",
+      "headline": "با پلتفرم واتساپ تجاری به مشتریان جهانی دسترسی پیدا کنید",
+      "description": "کمپین‌های هدفمند واتساپ را با استفاده از پلتفرم رسمی واتساپ تجاری راه‌اندازی کنید.",
       "features": {
-        "apiIntegration": "[FA]WhatsApp Business API integration",
-        "templateMessages": "[FA]Template message campaigns",
-        "automatedChatbot": "[FA]Automated chatbot responses",
-        "richMedia": "[FA]Rich media message support",
-        "globalReach": "[FA]Global customer reach",
-        "analytics": "[FA]Conversation analytics"
+        "apiIntegration": "یکپارچه‌سازی API واتس‌اپ بیزینس",
+        "templateMessages": "کمپین‌های پیام الگو",
+        "automatedChatbot": "پاسخ‌های خودکار چت‌بات",
+        "richMedia": "پشتیبانی از پیام‌های چندرسانه‌ای",
+        "globalReach": "دسترسی جهانی به مشتریان",
+        "analytics": "تجزیه و تحلیل مکالمات"
       }
     },
     "aiSupport": {
-      "title": "[FA]Intelligent Chatbot and Voicebot AI Support",
-      "headline": "[FA]AI-Powered Customer Support That Never Sleeps",
-      "description": "[FA]Deploy intelligent chatbots across all your communication channels to handle customer inquiries 24/7.",
+      "title": "پشتیبانی هوشمند با چت‌بات و ویس‌بات مبتنی بر هوش مصنوعی",
+      "headline": "پشتیبانی مشتری مبتنی بر هوش مصنوعی که هرگز نمی‌خوابد",
+      "description": "چت‌بات‌های هوشمند را در تمام کانال‌های ارتباطی خود مستقر کنید تا به صورت ۲۴ ساعته و ۷ روز هفته به پرسش‌های مشتریان رسیدگی کنند.",
       "features": {
-        "automated24x7": "[FA]24/7 automated customer support",
-        "multiChannel": "[FA]Multi-channel chatbot deployment",
-        "instantResponse": "[FA]Instant response to common queries",
-        "humanHandoff": "[FA]Seamless human agent handoff",
-        "continuousLearning": "[FA]Continuous learning & improvement",
-        "knowledgeBase": "[FA]Custom knowledge base integration"
+        "automated24x7": "پشتیبانی مشتری خودکار ۲۴/۷",
+        "multiChannel": "استقرار چت‌بات چندکاناله",
+        "instantResponse": "پاسخ فوری به پرسش‌های متداول",
+        "humanHandoff": "انتقال یکپارچه به اپراتور انسانی",
+        "continuousLearning": "یادگیری و بهبود مستمر",
+        "knowledgeBase": "یکپارچه‌سازی با پایگاه دانش سفارشی"
       }
     },
     "cta": {
-      "title": "[FA]Ready to Transform Your Business Communications?",
-      "description": "[FA]Choose the use cases that fit your business needs. Start with our free plan and scale as you grow.",
-      "signUp": "[FA]Sign Up",
-      "bookDemo": "[FA]Book A Demo"
+      "title": "آماده تحول در ارتباطات کسب و کار خود هستید؟",
+      "description": "موارد استفاده متناسب با نیازهای کسب و کار خود را انتخاب کنید. با طرح رایگان ما شروع کنید و همگام با رشد خود، آن را ارتقا دهید.",
+      "signUp": "ثبت نام",
+      "bookDemo": "رزرو دمو"
     }
   },
   "phoneBanner": {
-    "callText": "[FA]Call",
-    "phoneNumber": "[FA]+1 (SMB)-AI-AGENT",
-    "bookingText": "to book a meeting with the SeaVoice AI agent.",
-    "availability": "[FA]Available 24/7"
+    "callText": "تماس",
+    "phoneNumber": "+1 (SMB)-AI-AGENT",
+    "bookingText": "برای رزرو جلسه با نماینده هوش مصنوعی SeaVoice.",
+    "availability": "۲۴ ساعته در ۷ روز هفته"
   },
   "problemSolution": {
-    "title": "[FA]Losing Leads in a Maze of Apps and Inboxes?",
-    "description": "Your customers are trying to reach you everywhere. A missed message is a missed sale. Seasalt.ai brings all your communications into one place, so you never miss an opportunity.",
+    "title": "سرنخ‌ها را در هزارتوی اپلیکیشن‌ها و صندوق‌های ورودی از دست می‌دهید؟",
+    "description": "مشتریان شما در تلاشند تا از همه جا با شما ارتباط برقرار کنند. یک پیام از دست رفته، یک فروش از دست رفته است. Seasalt.ai تمام ارتباطات شما را در یک مکان جمع می‌کند تا هرگز فرصتی را از دست ندهید.",
     "problems": {
       "fragmented": {
-        "title": "[FA]Fragmented Conversations",
-        "description": "[FA]Jumping between WhatsApp, phone logs, and web chat creates chaos and wastes time."
+        "title": "گفتگوهای پراکنده",
+        "description": "جابجایی بین واتس‌اپ، گزارش تماس‌ها و چت وب، باعث ایجاد هرج و مرج و اتلاف وقت می‌شود."
       },
       "lostRevenue": {
-        "title": "[FA]Lost Revenue",
-        "description": "[FA]Missed messages after-hours and slow responses mean lost leads and frustrated customers."
+        "title": "درآمد از دست رفته",
+        "description": "پیام‌های از دست رفته در ساعات غیرکاری و پاسخ‌های دیرهنگام به معنای از دست دادن سرنخ‌ها و مشتریان ناراضی است."
       },
       "operational": {
-        "title": "[FA]Operational Overload",
-        "description": "[FA]Your team is stretched thin managing too many tools instead of focusing on customers."
+        "title": "بار عملیاتی بیش از حد",
+        "description": "تیم شما به جای تمرکز بر مشتریان، درگیر مدیریت ابزارهای بسیار زیادی است."
       }
     },
     "solution": {
-      "title": "Seasalt.ai: Your Omni-Channel Copiloted Solution",
-      "hubTitle": "[FA]Unified Omni-Channel Hub",
-      "subtitle": "[FA]AI & Human Agents, 24/7",
+      "title": "Seasalt.ai: راه حل چندکاناله با کمک هوش مصنوعی شما",
+      "hubTitle": "مرکز چندکاناله یکپارچه",
+      "subtitle": "عوامل هوش مصنوعی و انسانی، ۲۴/۷",
       "tabs": {
-        "support": "[FA]Support",
-        "marketing": "[FA]Marketing"
+        "support": "پشتیبانی",
+        "marketing": "بازاریابی"
       },
       "features": {
         "marketing": {
-          "title": "[FA]Copilot Your Marketing Campaigns",
-          "description": "[FA]Acquire more customers with AI-driven outbound campaigns and smart lead nurturing."
+          "title": "کمپین‌های بازاریابی خود را با کمک هوش مصنوعی مدیریت کنید",
+          "description": "با کمپین‌های خروجی مبتنی بر هوش مصنوعی و پرورش هوشمند سرنخ، مشتریان بیشتری جذب کنید."
         },
         "support": {
-          "title": "[FA]Autopilot Your Customer Support",
-          "description": "[FA]Reduce support costs with 24/7 AI agents handling routine queries and seamless human handoff."
+          "title": "پشتیبانی مشتری خود را خودکار کنید",
+          "description": "با عوامل هوش مصنوعی ۲۴/۷ که به درخواست‌های معمول رسیدگی می‌کنند و انتقال یکپارچه به عامل انسانی را فراهم می‌کنند، هزینه‌های پشتیبانی را کاهش دهید."
         },
         "human": {
-          "title": "[FA]Never Lose the Human Touch",
-          "description": "[FA]Choose your automation level: Human-only, AI Copilot, or Full Autopilot based on your needs."
+          "title": "هرگز ارتباط انسانی را از دست ندهید",
+          "description": "سطح اتوماسیون خود را انتخاب کنید: فقط انسانی، کمک خلبان هوش مصنوعی یا خلبان خودکار کامل بر اساس نیازهای شما."
         }
       },
-      "cta": "Use Seasalt.ai to Solve This"
+      "cta": "از Seasalt.ai برای حل این مشکل استفاده کنید"
     },
     "mockData": {
       "supportTickets": {
         "sarah": {
           "name": "Sarah Johnson",
-          "description": "[FA]Phone call about order status",
-          "timeAgo": "[FA]2m ago"
+          "description": "Phone call about order status",
+          "timeAgo": "2m ago"
         },
         "mike": {
           "name": "Mike Chen",
-          "description": "[FA]WhatsApp: Shipping question",
-          "timeAgo": "[FA]5m ago"
+          "description": "WhatsApp: Shipping question",
+          "timeAgo": "5m ago"
         },
         "lisa": {
           "name": "Lisa Park",
-          "description": "[FA]Website chat: Product inquiry",
-          "timeAgo": "[FA]8m ago"
+          "description": "Website chat: Product inquiry",
+          "timeAgo": "8m ago"
         },
         "david": {
           "name": "David Kim",
-          "description": "[FA]Support call: Technical issue",
-          "timeAgo": "[FA]12m ago"
+          "description": "Support call: Technical issue",
+          "timeAgo": "12m ago"
         }
       },
       "campaigns": {
         "blackFriday": {
-          "name": "[FA]Black Friday Campaign",
-          "description": "[FA]SMS: 2,847 sent • 312 replies",
-          "result": "[FA]+47 leads"
+          "name": "Black Friday Campaign",
+          "description": "SMS: 2,847 sent • 312 replies",
+          "result": "+47 leads"
         },
         "whatsappLaunch": {
-          "name": "[FA]WhatsApp Product Launch",
-          "description": "[FA]1,523 messages • 89 conversations",
-          "result": "[FA]+23 sales"
+          "name": "WhatsApp Product Launch",
+          "description": "1,523 messages • 89 conversations",
+          "result": "+23 sales"
         },
         "cartRecovery": {
-          "name": "[FA]Abandoned Cart Recovery",
-          "description": "[FA]Email + SMS: 156 recovered",
-          "result": "[FA]+2k"
+          "name": "Abandoned Cart Recovery",
+          "description": "Email + SMS: 156 recovered",
+          "result": "+2k"
         },
         "followUp": {
-          "name": "[FA]Follow-up Call Campaign",
-          "description": "[FA]AI Voicebot: 89 calls • 34 appts",
-          "result": "[FA]+34 appts"
+          "name": "Follow-up Call Campaign",
+          "description": "AI Voicebot: 89 calls • 34 appts",
+          "result": "+34 appts"
         }
       }
     }
   },
   "supportPlan": {
-    "title": "[FA]Support Plan",
-    "priceNote": "[FA]*All prices are in US dollars",
+    "title": "پلن پشتیبانی",
+    "priceNote": "*تمامی قیمت‌ها به دلار آمریکا است*",
     "trial": {
-      "title": "[FA]Trial",
-      "price": "[FA]$0",
+      "title": "آزمایشی",
+      "price": "۰ دلار",
       "features": {
-        "diy": "[FA]DIY with product wiki",
-        "email": "[FA]Email (info@seasalt.ai)",
-        "chat": "[FA]or chat with customer support (on this page)"
+        "diy": "استفاده شخصی با ویکی محصول",
+        "email": "ایمیل (info@seasalt.ai)",
+        "chat": "یا چت با پشتیبانی مشتری (در همین صفحه)"
       }
     },
     "launch": {
-      "title": "[FA]Launch",
-      "startsAt": "[FA]Starts at",
-      "minPrice": "[FA]$500",
-      "upTo": "[FA]up to",
-      "maxPrice": "[FA]$10,000",
-      "duration": "[FA]per month for 3 months",
-      "description": "[FA]With the Launch Support Plan, our team is committed to providing professional guidance in the following areas:",
+      "title": "راه‌اندازی",
+      "startsAt": "شروع از",
+      "minPrice": "۵۰۰ دلار",
+      "upTo": "تا",
+      "maxPrice": "۱۰,۰۰۰ دلار",
+      "duration": "ماهانه به مدت ۳ ماه",
+      "description": "با پلن پشتیبانی راه‌اندازی، تیم ما متعهد به ارائه راهنمایی حرفه‌ای در زمینه‌های زیر است:",
       "features": {
         "meetings": {
-          "title": "[FA]Unlimited 1-on-1 Meetings:",
-          "description": "Personalized sessions with the SeaChat team."
+          "title": "جلسات نامحدود ۱-به-۱:",
+          "description": "جلسات شخصی‌سازی شده با تیم SeaChat."
         },
         "promptTuning": {
-          "title": "[FA]Prompt Tuning:",
-          "description": "[FA]Customization for both chat and voice applications."
+          "title": "تنظیم پرامپت:",
+          "description": "سفارشی‌سازی برای برنامه‌های چت و صوتی."
         },
         "guidance": {
-          "title": "[FA]Design and Technical Guidance:",
-          "description": "[FA]Expert advice on design and technical aspects."
+          "title": "راهنمایی طراحی و فنی:",
+          "description": "مشاوره تخصصی در مورد جنبه‌های طراحی و فنی."
         },
         "launchSupport": {
-          "title": "[FA]AI Agent Launch Support:",
-          "description": "[FA]Comprehensive assistance throughout the launch process."
+          "title": "پشتیبانی راه‌اندازی عامل هوش مصنوعی:",
+          "description": "کمک جامع در طول فرآیند راه‌اندازی."
         },
         "marketStrategy": {
-          "title": "[FA]Go-to-Market Strategy:",
-          "description": "[FA]Strategic planning for market entry."
+          "title": "استراتژی ورود به بازار:",
+          "description": "برنامه‌ریزی استراتژیک برای ورود به بازار."
         },
         "successfulLaunch": {
-          "title": "[FA]Successful AI Agent Launch:",
-          "description": "[FA]Achieve a successful launch within 4-6 weeks."
+          "title": "راه‌اندازی موفق عامل هوش مصنوعی:",
+          "description": "دستیابی به یک راه‌اندازی موفق در عرض ۴-۶ هفته."
         },
         "postLaunch": {
-          "title": "[FA]Post-Launch Iteration and Improvement:",
-          "description": "[FA]Continuous enhancement based on usage and feedback."
+          "title": "تکرار و بهبود پس از راه‌اندازی:",
+          "description": "بهبود مستمر بر اساس استفاده و بازخورد."
         },
         "operational": {
-          "title": "[FA]Operational Stability:",
-          "description": "[FA]Establish standard operating procedures for the long-term operation of AI agents."
+          "title": "پایداری عملیاتی:",
+          "description": "ایجاد رویه‌های عملیاتی استاندارد برای عملکرد بلندمدت عاملان هوش مصنوعی."
         }
       }
     }
   },
   "productDropdown": {
     "mainSite": {
-      "title": "Seasalt.ai Main Site",
-      "description": "[FA]All products and solutions"
+      "title": "سایت اصلی Seasalt.ai",
+      "description": "همه محصولات و راه حل ها"
     },
-    "productsLabel": "[FA]Products"
+    "productsLabel": "محصولات"
   },
   "industries": {
-    "title": "[FA]Serve Every Industry with Confidence",
-    "description": "[FA]From healthcare to fintech, our platform adapts to your industry's unique requirements with specialized features and compliance standards.",
+    "title": "با اطمینان به هر صنعتی خدمت کنید",
+    "description": "از مراقبت های بهداشتی گرفته تا فین تک، پلت فرم ما با ویژگی های تخصصی و استانداردهای انطباقی با نیازهای منحصر به فرد صنعت شما سازگار می شود.",
     "cta": {
-      "title": "[FA]Ready to Revolutionize Your Industry?",
-      "description": "Join industry leaders who trust Seasalt.ai to deliver exceptional customer experiences while meeting specific regulatory and operational requirements.",
-      "signUp": "[FA]Sign Up",
-      "bookDemo": "[FA]Book A Demo"
+      "title": "برای ایجاد انقلاب در صنعت خود آماده اید؟",
+      "description": "به رهبران صنعتی بپیوندید که به Seasalt.ai برای ارائه تجربیات استثنایی مشتری و در عین حال برآورده ساختن الزامات نظارتی و عملیاتی خاص اعتماد دارند.",
+      "signUp": "ثبت نام",
+      "bookDemo": "رزرو دمو"
     },
     "template": {
       "nav": {
-        "backToHome": "[FA]← Back to Home"
+        "backToHome": "→ بازگشت به صفحه اصلی"
       },
       "hero": {
-        "title": "[FA]AI Solutions for",
-        "signUp": "[FA]Get Started Free",
-        "seeDemo": "[FA]See Demo",
-        "hipaaOffering": "[FA]Also available: HIPAA-compliant"
+        "title": "راه حل های هوش مصنوعی برای",
+        "signUp": "رایگان شروع کنید",
+        "seeDemo": "مشاهده نسخه ی نمایشی",
+        "hipaaOffering": "همچنین موجود است: سازگار با HIPAA"
       },
       "seo": {
-        "titleSuffix": "Solutions - Seasalt.ai",
-        "descriptionPrefix": "See how Seasalt.ai helps",
-        "descriptionSuffix": "[FA]businesses improve customer communications and drive growth."
+        "titleSuffix": "راه حل ها - Seasalt.ai",
+        "descriptionPrefix": "ببینید Seasalt.ai چگونه کمک می کند",
+        "descriptionSuffix": "کسب و کارها ارتباطات با مشتری را بهبود می بخشند و باعث رشد می شوند."
       },
       "ui": {
-        "seahealthAlt": "[FA]SeaHealth",
-        "testimonialsPrefix": "[FA]What"
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "چه"
       },
       "benefits": {
-        "title": "Why Choose Seasalt.ai for",
-        "description": "[FA]Our AI-powered platform streamlines communications and automates workflows for"
+        "title": "چرا Seasalt.ai را برای موارد زیر انتخاب کنید",
+        "description": "پلت فرم مجهز به هوش مصنوعی ما ارتباطات را ساده کرده و گردش کار را خودکار می کند"
       },
       "useCases": {
-        "title": "[FA]Common Use Cases",
+        "title": "موارد استفاده متداول",
         "description": {
-          "start": "[FA]Discover how our platform transforms",
-          "end": "[FA]operations with intelligent automation"
+          "start": "کشف کنید که چگونه پلت فرم ما تغییر می کند",
+          "end": "عملیات با اتوماسیون هوشمند"
         },
         "customerSupport": {
-          "title": "[FA]24/7 Customer Support",
-          "description": "[FA]Provide instant responses to customer inquiries across all channels"
+          "title": "پشتیبانی ۲۴/۷ مشتری",
+          "description": "ارائه پاسخ های فوری به سوالات مشتری در تمام کانال ها"
         },
         "leadGeneration": {
-          "title": "[FA]Lead Generation",
-          "description": "[FA]Capture and qualify leads automatically with AI-powered conversations"
+          "title": "تولید سرنخ",
+          "description": "جذب و واجد شرایط کردن سرنخ ها به طور خودکار با مکالمات مجهز به هوش مصنوعی"
         },
         "analytics": {
-          "title": "[FA]Analytics & Insights",
-          "description": "[FA]Track performance and gain insights into customer interactions"
+          "title": "تجزیه و تحلیل و بینش",
+          "description": "پیگیری عملکرد و به دست آوردن بینش در مورد تعاملات مشتری"
         },
-        "subtitle": "[FA]Discover how our platform supports every aspect of educational management",
+        "subtitle": "کشف کنید که چگونه پلت فرم ما از هر جنبه ای از مدیریت آموزشی پشتیبانی می کند",
         "case1": {
-          "title": "[FA]Student Information Systems",
-          "description": "[FA]Centralize student records, grades, and academic progress tracking"
+          "title": "سیستم های اطلاعات دانش آموزی",
+          "description": "متمرکز کردن سوابق دانش آموزان، نمرات و پیگیری پیشرفت تحصیلی"
         },
         "case2": {
-          "title": "[FA]Learning Management",
-          "description": "[FA]Deliver courses, track progress, and manage educational content"
+          "title": "مدیریت یادگیری",
+          "description": "ارائه دوره ها، پیگیری پیشرفت و مدیریت محتوای آموزشی"
         },
         "case3": {
-          "title": "[FA]Administrative Tools",
-          "description": "[FA]Streamline enrollment, scheduling, and institutional operations"
+          "title": "ابزارهای اداری",
+          "description": "ساده سازی ثبت نام، برنامه ریزی و عملیات سازمانی"
         }
       },
       "testimonials": {
-        "title": "[FA]Companies Are Saying",
-        "quote1": "Seasalt.ai has transformed our customer service operations. Response times are down 80% and satisfaction is at an all-time high.",
-        "author1": "[FA]Sarah Chen",
-        "company1": "[FA]Customer Success Manager",
-        "quote2": "[FA]The AI automation has saved us countless hours. We can focus on growing our business instead of managing repetitive tasks.",
+        "title": "شرکت ها می گویند",
+        "quote1": "Seasalt.ai عملیات خدمات مشتریان ما را متحول کرده است. زمان پاسخگویی ۸۰ درصد کاهش یافته و رضایت در بالاترین حد خود قرار دارد.",
+        "author1": "Sarah Chen",
+        "company1": "مدیر موفقیت مشتری",
+        "quote2": "اتوماسیون هوش مصنوعی ساعت های بی شماری را برای ما صرفه جویی کرده است. ما می توانیم به جای مدیریت کارهای تکراری، بر رشد کسب و کار خود تمرکز کنیم.",
         "author2": "Michael Rodriguez",
-        "company2": "[FA]Operations Director",
-        "subtitle": "[FA]See how institutions are transforming their operations",
+        "company2": "مدیر عملیات",
+        "subtitle": "ببینید که چگونه موسسات در حال تغییر عملیات خود هستند",
         "testimonial1": {
-          "quote": "[FA]This platform has revolutionized how we manage our school operations. Student data is now centralized and accessible.",
+          "quote": "این پلت فرم نحوه مدیریت عملیات مدرسه ما را متحول کرده است. داده های دانش آموزان اکنون متمرکز و در دسترس است.",
           "author": "Dr. Sarah Johnson",
-          "position": "[FA]Principal, Lincoln Elementary School"
+          "position": "مدیر، دبستان لینکلن"
         },
         "testimonial2": {
-          "quote": "[FA]The learning management features have made remote and hybrid learning seamless for our students and faculty.",
+          "quote": "ویژگی های مدیریت یادگیری، یادگیری از راه دور و ترکیبی را برای دانش آموزان و اساتید ما یکپارچه کرده است.",
           "author": "Prof. Michael Chen",
-          "position": "[FA]Dean of Technology, State University"
+          "position": "رئیس فناوری، دانشگاه ایالتی"
         },
         "testimonial3": {
-          "quote": "[FA]Our administrative efficiency has improved dramatically. Everything from enrollment to reporting is now streamlined.",
+          "quote": "بهره وری اداری ما به طور چشمگیری بهبود یافته است. همه چیز از ثبت نام گرفته تا گزارش دهی اکنون ساده شده است.",
           "author": "Maria Rodriguez",
-          "position": "[FA]Administrator, Community College District"
+          "position": "مدیر، منطقه کالج محلی"
         }
       },
       "cta": {
-        "title": "[FA]Ready to Transform Your Business?",
-        "description": "Join thousands of companies that trust Seasalt.ai to manage their customer communications efficiently and securely.",
-        "signUp": "[FA]Start Free Trial",
-        "scheduleDemo": "[FA]Schedule Demo",
-        "seahealthLink": "[FA]Explore HIPAA-Compliant Healthcare Solutions",
+        "title": "برای تحول کسب و کار خود آماده اید؟",
+        "description": "به هزاران شرکتی بپیوندید که به Seasalt.ai برای مدیریت کارآمد و ایمن ارتباطات مشتریان خود اعتماد دارند.",
+        "signUp": "شروع دوره آزمایشی رایگان",
+        "scheduleDemo": "برنامه ریزی نسخه ی نمایشی",
+        "seahealthLink": "راه حل های مراقبت های بهداشتی سازگار با HIPAA را کاوش کنید",
         "buttons": {
-          "primary": "[FA]Start Free Trial",
-          "secondary": "[FA]Schedule Demo",
-          "contact": "[FA]Contact Sales"
+          "primary": "شروع دوره آزمایشی رایگان",
+          "secondary": "برنامه ریزی نسخه ی نمایشی",
+          "contact": "تماس با واحد فروش"
         }
       },
       "solutions": {
-        "title": "[FA]Solutions"
+        "title": "راه حل ها"
       }
     }
   },
   "channels": {
-    "title": "[FA]Connect Every Customer Channel",
-    "description": "[FA]Unify all your customer communications in one platform. From WhatsApp to phone calls, SMS to social media - manage every conversation from a single dashboard.",
+    "title": "هر کانال ارتباط با مشتری را متصل کنید",
+    "description": "تمام ارتباطات با مشتریان خود را در یک پلتفرم یکپارچه کنید. از واتس‌اپ تا تماس‌های تلفنی، پیامک تا رسانه‌های اجتماعی - هر مکالمه‌ای را از یک داشبورد واحد مدیریت کنید.",
     "whatsapp": {
-      "title": "[FA]WhatsApp Business",
-      "description": "[FA]Connect with customers on the world's most popular messaging platform",
+      "title": "واتس‌اپ بیزینس",
+      "description": "با مشتریان در محبوب‌ترین پلتفرم پیام‌رسان جهان ارتباط برقرار کنید",
       "seo": {
-        "title": "WhatsApp Business Integration - Seasalt.ai",
-        "description": "Connect your WhatsApp Business account to Seasalt.ai for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide."
+        "title": "یکپارچه‌سازی واتس‌اپ بیزینس - Seasalt.ai",
+        "description": "حساب کاربری واتس‌اپ بیزینس خود را به Seasalt.ai متصل کنید تا از مکالمات مبتنی بر هوش مصنوعی، کمپین‌های انبوه و پشتیبانی یکپارچه توسط عامل انسانی بهره‌مند شوید. به بیش از ۲ میلیارد کاربر در سراسر جهان دسترسی پیدا کنید."
       },
       "nav": {
-        "backToChannels": "[FA]Back to Channels"
+        "backToChannels": "بازگشت به کانال‌ها"
       },
       "hero": {
         "title": {
-          "prefix": "[FA]Transform WhatsApp into Your",
-          "highlight": "[FA]Business Command Center"
+          "prefix": "واتس‌اپ را به ",
+          "highlight": "مرکز فرماندهی کسب‌وکار خود تبدیل کنید"
         },
-        "description": "Connect your WhatsApp Business account to Seasalt.ai for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide.",
-        "primaryCta": "[FA]Connect WhatsApp in 10 Minutes",
-        "secondaryCta": "[FA]See Demo",
-        "demoTitle": "[FA]WhatsApp Business",
+        "description": "حساب کاربری واتس‌اپ بیزینس خود را به Seasalt.ai متصل کنید تا از مکالمات مبتنی بر هوش مصنوعی، کمپین‌های انبوه و پشتیبانی یکپارچه توسط عامل انسانی بهره‌مند شوید. به بیش از ۲ میلیارد کاربر در سراسر جهان دسترسی پیدا کنید.",
+        "primaryCta": "واتس‌اپ را در ۱۰ دقیقه متصل کنید",
+        "secondaryCta": "مشاهده دمو",
+        "demoTitle": "واتس‌اپ بیزینس",
         "demoMessages": {
-          "customer1": "[FA]Customer: \"Where's my order #12345?",
-          "bot1": "AI Bot: \"Your order is out for delivery and will arrive today by 6 PM. Track it here: [link]",
-          "customer2": "[FA]Customer: \"Can I change the delivery address?",
-          "bot2": "[FA]AI Bot: \"Let me connect you with a human agent for address changes..."
+          "customer1": "مشتری: \"سفارش من به شماره ۱۲۳۴۵ کجاست؟\"",
+          "bot1": "ربات هوش مصنوعی: \"سفارش شما برای تحویل ارسال شده و امروز تا ساعت ۶ عصر به دستتان می‌رسد. آن را از اینجا پیگیری کنید: [لینک]\"",
+          "customer2": "مشتری: \"آیا می‌توانم آدرس تحویل را تغییر دهم؟\"",
+          "bot2": "ربات هوش مصنوعی: \"اجازه دهید برای تغییر آدرس، شما را به یک عامل انسانی متصل کنم...\""
         }
       },
       "features": {
-        "title": "[FA]Key Features",
-        "description": "[FA]Everything you need to turn WhatsApp into a powerful business communication platform",
+        "title": "ویژگی‌های کلیدی",
+        "description": "هر آنچه برای تبدیل واتس‌اپ به یک پلتفرم ارتباطی قدرتمند برای کسب‌وکار نیاز دارید",
         "aiResponses": {
-          "title": "[FA]AI-Powered Responses",
-          "description": "[FA]Automated customer service with natural language processing that understands context and intent"
+          "title": "پاسخ‌های مبتنی بر هوش مصنوعی",
+          "description": "خدمات مشتری خودکار با پردازش زبان طبیعی که زمینه و هدف را درک می‌کند"
         },
         "bulkCampaigns": {
-          "title": "[FA]Bulk Campaign Management",
-          "description": "[FA]Send template messages to thousands of contacts with advanced targeting and scheduling"
+          "title": "مدیریت کمپین‌های انبوه",
+          "description": "ارسال پیام‌های الگو به هزاران مخاطب با هدف‌گیری و زمان‌بندی پیشرفته"
         },
         "humanHandoff": {
-          "title": "[FA]Human Agent Handoff",
-          "description": "[FA]Seamless transition from bot to live agent with /live_agent command and full conversation history"
+          "title": "انتقال به عامل انسانی",
+          "description": "انتقال یکپارچه از ربات به عامل زنده با دستور /live_agent و تاریخچه کامل مکالمه"
         },
         "metaIntegration": {
-          "title": "[FA]Meta Business Integration",
-          "description": "[FA]Full access to WhatsApp Business Platform features with enterprise-grade security"
+          "title": "یکپارچه‌سازی با متا بیزینس",
+          "description": "دسترسی کامل به ویژگی‌های پلتفرم واتس‌اپ بیزینس با امنیت در سطح سازمانی"
         }
       },
       "setup": {
-        "title": "[FA]Setup Process Visualization",
-        "description": "[FA]Step-by-step guide to connect your WhatsApp Business account with enterprise-grade security",
+        "title": "نمایش تصویری فرآیند راه‌اندازی",
+        "description": "راهنمای گام به گام برای اتصال حساب واتس‌اپ بیزینس شما با امنیت در سطح سازمانی",
         "steps": {
-          "0": "[FA]Create Meta Developer Account",
-          "1": "[FA]Configure WhatsApp Business API",
-          "2": "[FA]Set up webhook endpoints",
-          "3": "[FA]Generate access tokens",
-          "4": "[FA]Test message delivery",
-          "5": "[FA]Launch your first campaign"
+          "0": "ایجاد حساب توسعه‌دهنده متا",
+          "1": "پیکربندی API واتس‌اپ بیزینس",
+          "2": "راه‌اندازی نقاط پایانی وب‌هوک (Webhook)",
+          "3": "ایجاد توکن‌های دسترسی",
+          "4": "آزمایش تحویل پیام",
+          "5": "راه‌اندازی اولین کمپین شما"
         },
         "security": {
-          "title": "[FA]Enterprise-Grade Security",
-          "description": "[FA]Your WhatsApp integration includes end-to-end encryption, secure token management, and compliance with Meta's business policies. All data is protected with bank-level security."
+          "title": "امنیت در سطح سازمانی",
+          "description": "یکپارچه‌سازی واتس‌اپ شما شامل رمزگذاری سرتاسری، مدیریت امن توکن و انطباق با سیاست‌های تجاری متا است. تمام داده‌ها با امنیت در سطح بانکی محافظت می‌شوند."
         }
       },
       "cta": {
-        "title": "[FA]Ready to Connect WhatsApp?",
-        "description": "[FA]Join thousands of businesses using WhatsApp to provide better customer service and drive more sales.",
-        "button": "[FA]Start Integration"
+        "title": "برای اتصال واتس‌اپ آماده‌اید؟",
+        "description": "به هزاران کسب‌وکاری بپیوندید که از واتس‌اپ برای ارائه خدمات بهتر به مشتریان و افزایش فروش خود استفاده می‌کنند.",
+        "button": "شروع یکپارچه‌سازی"
       }
     },
     "voice": {
-      "title": "[FA]Voice & Phone Calls",
-      "description": "[FA]Professional phone system with AI voicebot and human agent support"
+      "title": "تماس‌های صوتی و تلفنی",
+      "description": "سیستم تلفن حرفه‌ای با ربات صوتی هوش مصنوعی و پشتیبانی عامل انسانی"
     },
     "sms": {
-      "title": "[FA]SMS Messaging",
-      "description": "[FA]Reach customers instantly with personalized SMS campaigns",
+      "title": "پیام‌رسانی پیامکی",
+      "description": "با کمپین‌های پیامکی شخصی‌سازی شده فوراً به مشتریان دسترسی پیدا کنید",
       "seo": {
-        "title": "SMS Marketing Platform - Seasalt.ai",
-        "description": "[FA]Reach customers instantly with personalized SMS campaigns and automated responses. 98% open rates and global delivery to 200+ countries. Start your SMS marketing today."
+        "title": "پلتفرم بازاریابی پیامکی - Seasalt.ai",
+        "description": "با کمپین‌های پیامکی شخصی‌سازی شده و پاسخ‌های خودکار فوراً به مشتریان دسترسی پیدا کنید. نرخ باز شدن ۹۸٪ و تحویل جهانی به بیش از ۲۰۰ کشور. بازاریابی پیامکی خود را همین امروز شروع کنید."
       },
       "nav": {
-        "backToChannels": "[FA]Back to Channels"
+        "backToChannels": "بازگشت به کانال‌ها"
       },
       "hero": {
-        "title": "[FA]SMS Marketing That",
-        "description": "[FA]Reach customers instantly with personalized SMS campaigns and automated responses. 98% open rates and global delivery to 200+ countries.",
-        "primaryCta": "[FA]Start SMS Campaigns",
-        "secondaryCta": "[FA]See Demo",
+        "title": "بازاریابی پیامکی که",
+        "description": "با کمپین‌های پیامکی شخصی‌سازی شده و پاسخ‌های خودکار فوراً به مشتریان دسترسی پیدا کنید. نرخ باز شدن ۹۸٪ و تحویل جهانی به بیش از ۲۰۰ کشور.",
+        "primaryCta": "شروع کمپین‌های پیامکی",
+        "secondaryCta": "مشاهده دمو",
         "campaign": {
-          "title": "[FA]SMS Campaign",
+          "title": "کمپین پیامکی",
           "flashSale": {
-            "title": "[FA]📱 Campaign: Flash Sale",
-            "sent": "[FA]2,847 messages sent"
+            "title": "📱 کمپین: فروش فوق‌العاده",
+            "sent": "۲,۸۴۷ پیام ارسال شد"
           },
           "delivered": {
-            "title": "[FA]✅ Delivered: 2,834",
-            "rate": "[FA]99.5% delivery rate"
+            "title": "✅ تحویل داده شد: ۲,۸۳۴",
+            "rate": "نرخ تحویل ۹۹.۵٪"
           },
           "replies": {
-            "title": "[FA]💬 Replies: 312",
-            "rate": "[FA]11% response rate"
+            "title": "💬 پاسخ‌ها: ۳۱۲",
+            "rate": "نرخ پاسخ ۱۱٪"
           },
           "conversions": {
-            "title": "[FA]🛒 Conversions: 47",
-            "revenue": "[FA]$12,400 revenue"
+            "title": "🛒 تبدیل‌ها: ۴۷",
+            "revenue": "درآمد ۱۲,۴۰۰ دلار"
           }
         },
-        "titleHighlight": "[FA]Actually Converts",
+        "titleHighlight": "واقعاً تبدیل می‌کند",
         "cta": {
-          "primary": "[FA]Start SMS Campaigns",
-          "secondary": "[FA]See Demo"
+          "primary": "شروع کمپین‌های پیامکی",
+          "secondary": "مشاهده دمو"
         },
         "dashboard": {
-          "title": "[FA]SMS Campaign",
-          "campaign": "[FA]📱 Campaign: Flash Sale",
-          "campaignSent": "[FA]2,847 messages sent",
-          "delivered": "[FA]✅ Delivered: 2,834",
-          "deliveryRate": "[FA]99.5% delivery rate",
-          "replies": "[FA]💬 Replies: 312",
-          "responseRate": "[FA]11% response rate",
-          "conversions": "[FA]🛒 Conversions: 47",
-          "revenue": "[FA]$12,400 revenue"
+          "title": "کمپین پیامکی",
+          "campaign": "📱 کمپین: فروش فوق‌العاده",
+          "campaignSent": "۲,۸۴۷ پیام ارسال شد",
+          "delivered": "✅ تحویل داده شد: ۲,۸۳۴",
+          "deliveryRate": "نرخ تحویل ۹۹.۵٪",
+          "replies": "💬 پاسخ‌ها: ۳۱۲",
+          "responseRate": "نرخ پاسخ ۱۱٪",
+          "conversions": "🛒 تبدیل‌ها: ۴۷",
+          "revenue": "درآمد ۱۲,۴۰۰ دلار"
         }
       },
       "features": {
-        "title": "[FA]Compliance & Delivery",
-        "description": "[FA]Enterprise-grade SMS platform with global reach and automatic compliance management",
+        "title": "انطباق و تحویل",
+        "description": "پلتفرم پیامکی در سطح سازمانی با دسترسی جهانی و مدیریت خودکار انطباق",
         "globalReach": {
-          "title": "[FA]Global Reach",
-          "description": "[FA]SMS delivery to 200+ countries with local number support and carrier optimization"
+          "title": "دسترسی جهانی",
+          "description": "تحویل پیامک به بیش از ۲۰۰ کشور با پشتیبانی از شماره محلی و بهینه‌سازی اپراتور"
         },
         "compliance": {
-          "title": "[FA]Compliance Tools",
-          "description": "[FA]TCPA and GDPR compliance features with automatic opt-out management"
+          "title": "ابزارهای انطباق",
+          "description": "ویژگی‌های انطباق با TCPA و GDPR با مدیریت خودکار لغو اشتراک"
         },
         "analytics": {
-          "title": "[FA]Delivery Analytics",
-          "description": "[FA]Real-time delivery tracking, response rates, and campaign performance metrics"
+          "title": "تجزیه و تحلیل تحویل",
+          "description": "ردیابی تحویل در زمان واقعی، نرخ پاسخ و معیارهای عملکرد کمپین"
         },
         "scheduling": {
-          "title": "[FA]Smart Scheduling",
-          "description": "[FA]Timezone-aware sending with optimal timing based on recipient behavior"
+          "title": "زمان‌بندی هوشمند",
+          "description": "ارسال آگاه از منطقه زمانی با زمان‌بندی بهینه بر اساس رفتار گیرنده"
         }
       },
       "useCases": {
-        "title": "[FA]Proven Use Cases",
-        "description": "[FA]See how businesses use SMS to drive engagement and revenue",
+        "title": "موارد استفاده اثبات شده",
+        "description": "ببینید چگونه کسب‌وکارها از پیامک برای افزایش تعامل و درآمد استفاده می‌کنند",
         "marketing": {
-          "title": "[FA]Marketing Campaigns",
-          "description": "[FA]Promotional messages with high open rates",
-          "stats": "[FA]98% open rate"
+          "title": "کمپین‌های بازاریابی",
+          "description": "پیام‌های تبلیغاتی با نرخ باز شدن بالا",
+          "stats": "نرخ باز شدن ۹۸٪"
         },
         "appointments": {
-          "title": "[FA]Appointment Reminders",
-          "description": "[FA]Reduce no-shows with automated reminders",
-          "stats": "[FA]25% fewer no-shows"
+          "title": "یادآوری قرار ملاقات",
+          "description": "کاهش عدم حضور با یادآوری‌های خودکار",
+          "stats": "۲۵٪ عدم حضور کمتر"
         },
         "orders": {
-          "title": "[FA]Order Updates",
-          "description": "[FA]Keep customers informed about their orders",
-          "stats": "[FA]90% satisfaction"
+          "title": "به‌روزرسانی‌های سفارش",
+          "description": "مشتریان را در مورد سفارشات خود مطلع نگه دارید",
+          "stats": "رضایت ۹۰٪"
         },
         "support": {
-          "title": "[FA]Customer Support",
-          "description": "[FA]Two-way conversations for quick support",
-          "stats": "[FA]5x faster resolution"
+          "title": "پشتیبانی مشتری",
+          "description": "مکالمات دو طرفه برای پشتیبانی سریع",
+          "stats": "۵ برابر وضوح سریعتر"
         }
       },
       "builder": {
-        "title": "[FA]Advanced Campaign Builder",
-        "description": "[FA]Create sophisticated SMS campaigns with drag-and-drop automation and smart targeting",
+        "title": "سازنده کمپین پیشرفته",
+        "description": "کمپین‌های پیامکی پیچیده با اتوماسیون کشیدن و رها کردن و هدف‌گیری هوشمند ایجاد کنید",
         "segmentation": {
-          "title": "[FA]Smart Segmentation",
-          "description": "[FA]Target customers based on behavior, location, and preferences"
+          "title": "بخش‌بندی هوشمند",
+          "description": "مشتریان را بر اساس رفتار، مکان و ترجیحات هدف قرار دهید"
         },
         "timing": {
-          "title": "[FA]Perfect Timing",
-          "description": "[FA]AI-powered send time optimization for maximum engagement"
+          "title": "زمان‌بندی عالی",
+          "description": "بهینه‌سازی زمان ارسال با هوش مصنوعی برای حداکثر تعامل"
         },
         "analytics": {
-          "title": "[FA]Real-time Analytics",
-          "description": "[FA]Track delivery, opens, clicks, and conversions in real-time"
+          "title": "تجزیه و تحلیل در زمان واقعی",
+          "description": "ردیابی تحویل، باز کردن، کلیک و تبدیل در زمان واقعی"
         }
       },
       "cta": {
-        "title": "[FA]Ready to Launch Your SMS Campaigns?",
-        "description": "[FA]Join thousands of businesses using SMS to drive higher engagement and revenue. Start with our free trial.",
-        "button": "[FA]Sign Up"
+        "title": "برای راه‌اندازی کمپین‌های پیامکی خود آماده‌اید؟",
+        "description": "به هزاران کسب‌وکاری بپیوندید که از پیامک برای افزایش تعامل و درآمد استفاده می‌کنند. با دوره آزمایشی رایگان ما شروع کنید.",
+        "button": "ثبت نام"
       },
-      "backToChannels": "[FA]Back to Channels"
+      "backToChannels": "بازگشت به کانال‌ها"
     },
     "website": {
-      "title": "[FA]Website Chat Widget",
-      "description": "[FA]Turn website visitors into conversations with AI-powered chat"
+      "title": "ویجت چت وب‌سایت",
+      "description": "بازدیدکنندگان وب‌سایت را با چت مبتنی بر هوش مصنوعی به مکالمه تبدیل کنید"
     },
     "cta": {
-      "exploreAll": "[FA]Explore All Channels",
-      "subtitle": "[FA]See how all 9 channels work together seamlessly"
+      "exploreAll": "کاوش در همه کانال‌ها",
+      "subtitle": "ببینید چگونه همه ۹ کانال به طور یکپارچه با هم کار می‌کنند"
     },
     "phoneCalls": {
       "seo": {
-        "title": "Professional Phone System - Seasalt.ai",
-        "description": "[FA]Empower your agents with a cloud-based dialpad for inbound and outbound calls, powered by Twilio Gold Partnership and AI voice automation. Scale your business communication."
+        "title": "سیستم تلفن حرفه‌ای - Seasalt.ai",
+        "description": "نمایندگان خود را با یک شماره‌گیر مبتنی بر ابر برای تماس‌های ورودی و خروجی، با پشتیبانی از مشارکت طلایی Twilio و اتوماسیون صوتی هوش مصنوعی، توانمند سازید. ارتباطات تجاری خود را مقیاس‌پذیر کنید."
       },
       "nav": {
-        "backToChannels": "[FA]Back to Channels"
+        "backToChannels": "بازگشت به کانال‌ها"
       },
       "hero": {
         "title": {
-          "prefix": "[FA]Professional Phone System That",
-          "highlight": "[FA]Scales with Your Business"
+          "prefix": "سیستم تلفن حرفه‌ای که",
+          "highlight": "با کسب‌وکار شما مقیاس‌پذیر است"
         },
-        "description": "[FA]Empower your agents with a cloud-based dialpad for inbound and outbound calls, powered by our Twilio Gold Partnership and AI voice automation.",
-        "primaryCta": "[FA]Start Making Calls Today",
-        "secondaryCta": "[FA]See Demo",
+        "description": "نمایندگان خود را با یک شماره‌گیر مبتنی بر ابر برای تماس‌های ورودی و خروجی، با پشتیبانی از مشارکت طلایی Twilio و اتوماسیون صوتی هوش مصنوعی، توانمند سازید.",
+        "primaryCta": "همین امروز شروع به برقراری تماس کنید",
+        "secondaryCta": "مشاهده دمو",
         "dialpad": {
-          "title": "[FA]Agent Dialpad",
-          "callButton": "[FA]Call",
-          "endCallButton": "[FA]End Call"
+          "title": "شماره‌گیر نماینده",
+          "callButton": "تماس",
+          "endCallButton": "پایان تماس"
         }
       },
       "features": {
-        "title": "[FA]Key Features",
-        "description": "[FA]Everything your team needs for professional phone communication",
+        "title": "ویژگی‌های کلیدی",
+        "description": "هر آنچه تیم شما برای ارتباط تلفنی حرفه‌ای نیاز دارد",
         "humanDialpad": {
-          "title": "[FA]Human Agent Dialpad",
-          "description": "[FA]Full-featured cloud dialpad for making and receiving calls with contact management"
+          "title": "شماره‌گیر عامل انسانی",
+          "description": "شماره‌گیر ابری با امکانات کامل برای برقراری و دریافت تماس با مدیریت مخاطبین"
         },
         "aiVoiceBot": {
-          "title": "[FA]AI Voice Bot Integration",
-          "description": "[FA]Automated call handling with natural handoff to human agents when needed"
+          "title": "ادغام ربات صوتی هوش مصنوعی",
+          "description": "رسیدگی خودکار به تماس با انتقال طبیعی به عوامل انسانی در صورت نیاز"
         },
         "multiAgent": {
-          "title": "[FA]Multi-Agent Support",
-          "description": "[FA]Round robin system distributes calls across available agents automatically"
+          "title": "پشتیبانی چند عاملی",
+          "description": "سیستم چرخشی تماس‌ها را به طور خودکار بین عوامل موجود توزیع می‌کند"
         },
         "analytics": {
-          "title": "[FA]Call Analytics",
-          "description": "[FA]Comprehensive reporting on call performance, outcomes, and agent productivity"
+          "title": "تجزیه و تحلیل تماس",
+          "description": "گزارش‌دهی جامع در مورد عملکرد تماس، نتایج و بهره‌وری عامل"
         }
       },
       "partnership": {
-        "title": "[FA]Twilio Partnership Benefits",
-        "description": "[FA]Built on the world's most trusted communications platform",
+        "title": "مزایای مشارکت Twilio",
+        "description": "ساخته شده بر روی قابل اعتمادترین پلتفرم ارتباطی جهان",
         "goldPartner": {
-          "title": "[FA]Gold Partner Status",
-          "benefit1": "[FA]Gold Partner Status with direct Twilio Flex access",
-          "benefit2": "[FA]Enterprise-Grade Reliability on proven infrastructure",
-          "benefit3": "[FA]Global Reach - make calls in 200+ countries",
-          "benefit4": "[FA]Quick Deployment - agents on calls in under 10 days"
+          "title": "وضعیت شریک طلایی",
+          "benefit1": "وضعیت شریک طلایی با دسترسی مستقیم به Twilio Flex",
+          "benefit2": "قابلیت اطمینان در سطح سازمانی بر روی زیرساخت اثبات شده",
+          "benefit3": "دسترسی جهانی - برقراری تماس در بیش از ۲۰۰ کشور",
+          "benefit4": "استقرار سریع - عوامل در کمتر از ۱۰ روز روی تماس‌ها هستند"
         },
         "global": {
-          "title": "[FA]Global Capabilities",
+          "title": "قابلیت‌های جهانی",
           "countries": {
-            "title": "[FA]200+ Countries",
-            "description": "[FA]Make and receive calls worldwide"
+            "title": "بیش از ۲۰۰ کشور",
+            "description": "برقراری و دریافت تماس در سراسر جهان"
           },
           "uptime": {
-            "title": "[FA]99.95% Uptime",
-            "description": "[FA]Enterprise-grade reliability"
+            "title": "آپتایم ۹۹.۹۵٪",
+            "description": "قابلیت اطمینان در سطح سازمانی"
           },
           "setup": {
-            "title": "[FA]10-Day Setup",
-            "description": "[FA]Quick deployment for your team"
+            "title": "راه‌اندازی ۱۰ روزه",
+            "description": "استقرار سریع برای تیم شما"
           }
         }
       },
       "useCases": {
-        "title": "[FA]Use Cases",
-        "description": "[FA]See how different teams use our phone system to drive results",
+        "title": "موارد استفاده",
+        "description": "ببینید چگونه تیم‌های مختلف از سیستم تلفن ما برای دستیابی به نتایج استفاده می‌کنند",
         "sales": {
-          "title": "[FA]Sales Teams",
-          "description": "[FA]Outbound prospecting with auto dialer efficiency"
+          "title": "تیم‌های فروش",
+          "description": "جستجوی خروجی با کارایی شماره‌گیر خودکار"
         },
         "support": {
-          "title": "[FA]Customer Support",
-          "description": "[FA]Inbound call handling with AI screening"
+          "title": "پشتیبانی مشتری",
+          "description": "رسیدگی به تماس‌های ورودی با غربالگری هوش مصنوعی"
         },
         "appointments": {
-          "title": "[FA]Appointment Setting",
-          "description": "[FA]Automated calling with human confirmation"
+          "title": "تنظیم قرار ملاقات",
+          "description": "تماس خودکار با تأیید انسانی"
         },
         "followup": {
-          "title": "[FA]Follow-up Campaigns",
-          "description": "[FA]Mass calling with personalized agent conversations"
+          "title": "کمپین‌های پیگیری",
+          "description": "تماس انبوه با مکالمات عامل شخصی‌سازی شده"
         }
       },
       "cta": {
-        "title": "[FA]Ready to Upgrade Your Phone System?",
-        "description": "[FA]Get your team on calls in under 10 days with enterprise-grade reliability and AI-powered automation.",
-        "button": "[FA]Start Setup"
+        "title": "برای ارتقای سیستم تلفن خود آماده‌اید؟",
+        "description": "تیم خود را در کمتر از ۱۰ روز با قابلیت اطمینان در سطح سازمانی و اتوماسیون مبتنی بر هوش مصنوعی روی تماس‌ها قرار دهید.",
+        "button": "شروع راه‌اندازی"
       }
     },
     "websiteChat": {
       "navigation": {
-        "backToChannels": "[FA]Back to Channels"
+        "backToChannels": "بازگشت به کانال‌ها"
       },
       "hero": {
         "title": {
-          "prefix": "[FA]Turn Website Visitors into",
-          "highlight": "[FA]Conversations"
+          "prefix": "بازدیدکنندگان وب‌سایت را به ",
+          "highlight": "مکالمه تبدیل کنید"
         },
-        "description": "[FA]Add a powerful AI chat widget to your website in under 5 minutes. Capture leads, provide instant support, and never miss an opportunity.",
+        "description": "یک ویجت چت هوش مصنوعی قدرتمند را در کمتر از ۵ دقیقه به وب‌سایت خود اضافه کنید. سرنخ‌ها را جذب کنید، پشتیبانی فوری ارائه دهید و هرگز فرصتی را از دست ندهید.",
         "cta": {
-          "primary": "[FA]Get Your Free Widget",
-          "secondary": "[FA]Book A Demo"
+          "primary": "ویجت رایگان خود را دریافت کنید",
+          "secondary": "رزرو دمو"
         },
         "widget": {
-          "title": "[FA]Website Chat Widget",
+          "title": "ویجت چت وب‌سایت",
           "welcome": {
-            "greeting": "[FA]👋 Welcome!",
-            "question": "[FA]How can we help you today?"
+            "greeting": "👋 خوش آمدید!",
+            "question": "امروز چگونه می‌توانیم به شما کمک کنیم؟"
           },
           "visitor": {
-            "message": "[FA]Visitor: \"Do you offer free shipping?\""
+            "message": "بازدیدکننده: \"آیا ارسال رایگان ارائه می‌دهید؟\""
           },
           "ai": {
-            "response": "[FA]AI: \"Yes! Free shipping on orders over $50. Would you like to see our current promotions?\""
+            "response": "هوش مصنوعی: \"بله! ارسال رایگان برای سفارش‌های بالای ۵۰ دلار. آیا می‌خواهید تبلیغات فعلی ما را ببینید؟\""
           },
           "button": {
-            "yes": "[FA]Yes, show me",
-            "no": "[FA]No thanks"
+            "yes": "بله، به من نشان بده",
+            "no": "نه، ممنون"
           }
         }
       },
       "features": {
-        "title": "[FA]Key Features",
-        "subtitle": "[FA]Everything you need to engage website visitors and convert them into customers",
+        "title": "ویژگی‌های کلیدی",
+        "subtitle": "هر آنچه برای تعامل با بازدیدکنندگان وب‌سایت و تبدیل آنها به مشتری نیاز دارید",
         "noCodeSetup": {
-          "title": "[FA]No-Code Setup",
-          "description": "[FA]Add to any website in under 5 minutes without technical knowledge required"
+          "title": "راه‌اندازی بدون کد",
+          "description": "بدون نیاز به دانش فنی در کمتر از ۵ دقیقه به هر وب‌سایتی اضافه کنید"
         },
         "customBranding": {
-          "title": "[FA]Custom Branding",
-          "description": "[FA]Match your brand with custom colors, fonts, and messaging styles"
+          "title": "برندسازی سفارشی",
+          "description": "با رنگ‌ها، فونت‌ها و سبک‌های پیام‌رسانی سفارشی با برند خود مطابقت دهید"
         },
         "leadCapture": {
-          "title": "[FA]Lead Capture",
-          "description": "[FA]Automatically collect visitor information and qualify leads in real-time"
+          "title": "جذب سرنخ",
+          "description": "به طور خودکار اطلاعات بازدیدکنندگان را جمع‌آوری کرده و سرنخ‌ها را در زمان واقعی واجد شرایط کنید"
         },
         "instantResponses": {
-          "title": "[FA]Instant Responses",
-          "description": "[FA]AI-powered responses provide immediate help to website visitors 24/7"
+          "title": "پاسخ‌های فوری",
+          "description": "پاسخ‌های مبتنی بر هوش مصنوعی کمک فوری به بازدیدکنندگان وب‌سایت ۲۴/۷ ارائه می‌دهد"
         }
       },
       "platforms": {
-        "title": "[FA]Works with Every Platform",
-        "subtitle": "[FA]Easy integration with all major website builders and platforms"
+        "title": "با هر پلتفرمی کار می‌کند",
+        "subtitle": "ادغام آسان با تمام سازندگان و پلتفرم‌های اصلی وب‌سایت"
       },
       "customization": {
-        "title": "[FA]Customization Showcase",
-        "subtitle": "[FA]Make the widget truly yours with extensive customization options",
+        "title": "نمایش سفارشی‌سازی",
+        "subtitle": "ویجت را با گزینه‌های سفارشی‌سازی گسترده واقعاً از آن خود کنید",
         "positionSize": {
-          "title": "[FA]Position & Size",
-          "description": "[FA]Choose corner placement, size, and visibility settings"
+          "title": "موقعیت و اندازه",
+          "description": "محل قرارگیری گوشه، اندازه و تنظیمات دید را انتخاب کنید"
         },
         "colorsFonts": {
-          "title": "[FA]Colors & Fonts",
-          "description": "[FA]Match your brand colors and typography perfectly"
+          "title": "رنگ‌ها و فونت‌ها",
+          "description": "رنگ‌ها و تایپوگرافی برند خود را کاملاً مطابقت دهید"
         },
         "welcomeMessages": {
-          "title": "[FA]Welcome Messages",
-          "description": "[FA]Customize greeting messages and conversation starters"
+          "title": "پیام‌های خوشامدگویی",
+          "description": "پیام‌های خوشامدگویی و شروع‌کننده‌های مکالمه را سفارشی کنید"
         },
         "triggerRules": {
-          "title": "[FA]Trigger Rules",
-          "description": "[FA]Set when and where the widget appears to visitors"
+          "title": "قوانین راه‌اندازی",
+          "description": "تنظیم کنید که ویجت چه زمانی و کجا برای بازدیدکنندگان ظاهر شود"
         },
         "realTimePreview": {
-          "title": "[FA]Real-time Preview",
-          "description": "[FA]See your changes instantly with our live preview feature. Customize colors, positioning, and messages while seeing exactly how it will look on your website."
+          "title": "پیش‌نمایش در زمان واقعی",
+          "description": "تغییرات خود را فوراً با ویژگی پیش‌نمایش زنده ما مشاهده کنید. رنگ‌ها، موقعیت و پیام‌ها را سفارشی کنید و دقیقاً ببینید که در وب‌سایت شما چگونه به نظر می‌رسد."
         }
       },
       "analytics": {
-        "title": "[FA]Powerful Analytics",
-        "subtitle": "[FA]Track visitor engagement, conversion rates, and chat performance with detailed analytics",
-        "conversations": "[FA]Conversations",
-        "conversionRate": "[FA]Conversion Rate",
-        "responseTime": "[FA]Response Time",
-        "satisfaction": "[FA]Satisfaction"
+        "title": "تجزیه و تحلیل قدرتمند",
+        "subtitle": "تعامل بازدیدکنندگان، نرخ تبدیل و عملکرد چت را با تجزیه و تحلیل دقیق پیگیری کنید",
+        "conversations": "مکالمات",
+        "conversionRate": "نرخ تبدیل",
+        "responseTime": "زمان پاسخ",
+        "satisfaction": "رضایت"
       },
       "cta": {
-        "title": "[FA]Ready to Add Chat to Your Website?",
-        "description": "[FA]Get your custom chat widget in minutes. No coding required, full customization available.",
-        "button": "[FA]Get Widget Code"
+        "title": "برای افزودن چت به وب‌سایت خود آماده‌اید؟",
+        "description": "ویجت چت سفارشی خود را در چند دقیقه دریافت کنید. بدون نیاز به کدنویسی، سفارشی‌سازی کامل در دسترس است.",
+        "button": "دریافت کد ویجت"
       }
     },
     "instagram": {
       "navigation": {
-        "backToChannels": "[FA]Back to Channels"
+        "backToChannels": "بازگشت به کانال‌ها"
       },
       "hero": {
         "title": {
-          "prefix": "[FA]Scale Your",
-          "highlight": "[FA]Instagram Customer Service"
+          "prefix": "مقیاس‌بندی ",
+          "highlight": "خدمات مشتری اینستاگرام خود"
         },
-        "subtitle": "[FA]Handle thousands of Instagram DMs with AI automation while maintaining personal touch. Perfect for brands, influencers, and businesses building communities.",
+        "subtitle": "هزاران دایرکت اینستاگرام را با اتوماسیون هوش مصنوعی مدیریت کنید و در عین حال تماس شخصی را حفظ کنید. مناسب برای برندها، اینفلوئنسرها و کسب‌وکارهایی که جوامع ایجاد می‌کنند.",
         "cta": {
-          "primary": "[FA]Automate Instagram DMs",
-          "secondary": "[FA]See Demo"
+          "primary": "شروع اتوماسیون",
+          "secondary": "مشاهده دمو"
         },
         "demo": {
-          "title": "[FA]Instagram DMs",
+          "title": "دایرکت‌های اینستاگرام",
           "user1": {
-            "handle": "[FA]@sarah_style",
-            "message": "[FA]Love this dress! What sizes do you have?"
+            "handle": "@sarah_style",
+            "message": "این لباس را دوست دارم! چه سایزهایی دارید؟"
           },
           "ai1": {
-            "response": "[FA]AI: \"Hi Sarah! 😍 That dress is available in XS-XL. Would you like me to check stock in your size?"
+            "response": "هوش مصنوعی: \"سلام سارا! 😍 این لباس در سایزهای XS-XL موجود است. آیا می‌خواهید موجودی سایز شما را بررسی کنم؟\""
           },
           "user2": {
-            "handle": "[FA]@mike_fitness",
-            "message": "[FA]Can you help me with my order?"
+            "handle": "@mike_fitness",
+            "message": "می‌توانید در مورد سفارش من به من کمک کنید؟"
           },
           "ai2": {
-            "response": "[FA]AI: \"Of course! Let me connect you with our support team..."
+            "response": "هوش مصنوعی: \"البته! اجازه دهید شما را به تیم پشتیبانی ما متصل کنم...\""
           }
         }
       },
       "visualFirst": {
-        "title": "[FA]Visual-First Approach",
-        "subtitle": "[FA]Instagram is all about visuals. Our AI understands images and provides contextual responses"
+        "title": "رویکرد اول بصری",
+        "subtitle": "اینستاگرام همه چیز در مورد تصاویر است. هوش مصنوعی ما تصاویر را درک می‌کند و پاسخ‌های متنی ارائه می‌دهد"
       },
       "features": {
         "imageRecognition": {
-          "title": "[FA]Image Recognition",
-          "description": "[FA]AI understanding of product images in DMs for intelligent responses and recommendations"
+          "title": "تشخیص تصویر",
+          "description": "درک هوش مصنوعی از تصاویر محصول در دایرکت‌ها برای پاسخ‌ها و توصیه‌های هوشمند"
         },
         "storyIntegration": {
-          "title": "[FA]Story Integration",
-          "description": "[FA]Automated responses to story interactions, polls, and questions from your audience"
+          "title": "ادغام استوری",
+          "description": "پاسخ‌های خودکار به تعاملات استوری، نظرسنجی‌ها و سؤالات مخاطبان شما"
         },
         "influencerSupport": {
-          "title": "[FA]Influencer Support",
-          "description": "[FA]Tools for managing high-volume DM conversations and brand partnerships"
+          "title": "پشتیبانی از اینفلوئنسرها",
+          "description": "ابزارهایی برای مدیریت مکالمات دایرکت با حجم بالا و مشارکت‌های برند"
         },
         "smartAutomation": {
-          "title": "[FA]Smart Automation",
-          "description": "[FA]AI-powered responses that maintain your brand voice and personality"
+          "title": "اتوماسیون هوشمند",
+          "description": "پاسخ‌های مبتنی بر هوش مصنوعی که صدای برند و شخصیت شما را حفظ می‌کنند"
         }
       },
       "useCases": {
-        "title": "[FA]Perfect for Every Instagram Business",
-        "subtitle": "[FA]From small businesses to major influencers, see how Instagram automation drives results",
+        "title": "مناسب برای هر کسب‌وکار اینستاگرامی",
+        "subtitle": "از کسب‌وکارهای کوچک گرفته تا اینفلوئنسرهای بزرگ، ببینید چگونه اتوماسیون اینستاگرام نتایج را به ارمغان می‌آورد",
         "ecommerce": {
-          "title": "[FA]E-commerce Brands",
-          "description": "[FA]Product inquiries and order support",
-          "metric": "[FA]40% faster response"
+          "title": "برندهای تجارت الکترونیک",
+          "description": "سوالات محصول و پشتیبانی سفارش",
+          "metric": "۴۰٪ پاسخ سریعتر"
         },
         "influencers": {
-          "title": "[FA]Influencers",
-          "description": "[FA]Fan engagement and collaboration requests",
-          "metric": "[FA]10x more conversations"
+          "title": "اینفلوئنسرها",
+          "description": "تعامل با طرفداران و درخواست‌های همکاری",
+          "metric": "۱۰ برابر مکالمات بیشتر"
         },
         "localBusiness": {
-          "title": "[FA]Local Businesses",
-          "description": "[FA]Appointment booking and customer service",
-          "metric": "[FA]60% more bookings"
+          "title": "کسب‌وکارهای محلی",
+          "description": "رزرو قرار ملاقات و خدمات مشتری",
+          "metric": "۶۰٪ رزرو بیشتر"
         },
         "contentCreators": {
-          "title": "[FA]Content Creators",
-          "description": "[FA]Community management and feedback",
-          "metric": "[FA]95% satisfaction rate"
+          "title": "تولیدکنندگان محتوا",
+          "description": "مدیریت جامعه و بازخورد",
+          "metric": "نرخ رضایت ۹۵٪"
         }
       },
       "businessIntegration": {
-        "title": "[FA]Instagram Business Integration",
-        "subtitle": "[FA]Full integration with Instagram Business accounts for professional customer service",
+        "title": "ادغام کسب‌وکار اینستاگرام",
+        "subtitle": "ادغام کامل با حساب‌های تجاری اینستاگرام برای خدمات مشتری حرفه‌ای",
         "analyticsIntegration": {
-          "title": "[FA]Analytics Integration",
-          "description": "[FA]Connect with Instagram Insights for complete performance tracking"
+          "title": "ادغام تجزیه و تحلیل",
+          "description": "برای ردیابی کامل عملکرد، با Instagram Insights ارتباط برقرار کنید"
         },
         "audienceInsights": {
-          "title": "[FA]Audience Insights",
-          "description": "[FA]Understand your audience better with integrated demographic data"
+          "title": "بینش مخاطبان",
+          "description": "با داده‌های جمعیتی یکپارچه، مخاطبان خود را بهتر بشناسید"
         },
         "engagementTracking": {
-          "title": "[FA]Engagement Tracking",
-          "description": "[FA]Monitor story interactions, post engagement, and DM performance"
+          "title": "ردیابی تعامل",
+          "description": "نظارت بر تعاملات استوری، تعامل پست و عملکرد دایرکت"
         }
       },
       "cta": {
-        "title": "[FA]Ready to Scale Your Instagram Presence?",
-        "subtitle": "[FA]Join thousands of brands and influencers using AI to provide better customer service and build stronger communities on Instagram.",
-        "primary": "[FA]Start Automation",
-        "secondary": "[FA]See Demo"
+        "title": "برای مقیاس‌بندی حضور خود در اینستاگرام آماده‌اید؟",
+        "subtitle": "به هزاران برند و اینفلوئنسر بپیوندید که از هوش مصنوعی برای ارائه خدمات بهتر به مشتریان و ایجاد جوامع قوی‌تر در اینستاگرام استفاده می‌کنند.",
+        "primary": "شروع اتوماسیون",
+        "secondary": "مشاهده دمو"
       }
     },
     "facebookMessenger": {
       "navigation": {
-        "backToChannels": "[FA]Back to Channels"
+        "backToChannels": "بازگشت به کانال‌ها"
       },
       "hero": {
-        "title": "[FA]Turn Facebook Messenger into a",
-        "titleHighlight": "[FA]Sales Machine",
-        "subtitle": "[FA]Engage your Facebook audience with AI-powered conversations that convert followers into customers. Integrate with Facebook Shop for seamless social commerce.",
+        "title": "فیس‌بوک مسنجر را به یک ",
+        "titleHighlight": "ماشین فروش تبدیل کنید",
+        "subtitle": "مخاطبان فیس‌بوک خود را با مکالمات مبتنی بر هوش مصنوعی که دنبال‌کنندگان را به مشتری تبدیل می‌کنند، درگیر کنید. برای تجارت اجتماعی یکپارچه با فروشگاه فیس‌بوک ادغام شوید.",
         "cta": {
-          "primary": "[FA]Connect Messenger Now",
-          "secondary": "[FA]See Demo"
+          "primary": "اکنون مسنجر را وصل کنید",
+          "secondary": "مشاهده دمو"
         },
         "demo": {
-          "title": "[FA]Facebook Messenger",
-          "customerQuery": "[FA]Customer: \"Do you have this in size M?",
-          "aiResponse1": "[FA]AI: \"Yes! Size M is available. Here's the product link with current pricing 👇",
-          "productName": "[FA]Summer Dress - Size M",
-          "productPrice": "[FA]$49.99 • Free shipping",
-          "customerQuery2": "[FA]Customer: \"Perfect! Can I get 20% off?",
-          "aiResponse2": "[FA]AI: \"I can offer you 15% off with code MESSENGER15! Would you like to complete your order?"
+          "title": "فیس‌بوک مسنجر",
+          "customerQuery": "مشتری: \"آیا این را در سایز M دارید؟\"",
+          "aiResponse1": "هوش مصنوعی: \"بله! سایز M موجود است. در اینجا لینک محصول با قیمت فعلی آمده است 👇\"",
+          "productName": "لباس تابستانی - سایز M",
+          "productPrice": "۴۹.۹۹ دلار • ارسال رایگان",
+          "customerQuery2": "مشتری: \"عالی! می‌توانم ۲۰٪ تخفیف بگیرم؟\"",
+          "aiResponse2": "هوش مصنوعی: \"می‌توانم با کد MESSENGER15 به شما ۱۵٪ تخفیف بدهم! آیا می‌خواهید سفارش خود را تکمیل کنید؟\""
         }
       },
       "features": {
-        "title": "[FA]Social Commerce Features",
-        "subtitle": "[FA]Turn your Facebook presence into a powerful sales channel with integrated commerce features",
+        "title": "ویژگی‌های تجارت اجتماعی",
+        "subtitle": "حضور فیس‌بوک خود را با ویژگی‌های تجاری یکپارچه به یک کانال فروش قدرتمند تبدیل کنید",
         "shopIntegration": {
-          "title": "[FA]Facebook Shop Integration",
-          "description": "[FA]Direct product recommendations in chat with seamless shopping experience"
+          "title": "ادغام فروشگاه فیس‌بوک",
+          "description": "توصیه‌های مستقیم محصول در چت با تجربه خرید یکپارچه"
         },
         "leadGeneration": {
-          "title": "[FA]Lead Generation",
-          "description": "[FA]Automated lead capture from Messenger conversations with CRM sync"
+          "title": "تولید سرنخ",
+          "description": "جذب خودکار سرنخ از مکالمات مسنجر با همگام‌سازی CRM"
         },
         "socialProof": {
-          "title": "[FA]Social Proof",
-          "description": "[FA]Customer testimonials and reviews integration for trust building"
+          "title": "اثبات اجتماعی",
+          "description": "ادغام توصیفات و نظرات مشتریان برای ایجاد اعتماد"
         },
         "instantResponses": {
-          "title": "[FA]Instant Responses",
-          "description": "[FA]AI-powered responses that engage your Facebook audience 24/7"
+          "title": "پاسخ‌های فوری",
+          "description": "پاسخ‌های مبتنی بر هوش مصنوعی که مخاطبان فیس‌بوک شما را ۲۴/۷ درگیر می‌کنند"
         }
       },
       "socialCommerce": {
-        "title": "[FA]Complete Social Commerce Solution",
-        "subtitle": "[FA]Everything you need to sell directly through Facebook Messenger",
+        "title": "راه حل کامل تجارت اجتماعی",
+        "subtitle": "هر آنچه برای فروش مستقیم از طریق فیس‌بوک مسنجر نیاز دارید",
         "productCatalog": {
-          "title": "[FA]Product Catalog Sync",
-          "description": "[FA]Automatically sync your Facebook Shop products for instant recommendations"
+          "title": "همگام‌سازی کاتالوگ محصولات",
+          "description": "محصولات فروشگاه فیس‌بوک خود را برای توصیه‌های فوری به طور خودکار همگام‌سازی کنید"
         },
         "cartRecovery": {
-          "title": "[FA]Cart Recovery",
-          "description": "[FA]Re-engage customers who abandoned their shopping carts with personalized messages"
+          "title": "بازیابی سبد خرید",
+          "description": "مشتریانی را که سبد خرید خود را رها کرده‌اند با پیام‌های شخصی‌سازی شده دوباره درگیر کنید"
         },
         "orderTracking": {
-          "title": "[FA]Order Tracking",
-          "description": "[FA]Provide real-time order updates and shipping information through Messenger"
+          "title": "ردیابی سفارش",
+          "description": "به‌روزرسانی‌های سفارش و اطلاعات حمل و نقل را در زمان واقعی از طریق مسنجر ارائه دهید"
         },
         "customerReviews": {
-          "title": "[FA]Customer Reviews",
-          "description": "[FA]Collect and showcase customer reviews to build trust and social proof"
+          "title": "نظرات مشتریان",
+          "description": "برای ایجاد اعتماد و اثبات اجتماعی، نظرات مشتریان را جمع‌آوری و به نمایش بگذارید"
         }
       },
       "businessEcosystem": {
-        "title": "[FA]Facebook Business Ecosystem Integration",
-        "subtitle": "[FA]Seamlessly connect with your entire Facebook business presence",
+        "title": "ادغام اکوسیستم کسب‌وکار فیس‌بوک",
+        "subtitle": "به طور یکپارچه با کل حضور تجاری فیس‌بوک خود ارتباط برقرار کنید",
         "shop": {
-          "title": "[FA]Facebook Shop",
-          "description": "[FA]Direct integration with your Facebook Shop for instant product recommendations"
+          "title": "فروشگاه فیس‌بوک",
+          "description": "ادغام مستقیم با فروشگاه فیس‌بوک شما برای توصیه‌های فوری محصول"
         },
         "ads": {
-          "title": "[FA]Facebook Ads",
-          "description": "[FA]Connect ad campaigns with Messenger for seamless customer journeys"
+          "title": "تبلیغات فیس‌بوک",
+          "description": "کمپین‌های تبلیغاتی را با مسنجر برای سفرهای یکپارچه مشتری متصل کنید"
         },
         "pages": {
-          "title": "[FA]Facebook Pages",
-          "description": "[FA]Unified management of page messages and customer interactions"
+          "title": "صفحات فیس‌بوک",
+          "description": "مدیریت یکپارچه پیام‌های صفحه و تعاملات مشتری"
         }
       },
       "results": {
-        "title": "[FA]Proven Results",
-        "subtitle": "[FA]See how businesses are driving real results with Facebook Messenger automation",
+        "title": "نتایج اثبات شده",
+        "subtitle": "ببینید چگونه کسب‌وکارها با اتوماسیون فیس‌بوک مسنجر نتایج واقعی را به دست می‌آورند",
         "engagement": {
-          "value": "[FA]85%",
-          "description": "[FA]Higher engagement than email"
+          "value": "۸۵٪",
+          "description": "تعامل بالاتر از ایمیل"
         },
         "conversion": {
-          "value": "[FA]3x",
-          "description": "[FA]Better conversion rates"
+          "value": "۳ برابر",
+          "description": "نرخ تبدیل بهتر"
         },
         "costReduction": {
-          "value": "[FA]60%",
-          "description": "[FA]Reduction in support costs"
+          "value": "۶۰٪",
+          "description": "کاهش هزینه‌های پشتیبانی"
         },
         "availability": {
-          "value": "[FA]24/7",
-          "description": "[FA]Automated customer service"
+          "value": "۲۴/۷",
+          "description": "خدمات مشتری خودکار"
         }
       },
       "cta": {
-        "title": "[FA]Ready to Transform Your Facebook Presence?",
-        "subtitle": "Connect Facebook Messenger to Seasalt.ai and start converting your social media followers into paying customers.",
-        "primary": "[FA]Connect Messenger",
-        "secondary": "[FA]Book A Demo"
+        "title": "برای تحول حضور فیس‌بوک خود آماده‌اید؟",
+        "subtitle": "فیس‌بوک مسنجر را به Seasalt.ai متصل کنید و شروع به تبدیل دنبال‌کنندگان رسانه‌های اجتماعی خود به مشتریان پرداخت‌کننده کنید.",
+        "primary": "اتصال مسنجر",
+        "secondary": "رزرو دمو"
       }
     },
     "contactForms": {
       "seo": {
-        "title": "Contact Forms Integration - Seasalt.ai",
-        "description": "[FA]Turn your contact forms into conversations with AI. Seamlessly integrate with MailerLite, HubSpot, Mailchimp and more for instant lead engagement."
+        "title": "ادغام فرم‌های تماس - Seasalt.ai",
+        "description": "فرم‌های تماس خود را با هوش مصنوعی به مکالمه تبدیل کنید. برای تعامل فوری با سرنخ، به طور یکپارچه با MailerLite، HubSpot، Mailchimp و موارد دیگر ادغام شوید."
       },
       "nav": {
-        "backToChannels": "[FA]Back to Channels"
+        "backToChannels": "بازگشت به کانال‌ها"
       },
       "hero": {
         "title": {
-          "part1": "[FA]Turn Contact Forms into",
-          "part2": "[FA]Conversations"
+          "part1": "فرم‌های تماس را به ",
+          "part2": "مکالمه تبدیل کنید"
         },
-        "subtitle": "[FA]Automatically capture leads from your email marketing forms and engage them instantly with AI-powered conversations. Works with MailerLite, HubSpot, Mailchimp, and more.",
-        "ctaPrimary": "[FA]Connect Your Forms",
-        "ctaSecondary": "[FA]See Demo",
+        "subtitle": "به طور خودکار سرنخ‌ها را از فرم‌های بازاریابی ایمیلی خود جذب کرده و فوراً با مکالمات مبتنی بر هوش مصنوعی آنها را درگیر کنید. با MailerLite، HubSpot، Mailchimp و موارد دیگر کار می‌کند.",
+        "ctaPrimary": "فرم‌های خود را وصل کنید",
+        "ctaSecondary": "مشاهده دمو",
         "demo": {
-          "title": "[FA]Form Integration",
-          "submission": "[FA]📝 New Form Submission",
-          "submitter": "Sarah Johnson • sarah@email.com",
-          "aiGreeting": "[FA]AI: \"Hi Sarah! Thanks for your interest. I can help you get started right away. What's your main goal?",
-          "userResponse": "[FA]Sarah: \"I want to improve my email marketing",
-          "aiSchedule": "[FA]AI: \"Perfect! I can schedule a 15-min strategy call with our expert. Are you free tomorrow at 2 PM?",
-          "meetingConfirmed": "[FA]✅ Meeting scheduled automatically"
+          "title": "ادغام فرم",
+          "submission": "📝 ارسال فرم جدید",
+          "submitter": "سارا جانسون • sarah@email.com",
+          "aiGreeting": "هوش مصنوعی: \"سلام سارا! از علاقه شما متشکرم. می‌توانم به شما کمک کنم تا فوراً شروع کنید. هدف اصلی شما چیست؟\"",
+          "userResponse": "سارا: \"می‌خواهم بازاریابی ایمیلی خود را بهبود بخشم\"",
+          "aiSchedule": "هوش مصنوعی: \"عالی! می‌توانم یک تماس استراتژی ۱۵ دقیقه‌ای با کارشناس ما برای شما برنامه‌ریزی کنم. فردا ساعت ۲ بعد از ظهر وقت دارید؟\"",
+          "meetingConfirmed": "✅ جلسه به طور خودکار برنامه‌ریزی شد"
         }
       },
       "platforms": {
-        "title": "[FA]Supported Platforms",
-        "subtitle": "[FA]Seamless integration with all major email marketing platforms and form builders",
+        "title": "پلتفرم‌های پشتیبانی شده",
+        "subtitle": "ادغام یکپارچه با تمام پلتفرم‌های اصلی بازاریابی ایمیلی و سازندگان فرم",
         "mailerlite": {
-          "name": "[FA]MailerLite",
-          "description": "[FA]Seamless lead sync from MailerLite contact forms"
+          "name": "MailerLite",
+          "description": "همگام‌سازی یکپارچه سرنخ از فرم‌های تماس MailerLite"
         },
         "mailchimp": {
-          "name": "[FA]Mailchimp",
-          "description": "[FA]Direct integration with Mailchimp signup forms"
+          "name": "Mailchimp",
+          "description": "ادغام مستقیم با فرم‌های ثبت نام Mailchimp"
         },
         "constantContact": {
-          "name": "[FA]Constant Contact",
-          "description": "[FA]Lead capture from Constant Contact forms"
+          "name": "Constant Contact",
+          "description": "جذب سرنخ از فرم‌های Constant Contact"
         },
         "hubspot": {
-          "name": "[FA]HubSpot",
-          "description": "[FA]Advanced form integration with HubSpot marketing"
+          "name": "HubSpot",
+          "description": "ادغام پیشرفته فرم با بازاریابی HubSpot"
         },
         "customForms": {
-          "name": "[FA]Custom Forms",
-          "description": "[FA]Support for any website contact form via API"
+          "name": "فرم‌های سفارشی",
+          "description": "پشتیبانی از هر فرم تماس وب‌سایت از طریق API"
         },
         "wordpress": {
-          "name": "[FA]WordPress",
-          "description": "[FA]Native integration with WordPress contact forms"
+          "name": "WordPress",
+          "description": "ادغام بومی با فرم‌های تماس وردپرس"
         }
       },
       "features": {
-        "title": "[FA]Lead Management Features",
-        "subtitle": "[FA]Turn form submissions into qualified leads with intelligent automation",
+        "title": "ویژگی‌های مدیریت سرنخ",
+        "subtitle": "ارسال فرم‌ها را با اتوماسیون هوشمند به سرنخ‌های واجد شرایط تبدیل کنید",
         "instantEngagement": {
-          "title": "[FA]Instant Engagement",
-          "description": "[FA]AI agent responds to form submissions immediately, while leads are hot"
+          "title": "تعامل فوری",
+          "description": "عامل هوش مصنوعی فوراً به ارسال فرم‌ها پاسخ می‌دهد، در حالی که سرنخ‌ها داغ هستند"
         },
         "leadQualification": {
-          "title": "[FA]Lead Qualification",
-          "description": "[FA]Automated follow-up questions to qualify prospects before human handoff"
+          "title": "صلاحیت‌سنجی سرنخ",
+          "description": "سوالات پیگیری خودکار برای واجد شرایط کردن چشم‌اندازها قبل از تحویل به انسان"
         },
         "multiChannel": {
-          "title": "[FA]Multi-Channel Follow-up",
-          "description": "[FA]Continue conversations via WhatsApp, SMS, or phone seamlessly"
+          "title": "پیگیری چند کاناله",
+          "description": "مکالمات را از طریق واتس‌اپ، پیامک یا تلفن به طور یکپارچه ادامه دهید"
         },
         "conversionTracking": {
-          "title": "[FA]Conversion Tracking",
-          "description": "[FA]Monitor form-to-customer conversion rates and optimize performance"
+          "title": "ردیابی تبدیل",
+          "description": "نرخ تبدیل فرم به مشتری را کنترل کرده و عملکرد را بهینه کنید"
         }
       },
       "useCases": {
-        "title": "[FA]Use Cases",
-        "subtitle": "[FA]See how different types of forms can be enhanced with AI conversations",
+        "title": "موارد استفاده",
+        "subtitle": "ببینید چگونه انواع مختلف فرم‌ها را می‌توان با مکالمات هوش مصنوعی تقویت کرد",
         "newsletter": {
-          "title": "[FA]Newsletter Signups",
-          "description": "[FA]Engage new subscribers with welcome conversations",
-          "example": "[FA]Thanks for subscribing! What topics interest you most?"
+          "title": "ثبت‌نام در خبرنامه",
+          "description": "مشترکین جدید را با مکالمات خوشامدگویی درگیر کنید",
+          "example": "از اشتراک شما متشکریم! به چه موضوعاتی بیشتر علاقه دارید؟"
         },
         "demoRequests": {
-          "title": "[FA]Demo Requests",
-          "description": "[FA]Instantly qualify and schedule product demonstrations",
-          "example": "[FA]I can schedule your demo right now. What's your preferred time?"
+          "title": "درخواست‌های دمو",
+          "description": "فوراً نمایش‌های محصول را واجد شرایط و برنامه‌ریزی کنید",
+          "example": "می‌توانم همین الان دموی شما را برنامه‌ریزی کنم. زمان ترجیحی شما چیست؟"
         },
         "contactInquiries": {
-          "title": "[FA]Contact Inquiries",
-          "description": "[FA]Provide immediate responses to general inquiries",
-          "example": "[FA]I'm here to help! What specific information do you need?"
+          "title": "سوالات تماس",
+          "description": "پاسخ‌های فوری به سوالات عمومی ارائه دهید",
+          "example": "من اینجا هستم تا کمک کنم! به چه اطلاعات خاصی نیاز دارید؟"
         },
         "leadMagnets": {
-          "title": "[FA]Lead Magnets",
-          "description": "[FA]Follow up on content downloads with personalized outreach",
-          "example": "[FA]Did you find the guide helpful? I can answer any questions!"
+          "title": "آهنرباهای سرنخ",
+          "description": "دانلودهای محتوا را با ارتباط شخصی‌سازی شده پیگیری کنید",
+          "example": "آیا راهنما مفید بود؟ می‌توانم به هر سوالی پاسخ دهم!"
         }
       },
       "benefits": {
-        "title": "[FA]Integration Benefits",
-        "subtitle": "[FA]See the immediate impact of connecting your forms to conversational AI",
-        "responseRates": "[FA]Higher response rates",
-        "qualification": "[FA]Faster lead qualification",
-        "meetings": "[FA]More qualified meetings",
-        "engagement": "[FA]Lead engagement"
+        "title": "مزایای ادغام",
+        "subtitle": "تأثیر فوری اتصال فرم‌های خود به هوش مصنوعی مکالمه‌ای را ببینید",
+        "responseRates": "نرخ پاسخ بالاتر",
+        "qualification": "صلاحیت‌سنجی سریعتر سرنخ",
+        "meetings": "جلسات واجد شرایط بیشتر",
+        "engagement": "تعامل با سرنخ"
       },
       "cta": {
-        "title": "[FA]Ready to Supercharge Your Forms?",
-        "subtitle": "Connect your contact forms to Seasalt.ai and start converting more leads with instant AI-powered conversations.",
-        "action": "[FA]Connect Forms Now"
+        "title": "برای تقویت فرم‌های خود آماده‌اید؟",
+        "subtitle": "فرم‌های تماس خود را به Seasalt.ai متصل کنید و با مکالمات فوری مبتنی بر هوش مصنوعی شروع به تبدیل سرنخ‌های بیشتری کنید.",
+        "action": "اکنون فرم‌ها را وصل کنید"
       }
     },
     "line": {
       "seo": {
-        "title": "LINE Integration - Seasalt.ai Solutions",
-        "description": "See how Seasalt.ai helps businesses improve customer communications and drive growth through LINE integration for Asian markets."
+        "title": "ادغام LINE - راه‌حل‌های Seasalt.ai",
+        "description": "ببینید چگونه Seasalt.ai به کسب‌وکارها کمک می‌کند تا ارتباطات مشتری را بهبود بخشند و از طریق ادغام LINE برای بازارهای آسیایی رشد کنند."
       },
       "navigation": {
-        "backToChannels": "[FA]Back to Channels"
+        "backToChannels": "بازگشت به کانال‌ها"
       },
       "hero": {
-        "title": "[FA]Dominate Asian Markets with LINE Integration",
-        "subtitle": "[FA]Connect with over 200 million LINE users across Asia with AI-powered conversations and business messaging. Perfect for businesses targeting Japanese, Taiwanese, Thai, and Korean markets.",
+        "title": "با ادغام LINE بر بازارهای آسیایی تسلط پیدا کنید",
+        "subtitle": "با بیش از ۲۰۰ میلیون کاربر LINE در سراسر آسیا با مکالمات مبتنی بر هوش مصنوعی و پیام‌رسانی تجاری ارتباط برقرار کنید. مناسب برای کسب‌وکارهایی که بازارهای ژاپن، تایوان، تایلند و کره را هدف قرار داده‌اند.",
         "cta": {
-          "startIntegration": "[FA]Start LINE Integration",
-          "seeDemo": "[FA]See Demo"
+          "startIntegration": "شروع ادغام LINE",
+          "seeDemo": "مشاهده دمو"
         },
         "demo": {
-          "title": "[FA]LINE Business",
-          "customer": "[FA]商品について質問があります",
-          "customerTranslation": "[FA](I have a question about the product)",
-          "ai1": "[FA]こんにちは！喜んでお手伝いします。どの商品についてですか？",
-          "ai1Translation": "[FA](Hello! I'm happy to help. Which product?)",
-          "stickerMessage": "[FA]Sticker: Thank you!",
-          "ai2": "[FA]どういたしまして！他にご質問はありますか？",
-          "ai2Translation": "[FA](You're welcome! Any other questions?)"
+          "title": "کسب‌وکار LINE",
+          "customer": "商品について質問があります",
+          "customerTranslation": "(من در مورد محصول سوالی دارم)",
+          "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
+          "ai1Translation": "(سلام! خوشحالم که کمک کنم. کدام محصول؟)",
+          "stickerMessage": "استیکر: متشکرم!",
+          "ai2": "どういたしまして！他にご質問はありますか？",
+          "ai2Translation": "(خواهش می‌کنم! سوال دیگری دارید؟)"
         }
       },
       "marketFocus": {
-        "title": "[FA]Market Focus",
-        "subtitle": "[FA]LINE's dominance in key Asian markets makes it essential for businesses targeting these regions",
-        "activeUsers": "[FA]Active Users",
-        "marketPenetration": "[FA]Market Penetration"
+        "title": "تمرکز بر بازار",
+        "subtitle": "تسلط LINE در بازارهای کلیدی آسیا، آن را برای کسب‌وکارهایی که این مناطق را هدف قرار داده‌اند، ضروری می‌کند",
+        "activeUsers": "کاربران فعال",
+        "marketPenetration": "نفوذ در بازار"
       },
       "markets": {
         "JP": {
-          "country": "[FA]Japan",
-          "users": "[FA]95M",
-          "penetration": "[FA]75%"
+          "country": "ژاپن",
+          "users": "۹۵ میلیون",
+          "penetration": "۷۵٪"
         },
         "TW": {
-          "country": "[FA]Taiwan",
-          "users": "[FA]21M",
-          "penetration": "[FA]90%"
+          "country": "تایوان",
+          "users": "۲۱ میلیون",
+          "penetration": "۹۰٪"
         },
         "TH": {
-          "country": "[FA]Thailand",
-          "users": "[FA]53M",
-          "penetration": "[FA]76%"
+          "country": "تایلند",
+          "users": "۵۳ میلیون",
+          "penetration": "۷۶٪"
         },
         "KR": {
-          "country": "[FA]South Korea",
-          "users": "[FA]35M",
-          "penetration": "[FA]68%"
+          "country": "کره جنوبی",
+          "users": "۳۵ میلیون",
+          "penetration": "۶۸٪"
         }
       },
       "features": {
-        "title": "[FA]LINE Business Features",
-        "subtitle": "[FA]Leverage LINE's unique features for business communication and customer engagement",
+        "title": "ویژگی‌های کسب‌وکار LINE",
+        "subtitle": "از ویژگی‌های منحصر به فرد LINE برای ارتباطات تجاری و تعامل با مشتری استفاده کنید",
         "regionalDominance": {
-          "title": "[FA]Regional Dominance",
-          "description": "[FA]Access to over 200 million LINE users across key Asian markets"
+          "title": "تسلط منطقه‌ای",
+          "description": "دسترسی به بیش از ۲۰۰ میلیون کاربر LINE در بازارهای کلیدی آسیا"
         },
         "officialAccount": {
-          "title": "[FA]LINE Official Account",
-          "description": "[FA]Full integration with LINE Official Account for business messaging"
+          "title": "حساب رسمی LINE",
+          "description": "ادغام کامل با حساب رسمی LINE برای پیام‌رسانی تجاری"
         },
         "richMessaging": {
-          "title": "[FA]Rich Messaging",
-          "description": "[FA]Support for stickers, rich menus, and interactive message formats"
+          "title": "پیام‌رسانی غنی",
+          "description": "پشتیبانی از استیکرها، منوهای غنی و فرمت‌های پیام تعاملی"
         },
         "culturalAdaptation": {
-          "title": "[FA]Cultural Adaptation",
-          "description": "[FA]Localized messaging features optimized for different Asian markets"
+          "title": "انطباق فرهنگی",
+          "description": "ویژگی‌های پیام‌رسانی محلی‌سازی شده برای بازارهای مختلف آسیایی بهینه شده است"
         }
       },
       "businessMessaging": {
-        "title": "[FA]Advanced Business Messaging",
-        "subtitle": "[FA]Take advantage of LINE's rich messaging features for enhanced customer experiences"
+        "title": "پیام‌رسانی تجاری پیشرفته",
+        "subtitle": "از ویژگی‌های پیام‌رسانی غنی LINE برای تجربیات بهتر مشتری استفاده کنید"
       },
       "businessFeatures": {
         "payIntegration": {
-          "title": "[FA]LINE Pay Integration",
-          "description": "[FA]Accept payments directly through LINE for seamless transactions"
+          "title": "ادغام LINE Pay",
+          "description": "برای تراکنش‌های یکپارچه، پرداخت‌ها را مستقیماً از طریق LINE بپذیرید"
         },
         "richMenu": {
-          "title": "[FA]Rich Menu Design",
-          "description": "[FA]Create interactive menus for easy customer navigation"
+          "title": "طراحی منوی غنی",
+          "description": "منوهای تعاملی برای ناوبری آسان مشتری ایجاد کنید"
         },
         "broadcast": {
-          "title": "[FA]Broadcast Messaging",
-          "description": "[FA]Send targeted messages to your LINE followers"
+          "title": "پیام‌رسانی پخش",
+          "description": "پیام‌های هدفمند را برای دنبال‌کنندگان LINE خود ارسال کنید"
         },
         "chatbot": {
-          "title": "[FA]Chatbot Builder",
-          "description": "[FA]Visual chatbot builder optimized for LINE interactions"
+          "title": "سازنده چت‌بات",
+          "description": "سازنده چت‌بات بصری برای تعاملات LINE بهینه شده است"
         }
       },
       "culturalAdaptationSection": {
-        "title": "[FA]Cultural Adaptation",
-        "subtitle": "[FA]Our AI understands cultural nuances and communication styles across different Asian markets"
+        "title": "انطباق فرهنگی",
+        "subtitle": "هوش مصنوعی ما تفاوت‌های فرهنگی و سبک‌های ارتباطی را در بازارهای مختلف آسیایی درک می‌کند"
       },
       "culturalFeatures": {
         "localized": {
-          "title": "[FA]Localized Responses",
-          "description": "[FA]AI responses adapted for local communication styles and cultural preferences"
+          "title": "پاسخ‌های محلی‌سازی شده",
+          "description": "پاسخ‌های هوش مصنوعی برای سبک‌های ارتباطی محلی و ترجیحات فرهنگی اقتباس شده است"
         },
         "multiLanguage": {
-          "title": "[FA]Multi-Language Support",
-          "description": "[FA]Native support for Japanese, Chinese, Thai, Korean, and English"
+          "title": "پشتیبانی چند زبانه",
+          "description": "پشتیبانی بومی از ژاپنی، چینی، تایلندی، کره‌ای و انگلیسی"
         },
         "sticker": {
-          "title": "[FA]Sticker Integration",
-          "description": "[FA]Smart use of LINE stickers and emojis for natural conversations"
+          "title": "ادغام استیکر",
+          "description": "استفاده هوشمند از استیکرها و ایموجی‌های LINE برای مکالمات طبیعی"
         }
       },
       "cta": {
-        "title": "[FA]Ready to Enter Asian Markets?",
-        "subtitle": "[FA]Connect with millions of potential customers across Asia through LINE's dominant messaging platform.",
-        "startIntegration": "[FA]Start LINE Integration"
+        "title": "برای ورود به بازارهای آسیایی آماده‌اید؟",
+        "subtitle": "از طریق پلتفرم پیام‌رسانی غالب LINE با میلیون‌ها مشتری بالقوه در سراسر آسیا ارتباط برقرار کنید.",
+        "startIntegration": "شروع ادغام LINE"
       }
     },
     "websiteWidget": {
       "navigation": {
-        "backToChannels": "[FA]Back to Channels"
+        "backToChannels": "بازگشت به کانال‌ها"
       },
       "seo": {
-        "title": "[FA]Website Widget - Omnichannel Solutions",
-        "description": "[FA]Deploy our omnichannel widget on WordPress, Shopify, Squarespace, Wix, MailerLite, and any website. Give customers choice with unified chat, voice, and messaging."
+        "title": "ویجت وب‌سایت - راه‌حل‌های همه‌کاناله",
+        "description": "ویجت همه‌کاناله ما را در وردپرس، شاپیفای، Squarespace، Wix، MailerLite و هر وب‌سایتی مستقر کنید. با چت، صدا و پیام‌رسانی یکپارچه به مشتریان حق انتخاب دهید."
       },
       "hero": {
-        "title": "[FA]One Widget,",
-        "titleHighlight": "[FA]Every Platform",
-        "subtitle": "[FA]Deploy our omnichannel widget on WordPress, Shopify, Squarespace, Wix, MailerLite, and any website. Give customers choice with unified chat, voice, and messaging.",
+        "title": "یک ویجت،",
+        "titleHighlight": "هر پلتفرم",
+        "subtitle": "ویجت همه‌کاناله ما را در وردپرس، شاپیفای، Squarespace، Wix، MailerLite و هر وب‌سایتی مستقر کنید. با چت، صدا و پیام‌رسانی یکپارچه به مشتریان حق انتخاب دهید.",
         "cta": {
-          "deploy": "[FA]Deploy Widget Now",
-          "demo": "[FA]Book A Demo"
+          "deploy": "اکنون ویجت را مستقر کنید",
+          "demo": "رزرو دمو"
         },
         "widget": {
-          "title": "[FA]Universal Widget",
+          "title": "ویجت جهانی",
           "chat": {
-            "label": "[FA]💬 Chat",
-            "description": "[FA]Instant messaging support"
+            "label": "💬 چت",
+            "description": "پشتیبانی از پیام‌رسانی فوری"
           },
           "voice": {
-            "label": "[FA]📞 Voice",
-            "description": "[FA]One-click voice calls"
+            "label": "📞 صدا",
+            "description": "تماس‌های صوتی با یک کلیک"
           },
           "whatsapp": {
-            "label": "[FA]📱 WhatsApp",
-            "description": "[FA]Direct WhatsApp connection"
+            "label": "📱 واتس‌اپ",
+            "description": "اتصال مستقیم واتس‌اپ"
           },
           "email": {
-            "label": "[FA]📧 Email",
-            "description": "[FA]Contact form integration"
+            "label": "📧 ایمیل",
+            "description": "ادغام فرم تماس"
           }
         }
       },
       "platforms": {
-        "title": "[FA]Works with Every Platform",
-        "subtitle": "[FA]No matter what platform you use, our widget integrates seamlessly with your existing website",
+        "title": "با هر پلتفرمی کار می‌کند",
+        "subtitle": "مهم نیست از چه پلتفرمی استفاده می‌کنید، ویجت ما به طور یکپارچه با وب‌سایت موجود شما ادغام می‌شود",
         "wordpress": {
-          "name": "[FA]WordPress",
-          "description": "[FA]Easy plugin installation for WordPress sites"
+          "name": "وردپرس",
+          "description": "نصب آسان افزونه برای سایت‌های وردپرس"
         },
         "shopify": {
-          "name": "[FA]Shopify",
-          "description": "[FA]Native integration with Shopify stores"
+          "name": "شاپیفای",
+          "description": "ادغام بومی با فروشگاه‌های شاپیفای"
         },
         "squarespace": {
-          "name": "[FA]Squarespace",
-          "description": "[FA]Simple embed code for Squarespace sites"
+          "name": "Squarespace",
+          "description": "کد جاسازی ساده برای سایت‌های Squarespace"
         },
         "wix": {
-          "name": "[FA]Wix",
-          "description": "[FA]Drag-and-drop widget for Wix websites"
+          "name": "Wix",
+          "description": "ویجت کشیدن و رها کردن برای وب‌سایت‌های Wix"
         },
         "mailerlite": {
-          "name": "[FA]MailerLite",
-          "description": "[FA]Direct integration with MailerLite landing pages"
+          "name": "MailerLite",
+          "description": "ادغام مستقیم با صفحات فرود MailerLite"
         },
         "custom": {
-          "name": "[FA]Custom HTML",
-          "description": "[FA]Universal embed code for any website"
+          "name": "HTML سفارشی",
+          "description": "کد جاسازی جهانی برای هر وب‌سایت"
         }
       },
       "features": {
-        "title": "[FA]Advanced Features",
-        "subtitle": "[FA]More than just a chat widget - a complete customer engagement platform",
+        "title": "ویژگی‌های پیشرفته",
+        "subtitle": "بیش از یک ویجت چت - یک پلتفرم کامل تعامل با مشتری",
         "design": {
-          "title": "[FA]Customizable Design",
-          "description": "[FA]Match your brand with custom colors, fonts, and positioning options"
+          "title": "طراحی قابل تنظیم",
+          "description": "با گزینه‌های سفارشی رنگ، فونت و موقعیت، با برند خود مطابقت دهید"
         },
         "mobile": {
-          "title": "[FA]Mobile Responsive",
-          "description": "[FA]Perfect experience across all devices and screen sizes"
+          "title": "پاسخگوی موبایل",
+          "description": "تجربه عالی در همه دستگاه‌ها و اندازه‌های صفحه"
         },
         "nocode": {
-          "title": "[FA]No-Code Setup",
-          "description": "[FA]Add to any website in under 5 minutes without technical knowledge"
+          "title": "راه‌اندازی بدون کد",
+          "description": "بدون دانش فنی در کمتر از ۵ دقیقه به هر وب‌سایتی اضافه کنید"
         },
         "analytics": {
-          "title": "[FA]Advanced Analytics",
-          "description": "[FA]Track visitor engagement, conversion rates, and chat performance"
+          "title": "تجزیه و تحلیل پیشرفته",
+          "description": "تعامل بازدیدکنندگان، نرخ تبدیل و عملکرد چت را پیگیری کنید"
         }
       },
       "styles": {
-        "title": "[FA]Choose Your Style",
-        "subtitle": "[FA]Multiple widget styles to match your website design and user experience goals",
+        "title": "سبک خود را انتخاب کنید",
+        "subtitle": "چندین سبک ویجت برای مطابقت با طراحی وب‌سایت و اهداف تجربه کاربری شما",
         "chatBubble": {
-          "name": "[FA]Chat Bubble",
-          "description": "[FA]Classic floating chat bubble in bottom corner"
+          "name": "حباب چت",
+          "description": "حباب چت شناور کلاسیک در گوشه پایین"
         },
         "slidePanel": {
-          "name": "[FA]Slide-in Panel",
-          "description": "[FA]Elegant slide-in panel from the side"
+          "name": "پنل کشویی",
+          "description": "پنل کشویی زیبا از کنار"
         },
         "embeddedForm": {
-          "name": "[FA]Embedded Form",
-          "description": "[FA]Inline contact form within page content"
+          "name": "فرم جاسازی شده",
+          "description": "فرم تماس درون خطی در محتوای صفحه"
         },
         "fullModal": {
-          "name": "[FA]Full-Screen Modal",
-          "description": "[FA]Attention-grabbing full-screen overlay"
+          "name": "مودال تمام صفحه",
+          "description": "پوشش تمام صفحه جلب توجه کننده"
         }
       },
       "benefits": {
-        "title": "[FA]Why Choose Our Widget?",
+        "title": "چرا ویجت ما را انتخاب کنید؟",
         "switching": {
-          "title": "[FA]Channel Switching",
-          "description": "[FA]Seamless transition between chat, voice, and messaging without losing context"
+          "title": "تغییر کانال",
+          "description": "انتقال یکپارچه بین چت، صدا و پیام‌رسانی بدون از دست دادن زمینه"
         },
         "queue": {
-          "title": "[FA]Queue Management",
-          "description": "[FA]Intelligent routing based on agent availability and customer priority"
+          "title": "مدیریت صف",
+          "description": "مسیریابی هوشمند بر اساس در دسترس بودن عامل و اولویت مشتری"
         },
         "global": {
-          "title": "[FA]Global Support",
-          "description": "[FA]Multi-language support and timezone-aware routing for international customers"
+          "title": "پشتیبانی جهانی",
+          "description": "پشتیبانی چند زبانه و مسیریابی آگاه از منطقه زمانی برای مشتریان بین‌المللی"
         }
       },
       "cta": {
-        "title": "[FA]Ready to Deploy Your Widget?",
-        "subtitle": "[FA]Add powerful omnichannel communication to your website in under 5 minutes. No coding required.",
-        "getWidget": "[FA]Get Widget Code"
+        "title": "برای استقرار ویجت خود آماده‌اید؟",
+        "subtitle": "ارتباطات همه‌کاناله قدرتمند را در کمتر از ۵ دقیقه به وب‌سایت خود اضافه کنید. بدون نیاز به کدنویسی.",
+        "getWidget": "دریافت کد ویجت"
       }
     }
   },
   "comparison": {
-    "title": "Why Growing Businesses Choose Seasalt.ai Over Other Alternatives",
-    "description": "[FA]See how we compare with other solutions. We are the only platform that delivers enterprise-grade features with the simplicity small businesses need.",
-    "recommended": "[FA]Recommended",
+    "title": "چرا کسب‌وکارهای در حال رشد Seasalt.ai را به جای سایر گزینه‌ها انتخاب می‌کنند؟",
+    "description": "ببینید ما چگونه با سایر راهکارها مقایسه می‌شویم. ما تنها پلتفرمی هستیم که ویژگی‌های سطح سازمانی را با سادگی مورد نیاز کسب‌وکارهای کوچک ارائه می‌دهد.",
+    "recommended": "توصیه شده",
     "table": {
       "headers": {
-        "platform": "[FA]Platform",
-        "startingPrice": "[FA]Starting Price",
-        "pricingModel": "[FA]Pricing Model",
-        "unifiedVoiceDigital": "[FA]Unified Voice and Digital",
-        "aiCapabilities": "[FA]AI Capabilities",
-        "bestFor": "[FA]Best For"
+        "platform": "پلتفرم",
+        "startingPrice": "قیمت پایه",
+        "pricingModel": "مدل قیمت‌گذاری",
+        "unifiedVoiceDigital": "صدای یکپارچه و دیجیتال",
+        "aiCapabilities": "قابلیت‌های هوش مصنوعی",
+        "bestFor": "بهترین برای"
       }
     },
     "competitors": {
       "seasalt": {
-        "startingPrice": "[FA]$20/agent/month",
-        "pricingModel": "[FA]Simple per-user pricing",
-        "unifiedVoiceDigital": "[FA]✅ Yes, native support",
-        "aiCapabilities": "[FA]✅ Yes, native voice and chatbot",
-        "bestFor": "[FA]SMBs that need an affordable truly all-in-one platform."
+        "startingPrice": "۲۰ دلار برای هر کارگزار در ماه",
+        "pricingModel": "قیمت‌گذاری ساده برای هر کاربر",
+        "unifiedVoiceDigital": "✅ بله، پشتیبانی بومی",
+        "aiCapabilities": "✅ بله، صدای بومی و چت‌بات",
+        "bestFor": "کسب‌وکارهای کوچک و متوسطی که به یک پلتفرم واقعاً یکپارچه و مقرون‌به‌صرفه نیاز دارند."
       },
       "aircall": {
-        "startingPrice": "[FA]$30/user/month",
-        "pricingModel": "[FA]Per-user + add-ons",
-        "unifiedVoiceDigital": "[FA]⚠️ Voice + WhatsApp (add-on)",
-        "aiCapabilities": "[FA]⚠️ AI is a paid add-on",
-        "bestFor": "[FA]Sales teams that can afford multiple add-ons and meet the 3-user minimum."
+        "startingPrice": "۳۰ دلار برای هر کاربر در ماه",
+        "pricingModel": "هر کاربر + افزونه‌ها",
+        "unifiedVoiceDigital": "⚠️ صدا + واتس‌اپ (افزونه)",
+        "aiCapabilities": "⚠️ هوش مصنوعی یک افزونه پولی است",
+        "bestFor": "تیم‌های فروشی که توانایی پرداخت چندین افزونه را دارند و حداقل ۳ کاربر دارند."
       },
       "ringcentral": {
-        "startingPrice": "[FA]$65/agent/month",
-        "pricingModel": "[FA]Complex tiering",
-        "unifiedVoiceDigital": "[FA]❌ Separate products",
-        "aiCapabilities": "[FA]✅ Yes (AI-powered CCaaS)",
-        "bestFor": "[FA]Large companies needing an extensive UCaaS platform with separate CCaaS."
+        "startingPrice": "۶۵ دلار برای هر کارگزار در ماه",
+        "pricingModel": "ردیه‌بندی پیچیده",
+        "unifiedVoiceDigital": "❌ محصولات جداگانه",
+        "aiCapabilities": "✅ بله (CCaaS مبتنی بر هوش مصنوعی)",
+        "bestFor": "شرکت‌های بزرگی که به یک پلتفرم گسترده UCaaS با CCaaS جداگانه نیاز دارند."
       },
       "genesys": {
-        "startingPrice": "[FA]$75/user/month",
-        "pricingModel": "[FA]Per-user + high minimums",
-        "unifiedVoiceDigital": "[FA]✅ Yes (in premium plans)",
-        "aiCapabilities": "[FA]✅ Yes (complex token system)",
-        "bestFor": "[FA]Enterprises with dedicated contact center teams and budgets."
+        "startingPrice": "۷۵ دلار برای هر کاربر در ماه",
+        "pricingModel": "هر کاربر + حداقل‌های بالا",
+        "unifiedVoiceDigital": "✅ بله (در طرح‌های پرمیوم)",
+        "aiCapabilities": "✅ بله (سیستم توکن پیچیده)",
+        "bestFor": "شرکت‌های بزرگی با تیم‌ها و بودجه‌های اختصاصی مرکز تماس."
       },
       "five9": {
-        "startingPrice": "[FA]$119/user/month",
-        "pricingModel": "[FA]Per-user + packages",
-        "unifiedVoiceDigital": "[FA]✅ Yes (in premium plans)",
-        "aiCapabilities": "[FA]✅ Yes (advanced AI)",
-        "bestFor": "[FA]Large outbound-focused contact centers needing enterprise-level tools."
+        "startingPrice": "۱۱۹ دلار برای هر کاربر در ماه",
+        "pricingModel": "هر کاربر + بسته‌ها",
+        "unifiedVoiceDigital": "✅ بله (در طرح‌های پرمیوم)",
+        "aiCapabilities": "✅ بله (هوش مصنوعی پیشرفته)",
+        "bestFor": "مراکز تماس بزرگ متمرکز بر خروجی که به ابزارهای سطح سازمانی نیاز دارند."
       },
       "googleVoice": {
-        "startingPrice": "[FA]$10/user/month",
-        "pricingModel": "[FA]Per-user + Workspace fee",
-        "unifiedVoiceDigital": "[FA]❌ No",
-        "aiCapabilities": "[FA]❌ No (voicemail transcription only)",
-        "bestFor": "[FA]Solo entrepreneurs who need a basic standalone phone number (US only)."
+        "startingPrice": "۱۰ دلار برای هر کاربر در ماه",
+        "pricingModel": "هر کاربر + هزینه فضای کاری",
+        "unifiedVoiceDigital": "❌ خیر",
+        "aiCapabilities": "❌ خیر (فقط رونویسی پست صوتی)",
+        "bestFor": "کارآفرینان مستقلی که به یک شماره تلفن مستقل و پایه نیاز دارند (فقط در ایالات متحده)."
       }
     },
     "cta": {
-      "seeAllComparisons": "[FA]See all detailed comparisons"
+      "seeAllComparisons": "مشاهده همه مقایسه‌های دقیق"
     }
   },
   "industriesData": {
     "ecommerce": {
-      "title": "[FA]E-commerce",
-      "headline": "[FA]Recover Abandoned Carts & Answer Order Questions 24/7",
+      "title": "تجارت الکترونیک",
+      "headline": "بازیابی سبدهای خرید رها شده و پاسخ به سوالات سفارش به صورت 24/7",
       "benefits": [
-        "[FA]Automated order status updates via WhatsApp & SMS",
-        "[FA]AI handles \"Where's my package?\" queries instantly",
-        "[FA]Recover 15%+ of abandoned carts with smart follow-ups",
-        "[FA]Shopify & Squarespace integrations included"
+        "به‌روزرسانی خودکار وضعیت سفارش از طریق واتس‌اپ و پیامک",
+        "هوش مصنوعی فوراً به درخواست‌های \"بسته‌ی من کجاست؟\" رسیدگی می‌کند",
+        "بازیابی بیش از ۱۵ درصد از سبدهای خرید رها شده با پیگیری‌های هوشمند",
+        "شامل یکپارچه‌سازی با Shopify و Squarespace"
       ]
     },
     "healthcare": {
-      "title": "[FA]Healthcare",
-      "headline": "[FA]Book Patient Appointments & Send Reminders Automatically",
+      "title": "مراقبت‌های بهداشتی",
+      "headline": "رزرو نوبت بیمار و ارسال خودکار یادآوری",
       "benefits": [
-        "[FA]HIPAA-compliant messaging across all channels",
-        "[FA]Automated appointment confirmations & reminders",
-        "[FA]AI pre-screens patient inquiries before routing",
-        "[FA]Reduce no-shows by 25% with smart notifications"
+        "پیام‌رسانی سازگار با HIPAA در تمام کانال‌ها",
+        "تأیید و یادآوری خودکار قرار ملاقات",
+        "هوش مصنوعی درخواست‌های بیمار را قبل از مسیریابی غربالگری می‌کند",
+        "کاهش ۲۵ درصدی عدم حضور با اعلان‌های هوشمند"
       ]
     },
     "realEstate": {
-      "title": "[FA]Real Estate",
-      "headline": "[FA]Never Miss a Lead & Schedule Showings via Text, Chat, or Phone",
+      "title": "املاک و مستغلات",
+      "headline": "هرگز فرصتی را از دست ندهید و بازدیدها را از طریق پیامک، چت یا تلفن برنامه‌ریزی کنید",
       "benefits": [
-        "[FA]Instant responses to property inquiries 24/7",
-        "[FA]Automated showing appointments via AI",
-        "[FA]Lead qualification before human handoff",
-        "[FA]WhatsApp virtual tours and property photos"
+        "پاسخ فوری به سوالات ملک به صورت 24/7",
+        "قرارهای بازدید خودکار از طریق هوش مصنوعی",
+        "ارزیابی صلاحیت مشتری قبل از تحویل به کارشناس انسانی",
+        "تورهای مجازی واتس‌اپ و عکس‌های ملک"
       ]
     },
     "restaurants": {
-      "title": "[FA]Restaurants & Hospitality",
-      "headline": "[FA]Take Reservations & Handle Orders Across All Channels",
+      "title": "رستوران‌ها و هتلداری",
+      "headline": "رزرو و رسیدگی به سفارش‌ها در تمام کانال‌ها",
       "benefits": [
-        "[FA]Automated reservation booking via phone & chat",
-        "[FA]Menu questions answered instantly by AI",
-        "[FA]Order confirmations sent via SMS & WhatsApp",
-        "[FA]Handle delivery inquiries without staff interruption"
+        "رزرو خودکار از طریق تلفن و چت",
+        "پاسخ فوری هوش مصنوعی به سؤالات منو",
+        "ارسال تأییدیه سفارش از طریق پیامک و واتس‌اپ",
+        "رسیدگی به سوالات تحویل بدون وقفه در کار کارکنان"
       ]
     },
     "education": {
-      "title": "[FA]Education & Training",
-      "headline": "[FA]Streamline Student Communications & Course Inquiries",
+      "title": "آموزش و پرورش",
+      "headline": "ساده‌سازی ارتباطات دانشجویی و سوالات دوره",
       "benefits": [
-        "[FA]Automated course enrollment and scheduling",
-        "[FA]AI handles common student questions 24/7",
-        "[FA]Parent-teacher communication via WhatsApp",
-        "[FA]Event notifications and reminders via SMS"
+        "ثبت‌نام و زمان‌بندی خودکار دوره",
+        "هوش مصنوعی به سوالات متداول دانشجویان به صورت 24/7 رسیدگی می‌کند",
+        "ارتباط والدین و معلمان از طریق واتس‌اپ",
+        "اعلان رویدادها و یادآوری از طریق پیامک"
       ]
     },
     "automotive": {
-      "title": "[FA]Automotive & Services",
-      "headline": "[FA]Book Service Appointments & Handle Customer Inquiries",
+      "title": "خودرو و خدمات",
+      "headline": "رزرو نوبت خدمات و رسیدگی به سوالات مشتری",
       "benefits": [
-        "[FA]Automated service appointment booking",
-        "[FA]Vehicle maintenance reminders via SMS",
-        "[FA]AI handles parts availability questions",
-        "[FA]Service completion notifications with photos"
+        "رزرو خودکار نوبت خدمات",
+        "یادآوری تعمیر و نگهداری خودرو از طریق پیامک",
+        "هوش مصنوعی به سوالات مربوط به موجودی قطعات پاسخ می‌دهد",
+        "اعلان‌های تکمیل خدمات همراه با عکس"
       ]
     },
     "professional": {
-      "title": "[FA]Professional Services",
-      "headline": "[FA]Manage Client Communications & Consultation Bookings",
+      "title": "خدمات حرفه‌ای",
+      "headline": "مدیریت ارتباطات مشتری و رزرو مشاوره",
       "benefits": [
-        "[FA]Automated consultation scheduling",
-        "[FA]Client intake forms via chat",
-        "[FA]Document sharing through secure channels",
-        "[FA]Follow-up reminders for appointments"
+        "زمان‌بندی خودکار مشاوره",
+        "فرم‌های پذیرش مشتری از طریق چت",
+        "اشتراک‌گذاری اسناد از طریق کانال‌های امن",
+        "یادآوری‌های پیگیری برای قرارها"
       ]
     },
     "financial": {
-      "title": "[FA]Financial Services",
-      "headline": "[FA]Secure Client Communications & Appointment Management",
+      "title": "خدمات مالی",
+      "headline": "ارتباطات امن با مشتری و مدیریت قرار ملاقات",
       "benefits": [
-        "[FA]FINRA-compliant messaging and recording",
-        "[FA]Automated appointment confirmations",
-        "[FA]Secure document collection via chat",
-        "[FA]Client onboarding workflow automation"
+        "پیام‌رسانی و ضبط سازگار با FINRA",
+        "تأیید خودکار قرار ملاقات",
+        "جمع‌آوری اسناد امن از طریق چت",
+        "اتوماسیون گردش کار پذیرش مشتری"
       ]
     },
     "educationTraining": {
-      "title": "[FA]Education & Training",
-      "headline": "[FA]Streamline Your Educational Institution with Comprehensive Management Solutions",
+      "title": "آموزش و پرورش",
+      "headline": "موسسه آموزشی خود را با راهکارهای مدیریتی جامع ساده کنید",
       "benefits": [
-        "[FA]Automated course enrollment and scheduling",
-        "[FA]AI handles common student questions 24/7",
-        "[FA]Parent-teacher communication via WhatsApp",
-        "[FA]Event notifications and reminders via SMS"
-      ],
-      "benefits[0]": "[FA]Simplified student enrollment and record management",
-      "benefits[1]": "[FA]Automated scheduling and class management",
-      "benefits[2]": "[FA]Enhanced parent-teacher communication tools",
-      "benefits[3]": "[FA]Comprehensive reporting and analytics"
+        "ثبت‌نام و مدیریت سوابق دانشجویی ساده شده",
+        "زمان‌بندی و مدیریت خودکار کلاس",
+        "ابزارهای ارتباطی پیشرفته والدین و معلمان",
+        "گزارش‌دهی و تحلیل جامع"
+      ]
     }
   },
   "productsData": {
     "seachat": {
       "title": "SeaChat",
-      "description": "[FA]Respond to customers 24/7"
+      "description": "پاسخگویی ۲۴/۷ به مشتریان"
     },
     "seax": {
       "title": "SeaX",
-      "description": "[FA]Outreach to customers in bulk"
+      "description": "ارتباط گسترده با مشتریان"
     },
     "seameet": {
       "title": "SeaMeet",
-      "description": "[FA]Copilot for meetings & calls"
+      "description": "دستیار هوشمند برای جلسات و تماس‌ها"
     },
     "seavoice": {
       "title": "SeaVoice",
-      "description": "[FA]AI voice agents for calls",
+      "description": "اپراتور صوتی هوش مصنوعی برای تماس‌ها",
       "subProducts": {
-        "tts": "[FA]Text To Speech",
-        "stt": "[FA]Speech To Text",
-        "discord": "[FA]Discord STT Bot"
+        "tts": "تبدیل متن به گفتار",
+        "stt": "تبدیل گفتار به متن",
+        "discord": "ربات تبدیل گفتار به متن دیسکورد"
       }
     }
   },
   "solutionsData": {
     "salesMarketing": {
-      "title": "[FA]For Sales & Marketing"
+      "title": "برای فروش و بازاریابی"
     },
     "customerSupport": {
-      "title": "[FA]For Customer Support"
+      "title": "برای پشتیبانی مشتریان"
     },
     "aiAutomation": {
-      "title": "[FA]AI & Automation"
+      "title": "هوش مصنوعی و اتوماسیون"
     },
     "smeOwners": {
-      "title": "[FA]For SME Owners"
+      "title": "برای صاحبان کسب‌وکارهای کوچک و متوسط"
     }
   }
 }

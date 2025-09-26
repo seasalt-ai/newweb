@@ -1,922 +1,922 @@
 {
   "seachat": {
     "common": {
-      "getStarted": "[FA]Get Started Free",
-      "signIn": "[FA]Sign In",
-      "learnMore": "[FA]Learn More",
-      "readMore": "[FA]Read More",
-      "viewAll": "[FA]View All Articles",
-      "tryNow": "[FA]Try Now",
-      "contactUs": "[FA]Contact Us",
-      "subscribe": "[FA]Subscribe",
-      "search": "[FA]Search",
-      "back": "[FA]Back"
+      "getStarted": "شروع رایگان",
+      "signIn": "ورود",
+      "learnMore": "بیشتر بدانید",
+      "readMore": "بیشتر بخوانید",
+      "viewAll": "مشاهده همه مقالات",
+      "tryNow": "اکنون امتحان کنید",
+      "contactUs": "تماس با ما",
+      "subscribe": "اشتراک",
+      "search": "جستجو",
+      "back": "بازگشت"
     },
     "header": {
-      "features": "[FA]Features",
-      "integrations": "[FA]Integrations",
-      "solutions": "[FA]Solutions",
-      "pricing": "[FA]Pricing",
-      "blog": "[FA]Blog",
-      "language": "[FA]Language",
+      "features": "ویژگی‌ها",
+      "integrations": "ادغام‌ها",
+      "solutions": "راهکارها",
+      "pricing": "قیمت‌گذاری",
+      "blog": "وبلاگ",
+      "language": "زبان",
       "featuresDropdown": {
-        "humanAgents": "[FA]Human Agent Chat",
-        "aiAutomation": "[FA]AI Automation",
-        "advancedAI": "[FA]Advanced AI Features",
-        "knowledgeBase": "[FA]Knowledge Base",
-        "voiceAgents": "[FA]Voice Agents",
-        "analytics": "[FA]Analytics & Insights",
-        "omnichannel": "[FA]Omnichannel Support",
-        "api": "[FA]API & Developer Tools"
+        "humanAgents": "چت با نماینده انسانی",
+        "aiAutomation": "اتوماسیون هوش مصنوعی",
+        "advancedAI": "ویژگی‌های پیشرفته هوش مصنوعی",
+        "knowledgeBase": "پایگاه دانش",
+        "voiceAgents": "نمایندگان صوتی",
+        "analytics": "تجزیه و تحلیل و بینش",
+        "omnichannel": "پشتیبانی همه‌کاناله",
+        "api": "API و ابزارهای توسعه‌دهنده"
       },
       "integrationsDropdown": {
-        "websites": "[FA]Website Platforms",
-        "crm": "[FA]CRM Systems",
-        "ecommerce": "[FA]E-commerce",
-        "socialMedia": "[FA]Social Media",
-        "communication": "[FA]Communication Tools",
-        "marketing": "[FA]Marketing Platforms",
-        "calendar": "[FA]Calendar & Scheduling",
-        "api": "[FA]Custom API"
+        "websites": "پلتفرم‌های وب‌سایت",
+        "crm": "سیستم‌های CRM",
+        "ecommerce": "تجارت الکترونیک",
+        "socialMedia": "رسانه‌های اجتماعی",
+        "communication": "ابزارهای ارتباطی",
+        "marketing": "پلتفرم‌های بازاریابی",
+        "calendar": "تقویم و زمان‌بندی",
+        "api": "API سفارشی"
       },
       "solutionsDropdown": {
-        "ecommerce": "[FA]E-commerce & Retail",
-        "healthcare": "[FA]Healthcare",
-        "fintech": "[FA]Financial Services",
-        "education": "[FA]Education",
-        "realEstate": "[FA]Real Estate",
-        "travel": "[FA]Travel & Hospitality",
-        "saas": "[FA]SaaS & Technology",
-        "smallBusiness": "[FA]Small Business"
+        "ecommerce": "تجارت الکترونیک و خرده‌فروشی",
+        "healthcare": "مراقبت‌های بهداشتی",
+        "fintech": "خدمات مالی",
+        "education": "آموزش",
+        "realEstate": "املاک و مستغلات",
+        "travel": "سفر و مهمان‌نوازی",
+        "saas": "SaaS و فناوری",
+        "smallBusiness": "کسب‌وکارهای کوچک"
       },
-      "backToMainSite": "[FA]Back to Main Site",
-      "viewAllIntegrations": "[FA]View All Integrations →",
-      "viewAllSolutions": "[FA]View All Solutions →"
+      "backToMainSite": "بازگشت به سایت اصلی",
+      "viewAllIntegrations": "مشاهده همه ادغام‌ها →",
+      "viewAllSolutions": "مشاهده همه راهکارها →"
     },
     "hero": {
       "title": {
-        "line1": "[FA]Respond To",
-        "line2": "[FA]Millions 24/7"
+        "line1": "پاسخ به",
+        "line2": "میلیون‌ها نفر ۲۴/۷"
       },
-      "subtitle": "[FA]Live Agents",
-      "description": "[FA]Transform customer support with our omnichannel platform. Begin with human agents at zero cost, then seamlessly integrate AI automation as you grow.",
-      "startFree": "[FA]Start Free Now",
-      "exploreAI": "[FA]Book A Demo",
-      "alwaysFree": "[FA]Always Free Plan",
-      "integrations": "[FA]30+ Integrations",
-      "setup": "[FA]Setup in 2 Minutes",
+      "subtitle": "نمایندگان زنده",
+      "description": "پشتیبانی مشتری را با پلتفرم همه‌کاناله ما متحول کنید. با نمایندگان انسانی با هزینه صفر شروع کنید، سپس با رشد خود، اتوماسیون هوش مصنوعی را به طور یکپارچه ادغام کنید.",
+      "startFree": "اکنون رایگان شروع کنید",
+      "exploreAI": "رزرو دمو",
+      "alwaysFree": "طرح همیشه رایگان",
+      "integrations": "بیش از ۳۰ ادغام",
+      "setup": "راه‌اندازی در ۲ دقیقه",
       "chat": {
-        "userMessage": "[FA]Hi! I need help with my order",
-        "botMessage": "[FA]Hello! I'd be happy to help you with your order. Could you please provide your order number?",
-        "userMessage2": "[FA]I can help you connect with a human agent or provide instant AI assistance. How would you prefer to proceed?",
-        "typePlaceholder": "[FA]Type your message...",
-        "online": "[FA]Online",
-        "supportTitle": "SeaChat Support"
+        "userMessage": "سلام! برای سفارشم به کمک نیاز دارم",
+        "botMessage": "سلام! خوشحال می‌شوم در مورد سفارشتان به شما کمک کنم. لطفاً شماره سفارش خود را ارائه دهید؟",
+        "userMessage2": "می‌توانم شما را به یک نماینده انسانی متصل کنم یا کمک فوری هوش مصنوعی ارائه دهم. ترجیح می‌دهید چگونه ادامه دهید؟",
+        "typePlaceholder": "پیام خود را تایپ کنید...",
+        "online": "آنلاین",
+        "supportTitle": "پشتیبانی SeaChat"
       },
-      "badge": "[FA]Start Free with Live Agents",
+      "badge": "با نمایندگان زنده رایگان شروع کنید",
       "animationSection": {
-        "title": "SeaChat in Action",
-        "autoMode": "[FA]Auto",
-        "manualMode": "[FA]Manual"
+        "title": "SeaChat در عمل",
+        "autoMode": "خودکار",
+        "manualMode": "دستی"
       },
       "animations": {
         "phoneVoice": {
-          "name": "[FA]Phone Voice AI",
-          "description": "[FA]AI agents handling phone conversations"
+          "name": "هوش مصنوعی صدای تلفن",
+          "description": "نمایندگان هوش مصنوعی در حال رسیدگی به مکالمات تلفنی"
         },
         "interactive": {
-          "name": "[FA]Interactive Channels",
-          "description": "[FA]Click to see different conversations"
+          "name": "کانال‌های تعاملی",
+          "description": "برای دیدن مکالمات مختلف کلیک کنید"
         },
         "multiChannel": {
-          "name": "[FA]Multi-Channel Flow",
-          "description": "[FA]Messages flowing between different platforms"
+          "name": "جریان چند کاناله",
+          "description": "پیام‌هایی که بین پلتفرم‌های مختلف جریان دارند"
         },
         "agentToAI": {
-          "name": "[FA]Human-to-AI Handoff",
-          "description": "[FA]Start with humans, scale with AI"
+          "name": "تحویل از انسان به هوش مصنوعی",
+          "description": "با انسان شروع کنید، با هوش مصنوعی مقیاس‌بندی کنید"
         },
         "learning": {
-          "name": "[FA]AI Learning Journey",
-          "description": "[FA]Watch AI get smarter from content"
+          "name": "سفر یادگیری هوش مصنوعی",
+          "description": "هوشمندتر شدن هوش مصنوعی از محتوا را تماشا کنید"
         },
         "dashboard": {
-          "name": "[FA]Real-Time Analytics",
-          "description": "[FA]Live performance metrics"
+          "name": "تجزیه و تحلیل در زمان واقعی",
+          "description": "معیارهای عملکرد زنده"
         }
       }
     },
     "keyFeatures": {
-      "title": "Why Choose SeaChat?",
-      "subtitle": "[FA]Experience the perfect blend of human touch and AI efficiency. Start free, scale smart, succeed faster.",
+      "title": "چرا SeaChat را انتخاب کنید؟",
+      "subtitle": "ترکیب کاملی از لمس انسانی و کارایی هوش مصنوعی را تجربه کنید. رایگان شروع کنید، هوشمندانه مقیاس‌بندی کنید، سریعتر موفق شوید.",
       "humanAgents": {
-        "title": "[FA]Truly Free Human Agents 🍺 🎙️",
-        "description": "[FA]Start with 1 human agent free for life—yes, for life! No caps, no limits, no catches.",
-        "badge": "[FA]Free Forever",
+        "title": "نمایندگان انسانی واقعاً رایگان 🍺 🎙️",
+        "description": "با ۱ نماینده انسانی رایگان برای همیشه شروع کنید—بله، برای همیشه! بدون محدودیت، بدون سقف، بدون هیچ مشکلی.",
+        "badge": "برای همیشه رایگان",
         "highlights": [
-          "[FA]Unlimited chat conversations",
-          "[FA]Unlimited chat history access",
-          "[FA]Unlimited contacts & network building",
-          "[FA]Freedom to export all your data"
+          "مکالمات چت نامحدود",
+          "دسترسی نامحدود به تاریخچه چت",
+          "مخاطبین و شبکه‌سازی نامحدود",
+          "آزادی در صادرات تمام داده‌های شما"
         ]
       },
       "aiAutomation": {
-        "title": "[FA]Seamless AI Automation",
-        "description": "[FA]Scale effortlessly with intelligent AI that learns from your conversations and documents.",
+        "title": "اتوماسیون یکپارچه هوش مصنوعی",
+        "description": "با هوش مصنوعی هوشمندی که از مکالمات و اسناد شما یاد می‌گیرد، بدون زحمت مقیاس‌بندی کنید.",
         "highlights": [
-          "[FA]Smart auto-responses",
-          "[FA]Learning from interactions",
-          "[FA]Context-aware replies"
+          "پاسخ‌های خودکار هوشمند",
+          "یادگیری از تعاملات",
+          "پاسخ‌های آگاه از زمینه"
         ]
       },
       "omnichannel": {
-        "title": "[FA]Omni-Channel Connectivity",
-        "description": "[FA]Connect all your communication channels in one unified platform for consistent support.",
+        "title": "اتصال همه‌کاناله",
+        "description": "تمام کانال‌های ارتباطی خود را در یک پلتفرم یکپارچه برای پشتیبانی مداوم متصل کنید.",
         "highlights": [
-          "[FA]30+ integrations",
-          "[FA]Unified inbox",
-          "[FA]Cross-platform sync"
+          "بیش از ۳۰ ادغام",
+          "صندوق ورودی یکپارچه",
+          "همگام‌سازی بین پلتفرمی"
         ]
       },
       "trulyFree": {
-        "title": "[FA]Truly Free Plan as in Free 🍺 & 🎙️",
-        "description": "Introducing SeaChat's Human Agent Only Mode: Your Ticket to Unmatched Communication Freedom! We're thrilled to present 1 human agent free for life—yes, you heard that right, for life!",
+        "title": "طرح واقعاً رایگان مانند آبجو و میکروفون رایگان 🍺 & 🎙️",
+        "description": "معرفی حالت فقط نماینده انسانی SeaChat: بلیط شما برای آزادی ارتباطی بی‌نظیر! ما هیجان‌زده‌ایم که ۱ نماینده انسانی رایگان برای همیشه ارائه می‌دهیم—بله، درست شنیدید، برای همیشه!",
         "freeFeatures": {
           "unlimitedChat": {
-            "title": "[FA]Unlimited Chat",
-            "description": "[FA]Engage in as many conversations as you need, with no caps or restrictions."
+            "title": "چت نامحدود",
+            "description": "در هر تعداد مکالمه که نیاز دارید، بدون سقف یا محدودیت، شرکت کنید."
           },
           "unlimitedHistory": {
-            "title": "[FA]Unlimited History",
-            "description": "[FA]Never lose a conversation—access your complete chat history anytime."
+            "title": "تاریخچه نامحدود",
+            "description": "هرگز مکالمه‌ای را از دست ندهید—در هر زمان به تاریخچه کامل چت خود دسترسی داشته باشید."
           },
           "unlimitedContacts": {
-            "title": "[FA]Unlimited Contacts",
-            "description": "[FA]Build your network without any restrictions or contact limits."
+            "title": "مخاطبین نامحدود",
+            "description": "شبکه خود را بدون هیچ محدودیت یا سقف مخاطبی بسازید."
           },
           "freedomToExport": {
-            "title": "[FA]Freedom to Export",
-            "description": "[FA]Your data, your rules—export all your chat history effortlessly."
+            "title": "آزادی در صادرات",
+            "description": "داده‌های شما، قوانین شما—تمام تاریخچه چت خود را بدون زحمت صادر کنید."
           }
         },
-        "whyChoose": "Why Choose SeaChat? Because It's Truly Free!",
-        "whatYouGet": "[FA]✅ What You Get FREE Forever:",
+        "whyChoose": "چرا SeaChat را انتخاب کنید؟ چون واقعاً رایگان است!",
+        "whatYouGet": "✅ آنچه برای همیشه رایگان دریافت می‌کنید:",
         "freeForeverFeatures": [
-          "[FA]1 Human Agent for Life",
-          "[FA]Unlimited Chat Conversations",
-          "[FA]Complete Chat History Access",
-          "[FA]Unlimited Contact Management",
-          "[FA]Full Data Export Rights"
+          "۱ نماینده انسانی برای همیشه",
+          "مکالمات چت نامحدود",
+          "دسترسی کامل به تاریخچه چت",
+          "مدیریت نامحدود مخاطبین",
+          "حقوق کامل صادرات داده"
         ],
-        "scaleWhenReady": "[FA]🚀 Scale When Ready:",
+        "scaleWhenReady": "🚀 زمانی که آماده بودید مقیاس‌بندی کنید:",
         "scaleFeatures": [
-          "[FA]Add AI Automation",
-          "[FA]Advanced Integrations",
-          "[FA]Voice Agent Features",
-          "[FA]Enterprise Security",
-          "[FA]Custom Workflows"
+          "افزودن اتوماسیون هوش مصنوعی",
+          "ادغام‌های پیشرفته",
+          "ویژگی‌های نماینده صوتی",
+          "امنیت سازمانی",
+          "گردش کار سفارشی"
         ],
-        "startButton": "[FA]Start Your Free Agent Now - No Credit Card Required!"
+        "startButton": "اکنون نماینده رایگان خود را شروع کنید - نیازی به کارت اعتباری نیست!"
       },
       "statsBar": {
-        "unlimited": "[FA]Unlimited chats forever",
-        "fileTypes": "[FA]30+ file types supported",
-        "setupTime": "[FA]2min average setup time",
-        "availability": "[FA]24/7 AI availability when ready"
+        "unlimited": "چت نامحدود برای همیشه",
+        "fileTypes": "بیش از ۳۰ نوع فایل پشتیبانی می‌شود",
+        "setupTime": "میانگین زمان راه‌اندازی ۲ دقیقه",
+        "availability": "در دسترس بودن هوش مصنوعی ۲۴/۷ در صورت آمادگی"
       }
     },
     "featureTabs": {
-      "title": "[FA]Powerful Features, Simple Setup",
-      "subtitle": "[FA]Explore our comprehensive feature set designed to transform your customer support experience.",
+      "title": "ویژگی‌های قدرتمند، راه‌اندازی ساده",
+      "subtitle": "مجموعه ویژگی‌های جامع ما را که برای تحول تجربه پشتیبانی مشتری شما طراحی شده است، کاوش کنید.",
       "tabs": {
-        "humanAgent": "[FA]Human Agent",
-        "agentChat": "[FA]Agent Chat",
-        "aiAgent": "[FA]AI Agent",
-        "advancedAI": "[FA]Advanced AI",
-        "knowledgeBase": "[FA]Knowledge Base",
-        "integrations": "[FA]Integrations"
+        "humanAgent": "نماینده انسانی",
+        "agentChat": "چت نماینده",
+        "aiAgent": "نماینده هوش مصنوعی",
+        "advancedAI": "هوش مصنوعی پیشرفته",
+        "knowledgeBase": "پایگاه دانش",
+        "integrations": "ادغام‌ها"
       },
       "content": {
         "agentChat": {
-          "title": "[FA]Human Agent Excellence",
-          "subtitle": "[FA]Start with real human support, completely free",
+          "title": "برتری نماینده انسانی",
+          "subtitle": "با پشتیبانی واقعی انسانی، کاملاً رایگان شروع کنید",
           "features": [
-            "[FA]Unlimited free agent hours",
-            "[FA]Real-time conversation management",
-            "[FA]Multi-agent collaboration",
-            "[FA]Advanced labeling and routing",
-            "[FA]Performance analytics",
-            "[FA]Custom workflows"
+            "ساعات نامحدود نماینده رایگان",
+            "مدیریت مکالمه در زمان واقعی",
+            "همکاری چند نماینده",
+            "برچسب‌گذاری و مسیریابی پیشرفته",
+            "تجزیه و تحلیل عملکرد",
+            "گردش کار سفارشی"
           ],
-          "tryFeature": "[FA]Try This Feature",
-          "watchDemo": "[FA]Watch Demo"
+          "tryFeature": "این ویژگی را امتحان کنید",
+          "watchDemo": "مشاهده دمو"
         },
         "aiAgent": {
-          "title": "[FA]Intelligent AI Automation",
-          "subtitle": "[FA]Scale seamlessly with smart AI that learns",
+          "title": "اتوماسیون هوشمند هوش مصنوعی",
+          "subtitle": "با هوش مصنوعی هوشمندی که یاد می‌گیرد، به طور یکپارچه مقیاس‌بندی کنید",
           "features": [
-            "[FA]Context-aware responses",
-            "[FA]Learning from conversations",
-            "[FA]Seamless human handoff",
-            "[FA]Multi-language support",
-            "[FA]Custom AI training",
-            "[FA]Voice agent capabilities"
+            "پاسخ‌های آگاه از زمینه",
+            "یادگیری از مکالمات",
+            "تحویل یکپارچه به انسان",
+            "پشتیبانی چند زبانه",
+            "آموزش سفارشی هوش مصنوعی",
+            "قابلیت‌های نماینده صوتی"
           ],
-          "tryFeature": "[FA]Try This Feature",
-          "watchDemo": "[FA]Watch Demo"
+          "tryFeature": "این ویژگی را امتحان کنید",
+          "watchDemo": "مشاهده دمو"
         },
         "advancedAI": {
-          "title": "[FA]Next-Generation AI Intelligence",
-          "subtitle": "[FA]Advanced AI features for personalized experiences",
+          "title": "هوش مصنوعی نسل بعدی",
+          "subtitle": "ویژگی‌های پیشرفته هوش مصنوعی برای تجربیات شخصی‌سازی شده",
           "features": [
-            "[FA]Retrieval Augmented Generation (RAG)",
-            "[FA]Long-term user memory system",
-            "[FA]Time-aware contextual responses",
-            "[FA]Smart context extraction",
-            "[FA]Referenced chat results",
-            "[FA]Knowledge base refinement"
+            "تولید افزوده بازیابی (RAG)",
+            "سیستم حافظه بلندمدت کاربر",
+            "پاسخ‌های متنی آگاه از زمان",
+            "استخراج هوشمند زمینه",
+            "نتایج چت ارجاع شده",
+            "پالایش پایگاه دانش"
           ],
-          "tryDemo": "[FA]Try Advanced AI Demo",
-          "watchAI": "[FA]Watch AI in Action"
+          "tryDemo": "دموی هوش مصنوعی پیشرفته را امتحان کنید",
+          "watchAI": "هوش مصنوعی را در عمل تماشا کنید"
         },
         "knowledgeBase": {
-          "title": "[FA]Comprehensive Knowledge Hub",
-          "subtitle": "[FA]Upload 30+ file types for instant AI responses",
+          "title": "مرکز دانش جامع",
+          "subtitle": "بیش از ۳۰ نوع فایل را بارگذاری کنید و به هوش مصنوعی اجازه دهید پاسخ‌های غنی و متنی ارائه دهد",
           "features": [
-            "[FA]PDF, Excel, CSV, Word support",
-            "[FA]Website content ingestion",
-            "[FA]Image and video processing",
-            "[FA]Rich response formatting",
-            "[FA]Auto-updating content",
-            "[FA]Version control"
+            "پشتیبانی از PDF، Excel، CSV، Word",
+            "دریافت محتوای وب‌سایت",
+            "پردازش تصویر و ویدیو",
+            "قالب‌بندی پاسخ غنی",
+            "به‌روزرسانی خودکار محتوا",
+            "کنترل نسخه"
           ],
-          "tryFeature": "[FA]Try This Feature",
-          "watchDemo": "[FA]Watch Demo"
+          "tryFeature": "این ویژگی را امتحان کنید",
+          "watchDemo": "مشاهده دمو"
         },
         "integrations": {
-          "title": "[FA]Powerful Integrations",
-          "subtitle": "[FA]Connect with your favorite tools and platforms",
+          "title": "ادغام‌های قدرتمند",
+          "subtitle": "با ابزارها و پلتفرم‌های مورد علاقه خود ارتباط برقرار کنید",
           "features": [
-            "[FA]CRM integrations (Salesforce, HubSpot)",
-            "[FA]Calendar booking (Google, Outlook)",
-            "[FA]E-commerce platforms",
-            "[FA]Marketing tools",
-            "[FA]Custom API access",
-            "[FA]Webhook support"
+            "ادغام‌های CRM (Salesforce، HubSpot)",
+            "رزرو تقویم (Google، Outlook)",
+            "پلتفرم‌های تجارت الکترونیک",
+            "ابزارهای بازاریابی",
+            "دسترسی به API سفارشی",
+            "پشتیبانی از وب‌هوک"
           ],
-          "tryFeature": "[FA]Try This Feature",
-          "watchDemo": "[FA]Watch Demo"
+          "tryFeature": "این ویژگی را امتحان کنید",
+          "watchDemo": "مشاهده دمو"
         }
       },
       "advancedAI": {
         "features": {
           "rag": {
-            "title": "[FA]Retrieval Augmented Generation",
-            "description": "[FA]Keyword, Vector, and Hybrid Search for precise information retrieval",
+            "title": "تولید افزوده بازیابی",
+            "description": "جستجوی کلیدواژه، بردار و ترکیبی برای بازیابی دقیق اطلاعات",
             "details": {
-              "0": "[FA]Semantic vector search",
-              "1": "[FA]Keyword matching",
-              "2": "[FA]Hybrid search algorithms",
-              "3": "[FA]Real-time content indexing"
+              "0": "جستجوی برداری معنایی",
+              "1": "تطبیق کلیدواژه",
+              "2": "الگوریتم‌های جستجوی ترکیبی",
+              "3": "نمایه‌سازی محتوا در زمان واقعی"
             }
           },
           "memory": {
-            "title": "[FA]Long Term Memory",
-            "description": "[FA]Personalized experiences through persistent user memory",
+            "title": "حافظه بلند مدت",
+            "description": "تجربیات شخصی‌سازی شده از طریق حافظه پایدار کاربر",
             "details": {
-              "0": "[FA]User preference tracking",
-              "1": "[FA]Conversation history analysis",
-              "2": "[FA]Behavioral pattern recognition",
-              "3": "[FA]Cross-session continuity"
+              "0": "ردیابی ترجیحات کاربر",
+              "1": "تجزیه و تحلیل تاریخچه مکالمه",
+              "2": "تشخیص الگوی رفتاری",
+              "3": "پیوستگی بین جلسات"
             }
           },
           "timeAware": {
-            "title": "[FA]Time Awareness",
-            "description": "[FA]Context-aware responses based on current time and timezone",
+            "title": "آگاهی از زمان",
+            "description": "پاسخ‌های آگاه از زمینه بر اساس زمان و منطقه زمانی فعلی",
             "details": {
-              "0": "[FA]Real-time timestamp integration",
-              "1": "[FA]Timezone-aware scheduling",
-              "2": "[FA]Time-sensitive recommendations",
-              "3": "[FA]Business hours optimization"
+              "0": "ادغام مهر زمانی واقعی",
+              "1": "زمان‌بندی آگاه از منطقه زمانی",
+              "2": "توصیه‌های حساس به زمان",
+              "3": "بهینه‌سازی ساعات کاری"
             }
           },
           "contextExtraction": {
-            "title": "[FA]Context Extraction",
-            "description": "[FA]Intelligent field mapping for better user comprehension",
+            "title": "استخراج زمینه",
+            "description": "نگاشت هوشمند فیلد برای درک بهتر کاربر",
             "details": {
-              "0": "[FA]Custom field definitions",
-              "1": "[FA]Automatic data extraction",
-              "2": "[FA]User language preferences",
-              "3": "[FA]Dynamic context building"
+              "0": "تعاریف فیلد سفارشی",
+              "1": "استخراج خودکار داده",
+              "2": "ترجیحات زبان کاربر",
+              "3": "ساخت زمینه پویا"
             }
           },
           "referencedResults": {
-            "title": "[FA]Referenced Results",
-            "description": "[FA]Transparent AI responses with source citations",
+            "title": "نتایج ارجاع شده",
+            "description": "پاسخ‌های شفاف هوش مصنوعی با استناد به منبع",
             "details": {
-              "0": "[FA]Source document linking",
-              "1": "[FA]Citation tracking",
-              "2": "[FA]Confidence scoring",
-              "3": "[FA]Fact verification"
+              "0": "پیوند به سند منبع",
+              "1": "ردیابی استناد",
+              "2": "امتیازدهی اطمینان",
+              "3": "تأیید واقعیت"
             }
           },
           "knowledgeRefinement": {
-            "title": "[FA]Knowledge Refinement",
-            "description": "[FA]Continuous improvement of knowledge base accuracy",
+            "title": "پالایش دانش",
+            "description": "بهبود مستمر دقت پایگاه دانش",
             "details": {
-              "0": "[FA]Auto-updating content",
-              "1": "[FA]Quality scoring",
-              "2": "[FA]Relevance optimization",
-              "3": "[FA]Performance analytics"
+              "0": "به‌روزرسانی خودکار محتوا",
+              "1": "امتیازدهی کیفیت",
+              "2": "بهینه‌سازی ارتباط",
+              "3": "تجزیه و تحلیل عملکرد"
             }
           }
         }
       }
     },
     "omnichannelDemo": {
-      "title": "[FA]Deploy Everywhere Your Customers Are",
-      "subtitle": "[FA]Seamlessly connect all your customer touchpoints across websites, social media, and communication platforms. Hover over each channel to see real-time performance metrics.",
-      "messagesPerDay": "[FA]Messages/day",
-      "responseTime": "[FA]Response time",
-      "keyFeatures": "[FA]Key Features",
-      "integrateChannel": "[FA]Integrate",
+      "title": "در هر جایی که مشتریان شما هستند، مستقر شوید",
+      "subtitle": "تمام نقاط تماس مشتری خود را در وب‌سایت‌ها، رسانه‌های اجتماعی و پلتفرم‌های ارتباطی به طور یکپارچه متصل کنید. برای مشاهده معیارهای عملکرد در زمان واقعی، روی هر کانال نگه دارید.",
+      "messagesPerDay": "پیام/روز",
+      "responseTime": "زمان پاسخ",
+      "keyFeatures": "ویژگی‌های کلیدی",
+      "integrateChannel": "ادغام",
       "channels": {
         "website": {
-          "name": "[FA]Website",
-          "description": "[FA]Universal widget that works on any HTML website"
+          "name": "وب‌سایت",
+          "description": "ویجت جهانی که روی هر وب‌سایت HTML کار می‌کند"
         },
         "whatsapp": {
-          "name": "[FA]WhatsApp",
-          "description": "[FA]Connect with customers on the world's most popular messaging app"
+          "name": "واتس‌اپ",
+          "description": "با مشتریان در محبوب‌ترین برنامه پیام‌رسان جهان ارتباط برقرار کنید"
         },
         "instagram": {
-          "name": "[FA]Instagram",
-          "description": "[FA]Manage Instagram DMs and story replies in one unified inbox"
+          "name": "اینستاگرام",
+          "description": "دایرکت‌ها و پاسخ‌های استوری اینستاگرام را در یک صندوق ورودی یکپارچه مدیریت کنید"
         },
         "facebook": {
-          "name": "[FA]Facebook",
-          "description": "[FA]Provide customer support through Facebook's messaging platform"
+          "name": "فیسبوک",
+          "description": "ارائه پشتیبانی مشتری از طریق پلتفرم پیام‌رسانی فیسبوک"
         },
         "line": {
-          "name": "[FA]LINE",
-          "description": "[FA]Connect with customers on the popular Asian messaging platform"
+          "name": "لاین",
+          "description": "با مشتریان در پلتفرم پیام‌رسان محبوب آسیایی ارتباط برقرار کنید"
         },
         "phone": {
-          "name": "[FA]Phone Call",
-          "description": "[FA]Handle voice support with AI voice agents"
+          "name": "تماس تلفنی",
+          "description": "رسیدگی به پشتیبانی صوتی با نمایندگان صوتی هوش مصنوعی"
         },
         "email": {
-          "name": "[FA]Email",
-          "description": "[FA]Manage email tickets with intelligent routing"
+          "name": "ایمیل",
+          "description": "مدیریت تیکت‌های ایمیل با مسیریابی هوشمند"
         },
         "ecommerce": {
-          "name": "[FA]E-commerce",
-          "description": "[FA]Integrate with online stores for order management"
+          "name": "تجارت الکترونیک",
+          "description": "ادغام با فروشگاه‌های آنلاین برای مدیریت سفارش"
         }
       },
       "platformCategories": {
         "website": {
-          "title": "[FA]Website Integration",
-          "description": "[FA]Deploy on any website platform with our universal widget"
+          "title": "ادغام وب‌سایت",
+          "description": "با ویجت جهانی ما در هر پلتفرم وب‌سایتی مستقر شوید"
         },
         "socialMedia": {
-          "title": "[FA]Social Media",
-          "description": "[FA]Connect with customers on their favorite social platforms"
+          "title": "رسانه‌های اجتماعی",
+          "description": "با مشتریان در پلتفرم‌های اجتماعی مورد علاقه آنها ارتباط برقرار کنید"
         },
         "traditional": {
-          "title": "[FA]Traditional Channels",
-          "description": "[FA]Maintain support through classic communication methods"
+          "title": "کانال‌های سنتی",
+          "description": "حفظ پشتیبانی از طریق روش‌های ارتباطی کلاسیک"
         }
       },
       "quickSetup": {
-        "title": "[FA]Ready to Deploy Everywhere?",
-        "subtitle": "[FA]Get started in minutes with our simple integration process",
+        "title": "آماده استقرار در همه جا هستید؟",
+        "subtitle": "با فرآیند ادغام ساده ما در چند دقیقه شروع کنید",
         "steps": [
           {
-            "title": "[FA]Choose Your Channels",
-            "description": "[FA]Select from 8+ deployment options"
+            "title": "کانال‌های خود را انتخاب کنید",
+            "description": "از بین بیش از ۸ گزینه استقرار انتخاب کنید"
           },
           {
-            "title": "[FA]Copy & Paste Code",
-            "description": "[FA]Simple widget installation"
+            "title": "کپی و جای‌گذاری کد",
+            "description": "نصب ساده ویجت"
           },
           {
-            "title": "[FA]Start Chatting",
-            "description": "[FA]Begin supporting customers instantly"
+            "title": "شروع به چت کنید",
+            "description": "فوراً شروع به پشتیبانی از مشتریان کنید"
           }
         ],
-        "button": "[FA]Start Free Deployment"
+        "button": "شروع استقرار رایگان"
       }
     },
     "pricing": {
-      "title": "[FA]Pricing That Grows With You",
-      "subtitle": "[FA]Start completely free with human agents, then add AI when you're ready to scale.",
-      "monthly": "[FA]Monthly",
-      "yearly": "[FA]Yearly",
-      "save": "[FA]Save 20%",
-      "customize": "[FA]Customize Your Plan",
-      "chatVolume": "[FA]Monthly Chat Volume",
-      "agents": "[FA]Number of Agents",
+      "title": "قیمت‌گذاری که با شما رشد می‌کند",
+      "subtitle": "با نمایندگان انسانی کاملاً رایگان شروع کنید، سپس وقتی برای مقیاس‌بندی آماده شدید، هوش مصنوعی را اضافه کنید.",
+      "monthly": "ماهانه",
+      "yearly": "سالیانه",
+      "save": "۲۰٪ تخفیف",
+      "customize": "سفارشی کردن طرح شما",
+      "chatVolume": "حجم چت ماهانه",
+      "agents": "تعداد نمایندگان",
       "plans": {
         "free": {
-          "name": "[FA]Truly Free",
-          "tagline": "[FA]Experience a trial of powerful features",
-          "description": "[FA]Perfect for getting started with human agents",
+          "name": "واقعاً رایگان",
+          "tagline": "آزمایش ویژگی‌های قدرتمند",
+          "description": "ایده‌آل برای شروع با نمایندگان انسانی",
           "features": {
-            "humanAgent": "[FA]1 human agent",
-            "unlimitedHumanChats": "[FA]Unlimited human agent chats",
-            "unlimitedContacts": "[FA]Unlimited contacts",
-            "unlimitedHistory": "[FA]Unlimited chat history",
-            "exportHistory": "[FA]Freedom to export chat history",
-            "channels": "[FA]Channels: WhatsApp Messenger, chat widget",
-            "integrations": "[FA]Integrations: Wix, WordPress, Shopify, Make.com, Squarespace",
-            "aiAgent": "[FA]AI agent with 100 lifetime AI replies:",
-            "aiAgentModel": "[FA]ChatGPT-3.5-turbo",
-            "knowledgeBase": "[FA]Knowledge base includes 20 documents (200KB max) and 250k tokens",
-            "workspace": "[FA]1 workspace"
+            "humanAgent": "۱ نماینده انسانی",
+            "unlimitedHumanChats": "چت‌های نامحدود نماینده انسانی",
+            "unlimitedContacts": "مخاطبین نامحدود",
+            "unlimitedHistory": "تاریخچه چت نامحدود",
+            "exportHistory": "آزادی در صادرات تاریخچه چت",
+            "channels": "کانال‌ها: پیام‌رسان واتس‌اپ، ویجت چت",
+            "integrations": "ادغام‌ها: Wix، WordPress، Shopify، Make.com، Squarespace",
+            "aiAgent": "نماینده هوش مصنوعی با ۱۰۰ پاسخ هوش مصنوعی مادام‌العمر:",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "پایگاه دانش شامل ۲۰ سند (حداکثر ۲۰۰ کیلوبایت) و ۲۵۰ هزار توکن",
+            "workspace": "۱ فضای کاری"
           },
-          "buttonText": "[FA]Get Started Free"
+          "buttonText": "شروع رایگان"
         },
         "premium": {
-          "name": "[FA]Premium",
-          "tagline": "[FA]Add more AI Agents and Knowledge Files",
-          "description": "[FA]Scale your support with AI automation",
-          "month": "[FA]month",
-          "year": "[FA]year",
-          "year_description": "[FA]Saves 2 months every year",
+          "name": "پریمیوم",
+          "tagline": "افزودن نمایندگان هوش مصنوعی و فایل‌های دانش بیشتر",
+          "description": "پشتیبانی خود را با اتوماسیون هوش مصنوعی مقیاس‌بندی کنید",
+          "month": "ماه",
+          "year": "سال",
+          "year_description": "صرفه‌جویی ۲ ماه در هر سال",
           "features": {
-            "humanAgents": "[FA]4 human users (additional human user costs $10/month)",
-            "humanAgentPermission": "[FA]Support human agent permission",
-            "assignAgent": "[FA]Assign human agent to individual conversation",
-            "unreadCounter": "[FA]Unread message counter for each human agent",
-            "transferToHuman": "[FA]Live transfer from AI agent to human agent",
-            "transferToAI": "[FA]Live transfer from human agent to AI agent",
-            "unlimitedHumanChats": "[FA]Unlimited human agent chats",
-            "unlimitedContacts": "[FA]Unlimited contacts",
-            "unlimitedHistory": "[FA]Unlimited chat history",
-            "exportHistory": "[FA]Freedom to export chat history",
-            "channels": "[FA]Additional channels: Line, Call, Phone Call",
-            "integrations": "[FA]Additional integrations: Google Calendar to auto book meetings",
-            "aiAgents": "[FA]10 AI agents, with each agent having:",
-            "aiModels": "[FA]ChatGPT-4o and Mistral models",
-            "knowledgeBase": "[FA]Knowledge base includes up to 1000 documents (10 MB per doc) and 5M tokens",
-            "chatSummary": "[FA]Chat summary and notification via email",
-            "agentPrivacy": "[FA]Agent privacy control",
-            "contactCapture": "[FA]User contact capture via custom forms",
-            "chatCost": "[FA]Chat AI agent starts at $0.006 per response",
-            "voiceCost": "[FA]Voice AI agent over phone calls starts at $0.12 per minute",
-            "workspaces": "[FA]2 workspaces (additional workspace costs $15/month)",
-            "knowledgeBaseFeatures": "[FA]Knowledge Base:",
-            "advancedSearch": "[FA]Advanced document search - keyword, vector, hybrid",
-            "fileTypes": "[FA]20+ file types supported, with optimization on spreadsheets",
-            "automationFeatures": "[FA]Automation:",
-            "autoLabel": "[FA]Automatically label conversations with user-defined labels",
-            "builtInActions": "[FA]Built-in actions triggered by auto-labeling: SMS, Email",
-            "externalAPI": "[FA]External API calls as both triggers and actions",
-            "voiceAgentFeatures": "[FA]Voice AI Agents:",
-            "voiceMessages": "[FA]Support voice messages in Messenger, WhatsApp, Line",
-            "phoneCalls": "[FA]Support 2-way phone call conversations",
-            "callDirection": "[FA]Support both inbound and outbound call",
-            "transferAgent": "[FA]Transfer to human agent",
-            "callForwarding": "[FA]Call forwarding supported",
-            "sttLanguages": "[FA]10+ Speech-To-Text languages",
-            "ttsLanguages": "[FA]10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI",
-            "callRecording": "[FA]Call recording and summary",
-            "callNotification": "[FA]Call notification via email",
-            "formTrackers": "[FA]Set form trackers from conversations",
-            "slotExtractors": "[FA]Slot extractors from conversations",
-            "timezoneFeatures": "[FA]Local time awareness with timezone support, for:",
-            "businessHours": "[FA]business hours",
-            "appointmentBooking": "[FA]appointment booking",
-            "humanAgent": "[FA]4 human users (additional human user costs $10/month)",
-            "supportHumanAgent": "[FA]Support human agent permission",
-            "liveTransferToHuman": "[FA]Live transfer from AI agent to human agent",
-            "liveTransferToAI": "[FA]Live transfer from human agent to AI agent",
-            "additionalChannels": "[FA]Additional channels: Line, Call, Phone Call",
-            "additionalIntegrations": "[FA]Additional integrations: Google Calendar to auto book meetings",
-            "knowledgeBaseTitle": "[FA]Knowledge Base:",
-            "automationTitle": "[FA]Automation:",
-            "voiceAgentsTitle": "[FA]Voice AI Agents:",
-            "timezoneTitle": "[FA]Local time awareness with timezone support, for:"
+            "humanAgents": "۴ کاربر انسانی (هزینه هر کاربر انسانی اضافی ۱۰ دلار در ماه)",
+            "humanAgentPermission": "پشتیبانی از مجوز کاربر انسانی",
+            "assignAgent": "اختصاص نماینده انسانی به مکالمه فردی",
+            "unreadCounter": "شمارنده پیام خوانده نشده برای هر نماینده انسانی",
+            "transferToHuman": "انتقال زنده از نماینده هوش مصنوعی به نماینده انسانی",
+            "transferToAI": "انتقال زنده از نماینده انسانی به نماینده هوش مصنوعی",
+            "unlimitedHumanChats": "چت‌های نامحدود نماینده انسانی",
+            "unlimitedContacts": "مخاطبین نامحدود",
+            "unlimitedHistory": "تاریخچه چت نامحدود",
+            "exportHistory": "آزادی در صادرات تاریخچه چت",
+            "channels": "کانال‌های اضافی: لاین، تماس، تماس تلفنی",
+            "integrations": "ادغام‌های اضافی: تقویم گوگل برای رزرو خودکار جلسات",
+            "aiAgents": "۱۰ نماینده هوش مصنوعی، که هر نماینده دارای:",
+            "aiModels": "مدل‌های ChatGPT-4o و Mistral",
+            "knowledgeBase": "پایگاه دانش شامل حداکثر ۱۰۰۰ سند (۱۰ مگابایت برای هر سند) و ۵ میلیون توکن",
+            "chatSummary": "خلاصه چت و اعلان از طریق ایمیل",
+            "agentPrivacy": "کنترل حریم خصوصی نماینده",
+            "contactCapture": "جذب مخاطب کاربر از طریق فرم‌های سفارشی",
+            "chatCost": "نماینده هوش مصنوعی چت از ۰.۰۰۶ دلار برای هر پاسخ شروع می‌شود",
+            "voiceCost": "نماینده هوش مصنوعی صوتی از طریق تماس‌های تلفنی از ۰.۱۲ دلار در دقیقه شروع می‌شود",
+            "workspaces": "۲ فضای کاری (هزینه هر فضای کاری اضافی ۱۵ دلار در ماه)",
+            "knowledgeBaseFeatures": "پایگاه دانش:",
+            "advancedSearch": "جستجوی پیشرفته سند - کلمه کلیدی، برداری، ترکیبی",
+            "fileTypes": "پشتیبانی از بیش از ۲۰ نوع فایل، با بهینه‌سازی در صفحات گسترده",
+            "automationFeatures": "اتوماسیون:",
+            "autoLabel": "برچسب‌گذاری خودکار مکالمات با برچسب‌های تعریف‌شده توسط کاربر",
+            "builtInActions": "اقدامات داخلی که توسط برچسب‌گذاری خودکار فعال می‌شوند: پیامک، ایمیل",
+            "externalAPI": "فراخوانی API خارجی به عنوان هم محرک و هم اقدام",
+            "voiceAgentFeatures": "نمایندگان صوتی هوش مصنوعی:",
+            "voiceMessages": "پشتیبانی از پیام‌های صوتی در مسنجر، واتس‌اپ، لاین",
+            "phoneCalls": "پشتیبانی از مکالمات تلفنی دو طرفه",
+            "callDirection": "پشتیبانی از تماس‌های ورودی و خروجی",
+            "transferAgent": "انتقال به نماینده انسانی",
+            "callForwarding": "پشتیبانی از انتقال تماس",
+            "sttLanguages": "بیش از ۱۰ زبان تبدیل گفتار به متن",
+            "ttsLanguages": "بیش از ۱۰ زبان تبدیل متن به گفتار با صداهایی از Azure، ElevenLabs، OpenAI",
+            "callRecording": "ضبط و خلاصه تماس",
+            "callNotification": "اعلان تماس از طریق ایمیل",
+            "formTrackers": "تنظیم ردیاب‌های فرم از مکالمات",
+            "slotExtractors": "استخراج‌کننده‌های اسلات از مکالمات",
+            "timezoneFeatures": "آگاهی از زمان محلی با پشتیبانی از منطقه زمانی، برای:",
+            "businessHours": "ساعات کاری",
+            "appointmentBooking": "رزرو قرار ملاقات",
+            "humanAgent": "۴ کاربر انسانی (هزینه هر کاربر انسانی اضافی ۱۰ دلار در ماه)",
+            "supportHumanAgent": "پشتیبانی از مجوز کاربر انسانی",
+            "liveTransferToHuman": "انتقال زنده از نماینده هوش مصنوعی به نماینده انسانی",
+            "liveTransferToAI": "انتقال زنده از نماینده انسانی به نماینده هوش مصنوعی",
+            "additionalChannels": "کانال‌های اضافی: لاین، تماس، تماس تلفنی",
+            "additionalIntegrations": "ادغام‌های اضافی: تقویم گوگل برای رزرو خودکار جلسات",
+            "knowledgeBaseTitle": "پایگاه دانش:",
+            "automationTitle": "اتوماسیون:",
+            "voiceAgentsTitle": "نمایندگان صوتی هوش مصنوعی:",
+            "timezoneTitle": "آگاهی از زمان محلی با پشتیبانی از منطقه زمانی، برای:"
           },
-          "buttonText": "[FA]Start Premium",
-          "badge": "[FA]Most Popular"
+          "buttonText": "شروع پریمیوم",
+          "badge": "محبوب‌ترین"
         },
         "enterprise": {
-          "name": "[FA]Enterprise",
-          "tagline": "[FA]Customize your exclusive AI agents",
-          "description": "[FA]Custom solutions for large organizations",
+          "name": "سازمانی",
+          "tagline": "نمایندگان هوش مصنوعی انحصاری خود را سفارشی کنید",
+          "description": "راهکارهای سفارشی برای سازمان‌های بزرگ",
           "features": {
-            "premiumIncluded": "[FA]Everything in Premium plan",
-            "customBuild": "[FA]Custom build",
-            "multipleWorkspaces": "[FA]Multiple workspaces - perfect for agencies",
-            "workspaceAgents": "[FA]Each workspace has multiple AI agents and phone numbers",
-            "gpt4oRealtimeAPI": "[FA]Access to GPT-4o Realtime API",
-            "customAPI": "[FA]Custom API integration",
-            "fineTuning": "[FA]Fine-tuning with your guidelines and technical support"
+            "premiumIncluded": "همه چیز در طرح پریمیوم",
+            "customBuild": "ساخت سفارشی",
+            "multipleWorkspaces": "چندین فضای کاری - ایده‌آل برای آژانس‌ها",
+            "workspaceAgents": "هر فضای کاری دارای چندین نماینده هوش مصنوعی و شماره تلفن است",
+            "gpt4oRealtimeAPI": "دسترسی به GPT-4o Realtime API",
+            "customAPI": "ادغام API سفارشی",
+            "fineTuning": "تنظیم دقیق با دستورالعمل‌ها و پشتیبانی فنی شما"
           },
-          "buttonText": "[FA]Contact Us"
+          "buttonText": "تماس با ما"
         }
       },
       "billing": {
-        "monthly": "[FA]Monthly",
-        "yearly": "[FA]Yearly",
-        "year": "[FA]year",
-        "month": "[FA]month",
-        "save": "[FA]Save 2 months vs monthly billing"
+        "monthly": "ماهانه",
+        "yearly": "سالیانه",
+        "year": "سال",
+        "month": "ماه",
+        "save": "صرفه‌جویی ۲ ماه در مقایسه با صورتحساب ماهانه"
       },
       "calculator": {
-        "title": "[FA]Plan & Model Usage Calculator",
-        "description": "[FA]Estimate your costs based on your usage patterns",
-        "modelSelect": "[FA]Select AI Model",
-        "priceBreakdown": "[FA]Cost Breakdown",
-        "licenseYearly": "[FA]License fee (save 2 months):",
-        "licenseFee": "[FA]License fee:",
-        "usageCost": "[FA]Usage cost:",
-        "usageCostYearly": "[FA]Usage cost (12 months):",
-        "addOnsCost": "[FA]Add-ons cost:",
-        "addOnsCostYearly": "[FA]Add-ons cost (12 months):",
-        "totalPerYear": "[FA]Total per year:",
-        "totalPerMonth": "[FA]Total per month:",
-        "averagePerMonth": "[FA]Average per month:",
-        "aiUsage": "[FA]AI Usage (Pay per use)",
-        "chatResponses": "[FA]Monthly Chat Responses:",
-        "voiceMinutes": "[FA]Monthly Voice Minutes:",
-        "voiceMinutesNote": "[FA]USA/Canada only",
-        "chatCost": "[FA]Chat Cost",
-        "voiceCost": "[FA]Voice Cost",
-        "additionalResources": "[FA]Additional Resources",
-        "humanAgents": "[FA]Human Agents:",
-        "aiAgents": "[FA]AI Agents:",
-        "workspaces": "[FA]Workspaces:",
-        "included": "[FA]Included:",
-        "extra": "[FA]Extra:",
-        "disclaimer": "[FA]Usage costs are calculated based on actual consumption. The Premium plan includes:",
-        "disclaimerDetails": "[FA]License fee + AI Usage (pay per use) + Additional resources beyond the included limits.",
-        "planIncludes": "[FA]Premium Plan Includes:",
-        "planIncludesHuman": "[FA]4 Human Agents",
-        "planIncludesAI": "[FA]10 AI Agents",
-        "planIncludesWorkspaces": "[FA]2 Workspaces",
-        "perChatResponse": "[FA]per chat response",
-        "perVoiceMinute": "[FA]per voice minute",
-        "voiceOnly": "[FA]Voice only model",
-        "voicePricing": "[FA]Voice pricing",
-        "standardVoice": "[FA]Standard Voice",
-        "premiumVoice": "[FA]Premium Voice",
-        "placeholderText": "[FA]Placeholder"
+        "title": "ماشین حساب مصرف طرح و مدل",
+        "description": "هزینه‌های خود را بر اساس الگوهای مصرف خود تخمین بزنید",
+        "modelSelect": "انتخاب مدل هوش مصنوعی",
+        "priceBreakdown": "شکست هزینه",
+        "licenseYearly": "هزینه مجوز (صرفه‌جویی ۲ ماه):",
+        "licenseFee": "هزینه مجوز:",
+        "usageCost": "هزینه مصرف:",
+        "usageCostYearly": "هزینه مصرف (۱۲ ماه):",
+        "addOnsCost": "هزینه افزونه‌ها:",
+        "addOnsCostYearly": "هزینه افزونه‌ها (۱۲ ماه):",
+        "totalPerYear": "مجموع در سال:",
+        "totalPerMonth": "مجموع در ماه:",
+        "averagePerMonth": "میانگین در ماه:",
+        "aiUsage": "مصرف هوش مصنوعی (پرداخت به ازای مصرف)",
+        "chatResponses": "پاسخ‌های چت ماهانه:",
+        "voiceMinutes": "دقایق صوتی ماهانه:",
+        "voiceMinutesNote": "فقط ایالات متحده/کانادا",
+        "chatCost": "هزینه چت",
+        "voiceCost": "هزینه صوتی",
+        "additionalResources": "منابع اضافی",
+        "humanAgents": "نمایندگان انسانی:",
+        "aiAgents": "نمایندگان هوش مصنوعی:",
+        "workspaces": "فضاهای کاری:",
+        "included": "شامل:",
+        "extra": "اضافی:",
+        "disclaimer": "هزینه‌های مصرف بر اساس مصرف واقعی محاسبه می‌شود. طرح پریمیوم شامل:",
+        "disclaimerDetails": "هزینه مجوز + مصرف هوش مصنوعی (پرداخت به ازای مصرف) + منابع اضافی فراتر از محدودیت‌های شامل شده.",
+        "planIncludes": "طرح پریمیوم شامل:",
+        "planIncludesHuman": "۴ نماینده انسانی",
+        "planIncludesAI": "۱۰ نماینده هوش مصنوعی",
+        "planIncludesWorkspaces": "۲ فضای کاری",
+        "perChatResponse": "برای هر پاسخ چت",
+        "perVoiceMinute": "برای هر دقیقه صوتی",
+        "voiceOnly": "فقط مدل صوتی",
+        "voicePricing": "قیمت‌گذاری صوتی",
+        "standardVoice": "صدای استاندارد",
+        "premiumVoice": "صدای پریمیوم",
+        "placeholderText": "متن جایگزین"
       },
-      "note": "[FA]Prices are in USD. Voice call prices vary by country and listed prices are for the United States and Canada. For other countries, please contact us.",
+      "note": "قیمت‌ها به دلار آمریکا است. قیمت تماس‌های صوتی بر اساس کشور متفاوت است و قیمت‌های ذکر شده برای ایالات متحده و کانادا است. برای سایر کشورها، لطفاً با ما تماس بگیرید.",
       "comparison": {
-        "title": "[FA]Compare All Features",
-        "subtitle": "[FA]See exactly what's included in each plan",
-        "featuresTitle": "[FA]Features",
-        "trulyFree": "[FA]Truly Free",
-        "premium": "[FA]Premium",
-        "enterprise": "[FA]Enterprise",
-        "humanAgents": "[FA]Human Agents",
-        "aiAgents": "[FA]AI Agents",
-        "aiModels": "[FA]AI Models",
-        "knowledgeBase": "[FA]Knowledge Base",
-        "voiceAI": "[FA]Voice AI Agents",
-        "phoneCalls": "[FA]Phone Calls",
-        "automation": "[FA]Automation",
-        "apiIntegration": "[FA]API Integration",
-        "workspaces": "[FA]Workspaces",
-        "support": "[FA]Support",
+        "title": "مقایسه همه ویژگی‌ها",
+        "subtitle": "ببینید دقیقاً چه چیزی در هر طرح گنجانده شده است",
+        "featuresTitle": "ویژگی‌ها",
+        "trulyFree": "واقعاً رایگان",
+        "premium": "پریمیوم",
+        "enterprise": "سازمانی",
+        "humanAgents": "نمایندگان انسانی",
+        "aiAgents": "نمایندگان هوش مصنوعی",
+        "aiModels": "مدل‌های هوش مصنوعی",
+        "knowledgeBase": "پایگاه دانش",
+        "voiceAI": "نمایندگان صوتی هوش مصنوعی",
+        "phoneCalls": "تماس‌های تلفنی",
+        "automation": "اتوماسیون",
+        "apiIntegration": "ادغام API",
+        "workspaces": "فضاهای کاری",
+        "support": "پشتیبانی",
         "features": {
           "humanAgents": {
-            "free": "[FA]1 agent",
-            "premium": "[FA]4 users",
-            "enterprise": "[FA]Unlimited"
+            "free": "۱ نماینده",
+            "premium": "۴ کاربر",
+            "enterprise": "نامحدود"
           },
           "aiAgents": {
-            "free": "[FA]1 agent (100 replies)",
-            "premium": "[FA]10 agents (unlimited)",
-            "enterprise": "[FA]Custom build"
+            "free": "۱ نماینده (۱۰۰ پاسخ)",
+            "premium": "۱۰ نماینده (نامحدود)",
+            "enterprise": "ساخت سفارشی"
           },
           "aiModels": {
-            "free": "[FA]ChatGPT-3.5",
-            "premium": "[FA]ChatGPT-4o, Mistral",
-            "enterprise": "[FA]Advanced models"
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o, Mistral",
+            "enterprise": "مدل‌های پیشرفته"
           },
           "knowledgeBase": {
-            "free": "[FA]20 docs (200KB)",
-            "premium": "[FA]5000 docs (10MB each)",
-            "enterprise": "[FA]Unlimited"
+            "free": "۲۰ سند (۲۰۰ کیلوبایت)",
+            "premium": "۵۰۰۰ سند (۱۰ مگابایت هر کدام)",
+            "enterprise": "نامحدود"
           },
           "voiceAI": {
-            "free": "[FA]❌",
-            "premium": "[FA]✅",
-            "enterprise": "[FA]✅"
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
           },
           "phoneCalls": {
-            "free": "[FA]❌",
-            "premium": "[FA]✅ Inbound/Outbound",
-            "enterprise": "[FA]✅"
+            "free": "❌",
+            "premium": "✅ ورودی/خروجی",
+            "enterprise": "✅"
           },
           "automation": {
-            "free": "[FA]❌",
-            "premium": "[FA]✅ Advanced",
-            "enterprise": "[FA]✅ Custom"
+            "free": "❌",
+            "premium": "✅ پیشرفته",
+            "enterprise": "✅ سفارشی"
           },
           "apiIntegration": {
-            "free": "[FA]❌",
-            "premium": "[FA]✅",
-            "enterprise": "[FA]✅ Custom"
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ سفارشی"
           },
           "workspaces": {
-            "free": "[FA]1",
-            "premium": "[FA]2 ($15 each extra)",
-            "enterprise": "[FA]Multiple"
+            "free": "۱",
+            "premium": "۲ (۱۵ دلار برای هر کدام اضافی)",
+            "enterprise": "چندین"
           },
           "support": {
-            "free": "[FA]Community",
-            "premium": "[FA]Email + Phone",
-            "enterprise": "[FA]Dedicated technical"
+            "free": "انجمن",
+            "premium": "ایمیل + تلفن",
+            "enterprise": "فنی اختصاصی"
           }
         }
       },
       "enterprise": {
-        "title": "[FA]Need Something Custom?",
-        "description": "[FA]We offer custom enterprise solutions including on-premise deployment, advanced security features, and dedicated support teams.",
-        "contactSales": "[FA]Contact Sales Team"
+        "title": "به چیزی سفارشی نیاز دارید؟",
+        "description": "ما راهکارهای سازمانی سفارشی شامل استقرار در محل، ویژگی‌های امنیتی پیشرفته و تیم‌های پشتیبانی اختصاصی ارائه می‌دهیم.",
+        "contactSales": "تماس با تیم فروش"
       },
       "faq": {
-        "title": "[FA]Frequently Asked Questions",
-        "question1": "[FA]Is the free plan really free forever?",
-        "answer1": "[FA]Yes! Our Truly Free plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. Plus, you get 1 AI agent with 100 lifetime AI replies to try our AI features. No credit card required, no hidden fees.",
-        "question2": "[FA]What's the difference between monthly and yearly billing?",
-        "answer2": "[FA]With yearly billing, you save 2 months on the Premium plan ($299/year vs $359.88/year if paid monthly). The billing cycle only affects the Premium plan - the Free plan is always free and Enterprise is custom pricing.",
-        "question3": "[FA]Can I upgrade or downgrade my plan anytime?",
-        "answer3": "[FA]Absolutely! You can change your plan at any time. Upgrades take effect immediately, and downgrades take effect at the end of your current billing cycle.",
-        "question4": "[FA]What happens if I exceed my AI reply limit on the Free plan?",
-        "answer4": "[FA]The Free plan includes 100 lifetime AI replies. Once you reach this limit, you'll need to upgrade to Premium for unlimited AI responses. Your human agent functionality remains unlimited on all plans.",
-        "question5": "[FA]How does the Premium plan pricing work?",
-        "answer5": "[FA]Premium has two components: a license fee ($29.99/month or $299/year) plus usage-based pricing. Usage includes AI responses starting at $0.006 each (ChatGPT-4o mini) and voice calls at $0.12/minute. Additional human users cost $10/month each, and extra workspaces cost $15/month each.",
-        "question6": "[FA]What happens to my data if I cancel?",
-        "answer6": "[FA]You own your data. You can export all your chat history, contacts, and knowledge base content at any time, even on the free plan. We believe in data freedom and transparency.",
-        "question7": "[FA]Do you offer custom pricing for large enterprises?",
-        "answer7": "[FA]Yes! Our Enterprise plan offers custom builds, multiple AI services perfect for agencies, custom API integrations, and professional design guidelines with technical support. Contact our sales team for a personalized quote."
+        "title": "سوالات متداول",
+        "question1": "آیا طرح رایگان واقعاً برای همیشه رایگان است؟",
+        "answer1": "بله! طرح واقعاً رایگان ما شامل ۱ نماینده انسانی برای همیشه با مکالمات، تاریخچه چت و مخاطبین نامحدود است. علاوه بر این، شما ۱ نماینده هوش مصنوعی با ۱۰۰ پاسخ هوش مصنوعی مادام‌العمر برای امتحان ویژگی‌های هوش مصنوعی ما دریافت می‌کنید. نیازی به کارت اعتباری نیست، هیچ هزینه پنهانی وجود ندارد.",
+        "question2": "تفاوت بین صورتحساب ماهانه و سالانه چیست؟",
+        "answer2": "با صورتحساب سالانه، شما ۲ ماه در طرح پریمیوم صرفه‌جویی می‌کنید (۲۹۹ دلار در سال در مقابل ۳۵۹.۸۸ دلار در سال در صورت پرداخت ماهانه). چرخه صورتحساب فقط بر طرح پریمیوم تأثیر می‌گذارد - طرح رایگان همیشه رایگان است و سازمانی قیمت‌گذاری سفارشی دارد.",
+        "question3": "آیا می‌توانم در هر زمان طرح خود را ارتقا یا تنزل دهم؟",
+        "answer3": "البته! شما می‌توانید در هر زمان طرح خود را تغییر دهید. ارتقاها بلافاصله اعمال می‌شوند و تنزل‌ها در پایان چرخه صورتحساب فعلی شما اعمال می‌شوند.",
+        "question4": "اگر از محدودیت پاسخ هوش مصنوعی خود در طرح رایگان فراتر بروم چه اتفاقی می‌افتد؟",
+        "answer4": "طرح رایگان شامل ۱۰۰ پاسخ هوش مصنوعی مادام‌العمر است. پس از رسیدن به این محدودیت، برای پاسخ‌های نامحدود هوش مصنوعی باید به پریمیوم ارتقا دهید. عملکرد نماینده انسانی شما در همه طرح‌ها نامحدود باقی می‌ماند.",
+        "question5": "قیمت‌گذاری طرح پریمیوم چگونه کار می‌کند؟",
+        "answer5": "پریمیوم دو جزء دارد: هزینه مجوز (۲۹.۹۹ دلار در ماه یا ۲۹۹ دلار در سال) به علاوه قیمت‌گذاری مبتنی بر مصرف. مصرف شامل پاسخ‌های هوش مصنوعی از ۰.۰۰۶ دلار برای هر کدام (ChatGPT-4o mini) و تماس‌های صوتی با ۰.۱۲ دلار در دقیقه است. هزینه هر کاربر انسانی اضافی ۱۰ دلار در ماه و هر فضای کاری اضافی ۱۵ دلار در ماه است.",
+        "question6": "اگر لغو کنم چه اتفاقی برای داده‌های من می‌افتد؟",
+        "answer6": "شما مالک داده‌های خود هستید. شما می‌توانید تمام تاریخچه چت، مخاطبین و محتوای پایگاه دانش خود را در هر زمان، حتی در طرح رایگان، صادر کنید. ما به آزادی و شفافیت داده‌ها اعتقاد داریم.",
+        "question7": "آیا برای شرکت‌های بزرگ قیمت‌گذاری سفارشی ارائه می‌دهید؟",
+        "answer7": "بله! طرح سازمانی ما ساخت‌های سفارشی، چندین سرویس هوش مصنوعی ایده‌آل برای آژانس‌ها، ادغام‌های API سفارشی و دستورالعمل‌های طراحی حرفه‌ای با پشتیبانی فنی را ارائه می‌دهد. برای دریافت قیمت شخصی‌سازی شده با تیم فروش ما تماس بگیرید."
       },
       "cta": {
-        "title": "[FA]Your AI Chat Revolution",
-        "subtitle": "[FA]Starts Right Now!",
-        "description": "Join 100,000+ businesses already using SeaChat to deliver exceptional customer experiences across all messaging channels",
+        "title": "انقلاب چت هوش مصنوعی شما",
+        "subtitle": "همین الان شروع می‌شود!",
+        "description": "به بیش از ۱۰۰٬۰۰۰ کسب‌وکاری بپیوندید که در حال حاضر از SeaChat برای ارائه تجربیات استثنایی مشتری در تمام کانال‌های پیام‌رسانی استفاده می‌کنند",
         "stats": {
-          "messages": "[FA]100K+",
-          "messagesLabel": "[FA]Messages Daily",
-          "uptime": "[FA]99.9%",
-          "uptimeLabel": "[FA]Uptime Guarantee",
-          "channels": "[FA]15+",
-          "channelsLabel": "[FA]Channels Supported",
-          "hipaa": "[FA]HIPAA",
-          "hipaaLabel": "[FA]Compliant & Secure"
+          "messages": "بیش از ۱۰۰ هزار",
+          "messagesLabel": "پیام روزانه",
+          "uptime": "۹۹.۹٪",
+          "uptimeLabel": "تضمین آپتایم",
+          "channels": "بیش از ۱۵",
+          "channelsLabel": "کانال پشتیبانی شده",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "سازگار و ایمن"
         },
-        "startFree": "[FA]START TRULY FREE FIRST",
-        "bookDemo": "[FA]Book Live Demo",
+        "startFree": "ابتدا واقعاً رایگان شروع کنید",
+        "bookDemo": "رزرو دموی زنده",
         "badges": {
-          "noCoding": "[FA]No Coding Required",
-          "freePlan": "[FA]Free Forever Plan",
-          "cancelAnytime": "[FA]Cancel Anytime",
-          "support": "[FA]24/7 Support"
+          "noCoding": "بدون نیاز به کدنویسی",
+          "freePlan": "طرح برای همیشه رایگان",
+          "cancelAnytime": "لغو در هر زمان",
+          "support": "پشتیبانی ۲۴/۷"
         },
-        "urgency": "[FA]Limited Time: Get 2 months free on annual plans + priority onboarding support!",
-        "limitedTime": "[FA]Limited Time:"
+        "urgency": "زمان محدود: ۲ ماه رایگان در طرح‌های سالانه + پشتیبانی اولویت‌دار در راه‌اندازی دریافت کنید!",
+        "limitedTime": "زمان محدود:"
       }
     },
     "knowledgeBase": {
-      "title": "[FA]Powerful Knowledge Base",
-      "subtitle": "[FA]Upload 30+ file types and let AI provide rich, contextual responses with cards, buttons, images, and videos.",
+      "title": "پایگاه دانش قدرتمند",
+      "subtitle": "بیش از ۳۰ نوع فایل را بارگذاری کنید و به هوش مصنوعی اجازه دهید پاسخ‌های غنی و متنی با کارت‌ها، دکمه‌ها، تصاویر و ویدیوها ارائه دهد.",
       "supportedFormats": {
-        "title": "[FA]Supported File Types",
+        "title": "انواع فایل‌های پشتیبانی شده",
         "formats": {
           "pdf": {
-            "name": "[FA]PDF Documents",
-            "count": "[FA]15 files"
+            "name": "اسناد PDF",
+            "count": "۱۵ فایل"
           },
           "excel": {
-            "name": "[FA]Excel Sheets",
-            "count": "[FA]8 files"
+            "name": "صفحات اکسل",
+            "count": "۸ فایل"
           },
           "word": {
-            "name": "[FA]Word Documents",
-            "count": "[FA]12 files"
+            "name": "اسناد Word",
+            "count": "۱۲ فایل"
           },
           "images": {
-            "name": "[FA]Images",
-            "count": "[FA]25 images"
+            "name": "تصاویر",
+            "count": "۲۵ تصویر"
           },
           "websites": {
-            "name": "[FA]Websites",
-            "count": "[FA]5 sites"
+            "name": "وب‌سایت‌ها",
+            "count": "۵ سایت"
           },
           "videos": {
-            "name": "[FA]Videos",
-            "count": "[FA]3 videos"
+            "name": "ویدیوها",
+            "count": "۳ ویدیو"
           }
         },
         "richResponse": {
-          "title": "[FA]Rich Response Formatting:",
+          "title": "قالب‌بندی پاسخ غنی:",
           "features": [
-            "[FA]Interactive Cards",
-            "[FA]Action Buttons",
-            "[FA]Embedded Images",
-            "[FA]Video Responses"
+            "کارت‌های تعاملی",
+            "دکمه‌های اقدام",
+            "تصاویر جاسازی شده",
+            "پاسخ‌های ویدیویی"
           ]
         },
-        "addDocuments": "[FA]Add Your Documents"
+        "addDocuments": "اسناد خود را اضافه کنید"
       },
       "uploadModal": {
-        "title": "[FA]Upload Your Documents",
+        "title": "اسناد خود را بارگذاری کنید",
         "dropzone": {
-          "title": "[FA]Drop your files here",
-          "description": "[FA]Support for PDF, Word, Excel, images, videos, and more",
-          "button": "[FA]Choose Files"
+          "title": "فایل‌های خود را اینجا رها کنید",
+          "description": "پشتیبانی از PDF، Word، Excel، تصاویر، ویدیوها و موارد دیگر",
+          "button": "انتخاب فایل‌ها"
         },
         "demoFiles": [
-          "[FA]sample_manual.pdf",
-          "[FA]product_data.xlsx",
-          "[FA]brand_guide.jpg"
+          "sample_manual.pdf",
+          "product_data.xlsx",
+          "brand_guide.jpg"
         ],
-        "close": "[FA]Close Demo"
+        "close": "بستن دمو"
       }
     },
     "useCases": {
-      "title": "[FA]Success Stories Across Industries",
-      "subtitle": "See how businesses transform their customer support with SeaChat's human-AI hybrid approach.",
+      "title": "داستان‌های موفقیت در صنایع مختلف",
+      "subtitle": "ببینید چگونه کسب‌وکارها با رویکرد ترکیبی انسان و هوش مصنوعی SeaChat، پشتیبانی مشتری خود را متحول می‌کنند.",
       "cases": {
         "ecommerce": {
-          "title": "[FA]E-commerce Support Revolution",
-          "industry": "[FA]Retail",
-          "challenge": "[FA]Managing 500+ daily customer inquiries across multiple channels with limited staff",
-          "solution": "Deployed SeaChat with AI agents handling 70% of routine inquiries, human agents for complex issues",
+          "title": "انقلاب پشتیبانی تجارت الکترونیک",
+          "industry": "خرده‌فروشی",
+          "challenge": "مدیریت بیش از ۵۰۰ استعلام روزانه مشتری در چندین کانال با کارکنان محدود",
+          "solution": "استقرار SeaChat با نمایندگان هوش مصنوعی که ۷۰٪ از استعلامات روتین را رسیدگی می‌کنند، و نمایندگان انسانی برای مسائل پیچیده",
           "results": [
-            "[FA]60% reduction in response time",
-            "[FA]40% increase in customer satisfaction",
-            "[FA]75% cost savings on support operations"
+            "کاهش ۶۰ درصدی زمان پاسخگویی",
+            "افزایش ۴۰ درصدی رضایت مشتری",
+            "صرفه‌جویی ۷۵ درصدی در هزینه‌های عملیات پشتیبانی"
           ],
           "metrics": {
-            "responseTime": "[FA]< 30s",
-            "satisfaction": "[FA]94%",
-            "cost": "[FA]-75%"
+            "responseTime": "< ۳۰ ثانیه",
+            "satisfaction": "۹۴٪",
+            "cost": "-۷۵٪"
           }
         },
         "healthcare": {
-          "title": "[FA]Healthcare Patient Support",
-          "industry": "[FA]Healthcare",
-          "challenge": "[FA]Providing 24/7 patient support while maintaining HIPAA compliance",
-          "solution": "[FA]Integrated secure AI agents with appointment booking and symptom pre-screening",
+          "title": "پشتیبانی بیمار در مراقبت‌های بهداشتی",
+          "industry": "مراقبت‌های بهداشتی",
+          "challenge": "ارائه پشتیبانی ۲۴/۷ بیمار با حفظ انطباق با HIPAA",
+          "solution": "ادغام نمایندگان هوش مصنوعی امن با رزرو قرار ملاقات و پیش‌غربالگری علائم",
           "results": [
-            "[FA]24/7 patient assistance",
-            "[FA]50% reduction in no-shows",
-            "[FA]100% HIPAA compliance maintained"
+            "کمک ۲۴/۷ به بیمار",
+            "کاهش ۵۰ درصدی عدم حضور",
+            "حفظ ۱۰۰٪ انطباق با HIPAA"
           ],
           "metrics": {
-            "availability": "[FA]24/7",
-            "noShows": "[FA]-50%",
-            "compliance": "[FA]100%"
+            "availability": "۲۴/۷",
+            "noShows": "-۵۰٪",
+            "compliance": "۱۰۰٪"
           }
         },
         "fintech": {
-          "title": "[FA]Financial Services Excellence",
-          "industry": "[FA]FinTech",
-          "challenge": "[FA]Handling sensitive financial queries with speed and security",
-          "solution": "[FA]Custom AI training on financial regulations with seamless human escalation",
+          "title": "برتری خدمات مالی",
+          "industry": "فین‌تک",
+          "challenge": "رسیدگی به سوالات مالی حساس با سرعت و امنیت",
+          "solution": "آموزش سفارشی هوش مصنوعی در مورد مقررات مالی با تشدید یکپارچه به انسان",
           "results": [
-            "[FA]90% first-contact resolution",
-            "[FA]3x faster query processing",
-            "[FA]Enhanced security protocols"
+            "حل ۹۰٪ از مشکلات در اولین تماس",
+            "پردازش ۳ برابر سریعتر سوالات",
+            "پروتکل‌های امنیتی پیشرفته"
           ],
           "metrics": {
-            "resolution": "[FA]90%",
-            "speed": "[FA]3x",
-            "security": "[FA]Enhanced"
+            "resolution": "۹۰٪",
+            "speed": "۳ برابر",
+            "security": "پیشرفته"
           }
         }
       },
       "cta": {
-        "title": "[FA]Ready to Transform Your Support?",
-        "description": "Join hundreds of businesses already using SeaChat to deliver exceptional customer experiences.",
+        "title": "آماده‌اید تا پشتیبانی خود را متحول کنید؟",
+        "description": "به صدها کسب‌وکاری بپیوندید که در حال حاضر از SeaChat برای ارائه تجربیات استثنایی مشتری استفاده می‌کنند.",
         "buttons": {
-          "viewCases": "[FA]View All Case Studies",
-          "startStory": "[FA]Start Your Success Story"
+          "viewCases": "مشاهده همه مطالعات موردی",
+          "startStory": "داستان موفقیت خود را شروع کنید"
         },
-        "signUpFree": "[FA]Sign Up For Free",
-        "bookDemo": "[FA]Book A Demo"
+        "signUpFree": "ثبت نام رایگان",
+        "bookDemo": "رزرو دمو"
       },
       "labels": {
-        "challenge": "[FA]Challenge:",
-        "solution": "[FA]Solution:",
-        "resultsAchieved": "[FA]Results Achieved:"
+        "challenge": "چالش:",
+        "solution": "راه حل:",
+        "resultsAchieved": "نتایج به دست آمده:"
       },
       "metrics": {
-        "responseTime": "[FA]Response Time",
-        "satisfaction": "[FA]Satisfaction",
-        "cost": "[FA]Cost",
-        "availability": "[FA]Availability",
-        "noShows": "[FA]No-Shows",
-        "compliance": "[FA]Compliance",
-        "resolution": "[FA]Resolution",
-        "speed": "[FA]Speed",
-        "security": "[FA]Security"
+        "responseTime": "زمان پاسخ",
+        "satisfaction": "رضایت",
+        "cost": "هزینه",
+        "availability": "در دسترس بودن",
+        "noShows": "عدم حضور",
+        "compliance": "انطباق",
+        "resolution": "حل",
+        "speed": "سرعت",
+        "security": "امنیت"
       }
     },
     "testimonials": {
-      "title": "[FA]Loved by Support Teams Worldwide",
-      "subtitle": "Don't just take our word for it. Here's what our customers say about transforming their support with SeaChat.",
+      "title": "مورد علاقه تیم‌های پشتیبانی در سراسر جهان",
+      "subtitle": "فقط به حرف ما اکتفا نکنید. در اینجا چیزی است که مشتریان ما در مورد تحول پشتیبانی خود با SeaChat می‌گویند.",
       "navigation": {
-        "previous": "[FA]Previous",
-        "next": "[FA]Next"
+        "previous": "قبلی",
+        "next": "بعدی"
       },
-      "trustedBy": "[FA]Trusted by innovative companies worldwide",
+      "trustedBy": "مورد اعتماد شرکت‌های نوآور در سراسر جهان",
       "stats": {
-        "customers": "[FA]10,000+ Happy Customers",
-        "uptime": "[FA]99.9% Uptime",
-        "messages": "[FA]50M+ Messages Processed",
-        "rating": "[FA]4.9/5 Customer Rating"
+        "customers": "بیش از ۱۰٬۰۰۰ مشتری راضی",
+        "uptime": "آپتایم ۹۹.۹٪",
+        "messages": "بیش از ۵۰ میلیون پیام پردازش شده",
+        "rating": "امتیاز مشتری ۴.۹/۵"
       },
       "testimonials": {
         "0": {
-          "name": "[FA]Sarah Chen",
-          "title": "[FA]Customer Success Director",
-          "company": "[FA]TechFlow Solutions",
-          "quote": "SeaChat transformed our support operations. Starting with free human agents was perfect for our startup, and scaling with AI has been seamless. Our response times improved by 70%.",
+          "name": "Sarah Chen",
+          "title": "مدیر موفقیت مشتری",
+          "company": "TechFlow Solutions",
+          "quote": "SeaChat عملیات پشتیبانی ما را متحول کرد. شروع با نمایندگان انسانی رایگان برای استارتاپ ما عالی بود و مقیاس‌بندی با هوش مصنوعی یکپارچه بوده است. زمان پاسخگویی ما ۷۰٪ بهبود یافته است.",
           "metrics": {
-            "improvement": "[FA]70%",
-            "feature": "[FA]Response Time"
+            "improvement": "۷۰٪",
+            "feature": "زمان پاسخ"
           }
         },
         "1": {
-          "name": "[FA]Marcus Rodriguez",
-          "title": "[FA]Operations Manager",
-          "company": "[FA]EcoCommerce",
-          "quote": "[FA]The knowledge base feature is incredible. We uploaded our entire product catalog and FAQs, and the AI now handles 80% of customer queries with perfect accuracy.",
+          "name": "Marcus Rodriguez",
+          "title": "مدیر عملیات",
+          "company": "EcoCommerce",
+          "quote": "ویژگی پایگاه دانش باورنکردنی است. ما کل کاتالوگ محصولات و سوالات متداول خود را بارگذاری کردیم و هوش مصنوعی اکنون ۸۰٪ از سوالات مشتریان را با دقت کامل رسیدگی می‌کند.",
           "metrics": {
-            "improvement": "[FA]80%",
-            "feature": "[FA]Query Resolution"
+            "improvement": "۸۰٪",
+            "feature": "حل سوال"
           }
         },
         "2": {
-          "name": "[FA]Emily Watson",
-          "title": "[FA]Head of Customer Experience",
-          "company": "[FA]HealthTech Pro",
-          "quote": "[FA]The omnichannel integration is flawless. Our customers can start a conversation on WhatsApp and continue on our website without losing context. Game-changing!",
+          "name": "Emily Watson",
+          "title": "رئیس تجربه مشتری",
+          "company": "HealthTech Pro",
+          "quote": "ادغام همه‌کاناله بی‌عیب و نقص است. مشتریان ما می‌توانند مکالمه را در واتس‌اپ شروع کرده و در وب‌سایت ما بدون از دست دادن زمینه ادامه دهند. تغییر دهنده بازی!",
           "metrics": {
-            "improvement": "[FA]95%",
-            "feature": "[FA]Customer Satisfaction"
+            "improvement": "۹۵٪",
+            "feature": "رضایت مشتری"
           }
         },
         "3": {
-          "name": "[FA]David Park",
-          "title": "[FA]Founder & CEO",
-          "company": "[FA]StartupFlow",
-          "quote": "[FA]As a bootstrap startup, the free plan was a lifesaver. We provided professional support from day one without any upfront costs. Now we're happily paying for AI features as we scale.",
+          "name": "David Park",
+          "title": "بنیانگذار و مدیرعامل",
+          "company": "StartupFlow",
+          "quote": "به عنوان یک استارتاپ بوت‌استرپ، طرح رایگان یک نجات‌دهنده بود. ما از روز اول پشتیبانی حرفه‌ای ارائه دادیم بدون هیچ هزینه اولیه‌ای. اکنون با خوشحالی برای ویژگی‌های هوش مصنوعی با مقیاس‌بندی پرداخت می‌کنیم.",
           "metrics": {
-            "improvement": "[FA]$0",
-            "feature": "[FA]Initial Cost"
+            "improvement": "۰ دلار",
+            "feature": "هزینه اولیه"
           }
         },
         "4": {
-          "name": "[FA]Lisa Thompson",
-          "title": "[FA]Support Team Lead",
-          "company": "[FA]GlobalRetail Inc",
-          "quote": "[FA]The human-AI handoff is so smooth that customers don't even notice when they're switched between AI and human agents. It's exactly what we needed for our complex support scenarios.",
+          "name": "Lisa Thompson",
+          "title": "سرپرست تیم پشتیبانی",
+          "company": "GlobalRetail Inc",
+          "quote": "تحویل از انسان به هوش مصنوعی آنقدر روان است که مشتریان حتی متوجه نمی‌شوند چه زمانی بین نمایندگان هوش مصنوعی و انسانی جابجا می‌شوند. این دقیقاً همان چیزی بود که برای سناریوهای پشتیبانی پیچیده ما نیاز داشتیم.",
           "metrics": {
-            "improvement": "[FA]100%",
-            "feature": "[FA]Seamless Handoff"
+            "improvement": "۱۰۰٪",
+            "feature": "تحویل یکپارچه"
           }
         }
       }
     },
     "blog": {
-      "title": "[FA]Latest Insights & Resources",
-      "subtitle": "[FA]Stay ahead with expert insights on customer support trends, AI implementation strategies, and platform optimization tips.",
+      "title": "آخرین بینش‌ها و منابع",
+      "subtitle": "با بینش‌های تخصصی در مورد روندهای پشتیبانی مشتری، استراتژی‌های پیاده‌سازی هوش مصنوعی و نکات بهینه‌سازی پلتفرم، پیشرو باشید.",
       "categories": {
-        "all": "[FA]All",
-        "ai": "[FA]AI & Automation",
-        "strategy": "[FA]Strategy",
-        "integration": "[FA]Integration",
-        "knowledge": "[FA]Knowledge Management",
-        "success": "[FA]Customer Success"
+        "all": "همه",
+        "ai": "هوش مصنوعی و اتوماسیون",
+        "strategy": "استراتژی",
+        "integration": "ادغام",
+        "knowledge": "مدیریت دانش",
+        "success": "موفقیت مشتری"
       },
-      "featured": "[FA]Featured",
-      "latest": "[FA]Recent Posts",
-      "readTime": "[FA]min read",
-      "stayUpdated": "[FA]Stay Updated",
-      "newsletterSubtitle": "[FA]Get the latest insights on AI customer support, platform updates, and industry best practices delivered to your inbox.",
-      "joinProfessionals": "[FA]Join 5,000+ support professionals. Unsubscribe anytime.",
-      "loading": "[FA]Loading blog posts...",
-      "loadingPost": "[FA]Loading article...",
-      "backToBlog": "[FA]Back to Blog",
-      "share": "[FA]Share",
-      "tags": "[FA]Tags",
-      "followLinkedIn": "[FA]Follow on LinkedIn",
-      "moreArticles": "[FA]More Articles",
-      "relatedArticles": "[FA]Related Articles",
-      "searchPlaceholder": "[FA]Search articles, topics, or tags...",
-      "articleCount": "[FA]article(s) found",
-      "noArticles": "[FA]No articles found",
-      "adjustSearch": "[FA]Try adjusting your search terms or category filter."
+      "featured": "ویژه",
+      "latest": "پست‌های اخیر",
+      "readTime": "دقیقه مطالعه",
+      "stayUpdated": "به‌روز بمانید",
+      "newsletterSubtitle": "آخرین بینش‌ها در مورد پشتیبانی مشتری هوش مصنوعی، به‌روزرسانی‌های پلتفرم و بهترین شیوه‌های صنعت را در صندوق ورودی خود دریافت کنید.",
+      "joinProfessionals": "به بیش از ۵٬۰۰۰ متخصص پشتیبانی بپیوندید. هر زمان خواستید لغو اشتراک کنید.",
+      "loading": "در حال بارگیری پست‌های وبلاگ...",
+      "loadingPost": "در حال بارگیری مقاله...",
+      "backToBlog": "بازگشت به وبلاگ",
+      "share": "اشتراک‌گذاری",
+      "tags": "برچسب‌ها",
+      "followLinkedIn": "دنبال کردن در لینکدین",
+      "moreArticles": "مقالات بیشتر",
+      "relatedArticles": "مقالات مرتبط",
+      "searchPlaceholder": "جستجوی مقالات، موضوعات یا برچسب‌ها...",
+      "articleCount": "مقاله(ها) پیدا شد",
+      "noArticles": "هیچ مقاله‌ای پیدا نشد",
+      "adjustSearch": "سعی کنید عبارات جستجوی خود یا فیلتر دسته را تنظیم کنید."
     }
   }
 }

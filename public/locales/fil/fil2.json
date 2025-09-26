@@ -1,922 +1,922 @@
 {
   "seachat": {
     "common": {
-      "getStarted": "[FIL]Get Started Free",
-      "signIn": "[FIL]Sign In",
-      "learnMore": "[FIL]Learn More",
-      "readMore": "[FIL]Read More",
-      "viewAll": "[FIL]View All Articles",
-      "tryNow": "[FIL]Try Now",
-      "contactUs": "[FIL]Contact Us",
-      "subscribe": "[FIL]Subscribe",
-      "search": "[FIL]Search",
-      "back": "[FIL]Back"
+      "getStarted": "Magsimula nang Libre",
+      "signIn": "Mag-sign In",
+      "learnMore": "Matuto Nang Higit Pa",
+      "readMore": "Magbasa Nang Higit Pa",
+      "viewAll": "Tingnan ang Lahat ng Artikulo",
+      "tryNow": "Subukan Ngayon",
+      "contactUs": "Makipag-ugnayan sa Amin",
+      "subscribe": "Mag-subscribe",
+      "search": "Maghanap",
+      "back": "Bumalik"
     },
     "header": {
-      "features": "[FIL]Features",
-      "integrations": "[FIL]Integrations",
-      "solutions": "[FIL]Solutions",
-      "pricing": "[FIL]Pricing",
-      "blog": "[FIL]Blog",
-      "language": "[FIL]Language",
+      "features": "Mga Tampok",
+      "integrations": "Mga Pagsasama",
+      "solutions": "Mga Solusyon",
+      "pricing": "Pagpepresyo",
+      "blog": "Blog",
+      "language": "Wika",
       "featuresDropdown": {
-        "humanAgents": "[FIL]Human Agent Chat",
-        "aiAutomation": "[FIL]AI Automation",
-        "advancedAI": "[FIL]Advanced AI Features",
-        "knowledgeBase": "[FIL]Knowledge Base",
-        "voiceAgents": "[FIL]Voice Agents",
-        "analytics": "[FIL]Analytics & Insights",
-        "omnichannel": "[FIL]Omnichannel Support",
-        "api": "[FIL]API & Developer Tools"
+        "humanAgents": "Chat ng Ahente ng Tao",
+        "aiAutomation": "AI Automation",
+        "advancedAI": "Mga Advanced na Tampok ng AI",
+        "knowledgeBase": "Knowledge Base",
+        "voiceAgents": "Mga Ahente ng Boses",
+        "analytics": "Analytics at Mga Insight",
+        "omnichannel": "Suporta sa Omnichannel",
+        "api": "API at Mga Tool ng Developer"
       },
       "integrationsDropdown": {
-        "websites": "[FIL]Website Platforms",
-        "crm": "[FIL]CRM Systems",
-        "ecommerce": "[FIL]E-commerce",
-        "socialMedia": "[FIL]Social Media",
-        "communication": "[FIL]Communication Tools",
-        "marketing": "[FIL]Marketing Platforms",
-        "calendar": "[FIL]Calendar & Scheduling",
-        "api": "[FIL]Custom API"
+        "websites": "Mga Platform ng Website",
+        "crm": "Mga Sistema ng CRM",
+        "ecommerce": "E-commerce",
+        "socialMedia": "Social Media",
+        "communication": "Mga Tool sa Komunikasyon",
+        "marketing": "Mga Platform sa Marketing",
+        "calendar": "Kalendaryo at Pag-iiskedyul",
+        "api": "Pasadyang API"
       },
       "solutionsDropdown": {
-        "ecommerce": "[FIL]E-commerce & Retail",
-        "healthcare": "[FIL]Healthcare",
-        "fintech": "[FIL]Financial Services",
-        "education": "[FIL]Education",
-        "realEstate": "[FIL]Real Estate",
-        "travel": "[FIL]Travel & Hospitality",
-        "saas": "[FIL]SaaS & Technology",
-        "smallBusiness": "[FIL]Small Business"
+        "ecommerce": "E-commerce at Retail",
+        "healthcare": "Pangangalagang pangkalusugan",
+        "fintech": "Mga Serbisyo sa Pinansyal",
+        "education": "Edukasyon",
+        "realEstate": "Real Estate",
+        "travel": "Paglalakbay at Pagtanggap ng Bisita",
+        "saas": "SaaS at Teknolohiya",
+        "smallBusiness": "Maliit na Negosyo"
       },
-      "backToMainSite": "[FIL]Back to Main Site",
-      "viewAllIntegrations": "[FIL]View All Integrations →",
-      "viewAllSolutions": "[FIL]View All Solutions →"
+      "backToMainSite": "Bumalik sa Pangunahing Site",
+      "viewAllIntegrations": "Tingnan ang Lahat ng Pagsasama →",
+      "viewAllSolutions": "Tingnan ang Lahat ng Solusyon →"
     },
     "hero": {
       "title": {
-        "line1": "[FIL]Respond To",
-        "line2": "[FIL]Millions 24/7"
+        "line1": "Tumugon Sa",
+        "line2": "Milyun-milyon 24/7"
       },
-      "subtitle": "[FIL]Live Agents",
-      "description": "[FIL]Transform customer support with our omnichannel platform. Begin with human agents at zero cost, then seamlessly integrate AI automation as you grow.",
-      "startFree": "[FIL]Start Free Now",
-      "exploreAI": "[FIL]Book A Demo",
-      "alwaysFree": "[FIL]Always Free Plan",
-      "integrations": "[FIL]30+ Integrations",
-      "setup": "[FIL]Setup in 2 Minutes",
+      "subtitle": "Mga Live na Ahente",
+      "description": "Baguhin ang suporta sa customer gamit ang aming omnichannel platform. Magsimula sa mga ahente ng tao sa zero cost, pagkatapos ay walang putol na isama ang AI automation habang lumalaki ka.",
+      "startFree": "Magsimula nang Libre Ngayon",
+      "exploreAI": "Mag-book ng Demo",
+      "alwaysFree": "Laging Libreng Plano",
+      "integrations": "30+ Pagsasama",
+      "setup": "Pag-setup sa loob ng 2 Minuto",
       "chat": {
-        "userMessage": "[FIL]Hi! I need help with my order",
-        "botMessage": "[FIL]Hello! I'd be happy to help you with your order. Could you please provide your order number?",
-        "userMessage2": "[FIL]I can help you connect with a human agent or provide instant AI assistance. How would you prefer to proceed?",
-        "typePlaceholder": "[FIL]Type your message...",
-        "online": "[FIL]Online",
-        "supportTitle": "SeaChat[FIL] Support"
+        "userMessage": "Hi! Kailangan ko ng tulong sa aking order",
+        "botMessage": "Kamusta! Masaya akong tulungan ka sa iyong order. Maaari mo bang ibigay ang iyong numero ng order?",
+        "userMessage2": "Matutulungan kitang kumonekta sa isang ahente ng tao o magbigay ng instant na tulong sa AI. Paano mo gustong magpatuloy?",
+        "typePlaceholder": "I-type ang iyong mensahe...",
+        "online": "Online",
+        "supportTitle": "Suporta sa SeaChat"
       },
-      "badge": "[FIL]Start Free with Live Agents",
+      "badge": "Magsimula nang Libre sa mga Live na Ahente",
       "animationSection": {
-        "title": "SeaChat[FIL] in Action",
-        "autoMode": "[FIL]Auto",
-        "manualMode": "[FIL]Manual"
+        "title": "SeaChat sa Aksyon",
+        "autoMode": "Awtomatiko",
+        "manualMode": "Manwal"
       },
       "animations": {
         "phoneVoice": {
-          "name": "[FIL]Phone Voice AI",
-          "description": "[FIL]AI agents handling phone conversations"
+          "name": "AI ng Boses ng Telepono",
+          "description": "Mga ahente ng AI na humahawak sa mga pag-uusap sa telepono"
         },
         "interactive": {
-          "name": "[FIL]Interactive Channels",
-          "description": "[FIL]Click to see different conversations"
+          "name": "Mga Interactive na Channel",
+          "description": "Mag-click upang makita ang iba't ibang mga pag-uusap"
         },
         "multiChannel": {
-          "name": "[FIL]Multi-Channel Flow",
-          "description": "[FIL]Messages flowing between different platforms"
+          "name": "Daloy ng Maramihang Channel",
+          "description": "Mga mensahe na dumadaloy sa pagitan ng iba't ibang mga platform"
         },
         "agentToAI": {
-          "name": "[FIL]Human-to-AI Handoff",
-          "description": "[FIL]Start with humans, scale with AI"
+          "name": "Paghahatid mula sa Tao patungo sa AI",
+          "description": "Magsimula sa mga tao, palakihin gamit ang AI"
         },
         "learning": {
-          "name": "[FIL]AI Learning Journey",
-          "description": "[FIL]Watch AI get smarter from content"
+          "name": "Paglalakbay sa Pag-aaral ng AI",
+          "description": "Panoorin ang AI na nagiging mas matalino mula sa nilalaman"
         },
         "dashboard": {
-          "name": "[FIL]Real-Time Analytics",
-          "description": "[FIL]Live performance metrics"
+          "name": "Real-Time na Analytics",
+          "description": "Mga sukatan ng live na pagganap"
         }
       }
     },
     "keyFeatures": {
-      "title": "[FIL]Why Choose SeaChat[FIL]?",
-      "subtitle": "[FIL]Experience the perfect blend of human touch and AI efficiency. Start free, scale smart, succeed faster.",
+      "title": "Bakit Pumili ng SeaChat?",
+      "subtitle": "Damhin ang perpektong timpla ng ugnayan ng tao at kahusayan ng AI. Magsimula nang libre, palakihin nang matalino, magtagumpay nang mas mabilis.",
       "humanAgents": {
-        "title": "[FIL]Truly Free Human Agents 🍺 🎙️",
-        "description": "[FIL]Start with 1 human agent free for life—yes, for life! No caps, no limits, no catches.",
-        "badge": "[FIL]Free Forever",
+        "title": "Tunay na Libreng mga Ahente ng Tao 🍺 🎙️",
+        "description": "Magsimula sa 1 ahente ng tao na libre habang-buhay—oo, habang-buhay! Walang mga cap, walang mga limitasyon, walang mga catch.",
+        "badge": "Libre Magpakailanman",
         "highlights": [
-          "[FIL]Unlimited chat conversations",
-          "[FIL]Unlimited chat history access",
-          "[FIL]Unlimited contacts & network building",
-          "[FIL]Freedom to export all your data"
+          "Walang limitasyong mga pag-uusap sa chat",
+          "Walang limitasyong access sa kasaysayan ng chat",
+          "Walang limitasyong mga contact at pagbuo ng network",
+          "Kalayaan na i-export ang lahat ng iyong data"
         ]
       },
       "aiAutomation": {
-        "title": "[FIL]Seamless AI Automation",
-        "description": "[FIL]Scale effortlessly with intelligent AI that learns from your conversations and documents.",
+        "title": "Walang putol na AI Automation",
+        "description": "Walang kahirap-hirap na palakihin gamit ang matalinong AI na natututo mula sa iyong mga pag-uusap at dokumento.",
         "highlights": [
-          "[FIL]Smart auto-responses",
-          "[FIL]Learning from interactions",
-          "[FIL]Context-aware replies"
+          "Matalinong mga awtomatikong tugon",
+          "Pag-aaral mula sa mga pakikipag-ugnayan",
+          "Mga tugon na may kamalayan sa konteksto"
         ]
       },
       "omnichannel": {
-        "title": "[FIL]Omni-Channel Connectivity",
-        "description": "[FIL]Connect all your communication channels in one unified platform for consistent support.",
+        "title": "Pagkakakonekta sa Omni-Channel",
+        "description": "Ikonekta ang lahat ng iyong mga channel ng komunikasyon sa isang pinag-isang platform para sa pare-parehong suporta.",
         "highlights": [
-          "[FIL]30+ integrations",
-          "[FIL]Unified inbox",
-          "[FIL]Cross-platform sync"
+          "30+ pagsasama",
+          "Pinag-isang inbox",
+          "Pag-sync sa cross-platform"
         ]
       },
       "trulyFree": {
-        "title": "[FIL]Truly Free Plan as in Free 🍺 & 🎙️",
-        "description": "[FIL]Introducing SeaChat[FIL]'s Human Agent Only Mode: Your Ticket to Unmatched Communication Freedom! We're thrilled to present 1 human agent free for life—yes, you heard that right, for life!",
+        "title": "Tunay na Libreng Plano tulad ng sa Libreng 🍺 & 🎙️",
+        "description": "Ipinapakilala ang Human Agent Only Mode ng SeaChat: Ang Iyong Tiket sa Walang Kapantay na Kalayaan sa Komunikasyon! Kami ay nasasabik na ipakita ang 1 ahente ng tao na libre habang-buhay—oo, narinig mo ito nang tama, habang-buhay!",
         "freeFeatures": {
           "unlimitedChat": {
-            "title": "[FIL]Unlimited Chat",
-            "description": "[FIL]Engage in as many conversations as you need, with no caps or restrictions."
+            "title": "Walang limitasyong Chat",
+            "description": "Makipag-ugnayan sa maraming pag-uusap hangga't kailangan mo, nang walang mga cap o paghihigpit."
           },
           "unlimitedHistory": {
-            "title": "[FIL]Unlimited History",
-            "description": "[FIL]Never lose a conversation—access your complete chat history anytime."
+            "title": "Walang limitasyong Kasaysayan",
+            "description": "Huwag kailanman mawalan ng isang pag-uusap—i-access ang iyong kumpletong kasaysayan ng chat anumang oras."
           },
           "unlimitedContacts": {
-            "title": "[FIL]Unlimited Contacts",
-            "description": "[FIL]Build your network without any restrictions or contact limits."
+            "title": "Walang limitasyong mga Contact",
+            "description": "Buuin ang iyong network nang walang anumang mga paghihigpit o limitasyon sa contact."
           },
           "freedomToExport": {
-            "title": "[FIL]Freedom to Export",
-            "description": "[FIL]Your data, your rules—export all your chat history effortlessly."
+            "title": "Kalayaan na Mag-export",
+            "description": "Ang iyong data, ang iyong mga panuntunan—i-export ang lahat ng iyong kasaysayan ng chat nang walang kahirap-hirap."
           }
         },
-        "whyChoose": "[FIL]Why Choose SeaChat[FIL]? Because It's Truly Free!",
-        "whatYouGet": "[FIL]✅ What You Get FREE Forever:",
+        "whyChoose": "Bakit Pumili ng SeaChat? Dahil Ito ay Tunay na Libre!",
+        "whatYouGet": "✅ Ano ang Makukuha Mo nang LIBRE Magpakailanman:",
         "freeForeverFeatures": [
-          "[FIL]1 Human Agent for Life",
-          "[FIL]Unlimited Chat Conversations",
-          "[FIL]Complete Chat History Access",
-          "[FIL]Unlimited Contact Management",
-          "[FIL]Full Data Export Rights"
+          "1 Ahente ng Tao para sa Buhay",
+          "Walang limitasyong mga Pag-uusap sa Chat",
+          "Kumpletong Access sa Kasaysayan ng Chat",
+          "Walang limitasyong Pamamahala ng Contact",
+          "Buong mga Karapatan sa Pag-export ng Data"
         ],
-        "scaleWhenReady": "[FIL]🚀 Scale When Ready:",
+        "scaleWhenReady": "🚀 Palakihin Kapag Handa:",
         "scaleFeatures": [
-          "[FIL]Add AI Automation",
-          "[FIL]Advanced Integrations",
-          "[FIL]Voice Agent Features",
-          "[FIL]Enterprise Security",
-          "[FIL]Custom Workflows"
+          "Magdagdag ng AI Automation",
+          "Mga Advanced na Pagsasama",
+          "Mga Tampok ng Ahente ng Boses",
+          "Seguridad sa Enterprise",
+          "Mga Pasadyang Daloy ng Trabaho"
         ],
-        "startButton": "[FIL]Start Your Free Agent Now - No Credit Card Required!"
+        "startButton": "Simulan ang Iyong Libreng Ahente Ngayon - Walang Kinakailangang Credit Card!"
       },
       "statsBar": {
-        "unlimited": "[FIL]Unlimited chats forever",
-        "fileTypes": "[FIL]30+ file types supported",
-        "setupTime": "[FIL]2min average setup time",
-        "availability": "[FIL]24/7 AI availability when ready"
+        "unlimited": "Walang limitasyong mga chat magpakailanman",
+        "fileTypes": "30+ uri ng file na suportado",
+        "setupTime": "2min average na oras ng pag-setup",
+        "availability": "24/7 availability ng AI kapag handa na"
       }
     },
     "featureTabs": {
-      "title": "[FIL]Powerful Features, Simple Setup",
-      "subtitle": "[FIL]Explore our comprehensive feature set designed to transform your customer support experience.",
+      "title": "Malakas na mga Tampok, Simpleng Pag-setup",
+      "subtitle": "Galugarin ang aming komprehensibong hanay ng tampok na idinisenyo upang baguhin ang iyong karanasan sa suporta sa customer.",
       "tabs": {
-        "humanAgent": "[FIL]Human Agent",
-        "agentChat": "[FIL]Agent Chat",
-        "aiAgent": "[FIL]AI Agent",
-        "advancedAI": "[FIL]Advanced AI",
-        "knowledgeBase": "[FIL]Knowledge Base",
-        "integrations": "[FIL]Integrations"
+        "humanAgent": "Ahente ng Tao",
+        "agentChat": "Chat ng Ahente",
+        "aiAgent": "Ahente ng AI",
+        "advancedAI": "Advanced na AI",
+        "knowledgeBase": "Knowledge Base",
+        "integrations": "Mga Pagsasama"
       },
       "content": {
         "agentChat": {
-          "title": "[FIL]Human Agent Excellence",
-          "subtitle": "[FIL]Start with real human support, completely free",
+          "title": "Kahusayan ng Ahente ng Tao",
+          "subtitle": "Magsimula sa tunay na suporta ng tao, ganap na libre",
           "features": [
-            "[FIL]Unlimited free agent hours",
-            "[FIL]Real-time conversation management",
-            "[FIL]Multi-agent collaboration",
-            "[FIL]Advanced labeling and routing",
-            "[FIL]Performance analytics",
-            "[FIL]Custom workflows"
+            "Walang limitasyong libreng oras ng ahente",
+            "Real-time na pamamahala ng pag-uusap",
+            "Pakikipagtulungan ng maraming ahente",
+            "Advanced na pag-label at pagruruta",
+            "Analytics ng pagganap",
+            "Mga pasadyang daloy ng trabaho"
           ],
-          "tryFeature": "[FIL]Try This Feature",
-          "watchDemo": "[FIL]Watch Demo"
+          "tryFeature": "Subukan ang Tampok na Ito",
+          "watchDemo": "Panoorin ang Demo"
         },
         "aiAgent": {
-          "title": "[FIL]Intelligent AI Automation",
-          "subtitle": "[FIL]Scale seamlessly with smart AI that learns",
+          "title": "Matalinong AI Automation",
+          "subtitle": "Walang putol na palakihin gamit ang matalinong AI na natututo",
           "features": [
-            "[FIL]Context-aware responses",
-            "[FIL]Learning from conversations",
-            "[FIL]Seamless human handoff",
-            "[FIL]Multi-language support",
-            "[FIL]Custom AI training",
-            "[FIL]Voice agent capabilities"
+            "Mga tugon na may kamalayan sa konteksto",
+            "Pag-aaral mula sa mga pag-uusap",
+            "Walang putol na pag-handoff ng tao",
+            "Suporta sa maraming wika",
+            "Pasadyang pagsasanay sa AI",
+            "Mga kakayahan ng ahente ng boses"
           ],
-          "tryFeature": "[FIL]Try This Feature",
-          "watchDemo": "[FIL]Watch Demo"
+          "tryFeature": "Subukan ang Tampok na Ito",
+          "watchDemo": "Panoorin ang Demo"
         },
         "advancedAI": {
-          "title": "[FIL]Next-Generation AI Intelligence",
-          "subtitle": "[FIL]Advanced AI features for personalized experiences",
+          "title": "Susunod na Henerasyon ng Katalinuhan ng AI",
+          "subtitle": "Mga advanced na tampok ng AI para sa mga personalized na karanasan",
           "features": [
-            "[FIL]Retrieval Augmented Generation (RAG)",
-            "[FIL]Long-term user memory system",
-            "[FIL]Time-aware contextual responses",
-            "[FIL]Smart context extraction",
-            "[FIL]Referenced chat results",
-            "[FIL]Knowledge base refinement"
+            "Retrieval Augmented Generation (RAG)",
+            "Sistema ng pangmatagalang memorya ng gumagamit",
+            "Mga tugon sa konteksto na may kamalayan sa oras",
+            "Matalinong pagkuha ng konteksto",
+            "Mga resulta ng chat na may sanggunian",
+            "Pagpipino ng knowledge base"
           ],
-          "tryDemo": "[FIL]Try Advanced AI Demo",
-          "watchAI": "[FIL]Watch AI in Action"
+          "tryDemo": "Subukan ang Advanced na AI Demo",
+          "watchAI": "Panoorin ang AI sa Aksyon"
         },
         "knowledgeBase": {
-          "title": "[FIL]Comprehensive Knowledge Hub",
-          "subtitle": "[FIL]Upload 30+ file types for instant AI responses",
+          "title": "Komprehensibong Knowledge Hub",
+          "subtitle": "Mag-upload ng 30+ uri ng file para sa mga instant na tugon ng AI",
           "features": [
-            "[FIL]PDF, Excel, CSV, Word support",
-            "[FIL]Website content ingestion",
-            "[FIL]Image and video processing",
-            "[FIL]Rich response formatting",
-            "[FIL]Auto-updating content",
-            "[FIL]Version control"
+            "Suporta sa PDF, Excel, CSV, Word",
+            "Paglunok ng nilalaman ng website",
+            "Pagproseso ng imahe at video",
+            "Pag-format ng mayamang tugon",
+            "Awtomatikong pag-update ng nilalaman",
+            "Kontrol sa bersyon"
           ],
-          "tryFeature": "[FIL]Try This Feature",
-          "watchDemo": "[FIL]Watch Demo"
+          "tryFeature": "Subukan ang Tampok na Ito",
+          "watchDemo": "Panoorin ang Demo"
         },
         "integrations": {
-          "title": "[FIL]Powerful Integrations",
-          "subtitle": "[FIL]Connect with your favorite tools and platforms",
+          "title": "Malakas na mga Pagsasama",
+          "subtitle": "Kumonekta sa iyong mga paboritong tool at platform",
           "features": [
-            "[FIL]CRM integrations (Salesforce, HubSpot[FIL])",
-            "[FIL]Calendar booking (Google, Outlook)",
-            "[FIL]E-commerce platforms",
-            "[FIL]Marketing tools",
-            "[FIL]Custom API access",
-            "[FIL]Webhook support"
+            "Mga pagsasama sa CRM (Salesforce, HubSpot)",
+            "Pag-book ng kalendaryo (Google, Outlook)",
+            "Mga platform ng e-commerce",
+            "Mga tool sa marketing",
+            "Pasadyang access sa API",
+            "Suporta sa webhook"
           ],
-          "tryFeature": "[FIL]Try This Feature",
-          "watchDemo": "[FIL]Watch Demo"
+          "tryFeature": "Subukan ang Tampok na Ito",
+          "watchDemo": "Panoorin ang Demo"
         }
       },
       "advancedAI": {
         "features": {
           "rag": {
-            "title": "[FIL]Retrieval Augmented Generation",
-            "description": "[FIL]Keyword, Vector, and Hybrid Search for precise information retrieval",
+            "title": "Retrieval Augmented Generation",
+            "description": "Paghahanap ng Keyword, Vector, at Hybrid para sa tumpak na pagkuha ng impormasyon",
             "details": {
-              "0": "[FIL]Semantic vector search",
-              "1": "[FIL]Keyword matching",
-              "2": "[FIL]Hybrid search algorithms",
-              "3": "[FIL]Real-time content indexing"
+              "0": "Paghahanap ng semantikong vector",
+              "1": "Pagtutugma ng keyword",
+              "2": "Mga algorithm sa paghahanap ng hybrid",
+              "3": "Real-time na pag-index ng nilalaman"
             }
           },
           "memory": {
-            "title": "[FIL]Long Term Memory",
-            "description": "[FIL]Personalized experiences through persistent user memory",
+            "title": "Pangmatagalang Memorya",
+            "description": "Mga personalized na karanasan sa pamamagitan ng paulit-ulit na memorya ng gumagamit",
             "details": {
-              "0": "[FIL]User preference tracking",
-              "1": "[FIL]Conversation history analysis",
-              "2": "[FIL]Behavioral pattern recognition",
-              "3": "[FIL]Cross-session continuity"
+              "0": "Pagsubaybay sa kagustuhan ng gumagamit",
+              "1": "Pagsusuri sa kasaysayan ng pag-uusap",
+              "2": "Pagkilala sa pattern ng pag-uugali",
+              "3": "Pagpapatuloy sa cross-session"
             }
           },
           "timeAware": {
-            "title": "[FIL]Time Awareness",
-            "description": "[FIL]Context-aware responses based on current time and timezone",
+            "title": "Kamalayan sa Oras",
+            "description": "Mga tugon na may kamalayan sa konteksto batay sa kasalukuyang oras at timezone",
             "details": {
-              "0": "[FIL]Real-time timestamp integration",
-              "1": "[FIL]Timezone-aware scheduling",
-              "2": "[FIL]Time-sensitive recommendations",
-              "3": "[FIL]Business hours optimization"
+              "0": "Real-time na pagsasama ng timestamp",
+              "1": "Pag-iiskedyul na may kamalayan sa timezone",
+              "2": "Mga rekomendasyon na sensitibo sa oras",
+              "3": "Pag-optimize ng mga oras ng negosyo"
             }
           },
           "contextExtraction": {
-            "title": "[FIL]Context Extraction",
-            "description": "[FIL]Intelligent field mapping for better user comprehension",
+            "title": "Pagkuha ng Konteksto",
+            "description": "Matalinong pagmamapa ng field para sa mas mahusay na pag-unawa ng gumagamit",
             "details": {
-              "0": "[FIL]Custom field definitions",
-              "1": "[FIL]Automatic data extraction",
-              "2": "[FIL]User language preferences",
-              "3": "[FIL]Dynamic context building"
+              "0": "Mga kahulugan ng pasadyang field",
+              "1": "Awtomatikong pagkuha ng data",
+              "2": "Mga kagustuhan sa wika ng gumagamit",
+              "3": "Dinamikong pagbuo ng konteksto"
             }
           },
           "referencedResults": {
-            "title": "[FIL]Referenced Results",
-            "description": "[FIL]Transparent AI responses with source citations",
+            "title": "Mga Resulta na may Sanggunian",
+            "description": "Mga transparent na tugon ng AI na may mga pagsipi sa pinagmulan",
             "details": {
-              "0": "[FIL]Source document linking",
-              "1": "[FIL]Citation tracking",
-              "2": "[FIL]Confidence scoring",
-              "3": "[FIL]Fact verification"
+              "0": "Pag-link ng dokumento ng pinagmulan",
+              "1": "Pagsubaybay sa pagsipi",
+              "2": "Pagmamarka ng kumpiyansa",
+              "3": "Pag-verify ng katotohanan"
             }
           },
           "knowledgeRefinement": {
-            "title": "[FIL]Knowledge Refinement",
-            "description": "[FIL]Continuous improvement of knowledge base accuracy",
+            "title": "Pagpipino ng Kaalaman",
+            "description": "Patuloy na pagpapabuti ng katumpakan ng knowledge base",
             "details": {
-              "0": "[FIL]Auto-updating content",
-              "1": "[FIL]Quality scoring",
-              "2": "[FIL]Relevance optimization",
-              "3": "[FIL]Performance analytics"
+              "0": "Awtomatikong pag-update ng nilalaman",
+              "1": "Pagmamarka ng kalidad",
+              "2": "Pag-optimize ng kaugnayan",
+              "3": "Analytics ng pagganap"
             }
           }
         }
       }
     },
     "omnichannelDemo": {
-      "title": "[FIL]Deploy Everywhere Your Customers Are",
-      "subtitle": "[FIL]Seamlessly connect all your customer touchpoints across websites, social media, and communication platforms. Hover over each channel to see real-time performance metrics.",
-      "messagesPerDay": "[FIL]Messages/day",
-      "responseTime": "[FIL]Response time",
-      "keyFeatures": "[FIL]Key Features",
-      "integrateChannel": "[FIL]Integrate",
+      "title": "I-deploy Kahit Saan Nasaan ang Iyong mga Customer",
+      "subtitle": "Walang putol na ikonekta ang lahat ng iyong mga customer touchpoint sa mga website, social media, at mga platform ng komunikasyon. Mag-hover sa bawat channel upang makita ang mga sukatan ng real-time na pagganap.",
+      "messagesPerDay": "Mga mensahe/araw",
+      "responseTime": "Oras ng pagtugon",
+      "keyFeatures": "Mga Pangunahing Tampok",
+      "integrateChannel": "Isama",
       "channels": {
         "website": {
-          "name": "[FIL]Website",
-          "description": "[FIL]Universal widget that works on any HTML website"
+          "name": "Website",
+          "description": "Universal na widget na gumagana sa anumang HTML website"
         },
         "whatsapp": {
           "name": "WhatsApp",
-          "description": "[FIL]Connect with customers on the world's most popular messaging app"
+          "description": "Kumonekta sa mga customer sa pinakasikat na messaging app sa mundo"
         },
         "instagram": {
-          "name": "[FIL]Instagram",
-          "description": "[FIL]Manage Instagram DMs and story replies in one unified inbox"
+          "name": "Instagram",
+          "description": "Pamahalaan ang mga DM sa Instagram at mga tugon sa kuwento sa isang pinag-isang inbox"
         },
         "facebook": {
-          "name": "[FIL]Facebook",
-          "description": "[FIL]Provide customer support through Facebook's messaging platform"
+          "name": "Facebook",
+          "description": "Magbigay ng suporta sa customer sa pamamagitan ng platform ng pagmemensahe ng Facebook"
         },
         "line": {
           "name": "LINE",
-          "description": "[FIL]Connect with customers on the popular Asian messaging platform"
+          "description": "Kumonekta sa mga customer sa sikat na platform ng pagmemensahe sa Asya"
         },
         "phone": {
-          "name": "[FIL]Phone Call",
-          "description": "[FIL]Handle voice support with AI voice agents"
+          "name": "Tawag sa Telepono",
+          "description": "Pangasiwaan ang suporta sa boses gamit ang mga ahente ng boses ng AI"
         },
         "email": {
-          "name": "[FIL]Email",
-          "description": "[FIL]Manage email tickets with intelligent routing"
+          "name": "Email",
+          "description": "Pamahalaan ang mga tiket sa email na may matalinong pagruruta"
         },
         "ecommerce": {
-          "name": "[FIL]E-commerce",
-          "description": "[FIL]Integrate with online stores for order management"
+          "name": "E-commerce",
+          "description": "Isama sa mga online na tindahan para sa pamamahala ng order"
         }
       },
       "platformCategories": {
         "website": {
-          "title": "[FIL]Website Integration",
-          "description": "[FIL]Deploy on any website platform with our universal widget"
+          "title": "Pagsasama sa Website",
+          "description": "I-deploy sa anumang platform ng website gamit ang aming universal na widget"
         },
         "socialMedia": {
-          "title": "[FIL]Social Media",
-          "description": "[FIL]Connect with customers on their favorite social platforms"
+          "title": "Social Media",
+          "description": "Kumonekta sa mga customer sa kanilang mga paboritong social platform"
         },
         "traditional": {
-          "title": "[FIL]Traditional Channels",
-          "description": "[FIL]Maintain support through classic communication methods"
+          "title": "Mga Tradisyonal na Channel",
+          "description": "Panatilihin ang suporta sa pamamagitan ng mga klasikong paraan ng komunikasyon"
         }
       },
       "quickSetup": {
-        "title": "[FIL]Ready to Deploy Everywhere?",
-        "subtitle": "[FIL]Get started in minutes with our simple integration process",
+        "title": "Handa nang I-deploy Kahit Saan?",
+        "subtitle": "Magsimula sa ilang minuto gamit ang aming simpleng proseso ng pagsasama",
         "steps": [
           {
-            "title": "[FIL]Choose Your Channels",
-            "description": "[FIL]Select from 8+ deployment options"
+            "title": "Piliin ang Iyong mga Channel",
+            "description": "Pumili mula sa 8+ na mga pagpipilian sa pag-deploy"
           },
           {
-            "title": "[FIL]Copy & Paste Code",
-            "description": "[FIL]Simple widget installation"
+            "title": "Kopyahin at I-paste ang Code",
+            "description": "Simpleng pag-install ng widget"
           },
           {
-            "title": "[FIL]Start Chatting",
-            "description": "[FIL]Begin supporting customers instantly"
+            "title": "Simulan ang Pag-chat",
+            "description": "Simulan agad ang pagsuporta sa mga customer"
           }
         ],
-        "button": "[FIL]Start Free Deployment"
+        "button": "Simulan ang Libreng Pag-deploy"
       }
     },
     "pricing": {
-      "title": "[FIL]Pricing That Grows With You",
-      "subtitle": "[FIL]Start completely free with human agents, then add AI when you're ready to scale.",
-      "monthly": "[FIL]Monthly",
-      "yearly": "[FIL]Yearly",
-      "save": "[FIL]Save 20%",
-      "customize": "[FIL]Customize Your Plan",
-      "chatVolume": "[FIL]Monthly Chat Volume",
-      "agents": "[FIL]Number of Agents",
+      "title": "Pagpepresyo na Lumalaki Kasama Mo",
+      "subtitle": "Magsimula nang ganap na libre sa mga ahente ng tao, pagkatapos ay magdagdag ng AI kapag handa ka nang palakihin.",
+      "monthly": "Buwanan",
+      "yearly": "Taunan",
+      "save": "Makatipid ng 20%",
+      "customize": "I-customize ang Iyong Plano",
+      "chatVolume": "Buwanang Dami ng Chat",
+      "agents": "Bilang ng mga Ahente",
       "plans": {
         "free": {
-          "name": "[FIL]Truly Free",
-          "tagline": "[FIL]Experience a trial of powerful features",
-          "description": "[FIL]Perfect for getting started with human agents",
+          "name": "Tunay na Libre",
+          "tagline": "Damhin ang isang pagsubok ng mga malakas na tampok",
+          "description": "Perpekto para sa pagsisimula sa mga ahente ng tao",
           "features": {
-            "humanAgent": "[FIL]1 human agent",
-            "unlimitedHumanChats": "[FIL]Unlimited human agent chats",
-            "unlimitedContacts": "[FIL]Unlimited contacts",
-            "unlimitedHistory": "[FIL]Unlimited chat history",
-            "exportHistory": "[FIL]Freedom to export chat history",
-            "channels": "[FIL]Channels: WhatsApp[FIL] Messenger, chat widget",
-            "integrations": "[FIL]Integrations: Wix[FIL], WordPress[FIL], Shopify[FIL], Make.com, Squarespace",
-            "aiAgent": "[FIL]AI agent with 100 lifetime AI replies:",
-            "aiAgentModel": "[FIL]ChatGPT-3.5-turbo",
-            "knowledgeBase": "[FIL]Knowledge base includes 20 documents (200KB max) and 250k tokens",
-            "workspace": "[FIL]1 workspace"
+            "humanAgent": "1 ahente ng tao",
+            "unlimitedHumanChats": "Walang limitasyong mga chat ng ahente ng tao",
+            "unlimitedContacts": "Walang limitasyong mga contact",
+            "unlimitedHistory": "Walang limitasyong kasaysayan ng chat",
+            "exportHistory": "Kalayaan na i-export ang kasaysayan ng chat",
+            "channels": "Mga Channel: WhatsApp Messenger, chat widget",
+            "integrations": "Mga Pagsasama: Wix, WordPress, Shopify, Make.com, Squarespace",
+            "aiAgent": "Ahente ng AI na may 100 habambuhay na mga tugon ng AI:",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "Kasama sa knowledge base ang 20 dokumento (200KB max) at 250k token",
+            "workspace": "1 workspace"
           },
-          "buttonText": "[FIL]Get Started Free"
+          "buttonText": "Magsimula nang Libre"
         },
         "premium": {
-          "name": "[FIL]Premium",
-          "tagline": "[FIL]Add more AI Agents and Knowledge Files",
-          "description": "[FIL]Scale your support with AI automation",
-          "month": "[FIL]month",
-          "year": "[FIL]year",
-          "year_description": "[FIL]Saves 2 months every year",
+          "name": "Premium",
+          "tagline": "Magdagdag ng higit pang mga Ahente ng AI at mga File ng Kaalaman",
+          "description": "Palakihin ang iyong suporta gamit ang AI automation",
+          "month": "buwan",
+          "year": "taon",
+          "year_description": "Nakatipid ng 2 buwan bawat taon",
           "features": {
-            "humanAgents": "[FIL]4 human users (additional human user costs $10/month)",
-            "humanAgentPermission": "[FIL]Support human agent permission",
-            "assignAgent": "[FIL]Assign human agent to individual conversation",
-            "unreadCounter": "[FIL]Unread message counter for each human agent",
-            "transferToHuman": "[FIL]Live transfer from AI agent to human agent",
-            "transferToAI": "[FIL]Live transfer from human agent to AI agent",
-            "unlimitedHumanChats": "[FIL]Unlimited human agent chats",
-            "unlimitedContacts": "[FIL]Unlimited contacts",
-            "unlimitedHistory": "[FIL]Unlimited chat history",
-            "exportHistory": "[FIL]Freedom to export chat history",
-            "channels": "[FIL]Additional channels: Line, Call, Phone Call",
-            "integrations": "[FIL]Additional integrations: Google Calendar to auto book meetings",
-            "aiAgents": "[FIL]10 AI agents, with each agent having:",
-            "aiModels": "[FIL]ChatGPT-4o and Mistral models",
-            "knowledgeBase": "[FIL]Knowledge base includes up to 1000 documents (10 MB per doc) and 5M tokens",
-            "chatSummary": "[FIL]Chat summary and notification via email",
-            "agentPrivacy": "[FIL]Agent privacy control",
-            "contactCapture": "[FIL]User contact capture via custom forms",
-            "chatCost": "[FIL]Chat AI agent starts at $0.006 per response",
-            "voiceCost": "[FIL]Voice AI agent over phone calls starts at $0.12 per minute",
-            "workspaces": "[FIL]2 workspaces (additional workspace costs $15/month)",
-            "knowledgeBaseFeatures": "[FIL]Knowledge Base:",
-            "advancedSearch": "[FIL]Advanced document search - keyword, vector, hybrid",
-            "fileTypes": "[FIL]20+ file types supported, with optimization on spreadsheets",
-            "automationFeatures": "[FIL]Automation:",
-            "autoLabel": "[FIL]Automatically label conversations with user-defined labels",
-            "builtInActions": "[FIL]Built-in actions triggered by auto-labeling: SMS[FIL], Email",
-            "externalAPI": "[FIL]External API calls as both triggers and actions",
-            "voiceAgentFeatures": "[FIL]Voice AI Agents:",
-            "voiceMessages": "[FIL]Support voice messages in Messenger, WhatsApp[FIL], Line",
-            "phoneCalls": "[FIL]Support 2-way phone call conversations",
-            "callDirection": "[FIL]Support both inbound and outbound call",
-            "transferAgent": "[FIL]Transfer to human agent",
-            "callForwarding": "[FIL]Call forwarding supported",
-            "sttLanguages": "[FIL]10+ Speech-To-Text languages",
-            "ttsLanguages": "[FIL]10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI",
-            "callRecording": "[FIL]Call recording and summary",
-            "callNotification": "[FIL]Call notification via email",
-            "formTrackers": "[FIL]Set form trackers from conversations",
-            "slotExtractors": "[FIL]Slot extractors from conversations",
-            "timezoneFeatures": "[FIL]Local time awareness with timezone support, for:",
-            "businessHours": "[FIL]business hours",
-            "appointmentBooking": "[FIL]appointment booking",
-            "humanAgent": "[FIL]4 human users (additional human user costs $10/month)",
-            "supportHumanAgent": "[FIL]Support human agent permission",
-            "liveTransferToHuman": "[FIL]Live transfer from AI agent to human agent",
-            "liveTransferToAI": "[FIL]Live transfer from human agent to AI agent",
-            "additionalChannels": "[FIL]Additional channels: Line, Call, Phone Call",
-            "additionalIntegrations": "[FIL]Additional integrations: Google Calendar to auto book meetings",
-            "knowledgeBaseTitle": "[FIL]Knowledge Base:",
-            "automationTitle": "[FIL]Automation:",
-            "voiceAgentsTitle": "[FIL]Voice AI Agents:",
-            "timezoneTitle": "[FIL]Local time awareness with timezone support, for:"
+            "humanAgents": "4 na gumagamit ng tao (karagdagang gumagamit ng tao ay nagkakahalaga ng $10/buwan)",
+            "humanAgentPermission": "Suportahan ang pahintulot ng ahente ng tao",
+            "assignAgent": "Magtalaga ng ahente ng tao sa indibidwal na pag-uusap",
+            "unreadCounter": "Hindi pa nababasang counter ng mensahe para sa bawat ahente ng tao",
+            "transferToHuman": "Live na paglipat mula sa ahente ng AI patungo sa ahente ng tao",
+            "transferToAI": "Live na paglipat mula sa ahente ng tao patungo sa ahente ng AI",
+            "unlimitedHumanChats": "Walang limitasyong mga chat ng ahente ng tao",
+            "unlimitedContacts": "Walang limitasyong mga contact",
+            "unlimitedHistory": "Walang limitasyong kasaysayan ng chat",
+            "exportHistory": "Kalayaan na i-export ang kasaysayan ng chat",
+            "channels": "Mga karagdagang channel: Line, Call, Phone Call",
+            "integrations": "Mga karagdagang pagsasama: Google Calendar upang awtomatikong mag-book ng mga pulong",
+            "aiAgents": "10 mga ahente ng AI, na may bawat ahente na mayroong:",
+            "aiModels": "Mga modelo ng ChatGPT-4o at Mistral",
+            "knowledgeBase": "Kasama sa knowledge base ang hanggang 1000 dokumento (10 MB bawat doc) at 5M token",
+            "chatSummary": "Buod ng chat at abiso sa pamamagitan ng email",
+            "agentPrivacy": "Kontrol sa privacy ng ahente",
+            "contactCapture": "Pagkuha ng contact ng gumagamit sa pamamagitan ng mga pasadyang form",
+            "chatCost": "Nagsisimula ang ahente ng Chat AI sa $0.006 bawat tugon",
+            "voiceCost": "Nagsisimula ang ahente ng Voice AI sa mga tawag sa telepono sa $0.12 bawat minuto",
+            "workspaces": "2 workspace (karagdagang workspace ay nagkakahalaga ng $15/buwan)",
+            "knowledgeBaseFeatures": "Knowledge Base:",
+            "advancedSearch": "Advanced na paghahanap ng dokumento - keyword, vector, hybrid",
+            "fileTypes": "20+ uri ng file na suportado, na may pag-optimize sa mga spreadsheet",
+            "automationFeatures": "Automation:",
+            "autoLabel": "Awtomatikong i-label ang mga pag-uusap na may mga label na tinukoy ng gumagamit",
+            "builtInActions": "Mga built-in na aksyon na na-trigger ng awtomatikong pag-label: SMS, Email",
+            "externalAPI": "Mga panlabas na tawag sa API bilang parehong mga trigger at aksyon",
+            "voiceAgentFeatures": "Mga Ahente ng Boses ng AI:",
+            "voiceMessages": "Suportahan ang mga mensahe ng boses sa Messenger, WhatsApp, Line",
+            "phoneCalls": "Suportahan ang 2-way na mga pag-uusap sa tawag sa telepono",
+            "callDirection": "Suportahan ang parehong papasok at papalabas na tawag",
+            "transferAgent": "Ilipat sa ahente ng tao",
+            "callForwarding": "Suportado ang pagpapasa ng tawag",
+            "sttLanguages": "10+ mga wika sa Speech-To-Text",
+            "ttsLanguages": "10+ mga wika sa Text-To-Speech na may mga boses mula sa Azure, ElevenLabs, OpenAI",
+            "callRecording": "Pag-record at buod ng tawag",
+            "callNotification": "Abiso sa tawag sa pamamagitan ng email",
+            "formTrackers": "Magtakda ng mga tracker ng form mula sa mga pag-uusap",
+            "slotExtractors": "Mga slot extractor mula sa mga pag-uusap",
+            "timezoneFeatures": "Lokal na kamalayan sa oras na may suporta sa timezone, para sa:",
+            "businessHours": "mga oras ng negosyo",
+            "appointmentBooking": "pag-book ng appointment",
+            "humanAgent": "4 na gumagamit ng tao (karagdagang gumagamit ng tao ay nagkakahalaga ng $10/buwan)",
+            "supportHumanAgent": "Suportahan ang pahintulot ng ahente ng tao",
+            "liveTransferToHuman": "Live na paglipat mula sa ahente ng AI patungo sa ahente ng tao",
+            "liveTransferToAI": "Live na paglipat mula sa ahente ng tao patungo sa ahente ng AI",
+            "additionalChannels": "Mga karagdagang channel: Line, Call, Phone Call",
+            "additionalIntegrations": "Mga karagdagang pagsasama: Google Calendar upang awtomatikong mag-book ng mga pulong",
+            "knowledgeBaseTitle": "Knowledge Base:",
+            "automationTitle": "Automation:",
+            "voiceAgentsTitle": "Mga Ahente ng Boses ng AI:",
+            "timezoneTitle": "Lokal na kamalayan sa oras na may suporta sa timezone, para sa:"
           },
-          "buttonText": "[FIL]Start Premium",
-          "badge": "[FIL]Most Popular"
+          "buttonText": "Simulan ang Premium",
+          "badge": "Pinakasikat"
         },
         "enterprise": {
-          "name": "[FIL]Enterprise",
-          "tagline": "[FIL]Customize your exclusive AI agents",
-          "description": "[FIL]Custom solutions for large organizations",
+          "name": "Enterprise",
+          "tagline": "I-customize ang iyong eksklusibong mga ahente ng AI",
+          "description": "Mga pasadyang solusyon para sa malalaking organisasyon",
           "features": {
-            "premiumIncluded": "[FIL]Everything in Premium plan",
-            "customBuild": "[FIL]Custom build",
-            "multipleWorkspaces": "[FIL]Multiple workspaces - perfect for agencies",
-            "workspaceAgents": "[FIL]Each workspace has multiple AI agents and phone numbers",
-            "gpt4oRealtimeAPI": "[FIL]Access to GPT-4o Realtime API",
-            "customAPI": "[FIL]Custom API integration",
-            "fineTuning": "[FIL]Fine-tuning with your guidelines and technical support"
+            "premiumIncluded": "Lahat sa Premium na plano",
+            "customBuild": "Pasadyang pagbuo",
+            "multipleWorkspaces": "Maramihang mga workspace - perpekto para sa mga ahensya",
+            "workspaceAgents": "Ang bawat workspace ay may maraming mga ahente ng AI at mga numero ng telepono",
+            "gpt4oRealtimeAPI": "Access sa GPT-4o Realtime API",
+            "customAPI": "Pasadyang pagsasama ng API",
+            "fineTuning": "Pag-fine-tune sa iyong mga alituntunin at teknikal na suporta"
           },
-          "buttonText": "[FIL]Contact Us"
+          "buttonText": "Makipag-ugnayan sa Amin"
         }
       },
       "billing": {
-        "monthly": "[FIL]Monthly",
-        "yearly": "[FIL]Yearly",
-        "year": "[FIL]year",
-        "month": "[FIL]month",
-        "save": "[FIL]Save 2 months vs monthly billing"
+        "monthly": "Buwanan",
+        "yearly": "Taunan",
+        "year": "taon",
+        "month": "buwan",
+        "save": "Makatipid ng 2 buwan kumpara sa buwanang pagsingil"
       },
       "calculator": {
-        "title": "[FIL]Plan & Model Usage Calculator",
-        "description": "[FIL]Estimate your costs based on your usage patterns",
-        "modelSelect": "[FIL]Select AI Model",
-        "priceBreakdown": "[FIL]Cost Breakdown",
-        "licenseYearly": "[FIL]License fee (save 2 months):",
-        "licenseFee": "[FIL]License fee:",
-        "usageCost": "[FIL]Usage cost:",
-        "usageCostYearly": "[FIL]Usage cost (12 months):",
-        "addOnsCost": "[FIL]Add-ons cost:",
-        "addOnsCostYearly": "[FIL]Add-ons cost (12 months):",
-        "totalPerYear": "[FIL]Total per year:",
-        "totalPerMonth": "[FIL]Total per month:",
-        "averagePerMonth": "[FIL]Average per month:",
-        "aiUsage": "[FIL]AI Usage (Pay per use)",
-        "chatResponses": "[FIL]Monthly Chat Responses:",
-        "voiceMinutes": "[FIL]Monthly Voice Minutes:",
-        "voiceMinutesNote": "[FIL]USA/Canada only",
-        "chatCost": "[FIL]Chat Cost",
-        "voiceCost": "[FIL]Voice Cost",
-        "additionalResources": "[FIL]Additional Resources",
-        "humanAgents": "[FIL]Human Agents:",
-        "aiAgents": "[FIL]AI Agents:",
-        "workspaces": "[FIL]Workspaces:",
-        "included": "[FIL]Included:",
-        "extra": "[FIL]Extra:",
-        "disclaimer": "[FIL]Usage costs are calculated based on actual consumption. The Premium plan includes:",
-        "disclaimerDetails": "[FIL]License fee + AI Usage (pay per use) + Additional resources beyond the included limits.",
-        "planIncludes": "[FIL]Premium Plan Includes:",
-        "planIncludesHuman": "[FIL]4 Human Agents",
-        "planIncludesAI": "[FIL]10 AI Agents",
-        "planIncludesWorkspaces": "[FIL]2 Workspaces",
-        "perChatResponse": "[FIL]per chat response",
-        "perVoiceMinute": "[FIL]per voice minute",
-        "voiceOnly": "[FIL]Voice only model",
-        "voicePricing": "[FIL]Voice pricing",
-        "standardVoice": "[FIL]Standard Voice",
-        "premiumVoice": "[FIL]Premium Voice",
-        "placeholderText": "[FIL]Placeholder"
+        "title": "Kalkulator ng Paggamit ng Plano at Modelo",
+        "description": "Tantyahin ang iyong mga gastos batay sa iyong mga pattern ng paggamit",
+        "modelSelect": "Piliin ang Modelo ng AI",
+        "priceBreakdown": "Pagkasira ng Gastos",
+        "licenseYearly": "Bayad sa lisensya (makatipid ng 2 buwan):",
+        "licenseFee": "Bayad sa lisensya:",
+        "usageCost": "Gastos sa paggamit:",
+        "usageCostYearly": "Gastos sa paggamit (12 buwan):",
+        "addOnsCost": "Gastos sa mga add-on:",
+        "addOnsCostYearly": "Gastos sa mga add-on (12 buwan):",
+        "totalPerYear": "Kabuuan bawat taon:",
+        "totalPerMonth": "Kabuuan bawat buwan:",
+        "averagePerMonth": "Average bawat buwan:",
+        "aiUsage": "Paggamit ng AI (Magbayad bawat paggamit)",
+        "chatResponses": "Buwanang mga Tugon sa Chat:",
+        "voiceMinutes": "Buwanang mga Minuto ng Boses:",
+        "voiceMinutesNote": "USA/Canada lamang",
+        "chatCost": "Gastos sa Chat",
+        "voiceCost": "Gastos sa Boses",
+        "additionalResources": "Mga Karagdagang Mapagkukunan",
+        "humanAgents": "Mga Ahente ng Tao:",
+        "aiAgents": "Mga Ahente ng AI:",
+        "workspaces": "Mga Workspace:",
+        "included": "Kasama:",
+        "extra": "Dagdag:",
+        "disclaimer": "Ang mga gastos sa paggamit ay kinakalkula batay sa aktwal na pagkonsumo. Kasama sa Premium na plano ang:",
+        "disclaimerDetails": "Bayad sa lisensya + Paggamit ng AI (magbayad bawat paggamit) + Mga karagdagang mapagkukunan na lampas sa mga kasamang limitasyon.",
+        "planIncludes": "Kasama sa Premium na Plano:",
+        "planIncludesHuman": "4 na mga Ahente ng Tao",
+        "planIncludesAI": "10 mga Ahente ng AI",
+        "planIncludesWorkspaces": "2 mga Workspace",
+        "perChatResponse": "bawat tugon sa chat",
+        "perVoiceMinute": "bawat minuto ng boses",
+        "voiceOnly": "Modelo lamang ng boses",
+        "voicePricing": "Pagpepresyo ng boses",
+        "standardVoice": "Karaniwang Boses",
+        "premiumVoice": "Premium na Boses",
+        "placeholderText": "Placeholder"
       },
-      "note": "[FIL]Prices are in USD. Voice call prices vary by country and listed prices are for the United States and Canada. For other countries, please contact us.",
+      "note": "Ang mga presyo ay nasa USD. Nag-iiba-iba ang mga presyo ng tawag sa boses ayon sa bansa at ang mga nakalistang presyo ay para sa Estados Unidos at Canada. Para sa ibang mga bansa, mangyaring makipag-ugnayan sa amin.",
       "comparison": {
-        "title": "[FIL]Compare All Features",
-        "subtitle": "[FIL]See exactly what's included in each plan",
-        "featuresTitle": "[FIL]Features",
-        "trulyFree": "[FIL]Truly Free",
-        "premium": "[FIL]Premium",
-        "enterprise": "[FIL]Enterprise",
-        "humanAgents": "[FIL]Human Agents",
-        "aiAgents": "[FIL]AI Agents",
-        "aiModels": "[FIL]AI Models",
-        "knowledgeBase": "[FIL]Knowledge Base",
-        "voiceAI": "[FIL]Voice AI Agents",
-        "phoneCalls": "[FIL]Phone Calls",
-        "automation": "[FIL]Automation",
-        "apiIntegration": "[FIL]API Integration",
-        "workspaces": "[FIL]Workspaces",
-        "support": "[FIL]Support",
+        "title": "Ihambing ang Lahat ng Tampok",
+        "subtitle": "Tingnan kung ano mismo ang kasama sa bawat plano",
+        "featuresTitle": "Mga Tampok",
+        "trulyFree": "Tunay na Libre",
+        "premium": "Premium",
+        "enterprise": "Enterprise",
+        "humanAgents": "Mga Ahente ng Tao",
+        "aiAgents": "Mga Ahente ng AI",
+        "aiModels": "Mga Modelo ng AI",
+        "knowledgeBase": "Knowledge Base",
+        "voiceAI": "Mga Ahente ng Boses ng AI",
+        "phoneCalls": "Mga Tawag sa Telepono",
+        "automation": "Automation",
+        "apiIntegration": "Pagsasama ng API",
+        "workspaces": "Mga Workspace",
+        "support": "Suporta",
         "features": {
           "humanAgents": {
-            "free": "[FIL]1 agent",
-            "premium": "[FIL]4 users",
-            "enterprise": "[FIL]Unlimited"
+            "free": "1 ahente",
+            "premium": "4 na gumagamit",
+            "enterprise": "Walang limitasyon"
           },
           "aiAgents": {
-            "free": "[FIL]1 agent (100 replies)",
-            "premium": "[FIL]10 agents (unlimited)",
-            "enterprise": "[FIL]Custom build"
+            "free": "1 ahente (100 mga tugon)",
+            "premium": "10 mga ahente (walang limitasyon)",
+            "enterprise": "Pasadyang pagbuo"
           },
           "aiModels": {
-            "free": "[FIL]ChatGPT-3.5",
-            "premium": "[FIL]ChatGPT-4o, Mistral",
-            "enterprise": "[FIL]Advanced models"
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o, Mistral",
+            "enterprise": "Mga advanced na modelo"
           },
           "knowledgeBase": {
-            "free": "[FIL]20 docs (200KB)",
-            "premium": "[FIL]5000 docs (10MB each)",
-            "enterprise": "[FIL]Unlimited"
+            "free": "20 doc (200KB)",
+            "premium": "5000 doc (10MB bawat isa)",
+            "enterprise": "Walang limitasyon"
           },
           "voiceAI": {
-            "free": "[FIL]❌",
-            "premium": "[FIL]✅",
-            "enterprise": "[FIL]✅"
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
           },
           "phoneCalls": {
-            "free": "[FIL]❌",
-            "premium": "[FIL]✅ Inbound/Outbound",
-            "enterprise": "[FIL]✅"
+            "free": "❌",
+            "premium": "✅ Papasok/Palabas",
+            "enterprise": "✅"
           },
           "automation": {
-            "free": "[FIL]❌",
-            "premium": "[FIL]✅ Advanced",
-            "enterprise": "[FIL]✅ Custom"
+            "free": "❌",
+            "premium": "✅ Advanced",
+            "enterprise": "✅ Pasadya"
           },
           "apiIntegration": {
-            "free": "[FIL]❌",
-            "premium": "[FIL]✅",
-            "enterprise": "[FIL]✅ Custom"
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ Pasadya"
           },
           "workspaces": {
-            "free": "[FIL]1",
-            "premium": "[FIL]2 ($15 each extra)",
-            "enterprise": "[FIL]Multiple"
+            "free": "1",
+            "premium": "2 ($15 bawat dagdag)",
+            "enterprise": "Maramihan"
           },
           "support": {
-            "free": "[FIL]Community",
-            "premium": "[FIL]Email + Phone",
-            "enterprise": "[FIL]Dedicated technical"
+            "free": "Komunidad",
+            "premium": "Email + Telepono",
+            "enterprise": "Nakatuong teknikal"
           }
         }
       },
       "enterprise": {
-        "title": "[FIL]Need Something Custom?",
-        "description": "[FIL]We offer custom enterprise solutions including on-premise deployment, advanced security features, and dedicated support teams.",
-        "contactSales": "[FIL]Contact Sales Team"
+        "title": "Kailangan ng Isang Bagay na Pasadya?",
+        "description": "Nag-aalok kami ng mga pasadyang solusyon sa enterprise kabilang ang on-premise na pag-deploy, mga advanced na tampok sa seguridad, at mga dedikadong koponan sa suporta.",
+        "contactSales": "Makipag-ugnayan sa Koponan sa Pagbebenta"
       },
       "faq": {
-        "title": "[FIL]Frequently Asked Questions",
-        "question1": "[FIL]Is the free plan really free forever?",
-        "answer1": "[FIL]Yes! Our Truly Free plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. Plus, you get 1 AI agent with 100 lifetime AI replies to try our AI features. No credit card required, no hidden fees.",
-        "question2": "[FIL]What's the difference between monthly and yearly billing?",
-        "answer2": "[FIL]With yearly billing, you save 2 months on the Premium plan ($299/year vs $359.88/year if paid monthly). The billing cycle only affects the Premium plan - the Free plan is always free and Enterprise is custom pricing.",
-        "question3": "[FIL]Can I upgrade or downgrade my plan anytime?",
-        "answer3": "[FIL]Absolutely! You can change your plan at any time. Upgrades take effect immediately, and downgrades take effect at the end of your current billing cycle.",
-        "question4": "[FIL]What happens if I exceed my AI reply limit on the Free plan?",
-        "answer4": "[FIL]The Free plan includes 100 lifetime AI replies. Once you reach this limit, you'll need to upgrade to Premium for unlimited AI responses. Your human agent functionality remains unlimited on all plans.",
-        "question5": "[FIL]How does the Premium plan pricing work?",
-        "answer5": "[FIL]Premium has two components: a license fee ($29.99/month or $299/year) plus usage-based pricing. Usage includes AI responses starting at $0.006 each (ChatGPT-4o mini) and voice calls at $0.12/minute. Additional human users cost $10/month each, and extra workspaces cost $15/month each.",
-        "question6": "[FIL]What happens to my data if I cancel?",
-        "answer6": "[FIL]You own your data. You can export all your chat history, contacts, and knowledge base content at any time, even on the free plan. We believe in data freedom and transparency.",
-        "question7": "[FIL]Do you offer custom pricing for large enterprises?",
-        "answer7": "[FIL]Yes! Our Enterprise plan offers custom builds, multiple AI services perfect for agencies, custom API integrations, and professional design guidelines with technical support. Contact our sales team for a personalized quote."
+        "title": "Mga Madalas Itanong",
+        "question1": "Talaga bang libre magpakailanman ang libreng plano?",
+        "answer1": "Oo! Kasama sa aming Tunay na Libreng plano ang 1 ahente ng tao habang-buhay na may walang limitasyong mga pag-uusap, kasaysayan ng chat, at mga contact. Dagdag pa, makakakuha ka ng 1 ahente ng AI na may 100 habambuhay na mga tugon ng AI upang subukan ang aming mga tampok sa AI. Walang kinakailangang credit card, walang mga nakatagong bayarin.",
+        "question2": "Ano ang pagkakaiba sa pagitan ng buwanan at taunang pagsingil?",
+        "answer2": "Sa taunang pagsingil, makakatipid ka ng 2 buwan sa Premium na plano ($299/taon kumpara sa $359.88/taon kung babayaran buwan-buwan). Ang siklo ng pagsingil ay nakakaapekto lamang sa Premium na plano - ang Libreng plano ay laging libre at ang Enterprise ay pasadyang pagpepresyo.",
+        "question3": "Maaari ko bang i-upgrade o i-downgrade ang aking plano anumang oras?",
+        "answer3": "Syempre! Maaari mong baguhin ang iyong plano anumang oras. Ang mga pag-upgrade ay agad na magkakabisa, at ang mga pag-downgrade ay magkakabisa sa pagtatapos ng iyong kasalukuyang siklo ng pagsingil.",
+        "question4": "Ano ang mangyayari kung lumampas ako sa aking limitasyon sa tugon ng AI sa Libreng plano?",
+        "answer4": "Kasama sa Libreng plano ang 100 habambuhay na mga tugon ng AI. Kapag naabot mo ang limitasyong ito, kakailanganin mong mag-upgrade sa Premium para sa walang limitasyong mga tugon ng AI. Ang iyong pag-andar ng ahente ng tao ay nananatiling walang limitasyon sa lahat ng mga plano.",
+        "question5": "Paano gumagana ang pagpepresyo ng Premium na plano?",
+        "answer5": "Ang Premium ay may dalawang bahagi: isang bayad sa lisensya ($29.99/buwan o $299/taon) kasama ang pagpepresyo na batay sa paggamit. Kasama sa paggamit ang mga tugon ng AI na nagsisimula sa $0.006 bawat isa (ChatGPT-4o mini) at mga tawag sa boses sa $0.12/minuto. Ang mga karagdagang gumagamit ng tao ay nagkakahalaga ng $10/buwan bawat isa, at ang mga dagdag na workspace ay nagkakahalaga ng $15/buwan bawat isa.",
+        "question6": "Ano ang mangyayari sa aking data kung magkakansela ako?",
+        "answer6": "Pagmamay-ari mo ang iyong data. Maaari mong i-export ang lahat ng iyong kasaysayan ng chat, mga contact, at nilalaman ng knowledge base anumang oras, kahit na sa libreng plano. Naniniwala kami sa kalayaan at transparency ng data.",
+        "question7": "Nag-aalok ba kayo ng pasadyang pagpepresyo para sa malalaking negosyo?",
+        "answer7": "Oo! Nag-aalok ang aming Enterprise na plano ng mga pasadyang pagbuo, maraming mga serbisyo ng AI na perpekto para sa mga ahensya, mga pasadyang pagsasama ng API, at mga propesyonal na alituntunin sa disenyo na may teknikal na suporta. Makipag-ugnayan sa aming koponan sa pagbebenta para sa isang personalized na quote."
       },
       "cta": {
-        "title": "[FIL]Your AI Chat Revolution",
-        "subtitle": "[FIL]Starts Right Now!",
-        "description": "[FIL]Join 100,000+ businesses already using SeaChat[FIL] to deliver exceptional customer experiences across all messaging channels",
+        "title": "Ang Iyong Rebolusyon sa AI Chat",
+        "subtitle": "Nagsisimula Ngayon!",
+        "description": "Sumali sa 100,000+ na mga negosyo na gumagamit na ng SeaChat upang maghatid ng mga pambihirang karanasan sa customer sa lahat ng mga channel ng pagmemensahe",
         "stats": {
-          "messages": "[FIL]100K+",
-          "messagesLabel": "[FIL]Messages Daily",
-          "uptime": "[FIL]99.9%",
-          "uptimeLabel": "[FIL]Uptime Guarantee",
-          "channels": "[FIL]15+",
-          "channelsLabel": "[FIL]Channels Supported",
+          "messages": "100K+",
+          "messagesLabel": "Mga Mensahe Araw-araw",
+          "uptime": "99.9%",
+          "uptimeLabel": "Garantiya sa Uptime",
+          "channels": "15+",
+          "channelsLabel": "Mga Channel na Suportado",
           "hipaa": "HIPAA",
-          "hipaaLabel": "[FIL]Compliant & Secure"
+          "hipaaLabel": "Sumusunod at Ligtas"
         },
-        "startFree": "[FIL]START TRULY FREE FIRST",
-        "bookDemo": "[FIL]Book Live Demo",
+        "startFree": "SIMULAN ANG TUNAY NA LIBRE MUNA",
+        "bookDemo": "Mag-book ng Live na Demo",
         "badges": {
-          "noCoding": "[FIL]No Coding Required",
-          "freePlan": "[FIL]Free Forever Plan",
-          "cancelAnytime": "[FIL]Cancel Anytime",
-          "support": "[FIL]24/7 Support"
+          "noCoding": "Walang Kinakailangang Coding",
+          "freePlan": "Libreng Plano Magpakailanman",
+          "cancelAnytime": "Kanselahin Anumang Oras",
+          "support": "24/7 Suporta"
         },
-        "urgency": "[FIL]Limited Time: Get 2 months free on annual plans + priority onboarding support!",
-        "limitedTime": "[FIL]Limited Time:"
+        "urgency": "Limitadong Oras: Kumuha ng 2 buwan na libre sa mga taunang plano + suporta sa priyoridad na onboarding!",
+        "limitedTime": "Limitadong Oras:"
       }
     },
     "knowledgeBase": {
-      "title": "[FIL]Powerful Knowledge Base",
-      "subtitle": "[FIL]Upload 30+ file types and let AI provide rich, contextual responses with cards, buttons, images, and videos.",
+      "title": "Malakas na Knowledge Base",
+      "subtitle": "Mag-upload ng 30+ uri ng file at hayaan ang AI na magbigay ng mayaman, kontekstwal na mga tugon na may mga card, pindutan, imahe, at video.",
       "supportedFormats": {
-        "title": "[FIL]Supported File Types",
+        "title": "Mga Suportadong Uri ng File",
         "formats": {
           "pdf": {
-            "name": "[FIL]PDF Documents",
-            "count": "[FIL]15 files"
+            "name": "Mga Dokumento ng PDF",
+            "count": "15 mga file"
           },
           "excel": {
-            "name": "[FIL]Excel Sheets",
-            "count": "[FIL]8 files"
+            "name": "Mga Sheet ng Excel",
+            "count": "8 mga file"
           },
           "word": {
-            "name": "[FIL]Word Documents",
-            "count": "[FIL]12 files"
+            "name": "Mga Dokumento ng Word",
+            "count": "12 mga file"
           },
           "images": {
-            "name": "[FIL]Images",
-            "count": "[FIL]25 images"
+            "name": "Mga Imahe",
+            "count": "25 mga imahe"
           },
           "websites": {
-            "name": "[FIL]Websites",
-            "count": "[FIL]5 sites"
+            "name": "Mga Website",
+            "count": "5 mga site"
           },
           "videos": {
-            "name": "[FIL]Videos",
-            "count": "[FIL]3 videos"
+            "name": "Mga Video",
+            "count": "3 mga video"
           }
         },
         "richResponse": {
-          "title": "[FIL]Rich Response Formatting:",
+          "title": "Pag-format ng Mayamang Tugon:",
           "features": [
-            "[FIL]Interactive Cards",
-            "[FIL]Action Buttons",
-            "[FIL]Embedded Images",
-            "[FIL]Video Responses"
+            "Mga Interactive na Card",
+            "Mga Pindutan ng Aksyon",
+            "Mga Naka-embed na Imahe",
+            "Mga Tugon sa Video"
           ]
         },
-        "addDocuments": "[FIL]Add Your Documents"
+        "addDocuments": "Idagdag ang Iyong mga Dokumento"
       },
       "uploadModal": {
-        "title": "[FIL]Upload Your Documents",
+        "title": "I-upload ang Iyong mga Dokumento",
         "dropzone": {
-          "title": "[FIL]Drop your files here",
-          "description": "[FIL]Support for PDF, Word, Excel, images, videos, and more",
-          "button": "[FIL]Choose Files"
+          "title": "I-drop ang iyong mga file dito",
+          "description": "Suporta para sa PDF, Word, Excel, mga imahe, video, at higit pa",
+          "button": "Pumili ng mga File"
         },
         "demoFiles": [
-          "[FIL]sample_manual.pdf",
-          "[FIL]product_data.xlsx",
-          "[FIL]brand_guide.jpg"
+          "sample_manual.pdf",
+          "product_data.xlsx",
+          "brand_guide.jpg"
         ],
-        "close": "[FIL]Close Demo"
+        "close": "Isara ang Demo"
       }
     },
     "useCases": {
-      "title": "[FIL]Success Stories Across Industries",
-      "subtitle": "[FIL]See how businesses transform their customer support with SeaChat[FIL]'s human-AI hybrid approach.",
+      "title": "Mga Kuwento ng Tagumpay sa mga Industriya",
+      "subtitle": "Tingnan kung paano binabago ng mga negosyo ang kanilang suporta sa customer gamit ang hybrid na diskarte ng tao-AI ng SeaChat.",
       "cases": {
         "ecommerce": {
-          "title": "[FIL]E-commerce Support Revolution",
-          "industry": "[FIL]Retail",
-          "challenge": "[FIL]Managing 500+ daily customer inquiries across multiple channels with limited staff",
-          "solution": "[FIL]Deployed SeaChat[FIL] with AI agents handling 70% of routine inquiries, human agents for complex issues",
+          "title": "Rebolusyon sa Suporta sa E-commerce",
+          "industry": "Tingi",
+          "challenge": "Pamamahala ng 500+ araw-araw na mga katanungan ng customer sa maraming mga channel na may limitadong kawani",
+          "solution": "Nag-deploy ng SeaChat na may mga ahente ng AI na humahawak sa 70% ng mga regular na katanungan, mga ahente ng tao para sa mga kumplikadong isyu",
           "results": [
-            "[FIL]60% reduction in response time",
-            "[FIL]40% increase in customer satisfaction",
-            "[FIL]75% cost savings on support operations"
+            "60% na pagbawas sa oras ng pagtugon",
+            "40% na pagtaas sa kasiyahan ng customer",
+            "75% na pagtitipid sa gastos sa mga operasyon sa suporta"
           ],
           "metrics": {
-            "responseTime": "[FIL]< 30s",
-            "satisfaction": "[FIL]94%",
-            "cost": "[FIL]-75%"
+            "responseTime": "< 30s",
+            "satisfaction": "94%",
+            "cost": "-75%"
           }
         },
         "healthcare": {
-          "title": "[FIL]Healthcare Patient Support",
-          "industry": "[FIL]Healthcare",
-          "challenge": "[FIL]Providing 24/7 patient support while maintaining HIPAA[FIL] compliance",
-          "solution": "[FIL]Integrated secure AI agents with appointment booking and symptom pre-screening",
+          "title": "Suporta sa Pasyente sa Pangangalagang Pangkalusugan",
+          "industry": "Pangangalagang pangkalusugan",
+          "challenge": "Pagbibigay ng 24/7 na suporta sa pasyente habang pinapanatili ang pagsunod sa HIPAA",
+          "solution": "Pinagsamang mga secure na ahente ng AI na may pag-book ng appointment at pre-screening ng sintomas",
           "results": [
-            "[FIL]24/7 patient assistance",
-            "[FIL]50% reduction in no-shows",
-            "[FIL]100% HIPAA[FIL] compliance maintained"
+            "24/7 na tulong sa pasyente",
+            "50% na pagbawas sa mga hindi pagdating",
+            "100% na pinananatili ang pagsunod sa HIPAA"
           ],
           "metrics": {
-            "availability": "[FIL]24/7",
-            "noShows": "[FIL]-50%",
-            "compliance": "[FIL]100%"
+            "availability": "24/7",
+            "noShows": "-50%",
+            "compliance": "100%"
           }
         },
         "fintech": {
-          "title": "[FIL]Financial Services Excellence",
-          "industry": "[FIL]FinTech",
-          "challenge": "[FIL]Handling sensitive financial queries with speed and security",
-          "solution": "[FIL]Custom AI training on financial regulations with seamless human escalation",
+          "title": "Kahusayan sa mga Serbisyo sa Pinansyal",
+          "industry": "FinTech",
+          "challenge": "Paghawak ng mga sensitibong katanungan sa pananalapi nang may bilis at seguridad",
+          "solution": "Pasadyang pagsasanay sa AI sa mga regulasyon sa pananalapi na may tuluy-tuloy na pag-escalate ng tao",
           "results": [
-            "[FIL]90% first-contact resolution",
-            "[FIL]3x faster query processing",
-            "[FIL]Enhanced security protocols"
+            "90% na paglutas sa unang contact",
+            "3x na mas mabilis na pagproseso ng query",
+            "Pinahusay na mga protocol sa seguridad"
           ],
           "metrics": {
-            "resolution": "[FIL]90%",
-            "speed": "[FIL]3x",
-            "security": "[FIL]Enhanced"
+            "resolution": "90%",
+            "speed": "3x",
+            "security": "Pinahusay"
           }
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Transform Your Support?",
-        "description": "[FIL]Join hundreds of businesses already using SeaChat[FIL] to deliver exceptional customer experiences.",
+        "title": "Handa nang Baguhin ang Iyong Suporta?",
+        "description": "Sumali sa daan-daang negosyo na gumagamit na ng SeaChat upang maghatid ng mga pambihirang karanasan sa customer.",
         "buttons": {
-          "viewCases": "[FIL]View All Case Studies",
-          "startStory": "[FIL]Start Your Success Story"
+          "viewCases": "Tingnan ang Lahat ng Pag-aaral ng Kaso",
+          "startStory": "Simulan ang Iyong Kuwento ng Tagumpay"
         },
-        "signUpFree": "[FIL]Sign Up For Free",
-        "bookDemo": "[FIL]Book A Demo"
+        "signUpFree": "Mag-sign Up Nang Libre",
+        "bookDemo": "Mag-book ng Demo"
       },
       "labels": {
-        "challenge": "[FIL]Challenge:",
-        "solution": "[FIL]Solution:",
-        "resultsAchieved": "[FIL]Results Achieved:"
+        "challenge": "Hamon:",
+        "solution": "Solusyon:",
+        "resultsAchieved": "Mga Resulta na Nakamit:"
       },
       "metrics": {
-        "responseTime": "[FIL]Response Time",
-        "satisfaction": "[FIL]Satisfaction",
-        "cost": "[FIL]Cost",
-        "availability": "[FIL]Availability",
-        "noShows": "[FIL]No-Shows",
-        "compliance": "[FIL]Compliance",
-        "resolution": "[FIL]Resolution",
-        "speed": "[FIL]Speed",
-        "security": "[FIL]Security"
+        "responseTime": "Oras ng Pagtugon",
+        "satisfaction": "Kasiyahan",
+        "cost": "Gastos",
+        "availability": "Availability",
+        "noShows": "Mga Hindi Pagdating",
+        "compliance": "Pagsunod",
+        "resolution": "Paglutas",
+        "speed": "Bilis",
+        "security": "Seguridad"
       }
     },
     "testimonials": {
-      "title": "[FIL]Loved by Support Teams Worldwide",
-      "subtitle": "[FIL]Don't just take our word for it. Here's what our customers say about transforming their support with SeaChat[FIL].",
+      "title": "Minamahal ng mga Koponan sa Suporta sa Buong Mundo",
+      "subtitle": "Huwag lamang kunin ang aming salita para dito. Narito ang sinasabi ng aming mga customer tungkol sa pagbabago ng kanilang suporta sa SeaChat.",
       "navigation": {
-        "previous": "[FIL]Previous",
-        "next": "[FIL]Next"
+        "previous": "Nakaraan",
+        "next": "Susunod"
       },
-      "trustedBy": "[FIL]Trusted by innovative companies worldwide",
+      "trustedBy": "Pinagkakatiwalaan ng mga makabagong kumpanya sa buong mundo",
       "stats": {
-        "customers": "[FIL]10,000+ Happy Customers",
-        "uptime": "[FIL]99.9% Uptime",
-        "messages": "[FIL]50M+ Messages Processed",
-        "rating": "[FIL]4.9/5 Customer Rating"
+        "customers": "10,000+ Maligayang mga Customer",
+        "uptime": "99.9% Uptime",
+        "messages": "50M+ na mga Mensahe na Naproseso",
+        "rating": "4.9/5 Rating ng Customer"
       },
       "testimonials": {
         "0": {
-          "name": "[FIL]Sarah Chen",
-          "title": "[FIL]Customer Success Director",
-          "company": "[FIL]TechFlow Solutions",
-          "quote": "SeaChat[FIL] transformed our support operations. Starting with free human agents was perfect for our startup, and scaling with AI has been seamless. Our response times improved by 70%.",
+          "name": "Sarah Chen",
+          "title": "Direktor ng Tagumpay ng Customer",
+          "company": "TechFlow Solutions",
+          "quote": "Binago ng SeaChat ang aming mga operasyon sa suporta. Ang pagsisimula sa mga libreng ahente ng tao ay perpekto para sa aming startup, at ang pag-scale sa AI ay naging tuluy-tuloy. Ang aming mga oras ng pagtugon ay bumuti ng 70%.",
           "metrics": {
-            "improvement": "[FIL]70%",
-            "feature": "[FIL]Response Time"
+            "improvement": "70%",
+            "feature": "Oras ng Pagtugon"
           }
         },
         "1": {
-          "name": "[FIL]Marcus Rodriguez",
-          "title": "[FIL]Operations Manager",
-          "company": "[FIL]EcoCommerce",
-          "quote": "[FIL]The knowledge base feature is incredible. We uploaded our entire product catalog and FAQs, and the AI now handles 80% of customer queries with perfect accuracy.",
+          "name": "Marcus Rodriguez",
+          "title": "Tagapamahala ng Operasyon",
+          "company": "EcoCommerce",
+          "quote": "Ang tampok na knowledge base ay hindi kapani-paniwala. In-upload namin ang aming buong catalog ng produkto at mga FAQ, at ngayon ay pinangangasiwaan ng AI ang 80% ng mga query ng customer na may perpektong katumpakan.",
           "metrics": {
-            "improvement": "[FIL]80%",
-            "feature": "[FIL]Query Resolution"
+            "improvement": "80%",
+            "feature": "Paglutas ng Query"
           }
         },
         "2": {
-          "name": "[FIL]Emily Watson",
-          "title": "[FIL]Head of Customer Experience",
-          "company": "[FIL]HealthTech Pro",
-          "quote": "[FIL]The omnichannel integration is flawless. Our customers can start a conversation on WhatsApp[FIL] and continue on our website without losing context. Game-changing!",
+          "name": "Emily Watson",
+          "title": "Pinuno ng Karanasan sa Customer",
+          "company": "HealthTech Pro",
+          "quote": "Ang pagsasama ng omnichannel ay walang kamali-mali. Maaaring simulan ng aming mga customer ang isang pag-uusap sa WhatsApp at magpatuloy sa aming website nang hindi nawawala ang konteksto. Nagbabago ng laro!",
           "metrics": {
-            "improvement": "[FIL]95%",
-            "feature": "[FIL]Customer Satisfaction"
+            "improvement": "95%",
+            "feature": "Kasiyahan ng Customer"
           }
         },
         "3": {
-          "name": "[FIL]David Park",
-          "title": "[FIL]Founder & CEO",
-          "company": "[FIL]StartupFlow",
-          "quote": "[FIL]As a bootstrap startup, the free plan was a lifesaver. We provided professional support from day one without any upfront costs. Now we're happily paying for AI features as we scale.",
+          "name": "David Park",
+          "title": "Tagapagtatag at CEO",
+          "company": "StartupFlow",
+          "quote": "Bilang isang bootstrap startup, ang libreng plano ay isang tagapagligtas ng buhay. Nagbigay kami ng propesyonal na suporta mula sa unang araw nang walang anumang paunang gastos. Ngayon ay masaya kaming nagbabayad para sa mga tampok ng AI habang kami ay nag-i-scale.",
           "metrics": {
-            "improvement": "[FIL]$0",
-            "feature": "[FIL]Initial Cost"
+            "improvement": "$0",
+            "feature": "Paunang Gastos"
           }
         },
         "4": {
-          "name": "[FIL]Lisa Thompson",
-          "title": "[FIL]Support Team Lead",
-          "company": "[FIL]GlobalRetail Inc",
-          "quote": "[FIL]The human-AI handoff is so smooth that customers don't even notice when they're switched between AI and human agents. It's exactly what we needed for our complex support scenarios.",
+          "name": "Lisa Thompson",
+          "title": "Pinuno ng Koponan sa Suporta",
+          "company": "GlobalRetail Inc",
+          "quote": "Ang pag-handoff ng tao-AI ay napakakinis na hindi man lang napapansin ng mga customer kapag sila ay inililipat sa pagitan ng mga ahente ng AI at tao. Ito mismo ang kailangan namin para sa aming mga kumplikadong sitwasyon sa suporta.",
           "metrics": {
-            "improvement": "[FIL]100%",
-            "feature": "[FIL]Seamless Handoff"
+            "improvement": "100%",
+            "feature": "Walang putol na Handoff"
           }
         }
       }
     },
     "blog": {
-      "title": "[FIL]Latest Insights & Resources",
-      "subtitle": "[FIL]Stay ahead with expert insights on customer support trends, AI implementation strategies, and platform optimization tips.",
+      "title": "Pinakabagong mga Insight at Mapagkukunan",
+      "subtitle": "Manatiling nangunguna sa mga pananaw ng dalubhasa sa mga trend sa suporta sa customer, mga diskarte sa pagpapatupad ng AI, at mga tip sa pag-optimize ng platform.",
       "categories": {
-        "all": "[FIL]All",
-        "ai": "[FIL]AI & Automation",
-        "strategy": "[FIL]Strategy",
-        "integration": "[FIL]Integration",
-        "knowledge": "[FIL]Knowledge Management",
-        "success": "[FIL]Customer Success"
+        "all": "Lahat",
+        "ai": "AI at Automation",
+        "strategy": "Diskarte",
+        "integration": "Pagsasama",
+        "knowledge": "Pamamahala ng Kaalaman",
+        "success": "Tagumpay ng Customer"
       },
-      "featured": "[FIL]Featured",
-      "latest": "[FIL]Recent Posts",
-      "readTime": "[FIL]min read",
-      "stayUpdated": "[FIL]Stay Updated",
-      "newsletterSubtitle": "[FIL]Get the latest insights on AI customer support, platform updates, and industry best practices delivered to your inbox.",
-      "joinProfessionals": "[FIL]Join 5,000+ support professionals. Unsubscribe anytime.",
-      "loading": "[FIL]Loading blog posts...",
-      "loadingPost": "[FIL]Loading article...",
-      "backToBlog": "[FIL]Back to Blog",
-      "share": "[FIL]Share",
-      "tags": "[FIL]Tags",
-      "followLinkedIn": "[FIL]Follow on LinkedIn",
-      "moreArticles": "[FIL]More Articles",
-      "relatedArticles": "[FIL]Related Articles",
-      "searchPlaceholder": "[FIL]Search articles, topics, or tags...",
-      "articleCount": "[FIL]article(s) found",
-      "noArticles": "[FIL]No articles found",
-      "adjustSearch": "[FIL]Try adjusting your search terms or category filter."
+      "featured": "Itinatampok",
+      "latest": "Mga Kamakailang Post",
+      "readTime": "min na pagbasa",
+      "stayUpdated": "Manatiling Nai-update",
+      "newsletterSubtitle": "Kunin ang pinakabagong mga insight sa suporta sa customer ng AI, mga update sa platform, at mga pinakamahusay na kasanayan sa industriya na inihahatid sa iyong inbox.",
+      "joinProfessionals": "Sumali sa 5,000+ na mga propesyonal sa suporta. Mag-unsubscribe anumang oras.",
+      "loading": "Naglo-load ng mga post sa blog...",
+      "loadingPost": "Naglo-load ng artikulo...",
+      "backToBlog": "Bumalik sa Blog",
+      "share": "Ibahagi",
+      "tags": "Mga Tag",
+      "followLinkedIn": "Sundan sa LinkedIn",
+      "moreArticles": "Higit pang mga Artikulo",
+      "relatedArticles": "Mga Kaugnay na Artikulo",
+      "searchPlaceholder": "Maghanap ng mga artikulo, paksa, o tag...",
+      "articleCount": "artikulo(s) na natagpuan",
+      "noArticles": "Walang nahanap na mga artikulo",
+      "adjustSearch": "Subukang ayusin ang iyong mga termino sa paghahanap o filter ng kategorya."
     }
   }
 }

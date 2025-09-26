@@ -2,657 +2,657 @@
   "seachat": {
     "features": {
       "advancedAI": {
-        "title": "[FA]Advanced AI Features",
-        "subtitle": "[FA]Next-generation AI intelligence with memory, context awareness, and advanced reasoning capabilities for truly personalized customer experiences.",
-        "exploreButton": "[FA]Explore Advanced AI",
-        "scheduleDemo": "[FA]Schedule Demo",
+        "title": "ویژگی‌های پیشرفته هوش مصنوعی",
+        "subtitle": "هوش مصنوعی نسل بعدی با حافظه، آگاهی از زمینه و قابلیت‌های استدلال پیشرفته برای تجربیات مشتری واقعاً شخصی‌سازی شده.",
+        "exploreButton": "کاوش در هوش مصنوعی پیشرفته",
+        "scheduleDemo": "زمان‌بندی دمو",
         "capabilities": {
-          "title": "[FA]Cutting-Edge AI Capabilities",
-          "subtitle": "[FA]Experience the future of customer support with our advanced AI features that learn, remember, and adapt."
+          "title": "قابلیت‌های پیشرفته هوش مصنوعی",
+          "subtitle": "آینده پشتیبانی مشتری را با ویژگی‌های پیشرفته هوش مصنوعی ما که یاد می‌گیرند، به خاطر می‌سپارند و سازگار می‌شوند، تجربه کنید."
         },
         "rag": {
-          "title": "[FA]Retrieval Augmented Generation (RAG)",
-          "description": "[FA]Advanced search capabilities combining keyword, vector, and hybrid search for precise information retrieval.",
+          "title": "تولید افزوده بازیابی (RAG)",
+          "description": "قابلیت‌های جستجوی پیشرفته که جستجوی کلیدواژه، برداری و ترکیبی را برای بازیابی دقیق اطلاعات ترکیب می‌کند.",
           "details": {
-            "semantic": "[FA]Semantic vector search for contextual understanding",
-            "keyword": "[FA]Traditional keyword matching for exact queries",
-            "hybrid": "[FA]Hybrid algorithms combining both approaches",
-            "indexing": "[FA]Real-time content indexing and updates"
+            "semantic": "جستجوی برداری معنایی برای درک متنی",
+            "keyword": "تطبیق کلیدواژه سنتی برای جستجوهای دقیق",
+            "hybrid": "الگوریتم‌های ترکیبی که هر دو رویکرد را ترکیب می‌کنند",
+            "indexing": "نمایه‌سازی و به‌روزرسانی محتوا در زمان واقعی"
           },
-          "sectionTitle": "[FA]Retrieval Augmented Generation",
-          "sectionSubtitle": "[FA]Advanced search technology that combines multiple approaches for the most accurate information retrieval.",
-          "keyword": "[FA]Keyword Search",
-          "keywordDesc": "[FA]Traditional exact-match searching for precise queries and specific terms.",
-          "vector": "[FA]Vector Search",
-          "vectorDesc": "[FA]Semantic understanding that finds contextually relevant information.",
-          "hybrid": "[FA]Hybrid Search",
-          "hybridDesc": "[FA]Best of both worlds, combining keyword precision with semantic understanding."
+          "sectionTitle": "تولید افزوده بازیابی",
+          "sectionSubtitle": "فناوری جستجوی پیشرفته که چندین رویکرد را برای دقیق‌ترین بازیابی اطلاعات ترکیب می‌کند.",
+          "keyword": "جستجوی کلیدواژه",
+          "keywordDesc": "جستجوی تطبیق دقیق سنتی برای جستجوهای دقیق و اصطلاحات خاص.",
+          "vector": "جستجوی برداری",
+          "vectorDesc": "درک معنایی که اطلاعات مرتبط متنی را پیدا می‌کند.",
+          "hybrid": "جستجوی ترکیبی",
+          "hybridDesc": "بهترین هر دو جهان، ترکیب دقت کلیدواژه با درک معنایی."
         },
         "memory": {
-          "title": "[FA]Long Term Memory System",
-          "description": "[FA]Persistent user memory that creates personalized experiences across all interactions.",
+          "title": "سیستم حافظه بلند مدت",
+          "description": "حافظه پایدار کاربر که تجربیات شخصی‌سازی شده را در همه تعاملات ایجاد می‌کند.",
           "details": {
-            "preferences": "[FA]User preference tracking and storage",
-            "history": "[FA]Conversation history analysis",
-            "patterns": "[FA]Behavioral pattern recognition",
-            "continuity": "[FA]Cross-session continuity and context"
+            "preferences": "ردیابی و ذخیره‌سازی ترجیحات کاربر",
+            "history": "تجزیه و تحلیل تاریخچه مکالمه",
+            "patterns": "تشخیص الگوی رفتاری",
+            "continuity": "پیوستگی و زمینه بین جلسات"
           },
-          "sectionTitle": "[FA]Long Term Memory in Action",
-          "sectionSubtitle": "[FA]See how our AI remembers and learns from every interaction to provide increasingly personalized support.",
-          "fieldsTitle": "[FA]Context Extraction Fields",
-          "fieldsDescription": "[FA]Our AI automatically identifies and stores key information about each user, creating rich profiles that enhance every future interaction.",
-          "example": "[FA]Example",
-          "timeline": "[FA]Memory Timeline",
-          "firstInteraction": "[FA]First Interaction",
-          "firstInteractionDesc": "[FA]AI learns user preferences and context",
-          "ongoingConversations": "[FA]Ongoing Conversations",
-          "ongoingConversationsDesc": "[FA]Continuously updates user profile",
-          "returnVisits": "[FA]Return Visits",
-          "returnVisitsDesc": "[FA]Provides personalized, context-aware responses"
+          "sectionTitle": "حافظه بلند مدت در عمل",
+          "sectionSubtitle": "ببینید چگونه هوش مصنوعی ما از هر تعامل یاد می‌گیرد و به خاطر می‌سپارد تا پشتیبانی به طور فزاینده‌ای شخصی‌سازی شده ارائه دهد.",
+          "fieldsTitle": "فیلدهای استخراج زمینه",
+          "fieldsDescription": "هوش مصنوعی ما به طور خودکار اطلاعات کلیدی در مورد هر کاربر را شناسایی و ذخیره می‌کند و پروفایل‌های غنی ایجاد می‌کند که هر تعامل آینده را بهبود می‌بخشد.",
+          "example": "مثال",
+          "timeline": "خط زمانی حافظه",
+          "firstInteraction": "اولین تعامل",
+          "firstInteractionDesc": "هوش مصنوعی ترجیحات و زمینه کاربر را یاد می‌گیرد",
+          "ongoingConversations": "مکالمات در حال انجام",
+          "ongoingConversationsDesc": "به طور مداوم پروفایل کاربر را به‌روز می‌کند",
+          "returnVisits": "بازدیدهای مجدد",
+          "returnVisitsDesc": "پاسخ‌های شخصی‌سازی شده و آگاه از زمینه ارائه می‌دهد"
         },
         "timeAwareness": {
-          "title": "[FA]Time Awareness Integration",
-          "description": "[FA]Context-aware responses based on current time, timezone, and temporal relevance.",
+          "title": "ادغام آگاهی از زمان",
+          "description": "پاسخ‌های آگاه از زمینه بر اساس زمان فعلی، منطقه زمانی و ارتباط زمانی.",
           "details": {
-            "timestamp": "[FA]Real-time timestamp integration",
-            "timezone": "[FA]Timezone-aware scheduling and responses",
-            "recommendations": "[FA]Time-sensitive recommendations",
-            "hours": "[FA]Business hours optimization"
+            "timestamp": "ادغام مهر زمانی واقعی",
+            "timezone": "زمان‌بندی و پاسخ‌های آگاه از منطقه زمانی",
+            "recommendations": "توصیه‌های حساس به زمان",
+            "hours": "بهینه‌سازی ساعات کاری"
           }
         },
         "context": {
-          "title": "[FA]Smart Context Extraction",
-          "description": "[FA]Intelligent field mapping and data extraction for better user comprehension.",
+          "title": "استخراج هوشمند زمینه",
+          "description": "نگاشت هوشمند فیلد و استخراج داده برای درک بهتر کاربر.",
           "details": {
-            "fields": "[FA]Custom field definitions and mapping",
-            "extraction": "[FA]Automatic data extraction from conversations",
-            "language": "[FA]User language preference detection",
-            "dynamic": "[FA]Dynamic context building and updates"
+            "fields": "تعاریف و نگاشت فیلد سفارشی",
+            "extraction": "استخراج خودکار داده از مکالمات",
+            "language": "تشخیص ترجیح زبان کاربر",
+            "dynamic": "ساخت و به‌روزرسانی زمینه پویا"
           }
         },
         "references": {
-          "title": "[FA]Referenced Chat Results",
-          "description": "[FA]Transparent AI responses with source citations and confidence scoring.",
+          "title": "نتایج چت ارجاع شده",
+          "description": "پاسخ‌های شفاف هوش مصنوعی با استناد به منبع و امتیازدهی اطمینان.",
           "details": {
-            "linking": "[FA]Source document linking and citations",
-            "tracking": "[FA]Citation tracking and verification",
-            "confidence": "[FA]Confidence scoring for responses",
-            "verification": "[FA]Fact verification and validation"
+            "linking": "پیوند و استناد به سند منبع",
+            "tracking": "ردیابی و تأیید استناد",
+            "confidence": "امتیازدهی اطمینان برای پاسخ‌ها",
+            "verification": "تأیید و اعتبارسنجی واقعیت"
           }
         },
         "knowledge": {
-          "title": "[FA]Knowledge Base Refinement",
-          "description": "[FA]Continuous improvement of knowledge base accuracy and relevance.",
+          "title": "پالایش پایگاه دانش",
+          "description": "بهبود مستمر دقت و ارتباط پایگاه دانش.",
           "details": {
-            "updating": "[FA]Auto-updating content based on interactions",
-            "scoring": "[FA]Quality scoring and content ranking",
-            "relevance": "[FA]Relevance optimization algorithms",
-            "analytics": "[FA]Performance analytics and insights"
+            "updating": "به‌روزرسانی خودکار محتوا بر اساس تعاملات",
+            "scoring": "امتیازدهی کیفیت و رتبه‌بندی محتوا",
+            "relevance": "الگوریتم‌های بهینه‌سازی ارتباط",
+            "analytics": "تجزیه و تحلیل عملکرد و بینش‌ها"
           }
         },
         "memoryExamples": {
           "language": {
-            "field": "[FA]User_Language",
-            "description": "[FA]Remembers preferred communication language",
-            "example": "[FA]Customer prefers Spanish responses"
+            "field": "زبان_کاربر",
+            "description": "زبان ارتباطی ترجیحی را به خاطر می‌سپارد",
+            "example": "مشتری پاسخ‌های اسپانیایی را ترجیح می‌دهد"
           },
           "product": {
-            "field": "[FA]Product_Interest",
-            "description": "[FA]Tracks product categories of interest",
-            "example": "[FA]Interested in premium software solutions"
+            "field": "علاقه_محصول",
+            "description": "دسته‌های محصول مورد علاقه را ردیابی می‌کند",
+            "example": "علاقه‌مند به راهکارهای نرم‌افزاری پریمیوم"
           },
           "history": {
-            "field": "[FA]Support_History",
-            "description": "[FA]Maintains context of previous issues",
-            "example": "[FA]Previously had billing questions resolved"
+            "field": "تاریخچه_پشتیبانی",
+            "description": "زمینه مشکلات قبلی را حفظ می‌کند",
+            "example": "قبلاً سوالات صورتحساب حل شده است"
           },
           "style": {
-            "field": "[FA]Communication_Style",
-            "description": "[FA]Adapts to preferred interaction style",
-            "example": "[FA]Prefers detailed technical explanations"
+            "field": "سبک_ارتباط",
+            "description": "با سبک تعامل ترجیحی سازگار می‌شود",
+            "example": "توضیحات فنی دقیق را ترجیح می‌دهد"
           }
         },
         "cta": {
-          "title": "[FA]Experience the Future of AI",
-          "subtitle": "[FA]Ready to transform your customer support with advanced AI that remembers, learns, and adapts? Start your journey with our cutting-edge technology.",
-          "signUp": "[FA]Sign Up For Free",
-          "scheduleDemo": "[FA]Schedule Demo"
+          "title": "آینده هوش مصنوعی را تجربه کنید",
+          "subtitle": "آماده‌اید تا پشتیبانی مشتری خود را با هوش مصنوعی پیشرفته که به خاطر می‌سپارد، یاد می‌گیرد و سازگار می‌شود، متحول کنید؟ سفر خود را با فناوری پیشرفته ما آغاز کنید.",
+          "signUp": "ثبت نام رایگان",
+          "scheduleDemo": "زمان‌بندی دمو"
         }
       },
       "aiAutomation": {
-        "title": "[FA]AI Automation",
-        "subtitle": "[FA]Scale your customer support with intelligent AI that learns, adapts, and provides instant responses while maintaining the human touch when needed.",
-        "tryButton": "[FA]Try AI Automation",
-        "featuresTitle": "[FA]Intelligent AI Features",
-        "featuresSubtitle": "[FA]Our AI automation goes beyond simple chatbots to provide truly intelligent customer support.",
-        "performanceTitle": "[FA]Automation That Actually Works",
-        "performanceSubtitle": "[FA]See how our AI automation handles different types of customer inquiries with impressive accuracy rates.",
-        "hybridTitle": "[FA]The Perfect Balance: AI + Human",
-        "hybridSubtitle": "[FA]Our hybrid approach combines the speed of AI with the empathy of human agents.",
-        "aiStrengthsTitle": "[FA]AI Automation Excels At",
+        "title": "اتوماسیون هوش مصنوعی",
+        "subtitle": "پشتیبانی مشتری خود را با هوش مصنوعی هوشمندی که یاد می‌گیرد، سازگار می‌شود و پاسخ‌های فوری ارائه می‌دهد در حالی که در صورت نیاز لمس انسانی را حفظ می‌کند، مقیاس‌بندی کنید.",
+        "tryButton": "اتوماسیون هوش مصنوعی را امتحان کنید",
+        "featuresTitle": "ویژگی‌های هوشمند هوش مصنوعی",
+        "featuresSubtitle": "اتوماسیون هوش مصنوعی ما فراتر از ربات‌های چت ساده است تا پشتیبانی مشتری واقعاً هوشمند ارائه دهد.",
+        "performanceTitle": "اتوماسیونی که واقعاً کار می‌کند",
+        "performanceSubtitle": "ببینید چگونه اتوماسیون هوش مصنوعی ما انواع مختلف سوالات مشتری را با نرخ دقت چشمگیر رسیدگی می‌کند.",
+        "hybridTitle": "تعادل کامل: هوش مصنوعی + انسان",
+        "hybridSubtitle": "رویکرد ترکیبی ما سرعت هوش مصنوعی را با همدلی نمایندگان انسانی ترکیب می‌کند.",
+        "aiStrengthsTitle": "نقاط قوت اتوماسیون هوش مصنوعی",
         "aiStrengths": [
-          "[FA]Instant responses to common questions",
-          "[FA]24/7 availability without breaks",
-          "[FA]Handling multiple conversations simultaneously",
-          "[FA]Consistent service quality",
-          "[FA]Multilingual communication support",
-          "[FA]Quick access to knowledge base information"
+          "پاسخ‌های فوری به سوالات متداول",
+          "در دسترس بودن ۲۴/۷ بدون وقفه",
+          "رسیدگی همزمان به چندین مکالمه",
+          "کیفیت خدمات ثابت",
+          "پشتیبانی از ارتباطات چند زبانه",
+          "دسترسی سریع به اطلاعات پایگاه دانش"
         ],
-        "humanStrengthsTitle": "[FA]Human Agents Excel At",
+        "humanStrengthsTitle": "نقاط قوت نمایندگان انسانی",
         "humanStrengths": [
-          "[FA]Complex problem-solving and empathy",
-          "[FA]Building personal relationships with customers",
-          "[FA]Handling sensitive or emotional situations",
-          "[FA]Creative solutions and out-of-box thinking",
-          "[FA]Understanding nuanced customer needs",
-          "[FA]Making judgment calls in ambiguous scenarios"
+          "حل مسئله پیچیده و همدلی",
+          "ایجاد روابط شخصی با مشتریان",
+          "رسیدگی به موقعیت‌های حساس یا عاطفی",
+          "راه حل‌های خلاقانه و تفکر خارج از چارچوب",
+          "درک نیازهای ظریف مشتری",
+          "قضاوت در سناریوهای مبهم"
         ],
-        "ctaTitle": "[FA]Ready to Scale with AI?",
-        "ctaSubtitle": "[FA]Start with free human agents, then add AI automation when you're ready to scale. The perfect hybrid approach for growing businesses.",
+        "ctaTitle": "آماده‌اید تا با هوش مصنوعی مقیاس‌بندی کنید؟",
+        "ctaSubtitle": "با نمایندگان انسانی رایگان شروع کنید، سپس وقتی برای مقیاس‌بندی آماده شدید، اتوماسیون هوش مصنوعی را اضافه کنید. رویکرد ترکیبی کامل برای کسب‌وکارهای در حال رشد.",
         "contextAware": {
-          "title": "[FA]Context-Aware Responses",
-          "description": "[FA]AI understands conversation context and provides relevant, intelligent responses."
+          "title": "پاسخ‌های آگاه از زمینه",
+          "description": "هوش مصنوعی زمینه مکالمه را درک می‌کند و پاسخ‌های مرتبط و هوشمند ارائه می‌دهد."
         },
         "learning": {
-          "title": "[FA]Learning from Conversations",
-          "description": "[FA]Continuously improves by learning from every customer interaction."
+          "title": "یادگیری از مکالمات",
+          "description": "با یادگیری از هر تعامل مشتری به طور مداوم بهبود می‌یابد."
         },
         "handoff": {
-          "title": "[FA]Seamless Human Handoff",
-          "description": "[FA]Smooth transition to human agents when complex issues arise."
+          "title": "تحویل یکپارچه به انسان",
+          "description": "انتقال روان به نمایندگان انسانی در صورت بروز مشکلات پیچیده."
         },
         "availability": {
-          "title": "[FA]24/7 Availability",
-          "description": "[FA]Provide instant support around the clock, even when agents are offline."
+          "title": "در دسترس بودن ۲۴/۷",
+          "description": "پشتیبانی فوری را در تمام ساعات شبانه‌روز، حتی زمانی که نمایندگان آفلاین هستند، ارائه دهید."
         },
         "response": {
-          "title": "[FA]Instant Response Time",
-          "description": "[FA]Respond to customer queries in milliseconds, not minutes."
+          "title": "زمان پاسخ فوری",
+          "description": "به سوالات مشتری در چند میلی‌ثانیه پاسخ دهید، نه چند دقیقه."
         },
         "multilanguage": {
-          "title": "[FA]Multi-language Support",
-          "description": "[FA]Communicate with customers in their preferred language automatically."
+          "title": "پشتیبانی چند زبانه",
+          "description": "با مشتریان به زبان دلخواه آنها به طور خودکار ارتباط برقرار کنید."
         },
         "types": {
           "faq": {
-            "title": "[FA]FAQ Automation",
-            "description": "[FA]Instantly answer common questions with accurate, up-to-date information."
+            "title": "اتوماسیون سوالات متداول",
+            "description": "فوراً به سوالات متداول با اطلاعات دقیق و به‌روز پاسخ دهید."
           },
           "orders": {
-            "title": "[FA]Order Status Updates",
-            "description": "[FA]Provide real-time order tracking and shipping information."
+            "title": "به‌روزرسانی‌های وضعیت سفارش",
+            "description": "ردیابی سفارش و اطلاعات حمل و نقل را در زمان واقعی ارائه دهید."
           },
           "appointments": {
-            "title": "[FA]Appointment Scheduling",
-            "description": "[FA]Book appointments and manage calendars automatically."
+            "title": "زمان‌بندی قرار ملاقات",
+            "description": "قرار ملاقات‌ها را رزرو کرده و تقویم‌ها را به طور خودکار مدیریت کنید."
           },
           "recommendations": {
-            "title": "[FA]Product Recommendations",
-            "description": "[FA]Suggest relevant products based on customer preferences."
+            "title": "توصیه‌های محصول",
+            "description": "محصولات مرتبط را بر اساس ترجیحات مشتری پیشنهاد دهید."
           }
         },
-        "scheduleDemo": "[FA]Schedule Demo",
-        "signUpForFree": "[FA]Sign Up For Free"
+        "scheduleDemo": "زمان‌بندی دمو",
+        "signUpForFree": "ثبت نام رایگان"
       },
       "api": {
         "restful": {
-          "title": "[FA]RESTful API",
-          "description": "[FA]Clean, intuitive REST API with comprehensive documentation"
+          "title": "API RESTful",
+          "description": "API RESTful تمیز و بصری با مستندات جامع"
         },
         "webhooks": {
-          "title": "[FA]Real-time Webhooks",
-          "description": "[FA]Get instant notifications for events and conversation updates"
+          "title": "وب‌هوک‌های در زمان واقعی",
+          "description": "اعلان‌های فوری برای رویدادها و به‌روزرسانی‌های مکالمه دریافت کنید"
         },
         "security": {
-          "title": "[FA]Secure Authentication",
-          "description": "[FA]OAuth 2.0 and API key authentication with rate limiting"
+          "title": "احراز هویت امن",
+          "description": "احراز هویت OAuth 2.0 و کلید API با محدودیت نرخ"
         },
         "cdn": {
-          "title": "[FA]Global CDN",
-          "description": "[FA]Low-latency API access from anywhere in the world"
+          "title": "CDN جهانی",
+          "description": "دسترسی به API با تأخیر کم از هر کجای دنیا"
         },
         "endpoints": {
-          "createConversation": "[FA]Create a new conversation",
-          "getConversation": "[FA]Retrieve conversation details",
-          "sendMessage": "[FA]Send a message in a conversation"
+          "createConversation": "ایجاد یک مکالمه جدید",
+          "getConversation": "بازیابی جزئیات مکالمه",
+          "sendMessage": "ارسال پیام در یک مکالمه"
         },
         "sdks": {
-          "available": "[FA]Available",
-          "comingSoon": "[FA]Coming Soon"
+          "available": "موجود",
+          "comingSoon": "به زودی"
         },
-        "title": "[FA]API & Developer Tools",
-        "subtitle": "Build custom integrations and extend SeaChat's capabilities with our comprehensive API and developer-friendly tools.",
-        "getKeyButton": "[FA]Get API Key",
-        "viewDocsButton": "[FA]View Documentation",
-        "featuresTitle": "[FA]Powerful API Features",
-        "featuresSubtitle": "Everything you need to integrate SeaChat into your existing systems and workflows.",
-        "endpointsTitle": "[FA]API Endpoints",
-        "endpointsSubtitle": "[FA]Explore our comprehensive API with examples and interactive documentation.",
-        "exampleRequestResponse": "[FA]Example Request/Response",
-        "tryItOut": "[FA]Try it out",
-        "testConsole": "[FA]Test in Console",
-        "copyCurl": "[FA]Copy cURL",
-        "sdksTitle": "[FA]SDKs & Libraries",
-        "sdksSubtitle": "[FA]Get started quickly with our official SDKs for popular programming languages.",
-        "exampleTitle": "[FA]Quick Start Example",
-        "exampleSubtitle": "Get up and running with SeaChat API in just a few lines of code.",
-        "jsExample": "[FA]JavaScript Example",
-        "copy": "[FA]Copy",
-        "ctaTitle": "[FA]Ready to Start Building?",
-        "ctaSubtitle": "Get your API key and start integrating SeaChat into your applications today.",
-        "ctaAccessButton": "[FA]Get API Access",
-        "ctaDocsButton": "[FA]Read Documentation"
+        "title": "API و ابزارهای توسعه‌دهنده",
+        "subtitle": "ادغام‌های سفارشی بسازید و قابلیت‌های SeaChat را با API جامع و ابزارهای دوستدار توسعه‌دهنده ما گسترش دهید.",
+        "getKeyButton": "دریافت کلید API",
+        "viewDocsButton": "مشاهده مستندات",
+        "featuresTitle": "ویژگی‌های قدرتمند API",
+        "featuresSubtitle": "همه چیزهایی که برای ادغام SeaChat در سیستم‌ها و گردش کارهای موجود خود نیاز دارید.",
+        "endpointsTitle": "نقاط پایانی API",
+        "endpointsSubtitle": "API جامع ما را با مثال‌ها و مستندات تعاملی کاوش کنید.",
+        "exampleRequestResponse": "مثال درخواست/پاسخ",
+        "tryItOut": "امتحان کنید",
+        "testConsole": "تست در کنسول",
+        "copyCurl": "کپی cURL",
+        "sdksTitle": "SDKها و کتابخانه‌ها",
+        "sdksSubtitle": "با SDKهای رسمی ما برای زبان‌های برنامه‌نویسی محبوب به سرعت شروع کنید.",
+        "exampleTitle": "مثال شروع سریع",
+        "exampleSubtitle": "با API SeaChat فقط در چند خط کد شروع به کار کنید.",
+        "jsExample": "مثال جاوا اسکریپت",
+        "copy": "کپی",
+        "ctaTitle": "آماده‌اید تا شروع به ساخت کنید؟",
+        "ctaSubtitle": "کلید API خود را دریافت کنید و امروز شروع به ادغام SeaChat در برنامه‌های خود کنید.",
+        "ctaAccessButton": "دریافت دسترسی به API",
+        "ctaDocsButton": "خواندن مستندات"
       },
       "analytics": {
         "metrics": {
           "satisfaction": {
-            "title": "[FA]Customer Satisfaction"
+            "title": "رضایت مشتری"
           },
           "responseTime": {
-            "title": "[FA]Average Response Time"
+            "title": "میانگین زمان پاسخ"
           },
           "resolution": {
-            "title": "[FA]Resolution Rate"
+            "title": "نرخ حل"
           },
           "growth": {
-            "title": "[FA]Monthly Growth"
+            "title": "رشد ماهانه"
           },
-          "period": "[FA]this month"
+          "period": "این ماه"
         },
         "seachat": {
           "features": {
             "dashboards": {
-              "title": "[FA]Real-time Dashboards",
-              "description": "[FA]Monitor your support performance with live, customizable dashboards.",
+              "title": "داشبوردهای در زمان واقعی",
+              "description": "عملکرد پشتیبانی خود را با داشبوردهای زنده و قابل تنظیم نظارت کنید.",
               "benefits": {
-                "metrics": "[FA]Live performance metrics",
-                "kpi": "[FA]Custom KPI tracking",
-                "team": "[FA]Team performance views",
-                "alerts": "[FA]Alert notifications"
+                "metrics": "معیارهای عملکرد زنده",
+                "kpi": "ردیابی KPI سفارشی",
+                "team": "نماهای عملکرد تیم",
+                "alerts": "اعلان‌های هشدار"
               }
             },
             "reporting": {
-              "title": "[FA]Advanced Reporting",
-              "description": "[FA]Generate detailed reports with actionable insights and trends.",
+              "title": "گزارش‌دهی پیشرفته",
+              "description": "گزارش‌های دقیق با بینش‌ها و روندهای عملی تولید کنید.",
               "benefits": {
-                "automated": "[FA]Automated report generation",
-                "dates": "[FA]Custom date ranges",
-                "export": "[FA]Export capabilities",
-                "scheduled": "[FA]Scheduled delivery"
+                "automated": "تولید گزارش خودکار",
+                "dates": "محدوده تاریخ سفارشی",
+                "export": "قابلیت‌های صادرات",
+                "scheduled": "تحویل برنامه‌ریزی شده"
               }
             },
             "journey": {
-              "title": "[FA]Customer Journey Analytics",
-              "description": "[FA]Track customer interactions across all touchpoints and channels.",
+              "title": "تجزیه و تحلیل سفر مشتری",
+              "description": "تعاملات مشتری را در همه نقاط تماس و کانال‌ها ردیابی کنید.",
               "benefits": {
-                "tracking": "[FA]Multi-channel tracking",
-                "visualization": "[FA]Journey visualization",
-                "conversion": "[FA]Conversion analysis",
-                "dropoff": "[FA]Drop-off identification"
+                "tracking": "ردیابی چند کاناله",
+                "visualization": "بصری‌سازی سفر",
+                "conversion": "تجزیه و تحلیل تبدیل",
+                "dropoff": "شناسایی نقاط ریزش"
               }
             },
             "optimization": {
-              "title": "[FA]Performance Optimization",
-              "description": "[FA]Identify bottlenecks and optimize your support operations.",
+              "title": "بهینه‌سازی عملکرد",
+              "description": "گلوگاه‌ها را شناسایی کرده و عملیات پشتیبانی خود را بهینه کنید.",
               "benefits": {
-                "bottlenecks": "[FA]Bottleneck detection",
-                "resources": "[FA]Resource allocation",
-                "efficiency": "[FA]Efficiency recommendations",
-                "roi": "[FA]ROI analysis"
+                "bottlenecks": "تشخیص گلوگاه",
+                "resources": "تخصیص منابع",
+                "efficiency": "توصیه‌های کارایی",
+                "roi": "تجزیه و تحلیل بازگشت سرمایه"
               }
             }
           }
         },
-        "title": "[FA]Analytics & Insights",
-        "subtitle": "[FA]Make data-driven decisions with comprehensive analytics that reveal customer behavior, agent performance, and optimization opportunities.",
-        "metricsTitle": "[FA]Key Performance Metrics",
-        "metricsSubtitle": "[FA]Track the metrics that matter most to your customer support success.",
-        "featuresTitle": "[FA]Comprehensive Analytics Suite",
-        "featuresSubtitle": "[FA]Everything you need to understand, measure, and improve your customer support operations.",
-        "dashboardTitle": "[FA]Interactive Dashboard Preview",
-        "dashboardSubtitle": "[FA]See how our analytics dashboard provides actionable insights at a glance.",
+        "title": "تجزیه و تحلیل و بینش‌ها",
+        "subtitle": "با تجزیه و تحلیل جامع که رفتار مشتری، عملکرد نماینده و فرصت‌های بهینه‌سازی را آشکار می‌کند، تصمیمات مبتنی بر داده بگیرید.",
+        "metricsTitle": "معیارهای کلیدی عملکرد",
+        "metricsSubtitle": "معیارهایی را که برای موفقیت پشتیبانی مشتری شما بیشترین اهمیت را دارند، ردیابی کنید.",
+        "featuresTitle": "مجموعه جامع تجزیه و تحلیل",
+        "featuresSubtitle": "همه چیزهایی که برای درک، اندازه‌گیری و بهبود عملیات پشتیبانی مشتری خود نیاز دارید.",
+        "dashboardTitle": "پیش‌نمایش داشبورد تعاملی",
+        "dashboardSubtitle": "ببینید چگونه داشبورد تجزیه و تحلیل ما بینش‌های عملی را در یک نگاه ارائه می‌دهد.",
         "dashboard": {
-          "overview": "[FA]Performance Overview",
+          "overview": "نمای کلی عملکرد",
           "months": {
-            "jan": "[FA]Jan",
-            "dec": "[FA]Dec"
+            "jan": "ژانویه",
+            "dec": "دسامبر"
           },
-          "quickStats": "[FA]Quick Stats",
-          "activeConversations": "[FA]Active Conversations",
-          "systemUptime": "[FA]System Uptime",
-          "customerRating": "[FA]Customer Rating"
+          "quickStats": "آمار سریع",
+          "activeConversations": "مکالمات فعال",
+          "systemUptime": "آپتایم سیستم",
+          "customerRating": "امتیاز مشتری"
         },
-        "ctaTitle": "[FA]Start Making Data-Driven Decisions",
-        "ctaSubtitle": "[FA]Unlock the power of analytics to optimize your customer support and drive business growth."
+        "ctaTitle": "شروع به تصمیم‌گیری مبتنی بر داده کنید",
+        "ctaSubtitle": "قدرت تجزیه و تحلیل را برای بهینه‌سازی پشتیبانی مشتری و پیشبرد رشد کسب‌وکار باز کنید."
       },
       "humanAgents": {
-        "title": "[FA]Human Agent Chat",
-        "subtitle": "[FA]Start with real human support agents, completely free for life. No limits, no catches, just genuine human connection with your customers.",
-        "startButton": "[FA]Start Free Forever",
-        "demoButton": "[FA]Watch Demo",
+        "title": "چت با نماینده انسانی",
+        "subtitle": "با نمایندگان پشتیبانی واقعی انسانی، برای همیشه کاملاً رایگان شروع کنید. بدون محدودیت، بدون هیچ مشکلی، فقط ارتباط واقعی انسانی با مشتریان شما.",
+        "startButton": "برای همیشه رایگان شروع کنید",
+        "demoButton": "مشاهده دمو",
         "unlimited": {
-          "title": "[FA]Unlimited Agent Hours",
-          "description": "[FA]No time limits, no hourly caps. Your human agent works as much as you need, completely free."
+          "title": "ساعات نامحدود نماینده",
+          "description": "بدون محدودیت زمانی، بدون سقف ساعتی. نماینده انسانی شما به همان اندازه که نیاز دارید، کاملاً رایگان کار می‌کند."
         },
         "realtime": {
-          "title": "[FA]Real-time Chat Management",
-          "description": "[FA]Handle multiple conversations simultaneously with our intuitive chat interface."
+          "title": "مدیریت چت در زمان واقعی",
+          "description": "با رابط کاربری چت بصری ما به طور همزمان چندین مکالمه را مدیریت کنید."
         },
         "collaboration": {
-          "title": "[FA]Multi-agent Collaboration",
-          "description": "[FA]Scale your team with seamless agent-to-agent handoffs and collaboration tools."
+          "title": "همکاری چند نماینده",
+          "description": "تیم خود را با تحویل یکپارچه نماینده به نماینده و ابزارهای همکاری مقیاس‌بندی کنید."
         },
         "security": {
-          "title": "[FA]Advanced Security",
-          "description": "[FA]Enterprise-grade security with end-to-end encryption and data protection."
+          "title": "امنیت پیشرفته",
+          "description": "امنیت در سطح سازمانی با رمزگذاری سرتاسری و حفاظت از داده‌ها."
         },
         "analytics": {
-          "title": "[FA]Performance Analytics",
-          "description": "[FA]Track response times, customer satisfaction, and agent performance metrics."
+          "title": "تجزیه و تحلیل عملکرد",
+          "description": "زمان پاسخگویی، رضایت مشتری و معیارهای عملکرد نماینده را ردیابی کنید."
         },
         "workflows": {
-          "title": "[FA]Custom Workflows",
-          "description": "[FA]Create personalized workflows and automation rules for your support process."
+          "title": "گردش کار سفارشی",
+          "description": "گردش کار شخصی‌سازی شده و قوانین اتوماسیون را برای فرآیند پشتیبانی خود ایجاد کنید."
         },
         "benefits": {
           "personal": {
-            "title": "[FA]Personal Touch",
-            "description": "[FA]Human empathy and understanding that AI cannot replicate"
+            "title": "لمس شخصی",
+            "description": "همدلی و درک انسانی که هوش مصنوعی نمی‌تواند تکرار کند"
           },
           "complex": {
-            "title": "[FA]Complex Problem Solving",
-            "description": "[FA]Handle nuanced situations that require human judgment"
+            "title": "حل مسئله پیچیده",
+            "description": "رسیدگی به موقعیت‌های ظریف که نیاز به قضاوت انسانی دارد"
           },
           "brand": {
-            "title": "[FA]Brand Representation",
-            "description": "[FA]Agents who truly understand and represent your brand values"
+            "title": "نمایندگی برند",
+            "description": "نمایندگانی که واقعاً ارزش‌های برند شما را درک و نمایندگی می‌کنند"
           },
           "relationships": {
-            "title": "[FA]Customer Relationships",
-            "description": "[FA]Build lasting relationships through genuine human connections"
+            "title": "روابط با مشتری",
+            "description": "ایجاد روابط پایدار از طریق ارتباطات واقعی انسانی"
           }
         },
         "freeForever": {
-          "title": "[FA]Truly Free as in Free 🍺 & 🎙️",
-          "subtitle": "[FA]We mean it when we say free. One human agent for life, with unlimited everything.",
-          "meaningTitle": "[FA]What \"Free Forever\" Really Means",
-          "agent": "[FA]1 Human Agent for Life",
-          "conversations": "[FA]Unlimited Chat Conversations",
-          "history": "[FA]Unlimited Chat History",
-          "contacts": "[FA]Unlimited Contacts",
-          "export": "[FA]Freedom to Export All Data",
-          "noCredit": "[FA]No Credit Card Required",
-          "unlimited": "[FA]Unlimited Everything",
-          "noCaps": "[FA]No hidden fees, no time limits, no conversation caps. Just pure, unlimited human support.",
-          "forever": "[FA]Forever"
+          "title": "واقعاً رایگان مانند آبجو و میکروفون رایگان 🍺 & 🎙️",
+          "subtitle": "وقتی می‌گوییم رایگان، منظورمان جدی است. یک نماینده انسانی برای همیشه، با همه چیز نامحدود.",
+          "meaningTitle": "«برای همیشه رایگان» واقعاً به چه معناست",
+          "agent": "۱ نماینده انسانی برای همیشه",
+          "conversations": "مکالمات چت نامحدود",
+          "history": "تاریخچه چت نامحدود",
+          "contacts": "مخاطبین نامحدود",
+          "export": "آزادی در صادرات همه داده‌ها",
+          "noCredit": "نیازی به کارت اعتباری نیست",
+          "unlimited": "همه چیز نامحدود",
+          "noCaps": "بدون هزینه پنهان، بدون محدودیت زمانی، بدون سقف مکالمه. فقط پشتیبانی خالص و نامحدود انسانی.",
+          "forever": "برای همیشه"
         },
-        "featuresTitle": "[FA]Powerful Human Agent Features",
-        "featuresSubtitle": "[FA]Everything you need to provide exceptional human-powered customer support.",
-        "whyMatterTitle": "[FA]Why Human Agents Still Matter",
-        "whyMatterSubtitle": "[FA]In an AI-driven world, human connection remains irreplaceable for building trust and solving complex problems.",
-        "ctaTitle": "[FA]Ready to Start with Human Agents?",
-        "ctaSubtitle": "[FA]Join thousands of businesses providing exceptional customer support with our free human agents.",
-        "ctaStartButton": "[FA]Start Free Now",
-        "ctaDemoButton": "[FA]Schedule Demo"
+        "featuresTitle": "ویژگی‌های قدرتمند نماینده انسانی",
+        "featuresSubtitle": "همه چیزهایی که برای ارائه پشتیبانی استثنایی مشتری با نیروی انسانی نیاز دارید.",
+        "whyMatterTitle": "چرا نمایندگان انسانی هنوز اهمیت دارند",
+        "whyMatterSubtitle": "در دنیای مبتنی بر هوش مصنوعی، ارتباط انسانی برای ایجاد اعتماد و حل مشکلات پیچیده غیرقابل جایگزین باقی می‌ماند.",
+        "ctaTitle": "آماده‌اید تا با نمایندگان انسانی شروع کنید؟",
+        "ctaSubtitle": "به هزاران کسب‌وکاری بپیوندید که با نمایندگان انسانی رایگان ما پشتیبانی استثنایی مشتری ارائه می‌دهند.",
+        "ctaStartButton": "اکنون رایگان شروع کنید",
+        "ctaDemoButton": "زمان‌بندی دمو"
       },
       "knowledgeBase": {
-        "subtitle": "[FA]Empower your AI agents with comprehensive knowledge management. Create, organize, and maintain a centralized repository of information that enables intelligent, accurate responses.",
-        "managementTitle": "[FA]Intelligent Knowledge Management",
-        "managementSubtitle": "[FA]Build a powerful knowledge foundation that grows with your business and enhances every customer interaction.",
+        "subtitle": "نمایندگان هوش مصنوعی خود را با مدیریت دانش جامع توانمند کنید. یک مخزن متمرکز از اطلاعات ایجاد، سازماندهی و نگهداری کنید که پاسخ‌های هوشمند و دقیق را امکان‌پذیر می‌سازد.",
+        "managementTitle": "مدیریت دانش هوشمند",
+        "managementSubtitle": "یک بنیاد دانش قدرتمند بسازید که با کسب‌وکار شما رشد کند و هر تعامل مشتری را بهبود بخشد.",
         "smartSearch": {
-          "title": "[FA]Smart Search",
-          "description": "[FA]Advanced semantic search capabilities that understand context and intent, delivering precise information instantly."
+          "title": "جستجوی هوشمند",
+          "description": "قابلیت‌های جستجوی معنایی پیشرفته که زمینه و قصد را درک می‌کنند و اطلاعات دقیق را فوراً ارائه می‌دهند."
         },
         "documentManagement": {
-          "title": "[FA]Document Management",
-          "description": "[FA]Upload, organize, and version control documents, FAQs, policies, and procedures in one centralized location."
+          "title": "مدیریت اسناد",
+          "description": "اسناد، سوالات متداول، سیاست‌ها و رویه‌ها را در یک مکان متمرکز بارگذاری، سازماندهی و کنترل نسخه کنید."
         },
         "collaboration": {
-          "title": "[FA]Collaborative Editing",
-          "description": "[FA]Enable team collaboration with real-time editing, approval workflows, and role-based access controls."
+          "title": "ویرایش مشترک",
+          "description": "همکاری تیمی را با ویرایش در زمان واقعی، گردش کار تأیید و کنترل‌های دسترسی مبتنی بر نقش فعال کنید."
         },
         "autoLearning": {
-          "title": "[FA]Auto-Learning",
-          "description": "[FA]Automatically capture and learn from successful interactions to continuously improve knowledge accuracy."
+          "title": "یادگیری خودکار",
+          "description": "به طور خودکار از تعاملات موفق برای بهبود مستمر دقت دانش، یاد بگیرید."
         },
         "accessControl": {
-          "title": "[FA]Access Control",
-          "description": "[FA]Secure sensitive information with granular permissions and ensure compliance with data protection regulations."
+          "title": "کنترل دسترسی",
+          "description": "اطلاعات حساس را با مجوزهای دقیق ایمن کنید و از انطباق با مقررات حفاظت از داده‌ها اطمینان حاصل کنید."
         },
         "multiLanguage": {
-          "title": "[FA]Multi-Language",
-          "description": "[FA]Support multiple languages and localization to serve global customers with culturally appropriate responses."
+          "title": "چند زبانه",
+          "description": "از چندین زبان و بومی‌سازی برای خدمت به مشتریان جهانی با پاسخ‌های مناسب فرهنگی پشتیبانی کنید."
         },
-        "demoTitle": "[FA]See Knowledge Base in Action",
-        "demoSubtitle": "[FA]Watch how our intelligent knowledge system powers accurate, contextual responses.",
-        "interfaceTitle": "[FA]Knowledge Base Interface",
-        "categories": "[FA]Document Categories",
-        "productDocs": "[FA]Product Documentation",
-        "articles": "[FA]articles",
-        "supportFaqs": "[FA]Customer Support FAQs",
-        "policies": "[FA]Company Policies",
-        "recentUpdates": "[FA]Recent Updates",
-        "refundUpdate": "[FA]Refund Policy Updated",
-        "hoursAgo": "[FA]hours ago",
-        "returnWindow": "[FA]Updated return window from 14 to 30 days",
-        "featureGuide": "[FA]New Feature Guide",
-        "dayAgo": "[FA]day ago",
-        "analyticsDoc": "[FA]Added documentation for advanced analytics",
-        "transformTitle": "[FA]Transform Your Customer Support",
-        "transformSubtitle": "[FA]A well-organized knowledge base is the foundation of exceptional customer service and efficient operations.",
-        "benefitsTitle": "[FA]Key Benefits",
+        "demoTitle": "پایگاه دانش را در عمل ببینید",
+        "demoSubtitle": "ببینید چگونه سیستم دانش هوشمند ما پاسخ‌های دقیق و متنی را قدرت می‌بخشد.",
+        "interfaceTitle": "رابط کاربری پایگاه دانش",
+        "categories": "دسته‌های اسناد",
+        "productDocs": "مستندات محصول",
+        "articles": "مقالات",
+        "supportFaqs": "سوالات متداول پشتیبانی مشتری",
+        "policies": "سیاست‌های شرکت",
+        "recentUpdates": "به‌روزرسانی‌های اخیر",
+        "refundUpdate": "سیاست بازپرداخت به‌روز شد",
+        "hoursAgo": "ساعت پیش",
+        "returnWindow": "پنجره بازگشت از ۱۴ به ۳۰ روز به‌روز شد",
+        "featureGuide": "راهنمای ویژگی جدید",
+        "dayAgo": "روز پیش",
+        "analyticsDoc": "مستندات برای تجزیه و تحلیل پیشرفته اضافه شد",
+        "transformTitle": "پشتیبانی مشتری خود را متحول کنید",
+        "transformSubtitle": "یک پایگاه دانش به خوبی سازماندهی شده، پایه و اساس خدمات استثنایی مشتری و عملیات کارآمد است.",
+        "benefitsTitle": "مزایای کلیدی",
         "fasterResponse": {
-          "title": "[FA]Faster Response Times",
-          "description": "[FA]Reduce average response time by 60% with instant access to accurate information."
+          "title": "زمان پاسخ سریعتر",
+          "description": "میانگین زمان پاسخ را با دسترسی فوری به اطلاعات دقیق ۶۰٪ کاهش دهید."
         },
         "consistency": {
-          "title": "[FA]Consistent Accuracy",
-          "description": "[FA]Ensure all agents provide consistent, up-to-date information across all channels."
+          "title": "دقت ثابت",
+          "description": "اطمینان حاصل کنید که همه نمایندگان اطلاعات ثابت و به‌روز را در همه کانال‌ها ارائه می‌دهند."
         },
         "training": {
-          "title": "[FA]Scalable Training",
-          "description": "[FA]Onboard new agents faster with comprehensive, searchable documentation."
+          "title": "آموزش مقیاس‌پذیر",
+          "description": "نمایندگان جدید را با مستندات جامع و قابل جستجو سریعتر آموزش دهید."
         },
-        "readyTitle": "[FA]Ready to Get Started?",
-        "readySubtitle": "[FA]Build your knowledge base today and transform how your team delivers customer support.",
-        "startButton": "[FA]Start Building",
-        "scheduleDemo": "[FA]Schedule Demo"
+        "readyTitle": "آماده‌اید تا شروع کنید؟",
+        "readySubtitle": "امروز پایگاه دانش خود را بسازید و نحوه ارائه پشتیبانی مشتری توسط تیم خود را متحول کنید.",
+        "startButton": "شروع به ساخت کنید",
+        "scheduleDemo": "زمان‌بندی دمو"
       },
       "omnichannel": {
         "channels": {
           "website": {
-            "name": "[FA]Website Chat",
-            "description": "[FA]Embed chat widgets on any website platform",
+            "name": "چت وب‌سایت",
+            "description": "ویجت‌های چت را در هر پلتفرم وب‌سایتی جاسازی کنید",
             "seachat": {
               "features": {
-                "compatibility": "[FA]Universal compatibility",
-                "styling": "[FA]Custom styling",
-                "responsive": "[FA]Mobile responsive",
-                "sync": "[FA]Real-time sync"
+                "compatibility": "سازگاری جهانی",
+                "styling": "استایل‌دهی سفارشی",
+                "responsive": "پاسخگوی موبایل",
+                "sync": "همگام‌سازی در زمان واقعی"
               }
             }
           },
           "whatsapp": {
-            "name": "[FA]WhatsApp Business",
+            "name": "کسب‌وکار واتس‌اپ",
             "seachat": {
               "features": {
-                "api": "[FA]Business API integration",
-                "media": "[FA]Rich media support",
-                "templates": "[FA]Template messages",
-                "groups": "[FA]Group messaging"
+                "api": "ادغام Business API",
+                "media": "پشتیبانی از رسانه‌های غنی",
+                "templates": "الگوهای پیام",
+                "groups": "پیام‌رسانی گروهی"
               }
             },
-            "description": "[FA]Connect with customers on the world's most popular messaging app"
+            "description": "با مشتریان در محبوب‌ترین برنامه پیام‌رسان جهان ارتباط برقرار کنید"
           },
           "instagram": {
-            "name": "[FA]Instagram Direct",
-            "description": "[FA]Manage Instagram DMs and story replies in one place",
+            "name": "دایرکت اینستاگرام",
+            "description": "دایرکت‌ها و پاسخ‌های استوری اینستاگرام را در یک مکان مدیریت کنید",
             "seachat": {
               "features": {
-                "replies": "[FA]Story reply management",
-                "media": "[FA]Media sharing",
-                "responses": "[FA]Quick responses",
-                "greetings": "[FA]Automated greetings"
+                "replies": "مدیریت پاسخ استوری",
+                "media": "اشتراک‌گذاری رسانه",
+                "responses": "پاسخ‌های سریع",
+                "greetings": "خوشامدگویی‌های خودکار"
               }
             }
           },
           "facebook": {
-            "name": "[FA]Facebook Messenger",
+            "name": "Facebook Messenger",
             "seachat": {
               "features": {
-                "integration": "[FA]Page integration",
-                "responses": "[FA]Automated responses",
-                "cards": "[FA]Rich cards",
-                "menu": "[FA]Persistent menu"
+                "integration": "ادغام صفحه",
+                "responses": "پاسخ‌های خودکار",
+                "cards": "کارت‌های غنی",
+                "menu": "منوی پایدار"
               }
             },
-            "description": "[FA]Provide support through Facebook's messaging platform"
+            "description": "ارائه پشتیبانی از طریق پلتفرم پیام‌رسانی فیسبوک"
           },
           "voice": {
-            "name": "[FA]Voice Calls",
-            "description": "[FA]Handle phone support with AI voice agents",
+            "name": "تماس‌های صوتی",
+            "description": "رسیدگی به پشتیبانی تلفنی با نمایندگان صوتی هوش مصنوعی",
             "seachat": {
               "features": {
-                "conversations": "[FA]Natural conversations",
-                "routing": "[FA]Call routing",
-                "voicemail": "[FA]Voicemail transcription",
-                "conference": "[FA]Conference calls"
+                "conversations": "مکالمات طبیعی",
+                "routing": "مسیریابی تماس",
+                "voicemail": "رونویسی صندوق صوتی",
+                "conference": "تماس‌های کنفرانسی"
               }
             }
           },
           "email": {
-            "name": "[FA]Email Support",
-            "description": "[FA]Manage email tickets with intelligent routing",
+            "name": "پشتیبانی ایمیل",
+            "description": "مدیریت تیکت‌های ایمیل با مسیریابی هوشمند",
             "seachat": {
               "features": {
-                "categorization": "[FA]Smart categorization",
-                "responses": "[FA]Auto-responses",
-                "templates": "[FA]Email templates",
-                "priority": "[FA]Priority handling"
+                "categorization": "دسته‌بندی هوشمند",
+                "responses": "پاسخ‌های خودکار",
+                "templates": "الگوهای ایمیل",
+                "priority": "رسیدگی اولویت‌دار"
               }
             }
           }
         },
         "benefits": {
           "unifiedView": {
-            "title": "[FA]Unified Customer View",
-            "description": "[FA]See complete customer history across all channels in one interface"
+            "title": "نمای یکپارچه مشتری",
+            "description": "تاریخچه کامل مشتری را در همه کانال‌ها در یک رابط کاربری مشاهده کنید"
           },
           "handoffs": {
-            "title": "[FA]Seamless Handoffs",
-            "description": "[FA]Customers can switch channels without losing conversation context"
+            "title": "تحویل یکپارچه",
+            "description": "مشتریان می‌توانند بدون از دست دادن زمینه مکالمه، کانال‌ها را تغییر دهند"
           },
           "resolution": {
-            "title": "[FA]Faster Resolution",
-            "description": "[FA]Reduce resolution time with unified agent workflows"
+            "title": "حل سریعتر",
+            "description": "زمان حل را با گردش کار یکپارچه نماینده کاهش دهید"
           },
           "satisfaction": {
-            "title": "[FA]Higher Satisfaction",
-            "description": "[FA]Consistent experience across all touchpoints"
+            "title": "رضایت بالاتر",
+            "description": "تجربه ثابت در همه نقاط تماس"
           }
         },
-        "title": "[FA]Omnichannel Support",
-        "subtitle": "[FA]Connect all your customer touchpoints in one unified platform. Provide consistent, seamless support across websites, social media, phone, and email.",
-        "channelsTitle": "[FA]All Your Channels, One Platform",
-        "channelsSubtitle": "[FA]Connect and manage customer conversations across every channel your customers use.",
-        "benefitsTitle": "[FA]The Power of True Omnichannel",
-        "benefitsSubtitle": "[FA]Go beyond just having multiple channels. Create unified experiences that delight customers.",
-        "inboxTitle": "[FA]Unified Inbox Experience",
-        "inboxSubtitle": "[FA]See how all your customer conversations come together in one intelligent interface.",
-        "activeConversations": "[FA]Active Conversations",
-        "websiteChat": "[FA]Website chat about product seachat.features...",
-        "whatsappInquiry": "[FA]WhatsApp inquiry about order status...",
-        "instagramDM": "[FA]Instagram DM about return policy...",
-        "conversationView": "[FA]Conversation View",
-        "customerVia": "[FA]Customer via Website",
-        "agentResponse": "[FA]Agent Response",
-        "customerViaWhatsapp": "[FA]Customer via WhatsApp",
-        "whatsappMessage": "[FA]Thanks! Can I continue this conversation on WhatsApp?",
-        "ctaTitle": "[FA]Ready to Unify Your Customer Channels?",
-        "ctaSubtitle": "[FA]Connect all your customer touchpoints and provide seamless support experiences that keep customers coming back.",
-        "customerMessage": "[FA]Hi, I'm interested in your AI automation features. Can you tell me more?",
-        "agentMessage": "[FA]I'd be happy to help! Our AI automation can handle up to 80% of routine inquiries..."
+        "title": "پشتیبانی همه‌کاناله",
+        "subtitle": "همه نقاط تماس مشتری خود را در یک پلتفرم یکپارچه متصل کنید. پشتیبانی ثابت و یکپارچه را در وب‌سایت‌ها، رسانه‌های اجتماعی، تلفن و ایمیل ارائه دهید.",
+        "channelsTitle": "همه کانال‌های شما، یک پلتفرم",
+        "channelsSubtitle": "مکالمات مشتری را در هر کانالی که مشتریان شما استفاده می‌کنند، متصل و مدیریت کنید.",
+        "benefitsTitle": "قدرت همه‌کاناله واقعی",
+        "benefitsSubtitle": "فراتر از داشتن چندین کانال بروید. تجربیات یکپارچه‌ای ایجاد کنید که مشتریان را خوشحال می‌کند.",
+        "inboxTitle": "تجربه صندوق ورودی یکپارچه",
+        "inboxSubtitle": "ببینید چگونه همه مکالمات مشتری شما در یک رابط کاربری هوشمند گرد هم می‌آیند.",
+        "activeConversations": "مکالمات فعال",
+        "websiteChat": "چت وب‌سایت در مورد ویژگی‌های محصول seachat...",
+        "whatsappInquiry": "سوال واتس‌اپ در مورد وضعیت سفارش...",
+        "instagramDM": "دایرکت اینستاگرام در مورد سیاست بازگشت...",
+        "conversationView": "نمای مکالمه",
+        "customerVia": "مشتری از طریق وب‌سایت",
+        "agentResponse": "پاسخ نماینده",
+        "customerViaWhatsapp": "مشتری از طریق واتس‌اپ",
+        "whatsappMessage": "ممنون! آیا می‌توانم این مکالمه را در واتس‌اپ ادامه دهم؟",
+        "ctaTitle": "آماده‌اید تا کانال‌های مشتری خود را یکپارچه کنید؟",
+        "ctaSubtitle": "همه نقاط تماس مشتری خود را متصل کنید و تجربیات پشتیبانی یکپارچه‌ای ارائه دهید که مشتریان را باز می‌گرداند.",
+        "customerMessage": "سلام، من به ویژگی‌های اتوماسیون هوش مصنوعی شما علاقه‌مندم. می‌توانید بیشتر به من بگویید؟",
+        "agentMessage": "خوشحال می‌شوم کمک کنم! اتوماسیون هوش مصنوعی ما می‌تواند تا ۸۰٪ از سوالات روتین را رسیدگی کند..."
       },
       "voiceAgents": {
-        "title": "[FA]Voice Agents",
-        "subtitle": "[FA]Transform phone support with AI voice agents that sound natural, understand context, and provide instant assistance in multiple languages.",
-        "signUpFree": "[FA]Sign Up For Free",
-        "scheduleDemo": "[FA]Schedule Demo",
+        "title": "نمایندگان صوتی",
+        "subtitle": "پشتیبانی تلفنی را با نمایندگان صوتی هوش مصنوعی که طبیعی به نظر می‌رسند، زمینه را درک می‌کنند و کمک فوری را به چندین زبان ارائه می‌دهند، متحول کنید.",
+        "signUpFree": "ثبت نام رایگان",
+        "scheduleDemo": "زمان‌بندی دمو",
         "natural": {
-          "title": "[FA]Natural Voice Conversations",
-          "description": "[FA]AI-powered voice agents that sound natural and understand context."
+          "title": "مکالمات صوتی طبیعی",
+          "description": "نمایندگان صوتی مجهز به هوش مصنوعی که طبیعی به نظر می‌رسند و زمینه را درک می‌کنند."
         },
         "speech": {
-          "title": "[FA]Advanced Speech Recognition",
-          "description": "[FA]Accurate speech-to-text conversion in multiple languages and accents."
+          "title": "تشخیص گفتار پیشرفته",
+          "description": "تبدیل دقیق گفتار به متن به چندین زبان و لهجه."
         },
         "synthesis": {
-          "title": "[FA]High-Quality Voice Synthesis",
-          "description": "[FA]Crystal-clear, human-like voice output with emotional intelligence."
+          "title": "سنتز صدای با کیفیت بالا",
+          "description": "خروجی صدای شفاف و شبیه انسان با هوش هیجانی."
         },
         "support": {
-          "title": "[FA]24/7 Voice Support",
-          "description": "[FA]Round-the-clock voice assistance for global customer support."
+          "title": "پشتیبانی صوتی ۲۴/۷",
+          "description": "کمک صوتی شبانه‌روزی برای پشتیبانی مشتری جهانی."
         },
         "multilanguage": {
-          "title": "[FA]Multi-Language Support",
-          "description": "[FA]Support for 50+ languages with native pronunciation."
+          "title": "پشتیبانی چند زبانه",
+          "description": "پشتیبانی از بیش از ۵۰ زبان با تلفظ بومی."
         },
         "routing": {
-          "title": "[FA]Intelligent Call Routing",
-          "description": "[FA]Smart routing to human agents when complex issues arise."
+          "title": "مسیریابی هوشمند تماس",
+          "description": "مسیریابی هوشمند به نمایندگان انسانی در صورت بروز مشکلات پیچیده."
         },
-        "capabilitiesTitle": "[FA]Advanced Voice Capabilities",
-        "capabilitiesSubtitle": "[FA]Our voice agents combine cutting-edge AI with natural language processing for human-like conversations.",
+        "capabilitiesTitle": "قابلیت‌های صوتی پیشرفته",
+        "capabilitiesSubtitle": "نمایندگان صوتی ما هوش مصنوعی پیشرفته را با پردازش زبان طبیعی برای مکالمات شبیه انسان ترکیب می‌کنند.",
         "capabilities": {
           "service": {
-            "title": "[FA]Customer Service Calls",
-            "description": "[FA]Handle routine inquiries, order status, and basic troubleshooting"
+            "title": "تماس‌های خدمات مشتری",
+            "description": "رسیدگی به سوالات روتین، وضعیت سفارش و عیب‌یابی اولیه"
           },
           "appointments": {
-            "title": "[FA]Appointment Scheduling",
-            "description": "[FA]Book, reschedule, and confirm appointments automatically"
+            "title": "زمان‌بندی قرار ملاقات",
+            "description": "رزرو، تغییر زمان‌بندی و تأیید خودکار قرار ملاقات‌ها"
           },
           "orders": {
-            "title": "[FA]Order Processing",
-            "description": "[FA]Take orders, process payments, and confirm details"
+            "title": "پردازش سفارش",
+            "description": "دریافت سفارشات، پردازش پرداخت‌ها و تأیید جزئیات"
           },
           "support": {
-            "title": "[FA]Technical Support",
-            "description": "[FA]Guide customers through basic troubleshooting steps"
+            "title": "پشتیبانی فنی",
+            "description": "راهنمایی مشتریان در مراحل اولیه عیب‌یابی"
           }
         },
-        "performanceTitle": "[FA]Voice Agent Performance",
-        "performanceSubtitle": "[FA]See how our voice agents perform across different types of customer interactions.",
-        "accuracyRate": "[FA]Accuracy Rate",
-        "avgDuration": "[FA]Avg Duration",
-        "experienceTitle": "[FA]Experience Voice AI in Action",
-        "experienceSubtitle": "[FA]Listen to real conversations between customers and our voice agents.",
-        "sampleTitle": "[FA]Sample Conversation",
-        "voiceAgent": "[FA]Voice Agent",
-        "customer": "[FA]Customer",
-        "agentGreeting": "Hello! Thank you for calling SeaChat support. How can I help you today?",
-        "customerQuestion": "[FA]Hi, I need to check the status of my recent order.",
-        "agentResponse": "[FA]I'd be happy to help you with that. Could you please provide your order number or the email address associated with your account?",
-        "playDemo": "[FA]Play Full Demo",
-        "moreSamples": "[FA]More Samples",
-        "featuresTitle": "[FA]Voice Agent Features",
+        "performanceTitle": "عملکرد نماینده صوتی",
+        "performanceSubtitle": "ببینید چگونه نمایندگان صوتی ما در انواع مختلف تعاملات مشتری عمل می‌کنند.",
+        "accuracyRate": "نرخ دقت",
+        "avgDuration": "میانگین مدت زمان",
+        "experienceTitle": "هوش مصنوعی صوتی را در عمل تجربه کنید",
+        "experienceSubtitle": "به مکالمات واقعی بین مشتریان و نمایندگان صوتی ما گوش دهید.",
+        "sampleTitle": "نمونه مکالمه",
+        "voiceAgent": "نماینده صوتی",
+        "customer": "مشتری",
+        "agentGreeting": "سلام! از تماس با پشتیبانی SeaChat متشکریم. امروز چگونه می‌توانم به شما کمک کنم؟",
+        "customerQuestion": "سلام، من باید وضعیت سفارش اخیر خود را بررسی کنم.",
+        "agentResponse": "خوشحال می‌شوم در این مورد به شما کمک کنم. لطفاً شماره سفارش یا آدرس ایمیل مرتبط با حساب خود را ارائه دهید؟",
+        "playDemo": "پخش دموی کامل",
+        "moreSamples": "نمونه‌های بیشتر",
+        "featuresTitle": "ویژگی‌های نماینده صوتی",
         "featuresList": {
-          "0": "[FA]Natural speech processing",
-          "1": "[FA]Multi-language support",
-          "2": "[FA]Phone system integration",
-          "3": "[FA]Voice sentiment analysis",
-          "4": "[FA]Call recording and analysis",
-          "5": "[FA]Intelligent human escalation"
+          "0": "پردازش گفتار طبیعی",
+          "1": "پشتیبانی چند زبانه",
+          "2": "ادغام سیستم تلفن",
+          "3": "تجزیه و تحلیل احساسات صوتی",
+          "4": "ضبط و تجزیه و تحلیل تماس",
+          "5": "تشدید هوشمند به انسان"
         },
-        "ctaTitle": "[FA]Ready to Transform Phone Support?",
-        "ctaSubtitle": "[FA]Experience the future of voice customer support with AI agents that sound and feel human."
+        "ctaTitle": "آماده‌اید تا پشتیبانی تلفنی را متحول کنید؟",
+        "ctaSubtitle": "آینده پشتیبانی مشتری صوتی را با نمایندگان هوش مصنوعی که شبیه و احساس انسان دارند، تجربه کنید."
       }
     },
     "seo": {
-      "title": "SeaChat - AI Chatbot & Customer Service Automation | Seasalt.ai",
-      "titleSuffix": " - AI Chatbot & Customer Service Automation | Seasalt.ai",
-      "description": "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more."
+      "title": "SeaChat - ربات چت هوش مصنوعی و اتوماسیون خدمات مشتری | Seasalt.ai",
+      "titleSuffix": " - ربات چت هوش مصنوعی و اتوماسیون خدمات مشتری | Seasalt.ai",
+      "description": "SeaChat یک پلتفرم ربات چت مجهز به هوش مصنوعی است که به کسب‌وکارها کمک می‌کند تا خدمات مشتری را در چندین کانال از جمله واتس‌اپ، وب‌سایت‌ها، رسانه‌های اجتماعی و موارد دیگر خودکار کنند."
     }
   }
 }

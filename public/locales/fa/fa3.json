@@ -2,1549 +2,1549 @@
   "seachat": {
     "solutions": {
       "healthcare": {
-        "title": "[FA]Healthcare Solutions",
-        "subtitle": "[FA]Transform patient care with HIPAA-compliant customer support that improves patient satisfaction, streamlines operations, and enhances care coordination.",
-        "trialButton": "[FA]Start Healthcare For Free",
-        "demoButton": "[FA]Schedule Healthcare Demo",
-        "featuresTitle": "[FA]Healthcare-Specific Features",
-        "featuresSubtitle": "[FA]Purpose-built features for healthcare providers to deliver exceptional patient care.",
+        "title": "راهکارهای بهداشتی",
+        "subtitle": "مراقبت از بیمار را با پشتیبانی مشتری سازگار با HIPAA متحول کنید که رضایت بیمار را بهبود می‌بخشد، عملیات را ساده می‌کند و هماهنگی مراقبت را افزایش می‌دهد.",
+        "trialButton": "شروع رایگان بهداشت و درمان",
+        "demoButton": "زمان‌بندی دموی بهداشت و درمان",
+        "featuresTitle": "ویژگی‌های خاص بهداشت و درمان",
+        "featuresSubtitle": "ویژگی‌های ساخته شده برای ارائه‌دهندگان خدمات بهداشتی برای ارائه مراقبت استثنایی از بیمار.",
         "features": {
           "hipaa": {
-            "title": "[FA]HIPAA Compliance",
-            "description": "[FA]Full HIPAA compliance with encrypted communications and secure data handling",
+            "title": "انطباق با HIPAA",
+            "description": "انطباق کامل با HIPAA با ارتباطات رمزگذاری شده و مدیریت امن داده‌ها",
             "benefits": {
-              "encryption": "[FA]End-to-end encryption",
-              "audit": "[FA]Audit trails",
-              "access": "[FA]Access controls",
-              "anonymization": "[FA]Data anonymization"
+              "encryption": "رمزگذاری سرتاسری",
+              "audit": "مسیرهای حسابرسی",
+              "access": "کنترل‌های دسترسی",
+              "anonymization": "ناشناس‌سازی داده‌ها"
             }
           },
           "appointments": {
-            "title": "[FA]Appointment Management",
-            "description": "[FA]Seamless appointment scheduling, rescheduling, and reminder systems",
+            "title": "مدیریت قرار ملاقات",
+            "description": "سیستم‌های یکپارچه زمان‌بندی، تغییر زمان‌بندی و یادآوری قرار ملاقات",
             "benefits": {
-              "availability": "[FA]Real-time availability",
-              "reminders": "[FA]Automated reminders",
-              "cancellation": "[FA]Cancellation handling",
-              "waitlist": "[FA]Waitlist management"
+              "availability": "در دسترس بودن در زمان واقعی",
+              "reminders": "یادآوری‌های خودکار",
+              "cancellation": "رسیدگی به لغو قرار",
+              "waitlist": "مدیریت لیست انتظار"
             }
           },
           "telehealth": {
-            "title": "[FA]Telehealth Support",
-            "description": "[FA]Integrated telehealth capabilities for remote patient consultations",
+            "title": "پشتیبانی از راه دور",
+            "description": "قابلیت‌های یکپارچه بهداشت از راه دور برای مشاوره‌های بیمار از راه دور",
             "benefits": {
-              "video": "[FA]Video consultations",
-              "messaging": "[FA]Secure messaging",
-              "documents": "[FA]Document sharing",
-              "followup": "[FA]Follow-up care"
+              "video": "مشاوره‌های ویدیویی",
+              "messaging": "پیام‌رسانی امن",
+              "documents": "اشتراک‌گذاری اسناد",
+              "followup": "مراقبت‌های پیگیری"
             }
           },
           "engagement": {
-            "title": "[FA]Patient Engagement",
-            "description": "[FA]Improve patient satisfaction with 24/7 support and personalized care",
+            "title": "تعامل با بیمار",
+            "description": "بهبود رضایت بیمار با پشتیبانی ۲۴/۷ و مراقبت شخصی‌سازی شده",
             "benefits": {
-              "availability": "[FA]24/7 availability",
-              "multilanguage": "[FA]Multi-language support",
-              "coordination": "[FA]Care coordination",
-              "education": "[FA]Health education"
+              "availability": "در دسترس بودن ۲۴/۷",
+              "multilanguage": "پشتیبانی چند زبانه",
+              "coordination": "هماهنگی مراقبت",
+              "education": "آموزش بهداشت"
             }
           }
         },
-        "metricsTitle": "[FA]Healthcare Impact Metrics",
-        "metricsSubtitle": "Real results from healthcare providers using SeaChat for patient support.",
+        "metricsTitle": "معیارهای تأثیر بهداشت و درمان",
+        "metricsSubtitle": "نتایج واقعی از ارائه‌دهندگان خدمات بهداشتی که از SeaChat برای پشتیبانی بیمار استفاده می‌کنند.",
         "metrics": {
           "noshows": {
-            "label": "[FA]Reduction in No-shows",
-            "description": "[FA]With automated appointment reminders",
-            "value": "[FA]40%"
+            "label": "کاهش عدم حضور در قرارها",
+            "description": "با یادآوری‌های خودکار قرار ملاقات",
+            "value": "۴۰٪"
           },
           "response": {
-            "label": "[FA]Faster Response Time",
-            "description": "[FA]For patient inquiries and concerns",
-            "value": "[FA]60%"
+            "label": "زمان پاسخ سریعتر",
+            "description": "برای سوالات و نگرانی‌های بیمار",
+            "value": "۶۰٪"
           },
           "satisfaction": {
-            "label": "[FA]Patient Satisfaction",
-            "description": "[FA]With 24/7 support availability",
-            "value": "[FA]85%"
+            "label": "رضایت بیمار",
+            "description": "با در دسترس بودن پشتیبانی ۲۴/۷",
+            "value": "۸۵٪"
           },
           "efficiency": {
-            "label": "[FA]Administrative Efficiency",
-            "description": "[FA]Through automated workflows",
-            "value": "[FA]50%"
+            "label": "کارایی اداری",
+            "description": "از طریق گردش کار خودکار",
+            "value": "۵۰٪"
           }
         },
-        "useCasesTitle": "[FA]Common Healthcare Use Cases",
-        "useCasesSubtitle": "See how SeaChat handles typical patient interactions and administrative tasks.",
+        "useCasesTitle": "موارد استفاده متداول در بهداشت و درمان",
+        "useCasesSubtitle": "ببینید چگونه SeaChat با تعاملات معمول بیمار و وظایف اداری برخورد می‌کند.",
         "useCases": {
           "appointments": {
-            "title": "[FA]Appointment Scheduling",
-            "description": "[FA]Patients can book, reschedule, or cancel appointments through chat",
-            "example": "[FA]I need to reschedule my appointment for next Tuesday",
-            "outcome": "[FA]Automated scheduling with calendar integration and confirmation"
+            "title": "زمان‌بندی قرار ملاقات",
+            "description": "بیماران می‌توانند از طریق چت قرار ملاقات رزرو، تغییر زمان یا لغو کنند",
+            "example": "من باید قرار ملاقاتم را برای سه‌شنبه آینده تغییر دهم",
+            "outcome": "زمان‌بندی خودکار با ادغام تقویم و تأیید"
           },
           "prescriptions": {
-            "title": "[FA]Prescription Inquiries",
-            "description": "[FA]Handle prescription refills and medication questions securely",
-            "example": "[FA]When will my prescription be ready for pickup?",
-            "outcome": "[FA]Real-time pharmacy integration and status updates"
+            "title": "سوالات مربوط به نسخه",
+            "description": "رسیدگی به تمدید نسخه و سوالات مربوط به دارو به صورت امن",
+            "example": "نسخه من کی برای تحویل آماده می‌شود؟",
+            "outcome": "ادغام داروخانه در زمان واقعی و به‌روزرسانی وضعیت"
           },
           "insurance": {
-            "title": "[FA]Insurance Verification",
-            "description": "[FA]Verify insurance coverage and explain benefits to patients",
-            "example": "[FA]Is my procedure covered by my insurance plan?",
-            "outcome": "[FA]Instant insurance verification and coverage explanation"
+            "title": "تأیید بیمه",
+            "description": "تأیید پوشش بیمه و توضیح مزایا به بیماران",
+            "example": "آیا عمل من تحت پوشش طرح بیمه من است؟",
+            "outcome": "تأیید فوری بیمه و توضیح پوشش"
           },
           "symptoms": {
-            "title": "[FA]Symptom Pre-screening",
-            "description": "[FA]AI-powered symptom assessment and triage recommendations",
-            "example": "[FA]I have a fever and cough, should I come in?",
-            "outcome": "[FA]Symptom assessment with appropriate care recommendations"
+            "title": "پیش‌غربالگری علائم",
+            "description": "ارزیابی علائم با هوش مصنوعی و توصیه‌های تریاژ",
+            "example": "من تب و سرفه دارم، باید مراجعه کنم؟",
+            "outcome": "ارزیابی علائم با توصیه‌های مراقبتی مناسب"
           }
         },
-        "patientRequest": "[FA]Patient Request",
-        "seachatResponse": "SeaChat Response",
-        "hipaaTitle": "[FA]HIPAA Compliance & Security",
-        "hipaaSubtitle": "[FA]Built from the ground up with healthcare security and compliance in mind. Protect patient data while delivering exceptional care experiences.",
+        "patientRequest": "درخواست بیمار",
+        "seachatResponse": "پاسخ SeaChat",
+        "hipaaTitle": "انطباق و امنیت HIPAA",
+        "hipaaSubtitle": "از ابتدا با امنیت و انطباق بهداشت و درمان در ذهن ساخته شده است. از داده‌های بیمار محافظت کنید در حالی که تجربیات مراقبتی استثنایی ارائه می‌دهید.",
         "compliance": {
           "complianceFeatures": [
-            "[FA]End-to-end encryption",
-            "[FA]Audit trails",
-            "[FA]Access controls",
-            "[FA]Data anonymization",
-            "[FA]Secure data storage",
-            "[FA]Regular security audits",
-            "[FA]Staff training and certification",
-            "[FA]Incident response procedures"
+            "رمزگذاری سرتاسری",
+            "مسیرهای حسابرسی",
+            "کنترل‌های دسترسی",
+            "ناشناس‌سازی داده‌ها",
+            "ذخیره‌سازی امن داده‌ها",
+            "حسابرسی‌های امنیتی منظم",
+            "آموزش و گواهینامه کارکنان",
+            "روش‌های پاسخ به حوادث"
           ]
         },
-        "certificationsTitle": "[FA]Security Certifications",
+        "certificationsTitle": "گواهینamه‌های امنیتی",
         "certifications": {
-          "hipaa": "[FA]HIPAA Compliant",
-          "soc2": "[FA]SOC 2 Type II",
-          "iso": "[FA]ISO 27001",
-          "gdpr": "[FA]GDPR Ready"
+          "hipaa": "سازگار با HIPAA",
+          "soc2": "SOC 2 Type II",
+          "iso": "ISO 27001",
+          "gdpr": "آماده GDPR"
         },
-        "certified": "[FA]Certified",
-        "compliant": "[FA]Compliant",
-        "ctaTitle": "[FA]Ready to Transform Patient Care?",
-        "ctaSubtitle": "Join healthcare providers already using SeaChat to deliver exceptional patient experiences while maintaining the highest security and compliance standards.",
-        "ctaTrialButton": "[FA]Start Healthcare For Free",
-        "ctaDemoButton": "[FA]Schedule Healthcare Demo"
+        "certified": "گواهی شده",
+        "compliant": "سازگار",
+        "ctaTitle": "آماده‌اید تا مراقبت از بیمار را متحول کنید؟",
+        "ctaSubtitle": "به ارائه‌دهندگان خدمات بهداشتی بپیوندید که در حال حاضر از SeaChat برای ارائه تجربیات استثنایی بیمار در حالی که بالاترین استانداردهای امنیتی و انطباق را حفظ می‌کنند، استفاده می‌کنند.",
+        "ctaTrialButton": "شروع رایگان بهداشت و درمان",
+        "ctaDemoButton": "زمان‌بندی دموی بهداشت و درمان"
       },
       "fintech": {
         "securityFeatures": [
-          "[FA]End-to-end encryption for all communications",
-          "[FA]Multi-factor authentication and identity verification",
-          "[FA]Regular security audits and penetration testing",
-          "[FA]ISO 27001 certified infrastructure",
-          "[FA]Real-time fraud monitoring and detection",
-          "[FA]Secure API endpoints with rate limiting"
+          "رمزگذاری سرتاسری برای همه ارتباطات",
+          "احراز هویت چند عاملی و تأیید هویت",
+          "حسابرسی‌های امنیتی منظم و تست نفوذ",
+          "زیرساخت دارای گواهی ISO 27001",
+          "نظارت و تشخیص کلاهبرداری در زمان واقعی",
+          "نقاط پایانی API امن با محدودیت نرخ"
         ],
-        "title": "[FA]Fintech Solutions",
-        "subtitle": "[FA]Secure, compliant customer support for financial services. Handle transactions, provide investment guidance, and ensure regulatory compliance with confidence.",
-        "trialButton": "[FA]Start Fintech For Free",
-        "demoButton": "[FA]Schedule Financial Demo",
-        "featuresTitle": "[FA]Financial Services Features",
-        "featuresSubtitle": "[FA]Purpose-built features for financial institutions to deliver secure, compliant customer support.",
+        "title": "راهکارهای فین‌تک",
+        "subtitle": "پشتیبانی مشتری امن و سازگار برای خدمات مالی. با اطمینان معاملات را انجام دهید، راهنمایی سرمایه‌گذاری ارائه دهید و از انطباق با مقررات اطمینان حاصل کنید.",
+        "trialButton": "شروع رایگان فین‌تک",
+        "demoButton": "زمان‌بندی دموی مالی",
+        "featuresTitle": "ویژگی‌های خدمات مالی",
+        "featuresSubtitle": "ویژگی‌های ساخته شده برای موسسات مالی برای ارائه پشتیبانی مشتری امن و سازگار.",
         "features": {
           "security": {
-            "title": "[FA]Financial Security",
-            "description": "[FA]Bank-grade security with PCI DSS compliance and fraud protection",
+            "title": "امنیت مالی",
+            "description": "امنیت در سطح بانکی با انطباق با PCI DSS و محافظت در برابر کلاهبرداری",
             "benefits": {
-              "pci": "[FA]PCI DSS compliance",
-              "fraud": "[FA]Fraud detection",
-              "transactions": "[FA]Secure transactions",
-              "identity": "[FA]Identity verification"
+              "pci": "انطباق با PCI DSS",
+              "fraud": "تشخیص کلاهبرداری",
+              "transactions": "معاملات امن",
+              "identity": "تأیید هویت"
             }
           },
           "payment": {
-            "title": "[FA]Payment Support",
-            "description": "[FA]Comprehensive payment processing support and dispute resolution",
+            "title": "پشتیبانی پرداخت",
+            "description": "پشتیبانی جامع پردازش پرداخت و حل اختلاف",
             "benefits": {
-              "tracking": "[FA]Transaction tracking",
-              "dispute": "[FA]Dispute handling",
-              "refund": "[FA]Refund processing",
-              "methods": "[FA]Payment methods"
+              "tracking": "ردیابی معامله",
+              "dispute": "رسیدگی به اختلاف",
+              "refund": "پردازش بازپرداخت",
+              "methods": "روش‌های پرداخت"
             }
           },
           "investment": {
-            "title": "[FA]Investment Guidance",
-            "description": "[FA]AI-powered investment advice and portfolio management support",
+            "title": "راهنمایی سرمایه‌گذاری",
+            "description": "مشاوره سرمایه‌گذاری با هوش مصنوعی و پشتیبانی مدیریت پورتفولیو",
             "benefits": {
-              "insights": "[FA]Market insights",
-              "portfolio": "[FA]Portfolio analysis",
-              "risk": "[FA]Risk assessment",
-              "recommendations": "[FA]Investment recommendations"
+              "insights": "بینش‌های بازار",
+              "portfolio": "تجزیه و تحلیل پورتفولیو",
+              "risk": "ارزیابی ریسک",
+              "recommendations": "توصیه‌های سرمایه‌گذاری"
             }
           },
           "compliance": {
-            "title": "[FA]Regulatory Compliance",
-            "description": "[FA]Built-in compliance with financial regulations and reporting requirements",
+            "title": "انطباق با مقررات",
+            "description": "انطباق داخلی با مقررات مالی و الزامات گزارش‌دهی",
             "benefits": {
-              "kyc": "[FA]KYC/AML compliance",
-              "reporting": "[FA]Regulatory reporting",
-              "audit": "[FA]Audit trails",
-              "protection": "[FA]Data protection"
+              "kyc": "انطباق با KYC/AML",
+              "reporting": "گزارش‌دهی نظارتی",
+              "audit": "مسیرهای حسابرسی",
+              "protection": "حفاظت از داده‌ها"
             }
           }
         },
-        "impactTitle": "[FA]Financial Services Impact",
-        "impactSubtitle": "Real results from financial institutions using SeaChat for customer support.",
+        "impactTitle": "تأثیر خدمات مالی",
+        "impactSubtitle": "نتایج واقعی از موسسات مالی که از SeaChat برای پشتیبانی مشتری استفاده می‌کنند.",
         "metrics": {
           "accuracy": {
-            "label": "[FA]Transaction Accuracy",
-            "description": "[FA]With automated processing and verification"
+            "label": "دقت معامله",
+            "description": "با پردازش و تأیید خودکار"
           },
           "resolution": {
-            "label": "[FA]Faster Resolution",
-            "description": "[FA]For financial inquiries and disputes"
+            "label": "حل سریعتر",
+            "description": "برای سوالات و اختلافات مالی"
           },
           "fraud": {
-            "label": "[FA]Fraud Detection Rate",
-            "description": "[FA]With AI-powered monitoring systems"
+            "label": "نرخ تشخیص کلاهبرداری",
+            "description": "با سیستم‌های نظارت با هوش مصنوعی"
           },
           "satisfaction": {
-            "label": "[FA]Customer Satisfaction",
-            "description": "[FA]For financial support interactions"
+            "label": "رضایت مشتری",
+            "description": "برای تعاملات پشتیبانی مالی"
           }
         },
-        "useCasesTitle": "[FA]Financial Support Use Cases",
-        "useCasesSubtitle": "See how SeaChat handles complex financial inquiries and transactions.",
+        "useCasesTitle": "موارد استفاده پشتیبانی مالی",
+        "useCasesSubtitle": "ببینید چگونه SeaChat با سوالات و معاملات مالی پیچیده برخورد می‌کند.",
         "useCases": {
           "account": {
-            "title": "[FA]Account Management",
-            "description": "[FA]Help customers with account setup, verification, and management",
-            "example": "[FA]I need help setting up my business account",
-            "outcome": "[FA]Guided account setup with document verification and compliance checks"
+            "title": "مدیریت حساب",
+            "description": "به مشتریان در راه‌اندازی، تأیید و مدیریت حساب کمک کنید",
+            "example": "من برای راه‌اندازی حساب تجاری خود به کمک نیاز دارم",
+            "outcome": "راهنمایی گام به گام راه‌اندازی حساب با تأیید اسناد و بررسی‌های انطباق"
           },
           "transaction": {
-            "title": "[FA]Transaction Inquiries",
-            "description": "[FA]Provide real-time transaction status and history information",
-            "example": "[FA]Where is my wire transfer to ABC Company?",
-            "outcome": "[FA]Real-time transaction tracking with detailed status updates"
+            "title": "سوالات مربوط به معامله",
+            "description": "ارائه وضعیت و تاریخچه معامله در زمان واقعی",
+            "example": "حواله سیمی من به شرکت ABC کجاست؟",
+            "outcome": "ردیابی معامله در زمان واقعی با به‌روزرسانی‌های دقیق وضعیت"
           },
           "fraud": {
-            "title": "[FA]Fraud Prevention",
-            "description": "[FA]Detect and prevent fraudulent activities with AI monitoring",
-            "example": "[FA]I see a suspicious charge on my account",
-            "outcome": "[FA]Immediate fraud investigation and account protection measures"
+            "title": "پیشگیری از کلاهبرداری",
+            "description": "تشخیص و جلوگیری از فعالیت‌های کلاهبردارانه با نظارت هوش مصنوعی",
+            "example": "من یک هزینه مشکوک در حساب خود می‌بینم",
+            "outcome": "تحقیق فوری در مورد کلاهبرداری و اقدامات محافظت از حساب"
           },
           "investment": {
-            "title": "[FA]Investment Support",
-            "description": "[FA]Provide investment guidance and portfolio management assistance",
-            "example": "[FA]Should I invest in tech stocks right now?",
-            "outcome": "[FA]Personalized investment advice based on risk profile and market analysis"
+            "title": "پشتیبانی سرمایه‌گذاری",
+            "description": "ارائه راهنمایی سرمایه‌گذاری و کمک به مدیریت پورتفولیو",
+            "example": "آیا باید در حال حاضر در سهام فناوری سرمایه‌گذاری کنم؟",
+            "outcome": "مشاوره سرمایه‌گذاری شخصی‌سازی شده بر اساس پروفایل ریسک و تحلیل بازار"
           }
         },
-        "customerInquiry": "[FA]Customer Inquiry",
-        "seachatResponse": "SeaChat Response",
-        "securityTitle": "[FA]Bank-Grade Security & Compliance",
-        "securitySubtitle": "[FA]Built with the highest security standards and regulatory compliance requirements for financial services institutions.",
-        "regulatoryTitle": "[FA]Regulatory Compliance",
+        "customerInquiry": "سوال مشتری",
+        "seachatResponse": "پاسخ SeaChat",
+        "securityTitle": "امنیت و انطباق در سطح بانکی",
+        "securitySubtitle": "ساخته شده با بالاترین استانداردهای امنیتی و الزامات انطباق با مقررات برای موسسات خدمات مالی.",
+        "regulatoryTitle": "انطباق با مقررات",
         "regulations": {
           "pci": {
-            "name": "[FA]PCI DSS",
-            "description": "[FA]Payment Card Industry Data Security Standard",
-            "status": "[FA]Compliant"
+            "name": "PCI DSS",
+            "description": "استاندارد امنیت داده‌های صنعت کارت پرداخت",
+            "status": "سازگار"
           },
           "sox": {
-            "name": "[FA]SOX",
-            "description": "[FA]Sarbanes-Oxley Act compliance",
-            "status": "[FA]Compliant"
+            "name": "SOX",
+            "description": "انطباق با قانون ساربینز-آکسلی",
+            "status": "سازگار"
           },
           "gdpr": {
-            "name": "[FA]GDPR",
-            "description": "[FA]General Data Protection Regulation",
-            "status": "[FA]Compliant"
+            "name": "GDPR",
+            "description": "مقررات عمومی حفاظت از داده‌ها",
+            "status": "آماده"
           },
           "kyc": {
-            "name": "[FA]KYC/AML",
-            "description": "[FA]Know Your Customer / Anti-Money Laundering",
-            "status": "[FA]Supported"
+            "name": "KYC/AML",
+            "description": "شناسایی مشتری / ضد پولشویی",
+            "status": "پشتیبانی شده"
           },
           "ccpa": {
-            "name": "[FA]CCPA",
-            "description": "[FA]California Consumer Privacy Act",
-            "status": "[FA]Compliant"
+            "name": "CCPA",
+            "description": "قانون حفظ حریم خصوصی مصرف‌کننده کالیفرنیا",
+            "status": "سازگار"
           },
           "finra": {
-            "name": "[FA]FINRA",
-            "description": "[FA]Financial Industry Regulatory Authority",
-            "status": "[FA]Supported"
+            "name": "FINRA",
+            "description": "سازمان تنظیم مقررات صنعت مالی",
+            "status": "پشتیبانی شده"
           }
         },
-        "ctaTitle": "[FA]Ready to Secure Your Financial Services?",
-        "ctaSubtitle": "Join financial institutions already using SeaChat to deliver secure, compliant customer support that builds trust and drives growth.",
-        "ctaTrialButton": "[FA]Start Fintech For Free",
-        "ctaDemoButton": "[FA]Schedule Financial Demo"
+        "ctaTitle": "آماده‌اید تا خدمات مالی خود را ایمن کنید؟",
+        "ctaSubtitle": "به موسسات مالی بپیوندید که در حال حاضر از SeaChat برای ارائه پشتیبانی مشتری امن و سازگار که اعتماد ایجاد می‌کند و رشد را به همراه دارد، استفاده می‌کنند.",
+        "ctaTrialButton": "شروع رایگان فین‌تک",
+        "ctaDemoButton": "زمان‌بندی دموی مالی"
       },
       "ecommerce": {
-        "title": "[FA]E-commerce & Retail",
-        "subtitle": "[FA]Transform your online store with intelligent customer support that drives sales, reduces cart abandonment, and creates loyal customers.",
-        "trialButton": "[FA]Start E-commerce For Free",
-        "demoButton": "[FA]Schedule E-commerce Demo",
-        "featuresTitle": "[FA]E-commerce Specialized Features",
-        "featuresSubtitle": "[FA]Purpose-built features for online retailers to maximize sales and customer satisfaction.",
+        "title": "تجارت الکترونیک و خرده‌فروشی",
+        "subtitle": "فروشگاه آنلاین خود را با پشتیبانی مشتری هوشمند متحول کنید که فروش را افزایش می‌دهد، رها کردن سبد خرید را کاهش می‌دهد و مشتریان وفادار ایجاد می‌کند.",
+        "trialButton": "شروع رایگان تجارت الکترونیک",
+        "demoButton": "زمان‌بندی دموی تجارت الکترونیک",
+        "featuresTitle": "ویژگی‌های تخصصی تجارت الکترونیک",
+        "featuresSubtitle": "ویژگی‌های ساخته شده برای خرده‌فروشان آنلاین برای به حداکثر رساندن فروش و رضایت مشتری.",
         "features": {
           "orders": {
-            "title": "[FA]Order Management Integration",
-            "description": "[FA]Seamlessly integrate with your e-commerce platform for real-time order tracking and updates.",
+            "title": "ادغام مدیریت سفارش",
+            "description": "برای ردیابی و به‌روزرسانی سفارش در زمان واقعی، به طور یکپارچه با پلتفرم تجارت الکترونیک خود ادغام شوید.",
             "benefits": {
-              "status": "[FA]Real-time order status",
-              "shipping": "[FA]Automated shipping updates",
-              "returns": "[FA]Return processing",
-              "inventory": "[FA]Inventory inquiries"
+              "status": "وضعیت سفارش در زمان واقعی",
+              "shipping": "به‌روزرسانی‌های خودکار حمل و نقل",
+              "returns": "پردازش بازگشت",
+              "inventory": "سوالات موجودی"
             }
           },
           "accounts": {
-            "title": "[FA]Customer Account Support",
-            "description": "[FA]Help customers with account issues, password resets, and profile management.",
+            "title": "پشتیبانی حساب مشتری",
+            "description": "به مشتریان در مورد مشکلات حساب، بازنشانی رمز عبور و مدیریت پروفایل کمک کنید.",
             "benefits": {
-              "recovery": "[FA]Account recovery",
-              "updates": "[FA]Profile updates",
-              "subscriptions": "[FA]Subscription management",
-              "billing": "[FA]Billing support"
+              "recovery": "بازیابی حساب",
+              "updates": "به‌روزرسانی‌های پروفایل",
+              "subscriptions": "مدیریت اشتراک",
+              "billing": "پشتیبانی صورتحساب"
             }
           },
           "recommendations": {
-            "title": "[FA]Product Recommendations",
-            "description": "[FA]AI-powered product suggestions based on customer preferences and browsing history.",
+            "title": "توصیه‌های محصول",
+            "description": "پیشنهادات محصول با هوش مصنوعی بر اساس ترجیحات مشتری و تاریخچه مرور.",
             "benefits": {
-              "personalized": "[FA]Personalized suggestions",
-              "cross": "[FA]Cross-selling opportunities",
-              "upselling": "[FA]Upselling automation",
-              "inventory": "[FA]Inventory optimization"
+              "personalized": "پیشنهادات شخصی‌سازی شده",
+              "cross": "فرصت‌های فروش متقابل",
+              "upselling": "اتوماسیون فروش بیشتر",
+              "inventory": "بهینه‌سازی موجودی"
             }
           },
           "assistance": {
-            "title": "[FA]24/7 Shopping Assistance",
-            "description": "[FA]Round-the-clock support for customers across different time zones and shopping patterns.",
+            "title": "کمک خرید ۲۴/۷",
+            "description": "پشتیبانی شبانه‌روزی برای مشتریان در مناطق زمانی مختلف و الگوهای خرید.",
             "benefits": {
-              "global": "[FA]Global coverage",
-              "peak": "[FA]Peak hour support",
-              "holiday": "[FA]Holiday assistance",
-              "mobile": "[FA]Mobile shopping help"
+              "global": "پوشش جهانی",
+              "peak": "پشتیبانی در ساعات اوج",
+              "holiday": "کمک در تعطیلات",
+              "mobile": "کمک خرید با موبایل"
             }
           }
         },
-        "resultsTitle": "[FA]Proven E-commerce Results",
-        "resultsSubtitle": "Real metrics from e-commerce businesses using SeaChat for customer support.",
+        "resultsTitle": "نتایج اثبات شده تجارت الکترونیک",
+        "resultsSubtitle": "معیارهای واقعی از کسب‌وکارهای تجارت الکترونیک که از SeaChat برای پشتیبانی مشتری استفاده می‌کنند.",
         "metrics": {
           "conversion": {
-            "label": "[FA]Increase in Sales Conversion",
-            "description": "[FA]Through proactive customer support"
+            "label": "افزایش نرخ تبدیل فروش",
+            "description": "از طریق پشتیبانی مشتری فعال"
           },
           "abandonment": {
-            "label": "[FA]Reduction in Cart Abandonment",
-            "description": "[FA]With real-time shopping assistance"
+            "label": "کاهش رها کردن سبد خرید",
+            "description": "با کمک خرید در زمان واقعی"
           },
           "resolution": {
-            "label": "[FA]Faster Order Resolution",
-            "description": "[FA]Automated order status updates"
+            "label": "حل سریعتر سفارش",
+            "description": "به‌روزرسانی‌های خودکار وضعیت سفارش"
           },
           "satisfaction": {
-            "label": "[FA]Customer Satisfaction Rate",
-            "description": "[FA]For e-commerce support interactions"
+            "label": "نرخ رضایت مشتری",
+            "description": "برای تعاملات پشتیبانی تجارت الکترونیک"
           }
         },
-        "integrationsTitle": "[FA]E-commerce Platform Integrations",
-        "integrationsSubtitle": "[FA]Seamlessly connect with your existing e-commerce stack for unified customer support.",
+        "integrationsTitle": "ادغام‌های پلتفرم تجارت الکترونیک",
+        "integrationsSubtitle": "برای عملیات پشتیبانی مشتری یکپارچه، به طور یکپارچه با پشته تجارت الکترونیک موجود خود ارتباط برقرار کنید.",
         "integrations": {
           "shopify": {
-            "name": "[FA]Shopify",
-            "description": "[FA]Native Shopify app with full order integration"
+            "name": "Shopify",
+            "description": "برنامه بومی Shopify با ادغام کامل سفارش"
           },
           "woocommerce": {
-            "name": "[FA]WooCommerce",
-            "description": "[FA]WordPress plugin for WooCommerce stores"
+            "name": "WooCommerce",
+            "description": "افزونه وردپرس برای فروشگاه‌های WooCommerce"
           },
           "magento": {
-            "name": "[FA]Magento",
-            "description": "[FA]Enterprise-grade Magento integration"
+            "name": "Magento",
+            "description": "ادغام Magento در سطح سازمانی"
           },
           "bigcommerce": {
-            "name": "[FA]BigCommerce",
-            "description": "[FA]Complete BigCommerce API integration"
+            "name": "BigCommerce",
+            "description": "ادغام کامل BigCommerce API"
           },
           "stripe": {
-            "name": "[FA]Stripe",
-            "description": "[FA]Payment processing and billing support"
+            "name": "Stripe",
+            "description": "پردازش پرداخت و پشتیبانی صورتحساب"
           },
           "paypal": {
-            "name": "[FA]PayPal",
-            "description": "[FA]PayPal transaction and dispute handling"
+            "name": "PayPal",
+            "description": "رسیدگی به معاملات و اختلافات PayPal"
           }
         },
-        "successTitle": "[FA]Success Story: Fashion Retailer",
-        "challenge": "[FA]Challenge",
-        "challengeDescription": "[FA]High cart abandonment rate and customers leaving due to sizing questions and product availability concerns.",
-        "solution": "[FA]Solution",
-        "solutionDescription": "Deployed SeaChat with product catalog integration, sizing guides, and proactive cart abandonment recovery.",
-        "results": "[FA]Results",
-        "result1": "[FA]45% increase in conversion rate",
-        "result2": "[FA]60% reduction in cart abandonment",
-        "result3": "[FA]$2.3M additional revenue in 6 months",
-        "chatPreview": "[FA]Live Chat Preview",
-        "customer": "[FA]Customer",
-        "customerQuestion": "[FA]Is this dress available in size M?",
-        "seachatAI": "SeaChat AI",
-        "aiResponse1": "[FA]Yes! The Blue Summer Dress is available in size M. We have 3 in stock. Would you like me to add it to your cart?",
-        "customerResponse": "[FA]Perfect! Yes, please add it.",
-        "aiResponse2": "[FA]Added to cart! 🛍️ You qualify for free shipping. Ready to checkout?",
-        "ctaTitle": "[FA]Ready to Boost Your E-commerce Sales?",
-        "ctaSubtitle": "Join hundreds of online retailers using SeaChat to increase conversions, reduce cart abandonment, and create exceptional shopping experiences.",
-        "ctaTrialButton": "[FA]Start E-commerce For Free",
-        "ctaDemoButton": "[FA]Schedule E-commerce Demo"
+        "successTitle": "داستان موفقیت: خرده‌فروش مد",
+        "challenge": "چالش",
+        "challengeDescription": "نرخ بالای رها کردن سبد خرید و خروج مشتریان به دلیل سوالات مربوط به اندازه و نگرانی‌های مربوط به در دسترس بودن محصول.",
+        "solution": "راه حل",
+        "solutionDescription": "استقرار SeaChat با ادغام کاتالوگ محصولات، راهنمای اندازه‌گیری و بازیابی فعال سبد خرید رها شده.",
+        "results": "نتایج",
+        "result1": "افزایش ۴۵ درصدی نرخ تبدیل",
+        "result2": "کاهش ۶۰ درصدی رها کردن سبد خرید",
+        "result3": "۲.۳ میلیون دلار درآمد اضافی در ۶ ماه",
+        "chatPreview": "پیش‌نمایش چت زنده",
+        "customer": "مشتری",
+        "customerQuestion": "آیا این لباس در سایز M موجود است؟",
+        "seachatAI": "هوش مصنوعی SeaChat",
+        "aiResponse1": "بله! لباس تابستانی آبی در سایز M موجود است. ما ۳ عدد در انبار داریم. آیا می‌خواهید آن را به سبد خرید خود اضافه کنم؟",
+        "customerResponse": "عالی! بله، لطفاً آن را اضافه کنید.",
+        "aiResponse2": "به سبد خرید اضافه شد! 🛍️ شما واجد شرایط ارسال رایگان هستید. آماده پرداخت هستید؟",
+        "ctaTitle": "آماده‌اید تا فروش تجارت الکترونیک خود را افزایش دهید؟",
+        "ctaSubtitle": "به صدها خرده‌فروش آنلاین بپیوندید که از SeaChat برای افزایش تبدیل، کاهش رها کردن سبد خرید و ایجاد تجربیات خرید استثنایی استفاده می‌کنند.",
+        "ctaTrialButton": "شروع رایگان تجارت الکترونیک",
+        "ctaDemoButton": "زمان‌بندی دموی تجارت الکترونیک"
       },
       "education": {
-        "title": "[FA]Education Solutions",
-        "subtitle": "[FA]Transform educational support with AI-powered assistance for students, parents, faculty, and staff. Streamline operations and enhance the learning experience.",
-        "trialButton": "[FA]Start Education For Free",
-        "demoButton": "[FA]Schedule Education Demo",
-        "featuresTitle": "[FA]Education-Specific Features",
-        "featuresSubtitle": "[FA]Purpose-built features for educational institutions to enhance student success and operational efficiency.",
+        "title": "راهکارهای آموزشی",
+        "subtitle": "پشتیبانی آموزشی را با کمک هوش مصنوعی برای دانش‌آموزان، والدین، اساتید و کارکنان متحول کنید. عملیات را ساده کنید و تجربه یادگیری را افزایش دهید.",
+        "trialButton": "شروع رایگان آموزش",
+        "demoButton": "زمان‌بندی دموی آموزش",
+        "featuresTitle": "ویژگی‌های خاص آموزش",
+        "featuresSubtitle": "ویژگی‌های ساخته شده برای موسسات آموزشی برای افزایش موفقیت دانش‌آموزان و کارایی عملیاتی.",
         "features": {
           "student": {
-            "title": "[FA]Student Support Services",
-            "description": "[FA]Comprehensive support for student inquiries, enrollment, and academic assistance",
+            "title": "خدمات پشتیبانی دانشجویی",
+            "description": "پشتیبانی جامع برای سوالات دانشجویی، ثبت نام و کمک‌های تحصیلی",
             "benefits": {
-              "support": "[FA]24/7 student support",
-              "enrollment": "[FA]Enrollment assistance",
-              "academic": "[FA]Academic guidance",
-              "technical": "[FA]Technical help"
+              "support": "پشتیبانی ۲۴/۷ دانشجو",
+              "enrollment": "کمک در ثبت نام",
+              "academic": "راهنمایی تحصیلی",
+              "technical": "کمک فنی"
             }
           },
           "admin": {
-            "title": "[FA]Administrative Automation",
-            "description": "[FA]Streamline administrative tasks with automated scheduling and notifications",
+            "title": "اتوماسیون اداری",
+            "description": "ساده‌سازی وظایف اداری با زمان‌بندی و اعلان‌های خودکار",
             "benefits": {
-              "scheduling": "[FA]Class scheduling",
-              "events": "[FA]Event management",
-              "deadlines": "[FA]Deadline reminders",
-              "registration": "[FA]Registration support"
+              "scheduling": "زمان‌بندی کلاس",
+              "events": "مدیریت رویداد",
+              "deadlines": "یادآوری مهلت‌ها",
+              "registration": "پشتیبانی ثبت نام"
             }
           },
           "stakeholder": {
-            "title": "[FA]Multi-Stakeholder Support",
-            "description": "[FA]Support students, parents, faculty, and staff with tailored experiences",
+            "title": "پشتیبانی چند ذینفعی",
+            "description": "پشتیبانی از دانش‌آموزان، والدین، اساتید و کارکنان با تجربیات متناسب",
             "benefits": {
-              "portals": "[FA]Student portals",
-              "parent": "[FA]Parent communication",
-              "faculty": "[FA]Faculty assistance",
-              "staff": "[FA]Staff coordination"
+              "portals": "پورتال‌های دانشجویی",
+              "parent": "ارتباط با والدین",
+              "faculty": "کمک به اساتید",
+              "staff": "هماهنگی کارکنان"
             }
           },
           "lms": {
-            "title": "[FA]Learning Management Integration",
-            "description": "[FA]Seamless integration with LMS platforms and educational tools",
+            "title": "ادغام مدیریت یادگیری",
+            "description": "ادغام یکپارچه با پلتفرم‌های LMS و ابزارهای آموزشی",
             "benefits": {
-              "connectivity": "[FA]LMS connectivity",
-              "grades": "[FA]Grade inquiries",
-              "assignments": "[FA]Assignment help",
-              "courses": "[FA]Course information"
+              "connectivity": "اتصال به LMS",
+              "grades": "سوالات نمره",
+              "assignments": "کمک در تکالیف",
+              "courses": "اطلاعات دوره"
             }
           }
         },
-        "stakeholdersTitle": "[FA]Support for All Stakeholders",
-        "stakeholdersSubtitle": "[FA]Tailored experiences for every member of your educational community.",
+        "stakeholdersTitle": "پشتیبانی برای همه ذینفعان",
+        "stakeholdersSubtitle": "تجربیات متناسب برای هر عضو جامعه آموزشی شما.",
         "stakeholders": {
           "students": {
-            "title": "[FA]Students",
-            "description": "[FA]Academic support, enrollment help, and campus services",
+            "title": "دانش‌آموزان",
+            "description": "پشتیبانی تحصیلی، کمک در ثبت نام و خدمات پردیس",
             "features": {
-              "courses": "[FA]Course information",
-              "assignments": "[FA]Assignment deadlines",
-              "grades": "[FA]Grade inquiries",
-              "campus": "[FA]Campus navigation"
+              "courses": "اطلاعات دوره",
+              "assignments": "مهلت‌های تکالیف",
+              "grades": "سوالات نمره",
+              "campus": "ناوبری در پردیس"
             }
           },
           "parents": {
-            "title": "[FA]Parents",
-            "description": "[FA]Stay informed about student progress and institutional updates",
+            "title": "والدین",
+            "description": "از پیشرفت دانش‌آموز و به‌روزرسانی‌های موسسه مطلع شوید",
             "features": {
-              "progress": "[FA]Progress updates",
-              "payment": "[FA]Payment information",
-              "events": "[FA]Event notifications",
-              "communication": "[FA]Communication with faculty"
+              "progress": "به‌روزرسانی‌های پیشرفت",
+              "payment": "اطلاعات پرداخت",
+              "events": "اعلان‌های رویداد",
+              "communication": "ارتباط با اساتید"
             }
           },
           "faculty": {
-            "title": "[FA]Faculty",
-            "description": "[FA]Administrative support and teaching assistance",
+            "title": "اساتید",
+            "description": "پشتیبانی اداری و کمک آموزشی",
             "features": {
-              "management": "[FA]Class management",
-              "inquiries": "[FA]Student inquiries",
-              "resources": "[FA]Resource requests",
-              "technical": "[FA]Technical support"
+              "management": "مدیریت کلاس",
+              "inquiries": "سوالات دانشجو",
+              "resources": "درخواست‌های منابع",
+              "technical": "پشتیبانی فنی"
             }
           },
           "staff": {
-            "title": "[FA]Staff",
-            "description": "[FA]Operational efficiency and administrative automation",
+            "title": "کارکنان",
+            "description": "کارایی عملیاتی و اتوماسیون اداری",
             "features": {
-              "automation": "[FA]Process automation",
-              "information": "[FA]Information access",
-              "workflow": "[FA]Workflow management",
-              "reporting": "[FA]Reporting tools"
+              "automation": "اتوماسیون فرآیند",
+              "information": "دسترسی به اطلاعات",
+              "workflow": "مدیریت گردش کار",
+              "reporting": "ابزارهای گزارش‌دهی"
             }
           }
         },
-        "metricsTitle": "[FA]Educational Impact Metrics",
-        "metricsSubtitle": "Real results from educational institutions using SeaChat for student and administrative support.",
+        "metricsTitle": "معیارهای تأثیر آموزشی",
+        "metricsSubtitle": "نتایج واقعی از موسسات آموزشی که از SeaChat برای پشتیبانی دانشجویی و اداری استفاده می‌کنند.",
         "metrics": {
           "admin": {
-            "label": "[FA]Reduced Admin Workload",
-            "description": "[FA]Through automated student inquiries"
+            "label": "کاهش بار کاری اداری",
+            "description": "از طریق سوالات خودکار دانشجویی"
           },
           "satisfaction": {
-            "label": "[FA]Student Satisfaction",
-            "description": "[FA]With 24/7 support availability"
+            "label": "رضایت دانشجو",
+            "description": "با در دسترس بودن پشتیبانی ۲۴/۷"
           },
           "response": {
-            "label": "[FA]Faster Response Time",
-            "description": "[FA]For student and parent inquiries"
+            "label": "زمان پاسخ سریعتر",
+            "description": "برای سوالات دانشجو و والدین"
           },
           "enrollment": {
-            "label": "[FA]Increased Enrollment",
-            "description": "[FA]With streamlined application process"
+            "label": "افزایش ثبت نام",
+            "description": "با فرآیند درخواست ساده شده"
           }
         },
-        "useCasesTitle": "[FA]Common Educational Use Cases",
-        "useCasesSubtitle": "See how SeaChat handles typical student and administrative interactions.",
+        "useCasesTitle": "موارد استفاده متداول آموزشی",
+        "useCasesSubtitle": "ببینید چگونه SeaChat با تعاملات معمول دانشجویی و اداری برخورد می‌کند.",
         "useCases": {
           "enrollment": {
-            "title": "[FA]Student Enrollment",
-            "description": "[FA]Guide prospective students through the enrollment process",
-            "example": "[FA]I want to apply for the Computer Science program",
-            "outcome": "[FA]Step-by-step enrollment guidance with document requirements and deadlines"
+            "title": "ثبت نام دانشجو",
+            "description": "راهنمایی دانشجویان آینده‌نگر در فرآیند ثبت نام",
+            "example": "من می‌خواهم برای برنامه علوم کامپیوتر درخواست دهم",
+            "outcome": "راهنمایی گام به گام ثبت نام با الزامات اسناد و مهلت‌ها"
           },
           "academic": {
-            "title": "[FA]Academic Support",
-            "description": "[FA]Provide academic assistance and course information",
-            "example": "[FA]When is the deadline for my History assignment?",
-            "outcome": "[FA]Real-time access to assignment deadlines and submission guidelines"
+            "title": "پشتیبانی تحصیلی",
+            "description": "ارائه کمک تحصیلی و اطلاعات دوره",
+            "example": "مهلت تکلیف تاریخ من کی است؟",
+            "outcome": "دسترسی در زمان واقعی به مهلت‌های تکلیف و دستورالعمل‌های ارسال"
           },
           "campus": {
-            "title": "[FA]Campus Services",
-            "description": "[FA]Help with campus facilities, dining, housing, and transportation",
-            "example": "[FA]How do I reserve a study room in the library?",
-            "outcome": "[FA]Direct booking system integration with availability and confirmation"
+            "title": "خدمات پردیس",
+            "description": "کمک با امکانات پردیس، غذاخوری، مسکن و حمل و نقل",
+            "example": "چگونه می‌توانم یک اتاق مطالعه در کتابخانه رزرو کنم؟",
+            "outcome": "ادغام سیستم رزرو مستقیم با در دسترس بودن و تأیید"
           },
           "financial": {
-            "title": "[FA]Financial Aid",
-            "description": "[FA]Assist with financial aid applications and scholarship information",
-            "example": "[FA]What scholarships am I eligible for?",
-            "outcome": "[FA]Personalized scholarship recommendations based on student profile"
+            "title": "کمک مالی",
+            "description": "کمک با درخواست‌های کمک مالی و اطلاعات بورسیه",
+            "example": "برای چه بورسیه‌هایی واجد شرایط هستم؟",
+            "outcome": "توصیه‌های بورسیه شخصی‌سازی شده بر اساس پروفایل دانشجو"
           }
         },
-        "studentInquiry": "[FA]Student Inquiry",
-        "seachatResponse": "SeaChat Response",
-        "integrationsTitle": "[FA]Educational Platform Integrations",
-        "integrationsSubtitle": "[FA]Seamlessly connect with popular educational tools and platforms.",
+        "studentInquiry": "سوال دانشجو",
+        "seachatResponse": "پاسخ SeaChat",
+        "integrationsTitle": "ادغام‌های پلتفرم آموزشی",
+        "integrationsSubtitle": "به طور یکپارچه با ابزارها و پلتفرم‌های آموزشی محبوب ارتباط برقرار کنید.",
         "integrations": {
           "canvas": {
-            "name": "[FA]Canvas LMS",
-            "description": "[FA]Learning management system integration"
+            "name": "Canvas LMS",
+            "description": "ادغام سیستم مدیریت یادگیری"
           },
           "blackboard": {
-            "name": "[FA]Blackboard",
-            "description": "[FA]Course management and content delivery"
+            "name": "Blackboard",
+            "description": "مدیریت دوره و ارائه محتوا"
           },
           "moodle": {
-            "name": "[FA]Moodle",
-            "description": "[FA]Open-source learning platform"
+            "name": "Moodle",
+            "description": "پلتفرم یادگیری منبع باز"
           },
           "google": {
-            "name": "[FA]Google Classroom",
-            "description": "[FA]Educational collaboration platform"
+            "name": "Google Classroom",
+            "description": "پلتفرم همکاری آموزشی"
           },
           "zoom": {
-            "name": "[FA]Zoom",
-            "description": "[FA]Video conferencing for virtual classes"
+            "name": "Zoom",
+            "description": "کنفرانس ویدیویی برای کلاس‌های مجازی"
           },
           "teams": {
-            "name": "[FA]Microsoft Teams",
-            "description": "[FA]Educational collaboration and communication"
+            "name": "Microsoft Teams",
+            "description": "همکاری و ارتباطات آموزشی"
           },
           "sis": {
-            "name": "[FA]Student Information Systems",
-            "description": "[FA]SIS integration for student records"
+            "name": "سیستم‌های اطلاعات دانشجویی",
+            "description": "ادغام SIS برای سوابق دانشجویی"
           },
           "library": {
-            "name": "[FA]Library Systems",
-            "description": "[FA]Resource booking and catalog search"
+            "name": "سیستم‌های کتابخانه",
+            "description": "رزرو منابع و جستجوی کاتالوگ"
           }
         },
-        "ctaTitle": "[FA]Ready to Transform Education Support?",
-        "ctaSubtitle": "Join educational institutions already using SeaChat to enhance student success and streamline administrative operations.",
-        "ctaTrialButton": "[FA]Start Education For Free",
-        "ctaDemoButton": "[FA]Schedule Education Demo"
+        "ctaTitle": "آماده‌اید تا پشتیبانی آموزشی را متحول کنید؟",
+        "ctaSubtitle": "به موسسات آموزشی بپیوندید که در حال حاضر از SeaChat برای افزایش موفقیت دانش‌آموزان و ساده‌سازی عملیات اداری استفاده می‌کنند.",
+        "ctaTrialButton": "شروع رایگان آموزش",
+        "ctaDemoButton": "زمان‌بندی دموی آموزش"
       },
       "realEstate": {
-        "title": "[FA]Real Estate Solutions",
-        "subtitle": "[FA]Transform your real estate business with AI-powered customer support that captures leads, coordinates showings, and provides 24/7 client assistance.",
-        "trialButton": "[FA]Start Real Estate For Free",
-        "demoButton": "[FA]Schedule Real Estate Demo",
-        "featuresTitle": "[FA]Real Estate Specialized Features",
-        "featuresSubtitle": "[FA]Purpose-built features for real estate professionals to capture leads and serve clients better.",
+        "title": "راهکارهای املاک و مستغلات",
+        "subtitle": "کسب‌وکار املاک و مستغلات خود را با پشتیبانی مشتری با هوش مصنوعی متحول کنید که سرنخ‌ها را جذب می‌کند، بازدیدها را هماهنگ می‌کند و کمک ۲۴/۷ به مشتری ارائه می‌دهد.",
+        "trialButton": "شروع رایگان املاک و مستغلات",
+        "demoButton": "زمان‌بندی دموی املاک و مستغلات",
+        "featuresTitle": "ویژگی‌های تخصصی املاک و مستغلات",
+        "featuresSubtitle": "ویژگی‌های ساخته شده برای متخصصان املاک و مستغلات برای جذب سرنخ و خدمت بهتر به مشتریان.",
         "features": {
           "search": {
-            "title": "[FA]Property Search Assistance",
-            "description": "[FA]Help clients find their perfect property with AI-powered search and recommendations",
+            "title": "کمک در جستجوی ملک",
+            "description": "به مشتریان در یافتن ملک ایده‌آل خود با جستجو و توصیه‌های با هوش مصنوعی کمک کنید",
             "benefits": {
-              "matching": "[FA]Smart property matching",
-              "insights": "[FA]Market insights",
-              "neighborhood": "[FA]Neighborhood information",
-              "analysis": "[FA]Price analysis"
+              "matching": "تطبیق هوشمند ملک",
+              "insights": "بینش‌های بازار",
+              "neighborhood": "اطلاعات محله",
+              "analysis": "تجزیه و تحلیل قیمت"
             }
           },
           "showing": {
-            "title": "[FA]Showing Coordination",
-            "description": "[FA]Streamline property showings with automated scheduling and coordination",
+            "title": "هماهنگی بازدید",
+            "description": "ساده‌سازی بازدید از ملک با زمان‌بندی و هماهنگی خودکار",
             "benefits": {
-              "scheduling": "[FA]Automated scheduling",
-              "availability": "[FA]Availability sync",
-              "reminders": "[FA]Reminder notifications",
-              "route": "[FA]Route optimization"
+              "scheduling": "زمان‌بندی خودکار",
+              "availability": "همگام‌سازی در دسترس بودن",
+              "reminders": "اعلان‌های یادآوری",
+              "route": "بهینه‌سازی مسیر"
             }
           },
           "leads": {
-            "title": "[FA]Lead Management",
-            "description": "[FA]Capture and nurture leads with intelligent qualification and follow-up",
+            "title": "مدیریت سرنخ",
+            "description": "جذب و پرورش سرنخ با صلاحیت‌سنجی و پیگیری هوشمند",
             "benefits": {
-              "qualification": "[FA]Lead qualification",
-              "followup": "[FA]Automated follow-up",
-              "crm": "[FA]CRM integration",
-              "tracking": "[FA]Conversion tracking"
+              "qualification": "صلاحیت‌سنجی سرنخ",
+              "followup": "پیگیری خودکار",
+              "crm": "ادغام CRM",
+              "tracking": "ردیابی تبدیل"
             }
           },
           "communication": {
-            "title": "[FA]Client Communication",
-            "description": "[FA]24/7 client support for inquiries, updates, and transaction assistance",
+            "title": "ارتباط با مشتری",
+            "description": "پشتیبانی ۲۴/۷ مشتری برای سوالات، به‌روزرسانی‌ها و کمک در معاملات",
             "benefits": {
-              "availability": "[FA]24/7 availability",
-              "updates": "[FA]Transaction updates",
-              "assistance": "[FA]Document assistance",
-              "market": "[FA]Market updates"
+              "availability": "در دسترس بودن ۲۴/۷",
+              "updates": "به‌روزرسانی‌های معامله",
+              "assistance": "کمک در اسناد",
+              "market": "به‌روزرسانی‌های بازار"
             }
           }
         },
-        "metricsTitle": "[FA]Real Estate Impact Metrics",
-        "metricsSubtitle": "Real results from real estate professionals using SeaChat for client support and lead generation.",
+        "metricsTitle": "معیارهای تأثیر املاک و مستغلات",
+        "metricsSubtitle": "نتایج واقعی از متخصصان املاک و مستغلات که از SeaChat برای پشتیبانی مشتری و تولید سرنخ استفاده می‌کنند.",
         "metrics": {
           "leads": {
-            "label": "[FA]More Qualified Leads",
-            "description": "[FA]Through intelligent lead qualification"
+            "label": "سرنخ‌های واجد شرایط بیشتر",
+            "description": "از طریق صلاحیت‌سنجی هوشمند سرنخ"
           },
           "response": {
-            "label": "[FA]Faster Response Time",
-            "description": "[FA]For client inquiries and requests"
+            "label": "زمان پاسخ سریعتر",
+            "description": "برای سوالات و درخواست‌های مشتری"
           },
           "showing": {
-            "label": "[FA]Showing Efficiency",
-            "description": "[FA]With automated scheduling coordination"
+            "label": "کارایی بازدید",
+            "description": "با هماهنگی زمان‌بندی خودکار"
           },
           "satisfaction": {
-            "label": "[FA]Client Satisfaction",
-            "description": "[FA]With 24/7 support availability"
+            "label": "رضایت مشتری",
+            "description": "با در دسترس بودن پشتیبانی ۲۴/۷"
           }
         },
-        "propertyTypesTitle": "[FA]All Property Types Supported",
-        "propertyTypesSubtitle": "[FA]Whether you specialize in residential, commercial, or investment properties, we've got you covered.",
+        "propertyTypesTitle": "پشتیبانی از همه انواع ملک",
+        "propertyTypesSubtitle": "چه در املاک مسکونی، تجاری یا سرمایه‌گذاری تخصص داشته باشید، ما شما را تحت پوشش قرار می‌دهیم.",
         "propertyTypes": {
           "residential": {
-            "name": "[FA]Residential Sales",
-            "description": "[FA]Single-family homes, condos, and townhouses"
+            "name": "فروش مسکونی",
+            "description": "خانه‌های تک‌خانواری، آپارتمان‌ها و خانه‌های شهری"
           },
           "commercial": {
-            "name": "[FA]Commercial Real Estate",
-            "description": "[FA]Office buildings, retail spaces, and warehouses"
+            "name": "املاک و مستغلات تجاری",
+            "description": "ساختمان‌های اداری، فضاهای خرده‌فروشی و انبارها"
           },
           "rental": {
-            "name": "[FA]Rental Properties",
-            "description": "[FA]Apartment complexes and rental management"
+            "name": "املاک اجاره‌ای",
+            "description": "مجتمع‌های آپارتمانی و مدیریت اجاره"
           },
           "luxury": {
-            "name": "[FA]Luxury Properties",
-            "description": "[FA]High-end homes and exclusive listings"
+            "name": "املاک لوکس",
+            "description": "خانه‌های گران‌قیمت و لیست‌های انحصاری"
           },
           "investment": {
-            "name": "[FA]Investment Properties",
-            "description": "[FA]Fix-and-flip and rental investments"
+            "name": "املاک سرمایه‌گذاری",
+            "description": "سرمایه‌گذاری‌های بازسازی و فروش و اجاره"
           },
           "new": {
-            "name": "[FA]New Construction",
-            "description": "[FA]Builder partnerships and new developments"
+            "name": "ساخت و ساز جدید",
+            "description": "مشارکت با سازندگان و پروژه‌های جدید"
           }
         },
-        "useCasesTitle": "[FA]Real Estate Use Cases",
-        "useCasesSubtitle": "See how SeaChat handles typical real estate client interactions and lead generation.",
+        "useCasesTitle": "موارد استفاده املاک و مستغلات",
+        "useCasesSubtitle": "ببینید چگونه SeaChat با تعاملات معمول مشتریان املاک و مستغلات و تولید سرنخ برخورد می‌کند.",
         "useCases": {
           "property": {
-            "title": "[FA]Property Inquiries",
-            "description": "[FA]Handle property questions and provide detailed information",
-            "example": "[FA]Tell me about the 3-bedroom house on Oak Street",
-            "outcome": "[FA]Detailed property information with photos, pricing, and neighborhood data"
+            "title": "سوالات مربوط به ملک",
+            "description": "رسیدگی به سوالات مربوط به ملک و ارائه اطلاعات دقیق",
+            "example": "در مورد خانه ۳ خوابه در خیابان اوک به من بگویید",
+            "outcome": "اطلاعات دقیق ملک با عکس، قیمت و داده‌های محله"
           },
           "showing": {
-            "title": "[FA]Showing Requests",
-            "description": "[FA]Schedule property viewings and coordinate with all parties",
-            "example": "[FA]I'd like to schedule a showing for this weekend",
-            "outcome": "[FA]Automated scheduling with agent availability and confirmation"
+            "title": "درخواست‌های بازدید",
+            "description": "زمان‌بندی بازدید از ملک و هماهنگی با همه طرف‌ها",
+            "example": "من می‌خواهم برای این آخر هفته یک بازدید برنامه‌ریزی کنم",
+            "outcome": "زمان‌بندی خودکار با در دسترس بودن نماینده و تأیید"
           },
           "market": {
-            "title": "[FA]Market Analysis",
-            "description": "[FA]Provide market insights and property valuations",
-            "example": "[FA]What's my home worth in today's market?",
-            "outcome": "[FA]Comparative market analysis with recent sales and trends"
+            "title": "تجزیه و تحلیل بازار",
+            "description": "ارائه بینش‌های بازار و ارزیابی ملک",
+            "example": "ارزش خانه من در بازار امروز چقدر است؟",
+            "outcome": "تجزیه و تحلیل مقایسه‌ای بازار با فروش‌ها و روندهای اخیر"
           },
           "transaction": {
-            "title": "[FA]Transaction Support",
-            "description": "[FA]Guide clients through the buying or selling process",
-            "example": "[FA]What documents do I need for the closing?",
-            "outcome": "[FA]Checklist of required documents with deadlines and instructions"
+            "title": "پشتیبانی معامله",
+            "description": "راهنمایی مشتریان در فرآیند خرید یا فروش",
+            "example": "برای بسته شدن به چه اسنادی نیاز دارم؟",
+            "outcome": "چک لیست اسناد مورد نیاز با مهلت‌ها و دستورالعمل‌ها"
           }
         },
-        "clientInquiry": "[FA]Client Inquiry",
-        "seachatResponse": "SeaChat Response",
-        "integrationsTitle": "[FA]Real Estate Platform Integrations",
-        "integrationsSubtitle": "[FA]Seamlessly connect with the tools and platforms you already use to manage your real estate business.",
-        "leadCaptureTitle": "[FA]Lead Capture Example",
-        "websiteVisitor": "[FA]Website Visitor",
-        "visitorQuery": "[FA]I'm looking for a 3-bedroom house under $500k",
-        "seachatAI": "SeaChat AI",
-        "aiResponse": "[FA]I'd love to help you find the perfect home! I have several 3-bedroom properties under $500k. Can I get your contact information to send you some options?",
-        "visitorResponse": "[FA]Sure! My email is john@email.com",
-        "systemAction": "[FA]System Action",
-        "leadCaptured": "[FA]Lead captured and added to CRM with property preferences",
-        "ctaTitle": "[FA]Ready to Transform Your Real Estate Business?",
-        "ctaSubtitle": "Join real estate professionals already using SeaChat to capture more leads, coordinate showings, and provide exceptional client service.",
-        "ctaTrialButton": "[FA]Start Real Estate For Free",
-        "ctaDemoButton": "[FA]Schedule Real Estate Demo",
+        "clientInquiry": "سوال مشتری",
+        "seachatResponse": "پاسخ SeaChat",
+        "integrationsTitle": "ادغام‌های پلتفرم املاک و مستغلات",
+        "integrationsSubtitle": "برای عملیات یکپارچه موفقیت مشتری، به طور یکپارچه با ابزارها و پلتفرم‌هایی که قبلاً برای مدیریت کسب‌وکار املاک و مستغلات خود استفاده می‌کنید، ارتباط برقرار کنید.",
+        "leadCaptureTitle": "مثال جذب سرنخ",
+        "websiteVisitor": "بازدیدکننده وب‌سایت",
+        "visitorQuery": "من به دنبال یک خانه ۳ خوابه زیر ۵۰۰ هزار دلار هستم",
+        "seachatAI": "هوش مصنوعی SeaChat",
+        "aiResponse": "خوشحال می‌شوم به شما در یافتن خانه ایده‌آل کمک کنم! من چندین ملک ۳ خوابه زیر ۵۰۰ هزار دلار دارم. آیا می‌توانم اطلاعات تماس شما را برای ارسال چند گزینه دریافت کنم؟",
+        "visitorResponse": "حتما! ایمیل من john@email.com است",
+        "systemAction": "اقدام سیستم",
+        "leadCaptured": "سرنخ جذب شد و با ترجیحات ملک به CRM اضافه شد",
+        "ctaTitle": "آماده‌اید تا کسب‌وکار املاک و مستغلات خود را متحول کنید؟",
+        "ctaSubtitle": "به متخصصان املاک و مستغلات بپیوندید که در حال حاضر از SeaChat برای جذب سرنخ‌های بیشتر، هماهنگی بازدیدها و ارائه خدمات استثنایی به مشتریان استفاده می‌کنند.",
+        "ctaTrialButton": "شروع رایگان املاک و مستغلات",
+        "ctaDemoButton": "زمان‌بندی دموی املاک و مستغلات",
         "integrations": {
-          "0": "[FA]MLS Integration",
-          "1": "[FA]CRM Systems",
-          "2": "[FA]Property Management",
-          "3": "[FA]Lead Generation Tools",
-          "4": "[FA]Calendar & Scheduling",
-          "5": "[FA]Email Marketing",
-          "6": "[FA]Document Management",
-          "7": "[FA]Virtual Tour Platforms"
+          "0": "ادغام MLS",
+          "1": "سیستم‌های CRM",
+          "2": "مدیریت ملک",
+          "3": "ابزارهای تولید سرنخ",
+          "4": "تقویم و زمان‌بندی",
+          "5": "بازاریابی ایمیلی",
+          "6": "مدیریت اسناد",
+          "7": "پلتفرم‌های تور مجازی"
         }
       },
       "saas": {
-        "title": "[FA]SaaS & Technology",
-        "subtitle": "[FA]Accelerate user adoption and reduce churn with intelligent customer support that provides technical assistance, onboarding guidance, and proactive success management.",
-        "trialButton": "[FA]Start SaaS For Free",
-        "demoButton": "[FA]Schedule SaaS Demo",
-        "featuresTitle": "[FA]SaaS-Specific Features",
-        "featuresSubtitle": "[FA]Purpose-built features for SaaS companies to drive user success and business growth.",
+        "title": "SaaS و فناوری",
+        "subtitle": "پذیرش کاربر را تسریع کرده و ریزش را با پشتیبانی مشتری هوشمند که کمک فنی، راهنمایی در راه‌اندازی و مدیریت موفقیت فعال ارائه می‌دهد، کاهش دهید.",
+        "trialButton": "شروع رایگان SaaS",
+        "demoButton": "زمان‌بندی دموی SaaS",
+        "featuresTitle": "ویژگی‌های خاص SaaS",
+        "featuresSubtitle": "ویژگی‌های ساخته شده برای شرکت‌های SaaS برای پیشبرد موفقیت کاربر و رشد کسب‌وکار.",
         "features": {
           "technical": {
-            "title": "[FA]Technical Support",
-            "description": "[FA]Provide expert technical assistance for software issues and integrations",
+            "title": "پشتیبانی فنی",
+            "description": "ارائه کمک فنی تخصصی برای مشکلات نرم‌افزار و ادغام‌ها",
             "benefits": {
-              "api": "[FA]API documentation help",
-              "integration": "[FA]Integration support",
-              "troubleshooting": "[FA]Troubleshooting guides",
-              "resources": "[FA]Developer resources"
+              "api": "کمک در مستندات API",
+              "integration": "پشتیبانی ادغام",
+              "troubleshooting": "راهنمای عیب‌یابی",
+              "resources": "منابع توسعه‌دهنده"
             }
           },
           "onboarding": {
-            "title": "[FA]User Onboarding",
-            "description": "[FA]Streamline user onboarding with guided setup and feature introduction",
+            "title": "راه‌اندازی کاربر",
+            "description": "ساده‌سازی راه‌اندازی کاربر با راه‌اندازی هدایت‌شده و معرفی ویژگی",
             "benefits": {
-              "tutorials": "[FA]Interactive tutorials",
-              "walkthroughs": "[FA]Feature walkthroughs",
-              "setup": "[FA]Setup assistance",
-              "practices": "[FA]Best practices"
+              "tutorials": "آموزش‌های تعاملی",
+              "walkthroughs": "راهنمای ویژگی‌ها",
+              "setup": "کمک در راه‌اندازی",
+              "practices": "بهترین شیوه‌ها"
             }
           },
           "success": {
-            "title": "[FA]Customer Success",
-            "description": "[FA]Drive product adoption and reduce churn with proactive support",
+            "title": "موفقیت مشتری",
+            "description": "پیشبرد پذیرش محصول و کاهش ریزش با پشتیبانی فعال",
             "benefits": {
-              "analytics": "[FA]Usage analytics",
-              "adoption": "[FA]Feature adoption",
-              "churn": "[FA]Churn prevention",
-              "upselling": "[FA]Upselling opportunities"
+              "analytics": "تجزیه و تحلیل مصرف",
+              "adoption": "پذیرش ویژگی",
+              "churn": "پیشگیری از ریزش",
+              "upselling": "فرصت‌های فروش بیشتر"
             }
           },
           "security": {
-            "title": "[FA]Security & Compliance",
-            "description": "[FA]Address security concerns and compliance requirements",
+            "title": "امنیت و انطباق",
+            "description": "رسیدگی به نگرانی‌های امنیتی و الزامات انطباق",
             "benefits": {
-              "documentation": "[FA]Security documentation",
-              "compliance": "[FA]Compliance guides",
-              "protection": "[FA]Data protection",
-              "audit": "[FA]Audit support"
+              "documentation": "مستندات امنیتی",
+              "compliance": "راهنمای انطباق",
+              "protection": "حفاظت از داده‌ها",
+              "audit": "پشتیبانی حسابرسی"
             }
           }
         },
         "useCases": {
           "api": {
-            "title": "[FA]API Integration Help",
-            "description": "[FA]Assist developers with API implementation and troubleshooting",
-            "example": "[FA]How do I authenticate with your API?",
-            "outcome": "[FA]Step-by-step authentication guide with code examples and testing tools"
+            "title": "کمک در ادغام API",
+            "description": "کمک به توسعه‌دهندگان در پیاده‌سازی و عیب‌یابی API",
+            "example": "چگونه با API شما احراز هویت کنم؟",
+            "outcome": "راهنمای گام به گام احراز هویت با مثال‌های کد و ابزارهای تست"
           },
           "feature": {
-            "title": "[FA]Feature Guidance",
-            "description": "[FA]Help users discover and implement advanced features",
-            "example": "[FA]How do I set up automated workflows?",
-            "outcome": "[FA]Interactive tutorial with workflow templates and configuration assistance"
+            "title": "راهنمایی ویژگی",
+            "description": "کمک به کاربران در کشف و پیاده‌سازی ویژگی‌های پیشرفته",
+            "example": "چگونه گردش کار خودکار را تنظیم کنم؟",
+            "outcome": "آموزش تعاملی با الگوهای گردش کار و کمک در پیکربندی"
           },
           "billing": {
-            "title": "[FA]Billing & Subscriptions",
-            "description": "[FA]Handle billing inquiries and subscription management",
-            "example": "[FA]I want to upgrade my plan, what are the differences?",
-            "outcome": "[FA]Plan comparison with pricing details and upgrade assistance"
+            "title": "صورتحساب و اشتراک‌ها",
+            "description": "رسیدگی به سوالات صورتحساب و مدیریت اشتراک",
+            "example": "من می‌خواهم طرح خود را ارتقا دهم، تفاوت‌ها چیست؟",
+            "outcome": "مقایسه طرح با جزئیات قیمت‌گذاری و کمک در ارتقا"
           },
           "performance": {
-            "title": "[FA]Performance Optimization",
-            "description": "[FA]Provide guidance on optimizing software performance",
-            "example": "[FA]My dashboard is loading slowly, how can I fix this?",
-            "outcome": "[FA]Performance analysis with optimization recommendations and implementation help"
+            "title": "بهینه‌سازی عملکرد",
+            "description": "ارائه راهنمایی در مورد بهینه‌سازی عملکرد نرم‌افزار",
+            "example": "داشبورد من به کندی بارگیری می‌شود، چگونه می‌توانم آن را برطرف کنم؟",
+            "outcome": "تجزیه و تحلیل عملکرد با توصیه‌های بهینه‌سازی و کمک در پیاده‌سازی"
           }
         },
         "metrics": {
           "tickets": {
-            "label": "[FA]Reduced Support Tickets",
-            "description": "[FA]Through self-service automation"
+            "label": "کاهش تیکت‌های پشتیبانی",
+            "description": "از طریق اتوماسیون سلف سرویس"
           },
           "onboarding": {
-            "label": "[FA]Faster Onboarding",
-            "description": "[FA]With guided setup assistance"
+            "label": "راه‌اندازی سریعتر",
+            "description": "با کمک در راه‌اندازی هدایت‌شده"
           },
           "adoption": {
-            "label": "[FA]Higher Feature Adoption",
-            "description": "[FA]Through proactive feature guidance"
+            "label": "پذیرش بالاتر ویژگی",
+            "description": "از طریق راهنمایی فعال ویژگی"
           },
           "churn": {
-            "label": "[FA]Reduced Churn Rate",
-            "description": "[FA]With proactive customer success"
+            "label": "کاهش نرخ ریزش",
+            "description": "با موفقیت مشتری فعال"
           }
         },
         "types": {
           "b2b": {
-            "title": "[FA]B2B SaaS Platforms",
-            "description": "[FA]Enterprise software and business tools",
+            "title": "پلتفرم‌های SaaS B2B",
+            "description": "نرم‌افزار سازمانی و ابزارهای تجاری",
             "features": {
-              "tenant": "[FA]Multi-tenant support",
-              "security": "[FA]Enterprise security",
-              "api": "[FA]API documentation",
-              "assistance": "[FA]Integration assistance"
+              "tenant": "پشتیبانی چند مستأجری",
+              "security": "امنیت سازمانی",
+              "api": "مستندات API",
+              "assistance": "کمک در ادغام"
             }
           },
           "developer": {
-            "title": "[FA]Developer Tools",
-            "description": "[FA]APIs, SDKs, and development platforms",
+            "title": "ابزارهای توسعه‌دهنده",
+            "description": "APIها، SDKها و پلتفرم‌های توسعه",
             "features": {
-              "examples": "[FA]Code examples",
-              "documentation": "[FA]Technical documentation",
-              "debugging": "[FA]Debugging help",
-              "community": "[FA]Community support"
+              "examples": "مثال‌های کد",
+              "documentation": "مستندات فنی",
+              "debugging": "کمک در عیب‌یابی",
+              "community": "پشتیبانی جامعه"
             }
           },
           "marketing": {
-            "title": "[FA]Marketing Software",
-            "description": "[FA]Marketing automation and analytics tools",
+            "title": "نرم‌افزار بازاریابی",
+            "description": "اتوماسیون بازاریابی و ابزارهای تجزیه و تحلیل",
             "features": {
-              "campaign": "[FA]Campaign setup",
-              "analytics": "[FA]Analytics guidance",
-              "integration": "[FA]Integration help",
-              "practices": "[FA]Best practices"
+              "campaign": "راه‌اندازی کمپین",
+              "analytics": "راهنمایی تجزیه و تحلیل",
+              "integration": "کمک در ادغام",
+              "practices": "بهترین شیوه‌ها"
             }
           },
           "productivity": {
-            "title": "[FA]Productivity Apps",
-            "description": "[FA]Collaboration and productivity software",
+            "title": "برنامه‌های بهره‌وری",
+            "description": "نرم‌افزار همکاری و بهره‌وری",
             "features": {
-              "tutorials": "[FA]Feature tutorials",
-              "workflow": "[FA]Workflow optimization",
-              "team": "[FA]Team setup",
-              "usage": "[FA]Usage analytics"
+              "tutorials": "آموزش‌های ویژگی",
+              "workflow": "بهینه‌سازی گردش کار",
+              "team": "راه‌اندازی تیم",
+              "usage": "تجزیه و تحلیل مصرف"
             }
           },
           "ecommerce": {
-            "title": "[FA]E-commerce Platforms",
-            "description": "[FA]Online store and payment solutions",
+            "title": "پلتفرم‌های تجارت الکترونیک",
+            "description": "فروشگاه آنلاین و راهکارهای پرداخت",
             "features": {
-              "store": "[FA]Store setup",
-              "payment": "[FA]Payment integration",
-              "theme": "[FA]Theme customization",
-              "performance": "[FA]Performance optimization"
+              "store": "راه‌اندازی فروشگاه",
+              "payment": "ادغام پرداخت",
+              "theme": "سفارشی‌سازی قالب",
+              "performance": "بهینه‌سازی عملکرد"
             }
           },
           "analytics": {
-            "title": "[FA]Analytics Platforms",
-            "description": "[FA]Data analytics and business intelligence",
+            "title": "پلتفرم‌های تجزیه و تحلیل",
+            "description": "تجزیه و تحلیل داده‌ها و هوش تجاری",
             "features": {
-              "dashboard": "[FA]Dashboard creation",
-              "data": "[FA]Data integration",
-              "report": "[FA]Report generation",
-              "visualization": "[FA]Visualization help"
+              "dashboard": "ایجاد داشبورد",
+              "data": "ادغام داده‌ها",
+              "report": "تولید گزارش",
+              "visualization": "کمک در بصری‌سازی"
             }
           }
         },
-        "typesTitle": "[FA]All SaaS Categories Supported",
-        "typesSubtitle": "[FA]From enterprise platforms to developer tools, we support every type of SaaS business.",
-        "impactTitle": "[FA]SaaS Business Impact",
-        "impactSubtitle": "Real results from SaaS companies using SeaChat for customer support and success.",
-        "useCasesTitle": "[FA]SaaS Support Use Cases",
-        "useCasesSubtitle": "See how SeaChat handles typical SaaS customer interactions and technical support.",
-        "userQuestion": "[FA]User Question",
-        "seachatResponse": "SeaChat Response",
-        "integrationsTitle": "[FA]SaaS Platform Integrations",
-        "integrationsSubtitle": "[FA]Connect with the tools and platforms that power your SaaS business for unified customer success operations.",
-        "successFlowTitle": "[FA]Customer Success Flow",
+        "typesTitle": "پشتیبانی از همه دسته‌های SaaS",
+        "typesSubtitle": "از پلتفرم‌های سازمانی گرفته تا ابزارهای توسعه‌دهنده، ما از هر نوع کسب‌وکار SaaS پشتیبانی می‌کنیم.",
+        "impactTitle": "تأثیر کسب‌وکار SaaS",
+        "impactSubtitle": "نتایج واقعی از شرکت‌های SaaS که از SeaChat برای پشتیبانی و موفقیت مشتری استفاده می‌کنند.",
+        "useCasesTitle": "موارد استفاده پشتیبانی SaaS",
+        "useCasesSubtitle": "ببینید چگونه SeaChat با تعاملات معمول مشتریان SaaS و پشتیبانی فنی برخورد می‌کند.",
+        "userQuestion": "سوال کاربر",
+        "seachatResponse": "پاسخ SeaChat",
+        "integrationsTitle": "ادغام‌های پلتفرم SaaS",
+        "integrationsSubtitle": "برای عملیات یکپارچه موفقیت مشتری، با ابزارها و پلتفرم‌هایی که کسب‌وکار SaaS شما را قدرت می‌بخشند، ارتباط برقرار کنید.",
+        "successFlowTitle": "جریان موفقیت مشتری",
         "flow": {
           "onboarding": {
-            "title": "[FA]User Onboarding",
-            "description": "[FA]Guided setup and feature introduction"
+            "title": "راه‌اندازی کاربر",
+            "description": "راه‌اندازی هدایت‌شده و معرفی ویژگی"
           },
           "adoption": {
-            "title": "[FA]Feature Adoption",
-            "description": "[FA]Proactive feature recommendations"
+            "title": "پذیرش ویژگی",
+            "description": "توصیه‌های فعال ویژگی"
           },
           "monitoring": {
-            "title": "[FA]Usage Monitoring",
-            "description": "[FA]Track engagement and identify issues"
+            "title": "نظارت بر مصرف",
+            "description": "ردیابی تعامل و شناسایی مشکلات"
           },
           "growth": {
-            "title": "[FA]Success & Growth",
-            "description": "[FA]Upselling and expansion opportunities"
+            "title": "موفقیت و رشد",
+            "description": "فرصت‌های فروش بیشتر و گسترش"
           }
         },
-        "ctaTitle": "[FA]Ready to Accelerate SaaS Growth?",
-        "ctaSubtitle": "Join SaaS companies already using SeaChat to drive user adoption, reduce churn, and accelerate customer success.",
-        "ctaTrialButton": "[FA]Start SaaS For Free",
-        "ctaDemoButton": "[FA]Schedule SaaS Demo",
+        "ctaTitle": "آماده‌اید تا رشد SaaS را تسریع کنید؟",
+        "ctaSubtitle": "به شرکت‌های SaaS بپیوندید که در حال حاضر از SeaChat برای پیشبرد پذیرش کاربر، کاهش ریزش و تسریع موفقیت مشتری استفاده می‌کنند.",
+        "ctaTrialButton": "شروع رایگان SaaS",
+        "ctaDemoButton": "زمان‌بندی دموی SaaS",
         "integrations": {
-          "0": "[FA]Slack Integration",
-          "1": "[FA]Salesforce CRM",
-          "2": "[FA]HubSpot",
-          "3": "[FA]Zendesk",
-          "4": "[FA]Intercom",
-          "5": "[FA]Stripe",
-          "6": "[FA]Google Analytics",
-          "7": "[FA]Microsoft Teams",
-          "8": "[FA]Jira",
-          "9": "[FA]GitHub",
-          "10": "[FA]Atlassian Suite",
-          "11": "[FA]AWS Services"
+          "0": "ادغام Slack",
+          "1": "Salesforce CRM",
+          "2": "HubSpot",
+          "3": "Zendesk",
+          "4": "Intercom",
+          "5": "Stripe",
+          "6": "Google Analytics",
+          "7": "Microsoft Teams",
+          "8": "Jira",
+          "9": "GitHub",
+          "10": "Atlassian Suite",
+          "11": "AWS Services"
         }
       },
       "smallBusiness": {
-        "title": "[FA]Small Business Solutions",
-        "subtitle": "[FA]Affordable, easy-to-use customer support for small businesses. Start free and grow with features that help you serve customers better without breaking the bank.",
-        "startButton": "[FA]Start Free Today",
-        "demoButton": "[FA]View Small Business Demo",
-        "featuresTitle": "[FA]Built for Small Business Success",
-        "featuresSubtitle": "[FA]Everything small businesses need to provide professional customer support without the complexity or cost.",
+        "title": "راهکارهای کسب‌وکار کوچک",
+        "subtitle": "پشتیبانی مشتری مقرون به صرفه و با کاربری آسان برای کسب‌وکارهای کوچک. رایگان شروع کنید و با ویژگی‌هایی که به شما کمک می‌کنند بهتر به مشتریان خدمت کنید بدون اینکه ورشکست شوید، رشد کنید.",
+        "startButton": "امروز رایگان شروع کنید",
+        "demoButton": "مشاهده دموی کسب‌وکار کوچک",
+        "featuresTitle": "ساخته شده برای موفقیت کسب‌وکار کوچک",
+        "featuresSubtitle": "همه چیزهایی که کسب‌وکارهای کوچک برای ارائه پشتیبانی حرفه‌ای مشتری بدون پیچیدگی یا هزینه نیاز دارند.",
         "features": {
           "local": {
-            "title": "[FA]Local Business Support",
-            "description": "[FA]Perfect for local shops, restaurants, and service providers",
+            "title": "پشتیبانی کسب‌وکار محلی",
+            "description": "ایده‌آل برای فروشگاه‌ها، رستوران‌ها و ارائه‌دهندگان خدمات محلی",
             "benefits": {
-              "seo": "[FA]Local SEO optimization",
-              "google": "[FA]Google My Business integration",
-              "reviews": "[FA]Review management",
-              "customer": "[FA]Local customer base"
+              "seo": "بهینه‌سازی سئوی محلی",
+              "google": "ادغام Google My Business",
+              "reviews": "مدیریت نظرات",
+              "customer": "پایگاه مشتریان محلی"
             }
           },
           "cost": {
-            "title": "[FA]Cost-Effective Solution",
-            "description": "[FA]Affordable pricing that grows with your business",
+            "title": "راه حل مقرون به صرفه",
+            "description": "قیمت‌گذاری مقرون به صرفه که با کسب‌وکار شما رشد می‌کند",
             "benefits": {
-              "free": "[FA]Free plan available",
-              "setup": "[FA]No setup fees",
-              "pricing": "[FA]Flexible pricing",
-              "roi": "[FA]ROI tracking"
+              "free": "طرح رایگان موجود است",
+              "setup": "بدون هزینه راه‌اندازی",
+              "pricing": "قیمت‌گذاری انعطاف‌پذیر",
+              "roi": "ردیابی بازگشت سرمایه"
             }
           },
           "setup": {
-            "title": "[FA]Quick Setup",
-            "description": "[FA]Get started in minutes, not hours or days",
+            "title": "راه‌اندازی سریع",
+            "description": "در چند دقیقه شروع کنید، نه چند ساعت یا چند روز",
             "benefits": {
-              "minutes": "[FA]5-minute setup",
-              "templates": "[FA]Pre-built templates",
-              "integration": "[FA]Easy integration",
-              "activation": "[FA]Instant activation"
+              "minutes": "راه‌اندازی ۵ دقیقه‌ای",
+              "templates": "الگوهای از پیش ساخته شده",
+              "integration": "ادغام آسان",
+              "activation": "فعال‌سازی فوری"
             }
           },
           "personal": {
-            "title": "[FA]Personal Touch",
-            "description": "[FA]Maintain personal relationships while scaling efficiently",
+            "title": "لمس شخصی",
+            "description": "حفظ روابط شخصی در حین مقیاس‌بندی کارآمد",
             "benefits": {
-              "history": "[FA]Customer history",
-              "notes": "[FA]Personal notes",
-              "relationship": "[FA]Relationship building",
-              "community": "[FA]Local community focus"
+              "history": "تاریخچه مشتری",
+              "notes": "یادداشت‌های شخصی",
+              "relationship": "ایجاد رابطه",
+              "community": "تمرکز بر جامعه محلی"
             }
           }
         },
-        "typesTitle": "[FA]Perfect for Every Small Business",
-        "typesSubtitle": "[FA]From retail stores to professional services, we support all types of small businesses.",
+        "typesTitle": "ایده‌آل برای هر کسب‌وکار کوچک",
+        "typesSubtitle": "از فروشگاه‌های خرده‌فروشی گرفته تا خدمات حرفه‌ای، ما از همه انواع کسب‌وکارهای کوچک پشتیبانی می‌کنیم.",
         "types": {
           "retail": {
-            "title": "[FA]Retail Stores",
-            "description": "[FA]Clothing, electronics, home goods, and specialty shops",
+            "title": "فروشگاه‌های خرده‌فروشی",
+            "description": "پوشاک، لوازم الکترونیکی، کالاهای خانگی و فروشگاه‌های تخصصی",
             "features": {
-              "product": "[FA]Product inquiries",
-              "hours": "[FA]Store hours",
-              "inventory": "[FA]Inventory checks",
-              "appointment": "[FA]Appointment booking"
+              "product": "سوالات محصول",
+              "hours": "ساعات کاری فروشگاه",
+              "inventory": "بررسی موجودی",
+              "appointment": "رزرو قرار ملاقات"
             }
           },
           "restaurants": {
-            "title": "[FA]Restaurants & Cafes",
-            "description": "[FA]Dining establishments and food service businesses",
+            "title": "رستوران‌ها و کافه‌ها",
+            "description": "موسسات غذاخوری و کسب‌وکارهای خدمات غذایی",
             "features": {
-              "menu": "[FA]Menu questions",
-              "reservations": "[FA]Reservations",
-              "takeout": "[FA]Takeout orders",
-              "dietary": "[FA]Dietary information"
+              "menu": "سوالات منو",
+              "reservations": "رزروها",
+              "takeout": "سفارشات بیرون‌بر",
+              "dietary": "اطلاعات رژیم غذایی"
             }
           },
           "professional": {
-            "title": "[FA]Professional Services",
-            "description": "[FA]Lawyers, accountants, consultants, and agencies",
+            "title": "خدمات حرفه‌ای",
+            "description": "وکلا، حسابداران، مشاوران و آژانس‌ها",
             "features": {
-              "consultation": "[FA]Consultation booking",
-              "service": "[FA]Service information",
-              "documents": "[FA]Document requests",
-              "followup": "[FA]Follow-up scheduling"
+              "consultation": "رزرو مشاوره",
+              "service": "اطلاعات خدمات",
+              "documents": "درخواست‌های اسناد",
+              "followup": "زمان‌بندی پیگیری"
             }
           },
           "health": {
-            "title": "[FA]Health & Wellness",
-            "description": "[FA]Gyms, spas, clinics, and wellness centers",
+            "title": "سلامت و تندرستی",
+            "description": "باشگاه‌های ورزشی، اسپاها، کلینیک‌ها و مراکز تندرستی",
             "features": {
-              "appointment": "[FA]Appointment scheduling",
-              "class": "[FA]Class bookings",
-              "membership": "[FA]Membership info",
-              "consultations": "[FA]Health consultations"
+              "appointment": "زمان‌بندی قرار ملاقات",
+              "class": "رزرو کلاس",
+              "membership": "اطلاعات عضویت",
+              "consultations": "مشاوره‌های بهداشتی"
             }
           },
           "home": {
-            "title": "[FA]Home Services",
-            "description": "[FA]Contractors, cleaners, landscapers, and repair services",
+            "title": "خدمات خانگی",
+            "description": "پیمانکاران، نظافتچیان، باغبانان و خدمات تعمیر",
             "features": {
-              "quotes": "[FA]Service quotes",
-              "scheduling": "[FA]Scheduling",
-              "emergency": "[FA]Emergency requests",
-              "followup": "[FA]Follow-up support"
+              "quotes": "پیش‌فاکتور خدمات",
+              "scheduling": "زمان‌بندی",
+              "emergency": "درخواست‌های اضطراری",
+              "followup": "پشتیبانی پیگیری"
             }
           },
           "creative": {
-            "title": "[FA]Creative Services",
-            "description": "[FA]Photographers, designers, artists, and studios",
+            "title": "خدمات خلاقانه",
+            "description": "عکاسان، طراحان، هنرمندان و استودیوها",
             "features": {
-              "portfolio": "[FA]Portfolio sharing",
-              "quotes": "[FA]Project quotes",
-              "booking": "[FA]Booking sessions",
-              "consultations": "[FA]Creative consultations"
+              "portfolio": "اشتراک‌گذاری نمونه کار",
+              "quotes": "پیش‌فاکتور پروژه",
+              "booking": "رزرو جلسات",
+              "consultations": "مشاوره‌های خلاقانه"
             }
           }
         },
-        "affordableTitle": "[FA]Affordable for Every Budget",
-        "affordableSubtitle": "[FA]Start completely free and only pay for what you need as you grow. No hidden fees, no long-term contracts, no surprises.",
-        "pricingTitle": "[FA]Simple Pricing",
+        "affordableTitle": "مقرون به صرفه برای هر بودجه",
+        "affordableSubtitle": "کاملاً رایگان شروع کنید و فقط برای آنچه نیاز دارید با رشد خود پرداخت کنید. بدون هزینه پنهان، بدون قرارداد بلندمدت، بدون شگفتی.",
+        "pricingTitle": "قیمت‌گذاری ساده",
         "pricing": {
           "free": {
-            "title": "[FA]Free Forever",
-            "period": "[FA]per month",
-            "agent": "[FA]1 Human agent for life",
-            "conversations": "[FA]Unlimited conversations",
-            "widget": "[FA]Basic website widget",
-            "support": "[FA]Email support"
+            "title": "برای همیشه رایگان",
+            "period": "در ماه",
+            "agent": "۱ نماینده انسانی برای همیشه",
+            "conversations": "مکالمات نامحدود",
+            "widget": "ویجت وب‌سایت پایه",
+            "support": "پشتیبانی ایمیل"
           },
           "starter": {
-            "title": "[FA]AI Starter",
-            "period": "[FA]per month",
-            "everything": "[FA]Everything in Free",
-            "ai": "[FA]AI automation",
-            "analytics": "[FA]Advanced analytics",
-            "priority": "[FA]Priority support"
+            "title": "شروع کننده هوش مصنوعی",
+            "period": "در ماه",
+            "everything": "همه چیز در طرح رایگان",
+            "ai": "اتوماسیون هوش مصنوعی",
+            "analytics": "تجزیه و تحلیل پیشرفته",
+            "priority": "پشتیبانی اولویت‌دار"
           }
         },
-        "resultsTitle": "[FA]Small Business Results",
-        "resultsSubtitle": "Real results from small businesses using SeaChat to improve customer service and grow their business.",
+        "resultsTitle": "نتایج کسب‌وکار کوچک",
+        "resultsSubtitle": "نتایج واقعی از کسب‌وکارهای کوچک که از SeaChat برای بهبود خدمات مشتری و رشد کسب‌وکار خود استفاده می‌کنند.",
         "metrics": {
           "inquiries": {
-            "label": "[FA]More Customer Inquiries",
-            "description": "[FA]With 24/7 availability"
+            "label": "سوالات بیشتر مشتری",
+            "description": "با در دسترس بودن ۲۴/۷"
           },
           "bookings": {
-            "label": "[FA]Increased Bookings",
-            "description": "[FA]Through automated scheduling"
+            "label": "افزایش رزروها",
+            "description": "از طریق زمان‌بندی خودکار"
           },
           "time": {
-            "label": "[FA]Time Savings",
-            "description": "[FA]On routine customer questions"
+            "label": "صرفه‌جویی در زمان",
+            "description": "در سوالات روتین مشتری"
           },
           "satisfaction": {
-            "label": "[FA]Customer Satisfaction",
-            "description": "[FA]With instant responses"
+            "label": "رضایت مشتری",
+            "description": "با پاسخ‌های فوری"
           }
         },
-        "scenariosTitle": "[FA]Common Small Business Scenarios",
-        "scenariosSubtitle": "See how SeaChat handles typical small business customer interactions.",
+        "scenariosTitle": "سناریوهای متداول کسب‌وکار کوچک",
+        "scenariosSubtitle": "ببینید چگونه SeaChat با تعاملات معمول مشتریان کسب‌وکار کوچک برخورد می‌کند.",
         "useCases": {
           "inquiries": {
-            "title": "[FA]Customer Inquiries",
-            "description": "[FA]Handle common questions about products, services, and business hours",
-            "example": "[FA]Are you open on Sundays? What time do you close?",
-            "outcome": "[FA]Instant response with current hours and holiday schedule information"
+            "title": "سوالات مشتری",
+            "description": "رسیدگی به سوالات متداول در مورد محصولات، خدمات و ساعات کاری",
+            "example": "آیا یکشنبه‌ها باز هستید؟ ساعت چند می‌بندید؟",
+            "outcome": "پاسخ فوری با ساعات کاری فعلی و اطلاعات برنامه تعطیلات"
           },
           "booking": {
-            "title": "[FA]Appointment Booking",
-            "description": "[FA]Allow customers to book appointments and services directly",
-            "example": "[FA]I need to schedule a haircut for this Friday afternoon",
-            "outcome": "[FA]Real-time availability check with booking confirmation and reminders"
+            "title": "رزرو قرار ملاقات",
+            "description": "به مشتریان اجازه دهید مستقیماً قرار ملاقات و خدمات رزرو کنند",
+            "example": "من باید برای این جمعه بعد از ظهر یک کوتاهی مو رزرو کنم",
+            "outcome": "بررسی در دسترس بودن در زمان واقعی با تأیید رزرو و یادآوری"
           },
           "product": {
-            "title": "[FA]Product Information",
-            "description": "[FA]Provide detailed product information and availability",
-            "example": "[FA]Do you have the iPhone 15 in blue color?",
-            "outcome": "[FA]Product availability check with pricing and reservation options"
+            "title": "اطلاعات محصول",
+            "description": "ارائه اطلاعات دقیق محصول و در دسترس بودن",
+            "example": "آیا آیفون ۱۵ آبی رنگ دارید؟",
+            "outcome": "بررسی در دسترس بودن محصول با گزینه‌های قیمت‌گذاری و رزرو"
           },
           "directions": {
-            "title": "[FA]Local Directions",
-            "description": "[FA]Help customers find your location and get directions",
-            "example": "[FA]How do I get to your store from downtown?",
-            "outcome": "[FA]Interactive map with directions and parking information"
+            "title": "مسیرهای محلی",
+            "description": "به مشتریان در یافتن مکان شما و دریافت مسیرها کمک کنید",
+            "example": "چگونه از مرکز شهر به فروشگاه شما برسم؟",
+            "outcome": "نقشه تعاملی با مسیرها و اطلاعات پارکینگ"
           }
         },
-        "customerQuestion": "[FA]Customer Question",
-        "seachatResponse": "SeaChat Response",
-        "ctaTitle": "[FA]Ready to Grow Your Small Business?",
-        "ctaSubtitle": "Join thousands of small businesses already using SeaChat to provide professional customer support and grow their business without the big business costs.",
-        "ctaStartButton": "[FA]Start Small Business For Free",
-        "ctaDemoButton": "[FA]Schedule Small Business Demo",
+        "customerQuestion": "سوال مشتری",
+        "seachatResponse": "پاسخ SeaChat",
+        "ctaTitle": "آماده‌اید تا کسب‌وکار کوچک خود را رشد دهید؟",
+        "ctaSubtitle": "به هزاران کسب‌وکار کوچک بپیوندید که در حال حاضر از SeaChat برای ارائه پشتیبانی حرفه‌ای مشتری و رشد کسب‌وکار خود بدون هزینه‌های بزرگ تجاری استفاده می‌کنند.",
+        "ctaStartButton": "شروع رایگان کسب‌وکار کوچک",
+        "ctaDemoButton": "زمان‌بندی دموی کسب‌وکار کوچک",
         "affordableFeatures": [
-          "[FA]Start completely free forever",
-          "[FA]No setup or onboarding fees",
-          "[FA]Pay only for features you use",
-          "[FA]Cancel anytime, no contracts",
-          "[FA]Scale pricing with your growth",
-          "[FA]Free migration assistance",
-          "[FA]24/7 email support included",
-          "[FA]30-day money-back guarantee"
+          "برای همیشه کاملاً رایگان شروع کنید",
+          "بدون هزینه راه‌اندازی یا پذیرش",
+          "فقط برای ویژگی‌هایی که استفاده می‌کنید پرداخت کنید",
+          "لغو در هر زمان، بدون قرارداد",
+          "قیمت‌گذاری مقیاس‌پذیر با رشد شما",
+          "کمک رایگان در مهاجرت",
+          "پشتیبانی ایمیل ۲۴/۷ شامل می‌شود",
+          "ضمانت بازگشت پول ۳۰ روزه"
         ]
       },
       "travel": {
-        "bookingFlowTitle": "[FA]Travel Booking Flow",
-        "ctaDemoButton": "[FA]Schedule Travel Demo",
-        "ctaSubtitle": "Join travel companies already using SeaChat to provide exceptional customer service and streamline booking processes worldwide.",
-        "ctaTitle": "[FA]Ready to Transform Travel Experiences?",
-        "ctaTrialButton": "[FA]Start Travel For Free",
-        "demoButton": "[FA]Schedule Travel Demo",
+        "bookingFlowTitle": "جریان رزرو سفر",
+        "ctaDemoButton": "زمان‌بندی دموی سفر",
+        "ctaSubtitle": "به شرکت‌های مسافرتی بپیوندید که در حال حاضر از SeaChat برای ارائه خدمات استثنایی به مشتریان و ساده‌سازی فرآیندهای رزرو در سراسر جهان استفاده می‌کنند.",
+        "ctaTitle": "آماده‌اید تا تجربیات سفر را متحول کنید؟",
+        "ctaTrialButton": "شروع رایگان سفر",
+        "demoButton": "زمان‌بندی دموی سفر",
         "features": {
           "booking": {
             "benefits": {
-              "availability": "[FA]Real-time availability",
-              "cancellation": "[FA]Cancellation support",
-              "comparisons": "[FA]Price comparisons",
-              "modifications": "[FA]Booking modifications"
+              "availability": "در دسترس بودن در زمان واقعی",
+              "cancellation": "پشتیبانی لغو",
+              "comparisons": "مقایسه قیمت",
+              "modifications": "تغییرات رزرو"
             },
-            "description": "[FA]Help customers with flight, hotel, and activity bookings with real-time availability",
-            "title": "[FA]Booking Assistance"
+            "description": "به مشتریان در رزرو پرواز، هتل و فعالیت با در دسترس بودن در زمان واقعی کمک کنید",
+            "title": "کمک در رزرو"
           },
           "management": {
             "benefits": {
-              "documents": "[FA]Document management",
-              "loyalty": "[FA]Loyalty programs",
-              "reminders": "[FA]Reminder notifications",
-              "tracking": "[FA]Trip tracking"
+              "documents": "مدیریت اسناد",
+              "loyalty": "برنامه‌های وفاداری",
+              "reminders": "اعلان‌های یادآوری",
+              "tracking": "ردیابی سفر"
             },
-            "description": "[FA]Comprehensive trip management from booking to post-travel follow-up",
-            "title": "[FA]Trip Management"
+            "description": "مدیریت جامع سفر از رزرو تا پیگیری پس از سفر",
+            "title": "مدیریت سفر"
           },
           "planning": {
             "benefits": {
-              "insights": "[FA]Destination insights",
-              "itinerary": "[FA]Itinerary creation",
-              "recommendations": "[FA]Local recommendations",
-              "weather": "[FA]Weather updates"
+              "insights": "بینش‌های مقصد",
+              "itinerary": "ایجاد برنامه سفر",
+              "recommendations": "توصیه‌های محلی",
+              "weather": "به‌روزرسانی‌های آب و هوا"
             },
-            "description": "[FA]Provide personalized travel recommendations and itinerary planning",
-            "title": "[FA]Travel Planning"
+            "description": "ارائه توصیه‌های سفر شخصی‌سازی شده و برنامه‌ریزی سفر",
+            "title": "برنامه‌ریزی سفر"
           },
           "support": {
             "benefits": {
-              "emergency": "[FA]Emergency assistance",
-              "multilanguage": "[FA]Multi-language help",
-              "timezone": "[FA]Global time zone support",
-              "updates": "[FA]Real-time updates"
+              "emergency": "کمک اضطراری",
+              "multilanguage": "کمک چند زبانه",
+              "timezone": "پشتیبانی از منطقه زمانی جهانی",
+              "updates": "به‌روزرسانی‌های در زمان واقعی"
             },
-            "description": "[FA]Round-the-clock assistance for travelers across different time zones",
-            "title": "[FA]24/7 Travel Support"
+            "description": "کمک شبانه‌روزی برای مسافران در مناطق زمانی مختلف",
+            "title": "پشتیبانی سفر ۲۴/۷"
           }
         },
-        "featuresSubtitle": "[FA]Purpose-built features for travel and hospitality businesses to enhance customer experiences.",
-        "featuresTitle": "[FA]Travel Industry Features",
+        "featuresSubtitle": "ویژگی‌های ساخته شده برای کسب‌وکارهای مسافرتی و مهمان‌نوازی برای افزایش تجربیات مشتری.",
+        "featuresTitle": "ویژگی‌های صنعت سفر",
         "flow": {
           "assistance": {
-            "description": "[FA]Guided booking with payment processing",
-            "title": "[FA]Booking Assistance"
+            "description": "رزرو هدایت‌شده با پردازش پرداخت",
+            "title": "کمک در رزرو"
           },
           "confirmation": {
-            "description": "[FA]Booking confirmation with ongoing support",
-            "title": "[FA]Confirmation & Support"
+            "description": "تأیید رزرو با پشتیبانی مداوم",
+            "title": "تأیید و پشتیبانی"
           },
           "inquiry": {
-            "description": "[FA]Customer asks about travel options",
-            "title": "[FA]Travel Inquiry"
+            "description": "مشتری در مورد گزینه‌های سفر سوال می‌کند",
+            "title": "سوال سفر"
           },
           "search": {
-            "description": "[FA]AI searches across multiple systems",
-            "title": "[FA]Real-time Search"
+            "description": "هوش مصنوعی در چندین سیستم جستجو می‌کند",
+            "title": "جستجوی در زمان واقعی"
           }
         },
-        "impactSubtitle": "Real results from travel companies using SeaChat for customer support and booking assistance.",
-        "impactTitle": "[FA]Travel Industry Impact",
-        "integrationsSubtitle": "[FA]Seamlessly connect with travel booking systems, GDS platforms, and hospitality management tools for unified operations.",
-        "integrationsTitle": "[FA]Travel Industry Integrations",
+        "impactSubtitle": "نتایج واقعی از شرکت‌های مسافرتی که از SeaChat برای پشتیبانی مشتری و کمک در رزرو استفاده می‌کنند.",
+        "impactTitle": "تأثیر صنعت سفر",
+        "integrationsSubtitle": "برای عملیات یکپارچه، به طور یکپارچه با سیستم‌های رزرو سفر، پلتفرم‌های GDS و ابزارهای مدیریت مهمان‌نوازی ارتباط برقرار کنید.",
+        "integrationsTitle": "ادغام‌های صنعت سفر",
         "metrics": {
           "booking": {
-            "description": "[FA]With AI-assisted search and booking",
-            "label": "[FA]Faster Booking Process",
-            "value": "[FA]60%"
+            "description": "با جستجو و رزرو با کمک هوش مصنوعی",
+            "label": "فرآیند رزرو سریعتر",
+            "value": "۶۰٪"
           },
           "call": {
-            "description": "[FA]Through automated travel assistance",
-            "label": "[FA]Reduced Call Volume",
-            "value": "[FA]40%"
+            "description": "از طریق کمک سفر خودکار",
+            "label": "کاهش حجم تماس",
+            "value": "۴۰٪"
           },
           "resolution": {
-            "description": "[FA]For travel-related inquiries",
-            "label": "[FA]Issue Resolution Rate",
-            "value": "[FA]95%"
+            "description": "برای سوالات مربوط به سفر",
+            "label": "نرخ حل مشکل",
+            "value": "۹۵٪"
           },
           "satisfaction": {
-            "description": "[FA]With 24/7 travel support availability",
-            "label": "[FA]Customer Satisfaction",
-            "value": "[FA]85%"
+            "description": "با در دسترس بودن پشتیبانی سفر ۲۴/۷",
+            "label": "رضایت مشتری",
+            "value": "۸۵٪"
           }
         },
-        "seachatResponse": "SeaChat Response",
+        "seachatResponse": "پاسخ SeaChat",
         "services": {
           "agencies": {
-            "description": "[FA]Comprehensive travel planning and booking services",
+            "description": "خدمات جامع برنامه‌ریزی و رزرو سفر",
             "features": {
-              "deals": "[FA]Package deals",
-              "groups": "[FA]Group bookings",
-              "insurance": "[FA]Travel insurance",
-              "itineraries": "[FA]Custom itineraries"
+              "deals": "بسته‌های پیشنهادی",
+              "groups": "رزروهای گروهی",
+              "insurance": "بیمه مسافرتی",
+              "itineraries": "برنامه‌های سفر سفارشی"
             },
-            "title": "[FA]Travel Agencies"
+            "title": "آژانس‌های مسافرتی"
           },
           "airlines": {
-            "description": "[FA]Flight bookings, check-ins, and travel updates",
+            "description": "رزرو پرواز، پذیرش و به‌روزرسانی‌های سفر",
             "features": {
-              "baggage": "[FA]Baggage tracking",
-              "loyalty": "[FA]Loyalty programs",
-              "seat": "[FA]Seat selection",
-              "status": "[FA]Flight status"
+              "baggage": "ردیابی چمدان",
+              "loyalty": "برنامه‌های وفاداری",
+              "seat": "انتخاب صندلی",
+              "status": "وضعیت پرواز"
             },
-            "title": "[FA]Airlines"
+            "title": "شرکت‌های هواپیمایی"
           },
           "car": {
-            "description": "[FA]Vehicle rental assistance and support",
+            "description": "کمک و پشتیبانی اجاره خودرو",
             "features": {
-              "availability": "[FA]Car availability",
-              "insurance": "[FA]Insurance options",
-              "locations": "[FA]Pickup locations",
-              "roadside": "[FA]Roadside assistance"
+              "availability": "در دسترس بودن خودرو",
+              "insurance": "گزینه‌های بیمه",
+              "locations": "مکان‌های تحویل",
+              "roadside": "کمک‌های جاده‌ای"
             },
-            "title": "[FA]Car Rentals"
+            "title": "اجاره خودرو"
           },
           "cruise": {
-            "description": "[FA]Cruise booking and onboard services",
+            "description": "رزرو کشتی کروز و خدمات روی کشتی",
             "features": {
-              "cabin": "[FA]Cabin selection",
-              "dining": "[FA]Dining reservations",
-              "entertainment": "[FA]Entertainment booking",
-              "shore": "[FA]Shore excursions"
+              "cabin": "انتخاب کابین",
+              "dining": "رزرو غذاخوری",
+              "entertainment": "رزرو سرگرمی",
+              "shore": "گشت‌های ساحلی"
             },
-            "title": "[FA]Cruise Lines"
+            "title": "خطوط کشتی کروز"
           },
           "hotels": {
-            "description": "[FA]Hotel reservations and guest services",
+            "description": "رزرو هتل و خدمات مهمان",
             "features": {
-              "amenity": "[FA]Amenity information",
-              "booking": "[FA]Room booking",
-              "loyalty": "[FA]Loyalty rewards",
-              "requests": "[FA]Special requests"
+              "amenity": "اطلاعات امکانات رفاهی",
+              "booking": "رزرو اتاق",
+              "loyalty": "پاداش‌های وفاداری",
+              "requests": "درخواست‌های ویژه"
             },
-            "title": "[FA]Hotels & Accommodation"
+            "title": "هتل‌ها و اقامتگاه‌ها"
           },
           "tour": {
-            "description": "[FA]Guided tours and activity bookings",
+            "description": "تورهای با راهنما و رزرو فعالیت‌ها",
             "features": {
-              "availability": "[FA]Tour availability",
-              "equipment": "[FA]Equipment rental",
-              "guides": "[FA]Local guides",
-              "sizes": "[FA]Group sizes"
+              "availability": "در دسترس بودن تور",
+              "equipment": "اجاره تجهیزات",
+              "guides": "راهنمایان محلی",
+              "sizes": "اندازه گروه‌ها"
             },
-            "title": "[FA]Tour Operators"
+            "title": "اپراتورهای تور"
           }
         },
-        "servicesSubtitle": "[FA]From airlines to hotels, car rentals to cruise lines - we support every aspect of travel.",
-        "servicesTitle": "[FA]All Travel Services Covered",
-        "subtitle": "[FA]Transform travel experiences with AI-powered customer support that handles bookings, provides 24/7 assistance, and creates memorable journeys for your customers.",
-        "title": "[FA]Travel & Hospitality",
-        "travelerRequest": "[FA]Traveler Request",
-        "trialButton": "[FA]Start Travel For Free",
+        "servicesSubtitle": "از شرکت‌های هواپیمایی گرفته تا هتل‌ها، اجاره خودرو تا خطوط کشتی کروز - ما از هر جنبه‌ای از سفر پشتیبانی می‌کنیم.",
+        "servicesTitle": "پوشش همه خدمات سفر",
+        "subtitle": "تجربیات سفر را با پشتیبانی مشتری با هوش مصنوعی متحول کنید که رزروها را انجام می‌دهد، کمک ۲۴/۷ ارائه می‌دهد و سفرهای به یاد ماندنی برای مشتریان شما ایجاد می‌کند.",
+        "title": "سفر و مهمان‌نوازی",
+        "travelerRequest": "درخواست مسافر",
+        "trialButton": "شروع رایگان سفر",
         "useCases": {
           "destination": {
-            "description": "[FA]Provide travel advice, local insights, and destination recommendations",
-            "example": "[FA]What are the best restaurants in Paris?",
-            "outcome": "[FA]Curated restaurant recommendations with reservations and local insights",
-            "title": "[FA]Destination Information"
+            "description": "ارائه مشاوره سفر، بینش‌های محلی و توصیه‌های مقصد",
+            "example": "بهترین رستوران‌های پاریس کدامند؟",
+            "outcome": "توصیه‌های رستوران انتخاب شده با رزرو و بینش‌های محلی",
+            "title": "اطلاعات مقصد"
           },
           "disruptions": {
-            "description": "[FA]Handle flight delays, cancellations, and rebooking assistance",
-            "example": "[FA]My flight was cancelled, what are my options?",
-            "outcome": "[FA]Immediate rebooking assistance with alternative flights and compensation information",
-            "title": "[FA]Travel Disruptions"
+            "description": "رسیدگی به تاخیر پرواز، لغو و کمک در رزرو مجدد",
+            "example": "پرواز من لغو شد، گزینه‌های من چیست؟",
+            "outcome": "کمک فوری در رزرو مجدد با پروازهای جایگزین و اطلاعات جبران خسارت",
+            "title": "اختلالات سفر"
           },
           "documentation": {
-            "description": "[FA]Help with visa requirements, passport info, and travel documents",
-            "example": "[FA]Do I need a visa to travel to Japan?",
-            "outcome": "[FA]Comprehensive visa requirements with application process and timeline",
-            "title": "[FA]Travel Documentation"
+            "description": "کمک با الزامات ویزا، اطلاعات گذرنامه و اسناد سفر",
+            "example": "آیا برای سفر به ژاپن به ویزا نیاز دارم؟",
+            "outcome": "الزامات جامع ویزا با فرآیند درخواست و جدول زمانی",
+            "title": "اسناد سفر"
           },
           "flight": {
-            "description": "[FA]Assist with flight reservations, changes, and cancellations",
-            "example": "[FA]I need to change my flight from Tuesday to Thursday",
-            "outcome": "[FA]Real-time flight availability check with rebooking options and fee information",
-            "title": "[FA]Flight Booking & Changes"
+            "description": "کمک در رزرو، تغییر و لغو پرواز",
+            "example": "من باید پروازم را از سه‌شنبه به پنجشنبه تغییر دهم",
+            "outcome": "بررسی در دسترس بودن پرواز در زمان واقعی با گزینه‌های رزرو مجدد و اطلاعات هزینه",
+            "title": "رزرو و تغییرات پرواز"
           }
         },
-        "useCasesSubtitle": "See how SeaChat handles typical travel inquiries and booking assistance.",
-        "useCasesTitle": "[FA]Travel Support Use Cases",
+        "useCasesSubtitle": "ببینید چگونه SeaChat با سوالات معمول سفر و کمک در رزرو برخورد می‌کند.",
+        "useCasesTitle": "موارد استفاده پشتیبانی سفر",
         "integrations": {
-          "0": "[FA]GDS Systems (Amadeus, Sabre, Galileo)",
-          "1": "[FA]Airline booking systems",
-          "2": "[FA]Hotel reservation systems",
-          "3": "[FA]Car rental platforms",
-          "4": "[FA]Travel insurance providers",
-          "5": "[FA]Payment processing systems"
+          "0": "سیستم‌های GDS (Amadeus، Sabre، Galileo)",
+          "1": "سیستم‌های رزرو هواپیمایی",
+          "2": "سیستم‌های رزرو هتل",
+          "3": "پلتفرم‌های اجاره خودرو",
+          "4": "ارائه‌دهندگان بیمه مسافرتی",
+          "5": "سیستم‌های پردازش پرداخت"
         }
       }
     },
     "channels": {
-      "title": "[FA]Connect Every Customer Channel",
-      "description": "[FA]Unify all your customer communications in one platform. From WhatsApp to phone calls, SMS to social media - manage every conversation from a single dashboard.",
+      "title": "هر کانال مشتری را متصل کنید",
+      "description": "تمام ارتباطات مشتریان خود را در یک پلتفرم یکپارچه کنید. از واتس‌اپ گرفته تا تماس‌های تلفنی، پیامک تا رسانه‌های اجتماعی - هر مکالمه را از یک داشبورد واحد مدیریت کنید.",
       "whatsapp": {
-        "title": "[FA]WhatsApp Business",
-        "description": "[FA]Connect with customers on the world's most popular messaging platform"
+        "title": "کسب‌وکار واتس‌اپ",
+        "description": "با مشتریان در محبوب‌ترین پلتفرم پیام‌رسانی جهان ارتباط برقرار کنید"
       },
       "voice": {
-        "title": "[FA]Voice & Phone Calls",
-        "description": "[FA]Professional phone system with AI voicebot and human agent support"
+        "title": "صدا و تماس‌های تلفنی",
+        "description": "سیستم تلفن حرفه‌ای با ربات صوتی هوش مصنوعی و پشتیبانی نماینده انسانی"
       },
       "sms": {
-        "title": "[FA]SMS Messaging",
-        "description": "[FA]Reach customers instantly with personalized SMS campaigns"
+        "title": "پیام‌رسانی پیامکی",
+        "description": "با کمپین‌های پیامکی شخصی‌سازی شده فوراً به مشتریان دسترسی پیدا کنید"
       },
       "website": {
-        "title": "[FA]Website Chat Widget",
-        "description": "[FA]Turn website visitors into conversations with AI-powered chat"
+        "title": "ویجت چت وب‌سایت",
+        "description": "بازدیدکنندگان وب‌سایت را با چت مجهز به هوش مصنوعی به مکالمه تبدیل کنید"
       },
       "cta": {
-        "exploreAll": "[FA]Explore All Channels",
-        "subtitle": "[FA]See how all 9 channels work together seamlessly"
+        "exploreAll": "کاوش در همه کانال‌ها",
+        "subtitle": "ببینید چگونه همه ۹ کانال به طور یکپارچه با هم کار می‌کنند"
       }
     },
     "comparison": {
-      "title": "Why Growing Businesses Choose Seasalt.ai Over the Alternatives",
-      "description": "[FA]See how we compare to other solutions. We're the only platform that delivers enterprise features with small business simplicity.",
-      "recommended": "[FA]Recommended",
+      "title": "چرا کسب‌وکارهای در حال رشد Seasalt.ai را به جای گزینه‌های دیگر انتخاب می‌کنند",
+      "description": "ببینید چگونه با سایر راهکارها مقایسه می‌شویم. ما تنها پلتفرمی هستیم که ویژگی‌های سازمانی را با سادگی مورد نیاز کسب‌وکارهای کوچک ارائه می‌دهیم.",
+      "recommended": "توصیه شده",
       "table": {
         "headers": {
-          "platform": "[FA]Platform",
-          "startingPrice": "[FA]Starting Price",
-          "pricingModel": "[FA]Pricing Model",
-          "unifiedVoiceDigital": "[FA]Unified Voice & Digital",
-          "aiCapabilities": "[FA]AI Capabilities",
-          "bestFor": "[FA]Best For"
+          "platform": "پلتفرم",
+          "startingPrice": "قیمت شروع",
+          "pricingModel": "مدل قیمت‌گذاری",
+          "unifiedVoiceDigital": "صدای یکپارچه و دیجیتال",
+          "aiCapabilities": "قابلیت‌های هوش مصنوعی",
+          "bestFor": "بهترین برای"
         }
       },
       "competitors": {
         "seasalt": {
-          "startingPrice": "[FA]$20/agent/mo",
-          "pricingModel": "[FA]Simple Per-User",
-          "unifiedVoiceDigital": "[FA]✅ Yes, Native",
-          "aiCapabilities": "[FA]✅ Yes, Native Voice & Chatbots",
-          "bestFor": "[FA]SMEs needing an affordable, truly all-in-one platform."
+          "startingPrice": "۲۰ دلار/نماینده/ماه",
+          "pricingModel": "قیمت‌گذاری ساده برای هر کاربر",
+          "unifiedVoiceDigital": "✅ بله، بومی",
+          "aiCapabilities": "✅ بله، صدای بومی و ربات‌های چت",
+          "bestFor": "کسب‌وکارهای کوچک و متوسط که به یک پلتفرم واقعاً همه‌کاره و مقرون به صرفه نیاز دارند."
         },
         "aircall": {
-          "startingPrice": "[FA]$30/user/mo",
-          "pricingModel": "[FA]Per-User + Add-ons",
-          "unifiedVoiceDigital": "[FA]⚠️ Voice + WhatsApp (Add-on)",
-          "aiCapabilities": "[FA]⚠️ AI is a paid add-on",
-          "bestFor": "[FA]Sales teams that can afford multiple add-ons and meet the 3-user minimum."
+          "startingPrice": "۳۰ دلار/کاربر/ماه",
+          "pricingModel": "برای هر کاربر + افزونه‌ها",
+          "unifiedVoiceDigital": "⚠️ صدا + واتس‌اپ (افزونه)",
+          "aiCapabilities": "⚠️ هوش مصنوعی یک افزونه پولی است",
+          "bestFor": "تیم‌های فروشی که می‌توانند چندین افزونه را بپردازند و حداقل ۳ کاربر را برآورده کنند."
         },
         "ringcentral": {
-          "startingPrice": "[FA]$65/agent/mo",
-          "pricingModel": "[FA]Complex Tiers",
-          "unifiedVoiceDigital": "[FA]❌ Separate Products",
-          "aiCapabilities": "[FA]✅ Yes (AI-powered CCaaS)",
-          "bestFor": "[FA]Large companies needing a broad UCaaS platform with a separate CCaaS."
+          "startingPrice": "۶۵ دلار/نماینده/ماه",
+          "pricingModel": "طبقه‌بندی پیچیده",
+          "unifiedVoiceDigital": "❌ محصولات جداگانه",
+          "aiCapabilities": "✅ بله (CCaaS مجهز به هوش مصنوعی)",
+          "bestFor": "شرکت‌های بزرگی که به یک پلتفرم UCaaS گسترده با CCaaS جداگانه نیاز دارند."
         },
         "genesys": {
-          "startingPrice": "[FA]$75/user/mo",
-          "pricingModel": "[FA]Per-User + High Minimums",
-          "unifiedVoiceDigital": "[FA]✅ Yes (in higher tiers)",
-          "aiCapabilities": "[FA]✅ Yes (Complex token system)",
-          "bestFor": "[FA]Large enterprises with dedicated contact center teams and budgets."
+          "startingPrice": "۷۵ دلار/کاربر/ماه",
+          "pricingModel": "برای هر کاربر + حداقل‌های بالا",
+          "unifiedVoiceDigital": "✅ بله (در طرح‌های بالاتر)",
+          "aiCapabilities": "✅ بله (سیستم توکن پیچیده)",
+          "bestFor": "شرکت‌های بزرگی با تیم‌ها و بودجه‌های مرکز تماس اختصاصی."
         },
         "five9": {
-          "startingPrice": "[FA]$119/user/mo",
-          "pricingModel": "[FA]Per-User + Bundles",
-          "unifiedVoiceDigital": "[FA]✅ Yes (in premium tiers)",
-          "aiCapabilities": "[FA]✅ Yes (Advanced AI)",
-          "bestFor": "[FA]Large, outbound-heavy contact centers needing enterprise-grade tools."
+          "startingPrice": "۱۱۹ دلار/کاربر/ماه",
+          "pricingModel": "برای هر کاربر + بسته‌ها",
+          "unifiedVoiceDigital": "✅ بله (در طرح‌های پریمیوم)",
+          "aiCapabilities": "✅ بله (هوش مصنوعی پیشرفته)",
+          "bestFor": "مراکز تماس بزرگ متمرکز بر خروجی که به ابزارهای سطح سازمانی نیاز دارند."
         },
         "googleVoice": {
-          "startingPrice": "[FA]$10/user/mo",
-          "pricingModel": "[FA]Per-User + Workspace Fee",
-          "unifiedVoiceDigital": "[FA]❌ No",
-          "aiCapabilities": "[FA]❌ No (Voicemail transcription only)",
-          "bestFor": "[FA]Solopreneurs (US-only) needing a basic, separate phone number."
+          "startingPrice": "۱۰ دلار/کاربر/ماه",
+          "pricingModel": "برای هر کاربر + هزینه Workspace",
+          "unifiedVoiceDigital": "❌ خیر",
+          "aiCapabilities": "❌ خیر (فقط رونویسی صندوق صوتی)",
+          "bestFor": "کارآفرینان انفرادی (فقط ایالات متحده) که به یک شماره تلفن پایه و جداگانه نیاز دارند."
         }
       },
       "cta": {
-        "seeAllComparisons": "[FA]See All Detailed Comparisons"
+        "seeAllComparisons": "مشاهده همه مقایسه‌های دقیق"
       }
     },
     "footer": {
-      "product": "[FA]Product",
+      "product": "محصول",
       "company": {
-        "productWiki": "[FA]Product Wiki",
-        "apiReferences": "[FA]API References",
-        "careers": "[FA]Careers",
-        "title": "[FA]Company",
-        "about": "[FA]About"
+        "productWiki": "ویکی محصول",
+        "apiReferences": "مرجع‌های API",
+        "careers": "فرصت‌های شغلی",
+        "title": "شرکت",
+        "about": "درباره"
       },
-      "resources": "[FA]Resources",
+      "resources": "منابع",
       "legal": {
-        "privacyPolicy": "[FA]Privacy Policy",
-        "termsOfService": "[FA]Terms of Service"
+        "privacyPolicy": "سیاست حفظ حریم خصوصی",
+        "termsOfService": "شرایط خدمات"
       },
-      "getStarted": "[FA]Ready to Get Started?",
-      "joinThousands": "Join thousands of businesses already using SeaChat to deliver exceptional customer experiences.",
-      "enterEmail": "[FA]Enter your email",
-      "noCredit": "[FA]No credit card required • Setup in 2 minutes • Cancel anytime",
-      "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
-      "compliance": "[FA]🔒 SOC 2 Compliant",
-      "gdpr": "[FA]🛡️ GDPR Ready",
-      "uptime": "[FA]⚡ 99.9% Uptime",
+      "getStarted": "آماده‌اید تا شروع کنید؟",
+      "joinThousands": "به هزاران کسب‌وکاری بپیوندید که در حال حاضر از SeaChat برای ارائه تجربیات استثنایی مشتری استفاده می‌کنند.",
+      "enterEmail": "ایمیل خود را وارد کنید",
+      "noCredit": "نیازی به کارت اعتباری نیست • راه‌اندازی در ۲ دقیقه • لغو در هر زمان",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. کلیه حقوق محفوظ است.",
+      "compliance": "🔒 سازگار با SOC 2",
+      "gdpr": "🛡️ آماده GDPR",
+      "uptime": "⚡ آپتایم ۹۹.۹٪",
       "brand": {
-        "description": "[FA]Transform your customer support with the perfect blend of human agents and AI automation. Start free, scale smart, succeed faster."
+        "description": "پشتیبانی مشتری خود را با ترکیب کاملی از نمایندگان انسانی و اتوماسیون هوش مصنوعی متحول کنید. رایگان شروع کنید، هوشمندانه مقیاس‌بندی کنید، سریعتر موفق شوید."
       },
       "contact": {
-        "email": "[FA]info@seasalt.ai",
-        "phone": "[FA]+1 (SMB)-AI-AGENT",
-        "location": "[FA]Seattle, WA"
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "سیاتل، واشنگتن"
       },
       "stats": {
-        "messagesDaily": "[FA]5M+ Messages Daily",
-        "activeUsers": "[FA]100K+ Active Users",
-        "uptime": "[FA]99.9% Uptime"
+        "messagesDaily": "بیش از ۵ میلیون پیام روزانه",
+        "activeUsers": "بیش از ۱۰۰ هزار کاربر فعال",
+        "uptime": "آپتایم ۹۹.۹٪"
       },
       "cta": {
-        "title": "[FA]Ready to Transform Your Customer Support?",
-        "description": "Join thousands of businesses using SeaChat to deliver exceptional customer experiences with AI-powered chat support.",
-        "signUpFree": "[FA]Sign Up Free",
-        "scheduleDemo": "[FA]Schedule Demo",
-        "disclaimer": "[FA]No credit card required • Setup in 2 minutes • Cancel anytime"
+        "title": "آماده‌اید تا پشتیبانی مشتری خود را متحول کنید؟",
+        "description": "به هزاران کسب‌وکاری بپیوندید که از SeaChat برای ارائه تجربیات استثنایی مشتری با پشتیبانی چت مجهز به هوش مصنوعی استفاده می‌کنند.",
+        "signUpFree": "ثبت نام رایگان",
+        "scheduleDemo": "زمان‌بندی دمو",
+        "disclaimer": "نیازی به کارت اعتباری نیست • راه‌اندازی در ۲ دقیقه • لغو در هر زمان"
       }
     },
     "featureComparison": {
-      "title": "Why Choose SeaChat Over the Competition?",
-      "subtitle": "See how SeaChat replaces multiple tools with one comprehensive platform. Save money while getting more features.",
-      "valueTitle": "[FA]The Value You Get:",
-      "totalValue": "[FA]$331 or more/month",
-      "competitorTotal": "[FA]Total value from competitors",
-      "priceTitle": "[FA]The Price You Pay:",
-      "seachatPrice": "[FA]$29.99 /month",
-      "seachatAll": "[FA]All features included",
-      "seeDetailedPricing": "[FA]See Detailed Pricing",
-      "ctaTitle": "Ready to Experience the SeaChat Advantage?",
-      "ctaSubtitle": "[FA]Join thousands of businesses that chose the smarter, more affordable solution.",
-      "startFree": "[FA]Start Free Now",
-      "bookDemo": "[FA]Book a Demo",
+      "title": "چرا SeaChat را به جای رقبا انتخاب کنید؟",
+      "subtitle": "ببینید چگونه SeaChat چندین ابزار را با یک پلتفرم جامع جایگزین می‌کند. در حین دریافت ویژگی‌های بیشتر، در هزینه صرفه‌جویی کنید.",
+      "valueTitle": "ارزشی که دریافت می‌کنید:",
+      "totalValue": "۳۳۱ دلار یا بیشتر در ماه",
+      "competitorTotal": "ارزش کل از رقبا",
+      "priceTitle": "قیمتی که پرداخت می‌کنید:",
+      "seachatPrice": "۲۹.۹۹ دلار در ماه",
+      "seachatAll": "همه ویژگی‌ها شامل می‌شود",
+      "seeDetailedPricing": "مشاهده قیمت‌گذاری دقیق",
+      "ctaTitle": "آماده‌اید تا مزیت SeaChat را تجربه کنید؟",
+      "ctaSubtitle": "به هزاران کسب‌وکاری بپیوندید که راه حل هوشمندتر و مقرون به صرفه‌تر را انتخاب کردند.",
+      "startFree": "اکنون رایگان شروع کنید",
+      "bookDemo": "رزرو دمو",
       "features": {
-        "chatbotWebsite": "[FA]Chatbot for website",
-        "chatWidget": "[FA]Chat widget with live agent",
-        "whatsappMessenger": "[FA]WhatsApp/Messenger/Instagram",
-        "multiCalendar": "[FA]Multi Calendar bookings",
-        "phoneCallAI": "[FA]Inbound phone call AI agents",
-        "smsActions": "[FA]Built-in actions - SMS",
-        "emailActions": "[FA]Built-in actions - Email",
-        "phoneNumber": "[FA]Purchase phone number",
-        "agencyMode": "[FA]Agency Mode",
-        "bulkSMS": "[FA]Bulk outbound SMS, Call, WhatsApp",
-        "unlimitedContacts": "[FA]Unlimited Contacts",
-        "knowledgeBase": "[FA]Extra knowledge base",
-        "extraChatbot": "[FA]Extra chatbot"
+        "chatbotWebsite": "ربات چت برای وب‌سایت",
+        "chatWidget": "ویجت چت با نماینده زنده",
+        "whatsappMessenger": "واتس‌اپ/مسنجر/اینستاگرام",
+        "multiCalendar": "رزروهای چند تقویمی",
+        "phoneCallAI": "نمایندگان هوش مصنوعی تماس تلفنی ورودی",
+        "smsActions": "اقدامات داخلی - پیامک",
+        "emailActions": "اقدامات داخلی - ایمیل",
+        "phoneNumber": "خرید شماره تلفن",
+        "agencyMode": "حالت آژانس",
+        "bulkSMS": "پیامک، تماس، واتس‌اپ خروجی انبوه",
+        "unlimitedContacts": "مخاطبین نامحدود",
+        "knowledgeBase": "پایگاه دانش اضافی",
+        "extraChatbot": "ربات چت اضافی"
       },
       "table": {
         "headers": {
-          "features": "[FA]Features",
-          "replaces": "[FA]Replaces",
-          "otherTools": "[FA]Other Tools",
+          "features": "ویژگی‌ها",
+          "replaces": "جایگزین می‌کند",
+          "otherTools": "ابزارهای دیگر",
           "seachat": "SeaChat"
         },
-        "total": "[FA]Total",
-        "totalPrice": "[FA]$331 or more per month",
-        "seachatPrice": "[FA]$29.99 per month",
+        "total": "مجموع",
+        "totalPrice": "۳۳۱ دلار یا بیشتر در ماه",
+        "seachatPrice": "۲۹.۹۹ دلار در ماه",
         "explanations": {
-          "valueYouGet": "[FA]↑ The Value You Get",
-          "priceYouWouldPay": "[FA]↑ The Price You'd Otherwise Pay",
-          "priceYouPay": "[FA]↑ The Price You Pay"
+          "valueYouGet": "↑ ارزشی که دریافت می‌کنید",
+          "priceYouWouldPay": "↑ قیمتی که در غیر این صورت پرداخت می‌کردید",
+          "priceYouPay": "↑ قیمتی که پرداخت می‌کنید"
         }
       },
       "mobile": {
-        "replaces": "[FA]Replaces:",
-        "otherTools": "[FA]Other Tools:",
+        "replaces": "جایگزین می‌کند:",
+        "otherTools": "ابزارهای دیگر:",
         "seachat": "SeaChat:",
-        "otherToolsTotal": "[FA]Other Tools Total:",
-        "seachatTotal": "SeaChat Total:",
-        "totalPrice": "[FA]$331+ per month",
-        "seachatTotalPrice": "[FA]$29.99 per month",
-        "priceYouWouldPay": "[FA]↑ The Price You'd Otherwise Pay",
-        "priceYouPay": "[FA]↑ The Price You Pay"
+        "otherToolsTotal": "مجموع ابزارهای دیگر:",
+        "seachatTotal": "مجموع SeaChat:",
+        "totalPrice": "+۳۳۱ دلار در ماه",
+        "seachatTotalPrice": "۲۹.۹۹ دلار در ماه",
+        "priceYouWouldPay": "↑ قیمتی که در غیر این صورت پرداخت می‌کردید",
+        "priceYouPay": "↑ قیمتی که پرداخت می‌کنید"
       },
-      "uniqueToSeachat": "[FA]UNIQUE",
+      "uniqueToSeachat": "منحصر به فرد",
       "pricing": {
-        "chatbotWebsite": "[FA]$99 per month",
-        "chatWidget": "[FA]$23 per agent per month",
-        "whatsappMessenger": "[FA]$89 per user per month",
-        "multiCalendar": "[FA]$10 per seat per month",
-        "phoneCallAI": "[FA]$29 per month",
-        "smsActions": "[FA]$59 per month",
-        "emailActions": "[FA]$20 per month",
-        "phoneNumber": "[FA]$2 to $3 per month",
-        "unlimitedContacts": "[FA]$65 per 10K contacts",
-        "knowledgeBase": "[FA]$8 per extra knowledge base",
-        "extraChatbot": "[FA]$7 per extra chatbot"
+        "chatbotWebsite": "۹۹ دلار در ماه",
+        "chatWidget": "۲۳ دلار برای هر نماینده در ماه",
+        "whatsappMessenger": "۸۹ دلار برای هر کاربر در ماه",
+        "multiCalendar": "۱۰ دلار برای هر صندلی در ماه",
+        "phoneCallAI": "۲۹ دلار در ماه",
+        "smsActions": "۵۹ دلار در ماه",
+        "emailActions": "۲۰ دلار در ماه",
+        "phoneNumber": "۲ تا ۳ دلار در ماه",
+        "unlimitedContacts": "۶۵ دلار برای هر ۱۰ هزار مخاطب",
+        "knowledgeBase": "۸ دلار برای هر پایگاه دانش اضافی",
+        "extraChatbot": "۷ دلار برای هر ربات چت اضافی"
       },
       "seachatValues": {
-        "agencyMode": "[FA]Multiple workspaces - one workspace per client",
-        "bulkSMS": "Integrate with SeaX from Seasalt.ai",
-        "unlimitedContacts": "[FA]Unlimited",
-        "knowledgeBase": "[FA]5,000 documents or 50M tokens",
-        "extraChatbot": "[FA]10 bots × 5 channels = 50 channel-bots"
+        "agencyMode": "چندین فضای کاری - یک فضای کاری برای هر مشتری",
+        "bulkSMS": "ادغام با SeaX از Seasalt.ai",
+        "unlimitedContacts": "نامحدود",
+        "knowledgeBase": "۵٬۰۰۰ سند یا ۵۰ میلیون توکن",
+        "extraChatbot": "۱۰ ربات × ۵ کانال = ۵۰ ربات کانال"
       },
       "replaces": {
-        "uniqueToSeachat": "UNIQUE to SeaChat"
+        "uniqueToSeachat": "منحصر به فرد برای SeaChat"
       }
     }
   }

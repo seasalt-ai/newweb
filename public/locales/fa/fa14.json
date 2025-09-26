@@ -1,403 +1,383 @@
 {
   "textToSpeech": {
     "hero": {
-      "title": "[FA]Text-to-Speech Technology",
-      "subtitle": "[FA]Generate human-like speech from text with our advanced neural text-to-speech technology. Create custom voices, support 40+ languages, and deliver exceptional audio quality.",
-      "cta": "[FA]Try Voice Generation"
+      "title": "فناوری تبدیل متن به گفتار",
+      "subtitle": "با فناوری پیشرفته تبدیل متن به گفتار عصبی ما، گفتار شبیه انسان را از متن تولید کنید. صداهای سفارشی ایجاد کنید، از بیش از ۴۰ زبان پشتیبانی کنید و کیفیت صوتی استثنایی ارائه دهید.",
+      "cta": "تولید صدا را امتحان کنید"
     },
     "demo": {
-      "title": "[FA]Experience Our Voice Technology",
-      "subtitle": "[FA]Try different voices and hear the quality for yourself",
-      "chooseVoice": "[FA]Choose a voice:",
-      "textPrompt": "[FA]Enter text to convert to speech:",
-      "defaultText": "Hello! I'm an AI voice assistant powered by SeaVoice technology. I can help you with customer service, sales, and support in a natural, human-like voice.",
-      "placeholderText": "[FA]Type something for our AI to say...",
-      "generateSpeech": "[FA]Generate Speech",
-      "playing": "[FA]Playing..."
+      "title": "فناوری صوتی ما را تجربه کنید",
+      "subtitle": "صداهای مختلف را امتحان کنید و کیفیت را خودتان بشنوید",
+      "chooseVoice": "یک صدا انتخاب کنید:",
+      "textPrompt": "متن را برای تبدیل به گفتار وارد کنید:",
+      "defaultText": "سلام! من یک دستیار صوتی هوش مصنوعی با پشتیبانی فناوری SeaVoice هستم. من می‌توانم با صدایی طبیعی و شبیه انسان در خدمات مشتری، فروش و پشتیبانی به شما کمک کنم.",
+      "placeholderText": "چیزی تایپ کنید تا هوش مصنوعی ما بگوید...",
+      "generateSpeech": "تولید گفتار",
+      "playing": "در حال پخش..."
     },
     "voices": {
       "sarah": {
-        "name": "[FA]Sarah",
-        "gender": "[FA]Female",
-        "accent": "[FA]US English",
-        "description": "[FA]Professional, warm"
+        "name": "Sarah",
+        "gender": "زن",
+        "accent": "انگلیسی آمریکایی",
+        "description": "حرفه‌ای، گرم"
       },
       "tom": {
-        "name": "[FA]Tom",
-        "gender": "[FA]Male",
-        "accent": "[FA]US English",
-        "description": "[FA]Friendly, conversational"
+        "name": "Tom",
+        "gender": "مرد",
+        "accent": "انگلیسی آمریکایی",
+        "description": "دوستانه، محاوره‌ای"
       },
       "lissa": {
-        "name": "[FA]Lissa",
-        "gender": "[FA]Female",
-        "accent": "[FA]UK English",
-        "description": "[FA]Energetic, helpful"
+        "name": "Lissa",
+        "gender": "زن",
+        "accent": "انگلیسی بریتانیایی",
+        "description": "پرانرژی، مفید"
       },
       "alex": {
-        "name": "[FA]Alex",
-        "gender": "[FA]Male",
-        "accent": "[FA]Australian",
-        "description": "[FA]Clear, confident"
+        "name": "Alex",
+        "gender": "مرد",
+        "accent": "استرالیایی",
+        "description": "واضح، با اعتماد به نفس"
       },
       "maria": {
-        "name": "[FA]Maria",
-        "gender": "[FA]Female",
-        "accent": "[FA]Spanish",
-        "description": "[FA]Expressive, natural"
+        "name": "Maria",
+        "gender": "زن",
+        "accent": "اسپانیایی",
+        "description": "بیانگر، طبیعی"
       },
       "hiroshi": {
-        "name": "[FA]Hiroshi",
-        "gender": "[FA]Male",
-        "accent": "[FA]Japanese",
-        "description": "[FA]Polite, professional"
+        "name": "Hiroshi",
+        "gender": "مرد",
+        "accent": "ژاپنی",
+        "description": "مؤدب، حرفه‌ای"
       }
     },
     "features": {
-      "title": "[FA]Advanced Voice Generation",
-      "subtitle": "[FA]Cutting-edge neural networks deliver human-like speech quality",
+      "title": "تولید صدای پیشرفته",
+      "subtitle": "شبکه‌های عصبی پیشرفته کیفیت گفتار شبیه انسان را ارائه می‌دهند",
       "customVoiceCloning": {
-        "title": "[FA]Custom Voice Cloning",
-        "description": "[FA]Create unique voice profiles that match your brand personality and speaking style.",
+        "title": "شبیه‌سازی صدای سفارشی",
+        "description": "پروفایل‌های صوتی منحصر به فردی ایجاد کنید که با شخصیت برند و سبک صحبت شما مطابقت داشته باشد.",
         "capabilities": {
-          "voiceCloning": "[FA]Voice cloning from samples",
-          "brandVoice": "[FA]Brand voice consistency",
-          "emotionalExpression": "[FA]Emotional expression",
-          "customPronunciations": "[FA]Custom pronunciations"
+          "voiceCloning": "شبیه‌سازی صدا از نمونه‌ها",
+          "brandVoice": "ثبات صدای برند",
+          "emotionalExpression": "بیان عاطفی",
+          "customPronunciations": "تلفظ‌های سفارشی"
         }
       },
       "advancedControls": {
-        "title": "[FA]Advanced Controls",
-        "description": "[FA]Fine-tune every aspect of speech generation for perfect audio output.",
+        "title": "کنترل‌های پیشرفته",
+        "description": "هر جنبه از تولید گفتار را برای خروجی صوتی عالی تنظیم دقیق کنید.",
         "capabilities": {
-          "speedAdjustment": "[FA]Speed adjustment",
-          "pitchControl": "[FA]Pitch control",
-          "emphasisPlacement": "[FA]Emphasis placement",
-          "pauseInsertion": "[FA]Pause insertion"
+          "speedAdjustment": "تنظیم سرعت",
+          "pitchControl": "کنترل زیر و بمی",
+          "emphasisPlacement": "قرار دادن تأکید",
+          "pauseInsertion": "درج مکث"
         }
       },
       "multiLanguageSupport": {
-        "title": "[FA]Multi-Language Support",
-        "description": "[FA]Generate natural speech in 40+ languages with native pronunciation.",
+        "title": "پشتیبانی چند زبانه",
+        "description": "گفتار طبیعی را در بیش از ۴۰ زبان با تلفظ بومی تولید کنید.",
         "capabilities": {
-          "fortyPlusLanguages": "[FA]40+ languages",
-          "regionalAccents": "[FA]Regional accents",
-          "codeSwitching": "[FA]Code-switching",
-          "multilingualVoices": "[FA]Multilingual voices"
+          "fortyPlusLanguages": "بیش از ۴۰ زبان",
+          "regionalAccents": "لهجه‌های منطقه‌ای",
+          "codeSwitching": "تغییر کد",
+          "multilingualVoices": "صداهای چند زبانه"
         }
       }
     },
     "qualityMetrics": {
-      "title": "[FA]Exceptional Quality Metrics",
-      "subtitle": "[FA]Measured performance that delivers professional results",
+      "title": "معیارهای کیفیت استثنایی",
+      "subtitle": "عملکرد اندازه‌گیری شده که نتایج حرفه‌ای را ارائه می‌دهد",
       "naturalness": {
-        "metric": "[FA]Naturalness Score",
-        "value": "[FA]4.8/5",
-        "description": "[FA]Human evaluation rating"
+        "metric": "امتیاز طبیعی بودن",
+        "value": "۴.۸/۵",
+        "description": "رتبه‌بندی ارزیابی انسانی"
       },
       "intelligibility": {
-        "metric": "[FA]Intelligibility",
-        "value": "[FA]99.2%",
-        "description": "[FA]Word recognition accuracy"
+        "metric": "خوانایی",
+        "value": "۹۹.۲٪",
+        "description": "دقت تشخیص کلمه"
       },
       "latency": {
-        "metric": "[FA]Latency",
-        "value": "[FA]< 200ms",
-        "description": "[FA]Text to audio generation"
+        "metric": "تأخیر",
+        "value": "< ۲۰۰ میلی‌ثانیه",
+        "description": "تولید متن به صدا"
       },
       "audioQuality": {
-        "metric": "[FA]Audio Quality",
-        "value": "[FA]48kHz",
-        "description": "[FA]High-fidelity output"
+        "metric": "کیفیت صدا",
+        "value": "۴۸ کیلوهرتز",
+        "description": "خروجی با کیفیت بالا"
       }
     },
     "useCases": {
-      "title": "[FA]Versatile Applications",
-      "subtitle": "[FA]Transform text into speech across industries and use cases",
+      "title": "کاربردهای همه‌کاره",
+      "subtitle": "تبدیل متن به گفتار در صنایع و موارد استفاده مختلف",
       "customerService": {
-        "title": "[FA]Customer Service",
-        "description": "[FA]Provide consistent, professional voice responses for customer interactions.",
+        "title": "خدمات مشتری",
+        "description": "پاسخ‌های صوتی ثابت و حرفه‌ای را برای تعاملات مشتری ارائه دهید.",
         "benefits": {
-          "availability": "[FA]24/7 availability",
-          "consistentQuality": "[FA]Consistent quality",
-          "multiLanguageSupport": "[FA]Multi-language support",
-          "brandVoiceAlignment": "[FA]Brand voice alignment"
+          "availability": "در دسترس بودن ۲۴/۷",
+          "consistentQuality": "کیفیت ثابت",
+          "multiLanguageSupport": "پشتیبانی چند زبانه",
+          "brandVoiceAlignment": "همسویی صدای برند"
         }
       },
       "contentCreation": {
-        "title": "[FA]Content Creation",
-        "description": "[FA]Generate voiceovers for videos, podcasts, and multimedia content.",
+        "title": "ایجاد محتوا",
+        "description": "صداگذاری برای ویدیوها، پادکست‌ها و محتوای چندرسانه‌ای تولید کنید.",
         "benefits": {
-          "costEffectiveProduction": "[FA]Cost-effective production",
-          "quickTurnaround": "[FA]Quick turnaround",
-          "multipleVoiceOptions": "[FA]Multiple voice options",
-          "easyRevisions": "[FA]Easy revisions"
+          "costEffectiveProduction": "تولید مقرون به صرفه",
+          "quickTurnaround": "تحویل سریع",
+          "multipleVoiceOptions": "گزینه‌های صوتی متعدد",
+          "easyRevisions": "بازبینی آسان"
         }
       },
       "accessibility": {
-        "title": "[FA]Accessibility",
-        "description": "[FA]Make content accessible with high-quality text-to-speech for visually impaired users.",
+        "title": "دسترسی‌پذیری",
+        "description": "محتوا را با تبدیل متن به گفتار با کیفیت بالا برای کاربران کم‌بینا در دسترس قرار دهید.",
         "benefits": {
-          "screenReaderEnhancement": "[FA]Screen reader enhancement",
-          "documentNarration": "[FA]Document narration",
-          "webAccessibility": "[FA]Web accessibility",
-          "educationalSupport": "[FA]Educational support"
+          "screenReaderEnhancement": "بهبود صفحه‌خوان",
+          "documentNarration": "روایت اسناد",
+          "webAccessibility": "دسترسی‌پذیری وب",
+          "educationalSupport": "پشتیبانی آموزشی"
         }
       },
       "interactiveApplications": {
-        "title": "[FA]Interactive Applications",
-        "description": "[FA]Add voice capabilities to apps, games, and interactive experiences.",
+        "title": "برنامه‌های تعاملی",
+        "description": "قابلیت‌های صوتی را به برنامه‌ها، بازی‌ها و تجربیات تعاملی اضافه کنید.",
         "benefits": {
-          "realTimeGeneration": "[FA]Real-time generation",
-          "dynamicContent": "[FA]Dynamic content",
-          "userEngagement": "[FA]User engagement",
-          "immersiveExperiences": "[FA]Immersive experiences"
+          "realTimeGeneration": "تولید در زمان واقعی",
+          "dynamicContent": "محتوای پویا",
+          "userEngagement": "تعامل کاربر",
+          "immersiveExperiences": "تجربیات فراگیر"
         }
       }
     },
     "voiceCloning": {
-      "title": "[FA]Custom Voice Cloning",
-      "subtitle": "[FA]Create unique voice profiles that perfectly match your brand personality. Our advanced voice cloning technology can replicate speaking styles, accents, and emotional expressions with just a few minutes of sample audio.",
+      "title": "شبیه‌سازی صدای سفارشی",
+      "subtitle": "پروفایل‌های صوتی منحصر به فردی ایجاد کنید که کاملاً با شخصیت برند شما مطابقت داشته باشد. فناوری پیشرفته شبیه‌سازی صدای ما می‌تواند سبک‌های صحبت، لهجه‌ها و بیان‌های عاطفی را فقط با چند دقیقه نمونه صوتی تکرار کند.",
       "brandVoiceConsistency": {
-        "title": "[FA]Brand Voice Consistency",
-        "description": "[FA]Maintain consistent brand voice across all interactions"
+        "title": "ثبات صدای برند",
+        "description": "حفظ صدای ثابت برند در همه تعاملات"
       },
       "fineTunedControl": {
-        "title": "[FA]Fine-Tuned Control",
-        "description": "[FA]Adjust tone, pace, and emotional expression"
+        "title": "کنترل دقیق",
+        "description": "تنظیم لحن، سرعت و بیان عاطفی"
       },
       "highFidelityOutput": {
-        "title": "[FA]High Fidelity Output",
-        "description": "[FA]Professional quality audio for any application"
+        "title": "خروجی با کیفیت بالا",
+        "description": "صدای با کیفیت حرفه‌ای برای هر برنامه"
       },
       "process": {
-        "title": "[FA]Voice Cloning Process",
+        "title": "فرآیند شبیه‌سازی صدا",
         "step1": {
-          "title": "[FA]Upload Audio Samples",
-          "description": "[FA]Provide 5-10 minutes of clean audio recordings"
+          "title": "بارگذاری نمونه‌های صوتی",
+          "description": "۵-۱۰ دقیقه ضبط صوتی تمیز ارائه دهید"
         },
         "step2": {
-          "title": "[FA]AI Training",
-          "description": "[FA]Our neural networks learn your unique voice characteristics"
+          "title": "آموزش هوش مصنوعی",
+          "description": "شبکه‌های عصبی ما ویژگی‌های صوتی منحصر به فرد شما را یاد می‌گیرند"
         },
         "step3": {
-          "title": "[FA]Voice Generation",
-          "description": "[FA]Generate unlimited speech with your custom voice"
+          "title": "تولید صدا",
+          "description": "گفتار نامحدود را با صدای سفارشی خود تولید کنید"
         }
       }
     },
     "cta": {
-      "title": "[FA]Ready to Give Your Brand a Voice?",
-      "subtitle": "[FA]Create custom voices and generate professional-quality speech for any application",
-      "startVoiceCloning": "[FA]Start Voice Cloning",
-      "exploreApi": "[FA]Explore API"
+      "title": "آماده‌اید تا به برند خود صدایی بدهید؟",
+      "subtitle": "صداهای سفارشی ایجاد کنید و گفتار با کیفیت حرفه‌ای را برای هر برنامه تولید کنید",
+      "startVoiceCloning": "شروع شبیه‌سازی صدا",
+      "exploreApi": "کاوش در API"
     }
   },
   "components": {
     "aiVoiceAvatar": {
       "badge": {
-        "label": "[FA]Interactive AI Avatar"
+        "label": "آواتار هوش مصنوعی تعاملی"
       },
       "hero": {
         "title": {
-          "line1": "[FA]Meet Your",
-          "line2": "[FA]AI Voice Agent"
+          "line1": "با",
+          "line2": "نماینده صوتی هوش مصنوعی خود"
         },
-        "subtitle": "[FA]Experience the future of AI communication. Our avatars demonstrate human-like conversations with emotional intelligence and multiple personality options."
+        "subtitle": "آینده ارتباطات هوش مصنوعی را تجربه کنید. آواتارهای ما مکالمات شبیه انسان را با هوش هیجانی و گزینه‌های شخصیتی متعدد نشان می‌دهند."
       },
       "voices": {
         "professional": {
-          "name": "[FA]Professional Sarah",
-          "description": "[FA]Clear, authoritative business voice"
+          "name": "Sarah حرفه‌ای",
+          "description": "صدای تجاری واضح و معتبر"
         },
         "friendly": {
-          "name": "[FA]Friendly Mike",
-          "description": "[FA]Warm, approachable customer service"
+          "name": "Mike دوستانه",
+          "description": "خدمات مشتری گرم و در دسترس"
         },
         "empathetic": {
-          "name": "[FA]Caring Emma",
-          "description": "[FA]Compassionate healthcare voice"
+          "name": "Emma دلسوز",
+          "description": "صدای مراقبت‌های بهداشتی دلسوزانه"
         }
       },
       "languages": {
-        "english": "[FA]English",
-        "spanish": "[FA]Spanish",
-        "french": "[FA]French",
-        "german": "[FA]German",
-        "chinese": "[FA]Chinese"
+        "english": "انگلیسی",
+        "spanish": "اسپانیایی",
+        "french": "فرانسوی",
+        "german": "آلمانی",
+        "chinese": "چینی"
       },
       "demoScripts": {
-        "professional": "[FA]Hello, I'm Sarah, your AI business assistant. I can handle customer inquiries, schedule appointments, and provide detailed product information with precision and clarity.",
-        "friendly": "[FA]Hi there! I'm Mike, and I'm here to make your experience amazing. Whether you need help with an order or just have a quick question, I'm happy to chat!",
-        "empathetic": "[FA]Hello, I'm Emma. I understand that healthcare questions can be stressful, and I'm here to provide caring, accurate support whenever you need it."
+        "professional": "سلام، من Sarah، دستیار تجاری هوش مصنوعی شما هستم. من می‌توانم به سوالات مشتری رسیدگی کنم، قرار ملاقات‌ها را زمان‌بندی کنم و اطلاعات دقیق محصول را با دقت و وضوح ارائه دهم.",
+        "friendly": "سلام! من Mike هستم و اینجا هستم تا تجربه شما را شگفت‌انگیز کنم. چه به کمک در مورد سفارش نیاز داشته باشید یا فقط یک سوال سریع داشته باشید، خوشحال می‌شوم چت کنم!",
+        "empathetic": "سلام، من Emma هستم. من درک می‌کنم که سوالات مربوط به مراقبت‌های بهداشتی می‌تواند استرس‌زا باشد و من اینجا هستم تا هر زمان که نیاز داشتید، پشتیبانی دلسوزانه و دقیقی ارائه دهم."
       },
       "controls": {
-        "voicePersonality": "[FA]Choose Voice Personality:",
-        "language": "[FA]Language:",
-        "demoVoice": "[FA]Demo Voice",
-        "tryVoiceInput": "[FA]Try Voice Input"
+        "voicePersonality": "شخصیت صدا را انتخاب کنید:",
+        "language": "زبان:",
+        "demoVoice": "دموی صدا",
+        "tryVoiceInput": "ورودی صدا را امتحان کنید"
       },
       "status": {
-        "listening": "[FA]Listening...",
-        "speaking": "[FA]Speaking...",
-        "ready": "[FA]Ready",
-        "label": "[FA]Status:"
+        "listening": "در حال گوش دادن...",
+        "speaking": "در حال صحبت...",
+        "ready": "آماده",
+        "label": "وضعیت:"
       },
-      "listeningResponse": "[FA]I heard you! This is where I would respond to your voice input with contextual understanding.",
+      "listeningResponse": "صدای شما را شنیدم! اینجا جایی است که من با درک متنی به ورودی صوتی شما پاسخ می‌دهم.",
       "avatarMoods": {
-        "neutral": "[FA]neutral",
-        "speaking": "[FA]speaking",
-        "listening": "[FA]listening",
-        "thinking": "[FA]thinking"
+        "neutral": "خنثی",
+        "speaking": "در حال صحبت",
+        "listening": "در حال گوش دادن",
+        "thinking": "در حال فکر کردن"
       }
     }
   },
   "voiceConversationFlow": {
     "steps": {
       "callConnected": {
-        "title": "[FA]Call Connected",
-        "description": "[FA]Customer connected with your business"
+        "title": "تماس متصل شد",
+        "description": "مشتری با کسب‌وکار شما متصل شد"
       },
       "listening": {
-        "title": "[FA]AI Listening",
-        "description": "[FA]Advanced speech recognition captures every word"
+        "title": "هوش مصنوعی در حال گوش دادن",
+        "description": "تشخیص گفتار پیشرفته هر کلمه را ثبت می‌کند"
       },
       "processing": {
-        "title": "[FA]AI Processing",
-        "description": "[FA]Neural networks understand intent and context"
+        "title": "هوش مصنوعی در حال پردازش",
+        "description": "شبکه‌های عصبی قصد و زمینه را درک می‌کنند"
       },
       "responding": {
-        "title": "[FA]AI Responding",
-        "description": "[FA]Human-like voice delivers perfect response"
+        "title": "هوش مصنوعی در حال پاسخ دادن",
+        "description": "صدای شبیه انسان پاسخ عالی را ارائه می‌دهد"
       }
     },
     "conversationTypes": {
-      "appointmentBooking": "[FA]Appointment Booking",
-      "orderSupport": "[FA]Order Support",
-      "salesInquiry": "[FA]Sales Inquiry"
+      "appointmentBooking": "رزرو قرار ملاقات",
+      "orderSupport": "پشتیبانی سفارش",
+      "salesInquiry": "سوال فروش"
     },
     "conversations": {
       "appointmentBooking": {
-        "customer": "[FA]Hi, I'd like to schedule an appointment for next Tuesday.",
-        "ai": "[FA]I'd be happy to help you schedule an appointment. Let me check our availability for next Tuesday. What time would work best for you?"
+        "customer": "سلام، من می‌خواهم برای سه‌شنبه آینده یک قرار ملاقات برنامه‌ریزی کنم.",
+        "ai": "خوشحال می‌شوم به شما در زمان‌بندی قرار ملاقات کمک کنم. اجازه دهید در دسترس بودن ما را برای سه‌شنبه آینده بررسی کنم. چه زمانی برای شما بهترین کار را می‌کند؟"
       },
       "orderSupport": {
-        "customer": "[FA]I'm having trouble with my recent order. It hasn't arrived yet.",
-        "ai": "[FA]I understand your concern about your order. Let me look that up for you right away. Can you please provide your order number?"
+        "customer": "من با سفارش اخیرم مشکل دارم. هنوز نرسیده است.",
+        "ai": "نگرانی شما را در مورد سفارش شما درک می‌کنم. اجازه دهید فوراً آن را برای شما جستجو کنم. لطفاً شماره سفارش خود را ارائه دهید؟"
       },
       "salesInquiry": {
-        "customer": "[FA]Can you tell me about your pricing plans?",
-        "ai": "[FA]Absolutely! We have several pricing options to fit different needs. Our basic plan starts at $29/month and includes all core features. Would you like me to explain the differences?"
+        "customer": "آیا می‌توانید در مورد طرح‌های قیمت‌گذاری خود به من بگویید؟",
+        "ai": "قطعاً! ما چندین گزینه قیمت‌گذاری برای متناسب با نیازهای مختلف داریم. طرح پایه ما از ۲۹ دلار در ماه شروع می‌شود و شامل همه ویژگی‌های اصلی است. آیا می‌خواهید تفاوت‌ها را توضیح دهم؟"
       }
     },
     "ui": {
-      "chooseConversationType": "[FA]Choose Conversation Type:",
-      "autoProgressing": "[FA]Auto-progressing through scenarios...",
-      "liveConversation": "[FA]Live Conversation:",
-      "speaking": "[FA]Speaking...",
-      "aiSpeaking": "[FA]AI Speaking...",
-      "aiThinking": "[FA]AI Thinking...",
-      "processingContext": "[FA]Processing context",
-      "accuracyRate": "[FA]Accuracy Rate"
+      "chooseConversationType": "نوع مکالمه را انتخاب کنید:",
+      "autoProgressing": "پیشرفت خودکار در سناریوها...",
+      "liveConversation": "مکالمه زنده:",
+      "speaking": "در حال صحبت...",
+      "aiSpeaking": "هوش مصنوعی در حال صحبت...",
+      "aiThinking": "هوش مصنوعی در حال فکر کردن...",
+      "processingContext": "پردازش زمینه",
+      "accuracyRate": "نرخ دقت"
     }
   },
-  "// Large Scale Campaigns Page - English key-value pairs": "[FA]",
-  "seo": {
-    "homepage": {
-      "title": "Seasalt.ai | Omni-Channel Contact Center for Small Businesses",
-      "description": "[FA]Stop juggling apps. Unify every customer call, WhatsApp, and chat in one simple inbox. The all-in-one contact center built for small businesses.",
-      "keywords": "[FA]omni-channel contact center, small business communication, unified inbox, customer service software, WhatsApp business, voice calls, chat support"
-    },
-    "seavoice": {
-      "homepage": {
-        "title": "SeaVoice | AI-Powered Voice Communication - Seasalt.ai",
-        "description": "Transform your voice communications with AI. SeaVoice offers intelligent call routing, voice analytics, and automated responses. Handle customer calls 24/7 with human-like AI agents.",
-        "keywords": "AI voice, call center software, voice analytics, SeaVoice, intelligent call routing, automated phone system, voice assistant, 24/7 customer service"
-      },
-      "virtualAssistant": {
-        "title": "24/7 Virtual Assistant | SeaVoice AI Voice Solutions - Seasalt.ai",
-        "description": "Provide round-the-clock customer service with SeaVoice AI Virtual Assistant. Intelligent voice agents handle customer inquiries, appointment scheduling, and support requests, improving satisfaction while reducing costs.",
-        "keywords": "virtual assistant, AI voice assistant, 24/7 customer service, intelligent customer service, SeaVoice, voice automation, customer service automation"
-      }
-    }
-  },
-  "// Key structure: seavoice": {
+  "// ساختار کلید: seavoice": {
     "pages": {
       "solutions": {
         "outbound": {
-          "largeScaleCampaigns": "[FA]",
-          "subscriptionRenewals": "[FA]"
+          "largeScaleCampaigns": "",
+          "subscriptionRenewals": ""
         }
       }
     }
   },
   "statsCounter": {
     "section": {
-      "title": "[FA]Trusted by businesses worldwide",
-      "subtitle": "[FA]Our platform powers millions of conversations every day"
+      "title": "مورد اعتماد کسب‌وکارها در سراسر جهان",
+      "subtitle": "پلتفرم ما روزانه میلیون‌ها مکالمه را قدرت می‌بخشد"
     },
     "stats": {
       "messages": {
-        "label": "[FA]Messages Sent",
-        "suffix": "[FA]M+"
+        "label": "پیام ارسالی",
+        "suffix": "میلیون+"
       },
       "calls": {
-        "label": "[FA]Calls Made",
-        "suffix": "[FA]K+"
+        "label": "تماس‌های برقرار شده",
+        "suffix": "هزار+"
       },
       "uptime": {
-        "label": "[FA]System Uptime",
-        "suffix": "[FA]%"
+        "label": "آپتایم سیستم",
+        "suffix": "٪"
       },
       "countries": {
-        "label": "[FA]Countries Served",
-        "suffix": "[FA]+"
+        "label": "کشورهای خدمت‌رسانی شده",
+        "suffix": "+"
       },
       "roi": {
-        "label": "[FA]ROI Increase",
-        "suffix": "[FA]%"
+        "label": "افزایش بازگشت سرمایه",
+        "suffix": "٪"
       }
     },
     "dashboard": {
-      "title": "SeaX Dashboard",
-      "messagesSent": "[FA]Messages Sent",
-      "deliveryRate": "[FA]Delivery Rate",
-      "recentActivity": "[FA]Recent Activity",
+      "title": "داشبورد SeaX",
+      "messagesSent": "پیام ارسالی",
+      "deliveryRate": "نرخ تحویل",
+      "recentActivity": "فعالیت اخیر",
       "demo": {
-        "messagesSent": "[FA]2.4M",
-        "deliveryRate": "[FA]85%"
+        "messagesSent": "۲.۴ میلیون",
+        "deliveryRate": "۸۵٪"
       }
     },
     "activity": {
       "flashSale": {
-        "title": "[FA]Flash Sale Campaign",
-        "detail": "[FA]50,000 SMS sent • 2 min ago"
+        "title": "کمپین فروش فوری",
+        "detail": "۵۰٬۰۰۰ پیامک ارسال شد • ۲ دقیقه پیش"
       },
       "leadFollowup": {
-        "title": "[FA]Lead Follow-up",
-        "detail": "[FA]12,000 calls completed • 5 min ago"
+        "title": "پیگیری سرنخ",
+        "detail": "۱۲٬۰۰۰ تماس تکمیل شد • ۵ دقیقه پیش"
       },
       "whatsapp": {
-        "title": "[FA]WhatsApp Campaign",
-        "detail": "[FA]25,000 messages queued • 8 min ago"
+        "title": "کمپین واتس‌اپ",
+        "detail": "۲۵٬۰۰۰ پیام در صف • ۸ دقیقه پیش"
       }
     },
     "status": {
-      "liveRunning": "[FA]Live campaigns running",
-      "liveActivity": "[FA]Live activity: Messages being sent right now"
+      "liveRunning": "کمپین‌های زنده در حال اجرا",
+      "liveActivity": "فعالیت زنده: پیام‌ها در حال حاضر در حال ارسال هستند"
     }
   },
   "omniCalculator": {
     "ranges": {
-      "zero": "[FA]0",
-      "smsMax": "[FA]10k+",
-      "callsMax": "[FA]5k+",
-      "voicemailMax": "[FA]1k+",
-      "whatsappMax": "[FA]10k+"
+      "zero": "۰",
+      "smsMax": "+۱۰ هزار",
+      "callsMax": "+۵ هزار",
+      "voicemailMax": "+۱ هزار",
+      "whatsappMax": "+۱۰ هزار"
     },
     "breakdown": {
-      "localPlus": "[FA]local +",
-      "tollFreeMinus": "[FA]toll-free"
+      "localPlus": "محلی +",
+      "tollFreeMinus": "تلفن رایگان"
     }
   }
 }

@@ -2,1937 +2,1805 @@
   "compare": {
     "aircallAlternative": {
       "seo": {
-        "title": "[FIL]Aircall Alternative - Seasalt.ai[FIL] Unified Communication",
-        "description": "[FIL]Escape Aircall's add-on fees and user minimums. See why growing teams choose Seasalt.ai[FIL]'s all-in-one communication platform with transparent pricing."
+        "title": "Alternatibo sa Aircall - Pinag-isang Komunikasyon ng Seasalt.ai",
+        "description": "Iwasan ang mga bayarin sa add-on at mga minimum na gumagamit ng Aircall. Tingnan kung bakit pinipili ng mga lumalagong koponan ang all-in-one na platform ng komunikasyon ng Seasalt.ai na may transparent na pagpepresyo."
       },
       "nav": {
-        "backToOverview": "[FIL]Back to Compare Us Overview"
+        "backToOverview": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
         "title": {
-          "part1": "[FIL]Tired of Add-on Fees and User Minimums?",
-          "part2": "[FIL]See Why Growing Teams Choose Seasalt.ai[FIL] Over Aircall"
+          "part1": "Pagod na sa mga Bayarin sa Add-on at mga Minimum na Gumagamit?",
+          "part2": "Tingnan Kung Bakit Pinipili ng mga Lumalagong Koponan ang Seasalt.ai Kaysa sa Aircall"
         },
-        "subtitle": "[FIL]Aircall is known for its user-friendly interface but forces small teams into a corner with a mandatory 3-user minimum and a pricing model that walls off critical features like AI, advanced analytics, and even WhatsApp[FIL] integration behind expensive monthly add-ons. Seasalt.ai[FIL] provides a truly all-in-one platform with transparent pricing."
+        "subtitle": "Kilala ang Aircall sa user-friendly na interface nito ngunit pinipilit ang maliliit na koponan sa isang sulok na may mandatoryong 3-gumagamit na minimum at isang modelo ng pagpepresyo na naglalagay ng mga kritikal na tampok tulad ng AI, advanced na analytics, at kahit na pagsasama ng WhatsApp sa likod ng mga mamahaling buwanang add-on. Nagbibigay ang Seasalt.ai ng isang tunay na all-in-one na platform na may transparent na pagpepresyo."
       },
       "comparison": {
-        "title": "[FIL]Feature-by-Feature Comparison",
-        "subtitle": "[FIL]See how Seasalt.ai[FIL] delivers all the features you need without the add-on fees and complexity",
+        "title": "Paghahambing ng Tampok-sa-Tampok",
+        "subtitle": "Tingnan kung paano naghahatid ang Seasalt.ai ng lahat ng mga tampok na kailangan mo nang walang mga bayarin sa add-on at kumplikasyon",
         "table": {
           "headers": {
-            "feature": "[FIL]Feature",
+            "feature": "Tampok",
             "seasalt": "Seasalt.ai",
-            "aircall": "[FIL]Aircall"
+            "aircall": "Aircall"
           }
         },
         "features": {
           "pricingModel": {
-            "name": "[FIL]Pricing Model",
-            "seasalt": "[FIL]Simple per-user fee",
-            "competitor": "[FIL]Per-license + multiple required add-ons"
+            "name": "Modelo ng Pagpepresyo",
+            "seasalt": "Simpleng bayad bawat gumagamit",
+            "competitor": "Bawat-lisensya + maraming kinakailangang add-on"
           },
           "userMinimum": {
-            "name": "[FIL]User Minimum",
-            "seasalt": "[FIL]1",
-            "competitor": "[FIL]3"
+            "name": "Minimum na Gumagamit",
+            "seasalt": "1",
+            "competitor": "3"
           },
           "unifiedComm": {
-            "name": "[FIL]Unified Voice & WhatsApp",
-            "seasalt": "[FIL]Yes, natively included",
-            "competitor": "[FIL]No, requires $10/mo add-on"
+            "name": "Pinag-isang Boses at WhatsApp",
+            "seasalt": "Oo, katutubong kasama",
+            "competitor": "Hindi, nangangailangan ng $10/buwan na add-on"
           },
           "aiVoiceAgent": {
-            "name": "[FIL]AI Voice Agent",
-            "seasalt": "[FIL]Yes, included (usage-based)",
-            "competitor": "[FIL]No, requires $0.99/min add-on"
+            "name": "Ahente ng Boses ng AI",
+            "seasalt": "Oo, kasama (batay sa paggamit)",
+            "competitor": "Hindi, nangangailangan ng $0.99/min na add-on"
           },
           "aiCallSummaries": {
-            "name": "[FIL]AI Call Summaries",
-            "seasalt": "[FIL]Yes, included",
-            "competitor": "[FIL]No, requires $9/mo add-on"
+            "name": "Mga Buod ng Tawag ng AI",
+            "seasalt": "Oo, kasama",
+            "competitor": "Hindi, nangangailangan ng $9/buwan na add-on"
           },
           "advancedAnalytics": {
-            "name": "[FIL]Advanced Analytics",
-            "seasalt": "[FIL]Yes, included",
-            "competitor": "[FIL]No, requires $15/mo add-on"
+            "name": "Advanced na Analytics",
+            "seasalt": "Oo, kasama",
+            "competitor": "Hindi, nangangailangan ng $15/buwan na add-on"
           },
           "callQuality": {
-            "name": "[FIL]Reported Call Quality",
-            "seasalt": "[FIL]High-quality voice",
-            "competitor": "[FIL]Users report inconsistent quality and dropped calls"
+            "name": "Iniulat na Kalidad ng Tawag",
+            "seasalt": "Mataas na kalidad na boses",
+            "competitor": "Nag-uulat ang mga gumagamit ng hindi pare-parehong kalidad at mga bumabagsak na tawag"
           },
           "bestFor": {
-            "name": "[FIL]Best For",
-            "seasalt": "[FIL]SMEs needing an affordable, truly all-in-one solution",
-            "competitor": "[FIL]Sales/support teams that can meet the user minimum and afford multiple add-ons"
+            "name": "Pinakamahusay Para sa",
+            "seasalt": "Mga SME na nangangailangan ng isang abot-kayang, tunay na all-in-one na solusyon",
+            "competitor": "Mga koponan sa pagbebenta/suporta na kayang matugunan ang minimum na gumagamit at kayang bayaran ang maraming mga add-on"
           }
         }
       },
       "costComparison": {
-        "title": "[FIL]The Real Cost Comparison",
-        "subtitle": "[FIL]See how Aircall's add-on fees quickly add up compared to Seasalt.ai[FIL]'s transparent pricing",
+        "title": "Ang Tunay na Paghahambing ng Gastos",
+        "subtitle": "Tingnan kung paano mabilis na nadadagdagan ang mga bayarin sa add-on ng Aircall kumpara sa transparent na pagpepresyo ng Seasalt.ai",
         "aircall": {
-          "title": "[FIL]Aircall Reality Check",
-          "basePlan": "[FIL]Base plan (per user)",
-          "basePlanCost": "[FIL]$30/month",
-          "aiVoiceAddon": "[FIL]AI Voice add-on",
-          "aiVoiceAddonCost": "[FIL]+$9/month",
-          "whatsappIntegration": "WhatsApp[FIL] integration",
-          "whatsappIntegrationCost": "[FIL]+$10/month",
-          "advancedAnalytics": "[FIL]Advanced analytics",
-          "advancedAnalyticsCost": "[FIL]+$15/month",
-          "totalPerUser": "[FIL]Total per user",
-          "totalPerUserCost": "[FIL]$64/month",
-          "minimumNote": "[FIL]Plus 3-user minimum = $192/month minimum"
+          "title": "Pagsusuri sa Katotohanan ng Aircall",
+          "basePlan": "Pangunahing plano (bawat gumagamit)",
+          "basePlanCost": "$30/buwan",
+          "aiVoiceAddon": "Add-on ng AI Voice",
+          "aiVoiceAddonCost": "+$9/buwan",
+          "whatsappIntegration": "Pagsasama ng WhatsApp",
+          "whatsappIntegrationCost": "+$10/buwan",
+          "advancedAnalytics": "Advanced na analytics",
+          "advancedAnalyticsCost": "+$15/buwan",
+          "totalPerUser": "Kabuuan bawat gumagamit",
+          "totalPerUserCost": "$64/buwan",
+          "minimumNote": "Dagdag pa ng 3-gumagamit na minimum = $192/buwan na minimum"
         },
         "seasalt": {
           "title": "Seasalt.ai",
-          "admin": "[FIL]Admin (first user)",
-          "adminCost": "[FIL]$50/month",
-          "additionalAgents": "[FIL]Additional agents",
-          "additionalAgentsCost": "[FIL]$25/month each",
-          "aiVoiceIncluded": "[FIL]AI Voice + Chat included",
-          "aiVoiceIncludedCost": "[FIL]$0",
-          "allChannelsIncluded": "[FIL]All channels included",
-          "allChannelsIncludedCost": "[FIL]$0",
-          "analyticsIncluded": "[FIL]Analytics included",
-          "analyticsIncludedCost": "[FIL]$0",
-          "total": "[FIL]Total (3 users)",
-          "totalCost": "[FIL]$100/month",
-          "savings": "[FIL]Save $92/month vs. Aircall"
+          "admin": "Admin (unang gumagamit)",
+          "adminCost": "$50/buwan",
+          "additionalAgents": "Mga karagdagang ahente",
+          "additionalAgentsCost": "$25/buwan bawat isa",
+          "aiVoiceIncluded": "Kasama ang AI Voice + Chat",
+          "aiVoiceIncludedCost": "$0",
+          "allChannelsIncluded": "Kasama ang lahat ng channel",
+          "allChannelsIncludedCost": "$0",
+          "analyticsIncluded": "Kasama ang analytics",
+          "analyticsIncludedCost": "$0",
+          "total": "Kabuuan (3 gumagamit)",
+          "totalCost": "$100/buwan",
+          "savings": "Makatipid ng $92/buwan kumpara sa Aircall"
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Escape Add-on Fees?",
-        "subtitle": "[FIL]Join thousands of growing businesses who switched from Aircall to get all the features they need without the complexity and hidden costs.",
-        "signUp": "[FIL]Sign Up",
-        "bookDemo": "[FIL]Book A Demo"
+        "title": "Handa nang Iwasan ang mga Bayarin sa Add-on?",
+        "subtitle": "Sumali sa libu-libong lumalagong negosyo na lumipat mula sa Aircall upang makuha ang lahat ng mga tampok na kailangan nila nang walang mga nakatagong gastos.",
+        "signUp": "Mag-sign Up",
+        "bookDemo": "Mag-book ng Demo"
       }
     },
     "ringcentral": {
       "seo": {
-        "title": "[FIL]RingCentral Alternative - Unified Contact Center vs Fragmented Solutions | Seasalt.ai",
-        "description": "[FIL]Discover why Seasalt.ai[FIL]'s truly unified contact center outperforms RingCentral's fragmented UCaaS and CCaaS approach. Compare pricing, features, and architecture.",
-        "canonicalPath": "[FIL]/compare/ringcentral-alternative"
+        "title": "Alternatibo sa RingCentral - Pinag-isang Contact Center kumpara sa mga Pira-pirasong Solusyon | Seasalt.ai",
+        "description": "Tuklasin kung bakit mas mahusay ang tunay na pinag-isang contact center ng Seasalt.ai kaysa sa pira-pirasong diskarte ng UCaaS at CCaaS ng RingCentral. Ihambing ang pagpepresyo, mga tampok, at arkitektura.",
+        "canonicalPath": "/compare/ringcentral-alternative"
       },
       "navigation": {
-        "backToOverview": "[FIL]Back to Compare Us Overview"
+        "backToOverview": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
         "title": {
-          "part1": "[FIL]Looking for a True All-in-One Contact Center?",
-          "part2": "[FIL]See Why RingCentral's \"Unified\" Platform Falls Short"
+          "part1": "Naghahanap ng isang Tunay na All-in-One na Contact Center?",
+          "part2": "Tingnan Kung Bakit Nagkukulang ang \"Pinag-isang\" Platform ng RingCentral"
         },
-        "subtitle": "[FIL]RingCentral is a giant in communications, but its solution is fragmented. Their main offering is a business phone system (UCaaS), while their contact center (RingCX) is a separate, premium product starting at $65/agent/month. This creates complexity and silos. Seasalt.ai[FIL] is built from the ground up as a single, unified contact center."
+        "subtitle": "Ang RingCentral ay isang higante sa mga komunikasyon, ngunit ang solusyon nito ay pira-piraso. Ang kanilang pangunahing alok ay isang sistema ng telepono sa negosyo (UCaaS), habang ang kanilang contact center (RingCX) ay isang hiwalay, premium na produkto na nagsisimula sa $65/ahente/buwan. Lumilikha ito ng kumplikasyon at mga silo. Ang Seasalt.ai ay binuo mula sa simula bilang isang solong, pinag-isang contact center."
       },
       "comparison": {
-        "title": "[FIL]Unified vs. Fragmented Architecture",
-        "subtitle": "[FIL]See why a truly unified platform beats separate products bolted together",
+        "title": "Pinag-isa kumpara sa Pira-pirasong Arkitektura",
+        "subtitle": "Tingnan kung bakit mas mahusay ang isang tunay na pinag-isang platform kaysa sa mga hiwalay na produkto na pinagsama-sama",
         "table": {
           "headers": {
-            "feature": "[FIL]Feature",
+            "feature": "Tampok",
             "seasalt": "Seasalt.ai",
-            "ringcentral": "[FIL]RingCentral"
+            "ringcentral": "RingCentral"
           }
         },
         "features": {
           "platformArchitecture": {
-            "name": "[FIL]Platform Architecture",
-            "seasalt": "[FIL]True Unified Contact Center",
-            "ringcentral": "[FIL]Separate UCaaS and CCaaS products"
+            "name": "Arkitektura ng Platform",
+            "seasalt": "Tunay na Pinag-isang Contact Center",
+            "ringcentral": "Paghiwalayin ang mga produkto ng UCaaS at CCaaS"
           },
           "startingPrice": {
-            "name": "[FIL]Starting Price (Contact Center)",
-            "seasalt": "[FIL]$25/agent/month",
-            "ringcentral": "[FIL]$65/agent/month (RingCX)"
+            "name": "Panimulang Presyo (Contact Center)",
+            "seasalt": "$25/ahente/buwan",
+            "ringcentral": "$65/ahente/buwan (RingCX)"
           },
           "unifiedVoiceDigital": {
-            "name": "[FIL]Unified Voice & Digital",
-            "seasalt": "[FIL]Yes, natively included",
-            "ringcentral": "[FIL]No, not natively unified in one inbox"
+            "name": "Pinag-isang Boses at Digital",
+            "seasalt": "Oo, katutubong kasama",
+            "ringcentral": "Hindi, hindi katutubong pinag-isa sa isang inbox"
           },
           "integrationQuality": {
-            "name": "[FIL]Integration Quality",
-            "seasalt": "[FIL]Reliable, modern integrations",
-            "ringcentral": "[FIL]Users report buggy integrations and logging issues"
+            "name": "Kalidad ng Pagsasama",
+            "seasalt": "Maaasahan, modernong mga pagsasama",
+            "ringcentral": "Nag-uulat ang mga gumagamit ng mga buggy na pagsasama at mga isyu sa pag-log"
           },
           "easeOfUse": {
-            "name": "[FIL]Ease of Use",
-            "seasalt": "[FIL]Intuitive for small teams",
-            "ringcentral": "[FIL]Users report setup can be \"mind-numbing"
+            "name": "Dali ng Paggamit",
+            "seasalt": "Madaling gamitin para sa maliliit na koponan",
+            "ringcentral": "Nag-uulat ang mga gumagamit na ang pag-setup ay maaaring maging \"nakakabagot\""
           },
           "bestFor": {
-            "name": "[FIL]Best For",
-            "seasalt": "[FIL]SMEs wanting a simple, powerful, and truly unified contact center",
-            "ringcentral": "[FIL]Larger companies needing a broad UCaaS platform and willing to pay extra for a separate contact center solution"
+            "name": "Pinakamahusay Para sa",
+            "seasalt": "Mga SME na nagnanais ng isang simple, malakas, at tunay na pinag-isang contact center",
+            "ringcentral": "Mas malalaking kumpanya na nangangailangan ng isang malawak na platform ng UCaaS at handang magbayad ng dagdag para sa isang hiwalay na solusyon sa contact center"
           }
         }
       },
       "architecture": {
-        "title": "[FIL]Architecture Matters",
-        "subtitle": "[FIL]Why unified beats fragmented when it comes to customer communications",
+        "title": "Mahalaga ang Arkitektura",
+        "subtitle": "Bakit mas mahusay ang pinag-isa kaysa sa pira-piraso pagdating sa mga komunikasyon sa customer",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: Unified Platform",
+          "title": "Seasalt.ai: Pinag-isang Platform",
           "features": {
-            "singleLogin": "[FIL]Single login for all channels",
-            "unifiedHistory": "[FIL]Unified conversation history",
-            "seamlessSwitching": "[FIL]Seamless channel switching",
-            "oneBilling": "[FIL]One billing, one support contact",
-            "builtInIntegrations": "[FIL]Built-in integrations that work"
+            "singleLogin": "Isang pag-login para sa lahat ng channel",
+            "unifiedHistory": "Pinag-isang kasaysayan ng pag-uusap",
+            "seamlessSwitching": "Walang putol na paglipat ng channel",
+            "oneBilling": "Isang pagsingil, isang contact sa suporta",
+            "builtInIntegrations": "Mga built-in na pagsasama na gumagana"
           }
         },
         "ringcentral": {
-          "title": "[FIL]RingCentral: Separate Products",
+          "title": "RingCentral: Paghiwalayin ang mga Produkto",
           "issues": {
-            "multipleLogins": "[FIL]Multiple logins and interfaces",
-            "fragmentedData": "[FIL]Fragmented conversation data",
-            "complexIntegration": "[FIL]Complex integration requirements",
-            "separateBilling": "[FIL]Separate billing for UCaaS and CCaaS",
-            "buggyIntegrations": "[FIL]Users report buggy integrations"
+            "multipleLogins": "Maramihang mga pag-login at interface",
+            "fragmentedData": "Pira-pirasong data ng pag-uusap",
+            "complexIntegration": "Mga kumplikadong kinakailangan sa pagsasama",
+            "separateBilling": "Paghiwalayin ang pagsingil para sa UCaaS at CCaaS",
+            "buggyIntegrations": "Nag-uulat ang mga gumagamit ng mga buggy na pagsasama"
           }
         }
       },
       "cta": {
-        "title": "[FIL]Ready for True Unification?",
-        "subtitle": "[FIL]Stop juggling separate systems. Get a truly unified contact center that works seamlessly from day one.",
-        "signUp": "[FIL]Sign Up",
-        "bookDemo": "[FIL]Book A Demo"
+        "title": "Handa na para sa Tunay na Pag-iisa?",
+        "subtitle": "Itigil ang pag-juggling ng mga hiwalay na system. Kumuha ng isang tunay na pinag-isang contact center na gumagana nang walang putol mula sa unang araw.",
+        "signUp": "Mag-sign Up",
+        "bookDemo": "Mag-book ng Demo"
       }
     },
     "genesysAlternative": {
       "seo": {
-        "title": "[FIL]Genesys Alternative - SME-Focused Contact Center Solutions",
-        "description": "[FIL]Enterprise-grade features without enterprise complexity. Compare Seasalt.ai[FIL] vs Genesys Cloud CX for small and medium businesses."
+        "title": "Alternatibo sa Genesys - Mga Solusyon sa Contact Center na Nakatuon sa SME",
+        "description": "Mga tampok sa antas ng enterprise nang walang kumplikasyon sa enterprise. Ihambing ang Seasalt.ai kumpara sa Genesys Cloud CX para sa maliliit at katamtamang mga negosyo."
       },
       "nav": {
-        "backToOverview": "[FIL]Back to Compare Us Overview"
+        "backToOverview": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
-        "title1": "[FIL]Enterprise Power,",
-        "title2": "[FIL]Without the Enterprise Price & Complexity",
-        "subtitle": "[FIL]Genesys is a powerful, enterprise-grade platform designed for massive corporations with dedicated IT teams and deep pockets. Their pricing models reflect this, with high per-user costs, significant minimum monthly commitments (~$2,000/mo minimum), and complex, token-based billing for AI features. For an SME, this is not just unaffordable—it's unmanageable."
+        "title1": "Kapangyarihan ng Enterprise,",
+        "title2": "Nang Walang Presyo at Kumplikasyon ng Enterprise",
+        "subtitle": "Ang Genesys ay isang malakas, platform sa antas ng enterprise na idinisenyo para sa napakalaking mga korporasyon na may dedikadong mga koponan sa IT at malalalim na bulsa. Sinasalamin ng kanilang mga modelo ng pagpepresyo ito, na may mataas na mga gastos bawat gumagamit, makabuluhang minimum na buwanang mga pangako (~$2,000/buwan na minimum), at kumplikado, batay sa token na pagsingil para sa mga tampok ng AI. Para sa isang SME, hindi lamang ito hindi abot-kaya—ito ay hindi mapamahalaan."
       },
       "comparison": {
-        "title": "[FIL]SME-Focused vs. Enterprise-Only",
-        "subtitle": "[FIL]See why Seasalt.ai[FIL] delivers the power you need without the complexity you don't"
+        "title": "Nakatuon sa SME kumpara sa Enterprise-Lamang",
+        "subtitle": "Tingnan kung bakit naghahatid ang Seasalt.ai ng kapangyarihan na kailangan mo nang walang kumplikasyon na hindi mo kailangan"
       },
       "table": {
         "headers": {
-          "feature": "[FIL]Feature",
+          "feature": "Tampok",
           "seasalt": "Seasalt.ai",
-          "genesys": "[FIL]Genesys Cloud CX"
+          "genesys": "Genesys Cloud CX"
         }
       },
       "features": {
         "targetCustomer": {
-          "name": "[FIL]Target Customer",
-          "seasalt": "[FIL]Small to Medium Businesses (SMEs)",
-          "competitor": "[FIL]Large Enterprises"
+          "name": "Target na Customer",
+          "seasalt": "Maliit hanggang Katamtamang mga Negosyo (SME)",
+          "competitor": "Malalaking Enterprise"
         },
         "startingPrice": {
-          "name": "[FIL]Starting Price",
-          "seasalt": "[FIL]$25/agent/month",
-          "competitor": "[FIL]$75/user/month"
+          "name": "Panimulang Presyo",
+          "seasalt": "$25/ahente/buwan",
+          "competitor": "$75/gumagamit/buwan"
         },
         "minimumCommitment": {
-          "name": "[FIL]Minimum Commitment",
-          "seasalt": "[FIL]None",
-          "competitor": "[FIL]High (~$2,000/month minimum)"
+          "name": "Minimum na Pangako",
+          "seasalt": "Wala",
+          "competitor": "Mataas (~$2,000/buwan na minimum)"
         },
         "pricingComplexity": {
-          "name": "[FIL]Pricing Complexity",
-          "seasalt": "[FIL]Simple & Transparent",
-          "competitor": "[FIL]Extremely Complex. Tiered plans, usage tokens, add-ons, quote-based"
+          "name": "Kumplikasyon sa Pagpepresyo",
+          "seasalt": "Simple at Transparent",
+          "competitor": "Lubhang Kumplikado. Mga tiered na plano, mga token sa paggamit, mga add-on, batay sa quote"
         },
         "easeOfSetup": {
-          "name": "[FIL]Ease of Setup",
-          "seasalt": "[FIL]Minutes to go live",
-          "competitor": "[FIL]Requires significant implementation resources"
+          "name": "Dali ng Pag-setup",
+          "seasalt": "Mga minuto upang mag-live",
+          "competitor": "Nangangailangan ng makabuluhang mga mapagkukunan sa pagpapatupad"
         },
         "bestFor": {
-          "name": "[FIL]Best For",
-          "seasalt": "[FIL]SMEs needing powerful features with simplicity and affordability",
-          "competitor": "[FIL]Global corporations with 100s of agents and dedicated management teams"
+          "name": "Pinakamahusay Para sa",
+          "seasalt": "Mga SME na nangangailangan ng malakas na mga tampok na may simple at abot-kayang halaga",
+          "competitor": "Mga pandaigdigang korporasyon na may 100s ng mga ahente at dedikadong mga koponan sa pamamahala"
         }
       },
       "costReality": {
-        "title": "[FIL]The Real Cost of Enterprise Solutions",
-        "subtitle": "[FIL]Why enterprise pricing doesn't make sense for growing businesses"
+        "title": "Ang Tunay na Gastos ng mga Solusyon sa Enterprise",
+        "subtitle": "Bakit hindi makatuwiran ang pagpepresyo ng enterprise para sa mga lumalagong negosyo"
       },
       "seasaltBenefits": {
-        "title": "Seasalt.ai[FIL]: Built for SMEs",
+        "title": "Seasalt.ai: Binuo para sa mga SME",
         "noMinimum": {
-          "title": "[FIL]No Minimum Commitment",
-          "description": "[FIL]Start with 1 user, scale as you grow"
+          "title": "Walang Minimum na Pangako",
+          "description": "Magsimula sa 1 gumagamit, palakihin habang lumalaki ka"
         },
         "simplePricing": {
-          "title": "[FIL]Simple Pricing",
-          "description": "[FIL]$25/agent/month, all features included"
+          "title": "Simpleng Pagpepresyo",
+          "description": "$25/ahente/buwan, kasama ang lahat ng mga tampok"
         },
         "quickSetup": {
-          "title": "[FIL]Quick Setup",
-          "description": "[FIL]Go live in minutes, not months"
+          "title": "Mabilis na Pag-setup",
+          "description": "Mag-live sa ilang minuto, hindi buwan"
         },
         "selfService": {
-          "title": "[FIL]Self-Service",
-          "description": "[FIL]No implementation team required"
+          "title": "Self-Service",
+          "description": "Walang kinakailangang koponan sa pagpapatupad"
         }
       },
       "genesysLimitations": {
-        "title": "[FIL]Genesys: Enterprise Focus",
+        "title": "Genesys: Pokus sa Enterprise",
         "highMinimums": {
-          "title": "[FIL]High Minimums",
-          "description": "[FIL]~$2,000/month minimum commitment"
+          "title": "Mataas na mga Minimum",
+          "description": "~$2,000/buwan na minimum na pangako"
         },
         "complexPricing": {
-          "title": "[FIL]Complex Pricing",
-          "description": "[FIL]Tiered plans, usage tokens, quote-based"
+          "title": "Kumplikadong Pagpepresyo",
+          "description": "Mga tiered na plano, mga token sa paggamit, batay sa quote"
         },
         "longImplementation": {
-          "title": "[FIL]Long Implementation",
-          "description": "[FIL]Requires dedicated implementation resources"
+          "title": "Mahabang Pagpapatupad",
+          "description": "Nangangailangan ng dedikadong mga mapagkukunan sa pagpapatupad"
         },
         "enterpriseSales": {
-          "title": "[FIL]Enterprise Sales",
-          "description": "[FIL]Must contact sales for pricing"
+          "title": "Pagbebenta sa Enterprise",
+          "description": "Dapat makipag-ugnayan sa sales para sa pagpepresyo"
         }
       },
       "cta": {
-        "title": "[FIL]Get Enterprise Features at SME Prices",
-        "subtitle": "[FIL]Why pay enterprise prices when you can get the features you need at a fraction of the cost?",
-        "signUp": "[FIL]Sign Up",
-        "bookDemo": "[FIL]Book A Demo"
+        "title": "Kumuha ng mga Tampok sa Enterprise sa mga Presyo ng SME",
+        "subtitle": "Bakit magbabayad ng mga presyo ng enterprise kung maaari kang makakuha ng mga tampok na kailangan mo sa isang bahagi ng gastos?",
+        "signUp": "Mag-sign Up",
+        "bookDemo": "Mag-book ng Demo"
       }
     },
     "five9Alternative": {
       "seo": {
-        "title": "[FIL]Five9 Alternative - Affordable Contact Center Solution | Seasalt.ai",
-        "description": "[FIL]Looking for a Five9 alternative? Seasalt.ai[FIL] offers powerful omnichannel contact center features at $25/agent/month vs Five9's $119/user/month. Perfect for SMEs."
+        "title": "Alternatibo sa Five9 - Abot-kayang Solusyon sa Contact Center | Seasalt.ai",
+        "description": "Naghahanap ng isang alternatibo sa Five9? Nag-aalok ang Seasalt.ai ng malakas na mga tampok sa omnichannel contact center sa $25/ahente/buwan kumpara sa $119/gumagamit/buwan ng Five9. Perpekto para sa mga SME."
       },
       "navigation": {
-        "backLink": "[FIL]Back to Compare Us Overview"
+        "backLink": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
         "title": {
-          "part1": "[FIL]Powerful Outbound Without the",
-          "part2": "[FIL]Enterprise Price Tag"
+          "part1": "Malakas na Outbound Nang Walang",
+          "part2": "Presyo ng Enterprise"
         },
-        "subtitle": "[FIL]Five9 is a powerful platform designed for large, outbound-heavy contact centers with enterprise budgets starting at $119/user/month. While excellent for massive call centers, it's overkill and overpriced for most growing businesses. Seasalt.ai[FIL] delivers the omnichannel and AI capabilities SMEs need with balanced inbound/outbound features at a fraction of the cost."
+        "subtitle": "Ang Five9 ay isang malakas na platform na idinisenyo para sa malalaki, outbound-heavy na mga contact center na may mga badyet sa enterprise na nagsisimula sa $119/gumagamit/buwan. Bagama't mahusay para sa napakalaking mga call center, ito ay overkill at masyadong mahal para sa karamihan ng mga lumalagong negosyo. Naghahatid ang Seasalt.ai ng mga kakayahan sa omnichannel at AI na kailangan ng mga SME na may balanseng mga tampok sa papasok/papalabas sa isang bahagi ng gastos."
       },
       "comparison": {
-        "title": "[FIL]Enterprise vs. SME-Focused Solutions",
-        "subtitle": "[FIL]See why you don't need enterprise complexity to get powerful results",
+        "title": "Mga Solusyon na Nakatuon sa Enterprise kumpara sa SME",
+        "subtitle": "Tingnan kung bakit hindi mo kailangan ng kumplikasyon sa enterprise upang makakuha ng malakas na mga resulta",
         "table": {
           "headers": {
-            "feature": "[FIL]Feature",
+            "feature": "Tampok",
             "seasalt": "Seasalt.ai",
-            "five9": "[FIL]Five9"
+            "five9": "Five9"
           }
         },
         "features": {
           "targetCustomer": {
-            "name": "[FIL]Target Customer",
-            "seasalt": "[FIL]Small to Medium Businesses (SMEs)",
-            "competitor": "[FIL]Large Enterprises"
+            "name": "Target na Customer",
+            "seasalt": "Maliit hanggang Katamtamang mga Negosyo (SME)",
+            "competitor": "Malalaking Enterprise"
           },
           "startingPrice": {
-            "name": "[FIL]Starting Price",
-            "seasalt": "[FIL]$25/agent/month",
-            "competitor": "[FIL]$119/user/month"
+            "name": "Panimulang Presyo",
+            "seasalt": "$25/ahente/buwan",
+            "competitor": "$119/gumagamit/buwan"
           },
           "pricingModel": {
-            "name": "[FIL]Pricing Model",
-            "seasalt": "[FIL]Simple & Transparent",
-            "competitor": "[FIL]Per-User + Bundles + Complex tiers"
+            "name": "Modelo ng Pagpepresyo",
+            "seasalt": "Simple at Transparent",
+            "competitor": "Bawat-Gumagamit + mga Bundle + Kumplikadong mga tier"
           },
           "setupComplexity": {
-            "name": "[FIL]Setup Complexity",
-            "seasalt": "[FIL]Self-service, minutes to deploy",
-            "competitor": "[FIL]Requires professional services and implementation team"
+            "name": "Kumplikasyon sa Pag-setup",
+            "seasalt": "Self-service, mga minuto upang i-deploy",
+            "competitor": "Nangangailangan ng mga propesyonal na serbisyo at koponan sa pagpapatupad"
           },
           "outboundFocus": {
-            "name": "[FIL]Outbound Focus",
-            "seasalt": "[FIL]Balanced inbound/outbound with AI automation",
-            "competitor": "[FIL]Heavy outbound focus with advanced dialing"
+            "name": "Pokus sa Outbound",
+            "seasalt": "Balanseng papasok/papalabas na may AI automation",
+            "competitor": "Malakas na pokus sa outbound na may advanced na pag-dial"
           },
           "bestFor": {
-            "name": "[FIL]Best For",
-            "seasalt": "[FIL]SMEs needing affordable omnichannel with AI automation",
-            "competitor": "[FIL]Large, outbound-heavy contact centers with dedicated teams"
+            "name": "Pinakamahusay Para sa",
+            "seasalt": "Mga SME na nangangailangan ng abot-kayang omnichannel na may AI automation",
+            "competitor": "Malalaki, outbound-heavy na mga contact center na may dedikadong mga koponan"
           }
         }
       },
       "cost": {
-        "title": "[FIL]The Cost Reality",
-        "subtitle": "[FIL]See how Five9's enterprise pricing compares to Seasalt.ai[FIL]'s SME-focused approach",
+        "title": "Ang Katotohanan sa Gastos",
+        "subtitle": "Tingnan kung paano nagkukumpara ang pagpepresyo ng enterprise ng Five9 sa diskarte na nakatuon sa SME ng Seasalt.ai",
         "agents5": {
-          "title": "[FIL]5 Agents",
+          "title": "5 Ahente",
           "seasalt": {
-            "price": "[FIL]$175/mo",
+            "price": "$175/buwan",
             "label": "Seasalt.ai"
           },
           "five9": {
-            "price": "[FIL]$595/mo",
-            "label": "[FIL]Five9"
+            "price": "$595/buwan",
+            "label": "Five9"
           },
-          "savings": "[FIL]Save $420/month"
+          "savings": "Makatipid ng $420/buwan"
         },
         "agents10": {
-          "title": "[FIL]10 Agents",
+          "title": "10 Ahente",
           "seasalt": {
-            "price": "[FIL]$275/mo",
+            "price": "$275/buwan",
             "label": "Seasalt.ai"
           },
           "five9": {
-            "price": "[FIL]$1,190/mo",
-            "label": "[FIL]Five9"
+            "price": "$1,190/buwan",
+            "label": "Five9"
           },
-          "savings": "[FIL]Save $915/month"
+          "savings": "Makatipid ng $915/buwan"
         },
         "agents20": {
-          "title": "[FIL]20 Agents",
+          "title": "20 Ahente",
           "seasalt": {
-            "price": "[FIL]$525/mo",
+            "price": "$525/buwan",
             "label": "Seasalt.ai"
           },
           "five9": {
-            "price": "[FIL]$2,380/mo",
-            "label": "[FIL]Five9"
+            "price": "$2,380/buwan",
+            "label": "Five9"
           },
-          "savings": "[FIL]Save $1,855/month"
+          "savings": "Makatipid ng $1,855/buwan"
         }
       },
       "features": {
-        "title": "[FIL]Balanced Approach vs. Outbound-Heavy",
-        "subtitle": "[FIL]Most businesses need both inbound and outbound capabilities, not just heavy outbound focus",
+        "title": "Balanseng Diskarte kumpara sa Outbound-Heavy",
+        "subtitle": "Karamihan sa mga negosyo ay nangangailangan ng parehong mga kakayahan sa papasok at papalabas, hindi lamang malakas na pokus sa outbound",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: Balanced Omnichannel",
-          "feature1": "[FIL]Inbound customer support across all channels",
-          "feature2": "[FIL]Outbound marketing campaigns (SMS[FIL], WhatsApp[FIL], Voice)",
-          "feature3": "[FIL]AI automation for both inbound and outbound",
-          "feature4": "[FIL]Unified inbox for all customer interactions",
-          "feature5": "[FIL]Perfect for growing businesses"
+          "title": "Seasalt.ai: Balanseng Omnichannel",
+          "feature1": "Papasok na suporta sa customer sa lahat ng channel",
+          "feature2": "Mga kampanya sa outbound marketing (SMS, WhatsApp, Boses)",
+          "feature3": "AI automation para sa parehong papasok at papalabas",
+          "feature4": "Pinag-isang inbox para sa lahat ng mga pakikipag-ugnayan ng customer",
+          "feature5": "Perpekto para sa mga lumalagong negosyo"
         },
         "five9": {
-          "title": "[FIL]Five9: Outbound-Heavy Focus",
-          "feature1": "[FIL]Advanced predictive dialing capabilities",
-          "feature2": "[FIL]Complex campaign management tools",
-          "feature3": "[FIL]Enterprise-grade compliance features",
-          "feature4": "[FIL]Designed for high-volume call centers",
-          "feature5": "[FIL]Requires dedicated management team"
+          "title": "Five9: Pokus na Outbound-Heavy",
+          "feature1": "Mga advanced na kakayahan sa predictive dialing",
+          "feature2": "Mga kumplikadong tool sa pamamahala ng kampanya",
+          "feature3": "Mga tampok sa pagsunod sa antas ng enterprise",
+          "feature4": "Idinisenyo para sa mga call center na may mataas na dami",
+          "feature5": "Nangangailangan ng dedikadong koponan sa pamamahala"
         }
       },
       "cta": {
-        "title": "[FIL]Get Powerful Features Without Enterprise Complexity",
-        "subtitle": "[FIL]Why pay 5x more for features you don't need? Get the balanced omnichannel solution that grows with your business.",
-        "signUp": "[FIL]Sign Up",
-        "bookDemo": "[FIL]Book A Demo"
+        "title": "Kumuha ng Malakas na mga Tampok Nang Walang Kumplikasyon sa Enterprise",
+        "subtitle": "Bakit magbabayad ng 5x na higit pa para sa mga tampok na hindi mo kailangan? Kumuha ng balanseng solusyon sa omnichannel na lumalaki kasama ng iyong negosyo.",
+        "signUp": "Mag-sign Up",
+        "bookDemo": "Mag-book ng Demo"
       }
     },
     "avayaAlternative": {
       "seo": {
-        "title": "[FIL]Modern Cloud-Native vs. Legacy Infrastructure - Avaya Alternative | Seasalt.ai",
-        "description": "[FIL]Compare Seasalt.ai[FIL]'s modern cloud-native architecture with Avaya's legacy infrastructure. See why cloud-first beats adapted legacy systems for growing businesses."
+        "title": "Modernong Cloud-Native kumpara sa Legacy na Imprastraktura - Alternatibo sa Avaya | Seasalt.ai",
+        "description": "Ihambing ang modernong cloud-native na arkitektura ng Seasalt.ai sa legacy na imprastraktura ng Avaya. Tingnan kung bakit mas mahusay ang cloud-first kaysa sa mga inangkop na legacy system para sa mga lumalagong negosyo."
       },
       "navigation": {
-        "backToCompare": "[FIL]Back to Compare Us Overview"
+        "backToCompare": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
         "title": {
-          "main": "[FIL]Modern Cloud-Native vs.",
-          "highlight": "[FIL]Legacy Infrastructure"
+          "main": "Modernong Cloud-Native kumpara sa",
+          "highlight": "Legacy na Imprastraktura"
         },
-        "description": "[FIL]Avaya has been a telecommunications giant for decades, but their legacy architecture and complex enterprise focus make them a poor fit for modern, growing businesses. While they're transitioning to cloud solutions, their pricing remains enterprise-focused with complex licensing and professional services requirements. Seasalt.ai[FIL] is built cloud-native from day one for the modern business."
+        "description": "Ang Avaya ay naging isang higante sa telekomunikasyon sa loob ng mga dekada, ngunit ang kanilang legacy na arkitektura at kumplikadong pokus sa enterprise ay ginagawa silang hindi angkop para sa mga moderno, lumalagong negosyo. Habang sila ay lumilipat sa mga solusyon sa cloud, ang kanilang pagpepresyo ay nananatiling nakatuon sa enterprise na may mga kumplikadong kinakailangan sa paglilisensya at mga propesyonal na serbisyo. Ang Seasalt.ai ay binuo na cloud-native mula sa unang araw para sa modernong negosyo."
       },
       "comparison": {
-        "title": "[FIL]Cloud-Native vs. Legacy Migration",
-        "subtitle": "[FIL]See why starting with modern architecture beats adapting legacy systems",
+        "title": "Cloud-Native kumpara sa Legacy na Paglipat",
+        "subtitle": "Tingnan kung bakit mas mahusay ang pagsisimula sa modernong arkitektura kaysa sa pag-angkop sa mga legacy system",
         "tableHeaders": {
-          "feature": "[FIL]Feature",
+          "feature": "Tampok",
           "seasalt": "Seasalt.ai",
-          "avaya": "[FIL]Avaya"
+          "avaya": "Avaya"
         },
         "features": {
           "platformType": {
-            "name": "[FIL]Platform Type",
-            "seasalt": "[FIL]Cloud-Native Unified Communications",
-            "competitor": "[FIL]Legacy On-Premise with Cloud Migration"
+            "name": "Uri ng Platform",
+            "seasalt": "Cloud-Native na Pinag-isang Komunikasyon",
+            "competitor": "Legacy On-Premise na may Paglipat sa Cloud"
           },
           "startingPrice": {
-            "name": "[FIL]Starting Price",
-            "seasalt": "[FIL]$25/agent/month",
-            "competitor": "[FIL]Quote-based (typically $50-100+/user/month)"
+            "name": "Panimulang Presyo",
+            "seasalt": "$25/ahente/buwan",
+            "competitor": "Batay sa quote (karaniwang $50-100+/gumagamit/buwan)"
           },
           "setupComplexity": {
-            "name": "[FIL]Setup Complexity",
-            "seasalt": "[FIL]Self-service, minutes to deploy",
-            "competitor": "[FIL]Requires professional services and implementation"
+            "name": "Kumplikasyon sa Pag-setup",
+            "seasalt": "Self-service, mga minuto upang i-deploy",
+            "competitor": "Nangangailangan ng mga propesyonal na serbisyo at pagpapatupad"
           },
           "modernArchitecture": {
-            "name": "[FIL]Modern Architecture",
-            "seasalt": "[FIL]Built for cloud-first, API-driven",
-            "competitor": "[FIL]Legacy architecture with cloud adaptations"
+            "name": "Modernong Arkitektura",
+            "seasalt": "Binuo para sa cloud-first, hinimok ng API",
+            "competitor": "Legacy na arkitektura na may mga pag-angkop sa cloud"
           },
           "aiIntegration": {
-            "name": "[FIL]AI Integration",
-            "seasalt": "[FIL]Native AI voice and chatbots included",
-            "competitor": "[FIL]AI capabilities through partnerships and add-ons"
+            "name": "Pagsasama ng AI",
+            "seasalt": "Kasama ang katutubong AI voice at mga chatbot",
+            "competitor": "Mga kakayahan sa AI sa pamamagitan ng mga pakikipagsosyo at mga add-on"
           },
           "targetMarket": {
-            "name": "[FIL]Target Market",
-            "seasalt": "[FIL]SMEs and growing businesses",
-            "competitor": "[FIL]Large enterprises with existing Avaya infrastructure"
+            "name": "Target na Merkado",
+            "seasalt": "Mga SME at lumalagong negosyo",
+            "competitor": "Malalaking enterprise na may umiiral na imprastraktura ng Avaya"
           }
         }
       },
       "architecture": {
-        "title": "[FIL]Modern vs. Legacy Architecture",
-        "subtitle": "[FIL]Why cloud-native architecture matters for growing businesses",
+        "title": "Moderno kumpara sa Legacy na Arkitektura",
+        "subtitle": "Bakit mahalaga ang cloud-native na arkitektura para sa mga lumalagong negosyo",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: Cloud-Native",
-          "feature1": "[FIL]Built for cloud from day one",
-          "feature2": "[FIL]API-first architecture",
-          "feature3": "[FIL]Automatic updates and scaling",
-          "feature4": "[FIL]Modern integrations",
-          "feature5": "[FIL]Self-service deployment"
+          "title": "Seasalt.ai: Cloud-Native",
+          "feature1": "Binuo para sa cloud mula sa unang araw",
+          "feature2": "Arkitektura na API-first",
+          "feature3": "Mga awtomatikong update at pag-scale",
+          "feature4": "Modernong mga pagsasama",
+          "feature5": "Pag-deploy ng self-service"
         },
         "avaya": {
-          "title": "[FIL]Avaya: Legacy Migration",
-          "feature1": "[FIL]Legacy on-premise roots",
-          "feature2": "[FIL]Complex licensing models",
-          "feature3": "[FIL]Professional services required",
-          "feature4": "[FIL]Integration complexity",
-          "feature5": "[FIL]Enterprise sales process"
+          "title": "Avaya: Legacy na Paglipat",
+          "feature1": "Mga ugat sa legacy on-premise",
+          "feature2": "Mga kumplikadong modelo ng paglilisensya",
+          "feature3": "Kinakailangan ang mga propesyonal na serbisyo",
+          "feature4": "Kumplikasyon sa pagsasama",
+          "feature5": "Proseso ng pagbebenta sa enterprise"
         }
       },
       "businessImpact": {
-        "title": "[FIL]Business Impact",
-        "subtitle": "[FIL]How architecture choices affect your business operations",
+        "title": "Epekto sa Negosyo",
+        "subtitle": "Paano nakakaapekto sa iyong mga operasyon sa negosyo ang mga pagpipilian sa arkitektura",
         "timeToValue": {
-          "title": "[FIL]Time to Value",
+          "title": "Oras sa Halaga",
           "seasalt": {
-            "value": "[FIL]Minutes",
+            "value": "Mga minuto",
             "label": "Seasalt.ai"
           },
           "avaya": {
-            "value": "[FIL]Months",
-            "label": "[FIL]Avaya"
+            "value": "Mga buwan",
+            "label": "Avaya"
           }
         },
         "setupComplexity": {
-          "title": "[FIL]Setup Complexity",
+          "title": "Kumplikasyon sa Pag-setup",
           "seasalt": {
-            "value": "[FIL]Self-Service",
+            "value": "Self-Service",
             "label": "Seasalt.ai"
           },
           "avaya": {
-            "value": "[FIL]Professional Services",
-            "label": "[FIL]Avaya"
+            "value": "Mga Propesyonal na Serbisyo",
+            "label": "Avaya"
           }
         },
         "ongoingMaintenance": {
-          "title": "[FIL]Ongoing Maintenance",
+          "title": "Patuloy na Pagpapanatili",
           "seasalt": {
-            "value": "[FIL]Automatic",
+            "value": "Awtomatiko",
             "label": "Seasalt.ai"
           },
           "avaya": {
-            "value": "[FIL]Manual",
-            "label": "[FIL]Avaya"
+            "value": "Manwal",
+            "label": "Avaya"
           }
         }
       },
       "cta": {
-        "title": "[FIL]Choose Modern Over Legacy",
-        "subtitle": "[FIL]Why struggle with legacy architecture when you can have a modern, cloud-native solution built for today's businesses?",
-        "signUp": "[FIL]Sign Up",
-        "bookDemo": "[FIL]Book A Demo"
+        "title": "Piliin ang Moderno Kaysa sa Legacy",
+        "subtitle": "Bakit magtitiis sa legacy na arkitektura kung maaari kang magkaroon ng isang moderno, cloud-native na solusyon na binuo para sa mga negosyo ngayon?",
+        "signUp": "Mag-sign Up",
+        "bookDemo": "Mag-book ng Demo"
       }
     },
     "googleVoiceAlternative": {
       "seo": {
-        "title": "[FIL]Graduating from Google Voice? Here's the Professional Solution You Need - Seasalt.ai",
-        "description": "[FIL]See why growing businesses need more than Google Voice's basic VoIP service. Compare features and discover Seasalt.ai[FIL]'s professional communication platform."
+        "title": "Nagtapos mula sa Google Voice? Narito ang Propesyonal na Solusyon na Kailangan Mo - Seasalt.ai",
+        "description": "Tingnan kung bakit kailangan ng mga lumalagong negosyo ang higit pa sa pangunahing serbisyo ng VoIP ng Google Voice. Ihambing ang mga tampok at tuklasin ang propesyonal na platform ng komunikasyon ng Seasalt.ai."
       },
       "nav": {
-        "backToOverview": "[FIL]Back to Compare Us Overview"
+        "backToOverview": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
         "title": {
-          "line1": "[FIL]Graduating from Google Voice?",
-          "line2": "[FIL]Here's the Professional Solution You Need"
+          "line1": "Nagtapos mula sa Google Voice?",
+          "line2": "Narito ang Propesyonal na Solusyon na Kailangan Mo"
         },
-        "subtitle": "[FIL]Google Voice is a great tool for personal use or solopreneurs, but it's not a true business phone system. As soon as you hire a team, you'll hit a wall. It lacks critical business features like a shared team inbox, call queues, toll-free numbers, and analytics. Most importantly, it has no public API, meaning it cannot integrate with your CRM or other essential business software."
+        "subtitle": "Ang Google Voice ay isang mahusay na tool para sa personal na paggamit o mga solopreneur, ngunit hindi ito isang tunay na sistema ng telepono sa negosyo. Sa sandaling mag-hire ka ng isang koponan, tatama ka sa isang pader. Kulang ito sa mga kritikal na tampok sa negosyo tulad ng isang shared team inbox, mga pila ng tawag, mga toll-free na numero, at analytics. Pinakamahalaga, wala itong pampublikong API, na nangangahulugang hindi ito maaaring isama sa iyong CRM o iba pang mahahalagang software sa negosyo."
       },
       "comparison": {
-        "title": "[FIL]Professional Business System vs. Personal VoIP",
-        "subtitle": "[FIL]See why growing businesses need more than a basic phone service",
+        "title": "Propesyonal na Sistema ng Negosyo kumpara sa Personal na VoIP",
+        "subtitle": "Tingnan kung bakit kailangan ng mga lumalagong negosyo ang higit pa sa isang pangunahing serbisyo sa telepono",
         "table": {
-          "feature": "[FIL]Feature",
+          "feature": "Tampok",
           "seasalt": "Seasalt.ai",
-          "competitor": "[FIL]Google Voice"
+          "competitor": "Google Voice"
         },
         "features": {
           "systemType": {
-            "feature": "[FIL]System Type",
-            "seasalt": "[FIL]Professional Omni-Channel Contact Center",
-            "competitor": "[FIL]Basic VoIP Service (not a true phone system)"
+            "feature": "Uri ng Sistema",
+            "seasalt": "Propesyonal na Omni-Channel Contact Center",
+            "competitor": "Pangunahing Serbisyo ng VoIP (hindi isang tunay na sistema ng telepono)"
           },
           "teamCollaboration": {
-            "feature": "[FIL]Team Collaboration",
-            "seasalt": "[FIL]Shared Inbox, Team Management",
-            "competitor": "[FIL]No Shared Inbox. Designed for individuals, not teams"
+            "feature": "Pakikipagtulungan ng Koponan",
+            "seasalt": "Shared Inbox, Pamamahala ng Koponan",
+            "competitor": "Walang Shared Inbox. Idinisenyo para sa mga indibidwal, hindi mga koponan"
           },
           "crmIntegrations": {
-            "feature": "[FIL]CRM & 3rd Party Integrations",
-            "seasalt": "[FIL]Yes, extensive integrations",
-            "competitor": "[FIL]No. Only integrates with Google Workspace apps"
+            "feature": "Mga Pagsasama sa CRM at 3rd Party",
+            "seasalt": "Oo, malawak na mga pagsasama",
+            "competitor": "Hindi. Isinasama lamang sa mga app ng Google Workspace"
           },
           "supportedChannels": {
-            "feature": "[FIL]Supported Channels",
-            "seasalt": "[FIL]Voice, SMS[FIL], WhatsApp[FIL], Messenger, Instagram, LINE[FIL], Webchat",
-            "competitor": "[FIL]Voice, SMS[FIL] (US only)"
+            "feature": "Mga Suportadong Channel",
+            "seasalt": "Boses, SMS, WhatsApp, Messenger, Instagram, LINE, Webchat",
+            "competitor": "Boses, SMS (US lamang)"
           },
           "automation": {
-            "feature": "[FIL]Automation (Bots/IVR)",
-            "seasalt": "[FIL]AI Voicebot, Chatbot, Advanced IVR",
-            "competitor": "[FIL]Basic Auto-Attendant only. No other automation"
+            "feature": "Automation (Mga Bot/IVR)",
+            "seasalt": "AI Voicebot, Chatbot, Advanced na IVR",
+            "competitor": "Pangunahing Auto-Attendant lamang. Walang ibang automation"
           },
           "tollFree": {
-            "feature": "[FIL]Toll-Free Numbers",
-            "seasalt": "[FIL]Yes",
-            "competitor": "[FIL]No"
+            "feature": "Mga Toll-Free na Numero",
+            "seasalt": "Oo",
+            "competitor": "Hindi"
           },
           "callAnalytics": {
-            "feature": "[FIL]Call Analytics",
-            "seasalt": "[FIL]Yes, detailed reporting",
-            "competitor": "[FIL]No. Basic usage logs only"
+            "feature": "Analytics ng Tawag",
+            "seasalt": "Oo, detalyadong pag-uulat",
+            "competitor": "Hindi. Mga pangunahing log ng paggamit lamang"
           },
           "bestFor": {
-            "feature": "[FIL]Best For",
-            "seasalt": "[FIL]Growing businesses needing a professional, scalable communications platform",
-            "competitor": "[FIL]Solopreneurs or freelancers in the US needing a simple, separate phone number"
+            "feature": "Pinakamahusay Para sa",
+            "seasalt": "Mga lumalagong negosyo na nangangailangan ng isang propesyonal, nasusukat na platform ng komunikasyon",
+            "competitor": "Mga solopreneur o freelancer sa US na nangangailangan ng isang simple, hiwalay na numero ng telepono"
           }
         }
       },
       "growthLimitations": {
-        "title": "[FIL]When You Outgrow Google Voice",
-        "subtitle": "[FIL]Signs it's time to upgrade to a professional business communications platform",
+        "title": "Kapag Nalampasan Mo na ang Google Voice",
+        "subtitle": "Mga palatandaan na oras na upang mag-upgrade sa isang propesyonal na platform ng komunikasyon sa negosyo",
         "firstEmployee": {
-          "title": "[FIL]You Hired Your First Employee",
-          "description": "[FIL]Google Voice doesn't support shared inboxes or team collaboration. Each person needs their own number."
+          "title": "Nag-hire Ka ng Iyong Unang Empleyado",
+          "description": "Hindi sinusuportahan ng Google Voice ang mga shared inbox o pakikipagtulungan ng koponan. Ang bawat tao ay nangangailangan ng kanilang sariling numero."
         },
         "crmIntegration": {
-          "title": "[FIL]You Need CRM Integration",
-          "description": "[FIL]No API means no integration with Salesforce, HubSpot[FIL], or any other business tools."
+          "title": "Kailangan Mo ng Pagsasama sa CRM",
+          "description": "Walang API ay nangangahulugang walang pagsasama sa Salesforce, HubSpot, o anumang iba pang mga tool sa negosyo."
         },
         "professionalFeatures": {
-          "title": "[FIL]You Want Professional Features",
-          "description": "[FIL]No call queues, advanced IVR, call analytics, or toll-free numbers available."
+          "title": "Gusto Mo ng mga Propesyonal na Tampok",
+          "description": "Walang mga pila ng tawag, advanced na IVR, analytics ng tawag, o mga toll-free na numero na available."
         },
         "multipleChannels": {
-          "title": "[FIL]You Need Multiple Channels",
-          "description": "[FIL]Only supports voice and SMS[FIL]. No WhatsApp[FIL], webchat, or social media integration."
+          "title": "Kailangan Mo ng Maramihang mga Channel",
+          "description": "Sinusuportahan lamang ang boses at SMS. Walang WhatsApp, webchat, o pagsasama sa social media."
         },
         "automation": {
-          "title": "[FIL]You Want Automation",
-          "description": "[FIL]No AI chatbots, voicebots, or advanced automation capabilities available."
+          "title": "Gusto Mo ng Automation",
+          "description": "Walang mga AI chatbot, voicebot, o mga advanced na kakayahan sa automation na available."
         },
         "internationalSupport": {
-          "title": "[FIL]You Need International Support",
-          "description": "[FIL]Limited international calling and SMS[FIL] support compared to business platforms."
+          "title": "Kailangan Mo ng Internasyonal na Suporta",
+          "description": "Limitadong internasyonal na pagtawag at suporta sa SMS kumpara sa mga platform ng negosyo."
         }
       },
       "benefits": {
-        "title": "[FIL]What You Gain with Seasalt.ai",
-        "subtitle": "[FIL]The professional features your growing business needs",
+        "title": "Ano ang Makukuha Mo sa Seasalt.ai",
+        "subtitle": "Ang mga propesyonal na tampok na kailangan ng iyong lumalagong negosyo",
         "teamCollaboration": {
-          "title": "[FIL]Team Collaboration",
-          "feature1": "[FIL]Shared team inbox for all communications",
-          "feature2": "[FIL]Round-robin call distribution",
-          "feature3": "[FIL]Team performance analytics",
-          "feature4": "[FIL]Conversation handoffs between agents"
+          "title": "Pakikipagtulungan ng Koponan",
+          "feature1": "Shared team inbox para sa lahat ng mga komunikasyon",
+          "feature2": "Pamamahagi ng tawag na round-robin",
+          "feature3": "Analytics ng pagganap ng koponan",
+          "feature4": "Mga pag-handoff ng pag-uusap sa pagitan ng mga ahente"
         },
         "professionalFeatures": {
-          "title": "[FIL]Professional Features",
-          "feature1": "[FIL]Advanced IVR and call routing",
-          "feature2": "[FIL]Toll-free numbers available",
-          "feature3": "[FIL]Detailed call analytics and reporting",
-          "feature4": "[FIL]CRM and business tool integrations"
+          "title": "Mga Propesyonal na Tampok",
+          "feature1": "Advanced na IVR at pagruruta ng tawag",
+          "feature2": "Available ang mga toll-free na numero",
+          "feature3": "Detalyadong analytics at pag-uulat ng tawag",
+          "feature4": "Mga pagsasama sa CRM at mga tool sa negosyo"
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Upgrade to Professional Communications?",
-        "subtitle": "[FIL]Make the switch from Google Voice to a platform built for growing businesses. Keep your existing number and gain powerful new capabilities.",
-        "signUp": "[FIL]Sign Up",
-        "bookDemo": "[FIL]Book a Demo"
+        "title": "Handa nang Mag-upgrade sa mga Propesyonal na Komunikasyon?",
+        "subtitle": "Gawin ang paglipat mula sa Google Voice patungo sa isang platform na binuo para sa mga lumalagong negosyo. Panatilihin ang iyong umiiral na numero at makakuha ng malakas na mga bagong kakayahan.",
+        "signUp": "Mag-sign Up",
+        "bookDemo": "Mag-book ng Demo"
       }
     },
     "respondIoAlternative": {
       "seo": {
-        "title": "[FIL]Respond.io Alternative - Seasalt.ai",
-        "description": "[FIL]Compare Seasalt.ai[FIL] vs Respond.io. Get true omnichannel with native voice calling instead of beta features. Predictable per-agent pricing vs complex MACs model."
+        "title": "Alternatibo sa Respond.io - Seasalt.ai",
+        "description": "Ihambing ang Seasalt.ai kumpara sa Respond.io. Kumuha ng tunay na omnichannel na may katutubong pagtawag sa boses sa halip na mga tampok na beta. Mahuhulaan na pagpepresyo bawat ahente kumpara sa kumplikadong modelo ng MACs."
       },
       "navigation": {
-        "backLink": "[FIL]Back to Compare Us Overview"
+        "backLink": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
         "title": {
-          "main": "[FIL]Don't Settle for Digital-Only.",
-          "highlight": "[FIL]Get True Omnichannel with Native Voice and Messaging"
+          "main": "Huwag Makuntento sa Digital-Lamang.",
+          "highlight": "Kumuha ng Tunay na Omnichannel na may Katutubong Boses at Pagmemensahe"
         },
-        "description": "[FIL]Respond.io is a strong platform for businesses focused on messaging channels like WhatsApp[FIL]. However, its pricing is based on Monthly Active Contacts (MACs), which can become unpredictable, and crucial channels like Voice are still in beta. Furthermore, WhatsApp[FIL] usage fees are billed separately, adding another layer of cost complexity. Seasalt.ai[FIL] offers a truly unified platform where voice is a core, native feature."
+        "description": "Ang Respond.io ay isang malakas na platform para sa mga negosyo na nakatuon sa mga channel ng pagmemensahe tulad ng WhatsApp. Gayunpaman, ang pagpepresyo nito ay batay sa Buwanang Aktibong mga Contact (MACs), na maaaring maging hindi mahuhulaan, at ang mga mahahalagang channel tulad ng Boses ay nasa beta pa rin. Bukod dito, ang mga bayarin sa paggamit ng WhatsApp ay hiwalay na sinisingil, na nagdaragdag ng isa pang layer ng kumplikasyon sa gastos. Nag-aalok ang Seasalt.ai ng isang tunay na pinag-isang platform kung saan ang boses ay isang pangunahing, katutubong tampok."
       },
       "comparison": {
-        "title": "[FIL]Unified Omnichannel vs. Digital-First",
-        "subtitle": "[FIL]See why native voice integration matters for complete customer communication",
+        "title": "Pinag-isang Omnichannel kumpara sa Digital-First",
+        "subtitle": "Tingnan kung bakit mahalaga ang katutubong pagsasama ng boses para sa kumpletong komunikasyon sa customer",
         "table": {
           "headers": {
-            "feature": "[FIL]Feature",
+            "feature": "Tampok",
             "seasalt": "Seasalt.ai",
-            "competitor": "[FIL]respond.io"
+            "competitor": "respond.io"
           }
         },
         "features": {
           "pricingModel": {
-            "name": "[FIL]Pricing Model",
-            "seasalt": "[FIL]Simple & predictable per-agent fee",
-            "competitor": "[FIL]Monthly Active Contacts (MACs) + Users"
+            "name": "Modelo ng Pagpepresyo",
+            "seasalt": "Simple at mahuhulaan na bayad bawat ahente",
+            "competitor": "Buwanang Aktibong mga Contact (MACs) + mga Gumagamit"
           },
           "startingPrice": {
-            "name": "[FIL]Starting Price",
-            "seasalt": "[FIL]$25/agent/month",
-            "competitor": "[FIL]$79/month (includes 5 users)"
+            "name": "Panimulang Presyo",
+            "seasalt": "$25/ahente/buwan",
+            "competitor": "$79/buwan (kasama ang 5 gumagamit)"
           },
           "voiceCalling": {
-            "name": "[FIL]Voice Calling",
-            "seasalt": "[FIL]Yes, native and fully supported",
-            "competitor": "[FIL]Beta feature"
+            "name": "Pagtawag sa Boses",
+            "seasalt": "Oo, katutubo at ganap na suportado",
+            "competitor": "Tampok na beta"
           },
           "whatsappFees": {
-            "name": "WhatsApp[FIL] Fees",
-            "seasalt": "[FIL]Included in usage",
-            "competitor": "[FIL]Billed separately by Meta"
+            "name": "Mga Bayarin sa WhatsApp",
+            "seasalt": "Kasama sa paggamit",
+            "competitor": "Hiwalay na sinisingil ng Meta"
           },
           "aiAgent": {
-            "name": "[FIL]AI Agent",
-            "seasalt": "[FIL]Yes, included in all plans",
-            "competitor": "[FIL]Requires Growth plan ($159/mo+)"
+            "name": "Ahente ng AI",
+            "seasalt": "Oo, kasama sa lahat ng mga plano",
+            "competitor": "Nangangailangan ng Growth plan ($159/buwan+)"
           },
           "coreFocus": {
-            "name": "[FIL]Core Focus",
-            "seasalt": "[FIL]True Omnichannel (Voice + Digital)",
-            "competitor": "[FIL]Digital-First Messaging"
+            "name": "Pangunahing Pokus",
+            "seasalt": "Tunay na Omnichannel (Boses + Digital)",
+            "competitor": "Digital-First na Pagmemensahe"
           },
           "bestFor": {
-            "name": "[FIL]Best For",
-            "seasalt": "[FIL]SMEs needing a unified hub for all customer conversations, including phone calls",
-            "competitor": "[FIL]Marketing and sales teams focused primarily on lead generation through chat"
+            "name": "Pinakamahusay Para sa",
+            "seasalt": "Mga SME na nangangailangan ng isang pinag-isang hub para sa lahat ng mga pag-uusap sa customer, kabilang ang mga tawag sa telepono",
+            "competitor": "Mga koponan sa marketing at pagbebenta na pangunahing nakatuon sa pagbuo ng lead sa pamamagitan ng chat"
           }
         }
       },
       "pricing": {
-        "title": "[FIL]Predictable vs. Variable Pricing",
-        "subtitle": "[FIL]Why simple per-agent pricing beats complex contact-based models",
+        "title": "Mahuhulaan kumpara sa Variable na Pagpepresyo",
+        "subtitle": "Bakit mas mahusay ang simpleng pagpepresyo bawat ahente kaysa sa mga kumplikadong modelo na batay sa contact",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: Simple & Predictable",
+          "title": "Seasalt.ai: Simple at Mahuhulaan",
           "perAgent": {
-            "title": "[FIL]Per-Agent Pricing",
-            "description": "[FIL]$25/agent/month - easy to budget and scale"
+            "title": "Pagpepresyo Bawat-Ahente",
+            "description": "$25/ahente/buwan - madaling i-badyet at i-scale"
           },
           "allChannels": {
-            "title": "[FIL]All Channels Included",
-            "description": "[FIL]Voice, SMS[FIL], WhatsApp[FIL], chat - no extra fees"
+            "title": "Kasama ang Lahat ng Channel",
+            "description": "Boses, SMS, WhatsApp, chat - walang dagdag na bayarin"
           },
           "usageIncluded": {
-            "title": "[FIL]Usage Included",
-            "description": "WhatsApp[FIL] and SMS[FIL] usage included in plan"
+            "title": "Kasama ang Paggamit",
+            "description": "Kasama sa plano ang paggamit ng WhatsApp at SMS"
           },
           "noSurprises": {
-            "title": "[FIL]No Surprises",
-            "description": "[FIL]Predictable monthly costs, easy to forecast"
+            "title": "Walang mga Sorpresa",
+            "description": "Mahuhulaan na buwanang mga gastos, madaling i-forecast"
           }
         },
         "competitor": {
-          "title": "[FIL]respond.io: Complex Variables",
+          "title": "respond.io: Kumplikadong mga Variable",
           "monthlyContacts": {
-            "title": "[FIL]Monthly Active Contacts",
-            "description": "[FIL]Pricing varies based on contact activity"
+            "title": "Buwanang Aktibong mga Contact",
+            "description": "Nag-iiba-iba ang pagpepresyo batay sa aktibidad ng contact"
           },
           "separateFees": {
-            "title": "[FIL]Separate WhatsApp[FIL] Fees",
-            "description": "Meta[FIL] charges billed separately"
+            "title": "Hiwalay na mga Bayarin sa WhatsApp",
+            "description": "Hiwalay na sinisingil ang mga singil ng Meta"
           },
           "voiceBeta": {
-            "title": "[FIL]Voice in Beta",
-            "description": "[FIL]Core feature still being developed"
+            "title": "Boses sa Beta",
+            "description": "Ang pangunahing tampok ay binubuo pa rin"
           },
           "unpredictableCosts": {
-            "title": "[FIL]Unpredictable Costs",
-            "description": "[FIL]Monthly bills can vary significantly"
+            "title": "Hindi Mahuhulaan na mga Gastos",
+            "description": "Maaaring mag-iba nang malaki ang mga buwanang singil"
           }
         }
       },
       "voice": {
-        "title": "[FIL]Native Voice vs. Beta Feature",
-        "subtitle": "[FIL]Why voice should be a core feature, not an afterthought",
+        "title": "Katutubong Boses kumpara sa Tampok na Beta",
+        "subtitle": "Bakit dapat maging isang pangunahing tampok ang boses, hindi isang nahuling pag-iisip",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: Voice-First Design",
-          "nativeVoice": "[FIL]Native voice calling built into platform",
-          "aiVoicebot": "[FIL]AI voicebot with human handoff",
-          "unifiedHistory": "[FIL]Unified conversation history across voice and digital",
-          "phoneFeatures": "[FIL]Professional phone system features",
-          "productionReady": "[FIL]Production-ready and fully supported"
+          "title": "Seasalt.ai: Disenyo na Voice-First",
+          "nativeVoice": "Katutubong pagtawag sa boses na binuo sa platform",
+          "aiVoicebot": "AI voicebot na may pag-handoff ng tao",
+          "unifiedHistory": "Pinag-isang kasaysayan ng pag-uusap sa boses at digital",
+          "phoneFeatures": "Mga tampok ng propesyonal na sistema ng telepono",
+          "productionReady": "Handa na sa produksyon at ganap na suportado"
         },
         "competitor": {
-          "title": "[FIL]respond.io: Voice as Beta",
-          "betaTesting": "[FIL]Voice calling still in beta testing",
-          "limitedFeatures": "[FIL]Limited voice features and reliability",
-          "potentialBugs": "[FIL]Potential for bugs and instability",
-          "uncertainRoadmap": "[FIL]Uncertain roadmap and timeline",
-          "notRecommended": "[FIL]Not recommended for production use"
+          "title": "respond.io: Boses bilang Beta",
+          "betaTesting": "Ang pagtawag sa boses ay nasa beta testing pa rin",
+          "limitedFeatures": "Limitadong mga tampok at pagiging maaasahan ng boses",
+          "potentialBugs": "Potensyal para sa mga bug at kawalang-tatag",
+          "uncertainRoadmap": "Hindi tiyak na roadmap at timeline",
+          "notRecommended": "Hindi inirerekomenda para sa paggamit sa produksyon"
         }
       },
       "cta": {
-        "title": "[FIL]Ready for True Omnichannel?",
-        "description": "[FIL]Stop waiting for beta features. Get a platform where voice and digital channels work together seamlessly from day one.",
-        "signUp": "[FIL]Sign Up",
-        "bookDemo": "[FIL]Book A Demo"
+        "title": "Handa na para sa Tunay na Omnichannel?",
+        "description": "Itigil ang paghihintay para sa mga tampok na beta. Kumuha ng isang platform kung saan ang mga channel ng boses at digital ay gumagana nang walang putol mula sa unang araw.",
+        "signUp": "Mag-sign Up",
+        "bookDemo": "Mag-book ng Demo"
       }
     },
     "intercomAlternative": {
       "seo": {
-        "title": "[FIL]Intercom Alternative - Complete Customer Communication Platform - Seasalt.ai",
-        "description": "[FIL]Compare Seasalt.ai[FIL] vs Intercom: Get unified contact center beyond website widgets. Transparent pricing vs per-resolution charges. Voice, SMS[FIL], WhatsApp[FIL] included."
+        "title": "Alternatibo sa Intercom - Kumpletong Platform ng Komunikasyon sa Customer - Seasalt.ai",
+        "description": "Ihambing ang Seasalt.ai kumpara sa Intercom: Kumuha ng pinag-isang contact center na lampas sa mga widget ng website. Transparent na pagpepresyo kumpara sa mga singil bawat resolusyon. Kasama ang boses, SMS, WhatsApp."
       },
       "navigation": {
-        "backText": "[FIL]Back to Compare Us Overview"
+        "backText": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
         "title": {
-          "prefix": "[FIL]Beyond the Website Widget.",
-          "highlight": "[FIL]Get a Complete Customer Communication Platform"
+          "prefix": "Higit pa sa Widget ng Website.",
+          "highlight": "Kumuha ng isang Kumpletong Platform ng Komunikasyon sa Customer"
         },
-        "subtitle": "[FIL]Intercom excels at proactive website engagement with its best-in-class live chat and AI chatbot, Fin. However, its pricing model is complex and expensive, with separate charges per seat, per AI resolution ($0.99 each), and for add-ons. Voice and SMS[FIL] are pay-as-you-go afterthoughts. Seasalt.ai[FIL] is built as a true contact center, where voice is a primary channel."
+        "subtitle": "Mahusay ang Intercom sa maagap na pakikipag-ugnayan sa website sa pinakamahusay nitong live chat at AI chatbot, Fin. Gayunpaman, ang modelo ng pagpepresyo nito ay kumplikado at mahal, na may hiwalay na mga singil bawat upuan, bawat resolusyon ng AI ($0.99 bawat isa), at para sa mga add-on. Ang boses at SMS ay mga nahuling pag-iisip na pay-as-you-go. Ang Seasalt.ai ay binuo bilang isang tunay na contact center, kung saan ang boses ay isang pangunahing channel."
       },
       "comparison": {
-        "title": "[FIL]Complete Platform vs. Website-Focused Tool",
-        "subtitle": "[FIL]See why a unified contact center beats a specialized website engagement tool",
+        "title": "Kumpletong Platform kumpara sa Tool na Nakatuon sa Website",
+        "subtitle": "Tingnan kung bakit mas mahusay ang isang pinag-isang contact center kaysa sa isang dalubhasang tool sa pakikipag-ugnayan sa website",
         "table": {
-          "feature": "[FIL]Feature",
+          "feature": "Tampok",
           "seasalt": "Seasalt.ai",
-          "competitor": "[FIL]Intercom"
+          "competitor": "Intercom"
         },
         "features": {
           "pricingModel": {
-            "name": "[FIL]Pricing Model",
-            "seasalt": "[FIL]Simple & predictable per-agent fee",
-            "competitor": "[FIL]Per-Seat + Per-Resolution + Add-ons"
+            "name": "Modelo ng Pagpepresyo",
+            "seasalt": "Simple at mahuhulaan na bayad bawat ahente",
+            "competitor": "Bawat-Upuan + Bawat-Resolusyon + mga Add-on"
           },
           "startingPrice": {
-            "name": "[FIL]Starting Price",
-            "seasalt": "[FIL]$25/agent/month",
-            "competitor": "[FIL]$29-$39/seat/month"
+            "name": "Panimulang Presyo",
+            "seasalt": "$25/ahente/buwan",
+            "competitor": "$29-$39/upuan/buwan"
           },
           "aiAgentCost": {
-            "name": "[FIL]AI Agent Cost",
-            "seasalt": "[FIL]Included (usage-based)",
-            "competitor": "[FIL]$0.99 per resolution"
+            "name": "Gastos sa Ahente ng AI",
+            "seasalt": "Kasama (batay sa paggamit)",
+            "competitor": "$0.99 bawat resolusyon"
           },
           "voiceCalling": {
-            "name": "[FIL]Voice Calling",
-            "seasalt": "[FIL]Yes, native and fully supported",
-            "competitor": "[FIL]Pay-as-you-go add-on"
+            "name": "Pagtawag sa Boses",
+            "seasalt": "Oo, katutubo at ganap na suportado",
+            "competitor": "Pay-as-you-go na add-on"
           },
           "coreFocus": {
-            "name": "[FIL]Core Focus",
-            "seasalt": "[FIL]Unified Contact Center",
-            "competitor": "[FIL]Website Engagement & Support"
+            "name": "Pangunahing Pokus",
+            "seasalt": "Pinag-isang Contact Center",
+            "competitor": "Pakikipag-ugnayan at Suporta sa Website"
           },
           "bestFor": {
-            "name": "[FIL]Best For",
-            "seasalt": "[FIL]SMEs needing a complete communication hub for all channels",
-            "competitor": "[FIL]SaaS and web-based businesses focused on converting and supporting users on their site"
+            "name": "Pinakamahusay Para sa",
+            "seasalt": "Mga SME na nangangailangan ng isang kumpletong hub ng komunikasyon para sa lahat ng channel",
+            "competitor": "Mga negosyo na batay sa SaaS at web na nakatuon sa pag-convert at pagsuporta sa mga gumagamit sa kanilang site"
           }
         }
       },
       "pricing": {
-        "title": "[FIL]Simple vs. Complex Pricing",
-        "subtitle": "[FIL]Why transparent pricing beats per-resolution charges and usage fees",
+        "title": "Simple kumpara sa Kumplikadong Pagpepresyo",
+        "subtitle": "Bakit mas mahusay ang transparent na pagpepresyo kaysa sa mga singil bawat resolusyon at mga bayarin sa paggamit",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: Transparent Pricing",
+          "title": "Seasalt.ai: Transparent na Pagpepresyo",
           "perAgent": {
-            "title": "[FIL]$25/agent/month",
-            "description": "[FIL]Everything included, no surprises"
+            "title": "$25/ahente/buwan",
+            "description": "Kasama ang lahat, walang mga sorpresa"
           },
           "aiIncluded": {
-            "title": "[FIL]AI Included",
-            "description": "[FIL]Voice and chatbots included in plan"
+            "title": "Kasama ang AI",
+            "description": "Kasama sa plano ang mga voice at chatbot"
           },
           "allChannels": {
-            "title": "[FIL]All Channels",
-            "description": "[FIL]Voice, SMS[FIL], WhatsApp[FIL], chat - no extra fees"
+            "title": "Lahat ng Channel",
+            "description": "Boses, SMS, WhatsApp, chat - walang dagdag na bayarin"
           },
           "predictable": {
-            "title": "[FIL]Predictable Costs",
-            "description": "[FIL]Easy to budget and forecast"
+            "title": "Mahuhulaan na mga Gastos",
+            "description": "Madaling i-badyet at i-forecast"
           }
         },
         "intercom": {
-          "title": "[FIL]Intercom: Complex Billing",
+          "title": "Intercom: Kumplikadong Pagsingil",
           "basePrice": {
-            "title": "[FIL]$39/seat/month",
-            "description": "[FIL]Base price before add-ons"
+            "title": "$39/upuan/buwan",
+            "description": "Pangunahing presyo bago ang mga add-on"
           },
           "aiResolution": {
-            "title": "[FIL]$0.99 per AI resolution",
-            "description": "[FIL]Charges for each AI interaction"
+            "title": "$0.99 bawat resolusyon ng AI",
+            "description": "Mga singil para sa bawat pakikipag-ugnayan ng AI"
           },
           "payPerUse": {
-            "title": "[FIL]Pay-per-use Voice",
-            "description": "[FIL]Voice calling charged separately"
+            "title": "Pay-per-use na Boses",
+            "description": "Hiwalay na sinisingil ang pagtawag sa boses"
           },
           "unpredictable": {
-            "title": "[FIL]Unpredictable Bills",
-            "description": "[FIL]Costs vary based on usage"
+            "title": "Hindi Mahuhulaan na mga Singil",
+            "description": "Nag-iiba-iba ang mga gastos batay sa paggamit"
           }
         }
       },
       "scenarios": {
-        "title": "[FIL]Real-World Cost Scenarios",
-        "subtitle": "[FIL]See how Intercom's per-resolution pricing can quickly add up",
+        "title": "Mga Sitwasyon sa Gastos sa Tunay na Mundo",
+        "subtitle": "Tingnan kung paano mabilis na nadadagdagan ang pagpepresyo bawat resolusyon ng Intercom",
         "light": {
-          "title": "[FIL]Light Usage",
-          "description": "[FIL]3 agents, 100 AI resolutions/month",
+          "title": "Magaang Paggamit",
+          "description": "3 ahente, 100 mga resolusyon ng AI/buwan",
           "seasalt": {
-            "price": "[FIL]$75/mo",
+            "price": "$75/buwan",
             "label": "Seasalt.ai"
           },
           "intercom": {
-            "price": "[FIL]$216/mo",
-            "label": "[FIL]Intercom",
-            "breakdown": "[FIL]($117 base + $99 AI)"
+            "price": "$216/buwan",
+            "label": "Intercom",
+            "breakdown": "($117 base + $99 AI)"
           }
         },
         "medium": {
-          "title": "[FIL]Medium Usage",
-          "description": "[FIL]5 agents, 300 AI resolutions/month",
+          "title": "Katamtamang Paggamit",
+          "description": "5 ahente, 300 mga resolusyon ng AI/buwan",
           "seasalt": {
-            "price": "[FIL]$150/mo",
+            "price": "$150/buwan",
             "label": "Seasalt.ai"
           },
           "intercom": {
-            "price": "[FIL]$492/mo",
-            "label": "[FIL]Intercom",
-            "breakdown": "[FIL]($195 base + $297 AI)"
+            "price": "$492/buwan",
+            "label": "Intercom",
+            "breakdown": "($195 base + $297 AI)"
           }
         },
         "heavy": {
-          "title": "[FIL]Heavy Usage",
-          "description": "[FIL]10 agents, 1000 AI resolutions/month",
+          "title": "Malakas na Paggamit",
+          "description": "10 ahente, 1000 mga resolusyon ng AI/buwan",
           "seasalt": {
-            "price": "[FIL]$275/mo",
+            "price": "$275/buwan",
             "label": "Seasalt.ai"
           },
           "intercom": {
-            "price": "[FIL]$1,380/mo",
-            "label": "[FIL]Intercom",
-            "breakdown": "[FIL]($390 base + $990 AI)"
+            "price": "$1,380/buwan",
+            "label": "Intercom",
+            "breakdown": "($390 base + $990 AI)"
           }
         }
       },
       "channels": {
-        "title": "[FIL]Complete Channel Coverage vs. Website Focus",
-        "subtitle": "[FIL]Why businesses need more than just website engagement",
+        "title": "Kumpletong Saklaw ng Channel kumpara sa Pokus sa Website",
+        "subtitle": "Bakit kailangan ng mga negosyo ang higit pa sa pakikipag-ugnayan sa website",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: Complete Coverage",
-          "voice": "[FIL]Native voice calling and phone system",
-          "whatsapp": "WhatsApp[FIL] Business integration",
-          "sms": "SMS[FIL] marketing and support",
-          "social": "[FIL]Social media messaging (Instagram, Facebook)",
-          "website": "[FIL]Website chat and contact forms",
-          "unified": "[FIL]Unified inbox for all channels"
+          "title": "Seasalt.ai: Kumpletong Saklaw",
+          "voice": "Katutubong pagtawag sa boses at sistema ng telepono",
+          "whatsapp": "Pagsasama ng WhatsApp Business",
+          "sms": "Marketing at suporta sa SMS",
+          "social": "Pagmemensahe sa social media (Instagram, Facebook)",
+          "website": "Chat at mga form ng pakikipag-ugnayan sa website",
+          "unified": "Pinag-isang inbox para sa lahat ng channel"
         },
         "intercom": {
-          "title": "[FIL]Intercom: Website-Focused",
-          "websiteChat": "[FIL]Excellent website chat and engagement",
-          "proactive": "[FIL]Proactive messaging and targeting",
-          "voiceAddon": "[FIL]Voice calling as pay-per-use add-on",
-          "smsLimited": "[FIL]Limited SMS[FIL] capabilities",
-          "noWhatsapp": "[FIL]No native WhatsApp[FIL] Business integration",
-          "noSocial": "[FIL]No social media messaging support"
+          "title": "Intercom: Nakatuon sa Website",
+          "websiteChat": "Mahusay na chat at pakikipag-ugnayan sa website",
+          "proactive": "Maagap na pagmemensahe at pag-target",
+          "voiceAddon": "Pagtawag sa boses bilang pay-per-use na add-on",
+          "smsLimited": "Limitadong mga kakayahan sa SMS",
+          "noWhatsapp": "Walang katutubong pagsasama ng WhatsApp Business",
+          "noSocial": "Walang suporta sa pagmemensahe sa social media"
         }
       },
       "cta": {
-        "title": "[FIL]Ready for Complete Customer Communication?",
-        "subtitle": "[FIL]Stop paying per resolution and get a complete platform that covers all your customer communication needs at a predictable price.",
-        "signUp": "[FIL]Sign Up",
-        "bookDemo": "[FIL]Book A Demo"
+        "title": "Handa na para sa Kumpletong Komunikasyon sa Customer?",
+        "subtitle": "Itigil ang pagbabayad bawat resolusyon at kumuha ng isang kumpletong platform na sumasaklaw sa lahat ng iyong mga pangangailangan sa komunikasyon sa customer sa isang mahuhulaan na presyo.",
+        "signUp": "Mag-sign Up",
+        "bookDemo": "Mag-book ng Demo"
       }
     },
     "kustomerAlternative": {
       "seo": {
-        "title": "[FIL]Kustomer Alternative | Seasalt.ai[FIL] vs Kustomer Comparison",
-        "description": "[FIL]Compare Seasalt.ai[FIL] vs Kustomer for customer support. See why SMEs choose our affordable omnichannel solution over enterprise-priced platforms."
+        "title": "Alternatibo sa Kustomer | Paghahambing ng Seasalt.ai kumpara sa Kustomer",
+        "description": "Ihambing ang Seasalt.ai kumpara sa Kustomer para sa suporta sa customer. Tingnan kung bakit pinipili ng mga SME ang aming abot-kayang solusyon sa omnichannel kaysa sa mga platform na may presyo sa enterprise."
       },
       "nav": {
-        "backLink": "[FIL]Back to Compare Us Overview"
+        "backLink": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
-        "title": "[FIL]Enterprise Power for an SME Price.",
-        "highlight": "[FIL]Why Pay for 8 Seats When You Only Need 2?",
-        "description": "[FIL]Kustomer is a powerful, true omnichannel platform that provides a unified view of the customer journey. However, its power comes at an enterprise price. The per-seat plan starts at $89/month with a mandatory 8-seat minimum, making it inaccessible for most SMEs. Critical AI capabilities are also expensive add-ons. Seasalt.ai[FIL] delivers the core omnichannel functionality and AI automation SMEs need."
+        "title": "Kapangyarihan ng Enterprise para sa isang Presyo ng SME.",
+        "highlight": "Bakit Magbabayad para sa 8 Upuan Kung 2 Lamang ang Kailangan Mo?",
+        "description": "Ang Kustomer ay isang malakas, tunay na omnichannel na platform na nagbibigay ng isang pinag-isang view ng paglalakbay ng customer. Gayunpaman, ang kapangyarihan nito ay may presyo sa enterprise. Ang plano bawat upuan ay nagsisimula sa $89/buwan na may mandatoryong 8-upuan na minimum, na ginagawa itong hindi naa-access para sa karamihan ng mga SME. Ang mga kritikal na kakayahan sa AI ay mamahaling mga add-on din. Naghahatid ang Seasalt.ai ng pangunahing pag-andar ng omnichannel at AI automation na kailangan ng mga SME."
       },
       "comparison": {
-        "title": "[FIL]SME-Accessible vs. Enterprise-Only",
-        "subtitle": "[FIL]See why powerful features shouldn't require enterprise minimums",
+        "title": "Naa-access sa SME kumpara sa Enterprise-Lamang",
+        "subtitle": "Tingnan kung bakit hindi dapat mangailangan ng mga minimum sa enterprise ang malalakas na mga tampok",
         "table": {
           "headers": {
-            "feature": "[FIL]Feature",
+            "feature": "Tampok",
             "seasalt": "Seasalt.ai",
-            "kustomer": "[FIL]Kustomer"
+            "kustomer": "Kustomer"
           }
         },
         "features": {
           "pricingModel": {
-            "name": "[FIL]Pricing Model",
-            "seasalt": "[FIL]Simple & predictable per-agent fee",
-            "kustomer": "[FIL]Per-Seat or Per-Conversation"
+            "name": "Modelo ng Pagpepresyo",
+            "seasalt": "Simple at mahuhulaan na bayad bawat ahente",
+            "kustomer": "Bawat-Upuan o Bawat-Pag-uusap"
           },
           "startingPrice": {
-            "name": "[FIL]Starting Price",
-            "seasalt": "[FIL]$25/agent/month",
-            "kustomer": "[FIL]$89/seat/month"
+            "name": "Panimulang Presyo",
+            "seasalt": "$25/ahente/buwan",
+            "kustomer": "$89/upuan/buwan"
           },
           "minimumCommitment": {
-            "name": "[FIL]Minimum Commitment",
-            "seasalt": "[FIL]1 User",
-            "kustomer": "[FIL]8 Seats (on per-seat plan)"
+            "name": "Minimum na Pangako",
+            "seasalt": "1 Gumagamit",
+            "kustomer": "8 Upuan (sa plano bawat upuan)"
           },
           "aiCapabilities": {
-            "name": "[FIL]AI Capabilities",
-            "seasalt": "[FIL]Included (usage-based)",
-            "kustomer": "[FIL]Paid Add-on ($40/user/mo or $0.60/convo)"
+            "name": "Mga Kakayahan sa AI",
+            "seasalt": "Kasama (batay sa paggamit)",
+            "kustomer": "Bayad na Add-on ($40/gumagamit/buwan o $0.60/convo)"
           },
           "omnichannelTimeline": {
-            "name": "[FIL]Omnichannel Timeline",
-            "seasalt": "[FIL]Yes",
-            "kustomer": "[FIL]Yes, very strong"
+            "name": "Timeline ng Omnichannel",
+            "seasalt": "Oo",
+            "kustomer": "Oo, napakalakas"
           },
           "coreFocus": {
-            "name": "[FIL]Core Focus",
-            "seasalt": "[FIL]Affordable, unified communications for SMEs",
-            "kustomer": "[FIL]Enterprise-scale, data-driven customer service"
+            "name": "Pangunahing Pokus",
+            "seasalt": "Abot-kaya, pinag-isang mga komunikasyon para sa mga SME",
+            "kustomer": "Serbisyo sa customer na hinihimok ng data sa sukat ng enterprise"
           },
           "bestFor": {
-            "name": "[FIL]Best For",
-            "seasalt": "[FIL]Growing businesses needing a powerful but affordable omnichannel solution",
-            "kustomer": "[FIL]Large support teams that can meet the seat minimum and need deep data integration"
+            "name": "Pinakamahusay Para sa",
+            "seasalt": "Mga lumalagong negosyo na nangangailangan ng isang malakas ngunit abot-kayang solusyon sa omnichannel",
+            "kustomer": "Malalaking koponan sa suporta na kayang matugunan ang minimum na upuan at nangangailangan ng malalim na pagsasama ng data"
           }
         }
       },
       "costBarrier": {
-        "title": "[FIL]The 8-Seat Minimum Barrier",
-        "subtitle": "[FIL]See how Kustomer's minimum commitment prices out growing businesses",
+        "title": "Ang Hadlang sa 8-Upuan na Minimum",
+        "subtitle": "Tingnan kung paano pinipresyuhan ng minimum na pangako ng Kustomer ang mga lumalagong negosyo",
         "scenarios": {
           "twoAgents": {
-            "title": "[FIL]2 Agents",
-            "seasaltPrice": "[FIL]$75/mo",
+            "title": "2 Ahente",
+            "seasaltPrice": "$75/buwan",
             "seasaltLabel": "Seasalt.ai",
-            "kustomerPrice": "[FIL]$712/mo",
-            "kustomerLabel": "[FIL]Kustomer (8-seat min)",
-            "savings": "[FIL]Save $637/month"
+            "kustomerPrice": "$712/buwan",
+            "kustomerLabel": "Kustomer (8-upuan min)",
+            "savings": "Makatipid ng $637/buwan"
           },
           "fiveAgents": {
-            "title": "[FIL]5 Agents",
-            "seasaltPrice": "[FIL]$175/mo",
+            "title": "5 Ahente",
+            "seasaltPrice": "$175/buwan",
             "seasaltLabel": "Seasalt.ai",
-            "kustomerPrice": "[FIL]$712/mo",
-            "kustomerLabel": "[FIL]Kustomer (8-seat min)",
-            "savings": "[FIL]Save $537/month"
+            "kustomerPrice": "$712/buwan",
+            "kustomerLabel": "Kustomer (8-upuan min)",
+            "savings": "Makatipid ng $537/buwan"
           },
           "eightAgents": {
-            "title": "[FIL]8 Agents",
-            "seasaltPrice": "[FIL]$225/mo",
+            "title": "8 Ahente",
+            "seasaltPrice": "$225/buwan",
             "seasaltLabel": "Seasalt.ai",
-            "kustomerPrice": "[FIL]$712/mo",
-            "kustomerLabel": "[FIL]Kustomer",
-            "savings": "[FIL]Save $487/month"
+            "kustomerPrice": "$712/buwan",
+            "kustomerLabel": "Kustomer",
+            "savings": "Makatipid ng $487/buwan"
           }
         },
         "problem": {
-          "title": "[FIL]The SME Accessibility Problem",
-          "description": "[FIL]Kustomer's 8-seat minimum means even a 2-person team pays for 6 unused seats. This creates an artificial barrier that prevents growing businesses from accessing powerful omnichannel features until they reach enterprise scale."
+          "title": "Ang Problema sa Accessibility ng SME",
+          "description": "Ang 8-upuan na minimum ng Kustomer ay nangangahulugang kahit na ang isang 2-taong koponan ay nagbabayad para sa 6 na hindi nagamit na mga upuan. Lumilikha ito ng isang artipisyal na hadlang na pumipigil sa mga lumalagong negosyo na ma-access ang malalakas na mga tampok sa omnichannel hanggang sa maabot nila ang sukat ng enterprise."
         }
       },
       "aiCosts": {
-        "title": "[FIL]AI Included vs. Expensive Add-On",
-        "subtitle": "[FIL]See how AI costs add up when it's treated as a premium feature",
+        "title": "Kasama ang AI kumpara sa Mamahaling Add-On",
+        "subtitle": "Tingnan kung paano nadadagdagan ang mga gastos sa AI kapag ito ay itinuturing na isang premium na tampok",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: AI Included",
+          "title": "Seasalt.ai: Kasama ang AI",
           "voiceAi": {
-            "title": "[FIL]Voice AI",
-            "description": "[FIL]Included in base plan"
+            "title": "Voice AI",
+            "description": "Kasama sa pangunahing plano"
           },
           "chatAi": {
-            "title": "[FIL]Chat AI",
-            "description": "[FIL]Included in base plan"
+            "title": "Chat AI",
+            "description": "Kasama sa pangunahing plano"
           },
           "smartRouting": {
-            "title": "[FIL]Smart Routing",
-            "description": "[FIL]Included in base plan"
+            "title": "Matalinong Pagruruta",
+            "description": "Kasama sa pangunahing plano"
           },
           "totalCost": {
-            "title": "[FIL]Total AI Cost",
-            "amount": "[FIL]$0 additional"
+            "title": "Kabuuang Gastos sa AI",
+            "amount": "$0 karagdagang"
           }
         },
         "kustomer": {
-          "title": "[FIL]Kustomer: AI as Add-On",
+          "title": "Kustomer: AI bilang Add-On",
           "perUser": {
-            "title": "[FIL]KIQ AI (Per-User)",
-            "description": "[FIL]$40/user/month additional"
+            "title": "KIQ AI (Bawat-Gumagamit)",
+            "description": "$40/gumagamit/buwan karagdagang"
           },
           "perConversation": {
-            "title": "[FIL]KIQ AI (Per-Conversation)",
-            "description": "[FIL]$0.60/conversation"
+            "title": "KIQ AI (Bawat-Pag-uusap)",
+            "description": "$0.60/pag-uusap"
           },
           "example": {
-            "title": "[FIL]Example: 8 users",
-            "calculation": "[FIL]8 × $40 = $320/month extra"
+            "title": "Halimbawa: 8 gumagamit",
+            "calculation": "8 × $40 = $320/buwan dagdag"
           },
           "totalCost": {
-            "title": "[FIL]Total AI Cost",
-            "amount": "[FIL]$320+ additional"
+            "title": "Kabuuang Gastos sa AI",
+            "amount": "$320+ karagdagang"
           }
         }
       },
       "features": {
-        "title": "[FIL]What You Get vs. What You Pay For",
-        "subtitle": "[FIL]Both platforms offer strong omnichannel capabilities, but at very different price points",
+        "title": "Ano ang Makukuha Mo kumpara sa Ano ang Babayaran Mo",
+        "subtitle": "Parehong nag-aalok ang mga platform ng malakas na mga kakayahan sa omnichannel, ngunit sa napakaibang mga punto ng presyo",
         "shared": {
-          "title": "[FIL]What You Get with Both",
-          "unifiedInbox": "[FIL]Unified omnichannel inbox",
-          "conversationHistory": "[FIL]Customer conversation history",
-          "teamCollaboration": "[FIL]Team collaboration tools",
-          "analytics": "[FIL]Analytics and reporting",
-          "crmIntegrations": "[FIL]CRM integrations"
+          "title": "Ano ang Makukuha Mo sa Pareho",
+          "unifiedInbox": "Pinag-isang omnichannel inbox",
+          "conversationHistory": "Kasaysayan ng pag-uusap ng customer",
+          "teamCollaboration": "Mga tool sa pakikipagtulungan ng koponan",
+          "analytics": "Analytics at pag-uulat",
+          "crmIntegrations": "Mga pagsasama sa CRM"
         },
         "advantages": {
-          "title": "Seasalt.ai[FIL] Advantages",
-          "noMinimum": "[FIL]No minimum seat requirements",
-          "aiIncluded": "[FIL]AI included in base price",
-          "nativeVoice": "[FIL]Native voice calling platform",
-          "selfService": "[FIL]Self-service setup and management",
-          "smeFocused": "[FIL]SME-focused pricing and features"
+          "title": "Mga Kalamangan ng Seasalt.ai",
+          "noMinimum": "Walang minimum na mga kinakailangan sa upuan",
+          "aiIncluded": "Kasama ang AI sa pangunahing presyo",
+          "nativeVoice": "Katutubong platform ng pagtawag sa boses",
+          "selfService": "Pag-setup at pamamahala ng self-service",
+          "smeFocused": "Pagpepresyo at mga tampok na nakatuon sa SME"
         }
       },
       "cta": {
-        "title": "[FIL]Get Enterprise Features Without Enterprise Minimums",
-        "subtitle": "[FIL]Why pay for 8 seats when you only need 2? Get powerful omnichannel capabilities that scale with your actual team size.",
-        "signUp": "[FIL]Sign Up",
-        "bookDemo": "[FIL]Book A Demo"
+        "title": "Kumuha ng mga Tampok sa Enterprise Nang Walang mga Minimum sa Enterprise",
+        "subtitle": "Bakit magbabayad para sa 8 upuan kung 2 lamang ang kailangan mo? Kumuha ng malakas na mga kakayahan sa omnichannel na nag-i-scale sa iyong aktwal na laki ng koponan.",
+        "signUp": "Mag-sign Up",
+        "bookDemo": "Mag-book ng Demo"
       }
     },
     "threeCXAlternative": {
       "seo": {
-        "title": "Seasalt.ai[FIL] vs 3CX Alternative - Managed Cloud vs Self-Hosted",
-        "description": "[FIL]Compare Seasalt.ai[FIL]'s fully managed cloud solution with 3CX's self-hosted PBX. See the real costs and complexity behind 3CX's \"affordable\" pricing."
+        "title": "Seasalt.ai kumpara sa 3CX Alternatibo - Pinamamahalaang Cloud kumpara sa Self-Hosted",
+        "description": "Ihambing ang ganap na pinamamahalaang solusyon sa cloud ng Seasalt.ai sa self-hosted na PBX ng 3CX. Tingnan ang mga tunay na gastos at kumplikasyon sa likod ng \"abot-kayang\" pagpepresyo ng 3CX."
       },
       "nav": {
-        "backLink": "[FIL]Back to Compare Us Overview"
+        "backLink": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
-        "title": "[FIL]Choose Simplicity and Cloud Power.",
-        "highlight": "[FIL]Stop Managing Servers and Start Talking to Customers",
-        "description": "[FIL]3CX offers an open-platform PBX with a unique pricing model based on simultaneous calls, not users, which can be cost-effective for some. However, this comes with significant hidden complexity and costs. You are responsible for hosting, SSL certificates, and technical support (which starts at $75 per ticket). It is fundamentally a phone system, not a native omnichannel platform. Seasalt.ai[FIL] is a fully managed, cloud-native solution."
+        "title": "Piliin ang Pagiging Simple at Kapangyarihan ng Cloud.",
+        "highlight": "Itigil ang Pamamahala ng mga Server at Simulan ang Pakikipag-usap sa mga Customer",
+        "description": "Nag-aalok ang 3CX ng isang open-platform na PBX na may isang natatanging modelo ng pagpepresyo batay sa mga sabay-sabay na tawag, hindi mga gumagamit, na maaaring maging epektibo sa gastos para sa ilan. Gayunpaman, ito ay may kasamang makabuluhang mga nakatagong kumplikasyon at gastos. Ikaw ang may pananagutan para sa pagho-host, mga sertipiko ng SSL, at teknikal na suporta (na nagsisimula sa $75 bawat tiket). Ito ay sa panimula isang sistema ng telepono, hindi isang katutubong omnichannel na platform. Ang Seasalt.ai ay isang ganap na pinamamahalaan, cloud-native na solusyon."
       },
       "comparison": {
-        "title": "[FIL]Managed Cloud vs. Self-Hosted Complexity",
-        "subtitle": "[FIL]See why fully managed beats do-it-yourself for growing businesses",
+        "title": "Pinamamahalaang Cloud kumpara sa Self-Hosted na Kumplikasyon",
+        "subtitle": "Tingnan kung bakit mas mahusay ang ganap na pinamamahalaan kaysa sa do-it-yourself para sa mga lumalagong negosyo",
         "table": {
           "headers": {
-            "feature": "[FIL]Feature",
+            "feature": "Tampok",
             "seasalt": "Seasalt.ai",
-            "threeCX": "[FIL]3CX"
+            "threeCX": "3CX"
           }
         },
         "features": {
           "platformType": {
-            "name": "[FIL]Platform Type",
-            "seasalt": "[FIL]Cloud-Native Unified Communications",
-            "threeCX": "[FIL]Self-Hosted or Hosted IP PBX"
+            "name": "Uri ng Platform",
+            "seasalt": "Cloud-Native na Pinag-isang Komunikasyon",
+            "threeCX": "Self-Hosted o Hosted na IP PBX"
           },
           "pricingModel": {
-            "name": "[FIL]Pricing Model",
-            "seasalt": "[FIL]Simple per-agent fee",
-            "threeCX": "[FIL]Per-Simultaneous Call + Hosting + Support"
+            "name": "Modelo ng Pagpepresyo",
+            "seasalt": "Simpleng bayad bawat ahente",
+            "threeCX": "Bawat-Sabay-sabay na Tawag + Pagho-host + Suporta"
           },
           "managementOverhead": {
-            "name": "[FIL]Management Overhead",
-            "seasalt": "[FIL]None (Fully managed by Seasalt.ai[FIL])",
-            "threeCX": "[FIL]High (Requires technical expertise for setup & maintenance)"
+            "name": "Overhead sa Pamamahala",
+            "seasalt": "Wala (Ganap na pinamamahalaan ng Seasalt.ai)",
+            "threeCX": "Mataas (Nangangailangan ng teknikal na kadalubhasaan para sa pag-setup at pagpapanatili)"
           },
           "omnichannelInbox": {
-            "name": "[FIL]Omnichannel Inbox",
-            "seasalt": "[FIL]Yes, native",
-            "threeCX": "[FIL]No, primarily a phone system"
+            "name": "Omnichannel Inbox",
+            "seasalt": "Oo, katutubo",
+            "threeCX": "Hindi, pangunahing isang sistema ng telepono"
           },
           "aiCapabilities": {
-            "name": "[FIL]AI Capabilities",
-            "seasalt": "[FIL]Yes, native Voice & Chatbots",
-            "threeCX": "[FIL]Coming Soon\" Add-on"
+            "name": "Mga Kakayahan sa AI",
+            "seasalt": "Oo, Katutubong Boses at mga Chatbot",
+            "threeCX": "Malapit na\" Add-on"
           },
           "bestFor": {
-            "name": "[FIL]Best For",
-            "seasalt": "[FIL]Businesses that want a powerful, easy-to-use, all-in-one solution",
-            "threeCX": "[FIL]Tech-savvy organizations that want full control over their PBX"
+            "name": "Pinakamahusay Para sa",
+            "seasalt": "Mga negosyo na nais ng isang malakas, madaling gamitin, all-in-one na solusyon",
+            "threeCX": "Mga organisasyon na may kaalaman sa teknolohiya na nais ng buong kontrol sa kanilang PBX"
           }
         }
       },
       "hiddenCosts": {
-        "title": "[FIL]The Hidden Costs of \"Affordable\" 3CX",
-        "subtitle": "[FIL]See what 3CX doesn't include in their advertised pricing",
+        "title": "Ang mga Nakatagong Gastos ng \"Abot-kayang\" 3CX",
+        "subtitle": "Tingnan kung ano ang hindi kasama ng 3CX sa kanilang na-advertise na pagpepresyo",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: All-Inclusive",
-          "pricing": "[FIL]25/agent/month",
-          "pricingDescription": "[FIL]Everything included",
+          "title": "Seasalt.ai: All-Inclusive",
+          "pricing": "25/ahente/buwan",
+          "pricingDescription": "Kasama ang lahat",
           "cloudHosting": {
-            "title": "[FIL]Cloud Hosting",
-            "description": "[FIL]Included - no server management"
+            "title": "Pagho-host sa Cloud",
+            "description": "Kasama - walang pamamahala ng server"
           },
           "support": {
-            "title": "[FIL]Support",
-            "description": "[FIL]Included - unlimited support"
+            "title": "Suporta",
+            "description": "Kasama - walang limitasyong suporta"
           },
           "updates": {
-            "title": "[FIL]Updates & Maintenance",
-            "description": "[FIL]Included - automatic updates"
+            "title": "Mga Update at Pagpapanatili",
+            "description": "Kasama - mga awtomatikong update"
           },
           "ssl": {
-            "title": "[FIL]SSL Certificates",
-            "description": "[FIL]Included - managed automatically"
+            "title": "Mga Sertipiko ng SSL",
+            "description": "Kasama - awtomatikong pinamamahalaan"
           }
         },
         "threeCX": {
-          "title": "[FIL]3CX: Hidden Costs",
+          "title": "3CX: Mga Nakatagong Gastos",
           "baseLicense": {
-            "price": "[FIL]~$25/mo (4 calls)",
-            "description": "[FIL]Base license only"
+            "price": "~$25/buwan (4 na tawag)",
+            "description": "Pangunahing lisensya lamang"
           },
           "hostingCosts": {
-            "title": "[FIL]Hosting Costs",
-            "description": "[FIL]$20-100+/month for VPS/cloud hosting"
+            "title": "Mga Gastos sa Pagho-host",
+            "description": "$20-100+/buwan para sa VPS/cloud hosting"
           },
           "supportTickets": {
-            "title": "[FIL]Support Tickets",
-            "description": "[FIL]$75+ per support ticket"
+            "title": "Mga Tiket sa Suporta",
+            "description": "$75+ bawat tiket sa suporta"
           },
           "itManagement": {
-            "title": "[FIL]IT Management",
-            "description": "[FIL]Your time or consultant fees"
+            "title": "Pamamahala ng IT",
+            "description": "Ang iyong oras o mga bayarin sa consultant"
           },
           "sslCerts": {
-            "title": "[FIL]SSL Certificates",
-            "description": "[FIL]$50-200+/year for certificates"
+            "title": "Mga Sertipiko ng SSL",
+            "description": "$50-200+/taon para sa mga sertipiko"
           }
         },
         "realCost": {
-          "title": "[FIL]The Real Total Cost of Ownership",
-          "description": "[FIL]3CX's advertised pricing doesn't include hosting, support, maintenance, or the time you'll spend managing it. For most businesses, the total cost quickly exceeds a fully managed solution.",
-          "calculation": "[FIL]3CX \"Real\" Cost: $25 license + $50 hosting + $75 support ticket + your time = $150+ per month"
+          "title": "Ang Tunay na Kabuuang Gastos ng Pagmamay-ari",
+          "description": "Hindi kasama sa na-advertise na pagpepresyo ng 3CX ang pagho-host, suporta, pagpapanatili, o ang oras na gugugulin mo sa pamamahala nito. Para sa karamihan ng mga negosyo, ang kabuuang gastos ay mabilis na lumalampas sa isang ganap na pinamamahalaang solusyon.",
+          "calculation": "3CX \"Tunay\" na Gastos: $25 lisensya + $50 pagho-host + $75 tiket sa suporta + iyong oras = $150+ bawat buwan"
         }
       },
       "technicalComplexity": {
-        "title": "[FIL]Focus on Business, Not IT Management",
-        "subtitle": "[FIL]See what you'll need to manage with 3CX vs. what Seasalt.ai[FIL] handles for you",
+        "title": "Tumuon sa Negosyo, Hindi sa Pamamahala ng IT",
+        "subtitle": "Tingnan kung ano ang kakailanganin mong pamahalaan sa 3CX kumpara sa kung ano ang pinangangasiwaan ng Seasalt.ai para sa iyo",
         "threeCX": {
-          "title": "[FIL]What You Manage with 3CX",
-          "serverProvisioning": "[FIL]Server provisioning and configuration",
-          "osUpdates": "[FIL]Operating system updates and security patches",
-          "sslInstallation": "[FIL]SSL certificate installation and renewal",
-          "firewallConfig": "[FIL]Firewall configuration and security",
-          "backupRecovery": "[FIL]Backup and disaster recovery",
-          "troubleshooting": "[FIL]Troubleshooting and support tickets",
-          "capacityPlanning": "[FIL]Capacity planning and scaling"
+          "title": "Ano ang Pinamamahalaan Mo sa 3CX",
+          "serverProvisioning": "Pagbibigay at pagsasaayos ng server",
+          "osUpdates": "Mga update sa operating system at mga patch sa seguridad",
+          "sslInstallation": "Pag-install at pag-renew ng sertipiko ng SSL",
+          "firewallConfig": "Pagsasaayos at seguridad ng firewall",
+          "backupRecovery": "Pag-backup at pagbawi sa sakuna",
+          "troubleshooting": "Pag-troubleshoot at mga tiket sa suporta",
+          "capacityPlanning": "Pagpaplano at pag-scale ng kapasidad"
         },
         "seasalt": {
-          "title": "[FIL]What Seasalt.ai[FIL] Handles",
-          "infrastructure": "[FIL]Complete infrastructure management",
-          "securityUpdates": "[FIL]Automatic security updates",
-          "sslManagement": "[FIL]SSL certificates managed automatically",
-          "enterpriseSecurity": "[FIL]Enterprise-grade security built-in",
-          "backups": "[FIL]Automated backups and redundancy",
-          "monitoring": "[FIL]24/7 monitoring and support",
-          "scaling": "[FIL]Automatic scaling and optimization"
+          "title": "Ano ang Pinangangasiwaan ng Seasalt.ai",
+          "infrastructure": "Kumpletong pamamahala ng imprastraktura",
+          "securityUpdates": "Mga awtomatikong update sa seguridad",
+          "sslManagement": "Awtomatikong pinamamahalaan ang mga sertipiko ng SSL",
+          "enterpriseSecurity": "Built-in na seguridad sa antas ng enterprise",
+          "backups": "Mga awtomatikong backup at redundancy",
+          "monitoring": "24/7 na pagsubaybay at suporta",
+          "scaling": "Awtomatikong pag-scale at pag-optimize"
         }
       },
       "cta": {
-        "title": "[FIL]Focus on Growing Your Business, Not Managing Servers",
-        "subtitle": "[FIL]Why spend time on IT management when you could be talking to customers? Get a fully managed solution that just works.",
-        "signUp": "[FIL]Sign Up",
-        "bookDemo": "[FIL]Book A Demo"
+        "title": "Tumuon sa Pagpapalago ng Iyong Negosyo, Hindi sa Pamamahala ng mga Server",
+        "subtitle": "Bakit mag-aaksaya ng oras sa pamamahala ng IT kung maaari kang makipag-usap sa mga customer? Kumuha ng isang ganap na pinamamahalaang solusyon na gumagana lamang.",
+        "signUp": "Mag-sign Up",
+        "bookDemo": "Mag-book ng Demo"
       }
     },
     "dialpadAlternative": {
       "seo": {
-        "title": "[FIL]Dialpad Alternative: Unified Contact Center vs Expensive Upgrades | Seasalt.ai",
-        "description": "[FIL]Don't get trapped by Dialpad's upgrade costs. Get a unified contact center from the start with Seasalt.ai[FIL] - full features at $25/agent/month vs. $80+ for Dialpad's contact center tier."
+        "title": "Alternatibo sa Dialpad: Pinag-isang Contact Center kumpara sa Mamahaling mga Pag-upgrade | Seasalt.ai",
+        "description": "Huwag ma-trap sa mga gastos sa pag-upgrade ng Dialpad. Kumuha ng isang pinag-isang contact center mula sa simula sa Seasalt.ai - buong mga tampok sa $25/ahente/buwan kumpara sa $80+ para sa tier ng contact center ng Dialpad."
       },
       "nav": {
-        "backLink": "[FIL]Back to Compare Us Overview"
+        "backLink": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
-        "title": "[FIL]Don't Pay Extra for a \"Contact Center.",
-        "highlight": "[FIL]Get One Unified Platform from the Start",
-        "description": "[FIL]Dialpad offers a strong UCaaS platform with excellent voice intelligence (AI transcription and summaries) at an attractive entry price of $15/user/month. However, this is not their contact center solution. True contact center features, including omnichannel routing and advanced analytics, require upgrading to much more expensive plans like Dialpad Support, which starts at $80/user/month. Seasalt.ai[FIL] is built as a unified contact center from the ground up."
+        "title": "Huwag Magbayad ng Dagdag para sa isang \"Contact Center.\"",
+        "highlight": "Kumuha ng Isang Pinag-isang Platform mula sa Simula",
+        "description": "Nag-aalok ang Dialpad ng isang malakas na platform ng UCaaS na may mahusay na katalinuhan sa boses (AI transcription at mga buod) sa isang kaakit-akit na panimulang presyo na $15/gumagamit/buwan. Gayunpaman, hindi ito ang kanilang solusyon sa contact center. Ang mga tunay na tampok sa contact center, kabilang ang omnichannel routing at advanced na analytics, ay nangangailangan ng pag-upgrade sa mas mamahaling mga plano tulad ng Dialpad Support, na nagsisimula sa $80/gumagamit/buwan. Ang Seasalt.ai ay binuo bilang isang pinag-isang contact center mula sa simula."
       },
       "comparison": {
-        "title": "[FIL]Unified Contact Center vs. Separate Products",
-        "subtitle": "[FIL]See why starting with a unified platform beats upgrading to expensive contact center tiers",
+        "title": "Pinag-isang Contact Center kumpara sa Paghiwalayin ang mga Produkto",
+        "subtitle": "Tingnan kung bakit mas mahusay ang pagsisimula sa isang pinag-isang platform kaysa sa pag-upgrade sa mga mamahaling tier ng contact center",
         "table": {
           "headers": {
-            "feature": "[FIL]Feature",
+            "feature": "Tampok",
             "seasalt": "Seasalt.ai",
-            "dialpad": "[FIL]Dialpad"
+            "dialpad": "Dialpad"
           }
         },
         "features": {
           "platformArchitecture": {
-            "name": "[FIL]Platform Architecture",
-            "seasalt": "[FIL]True Unified Contact Center",
-            "dialpad": "[FIL]Separate UCaaS and CCaaS products"
+            "name": "Arkitektura ng Platform",
+            "seasalt": "Tunay na Pinag-isang Contact Center",
+            "dialpad": "Paghiwalayin ang mga produkto ng UCaaS at CCaaS"
           },
           "startingPrice": {
-            "name": "[FIL]Starting Price (UCaaS)",
-            "seasalt": "[FIL]$25/agent/month",
-            "dialpad": "[FIL]$15/user/month"
+            "name": "Panimulang Presyo (UCaaS)",
+            "seasalt": "$25/ahente/buwan",
+            "dialpad": "$15/gumagamit/buwan"
           },
           "contactCenterPrice": {
-            "name": "[FIL]Contact Center Price",
-            "seasalt": "[FIL]$25/agent/month",
-            "dialpad": "[FIL]$80+/user/month"
+            "name": "Presyo ng Contact Center",
+            "seasalt": "$25/ahente/buwan",
+            "dialpad": "$80+/gumagamit/buwan"
           },
           "unifiedVoiceDigital": {
-            "name": "[FIL]Unified Voice & Digital",
-            "seasalt": "[FIL]Yes, natively included",
-            "dialpad": "[FIL]No, requires expensive CCaaS plan"
+            "name": "Pinag-isang Boses at Digital",
+            "seasalt": "Oo, katutubong kasama",
+            "dialpad": "Hindi, nangangailangan ng mamahaling plano sa CCaaS"
           },
           "voiceAI": {
-            "name": "[FIL]Voice AI",
-            "seasalt": "[FIL]Yes, Voicebots & Transcription",
-            "dialpad": "[FIL]Yes, strong transcription & summaries"
+            "name": "Voice AI",
+            "seasalt": "Oo, mga Voicebot at Transkripsyon",
+            "dialpad": "Oo, malakas na transkripsyon at mga buod"
           },
           "globalSMS": {
-            "name": "[FIL]Global SMS",
-            "seasalt": "[FIL]Yes",
-            "dialpad": "[FIL]Requires Pro plan ($25/mo+)"
+            "name": "Pandaigdigang SMS",
+            "seasalt": "Oo",
+            "dialpad": "Nangangailangan ng Pro plan ($25/buwan+)"
           },
           "bestFor": {
-            "name": "[FIL]Best For",
-            "seasalt": "[FIL]SMEs wanting a simple, powerful, and truly unified contact center",
-            "dialpad": "[FIL]Businesses that prioritize AI for voice calls but don't need a unified digital inbox"
+            "name": "Pinakamahusay Para sa",
+            "seasalt": "Mga SME na nagnanais ng isang simple, malakas, at tunay na pinag-isang contact center",
+            "dialpad": "Mga negosyo na nagbibigay-priyoridad sa AI para sa mga tawag sa boses ngunit hindi nangangailangan ng isang pinag-isang digital na inbox"
           }
         }
       },
       "pricingTiers": {
-        "title": "[FIL]The Contact Center Upgrade Trap",
-        "subtitle": "[FIL]See how Dialpad's attractive entry price leads to expensive upgrades for contact center features",
+        "title": "Ang Bitag sa Pag-upgrade ng Contact Center",
+        "subtitle": "Tingnan kung paano humahantong ang kaakit-akit na panimulang presyo ng Dialpad sa mga mamahaling pag-upgrade para sa mga tampok sa contact center",
         "dialpadStandard": {
-          "title": "[FIL]Dialpad Standard",
-          "price": "[FIL]$15",
-          "period": "[FIL]/user/month",
+          "title": "Dialpad Standard",
+          "price": "$15",
+          "period": "/gumagamit/buwan",
           "features": {
-            "basicCalling": "[FIL]Basic calling",
-            "voiceIntelligence": "[FIL]Voice intelligence",
-            "noOmnichannel": "[FIL]No omnichannel",
-            "noContactCenter": "[FIL]No contact center features"
+            "basicCalling": "Pangunahing pagtawag",
+            "voiceIntelligence": "Katalinuhan sa boses",
+            "noOmnichannel": "Walang omnichannel",
+            "noContactCenter": "Walang mga tampok sa contact center"
           },
-          "goodFor": "[FIL]Good for: Basic business phone"
+          "goodFor": "Mabuti para sa: Pangunahing telepono sa negosyo"
         },
         "dialpadSupport": {
-          "title": "[FIL]Dialpad Support",
-          "price": "[FIL]$80+",
-          "period": "[FIL]/user/month",
+          "title": "Suporta sa Dialpad",
+          "price": "$80+",
+          "period": "/gumagamit/buwan",
           "features": {
-            "contactCenterFeatures": "[FIL]Contact center features",
-            "omnichannelRouting": "[FIL]Omnichannel routing",
-            "advancedAnalytics": "[FIL]Advanced analytics",
-            "digitalChannels": "[FIL]Digital channels"
+            "contactCenterFeatures": "Mga tampok sa contact center",
+            "omnichannelRouting": "Pagruruta ng omnichannel",
+            "advancedAnalytics": "Advanced na analytics",
+            "digitalChannels": "Mga digital na channel"
           },
-          "requiredFor": "[FIL]Required for: Contact center needs"
+          "requiredFor": "Kinakailangan para sa: Mga pangangailangan sa contact center"
         },
         "seasalt": {
           "title": "Seasalt.ai",
-          "price": "[FIL]$25",
-          "period": "[FIL]/agent/month",
+          "price": "$25",
+          "period": "/ahente/buwan",
           "features": {
-            "fullContactCenter": "[FIL]Full contact center",
-            "allChannelsIncluded": "[FIL]All channels included",
-            "aiVoiceChat": "[FIL]AI voice & chat",
-            "noUpgradeRequired": "[FIL]No upgrade required"
+            "fullContactCenter": "Buong contact center",
+            "allChannelsIncluded": "Kasama ang lahat ng channel",
+            "aiVoiceChat": "AI voice at chat",
+            "noUpgradeRequired": "Walang kinakailangang pag-upgrade"
           },
-          "perfectFor": "[FIL]Perfect for: Complete solution"
+          "perfectFor": "Perpekto para sa: Kumpletong solusyon"
         }
       },
       "costAnalysis": {
-        "title": "[FIL]The Real Cost of Contact Center Features",
-        "subtitle": "[FIL]See how Dialpad's upgrade costs compare to Seasalt.ai[FIL]'s unified pricing",
+        "title": "Ang Tunay na Gastos ng mga Tampok sa Contact Center",
+        "subtitle": "Tingnan kung paano nagkukumpara ang mga gastos sa pag-upgrade ng Dialpad sa pinag-isang pagpepresyo ng Seasalt.ai",
         "agents5": {
-          "title": "[FIL]5 Agents",
+          "title": "5 Ahente",
           "seasalt": {
-            "price": "[FIL]$125/mo",
-            "label": "Seasalt.ai[FIL] (Complete)"
+            "price": "$125/buwan",
+            "label": "Seasalt.ai (Kumpleto)"
           },
           "dialpadBasic": {
-            "price": "[FIL]$75/mo",
-            "label": "[FIL]Dialpad (Basic only)"
+            "price": "$75/buwan",
+            "label": "Dialpad (Pangunahin lamang)"
           },
           "dialpadCC": {
-            "price": "[FIL]$400/mo",
-            "label": "[FIL]Dialpad (Contact Center)"
+            "price": "$400/buwan",
+            "label": "Dialpad (Contact Center)"
           }
         },
         "agents10": {
-          "title": "[FIL]10 Agents",
+          "title": "10 Ahente",
           "seasalt": {
-            "price": "[FIL]$275/mo",
-            "label": "Seasalt.ai[FIL] (Complete)"
+            "price": "$275/buwan",
+            "label": "Seasalt.ai (Kumpleto)"
           },
           "dialpadBasic": {
-            "price": "[FIL]$150/mo",
-            "label": "[FIL]Dialpad (Basic only)"
+            "price": "$150/buwan",
+            "label": "Dialpad (Pangunahin lamang)"
           },
           "dialpadCC": {
-            "price": "[FIL]$800/mo",
-            "label": "[FIL]Dialpad (Contact Center)"
+            "price": "$800/buwan",
+            "label": "Dialpad (Contact Center)"
           }
         },
         "agents20": {
-          "title": "[FIL]20 Agents",
+          "title": "20 Ahente",
           "seasalt": {
-            "price": "[FIL]$525/mo",
-            "label": "Seasalt.ai[FIL] (Complete)"
+            "price": "$525/buwan",
+            "label": "Seasalt.ai (Kumpleto)"
           },
           "dialpadBasic": {
-            "price": "[FIL]$300/mo",
-            "label": "[FIL]Dialpad (Basic only)"
+            "price": "$300/buwan",
+            "label": "Dialpad (Pangunahin lamang)"
           },
           "dialpadCC": {
-            "price": "[FIL]$1,600/mo",
-            "label": "[FIL]Dialpad (Contact Center)"
+            "price": "$1,600/buwan",
+            "label": "Dialpad (Contact Center)"
           }
         }
       },
       "voiceAI": {
-        "title": "[FIL]Voice AI: Both Platforms Excel",
-        "subtitle": "[FIL]Both platforms offer strong voice AI capabilities, but in different contexts",
+        "title": "Voice AI: Parehong Mahusay ang mga Platform",
+        "subtitle": "Parehong nag-aalok ang mga platform ng malakas na mga kakayahan sa voice AI, ngunit sa iba't ibang mga konteksto",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: Complete AI Suite",
+          "title": "Seasalt.ai: Kumpletong AI Suite",
           "features": {
-            "voicebotHandling": "[FIL]AI voicebot for automated call handling",
-            "realtimeTranscription": "[FIL]Real-time transcription and summaries",
-            "aiChatbots": "[FIL]AI chatbots for digital channels",
-            "unifiedAI": "[FIL]Unified AI across all channels",
-            "includedPricing": "[FIL]Included in base pricing"
+            "voicebotHandling": "AI voicebot para sa awtomatikong paghawak ng tawag",
+            "realtimeTranscription": "Real-time na transkripsyon at mga buod",
+            "aiChatbots": "Mga AI chatbot para sa mga digital na channel",
+            "unifiedAI": "Pinag-isang AI sa lahat ng channel",
+            "includedPricing": "Kasama sa pangunahing pagpepresyo"
           }
         },
         "dialpad": {
-          "title": "[FIL]Dialpad: Voice-Focused AI",
+          "title": "Dialpad: AI na Nakatuon sa Boses",
           "features": {
-            "excellentTranscription": "[FIL]Excellent real-time transcription",
-            "aiSummaries": "[FIL]AI-powered call summaries",
-            "sentimentAnalysis": "[FIL]Sentiment analysis",
-            "limitedVoiceOnly": "[FIL]Limited to voice channel only",
-            "noAutomatedHandling": "[FIL]No automated call handling"
+            "excellentTranscription": "Mahusay na real-time na transkripsyon",
+            "aiSummaries": "Mga buod ng tawag na pinapagana ng AI",
+            "sentimentAnalysis": "Pagsusuri ng sentimyento",
+            "limitedVoiceOnly": "Limitado sa channel ng boses lamang",
+            "noAutomatedHandling": "Walang awtomatikong paghawak ng tawag"
           }
         }
       },
       "cta": {
-        "title": "[FIL]Skip the Expensive Upgrade Path",
-        "description": "[FIL]Why start with basic features and pay 3x more for contact center capabilities? Get everything you need from day one at a fraction of the cost.",
+        "title": "Laktawan ang Mamahaling Landas sa Pag-upgrade",
+        "description": "Bakit magsisimula sa mga pangunahing tampok at magbayad ng 3x na higit pa para sa mga kakayahan sa contact center? Kumuha ng lahat ng kailangan mo mula sa unang araw sa isang bahagi ng gastos.",
         "buttons": {
-          "signUp": "[FIL]Sign Up",
-          "bookDemo": "[FIL]Book A Demo"
+          "signUp": "Mag-sign Up",
+          "bookDemo": "Mag-book ng Demo"
         }
       }
     },
     "eightXEightAlternative": {
       "seo": {
-        "title": "[FIL]8x8 Alternative: Enterprise Features Without Enterprise Price | Seasalt.ai",
-        "description": "[FIL]Get the enterprise-grade omnichannel features you need at SME-friendly pricing. Transparent, simple, and affordable alternative to complex 8x8 enterprise solutions."
+        "title": "Alternatibo sa 8x8: Mga Tampok sa Enterprise Nang Walang Presyo sa Enterprise | Seasalt.ai",
+        "description": "Kumuha ng mga tampok sa omnichannel sa antas ng enterprise na kailangan mo sa pagpepresyo na madaling gamitin sa SME. Transparent, simple, at abot-kayang alternatibo sa mga kumplikadong solusyon sa enterprise ng 8x8."
       },
       "nav": {
-        "backLink": "[FIL]Back to Compare Us Overview"
+        "backLink": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
-        "title": "[FIL]Get the Enterprise Features You Need,",
-        "highlight": "[FIL]Without the Enterprise Price You Don't",
-        "description": "[FIL]8x8 is a comprehensive, enterprise-grade solution offering a full suite of UCaaS and CCaaS features, including true omnichannel routing and advanced analytics. While powerful, its pricing is opaque (quote-based) and historically expensive, targeting larger organizations. For SMEs, the complexity and cost are often prohibitive. Seasalt.ai[FIL] provides the key omnichannel and AI features that drive value for a growing business."
+        "title": "Kumuha ng mga Tampok sa Enterprise na Kailangan Mo,",
+        "highlight": "Nang Walang Presyo ng Enterprise na Hindi Mo Kailangan",
+        "description": "Ang 8x8 ay isang komprehensibo, solusyon sa antas ng enterprise na nag-aalok ng isang buong suite ng mga tampok ng UCaaS at CCaaS, kabilang ang tunay na omnichannel routing at advanced na analytics. Bagama't malakas, ang pagpepresyo nito ay hindi malinaw (batay sa quote) at sa kasaysayan ay mahal, na nagta-target sa mas malalaking organisasyon. Para sa mga SME, ang kumplikasyon at gastos ay madalas na nagbabawal. Nagbibigay ang Seasalt.ai ng mga pangunahing tampok sa omnichannel at AI na nag-drive ng halaga para sa isang lumalagong negosyo."
       },
       "comparison": {
-        "title": "[FIL]SME-Focused vs. Enterprise-Complex",
-        "subtitle": "[FIL]See why simple and transparent beats complex and opaque for growing businesses",
+        "title": "Nakatuon sa SME kumpara sa Kumplikado sa Enterprise",
+        "subtitle": "Tingnan kung bakit mas mahusay ang simple at transparent kaysa sa kumplikado at hindi malinaw para sa mga lumalagong negosyo",
         "table": {
           "headers": {
-            "feature": "[FIL]Feature",
+            "feature": "Tampok",
             "seasalt": "Seasalt.ai",
-            "eightXEight": "[FIL]8x8"
+            "eightXEight": "8x8"
           }
         },
         "features": {
           "targetCustomer": {
-            "name": "[FIL]Target Customer",
-            "seasalt": "[FIL]Small to Medium Businesses (SMEs)",
-            "eightXEight": "[FIL]Mid-Market to Enterprise"
+            "name": "Target na Customer",
+            "seasalt": "Maliit hanggang Katamtamang mga Negosyo (SME)",
+            "eightXEight": "Mid-Market hanggang Enterprise"
           },
           "pricingModel": {
-            "name": "[FIL]Pricing Model",
-            "seasalt": "[FIL]Simple & predictable per-agent fee",
-            "eightXEight": "[FIL]Quote-Based (Historically expensive tiers)"
+            "name": "Modelo ng Pagpepresyo",
+            "seasalt": "Simple at mahuhulaan na bayad bawat ahente",
+            "eightXEight": "Batay sa Quote (Sa kasaysayan ay mahal na mga tier)"
           },
           "startingPrice": {
-            "name": "[FIL]Starting Price",
-            "seasalt": "[FIL]$25/agent/month",
-            "eightXEight": "[FIL]Not Publicly Listed (Previously started at $24/mo for basic UCaaS)"
+            "name": "Panimulang Presyo",
+            "seasalt": "$25/ahente/buwan",
+            "eightXEight": "Hindi Nakalista sa Publiko (Dati nagsimula sa $24/buwan para sa pangunahing UCaaS)"
           },
           "omnichannelRouting": {
-            "name": "[FIL]Omnichannel Routing",
-            "seasalt": "[FIL]Yes",
-            "eightXEight": "[FIL]Yes, advanced"
+            "name": "Pagruruta ng Omnichannel",
+            "seasalt": "Oo",
+            "eightXEight": "Oo, advanced"
           },
           "workforceManagement": {
-            "name": "[FIL]Workforce Management",
-            "seasalt": "[FIL]Basic",
-            "eightXEight": "[FIL]Yes, advanced"
+            "name": "Pamamahala ng Lakas-Paggawa",
+            "seasalt": "Pangunahin",
+            "eightXEight": "Oo, advanced"
           },
           "easeOfSetup": {
-            "name": "[FIL]Ease of Setup",
-            "seasalt": "[FIL]Simple, self-service",
-            "eightXEight": "[FIL]Complex, must contact sales"
+            "name": "Dali ng Pag-setup",
+            "seasalt": "Simple, self-service",
+            "eightXEight": "Kumplikado, dapat makipag-ugnayan sa sales"
           },
           "bestFor": {
-            "name": "[FIL]Best For",
-            "seasalt": "[FIL]SMEs needing a powerful but affordable and easy-to-use platform",
-            "eightXEight": "[FIL]Large enterprises requiring a full suite of advanced communication and management tools"
+            "name": "Pinakamahusay Para sa",
+            "seasalt": "Mga SME na nangangailangan ng isang malakas ngunit abot-kaya at madaling gamitin na platform",
+            "eightXEight": "Malalaking enterprise na nangangailangan ng isang buong suite ng mga advanced na tool sa komunikasyon at pamamahala"
           }
         }
       },
       "pricingTransparency": {
-        "title": "[FIL]Transparent vs. Hidden Pricing",
-        "subtitle": "[FIL]Why quote-based pricing creates barriers for growing businesses",
+        "title": "Transparent kumpara sa Nakatagong Pagpepresyo",
+        "subtitle": "Bakit lumilikha ng mga hadlang para sa mga lumalagong negosyo ang pagpepresyo na batay sa quote",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: Transparent Pricing",
+          "title": "Seasalt.ai: Transparent na Pagpepresyo",
           "pricing": {
-            "title": "[FIL]$25/agent/month",
-            "description": "[FIL]Clear, published pricing"
+            "title": "$25/ahente/buwan",
+            "description": "Malinaw, nai-publish na pagpepresyo"
           },
           "selfService": {
-            "title": "[FIL]Self-Service Signup",
-            "description": "[FIL]Start immediately, no sales calls required"
+            "title": "Pag-sign up ng Self-Service",
+            "description": "Magsimula agad, walang kinakailangang mga tawag sa pagbebenta"
           },
           "noMinimums": {
-            "title": "[FIL]No Minimums",
-            "description": "[FIL]Start with 1 user, scale as needed"
+            "title": "Walang mga Minimum",
+            "description": "Magsimula sa 1 gumagamit, palakihin kung kinakailangan"
           },
           "predictableCosts": {
-            "title": "[FIL]Predictable Costs",
-            "description": "[FIL]Easy budgeting and forecasting"
+            "title": "Mahuhulaan na mga Gastos",
+            "description": "Madaling pagbadyet at pag-forecast"
           }
         },
         "eightXEight": {
-          "title": "[FIL]8x8: Quote-Based Complexity",
+          "title": "8x8: Kumplikasyon na Batay sa Quote",
           "hiddenPricing": {
-            "title": "[FIL]Hidden Pricing",
-            "description": "[FIL]Must contact sales for pricing"
+            "title": "Nakatagong Pagpepresyo",
+            "description": "Dapat makipag-ugnayan sa sales para sa pagpepresyo"
           },
           "salesProcess": {
-            "title": "[FIL]Sales Process",
-            "description": "[FIL]Lengthy sales cycles and negotiations"
+            "title": "Proseso ng Pagbebenta",
+            "description": "Mahahabang siklo ng pagbebenta at mga negosasyon"
           },
           "enterpriseFocus": {
-            "title": "[FIL]Enterprise Focus",
-            "description": "[FIL]Pricing optimized for large organizations"
+            "title": "Pokus sa Enterprise",
+            "description": "Pagpepresyo na na-optimize para sa malalaking organisasyon"
           },
           "complexContracts": {
-            "title": "[FIL]Complex Contracts",
-            "description": "[FIL]Multi-year commitments and complex terms"
+            "title": "Mga Kumplikadong Kontrata",
+            "description": "Mga pangako sa maraming taon at mga kumplikadong tuntunin"
           }
         },
         "quoteBasedProblem": {
-          "title": "[FIL]The Quote-Based Pricing Problem",
-          "description": "[FIL]When pricing isn't transparent, it usually means it's expensive. Quote-based pricing creates barriers for SMEs who need to budget and make quick decisions. It's designed for enterprise buyers with dedicated procurement teams and large budgets."
+          "title": "Ang Problema sa Pagpepresyo na Batay sa Quote",
+          "description": "Kapag hindi transparent ang pagpepresyo, karaniwang nangangahulugan ito na mahal. Lumilikha ng mga hadlang ang pagpepresyo na batay sa quote para sa mga SME na kailangang magbadyet at gumawa ng mabilis na mga desisyon. Idinisenyo ito para sa mga mamimili sa enterprise na may dedikadong mga koponan sa pagkuha at malalaking badyet."
         }
       },
       "featureComparison": {
-        "title": "[FIL]Essential vs. Over-Engineered",
-        "subtitle": "[FIL]See how Seasalt.ai[FIL] focuses on what SMEs actually need vs. enterprise complexity",
+        "title": "Mahalaga kumpara sa Sobrang-Inhinyero",
+        "subtitle": "Tingnan kung paano nakatuon ang Seasalt.ai sa kung ano talaga ang kailangan ng mga SME kumpara sa kumplikasyon sa enterprise",
         "seasalt": {
-          "title": "Seasalt.ai[FIL]: SME-Focused",
+          "title": "Seasalt.ai: Nakatuon sa SME",
           "features": {
-            "essentialOmnichannel": "[FIL]Essential omnichannel features",
-            "aiAutomation": "[FIL]AI automation included",
-            "simpleSetup": "[FIL]Simple setup and management",
-            "intuitiveUI": "[FIL]Intuitive user interface",
-            "affordableScaling": "[FIL]Affordable scaling",
-            "fastTimeToValue": "[FIL]Fast time to value"
+            "essentialOmnichannel": "Mahalagang mga tampok sa omnichannel",
+            "aiAutomation": "Kasama ang AI automation",
+            "simpleSetup": "Simpleng pag-setup at pamamahala",
+            "intuitiveUI": "Madaling gamitin na user interface",
+            "affordableScaling": "Abot-kayang pag-scale",
+            "fastTimeToValue": "Mabilis na oras sa halaga"
           }
         },
         "eightXEight": {
-          "title": "[FIL]8x8: Enterprise-Complex",
+          "title": "8x8: Kumplikado sa Enterprise",
           "features": {
-            "advancedWorkforce": "[FIL]Advanced workforce management",
-            "comprehensiveAnalytics": "[FIL]Comprehensive analytics suite",
-            "complexImplementation": "[FIL]Complex implementation required",
-            "steepLearning": "[FIL]Steep learning curve",
-            "highTotalCost": "[FIL]High total cost of ownership",
-            "longDeployment": "[FIL]Long deployment timelines"
+            "advancedWorkforce": "Advanced na pamamahala ng lakas-paggawa",
+            "comprehensiveAnalytics": "Komprehensibong suite ng analytics",
+            "complexImplementation": "Kinakailangan ang kumplikadong pagpapatupad",
+            "steepLearning": "Matarik na kurba sa pag-aaral",
+            "highTotalCost": "Mataas na kabuuang gastos ng pagmamay-ari",
+            "longDeployment": "Mahahabang timeline ng pag-deploy"
           }
         }
       },
       "businessImpact": {
-        "title": "[FIL]Business Impact Comparison",
-        "subtitle": "[FIL]How platform choice affects your business operations and growth",
+        "title": "Paghahambing ng Epekto sa Negosyo",
+        "subtitle": "Paano nakakaapekto sa iyong mga operasyon sa negosyo at paglago ang pagpili ng platform",
         "timeToDeploy": {
-          "title": "[FIL]Time to Deploy",
+          "title": "Oras sa Pag-deploy",
           "seasalt": {
-            "value": "[FIL]Minutes",
+            "value": "Mga minuto",
             "label": "Seasalt.ai"
           },
           "eightXEight": {
-            "value": "[FIL]Months",
-            "label": "[FIL]8x8"
+            "value": "Mga buwan",
+            "label": "8x8"
           }
         },
         "learningCurve": {
-          "title": "[FIL]Learning Curve",
+          "title": "Kurba sa Pag-aaral",
           "seasalt": {
-            "value": "[FIL]Low",
+            "value": "Mababa",
             "label": "Seasalt.ai"
           },
           "eightXEight": {
-            "value": "[FIL]High",
-            "label": "[FIL]8x8"
+            "value": "Mataas",
+            "label": "8x8"
           }
         },
         "totalCost": {
-          "title": "[FIL]Total Cost",
+          "title": "Kabuuang Gastos",
           "seasalt": {
-            "value": "[FIL]Predictable",
+            "value": "Mahuhulaan",
             "label": "Seasalt.ai"
           },
           "eightXEight": {
-            "value": "[FIL]Variable",
-            "label": "[FIL]8x8"
+            "value": "Variable",
+            "label": "8x8"
           }
         }
       },
       "cta": {
-        "title": "[FIL]Get Enterprise Power with SME Simplicity",
-        "description": "[FIL]Why deal with enterprise complexity when you can get the features you need in a simple, affordable package designed for growing businesses?",
+        "title": "Kumuha ng Kapangyarihan ng Enterprise na may Simple ng SME",
+        "description": "Bakit haharapin ang kumplikasyon sa enterprise kung maaari kang makakuha ng mga tampok na kailangan mo sa isang simple, abot-kayang pakete na idinisenyo para sa mga lumalagong negosyo?",
         "buttons": {
-          "signUp": "[FIL]Sign Up",
-          "bookDemo": "[FIL]Book A Demo"
+          "signUp": "Mag-sign Up",
+          "bookDemo": "Mag-book ng Demo"
         }
       }
     },
     "openPhoneAlternative": {
       "seo": {
-        "title": "[FIL]OpenPhone Alternative: True Omnichannel Beyond Phone & SMS[FIL] | Seasalt.ai",
-        "description": "[FIL]Graduate from OpenPhone's voice/SMS[FIL] limitations to a complete omnichannel platform. Get WhatsApp[FIL], webchat, AI automation, and advanced routing at $25/agent."
+        "title": "Alternatibo sa OpenPhone: Tunay na Omnichannel na Higit pa sa Telepono at SMS | Seasalt.ai",
+        "description": "Magtapos mula sa mga limitasyon sa boses/SMS ng OpenPhone patungo sa isang kumpletong omnichannel na platform. Kumuha ng WhatsApp, webchat, AI automation, at advanced na pagruruta sa $25/ahente."
       },
       "nav": {
-        "backLink": "[FIL]Back to Compare Us Overview"
+        "backLink": "Bumalik sa Pangkalahatang-ideya ng Paghahambing sa Amin"
       },
       "hero": {
-        "title": "[FIL]Your Business Needs More Than Just a Phone Number.",
-        "highlight": "[FIL]Graduate to a True Communications Platform",
-        "description": "[FIL]OpenPhone is an excellent, modern, and affordable business phone system, perfect for teams needing a shared number for calls and texts. However, it is not an omnichannel contact center. It lacks crucial channels like webchat and social media, and its automation and AI capabilities are limited to add-ons or basic integrations. Seasalt.ai[FIL] is the logical next step for businesses that have outgrown a simple phone solution."
+        "title": "Kailangan ng Iyong Negosyo ang Higit Pa sa isang Numero ng Telepono.",
+        "highlight": "Magtapos sa isang Tunay na Platform ng Komunikasyon",
+        "description": "Ang OpenPhone ay isang mahusay, moderno, at abot-kayang sistema ng telepono sa negosyo, perpekto para sa mga koponan na nangangailangan ng isang shared na numero para sa mga tawag at teksto. Gayunpaman, hindi ito isang omnichannel contact center. Kulang ito sa mga kritikal na channel tulad ng webchat at social media, at ang mga kakayahan nito sa automation at AI ay limitado sa mga add-on o pangunahing mga pagsasama. Ang Seasalt.ai ay ang lohikal na susunod na hakbang para sa mga negosyo na nalampasan na ang isang simpleng solusyon sa telepono."
       },
       "comparison": {
-        "title": "[FIL]Phone System vs. Complete Communication Platform",
-        "subtitle": "[FIL]See why growing businesses need more than just voice and SMS",
+        "title": "Sistema ng Telepono kumpara sa Kumpletong Platform ng Komunikasyon",
+        "subtitle": "Tingnan kung bakit kailangan ng mga lumalagong negosyo ang higit pa sa boses at SMS",
         "table": {
           "headers": {
-            "feature": "[FIL]Feature",
+            "feature": "Tampok",
             "seasalt": "Seasalt.ai",
-            "openPhone": "[FIL]OpenPhone"
+            "openPhone": "OpenPhone"
           }
         },
         "features": {
           "platformType": {
-            "name": "[FIL]Platform Type",
-            "seasalt": "[FIL]Omni-Channel Contact Center",
-            "openPhone": "[FIL]Business Phone System (VoIP)"
+            "name": "Uri ng Platform",
+            "seasalt": "Omni-Channel Contact Center",
+            "openPhone": "Sistema ng Telepono sa Negosyo (VoIP)"
           },
           "supportedChannels": {
-            "name": "[FIL]Supported Channels",
-            "seasalt": "[FIL]Voice, SMS[FIL], WhatsApp[FIL], Webchat, Social",
-            "openPhone": "[FIL]Voice & SMS[FIL]/MMS only"
+            "name": "Mga Suportadong Channel",
+            "seasalt": "Boses, SMS, WhatsApp, Webchat, Social",
+            "openPhone": "Boses at SMS/MMS lamang"
           },
           "unifiedInbox": {
-            "name": "[FIL]Unified Inbox",
-            "seasalt": "[FIL]Yes, for all channels",
-            "openPhone": "[FIL]Yes, but for calls & texts only"
+            "name": "Pinag-isang Inbox",
+            "seasalt": "Oo, para sa lahat ng channel",
+            "openPhone": "Oo, ngunit para sa mga tawag at teksto lamang"
           },
           "aiFeatures": {
-            "name": "[FIL]AI Voice/Chatbots",
-            "seasalt": "[FIL]Yes, native and included",
-            "openPhone": "[FIL]AI is a paid add-on ($49/mo)"
+            "name": "Mga Tampok ng AI Voice/Chatbots",
+            "seasalt": "Oo, katutubo at kasama",
+            "openPhone": "Ang AI ay isang bayad na add-on ($49/buwan)"
           },
           "advancedRouting": {
-            "name": "[FIL]Advanced Routing",
-            "seasalt": "[FIL]Yes, skill-based & IVR",
-            "openPhone": "[FIL]Basic IVR on Business plan ($23/mo+)"
+            "name": "Advanced na Pagruruta",
+            "seasalt": "Oo, batay sa kasanayan at IVR",
+            "openPhone": "Pangunahing IVR sa Business plan ($23/buwan+)"
           },
           "crmIntegrations": {
-            "name": "[FIL]CRM Integrations",
-            "seasalt": "[FIL]Yes",
-            "openPhone": "HubSpot[FIL]/Salesforce on Business plan only"
+            "name": "Mga Pagsasama sa CRM",
+            "seasalt": "Oo",
+            "openPhone": "HubSpot/Salesforce sa Business plan lamang"
           },
           "bestFor": {
-            "name": "[FIL]Best For",
-            "seasalt": "[FIL]Businesses needing to manage all customer communication channels in one place",
-            "openPhone": "[FIL]Small teams and startups needing a simple, affordable shared phone number"
+            "name": "Pinakamahusay Para sa",
+            "seasalt": "Mga negosyo na nangangailangan na pamahalaan ang lahat ng mga channel ng komunikasyon sa customer sa isang lugar",
+            "openPhone": "Maliliit na koponan at mga startup na nangangailangan ng isang simple, abot-kayang shared na numero ng telepono"
           }
         }
       },
       "growthLimitations": {
-        "title": "[FIL]When You Outgrow a Simple Phone System",
-        "subtitle": "[FIL]Signs it's time to upgrade from OpenPhone to a complete communication platform",
+        "title": "Kapag Nalampasan Mo na ang isang Simpleng Sistema ng Telepono",
+        "subtitle": "Mga palatandaan na oras na upang mag-upgrade mula sa OpenPhone patungo sa isang kumpletong platform ng komunikasyon",
         "customerChat": {
-          "title": "[FIL]Customers Want to Chat",
-          "description": "[FIL]Your customers are asking for website chat, WhatsApp[FIL] support, or social media messaging that OpenPhone can't provide."
+          "title": "Gusto ng mga Customer na Makipag-chat",
+          "description": "Humihingi ang iyong mga customer ng suporta sa website chat, WhatsApp, o pagmemensahe sa social media na hindi maibibigay ng OpenPhone."
         },
         "automation": {
-          "title": "[FIL]You Need Automation",
-          "description": "[FIL]You want AI to handle routine questions, book appointments, or provide 24/7 support beyond basic auto-replies."
+          "title": "Kailangan Mo ng Automation",
+          "description": "Gusto mong pangasiwaan ng AI ang mga regular na tanong, mag-book ng mga appointment, o magbigay ng 24/7 na suporta na lampas sa mga pangunahing awtomatikong tugon."
         },
         "complexRouting": {
-          "title": "[FIL]Complex Call Routing",
-          "description": "[FIL]You need advanced IVR, skill-based routing, or queue management beyond OpenPhone's basic features."
+          "title": "Kumplikadong Pagruruta ng Tawag",
+          "description": "Kailangan mo ng advanced na IVR, pagruruta na batay sa kasanayan, o pamamahala ng pila na lampas sa mga pangunahing tampok ng OpenPhone."
         },
         "marketingCampaigns": {
-          "title": "[FIL]Marketing Campaigns",
-          "description": "[FIL]You want to run outbound SMS[FIL] campaigns, WhatsApp[FIL] marketing, or multi-channel customer outreach."
+          "title": "Mga Kampanya sa Marketing",
+          "description": "Gusto mong magpatakbo ng mga kampanya sa outbound na SMS, marketing sa WhatsApp, o outreach sa customer sa maraming channel."
         },
         "unifiedCustomerView": {
-          "title": "[FIL]Unified Customer View",
-          "description": "[FIL]You need to see all customer interactions across channels, not just phone calls and texts."
+          "title": "Pinag-isang View ng Customer",
+          "description": "Kailangan mong makita ang lahat ng mga pakikipag-ugnayan ng customer sa mga channel, hindi lamang mga tawag sa telepono at teksto."
         },
         "advancedAnalytics": {
-          "title": "[FIL]Advanced Analytics",
-          "description": "[FIL]You want detailed reporting on customer interactions, agent performance, and business metrics."
+          "title": "Advanced na Analytics",
+          "description": "Gusto mo ng detalyadong pag-uulat sa mga pakikipag-ugnayan ng customer, pagganap ng ahente, at mga sukatan sa negosyo."
         }
       },
       "featureExpansion": {
-        "title": "[FIL]What You Gain with Seasalt.ai",
-        "subtitle": "[FIL]Keep everything you love about OpenPhone and add powerful omnichannel capabilities",
+        "title": "Ano ang Makukuha Mo sa Seasalt.ai",
+        "subtitle": "Panatilihin ang lahat ng gusto mo tungkol sa OpenPhone at magdagdag ng malakas na mga kakayahan sa omnichannel",
         "keepWorks": {
-          "title": "[FIL]Keep What Works",
-          "sharedNumber": "[FIL]Shared business phone number",
-          "teamSMS": "[FIL]Team SMS[FIL] and MMS messaging",
-          "simpleInterface": "[FIL]Simple, intuitive interface",
-          "mobileApp": "[FIL]Mobile app for on-the-go",
-          "affordablePricing": "[FIL]Affordable pricing"
+          "title": "Panatilihin Kung Ano ang Gumagana",
+          "sharedNumber": "Shared na numero ng telepono sa negosyo",
+          "teamSMS": "Pagmemensahe sa SMS at MMS ng koponan",
+          "simpleInterface": "Simple, madaling gamitin na interface",
+          "mobileApp": "Mobile app para sa on-the-go",
+          "affordablePricing": "Abot-kayang pagpepresyo"
         },
         "addCapabilities": {
-          "title": "[FIL]Add New Capabilities",
-          "whatsapp": "WhatsApp[FIL] Business integration",
-          "webchat": "[FIL]Website chat widget",
-          "socialMedia": "[FIL]Social media messaging",
-          "aiVoicebots": "[FIL]AI voicebot and chatbot",
-          "analytics": "[FIL]Advanced analytics and reporting"
+          "title": "Magdagdag ng mga Bagong Kakayahan",
+          "whatsapp": "Pagsasama ng WhatsApp Business",
+          "webchat": "Widget ng chat sa website",
+          "socialMedia": "Pagmemensahe sa social media",
+          "aiVoicebots": "AI voicebot at chatbot",
+          "analytics": "Advanced na analytics at pag-uulat"
         }
       },
       "pricingComparison": {
-        "title": "[FIL]Pricing Comparison",
-        "subtitle": "[FIL]See how Seasalt.ai[FIL]'s complete platform compares to OpenPhone with add-ons",
+        "title": "Paghahambing ng Pagpepresyo",
+        "subtitle": "Tingnan kung paano nagkukumpara ang kumpletong platform ng Seasalt.ai sa OpenPhone na may mga add-on",
         "openPhoneStarter": {
-          "title": "[FIL]OpenPhone Starter",
-          "price": "[FIL]$15",
-          "period": "[FIL]/user/month",
-          "voiceOnly": "[FIL]Voice & SMS[FIL] only",
-          "noAI": "[FIL]No AI features",
-          "noChannels": "[FIL]No other channels"
+          "title": "OpenPhone Starter",
+          "price": "$15",
+          "period": "/gumagamit/buwan",
+          "voiceOnly": "Boses at SMS lamang",
+          "noAI": "Walang mga tampok sa AI",
+          "noChannels": "Walang ibang mga channel"
         },
         "openPhoneAddons": {
-          "title": "[FIL]OpenPhone + Add-ons",
-          "price": "[FIL]$72",
-          "period": "[FIL]/user/month",
-          "businessPlan": "[FIL]Business plan ($23)",
-          "aiFeatures": "[FIL]AI features ($49)",
-          "stillLimited": "[FIL]Still voice & SMS[FIL] only"
+          "title": "OpenPhone + mga Add-on",
+          "price": "$72",
+          "period": "/gumagamit/buwan",
+          "businessPlan": "Business plan ($23)",
+          "aiFeatures": "Mga tampok ng AI ($49)",
+          "stillLimited": "Boses at SMS pa rin lamang"
         },
         "seasalt": {
           "title": "Seasalt.ai",
-          "price": "[FIL]$25",
-          "period": "[FIL]/agent/month",
-          "allChannels": "[FIL]All channels included",
-          "aiIncluded": "[FIL]AI included",
-          "completePlatform": "[FIL]Complete platform"
+          "price": "$25",
+          "period": "/ahente/buwan",
+          "allChannels": "Kasama ang lahat ng channel",
+          "aiIncluded": "Kasama ang AI",
+          "completePlatform": "Kumpletong platform"
         }
       },
       "migrationPath": {
-        "title": "[FIL]Easy Migration Path",
-        "subtitle": "[FIL]Seamlessly transition from OpenPhone to Seasalt.ai[FIL] without losing your number or disrupting service",
+        "title": "Madaling Landas sa Paglipat",
+        "subtitle": "Walang putol na lumipat mula sa OpenPhone patungo sa Seasalt.ai nang hindi nawawala ang iyong numero o nakakagambala sa serbisyo",
         "keepNumber": {
-          "title": "[FIL]Keep Your Number",
-          "description": "[FIL]Port your existing business number to Seasalt.ai"
+          "title": "Panatilihin ang Iyong Numero",
+          "description": "I-port ang iyong umiiral na numero ng negosyo sa Seasalt.ai"
         },
         "addChannels": {
-          "title": "[FIL]Add New Channels",
-          "description": "[FIL]Connect WhatsApp[FIL], webchat, and social media"
+          "title": "Magdagdag ng mga Bagong Channel",
+          "description": "Ikonekta ang WhatsApp, webchat, at social media"
         },
         "enableAI": {
-          "title": "[FIL]Enable AI",
-          "description": "[FIL]Set up automated responses and voicebots"
+          "title": "Paganahin ang AI",
+          "description": "Mag-set up ng mga awtomatikong tugon at mga voicebot"
         },
         "trainTeam": {
-          "title": "[FIL]Train Your Team",
-          "description": "[FIL]Quick onboarding to new features and capabilities"
+          "title": "Sanayin ang Iyong Koponan",
+          "description": "Mabilis na onboarding sa mga bagong tampok at kakayahan"
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Upgrade Your Communication Platform?",
-        "description": "[FIL]Keep everything you love about OpenPhone and add powerful omnichannel capabilities that will help your business grow.",
+        "title": "Handa nang Mag-upgrade ng Iyong Platform ng Komunikasyon?",
+        "description": "Panatilihin ang lahat ng gusto mo tungkol sa OpenPhone at magdagdag ng malakas na mga kakayahan sa omnichannel na makakatulong sa paglago ng iyong negosyo.",
         "buttons": {
-          "signUp": "[FIL]Sign Up",
-          "bookDemo": "[FIL]Book a Demo"
+          "signUp": "Mag-sign Up",
+          "bookDemo": "Mag-book ng Demo"
         }
       }
-    }
-  },
-  "channelsOverview": {
-    "seo": {
-      "title": "[FIL]Communication Channels - Seasalt.ai",
-      "description": "[FIL]Connect WhatsApp[FIL], phone calls, SMS[FIL], contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform."
-    },
-    "hero": {
-      "backToHome": "[FIL]Back to Home",
-      "title": "[FIL]Every Customer Channel,",
-      "titleHighlight": "[FIL]One Unified Platform",
-      "subtitle": "[FIL]Connect WhatsApp[FIL], phone calls, SMS[FIL], contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform.",
-      "hubTitle": "Seasalt.ai[FIL] Hub",
-      "hubSubtitle": "[FIL]All channels unified"
-    },
-    "channelsSection": {
-      "title": "[FIL]Choose Your Channels",
-      "subtitle": "[FIL]Start with the channels your customers use most, then expand as you grow. Each integration takes minutes, not months."
-    },
-    "channels": {
-      "whatsappBusiness": {
-        "name": "WhatsApp[FIL] Business",
-        "capabilities": {
-          "0": "[FIL]AI-powered chatbot responses",
-          "1": "[FIL]Bulk messaging campaigns",
-          "2": "[FIL]Voice message support",
-          "3": "Meta[FIL] Cloud API integration"
-        }
-      },
-      "voicePhoneCalls": {
-        "name": "[FIL]Voice & Phone Calls",
-        "capabilities": {
-          "0": "[FIL]AI voicebot with human handoff",
-          "1": "[FIL]Auto dialer campaigns",
-          "2": "[FIL]Multi-agent round robin",
-          "3": "Twilio[FIL] Flex integration"
-        }
-      },
-      "smsMessaging": {
-        "name": "SMS[FIL] Messaging",
-        "capabilities": {
-          "0": "[FIL]Bulk SMS[FIL] campaigns",
-          "1": "[FIL]Two-way conversations",
-          "2": "[FIL]Global delivery (200+ countries)",
-          "3": "TCPA[FIL] compliance tools"
-        }
-      },
-      "websiteChatWidget": {
-        "name": "[FIL]Website Chat Widget",
-        "capabilities": {
-          "0": "[FIL]Embeddable chat widget",
-          "1": "[FIL]Customizable design",
-          "2": "[FIL]Lead capture forms",
-          "3": "WordPress[FIL], Shopify[FIL] integration"
-        }
-      },
-      "instagramDMs": {
-        "name": "[FIL]Instagram DMs",
-        "capabilities": {
-          "0": "[FIL]Automated DM responses",
-          "1": "[FIL]Story interaction handling",
-          "2": "[FIL]Image recognition AI",
-          "3": "[FIL]Business account integration"
-        }
-      },
-      "facebookMessenger": {
-        "name": "[FIL]Facebook Messenger",
-        "capabilities": {
-          "0": "[FIL]Facebook business integration",
-          "1": "[FIL]Shop integration",
-          "2": "[FIL]Lead generation tools",
-          "3": "[FIL]Social proof features"
-        }
-      },
-      "contactForms": {
-        "name": "[FIL]Contact Forms",
-        "capabilities": {
-          "0": "MailerLite[FIL] integration",
-          "1": "HubSpot[FIL] form sync",
-          "2": "[FIL]Instant lead engagement",
-          "3": "[FIL]CRM synchronization"
-        }
-      },
-      "lineBusiness": {
-        "name": "LINE[FIL] Business",
-        "capabilities": {
-          "0": "LINE[FIL] Official Account",
-          "1": "[FIL]Asian market focus",
-          "2": "[FIL]Business messaging",
-          "3": "[FIL]Cultural localization"
-        }
-      },
-      "websiteWidget": {
-        "name": "[FIL]Website Widget",
-        "capabilities": {
-          "0": "[FIL]Omnichannel widget",
-          "1": "WordPress[FIL], Shopify[FIL], Wix[FIL] support",
-          "2": "MailerLite[FIL] integration",
-          "3": "[FIL]Advanced analytics"
-        }
-      }
-    },
-    "labels": {
-      "difficulty": {
-        "easy": "[FIL]Easy",
-        "medium": "[FIL]Medium"
-      },
-      "learnMore": "[FIL]Learn More"
-    },
-    "benefitsSection": {
-      "title": "[FIL]Integration Benefits",
-      "subtitle": "[FIL]When all your channels work together, magic happens. See why unified communication is the future of customer engagement."
-    },
-    "benefits": {
-      "unifiedCustomerView": {
-        "title": "[FIL]Unified Customer View",
-        "description": "[FIL]Single conversation history across all channels with complete context"
-      },
-      "consistentAITraining": {
-        "title": "[FIL]Consistent AI Training",
-        "description": "[FIL]One knowledge base powers responses across all communication platforms"
-      },
-      "seamlessHandoffs": {
-        "title": "[FIL]Seamless Handoffs",
-        "description": "[FIL]Transfer conversations between channels without losing context or history"
-      }
-    },
-    "cta": {
-      "title": "[FIL]Ready to Unify Your Customer Channels?",
-      "subtitle": "[FIL]Start with our free plan and connect your first channel in minutes. Scale up as your business grows.",
-      "signUp": "[FIL]Sign Up",
-      "bookDemo": "[FIL]Book A Demo"
     }
   }
 }

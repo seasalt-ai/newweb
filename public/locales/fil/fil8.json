@@ -1,102 +1,102 @@
 {
   "compareUsOverview": {
     "seo": {
-      "title": "[FIL]Compare Seasalt.ai[FIL] to Alternatives",
-      "description": "[FIL]See detailed comparisons with every major competitor. We're the only platform that delivers enterprise features with small business simplicity and transparent pricing."
+      "title": "Ihambing ang Seasalt.ai sa mga Alternatibo",
+      "description": "Tingnan ang mga detalyadong paghahambing sa bawat pangunahing kakumpitensya. Kami lamang ang platform na naghahatid ng mga tampok sa enterprise na may simple ng maliit na negosyo at transparent na pagpepresyo."
     },
     "hero": {
-      "backToHome": "[FIL]Back to Home",
-      "title": "[FIL]How Seasalt.ai[FIL] Compares to",
-      "titleHighlight": "[FIL]Every Alternative",
-      "subtitle": "[FIL]See detailed comparisons with every major competitor. We're the only platform that delivers enterprise features with small business simplicity and transparent pricing."
+      "backToHome": "Bumalik sa Home",
+      "title": "Paano Nagkukumpara ang Seasalt.ai sa",
+      "titleHighlight": "Bawat Alternatibo",
+      "subtitle": "Tingnan ang mga detalyadong paghahambing sa bawat pangunahing kakumpitensya. Kami lamang ang platform na naghahatid ng mga tampok sa enterprise na may simple ng maliit na negosyo at transparent na pagpepresyo."
     },
     "stats": {
-      "competitorsAnalyzed": "[FIL]Competitors Analyzed",
-      "startingPrice": "[FIL]Starting Price/Agent",
-      "channelsIncluded": "[FIL]Channels Included",
-      "unifiedPlatform": "[FIL]Unified Platform"
+      "competitorsAnalyzed": "Mga Kakumpitensya na Sinuri",
+      "startingPrice": "Panimulang Presyo/Ahente",
+      "channelsIncluded": "Kasama ang mga Channel",
+      "unifiedPlatform": "Pinag-isang Platform"
     },
     "competitorsSection": {
-      "title": "[FIL]Choose Your Comparison",
-      "subtitle": "[FIL]Click on any competitor to see a detailed feature-by-feature comparison with Seasalt.ai"
+      "title": "Piliin ang Iyong Paghahambing",
+      "subtitle": "Mag-click sa anumang kakumpitensya upang makita ang isang detalyadong paghahambing ng tampok-sa-tampok sa Seasalt.ai"
     },
     "competitors": {
       "aircall": {
-        "category": "[FIL]Sales-Focused Phone Systems",
-        "description": "[FIL]User-friendly interface but expensive add-ons and 3-user minimum"
+        "category": "Mga Sistema ng Telepono na Nakatuon sa Pagbebenta",
+        "description": "User-friendly na interface ngunit mamahaling mga add-on at 3-gumagamit na minimum"
       },
       "ringcentral": {
-        "category": "[FIL]UCaaS Giants",
-        "description": "[FIL]Fragmented platform with separate UCaaS and CCaaS products"
+        "category": "Mga Higante sa UCaaS",
+        "description": "Pira-pirasong platform na may hiwalay na mga produkto ng UCaaS at CCaaS"
       },
       "genesys": {
-        "category": "[FIL]Enterprise Contact Centers",
-        "description": "[FIL]Powerful but expensive with high minimums and complex pricing"
+        "category": "Mga Contact Center sa Enterprise",
+        "description": "Malakas ngunit mahal na may mataas na mga minimum at kumplikadong pagpepresyo"
       },
       "five9": {
-        "category": "[FIL]Enterprise Contact Centers",
-        "description": "[FIL]Outbound-heavy platform with enterprise pricing starting at $119/user"
+        "category": "Mga Contact Center sa Enterprise",
+        "description": "Platform na outbound-heavy na may pagpepresyo sa enterprise na nagsisimula sa $119/gumagamit"
       },
       "avaya": {
-        "category": "[FIL]Legacy Providers",
-        "description": "[FIL]Legacy architecture with complex enterprise focus and quote-based pricing"
+        "category": "Mga Legacy na Provider",
+        "description": "Legacy na arkitektura na may kumplikadong pokus sa enterprise at pagpepresyo na batay sa quote"
       },
       "googleVoice": {
-        "category": "[FIL]Basic VoIP Services",
-        "description": "[FIL]Great for solopreneurs but lacks team features and integrations"
+        "category": "Mga Pangunahing Serbisyo ng VoIP",
+        "description": "Mahusay para sa mga solopreneur ngunit kulang sa mga tampok at pagsasama ng koponan"
       },
       "respondIo": {
-        "category": "[FIL]Digital-First Platforms",
-        "description": "[FIL]Strong messaging platform but voice is beta and pricing is complex"
+        "category": "Mga Platform na Digital-First",
+        "description": "Malakas na platform ng pagmemensahe ngunit ang boses ay beta at kumplikado ang pagpepresyo"
       },
       "intercom": {
-        "category": "[FIL]Website Engagement Tools",
-        "description": "[FIL]Excellent for website chat but expensive per-resolution pricing"
+        "category": "Mga Tool sa Pakikipag-ugnayan sa Website",
+        "description": "Mahusay para sa chat sa website ngunit mahal na pagpepresyo bawat resolusyon"
       },
       "kustomer": {
-        "category": "[FIL]Enterprise Customer Service",
-        "description": "[FIL]Powerful omnichannel but 8-seat minimum and expensive AI add-ons"
+        "category": "Serbisyo sa Customer sa Enterprise",
+        "description": "Malakas na omnichannel ngunit 8-upuan na minimum at mamahaling mga add-on ng AI"
       },
       "threeCx": {
-        "category": "[FIL]Self-Hosted Solutions",
-        "description": "[FIL]Open platform but requires technical expertise and hidden costs"
+        "category": "Mga Solusyon na Self-Hosted",
+        "description": "Bukas na platform ngunit nangangailangan ng teknikal na kadalubhasaan at mga nakatagong gastos"
       },
       "dialpad": {
-        "category": "[FIL]UCaaS with Contact Center Tiers",
-        "description": "[FIL]Good voice AI but expensive upgrade required for contact center features"
+        "category": "UCaaS na may mga Tier ng Contact Center",
+        "description": "Magandang voice AI ngunit nangangailangan ng mamahaling pag-upgrade para sa mga tampok sa contact center"
       },
       "eightByEight": {
-        "category": "[FIL]Enterprise Communications",
-        "description": "[FIL]Comprehensive but quote-based pricing and enterprise complexity"
+        "category": "Mga Komunikasyon sa Enterprise",
+        "description": "Komprehensibo ngunit pagpepresyo na batay sa quote at kumplikasyon sa enterprise"
       },
       "openphone": {
-        "category": "[FIL]Simple Business Phone",
-        "description": "[FIL]Modern phone system but limited to voice/SMS[FIL] with expensive AI add-ons"
+        "category": "Simpleng Telepono sa Negosyo",
+        "description": "Modernong sistema ng telepono ngunit limitado sa boses/SMS na may mamahaling mga add-on ng AI"
       }
     },
     "whyCompareSection": {
-      "title": "[FIL]Why We Compare Ourselves to Everyone",
-      "subtitle": "[FIL]We believe in transparency. See exactly how we stack up against every alternative in the market."
+      "title": "Bakit Namin Inihahambing ang Aming Sarili sa Lahat",
+      "subtitle": "Naniniwala kami sa transparency. Tingnan kung paano kami eksaktong nagkukumpara sa bawat alternatibo sa merkado."
     },
     "benefits": {
       "transparency": {
-        "title": "[FIL]Complete Transparency",
-        "description": "[FIL]We show you exactly how we compare on features, pricing, and capabilities. No marketing fluff."
+        "title": "Kumpletong Transparency",
+        "description": "Ipinapakita namin sa iyo kung paano kami eksaktong nagkukumpara sa mga tampok, pagpepresyo, at mga kakayahan. Walang marketing fluff."
       },
       "decisions": {
-        "title": "[FIL]Informed Decisions",
-        "description": "[FIL]Make the right choice for your business with detailed, honest comparisons of every option."
+        "title": "Mga Desisyon na may Kaalaman",
+        "description": "Gawin ang tamang pagpipilian para sa iyong negosyo na may detalyado, tapat na mga paghahambing ng bawat pagpipilian."
       },
       "fit": {
-        "title": "[FIL]Find Your Fit",
-        "description": "[FIL]Every business is different. See which solution truly matches your needs and budget."
+        "title": "Hanapin ang Iyong Akma",
+        "description": "Bawat negosyo ay iba. Tingnan kung aling solusyon ang tunay na tumutugma sa iyong mga pangangailangan at badyet."
       }
     },
     "cta": {
-      "title": "[FIL]Ready to See Why We're Different?",
-      "subtitle": "[FIL]After comparing all the alternatives, we think you'll agree: Seasalt.ai[FIL] is the smart choice for growing businesses.",
-      "signUp": "[FIL]Sign Up",
-      "bookDemo": "[FIL]Book A Demo"
+      "title": "Handa nang Makita Kung Bakit Kami Iba?",
+      "subtitle": "Pagkatapos ihambing ang lahat ng mga alternatibo, sa tingin namin ay sasang-ayon ka: Ang Seasalt.ai ay ang matalinong pagpipilian para sa mga lumalagong negosyo.",
+      "signUp": "Mag-sign Up",
+      "bookDemo": "Mag-book ng Demo"
     }
   }
 }

@@ -4,738 +4,738 @@
       "inbound": {
         "appointmentBooking": {
           "hero": {
-            "title": "[FA]Appointment Booking & Management",
-            "description": "[FA]Automate appointment scheduling with AI that understands availability, preferences, and business rules. Reduce no-shows and streamline your booking process with intelligent voice interactions.",
-            "cta": "[FA]Automate Appointment Booking"
+            "title": "رزرو و مدیریت قرار ملاقات",
+            "description": "زمان‌بندی قرار ملاقات را با هوش مصنوعی که در دسترس بودن، ترجیحات و قوانین تجاری را درک می‌کند، خودکار کنید. با تعاملات صوتی هوشمند، عدم حضور را کاهش دهید و فرآیند رزرو خود را ساده کنید.",
+            "cta": "رزرو خودکار قرار ملاقات"
           },
           "features": {
-            "title": "[FA]Smart Appointment Management",
-            "subtitle": "[FA]Comprehensive booking system that handles complex scheduling scenarios",
+            "title": "مدیریت هوشمند قرار ملاقات",
+            "subtitle": "سیستم رزرو جامع که سناریوهای زمان‌بندی پیچیده را مدیریت می‌کند",
             "intelligentScheduling": {
-              "title": "[FA]Intelligent Scheduling",
-              "description": "[FA]AI-powered appointment booking that understands availability and preferences.",
-              "benefit1": "[FA]Real-time availability",
-              "benefit2": "[FA]Smart conflict resolution",
-              "benefit3": "[FA]Preference matching"
+              "title": "زمان‌بندی هوشمند",
+              "description": "رزرو قرار ملاقات با هوش مصنوعی که در دسترس بودن و ترجیحات را درک می‌کند.",
+              "benefit1": "در دسترس بودن در زمان واقعی",
+              "benefit2": "حل هوشمند تداخل",
+              "benefit3": "تطبیق ترجیحات"
             },
             "automatedReminders": {
-              "title": "[FA]Automated Reminders",
-              "description": "[FA]Reduce no-shows with automated appointment reminders and confirmations.",
-              "benefit1": "[FA]SMS & voice reminders",
-              "benefit2": "[FA]Customizable timing",
-              "benefit3": "[FA]Confirmation tracking"
+              "title": "یادآوری‌های خودکار",
+              "description": "عدم حضور را با یادآوری‌ها و تأییدیه‌های خودکار قرار ملاقات کاهش دهید.",
+              "benefit1": "یادآوری‌های پیامکی و صوتی",
+              "benefit2": "زمان‌بندی قابل تنظیم",
+              "benefit3": "ردیابی تأیید"
             },
             "multiProviderSupport": {
-              "title": "[FA]Multi-Provider Support",
-              "description": "[FA]Manage appointments across multiple providers, locations, and services.",
-              "benefit1": "[FA]Provider availability",
-              "benefit2": "[FA]Location management",
-              "benefit3": "[FA]Service categorization"
+              "title": "پشتیبانی از چند ارائه‌دهنده",
+              "description": "قرار ملاقات‌ها را در چندین ارائه‌دهنده، مکان و خدمات مدیریت کنید.",
+              "benefit1": "در دسترس بودن ارائه‌دهنده",
+              "benefit2": "مدیریت مکان",
+              "benefit3": "دسته‌بندی خدمات"
             }
           },
           "capabilities": {
-            "title": "[FA]Complete Booking Solution",
-            "subtitle": "[FA]Handle every aspect of appointment management automatically",
+            "title": "راه‌حل کامل رزرو",
+            "subtitle": "هر جنبه از مدیریت قرار ملاقات را به طور خودکار مدیریت کنید",
             "appointmentScheduling": {
-              "capability": "[FA]Appointment Scheduling",
-              "description": "[FA]Book new appointments based on availability and preferences",
-              "feature1": "[FA]Available time slots",
-              "feature2": "[FA]Provider selection",
-              "feature3": "[FA]Service type matching"
+              "capability": "زمان‌بندی قرار ملاقات",
+              "description": "قرارهای جدید را بر اساس در دسترس بودن و ترجیحات رزرو کنید",
+              "feature1": "اسلات‌های زمانی موجود",
+              "feature2": "انتخاب ارائه‌دهنده",
+              "feature3": "تطبیق نوع خدمات"
             },
             "rescheduling": {
-              "capability": "[FA]Rescheduling",
-              "description": "[FA]Modify existing appointments with automatic conflict resolution",
-              "feature1": "[FA]Conflict detection",
-              "feature2": "[FA]Alternative suggestions",
-              "feature3": "[FA]Automatic updates"
+              "capability": "تغییر زمان‌بندی",
+              "description": "قرارهای موجود را با حل خودکار تداخل اصلاح کنید",
+              "feature1": "تشخیص تداخل",
+              "feature2": "پیشنهادات جایگزین",
+              "feature3": "به‌روزرسانی‌های خودکار"
             },
             "cancellationManagement": {
-              "capability": "[FA]Cancellation Management",
-              "description": "[FA]Handle cancellations and waitlist management efficiently",
-              "feature1": "[FA]Cancellation policies",
-              "feature2": "[FA]Waitlist automation",
-              "feature3": "[FA]Refund processing"
+              "capability": "مدیریت لغو",
+              "description": "لغوها و مدیریت لیست انتظار را به طور کارآمد مدیریت کنید",
+              "feature1": "سیاست‌های لغو",
+              "feature2": "اتوماسیون لیست انتظار",
+              "feature3": "پردازش بازپرداخت"
             },
             "reminderSystem": {
-              "capability": "[FA]Reminder System",
-              "description": "[FA]Automated reminders to reduce no-shows and improve attendance",
-              "feature1": "[FA]Multi-channel reminders",
-              "feature2": "[FA]Customizable timing",
-              "feature3": "[FA]Confirmation requests"
+              "capability": "سیستم یادآوری",
+              "description": "یادآوری‌های خودکار برای کاهش عدم حضور و بهبود حضور",
+              "feature1": "یادآوری‌های چند کاناله",
+              "feature2": "زمان‌بندی قابل تنظیم",
+              "feature3": "درخواست‌های تأیید"
             }
           },
           "industries": {
-            "title": "[FA]Industry Applications",
-            "subtitle": "[FA]Tailored booking solutions for different industries and use cases",
+            "title": "کاربردهای صنعتی",
+            "subtitle": "راه‌حل‌های رزرو متناسب با صنایع و موارد استفاده مختلف",
             "healthcare": {
-              "industry": "[FA]Healthcare",
-              "description": "[FA]Medical appointments, consultations, and procedures",
-              "benefit1": "[FA]Patient scheduling",
-              "benefit2": "[FA]Provider coordination",
-              "benefit3": "[FA]Insurance verification"
+              "industry": "مراقبت‌های بهداشتی",
+              "description": "قرارهای پزشکی، مشاوره‌ها و رویه‌ها",
+              "benefit1": "زمان‌بندی بیمار",
+              "benefit2": "هماهنگی ارائه‌دهنده",
+              "benefit3": "تأیید بیمه"
             },
             "beautyWellness": {
-              "industry": "[FA]Beauty & Wellness",
-              "description": "[FA]Salon appointments, spa services, and wellness sessions",
-              "benefit1": "[FA]Service duration tracking",
-              "benefit2": "[FA]Stylist preferences",
-              "benefit3": "[FA]Package bookings"
+              "industry": "زیبایی و تندرستی",
+              "description": "قرارهای سالن، خدمات اسپا و جلسات تندرستی",
+              "benefit1": "ردیابی مدت زمان خدمات",
+              "benefit2": "ترجیحات آرایشگر",
+              "benefit3": "رزرو بسته"
             },
             "professionalServices": {
-              "industry": "[FA]Professional Services",
-              "description": "[FA]Consultations, meetings, and service appointments",
-              "benefit1": "[FA]Meeting room booking",
-              "benefit2": "[FA]Consultant availability",
-              "benefit3": "[FA]Client preferences"
+              "industry": "خدمات حرفه‌ای",
+              "description": "مشاوره‌ها، جلسات و قرارهای خدمات",
+              "benefit1": "رزرو اتاق جلسه",
+              "benefit2": "در دسترس بودن مشاور",
+              "benefit3": "ترجیحات مشتری"
             }
           },
           "reminderSection": {
-            "title": "[FA]Automated Reminder System",
-            "description": "[FA]Significantly reduce no-shows with intelligent reminder campaigns that reach customers through their preferred communication channels at optimal times.",
+            "title": "سیستم یادآوری خودکار",
+            "description": "عدم حضور را با کمپین‌های یادآوری هوشمند که در زمان‌های بهینه از طریق کانال‌های ارتباطی ترجیحی آنها به مشتریان می‌رسند، به طور قابل توجهی کاهش دهید.",
             "multiChannelReminders": {
-              "title": "[FA]Multi-Channel Reminders",
-              "description": "[FA]Voice calls, SMS, and email reminders"
+              "title": "یادآوری‌های چند کاناله",
+              "description": "تماس‌های صوتی، پیامک و یادآوری‌های ایمیل"
             },
             "optimalTiming": {
-              "title": "[FA]Optimal Timing",
-              "description": "[FA]AI determines best times to send reminders"
+              "title": "زمان‌بندی بهینه",
+              "description": "هوش مصنوعی بهترین زمان‌ها را برای ارسال یادآوری‌ها تعیین می‌کند"
             },
             "performanceTracking": {
-              "title": "[FA]Performance Tracking",
-              "description": "[FA]Monitor reminder effectiveness and optimize"
+              "title": "ردیابی عملکرد",
+              "description": "اثربخشی یادآوری را نظارت کرده و بهینه کنید"
             },
             "reminderTimeline": {
-              "title": "[FA]Reminder Timeline"
+              "title": "خط زمانی یادآوری"
             },
             "timeline": {
               "initialConfirmation": {
-                "title": "[FA]Initial Confirmation",
-                "description": "[FA]Appointment confirmation and details"
+                "title": "تأیید اولیه",
+                "description": "تأیید و جزئیات قرار ملاقات"
               },
               "dayBefore": {
-                "title": "[FA]Day Before Reminder",
-                "description": "[FA]Final reminder with preparation instructions"
+                "title": "یادآوری روز قبل",
+                "description": "یادآوری نهایی با دستورالعمل‌های آماده‌سازی"
               },
               "lastMinute": {
-                "title": "[FA]Last Minute Check",
-                "description": "[FA]Final confirmation and directions"
+                "title": "بررسی لحظه آخری",
+                "description": "تأیید نهایی و مسیرها"
               },
-              "sevenDays": "[FA]7d",
-              "oneDay": "[FA]1d",
-              "twoHours": "[FA]2h"
+              "sevenDays": "۷ روز",
+              "oneDay": "۱ روز",
+              "twoHours": "۲ ساعت"
             }
           },
           "benefits": {
-            "title": "[FA]Booking Performance Results",
-            "subtitle": "[FA]Measurable improvements in appointment management efficiency",
+            "title": "نتایج عملکرد رزرو",
+            "subtitle": "بهبودهای قابل اندازه‌گیری در کارایی مدیریت قرار ملاقات",
             "noShowReduction": {
-              "metric": "[FA]40%",
-              "description": "[FA]Reduction in no-show rates"
+              "metric": "۴۰٪",
+              "description": "کاهش نرخ عدم حضور"
             },
             "availabilityWindow": {
-              "metric": "[FA]24/7",
-              "description": "[FA]Booking availability"
+              "metric": "۲۴/۷",
+              "description": "در دسترس بودن رزرو"
             },
             "bookingAccuracy": {
-              "metric": "[FA]85%",
-              "description": "[FA]Booking accuracy rate"
+              "metric": "۸۵٪",
+              "description": "نرخ دقت رزرو"
             },
             "workloadReduction": {
-              "metric": "[FA]60%",
-              "description": "[FA]Reduction in admin workload"
+              "metric": "۶۰٪",
+              "description": "کاهش حجم کار اداری"
             }
           },
           "cta": {
-            "title": "[FA]Ready to Automate Appointment Booking?",
-            "description": "[FA]Streamline scheduling and reduce no-shows with intelligent appointment management",
-            "startFreeTrial": "[FA]Start Free Trial",
-            "scheduleDemo": "[FA]Schedule Demo"
+            "title": "آماده‌اید تا رزرو قرار ملاقات را خودکار کنید؟",
+            "description": "زمان‌بندی را ساده کنید و عدم حضور را با مدیریت هوشمند قرار ملاقات کاهش دهید",
+            "startFreeTrial": "شروع دوره آزمایشی رایگان",
+            "scheduleDemo": "زمان‌بندی دمو"
           }
         },
         "mentalHealth": {
           "hero": {
-            "title": "[FA]Mental Health Voice Companion",
-            "description": "[FA]Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
-            "cta": "[FA]Learn About Mental Health AI"
+            "title": "همراه صوتی سلامت روان",
+            "description": "پشتیبانی دلسوزانه و ۲۴/۷ سلامت روان را با هوش مصنوعی که گوش می‌دهد، درک می‌کند و با همدلی پاسخ می‌دهد، ارائه دهید. با خیال راحت شکاف بین بحران و مراقبت حرفه‌ای را پر کنید.",
+            "cta": "درباره هوش مصنوعی سلامت روان بیاموزید"
           },
           "features": {
-            "title": "[FA]Compassionate AI Support",
-            "description": "[FA]Advanced AI trained in mental health support and crisis intervention",
+            "title": "پشتیبانی هوش مصنوعی دلسوزانه",
+            "description": "هوش مصنوعی پیشرفته آموزش دیده در پشتیبانی سلامت روان و مداخله در بحران",
             "empathetic": {
-              "title": "[FA]Empathetic AI Companion",
-              "description": "[FA]Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
+              "title": "همراه هوش مصنوعی همدلانه",
+              "description": "آموزش دیده برای ارائه پشتیبانی دلسوزانه و بدون قضاوت با پاسخ‌های عاطفی مناسب.",
               "benefits": {
-                "activeListening": "[FA]Active listening",
-                "emotionalValidation": "[FA]Emotional validation",
-                "crisisRecognition": "[FA]Crisis recognition"
+                "activeListening": "گوش دادن فعال",
+                "emotionalValidation": "اعتبارسنجی عاطفی",
+                "crisisRecognition": "تشخیص بحران"
               }
             },
             "safe": {
-              "title": "[FA]Safe & Confidential",
-              "description": "[FA]HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.",
+              "title": "ایمن و محرمانه",
+              "description": "پلتفرم سازگار با HIPAA که حریم خصوصی و محرمانگی کامل را برای همه تعاملات تضمین می‌کند.",
               "benefits": {
-                "hipaaCompliance": "[FA]HIPAA compliance",
-                "encryptedConversations": "[FA]Encrypted conversations",
-                "anonymousOptions": "[FA]Anonymous options"
+                "hipaaCompliance": "انطباق با HIPAA",
+                "encryptedConversations": "مکالمات رمزگذاری شده",
+                "anonymousOptions": "گزینه‌های ناشناس"
               }
             },
             "availability": {
-              "title": "[FA]24/7 Availability",
-              "description": "[FA]Always available when someone needs to talk, providing immediate support during crisis moments.",
+              "title": "در دسترس بودن ۲۴/۷",
+              "description": "همیشه در دسترس است زمانی که کسی نیاز به صحبت دارد و پشتیبانی فوری را در لحظات بحرانی ارائه می‌دهد.",
               "benefits": {
-                "roundTheClockAccess": "[FA]Round-the-clock access",
-                "immediateResponse": "[FA]Immediate response",
-                "noWaitTimes": "[FA]No wait times"
+                "roundTheClockAccess": "دسترسی شبانه‌روزی",
+                "immediateResponse": "پاسخ فوری",
+                "noWaitTimes": "بدون زمان انتظار"
               }
             }
           },
           "capabilities": {
-            "title": "[FA]Mental Health Support Capabilities",
-            "description": "[FA]Comprehensive support across the mental health care spectrum",
+            "title": "قابلیت‌های پشتیبانی سلامت روان",
+            "description": "پشتیبانی جامع در سراسر طیف مراقبت از سلامت روان",
             "screening": {
-              "title": "[FA]Initial Mental Health Screening",
-              "description": "[FA]Conduct preliminary assessments using validated screening tools",
+              "title": "غربالگری اولیه سلامت روان",
+              "description": "ارزیابی‌های اولیه را با استفاده از ابزارهای غربالگری معتبر انجام دهید",
               "outcomes": {
-                "earlyIdentification": "[FA]Early identification",
-                "riskAssessment": "[FA]Risk assessment",
-                "appropriateReferrals": "[FA]Appropriate referrals"
+                "earlyIdentification": "شناسایی زودهنگام",
+                "riskAssessment": "ارزیابی ریسک",
+                "appropriateReferrals": "ارجاعات مناسب"
               }
             },
             "crisis": {
-              "title": "[FA]Crisis Intervention",
-              "description": "[FA]Recognize crisis situations and provide immediate support or escalation",
+              "title": "مداخله در بحران",
+              "description": "موقعیت‌های بحرانی را تشخیص دهید و پشتیبانی فوری یا تشدید را ارائه دهید",
               "outcomes": {
-                "crisisDetection": "[FA]Crisis detection",
-                "deEscalationTechniques": "[FA]De-escalation techniques",
-                "emergencyProtocols": "[FA]Emergency protocols"
+                "crisisDetection": "تشخیص بحران",
+                "deEscalationTechniques": "تکنیک‌های کاهش تنش",
+                "emergencyProtocols": "پروتکل‌های اضطراری"
               }
             },
             "navigation": {
-              "title": "[FA]Resource Navigation",
-              "description": "[FA]Guide users to appropriate mental health resources and services",
+              "title": "ناوبری منابع",
+              "description": "کاربران را به منابع و خدمات مناسب سلامت روان راهنمایی کنید",
               "outcomes": {
-                "serviceMatching": "[FA]Service matching",
-                "appointmentScheduling": "[FA]Appointment scheduling",
-                "followUpSupport": "[FA]Follow-up support"
+                "serviceMatching": "تطبیق خدمات",
+                "appointmentScheduling": "زمان‌بندی قرار ملاقات",
+                "followUpSupport": "پشتیبانی پیگیری"
               }
             },
             "emotional": {
-              "title": "[FA]Emotional Support",
-              "description": "[FA]Provide compassionate listening and emotional validation",
+              "title": "پشتیبانی عاطفی",
+              "description": "گوش دادن دلسوزانه و اعتبارسنجی عاطفی را ارائه دهید",
               "outcomes": {
-                "reducedIsolation": "[FA]Reduced isolation",
-                "emotionalRelief": "[FA]Emotional relief",
-                "copingStrategies": "[FA]Coping strategies"
+                "reducedIsolation": "کاهش انزوا",
+                "emotionalRelief": "تسکین عاطفی",
+                "copingStrategies": "استراتژی‌های مقابله"
               }
             }
           },
           "safety": {
-            "title": "[FA]Safety-First Design",
-            "description": "[FA]Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+            "title": "طراحی اول ایمنی",
+            "description": "هوش مصنوعی سلامت روان ما با اولویت اصلی ایمنی طراحی شده است و دارای تشخیص پیشرفته بحران و پروتکل‌های تشدید فوری برای اطمینان از دریافت مراقبت حرفه‌ای مناسب توسط کاربران در صورت نیاز است.",
             "features": {
-              "title": "[FA]Safety Features"
+              "title": "ویژگی‌های ایمنی"
             },
             "crisisDetection": {
-              "title": "[FA]Crisis Detection",
-              "description": "[FA]Advanced algorithms identify crisis situations"
+              "title": "تشخیص بحران",
+              "description": "الگوریتم‌های پیشرفته موقعیت‌های بحرانی را شناسایی می‌کنند"
             },
             "professionalHandoff": {
-              "title": "[FA]Professional Handoff",
-              "description": "[FA]Seamless transfer to human mental health professionals"
+              "title": "تحویل حرفه‌ای",
+              "description": "انتقال یکپارچه به متخصصان سلامت روان انسانی"
             },
             "emergencyProtocols": {
-              "title": "[FA]Emergency Protocols",
-              "description": "[FA]Immediate connection to crisis hotlines when needed"
+              "title": "پروتکل‌های اضطراری",
+              "description": "اتصال فوری به خطوط تلفن بحران در صورت نیاز"
             }
           },
           "safetyFeatures": {
-            "crisisKeywordDetection": "[FA]Crisis keyword detection",
-            "suicideRiskAssessment": "[FA]Suicide risk assessment",
-            "automaticEscalationProtocols": "[FA]Automatic escalation protocols",
-            "emergencyContactIntegration": "[FA]Emergency contact integration",
-            "professionalHandoffProcedures": "[FA]Professional handoff procedures",
-            "followUpScheduling": "[FA]Follow-up scheduling"
+            "crisisKeywordDetection": "تشخیص کلیدواژه بحران",
+            "suicideRiskAssessment": "ارزیابی ریسک خودکشی",
+            "automaticEscalationProtocols": "پروتکل‌های تشدید خودکار",
+            "emergencyContactIntegration": "ادغام تماس اضطراری",
+            "professionalHandoffProcedures": "رویه‌های تحویل حرفه‌ای",
+            "followUpScheduling": "زمان‌بندی پیگیری"
           },
           "benefits": {
-            "title": "[FA]Mental Health Impact",
-            "description": "[FA]Measurable improvements in mental health support accessibility",
-            "alwaysAvailableSupport": "[FA]Always available support",
-            "crisisEscalationReduction": "[FA]Reduction in crisis escalation",
-            "userSatisfactionRate": "[FA]User satisfaction rate",
-            "helpSeekingBehaviorIncrease": "[FA]Increase in help-seeking behavior"
+            "title": "تأثیر سلامت روان",
+            "description": "بهبودهای قابل اندازه‌گیری در دسترسی به پشتیبانی سلامت روان",
+            "alwaysAvailableSupport": "پشتیبانی همیشه در دسترس",
+            "crisisEscalationReduction": "کاهش تشدید بحران",
+            "userSatisfactionRate": "نرخ رضایت کاربر",
+            "helpSeekingBehaviorIncrease": "افزایش رفتار کمک‌خواهی"
           },
           "cta": {
-            "title": "[FA]Ready to Support Mental Health?",
-            "description": "[FA]Provide compassionate, 24/7 mental health support with AI that truly cares",
-            "learnMore": "[FA]Learn More",
-            "contactSpecialists": "[FA]Contact Specialists"
+            "title": "آماده‌اید تا از سلامت روان پشتیبانی کنید؟",
+            "description": "پشتیبانی دلسوزانه و ۲۴/۷ سلامت روان را با هوش مصنوعی که واقعاً اهمیت می‌دهد، ارائه دهید",
+            "learnMore": "بیشتر بدانید",
+            "contactSpecialists": "تماس با متخصصان"
           }
         },
         "callTransfer": {
           "hero": {
-            "title": "[FA]Smart Call Transfer During Business Hours",
-            "description": "[FA]Revolutionize your call routing with AI-powered intelligent transfer that understands caller intent and connects them to the right person instantly, reducing wait times and improving customer satisfaction.",
-            "primaryCta": "[FA]Optimize Your Call Routing"
+            "title": "انتقال هوشمند تماس در ساعات کاری",
+            "description": "مسیریابی تماس خود را با انتقال هوشمند مجهز به هوش مصنوعی که قصد تماس‌گیرنده را درک می‌کند و آنها را فوراً به شخص مناسب متصل می‌کند، متحول کنید و زمان انتظار را کاهش دهید و رضایت مشتری را بهبود بخشید.",
+            "primaryCta": "مسیریابی تماس خود را بهینه کنید"
           },
           "features": {
-            "title": "[FA]Intelligent Call Routing Features",
-            "description": "[FA]Advanced AI technology that understands and routes calls with precision",
+            "title": "ویژگی‌های مسیریابی هوشمند تماس",
+            "description": "فناوری پیشرفته هوش مصنوعی که تماس‌ها را با دقت درک و هدایت می‌کند",
             "intelligentRouting": {
-              "title": "[FA]Intelligent Routing",
-              "description": "[FA]AI analyzes caller intent and routes to the most appropriate department or agent.",
+              "title": "مسیریابی هوشمند",
+              "description": "هوش مصنوعی قصد تماس‌گیرنده را تجزیه و تحلیل می‌کند و به مناسب‌ترین بخش یا نماینده هدایت می‌کند.",
               "benefits": {
-                "0": "[FA]Intent recognition",
-                "1": "[FA]Skill-based routing",
-                "2": "[FA]Priority handling"
+                "0": "تشخیص قصد",
+                "1": "مسیریابی مبتنی بر مهارت",
+                "2": "رسیدگی اولویت‌دار"
               }
             },
             "agentOptimization": {
-              "title": "[FA]Agent Optimization",
-              "description": "[FA]Balance workload across agents and ensure calls reach available specialists.",
+              "title": "بهینه‌سازی نماینده",
+              "description": "حجم کار را در بین نمایندگان متعادل کنید و اطمینان حاصل کنید که تماس‌ها به متخصصان در دسترس می‌رسند.",
               "benefits": {
-                "0": "[FA]Load balancing",
-                "1": "[FA]Availability checking",
-                "2": "[FA]Expertise matching"
+                "0": "تعادل بار",
+                "1": "بررسی در دسترس بودن",
+                "2": "تطبیق تخصص"
               }
             },
             "reducedWaitTimes": {
-              "title": "[FA]Reduced Wait Times",
-              "description": "[FA]Minimize customer wait times with efficient routing and queue management.",
+              "title": "کاهش زمان انتظار",
+              "description": "زمان انتظار مشتری را با مسیریابی کارآمد و مدیریت صف به حداقل برسانید.",
               "benefits": {
-                "0": "[FA]Queue optimization",
-                "1": "[FA]Callback options",
-                "2": "[FA]Real-time updates"
+                "0": "بهینه‌سازی صف",
+                "1": "گزینه‌های تماس برگشتی",
+                "2": "به‌روزرسانی‌های در زمان واقعی"
               }
             }
           },
           "routing": {
-            "title": "[FA]Smart Routing in Action",
-            "description": "[FA]See how our AI identifies intent and routes calls for optimal outcomes"
+            "title": "مسیریابی هوشمند در عمل",
+            "description": "ببینید چگونه هوش مصنوعی ما قصد را شناسایی می‌کند و تماس‌ها را برای نتایج بهینه هدایت می‌کند"
           },
           "routingRules": {
             "billingInquiry": {
-              "trigger": "[FA]Billing Inquiry",
-              "action": "[FA]Route to Billing Department",
-              "result": "[FA]90% first-call resolution"
+              "trigger": "سوال در مورد صورتحساب",
+              "action": "هدایت به بخش صورتحساب",
+              "result": "۹۰٪ حل در اولین تماس"
             },
             "technicalSupport": {
-              "trigger": "[FA]Technical Support",
-              "action": "[FA]Route to Technical Team",
-              "result": "[FA]85% issue resolution"
+              "trigger": "پشتیبانی فنی",
+              "action": "هدایت به تیم فنی",
+              "result": "۸۵٪ حل مشکل"
             },
             "salesInterest": {
-              "trigger": "[FA]Sales Interest",
-              "action": "[FA]Route to Sales Team",
-              "result": "[FA]40% conversion rate"
+              "trigger": "علاقه به فروش",
+              "action": "هدایت به تیم فروش",
+              "result": "نرخ تبدیل ۴۰٪"
             },
             "vipCustomer": {
-              "trigger": "[FA]VIP Customer",
-              "action": "[FA]Priority Queue",
-              "result": "[FA]< 30 second wait time"
+              "trigger": "مشتری VIP",
+              "action": "صف اولویت",
+              "result": "زمان انتظار < ۳۰ ثانیه"
             }
           },
           "benefits": {
-            "title": "[FA]Measurable Impact",
-            "description": "[FA]Real results from implementing intelligent call transfer"
+            "title": "تأثیر قابل اندازه‌گیری",
+            "description": "نتایج واقعی از پیاده‌سازی انتقال هوشمند تماس"
           },
           "metrics": {
             "waitTime": {
-              "description": "[FA]Reduction in average wait time"
+              "description": "کاهش میانگین زمان انتظار"
             },
             "resolution": {
-              "description": "[FA]First-call resolution rate"
+              "description": "نرخ حل در اولین تماس"
             },
             "efficiency": {
-              "description": "[FA]Improvement in agent efficiency"
+              "description": "بهبود کارایی نماینده"
             },
             "accuracy": {
-              "description": "[FA]Accurate routing to correct department"
+              "description": "مسیریابی دقیق به بخش صحیح"
             }
           },
           "cta": {
-            "title": "[FA]Ready to Optimize Your Call Routing?",
-            "description": "[FA]Reduce wait times and improve customer satisfaction with intelligent call transfer",
-            "primaryButton": "[FA]Start Free Trial",
-            "secondaryButton": "[FA]See Demo"
+            "title": "آماده‌اید تا مسیریابی تماس خود را بهینه کنید؟",
+            "description": "زمان انتظار را کاهش دهید و رضایت مشتری را با انتقال هوشمند تماس بهبود بخشید",
+            "primaryButton": "شروع دوره آزمایشی رایگان",
+            "secondaryButton": "مشاهده دمو"
           }
         },
         "scamShield": {
           "hero": {
-            "title": "[FA]Scam Shield Protection",
-            "subtitle": "[FA]Protect your customers from phone scams and fraudulent calls with AI-powered detection that identifies and blocks threats in real-time, keeping your community safe from financial fraud.",
-            "cta": "[FA]Activate Scam Protection"
+            "title": "محافظت در برابر کلاهبرداری",
+            "subtitle": "مشتریان خود را از کلاهبرداری‌های تلفنی و تماس‌های جعلی با تشخیص مجهز به هوش مصنوعی که تهدیدها را در زمان واقعی شناسایی و مسدود می‌کند، محافظت کنید و جامعه خود را از کلاهبرداری مالی ایمن نگه دارید.",
+            "cta": "فعال کردن محافظت در برابر کلاهبرداری"
           },
           "features": {
-            "title": "[FA]Advanced Scam Detection",
-            "subtitle": "[FA]Multi-layered protection against evolving fraud tactics",
+            "title": "تشخیص پیشرفته کلاهبرداری",
+            "subtitle": "محافظت چند لایه در برابر تاکتیک‌های کلاهبرداری در حال تحول",
             "realTimeDetection": {
-              "title": "[FA]Real-Time Scam Detection",
-              "description": "[FA]Advanced AI algorithms identify and block fraudulent calls before they reach your customers.",
-              "benefit1": "[FA]Pattern recognition",
-              "benefit2": "[FA]Behavioral analysis",
-              "benefit3": "[FA]Instant blocking"
+              "title": "تشخیص کلاهبرداری در زمان واقعی",
+              "description": "الگوریتم‌های پیشرفته هوش مصنوعی تماس‌های جعلی را قبل از رسیدن به مشتریان شما شناسایی و مسدود می‌کنند.",
+              "benefit1": "تشخیص الگو",
+              "benefit2": "تجزیه و تحلیل رفتاری",
+              "benefit3": "مسدود کردن فوری"
             },
             "threatIntelligence": {
-              "title": "[FA]Threat Intelligence",
-              "description": "[FA]Continuously updated database of known scam patterns and fraudulent phone numbers.",
-              "benefit1": "[FA]Global threat data",
-              "benefit2": "[FA]Real-time updates",
-              "benefit3": "[FA]Machine learning"
+              "title": "هوش تهدید",
+              "description": "پایگاه داده به طور مداوم به‌روز شده از الگوهای کلاهبرداری شناخته شده و شماره تلفن‌های جعلی.",
+              "benefit1": "داده‌های تهدید جهانی",
+              "benefit2": "به‌روزرسانی‌های در زمان واقعی",
+              "benefit3": "یادگیری ماشین"
             },
             "customerProtection": {
-              "title": "[FA]Customer Protection",
-              "description": "[FA]Proactively protect customers from financial fraud and identity theft attempts.",
-              "benefit1": "[FA]Fraud prevention",
-              "benefit2": "[FA]Identity protection",
-              "benefit3": "[FA]Financial security"
+              "title": "محافظت از مشتری",
+              "description": "به طور فعال از مشتریان در برابر کلاهبرداری مالی و تلاش برای سرقت هویت محافظت کنید.",
+              "benefit1": "پیشگیری از کلاهبرداری",
+              "benefit2": "محافظت از هویت",
+              "benefit3": "امنیت مالی"
             }
           },
           "scamTypes": {
-            "title": "[FA]Protected Against All Scam Types",
-            "subtitle": "[FA]Comprehensive protection against the most common fraud tactics",
+            "title": "محافظت در برابر همه انواع کلاهبرداری",
+            "subtitle": "محافظت جامع در برابر رایج‌ترین تاکتیک‌های کلاهبرداری",
             "phishing": {
-              "type": "[FA]Phishing Calls",
-              "description": "[FA]Attempts to steal personal information or login credentials",
-              "detection": "[FA]Voice pattern analysis and keyword detection",
-              "action": "[FA]Immediate call termination and customer alert"
+              "type": "تماس‌های فیشینگ",
+              "description": "تلاش برای سرقت اطلاعات شخصی یا اعتبارنامه‌های ورود",
+              "detection": "تجزیه و تحلیل الگوی صدا و تشخیص کلیدواژه",
+              "action": "خاتمه فوری تماس و هشدار به مشتری"
             },
             "techSupport": {
-              "type": "[FA]Tech Support Scams",
-              "description": "[FA]Fake technical support claiming computer problems",
-              "detection": "[FA]Script pattern recognition and caller ID verification",
-              "action": "[FA]Block call and provide legitimate support contact"
+              "type": "کلاهبرداری‌های پشتیبانی فنی",
+              "description": "پشتیبانی فنی جعلی که ادعای مشکلات کامپیوتری می‌کند",
+              "detection": "تشخیص الگوی اسکریپت و تأیید شناسه تماس‌گیرنده",
+              "action": "مسدود کردن تماس و ارائه تماس پشتیبانی قانونی"
             },
             "financialFraud": {
-              "type": "[FA]Financial Fraud",
-              "description": "[FA]Impersonating banks or financial institutions",
-              "detection": "[FA]Institution verification and voice authentication",
-              "action": "[FA]Terminate call and notify real financial institution"
+              "type": "کلاهبرداری مالی",
+              "description": "جعل هویت بانک‌ها یا موسسات مالی",
+              "detection": "تأیید موسسه و احراز هویت صوتی",
+              "action": "خاتمه تماس و اطلاع‌رسانی به موسسه مالی واقعی"
             },
             "romance": {
-              "type": "[FA]Romance Scams",
-              "description": "[FA]Building fake relationships to extract money",
-              "detection": "[FA]Conversation pattern analysis and emotional manipulation detection",
-              "action": "[FA]Warning alerts and resource provision"
+              "type": "کلاهبرداری‌های عاشقانه",
+              "description": "ایجاد روابط جعلی برای استخراج پول",
+              "detection": "تجزیه و تحلیل الگوی مکالمه و تشخیص دستکاری عاطفی",
+              "action": "هشدارهای هشدار و ارائه منابع"
             },
-            "detectionMethod": "[FA]Detection Method:",
-            "protectionAction": "[FA]Protection Action:",
-            "detectionMethodLabel": "[FA]Detection Method",
-            "protectionActionLabel": "[FA]Protection Action"
+            "detectionMethod": "روش تشخیص:",
+            "protectionAction": "اقدام حفاظتی:",
+            "detectionMethodLabel": "روش تشخیص",
+            "protectionActionLabel": "اقدام حفاظتی"
           },
           "protection": {
-            "title": "[FA]Multi-Layer Protection System",
-            "subtitle": "[FA]Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "title": "سیستم محافظت چند لایه",
+            "subtitle": "سپر جامع کلاهبرداری ما از چندین روش تشخیص با هم برای ارائه حداکثر محافظت استفاده می‌کند و در عین حال اطمینان می‌دهد که تماس‌های قانونی همیشه برقرار می‌شوند.",
             "realTimeAnalysis": {
-              "title": "[FA]Real-Time Analysis",
-              "description": "[FA]Instant evaluation of every incoming call"
+              "title": "تجزیه و تحلیل در زمان واقعی",
+              "description": "ارزیابی فوری هر تماس ورودی"
             },
             "continuousLearning": {
-              "title": "[FA]Continuous Learning",
-              "description": "[FA]AI improves detection with every blocked scam"
+              "title": "یادگیری مستمر",
+              "description": "هوش مصنوعی با هر کلاهبرداری مسدود شده، تشخیص را بهبود می‌بخشد"
             },
             "zeroFalsePositives": {
-              "title": "[FA]Zero False Positives",
-              "description": "[FA]Legitimate calls are never blocked"
+              "title": "صفر مثبت کاذب",
+              "description": "تماس‌های قانونی هرگز مسدود نمی‌شوند"
             },
-            "layersTitle": "[FA]Protection Layers",
-            "layer1": "[FA]Caller ID verification",
-            "layer2": "[FA]Voice pattern analysis",
-            "layer3": "[FA]Script detection algorithms",
-            "layer4": "[FA]Behavioral anomaly detection",
-            "layer5": "[FA]Real-time threat intelligence",
-            "layer6": "[FA]Customer education alerts"
+            "layersTitle": "لایه‌های محافظت",
+            "layer1": "تأیید شناسه تماس‌گیرنده",
+            "layer2": "تجزیه و تحلیل الگوی صدا",
+            "layer3": "الگوریتم‌های تشخیص اسکریپت",
+            "layer4": "تشخیص ناهنجاری رفتاری",
+            "layer5": "هوش تهدید در زمان واقعی",
+            "layer6": "هشدارهای آموزش مشتری"
           },
           "benefits": {
-            "title": "[FA]Protection Results",
-            "subtitle": "[FA]Proven effectiveness in stopping fraud and protecting customers",
+            "title": "نتایج محافظت",
+            "subtitle": "اثربخشی اثبات شده در متوقف کردن کلاهبرداری و محافظت از مشتریان",
             "accuracy": {
-              "metric": "[FA]95%",
-              "description": "[FA]Scam call detection accuracy"
+              "metric": "۹۵٪",
+              "description": "دقت تشخیص تماس کلاهبرداری"
             },
             "reduction": {
-              "metric": "[FA]80%",
-              "description": "[FA]Reduction in successful fraud attempts"
+              "metric": "۸۰٪",
+              "description": "کاهش تلاش‌های موفق کلاهبرداری"
             },
             "coverage": {
-              "metric": "[FA]24/7",
-              "description": "[FA]Continuous protection coverage"
+              "metric": "۲۴/۷",
+              "description": "پوشش محافظت مداوم"
             },
             "preservation": {
-              "metric": "[FA]99.9%",
-              "description": "[FA]Legitimate call preservation rate"
+              "metric": "۹۹.۹٪",
+              "description": "نرخ حفظ تماس قانونی"
             }
           },
           "cta": {
-            "title": "[FA]Ready to Protect Your Customers?",
-            "subtitle": "[FA]Stop scammers in their tracks with AI-powered fraud detection and protection",
-            "activateProtection": "[FA]Activate Protection",
-            "learnMore": "[FA]Learn More",
-            "primaryButton": "[FA]Activate Protection",
-            "secondaryButton": "[FA]Learn More"
+            "title": "آماده‌اید تا از مشتریان خود محافظت کنید؟",
+            "subtitle": "کلاهبرداران را با تشخیص و محافظت از کلاهبرداری مجهز به هوش مصنوعی متوقف کنید",
+            "activateProtection": "فعال کردن محافظت",
+            "learnMore": "بیشتر بدانید",
+            "primaryButton": "فعال کردن محافظت",
+            "secondaryButton": "بیشتر بدانید"
           },
           "protectionSystem": {
-            "title": "[FA]Multi-Layer Protection System",
-            "subtitle": "[FA]Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "title": "سیستم محافظت چند لایه",
+            "subtitle": "سپر جامع کلاهبرداری ما از چندین روش تشخیص با هم برای ارائه حداکثر محافظت استفاده می‌کند و در عین حال اطمینان می‌دهد که تماس‌های قانونی همیشه برقرار می‌شوند.",
             "realTimeAnalysis": {
-              "title": "[FA]Real-Time Analysis",
-              "description": "[FA]Instant evaluation of every incoming call"
+              "title": "تجزیه و تحلیل در زمان واقعی",
+              "description": "ارزیابی فوری هر تماس ورودی"
             },
             "continuousLearning": {
-              "title": "[FA]Continuous Learning",
-              "description": "[FA]AI improves detection with every blocked scam"
+              "title": "یادگیری مستمر",
+              "description": "هوش مصنوعی با هر کلاهبرداری مسدود شده، تشخیص را بهبود می‌بخشد"
             },
             "zeroFalsePositives": {
-              "title": "[FA]Zero False Positives",
-              "description": "[FA]Legitimate calls are never blocked"
+              "title": "صفر مثبت کاذب",
+              "description": "تماس‌های قانونی هرگز مسدود نمی‌شوند"
             }
           },
           "results": {
-            "title": "[FA]Protection Results",
-            "subtitle": "[FA]Proven effectiveness in stopping fraud and protecting customers"
+            "title": "نتایج محافظت",
+            "subtitle": "اثربخشی اثبات شده در متوقف کردن کلاهبرداری و محافظت از مشتریان"
           }
         },
         "paymentProcessing": {
           "hero": {
-            "title": "[FA]Secure Payment Processing",
-            "description": "[FA]Enable secure, PCI-compliant payment processing through voice interactions. Let customers make payments safely over the phone with advanced fraud protection and instant transaction processing.",
-            "cta": "[FA]Enable Secure Payments"
+            "title": "پردازش امن پرداخت",
+            "description": "پردازش امن پرداخت سازگار با PCI را از طریق تعاملات صوتی فعال کنید. به مشتریان اجازه دهید با محافظت پیشرفته در برابر کلاهبرداری و پردازش فوری تراکنش، با خیال راحت از طریق تلفن پرداخت کنند.",
+            "cta": "فعال کردن پرداخت‌های امن"
           },
           "features": {
-            "title": "[FA]Secure Voice Payment Features",
-            "subtitle": "[FA]Enterprise-grade security meets seamless customer experience",
+            "title": "ویژگی‌های پرداخت صوتی امن",
+            "subtitle": "امنیت در سطح سازمانی با تجربه یکپارچه مشتری روبرو می‌شود",
             "securePayment": {
-              "title": "[FA]Secure Payment Processing",
-              "description": "[FA]Process payments safely over the phone with PCI-compliant voice technology.",
-              "benefit1": "[FA]PCI DSS compliance",
-              "benefit2": "[FA]Encrypted transactions",
-              "benefit3": "[FA]Multiple payment methods"
+              "title": "پردازش امن پرداخت",
+              "description": "پرداخت‌ها را با فناوری صوتی سازگار با PCI با خیال راحت از طریق تلفن پردازش کنید.",
+              "benefit1": "انطباق با PCI DSS",
+              "benefit2": "تراکنش‌های رمزگذاری شده",
+              "benefit3": "چندین روش پرداخت"
             },
             "fraudProtection": {
-              "title": "[FA]Fraud Protection",
-              "description": "[FA]Advanced fraud detection and prevention to protect both business and customers.",
-              "benefit1": "[FA]Real-time fraud detection",
-              "benefit2": "[FA]Risk assessment",
-              "benefit3": "[FA]Secure authentication"
+              "title": "محافظت در برابر کلاهبرداری",
+              "description": "تشخیص و پیشگیری پیشرفته از کلاهبرداری برای محافظت از کسب‌وکار و مشتریان.",
+              "benefit1": "تشخیص کلاهبرداری در زمان واقعی",
+              "benefit2": "ارزیابی ریسک",
+              "benefit3": "احراز هویت امن"
             },
             "instantProcessing": {
-              "title": "[FA]Instant Processing",
-              "description": "[FA]Process payments immediately with real-time authorization and confirmation.",
-              "benefit1": "[FA]Real-time authorization",
-              "benefit2": "[FA]Instant confirmation",
-              "benefit3": "[FA]Immediate receipts"
+              "title": "پردازش فوری",
+              "description": "پرداخت‌ها را فوراً با مجوز و تأیید در زمان واقعی پردازش کنید.",
+              "benefit1": "مجوز در زمان واقعی",
+              "benefit2": "تأیید فوری",
+              "benefit3": "رسیدهای فوری"
             }
           },
           "paymentMethods": {
-            "title": "[FA]Comprehensive Payment Options",
-            "subtitle": "[FA]Accept all major payment methods with secure voice processing",
+            "title": "گزینه‌های جامع پرداخت",
+            "subtitle": "همه روش‌های اصلی پرداخت را با پردازش صوتی امن بپذیرید",
             "creditCards": {
-              "method": "[FA]Credit Cards",
-              "description": "[FA]Accept all major credit cards with secure voice processing",
-              "feature1": "[FA]Visa, Mastercard, Amex",
-              "feature2": "[FA]CVV verification",
-              "feature3": "[FA]Expiry validation"
+              "method": "کارت‌های اعتباری",
+              "description": "همه کارت‌های اعتباری اصلی را با پردازش صوتی امن بپذیرید",
+              "feature1": "ویزا، مسترکارت، امکس",
+              "feature2": "تأیید CVV",
+              "feature3": "اعتبارسنجی انقضا"
             },
             "debitCards": {
-              "method": "[FA]Debit Cards",
-              "description": "[FA]Process debit card payments with PIN verification",
-              "feature1": "[FA]PIN entry via voice",
-              "feature2": "[FA]Bank verification",
-              "feature3": "[FA]Instant deduction"
+              "method": "کارت‌های نقدی",
+              "description": "پرداخت‌های کارت نقدی را با تأیید پین پردازش کنید",
+              "feature1": "ورود پین از طریق صدا",
+              "feature2": "تأیید بانک",
+              "feature3": "کسر فوری"
             },
             "bankTransfers": {
-              "method": "[FA]Bank Transfers",
-              "description": "[FA]Direct bank account transfers and ACH payments",
-              "feature1": "[FA]Account verification",
-              "feature2": "[FA]Routing number validation",
-              "feature3": "[FA]ACH processing"
+              "method": "انتقال بانکی",
+              "description": "انتقال مستقیم حساب بانکی و پرداخت‌های ACH",
+              "feature1": "تأیید حساب",
+              "feature2": "اعتبارسنجی شماره مسیریابی",
+              "feature3": "پردازش ACH"
             },
             "digitalWallets": {
-              "method": "[FA]Digital Wallets",
-              "description": "[FA]Support for popular digital payment platforms",
-              "feature1": "[FA]Apple Pay",
-              "feature2": "[FA]Google Pay",
-              "feature3": "[FA]PayPal integration"
+              "method": "کیف پول‌های دیجیتال",
+              "description": "پشتیبانی از پلتفرم‌های محبوب پرداخت دیجیتال",
+              "feature1": "Apple Pay",
+              "feature2": "Google Pay",
+              "feature3": "ادغام PayPal"
             }
           },
           "security": {
-            "title": "[FA]Bank-Level Security",
-            "description": "[FA]Our payment processing system meets the highest security standards in the industry, ensuring that every transaction is protected with multiple layers of encryption and fraud prevention.",
+            "title": "امنیت در سطح بانکی",
+            "description": "سیستم پردازش پرداخت ما بالاترین استانداردهای امنیتی را در صنعت برآورده می‌کند و اطمینان می‌دهد که هر تراکنش با چندین لایه رمزگذاری و پیشگیری از کلاهبرداری محافظت می‌شود.",
             "endToEndEncryption": {
-              "title": "[FA]End-to-End Encryption",
-              "description": "[FA]All payment data encrypted in transit and at rest"
+              "title": "رمزگذاری سرتاسری",
+              "description": "همه داده‌های پرداخت در حین انتقال و در حالت استراحت رمزگذاری می‌شوند"
             },
             "pciCompliance": {
-              "title": "[FA]PCI DSS Compliance",
-              "description": "[FA]Level 1 PCI DSS certified infrastructure"
+              "title": "انطباق با PCI DSS",
+              "description": "زیرساخت دارای گواهی PCI DSS سطح ۱"
             },
             "realTimeMonitoring": {
-              "title": "[FA]Real-Time Monitoring",
-              "description": "[FA]Continuous fraud detection and prevention"
+              "title": "نظارت در زمان واقعی",
+              "description": "تشخیص و پیشگیری مداوم از کلاهبرداری"
             },
-            "featuresTitle": "[FA]Security Features",
-            "feature1": "[FA]End-to-end encryption",
-            "feature2": "[FA]PCI DSS Level 1 compliance",
-            "feature3": "[FA]Tokenization of card data",
-            "feature4": "[FA]Multi-factor authentication",
-            "feature5": "[FA]Real-time fraud monitoring",
-            "feature6": "[FA]Secure voice recognition"
+            "featuresTitle": "ویژگی‌های امنیتی",
+            "feature1": "رمزگذاری سرتاسری",
+            "feature2": "انطباق با PCI DSS سطح ۱",
+            "feature3": "توکن‌سازی داده‌های کارت",
+            "feature4": "احراز هویت چند عاملی",
+            "feature5": "نظارت بر کلاهبرداری در زمان واقعی",
+            "feature6": "تشخیص صدای امن"
           },
           "benefits": {
-            "title": "[FA]Payment Processing Performance",
-            "subtitle": "[FA]Industry-leading reliability and security metrics",
+            "title": "عملکرد پردازش پرداخت",
+            "subtitle": "قابلیت اطمینان و معیارهای امنیتی پیشرو در صنعت",
             "uptime": {
-              "metric": "[FA]99.9%",
-              "description": "[FA]Payment processing uptime"
+              "metric": "۹۹.۹٪",
+              "description": "آپتایم پردازش پرداخت"
             },
             "transactionTime": {
-              "metric": "[FA]< 3s",
-              "description": "[FA]Average transaction time"
+              "metric": "< ۳ ثانیه",
+              "description": "میانگین زمان تراکنش"
             },
             "compliance": {
-              "metric": "[FA]100%",
-              "description": "[FA]PCI DSS compliance"
+              "metric": "۱۰۰٪",
+              "description": "انطباق با PCI DSS"
             },
             "fraudRate": {
-              "metric": "[FA]0.1%",
-              "description": "[FA]Fraud rate with AI protection"
+              "metric": "۰.۱٪",
+              "description": "نرخ کلاهبرداری با محافظت هوش مصنوعی"
             }
           },
           "cta": {
-            "title": "[FA]Ready for Secure Voice Payments?",
-            "subtitle": "[FA]Enable PCI-compliant payment processing with advanced fraud protection",
-            "primaryButton": "[FA]Start Secure Processing",
-            "secondaryButton": "[FA]Security Overview"
+            "title": "آماده برای پرداخت‌های صوتی امن؟",
+            "subtitle": "پردازش پرداخت سازگار با PCI را با محافظت پیشرفته در برابر کلاهبرداری فعال کنید",
+            "primaryButton": "شروع پردازش امن",
+            "secondaryButton": "نمای کلی امنیت"
           }
         }
       },
       "mentalHealth": {
         "hero": {
-          "title": "[FA]Mental Health Voice Companion",
-          "subtitle": "[FA]Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
-          "cta": "[FA]Learn About Mental Health AI"
+          "title": "همراه صوتی سلامت روان",
+          "subtitle": "پشتیبانی دلسوزانه و ۲۴/۷ سلامت روان را با هوش مصنوعی که گوش می‌دهد، درک می‌کند و با همدلی پاسخ می‌دهد، ارائه دهید. با خیال راحت شکاف بین بحران و مراقبت حرفه‌ای را پر کنید.",
+          "cta": "درباره هوش مصنوعی سلامت روان بیاموزید"
         },
         "features": {
-          "title": "[FA]Compassionate AI Support",
-          "subtitle": "[FA]Advanced AI trained in mental health support and crisis intervention",
+          "title": "پشتیبانی هوش مصنوعی دلسوزانه",
+          "subtitle": "هوش مصنوعی پیشرفته آموزش دیده در پشتیبانی سلامت روان و مداخله در بحران",
           "empathetic": {
-            "title": "[FA]Empathetic AI Companion",
-            "description": "[FA]Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
+            "title": "همراه هوش مصنوعی همدلانه",
+            "description": "آموزش دیده برای ارائه پشتیبانی دلسوزانه و بدون قضاوت با پاسخ‌های عاطفی مناسب.",
             "benefits": {
-              "activeListing": "[FA]Active listening",
-              "emotionalValidation": "[FA]Emotional validation",
-              "crisisRecognition": "[FA]Crisis recognition"
+              "activeListing": "گوش دادن فعال",
+              "emotionalValidation": "اعتبارسنجی عاطفی",
+              "crisisRecognition": "تشخیص بحران"
             }
           },
           "safe": {
-            "title": "[FA]Safe & Confidential",
-            "description": "[FA]HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.",
+            "title": "ایمن و محرمانه",
+            "description": "پلتفرم سازگار با HIPAA که حریم خصوصی و محرمانگی کامل را برای همه تعاملات تضمین می‌کند.",
             "benefits": {
-              "hipaaCompliance": "[FA]HIPAA compliance",
-              "encryptedConversations": "[FA]Encrypted conversations",
-              "anonymousOptions": "[FA]Anonymous options"
+              "hipaaCompliance": "انطباق با HIPAA",
+              "encryptedConversations": "مکالمات رمزگذاری شده",
+              "anonymousOptions": "گزینه‌های ناشناس"
             }
           },
           "available": {
-            "title": "[FA]24/7 Availability",
-            "description": "[FA]Always available when someone needs to talk, providing immediate support during crisis moments.",
+            "title": "در دسترس بودن ۲۴/۷",
+            "description": "همیشه در دسترس است زمانی که کسی نیاز به صحبت دارد و پشتیبانی فوری را در لحظات بحرانی ارائه می‌دهد.",
             "benefits": {
-              "roundTheClockAccess": "[FA]Round-the-clock access",
-              "immediateResponse": "[FA]Immediate response",
-              "noWaitTimes": "[FA]No wait times"
+              "roundTheClockAccess": "دسترسی شبانه‌روزی",
+              "immediateResponse": "پاسخ فوری",
+              "noWaitTimes": "بدون زمان انتظار"
             }
           }
         },
         "capabilities": {
-          "title": "[FA]Mental Health Support Capabilities",
-          "subtitle": "[FA]Comprehensive support across the mental health care spectrum",
+          "title": "قابلیت‌های پشتیبانی سلامت روان",
+          "subtitle": "پشتیبانی جامع در سراسر طیف مراقبت از سلامت روان",
           "screening": {
-            "title": "[FA]Initial Mental Health Screening",
-            "description": "[FA]Conduct preliminary assessments using validated screening tools",
+            "title": "غربالگری اولیه سلامت روان",
+            "description": "ارزیابی‌های اولیه را با استفاده از ابزارهای غربالگری معتبر انجام دهید",
             "outcomes": {
-              "earlyIdentification": "[FA]Early identification",
-              "riskAssessment": "[FA]Risk assessment",
-              "appropriateReferrals": "[FA]Appropriate referrals"
+              "earlyIdentification": "شناسایی زودهنگام",
+              "riskAssessment": "ارزیابی ریسک",
+              "appropriateReferrals": "ارجاعات مناسب"
             }
           },
           "crisis": {
-            "title": "[FA]Crisis Intervention",
-            "description": "[FA]Recognize crisis situations and provide immediate support or escalation",
+            "title": "مداخله در بحران",
+            "description": "موقعیت‌های بحرانی را تشخیص دهید و پشتیبانی فوری یا تشدید را ارائه دهید",
             "outcomes": {
-              "crisisDetection": "[FA]Crisis detection",
-              "deEscalationTechniques": "[FA]De-escalation techniques",
-              "emergencyProtocols": "[FA]Emergency protocols"
+              "crisisDetection": "تشخیص بحران",
+              "deEscalationTechniques": "تکنیک‌های کاهش تنش",
+              "emergencyProtocols": "پروتکل‌های اضطراری"
             }
           },
           "navigation": {
-            "title": "[FA]Resource Navigation",
-            "description": "[FA]Guide users to appropriate mental health resources and services",
+            "title": "ناوبری منابع",
+            "description": "کاربران را به منابع و خدمات مناسب سلامت روان راهنمایی کنید",
             "outcomes": {
-              "serviceMatching": "[FA]Service matching",
-              "appointmentScheduling": "[FA]Appointment scheduling",
-              "followUpSupport": "[FA]Follow-up support"
+              "serviceMatching": "تطبیق خدمات",
+              "appointmentScheduling": "زمان‌بندی قرار ملاقات",
+              "followUpSupport": "پشتیبانی پیگیری"
             }
           },
           "emotional": {
-            "title": "[FA]Emotional Support",
-            "description": "[FA]Provide compassionate listening and emotional validation",
+            "title": "پشتیبانی عاطفی",
+            "description": "گوش دادن دلسوزانه و اعتبارسنجی عاطفی را ارائه دهید",
             "outcomes": {
-              "reducedIsolation": "[FA]Reduced isolation",
-              "emotionalRelief": "[FA]Emotional relief",
-              "copingStrategies": "[FA]Coping strategies"
+              "reducedIsolation": "کاهش انزوا",
+              "emotionalRelief": "تسکین عاطفی",
+              "copingStrategies": "استراتژی‌های مقابله"
             }
           }
         },
         "safety": {
-          "title": "[FA]Safety-First Design",
-          "description": "[FA]Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+          "title": "طراحی اول ایمنی",
+          "description": "هوش مصنوعی سلامت روان ما با اولویت اصلی ایمنی طراحی شده است و دارای تشخیص پیشرفته بحران و پروتکل‌های تشدید فوری برای اطمینان از دریافت مراقبت حرفه‌ای مناسب توسط کاربران در صورت نیاز است.",
           "crisisDetection": {
-            "title": "[FA]Crisis Detection",
-            "description": "[FA]Advanced algorithms identify crisis situations"
+            "title": "تشخیص بحران",
+            "description": "الگوریتم‌های پیشرفته موقعیت‌های بحرانی را شناسایی می‌کنند"
           },
           "professionalHandoff": {
-            "title": "[FA]Professional Handoff",
-            "description": "[FA]Seamless transfer to human mental health professionals"
+            "title": "تحویل حرفه‌ای",
+            "description": "انتقال یکپارچه به متخصصان سلامت روان انسانی"
           },
           "emergencyProtocols": {
-            "title": "[FA]Emergency Protocols",
-            "description": "[FA]Immediate connection to crisis hotlines when needed"
+            "title": "پروتکل‌های اضطراری",
+            "description": "اتصال فوری به خطوط تلفن بحران در صورت نیاز"
           },
           "features": {
-            "title": "[FA]Safety Features",
-            "crisisKeywordDetection": "[FA]Crisis keyword detection",
-            "suicideRiskAssessment": "[FA]Suicide risk assessment",
-            "automaticEscalationProtocols": "[FA]Automatic escalation protocols",
-            "emergencyContactIntegration": "[FA]Emergency contact integration",
-            "professionalHandoffProcedures": "[FA]Professional handoff procedures",
-            "followUpScheduling": "[FA]Follow-up scheduling"
+            "title": "ویژگی‌های ایمنی",
+            "crisisKeywordDetection": "تشخیص کلیدواژه بحران",
+            "suicideRiskAssessment": "ارزیابی ریسک خودکشی",
+            "automaticEscalationProtocols": "پروتکل‌های تشدید خودکار",
+            "emergencyContactIntegration": "ادغام تماس اضطراری",
+            "professionalHandoffProcedures": "رویه‌های تحویل حرفه‌ای",
+            "followUpScheduling": "زمان‌بندی پیگیری"
           }
         },
         "impact": {
-          "title": "[FA]Mental Health Impact",
-          "subtitle": "[FA]Measurable improvements in mental health support accessibility",
+          "title": "تأثیر سلامت روان",
+          "subtitle": "بهبودهای قابل اندازه‌گیری در دسترسی به پشتیبانی سلامت روان",
           "availability": {
-            "metric": "[FA]24/7",
-            "description": "[FA]Always available support"
+            "metric": "۲۴/۷",
+            "description": "پشتیبانی همیشه در دسترس"
           },
           "crisisReduction": {
-            "metric": "[FA]60%",
-            "description": "[FA]Reduction in crisis escalation"
+            "metric": "۶۰٪",
+            "description": "کاهش تشدید بحران"
           },
           "satisfaction": {
-            "metric": "[FA]85%",
-            "description": "[FA]User satisfaction rate"
+            "metric": "۸۵٪",
+            "description": "نرخ رضایت کاربر"
           },
           "helpSeeking": {
-            "metric": "[FA]40%",
-            "description": "[FA]Increase in help-seeking behavior"
+            "metric": "۴۰٪",
+            "description": "افزایش رفتار کمک‌خواهی"
           }
         },
         "cta": {
-          "title": "[FA]Ready to Support Mental Health?",
-          "subtitle": "[FA]Provide compassionate, 24/7 mental health support with AI that truly cares",
-          "learnMore": "[FA]Learn More",
-          "contactSpecialists": "[FA]Contact Specialists"
+          "title": "آماده‌اید تا از سلامت روان پشتیبانی کنید؟",
+          "subtitle": "پشتیبانی دلسوزانه و ۲۴/۷ سلامت روان را با هوش مصنوعی که واقعاً اهمیت می‌دهد، ارائه دهید",
+          "learnMore": "بیشتر بدانید",
+          "contactSpecialists": "تماس با متخصصان"
         }
       }
     }

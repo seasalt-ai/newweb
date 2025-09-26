@@ -2,1602 +2,1601 @@
   "seachat": {
     "integrations": {
       "crm": {
-        "title": "[FIL]CRM Integrations",
-        "subtitle": "[FIL]Connect SeaChat[FIL] with your CRM to create a unified customer experience. Sync contacts, track leads, and manage relationships seamlessly.",
-        "connectButton": "[FIL]Connect Your CRM",
-        "guideButton": "[FIL]View Integration Guide",
-        "platformsTitle": "[FIL]Supported CRM Platforms",
-        "platformsSubtitle": "[FIL]Choose from our extensive list of CRM integrations, each optimized for seamless data flow.",
-        "setupTime": "[FIL]Setup time",
-        "connectPlatform": "[FIL]Connect",
-        "whyIntegrateTitle": "[FIL]Why Integrate with Your CRM?",
-        "whyIntegrateSubtitle": "[FIL]Transform your customer support into a powerful sales and relationship management tool.",
-        "featuresTitle": "[FIL]Comprehensive CRM Integration Features",
-        "featuresSubtitle": "[FIL]Our CRM integrations go beyond basic contact sync to provide a complete customer relationship management solution.",
-        "workflowTitle": "[FIL]Integration Workflow",
-        "ctaTitle": "[FIL]Ready to Connect Your CRM?",
-        "ctaSubtitle": "[FIL]Start syncing your customer data and transform support conversations into business opportunities.",
-        "ctaChooseButton": "[FIL]Sign Up For Free",
-        "ctaGuideButton": "[FIL]View Setup Guide",
+        "title": "Mga Pagsasama sa CRM",
+        "subtitle": "Ikonekta ang SeaChat sa iyong CRM upang lumikha ng isang pinag-isang karanasan sa customer. I-sync ang mga contact, subaybayan ang mga lead, at pamahalaan ang mga relasyon nang walang putol.",
+        "connectButton": "Ikonekta ang Iyong CRM",
+        "guideButton": "Tingnan ang Gabay sa Pagsasama",
+        "platformsTitle": "Mga Suportadong Platform ng CRM",
+        "platformsSubtitle": "Pumili mula sa aming malawak na listahan ng mga pagsasama sa CRM, bawat isa ay na-optimize para sa tuluy-tuloy na daloy ng data.",
+        "setupTime": "Oras ng pag-setup",
+        "connectPlatform": "Ikonekta",
+        "whyIntegrateTitle": "Bakit Isama sa Iyong CRM?",
+        "whyIntegrateSubtitle": "Gawing isang malakas na tool sa pagbebenta at pamamahala ng relasyon ang iyong suporta sa customer.",
+        "featuresTitle": "Mga Komprehensibong Tampok sa Pagsasama ng CRM",
+        "featuresSubtitle": "Ang aming mga pagsasama sa CRM ay higit pa sa pangunahing pag-sync ng contact upang magbigay ng isang kumpletong solusyon sa pamamahala ng relasyon sa customer.",
+        "workflowTitle": "Daloy ng Trabaho sa Pagsasama",
+        "ctaTitle": "Handa nang Ikonekta ang Iyong CRM?",
+        "ctaSubtitle": "Simulan ang pag-sync ng iyong data ng customer at gawing mga pagkakataon sa negosyo ang mga pag-uusap sa suporta.",
+        "ctaChooseButton": "Mag-sign Up nang Libre",
+        "ctaGuideButton": "Tingnan ang Gabay sa Pag-setup",
         "platforms": {
           "salesforce": {
-            "name": "[FIL]Salesforce",
-            "description": "[FIL]Complete integration with Salesforce CRM for enterprise teams",
+            "name": "Salesforce",
+            "description": "Kumpletong pagsasama sa Salesforce CRM para sa mga koponan sa enterprise",
             "features": {
-              "contacts": "[FIL]Contact sync",
-              "leads": "[FIL]Lead management",
-              "opportunities": "[FIL]Opportunity tracking",
-              "fields": "[FIL]Custom fields"
+              "contacts": "Pag-sync ng contact",
+              "leads": "Pamamahala ng lead",
+              "opportunities": "Pagsubaybay sa pagkakataon",
+              "fields": "Mga pasadyang field"
             },
-            "setupTime": "[FIL]15 minutes",
-            "popularity": "[FIL]Most Popular"
+            "setupTime": "15 minuto",
+            "popularity": "Pinakasikat"
           },
           "hubspot": {
             "name": "HubSpot",
-            "description": "[FIL]Seamless HubSpot[FIL] integration for marketing and sales alignment",
+            "description": "Walang putol na pagsasama ng HubSpot para sa pag-align ng marketing at pagbebenta",
             "features": {
-              "properties": "[FIL]Contact properties",
-              "deals": "[FIL]Deal pipeline",
-              "sequences": "[FIL]Email sequences",
-              "reporting": "[FIL]Reporting"
+              "properties": "Mga katangian ng contact",
+              "deals": "Pipeline ng deal",
+              "sequences": "Mga pagkakasunud-sunod ng email",
+              "reporting": "Pag-uulat"
             },
-            "setupTime": "[FIL]10 minutes",
-            "popularity": "[FIL]Recommended"
+            "setupTime": "10 minuto",
+            "popularity": "Inirerekomenda"
           },
           "pipedrive": {
-            "name": "[FIL]Pipedrive",
-            "description": "[FIL]Simple yet powerful Pipedrive integration for sales teams",
+            "name": "Pipedrive",
+            "description": "Simple ngunit malakas na pagsasama ng Pipedrive para sa mga koponan sa pagbebenta",
             "features": {
-              "pipeline": "[FIL]Pipeline management",
-              "activity": "[FIL]Activity tracking",
-              "history": "[FIL]Contact history",
-              "automation": "[FIL]Automation"
+              "pipeline": "Pamamahala ng pipeline",
+              "activity": "Pagsubaybay sa aktibidad",
+              "history": "Kasaysayan ng contact",
+              "automation": "Automation"
             },
-            "setupTime": "[FIL]8 minutes",
-            "popularity": "[FIL]Easy Setup"
+            "setupTime": "8 minuto",
+            "popularity": "Madaling Pag-setup"
           },
           "zoho": {
-            "name": "[FIL]Zoho CRM",
-            "description": "[FIL]Comprehensive Zoho CRM integration with advanced workflows",
+            "name": "Zoho CRM",
+            "description": "Komprehensibong pagsasama ng Zoho CRM na may mga advanced na daloy ng trabaho",
             "features": {
-              "scoring": "[FIL]Lead scoring",
-              "workflow": "[FIL]Workflow automation",
-              "modules": "[FIL]Custom modules",
-              "analytics": "[FIL]Analytics"
+              "scoring": "Pagmamarka ng lead",
+              "workflow": "Automation ng daloy ng trabaho",
+              "modules": "Mga pasadyang module",
+              "analytics": "Analytics"
             },
-            "setupTime": "[FIL]12 minutes",
-            "popularity": "[FIL]Feature Rich"
+            "setupTime": "12 minuto",
+            "popularity": "Mayaman sa Tampok"
           },
           "dynamics": {
-            "name": "[FIL]Microsoft Dynamics",
-            "description": "[FIL]Enterprise-grade integration with Microsoft Dynamics 365",
+            "name": "Microsoft Dynamics",
+            "description": "Pagsasama sa antas ng enterprise sa Microsoft Dynamics 365",
             "features": {
-              "mapping": "[FIL]Entity mapping",
-              "processes": "[FIL]Business processes",
-              "powerbi": "[FIL]Power BI integration",
-              "security": "[FIL]Security"
+              "mapping": "Pagmamapa ng entity",
+              "processes": "Mga proseso ng negosyo",
+              "powerbi": "Pagsasama ng Power BI",
+              "security": "Seguridad"
             },
-            "setupTime": "[FIL]20 minutes",
-            "popularity": "[FIL]Enterprise"
+            "setupTime": "20 minuto",
+            "popularity": "Enterprise"
           },
           "freshworks": {
-            "name": "[FIL]Freshworks CRM",
-            "description": "[FIL]Modern CRM integration with Freshworks suite",
+            "name": "Freshworks CRM",
+            "description": "Modernong pagsasama ng CRM sa Freshworks suite",
             "features": {
-              "management": "[FIL]Contact management",
-              "sequences": "[FIL]Sales sequences",
-              "phone": "[FIL]Phone integration",
-              "insights": "[FIL]AI insights"
+              "management": "Pamamahala ng contact",
+              "sequences": "Mga pagkakasunud-sunod ng pagbebenta",
+              "phone": "Pagsasama ng telepono",
+              "insights": "Mga insight sa AI"
             },
-            "setupTime": "[FIL]10 minutes",
-            "popularity": "[FIL]Modern"
+            "setupTime": "10 minuto",
+            "popularity": "Moderno"
           }
         },
         "benefits": {
           "data": {
-            "title": "[FIL]Unified Customer Data",
-            "description": "[FIL]Sync customer information automatically between SeaChat[FIL] and your CRM"
+            "title": "Pinag-isang Data ng Customer",
+            "description": "Awtomatikong i-sync ang impormasyon ng customer sa pagitan ng SeaChat at ng iyong CRM"
           },
           "leads": {
-            "title": "[FIL]Improved Lead Quality",
-            "description": "[FIL]Convert support conversations into qualified leads"
+            "title": "Pinabuting Kalidad ng Lead",
+            "description": "Gawing mga kwalipikadong lead ang mga pag-uusap sa suporta"
           },
           "sync": {
-            "title": "[FIL]Real-time Synchronization",
-            "description": "[FIL]Keep customer data updated across all platforms instantly"
+            "title": "Real-time na Pag-synchronize",
+            "description": "Panatilihing na-update agad ang data ng customer sa lahat ng mga platform"
           },
           "context": {
-            "title": "[FIL]Better Customer Context",
-            "description": "[FIL]Access complete customer history during support conversations"
+            "title": "Mas Mahusay na Konteksto ng Customer",
+            "description": "I-access ang kumpletong kasaysayan ng customer sa panahon ng mga pag-uusap sa suporta"
           }
         },
         "features": [
           {
-            "title": "[FIL]Seamless Data Sync",
-            "description": "[FIL]Automatically sync customer contact information, conversation history, and interaction records",
-            "icon": "[FIL]sync"
+            "title": "Walang putol na Pag-sync ng Data",
+            "description": "Awtomatikong i-sync ang impormasyon sa pakikipag-ugnayan ng customer, kasaysayan ng pag-uusap, at mga talaan ng pakikipag-ugnayan",
+            "icon": "sync"
           },
           {
-            "title": "[FIL]Lead Automation",
-            "description": "[FIL]Automatically convert support conversations into qualified leads in your CRM",
-            "icon": "[FIL]users"
+            "title": "Automation ng Lead",
+            "description": "Awtomatikong i-convert ang mga pag-uusap sa suporta sa mga kwalipikadong lead sa iyong CRM",
+            "icon": "users"
           },
           {
-            "title": "[FIL]Smart Routing",
-            "description": "[FIL]Intelligently route customers to the right sales or support team based on CRM data",
-            "icon": "[FIL]route"
+            "title": "Matalinong Pagruruta",
+            "description": "Matalinong i-ruta ang mga customer sa tamang koponan sa pagbebenta o suporta batay sa data ng CRM",
+            "icon": "route"
           },
           {
-            "title": "[FIL]Unified Customer View",
-            "description": "[FIL]Access complete customer history and transaction records instantly during support conversations",
-            "icon": "[FIL]eye"
+            "title": "Pinag-isang View ng Customer",
+            "description": "I-access agad ang kumpletong kasaysayan ng customer at mga talaan ng transaksyon sa panahon ng mga pag-uusap sa suporta",
+            "icon": "eye"
           },
           {
-            "title": "[FIL]Activity Triggers",
-            "description": "[FIL]Automatically trigger CRM workflows and marketing campaigns based on customer interactions",
-            "icon": "[FIL]zap"
+            "title": "Mga Trigger ng Aktibidad",
+            "description": "Awtomatikong i-trigger ang mga daloy ng trabaho sa CRM at mga kampanya sa marketing batay sa mga pakikipag-ugnayan ng customer",
+            "icon": "zap"
           },
           {
-            "title": "[FIL]Reports & Analytics",
-            "description": "[FIL]Unified reporting across platforms with deep insights into customer lifecycle and conversion metrics",
-            "icon": "[FIL]chart"
+            "title": "Mga Ulat at Analytics",
+            "description": "Pinag-isang pag-uulat sa mga platform na may malalim na mga insight sa lifecycle ng customer at mga sukatan ng conversion",
+            "icon": "chart"
           }
         ],
         "workflow": {
           "connect": {
-            "title": "[FIL]Connect Your CRM",
-            "description": "[FIL]Authenticate and configure your CRM connection"
+            "title": "Ikonekta ang Iyong CRM",
+            "description": "Patotohanan at i-configure ang iyong koneksyon sa CRM"
           },
           "map": {
-            "title": "[FIL]Map Data Fields",
-            "description": "[FIL]Configure how data flows between systems"
+            "title": "I-map ang mga Field ng Data",
+            "description": "I-configure kung paano dumadaloy ang data sa pagitan ng mga system"
           },
           "sync": {
-            "title": "[FIL]Start Syncing",
-            "description": "[FIL]Enjoy automatic data synchronization"
+            "title": "Simulan ang Pag-sync",
+            "description": "Masiyahan sa awtomatikong pag-synchronize ng data"
           }
         }
       },
       "api": {
-        "accessButton": "[FIL]Get API Access",
+        "accessButton": "Kumuha ng Access sa API",
         "benefits": {
           "dataFlow": {
-            "description": "[FIL]Automatic synchronization between SeaChat[FIL] and your systems",
-            "title": "[FIL]Seamless Data Flow"
+            "description": "Awtomatikong pag-synchronize sa pagitan ng SeaChat at ng iyong mga system",
+            "title": "Walang putol na Daloy ng Data"
           },
           "implementation": {
-            "description": "[FIL]Quick setup with pre-built integration templates",
-            "title": "[FIL]Faster Implementation"
+            "description": "Mabilis na pag-setup na may mga pre-built na template ng pagsasama",
+            "title": "Mas Mabilis na Pagpapatupad"
           },
           "insights": {
-            "description": "[FIL]Enhanced reporting with integrated data sources",
-            "title": "[FIL]Better Insights"
+            "description": "Pinahusay na pag-uulat na may pinagsamang mga mapagkukunan ng data",
+            "title": "Mas Mahusay na mga Insight"
           },
           "manualWork": {
-            "description": "[FIL]Eliminate repetitive tasks with intelligent automation",
-            "title": "[FIL]Reduced Manual Work"
+            "description": "Tanggalin ang mga paulit-ulit na gawain gamit ang matalinong automation",
+            "title": "Nabawasang Manwal na Trabaho"
           }
         },
-        "benefitsSubtitle": "[FIL]Transform your workflow with powerful custom Seachat integrations.",
-        "benefitsTitle": "[FIL]Integration Benefits",
-        "buildSubtitle": "[FIL]Follow these simple steps to get started with custom API Seachat integrations.",
-        "buildTitle": "[FIL]Ready to Build Your Integration?",
-        "capabilitiesSubtitle": "[FIL]Everything you need to build robust, scalable integrations with SeaChat[FIL].",
-        "capabilitiesTitle": "[FIL]Powerful Integration Capabilities",
-        "copyCode": "[FIL]Copy Code",
-        "ctaAccessButton": "[FIL]Get API Access",
-        "ctaDocsButton": "[FIL]View Documentation",
-        "ctaSubtitle": "[FIL]Get API access and start building powerful custom integrations that transform your customer support workflow.",
-        "ctaTitle": "[FIL]Start Building Today",
-        "docsButton": "[FIL]View API Documentation",
-        "exampleSubtitle": "[FIL]Get started with our API in just a few lines of code.",
-        "exampleTitle": "[FIL]Quick Start Code Example",
+        "benefitsSubtitle": "Baguhin ang iyong daloy ng trabaho gamit ang malakas na mga pasadyang pagsasama ng Seachat.",
+        "benefitsTitle": "Mga Benepisyo sa Pagsasama",
+        "buildSubtitle": "Sundin ang mga simpleng hakbang na ito upang makapagsimula sa mga pasadyang pagsasama ng API Seachat.",
+        "buildTitle": "Handa nang Buuin ang Iyong Pagsasama?",
+        "capabilitiesSubtitle": "Lahat ng kailangan mo upang bumuo ng matatag, nasusukat na mga pagsasama sa SeaChat.",
+        "capabilitiesTitle": "Malakas na mga Kakayahan sa Pagsasama",
+        "copyCode": "Kopyahin ang Code",
+        "ctaAccessButton": "Kumuha ng Access sa API",
+        "ctaDocsButton": "Tingnan ang Dokumentasyon",
+        "ctaSubtitle": "Kumuha ng access sa API at simulang bumuo ng malakas na mga pasadyang pagsasama na nagbabago sa iyong daloy ng trabaho sa suporta sa customer.",
+        "ctaTitle": "Simulan ang Pagbuo Ngayon",
+        "docsButton": "Tingnan ang Dokumentasyon ng API",
+        "exampleSubtitle": "Magsimula sa aming API sa ilang linya lamang ng code.",
+        "exampleTitle": "Halimbawa ng Mabilis na Pagsisimula ng Code",
         "features": {
           "custom": {
-            "description": "[FIL]Build custom integrations for your specific business needs",
-            "title": "[FIL]Custom Integrations"
+            "description": "Bumuo ng mga pasadyang pagsasama para sa iyong mga partikular na pangangailangan sa negosyo",
+            "title": "Mga Pasadyang Pagsasama"
           },
           "restful": {
-            "description": "[FIL]Clean, well-documented REST API for seamless integration",
-            "title": "[FIL]RESTful API"
+            "description": "Malinis, mahusay na dokumentadong REST API para sa tuluy-tuloy na pagsasama",
+            "title": "RESTful API"
           },
           "webhooks": {
-            "description": "[FIL]Instant notifications for events and conversation updates",
-            "title": "[FIL]Real-time Webhooks"
+            "description": "Mga instant na abiso para sa mga kaganapan at mga update sa pag-uusap",
+            "title": "Real-time na mga Webhook"
           },
           "workflow": {
-            "description": "[FIL]Automate complex workflows with our integration platform",
-            "title": "[FIL]Workflow Automation"
+            "description": "I-automate ang mga kumplikadong daloy ng trabaho sa aming platform ng pagsasama",
+            "title": "Automation ng Daloy ng Trabaho"
           }
         },
-        "integrationExample": "[FIL]Custom Integration Example",
-        "patternsSubtitle": "[FIL]Explore popular integration scenarios and implementation examples.",
-        "patternsTitle": "[FIL]Common Integration Patterns",
+        "integrationExample": "Halimbawa ng Pasadyang Pagsasama",
+        "patternsSubtitle": "Galugarin ang mga sikat na sitwasyon sa pagsasama at mga halimbawa ng pagpapatupad.",
+        "patternsTitle": "Mga Karaniwang Pattern ng Pagsasama",
         "resources": {
-          "community": "[FIL]Developer community support",
-          "docs": "[FIL]Comprehensive API documentation",
-          "examples": "[FIL]Code examples in multiple languages",
-          "explorer": "[FIL]Interactive API explorer",
-          "sandbox": "[FIL]Sandbox environment for testing",
-          "simulator": "[FIL]Webhook event simulator"
+          "community": "Suporta sa komunidad ng developer",
+          "docs": "Komprehensibong dokumentasyon ng API",
+          "examples": "Mga halimbawa ng code sa maraming wika",
+          "explorer": "Interactive na API explorer",
+          "sandbox": "Sandbox na kapaligiran para sa pagsubok",
+          "simulator": "Webhook event simulator"
         },
-        "resourcesTitle": "[FIL]Developer Resources",
+        "resourcesTitle": "Mga Mapagkukunan ng Developer",
         "steps": {
           "build": {
-            "description": "[FIL]Develop your integration using our sandbox environment",
-            "title": "[FIL]Build & Test"
+            "description": "Buuin ang iyong pagsasama gamit ang aming sandbox na kapaligiran",
+            "title": "Buuin at Subukan"
           },
           "credentials": {
-            "description": "[FIL]Sign up and generate your API key and webhook secret",
-            "title": "[FIL]Get API Credentials"
+            "description": "Mag-sign up at bumuo ng iyong API key at webhook secret",
+            "title": "Kumuha ng mga Kredensyal sa API"
           },
           "deploy": {
-            "description": "[FIL]Launch your integration and monitor performance",
-            "title": "[FIL]Deploy & Monitor"
+            "description": "I-deploy ang iyong pagsasama at subaybayan ang pagganap",
+            "title": "I-deploy at Subaybayan"
           },
           "docs": {
-            "description": "[FIL]Explore our comprehensive API documentation and examples",
-            "title": "[FIL]Review Documentation"
+            "description": "Galugarin ang aming komprehensibong dokumentasyon at mga halimbawa ng API",
+            "title": "Suriin ang Dokumentasyon"
           }
         },
-        "subtitle": "[FIL]Build powerful custom integrations with our comprehensive API. Connect SeaChat[FIL] to any system or workflow with our developer-friendly tools.",
-        "title": "[FIL]Custom API Integrations",
+        "subtitle": "Bumuo ng malakas na mga pasadyang pagsasama sa aming komprehensibong API. Ikonekta ang SeaChat sa anumang system o daloy ng trabaho gamit ang aming mga tool na madaling gamitin sa developer.",
+        "title": "Mga Pasadyang Pagsasama ng API",
         "types": {
           "analytics": {
-            "complexity": "[FIL]Low",
-            "description": "[FIL]Send conversation data to your analytics tools",
-            "example": "[FIL]Track customer satisfaction and support metrics",
-            "time": "[FIL]1-2 hours",
-            "title": "[FIL]Analytics Platform"
+            "complexity": "Mababa",
+            "description": "Magpadala ng data ng pag-uusap sa iyong mga tool sa analytics",
+            "example": "Subaybayan ang kasiyahan ng customer at mga sukatan ng suporta",
+            "time": "1-2 oras",
+            "title": "Platform ng Analytics"
           },
           "crm": {
-            "complexity": "[FIL]Medium",
-            "description": "[FIL]Sync customer data with your CRM system",
-            "example": "[FIL]Automatically create leads from support conversations",
-            "time": "[FIL]2-4 hours",
-            "title": "[FIL]CRM Integration"
+            "complexity": "Katamtaman",
+            "description": "I-sync ang data ng customer sa iyong sistema ng CRM",
+            "example": "Awtomatikong lumikha ng mga lead mula sa mga pag-uusap sa suporta",
+            "time": "2-4 oras",
+            "title": "Pagsasama ng CRM"
           },
           "ecommerce": {
-            "complexity": "[FIL]Medium",
-            "description": "[FIL]Connect with your online store for order management",
-            "example": "[FIL]Provide real-time order status and tracking information",
-            "time": "[FIL]3-6 hours",
-            "title": "[FIL]E-commerce Platform"
+            "complexity": "Katamtaman",
+            "description": "Kumonekta sa iyong online na tindahan para sa pamamahala ng order",
+            "example": "Magbigay ng real-time na katayuan ng order at impormasyon sa pagsubaybay",
+            "time": "3-6 oras",
+            "title": "Platform ng E-commerce"
           },
           "payment": {
-            "complexity": "[FIL]High",
-            "description": "[FIL]Integrate with payment gateways for billing support",
-            "example": "[FIL]Handle refunds and payment inquiries automatically",
-            "time": "[FIL]4-8 hours",
-            "title": "[FIL]Payment Processing"
+            "complexity": "Mataas",
+            "description": "Isama sa mga gateway ng pagbabayad para sa suporta sa pagsingil",
+            "example": "Awtomatikong pangasiwaan ang mga refund at mga katanungan sa pagbabayad",
+            "time": "4-8 oras",
+            "title": "Pagproseso ng Pagbabayad"
           }
         },
-        "useCaseTitle": "[FIL]Example Use Case"
+        "useCaseTitle": "Halimbawa ng Kaso ng Paggamit"
       },
       "calendar": {
         "benefits": {
           "noShows": {
-            "description": "[FIL]Automatic reminders and confirmations reduce missed appointments",
-            "title": "[FIL]Reduced No-Shows"
+            "description": "Binabawasan ng mga awtomatikong paalala at kumpirmasyon ang mga napalampas na appointment",
+            "title": "Nabawasang mga Hindi Pagdating"
           },
           "scheduling": {
-            "description": "[FIL]Let customers book appointments directly from chat conversations",
-            "title": "[FIL]Automated Scheduling"
+            "description": "Hayaan ang mga customer na mag-book ng mga appointment nang direkta mula sa mga pag-uusap sa chat",
+            "title": "Awtomatikong Pag-iiskedyul"
           },
           "timeSavings": {
-            "description": "[FIL]Eliminate back-and-forth scheduling emails and calls",
-            "title": "[FIL]Time Savings"
+            "description": "Tanggalin ang pabalik-balik na mga email at tawag sa pag-iiskedyul",
+            "title": "Pagtitipid sa Oras"
           },
           "utilization": {
-            "description": "[FIL]Optimize calendar usage with intelligent scheduling",
-            "title": "[FIL]Better Utilization"
+            "description": "I-optimize ang paggamit ng kalendaryo gamit ang matalinong pag-iiskedyul",
+            "title": "Mas Mahusay na Paggamit"
           }
         },
-        "benefitsSubtitle": "[FIL]Streamline your scheduling process and improve customer experience with automated booking.",
-        "benefitsTitle": "[FIL]Calendar Integration Benefits",
-        "connectButton": "[FIL]Connect Calendar",
-        "connectPlatform": "[FIL]Connect",
-        "ctaConnectButton": "[FIL]Connect Your Calendar",
-        "ctaGuideButton": "[FIL]View Setup Guide",
-        "ctaSubtitle": "[FIL]Connect your calendar and let customers book appointments seamlessly through your support conversations.",
-        "ctaTitle": "[FIL]Ready to Automate Your Scheduling?",
-        "customer": "[FIL]Customer",
-        "customerChoice": "[FIL]Tuesday at 2 PM works perfect!",
-        "demoButton": "[FIL]Book Scheduling Demo",
-        "exampleTitle": "[FIL]Scheduling Example",
+        "benefitsSubtitle": "I-streamline ang iyong proseso ng pag-iiskedyul at pagbutihin ang karanasan ng customer gamit ang awtomatikong pag-book.",
+        "benefitsTitle": "Mga Benepisyo sa Pagsasama ng Kalendaryo",
+        "connectButton": "Ikonekta ang Kalendaryo",
+        "connectPlatform": "Ikonekta",
+        "ctaConnectButton": "Ikonekta ang Iyong Kalendaryo",
+        "ctaGuideButton": "Tingnan ang Gabay sa Pag-setup",
+        "ctaSubtitle": "Ikonekta ang iyong kalendaryo at hayaan ang mga customer na mag-book ng mga appointment nang walang putol sa pamamagitan ng iyong mga pag-uusap sa suporta.",
+        "ctaTitle": "Handa nang I-automate ang Iyong Pag-iiskedyul?",
+        "customer": "Customer",
+        "customerChoice": "Perpekto ang Martes ng 2 PM!",
+        "demoButton": "Mag-book ng Demo sa Pag-iiskedyul",
+        "exampleTitle": "Halimbawa ng Pag-iiskedyul",
         "features": [
-          "[FIL]Real-time availability sync",
-          "[FIL]Automated booking confirmations",
-          "[FIL]Calendar invite generation",
-          "[FIL]Reminder notifications",
-          "[FIL]Multi-timezone support",
-          "[FIL]Recurring appointment handling"
+          "Real-time na pag-sync ng availability",
+          "Mga awtomatikong kumpirmasyon sa pag-book",
+          "Pagbuo ng imbitasyon sa kalendaryo",
+          "Mga abiso sa paalala",
+          "Suporta sa maraming timezone",
+          "Paghawak sa paulit-ulit na appointment"
         ],
         "flow": {
           "availability": {
-            "description": "[FIL]System checks real-time calendar availability",
-            "example": "[FIL]Available slots: Tue 2PM, Wed 10AM, Thu 3PM",
-            "title": "[FIL]Availability Check"
+            "description": "Sinusuri ng system ang real-time na availability ng kalendaryo",
+            "example": "Mga available na slot: Tue 2PM, Wed 10AM, Thu 3PM",
+            "title": "Pagsusuri sa Availability"
           },
           "confirmation": {
-            "description": "[FIL]Customer selects time and appointment is automatically booked",
-            "example": "[FIL]Meeting booked for Tuesday 2PM with calendar invite sent",
-            "title": "[FIL]Booking Confirmation"
+            "description": "Pinipili ng customer ang oras at awtomatikong nai-book ang appointment",
+            "example": "Naka-book ang pulong para sa Martes 2PM na may ipinadalang imbitasyon sa kalendaryo",
+            "title": "Kumpirmasyon sa Pag-book"
           },
           "followup": {
-            "description": "[FIL]Reminders and confirmations sent automatically",
-            "example": "[FIL]24hr reminder + meeting link + preparation materials",
-            "title": "[FIL]Automated Follow-up"
+            "description": "Awtomatikong ipinapadala ang mga paalala at kumpirmasyon",
+            "example": "24hr na paalala + link ng pulong + mga materyales sa paghahanda",
+            "title": "Awtomatikong Pag-follow-up"
           },
           "request": {
-            "description": "[FIL]Customer asks to schedule a meeting or appointment",
-            "example": "[FIL]\"I'd like to schedule a demo for next week\"",
-            "title": "[FIL]Customer Request"
+            "description": "Humihiling ang customer na mag-iskedyul ng isang pulong o appointment",
+            "example": "\"Gusto kong mag-iskedyul ng isang demo para sa susunod na linggo\"",
+            "title": "Hiling ng Customer"
           }
         },
-        "flowSubtitle": "[FIL]See how seamless appointment booking works within customer conversations.",
-        "flowTitle": "[FIL]Automated Scheduling Flow",
+        "flowSubtitle": "Tingnan kung paano gumagana ang tuluy-tuloy na pag-book ng appointment sa loob ng mga pag-uusap sa customer.",
+        "flowTitle": "Daloy ng Awtomatikong Pag-iiskedyul",
         "platforms": {
           "acuity": {
-            "category": "[FIL]Professional",
-            "description": "[FIL]Advanced scheduling with client management features",
+            "category": "Propesyonal",
+            "description": "Advanced na pag-iiskedyul na may mga tampok sa pamamahala ng kliyente",
             "features": {
-              "group": "[FIL]Group appointments",
-              "intake": "[FIL]Client intake forms",
-              "packages": "[FIL]Package scheduling",
-              "workflows": "[FIL]Automated workflows"
+              "group": "Mga appointment sa grupo",
+              "intake": "Mga form sa pag-intake ng kliyente",
+              "packages": "Pag-iiskedyul ng package",
+              "workflows": "Mga awtomatikong daloy ng trabaho"
             },
-            "name": "[FIL]Acuity Scheduling",
-            "setupTime": "[FIL]12 minutes"
+            "name": "Acuity Scheduling",
+            "setupTime": "12 minuto"
           },
           "apple": {
-            "category": "[FIL]Apple Ecosystem",
-            "description": "[FIL]iCloud calendar integration for Apple ecosystem users",
+            "category": "Ekosistema ng Apple",
+            "description": "Pagsasama ng kalendaryo ng iCloud para sa mga gumagamit ng ekosistema ng Apple",
             "features": {
-              "devices": "[FIL]Cross-device access",
-              "location": "[FIL]Location services",
-              "sharing": "[FIL]Event sharing",
-              "sync": "[FIL]iCloud sync"
+              "devices": "Access sa cross-device",
+              "location": "Mga serbisyo sa lokasyon",
+              "sharing": "Pagbabahagi ng kaganapan",
+              "sync": "Pag-sync ng iCloud"
             },
-            "name": "[FIL]Apple Calendar",
-            "setupTime": "[FIL]6 minutes"
+            "name": "Apple Calendar",
+            "setupTime": "6 minuto"
           },
           "calcom": {
-            "category": "[FIL]Open Scheduling",
-            "description": "[FIL]Open scheduling infrastructure for teams and individuals",
+            "category": "Bukas na Pag-iiskedyul",
+            "description": "Bukas na imprastraktura sa pag-iiskedyul para sa mga koponan at indibidwal",
             "features": {
-              "api": "[FIL]API & webhooks",
-              "booking": "[FIL]Booking links",
-              "payments": "[FIL]Payment integration",
-              "workflows": "[FIL]Custom workflows"
+              "api": "API at mga webhook",
+              "booking": "Mga link sa pag-book",
+              "payments": "Pagsasama ng pagbabayad",
+              "workflows": "Mga pasadyang daloy ng trabaho"
             },
-            "name": "[FIL]Cal.com",
-            "setupTime": "[FIL]7 minutes"
+            "name": "Cal.com",
+            "setupTime": "7 minuto"
           },
           "calendly": {
-            "category": "[FIL]Scheduling",
-            "description": "[FIL]Popular scheduling tool for automated appointment booking",
+            "category": "Pag-iiskedyul",
+            "description": "Sikat na tool sa pag-iiskedyul para sa awtomatikong pag-book ng appointment",
             "features": {
-              "booking": "[FIL]Booking pages",
-              "buffer": "[FIL]Buffer times",
-              "payment": "[FIL]Payment integration",
-              "questions": "[FIL]Custom questions"
+              "booking": "Mga pahina sa pag-book",
+              "buffer": "Mga oras ng buffer",
+              "payment": "Pagsasama ng pagbabayad",
+              "questions": "Mga pasadyang tanong"
             },
-            "name": "[FIL]Calendly",
-            "setupTime": "[FIL]10 minutes"
+            "name": "Calendly",
+            "setupTime": "10 minuto"
           },
           "google": {
-            "category": "[FIL]Google Workspace",
-            "description": "[FIL]Seamless integration with Google Calendar for appointment scheduling",
+            "category": "Google Workspace",
+            "description": "Walang putol na pagsasama sa Google Calendar para sa pag-iiskedyul ng appointment",
             "features": {
-              "availability": "[FIL]Availability sync",
-              "events": "[FIL]Event creation",
-              "meetings": "[FIL]Meeting scheduling",
-              "reminders": "[FIL]Reminder notifications"
+              "availability": "Pag-sync ng availability",
+              "events": "Paglikha ng kaganapan",
+              "meetings": "Pag-iiskedyul ng pulong",
+              "reminders": "Mga abiso sa paalala"
             },
-            "name": "[FIL]Google Calendar",
-            "setupTime": "[FIL]5 minutes"
+            "name": "Google Calendar",
+            "setupTime": "5 minuto"
           },
           "highlevel": {
-            "category": "[FIL]All-in-One",
-            "description": "[FIL]All-in-one sales, marketing, and calendar automation",
+            "category": "All-in-One",
+            "description": "All-in-one na pagbebenta, marketing, at automation ng kalendaryo",
             "features": {
-              "forms": "[FIL]Booking forms",
-              "integration": "[FIL]CRM integration",
-              "pipelines": "[FIL]Sales pipelines",
-              "reminders": "[FIL]Automated reminders"
+              "forms": "Mga form sa pag-book",
+              "integration": "Pagsasama ng CRM",
+              "pipelines": "Mga pipeline sa pagbebenta",
+              "reminders": "Mga awtomatikong paalala"
             },
-            "name": "[FIL]HighLevel",
-            "setupTime": "[FIL]9 minutes"
+            "name": "HighLevel",
+            "setupTime": "9 minuto"
           },
           "notion": {
-            "category": "[FIL]Productivity",
-            "description": "[FIL]Calendar and project management with Notion integration",
+            "category": "Pagiging Produktibo",
+            "description": "Pamamahala ng kalendaryo at proyekto na may pagsasama ng Notion",
             "features": {
-              "automation": "[FIL]Workflow automation",
-              "sync": "[FIL]Calendar sync",
-              "tasks": "[FIL]Task scheduling",
-              "templates": "[FIL]Custom templates"
+              "automation": "Automation ng daloy ng trabaho",
+              "sync": "Pag-sync ng kalendaryo",
+              "tasks": "Pag-iiskedyul ng gawain",
+              "templates": "Mga pasadyang template"
             },
-            "name": "[FIL]Notion",
-            "setupTime": "[FIL]6 minutes"
+            "name": "Notion",
+            "setupTime": "6 minuto"
           },
           "outlook": {
-            "category": "[FIL]Microsoft 365",
-            "description": "[FIL]Microsoft Outlook and Office 365 calendar integration",
+            "category": "Microsoft 365",
+            "description": "Pagsasama ng kalendaryo ng Microsoft Outlook at Office 365",
             "features": {
-              "exchange": "[FIL]Exchange sync",
-              "recurring": "[FIL]Recurring events",
-              "rooms": "[FIL]Meeting rooms",
-              "team": "[FIL]Team calendars"
+              "exchange": "Pag-sync ng Exchange",
+              "recurring": "Mga paulit-ulit na kaganapan",
+              "rooms": "Mga silid-pulungan",
+              "team": "Mga kalendaryo ng koponan"
             },
-            "name": "[FIL]Microsoft Outlook",
-            "setupTime": "[FIL]8 minutes"
+            "name": "Microsoft Outlook",
+            "setupTime": "8 minuto"
           },
           "zoom": {
-            "category": "[FIL]Video Conferencing",
-            "description": "[FIL]Video meeting scheduling with Zoom integration",
+            "category": "Video Conferencing",
+            "description": "Pag-iiskedyul ng pulong sa video na may pagsasama ng Zoom",
             "features": {
-              "meetings": "[FIL]Video meetings",
-              "recording": "[FIL]Recording setup",
-              "waiting": "[FIL]Waiting rooms",
-              "webinar": "[FIL]Webinar scheduling"
+              "meetings": "Mga pulong sa video",
+              "recording": "Pag-setup ng pag-record",
+              "waiting": "Mga silid-hintayan",
+              "webinar": "Pag-iiskedyul ng webinar"
             },
-            "name": "[FIL]Zoom Scheduler",
-            "setupTime": "[FIL]7 minutes"
+            "name": "Zoom Scheduler",
+            "setupTime": "7 minuto"
           }
         },
-        "platformsSubtitle": "[FIL]Connect with all major calendar and scheduling platforms for seamless appointment management.",
-        "platformsTitle": "[FIL]Calendar Platform Seachat Integrations",
-        "seachatAI": "SeaChat[FIL] AI",
-        "slot1": "[FIL]Tuesday, Jan 16 - 2:00 PM PST",
-        "slot2": "[FIL]Wednesday, Jan 17 - 10:00 AM PST",
-        "slot3": "[FIL]Thursday, Jan 18 - 3:00 PM PST",
-        "solutionSubtitle": "[FIL]Everything you need to manage appointments, meetings, and events directly from your customer support platform.",
-        "solutionTitle": "[FIL]Complete Scheduling Solution",
-        "subtitle": "[FIL]Integrate with popular calendar platforms to enable seamless appointment scheduling directly from customer support conversations.",
-        "title": "[FIL]Calendar & Scheduling",
-        "setup": "[FIL]Set up"
+        "platformsSubtitle": "Kumonekta sa lahat ng mga pangunahing platform ng kalendaryo at pag-iiskedyul para sa tuluy-tuloy na pamamahala ng appointment.",
+        "platformsTitle": "Mga Pagsasama sa Platform ng Kalendaryo ng Seachat",
+        "seachatAI": "SeaChat AI",
+        "slot1": "Martes, Ene 16 - 2:00 PM PST",
+        "slot2": "Miyerkules, Ene 17 - 10:00 AM PST",
+        "slot3": "Huwebes, Ene 18 - 3:00 PM PST",
+        "solutionSubtitle": "Lahat ng kailangan mo upang pamahalaan ang mga appointment, pulong, at kaganapan nang direkta mula sa iyong platform ng suporta sa customer.",
+        "solutionTitle": "Kumpletong Solusyon sa Pag-iiskedyul",
+        "subtitle": "Isama sa mga sikat na platform ng kalendaryo upang paganahin ang tuluy-tuloy na pag-iiskedyul ng appointment nang direkta mula sa mga pag-uusap sa suporta sa customer.",
+        "title": "Kalendaryo at Pag-iiskedyul",
+        "setup": "I-set up"
       },
       "communication": {
         "benefits": {
           "collaboration": {
-            "description": "[FIL]Improve internal team coordination and response times",
-            "title": "[FIL]Team Collaboration"
+            "description": "Pagbutihin ang panloob na koordinasyon ng koponan at mga oras ng pagtugon",
+            "title": "Pakikipagtulungan ng Koponan"
           },
           "efficiency": {
-            "description": "[FIL]Faster resolution with integrated communication tools",
-            "title": "[FIL]Response Efficiency"
+            "description": "Mas mabilis na paglutas gamit ang pinagsamang mga tool sa komunikasyon",
+            "title": "Kahusayan sa Pagtugon"
           },
           "satisfaction": {
-            "description": "[FIL]Better support experience across all channels",
-            "title": "[FIL]Customer Satisfaction"
+            "description": "Mas mahusay na karanasan sa suporta sa lahat ng channel",
+            "title": "Kasiyahan ng Customer"
           },
           "unified": {
-            "description": "[FIL]Manage all communication channels from one central hub",
-            "title": "[FIL]Unified Communication"
+            "description": "Pamahalaan ang lahat ng mga channel ng komunikasyon mula sa isang sentral na hub",
+            "title": "Pinag-isang Komunikasyon"
           }
         },
-        "benefitsSubtitle": "[FIL]Enhance your customer support and internal collaboration with seamless Seachat integrations.",
-        "benefitsTitle": "[FIL]Benefits of Integrated Communication",
-        "connectButton": "[FIL]Connect Communication Tools",
-        "connectPlatform": "[FIL]Connect with",
+        "benefitsSubtitle": "Pahusayin ang iyong suporta sa customer at panloob na pakikipagtulungan gamit ang tuluy-tuloy na mga pagsasama ng Seachat.",
+        "benefitsTitle": "Mga Benepisyo ng Pinagsamang Komunikasyon",
+        "connectButton": "Ikonekta ang mga Tool sa Komunikasyon",
+        "connectPlatform": "Kumonekta sa",
         "cta": {
-          "connectButton": "[FIL]Get Started Now",
-          "contactButton": "[FIL]Contact Sales",
-          "title": "[FIL]Ready to Streamline Your Communication?",
-          "subtitle": "[FIL]Connect your favorite communication tools and enhance your team's productivity and customer engagement."
+          "connectButton": "Magsimula Ngayon",
+          "contactButton": "Makipag-ugnayan sa Sales",
+          "title": "Handa nang I-streamline ang Iyong Komunikasyon?",
+          "subtitle": "Ikonekta ang iyong mga paboritong tool sa komunikasyon at pahusayin ang pagiging produktibo ng iyong koponan at pakikipag-ugnayan sa customer."
         },
-        "demoButton": "[FIL]Schedule Integration Demo",
+        "demoButton": "Mag-iskedyul ng Demo sa Pagsasama",
         "features": {
           "feature1": {
-            "description": "[FIL]Engage with customers instantly across all integrated platforms, ensuring timely responses and improved satisfaction.",
-            "title": "[FIL]Real-time Messaging"
+            "description": "Makipag-ugnayan agad sa mga customer sa lahat ng pinagsamang platform, na tinitiyak ang napapanahong mga tugon at pinabuting kasiyahan.",
+            "title": "Real-time na Pagmemensahe"
           },
           "feature2": {
-            "description": "[FIL]Set up automated responses and routing rules to efficiently manage incoming messages and reduce manual effort.",
-            "title": "[FIL]Automated Workflows"
+            "description": "Mag-set up ng mga awtomatikong tugon at mga panuntunan sa pagruruta upang mahusay na pamahalaan ang mga papasok na mensahe at bawasan ang manu-manong pagsisikap.",
+            "title": "Mga Awtomatikong Daloy ng Trabaho"
           },
           "feature3": {
-            "description": "[FIL]Manage all conversations from a single, intuitive interface, eliminating the need to switch between different applications.",
-            "title": "[FIL]Unified Inbox"
+            "description": "Pamahalaan ang lahat ng mga pag-uusap mula sa isang solong, madaling gamitin na interface, na inaalis ang pangangailangan na lumipat sa pagitan ng iba't ibang mga application.",
+            "title": "Pinag-isang Inbox"
           },
           "feature4": {
-            "description": "[FIL]Gain insights into communication volume, response times, and agent performance with comprehensive analytics and reporting.",
-            "title": "[FIL]Performance Analytics"
+            "description": "Makakuha ng mga insight sa dami ng komunikasyon, mga oras ng pagtugon, at pagganap ng ahente na may komprehensibong analytics at pag-uulat.",
+            "title": "Analytics sa Pagganap"
           }
         },
-        "featuresSubtitle": "[FIL]Discover how our communication Seachat integrations can transform your workflow.",
-        "featuresTitle": "[FIL]Key Features",
+        "featuresSubtitle": "Tuklasin kung paano maaaring baguhin ng aming mga pagsasama sa komunikasyon ng Seachat ang iyong daloy ng trabaho.",
+        "featuresTitle": "Mga Pangunahing Tampok",
         "platforms": {
           "discord": {
-            "category": "[FIL]Community",
-            "description": "[FIL]Community support through Discord servers and channels",
+            "category": "Komunidad",
+            "description": "Suporta sa komunidad sa pamamagitan ng mga server at channel ng Discord",
             "features": {
-              "bot": "[FIL]Bot features",
-              "moderation": "[FIL]Community moderation",
-              "server": "[FIL]Server integration",
-              "voice": "[FIL]Voice channels"
+              "bot": "Mga tampok ng bot",
+              "moderation": "Moderasyon ng komunidad",
+              "server": "Pagsasama ng server",
+              "voice": "Mga channel ng boses"
             },
-            "name": "[FIL]Discord",
-            "setupTime": "[FIL]10 minutes"
+            "name": "Discord",
+            "setupTime": "10 minuto"
           },
           "email": {
-            "category": "[FIL]Email",
-            "description": "[FIL]Connect with Gmail, Outlook, and other email providers",
+            "category": "Email",
+            "description": "Kumonekta sa Gmail, Outlook, at iba pang mga provider ng email",
             "features": {
-              "attachments": "[FIL]Attachment handling",
-              "routing": "[FIL]Email routing",
-              "templates": "[FIL]Template responses",
-              "threading": "[FIL]Threading"
+              "attachments": "Paghawak sa attachment",
+              "routing": "Pagruruta ng email",
+              "templates": "Mga tugon sa template",
+              "threading": "Threading"
             },
-            "name": "[FIL]Email Platforms",
-            "setupTime": "[FIL]7 minutes"
+            "name": "Mga Platform ng Email",
+            "setupTime": "7 minuto"
           },
           "googlechat": {
-            "category": "[FIL]Team Chat",
-            "description": "[FIL]Streamline team communication within the Google Workspace ecosystem.",
+            "category": "Chat ng Koponan",
+            "description": "I-streamline ang komunikasyon ng koponan sa loob ng ekosistema ng Google Workspace.",
             "features": {
-              "bots": "[FIL]Bot Seachat integrations",
-              "files": "[FIL]File sharing",
-              "meetings": "[FIL]Meet integration",
-              "spaces": "[FIL]Spaces for collaboration"
+              "bots": "Mga pagsasama ng bot ng Seachat",
+              "files": "Pagbabahagi ng file",
+              "meetings": "Pagsasama ng Meet",
+              "spaces": "Mga espasyo para sa pakikipagtulungan"
             },
-            "name": "[FIL]Google Chat",
-            "setupTime": "[FIL]8 minutes"
+            "name": "Google Chat",
+            "setupTime": "8 minuto"
           },
           "kakaotalk": {
-            "category": "[FIL]Messaging",
-            "description": "[FIL]Connect with users in South Korea and beyond with KakaoTalk.",
+            "category": "Pagmemensahe",
+            "description": "Kumonekta sa mga gumagamit sa Timog Korea at higit pa gamit ang KakaoTalk.",
             "features": {
-              "channels": "[FIL]Plus Friend Channels",
-              "commerce": "[FIL]Kakao Commerce integration",
-              "messages": "[FIL]Rich messages",
-              "payments": "[FIL]Kakao Pay integration"
+              "channels": "Mga Channel ng Plus Friend",
+              "commerce": "Pagsasama ng Kakao Commerce",
+              "messages": "Mga mayamang mensahe",
+              "payments": "Pagsasama ng Kakao Pay"
             },
-            "name": "[FIL]KakaoTalk",
-            "setupTime": "[FIL]12 minutes"
+            "name": "KakaoTalk",
+            "setupTime": "12 minuto"
           },
           "slack": {
-            "category": "[FIL]Team Chat",
-            "description": "[FIL]Integrate with Slack for team collaboration and internal notifications",
+            "category": "Chat ng Koponan",
+            "description": "Isama sa Slack para sa pakikipagtulungan ng koponan at mga panloob na abiso",
             "features": {
-              "channels": "[FIL]Channel notifications",
-              "commands": "[FIL]Bot commands",
-              "files": "[FIL]File sharing",
-              "messages": "[FIL]Direct messages"
+              "channels": "Mga abiso sa channel",
+              "commands": "Mga command ng bot",
+              "files": "Pagbabahagi ng file",
+              "messages": "Mga direktang mensahe"
             },
-            "name": "[FIL]Slack",
-            "setupTime": "[FIL]5 minutes"
+            "name": "Slack",
+            "setupTime": "5 minuto"
           },
           "teams": {
-            "category": "[FIL]Enterprise",
-            "description": "[FIL]Connect with Microsoft Teams for enterprise communication",
+            "category": "Enterprise",
+            "description": "Kumonekta sa Microsoft Teams para sa komunikasyon sa enterprise",
             "features": {
-              "apps": "[FIL]App integration",
-              "calls": "[FIL]Video calls",
-              "channels": "[FIL]Team channels",
-              "files": "[FIL]File collaboration"
+              "apps": "Pagsasama ng app",
+              "calls": "Mga tawag sa video",
+              "channels": "Mga channel ng koponan",
+              "files": "Pakikipagtulungan sa file"
             },
-            "name": "[FIL]Microsoft Teams",
-            "setupTime": "[FIL]8 minutes"
+            "name": "Microsoft Teams",
+            "setupTime": "8 minuto"
           },
           "telegram": {
-            "category": "[FIL]Messaging",
-            "description": "[FIL]Telegram bot integration for instant messaging support",
+            "category": "Pagmemensahe",
+            "description": "Pagsasama ng Telegram bot para sa suporta sa instant na pagmemensahe",
             "features": {
-              "api": "[FIL]Bot API",
-              "channels": "[FIL]Channel broadcasting",
-              "files": "[FIL]File transfers",
-              "groups": "[FIL]Group chats"
+              "api": "Bot API",
+              "channels": "Pag-broadcast ng channel",
+              "files": "Mga paglilipat ng file",
+              "groups": "Mga panggrupong chat"
             },
-            "name": "[FIL]Telegram",
-            "setupTime": "[FIL]15 minutes"
+            "name": "Telegram",
+            "setupTime": "15 minuto"
           },
           "whatsapp": {
-            "category": "[FIL]Messaging",
+            "category": "Pagmemensahe",
             "features": {
-              "automation": "[FIL]Automated responses",
-              "businessApi": "[FIL]Business API",
-              "messaging": "[FIL]Rich messaging",
-              "templates": "[FIL]Message templates"
+              "automation": "Mga awtomatikong tugon",
+              "businessApi": "Business API",
+              "messaging": "Mayamang pagmemensahe",
+              "templates": "Mga template ng mensahe"
             },
             "name": "WhatsApp",
-            "setupTime": "[FIL]10 minutes",
-            "description": "[FIL]Engage with customers directly on the world's most popular messaging app."
+            "setupTime": "10 minuto",
+            "description": "Makipag-ugnayan sa mga customer nang direkta sa pinakasikat na messaging app sa mundo."
           },
           "zalo": {
-            "category": "[FIL]Messaging",
-            "description": "[FIL]Connect with customers in Vietnam and Southeast Asia via Zalo.",
+            "category": "Pagmemensahe",
+            "description": "Kumonekta sa mga customer sa Vietnam at Timog-silangang Asya sa pamamagitan ng Zalo.",
             "features": {
-              "messaging": "[FIL]Rich messaging",
-              "miniApp": "[FIL]Mini Apps",
-              "officialAccount": "[FIL]Official Accounts",
-              "payments": "[FIL]Zalo Pay integration"
+              "messaging": "Mayamang pagmemensahe",
+              "miniApp": "Mga Mini App",
+              "officialAccount": "Mga Opisyal na Account",
+              "payments": "Pagsasama ng Zalo Pay"
             },
-            "name": "[FIL]Zalo",
-            "setupTime": "[FIL]10 minutes"
+            "name": "Zalo",
+            "setupTime": "10 minuto"
           }
         },
-        "platformsSubtitle": "[FIL]Connect with the communication tools your team already uses for seamless workflow integration.",
-        "platformsTitle": "[FIL]Popular Communication Platforms",
-        "subtitle": "[FIL]Integrate with popular communication platforms like Slack, Teams, Discord, and more to streamline your support workflow and team collaboration.",
-        "title": "[FIL]Communication Tools",
-        "setup": "[FIL]Setup time"
+        "platformsSubtitle": "Kumonekta sa mga tool sa komunikasyon na ginagamit na ng iyong koponan para sa tuluy-tuloy na pagsasama ng daloy ng trabaho.",
+        "platformsTitle": "Mga Sikat na Platform ng Komunikasyon",
+        "subtitle": "Isama sa mga sikat na platform ng komunikasyon tulad ng Slack, Teams, Discord, at higit pa upang i-streamline ang iyong daloy ng trabaho sa suporta at pakikipagtulungan ng koponan.",
+        "title": "Mga Tool sa Komunikasyon",
+        "setup": "Oras ng pag-setup"
       },
       "ecommerce": {
         "benefits": {
           "cart": {
-            "description": "[FIL]Reduce cart abandonment with proactive support",
-            "title": "[FIL]Cart Recovery"
+            "description": "Bawasan ang pag-abandona sa cart na may maagap na suporta",
+            "title": "Pagbawi ng Cart"
           },
           "orders": {
-            "description": "[FIL]Handle order inquiries, tracking, and updates automatically",
-            "title": "[FIL]Order Management"
+            "description": "Awtomatikong pangasiwaan ang mga katanungan sa order, pagsubaybay, at mga update",
+            "title": "Pamamahala ng Order"
           },
           "payment": {
-            "description": "[FIL]Assist with payment issues and billing questions",
-            "title": "[FIL]Payment Support"
+            "description": "Tumulong sa mga isyu sa pagbabayad at mga tanong sa pagsingil",
+            "title": "Suporta sa Pagbabayad"
           },
           "sales": {
-            "description": "[FIL]Convert support conversations into additional sales",
-            "title": "[FIL]Sales Increase"
+            "description": "I-convert ang mga pag-uusap sa suporta sa mga karagdagang benta",
+            "title": "Pagtaas ng Benta"
           }
         },
-        "benefitsSubtitle": "[FIL]Transform your customer support into a sales-driving, retention-boosting powerhouse.",
-        "benefitsTitle": "[FIL]E-commerce Support Benefits",
-        "connectPlatform": "[FIL]Connect",
+        "benefitsSubtitle": "Gawing isang powerhouse na nag-drive ng benta, nagpapalakas ng pagpapanatili ang iyong suporta sa customer.",
+        "benefitsTitle": "Mga Benepisyo sa Suporta sa E-commerce",
+        "connectPlatform": "Ikonekta",
         "cta": {
-          "button1": "[FIL]Connect Your Store Now",
-          "button2": "[FIL]Schedule E-commerce Demo"
+          "button1": "Ikonekta ang Iyong Tindahan Ngayon",
+          "button2": "Mag-iskedyul ng Demo sa E-commerce"
         },
-        "ctaSubtitle": "[FIL]Connect your online store and start providing exceptional customer support that drives sales and loyalty.",
-        "ctaTitle": "[FIL]Ready to Boost Your E-commerce Sales?",
-        "customer": "[FIL]Customer",
+        "ctaSubtitle": "Ikonekta ang iyong online na tindahan at simulang magbigay ng pambihirang suporta sa customer na nag-drive ng mga benta at katapatan.",
+        "ctaTitle": "Handa nang Palakasin ang Iyong mga Benta sa E-commerce?",
+        "customer": "Customer",
         "hero": {
-          "button1": "[FIL]Connect Your Store",
-          "button2": "[FIL]Schedule E-commerce Demo"
+          "button1": "Ikonekta ang Iyong Tindahan",
+          "button2": "Mag-iskedyul ng Demo sa E-commerce"
         },
-        "orderQuestion": "[FIL]Where is my order #12345?",
-        "orderResponse": "[FIL]Your order #12345 shipped yesterday and is currently in transit. Expected delivery: Tomorrow by 6 PM. Track it here: [tracking link]",
+        "orderQuestion": "Nasaan ang aking order #12345?",
+        "orderResponse": "Ang iyong order #12345 ay naipadala kahapon at kasalukuyang nasa transit. Inaasahang paghahatid: Bukas ng 6 PM. Subaybayan ito dito: [tracking link]",
         "platforms": {
           "bigcommerce": {
-            "description": "[FIL]BigCommerce API integration for growing online stores",
+            "description": "Pagsasama ng BigCommerce API para sa mga lumalagong online na tindahan",
             "features": {
-              "customers": "[FIL]Customer insights",
-              "orders": "[FIL]Order management",
-              "products": "[FIL]Product data",
-              "shipping": "[FIL]Shipping info"
+              "customers": "Mga insight sa customer",
+              "orders": "Pamamahala ng order",
+              "products": "Data ng produkto",
+              "shipping": "Impormasyon sa pagpapadala"
             },
-            "name": "[FIL]BigCommerce",
-            "popularity": "[FIL]Growing",
-            "setupTime": "[FIL]10 minutes"
+            "name": "BigCommerce",
+            "popularity": "Lumalaki",
+            "setupTime": "10 minuto"
           },
           "etsy": {
-            "description": "[FIL]Etsy marketplace integration for creative sellers",
+            "description": "Pagsasama ng marketplace ng Etsy para sa mga malikhaing nagbebenta",
             "features": {
-              "listings": "[FIL]Listing help",
-              "messages": "[FIL]Customer messages",
-              "orders": "[FIL]Order support",
-              "shop": "[FIL]Shop management"
+              "listings": "Tulong sa listahan",
+              "messages": "Mga mensahe ng customer",
+              "orders": "Suporta sa order",
+              "shop": "Pamamahala ng tindahan"
             },
-            "name": "[FIL]Etsy",
-            "popularity": "[FIL]Creative",
-            "setupTime": "[FIL]12 minutes"
+            "name": "Etsy",
+            "popularity": "Malikhain",
+            "setupTime": "12 minuto"
           },
           "fourthwall": {
-            "description": "[FIL]Platform for creators to build a free website, sell products, and manage memberships",
+            "description": "Platform para sa mga tagalikha upang bumuo ng isang libreng website, magbenta ng mga produkto, at pamahalaan ang mga membership",
             "features": {
-              "community": "[FIL]Community tools",
-              "donations": "[FIL]Donations",
-              "memberships": "[FIL]Memberships",
-              "merch": "[FIL]Custom merch"
+              "community": "Mga tool sa komunidad",
+              "donations": "Mga donasyon",
+              "memberships": "Mga membership",
+              "merch": "Pasadyang merch"
             },
-            "name": "[FIL]Fourthwall",
-            "popularity": "[FIL]Creator Economy",
-            "setupTime": "[FIL]10 minutes"
+            "name": "Fourthwall",
+            "popularity": "Ekonomiya ng Tagalikha",
+            "setupTime": "10 minuto"
           },
           "godaddy": {
-            "description": "[FIL]All-in-one solution for websites, marketing, and online stores",
+            "description": "All-in-one na solusyon para sa mga website, marketing, at mga online na tindahan",
             "features": {
-              "scheduling": "[FIL]Appointment scheduling",
-              "security": "[FIL]SSL security",
-              "social": "[FIL]Social media tools",
-              "website": "[FIL]Website builder"
+              "scheduling": "Pag-iiskedyul ng appointment",
+              "security": "Seguridad ng SSL",
+              "social": "Mga tool sa social media",
+              "website": "Tagabuo ng website"
             },
-            "name": "[FIL]GoDaddy",
-            "popularity": "[FIL]Comprehensive",
-            "setupTime": "[FIL]15 minutes"
+            "name": "GoDaddy",
+            "popularity": "Komprehensibo",
+            "setupTime": "15 minuto"
           },
           "hostinger": {
-            "description": "[FIL]Web hosting provider with an integrated website builder and e-commerce features",
+            "description": "Provider ng web hosting na may pinagsamang tagabuo ng website at mga tampok sa e-commerce",
             "features": {
-              "builder": "[FIL]AI website builder",
-              "hosting": "[FIL]Reliable hosting",
-              "ssl": "[FIL]Free SSL",
-              "support": "[FIL]24/7 support"
+              "builder": "Tagabuo ng website ng AI",
+              "hosting": "Maaasahang hosting",
+              "ssl": "Libreng SSL",
+              "support": "24/7 na suporta"
             },
-            "name": "[FIL]Hostinger",
-            "popularity": "[FIL]Budget-Friendly",
-            "setupTime": "[FIL]10 minutes"
+            "name": "Hostinger",
+            "popularity": "Mabisa sa Badyet",
+            "setupTime": "10 minuto"
           },
           "magento": {
-            "description": "[FIL]Enterprise Magento integration for large-scale e-commerce",
+            "description": "Pagsasama ng Enterprise Magento para sa malakihang e-commerce",
             "features": {
-              "catalog": "[FIL]Catalog sync",
-              "multistore": "[FIL]Multi-store support",
-              "orders": "[FIL]Advanced orders",
-              "segments": "[FIL]Customer segments"
+              "catalog": "Pag-sync ng catalog",
+              "multistore": "Suporta sa maraming tindahan",
+              "orders": "Mga advanced na order",
+              "segments": "Mga segment ng customer"
             },
-            "name": "[FIL]Magento",
-            "popularity": "[FIL]Enterprise",
-            "setupTime": "[FIL]15 minutes"
+            "name": "Magento",
+            "popularity": "Enterprise",
+            "setupTime": "15 minuto"
           },
           "opencart": {
-            "description": "[FIL]Free open-source e-commerce platform for online stores",
+            "description": "Libreng open-source na platform ng e-commerce para sa mga online na tindahan",
             "features": {
-              "dashboard": "[FIL]Admin dashboard",
-              "extensions": "[FIL]Rich extensions",
-              "multi_store": "[FIL]Multi-store functionality",
-              "themes": "[FIL]Themable"
+              "dashboard": "Dashboard ng admin",
+              "extensions": "Mayamang mga extension",
+              "multi_store": "Pag-andar ng maraming tindahan",
+              "themes": "Themable"
             },
-            "name": "[FIL]OpenCart",
-            "popularity": "[FIL]Flexible",
-            "setupTime": "[FIL]25 minutes"
+            "name": "OpenCart",
+            "popularity": "Flexible",
+            "setupTime": "25 minuto"
           },
           "prestashop": {
-            "description": "[FIL]Open-source e-commerce solution for small to large businesses",
+            "description": "Open-source na solusyon sa e-commerce para sa maliliit hanggang malalaking negosyo",
             "features": {
-              "analytics": "[FIL]Advanced analytics",
-              "customizable": "[FIL]Highly customizable",
-              "modules": "[FIL]Thousands of modules",
-              "multilingual": "[FIL]Multilingual support"
+              "analytics": "Advanced na analytics",
+              "customizable": "Lubos na nako-customize",
+              "modules": "Libu-libong mga module",
+              "multilingual": "Suporta sa maraming wika"
             },
-            "name": "[FIL]PrestaShop",
-            "popularity": "[FIL]Open-Source",
-            "setupTime": "[FIL]30 minutes"
+            "name": "PrestaShop",
+            "popularity": "Open-Source",
+            "setupTime": "30 minuto"
           },
           "sellfy": {
-            "description": "[FIL]E-commerce platform for creators to sell digital products, subscriptions, and physical goods",
+            "description": "Platform ng e-commerce para sa mga tagalikha upang magbenta ng mga digital na produkto, subscription, at pisikal na mga kalakal",
             "features": {
-              "digital": "[FIL]Digital product sales",
-              "marketing": "[FIL]Built-in marketing",
-              "print_on_demand": "[FIL]Print-on-demand",
-              "subscriptions": "[FIL]Subscription services"
+              "digital": "Mga benta ng digital na produkto",
+              "marketing": "Built-in na marketing",
+              "print_on_demand": "Print-on-demand",
+              "subscriptions": "Mga serbisyo sa subscription"
             },
-            "name": "[FIL]Sellfy",
-            "popularity": "[FIL]Creator-Focused",
-            "setupTime": "[FIL]5 minutes"
+            "name": "Sellfy",
+            "popularity": "Nakatutok sa Tagalikha",
+            "setupTime": "5 minuto"
           },
           "shopify": {
-            "description": "[FIL]Complete Shopify[FIL] integration with order management and customer sync",
+            "description": "Kumpletong pagsasama ng Shopify sa pamamahala ng order at pag-sync ng customer",
             "features": {
-              "catalog": "[FIL]Product catalog",
-              "customers": "[FIL]Customer profiles",
-              "inventory": "[FIL]Inventory sync",
-              "orders": "[FIL]Order tracking"
+              "catalog": "Catalog ng produkto",
+              "customers": "Mga profile ng customer",
+              "inventory": "Pag-sync ng imbentaryo",
+              "orders": "Pagsubaybay sa order"
             },
             "name": "Shopify",
-            "popularity": "[FIL]Most Popular",
-            "setupTime": "[FIL]5 minutes"
+            "popularity": "Pinakasikat",
+            "setupTime": "5 minuto"
           },
           "square": {
-            "description": "[FIL]Point-of-sale and e-commerce solutions for businesses of all sizes",
+            "description": "Mga solusyon sa point-of-sale at e-commerce para sa mga negosyo sa lahat ng laki",
             "features": {
-              "invoicing": "[FIL]Invoicing",
-              "loyalty": "[FIL]Loyalty programs",
-              "pos": "[FIL]Integrated POS",
-              "reporting": "[FIL]Sales reporting"
+              "invoicing": "Pag-invoice",
+              "loyalty": "Mga programa sa katapatan",
+              "pos": "Pinagsamang POS",
+              "reporting": "Pag-uulat sa pagbebenta"
             },
-            "name": "[FIL]Square",
-            "popularity": "[FIL]Retail",
-            "setupTime": "[FIL]5 minutes"
+            "name": "Square",
+            "popularity": "Tingi",
+            "setupTime": "5 minuto"
           },
           "squarespace": {
-            "description": "[FIL]Website builder known for its beautiful design templates and e-commerce capabilities",
+            "description": "Tagabuo ng website na kilala sa magagandang template ng disenyo at mga kakayahan sa e-commerce",
             "features": {
-              "blogging": "[FIL]Blogging tools",
-              "commerce": "[FIL]Full commerce features",
-              "design": "[FIL]Award-winning design",
-              "portfolio": "[FIL]Portfolio options"
+              "blogging": "Mga tool sa pag-blog",
+              "commerce": "Buong mga tampok sa commerce",
+              "design": "Disenyo na nanalo ng award",
+              "portfolio": "Mga pagpipilian sa portfolio"
             },
             "name": "Squarespace",
-            "popularity": "[FIL]Design-Focused",
-            "setupTime": "[FIL]20 minutes"
+            "popularity": "Nakatutok sa Disenyo",
+            "setupTime": "20 minuto"
           },
           "weebly": {
-            "description": "[FIL]Simple drag-and-drop website builder with e-commerce features",
+            "description": "Simpleng drag-and-drop na tagabuo ng website na may mga tampok sa e-commerce",
             "features": {
-              "marketing": "[FIL]Marketing tools",
-              "payments": "[FIL]Integrated payments",
-              "seo": "[FIL]SEO optimization",
-              "storefront": "[FIL]Customizable storefront"
+              "marketing": "Mga tool sa marketing",
+              "payments": "Pinagsamang mga pagbabayad",
+              "seo": "Pag-optimize ng SEO",
+              "storefront": "Nako-customize na storefront"
             },
-            "name": "[FIL]Weebly",
-            "popularity": "[FIL]User-Friendly",
-            "setupTime": "[FIL]10 minutes"
+            "name": "Weebly",
+            "popularity": "Madaling Gamitin",
+            "setupTime": "10 minuto"
           },
           "wix": {
-            "description": "[FIL]Cloud-based web development platform for creating HTML5 websites and mobile sites",
+            "description": "Cloud-based na platform sa pag-unlad ng web para sa paglikha ng mga website ng HTML5 at mga mobile site",
             "features": {
-              "analytics": "[FIL]Site analytics",
-              "apps": "[FIL]App market",
-              "mobile": "[FIL]Mobile optimized",
-              "templates": "[FIL]Designer templates"
+              "analytics": "Analytics ng site",
+              "apps": "Tindahan ng app",
+              "mobile": "Na-optimize sa mobile",
+              "positioning": "Pasadyang pagpoposisyon"
             },
             "name": "Wix",
-            "popularity": "[FIL]Versatile",
-            "setupTime": "[FIL]10 minutes"
+            "popularity": "Maraming Gamit",
+            "setupTime": "10 minuto"
           },
           "woocommerce": {
-            "description": "WordPress[FIL] WooCommerce plugin for seamless store integration",
+            "description": "WordPress WooCommerce plugin para sa tuluy-tuloy na pagsasama ng tindahan",
             "features": {
-              "customers": "[FIL]Customer history",
-              "orders": "[FIL]Order status",
-              "payments": "[FIL]Payment tracking",
-              "products": "[FIL]Product support"
+              "customers": "Kasaysayan ng customer",
+              "orders": "Katayuan ng order",
+              "payments": "Pagsubaybay sa pagbabayad",
+              "products": "Suporta sa produkto"
             },
-            "name": "[FIL]WooCommerce",
+            "name": "WooCommerce",
             "popularity": "WordPress",
-            "setupTime": "[FIL]8 minutes"
+            "setupTime": "8 minuto"
           }
         },
-        "platformsSubtitle": "[FIL]Integrate with all major e-commerce platforms and marketplaces for unified customer support.",
-        "platformsTitle": "[FIL]Supported E-commerce Platforms",
-        "recommendationQuestion": "[FIL]Great! Can you recommend similar products?",
-        "recommendationResponse": "[FIL]Based on your purchase, you might like these items: [Product A], [Product B]. Would you like a 10% discount on your next order?",
-        "scenarioTitle": "[FIL]Customer Support Scenario",
-        "seachatAI": "SeaChat[FIL] AI",
-        "subtitle": "[FIL]Connect SeaChat[FIL] with your online store to provide exceptional customer support, increase sales, and reduce cart abandonment.",
-        "supportSubtitle": "[FIL]Everything you need to provide exceptional customer support for your online store, from order tracking to product recommendations.",
-        "supportTitle": "[FIL]Complete E-commerce Support Suite",
-        "title": "[FIL]E-commerce Seachat integrations",
-        "setup": "[FIL]Setup time",
+        "platformsSubtitle": "Isama sa lahat ng mga pangunahing platform ng e-commerce at mga marketplace para sa pinag-isang suporta sa customer.",
+        "platformsTitle": "Mga Suportadong Platform ng E-commerce",
+        "recommendationQuestion": "Mahusay! Maaari ka bang magrekomenda ng mga katulad na produkto?",
+        "recommendationResponse": "Batay sa iyong pagbili, maaaring gusto mo ang mga item na ito: [Produkto A], [Produkto B]. Gusto mo ba ng 10% na diskwento sa iyong susunod na order?",
+        "scenarioTitle": "Sitwasyon sa Suporta sa Customer",
+        "seachatAI": "SeaChat AI",
+        "subtitle": "Ikonekta ang SeaChat sa iyong online na tindahan upang magbigay ng pambihirang suporta sa customer, taasan ang mga benta, at bawasan ang pag-abandona sa cart.",
+        "supportSubtitle": "Lahat ng kailangan mo upang magbigay ng pambihirang suporta sa customer para sa iyong online na tindahan, mula sa pagsubaybay sa order hanggang sa mga rekomendasyon sa produkto.",
+        "supportTitle": "Kumpletong Suite ng Suporta sa E-commerce",
+        "title": "Mga pagsasama sa E-commerce ng Seachat",
+        "setup": "Oras ng pag-setup",
         "features": [
           {
-            "title": "[FIL]Real-Time Order Tracking",
-            "description": "[FIL]Automatically sync order status and provide instant tracking information to customers",
-            "icon": "[FIL]package"
+            "title": "Real-Time na Pagsubaybay sa Order",
+            "description": "Awtomatikong i-sync ang katayuan ng order at magbigay ng instant na impormasyon sa pagsubaybay sa mga customer",
+            "icon": "package"
           },
           {
-            "title": "[FIL]Inventory Management",
-            "description": "[FIL]Keep customers informed about product availability and restock notifications",
-            "icon": "[FIL]warehouse"
+            "title": "Pamamahala ng Imbentaryo",
+            "description": "Panatilihing may kaalaman ang mga customer tungkol sa availability ng produkto at mga abiso sa restock",
+            "icon": "warehouse"
           },
           {
-            "title": "[FIL]Smart Product Recommendations",
-            "description": "[FIL]AI-powered product suggestions based on customer purchase history and preferences",
-            "icon": "[FIL]target"
+            "title": "Matalinong mga Rekomendasyon sa Produkto",
+            "description": "Mga mungkahi sa produkto na pinapagana ng AI batay sa kasaysayan ng pagbili at mga kagustuhan ng customer",
+            "icon": "target"
           },
           {
-            "title": "[FIL]Cart Abandonment Recovery",
-            "description": "[FIL]Proactively reach out to customers who abandoned their carts with personalized messages",
-            "icon": "[FIL]shopping-cart"
+            "title": "Pagbawi sa Pag-abandona sa Cart",
+            "description": "Maagap na makipag-ugnayan sa mga customer na nag-iwan ng kanilang mga cart na may mga personalized na mensahe",
+            "icon": "shopping-cart"
           },
           {
-            "title": "[FIL]Payment Issue Resolution",
-            "description": "[FIL]Handle payment failures and billing inquiries with instant access to transaction data",
-            "icon": "[FIL]credit-card"
+            "title": "Paglutas ng Isyu sa Pagbabayad",
+            "description": "Pangasiwaan ang mga pagkabigo sa pagbabayad at mga katanungan sa pagsingil na may instant na access sa data ng transaksyon",
+            "icon": "credit-card"
           },
           {
-            "title": "[FIL]Customer Purchase History",
-            "description": "[FIL]Access complete customer purchase history for better support and personalized service",
-            "icon": "[FIL]history"
+            "title": "Kasaysayan ng Pagbili ng Customer",
+            "description": "I-access ang kumpletong kasaysayan ng pagbili ng customer para sa mas mahusay na suporta at personalized na serbisyo",
+            "icon": "history"
           }
         ]
       },
       "marketing": {
-        "automationTitle": "[FIL]Marketing Automation Flow",
+        "automationTitle": "Daloy ng Automation sa Marketing",
         "benefits": {
           "campaigns": {
-            "description": "[FIL]Better campaign results with customer support insights",
-            "title": "[FIL]Campaign Performance"
+            "description": "Mas mahusay na mga resulta ng kampanya na may mga insight sa suporta sa customer",
+            "title": "Pagganap ng Kampanya"
           },
           "leads": {
-            "description": "[FIL]Convert support conversations into marketing qualified leads",
-            "title": "[FIL]Lead Generation"
+            "description": "I-convert ang mga pag-uusap sa suporta sa mga lead na kwalipikado sa marketing",
+            "title": "Pagbuo ng Lead"
           },
           "retention": {
-            "description": "[FIL]Improve retention with personalized marketing campaigns",
-            "title": "[FIL]Customer Retention"
+            "description": "Pagbutihin ang pagpapanatili gamit ang mga personalized na kampanya sa marketing",
+            "title": "Pagpapanatili ng Customer"
           },
           "revenue": {
-            "description": "[FIL]Increase revenue through integrated marketing efforts",
-            "title": "[FIL]Revenue Growth"
+            "description": "Taasan ang kita sa pamamagitan ng pinagsamang mga pagsisikap sa marketing",
+            "title": "Paglago ng Kita"
           }
         },
-        "benefitsSubtitle": "[FIL]Transform customer support into a powerful marketing and growth engine.",
-        "benefitsTitle": "[FIL]Marketing Integration Benefits",
-        "connectButton": "[FIL]Connect Marketing Tools",
-        "connectPlatform": "[FIL]Connect",
-        "ctaConnectButton": "[FIL]Connect Marketing Tools",
-        "ctaGuideButton": "[FIL]View Setup Guide",
-        "ctaSubtitle": "[FIL]Connect your marketing platforms and turn every customer support conversation into a growth opportunity.",
-        "ctaTitle": "[FIL]Ready to Supercharge Your Marketing?",
-        "demoButton": "[FIL]Schedule Marketing Demo",
+        "benefitsSubtitle": "Gawing isang malakas na makina sa marketing at paglago ang suporta sa customer.",
+        "benefitsTitle": "Mga Benepisyo sa Pagsasama ng Marketing",
+        "connectButton": "Ikonekta ang mga Tool sa Marketing",
+        "connectPlatform": "Ikonekta",
+        "ctaConnectButton": "Ikonekta ang mga Tool sa Marketing",
+        "ctaGuideButton": "Tingnan ang Gabay sa Pag-setup",
+        "ctaSubtitle": "Ikonekta ang iyong mga platform sa marketing at gawing isang pagkakataon sa paglago ang bawat pag-uusap sa suporta sa customer.",
+        "ctaTitle": "Handa nang Palakasin ang Iyong Marketing?",
+        "demoButton": "Mag-iskedyul ng Demo sa Marketing",
         "flow": {
           "conversation": {
-            "description": "[FIL]Customer asks about premium features",
-            "title": "[FIL]Support Conversation"
+            "description": "Nagtatanong ang customer tungkol sa mga premium na tampok",
+            "title": "Pag-uusap sa Suporta"
           },
           "conversion": {
-            "description": "[FIL]Customer upgrades to premium plan",
-            "title": "[FIL]Conversion"
+            "description": "Nag-upgrade ang customer sa premium na plano",
+            "title": "Conversion"
           },
           "tagging": {
-            "description": "[FIL]Customer tagged as \"interested in upgrade",
-            "title": "[FIL]Automatic Tagging"
+            "description": "Na-tag ang customer bilang \"interesado sa pag-upgrade\"",
+            "title": "Awtomatikong Pag-tag"
           },
           "trigger": {
-            "description": "[FIL]Automated email sequence starts",
-            "title": "[FIL]Campaign Trigger"
+            "description": "Nagsisimula ang awtomatikong pagkakasunud-sunod ng email",
+            "title": "Trigger ng Kampanya"
           }
         },
-        "integrationSubtitle": "[FIL]Bridge the gap between customer support and marketing with intelligent automation that turns every conversation into a growth opportunity.",
-        "integrationTitle": "[FIL]Complete Marketing Integration",
+        "integrationSubtitle": "Tulayin ang agwat sa pagitan ng suporta sa customer at marketing gamit ang matalinong automation na ginagawang isang pagkakataon sa paglago ang bawat pag-uusap.",
+        "integrationTitle": "Kumpletong Pagsasama ng Marketing",
         "features": [
           {
-            "title": "[FIL]Lead Qualification & Scoring",
-            "description": "[FIL]Automatically qualify and score leads from support conversations based on engagement and intent",
-            "icon": "[FIL]target"
+            "title": "Kwalipikasyon at Pagmamarka ng Lead",
+            "description": "Awtomatikong maging kwalipikado at magmarka ng mga lead mula sa mga pag-uusap sa suporta batay sa pakikipag-ugnayan at layunin",
+            "icon": "target"
           },
           {
-            "title": "[FIL]Campaign Trigger Automation",
-            "description": "[FIL]Trigger targeted marketing campaigns based on specific customer interactions and behavior patterns",
-            "icon": "[FIL]zap"
+            "title": "Automation ng Trigger ng Kampanya",
+            "description": "I-trigger ang mga naka-target na kampanya sa marketing batay sa mga partikular na pakikipag-ugnayan ng customer at mga pattern ng pag-uugali",
+            "icon": "zap"
           },
           {
-            "title": "[FIL]Customer Journey Mapping",
-            "description": "[FIL]Track and optimize the complete customer journey from first contact to conversion and retention",
-            "icon": "[FIL]map"
+            "title": "Pagmamapa ng Paglalakbay ng Customer",
+            "description": "Subaybayan at i-optimize ang kumpletong paglalakbay ng customer mula sa unang contact hanggang sa conversion at pagpapanatili",
+            "icon": "map"
           },
           {
-            "title": "[FIL]Personalized Content Delivery",
-            "description": "[FIL]Deliver personalized marketing content and offers based on support conversation history and preferences",
-            "icon": "[FIL]heart"
+            "title": "Paghahatid ng Personalized na Nilalaman",
+            "description": "Maghatid ng personalized na nilalaman at mga alok sa marketing batay sa kasaysayan at mga kagustuhan sa pag-uusap sa suporta",
+            "icon": "heart"
           },
           {
-            "title": "[FIL]Multi-Channel Campaign Sync",
-            "description": "[FIL]Synchronize marketing campaigns across email, SMS[FIL], WhatsApp[FIL], and social media for consistent messaging",
-            "icon": "[FIL]sync"
+            "title": "Pag-sync ng Kampanya sa Maraming Channel",
+            "description": "I-synchronize ang mga kampanya sa marketing sa email, SMS, WhatsApp, at social media para sa pare-parehong pagmemensahe",
+            "icon": "sync"
           },
           {
-            "title": "[FIL]Performance Analytics & ROI",
-            "description": "[FIL]Measure campaign performance and ROI with detailed analytics on conversion rates and customer lifetime value",
-            "icon": "[FIL]chart"
+            "title": "Analytics sa Pagganap at ROI",
+            "description": "Sukatin ang pagganap ng kampanya at ROI na may detalyadong analytics sa mga rate ng conversion at lifetime value ng customer",
+            "icon": "chart"
           }
         ],
         "platforms": {
           "activecampaign": {
-            "category": "[FIL]Automation",
-            "description": "[FIL]Customer experience automation platform",
+            "category": "Automation",
+            "description": "Platform ng automation ng karanasan sa customer",
             "features": {
-              "automation": "[FIL]Marketing automation",
-              "crm": "[FIL]CRM integration",
-              "learning": "[FIL]Machine learning",
-              "sending": "[FIL]Predictive sending"
+              "automation": "Automation sa marketing",
+              "crm": "Pagsasama ng CRM",
+              "learning": "Pag-aaral ng makina",
+              "sending": "Prediktibong pagpapadala"
             },
-            "name": "[FIL]ActiveCampaign",
-            "setupTime": "[FIL]18 minutes"
+            "name": "ActiveCampaign",
+            "setupTime": "18 minuto"
           },
           "constantcontact": {
-            "category": "[FIL]Email Marketing",
-            "description": "[FIL]Email marketing and automation for small businesses",
+            "category": "Marketing sa Email",
+            "description": "Marketing sa email at automation para sa maliliit na negosyo",
             "features": {
-              "analytics": "[FIL]Analytics dashboard",
-              "scheduling": "[FIL]Campaign scheduling",
-              "social": "[FIL]Social media tools",
-              "templates": "[FIL]Email templates"
+              "analytics": "Dashboard ng analytics",
+              "scheduling": "Pag-iiskedyul ng kampanya",
+              "social": "Mga tool sa social media",
+              "templates": "Mga template ng email"
             },
             "name": "Constant Contact",
-            "setupTime": "[FIL]7 minutes"
+            "setupTime": "7 minuto"
           },
           "convertkit": {
-            "category": "[FIL]Creator Economy",
-            "description": "[FIL]Creator-focused email marketing with automation sequences",
+            "category": "Ekonomiya ng Tagalikha",
+            "description": "Marketing sa email na nakatuon sa tagalikha na may mga pagkakasunud-sunod ng automation",
             "features": {
-              "integrations": "[FIL]Integrations",
-              "landing": "[FIL]Landing pages",
-              "sequences": "[FIL]Email sequences",
-              "tagging": "[FIL]Subscriber tagging"
+              "integrations": "Mga pagsasama",
+              "landing": "Mga landing page",
+              "sequences": "Mga pagkakasunud-sunod ng email",
+              "tagging": "Pag-tag ng subscriber"
             },
-            "name": "[FIL]ConvertKit",
-            "setupTime": "[FIL]9 minutes"
+            "name": "ConvertKit",
+            "setupTime": "9 minuto"
           },
           "engagebay": {
-            "category": "[FIL]All-in-One",
-            "description": "[FIL]All-in-one marketing, sales, and support CRM",
+            "category": "All-in-One",
+            "description": "All-in-one na marketing, pagbebenta, at suporta sa CRM",
             "features": {
-              "automation": "[FIL]Marketing automation",
-              "crm": "[FIL]CRM integration",
-              "email": "[FIL]Email marketing",
-              "forms": "[FIL]Lead forms & popups"
+              "automation": "Automation sa marketing",
+              "crm": "Pagsasama ng CRM",
+              "email": "Marketing sa email",
+              "forms": "Mga form at popup ng lead"
             },
-            "name": "[FIL]EngageBay",
-            "setupTime": "[FIL]11 minutes"
+            "name": "EngageBay",
+            "setupTime": "11 minuto"
           },
           "hubspot": {
-            "category": "[FIL]Marketing Hub",
-            "description": "[FIL]Inbound marketing platform with lead nurturing capabilities",
+            "category": "Marketing Hub",
+            "description": "Platform ng inbound marketing na may mga kakayahan sa pag-aalaga ng lead",
             "features": {
-              "automation": "[FIL]Marketing automation",
-              "landing": "[FIL]Landing pages",
-              "scoring": "[FIL]Lead scoring",
-              "social": "[FIL]Social media"
+              "automation": "Automation sa marketing",
+              "landing": "Mga landing page",
+              "scoring": "Pagmamarka ng lead",
+              "social": "Social media"
             },
-            "name": "HubSpot[FIL] Marketing",
-            "setupTime": "[FIL]15 minutes"
+            "name": "HubSpot Marketing",
+            "setupTime": "15 minuto"
           },
           "klaviyo": {
-            "category": "[FIL]E-commerce",
-            "description": "[FIL]E-commerce focused email and SMS[FIL] marketing platform",
+            "category": "E-commerce",
+            "description": "Platform ng marketing sa email at SMS na nakatuon sa e-commerce",
             "features": {
-              "recommendations": "[FIL]Product recommendations",
-              "revenue": "[FIL]Revenue tracking",
-              "sms": "SMS[FIL] campaigns",
-              "triggers": "[FIL]Behavioral triggers"
+              "recommendations": "Mga rekomendasyon sa produkto",
+              "revenue": "Pagsubaybay sa kita",
+              "sms": "Mga kampanya sa SMS",
+              "triggers": "Mga trigger sa pag-uugali"
             },
-            "name": "[FIL]Klaviyo",
-            "setupTime": "[FIL]12 minutes"
+            "name": "Klaviyo",
+            "setupTime": "12 minuto"
           },
           "mailchimp": {
-            "category": "[FIL]Email Marketing",
-            "description": "[FIL]Comprehensive email marketing platform with audience insights",
+            "category": "Marketing sa Email",
+            "description": "Komprehensibong platform ng marketing sa email na may mga insight sa audience",
             "features": {
-              "builder": "[FIL]Campaign builder",
-              "reporting": "[FIL]Reporting",
-              "segmentation": "[FIL]Audience segmentation",
-              "testing": "[FIL]A/B testing"
+              "builder": "Tagabuo ng kampanya",
+              "reporting": "Pag-uulat",
+              "segmentation": "Pagse-segment ng audience",
+              "testing": "Pagsubok sa A/B"
             },
             "name": "Mailchimp",
-            "setupTime": "[FIL]10 minutes"
+            "setupTime": "10 minuto"
           },
           "mailerlite": {
-            "category": "[FIL]Email Marketing",
-            "description": "[FIL]Email marketing automation with customer support integration",
+            "category": "Marketing sa Email",
+            "description": "Automation ng marketing sa email na may pagsasama ng suporta sa customer",
             "features": {
-              "analytics": "[FIL]Analytics",
-              "automation": "[FIL]Automation workflows",
-              "campaigns": "[FIL]Email campaigns",
-              "subscribers": "[FIL]Subscriber management"
+              "analytics": "Analytics",
+              "automation": "Mga daloy ng trabaho sa automation",
+              "campaigns": "Mga kampanya sa email",
+              "subscribers": "Pamamahala ng subscriber"
             },
             "name": "MailerLite",
-            "setupTime": "[FIL]8 minutes"
+            "setupTime": "8 minuto"
           },
           "omnisend": {
-            "category": "[FIL]E-commerce",
-            "description": "[FIL]Omnichannel marketing automation for e-commerce",
+            "category": "E-commerce",
+            "description": "Omnichannel na automation sa marketing para sa e-commerce",
             "features": {
-              "automation": "[FIL]Automation workflows",
-              "email": "[FIL]Email & SMS[FIL] campaigns",
-              "reports": "[FIL]Advanced reporting",
-              "segmentation": "[FIL]Audience segmentation"
+              "automation": "Mga daloy ng trabaho sa automation",
+              "email": "Mga kampanya sa email at SMS",
+              "reports": "Advanced na pag-uulat",
+              "segmentation": "Pagse-segment ng audience"
             },
-            "name": "[FIL]Omnisend",
-            "setupTime": "[FIL]10 minutes"
+            "name": "Omnisend",
+            "setupTime": "10 minuto"
           }
         },
-        "platformsSubtitle": "[FIL]Integrate with leading marketing platforms to create seamless customer experiences.",
-        "platformsTitle": "[FIL]Popular Marketing Platforms",
-        "subtitle": "[FIL]Connect SeaChat[FIL] with your marketing tools to turn customer support conversations into powerful marketing opportunities and personalized campaigns.",
-        "title": "[FIL]Marketing Platforms",
+        "platformsSubtitle": "Isama sa mga nangungunang platform sa marketing upang lumikha ng tuluy-tuloy na mga karanasan sa customer.",
+        "platformsTitle": "Mga Sikat na Platform sa Marketing",
+        "subtitle": "Ikonekta ang SeaChat sa iyong mga tool sa marketing upang gawing malakas na mga pagkakataon sa marketing at mga personalized na kampanya ang mga pag-uusap sa suporta sa customer.",
+        "title": "Mga Platform sa Marketing",
         "useCases": {
           "nurturing": {
-            "description": "[FIL]Automatically add support contacts to nurturing campaigns",
-            "example": "[FIL]Customer asks about pricing → Added to product demo email sequence",
-            "title": "[FIL]Lead Nurturing"
+            "description": "Awtomatikong magdagdag ng mga contact sa suporta sa mga kampanya sa pag-aalaga",
+            "example": "Nagtatanong ang customer tungkol sa pagpepresyo → Idinagdag sa pagkakasunud-sunod ng email ng demo ng produkto",
+            "title": "Pag-aalaga ng Lead"
           },
           "onboarding": {
-            "description": "[FIL]Seamless onboarding experience with marketing automation",
-            "example": "[FIL]New customer support ticket → Welcome series with helpful resources",
-            "title": "[FIL]Customer Onboarding"
+            "description": "Walang putol na karanasan sa onboarding na may automation sa marketing",
+            "example": "Bagong tiket sa suporta sa customer → Serye ng maligayang pagdating na may mga kapaki-pakinabang na mapagkukunan",
+            "title": "Onboarding ng Customer"
           },
           "retention": {
-            "description": "[FIL]Proactive retention based on support interaction patterns",
-            "example": "[FIL]Multiple support tickets → Triggered customer success outreach",
-            "title": "[FIL]Retention Campaigns"
+            "description": "Maagap na pagpapanatili batay sa mga pattern ng pakikipag-ugnayan sa suporta",
+            "example": "Maramihang mga tiket sa suporta → Na-trigger na outreach sa tagumpay ng customer",
+            "title": "Mga Kampanya sa Pagpapanatili"
           },
           "upselling": {
-            "description": "[FIL]Identify upselling opportunities from support conversations",
-            "example": "[FIL]Customer mentions growth plans → Triggered upgrade campaign",
-            "title": "[FIL]Upselling Opportunities"
+            "description": "Tukuyin ang mga pagkakataon sa upselling mula sa mga pag-uusap sa suporta",
+            "example": "Binanggit ng customer ang mga plano sa paglago → Na-trigger na kampanya sa pag-upgrade",
+            "title": "Mga Pagkakataon sa Upselling"
           }
         },
-        "useCasesSubtitle": "[FIL]See how support conversations can trigger powerful marketing workflows.",
-        "useCasesTitle": "[FIL]Marketing Automation Use Cases",
-        "workflowExample": "[FIL]Example Workflow",
-        "setup": "[FIL]Set up"
+        "useCasesSubtitle": "Tingnan kung paano maaaring mag-trigger ng malakas na mga daloy ng trabaho sa marketing ang mga pag-uusap sa suporta.",
+        "useCasesTitle": "Mga Kaso ng Paggamit sa Automation ng Marketing",
+        "workflowExample": "Halimbawa ng Daloy ng Trabaho",
+        "setup": "I-set up"
       },
       "social": {
         "features": [
           {
-            "title": "[FIL]Instant Customer Responses",
-            "description": "[FIL]Reply to social media inquiries in real-time across all platforms",
-            "icon": "[FIL]message-circle"
+            "title": "Mga Instant na Tugon sa Customer",
+            "description": "Tumugon sa mga katanungan sa social media sa real-time sa lahat ng platform",
+            "icon": "message-circle"
           },
           {
-            "title": "[FIL]Unified Social Inbox",
-            "description": "[FIL]Manage all social media messages from one centralized dashboard",
-            "icon": "[FIL]inbox"
+            "title": "Pinag-isang Social Inbox",
+            "description": "Pamahalaan ang lahat ng mga mensahe sa social media mula sa isang sentralisadong dashboard",
+            "icon": "inbox"
           },
           {
-            "title": "[FIL]Smart Auto-Routing",
-            "description": "[FIL]Automatically route social messages to the right team members",
-            "icon": "[FIL]route"
+            "title": "Matalinong Auto-Routing",
+            "description": "Awtomatikong i-ruta ang mga mensahe sa social media sa mga tamang miyembro ng koponan",
+            "icon": "route"
           },
           {
-            "title": "[FIL]Brand Reputation Management",
-            "description": "[FIL]Monitor and respond to brand mentions and comments quickly",
-            "icon": "[FIL]shield"
+            "title": "Pamamahala ng Reputasyon ng Brand",
+            "description": "Subaybayan at tumugon nang mabilis sa mga pagbanggit at komento sa brand",
+            "icon": "shield"
           },
           {
-            "title": "[FIL]Multi-Language Support",
-            "description": "[FIL]Communicate with global customers in their preferred language",
-            "icon": "[FIL]globe"
+            "title": "Suporta sa Maraming Wika",
+            "description": "Makipag-usap sa mga pandaigdigang customer sa kanilang gustong wika",
+            "icon": "globe"
           },
           {
-            "title": "[FIL]Social Analytics",
-            "description": "[FIL]Track response times, engagement rates, and customer satisfaction",
-            "icon": "[FIL]chart"
+            "title": "Social Analytics",
+            "description": "Subaybayan ang mga oras ng pagtugon, mga rate ng pakikipag-ugnayan, at kasiyahan ng customer",
+            "icon": "chart"
           }
         ],
         "benefits": {
           "meet": {
-            "description": "[FIL]Provide support on the platforms your customers already use daily",
-            "title": "[FIL]Meet Customers Where They Are"
+            "description": "Magbigay ng suporta sa mga platform na ginagamit na ng iyong mga customer araw-araw",
+            "title": "Kilalanin ang mga Customer Kung Nasaan Sila"
           },
           "reputation": {
-            "description": "[FIL]Maintain positive brand image with quick, helpful responses",
-            "title": "[FIL]Brand Reputation"
+            "description": "Panatilihin ang positibong imahe ng brand na may mabilis, kapaki-pakinabang na mga tugon",
+            "title": "Reputasyon ng Brand"
           },
           "response": {
-            "description": "[FIL]Respond to social media inquiries in real-time",
-            "title": "[FIL]Faster Response Times"
+            "description": "Tumugon sa mga katanungan sa social media sa real-time",
+            "title": "Mas Mabilis na mga Oras ng Pagtugon"
           },
           "unified": {
-            "description": "[FIL]Handle all social platforms from one dashboard",
-            "title": "[FIL]Unified Management"
+            "description": "Pangasiwaan ang lahat ng mga platform sa social mula sa isang dashboard",
+            "title": "Pinag-isang Pamamahala"
           }
         },
-        "benefitsSubtitle": "[FIL]Transform your social media presence into a powerful customer support channel.",
-        "benefitsTitle": "[FIL]Social Media Support Benefits",
-        "brandMentions": "[FIL]Brand mentions requiring response",
-        "connectButton": "[FIL]Connect Social Platforms",
-        "connectPlatform": "[FIL]Connect",
-        "ctaConnectButton": "[FIL]Connect Social Platforms",
-        "ctaGuideButton": "[FIL]Schedule E-commerce Demo",
-        "ctaSubtitle": "[FIL]Connect all your social media platforms and provide exceptional customer support where your customers spend their time.",
-        "ctaTitle": "[FIL]Ready to Unify Your Social Media Support?",
-        "dashboardTitle": "[FIL]Social Media Dashboard",
-        "demoButton": "[FIL]Schedule Social Demo",
-        "facebook": "[FIL]Facebook",
-        "instagram": "[FIL]Instagram",
-        "managementSubtitle": "[FIL]Everything you need to manage customer interactions across all social media platforms from one unified dashboard.",
-        "managementTitle": "[FIL]Complete Social Media Management",
-        "mentions": "[FIL]3 mentions",
-        "newMessages": "[FIL]12 new messages",
-        "pageMessages": "[FIL]5 page messages",
+        "benefitsSubtitle": "Gawing isang malakas na channel ng suporta sa customer ang iyong presensya sa social media.",
+        "benefitsTitle": "Mga Benepisyo sa Suporta sa Social Media",
+        "brandMentions": "Mga pagbanggit sa brand na nangangailangan ng tugon",
+        "connectButton": "Ikonekta ang mga Platform sa Social",
+        "connectPlatform": "Ikonekta",
+        "ctaConnectButton": "Ikonekta ang mga Platform sa Social",
+        "ctaGuideButton": "Mag-iskedyul ng Demo sa E-commerce",
+        "ctaSubtitle": "Ikonekta ang lahat ng iyong mga platform sa social media at magbigay ng pambihirang suporta sa customer kung saan ginugugol ng iyong mga customer ang kanilang oras.",
+        "ctaTitle": "Handa nang Pag-isahin ang Iyong Suporta sa Social Media?",
+        "dashboardTitle": "Dashboard ng Social Media",
+        "demoButton": "Mag-iskedyul ng Demo sa Social",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "managementSubtitle": "Lahat ng kailangan mo upang pamahalaan ang mga pakikipag-ugnayan ng customer sa lahat ng mga platform sa social media mula sa isang pinag-isang dashboard.",
+        "managementTitle": "Kumpletong Pamamahala sa Social Media",
+        "mentions": "3 mga pagbanggit",
+        "newMessages": "12 bagong mensahe",
+        "pageMessages": "5 mga mensahe sa pahina",
         "platforms": {
           "facebook": {
-            "description": "[FIL]Provide customer support through Facebook's messaging platform",
+            "description": "Magbigay ng suporta sa customer sa pamamagitan ng platform ng pagmemensahe ng Facebook",
             "features": {
-              "cards": "[FIL]Rich cards",
-              "menu": "[FIL]Persistent menu",
-              "page": "[FIL]Page integration",
-              "responses": "[FIL]Automated responses"
+              "cards": "Mga mayamang card",
+              "menu": "Paulit-ulit na menu",
+              "page": "Pagsasama ng pahina",
+              "responses": "Mga awtomatikong tugon"
             },
-            "name": "[FIL]Facebook Messenger",
-            "setupTime": "[FIL]12 minutes",
-            "users": "[FIL]1.3B+ users"
+            "name": "Facebook Messenger",
+            "setupTime": "12 minuto",
+            "users": "1.3B+ na mga gumagamit"
           },
           "instagram": {
-            "description": "[FIL]Manage Instagram DMs and story replies in one unified inbox",
+            "description": "Pamahalaan ang mga DM sa Instagram at mga tugon sa kuwento sa isang pinag-isang inbox",
             "features": {
-              "dm": "[FIL]Direct messages",
-              "media": "[FIL]Media sharing",
-              "responses": "[FIL]Quick responses",
-              "stories": "[FIL]Story replies"
+              "dm": "Mga direktang mensahe",
+              "media": "Pagbabahagi ng media",
+              "responses": "Mabilis na mga tugon",
+              "stories": "Mga tugon sa kuwento"
             },
-            "name": "[FIL]Instagram",
-            "setupTime": "[FIL]8 minutes",
-            "users": "[FIL]1.4B+ users"
+            "name": "Instagram",
+            "setupTime": "8 minuto",
+            "users": "1.4B+ na mga gumagamit"
           },
           "line": {
-            "description": "[FIL]Provide seamless customer support and engagement on LINE",
+            "description": "Magbigay ng tuluy-tuloy na suporta at pakikipag-ugnayan sa customer sa LINE",
             "features": {
-              "broadcast": "[FIL]Broadcast messages",
-              "messaging": "[FIL]Rich messaging",
-              "payments": "LINE[FIL] Pay integration",
-              "stickers": "[FIL]Sticker support"
+              "broadcast": "Mga mensahe sa broadcast",
+              "messaging": "Mayamang pagmemensahe",
+              "payments": "Pagsasama ng LINE Pay",
+              "stickers": "Suporta sa sticker"
             },
             "name": "LINE",
-            "setupTime": "[FIL]10 minutes",
-            "users": "[FIL]180M+ users"
+            "setupTime": "10 minuto",
+            "users": "180M+ na mga gumagamit"
           },
           "tiktok": {
-            "description": "[FIL]Engage with your audience and manage customer interactions on TikTok",
+            "description": "Makipag-ugnayan sa iyong audience at pamahalaan ang mga pakikipag-ugnayan ng customer sa TikTok",
             "features": {
-              "ads": "[FIL]Ad campaign support",
-              "analytics": "[FIL]Audience analytics",
-              "comments": "[FIL]Comment management",
-              "dm": "[FIL]Direct messages"
+              "ads": "Suporta sa kampanya sa ad",
+              "analytics": "Analytics ng audience",
+              "comments": "Pamamahala ng komento",
+              "dm": "Mga direktang mensahe"
             },
-            "name": "[FIL]TikTok",
-            "setupTime": "[FIL]15 minutes",
-            "users": "[FIL]1B+ users"
+            "name": "TikTok",
+            "setupTime": "15 minuto",
+            "users": "1B+ na mga gumagamit"
           },
           "twitter": {
-            "description": "[FIL]Handle customer inquiries and mentions on Twitter/X platform",
+            "description": "Pangasiwaan ang mga katanungan at pagbanggit ng customer sa platform ng Twitter/X",
             "features": {
-              "dm": "[FIL]Direct messages",
-              "mentions": "[FIL]Mention tracking",
-              "responses": "[FIL]Tweet responses",
-              "threads": "[FIL]Thread management"
+              "dm": "Mga direktang mensahe",
+              "mentions": "Pagsubaybay sa pagbanggit",
+              "responses": "Mga tugon sa tweet",
+              "threads": "Pamamahala ng thread"
             },
-            "name": "[FIL]Twitter/X",
-            "setupTime": "[FIL]15 minutes",
-            "users": "[FIL]450M+ users"
+            "name": "Twitter/X",
+            "setupTime": "15 minuto",
+            "users": "450M+ na mga gumagamit"
           },
           "whatsapp": {
-            "description": "[FIL]Connect with customers on the world's most popular messaging platform",
+            "description": "Kumonekta sa mga customer sa pinakasikat na platform ng pagmemensahe sa mundo",
             "features": {
-              "api": "[FIL]Business API",
-              "groups": "[FIL]Groups",
-              "media": "[FIL]Rich media",
-              "templates": "[FIL]Templates"
+              "api": "Business API",
+              "groups": "Mga grupo",
+              "media": "Mayamang media",
+              "templates": "Mga template"
             },
-            "name": "WhatsApp[FIL] Business",
-            "setupTime": "[FIL]10 minutes",
-            "users": "[FIL]2B+ users"
+            "name": "WhatsApp Business",
+            "setupTime": "10 minuto",
+            "users": "2B+ na mga gumagamit"
           }
         },
-        "platformsSubtitle": "[FIL]Integrate with every social platform your customers use for comprehensive social media support.",
-        "platformsTitle": "[FIL]All Major Social Platforms",
-        "productComments": "[FIL]Comments on latest product showcase",
-        "productInquiries": "[FIL]Customer inquiries about product availability",
-        "setup": "[FIL]Setup time",
-        "storyReplies": "[FIL]8 story replies",
-        "subtitle": "[FIL]Connect all your social media platforms and provide seamless customer support across WhatsApp[FIL], Instagram, Facebook, Twitter, and more.",
-        "supportRequests": "[FIL]Support requests and general inquiries",
-        "title": "[FIL]Social Media Integrations",
-        "twitter": "[FIL]Twitter/X",
-        "whatsapp": "WhatsApp[FIL] Business",
-        "worldwide": "[FIL]worldwide"
+        "platformsSubtitle": "Isama sa bawat platform sa social na ginagamit ng iyong mga customer para sa komprehensibong suporta sa social media.",
+        "platformsTitle": "Lahat ng mga Pangunahing Platform sa Social",
+        "productComments": "Mga komento sa pinakabagong showcase ng produkto",
+        "productInquiries": "Mga katanungan ng customer tungkol sa availability ng produkto",
+        "setup": "Oras ng pag-setup",
+        "storyReplies": "8 mga tugon sa kuwento",
+        "subtitle": "Ikonekta ang lahat ng iyong mga platform sa social media at magbigay ng tuluy-tuloy na suporta sa customer sa WhatsApp, Instagram, Facebook, Twitter, at higit pa.",
+        "title": "Mga Pagsasama sa Social Media",
+        "twitter": "Twitter/X",
+        "whatsapp": "WhatsApp Business",
+        "worldwide": "sa buong mundo"
       },
       "websites": {
-        "code": "[FIL]Code",
-        "codeButton": "[FIL]Get Widget Code",
-        "copyCode": "[FIL]Copy Code",
-        "ctaCodeButton": "[FIL]Get Widget Code Now",
-        "ctaDocsButton": "[FIL]View Integration Docs",
-        "ctaSubtitle": "[FIL]Get your custom widget code and start providing exceptional customer support in minutes.",
-        "ctaTitle": "[FIL]Ready to Add SeaChat[FIL] to Your Website?",
+        "code": "Code",
+        "codeButton": "Kumuha ng Widget Code",
+        "copyCode": "Kopyahin ang Code",
+        "ctaCodeButton": "Kumuha ng Widget Code Ngayon",
+        "ctaDocsButton": "Tingnan ang mga Doc sa Pagsasama",
+        "ctaSubtitle": "Kunin ang iyong pasadyang widget code at simulang magbigay ng pambihirang suporta sa customer sa ilang minuto.",
+        "ctaTitle": "Handa nang Idagdag ang SeaChat sa Iyong Website?",
         "customization": {
           "colors": {
-            "description": "[FIL]Match your brand colors, fonts, and styling",
+            "description": "Itugma ang mga kulay, font, at estilo ng iyong brand",
             "features": {
-              "css": "[FIL]CSS overrides",
-              "fonts": "[FIL]Font customization",
-              "logo": "[FIL]Brand logo integration",
-              "schemes": "[FIL]Custom color schemes"
+              "css": "Mga override ng CSS",
+              "fonts": "Pag-customize ng font",
+              "logo": "Pagsasama ng logo ng brand",
+              "schemes": "Mga pasadyang scheme ng kulay"
             },
-            "title": "[FIL]Colors & Branding"
+            "title": "Mga Kulay at Pagba-brand"
           },
           "content": {
-            "description": "[FIL]Customize all text and messaging",
+            "description": "I-customize ang lahat ng teksto at pagmemensahe",
             "features": {
-              "greetings": "[FIL]Custom greetings",
-              "multilanguage": "[FIL]Multi-language support",
-              "offline": "[FIL]Offline messages",
-              "welcome": "[FIL]Welcome messages"
+              "greetings": "Mga pasadyang pagbati",
+              "multilanguage": "Suporta sa maraming wika",
+              "offline": "Mga offline na mensahe",
+              "welcome": "Mga mensahe ng maligayang pagdating"
             },
-            "title": "[FIL]Content & Messages"
+            "title": "Nilalaman at mga Mensahe"
           },
           "position": {
-            "description": "[FIL]Control where and how the widget appears",
+            "description": "Kontrolin kung saan at paano lilitaw ang widget",
             "features": {
-              "auto": "[FIL]Auto-open settings",
-              "corner": "[FIL]Corner positioning",
-              "mobile": "[FIL]Mobile responsiveness",
-              "trigger": "[FIL]Trigger conditions"
+              "auto": "Mga setting ng awtomatikong pagbubukas",
+              "corner": "Pagpoposisyon sa sulok",
+              "mobile": "Pagiging tumutugon sa mobile",
+              "trigger": "Mga kondisyon sa pag-trigger"
             },
-            "title": "[FIL]Position & Behavior"
+            "title": "Posisyon at Pag-uugali"
           }
         },
-        "customizationSubtitle": "[FIL]Make SeaChat[FIL] match your brand perfectly with extensive customization options.",
-        "customizationTitle": "[FIL]Customization Options",
-        "demoButton": "[FIL]Schedule Demo",
-        "getPlatformCode": "[FIL]Get",
+        "customizationSubtitle": "Gawing perpektong tumugma sa iyong brand ang SeaChat na may malawak na mga pagpipilian sa pag-customize.",
+        "customizationTitle": "Mga Pagpipilian sa Pag-customize",
+        "demoButton": "Mag-iskedyul ng Demo",
+        "getPlatformCode": "Kumuha",
         "installation": {
           "step1": {
-            "description": "[FIL]Copy your unique SeaChat[FIL] widget code from the dashboard",
-            "title": "[FIL]Get Your Widget Code"
+            "description": "Kopyahin ang iyong natatanging SeaChat widget code mula sa dashboard",
+            "title": "Kunin ang Iyong Widget Code"
           },
           "step2": {
-            "description": "[FIL]Paste the code before the closing </body> tag",
-            "title": "[FIL]Add to Your Website"
+            "description": "I-paste ang code bago ang pagsasara ng &lt;/body&gt; tag",
+            "title": "Idagdag sa Iyong Website"
           },
           "step3": {
-            "description": "[FIL]Optional: Customize colors, position, and behavior",
-            "title": "[FIL]Customize Appearance"
+            "description": "Opsyonal: I-customize ang mga kulay, posisyon, at pag-uugali",
+            "title": "I-customize ang Hitsura"
           }
         },
-        "installationSubtitle": "[FIL]Follow these simple steps to add SeaChat[FIL] to any website in minutes.",
-        "installationTitle": "[FIL]Universal Installation Guide",
+        "installationSubtitle": "Sundin ang mga simpleng hakbang na ito upang idagdag ang SeaChat sa anumang website sa ilang minuto.",
+        "installationTitle": "Gabay sa Universal na Pag-install",
         "platforms": {
           "generic": {
-            "description": "[FIL]Universal widget that works on any HTML website",
-            "difficulty": "[FIL]Easy",
+            "description": "Universal na widget na gumagana sa anumang HTML website",
+            "difficulty": "Madali",
             "features": {
-              "compatibility": "[FIL]Universal compatibility",
-              "installation": "[FIL]Easy installation",
-              "responsive": "[FIL]Responsive design",
-              "styling": "[FIL]Custom styling"
+              "compatibility": "Universal na compatibility",
+              "installation": "Madaling pag-install",
+              "responsive": "Tumutugon na disenyo",
+              "styling": "Pasadyang estilo"
             },
-            "name": "[FIL]Generic Website",
-            "setupTime": "[FIL]2 minutes"
+            "name": "Generic na Website",
+            "setupTime": "2 minuto"
           },
           "shopify": {
-            "description": "[FIL]E-commerce optimized with order tracking integration",
-            "difficulty": "[FIL]Easy",
+            "description": "Na-optimize sa e-commerce na may pagsasama ng pagsubaybay sa order",
+            "difficulty": "Madali",
             "features": {
-              "cart": "[FIL]Cart abandonment",
-              "customers": "[FIL]Customer data sync",
-              "orders": "[FIL]Order integration",
-              "products": "[FIL]Product recommendations"
+              "cart": "Pag-abandona sa cart",
+              "customers": "Pag-sync ng data ng customer",
+              "orders": "Pagsasama ng order",
+              "products": "Mga rekomendasyon sa produkto"
             },
             "name": "Shopify",
-            "setupTime": "[FIL]3 minutes"
+            "setupTime": "3 minuto"
           },
           "squarespace": {
-            "description": "[FIL]Seamless integration with Squarespace[FIL] design system",
-            "difficulty": "[FIL]Medium",
+            "description": "Walang putol na pagsasama sa sistema ng disenyo ng Squarespace",
+            "difficulty": "Katamtaman",
             "features": {
-              "code": "[FIL]Code injection",
-              "design": "[FIL]Design system match",
-              "style": "[FIL]Style customization",
-              "templates": "[FIL]Template compatibility"
+              "code": "Pag-iniksyon ng code",
+              "design": "Pagtutugma sa sistema ng disenyo",
+              "style": "Pag-customize ng estilo",
+              "templates": "Compatibility ng template"
             },
             "name": "Squarespace",
-            "setupTime": "[FIL]3 minutes"
+            "setupTime": "3 minuto"
           },
           "webflow": {
-            "description": "[FIL]Native integration for Webflow CMS and e-commerce",
-            "difficulty": "[FIL]Easy",
+            "description": "Katutubong pagsasama para sa Webflow CMS at e-commerce",
+            "difficulty": "Madali",
             "features": {
-              "cms": "[FIL]CMS integration",
-              "custom": "[FIL]Custom code injection",
-              "design": "[FIL]Designer-friendly",
-              "ecommerce": "[FIL]E-commerce support"
+              "cms": "Pagsasama ng CMS",
+              "custom": "Pag-iniksyon ng pasadyang code",
+              "design": "Madaling gamitin sa designer",
+              "ecommerce": "Suporta sa e-commerce"
             },
-            "name": "[FIL]Webflow",
-            "setupTime": "[FIL]2 minutes"
+            "name": "Webflow",
+            "setupTime": "2 minuto"
           },
           "wix": {
-            "description": "[FIL]Drag-and-drop integration for Wix[FIL] websites",
-            "difficulty": "[FIL]Easy",
+            "description": "Drag-and-drop na pagsasama para sa mga website ng Wix",
+            "difficulty": "Madali",
             "features": {
-              "app": "Wix[FIL] app store",
-              "editor": "[FIL]Visual editor",
-              "mobile": "[FIL]Mobile optimized",
-              "positioning": "[FIL]Custom positioning"
+              "app": "Tindahan ng app ng Wix",
+              "editor": "Visual na editor",
+              "mobile": "Na-optimize sa mobile",
+              "positioning": "Pasadyang pagpoposisyon"
             },
             "name": "Wix",
-            "setupTime": "[FIL]2 minutes"
+            "setupTime": "2 minuto"
           },
           "wordpress": {
-            "description": "[FIL]Native WordPress[FIL] plugin with advanced customization",
-            "difficulty": "[FIL]Easy",
+            "description": "Katutubong WordPress plugin na may advanced na pag-customize",
+            "difficulty": "Madali",
             "features": {
-              "dashboard": "[FIL]Admin dashboard",
-              "plugin": "WordPress[FIL] plugin",
-              "shortcode": "[FIL]Shortcode support",
-              "theme": "[FIL]Theme integration"
+              "dashboard": "Dashboard ng admin",
+              "plugin": "WordPress plugin",
+              "shortcode": "Suporta sa shortcode",
+              "theme": "Pagsasama ng tema"
             },
             "name": "WordPress",
-            "setupTime": "[FIL]1 minute"
+            "setupTime": "1 minuto"
           }
         },
-        "platformsSubtitle": "[FIL]Choose your platform for optimized integration and setup instructions.",
-        "platformsTitle": "[FIL]Supported Platforms",
-        "subtitle": "[FIL]Deploy SeaChat[FIL] on any website platform in minutes. Universal compatibility with custom styling and responsive design.",
-        "title": "[FIL]Website Integrations",
-        "viewDocs": "[FIL]View Documentation",
-        "setup": "[FIL]Setup time"
+        "platformsSubtitle": "Piliin ang iyong platform para sa na-optimize na pagsasama at mga tagubilin sa pag-setup.",
+        "platformsTitle": "Mga Suportadong Platform",
+        "subtitle": "I-deploy ang SeaChat sa anumang platform ng website sa ilang minuto. Universal na compatibility na may pasadyang estilo at tumutugon na disenyo.",
+        "title": "Mga Pagsasama sa Website",
+        "viewDocs": "Tingnan ang Dokumentasyon",
+        "setup": "Oras ng pag-setup"
       }
     },
     "heroAnimations": {
       "agentToAI": {
         "phases": {
-          "learning": "[FIL]🧑‍💼 Learning from Human",
-          "handoff": "[FIL]🤝 Smooth Handoff",
-          "autonomous": "[FIL]🤖 AI Autonomous"
+          "learning": "🧑‍💼 Pag-aaral mula sa Tao",
+          "handoff": "🤝 Makinis na Pag-handoff",
+          "autonomous": "🤖 AI Autonomous"
         },
         "humanMessages": {
-          "0": "[FIL]Thank you for contacting support! How can I help?",
-          "1": "[FIL]I understand your concern. Let me check that for you.",
-          "2": "[FIL]Based on our policy, here's what I recommend...",
-          "3": "[FIL]Is there anything else I can help you with today?"
+          "0": "Salamat sa pakikipag-ugnayan sa suporta! Paano ako makakatulong?",
+          "1": "Naiintindihan ko ang iyong alalahanin. Hayaan mong suriin ko iyan para sa iyo.",
+          "2": "Batay sa aming patakaran, narito ang inirerekomenda ko...",
+          "3": "Mayroon pa ba akong maitutulong sa iyo ngayon?"
         },
         "aiMessages": {
-          "0": "[FIL]I've learned to handle this type of inquiry automatically.",
-          "1": "[FIL]Based on previous conversations, I can help with this.",
-          "2": "[FIL]I understand your question and can provide instant assistance.",
-          "3": "[FIL]I'm ready to handle similar requests independently."
+          "0": "Natutunan kong awtomatikong pangasiwaan ang ganitong uri ng katanungan.",
+          "1": "Batay sa mga nakaraang pag-uusap, makakatulong ako dito.",
+          "2": "Naiintindihan ko ang iyong tanong at makakapagbigay ako ng agarang tulong.",
+          "3": "Handa akong pangasiwaan ang mga katulad na kahilingan nang nakapag-iisa."
         },
-        "learned": "[FIL]Learned",
-        "title": "[FIL]Human-to-AI Handoff",
-        "subtitle": "[FIL]Start with humans, scale with intelligent AI"
+        "learned": "Natutunan",
+        "title": "Paghahatid mula sa Tao patungo sa AI",
+        "subtitle": "Magsimula sa mga tao, palakihin gamit ang matalinong AI"
       },
       "conversationLearning": {
         "documentTypes": {
-          "0": "[FIL]Product Manual.pdf",
-          "1": "[FIL]FAQ Database.csv",
-          "2": "[FIL]Support Guide.doc",
-          "3": "[FIL]Website Content"
+          "0": "Manwal ng Produkto.pdf",
+          "1": "Database ng FAQ.csv",
+          "2": "Gabay sa Suporta.doc",
+          "3": "Nilalaman ng Website"
         },
         "knowledgeConcepts": {
-          "0": "[FIL]Product Features",
-          "1": "[FIL]Pricing Plans",
-          "2": "[FIL]Support Policies",
-          "3": "[FIL]Technical Specs",
-          "4": "[FIL]User Guidelines",
-          "5": "[FIL]Troubleshooting",
-          "6": "[FIL]Integration Steps",
-          "7": "[FIL]Best Practices"
+          "0": "Mga Tampok ng Produkto",
+          "1": "Mga Plano sa Pagpepresyo",
+          "2": "Mga Patakaran sa Suporta",
+          "3": "Mga Teknikal na Detalye",
+          "4": "Mga Alituntunin ng Gumagamit",
+          "5": "Pag-troubleshoot",
+          "6": "Mga Hakbang sa Pagsasama",
+          "7": "Mga Pinakamahusay na Kasanayan"
         },
         "conversationExamples": {
           "0": {
-            "question": "[FIL]How do I reset my password?",
-            "improvement": "[FIL]Learned step-by-step process"
+            "question": "Paano ko ire-reset ang aking password?",
+            "improvement": "Natutunan ang proseso sa bawat hakbang"
           },
           "1": {
-            "question": "[FIL]What are your pricing plans?",
-            "improvement": "[FIL]Added detailed comparisons"
+            "question": "Ano ang iyong mga plano sa pagpepresyo?",
+            "improvement": "Nagdagdag ng mga detalyadong paghahambing"
           },
           "2": {
-            "question": "[FIL]Integration with Slack?",
-            "improvement": "[FIL]Improved technical guidance"
+            "question": "Pagsasama sa Slack?",
+            "improvement": "Pinabuting teknikal na gabay"
           },
           "3": {
-            "question": "[FIL]Billing question",
-            "improvement": "[FIL]Enhanced policy understanding"
+            "question": "Tanong sa pagsingil",
+            "improvement": "Pinahusay na pag-unawa sa patakaran"
           }
         },
-        "phaseLabel": "[FIL]Phase",
-        "accuracy": "[FIL]Accuracy",
-        "title": "[FIL]AI Learning Journey",
-        "subtitle": "[FIL]Watch AI get smarter from your content"
+        "phaseLabel": "Yugto",
+        "accuracy": "Katumpakan",
+        "title": "Paglalakbay sa Pag-aaral ng AI",
+        "subtitle": "Panoorin ang AI na nagiging mas matalino mula sa iyong nilalaman"
       },
       "interactiveChannels": {
         "whatsapp": {
           "messages": {
-            "0": "[FIL]Hi! Need help with my order 📦",
-            "1": "[FIL]What's your return policy?",
-            "2": "[FIL]Thanks for the quick response! 😊"
+            "0": "Hi! Kailangan ng tulong sa aking order 📦",
+            "1": "Ano ang iyong patakaran sa pagbabalik?",
+            "2": "Salamat sa mabilis na tugon! 😊"
           }
         },
         "instagram": {
           "messages": {
-            "0": "[FIL]Love your new product! 💕",
-            "1": "[FIL]Is this available in blue?",
-            "2": "[FIL]Can you ship to Europe?"
+            "0": "Gustung-gusto ko ang iyong bagong produkto! 💕",
+            "1": "Available ba ito sa asul?",
+            "2": "Maaari ka bang magpadala sa Europa?"
           }
         },
         "website": {
           "messages": {
-            "0": "[FIL]I need technical support",
-            "1": "[FIL]How do I reset my password?",
-            "2": "[FIL]The checkout isn't working"
+            "0": "Kailangan ko ng teknikal na suporta",
+            "1": "Paano ko ire-reset ang aking password?",
+            "2": "Hindi gumagana ang checkout"
           }
         },
         "email": {
           "messages": {
-            "0": "[FIL]Following up on my previous email",
-            "1": "[FIL]Request for bulk pricing",
-            "2": "[FIL]Thank you for your assistance"
+            "0": "Pag-follow up sa aking nakaraang email",
+            "1": "Kahilingan para sa bulk na pagpepresyo",
+            "2": "Salamat sa iyong tulong"
           }
         },
-        "agentResponse": "[FIL]I'd be happy to help you with that! Let me check that information for you.",
+        "agentResponse": "Masaya akong tulungan ka diyan! Hayaan mong suriin ko ang impormasyong iyon para sa iyo.",
         "channelNames": {
           "whatsapp": "WhatsApp",
-          "instagram": "[FIL]Instagram",
-          "website": "[FIL]Website",
-          "email": "[FIL]Email"
+          "instagram": "Instagram",
+          "website": "Website",
+          "email": "Email"
         },
-        "supportSuffix": "[FIL]Support",
-        "online": "[FIL]Online",
-        "typePlaceholder": "[FIL]Type your message...",
-        "title": "[FIL]Interactive Channel Selector",
-        "subtitle": "[FIL]Click channels to see different conversations"
+        "supportSuffix": "Suporta",
+        "online": "Online",
+        "typePlaceholder": "I-type ang iyong mensahe...",
+        "title": "Interactive na Tagapili ng Channel",
+        "subtitle": "Mag-click sa mga channel upang makita ang iba't ibang mga pag-uusap"
       },
       "multiChannelFlow": {
         "channels": {
           "whatsapp": "WhatsApp",
-          "instagram": "[FIL]Instagram",
-          "facebook": "[FIL]Facebook",
-          "email": "[FIL]Email",
-          "website": "[FIL]Website"
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "email": "Email",
+          "website": "Website"
         },
         "messageTemplates": {
-          "0": "[FIL]Need help with order",
-          "1": "[FIL]Product question",
-          "2": "[FIL]Technical support",
-          "3": "[FIL]Billing inquiry",
-          "4": "[FIL]General question"
+          "0": "Kailangan ng tulong sa order",
+          "1": "Tanong sa produkto",
+          "2": "Teknikal na suporta",
+          "3": "Katanungan sa pagsingil",
+          "4": "Pangkalahatang tanong"
         },
-        "title": "[FIL]Multi-Channel Message Flow",
-        "subtitle": "[FIL]Messages flowing between channels in real-time"
+        "title": "Daloy ng Mensahe sa Maraming Channel",
+        "subtitle": "Mga mensahe na dumadaloy sa pagitan ng mga channel sa real-time"
       },
       "phoneVoiceAI": {
         "callerNames": {
-          "0": "[FIL]John Smith",
+          "0": "John Smith",
           "1": "Sarah Johnson",
-          "2": "[FIL]Mike Chen",
-          "3": "[FIL]Emma Davis",
-          "4": "[FIL]David Wilson"
+          "2": "Mike Chen",
+          "3": "Emma Davis",
+          "4": "David Wilson"
         },
         "conversationFlow": {
           "0": {
-            "caller": "[FIL]Hi, I need help with my order status",
-            "ai": "[FIL]Hello! I'd be happy to help you check your order status. Could you please provide your order number?"
+            "caller": "Hi, kailangan ko ng tulong sa katayuan ng aking order",
+            "ai": "Kamusta! Masaya akong tulungan kang suriin ang katayuan ng iyong order. Maaari mo bang ibigay ang iyong numero ng order?"
           },
           "1": {
-            "caller": "[FIL]Yes, it's order number 12345",
-            "ai": "[FIL]Thank you! Let me look that up for you. I can see your order was shipped yesterday and should arrive tomorrow."
+            "caller": "Oo, ito ay numero ng order 12345",
+            "ai": "Salamat! Hayaan mong hanapin ko iyan para sa iyo. Nakikita ko na naipadala na kahapon ang iyong order at dapat dumating bukas."
           },
           "2": {
-            "caller": "[FIL]Perfect! Can I change the delivery address?",
-            "ai": "[FIL]I can help you with that. What would you like the new delivery address to be?"
+            "caller": "Perpekto! Maaari ko bang baguhin ang address ng paghahatid?",
+            "ai": "Matutulungan kita diyan. Ano ang gusto mong maging bagong address ng paghahatid?"
           }
         },
         "status": {
-          "seachatVoiceAI": "SeaChat[FIL] Voice AI",
-          "connectedWith": "[FIL]Connected with",
-          "listening": "[FIL]Listening...",
-          "aiSpeaking": "[FIL]AI Speaking...",
-          "processing": "[FIL]Processing...",
-          "liveTranscript": "[FIL]Live Transcript:"
+          "seachatVoiceAI": "SeaChat Voice AI",
+          "connectedWith": "Konektado sa",
+          "listening": "Nakikinig...",
+          "aiSpeaking": "Nagsasalita ang AI...",
+          "processing": "Nagpoproseso...",
+          "liveTranscript": "Live na Transcript:"
         },
         "waiting": {
-          "ready": "[FIL]Voice AI Ready",
-          "subtitle": "[FIL]Waiting for incoming calls..."
+          "ready": "Handa na ang Voice AI",
+          "subtitle": "Naghihintay ng mga papasok na tawag..."
         },
         "stats": {
-          "callsHandled": "[FIL]Calls Handled",
-          "available": "[FIL]Available"
+          "callsHandled": "Mga Tawag na Nahawakan",
+          "available": "Available"
         },
-        "incomingCall": "[FIL]📞 Incoming Call",
+        "incomingCall": "📞 Papasok na Tawag",
         "features": {
           "naturalSpeech": {
-            "title": "[FIL]Natural Speech",
-            "description": "[FIL]Human-like conversation"
+            "title": "Natural na Pagsasalita",
+            "description": "Pag-uusap na parang tao"
           },
           "smartRecognition": {
-            "title": "[FIL]Smart Recognition",
-            "description": "[FIL]Accurate speech-to-text"
+            "title": "Matalinong Pagkilala",
+            "description": "Tumpak na speech-to-text"
           },
           "contextAware": {
-            "title": "[FIL]Context Aware",
-            "description": "[FIL]Understands intent"
+            "title": "May Kamalayan sa Konteksto",
+            "description": "Nauunawaan ang layunin"
           }
         }
       },
       "realtimeDashboard": {
         "metrics": {
-          "conversations": "[FIL]Active Chats",
-          "response": "[FIL]Avg Response",
-          "agents": "[FIL]Online Agents",
-          "satisfaction": "[FIL]Satisfaction"
+          "conversations": "Mga Aktibong Chat",
+          "response": "Avg na Tugon",
+          "agents": "Mga Online na Ahente",
+          "satisfaction": "Kasiyahan"
         },
-        "title": "[FIL]Live Dashboard",
+        "title": "Live na Dashboard",
         "status": {
-          "live": "[FIL]Live"
+          "live": "Live"
         },
         "timeLabels": {
-          "12hAgo": "[FIL]12h ago",
-          "6hAgo": "[FIL]6h ago",
-          "now": "[FIL]Now"
+          "12hAgo": "12h ang nakalipas",
+          "6hAgo": "6h ang nakalipas",
+          "now": "Ngayon"
         }
       }
     }

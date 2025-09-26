@@ -3,1865 +3,1863 @@
     "header": {
       "navigation": {
         "platform": {
-          "title": "[FA]Platform",
-          "overview": "[FA]Platform Overview",
-          "landlineMobile": "[FA]Landline & Mobile Voice",
-          "voipSipByoc": "[FA]VoIP & SIP & BYOC Voice",
-          "lineCallPlus": "[FA]Line Call Plus for Businesses",
-          "whatsAppVoice": "[FA]WhatsApp Voice API for Businesses",
-          "speechToText": "[FA]Speech To Text",
-          "textToSpeech": "[FA]Text To Speech",
-          "endToEndLlms": "[FA]End To End LLMs"
+          "title": "پلتفرم",
+          "overview": "نمای کلی پلتفرم",
+          "landlineMobile": "صدای تلفن ثابت و موبایل",
+          "voipSipByoc": "صدای VoIP و SIP و BYOC",
+          "lineCallPlus": "Line Call Plus برای کسب‌وکارها",
+          "whatsAppVoice": "API صدای واتس‌اپ برای کسب‌وکارها",
+          "speechToText": "تبدیل گفتار به متن",
+          "textToSpeech": "تبدیل متن به گفتار",
+          "endToEndLlms": "LLMهای سرتاسری"
         },
         "inboundSolutions": {
-          "title": "[FA]Inbound Solutions",
-          "virtualAssistant": "[FA]24/7 Virtual Assistant",
-          "callTransfer": "[FA]Smart Call Transfer",
-          "ivrReplacement": "[FA]IVR Replacement",
-          "mentalHealth": "[FA]Mental Health Companion",
-          "scamShield": "[FA]Scam Shield Protection",
-          "technicalSupport": "[FA]Technical Support",
-          "orderTracking": "[FA]Order Status & Tracking",
-          "paymentProcessing": "[FA]Payment Processing",
-          "appointmentBooking": "[FA]Appointment Booking"
+          "title": "راه‌حل‌های ورودی",
+          "virtualAssistant": "دستیار مجازی ۲۴/۷",
+          "callTransfer": "انتقال هوشمند تماس",
+          "ivrReplacement": "جایگزینی IVR",
+          "mentalHealth": "همراه سلامت روان",
+          "scamShield": "محافظت در برابر کلاهبرداری",
+          "technicalSupport": "پشتیبانی فنی",
+          "orderTracking": "وضعیت و ردیابی سفارش",
+          "paymentProcessing": "پردازش پرداخت",
+          "appointmentBooking": "رزرو قرار ملاقات"
         },
         "outboundSolutions": {
-          "title": "[FA]Outbound Solutions",
-          "leadGeneration": "[FA]Lead Generation & Qualification",
-          "collections": "[FA]Collections Service",
-          "reactivation": "[FA]Customer Reactivation",
-          "seniorChecks": "[FA]Senior Check Calls",
-          "campaigns": "[FA]Large Scale Campaigns",
-          "proactiveSupport": "[FA]Proactive Support",
-          "renewals": "[FA]Subscription Renewals",
-          "surveys": "[FA]Customer Surveys",
-          "fraudAlerts": "[FA]Fraud Alerts"
+          "title": "راه‌حل‌های خروجی",
+          "leadGeneration": "تولید و واجد شرایط کردن سرنخ",
+          "collections": "خدمات وصول",
+          "reactivation": "فعال‌سازی مجدد مشتری",
+          "seniorChecks": "تماس‌های بررسی سالمندان",
+          "campaigns": "کمپین‌های در مقیاس بزرگ",
+          "proactiveSupport": "پشتیبانی فعال",
+          "renewals": "تمدید اشتراک",
+          "surveys": "نظرسنجی‌های مشتری",
+          "fraudAlerts": "هشدارهای کلاهبرداری"
         },
-        "pricing": "[FA]Pricing"
+        "pricing": "قیمت‌گذاری"
       },
       "auth": {
-        "signIn": "[FA]Sign In",
-        "getStarted": "[FA]Get Started"
+        "signIn": "ورود",
+        "getStarted": "شروع کنید"
       },
-      "backToMainSite": "[FA]Back to Main Site"
+      "backToMainSite": "بازگشت به سایت اصلی"
     },
     "home": {
       "hero": {
-        "tagline": "[FA]Your Business Never Sleeps",
+        "tagline": "کسب‌وکار شما هرگز نمی‌خوابد",
         "title": {
-          "line1": "[FA]AI Voice Agents",
-          "line2": "[FA]Handle Calls 24/7"
+          "line1": "نمایندگان صوتی هوش مصنوعی",
+          "line2": "تماس‌ها را ۲۴/۷ مدیریت می‌کنند"
         },
         "subtitle": {
-          "line1": "[FA]Transform customer interactions with human-like AI that never sleeps.",
-          "line2": "[FA]Automate support, bookings, and outbound call with scale."
+          "line1": "تعاملات مشتری را با هوش مصنوعی شبیه انسان که هرگز نمی‌خوابد، متحول کنید.",
+          "line2": "پشتیبانی، رزروها و تماس‌های خروجی را در مقیاس خودکار کنید."
         },
-        "bookDemo": "[FA]Book a Demo",
-        "signUp": "[FA]Sign Up Now"
+        "bookDemo": "رزرو دمو",
+        "signUp": "اکنون ثبت نام کنید"
       },
       "voiceDemo": {
-        "title": "[FA]Try Our Voice Technology",
-        "subtitle": "Listen to real examples of SeaVoice in action and experience the future of AI-powered conversations"
+        "title": "فناوری صوتی ما را امتحان کنید",
+        "subtitle": "به نمونه‌های واقعی SeaVoice در عمل گوش دهید و آینده مکالمات مجهز به هوش مصنوعی را تجربه کنید"
       },
       "conversationFlow": {
         "step1": {
-          "title": "[FA]Customer Calls",
-          "description": "[FA]Caller dials your business number"
+          "title": "تماس‌های مشتری",
+          "description": "تماس‌گیرنده شماره کسب‌وکار شما را شماره‌گیری می‌کند"
         },
         "step2": {
-          "title": "[FA]AI Agent Answers",
-          "description": "SeaVoice AI picks up instantly"
+          "title": "پاسخ‌های نماینده هوش مصنوعی",
+          "description": "هوش مصنوعی SeaVoice فوراً پاسخ می‌دهد"
         },
         "step3": {
-          "title": "[FA]Natural Conversation",
-          "description": "[FA]Human-like voice interaction"
+          "title": "مکالمه طبیعی",
+          "description": "تعامل صوتی شبیه انسان"
         },
         "step4": {
-          "title": "[FA]Task Completion",
-          "description": "[FA]Booking, support, or transfer"
+          "title": "تکمیل وظیفه",
+          "description": "رزرو، پشتیبانی یا انتقال"
         }
       },
       "conversationExamples": {
         "appointment": {
-          "customer": "[FA]Hi, I'd like to book an appointment for next week.",
-          "ai": "[FA]I'd be happy to help you schedule an appointment! Let me check our availability for next week. What type of service are you looking for?",
-          "scenario": "[FA]Appointment booking"
+          "customer": "سلام، من می‌خواهم برای هفته آینده یک قرار ملاقات رزرو کنم.",
+          "ai": "خوشحال می‌شوم به شما در زمان‌بندی قرار ملاقات کمک کنم! اجازه دهید در دسترس بودن ما را برای هفته آینده بررسی کنم. به دنبال چه نوع خدماتی هستید؟",
+          "scenario": "رزرو قرار ملاقات"
         },
         "support": {
-          "customer": "[FA]I'm having trouble with my recent order. Can you help?",
-          "ai": "[FA]Of course! I'm here to help with your order. Can you please provide your order number so I can look up the details for you?",
-          "scenario": "[FA]Customer support"
+          "customer": "من با سفارش اخیرم مشکل دارم. می‌توانید کمک کنید؟",
+          "ai": "البته! من اینجا هستم تا در مورد سفارش شما کمک کنم. لطفاً شماره سفارش خود را ارائه دهید تا بتوانم جزئیات را برای شما جستجو کنم؟",
+          "scenario": "پشتیبانی مشتری"
         },
         "inquiry": {
-          "customer": "[FA]What are your business hours?",
-          "ai": "[FA]We're open Monday through Friday from 9 AM to 6 PM, and Saturday from 10 AM to 4 PM. We're closed on Sundays. Is there anything specific you'd like to know about our services?",
-          "scenario": "[FA]General inquiry"
+          "customer": "ساعات کاری شما چیست؟",
+          "ai": "ما از دوشنبه تا جمعه از ساعت ۹ صبح تا ۶ بعد از ظهر و شنبه از ساعت ۱۰ صبح تا ۴ بعد از ظهر باز هستیم. یکشنبه‌ها تعطیل هستیم. آیا چیز خاصی هست که بخواهید در مورد خدمات ما بدانید؟",
+          "scenario": "سوال عمومی"
         }
       },
       "useCases": {
         "title": {
-          "line1": "[FA]Transform Your Business with",
-          "line2": "[FA]Successful Use Cases"
+          "line1": "کسب‌وکار خود را با",
+          "line2": "موارد استفاده موفق"
         },
-        "subtitle": "Discover how industry leaders leverage SeaVoice AI to revolutionize customer interactions and drive growth",
-        "badge": "[FA]Proven Success Stories",
+        "subtitle": "کشف کنید که چگونه رهبران صنعت از هوش مصنوعی SeaVoice برای تحول تعاملات مشتری و پیشبرد رشد استفاده می‌کنند",
+        "badge": "داستان‌های موفقیت اثبات شده",
         "inbound": {
-          "category": "[FA]Inbound Solutions",
+          "category": "راه‌حل‌های ورودی",
           "appointmentBooking": {
-            "title": "[FA]Appointment Booking & Management",
-            "description": "[FA]Automate appointment scheduling with AI that understands availability, preferences, and business rules."
+            "title": "رزرو و مدیریت قرار ملاقات",
+            "description": "زمان‌بندی قرار ملاقات را با هوش مصنوعی که در دسترس بودن، ترجیحات و قوانین تجاری را درک می‌کند، خودکار کنید."
           },
           "technicalSupport": {
-            "title": "[FA]Technical Support Automation",
-            "description": "[FA]Provide instant technical support with AI that can diagnose problems and guide customers through solutions."
+            "title": "اتوماسیون پشتیبانی فنی",
+            "description": "پشتیبانی فنی فوری را با هوش مصنوعی که می‌تواند مشکلات را تشخیص دهد و مشتریان را در راه‌حل‌ها راهنمایی کند، ارائه دهید."
           },
           "virtualAssistant": {
-            "title": "[FA]Virtual Assistant",
-            "description": "[FA]Handle general inquiries, provide information, and route calls intelligently."
+            "title": "دستیار مجازی",
+            "description": "سوالات عمومی را مدیریت کنید، اطلاعات ارائه دهید و تماس‌ها را به طور هوشمند هدایت کنید."
           },
           "callTransfer": {
-            "title": "[FA]Call Transfer & Routing",
-            "description": "[FA]Intelligently route calls to the right department or agent based on caller needs."
+            "title": "انتقال و مسیریابی تماس",
+            "description": "تماس‌ها را بر اساس نیازهای تماس‌گیرنده به طور هوشمند به بخش یا نماینده مناسب هدایت کنید."
           },
           "orderTracking": {
-            "title": "[FA]Order Tracking & Support",
-            "description": "[FA]Allow customers to check order status, track shipments, and get delivery updates."
+            "title": "ردیابی و پشتیبانی سفارش",
+            "description": "به مشتریان اجازه دهید وضعیت سفارش را بررسی کنند، محموله‌ها را ردیابی کنند و به‌روزرسانی‌های تحویل را دریافت کنند."
           },
           "paymentProcessing": {
-            "title": "[FA]Payment Processing",
-            "description": "[FA]Securely process payments, handle billing inquiries, and manage account information."
+            "title": "پردازش پرداخت",
+            "description": "پرداخت‌ها را به صورت ایمن پردازش کنید، به سوالات مربوط به صورتحساب رسیدگی کنید و اطلاعات حساب را مدیریت کنید."
           },
           "ivrReplacement": {
-            "title": "[FA]IVR Replacement",
-            "description": "[FA]Replace traditional menus with natural language understanding for a smoother experience."
+            "title": "جایگزینی IVR",
+            "description": "منوهای سنتی را با درک زبان طبیعی برای تجربه‌ای روان‌تر جایگزین کنید."
           },
           "mentalHealth": {
-            "title": "[FA]Mental Health Support",
-            "description": "[FA]Provide empathetic AI-driven mental health support around the clock."
+            "title": "پشتیبانی سلامت روان",
+            "description": "پشتیبانی سلامت روان مبتنی بر هوش مصنوعی همدلانه را در تمام ساعات شبانه‌روز ارائه دهید."
           },
           "scamShield": {
-            "title": "[FA]Scam Shield Protection",
-            "description": "[FA]Protect your users from scams with real-time detection and blocking."
+            "title": "محافظت در برابر کلاهبرداری",
+            "description": "کاربران خود را با تشخیص و مسدود کردن در زمان واقعی از کلاهبرداری محافظت کنید."
           },
-          "type": "[FA]Inbound"
+          "type": "ورودی"
         },
         "outbound": {
-          "category": "[FA]Outbound Solutions",
+          "category": "راه‌حل‌های خروجی",
           "leadGeneration": {
-            "title": "[FA]Lead Generation & Qualification",
-            "description": "[FA]Transform your sales pipeline with AI-powered lead generation that identifies and qualifies prospects."
+            "title": "تولید و واجد شرایط کردن سرنخ",
+            "description": "خط لوله فروش خود را با تولید سرنخ مجهز به هوش مصنوعی که مشتریان بالقوه را شناسایی و واجد شرایط می‌کند، متحول کنید."
           },
           "seniorChecks": {
-            "title": "[FA]Senior Check Calls & Wellness",
-            "description": "[FA]Regular AI-powered wellness checks for seniors with compassionate conversations that monitor health."
+            "title": "تماس‌های بررسی و تندرستی سالمندان",
+            "description": "بررسی‌های تندرستی منظم مجهز به هوش مصنوعی برای سالمندان با مکالمات دلسوزانه که سلامت را نظارت می‌کند."
           },
           "surveys": {
-            "title": "[FA]Customer Surveys & Feedback",
-            "description": "[FA]Conduct post-purchase surveys and collect valuable customer feedback automatically."
+            "title": "نظرسنجی‌ها و بازخورد مشتری",
+            "description": "نظرسنجی‌های پس از خرید را انجام دهید و بازخورد ارزشمند مشتری را به طور خودکار جمع‌آوری کنید."
           },
           "collections": {
-            "title": "[FA]Collections & Payment Reminders",
-            "description": "[FA]Respectful and effective collection calls that improve payment rates while maintaining relationships."
+            "title": "وصول و یادآوری پرداخت",
+            "description": "تماس‌های وصول محترمانه و موثر که نرخ پرداخت را بهبود می‌بخشد و در عین حال روابط را حفظ می‌کند."
           },
           "reactivation": {
-            "title": "[FA]Customer Reactivation",
-            "description": "[FA]Re-engage dormant customers with personalized outreach campaigns."
+            "title": "فعال‌سازی مجدد مشتری",
+            "description": "مشتریان غیرفعال را با کمپین‌های ارتباطی شخصی‌سازی شده دوباره درگیر کنید."
           },
           "fraudAlerts": {
-            "title": "[FA]Fraud Alerts & Verification",
-            "description": "[FA]Notify customers about suspicious transactions and verify their identity for security."
+            "title": "هشدارهای کلاهبرداری و تأیید",
+            "description": "به مشتریان در مورد تراکنش‌های مشکوک اطلاع دهید و هویت آنها را برای امنیت تأیید کنید."
           },
           "campaigns": {
-            "title": "[FA]Large Scale Campaigns",
-            "description": "[FA]Execute massive voice campaigns to reach thousands of customers globally."
+            "title": "کمپین‌های در مقیاس بزرگ",
+            "description": "کمپین‌های صوتی عظیم را برای دسترسی به هزاران مشتری در سطح جهانی اجرا کنید."
           },
           "proactiveSupport": {
-            "title": "[FA]Proactive Customer Support",
-            "description": "[FA]Keep customers informed proactively with intelligent notifications."
+            "title": "پشتیبانی فعال مشتری",
+            "description": "مشتریان را با اعلان‌های هوشمند به طور فعال مطلع نگه دارید."
           },
           "renewals": {
-            "title": "[FA]Subscription Renewals",
-            "description": "[FA]Automate renewals with reminders and seamless payment processing."
+            "title": "تمدید اشتراک",
+            "description": "تمدیدها را با یادآوری‌ها و پردازش پرداخت یکپارچه خودکار کنید."
           },
-          "type": "[FA]Outbound"
+          "type": "خروجی"
         },
         "types": {
-          "inbound": "[FA]Inbound",
-          "outbound": "[FA]Outbound"
+          "inbound": "ورودی",
+          "outbound": "خروجی"
         }
       },
       "howItWorks": {
         "title": {
-          "prefix": "[FA]",
-          "highlight": "[FA]Get Started in ",
-          "suffix": "[FA]5 Easy Steps"
+          "prefix": "",
+          "highlight": "در ۵ مرحله آسان شروع کنید",
+          "suffix": ""
         },
-        "subtitle": "[FA]From setup to go-live in under 20 minutes. Our streamlined process gets your AI voice agent ready to handle calls immediately.",
-        "badge": "[FA]Simple Setup Process",
+        "subtitle": "از راه‌اندازی تا راه‌اندازی در کمتر از ۲۰ دقیقه. فرآیند ساده شده ما نماینده صوتی هوش مصنوعی شما را برای رسیدگی فوری به تماس‌ها آماده می‌کند.",
+        "badge": "فرآیند راه‌اندازی ساده",
         "step1": {
-          "title": "[FA]Train Your Voice Agent",
-          "description": "[FA]Customize your voice, scripts, and responses in minutes. Our AI learns from your website and Google Business Profile to accurately represent your brand."
+          "title": "نماینده صوتی خود را آموزش دهید",
+          "description": "صدا، اسکریپت‌ها و پاسخ‌های خود را در چند دقیقه سفارشی کنید. هوش مصنوعی ما از وب‌سایت و نمایه کسب‌وکار Google شما یاد می‌گیرد تا برند شما را به دقت نمایندگی کند."
         },
         "step2": {
-          "title": "[FA]Connect Your Phone System",
-          "description": "Seamlessly integrate SeaVoice with your existing phone setup (SIP/VoIP/PSTN). Forward calls to SeaVoice without changing your business number."
+          "title": "سیستم تلفن خود را متصل کنید",
+          "description": "SeaVoice را به طور یکپارچه با راه‌اندازی تلفن موجود خود (SIP/VoIP/PSTN) ادغام کنید. تماس‌ها را بدون تغییر شماره کسب‌وکار خود به SeaVoice ارسال کنید."
         },
         "step3": {
-          "title": "[FA]Set Up Call Rules",
-          "description": "Define how SeaVoice handles different call types and when to escalate to your team. Ensure every caller gets the right response."
+          "title": "قوانین تماس را تنظیم کنید",
+          "description": "نحوه رسیدگی SeaVoice به انواع مختلف تماس و زمان ارجاع به تیم خود را تعریف کنید. اطمینان حاصل کنید که هر تماس‌گیرنده پاسخ مناسب را دریافت می‌کند."
         },
         "step4": {
-          "title": "[FA]Go Live",
-          "description": "[FA]Activate your AI voice agent and start handling calls. The entire process typically takes less than 20 minutes from start to finish."
+          "title": "راه‌اندازی کنید",
+          "description": "نماینده صوتی هوش مصنوعی خود را فعال کنید و شروع به رسیدگی به تماس‌ها کنید. کل فرآیند معمولاً کمتر از ۲۰ دقیقه از ابتدا تا انتها طول می‌کشد."
         },
         "step5": {
-          "title": "[FA]24/7 Support & Analytics",
-          "description": "[FA]Monitor calls in real-time, receive detailed transcripts, and leverage insights to improve your business. Our support team is always available to help you optimize performance."
+          "title": "پشتیبانی و تجزیه و تحلیل ۲۴/۷",
+          "description": "تماس‌ها را در زمان واقعی نظارت کنید، رونوشت‌های دقیق دریافت کنید و از بینش‌ها برای بهبود کسب‌وکار خود استفاده کنید. تیم پشتیبانی ما همیشه برای کمک به شما در بهینه‌سازی عملکرد در دسترس است."
         },
-        "ctaBadge": "[FA]Most customers are live within 20 minutes",
-        "liveTime": "[FA]Most customers are live within 20 minutes"
+        "ctaBadge": "اکثر مشتریان در عرض ۲۰ دقیقه راه‌اندازی می‌شوند",
+        "liveTime": "اکثر مشتریان در عرض ۲۰ دقیقه راه‌اندازی می‌شوند"
       },
       "comparison": {
-        "title": "[FA]Voice AI vs Human vs Outsourced Services",
-        "subtitle": "See how SeaVoice AI compares to traditional alternatives",
-        "seavoiceAi": "SeaVoice AI",
-        "fullTimeHuman": "[FA]Full-Time Human",
-        "outsourcedService": "[FA]Outsourced Service",
+        "title": "هوش مصنوعی صوتی در مقابل انسان در مقابل خدمات برون‌سپاری شده",
+        "subtitle": "ببینید چگونه هوش مصنوعی SeaVoice با جایگزین‌های سنتی مقایسه می‌شود",
+        "seavoiceAi": "هوش مصنوعی SeaVoice",
+        "fullTimeHuman": "انسان تمام وقت",
+        "outsourcedService": "خدمات برون‌سپاری شده",
         "availability": {
-          "feature": "[FA]24/7 Availability",
-          "seavoice": "[FA]Always on",
-          "human": "[FA]9-5 only",
-          "outsourced": "[FA]Extra fees"
+          "feature": "در دسترس بودن ۲۴/۷",
+          "seavoice": "همیشه روشن",
+          "human": "فقط ۹-۵",
+          "outsourced": "هزینه‌های اضافی"
         },
         "callVolume": {
-          "feature": "[FA]Call Volume Handling",
-          "seavoice": "[FA]500+ concurrent",
-          "human": "[FA]1 call at a time",
-          "outsourced": "[FA]5-10 concurrent"
+          "feature": "رسیدگی به حجم تماس",
+          "seavoice": "بیش از ۵۰۰ همزمان",
+          "human": "۱ تماس در یک زمان",
+          "outsourced": "۵-۱۰ همزمان"
         },
         "language": {
-          "feature": "[FA]Language Support",
-          "seavoice": "[FA]30+ languages",
-          "human": "[FA]Limited by hire",
-          "outsourced": "[FA]Extra $/language"
+          "feature": "پشتیبانی زبان",
+          "seavoice": "بیش از ۳۰ زبان",
+          "human": "محدود به استخدام",
+          "outsourced": "دلار اضافی/زبان"
         },
         "emotional": {
-          "feature": "[FA]Emotional Intelligence",
-          "seavoice": "[FA]Basic empathy",
-          "human": "[FA]High",
-          "outsourced": "[FA]Agent-dependent"
+          "feature": "هوش هیجانی",
+          "seavoice": "همدلی اولیه",
+          "human": "بالا",
+          "outsourced": "وابسته به نماینده"
         },
         "compliance": {
-          "feature": "[FA]Compliance",
-          "seavoice": "[FA]Built-in tools",
-          "human": "[FA]Training required",
-          "outsourced": "[FA]Training required"
+          "feature": "انطباق",
+          "seavoice": "ابزارهای داخلی",
+          "human": "آموزش مورد نیاز است",
+          "outsourced": "آموزش مورد نیاز است"
         },
         "implementation": {
-          "feature": "[FA]Implementation Time",
-          "seavoice": "[FA]<1 day",
-          "human": "[FA]6-8 week hiring",
-          "outsourced": "[FA]2-4 weeks"
+          "feature": "زمان پیاده‌سازی",
+          "seavoice": "<۱ روز",
+          "human": "استخدام ۶-۸ هفته",
+          "outsourced": "۲-۴ هفته"
         },
-        "costComparison": "[FA]💰 Cost Comparison",
+        "costComparison": "💰 مقایسه هزینه",
         "cost": {
           "monthly": {
-            "feature": "[FA]Monthly Cost",
-            "seavoice": "[FA]Starts at $30",
-            "human": "[FA]$3,397+",
-            "outsourced": "[FA]$1,500-$2,500"
+            "feature": "هزینه ماهانه",
+            "seavoice": "شروع از ۳۰ دلار",
+            "human": "+۳٬۳۹۷ دلار",
+            "outsourced": "۱٬۵۰۰-۲٬۵۰۰ دلار"
           },
           "effective": {
-            "feature": "[FA]Effective Rate",
-            "seavoice": "[FA]$0.12/minute",
-            "human": "[FA]$6.79/call",
-            "outsourced": "[FA]$3.00-$5.00/call"
+            "feature": "نرخ موثر",
+            "seavoice": "۰.۱۲ دلار/دقیقه",
+            "human": "۶.۷۹ دلار/تماس",
+            "outsourced": "۳.۰۰-۵.۰۰ دلار/تماس"
           },
           "hidden": {
-            "feature": "[FA]Hidden Costs",
-            "seavoice": "[FA]None",
-            "human": "[FA]Benefits ($800+/mo)",
-            "outsourced": "[FA]Setup fees"
+            "feature": "هزینه‌های پنهان",
+            "seavoice": "هیچ",
+            "human": "مزایا (+۸۰۰ دلار در ماه)",
+            "outsourced": "هزینه‌های راه‌اندازی"
           }
         },
         "savings": {
-          "costVsHuman": "[FA]95%",
-          "costVsHumanLabel": "[FA]Cost Savings vs Human",
-          "costVsOutsourced": "[FA]80%",
-          "costVsOutsourcedLabel": "[FA]Savings vs Outsourced",
-          "annualSavings": "[FA]$40K+",
-          "annualSavingsLabel": "[FA]Annual Savings"
+          "costVsHuman": "۹۵٪",
+          "costVsHumanLabel": "صرفه‌جویی در هزینه در مقابل انسان",
+          "costVsOutsourced": "۸۰٪",
+          "costVsOutsourcedLabel": "صرفه‌جویی در مقابل برون‌سپاری شده",
+          "annualSavings": "+۴۰ هزار دلار",
+          "annualSavingsLabel": "صرفه‌جویی سالانه"
         },
         "cta": {
-          "title": "Ready to Experience the SeaVoice AI Advantage?",
-          "subtitle": "[FA]Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business.",
-          "bookDemo": "[FA]Book a Demo",
-          "signUp": "[FA]Sign Up Now",
-          "description": "[FA]Join thousands of businesses that have transformed their customer service with AI that works 24/7, handles unlimited calls, and scales with your business."
+          "title": "آماده‌اید تا مزیت هوش مصنوعی SeaVoice را تجربه کنید؟",
+          "subtitle": "به هزاران کسب‌وکار بپیوندید که خدمات مشتری خود را با هوش مصنوعی که ۲۴/۷ کار می‌کند، تماس‌های نامحدود را مدیریت می‌کند و با کسب‌وکار شما مقیاس می‌یابد، متحول کرده‌اند.",
+          "bookDemo": "رزرو دمو",
+          "signUp": "اکنون ثبت نام کنید",
+          "description": "به هزاران کسب‌وکار بپیوندید که خدمات مشتری خود را با هوش مصنوعی که ۲۴/۷ کار می‌کند، تماس‌های نامحدود را مدیریت می‌کند و با کسب‌وکار شما مقیاس می‌یابد، متحول کرده‌اند."
         },
-        "seavoiceAI": "SeaVoice AI",
-        "costDescription": "See the dramatic cost savings with SeaVoice AI",
-        "costSavings": "[FA]95%",
-        "costSavingsLabel": "[FA]Cost Savings vs Human",
-        "outsourcedSavings": "[FA]80%",
-        "outsourcedSavingsLabel": "[FA]Savings vs Outsourced",
-        "annualSavings": "[FA]$40K+",
-        "annualSavingsLabel": "[FA]Annual Savings",
+        "seavoiceAI": "هوش مصنوعی SeaVoice",
+        "costDescription": "صرفه‌جویی چشمگیر در هزینه را با هوش مصنوعی SeaVoice ببینید",
+        "costSavings": "۹۵٪",
+        "costSavingsLabel": "صرفه‌جویی در هزینه در مقابل انسان",
+        "outsourcedSavings": "۸۰٪",
+        "outsourcedSavingsLabel": "صرفه‌جویی در مقابل برون‌سپاری شده",
+        "annualSavings": "+۴۰ هزار دلار",
+        "annualSavingsLabel": "صرفه‌جویی سالانه",
         "features": {
-          "availability": "[FA]24/7 Availability",
-          "callVolume": "[FA]Call Volume Handling",
-          "language": "[FA]Language Support",
-          "emotional": "[FA]Emotional Intelligence",
-          "compliance": "[FA]Compliance",
-          "implementation": "[FA]Implementation Time",
-          "monthlyCost": "[FA]Monthly Cost",
-          "effectiveRate": "[FA]Effective Rate",
-          "hiddenCosts": "[FA]Hidden Costs"
+          "availability": "در دسترس بودن ۲۴/۷",
+          "callVolume": "رسیدگی به حجم تماس",
+          "language": "پشتیبانی زبان",
+          "emotional": "هوش هیجانی",
+          "compliance": "انطباق",
+          "implementation": "زمان پیاده‌سازی",
+          "monthlyCost": "هزینه ماهانه",
+          "effectiveRate": "نرخ موثر",
+          "hiddenCosts": "هزینه‌های پنهان"
         },
         "seavoice": {
-          "availability": "[FA]Always on",
-          "callVolume": "[FA]500+ concurrent",
-          "language": "[FA]30+ languages",
-          "emotional": "[FA]Basic empathy",
-          "compliance": "[FA]Built-in tools",
-          "implementation": "[FA]<1 day",
-          "monthlyCost": "[FA]Starts at $30",
-          "effectiveRate": "[FA]$0.12/minute",
-          "hiddenCosts": "[FA]None"
+          "availability": "همیشه روشن",
+          "callVolume": "بیش از ۵۰۰ همزمان",
+          "language": "بیش از ۳۰ زبان",
+          "emotional": "همدلی اولیه",
+          "compliance": "ابزارهای داخلی",
+          "implementation": "<۱ روز",
+          "monthlyCost": "شروع از ۳۰ دلار",
+          "effectiveRate": "۰.۱۲ دلار/دقیقه",
+          "hiddenCosts": "هیچ"
         },
         "human": {
-          "availability": "[FA]9-5 only",
-          "callVolume": "[FA]1 call at a time",
-          "language": "[FA]Limited by hire",
-          "emotional": "[FA]High",
-          "compliance": "[FA]Training required",
-          "implementation": "[FA]6-8 week hiring",
-          "monthlyCost": "[FA]$3,397+",
-          "effectiveRate": "[FA]$6.79/call",
-          "hiddenCosts": "[FA]Benefits ($800+/mo)"
+          "availability": "فقط ۹-۵",
+          "callVolume": "۱ تماس در یک زمان",
+          "language": "محدود به استخدام",
+          "emotional": "بالا",
+          "compliance": "آموزش مورد نیاز است",
+          "implementation": "استخدام ۶-۸ هفته",
+          "monthlyCost": "+۳٬۳۹۷ دلار",
+          "effectiveRate": "۶.۷۹ دلار/تماس",
+          "hiddenCosts": "مزایا (+۸۰۰ دلار در ماه)"
         },
         "outsourced": {
-          "availability": "[FA]Extra fees",
-          "callVolume": "[FA]5-10 concurrent",
-          "language": "[FA]Extra $/language",
-          "emotional": "[FA]Agent-dependent",
-          "compliance": "[FA]Training required",
-          "implementation": "[FA]2-4 weeks",
-          "monthlyCost": "[FA]$1,500-$2,500",
-          "effectiveRate": "[FA]$3.00-$5.00/call",
-          "hiddenCosts": "[FA]Setup fees"
+          "availability": "هزینه‌های اضافی",
+          "callVolume": "۵-۱۰ همزمان",
+          "language": "دلار اضافی/زبان",
+          "emotional": "وابسته به نماینده",
+          "compliance": "آموزش مورد نیاز است",
+          "implementation": "۲-۴ هفته",
+          "monthlyCost": "۱٬۵۰۰-۲٬۵۰۰ دلار",
+          "effectiveRate": "۳.۰۰-۵.۰۰ دلار/تماس",
+          "hiddenCosts": "هزینه‌های راه‌اندازی"
         }
       },
       "seachat": {
         "title": {
-          "prefix": "Capabilities of SeaVoice is brought to you by ",
+          "prefix": "قابلیت‌های SeaVoice توسط ",
           "highlight": "SeaChat",
-          "suffix": "[FA] "
+          "suffix": " ارائه می‌شود"
         },
-        "subtitle": "[FA]An omni-channel and multi-modal no-code agent platform",
+        "subtitle": "یک پلتفرم نماینده بدون کد همه‌کاناله و چندوجهی",
         "teamwork": {
-          "title": "[FA]One Team, Working Together for You"
+          "title": "یک تیم، با هم برای شما کار می‌کنند"
         },
         "chatAgent": {
-          "title": "[FA]Chat AI Agent",
-          "description": "[FA]Instant responses across web, mobile, and messaging platforms"
+          "title": "نماینده چت هوش مصنوعی",
+          "description": "پاسخ‌های فوری در وب، موبایل و پلتفرم‌های پیام‌رسانی"
         },
         "humanAgent": {
-          "title": "[FA]Human Agent",
-          "description": "[FA]Seamless handoff for complex queries that need a human touch"
+          "title": "نماینده انسانی",
+          "description": "تحویل یکپارچه برای سوالات پیچیده‌ای که نیاز به لمس انسانی دارند"
         },
         "voiceAgent": {
-          "title": "[FA]Voice AI Agent",
-          "description": "[FA]Natural phone conversations powered by advanced voice AI"
+          "title": "نماینده صوتی هوش مصنوعی",
+          "description": "مکالمات تلفنی طبیعی با پشتیبانی هوش مصنوعی صوتی پیشرفته"
         },
-        "learnMore": "Learn more about SeaChat",
-        "teamTitle": "[FA]One Team, Working Together for You"
+        "learnMore": "درباره SeaChat بیشتر بدانید",
+        "teamTitle": "یک تیم، با هم برای شما کار می‌کنند"
       },
       "testimonial": {
-        "quote": "SeaVoice reduced our agent training time by 2 weeks and increased efficiency by 20%",
+        "quote": "SeaVoice زمان آموزش نماینده ما را ۲ هفته کاهش داد و کارایی را ۲۰٪ افزایش داد",
         "author": "Sarah Johnson",
-        "role": "[FA]VP of Customer Success",
-        "company": "[FA]TechCorp Inc.",
-        "stat1": "[FA]2 weeks",
-        "stat1Label": "[FA]Reduced training time",
-        "stat2": "[FA]20%",
-        "stat2Label": "[FA]Efficiency gain",
-        "stat3": "[FA]94%",
-        "stat3Label": "[FA]Customer satisfaction",
-        "stat4": "[FA]500+",
-        "stat4Label": "[FA]Simultaneous calls"
+        "role": "معاون موفقیت مشتری",
+        "company": "TechCorp Inc.",
+        "stat1": "۲ هفته",
+        "stat1Label": "کاهش زمان آموزش",
+        "stat2": "۲۰٪",
+        "stat2Label": "افزایش کارایی",
+        "stat3": "۹۴٪",
+        "stat3Label": "رضایت مشتری",
+        "stat4": "+۵۰۰",
+        "stat4Label": "تماس‌های همزمان"
       },
       "faq": {
         "title": {
-          "line1": "[FA]Frequently Asked",
-          "line2": "[FA]Questions"
+          "line1": "سوالات متداول",
+          "line2": ""
         },
-        "subtitle": "Everything you need to know about SeaVoice AI and how it can transform your business communications",
-        "badge": "[FA]Got Questions?",
-        "expandAll": "[FA]Expand All Questions",
-        "collapseAll": "[FA]Collapse All",
+        "subtitle": "هر آنچه باید در مورد هوش مصنوعی SeaVoice و چگونگی تحول ارتباطات تجاری شما بدانید",
+        "badge": "سوال دارید؟",
+        "expandAll": "گسترش همه سوالات",
+        "collapseAll": "جمع کردن همه",
         "q1": {
-          "question": "How does SeaVoice differ from a traditional chatbot?",
-          "answer": "SeaVoice provides real-time voice conversations with advanced AI that can understand context, handle interruptions, and deliver human-like responses over the phone. Unlike text-based chatbots, SeaVoice handles actual voice calls with natural speech patterns."
+          "question": "SeaVoice چه تفاوتی با یک ربات چت سنتی دارد؟",
+          "answer": "SeaVoice مکالمات صوتی در زمان واقعی را با هوش مصنوعی پیشرفته‌ای ارائه می‌دهد که می‌تواند زمینه را درک کند، وقفه‌ها را مدیریت کند و پاسخ‌های شبیه انسان را از طریق تلفن ارائه دهد. برخلاف ربات‌های چت مبتنی بر متن، SeaVoice تماس‌های صوتی واقعی را با الگوهای گفتار طبیعی مدیریت می‌کند."
         },
         "q2": {
-          "question": "[FA]How long does it take to set up?",
-          "answer": "[FA]Setup typically takes less than 20 minutes. You can train your voice agent, connect your phone system, set up call rules, and go live in one session."
+          "question": "راه‌اندازی چقدر طول می‌کشد؟",
+          "answer": "راه‌اندازی معمولاً کمتر از ۲۰ دقیقه طول می‌کشد. شما می‌توانید نماینده صوتی خود را آموزش دهید، سیستم تلفن خود را متصل کنید، قوانین تماس را تنظیم کنید و در یک جلسه راه‌اندازی شوید."
         },
         "q3": {
-          "question": "[FA]Can callers tell they're speaking with an AI?",
-          "answer": "[FA]Our advanced voice technology creates very human-like conversations. While some callers may notice, most find the experience natural and helpful. You can also customize the AI to introduce itself as an AI assistant if preferred."
+          "question": "آیا تماس‌گیرندگان می‌توانند تشخیص دهند که با یک هوش مصنوعی صحبت می‌کنند؟",
+          "answer": "فناوری صوتی پیشرفته ما مکالمات بسیار شبیه انسان ایجاد می‌کند. در حالی که برخی از تماس‌گیرندگان ممکن است متوجه شوند، اکثر آنها تجربه را طبیعی و مفید می‌دانند. شما همچنین می‌توانید هوش مصنوعی را برای معرفی خود به عنوان یک دستیار هوش مصنوعی در صورت تمایل سفارشی کنید."
         },
         "q4": {
-          "question": "What happens if SeaVoice can't answer a question?",
-          "answer": "SeaVoice is designed to handle escalations gracefully. It can transfer calls to human agents, take messages, schedule callbacks, or direct callers to appropriate resources based on your configured rules."
+          "question": "اگر SeaVoice نتواند به سوالی پاسخ دهد چه اتفاقی می‌افتد؟",
+          "answer": "SeaVoice برای رسیدگی به تشدیدها به آرامی طراحی شده است. این می‌تواند تماس‌ها را به نمایندگان انسانی منتقل کند، پیام بگیرد، تماس‌های برگشتی را زمان‌بندی کند یا تماس‌گیرندگان را بر اساس قوانین پیکربندی شده شما به منابع مناسب هدایت کند."
         },
         "q5": {
-          "question": "[FA]How does pricing work?",
-          "answer": "[FA]We offer transparent per-minute pricing. Premium plans include base minutes with additional usage billed per minute. Enterprise plans are customized based on volume and specific needs."
+          "question": "قیمت‌گذاری چگونه کار می‌کند؟",
+          "answer": "ما قیمت‌گذاری شفاف برای هر دقیقه ارائه می‌دهیم. طرح‌های برتر شامل دقایق پایه با استفاده اضافی صورتحساب برای هر دقیقه است. طرح‌های سازمانی بر اساس حجم و نیازهای خاص سفارشی می‌شوند."
         },
         "q6": {
-          "question": "[FA]Can I customize the AI's voice?",
-          "answer": "[FA]Yes! You can choose from multiple voice options, adjust tone and speaking style, and even clone custom voices for Enterprise plans. The AI can be trained to match your brand's communication style."
+          "question": "آیا می‌توانم صدای هوش مصنوعی را سفارشی کنم؟",
+          "answer": "بله! شما می‌توانید از بین چندین گزینه صوتی انتخاب کنید، لحن و سبک صحبت را تنظیم کنید و حتی صداهای سفارشی را برای طرح‌های سازمانی شبیه‌سازی کنید. هوش مصنوعی را می‌توان برای مطابقت با سبک ارتباطی برند شما آموزش داد."
         },
         "q7": {
-          "question": "Is SeaVoice multilingual?",
-          "answer": "Yes, SeaVoice supports conversations in over 10 languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, and Japanese."
+          "question": "آیا SeaVoice چند زبانه است؟",
+          "answer": "بله، SeaVoice از مکالمات در بیش از ۱۰ زبان از جمله انگلیسی، اسپانیایی، فرانسوی، آلمانی، ایتالیایی، پرتغالی، هلندی، روسی، چینی و ژاپنی پشتیبانی می‌کند."
         },
         "q8": {
-          "question": "What industries benefit most from SeaVoice?",
-          "answer": "SeaVoice works well across industries including healthcare, real estate, hospitality, financial services, e-commerce, professional services, and any business that handles high call volumes or needs 24/7 availability."
+          "question": "کدام صنایع بیشترین سود را از SeaVoice می‌برند؟",
+          "answer": "SeaVoice در صنایع مختلف از جمله مراقبت‌های بهداشتی، املاک و مستغلات، مهمان‌نوازی، خدمات مالی، تجارت الکترونیک، خدمات حرفه‌ای و هر کسب‌وکاری که حجم تماس بالایی را مدیریت می‌کند یا به در دسترس بودن ۲۴/۷ نیاز دارد، به خوبی کار می‌کند."
         },
         "q9": {
-          "question": "Can SeaVoice handle emergency calls?",
-          "answer": "While SeaVoice can handle urgent inquiries and escalate appropriately, we recommend maintaining direct emergency protocols. SeaVoice can be configured to immediately transfer emergency-related calls to human operators."
+          "question": "آیا SeaVoice می‌تواند تماس‌های اضطراری را مدیریت کند؟",
+          "answer": "در حالی که SeaVoice می‌تواند به سوالات فوری رسیدگی کند و به طور مناسب تشدید کند، ما توصیه می‌کنیم پروتکل‌های اضطراری مستقیم را حفظ کنید. SeaVoice را می‌توان برای انتقال فوری تماس‌های مربوط به اورژانس به اپراتورهای انسانی پیکربندی کرد."
         },
         "q10": {
-          "question": "Can SeaVoice detect spam calls?",
-          "answer": "Yes, SeaVoice includes built-in spam detection that can identify and filter suspicious calls, protecting your business from unwanted interruptions while ensuring legitimate calls get through."
+          "question": "آیا SeaVoice می‌تواند تماس‌های هرزنامه را تشخیص دهد؟",
+          "answer": "بله، SeaVoice شامل تشخیص هرزنامه داخلی است که می‌تواند تماس‌های مشکوک را شناسایی و فیلتر کند و از کسب‌وکار شما در برابر وقفه‌های ناخواسته محافظت کند و در عین حال اطمینان حاصل کند که تماس‌های قانونی برقرار می‌شوند."
         },
         "q11": {
-          "question": "[FA]How do I get started?",
-          "answer": "Getting started is easy! Book a demo to see SeaVoice in action, then our team will help you set up your voice agent, integrate with your phone system, and configure it for your specific needs. Most customers are up and running within a day."
+          "question": "چگونه شروع کنم؟",
+          "answer": "شروع کار آسان است! یک دمو رزرو کنید تا SeaVoice را در عمل ببینید، سپس تیم ما به شما کمک می‌کند تا نماینده صوتی خود را راه‌اندازی کنید، با سیستم تلفن خود ادغام شوید و آن را برای نیازهای خاص خود پیکربندی کنید. اکثر مشتریان در عرض یک روز راه‌اندازی می‌شوند."
         }
       },
       "finalCta": {
-        "title": "[FA]Ready to see it in action?",
-        "subtitle": "Get a personalized demo and discover how SeaVoice can transform your customer communications",
-        "bookDemo": "[FA]Book a Demo Today",
-        "signUp": "[FA]Sign Up Now"
+        "title": "آماده‌اید تا آن را در عمل ببینید؟",
+        "subtitle": "یک دموی شخصی‌سازی شده دریافت کنید و کشف کنید که چگونه SeaVoice می‌تواند ارتباطات مشتری شما را متحول کند",
+        "bookDemo": "امروز یک دمو رزرو کنید",
+        "signUp": "اکنون ثبت نام کنید"
       },
       "dashboard": {
         "stats": {
-          "totalCalls": "[FA]247",
-          "activeCalls": "[FA]3",
-          "avgWaitTime": "[FA]0:12",
-          "satisfaction": "[FA]4.8",
-          "resolutionRate": "[FA]92"
+          "totalCalls": "۲۴۷",
+          "activeCalls": "۳",
+          "avgWaitTime": "۰:۱۲",
+          "satisfaction": "۴.۸",
+          "resolutionRate": "۹۲"
         },
         "calls": {
           "sarah": {
             "customer": "Sarah Johnson",
-            "type": "[FA]Appointment Booking",
-            "status": "[FA]completed",
-            "duration": "[FA]3:42",
-            "time": "[FA]2 minutes ago",
-            "outcome": "[FA]Appointment scheduled for next Tuesday at 2 PM",
-            "tag1": "[FA]booking",
-            "tag2": "[FA]satisfied"
+            "type": "رزرو قرار ملاقات",
+            "status": "تکمیل شد",
+            "duration": "۳:۴۲",
+            "time": "۲ دقیقه پیش",
+            "outcome": "قرار ملاقات برای سه‌شنبه آینده ساعت ۲ بعد از ظهر برنامه‌ریزی شد",
+            "tag1": "رزرو",
+            "tag2": "راضی"
           },
           "mike": {
             "customer": "Mike Chen",
-            "type": "[FA]Technical Support",
-            "status": "[FA]transferred",
-            "duration": "[FA]1:28",
-            "time": "[FA]5 minutes ago",
-            "outcome": "[FA]Transferred to technical specialist - Issue: Login problems",
-            "tag1": "[FA]support",
-            "tag2": "[FA]escalated"
+            "type": "پشتیبانی فنی",
+            "status": "منتقل شد",
+            "duration": "۱:۲۸",
+            "time": "۵ دقیقه پیش",
+            "outcome": "به متخصص فنی منتقل شد - مشکل: مشکلات ورود",
+            "tag1": "پشتیبانی",
+            "tag2": "تشدید شد"
           },
           "emily": {
-            "customer": "[FA]Emily Rodriguez",
-            "type": "[FA]Order Inquiry",
-            "status": "[FA]completed",
-            "duration": "[FA]2:15",
-            "time": "[FA]8 minutes ago",
-            "outcome": "[FA]Order status provided - Package will arrive tomorrow",
-            "tag1": "[FA]inquiry",
-            "tag2": "[FA]resolved"
+            "customer": "Emily Rodriguez",
+            "type": "سوال در مورد سفارش",
+            "status": "تکمیل شد",
+            "duration": "۲:۱۵",
+            "time": "۸ دقیقه پیش",
+            "outcome": "وضعیت سفارش ارائه شد - بسته فردا می‌رسد",
+            "tag1": "سوال",
+            "tag2": "حل شد"
           },
           "david": {
-            "customer": "[FA]David Wilson",
-            "type": "[FA]Billing Question",
-            "status": "[FA]in-progress",
-            "duration": "[FA]1:03",
-            "time": "[FA]Just now",
-            "outcome": "[FA]Currently discussing billing discrepancy",
-            "tag1": "[FA]billing",
-            "tag2": "[FA]active"
+            "customer": "David Wilson",
+            "type": "سوال در مورد صورتحساب",
+            "status": "در حال انجام",
+            "duration": "۱:۰۳",
+            "time": "همین الان",
+            "outcome": "در حال حاضر در حال بحث در مورد اختلاف صورتحساب",
+            "tag1": "صورتحساب",
+            "tag2": "فعال"
           }
         },
         "mockCalls": {
           "customer1": "Sarah Johnson",
-          "type1": "[FA]Appointment Booking",
-          "status1": "[FA]completed",
-          "duration1": "[FA]3:42",
-          "time1": "[FA]2 minutes ago",
-          "outcome1": "[FA]Appointment scheduled for next Tuesday at 2 PM",
+          "type1": "رزرو قرار ملاقات",
+          "status1": "تکمیل شد",
+          "duration1": "۳:۴۲",
+          "time1": "۲ دقیقه پیش",
+          "outcome1": "قرار ملاقات برای سه‌شنبه آینده ساعت ۲ بعد از ظهر برنامه‌ریزی شد",
           "customer2": "Mike Chen",
-          "type2": "[FA]Technical Support",
-          "status2": "[FA]transferred",
-          "duration2": "[FA]1:28",
-          "time2": "[FA]5 minutes ago",
-          "outcome2": "[FA]Transferred to technical specialist - Issue: Login problems",
-          "customer3": "[FA]Emily Rodriguez",
-          "type3": "[FA]Order Inquiry",
-          "status3": "[FA]completed",
-          "duration3": "[FA]2:15",
-          "time3": "[FA]8 minutes ago",
-          "outcome3": "[FA]Order status provided - Package will arrive tomorrow",
-          "customer4": "[FA]David Wilson",
-          "type4": "[FA]Billing Question",
-          "status4": "[FA]in-progress",
-          "duration4": "[FA]1:03",
-          "time4": "[FA]Just now",
-          "outcome4": "[FA]Currently discussing billing discrepancy"
+          "type2": "پشتیبانی فنی",
+          "status2": "منتقل شد",
+          "duration2": "۱:۲۸",
+          "time2": "۵ دقیقه پیش",
+          "outcome2": "به متخصص فنی منتقل شد - مشکل: مشکلات ورود",
+          "customer3": "Emily Rodriguez",
+          "type3": "سوال در مورد سفارش",
+          "status3": "تکمیل شد",
+          "duration3": "۲:۱۵",
+          "time3": "۸ دقیقه پیش",
+          "outcome3": "وضعیت سفارش ارائه شد - بسته فردا می‌رسد",
+          "customer4": "David Wilson",
+          "type4": "سوال در مورد صورتحساب",
+          "status4": "در حال انجام",
+          "duration4": "۱:۰۳",
+          "time4": "همین الان",
+          "outcome4": "در حال حاضر در حال بحث در مورد اختلاف صورتحساب"
         }
       },
       "testimonials": {
         "metrics": {
-          "trainingTime": "[FA]2 weeks",
-          "trainingTimeLabel": "[FA]Reduced training time",
-          "efficiency": "[FA]20%",
-          "efficiencyLabel": "[FA]Efficiency gain",
-          "satisfaction": "[FA]94%",
-          "satisfactionLabel": "[FA]Customer satisfaction",
-          "simultaneousCalls": "[FA]500+",
-          "simultaneousCallsLabel": "[FA]Simultaneous calls"
+          "trainingTime": "۲ هفته",
+          "trainingTimeLabel": "کاهش زمان آموزش",
+          "efficiency": "۲۰٪",
+          "efficiencyLabel": "افزایش کارایی",
+          "satisfaction": "۹۴٪",
+          "satisfactionLabel": "رضایت مشتری",
+          "simultaneousCalls": "+۵۰۰",
+          "simultaneousCallsLabel": "تماس‌های همزمان"
         },
-        "quote": "SeaVoice reduced our agent training time by 2 weeks and increased efficiency by 20%",
+        "quote": "SeaVoice زمان آموزش نماینده ما را ۲ هفته کاهش داد و کارایی را ۲۰٪ افزایش داد",
         "author": "Sarah Johnson",
-        "role": "[FA]VP of Customer Success",
-        "company": "[FA]TechCorp Inc."
+        "role": "معاون موفقیت مشتری",
+        "company": "TechCorp Inc."
       }
     },
     "pricing": {
       "hero": {
-        "title": "[FA]Simple, Transparent Pricing",
-        "subtitle": "Voice AI solutions designed for inbound customer service and outbound campaigns. Built on SeaChat Premium ($29.99) and SeaX Omni-channel ($99) foundations."
+        "title": "قیمت‌گذاری ساده و شفاف",
+        "subtitle": "راه‌حل‌های هوش مصنوعی صوتی طراحی شده برای خدمات مشتری ورودی و کمپین‌های خروجی. ساخته شده بر روی پایه‌های SeaChat Premium (۲۹.۹۹ دلار) و SeaX Omni-channel (۹۹ دلار)."
       },
       "plans": {
         "inboundOnly": {
-          "name": "[FA]Inbound Only",
-          "tagline": "[FA]Perfect for Customer Service",
-          "price": "[FA]$29.99",
-          "period": "[FA]/month",
-          "description": "Ideal for businesses needing an inbound call solution with Voice AI (based on SeaChat Premium plan)",
+          "name": "فقط ورودی",
+          "tagline": "مناسب برای خدمات مشتری",
+          "price": "۲۹.۹۹ دلار",
+          "period": "/ماه",
+          "description": "ایده‌آل برای کسب‌وکارهایی که به یک راه‌حل تماس ورودی با هوش مصنوعی صوتی نیاز دارند (بر اساس طرح SeaChat Premium)",
           "features": {
-            "aiCallHandling": "[FA]AI-based call handling (inbound calls only)",
-            "voiceAIPrice": "[FA]Voice AI starts at $0.12 per minute (ChatGPT-4o mini model)",
-            "phoneNumber": "[FA]Phone number included ($2-$3/month with E911 address)",
-            "callRecording": "[FA]Call recording and summary",
-            "transferHuman": "[FA]Transfer to human agent support",
-            "multiLanguage": "[FA]Multi-language voice support",
-            "sttLanguages": "[FA]10+ Speech-To-Text languages",
-            "ttsLanguages": "[FA]10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI",
-            "crmIntegrations": "[FA]CRM integrations (Salesforce, HubSpot)",
-            "calendarIntegration": "[FA]Calendar integration (Google, Outlook)",
-            "callAnalytics": "[FA]Call analytics and reporting",
-            "emailNotifications": "[FA]Email notifications for calls"
+            "aiCallHandling": "رسیدگی به تماس مبتنی بر هوش مصنوعی (فقط تماس‌های ورودی)",
+            "voiceAIPrice": "هوش مصنوعی صوتی از ۰.۱۲ دلار در دقیقه شروع می‌شود (مدل ChatGPT-4o mini)",
+            "phoneNumber": "شماره تلفن گنجانده شده است (۲-۳ دلار در ماه با آدرس E911)",
+            "callRecording": "ضبط و خلاصه تماس",
+            "transferHuman": "انتقال به پشتیبانی نماینده انسانی",
+            "multiLanguage": "پشتیبانی صوتی چند زبانه",
+            "sttLanguages": "بیش از ۱۰ زبان تبدیل گفتار به متن",
+            "ttsLanguages": "بیش از ۱۰ زبان تبدیل متن به گفتار با صداهایی از Azure، ElevenLabs، OpenAI",
+            "crmIntegrations": "ادغام‌های CRM (Salesforce، HubSpot)",
+            "calendarIntegration": "ادغام تقویم (Google، Outlook)",
+            "callAnalytics": "تجزیه و تحلیل و گزارش‌دهی تماس",
+            "emailNotifications": "اعلان‌های ایمیل برای تماس‌ها"
           },
           "limitations": {
-            "noOutbound": "[FA]No outbound calling capabilities",
-            "noBulkCampaigns": "[FA]No bulk campaign features"
+            "noOutbound": "بدون قابلیت تماس خروجی",
+            "noBulkCampaigns": "بدون ویژگی‌های کمپین انبوه"
           },
-          "cta": "[FA]Start with Inbound Only",
-          "poweredBy": "Powered by SeaChat"
+          "cta": "با فقط ورودی شروع کنید",
+          "poweredBy": "با پشتیبانی SeaChat"
         },
         "inboundOutbound": {
-          "name": "[FA]Inbound + Outbound",
-          "tagline": "[FA]Scale Your Voice Campaigns",
-          "price": "[FA]$99",
-          "period": "[FA]/month",
-          "description": "Perfect for large-scale voice AI campaigns (equivalent to SeaX Omni-channel plan for first user)",
-          "badge": "[FA]Most Popular",
+          "name": "ورودی + خروجی",
+          "tagline": "کمپین‌های صوتی خود را مقیاس‌بندی کنید",
+          "price": "۹۹ دلار",
+          "period": "/ماه",
+          "description": "مناسب برای کمپین‌های صوتی هوش مصنوعی در مقیاس بزرگ (معادل طرح SeaX Omni-channel برای کاربر اول)",
+          "badge": "محبوب‌ترین",
           "features": {
-            "everythingInbound": "[FA]Everything in Inbound Only plan",
-            "outboundCalling": "[FA]Outbound calling and campaigns",
-            "bulkCampaigns": "[FA]Bulk voice AI campaigns",
-            "voiceAIPrice": "[FA]Voice AI starts at $0.12 per minute (ChatGPT-4o mini model)",
-            "additionalUsers": "[FA]Additional users: $49/month each",
-            "multipleNumbers": "[FA]Multiple phone numbers supported",
-            "campaignScheduling": "[FA]Campaign scheduling and automation",
-            "advancedRouting": "[FA]Advanced call routing",
-            "customVoiceTraining": "[FA]Custom voice training",
-            "voicemailDrop": "[FA]Voicemail drop capability ($0.05 per drop)",
-            "apiAccess": "[FA]RESTful API access",
-            "seachatIntegration": "SeaChat integration for multi-channel support",
-            "advancedAnalytics": "[FA]Advanced analytics dashboard",
-            "prioritySupport": "[FA]Priority support"
+            "everythingInbound": "همه چیز در طرح فقط ورودی",
+            "outboundCalling": "تماس و کمپین‌های خروجی",
+            "bulkCampaigns": "کمپین‌های صوتی هوش مصنوعی انبوه",
+            "voiceAIPrice": "هوش مصنوعی صوتی از ۰.۱۲ دلار در دقیقه شروع می‌شود (مدل ChatGPT-4o mini)",
+            "additionalUsers": "کاربران اضافی: ۴۹ دلار در ماه برای هر کدام",
+            "multipleNumbers": "پشتیبانی از چندین شماره تلفن",
+            "campaignScheduling": "زمان‌بندی و اتوماسیون کمپین",
+            "advancedRouting": "مسیریابی پیشرفته تماس",
+            "customVoiceTraining": "آموزش صدای سفارشی",
+            "voicemailDrop": "قابلیت پیام صوتی (۰.۰۵ دلار برای هر پیام)",
+            "apiAccess": "دسترسی به RESTful API",
+            "seachatIntegration": "ادغام SeaChat برای پشتیبانی چند کاناله",
+            "advancedAnalytics": "داشبورد تجزیه و تحلیل پیشرفته",
+            "prioritySupport": "پشتیبانی اولویت‌دار"
           },
-          "cta": "[FA]Start with Inbound + Outbound",
-          "poweredBy": "Powered by SeaX + SeaChat"
+          "cta": "با ورودی + خروجی شروع کنید",
+          "poweredBy": "با پشتیبانی SeaX + SeaChat"
         },
         "custom": {
-          "name": "[FA]Custom Plan",
-          "tagline": "[FA]Enterprise-Grade Solutions",
-          "price": "[FA]Contact Us",
-          "period": "[FA]",
-          "description": "Bespoke solutions tailored to specific business needs (similar to SeaChat/SeaX Enterprise plans)",
-          "customPriceMessage": "[FA]Let's build a project",
+          "name": "طرح سفارشی",
+          "tagline": "راه‌حل‌های سطح سازمانی",
+          "price": "تماس با ما",
+          "period": "",
+          "description": "راه‌حل‌های سفارشی متناسب با نیازهای تجاری خاص (مشابه طرح‌های سازمانی SeaChat/SeaX)",
+          "customPriceMessage": "بیایید یک پروژه بسازیم",
           "features": {
-            "everythingInboundOutbound": "[FA]Everything in Inbound + Outbound plan",
-            "multipleWorkspaces": "[FA]Multiple workspaces (perfect for agencies)",
-            "workspaceAgents": "[FA]Each workspace has multiple AI agents and phone numbers",
-            "customPricing": "[FA]Custom pricing per minute based on volume",
-            "accountManager": "[FA]Dedicated account manager",
-            "uptimeSLA": "[FA]99.99% uptime SLA",
-            "compliance": "[FA]HIPAA/PCI compliance available",
-            "whiteLabel": "[FA]White-label solutions",
-            "customAPI": "[FA]Custom API integrations",
-            "advancedSecurity": "[FA]Advanced security features",
-            "voiceCloning": "[FA]Custom voice cloning",
-            "phoneSupport": "[FA]Priority phone support",
-            "technicalSupport": "[FA]Professional design guidelines and technical support",
-            "onPremise": "[FA]On-premise deployment options"
+            "everythingInboundOutbound": "همه چیز در طرح ورودی + خروجی",
+            "multipleWorkspaces": "چندین فضای کاری (مناسب برای آژانس‌ها)",
+            "workspaceAgents": "هر فضای کاری دارای چندین نماینده هوش مصنوعی و شماره تلفن است",
+            "customPricing": "قیمت‌گذاری سفارشی برای هر دقیقه بر اساس حجم",
+            "accountManager": "مدیر حساب اختصاصی",
+            "uptimeSLA": "SLA آپتایم ۹۹.۹۹٪",
+            "compliance": "انطباق با HIPAA/PCI موجود است",
+            "whiteLabel": "راه‌حل‌های برچسب سفید",
+            "customAPI": "ادغام‌های API سفارشی",
+            "advancedSecurity": "ویژگی‌های امنیتی پیشرفته",
+            "voiceCloning": "شبیه‌سازی صدای سفارشی",
+            "phoneSupport": "پشتیبانی تلفنی اولویت‌دار",
+            "technicalSupport": "دستورالعمل‌های طراحی حرفه‌ای و پشتیبانی فنی",
+            "onPremise": "گزینه‌های استقرار در محل"
           },
-          "cta": "[FA]Contact Us"
+          "cta": "تماس با ما"
         }
       },
       "productRelationship": {
-        "title": "How SeaVoice Connects with SeaChat & SeaX",
+        "title": "چگونه SeaVoice با SeaChat و SeaX ارتباط برقرار می‌کند",
         "seachatIntegration": {
-          "title": "🔗 SeaChat Integration",
-          "description": "SeaVoice Inbound Only ($29.99/month) is built on SeaChat Premium plan foundations, providing voice AI capabilities for incoming calls at $0.12 per minute.",
-          "subtitle": "Perfect for businesses wanting to add voice AI to their existing SeaChat setup."
+          "title": "🔗 ادغام SeaChat",
+          "description": "طرح فقط ورودی SeaVoice (۲۹.۹۹ دلار در ماه) بر روی پایه‌های طرح SeaChat Premium ساخته شده است و قابلیت‌های هوش مصنوعی صوتی را برای تماس‌های ورودی با ۰.۱۲ دلار در دقیقه ارائه می‌دهد.",
+          "subtitle": "مناسب برای کسب‌وکارهایی که می‌خواهند هوش مصنوعی صوتی را به راه‌اندازی SeaChat موجود خود اضافه کنند."
         },
         "seaxIntegration": {
-          "title": "📞 SeaX Integration",
-          "description": "SeaVoice Inbound + Outbound ($99/month) mirrors SeaX Omni-channel pricing, enabling large-scale voice campaigns with callback handling.",
-          "subtitle": "[FA]Ideal for businesses running outbound campaigns who need comprehensive voice AI coverage."
+          "title": "📞 ادغام SeaX",
+          "description": "طرح ورودی + خروجی SeaVoice (۹۹ دلار در ماه) قیمت‌گذاری SeaX Omni-channel را منعکس می‌کند و کمپین‌های صوتی در مقیاس بزرگ را با رسیدگی به تماس‌های برگشتی امکان‌پذیر می‌سازد.",
+          "subtitle": "ایده‌آل برای کسب‌وکارهایی که کمپین‌های خروجی را اجرا می‌کنند و به پوشش جامع هوش مصنوعی صوتی نیاز دارند."
         },
         "completePicture": {
-          "title": "[FA]✨ The Complete Picture",
-          "description": "All Voice AI calls across SeaChat, SeaX, and SeaVoice use the same $0.12 per minute rate with ChatGPT-4o mini model. When contacts call back after outbound campaigns, SeaVoice seamlessly handles these inbound calls with the same AI intelligence."
+          "title": "✨ تصویر کامل",
+          "description": "همه تماس‌های صوتی هوش مصنوعی در SeaChat، SeaX و SeaVoice از همان نرخ ۰.۱۲ دلار در دقیقه با مدل ChatGPT-4o mini استفاده می‌کنند. هنگامی که مخاطبین پس از کمپین‌های خروجی تماس می‌گیرند، SeaVoice به طور یکپارچه این تماس‌های ورودی را با همان هوش مصنوعی مدیریت می‌کند."
         }
       },
       "faq": {
-        "title": "[FA]Frequently Asked Questions",
-        "subtitle": "Everything you need to know about SeaVoice pricing and features",
-        "question1": "How does SeaVoice pricing relate to SeaChat and SeaX?",
-        "answer1": "SeaVoice Inbound Only plan ($29.99/month) is based on SeaChat Premium plan, focusing on inbound voice AI. The Inbound + Outbound plan ($99/month) mirrors SeaX Omni-channel pricing for comprehensive voice campaigns. All voice AI calls start at $0.12 per minute using ChatGPT-4o mini model.",
-        "question2": "[FA]What's the difference between Inbound Only and Inbound + Outbound plans?",
-        "answer2": "[FA]Inbound Only ($29.99/month) handles incoming calls with AI, perfect for customer service. Inbound + Outbound ($99/month for first user) adds bulk campaign capabilities and outbound calling, ideal for sales and marketing teams running large-scale voice campaigns.",
-        "question3": "[FA]Can I keep my existing business phone numbers?",
-        "answer3": "Yes, you can keep your existing business numbers and forward calls to SeaVoice, or we can provide new numbers. Each phone number costs $2-$3/month with E911 address registration.",
-        "question4": "[FA]How much do voice AI calls actually cost?",
-        "answer4": "All voice AI calls start at $0.12 per minute using the ChatGPT-4o mini model. This is the same rate across SeaChat Premium and SeaVoice plans. Higher-tier models like ChatGPT-4o cost $0.80 per minute and are available on custom plans.",
-        "question5": "[FA]What happens when contacts call back after an outbound campaign?",
-        "answer5": "[FA]With the Inbound + Outbound plan, when contacts call back after receiving campaign calls, our inbound Voice AI will automatically handle these calls, providing seamless continuity in your customer communications.",
-        "question6": "[FA]Can I upgrade from Inbound Only to Inbound + Outbound?",
-        "answer6": "[FA]Absolutely! You can upgrade your plan at any time. The upgrade takes effect immediately, and you'll gain access to outbound calling, campaign features, and additional user seats.",
-        "question7": "[FA]Do you offer volume discounts for high-usage customers?",
-        "answer7": "[FA]Yes, our Custom Plan offers negotiated pricing based on your specific volume and usage patterns. Contact our sales team to discuss custom pricing that scales with your business needs."
+        "title": "سوالات متداول",
+        "subtitle": "هر آنچه باید در مورد قیمت‌گذاری و ویژگی‌های SeaVoice بدانید",
+        "question1": "قیمت‌گذاری SeaVoice چگونه با SeaChat و SeaX ارتباط دارد؟",
+        "answer1": "طرح فقط ورودی SeaVoice (۲۹.۹۹ دلار در ماه) بر اساس طرح SeaChat Premium است و بر روی هوش مصنوعی صوتی ورودی تمرکز دارد. طرح ورودی + خروجی (۹۹ دلار در ماه) قیمت‌گذاری SeaX Omni-channel را برای کمپین‌های صوتی جامع منعکس می‌کند. همه تماس‌های صوتی هوش مصنوعی از ۰.۱۲ دلار در دقیقه با استفاده از مدل ChatGPT-4o mini شروع می‌شوند.",
+        "question2": "تفاوت بین طرح‌های فقط ورودی و ورودی + خروجی چیست؟",
+        "answer2": "فقط ورودی (۲۹.۹۹ دلار در ماه) تماس‌های ورودی را با هوش مصنوعی مدیریت می‌کند، که برای خدمات مشتری عالی است. ورودی + خروجی (۹۹ دلار در ماه برای کاربر اول) قابلیت‌های کمپین انبوه و تماس خروجی را اضافه می‌کند، که برای تیم‌های فروش و بازاریابی که کمپین‌های صوتی در مقیاس بزرگ را اجرا می‌کنند، ایده‌آل است.",
+        "question3": "آیا می‌توانم شماره تلفن‌های تجاری موجود خود را حفظ کنم؟",
+        "answer3": "بله، شما می‌توانید شماره تلفن‌های تجاری موجود خود را حفظ کرده و تماس‌ها را به SeaVoice ارسال کنید، یا ما می‌توانیم شماره‌های جدیدی ارائه دهیم. هر شماره تلفن ۲-۳ دلار در ماه با ثبت آدرس E911 هزینه دارد.",
+        "question4": "هزینه واقعی تماس‌های صوتی هوش مصنوعی چقدر است؟",
+        "answer4": "همه تماس‌های صوتی هوش مصنوعی از ۰.۱۲ دلار در دقیقه با استفاده از مدل ChatGPT-4o mini شروع می‌شوند. این همان نرخ در طرح‌های SeaChat Premium و SeaVoice است. مدل‌های سطح بالاتر مانند ChatGPT-4o ۰.۸۰ دلار در دقیقه هزینه دارند و در طرح‌های سفارشی موجود هستند.",
+        "question5": "هنگامی که مخاطبین پس از یک کمپین خروجی تماس می‌گیرند چه اتفاقی می‌افتد؟",
+        "answer5": "با طرح ورودی + خروجی، هنگامی که مخاطبین پس از دریافت تماس‌های کمپین تماس می‌گیرند، هوش مصنوعی صوتی ورودی ما به طور خودکار این تماس‌ها را مدیریت می‌کند و تداوم یکپارچه را در ارتباطات مشتری شما فراهم می‌کند.",
+        "question6": "آیا می‌توانم از فقط ورودی به ورودی + خروجی ارتقا دهم؟",
+        "answer6": "قطعاً! شما می‌توانید در هر زمان طرح خود را ارتقا دهید. ارتقا بلافاصله اعمال می‌شود و شما به تماس خروجی، ویژگی‌های کمپین و صندلی‌های کاربر اضافی دسترسی پیدا خواهید کرد.",
+        "question7": "آیا برای مشتریان با استفاده بالا تخفیف حجمی ارائه می‌دهید؟",
+        "answer7": "بله، طرح سفارشی ما قیمت‌گذاری مذاکره شده را بر اساس حجم و الگوهای استفاده خاص شما ارائه می‌دهد. برای بحث در مورد قیمت‌گذاری سفارشی که با نیازهای تجاری شما مقیاس می‌یابد، با تیم فروش ما تماس بگیرید."
       },
       "cta": {
-        "title": "[FA]Ready to Get Started?",
-        "subtitle": "[FA]Start your free trial today and experience the power of AI voice automation",
-        "signUpFree": "[FA]Sign Up For Free",
-        "scheduleDemo": "[FA]Schedule Demo"
+        "title": "آماده‌اید تا شروع کنید؟",
+        "subtitle": "امروز دوره آزمایشی رایگان خود را شروع کنید و قدرت اتوماسیون صوتی هوش مصنوعی را تجربه کنید",
+        "signUpFree": "ثبت نام رایگان",
+        "scheduleDemo": "زمان‌بندی دمو"
       }
     },
     "footer": {
-      "description": "[FA]Automate 80% of customer calls with AI voice agents that sound human and integrate seamlessly with your business.",
+      "description": "۸۰٪ از تماس‌های مشتری را با نمایندگان صوتی هوش مصنوعی که شبیه انسان به نظر می‌رسند و به طور یکپارچه با کسب‌وکار شما ادغام می‌شوند، خودکار کنید.",
       "platform": {
-        "title": "[FA]Platform",
-        "overview": "[FA]Platform Overview",
-        "landlineMobile": "[FA]Landline & Mobile Voice",
-        "voipSipByoc": "[FA]VoIP & SIP & BYOC Voice",
-        "lineCallPlus": "[FA]Line Call Plus for Businesses",
-        "whatsAppVoice": "[FA]WhatsApp Voice API for Businesses",
-        "speechToText": "[FA]Speech To Text",
-        "textToSpeech": "[FA]Text To Speech",
-        "endToEndLlms": "[FA]End To End LLMs"
+        "title": "پلتفرم",
+        "overview": "نمای کلی پلتفرم",
+        "landlineMobile": "صدای تلفن ثابت و موبایل",
+        "voipSipByoc": "صدای VoIP و SIP و BYOC",
+        "lineCallPlus": "Line Call Plus برای کسب‌وکارها",
+        "whatsAppVoice": "API صدای واتس‌اپ برای کسب‌وکارها",
+        "speechToText": "تبدیل گفتار به متن",
+        "textToSpeech": "تبدیل متن به گفتار",
+        "endToEndLlms": "LLMهای سرتاسری"
       },
       "inboundSolutions": {
-        "title": "[FA]Inbound Solutions",
-        "virtualAssistant": "[FA]24/7 Virtual Assistant",
-        "callTransfer": "[FA]Smart Call Transfer",
-        "ivrReplacement": "[FA]IVR Replacement",
-        "mentalHealth": "[FA]Mental Health Companion",
-        "scamShield": "[FA]Scam Shield Protection",
-        "technicalSupport": "[FA]Technical Support",
-        "orderTracking": "[FA]Order Status & Tracking",
-        "paymentProcessing": "[FA]Payment Processing",
-        "appointmentBooking": "[FA]Appointment Booking"
+        "title": "راه‌حل‌های ورودی",
+        "virtualAssistant": "دستیار مجازی ۲۴/۷",
+        "callTransfer": "انتقال هوشمند تماس",
+        "ivrReplacement": "جایگزینی IVR",
+        "mentalHealth": "همراه سلامت روان",
+        "scamShield": "محافظت در برابر کلاهبرداری",
+        "technicalSupport": "پشتیبانی فنی",
+        "orderTracking": "وضعیت و ردیابی سفارش",
+        "paymentProcessing": "پردازش پرداخت",
+        "appointmentBooking": "رزرو قرار ملاقات"
       },
       "outboundSolutions": {
-        "title": "[FA]Outbound Solutions",
-        "leadGeneration": "[FA]Lead Generation & Qualification",
-        "collections": "[FA]Collections Service",
-        "reactivation": "[FA]Customer Reactivation",
-        "seniorChecks": "[FA]Senior Check Calls",
-        "campaigns": "[FA]Large Scale Campaigns",
-        "proactiveSupport": "[FA]Proactive Support",
-        "renewals": "[FA]Subscription Renewals",
-        "surveys": "[FA]Customer Surveys",
-        "fraudAlerts": "[FA]Fraud Alerts"
+        "title": "راه‌حل‌های خروجی",
+        "leadGeneration": "تولید و واجد شرایط کردن سرنخ",
+        "collections": "خدمات وصول",
+        "reactivation": "فعال‌سازی مجدد مشتری",
+        "seniorChecks": "تماس‌های بررسی سالمندان",
+        "campaigns": "کمپین‌های در مقیاس بزرگ",
+        "proactiveSupport": "پشتیبانی فعال",
+        "renewals": "تمدید اشتراک",
+        "surveys": "نظرسنجی‌های مشتری",
+        "fraudAlerts": "هشدارهای کلاهبرداری"
       },
       "company": {
-        "title": "[FA]Company",
-        "pricing": "[FA]Pricing",
-        "productWiki": "[FA]Product Wiki",
-        "apiReferences": "[FA]API References"
+        "title": "شرکت",
+        "pricing": "قیمت‌گذاری",
+        "productWiki": "ویکی محصول",
+        "apiReferences": "مرجع‌های API"
       },
       "legal": {
-        "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
-        "privacyPolicy": "[FA]Privacy Policy",
-        "termsOfService": "[FA]Terms of Service"
+        "copyright": "© ۲۰۲۰ - {{year}} Seasalt.ai. کلیه حقوق محفوظ است.",
+        "privacyPolicy": "سیاست حفظ حریم خصوصی",
+        "termsOfService": "شرایط خدمات"
       },
       "stats": {
-        "callsHandled": "[FA]1M+ Calls Handled",
-        "activeAgents": "[FA]50K+ Active Agents",
-        "uptime": "[FA]99.99% Uptime"
+        "callsHandled": "بیش از ۱ میلیون تماس رسیدگی شده",
+        "activeAgents": "بیش از ۵۰ هزار نماینده فعال",
+        "uptime": "آپتایم ۹۹.۹۹٪"
       },
       "cta": {
-        "title": "[FA]Ready to Automate 80% of Your Customer Calls?",
-        "description": "Join hundreds of businesses using SeaVoice AI agents to handle customer calls 24/7, reduce costs, and improve customer satisfaction.",
-        "getStartedFree": "[FA]Get Started Free",
-        "bookDemo": "[FA]Book a Demo"
+        "title": "آماده‌اید تا ۸۰٪ از تماس‌های مشتری خود را خودکار کنید؟",
+        "description": "به صدها کسب‌وکار بپیوندید که از نمایندگان هوش مصنوعی SeaVoice برای رسیدگی به تماس‌های مشتری ۲۴/۷، کاهش هزینه‌ها و بهبود رضایت مشتری استفاده می‌کنند.",
+        "getStartedFree": "شروع رایگان",
+        "bookDemo": "رزرو دمو"
       }
     },
     "priceCalculator": {
       "hero": {
-        "title": "[FA]Monthly Price Calculator",
-        "subtitle": "[FA]Calculate your exact monthly cost based on your usage needs. All pricing is for USA/Canada with phone charges included."
+        "title": "ماشین حساب قیمت ماهانه",
+        "subtitle": "هزینه ماهانه دقیق خود را بر اساس نیازهای استفاده خود محاسبه کنید. همه قیمت‌گذاری‌ها برای ایالات متحده/کانادا با هزینه‌های تلفن گنجانده شده است."
       },
       "configure": {
-        "title": "[FA]Configure Your Plan"
+        "title": "طرح خود را پیکربندی کنید"
       },
       "planType": {
-        "label": "[FA]1. Choose Your Plan Type",
+        "label": "۱. نوع طرح خود را انتخاب کنید",
         "inbound": {
-          "title": "[FA]Inbound Only - $29.99/month",
-          "description": "[FA]Perfect for customer service"
+          "title": "فقط ورودی - ۲۹.۹۹ دلار در ماه",
+          "description": "مناسب برای خدمات مشتری"
         },
         "inboundOutbound": {
-          "title": "[FA]Inbound + Outbound - $99/month",
-          "description": "[FA]Scale your voice campaigns"
+          "title": "ورودی + خروجی - ۹۹ دلار در ماه",
+          "description": "کمپین‌های صوتی خود را مقیاس‌بندی کنید"
         }
       },
       "phoneNumbers": {
-        "label": "[FA]2. Phone Numbers (with E911 address)",
+        "label": "۲. شماره تلفن‌ها (با آدرس E911)",
         "local": {
-          "label": "[FA]Local Numbers ($2/month each)"
+          "label": "شماره‌های محلی (۲ دلار در ماه برای هر کدام)"
         },
         "tollFree": {
-          "label": "[FA]Toll-Free Numbers ($3/month each)"
+          "label": "شماره‌های تلفن رایگان (۳ دلار در ماه برای هر کدام)"
         }
       },
       "voiceAI": {
-        "label": "[FA]3. Voice AI Minutes ($0.12/minute - ChatGPT-4o mini)",
+        "label": "۳. دقایق هوش مصنوعی صوتی (۰.۱۲ دلار/دقیقه - ChatGPT-4o mini)",
         "range": {
-          "min": "[FA]0 min",
-          "max": "[FA]5,000 min",
-          "current": "[FA]minutes"
+          "min": "۰ دقیقه",
+          "max": "۵٬۰۰۰ دقیقه",
+          "current": "دقیقه"
         }
       },
       "humanAgent": {
-        "label": "[FA]4. Human Agent Minutes ($0.015/minute)",
+        "label": "۴. دقایق نماینده انسانی (۰.۰۱۵ دلار/دقیقه)",
         "range": {
-          "min": "[FA]0 min",
-          "max": "[FA]2,000 min",
-          "current": "[FA]minutes"
+          "min": "۰ دقیقه",
+          "max": "۲٬۰۰۰ دقیقه",
+          "current": "دقیقه"
         }
       },
       "breakdown": {
-        "title": "[FA]Monthly Cost Breakdown",
-        "inboundPlan": "[FA]Inbound Only Plan",
-        "inboundOutboundPlan": "[FA]Inbound + Outbound Plan",
-        "phoneNumbersTitle": "[FA]Phone Numbers",
+        "title": "تفکیک هزینه ماهانه",
+        "inboundPlan": "طرح فقط ورودی",
+        "inboundOutboundPlan": "طرح ورودی + خروجی",
+        "phoneNumbersTitle": "شماره تلفن‌ها",
         "phoneNumbers": {
-          "local": "[FA]local",
-          "tollFree": "[FA]toll-free"
+          "local": "محلی",
+          "tollFree": "تلفن رایگان"
         },
         "voiceAI": {
-          "title": "[FA]Voice AI Minutes",
-          "calculation": "[FA]min × $0.12"
+          "title": "دقایق هوش مصنوعی صوتی",
+          "calculation": "دقیقه × ۰.۱۲ دلار"
         },
         "humanAgent": {
-          "title": "[FA]Human Agent Minutes",
-          "calculation": "[FA]min × $0.015"
+          "title": "دقایق نماینده انسانی",
+          "calculation": "دقیقه × ۰.۰۱۵ دلار"
         },
-        "total": "[FA]Total Monthly Cost"
+        "total": "مجموع هزینه ماهانه"
       },
       "features": {
-        "usaCanada": "[FA]USA/Canada coverage included",
-        "phoneCharges": "[FA]All phone charges included",
-        "e911": "[FA]E911 address registration included",
-        "recording": "[FA]Call recording and analytics",
-        "outboundCampaigns": "[FA]Outbound campaigns and bulk calling"
+        "usaCanada": "پوشش ایالات متحده/کانادا گنجانده شده است",
+        "phoneCharges": "همه هزینه‌های تلفن گنجانده شده است",
+        "e911": "ثبت آدرس E911 گنجانده شده است",
+        "recording": "ضبط و تجزیه و تحلیل تماس",
+        "outboundCampaigns": "کمپین‌های خروجی و تماس انبوه"
       },
       "cta": {
-        "getStartedInbound": "[FA]Get Started with Inbound Only",
-        "getStartedInboundOutbound": "[FA]Get Started with Inbound + Outbound",
-        "scheduleDemo": "[FA]Schedule a Demo"
+        "getStartedInbound": "با فقط ورودی شروع کنید",
+        "getStartedInboundOutbound": "با ورودی + خروجی شروع کنید",
+        "scheduleDemo": "زمان‌بندی دمو"
       },
       "notes": {
-        "title": "[FA]Important Notes",
-        "usaCanadaOnly": "[FA]Pricing shown is for USA/Canada only",
-        "phoneChargesIncluded": "[FA]All phone call charges are included in the rates shown",
-        "voiceAIModel": "[FA]Voice AI uses ChatGPT-4o mini model at $0.12/minute",
-        "humanAgentMinutes": "[FA]Human agent minutes are for call transfers and direct calls"
+        "title": "نکات مهم",
+        "usaCanadaOnly": "قیمت‌گذاری نشان داده شده فقط برای ایالات متحده/کانادا است",
+        "phoneChargesIncluded": "همه هزینه‌های تماس تلفنی در نرخ‌های نشان داده شده گنجانده شده است",
+        "voiceAIModel": "هوش مصنوعی صوتی از مدل ChatGPT-4o mini با ۰.۱۲ دلار در دقیقه استفاده می‌کند",
+        "humanAgentMinutes": "دقایق نماینده انسانی برای انتقال تماس و تماس‌های مستقیم است"
       }
     },
     "platform": {
       "hero": {
-        "title": "[FA]The Complete AI Voice Platform",
-        "description": "[FA]Discover the technology that powers human-like voice interactions, seamless integrations, and actionable insights for your business.",
-        "cta": "[FA]Explore Platform Capabilities"
+        "title": "پلتفرم کامل هوش مصنوعی صوتی",
+        "description": "فناوری را کشف کنید که تعاملات صوتی شبیه انسان، ادغام‌های یکپارچه و بینش‌های عملی را برای کسب‌وکار شما قدرت می‌بخشد.",
+        "cta": "کاوش در قابلیت‌های پلتفرم"
       },
       "features": {
         "aiVoice": {
-          "title": "[FA]AI Voice Agents",
-          "description": "[FA]Human-like voice agents that handle inbound and outbound calls 24/7 with perfect consistency.",
-          "feature1": "[FA]24/7 availability",
-          "feature2": "[FA]Human-like conversations",
-          "feature3": "[FA]Dynamic pauses and tone shifts",
-          "feature4": "[FA]Multi-language support"
+          "title": "نمایندگان صوتی هوش مصنوعی",
+          "description": "نمایندگان صوتی شبیه انسان که تماس‌های ورودی و خروجی را ۲۴/۷ با ثبات کامل مدیریت می‌کنند.",
+          "feature1": "در دسترس بودن ۲۴/۷",
+          "feature2": "مکالمات شبیه انسان",
+          "feature3": "وقفه‌های پویا و تغییرات لحن",
+          "feature4": "پشتیبانی چند زبانه"
         },
         "conversationalAI": {
-          "title": "[FA]Conversational AI",
-          "description": "[FA]Advanced AI that learns from your documents and remembers past interactions for personalized service.",
-          "feature1": "[FA]RAG technology",
-          "feature2": "[FA]Long-term memory",
-          "feature3": "[FA]Custom knowledge base",
-          "feature4": "[FA]Context awareness"
+          "title": "هوش مصنوعی مکالمه‌ای",
+          "description": "هوش مصنوعی پیشرفته که از اسناد شما یاد می‌گیرد و تعاملات گذشته را برای خدمات شخصی‌سازی شده به خاطر می‌سپارد.",
+          "feature1": "فناوری RAG",
+          "feature2": "حافظه بلندمدت",
+          "feature3": "پایگاه دانش سفارشی",
+          "feature4": "آگاهی از زمینه"
         },
         "analytics": {
-          "title": "[FA]Analytics & Insights",
-          "description": "[FA]Real-time transcripts, sentiment analysis, and actionable insights from every conversation.",
-          "feature1": "[FA]Real-time transcripts",
-          "feature2": "[FA]Sentiment analysis",
-          "feature3": "[FA]Performance metrics",
-          "feature4": "[FA]Call volume analytics"
+          "title": "تجزیه و تحلیل و بینش",
+          "description": "رونوشت‌های در زمان واقعی، تجزیه و تحلیل احساسات و بینش‌های عملی از هر مکالمه.",
+          "feature1": "رونوشت‌های در زمان واقعی",
+          "feature2": "تجزیه و تحلیل احساسات",
+          "feature3": "معیارهای عملکرد",
+          "feature4": "تجزیه و تحلیل حجم تماس"
         },
         "telephony": {
-          "title": "[FA]Telephony & Connectivity",
-          "description": "[FA]Flexible integration with VoIP, SIP, and BYOC options for seamless connectivity.",
-          "feature1": "[FA]VoIP integration",
-          "feature2": "[FA]SIP trunking",
-          "feature3": "[FA]BYOC support",
-          "feature4": "[FA]Global coverage"
+          "title": "تلفن و اتصال",
+          "description": "ادغام انعطاف‌پذیر با گزینه‌های VoIP، SIP و BYOC برای اتصال یکپارچه.",
+          "feature1": "ادغام VoIP",
+          "feature2": "ترانک SIP",
+          "feature3": "پشتیبانی BYOC",
+          "feature4": "پوشش جهانی"
         },
         "integrations": {
-          "title": "[FA]Integrations & Channels",
-          "description": "[FA]Connect with your existing tools and reach customers across multiple channels.",
-          "feature1": "[FA]CRM integration",
-          "feature2": "[FA]WhatsApp Voice API",
-          "feature3": "[FA]LINE Business Calls",
-          "feature4": "[FA]Calendar sync"
+          "title": "ادغام‌ها و کانال‌ها",
+          "description": "با ابزارهای موجود خود ارتباط برقرار کنید و به مشتریان در چندین کانال دسترسی پیدا کنید.",
+          "feature1": "ادغام CRM",
+          "feature2": "API صدای واتس‌اپ",
+          "feature3": "تماس‌های تجاری LINE",
+          "feature4": "همگام‌سازی تقویم"
         },
         "speech": {
-          "title": "[FA]Speech Technologies",
-          "description": "[FA]Industry-leading speech-to-text and text-to-speech with custom voice profiles.",
-          "feature1": "[FA]High accuracy STT",
-          "feature2": "[FA]Natural TTS",
-          "feature3": "[FA]Voice cloning",
-          "feature4": "[FA]10+ languages"
+          "title": "فناوری‌های گفتار",
+          "description": "تبدیل گفتار به متن و متن به گفتار پیشرو در صنعت با پروفایل‌های صوتی سفارشی.",
+          "feature1": "STT با دقت بالا",
+          "feature2": "TTS طبیعی",
+          "feature3": "شبیه‌سازی صدا",
+          "feature4": "بیش از ۱۰ زبان"
         }
       },
       "technology": {
-        "title": "[FA]Built on Industry-Leading Technology",
-        "subtitle": "[FA]Powered by the original Kaldi team's expertise in speech recognition",
+        "title": "ساخته شده بر روی فناوری پیشرو در صنعت",
+        "subtitle": "با پشتیبانی از تخصص تیم اصلی Kaldi در تشخیص گفتار",
         "speechRecognition": {
-          "title": "[FA]Speech Recognition",
-          "description": "[FA]Advanced STT technology with 99%+ accuracy, even with background noise and industry jargon.",
-          "metric1": "[FA]99%+ accuracy",
-          "metric2": "[FA]Real-time processing",
-          "metric3": "[FA]Noise reduction"
+          "title": "تشخیص گفتار",
+          "description": "فناوری پیشرفته STT با دقت بیش از ۹۹٪، حتی با نویز پس‌زمینه و واژگان صنعتی.",
+          "metric1": "دقت بیش از ۹۹٪",
+          "metric2": "پردازش در زمان واقعی",
+          "metric3": "کاهش نویز"
         },
         "nlp": {
-          "title": "[FA]Natural Language Processing",
-          "description": "[FA]Context-aware AI that understands intent and maintains natural conversation flow.",
-          "metric1": "[FA]Intent recognition",
-          "metric2": "[FA]Context retention",
-          "metric3": "[FA]Emotional intelligence"
+          "title": "پردازش زبان طبیعی",
+          "description": "هوش مصنوعی آگاه از زمینه که قصد را درک می‌کند و جریان مکالمه طبیعی را حفظ می‌کند.",
+          "metric1": "تشخیص قصد",
+          "metric2": "حفظ زمینه",
+          "metric3": "هوش هیجانی"
         },
         "voiceSynthesis": {
-          "title": "[FA]Voice Synthesis",
-          "description": "[FA]Human-like text-to-speech with customizable voices and natural prosody.",
-          "metric1": "[FA]Natural prosody",
-          "metric2": "[FA]Voice cloning",
-          "metric3": "[FA]Emotion control"
+          "title": "سنتز صدا",
+          "description": "تبدیل متن به گفتار شبیه انسان با صداهای قابل تنظیم و آهنگ طبیعی.",
+          "metric1": "آهنگ طبیعی",
+          "metric2": "شبیه‌سازی صدا",
+          "metric3": "کنترل احساسات"
         }
       },
       "landlineMobile": {
         "hero": {
-          "title": "[FA]Landline & Mobile Voice Solutions",
-          "subtitle": "[FA]Transform your traditional phone systems with AI-powered voice agents that work seamlessly with landlines and mobile networks worldwide.",
-          "cta": "[FA]Sign Up For Free"
+          "title": "راه‌حل‌های صوتی تلفن ثابت و موبایل",
+          "subtitle": "سیستم‌های تلفن سنتی خود را با نمایندگان صوتی مجهز به هوش مصنوعی که به طور یکپارچه با تلفن‌های ثابت و شبکه‌های تلفن همراه در سراسر جهان کار می‌کنند، متحول کنید.",
+          "cta": "ثبت نام رایگان"
         },
         "features": {
           "0": {
-            "title": "[FA]Traditional Landline Integration",
-            "description": "[FA]Seamlessly connect your existing landline infrastructure with AI voice capabilities.",
+            "title": "ادغام تلفن ثابت سنتی",
+            "description": "زیرساخت تلفن ثابت موجود خود را به طور یکپارچه با قابلیت‌های صوتی هوش مصنوعی متصل کنید.",
             "benefits": {
-              "0": "[FA]Keep your existing phone numbers",
-              "1": "[FA]No hardware changes required",
-              "2": "[FA]Instant AI backup for busy lines"
+              "0": "شماره تلفن‌های موجود خود را حفظ کنید",
+              "1": "نیازی به تغییر سخت‌افزار نیست",
+              "2": "پشتیبان‌گیری فوری هوش مصنوعی برای خطوط شلوغ"
             }
           },
           "1": {
-            "title": "[FA]Mobile Network Connectivity",
-            "description": "[FA]Direct integration with mobile carriers for outbound campaigns and customer engagement.",
+            "title": "اتصال شبکه تلفن همراه",
+            "description": "ادغام مستقیم با اپراتورهای تلفن همراه برای کمپین‌های خروجی و تعامل با مشتری.",
             "benefits": {
-              "0": "[FA]Reach customers on their mobile devices",
-              "1": "[FA]High delivery rates",
-              "2": "[FA]SMS fallback options"
+              "0": "به مشتریان در دستگاه‌های تلفن همراه خود دسترسی پیدا کنید",
+              "1": "نرخ تحویل بالا",
+              "2": "گزینه‌های بازگشت به پیامک"
             }
           },
           "2": {
-            "title": "[FA]Global Coverage",
-            "description": "[FA]Connect with customers worldwide through our extensive carrier network partnerships.",
+            "title": "پوشش جهانی",
+            "description": "از طریق مشارکت‌های گسترده شبکه اپراتور ما با مشتریان در سراسر جهان ارتباط برقرار کنید.",
             "benefits": {
-              "0": "[FA]200+ countries supported",
-              "1": "[FA]Local number presence",
-              "2": "[FA]Competitive international rates"
+              "0": "بیش از ۲۰۰ کشور پشتیبانی می‌شود",
+              "1": "حضور شماره محلی",
+              "2": "نرخ‌های بین‌المللی رقابتی"
             }
           },
-          "title": "[FA]Universal Voice Connectivity",
-          "subtitle": "[FA]Connect with any phone system, anywhere in the world"
+          "title": "اتصال صوتی جهانی",
+          "subtitle": "با هر سیستم تلفنی، در هر نقطه از جهان ارتباط برقرار کنید"
         },
         "useCases": {
           "0": {
-            "title": "[FA]Appointment Reminders",
-            "description": "[FA]Automatically call patients, customers, or clients to confirm upcoming appointments.",
+            "title": "یادآوری قرار ملاقات",
+            "description": "به طور خودکار با بیماران، مشتریان یا مراجعان تماس بگیرید تا قرارهای آینده را تأیید کنید.",
             "metrics": {
-              "0": "[FA]40% reduction in no-shows",
-              "1": "[FA]95% contact success rate",
-              "2": "[FA]24/7 automated calling"
+              "0": "کاهش ۴۰ درصدی عدم حضور",
+              "1": "نرخ موفقیت تماس ۹۵٪",
+              "2": "تماس خودکار ۲۴/۷"
             }
           },
           "1": {
-            "title": "[FA]Emergency Notifications",
-            "description": "[FA]Rapidly notify large groups during emergencies or critical updates.",
+            "title": "اعلان‌های اضطراری",
+            "description": "در طول اورژانس‌ها یا به‌روزرسانی‌های حیاتی، به سرعت به گروه‌های بزرگ اطلاع دهید.",
             "metrics": {
-              "0": "[FA]1000+ calls per minute",
-              "1": "[FA]Multi-language support",
-              "2": "[FA]Delivery confirmation"
+              "0": "بیش از ۱۰۰۰ تماس در دقیقه",
+              "1": "پشتیبانی چند زبانه",
+              "2": "تأیید تحویل"
             }
           },
           "2": {
-            "title": "[FA]Customer Surveys",
-            "description": "[FA]Conduct post-service surveys to gather valuable customer feedback.",
+            "title": "نظرسنجی‌های مشتری",
+            "description": "نظرسنجی‌های پس از خدمات را برای جمع‌آوری بازخورد ارزشمند مشتری انجام دهید.",
             "metrics": {
-              "0": "[FA]3x higher response rates",
-              "1": "[FA]Real-time sentiment analysis",
-              "2": "[FA]Automated reporting"
+              "0": "۳ برابر نرخ پاسخ بالاتر",
+              "1": "تجزیه و تحلیل احساسات در زمان واقعی",
+              "2": "گزارش‌دهی خودکار"
             }
           },
-          "title": "[FA]Popular Use Cases",
-          "subtitle": "[FA]See how businesses leverage landline and mobile voice automation"
+          "title": "موارد استفاده محبوب",
+          "subtitle": "ببینید چگونه کسب‌وکارها از اتوماسیون صوتی تلفن ثابت و موبایل استفاده می‌کنند"
         },
         "specs": {
-          "title": "[FA]Enterprise-Grade Reliability",
-          "subtitle": "[FA]Built for mission-critical communications with carrier-grade infrastructure and 99.99% uptime guarantee.",
+          "title": "قابلیت اطمینان در سطح سازمانی",
+          "subtitle": "ساخته شده برای ارتباطات حیاتی با زیرساخت در سطح اپراتور و تضمین آپتایم ۹۹.۹۹٪.",
           "security": {
-            "title": "[FA]Security & Compliance",
-            "description": "[FA]SOC 2, HIPAA, and PCI compliant infrastructure"
+            "title": "امنیت و انطباق",
+            "description": "زیرساخت سازگار با SOC 2، HIPAA و PCI"
           },
           "monitoring": {
-            "title": "[FA]24/7 Monitoring",
-            "description": "[FA]Real-time system monitoring and instant failover"
+            "title": "نظارت ۲۴/۷",
+            "description": "نظارت بر سیستم در زمان واقعی و جایگزینی فوری"
           },
           "infrastructure": {
-            "title": "[FA]Global Infrastructure",
-            "description": "[FA]Redundant data centers across multiple regions"
+            "title": "زیرساخت جهانی",
+            "description": "مراکز داده اضافی در چندین منطقه"
           },
           "technical": {
-            "title": "[FA]Technical Specifications",
+            "title": "مشخصات فنی",
             "concurrentCalls": {
-              "label": "[FA]Concurrent Calls",
-              "value": "[FA]Unlimited"
+              "label": "تماس‌های همزمان",
+              "value": "نامحدود"
             },
             "audioQuality": {
-              "label": "[FA]Audio Quality",
-              "value": "[FA]HD Voice (G.722)"
+              "label": "کیفیت صدا",
+              "value": "صدای HD (G.722)"
             },
             "latency": {
-              "label": "[FA]Latency",
-              "value": "[FA]< 150ms"
+              "label": "تأخیر",
+              "value": "< ۱۵۰ میلی‌ثانیه"
             },
             "uptimeSLA": {
-              "label": "[FA]Uptime SLA",
-              "value": "[FA]99.99%"
+              "label": "SLA آپتایم",
+              "value": "۹۹.۹۹٪"
             },
             "globalCoverage": {
-              "label": "[FA]Global Coverage",
-              "value": "[FA]200+ Countries"
+              "label": "پوشش جهانی",
+              "value": "بیش از ۲۰۰ کشور"
             }
           }
         },
         "cta": {
-          "title": "[FA]Ready to Modernize Your Phone System?",
-          "subtitle": "[FA]Connect your landline and mobile infrastructure with AI voice agents in minutes",
-          "button": "[FA]Schedule Integration Call"
+          "title": "آماده‌اید تا سیستم تلفن خود را مدرن کنید؟",
+          "subtitle": "زیرساخت تلفن ثابت و موبایل خود را در چند دقیقه با نمایندگان صوتی هوش مصنوعی متصل کنید",
+          "button": "زمان‌بندی تماس ادغام"
         }
       },
       "endToEndLLMs": {
         "hero": {
-          "title": "[FA]End-to-End LLM Solutions",
-          "subtitle": "[FA]Complete large language model integration from speech input to intelligent response generation. Powered by advanced AI that understands context, maintains conversations, and executes business logic.",
-          "cta": "[FA]Explore LLM Capabilities"
+          "title": "راه‌حل‌های LLM سرتاسری",
+          "subtitle": "ادغام کامل مدل زبان بزرگ از ورودی گفتار تا تولید پاسخ هوشمند. با پشتیبانی هوش مصنوعی پیشرفته که زمینه را درک می‌کند، مکالمات را حفظ می‌کند و منطق تجاری را اجرا می‌کند.",
+          "cta": "کاوش در قابلیت‌های LLM"
         },
         "features": {
-          "title": "[FA]Complete LLM Integration",
-          "subtitle": "[FA]From speech understanding to intelligent response generation",
+          "title": "ادغام کامل LLM",
+          "subtitle": "از درک گفتار تا تولید پاسخ هوشمند",
           "advancedModels": {
-            "title": "[FA]Advanced Language Models",
-            "description": "[FA]State-of-the-art large language models optimized for conversational AI and business applications.",
-            "gpt4Integration": "[FA]GPT-4 integration",
-            "customFineTuning": "[FA]Custom fine-tuning",
-            "domainSpecific": "[FA]Domain-specific models",
-            "multiModal": "[FA]Multi-modal support"
+            "title": "مدل‌های زبان پیشرفته",
+            "description": "مدل‌های زبان بزرگ پیشرفته بهینه‌سازی شده برای هوش مصنوعی مکالمه‌ای و برنامه‌های تجاری.",
+            "gpt4Integration": "ادغام GPT-4",
+            "customFineTuning": "تنظیم دقیق سفارشی",
+            "domainSpecific": "مدل‌های خاص دامنه",
+            "multiModal": "پشتیبانی چندوجهی"
           },
           "knowledgeIntegration": {
-            "title": "[FA]Knowledge Integration",
-            "description": "[FA]Seamlessly integrate your business knowledge base with RAG (Retrieval-Augmented Generation) technology.",
-            "documentIngestion": "[FA]Document ingestion",
-            "realTimeUpdates": "[FA]Real-time updates",
-            "semanticSearch": "[FA]Semantic search",
-            "contextAwareness": "[FA]Context awareness"
+            "title": "ادغام دانش",
+            "description": "پایگاه دانش تجاری خود را به طور یکپارچه با فناوری RAG (تولید افزوده بازیابی) ادغام کنید.",
+            "documentIngestion": "دریافت اسناد",
+            "realTimeUpdates": "به‌روزرسانی‌های در زمان واقعی",
+            "semanticSearch": "جستجوی معنایی",
+            "contextAwareness": "آگاهی از زمینه"
           },
           "enterpriseSecurity": {
-            "title": "[FA]Enterprise Security",
-            "description": "[FA]Enterprise-grade security and compliance for sensitive business conversations.",
-            "dataEncryption": "[FA]Data encryption",
-            "accessControls": "[FA]Access controls",
-            "auditLogging": "[FA]Audit logging",
-            "complianceReady": "[FA]Compliance ready"
+            "title": "امنیت سازمانی",
+            "description": "امنیت و انطباق در سطح سازمانی برای مکالمات تجاری حساس.",
+            "dataEncryption": "رمزگذاری داده‌ها",
+            "accessControls": "کنترل‌های دسترسی",
+            "auditLogging": "ثبت حسابرسی",
+            "complianceReady": "آماده برای انطباق"
           }
         },
         "capabilities": {
-          "title": "[FA]Advanced LLM Capabilities",
-          "subtitle": "[FA]Sophisticated language understanding and generation for business applications",
+          "title": "قابلیت‌های پیشرفته LLM",
+          "subtitle": "درک و تولید زبان پیچیده برای برنامه‌های تجاری",
           "nlu": {
-            "category": "[FA]Natural Language Understanding",
-            "description": "[FA]Advanced comprehension of user intent, context, and nuanced communication.",
-            "intentAccuracy": "[FA]Intent accuracy: 98%",
-            "contextRetention": "[FA]Context retention: 95%",
-            "sentimentAnalysis": "[FA]Sentiment analysis: 96%"
+            "category": "درک زبان طبیعی",
+            "description": "درک پیشرفته قصد کاربر، زمینه و ارتباطات ظریف.",
+            "intentAccuracy": "دقت قصد: ۹۸٪",
+            "contextRetention": "حفظ زمینه: ۹۵٪",
+            "sentimentAnalysis": "تجزیه و تحلیل احساسات: ۹۶٪"
           },
           "conversationalFlow": {
-            "category": "[FA]Conversational Flow",
-            "description": "[FA]Maintain natural, coherent conversations across multiple turns and topics.",
-            "multiTurnCoherence": "[FA]Multi-turn coherence: 94%",
-            "topicSwitching": "[FA]Topic switching: 92%",
-            "contextPreservation": "[FA]Context preservation: 97%"
+            "category": "جریان مکالمه",
+            "description": "حفظ مکالمات طبیعی و منسجم در چندین نوبت و موضوع.",
+            "multiTurnCoherence": "انسجام چند نوبتی: ۹۴٪",
+            "topicSwitching": "تغییر موضوع: ۹۲٪",
+            "contextPreservation": "حفظ زمینه: ۹۷٪"
           },
           "businessLogic": {
-            "category": "[FA]Business Logic Integration",
-            "description": "[FA]Execute complex business workflows and decision-making processes.",
-            "workflowAccuracy": "[FA]Workflow accuracy: 99%",
-            "decisionConsistency": "[FA]Decision consistency: 98%",
-            "errorHandling": "[FA]Error handling: 95%"
+            "category": "ادغام منطق تجاری",
+            "description": "اجرای گردش کار تجاری پیچیده و فرآیندهای تصمیم‌گیری.",
+            "workflowAccuracy": "دقت گردش کار: ۹۹٪",
+            "decisionConsistency": "ثبات تصمیم: ۹۸٪",
+            "errorHandling": "رسیدگی به خطا: ۹۵٪"
           },
           "personalization": {
-            "category": "[FA]Personalization",
-            "description": "[FA]Adapt responses based on user history, preferences, and business context.",
-            "personalizationScore": "[FA]Personalization score: 93%",
-            "userSatisfaction": "[FA]User satisfaction: 96%",
-            "engagementRate": "[FA]Engagement rate: 89%"
+            "category": "شخصی‌سازی",
+            "description": "پاسخ‌ها را بر اساس تاریخچه کاربر، ترجیحات و زمینه تجاری تطبیق دهید.",
+            "personalizationScore": "امتیاز شخصی‌سازی: ۹۳٪",
+            "userSatisfaction": "رضایت کاربر: ۹۶٪",
+            "engagementRate": "نرخ تعامل: ۸۹٪"
           }
         },
         "architecture": {
-          "title": "[FA]End-to-End Architecture",
-          "subtitle": "[FA]Complete pipeline from speech input to intelligent voice response",
+          "title": "معماری سرتاسری",
+          "subtitle": "خط لوله کامل از ورودی گفتار تا پاسخ صوتی هوشمند",
           "speechInput": {
-            "title": "[FA]Speech Input Processing",
-            "description": "[FA]Convert speech to text with industry-leading accuracy",
-            "kaldiASR": "[FA]Kaldi-based ASR",
-            "noiseReduction": "[FA]Noise reduction",
-            "speakerDiarization": "[FA]Speaker diarization"
+            "title": "پردازش ورودی گفتار",
+            "description": "تبدیل گفتار به متن با دقت پیشرو در صنعت",
+            "kaldiASR": "ASR مبتنی بر Kaldi",
+            "noiseReduction": "کاهش نویز",
+            "speakerDiarization": "تفکیک گوینده"
           },
           "llmProcessing": {
-            "title": "[FA]Language Model Processing",
-            "description": "[FA]Advanced LLM processing with business context integration",
-            "gpt4Turbo": "[FA]GPT-4 Turbo",
-            "customFineTuning": "[FA]Custom fine-tuning",
-            "ragIntegration": "[FA]RAG integration"
+            "title": "پردازش مدل زبان",
+            "description": "پردازش پیشرفته LLM با ادغام زمینه تجاری",
+            "gpt4Turbo": "GPT-4 Turbo",
+            "customFineTuning": "تنظیم دقیق سفارشی",
+            "ragIntegration": "ادغام RAG"
           },
           "responseGeneration": {
-            "title": "[FA]Response Generation",
-            "description": "[FA]Generate contextually appropriate and business-aligned responses",
-            "templateSystems": "[FA]Template systems",
-            "dynamicContent": "[FA]Dynamic content",
-            "complianceChecking": "[FA]Compliance checking"
+            "title": "تولید پاسخ",
+            "description": "تولید پاسخ‌های مناسب متنی و همسو با کسب‌وکار",
+            "templateSystems": "سیستم‌های الگو",
+            "dynamicContent": "محتوای پویا",
+            "complianceChecking": "بررسی انطباق"
           },
           "speechOutput": {
-            "title": "[FA]Speech Output Synthesis",
-            "description": "[FA]Convert text responses to natural-sounding speech",
-            "neuralTTS": "[FA]Neural TTS",
-            "voiceCloning": "[FA]Voice cloning",
-            "emotionControl": "[FA]Emotion control"
+            "title": "سنتز خروجی گفتار",
+            "description": "تبدیل پاسخ‌های متنی به گفتار با صدای طبیعی",
+            "neuralTTS": "TTS عصبی",
+            "voiceCloning": "شبیه‌سازی صدا",
+            "emotionControl": "کنترل احساسات"
           }
         },
         "useCases": {
-          "title": "[FA]Intelligent Use Cases",
-          "subtitle": "[FA]Transform business operations with AI-powered conversations",
+          "title": "موارد استفاده هوشمند",
+          "subtitle": "عملیات تجاری را با مکالمات مجهز به هوش مصنوعی متحول کنید",
           "customerSupport": {
-            "title": "[FA]Intelligent Customer Support",
-            "description": "[FA]Handle complex customer inquiries with human-like understanding and problem-solving capabilities.",
-            "reducedEscalation": "[FA]Reduced escalation rates",
-            "fasterResolution": "[FA]Faster resolution times",
-            "consistentQuality": "[FA]Consistent service quality",
-            "availability24x7": "[FA]24/7 availability"
+            "title": "پشتیبانی هوشمند مشتری",
+            "description": "سوالات پیچیده مشتری را با درک و قابلیت‌های حل مسئله شبیه انسان مدیریت کنید.",
+            "reducedEscalation": "نرخ تشدید کاهش یافته",
+            "fasterResolution": "زمان حل سریعتر",
+            "consistentQuality": "کیفیت خدمات مداوم",
+            "availability24x7": "در دسترس بودن ۲۴/۷"
           },
           "salesConversations": {
-            "title": "[FA]Sales Conversations",
-            "description": "[FA]Engage prospects with personalized sales conversations that adapt to customer needs and preferences.",
-            "higherConversion": "[FA]Higher conversion rates",
-            "personalizedRecommendations": "[FA]Personalized recommendations",
-            "objectionHandling": "[FA]Objection handling",
-            "leadQualification": "[FA]Lead qualification"
+            "title": "مکالمات فروش",
+            "description": "مشتریان بالقوه را با مکالمات فروش شخصی‌سازی شده که با نیازها و ترجیحات مشتری سازگار است، درگیر کنید.",
+            "higherConversion": "نرخ تبدیل بالاتر",
+            "personalizedRecommendations": "توصیه‌های شخصی‌سازی شده",
+            "objectionHandling": "رسیدگی به مخالفت‌ها",
+            "leadQualification": "واجد شرایط کردن سرنخ"
           },
           "technicalSupport": {
-            "title": "[FA]Technical Support",
-            "description": "[FA]Provide expert-level technical assistance with access to comprehensive knowledge bases.",
-            "complexTroubleshooting": "[FA]Complex troubleshooting",
-            "stepByStepGuidance": "[FA]Step-by-step guidance",
-            "documentationAccess": "[FA]Documentation access",
-            "escalationIntelligence": "[FA]Escalation intelligence"
+            "title": "پشتیبانی فنی",
+            "description": "کمک فنی در سطح متخصص را با دسترسی به پایگاه‌های دانش جامع ارائه دهید.",
+            "complexTroubleshooting": "عیب‌یابی پیچیده",
+            "stepByStepGuidance": "راهنمایی گام به گام",
+            "documentationAccess": "دسترسی به مستندات",
+            "escalationIntelligence": "هوش تشدید"
           },
           "healthcareAssistance": {
-            "title": "[FA]Healthcare Assistance",
-            "description": "[FA]Support healthcare workflows with HIPAA-compliant AI that understands medical terminology.",
-            "medicalKnowledge": "[FA]Medical knowledge base",
-            "appointmentScheduling": "[FA]Appointment scheduling",
-            "symptomAssessment": "[FA]Symptom assessment",
-            "careCoordination": "[FA]Care coordination"
+            "title": "کمک مراقبت‌های بهداشتی",
+            "description": "گردش کار مراقبت‌های بهداشتی را با هوش مصنوعی سازگار با HIPAA که اصطلاحات پزشکی را درک می‌کند، پشتیبانی کنید.",
+            "medicalKnowledge": "پایگاه دانش پزشکی",
+            "appointmentScheduling": "زمان‌بندی قرار ملاقات",
+            "symptomAssessment": "ارزیابی علائم",
+            "careCoordination": "هماهنگی مراقبت"
           }
         },
         "performance": {
-          "title": "[FA]Enterprise Performance",
-          "description": "[FA]Our end-to-end LLM solution delivers enterprise-grade performance with real-time processing, high accuracy, and reliable scalability for mission-critical business applications.",
-          "realTimeTitle": "[FA]Real-Time Processing",
-          "realTimeDesc": "[FA]Sub-second response times for natural conversations",
-          "securityTitle": "[FA]Enterprise Security",
-          "securityDesc": "[FA]SOC 2, HIPAA, and PCI compliant infrastructure",
-          "qualityTitle": "[FA]Conversation Quality",
-          "qualityDesc": "[FA]Human-like interactions with context awareness",
-          "metricsTitle": "[FA]Performance Metrics",
-          "responseLatency": "[FA]Response Latency",
-          "responseLatencyValue": "[FA]< 500ms",
-          "intentAccuracy": "[FA]Intent Accuracy",
-          "intentAccuracyValue": "[FA]98.2%",
-          "contextRetention": "[FA]Context Retention",
-          "contextRetentionValue": "[FA]95.8%",
-          "uptimeSLA": "[FA]Uptime SLA",
-          "uptimeSLAValue": "[FA]99.99%",
-          "concurrentUsers": "[FA]Concurrent Users",
-          "concurrentUsersValue": "[FA]10,000+"
+          "title": "عملکرد سازمانی",
+          "description": "راه‌حل LLM سرتاسری ما عملکرد در سطح سازمانی را با پردازش در زمان واقعی، دقت بالا و مقیاس‌پذیری قابل اعتماد برای برنامه‌های تجاری حیاتی ارائه می‌دهد.",
+          "realTimeTitle": "پردازش در زمان واقعی",
+          "realTimeDesc": "زمان پاسخ زیر ثانیه برای مکالمات طبیعی",
+          "securityTitle": "امنیت سازمانی",
+          "securityDesc": "زیرساخت سازگار با SOC 2، HIPAA و PCI",
+          "qualityTitle": "کیفیت مکالمه",
+          "qualityDesc": "تعاملات شبیه انسان با آگاهی از زمینه",
+          "metricsTitle": "معیارهای عملکرد",
+          "responseLatency": "تأخیر پاسخ",
+          "responseLatencyValue": "< ۵۰۰ میلی‌ثانیه",
+          "intentAccuracy": "دقت قصد",
+          "intentAccuracyValue": "۹۸.۲٪",
+          "contextRetention": "حفظ زمینه",
+          "contextRetentionValue": "۹۵.۸٪",
+          "uptimeSLA": "SLA آپتایم",
+          "uptimeSLAValue": "۹۹.۹۹٪",
+          "concurrentUsers": "کاربران همزمان",
+          "concurrentUsersValue": "+۱۰٬۰۰۰"
         },
         "cta": {
-          "title": "[FA]Ready to Deploy Intelligent Conversations?",
-          "subtitle": "[FA]Transform your business with end-to-end LLM solutions that understand, reason, and respond intelligently",
-          "scheduleDemoButton": "[FA]Schedule LLM Demo",
-          "exploreArchButton": "[FA]Explore Architecture"
+          "title": "آماده‌اید تا مکالمات هوشمند را مستقر کنید؟",
+          "subtitle": "کسب‌وکار خود را با راه‌حل‌های LLM سرتاسری که به طور هوشمند درک، استدلال و پاسخ می‌دهند، متحول کنید",
+          "scheduleDemoButton": "زمان‌بندی دموی LLM",
+          "exploreArchButton": "کاوش در معماری"
         }
       },
       "lineCallPlus": {
         "hero": {
-          "title": "[FA]LINE Call Plus for Businesses",
-          "description": "[FA]Transform your LINE Business account with AI-powered voice calling. Connect with customers across Asia-Pacific markets through their preferred messaging platform.",
-          "cta": "[FA]Start LINE Integration"
+          "title": "Line Call Plus برای کسب‌وکارها",
+          "description": "حساب کسب‌وکار LINE خود را با تماس صوتی مجهز به هوش مصنوعی متحول کنید. از طریق پلتفرم پیام‌رسانی ترجیحی آنها با مشتریان در بازارهای آسیا-اقیانوسیه ارتباط برقرار کنید.",
+          "cta": "شروع ادغام LINE"
         },
         "marketReach": {
-          "title": "[FA]Reach Millions Across Asia-Pacific",
-          "subtitle": "[FA]LINE dominates business communications in key Asian markets",
-          "activeUsers": "[FA]Active Users",
-          "marketPenetration": "[FA]Market Penetration"
+          "title": "به میلیون‌ها نفر در سراسر آسیا-اقیانوسیه دسترسی پیدا کنید",
+          "subtitle": "LINE بر ارتباطات تجاری در بازارهای کلیدی آسیا تسلط دارد",
+          "activeUsers": "کاربران فعال",
+          "marketPenetration": "نفوذ در بازار"
         },
         "features": {
-          "title": "[FA]Powerful LINE Business Features",
-          "subtitle": "[FA]Everything you need to provide exceptional voice experiences on LINE",
+          "title": "ویژگی‌های قدرتمند کسب‌وکار LINE",
+          "subtitle": "هر آنچه برای ارائه تجربیات صوتی استثنایی در LINE نیاز دارید",
           "nativeIntegration": {
-            "title": "[FA]Native LINE Integration",
-            "description": "[FA]Seamlessly integrate voice calling directly within the LINE messaging platform.",
-            "benefit1": "[FA]One-tap calling from chat",
-            "benefit2": "[FA]Unified conversation history",
-            "benefit3": "[FA]Rich media support"
+            "title": "ادغام بومی LINE",
+            "description": "تماس صوتی را به طور یکپارچه مستقیماً در پلتفرم پیام‌رسانی LINE ادغام کنید.",
+            "benefit1": "تماس با یک ضربه از چت",
+            "benefit2": "تاریخچه مکالمه یکپارچه",
+            "benefit3": "پشتیبانی از رسانه غنی"
           },
           "businessAccount": {
-            "title": "[FA]Business Account Support",
-            "description": "[FA]Full support for LINE Business accounts with advanced features and analytics.",
-            "benefit1": "[FA]Verified business profiles",
-            "benefit2": "[FA]Custom branding options",
-            "benefit3": "[FA]Advanced user management"
+            "title": "پشتیبانی از حساب کسب‌وکار",
+            "description": "پشتیبانی کامل از حساب‌های کسب‌وکار LINE با ویژگی‌ها و تجزیه و تحلیل پیشرفته.",
+            "benefit1": "پروفایل‌های تجاری تأیید شده",
+            "benefit2": "گزینه‌های برندسازی سفارشی",
+            "benefit3": "مدیریت پیشرفته کاربر"
           },
           "asiaPacific": {
-            "title": "[FA]Asia-Pacific Focus",
-            "description": "[FA]Optimized for key Asian markets where LINE dominates business communications.",
-            "benefit1": "[FA]Local language support",
-            "benefit2": "[FA]Regional compliance",
-            "benefit3": "[FA]Cultural customization"
+            "title": "تمرکز بر آسیا-اقیانوسیه",
+            "description": "بهینه‌سازی شده برای بازارهای کلیدی آسیا که LINE بر ارتباطات تجاری تسلط دارد.",
+            "benefit1": "پشتیبانی از زبان محلی",
+            "benefit2": "انطباق منطقه‌ای",
+            "benefit3": "سفارشی‌سازی فرهنگی"
           }
         },
         "useCases": {
-          "title": "[FA]Transform Customer Interactions",
-          "subtitle": "[FA]See how businesses use LINE Call Plus to enhance customer relationships",
+          "title": "تحول تعاملات مشتری",
+          "subtitle": "ببینید چگونه کسب‌وکارها از Line Call Plus برای افزایش روابط با مشتری استفاده می‌کنند",
           "customerSupport": {
-            "title": "[FA]Customer Support",
-            "description": "[FA]Provide instant voice support directly within LINE conversations.",
-            "metric1": "[FA]50% faster resolution",
-            "metric2": "[FA]90% customer satisfaction",
-            "metric3": "[FA]24/7 availability"
+            "title": "پشتیبانی مشتری",
+            "description": "پشتیبانی صوتی فوری را مستقیماً در مکالمات LINE ارائه دهید.",
+            "metric1": "۵۰٪ حل سریعتر",
+            "metric2": "رضایت مشتری ۹۰٪",
+            "metric3": "در دسترس بودن ۲۴/۷"
           },
           "salesConsultations": {
-            "title": "[FA]Sales Consultations",
-            "description": "[FA]Convert chat inquiries to voice calls for personalized sales experiences.",
-            "metric1": "[FA]3x higher conversion",
-            "metric2": "[FA]Personalized recommendations",
-            "metric3": "[FA]Trust building"
+            "title": "مشاوره‌های فروش",
+            "description": "سوالات چت را برای تجربیات فروش شخصی‌سازی شده به تماس‌های صوتی تبدیل کنید.",
+            "metric1": "۳ برابر تبدیل بالاتر",
+            "metric2": "توصیه‌های شخصی‌سازی شده",
+            "metric3": "ایجاد اعتماد"
           },
           "appointmentBooking": {
-            "title": "[FA]Appointment Booking",
-            "description": "[FA]Enable voice-based appointment scheduling within LINE Business accounts.",
-            "metric1": "[FA]Instant confirmations",
-            "metric2": "[FA]Calendar integration",
-            "metric3": "[FA]Automated reminders"
+            "title": "رزرو قرار ملاقات",
+            "description": "زمان‌بندی قرار ملاقات مبتنی بر صدا را در حساب‌های کسب‌وکار LINE فعال کنید.",
+            "metric1": "تأییدیه‌های فوری",
+            "metric2": "ادغام تقویم",
+            "metric3": "یادآوری‌های خودکار"
           }
         },
         "integration": {
-          "title": "[FA]Simple Integration Process",
-          "subtitle": "[FA]Get started with LINE Call Plus in just a few steps",
+          "title": "فرآیند ادغام ساده",
+          "subtitle": "فقط در چند مرحله با Line Call Plus شروع کنید",
           "step1": {
-            "title": "[FA]Connect LINE Business",
-            "description": "[FA]Link your existing LINE Business account or create a new one with our guided setup."
+            "title": "اتصال کسب‌وکار LINE",
+            "description": "حساب کسب‌وکار LINE موجود خود را پیوند دهید یا با راه‌اندازی هدایت شده ما یک حساب جدید ایجاد کنید."
           },
           "step2": {
-            "title": "[FA]Configure Voice Agents",
-            "description": "[FA]Set up your AI voice agents with custom scripts, voices, and business logic."
+            "title": "پیکربندی نمایندگان صوتی",
+            "description": "نمایندگان صوتی هوش مصنوعی خود را با اسکریپت‌ها، صداها و منطق تجاری سفارشی تنظیم کنید."
           },
           "step3": {
-            "title": "[FA]Go Live",
-            "description": "[FA]Launch your voice-enabled LINE Business account and start engaging customers."
+            "title": "راه‌اندازی کنید",
+            "description": "حساب کسب‌وکار LINE مجهز به صدای خود را راه‌اندازی کنید و شروع به تعامل با مشتریان کنید."
           }
         },
         "analytics": {
-          "title": "[FA]Comprehensive Analytics",
-          "description": "[FA]Track performance, understand customer behavior, and optimize your LINE voice interactions with detailed analytics and reporting.",
+          "title": "تجزیه و تحلیل جامع",
+          "description": "عملکرد را ردیابی کنید، رفتار مشتری را درک کنید و تعاملات صوتی LINE خود را با تجزیه و تحلیل و گزارش‌دهی دقیق بهینه کنید.",
           "callAnalytics": {
-            "title": "[FA]Call Analytics",
-            "description": "[FA]Track call volume, duration, and success rates"
+            "title": "تجزیه و تحلیل تماس",
+            "description": "حجم تماس، مدت زمان و نرخ موفقیت را ردیابی کنید"
           },
           "userEngagement": {
-            "title": "[FA]User Engagement",
-            "description": "[FA]Monitor user interactions and satisfaction scores"
+            "title": "تعامل کاربر",
+            "description": "تعاملات کاربر و امتیازات رضایت را نظارت کنید"
           },
           "platformInsights": {
-            "title": "[FA]Platform Insights",
-            "description": "[FA]LINE-specific metrics and performance data"
+            "title": "بینش‌های پلتفرم",
+            "description": "معیارهای خاص LINE و داده‌های عملکرد"
           },
           "dashboard": {
-            "title": "[FA]LINE Call Analytics",
-            "live": "[FA]Live",
-            "activeCalls": "[FA]Active Calls",
-            "responseRate": "[FA]Response Rate",
-            "avgCallDuration": "[FA]Avg. Call Duration",
-            "customerSatisfaction": "[FA]Customer Satisfaction",
-            "sampleResponse": "[FA]Japanese voice agent responding to customer"
+            "title": "تجزیه و تحلیل تماس LINE",
+            "live": "زنده",
+            "activeCalls": "تماس‌های فعال",
+            "responseRate": "نرخ پاسخ",
+            "avgCallDuration": "میانگین مدت زمان تماس",
+            "customerSatisfaction": "رضایت مشتری",
+            "sampleResponse": "نماینده صوتی ژاپنی در حال پاسخ به مشتری"
           }
         },
         "cta": {
-          "title": "[FA]Ready to Expand in Asia-Pacific?",
-          "description": "[FA]Connect with millions of LINE users and transform your customer engagement across key Asian markets",
-          "button": "[FA]Start LINE Integration"
+          "title": "آماده‌اید تا در آسیا-اقیانوسیه گسترش پیدا کنید؟",
+          "description": "با میلیون‌ها کاربر LINE ارتباط برقرار کنید و تعامل مشتری خود را در بازارهای کلیدی آسیا متحول کنید",
+          "button": "شروع ادغام LINE"
         }
       },
       "speechToText": {
         "hero": {
-          "title": "[FA]Speech-to-Text Technology",
-          "subtitle": "[FA]Industry-leading speech recognition with 99%+ accuracy. Convert any audio to text in real-time with support for 50+ languages and specialized industry vocabularies.",
-          "cta": "[FA]Try Speech Recognition"
+          "title": "فناوری تبدیل گفتار به متن",
+          "subtitle": "تشخیص گفتار پیشرو در صنعت با دقت بیش از ۹۹٪. هر صوتی را در زمان واقعی با پشتیبانی از بیش از ۵۰ زبان و واژگان صنعتی تخصصی به متن تبدیل کنید.",
+          "cta": "تشخیص گفتار را امتحان کنید"
         },
         "features": {
           "0": {
-            "title": "[FA]Real-Time Processing",
-            "description": "[FA]Convert speech to text in real-time with ultra-low latency for live conversations.",
+            "title": "پردازش در زمان واقعی",
+            "description": "گفتار را در زمان واقعی با تأخیر فوق‌العاده کم برای مکالمات زنده به متن تبدیل کنید.",
             "specs": {
-              "0": "[FA]< 100ms latency",
-              "1": "[FA]Streaming recognition",
-              "2": "[FA]Live transcription"
+              "0": "تأخیر < ۱۰۰ میلی‌ثانیه",
+              "1": "تشخیص جریانی",
+              "2": "رونویسی زنده"
             }
           },
           "1": {
-            "title": "[FA]Multi-Language Support",
-            "description": "[FA]Support for 50+ languages and dialects with automatic language detection.",
+            "title": "پشتیبانی چند زبانه",
+            "description": "پشتیبانی از بیش از ۵۰ زبان و گویش با تشخیص خودکار زبان.",
             "specs": {
-              "0": "[FA]50+ languages",
-              "1": "[FA]Auto-detection",
-              "2": "[FA]Regional accents"
+              "0": "بیش از ۵۰ زبان",
+              "1": "تشخیص خودکار",
+              "2": "لهجه‌های منطقه‌ای"
             }
           },
           "2": {
-            "title": "[FA]Industry Accuracy",
-            "description": "[FA]Specialized models trained for different industries and use cases.",
+            "title": "دقت صنعتی",
+            "description": "مدل‌های تخصصی آموزش دیده برای صنایع و موارد استفاده مختلف.",
             "specs": {
-              "0": "[FA]99%+ accuracy",
-              "1": "[FA]Domain-specific",
-              "2": "[FA]Custom vocabularies"
+              "0": "دقت بیش از ۹۹٪",
+              "1": "خاص دامنه",
+              "2": "واژگان سفارشی"
             }
           },
-          "title": "[FA]Advanced Speech Recognition",
-          "subtitle": "[FA]Built on the original Kaldi framework with modern deep learning enhancements"
+          "title": "تشخیص گفتار پیشرفته",
+          "subtitle": "ساخته شده بر روی چارچوب اصلی Kaldi با بهبودهای یادگیری عمیق مدرن"
         },
         "accuracy": {
-          "title": "[FA]Industry-Leading Accuracy",
-          "subtitle": "[FA]Specialized models trained for different industries and use cases",
+          "title": "دقت پیشرو در صنعت",
+          "subtitle": "مدل‌های تخصصی آموزش دیده برای صنایع و موارد استفاده مختلف",
           "stats": {
             "0": {
-              "category": "[FA]General Conversation",
-              "accuracy": "[FA]99.2%",
-              "improvement": "[FA]+15%"
+              "category": "مکالمه عمومی",
+              "accuracy": "۹۹.۲٪",
+              "improvement": "+۱۵٪"
             },
             "1": {
-              "category": "[FA]Medical Terminology",
-              "accuracy": "[FA]98.8%",
-              "improvement": "[FA]+22%"
+              "category": "اصطلاحات پزشکی",
+              "accuracy": "۹۸.۸٪",
+              "improvement": "+۲۲٪"
             },
             "2": {
-              "category": "[FA]Financial Services",
-              "accuracy": "[FA]99.1%",
-              "improvement": "[FA]+18%"
+              "category": "خدمات مالی",
+              "accuracy": "۹۹.۱٪",
+              "improvement": "+۱۸٪"
             },
             "3": {
-              "category": "[FA]Technical Support",
-              "accuracy": "[FA]98.9%",
-              "improvement": "[FA]+20%"
+              "category": "پشتیبانی فنی",
+              "accuracy": "۹۸.۹٪",
+              "improvement": "+۲۰٪"
             }
           },
-          "improvementSuffix": "[FA] vs industry average"
+          "improvementSuffix": " در مقابل میانگین صنعت"
         },
         "languages": {
-          "title": "[FA]Global Language Support",
-          "subtitle": "[FA]Comprehensive support for major world languages with automatic language detection and regional accent recognition. Our models are continuously trained on diverse datasets to ensure accuracy across different speaking styles and environments.",
+          "title": "پشتیبانی زبان جهانی",
+          "subtitle": "پشتیبانی جامع از زبان‌های اصلی جهان با تشخیص خودکار زبان و تشخیص لهجه منطقه‌ای. مدل‌های ما به طور مداوم بر روی مجموعه داده‌های متنوع آموزش داده می‌شوند تا از دقت در سبک‌ها و محیط‌های مختلف صحبت اطمینان حاصل شود.",
           "features": {
             "0": {
-              "title": "[FA]50+ Languages",
-              "description": "[FA]Major world languages and regional dialects"
+              "title": "بیش از ۵۰ زبان",
+              "description": "زبان‌های اصلی جهان و گویش‌های منطقه‌ای"
             },
             "1": {
-              "title": "[FA]Auto-Detection",
-              "description": "[FA]Automatic language identification and switching"
+              "title": "تشخیص خودکار",
+              "description": "شناسایی و تغییر خودکار زبان"
             },
             "2": {
-              "title": "[FA]Continuous Learning",
-              "description": "[FA]Models improve with usage and feedback"
+              "title": "یادگیری مستمر",
+              "description": "مدل‌ها با استفاده و بازخورد بهبود می‌یابند"
             }
           },
-          "supportedTitle": "[FA]Supported Languages",
+          "supportedTitle": "زبان‌های پشتیبانی شده",
           "supportedLanguages": {
-            "0": "[FA]English (US, UK, AU)",
-            "1": "[FA]Spanish (ES, MX, AR)",
-            "2": "[FA]French (FR, CA)",
-            "3": "[FA]German",
-            "4": "[FA]Italian",
-            "5": "[FA]Portuguese (BR, PT)",
-            "6": "[FA]Japanese",
-            "7": "[FA]Korean",
-            "8": "[FA]Mandarin Chinese",
-            "9": "[FA]Cantonese",
-            "10": "[FA]Hindi",
-            "11": "[FA]Arabic",
-            "12": "[FA]Russian",
-            "13": "[FA]Dutch",
-            "14": "[FA]Swedish",
-            "15": "[FA]Norwegian"
+            "0": "انگلیسی (ایالات متحده، بریتانیا، استرالیا)",
+            "1": "اسپانیایی (اسپانیا، مکزیک، آرژانتین)",
+            "2": "فرانسوی (فرانسه، کانادا)",
+            "3": "آلمانی",
+            "4": "ایتالیایی",
+            "5": "پرتغالی (برزیل، پرتغال)",
+            "6": "ژاپنی",
+            "7": "کره‌ای",
+            "8": "چینی ماندارین",
+            "9": "کانتونی",
+            "10": "هندی",
+            "11": "عربی",
+            "12": "روسی",
+            "13": "هلندی",
+            "14": "سوئدی",
+            "15": "نروژی"
           },
-          "customNote": "[FA]Custom language models available for specialized vocabularies and industry-specific terminology"
+          "customNote": "مدل‌های زبان سفارشی برای واژگان تخصصی و اصطلاحات خاص صنعت موجود است"
         },
         "useCases": {
           "0": {
-            "title": "[FA]Call Center Transcription",
-            "description": "[FA]Real-time transcription of customer service calls for quality assurance and training.",
+            "title": "رونویسی مرکز تماس",
+            "description": "رونویسی در زمان واقعی تماس‌های خدمات مشتری برای تضمین کیفیت و آموزش.",
             "benefits": {
-              "0": "[FA]Quality monitoring",
-              "1": "[FA]Compliance recording",
-              "2": "[FA]Agent training",
-              "3": "[FA]Customer insights"
+              "0": "نظارت بر کیفیت",
+              "1": "ضبط انطباق",
+              "2": "آموزش نماینده",
+              "3": "بینش‌های مشتری"
             }
           },
           "1": {
-            "title": "[FA]Meeting Documentation",
-            "description": "[FA]Automatic transcription of meetings, conferences, and business discussions.",
+            "title": "مستندسازی جلسه",
+            "description": "رونویسی خودکار جلسات، کنفرانس‌ها و بحث‌های تجاری.",
             "benefits": {
-              "0": "[FA]Meeting minutes",
-              "1": "[FA]Action item extraction",
-              "2": "[FA]Searchable archives",
-              "3": "[FA]Multi-speaker ID"
+              "0": "صورتجلسه جلسه",
+              "1": "استخراج موارد اقدام",
+              "2": "بایگانی‌های قابل جستجو",
+              "3": "شناسه چند گوینده"
             }
           },
           "2": {
-            "title": "[FA]Voice Commands",
-            "description": "[FA]Convert voice commands to text for voice-controlled applications and interfaces.",
+            "title": "دستورات صوتی",
+            "description": "تبدیل دستورات صوتی به متن برای برنامه‌ها و رابط‌های کنترل شده با صدا.",
             "benefits": {
-              "0": "[FA]Hands-free operation",
-              "1": "[FA]Accessibility features",
-              "2": "[FA]Smart home control",
-              "3": "[FA]Mobile apps"
+              "0": "عملیات بدون دست",
+              "1": "ویژگی‌های دسترسی",
+              "2": "کنترل خانه هوشمند",
+              "3": "برنامه‌های موبایل"
             }
           },
           "3": {
-            "title": "[FA]Content Creation",
-            "description": "[FA]Transform audio content into text for podcasts, videos, and media production.",
+            "title": "ایجاد محتوا",
+            "description": "تبدیل محتوای صوتی به متن برای پادکست‌ها، ویدیوها و تولید رسانه.",
             "benefits": {
-              "0": "[FA]Subtitle generation",
-              "1": "[FA]Content indexing",
-              "2": "[FA]SEO optimization",
-              "3": "[FA]Accessibility compliance"
+              "0": "تولید زیرنویس",
+              "1": "نمایه‌سازی محتوا",
+              "2": "بهینه‌سازی سئو",
+              "3": "انطباق با دسترسی"
             }
           },
-          "title": "[FA]Powerful Use Cases",
-          "subtitle": "[FA]Transform audio into actionable text across industries and applications"
+          "title": "موارد استفاده قدرتمند",
+          "subtitle": "تبدیل صدا به متن عملی در صنایع و برنامه‌ها"
         },
         "specs": {
-          "title": "[FA]Technical Specifications",
-          "subtitle": "[FA]Enterprise-grade performance and reliability",
+          "title": "مشخصات فنی",
+          "subtitle": "عملکرد و قابلیت اطمینان در سطح سازمانی",
           "performance": {
-            "title": "[FA]Performance",
+            "title": "عملکرد",
             "latency": {
-              "label": "[FA]Latency",
-              "value": "[FA]< 100ms"
+              "label": "تأخیر",
+              "value": "< ۱۰۰ میلی‌ثانیه"
             },
             "accuracy": {
-              "label": "[FA]Accuracy",
-              "value": "[FA]99%+"
+              "label": "دقت",
+              "value": "+۹۹٪"
             },
             "throughput": {
-              "label": "[FA]Throughput",
-              "value": "[FA]1000+ concurrent"
+              "label": "توان عملیاتی",
+              "value": "بیش از ۱۰۰۰ همزمان"
             },
             "uptime": {
-              "label": "[FA]Uptime",
-              "value": "[FA]99.99%"
+              "label": "آپتایم",
+              "value": "۹۹.۹۹٪"
             }
           },
           "audioFormats": {
-            "title": "[FA]Audio Formats",
+            "title": "فرمت‌های صوتی",
             "sampleRate": {
-              "label": "[FA]Sample Rate",
-              "value": "[FA]8-48 kHz"
+              "label": "نرخ نمونه‌برداری",
+              "value": "۸-۴۸ کیلوهرتز"
             },
             "bitDepth": {
-              "label": "[FA]Bit Depth",
-              "value": "[FA]16-32 bit"
+              "label": "عمق بیت",
+              "value": "۱۶-۳۲ بیت"
             },
             "formats": {
-              "label": "[FA]Formats",
-              "value": "[FA]WAV, MP3, FLAC"
+              "label": "فرمت‌ها",
+              "value": "WAV، MP3، FLAC"
             },
             "streaming": {
-              "label": "[FA]Streaming",
-              "value": "[FA]Real-time"
+              "label": "جریانی",
+              "value": "در زمان واقعی"
             }
           },
           "integration": {
-            "title": "[FA]Integration",
+            "title": "ادغام",
             "api": {
-              "label": "[FA]API",
-              "value": "[FA]REST & WebSocket"
+              "label": "API",
+              "value": "REST و WebSocket"
             },
             "sdks": {
-              "label": "[FA]SDKs",
-              "value": "[FA]Python, Node.js, Go"
+              "label": "SDKها",
+              "value": "Python، Node.js، Go"
             },
             "webhooks": {
-              "label": "[FA]Webhooks",
-              "value": "[FA]Real-time events"
+              "label": "وب‌هوک‌ها",
+              "value": "رویدادهای در زمان واقعی"
             },
             "security": {
-              "label": "[FA]Security",
-              "value": "[FA]TLS 1.3, OAuth 2.0"
+              "label": "امنیت",
+              "value": "TLS 1.3، OAuth 2.0"
             }
           }
         },
         "cta": {
-          "title": "[FA]Ready to Transform Audio to Text?",
-          "subtitle": "[FA]Experience the power of industry-leading speech recognition technology",
-          "primaryButton": "[FA]Try Free Demo",
-          "secondaryButton": "[FA]View API Docs"
+          "title": "آماده‌اید تا صدا را به متن تبدیل کنید؟",
+          "subtitle": "قدرت فناوری تشخیص گفتار پیشرو در صنعت را تجربه کنید",
+          "primaryButton": "دموی رایگان را امتحان کنید",
+          "secondaryButton": "مشاهده مستندات API"
         }
       },
       "voipSipByoc": {
         "hero": {
-          "title": "[FA]VoIP, SIP & BYOC Voice Solutions",
-          "subtitle": "[FA]Enterprise-grade voice connectivity with maximum flexibility. Choose from VoIP integration, direct SIP trunking, or bring your own carrier for complete control.",
-          "cta": "[FA]Talk to Connectivity Specialist"
+          "title": "راه‌حل‌های صوتی VoIP، SIP و BYOC",
+          "subtitle": "اتصال صوتی در سطح سازمانی با حداکثر انعطاف‌پذیری. از بین ادغام VoIP، ترانک مستقیم SIP یا آوردن اپراتور خود برای کنترل کامل انتخاب کنید.",
+          "cta": "با متخصص اتصال صحبت کنید"
         },
         "connectionTypes": {
-          "title": "[FA]Flexible Connectivity Options",
-          "subtitle": "[FA]Choose the connection method that best fits your infrastructure and requirements",
-          "keyFeatures": "[FA]Key Features:",
+          "title": "گزینه‌های اتصال انعطاف‌پذیر",
+          "subtitle": "روش اتصالی را انتخاب کنید که به بهترین وجه با زیرساخت و الزامات شما مطابقت دارد",
+          "keyFeatures": "ویژگی‌های کلیدی:",
           "voip": {
-            "title": "[FA]VoIP Integration",
-            "description": "[FA]Connect your existing VoIP infrastructure seamlessly with our AI voice platform.",
+            "title": "ادغام VoIP",
+            "description": "زیرساخت VoIP موجود خود را به طور یکپارچه با پلتفرم صوتی هوش مصنوعی ما متصل کنید.",
             "features": {
-              "sipTrunk": "[FA]SIP trunk compatibility",
-              "codecOptimization": "[FA]Codec optimization",
-              "qos": "[FA]Quality of Service (QoS)",
-              "bandwidthManagement": "[FA]Bandwidth management"
+              "sipTrunk": "سازگاری با ترانک SIP",
+              "codecOptimization": "بهینه‌سازی کدک",
+              "qos": "کیفیت خدمات (QoS)",
+              "bandwidthManagement": "مدیریت پهنای باند"
             },
-            "pricing": "[FA]Starting at $0.08/minute"
+            "pricing": "شروع از ۰.۰۸ دلار/دقیقه"
           },
           "sip": {
-            "title": "[FA]SIP Trunking",
-            "description": "[FA]Direct SIP connectivity for maximum control and customization of your voice traffic.",
+            "title": "ترانک SIP",
+            "description": "اتصال مستقیم SIP برای حداکثر کنترل و سفارشی‌سازی ترافیک صوتی شما.",
             "features": {
-              "directEndpoints": "[FA]Direct SIP endpoints",
-              "customRouting": "[FA]Custom routing rules",
-              "failoverProtection": "[FA]Failover protection",
-              "realTimeMonitoring": "[FA]Real-time monitoring"
+              "directEndpoints": "نقاط پایانی مستقیم SIP",
+              "customRouting": "قوانین مسیریابی سفارشی",
+              "failoverProtection": "محافظت در برابر خرابی",
+              "realTimeMonitoring": "نظارت در زمان واقعی"
             },
-            "pricing": "[FA]Starting at $0.06/minute"
+            "pricing": "شروع از ۰.۰۶ دلار/دقیقه"
           },
           "byoc": {
-            "title": "[FA]Bring Your Own Carrier (BYOC)",
-            "description": "[FA]Use your preferred carriers while leveraging our AI voice capabilities.",
+            "title": "اپراتور خود را بیاورید (BYOC)",
+            "description": "از اپراتورهای ترجیحی خود استفاده کنید و در عین حال از قابلیت‌های صوتی هوش مصنوعی ما بهره‌مند شوید.",
             "features": {
-              "carrierIndependence": "[FA]Carrier independence",
-              "costOptimization": "[FA]Cost optimization",
-              "globalReach": "[FA]Global reach",
-              "vendorFlexibility": "[FA]Vendor flexibility"
+              "carrierIndependence": "استقلال اپراتور",
+              "costOptimization": "بهینه‌سازی هزینه",
+              "globalReach": "دسترسی جهانی",
+              "vendorFlexibility": "انعطاف‌پذیری فروشنده"
             },
-            "pricing": "[FA]Platform fee + carrier rates"
+            "pricing": "هزینه پلتفرم + نرخ‌های اپراتور"
           }
         },
         "benefits": {
-          "title": "[FA]Enterprise Benefits",
-          "subtitle": "[FA]Why leading enterprises choose our voice connectivity solutions",
+          "title": "مزایای سازمانی",
+          "subtitle": "چرا شرکت‌های پیشرو راه‌حل‌های اتصال صوتی ما را انتخاب می‌کنند",
           "costSavings": {
-            "title": "[FA]Cost Savings",
-            "description": "[FA]Reduce communication costs by up to 60% with optimized routing and carrier selection.",
-            "metric": "[FA]60%"
+            "title": "صرفه‌جویی در هزینه",
+            "description": "هزینه‌های ارتباطی را تا ۶۰٪ با مسیریابی بهینه و انتخاب اپراتور کاهش دهید.",
+            "metric": "۶۰٪"
           },
           "reliability": {
-            "title": "[FA]Reliability",
-            "description": "[FA]Enterprise-grade uptime with automatic failover and redundant infrastructure.",
-            "metric": "[FA]99.99%"
+            "title": "قابلیت اطمینان",
+            "description": "آپتایم در سطح سازمانی با جایگزینی خودکار و زیرساخت اضافی.",
+            "metric": "۹۹.۹۹٪"
           },
           "scalability": {
-            "title": "[FA]Scalability",
-            "description": "[FA]Handle thousands of concurrent calls with elastic scaling capabilities.",
-            "metric": "[FA]10,000+"
+            "title": "مقیاس‌پذیری",
+            "description": "هزاران تماس همزمان را با قابلیت‌های مقیاس‌پذیری الاستیک مدیریت کنید.",
+            "metric": "+۱۰٬۰۰۰"
           },
           "globalReach": {
-            "title": "[FA]Global Reach",
-            "description": "[FA]Connect to customers worldwide with local presence in major markets.",
-            "metric": "[FA]200+"
+            "title": "دسترسی جهانی",
+            "description": "با حضور محلی در بازارهای اصلی با مشتریان در سراسر جهان ارتباط برقرار کنید.",
+            "metric": "+۲۰۰"
           }
         },
         "technicalExcellence": {
-          "title": "[FA]Technical Excellence",
-          "subtitle": "[FA]Built on industry-standard protocols with enterprise-grade security and performance. Our platform supports all major codecs and provides real-time quality monitoring.",
+          "title": "برتری فنی",
+          "subtitle": "ساخته شده بر روی پروتکل‌های استاندارد صنعتی با امنیت و عملکرد در سطح سازمانی. پلتفرم ما از همه کدک‌های اصلی پشتیبانی می‌کند و نظارت بر کیفیت را در زمان واقعی ارائه می‌دهد.",
           "endToEndEncryption": {
-            "title": "[FA]End-to-End Encryption",
-            "description": "[FA]TLS 1.3 and SRTP for secure voice transmission"
+            "title": "رمزگذاری سرتاسری",
+            "description": "TLS 1.3 و SRTP برای انتقال امن صدا"
           },
           "lowLatency": {
-            "title": "[FA]Low Latency",
-            "description": "[FA]Sub-150ms latency for crystal clear conversations"
+            "title": "تأخیر کم",
+            "description": "تأخیر زیر ۱۵۰ میلی‌ثانیه برای مکالمات شفاف"
           },
           "advancedConfiguration": {
-            "title": "[FA]Advanced Configuration",
-            "description": "[FA]Granular control over routing and quality settings"
+            "title": "پیکربندی پیشرفته",
+            "description": "کنترل دقیق بر روی تنظیمات مسیریابی و کیفیت"
           }
         },
         "technicalSpecs": {
-          "title": "[FA]Technical Specifications",
+          "title": "مشخصات فنی",
           "supportedProtocols": {
-            "feature": "[FA]Supported Protocols",
-            "value": "[FA]SIP 2.0, RTP, SRTP"
+            "feature": "پروتکل‌های پشتیبانی شده",
+            "value": "SIP 2.0، RTP، SRTP"
           },
           "audioCodecs": {
-            "feature": "[FA]Audio Codecs",
-            "value": "[FA]G.711, G.722, G.729, Opus"
+            "feature": "کدک‌های صوتی",
+            "value": "G.711، G.722، G.729، Opus"
           },
           "encryption": {
-            "feature": "[FA]Encryption",
-            "value": "[FA]TLS 1.3, SRTP, AES-256"
+            "feature": "رمزگذاری",
+            "value": "TLS 1.3، SRTP، AES-256"
           },
           "networkRequirements": {
-            "feature": "[FA]Network Requirements",
-            "value": "[FA]100 kbps per concurrent call"
+            "feature": "الزامات شبکه",
+            "value": "۱۰۰ کیلوبیت بر ثانیه برای هر تماس همزمان"
           },
           "latency": {
-            "feature": "[FA]Latency",
-            "value": "[FA]< 150ms end-to-end"
+            "feature": "تأخیر",
+            "value": "< ۱۵۰ میلی‌ثانیه سرتاسری"
           },
           "jitterBuffer": {
-            "feature": "[FA]Jitter Buffer",
-            "value": "[FA]Adaptive, 20-200ms"
+            "feature": "بافر جیتر",
+            "value": "تطبیقی، ۲۰-۲۰۰ میلی‌ثانیه"
           }
         },
         "howItWorks": {
-          "title": "[FA]How It Works",
-          "subtitle": "[FA]Simple integration with your existing infrastructure",
+          "title": "چگونه کار می‌کند",
+          "subtitle": "ادغام ساده با زیرساخت موجود شما",
           "yourInfrastructure": {
-            "title": "[FA]Your Infrastructure",
-            "description": "[FA]Existing PBX, VoIP system, or carrier"
+            "title": "زیرساخت شما",
+            "description": "PBX، سیستم VoIP یا اپراتور موجود"
           },
           "seavoicePlatform": {
-            "title": "SeaVoice Platform",
-            "description": "[FA]AI voice processing and routing"
+            "title": "پلتفرم SeaVoice",
+            "description": "پردازش و مسیریابی صوتی هوش مصنوعی"
           },
           "globalNetwork": {
-            "title": "[FA]Global Network",
-            "description": "[FA]Worldwide carrier connections"
+            "title": "شبکه جهانی",
+            "description": "اتصالات اپراتور در سراسر جهان"
           }
         },
         "cta": {
-          "title": "[FA]Ready to Optimize Your Voice Infrastructure?",
-          "subtitle": "[FA]Speak with our connectivity specialists to design the perfect solution for your needs",
-          "scheduleConsultation": "[FA]Schedule Consultation",
-          "signUpForFree": "[FA]Sign Up For Free"
+          "title": "آماده‌اید تا زیرساخت صوتی خود را بهینه کنید؟",
+          "subtitle": "با متخصصان اتصال ما برای طراحی راه‌حل عالی برای نیازهای خود صحبت کنید",
+          "scheduleConsultation": "زمان‌بندی مشاوره",
+          "signUpForFree": "ثبت نام رایگان"
         }
       },
       "whatsAppVoice": {
         "hero": {
-          "title": "[FA]WhatsApp Voice API for Businesses",
-          "subtitle": "[FA]Transform your WhatsApp Business account with AI-powered voice calling. Reach 2+ billion users worldwide with seamless voice interactions.",
-          "cta": "[FA]Get WhatsApp Business Platform API"
+          "title": "API صدای واتس‌اپ برای کسب‌وکارها",
+          "subtitle": "حساب کسب‌وکار واتس‌اپ خود را با تماس صوتی مجهز به هوش مصنوعی متحول کنید. با تعاملات صوتی یکپارچه به بیش از ۲ میلیارد کاربر در سراسر جهان دسترسی پیدا کنید.",
+          "cta": "دریافت API پلتفرم کسب‌وکار واتس‌اپ"
         },
         "globalStats": {
-          "title": "[FA]Reach the World's Largest Messaging Platform",
-          "subtitle": "[FA]WhatsApp dominates global messaging with unprecedented reach and engagement",
+          "title": "به بزرگترین پلتفرم پیام‌رسانی جهان دسترسی پیدا کنید",
+          "subtitle": "واتس‌اپ با دسترسی و تعامل بی‌سابقه بر پیام‌رسانی جهانی تسلط دارد",
           "stats": {
             "0": {
-              "region": "[FA]Global Users",
-              "count": "[FA]2.78B+",
-              "growth": "[FA]+3.2% YoY"
+              "region": "کاربران جهانی",
+              "count": "+۲.۷۸ میلیارد",
+              "growth": "+۳.۲٪ سال به سال"
             },
             "1": {
-              "region": "[FA]Business Accounts",
-              "count": "[FA]200M+",
-              "growth": "[FA]+15% YoY"
+              "region": "حساب‌های تجاری",
+              "count": "+۲۰۰ میلیون",
+              "growth": "+۱۵٪ سال به سال"
             },
             "2": {
-              "region": "[FA]Daily Messages",
-              "count": "[FA]100B+",
-              "growth": "[FA]+8% YoY"
+              "region": "پیام‌های روزانه",
+              "count": "+۱۰۰ میلیارد",
+              "growth": "+۸٪ سال به سال"
             },
             "3": {
-              "region": "[FA]Countries",
-              "count": "[FA]180+",
-              "growth": "[FA]Full Coverage"
+              "region": "کشورها",
+              "count": "+۱۸۰",
+              "growth": "پوشش کامل"
             }
           }
         },
         "features": {
           "0": {
-            "title": "[FA]WhatsApp Business Platform API",
-            "description": "[FA]Official integration with WhatsApp Business Platform API for verified business communications.",
+            "title": "API پلتفرم کسب‌وکار واتس‌اپ",
+            "description": "ادغام رسمی با API پلتفرم کسب‌وکار واتس‌اپ برای ارتباطات تجاری تأیید شده.",
             "benefits": {
-              "0": "[FA]Green checkmark verification",
-              "1": "[FA]Business profile features",
-              "2": "[FA]Message templates"
+              "0": "تأیید تیک سبز",
+              "1": "ویژگی‌های پروفایل تجاری",
+              "2": "الگوهای پیام"
             }
           },
           "1": {
-            "title": "[FA]Global Reach",
-            "description": "[FA]Connect with 2+ billion WhatsApp users worldwide through voice calling.",
+            "title": "دسترسی جهانی",
+            "description": "از طریق تماس صوتی با بیش از ۲ میلیارد کاربر واتس‌اپ در سراسر جهان ارتباط برقرار کنید.",
             "benefits": {
-              "0": "[FA]180+ countries supported",
-              "1": "[FA]Multi-language capabilities",
-              "2": "[FA]Local number presence"
+              "0": "بیش از ۱۸۰ کشور پشتیبانی می‌شود",
+              "1": "قابلیت‌های چند زبانه",
+              "2": "حضور شماره محلی"
             }
           },
           "2": {
-            "title": "[FA]End-to-End Security",
-            "description": "[FA]Leverage WhatsApp's end-to-end encryption for secure business communications.",
+            "title": "امنیت سرتاسری",
+            "description": "از رمزگذاری سرتاسری واتس‌اپ برای ارتباطات تجاری امن استفاده کنید.",
             "benefits": {
-              "0": "[FA]Message encryption",
-              "1": "[FA]Secure voice calls",
-              "2": "[FA]Privacy compliance"
+              "0": "رمزگذاری پیام",
+              "1": "تماس‌های صوتی امن",
+              "2": "انطباق با حریم خصوصی"
             }
           },
-          "title": "[FA]Enterprise WhatsApp Voice Features",
-          "subtitle": "[FA]Everything you need to provide exceptional voice experiences on WhatsApp"
+          "title": "ویژگی‌های صوتی کسب‌وکار واتس‌اپ سازمانی",
+          "subtitle": "هر آنچه برای ارائه تجربیات صوتی استثنایی در واتس‌اپ نیاز دارید"
         },
         "useCases": {
           "0": {
-            "title": "[FA]Customer Support",
-            "description": "[FA]Provide instant voice support directly within WhatsApp conversations.",
+            "title": "پشتیبانی مشتری",
+            "description": "پشتیبانی صوتی فوری را مستقیماً در مکالمات واتس‌اپ ارائه دهید.",
             "metrics": {
-              "0": "[FA]60% faster resolution",
-              "1": "[FA]95% customer satisfaction",
-              "2": "[FA]Seamless escalation"
+              "0": "۶۰٪ حل سریعتر",
+              "1": "رضایت مشتری ۹۵٪",
+              "2": "تشدید یکپارچه"
             }
           },
           "1": {
-            "title": "[FA]Sales & Consultations",
-            "description": "[FA]Convert chat inquiries to voice calls for personalized sales experiences.",
+            "title": "فروش و مشاوره‌ها",
+            "description": "سوالات چت را برای تجربیات فروش شخصی‌سازی شده به تماس‌های صوتی تبدیل کنید.",
             "metrics": {
-              "0": "[FA]4x higher conversion",
-              "1": "[FA]Personal touch",
-              "2": "[FA]Trust building"
+              "0": "۴ برابر تبدیل بالاتر",
+              "1": "لمس شخصی",
+              "2": "ایجاد اعتماد"
             }
           },
           "2": {
-            "title": "[FA]Appointment Booking",
-            "description": "[FA]Enable voice-based appointment scheduling within WhatsApp Business Platform.",
+            "title": "رزرو قرار ملاقات",
+            "description": "زمان‌بندی قرار ملاقات مبتنی بر صدا را در پلتفرم کسب‌وکار واتس‌اپ فعال کنید.",
             "metrics": {
-              "0": "[FA]One-tap booking",
-              "1": "[FA]Calendar sync",
-              "2": "[FA]Automated confirmations"
+              "0": "رزرو با یک ضربه",
+              "1": "همگام‌سازی تقویم",
+              "2": "تأییدیه‌های خودکار"
             }
           },
           "3": {
-            "title": "[FA]Order Management",
-            "description": "[FA]Handle order inquiries, updates, and support through voice interactions.",
+            "title": "مدیریت سفارش",
+            "description": "سوالات، به‌روزرسانی‌ها و پشتیبانی سفارش را از طریق تعاملات صوتی مدیریت کنید.",
             "metrics": {
-              "0": "[FA]Real-time updates",
-              "1": "[FA]Order tracking",
-              "2": "[FA]Issue resolution"
+              "0": "به‌روزرسانی‌های در زمان واقعی",
+              "1": "ردیابی سفارش",
+              "2": "حل مشکل"
             }
           },
-          "title": "[FA]Transform Customer Interactions",
-          "subtitle": "[FA]See how businesses use WhatsApp Voice API to enhance customer relationships"
+          "title": "تحول تعاملات مشتری",
+          "subtitle": "ببینید چگونه کسب‌وکارها از API صدای واتس‌اپ برای افزایش روابط با مشتری استفاده می‌کنند"
         },
         "integration": {
-          "title": "[FA]Simple Integration Process",
-          "subtitle": "[FA]Get started with WhatsApp Voice API in just four steps",
+          "title": "فرآیند ادغام ساده",
+          "subtitle": "فقط در چهار مرحله با API صدای واتس‌اپ شروع کنید",
           "steps": {
             "0": {
-              "title": "[FA]WhatsApp Business Setup",
-              "description": "[FA]Connect your WhatsApp Business account or create a new verified business profile."
+              "title": "راه‌اندازی کسب‌وکار واتس‌اپ",
+              "description": "حساب کسب‌وکار واتس‌اپ خود را متصل کنید یا با راه‌اندازی هدایت شده ما یک پروفایل تجاری تأیید شده جدید ایجاد کنید."
             },
             "1": {
-              "title": "[FA]Voice Agent Configuration",
-              "description": "[FA]Configure AI voice agents with your business logic, scripts, and brand voice."
+              "title": "پیکربندی نماینده صوتی",
+              "description": "نمایندگان صوتی هوش مصنوعی را با منطق تجاری، اسکریپت‌ها و صدای برند خود پیکربندی کنید."
             },
             "2": {
-              "title": "[FA]API Integration",
-              "description": "[FA]Integrate with your existing systems using our comprehensive API and webhooks."
+              "title": "ادغام API",
+              "description": "با استفاده از API و وب‌هوک‌های جامع ما با سیستم‌های موجود خود ادغام شوید."
             },
             "3": {
-              "title": "[FA]Go Live",
-              "description": "[FA]Launch your voice-enabled WhatsApp Business and start engaging customers."
+              "title": "راه‌اندازی کنید",
+              "description": "کسب‌وکار واتس‌اپ مجهز به صدای خود را راه‌اندازی کنید و شروع به تعامل با مشتریان کنید."
             }
           }
         },
         "demo": {
-          "title": "[FA]See It in Action",
-          "subtitle": "[FA]Experience how seamlessly voice calling integrates with WhatsApp Business Platform. Our AI agents can handle complex conversations while maintaining the familiar WhatsApp experience your customers love.",
+          "title": "آن را در عمل ببینید",
+          "subtitle": "تجربه کنید که چگونه تماس صوتی به طور یکپارچه با پلتفرم کسب‌وکار واتس‌اپ ادغام می‌شود. نمایندگان هوش مصنوعی ما می‌توانند مکالمات پیچیده را مدیریت کنند و در عین حال تجربه آشنای واتس‌اپ را که مشتریان شما دوست دارند، حفظ کنند.",
           "features": {
             "0": {
-              "title": "[FA]One-Tap Calling",
-              "description": "[FA]Customers can initiate voice calls directly from chat"
+              "title": "تماس با یک ضربه",
+              "description": "مشتریان می‌توانند مستقیماً از چت تماس‌های صوتی را آغاز کنند"
             },
             "1": {
-              "title": "[FA]Seamless Handoff",
-              "description": "[FA]Smooth transition between AI and human agents"
+              "title": "تحویل یکپارچه",
+              "description": "انتقال روان بین نمایندگان هوش مصنوعی و انسانی"
             },
             "2": {
-              "title": "[FA]Unified History",
-              "description": "[FA]Complete conversation history across chat and voice"
+              "title": "تاریخچه یکپارچه",
+              "description": "تاریخچه کامل مکالمه در چت و صدا"
             }
           },
           "dashboard": {
-            "title": "[FA]WhatsApp Business Dashboard",
-            "liveStatus": "[FA]Live",
-            "stats": {
-              "activeVoiceCalls": {
-                "label": "[FA]Active Voice Calls",
-                "value": "[FA]89"
-              },
-              "messagesToday": {
-                "label": "[FA]Messages Today",
-                "value": "[FA]2,847"
-              },
-              "responseRate": {
-                "label": "[FA]Response Rate",
-                "value": "[FA]96%"
-              },
-              "customerSatisfaction": {
-                "label": "[FA]Customer Satisfaction",
-                "value": "[FA]4.9/5"
-              }
+            "title": "داشبورد کسب‌وکار واتس‌اپ",
+            "live": "زنده",
+            "activeVoiceCalls": {
+              "label": "تماس‌های صوتی فعال",
+              "value": "۸۹"
+            },
+            "messagesToday": {
+              "label": "پیام‌های امروز",
+              "value": "۲٬۸۴۷"
+            },
+            "responseRate": {
+              "label": "نرخ پاسخ",
+              "value": "۹۶٪"
+            },
+            "customerSatisfaction": {
+              "label": "رضایت مشتری",
+              "value": "۴.۹/۵"
             }
           },
           "aiAssistant": {
-            "name": "[FA]AI Assistant",
-            "message": "[FA]Hi! I'm here to help with your order. Would you like to speak with me directly? Just tap the call button above!"
+            "name": "دستیار هوش مصنوعی",
+            "message": "سلام! من اینجا هستم تا در مورد سفارش شما کمک کنم. آیا می‌خواهید مستقیماً با من صحبت کنید؟ فقط روی دکمه تماس بالا ضربه بزنید!"
           }
         },
         "cta": {
-          "title": "[FA]Ready to Transform WhatsApp Business?",
-          "subtitle": "[FA]Join thousands of businesses using WhatsApp Voice API to provide exceptional customer experiences",
-          "primaryButton": "[FA]Get Started Today",
-          "secondaryButton": "[FA]Schedule Demo"
+          "title": "آماده‌اید تا کسب‌وکار واتس‌اپ را متحول کنید؟",
+          "subtitle": "به هزاران کسب‌وکار بپیوندید که از API صدای واتس‌اپ برای ارائه تجربیات استثنایی مشتری استفاده می‌کنند",
+          "primaryButton": "امروز شروع کنید",
+          "secondaryButton": "زمان‌بندی دمو"
         }
       }
     },
     "components": {
       "interactiveCallDashboard": {
-        "liveDashboard": "[FA]Live Dashboard",
-        "controlCenter": "[FA]Control Center",
-        "realTimeAnalytics": "[FA]Real-Time Analytics",
-        "description": "[FA]Watch our AI voice platform handle thousands of simultaneous calls with human-like conversations and real-time analytics.",
-        "bookDemo": "[FA]Book a Demo",
-        "controlCenterTitle": "SeaVoice Control Center",
-        "live": "[FA]Live",
-        "activeCalls": "[FA]Active Calls",
-        "avgQueueTime": "[FA]Avg Queue Time",
-        "resolutionRate": "[FA]Resolution Rate",
-        "availability": "[FA]Availability",
-        "globalCallActivity": "[FA]Global Call Activity",
-        "recentConversations": "[FA]Recent Conversations",
-        "customerInquiryResolved": "[FA]Customer inquiry resolved",
-        "appointmentScheduled": "[FA]Appointment scheduled",
-        "paymentProcessed": "[FA]Payment processed",
-        "supportTicketCreated": "[FA]Support ticket created",
-        "justNow": "[FA]Just now",
-        "concurrentCalls": "[FA]Concurrent Calls",
-        "uptime": "[FA]Uptime",
+        "liveDashboard": "داشبورد زنده",
+        "controlCenter": "مرکز کنترل",
+        "realTimeAnalytics": "تجزیه و تحلیل در زمان واقعی",
+        "description": "پلتفرم صوتی هوش مصنوعی ما را تماشا کنید که هزاران تماس همزمان را با مکالمات شبیه انسان و تجزیه و تحلیل در زمان واقعی مدیریت می‌کند.",
+        "bookDemo": "رزرو دمو",
+        "controlCenterTitle": "مرکز کنترل SeaVoice",
+        "live": "زنده",
+        "activeCalls": "تماس‌های فعال",
+        "avgQueueTime": "میانگین زمان صف",
+        "resolutionRate": "نرخ حل",
+        "availability": "در دسترس بودن",
+        "globalCallActivity": "فعالیت تماس جهانی",
+        "recentConversations": "مکالمات اخیر",
+        "customerInquiryResolved": "سوال مشتری حل شد",
+        "appointmentScheduled": "قرار ملاقات برنامه‌ریزی شد",
+        "paymentProcessed": "پرداخت پردازش شد",
+        "supportTicketCreated": "تیکت پشتیبانی ایجاد شد",
+        "justNow": "همین الان",
+        "concurrentCalls": "تماس‌های همزمان",
+        "uptime": "آپتایم",
         "conversations": {
-          "appointmentRequest": "[FA]Hi, I'd like to schedule an appointment",
-          "techCorpGreeting": "[FA]Thank you for calling TechCorp...",
-          "orderTracking": "[FA]Can you help me track my order?",
-          "availabilityResponse": "[FA]I'm available Tuesday at 2 PM"
+          "appointmentRequest": "سلام، من می‌خواهم یک قرار ملاقات برنامه‌ریزی کنم",
+          "techCorpGreeting": "از تماس با TechCorp متشکریم...",
+          "orderTracking": "آیا می‌توانید به من در ردیابی سفارشم کمک کنید؟",
+          "availabilityResponse": "من سه‌شنبه ساعت ۲ بعد از ظهر در دسترس هستم"
         }
       },
       "voiceDemo": {
         "demos": {
           "restaurant": {
-            "title": "[FA]Restaurant reservation booking",
-            "description": "[FA]AI handles table bookings, availability checks, and special requests"
+            "title": "رزرو میز رستوران",
+            "description": "هوش مصنوعی رزرو میز، بررسی در دسترس بودن و درخواست‌های ویژه را مدیریت می‌کند"
           },
           "insurance": {
-            "title": "[FA]Insurance verification call",
-            "description": "[FA]Automated insurance verification and claim processing"
+            "title": "تماس تأیید بیمه",
+            "description": "تأیید خودکار بیمه و پردازش ادعا"
           },
           "techSupport": {
-            "title": "[FA]Tech support",
-            "description": "[FA]Technical troubleshooting and customer support automation"
+            "title": "پشتیبانی فنی",
+            "description": "عیب‌یابی فنی و اتوماسیون پشتیبانی مشتری"
           },
           "salesLead": {
-            "title": "[FA]Sales lead qualification",
-            "description": "[FA]Intelligent lead qualification and sales funnel management"
+            "title": "واجد شرایط کردن سرنخ فروش",
+            "description": "واجد شرایط کردن هوشمند سرنخ و مدیریت قیف فروش"
           },
           "realEstate": {
-            "title": "[FA]Real estate inquiry handling",
-            "description": "[FA]Property inquiries, scheduling viewings, and client management"
+            "title": "رسیدگی به سوالات املاک و مستغلات",
+            "description": "سوالات مربوط به ملک، زمان‌بندی بازدیدها و مدیریت مشتری"
           },
           "donation": {
-            "title": "[FA]Donation campaign outreach",
-            "description": "[FA]Fundraising campaigns and donor engagement automation"
+            "title": "ارتباط کمپین اهدای کمک",
+            "description": "کمپین‌های جمع‌آوری کمک‌های مالی و اتوماسیون تعامل با اهداکنندگان"
           }
         },
-        "seekTooltip": "[FA]Click to seek"
+        "seekTooltip": "برای جستجو کلیک کنید"
       }
     }
   }

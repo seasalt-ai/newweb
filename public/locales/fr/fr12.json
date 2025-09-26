@@ -1,0 +1,97 @@
+{
+  "seameet": {
+    "features": {
+      "title": "Caractéristiques",
+      "description": "Un ensemble complet d'outils pour rationaliser vos réunions et maximiser la productivité.",
+      "transcription": {
+        "title": "Transcription et enregistrement",
+        "description": "Ne manquez jamais un mot avec une transcription précise en temps réel et un enregistrement audio/vidéo."
+      },
+      "summarization": {
+        "title": "Résumé et faits saillants",
+        "description": "Générez automatiquement des résumés concis et des faits saillants de la réunion pour capturer les principaux points à retenir."
+      },
+      "speakerDiarization": {
+        "title": "Diarisation du locuteur",
+        "description": "Identifiez qui a dit quoi avec une reconnaissance et une étiquetage précis du locuteur."
+      },
+      "actionItems": {
+        "title": "Capture des points d'action",
+        "description": "Identifiez et extrayez automatiquement les points d'action et les prochaines étapes des conversations de réunion."
+      },
+      "integrations": {
+        "title": "Intégrations",
+        "description": "Intégrez-vous de manière transparente à vos outils de calendrier, de communication et de CRM préférés."
+      },
+      "analytics": {
+        "title": "Analyses",
+        "description": "Obtenez des informations sur les modèles de conversation, les sujets et les performances de l'équipe."
+      }
+    },
+    "solutions": {
+      "title": "Solutions",
+      "description": "Solutions sur mesure pour divers cas d'utilisation commerciale.",
+      "sales": {
+        "title": "Équipes de vente",
+        "description": "Améliorez les performances de vente avec des informations issues des appels clients et des réunions."
+      },
+      "customerSupport": {
+        "title": "Support client",
+        "description": "Améliorez la qualité du service et assurez la conformité avec les interactions enregistrées."
+      },
+      "remoteTeams": {
+        "title": "Équipes distantes",
+        "description": "Restez aligné et productif avec des notes et des résumés de réunion automatisés."
+      },
+      "education": {
+        "title": "Éducation",
+        "description": "Transcrivez les cours et les discussions en classe pour un meilleur apprentissage et une meilleure accessibilité."
+      }
+    },
+    "pricing": {
+      "title": "Tarifs",
+      "description": "Choisissez un forfait qui correspond à vos besoins.",
+      "free": {
+        "title": "Gratuit",
+        "price": "0 $",
+        "features": [
+          "Transcription de base",
+          "Enregistrement limité"
+        ]
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "15 $/mois",
+        "features": [
+          "Transcription avancée",
+          "Enregistrement illimité",
+          "Résumés IA"
+        ]
+      },
+      "enterprise": {
+        "title": "Entreprise",
+        "price": "Personnalisé",
+        "features": [
+          "Fonctionnalités Pro",
+          "Analyse d'équipe",
+          "Intégrations d'entreprise"
+        ]
+      }
+    },
+    "about": {
+      "title": "À propos",
+      "description": "SeaMeet est un produit de Seasalt.ai, dédié à la transformation de la communication d'entreprise avec l'IA."
+    },
+    "hero": {
+      "title": "SeaMeet",
+      "subtitle": "Votre copilote de réunion IA",
+      "description": "Transcrivez, résumez et analysez automatiquement vos réunions. Ne prenez plus jamais de notes.",
+      "cta": "Commencez gratuitement"
+    },
+    "footer": {
+      "contact": "Nous contacter",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
+    }
+  }
+}

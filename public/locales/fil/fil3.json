@@ -2,1549 +2,1549 @@
   "seachat": {
     "solutions": {
       "healthcare": {
-        "title": "[FIL]Healthcare Solutions",
-        "subtitle": "[FIL]Transform patient care with HIPAA[FIL]-compliant customer support that improves patient satisfaction, streamlines operations, and enhances care coordination.",
-        "trialButton": "[FIL]Start Healthcare For Free",
-        "demoButton": "[FIL]Schedule Healthcare Demo",
-        "featuresTitle": "[FIL]Healthcare-Specific Features",
-        "featuresSubtitle": "[FIL]Purpose-built features for healthcare providers to deliver exceptional patient care.",
+        "title": "Mga Solusyon sa Pangangalagang Pangkalusugan",
+        "subtitle": "Baguhin ang pangangalaga sa pasyente gamit ang suporta sa customer na sumusunod sa HIPAA na nagpapabuti sa kasiyahan ng pasyente, nag-streamline ng mga operasyon, at nagpapahusay sa koordinasyon ng pangangalaga.",
+        "trialButton": "Simulan ang Pangangalagang Pangkalusugan nang Libre",
+        "demoButton": "Mag-iskedyul ng Demo sa Pangangalagang Pangkalusugan",
+        "featuresTitle": "Mga Tampok na Partikular sa Pangangalagang Pangkalusugan",
+        "featuresSubtitle": "Mga tampok na binuo para sa mga tagapagbigay ng pangangalagang pangkalusugan upang maghatid ng pambihirang pangangalaga sa pasyente.",
         "features": {
           "hipaa": {
-            "title": "HIPAA[FIL] Compliance",
-            "description": "[FIL]Full HIPAA[FIL] compliance with encrypted communications and secure data handling",
+            "title": "Pagsunod sa HIPAA",
+            "description": "Buong pagsunod sa HIPAA na may naka-encrypt na mga komunikasyon at secure na paghawak ng data",
             "benefits": {
-              "encryption": "[FIL]End-to-end encryption",
-              "audit": "[FIL]Audit trails",
-              "access": "[FIL]Access controls",
-              "anonymization": "[FIL]Data anonymization"
+              "encryption": "End-to-end na pag-encrypt",
+              "audit": "Mga trail ng audit",
+              "access": "Mga kontrol sa pag-access",
+              "anonymization": "Data anonymization"
             }
           },
           "appointments": {
-            "title": "[FIL]Appointment Management",
-            "description": "[FIL]Seamless appointment scheduling, rescheduling, and reminder systems",
+            "title": "Pamamahala ng Appointment",
+            "description": "Walang putol na pag-iiskedyul ng appointment, pag-reschedule, at mga sistema ng paalala",
             "benefits": {
-              "availability": "[FIL]Real-time availability",
-              "reminders": "[FIL]Automated reminders",
-              "cancellation": "[FIL]Cancellation handling",
-              "waitlist": "[FIL]Waitlist management"
+              "availability": "Real-time na availability",
+              "reminders": "Mga awtomatikong paalala",
+              "cancellation": "Paghawak sa pagkansela",
+              "waitlist": "Pamamahala ng waitlist"
             }
           },
           "telehealth": {
-            "title": "[FIL]Telehealth Support",
-            "description": "[FIL]Integrated telehealth capabilities for remote patient consultations",
+            "title": "Suporta sa Telehealth",
+            "description": "Pinagsamang mga kakayahan sa telehealth para sa mga remote na konsultasyon sa pasyente",
             "benefits": {
-              "video": "[FIL]Video consultations",
-              "messaging": "[FIL]Secure messaging",
-              "documents": "[FIL]Document sharing",
-              "followup": "[FIL]Follow-up care"
+              "video": "Mga konsultasyon sa video",
+              "messaging": "Secure na pagmemensahe",
+              "documents": "Pagbabahagi ng dokumento",
+              "followup": "Pangangalaga sa pag-follow-up"
             }
           },
           "engagement": {
-            "title": "[FIL]Patient Engagement",
-            "description": "[FIL]Improve patient satisfaction with 24/7 support and personalized care",
+            "title": "Pakikipag-ugnayan sa Pasyente",
+            "description": "Pagbutihin ang kasiyahan ng pasyente na may 24/7 na suporta at personalized na pangangalaga",
             "benefits": {
-              "availability": "[FIL]24/7 availability",
-              "multilanguage": "[FIL]Multi-language support",
-              "coordination": "[FIL]Care coordination",
-              "education": "[FIL]Health education"
+              "availability": "24/7 na availability",
+              "multilanguage": "Suporta sa maraming wika",
+              "coordination": "Koordinasyon ng pangangalaga",
+              "education": "Edukasyon sa kalusugan"
             }
           }
         },
-        "metricsTitle": "[FIL]Healthcare Impact Metrics",
-        "metricsSubtitle": "[FIL]Real results from healthcare providers using SeaChat[FIL] for patient support.",
+        "metricsTitle": "Mga Sukatan ng Epekto sa Pangangalagang Pangkalusugan",
+        "metricsSubtitle": "Mga tunay na resulta mula sa mga tagapagbigay ng pangangalagang pangkalusugan na gumagamit ng SeaChat para sa suporta sa pasyente.",
         "metrics": {
           "noshows": {
-            "label": "[FIL]Reduction in No-shows",
-            "description": "[FIL]With automated appointment reminders",
-            "value": "[FIL]40%"
+            "label": "Pagbawas sa mga Hindi Pagdating",
+            "description": "Sa mga awtomatikong paalala sa appointment",
+            "value": "40%"
           },
           "response": {
-            "label": "[FIL]Faster Response Time",
-            "description": "[FIL]For patient inquiries and concerns",
-            "value": "[FIL]60%"
+            "label": "Mas Mabilis na Oras ng Pagtugon",
+            "description": "Para sa mga katanungan at alalahanin ng pasyente",
+            "value": "60%"
           },
           "satisfaction": {
-            "label": "[FIL]Patient Satisfaction",
-            "description": "[FIL]With 24/7 support availability",
-            "value": "[FIL]85%"
+            "label": "Kasiyahan ng Pasyente",
+            "description": "Sa 24/7 na availability ng suporta",
+            "value": "85%"
           },
           "efficiency": {
-            "label": "[FIL]Administrative Efficiency",
-            "description": "[FIL]Through automated workflows",
-            "value": "[FIL]50%"
+            "label": "Kahusayan sa Pang-administratibo",
+            "description": "Sa pamamagitan ng mga awtomatikong daloy ng trabaho",
+            "value": "50%"
           }
         },
-        "useCasesTitle": "[FIL]Common Healthcare Use Cases",
-        "useCasesSubtitle": "[FIL]See how SeaChat[FIL] handles typical patient interactions and administrative tasks.",
+        "useCasesTitle": "Mga Karaniwang Kaso ng Paggamit sa Pangangalagang Pangkalusugan",
+        "useCasesSubtitle": "Tingnan kung paano pinangangasiwaan ng SeaChat ang mga karaniwang pakikipag-ugnayan sa pasyente at mga gawaing pang-administratibo.",
         "useCases": {
           "appointments": {
-            "title": "[FIL]Appointment Scheduling",
-            "description": "[FIL]Patients can book, reschedule, or cancel appointments through chat",
-            "example": "[FIL]I need to reschedule my appointment for next Tuesday",
-            "outcome": "[FIL]Automated scheduling with calendar integration and confirmation"
+            "title": "Pag-iiskedyul ng Appointment",
+            "description": "Maaaring mag-book, mag-reschedule, o magkansela ng mga appointment ang mga pasyente sa pamamagitan ng chat",
+            "example": "Kailangan kong i-reschedule ang aking appointment para sa susunod na Martes",
+            "outcome": "Awtomatikong pag-iiskedyul na may pagsasama ng kalendaryo at kumpirmasyon"
           },
           "prescriptions": {
-            "title": "[FIL]Prescription Inquiries",
-            "description": "[FIL]Handle prescription refills and medication questions securely",
-            "example": "[FIL]When will my prescription be ready for pickup?",
-            "outcome": "[FIL]Real-time pharmacy integration and status updates"
+            "title": "Mga Katanungan sa Reseta",
+            "description": "Pangasiwaan ang mga refill ng reseta at mga tanong sa gamot nang ligtas",
+            "example": "Kailan magiging handa para sa pickup ang aking reseta?",
+            "outcome": "Real-time na pagsasama ng parmasya at mga update sa katayuan"
           },
           "insurance": {
-            "title": "[FIL]Insurance Verification",
-            "description": "[FIL]Verify insurance coverage and explain benefits to patients",
-            "example": "[FIL]Is my procedure covered by my insurance plan?",
-            "outcome": "[FIL]Instant insurance verification and coverage explanation"
+            "title": "Pag-verify ng Seguro",
+            "description": "I-verify ang saklaw ng seguro at ipaliwanag ang mga benepisyo sa mga pasyente",
+            "example": "Sakop ba ng aking plano sa seguro ang aking pamamaraan?",
+            "outcome": "Instant na pag-verify ng seguro at paliwanag sa saklaw"
           },
           "symptoms": {
-            "title": "[FIL]Symptom Pre-screening",
-            "description": "[FIL]AI-powered symptom assessment and triage recommendations",
-            "example": "[FIL]I have a fever and cough, should I come in?",
-            "outcome": "[FIL]Symptom assessment with appropriate care recommendations"
+            "title": "Pre-screening ng Sintomas",
+            "description": "Pagtatasa ng sintomas na pinapagana ng AI at mga rekomendasyon sa triage",
+            "example": "Mayroon akong lagnat at ubo, dapat ba akong pumasok?",
+            "outcome": "Pagtatasa ng sintomas na may naaangkop na mga rekomendasyon sa pangangalaga"
           }
         },
-        "patientRequest": "[FIL]Patient Request",
-        "seachatResponse": "SeaChat[FIL] Response",
-        "hipaaTitle": "HIPAA[FIL] Compliance & Security",
-        "hipaaSubtitle": "[FIL]Built from the ground up with healthcare security and compliance in mind. Protect patient data while delivering exceptional care experiences.",
+        "patientRequest": "Hiling ng Pasyente",
+        "seachatResponse": "Tugon ng SeaChat",
+        "hipaaTitle": "Pagsunod at Seguridad sa HIPAA",
+        "hipaaSubtitle": "Binuo mula sa simula na may nasa isip na seguridad at pagsunod sa pangangalagang pangkalusugan. Protektahan ang data ng pasyente habang naghahatid ng mga pambihirang karanasan sa pangangalaga.",
         "compliance": {
           "complianceFeatures": [
-            "[FIL]End-to-end encryption",
-            "[FIL]Audit trails",
-            "[FIL]Access controls",
-            "[FIL]Data anonymization",
-            "[FIL]Secure data storage",
-            "[FIL]Regular security audits",
-            "[FIL]Staff training and certification",
-            "[FIL]Incident response procedures"
+            "End-to-end na pag-encrypt",
+            "Mga trail ng audit",
+            "Mga kontrol sa pag-access",
+            "Data anonymization",
+            "Secure na pag-iimbak ng data",
+            "Regular na mga audit sa seguridad",
+            "Pagsasanay at sertipikasyon ng kawani",
+            "Mga pamamaraan sa pagtugon sa insidente"
           ]
         },
-        "certificationsTitle": "[FIL]Security Certifications",
+        "certificationsTitle": "Mga Sertipikasyon sa Seguridad",
         "certifications": {
-          "hipaa": "HIPAA[FIL] Compliant",
-          "soc2": "SOC 2[FIL] Type II",
-          "iso": "[FIL]ISO 27001",
-          "gdpr": "GDPR[FIL] Ready"
+          "hipaa": "Sumusunod sa HIPAA",
+          "soc2": "SOC 2 Type II",
+          "iso": "ISO 27001",
+          "gdpr": "Handa na sa GDPR"
         },
-        "certified": "[FIL]Certified",
-        "compliant": "[FIL]Compliant",
-        "ctaTitle": "[FIL]Ready to Transform Patient Care?",
-        "ctaSubtitle": "[FIL]Join healthcare providers already using SeaChat[FIL] to deliver exceptional patient experiences while maintaining the highest security and compliance standards.",
-        "ctaTrialButton": "[FIL]Start Healthcare For Free",
-        "ctaDemoButton": "[FIL]Schedule Healthcare Demo"
+        "certified": "Sertipikado",
+        "compliant": "Sumusunod",
+        "ctaTitle": "Handa nang Baguhin ang Pangangalaga sa Pasyente?",
+        "ctaSubtitle": "Sumali sa mga tagapagbigay ng pangangalagang pangkalusugan na gumagamit na ng SeaChat upang maghatid ng mga pambihirang karanasan sa pasyente habang pinapanatili ang pinakamataas na pamantayan sa seguridad at pagsunod.",
+        "ctaTrialButton": "Simulan ang Pangangalagang Pangkalusugan nang Libre",
+        "ctaDemoButton": "Mag-iskedyul ng Demo sa Pangangalagang Pangkalusugan"
       },
       "fintech": {
         "securityFeatures": [
-          "[FIL]End-to-end encryption for all communications",
-          "[FIL]Multi-factor authentication and identity verification",
-          "[FIL]Regular security audits and penetration testing",
-          "[FIL]ISO 27001 certified infrastructure",
-          "[FIL]Real-time fraud monitoring and detection",
-          "[FIL]Secure API endpoints with rate limiting"
+          "End-to-end na pag-encrypt para sa lahat ng mga komunikasyon",
+          "Multi-factor na pagpapatotoo at pag-verify ng pagkakakilanlan",
+          "Regular na mga audit sa seguridad at pagsubok sa pagtagos",
+          "Imprastraktura na sertipikado ng ISO 27001",
+          "Real-time na pagsubaybay at pagtuklas ng pandaraya",
+          "Secure na mga endpoint ng API na may rate limiting"
         ],
-        "title": "[FIL]Fintech Solutions",
-        "subtitle": "[FIL]Secure, compliant customer support for financial services. Handle transactions, provide investment guidance, and ensure regulatory compliance with confidence.",
-        "trialButton": "[FIL]Start Fintech For Free",
-        "demoButton": "[FIL]Schedule Financial Demo",
-        "featuresTitle": "[FIL]Financial Services Features",
-        "featuresSubtitle": "[FIL]Purpose-built features for financial institutions to deliver secure, compliant customer support.",
+        "title": "Mga Solusyon sa Fintech",
+        "subtitle": "Ligtas, sumusunod na suporta sa customer para sa mga serbisyo sa pananalapi. Pangasiwaan ang mga transaksyon, magbigay ng gabay sa pamumuhunan, at tiyakin ang pagsunod sa regulasyon nang may kumpiyansa.",
+        "trialButton": "Simulan ang Fintech nang Libre",
+        "demoButton": "Mag-iskedyul ng Demo sa Pananalapi",
+        "featuresTitle": "Mga Tampok sa mga Serbisyo sa Pananalapi",
+        "featuresSubtitle": "Mga tampok na binuo para sa mga institusyong pampinansyal upang maghatid ng ligtas, sumusunod na suporta sa customer.",
         "features": {
           "security": {
-            "title": "[FIL]Financial Security",
-            "description": "[FIL]Bank-grade security with PCI DSS compliance and fraud protection",
+            "title": "Seguridad sa Pananalapi",
+            "description": "Seguridad sa antas ng bangko na may pagsunod sa PCI DSS at proteksyon sa pandaraya",
             "benefits": {
-              "pci": "[FIL]PCI DSS compliance",
-              "fraud": "[FIL]Fraud detection",
-              "transactions": "[FIL]Secure transactions",
-              "identity": "[FIL]Identity verification"
+              "pci": "Pagsunod sa PCI DSS",
+              "fraud": "Pagtuklas ng pandaraya",
+              "transactions": "Mga secure na transaksyon",
+              "identity": "Pag-verify ng pagkakakilanlan"
             }
           },
           "payment": {
-            "title": "[FIL]Payment Support",
-            "description": "[FIL]Comprehensive payment processing support and dispute resolution",
+            "title": "Suporta sa Pagbabayad",
+            "description": "Komprehensibong suporta sa pagproseso ng pagbabayad at paglutas ng hindi pagkakaunawaan",
             "benefits": {
-              "tracking": "[FIL]Transaction tracking",
-              "dispute": "[FIL]Dispute handling",
-              "refund": "[FIL]Refund processing",
-              "methods": "[FIL]Payment methods"
+              "tracking": "Pagsubaybay sa transaksyon",
+              "dispute": "Paghawak sa hindi pagkakaunawaan",
+              "refund": "Pagproseso ng refund",
+              "methods": "Mga paraan ng pagbabayad"
             }
           },
           "investment": {
-            "title": "[FIL]Investment Guidance",
-            "description": "[FIL]AI-powered investment advice and portfolio management support",
+            "title": "Gabay sa Pamumuhunan",
+            "description": "Payo sa pamumuhunan na pinapagana ng AI at suporta sa pamamahala ng portfolio",
             "benefits": {
-              "insights": "[FIL]Market insights",
-              "portfolio": "[FIL]Portfolio analysis",
-              "risk": "[FIL]Risk assessment",
-              "recommendations": "[FIL]Investment recommendations"
+              "insights": "Mga insight sa merkado",
+              "portfolio": "Pagsusuri ng portfolio",
+              "risk": "Pagtatasa ng panganib",
+              "recommendations": "Mga rekomendasyon sa pamumuhunan"
             }
           },
           "compliance": {
-            "title": "[FIL]Regulatory Compliance",
-            "description": "[FIL]Built-in compliance with financial regulations and reporting requirements",
+            "title": "Pagsunod sa Regulasyon",
+            "description": "Built-in na pagsunod sa mga regulasyon sa pananalapi at mga kinakailangan sa pag-uulat",
             "benefits": {
-              "kyc": "[FIL]KYC/AML compliance",
-              "reporting": "[FIL]Regulatory reporting",
-              "audit": "[FIL]Audit trails",
-              "protection": "[FIL]Data protection"
+              "kyc": "Pagsunod sa KYC/AML",
+              "reporting": "Pag-uulat sa regulasyon",
+              "audit": "Mga trail ng audit",
+              "protection": "Proteksyon ng data"
             }
           }
         },
-        "impactTitle": "[FIL]Financial Services Impact",
-        "impactSubtitle": "[FIL]Real results from financial institutions using SeaChat[FIL] for customer support.",
+        "impactTitle": "Epekto sa mga Serbisyo sa Pananalapi",
+        "impactSubtitle": "Mga tunay na resulta mula sa mga institusyong pampinansyal na gumagamit ng SeaChat para sa suporta sa customer.",
         "metrics": {
           "accuracy": {
-            "label": "[FIL]Transaction Accuracy",
-            "description": "[FIL]With automated processing and verification"
+            "label": "Katumpakan ng Transaksyon",
+            "description": "Sa awtomatikong pagproseso at pag-verify"
           },
           "resolution": {
-            "label": "[FIL]Faster Resolution",
-            "description": "[FIL]For financial inquiries and disputes"
+            "label": "Mas Mabilis na Paglutas",
+            "description": "Para sa mga katanungan at hindi pagkakaunawaan sa pananalapi"
           },
           "fraud": {
-            "label": "[FIL]Fraud Detection Rate",
-            "description": "[FIL]With AI-powered monitoring systems"
+            "label": "Rate ng Pagtuklas ng Pandaraya",
+            "description": "Sa mga sistema ng pagsubaybay na pinapagana ng AI"
           },
           "satisfaction": {
-            "label": "[FIL]Customer Satisfaction",
-            "description": "[FIL]For financial support interactions"
+            "label": "Kasiyahan ng Customer",
+            "description": "Para sa mga pakikipag-ugnayan sa suporta sa pananalapi"
           }
         },
-        "useCasesTitle": "[FIL]Financial Support Use Cases",
-        "useCasesSubtitle": "[FIL]See how SeaChat[FIL] handles complex financial inquiries and transactions.",
+        "useCasesTitle": "Mga Kaso ng Paggamit sa Suporta sa Pananalapi",
+        "useCasesSubtitle": "Tingnan kung paano pinangangasiwaan ng SeaChat ang mga kumplikadong katanungan at transaksyon sa pananalapi.",
         "useCases": {
           "account": {
-            "title": "[FIL]Account Management",
-            "description": "[FIL]Help customers with account setup, verification, and management",
-            "example": "[FIL]I need help setting up my business account",
-            "outcome": "[FIL]Guided account setup with document verification and compliance checks"
+            "title": "Pamamahala ng Account",
+            "description": "Tulungan ang mga customer sa pag-setup, pag-verify, at pamamahala ng account",
+            "example": "Kailangan ko ng tulong sa pag-set up ng aking business account",
+            "outcome": "Gabay sa pag-setup ng account na may pag-verify ng dokumento at mga pagsusuri sa pagsunod"
           },
           "transaction": {
-            "title": "[FIL]Transaction Inquiries",
-            "description": "[FIL]Provide real-time transaction status and history information",
-            "example": "[FIL]Where is my wire transfer to ABC Company?",
-            "outcome": "[FIL]Real-time transaction tracking with detailed status updates"
+            "title": "Mga Katanungan sa Transaksyon",
+            "description": "Magbigay ng real-time na katayuan ng transaksyon at impormasyon sa kasaysayan",
+            "example": "Nasaan ang aking wire transfer sa ABC Company?",
+            "outcome": "Real-time na pagsubaybay sa transaksyon na may detalyadong mga update sa katayuan"
           },
           "fraud": {
-            "title": "[FIL]Fraud Prevention",
-            "description": "[FIL]Detect and prevent fraudulent activities with AI monitoring",
-            "example": "[FIL]I see a suspicious charge on my account",
-            "outcome": "[FIL]Immediate fraud investigation and account protection measures"
+            "title": "Pag-iwas sa Pandaraya",
+            "description": "Tuklasin at pigilan ang mga mapanlinlang na aktibidad gamit ang pagsubaybay ng AI",
+            "example": "May nakikita akong kahina-hinalang singil sa aking account",
+            "outcome": "Agad na pagsisiyasat sa pandaraya at mga hakbang sa proteksyon ng account"
           },
           "investment": {
-            "title": "[FIL]Investment Support",
-            "description": "[FIL]Provide investment guidance and portfolio management assistance",
-            "example": "[FIL]Should I invest in tech stocks right now?",
-            "outcome": "[FIL]Personalized investment advice based on risk profile and market analysis"
+            "title": "Suporta sa Pamumuhunan",
+            "description": "Magbigay ng gabay sa pamumuhunan at tulong sa pamamahala ng portfolio",
+            "example": "Dapat ba akong mamuhunan sa mga tech stock ngayon?",
+            "outcome": "Personalized na payo sa pamumuhunan batay sa profile ng panganib at pagsusuri sa merkado"
           }
         },
-        "customerInquiry": "[FIL]Customer Inquiry",
-        "seachatResponse": "SeaChat[FIL] Response",
-        "securityTitle": "[FIL]Bank-Grade Security & Compliance",
-        "securitySubtitle": "[FIL]Built with the highest security standards and regulatory compliance requirements for financial services institutions.",
-        "regulatoryTitle": "[FIL]Regulatory Compliance",
+        "customerInquiry": "Katanungan ng Customer",
+        "seachatResponse": "Tugon ng SeaChat",
+        "securityTitle": "Seguridad at Pagsunod sa Antas ng Bangko",
+        "securitySubtitle": "Binuo na may pinakamataas na pamantayan sa seguridad at mga kinakailangan sa pagsunod sa regulasyon para sa mga institusyon ng serbisyo sa pananalapi.",
+        "regulatoryTitle": "Pagsunod sa Regulasyon",
         "regulations": {
           "pci": {
-            "name": "[FIL]PCI DSS",
-            "description": "[FIL]Payment Card Industry Data Security Standard",
-            "status": "[FIL]Compliant"
+            "name": "PCI DSS",
+            "description": "Pamantayan sa Seguridad ng Data ng Industriya ng Card sa Pagbabayad",
+            "status": "Sumusunod"
           },
           "sox": {
-            "name": "[FIL]SOX",
-            "description": "[FIL]Sarbanes-Oxley Act compliance",
-            "status": "[FIL]Compliant"
+            "name": "SOX",
+            "description": "Pagsunod sa Sarbanes-Oxley Act",
+            "status": "Sumusunod"
           },
           "gdpr": {
             "name": "GDPR",
-            "description": "[FIL]General Data Protection Regulation",
-            "status": "[FIL]Compliant"
+            "description": "Pangkalahatang Regulasyon sa Proteksyon ng Data",
+            "status": "Sumusunod"
           },
           "kyc": {
-            "name": "[FIL]KYC/AML",
-            "description": "[FIL]Know Your Customer / Anti-Money Laundering",
-            "status": "[FIL]Supported"
+            "name": "KYC/AML",
+            "description": "Kilalanin ang Iyong Customer / Anti-Money Laundering",
+            "status": "Suportado"
           },
           "ccpa": {
-            "name": "[FIL]CCPA",
-            "description": "[FIL]California Consumer Privacy Act",
-            "status": "[FIL]Compliant"
+            "name": "CCPA",
+            "description": "Batas sa Privacy ng Consumer ng California",
+            "status": "Sumusunod"
           },
           "finra": {
             "name": "FINRA",
-            "description": "[FIL]Financial Industry Regulatory Authority",
-            "status": "[FIL]Supported"
+            "description": "Awtoridad sa Regulasyon ng Industriya ng Pananalapi",
+            "status": "Suportado"
           }
         },
-        "ctaTitle": "[FIL]Ready to Secure Your Financial Services?",
-        "ctaSubtitle": "[FIL]Join financial institutions already using SeaChat[FIL] to deliver secure, compliant customer support that builds trust and drives growth.",
-        "ctaTrialButton": "[FIL]Start Fintech For Free",
-        "ctaDemoButton": "[FIL]Schedule Financial Demo"
+        "ctaTitle": "Handa nang I-secure ang Iyong mga Serbisyo sa Pananalapi?",
+        "ctaSubtitle": "Sumali sa mga institusyong pampinansyal na gumagamit na ng SeaChat upang maghatid ng ligtas, sumusunod na suporta sa customer na nagtatayo ng tiwala at nag-drive ng paglago.",
+        "ctaTrialButton": "Simulan ang Fintech nang Libre",
+        "ctaDemoButton": "Mag-iskedyul ng Demo sa Pananalapi"
       },
       "ecommerce": {
-        "title": "[FIL]E-commerce & Retail",
-        "subtitle": "[FIL]Transform your online store with intelligent customer support that drives sales, reduces cart abandonment, and creates loyal customers.",
-        "trialButton": "[FIL]Start E-commerce For Free",
-        "demoButton": "[FIL]Schedule E-commerce Demo",
-        "featuresTitle": "[FIL]E-commerce Specialized Features",
-        "featuresSubtitle": "[FIL]Purpose-built features for online retailers to maximize sales and customer satisfaction.",
+        "title": "E-commerce at Retail",
+        "subtitle": "Baguhin ang iyong online na tindahan gamit ang matalinong suporta sa customer na nag-drive ng mga benta, binabawasan ang pag-abandona sa cart, at lumilikha ng mga tapat na customer.",
+        "trialButton": "Simulan ang E-commerce nang Libre",
+        "demoButton": "Mag-iskedyul ng Demo sa E-commerce",
+        "featuresTitle": "Mga Espesyal na Tampok sa E-commerce",
+        "featuresSubtitle": "Mga tampok na binuo para sa mga online na retailer upang i-maximize ang mga benta at kasiyahan ng customer.",
         "features": {
           "orders": {
-            "title": "[FIL]Order Management Integration",
-            "description": "[FIL]Seamlessly integrate with your e-commerce platform for real-time order tracking and updates.",
+            "title": "Pagsasama ng Pamamahala ng Order",
+            "description": "Walang putol na isama sa iyong platform ng e-commerce para sa real-time na pagsubaybay at mga update sa order.",
             "benefits": {
-              "status": "[FIL]Real-time order status",
-              "shipping": "[FIL]Automated shipping updates",
-              "returns": "[FIL]Return processing",
-              "inventory": "[FIL]Inventory inquiries"
+              "status": "Real-time na katayuan ng order",
+              "shipping": "Mga awtomatikong update sa pagpapadala",
+              "returns": "Pagproseso ng pagbabalik",
+              "inventory": "Mga katanungan sa imbentaryo"
             }
           },
           "accounts": {
-            "title": "[FIL]Customer Account Support",
-            "description": "[FIL]Help customers with account issues, password resets, and profile management.",
+            "title": "Suporta sa Account ng Customer",
+            "description": "Tulungan ang mga customer sa mga isyu sa account, pag-reset ng password, at pamamahala ng profile.",
             "benefits": {
-              "recovery": "[FIL]Account recovery",
-              "updates": "[FIL]Profile updates",
-              "subscriptions": "[FIL]Subscription management",
-              "billing": "[FIL]Billing support"
+              "recovery": "Pagbawi ng account",
+              "updates": "Mga update sa profile",
+              "subscriptions": "Pamamahala ng subscription",
+              "billing": "Suporta sa pagsingil"
             }
           },
           "recommendations": {
-            "title": "[FIL]Product Recommendations",
-            "description": "[FIL]AI-powered product suggestions based on customer preferences and browsing history.",
+            "title": "Mga Rekomendasyon sa Produkto",
+            "description": "Mga mungkahi sa produkto na pinapagana ng AI batay sa mga kagustuhan ng customer at kasaysayan ng pag-browse.",
             "benefits": {
-              "personalized": "[FIL]Personalized suggestions",
-              "cross": "[FIL]Cross-selling opportunities",
-              "upselling": "[FIL]Upselling automation",
-              "inventory": "[FIL]Inventory optimization"
+              "personalized": "Mga personalized na mungkahi",
+              "cross": "Mga pagkakataon sa cross-selling",
+              "upselling": "Automation sa upselling",
+              "inventory": "Pag-optimize ng imbentaryo"
             }
           },
           "assistance": {
-            "title": "[FIL]24/7 Shopping Assistance",
-            "description": "[FIL]Round-the-clock support for customers across different time zones and shopping patterns.",
+            "title": "24/7 na Tulong sa Pamimili",
+            "description": "Suporta sa buong orasan para sa mga customer sa iba't ibang mga time zone at mga pattern ng pamimili.",
             "benefits": {
-              "global": "[FIL]Global coverage",
-              "peak": "[FIL]Peak hour support",
-              "holiday": "[FIL]Holiday assistance",
-              "mobile": "[FIL]Mobile shopping help"
+              "global": "Pandaigdigang saklaw",
+              "peak": "Suporta sa peak hour",
+              "holiday": "Tulong sa holiday",
+              "mobile": "Tulong sa pamimili sa mobile"
             }
           }
         },
-        "resultsTitle": "[FIL]Proven E-commerce Results",
-        "resultsSubtitle": "[FIL]Real metrics from e-commerce businesses using SeaChat[FIL] for customer support.",
+        "resultsTitle": "Mga Subok na Resulta sa E-commerce",
+        "resultsSubtitle": "Mga tunay na sukatan mula sa mga negosyo sa e-commerce na gumagamit ng SeaChat para sa suporta sa customer.",
         "metrics": {
           "conversion": {
-            "label": "[FIL]Increase in Sales Conversion",
-            "description": "[FIL]Through proactive customer support"
+            "label": "Pagtaas sa Conversion ng Benta",
+            "description": "Sa pamamagitan ng maagap na suporta sa customer"
           },
           "abandonment": {
-            "label": "[FIL]Reduction in Cart Abandonment",
-            "description": "[FIL]With real-time shopping assistance"
+            "label": "Pagbawas sa Pag-abandona sa Cart",
+            "description": "Sa real-time na tulong sa pamimili"
           },
           "resolution": {
-            "label": "[FIL]Faster Order Resolution",
-            "description": "[FIL]Automated order status updates"
+            "label": "Mas Mabilis na Paglutas ng Order",
+            "description": "Mga awtomatikong update sa katayuan ng order"
           },
           "satisfaction": {
-            "label": "[FIL]Customer Satisfaction Rate",
-            "description": "[FIL]For e-commerce support interactions"
+            "label": "Rate ng Kasiyahan ng Customer",
+            "description": "Para sa mga pakikipag-ugnayan sa suporta sa e-commerce"
           }
         },
-        "integrationsTitle": "[FIL]E-commerce Platform Integrations",
-        "integrationsSubtitle": "[FIL]Seamlessly connect with your existing e-commerce stack for unified customer support.",
+        "integrationsTitle": "Mga Pagsasama sa Platform ng E-commerce",
+        "integrationsSubtitle": "Walang putol na kumonekta sa iyong umiiral na e-commerce stack para sa pinag-isang suporta sa customer.",
         "integrations": {
           "shopify": {
             "name": "Shopify",
-            "description": "[FIL]Native Shopify[FIL] app with full order integration"
+            "description": "Katutubong Shopify app na may buong pagsasama ng order"
           },
           "woocommerce": {
-            "name": "[FIL]WooCommerce",
-            "description": "WordPress[FIL] plugin for WooCommerce stores"
+            "name": "WooCommerce",
+            "description": "WordPress plugin para sa mga tindahan ng WooCommerce"
           },
           "magento": {
-            "name": "[FIL]Magento",
-            "description": "[FIL]Enterprise-grade Magento integration"
+            "name": "Magento",
+            "description": "Pagsasama ng Magento sa antas ng enterprise"
           },
           "bigcommerce": {
-            "name": "[FIL]BigCommerce",
-            "description": "[FIL]Complete BigCommerce API integration"
+            "name": "BigCommerce",
+            "description": "Kumpletong pagsasama ng BigCommerce API"
           },
           "stripe": {
-            "name": "[FIL]Stripe",
-            "description": "[FIL]Payment processing and billing support"
+            "name": "Stripe",
+            "description": "Pagproseso ng pagbabayad at suporta sa pagsingil"
           },
           "paypal": {
-            "name": "[FIL]PayPal",
-            "description": "[FIL]PayPal transaction and dispute handling"
+            "name": "PayPal",
+            "description": "Paghawak sa transaksyon at hindi pagkakaunawaan sa PayPal"
           }
         },
-        "successTitle": "[FIL]Success Story: Fashion Retailer",
-        "challenge": "[FIL]Challenge",
-        "challengeDescription": "[FIL]High cart abandonment rate and customers leaving due to sizing questions and product availability concerns.",
-        "solution": "[FIL]Solution",
-        "solutionDescription": "[FIL]Deployed SeaChat[FIL] with product catalog integration, sizing guides, and proactive cart abandonment recovery.",
-        "results": "[FIL]Results",
-        "result1": "[FIL]45% increase in conversion rate",
-        "result2": "[FIL]60% reduction in cart abandonment",
-        "result3": "[FIL]$2.3M additional revenue in 6 months",
-        "chatPreview": "[FIL]Live Chat Preview",
-        "customer": "[FIL]Customer",
-        "customerQuestion": "[FIL]Is this dress available in size M?",
-        "seachatAI": "SeaChat[FIL] AI",
-        "aiResponse1": "[FIL]Yes! The Blue Summer Dress is available in size M. We have 3 in stock. Would you like me to add it to your cart?",
-        "customerResponse": "[FIL]Perfect! Yes, please add it.",
-        "aiResponse2": "[FIL]Added to cart! 🛍️ You qualify for free shipping. Ready to checkout?",
-        "ctaTitle": "[FIL]Ready to Boost Your E-commerce Sales?",
-        "ctaSubtitle": "[FIL]Join hundreds of online retailers using SeaChat[FIL] to increase conversions, reduce cart abandonment, and create exceptional shopping experiences.",
-        "ctaTrialButton": "[FIL]Start E-commerce For Free",
-        "ctaDemoButton": "[FIL]Schedule E-commerce Demo"
+        "successTitle": "Kuwento ng Tagumpay: Fashion Retailer",
+        "challenge": "Hamon",
+        "challengeDescription": "Mataas na rate ng pag-abandona sa cart at mga customer na umaalis dahil sa mga tanong sa sizing at mga alalahanin sa availability ng produkto.",
+        "solution": "Solusyon",
+        "solutionDescription": "Nag-deploy ng SeaChat na may pagsasama ng catalog ng produkto, mga gabay sa sizing, at maagap na pagbawi sa pag-abandona sa cart.",
+        "results": "Mga resulta",
+        "result1": "45% na pagtaas sa rate ng conversion",
+        "result2": "60% na pagbawas sa pag-abandona sa cart",
+        "result3": "$2.3M karagdagang kita sa loob ng 6 na buwan",
+        "chatPreview": "Live na Preview ng Chat",
+        "customer": "Customer",
+        "customerQuestion": "Available ba ang damit na ito sa sukat na M?",
+        "seachatAI": "SeaChat AI",
+        "aiResponse1": "Oo! Ang Blue Summer Dress ay available sa sukat na M. Mayroon kaming 3 sa stock. Gusto mo bang idagdag ko ito sa iyong cart?",
+        "customerResponse": "Perpekto! Oo, pakidagdag ito.",
+        "aiResponse2": "Idinagdag sa cart! 🛍️ Kwalipikado ka para sa libreng pagpapadala. Handa nang mag-checkout?",
+        "ctaTitle": "Handa nang Palakasin ang Iyong mga Benta sa E-commerce?",
+        "ctaSubtitle": "Sumali sa daan-daang mga online na retailer na gumagamit ng SeaChat upang taasan ang mga conversion, bawasan ang pag-abandona sa cart, at lumikha ng mga pambihirang karanasan sa pamimili.",
+        "ctaTrialButton": "Simulan ang E-commerce nang Libre",
+        "ctaDemoButton": "Mag-iskedyul ng Demo sa E-commerce"
       },
       "education": {
-        "title": "[FIL]Education Solutions",
-        "subtitle": "[FIL]Transform educational support with AI-powered assistance for students, parents, faculty, and staff. Streamline operations and enhance the learning experience.",
-        "trialButton": "[FIL]Start Education For Free",
-        "demoButton": "[FIL]Schedule Education Demo",
-        "featuresTitle": "[FIL]Education-Specific Features",
-        "featuresSubtitle": "[FIL]Purpose-built features for educational institutions to enhance student success and operational efficiency.",
+        "title": "Mga Solusyon sa Edukasyon",
+        "subtitle": "Baguhin ang suporta sa edukasyon gamit ang tulong na pinapagana ng AI para sa mga mag-aaral, magulang, guro, at kawani. I-streamline ang mga operasyon at pahusayin ang karanasan sa pag-aaral.",
+        "trialButton": "Simulan ang Edukasyon nang Libre",
+        "demoButton": "Mag-iskedyul ng Demo sa Edukasyon",
+        "featuresTitle": "Mga Tampok na Partikular sa Edukasyon",
+        "featuresSubtitle": "Mga tampok na binuo para sa mga institusyong pang-edukasyon upang mapahusay ang tagumpay ng mag-aaral at kahusayan sa pagpapatakbo.",
         "features": {
           "student": {
-            "title": "[FIL]Student Support Services",
-            "description": "[FIL]Comprehensive support for student inquiries, enrollment, and academic assistance",
+            "title": "Mga Serbisyo sa Suporta sa Mag-aaral",
+            "description": "Komprehensibong suporta para sa mga katanungan ng mag-aaral, pagpapatala, at tulong sa akademiko",
             "benefits": {
-              "support": "[FIL]24/7 student support",
-              "enrollment": "[FIL]Enrollment assistance",
-              "academic": "[FIL]Academic guidance",
-              "technical": "[FIL]Technical help"
+              "support": "24/7 na suporta sa mag-aaral",
+              "enrollment": "Tulong sa pagpapatala",
+              "academic": "Gabay sa akademiko",
+              "technical": "Tulong teknikal"
             }
           },
           "admin": {
-            "title": "[FIL]Administrative Automation",
-            "description": "[FIL]Streamline administrative tasks with automated scheduling and notifications",
+            "title": "Automation sa Pang-administratibo",
+            "description": "I-streamline ang mga gawaing pang-administratibo na may awtomatikong pag-iiskedyul at mga abiso",
             "benefits": {
-              "scheduling": "[FIL]Class scheduling",
-              "events": "[FIL]Event management",
-              "deadlines": "[FIL]Deadline reminders",
-              "registration": "[FIL]Registration support"
+              "scheduling": "Pag-iiskedyul ng klase",
+              "events": "Pamamahala ng kaganapan",
+              "deadlines": "Mga paalala sa deadline",
+              "registration": "Suporta sa pagpaparehistro"
             }
           },
           "stakeholder": {
-            "title": "[FIL]Multi-Stakeholder Support",
-            "description": "[FIL]Support students, parents, faculty, and staff with tailored experiences",
+            "title": "Suporta sa Maraming Stakeholder",
+            "description": "Suportahan ang mga mag-aaral, magulang, guro, at kawani na may mga pinasadyang karanasan",
             "benefits": {
-              "portals": "[FIL]Student portals",
-              "parent": "[FIL]Parent communication",
-              "faculty": "[FIL]Faculty assistance",
-              "staff": "[FIL]Staff coordination"
+              "portals": "Mga portal ng mag-aaral",
+              "parent": "Komunikasyon sa magulang",
+              "faculty": "Tulong sa guro",
+              "staff": "Koordinasyon ng kawani"
             }
           },
           "lms": {
-            "title": "[FIL]Learning Management Integration",
-            "description": "[FIL]Seamless integration with LMS platforms and educational tools",
+            "title": "Pagsasama ng Pamamahala sa Pag-aaral",
+            "description": "Walang putol na pagsasama sa mga platform ng LMS at mga tool sa edukasyon",
             "benefits": {
-              "connectivity": "[FIL]LMS connectivity",
-              "grades": "[FIL]Grade inquiries",
-              "assignments": "[FIL]Assignment help",
-              "courses": "[FIL]Course information"
+              "connectivity": "Pagkakakonekta sa LMS",
+              "grades": "Mga katanungan sa grado",
+              "assignments": "Tulong sa takdang-aralin",
+              "courses": "Impormasyon sa kurso"
             }
           }
         },
-        "stakeholdersTitle": "[FIL]Support for All Stakeholders",
-        "stakeholdersSubtitle": "[FIL]Tailored experiences for every member of your educational community.",
+        "stakeholdersTitle": "Suporta para sa Lahat ng Stakeholder",
+        "stakeholdersSubtitle": "Mga pinasadyang karanasan para sa bawat miyembro ng iyong komunidad sa edukasyon.",
         "stakeholders": {
           "students": {
-            "title": "[FIL]Students",
-            "description": "[FIL]Academic support, enrollment help, and campus services",
+            "title": "Mga mag-aaral",
+            "description": "Suporta sa akademiko, tulong sa pagpapatala, at mga serbisyo sa campus",
             "features": {
-              "courses": "[FIL]Course information",
-              "assignments": "[FIL]Assignment deadlines",
-              "grades": "[FIL]Grade inquiries",
-              "campus": "[FIL]Campus navigation"
+              "courses": "Impormasyon sa kurso",
+              "assignments": "Mga deadline ng takdang-aralin",
+              "grades": "Mga katanungan sa grado",
+              "campus": "Pag-navigate sa campus"
             }
           },
           "parents": {
-            "title": "[FIL]Parents",
-            "description": "[FIL]Stay informed about student progress and institutional updates",
+            "title": "Mga magulang",
+            "description": "Manatiling may kaalaman tungkol sa pag-unlad ng mag-aaral at mga update sa institusyon",
             "features": {
-              "progress": "[FIL]Progress updates",
-              "payment": "[FIL]Payment information",
-              "events": "[FIL]Event notifications",
-              "communication": "[FIL]Communication with faculty"
+              "progress": "Mga update sa pag-unlad",
+              "payment": "Impormasyon sa pagbabayad",
+              "events": "Mga abiso sa kaganapan",
+              "communication": "Komunikasyon sa guro"
             }
           },
           "faculty": {
-            "title": "[FIL]Faculty",
-            "description": "[FIL]Administrative support and teaching assistance",
+            "title": "Faculty",
+            "description": "Suporta sa pang-administratibo at tulong sa pagtuturo",
             "features": {
-              "management": "[FIL]Class management",
-              "inquiries": "[FIL]Student inquiries",
-              "resources": "[FIL]Resource requests",
-              "technical": "[FIL]Technical support"
+              "management": "Pamamahala ng klase",
+              "inquiries": "Mga katanungan ng mag-aaral",
+              "resources": "Mga kahilingan sa mapagkukunan",
+              "technical": "Suporta teknikal"
             }
           },
           "staff": {
-            "title": "[FIL]Staff",
-            "description": "[FIL]Operational efficiency and administrative automation",
+            "title": "Staff",
+            "description": "Kahusayan sa pagpapatakbo at automation sa pang-administratibo",
             "features": {
-              "automation": "[FIL]Process automation",
-              "information": "[FIL]Information access",
-              "workflow": "[FIL]Workflow management",
-              "reporting": "[FIL]Reporting tools"
+              "automation": "Automation ng proseso",
+              "information": "Access sa impormasyon",
+              "workflow": "Pamamahala ng daloy ng trabaho",
+              "reporting": "Mga tool sa pag-uulat"
             }
           }
         },
-        "metricsTitle": "[FIL]Educational Impact Metrics",
-        "metricsSubtitle": "[FIL]Real results from educational institutions using SeaChat[FIL] for student and administrative support.",
+        "metricsTitle": "Mga Sukatan ng Epekto sa Edukasyon",
+        "metricsSubtitle": "Mga tunay na resulta mula sa mga institusyong pang-edukasyon na gumagamit ng SeaChat para sa suporta sa mag-aaral at pang-administratibo.",
         "metrics": {
           "admin": {
-            "label": "[FIL]Reduced Admin Workload",
-            "description": "[FIL]Through automated student inquiries"
+            "label": "Nabawasang Gawain sa Admin",
+            "description": "Sa pamamagitan ng mga awtomatikong katanungan ng mag-aaral"
           },
           "satisfaction": {
-            "label": "[FIL]Student Satisfaction",
-            "description": "[FIL]With 24/7 support availability"
+            "label": "Kasiyahan ng Mag-aaral",
+            "description": "Sa 24/7 na availability ng suporta"
           },
           "response": {
-            "label": "[FIL]Faster Response Time",
-            "description": "[FIL]For student and parent inquiries"
+            "label": "Mas Mabilis na Oras ng Pagtugon",
+            "description": "Para sa mga katanungan ng mag-aaral at magulang"
           },
           "enrollment": {
-            "label": "[FIL]Increased Enrollment",
-            "description": "[FIL]With streamlined application process"
+            "label": "Tumaas na Pagpapatala",
+            "description": "Sa streamlined na proseso ng aplikasyon"
           }
         },
-        "useCasesTitle": "[FIL]Common Educational Use Cases",
-        "useCasesSubtitle": "[FIL]See how SeaChat[FIL] handles typical student and administrative interactions.",
+        "useCasesTitle": "Mga Karaniwang Kaso ng Paggamit sa Edukasyon",
+        "useCasesSubtitle": "Tingnan kung paano pinangangasiwaan ng SeaChat ang mga karaniwang pakikipag-ugnayan sa mag-aaral at pang-administratibo.",
         "useCases": {
           "enrollment": {
-            "title": "[FIL]Student Enrollment",
-            "description": "[FIL]Guide prospective students through the enrollment process",
-            "example": "[FIL]I want to apply for the Computer Science program",
-            "outcome": "[FIL]Step-by-step enrollment guidance with document requirements and deadlines"
+            "title": "Pagpapatala ng Mag-aaral",
+            "description": "Gabayan ang mga prospective na mag-aaral sa proseso ng pagpapatala",
+            "example": "Gusto kong mag-apply para sa programa ng Computer Science",
+            "outcome": "Gabay sa pagpapatala sa bawat hakbang na may mga kinakailangan sa dokumento at mga deadline"
           },
           "academic": {
-            "title": "[FIL]Academic Support",
-            "description": "[FIL]Provide academic assistance and course information",
-            "example": "[FIL]When is the deadline for my History assignment?",
-            "outcome": "[FIL]Real-time access to assignment deadlines and submission guidelines"
+            "title": "Suporta sa Akademiko",
+            "description": "Magbigay ng tulong sa akademiko at impormasyon sa kurso",
+            "example": "Kailan ang deadline para sa aking takdang-aralin sa Kasaysayan?",
+            "outcome": "Real-time na access sa mga deadline ng takdang-aralin at mga alituntunin sa pagsusumite"
           },
           "campus": {
-            "title": "[FIL]Campus Services",
-            "description": "[FIL]Help with campus facilities, dining, housing, and transportation",
-            "example": "[FIL]How do I reserve a study room in the library?",
-            "outcome": "[FIL]Direct booking system integration with availability and confirmation"
+            "title": "Mga Serbisyo sa Campus",
+            "description": "Tulong sa mga pasilidad sa campus, kainan, pabahay, at transportasyon",
+            "example": "Paano ako magrereserba ng isang study room sa library?",
+            "outcome": "Direktang pagsasama ng sistema ng booking na may availability at kumpirmasyon"
           },
           "financial": {
-            "title": "[FIL]Financial Aid",
-            "description": "[FIL]Assist with financial aid applications and scholarship information",
-            "example": "[FIL]What scholarships am I eligible for?",
-            "outcome": "[FIL]Personalized scholarship recommendations based on student profile"
+            "title": "Tulong Pinansyal",
+            "description": "Tumulong sa mga aplikasyon sa tulong pinansyal at impormasyon sa scholarship",
+            "example": "Anong mga scholarship ang kwalipikado ako?",
+            "outcome": "Mga personalized na rekomendasyon sa scholarship batay sa profile ng mag-aaral"
           }
         },
-        "studentInquiry": "[FIL]Student Inquiry",
-        "seachatResponse": "SeaChat[FIL] Response",
-        "integrationsTitle": "[FIL]Educational Platform Integrations",
-        "integrationsSubtitle": "[FIL]Seamlessly connect with popular educational tools and platforms.",
+        "studentInquiry": "Katanungan ng Mag-aaral",
+        "seachatResponse": "Tugon ng SeaChat",
+        "integrationsTitle": "Mga Pagsasama sa Platform ng Edukasyon",
+        "integrationsSubtitle": "Walang putol na kumonekta sa mga sikat na tool at platform sa edukasyon.",
         "integrations": {
           "canvas": {
-            "name": "[FIL]Canvas LMS",
-            "description": "[FIL]Learning management system integration"
+            "name": "Canvas LMS",
+            "description": "Pagsasama ng sistema ng pamamahala sa pag-aaral"
           },
           "blackboard": {
-            "name": "[FIL]Blackboard",
-            "description": "[FIL]Course management and content delivery"
+            "name": "Blackboard",
+            "description": "Pamamahala ng kurso at paghahatid ng nilalaman"
           },
           "moodle": {
-            "name": "[FIL]Moodle",
-            "description": "[FIL]Open-source learning platform"
+            "name": "Moodle",
+            "description": "Open-source na platform sa pag-aaral"
           },
           "google": {
-            "name": "[FIL]Google Classroom",
-            "description": "[FIL]Educational collaboration platform"
+            "name": "Google Classroom",
+            "description": "Platform sa pakikipagtulungan sa edukasyon"
           },
           "zoom": {
-            "name": "[FIL]Zoom",
-            "description": "[FIL]Video conferencing for virtual classes"
+            "name": "Zoom",
+            "description": "Video conferencing para sa mga virtual na klase"
           },
           "teams": {
-            "name": "[FIL]Microsoft Teams",
-            "description": "[FIL]Educational collaboration and communication"
+            "name": "Microsoft Teams",
+            "description": "Pakikipagtulungan at komunikasyon sa edukasyon"
           },
           "sis": {
-            "name": "[FIL]Student Information Systems",
-            "description": "[FIL]SIS integration for student records"
+            "name": "Mga Sistema ng Impormasyon ng Mag-aaral",
+            "description": "Pagsasama ng SIS para sa mga talaan ng mag-aaral"
           },
           "library": {
-            "name": "[FIL]Library Systems",
-            "description": "[FIL]Resource booking and catalog search"
+            "name": "Mga Sistema ng Library",
+            "description": "Pag-book ng mapagkukunan at paghahanap sa catalog"
           }
         },
-        "ctaTitle": "[FIL]Ready to Transform Education Support?",
-        "ctaSubtitle": "[FIL]Join educational institutions already using SeaChat[FIL] to enhance student success and streamline administrative operations.",
-        "ctaTrialButton": "[FIL]Start Education For Free",
-        "ctaDemoButton": "[FIL]Schedule Education Demo"
+        "ctaTitle": "Handa nang Baguhin ang Suporta sa Edukasyon?",
+        "ctaSubtitle": "Sumali sa mga institusyong pang-edukasyon na gumagamit na ng SeaChat upang mapahusay ang tagumpay ng mag-aaral at i-streamline ang mga operasyon sa pang-administratibo.",
+        "ctaTrialButton": "Simulan ang Edukasyon nang Libre",
+        "ctaDemoButton": "Mag-iskedyul ng Demo sa Edukasyon"
       },
       "realEstate": {
-        "title": "[FIL]Real Estate Solutions",
-        "subtitle": "[FIL]Transform your real estate business with AI-powered customer support that captures leads, coordinates showings, and provides 24/7 client assistance.",
-        "trialButton": "[FIL]Start Real Estate For Free",
-        "demoButton": "[FIL]Schedule Real Estate Demo",
-        "featuresTitle": "[FIL]Real Estate Specialized Features",
-        "featuresSubtitle": "[FIL]Purpose-built features for real estate professionals to capture leads and serve clients better.",
+        "title": "Mga Solusyon sa Real Estate",
+        "subtitle": "Baguhin ang iyong negosyo sa real estate gamit ang suporta sa customer na pinapagana ng AI na kumukuha ng mga lead, nag-coordinate ng mga pagpapakita, at nagbibigay ng 24/7 na tulong sa kliyente.",
+        "trialButton": "Simulan ang Real Estate nang Libre",
+        "demoButton": "Mag-iskedyul ng Demo sa Real Estate",
+        "featuresTitle": "Mga Espesyal na Tampok sa Real Estate",
+        "featuresSubtitle": "Mga tampok na binuo para sa mga propesyonal sa real estate upang makuha ang mga lead at mas mahusay na mapagsilbihan ang mga kliyente.",
         "features": {
           "search": {
-            "title": "[FIL]Property Search Assistance",
-            "description": "[FIL]Help clients find their perfect property with AI-powered search and recommendations",
+            "title": "Tulong sa Paghahanap ng Ari-arian",
+            "description": "Tulungan ang mga kliyente na mahanap ang kanilang perpektong ari-arian gamit ang paghahanap at mga rekomendasyon na pinapagana ng AI",
             "benefits": {
-              "matching": "[FIL]Smart property matching",
-              "insights": "[FIL]Market insights",
-              "neighborhood": "[FIL]Neighborhood information",
-              "analysis": "[FIL]Price analysis"
+              "matching": "Matalinong pagtutugma ng ari-arian",
+              "insights": "Mga insight sa merkado",
+              "neighborhood": "Impormasyon sa kapitbahayan",
+              "analysis": "Pagsusuri ng presyo"
             }
           },
           "showing": {
-            "title": "[FIL]Showing Coordination",
-            "description": "[FIL]Streamline property showings with automated scheduling and coordination",
+            "title": "Koordinasyon sa Pagpapakita",
+            "description": "I-streamline ang mga pagpapakita ng ari-arian na may awtomatikong pag-iiskedyul at koordinasyon",
             "benefits": {
-              "scheduling": "[FIL]Automated scheduling",
-              "availability": "[FIL]Availability sync",
-              "reminders": "[FIL]Reminder notifications",
-              "route": "[FIL]Route optimization"
+              "scheduling": "Awtomatikong pag-iiskedyul",
+              "availability": "Pag-sync ng availability",
+              "reminders": "Mga abiso sa paalala",
+              "route": "Pag-optimize ng ruta"
             }
           },
           "leads": {
-            "title": "[FIL]Lead Management",
-            "description": "[FIL]Capture and nurture leads with intelligent qualification and follow-up",
+            "title": "Pamamahala ng Lead",
+            "description": "Makuha at alagaan ang mga lead na may matalinong kwalipikasyon at pag-follow-up",
             "benefits": {
-              "qualification": "[FIL]Lead qualification",
-              "followup": "[FIL]Automated follow-up",
-              "crm": "[FIL]CRM integration",
-              "tracking": "[FIL]Conversion tracking"
+              "qualification": "Kwalipikasyon ng lead",
+              "followup": "Awtomatikong pag-follow-up",
+              "crm": "Pagsasama ng CRM",
+              "tracking": "Pagsubaybay sa conversion"
             }
           },
           "communication": {
-            "title": "[FIL]Client Communication",
-            "description": "[FIL]24/7 client support for inquiries, updates, and transaction assistance",
+            "title": "Komunikasyon sa Kliyente",
+            "description": "24/7 na suporta sa kliyente para sa mga katanungan, update, at tulong sa transaksyon",
             "benefits": {
-              "availability": "[FIL]24/7 availability",
-              "updates": "[FIL]Transaction updates",
-              "assistance": "[FIL]Document assistance",
-              "market": "[FIL]Market updates"
+              "availability": "24/7 na availability",
+              "updates": "Mga update sa transaksyon",
+              "assistance": "Tulong sa dokumento",
+              "market": "Mga update sa merkado"
             }
           }
         },
-        "metricsTitle": "[FIL]Real Estate Impact Metrics",
-        "metricsSubtitle": "[FIL]Real results from real estate professionals using SeaChat[FIL] for client support and lead generation.",
+        "metricsTitle": "Mga Sukatan ng Epekto sa Real Estate",
+        "metricsSubtitle": "Mga tunay na resulta mula sa mga propesyonal sa real estate na gumagamit ng SeaChat para sa suporta sa kliyente at pagbuo ng lead.",
         "metrics": {
           "leads": {
-            "label": "[FIL]More Qualified Leads",
-            "description": "[FIL]Through intelligent lead qualification"
+            "label": "Mas Maraming Kwalipikadong Lead",
+            "description": "Sa pamamagitan ng matalinong kwalipikasyon ng lead"
           },
           "response": {
-            "label": "[FIL]Faster Response Time",
-            "description": "[FIL]For client inquiries and requests"
+            "label": "Mas Mabilis na Oras ng Pagtugon",
+            "description": "Para sa mga katanungan at kahilingan ng kliyente"
           },
           "showing": {
-            "label": "[FIL]Showing Efficiency",
-            "description": "[FIL]With automated scheduling coordination"
+            "label": "Kahusayan sa Pagpapakita",
+            "description": "Sa koordinasyon ng awtomatikong pag-iiskedyul"
           },
           "satisfaction": {
-            "label": "[FIL]Client Satisfaction",
-            "description": "[FIL]With 24/7 support availability"
+            "label": "Kasiyahan ng Kliyente",
+            "description": "Sa 24/7 na availability ng suporta"
           }
         },
-        "propertyTypesTitle": "[FIL]All Property Types Supported",
-        "propertyTypesSubtitle": "[FIL]Whether you specialize in residential, commercial, or investment properties, we've got you covered.",
+        "propertyTypesTitle": "Lahat ng Uri ng Ari-arian ay Suportado",
+        "propertyTypesSubtitle": "Dalubhasa ka man sa mga residential, komersyal, o investment na ari-arian, sakop ka namin.",
         "propertyTypes": {
           "residential": {
-            "name": "[FIL]Residential Sales",
-            "description": "[FIL]Single-family homes, condos, and townhouses"
+            "name": "Mga Residential na Benta",
+            "description": "Mga single-family na bahay, condo, at townhouse"
           },
           "commercial": {
-            "name": "[FIL]Commercial Real Estate",
-            "description": "[FIL]Office buildings, retail spaces, and warehouses"
+            "name": "Komersyal na Real Estate",
+            "description": "Mga gusali ng opisina, mga espasyo sa tingi, at mga bodega"
           },
           "rental": {
-            "name": "[FIL]Rental Properties",
-            "description": "[FIL]Apartment complexes and rental management"
+            "name": "Mga Ari-arian na Paupahan",
+            "description": "Mga apartment complex at pamamahala sa pag-upa"
           },
           "luxury": {
-            "name": "[FIL]Luxury Properties",
-            "description": "[FIL]High-end homes and exclusive listings"
+            "name": "Mga Luxury na Ari-arian",
+            "description": "Mga high-end na bahay at eksklusibong mga listahan"
           },
           "investment": {
-            "name": "[FIL]Investment Properties",
-            "description": "[FIL]Fix-and-flip and rental investments"
+            "name": "Mga Ari-arian sa Pamumuhunan",
+            "description": "Mga pamumuhunan sa fix-and-flip at pag-upa"
           },
           "new": {
-            "name": "[FIL]New Construction",
-            "description": "[FIL]Builder partnerships and new developments"
+            "name": "Bagong Konstruksyon",
+            "description": "Mga pakikipagsosyo sa tagabuo at mga bagong pag-unlad"
           }
         },
-        "useCasesTitle": "[FIL]Real Estate Use Cases",
-        "useCasesSubtitle": "[FIL]See how SeaChat[FIL] handles typical real estate client interactions and lead generation.",
+        "useCasesTitle": "Mga Kaso ng Paggamit sa Real Estate",
+        "useCasesSubtitle": "Tingnan kung paano pinangangasiwaan ng SeaChat ang mga karaniwang pakikipag-ugnayan sa kliyente sa real estate at pagbuo ng lead.",
         "useCases": {
           "property": {
-            "title": "[FIL]Property Inquiries",
-            "description": "[FIL]Handle property questions and provide detailed information",
-            "example": "[FIL]Tell me about the 3-bedroom house on Oak Street",
-            "outcome": "[FIL]Detailed property information with photos, pricing, and neighborhood data"
+            "title": "Mga Katanungan sa Ari-arian",
+            "description": "Pangasiwaan ang mga tanong sa ari-arian at magbigay ng detalyadong impormasyon",
+            "example": "Sabihin sa akin ang tungkol sa 3-silid-tulugan na bahay sa Oak Street",
+            "outcome": "Detalyadong impormasyon sa ari-arian na may mga larawan, pagpepresyo, at data ng kapitbahayan"
           },
           "showing": {
-            "title": "[FIL]Showing Requests",
-            "description": "[FIL]Schedule property viewings and coordinate with all parties",
-            "example": "[FIL]I'd like to schedule a showing for this weekend",
-            "outcome": "[FIL]Automated scheduling with agent availability and confirmation"
+            "title": "Mga Kahilingan sa Pagpapakita",
+            "description": "Mag-iskedyul ng mga pagtingin sa ari-arian at makipag-coordinate sa lahat ng partido",
+            "example": "Gusto kong mag-iskedyul ng isang pagpapakita para sa katapusan ng linggo na ito",
+            "outcome": "Awtomatikong pag-iiskedyul na may availability ng ahente at kumpirmasyon"
           },
           "market": {
-            "title": "[FIL]Market Analysis",
-            "description": "[FIL]Provide market insights and property valuations",
-            "example": "[FIL]What's my home worth in today's market?",
-            "outcome": "[FIL]Comparative market analysis with recent sales and trends"
+            "title": "Pagsusuri sa Merkado",
+            "description": "Magbigay ng mga insight sa merkado at mga pagtatasa ng ari-arian",
+            "example": "Ano ang halaga ng aking bahay sa merkado ngayon?",
+            "outcome": "Paghahambing na pagsusuri sa merkado na may mga kamakailang benta at trend"
           },
           "transaction": {
-            "title": "[FIL]Transaction Support",
-            "description": "[FIL]Guide clients through the buying or selling process",
-            "example": "[FIL]What documents do I need for the closing?",
-            "outcome": "[FIL]Checklist of required documents with deadlines and instructions"
+            "title": "Suporta sa Transaksyon",
+            "description": "Gabayan ang mga kliyente sa proseso ng pagbili o pagbebenta",
+            "example": "Anong mga dokumento ang kailangan ko para sa pagsasara?",
+            "outcome": "Checklist ng mga kinakailangang dokumento na may mga deadline at tagubilin"
           }
         },
-        "clientInquiry": "[FIL]Client Inquiry",
-        "seachatResponse": "SeaChat[FIL] Response",
-        "integrationsTitle": "[FIL]Real Estate Platform Integrations",
-        "integrationsSubtitle": "[FIL]Seamlessly connect with the tools and platforms you already use to manage your real estate business.",
-        "leadCaptureTitle": "[FIL]Lead Capture Example",
-        "websiteVisitor": "[FIL]Website Visitor",
-        "visitorQuery": "[FIL]I'm looking for a 3-bedroom house under $500k",
-        "seachatAI": "SeaChat[FIL] AI",
-        "aiResponse": "[FIL]I'd love to help you find the perfect home! I have several 3-bedroom properties under $500k. Can I get your contact information to send you some options?",
-        "visitorResponse": "[FIL]Sure! My email is john@email.com",
-        "systemAction": "[FIL]System Action",
-        "leadCaptured": "[FIL]Lead captured and added to CRM with property preferences",
-        "ctaTitle": "[FIL]Ready to Transform Your Real Estate Business?",
-        "ctaSubtitle": "[FIL]Join real estate professionals already using SeaChat[FIL] to capture more leads, coordinate showings, and provide exceptional client service.",
-        "ctaTrialButton": "[FIL]Start Real Estate For Free",
-        "ctaDemoButton": "[FIL]Schedule Real Estate Demo",
+        "clientInquiry": "Katanungan ng Kliyente",
+        "seachatResponse": "Tugon ng SeaChat",
+        "integrationsTitle": "Mga Pagsasama sa Platform ng Real Estate",
+        "integrationsSubtitle": "Walang putol na kumonekta sa mga tool at platform na ginagamit mo na upang pamahalaan ang iyong negosyo sa real estate.",
+        "leadCaptureTitle": "Halimbawa ng Pagkuha ng Lead",
+        "websiteVisitor": "Bisita sa Website",
+        "visitorQuery": "Naghahanap ako ng isang 3-silid-tulugan na bahay na wala pang $500k",
+        "seachatAI": "SeaChat AI",
+        "aiResponse": "Gusto kong tulungan kang mahanap ang perpektong bahay! Mayroon akong ilang mga 3-silid-tulugan na ari-arian na wala pang $500k. Maaari ko bang makuha ang iyong impormasyon sa pakikipag-ugnayan upang maipadala sa iyo ang ilang mga pagpipilian?",
+        "visitorResponse": "Sige! Ang aking email ay john@email.com",
+        "systemAction": "Aksyon ng Sistema",
+        "leadCaptured": "Nakuha ang lead at idinagdag sa CRM na may mga kagustuhan sa ari-arian",
+        "ctaTitle": "Handa nang Baguhin ang Iyong Negosyo sa Real Estate?",
+        "ctaSubtitle": "Sumali sa mga propesyonal sa real estate na gumagamit na ng SeaChat upang makuha ang mas maraming mga lead, mag-coordinate ng mga pagpapakita, at magbigay ng pambihirang serbisyo sa kliyente.",
+        "ctaTrialButton": "Simulan ang Real Estate nang Libre",
+        "ctaDemoButton": "Mag-iskedyul ng Demo sa Real Estate",
         "integrations": {
-          "0": "[FIL]MLS Integration",
-          "1": "[FIL]CRM Systems",
-          "2": "[FIL]Property Management",
-          "3": "[FIL]Lead Generation Tools",
-          "4": "[FIL]Calendar & Scheduling",
-          "5": "[FIL]Email Marketing",
-          "6": "[FIL]Document Management",
-          "7": "[FIL]Virtual Tour Platforms"
+          "0": "Pagsasama ng MLS",
+          "1": "Mga Sistema ng CRM",
+          "2": "Pamamahala ng Ari-arian",
+          "3": "Mga Tool sa Pagbuo ng Lead",
+          "4": "Kalendaryo at Pag-iiskedyul",
+          "5": "Marketing sa Email",
+          "6": "Pamamahala ng Dokumento",
+          "7": "Mga Platform ng Virtual Tour"
         }
       },
       "saas": {
-        "title": "[FIL]SaaS & Technology",
-        "subtitle": "[FIL]Accelerate user adoption and reduce churn with intelligent customer support that provides technical assistance, onboarding guidance, and proactive success management.",
-        "trialButton": "[FIL]Start SaaS For Free",
-        "demoButton": "[FIL]Schedule SaaS Demo",
-        "featuresTitle": "[FIL]SaaS-Specific Features",
-        "featuresSubtitle": "[FIL]Purpose-built features for SaaS companies to drive user success and business growth.",
+        "title": "SaaS at Teknolohiya",
+        "subtitle": "Pabilisin ang pag-ampon ng gumagamit at bawasan ang churn gamit ang matalinong suporta sa customer na nagbibigay ng teknikal na tulong, gabay sa onboarding, at maagap na pamamahala sa tagumpay.",
+        "trialButton": "Simulan ang SaaS nang Libre",
+        "demoButton": "Mag-iskedyul ng Demo sa SaaS",
+        "featuresTitle": "Mga Tampok na Partikular sa SaaS",
+        "featuresSubtitle": "Mga tampok na binuo para sa mga kumpanya ng SaaS upang mag-drive ng tagumpay ng gumagamit at paglago ng negosyo.",
         "features": {
           "technical": {
-            "title": "[FIL]Technical Support",
-            "description": "[FIL]Provide expert technical assistance for software issues and integrations",
+            "title": "Suporta Teknikal",
+            "description": "Magbigay ng dalubhasang teknikal na tulong para sa mga isyu sa software at mga pagsasama",
             "benefits": {
-              "api": "[FIL]API documentation help",
-              "integration": "[FIL]Integration support",
-              "troubleshooting": "[FIL]Troubleshooting guides",
-              "resources": "[FIL]Developer resources"
+              "api": "Tulong sa dokumentasyon ng API",
+              "integration": "Suporta sa pagsasama",
+              "troubleshooting": "Mga gabay sa pag-troubleshoot",
+              "resources": "Mga mapagkukunan ng developer"
             }
           },
           "onboarding": {
-            "title": "[FIL]User Onboarding",
-            "description": "[FIL]Streamline user onboarding with guided setup and feature introduction",
+            "title": "Onboarding ng Gumagamit",
+            "description": "I-streamline ang onboarding ng gumagamit na may gabay na pag-setup at pagpapakilala sa tampok",
             "benefits": {
-              "tutorials": "[FIL]Interactive tutorials",
-              "walkthroughs": "[FIL]Feature walkthroughs",
-              "setup": "[FIL]Setup assistance",
-              "practices": "[FIL]Best practices"
+              "tutorials": "Mga interactive na tutorial",
+              "walkthroughs": "Mga walkthrough ng tampok",
+              "setup": "Tulong sa pag-setup",
+              "practices": "Mga pinakamahusay na kasanayan"
             }
           },
           "success": {
-            "title": "[FIL]Customer Success",
-            "description": "[FIL]Drive product adoption and reduce churn with proactive support",
+            "title": "Tagumpay ng Customer",
+            "description": "Mag-drive ng pag-ampon ng produkto at bawasan ang churn gamit ang maagap na suporta",
             "benefits": {
-              "analytics": "[FIL]Usage analytics",
-              "adoption": "[FIL]Feature adoption",
-              "churn": "[FIL]Churn prevention",
-              "upselling": "[FIL]Upselling opportunities"
+              "analytics": "Analytics sa paggamit",
+              "adoption": "Pag-ampon ng tampok",
+              "churn": "Pag-iwas sa churn",
+              "upselling": "Mga pagkakataon sa upselling"
             }
           },
           "security": {
-            "title": "[FIL]Security & Compliance",
-            "description": "[FIL]Address security concerns and compliance requirements",
+            "title": "Seguridad at Pagsunod",
+            "description": "Tugunan ang mga alalahanin sa seguridad at mga kinakailangan sa pagsunod",
             "benefits": {
-              "documentation": "[FIL]Security documentation",
-              "compliance": "[FIL]Compliance guides",
-              "protection": "[FIL]Data protection",
-              "audit": "[FIL]Audit support"
+              "documentation": "Dokumentasyon sa seguridad",
+              "compliance": "Mga gabay sa pagsunod",
+              "protection": "Proteksyon ng data",
+              "audit": "Suporta sa audit"
             }
           }
         },
         "useCases": {
           "api": {
-            "title": "[FIL]API Integration Help",
-            "description": "[FIL]Assist developers with API implementation and troubleshooting",
-            "example": "[FIL]How do I authenticate with your API?",
-            "outcome": "[FIL]Step-by-step authentication guide with code examples and testing tools"
+            "title": "Tulong sa Pagsasama ng API",
+            "description": "Tulungan ang mga developer sa pagpapatupad at pag-troubleshoot ng API",
+            "example": "Paano ako magpapatotoo sa iyong API?",
+            "outcome": "Gabay sa pagpapatotoo sa bawat hakbang na may mga halimbawa ng code at mga tool sa pagsubok"
           },
           "feature": {
-            "title": "[FIL]Feature Guidance",
-            "description": "[FIL]Help users discover and implement advanced features",
-            "example": "[FIL]How do I set up automated workflows?",
-            "outcome": "[FIL]Interactive tutorial with workflow templates and configuration assistance"
+            "title": "Gabay sa Tampok",
+            "description": "Tulungan ang mga gumagamit na matuklasan at ipatupad ang mga advanced na tampok",
+            "example": "Paano ako magse-set up ng mga awtomatikong daloy ng trabaho?",
+            "outcome": "Interactive na tutorial na may mga template ng daloy ng trabaho at tulong sa pagsasaayos"
           },
           "billing": {
-            "title": "[FIL]Billing & Subscriptions",
-            "description": "[FIL]Handle billing inquiries and subscription management",
-            "example": "[FIL]I want to upgrade my plan, what are the differences?",
-            "outcome": "[FIL]Plan comparison with pricing details and upgrade assistance"
+            "title": "Pagsingil at mga Subscription",
+            "description": "Pangasiwaan ang mga katanungan sa pagsingil at pamamahala ng subscription",
+            "example": "Gusto kong i-upgrade ang aking plano, ano ang mga pagkakaiba?",
+            "outcome": "Paghahambing ng plano na may mga detalye sa pagpepresyo at tulong sa pag-upgrade"
           },
           "performance": {
-            "title": "[FIL]Performance Optimization",
-            "description": "[FIL]Provide guidance on optimizing software performance",
-            "example": "[FIL]My dashboard is loading slowly, how can I fix this?",
-            "outcome": "[FIL]Performance analysis with optimization recommendations and implementation help"
+            "title": "Pag-optimize ng Pagganap",
+            "description": "Magbigay ng gabay sa pag-optimize ng pagganap ng software",
+            "example": "Mabagal mag-load ang aking dashboard, paano ko ito aayusin?",
+            "outcome": "Pagsusuri ng pagganap na may mga rekomendasyon sa pag-optimize at tulong sa pagpapatupad"
           }
         },
         "metrics": {
           "tickets": {
-            "label": "[FIL]Reduced Support Tickets",
-            "description": "[FIL]Through self-service automation"
+            "label": "Nabawasang mga Tiket sa Suporta",
+            "description": "Sa pamamagitan ng self-service automation"
           },
           "onboarding": {
-            "label": "[FIL]Faster Onboarding",
-            "description": "[FIL]With guided setup assistance"
+            "label": "Mas Mabilis na Onboarding",
+            "description": "Sa gabay na tulong sa pag-setup"
           },
           "adoption": {
-            "label": "[FIL]Higher Feature Adoption",
-            "description": "[FIL]Through proactive feature guidance"
+            "label": "Mas Mataas na Pag-ampon ng Tampok",
+            "description": "Sa pamamagitan ng maagap na gabay sa tampok"
           },
           "churn": {
-            "label": "[FIL]Reduced Churn Rate",
-            "description": "[FIL]With proactive customer success"
+            "label": "Nabawasang Rate ng Churn",
+            "description": "Sa maagap na tagumpay ng customer"
           }
         },
         "types": {
           "b2b": {
-            "title": "[FIL]B2B SaaS Platforms",
-            "description": "[FIL]Enterprise software and business tools",
+            "title": "Mga Platform ng B2B SaaS",
+            "description": "Software ng enterprise at mga tool sa negosyo",
             "features": {
-              "tenant": "[FIL]Multi-tenant support",
-              "security": "[FIL]Enterprise security",
-              "api": "[FIL]API documentation",
-              "assistance": "[FIL]Integration assistance"
+              "tenant": "Suporta sa maraming nangungupahan",
+              "security": "Seguridad sa enterprise",
+              "api": "Dokumentasyon ng API",
+              "assistance": "Tulong sa pagsasama"
             }
           },
           "developer": {
-            "title": "[FIL]Developer Tools",
-            "description": "[FIL]APIs, SDKs, and development platforms",
+            "title": "Mga Tool ng Developer",
+            "description": "Mga API, SDK, at mga platform sa pag-unlad",
             "features": {
-              "examples": "[FIL]Code examples",
-              "documentation": "[FIL]Technical documentation",
-              "debugging": "[FIL]Debugging help",
-              "community": "[FIL]Community support"
+              "examples": "Mga halimbawa ng code",
+              "documentation": "Teknikal na dokumentasyon",
+              "debugging": "Tulong sa pag-debug",
+              "community": "Suporta sa komunidad"
             }
           },
           "marketing": {
-            "title": "[FIL]Marketing Software",
-            "description": "[FIL]Marketing automation and analytics tools",
+            "title": "Software sa Marketing",
+            "description": "Automation sa marketing at mga tool sa analytics",
             "features": {
-              "campaign": "[FIL]Campaign setup",
-              "analytics": "[FIL]Analytics guidance",
-              "integration": "[FIL]Integration help",
-              "practices": "[FIL]Best practices"
+              "campaign": "Pag-setup ng kampanya",
+              "analytics": "Gabay sa analytics",
+              "integration": "Tulong sa pagsasama",
+              "practices": "Mga pinakamahusay na kasanayan"
             }
           },
           "productivity": {
-            "title": "[FIL]Productivity Apps",
-            "description": "[FIL]Collaboration and productivity software",
+            "title": "Mga App sa Pagiging Produktibo",
+            "description": "Pakikipagtulungan at software sa pagiging produktibo",
             "features": {
-              "tutorials": "[FIL]Feature tutorials",
-              "workflow": "[FIL]Workflow optimization",
-              "team": "[FIL]Team setup",
-              "usage": "[FIL]Usage analytics"
+              "tutorials": "Mga tutorial sa tampok",
+              "workflow": "Pag-optimize ng daloy ng trabaho",
+              "team": "Pag-setup ng koponan",
+              "usage": "Analytics sa paggamit"
             }
           },
           "ecommerce": {
-            "title": "[FIL]E-commerce Platforms",
-            "description": "[FIL]Online store and payment solutions",
+            "title": "Mga Platform ng E-commerce",
+            "description": "Online na tindahan at mga solusyon sa pagbabayad",
             "features": {
-              "store": "[FIL]Store setup",
-              "payment": "[FIL]Payment integration",
-              "theme": "[FIL]Theme customization",
-              "performance": "[FIL]Performance optimization"
+              "store": "Pag-setup ng tindahan",
+              "payment": "Pagsasama ng pagbabayad",
+              "theme": "Pag-customize ng tema",
+              "performance": "Pag-optimize ng pagganap"
             }
           },
           "analytics": {
-            "title": "[FIL]Analytics Platforms",
-            "description": "[FIL]Data analytics and business intelligence",
+            "title": "Mga Platform ng Analytics",
+            "description": "Data analytics at business intelligence",
             "features": {
-              "dashboard": "[FIL]Dashboard creation",
-              "data": "[FIL]Data integration",
-              "report": "[FIL]Report generation",
-              "visualization": "[FIL]Visualization help"
+              "dashboard": "Paglikha ng dashboard",
+              "data": "Pagsasama ng data",
+              "report": "Pagbuo ng ulat",
+              "visualization": "Tulong sa visualization"
             }
           }
         },
-        "typesTitle": "[FIL]All SaaS Categories Supported",
-        "typesSubtitle": "[FIL]From enterprise platforms to developer tools, we support every type of SaaS business.",
-        "impactTitle": "[FIL]SaaS Business Impact",
-        "impactSubtitle": "[FIL]Real results from SaaS companies using SeaChat[FIL] for customer support and success.",
-        "useCasesTitle": "[FIL]SaaS Support Use Cases",
-        "useCasesSubtitle": "[FIL]See how SeaChat[FIL] handles typical SaaS customer interactions and technical support.",
-        "userQuestion": "[FIL]User Question",
-        "seachatResponse": "SeaChat[FIL] Response",
-        "integrationsTitle": "[FIL]SaaS Platform Integrations",
-        "integrationsSubtitle": "[FIL]Connect with the tools and platforms that power your SaaS business for unified customer success operations.",
-        "successFlowTitle": "[FIL]Customer Success Flow",
+        "typesTitle": "Lahat ng mga Kategorya ng SaaS ay Suportado",
+        "typesSubtitle": "Mula sa mga platform ng enterprise hanggang sa mga tool ng developer, sinusuportahan namin ang bawat uri ng negosyo sa SaaS.",
+        "impactTitle": "Epekto sa Negosyo ng SaaS",
+        "impactSubtitle": "Mga tunay na resulta mula sa mga kumpanya ng SaaS na gumagamit ng SeaChat para sa suporta at tagumpay ng customer.",
+        "useCasesTitle": "Mga Kaso ng Paggamit sa Suporta sa SaaS",
+        "useCasesSubtitle": "Tingnan kung paano pinangangasiwaan ng SeaChat ang mga karaniwang pakikipag-ugnayan sa customer ng SaaS at teknikal na suporta.",
+        "userQuestion": "Tanong ng Gumagamit",
+        "seachatResponse": "Tugon ng SeaChat",
+        "integrationsTitle": "Mga Pagsasama sa Platform ng SaaS",
+        "integrationsSubtitle": "Kumonekta sa mga tool at platform na nagpapagana sa iyong negosyo sa SaaS para sa pinag-isang mga operasyon sa tagumpay ng customer.",
+        "successFlowTitle": "Daloy ng Tagumpay ng Customer",
         "flow": {
           "onboarding": {
-            "title": "[FIL]User Onboarding",
-            "description": "[FIL]Guided setup and feature introduction"
+            "title": "Onboarding ng Gumagamit",
+            "description": "Gabay na pag-setup at pagpapakilala sa tampok"
           },
           "adoption": {
-            "title": "[FIL]Feature Adoption",
-            "description": "[FIL]Proactive feature recommendations"
+            "title": "Pag-ampon ng Tampok",
+            "description": "Mga maagap na rekomendasyon sa tampok"
           },
           "monitoring": {
-            "title": "[FIL]Usage Monitoring",
-            "description": "[FIL]Track engagement and identify issues"
+            "title": "Pagsubaybay sa Paggamit",
+            "description": "Subaybayan ang pakikipag-ugnayan at tukuyin ang mga isyu"
           },
           "growth": {
-            "title": "[FIL]Success & Growth",
-            "description": "[FIL]Upselling and expansion opportunities"
+            "title": "Tagumpay at Paglago",
+            "description": "Mga pagkakataon sa upselling at pagpapalawak"
           }
         },
-        "ctaTitle": "[FIL]Ready to Accelerate SaaS Growth?",
-        "ctaSubtitle": "[FIL]Join SaaS companies already using SeaChat[FIL] to drive user adoption, reduce churn, and accelerate customer success.",
-        "ctaTrialButton": "[FIL]Start SaaS For Free",
-        "ctaDemoButton": "[FIL]Schedule SaaS Demo",
+        "ctaTitle": "Handa nang Pabilisin ang Paglago ng SaaS?",
+        "ctaSubtitle": "Sumali sa mga kumpanya ng SaaS na gumagamit na ng SeaChat upang mag-drive ng pag-ampon ng gumagamit, bawasan ang churn, at pabilisin ang tagumpay ng customer.",
+        "ctaTrialButton": "Simulan ang SaaS nang Libre",
+        "ctaDemoButton": "Mag-iskedyul ng Demo sa SaaS",
         "integrations": {
-          "0": "[FIL]Slack Integration",
-          "1": "[FIL]Salesforce CRM",
+          "0": "Pagsasama ng Slack",
+          "1": "Salesforce CRM",
           "2": "HubSpot",
-          "3": "[FIL]Zendesk",
-          "4": "[FIL]Intercom",
-          "5": "[FIL]Stripe",
-          "6": "[FIL]Google Analytics",
-          "7": "[FIL]Microsoft Teams",
-          "8": "[FIL]Jira",
-          "9": "[FIL]GitHub",
-          "10": "[FIL]Atlassian Suite",
-          "11": "[FIL]AWS Services"
+          "3": "Zendesk",
+          "4": "Intercom",
+          "5": "Stripe",
+          "6": "Google Analytics",
+          "7": "Microsoft Teams",
+          "8": "Jira",
+          "9": "GitHub",
+          "10": "Atlassian Suite",
+          "11": "Mga Serbisyo ng AWS"
         }
       },
       "smallBusiness": {
-        "title": "[FIL]Small Business Solutions",
-        "subtitle": "[FIL]Affordable, easy-to-use customer support for small businesses. Start free and grow with features that help you serve customers better without breaking the bank.",
-        "startButton": "[FIL]Start Free Today",
-        "demoButton": "[FIL]View Small Business Demo",
-        "featuresTitle": "[FIL]Built for Small Business Success",
-        "featuresSubtitle": "[FIL]Everything small businesses need to provide professional customer support without the complexity or cost.",
+        "title": "Mga Solusyon sa Maliit na Negosyo",
+        "subtitle": "Abot-kaya, madaling gamitin na suporta sa customer para sa maliliit na negosyo. Magsimula nang libre at lumago gamit ang mga tampok na tumutulong sa iyong mas mahusay na pagsilbihan ang mga customer nang hindi sinisira ang bangko.",
+        "startButton": "Magsimula nang Libre Ngayon",
+        "demoButton": "Tingnan ang Demo sa Maliit na Negosyo",
+        "featuresTitle": "Binuo para sa Tagumpay ng Maliit na Negosyo",
+        "featuresSubtitle": "Lahat ng kailangan ng maliliit na negosyo upang magbigay ng propesyonal na suporta sa customer nang walang kumplikasyon o gastos.",
         "features": {
           "local": {
-            "title": "[FIL]Local Business Support",
-            "description": "[FIL]Perfect for local shops, restaurants, and service providers",
+            "title": "Suporta sa Lokal na Negosyo",
+            "description": "Perpekto para sa mga lokal na tindahan, restaurant, at mga tagapagbigay ng serbisyo",
             "benefits": {
-              "seo": "[FIL]Local SEO optimization",
-              "google": "[FIL]Google My Business integration",
-              "reviews": "[FIL]Review management",
-              "customer": "[FIL]Local customer base"
+              "seo": "Pag-optimize ng lokal na SEO",
+              "google": "Pagsasama ng Google My Business",
+              "reviews": "Pamamahala ng review",
+              "customer": "Lokal na base ng customer"
             }
           },
           "cost": {
-            "title": "[FIL]Cost-Effective Solution",
-            "description": "[FIL]Affordable pricing that grows with your business",
+            "title": "Solusyon na Mabisa sa Gastos",
+            "description": "Abot-kayang pagpepresyo na lumalaki kasama ng iyong negosyo",
             "benefits": {
-              "free": "[FIL]Free plan available",
-              "setup": "[FIL]No setup fees",
-              "pricing": "[FIL]Flexible pricing",
-              "roi": "[FIL]ROI tracking"
+              "free": "Available ang libreng plano",
+              "setup": "Walang mga bayarin sa pag-setup",
+              "pricing": "Flexible na pagpepresyo",
+              "roi": "Pagsubaybay sa ROI"
             }
           },
           "setup": {
-            "title": "[FIL]Quick Setup",
-            "description": "[FIL]Get started in minutes, not hours or days",
+            "title": "Mabilis na Pag-setup",
+            "description": "Magsimula sa ilang minuto, hindi oras o araw",
             "benefits": {
-              "minutes": "[FIL]5-minute setup",
-              "templates": "[FIL]Pre-built templates",
-              "integration": "[FIL]Easy integration",
-              "activation": "[FIL]Instant activation"
+              "minutes": "5-minutong pag-setup",
+              "templates": "Mga pre-built na template",
+              "integration": "Madaling pagsasama",
+              "activation": "Agad na pag-activate"
             }
           },
           "personal": {
-            "title": "[FIL]Personal Touch",
-            "description": "[FIL]Maintain personal relationships while scaling efficiently",
+            "title": "Personal na Ugnayan",
+            "description": "Panatilihin ang mga personal na relasyon habang mahusay na nag-i-scale",
             "benefits": {
-              "history": "[FIL]Customer history",
-              "notes": "[FIL]Personal notes",
-              "relationship": "[FIL]Relationship building",
-              "community": "[FIL]Local community focus"
+              "history": "Kasaysayan ng customer",
+              "notes": "Mga personal na tala",
+              "relationship": "Pagbuo ng relasyon",
+              "community": "Pokus sa lokal na komunidad"
             }
           }
         },
-        "typesTitle": "[FIL]Perfect for Every Small Business",
-        "typesSubtitle": "[FIL]From retail stores to professional services, we support all types of small businesses.",
+        "typesTitle": "Perpekto para sa Bawat Maliit na Negosyo",
+        "typesSubtitle": "Mula sa mga tindahan ng tingi hanggang sa mga propesyonal na serbisyo, sinusuportahan namin ang lahat ng uri ng maliliit na negosyo.",
         "types": {
           "retail": {
-            "title": "[FIL]Retail Stores",
-            "description": "[FIL]Clothing, electronics, home goods, and specialty shops",
+            "title": "Mga Tindahan ng Tingi",
+            "description": "Mga damit, electronics, gamit sa bahay, at mga specialty shop",
             "features": {
-              "product": "[FIL]Product inquiries",
-              "hours": "[FIL]Store hours",
-              "inventory": "[FIL]Inventory checks",
-              "appointment": "[FIL]Appointment booking"
+              "product": "Mga katanungan sa produkto",
+              "hours": "Mga oras ng tindahan",
+              "inventory": "Mga pagsusuri sa imbentaryo",
+              "appointment": "Pag-book ng appointment"
             }
           },
           "restaurants": {
-            "title": "[FIL]Restaurants & Cafes",
-            "description": "[FIL]Dining establishments and food service businesses",
+            "title": "Mga Restaurant at Cafe",
+            "description": "Mga kainan at mga negosyo sa serbisyo ng pagkain",
             "features": {
-              "menu": "[FIL]Menu questions",
-              "reservations": "[FIL]Reservations",
-              "takeout": "[FIL]Takeout orders",
-              "dietary": "[FIL]Dietary information"
+              "menu": "Mga tanong sa menu",
+              "reservations": "Mga pagpapareserba",
+              "takeout": "Mga order para sa takeout",
+              "dietary": "Impormasyon sa pandiyeta"
             }
           },
           "professional": {
-            "title": "[FIL]Professional Services",
-            "description": "[FIL]Lawyers, accountants, consultants, and agencies",
+            "title": "Mga Propesyonal na Serbisyo",
+            "description": "Mga abogado, accountant, consultant, at ahensya",
             "features": {
-              "consultation": "[FIL]Consultation booking",
-              "service": "[FIL]Service information",
-              "documents": "[FIL]Document requests",
-              "followup": "[FIL]Follow-up scheduling"
+              "consultation": "Pag-book ng konsultasyon",
+              "service": "Impormasyon sa serbisyo",
+              "documents": "Mga kahilingan sa dokumento",
+              "followup": "Pag-iiskedyul ng follow-up"
             }
           },
           "health": {
-            "title": "[FIL]Health & Wellness",
-            "description": "[FIL]Gyms, spas, clinics, and wellness centers",
+            "title": "Kalusugan at Kaayusan",
+            "description": "Mga gym, spa, klinika, at wellness center",
             "features": {
-              "appointment": "[FIL]Appointment scheduling",
-              "class": "[FIL]Class bookings",
-              "membership": "[FIL]Membership info",
-              "consultations": "[FIL]Health consultations"
+              "appointment": "Pag-iiskedyul ng appointment",
+              "class": "Mga booking sa klase",
+              "membership": "Impormasyon sa membership",
+              "consultations": "Mga konsultasyon sa kalusugan"
             }
           },
           "home": {
-            "title": "[FIL]Home Services",
-            "description": "[FIL]Contractors, cleaners, landscapers, and repair services",
+            "title": "Mga Serbisyo sa Bahay",
+            "description": "Mga kontratista, tagapaglinis, landscaper, at mga serbisyo sa pag-aayos",
             "features": {
-              "quotes": "[FIL]Service quotes",
-              "scheduling": "[FIL]Scheduling",
-              "emergency": "[FIL]Emergency requests",
-              "followup": "[FIL]Follow-up support"
+              "quotes": "Mga quote sa serbisyo",
+              "scheduling": "Pag-iiskedyul",
+              "emergency": "Mga kahilingan sa emergency",
+              "followup": "Suporta sa follow-up"
             }
           },
           "creative": {
-            "title": "[FIL]Creative Services",
-            "description": "[FIL]Photographers, designers, artists, and studios",
+            "title": "Mga Serbisyo sa Paglikha",
+            "description": "Mga photographer, designer, artist, at studio",
             "features": {
-              "portfolio": "[FIL]Portfolio sharing",
-              "quotes": "[FIL]Project quotes",
-              "booking": "[FIL]Booking sessions",
-              "consultations": "[FIL]Creative consultations"
+              "portfolio": "Pagbabahagi ng portfolio",
+              "quotes": "Mga quote sa proyekto",
+              "booking": "Mga session sa pag-book",
+              "consultations": "Mga konsultasyon sa paglikha"
             }
           }
         },
-        "affordableTitle": "[FIL]Affordable for Every Budget",
-        "affordableSubtitle": "[FIL]Start completely free and only pay for what you need as you grow. No hidden fees, no long-term contracts, no surprises.",
-        "pricingTitle": "[FIL]Simple Pricing",
+        "affordableTitle": "Abot-kaya para sa Bawat Badyet",
+        "affordableSubtitle": "Magsimula nang ganap na libre at magbayad lamang para sa kung ano ang kailangan mo habang lumalaki ka. Walang mga nakatagong bayarin, walang mga pangmatagalang kontrata, walang mga sorpresa.",
+        "pricingTitle": "Simpleng Pagpepresyo",
         "pricing": {
           "free": {
-            "title": "[FIL]Free Forever",
-            "period": "[FIL]per month",
-            "agent": "[FIL]1 Human agent for life",
-            "conversations": "[FIL]Unlimited conversations",
-            "widget": "[FIL]Basic website widget",
-            "support": "[FIL]Email support"
+            "title": "Libre Magpakailanman",
+            "period": "bawat buwan",
+            "agent": "1 Ahente ng tao habang-buhay",
+            "conversations": "Walang limitasyong mga pag-uusap",
+            "widget": "Pangunahing widget ng website",
+            "support": "Suporta sa email"
           },
           "starter": {
-            "title": "[FIL]AI Starter",
-            "period": "[FIL]per month",
-            "everything": "[FIL]Everything in Free",
-            "ai": "[FIL]AI automation",
-            "analytics": "[FIL]Advanced analytics",
-            "priority": "[FIL]Priority support"
+            "title": "AI Starter",
+            "period": "bawat buwan",
+            "everything": "Lahat sa Libre",
+            "ai": "AI automation",
+            "analytics": "Advanced na analytics",
+            "priority": "Suporta sa priyoridad"
           }
         },
-        "resultsTitle": "[FIL]Small Business Results",
-        "resultsSubtitle": "[FIL]Real results from small businesses using SeaChat[FIL] to improve customer service and grow their business.",
+        "resultsTitle": "Mga Resulta sa Maliit na Negosyo",
+        "resultsSubtitle": "Mga tunay na resulta mula sa maliliit na negosyo na gumagamit ng SeaChat upang mapabuti ang serbisyo sa customer at palaguin ang kanilang negosyo.",
         "metrics": {
           "inquiries": {
-            "label": "[FIL]More Customer Inquiries",
-            "description": "[FIL]With 24/7 availability"
+            "label": "Mas Maraming Katanungan ng Customer",
+            "description": "Sa 24/7 na availability"
           },
           "bookings": {
-            "label": "[FIL]Increased Bookings",
-            "description": "[FIL]Through automated scheduling"
+            "label": "Tumaas na mga Booking",
+            "description": "Sa pamamagitan ng awtomatikong pag-iiskedyul"
           },
           "time": {
-            "label": "[FIL]Time Savings",
-            "description": "[FIL]On routine customer questions"
+            "label": "Pagtitipid sa Oras",
+            "description": "Sa mga regular na tanong ng customer"
           },
           "satisfaction": {
-            "label": "[FIL]Customer Satisfaction",
-            "description": "[FIL]With instant responses"
+            "label": "Kasiyahan ng Customer",
+            "description": "Sa mga instant na tugon"
           }
         },
-        "scenariosTitle": "[FIL]Common Small Business Scenarios",
-        "scenariosSubtitle": "[FIL]See how SeaChat[FIL] handles typical small business customer interactions.",
+        "scenariosTitle": "Mga Karaniwang Sitwasyon sa Maliit na Negosyo",
+        "scenariosSubtitle": "Tingnan kung paano pinangangasiwaan ng SeaChat ang mga karaniwang pakikipag-ugnayan sa customer ng maliit na negosyo.",
         "useCases": {
           "inquiries": {
-            "title": "[FIL]Customer Inquiries",
-            "description": "[FIL]Handle common questions about products, services, and business hours",
-            "example": "[FIL]Are you open on Sundays? What time do you close?",
-            "outcome": "[FIL]Instant response with current hours and holiday schedule information"
+            "title": "Mga Katanungan ng Customer",
+            "description": "Pangasiwaan ang mga karaniwang tanong tungkol sa mga produkto, serbisyo, at oras ng negosyo",
+            "example": "Bukas ba kayo tuwing Linggo? Anong oras kayo nagsasara?",
+            "outcome": "Instant na tugon na may kasalukuyang oras at impormasyon sa iskedyul ng holiday"
           },
           "booking": {
-            "title": "[FIL]Appointment Booking",
-            "description": "[FIL]Allow customers to book appointments and services directly",
-            "example": "[FIL]I need to schedule a haircut for this Friday afternoon",
-            "outcome": "[FIL]Real-time availability check with booking confirmation and reminders"
+            "title": "Pag-book ng Appointment",
+            "description": "Payagan ang mga customer na mag-book ng mga appointment at serbisyo nang direkta",
+            "example": "Kailangan kong mag-iskedyul ng isang gupit para sa Biyernes ng hapon na ito",
+            "outcome": "Real-time na pagsusuri sa availability na may kumpirmasyon sa booking at mga paalala"
           },
           "product": {
-            "title": "[FIL]Product Information",
-            "description": "[FIL]Provide detailed product information and availability",
-            "example": "[FIL]Do you have the iPhone 15 in blue color?",
-            "outcome": "[FIL]Product availability check with pricing and reservation options"
+            "title": "Impormasyon sa Produkto",
+            "description": "Magbigay ng detalyadong impormasyon sa produkto at availability",
+            "example": "Do you have the iPhone 15 in blue color?",
+            "outcome": "Pagsusuri sa availability ng produkto na may mga pagpipilian sa pagpepresyo at pagpapareserba"
           },
           "directions": {
-            "title": "[FIL]Local Directions",
-            "description": "[FIL]Help customers find your location and get directions",
-            "example": "[FIL]How do I get to your store from downtown?",
-            "outcome": "[FIL]Interactive map with directions and parking information"
+            "title": "Mga Lokal na Direksyon",
+            "description": "Tulungan ang mga customer na mahanap ang iyong lokasyon at makakuha ng mga direksyon",
+            "example": "Paano ako makakarating sa iyong tindahan mula sa downtown?",
+            "outcome": "Interactive na mapa na may mga direksyon at impormasyon sa paradahan"
           }
         },
-        "customerQuestion": "[FIL]Customer Question",
-        "seachatResponse": "SeaChat[FIL] Response",
-        "ctaTitle": "[FIL]Ready to Grow Your Small Business?",
-        "ctaSubtitle": "[FIL]Join thousands of small businesses already using SeaChat[FIL] to provide professional customer support and grow their business without the big business costs.",
-        "ctaStartButton": "[FIL]Start Small Business For Free",
-        "ctaDemoButton": "[FIL]Schedule Small Business Demo",
+        "customerQuestion": "Tanong ng Customer",
+        "seachatResponse": "Tugon ng SeaChat",
+        "ctaTitle": "Handa nang Palaguin ang Iyong Maliit na Negosyo?",
+        "ctaSubtitle": "Sumali sa libu-libong maliliit na negosyo na gumagamit na ng SeaChat upang magbigay ng propesyonal na suporta sa customer at palaguin ang kanilang negosyo nang walang malalaking gastos sa negosyo.",
+        "ctaStartButton": "Simulan ang Maliit na Negosyo nang Libre",
+        "ctaDemoButton": "Mag-iskedyul ng Demo sa Maliit na Negosyo",
         "affordableFeatures": [
-          "[FIL]Start completely free forever",
-          "[FIL]No setup or onboarding fees",
-          "[FIL]Pay only for features you use",
-          "[FIL]Cancel anytime, no contracts",
-          "[FIL]Scale pricing with your growth",
-          "[FIL]Free migration assistance",
-          "[FIL]24/7 email support included",
-          "[FIL]30-day money-back guarantee"
+          "Magsimula nang ganap na libre magpakailanman",
+          "Walang mga bayarin sa pag-setup o onboarding",
+          "Magbayad lamang para sa mga tampok na ginagamit mo",
+          "Kanselahin anumang oras, walang mga kontrata",
+          "Pagpepresyo sa sukat sa iyong paglago",
+          "Libreng tulong sa paglipat",
+          "Kasama ang 24/7 na suporta sa email",
+          "30-araw na garantiyang ibabalik ang pera"
         ]
       },
       "travel": {
-        "bookingFlowTitle": "[FIL]Travel Booking Flow",
-        "ctaDemoButton": "[FIL]Schedule Travel Demo",
-        "ctaSubtitle": "[FIL]Join travel companies already using SeaChat[FIL] to provide exceptional customer service and streamline booking processes worldwide.",
-        "ctaTitle": "[FIL]Ready to Transform Travel Experiences?",
-        "ctaTrialButton": "[FIL]Start Travel For Free",
-        "demoButton": "[FIL]Schedule Travel Demo",
+        "bookingFlowTitle": "Daloy ng Pag-book sa Paglalakbay",
+        "ctaDemoButton": "Mag-iskedyul ng Demo sa Paglalakbay",
+        "ctaSubtitle": "Sumali sa mga kumpanya sa paglalakbay na gumagamit na ng SeaChat upang magbigay ng pambihirang serbisyo sa customer at i-streamline ang mga proseso ng pag-book sa buong mundo.",
+        "ctaTitle": "Handa nang Baguhin ang mga Karanasan sa Paglalakbay?",
+        "ctaTrialButton": "Simulan ang Paglalakbay nang Libre",
+        "demoButton": "Mag-iskedyul ng Demo sa Paglalakbay",
         "features": {
           "booking": {
             "benefits": {
-              "availability": "[FIL]Real-time availability",
-              "cancellation": "[FIL]Cancellation support",
-              "comparisons": "[FIL]Price comparisons",
-              "modifications": "[FIL]Booking modifications"
+              "availability": "Real-time na availability",
+              "cancellation": "Suporta sa pagkansela",
+              "comparisons": "Mga paghahambing ng presyo",
+              "modifications": "Mga pagbabago sa booking"
             },
-            "description": "[FIL]Help customers with flight, hotel, and activity bookings with real-time availability",
-            "title": "[FIL]Booking Assistance"
+            "description": "Tulungan ang mga customer sa mga booking sa flight, hotel, at aktibidad na may real-time na availability",
+            "title": "Tulong sa Pag-book"
           },
           "management": {
             "benefits": {
-              "documents": "[FIL]Document management",
-              "loyalty": "[FIL]Loyalty programs",
-              "reminders": "[FIL]Reminder notifications",
-              "tracking": "[FIL]Trip tracking"
+              "documents": "Pamamahala ng dokumento",
+              "loyalty": "Mga programa sa katapatan",
+              "reminders": "Mga abiso sa paalala",
+              "tracking": "Pagsubaybay sa biyahe"
             },
-            "description": "[FIL]Comprehensive trip management from booking to post-travel follow-up",
-            "title": "[FIL]Trip Management"
+            "description": "Komprehensibong pamamahala ng biyahe mula sa pag-book hanggang sa pag-follow-up pagkatapos ng paglalakbay",
+            "title": "Pamamahala ng Biyahe"
           },
           "planning": {
             "benefits": {
-              "insights": "[FIL]Destination insights",
-              "itinerary": "[FIL]Itinerary creation",
-              "recommendations": "[FIL]Local recommendations",
-              "weather": "[FIL]Weather updates"
+              "insights": "Mga insight sa destinasyon",
+              "itinerary": "Paglikha ng itineraryo",
+              "recommendations": "Mga lokal na rekomendasyon",
+              "weather": "Mga update sa panahon"
             },
-            "description": "[FIL]Provide personalized travel recommendations and itinerary planning",
-            "title": "[FIL]Travel Planning"
+            "description": "Magbigay ng mga personalized na rekomendasyon sa paglalakbay at pagpaplano ng itineraryo",
+            "title": "Pagpaplano ng Paglalakbay"
           },
           "support": {
             "benefits": {
-              "emergency": "[FIL]Emergency assistance",
-              "multilanguage": "[FIL]Multi-language help",
-              "timezone": "[FIL]Global time zone support",
-              "updates": "[FIL]Real-time updates"
+              "emergency": "Tulong sa emergency",
+              "multilanguage": "Tulong sa maraming wika",
+              "timezone": "Pandaigdigang suporta sa time zone",
+              "updates": "Mga real-time na update"
             },
-            "description": "[FIL]Round-the-clock assistance for travelers across different time zones",
-            "title": "[FIL]24/7 Travel Support"
+            "description": "Tulong sa buong orasan para sa mga manlalakbay sa iba't ibang mga time zone",
+            "title": "24/7 na Suporta sa Paglalakbay"
           }
         },
-        "featuresSubtitle": "[FIL]Purpose-built features for travel and hospitality businesses to enhance customer experiences.",
-        "featuresTitle": "[FIL]Travel Industry Features",
+        "featuresSubtitle": "Mga tampok na binuo para sa mga negosyo sa paglalakbay at pagtanggap ng bisita upang mapahusay ang mga karanasan sa customer.",
+        "featuresTitle": "Mga Tampok sa Industriya ng Paglalakbay",
         "flow": {
           "assistance": {
-            "description": "[FIL]Guided booking with payment processing",
-            "title": "[FIL]Booking Assistance"
+            "description": "Gabay na pag-book na may pagproseso ng pagbabayad",
+            "title": "Tulong sa Pag-book"
           },
           "confirmation": {
-            "description": "[FIL]Booking confirmation with ongoing support",
-            "title": "[FIL]Confirmation & Support"
+            "description": "Kumpirmasyon sa pag-book na may patuloy na suporta",
+            "title": "Kumpirmasyon at Suporta"
           },
           "inquiry": {
-            "description": "[FIL]Customer asks about travel options",
-            "title": "[FIL]Travel Inquiry"
+            "description": "Nagtatanong ang customer tungkol sa mga pagpipilian sa paglalakbay",
+            "title": "Katanungan sa Paglalakbay"
           },
           "search": {
-            "description": "[FIL]AI searches across multiple systems",
-            "title": "[FIL]Real-time Search"
+            "description": "Naghahanap ang AI sa maraming mga sistema",
+            "title": "Real-time na Paghahanap"
           }
         },
-        "impactSubtitle": "[FIL]Real results from travel companies using SeaChat[FIL] for customer support and booking assistance.",
-        "impactTitle": "[FIL]Travel Industry Impact",
-        "integrationsSubtitle": "[FIL]Seamlessly connect with travel booking systems, GDS platforms, and hospitality management tools for unified operations.",
-        "integrationsTitle": "[FIL]Travel Industry Integrations",
+        "impactSubtitle": "Mga tunay na resulta mula sa mga kumpanya sa paglalakbay na gumagamit ng SeaChat para sa suporta sa customer at tulong sa pag-book.",
+        "impactTitle": "Epekto sa Industriya ng Paglalakbay",
+        "integrationsSubtitle": "Walang putol na kumonekta sa mga sistema ng pag-book sa paglalakbay, mga platform ng GDS, at mga tool sa pamamahala ng pagtanggap ng bisita para sa pinag-isang mga operasyon.",
+        "integrationsTitle": "Mga Pagsasama sa Industriya ng Paglalakbay",
         "metrics": {
           "booking": {
-            "description": "[FIL]With AI-assisted search and booking",
-            "label": "[FIL]Faster Booking Process",
-            "value": "[FIL]60%"
+            "description": "Sa paghahanap at pag-book na tinulungan ng AI",
+            "label": "Mas Mabilis na Proseso ng Pag-book",
+            "value": "60%"
           },
           "call": {
-            "description": "[FIL]Through automated travel assistance",
-            "label": "[FIL]Reduced Call Volume",
-            "value": "[FIL]40%"
+            "description": "Sa pamamagitan ng awtomatikong tulong sa paglalakbay",
+            "label": "Nabawasang Dami ng Tawag",
+            "value": "40%"
           },
           "resolution": {
-            "description": "[FIL]For travel-related inquiries",
-            "label": "[FIL]Issue Resolution Rate",
-            "value": "[FIL]95%"
+            "description": "Para sa mga katanungan na may kaugnayan sa paglalakbay",
+            "label": "Rate ng Paglutas ng Isyu",
+            "value": "95%"
           },
           "satisfaction": {
-            "description": "[FIL]With 24/7 travel support availability",
-            "label": "[FIL]Customer Satisfaction",
-            "value": "[FIL]85%"
+            "description": "Sa 24/7 na availability ng suporta sa paglalakbay",
+            "label": "Kasiyahan ng Customer",
+            "value": "85%"
           }
         },
-        "seachatResponse": "SeaChat[FIL] Response",
+        "seachatResponse": "Tugon ng SeaChat",
         "services": {
           "agencies": {
-            "description": "[FIL]Comprehensive travel planning and booking services",
+            "description": "Komprehensibong mga serbisyo sa pagpaplano at pag-book ng paglalakbay",
             "features": {
-              "deals": "[FIL]Package deals",
-              "groups": "[FIL]Group bookings",
-              "insurance": "[FIL]Travel insurance",
-              "itineraries": "[FIL]Custom itineraries"
+              "deals": "Mga deal sa package",
+              "groups": "Mga booking sa grupo",
+              "insurance": "Seguro sa paglalakbay",
+              "itineraries": "Mga pasadyang itineraryo"
             },
-            "title": "[FIL]Travel Agencies"
+            "title": "Mga Ahensya sa Paglalakbay"
           },
           "airlines": {
-            "description": "[FIL]Flight bookings, check-ins, and travel updates",
+            "description": "Mga booking sa flight, check-in, at mga update sa paglalakbay",
             "features": {
-              "baggage": "[FIL]Baggage tracking",
-              "loyalty": "[FIL]Loyalty programs",
-              "seat": "[FIL]Seat selection",
-              "status": "[FIL]Flight status"
+              "baggage": "Pagsubaybay sa bagahe",
+              "loyalty": "Mga programa sa katapatan",
+              "seat": "Pagpili ng upuan",
+              "status": "Katayuan ng flight"
             },
-            "title": "[FIL]Airlines"
+            "title": "Mga Airline"
           },
           "car": {
-            "description": "[FIL]Vehicle rental assistance and support",
+            "description": "Tulong at suporta sa pag-upa ng sasakyan",
             "features": {
-              "availability": "[FIL]Car availability",
-              "insurance": "[FIL]Insurance options",
-              "locations": "[FIL]Pickup locations",
-              "roadside": "[FIL]Roadside assistance"
+              "availability": "Availability ng kotse",
+              "insurance": "Mga pagpipilian sa seguro",
+              "locations": "Mga lokasyon ng pickup",
+              "roadside": "Tulong sa tabing daan"
             },
-            "title": "[FIL]Car Rentals"
+            "title": "Mga Pag-upa ng Kotse"
           },
           "cruise": {
-            "description": "[FIL]Cruise booking and onboard services",
+            "description": "Pag-book ng cruise at mga serbisyo sa onboard",
             "features": {
-              "cabin": "[FIL]Cabin selection",
-              "dining": "[FIL]Dining reservations",
-              "entertainment": "[FIL]Entertainment booking",
-              "shore": "[FIL]Shore excursions"
+              "cabin": "Pagpili ng cabin",
+              "dining": "Mga pagpapareserba sa kainan",
+              "entertainment": "Pag-book ng libangan",
+              "shore": "Mga ekskursiyon sa baybayin"
             },
-            "title": "[FIL]Cruise Lines"
+            "title": "Mga Linya ng Cruise"
           },
           "hotels": {
-            "description": "[FIL]Hotel reservations and guest services",
+            "description": "Mga pagpapareserba sa hotel at mga serbisyo sa panauhin",
             "features": {
-              "amenity": "[FIL]Amenity information",
-              "booking": "[FIL]Room booking",
-              "loyalty": "[FIL]Loyalty rewards",
-              "requests": "[FIL]Special requests"
+              "amenity": "Impormasyon sa amenity",
+              "booking": "Pag-book ng silid",
+              "loyalty": "Mga gantimpala sa katapatan",
+              "requests": "Mga espesyal na kahilingan"
             },
-            "title": "[FIL]Hotels & Accommodation"
+            "title": "Mga Hotel at Akomodasyon"
           },
           "tour": {
-            "description": "[FIL]Guided tours and activity bookings",
+            "description": "Mga gabay na paglilibot at mga booking sa aktibidad",
             "features": {
-              "availability": "[FIL]Tour availability",
-              "equipment": "[FIL]Equipment rental",
-              "guides": "[FIL]Local guides",
-              "sizes": "[FIL]Group sizes"
+              "availability": "Availability ng paglilibot",
+              "equipment": "Pag-upa ng kagamitan",
+              "guides": "Mga lokal na gabay",
+              "sizes": "Mga laki ng grupo"
             },
-            "title": "[FIL]Tour Operators"
+            "title": "Mga Operator ng Paglilibot"
           }
         },
-        "servicesSubtitle": "[FIL]From airlines to hotels, car rentals to cruise lines - we support every aspect of travel.",
-        "servicesTitle": "[FIL]All Travel Services Covered",
-        "subtitle": "[FIL]Transform travel experiences with AI-powered customer support that handles bookings, provides 24/7 assistance, and creates memorable journeys for your customers.",
-        "title": "[FIL]Travel & Hospitality",
-        "travelerRequest": "[FIL]Traveler Request",
-        "trialButton": "[FIL]Start Travel For Free",
+        "servicesSubtitle": "Mula sa mga airline hanggang sa mga hotel, mga pag-upa ng kotse hanggang sa mga linya ng cruise - sinusuportahan namin ang bawat aspeto ng paglalakbay.",
+        "servicesTitle": "Lahat ng mga Serbisyo sa Paglalakbay ay Sakop",
+        "subtitle": "Baguhin ang mga karanasan sa paglalakbay gamit ang suporta sa customer na pinapagana ng AI na humahawak sa mga booking, nagbibigay ng 24/7 na tulong, at lumilikha ng mga di malilimutang paglalakbay para sa iyong mga customer.",
+        "title": "Paglalakbay at Pagtanggap ng Bisita",
+        "travelerRequest": "Hiling ng Manlalakbay",
+        "trialButton": "Simulan ang Paglalakbay nang Libre",
         "useCases": {
           "destination": {
-            "description": "[FIL]Provide travel advice, local insights, and destination recommendations",
-            "example": "[FIL]What are the best restaurants in Paris?",
-            "outcome": "[FIL]Curated restaurant recommendations with reservations and local insights",
-            "title": "[FIL]Destination Information"
+            "description": "Magbigay ng payo sa paglalakbay, mga lokal na insight, at mga rekomendasyon sa destinasyon",
+            "example": "Ano ang mga pinakamahusay na restaurant sa Paris?",
+            "outcome": "Mga na-curate na rekomendasyon sa restaurant na may mga pagpapareserba at mga lokal na insight",
+            "title": "Impormasyon sa Destinasyon"
           },
           "disruptions": {
-            "description": "[FIL]Handle flight delays, cancellations, and rebooking assistance",
-            "example": "[FIL]My flight was cancelled, what are my options?",
-            "outcome": "[FIL]Immediate rebooking assistance with alternative flights and compensation information",
-            "title": "[FIL]Travel Disruptions"
+            "description": "Pangasiwaan ang mga pagkaantala sa flight, pagkansela, at tulong sa pag-rebook",
+            "example": "Nakansela ang aking flight, ano ang aking mga pagpipilian?",
+            "outcome": "Agad na tulong sa pag-rebook na may mga alternatibong flight at impormasyon sa kompensasyon",
+            "title": "Mga Pagkagambala sa Paglalakbay"
           },
           "documentation": {
-            "description": "[FIL]Help with visa requirements, passport info, and travel documents",
-            "example": "[FIL]Do I need a visa to travel to Japan?",
-            "outcome": "[FIL]Comprehensive visa requirements with application process and timeline",
-            "title": "[FIL]Travel Documentation"
+            "description": "Tulong sa mga kinakailangan sa visa, impormasyon sa pasaporte, at mga dokumento sa paglalakbay",
+            "example": "Kailangan ko ba ng visa upang maglakbay sa Japan?",
+            "outcome": "Komprehensibong mga kinakailangan sa visa na may proseso ng aplikasyon at timeline",
+            "title": "Dokumentasyon sa Paglalakbay"
           },
           "flight": {
-            "description": "[FIL]Assist with flight reservations, changes, and cancellations",
-            "example": "[FIL]I need to change my flight from Tuesday to Thursday",
-            "outcome": "[FIL]Real-time flight availability check with rebooking options and fee information",
-            "title": "[FIL]Flight Booking & Changes"
+            "description": "Tumulong sa mga pagpapareserba, pagbabago, at pagkansela ng flight",
+            "example": "Kailangan kong baguhin ang aking flight mula Martes hanggang Huwebes",
+            "outcome": "Real-time na pagsusuri sa availability ng flight na may mga pagpipilian sa pag-rebook at impormasyon sa bayad",
+            "title": "Pag-book at mga Pagbabago sa Flight"
           }
         },
-        "useCasesSubtitle": "[FIL]See how SeaChat[FIL] handles typical travel inquiries and booking assistance.",
-        "useCasesTitle": "[FIL]Travel Support Use Cases",
+        "useCasesSubtitle": "Tingnan kung paano pinangangasiwaan ng SeaChat ang mga karaniwang katanungan sa paglalakbay at tulong sa pag-book.",
+        "useCasesTitle": "Mga Kaso ng Paggamit sa Suporta sa Paglalakbay",
         "integrations": {
-          "0": "[FIL]GDS Systems (Amadeus, Sabre, Galileo)",
-          "1": "[FIL]Airline booking systems",
-          "2": "[FIL]Hotel reservation systems",
-          "3": "[FIL]Car rental platforms",
-          "4": "[FIL]Travel insurance providers",
-          "5": "[FIL]Payment processing systems"
+          "0": "Mga Sistema ng GDS (Amadeus, Sabre, Galileo)",
+          "1": "Mga sistema ng pag-book ng airline",
+          "2": "Mga sistema ng pagpapareserba sa hotel",
+          "3": "Mga platform sa pag-upa ng kotse",
+          "4": "Mga tagapagbigay ng seguro sa paglalakbay",
+          "5": "Mga sistema ng pagproseso ng pagbabayad"
         }
       }
     },
     "channels": {
-      "title": "[FIL]Connect Every Customer Channel",
-      "description": "[FIL]Unify all your customer communications in one platform. From WhatsApp[FIL] to phone calls, SMS[FIL] to social media - manage every conversation from a single dashboard.",
+      "title": "Ikonekta ang Bawat Channel ng Customer",
+      "description": "Pag-isahin ang lahat ng iyong mga komunikasyon sa customer sa isang platform. Mula sa WhatsApp hanggang sa mga tawag sa telepono, SMS hanggang sa social media - pamahalaan ang bawat pag-uusap mula sa isang dashboard.",
       "whatsapp": {
-        "title": "WhatsApp[FIL] Business",
-        "description": "[FIL]Connect with customers on the world's most popular messaging platform"
+        "title": "Negosyo sa WhatsApp",
+        "description": "Kumonekta sa mga customer sa pinakasikat na platform ng pagmemensahe sa mundo"
       },
       "voice": {
-        "title": "[FIL]Voice & Phone Calls",
-        "description": "[FIL]Professional phone system with AI voicebot and human agent support"
+        "title": "Mga Tawag sa Boses at Telepono",
+        "description": "Propesyonal na sistema ng telepono na may AI voicebot at suporta sa ahente ng tao"
       },
       "sms": {
-        "title": "SMS[FIL] Messaging",
-        "description": "[FIL]Reach customers instantly with personalized SMS[FIL] campaigns"
+        "title": "Pagmemensahe sa SMS",
+        "description": "Abutin agad ang mga customer gamit ang mga personalized na kampanya sa SMS"
       },
       "website": {
-        "title": "[FIL]Website Chat Widget",
-        "description": "[FIL]Turn website visitors into conversations with AI-powered chat"
+        "title": "Widget ng Chat sa Website",
+        "description": "Gawing mga pag-uusap ang mga bisita sa website gamit ang chat na pinapagana ng AI"
       },
       "cta": {
-        "exploreAll": "[FIL]Explore All Channels",
-        "subtitle": "[FIL]See how all 9 channels work together seamlessly"
+        "exploreAll": "Galugarin ang Lahat ng Channel",
+        "subtitle": "Tingnan kung paano gumagana nang walang putol ang lahat ng 9 na channel"
       }
     },
     "comparison": {
-      "title": "[FIL]Why Growing Businesses Choose Seasalt.ai[FIL] Over the Alternatives",
-      "description": "[FIL]See how we compare to other solutions. We're the only platform that delivers enterprise features with small business simplicity.",
-      "recommended": "[FIL]Recommended",
+      "title": "Bakit Pinipili ng mga Lumalagong Negosyo ang Seasalt.ai Kaysa sa mga Alternatibo",
+      "description": "Tingnan kung paano kami nagkukumpara sa iba pang mga solusyon. Kami lamang ang platform na naghahatid ng mga tampok sa enterprise na may simple ng maliit na negosyo.",
+      "recommended": "Inirerekomenda",
       "table": {
         "headers": {
-          "platform": "[FIL]Platform",
-          "startingPrice": "[FIL]Starting Price",
-          "pricingModel": "[FIL]Pricing Model",
-          "unifiedVoiceDigital": "[FIL]Unified Voice & Digital",
-          "aiCapabilities": "[FIL]AI Capabilities",
-          "bestFor": "[FIL]Best For"
+          "platform": "Platform",
+          "startingPrice": "Panimulang Presyo",
+          "pricingModel": "Modelo ng Pagpepresyo",
+          "unifiedVoiceDigital": "Pinag-isang Boses at Digital",
+          "aiCapabilities": "Mga Kakayahan sa AI",
+          "bestFor": "Pinakamahusay Para sa"
         }
       },
       "competitors": {
         "seasalt": {
-          "startingPrice": "[FIL]$20/agent/mo",
-          "pricingModel": "[FIL]Simple Per-User",
-          "unifiedVoiceDigital": "[FIL]✅ Yes, Native",
-          "aiCapabilities": "[FIL]✅ Yes, Native Voice & Chatbots",
-          "bestFor": "[FIL]SMEs needing an affordable, truly all-in-one platform."
+          "startingPrice": "$20/ahente/buwan",
+          "pricingModel": "Simple Bawat-Gumagamit",
+          "unifiedVoiceDigital": "✅ Oo, Katutubo",
+          "aiCapabilities": "✅ Oo, Katutubong Boses at mga Chatbot",
+          "bestFor": "Mga SME na nangangailangan ng isang abot-kayang, tunay na all-in-one na platform."
         },
         "aircall": {
-          "startingPrice": "[FIL]$30/user/mo",
-          "pricingModel": "[FIL]Per-User + Add-ons",
-          "unifiedVoiceDigital": "[FIL]⚠️ Voice + WhatsApp[FIL] (Add-on)",
-          "aiCapabilities": "[FIL]⚠️ AI is a paid add-on",
-          "bestFor": "[FIL]Sales teams that can afford multiple add-ons and meet the 3-user minimum."
+          "startingPrice": "$30/gumagamit/buwan",
+          "pricingModel": "Bawat-Gumagamit + mga Add-on",
+          "unifiedVoiceDigital": "⚠️ Boses + WhatsApp (Add-on)",
+          "aiCapabilities": "⚠️ Ang AI ay isang bayad na add-on",
+          "bestFor": "Mga koponan sa pagbebenta na kayang bayaran ang maraming mga add-on at matugunan ang 3-gumagamit na minimum."
         },
         "ringcentral": {
-          "startingPrice": "[FIL]$65/agent/mo",
-          "pricingModel": "[FIL]Complex Tiers",
-          "unifiedVoiceDigital": "[FIL]❌ Separate Products",
-          "aiCapabilities": "[FIL]✅ Yes (AI-powered CCaaS)",
-          "bestFor": "[FIL]Large companies needing a broad UCaaS platform with a separate CCaaS."
+          "startingPrice": "$65/ahente/buwan",
+          "pricingModel": "Mga Kumplikadong Tier",
+          "unifiedVoiceDigital": "❌ Paghiwalayin ang mga Produkto",
+          "aiCapabilities": "✅ Oo (CCaaS na pinapagana ng AI)",
+          "bestFor": "Malalaking kumpanya na nangangailangan ng isang malawak na platform ng UCaaS na may hiwalay na CCaaS."
         },
         "genesys": {
-          "startingPrice": "[FIL]$75/user/mo",
-          "pricingModel": "[FIL]Per-User + High Minimums",
-          "unifiedVoiceDigital": "[FIL]✅ Yes (in higher tiers)",
-          "aiCapabilities": "[FIL]✅ Yes (Complex token system)",
-          "bestFor": "[FIL]Large enterprises with dedicated contact center teams and budgets."
+          "startingPrice": "$75/gumagamit/buwan",
+          "pricingModel": "Bawat-Gumagamit + Mataas na mga Minimum",
+          "unifiedVoiceDigital": "✅ Oo (sa mas mataas na mga tier)",
+          "aiCapabilities": "✅ Oo (Kumplikadong sistema ng token)",
+          "bestFor": "Malalaking negosyo na may dedikadong mga koponan at badyet sa contact center."
         },
         "five9": {
-          "startingPrice": "[FIL]$119/user/mo",
-          "pricingModel": "[FIL]Per-User + Bundles",
-          "unifiedVoiceDigital": "[FIL]✅ Yes (in premium tiers)",
-          "aiCapabilities": "[FIL]✅ Yes (Advanced AI)",
-          "bestFor": "[FIL]Large, outbound-heavy contact centers needing enterprise-grade tools."
+          "startingPrice": "$119/gumagamit/buwan",
+          "pricingModel": "Bawat-Gumagamit + mga Bundle",
+          "unifiedVoiceDigital": "✅ Oo (sa mga premium na tier)",
+          "aiCapabilities": "✅ Oo (Advanced na AI)",
+          "bestFor": "Malalaki, outbound-heavy na mga contact center na nangangailangan ng mga tool sa antas ng enterprise."
         },
         "googleVoice": {
-          "startingPrice": "[FIL]$10/user/mo",
-          "pricingModel": "[FIL]Per-User + Workspace Fee",
-          "unifiedVoiceDigital": "[FIL]❌ No",
-          "aiCapabilities": "[FIL]❌ No (Voicemail transcription only)",
-          "bestFor": "[FIL]Solopreneurs (US-only) needing a basic, separate phone number."
+          "startingPrice": "$10/gumagamit/buwan",
+          "pricingModel": "Bawat-Gumagamit + Bayad sa Workspace",
+          "unifiedVoiceDigital": "❌ Hindi",
+          "aiCapabilities": "❌ Hindi (Transkripsyon lamang ng voicemail)",
+          "bestFor": "Mga Solopreneur (US-lamang) na nangangailangan ng isang pangunahing, hiwalay na numero ng telepono."
         }
       },
       "cta": {
-        "seeAllComparisons": "[FIL]See All Detailed Comparisons"
+        "seeAllComparisons": "Tingnan ang Lahat ng Detalyadong Paghahambing"
       }
     },
     "footer": {
-      "product": "[FIL]Product",
+      "product": "Produkto",
       "company": {
-        "productWiki": "[FIL]Product Wiki",
-        "apiReferences": "[FIL]API References",
-        "careers": "[FIL]Careers",
-        "title": "[FIL]Company",
-        "about": "[FIL]About"
+        "productWiki": "Wiki ng Produkto",
+        "apiReferences": "Mga Sanggunian ng API",
+        "careers": "Mga Karera",
+        "title": "Kumpanya",
+        "about": "Tungkol sa"
       },
-      "resources": "[FIL]Resources",
+      "resources": "Mga Mapagkukunan",
       "legal": {
-        "privacyPolicy": "[FIL]Privacy Policy",
-        "termsOfService": "[FIL]Terms of Service"
+        "privacyPolicy": "Patakaran sa Privacy",
+        "termsOfService": "Mga Tuntunin ng Serbisyo"
       },
-      "getStarted": "[FIL]Ready to Get Started?",
-      "joinThousands": "[FIL]Join thousands of businesses already using SeaChat[FIL] to deliver exceptional customer experiences.",
-      "enterEmail": "[FIL]Enter your email",
-      "noCredit": "[FIL]No credit card required • Setup in 2 minutes • Cancel anytime",
-      "copyright": "[FIL]© 2020 - {{year}} Seasalt.ai[FIL]. All rights reserved.",
-      "compliance": "[FIL]🔒 SOC 2[FIL] Compliant",
-      "gdpr": "[FIL]🛡️ GDPR[FIL] Ready",
-      "uptime": "[FIL]⚡ 99.9% Uptime",
+      "getStarted": "Handa nang Magsimula?",
+      "joinThousands": "Sumali sa libu-libong negosyo na gumagamit na ng SeaChat upang maghatid ng mga pambihirang karanasan sa customer.",
+      "enterEmail": "Ipasok ang iyong email",
+      "noCredit": "Walang kinakailangang credit card • Pag-setup sa loob ng 2 minuto • Kanselahin anumang oras",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. Lahat ng karapatan ay nakalaan.",
+      "compliance": "🔒 Sumusunod sa SOC 2",
+      "gdpr": "🛡️ Handa na sa GDPR",
+      "uptime": "⚡ 99.9% Uptime",
       "brand": {
-        "description": "[FIL]Transform your customer support with the perfect blend of human agents and AI automation. Start free, scale smart, succeed faster."
+        "description": "Baguhin ang iyong suporta sa customer gamit ang perpektong timpla ng mga ahente ng tao at AI automation. Magsimula nang libre, palakihin nang matalino, magtagumpay nang mas mabilis."
       },
       "contact": {
-        "email": "[FIL]info@seasalt.ai",
-        "phone": "[FIL]+1 (SMB)-AI-AGENT",
-        "location": "[FIL]Seattle, WA"
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "Seattle, WA"
       },
       "stats": {
-        "messagesDaily": "[FIL]5M+ Messages Daily",
-        "activeUsers": "[FIL]100K+ Active Users",
-        "uptime": "[FIL]99.9% Uptime"
+        "messagesDaily": "5M+ Mensahe Araw-araw",
+        "activeUsers": "100K+ Aktibong Gumagamit",
+        "uptime": "99.9% Uptime"
       },
       "cta": {
-        "title": "[FIL]Ready to Transform Your Customer Support?",
-        "description": "[FIL]Join thousands of businesses using SeaChat[FIL] to deliver exceptional customer experiences with AI-powered chat support.",
-        "signUpFree": "[FIL]Sign Up Free",
-        "scheduleDemo": "[FIL]Schedule Demo",
-        "disclaimer": "[FIL]No credit card required • Setup in 2 minutes • Cancel anytime"
+        "title": "Handa nang Baguhin ang Iyong Suporta sa Customer?",
+        "description": "Sumali sa libu-libong negosyo na gumagamit ng SeaChat upang maghatid ng mga pambihirang karanasan sa customer gamit ang suporta sa chat na pinapagana ng AI.",
+        "signUpFree": "Mag-sign Up nang Libre",
+        "scheduleDemo": "Mag-iskedyul ng Demo",
+        "disclaimer": "Walang kinakailangang credit card • Pag-setup sa loob ng 2 minuto • Kanselahin anumang oras"
       }
     },
     "featureComparison": {
-      "title": "[FIL]Why Choose SeaChat[FIL] Over the Competition?",
-      "subtitle": "[FIL]See how SeaChat[FIL] replaces multiple tools with one comprehensive platform. Save money while getting more features.",
-      "valueTitle": "[FIL]The Value You Get:",
-      "totalValue": "[FIL]$331 or more/month",
-      "competitorTotal": "[FIL]Total value from competitors",
-      "priceTitle": "[FIL]The Price You Pay:",
-      "seachatPrice": "[FIL]$29.99 /month",
-      "seachatAll": "[FIL]All features included",
-      "seeDetailedPricing": "[FIL]See Detailed Pricing",
-      "ctaTitle": "[FIL]Ready to Experience the SeaChat[FIL] Advantage?",
-      "ctaSubtitle": "[FIL]Join thousands of businesses that chose the smarter, more affordable solution.",
-      "startFree": "[FIL]Start Free Now",
-      "bookDemo": "[FIL]Book a Demo",
+      "title": "Bakit Pumili ng SeaChat Kaysa sa Kumpetisyon?",
+      "subtitle": "Tingnan kung paano pinapalitan ng SeaChat ang maraming mga tool sa isang komprehensibong platform. Makatipid ng pera habang nakakakuha ng mas maraming mga tampok.",
+      "valueTitle": "Ang Halaga na Makukuha Mo:",
+      "totalValue": "$331 o higit pa/buwan",
+      "competitorTotal": "Kabuuang halaga mula sa mga kakumpitensya",
+      "priceTitle": "Ang Presyo na Babayaran Mo:",
+      "seachatPrice": "$29.99 /buwan",
+      "seachatAll": "Lahat ng mga tampok ay kasama",
+      "seeDetailedPricing": "Tingnan ang Detalyadong Pagpepresyo",
+      "ctaTitle": "Handa nang Damhin ang Kalamangan ng SeaChat?",
+      "ctaSubtitle": "Sumali sa libu-libong negosyo na pumili ng mas matalino, mas abot-kayang solusyon.",
+      "startFree": "Magsimula nang Libre Ngayon",
+      "bookDemo": "Mag-book ng Demo",
       "features": {
-        "chatbotWebsite": "[FIL]Chatbot for website",
-        "chatWidget": "[FIL]Chat widget with live agent",
-        "whatsappMessenger": "WhatsApp[FIL]/Messenger/Instagram",
-        "multiCalendar": "[FIL]Multi Calendar bookings",
-        "phoneCallAI": "[FIL]Inbound phone call AI agents",
-        "smsActions": "[FIL]Built-in actions - SMS",
-        "emailActions": "[FIL]Built-in actions - Email",
-        "phoneNumber": "[FIL]Purchase phone number",
-        "agencyMode": "[FIL]Agency Mode",
-        "bulkSMS": "[FIL]Bulk outbound SMS[FIL], Call, WhatsApp",
-        "unlimitedContacts": "[FIL]Unlimited Contacts",
-        "knowledgeBase": "[FIL]Extra knowledge base",
-        "extraChatbot": "[FIL]Extra chatbot"
+        "chatbotWebsite": "Chatbot para sa website",
+        "chatWidget": "Chat widget na may live na ahente",
+        "whatsappMessenger": "WhatsApp/Messenger/Instagram",
+        "multiCalendar": "Mga booking sa Maramihang Kalendaryo",
+        "phoneCallAI": "Mga ahente ng AI sa papasok na tawag sa telepono",
+        "smsActions": "Mga built-in na aksyon - SMS",
+        "emailActions": "Mga built-in na aksyon - Email",
+        "phoneNumber": "Bumili ng numero ng telepono",
+        "agencyMode": "Mode ng Ahensya",
+        "bulkSMS": "Bulk na papalabas na SMS, Tawag, WhatsApp",
+        "unlimitedContacts": "Walang limitasyong mga Contact",
+        "knowledgeBase": "Dagdag na knowledge base",
+        "extraChatbot": "Dagdag na chatbot"
       },
       "table": {
         "headers": {
-          "features": "[FIL]Features",
-          "replaces": "[FIL]Replaces",
-          "otherTools": "[FIL]Other Tools",
+          "features": "Mga Tampok",
+          "replaces": "Pinapalitan",
+          "otherTools": "Iba pang mga Tool",
           "seachat": "SeaChat"
         },
-        "total": "[FIL]Total",
-        "totalPrice": "[FIL]$331 or more per month",
-        "seachatPrice": "[FIL]$29.99 per month",
+        "total": "Kabuuan",
+        "totalPrice": "$331 o higit pa bawat buwan",
+        "seachatPrice": "$29.99 bawat buwan",
         "explanations": {
-          "valueYouGet": "[FIL]↑ The Value You Get",
-          "priceYouWouldPay": "[FIL]↑ The Price You'd Otherwise Pay",
-          "priceYouPay": "[FIL]↑ The Price You Pay"
+          "valueYouGet": "↑ Ang Halaga na Makukuha Mo",
+          "priceYouWouldPay": "↑ Ang Presyo na Babayaran Mo Sana",
+          "priceYouPay": "↑ Ang Presyo na Babayaran Mo"
         }
       },
       "mobile": {
-        "replaces": "[FIL]Replaces:",
-        "otherTools": "[FIL]Other Tools:",
-        "seachat": "SeaChat[FIL]:",
-        "otherToolsTotal": "[FIL]Other Tools Total:",
-        "seachatTotal": "SeaChat[FIL] Total:",
-        "totalPrice": "[FIL]$331+ per month",
-        "seachatTotalPrice": "[FIL]$29.99 per month",
-        "priceYouWouldPay": "[FIL]↑ The Price You'd Otherwise Pay",
-        "priceYouPay": "[FIL]↑ The Price You Pay"
+        "replaces": "Pinapalitan:",
+        "otherTools": "Iba pang mga Tool:",
+        "seachat": "SeaChat:",
+        "otherToolsTotal": "Kabuuan ng Iba pang mga Tool:",
+        "seachatTotal": "Kabuuan ng SeaChat:",
+        "totalPrice": "$331+ bawat buwan",
+        "seachatTotalPrice": "$29.99 bawat buwan",
+        "priceYouWouldPay": "↑ Ang Presyo na Babayaran Mo Sana",
+        "priceYouPay": "↑ Ang Presyo na Babayaran Mo"
       },
-      "uniqueToSeachat": "[FIL]UNIQUE",
+      "uniqueToSeachat": "NATATANGI",
       "pricing": {
-        "chatbotWebsite": "[FIL]$99 per month",
-        "chatWidget": "[FIL]$23 per agent per month",
-        "whatsappMessenger": "[FIL]$89 per user per month",
-        "multiCalendar": "[FIL]$10 per seat per month",
-        "phoneCallAI": "[FIL]$29 per month",
-        "smsActions": "[FIL]$59 per month",
-        "emailActions": "[FIL]$20 per month",
-        "phoneNumber": "[FIL]$2 to $3 per month",
-        "unlimitedContacts": "[FIL]$65 per 10K contacts",
-        "knowledgeBase": "[FIL]$8 per extra knowledge base",
-        "extraChatbot": "[FIL]$7 per extra chatbot"
+        "chatbotWebsite": "$99 bawat buwan",
+        "chatWidget": "$23 bawat ahente bawat buwan",
+        "whatsappMessenger": "$89 bawat gumagamit bawat buwan",
+        "multiCalendar": "$10 bawat upuan bawat buwan",
+        "phoneCallAI": "$29 bawat buwan",
+        "smsActions": "$59 bawat buwan",
+        "emailActions": "$20 bawat buwan",
+        "phoneNumber": "$2 hanggang $3 bawat buwan",
+        "unlimitedContacts": "$65 bawat 10K na mga contact",
+        "knowledgeBase": "$8 bawat dagdag na knowledge base",
+        "extraChatbot": "$7 bawat dagdag na chatbot"
       },
       "seachatValues": {
-        "agencyMode": "[FIL]Multiple workspaces - one workspace per client",
-        "bulkSMS": "[FIL]Integrate with SeaX[FIL] from Seasalt.ai",
-        "unlimitedContacts": "[FIL]Unlimited",
-        "knowledgeBase": "[FIL]5,000 documents or 50M tokens",
-        "extraChatbot": "[FIL]10 bots × 5 channels = 50 channel-bots"
+        "agencyMode": "Maramihang mga workspace - isang workspace bawat kliyente",
+        "bulkSMS": "Isama sa SeaX mula sa Seasalt.ai",
+        "unlimitedContacts": "Walang limitasyon",
+        "knowledgeBase": "5,000 mga dokumento o 50M na mga token",
+        "extraChatbot": "10 bot × 5 channel = 50 channel-bot"
       },
       "replaces": {
-        "uniqueToSeachat": "[FIL]UNIQUE to SeaChat"
+        "uniqueToSeachat": "NATATANGI sa SeaChat"
       }
     }
   }

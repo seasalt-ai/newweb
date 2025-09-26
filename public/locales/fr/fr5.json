@@ -1,0 +1,658 @@
+{
+  "seachat": {
+    "features": {
+      "advancedAI": {
+        "title": "Fonctionnalités IA avancées",
+        "subtitle": "Intelligence artificielle de nouvelle génération avec mémoire, conscience du contexte et capacités de raisonnement avancées pour des expériences client vraiment personnalisées.",
+        "exploreButton": "Explorer l'IA avancée",
+        "scheduleDemo": "Planifier une démo",
+        "capabilities": {
+          "title": "Capacités IA de pointe",
+          "subtitle": "Découvrez l'avenir du support client avec nos fonctionnalités IA avancées qui apprennent, se souviennent et s'adaptent."
+        },
+        "rag": {
+          "title": "Génération augmentée par récupération (RAG)",
+          "description": "Capacités de recherche avancées combinant la recherche par mot-clé, vectorielle et hybride pour une récupération précise des informations.",
+          "details": {
+            "semantic": "Recherche vectorielle sémantique pour une compréhension contextuelle",
+            "keyword": "Correspondance de mots-clés traditionnelle pour les requêtes exactes",
+            "hybrid": "Algorithmes hybrides combinant les deux approches",
+            "indexing": "Indexation et mises à jour de contenu en temps réel"
+          },
+          "sectionTitle": "Génération augmentée par récupération",
+          "sectionSubtitle": "Technologie de recherche avancée qui combine plusieurs approches pour la récupération d'informations la plus précise.",
+          "keyword": "Recherche par mot-clé",
+          "keywordDesc": "Recherche traditionnelle par correspondance exacte pour les requêtes précises et les termes spécifiques.",
+          "vector": "Recherche vectorielle",
+          "vectorDesc": "Compréhension sémantique qui trouve des informations contextuellement pertinentes.",
+          "hybrid": "Recherche hybride",
+          "hybridDesc": "Le meilleur des deux mondes, combinant la précision des mots-clés avec la compréhension sémantique."
+        },
+        "memory": {
+          "title": "Système de mémoire à long terme",
+          "description": "Mémoire utilisateur persistante qui crée des expériences personnalisées à travers toutes les interactions.",
+          "details": {
+            "preferences": "Suivi et stockage des préférences de l'utilisateur",
+            "history": "Analyse de l'historique des conversations",
+            "patterns": "Reconnaissance des modèles comportementaux",
+            "continuity": "Continuité et contexte intersession"
+          },
+          "sectionTitle": "Mémoire à long terme en action",
+          "sectionSubtitle": "Découvrez comment notre IA se souvient et apprend de chaque interaction pour fournir un support de plus en plus personnalisé.",
+          "fieldsTitle": "Champs d'extraction de contexte",
+          "fieldsDescription": "Notre IA identifie et stocke automatiquement les informations clés sur chaque utilisateur, créant des profils riches qui améliorent chaque interaction future.",
+          "example": "Exemple",
+          "timeline": "Chronologie de la mémoire",
+          "firstInteraction": "Première interaction",
+          "firstInteractionDesc": "L'IA apprend les préférences et le contexte de l'utilisateur",
+          "ongoingConversations": "Conversations en cours",
+          "ongoingConversationsDesc": "Met à jour en permanence le profil de l'utilisateur",
+          "returnVisits": "Visites de retour",
+          "returnVisitsDesc": "Fournit des réponses personnalisées et contextuelles"
+        },
+        "timeAwareness": {
+          "title": "Intégration de la conscience du temps",
+          "description": "Réponses contextuelles basées sur l'heure, le fuseau horaire et la pertinence temporelle actuels.",
+          "details": {
+            "timestamp": "Intégration de l'horodatage en temps réel",
+            "timezone": "Planification et réponses tenant compte du fuseau horaire",
+            "recommendations": "Recommandations sensibles au temps",
+            "hours": "Optimisation des heures d'ouverture"
+          }
+        },
+        "context": {
+          "title": "Extraction de contexte intelligente",
+          "description": "Mappage de champs intelligent et extraction de données pour une meilleure compréhension de l'utilisateur.",
+          "details": {
+            "fields": "Définitions et mappage de champs personnalisés",
+            "extraction": "Extraction automatique de données à partir des conversations",
+            "language": "Détection de la langue préférée de l'utilisateur",
+            "dynamic": "Création et mises à jour de contexte dynamique"
+          }
+        },
+        "references": {
+          "title": "Résultats de chat référencés",
+          "description": "Réponses IA transparentes avec citations de sources et score de confiance.",
+          "details": {
+            "linking": "Lien vers le document source et citations",
+            "tracking": "Suivi et vérification des citations",
+            "confidence": "Score de confiance pour les réponses",
+            "verification": "Vérification et validation des faits"
+          }
+        },
+        "knowledge": {
+          "title": "Affinement de la base de connaissances",
+          "description": "Amélioration continue de la précision et de la pertinence de la base de connaissances.",
+          "details": {
+            "updating": "Mise à jour automatique du contenu en fonction des interactions",
+            "scoring": "Score de qualité et classement du contenu",
+            "relevance": "Algorithmes d'optimisation de la pertinence",
+            "analytics": "Analyse des performances et informations"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "Langue_Utilisateur",
+            "description": "Se souvient de la langue de communication préférée",
+            "example": "Le client préfère les réponses en espagnol"
+          },
+          "product": {
+            "field": "Intérêt_Produit",
+            "description": "Suit les catégories de produits d'intérêt",
+            "example": "Intéressé par les solutions logicielles premium"
+          },
+          "history": {
+            "field": "Historique_Support",
+            "description": "Maintient le contexte des problèmes précédents",
+            "example": "A déjà résolu des questions de facturation"
+          },
+          "style": {
+            "field": "Style_Communication",
+            "description": "S'adapte au style d'interaction préféré",
+            "example": "Préfère les explications techniques détaillées"
+          }
+        },
+        "cta": {
+          "title": "Découvrez l'avenir de l'IA",
+          "subtitle": "Prêt à transformer votre support client avec une IA avancée qui se souvient, apprend et s'adapte? Commencez votre voyage avec notre technologie de pointe.",
+          "signUp": "Inscrivez-vous gratuitement",
+          "scheduleDemo": "Planifier une démo"
+        }
+      },
+      "aiAutomation": {
+        "title": "Automatisation par l'IA",
+        "subtitle": "Développez votre support client avec une IA intelligente qui apprend, s'adapte et fournit des réponses instantanées tout en conservant une touche humaine si nécessaire.",
+        "tryButton": "Essayez l'automatisation de l'IA",
+        "featuresTitle": "Fonctionnalités IA intelligentes",
+        "featuresSubtitle": "Notre automatisation par l'IA va au-delà des simples chatbots pour fournir un support client vraiment intelligent.",
+        "performanceTitle": "Une automatisation qui fonctionne vraiment",
+        "performanceSubtitle": "Découvrez comment notre automatisation par l'IA gère différents types de demandes de clients avec des taux de précision impressionnants.",
+        "hybridTitle": "L'équilibre parfait: IA + Humain",
+        "hybridSubtitle": "Notre approche hybride combine la vitesse de l'IA avec l'empathie des agents humains.",
+        "aiStrengthsTitle": "L'automatisation de l'IA excelle dans",
+        "aiStrengths": [
+          "Réponses instantanées aux questions courantes",
+          "Disponibilité 24/7 sans interruption",
+          "Gestion simultanée de plusieurs conversations",
+          "Qualité de service constante",
+          "Support de communication multilingue",
+          "Accès rapide aux informations de la base de connaissances"
+        ],
+        "humanStrengthsTitle": "Les agents humains excellent dans",
+        "humanStrengths": [
+          "Résolution de problèmes complexes et empathie",
+          "Création de relations personnelles avec les clients",
+          "Gestion de situations sensibles ou émotionnelles",
+          "Solutions créatives et réflexion originale",
+          "Compréhension des besoins nuancés des clients",
+          "Prise de décisions dans des scénarios ambigus"
+        ],
+        "ctaTitle": "Prêt à évoluer avec l'IA?",
+        "ctaSubtitle": "Commencez avec des agents humains gratuits, puis ajoutez l'automatisation de l'IA lorsque vous êtes prêt à évoluer. L'approche hybride parfaite pour les entreprises en croissance.",
+        "contextAware": {
+          "title": "Réponses contextuelles",
+          "description": "L'IA comprend le contexte de la conversation et fournit des réponses pertinentes et intelligentes."
+        },
+        "learning": {
+          "title": "Apprentissage à partir des conversations",
+          "description": "S'améliore continuellement en apprenant de chaque interaction client."
+        },
+        "handoff": {
+          "title": "Transfert transparent à un agent humain",
+          "description": "Transition en douceur vers les agents humains lorsque des problèmes complexes surviennent."
+        },
+        "availability": {
+          "title": "Disponibilité 24/7",
+          "description": "Fournissez un support instantané 24 heures sur 24, même lorsque les agents sont hors ligne."
+        },
+        "response": {
+          "title": "Temps de réponse instantané",
+          "description": "Répondez aux requêtes des clients en quelques millisecondes, pas en minutes."
+        },
+        "multilanguage": {
+          "title": "Support multilingue",
+          "description": "Communiquez automatiquement avec les clients dans leur langue préférée."
+        },
+        "types": {
+          "faq": {
+            "title": "Automatisation des FAQ",
+            "description": "Répondez instantanément aux questions courantes avec des informations précises et à jour."
+          },
+          "orders": {
+            "title": "Mises à jour de l'état des commandes",
+            "description": "Fournissez des informations de suivi des commandes et d'expédition en temps réel."
+          },
+          "appointments": {
+            "title": "Planification de rendez-vous",
+            "description": "Prenez des rendez-vous et gérez les calendriers automatiquement."
+          },
+          "recommendations": {
+            "title": "Recommandations de produits",
+            "description": "Suggérez des produits pertinents en fonction des préférences des clients."
+          }
+        },
+        "scheduleDemo": "Planifier une démo",
+        "signUpForFree": "Inscrivez-vous gratuitement"
+      },
+      "api": {
+        "restful": {
+          "title": "API RESTful",
+          "description": "API REST propre et intuitive avec une documentation complète"
+        },
+        "webhooks": {
+          "title": "Webhooks en temps réel",
+          "description": "Recevez des notifications instantanées pour les événements et les mises à jour de conversation"
+        },
+        "security": {
+          "title": "Authentification sécurisée",
+          "description": "Authentification OAuth 2.0 et par clé API avec limitation de débit"
+        },
+        "cdn": {
+          "title": "CDN mondial",
+          "description": "Accès à l'API à faible latence depuis n'importe où dans le monde"
+        },
+        "endpoints": {
+          "createConversation": "Créer une nouvelle conversation",
+          "getConversation": "Récupérer les détails de la conversation",
+          "sendMessage": "Envoyer un message dans une conversation"
+        },
+        "sdks": {
+          "available": "Disponible",
+          "comingSoon": "Bientôt disponible"
+        },
+        "title": "API et outils de développement",
+        "subtitle": "Créez des intégrations personnalisées et étendez les capacités de SeaChat avec notre API complète et nos outils conviviaux pour les développeurs.",
+        "getKeyButton": "Obtenir la clé API",
+        "viewDocsButton": "Voir la documentation",
+        "featuresTitle": "Fonctionnalités puissantes de l'API",
+        "featuresSubtitle": "Tout ce dont vous avez besoin pour intégrer SeaChat à vos systèmes et flux de travail existants.",
+        "endpointsTitle": "Points de terminaison de l'API",
+        "endpointsSubtitle": "Explorez notre API complète avec des exemples et une documentation interactive.",
+        "exampleRequestResponse": "Exemple de requête/réponse",
+        "tryItOut": "Essayez-le",
+        "testConsole": "Tester dans la console",
+        "copyCurl": "Copier cURL",
+        "sdksTitle": "SDK et bibliothèques",
+        "sdksSubtitle": "Commencez rapidement avec nos SDK officiels pour les langages de programmation populaires.",
+        "exampleTitle": "Exemple de démarrage rapide",
+        "exampleSubtitle": "Soyez opérationnel avec l'API SeaChat en quelques lignes de code seulement.",
+        "jsExample": "Exemple JavaScript",
+        "copy": "Copier",
+        "ctaTitle": "Prêt à commencer à construire?",
+        "ctaSubtitle": "Obtenez votre clé API et commencez à intégrer SeaChat dans vos applications dès aujourd'hui.",
+        "ctaAccessButton": "Obtenir l'accès à l'API",
+        "ctaDocsButton": "Lire la documentation"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "Satisfaction client"
+          },
+          "responseTime": {
+            "title": "Temps de réponse moyen"
+          },
+          "resolution": {
+            "title": "Taux de résolution"
+          },
+          "growth": {
+            "title": "Croissance mensuelle"
+          },
+          "period": "ce mois-ci"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "Tableaux de bord en temps réel",
+              "description": "Surveillez les performances de votre support avec des tableaux de bord en direct et personnalisables.",
+              "benefits": {
+                "metrics": "Mesures de performance en direct",
+                "kpi": "Suivi des KPI personnalisés",
+                "team": "Vues des performances de l'équipe",
+                "alerts": "Notifications d'alerte"
+              }
+            },
+            "reporting": {
+              "title": "Rapports avancés",
+              "description": "Générez des rapports détaillés avec des informations et des tendances exploitables.",
+              "benefits": {
+                "automated": "Génération de rapports automatisée",
+                "dates": "Plages de dates personnalisées",
+                "export": "Capacités d'exportation",
+                "scheduled": "Livraison planifiée"
+              }
+            },
+            "journey": {
+              "title": "Analyse du parcours client",
+              "description": "Suivez les interactions client sur tous les points de contact et canaux.",
+              "benefits": {
+                "tracking": "Suivi multicanal",
+                "visualization": "Visualisation du parcours",
+                "conversion": "Analyse de la conversion",
+                "dropoff": "Identification des abandons"
+              }
+            },
+            "optimization": {
+              "title": "Optimisation des performances",
+              "description": "Identifiez les goulots d'étranglement et optimisez vos opérations de support.",
+              "benefits": {
+                "bottlenecks": "Détection des goulots d'étranglement",
+                "resources": "Allocation des ressources",
+                "efficiency": "Recommandations d'efficacité",
+                "roi": "Analyse du retour sur investissement"
+              }
+            }
+          }
+        },
+        "title": "Analyses et informations",
+        "subtitle": "Prenez des décisions basées sur les données avec une analyse complète qui révèle le comportement des clients, les performances des agents et les opportunités d'optimisation.",
+        "metricsTitle": "Mesures de performance clés",
+        "metricsSubtitle": "Suivez les mesures qui comptent le plus pour le succès de votre support client.",
+        "featuresTitle": "Suite d'analyse complète",
+        "featuresSubtitle": "Tout ce dont vous avez besoin pour comprendre, mesurer et améliorer vos opérations de support client.",
+        "dashboardTitle": "Aperçu du tableau de bord interactif",
+        "dashboardSubtitle": "Découvrez comment notre tableau de bord d'analyse fournit des informations exploitables en un coup d'œil.",
+        "dashboard": {
+          "overview": "Aperçu des performances",
+          "months": {
+            "jan": "Jan",
+            "dec": "Déc"
+          },
+          "quickStats": "Statistiques rapides",
+          "activeConversations": "Conversations actives",
+          "systemUptime": "Disponibilité du système",
+          "customerRating": "Note client"
+        },
+        "ctaTitle": "Commencez à prendre des décisions basées sur les données",
+        "ctaSubtitle": "Libérez la puissance de l'analyse pour optimiser votre support client et stimuler la croissance de votre entreprise."
+      },
+      "humanAgents": {
+        "title": "Chat avec un agent humain",
+        "subtitle": "Commencez avec de vrais agents de support humains, entièrement gratuits à vie. Pas de limites, pas de pièges, juste une véritable connexion humaine avec vos clients.",
+        "startButton": "Commencez gratuitement pour toujours",
+        "demoButton": "Regarder la démo",
+        "unlimited": {
+          "title": "Heures d'agent illimitées",
+          "description": "Pas de limites de temps, pas de plafonds horaires. Votre agent humain travaille autant que vous en avez besoin, entièrement gratuitement."
+        },
+        "realtime": {
+          "title": "Gestion du chat en temps réel",
+          "description": "Gérez plusieurs conversations simultanément avec notre interface de chat intuitive."
+        },
+        "collaboration": {
+          "title": "Collaboration multi-agents",
+          "description": "Développez votre équipe avec des transferts transparents d'agent à agent et des outils de collaboration."
+        },
+        "security": {
+          "title": "Sécurité avancée",
+          "description": "Sécurité de niveau entreprise avec cryptage de bout en bout et protection des données."
+        },
+        "analytics": {
+          "title": "Analyse des performances",
+          "description": "Suivez les temps de réponse, la satisfaction client et les mesures de performance des agents."
+        },
+        "workflows": {
+          "title": "Flux de travail personnalisés",
+          "description": "Créez des flux de travail personnalisés et des règles d'automatisation pour votre processus de support."
+        },
+        "benefits": {
+          "personal": {
+            "title": "Touche personnelle",
+            "description": "Empathie et compréhension humaines que l'IA ne peut pas reproduire"
+          },
+          "complex": {
+            "title": "Résolution de problèmes complexes",
+            "description": "Gérez des situations nuancées qui nécessitent un jugement humain"
+          },
+          "brand": {
+            "title": "Représentation de la marque",
+            "description": "Des agents qui comprennent et représentent vraiment les valeurs de votre marque"
+          },
+          "relationships": {
+            "title": "Relations clients",
+            "description": "Créez des relations durables grâce à de véritables connexions humaines"
+          }
+        },
+        "freeForever": {
+          "title": "Vraiment gratuit comme dans Gratuit 🍺 & 🎙️",
+          "subtitle": "Nous le pensons quand nous disons gratuit. Un agent humain à vie, avec tout en illimité.",
+          "meaningTitle": "Ce que \"Gratuit pour toujours\" signifie vraiment",
+          "agent": "1 agent humain à vie",
+          "conversations": "Conversations de chat illimitées",
+          "history": "Historique de chat illimité",
+          "contacts": "Contacts illimités",
+          "export": "Liberté d'exporter toutes les données",
+          "noCredit": "Aucune carte de crédit requise",
+          "unlimited": "Tout en illimité",
+          "noCaps": "Pas de frais cachés, pas de limites de temps, pas de plafonds de conversation. Juste un support humain pur et illimité.",
+          "forever": "Pour toujours"
+        },
+        "featuresTitle": "Fonctionnalités puissantes de l'agent humain",
+        "featuresSubtitle": "Tout ce dont vous avez besoin pour fournir un support client exceptionnel alimenté par l'homme.",
+        "whyMatterTitle": "Pourquoi les agents humains comptent toujours",
+        "whyMatterSubtitle": "Dans un monde axé sur l'IA, la connexion humaine reste irremplaçable pour instaurer la confiance et résoudre des problèmes complexes.",
+        "ctaTitle": "Prêt à commencer avec des agents humains?",
+        "ctaSubtitle": "Rejoignez des milliers d'entreprises qui fournissent un support client exceptionnel avec nos agents humains gratuits.",
+        "ctaStartButton": "Commencez gratuitement maintenant",
+        "ctaDemoButton": "Planifier une démo"
+      },
+      "knowledgeBase": {
+        "subtitle": "Donnez à vos agents IA une gestion complète des connaissances. Créez, organisez et maintenez un référentiel centralisé d'informations qui permet des réponses intelligentes et précises.",
+        "managementTitle": "Gestion intelligente des connaissances",
+        "managementSubtitle": "Construisez une base de connaissances puissante qui évolue avec votre entreprise et améliore chaque interaction client.",
+        "smartSearch": {
+          "title": "Recherche intelligente",
+          "description": "Capacités de recherche sémantique avancées qui comprennent le contexte et l'intention, fournissant des informations précises instantanément."
+        },
+        "documentManagement": {
+          "title": "Gestion de documents",
+          "description": "Téléchargez, organisez et contrôlez les versions des documents, des FAQ, des politiques et des procédures en un seul endroit centralisé."
+        },
+        "collaboration": {
+          "title": "Édition collaborative",
+          "description": "Permettez la collaboration d'équipe avec l'édition en temps réel, les flux de travail d'approbation et les contrôles d'accès basés sur les rôles."
+        },
+        "autoLearning": {
+          "title": "Apprentissage automatique",
+          "description": "Capturez et apprenez automatiquement des interactions réussies pour améliorer continuellement la précision des connaissances."
+        },
+        "accessControl": {
+          "title": "Contrôle d'accès",
+          "description": "Sécurisez les informations sensibles avec des autorisations granulaires et assurez la conformité avec les réglementations sur la protection des données."
+        },
+        "multiLanguage": {
+          "title": "Multilingue",
+          "description": "Prenez en charge plusieurs langues et la localisation pour servir les clients du monde entier avec des réponses culturellement appropriées."
+        },
+        "demoTitle": "Voir la base de connaissances en action",
+        "demoSubtitle": "Regardez comment notre système de connaissances intelligent alimente des réponses précises et contextuelles.",
+        "interfaceTitle": "Interface de la base de connaissances",
+        "categories": "Catégories de documents",
+        "productDocs": "Documentation du produit",
+        "articles": "articles",
+        "supportFaqs": "FAQ du support client",
+        "policies": "Politiques de l'entreprise",
+        "recentUpdates": "Mises à jour récentes",
+        "refundUpdate": "Politique de remboursement mise à jour",
+        "hoursAgo": "il y a des heures",
+        "returnWindow": "Fenêtre de retour mise à jour de 14 à 30 jours",
+        "featureGuide": "Guide des nouvelles fonctionnalités",
+        "dayAgo": "il y a un jour",
+        "analyticsDoc": "Ajout de la documentation pour l'analyse avancée",
+        "transformTitle": "Transformez votre support client",
+        "transformSubtitle": "Une base de connaissances bien organisée est le fondement d'un service client exceptionnel et d'opérations efficaces.",
+        "benefitsTitle": "Principaux avantages",
+        "fasterResponse": {
+          "title": "Temps de réponse plus rapides",
+          "description": "Réduisez le temps de réponse moyen de 60% avec un accès instantané à des informations précises."
+        },
+        "consistency": {
+          "title": "Précision constante",
+          "description": "Assurez-vous que tous les agents fournissent des informations cohérentes et à jour sur tous les canaux."
+        },
+        "training": {
+          "title": "Formation évolutive",
+          "description": "Intégrez plus rapidement les nouveaux agents avec une documentation complète et consultable."
+        },
+        "readyTitle": "Prêt à commencer?",
+        "readySubtitle": "Construisez votre base de connaissances dès aujourd'hui et transformez la façon dont votre équipe fournit le support client.",
+        "startButton": "Commencer à construire",
+        "scheduleDemo": "Planifier une démo"
+      },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "Chat de site Web",
+            "description": "Intégrez des widgets de chat sur n'importe quelle plateforme de site Web",
+            "seachat": {
+              "features": {
+                "compatibility": "Compatibilité universelle",
+                "styling": "Style personnalisé",
+                "responsive": "Adaptatif mobile",
+                "sync": "Synchronisation en temps réel"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "WhatsApp Business",
+            "seachat": {
+              "features": {
+                "api": "Intégration de l'API Business",
+                "media": "Support de médias riches",
+                "templates": "Messages modèles",
+                "groups": "Messagerie de groupe"
+              }
+            },
+            "description": "Connectez-vous avec les clients sur l'application de messagerie la plus populaire au monde"
+          },
+          "instagram": {
+            "name": "Instagram Direct",
+            "description": "Gérez les DM Instagram et les réponses aux stories en un seul endroit",
+            "seachat": {
+              "features": {
+                "replies": "Gestion des réponses aux stories",
+                "media": "Partage de médias",
+                "responses": "Réponses rapides",
+                "greetings": "Salutations automatisées"
+              }
+            }
+          },
+          "facebook": {
+            "name": "Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "Intégration de la page",
+                "responses": "Réponses automatisées",
+                "cards": "Cartes riches",
+                "menu": "Menu persistant"
+              }
+            },
+            "description": "Fournissez un support via la plateforme de messagerie de Facebook"
+          },
+          "voice": {
+            "name": "Appels vocaux",
+            "description": "Gérez le support téléphonique avec des agents vocaux IA",
+            "seachat": {
+              "features": {
+                "conversations": "Conversations naturelles",
+                "routing": "Routage des appels",
+                "voicemail": "Transcription de la messagerie vocale",
+                "conference": "Appels de conférence"
+              }
+            }
+          },
+          "email": {
+            "name": "Support par e-mail",
+            "description": "Gérez les tickets par e-mail avec un routage intelligent",
+            "seachat": {
+              "features": {
+                "categorization": "Catégorisation intelligente",
+                "responses": "Réponses automatiques",
+                "templates": "Modèles d'e-mails",
+                "priority": "Gestion des priorités"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "Vue client unifiée",
+            "description": "Visualisez l'historique complet des clients sur tous les canaux dans une seule interface"
+          },
+          "handoffs": {
+            "title": "Transferts transparents",
+            "description": "Les clients peuvent changer de canal sans perdre le contexte de la conversation"
+          },
+          "resolution": {
+            "title": "Résolution plus rapide",
+            "description": "Réduisez le temps de résolution avec des flux de travail d'agents unifiés"
+          },
+          "satisfaction": {
+            "title": "Satisfaction plus élevée",
+            "description": "Expérience cohérente sur tous les points de contact"
+          }
+        },
+        "title": "Support omnicanal",
+        "subtitle": "Connectez tous vos points de contact client sur une seule plateforme unifiée. Fournissez un support cohérent et transparent sur les sites Web, les réseaux sociaux, le téléphone et l'e-mail.",
+        "channelsTitle": "Tous vos canaux, une seule plateforme",
+        "channelsSubtitle": "Connectez et gérez les conversations client sur tous les canaux que vos clients utilisent.",
+        "benefitsTitle": "La puissance du véritable omnicanal",
+        "benefitsSubtitle": "Allez au-delà de la simple possession de plusieurs canaux. Créez des expériences unifiées qui ravissent les clients.",
+        "inboxTitle": "Expérience de boîte de réception unifiée",
+        "inboxSubtitle": "Découvrez comment toutes vos conversations client se rejoignent dans une seule interface intelligente.",
+        "activeConversations": "Conversations actives",
+        "websiteChat": "Chat du site Web sur les fonctionnalités du produit...",
+        "whatsappInquiry": "Demande de renseignements WhatsApp sur l'état de la commande...",
+        "instagramDM": "DM Instagram sur la politique de retour...",
+        "conversationView": "Vue de la conversation",
+        "customerVia": "Client via le site Web",
+        "agentResponse": "Réponse de l'agent",
+        "customerViaWhatsapp": "Client via WhatsApp",
+        "whatsappMessage": "Merci! Puis-je continuer cette conversation sur WhatsApp?",
+        "ctaTitle": "Prêt à unifier vos canaux clients?",
+        "ctaSubtitle": "Connectez tous vos points de contact client et offrez des expériences de support transparentes qui fidélisent les clients.",
+        "customerMessage": "Bonjour, je suis intéressé par vos fonctionnalités d'automatisation de l'IA. Pouvez-vous m'en dire plus?",
+        "agentMessage": "Je serais heureux de vous aider! Notre automatisation de l'IA peut gérer jusqu'à 80% des demandes de routine..."
+      },
+      "voiceAgents": {
+        "title": "Agents vocaux",
+        "subtitle": "Transformez le support téléphonique avec des agents vocaux IA qui semblent naturels, comprennent le contexte et fournissent une assistance instantanée dans plusieurs langues.",
+        "signUpFree": "Inscrivez-vous gratuitement",
+        "scheduleDemo": "Planifier une démo",
+        "natural": {
+          "title": "Conversations vocales naturelles",
+          "description": "Agents vocaux alimentés par l'IA qui semblent naturels et comprennent le contexte."
+        },
+        "speech": {
+          "title": "Reconnaissance vocale avancée",
+          "description": "Conversion précise de la parole en texte dans plusieurs langues et accents."
+        },
+        "synthesis": {
+          "title": "Synthèse vocale de haute qualité",
+          "description": "Sortie vocale cristalline et humaine avec intelligence émotionnelle."
+        },
+        "support": {
+          "title": "Support vocal 24/7",
+          "description": "Assistance vocale 24 heures sur 24 pour un support client mondial."
+        },
+        "multilanguage": {
+          "title": "Support multilingue",
+          "description": "Prise en charge de plus de 50 langues avec une prononciation native."
+        },
+        "routing": {
+          "title": "Routage intelligent des appels",
+          "description": "Routage intelligent vers les agents humains lorsque des problèmes complexes surviennent."
+        },
+        "capabilitiesTitle": "Capacités vocales avancées",
+        "capabilitiesSubtitle": "Nos agents vocaux combinent une IA de pointe avec un traitement du langage naturel pour des conversations de type humain.",
+        "capabilities": {
+          "service": {
+            "title": "Appels de service client",
+            "description": "Gérez les demandes de renseignements de routine, l'état des commandes et le dépannage de base"
+          },
+          "appointments": {
+            "title": "Planification de rendez-vous",
+            "description": "Réservez, reportez et confirmez automatiquement les rendez-vous"
+          },
+          "orders": {
+            "title": "Traitement des commandes",
+            "description": "Prenez les commandes, traitez les paiements et confirmez les détails"
+          },
+          "support": {
+            "title": "Support technique",
+            "description": "Guidez les clients à travers les étapes de dépannage de base"
+          }
+        },
+        "performanceTitle": "Performances de l'agent vocal",
+        "performanceSubtitle": "Découvrez les performances de nos agents vocaux dans différents types d'interactions client.",
+        "accuracyRate": "Taux de précision",
+        "avgDuration": "Durée moyenne",
+        "experienceTitle": "Découvrez l'IA vocale en action",
+        "experienceSubtitle": "Écoutez de vraies conversations entre les clients et nos agents vocaux.",
+        "sampleTitle": "Exemple de conversation",
+        "voiceAgent": "Agent vocal",
+        "customer": "Client",
+        "agentGreeting": "Bonjour! Merci d'avoir appelé le support SeaChat. Comment puis-je vous aider aujourd'hui?",
+        "customerQuestion": "Bonjour, j'ai besoin de vérifier l'état de ma commande récente.",
+        "agentResponse": "Je serais heureux de vous aider avec ça. Pourriez-vous s'il vous plaît fournir votre numéro de commande ou l'adresse e-mail associée à votre compte?",
+        "playDemo": "Lire la démo complète",
+        "moreSamples": "Plus d'exemples",
+        "featuresTitle": "Fonctionnalités de l'agent vocal",
+        "featuresList": {
+          "0": "Traitement du langage naturel",
+          "1": "Support multilingue",
+          "2": "Intégration du système téléphonique",
+          "3": "Analyse du sentiment vocal",
+          "4": "Enregistrement et analyse des appels",
+          "5": "Escalade humaine intelligente"
+        },
+        "ctaTitle": "Prêt à transformer le support téléphonique?",
+        "ctaSubtitle": "Découvrez l'avenir du support client vocal avec des agents IA qui sonnent et se sentent humains."
+      }
+    },
+    "seo": {
+      "title": "SeaChat - Chatbot IA et automatisation du service client | Seasalt.ai",
+      "titleSuffix": " - Chatbot IA et automatisation du service client | Seasalt.ai",
+      "description": "SeaChat est une plateforme de chatbot alimentée par l'IA qui aide les entreprises à automatiser le service client sur plusieurs canaux, notamment WhatsApp, les sites Web, les réseaux sociaux, etc."
+    }
+  }
+}

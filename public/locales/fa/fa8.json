@@ -1,102 +1,102 @@
 {
   "compareUsOverview": {
     "seo": {
-      "title": "Compare Seasalt.ai to Alternatives",
-      "description": "[FA]See detailed comparisons with every major competitor. We're the only platform that delivers enterprise features with small business simplicity and transparent pricing."
+      "title": "Seasalt.ai را با جایگزین‌ها مقایسه کنید",
+      "description": "مقایسه‌های دقیق را با هر رقیب اصلی ببینید. ما تنها پلتفرمی هستیم که ویژگی‌های سازمانی را با سادگی کسب‌وکارهای کوچک و قیمت‌گذاری شفاف ارائه می‌دهد."
     },
     "hero": {
-      "backToHome": "[FA]Back to Home",
-      "title": "How Seasalt.ai Compares to",
-      "titleHighlight": "[FA]Every Alternative",
-      "subtitle": "[FA]See detailed comparisons with every major competitor. We're the only platform that delivers enterprise features with small business simplicity and transparent pricing."
+      "backToHome": "بازگشت به خانه",
+      "title": "Seasalt.ai چگونه با",
+      "titleHighlight": "هر جایگزین",
+      "subtitle": "مقایسه‌های دقیق را با هر رقیب اصلی ببینید. ما تنها پلتفرمی هستیم که ویژگی‌های سازمانی را با سادگی کسب‌وکارهای کوچک و قیمت‌گذاری شفاف ارائه می‌دهد."
     },
     "stats": {
-      "competitorsAnalyzed": "[FA]Competitors Analyzed",
-      "startingPrice": "[FA]Starting Price/Agent",
-      "channelsIncluded": "[FA]Channels Included",
-      "unifiedPlatform": "[FA]Unified Platform"
+      "competitorsAnalyzed": "رقبا تحلیل شدند",
+      "startingPrice": "قیمت شروع/نماینده",
+      "channelsIncluded": "کانال‌های شامل شده",
+      "unifiedPlatform": "پلتفرم یکپارچه"
     },
     "competitorsSection": {
-      "title": "[FA]Choose Your Comparison",
-      "subtitle": "Click on any competitor to see a detailed feature-by-feature comparison with Seasalt.ai"
+      "title": "مقایسه خود را انتخاب کنید",
+      "subtitle": "برای مشاهده مقایسه دقیق ویژگی به ویژگی با Seasalt.ai، روی هر رقیب کلیک کنید."
     },
     "competitors": {
       "aircall": {
-        "category": "[FA]Sales-Focused Phone Systems",
-        "description": "[FA]User-friendly interface but expensive add-ons and 3-user minimum"
+        "category": "سیستم‌های تلفنی متمرکز بر فروش",
+        "description": "رابط کاربری آسان اما افزونه‌های گران‌قیمت و حداقل ۳ کاربر"
       },
       "ringcentral": {
-        "category": "[FA]UCaaS Giants",
-        "description": "[FA]Fragmented platform with separate UCaaS and CCaaS products"
+        "category": "غول‌های UCaaS",
+        "description": "پلتفرم تکه‌تکه با محصولات جداگانه UCaaS و CCaaS"
       },
       "genesys": {
-        "category": "[FA]Enterprise Contact Centers",
-        "description": "[FA]Powerful but expensive with high minimums and complex pricing"
+        "category": "مراکز تماس سازمانی",
+        "description": "قدرتمند اما گران‌قیمت با حداقل‌های بالا و قیمت‌گذاری پیچیده"
       },
       "five9": {
-        "category": "[FA]Enterprise Contact Centers",
-        "description": "[FA]Outbound-heavy platform with enterprise pricing starting at $119/user"
+        "category": "مراکز تماس سازمانی",
+        "description": "پلتفرم سنگین برون‌گرا با قیمت‌گذاری سازمانی که از ۱۱۹ دلار در هر کاربر شروع می‌شود"
       },
       "avaya": {
-        "category": "[FA]Legacy Providers",
-        "description": "[FA]Legacy architecture with complex enterprise focus and quote-based pricing"
+        "category": "ارائه‌دهندگان قدیمی",
+        "description": "معماری قدیمی با تمرکز سازمانی پیچیده و قیمت‌گذاری مبتنی بر نقل قول"
       },
       "googleVoice": {
-        "category": "[FA]Basic VoIP Services",
-        "description": "[FA]Great for solopreneurs but lacks team features and integrations"
+        "category": "خدمات VoIP پایه",
+        "description": "عالی برای کارآفرینان انفرادی اما فاقد ویژگی‌های تیمی و یکپارچه‌سازی"
       },
       "respondIo": {
-        "category": "[FA]Digital-First Platforms",
-        "description": "[FA]Strong messaging platform but voice is beta and pricing is complex"
+        "category": "پلتفرم‌های دیجیتال-اول",
+        "description": "پلتفرم پیام‌رسانی قوی اما صدا در نسخه بتا است و قیمت‌گذاری پیچیده است"
       },
       "intercom": {
-        "category": "[FA]Website Engagement Tools",
-        "description": "[FA]Excellent for website chat but expensive per-resolution pricing"
+        "category": "ابزارهای تعامل وب‌سایت",
+        "description": "عالی برای چت وب‌سایت اما قیمت‌گذاری گران‌قیمت بر اساس هر راه‌حل"
       },
       "kustomer": {
-        "category": "[FA]Enterprise Customer Service",
-        "description": "[FA]Powerful omnichannel but 8-seat minimum and expensive AI add-ons"
+        "category": "خدمات مشتری سازمانی",
+        "description": "همه‌کاناله قدرتمند اما حداقل ۸ صندلی و افزونه‌های هوش مصنوعی گران‌قیمت"
       },
       "threeCx": {
-        "category": "[FA]Self-Hosted Solutions",
-        "description": "[FA]Open platform but requires technical expertise and hidden costs"
+        "category": "راه‌حل‌های خودمیزبان",
+        "description": "پلتفرم باز اما نیازمند تخصص فنی و هزینه‌های پنهان"
       },
       "dialpad": {
-        "category": "[FA]UCaaS with Contact Center Tiers",
-        "description": "[FA]Good voice AI but expensive upgrade required for contact center features"
+        "category": "UCaaS با رده‌های مرکز تماس",
+        "description": "هوش مصنوعی صوتی خوب اما ارتقاء گران‌قیمت برای ویژگی‌های مرکز تماس لازم است"
       },
       "eightByEight": {
-        "category": "[FA]Enterprise Communications",
-        "description": "[FA]Comprehensive but quote-based pricing and enterprise complexity"
+        "category": "ارتباطات سازمانی",
+        "description": "جامع اما قیمت‌گذاری مبتنی بر نقل قول و پیچیدگی سازمانی"
       },
       "openphone": {
-        "category": "[FA]Simple Business Phone",
-        "description": "[FA]Modern phone system but limited to voice/SMS with expensive AI add-ons"
+        "category": "تلفن تجاری ساده",
+        "description": "سیستم تلفن مدرن اما محدود به صدا/پیامک با افزونه‌های هوش مصنوعی گران‌قیمت"
       }
     },
     "whyCompareSection": {
-      "title": "[FA]Why We Compare Ourselves to Everyone",
-      "subtitle": "[FA]We believe in transparency. See exactly how we stack up against every alternative in the market."
+      "title": "چرا خودمان را با همه مقایسه می‌کنیم",
+      "subtitle": "ما به شفافیت اعتقاد داریم. دقیقاً ببینید که چگونه در برابر هر جایگزین در بازار قرار می‌گیریم."
     },
     "benefits": {
       "transparency": {
-        "title": "[FA]Complete Transparency",
-        "description": "[FA]We show you exactly how we compare on features, pricing, and capabilities. No marketing fluff."
+        "title": "شفافیت کامل",
+        "description": "ما دقیقاً به شما نشان می‌دهیم که چگونه در ویژگی‌ها، قیمت‌گذاری و قابلیت‌ها مقایسه می‌شویم. بدون حشو و زوائد بازاریابی."
       },
       "decisions": {
-        "title": "[FA]Informed Decisions",
-        "description": "[FA]Make the right choice for your business with detailed, honest comparisons of every option."
+        "title": "تصمیمات آگاهانه",
+        "description": "با مقایسه‌های دقیق و صادقانه از هر گزینه، انتخاب درستی برای کسب‌وکار خود داشته باشید."
       },
       "fit": {
-        "title": "[FA]Find Your Fit",
-        "description": "[FA]Every business is different. See which solution truly matches your needs and budget."
+        "title": "مناسب خود را پیدا کنید",
+        "description": "هر کسب‌وکاری متفاوت است. ببینید کدام راه‌حل واقعاً با نیازها و بودجه شما مطابقت دارد."
       }
     },
     "cta": {
-      "title": "[FA]Ready to See Why We're Different?",
-      "subtitle": "After comparing all the alternatives, we think you'll agree: Seasalt.ai is the smart choice for growing businesses.",
-      "signUp": "[FA]Sign Up",
-      "bookDemo": "[FA]Book A Demo"
+      "title": "آماده‌اید تا ببینید چرا ما متفاوتیم؟",
+      "subtitle": "پس از مقایسه همه جایگزین‌ها، فکر می‌کنیم موافق خواهید بود: Seasalt.ai انتخاب هوشمندانه برای کسب‌وکارهای در حال رشد است.",
+      "signUp": "ثبت نام",
+      "bookDemo": "رزرو دمو"
     }
   }
 }

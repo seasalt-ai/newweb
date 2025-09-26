@@ -2,657 +2,657 @@
   "seachat": {
     "features": {
       "advancedAI": {
-        "title": "[FIL]Advanced AI Features",
-        "subtitle": "[FIL]Next-generation AI intelligence with memory, context awareness, and advanced reasoning capabilities for truly personalized customer experiences.",
-        "exploreButton": "[FIL]Explore Advanced AI",
-        "scheduleDemo": "[FIL]Schedule Demo",
+        "title": "Mga Advanced na Tampok ng AI",
+        "subtitle": "Susunod na henerasyon ng katalinuhan ng AI na may memorya, kamalayan sa konteksto, at mga advanced na kakayahan sa pangangatwiran para sa tunay na personalized na mga karanasan sa customer.",
+        "exploreButton": "Galugarin ang Advanced na AI",
+        "scheduleDemo": "Mag-iskedyul ng Demo",
         "capabilities": {
-          "title": "[FIL]Cutting-Edge AI Capabilities",
-          "subtitle": "[FIL]Experience the future of customer support with our advanced AI features that learn, remember, and adapt."
+          "title": "Mga Makabagong Kakayahan sa AI",
+          "subtitle": "Damhin ang hinaharap ng suporta sa customer gamit ang aming mga advanced na tampok ng AI na natututo, naaalala, at umaangkop."
         },
         "rag": {
-          "title": "[FIL]Retrieval Augmented Generation (RAG)",
-          "description": "[FIL]Advanced search capabilities combining keyword, vector, and hybrid search for precise information retrieval.",
+          "title": "Retrieval Augmented Generation (RAG)",
+          "description": "Mga advanced na kakayahan sa paghahanap na pinagsasama ang keyword, vector, at hybrid na paghahanap para sa tumpak na pagkuha ng impormasyon.",
           "details": {
-            "semantic": "[FIL]Semantic vector search for contextual understanding",
-            "keyword": "[FIL]Traditional keyword matching for exact queries",
-            "hybrid": "[FIL]Hybrid algorithms combining both approaches",
-            "indexing": "[FIL]Real-time content indexing and updates"
+            "semantic": "Paghahanap ng semantikong vector para sa pag-unawa sa konteksto",
+            "keyword": "Tradisyonal na pagtutugma ng keyword para sa mga eksaktong query",
+            "hybrid": "Mga hybrid na algorithm na pinagsasama ang parehong mga diskarte",
+            "indexing": "Real-time na pag-index at mga update ng nilalaman"
           },
-          "sectionTitle": "[FIL]Retrieval Augmented Generation",
-          "sectionSubtitle": "[FIL]Advanced search technology that combines multiple approaches for the most accurate information retrieval.",
-          "keyword": "[FIL]Keyword Search",
-          "keywordDesc": "[FIL]Traditional exact-match searching for precise queries and specific terms.",
-          "vector": "[FIL]Vector Search",
-          "vectorDesc": "[FIL]Semantic understanding that finds contextually relevant information.",
-          "hybrid": "[FIL]Hybrid Search",
-          "hybridDesc": "[FIL]Best of both worlds, combining keyword precision with semantic understanding."
+          "sectionTitle": "Retrieval Augmented Generation",
+          "sectionSubtitle": "Advanced na teknolohiya sa paghahanap na pinagsasama ang maraming mga diskarte para sa pinakatumpak na pagkuha ng impormasyon.",
+          "keyword": "Paghahanap ng Keyword",
+          "keywordDesc": "Tradisyonal na paghahanap ng eksaktong tugma para sa mga tumpak na query at partikular na mga termino.",
+          "vector": "Paghahanap ng Vector",
+          "vectorDesc": "Semantikong pag-unawa na nakakahanap ng impormasyon na may kaugnayan sa konteksto.",
+          "hybrid": "Hybrid na Paghahanap",
+          "hybridDesc": "Pinakamahusay sa parehong mundo, pinagsasama ang katumpakan ng keyword sa semantikong pag-unawa."
         },
         "memory": {
-          "title": "[FIL]Long Term Memory System",
-          "description": "[FIL]Persistent user memory that creates personalized experiences across all interactions.",
+          "title": "Sistema ng Pangmatagalang Memorya",
+          "description": "Paulit-ulit na memorya ng gumagamit na lumilikha ng mga personalized na karanasan sa lahat ng mga pakikipag-ugnayan.",
           "details": {
-            "preferences": "[FIL]User preference tracking and storage",
-            "history": "[FIL]Conversation history analysis",
-            "patterns": "[FIL]Behavioral pattern recognition",
-            "continuity": "[FIL]Cross-session continuity and context"
+            "preferences": "Pagsubaybay at pag-iimbak ng kagustuhan ng gumagamit",
+            "history": "Pagsusuri sa kasaysayan ng pag-uusap",
+            "patterns": "Pagkilala sa pattern ng pag-uugali",
+            "continuity": "Pagpapatuloy at konteksto sa cross-session"
           },
-          "sectionTitle": "[FIL]Long Term Memory in Action",
-          "sectionSubtitle": "[FIL]See how our AI remembers and learns from every interaction to provide increasingly personalized support.",
-          "fieldsTitle": "[FIL]Context Extraction Fields",
-          "fieldsDescription": "[FIL]Our AI automatically identifies and stores key information about each user, creating rich profiles that enhance every future interaction.",
-          "example": "[FIL]Example",
-          "timeline": "[FIL]Memory Timeline",
-          "firstInteraction": "[FIL]First Interaction",
-          "firstInteractionDesc": "[FIL]AI learns user preferences and context",
-          "ongoingConversations": "[FIL]Ongoing Conversations",
-          "ongoingConversationsDesc": "[FIL]Continuously updates user profile",
-          "returnVisits": "[FIL]Return Visits",
-          "returnVisitsDesc": "[FIL]Provides personalized, context-aware responses"
+          "sectionTitle": "Pangmatagalang Memorya sa Aksyon",
+          "sectionSubtitle": "Tingnan kung paano naaalala at natututo ang aming AI mula sa bawat pakikipag-ugnayan upang magbigay ng lalong personalized na suporta.",
+          "fieldsTitle": "Mga Field ng Pagkuha ng Konteksto",
+          "fieldsDescription": "Awtomatikong kinikilala at iniimbak ng aming AI ang pangunahing impormasyon tungkol sa bawat gumagamit, na lumilikha ng mga mayamang profile na nagpapahusay sa bawat pakikipag-ugnayan sa hinaharap.",
+          "example": "Halimbawa",
+          "timeline": "Timeline ng Memorya",
+          "firstInteraction": "Unang Pakikipag-ugnayan",
+          "firstInteractionDesc": "Natututo ang AI ng mga kagustuhan at konteksto ng gumagamit",
+          "ongoingConversations": "Mga Patuloy na Pag-uusap",
+          "ongoingConversationsDesc": "Patuloy na ina-update ang profile ng gumagamit",
+          "returnVisits": "Mga Bumabalik na Pagbisita",
+          "returnVisitsDesc": "Nagbibigay ng mga personalized, may kamalayan sa konteksto na mga tugon"
         },
         "timeAwareness": {
-          "title": "[FIL]Time Awareness Integration",
-          "description": "[FIL]Context-aware responses based on current time, timezone, and temporal relevance.",
+          "title": "Pagsasama ng Kamalayan sa Oras",
+          "description": "Mga tugon na may kamalayan sa konteksto batay sa kasalukuyang oras, timezone, at temporal na kaugnayan.",
           "details": {
-            "timestamp": "[FIL]Real-time timestamp integration",
-            "timezone": "[FIL]Timezone-aware scheduling and responses",
-            "recommendations": "[FIL]Time-sensitive recommendations",
-            "hours": "[FIL]Business hours optimization"
+            "timestamp": "Real-time na pagsasama ng timestamp",
+            "timezone": "Pag-iiskedyul at mga tugon na may kamalayan sa timezone",
+            "recommendations": "Mga rekomendasyon na sensitibo sa oras",
+            "hours": "Pag-optimize ng mga oras ng negosyo"
           }
         },
         "context": {
-          "title": "[FIL]Smart Context Extraction",
-          "description": "[FIL]Intelligent field mapping and data extraction for better user comprehension.",
+          "title": "Matalinong Pagkuha ng Konteksto",
+          "description": "Matalinong pagmamapa ng field at pagkuha ng data para sa mas mahusay na pag-unawa ng gumagamit.",
           "details": {
-            "fields": "[FIL]Custom field definitions and mapping",
-            "extraction": "[FIL]Automatic data extraction from conversations",
-            "language": "[FIL]User language preference detection",
-            "dynamic": "[FIL]Dynamic context building and updates"
+            "fields": "Mga kahulugan at pagmamapa ng pasadyang field",
+            "extraction": "Awtomatikong pagkuha ng data mula sa mga pag-uusap",
+            "language": "Pagtuklas ng kagustuhan sa wika ng gumagamit",
+            "dynamic": "Dinamikong pagbuo at mga update ng konteksto"
           }
         },
         "references": {
-          "title": "[FIL]Referenced Chat Results",
-          "description": "[FIL]Transparent AI responses with source citations and confidence scoring.",
+          "title": "Mga Resulta ng Chat na may Sanggunian",
+          "description": "Mga transparent na tugon ng AI na may mga pagsipi sa pinagmulan at pagmamarka ng kumpiyansa.",
           "details": {
-            "linking": "[FIL]Source document linking and citations",
-            "tracking": "[FIL]Citation tracking and verification",
-            "confidence": "[FIL]Confidence scoring for responses",
-            "verification": "[FIL]Fact verification and validation"
+            "linking": "Pag-link at mga pagsipi ng dokumento ng pinagmulan",
+            "tracking": "Pagsubaybay at pag-verify ng pagsipi",
+            "confidence": "Pagmamarka ng kumpiyansa para sa mga tugon",
+            "verification": "Pag-verify at pagpapatunay ng katotohanan"
           }
         },
         "knowledge": {
-          "title": "[FIL]Knowledge Base Refinement",
-          "description": "[FIL]Continuous improvement of knowledge base accuracy and relevance.",
+          "title": "Pagpipino ng Knowledge Base",
+          "description": "Patuloy na pagpapabuti ng katumpakan at kaugnayan ng knowledge base.",
           "details": {
-            "updating": "[FIL]Auto-updating content based on interactions",
-            "scoring": "[FIL]Quality scoring and content ranking",
-            "relevance": "[FIL]Relevance optimization algorithms",
-            "analytics": "[FIL]Performance analytics and insights"
+            "updating": "Awtomatikong pag-update ng nilalaman batay sa mga pakikipag-ugnayan",
+            "scoring": "Pagmamarka ng kalidad at pag-ranggo ng nilalaman",
+            "relevance": "Mga algorithm sa pag-optimize ng kaugnayan",
+            "analytics": "Analytics at mga insight sa pagganap"
           }
         },
         "memoryExamples": {
           "language": {
-            "field": "[FIL]User_Language",
-            "description": "[FIL]Remembers preferred communication language",
-            "example": "[FIL]Customer prefers Spanish responses"
+            "field": "Wika_ng_Gumagamit",
+            "description": "Naaalala ang gustong wika sa komunikasyon",
+            "example": "Mas gusto ng customer ang mga tugon sa Espanyol"
           },
           "product": {
-            "field": "[FIL]Product_Interest",
-            "description": "[FIL]Tracks product categories of interest",
-            "example": "[FIL]Interested in premium software solutions"
+            "field": "Interes_sa_Produkto",
+            "description": "Sinusubaybayan ang mga kategorya ng produkto na interesado",
+            "example": "Interesado sa mga premium na solusyon sa software"
           },
           "history": {
-            "field": "[FIL]Support_History",
-            "description": "[FIL]Maintains context of previous issues",
-            "example": "[FIL]Previously had billing questions resolved"
+            "field": "Kasaysayan_ng_Suporta",
+            "description": "Pinapanatili ang konteksto ng mga nakaraang isyu",
+            "example": "Nalutas na dati ang mga tanong sa pagsingil"
           },
           "style": {
-            "field": "[FIL]Communication_Style",
-            "description": "[FIL]Adapts to preferred interaction style",
-            "example": "[FIL]Prefers detailed technical explanations"
+            "field": "Estilo_ng_Komunikasyon",
+            "description": "Umaangkop sa gustong istilo ng pakikipag-ugnayan",
+            "example": "Mas gusto ang mga detalyadong teknikal na paliwanag"
           }
         },
         "cta": {
-          "title": "[FIL]Experience the Future of AI",
-          "subtitle": "[FIL]Ready to transform your customer support with advanced AI that remembers, learns, and adapts? Start your journey with our cutting-edge technology.",
-          "signUp": "[FIL]Sign Up For Free",
-          "scheduleDemo": "[FIL]Schedule Demo"
+          "title": "Damhin ang Hinaharap ng AI",
+          "subtitle": "Handa nang baguhin ang iyong suporta sa customer gamit ang advanced na AI na naaalala, natututo, at umaangkop? Simulan ang iyong paglalakbay sa aming makabagong teknolohiya.",
+          "signUp": "Mag-sign Up nang Libre",
+          "scheduleDemo": "Mag-iskedyul ng Demo"
         }
       },
       "aiAutomation": {
-        "title": "[FIL]AI Automation",
-        "subtitle": "[FIL]Scale your customer support with intelligent AI that learns, adapts, and provides instant responses while maintaining the human touch when needed.",
-        "tryButton": "[FIL]Try AI Automation",
-        "featuresTitle": "[FIL]Intelligent AI Features",
-        "featuresSubtitle": "[FIL]Our AI automation goes beyond simple chatbots to provide truly intelligent customer support.",
-        "performanceTitle": "[FIL]Automation That Actually Works",
-        "performanceSubtitle": "[FIL]See how our AI automation handles different types of customer inquiries with impressive accuracy rates.",
-        "hybridTitle": "[FIL]The Perfect Balance: AI + Human",
-        "hybridSubtitle": "[FIL]Our hybrid approach combines the speed of AI with the empathy of human agents.",
-        "aiStrengthsTitle": "[FIL]AI Automation Excels At",
+        "title": "AI Automation",
+        "subtitle": "Palakihin ang iyong suporta sa customer gamit ang matalinong AI na natututo, umaangkop, at nagbibigay ng mga instant na tugon habang pinapanatili ang ugnayan ng tao kapag kinakailangan.",
+        "tryButton": "Subukan ang AI Automation",
+        "featuresTitle": "Mga Matalinong Tampok ng AI",
+        "featuresSubtitle": "Ang aming AI automation ay higit pa sa mga simpleng chatbot upang magbigay ng tunay na matalinong suporta sa customer.",
+        "performanceTitle": "Automation na Talagang Gumagana",
+        "performanceSubtitle": "Tingnan kung paano pinangangasiwaan ng aming AI automation ang iba't ibang uri ng mga katanungan ng customer na may kahanga-hangang mga rate ng katumpakan.",
+        "hybridTitle": "Ang Perpektong Balanse: AI + Tao",
+        "hybridSubtitle": "Pinagsasama ng aming hybrid na diskarte ang bilis ng AI sa empatiya ng mga ahente ng tao.",
+        "aiStrengthsTitle": "Ang AI Automation ay Mahusay Sa",
         "aiStrengths": [
-          "[FIL]Instant responses to common questions",
-          "[FIL]24/7 availability without breaks",
-          "[FIL]Handling multiple conversations simultaneously",
-          "[FIL]Consistent service quality",
-          "[FIL]Multilingual communication support",
-          "[FIL]Quick access to knowledge base information"
+          "Mga instant na tugon sa mga karaniwang tanong",
+          "24/7 na availability nang walang pahinga",
+          "Paghawak ng maraming pag-uusap nang sabay-sabay",
+          "Pare-parehong kalidad ng serbisyo",
+          "Suporta sa komunikasyon sa maraming wika",
+          "Mabilis na access sa impormasyon sa knowledge base"
         ],
-        "humanStrengthsTitle": "[FIL]Human Agents Excel At",
+        "humanStrengthsTitle": "Ang mga Ahente ng Tao ay Mahusay Sa",
         "humanStrengths": [
-          "[FIL]Complex problem-solving and empathy",
-          "[FIL]Building personal relationships with customers",
-          "[FIL]Handling sensitive or emotional situations",
-          "[FIL]Creative solutions and out-of-box thinking",
-          "[FIL]Understanding nuanced customer needs",
-          "[FIL]Making judgment calls in ambiguous scenarios"
+          "Kumplikadong paglutas ng problema at empatiya",
+          "Pagbuo ng mga personal na relasyon sa mga customer",
+          "Paghawak ng mga sensitibo o emosyonal na sitwasyon",
+          "Mga malikhaing solusyon at pag-iisip sa labas ng kahon",
+          "Pag-unawa sa mga nuanced na pangangailangan ng customer",
+          "Paggawa ng mga paghatol sa mga hindi malinaw na sitwasyon"
         ],
-        "ctaTitle": "[FIL]Ready to Scale with AI?",
-        "ctaSubtitle": "[FIL]Start with free human agents, then add AI automation when you're ready to scale. The perfect hybrid approach for growing businesses.",
+        "ctaTitle": "Handa nang Palakihin gamit ang AI?",
+        "ctaSubtitle": "Magsimula sa mga libreng ahente ng tao, pagkatapos ay magdagdag ng AI automation kapag handa ka nang palakihin. Ang perpektong hybrid na diskarte para sa mga lumalagong negosyo.",
         "contextAware": {
-          "title": "[FIL]Context-Aware Responses",
-          "description": "[FIL]AI understands conversation context and provides relevant, intelligent responses."
+          "title": "Mga Tugon na may Kamalayan sa Konteksto",
+          "description": "Nauunawaan ng AI ang konteksto ng pag-uusap at nagbibigay ng mga may-katuturan, matalinong tugon."
         },
         "learning": {
-          "title": "[FIL]Learning from Conversations",
-          "description": "[FIL]Continuously improves by learning from every customer interaction."
+          "title": "Pag-aaral mula sa mga Pag-uusap",
+          "description": "Patuloy na nagpapabuti sa pamamagitan ng pag-aaral mula sa bawat pakikipag-ugnayan ng customer."
         },
         "handoff": {
-          "title": "[FIL]Seamless Human Handoff",
-          "description": "[FIL]Smooth transition to human agents when complex issues arise."
+          "title": "Walang putol na Pag-handoff ng Tao",
+          "description": "Makinis na paglipat sa mga ahente ng tao kapag lumitaw ang mga kumplikadong isyu."
         },
         "availability": {
-          "title": "[FIL]24/7 Availability",
-          "description": "[FIL]Provide instant support around the clock, even when agents are offline."
+          "title": "24/7 na Availability",
+          "description": "Magbigay ng instant na suporta sa buong orasan, kahit na offline ang mga ahente."
         },
         "response": {
-          "title": "[FIL]Instant Response Time",
-          "description": "[FIL]Respond to customer queries in milliseconds, not minutes."
+          "title": "Instant na Oras ng Pagtugon",
+          "description": "Tumugon sa mga query ng customer sa milliseconds, hindi minuto."
         },
         "multilanguage": {
-          "title": "[FIL]Multi-language Support",
-          "description": "[FIL]Communicate with customers in their preferred language automatically."
+          "title": "Suporta sa Maraming Wika",
+          "description": "Awtomatikong makipag-usap sa mga customer sa kanilang gustong wika."
         },
         "types": {
           "faq": {
-            "title": "[FIL]FAQ Automation",
-            "description": "[FIL]Instantly answer common questions with accurate, up-to-date information."
+            "title": "Automation ng FAQ",
+            "description": "Agad na sagutin ang mga karaniwang tanong na may tumpak, napapanahong impormasyon."
           },
           "orders": {
-            "title": "[FIL]Order Status Updates",
-            "description": "[FIL]Provide real-time order tracking and shipping information."
+            "title": "Mga Update sa Katayuan ng Order",
+            "description": "Magbigay ng real-time na pagsubaybay sa order at impormasyon sa pagpapadala."
           },
           "appointments": {
-            "title": "[FIL]Appointment Scheduling",
-            "description": "[FIL]Book appointments and manage calendars automatically."
+            "title": "Pag-iiskedyul ng Appointment",
+            "description": "Awtomatikong mag-book ng mga appointment at pamahalaan ang mga kalendaryo."
           },
           "recommendations": {
-            "title": "[FIL]Product Recommendations",
-            "description": "[FIL]Suggest relevant products based on customer preferences."
+            "title": "Mga Rekomendasyon sa Produkto",
+            "description": "Magmungkahi ng mga may-katuturang produkto batay sa mga kagustuhan ng customer."
           }
         },
-        "scheduleDemo": "[FIL]Schedule Demo",
-        "signUpForFree": "[FIL]Sign Up For Free"
+        "scheduleDemo": "Mag-iskedyul ng Demo",
+        "signUpForFree": "Mag-sign Up nang Libre"
       },
       "api": {
         "restful": {
-          "title": "[FIL]RESTful API",
-          "description": "[FIL]Clean, intuitive REST API with comprehensive documentation"
+          "title": "RESTful API",
+          "description": "Malinis, madaling gamitin na REST API na may komprehensibong dokumentasyon"
         },
         "webhooks": {
-          "title": "[FIL]Real-time Webhooks",
-          "description": "[FIL]Get instant notifications for events and conversation updates"
+          "title": "Real-time na mga Webhook",
+          "description": "Kumuha ng mga instant na abiso para sa mga kaganapan at mga update sa pag-uusap"
         },
         "security": {
-          "title": "[FIL]Secure Authentication",
-          "description": "[FIL]OAuth 2.0 and API key authentication with rate limiting"
+          "title": "Secure na Pagpapatotoo",
+          "description": "OAuth 2.0 at pagpapatotoo ng API key na may rate limiting"
         },
         "cdn": {
-          "title": "[FIL]Global CDN",
-          "description": "[FIL]Low-latency API access from anywhere in the world"
+          "title": "Pandaigdigang CDN",
+          "description": "Access sa API na may mababang latency mula saanman sa mundo"
         },
         "endpoints": {
-          "createConversation": "[FIL]Create a new conversation",
-          "getConversation": "[FIL]Retrieve conversation details",
-          "sendMessage": "[FIL]Send a message in a conversation"
+          "createConversation": "Lumikha ng isang bagong pag-uusap",
+          "getConversation": "Kunin ang mga detalye ng pag-uusap",
+          "sendMessage": "Magpadala ng isang mensahe sa isang pag-uusap"
         },
         "sdks": {
-          "available": "[FIL]Available",
-          "comingSoon": "[FIL]Coming Soon"
+          "available": "Available",
+          "comingSoon": "Malapit na"
         },
-        "title": "[FIL]API & Developer Tools",
-        "subtitle": "[FIL]Build custom integrations and extend SeaChat[FIL]'s capabilities with our comprehensive API and developer-friendly tools.",
-        "getKeyButton": "[FIL]Get API Key",
-        "viewDocsButton": "[FIL]View Documentation",
-        "featuresTitle": "[FIL]Powerful API Features",
-        "featuresSubtitle": "[FIL]Everything you need to integrate SeaChat[FIL] into your existing systems and workflows.",
-        "endpointsTitle": "[FIL]API Endpoints",
-        "endpointsSubtitle": "[FIL]Explore our comprehensive API with examples and interactive documentation.",
-        "exampleRequestResponse": "[FIL]Example Request/Response",
-        "tryItOut": "[FIL]Try it out",
-        "testConsole": "[FIL]Test in Console",
-        "copyCurl": "[FIL]Copy cURL",
-        "sdksTitle": "[FIL]SDKs & Libraries",
-        "sdksSubtitle": "[FIL]Get started quickly with our official SDKs for popular programming languages.",
-        "exampleTitle": "[FIL]Quick Start Example",
-        "exampleSubtitle": "[FIL]Get up and running with SeaChat[FIL] API in just a few lines of code.",
-        "jsExample": "[FIL]JavaScript Example",
-        "copy": "[FIL]Copy",
-        "ctaTitle": "[FIL]Ready to Start Building?",
-        "ctaSubtitle": "[FIL]Get your API key and start integrating SeaChat[FIL] into your applications today.",
-        "ctaAccessButton": "[FIL]Get API Access",
-        "ctaDocsButton": "[FIL]Read Documentation"
+        "title": "API at Mga Tool ng Developer",
+        "subtitle": "Bumuo ng mga pasadyang pagsasama at palawakin ang mga kakayahan ng SeaChat sa aming komprehensibong API at mga tool na madaling gamitin sa developer.",
+        "getKeyButton": "Kumuha ng API Key",
+        "viewDocsButton": "Tingnan ang Dokumentasyon",
+        "featuresTitle": "Malakas na mga Tampok ng API",
+        "featuresSubtitle": "Lahat ng kailangan mo upang isama ang SeaChat sa iyong mga umiiral na system at daloy ng trabaho.",
+        "endpointsTitle": "Mga Endpoint ng API",
+        "endpointsSubtitle": "Galugarin ang aming komprehensibong API na may mga halimbawa at interactive na dokumentasyon.",
+        "exampleRequestResponse": "Halimbawa ng Kahilingan/Tugon",
+        "tryItOut": "Subukan ito",
+        "testConsole": "Subukan sa Console",
+        "copyCurl": "Kopyahin ang cURL",
+        "sdksTitle": "Mga SDK at Library",
+        "sdksSubtitle": "Magsimula nang mabilis sa aming mga opisyal na SDK para sa mga sikat na wika sa programming.",
+        "exampleTitle": "Halimbawa ng Mabilis na Pagsisimula",
+        "exampleSubtitle": "Magsimula at tumakbo sa SeaChat API sa ilang linya lamang ng code.",
+        "jsExample": "Halimbawa ng JavaScript",
+        "copy": "Kopyahin",
+        "ctaTitle": "Handa nang Simulan ang Pagbuo?",
+        "ctaSubtitle": "Kunin ang iyong API key at simulang isama ang SeaChat sa iyong mga application ngayon.",
+        "ctaAccessButton": "Kumuha ng Access sa API",
+        "ctaDocsButton": "Basahin ang Dokumentasyon"
       },
       "analytics": {
         "metrics": {
           "satisfaction": {
-            "title": "[FIL]Customer Satisfaction"
+            "title": "Kasiyahan ng Customer"
           },
           "responseTime": {
-            "title": "[FIL]Average Response Time"
+            "title": "Average na Oras ng Pagtugon"
           },
           "resolution": {
-            "title": "[FIL]Resolution Rate"
+            "title": "Rate ng Paglutas"
           },
           "growth": {
-            "title": "[FIL]Monthly Growth"
+            "title": "Buwanang Paglago"
           },
-          "period": "[FIL]this month"
+          "period": "ngayong buwan"
         },
         "seachat": {
           "features": {
             "dashboards": {
-              "title": "[FIL]Real-time Dashboards",
-              "description": "[FIL]Monitor your support performance with live, customizable dashboards.",
+              "title": "Mga Real-time na Dashboard",
+              "description": "Subaybayan ang iyong pagganap sa suporta gamit ang mga live, nako-customize na dashboard.",
               "benefits": {
-                "metrics": "[FIL]Live performance metrics",
-                "kpi": "[FIL]Custom KPI tracking",
-                "team": "[FIL]Team performance views",
-                "alerts": "[FIL]Alert notifications"
+                "metrics": "Mga sukatan ng live na pagganap",
+                "kpi": "Pasadyang pagsubaybay sa KPI",
+                "team": "Mga view ng pagganap ng koponan",
+                "alerts": "Mga abiso sa alerto"
               }
             },
             "reporting": {
-              "title": "[FIL]Advanced Reporting",
-              "description": "[FIL]Generate detailed reports with actionable insights and trends.",
+              "title": "Advanced na Pag-uulat",
+              "description": "Bumuo ng mga detalyadong ulat na may mga naaaksyunan na insight at trend.",
               "benefits": {
-                "automated": "[FIL]Automated report generation",
-                "dates": "[FIL]Custom date ranges",
-                "export": "[FIL]Export capabilities",
-                "scheduled": "[FIL]Scheduled delivery"
+                "automated": "Awtomatikong pagbuo ng ulat",
+                "dates": "Mga pasadyang saklaw ng petsa",
+                "export": "Mga kakayahan sa pag-export",
+                "scheduled": "Naka-iskedyul na paghahatid"
               }
             },
             "journey": {
-              "title": "[FIL]Customer Journey Analytics",
-              "description": "[FIL]Track customer interactions across all touchpoints and channels.",
+              "title": "Analytics sa Paglalakbay ng Customer",
+              "description": "Subaybayan ang mga pakikipag-ugnayan ng customer sa lahat ng mga touchpoint at channel.",
               "benefits": {
-                "tracking": "[FIL]Multi-channel tracking",
-                "visualization": "[FIL]Journey visualization",
-                "conversion": "[FIL]Conversion analysis",
-                "dropoff": "[FIL]Drop-off identification"
+                "tracking": "Pagsubaybay sa maraming channel",
+                "visualization": "Pag-visualize ng paglalakbay",
+                "conversion": "Pagsusuri sa conversion",
+                "dropoff": "Pagtukoy sa drop-off"
               }
             },
             "optimization": {
-              "title": "[FIL]Performance Optimization",
-              "description": "[FIL]Identify bottlenecks and optimize your support operations.",
+              "title": "Pag-optimize ng Pagganap",
+              "description": "Tukuyin ang mga bottleneck at i-optimize ang iyong mga operasyon sa suporta.",
               "benefits": {
-                "bottlenecks": "[FIL]Bottleneck detection",
-                "resources": "[FIL]Resource allocation",
-                "efficiency": "[FIL]Efficiency recommendations",
-                "roi": "[FIL]ROI analysis"
+                "bottlenecks": "Pagtuklas ng bottleneck",
+                "resources": "Paglalaan ng mapagkukunan",
+                "efficiency": "Mga rekomendasyon sa kahusayan",
+                "roi": "Pagsusuri sa ROI"
               }
             }
           }
         },
-        "title": "[FIL]Analytics & Insights",
-        "subtitle": "[FIL]Make data-driven decisions with comprehensive analytics that reveal customer behavior, agent performance, and optimization opportunities.",
-        "metricsTitle": "[FIL]Key Performance Metrics",
-        "metricsSubtitle": "[FIL]Track the metrics that matter most to your customer support success.",
-        "featuresTitle": "[FIL]Comprehensive Analytics Suite",
-        "featuresSubtitle": "[FIL]Everything you need to understand, measure, and improve your customer support operations.",
-        "dashboardTitle": "[FIL]Interactive Dashboard Preview",
-        "dashboardSubtitle": "[FIL]See how our analytics dashboard provides actionable insights at a glance.",
+        "title": "Analytics at Mga Insight",
+        "subtitle": "Gumawa ng mga desisyon na batay sa data na may komprehensibong analytics na nagpapakita ng pag-uugali ng customer, pagganap ng ahente, at mga pagkakataon sa pag-optimize.",
+        "metricsTitle": "Mga Pangunahing Sukatan ng Pagganap",
+        "metricsSubtitle": "Subaybayan ang mga sukatan na pinakamahalaga sa tagumpay ng iyong suporta sa customer.",
+        "featuresTitle": "Komprehensibong Suite ng Analytics",
+        "featuresSubtitle": "Lahat ng kailangan mo upang maunawaan, masukat, at mapabuti ang iyong mga operasyon sa suporta sa customer.",
+        "dashboardTitle": "Interactive na Preview ng Dashboard",
+        "dashboardSubtitle": "Tingnan kung paano nagbibigay ang aming analytics dashboard ng mga naaaksyunan na insight sa isang sulyap.",
         "dashboard": {
-          "overview": "[FIL]Performance Overview",
+          "overview": "Pangkalahatang-ideya ng Pagganap",
           "months": {
-            "jan": "[FIL]Jan",
-            "dec": "[FIL]Dec"
+            "jan": "Ene",
+            "dec": "Dis"
           },
-          "quickStats": "[FIL]Quick Stats",
-          "activeConversations": "[FIL]Active Conversations",
-          "systemUptime": "[FIL]System Uptime",
-          "customerRating": "[FIL]Customer Rating"
+          "quickStats": "Mabilis na mga Istatistika",
+          "activeConversations": "Mga Aktibong Pag-uusap",
+          "systemUptime": "Uptime ng Sistema",
+          "customerRating": "Rating ng Customer"
         },
-        "ctaTitle": "[FIL]Start Making Data-Driven Decisions",
-        "ctaSubtitle": "[FIL]Unlock the power of analytics to optimize your customer support and drive business growth."
+        "ctaTitle": "Simulan ang Paggawa ng mga Desisyon na Batay sa Data",
+        "ctaSubtitle": "I-unlock ang kapangyarihan ng analytics upang i-optimize ang iyong suporta sa customer at mag-drive ng paglago ng negosyo."
       },
       "humanAgents": {
-        "title": "[FIL]Human Agent Chat",
-        "subtitle": "[FIL]Start with real human support agents, completely free for life. No limits, no catches, just genuine human connection with your customers.",
-        "startButton": "[FIL]Start Free Forever",
-        "demoButton": "[FIL]Watch Demo",
+        "title": "Chat ng Ahente ng Tao",
+        "subtitle": "Magsimula sa mga tunay na ahente ng suporta ng tao, ganap na libre habang-buhay. Walang mga limitasyon, walang mga catch, tunay na koneksyon lamang ng tao sa iyong mga customer.",
+        "startButton": "Magsimula nang Libre Magpakailanman",
+        "demoButton": "Panoorin ang Demo",
         "unlimited": {
-          "title": "[FIL]Unlimited Agent Hours",
-          "description": "[FIL]No time limits, no hourly caps. Your human agent works as much as you need, completely free."
+          "title": "Walang limitasyong mga Oras ng Ahente",
+          "description": "Walang mga limitasyon sa oras, walang mga cap sa oras. Gumagana ang iyong ahente ng tao hangga't kailangan mo, ganap na libre."
         },
         "realtime": {
-          "title": "[FIL]Real-time Chat Management",
-          "description": "[FIL]Handle multiple conversations simultaneously with our intuitive chat interface."
+          "title": "Real-time na Pamamahala ng Chat",
+          "description": "Pangasiwaan ang maraming pag-uusap nang sabay-sabay sa aming madaling gamitin na interface ng chat."
         },
         "collaboration": {
-          "title": "[FIL]Multi-agent Collaboration",
-          "description": "[FIL]Scale your team with seamless agent-to-agent handoffs and collaboration tools."
+          "title": "Pakikipagtulungan ng Maraming Ahente",
+          "description": "Palakihin ang iyong koponan na may tuluy-tuloy na mga pag-handoff mula sa ahente-sa-ahente at mga tool sa pakikipagtulungan."
         },
         "security": {
-          "title": "[FIL]Advanced Security",
-          "description": "[FIL]Enterprise-grade security with end-to-end encryption and data protection."
+          "title": "Advanced na Seguridad",
+          "description": "Seguridad sa antas ng enterprise na may end-to-end na pag-encrypt at proteksyon ng data."
         },
         "analytics": {
-          "title": "[FIL]Performance Analytics",
-          "description": "[FIL]Track response times, customer satisfaction, and agent performance metrics."
+          "title": "Analytics sa Pagganap",
+          "description": "Subaybayan ang mga oras ng pagtugon, kasiyahan ng customer, at mga sukatan ng pagganap ng ahente."
         },
         "workflows": {
-          "title": "[FIL]Custom Workflows",
-          "description": "[FIL]Create personalized workflows and automation rules for your support process."
+          "title": "Mga Pasadyang Daloy ng Trabaho",
+          "description": "Lumikha ng mga personalized na daloy ng trabaho at mga panuntunan sa automation para sa iyong proseso ng suporta."
         },
         "benefits": {
           "personal": {
-            "title": "[FIL]Personal Touch",
-            "description": "[FIL]Human empathy and understanding that AI cannot replicate"
+            "title": "Personal na Ugnayan",
+            "description": "Empatiya at pag-unawa ng tao na hindi kayang gayahin ng AI"
           },
           "complex": {
-            "title": "[FIL]Complex Problem Solving",
-            "description": "[FIL]Handle nuanced situations that require human judgment"
+            "title": "Kumplikadong Paglutas ng Problema",
+            "description": "Pangasiwaan ang mga nuanced na sitwasyon na nangangailangan ng paghatol ng tao"
           },
           "brand": {
-            "title": "[FIL]Brand Representation",
-            "description": "[FIL]Agents who truly understand and represent your brand values"
+            "title": "Representasyon ng Brand",
+            "description": "Mga ahente na tunay na nakakaunawa at kumakatawan sa mga halaga ng iyong brand"
           },
           "relationships": {
-            "title": "[FIL]Customer Relationships",
-            "description": "[FIL]Build lasting relationships through genuine human connections"
+            "title": "Mga Relasyon sa Customer",
+            "description": "Bumuo ng mga pangmatagalang relasyon sa pamamagitan ng tunay na mga koneksyon ng tao"
           }
         },
         "freeForever": {
-          "title": "[FIL]Truly Free as in Free 🍺 & 🎙️",
-          "subtitle": "[FIL]We mean it when we say free. One human agent for life, with unlimited everything.",
-          "meaningTitle": "[FIL]What \"Free Forever\" Really Means",
-          "agent": "[FIL]1 Human Agent for Life",
-          "conversations": "[FIL]Unlimited Chat Conversations",
-          "history": "[FIL]Unlimited Chat History",
-          "contacts": "[FIL]Unlimited Contacts",
-          "export": "[FIL]Freedom to Export All Data",
-          "noCredit": "[FIL]No Credit Card Required",
-          "unlimited": "[FIL]Unlimited Everything",
-          "noCaps": "[FIL]No hidden fees, no time limits, no conversation caps. Just pure, unlimited human support.",
-          "forever": "[FIL]Forever"
+          "title": "Tunay na Libre tulad ng sa Libreng 🍺 & 🎙️",
+          "subtitle": "Seryoso kami kapag sinabi naming libre. Isang ahente ng tao habang-buhay, na may walang limitasyong lahat.",
+          "meaningTitle": "Ano Talaga ang Ibig Sabihin ng \"Libre Magpakailanman\"",
+          "agent": "1 Ahente ng Tao para sa Buhay",
+          "conversations": "Walang limitasyong mga Pag-uusap sa Chat",
+          "history": "Walang limitasyong Kasaysayan ng Chat",
+          "contacts": "Walang limitasyong mga Contact",
+          "export": "Kalayaan na I-export ang Lahat ng Data",
+          "noCredit": "Walang Kinakailangang Credit Card",
+          "unlimited": "Walang limitasyong Lahat",
+          "noCaps": "Walang mga nakatagong bayarin, walang mga limitasyon sa oras, walang mga cap sa pag-uusap. Purong, walang limitasyong suporta ng tao lamang.",
+          "forever": "Magpakailanman"
         },
-        "featuresTitle": "[FIL]Powerful Human Agent Features",
-        "featuresSubtitle": "[FIL]Everything you need to provide exceptional human-powered customer support.",
-        "whyMatterTitle": "[FIL]Why Human Agents Still Matter",
-        "whyMatterSubtitle": "[FIL]In an AI-driven world, human connection remains irreplaceable for building trust and solving complex problems.",
-        "ctaTitle": "[FIL]Ready to Start with Human Agents?",
-        "ctaSubtitle": "[FIL]Join thousands of businesses providing exceptional customer support with our free human agents.",
-        "ctaStartButton": "[FIL]Start Free Now",
-        "ctaDemoButton": "[FIL]Schedule Demo"
+        "featuresTitle": "Malakas na mga Tampok ng Ahente ng Tao",
+        "featuresSubtitle": "Lahat ng kailangan mo upang magbigay ng pambihirang suporta sa customer na pinapagana ng tao.",
+        "whyMatterTitle": "Bakit Mahalaga Pa Rin ang mga Ahente ng Tao",
+        "whyMatterSubtitle": "Sa isang mundong hinimok ng AI, ang koneksyon ng tao ay nananatiling hindi mapapalitan para sa pagbuo ng tiwala at paglutas ng mga kumplikadong problema.",
+        "ctaTitle": "Handa nang Magsimula sa mga Ahente ng Tao?",
+        "ctaSubtitle": "Sumali sa libu-libong negosyo na nagbibigay ng pambihirang suporta sa customer sa aming mga libreng ahente ng tao.",
+        "ctaStartButton": "Magsimula nang Libre Ngayon",
+        "ctaDemoButton": "Mag-iskedyul ng Demo"
       },
       "knowledgeBase": {
-        "subtitle": "[FIL]Empower your AI agents with comprehensive knowledge management. Create, organize, and maintain a centralized repository of information that enables intelligent, accurate responses.",
-        "managementTitle": "[FIL]Intelligent Knowledge Management",
-        "managementSubtitle": "[FIL]Build a powerful knowledge foundation that grows with your business and enhances every customer interaction.",
+        "subtitle": "Bigyan ng kapangyarihan ang iyong mga ahente ng AI na may komprehensibong pamamahala ng kaalaman. Lumikha, ayusin, at panatilihin ang isang sentralisadong repositoryo ng impormasyon na nagbibigay-daan sa mga matalino, tumpak na tugon.",
+        "managementTitle": "Matalinong Pamamahala ng Kaalaman",
+        "managementSubtitle": "Bumuo ng isang malakas na pundasyon ng kaalaman na lumalaki kasama ng iyong negosyo at nagpapahusay sa bawat pakikipag-ugnayan ng customer.",
         "smartSearch": {
-          "title": "[FIL]Smart Search",
-          "description": "[FIL]Advanced semantic search capabilities that understand context and intent, delivering precise information instantly."
+          "title": "Matalinong Paghahanap",
+          "description": "Mga advanced na kakayahan sa paghahanap ng semantiko na nakakaunawa sa konteksto at layunin, na naghahatid ng tumpak na impormasyon agad."
         },
         "documentManagement": {
-          "title": "[FIL]Document Management",
-          "description": "[FIL]Upload, organize, and version control documents, FAQs, policies, and procedures in one centralized location."
+          "title": "Pamamahala ng Dokumento",
+          "description": "Mag-upload, ayusin, at i-version control ang mga dokumento, FAQ, patakaran, at pamamaraan sa isang sentralisadong lokasyon."
         },
         "collaboration": {
-          "title": "[FIL]Collaborative Editing",
-          "description": "[FIL]Enable team collaboration with real-time editing, approval workflows, and role-based access controls."
+          "title": "Pakikipagtulungan sa Pag-edit",
+          "description": "Paganahin ang pakikipagtulungan ng koponan na may real-time na pag-edit, mga daloy ng trabaho sa pag-apruba, at mga kontrol sa pag-access na batay sa papel."
         },
         "autoLearning": {
-          "title": "[FIL]Auto-Learning",
-          "description": "[FIL]Automatically capture and learn from successful interactions to continuously improve knowledge accuracy."
+          "title": "Awtomatikong Pag-aaral",
+          "description": "Awtomatikong makuha at matuto mula sa mga matagumpay na pakikipag-ugnayan upang patuloy na mapabuti ang katumpakan ng kaalaman."
         },
         "accessControl": {
-          "title": "[FIL]Access Control",
-          "description": "[FIL]Secure sensitive information with granular permissions and ensure compliance with data protection regulations."
+          "title": "Kontrol sa Pag-access",
+          "description": "I-secure ang sensitibong impormasyon na may mga butil-butil na pahintulot at tiyakin ang pagsunod sa mga regulasyon sa proteksyon ng data."
         },
         "multiLanguage": {
-          "title": "[FIL]Multi-Language",
-          "description": "[FIL]Support multiple languages and localization to serve global customers with culturally appropriate responses."
+          "title": "Maraming Wika",
+          "description": "Suportahan ang maraming wika at lokalisasyon upang pagsilbihan ang mga pandaigdigang customer na may mga tugon na angkop sa kultura."
         },
-        "demoTitle": "[FIL]See Knowledge Base in Action",
-        "demoSubtitle": "[FIL]Watch how our intelligent knowledge system powers accurate, contextual responses.",
-        "interfaceTitle": "[FIL]Knowledge Base Interface",
-        "categories": "[FIL]Document Categories",
-        "productDocs": "[FIL]Product Documentation",
-        "articles": "[FIL]articles",
-        "supportFaqs": "[FIL]Customer Support FAQs",
-        "policies": "[FIL]Company Policies",
-        "recentUpdates": "[FIL]Recent Updates",
-        "refundUpdate": "[FIL]Refund Policy Updated",
-        "hoursAgo": "[FIL]hours ago",
-        "returnWindow": "[FIL]Updated return window from 14 to 30 days",
-        "featureGuide": "[FIL]New Feature Guide",
-        "dayAgo": "[FIL]day ago",
-        "analyticsDoc": "[FIL]Added documentation for advanced analytics",
-        "transformTitle": "[FIL]Transform Your Customer Support",
-        "transformSubtitle": "[FIL]A well-organized knowledge base is the foundation of exceptional customer service and efficient operations.",
-        "benefitsTitle": "[FIL]Key Benefits",
+        "demoTitle": "Tingnan ang Knowledge Base sa Aksyon",
+        "demoSubtitle": "Panoorin kung paano pinapagana ng aming matalinong sistema ng kaalaman ang mga tumpak, kontekstwal na tugon.",
+        "interfaceTitle": "Interface ng Knowledge Base",
+        "categories": "Mga Kategorya ng Dokumento",
+        "productDocs": "Dokumentasyon ng Produkto",
+        "articles": "mga artikulo",
+        "supportFaqs": "Mga FAQ sa Suporta sa Customer",
+        "policies": "Mga Patakaran ng Kumpanya",
+        "recentUpdates": "Mga Kamakailang Update",
+        "refundUpdate": "Na-update ang Patakaran sa Refund",
+        "hoursAgo": "oras ang nakalipas",
+        "returnWindow": "Na-update ang window ng pagbabalik mula 14 hanggang 30 araw",
+        "featureGuide": "Gabay sa Bagong Tampok",
+        "dayAgo": "araw ang nakalipas",
+        "analyticsDoc": "Nagdagdag ng dokumentasyon para sa advanced na analytics",
+        "transformTitle": "Baguhin ang Iyong Suporta sa Customer",
+        "transformSubtitle": "Ang isang mahusay na organisadong knowledge base ay ang pundasyon ng pambihirang serbisyo sa customer at mahusay na mga operasyon.",
+        "benefitsTitle": "Mga Pangunahing Benepisyo",
         "fasterResponse": {
-          "title": "[FIL]Faster Response Times",
-          "description": "[FIL]Reduce average response time by 60% with instant access to accurate information."
+          "title": "Mas Mabilis na mga Oras ng Pagtugon",
+          "description": "Bawasan ang average na oras ng pagtugon ng 60% na may instant na access sa tumpak na impormasyon."
         },
         "consistency": {
-          "title": "[FIL]Consistent Accuracy",
-          "description": "[FIL]Ensure all agents provide consistent, up-to-date information across all channels."
+          "title": "Pare-parehong Katumpakan",
+          "description": "Tiyakin na lahat ng mga ahente ay nagbibigay ng pare-pareho, napapanahong impormasyon sa lahat ng channel."
         },
         "training": {
-          "title": "[FIL]Scalable Training",
-          "description": "[FIL]Onboard new agents faster with comprehensive, searchable documentation."
+          "title": "Nasusukat na Pagsasanay",
+          "description": "Mas mabilis na i-onboard ang mga bagong ahente na may komprehensibo, mahahanap na dokumentasyon."
         },
-        "readyTitle": "[FIL]Ready to Get Started?",
-        "readySubtitle": "[FIL]Build your knowledge base today and transform how your team delivers customer support.",
-        "startButton": "[FIL]Start Building",
-        "scheduleDemo": "[FIL]Schedule Demo"
+        "readyTitle": "Handa nang Magsimula?",
+        "readySubtitle": "Buuin ang iyong knowledge base ngayon at baguhin kung paano naghahatid ng suporta sa customer ang iyong koponan.",
+        "startButton": "Simulan ang Pagbuo",
+        "scheduleDemo": "Mag-iskedyul ng Demo"
       },
       "omnichannel": {
         "channels": {
           "website": {
-            "name": "[FIL]Website Chat",
-            "description": "[FIL]Embed chat widgets on any website platform",
+            "name": "Chat sa Website",
+            "description": "I-embed ang mga chat widget sa anumang platform ng website",
             "seachat": {
               "features": {
-                "compatibility": "[FIL]Universal compatibility",
-                "styling": "[FIL]Custom styling",
-                "responsive": "[FIL]Mobile responsive",
-                "sync": "[FIL]Real-time sync"
+                "compatibility": "Universal na compatibility",
+                "styling": "Pasadyang estilo",
+                "responsive": "Tumutugon sa mobile",
+                "sync": "Real-time na pag-sync"
               }
             }
           },
           "whatsapp": {
-            "name": "WhatsApp[FIL] Business",
+            "name": "Negosyo sa WhatsApp",
             "seachat": {
               "features": {
-                "api": "[FIL]Business API integration",
-                "media": "[FIL]Rich media support",
-                "templates": "[FIL]Template messages",
-                "groups": "[FIL]Group messaging"
+                "api": "Pagsasama ng Business API",
+                "media": "Suporta sa mayamang media",
+                "templates": "Mga template ng mensahe",
+                "groups": "Pagmemensahe sa grupo"
               }
             },
-            "description": "[FIL]Connect with customers on the world's most popular messaging app"
+            "description": "Kumonekta sa mga customer sa pinakasikat na messaging app sa mundo"
           },
           "instagram": {
-            "name": "[FIL]Instagram Direct",
-            "description": "[FIL]Manage Instagram DMs and story replies in one place",
+            "name": "Instagram Direct",
+            "description": "Pamahalaan ang mga DM sa Instagram at mga tugon sa kuwento sa isang lugar",
             "seachat": {
               "features": {
-                "replies": "[FIL]Story reply management",
-                "media": "[FIL]Media sharing",
-                "responses": "[FIL]Quick responses",
-                "greetings": "[FIL]Automated greetings"
+                "replies": "Pamamahala ng tugon sa kuwento",
+                "media": "Pagbabahagi ng media",
+                "responses": "Mabilis na mga tugon",
+                "greetings": "Mga awtomatikong pagbati"
               }
             }
           },
           "facebook": {
-            "name": "[FIL]Facebook Messenger",
+            "name": "Facebook Messenger",
             "seachat": {
               "features": {
-                "integration": "[FIL]Page integration",
-                "responses": "[FIL]Automated responses",
-                "cards": "[FIL]Rich cards",
-                "menu": "[FIL]Persistent menu"
+                "integration": "Pagsasama ng pahina",
+                "responses": "Mga awtomatikong tugon",
+                "cards": "Mga mayamang card",
+                "menu": "Paulit-ulit na menu"
               }
             },
-            "description": "[FIL]Provide support through Facebook's messaging platform"
+            "description": "Magbigay ng suporta sa pamamagitan ng platform ng pagmemensahe ng Facebook"
           },
           "voice": {
-            "name": "[FIL]Voice Calls",
-            "description": "[FIL]Handle phone support with AI voice agents",
+            "name": "Mga Tawag sa Boses",
+            "description": "Pangasiwaan ang suporta sa telepono gamit ang mga ahente ng boses ng AI",
             "seachat": {
               "features": {
-                "conversations": "[FIL]Natural conversations",
-                "routing": "[FIL]Call routing",
-                "voicemail": "[FIL]Voicemail transcription",
-                "conference": "[FIL]Conference calls"
+                "conversations": "Mga natural na pag-uusap",
+                "routing": "Pagruruta ng tawag",
+                "voicemail": "Transkripsyon ng voicemail",
+                "conference": "Mga tawag sa kumperensya"
               }
             }
           },
           "email": {
-            "name": "[FIL]Email Support",
-            "description": "[FIL]Manage email tickets with intelligent routing",
+            "name": "Suporta sa Email",
+            "description": "Pamahalaan ang mga tiket sa email na may matalinong pagruruta",
             "seachat": {
               "features": {
-                "categorization": "[FIL]Smart categorization",
-                "responses": "[FIL]Auto-responses",
-                "templates": "[FIL]Email templates",
-                "priority": "[FIL]Priority handling"
+                "categorization": "Matalinong pagkakategorya",
+                "responses": "Mga awtomatikong tugon",
+                "templates": "Mga template ng email",
+                "priority": "Paghawak sa priyoridad"
               }
             }
           }
         },
         "benefits": {
           "unifiedView": {
-            "title": "[FIL]Unified Customer View",
-            "description": "[FIL]See complete customer history across all channels in one interface"
+            "title": "Pinag-isang View ng Customer",
+            "description": "Tingnan ang kumpletong kasaysayan ng customer sa lahat ng channel sa isang interface"
           },
           "handoffs": {
-            "title": "[FIL]Seamless Handoffs",
-            "description": "[FIL]Customers can switch channels without losing conversation context"
+            "title": "Walang putol na mga Handoff",
+            "description": "Maaaring lumipat ng mga channel ang mga customer nang hindi nawawala ang konteksto ng pag-uusap"
           },
           "resolution": {
-            "title": "[FIL]Faster Resolution",
-            "description": "[FIL]Reduce resolution time with unified agent workflows"
+            "title": "Mas Mabilis na Paglutas",
+            "description": "Bawasan ang oras ng paglutas gamit ang pinag-isang mga daloy ng trabaho ng ahente"
           },
           "satisfaction": {
-            "title": "[FIL]Higher Satisfaction",
-            "description": "[FIL]Consistent experience across all touchpoints"
+            "title": "Mas Mataas na Kasiyahan",
+            "description": "Pare-parehong karanasan sa lahat ng mga touchpoint"
           }
         },
-        "title": "[FIL]Omnichannel Support",
-        "subtitle": "[FIL]Connect all your customer touchpoints in one unified platform. Provide consistent, seamless support across websites, social media, phone, and email.",
-        "channelsTitle": "[FIL]All Your Channels, One Platform",
-        "channelsSubtitle": "[FIL]Connect and manage customer conversations across every channel your customers use.",
-        "benefitsTitle": "[FIL]The Power of True Omnichannel",
-        "benefitsSubtitle": "[FIL]Go beyond just having multiple channels. Create unified experiences that delight customers.",
-        "inboxTitle": "[FIL]Unified Inbox Experience",
-        "inboxSubtitle": "[FIL]See how all your customer conversations come together in one intelligent interface.",
-        "activeConversations": "[FIL]Active Conversations",
-        "websiteChat": "[FIL]Website chat about product seachat.features...",
-        "whatsappInquiry": "WhatsApp[FIL] inquiry about order status...",
-        "instagramDM": "[FIL]Instagram DM about return policy...",
-        "conversationView": "[FIL]Conversation View",
-        "customerVia": "[FIL]Customer via Website",
-        "agentResponse": "[FIL]Agent Response",
-        "customerViaWhatsapp": "[FIL]Customer via WhatsApp",
-        "whatsappMessage": "[FIL]Thanks! Can I continue this conversation on WhatsApp[FIL]?",
-        "ctaTitle": "[FIL]Ready to Unify Your Customer Channels?",
-        "ctaSubtitle": "[FIL]Connect all your customer touchpoints and provide seamless support experiences that keep customers coming back.",
-        "customerMessage": "[FIL]Hi, I'm interested in your AI automation features. Can you tell me more?",
-        "agentMessage": "[FIL]I'd be happy to help! Our AI automation can handle up to 80% of routine inquiries..."
+        "title": "Suporta sa Omnichannel",
+        "subtitle": "Ikonekta ang lahat ng iyong mga customer touchpoint sa isang pinag-isang platform. Magbigay ng pare-pareho, tuluy-tuloy na suporta sa mga website, social media, telepono, at email.",
+        "channelsTitle": "Lahat ng Iyong mga Channel, Isang Platform",
+        "channelsSubtitle": "Ikonekta at pamahalaan ang mga pag-uusap sa customer sa bawat channel na ginagamit ng iyong mga customer.",
+        "benefitsTitle": "Ang Kapangyarihan ng Tunay na Omnichannel",
+        "benefitsSubtitle": "Higit pa sa pagkakaroon lamang ng maraming mga channel. Lumikha ng mga pinag-isang karanasan na nagpapasaya sa mga customer.",
+        "inboxTitle": "Pinag-isang Karanasan sa Inbox",
+        "inboxSubtitle": "Tingnan kung paano nagsasama-sama ang lahat ng iyong mga pag-uusap sa customer sa isang matalinong interface.",
+        "activeConversations": "Mga Aktibong Pag-uusap",
+        "websiteChat": "Chat sa website tungkol sa mga tampok ng produkto...",
+        "whatsappInquiry": "Katanungan sa WhatsApp tungkol sa katayuan ng order...",
+        "instagramDM": "DM sa Instagram tungkol sa patakaran sa pagbabalik...",
+        "conversationView": "View ng Pag-uusap",
+        "customerVia": "Customer sa pamamagitan ng Website",
+        "agentResponse": "Tugon ng Ahente",
+        "customerViaWhatsapp": "Customer sa pamamagitan ng WhatsApp",
+        "whatsappMessage": "Salamat! Maaari ko bang ipagpatuloy ang pag-uusap na ito sa WhatsApp?",
+        "ctaTitle": "Handa nang Pag-isahin ang Iyong mga Channel ng Customer?",
+        "ctaSubtitle": "Ikonekta ang lahat ng iyong mga customer touchpoint at magbigay ng tuluy-tuloy na mga karanasan sa suporta na nagpapanatili sa mga customer na bumalik.",
+        "customerMessage": "Hi, interesado ako sa iyong mga tampok sa AI automation. Maaari mo ba akong sabihan ng higit pa?",
+        "agentMessage": "Masaya akong tumulong! Kayang hawakan ng aming AI automation ang hanggang 80% ng mga regular na katanungan..."
       },
       "voiceAgents": {
-        "title": "[FIL]Voice Agents",
-        "subtitle": "[FIL]Transform phone support with AI voice agents that sound natural, understand context, and provide instant assistance in multiple languages.",
-        "signUpFree": "[FIL]Sign Up For Free",
-        "scheduleDemo": "[FIL]Schedule Demo",
+        "title": "Mga Ahente ng Boses",
+        "subtitle": "Baguhin ang suporta sa telepono gamit ang mga ahente ng boses ng AI na natural pakinggan, nakakaunawa sa konteksto, at nagbibigay ng instant na tulong sa maraming wika.",
+        "signUpFree": "Mag-sign Up nang Libre",
+        "scheduleDemo": "Mag-iskedyul ng Demo",
         "natural": {
-          "title": "[FIL]Natural Voice Conversations",
-          "description": "[FIL]AI-powered voice agents that sound natural and understand context."
+          "title": "Mga Natural na Pag-uusap sa Boses",
+          "description": "Mga ahente ng boses na pinapagana ng AI na natural pakinggan at nakakaunawa sa konteksto."
         },
         "speech": {
-          "title": "[FIL]Advanced Speech Recognition",
-          "description": "[FIL]Accurate speech-to-text conversion in multiple languages and accents."
+          "title": "Advanced na Pagkilala sa Pagsasalita",
+          "description": "Tumpak na conversion ng speech-to-text sa maraming wika at accent."
         },
         "synthesis": {
-          "title": "[FIL]High-Quality Voice Synthesis",
-          "description": "[FIL]Crystal-clear, human-like voice output with emotional intelligence."
+          "title": "Mataas na Kalidad na Synthesis ng Boses",
+          "description": "Malinaw na kristal, parang tao na output ng boses na may emosyonal na katalinuhan."
         },
         "support": {
-          "title": "[FIL]24/7 Voice Support",
-          "description": "[FIL]Round-the-clock voice assistance for global customer support."
+          "title": "24/7 na Suporta sa Boses",
+          "description": "Tulong sa boses sa buong orasan para sa pandaigdigang suporta sa customer."
         },
         "multilanguage": {
-          "title": "[FIL]Multi-Language Support",
-          "description": "[FIL]Support for 50+ languages with native pronunciation."
+          "title": "Suporta sa Maraming Wika",
+          "description": "Suporta para sa 50+ na mga wika na may katutubong pagbigkas."
         },
         "routing": {
-          "title": "[FIL]Intelligent Call Routing",
-          "description": "[FIL]Smart routing to human agents when complex issues arise."
+          "title": "Matalinong Pagruruta ng Tawag",
+          "description": "Matalinong pagruruta sa mga ahente ng tao kapag lumitaw ang mga kumplikadong isyu."
         },
-        "capabilitiesTitle": "[FIL]Advanced Voice Capabilities",
-        "capabilitiesSubtitle": "[FIL]Our voice agents combine cutting-edge AI with natural language processing for human-like conversations.",
+        "capabilitiesTitle": "Mga Advanced na Kakayahan sa Boses",
+        "capabilitiesSubtitle": "Pinagsasama ng aming mga ahente ng boses ang makabagong AI sa natural na pagpoproseso ng wika para sa mga pag-uusap na parang tao.",
         "capabilities": {
           "service": {
-            "title": "[FIL]Customer Service Calls",
-            "description": "[FIL]Handle routine inquiries, order status, and basic troubleshooting"
+            "title": "Mga Tawag sa Serbisyo sa Customer",
+            "description": "Pangasiwaan ang mga regular na katanungan, katayuan ng order, at pangunahing pag-troubleshoot"
           },
           "appointments": {
-            "title": "[FIL]Appointment Scheduling",
-            "description": "[FIL]Book, reschedule, and confirm appointments automatically"
+            "title": "Pag-iiskedyul ng Appointment",
+            "description": "Awtomatikong mag-book, mag-reschedule, at magkumpirma ng mga appointment"
           },
           "orders": {
-            "title": "[FIL]Order Processing",
-            "description": "[FIL]Take orders, process payments, and confirm details"
+            "title": "Pagproseso ng Order",
+            "description": "Kumuha ng mga order, iproseso ang mga pagbabayad, at kumpirmahin ang mga detalye"
           },
           "support": {
-            "title": "[FIL]Technical Support",
-            "description": "[FIL]Guide customers through basic troubleshooting steps"
+            "title": "Teknikal na Suporta",
+            "description": "Gabayan ang mga customer sa mga pangunahing hakbang sa pag-troubleshoot"
           }
         },
-        "performanceTitle": "[FIL]Voice Agent Performance",
-        "performanceSubtitle": "[FIL]See how our voice agents perform across different types of customer interactions.",
-        "accuracyRate": "[FIL]Accuracy Rate",
-        "avgDuration": "[FIL]Avg Duration",
-        "experienceTitle": "[FIL]Experience Voice AI in Action",
-        "experienceSubtitle": "[FIL]Listen to real conversations between customers and our voice agents.",
-        "sampleTitle": "[FIL]Sample Conversation",
-        "voiceAgent": "[FIL]Voice Agent",
-        "customer": "[FIL]Customer",
-        "agentGreeting": "[FIL]Hello! Thank you for calling SeaChat[FIL] support. How can I help you today?",
-        "customerQuestion": "[FIL]Hi, I need to check the status of my recent order.",
-        "agentResponse": "[FIL]I'd be happy to help you with that. Could you please provide your order number or the email address associated with your account?",
-        "playDemo": "[FIL]Play Full Demo",
-        "moreSamples": "[FIL]More Samples",
-        "featuresTitle": "[FIL]Voice Agent Features",
+        "performanceTitle": "Pagganap ng Ahente ng Boses",
+        "performanceSubtitle": "Tingnan kung paano gumaganap ang aming mga ahente ng boses sa iba't ibang uri ng mga pakikipag-ugnayan ng customer.",
+        "accuracyRate": "Rate ng Katumpakan",
+        "avgDuration": "Avg na Tagal",
+        "experienceTitle": "Damhin ang Voice AI sa Aksyon",
+        "experienceSubtitle": "Makinig sa mga tunay na pag-uusap sa pagitan ng mga customer at ng aming mga ahente ng boses.",
+        "sampleTitle": "Halimbawang Pag-uusap",
+        "voiceAgent": "Ahente ng Boses",
+        "customer": "Customer",
+        "agentGreeting": "Kamusta! Salamat sa pagtawag sa suporta ng SeaChat. Paano kita matutulungan ngayon?",
+        "customerQuestion": "Hi, kailangan kong suriin ang katayuan ng aking kamakailang order.",
+        "agentResponse": "Masaya akong tulungan ka diyan. Maaari mo bang ibigay ang iyong numero ng order o ang email address na nauugnay sa iyong account?",
+        "playDemo": "I-play ang Buong Demo",
+        "moreSamples": "Higit pang mga Halimbawa",
+        "featuresTitle": "Mga Tampok ng Ahente ng Boses",
         "featuresList": {
-          "0": "[FIL]Natural speech processing",
-          "1": "[FIL]Multi-language support",
-          "2": "[FIL]Phone system integration",
-          "3": "[FIL]Voice sentiment analysis",
-          "4": "[FIL]Call recording and analysis",
-          "5": "[FIL]Intelligent human escalation"
+          "0": "Natural na pagpoproseso ng pagsasalita",
+          "1": "Suporta sa maraming wika",
+          "2": "Pagsasama ng sistema ng telepono",
+          "3": "Pagsusuri ng sentimyento ng boses",
+          "4": "Pag-record at pagsusuri ng tawag",
+          "5": "Matalinong pag-escalate ng tao"
         },
-        "ctaTitle": "[FIL]Ready to Transform Phone Support?",
-        "ctaSubtitle": "[FIL]Experience the future of voice customer support with AI agents that sound and feel human."
+        "ctaTitle": "Handa nang Baguhin ang Suporta sa Telepono?",
+        "ctaSubtitle": "Damhin ang hinaharap ng suporta sa customer sa boses gamit ang mga ahente ng AI na parang tao ang tunog at pakiramdam."
       }
     },
     "seo": {
-      "title": "SeaChat[FIL] - AI Chatbot & Customer Service Automation | Seasalt.ai",
-      "titleSuffix": "[FIL] - AI Chatbot & Customer Service Automation | Seasalt.ai",
-      "description": "SeaChat[FIL] is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp[FIL], websites, social media, and more."
+      "title": "SeaChat - AI Chatbot at Automation ng Serbisyo sa Customer | Seasalt.ai",
+      "titleSuffix": " - AI Chatbot at Automation ng Serbisyo sa Customer | Seasalt.ai",
+      "description": "Ang SeaChat ay isang platform ng chatbot na pinapagana ng AI na tumutulong sa mga negosyo na i-automate ang serbisyo sa customer sa maraming mga channel kabilang ang WhatsApp, mga website, social media, at higit pa."
     }
   }
 }

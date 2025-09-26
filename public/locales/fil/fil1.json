@@ -1,130 +1,130 @@
 {
   "header": {
-    "products": "[FIL]Products",
-    "solutions": "[FIL]Solutions",
-    "industries": "[FIL]Industries",
-    "channels": "[FIL]Channels",
-    "pricing": "[FIL]Pricing",
-    "compareUs": "[FIL]Compare Us",
-    "blog": "[FIL]Blog",
-    "login": "[FIL]Login",
-    "startForFree": "[FIL]Sign Up",
-    "backToChannels": "[FIL]Back to Channels",
-    "allChannelsOverview": "[FIL]All Channels Overview",
+    "products": "Mga Produkto",
+    "solutions": "Mga Solusyon",
+    "industries": "Mga Industriya",
+    "channels": "Mga Channel",
+    "pricing": "Pagpepresyo",
+    "compareUs": "Ikumpara Kami",
+    "blog": "Blog",
+    "login": "Mag-login",
+    "startForFree": "Mag-sign Up",
+    "backToChannels": "Bumalik sa Mga Channel",
+    "allChannelsOverview": "Pangkalahatang-ideya ng Lahat ng Channel",
     "solutionsDropdown": {
-      "seahealth": "[FIL]SeaHealth - Optimized Healthcare",
-      "useCases": "[FIL]Use Cases"
+      "seahealth": "SeaHealth - Na-optimize na Pangangalagang Pangkalusugan",
+      "useCases": "Mga Kaso ng Paggamit"
     },
     "useCasesDropdown": {
-      "salesMarketing": "[FIL]For Sales & Marketing",
-      "customerSupport": "[FIL]For Customer Support",
-      "aiAutomation": "[FIL]AI & Automation",
-      "smeOwners": "[FIL]For SME Owners"
+      "salesMarketing": "Para sa Sales at Marketing",
+      "customerSupport": "Para sa Suporta sa Customer",
+      "aiAutomation": "AI at Automation",
+      "smeOwners": "Para sa mga May-ari ng SME"
     },
     "channelsDropdown": {
       "whatsapp": "WhatsApp",
-      "phoneCalls": "[FIL]Phone Calls",
+      "phoneCalls": "Mga Tawag sa Telepono",
       "sms": "SMS",
-      "websiteChat": "[FIL]Website Chat",
-      "instagram": "[FIL]Instagram",
-      "facebookMessenger": "[FIL]Facebook Messenger",
-      "contactForms": "[FIL]Contact Forms",
-      "line": "[FIL]Line",
-      "websiteWidget": "[FIL]Website Widget"
+      "websiteChat": "Chat sa Website",
+      "instagram": "Instagram",
+      "facebookMessenger": "Facebook Messenger",
+      "contactForms": "Mga Form ng Pakikipag-ugnayan",
+      "line": "Line",
+      "websiteWidget": "Widget ng Website"
     },
     "comparisonsDropdown": {
-      "title": "[FIL]Comparisons",
-      "allComparisonsOverview": "[FIL]All Comparisons Overview"
+      "title": "Mga Paghahambing",
+      "allComparisonsOverview": "Pangkalahatang-ideya ng Lahat ng Paghahambing"
     },
     "compareDropdown": {
-      "allComparisonsOverview": "[FIL]All Comparisons Overview"
+      "allComparisonsOverview": "Pangkalahatang-ideya ng Lahat ng Paghahambing"
     },
-    "signIn": "[FIL]Sign In"
+    "signIn": "Mag-sign In"
   },
   "footer": {
     "company": {
-      "title": "[FIL]Company",
-      "contact": "[FIL]Contact Us",
-      "about": "[FIL]About Us",
-      "careers": "[FIL]Careers"
+      "title": "Kumpanya",
+      "contact": "Makipag-ugnayan sa Amin",
+      "about": "Tungkol sa Amin",
+      "careers": "Mga Karera"
     },
-    "copyright": "[FIL]© 2020 - {{year}} Seasalt.ai[FIL]. All rights reserved.",
-    "privacyPolicy": "[FIL]Privacy Policy",
-    "termsOfService": "[FIL]Terms of Service",
-    "security": "[FIL]Security",
+    "copyright": "© 2020 - {{year}} Seasalt.ai. Lahat ng karapatan ay nakalaan.",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "termsOfService": "Mga Tuntunin ng Serbisyo",
+    "security": "Seguridad",
     "compliance": {
-      "soc2": "SOC 2[FIL] Compliant",
-      "hipaa": "HIPAA[FIL] Available",
-      "uptime": "[FIL]99.9% Uptime"
+      "soc2": "Sumusunod sa SOC 2",
+      "hipaa": "Available ang HIPAA",
+      "uptime": "99.9% Uptime"
     },
     "cta": {
-      "title": "[FIL]Ready to Scale Your Outreach to Millions?",
-      "startFreeTrial": "[FIL]Sign Up for Free",
-      "scheduleDemo": "[FIL]Schedule Demo",
-      "subtitle": "[FIL]Join thousands of companies using SeaX[FIL] to reach more customers, generate more leads, and grow faster.",
-      "signUpNow": "[FIL]Sign Up Now"
+      "title": "Handa nang Palakihin ang Iyong Outreach sa Milyun-milyon?",
+      "startFreeTrial": "Mag-sign Up nang Libre",
+      "scheduleDemo": "Mag-iskedyul ng Demo",
+      "subtitle": "Sumali sa libu-libong kumpanya na gumagamit ng SeaX upang maabot ang mas maraming customer, makabuo ng mas maraming lead, at lumago nang mas mabilis.",
+      "signUpNow": "Mag-sign Up Ngayon"
     },
-    "tagline": "[FIL]An all-in-one contact center built for small businesses. Automate support, capture every lead, and unify all your customer conversations.",
-    "seahealth": "[FIL]SeaHealth - Optimized Healthcare",
-    "productWiki": "[FIL]Product Wiki",
-    "apiReferences": "[FIL]API References",
+    "tagline": "Isang all-in-one na contact center na binuo para sa maliliit na negosyo. I-automate ang suporta, makuha ang bawat lead, at pag-isahin ang lahat ng iyong pag-uusap sa customer.",
+    "seahealth": "SeaHealth - Na-optimize na Pangangalagang Pangkalusugan",
+    "productWiki": "Wiki ng Produkto",
+    "apiReferences": "Mga Sanggunian ng API",
     "madeWith": {
-      "text": "[FIL]Made with",
-      "inCityOf": "[FIL]in the city of"
+      "text": "Ginawa gamit ang",
+      "inCityOf": "sa lungsod ng"
     },
-    "inCityOf": "[FIL]in",
+    "inCityOf": "sa",
     "description": {
-      "company": "[FIL]Reach millions instantly. The ultimate platform for sending millions of SMS[FIL], WhatsApp[FIL] messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business."
+      "company": "Abutin ang milyun-milyon kaagad. Ang pinakahuling platform para sa pagpapadala ng milyun-milyong SMS, mga mensahe sa WhatsApp, at mga awtomatikong tawag sa telepono. Punan ang iyong pipeline, mag-drive ng kita, at palakihin ang iyong negosyo."
     },
     "section": {
-      "channels": "[FIL]Channels",
-      "solutions": "[FIL]Solutions",
-      "industries": "[FIL]Industries"
+      "channels": "Mga Channel",
+      "solutions": "Mga Solusyon",
+      "industries": "Mga Industriya"
     },
     "links": {
       "channels": {
-        "smsOverview": "SMS[FIL] Overview",
-        "smsLocal": "[FIL]Local Number (10DLC[FIL])",
-        "smsTollFree": "[FIL]Toll-Free Number",
-        "smsShortCode": "[FIL]Short Code",
-        "whatsapp": "WhatsApp[FIL] Business Platform",
-        "voice": "[FIL]Phone Call Voice"
+        "smsOverview": "Pangkalahatang-ideya ng SMS",
+        "smsLocal": "Lokal na Numero (10DLC)",
+        "smsTollFree": "Numero na Walang Bayad",
+        "smsShortCode": "Maikling Code",
+        "whatsapp": "Platform ng Negosyo ng WhatsApp",
+        "voice": "Boses ng Tawag sa Telepono"
       },
       "solutions": {
-        "leadGeneration": "[FIL]Lead Generation",
-        "marketingAutomation": "[FIL]Marketing Automation",
-        "customerEngagement": "[FIL]Customer Engagement",
-        "appointmentReminders": "[FIL]Appointment Reminders",
-        "emergencyAlerts": "[FIL]Emergency Alerts"
+        "leadGeneration": "Pagbuo ng Lead",
+        "marketingAutomation": "Automation ng Marketing",
+        "customerEngagement": "Pakikipag-ugnayan sa Customer",
+        "appointmentReminders": "Mga Paalala sa Appointment",
+        "emergencyAlerts": "Mga Alerto sa Emergency"
       },
       "industries": {
-        "ecommerceRetail": "[FIL]E-commerce & Retail",
-        "realEstate": "[FIL]Real Estate",
-        "politicalCampaigns": "[FIL]Political Campaigns",
-        "healthcare": "[FIL]Healthcare",
-        "financialServices": "[FIL]Financial Services"
+        "ecommerceRetail": "E-commerce at Retail",
+        "realEstate": "Real Estate",
+        "politicalCampaigns": "Mga Kampanyang Pampulitika",
+        "healthcare": "Pangangalagang pangkalusugan",
+        "financialServices": "Mga Serbisyo sa Pinansyal"
       },
       "company": {
-        "features": "[FIL]Features",
-        "pricing": "[FIL]Pricing",
-        "productWiki": "[FIL]Product Wiki",
-        "apiReferences": "[FIL]API References",
-        "careers": "[FIL]Careers"
+        "features": "Mga Tampok",
+        "pricing": "Pagpepresyo",
+        "productWiki": "Wiki ng Produkto",
+        "apiReferences": "Mga Sanggunian ng API",
+        "careers": "Mga Karera"
       }
     },
     "stats": {
-      "messagesDaily": "[FIL]10M+ Messages Daily",
-      "activeUsers": "[FIL]500K+ Active Users",
-      "uptime": "[FIL]99.9% Uptime"
+      "messagesDaily": "10M+ Mensahe Araw-araw",
+      "activeUsers": "500K+ Aktibong User",
+      "uptime": "99.9% Uptime"
     },
     "legal": {
-      "privacyPolicy": "[FIL]Privacy Policy",
-      "termsOfService": "[FIL]Terms of Service"
+      "privacyPolicy": "Patakaran sa Privacy",
+      "termsOfService": "Mga Tuntunin ng Serbisyo"
     },
     "contact": {
-      "phone": "[FIL]+1 (SMB)-AI-AGENT",
-      "email": "[FIL]info@seasalt.ai",
-      "location": "[FIL]Seattle, WA"
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "Seattle, WA"
     },
     "logo": {
       "alt": "SeaX"
@@ -133,1588 +133,1588 @@
       "tenDlc": "10DLC",
       "tollFree": "8XX",
       "sms": "SMS",
-      "shortCode": "[FIL]xxxxx"
+      "shortCode": "xxxxx"
     }
   },
   "hero": {
     "title": {
-      "line1": "[FIL]Stop Juggling Apps",
-      "line2": "[FIL]Unify Every Customer",
-      "line3": "[FIL]Call, WhatsApp[FIL], and Chat",
-      "line4": "[FIL]in One Simple Inbox."
+      "line1": "Itigil ang Pag-juggling ng mga App",
+      "line2": "Pag-isahin ang Bawat Customer",
+      "line3": "Tawag, WhatsApp, at Chat",
+      "line4": "sa Isang Simpleng Inbox."
     },
-    "titleWithGradient": "[FIL]Stop Juggling Apps. <1>Unify Every Customer</1>[FIL] Call, Text, WhatsApp[FIL], and Chat in One Simple Inbox.",
-    "description": "Seasalt.ai[FIL] is the all-in-one contact center built for small businesses. Automate support, capture every lead, and manage all your conversations from a single screen.",
-    "signUp": "[FIL]Sign Up",
-    "seeDemo": "[FIL]Book A Demo",
-    "trustedBy": "[FIL]Trusted by growing businesses worldwide",
-    "developerMessage": "Seasalt.ai[FIL] brings developers an agentic communication tool for the following <1>tool use</1>[FIL]:",
+    "titleWithGradient": "Itigil ang Pag-juggling ng mga App. <1>Pag-isahin ang Bawat Customer</1> Tawag, Text, WhatsApp, at Chat sa Isang Simpleng Inbox.",
+    "description": "Ang Seasalt.ai ay ang all-in-one na contact center na binuo para sa maliliit na negosyo. I-automate ang suporta, makuha ang bawat lead, at pamahalaan ang lahat ng iyong pag-uusap mula sa isang screen.",
+    "signUp": "Mag-sign Up",
+    "seeDemo": "Mag-book ng Demo",
+    "trustedBy": "Pinagkakatiwalaan ng mga lumalagong negosyo sa buong mundo",
+    "developerMessage": "Dinadala ng Seasalt.ai sa mga developer ang isang agentic na tool sa komunikasyon para sa sumusunod na <1>paggamit ng tool</1>:",
     "developerTools": {
-      "phoneUse": "[FIL]phone use",
-      "messageUse": "[FIL]message use",
-      "emailUse": "[FIL]email use",
-      "meetingUse": "[FIL]meeting use"
+      "phoneUse": "paggamit ng telepono",
+      "messageUse": "paggamit ng mensahe",
+      "emailUse": "paggamit ng email",
+      "meetingUse": "paggamit ng pulong"
     },
-    "unifiedInbox": "[FIL]Unified Inbox",
+    "unifiedInbox": "Pinag-isang Inbox",
     "appNames": {
       "whatsapp": "WhatsApp",
       "sms": "SMS",
-      "phone": "[FIL]Phone",
-      "chat": "[FIL]Chat"
+      "phone": "Telepono",
+      "chat": "Chat"
     }
   },
   "features": {
-    "mainTitle": "[FIL]The Omni-Channel Copiloted Contact Center for SMEs",
-    "mainDescription": "[FIL]Seamlessly blend AI automation with human expertise across all channels. Empower your team to deliver exceptional service and drive growth.",
+    "mainTitle": "Ang Omni-Channel Copiloted Contact Center para sa mga SME",
+    "mainDescription": "Walang putol na paghaluin ang AI automation sa kadalubhasaan ng tao sa lahat ng channel. Bigyan ng kapangyarihan ang iyong team na maghatid ng pambihirang serbisyo at mag-drive ng paglago.",
     "omniChannel": {
-      "title": "[FIL]Unified Omni-Channel Inbox",
-      "description": "[FIL]Never miss a lead. See every customer interaction from every channel in one unified view, enabling seamless human-AI collaboration and saving your team 5+ hours per week."
+      "title": "Pinag-isang Omni-Channel Inbox",
+      "description": "Huwag kailanman palampasin ang isang lead. Tingnan ang bawat pakikipag-ugnayan ng customer mula sa bawat channel sa isang pinag-isang view, na nagbibigay-daan sa tuluy-tuloy na pakikipagtulungan ng tao-AI at nakakatipid sa iyong team ng 5+ na oras bawat linggo."
     },
     "aiVoicebot": {
-      "title": "[FIL]AI Voicebot & Chatbot",
-      "description": "[FIL]Your first digital employee works 24/7. Automate up to 80% of routine queries, book 5+ appointments daily, and seamlessly handoff to human agents when needed."
+      "title": "AI Voicebot at Chatbot",
+      "description": "Ang iyong unang digital na empleyado ay gumagana 24/7. I-automate ang hanggang 80% ng mga regular na query, mag-book ng 5+ appointment araw-araw, at walang putol na i-handoff sa mga ahente ng tao kapag kinakailangan."
     },
     "voiceWhatsapp": {
-      "title": "[FIL]Native Voice & WhatsApp[FIL] Integration",
-      "description": "[FIL]Serve every customer on their preferred channel, seamlessly. Instantly see WhatsApp[FIL] chat history when they call."
+      "title": "Katutubong Pagsasama ng Boses at WhatsApp",
+      "description": "Paglingkuran ang bawat customer sa kanilang gustong channel, nang walang putol. Agad na makita ang kasaysayan ng chat sa WhatsApp kapag tumawag sila."
     },
     "outboundMarketing": {
-      "title": "[FIL]Outbound Marketing Campaigns",
-      "description": "[FIL]Create seamless, closed-loop customer journeys. Launch targeted campaigns and manage all replies on the same platform."
+      "title": "Mga Kampanya sa Outbound Marketing",
+      "description": "Lumikha ng tuluy-tuloy, closed-loop na mga paglalakbay ng customer. Maglunsad ng mga naka-target na kampanya at pamahalaan ang lahat ng mga tugon sa parehong platform."
     },
     "enterpriseSecurity": {
-      "title": "[FIL]Enterprise-Grade Security",
-      "description": "HIPAA[FIL]-compliant solution with bank-level encryption. Trust your customer data is always protected."
+      "title": "Seguridad sa Antas ng Enterprise",
+      "description": "Solusyon na sumusunod sa HIPAA na may pag-encrypt sa antas ng bangko. Magtiwala na laging protektado ang data ng iyong customer."
     },
     "predictablePricing": {
-      "title": "[FIL]Simple, Predictable Pricing",
-      "description": "[FIL]Budget with confidence. Transparent pricing means you know exactly what you'll pay each month."
+      "title": "Simple, Mahuhulaan na Pagpepresyo",
+      "description": "Magbadyet nang may kumpiyansa. Ang transparent na pagpepresyo ay nangangahulugang alam mo kung ano mismo ang babayaran mo bawat buwan."
     },
     "testimonial": {
-      "quote": "[FIL]I recommend Seasalt.ai[FIL] for its powerful knowledge base system and omni-channel support!",
-      "author": "[FIL]— Solution Architect Review"
+      "quote": "Inirerekomenda ko ang Seasalt.ai para sa malakas nitong sistema ng knowledge base at suporta sa omni-channel!",
+      "author": "— Pagsusuri ng Arkitekto ng Solusyon"
     },
     "knowledgeBase": {
-      "title": "[FIL]Knowledge Base"
+      "title": "Knowledge Base"
     }
   },
   "howItWorks": {
-    "title": "[FIL]Get Started in 3 Simple Steps",
-    "description1": "[FIL]Transform your customer communications in minutes, not months.",
-    "description2": "[FIL]No complex setup or technical knowledge required.",
+    "title": "Magsimula sa 3 Simpleng Hakbang",
+    "description1": "Baguhin ang iyong mga komunikasyon sa customer sa ilang minuto, hindi buwan.",
+    "description2": "Walang kinakailangang kumplikadong pag-setup o teknikal na kaalaman.",
     "connectYourChannels": {
-      "title": "[FIL]Connect Your Channels",
-      "description": "[FIL]Link your phone, WhatsApp[FIL], SMS[FIL], website chat, and social media in minutes. No technical expertise required."
+      "title": "Ikonekta ang Iyong mga Channel",
+      "description": "I-link ang iyong telepono, WhatsApp, SMS, chat sa website, at social media sa ilang minuto. Walang kinakailangang teknikal na kadalubhasaan."
     },
     "automateRoutineWork": {
-      "title": "[FIL]Automate Routine Work",
-      "description": "[FIL]Set up AI to handle common questions like \"Where's my order?\" and book appointments automatically."
+      "title": "I-automate ang Karaniwang Gawain",
+      "description": "I-set up ang AI upang pangasiwaan ang mga karaniwang tanong tulad ng \"Nasaan ang aking order?\" at awtomatikong mag-book ng mga appointment."
     },
     "unifyYourTeam": {
-      "title": "[FIL]Unify Your Team",
-      "description": "[FIL]Your team sees the complete conversation history when customers switch from chat to phone calls."
+      "title": "Pag-isahin ang Iyong Koponan",
+      "description": "Nakikita ng iyong team ang kumpletong kasaysayan ng pag-uusap kapag lumipat ang mga customer mula sa chat patungo sa mga tawag sa telepono."
     },
-    "signUpNow": "[FIL]Sign Up Now",
-    "setupTime": "[FIL]Setup in under 5 minutes"
+    "signUpNow": "Mag-sign Up Ngayon",
+    "setupTime": "Pag-setup sa loob ng 5 minuto"
   },
   "useCases": {
-    "title": "[FIL]Powerful Use Cases for Every Business Need",
-    "description": "[FIL]From contact centers to marketing campaigns, see how Seasalt.ai[FIL] adapts to your specific business requirements with enterprise-grade features in a simple, unified platform.",
-    "keyFeatures": "[FIL]Key Features",
+    "title": "Malakas na Mga Kaso ng Paggamit para sa Bawat Pangangailangan sa Negosyo",
+    "description": "Mula sa mga contact center hanggang sa mga kampanya sa marketing, tingnan kung paano umaangkop ang Seasalt.ai sa iyong mga partikular na kinakailangan sa negosyo na may mga tampok sa antas ng enterprise sa isang simple, pinag-isang platform.",
+    "keyFeatures": "Mga Pangunahing Tampok",
     "contactCenter": {
-      "title": "[FIL]Contact Center Operations",
-      "headline": "[FIL]Professional Contact Center with Full Call Management",
-      "description": "[FIL]Transform your business into a professional contact center with enterprise-grade features.",
+      "title": "Mga Operasyon sa Contact Center",
+      "headline": "Propesyonal na Contact Center na may Buong Pamamahala ng Tawag",
+      "description": "Gawing isang propesyonal na contact center ang iyong negosyo na may mga tampok sa antas ng enterprise.",
       "features": {
-        "ivr": "[FIL]Advanced IVR system for call routing",
-        "recording": "[FIL]Automatic call recording & transcription",
-        "voicemail": "[FIL]Intelligent voicemail with notifications",
-        "analytics": "[FIL]Real-time call analytics & reporting",
-        "dashboards": "[FIL]Agent performance dashboards",
-        "queueManagement": "[FIL]Call queue management"
+        "ivr": "Advanced na sistema ng IVR para sa pagruruta ng tawag",
+        "recording": "Awtomatikong pag-record at transkripsyon ng tawag",
+        "voicemail": "Matalinong voicemail na may mga abiso",
+        "analytics": "Real-time na analytics at pag-uulat ng tawag",
+        "dashboards": "Mga dashboard ng pagganap ng ahente",
+        "queueManagement": "Pamamahala ng pila ng tawag"
       }
     },
     "virtualReceptionist": {
-      "title": "[FIL]24/7 Virtual Receptionist",
-      "headline": "[FIL]Never Miss a Call Again with AI-Powered Reception",
-      "description": "[FIL]Deploy an intelligent voicebot that works around the clock to capture inbound calls and qualify leads.",
+      "title": "24/7 Virtual Receptionist",
+      "headline": "Huwag Kailanman Palampasin ang Isang Tawag Muli gamit ang AI-Powered na Pagtanggap",
+      "description": "Mag-deploy ng isang matalinong voicebot na gumagana sa buong orasan upang makuha ang mga papasok na tawag at maging kwalipikado ang mga lead.",
       "features": {
-        "aiVoicebot": "[FIL]AI voicebot answers calls 24/7",
-        "appointments": "[FIL]Appointment booking & scheduling",
-        "leadQualification": "[FIL]Lead qualification & routing",
-        "customGreeting": "[FIL]Custom greeting & responses",
-        "handoff": "[FIL]Seamless handoff to human agents",
-        "multiLanguage": "[FIL]Multi-language support"
+        "aiVoicebot": "Sumasagot ang AI voicebot sa mga tawag 24/7",
+        "appointments": "Pag-book at pag-iiskedyul ng appointment",
+        "leadQualification": "Kwalipikasyon at pagruruta ng lead",
+        "customGreeting": "Pasadyang pagbati at mga tugon",
+        "handoff": "Walang putol na pag-handoff sa mga ahente ng tao",
+        "multiLanguage": "Suporta sa maraming wika"
       }
     },
     "smsManagement": {
-      "title": "[FIL]Unified SMS[FIL] Management",
-      "headline": "[FIL]Manage Multiple Phone Lines & Two-Way SMS[FIL] in One Platform",
-      "description": "[FIL]Consolidate all your business phone lines and SMS[FIL] communications into a single, powerful platform.",
+      "title": "Pinag-isang Pamamahala ng SMS",
+      "headline": "Pamahalaan ang Maramihang mga Linya ng Telepono at Two-Way na SMS sa Isang Platform",
+      "description": "Pagsamahin ang lahat ng iyong mga linya ng telepono sa negosyo at mga komunikasyon sa SMS sa isang solong, malakas na platform.",
       "features": {
-        "multipleLines": "[FIL]Multiple phone lines in one dashboard",
-        "twoWaySms": "[FIL]Two-way SMS[FIL] conversations",
-        "unifiedHistory": "SMS[FIL] & call history unified",
-        "teamCollaboration": "[FIL]Team collaboration on messages",
-        "automatedResponses": "[FIL]Automated SMS[FIL] responses",
-        "numberSupport": "[FIL]Local & toll-free number support"
+        "multipleLines": "Maramihang mga linya ng telepono sa isang dashboard",
+        "twoWaySms": "Two-way na pag-uusap sa SMS",
+        "unifiedHistory": "Pinag-isang kasaysayan ng SMS at tawag",
+        "teamCollaboration": "Pakikipagtulungan ng koponan sa mga mensahe",
+        "automatedResponses": "Mga awtomatikong tugon sa SMS",
+        "numberSupport": "Suporta sa lokal at walang bayad na numero"
       }
     },
     "smsMarketing": {
-      "title": "SMS[FIL] Marketing Campaigns",
-      "headline": "[FIL]Launch Powerful A2P SMS[FIL] Campaigns with 10DLC[FIL] & Toll-Free",
-      "description": "[FIL]Execute professional SMS[FIL] marketing campaigns with high deliverability and compliance.",
+      "title": "Mga Kampanya sa Marketing sa SMS",
+      "headline": "Maglunsad ng Malakas na mga Kampanya sa A2P SMS na may 10DLC at Toll-Free",
+      "description": "Magsagawa ng mga propesyonal na kampanya sa marketing sa SMS na may mataas na deliverability at pagsunod.",
       "features": {
-        "tenDlc": "10DLC[FIL] registered campaigns",
-        "tollFree": "[FIL]Toll-free & short code support",
-        "highVolume": "[FIL]High-volume message delivery",
-        "analytics": "[FIL]Campaign performance analytics",
-        "compliance": "[FIL]Compliance & opt-out management",
-        "dripCampaigns": "[FIL]Automated drip campaigns"
+        "tenDlc": "10DLC rehistradong mga kampanya",
+        "tollFree": "Suporta sa walang bayad at maikling code",
+        "highVolume": "Paghahatid ng mensahe na may mataas na dami",
+        "analytics": "Analytics ng pagganap ng kampanya",
+        "compliance": "Pamamahala sa pagsunod at pag-opt-out",
+        "dripCampaigns": "Mga awtomatikong kampanya sa pagtulo"
       }
     },
     "whatsappBusiness": {
-      "title": "WhatsApp[FIL] Business Campaigns",
-      "headline": "[FIL]Reach Global Customers with WhatsApp[FIL] Business Platform",
-      "description": "[FIL]Launch targeted WhatsApp[FIL] campaigns using the official WhatsApp[FIL] Business Platform.",
+      "title": "Mga Kampanya sa Negosyo ng WhatsApp",
+      "headline": "Abutin ang mga Global na Customer gamit ang Platform ng Negosyo ng WhatsApp",
+      "description": "Maglunsad ng mga naka-target na kampanya sa WhatsApp gamit ang opisyal na Platform ng Negosyo ng WhatsApp.",
       "features": {
-        "apiIntegration": "WhatsApp[FIL] Business API integration",
-        "templateMessages": "[FIL]Template message campaigns",
-        "automatedChatbot": "[FIL]Automated chatbot responses",
-        "richMedia": "[FIL]Rich media message support",
-        "globalReach": "[FIL]Global customer reach",
-        "analytics": "[FIL]Conversation analytics"
+        "apiIntegration": "Pagsasama ng WhatsApp Business API",
+        "templateMessages": "Mga kampanya sa mensahe ng template",
+        "automatedChatbot": "Mga awtomatikong tugon sa chatbot",
+        "richMedia": "Suporta sa mensahe ng rich media",
+        "globalReach": "Global na abot ng customer",
+        "analytics": "Analytics ng pag-uusap"
       }
     },
     "aiSupport": {
-      "title": "[FIL]Intelligent Chatbot and Voicebot AI Support",
-      "headline": "[FIL]AI-Powered Customer Support That Never Sleeps",
-      "description": "[FIL]Deploy intelligent chatbots across all your communication channels to handle customer inquiries 24/7.",
+      "title": "Matalinong Suporta sa AI ng Chatbot at Voicebot",
+      "headline": "Suporta sa Customer na Pinapagana ng AI na Hindi Natutulog",
+      "description": "Mag-deploy ng mga matalinong chatbot sa lahat ng iyong mga channel ng komunikasyon upang pangasiwaan ang mga katanungan ng customer 24/7.",
       "features": {
-        "automated24x7": "[FIL]24/7 automated customer support",
-        "multiChannel": "[FIL]Multi-channel chatbot deployment",
-        "instantResponse": "[FIL]Instant response to common queries",
-        "humanHandoff": "[FIL]Seamless human agent handoff",
-        "continuousLearning": "[FIL]Continuous learning & improvement",
-        "knowledgeBase": "[FIL]Custom knowledge base integration"
+        "automated24x7": "24/7 awtomatikong suporta sa customer",
+        "multiChannel": "Pag-deploy ng multi-channel na chatbot",
+        "instantResponse": "Instant na tugon sa mga karaniwang query",
+        "humanHandoff": "Walang putol na pag-handoff ng ahente ng tao",
+        "continuousLearning": "Patuloy na pag-aaral at pagpapabuti",
+        "knowledgeBase": "Pagsasama ng pasadyang knowledge base"
       }
     },
     "cta": {
-      "title": "[FIL]Ready to Transform Your Business Communications?",
-      "description": "[FIL]Choose the use cases that fit your business needs. Start with our free plan and scale as you grow.",
-      "signUp": "[FIL]Sign Up",
-      "bookDemo": "[FIL]Book A Demo"
+      "title": "Handa nang Baguhin ang Iyong mga Komunikasyon sa Negosyo?",
+      "description": "Piliin ang mga kaso ng paggamit na akma sa iyong mga pangangailangan sa negosyo. Magsimula sa aming libreng plano at palakihin habang lumalaki ka.",
+      "signUp": "Mag-sign Up",
+      "bookDemo": "Mag-book ng Demo"
     }
   },
   "phoneBanner": {
-    "callText": "[FIL]Call",
-    "phoneNumber": "[FIL]+1 (SMB)-AI-AGENT",
-    "bookingText": "[FIL]to book a meeting with the SeaVoice[FIL] AI agent.",
-    "availability": "[FIL]Available 24/7"
+    "callText": "Tawagan",
+    "phoneNumber": "+1 (SMB)-AI-AGENT",
+    "bookingText": "upang mag-book ng isang pulong sa ahente ng SeaVoice AI.",
+    "availability": "Available 24/7"
   },
   "problemSolution": {
-    "title": "[FIL]Losing Leads in a Maze of Apps and Inboxes?",
-    "description": "[FIL]Your customers are trying to reach you everywhere. A missed message is a missed sale. Seasalt.ai[FIL] brings all your communications into one place, so you never miss an opportunity.",
+    "title": "Nawawalan ng mga Lead sa isang Maze ng mga App at Inbox?",
+    "description": "Sinusubukan kang maabot ng iyong mga customer kahit saan. Ang isang napalampas na mensahe ay isang napalampas na benta. Dinadala ng Seasalt.ai ang lahat ng iyong mga komunikasyon sa isang lugar, kaya hindi ka kailanman mapalampas ng isang pagkakataon.",
     "problems": {
       "fragmented": {
-        "title": "[FIL]Fragmented Conversations",
-        "description": "[FIL]Jumping between WhatsApp[FIL], phone logs, and web chat creates chaos and wastes time."
+        "title": "Pira-pirasong Pag-uusap",
+        "description": "Ang paglukso sa pagitan ng WhatsApp, mga log ng telepono, at web chat ay lumilikha ng kaguluhan at nagsasayang ng oras."
       },
       "lostRevenue": {
-        "title": "[FIL]Lost Revenue",
-        "description": "[FIL]Missed messages after-hours and slow responses mean lost leads and frustrated customers."
+        "title": "Nawalang Kita",
+        "description": "Ang mga napalampas na mensahe pagkatapos ng oras at mabagal na mga tugon ay nangangahulugang nawalang mga lead at bigo na mga customer."
       },
       "operational": {
-        "title": "[FIL]Operational Overload",
-        "description": "[FIL]Your team is stretched thin managing too many tools instead of focusing on customers."
+        "title": "Sobrang karga sa pagpapatakbo",
+        "description": "Ang iyong koponan ay nakaunat na manipis na namamahala ng masyadong maraming mga tool sa halip na tumuon sa mga customer."
       }
     },
     "solution": {
-      "title": "Seasalt.ai[FIL]: Your Omni-Channel Copiloted Solution",
-      "hubTitle": "[FIL]Unified Omni-Channel Hub",
-      "subtitle": "[FIL]AI & Human Agents, 24/7",
+      "title": "Seasalt.ai: Ang Iyong Omni-Channel Copiloted na Solusyon",
+      "hubTitle": "Pinag-isang Omni-Channel Hub",
+      "subtitle": "Mga Ahente ng AI at Tao, 24/7",
       "tabs": {
-        "support": "[FIL]Support",
-        "marketing": "[FIL]Marketing"
+        "support": "Suporta",
+        "marketing": "Marketing"
       },
       "features": {
         "marketing": {
-          "title": "[FIL]Copilot Your Marketing Campaigns",
-          "description": "[FIL]Acquire more customers with AI-driven outbound campaigns and smart lead nurturing."
+          "title": "Copilot ang Iyong mga Kampanya sa Marketing",
+          "description": "Makuha ng mas maraming customer gamit ang mga kampanya sa outbound na hinimok ng AI at matalinong pag-aalaga ng lead."
         },
         "support": {
-          "title": "[FIL]Autopilot Your Customer Support",
-          "description": "[FIL]Reduce support costs with 24/7 AI agents handling routine queries and seamless human handoff."
+          "title": "Autopilot ang Iyong Suporta sa Customer",
+          "description": "Bawasan ang mga gastos sa suporta sa mga ahente ng AI 24/7 na humahawak sa mga regular na query at walang putol na pag-handoff ng tao."
         },
         "human": {
-          "title": "[FIL]Never Lose the Human Touch",
-          "description": "[FIL]Choose your automation level: Human-only, AI Copilot, or Full Autopilot based on your needs."
+          "title": "Huwag Kailanman Mawalan ng Human Touch",
+          "description": "Piliin ang iyong antas ng automation: Tao-lamang, AI Copilot, o Buong Autopilot batay sa iyong mga pangangailangan."
         }
       },
-      "cta": "[FIL]Use Seasalt.ai[FIL] to Solve This"
+      "cta": "Gamitin ang Seasalt.ai upang Malutas Ito"
     },
     "mockData": {
       "supportTickets": {
         "sarah": {
           "name": "Sarah Johnson",
-          "description": "[FIL]Phone call about order status",
-          "timeAgo": "[FIL]2m ago"
+          "description": "Tawag sa telepono tungkol sa katayuan ng order",
+          "timeAgo": "2m ang nakalipas"
         },
         "mike": {
-          "name": "[FIL]Mike Chen",
-          "description": "WhatsApp[FIL]: Shipping question",
-          "timeAgo": "[FIL]5m ago"
+          "name": "Mike Chen",
+          "description": "WhatsApp: Tanong sa pagpapadala",
+          "timeAgo": "5m ang nakalipas"
         },
         "lisa": {
           "name": "Lisa Park",
-          "description": "[FIL]Website chat: Product inquiry",
-          "timeAgo": "[FIL]8m ago"
+          "description": "Chat sa website: Pagtatanong sa produkto",
+          "timeAgo": "8m ang nakalipas"
         },
         "david": {
           "name": "David Kim",
-          "description": "[FIL]Support call: Technical issue",
-          "timeAgo": "[FIL]12m ago"
+          "description": "Tawag sa suporta: Teknikal na isyu",
+          "timeAgo": "12m ang nakalipas"
         }
       },
       "campaigns": {
         "blackFriday": {
-          "name": "[FIL]Black Friday Campaign",
-          "description": "SMS[FIL]: 2,847 sent • 312 replies",
-          "result": "[FIL]+47 leads"
+          "name": "Kampanya sa Black Friday",
+          "description": "SMS: 2,847 na naipadala • 312 na mga tugon",
+          "result": "+47 na mga lead"
         },
         "whatsappLaunch": {
-          "name": "WhatsApp[FIL] Product Launch",
-          "description": "[FIL]1,523 messages • 89 conversations",
-          "result": "[FIL]+23 sales"
+          "name": "Paglunsad ng Produkto sa WhatsApp",
+          "description": "1,523 na mga mensahe • 89 na mga pag-uusap",
+          "result": "+23 na mga benta"
         },
         "cartRecovery": {
-          "name": "[FIL]Abandoned Cart Recovery",
-          "description": "[FIL]Email + SMS[FIL]: 156 recovered",
-          "result": "[FIL]+2k"
+          "name": "Pagbawi ng Inabandunang Cart",
+          "description": "Email + SMS: 156 na nabawi",
+          "result": "+2k"
         },
         "followUp": {
-          "name": "[FIL]Follow-up Call Campaign",
-          "description": "[FIL]AI Voicebot: 89 calls • 34 appts",
-          "result": "[FIL]+34 appts"
+          "name": "Kampanya sa Pag-follow-up na Tawag",
+          "description": "AI Voicebot: 89 na mga tawag • 34 na mga appt",
+          "result": "+34 na mga appt"
         }
       }
     }
   },
   "supportPlan": {
-    "title": "[FIL]Support Plan",
-    "priceNote": "[FIL]*All prices are in US dollars",
+    "title": "Plano ng Suporta",
+    "priceNote": "*Lahat ng presyo ay nasa dolyar ng US",
     "trial": {
-      "title": "[FIL]Trial",
-      "price": "[FIL]$0",
+      "title": "Pagsubok",
+      "price": "$0",
       "features": {
-        "diy": "[FIL]DIY with product wiki",
-        "email": "[FIL]Email (info@seasalt.ai)",
-        "chat": "[FIL]or chat with customer support (on this page)"
+        "diy": "DIY na may wiki ng produkto",
+        "email": "Email (info@seasalt.ai)",
+        "chat": "o makipag-chat sa suporta sa customer (sa pahinang ito)"
       }
     },
     "launch": {
-      "title": "[FIL]Launch",
-      "startsAt": "[FIL]Starts at",
-      "minPrice": "[FIL]$500",
-      "upTo": "[FIL]up to",
-      "maxPrice": "[FIL]$10,000",
-      "duration": "[FIL]per month for 3 months",
-      "description": "[FIL]With the Launch Support Plan, our team is committed to providing professional guidance in the following areas:",
+      "title": "Paglunsad",
+      "startsAt": "Nagsisimula sa",
+      "minPrice": "$500",
+      "upTo": "hanggang sa",
+      "maxPrice": "$10,000",
+      "duration": "bawat buwan sa loob ng 3 buwan",
+      "description": "Sa Launch Support Plan, nakatuon ang aming koponan sa pagbibigay ng propesyonal na gabay sa mga sumusunod na lugar:",
       "features": {
         "meetings": {
-          "title": "[FIL]Unlimited 1-on-1 Meetings:",
-          "description": "[FIL]Personalized sessions with the SeaChat[FIL] team."
+          "title": "Walang limitasyong 1-on-1 na mga Pulong:",
+          "description": "Mga personalized na session sa koponan ng SeaChat."
         },
         "promptTuning": {
-          "title": "[FIL]Prompt Tuning:",
-          "description": "[FIL]Customization for both chat and voice applications."
+          "title": "Pag-tune ng Prompt:",
+          "description": "Pag-customize para sa parehong mga application sa chat at boses."
         },
         "guidance": {
-          "title": "[FIL]Design and Technical Guidance:",
-          "description": "[FIL]Expert advice on design and technical aspects."
+          "title": "Gabay sa Disenyo at Teknikal:",
+          "description": "Payo ng dalubhasa sa mga aspeto ng disenyo at teknikal."
         },
         "launchSupport": {
-          "title": "[FIL]AI Agent Launch Support:",
-          "description": "[FIL]Comprehensive assistance throughout the launch process."
+          "title": "Suporta sa Paglunsad ng Ahente ng AI:",
+          "description": "Komprehensibong tulong sa buong proseso ng paglunsad."
         },
         "marketStrategy": {
-          "title": "[FIL]Go-to-Market Strategy:",
-          "description": "[FIL]Strategic planning for market entry."
+          "title": "Diskarte sa Go-to-Market:",
+          "description": "Estratehikong pagpaplano para sa pagpasok sa merkado."
         },
         "successfulLaunch": {
-          "title": "[FIL]Successful AI Agent Launch:",
-          "description": "[FIL]Achieve a successful launch within 4-6 weeks."
+          "title": "Matagumpay na Paglunsad ng Ahente ng AI:",
+          "description": "Makamit ang isang matagumpay na paglunsad sa loob ng 4-6 na linggo."
         },
         "postLaunch": {
-          "title": "[FIL]Post-Launch Iteration and Improvement:",
-          "description": "[FIL]Continuous enhancement based on usage and feedback."
+          "title": "Pag-ulit at Pagpapabuti pagkatapos ng Paglunsad:",
+          "description": "Patuloy na pagpapahusay batay sa paggamit at feedback."
         },
         "operational": {
-          "title": "[FIL]Operational Stability:",
-          "description": "[FIL]Establish standard operating procedures for the long-term operation of AI agents."
+          "title": "Katatagan sa Pagpapatakbo:",
+          "description": "Magtatag ng mga karaniwang pamamaraan sa pagpapatakbo para sa pangmatagalang operasyon ng mga ahente ng AI."
         }
       }
     }
   },
   "productDropdown": {
     "mainSite": {
-      "title": "Seasalt.ai[FIL] Main Site",
-      "description": "[FIL]All products and solutions"
+      "title": "Pangunahing Site ng Seasalt.ai",
+      "description": "Lahat ng mga produkto at solusyon"
     },
-    "productsLabel": "[FIL]Products"
+    "productsLabel": "Mga Produkto"
   },
   "industries": {
-    "title": "[FIL]Serve Every Industry with Confidence",
-    "description": "[FIL]From healthcare to fintech, our platform adapts to your industry's unique requirements with specialized features and compliance standards.",
+    "title": "Paglingkuran ang Bawat Industriya nang may Kumpiyansa",
+    "description": "Mula sa pangangalagang pangkalusugan hanggang sa fintech, umaangkop ang aming platform sa iyong mga partikular na kinakailangan sa industriya na may mga dalubhasang tampok at pamantayan sa pagsunod.",
     "cta": {
-      "title": "[FIL]Ready to Revolutionize Your Industry?",
-      "description": "[FIL]Join industry leaders who trust Seasalt.ai[FIL] to deliver exceptional customer experiences while meeting specific regulatory and operational requirements.",
-      "signUp": "[FIL]Sign Up",
-      "bookDemo": "[FIL]Book A Demo"
+      "title": "Handa nang Baguhin ang Iyong Industriya?",
+      "description": "Sumali sa mga pinuno ng industriya na nagtitiwala sa Seasalt.ai na maghatid ng mga pambihirang karanasan sa customer habang natutugunan ang mga partikular na kinakailangan sa regulasyon at pagpapatakbo.",
+      "signUp": "Mag-sign Up",
+      "bookDemo": "Mag-book ng Demo"
     },
     "template": {
       "nav": {
-        "backToHome": "[FIL]← Back to Home"
+        "backToHome": "← Bumalik sa Home"
       },
       "hero": {
-        "title": "[FIL]AI Solutions for",
-        "signUp": "[FIL]Get Started Free",
-        "seeDemo": "[FIL]See Demo",
-        "hipaaOffering": "[FIL]Also available: HIPAA[FIL]-compliant"
+        "title": "Mga Solusyon sa AI para sa",
+        "signUp": "Magsimula nang Libre",
+        "seeDemo": "Tingnan ang Demo",
+        "hipaaOffering": "Available din: Sumusunod sa HIPAA"
       },
       "seo": {
-        "titleSuffix": "[FIL]Solutions - Seasalt.ai",
-        "descriptionPrefix": "[FIL]See how Seasalt.ai[FIL] helps",
-        "descriptionSuffix": "[FIL]businesses improve customer communications and drive growth."
+        "titleSuffix": "Mga Solusyon - Seasalt.ai",
+        "descriptionPrefix": "Tingnan kung paano nakakatulong ang Seasalt.ai",
+        "descriptionSuffix": "mapabuti ng mga negosyo ang mga komunikasyon sa customer at mag-drive ng paglago."
       },
       "ui": {
-        "seahealthAlt": "[FIL]SeaHealth",
-        "testimonialsPrefix": "[FIL]What"
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "Ano"
       },
       "benefits": {
-        "title": "[FIL]Why Choose Seasalt.ai[FIL] for",
-        "description": "[FIL]Our AI-powered platform streamlines communications and automates workflows for"
+        "title": "Bakit Pumili ng Seasalt.ai para sa",
+        "description": "Pinapadali ng aming platform na pinapagana ng AI ang mga komunikasyon at nag-o-automate ng mga daloy ng trabaho para sa"
       },
       "useCases": {
-        "title": "[FIL]Common Use Cases",
+        "title": "Mga Karaniwang Kaso ng Paggamit",
         "description": {
-          "start": "[FIL]Discover how our platform transforms",
-          "end": "[FIL]operations with intelligent automation"
+          "start": "Tuklasin kung paano binabago ng aming platform ang",
+          "end": "mga operasyon na may matalinong automation"
         },
         "customerSupport": {
-          "title": "[FIL]24/7 Customer Support",
-          "description": "[FIL]Provide instant responses to customer inquiries across all channels"
+          "title": "24/7 Suporta sa Customer",
+          "description": "Magbigay ng mga instant na tugon sa mga katanungan ng customer sa lahat ng channel"
         },
         "leadGeneration": {
-          "title": "[FIL]Lead Generation",
-          "description": "[FIL]Capture and qualify leads automatically with AI-powered conversations"
+          "title": "Pagbuo ng Lead",
+          "description": "Awtomatikong makuha at maging kwalipikado ang mga lead gamit ang mga pag-uusap na pinapagana ng AI"
         },
         "analytics": {
-          "title": "[FIL]Analytics & Insights",
-          "description": "[FIL]Track performance and gain insights into customer interactions"
+          "title": "Analytics at Mga Insight",
+          "description": "Subaybayan ang pagganap at makakuha ng mga insight sa mga pakikipag-ugnayan ng customer"
         },
-        "subtitle": "[FIL]Discover how our platform supports every aspect of educational management",
+        "subtitle": "Tuklasin kung paano sinusuportahan ng aming platform ang bawat aspeto ng pamamahala sa edukasyon",
         "case1": {
-          "title": "[FIL]Student Information Systems",
-          "description": "[FIL]Centralize student records, grades, and academic progress tracking"
+          "title": "Mga Sistema ng Impormasyon ng Mag-aaral",
+          "description": "Isentralisa ang mga talaan ng mag-aaral, mga marka, at pagsubaybay sa pag-unlad ng akademiko"
         },
         "case2": {
-          "title": "[FIL]Learning Management",
-          "description": "[FIL]Deliver courses, track progress, and manage educational content"
+          "title": "Pamamahala sa Pag-aaral",
+          "description": "Maghatid ng mga kurso, subaybayan ang pag-unlad, at pamahalaan ang nilalamang pang-edukasyon"
         },
         "case3": {
-          "title": "[FIL]Administrative Tools",
-          "description": "[FIL]Streamline enrollment, scheduling, and institutional operations"
+          "title": "Mga Tool sa Pang-administratibo",
+          "description": "Padaliin ang pagpapatala, pag-iiskedyul, at mga operasyon sa institusyon"
         }
       },
       "testimonials": {
-        "title": "[FIL]Companies Are Saying",
-        "quote1": "Seasalt.ai[FIL] has transformed our customer service operations. Response times are down 80% and satisfaction is at an all-time high.",
-        "author1": "[FIL]Sarah Chen",
-        "company1": "[FIL]Customer Success Manager",
-        "quote2": "[FIL]The AI automation has saved us countless hours. We can focus on growing our business instead of managing repetitive tasks.",
+        "title": "Sinasabi ng mga Kumpanya",
+        "quote1": "Binago ng Seasalt.ai ang aming mga operasyon sa serbisyo sa customer. Bumaba ng 80% ang mga oras ng pagtugon at nasa pinakamataas na antas ang kasiyahan.",
+        "author1": "Sarah Chen",
+        "company1": "Tagapamahala ng Tagumpay ng Customer",
+        "quote2": "Ang automation ng AI ay nakatipid sa amin ng hindi mabilang na oras. Maaari kaming tumuon sa pagpapalago ng aming negosyo sa halip na pamahalaan ang mga paulit-ulit na gawain.",
         "author2": "Michael Rodriguez",
-        "company2": "[FIL]Operations Director",
-        "subtitle": "[FIL]See how institutions are transforming their operations",
+        "company2": "Direktor ng Operasyon",
+        "subtitle": "Tingnan kung paano binabago ng mga institusyon ang kanilang mga operasyon",
         "testimonial1": {
-          "quote": "[FIL]This platform has revolutionized how we manage our school operations. Student data is now centralized and accessible.",
+          "quote": "Binago ng platform na ito kung paano namin pinamamahalaan ang aming mga operasyon sa paaralan. Ang data ng mag-aaral ay sentralisado na ngayon at naa-access.",
           "author": "Dr. Sarah Johnson",
-          "position": "[FIL]Principal, Lincoln Elementary School"
+          "position": "Punong-guro, Lincoln Elementary School"
         },
         "testimonial2": {
-          "quote": "[FIL]The learning management features have made remote and hybrid learning seamless for our students and faculty.",
+          "quote": "Ang mga tampok sa pamamahala ng pag-aaral ay ginawang tuluy-tuloy ang remote at hybrid na pag-aaral para sa aming mga mag-aaral at guro.",
           "author": "Prof. Michael Chen",
-          "position": "[FIL]Dean of Technology, State University"
+          "position": "Dean ng Teknolohiya, State University"
         },
         "testimonial3": {
-          "quote": "[FIL]Our administrative efficiency has improved dramatically. Everything from enrollment to reporting is now streamlined.",
+          "quote": "Ang aming kahusayan sa administratibo ay bumuti nang malaki. Lahat mula sa pagpapatala hanggang sa pag-uulat ay pinadali na ngayon.",
           "author": "Maria Rodriguez",
-          "position": "[FIL]Administrator, Community College District"
+          "position": "Administrator, Community College District"
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Transform Your Business?",
-        "description": "[FIL]Join thousands of companies that trust Seasalt.ai[FIL] to manage their customer communications efficiently and securely.",
-        "signUp": "[FIL]Start Free Trial",
-        "scheduleDemo": "[FIL]Schedule Demo",
-        "seahealthLink": "[FIL]Explore HIPAA[FIL]-Compliant Healthcare Solutions",
+        "title": "Handa nang Baguhin ang Iyong Negosyo?",
+        "description": "Sumali sa libu-libong kumpanya na nagtitiwala sa Seasalt.ai na pamahalaan ang kanilang mga komunikasyon sa customer nang mahusay at ligtas.",
+        "signUp": "Magsimula ng Libreng Pagsubok",
+        "scheduleDemo": "Mag-iskedyul ng Demo",
+        "seahealthLink": "Galugarin ang mga Solusyon sa Pangangalagang Pangkalusugan na Sumusunod sa HIPAA",
         "buttons": {
-          "primary": "[FIL]Start Free Trial",
-          "secondary": "[FIL]Schedule Demo",
-          "contact": "[FIL]Contact Sales"
+          "primary": "Magsimula ng Libreng Pagsubok",
+          "secondary": "Mag-iskedyul ng Demo",
+          "contact": "Makipag-ugnayan sa Sales"
         }
       },
       "solutions": {
-        "title": "[FIL]Solutions"
+        "title": "Mga Solusyon"
       }
     }
   },
   "channels": {
-    "title": "[FIL]Connect Every Customer Channel",
-    "description": "[FIL]Unify all your customer communications in one platform. From WhatsApp[FIL] to phone calls, SMS[FIL] to social media - manage every conversation from a single dashboard.",
+    "title": "Ikonekta ang Bawat Channel ng Customer",
+    "description": "Pag-isahin ang lahat ng iyong mga komunikasyon sa customer sa isang platform. Mula sa WhatsApp hanggang sa mga tawag sa telepono, SMS hanggang sa social media - pamahalaan ang bawat pag-uusap mula sa isang dashboard.",
     "whatsapp": {
-      "title": "WhatsApp[FIL] Business",
-      "description": "[FIL]Connect with customers on the world's most popular messaging platform",
+      "title": "Negosyo sa WhatsApp",
+      "description": "Kumonekta sa mga customer sa pinakasikat na platform ng pagmemensahe sa mundo",
       "seo": {
-        "title": "WhatsApp[FIL] Business Integration - Seasalt.ai",
-        "description": "[FIL]Connect your WhatsApp[FIL] Business account to Seasalt.ai[FIL] for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide."
+        "title": "Pagsasama ng Negosyo sa WhatsApp - Seasalt.ai",
+        "description": "Ikonekta ang iyong WhatsApp Business account sa Seasalt.ai para sa mga pag-uusap na pinapagana ng AI, mga bulk na kampanya, at tuluy-tuloy na suporta sa ahente ng tao. Abutin ang 2+ bilyong user sa buong mundo."
       },
       "nav": {
-        "backToChannels": "[FIL]Back to Channels"
+        "backToChannels": "Bumalik sa Mga Channel"
       },
       "hero": {
         "title": {
-          "prefix": "[FIL]Transform WhatsApp[FIL] into Your",
-          "highlight": "[FIL]Business Command Center"
+          "prefix": "Gawing Iyong",
+          "highlight": "Business Command Center ang WhatsApp"
         },
-        "description": "[FIL]Connect your WhatsApp[FIL] Business account to Seasalt.ai[FIL] for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide.",
-        "primaryCta": "[FIL]Connect WhatsApp[FIL] in 10 Minutes",
-        "secondaryCta": "[FIL]See Demo",
-        "demoTitle": "WhatsApp[FIL] Business",
+        "description": "Ikonekta ang iyong WhatsApp Business account sa Seasalt.ai para sa mga pag-uusap na pinapagana ng AI, mga bulk na kampanya, at tuluy-tuloy na suporta sa ahente ng tao. Abutin ang 2+ bilyong user sa buong mundo.",
+        "primaryCta": "Ikonekta ang WhatsApp sa loob ng 10 Minuto",
+        "secondaryCta": "Tingnan ang Demo",
+        "demoTitle": "Negosyo sa WhatsApp",
         "demoMessages": {
-          "customer1": "[FIL]Customer: \"Where's my order #12345?",
-          "bot1": "[FIL]AI Bot: \"Your order is out for delivery and will arrive today by 6 PM. Track it here: [link]",
-          "customer2": "[FIL]Customer: \"Can I change the delivery address?",
-          "bot2": "[FIL]AI Bot: \"Let me connect you with a human agent for address changes..."
+          "customer1": "Customer: \"Nasaan ang aking order #12345?",
+          "bot1": "AI Bot: \"Ang iyong order ay nasa labas para sa paghahatid at darating ngayon ng 6 PM. Subaybayan ito dito: [link]",
+          "customer2": "Customer: \"Maaari ko bang baguhin ang address ng paghahatid?",
+          "bot2": "AI Bot: \"Hayaan mo akong ikonekta ka sa isang ahente ng tao para sa mga pagbabago sa address..."
         }
       },
       "features": {
-        "title": "[FIL]Key Features",
-        "description": "[FIL]Everything you need to turn WhatsApp[FIL] into a powerful business communication platform",
+        "title": "Mga Pangunahing Tampok",
+        "description": "Lahat ng kailangan mo upang gawing isang malakas na platform ng komunikasyon sa negosyo ang WhatsApp",
         "aiResponses": {
-          "title": "[FIL]AI-Powered Responses",
-          "description": "[FIL]Automated customer service with natural language processing that understands context and intent"
+          "title": "Mga Tugon na Pinapagana ng AI",
+          "description": "Awtomatikong serbisyo sa customer na may natural na pagpoproseso ng wika na nakakaunawa sa konteksto at layunin"
         },
         "bulkCampaigns": {
-          "title": "[FIL]Bulk Campaign Management",
-          "description": "[FIL]Send template messages to thousands of contacts with advanced targeting and scheduling"
+          "title": "Pamamahala ng Bulk na Kampanya",
+          "description": "Magpadala ng mga mensahe ng template sa libu-libong mga contact na may advanced na pag-target at pag-iiskedyul"
         },
         "humanHandoff": {
-          "title": "[FIL]Human Agent Handoff",
-          "description": "[FIL]Seamless transition from bot to live agent with /live_agent command and full conversation history"
+          "title": "Paghahatid ng Ahente ng Tao",
+          "description": "Walang putol na paglipat mula sa bot patungo sa live na ahente na may /live_agent command at buong kasaysayan ng pag-uusap"
         },
         "metaIntegration": {
-          "title": "Meta[FIL] Business Integration",
-          "description": "[FIL]Full access to WhatsApp[FIL] Business Platform features with enterprise-grade security"
+          "title": "Pagsasama ng Negosyo sa Meta",
+          "description": "Buong access sa mga tampok ng WhatsApp Business Platform na may seguridad sa antas ng enterprise"
         }
       },
       "setup": {
-        "title": "[FIL]Setup Process Visualization",
-        "description": "[FIL]Step-by-step guide to connect your WhatsApp[FIL] Business account with enterprise-grade security",
+        "title": "Pag-visualize ng Proseso ng Pag-setup",
+        "description": "Gabay sa bawat hakbang upang ikonekta ang iyong WhatsApp Business account na may seguridad sa antas ng enterprise",
         "steps": {
-          "0": "[FIL]Create Meta[FIL] Developer Account",
-          "1": "[FIL]Configure WhatsApp[FIL] Business API",
-          "2": "[FIL]Set up webhook endpoints",
-          "3": "[FIL]Generate access tokens",
-          "4": "[FIL]Test message delivery",
-          "5": "[FIL]Launch your first campaign"
+          "0": "Gumawa ng Meta Developer Account",
+          "1": "I-configure ang WhatsApp Business API",
+          "2": "I-set up ang mga webhook endpoint",
+          "3": "Bumuo ng mga access token",
+          "4": "Subukan ang paghahatid ng mensahe",
+          "5": "Ilunsad ang iyong unang kampanya"
         },
         "security": {
-          "title": "[FIL]Enterprise-Grade Security",
-          "description": "[FIL]Your WhatsApp[FIL] integration includes end-to-end encryption, secure token management, and compliance with Meta[FIL]'s business policies. All data is protected with bank-level security."
+          "title": "Seguridad sa Antas ng Enterprise",
+          "description": "Kasama sa iyong pagsasama sa WhatsApp ang end-to-end na pag-encrypt, secure na pamamahala ng token, at pagsunod sa mga patakaran sa negosyo ng Meta. Lahat ng data ay protektado ng seguridad sa antas ng bangko."
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Connect WhatsApp[FIL]?",
-        "description": "[FIL]Join thousands of businesses using WhatsApp[FIL] to provide better customer service and drive more sales.",
-        "button": "[FIL]Start Integration"
+        "title": "Handa nang Ikonekta ang WhatsApp?",
+        "description": "Sumali sa libu-libong negosyo na gumagamit ng WhatsApp upang magbigay ng mas mahusay na serbisyo sa customer at mag-drive ng mas maraming benta.",
+        "button": "Simulan ang Pagsasama"
       }
     },
     "voice": {
-      "title": "[FIL]Voice & Phone Calls",
-      "description": "[FIL]Professional phone system with AI voicebot and human agent support"
+      "title": "Mga Tawag sa Boses at Telepono",
+      "description": "Propesyonal na sistema ng telepono na may AI voicebot at suporta sa ahente ng tao"
     },
     "sms": {
-      "title": "SMS[FIL] Messaging",
-      "description": "[FIL]Reach customers instantly with personalized SMS[FIL] campaigns",
+      "title": "Pagmemensahe sa SMS",
+      "description": "Abutin agad ang mga customer gamit ang mga personalized na kampanya sa SMS",
       "seo": {
-        "title": "SMS[FIL] Marketing Platform - Seasalt.ai",
-        "description": "[FIL]Reach customers instantly with personalized SMS[FIL] campaigns and automated responses. 98% open rates and global delivery to 200+ countries. Start your SMS[FIL] marketing today."
+        "title": "Platform ng Marketing sa SMS - Seasalt.ai",
+        "description": "Abutin agad ang mga customer gamit ang mga personalized na kampanya sa SMS at mga awtomatikong tugon. 98% na mga rate ng pagbubukas at pandaigdigang paghahatid sa 200+ na mga bansa. Simulan ang iyong marketing sa SMS ngayon."
       },
       "nav": {
-        "backToChannels": "[FIL]Back to Channels"
+        "backToChannels": "Bumalik sa Mga Channel"
       },
       "hero": {
-        "title": "SMS[FIL] Marketing That",
-        "description": "[FIL]Reach customers instantly with personalized SMS[FIL] campaigns and automated responses. 98% open rates and global delivery to 200+ countries.",
-        "primaryCta": "[FIL]Start SMS[FIL] Campaigns",
-        "secondaryCta": "[FIL]See Demo",
+        "title": "Marketing sa SMS Na",
+        "description": "Abutin agad ang mga customer gamit ang mga personalized na kampanya sa SMS at mga awtomatikong tugon. 98% na mga rate ng pagbubukas at pandaigdigang paghahatid sa 200+ na mga bansa.",
+        "primaryCta": "Simulan ang mga Kampanya sa SMS",
+        "secondaryCta": "Tingnan ang Demo",
         "campaign": {
-          "title": "SMS[FIL] Campaign",
+          "title": "Kampanya sa SMS",
           "flashSale": {
-            "title": "[FIL]📱 Campaign: Flash Sale",
-            "sent": "[FIL]2,847 messages sent"
+            "title": "📱 Kampanya: Flash Sale",
+            "sent": "2,847 na mensahe ang naipadala"
           },
           "delivered": {
-            "title": "[FIL]✅ Delivered: 2,834",
-            "rate": "[FIL]99.5% delivery rate"
+            "title": "✅ Naihatid: 2,834",
+            "rate": "99.5% na rate ng paghahatid"
           },
           "replies": {
-            "title": "[FIL]💬 Replies: 312",
-            "rate": "[FIL]11% response rate"
+            "title": "💬 Mga Tugon: 312",
+            "rate": "11% na rate ng pagtugon"
           },
           "conversions": {
-            "title": "[FIL]🛒 Conversions: 47",
-            "revenue": "[FIL]$12,400 revenue"
+            "title": "🛒 Mga Conversion: 47",
+            "revenue": "$12,400 na kita"
           }
         },
-        "titleHighlight": "[FIL]Actually Converts",
+        "titleHighlight": "Talagang Nagko-convert",
         "cta": {
-          "primary": "[FIL]Start SMS[FIL] Campaigns",
-          "secondary": "[FIL]See Demo"
+          "primary": "Simulan ang mga Kampanya sa SMS",
+          "secondary": "Tingnan ang Demo"
         },
         "dashboard": {
-          "title": "SMS[FIL] Campaign",
-          "campaign": "[FIL]📱 Campaign: Flash Sale",
-          "campaignSent": "[FIL]2,847 messages sent",
-          "delivered": "[FIL]✅ Delivered: 2,834",
-          "deliveryRate": "[FIL]99.5% delivery rate",
-          "replies": "[FIL]💬 Replies: 312",
-          "responseRate": "[FIL]11% response rate",
-          "conversions": "[FIL]🛒 Conversions: 47",
-          "revenue": "[FIL]$12,400 revenue"
+          "title": "Kampanya sa SMS",
+          "campaign": "📱 Kampanya: Flash Sale",
+          "campaignSent": "2,847 na mensahe ang naipadala",
+          "delivered": "✅ Naihatid: 2,834",
+          "deliveryRate": "99.5% na rate ng paghahatid",
+          "replies": "💬 Mga Tugon: 312",
+          "responseRate": "11% na rate ng pagtugon",
+          "conversions": "🛒 Mga Conversion: 47",
+          "revenue": "$12,400 na kita"
         }
       },
       "features": {
-        "title": "[FIL]Compliance & Delivery",
-        "description": "[FIL]Enterprise-grade SMS[FIL] platform with global reach and automatic compliance management",
+        "title": "Pagsunod at Paghahatid",
+        "description": "Platform ng SMS sa antas ng enterprise na may pandaigdigang abot at awtomatikong pamamahala sa pagsunod",
         "globalReach": {
-          "title": "[FIL]Global Reach",
-          "description": "SMS[FIL] delivery to 200+ countries with local number support and carrier optimization"
+          "title": "Pandaigdigang Abot",
+          "description": "Paghahatid ng SMS sa 200+ na mga bansa na may suporta sa lokal na numero at pag-optimize ng carrier"
         },
         "compliance": {
-          "title": "[FIL]Compliance Tools",
-          "description": "TCPA[FIL] and GDPR[FIL] compliance features with automatic opt-out management"
+          "title": "Mga Tool sa Pagsunod",
+          "description": "Mga tampok sa pagsunod sa TCPA at GDPR na may awtomatikong pamamahala sa pag-opt-out"
         },
         "analytics": {
-          "title": "[FIL]Delivery Analytics",
-          "description": "[FIL]Real-time delivery tracking, response rates, and campaign performance metrics"
+          "title": "Analytics sa Paghahatid",
+          "description": "Real-time na pagsubaybay sa paghahatid, mga rate ng pagtugon, at mga sukatan ng pagganap ng kampanya"
         },
         "scheduling": {
-          "title": "[FIL]Smart Scheduling",
-          "description": "[FIL]Timezone-aware sending with optimal timing based on recipient behavior"
+          "title": "Matalinong Pag-iiskedyul",
+          "description": "Pagpapadala na may kamalayan sa timezone na may pinakamainam na timing batay sa pag-uugali ng tatanggap"
         }
       },
       "useCases": {
-        "title": "[FIL]Proven Use Cases",
-        "description": "[FIL]See how businesses use SMS[FIL] to drive engagement and revenue",
+        "title": "Mga Subok na Kaso ng Paggamit",
+        "description": "Tingnan kung paano ginagamit ng mga negosyo ang SMS upang mag-drive ng pakikipag-ugnayan at kita",
         "marketing": {
-          "title": "[FIL]Marketing Campaigns",
-          "description": "[FIL]Promotional messages with high open rates",
-          "stats": "[FIL]98% open rate"
+          "title": "Mga Kampanya sa Marketing",
+          "description": "Mga mensahe sa promosyon na may mataas na mga rate ng pagbubukas",
+          "stats": "98% na rate ng pagbubukas"
         },
         "appointments": {
-          "title": "[FIL]Appointment Reminders",
-          "description": "[FIL]Reduce no-shows with automated reminders",
-          "stats": "[FIL]25% fewer no-shows"
+          "title": "Mga Paalala sa Appointment",
+          "description": "Bawasan ang mga hindi pagdating gamit ang mga awtomatikong paalala",
+          "stats": "25% na mas kaunting hindi pagdating"
         },
         "orders": {
-          "title": "[FIL]Order Updates",
-          "description": "[FIL]Keep customers informed about their orders",
-          "stats": "[FIL]90% satisfaction"
+          "title": "Mga Update sa Order",
+          "description": "Panatilihing may kaalaman ang mga customer tungkol sa kanilang mga order",
+          "stats": "90% na kasiyahan"
         },
         "support": {
-          "title": "[FIL]Customer Support",
-          "description": "[FIL]Two-way conversations for quick support",
-          "stats": "[FIL]5x faster resolution"
+          "title": "Suporta sa Customer",
+          "description": "Two-way na pag-uusap para sa mabilis na suporta",
+          "stats": "5x na mas mabilis na paglutas"
         }
       },
       "builder": {
-        "title": "[FIL]Advanced Campaign Builder",
-        "description": "[FIL]Create sophisticated SMS[FIL] campaigns with drag-and-drop automation and smart targeting",
+        "title": "Advanced na Tagabuo ng Kampanya",
+        "description": "Lumikha ng mga sopistikadong kampanya sa SMS na may drag-and-drop na automation at matalinong pag-target",
         "segmentation": {
-          "title": "[FIL]Smart Segmentation",
-          "description": "[FIL]Target customers based on behavior, location, and preferences"
+          "title": "Matalinong Pagse-segment",
+          "description": "I-target ang mga customer batay sa pag-uugali, lokasyon, at mga kagustuhan"
         },
         "timing": {
-          "title": "[FIL]Perfect Timing",
-          "description": "[FIL]AI-powered send time optimization for maximum engagement"
+          "title": "Perpektong Timing",
+          "description": "Pag-optimize ng oras ng pagpapadala na pinapagana ng AI para sa maximum na pakikipag-ugnayan"
         },
         "analytics": {
-          "title": "[FIL]Real-time Analytics",
-          "description": "[FIL]Track delivery, opens, clicks, and conversions in real-time"
+          "title": "Real-time na Analytics",
+          "description": "Subaybayan ang paghahatid, mga pagbubukas, mga pag-click, at mga conversion sa real-time"
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Launch Your SMS[FIL] Campaigns?",
-        "description": "[FIL]Join thousands of businesses using SMS[FIL] to drive higher engagement and revenue. Start with our free trial.",
-        "button": "[FIL]Sign Up"
+        "title": "Handa nang Ilunsad ang Iyong mga Kampanya sa SMS?",
+        "description": "Sumali sa libu-libong negosyo na gumagamit ng SMS upang mag-drive ng mas mataas na pakikipag-ugnayan at kita. Magsimula sa aming libreng pagsubok.",
+        "button": "Mag-sign Up"
       },
-      "backToChannels": "[FIL]Back to Channels"
+      "backToChannels": "Bumalik sa Mga Channel"
     },
     "website": {
-      "title": "[FIL]Website Chat Widget",
-      "description": "[FIL]Turn website visitors into conversations with AI-powered chat"
+      "title": "Widget ng Chat sa Website",
+      "description": "Gawing mga pag-uusap ang mga bisita sa website gamit ang chat na pinapagana ng AI"
     },
     "cta": {
-      "exploreAll": "[FIL]Explore All Channels",
-      "subtitle": "[FIL]See how all 9 channels work together seamlessly"
+      "exploreAll": "Galugarin ang Lahat ng Channel",
+      "subtitle": "Tingnan kung paano gumagana nang walang putol ang lahat ng 9 na channel"
     },
     "phoneCalls": {
       "seo": {
-        "title": "[FIL]Professional Phone System - Seasalt.ai",
-        "description": "[FIL]Empower your agents with a cloud-based dialpad for inbound and outbound calls, powered by Twilio[FIL] Gold Partnership and AI voice automation. Scale your business communication."
+        "title": "Propesyonal na Sistema ng Telepono - Seasalt.ai",
+        "description": "Bigyan ng kapangyarihan ang iyong mga ahente ng isang cloud-based na dialpad para sa mga papasok at papalabas na tawag, na pinapagana ng Twilio Gold Partnership at AI voice automation. Palakihin ang iyong komunikasyon sa negosyo."
       },
       "nav": {
-        "backToChannels": "[FIL]Back to Channels"
+        "backToChannels": "Bumalik sa Mga Channel"
       },
       "hero": {
         "title": {
-          "prefix": "[FIL]Professional Phone System That",
-          "highlight": "[FIL]Scales with Your Business"
+          "prefix": "Propesyonal na Sistema ng Telepono Na",
+          "highlight": "Nag-i-scale sa Iyong Negosyo"
         },
-        "description": "[FIL]Empower your agents with a cloud-based dialpad for inbound and outbound calls, powered by our Twilio[FIL] Gold Partnership and AI voice automation.",
-        "primaryCta": "[FIL]Start Making Calls Today",
-        "secondaryCta": "[FIL]See Demo",
+        "description": "Bigyan ng kapangyarihan ang iyong mga ahente ng isang cloud-based na dialpad para sa mga papasok at papalabas na tawag, na pinapagana ng aming Twilio Gold Partnership at AI voice automation.",
+        "primaryCta": "Simulan ang Paggawa ng mga Tawag Ngayon",
+        "secondaryCta": "Tingnan ang Demo",
         "dialpad": {
-          "title": "[FIL]Agent Dialpad",
-          "callButton": "[FIL]Call",
-          "endCallButton": "[FIL]End Call"
+          "title": "Dialpad ng Ahente",
+          "callButton": "Tawagan",
+          "endCallButton": "Tapusin ang Tawag"
         }
       },
       "features": {
-        "title": "[FIL]Key Features",
-        "description": "[FIL]Everything your team needs for professional phone communication",
+        "title": "Mga Pangunahing Tampok",
+        "description": "Lahat ng kailangan ng iyong koponan para sa propesyonal na komunikasyon sa telepono",
         "humanDialpad": {
-          "title": "[FIL]Human Agent Dialpad",
-          "description": "[FIL]Full-featured cloud dialpad for making and receiving calls with contact management"
+          "title": "Dialpad ng Ahente ng Tao",
+          "description": "Full-featured na cloud dialpad para sa paggawa at pagtanggap ng mga tawag na may pamamahala sa contact"
         },
         "aiVoiceBot": {
-          "title": "[FIL]AI Voice Bot Integration",
-          "description": "[FIL]Automated call handling with natural handoff to human agents when needed"
+          "title": "Pagsasama ng AI Voice Bot",
+          "description": "Awtomatikong paghawak ng tawag na may natural na pag-handoff sa mga ahente ng tao kapag kinakailangan"
         },
         "multiAgent": {
-          "title": "[FIL]Multi-Agent Support",
-          "description": "[FIL]Round robin system distributes calls across available agents automatically"
+          "title": "Suporta sa Maramihang Ahente",
+          "description": "Ang sistema ng round robin ay awtomatikong namamahagi ng mga tawag sa mga available na ahente"
         },
         "analytics": {
-          "title": "[FIL]Call Analytics",
-          "description": "[FIL]Comprehensive reporting on call performance, outcomes, and agent productivity"
+          "title": "Analytics ng Tawag",
+          "description": "Komprehensibong pag-uulat sa pagganap ng tawag, mga kinalabasan, at pagiging produktibo ng ahente"
         }
       },
       "partnership": {
-        "title": "Twilio[FIL] Partnership Benefits",
-        "description": "[FIL]Built on the world's most trusted communications platform",
+        "title": "Mga Benepisyo ng Pakikipagsosyo sa Twilio",
+        "description": "Binuo sa pinakapinagkakatiwalaang platform ng komunikasyon sa mundo",
         "goldPartner": {
-          "title": "[FIL]Gold Partner Status",
-          "benefit1": "[FIL]Gold Partner Status with direct Twilio[FIL] Flex access",
-          "benefit2": "[FIL]Enterprise-Grade Reliability on proven infrastructure",
-          "benefit3": "[FIL]Global Reach - make calls in 200+ countries",
-          "benefit4": "[FIL]Quick Deployment - agents on calls in under 10 days"
+          "title": "Katayuan ng Gold Partner",
+          "benefit1": "Katayuan ng Gold Partner na may direktang access sa Twilio Flex",
+          "benefit2": "Pagiging Maaasahan sa Antas ng Enterprise sa napatunayang imprastraktura",
+          "benefit3": "Pandaigdigang Abot - gumawa ng mga tawag sa 200+ na mga bansa",
+          "benefit4": "Mabilis na Pag-deploy - mga ahente sa mga tawag sa loob ng 10 araw"
         },
         "global": {
-          "title": "[FIL]Global Capabilities",
+          "title": "Mga Pandaigdigang Kakayahan",
           "countries": {
-            "title": "[FIL]200+ Countries",
-            "description": "[FIL]Make and receive calls worldwide"
+            "title": "200+ na mga Bansa",
+            "description": "Gumawa at tumanggap ng mga tawag sa buong mundo"
           },
           "uptime": {
-            "title": "[FIL]99.95% Uptime",
-            "description": "[FIL]Enterprise-grade reliability"
+            "title": "99.95% Uptime",
+            "description": "Pagiging maaasahan sa antas ng enterprise"
           },
           "setup": {
-            "title": "[FIL]10-Day Setup",
-            "description": "[FIL]Quick deployment for your team"
+            "title": "10-Araw na Pag-setup",
+            "description": "Mabilis na pag-deploy para sa iyong koponan"
           }
         }
       },
       "useCases": {
-        "title": "[FIL]Use Cases",
-        "description": "[FIL]See how different teams use our phone system to drive results",
+        "title": "Mga Kaso ng Paggamit",
+        "description": "Tingnan kung paano ginagamit ng iba't ibang mga koponan ang aming sistema ng telepono upang mag-drive ng mga resulta",
         "sales": {
-          "title": "[FIL]Sales Teams",
-          "description": "[FIL]Outbound prospecting with auto dialer efficiency"
+          "title": "Mga Koponan sa Pagbebenta",
+          "description": "Outbound na paghahanap na may kahusayan sa auto dialer"
         },
         "support": {
-          "title": "[FIL]Customer Support",
-          "description": "[FIL]Inbound call handling with AI screening"
+          "title": "Suporta sa Customer",
+          "description": "Paghawak ng papasok na tawag na may AI screening"
         },
         "appointments": {
-          "title": "[FIL]Appointment Setting",
-          "description": "[FIL]Automated calling with human confirmation"
+          "title": "Pagtatakda ng Appointment",
+          "description": "Awtomatikong pagtawag na may kumpirmasyon ng tao"
         },
         "followup": {
-          "title": "[FIL]Follow-up Campaigns",
-          "description": "[FIL]Mass calling with personalized agent conversations"
+          "title": "Mga Kampanya sa Pag-follow-up",
+          "description": "Mass calling na may mga personalized na pag-uusap ng ahente"
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Upgrade Your Phone System?",
-        "description": "[FIL]Get your team on calls in under 10 days with enterprise-grade reliability and AI-powered automation.",
-        "button": "[FIL]Start Setup"
+        "title": "Handa nang I-upgrade ang Iyong Sistema ng Telepono?",
+        "description": "Ilagay ang iyong koponan sa mga tawag sa loob ng 10 araw na may pagiging maaasahan sa antas ng enterprise at automation na pinapagana ng AI.",
+        "button": "Simulan ang Pag-setup"
       }
     },
     "websiteChat": {
       "navigation": {
-        "backToChannels": "[FIL]Back to Channels"
+        "backToChannels": "Bumalik sa Mga Channel"
       },
       "hero": {
         "title": {
-          "prefix": "[FIL]Turn Website Visitors into",
-          "highlight": "[FIL]Conversations"
+          "prefix": "Gawing",
+          "highlight": "Mga Pag-uusap ang mga Bisita sa Website"
         },
-        "description": "[FIL]Add a powerful AI chat widget to your website in under 5 minutes. Capture leads, provide instant support, and never miss an opportunity.",
+        "description": "Magdagdag ng isang malakas na AI chat widget sa iyong website sa loob ng 5 minuto. Makuha ang mga lead, magbigay ng instant na suporta, at huwag kailanman palampasin ang isang pagkakataon.",
         "cta": {
-          "primary": "[FIL]Get Your Free Widget",
-          "secondary": "[FIL]Book A Demo"
+          "primary": "Kunin ang Iyong Libreng Widget",
+          "secondary": "Mag-book ng Demo"
         },
         "widget": {
-          "title": "[FIL]Website Chat Widget",
+          "title": "Widget ng Chat sa Website",
           "welcome": {
-            "greeting": "[FIL]👋 Welcome!",
-            "question": "[FIL]How can we help you today?"
+            "greeting": "👋 Maligayang pagdating!",
+            "question": "Paano ka namin matutulungan ngayon?"
           },
           "visitor": {
-            "message": "[FIL]Visitor: \"Do you offer free shipping?\""
+            "message": "Bisita: \"Nag-aalok ba kayo ng libreng pagpapadala?"
           },
           "ai": {
-            "response": "[FIL]AI: \"Yes! Free shipping on orders over $50. Would you like to see our current promotions?\""
+            "response": "AI: \"Oo! Libreng pagpapadala sa mga order na higit sa $50. Gusto mo bang makita ang aming mga kasalukuyang promosyon?"
           },
           "button": {
-            "yes": "[FIL]Yes, show me",
-            "no": "[FIL]No thanks"
+            "yes": "Oo, ipakita sa akin",
+            "no": "Hindi, salamat"
           }
         }
       },
       "features": {
-        "title": "[FIL]Key Features",
-        "subtitle": "[FIL]Everything you need to engage website visitors and convert them into customers",
+        "title": "Mga Pangunahing Tampok",
+        "subtitle": "Lahat ng kailangan mo upang makipag-ugnayan sa mga bisita sa website at i-convert sila sa mga customer",
         "noCodeSetup": {
-          "title": "[FIL]No-Code Setup",
-          "description": "[FIL]Add to any website in under 5 minutes without technical knowledge required"
+          "title": "Pag-setup na Walang Code",
+          "description": "Idagdag sa anumang website sa loob ng 5 minuto nang hindi nangangailangan ng teknikal na kaalaman"
         },
         "customBranding": {
-          "title": "[FIL]Custom Branding",
-          "description": "[FIL]Match your brand with custom colors, fonts, and messaging styles"
+          "title": "Pasadyang Pagba-brand",
+          "description": "Itugma ang iyong brand sa mga pasadyang kulay, font, at mga istilo ng pagmemensahe"
         },
         "leadCapture": {
-          "title": "[FIL]Lead Capture",
-          "description": "[FIL]Automatically collect visitor information and qualify leads in real-time"
+          "title": "Pagkuha ng Lead",
+          "description": "Awtomatikong kolektahin ang impormasyon ng bisita at maging kwalipikado ang mga lead sa real-time"
         },
         "instantResponses": {
-          "title": "[FIL]Instant Responses",
-          "description": "[FIL]AI-powered responses provide immediate help to website visitors 24/7"
+          "title": "Mga Instant na Tugon",
+          "description": "Ang mga tugon na pinapagana ng AI ay nagbibigay ng agarang tulong sa mga bisita sa website 24/7"
         }
       },
       "platforms": {
-        "title": "[FIL]Works with Every Platform",
-        "subtitle": "[FIL]Easy integration with all major website builders and platforms"
+        "title": "Gumagana sa Bawat Platform",
+        "subtitle": "Madaling pagsasama sa lahat ng mga pangunahing tagabuo ng website at platform"
       },
       "customization": {
-        "title": "[FIL]Customization Showcase",
-        "subtitle": "[FIL]Make the widget truly yours with extensive customization options",
+        "title": "Showcase ng Pag-customize",
+        "subtitle": "Gawing tunay na sa iyo ang widget na may malawak na mga pagpipilian sa pag-customize",
         "positionSize": {
-          "title": "[FIL]Position & Size",
-          "description": "[FIL]Choose corner placement, size, and visibility settings"
+          "title": "Posisyon at Sukat",
+          "description": "Piliin ang paglalagay sa sulok, laki, at mga setting ng visibility"
         },
         "colorsFonts": {
-          "title": "[FIL]Colors & Fonts",
-          "description": "[FIL]Match your brand colors and typography perfectly"
+          "title": "Mga Kulay at Font",
+          "description": "Itugma nang perpekto ang mga kulay at typography ng iyong brand"
         },
         "welcomeMessages": {
-          "title": "[FIL]Welcome Messages",
-          "description": "[FIL]Customize greeting messages and conversation starters"
+          "title": "Mga Mensahe ng Maligayang Pagdating",
+          "description": "I-customize ang mga mensahe ng pagbati at mga nagsisimula ng pag-uusap"
         },
         "triggerRules": {
-          "title": "[FIL]Trigger Rules",
-          "description": "[FIL]Set when and where the widget appears to visitors"
+          "title": "Mga Panuntunan sa Pag-trigger",
+          "description": "Itakda kung kailan at saan lilitaw ang widget sa mga bisita"
         },
         "realTimePreview": {
-          "title": "[FIL]Real-time Preview",
-          "description": "[FIL]See your changes instantly with our live preview feature. Customize colors, positioning, and messages while seeing exactly how it will look on your website."
+          "title": "Real-time na Preview",
+          "description": "Tingnan agad ang iyong mga pagbabago sa aming tampok na live na preview. I-customize ang mga kulay, pagpoposisyon, at mga mensahe habang nakikita kung paano ito eksaktong magmumukha sa iyong website."
         }
       },
       "analytics": {
-        "title": "[FIL]Powerful Analytics",
-        "subtitle": "[FIL]Track visitor engagement, conversion rates, and chat performance with detailed analytics",
-        "conversations": "[FIL]Conversations",
-        "conversionRate": "[FIL]Conversion Rate",
-        "responseTime": "[FIL]Response Time",
-        "satisfaction": "[FIL]Satisfaction"
+        "title": "Malakas na Analytics",
+        "subtitle": "Subaybayan ang pakikipag-ugnayan ng bisita, mga rate ng conversion, at pagganap ng chat na may detalyadong analytics",
+        "conversations": "Mga Pag-uusap",
+        "conversionRate": "Rate ng Conversion",
+        "responseTime": "Oras ng Pagtugon",
+        "satisfaction": "Kasiyahan"
       },
       "cta": {
-        "title": "[FIL]Ready to Add Chat to Your Website?",
-        "description": "[FIL]Get your custom chat widget in minutes. No coding required, full customization available.",
-        "button": "[FIL]Get Widget Code"
+        "title": "Handa nang Magdagdag ng Chat sa Iyong Website?",
+        "description": "Kunin ang iyong pasadyang chat widget sa ilang minuto. Walang kinakailangang coding, available ang buong pag-customize.",
+        "button": "Kunin ang Widget Code"
       }
     },
     "instagram": {
       "navigation": {
-        "backToChannels": "[FIL]Back to Channels"
+        "backToChannels": "Bumalik sa Mga Channel"
       },
       "hero": {
         "title": {
-          "prefix": "[FIL]Scale Your",
-          "highlight": "[FIL]Instagram Customer Service"
+          "prefix": "Palakihin ang Iyong",
+          "highlight": "Serbisyo sa Customer sa Instagram"
         },
-        "subtitle": "[FIL]Handle thousands of Instagram DMs with AI automation while maintaining personal touch. Perfect for brands, influencers, and businesses building communities.",
+        "subtitle": "Pangasiwaan ang libu-libong mga DM sa Instagram na may AI automation habang pinapanatili ang personal na ugnayan. Perpekto para sa mga brand, influencer, at negosyo na nagtatayo ng mga komunidad.",
         "cta": {
-          "primary": "[FIL]Automate Instagram DMs",
-          "secondary": "[FIL]See Demo"
+          "primary": "I-automate ang mga DM sa Instagram",
+          "secondary": "Tingnan ang Demo"
         },
         "demo": {
-          "title": "[FIL]Instagram DMs",
+          "title": "Mga DM sa Instagram",
           "user1": {
-            "handle": "[FIL]@sarah_style",
-            "message": "[FIL]Love this dress! What sizes do you have?"
+            "handle": "@sarah_style",
+            "message": "Gustung-gusto ko ang damit na ito! Anong mga sukat ang mayroon ka?"
           },
           "ai1": {
-            "response": "[FIL]AI: \"Hi Sarah! 😍 That dress is available in XS-XL. Would you like me to check stock in your size?"
+            "response": "AI: \"Hi Sarah! 😍 Available ang damit na iyon sa XS-XL. Gusto mo bang suriin ko ang stock sa iyong sukat?"
           },
           "user2": {
-            "handle": "[FIL]@mike_fitness",
-            "message": "[FIL]Can you help me with my order?"
+            "handle": "@mike_fitness",
+            "message": "Maaari mo ba akong tulungan sa aking order?"
           },
           "ai2": {
-            "response": "[FIL]AI: \"Of course! Let me connect you with our support team..."
+            "response": "AI: \"Siyempre! Hayaan mo akong ikonekta ka sa aming koponan sa suporta..."
           }
         }
       },
       "visualFirst": {
-        "title": "[FIL]Visual-First Approach",
-        "subtitle": "[FIL]Instagram is all about visuals. Our AI understands images and provides contextual responses"
+        "title": "Diskarte na Visual-First",
+        "subtitle": "Ang Instagram ay tungkol sa mga visual. Nauunawaan ng aming AI ang mga imahe at nagbibigay ng mga tugon sa konteksto"
       },
       "features": {
         "imageRecognition": {
-          "title": "[FIL]Image Recognition",
-          "description": "[FIL]AI understanding of product images in DMs for intelligent responses and recommendations"
+          "title": "Pagkilala sa Imahe",
+          "description": "Pag-unawa ng AI sa mga imahe ng produkto sa mga DM para sa mga matalinong tugon at rekomendasyon"
         },
         "storyIntegration": {
-          "title": "[FIL]Story Integration",
-          "description": "[FIL]Automated responses to story interactions, polls, and questions from your audience"
+          "title": "Pagsasama ng Kuwento",
+          "description": "Mga awtomatikong tugon sa mga pakikipag-ugnayan sa kuwento, mga botohan, at mga tanong mula sa iyong madla"
         },
         "influencerSupport": {
-          "title": "[FIL]Influencer Support",
-          "description": "[FIL]Tools for managing high-volume DM conversations and brand partnerships"
+          "title": "Suporta sa Influencer",
+          "description": "Mga tool para sa pamamahala ng mga pag-uusap sa DM na may mataas na dami at mga pakikipagsosyo sa brand"
         },
         "smartAutomation": {
-          "title": "[FIL]Smart Automation",
-          "description": "[FIL]AI-powered responses that maintain your brand voice and personality"
+          "title": "Matalinong Automation",
+          "description": "Mga tugon na pinapagana ng AI na nagpapanatili sa boses at personalidad ng iyong brand"
         }
       },
       "useCases": {
-        "title": "[FIL]Perfect for Every Instagram Business",
-        "subtitle": "[FIL]From small businesses to major influencers, see how Instagram automation drives results",
+        "title": "Perpekto para sa Bawat Negosyo sa Instagram",
+        "subtitle": "Mula sa maliliit na negosyo hanggang sa mga pangunahing influencer, tingnan kung paano nag-drive ng mga resulta ang automation ng Instagram",
         "ecommerce": {
-          "title": "[FIL]E-commerce Brands",
-          "description": "[FIL]Product inquiries and order support",
-          "metric": "[FIL]40% faster response"
+          "title": "Mga Brand ng E-commerce",
+          "description": "Mga katanungan sa produkto at suporta sa order",
+          "metric": "40% na mas mabilis na pagtugon"
         },
         "influencers": {
-          "title": "[FIL]Influencers",
-          "description": "[FIL]Fan engagement and collaboration requests",
-          "metric": "[FIL]10x more conversations"
+          "title": "Mga Influencer",
+          "description": "Pakikipag-ugnayan sa tagahanga at mga kahilingan sa pakikipagtulungan",
+          "metric": "10x na mas maraming pag-uusap"
         },
         "localBusiness": {
-          "title": "[FIL]Local Businesses",
-          "description": "[FIL]Appointment booking and customer service",
-          "metric": "[FIL]60% more bookings"
+          "title": "Mga Lokal na Negosyo",
+          "description": "Pag-book ng appointment at serbisyo sa customer",
+          "metric": "60% na mas maraming booking"
         },
         "contentCreators": {
-          "title": "[FIL]Content Creators",
-          "description": "[FIL]Community management and feedback",
-          "metric": "[FIL]95% satisfaction rate"
+          "title": "Mga Tagalikha ng Nilalaman",
+          "description": "Pamamahala ng komunidad at feedback",
+          "metric": "95% na rate ng kasiyahan"
         }
       },
       "businessIntegration": {
-        "title": "[FIL]Instagram Business Integration",
-        "subtitle": "[FIL]Full integration with Instagram Business accounts for professional customer service",
+        "title": "Pagsasama ng Negosyo sa Instagram",
+        "subtitle": "Buong pagsasama sa mga Instagram Business account para sa propesyonal na serbisyo sa customer",
         "analyticsIntegration": {
-          "title": "[FIL]Analytics Integration",
-          "description": "[FIL]Connect with Instagram Insights for complete performance tracking"
+          "title": "Pagsasama ng Analytics",
+          "description": "Kumonekta sa Instagram Insights para sa kumpletong pagsubaybay sa pagganap"
         },
         "audienceInsights": {
-          "title": "[FIL]Audience Insights",
-          "description": "[FIL]Understand your audience better with integrated demographic data"
+          "title": "Mga Insight sa Audience",
+          "description": "Mas maunawaan ang iyong audience gamit ang pinagsamang data ng demograpiko"
         },
         "engagementTracking": {
-          "title": "[FIL]Engagement Tracking",
-          "description": "[FIL]Monitor story interactions, post engagement, and DM performance"
+          "title": "Pagsubaybay sa Pakikipag-ugnayan",
+          "description": "Subaybayan ang mga pakikipag-ugnayan sa kuwento, pakikipag-ugnayan sa post, at pagganap ng DM"
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Scale Your Instagram Presence?",
-        "subtitle": "[FIL]Join thousands of brands and influencers using AI to provide better customer service and build stronger communities on Instagram.",
-        "primary": "[FIL]Start Automation",
-        "secondary": "[FIL]See Demo"
+        "title": "Handa nang Palakihin ang Iyong Presensya sa Instagram?",
+        "subtitle": "Sumali sa libu-libong mga brand at influencer na gumagamit ng AI upang magbigay ng mas mahusay na serbisyo sa customer at bumuo ng mas matibay na mga komunidad sa Instagram.",
+        "primary": "Simulan ang Automation",
+        "secondary": "Tingnan ang Demo"
       }
     },
     "facebookMessenger": {
       "navigation": {
-        "backToChannels": "[FIL]Back to Channels"
+        "backToChannels": "Bumalik sa Mga Channel"
       },
       "hero": {
-        "title": "[FIL]Turn Facebook Messenger into a",
-        "titleHighlight": "[FIL]Sales Machine",
-        "subtitle": "[FIL]Engage your Facebook audience with AI-powered conversations that convert followers into customers. Integrate with Facebook Shop for seamless social commerce.",
+        "title": "Gawing isang",
+        "titleHighlight": "Sales Machine ang Facebook Messenger",
+        "subtitle": "Makipag-ugnayan sa iyong audience sa Facebook gamit ang mga pag-uusap na pinapagana ng AI na nagko-convert ng mga tagasunod sa mga customer. Isama sa Facebook Shop para sa tuluy-tuloy na social commerce.",
         "cta": {
-          "primary": "[FIL]Connect Messenger Now",
-          "secondary": "[FIL]See Demo"
+          "primary": "Ikonekta ang Messenger Ngayon",
+          "secondary": "Tingnan ang Demo"
         },
         "demo": {
-          "title": "[FIL]Facebook Messenger",
-          "customerQuery": "[FIL]Customer: \"Do you have this in size M?",
-          "aiResponse1": "[FIL]AI: \"Yes! Size M is available. Here's the product link with current pricing 👇",
-          "productName": "[FIL]Summer Dress - Size M",
-          "productPrice": "[FIL]$49.99 • Free shipping",
-          "customerQuery2": "[FIL]Customer: \"Perfect! Can I get 20% off?",
-          "aiResponse2": "[FIL]AI: \"I can offer you 15% off with code MESSENGER15! Would you like to complete your order?"
+          "title": "Facebook Messenger",
+          "customerQuery": "Customer: \"Mayroon ka ba nito sa sukat na M?",
+          "aiResponse1": "AI: \"Oo! Available ang sukat na M. Narito ang link ng produkto na may kasalukuyang pagpepresyo 👇",
+          "productName": "Damit sa Tag-init - Sukat M",
+          "productPrice": "$49.99 • Libreng pagpapadala",
+          "customerQuery2": "Customer: \"Perpekto! Maaari ba akong makakuha ng 20% diskwento?",
+          "aiResponse2": "AI: \"Maaari kitang bigyan ng 15% diskwento gamit ang code na MESSENGER15! Gusto mo bang kumpletuhin ang iyong order?"
         }
       },
       "features": {
-        "title": "[FIL]Social Commerce Features",
-        "subtitle": "[FIL]Turn your Facebook presence into a powerful sales channel with integrated commerce features",
+        "title": "Mga Tampok sa Social Commerce",
+        "subtitle": "Gawing isang malakas na channel sa pagbebenta ang iyong presensya sa Facebook na may pinagsamang mga tampok sa commerce",
         "shopIntegration": {
-          "title": "[FIL]Facebook Shop Integration",
-          "description": "[FIL]Direct product recommendations in chat with seamless shopping experience"
+          "title": "Pagsasama ng Facebook Shop",
+          "description": "Direktang mga rekomendasyon ng produkto sa chat na may tuluy-tuloy na karanasan sa pamimili"
         },
         "leadGeneration": {
-          "title": "[FIL]Lead Generation",
-          "description": "[FIL]Automated lead capture from Messenger conversations with CRM sync"
+          "title": "Pagbuo ng Lead",
+          "description": "Awtomatikong pagkuha ng lead mula sa mga pag-uusap sa Messenger na may pag-sync ng CRM"
         },
         "socialProof": {
-          "title": "[FIL]Social Proof",
-          "description": "[FIL]Customer testimonials and reviews integration for trust building"
+          "title": "Patunay sa Lipunan",
+          "description": "Pagsasama ng mga testimonial at review ng customer para sa pagbuo ng tiwala"
         },
         "instantResponses": {
-          "title": "[FIL]Instant Responses",
-          "description": "[FIL]AI-powered responses that engage your Facebook audience 24/7"
+          "title": "Mga Instant na Tugon",
+          "description": "Mga tugon na pinapagana ng AI na nakikipag-ugnayan sa iyong audience sa Facebook 24/7"
         }
       },
       "socialCommerce": {
-        "title": "[FIL]Complete Social Commerce Solution",
-        "subtitle": "[FIL]Everything you need to sell directly through Facebook Messenger",
+        "title": "Kumpletong Solusyon sa Social Commerce",
+        "subtitle": "Lahat ng kailangan mo upang magbenta nang direkta sa pamamagitan ng Facebook Messenger",
         "productCatalog": {
-          "title": "[FIL]Product Catalog Sync",
-          "description": "[FIL]Automatically sync your Facebook Shop products for instant recommendations"
+          "title": "Pag-sync ng Catalog ng Produkto",
+          "description": "Awtomatikong i-sync ang iyong mga produkto sa Facebook Shop para sa mga instant na rekomendasyon"
         },
         "cartRecovery": {
-          "title": "[FIL]Cart Recovery",
-          "description": "[FIL]Re-engage customers who abandoned their shopping carts with personalized messages"
+          "title": "Pagbawi ng Cart",
+          "description": "Muling makipag-ugnayan sa mga customer na nag-iwan ng kanilang mga shopping cart na may mga personalized na mensahe"
         },
         "orderTracking": {
-          "title": "[FIL]Order Tracking",
-          "description": "[FIL]Provide real-time order updates and shipping information through Messenger"
+          "title": "Pagsubaybay sa Order",
+          "description": "Magbigay ng mga real-time na update sa order at impormasyon sa pagpapadala sa pamamagitan ng Messenger"
         },
         "customerReviews": {
-          "title": "[FIL]Customer Reviews",
-          "description": "[FIL]Collect and showcase customer reviews to build trust and social proof"
+          "title": "Mga Review ng Customer",
+          "description": "Kolektahin at ipakita ang mga review ng customer upang bumuo ng tiwala at patunay sa lipunan"
         }
       },
       "businessEcosystem": {
-        "title": "[FIL]Facebook Business Ecosystem Integration",
-        "subtitle": "[FIL]Seamlessly connect with your entire Facebook business presence",
+        "title": "Pagsasama ng Ekosistema ng Negosyo sa Facebook",
+        "subtitle": "Walang putol na kumonekta sa iyong buong presensya sa negosyo sa Facebook",
         "shop": {
-          "title": "[FIL]Facebook Shop",
-          "description": "[FIL]Direct integration with your Facebook Shop for instant product recommendations"
+          "title": "Facebook Shop",
+          "description": "Direktang pagsasama sa iyong Facebook Shop para sa mga instant na rekomendasyon ng produkto"
         },
         "ads": {
-          "title": "[FIL]Facebook Ads",
-          "description": "[FIL]Connect ad campaigns with Messenger for seamless customer journeys"
+          "title": "Mga Ad sa Facebook",
+          "description": "Ikonekta ang mga kampanya sa ad sa Messenger para sa tuluy-tuloy na mga paglalakbay ng customer"
         },
         "pages": {
-          "title": "[FIL]Facebook Pages",
-          "description": "[FIL]Unified management of page messages and customer interactions"
+          "title": "Mga Pahina sa Facebook",
+          "description": "Pinag-isang pamamahala ng mga mensahe sa pahina at mga pakikipag-ugnayan ng customer"
         }
       },
       "results": {
-        "title": "[FIL]Proven Results",
-        "subtitle": "[FIL]See how businesses are driving real results with Facebook Messenger automation",
+        "title": "Mga Subok na Resulta",
+        "subtitle": "Tingnan kung paano nag-drive ng mga tunay na resulta ang mga negosyo gamit ang automation ng Facebook Messenger",
         "engagement": {
-          "value": "[FIL]85%",
-          "description": "[FIL]Higher engagement than email"
+          "value": "85%",
+          "description": "Mas mataas na pakikipag-ugnayan kaysa sa email"
         },
         "conversion": {
-          "value": "[FIL]3x",
-          "description": "[FIL]Better conversion rates"
+          "value": "3x",
+          "description": "Mas mahusay na mga rate ng conversion"
         },
         "costReduction": {
-          "value": "[FIL]60%",
-          "description": "[FIL]Reduction in support costs"
+          "value": "60%",
+          "description": "Pagbawas sa mga gastos sa suporta"
         },
         "availability": {
-          "value": "[FIL]24/7",
-          "description": "[FIL]Automated customer service"
+          "value": "24/7",
+          "description": "Awtomatikong serbisyo sa customer"
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Transform Your Facebook Presence?",
-        "subtitle": "[FIL]Connect Facebook Messenger to Seasalt.ai[FIL] and start converting your social media followers into paying customers.",
-        "primary": "[FIL]Connect Messenger",
-        "secondary": "[FIL]Book A Demo"
+        "title": "Handa nang Baguhin ang Iyong Presensya sa Facebook?",
+        "subtitle": "Ikonekta ang Facebook Messenger sa Seasalt.ai at simulang i-convert ang iyong mga tagasunod sa social media sa mga nagbabayad na customer.",
+        "primary": "Ikonekta ang Messenger",
+        "secondary": "Mag-book ng Demo"
       }
     },
     "contactForms": {
       "seo": {
-        "title": "[FIL]Contact Forms Integration - Seasalt.ai",
-        "description": "[FIL]Turn your contact forms into conversations with AI. Seamlessly integrate with MailerLite[FIL], HubSpot[FIL], Mailchimp[FIL] and more for instant lead engagement."
+        "title": "Pagsasama ng mga Form ng Pakikipag-ugnayan - Seasalt.ai",
+        "description": "Gawing mga pag-uusap ang iyong mga form ng pakikipag-ugnayan gamit ang AI. Walang putol na isama sa MailerLite, HubSpot, Mailchimp at higit pa para sa instant na pakikipag-ugnayan sa lead."
       },
       "nav": {
-        "backToChannels": "[FIL]Back to Channels"
+        "backToChannels": "Bumalik sa Mga Channel"
       },
       "hero": {
         "title": {
-          "part1": "[FIL]Turn Contact Forms into",
-          "part2": "[FIL]Conversations"
+          "part1": "Gawing",
+          "part2": "Mga Pag-uusap ang mga Form ng Pakikipag-ugnayan"
         },
-        "subtitle": "[FIL]Automatically capture leads from your email marketing forms and engage them instantly with AI-powered conversations. Works with MailerLite[FIL], HubSpot[FIL], Mailchimp[FIL], and more.",
-        "ctaPrimary": "[FIL]Connect Your Forms",
-        "ctaSecondary": "[FIL]See Demo",
+        "subtitle": "Awtomatikong makuha ang mga lead mula sa iyong mga form sa marketing sa email at agad na makipag-ugnayan sa kanila gamit ang mga pag-uusap na pinapagana ng AI. Gumagana sa MailerLite, HubSpot, Mailchimp, at higit pa.",
+        "ctaPrimary": "Ikonekta ang Iyong mga Form",
+        "ctaSecondary": "Tingnan ang Demo",
         "demo": {
-          "title": "[FIL]Form Integration",
-          "submission": "[FIL]📝 New Form Submission",
-          "submitter": "Sarah Johnson[FIL] • sarah@email.com",
-          "aiGreeting": "[FIL]AI: \"Hi Sarah! Thanks for your interest. I can help you get started right away. What's your main goal?",
-          "userResponse": "[FIL]Sarah: \"I want to improve my email marketing",
-          "aiSchedule": "[FIL]AI: \"Perfect! I can schedule a 15-min strategy call with our expert. Are you free tomorrow at 2 PM?",
-          "meetingConfirmed": "[FIL]✅ Meeting scheduled automatically"
+          "title": "Pagsasama ng Form",
+          "submission": "📝 Bagong Pagsusumite ng Form",
+          "submitter": "Sarah Johnson • sarah@email.com",
+          "aiGreeting": "AI: \"Hi Sarah! Salamat sa iyong interes. Matutulungan kitang magsimula kaagad. Ano ang iyong pangunahing layunin?",
+          "userResponse": "Sarah: \"Gusto kong pagbutihin ang aking marketing sa email",
+          "aiSchedule": "AI: \"Perpekto! Maaari akong mag-iskedyul ng isang 15-minutong tawag sa diskarte sa aming dalubhasa. Libre ka ba bukas ng 2 PM?",
+          "meetingConfirmed": "✅ Awtomatikong naka-iskedyul ang pulong"
         }
       },
       "platforms": {
-        "title": "[FIL]Supported Platforms",
-        "subtitle": "[FIL]Seamless integration with all major email marketing platforms and form builders",
+        "title": "Mga Suportadong Platform",
+        "subtitle": "Walang putol na pagsasama sa lahat ng mga pangunahing platform sa marketing sa email at mga tagabuo ng form",
         "mailerlite": {
           "name": "MailerLite",
-          "description": "[FIL]Seamless lead sync from MailerLite[FIL] contact forms"
+          "description": "Walang putol na pag-sync ng lead mula sa mga form ng pakikipag-ugnayan ng MailerLite"
         },
         "mailchimp": {
           "name": "Mailchimp",
-          "description": "[FIL]Direct integration with Mailchimp[FIL] signup forms"
+          "description": "Direktang pagsasama sa mga form sa pag-sign up ng Mailchimp"
         },
         "constantContact": {
           "name": "Constant Contact",
-          "description": "[FIL]Lead capture from Constant Contact[FIL] forms"
+          "description": "Pagkuha ng lead mula sa mga form ng Constant Contact"
         },
         "hubspot": {
           "name": "HubSpot",
-          "description": "[FIL]Advanced form integration with HubSpot[FIL] marketing"
+          "description": "Advanced na pagsasama ng form sa marketing ng HubSpot"
         },
         "customForms": {
-          "name": "[FIL]Custom Forms",
-          "description": "[FIL]Support for any website contact form via API"
+          "name": "Mga Pasadyang Form",
+          "description": "Suporta para sa anumang form ng pakikipag-ugnayan sa website sa pamamagitan ng API"
         },
         "wordpress": {
           "name": "WordPress",
-          "description": "[FIL]Native integration with WordPress[FIL] contact forms"
+          "description": "Katutubong pagsasama sa mga form ng pakikipag-ugnayan ng WordPress"
         }
       },
       "features": {
-        "title": "[FIL]Lead Management Features",
-        "subtitle": "[FIL]Turn form submissions into qualified leads with intelligent automation",
+        "title": "Mga Tampok sa Pamamahala ng Lead",
+        "subtitle": "Gawing mga kwalipikadong lead ang mga pagsusumite ng form na may matalinong automation",
         "instantEngagement": {
-          "title": "[FIL]Instant Engagement",
-          "description": "[FIL]AI agent responds to form submissions immediately, while leads are hot"
+          "title": "Instant na Pakikipag-ugnayan",
+          "description": "Agad na tumutugon ang ahente ng AI sa mga pagsusumite ng form, habang mainit pa ang mga lead"
         },
         "leadQualification": {
-          "title": "[FIL]Lead Qualification",
-          "description": "[FIL]Automated follow-up questions to qualify prospects before human handoff"
+          "title": "Kwalipikasyon ng Lead",
+          "description": "Mga awtomatikong tanong sa pag-follow-up upang maging kwalipikado ang mga prospect bago ang pag-handoff ng tao"
         },
         "multiChannel": {
-          "title": "[FIL]Multi-Channel Follow-up",
-          "description": "[FIL]Continue conversations via WhatsApp[FIL], SMS[FIL], or phone seamlessly"
+          "title": "Pag-follow-up sa Maramihang Channel",
+          "description": "Ipagpatuloy ang mga pag-uusap sa pamamagitan ng WhatsApp, SMS, o telepono nang walang putol"
         },
         "conversionTracking": {
-          "title": "[FIL]Conversion Tracking",
-          "description": "[FIL]Monitor form-to-customer conversion rates and optimize performance"
+          "title": "Pagsubaybay sa Conversion",
+          "description": "Subaybayan ang mga rate ng conversion mula sa form-to-customer at i-optimize ang pagganap"
         }
       },
       "useCases": {
-        "title": "[FIL]Use Cases",
-        "subtitle": "[FIL]See how different types of forms can be enhanced with AI conversations",
+        "title": "Mga Kaso ng Paggamit",
+        "subtitle": "Tingnan kung paano maaaring mapahusay ang iba't ibang uri ng mga form gamit ang mga pag-uusap sa AI",
         "newsletter": {
-          "title": "[FIL]Newsletter Signups",
-          "description": "[FIL]Engage new subscribers with welcome conversations",
-          "example": "[FIL]Thanks for subscribing! What topics interest you most?"
+          "title": "Mga Pag-sign up sa Newsletter",
+          "description": "Makipag-ugnayan sa mga bagong subscriber gamit ang mga pag-uusap ng maligayang pagdating",
+          "example": "Salamat sa pag-subscribe! Anong mga paksa ang pinaka-interesado ka?"
         },
         "demoRequests": {
-          "title": "[FIL]Demo Requests",
-          "description": "[FIL]Instantly qualify and schedule product demonstrations",
-          "example": "[FIL]I can schedule your demo right now. What's your preferred time?"
+          "title": "Mga Kahilingan sa Demo",
+          "description": "Agad na maging kwalipikado at mag-iskedyul ng mga demonstrasyon ng produkto",
+          "example": "Maaari kong i-iskedyul ang iyong demo ngayon. Ano ang iyong gustong oras?"
         },
         "contactInquiries": {
-          "title": "[FIL]Contact Inquiries",
-          "description": "[FIL]Provide immediate responses to general inquiries",
-          "example": "[FIL]I'm here to help! What specific information do you need?"
+          "title": "Mga Katanungan sa Pakikipag-ugnayan",
+          "description": "Magbigay ng mga agarang tugon sa mga pangkalahatang katanungan",
+          "example": "Narito ako upang tumulong! Anong partikular na impormasyon ang kailangan mo?"
         },
         "leadMagnets": {
-          "title": "[FIL]Lead Magnets",
-          "description": "[FIL]Follow up on content downloads with personalized outreach",
-          "example": "[FIL]Did you find the guide helpful? I can answer any questions!"
+          "title": "Mga Lead Magnet",
+          "description": "Mag-follow up sa mga pag-download ng nilalaman na may personalized na outreach",
+          "example": "Nakatulong ba ang gabay? Maaari kong sagutin ang anumang mga katanungan!"
         }
       },
       "benefits": {
-        "title": "[FIL]Integration Benefits",
-        "subtitle": "[FIL]See the immediate impact of connecting your forms to conversational AI",
-        "responseRates": "[FIL]Higher response rates",
-        "qualification": "[FIL]Faster lead qualification",
-        "meetings": "[FIL]More qualified meetings",
-        "engagement": "[FIL]Lead engagement"
+        "title": "Mga Benepisyo ng Pagsasama",
+        "subtitle": "Tingnan ang agarang epekto ng pagkonekta ng iyong mga form sa conversational AI",
+        "responseRates": "Mas mataas na mga rate ng pagtugon",
+        "qualification": "Mas mabilis na kwalipikasyon ng lead",
+        "meetings": "Mas maraming kwalipikadong mga pulong",
+        "engagement": "Pakikipag-ugnayan sa lead"
       },
       "cta": {
-        "title": "[FIL]Ready to Supercharge Your Forms?",
-        "subtitle": "[FIL]Connect your contact forms to Seasalt.ai[FIL] and start converting more leads with instant AI-powered conversations.",
-        "action": "[FIL]Connect Forms Now"
+        "title": "Handa nang Palakasin ang Iyong mga Form?",
+        "subtitle": "Ikonekta ang iyong mga form ng pakikipag-ugnayan sa Seasalt.ai at simulang i-convert ang mas maraming mga lead gamit ang mga instant na pag-uusap na pinapagana ng AI.",
+        "action": "Ikonekta ang mga Form Ngayon"
       }
     },
     "line": {
       "seo": {
-        "title": "LINE[FIL] Integration - Seasalt.ai[FIL] Solutions",
-        "description": "[FIL]See how Seasalt.ai[FIL] helps businesses improve customer communications and drive growth through LINE[FIL] integration for Asian markets."
+        "title": "Pagsasama ng LINE - Mga Solusyon sa Seasalt.ai",
+        "description": "Tingnan kung paano nakakatulong ang Seasalt.ai sa mga negosyo na mapabuti ang mga komunikasyon sa customer at mag-drive ng paglago sa pamamagitan ng pagsasama ng LINE para sa mga merkado sa Asya."
       },
       "navigation": {
-        "backToChannels": "[FIL]Back to Channels"
+        "backToChannels": "Bumalik sa Mga Channel"
       },
       "hero": {
-        "title": "[FIL]Dominate Asian Markets with LINE[FIL] Integration",
-        "subtitle": "[FIL]Connect with over 200 million LINE[FIL] users across Asia with AI-powered conversations and business messaging. Perfect for businesses targeting Japanese, Taiwanese, Thai, and Korean markets.",
+        "title": "Mangibabaw sa mga Merkado sa Asya gamit ang Pagsasama ng LINE",
+        "subtitle": "Kumonekta sa mahigit 200 milyong mga gumagamit ng LINE sa buong Asya gamit ang mga pag-uusap na pinapagana ng AI at pagmemensahe sa negosyo. Perpekto para sa mga negosyo na nagta-target sa mga merkado ng Hapon, Taiwanese, Thai, at Koreano.",
         "cta": {
-          "startIntegration": "[FIL]Start LINE[FIL] Integration",
-          "seeDemo": "[FIL]See Demo"
+          "startIntegration": "Simulan ang Pagsasama ng LINE",
+          "seeDemo": "Tingnan ang Demo"
         },
         "demo": {
-          "title": "LINE[FIL] Business",
-          "customer": "[FIL]商品について質問があります",
-          "customerTranslation": "[FIL](I have a question about the product)",
-          "ai1": "[FIL]こんにちは！喜んでお手伝いします。どの商品についてですか？",
-          "ai1Translation": "[FIL](Hello! I'm happy to help. Which product?)",
-          "stickerMessage": "[FIL]Sticker: Thank you!",
-          "ai2": "[FIL]どういたしまして！他にご質問はありますか？",
-          "ai2Translation": "[FIL](You're welcome! Any other questions?)"
+          "title": "Negosyo sa LINE",
+          "customer": "商品について質問があります",
+          "customerTranslation": "(Mayroon akong tanong tungkol sa produkto)",
+          "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
+          "ai1Translation": "(Kamusta! Masaya akong tumulong. Aling produkto?)",
+          "stickerMessage": "Sticker: Salamat!",
+          "ai2": "どういたしまして！他にご質問はありますか？",
+          "ai2Translation": "(Walang anuman! Mayroon ka bang ibang mga katanungan?)"
         }
       },
       "marketFocus": {
-        "title": "[FIL]Market Focus",
-        "subtitle": "LINE[FIL]'s dominance in key Asian markets makes it essential for businesses targeting these regions",
-        "activeUsers": "[FIL]Active Users",
-        "marketPenetration": "[FIL]Market Penetration"
+        "title": "Pokus sa Merkado",
+        "subtitle": "Ang pangingibabaw ng LINE sa mga pangunahing merkado sa Asya ay ginagawang mahalaga para sa mga negosyo na nagta-target sa mga rehiyong ito",
+        "activeUsers": "Mga Aktibong Gumagamit",
+        "marketPenetration": "Pagpasok sa Merkado"
       },
       "markets": {
         "JP": {
-          "country": "[FIL]Japan",
-          "users": "[FIL]95M",
-          "penetration": "[FIL]75%"
+          "country": "Hapon",
+          "users": "95M",
+          "penetration": "75%"
         },
         "TW": {
-          "country": "[FIL]Taiwan",
-          "users": "[FIL]21M",
-          "penetration": "[FIL]90%"
+          "country": "Taiwan",
+          "users": "21M",
+          "penetration": "90%"
         },
         "TH": {
-          "country": "[FIL]Thailand",
-          "users": "[FIL]53M",
-          "penetration": "[FIL]76%"
+          "country": "Thailand",
+          "users": "53M",
+          "penetration": "76%"
         },
         "KR": {
-          "country": "[FIL]South Korea",
-          "users": "[FIL]35M",
-          "penetration": "[FIL]68%"
+          "country": "Timog Korea",
+          "users": "35M",
+          "penetration": "68%"
         }
       },
       "features": {
-        "title": "LINE[FIL] Business Features",
-        "subtitle": "[FIL]Leverage LINE[FIL]'s unique features for business communication and customer engagement",
+        "title": "Mga Tampok sa Negosyo ng LINE",
+        "subtitle": "Samantalahin ang mga natatanging tampok ng LINE para sa komunikasyon sa negosyo at pakikipag-ugnayan sa customer",
         "regionalDominance": {
-          "title": "[FIL]Regional Dominance",
-          "description": "[FIL]Access to over 200 million LINE[FIL] users across key Asian markets"
+          "title": "Pangingibabaw sa Rehiyon",
+          "description": "Access sa mahigit 200 milyong mga gumagamit ng LINE sa mga pangunahing merkado sa Asya"
         },
         "officialAccount": {
-          "title": "LINE[FIL] Official Account",
-          "description": "[FIL]Full integration with LINE[FIL] Official Account for business messaging"
+          "title": "Opisyal na Account ng LINE",
+          "description": "Buong pagsasama sa Opisyal na Account ng LINE para sa pagmemensahe sa negosyo"
         },
         "richMessaging": {
-          "title": "[FIL]Rich Messaging",
-          "description": "[FIL]Support for stickers, rich menus, and interactive message formats"
+          "title": "Mayamang Pagmemensahe",
+          "description": "Suporta para sa mga sticker, mayayamang menu, at mga interactive na format ng mensahe"
         },
         "culturalAdaptation": {
-          "title": "[FIL]Cultural Adaptation",
-          "description": "[FIL]Localized messaging features optimized for different Asian markets"
+          "title": "Pag-angkop sa Kultura",
+          "description": "Mga tampok sa pagmemensahe na na-localize na na-optimize para sa iba't ibang mga merkado sa Asya"
         }
       },
       "businessMessaging": {
-        "title": "[FIL]Advanced Business Messaging",
-        "subtitle": "[FIL]Take advantage of LINE[FIL]'s rich messaging features for enhanced customer experiences"
+        "title": "Advanced na Pagmemensahe sa Negosyo",
+        "subtitle": "Samantalahin ang mga tampok sa mayamang pagmemensahe ng LINE para sa mga pinahusay na karanasan sa customer"
       },
       "businessFeatures": {
         "payIntegration": {
-          "title": "LINE[FIL] Pay Integration",
-          "description": "[FIL]Accept payments directly through LINE[FIL] for seamless transactions"
+          "title": "Pagsasama ng LINE Pay",
+          "description": "Tumanggap ng mga pagbabayad nang direkta sa pamamagitan ng LINE para sa tuluy-tuloy na mga transaksyon"
         },
         "richMenu": {
-          "title": "[FIL]Rich Menu Design",
-          "description": "[FIL]Create interactive menus for easy customer navigation"
+          "title": "Disenyo ng Mayamang Menu",
+          "description": "Lumikha ng mga interactive na menu para sa madaling pag-navigate ng customer"
         },
         "broadcast": {
-          "title": "[FIL]Broadcast Messaging",
-          "description": "[FIL]Send targeted messages to your LINE[FIL] followers"
+          "title": "Pagmemensahe sa Broadcast",
+          "description": "Magpadala ng mga naka-target na mensahe sa iyong mga tagasunod sa LINE"
         },
         "chatbot": {
-          "title": "[FIL]Chatbot Builder",
-          "description": "[FIL]Visual chatbot builder optimized for LINE[FIL] interactions"
+          "title": "Tagabuo ng Chatbot",
+          "description": "Visual na tagabuo ng chatbot na na-optimize para sa mga pakikipag-ugnayan sa LINE"
         }
       },
       "culturalAdaptationSection": {
-        "title": "[FIL]Cultural Adaptation",
-        "subtitle": "[FIL]Our AI understands cultural nuances and communication styles across different Asian markets"
+        "title": "Pag-angkop sa Kultura",
+        "subtitle": "Nauunawaan ng aming AI ang mga nuance sa kultura at mga istilo ng komunikasyon sa iba't ibang mga merkado sa Asya"
       },
       "culturalFeatures": {
         "localized": {
-          "title": "[FIL]Localized Responses",
-          "description": "[FIL]AI responses adapted for local communication styles and cultural preferences"
+          "title": "Mga Na-localize na Tugon",
+          "description": "Mga tugon ng AI na inangkop para sa mga lokal na istilo ng komunikasyon at mga kagustuhan sa kultura"
         },
         "multiLanguage": {
-          "title": "[FIL]Multi-Language Support",
-          "description": "[FIL]Native support for Japanese, Chinese, Thai, Korean, and English"
+          "title": "Suporta sa Maraming Wika",
+          "description": "Katutubong suporta para sa Hapon, Tsino, Thai, Koreano, at Ingles"
         },
         "sticker": {
-          "title": "[FIL]Sticker Integration",
-          "description": "[FIL]Smart use of LINE[FIL] stickers and emojis for natural conversations"
+          "title": "Pagsasama ng Sticker",
+          "description": "Matalinong paggamit ng mga sticker at emoji ng LINE para sa mga natural na pag-uusap"
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Enter Asian Markets?",
-        "subtitle": "[FIL]Connect with millions of potential customers across Asia through LINE[FIL]'s dominant messaging platform.",
-        "startIntegration": "[FIL]Start LINE[FIL] Integration"
+        "title": "Handa nang Pumasok sa mga Merkado sa Asya?",
+        "subtitle": "Kumonekta sa milyun-milyong mga potensyal na customer sa buong Asya sa pamamagitan ng nangingibabaw na platform ng pagmemensahe ng LINE.",
+        "startIntegration": "Simulan ang Pagsasama ng LINE"
       }
     },
     "websiteWidget": {
       "navigation": {
-        "backToChannels": "[FIL]Back to Channels"
+        "backToChannels": "Bumalik sa Mga Channel"
       },
       "seo": {
-        "title": "[FIL]Website Widget - Omnichannel Solutions",
-        "description": "[FIL]Deploy our omnichannel widget on WordPress[FIL], Shopify[FIL], Squarespace[FIL], Wix[FIL], MailerLite[FIL], and any website. Give customers choice with unified chat, voice, and messaging."
+        "title": "Widget ng Website - Mga Solusyon sa Omnichannel",
+        "description": "I-deploy ang aming omnichannel widget sa WordPress, Shopify, Squarespace, Wix, MailerLite, at anumang website. Bigyan ang mga customer ng pagpipilian na may pinag-isang chat, boses, at pagmemensahe."
       },
       "hero": {
-        "title": "[FIL]One Widget,",
-        "titleHighlight": "[FIL]Every Platform",
-        "subtitle": "[FIL]Deploy our omnichannel widget on WordPress[FIL], Shopify[FIL], Squarespace[FIL], Wix[FIL], MailerLite[FIL], and any website. Give customers choice with unified chat, voice, and messaging.",
+        "title": "Isang Widget,",
+        "titleHighlight": "Bawat Platform",
+        "subtitle": "I-deploy ang aming omnichannel widget sa WordPress, Shopify, Squarespace, Wix, MailerLite, at anumang website. Bigyan ang mga customer ng pagpipilian na may pinag-isang chat, boses, at pagmemensahe.",
         "cta": {
-          "deploy": "[FIL]Deploy Widget Now",
-          "demo": "[FIL]Book A Demo"
+          "deploy": "I-deploy ang Widget Ngayon",
+          "demo": "Mag-book ng Demo"
         },
         "widget": {
-          "title": "[FIL]Universal Widget",
+          "title": "Universal na Widget",
           "chat": {
-            "label": "[FIL]💬 Chat",
-            "description": "[FIL]Instant messaging support"
+            "label": "💬 Chat",
+            "description": "Suporta sa instant na pagmemensahe"
           },
           "voice": {
-            "label": "[FIL]📞 Voice",
-            "description": "[FIL]One-click voice calls"
+            "label": "📞 Boses",
+            "description": "Isang-click na mga tawag sa boses"
           },
           "whatsapp": {
-            "label": "[FIL]📱 WhatsApp",
-            "description": "[FIL]Direct WhatsApp[FIL] connection"
+            "label": "📱 WhatsApp",
+            "description": "Direktang koneksyon sa WhatsApp"
           },
           "email": {
-            "label": "[FIL]📧 Email",
-            "description": "[FIL]Contact form integration"
+            "label": "📧 Email",
+            "description": "Pagsasama ng form ng pakikipag-ugnayan"
           }
         }
       },
       "platforms": {
-        "title": "[FIL]Works with Every Platform",
-        "subtitle": "[FIL]No matter what platform you use, our widget integrates seamlessly with your existing website",
+        "title": "Gumagana sa Bawat Platform",
+        "subtitle": "Anuman ang platform na iyong ginagamit, ang aming widget ay walang putol na isinasama sa iyong umiiral na website",
         "wordpress": {
           "name": "WordPress",
-          "description": "[FIL]Easy plugin installation for WordPress[FIL] sites"
+          "description": "Madaling pag-install ng plugin para sa mga site ng WordPress"
         },
         "shopify": {
           "name": "Shopify",
-          "description": "[FIL]Native integration with Shopify[FIL] stores"
+          "description": "Katutubong pagsasama sa mga tindahan ng Shopify"
         },
         "squarespace": {
           "name": "Squarespace",
-          "description": "[FIL]Simple embed code for Squarespace[FIL] sites"
+          "description": "Simpleng embed code para sa mga site ng Squarespace"
         },
         "wix": {
           "name": "Wix",
-          "description": "[FIL]Drag-and-drop widget for Wix[FIL] websites"
+          "description": "Drag-and-drop na widget para sa mga website ng Wix"
         },
         "mailerlite": {
           "name": "MailerLite",
-          "description": "[FIL]Direct integration with MailerLite[FIL] landing pages"
+          "description": "Direktang pagsasama sa mga landing page ng MailerLite"
         },
         "custom": {
-          "name": "[FIL]Custom HTML",
-          "description": "[FIL]Universal embed code for any website"
+          "name": "Pasadyang HTML",
+          "description": "Universal na embed code para sa anumang website"
         }
       },
       "features": {
-        "title": "[FIL]Advanced Features",
-        "subtitle": "[FIL]More than just a chat widget - a complete customer engagement platform",
+        "title": "Mga Advanced na Tampok",
+        "subtitle": "Higit pa sa isang chat widget - isang kumpletong platform ng pakikipag-ugnayan sa customer",
         "design": {
-          "title": "[FIL]Customizable Design",
-          "description": "[FIL]Match your brand with custom colors, fonts, and positioning options"
+          "title": "Nako-customize na Disenyo",
+          "description": "Itugma ang iyong brand sa mga pasadyang kulay, font, at mga pagpipilian sa pagpoposisyon"
         },
         "mobile": {
-          "title": "[FIL]Mobile Responsive",
-          "description": "[FIL]Perfect experience across all devices and screen sizes"
+          "title": "Tumutugon sa Mobile",
+          "description": "Perpektong karanasan sa lahat ng mga aparato at laki ng screen"
         },
         "nocode": {
-          "title": "[FIL]No-Code Setup",
-          "description": "[FIL]Add to any website in under 5 minutes without technical knowledge"
+          "title": "Pag-setup na Walang Code",
+          "description": "Idagdag sa anumang website sa loob ng 5 minuto nang walang teknikal na kaalaman"
         },
         "analytics": {
-          "title": "[FIL]Advanced Analytics",
-          "description": "[FIL]Track visitor engagement, conversion rates, and chat performance"
+          "title": "Advanced na Analytics",
+          "description": "Subaybayan ang pakikipag-ugnayan ng bisita, mga rate ng conversion, at pagganap ng chat"
         }
       },
       "styles": {
-        "title": "[FIL]Choose Your Style",
-        "subtitle": "[FIL]Multiple widget styles to match your website design and user experience goals",
+        "title": "Piliin ang Iyong Estilo",
+        "subtitle": "Maramihang mga istilo ng widget upang tumugma sa disenyo ng iyong website at mga layunin sa karanasan ng gumagamit",
         "chatBubble": {
-          "name": "[FIL]Chat Bubble",
-          "description": "[FIL]Classic floating chat bubble in bottom corner"
+          "name": "Chat Bubble",
+          "description": "Klasikong lumulutang na chat bubble sa ibabang sulok"
         },
         "slidePanel": {
-          "name": "[FIL]Slide-in Panel",
-          "description": "[FIL]Elegant slide-in panel from the side"
+          "name": "Slide-in na Panel",
+          "description": "Eleganteng slide-in na panel mula sa gilid"
         },
         "embeddedForm": {
-          "name": "[FIL]Embedded Form",
-          "description": "[FIL]Inline contact form within page content"
+          "name": "Naka-embed na Form",
+          "description": "Inline na form ng pakikipag-ugnayan sa loob ng nilalaman ng pahina"
         },
         "fullModal": {
-          "name": "[FIL]Full-Screen Modal",
-          "description": "[FIL]Attention-grabbing full-screen overlay"
+          "name": "Full-Screen na Modal",
+          "description": "Nakakaakit ng pansin na full-screen na overlay"
         }
       },
       "benefits": {
-        "title": "[FIL]Why Choose Our Widget?",
+        "title": "Bakit Pumili ng Aming Widget?",
         "switching": {
-          "title": "[FIL]Channel Switching",
-          "description": "[FIL]Seamless transition between chat, voice, and messaging without losing context"
+          "title": "Paglipat ng Channel",
+          "description": "Walang putol na paglipat sa pagitan ng chat, boses, at pagmemensahe nang hindi nawawala ang konteksto"
         },
         "queue": {
-          "title": "[FIL]Queue Management",
-          "description": "[FIL]Intelligent routing based on agent availability and customer priority"
+          "title": "Pamamahala ng Pila",
+          "description": "Matalinong pagruruta batay sa availability ng ahente at priyoridad ng customer"
         },
         "global": {
-          "title": "[FIL]Global Support",
-          "description": "[FIL]Multi-language support and timezone-aware routing for international customers"
+          "title": "Pandaigdigang Suporta",
+          "description": "Suporta sa maraming wika at pagruruta na may kamalayan sa timezone para sa mga internasyonal na customer"
         }
       },
       "cta": {
-        "title": "[FIL]Ready to Deploy Your Widget?",
-        "subtitle": "[FIL]Add powerful omnichannel communication to your website in under 5 minutes. No coding required.",
-        "getWidget": "[FIL]Get Widget Code"
+        "title": "Handa nang I-deploy ang Iyong Widget?",
+        "subtitle": "Magdagdag ng malakas na komunikasyon sa omnichannel sa iyong website sa loob ng 5 minuto. Walang kinakailangang coding.",
+        "getWidget": "Kunin ang Widget Code"
       }
     }
   },
   "comparison": {
-    "title": "[FIL]Why Growing Businesses Choose Seasalt.ai[FIL] Over Other Alternatives",
-    "description": "[FIL]See how we compare with other solutions. We are the only platform that delivers enterprise-grade features with the simplicity small businesses need.",
-    "recommended": "[FIL]Recommended",
+    "title": "Bakit Pinipili ng mga Lumalagong Negosyo ang Seasalt.ai Kaysa sa Iba pang mga Alternatibo",
+    "description": "Tingnan kung paano kami nagkukumpara sa iba pang mga solusyon. Kami lamang ang platform na naghahatid ng mga tampok sa antas ng enterprise na may simple na kailangan ng maliliit na negosyo.",
+    "recommended": "Inirerekomenda",
     "table": {
       "headers": {
-        "platform": "[FIL]Platform",
-        "startingPrice": "[FIL]Starting Price",
-        "pricingModel": "[FIL]Pricing Model",
-        "unifiedVoiceDigital": "[FIL]Unified Voice and Digital",
-        "aiCapabilities": "[FIL]AI Capabilities",
-        "bestFor": "[FIL]Best For"
+        "platform": "Platform",
+        "startingPrice": "Panimulang Presyo",
+        "pricingModel": "Modelo ng Pagpepresyo",
+        "unifiedVoiceDigital": "Pinag-isang Boses at Digital",
+        "aiCapabilities": "Mga Kakayahan sa AI",
+        "bestFor": "Pinakamahusay Para sa"
       }
     },
     "competitors": {
       "seasalt": {
-        "startingPrice": "[FIL]$20/agent/month",
-        "pricingModel": "[FIL]Simple per-user pricing",
-        "unifiedVoiceDigital": "[FIL]✅ Yes, native support",
-        "aiCapabilities": "[FIL]✅ Yes, native voice and chatbot",
-        "bestFor": "[FIL]SMBs that need an affordable truly all-in-one platform."
+        "startingPrice": "$20/ahente/buwan",
+        "pricingModel": "Simpleng pagpepresyo bawat gumagamit",
+        "unifiedVoiceDigital": "✅ Oo, katutubong suporta",
+        "aiCapabilities": "✅ Oo, katutubong boses at chatbot",
+        "bestFor": "Mga SMB na nangangailangan ng isang abot-kayang tunay na all-in-one na platform."
       },
       "aircall": {
-        "startingPrice": "[FIL]$30/user/month",
-        "pricingModel": "[FIL]Per-user + add-ons",
-        "unifiedVoiceDigital": "[FIL]⚠️ Voice + WhatsApp[FIL] (add-on)",
-        "aiCapabilities": "[FIL]⚠️ AI is a paid add-on",
-        "bestFor": "[FIL]Sales teams that can afford multiple add-ons and meet the 3-user minimum."
+        "startingPrice": "$30/gumagamit/buwan",
+        "pricingModel": "Bawat gumagamit + mga add-on",
+        "unifiedVoiceDigital": "⚠️ Boses + WhatsApp (add-on)",
+        "aiCapabilities": "⚠️ Ang AI ay isang bayad na add-on",
+        "bestFor": "Mga koponan sa pagbebenta na kayang bayaran ang maraming mga add-on at matugunan ang 3-gumagamit na minimum."
       },
       "ringcentral": {
-        "startingPrice": "[FIL]$65/agent/month",
-        "pricingModel": "[FIL]Complex tiering",
-        "unifiedVoiceDigital": "[FIL]❌ Separate products",
-        "aiCapabilities": "[FIL]✅ Yes (AI-powered CCaaS)",
-        "bestFor": "[FIL]Large companies needing an extensive UCaaS platform with separate CCaaS."
+        "startingPrice": "$65/ahente/buwan",
+        "pricingModel": "Kumplikadong pag-tier",
+        "unifiedVoiceDigital": "❌ Paghiwalayin ang mga produkto",
+        "aiCapabilities": "✅ Oo (CCaaS na pinapagana ng AI)",
+        "bestFor": "Malalaking kumpanya na nangangailangan ng isang malawak na platform ng UCaaS na may hiwalay na CCaaS."
       },
       "genesys": {
-        "startingPrice": "[FIL]$75/user/month",
-        "pricingModel": "[FIL]Per-user + high minimums",
-        "unifiedVoiceDigital": "[FIL]✅ Yes (in premium plans)",
-        "aiCapabilities": "[FIL]✅ Yes (complex token system)",
-        "bestFor": "[FIL]Enterprises with dedicated contact center teams and budgets."
+        "startingPrice": "$75/gumagamit/buwan",
+        "pricingModel": "Bawat gumagamit + mataas na minimum",
+        "unifiedVoiceDigital": "✅ Oo (sa mga premium na plano)",
+        "aiCapabilities": "✅ Oo (kumplikadong sistema ng token)",
+        "bestFor": "Mga negosyo na may dedikadong mga koponan at badyet sa contact center."
       },
       "five9": {
-        "startingPrice": "[FIL]$119/user/month",
-        "pricingModel": "[FIL]Per-user + packages",
-        "unifiedVoiceDigital": "[FIL]✅ Yes (in premium plans)",
-        "aiCapabilities": "[FIL]✅ Yes (advanced AI)",
-        "bestFor": "[FIL]Large outbound-focused contact centers needing enterprise-level tools."
+        "startingPrice": "$119/gumagamit/buwan",
+        "pricingModel": "Bawat gumagamit + mga pakete",
+        "unifiedVoiceDigital": "✅ Oo (sa mga premium na plano)",
+        "aiCapabilities": "✅ Oo (advanced na AI)",
+        "bestFor": "Malalaking contact center na nakatuon sa outbound na nangangailangan ng mga tool sa antas ng enterprise."
       },
       "googleVoice": {
-        "startingPrice": "[FIL]$10/user/month",
-        "pricingModel": "[FIL]Per-user + Workspace fee",
-        "unifiedVoiceDigital": "[FIL]❌ No",
-        "aiCapabilities": "[FIL]❌ No (voicemail transcription only)",
-        "bestFor": "[FIL]Solo entrepreneurs who need a basic standalone phone number (US only)."
+        "startingPrice": "$10/gumagamit/buwan",
+        "pricingModel": "Bawat gumagamit + bayad sa Workspace",
+        "unifiedVoiceDigital": "❌ Hindi",
+        "aiCapabilities": "❌ Hindi (transkripsyon lamang ng voicemail)",
+        "bestFor": "Mga solo na negosyante na nangangailangan ng isang pangunahing standalone na numero ng telepono (US lamang)."
       }
     },
     "cta": {
-      "seeAllComparisons": "[FIL]See all detailed comparisons"
+      "seeAllComparisons": "Tingnan ang lahat ng detalyadong paghahambing"
     }
   },
   "industriesData": {
     "ecommerce": {
-      "title": "[FIL]E-commerce",
-      "headline": "[FIL]Recover Abandoned Carts & Answer Order Questions 24/7",
+      "title": "E-commerce",
+      "headline": "Bawiin ang mga Inabandunang Cart at Sagutin ang mga Tanong sa Order 24/7",
       "benefits": [
-        "[FIL]Automated order status updates via WhatsApp[FIL] & SMS",
-        "[FIL]AI handles \"Where's my package?\" queries instantly",
-        "[FIL]Recover 15%+ of abandoned carts with smart follow-ups",
-        "Shopify[FIL] & Squarespace[FIL] integrations included"
+        "Mga awtomatikong update sa katayuan ng order sa pamamagitan ng WhatsApp at SMS",
+        "Pinangangasiwaan ng AI ang mga query na \"Nasaan ang aking package?\" agad",
+        "Bawiin ang 15%+ ng mga inabandunang cart na may matalinong mga follow-up",
+        "Kasama ang mga pagsasama sa Shopify at Squarespace"
       ]
     },
     "healthcare": {
-      "title": "[FIL]Healthcare",
-      "headline": "[FIL]Book Patient Appointments & Send Reminders Automatically",
+      "title": "Pangangalagang pangkalusugan",
+      "headline": "Mag-book ng mga Appointment ng Pasyente at Magpadala ng mga Paalala Awtomatiko",
       "benefits": [
-        "HIPAA[FIL]-compliant messaging across all channels",
-        "[FIL]Automated appointment confirmations & reminders",
-        "[FIL]AI pre-screens patient inquiries before routing",
-        "[FIL]Reduce no-shows by 25% with smart notifications"
+        "Pagmemensahe na sumusunod sa HIPAA sa lahat ng channel",
+        "Mga awtomatikong kumpirmasyon at paalala sa appointment",
+        "Pinapa-screen ng AI ang mga katanungan ng pasyente bago i-ruta",
+        "Bawasan ang mga hindi pagdating ng 25% na may matalinong mga abiso"
       ]
     },
     "realEstate": {
-      "title": "[FIL]Real Estate",
-      "headline": "[FIL]Never Miss a Lead & Schedule Showings via Text, Chat, or Phone",
+      "title": "Real Estate",
+      "headline": "Huwag Kailanman Palampasin ang isang Lead at Mag-iskedyul ng mga Pagpapakita sa pamamagitan ng Text, Chat, o Telepono",
       "benefits": [
-        "[FIL]Instant responses to property inquiries 24/7",
-        "[FIL]Automated showing appointments via AI",
-        "[FIL]Lead qualification before human handoff",
-        "WhatsApp[FIL] virtual tours and property photos"
+        "Mga instant na tugon sa mga katanungan sa ari-arian 24/7",
+        "Mga awtomatikong appointment sa pagpapakita sa pamamagitan ng AI",
+        "Kwalipikasyon ng lead bago ang pag-handoff ng tao",
+        "Mga virtual na paglilibot sa WhatsApp at mga larawan ng ari-arian"
       ]
     },
     "restaurants": {
-      "title": "[FIL]Restaurants & Hospitality",
-      "headline": "[FIL]Take Reservations & Handle Orders Across All Channels",
+      "title": "Mga Restaurant at Pagtanggap ng Bisita",
+      "headline": "Kumuha ng mga Pagpapareserba at Pangasiwaan ang mga Order sa Lahat ng Channel",
       "benefits": [
-        "[FIL]Automated reservation booking via phone & chat",
-        "[FIL]Menu questions answered instantly by AI",
-        "[FIL]Order confirmations sent via SMS[FIL] & WhatsApp",
-        "[FIL]Handle delivery inquiries without staff interruption"
+        "Awtomatikong pag-book ng reserbasyon sa pamamagitan ng telepono at chat",
+        "Agad na sinasagot ng AI ang mga tanong sa menu",
+        "Mga kumpirmasyon ng order na ipinadala sa pamamagitan ng SMS at WhatsApp",
+        "Pangasiwaan ang mga katanungan sa paghahatid nang walang pagkagambala ng kawani"
       ]
     },
     "education": {
-      "title": "[FIL]Education & Training",
-      "headline": "[FIL]Streamline Student Communications & Course Inquiries",
+      "title": "Edukasyon at Pagsasanay",
+      "headline": "Padaliin ang mga Komunikasyon ng Mag-aaral at mga Katanungan sa Kurso",
       "benefits": [
-        "[FIL]Automated course enrollment and scheduling",
-        "[FIL]AI handles common student questions 24/7",
-        "[FIL]Parent-teacher communication via WhatsApp",
-        "[FIL]Event notifications and reminders via SMS"
+        "Awtomatikong pagpapatala at pag-iiskedyul ng kurso",
+        "Pinangangasiwaan ng AI ang mga karaniwang tanong ng mag-aaral 24/7",
+        "Komunikasyon ng magulang-guro sa pamamagitan ng WhatsApp",
+        "Mga abiso sa kaganapan at mga paalala sa pamamagitan ng SMS"
       ]
     },
     "automotive": {
-      "title": "[FIL]Automotive & Services",
-      "headline": "[FIL]Book Service Appointments & Handle Customer Inquiries",
+      "title": "Automotive at mga Serbisyo",
+      "headline": "Mag-book ng mga Appointment sa Serbisyo at Pangasiwaan ang mga Katanungan ng Customer",
       "benefits": [
-        "[FIL]Automated service appointment booking",
-        "[FIL]Vehicle maintenance reminders via SMS",
-        "[FIL]AI handles parts availability questions",
-        "[FIL]Service completion notifications with photos"
+        "Awtomatikong pag-book ng appointment sa serbisyo",
+        "Mga paalala sa pagpapanatili ng sasakyan sa pamamagitan ng SMS",
+        "Pinangangasiwaan ng AI ang mga tanong sa availability ng mga bahagi",
+        "Mga abiso sa pagkumpleto ng serbisyo na may mga larawan"
       ]
     },
     "professional": {
-      "title": "[FIL]Professional Services",
-      "headline": "[FIL]Manage Client Communications & Consultation Bookings",
+      "title": "Mga Propesyonal na Serbisyo",
+      "headline": "Pamahalaan ang mga Komunikasyon sa Kliyente at mga Booking sa Konsultasyon",
       "benefits": [
-        "[FIL]Automated consultation scheduling",
-        "[FIL]Client intake forms via chat",
-        "[FIL]Document sharing through secure channels",
-        "[FIL]Follow-up reminders for appointments"
+        "Awtomatikong pag-iiskedyul ng konsultasyon",
+        "Mga form sa pag-intake ng kliyente sa pamamagitan ng chat",
+        "Pagbabahagi ng dokumento sa pamamagitan ng mga secure na channel",
+        "Mga paalala sa pag-follow-up para sa mga appointment"
       ]
     },
     "financial": {
-      "title": "[FIL]Financial Services",
-      "headline": "[FIL]Secure Client Communications & Appointment Management",
+      "title": "Mga Serbisyo sa Pinansyal",
+      "headline": "Secure na mga Komunikasyon sa Kliyente at Pamamahala ng Appointment",
       "benefits": [
-        "FINRA[FIL]-compliant messaging and recording",
-        "[FIL]Automated appointment confirmations",
-        "[FIL]Secure document collection via chat",
-        "[FIL]Client onboarding workflow automation"
+        "Pagmemensahe at pag-record na sumusunod sa FINRA",
+        "Mga awtomatikong kumpirmasyon sa appointment",
+        "Secure na koleksyon ng dokumento sa pamamagitan ng chat",
+        "Automation ng daloy ng trabaho sa onboarding ng kliyente"
       ]
     },
     "educationTraining": {
-      "title": "[FIL]Education & Training",
-      "headline": "[FIL]Streamline Your Educational Institution with Comprehensive Management Solutions",
+      "title": "Edukasyon at Pagsasanay",
+      "headline": "Padaliin ang Iyong Institusyong Pang-edukasyon gamit ang mga Komprehensibong Solusyon sa Pamamahala",
       "benefits": [
-        "[FIL]Automated course enrollment and scheduling",
-        "[FIL]AI handles common student questions 24/7",
-        "[FIL]Parent-teacher communication via WhatsApp",
-        "[FIL]Event notifications and reminders via SMS"
+        "Awtomatikong pagpapatala at pag-iiskedyul ng kurso",
+        "Pinangangasiwaan ng AI ang mga karaniwang tanong ng mag-aaral 24/7",
+        "Komunikasyon ng magulang-guro sa pamamagitan ng WhatsApp",
+        "Mga abiso sa kaganapan at mga paalala sa pamamagitan ng SMS"
       ],
-      "benefits[0]": "[FIL]Simplified student enrollment and record management",
-      "benefits[1]": "[FIL]Automated scheduling and class management",
-      "benefits[2]": "[FIL]Enhanced parent-teacher communication tools",
-      "benefits[3]": "[FIL]Comprehensive reporting and analytics"
+      "benefits[0]": "Pinasimpleng pagpapatala ng mag-aaral at pamamahala ng talaan",
+      "benefits[1]": "Awtomatikong pag-iiskedyul at pamamahala ng klase",
+      "benefits[2]": "Pinahusay na mga tool sa komunikasyon ng magulang-guro",
+      "benefits[3]": "Komprehensibong pag-uulat at analytics"
     }
   },
   "productsData": {
     "seachat": {
       "title": "SeaChat",
-      "description": "[FIL]Respond to customers 24/7"
+      "description": "Tumugon sa mga customer 24/7"
     },
     "seax": {
       "title": "SeaX",
-      "description": "[FIL]Outreach to customers in bulk"
+      "description": "Outreach sa mga customer nang maramihan"
     },
     "seameet": {
       "title": "SeaMeet",
-      "description": "[FIL]Copilot for meetings & calls"
+      "description": "Copilot para sa mga pulong at tawag"
     },
     "seavoice": {
       "title": "SeaVoice",
-      "description": "[FIL]AI voice agents for calls",
+      "description": "Mga ahente ng boses ng AI para sa mga tawag",
       "subProducts": {
-        "tts": "[FIL]Text To Speech",
-        "stt": "[FIL]Speech To Text",
-        "discord": "[FIL]Discord STT Bot"
+        "tts": "Text To Speech",
+        "stt": "Speech To Text",
+        "discord": "Discord STT Bot"
       }
     }
   },
   "solutionsData": {
     "salesMarketing": {
-      "title": "[FIL]For Sales & Marketing"
+      "title": "Para sa Sales at Marketing"
     },
     "customerSupport": {
-      "title": "[FIL]For Customer Support"
+      "title": "Para sa Suporta sa Customer"
     },
     "aiAutomation": {
-      "title": "[FIL]AI & Automation"
+      "title": "AI at Automation"
     },
     "smeOwners": {
-      "title": "[FIL]For SME Owners"
+      "title": "Para sa mga May-ari ng SME"
     }
   }
 }
