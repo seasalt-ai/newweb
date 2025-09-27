@@ -158,30 +158,7 @@ function createTranslationFunction(translations: any, lang?: SupportedLanguage, 
       }
     }
     
-    // return key; // 找不到翻譯時返回 key
-    
-    // 如果參數中包含 returnObjects: true，直接返回結果
-    if (params?.returnObjects === true) {
-      return result;
-    }
-    
-    if (typeof result === 'string') {
-      // 簡單的參數替換
-      if (params) {
-        return result.replace(/\{\{(\w+)\}\}/g, (match, paramName) => {
-          return params[paramName]?.toString() || match;
-        });
-      }
-      return result;
-    }
-    
-    // 對於其他類型（數組、對象）也返回結果
-    if (Array.isArray(result) || (typeof result === 'object' && result !== null)) {
-      return result;
-    }
-    
-    // return key;
-    return null;
+    return key; // 找不到翻譯時返回 key
   };
 }
 
