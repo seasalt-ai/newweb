@@ -33,9 +33,9 @@ source "$SCRIPT_DIR/deploy-utils.sh"
 
 # Configuration
 BUILD_DIR="dist"                                          # Build output directory from npm run build
-PROD_REPO_URL="git@github.com:seasalt-ai/seasalt-ai.github.io.git"  # Production repo (separate from source)
+PROD_REPO_URL="git@gh.seasalt:seasalt-ai/seasalt-ai.github.io.git"  # Production repo (separate from source)
 PROD_REPO_NAME="seasalt-ai.github.io"                   # Repository name
-PROD_REPO_DIR="$HOME/.deployment-cache/$PROD_REPO_NAME"  # Local cache location for faster deployments
+PROD_REPO_DIR="/Volumes/WD_BLACK/Projects/deployment-cache/$PROD_REPO_NAME"  # Local cache location for faster deployments
 PROD_BRANCH="master"                                     # Production branch (GitHub Pages default)
 BACKUP_TAG_PREFIX="prod-backup"                          # Prefix for backup tags
 REQUIRED_BRANCH="main"                                   # Must deploy from this branch
@@ -84,7 +84,9 @@ main() {
         # Production repo exists locally - update it to latest state
         print_info "Updating existing production repository..."
         pushd "$PROD_REPO_DIR" > /dev/null
-        
+        git config user.email "anson.kao.yyc+git@gmail.com"
+        git config user.name "Anson"
+
         # Ensure we're on the right branch and clean
         git checkout "$PROD_BRANCH"
         git fetch origin                      # Get latest from remote
@@ -102,6 +104,9 @@ main() {
         git checkout "$PROD_BRANCH"
         popd > /dev/null
     fi
+
+    git config user.email "anson.kao.yyc+git@gmail.com"
+    git config user.user "anson-seasalt"
     
     # Create backup tag before deployment
     print_info "Creating backup of current production state..."
@@ -164,7 +169,7 @@ EOF
     
     # Show what's being deployed
     print_info "Changes to be deployed:"
-    git diff --cached --stat
+    # git diff --cached --stat
     
     # Final confirmation before push
     echo ""
