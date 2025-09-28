@@ -1,0 +1,920 @@
+{
+  "seachat": {
+    "common": {
+      "getStarted": "無料で始める",
+      "signIn": "サインイン",
+      "learnMore": "詳細を見る",
+      "readMore": "続きを読む",
+      "viewAll": "すべての記事を見る",
+      "tryNow": "今すぐ試す",
+      "contactUs": "お問い合わせ",
+      "subscribe": "購読する","search": "検索",
+      "back": "戻る"
+    },
+    "header": {
+      "features": "機能",
+      "integrations": "連携",
+      "solutions": "ソリューション",
+      "pricing": "料金",
+      "blog": "ブログ",
+      "language": "言語",
+      "featuresDropdown": {
+        "humanAgents": "人間エージェントチャット",
+        "aiAutomation": "AI自動化",
+        "advancedAI": "高度なAI機能",
+        "knowledgeBase": "ナレッジベース",
+        "voiceAgents": "音声エージェント",
+        "analytics": "分析 & インサイト",
+        "omnichannel": "オムニチャネルサポート",
+        "api": "API & 開発者ツール"
+      },
+      "integrationsDropdown": {
+        "websites": "ウェブサイトプラットフォーム",
+        "crm": "CRMシステム",
+        "ecommerce": "Eコマース",
+        "socialMedia": "ソーシャルメディア",
+        "communication": "コミュニケーションツール",
+        "marketing": "マーケティングプラットフォーム",
+        "calendar": "カレンダー & スケジューリング",
+        "api": "カスタムAPI"
+      },
+      "solutionsDropdown": {
+        "ecommerce": "Eコマース & 小売",
+        "healthcare": "ヘルスケア",
+        "fintech": "金融サービス",
+        "education": "教育",
+        "realEstate": "不動産",
+        "travel": "旅行 & ホスピタリティ",
+        "saas": "SaaS & テクノロジー",
+        "smallBusiness": "中小企業"
+      },
+      "backToMainSite": "メインサイトに戻る",
+      "viewAllIntegrations": "すべての連携を見る →",
+      "viewAllSolutions": "すべてのソリューションを見る →"
+    },
+    "hero": {
+      "title": {
+        "line1": "何百万人もの人々に",
+        "line2": "24時間365日対応"
+      },
+      "subtitle": "ライブエージェント",
+      "description": "オムニチャネルプラットフォームでカスタマーサポートを変革します。人間エージェントを無料で開始し、成長に合わせてAI自動化をシームレスに統合します。",
+      "startFree": "今すぐ無料で始める",
+      "exploreAI": "デモを予約",
+      "alwaysFree": "常に無料プラン",
+      "integrations": "30以上の連携",
+      "setup": "2分でセットアップ",
+      "chat": {
+        "userMessage": "こんにちは！注文について助けが必要です",
+        "botMessage": "こんにちは！ご注文について喜んでお手伝いさせていただきます。注文番号を教えていただけますか？",
+        "userMessage2": "人間エージェントに接続するか、AIによる即時サポートを提供できます。どちらをご希望ですか？",
+        "typePlaceholder": "メッセージを入力してください...",
+        "online": "オンライン",
+        "supportTitle": "SeaChatサポート"
+      },
+      "badge": "ライブエージェントで無料で始める",
+      "animationSection": {
+        "title": "SeaChatの動作",
+        "autoMode": "自動",
+        "manualMode": "手動"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "電話音声AI",
+          "description": "電話での会話を処理するAIエージェント"
+        },
+        "interactive": {
+          "name": "インタラクティブチャネル",
+          "description": "クリックしてさまざまな会話を見る"
+        },
+        "multiChannel": {
+          "name": "多チャネルフロー",
+          "description": "異なるプラットフォーム間を流れるメッセージ"
+        },
+        "agentToAI": {
+          "name": "人間からAIへの引き継ぎ",
+          "description": "人間から始めて、AIでスケールアップ"
+        },
+        "learning": {
+          "name": "AI学習ジャーニー",
+          "description": "コンテンツからAIが賢くなるのを見る"
+        },
+        "dashboard": {
+          "name": "リアルタイム分析",
+          "description": "ライブパフォーマンス指標"
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "SeaChatを選ぶ理由？",
+      "subtitle": "人間的な触れ合いとAIの効率性の完璧な融合を体験してください。無料で始めて、スマートにスケールアップし、より速く成功しましょう。",
+      "humanAgents": {
+        "title": "本当に無料の人間エージェント 🍺 🎙️",
+        "description": "1人の人間エージェントが永久に無料—はい、永久にです！上限なし、制限なし、隠れた費用なし。",
+        "badge": "永久無料",
+        "highlights": [
+          "無制限のチャット会話",
+          "無制限のチャット履歴アクセス",
+          "無制限の連絡先 & ネットワーク構築",
+          "すべてのデータをエクスポートする自由"
+        ]
+      },
+      "aiAutomation": {
+        "title": "シームレスなAI自動化",
+        "description": "会話やドキュメントから学習するインテリジェントなAIで、楽にスケールアップできます。",
+        "highlights": [
+          "スマートな自動応答",
+          "インタラクションからの学習",
+          "コンテキストを認識した返信"
+        ]
+      },
+      "omnichannel": {
+        "title": "オムニチャネル接続",
+        "description": "すべてのコミュニケーションチャネルを1つの統合プラットフォームに接続し、一貫したサポートを提供します。",
+        "highlights": [
+          "30以上の連携",
+          "統合受信トレイ",
+          "クロスプラットフォーム同期"
+        ]
+      },
+      "trulyFree": {
+        "title": "本当に無料のプラン 🍺 & 🎙️",
+        "description": "SeaChatの人間エージェントのみモードをご紹介します：比類のないコミュニケーションの自由へのチケット！1人の人間エージェントが永久に無料—はい、その通り、永久にです！",
+        "freeFeatures": {
+          "unlimitedChat": {
+            "title": "無制限チャット",
+            "description": "上限や制限なしで、必要なだけ会話に参加できます。"
+          },
+          "unlimitedHistory": {
+            "title": "無制限履歴",
+            "description": "会話を失うことはありません—いつでも完全なチャット履歴にアクセスできます。"
+          },
+          "unlimitedContacts": {
+            "title": "無制限連絡先",
+            "description": "制限や連絡先の上限なしでネットワークを構築できます。"
+          },
+          "freedomToExport": {
+            "title": "エクスポートの自由",
+            "description": "あなたのデータ、あなたのルール—すべてのチャット履歴を簡単にエクスポートできます。"
+          }
+        },
+        "whyChoose": "SeaChatを選ぶ理由？本当に無料だからです！",
+        "whatYouGet": "✅ 永久に無料で得られるもの:",
+        "freeForeverFeatures": [
+          "1人の人間エージェントが永久に無料",
+          "無制限のチャット会話",
+          "完全なチャット履歴アクセス",
+          "無制限の連絡先管理",
+          "完全なデータエクスポート権限"
+        ],
+        "scaleWhenReady": "🚀 準備ができたらスケールアップ:",
+        "scaleFeatures": [
+          "AI自動化を追加",
+          "高度な連携",
+          "音声エージェント機能",
+          "エンタープライズセキュリティ",
+          "カスタムワークフロー"
+        ],
+        "startButton": "今すぐ無料エージェントを開始 - クレジットカード不要！"
+      },
+      "statsBar": {
+        "unlimited": "永久に無制限チャット",
+        "fileTypes": "30以上のファイルタイプをサポート",
+        "setupTime": "平均セットアップ時間2分",
+        "availability": "準備ができたら24時間365日AIが利用可能"
+      }
+    },
+    "featureTabs": {
+      "title": "強力な機能、シンプルなセットアップ",
+      "subtitle": "カスタマーサポート体験を変革するために設計された、当社の包括的な機能セットをご覧ください。",
+      "tabs": {
+        "humanAgent": "人間エージェント",
+        "agentChat": "エージェントチャット",
+        "aiAgent": "AIエージェント",
+        "advancedAI": "高度なAI",
+        "knowledgeBase": "ナレッジベース",
+        "integrations": "連携"
+      },
+      "content": {
+        "agentChat": {
+          "title": "人間エージェントの卓越性",
+          "subtitle": "完全に無料で、実際の人間によるサポートから始めましょう",
+          "features": [
+            "無制限の無料エージェント時間",
+            "リアルタイムの会話管理",
+            "マルチエージェントコラボレーション",
+            "高度なラベリングとルーティング",
+            "パフォーマンス分析",
+            "カスタムワークフロー"
+          ],
+          "tryFeature": "この機能を試す",
+          "watchDemo": "デモを見る"
+        },
+        "aiAgent": {
+          "title": "インテリジェントなAI自動化",
+          "subtitle": "学習するスマートAIでシームレスにスケールアップ",
+          "features": [
+            "コンテキストを認識した応答",
+            "会話からの学習",
+            "シームレスな人間への引き継ぎ",
+            "多言語サポート",
+            "カスタムAIトレーニング",
+            "音声エージェント機能"
+          ],
+          "tryFeature": "この機能を試す",
+          "watchDemo": "デモを見る"
+        },
+        "advancedAI": {
+          "title": "次世代AIインテリジェンス",
+          "subtitle": "パーソナライズされた体験のための高度なAI機能",
+          "features": [
+            "検索拡張生成 (RAG)",
+            "長期ユーザー記憶システム",
+            "時間を認識したコンテキスト応答",
+            "スマートなコンテキスト抽出",
+            "参照されたチャット結果",
+            "ナレッジベースの改善"
+          ],
+          "tryDemo": "高度なAIデモを試す",
+          "watchAI": "AIの動作を見る"
+        },
+        "knowledgeBase": {
+          "title": "包括的なナレッジハブ",
+          "subtitle": "30以上のファイルタイプをアップロードし、AIがカード、ボタン、画像、動画で豊富なコンテキスト応答を提供します",
+          "features": [
+            "PDF、Excel、CSV、Wordをサポート",
+            "ウェブサイトコンテンツの取り込み",
+            "画像と動画の処理",
+            "リッチな応答フォーマット",
+            "自動更新コンテンツ",
+            "バージョン管理"
+          ],
+          "tryFeature": "この機能を試す",
+          "watchDemo": "デモを見る"
+        },
+        "integrations": {
+          "title": "強力な連携",
+          "subtitle": "お気に入りのツールやプラットフォームと連携",
+          "features": [
+            "CRM連携 (Salesforce、HubSpot)",
+            "カレンダー予約 (Google、Outlook)",
+            "Eコマースプラットフォーム",
+            "マーケティングツール",
+            "カスタムAPIアクセス",
+            "Webhookサポート"
+          ],
+          "tryFeature": "この機能を試す",
+          "watchDemo": "デモを見る"
+        }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "検索拡張生成",
+            "description": "正確な情報検索のためのキーワード、ベクトル、ハイブリッド検索",
+            "details": {
+              "0": "セマンティックベクトル検索",
+              "1": "キーワードマッチング",
+              "2": "ハイブリッド検索アルゴリズム",
+              "3": "リアルタイムコンテンツインデックス作成"
+            }
+          },
+          "memory": {
+            "title": "長期記憶",
+            "description": "永続的なユーザー記憶によるパーソナライズされた体験",
+            "details": {
+              "0": "ユーザーの好み追跡",
+              "1": "会話履歴分析",
+              "2": "行動パターン認識",
+              "3": "セッション間の継続性"
+            }
+          },
+          "timeAware": {
+            "title": "時間認識",
+            "description": "現在の時間とタイムゾーンに基づいたコンテキストを認識した応答",
+            "details": {
+              "0": "リアルタイムタイムスタンプ統合",
+              "1": "タイムゾーン対応スケジューリング",
+              "2": "時間制約のある推奨事項",
+              "3": "営業時間最適化"
+            }
+          },
+          "contextExtraction": {
+            "title": "コンテキスト抽出",
+            "description": "ユーザー理解を深めるためのインテリジェントなフィールドマッピング",
+            "details": {
+              "0": "カスタムフィールド定義",
+              "1": "自動データ抽出",
+              "2": "ユーザーの言語設定",
+              "3": "動的なコンテキスト構築"
+            }
+          },
+          "referencedResults": {
+            "title": "参照された結果",
+            "description": "ソース引用付きの透明なAI応答",
+            "details": {
+              "0": "ソースドキュメントリンク",
+              "1": "引用追跡",
+              "2": "信頼度スコアリング",
+              "3": "事実確認"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "ナレッジの改善",
+            "description": "ナレッジベースの精度を継続的に改善",
+            "details": {
+              "0": "自動更新コンテンツ",
+              "1": "品質スコアリング",
+              "2": "関連性最適化",
+              "3": "パフォーマンス分析"
+            }
+          }
+        }
+      }
+    },
+    "omnichannelDemo": {
+      "title": "顧客がいるあらゆる場所に導入",
+      "subtitle": "ウェブサイト、ソーシャルメディア、コミュニケーションプラットフォーム全体で、すべての顧客タッチポイントをシームレスに接続します。各チャネルにカーソルを合わせると、リアルタイムのパフォーマンス指標が表示されます。",
+      "messagesPerDay": "1日あたりのメッセージ数",
+      "responseTime": "応答時間",
+      "keyFeatures": "主な機能",
+      "integrateChannel": "連携する",
+      "channels": {
+        "website": {
+          "name": "ウェブサイト",
+          "description": "任意のHTMLウェブサイトで動作するユニバーサルウィジェット"
+        },
+        "whatsapp": {
+          "name": "WhatsApp",
+          "description": "世界で最も人気のあるメッセージングアプリで顧客とつながる"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "description": "Instagram DMとストーリーの返信を1つの統合受信トレイで管理"
+        },
+        "facebook": {
+          "name": "Facebook",
+          "description": "Facebookのメッセージングプラットフォームを通じてカスタマーサポートを提供"
+        },
+        "line": {
+          "name": "LINE",
+          "description": "人気のアジアのメッセージングプラットフォームで顧客とつながる"
+        },
+        "phone": {
+          "name": "電話",
+          "description": "AI音声エージェントで音声サポートを処理"
+        },
+        "email": {
+          "name": "メール",
+          "description": "インテリジェントなルーティングでメールチケットを管理"
+        },
+        "ecommerce": {
+          "name": "Eコマース",
+          "description": "注文管理のためにオンラインストアと連携"
+        }
+      },
+      "platformCategories": {
+        "website": {
+          "title": "ウェブサイト連携",
+          "description": "ユニバーサルウィジェットで任意のウェブサイトプラットフォームに導入"
+        },
+        "socialMedia": {
+          "title": "ソーシャルメディア",
+          "description": "顧客が好むソーシャルプラットフォームで顧客とつながる"
+        },
+        "traditional": {
+          "title": "従来のチャネル",
+          "description": "従来のコミュニケーション方法でサポートを維持"
+        }
+      },
+      "quickSetup": {
+        "title": "どこにでも導入する準備はできていますか？",
+        "subtitle": "シンプルな連携プロセスで数分で開始",
+        "steps": [
+          {
+            "title": "チャネルを選択",
+            "description": "8つ以上の導入オプションから選択"
+          },
+          {
+            "title": "コードをコピー & ペースト",
+            "description": "シンプルなウィジェットインストール"
+          },
+          {
+            "title": "チャットを開始",
+            "description": "即座に顧客のサポートを開始"
+          }
+        ],
+        "button": "無料導入を開始"
+      }
+    },
+    "pricing": {
+      "title": "成長に合わせて変化する料金体系",
+      "subtitle": "人間エージェントで完全に無料で開始し、スケールアップする準備ができたらAIを追加します。",
+      "monthly": "月額",
+      "yearly": "年額",
+      "save": "20%節約",
+      "customize": "プランをカスタマイズ",
+      "chatVolume": "月間チャット量",
+      "agents": "エージェント数",
+      "plans": {
+        "free": {
+          "name": "本当に無料",
+          "tagline": "強力な機能のトライアルを体験",
+          "description": "人間エージェントで始めるのに最適",
+          "features": {
+            "humanAgent": "人間エージェント1名",
+            "unlimitedHumanChats": "無制限の人間エージェントチャット",
+            "unlimitedContacts": "無制限の連絡先",
+            "unlimitedHistory": "無制限のチャット履歴",
+            "exportHistory": "チャット履歴のエクスポートの自由",
+            "channels": "チャネル: WhatsApp Messenger、チャットウィジェット",
+            "integrations": "連携: Wix、WordPress、Shopify、Make.com、Squarespace",
+            "aiAgent": "生涯AI応答100回付きAIエージェント:",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "ナレッジベースには20のドキュメント (最大200KB) と25万トークンが含まれます",
+            "workspace": "ワークスペース1つ"
+          },
+          "buttonText": "無料で始める"
+        },
+        "premium": {
+          "name": "プレミアム",
+          "tagline": "AIエージェントとナレッジファイルをさらに追加",
+          "description": "AI自動化でサポートを拡大",
+          "month": "月",
+          "year": "年",
+          "year_description": "毎年2ヶ月分節約",
+          "features": {
+            "humanAgents": "人間ユーザー4名 (追加の人間ユーザーは月額$10)",
+            "humanAgentPermission": "人間エージェントの権限をサポート",
+            "assignAgent": "個別の会話に人間エージェントを割り当てる",
+            "unreadCounter": "各人間エージェントの未読メッセージカウンター",
+            "transferToHuman": "AIエージェントから人間エージェントへのライブ転送",
+            "transferToAI": "人間エージェントからAIエージェントへのライブ転送",
+            "unlimitedHumanChats": "無制限の人間エージェントチャット",
+            "unlimitedContacts": "無制限の連絡先",
+            "unlimitedHistory": "無制限のチャット履歴",
+            "exportHistory": "チャット履歴のエクスポートの自由",
+            "channels": "追加チャネル: Line、通話、電話",
+            "integrations": "追加連携: Googleカレンダーで会議を自動予約",
+            "aiAgents": "AIエージェント10名、各エージェントは以下を含む:",
+            "aiModels": "ChatGPT-4oおよびMistralモデル",
+            "knowledgeBase": "ナレッジベースには最大1000のドキュメント (各10MB) と500万トークンが含まれます",
+            "chatSummary": "チャットの要約とメールによる通知",
+            "agentPrivacy": "エージェントのプライバシー管理",
+            "contactCapture": "カスタムフォームによるユーザー連絡先の取得",
+            "chatCost": "チャットAIエージェントは1応答あたり$0.006から",
+            "voiceCost": "電話での音声AIエージェントは1分あたり$0.12から",
+            "workspaces": "ワークスペース2つ (追加のワークスペースは月額$15)",
+            "knowledgeBaseFeatures": "ナレッジベース:",
+            "advancedSearch": "高度なドキュメント検索 - キーワード、ベクトル、ハイブリッド",
+            "fileTypes": "20以上のファイルタイプをサポート、スプレッドシートの最適化を含む",
+            "automationFeatures": "自動化:",
+            "autoLabel": "ユーザー定義のラベルで会話を自動的にラベリング",
+            "builtInActions": "自動ラベリングによってトリガーされる組み込みアクション: SMS、メール",
+            "externalAPI": "トリガーとアクションの両方としての外部API呼び出し",
+            "voiceAgentFeatures": "音声AIエージェント:",
+            "voiceMessages": "メッセンジャー、WhatsApp、Lineでの音声メッセージをサポート",
+            "phoneCalls": "双方向電話会話をサポート",
+            "callDirection": "インバウンドとアウトバウンドの両方の通話をサポート",
+            "transferAgent": "人間エージェントに転送",
+            "callForwarding": "通話転送をサポート",
+            "sttLanguages": "10以上の音声認識言語",
+            "ttsLanguages": "Azure、ElevenLabs、OpenAIの音声による10以上のテキスト読み上げ言語",
+            "callRecording": "通話録音と要約",
+            "callNotification": "メールによる通話通知",
+            "formTrackers": "会話からフォームトラッカーを設定",
+            "slotExtractors": "会話からスロット抽出",
+            "timezoneFeatures": "タイムゾーンサポートによる現地時間認識、以下の場合:",
+            "businessHours": "営業時間",
+            "appointmentBooking": "アポイントメント予約",
+            "humanAgent": "人間ユーザー4名 (追加の人間ユーザーは月額$10)",
+            "supportHumanAgent": "人間エージェントの権限をサポート",
+            "liveTransferToHuman": "AIエージェントから人間エージェントへのライブ転送",
+            "liveTransferToAI": "人間エージェントからAIエージェントへのライブ転送",
+            "additionalChannels": "追加チャネル: Line、通話、電話",
+            "additionalIntegrations": "追加連携: Googleカレンダーで会議を自動予約",
+            "knowledgeBaseTitle": "ナレッジベース:",
+            "automationTitle": "自動化:",
+            "voiceAgentsTitle": "音声AIエージェント:",
+            "timezoneTitle": "タイムゾーンサポートによる現地時間認識、以下の場合:"
+          },
+          "buttonText": "プレミアムを開始",
+          "badge": "最も人気"
+        },
+        "enterprise": {
+          "name": "エンタープライズ",
+          "tagline": "独自のAIエージェントをカスタマイズ",
+          "description": "大企業向けのカスタムソリューション",
+          "features": {
+            "premiumIncluded": "プレミアムプランのすべて",
+            "customBuild": "カスタムビルド",
+            "multipleWorkspaces": "複数のワークスペース - エージェンシーに最適",
+            "workspaceAgents": "各ワークスペースには複数のAIエージェントと電話番号があります",
+            "gpt4oRealtimeAPI": "GPT-4oリアルタイムAPIへのアクセス",
+            "customAPI": "カスタムAPI連携",
+            "fineTuning": "ガイドラインと技術サポートによるファインチューニング"
+          },
+          "buttonText": "お問い合わせ"
+        }
+      },
+      "billing": {
+        "monthly": "月額",
+        "yearly": "年額",
+        "year": "年",
+        "month": "月",
+        "save": "月額請求と比較して2ヶ月分節約"
+      },
+      "calculator": {
+        "title": "プラン & モデル使用量計算ツール",
+        "description": "使用パターンに基づいてコストを見積もります",
+        "modelSelect": "AIモデルを選択",
+        "priceBreakdown": "コスト内訳",
+        "licenseYearly": "ライセンス料 (2ヶ月分節約):",
+        "licenseFee": "ライセンス料:",
+        "usageCost": "使用料:",
+        "usageCostYearly": "使用料 (12ヶ月):",
+        "addOnsCost": "アドオン費用:",
+        "addOnsCostYearly": "アドオン費用 (12ヶ月):",
+        "totalPerYear": "年間合計:",
+        "totalPerMonth": "月間合計:",
+        "averagePerMonth": "月間平均:",
+        "aiUsage": "AI使用量 (従量課金制)",
+        "chatResponses": "月間チャット応答数:",
+        "voiceMinutes": "月間音声通話分数:",
+        "voiceMinutesNote": "米国/カナダのみ",
+        "chatCost": "チャット費用",
+        "voiceCost": "音声費用",
+        "additionalResources": "追加リソース",
+        "humanAgents": "人間エージェント:",
+        "aiAgents": "AIエージェント:",
+        "workspaces": "ワークスペース:",
+        "included": "含まれるもの:",
+        "extra": "追加:",
+        "disclaimer": "使用料は実際の消費量に基づいて計算されます。プレミアムプランには以下が含まれます:",
+        "disclaimerDetails": "ライセンス料 + AI使用料 (従量課金制) + 含まれる制限を超える追加リソース。",
+        "planIncludes": "プレミアムプランに含まれるもの:",
+        "planIncludesHuman": "人間エージェント4名",
+        "planIncludesAI": "AIエージェント10名",
+        "planIncludesWorkspaces": "ワークスペース2つ",
+        "perChatResponse": "チャット応答あたり",
+        "perVoiceMinute": "音声通話1分あたり",
+        "voiceOnly": "音声のみモデル",
+        "voicePricing": "音声料金",
+        "standardVoice": "標準音声",
+        "premiumVoice": "プレミアム音声",
+        "placeholderText": "プレースホルダー"
+      },
+      "note": "価格は米ドルです。音声通話料金は国によって異なり、表示されている料金は米国とカナダのものです。その他の国については、お問い合わせください。",
+      "comparison": {
+        "title": "すべての機能を比較",
+        "subtitle": "各プランに含まれるものを正確に確認",
+        "featuresTitle": "機能",
+        "trulyFree": "本当に無料",
+        "premium": "プレミアム",
+        "enterprise": "エンタープライズ",
+        "humanAgents": "人間エージェント",
+        "aiAgents": "AIエージェント",
+        "aiModels": "AIモデル",
+        "knowledgeBase": "ナレッジベース",
+        "voiceAI": "音声AIエージェント",
+        "phoneCalls": "電話",
+        "automation": "自動化",
+        "apiIntegration": "API連携",
+        "workspaces": "ワークスペース",
+        "support": "サポート",
+        "features": {
+          "humanAgents": {
+            "free": "エージェント1名",
+            "premium": "ユーザー4名",
+            "enterprise": "無制限"
+          },
+          "aiAgents": {
+            "free": "エージェント1名 (応答100回)",
+            "premium": "エージェント10名 (無制限)",
+            "enterprise": "カスタムビルド"
+          },
+          "aiModels": {
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o、Mistral",
+            "enterprise": "高度なモデル"
+          },
+          "knowledgeBase": {
+            "free": "ドキュメント20件 (200KB)",
+            "premium": "ドキュメント5000件 (各10MB)",
+            "enterprise": "無制限"
+          },
+          "voiceAI": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
+          },
+          "phoneCalls": {
+            "free": "❌",
+            "premium": "✅ インバウンド/アウトバウンド",
+            "enterprise": "✅"
+          },
+          "automation": {
+            "free": "❌",
+            "premium": "✅ 高度",
+            "enterprise": "✅ カスタム"
+          },
+          "apiIntegration": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ カスタム"
+          },
+          "workspaces": {
+            "free": "1",
+            "premium": "2 (追加は各$15)",
+            "enterprise": "複数"
+          },
+          "support": {
+            "free": "コミュニティ",
+            "premium": "メール + 電話",
+            "enterprise": "専用技術サポート"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "カスタムが必要ですか？",
+        "description": "オンプレミス導入、高度なセキュリティ機能、専用サポートチームを含むカスタムエンタープライズソリューションを提供しています。",
+        "contactSales": "営業チームに問い合わせる"
+      },
+      "faq": {
+        "title": "よくある質問",
+        "question1": "無料プランは本当に永久に無料ですか？",
+        "answer1": "はい！当社の本当に無料プランには、無制限の会話、チャット履歴、連絡先を備えた人間エージェント1名が永久に無料で含まれています。さらに、AI機能を試すために、AI応答100回付きのAIエージェント1名も利用できます。クレジットカードは不要で、隠れた費用もありません。",
+        "question2": "月額請求と年額請求の違いは何ですか？",
+        "answer2": "年額請求では、プレミアムプランで2ヶ月分節約できます (月額$359.88に対し年額$299)。請求サイクルはプレミアムプランのみに影響し、無料プランは常に無料で、エンタープライズはカスタム料金です。",
+        "question3": "いつでもプランをアップグレードまたはダウングレードできますか？",
+        "answer3": "もちろんです！いつでもプランを変更できます。アップグレードは即座に有効になり、ダウングレードは現在の請求サイクルの終わりに有効になります。",
+        "question4": "無料プランでAI応答の上限を超えた場合はどうなりますか？",
+        "answer4": "無料プランには生涯AI応答100回が含まれています。この上限に達すると、無制限のAI応答のためにプレミアムにアップグレードする必要があります。人間エージェントの機能はすべてのプランで無制限のままです。",
+        "question5": "プレミアムプランの料金体系はどのようになっていますか？",
+        "answer5": "プレミアムには2つの要素があります：ライセンス料 (月額$29.99または年額$299) と従量課金制の利用料です。利用料には、1応答あたり$0.006から始まるAI応答 (ChatGPT-4o mini) と、1分あたり$0.12の音声通話が含まれます。追加の人間ユーザーは月額$10、追加のワークスペースは月額$15です。",
+        "question6": "キャンセルした場合、データはどうなりますか？",
+        "answer6": "データはあなたのものです。無料プランでも、いつでもすべてのチャット履歴、連絡先、ナレッジベースコンテンツをエクスポートできます。当社はデータの自由と透明性を信じています。",
+        "question7": "大企業向けのカスタム料金はありますか？",
+        "answer7": "はい！当社のエンタープライズプランは、カスタムビルド、エージェンシーに最適な複数のAIサービス、カスタムAPI連携、および技術サポート付きのプロフェッショナルなデザインガイドラインを提供します。パーソナライズされた見積もりについては、営業チームにお問い合わせください。"
+      },
+      "cta": {
+        "title": "あなたのAIチャット革命が",
+        "subtitle": "今すぐ始まる！",
+        "description": "すべてのメッセージングチャネルで優れた顧客体験を提供するためにSeaChatをすでに利用している10万以上の企業に参加しましょう",
+        "stats": {
+          "messages": "10万件以上",
+          "messagesLabel": "毎日送信されるメッセージ",
+          "uptime": "99.9%",
+          "uptimeLabel": "稼働保証",
+          "channels": "15以上",
+          "channelsLabel": "サポートされるチャネル",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "準拠 & 安全"
+        },
+        "startFree": "まずは本当に無料で始める",
+        "bookDemo": "ライブデモを予約",
+        "badges": {
+          "noCoding": "コーディング不要",
+          "freePlan": "永久無料プラン",
+          "cancelAnytime": "いつでもキャンセル可能",
+          "support": "24時間365日サポート"
+        },
+        "urgency": "期間限定: 年間プランで2ヶ月無料 + 優先オンボーディングサポート！",
+        "limitedTime": "期間限定:"
+      }
+    },
+    "knowledgeBase": {
+      "title": "強力なナレッジベース",
+      "subtitle": "30以上のファイルタイプをアップロードし、AIがカード、ボタン、画像、動画で豊富なコンテキスト応答を提供します。",
+      "supportedFormats": {
+        "title": "サポートされているファイルタイプ",
+        "formats": {
+          "pdf": {
+            "name": "PDFドキュメント",
+            "count": "15ファイル"
+          },
+          "excel": {
+            "name": "Excelシート",
+            "count": "8ファイル"
+          },
+          "word": {
+            "name": "Wordドキュメント",
+            "count": "12ファイル"
+          },
+          "images": {
+            "name": "画像",
+            "count": "25画像"
+          },
+          "websites": {
+            "name": "ウェブサイト",
+            "count": "5サイト"
+          },
+          "videos": {
+            "name": "動画",
+            "count": "3動画"
+          }
+        },
+        "richResponse": {
+          "title": "リッチな応答フォーマット:",
+          "features": [
+            "インタラクティブカード",
+            "アクションボタン",
+            "埋め込み画像",
+            "動画応答"
+          ]
+        },
+        "addDocuments": "ドキュメントを追加"
+      },
+      "uploadModal": {
+        "title": "ドキュメントをアップロード",
+        "dropzone": {
+          "title": "ここにファイルをドロップ",
+          "description": "PDF、Word、Excel、画像、動画などをサポート",
+          "button": "ファイルを選択"
+        },
+        "demoFiles": [
+          "sample_manual.pdf",
+          "product_data.xlsx",
+          "brand_guide.jpg"
+        ],
+        "close": "デモを閉じる"
+      }
+    },
+    "useCases": {
+      "title": "業界を横断する成功事例",
+      "subtitle": "SeaChatの人間とAIのハイブリッドアプローチで、ビジネスがカスタマーサポートをどのように変革しているかをご覧ください。",
+      "cases": {
+        "ecommerce": {
+          "title": "Eコマースサポート革命",
+          "industry": "小売",
+          "challenge": "限られたスタッフで、複数のチャネルにわたる1日500件以上の顧客の問い合わせを管理",
+          "solution": "AIエージェントが定型的な問い合わせの70%を処理し、人間エージェントが複雑な問題を処理するSeaChatを導入",
+          "results": [
+            "応答時間が60%短縮",
+            "顧客満足度が40%向上",
+            "サポート業務のコストが75%削減"
+          ],
+          "metrics": {
+            "responseTime": "< 30秒",
+            "satisfaction": "94%",
+            "cost": "-75%"
+          }
+        },
+        "healthcare": {
+          "title": "ヘルスケア患者サポート",
+          "industry": "ヘルスケア",
+          "challenge": "HIPAA準拠を維持しながら、24時間365日患者サポートを提供",
+          "solution": "アポイントメント予約と症状の事前スクリーニングを備えた安全なAIエージェントを統合",
+          "results": [
+            "24時間365日患者サポート",
+            "ノーショーが50%削減",
+            "100%のHIPAA準拠を維持"
+          ],
+          "metrics": {
+            "availability": "24時間365日",
+            "noShows": "-50%",
+            "compliance": "100%"
+          }
+        },
+        "fintech": {
+          "title": "金融サービスにおける卓越性",
+          "industry": "フィンテック",
+          "challenge": "機密性の高い金融に関する問い合わせを迅速かつ安全に処理",
+          "solution": "シームレスな人間へのエスカレーションを伴う金融規制に関するカスタムAIトレーニング",
+          "results": [
+            "初回接触での解決率90%",
+            "問い合わせ処理が3倍高速化",
+            "強化されたセキュリティプロトコル"
+          ],
+          "metrics": {
+            "resolution": "90%",
+            "speed": "3倍",
+            "security": "強化"
+          }
+        }
+      },
+      "cta": {
+        "title": "サポートを変革する準備はできていますか？",
+        "description": "優れた顧客体験を提供するためにSeaChatをすでに利用している何百もの企業に参加しましょう。",
+        "buttons": {
+          "viewCases": "すべての事例を見る",
+          "startStory": "あなたの成功事例を始める"
+        },
+        "signUpFree": "無料でサインアップ",
+        "bookDemo": "デモを予約"
+      },
+      "labels": {
+        "challenge": "課題:",
+        "solution": "ソリューション:",
+        "resultsAchieved": "達成された結果:"
+      },
+      "metrics": {
+        "responseTime": "応答時間",
+        "satisfaction": "満足度","cost": "コスト",
+        "availability": "可用性",
+        "noShows": "ノーショー",
+        "compliance": "コンプライアンス",
+        "resolution": "解決",
+        "speed": "速度",
+        "security": "セキュリティ"
+      }
+    },
+    "testimonials": {
+      "title": "世界中のサポートチームに愛されています",
+      "subtitle": "私たちの言葉だけでなく、顧客がSeaChatでサポートを変革した方法をご覧ください。",
+      "navigation": {
+        "previous": "前へ",
+        "next": "次へ"
+      },
+      "trustedBy": "世界中の革新的な企業から信頼されています",
+      "stats": {
+        "customers": "10,000人以上の満足した顧客",
+        "uptime": "99.9%の稼働率",
+        "messages": "5,000万件以上のメッセージを処理",
+        "rating": "4.9/5の顧客評価"
+      },
+      "testimonials": {
+        "0": {
+          "name": "Sarah Chen",
+          "title": "カスタマーサクセスディレクター",
+          "company": "TechFlow Solutions",
+          "quote": "SeaChatは当社のサポート業務を変革しました。無料の人間エージェントから始めるのはスタートアップにとって完璧で、AIでスケールアップするのはシームレスでした。応答時間は70%改善されました。",
+          "metrics": {
+            "improvement": "70%",
+            "feature": "応答時間"
+          }
+        },
+        "1": {
+          "name": "Marcus Rodriguez",
+          "title": "オペレーションマネージャー",
+          "company": "EcoCommerce",
+          "quote": "ナレッジベース機能は素晴らしいです。製品カタログとFAQをすべてアップロードしたところ、AIが顧客の問い合わせの80%を完璧な精度で処理するようになりました。",
+          "metrics": {
+            "improvement": "80%",
+            "feature": "問い合わせ解決"
+          }
+        },
+        "2": {
+          "name": "Emily Watson",
+          "title": "顧客体験責任者",
+          "company": "HealthTech Pro",
+          "quote": "オムニチャネル連携は完璧です。顧客はWhatsAppで会話を開始し、コンテキストを失うことなくウェブサイトで続けることができます。画期的です！",
+          "metrics": {
+            "improvement": "95%",
+            "feature": "顧客満足度"
+          }
+        },
+        "3": {
+          "name": "David Park",
+          "title": "創業者 & CEO",
+          "company": "StartupFlow",
+          "quote": "ブートストラップスタートアップとして、無料プランは命の恩人でした。初期費用なしで初日からプロフェッショナルなサポートを提供できました。今では、成長に合わせてAI機能に喜んで課金しています。",
+          "metrics": {
+            "improvement": "$0",
+            "feature": "初期費用"
+          }
+        },
+        "4": {
+          "name": "Lisa Thompson",
+          "title": "サポートチームリーダー",
+          "company": "GlobalRetail Inc",
+          "quote": "人間とAIの引き継ぎは非常にスムーズで、顧客はAIと人間エージェントの間で切り替わっていることにさえ気づきません。複雑なサポートシナリオにまさに必要だったものです。",
+          "metrics": {
+            "improvement": "100%",
+            "feature": "シームレスな引き継ぎ"
+          }
+        }
+      }
+    },
+    "blog": {
+      "title": "最新のインサイト & リソース",
+      "subtitle": "カスタマーサポートのトレンド、AI導入戦略、プラットフォーム最適化のヒントに関する専門家のインサイトで常にリードしましょう。",
+      "categories": {
+        "all": "すべて",
+        "ai": "AI & 自動化",
+        "strategy": "戦略",
+        "integration": "連携",
+        "knowledge": "ナレッジ管理",
+        "success": "顧客成功"
+      },
+      "featured": "注目記事",
+      "latest": "最近の投稿",
+      "readTime": "分で読める",
+      "stayUpdated": "最新情報を入手",
+      "newsletterSubtitle": "AIカスタマーサポート、プラットフォームの更新、業界のベストプラクティスに関する最新のインサイトをメールで受け取りましょう。",
+      "joinProfessionals": "5,000人以上のサポートプロフェッショナルに参加。いつでも購読解除可能。",
+      "loading": "ブログ記事を読み込み中...",
+      "loadingPost": "記事を読み込み中...",
+      "backToBlog": "ブログに戻る",
+      "share": "共有する",
+      "tags": "タグ",
+      "followLinkedIn": "LinkedInでフォロー",
+      "moreArticles": "その他の記事",
+      "relatedArticles": "関連記事",
+      "searchPlaceholder": "記事、トピック、タグを検索...",
+      "articleCount": "件の記事が見つかりました",
+      "noArticles": "記事が見つかりませんでした",
+      "adjustSearch": "検索語句またはカテゴリフィルターを調整してみてください。"
+    }
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "seameet": {
+    "common": {
+      "getStarted": "無料で始める",
+      "signIn": "サインイン",
+      "learnMore": "詳細を見る",
+      "readMore": "続きを読む",
+      "viewAll": "すべての記事を見る",
+      "tryNow": "今すぐ試す",
+      "contactUs": "お問い合わせ",
+      "subscribe": "購読する",
+      "search": "検索",
+      "back": "戻る"
+    },
+    "header": {
+      "features": "機能",
+      "integrations": "連携",
+      "solutions": "ソリューション",
+      "pricing": "料金",
+      "blog": "ブログ",
+      "language": "言語",
+      "featuresDropdown": {
+        "aiMeetingAssistant": "AI会議アシスタント",
+        "realtimeTranscription": "リアルタイム文字起こし",
+        "smartSummaries": "スマートな要約",
+        "actionItems": "アクションアイテム & フォローアップ",
+        "integrations": "連携",
+        "securityCompliance": "セキュリティ & コンプライアンス"
+      },
+      "integrationsDropdown": {
+        "calendar": "カレンダー & スケジューリング",
+        "videoConferencing": "ビデオ会議プラットフォーム",
+        "crm": "CRMシステム",
+        "collaboration": "コラボレーションツール",
+        "storage": "クラウドストレージ",
+        "api": "カスタムAPI"
+      },
+      "solutionsDropdown": {
+        "salesTeams": "営業チーム",
+        "customerSupport": "カスタマーサポート",
+        "marketingTeams": "マーケティングチーム",
+        "hrRecruiting": "人事 & 採用",
+        "education": "教育",
+        "legal": "法務",
+        "healthcare": "ヘルスケア",
+        "smallBusiness": "中小企業"
+      },
+      "backToMainSite": "メインサイトに戻る",
+      "viewAllIntegrations": "すべての連携を見る →",
+      "viewAllSolutions": "すべてのソリューションを見る →"
+    },
+    "hero": {
+      "title": {
+        "line1": "すべての会議を",
+        "line2": "生産的な行動に変える"
+      },
+      "subtitle": "AI会議アシスタント",
+      "description": "AI会議アシスタントのSeaMeetで、会議の生産性を最大化します。リアルタイムの文字起こし、スマートな要約、自動アクションアイテムで、すべての会話を実用的なインサイトに変えます。",
+      "startFree": "今すぐ無料で始める",
+      "exploreAI": "デモを予約",
+      "meetingsTranscribed": "100万件以上の会議を文字起こし",
+      "activeUsers": "50,000人以上のユーザー",
+      "productivityBoost": "生産性が30%向上",
+      "integrations": "30以上の連携",
+      "setup": "2分でセットアップ",
+      "badge": "無料で始める",
+      "animationSection": {
+        "title": "SeaMeetの動作",
+        "autoMode": "自動",
+        "manualMode": "手動"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "電話音声AI",
+          "description": "電話での会話を処理するAIエージェント"
+        },
+        "interactive": {
+          "name": "インタラクティブチャネル",
+          "description": "クリックしてさまざまな会話を見る"
+        },
+        "multiChannel": {
+          "name": "多チャネルフロー",
+          "description": "異なるプラットフォーム間を流れるメッセージ"
+        },
+        "agentToAI": {
+          "name": "人間からAIへの引き継ぎ",
+          "description": "人間から始めて、AIでスケールアップ"
+        },
+        "learning": {
+          "name": "AI学習ジャーニー",
+          "description": "コンテンツからAIが賢くなるのを見る"
+        },
+        "dashboard": {
+          "name": "リアルタイム分析",
+          "description": "ライブパフォーマンス指標"
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "SeaMeetを選ぶ理由？",
+      "subtitle": "会議の生産性を最大化し、すべての会話を実用的なインサイトに変えるために設計されたプラットフォーム。",
+      "aiMeetingAssistant": {
+        "title": "インテリジェントなAI会議アシスタント",
+        "description": "会議の文字起こし、要約、アクションアイテムの抽出を自動化し、チームが重要なことに集中できるようにします。",
+        "highlights": [
+          "リアルタイム文字起こし",
+          "スマートな要約",
+          "自動アクションアイテム"
+        ]
+      },
+      "integrations": {
+        "title": "シームレスな連携",
+        "description": "Googleカレンダー、Outlook、Zoom、Slackなど、お気に入りの会議ツールやコラボレーションツールと連携します。",
+        "highlights": [
+          "カレンダー同期",
+          "ビデオ会議連携",
+          "CRM統合"
+        ]
+      },
+      "securityCompliance": {
+        "title": "エンタープライズセキュリティ & コンプライアンス",
+        "description": "SOC 2、HIPAA、GDPRなどの業界規制に準拠した、エンタープライズグレードのセキュリティとプライバシー。",
+        "highlights": [
+          "データ暗号化",
+          "アクセス制御",
+          "監査ログ"
+        ]
+      },
+      "statsBar": {
+        "meetingsTranscribed": "100万件以上の会議を文字起こし",
+        "activeUsers": "50,000人以上のユーザー",
+        "productivityBoost": "生産性が30%向上",
+        "integrations": "30以上の連携"
+      }
+    },
+    "featureTabs": {
+      "title": "強力な機能、シンプルなセットアップ",
+      "subtitle": "会議の生産性を変革するために設計された、当社の包括的な機能セットをご覧ください。",
+      "tabs": {
+        "aiMeetingAssistant": "AI会議アシスタント",
+        "realtimeTranscription": "リアルタイム文字起こし",
+        "smartSummaries": "スマートな要約",
+        "actionItems": "アクションアイテム & フォローアップ",
+        "integrations": "連携",
+        "securityCompliance": "セキュリティ & コンプライアンス"
+      },
+      "content": {
+        "aiMeetingAssistant": {
+          "title": "インテリジェントなAI会議アシスタント",
+          "subtitle": "会議の文字起こし、要約、アクションアイテムの抽出を自動化し、チームが重要なことに集中できるようにします。",
+          "features": [
+            "自動会議参加",
+            "リアルタイム文字起こし",
+            "スマートな要約",
+            "アクションアイテムの抽出",
+            "スピーカー識別",
+            "多言語サポート"
+          ],
+          "tryFeature": "この機能を試す",
+          "watchDemo": "デモを見る"
+        },
+        "realtimeTranscription": {
+          "title": "リアルタイム文字起こし",
+          "subtitle": "会議中に話されたすべての言葉を正確にキャプチャし、後で参照できるようにします。",
+          "features": [
+            "99%以上の精度",
+            "スピーカー識別",
+            "タイムスタンプ付き文字起こし",
+            "編集可能な文字起こし",
+            "検索可能な文字起こし",
+            "多言語サポート"
+          ],
+          "tryFeature": "この機能を試す",
+          "watchDemo": "デモを見る"
+        },
+        "smartSummaries": {
+          "title": "スマートな要約",
+          "subtitle": "AIが会議の主要なポイント、決定、ハイライトを自動的に要約し、時間を節約します。",
+          "features": [
+            "AI駆動型要約",
+            "カスタマイズ可能な要約テンプレート",
+            "主要な決定の抽出",
+            "ハイライトの識別",
+            "共有可能な要約",
+            "検索可能な要約"
+          ],
+          "tryFeature": "この機能を試す",
+          "watchDemo": "デモを見る"
+        },
+        "actionItems": {
+          "title": "アクションアイテム & フォローアップ",
+          "subtitle": "AIが会議からアクションアイテム、所有者、期限を自動的に抽出し、チームが責任を負うようにします。",
+          "features": [
+            "自動アクションアイテム抽出",
+            "所有者と期限の割り当て",
+            "フォローアップリマインダー",
+            "タスク管理連携",
+            "共有可能なアクションアイテムリスト",
+            "進捗追跡"
+          ],
+          "tryFeature": "この機能を試す",
+          "watchDemo": "デモを見る"
+        },
+        "integrations": {
+          "title": "シームレスな連携",
+          "subtitle": "Googleカレンダー、Outlook、Zoom、Slackなど、お気に入りの会議ツールやコラボレーションツールと連携します。",
+          "features": [
+            "カレンダー同期",
+            "ビデオ会議連携",
+            "CRM統合",
+            "コラボレーションツール連携",
+            "クラウドストレージ連携",
+            "カスタムAPIアクセス"
+          ],
+          "tryFeature": "この機能を試す",
+          "watchDemo": "デモを見る"
+        },
+        "securityCompliance": {
+          "title": "エンタープライズセキュリティ & コンプライアンス",
+          "subtitle": "SOC 2、HIPAA、GDPRなどの業界規制に準拠した、エンタープライズグレードのセキュリティとプライバシー。",
+          "features": [
+            "データ暗号化",
+            "アクセス制御",
+            "監査ログ",
+            "シングルサインオン (SSO)",
+            "データ保持ポリシー",
+            "コンプライアンスレポート"
+          ],
+          "tryFeature": "この機能を試す",
+          "watchDemo": "デモを見る"
+        }
+      }
+    },
+    "pricing": {
+      "title": "成長に合わせて変化する料金体系",
+      "subtitle": "無料で始めて、チームのニーズに合わせてスケールアップします。",
+      "monthly": "月額",
+      "yearly": "年額",
+      "save": "20%節約",
+      "customize": "プランをカスタマイズ",
+      "plans": {
+        "free": {
+          "name": "無料",
+          "tagline": "AI会議アシスタントを体験",
+          "description": "個人ユーザーや小規模チームに最適",
+          "features": {
+            "meetings": "月間5件の会議",
+            "transcription": "リアルタイム文字起こし",
+            "summaries": "スマートな要約",
+            "actionItems": "アクションアイテムの抽出",
+            "integrations": "Googleカレンダー、Outlook連携",
+            "storage": "7日間のストレージ"
+          },
+          "buttonText": "無料で始める"
+        },
+        "pro": {
+          "name": "プロ",
+          "tagline": "チームの生産性を最大化",
+          "description": "成長するチームやビジネスに最適",
+          "month": "月",
+          "year": "年",
+          "year_description": "毎年2ヶ月分節約",
+          "features": {
+            "meetings": "月間無制限の会議",
+            "transcription": "リアルタイム文字起こし",
+            "summaries": "スマートな要約",
+            "actionItems": "アクションアイテム & フォローアップ",
+            "integrations": "すべてのカレンダー、ビデオ会議、CRM連携",
+            "storage": "無制限のストレージ",
+            "speakerId": "スピーカー識別",
+            "customTemplates": "カスタム要約テンプレート",
+            "prioritySupport": "優先サポート"
+          },
+          "buttonText": "プロを開始",
+          "badge": "最も人気"
+        },
+        "enterprise": {
+          "name": "エンタープライズ",
+          "tagline": "カスタムソリューションと専用サポート",
+          "description": "大企業や特定のニーズを持つ企業に最適",
+          "features": {
+            "proIncluded": "プロプランのすべて",
+            "customIntegrations": "カスタム連携",
+            "onPremise": "オンプレミス導入オプション",
+            "dedicatedSupport": "専用アカウントマネージャー",
+            "advancedSecurity": "高度なセキュリティ & コンプライアンス",
+            "customAIModels": "カスタムAIモデル"
+          },
+          "buttonText": "お問い合わせ"
+        }
+      },
+      "billing": {
+        "monthly": "月額",
+        "yearly": "年額",
+        "year": "年",
+        "month": "月",
+        "save": "月額請求と比較して2ヶ月分節約"
+      },
+      "calculator": {
+        "title": "会議時間計算ツール",
+        "description": "月間会議時間に基づいてコストを見積もります",
+        "meetingsPerMonth": "月間会議数:",
+        "avgDuration": "平均会議時間 (分):",
+        "totalMinutes": "合計会議時間 (分):",
+        "priceBreakdown": "コスト内訳",
+        "licenseFee": "ライセンス料:",
+        "usageCost": "使用料:",
+        "totalPerMonth": "月間合計:",
+        "note": "価格は米ドルです。",
+        "perMinute": "1分あたり",
+        "perMeeting": "1会議あたり",
+        "perUser": "1ユーザーあたり",
+        "placeholderText": "プレースホルダー"
+      },
+      "note": "価格は米ドルです。",
+      "comparison": {
+        "title": "すべての機能を比較",
+        "subtitle": "各プランに含まれるものを正確に確認",
+        "featuresTitle": "機能",
+        "free": "無料",
+        "pro": "プロ",
+        "enterprise": "エンタープライズ",
+        "meetings": "会議数",
+        "transcription": "リアルタイム文字起こし",
+        "summaries": "スマートな要約",
+        "actionItems": "アクションアイテム",
+        "speakerId": "スピーカー識別",
+        "integrations": "連携",
+        "storage": "ストレージ",
+        "support": "サポート",
+        "features": {
+          "meetings": {
+            "free": "月間5件",
+            "pro": "無制限",
+            "enterprise": "無制限"
+          },
+          "transcription": {
+            "free": "✅",
+            "pro": "✅",
+            "enterprise": "✅"
+          },
+          "summaries": {
+            "free": "✅",
+            "pro": "✅",
+            "enterprise": "✅"
+          },
+          "actionItems": {
+            "free": "✅",
+            "pro": "✅",
+            "enterprise": "✅"
+          },
+          "speakerId": {
+            "free": "❌",
+            "pro": "✅",
+            "enterprise": "✅"
+          },
+          "integrations": {
+            "free": "カレンダー",
+            "pro": "すべて",
+            "enterprise": "カスタム"
+          },
+          "storage": {
+            "free": "7日間",
+            "pro": "無制限",
+            "enterprise": "無制限"
+          },
+          "support": {
+            "free": "コミュニティ",
+            "pro": "メール",
+            "enterprise": "専用"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "カスタムが必要ですか？",
+        "description": "オンプレミス導入、高度なセキュリティ機能、専用サポートチームを含むカスタムエンタープライズソリューションを提供しています。",
+        "contactSales": "営業チームに問い合わせる"
+      },
+      "faq": {
+        "title": "よくある質問",
+        "question1": "無料プランは本当に無料ですか？",
+        "answer1": "はい！当社の無料プランには、月間5件の会議、リアルタイム文字起こし、スマートな要約、アクションアイテムの抽出が含まれています。クレジットカードは不要で、隠れた費用もありません。",
+        "question2": "月間会議時間に基づいてコストはどのように計算されますか？",
+        "answer2": "プロプランの料金は、月間会議時間に基づいて計算されます。基本料金に加えて、1分あたりの料金が適用されます。計算ツールを使用して、使用量に基づいて正確な見積もりを取得できます。",
+        "question3": "いつでもプランをアップグレードまたはダウングレードできますか？",
+        "answer3": "もちろんです！いつでもプランを変更できます。アップグレードは即座に有効になり、ダウングレードは現在の請求サイクルの終わりに有効になります。",
+        "question4": "会議の文字起こしはどのくらい正確ですか？",
+        "answer4": "当社の文字起こしは、高度なAIモデルとスピーカー識別技術により、99%以上の精度を誇っています。これにより、会議のすべてのニュアンスが正確にキャプチャされます。",
+        "question5": "SeaMeetはどのビデオ会議プラットフォームと連携しますか？",
+        "answer5": "SeaMeetはZoom、Google Meet、Microsoft Teams、Webexなど、すべての主要なビデオ会議プラットフォームとシームレスに連携します。カレンダーとCRMシステムとも連携して、ワークフローを合理化します。",
+        "question6": "会議データは安全ですか？",
+        "answer6": "はい、お客様のデータのセキュリティとプライバシーは当社の最優先事項です。当社はSOC 2、HIPAA、GDPRに準拠しており、すべてのデータは転送中および保存中に暗号化されます。",
+        "question7": "大企業向けのカスタムソリューションはありますか？",
+        "answer7": "はい！当社のエンタープライズプランは、カスタム連携、オンプレミス導入オプション、専用アカウントマネージャー、高度なセキュリティ機能、カスタムAIモデルを提供します。パーソナライズされた見積もりについては、営業チームにお問い合わせください。"
+      },
+      "cta": {
+        "title": "あなたの会議を",
+        "subtitle": "生産的な行動に変える！",
+        "description": "SeaMeetをすでに利用している何千もの企業に参加し、会議の生産性を最大化し、すべての会話を実用的なインサイトに変えましょう。",
+        "stats": {
+          "meetings": "100万件以上",
+          "meetingsLabel": "文字起こしされた会議",
+          "productivity": "30%",
+          "productivityLabel": "生産性向上",
+          "integrations": "15以上",
+          "integrationsLabel": "サポートされる連携",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "準拠 & 安全"
+        },
+        "startFree": "まずは無料で始める",
+        "bookDemo": "ライブデモを予約",
+        "badges": {
+          "noCoding": "コーディング不要",
+          "freePlan": "無料プラン",
+          "cancelAnytime": "いつでもキャンセル可能",
+          "support": "24時間365日サポート"
+        },
+        "urgency": "期間限定: 年間プランで2ヶ月無料 + 優先オンボーディングサポート！",
+        "limitedTime": "期間限定:"
+      }
+    }
+  }
+}

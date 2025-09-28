@@ -1,0 +1,229 @@
+{
+  "seachat": {
+    "solutions": {
+      "industries": {
+        "hero": {
+          "title": "あらゆる業界に自信を持ってサービスを提供",
+          "subtitle": "ヘルスケアからフィンテックまで、当社のプラットフォームは、専門的な機能とコンプライアンス基準により、お客様の業界固有の要件に適応します。",
+          "cta": "業界ソリューションを探索する"
+        },
+        "ecommerce": {
+          "title": "Eコマース & 小売",
+          "description": "AIチャットボットとオムニチャネルサポートでオンライン販売を促進し、顧客満足度を向上させます。",
+          "features": {
+            "automatedSupport": {
+              "title": "自動カスタマーサポート",
+              "description": "AIチャットボットが注文状況、製品に関する問い合わせ、返品を処理します。",
+              "icon": "🛒"
+            },
+            "abandonedCart": {
+              "title": "放棄されたカートの回復",
+              "description": "パーソナライズされたメッセージで、ショッピングカートを放棄した顧客を再エンゲージします。",
+              "icon": "🛍️"
+            },
+            "personalizedRecommendations": {
+              "title": "パーソナライズされた推奨事項",
+              "description": "AIが顧客の行動と好みに基づいて製品を推奨します。",
+              "icon": "🎁"
+            },
+            "omnichannelSales": {
+              "title": "オムニチャネル販売",
+              "description": "WhatsApp、SMS、ウェブサイトチャット、ソーシャルメディアなど、すべてのチャネルで販売を促進します。",
+              "icon": "🌐"
+            }
+          },
+          "cta": "Eコマースソリューションを探索する"
+        },
+        "healthcare": {
+          "title": "ヘルスケア",
+          "description": "HIPAA準拠のメッセージングとAI自動化で患者とのコミュニケーションを合理化します。",
+          "features": {
+            "hipaaCompliance": {
+              "title": "HIPAA準拠",
+              "description": "すべての患者とのやり取りで最高のセキュリティとプライバシー基準を確保します。",
+              "icon": "🔒"
+            },
+            "appointmentScheduling": {
+              "title": "アポイントメント予約 & リマインダー",
+              "description": "AIがアポイントメントを予約し、リマインダーを送信し、ノーショーを減らします。",
+              "icon": "📅"
+            },
+            "patientSupport": {
+              "title": "患者サポート",
+              "description": "AIチャットボットが一般的な患者の問い合わせ、症状の事前スクリーニング、医療専門家へのルーティングを処理します。",
+              "icon": "👩‍⚕️"
+            },
+            "secureMessaging": {
+              "title": "安全なメッセージング",
+              "description": "患者と医療提供者の間で機密情報を安全に交換します。",
+              "icon": "✉️"
+            }
+          },
+          "cta": "ヘルスケアソリューションを探索する"
+        },
+        "fintech": {
+          "title": "金融サービス",
+          "description": "安全なコミュニケーション、自動化されたサポート、パーソナライズされたアドバイスで顧客エンゲージメントを強化します。",
+          "features": {
+            "secureCommunication": {
+              "title": "安全なコミュニケーション",
+              "description": "機密性の高い金融に関する問い合わせのための銀行レベルのセキュリティと暗号化。",
+              "icon": "🏦"
+            },
+            "automatedSupport": {
+              "title": "自動カスタマーサポート",
+              "description": "AIチャットボットが口座残高、取引履歴、一般的な金融に関する問い合わせを処理します。",
+              "icon": "🤖"
+            },
+            "personalizedAdvice": {
+              "title": "パーソナライズされたアドバイス",
+              "description": "AIが顧客の財務目標とリスク許容度に基づいてパーソナライズされたアドバイスを提供します。",
+              "icon": "💡"
+            },
+            "fraudDetection": {
+              "title": "不正検出 & アラート",
+              "description": "AIが疑わしい活動を検出し、顧客にリアルタイムでアラートを送信します。",
+              "icon": "🚨"
+            }
+          },
+          "cta": "金融サービスソリューションを探索する"
+        },
+        "education": {
+          "title": "教育",
+          "description": "AIチャットボットとオムニチャネルサポートで学生とのコミュニケーションと管理を合理化します。",
+          "features": {
+            "studentSupport": {
+              "title": "学生サポート",
+              "description": "AIチャットボットがコース登録、学費、キャンパス情報に関する学生の問い合わせを処理します。",
+              "icon": "🎓"
+            },
+            "admissionAutomation": {
+              "title": "入学自動化",
+              "description": "AIが入学に関する問い合わせを処理し、アポイントメントを予約し、申請プロセスをガイドします。",
+              "icon": "📝"
+            },
+            "parentCommunication": {
+              "title": "保護者とのコミュニケーション",
+              "description": "WhatsApp、SMS、メールを通じて保護者に重要な情報、イベント、緊急アラートを送信します。",
+              "icon": "👨‍👩‍👧‍👦"
+            },
+            "alumniEngagement": {
+              "title": "卒業生エンゲージメント",
+              "description": "AIが卒業生とつながり、イベントを宣伝し、寄付を募ります。",
+              "icon": "🤝"
+            }
+          },
+          "cta": "教育ソリューションを探索する"
+        },
+        "realEstate": {
+          "title": "不動産",
+          "description": "AIチャットボットとオムニチャネルサポートでリードを獲得し、内覧をスケジュールし、顧客満足度を向上させます。",
+          "features": {
+            "leadGeneration": {
+              "title": "リードジェネレーション & 適格化",
+              "description": "AIチャットボットがウェブサイト訪問者を惹きつけ、リードを適格化し、不動産業者に引き渡します。",
+              "icon": "🏡"
+            },
+            "showingScheduling": {
+              "title": "内覧スケジューリング",
+              "description": "AIが自動的に内覧を予約し、カレンダーと同期し、リマインダーを送信します。",
+              "icon": "📅"
+            },
+            "propertyInquiries": {
+              "title": "物件に関する問い合わせ",
+              "description": "AIチャットボットが物件に関する問い合わせ、価格、空室状況を処理します。",
+              "icon": "🏠"
+            },
+            "virtualTours": {
+              "title": "バーチャルツアー",
+              "description": "WhatsAppやウェブサイトチャットを通じてバーチャルツアーや物件写真を提供します。",
+              "icon": "📸"
+            }
+          },
+          "cta": "不動産ソリューションを探索する"
+        },
+        "travel": {
+          "title": "旅行 & ホスピタリティ",
+          "description": "AIチャットボットとオムニチャネルサポートで顧客体験を向上させ、予約を合理化します。",
+          "features": {
+            "bookingAutomation": {
+              "title": "予約自動化",
+              "description": "AIがフライト、ホテル、レンタカーの予約を処理し、確認を送信します。",
+              "icon": "✈️"
+            },
+            "customerSupport": {
+              "title": "24時間365日カスタマーサポート",
+              "description": "AIチャットボットがフライト状況、予約変更、一般的な問い合わせを処理します。",
+              "icon": "⏰"
+            },
+            "personalizedRecommendations": {
+              "title": "パーソナライズされた推奨事項",
+              "description": "AIが顧客の好みと旅行履歴に基づいて目的地やアクティビティを推奨します。",
+              "icon": "🗺️"
+            },
+            "multilingualSupport": {
+              "title": "多言語サポート",
+              "description": "AIが複数の言語で顧客とコミュニケーションを取り、グローバルな旅行者にサービスを提供します。",
+              "icon": "🌐"
+            }
+          },
+          "cta": "旅行 & ホスピタリティソリューションを探索する"
+        },
+        "saas": {
+          "title": "SaaS & テクノロジー",
+          "description": "AIチャットボットとオムニチャネルサポートで顧客オンボーディング、サポート、エンゲージメントを合理化します。",
+          "features": {
+            "onboardingAutomation": {
+              "title": "オンボーディング自動化",
+              "description": "AIが新規ユーザーを製品に案内し、一般的な質問に回答し、サポートリソースを提供します。",
+              "icon": "🚀"
+            },
+            "technicalSupport": {
+              "title": "技術サポート",
+              "description": "AIチャットボットが一般的な技術的な問題を処理し、トラブルシューティングガイドを提供し、必要に応じて人間のエージェントに引き継ぎます。",
+              "icon": "💻"
+            },
+            "featureAdoption": {
+              "title": "機能採用",
+              "description": "AIがユーザーに新機能を紹介し、使用方法をガイドし、エンゲージメントを促進します。",
+              "icon": "💡"
+            },
+            "customerFeedback": {
+              "title": "顧客フィードバック",
+              "description": "AIが顧客からフィードバックを収集し、製品開発チームに送信します。",
+              "icon": "📝"
+            }
+          },
+          "cta": "SaaS & テクノロジーソリューションを探索する"
+        },
+        "smallBusiness": {
+          "title": "中小企業",
+          "description": "手頃な価格で使いやすいソリューションで顧客とのやり取りを管理し、ビジネスを成長させます。",
+          "features": {
+            "affordablePricing": {
+              "title": "手頃な料金設定",
+              "description": "無料プランから始めて、成長に合わせてスケールアップできる柔軟な料金体系。",
+              "icon": "💰"
+            },
+            "easySetup": {
+              "title": "簡単なセットアップ",
+              "description": "技術的な知識なしで、数分でSeaChatをセットアップして実行できます。",
+              "icon": "🚀"
+            },
+            "allInOne": {
+              "title": "オールインワンプラットフォーム",
+              "description": "すべての顧客コミュニケーションを1つの統合ハブで管理し、時間を節約し、効率を向上させます。",
+              "icon": "🏠"
+            },
+            "scalable": {
+              "title": "スケーラブルなソリューション",
+              "description": "ビジネスの成長に合わせて、AI自動化と高度な機能を追加できます。",
+              "icon": "🌱"
+            }
+          },
+          "cta": "中小企業ソリューションを探索する"
+        }
+      }
+    }
+  }
+}

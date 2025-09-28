@@ -1,0 +1,2890 @@
+{
+  "seavoice": {
+    "header": {
+      "navigation": {
+        "platform": {
+          "title": "プラットフォーム",
+          "overview": "プラットフォーム概要",
+          "landlineMobile": "固定電話と携帯電話の音声",
+          "voipSipByoc": "VoIP、SIP、BYOC音声",
+          "lineCallPlus": "ビジネス向けLINE Call Plus",
+          "whatsAppVoice": "ビジネス向けWhatsApp音声API",
+          "speechToText": "音声認識",
+          "textToSpeech": "テキスト読み上げ",
+          "endToEndLlms": "エンドツーエンドLLM"
+        },
+        "inboundSolutions": {
+          "title": "インバウンドソリューション",
+          "virtualAssistant": "24時間365日バーチャルアシスタント",
+          "callTransfer": "スマートコール転送",
+          "ivrReplacement": "IVR代替",
+          "mentalHealth": "メンタルヘルスコンパニオン",
+          "scamShield": "詐欺防止シールド",
+          "technicalSupport": "テクニカルサポート",
+          "orderTracking": "注文状況と追跡",
+          "paymentProcessing": "支払い処理",
+          "appointmentBooking": "アポイントメント予約"
+        },
+        "outboundSolutions": {
+          "title": "アウトバウンドソリューション",
+          "leadGeneration": "リードジェネレーションと適格化",
+          "collections": "回収サービス",
+          "reactivation": "顧客再活性化",
+          "seniorChecks": "高齢者チェックコール",
+          "campaigns": "大規模キャンペーン",
+          "proactiveSupport": "プロアクティブサポート",
+          "renewals": "サブスクリプション更新",
+          "surveys": "顧客調査",
+          "fraudAlerts": "詐欺アラート"
+        },
+        "pricing": "料金"
+      },
+      "auth": {
+        "signIn": "サインイン",
+        "getStarted": "始める"
+      },
+      "backToMainSite": "メインサイトに戻る"
+    },
+    "home": {
+      "hero": {
+        "tagline": "あなたのビジネスは決して眠らない",
+        "title": {
+          "line1": "AI音声エージェント",
+          "line2": "24時間365日通話を処理"
+        },
+        "subtitle": {
+          "line1": "決して眠らない人間のようなAIで顧客とのやり取りを変革。",
+          "line2": "サポート、予約、アウトバウンドコールを大規模に自動化。"
+        },
+        "bookDemo": "デモを予約",
+        "signUp": "今すぐサインアップ"
+      },
+      "voiceDemo": {
+        "title": "当社の音声技術を試す",
+        "subtitle": "SeaVoiceの実際の例を聞いて、AI駆動型会話の未来を体験してください"
+      },
+      "conversationFlow": {
+        "step1": {
+          "title": "顧客が電話をかける",
+          "description": "発信者があなたのビジネス番号にダイヤルします"
+        },
+        "step2": {
+          "title": "AIエージェントが応答する",
+          "description": "SeaVoice AIが即座に応答します"
+        },
+        "step3": {
+          "title": "自然な会話",
+          "description": "人間のような音声インタラクション"
+        },
+        "step4": {
+          "title": "タスク完了",
+          "description": "予約、サポート、または転送"
+        }
+      },
+      "conversationExamples": {
+        "appointment": {
+          "customer": "こんにちは、来週の予約をしたいのですが。",
+          "ai": "予約のスケジュールをお手伝いできて嬉しいです！来週の空き状況を確認させてください。どのようなサービスをご希望ですか？",
+          "scenario": "アポイントメント予約"
+        },
+        "support": {
+          "customer": "最近の注文で問題が発生しています。助けていただけますか？",
+          "ai": "もちろんです！ご注文のお手伝いをさせていただきます。詳細を確認できるよう、注文番号をお知らせいただけますか？",
+          "scenario": "カスタマーサポート"
+        },
+        "inquiry": {
+          "customer": "営業時間は何時ですか？",
+          "ai": "月曜日から金曜日の午前9時から午後6時まで、土曜日は午前10時から午後4時まで営業しています。日曜日は休業です。当社のサービスについて何か特別なことを知りたいですか？",
+          "scenario": "一般的な問い合わせ"
+        }
+      },
+      "useCases": {
+        "title": {
+          "line1": "ビジネスを変革する",
+          "line2": "成功したユースケースで"
+        },
+        "subtitle": "業界のリーダーがSeaVoice AIを活用して顧客とのやり取りを革新し、成長を促進する方法をご覧ください",
+        "badge": "実証済みの成功事例",
+        "inbound": {
+          "category": "インバウンドソリューション",
+          "appointmentBooking": {
+            "title": "アポイントメント予約と管理",
+            "description": "空き状況、好み、ビジネスルールを理解するAIでアポイントメントのスケジュールを自動化します。"
+          },
+          "technicalSupport": {
+            "title": "テクニカルサポート自動化",
+            "description": "問題を診断し、顧客を解決策に導くAIで即座にテクニカルサポートを提供します。"
+          },
+          "virtualAssistant": {
+            "title": "バーチャルアシスタント",
+            "description": "一般的な問い合わせを処理し、情報を提供し、通話をインテリジェントにルーティングします。"
+          },
+          "callTransfer": {
+            "title": "通話転送とルーティング",
+            "description": "発信者のニーズに基づいて、通話を適切な部門またはエージェントにインテリジェントにルーティングします。"
+          },
+          "orderTracking": {
+            "title": "注文追跡とサポート",
+            "description": "顧客が注文状況を確認し、出荷を追跡し、配送状況の更新を受け取れるようにします。"
+          },
+          "paymentProcessing": {
+            "title": "支払い処理",
+            "description": "支払いを安全に処理し、請求に関する問い合わせを処理し、口座情報を管理します。"
+          },
+          "ivrReplacement": {
+            "title": "IVR代替",
+            "description": "スムーズな体験のために、従来のメニューを自然言語理解に置き換えます。"
+          },
+          "mentalHealth": {
+            "title": "メンタルヘルスサポート",
+            "description": "24時間365日、共感的なAI駆動型メンタルヘルスサポートを提供します。"
+          },
+          "scamShield": {
+            "title": "詐欺防止シールド",
+            "description": "リアルタイムの検出とブロックでユーザーを詐欺から保護します。"
+          },
+          "type": "インバウンド"
+        },
+        "outbound": {
+          "category": "アウトバウンドソリューション",
+          "leadGeneration": {
+            "title": "リードジェネレーションと適格化",
+            "description": "見込み客を特定し、適格化するAI駆動型リードジェネレーションで営業パイプラインを変革します。"
+          },
+          "seniorChecks": {
+            "title": "高齢者チェックコールとウェルネス",
+            "description": "健康状態を監視する共感的な会話で、高齢者向けの定期的なAI駆動型ウェルネスチェック。"
+          },
+          "surveys": {
+            "title": "顧客調査とフィードバック",
+            "description": "購入後の調査を実施し、貴重な顧客フィードバックを自動的に収集します。"
+          },
+          "collections": {
+            "title": "回収と支払いリマインダー",
+            "description": "関係を維持しながら支払い率を向上させる、敬意を払った効果的な回収コール。"
+          },
+          "reactivation": {
+            "title": "顧客再活性化",
+            "description": "パーソナライズされたアウトリーチキャンペーンで休眠顧客を再エンゲージします。"
+          },
+          "fraudAlerts": {
+            "title": "詐欺アラートと検証",
+            "description": "疑わしい取引について顧客に通知し、セキュリティのために身元を確認します。"
+          },
+          "campaigns": {
+            "title": "大規模キャンペーン",
+            "description": "何千もの顧客にグローバルにリーチするために大規模な音声キャンペーンを実行します。"
+          },
+          "proactiveSupport": {
+            "title": "プロアクティブなカスタマーサポート",
+            "description": "インテリジェントな通知で顧客に常に情報を提供します。"
+          },
+          "renewals": {
+            "title": "サブスクリプション更新",
+            "description": "リマインダーとシームレスな支払い処理で更新を自動化します。"
+          },
+          "type": "アウトバウンド"
+        },
+        "types": {
+          "inbound": "インバウンド",
+          "outbound": "アウトバウンド"
+        }
+      },
+      "howItWorks": {
+        "title": {
+          "prefix": "",
+          "highlight": "5つの簡単なステップで",
+          "suffix": "始める"
+        },
+        "subtitle": "20分未満でセットアップから稼働まで。当社の合理化されたプロセスにより、AI音声エージェントがすぐに通話を処理できるようになります。",
+        "badge": "シンプルなセットアッププロセス",
+        "step1": {
+          "title": "音声エージェントをトレーニングする",
+          "description": "数分で音声、スクリプト、応答をカスタマイズします。当社のAIはウェブサイトとGoogleビジネスプロフィールから学習し、ブランドを正確に表現します。"
+        },
+        "step2": {
+          "title": "電話システムを接続する",
+          "description": "SeaVoiceを既存の電話設定 (SIP/VoIP/PSTN) とシームレスに統合します。ビジネス番号を変更せずにSeaVoiceに通話を転送します。"
+        },
+        "step3": {
+          "title": "通話ルールを設定する",
+          "description": "SeaVoiceがさまざまな通話タイプをどのように処理し、チームにいつエスカレートするかを定義します。すべての発信者が適切な応答を受け取るようにします。"
+        },
+        "step4": {
+          "title": "稼働開始",
+          "description": "AI音声エージェントをアクティブ化し、通話の処理を開始します。プロセス全体は通常、最初から最後まで20分未満で完了します。"
+        },
+        "step5": {
+          "title": "24時間365日サポートと分析",
+          "description": "リアルタイムで通話を監視し、詳細な文字起こしを取得し、インサイトを活用してビジネスを改善します。当社のサポートチームは、パフォーマンスを最適化するお手伝いをいつでも行います。"
+        },
+        "ctaBadge": "ほとんどの顧客は20分以内に稼働します",
+        "liveTime": "ほとんどの顧客は20分以内に稼働します"
+      },
+      "comparison": {
+        "title": "音声AI vs. 人間 vs. アウトソースサービス",
+        "subtitle": "SeaVoice AIが従来のオプションと比較してどうなるかをご覧ください",
+        "seavoiceAi": "SeaVoice AI",
+        "fullTimeHuman": "フルタイムの人間",
+        "outsourcedService": "アウトソースサービス",
+        "availability": {
+          "feature": "24時間365日利用可能",
+          "seavoice": "常に稼働",
+          "human": "9時から5時のみ",
+          "outsourced": "追加料金"
+        },
+        "callVolume": {
+          "feature": "通話量処理",
+          "seavoice": "500件以上同時",
+          "human": "一度に1件の通話",
+          "outsourced": "5〜10件同時"
+        },
+        "language": {
+          "feature": "言語サポート",
+          "seavoice": "30以上の言語",
+          "human": "採用に限定",
+          "outsourced": "言語ごとに追加料金"
+        },
+        "emotional": {
+          "feature": "感情的知性",
+          "seavoice": "基本的な共感",
+          "human": "高い",
+          "outsourced": "エージェントに依存"
+        },
+        "compliance": {
+          "feature": "コンプライアンス",
+          "seavoice": "組み込みツール",
+          "human": "トレーニングが必要",
+          "outsourced": "トレーニングが必要"
+        },
+        "implementation": {
+          "feature": "実装時間",
+          "seavoice": "1日未満",
+          "human": "6〜8週間の採用",
+          "outsourced": "2〜4週間"
+        },
+        "costComparison": "💰 コスト比較",
+        "cost": {
+          "monthly": {
+            "feature": "月額コスト",
+            "seavoice": "$30から",
+            "human": "$3,397以上",
+            "outsourced": "$1,500〜$2,500"
+          },
+          "effective": {
+            "feature": "実効レート",
+            "seavoice": "$0.12/分",
+            "human": "$6.79/通話",
+            "outsourced": "$3.00〜$5.00/通話"
+          },
+          "hidden": {
+            "feature": "隠れたコスト",
+            "seavoice": "なし",
+            "human": "福利厚生 ($800+/月)",
+            "outsourced": "セットアップ料金"
+          }
+        },
+        "savings": {
+          "costVsHuman": "95%",
+          "costVsHumanLabel": "人間と比較したコスト削減",
+          "costVsOutsourced": "80%",
+          "costVsOutsourcedLabel": "アウトソースと比較した削減",
+          "annualSavings": "$40K以上",
+          "annualSavingsLabel": "年間削減額"
+        },
+        "cta": {
+          "title": "SeaVoice AIのメリットを体験する準備はできていますか？",
+          "subtitle": "24時間365日稼働し、無制限の通話を処理し、ビジネスとともにスケールアップするAIでカスタマーサービスを変革した何千ものビジネスに参加しましょう。",
+          "bookDemo": "デモを予約",
+          "signUp": "今すぐサインアップ",
+          "description": "24時間365日稼働し、無制限の通話を処理し、ビジネスとともにスケールアップするAIでカスタマーサービスを変革した何千ものビジネスに参加しましょう。"
+        },
+        "seavoiceAI": "SeaVoice AI",
+        "costDescription": "SeaVoice AIで劇的なコスト削減をご覧ください",
+        "costSavings": "95%",
+        "costSavingsLabel": "人間と比較したコスト削減",
+        "outsourcedSavings": "80%",
+        "outsourcedSavingsLabel": "アウトソースと比較した削減",
+        "annualSavings": "$40K以上",
+        "annualSavingsLabel": "年間削減額"
+        },
+        "features": {
+          "availability": "24時間365日利用可能",
+          "callVolume": "通話量処理",
+          "language": "言語サポート",
+          "emotional": "感情的知性",
+          "compliance": "コンプライアンス",
+          "implementation": "実装時間",
+          "monthlyCost": "月額コスト",
+          "effectiveRate": "実効レート",
+          "hiddenCosts": "隠れたコスト"
+        },
+        "seavoice": {
+          "availability": "常に稼働",
+          "callVolume": "500件以上同時",
+          "language": "30以上の言語",
+          "emotional": "基本的な共感",
+          "compliance": "組み込みツール",
+          "implementation": "1日未満",
+          "monthlyCost": "$30から",
+          "effectiveRate": "$0.12/分",
+          "hiddenCosts": "なし"
+        },
+        "human": {
+          "availability": "9時から5時のみ",
+          "callVolume": "一度に1件の通話",
+          "language": "採用に限定",
+          "emotional": "高い",
+          "compliance": "トレーニングが必要",
+          "implementation": "6〜8週間の採用",
+          "monthlyCost": "$3,397以上",
+          "effectiveRate": "$6.79/通話",
+          "hiddenCosts": "福利厚生 ($800+/月)"
+        },
+        "outsourced": {
+          "availability": "追加料金",
+          "callVolume": "5〜10件同時",
+          "language": "言語ごとに追加料金",
+          "emotional": "エージェントに依存",
+          "compliance": "トレーニングが必要",
+          "implementation": "2〜4週間",
+          "monthlyCost": "$1,500〜$2,500",
+          "effectiveRate": "$3.00〜$5.00/通話",
+          "hiddenCosts": "セットアップ料金"
+        }
+      },
+      "seachat": {
+        "title": {
+          "prefix": "SeaVoiceの機能は、",
+          "highlight": "SeaChat",
+          "suffix": "によって提供されます"
+        },
+        "subtitle": "オムニチャネルでマルチモーダルなノーコードエージェントプラットフォーム",
+        "teamwork": {
+          "title": "1つのチームがあなたのために連携"
+        },
+        "chatAgent": {
+          "title": "チャットAIエージェント",
+          "description": "ウェブ、モバイル、メッセージングプラットフォームでの即時応答"
+        },
+        "humanAgent": {
+          "title": "人間エージェント",
+          "description": "人間的な触れ合いが必要な複雑な問い合わせへのシームレスな引き継ぎ"
+        },
+        "voiceAgent": {
+          "title": "音声AIエージェント",
+          "description": "高度な音声AIによる自然な電話での会話"
+        },
+        "learnMore": "SeaChatについてもっと知る",
+        "teamTitle": "1つのチームがあなたのために連携"
+      },
+      "testimonial": {
+        "quote": "SeaVoiceはエージェントのトレーニング時間を2週間短縮し、効率を20%向上させました",
+        "author": "Sarah Johnson",
+        "role": "カスタマーサクセス担当副社長",
+        "company": "TechCorp Inc.",
+        "stat1": "2週間",
+        "stat1Label": "トレーニング時間の短縮",
+        "stat2": "20%",
+        "stat2Label": "効率向上",
+        "stat3": "94%",
+        "stat3Label": "顧客満足度",
+        "stat4": "500件以上",
+        "stat4Label": "同時通話"
+      },
+      "faq": {
+        "title": {
+          "line1": "よくある",
+          "line2": "質問"
+        },
+        "subtitle": "SeaVoice AIについて知っておくべきことすべてと、それがビジネスコミュニケーションをどのように変革できるか",
+        "badge": "質問がありますか？",
+        "expandAll": "すべての質問を展開",
+        "collapseAll": "すべてを折りたたむ",
+        "q1": {
+          "question": "SeaVoiceは従来のチャットボットとどう違うのですか？",
+          "answer": "SeaVoiceは、コンテキストを理解し、割り込みを処理し、電話で人間のような応答を提供できる高度なAIによるリアルタイムの音声会話を提供します。テキストベースのチャットボットとは異なり、SeaVoiceは自然な話し方で実際の音声通話を処理します。"
+        },
+        "q2": {
+          "question": "セットアップにはどのくらい時間がかかりますか？",
+          "answer": "セットアップは通常20分未満で完了します。音声エージェントをトレーニングし、電話システムを接続し、通話ルールを設定し、1回のセッションで稼働できます。"
+        },
+        "q3": {
+          "question": "発信者はAIと話していることを知ることができますか？",
+          "answer": "当社の高度な音声技術は、非常に人間のような会話を生み出します。一部の発信者は気づくかもしれませんが、ほとんどは体験を自然で役立つものだと感じています。必要に応じて、AIがAIアシスタントとして自己紹介するようにカスタマイズすることもできます。"
+        },
+        "q4": {
+          "question": "SeaVoiceが質問に答えられない場合はどうなりますか？",
+          "answer": "SeaVoiceは、優雅にエスカレーションを処理するように設計されています。人間のエージェントに通話を転送したり、メッセージを受け取ったり、コールバックをスケジュールしたり、設定されたルールに基づいて発信者を適切なリソースに誘導したりできます。"
+        },
+        "q5": {
+          "question": "料金はどのように機能しますか？",
+          "answer": "透明性の高い分単位の料金を提供しています。プレミアムプランには、追加の使用量が分単位で請求される基本分数と、エンタープライズプランはボリュームと特定のニーズに基づいてカスタマイズされます。"
+        },
+        "q6": {
+          "question": "AIの音声をカスタマイズできますか？",
+          "answer": "はい！複数の音声オプションから選択し、トーンと話し方を調整し、エンタープライズプランではカスタム音声をクローンすることもできます。AIはブランドのコミュニケーションスタイルに合わせてトレーニングできます。"
+        },
+        "q7": {
+          "question": "SeaVoiceは多言語対応ですか？",
+          "answer": "はい、SeaVoiceは英語、スペイン語、フランス語、ドイツ語、イタリア語、ポルトガル語、オランダ語、ロシア語、中国語、日本語など、10以上の言語での会話をサポートしています。"
+        },
+        "q8": {
+          "question": "どの業界がSeaVoiceから最も恩恵を受けますか？",
+          "answer": "SeaVoiceは、ヘルスケア、不動産、ホスピタリティ、金融サービス、Eコマース、プロフェッショナルサービス、および大量の通話を処理したり24時間365日の可用性を必要とするあらゆるビジネスなど、さまざまな業界でうまく機能します。"
+        },
+        "q9": {
+          "question": "SeaVoiceは緊急通話を処理できますか？",
+          "answer": "SeaVoiceは緊急の問い合わせを処理し、適切にエスカレートできますが、緊急プロトコルを直接維持することをお勧めします。SeaVoiceは、緊急関連の通話を人間のオペレーターに即座に転送するように設定できます。"
+        },
+        "q10": {
+          "question": "SeaVoiceはスパム通話を検出できますか？",
+          "answer": "はい、SeaVoiceには組み込みのスパム検出機能が含まれており、疑わしい通話を特定してフィルタリングし、正当な通話が通過することを保証しながら、ビジネスを不要な中断から保護します。"
+        },
+        "q11": {
+          "question": "どうすれば始められますか？",
+          "answer": "始めるのは簡単です！SeaVoiceの動作を確認するためにデモを予約し、当社のチームが音声エージェントのセットアップ、電話システムとの統合、特定のニーズへの設定をお手伝いします。ほとんどの顧客は1日以内に稼働します。"
+        }
+      },
+      "finalCta": {
+        "title": "実際に見てみる準備はできていますか？",
+        "subtitle": "パーソナライズされたデモを受けて、SeaVoiceが顧客コミュニケーションをどのように変革できるかをご覧ください",
+        "bookDemo": "今すぐデモを予約",
+        "signUp": "今すぐサインアップ"
+      },
+      "dashboard": {
+        "stats": {
+          "totalCalls": "247",
+          "activeCalls": "3",
+          "avgWaitTime": "0:12",
+          "satisfaction": "4.8",
+          "resolutionRate": "92"
+        },
+        "calls": {
+          "sarah": {
+            "customer": "Sarah Johnson",
+            "type": "アポイントメント予約",
+            "status": "完了",
+            "duration": "3:42",
+            "time": "2分前",
+            "outcome": "来週火曜日の午後2時にアポイントメントをスケジュール",
+            "tag1": "予約",
+            "tag2": "満足"
+          },
+          "mike": {
+            "customer": "Mike Chen",
+            "type": "テクニカルサポート",
+            "status": "転送済み",
+            "duration": "1:28",
+            "time": "5分前",
+            "outcome": "技術専門家に転送 - 問題: ログインの問題",
+            "tag1": "サポート",
+            "tag2": "エスカレート済み"
+          },
+          "emily": {
+            "customer": "Emily Rodriguez",
+            "type": "注文に関する問い合わせ",
+            "status": "完了",
+            "duration": "2:15",
+            "time": "8分前",
+            "outcome": "注文状況を提供 - パッケージは明日到着",
+            "tag1": "問い合わせ",
+            "tag2": "解決済み"
+          },
+          "david": {
+            "customer": "David Wilson",
+            "type": "請求に関する質問",
+            "status": "進行中",
+            "duration": "1:03",
+            "time": "今",
+            "outcome": "現在、請求の不一致について議論中",
+            "tag1": "請求",
+            "tag2": "アクティブ"
+          }
+        },
+        "mockCalls": {
+          "customer1": "Sarah Johnson",
+          "type1": "アポイントメント予約",
+          "status1": "完了",
+          "duration1": "3:42",
+          "time1": "2分前",
+          "outcome1": "来週火曜日の午後2時にアポイントメントをスケジュール",
+          "customer2": "Mike Chen",
+          "type2": "テクニカルサポート",
+          "status2": "転送済み",
+          "duration2": "1:28",
+          "time2": "5分前",
+          "outcome2": "技術専門家に転送 - 問題: ログインの問題",
+          "customer3": "Emily Rodriguez",
+          "type3": "注文に関する問い合わせ",
+          "status3": "完了",
+          "duration3": "2:15",
+          "time3": "8分前",
+          "outcome3": "注文状況を提供 - パッケージは明日到着",
+          "customer4": "David Wilson",
+          "type4": "請求に関する質問",
+          "status4": "進行中",
+          "duration4": "1:03",
+          "time4": "今",
+          "outcome4": "現在、請求の不一致について議論中"
+        }
+      },
+      "testimonials": {
+        "metrics": {
+          "trainingTime": "2週間",
+          "trainingTimeLabel": "トレーニング時間の短縮",
+          "efficiency": "20%",
+          "efficiencyLabel": "効率向上",
+          "satisfaction": "94%",
+          "satisfactionLabel": "顧客満足度",
+          "simultaneousCalls": "500件以上",
+          "simultaneousCallsLabel": "同時通話"
+        },
+        "quote": "SeaVoiceはエージェントのトレーニング時間を2週間短縮し、効率を20%向上させました",
+        "author": "Sarah Johnson",
+        "role": "カスタマーサクセス担当副社長",
+        "company": "TechCorp Inc."
+      }
+    },
+    "pricing": {
+      "hero": {
+        "title": "シンプルで透明性の高い料金設定",
+        "subtitle": "インバウンドカスタマーサービスとアウトバウンドキャンペーン向けに設計された音声AIソリューション。SeaChatプレミアム ($29.99) とSeaXオムニチャネル ($99) の基盤の上に構築されています。"
+      },
+      "plans": {
+        "inboundOnly": {
+          "name": "インバウンドのみ",
+          "tagline": "カスタマーサービスに最適",
+          "price": "$29.99",
+          "period": "/月",
+          "description": "音声AIによるインバウンド通話ソリューションを必要とするビジネスに最適 (SeaChatプレミアムプランに基づく)",
+          "features": {
+            "aiCallHandling": "AIベースの通話処理 (インバウンド通話のみ)",
+            "voiceAIPrice": "音声AIは1分あたり$0.12から (ChatGPT-4o miniモデル)",
+            "phoneNumber": "電話番号が含まれます ($2-$3/月、E911アドレス付き)",
+            "callRecording": "通話録音と要約",
+            "transferHuman": "人間エージェントサポートへの転送",
+            "multiLanguage": "多言語音声サポート",
+            "sttLanguages": "10以上の音声認識言語",
+            "ttsLanguages": "Azure、ElevenLabs、OpenAIの音声による10以上のテキスト読み上げ言語",
+            "crmIntegrations": "CRM連携 (Salesforce、HubSpot)",
+            "calendarIntegration": "カレンダー連携 (Google、Outlook)",
+            "callAnalytics": "通話分析とレポート",
+            "emailNotifications": "通話のメール通知"
+          },
+          "limitations": {
+            "noOutbound": "アウトバウンド通話機能なし",
+            "noBulkCampaigns": "一括キャンペーン機能なし"
+          },
+          "cta": "インバウンドのみで始める",
+          "poweredBy": "SeaChatを搭載"
+        },
+        "inboundOutbound": {
+          "name": "インバウンド + アウトバウンド",
+          "tagline": "音声キャンペーンをスケールアップ",
+          "price": "$99",
+          "period": "/月",
+          "description": "大規模な音声AIキャンペーンに最適 (最初のユーザーのSeaXオムニチャネル料金と同等)",
+          "badge": "最も人気",
+          "features": {
+            "everythingInbound": "インバウンドのみプランのすべて",
+            "outboundCalling": "アウトバウンド通話とキャンペーン",
+            "bulkCampaigns": "一括音声AIキャンペーン",
+            "voiceAIPrice": "音声AIは1分あたり$0.12から (ChatGPT-4o miniモデル)",
+            "additionalUsers": "追加ユーザー: 各$49/月",
+            "multipleNumbers": "複数の電話番号をサポート",
+            "campaignScheduling": "キャンペーンのスケジュールと自動化",
+            "advancedRouting": "高度な通話ルーティング",
+            "customVoiceTraining": "カスタム音声トレーニング",
+            "voicemailDrop": "ボイスメールドロップ機能 ($0.05/ドロップ)",
+            "apiAccess": "RESTful APIアクセス",
+            "seachatIntegration": "マルチチャネルサポートのためのSeaChat連携",
+            "advancedAnalytics": "高度な分析ダッシュボード",
+            "prioritySupport": "優先サポート"
+          },
+          "cta": "インバウンド + アウトバウンドで始める",
+          "poweredBy": "SeaX + SeaChatを搭載"
+        },
+        "custom": {
+          "name": "カスタムプラン",
+          "tagline": "エンタープライズグレードのソリューション",
+          "price": "お問い合わせください",
+          "period": "",
+          "description": "特定のビジネスニーズに合わせたオーダーメイドのソリューション (SeaChat/SeaXエンタープライズプランと同様)",
+          "customPriceMessage": "プロジェクトを構築しましょう",
+          "features": {
+            "everythingInboundOutbound": "インバウンド + アウトバウンドプランのすべて",
+            "multipleWorkspaces": "複数のワークスペース (エージェンシーに最適)",
+            "workspaceAgents": "各ワークスペースには複数のAIエージェントと電話番号があります",
+            "customPricing": "ボリュームに基づいて分単位でカスタム料金",
+            "accountManager": "専任アカウントマネージャー",
+            "uptimeSLA": "99.99%の稼働率SLA",
+            "compliance": "HIPAA/PCI準拠が利用可能",
+            "whiteLabel": "ホワイトラベルソリューション",
+            "customAPI": "カスタムAPI連携",
+            "advancedSecurity": "高度なセキュリティ機能",
+            "voiceCloning": "カスタム音声クローン",
+            "phoneSupport": "優先電話サポート",
+            "technicalSupport": "プロフェッショナルなデザインガイドラインとテクニカルサポート",
+            "onPremise": "オンプレミス導入オプション"
+          },
+          "cta": "お問い合わせください"
+        }
+      },
+      "productRelationship": {
+        "title": "SeaVoiceがSeaChatとSeaXにどのように接続するか",
+        "seachatIntegration": {
+          "title": "🔗 SeaChat連携",
+          "description": "SeaVoiceインバウンドのみ ($29.99/月) は、SeaChatプレミアムプランの基盤の上に構築されており、1分あたり$0.12でインバウンド通話の音声AI機能を提供します。",
+          "subtitle": "既存のSeaChat設定に音声AIを追加したいビジネスに最適です。"
+        },
+        "seaxIntegration": {
+          "title": "📞 SeaX連携",
+          "description": "SeaVoiceインバウンド + アウトバウンド ($99/月) は、SeaXオムニチャネル料金を反映しており、コールバック処理を伴う大規模な音声キャンペーンを可能にします。",
+          "subtitle": "包括的な音声AIカバレッジを必要とするアウトバウンドキャンペーンを実行するビジネスに最適です。"
+        },
+        "completePicture": {
+          "title": "✨ 全体像",
+          "description": "SeaChat、SeaX、SeaVoiceのすべての音声AI通話は、ChatGPT-4o miniモデルを使用して1分あたり$0.12のレートを使用します。コンタクトがアウトバウンドキャンペーン後にコールバックすると、SeaVoiceは同じAIインテリジェンスでこれらのインバウンド通話をシームレスに処理します。"
+        }
+      },
+      "faq": {
+        "title": "よくある質問",
+        "subtitle": "SeaVoiceの料金と機能について知っておくべきことすべて",
+        "question1": "SeaVoiceの料金はSeaChatとSeaXとどう関係していますか？",
+        "answer1": "SeaVoiceインバウンドのみプラン ($29.99/月) は、インバウンド音声AIに焦点を当てたSeaChatプレミアムプランに基づいています。インバウンド + アウトバウンドプラン ($99/月、最初のユーザーの場合) は、より広範な音声キャンペーンのためのSeaXオムニチャネル料金を反映しています。すべての音声AI通話は、ChatGPT-4o miniモデルを使用して1分あたり$0.12から始まります。",
+        "question2": "インバウンドのみプランとインバウンド + アウトバウンドプランの違いは何ですか？",
+        "answer2": "インバウンドのみ ($29.99/月) は、AIで着信通話を処理し、カスタマーサービスに最適です。インバウンド + アウトバウンド ($99/月、最初のユーザーの場合) は、一括キャンペーン機能とアウトバウンド通話を追加し、大規模な音声キャンペーンを実行する営業およびマーケティングチームに最適です。",
+        "question3": "既存のビジネス電話番号を維持できますか？",
+        "answer3": "はい、既存のビジネス番号を維持し、SeaVoiceに通話を転送するか、新しい番号を提供できます。各電話番号は、E911アドレス付きで月額$2〜$3かかります。",
+        "question4": "音声AI通話の実際のコストはいくらですか？",
+        "answer4": "すべての音声AI通話は、ChatGPT-4o miniモデルを使用して1分あたり$0.12から始まります。これは、SeaChatプレミアムプランとSeaVoiceプラン全体で同じレートです。ChatGPT-4oのような高レベルモデルは1分あたり$0.80かかり、カスタムプランで利用できます。",
+        "question5": "アウトバウンドキャンペーン後にコンタクトがコールバックした場合はどうなりますか？",
+        "answer5": "インバウンド + アウトバウンドプランでは、キャンペーン通話を受信した後にコンタクトがコールバックすると、当社のインバウンド音声AIがこれらの通話をシームレスに処理し、顧客コミュニケーションに中断のない継続性を提供します。",
+        "question6": "インバウンドのみからインバウンド + アウトバウンドにアップグレードできますか？",
+        "answer6": "もちろんです！いつでもプランをアップグレードできます。アップグレードは即座に有効になり、アウトバウンド通話、キャンペーン機能、追加ユーザーシートにアクセスできるようになります。",
+        "question7": "大量の顧客向けにボリューム割引を提供していますか？",
+        "answer7": "はい、当社のカスタムプランは、特定のボリュームと使用パターンに基づいて交渉された価格を提供します。ビジネスのニーズに合わせてスケールアップするカスタム料金について話し合うために、営業チームにお問い合わせください。"
+      },
+      "cta": {
+        "title": "始める準備はできていますか？",
+        "subtitle": "今すぐ無料トライアルを開始し、AI音声自動化の力を体験してください",
+        "signUpFree": "無料でサインアップ",
+        "scheduleDemo": "デモをスケジュールする"
+      }
+    },
+    "footer": {
+      "description": "人間のように聞こえ、ビジネスとシームレスに統合するAI音声エージェントで、顧客通話の80%を自動化します。",
+      "platform": {
+        "title": "プラットフォーム",
+        "overview": "プラットフォーム概要",
+        "landlineMobile": "固定電話と携帯電話の音声",
+        "voipSipByoc": "VoIP、SIP、BYOC音声",
+        "lineCallPlus": "ビジネス向けLINE Call Plus",
+        "whatsAppVoice": "ビジネス向けWhatsApp音声API",
+        "speechToText": "音声認識",
+        "textToSpeech": "テキスト読み上げ",
+        "endToEndLlms": "エンドツーエンドLLM"
+      },
+      "inboundSolutions": {
+        "title": "インバウンドソリューション",
+        "virtualAssistant": "24時間365日バーチャルアシスタント",
+        "callTransfer": "スマートコール転送",
+        "ivrReplacement": "IVR代替",
+        "mentalHealth": "メンタルヘルスコンパニオン",
+        "scamShield": "詐欺防止シールド",
+        "technicalSupport": "テクニカルサポート",
+        "orderTracking": "注文状況と追跡",
+        "paymentProcessing": "支払い処理",
+        "appointmentBooking": "アポイントメント予約"
+      },
+      "outboundSolutions": {
+        "title": "アウトバウンドソリューション",
+        "leadGeneration": "リードジェネレーションと適格化",
+        "collections": "回収サービス",
+        "reactivation": "顧客再活性化",
+        "seniorChecks": "高齢者チェックコール",
+        "campaigns": "大規模キャンペーン",
+        "proactiveSupport": "プロアクティブサポート",
+        "renewals": "サブスクリプション更新",
+        "surveys": "顧客調査",
+        "fraudAlerts": "詐欺アラート"
+      },
+      "company": {
+        "title": "会社",
+        "pricing": "料金",
+        "productWiki": "製品Wiki",
+        "apiReferences": "APIリファレンス"
+      },
+      "legal": {
+        "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
+        "privacyPolicy": "プライバシーポリシー",
+        "termsOfService": "利用規約"
+      },
+      "stats": {
+        "callsHandled": "100万件以上の通話を処理",
+        "activeAgents": "50,000人以上のアクティブエージェント",
+        "uptime": "99.99%の稼働率"
+      },
+      "cta": {
+        "title": "顧客通話の80%を自動化する準備はできていますか？",
+        "description": "24時間365日顧客通話を処理し、コストを削減し、顧客満足度を向上させるためにSeaVoice AIエージェントを使用している何百ものビジネスに参加しましょう。",
+        "getStartedFree": "無料で始める",
+        "bookDemo": "デモを予約"
+      }
+    },
+    "priceCalculator": {
+      "hero": {
+        "title": "月額料金計算ツール",
+        "subtitle": "使用量に基づいて正確な月額コストを計算します。すべての料金は米国/カナダ向けで、電話料金が含まれています。"
+      },
+      "configure": {
+        "title": "プランを設定する"
+      },
+      "planType": {
+        "label": "1. プランタイプを選択してください",
+        "inbound": {
+          "title": "インバウンドのみ - $29.99/月",
+          "description": "カスタマーサービスに最適"
+        },
+        "inboundOutbound": {
+          "title": "インバウンド + アウトバウンド - $99/月",
+          "description": "音声キャンペーンをスケールアップ"
+        }
+      },
+      "phoneNumbers": {
+        "label": "2. 電話番号 (E911アドレス付き)",
+        "local": {
+          "label": "ローカル番号 (各$2/月)",
+          "tollFree": {
+            "label": "フリーダイヤル (各$3/月)",
+            "voiceAI": {
+              "label": "3. 音声AI分数 (1分あたり$0.12 - ChatGPT-4o mini)",
+              "range": {
+                "min": "0分",
+                "max": "5,000分",
+                "current": "分"
+              }
+            },
+            "humanAgent": {
+              "label": "4. 人間エージェント分数 (1分あたり$0.015)",
+              "range": {
+                "min": "0分",
+                "max": "2,000分",
+                "current": "分"
+              }
+            },
+            "breakdown": {
+              "title": "月額コストの内訳",
+              "inboundPlan": "インバウンドのみプラン",
+              "inboundOutboundPlan": "インバウンド + アウトバウンドプラン",
+              "phoneNumbersTitle": "電話番号",
+              "phoneNumbers": {
+                "local": "ローカル",
+                "tollFree": "フリーダイヤル"
+              },
+              "voiceAI": {
+                "title": "音声AI分数",
+                "calculation": "分数 × $0.12"
+              },
+              "humanAgent": {
+                "title": "人間エージェント分数",
+                "calculation": "分数 × $0.015"
+              },
+              "total": "月額合計コスト"
+            },
+            "features": {
+              "usaCanada": "米国/カナダのカバレッジが含まれます",
+              "phoneCharges": "すべての電話料金が含まれます",
+              "e911": "E911アドレス登録が含まれます",
+              "recording": "通話録音と分析",
+              "outboundCampaigns": "アウトバウンドキャンペーンと一括通話"
+            },
+            "cta": {
+              "getStartedInbound": "インバウンドのみで始める",
+              "getStartedInboundOutbound": "インバウンド + アウトバウンドで始める",
+              "scheduleDemo": "デモをスケジュールする"
+            },
+            "notes": {
+              "title": "重要な注意事項",
+              "usaCanadaOnly": "表示されている料金は米国/カナダのみです",
+              "phoneChargesIncluded": "すべての電話料金は表示されている料金に含まれています",
+              "voiceAIModel": "音声AIはChatGPT-4o miniモデルを1分あたり$0.12で使用します",
+              "humanAgentMinutes": "人間エージェントの分数は、通話転送と直接通話用です"
+            }
+          },
+          "platform": {
+            "hero": {
+              "title": "完全なAI音声プラットフォーム",
+              "description": "人間のような音声インタラクション、シームレスな統合、ビジネスのための実用的なインサイトを可能にするテクノロジーを発見してください。",
+              "cta": "プラットフォーム機能を探索する"
+            },
+            "features": {
+              "aiVoice": {
+                "title": "AI音声エージェント",
+                "description": "24時間365日、インバウンドとアウトバウンドの通話を完全に一貫して処理する人間のような音声エージェント。",
+                "feature1": "24時間365日利用可能",
+                "feature2": "人間のような会話",
+                "feature3": "動的な一時停止とトーンシフト",
+                "feature4": "多言語サポート"
+              },
+              "conversationalAI": {
+                "title": "会話型AI",
+                "description": "ドキュメントから学習し、パーソナライズされたサービスのために過去の会話を記憶する高度なAI。",
+                "feature1": "RAGテクノロジー",
+                "feature2": "長期記憶",
+                "feature3": "カスタムナレッジベース",
+                "feature4": "コンテキスト認識"
+              },
+              "analytics": {
+                "title": "分析とインサイト",
+                "description": "すべての会話からのリアルタイム文字起こし、感情分析、実用的なインサイト。",
+                "feature1": "リアルタイム文字起こし",
+                "feature2": "感情分析",
+                "feature3": "パフォーマンス指標",
+                "feature4": "通話量分析"
+              },
+              "telephony": {
+                "title": "テレフォニーと接続性",
+                "description": "シームレスな接続性のためのVoIP、SIP、BYOCオプションによる柔軟な統合。",
+                "feature1": "VoIP統合",
+                "feature2": "SIPトランキング",
+                "feature3": "BYOCサポート",
+                "feature4": "グローバルカバレッジ"
+              },
+              "integrations": {
+                "title": "統合とチャネル",
+                "description": "既存のツールに接続し、複数のチャネルで顧客にリーチします。",
+                "feature1": "CRM連携",
+                "feature2": "WhatsApp音声API",
+                "feature3": "LINEビジネス通話",
+                "feature4": "カレンダー同期"
+              },
+              "speech": {
+                "title": "音声技術",
+                "description": "カスタム音声プロファイルを備えた業界をリードする音声認識とテキスト読み上げ。",
+                "feature1": "高精度STT",
+                "feature2": "自然なTTS",
+                "feature3": "音声クローン",
+                "feature4": "10以上の言語"
+              }
+            },
+            "technology": {
+              "title": "業界をリードするテクノロジーの上に構築",
+              "subtitle": "音声認識におけるオリジナルのKaldiチームの専門知識によって強化されています",
+              "speechRecognition": {
+                "title": "音声認識",
+                "description": "背景ノイズや業界用語があっても、99%以上の精度で高度なSTTテクノロジー。",
+                "metric1": "99%以上の精度",
+                "metric2": "リアルタイム処理",
+                "metric3": "ノイズリダクション"
+              },
+              "nlp": {
+                "title": "自然言語処理",
+                "description": "意図を理解し、自然な会話の流れを維持するコンテキスト認識AI。",
+                "metric1": "意図認識",
+                "metric2": "コンテキスト保持: 95%",
+                "metric3": "感情的知性"
+              },
+              "voiceSynthesis": {
+                "title": "音声合成",
+                "description": "カスタマイズ可能な音声と自然なプロソディを備えた人間のようなテキスト読み上げ。",
+                "metric1": "自然なプロソディ",
+                "metric2": "音声クローン",
+                "metric3": "感情制御"
+              }
+            },
+            "landlineMobile": {
+              "hero": {
+                "title": "固定電話と携帯電話の音声ソリューション",
+                "subtitle": "世界中の固定電話と携帯電話ネットワークとシームレスに連携するAI駆動型音声エージェントで、従来の電話システムを変革します。",
+                "cta": "無料でサインアップ"
+              },
+              "features": {
+                "0": {
+                  "title": "従来の固定電話統合",
+                  "description": "既存の固定電話インフラストラクチャをAI音声機能とシームレスに接続します。",
+                  "benefits": {
+                    "0": "既存の電話番号を維持",
+                    "1": "ハードウェアの変更は不要",
+                    "2": "ビジーラインの即時AIバックアップ"
+                  }
+                },
+                "1": {
+                  "title": "モバイルネットワーク接続",
+                  "description": "アウトバウンドキャンペーンと顧客エンゲージメントのためのモバイルキャリアとの直接統合。",
+                  "benefits": {
+                    "0": "モバイルデバイスで顧客にリーチ",
+                    "1": "高い配信率",
+                    "2": "SMSフォールバックオプション"
+                  }
+                },
+                "2": {
+                  "title": "グローバルカバレッジ",
+                  "description": "広範なキャリアネットワークパートナーシップを通じて、世界中の顧客とつながります。",
+                  "benefits": {
+                    "0": "200以上の国をサポート",
+                    "1": "ローカル番号の存在",
+                    "2": "競争力のある国際料金"
+                  }
+                },
+                "title": "ユニバーサル音声接続",
+                "subtitle": "世界中のどこでも、あらゆる電話システムに接続"
+              },
+              "useCases": {
+                "0": {
+                  "title": "アポイントメントリマインダー",
+                  "description": "今後のアポイントメントを確認するために、患者、クライアント、または顧客に自動的に電話をかけます。",
+                  "metrics": {
+                    "0": "ノーショーが40%減少",
+                    "1": "95%の連絡成功率",
+                    "2": "24時間365日自動通話"
+                  }
+                },
+                "1": {
+                  "title": "緊急通知",
+                  "description": "緊急時や重要な更新時に、大規模なグループに迅速に重要な情報を通知します。",
+                  "metrics": {
+                    "0": "1分あたり1000件以上の通話",
+                    "1": "多言語サポート",
+                    "2": "配信確認"
+                  }
+                },
+                "2": {
+                  "title": "顧客調査",
+                  "description": "サービス後の調査を実施して、貴重な顧客フィードバックを収集します。",
+                  "metrics": {
+                    "0": "3倍高い応答率",
+                    "1": "リアルタイム感情分析",
+                    "2": "自動レポート"
+                  }
+                },
+                "title": "人気のあるユースケース",
+                "subtitle": "ビジネスが固定電話と携帯電話の音声自動化をどのように活用しているかをご覧ください"
+              },
+              "specs": {
+                "title": "エンタープライズグレードの信頼性",
+                "subtitle": "キャリアグレードのインフラストラクチャと99.99%の稼働率保証で、ミッションクリティカルなコミュニケーション向けに構築されています。",
+                "security": {
+                  "title": "セキュリティとコンプライアンス",
+                  "description": "SOC 2、HIPAA、PCI準拠のインフラストラクチャ"
+                },
+                "monitoring": {
+                  "title": "24時間365日監視",
+                  "description": "リアルタイムシステム監視と即時フェイルオーバー"
+                },
+                "infrastructure": {
+                  "title": "グローバルインフラストラクチャ",
+                  "description": "複数の地域にわたる冗長データセンター"
+                },
+                "technical": {
+                  "title": "技術仕様",
+                  "concurrentCalls": {
+                    "label": "同時通話",
+                    "value": "無制限"
+                  },
+                  "audioQuality": {
+                    "label": "オーディオ品質",
+                    "value": "HD音声 (G.722)",
+                    "latency": {
+                      "label": "遅延",
+                      "value": "150ms未満"
+                    },
+                    "uptimeSLA": {
+                      "label": "稼働率SLA",
+                      "value": "99.99%"
+                    },
+                    "globalCoverage": {
+                      "label": "グローバルカバレッジ",
+                      "value": "200以上の国"
+                    }
+                  }
+                }
+              },
+              "cta": {
+                "title": "電話システムをモダナイズする準備はできていますか？",
+                "subtitle": "固定電話と携帯電話のインフラストラクチャをAI音声エージェントに数分で接続",
+                "button": "統合通話をスケジュールする"
+              }
+            },
+            "endToEndLLMs": {
+              "hero": {
+                "title": "エンドツーエンドLLMソリューション",
+                "subtitle": "音声入力からインテリジェントな応答生成まで、完全な大規模言語モデル統合。コンテキストを理解し、会話を維持し、ビジネスロジックを実行する高度なAIによって強化されています。",
+                "cta": "LLM機能を探索する"
+              },
+              "features": {
+                "title": "完全なLLM統合",
+                "subtitle": "音声理解からインテリジェントな応答生成まで",
+                "advancedModels": {
+                  "title": "高度な言語モデル",
+                  "description": "会話型AIとビジネスアプリケーション向けに最適化された最先端の大規模言語モデル。",
+                  "gpt4Integration": "GPT-4統合",
+                  "customFineTuning": "カスタムファインチューニング",
+                  "domainSpecific": "ドメイン固有モデル",
+                  "multiModal": "マルチモーダルサポート"
+                },
+                "knowledgeIntegration": {
+                  "title": "ナレッジ統合",
+                  "description": "RAG (検索拡張生成) テクノロジーでビジネスナレッジベースをシームレスに統合します。",
+                  "documentIngestion": "ドキュメント取り込み",
+                  "realTimeUpdates": "リアルタイム更新",
+                  "semanticSearch": "セマンティック検索",
+                  "contextAwareness": "コンテキスト認識"
+                },
+                "enterpriseSecurity": {
+                  "title": "エンタープライズセキュリティ",
+                  "description": "機密性の高いビジネス会話のためのエンタープライズグレードのセキュリティとコンプライアンス。",
+                  "dataEncryption": "データ暗号化",
+                  "accessControls": "アクセス制御",
+                  "auditLogging": "監査ログ",
+                  "complianceReady": "コンプライアンス対応"
+                }
+              },
+              "capabilities": {
+                "title": "高度なLLM機能",
+                "subtitle": "ビジネスアプリケーション向けの洗練された言語理解と生成",
+                "nlu": {
+                  "category": "自然言語理解",
+                  "description": "ユーザーの意図、コンテキスト、コミュニケーションのニュアンスを高度に理解します。",
+                  "intentAccuracy": "意図の精度: 98%",
+                  "contextRetention": "コンテキスト保持: 95%",
+                  "sentimentAnalysis": "感情分析: 96%"
+                },
+                "conversationalFlow": {
+                  "category": "会話の流れ",
+                  "description": "複数のターンとトピックにわたって自然で一貫した会話を維持します。",
+                  "multiTurnCoherence": "マルチターンの一貫性: 94%",
+                  "topicSwitching": "トピック切り替え: 92%",
+                  "contextPreservation": "コンテキスト保持: 97%"
+                },
+                "businessLogic": {
+                  "category": "ビジネスロジック統合",
+                  "description": "複雑なビジネスワークフローと意思決定プロセスを実行します。",
+                  "workflowAccuracy": "ワークフローの精度: 99%",
+                  "decisionConsistency": "意思決定の一貫性: 98%",
+                  "errorHandling": "エラー処理: 95%"
+                },
+                "personalization": {
+                  "category": "パーソナライゼーション",
+                  "description": "ユーザー履歴、好み、ビジネスコンテキストに基づいて応答を調整します。",
+                  "personalizationScore": "パーソナライゼーションスコア: 93%",
+                  "userSatisfaction": "ユーザー満足度: 96%",
+                  "engagementRate": "エンゲージメント率: 89%"
+                }
+              },
+              "architecture": {
+                "title": "エンドツーエンドアーキテクチャ",
+                "subtitle": "音声入力からインテリジェントな音声応答までの完全なパイプライン",
+                "speechInput": {
+                  "title": "音声入力処理",
+                  "description": "業界をリードする精度で音声をテキストに変換します",
+                  "kaldiASR": "KaldiベースのASR",
+                  "noiseReduction": "ノイズリダクション",
+                  "speakerDiarization": "話者ダイアライゼーション"
+                },
+                "llmProcessing": {
+                  "title": "言語モデル処理",
+                  "description": "ビジネスコンテキスト統合による高度なLLM処理",
+                  "gpt4Turbo": "GPT-4 Turbo",
+                  "customFineTuning": "カスタムファインチューニング",
+                  "ragIntegration": "RAG統合"
+                },
+                "responseGeneration": {
+                  "title": "応答生成",
+                  "description": "文脈的に適切でビジネスに合致した応答を生成します",
+                  "templateSystems": "テンプレートシステム",
+                  "dynamicContent": "動的コンテンツ",
+                  "complianceChecking": "コンプライアンスチェック"
+                },
+                "speechOutput": {
+                  "title": "音声出力合成",
+                  "description": "テキスト応答を自然な音声に変換します",
+                  "neuralTTS": "ニューラルTTS",
+                  "voiceCloning": "音声クローン",
+                  "emotionControl": "感情制御"
+                }
+              },
+              "useCases": {
+                "title": "インテリジェントなユースケース",
+                "subtitle": "AI駆動型会話でビジネス運営を変革します",
+                "customerSupport": {
+                  "title": "インテリジェントなカスタマーサポート",
+                  "description": "人間のような理解と問題解決能力で複雑な顧客の問い合わせを処理します。",
+                  "reducedEscalation": "エスカレーション率の低下",
+                  "fasterResolution": "解決時間の短縮",
+                  "consistentQuality": "一貫したサービス品質",
+                  "availability24x7": "24時間365日利用可能"
+                },
+                "salesConversations": {
+                  "title": "営業会話",
+                  "description": "顧客のニーズと好みに適応するパーソナライズされた営業会話で見込み客を惹きつけます。",
+                  "higherConversion": "高いコンバージョン率",
+                  "personalizedRecommendations": "パーソナライズされた推奨事項",
+                  "objectionHandling": "異議処理",
+                  "leadQualification": "リード適格化"
+                },
+                "technicalSupport": {
+                  "title": "テクニカルサポート",
+                  "description": "広範なナレッジベースへのアクセスにより、専門家レベルのテクニカルサポートを提供します。",
+                  "complexTroubleshooting": "複雑なトラブルシューティング",
+                  "stepByStepGuidance": "ステップバイステップのガイダンス",
+                  "documentationAccess": "ドキュメントアクセス",
+                  "escalationIntelligence": "エスカレーションインテリジェンス"
+                },
+                "healthcareAssistance": {
+                  "title": "ヘルスケアアシスタンス",
+                  "description": "医療用語を理解するHIPAA準拠のAIでヘルスケアワークフローをサポートします。",
+                  "medicalKnowledge": "医療ナレッジベース",
+                  "appointmentScheduling": "アポイントメントスケジュール",
+                  "symptomAssessment": "症状評価",
+                  "careCoordination": "ケアコーディネーション"
+                }
+              },
+              "performance": {
+                "title": "エンタープライズパフォーマンス",
+                "description": "当社のエンドツーエンドLLMソリューションは、ミッションクリティカルなビジネスアプリケーション向けに、リアルタイム処理、高精度、信頼性の高いスケーラビリティを備えたエンタープライズグレードのパフォーマンスを提供します。",
+                "realTimeTitle": "リアルタイム処理",
+                "realTimeDesc": "自然な会話のためのサブ秒応答時間",
+                "securityTitle": "エンタープライズセキュリティ",
+                "securityDesc": "SOC 2、HIPAA、PCI準拠のインフラストラクチャ",
+                "qualityTitle": "会話品質",
+                "qualityDesc": "コンテキスト認識による人間のような会話",
+                "metricsTitle": "パフォーマンス指標",
+                "responseLatency": "応答遅延",
+                "responseLatencyValue": "500ms未満",
+                "intentAccuracy": "意図の精度",
+                "intentAccuracyValue": "98.2%",
+                "contextRetention": "コンテキスト保持",
+                "contextRetentionValue": "95.8%",
+                "uptimeSLA": "稼働率SLA",
+                "uptimeSLAValue": "99.99%",
+                "concurrentUsers": "同時ユーザー",
+                "concurrentUsersValue": "10,000人以上"
+              },
+              "cta": {
+                "title": "インテリジェントな会話を導入する準備はできていますか？",
+                "subtitle": "インテリジェントに理解し、推論し、応答するエンドツーエンドLLMソリューションでビジネスを変革します",
+                "scheduleDemoButton": "LLMデモをスケジュールする",
+                "exploreArchButton": "アーキテクチャを探索する"
+              }
+            },
+            "lineCallPlus": {
+              "hero": {
+                "title": "ビジネス向けLINE Call Plus",
+                "description": "AI駆動型音声通話でLINEビジネスアカウントを変革します。お気に入りのメッセージングプラットフォームを通じて、アジア太平洋市場の顧客とつながります。",
+                "cta": "LINE統合を開始する"
+              },
+              "marketReach": {
+                "title": "アジア太平洋地域の何百万人もの人々にリーチ",
+                "subtitle": "LINEは主要なアジア市場のビジネスコミュニケーションを支配しています",
+                "activeUsers": "アクティブユーザー",
+                "marketPenetration": "市場浸透率"
+              },
+              "features": {
+                "title": "強力なLINEビジネス機能",
+                "subtitle": "LINEで優れた音声体験を提供するために必要なすべて",
+                "nativeIntegration": {
+                  "title": "ネイティブLINE統合",
+                  "description": "LINEメッセージングプラットフォーム内で音声通話をシームレスに統合します。",
+                  "benefit1": "チャットからワンタップ通話",
+                  "benefit2": "統合された会話履歴",
+                  "benefit3": "リッチメディアサポート"
+                },
+                "businessAccount": {
+                  "title": "ビジネスアカウントサポート",
+                  "description": "高度な機能と分析を備えたLINEビジネスアカウントの完全なサポート。",
+                  "benefit1": "検証済みビジネスプロフィール",
+                  "benefit2": "カスタムブランディングオプション",
+                  "benefit3": "高度なユーザー管理"
+                },
+                "asiaPacific": {
+                  "title": "アジア太平洋地域に焦点を当てる",
+                  "description": "LINEがビジネスコミュニケーションを支配する主要なアジア市場向けに最適化されています。",
+                  "benefit1": "ローカル言語サポート",
+                  "benefit2": "地域コンプライアンス",
+                  "benefit3": "文化的適応"
+                }
+              },
+              "useCases": {
+                "title": "顧客とのやり取りを変革する",
+                "subtitle": "ビジネスがLINE Call Plusを活用して顧客関係を強化する方法をご覧ください",
+                "customerSupport": {
+                  "title": "カスタマーサポート",
+                  "description": "LINE会話内で直接即座に音声サポートを提供します。",
+                  "metric1": "50%高速解決",
+                  "metric2": "90%顧客満足度",
+                  "metric3": "24時間365日利用可能"
+                },
+                "salesConsultations": {
+                  "title": "営業コンサルテーション",
+                  "description": "パーソナライズされた営業体験のためにチャットの問い合わせを音声通話に変換します。",
+                  "metric1": "3倍高いコンバージョン",
+                  "metric2": "パーソナライズされた推奨事項",
+                  "metric3": "信頼構築"
+                },
+                "appointmentBooking": {
+                  "title": "アポイントメント予約",
+                  "description": "LINEビジネスアカウント内で音声ベースのアポイントメントスケジュールを有効にします。",
+                  "metric1": "ワンタップ予約",
+                  "metric2": "カレンダー統合",
+                  "metric3": "自動リマインダー"
+                }
+              },
+              "integration": {
+                "title": "シンプルな統合プロセス",
+                "subtitle": "わずか数ステップでLINE Call Plusを始めましょう",
+                "step1": {
+                  "title": "LINEビジネスを接続する",
+                  "description": "既存のLINEビジネスアカウントをリンクするか、ガイド付きセットアップで新しいアカウントを作成します。"
+                },
+                "step2": {
+                  "title": "音声エージェントを設定する",
+                  "description": "カスタムスクリプト、音声、ビジネスロジックでAI音声エージェントを設定します。"
+                },
+                "step3": {
+                  "title": "稼働開始",
+                  "description": "音声対応のLINEビジネスアカウントを立ち上げ、顧客とのエンゲージメントを開始します。"
+                }
+              },
+              "analytics": {
+                "title": "包括的な分析",
+                "description": "詳細な分析とレポートで、パフォーマンスを追跡し、顧客の行動を理解し、LINE音声インタラクションを最適化します。",
+                "callAnalytics": {
+                  "title": "通話分析",
+                  "description": "通話量、期間、成功率を追跡します"
+                },
+                "userEngagement": {
+                  "title": "ユーザーエンゲージメント",
+                  "description": "ユーザーインタラクションと満足度スコアを監視します"
+                },
+                "platformInsights": {
+                  "title": "プラットフォームインサイト",
+                  "description": "LINE固有の指標とパフォーマンスデータ"
+                },
+                "dashboard": {
+                  "title": "LINE通話分析",
+                  "live": "ライブ",
+                  "activeCalls": "アクティブな通話",
+                  "responseRate": "応答率",
+                  "avgCallDuration": "平均通話時間",
+                  "customerSatisfaction": "顧客満足度",
+                  "sampleResponse": "日本語音声エージェントが顧客に応答中"
+                }
+              },
+              "cta": {
+                "title": "アジア太平洋地域に拡大する準備はできていますか？",
+                "description": "何百万人ものLINEユーザーとつながり、主要なアジア市場での顧客エンゲージメントを変革します",
+                "button": "LINE統合を開始する"
+              }
+            },
+            "speechToText": {
+              "hero": {
+                "title": "音声認識技術",
+                "subtitle": "99%以上の精度を誇る業界をリードする音声認識。50以上の言語と特殊な業界用語をサポートし、あらゆる音声をリアルタイムでテキストに変換します。",
+                "cta": "音声認識を試す"
+              },
+              "features": {
+                "0": {
+                  "title": "リアルタイム処理",
+                  "description": "ライブ会話のための超低遅延で、音声をリアルタイムでテキストに変換します。",
+                  "specs": {
+                    "0": "100ms未満の遅延",
+                    "1": "ストリーミング認識",
+                    "2": "ライブ文字起こし"
+                  }
+                },
+                "1": {
+                  "title": "多言語サポート",
+                  "description": "自動言語検出機能を備えた50以上の言語と方言をサポートします。",
+                  "specs": {
+                    "0": "50以上の言語",
+                    "1": "自動検出",
+                    "2": "地域アクセント"
+                  }
+                },
+                "2": {
+                  "title": "業界の精度",
+                  "description": "さまざまな業界やユースケース向けにトレーニングされた特殊なモデル。",
+                  "specs": {
+                    "0": "99%以上の精度",
+                    "1": "ドメイン固有",
+                    "2": "カスタム用語"
+                  }
+                },
+                "title": "高度な音声認識",
+                "subtitle": "最新の深層学習の強化を伴うオリジナルのKaldiフレームワークの上に構築されています"
+              },
+              "accuracy": {
+                "title": "業界をリードする精度",
+                "subtitle": "さまざまな業界やユースケース向けにトレーニングされた特殊なモデル",
+                "stats": {
+                  "0": {
+                    "category": "一般的な会話",
+                    "accuracy": "99.2%",
+                    "improvement": "+15%"
+                  },
+                  "1": {
+                    "category": "医療用語",
+                    "accuracy": "98.8%",
+                    "improvement": "+22%"
+                  },
+                  "2": {
+                    "category": "金融サービス",
+                    "accuracy": "99.1%",
+                    "improvement": "+18%"
+                  },
+                  "3": {
+                    "category": "テクニカルサポート",
+                    "accuracy": "98.9%",
+                    "improvement": "+20%"
+                  }
+                },
+                "improvementSuffix": "業界平均と比較して"
+              },
+              "languages": {
+                "title": "グローバル言語サポート",
+                "subtitle": "自動言語検出と地域アクセント認識機能を備えた主要な世界言語の包括的なサポート。当社のモデルは、さまざまな話し方や環境で精度を確保するために、多様なデータセットで継続的にトレーニングされています。",
+                "features": {
+                  "0": {
+                    "title": "50以上の言語",
+                    "description": "主要な世界言語と地域の方言"
+                  },
+                  "1": {
+                    "title": "自動検出",
+                    "description": "自動言語検出と切り替え"
+                  },
+                  "2": {
+                    "title": "継続的な学習",
+                    "description": "使用とフィードバックによってモデルが改善されます"
+                  }
+                },
+                "supportedTitle": "サポートされている言語",
+                "supportedLanguages": {
+                  "0": "英語 (米国、英国、オーストラリア)
+                  "1": "スペイン語 (スペイン、メキシコ、アルゼンチン)
+                  "2": "フランス語 (フランス、カナダ)
+                  "3": "ドイツ語",
+                  "4": "イタリア語",
+                  "5": "ポルトガル語 (ブラジル、ポルトガル)
+                  "6": "日本語",
+                  "7": "韓国語",
+                  "8": "北京語",
+                  "9": "広東語",
+                  "10": "ヒンディー語",
+                  "11": "アラビア語",
+                  "12": "ロシア語",
+                  "13": "オランダ語",
+                  "14": "スウェーデン語",
+                  "15": "ノルウェー語"
+                },
+                "customNote": "特殊な用語や業界固有の用語に対応するカスタム言語モデルが利用可能です"
+              },
+              "useCases": {
+                "0": {
+                  "title": "コールセンターの文字起こし",
+                  "description": "品質保証とトレーニングのためのカスタマーサービス通話のリアルタイム文字起こし。",
+                  "benefits": {
+                    "0": "品質監視",
+                    "1": "コンプライアンス記録",
+                    "2": "エージェントトレーニング",
+                    "3": "顧客インサイト"
+                  }
+                },
+                "1": {
+                  "title": "会議のドキュメント化",
+                  "description": "会議、カンファレンス、ビジネスディスカッションの自動文字起こし。",
+                  "benefits": {
+                    "0": "会議議事録",
+                    "1": "アクションアイテム抽出",
+                    "2": "検索可能なアーカイブ",
+                    "3": "複数話者ID"
+                  }
+                },
+                "2": {
+                  "title": "音声コマンド",
+                  "description": "音声制御アプリケーションとインターフェースの音声コマンドをテキストに変換します。",
+                  "benefits": {
+                    "0": "ハンズフリー操作",
+                    "1": "アクセシビリティ機能",
+                    "2": "スマートホーム制御",
+                    "3": "モバイルアプリ"
+                  }
+                },
+                "3": {
+                  "title": "コンテンツ作成",
+                  "description": "ポッドキャスト、ビデオ、メディア制作のオーディオコンテンツをテキストに変換します。",
+                  "benefits": {
+                    "0": "字幕生成",
+                    "1": "コンテンツインデックス作成",
+                    "2": "SEO最適化",
+                    "3": "アクセシビリティコンプライアンス"
+                  }
+                },
+                "title": "強力なユースケース",
+                "subtitle": "業界やアプリケーションで音声を実用的なテキストに変換します"
+              },
+              "specs": {
+                "title": "技術仕様",
+                "subtitle": "エンタープライズグレードのパフォーマンスと信頼性",
+                "performance": {
+                  "title": "パフォーマンス",
+                  "latency": {
+                    "label": "遅延",
+                    "value": "100ms未満"
+                  },
+                  "accuracy": {
+                    "label": "精度",
+                    "value": "99%以上"
+                  },
+                  "throughput": {
+                    "label": "スループット",
+                    "value": "1000件以上同時"
+                  },
+                  "uptime": {
+                    "label": "稼働率",
+                    "value": "99.99%"
+                  }
+                },
+                "audioFormats": {
+                  "title": "オーディオ形式",
+                  "sampleRate": {
+                    "label": "サンプルレート",
+                    "value": "8-48 kHz"
+                  },
+                  "bitDepth": {
+                    "label": "ビット深度",
+                    "value": "16-32ビット"
+                  },
+                  "formats": {
+                    "label": "形式",
+                    "value": "WAV、MP3、FLAC"
+                  },
+                  "streaming": {
+                    "label": "ストリーミング",
+                    "value": "リアルタイム"
+                  }
+                },
+                "integration": {
+                  "title": "統合",
+                  "api": {
+                    "label": "API",
+                    "value": "RESTとWebSocket"
+                  },
+                  "sdks": {
+                    "label": "SDK",
+                    "value": "Python、Node.js、Go"
+                  },
+                  "webhooks": {
+                    "label": "Webhook",
+                    "value": "リアルタイムイベント"
+                  },
+                  "security": {
+                    "label": "セキュリティ",
+                    "value": "TLS 1.3、OAuth 2.0"
+                  }
+                }
+              },
+              "cta": {
+                "title": "音声をテキストに変換する準備はできていますか？",
+                "subtitle": "業界をリードする音声認識技術の力を体験してください",
+                "primaryButton": "無料デモを試す",
+                "secondaryButton": "APIドキュメントを見る"
+              }
+            },
+            "voipSipByoc": {
+              "hero": {
+                "title": "VoIP、SIP、BYOC音声ソリューション",
+                "subtitle": "最大限の柔軟性を備えたエンタープライズグレードの音声接続。VoIP統合、直接SIPトランキング、または完全な制御のために独自のキャリアを持ち込みます。",
+                "cta": "接続専門家と話す"
+              },
+              "connectionTypes": {
+                "title": "柔軟な接続オプション",
+                "subtitle": "インフラストラクチャとニーズに最適な接続方法を選択してください",
+                "keyFeatures": "主な機能:",
+                "voip": {
+                  "title": "VoIP統合",
+                  "description": "既存のVoIPインフラストラクチャを当社のAI音声プラットフォームとシームレスに接続します。",
+                  "features": {
+                    "sipTrunk": "SIPトランク互換性",
+                    "codecOptimization": "コーデック最適化",
+                    "qos": "サービス品質 (QoS)",
+                    "bandwidthManagement": "帯域幅管理"
+                  },
+                  "pricing": "$0.08/分から"
+                },
+                "sip": {
+                  "title": "SIPトランキング",
+                  "description": "音声トラフィックを最大限に制御し、最適化するための直接SIP接続。",
+                  "features": {
+                    "directEndpoints": "直接SIPエンドポイント",
+                    "customRouting": "カスタムルーティングルール",
+                    "failoverProtection": "フェイルオーバー保護",
+                    "realTimeMonitoring": "リアルタイム監視"
+                  },
+                  "pricing": "$0.06/分から"
+                },
+                "byoc": {
+                  "title": "独自のキャリアを持ち込む (BYOC)",
+                  "description": "当社のAI音声機能を活用しながら、お気に入りのキャリアを使用します。",
+                  "features": {
+                    "carrierIndependence": "キャリア独立性",
+                    "costOptimization": "コスト最適化",
+                    "globalReach": "グローバルリーチ",
+                    "vendorFlexibility": "ベンダーの柔軟性"
+                  },
+                  "pricing": "プラットフォーム料金 + キャリア料金"
+                }
+              },
+              "benefits": {
+                "title": "エンタープライズのメリット",
+                "subtitle": "主要な企業が当社の音声接続ソリューションを選ぶ理由",
+                "costSavings": {
+                  "title": "コスト削減",
+                  "description": "最適化されたルーティングとキャリア選択により、通信コストを最大60%削減します。",
+                  "metric": "60%"
+                },
+                "reliability": {
+                  "title": "信頼性",
+                  "description": "自動フェイルオーバーと冗長インフラストラクチャによるエンタープライズグレードの稼働率。",
+                  "metric": "99.99%"
+                },
+                "scalability": {
+                  "title": "スケーラビリティ",
+                  "description": "弾力的なスケーリング機能により、何千もの同時通話を処理します。",
+                  "metric": "10,00"
+                },
+                "globalReach": {
+                  "title": "グローバルリーチ",
+                  "description": "主要市場でのローカルプレゼンスにより、世界中の顧客とつながります。",
+                  "metric": "200以上"
+                }
+              },
+              "technicalExcellence": {
+                "title": "技術的卓越性",
+                "subtitle": "エンタープライズグレードのセキュリティとパフォーマンスを備えた業界標準プロトコルに基づいて構築されています。当社のプラットフォームはすべての主要なコーデックをサポートし、リアルタイムの品質監視を提供します。",
+                "endToEndEncryption": {
+                  "title": "エンドツーエンド暗号化",
+                  "description": "安全な音声伝送のためのTLS 1.3とSRTP"
+                },
+                "lowLatency": {
+                  "title": "低遅延",
+                  "description": "クリアな会話のための150ms未満の遅延"
+                },
+                "advancedConfiguration": {
+                  "title": "高度な構成",
+                  "description": "ルーティングと品質設定のきめ細かい制御"
+                }
+              },
+              "technicalSpecs": {
+                "title": "技術仕様",
+                "supportedProtocols": {
+                  "feature": "サポートされているプロトコル",
+                  "value": "SIP 2.0、RTP、SRTP"
+                },
+                "audioCodecs": {
+                  "feature": "オーディオコーデック",
+                  "value": "G.711、G.722、G.729、Opus"
+                },
+                "encryption": {
+                  "feature": "暗号化",
+                  "value": "TLS 1.3、SRTP、AES-256"
+                },
+                "networkRequirements": {
+                  "feature": "ネットワーク要件",
+                  "value": "同時通話あたり100 kbps"
+                },
+                "latency": {
+                  "feature": "遅延",
+                  "value": "エンドツーエンドで150ms未満"
+                },
+                "jitterBuffer": {
+                  "feature": "ジッターバッファ",
+                  "value": "適応型、20-200ms"
+                }
+              },
+              "howItWorks": {
+                "title": "仕組み",
+                "subtitle": "既存のインフラストラクチャとのシンプルな統合",
+                "yourInfrastructure": {
+                  "title": "あなたのインフラストラクチャ",
+                  "description": "既存のPBX、VoIPシステム、またはキャリア"
+                },
+                "seavoicePlatform": {
+                  "title": "SeaVoiceプラットフォーム",
+                  "description": "AI音声処理とルーティング"
+                },
+                "globalNetwork": {
+                  "title": "グローバルネットワーク",
+                  "description": "世界中のキャリア接続"
+                }
+              },
+              "cta": {
+                "title": "音声インフラストラクチャを最適化する準備はできていますか？",
+                "subtitle": "ニーズに合った適切なソリューションを設計するために、当社の接続専門家と話しましょう",
+                "scheduleConsultation": "コンサルテーションをスケジュールする",
+                "signUpForFree": "無料でサインアップ"
+              }
+            },
+            "whatsAppVoice": {
+              "hero": {
+                "title": "ビジネス向けWhatsApp音声API",
+                "subtitle": "AI駆動型音声通話でWhatsAppビジネスアカウントを変革します。シームレスな音声インタラクションで世界中の20億人以上のユーザーにリーチします。",
+                "cta": "WhatsAppビジネスプラットフォームAPIを入手する"
+              },
+              "globalStats": {
+                "title": "世界最大のメッセージングプラットフォームにアクセス",
+                "subtitle": "WhatsAppは比類のないリーチとエンゲージメントでグローバルメッセージングを支配しています",
+                "stats": {
+                  "0": {
+                    "region": "グローバルユーザー",
+                    "count": "27.8億人以上",
+                    "growth": "前年比+3.2%"
+                  },
+                  "1": {
+                    "region": "ビジネスアカウント",
+                    "count": "2億人以上",
+                    "growth": "前年比+15%"
+                  },
+                  "2": {
+                    "region": "1日あたりのメッセージ数",
+                    "count": "1000億件以上",
+                    "growth": "前年比+8%"
+                  },
+                  "3": {
+                    "region": "国",
+                    "count": "180以上",
+                    "growth": "完全なカバレッジ"
+                  }
+                }
+              },
+              "features": {
+                "0": {
+                  "title": "WhatsAppビジネスプラットフォームAPI",
+                  "description": "検証済みビジネスコミュニケーションのためのWhatsAppビジネスプラットフォームAPIとの公式統合。",
+                  "benefits": {
+                    "0": "緑色のチェックマーク検証",
+                    "1": "ビジネスプロフィール機能",
+                    "2": "メッセージテンプレート"
+                  }
+                },
+                "1": {
+                  "title": "グローバルリーチ",
+                  "description": "音声通話を通じて世界中の20億人以上のWhatsAppユーザーとつながります。",
+                  "benefits": {
+                    "0": "180以上の国をサポート",
+                    "1": "多言語機能",
+                    "2": "ローカル番号の存在"
+                  }
+                },
+                "2": {
+                  "title": "エンドツーエンドセキュリティ",
+                  "description": "安全なビジネスコミュニケーションのためにWhatsAppのエンドツーエンド暗号化を活用します。",
+                  "benefits": {
+                    "0": "メッセージ暗号化",
+                    "1": "安全な音声通話",
+                    "2": "プライバシーコンプライアンス"
+                  }
+                },
+                "title": "エンタープライズWhatsApp音声機能",
+                "subtitle": "WhatsAppで優れた音声体験を提供するために必要なすべて"
+              },
+              "useCases": {
+                "0": {
+                  "title": "カスタマーサポート",
+                  "description": "WhatsApp会話内で直接即座に音声サポートを提供します。",
+                  "metrics": {
+                    "0": "60%高速解決",
+                    "1": "95%顧客満足度",
+                    "2": "シームレスなエスカレーション"
+                  }
+                },
+                "1": {
+                  "title": "営業とコンサルテーション",
+                  "description": "パーソナライズされた営業体験のためにチャットの問い合わせを音声通話に変換します。",
+                  "metrics": {
+                    "0": "4倍高いコンバージョン",
+                    "1": "パーソナライズされた触れ合い",
+                    "2": "信頼構築"
+                  }
+                },
+                "2": {
+                  "title": "アポイントメント予約",
+                  "description": "WhatsAppビジネスプラットフォーム内で音声ベースのアポイントメントスケジュールを有効にします。",
+                  "metrics": {
+                    "0": "ワンタップ予約",
+                    "1": "カレンダー同期",
+                    "2": "自動確認"
+                  }
+                },
+                "3": {
+                  "title": "注文管理",
+                  "description": "音声インタラクションを通じて注文に関する問い合わせ、更新、サポートを処理します。",
+                  "metrics": {
+                    "0": "リアルタイム更新",
+                    "1": "注文追跡",
+                    "2": "問題解決"
+                  }
+                },
+                "title": "顧客とのやり取りを変革する",
+                "subtitle": "ビジネスがWhatsApp音声APIを活用して顧客関係を強化する方法をご覧ください"
+              },
+              "integration": {
+                "title": "シンプルな統合プロセス",
+                "subtitle": "わずか4つのステップでWhatsApp音声APIを始めましょう",
+                "steps": {
+                  "0": {
+                    "title": "WhatsAppビジネス設定",
+                    "description": "WhatsAppビジネスアカウントを接続するか、新しい検証済みビジネスプロフィールを作成します。"
+                  },
+                  "1": {
+                    "title": "音声エージェント構成",
+                    "description": "ビジネスロジック、スクリプト、ブランド音声でAI音声エージェントを設定します。"
+                  },
+                  "2": {
+                    "title": "API統合",
+                    "description": "広範なAPIとWebhookを使用して既存のシステムと統合します。"
+                  },
+                  "3": {
+                    "title": "稼働開始",
+                    "description": "音声対応のWhatsAppビジネスを立ち上げ、顧客とのエンゲージメントを開始します。"
+                  }
+                }
+              },
+              "demo": {
+                "title": "実際に見てみる",
+                "subtitle": "音声通話がWhatsAppビジネスプラットフォームとどれほどシームレスに統合されるかを体験してください。当社のAIエージェントは、顧客が愛するおなじみのWhatsApp体験を維持しながら、複雑な会話を処理できます。",
+                "features": {
+                  "0": {
+                    "title": "ワンタップ通話",
+                    "description": "顧客はチャットから直接音声通話を開始できます"
+                  },
+                  "1": {
+                    "title": "シームレスな引き継ぎ",
+                    "description": "AIと人間エージェント間のスムーズな移行"
+                  },
+                  "2": {
+                    "title": "統合された履歴",
+                    "description": "チャットと音声にわたる完全な会話履歴"
+                  }
+                },
+                "dashboard": {
+                  "title": "WhatsAppビジネスダッシュボード",
+                  "liveStatus": "ライブ",
+                  "stats": {
+                    "activeVoiceCalls": {
+                      "label": "アクティブな音声通話",
+                      "value": "89"
+                    },
+                    "messagesToday": {
+                      "label": "今日のメッセージ",
+                      "value": "2,847"
+                    },
+                    "responseRate": {
+                      "label": "応答率",
+                      "value": "96%"
+                    },
+                    "customerSatisfaction": {
+                      "label": "顧客満足度",
+                      "value": "4.9/5"
+                    }
+                  }
+                },
+                "aiAssistant": {
+                  "name": "AIアシスタント",
+                  "message": "こんにちは！ご注文のお手伝いをさせていただきます。直接お話ししたいですか？上の通話ボタンをタップしてください！"
+                }
+              },
+              "cta": {
+                "title": "WhatsAppビジネスを変革する準備はできていますか？",
+                "subtitle": "優れた顧客体験を提供するためにWhatsApp音声APIを使用している何千ものビジネスに参加しましょう",
+                "primaryButton": "今すぐ始める",
+                "secondaryButton": "デモをスケジュールする"
+              }
+            }
+          }
+        },
+        "components": {
+          "interactiveCallDashboard": {
+            "liveDashboard": "ライブダッシュボード",
+            "controlCenter": "コントロールセンター",
+            "realTimeAnalytics": "リアルタイム分析",
+            "description": "当社のAI音声プラットフォームが、人間のような会話とリアルタイム分析で何千もの同時通話を処理する様子をご覧ください。",
+            "bookDemo": "デモを予約",
+            "controlCenterTitle": "SeaVoiceコントロールセンター",
+            "live": "ライブ",
+            "activeCalls": "アクティブな通話",
+            "avgQueueTime": "平均キュー時間",
+            "resolutionRate": "解決率",
+            "availability": "利用可能",
+            "globalCallActivity": "グローバル通話アクティビティ",
+            "recentConversations": "最近の会話",
+            "customerInquiryResolved": "顧客の問い合わせが解決されました",
+            "appointmentScheduled": "アポイントメントがスケジュールされました",
+            "paymentProcessed": "支払いが処理されました",
+            "supportTicketCreated": "サポートチケットが作成されました",
+            "justNow": "たった今",
+            "concurrentCalls": "同時通話",
+            "uptime": "稼働率",
+            "conversations": {
+              "appointmentRequest": "こんにちは、アポイントメントをスケジュールしたいのですが",
+              "techCorpGreeting": "TechCorpにお電話いただきありがとうございます...",
+              "orderTracking": "注文を追跡するのを手伝っていただけますか？",
+              "availabilityResponse": "火曜日の午後2時に空いています"
+            }
+          },
+          "voiceDemo": {
+            "demos": {
+              "restaurant": {
+                "title": "レストラン予約",
+                "description": "AIがテーブル予約、空き状況確認、特別リクエストを処理"
+              },
+              "insurance": {
+                "title": "保険検証通話",
+                "description": "自動保険検証と請求処理"
+              },
+              "techSupport": "テクニカルサポート",
+              "description": "技術的なトラブルシューティングとカスタマーサポート自動化"
+            },
+            "salesLead": {
+              "title": "営業リード適格化",
+              "description": "インテリジェントなリード適格化と営業ファネル管理"
+            },
+            "realEstate": {
+              "title": "不動産に関する問い合わせ処理",
+              "description": "物件に関する問い合わせ、内覧スケジュール、クライアント管理"
+            },
+            "donation": {
+              "title": "寄付キャンペーンアウトリーチ",
+              "description": "資金調達キャンペーンと寄付者エンゲージメント自動化"
+            }
+          },
+          "seekTooltip": "クリックしてシーク"
+        }
+      }
+    },
+    "solutions": {
+      "inbound": {
+        "ivrReplacement": {
+          "hero": {
+            "title": "自然言語によるIVR代替",
+            "subtitle": "イライラする電話ツリーとメニューナビゲーションを排除します。顧客が自分のニーズを自然に話し、すぐに適切な場所に接続できるようにします。",
+            "cta": "今すぐIVRを変革する"
+          },
+          "features": {
+            "title": "モダンな音声インターフェース機能",
+            "subtitle": "インテリジェントな会話で古い電話システムを置き換える",
+            "naturalLanguage": {
+              "title": "自然言語理解",
+              "description": "顧客が本当に何を求めているかを理解する自然な会話で、混乱を招くメニューオプションを置き換えます。",
+              "benefit1": "会話型インターフェース",
+              "benefit2": "意図認識",
+              "benefit3": "コンテキスト認識"
+            },
+            "instantResolution": {
+              "title": "即時解決",
+              "description": "複数のメニューレベルをナビゲートすることなく、顧客の問い合わせを即座に解決します。",
+              "benefit1": "待ち時間ゼロ",
+              "benefit2": "直接回答",
+              "benefit3": "即時支援"
+            },
+            "improvedExperience": {
+              "title": "改善された体験",
+              "description": "イライラする電話ツリーを、快適で効率的な顧客とのやり取りに変えます。",
+              "benefit1": "高い満足度",
+              "benefit2": "放棄率の低下",
+              "benefit3": "アクセシビリティの向上"
+            }
+          },
+          "comparison": {
+            "title": "従来のIVR vs. 自然言語",
+            "subtitle": "顧客体験の劇的な違いをご覧ください",
+            "customerExperience": {
+              "aspect": "顧客体験",
+              "traditional": "営業は1、サポートは2を押してください...",
+              "modern": "「注文を手伝ってください」 - 即座に接続",
+              "improvement": "満足度が85%向上"
+            },
+            "timeToResolution": {
+              "aspect": "解決までの時間",
+              "traditional": "メニューナビゲートに3〜5分",
+              "modern": "適切な部門に到達するまで30秒",
+              "improvement": "時間が80%短縮"
+            },
+            "callAbandonment": {
+              "aspect": "通話放棄",
+              "traditional": "メニューナビゲート中に25%放棄",
+              "modern": "放棄率5%",
+              "improvement": "80%減少"
+            },
+            "accessibility": {
+              "aspect": "アクセシビリティ",
+              "traditional": "高齢者/障害のあるユーザーには困難",
+              "modern": "すべてのユーザーに自然な話し方",
+              "improvement": "100%アクセシビリティ"
+            },
+            "traditionalIvr": "従来のIVR",
+            "naturalLanguage": "自然言語"
+          },
+          "benefits": {
+            "title": "測定可能な改善",
+            "subtitle": "従来のIVRシステムを置き換えることによる実際の結果",
+            "satisfaction": {
+              "metric": "85%",
+              "description": "顧客満足度の向上"
+            },
+            "abandonment": {
+              "metric": "80%",
+              "description": "通話放棄の減少"
+            },
+            "resolution": {
+              "metric": "70%",
+              "description": "通話解決の高速化"
+            },
+            "misdirected": {
+              "metric": "90%",
+              "description": "誤った通話の減少"
+            }
+          },
+          "cta": {
+            "title": "電話システムをモダナイズする準備はできていますか？",
+            "subtitle": "顧客が愛する自然な会話で、イライラする電話ツリーを置き換えましょう",
+            "startTrial": "無料トライアルを開始",
+            "seeDemo": "デモを見る"
+          },
+          "title": "IVR代替",
+          "description": "古い電話メニューを自然言語理解に置き換えます。",
+          "benefit1": "自然な会話",
+          "benefit2": "改善されたUX",
+          "benefit3": "高い満足度"
+        },
+        "technicalSupport": {
+          "hero": {
+            "title": "テクニカルサポート自動化",
+            "description": "問題を診断し、顧客を解決策に導き、必要に応じて複雑な問題を人間の専門家にエスカレートできるAIで即座にテクニカルサポートを提供します。",
+            "primaryCta": "テクニカルサポートを自動化する"
+          },
+          "features": {
+            "title": "インテリジェントなテクニカルサポート",
+            "description": "技術的な問題を理解し、解決策を提供する高度なAI",
+            "automatedTroubleshooting": {
+              "title": "自動トラブルシューティング",
+              "description": "一般的な技術的な問題について、顧客をステップバイステップの解決策に導きます。",
+              "benefits": {
+                "0": "セルフサービス解決",
+                "1": "即時診断",
+                "2": "インタラクティブなガイダンス"
+              }
+            },
+            "intelligentEscalation": {
+              "title": "インテリジェントなエスカレーション",
+              "description": "完全なコンテキストを伴って、複雑な問題を人間の技術者に自動的にエスカレートします。",
+              "benefits": {
+                "0": "スマートルーティング",
+                "1": "コンテキスト保持",
+                "2": "シームレスな引き継ぎ"
+              }
+            },
+            "multiPlatformSupport": {
+              "title": "マルチプラットフォームサポート",
+              "description": "さまざまなデバイス、ソフトウェア、プラットフォームでテクニカルサポートを提供します。",
+              "benefits": {
+                "0": "ユニバーサル互換性",
+                "1": "クロスプラットフォームの専門知識",
+                "2": "広範なカバレッジ"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "包括的なサポートカバレッジ",
+            "description": "すべてのプラットフォームで幅広い技術的な問題を処理します",
+            "hardwareIssues": {
+              "category": "ハードウェアの問題",
+              "description": "ハードウェア関連の問題を診断し、解決します",
+              "examples": {
+                "0": "デバイス接続",
+                "1": "パフォーマンスの問題",
+                "2": "ハードウェアセットアップ"
+              }
+            },
+            "softwareTroubleshooting": {
+              "category": "ソフトウェアのトラブルシューティング",
+              "description": "ソフトウェアのインストールと構成を支援します",
+              "examples": {
+                "0": "アプリのインストール",
+                "1": "設定構成",
+                "2": "更新支援"
+              }
+            },
+            "networkProblems": {
+              "category": "ネットワークの問題",
+              "description": "インターネットとネットワーク接続の問題を解決します",
+              "examples": {
+                "0": "Wi-Fiセットアップ",
+                "1": "接続の問題",
+                "2": "速度最適化"
+              }
+            },
+            "accountSecurity": {
+              "category": "アカウントとセキュリティ",
+              "description": "アカウントアクセスとセキュリティに関する懸念を支援します",
+              "examples": {
+                "0": "パスワードリセット",
+                "1": "アカウント回復",
+                "2": "セキュリティ設定"
+              }
+            }
+          },
+          "process": {
+            "title": "AIトラブルシューティングプロセス",
+            "description": "技術的な問題を診断し、解決するための体系的なアプローチ",
+            "steps": {
+              "issueIdentification": {
+                "title": "問題特定",
+                "description": "AIが問題の説明を聞き、明確な質問をします"
+              },
+              "diagnosticAnalysis": {
+                "title": "診断分析",
+                "description": "システム症状を分析し、潜在的な原因を特定します"
+              },
+              "solutionGuidance": {
+                "title": "解決策のガイダンス",
+                "description": "問題を解決するためのステップバイステップの指示を提供します"
+              },
+              "verificationFollowup": {
+                "title": "検証とフォローアップ",
+                "description": "解決策を確認し、必要に応じて追加の支援を提供します"
+              }
+            }
+          },
+          "benefits": {
+            "title": "サポート効率の結果",
+            "description": "テクニカルサポート業務の測定可能な改善"
+          },
+          "metrics": {
+            "resolution": {
+              "description": "人間エージェントなしで解決された問題"
+            },
+            "reductionTime": {
+              "description": "平均解決時間の短縮"
+            },
+            "satisfaction": {
+              "description": "AIサポートによる顧客満足度"
+            },
+            "availability": {
+              "description": "テクニカルサポートの可用性"
+            }
+          },
+          "cta": {
+            "title": "テクニカルサポートを自動化する準備はできていますか？",
+            "description": "問題を迅速に解決する即座のインテリジェントなテクニカルサポートを提供します",
+            "primaryButton": "無料トライアルを開始",
+            "secondaryButton": "デモを見る"
+          },
+          "title": "テクニカルサポート",
+          "description": "トラブルシューティングを自動化し、技術的な問題についてユーザーをガイドします。",
+          "benefit1": "セルフサービス解決",
+          "benefit2": "高速解決",
+          "benefit3": "コスト削減"
+        },
+        "orderTracking": {
+          "hero": {
+            "title": "注文状況と追跡",
+            "subtitle": "顧客が自然な音声会話を通じて注文状況を即座に確認し、出荷を追跡し、配送状況の更新を受け取れるようにします。顧客満足度を向上させながら、サポート通話を削減します。",
+            "cta": "注文追跡を有効にする"
+          },
+          "features": {
+            "title": "包括的な注文追跡",
+            "subtitle": "注文状況と配送状況の完全な可視性",
+            "realTimeStatus": {
+              "title": "リアルタイム注文状況",
+              "description": "顧客に注文と出荷に関する最新情報を即座に提供します。",
+              "benefits": {
+                "liveTracking": "ライブ追跡更新",
+                "deliveryEstimates": "配送予定",
+                "statusNotifications": "状況通知"
+              }
+            },
+            "locationTracking": {
+              "title": "位置追跡",
+              "description": "顧客と正確な位置情報と配送状況を共有します。",
+              "benefits": {
+                "gpsTracking": "GPS追跡",
+                "routeOptimization": "ルート最適化",
+                "deliveryMapping": "配送マッピング"
+              }
+            },
+            "proactiveUpdates": {
+              "title": "プロアクティブな更新",
+              "description": "遅延、変更、または配送確認について顧客に自動的に通知します。",
+              "benefits": {
+                "delayNotifications": "遅延通知",
+                "scheduleChanges": "スケジュール変更",
+                "deliveryConfirmations": "配送確認"
+              }
+            }
+          },
+          "tracking": {
+            "title": "完全な配送ジャーニー",
+            "subtitle": "注文から最終配送までのすべてのステップを追跡します",
+            "stages": {
+              "orderPlaced": {
+                "title": "注文済み",
+                "description": "注文の受領と処理の開始を確認",
+                "info": {
+                  "orderNumber": "注文番号",
+                  "itemsOrdered": "注文された商品",
+                  "processingTimeline": "処理タイムライン"
+                }
+              },
+              "inTransit": {
+                "title": "輸送中",
+                "description": "パッケージは目的地に向かっています",
+                "info": {
+                  "currentLocation": "現在の場所",
+                  "expectedDelivery": "配送予定",
+                  "carrierInformation": "キャリア情報"
+                }
+              },
+              "outForDelivery": {
+                "title": "配送中",
+                "description": "パッケージは最終配送のために配送ドライバーにあります",
+                "info": {
+                  "deliveryWindow": "配送時間帯",
+                  "driverContact": "ドライバー連絡先",
+                  "specialInstructions": "特別な指示"
+                }
+              },
+              "delivered": {
+                "title": "配達済み",
+                "description": "パッケージは正常に配達されました",
+                "info": {
+                  "deliveryTime": "配達時間",
+                  "deliveryLocation": "配達場所",
+                  "signatureConfirmation": "署名確認"
+                }
+              }
+            }
+          },
+          "integration": {
+            "title": "ユニバーサルキャリア統合",
+            "description": "すべての主要な配送キャリアとロジスティクスプロバイダーに接続して、パッケージの配送方法に関係なく包括的な追跡情報を提供します。",
+            "multiCarrier": {
+              "title": "マルチキャリアサポート",
+              "description": "すべての主要なキャリアでパッケージを追跡します"
+            },
+            "realTimeUpdates": {
+              "title": "リアルタイム更新",
+              "description": "キャリアAPIからのライブ追跡データ"
+            },
+            "deliveryAnalytics": {
+              "title": "配送分析",
+              "description": "パフォーマンスインサイトと配送指標"
+            },
+            "carriers": {
+              "title": "サポートされているキャリア",
+              "fedex": "FedEx API",
+              "ups": "UPS追跡",
+              "usps": "USPS統合",
+              "dhl": "DHLサービス",
+              "amazon": "Amazonロジスティクス",
+              "custom": "カスタムキャリア"
+            }
+          },
+          "impact": {
+            "title": "カスタマーサービスへの影響",
+            "subtitle": "顧客満足度とサポート効率の測定可能な改善",
+            "callReduction": {
+              "metric": "85%",
+              "description": "「注文はどこですか？」通話の削減"
+            },
+            "satisfaction": {
+              "metric": "95%",
+              "description": "追跡情報による顧客満足度"
+            },
+            "availability": {
+              "metric": "24時間365日",
+              "description": "注文状況の可用性"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "カスタマーサービスワークロードの削減"
+            }
+          },
+          "cta": {
+            "title": "注文追跡を自動化する準備はできていますか？",
+            "subtitle": "即座の注文状況でサポート通話を削減し、顧客満足度を向上させます",
+            "startTrial": "無料トライアルを開始",
+            "seeDemo": "デモを見る"
+          },
+          "title": "注文状況と追跡",
+          "description": "顧客が注文状況と配送情報を即座に確認できるようにします。",
+          "benefit1": "即時更新",
+          "benefit2": "通話の削減",
+          "benefit3": "改善された体験"
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "安全な支払い処理",
+            "description": "音声インタラクションを通じて安全でPCI準拠の支払い処理を有効にします。高度な詐欺防止と即時取引処理により、顧客が電話で安全に支払いを行えるようにします。",
+            "cta": "安全な支払いを有効にする"
+          },
+          "features": {
+            "title": "安全な音声支払い機能",
+            "description": "エンタープライズグレードのセキュリティとシームレスな顧客体験の融合",
+            "secure": {
+              "title": "安全な支払い処理",
+              "description": "PCI準拠の音声技術で電話で安全に支払いを処理します。",
+              "benefits": {
+                "pciCompliance": "PCI DSS準拠",
+                "encryptedTransactions": "暗号化された取引",
+                "multiplePaymentMethods": "複数の支払い方法"
+              }
+            },
+            "fraud": {
+              "title": "詐欺防止",
+              "description": "ビジネスと顧客の両方を保護するための高度な詐欺検出と防止。",
+              "benefits": {
+                "realtimeFraudDetection": "リアルタイム詐欺検出",
+                "riskAssessment": "リスク評価",
+                "secureAuthentication": "安全な認証"
+              }
+            },
+            "instant": {
+              "title": "即時処理",
+              "description": "リアルタイム認証と確認で支払いを即座に処理します。",
+              "benefits": {
+                "realtimeAuthorization": "リアルタイム認証",
+                "instantConfirmation": "即時確認",
+                "immediateReceipts": "即時領収書"
+              }
+            }
+          },
+          "paymentMethods": {
+            "title": "包括的な支払いオプション",
+            "description": "安全な音声処理ですべての主要な支払い方法を受け入れます",
+            "creditCards": {
+              "method": "クレジットカード",
+              "description": "安全な音声処理ですべての主要なクレジットカードを受け入れます",
+              "features": {
+                "visaMastercardAmex": "Visa、Mastercard、Amex",
+                "cvvVerification": "CVV検証",
+                "expiryValidation": "有効期限検証"
+              }
+            },
+            "debitCards": {
+              "method": "デビットカード",
+              "description": "PIN検証でデビットカードの支払いを処理します",
+              "features": {
+                "pinEntryVoice": "音声によるPIN入力",
+                "bankVerification": "銀行検証",
+                "instantDeduction": "即時引き落とし"
+              }
+            },
+            "bankTransfers": {
+              "method": "銀行振込",
+              "description": "直接銀行口座振込とACH支払い",
+              "features": {
+                "accountVerification": "口座検証",
+                "routingNumberValidation": "ルーティング番号検証",
+                "achProcessing": "ACH処理"
+              }
+            },
+            "digitalWallets": {
+              "method": "デジタルウォレット",
+              "description": "人気のあるデジタル支払いプラットフォームのサポート",
+              "features": {
+                "applePay": "Apple Pay",
+                "googlePay": "Google Pay",
+                "paypalIntegration": "PayPal統合"
+              }
+            }
+          },
+          "security": {
+            "title": "銀行レベルのセキュリティ",
+            "description": "当社の支払い処理システムは、業界で最高のセキュリティ基準を満たしており、すべての取引が複数の暗号化と詐欺防止層で保護されていることを保証します。",
+            "features": {
+              "title": "セキュリティ機能"
+            },
+            "encryption": {
+              "title": "エンドツーエンド暗号化",
+              "description": "すべての支払いデータは転送中および保存中に暗号化されます"
+            },
+            "pciCompliance": {
+              "title": "PCI DSS準拠",
+              "description": "レベル1 PCI DSS認定インフラストラクチャ"
+            },
+            "monitoring": {
+              "title": "リアルタイム監視",
+              "description": "継続的な詐欺検出と防止"
+            }
+          },
+          "securityFeatures": {
+            "endToEndEncryption": "エンドツーエンド暗号化",
+            "pciDssCompliance": "PCI DSSレベル1準拠",
+            "tokenization": "カードデータのトークン化",
+            "multiFactorAuth": "多要素認証",
+            "fraudMonitoring": "リアルタイム詐欺監視",
+            "voiceRecognition": "安全な音声認識"
+          },
+          "benefits": {
+            "title": "支払い処理パフォーマンス",
+            "description": "業界をリードする信頼性とセキュリティ指標",
+            "uptime": "支払い処理稼働率",
+            "transactionTime": "平均取引時間",
+            "compliance": "PCI DSS準拠",
+            "fraudRate": "AI保護による詐欺率"
+          },
+          "cta": {
+            "title": "安全な音声支払いの準備はできていますか？",
+            "subtitle": "高度な詐欺防止機能を備えたPCI準拠の支払い処理を有効にする",
+            "startProcessing": "安全な処理を開始する",
+            "securityOverview": "セキュリティ概要"
+          },
+          "title": "支払い処理",
+          "description": "支払いを安全に処理し、請求に関する問い合わせを処理します。",
+          "benefit1": "安全な取引",
+          "benefit2": "自動請求",
+          "benefit3": "PCI準拠"
+        },
+        "virtualAssistant": {
+          "hero": {
+            "title": "営業時間外の通話に対応する24時間365日バーチャルアシスタント",
+            "description": "もう二度と顧客からの電話を逃しません。当社のAIバーチャルアシスタントは、24時間365日インテリジェントで人間のようなサポートを提供し、顧客が必要なときにいつでも即座に支援を受けられるようにします。",
+            "primaryCta": "24時間365日アシスタントを始める"
+          },
+          "features": {
+            "title": "常に稼働するカスタマーサポート",
+            "description": "24時間365日サービス品質を維持する包括的な営業時間外サポート",
+            "availability": {
+              "title": "24時間365日利用可能",
+              "description": "24時間365日AIサポートで、いつでも問い合わせを処理し、もう二度と電話を逃しません。",
+              "benefits": {
+                "0": "常に利用可能",
+                "1": "残業代なし",
+                "2": "グローバルタイムゾーンカバレッジ"
+              }
+            },
+            "callHandling": {
+              "title": "インテリジェントな通話処理",
+              "description": "高度なAIが発信者の意図を理解し、適切な応答またはエスカレーションを提供します。",
+              "benefits": {
+                "0": "自然な会話",
+                "1": "コンテキスト認識",
+                "2": "スマートエスカレーション"
+              }
+            },
+            "handoffs": {
+              "title": "シームレスな引き継ぎ",
+              "description": "必要に応じて人間エージェントへのスムーズな移行、完全なコンテキスト保持。",
+              "benefits": {
+                "0": "コンテキスト保持",
+                "1": "ホット転送",
+                "2": "情報の繰り返しなし"
+              }
+            }
+          },
+          "benefits": {
+            "title": "実証済みの結果",
+            "description": "24時間365日バーチャルアシスタンスがビジネスに与える影響をご覧ください"
+          },
+          "metrics": {
+            "abandonment": {
+              "description": "営業時間外の通話放棄の減少"
+            },
+            "availability": {
+              "description": "継続的なカスタマーサービス可用性"
+            },
+            "costSavings": {
+              "description": "人間エージェントと比較したコスト削減"
+            },
+            "satisfaction": {
+              "description": "AIインタラクションによる顧客満足度"
+            }
+          },
+          "useCases": {
+            "title": "業界アプリケーション",
+            "description": "さまざまな業界が24時間365日バーチャルアシスタンスからどのように恩恵を受けているかをご覧ください",
+            "healthcare": {
+              "title": "営業時間外のヘルスケア",
+              "description": "営業時間外の患者の問い合わせ、アポイントメントリクエスト、緊急トリアージを処理します。",
+              "metrics": {
+                "0": "見逃した通話が60%減少",
+                "1": "24時間365日患者サポート",
+                "2": "HIPAA準拠"
+              }
+            },
+            "ecommerce": {
+              "title": "Eコマースサポート",
+              "description": "注文に関する問い合わせ、返品、製品情報についていつでも顧客を支援します。",
+              "metrics": {
+                "0": "顧客満足度が40%向上",
+                "1": "即時注文状況",
+                "2": "24時間365日利用可能"
+              }
+            },
+            "financial": {
+              "title": "金融サービス",
+              "description": "営業時間外に口座情報、詐欺アラート、基本的な銀行サービスを提供します。",
+              "metrics": {
+                "0": "安全な認証",
+                "1": "詐欺防止",
+                "2": "規制遵守"
+              }
+            }
+          },
+          "cta": {
+            "title": "24時間365日カスタマーサポートの準備はできていますか？",
+            "description": "インテリジェントなバーチャルアシスタンスで営業時間外の顧客体験を変革します",
+            "primaryButton": "無料トライアルを開始",
+            "secondaryButton": "デモをスケジュールする"
+          },
+          "title": "24時間365日バーチャルアシスタント",
+          "description": "インテリジェントな通話処理で営業時間外に即座にサポートを提供します。",
+          "benefit1": "24時間365日利用可能",
+          "benefit2": "即時応答",
+          "benefit3": "コスト削減"
+        },
+        "header": "インバウンドソリューション",
+        "description": "インテリジェントな自動化と改善された顧客体験で着信通話を処理します",
+        "smartCallTransfer": {
+          "title": "スマートコール転送",
+          "description": "発信者の意図に基づいて、通話を適切な部門にインテリジェントにルーティングします。",
+          "benefit1": "待ち時間の短縮",
+          "benefit2": "ルーティングの改善",
+          "benefit3": "効率の向上"
+        },
+        "mentalHealth": {
+          "title": "メンタルヘルスコンパニオン",
+          "description": "メンタルヘルススクリーニングとリソースのための共感的なサポートを提供します。",
+          "benefit1": "24時間365日サポート",
+          "benefit2": "共感的な応答",
+          "benefit3": "危機エスカレーション"
+        },
+        "scamShield": {
+          "title": "詐欺防止シールド",
+          "description": "顧客を保護するために詐欺的な通話を特定してブロックします。",
+          "benefit1": "詐欺検出",
+          "benefit2": "顧客保護",
+          "benefit3": "詐欺通話の減少"
+        },
+        "appointmentBooking": {
+          "title": "アポイントメント予約",
+          "description": "自律的なアポイントメントスケジュールと管理を有効にします。",
+          "benefit1": "24時間365日予約",
+          "benefit2": "カレンダー同期",
+          "benefit3": "自動リマインダー"
+        }
+      },
+      "outbound": {
+        "customerReactivation": {
+          "hero": {
+            "title": "顧客再活性化キャンペーン",
+            "subtitle": "パーソナライズされたAI駆動型アウトリーチキャンペーンで休眠顧客を取り戻します。魅力的なオファーで過去の顧客を再エンゲージし、定期的な収益を促進する貴重な関係を再構築します。",
+            "cta": "再活性化キャンペーンを開始する"
+          },
+          "features": {
+            "title": "スマート再活性化機能",
+            "subtitle": "顧客の行動と好みを理解するAI駆動型キャンペーン",
+            "personalizedOutreach": {
+              "title": "パーソナライズされたアウトリーチ",
+              "description": "各顧客の履歴と好みに合わせたAI駆動型会話。",
+              "benefits": {
+                "customMessaging": "カスタムメッセージング",
+                "historicalContext": "履歴コンテキスト",
+                "behavioralInsights": "行動インサイト"
+              }
+            },
+            "winBackCampaigns": {
+              "title": "ウィンバックキャンペーン",
+              "description": "魅力的なオファーで休眠顧客を再エンゲージするように設計された戦略的キャンペーン。",
+              "benefits": {
+                "specialPromotions": "特別プロモーション",
+                "loyaltyRewards": "ロイヤルティ報酬",
+                "exclusiveAccess": "独占アクセス"
+              }
+            },
+            "performanceAnalytics": {
+              "title": "パフォーマンス分析",
+              "description": "再活性化成功率を追跡し、より良い結果のためにキャンペーンを最適化します。",
+              "benefits": {
+                "conversionTracking": "コンバージョン追跡",
+                "abTesting": "A/Bテスト",
+                "roiAnalysis": "ROI分析"
+              }
+            }
+          },
+          "process": {
+            "title": "再活性化プロセス",
+            "subtitle": "貴重な顧客を取り戻すための戦略的アプローチ",
+            "steps": {
+              "customerSegmentation": {
+                "title": "顧客セグメンテーション",
+                "description": "履歴と価値に基づいて休眠顧客を特定し、分類します",
+                "outcome": "ターゲットを絞ったアプローチ: 3倍高い応答率"
+              },
+              "personalizedOutreach": {
+                "title": "パーソナライズされたアウトリーチ",
+                "description": "AIが顧客の好みと履歴に基づいてパーソナライズされたメッセージを作成します",
+                "outcome": "エンゲージメント率: 通常の12%に対し45%"
+              },
+              "offerPresentation": {
+                "title": "オファー提示",
+                "description": "顧客の価値と興味に合わせた魅力的なウィンバックオファーを提示します",
+                "outcome": "コンバージョン率: パーソナライズされたオファーで25%"
+              },
+              "followUpNurturing": {
+                "title": "フォローアップと育成",
+                "description": "関心のある顧客をアクティブな状態に戻すための自動フォローアップシーケンス",
+                "outcome": "再活性化された顧客の維持率: 80%"
+              }
+            }
+          },
+          "campaigns": {
+            "title": "再活性化キャンペーンタイプ",
+            "subtitle": "さまざまな顧客セグメントを再エンゲージするための複数の戦略",
+            "winBackOffers": {
+              "title": "ウィンバックオファー",
+              "description": "顧客を取り戻すための特別割引とプロモーション",
+              "tactics": {
+                "exclusiveDiscounts": "独占割引",
+                "limitedTimeOffers": "期間限定オファー",
+                "freeTrials": "無料トライアル"
+              }
+            },
+            "feedbackCollection": {
+              "title": "フィードバック収集",
+              "description": "顧客がなぜ去ったのかを理解し、懸念事項に対処します",
+              "tactics": {
+                "exitSurveys": "離脱調査",
+                "concernResolution": "懸念事項の解決",
+                "serviceImprovements": "サービス改善"
+              }
+            },
+            "productUpdates": {
+              "title": "製品更新",
+              "description": "新機能や改善について顧客に通知します",
+              "tactics": {
+                "featureAnnouncements": "機能発表",
+                "benefitExplanations": "メリットの説明",
+                "demoInvitations": "デモ招待"
+              }
+            },
+            "loyaltyRewards": {
+              "title": "ロイヤルティ報酬",
+              "description": "過去のロイヤルティを認識し、特別な待遇を提供します",
+              "tactics": {
+                "vipStatus": "VIPステータス",
+                "loyaltyPoints": "ロイヤルティポイント",
+                "exclusiveAccess": "独占アクセス"
+              }
+            }
+          },
+          "results": {
+            "title": "再活性化の結果",
+            "subtitle": "貴重な顧客を取り戻すことに成功",
+            "reactivationRate": {
+              "metric": "35%",
+              "description": "顧客再活性化率"
+            },
+            "costReduction": {
+              "metric": "60%",
+              "description": "従来の方法と比較したコスト削減"
+            },
+            "responseRate": {
+              "metric": "3倍",
+              "description": "通常のキャンペーンと比較して高い応答率"
+            },
+            "retentionRate": {
+              "metric": "80%",
+              "description": "再活性化された顧客の維持率"
+            }
+          },
+          "cta": {
+            "title": "顧客を取り戻す準備はできていますか？",
+            "subtitle": "貴重な顧客関係を再構築するパーソナライズされた再活性化キャンペーンを開始します",
+            "startCampaign": "キャンペーンを開始する",
+            "viewCaseStudies": "ケーススタディを見る"
+          }
+        },
+        "fraudAlerts": {
+          "hero": {
+            "title": "詐欺アラートシステム",
+            "description": "即座の詐欺アラートで顧客を保護します。当社のAI駆動型システムは疑わしい活動を検出し、取引を検証するために顧客に自動的に連絡します。"
+          },
+          "features": {
+            "title": "高度な詐欺検出",
+            "subtitle": "進化する詐欺戦術に対する多層防御",
+            "realTimeDetection": {
+              "title": "リアルタイム詐欺検出",
+              "description": "高度なAIアルゴリズムが疑わしいパターンを特定し、顧客に到達する前に詐欺的な通話をブロックします。"
+            },
+            "instantAlerts": {
+              "title": "即時アラート",
+              "description": "疑わしい活動が検出されてから数分以内に顧客に自動的に電話をかけ、取引を検証します。"
+            },
+            "detailedAnalytics": {
+              "title": "詳細な分析",
+              "description": "包括的なレポートで詐欺防止指標と顧客応答率を追跡します。"
+            }
+          },
+          "howItWorks": {
+            "title": "詐欺アラートの仕組み",
+            "step1": {
+              "title": "詐欺検出",
+              "description": "システムが疑わしい取引パターンを特定します"
+            },
+            "step2": {
+              "title": "即時アラート",
+              "description": "AIエージェントが2分以内に顧客に電話をかけます"
+            },
+            "step3": {
+              "title": "検証",
+              "description": "顧客が取引を確認または拒否します"
+            },
+            "step4": {
+              "title": "アクション実行",
+              "description": "取引が承認されるか、セキュリティ対策がアクティブ化されます"
+            },
+            "sampleCall": {
+              "title": "サンプルアラート通話",
+              "message": "こんにちは、[銀行名]からのセキュリティアラートです。お客様の口座で異常な活動を検出しました。Amazonで$500の取引が試行されました。この購入を承認しましたか？確認する場合は1を、そうでない場合は2を押してください。"
+            }
+          },
+          "benefits": {
+            "title": "主なメリット",
+            "fraudPrevention": {
+              "title": "詐欺防止",
+              "description": "詐欺的な取引を最大85%削減"
+            },
+            "instantResponse": {
+              "title": "即時応答",
+              "description": "検出から2分以内に顧客にアラートを送信"
+            },
+            "customerTrust": {
+              "title": "顧客の信頼",
+              "description": "プロアクティブな保護で信頼を構築"
+            },
+            "smartAnalytics": {
+              "title": "スマート分析",
+              "description": "詐欺パターンとトレンドに関する詳細なインサイト"
+            }
+          },
+          "useCases": {
+            "title": "一般的なユースケース",
+            "banking": {
+              "title": "銀行と金融サービス",
+              "item1": "クレジットカード詐欺検出",
+              "item2": "異常な支出パターンアラート",
+              "item3": "口座乗っ取り防止",
+              "item4": "大規模取引検証"
+            },
+            "ecommerce": {
+              "title": "Eコマースと小売",
+              "item1": "疑わしい購入パターン",
+              "item2": "高額注文検証",
+              "item3": "個人情報盗難防止",
+              "item4": "支払い方法変更"
+            }
+          },
+          "cta": {
+            "title": "今すぐ顧客を保護する",
+            "description": "自動顧客アラートと高度な詐欺検出を実装して、損失を軽減し、信頼を構築します。",
+            "button": "詐欺アラートを始める"
+          },
+          "title": "詐欺アラート",
+          "description": "疑わしい口座活動について顧客に即座にアラートを送信します。",
+          "benefit1": "リアルタイムアラート",
+          "benefit2": "口座保護",
+          "benefit3": "詐欺防止"
+        },
+        "largeScaleCampaigns": {
+          "hero": {
+            "title": "大規模アウトバウンドキャンペーン",
+            "description": "何千もの顧客に同時にリーチする大規模な音声キャンペーンを実行します。製品発表から緊急通知まで、AI駆動型効率で前例のない規模でパーソナライズされたメッセージを配信します。",
+            "cta": "大規模キャンペーンを開始する"
+          },
+          "features": {
+            "title": "エンタープライズ規模のキャンペーン機能",
+            "subtitle": "大規模な音声キャンペーンを管理および実行するための強力なツール",
+            "massCommunication": {
+              "title": "大量コミュニケーション",
+              "description": "パーソナライズされた音声メッセージで何千もの顧客に同時にリーチします。",
+              "benefit1": "無制限の同時通話",
+              "benefit2": "パーソナライズされたメッセージング",
+              "benefit3": "グローバルリーチ"
+            },
+            "audienceSegmentation": {
+              "title": "オーディエンスセグメンテーション",
+              "description": "カスタマイズされたメッセージとタイミングで特定の顧客セグメントをターゲットにします。",
+              "benefit1": "人口統計ターゲティング",
+              "benefit2": "行動セグメンテーション",
+              "benefit3": "カスタムオーディエンス"
+            },
+            "realTimeAnalytics": {
+              "title": "リアルタイム分析",
+              "description": "キャンペーンパフォーマンスを監視し、より良い結果のためにリアルタイムで最適化します。",
+              "benefit1": "ライブダッシュボード",
+              "benefit2": "パフォーマンス指標",
+              "benefit3": "A/Bテスト"
+            }
+          },
+          "campaignTypes": {
+            "title": "キャンペーンタイプとアプリケーション",
+            "subtitle": "さまざまなビジネスコミュニケーションニーズに対応する多用途ソリューション",
+            "productAnnouncements": {
+              "type": "製品発表",
+              "description": "広範な認知度キャンペーンで新製品やサービスを立ち上げます",
+              "example1": "新機能リリース",
+              "example2": "製品ローンチ",
+              "example3": "サービス更新",
+              "metric1": "リーチ: 10万件以上の顧客",
+              "metric2": "認知度: 85%増加",
+              "metric3": "エンゲージメント: 45%の応答"
+            },
+            "emergencyNotifications": {
+              "type": "緊急通知",
+              "description": "緊急時に重要な情報を迅速に伝達します",
+              "example1": "サービス停止",
+              "example2": "予期せぬ停止",
+              "example3": "ポリシー変更",
+              "urgency": "高",
+              "timing": "即時"
+            },
+            "marketingCampaigns": {
+              "type": "マーケティングキャンペーン",
+              "description": "大規模なプロモーションとマーケティングイニシアチブを実行します",
+              "example1": "季節限定プロモーション",
+              "example2": "ブランドキャンペーン",
+              "example3": "イベント招待",
+              "metric1": "コンバージョン: 平均12%",
+              "metric2": "ROI: 通常300%",
+              "metric3": "リーチ: 無制限の規模"
+            },
+            "surveyResearch": {
+              "type": "調査研究",
+              "description": "市場調査を実施し、大規模な顧客フィードバックを収集します",
+              "example1": "市場調査",
+              "example2": "顧客満足度",
+              "example3": "製品フィードバック",
+              "metric1": "応答: 35%の率",
+              "metric2": "完了: 80%",
+              "metric3": "インサイト: リアルタイム"
+            },
+            "commonExamples": "一般的な例:",
+            "performanceMetrics": "パフォーマンス指標:"
+          },
+          "scaling": {
+            "title": "無制限の規模とリーチ",
+            "description": "当社のプラットフォームは、数千から数百万の通話まで、あらゆる規模のキャンペーンを処理するように構築されています。グローバルキャリアパートナーシップと高度なインフラストラクチャにより、大規模な信頼性の高い配信を保証します。",
+            "globalInfrastructure": {
+              "title": "グローバルインフラストラクチャ",
+              "description": "最大のリーチのための世界中のキャリアネットワーク"
+            },
+            "highSpeedExecution": {
+              "title": "高速実行",
+              "description": "1分あたり1000件以上の同時通話"
+            },
+            "realTimeMonitoring": {
+              "title": "リアルタイム監視",
+              "description": "ライブキャンペーンパフォーマンス追跡"
+            },
+            "capabilities": {
+              "title": "スケーリング機能",
+              "capability1": "無制限の同時通話",
+              "capability2": "グローバルキャリアネットワーク",
+              "capability3": "多言語サポート",
+              "capability4": "タイムゾーン最適化",
+              "capability5": "規制遵守",
+              "capability6": "リアルタイム監視"
+            },
+            "dashboard": {
+              "title": "キャンペーンダッシュボード",
+              "activeCalls": "アクティブな通話:",
+              "completionRate": "完了率:",
+              "responseRate": "応答率:"
+            }
+          },
+          "benefits": {
+            "title": "キャンペーンパフォーマンスの結果",
+            "subtitle": "エンタープライズ規模での実証済みの有効性",
+            "metric1": {
+              "value": "10,000件以上",
+              "description": "同時通話をサポート"
+            },
+            "metric2": {
+              "value": "99.9%",
+              "description": "メッセージ配信成功率"
+            },
+            "metric3": {
+              "value": "75%",
+              "description": "従来の方法と比較したコスト削減"
+            },
+            "metric4": {
+              "value": "24時間365日",
+              "description": "キャンペーン実行能力"
+            }
+          },
+          "cta": {
+            "title": "コミュニケーションをスケールアップする準備はできていますか？",
+            "description": "パーソナライズされたメッセージで何千もの顧客にリーチする大規模な音声キャンペーンを開始します",
+            "primaryButton": "キャンペーンを計画する",
+            "secondaryButton": "ケーススタディを見る"
+          }
+        },
+        "collections": {
+          "title": "回収サービス",
+          "description": "支払いリマインダーと回収プロセスを自動化します。",
+          "benefit1": "高速回収",
+          "benefit2": "支払いアレンジメント",
+          "benefit3": "コンプライアンス"
+        },
+        "reactivation": {
+          "title": "顧客再活性化",
+          "description": "パーソナライズされたアウトリーチで休眠顧客を再エンゲージします。",
+          "benefit1": "ウィンバックキャンペーン",
+          "benefit2": "パーソナライズされたオファー",
+          "benefit3": "顧客維持"
+        },
+        "seniorChecks": {
+          "title": "高齢者チェックコール",
+          "description": "定期またはオンデマンドで高齢者向けのウェルネスチェックを提供します。",
+          "benefit1": "ウェルネス監視",
+          "benefit2": "緊急エスカレーション",
+          "benefit3": "安心"
+        },
+        "campaigns": {
+          "title": "大規模キャンペーン",
+          "description": "大量のマーケティングおよび情報キャンペーンを実行します。",
+          "benefit1": "大規模なリーチ",
+          "benefit2": "パーソナライズされたメッセージ",
+          "benefit3": "費用対効果"
+        },
+        "renewals": {
+          "title": "サブスクリプション更新",
+          "description": "サブスクリプション更新リマインダーと処理を自動化します。",
+          "benefit1": "自動更新",
+          "benefit2": "解約の減少",
+          "benefit3": "収益保護"
+        },
+        "surveys": {
+          "title": "顧客調査",
+          "description": "自動サービス後のフィードバック収集。",
+          "benefit1": "フィードバック収集",
+          "benefit2": "品質インサイト",
+          "benefit3": "改善データ"
+        }
+      },
+      "hero": {
+        "title": "あらゆるビジネスニーズに対応するAI音声ソリューション",
+        "description": "顧客コミュニケーションとビジネス運営を変革するために設計された、包括的なインバウンドおよびアウトバウンド音声自動化ソリューションを発見してください。"
+      },
+      "cta": {
+        "title": "ビジネスコミュニケーションを変革する準備はできていますか？",
+        "description": "当社のAI音声ソリューションが顧客とのやり取りを自動化し、ビジネスの成長を促進する方法をご覧ください",
+        "button": "コンサルテーションをスケジュールする"
+      },
+      "learnMore": "詳細を見る"
+    }
+  }
+}

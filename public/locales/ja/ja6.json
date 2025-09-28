@@ -1,0 +1,227 @@
+{
+  "seachat": {
+    "integrations": {
+      "hero": {
+        "title": "すべてのツールを接続する",
+        "subtitle": "SeaChatは、お気に入りのビジネスツールとシームレスに連携し、ワークフローを合理化し、顧客体験を向上させます。",
+        "description": "CRM、Eコマースプラットフォーム、カレンダー、ソーシャルメディアなど、SeaChatはすべてのコミュニケーションを1つの統合ハブに集約します。",
+        "cta": "すべての連携を見る"
+      },
+      "categories": {
+        "websites": {
+          "title": "ウェブサイトプラットフォーム",
+          "description": "ウェブサイトにチャットウィジェットを簡単に導入し、訪問者を顧客に変えます。",
+          "integrations": [
+            {
+              "name": "WordPress",
+              "icon": "/public/company_icons/wordpress.png"
+            },
+            {
+              "name": "Shopify",
+              "icon": "/public/company_icons/shopify.png"
+            },
+            {
+              "name": "Wix",
+              "icon": "/public/company_icons/wix.png"
+            },
+            {
+              "name": "Squarespace",
+              "icon": "/public/company_icons/squarespace.png"
+            },
+            {
+              "name": "カスタムHTML",
+              "icon": "/public/company_icons/html.png"
+            }
+          ]
+        },
+        "crm": {
+          "title": "CRMシステム",
+          "description": "顧客データと会話履歴を同期して、パーソナライズされたサポートを提供します。",
+          "integrations": [
+            {
+              "name": "Salesforce",
+              "icon": "/public/company_icons/salesforce.png"
+            },
+            {
+              "name": "HubSpot",
+              "icon": "/public/company_icons/hubspot.png"
+            },
+            {
+              "name": "Zoho CRM",
+              "icon": "/public/company_icons/zoho.png"
+            },
+            {
+              "name": "Pipedrive",
+              "icon": "/public/company_icons/pipedrive.png"
+            },
+            {
+              "name": "Freshsales",
+              "icon": "/public/company_icons/freshsales.png"
+            }
+          ]
+        },
+        "ecommerce": {
+          "title": "Eコマースプラットフォーム",
+          "description": "注文状況、製品に関する問い合わせ、放棄されたカートの回復を自動化します。",
+          "integrations": [
+            {
+              "name": "Shopify",
+              "icon": "/public/company_icons/shopify.png"
+            },
+            {
+              "name": "WooCommerce",
+              "icon": "/public/company_icons/woocommerce.png"
+            },
+            {
+              "name": "Magento",
+              "icon": "/public/company_icons/magento.png"
+            },
+            {
+              "name": "BigCommerce",
+              "icon": "/public/company_icons/bigcommerce.png"
+            },
+            {
+              "name": "Squarespace",
+              "icon": "/public/company_icons/squarespace.png"
+            }
+          ]
+        },
+        "socialMedia": {
+          "title": "ソーシャルメディア",
+          "description": "顧客が好むプラットフォームで顧客とつながり、ソーシャルエンゲージメントを管理します。",
+          "integrations": [
+            {
+              "name": "WhatsApp",
+              "icon": "/public/company_icons/whatsapp.png"
+            },
+            {
+              "name": "Facebook Messenger",
+              "icon": "/public/company_icons/facebook.png"
+            },
+            {
+              "name": "Instagram DM",
+              "icon": "/public/company_icons/instagram.png"
+            },
+            {
+              "name": "LINE",
+              "icon": "/public/company_icons/line.png"
+            },
+            {
+              "name": "Telegram",
+              "icon": "/public/company_icons/telegram.png"
+            }
+          ]
+        },
+        "communication": {
+          "title": "コミュニケーションツール",
+          "description": "既存のコミュニケーションワークフローを強化し、チームのコラボレーションを改善します。",
+          "integrations": [
+            {
+              "name": "Slack",
+              "icon": "/public/company_icons/slack.png"
+            },
+            {
+              "name": "Microsoft Teams",
+              "icon": "/public/company_icons/microsoft-teams.png"
+            },
+            {
+              "name": "Twilio",
+              "icon": "/public/company_icons/twilio.png"
+            },
+            {
+              "name": "Zoom",
+              "icon": "/public/company_icons/zoom.png"
+            },
+            {
+              "name": "Google Meet",
+              "icon": "/public/company_icons/google-meet.png"
+            }
+          ]
+        },
+        "marketing": {
+          "title": "マーケティングプラットフォーム",
+          "description": "リードの育成、キャンペーンの自動化、顧客エンゲージメントの追跡を合理化します。",
+          "integrations": [
+            {
+              "name": "Mailchimp",
+              "icon": "/public/company_icons/mailchimp.png"
+            },
+            {
+              "name": "HubSpot Marketing",
+              "icon": "/public/company_icons/hubspot.png"
+            },
+            {
+              "name": "ActiveCampaign",
+              "icon": "/public/company_icons/activecampaign.png"
+            },
+            {
+              "name": "Constant Contact",
+              "icon": "/public/company_icons/constant-contact.png"
+            },
+            {
+              "name": "MailerLite",
+              "icon": "/public/company_icons/mailerlite.png"
+            }
+          ]
+        },
+        "calendar": {
+          "title": "カレンダー & スケジューリング",
+          "description": "アポイントメントの予約、会議のスケジュール、イベントの管理を自動化します。",
+          "integrations": [
+            {
+              "name": "Google Calendar",
+              "icon": "/public/company_icons/google-calendar.png"
+            },
+            {
+              "name": "Outlook Calendar",
+              "icon": "/public/company_icons/outlook-calendar.png"
+            },
+            {
+              "name": "Calendly",
+              "icon": "/public/company_icons/calendly.png"
+            },
+            {
+              "name": "Acuity Scheduling",
+              "icon": "/public/company_icons/acuity-scheduling.png"
+            },
+            {
+              "name": "YouCanBook.me",
+              "icon": "/public/company_icons/youcanbookme.png"
+            }
+          ]
+        },
+        "api": {
+          "title": "カスタムAPI & Webhook",
+          "description": "SeaChatを任意のカスタムシステムやアプリケーションと接続します。",
+          "integrations": [
+            {
+              "name": "REST API",
+              "icon": "/public/company_icons/api.png"
+            },
+            {
+              "name": "Webhooks",
+              "icon": "/public/company_icons/webhook.png"
+            },
+            {
+              "name": "Make.com (旧Integromat)",
+              "icon": "/public/company_icons/make.com.png"
+            },
+            {
+              "name": "Zapier",
+              "icon": "/public/company_icons/zapier.png"
+            },
+            {
+              "name": "カスタムSDK",
+              "icon": "/public/company_icons/sdk.png"
+            }
+          ]
+        }
+      },
+      "cta": {
+        "title": "すべてのツールを接続する準備はできていますか？",
+        "subtitle": "SeaChatを既存のワークフローにシームレスに統合し、顧客体験を変革します。",
+        "button": "連携を開始"
+      }
+    }
+  }
+}

@@ -1,0 +1,1269 @@
+{
+  "seavoice": {
+    "solutions": {
+      "outbound": {
+        "customerReactivation": {
+          "hero": {
+            "title": "顧客再活性化キャンペーン",
+            "subtitle": "パーソナライズされたAI駆動型アウトリーチキャンペーンで休眠顧客を取り戻します。魅力的なオファーで過去の顧客を再エンゲージし、定期的な収益を促進する貴重な関係を再構築します。",
+            "cta": "再活性化キャンペーンを開始する"
+          },
+          "features": {
+            "title": "スマート再活性化機能",
+            "subtitle": "顧客の行動と好みを理解するAI駆動型キャンペーン",
+            "personalizedOutreach": {
+              "title": "パーソナライズされたアウトリーチ",
+              "description": "各顧客の履歴と好みに合わせたAI駆動型会話。",
+              "benefits": {
+                "customMessaging": "カスタムメッセージング",
+                "historicalContext": "履歴コンテキスト",
+                "behavioralInsights": "行動インサイト"
+              }
+            },
+            "winBackCampaigns": {
+              "title": "ウィンバックキャンペーン",
+              "description": "魅力的なオファーで休眠顧客を再エンゲージするように設計された戦略的キャンペーン。",
+              "benefits": {
+                "specialPromotions": "特別プロモーション",
+                "loyaltyRewards": "ロイヤルティ報酬",
+                "exclusiveAccess": "独占アクセス"
+              }
+            },
+            "performanceAnalytics": {
+              "title": "パフォーマンス分析",
+              "description": "再活性化成功率を追跡し、より良い結果のためにキャンペーンを最適化します。",
+              "benefits": {
+                "conversionTracking": "コンバージョン追跡",
+                "abTesting": "A/Bテスト",
+                "roiAnalysis": "ROI分析"
+              }
+            }
+          },
+          "process": {
+            "title": "再活性化プロセス",
+            "subtitle": "貴重な顧客を取り戻すための戦略的アプローチ",
+            "steps": {
+              "customerSegmentation": {
+                "title": "顧客セグメンテーション",
+                "description": "履歴と価値に基づいて休眠顧客を特定し、分類します",
+                "outcome": "ターゲットを絞ったアプローチ: 3倍高い応答率"
+              },
+              "personalizedOutreach": {
+                "title": "パーソナライズされたアウトリーチ",
+                "description": "AIが顧客の好みと履歴に基づいてパーソナライズされたメッセージを作成します",
+                "outcome": "エンゲージメント率: 通常の12%に対し45%"
+              },
+              "offerPresentation": {
+              "title": "オファー提示",
+              "description": "顧客の価値と興味に合わせた魅力的なウィンバックオファーを提示します",
+              "outcome": "コンバージョン率: パーソナライズされたオファーで25%"
+            },
+            "followUpNurturing": {
+              "title": "フォローアップと育成",
+              "description": "関心のある顧客をアクティブな状態に戻すための自動フォローアップシーケンス",
+              "outcome": "再活性化された顧客の維持率: 80%"
+            }
+          }
+        },
+        "campaigns": {
+          "title": "再活性化キャンペーンタイプ",
+          "subtitle" : "さまざまな顧客セグメントを再エンゲージするための複数の戦略",
+          "winBackOffers": {
+            "title": "ウィンバックオファー",
+            "description": "顧客を取り戻すための特別割引とプロモーション",
+            "tactics": {
+              "exclusiveDiscounts": "独占割引",
+              "limitedTimeOffers": "期間限定オファー",
+              "freeTrials": "無料トライアル"
+            }
+          },
+          "feedbackCollection": {
+            "title": "フィードバック収集",
+            "description": "顧客がなぜ去ったのかを理解し、懸念事項に対処します",
+            "tactics": {
+              "exitSurveys": "離脱調査",
+              "concernResolution": "懸念事項の解決",
+              "serviceImprovements": "サービス改善"
+            }
+          },
+          "productUpdates": {
+            "title": "製品更新",
+            "description": "新機能や改善について顧客に通知します",
+            "tactics": {
+              "featureAnnouncements": "機能発表",
+              "benefitExplanations": "メリットの説明",
+              "demoInvitations": "デモ招待"
+            }
+          },
+          "loyaltyRewards": {
+            "title": "ロイヤルティ報酬",
+            "description": "過去のロイヤルティを認識し、特別な待遇を提供します",
+            "tactics": {
+              "vipStatus": "VIPステータス",
+              "loyaltyPoints": "ロイヤルティポイント",
+              "exclusiveAccess": "独占アクセス"
+            }
+          }
+        },
+        "results": {
+          "title": "再活性化の結果",
+          "subtitle": "貴重な顧客を取り戻すことに成功",
+          "reactivationRate": {
+            "metric": "35%",
+            "description": "顧客再活性化率"
+          },
+          "costReduction": {
+            "metric": "60%",
+            "description": "従来の方法と比較したコスト削減"
+          },
+          "responseRate": {
+            "metric": "3倍",
+            "description": "通常のキャンペーンと比較して高い応答率"
+          },
+          "retentionRate": {
+            "metric": "80%",
+            "description": "再活性化された顧客の維持率"
+          }
+        },
+        "cta": {
+          "title": "顧客を取り戻す準備はできていますか？",
+          "subtitle": "貴重な顧客関係を再構築するパーソナライズされた再活性化キャンペーンを開始します",
+          "startCampaign": "キャンペーンを開始する",
+          "viewCaseStudies": "ケーススタディを見る"
+        }
+      },
+      "fraudAlerts": {
+        "hero": {
+          "title": "詐欺アラートシステム",
+          "description": "即座の詐欺アラートで顧客を保護します。当社のAI駆動型システムは疑わしい活動を検出し、取引を検証するために顧客に自動的に連絡します。"
+        },
+        "features": {
+          "title": "高度な詐欺検出",
+          "subtitle": "進化する詐欺戦術に対する多層防御",
+          "realTimeDetection": {
+            "title": "リアルタイム詐欺検出",
+            "description": "高度なAIアルゴリズムが疑わしいパターンを特定し、顧客に到達する前に詐欺的な通話をブロックします。"
+          },
+          "instantAlerts": {
+            "title": "即時アラート",
+            "description": "疑わしい活動が検出されてから数分以内に顧客に自動的に電話をかけ、取引を検証します。"
+          },
+          "detailedAnalytics": {
+            "title": "詳細な分析",
+            "description": "包括的なレポートで詐欺防止指標と顧客応答率を追跡します。"
+          }
+        },
+        "howItWorks": {
+          "title": "詐欺アラートの仕組み",
+          "step1": {
+            "title": "詐欺検出",
+            "description": "システムが疑わしい取引パターンを特定します"
+          },
+          "step2": {
+            "title": "即時アラート",
+            "description": "AIエージェントが2分以内に顧客に電話をかけます"
+          },
+          "step3": {
+            "title": "検証",
+            "description": "顧客が取引を確認または拒否します"
+          },
+          "step4": {
+            "title": "アクション実行",
+            "description": "取引が承認されるか、セキュリティ対策がアクティブ化されます"
+          },
+          "sampleCall": {
+            "title": "サンプルアラート通話",
+            "message": "こんにちは、[銀行名]からのセキュリティアラートです。お客様の口座で異常な活動を検出しました。Amazonで$500の取引が試行されました。この購入を承認しましたか？確認する場合は1を、そうでない場合は2を押してください。"
+          }
+        },
+        "benefits": {
+          "title": "主なメリット",
+          "fraudPrevention": {
+            "title": "詐欺防止",
+            "description": "詐欺的な取引を最大85%削減"
+          },
+          "instantResponse": {
+            "title": "即時応答",
+            "description": "検出から2分以内に顧客にアラートを送信"
+          },
+          "customerTrust": {
+            "title": "顧客の信頼",
+            "description": "プロアクティブな保護で信頼を構築"
+          },
+          "smartAnalytics": {
+            "title": "スマート分析",
+            "description": "詐欺パターンとトレンドに関する詳細なインサイト"
+          }
+        },
+        "useCases": {
+          "title": "一般的なユースケース",
+          "banking": {
+            "title": "銀行と金融サービス",
+            "item1": "クレジットカード詐欺検出",
+            "item2": "異常な支出パターンアラート",
+            "item3": "口座乗っ取り防止",
+            "item4": "大規模取引検証"
+          },
+          "ecommerce": {
+            "title": "Eコマースと小売",
+            "item1": "疑わしい購入パターン",
+            "item2": "高額注文検証",
+            "item3": "個人情報盗難防止",
+            "item4": "支払い方法変更"
+          }
+        },
+        "cta": {
+          "title": "今すぐ顧客を保護する",
+          "description": "自動顧客アラートと高度な詐欺検出を実装して、損失を軽減し、信頼を構築します。",
+          "button": "詐欺アラートを始める"
+        },
+        "title": "詐欺アラート",
+        "description": "疑わしい口座活動について顧客に即座にアラートを送信します。",
+        "benefit1": "リアルタイムアラート",
+        "benefit2": "口座保護",
+        "benefit3": "詐欺防止"
+      },
+      "largeScaleCampaigns": {
+        "hero": {
+          "title": "大規模アウトバウンドキャンペーン",
+          "description": "何千もの顧客に同時にリーチする大規模な音声キャンペーンを実行します。製品発表から緊急通知まで、AI駆動型効率で前例のない規模でパーソナライズされたメッセージを配信します。",
+          "cta": "大規模キャンペーンを開始する"
+        },
+        "features": {
+          "title": "エンタープライズ規模のキャンペーン機能",
+          "subtitle": "大規模な音声キャンペーンを管理および実行するための強力なツール",
+          "massCommunication": {
+            "title": "大量コミュニケーション",
+            "description": "パーソナライズされた音声メッセージで何千もの顧客に同時にリーチします。",
+            "benefit1": "無制限の同時通話",
+            "benefit2": "パーソナライズされたメッセージング",
+            "benefit3": "グローバルリーチ"
+          },
+          "audienceSegmentation": {
+            "title": "オーディエンスセグメンテーション",
+            "description": "カスタマイズされたメッセージとタイミングで特定の顧客セグメントをターゲットにします。",
+            "benefit1": "人口統計ターゲティング",
+            "benefit2": "行動セグメンテーション",
+            "benefit3": "カスタムオーディエンス"
+          },
+          "realTimeAnalytics": {
+            "title": "リアルタイム分析",
+            "description": "キャンペーンパフォーマンスを監視し、より良い結果のためにリアルタイムで最適化します。",
+            "benefit1": "ライブダッシュボード",
+            "benefit2": "パフォーマンス指標",
+            "benefit3": "A/Bテスト"
+          }
+        },
+        "campaignTypes": {
+          "title": "キャンペーンタイプとアプリケーション",
+          "subtitle": "さまざまなビジネスコミュニケーションニーズに対応する多用途ソリューション",
+          "productAnnouncements": {
+            "type": "製品発表",
+            "description": "広範な認知度キャンペーンで新製品やサービスを立ち上げます",
+            "example1": "新機能リリース",
+            "example2": "製品ローンチ",
+            "example3": "サービス更新",
+            "metric1": "リーチ: 10万件以上の顧客",
+            "metric2": "認知度: 85%増加",
+            "metric3": "エンゲージメント: 45%の応答"
+          },
+          "emergencyNotifications": {
+            "type": "緊急通知",
+            "description": "緊急時に重要な情報を迅速に伝達します",
+            "example1": "サービス停止",
+            "example2": "予期せぬ停止",
+            "example3": "ポリシー変更",
+            "metric1": "速度: 1分あたり1000件の通話",
+            "metric2": "配信: 99%成功",
+            "metric3": "応答: 5分未満"
+          },
+          "marketingCampaigns": {
+            "type": "マーケティングキャンペーン",
+            "description": "大規模なプロモーションとマーケティングイニシアチブを実行します",
+            "example1": "季節限定プロモーション",
+            "example2": "ブランドキャンペーン",
+            "example3": "イベント招待",
+            "metric1": "コンバージョン: 平均12%",
+            "metric2": "ROI: 通常300%",
+            "metric3": "リーチ: 無制限の規模"
+          },
+          "surveyResearch": {
+            "type": "調査研究",
+            "description": "市場調査を実施し、大規模な顧客フィードバックを収集します",
+            "example1": "市場調査",
+            "example2": "顧客満足度",
+            "example3": "製品フィードバック",
+            "metric1": "応答: 35%の率",
+            "metric2": "完了: 80%",
+            "metric3": "インサイト: リアルタイム"
+          },
+          "commonExamples": "一般的な例:",
+          "performanceMetrics": "パフォーマンス指標:"
+        },
+        "scaling": {
+          "title": "無制限の規模とリーチ",
+          "description": "当社のプラットフォームは、数千から数百万の通話まで、あらゆる規模のキャンペーンを処理するように構築されています。グローバルキャリアパートナーシップと高度なインフラストラクチャにより、大規模な信頼性の高い配信を保証します。",
+          "globalInfrastructure": {
+            "title": "グローバルインフラストラクチャ",
+            "description": "最大のリーチのための世界中のキャリアネットワーク"
+          },
+          "highSpeedExecution": {
+            "title": "高速実行",
+            "description": "1分あたり1000件以上の同時通話"
+          },
+          "realTimeMonitoring": {
+            "title": "リアルタイム監視",
+            "description": "ライブキャンペーンパフォーマンス追跡"
+          },
+          "capabilities": {
+            "title": "スケーリング機能",
+            "capability1": "無制限の同時通話",
+            "capability2": "グローバルキャリアネットワーク",
+            "capability3": "多言語サポート",
+            "capability4": "タイムゾーン最適化",
+            "capability5": "規制遵守",
+            "capability6": "リアルタイム監視"
+          },
+          "dashboard": {
+            "title": "キャンペーンダッシュボード",
+            "activeCalls": "アクティブな通話:",
+            "completionRate": "完了率:",
+            "responseRate": "応答率:"
+          }
+        },
+        "benefits": {
+          "title": "キャンペーンパフォーマンスの結果",
+          "subtitle": "エンタープライズ規模での実証済みの有効性",
+          "metric1": {
+            "value": "10,000件以上",
+            "description": "同時通話をサポート"
+          },
+          "metric2": {
+            "value": "99.9%",
+            "description": "メッセージ配信成功率"
+          },
+          "metric3": {
+            "value": "75%",
+            "description": "従来の方法と比較したコスト削減"
+          },
+          "metric4": {
+            "value": "24時間365日",
+            "description": "キャンペーン実行能力"
+          }
+        },
+        "cta": {
+          "title": "コミュニケーションをスケールアップする準備はできていますか？",
+          "description": "パーソナライズされたメッセージで何千もの顧客にリーチする大規模な音声キャンペーンを開始します",
+          "primaryButton": "キャンペーンを計画する",
+          "secondaryButton": "ケーススタディを見る"
+        }
+      },
+      "hero": {
+        "title": "回収サービス自動化",
+        "description": "顧客関係を維持しながら回収率を向上させるAI駆動型通話で、債権回収プロセスを合理化します。FDCPAおよびTCPA規制に完全に準拠しています。",
+        "cta": "回収率を向上させる"
+      },
+      "features": {
+        "title": "スマート回収機能",
+        "subtitle": "プロフェッショナルで準拠した効果的な債権回収自動化",
+        "paymentReminders": {
+          "title": "自動支払いリマインダー",
+          "description": "顧客関係を維持しながら支払いを促す、穏やかでプロフェッショナルなリマインダー。",
+          "benefit1": "カスタマイズ可能なメッセージング",
+          "benefit2": "複数の連絡試行",
+          "benefit3": "支払いプランオプション"
+        },
+        "compliance": {
+          "title": "コンプライアンスと規制",
+          "description": "FDCPA、TCPA、およびその他の債権回収規制に組み込まれたコンプライアンス。",
+          "benefit1": "規制遵守",
+          "benefit2": "通話録音",
+          "benefit3": "監査証跡"
+        },
+        "optimalTiming": {
+          "title": "最適なタイミング",
+          "description": "AIが最大の応答率を得るために顧客に連絡する最適な時間を決定します。",
+          "benefit1": "タイムゾーン認識",
+          "benefit2": "行動パターン",
+          "benefit3": "応答最適化"
+        }
+      },
+      "collectionProcess": {
+        "title": "プログレッシブ回収戦略",
+        "subtitle": "関係を維持しながら回収を最大化するエスカレートするアプローチ",
+        "earlyReminder": {
+          "stage": "早期リマインダー",
+          "description": "最近延滞した口座への友好的な支払いリマインダー",
+          "approach": "支払いオプション付きの穏やかで役立つトーン",
+          "success": "65%の支払い率"
+        },
+        "followUp": {
+          "stage": "フォローアップ",
+          "description": "継続的に延滞している口座へのより直接的なコミュニケーション",
+          "approach": "明確な結果、支払いプランの提供",
+          "success": "45%の支払い率"
+        },
+        "finalNotice": {
+          "stage": "最終通知",
+          "description": "人間の回収業者へのエスカレーション前の最後の試み",
+          "approach": "緊急のトーン、最終支払い期限",
+          "success": "30%の支払い率"
+        },
+        "humanHandoff": {
+          "stage": "人間への引き継ぎ",
+          "description": "完全なコンテキストを伴って、複雑なケースを人間の回収業者に転送",
+          "approach": "詳細な口座履歴と過去の会話",
+          "success": "25%の解決率"
+        }
+      },
+      "benefits": {
+        "title": "実証済みの回収結果",
+        "subtitle": "AI駆動型回収が回収率に与える影響をご覧ください",
+        "collectionRates": {
+          "metric": "40%",
+          "description": "回収率の向上"
+        },
+        "costReduction": {
+          "metric": "60%",
+          "description": "従来の方法と比較したコスト削減"
+        },
+        "paymentProcessing": {
+          "metric": "80%",
+          "description": "高速支払い処理"
+        },
+        "complianceRate": {
+          "metric": "95%",
+          "description": "規制遵守率"
+        }
+      },
+      "complianceSection": {
+        "title": "組み込みのコンプライアンス",
+        "description": "当社の回収プラットフォームは、コンプライアンスを核として設計されており、すべてのインタラクションが連邦および州の規制を満たし、プロフェッショナルな基準を維持することを保証します。",
+        "features": {
+          "fdcpaCompliance": "FDCPA準拠",
+          "tcpaCompliance": "TCPA準拠",
+          "stateRegulation": "州規制遵守",
+          "callRecording": "通話録音と監視",
+          "disputeHandling": "紛争処理",
+          "ceaseDesist": "停止命令管理"
+        },
+        "subFeatures": {
+          "regulatoryCompliance": {
+            "title": "規制遵守",
+            "description": "FDCPA、TCPA、および州固有の規制"
+          },
+          "auditTrail": {
+            "title": "完全な監査証跡",
+            "description": "すべてのインタラクションと結果の詳細なログ"
+          },
+          "timingControls": {
+            "title": "タイミング制御",
+            "description": "通話時間制限の自動遵守"
+          }
+        },
+        "featuresTitle": "コンプライアンス機能"
+      },
+      "cta": {
+        "title": "回収率を向上させる準備はできていますか？",
+        "subtitle": "準拠したプロフェッショナルなAI駆動型回収で、より多くの債務を回収し始めましょう",
+        "startFreeTrial": "無料トライアルを開始",
+        "scheduleDemo": "デモをスケジュールする"
+      },
+      "leadGeneration": {
+        "hero": {
+          "title": "リードジェネレーションと適格化",
+          "subtitle": "見込み客を特定し、適格化し、育成するAI駆動型リードジェネレーションで営業パイプラインを変革し、営業チームに最高品質のリードのみを提供します。",
+          "cta": "リードジェネレーションを強化する"
+        },
+        "features": {
+          "title": "インテリジェントなリードジェネレーション機能",
+          "subtitle": "精度で見込み客を特定し、適格化する高度なAI技術",
+          "intelligentQualification": {
+            "title": "インテリジェントなリード適格化",
+            "description": "高品質の見込み客を特定し、必要な情報を収集するAI駆動型会話。",
+            "benefits": {
+              "automatedScoring": "自動スコアリング",
+              "intentDetection": "意図認識",
+              "demographicProfiling": "人口統計プロファイリング"
+            }
+          },
+          "personalizedOutreach": {
+            "title": "パーソナライズされたアウトリーチ",
+            "description": "プロフィールと興味に基づいて、各見込み客に合わせた動的な会話。",
+            "benefits": {
+              "customMessaging": "カスタムメッセージング",
+              "behavioralTriggers": "行動トリガー",
+              "contextualResponses": "コンテキスト応答"
+            }
+          },
+          "realTimeAnalytics": {
+            "title": "リアルタイム分析",
+            "description": "包括的なレポートでキャンペーンパフォーマンスとリード品質を追跡します。",
+            "benefits": {
+              "conversionTracking": "コンバージョン追跡",
+              "qualityMetrics": "品質指標",
+              "roiAnalysis": "ROI分析"
+            }
+          }
+        },
+        "process": {
+          "title": "リード適格化プロセス",
+          "subtitle": "最初の接触から適格な引き継ぎまで - AIの仕組みをご覧ください",
+          "steps": {
+            "initialContact": {
+              "title": "最初の接触",
+              "description": "AIエージェントが見込み客にパーソナライズされたアウトバウンド通話をかけます",
+              "outcome": "エンゲージメント率: 35%"
+            },
+            "needsAssessment": {
+              "title": "ニーズ評価",
+              "description": "見込み客のニーズを理解するためのインテリジェントな質問",
+              "outcome": "適格化率: 60%"
+            },
+            "interestScoring": {
+              "title": "興味スコアリング",
+              "description": "AIが応答とエンゲージメントに基づいてリード品質をスコアリングします",
+              "outcome": "精度: 85%"
+            },
+            "handoffToSales": {
+              "title": "営業への引き継ぎ",
+              "description": "適格なリードは、完全なコンテキストを伴って人間の営業チームに転送されます",
+              "outcome": "コンバージョン率: 25%"
+            }
+          }
+        },
+        "results": {
+          "title": "実証済みの結果",
+          "subtitle": "AI駆動型リードジェネレーションが営業パイプラインに与える影響をご覧ください",
+          "qualifiedLeads": {
+            "metric": "300%",
+            "description": "適格なリードの増加"
+          },
+          "costReduction": {
+            "metric": "60%",
+            "description": "リードあたりのコスト削減"
+          },
+          "accuracy": {
+            "metric": "85%",
+            "description": "リード適格化の精度"
+          },
+          "conversion": {
+            "metric": "25%",
+            "description": "リードから顧客へのコンバージョン率"
+          }
+        },
+        "industries": {
+          "title": "業界の成功事例",
+          "subtitle": "さまざまな業界がAIリードジェネレーションからどのように恩恵を受けているかをご覧ください",
+          "realEstate": {
+            "name": "不動産",
+            "description": "物件の購入者と販売者を適格化し、内覧をスケジュールします",
+            "results": {
+              "moreLeads": "40%多くの適格なリード",
+              "fasterCycle": "50%高速な営業サイクル"
+            }
+          },
+          "insurance": {
+            "name": "保険",
+            "description": "カバレッジを必要とする見込み客を特定し、リスク情報を収集します",
+            "results": {
+              "increaseSales": "35%の保険販売増加",
+              "costReduction": "60%のコスト削減"
+            }
+          },
+          "softwareSaas": {
+            "name": "ソフトウェア/SaaS",
+            "description": "エンタープライズの見込み客を適格化し、製品デモをスケジュールします",
+            "results": {
+              "demoBookings": "3倍多くデモを予約",
+              "closeRate": "45%高い成約率"
+            }
+          }
+        },
+        "cta": {
+          "title": "リードジェネレーションを変革する準備はできていますか？",
+          "subtitle": "AI駆動型アウトバウンド通話で、より多くのリードを生成し、適格化し始めましょう",
+          "startTrial": "無料トライアルを開始",
+          "scheduleDemo": "デモをスケジュールする"
+        },
+        "title": "リードジェネレーションと適格化",
+        "description": "営業チームのためにリードを積極的に適格化し、フォローアップをスケジュールします。",
+        "benefit1": "高いコンバージョン",
+        "benefit2": "適格なリード",
+        "benefit3": "営業効率"
+      },
+      "customerSurveys": {
+        "hero": {
+          "title": "顧客調査自動化",
+          "description": "自然な音声会話を通じて貴重な顧客フィードバックを収集します。パーソナルで魅力的な自動調査を実施し、従来の方法よりも高い応答率と詳細なインサイトを得ます。",
+          "cta": "調査キャンペーンを開始する"
+        },
+        "sections": {
+          "features": {
+            "title": "インテリジェントな調査機能",
+            "subtitle": "調査を自然な会話のように感じさせる高度なAI技術"
+          },
+          "surveys": {
+            "title": "包括的な調査ソリューション",
+            "subtitle": "さまざまなビジネス目標とインサイトに合わせてカスタマイズされた調査タイプ"
+          },
+          "sampleQuestions": "サンプル質問:",
+          "keyMetrics": "主要な指標:",
+          "analytics": {
+            "title": "高度な分析とインサイト",
+            "description": "当社のAIは単に回答を収集するだけでなく、感情を分析し、トレンドを特定し、ビジネスを改善するためのデータ駆動型意思決定を行うのに役立つ実用的なインサイトを提供します。"
+          },
+          "analysisFeatures": {
+            "title": "分析機能"
+          },
+          "benefits": {
+            "title": "調査パフォーマンスの結果",
+            "subtitle": "フィードバック収集と顧客インサイトの測定可能な改善"
+          }
+        },
+        "features": {
+          "conversational": {
+            "title": "会話型調査",
+            "description": "正式な調査ではなく、友好的なディスカッションのように感じられる自然な音声会話。",
+            "benefits": {
+              "0": "高い応答率",
+              "1": "自然なインタラクション",
+              "2": "詳細なフィードバック"
+            }
+          },
+          "analytics": {
+            "title": "リアルタイム分析",
+            "description": "実用的なインサイトを伴う調査回答の即時分析とレポート。",
+            "benefits": {
+              "0": "ライブダッシュボード",
+              "1": "感情分析",
+              "2": "トレンド特定"
+            }
+          },
+          "outreach": {
+            "title": "ターゲットを絞ったアウトリーチ",
+            "description": "パーソナライズされた調査体験で特定の顧客セグメントにリーチします。",
+            "benefits": {
+              "0": "人口統計ターゲティング",
+              "1": "行動セグメンテーション",
+              "2": "カスタムタイミング"
+            }
+          }
+        },
+        "surveyTypes": {
+          "csat": {
+            "title": "顧客満足度 (CSAT)",
+            "description": "製品、サービス、またはインタラクションに対する全体的な満足度を測定します",
+            "questions": {
+              "0": "当社のサービスにどのくらい満足していますか？",
+              "1": "何を改善できますか？",
+              "2": "私たちを推薦しますか？"
+            },
+            "metrics": {
+              "0": "CSATスコア",
+              "1": "ネットプロモータースコア",
+              "2": "応答率"
+            }
+          },
+          "postPurchase": {
+            "title": "購入後のフィードバック",
+            "description": "購入またはサービスインタラクション直後にインサイトを収集します",
+            "questions": {
+              "0": "購入体験はどうでしたか？",
+              "1": "製品は期待に応えましたか？",
+              "2": "配送に問題がありましたか？"
+            },
+            "metrics": {
+              "0": "購入満足度",
+              "1": "配送評価",
+              "2": "製品品質"
+            }
+          },
+          "productDev": {
+            "title": "製品開発",
+            "description": "新機能、製品、またはサービス改善のための入力を収集します",
+            "questions": {
+              "0": "どのような機能を見たいですか？",
+              "1": "当社の製品をどのように使用していますか？",
+              "2": "どのような問題を解決する必要がありますか？"
+            },
+            "metrics": {
+              "0": "機能リクエスト",
+              "1": "使用パターン",
+              "2": "ペインポイント"
+            }
+          },
+          "marketResearch": {
+            "title": "市場調査",
+            "description": "市場トレンド、好み、競争環境を理解します",
+            "questions": {
+              "0": "どのブランドが好きですか？",
+              "1": "購入の決定をどのように行いますか？",
+              "2": "何があなたの選択に影響しますか？"
+            },
+            "metrics": {
+              "0": "ブランド認知度",
+              "1": "購入ドライバー",
+              "2": "市場トレンド"
+            }
+          }
+        },
+        "analytics": {
+          "sentimentAnalysis": {
+            "title": "感情分析",
+            "description": "回答の背後にある感情的なトーンを理解します"
+          },
+          "trendIdentification": {
+            "title": "トレンド特定",
+            "description": "パターンと新たな問題を迅速に特定します"
+          },
+          "actionableReports": {
+            "title": "実用的なレポート",
+            "description": "改善のための具体的な推奨事項を受け取ります"
+          }
+        },
+        "analysisFeatures": {
+          "0": "リアルタイム感情分析",
+          "1": "自動応答分類",
+          "2": "トレンド特定とアラート",
+          "3": "カスタムレポートダッシュボード",
+          "4": "CRMシステムとの統合",
+          "5": "実用的なインサイト生成"
+        },
+        "dashboard": {
+          "title": "ライブ調査ダッシュボード",
+          "responsesToday": "今日の回答:",
+          "completionRate": "完了率:",
+          "avgSatisfaction": "平均満足度:",
+          "sentiment": "感情:",
+          "responsesTodayValue": "1,847",
+          "completionRateValue": "85.3%",
+          "avgSatisfactionValue": "4.2/5",
+          "sentimentValue": "78%ポジティブ"
+        },
+        "benefits": {
+          "0": {
+            "metric": "3倍",
+            "description": "従来の調査よりも高い応答率"
+          },
+          "1": {
+            "metric": "85%",
+            "description": "調査完了率"
+          },
+          "2": {
+            "metric": "60%",
+            "description": "より詳細なフィードバックが収集されました"
+          },
+          "3": {
+            "metric": "24時間365日",
+            "description": "自動調査展開"
+          }
+        },
+        "cta": {
+          "title": "より良い顧客インサイトを収集する準備はできていますか？",
+          "subtitle": "顧客が実際に完了したいと思う会話型調査で貴重なフィードバックを収集し始めましょう",
+          "primaryBtn": "調査キャンペーンを開始する",
+          "secondaryBtn": "サンプル調査を見る"
+        }
+      },
+      "proactiveSupport": {
+        "hero": {
+          "title": "プロアクティブなカスタマーサポート",
+          "description": "インテリジェントなプロアクティブ通知で顧客の問題に先手を打ちましょう。顧客が電話をかける必要が生じる前に、サービス更新、口座変更、重要な情報について自動的に顧客に通知します。",
+          "cta": "プロアクティブサポートを有効にする"
+        },
+        "features": {
+          "title": "インテリジェントなプロアクティブ機能",
+          "subtitle": "顧客のニーズを予測し、問題を防止する高度な自動化",
+          "proactiveNotifications": {
+            "title": "プロアクティブ通知",
+            "description": "問題になる前に、重要な更新、変更、または問題について顧客に自動的に通知します。",
+            "benefit1": "サービスアラート",
+            "benefit2": "口座更新",
+            "benefit3": "予防通知"
+          },
+          "issuePrevention": {
+            "title": "問題防止",
+            "description": "潜在的な問題を早期に特定し、解決策を伴って顧客に連絡します。",
+            "benefit1": "早期検出",
+            "benefit2": "予防措置",
+            "benefit3": "問題解決"
+          },
+          "timelyCommunication": {
+            "title": "タイムリーなコミュニケーション",
+            "description": "顧客満足度を最大化するために、適切なタイミングで重要な情報を配信します。",
+            "benefit1": "最適なタイミング",
+            "benefit2": "即時認識",
+            "benefit3": "スケジュールされた配信"
+          }
+        },
+        "notificationTypes": {
+          "title": "包括的な通知タイプ",
+          "subtitle": "インテリジェントな自動化ですべての顧客コミュニケーション側面をカバーします",
+          "serviceOutages": {
+            "type": "サービス停止",
+            "description": "計画されたメンテナンスまたは予期せぬサービス中断について顧客に通知します",
+            "example1": "計画されたメンテナンス期間",
+            "example2": "予期せぬ停止",
+            "example3": "サービス復旧更新",
+            "urgency": "高",
+            "timing": "即時"
+          },
+          "accountChanges": {
+            "type": "口座変更",
+            "description": "顧客に口座またはサービスへの重要な変更について通知します",
+            "example1": "ポリシー更新",
+            "example2": "料金変更",
+            "example3": "機能修正",
+            "urgency": "中",
+            "timing": "事前通知"
+          },
+          "securityAlerts": {
+            "type": "セキュリティアラート",
+            "description": "潜在的なセキュリティ問題や疑わしい活動について顧客にアラートを送信します",
+            "example1": "ログイン試行",
+            "example2": "パスワード変更",
+            "example3": "口座アクセス",
+            "urgency": "高",
+            "timing": "リアルタイム"
+          },
+          "productUpdates": {
+            "type": "製品更新",
+            "description": "新機能、改善、または変更に関する情報を共有します",
+            "example1": "新機能",
+            "example2": "アプリ更新",
+            "example3": "サービス強化",
+            "urgency": "低",
+            "timing": "スケジュール済み"
+          },
+          "billingNotifications": {
+            "type": "請求通知",
+            "description": "請求、支払い、口座状況に関するプロアクティブなコミュニケーション",
+            "example1": "支払い期日",
+            "example2": "支払い失敗",
+            "example3": "クレジット更新",
+            "urgency": "中",
+            "timing": "事前通知"
+          },
+          "deliveryUpdates": {
+            "type": "配送更新",
+            "description": "出荷と配送状況の変更について顧客に情報を提供します",
+            "example1": "配送遅延",
+            "example2": "配送確認",
+            "example3": "住所の問題",
+            "urgency": "中",
+            "timing": "リアルタイム"
+          }
+        },
+        "urgency": {
+          "high": "高",
+          "medium": "中",
+          "low": "低"
+        },
+        "labels": {
+          "examples": "例",
+          "timing": "タイミング"
+        },
+        "automationSection": {
+          "title": "高度な自動化エンジン",
+          "description": "当社のインテリジェントな自動化システムは、サービスと顧客アカウントを継続的に監視し、事前定義されたルールと顧客の好みに基づいて適切な通知を自動的にトリガーします。",
+          "subFeatures": {
+            "realTimeMonitoring": {
+              "title": "リアルタイム監視",
+              "description": "継続的なシステムとアカウントの監視"
+            },
+            "smartPrioritization": {
+              "title": "スマート優先順位付け",
+              "description": "インテリジェントなアラートランキングと配信"
+            },
+            "customerPreferences": {
+              "title": "顧客の好み",
+              "description": "パーソナライズされたコミュニケーションの好みを尊重します"
+            }
+          },
+          "featuresTitle": "自動化機能",
+          "features": {
+            "realTimeMonitoring": "リアルタイムシステム監視",
+            "intelligentPrioritization": "インテリジェントなアラート優先順位付け",
+            "preferenceManagement": "顧客の好み管理",
+            "multiChannelDelivery": "マルチチャネル配信オプション",
+            "escalationProtocols": "エスカレーションプロトコル",
+            "performanceAnalytics": "パフォーマンス分析"
+          },
+          "liveMonitoring": {
+            "title": "ライブ監視",
+            "activeMonitors": "アクティブなモニター:",
+            "activeMonitorsValue": "1,247",
+            "notificationsSent": "送信された通知:",
+            "notificationsSentValue": "3,892",
+            "issuesPrevented": "防止された問題:",
+            "issuesPreventedValue": "156"
+          }
+        },
+        "benefits": {
+          "title": "プロアクティブサポートの影響",
+          "subtitle": "顧客満足度とサポート効率の測定可能な改善",
+          "reactiveCalls": {
+            "metric": "70%",
+            "description": "リアクティブサポート通話の削減"
+          },
+          "customerSatisfaction": {
+            "metric": "85%",
+            "description": "プロアクティブな更新による顧客満足度"
+          },
+          "customerChurn": {
+            "metric": "50%",
+            "description": "顧客離反の減少"
+          },
+          "automatedMonitoring": {
+            "metric": "24時間365日",
+            "description": "自動監視とアラート"
+          }
+        },
+        "cta": {
+          "title": "顧客の問題に先手を打つ準備はできていますか？",
+          "subtitle": "インテリジェントなプロアクティブ通知と問題防止でカスタマーサポートを変革します",
+          "startProactiveSupport": "プロアクティブサポートを開始する",
+          "seeDemo": "デモを見る"
+        },
+        "title": "プロアクティブサポート",
+        "description": "サービス更新と重要な情報について顧客に通知します。",
+        "benefit1": "プロアクティブなコミュニケーション",
+        "benefit2": "問題防止",
+        "benefit3": "顧客満足度"
+      },
+      "seniorCheckCalls": {
+        "hero": {
+          "title": "高齢者チェックコールとウェルネス監視",
+          "description": "高齢者向けの定期的なAI駆動型ウェルネスチェックで家族に安心を提供します。健康状態を監視し、緊急事態を検出し、尊厳と独立性を維持しながら安全を確保する共感的な会話。",
+          "button": "ウェルネス監視を開始する"
+        },
+        "features": {
+          "title": "共感的な高齢者ケア",
+          "subtitle": "高齢者のウェルネスと安全のために特別に設計されたAI技術",
+          "wellnessMonitoring": {
+            "title": "ウェルネス監視",
+            "description": "共感的なAI会話による高齢者の健康とウェルネスを監視するための定期的なチェックイン。",
+            "benefit1": "毎日/毎週のスケジュール",
+            "benefit2": "健康状態追跡",
+            "benefit3": "服薬リマインダー"
+          },
+          "emergencyDetection": {
+            "title": "緊急検出",
+            "description": "高度なAIが危機信号と緊急事態を特定し、即座に対応します。",
+            "benefit1": "危機検出",
+            "benefit2": "緊急連絡先",
+            "benefit3": "最初の応答者アラート"
+          },
+          "flexibleScheduling": {
+            "title": "柔軟なスケジュール",
+            "description": "個人の好みとニーズに合わせてカスタマイズ可能な通話スケジュール。",
+            "benefit1": "パーソナライズされたタイミング",
+            "benefit2": "休暇調整",
+            "benefit3": "家族調整"
+          }
+        },
+        "checkTypes": {
+          "title": "包括的なチェックインサービス",
+          "subtitle": "個人のニーズに合わせた柔軟なウェルネス監視",
+          "dailyWellness": {
+            "type": "毎日のウェルネスチェック",
+            "description": "高齢者が安全で健康であることを確認するための簡単な毎日の通話",
+            "frequency": "希望する時間に毎日",
+            "duration": "3〜5分",
+            "focus1": "一般的なウェルネス",
+            "focus2": "服薬遵守",
+            "focus3": "安全確認"
+          },
+          "weeklyHealth": {
+            "type": "毎週の健康レビュー",
+            "description": "健康とニーズの包括的な毎週の評価",
+            "frequency": "選択した曜日に毎週",
+            "duration": "10〜15分",
+            "focus1": "健康の変化",
+            "focus2": "アポイントメントリマインダー",
+            "focus3": "家族の更新"
+          },
+          "emergencyResponse": {
+            "type": "緊急応答",
+            "description": "見逃した通話や危機信号への即時応答",
+            "frequency": "必要に応じて",
+            "duration": "変動",
+            "focus1": "ウェルネス検証",
+            "focus2": "緊急サービス",
+            "focus3": "家族通知"
+          },
+          "socialConnection": {
+            "type": "社会的つながり",
+            "description": "孤立と孤独を軽減するための友好的な会話",
+            "frequency": "隔週または毎月",
+            "duration": "15〜20分",
+            "focus1": "コンパニオンシップ",
+            "focus2": "メンタルヘルス",
+            "focus3": "活動の提案"
+          },
+          "labels": {
+            "frequency": "頻度",
+            "duration": "期間",
+            "focusAreas": "重点分野:"
+          }
+        },
+        "safetyProtocols": {
+          "title": "高度な安全プロトコル",
+          "description": "当社の高齢者チェックコールシステムには、緊急事態を検出し、家族と調整し、必要に応じて迅速な対応を確保するように設計された包括的な安全対策が含まれています。",
+          "emergencyResponse": {
+            "title": "緊急応答",
+            "description": "見逃した通話や危機への即時エスカレーション"
+          },
+          "familyCoordination": {
+            "title": "家族調整",
+            "description": "家族と介護者への自動通知"
+          },
+          "healthcareIntegration": {
+            "title": "ヘルスケア統合",
+            "description": "医療提供者とサービスとの調整"
+          },
+          "featuresTitle": "安全機能",
+          "protocols": {
+            "missedCallEscalation": "見逃した通話のエスカレーションプロセス",
+            "emergencyKeyword": "緊急キーワード検出",
+            "familyNotifications": "家族と介護者への通知",
+            "healthcareProvider": "医療提供者統合",
+            "emergencyServices": "地域の緊急サービス調整",
+            "medicalAlert": "医療アラートシステム互換性"
+          }
+        },
+        "benefits": {
+          "title": "ウェルネス監視の影響",
+          "subtitle": "高齢者の安全と家族の安心の測定可能な改善",
+          "seniorSatisfaction": {
+            "metric": "95%",
+            "description": "AIコンパニオンによる高齢者の満足度"
+          },
+          "emergencyReduction": {
+            "metric": "40%",
+            "description": "緊急事態の減少"
+          },
+          "availability": {
+            "metric": "24時間365日",
+            "description": "緊急応答の可用性"
+          },
+          "familyPeace": {
+            "metric": "85%",
+            "description": "家族の安心の改善"
+          }
+        },
+        "cta": {
+          "title": "高齢者の安全を確保する準備はできていますか？",
+          "description": "愛する人のための共感的なAIウェルネス監視で安心を提供します",
+          "startButton": "監視を開始する",
+          "learnButton": "詳細を見る"
+        }
+      },
+      "subscriptionRenewals": {
+        "hero": {
+          "title": "サブスクリプション更新自動化",
+          "description": "顧客を適切なタイミングでパーソナライズされたメッセージでエンゲージし、支払いをシームレスに処理し、プロアクティブな維持戦略を通じて解約を減らすインテリジェントなAI駆動型キャンペーンで、サブスクリプション更新を最大化します。",
+          "cta": "更新を自動化する"
+        },
+        "features": {
+          "title": "スマート更新管理",
+          "subtitle": "更新を最大化し、解約を減らす包括的な自動化",
+          "automatedRenewalReminders": {
+            "title": "自動更新リマインダー",
+            "description": "更新率を最大化し、解約を減らす最適なタイミングで送信されるインテリジェントなリマインダー。",
+            "benefit1": "パーソナライズされたタイミング",
+            "benefit2": "複数のタッチポイント",
+            "benefit3": "更新最適化"
+          },
+          "paymentProcessing": {
+            "title": "支払い処理",
+            "description": "電話でのサブスクリプション更新のためのシームレスな支払い収集と処理。",
+            "benefit1": "安全な取引",
+            "benefit2": "複数の支払い方法",
+            "benefit3": "支払い失敗の回復"
+          },
+          "customerRetention": {
+            "title": "顧客維持",
+            "description": "懸念事項に対処し、貴重な顧客を維持するためのプロアクティブなエンゲージメント。",
+            "benefit1": "解約防止",
+            "benefit2": "価値の強化",
+            "benefit3": "ロイヤルティ構築"
+          }
+        },
+        "renewalProcess": {
+          "title": "戦略的更新タイムライン",
+          "subtitle": "更新成功を最大化するための最適化されたタッチポイントシーケンス",
+          "step1": {
+            "title": "初期通知",
+            "description": "更新日の30日前に初期リマインダーを送信",
+            "timing": "30日前",
+            "action": "認知度と準備"
+          },
+          "step2": {
+            "title": "価値の強化",
+            "description": "サブスクリプションのメリットと使用統計を強調",
+            "timing": "14日前",
+            "action": "価値のデモンストレーション"
+          },
+          "step3": {
+            "title": "更新確認",
+            "description": "支払い処理を伴う直接更新リクエスト",
+            "timing": "7日前",
+            "action": "更新処理"
+          },
+          "step4": {
+            "title": "最後のチャンスのオファー",
+            "description": "特別な維持オファーを伴う最終リマインダー",
+            "timing": "1日前",
+            "action": "維持努力"
+          }
+        },
+        "subscriptionTypes": {
+          "title": "業界固有の戦略",
+          "subtitle": "さまざまなサブスクリプションモデルに合わせた更新アプローチ",
+          "saas": {
+            "type": "サービスとしてのソフトウェア (SaaS)",
+            "description": "月額および年額ソフトウェアサブスクリプションの更新",
+            "strategy1": "機能使用レポート",
+            "strategy2": "ROIパフォーマンス",
+            "strategy3": "アップグレードの機会"
+          },
+          "mediaEntertainment": {
+            "type": "メディアとエンターテイメント",
+            "description": "ストリーミングサービスとデジタルコンテンツサブスクリプション",
+            "strategy1": "コンテンツ推奨",
+            "strategy2": "視聴統計",
+            "strategy3": "独占オファー"
+          },
+          "professionalServices": {
+            "type": "プロフェッショナルサービス",
+            "description": "コンサルティング、コーチング、プロフェッショナルサービスの更新",
+            "strategy1": "成功指標",
+            "strategy2": "関係構築",
+            "strategy3": "サービス拡張"
+          },
+          "ecommerce": {
+            "type": "Eコマースサブスクリプション",
+            "description": "製品配送とサブスクリプション更新",
+            "strategy1": "配送の利便性",
+            "strategy2": "コスト削減",
+            "strategy3": "製品の多様性"
+          },
+          "renewalStrategies": "更新戦略:"
+        },
+        "retention": {
+          "title": "高度な維持戦略",
+          "description": "当社のAIは、顧客の行動、使用パターン、エンゲージメントレベルを分析し、各顧客に最も効果的な維持アプローチを決定し、更新率と顧客生涯価値を最大化します。",
+          "optimalTiming": {
+            "title": "最適なタイミング",
+            "description": "AIが各顧客に連絡する最適な時間を決定します"
+          },
+          "usageAnalytics": {
+            "title": "使用分析",
+            "description": "パーソナライズされたアプローチのために顧客データを活用します"
+          },
+          "segmentedCampaigns": {
+            "title": "セグメント化されたキャンペーン",
+            "description": "さまざまな顧客セグメントに合わせたメッセージ"
+          },
+          "tactics": {
+            "title": "維持戦略",
+            "tactic1": "パーソナライズされた更新オファー",
+            "tactic2": "使用分析とインサイト",
+            "tactic3": "ロイヤルティ報酬と割引",
+            "tactic4": "サービスアップグレードオプション",
+            "tactic5": "支払いプランの柔軟性",
+            "tactic6": "ウィンバックキャンペーン"
+          },
+          "dashboard": {
+            "title": "更新ダッシュボード",
+            "renewalsThisMonth": "今月の更新:",
+            "renewalRate": "更新率:",
+            "revenueRetained": "維持された収益:"
+          }
+        },
+        "benefits": {
+          "title": "更新パフォーマンスの結果",
+          "subtitle": "サブスクリプションビジネス指標への実証済みの影響",
+          "metric1": {
+            "value": "85%",
+            "description": "サブスクリプション更新率"
+          },
+          "metric2": {
+            "value": "40%",
+            "description": "強制解約の減少"
+          },
+          "metric3": {
+            "value": "60%",
+            "description": "支払い失敗の減少"
+          },
+          "metric4": {
+            "value": "25%",
+            "description": "顧客生涯価値の増加"
+          }
+        },
+        "cta": {
+          "title": "サブスクリプション更新を最大化する準備はできていますか？",
+          "subtitle": "更新プロセスを自動化し、インテリジェントなAI駆動型キャンペーンで解約を減らします",
+          "primaryButton": "更新自動化を開始する",
+          "secondaryButton": "ROIを計算する"
+        }
+      },
+      "header": "アウトバウンドソリューション",
+      "description": "自動アウトバウンド通話キャンペーンで顧客をプロアクティブにエンゲージします",
+      "collections": {
+        "title": "回収サービス",
+        "description": "支払いリマインダーと回収プロセスを自動化します。",
+        "benefit1": "高速回収",
+        "benefit2": "支払いアレンジメント",
+        "benefit3": "コンプライアンス"
+      },
+      "reactivation": {
+        "title": "顧客再活性化",
+        "description": "パーソナライズされたアウトリーチで休眠顧客を再エンゲージします。",
+        "benefit1": "ウィンバックキャンペーン",
+        "benefit2": "パーソナライズされたオファー",
+        "benefit3": "顧客維持"
+      },
+      "seniorChecks": {
+        "title": "高齢者チェックコール",
+        "description": "定期またはオンデマンドで高齢者向けのウェルネスチェックを提供します。",
+        "benefit1": "ウェルネス監視",
+        "benefit2": "緊急エスカレーション",
+        "benefit3": "安心"
+      },
+      "campaigns": {
+        "title": "大規模キャンペーン",
+        "description": "大量のマーケティングおよび情報キャンペーンを実行します。",
+        "benefit1": "大規模なリーチ",
+        "benefit2": "パーソナライズされたメッセージ",
+        "benefit3": "費用対効果"
+      },
+      "renewals": {
+        "title": "サブスクリプション更新",
+        "description": "サブスクリプション更新リマインダーと処理を自動化します。",
+        "benefit1": "自動更新",
+        "benefit2": "解約の減少",
+        "benefit3": "収益保護"
+      },
+      "surveys": {
+        "title": "顧客調査",
+        "description": "自動サービス後のフィードバック収集。",
+        "benefit1": "フィードバック収集",
+        "benefit2": "品質インサイト",
+        "benefit3": "改善データ"
+      }
+    },
+    "hero": {
+      "title": "あらゆるビジネスニーズに対応するAI音声ソリューション",
+      "description": "顧客コミュニケーションとビジネス運営を変革するために設計された、包括的なインバウンドおよびアウトバウンド音声自動化ソリューションを発見してください。"
+    },
+    "cta": {
+      "title": "ビジネスコミュニケーションを変革する準備はできていますか？",
+      "description": "当社のAI音声ソリューションが顧客とのやり取りを自動化し、ビジネスの成長を促進する方法をご覧ください",
+      "button": "コンサルテーションをスケジュールする"
+    },
+    "learnMore": "詳細を見る"
+  }
+}
