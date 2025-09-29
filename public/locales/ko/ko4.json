@@ -1,0 +1,423 @@
+{
+  "seameet": {
+    "common": {
+      "getStarted": "무료로 시작하기",
+      "signIn": "로그인",
+      "learnMore": "더 알아보기",
+      "readMore": "더 읽기",
+      "viewAll": "모두 보기",
+      "tryNow": "지금 시도하기",
+      "contactUs": "문의하기",
+      "subscribe": "구독하기",
+      "search": "검색",
+      "back": "뒤로"
+    },
+    "header": {
+      "features": "기능",
+      "integrations": "통합",
+      "solutions": "솔루션",
+      "pricing": "가격",
+      "blog": "블로그",
+      "language": "언어",
+      "featuresDropdown": {
+        "aiMeetingAssistant": "AI 회의 도우미",
+        "realtimeTranscription": "실시간 전사",
+        "smartSummaries": "스마트 요약",
+        "actionItems": "실행 항목 및 후속 조치",
+        "integrations": "통합",
+        "securityCompliance": "보안 및 규정 준수"
+      },
+      "integrationsDropdown": {
+        "calendar": "캘린더 및 일정 관리",
+        "videoConferencing": "화상 회의 플랫폼",
+        "crm": "CRM 시스템",
+        "collaboration": "협업 도구",
+        "storage": "클라우드 스토리지",
+        "api": "맞춤형 API"
+      },
+      "solutionsDropdown": {
+        "salesTeams": "영업 팀",
+        "customerSupport": "고객 지원",
+        "marketingTeams": "마케팅 팀",
+        "hrRecruiting": "인사 및 채용",
+        "education": "교육",
+        "legal": "법률",
+        "healthcare": "헬스케어",
+        "smallBusiness": "중소기업"
+      },
+      "backToMainSite": "메인 사이트로 돌아가기",
+      "viewAllIntegrations": "모든 통합 보기 →",
+      "viewAllSolutions": "모든 솔루션 보기 →"
+    },
+    "hero": {
+      "title": {
+        "line1": "모든 회의를",
+        "line2": "생산적인 행동으로 전환"
+      },
+      "subtitle": "AI 회의 도우미",
+      "description": "AI 회의 도우미 SeaMeet으로 회의 생산성을 극대화하십시오. 실시간 전사, 스마트 요약 및 자동 실행 항목으로 모든 대화를 실행 가능한 통찰력으로 전환하십시오.",
+      "startFree": "지금 무료로 시작하기",
+      "exploreAI": "데모 예약",
+      "meetingsTranscribed": "100만 개 이상의 회의 전사",
+      "activeUsers": "5만 명 이상의 사용자",
+      "productivityBoost": "생산성 30% 향상",
+      "integrations": "30개 이상의 통합",
+      "setup": "2분 설정",
+      "badge": "무료로 시작하기",
+      "animationSection": {
+        "title": "SeaMeet 작동 방식",
+        "autoMode": "자동",
+        "manualMode": "수동"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "전화 음성 AI",
+          "description": "전화 통화를 처리하는 AI 상담원"
+        },
+        "interactive": {
+          "name": "대화형 채널",
+          "description": "클릭하여 다양한 대화 보기"
+        },
+        "multiChannel": {
+          "name": "다중 채널 흐름",
+          "description": "다른 플랫폼 간에 흐르는 메시지"
+        },
+        "agentToAI": {
+          "name": "인간에서 AI로 인계",
+          "description": "인간으로 시작하여 AI로 확장"
+        },
+        "learning": {
+          "name": "AI 학습 여정",
+          "description": "콘텐츠에서 AI가 더 똑똑해지는 것을 지켜보세요"
+        },
+        "dashboard": {
+          "name": "실시간 분석",
+          "description": "실시간 성과 지표"
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "SeaMeet을 선택해야 하는 이유?",
+      "subtitle": "회의 생산성을 극대화하고 모든 대화를 실행 가능한 통찰력으로 전환하도록 설계된 플랫폼.",
+      "aiMeetingAssistant": {
+        "title": "지능형 AI 회의 도우미",
+        "description": "회의 전사, 요약 및 실행 항목 추출을 자동화하여 팀이 중요한 것에 집중할 수 있도록 합니다.",
+        "highlights": [
+          "실시간 전사",
+          "스마트 요약",
+          "자동 실행 항목"
+        ]
+      },
+      "integrations": {
+        "title": "원활한 통합",
+        "description": "Google 캘린더, Outlook, Zoom, Slack 등 즐겨 사용하는 회의 및 협업 도구와 연결하십시오.",
+        "highlights": [
+          "캘린더 동기화",
+          "화상 회의 통합",
+          "CRM 통합"
+        ]
+      },
+      "securityCompliance": {
+        "title": "엔터프라이즈 보안 및 규정 준수",
+        "description": "SOC 2, HIPAA 및 GDPR을 포함한 산업 규정을 준수하는 엔터프라이즈급 보안 및 개인 정보 보호.",
+        "highlights": [
+          "데이터 암호화",
+          "액세스 제어",
+          "감사 로그"
+        ]
+      },
+      "statsBar": {
+        "meetingsTranscribed": "100만 개 이상의 회의 전사",
+        "activeUsers": "5만 명 이상의 사용자",
+        "productivityBoost": "생산성 30% 향상",
+        "integrations": "30개 이상의 통합"
+      }
+    },
+    "featureTabs": {
+      "title": "강력한 기능, 간단한 설정",
+      "subtitle": "회의 생산성을 혁신하도록 설계된 포괄적인 기능 세트를 살펴보십시오.",
+      "tabs": {
+        "aiMeetingAssistant": "AI 회의 도우미",
+        "realtimeTranscription": "실시간 전사",
+        "smartSummaries": "스마트 요약",
+        "actionItems": "실행 항목 및 후속 조치",
+        "integrations": "통합",
+        "securityCompliance": "보안 및 규정 준수"
+      },
+      "content": {
+        "aiMeetingAssistant": {
+          "title": "지능형 AI 회의 도우미",
+          "subtitle": "회의 전사, 요약 및 실행 항목 추출을 자동화하여 팀이 중요한 것에 집중할 수 있도록 합니다.",
+          "features": [
+            "자동 회의 참여",
+            "실시간 전사",
+            "스마트 요약",
+            "실행 항목 추출",
+            "화자 식별",
+            "다국어 지원"
+          ],
+          "tryFeature": "이 기능 시도하기",
+          "watchDemo": "데모 보기"
+        },
+        "realtimeTranscription": {
+          "title": "실시간 전사",
+          "subtitle": "회의에서 말한 모든 단어를 정확하게 캡처하여 나중에 참조할 수 있도록 합니다.",
+          "features": [
+            "99% 이상의 정확도",
+            "화자 식별",
+            "타임스탬프가 있는 전사",
+            "편집 가능한 전사",
+            "검색 가능한 전사",
+            "다국어 지원"
+          ],
+          "tryFeature": "이 기능 시도하기",
+          "watchDemo": "데모 보기"
+        },
+        "smartSummaries": {
+          "title": "스마트 요약",
+          "subtitle": "AI가 회의의 주요 요점, 결정 및 하이라이트를 자동으로 요약하여 시간을 절약합니다.",
+          "features": [
+            "AI 기반 요약",
+            "맞춤형 요약 템플릿",
+            "주요 결정 추출",
+            "하이라이트 식별",
+            "공유 가능한 요약",
+            "검색 가능한 요약"
+          ],
+          "tryFeature": "이 기능 시도하기",
+          "watchDemo": "데모 보기"
+        },
+        "actionItems": {
+          "title": "실행 항목 및 후속 조치",
+          "subtitle": "AI가 회의에서 실행 항목, 소유자 및 기한을 자동으로 추출하여 팀이 책임을 지도록 합니다.",
+          "features": [
+            "자동 실행 항목 추출",
+            "소유자 및 기한 할당",
+            "후속 알림",
+            "작업 관리 통합",
+            "공유 가능한 실행 항목 목록",
+            "진행 상황 추적"
+          ],
+          "tryFeature": "이 기능 시도하기",
+          "watchDemo": "데모 보기"
+        },
+        "integrations": {
+          "title": "원활한 통합",
+          "subtitle": "Google 캘린더, Outlook, Zoom, Slack 등 즐겨 사용하는 회의 및 협업 도구와 연결하십시오.",
+          "features": [
+            "캘린더 동기화",
+            "화상 회의 통합",
+            "CRM 통합",
+            "협업 도구 통합",
+            "클라우드 스토리지 통합",
+            "맞춤형 API 액세스"
+          ],
+          "tryFeature": "이 기능 시도하기",
+          "watchDemo": "데모 보기"
+        },
+        "securityCompliance": {
+          "title": "엔터프라이즈 보안 및 규정 준수",
+          "subtitle": "SOC 2, HIPAA 및 GDPR을 포함한 산업 규정을 준수하는 엔터프라이즈급 보안 및 개인 정보 보호.",
+          "features": [
+            "데이터 암호화",
+            "액세스 제어",
+            "감사 로그",
+            "단일 로그인 (SSO)",
+            "데이터 보존 정책",
+            "규정 준수 보고서"
+          ],
+          "tryFeature": "이 기능 시도하기",
+          "watchDemo": "데모 보기"
+        }
+      }
+    },
+    "pricing": {
+      "title": "성장함에 따라 변화하는 가격",
+      "subtitle": "무료로 시작하고 팀의 필요에 따라 확장하십시오.",
+      "monthly": "월별",
+      "yearly": "연간",
+      "save": "20% 절약",
+      "customize": "플랜 사용자 정의",
+      "plans": {
+        "free": {
+          "name": "무료",
+          "tagline": "AI 회의 도우미 경험",
+          "description": "개인 사용자 및 소규모 팀에 적합",
+          "features": {
+            "meetings": "월 5회 회의",
+            "transcription": "실시간 전사",
+            "summaries": "스마트 요약",
+            "actionItems": "실행 항목 추출",
+            "integrations": "Google 캘린더, Outlook 통합",
+            "storage": "7일 저장 공간"
+          },
+          "buttonText": "무료로 시작하기"
+        },
+        "pro": {
+          "name": "프로",
+          "tagline": "팀 생산성 극대화",
+          "description": "성장하는 팀 및 비즈니스에 적합",
+          "month": "월",
+          "year": "년",
+          "year_description": "매년 2개월 절약",
+          "features": {
+            "meetings": "월 무제한 회의",
+            "transcription": "실시간 전사",
+            "summaries": "스마트 요약",
+            "actionItems": "실행 항목 및 후속 조치",
+            "integrations": "모든 캘린더, 화상 회의, CRM 통합",
+            "storage": "무제한 저장 공간",
+            "speakerId": "화자 식별",
+            "customTemplates": "맞춤형 요약 템플릿",
+            "prioritySupport": "우선 지원"
+          },
+          "buttonText": "프로 시작",
+          "badge": "가장 인기 있는"
+        },
+        "enterprise": {
+          "name": "엔터프라이즈",
+          "tagline": "맞춤형 솔루션 및 전담 지원",
+          "description": "대기업 및 특정 요구 사항이 있는 기업에 적합",
+          "features": {
+            "proIncluded": "프로 플랜의 모든 것",
+            "customIntegrations": "맞춤형 통합",
+            "onPremise": "온프레미스 배포 옵션",
+            "dedicatedSupport": "전담 계정 관리자",
+            "advancedSecurity": "고급 보안 및 규정 준수",
+            "customAIModels": "맞춤형 AI 모델"
+          },
+          "buttonText": "문의하기"
+        }
+      },
+      "billing": {
+        "monthly": "월별",
+        "yearly": "연간",
+        "year": "년",
+        "month": "월",
+        "save": "월별 청구에 비해 2개월 절약"
+      },
+      "calculator": {
+        "title": "회의 시간 계산기",
+        "description": "월별 회의 시간을 기준으로 비용 추정",
+        "meetingsPerMonth": "월별 회의 수:",
+        "avgDuration": "평균 회의 시간 (분):",
+        "totalMinutes": "총 회의 시간 (분):",
+        "priceBreakdown": "비용 분석",
+        "licenseFee": "라이선스 요금:",
+        "usageCost": "사용 비용:",
+        "totalPerMonth": "월별 총액:",
+        "note": "가격은 미국 달러입니다.",
+        "perMinute": "분당",
+        "perMeeting": "회의당",
+        "perUser": "사용자당",
+        "placeholderText": "자리 표시자 텍스트"
+      },
+      "note": "가격은 미국 달러입니다.",
+      "comparison": {
+        "title": "모든 기능 비교",
+        "subtitle": "각 플랜에 포함된 내용을 정확히 확인하십시오.",
+        "featuresTitle": "기능",
+        "free": "무료",
+        "pro": "프로",
+        "enterprise": "엔터프라이즈",
+        "meetings": "회의 수",
+        "transcription": "실시간 전사",
+        "summaries": "스마트 요약",
+        "actionItems": "실행 항목",
+        "speakerId": "화자 식별",
+        "integrations": "통합",
+        "storage": "저장 공간",
+        "support": "지원",
+        "features": {
+          "meetings": {
+            "free": "월 5회",
+            "pro": "무제한",
+            "enterprise": "무제한"
+          },
+          "transcription": {
+            "free": "✅",
+            "pro": "✅",
+            "enterprise": "✅"
+          },
+          "summaries": {
+            "free": "✅",
+            "pro": "✅",
+            "enterprise": "✅"
+          },
+          "actionItems": {
+            "free": "✅",
+            "pro": "✅",
+            "enterprise": "✅"
+          },
+          "speakerId": {
+            "free": "❌",
+            "pro": "✅",
+            "enterprise": "✅"
+          },
+          "integrations": {
+            "free": "캘린더",
+            "pro": "모두",
+            "enterprise": "맞춤형"
+          },
+          "storage": {
+            "free": "7일",
+            "pro": "무제한",
+            "enterprise": "무제한"
+          },
+          "support": {
+            "free": "커뮤니티",
+            "pro": "이메일",
+            "enterprise": "전담"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "맞춤형이 필요하십니까?",
+        "description": "온프레미스 배포, 고급 보안 기능 및 전담 지원 팀을 포함한 맞춤형 엔터프라이즈 솔루션을 제공합니다.",
+        "contactSales": "영업팀에 문의"
+      },
+      "faq": {
+        "title": "자주 묻는 질문",
+        "question1": "무료 플랜은 정말 무료입니까?",
+        "answer1": "예! 당사의 무료 플랜에는 월 5회 회의, 실시간 전사, 스마트 요약 및 실행 항목 추출이 포함됩니다. 신용 카드가 필요 없으며 숨겨진 비용도 없습니다.",
+        "question2": "월별 회의 시간을 기준으로 비용은 어떻게 계산됩니까?",
+        "answer2": "프로 플랜의 요금은 월별 회의 시간을 기준으로 계산됩니다. 기본 요금 외에 분당 요금이 적용됩니다. 계산기를 사용하여 사용량을 기준으로 정확한 견적을 얻을 수 있습니다.",
+        "question3": "언제든지 플랜을 업그레이드하거나 다운그레이드할 수 있습니까?",
+        "answer3": "물론입니다! 언제든지 플랜을 변경할 수 있습니다. 업그레이드는 즉시 적용되며, 다운그레이드는 현재 청구 주기가 끝날 때 적용됩니다.",
+        "question4": "회의 전사는 어느 정도 정확합니까?",
+        "answer4": "당사의 전사는 고급 AI 모델과 화자 식별 기술 덕분에 99% 이상의 정확도를 자랑합니다. 이를 통해 회의의 모든 뉘앙스가 정확하게 캡처됩니다.",
+        "question5": "SeaMeet은 어떤 화상 회의 플랫폼과 통합됩니까?",
+        "answer5": "SeaMeet은 Zoom, Google Meet, Microsoft Teams, Webex를 포함한 모든 주요 화상 회의 플랫폼과 원활하게 통합됩니다. 또한 캘린더 및 CRM 시스템과도 통합되어 워크플로를 간소화합니다.",
+        "question6": "회의 데이터는 안전합니까?",
+        "answer6": "예, 귀하의 데이터 보안 및 개인 정보 보호는 당사의 최우선 과제입니다. 당사는 SOC 2, HIPAA 및 GDPR을 준수하며 모든 데이터는 전송 중 및 저장 중에 암호화됩니다.",
+        "question7": "대기업을 위한 맞춤형 솔루션이 있습니까?",
+        "answer7": "예! 당사의 엔터프라이즈 플랜은 맞춤형 통합, 온프레미스 배포 옵션, 전담 계정 관리자, 고급 보안 기능 및 맞춤형 AI 모델을 제공합니다. 개인화된 견적을 위해 영업팀에 문의하십시오."
+      },
+      "cta": {
+        "title": "귀하의 회의를",
+        "subtitle": "생산적인 행동으로 전환!",
+        "description": "SeaMeet을 이미 사용하고 있는 수천 개의 비즈니스에 참여하여 회의 생산성을 극대화하고 모든 대화를 실행 가능한 통찰력으로 전환하십시오.",
+        "stats": {
+          "meetings": "100만 개 이상",
+          "meetingsLabel": "전사된 회의",
+          "productivity": "30%",
+          "productivityLabel": "생산성 향상",
+          "integrations": "15개 이상",
+          "integrationsLabel": "지원되는 통합",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "준수 및 보안"
+        },
+        "startFree": "무료로 시작하기",
+        "bookDemo": "라이브 데모 예약",
+        "badges": {
+          "noCoding": "코딩 필요 없음",
+          "freePlan": "무료 플랜",
+          "cancelAnytime": "언제든지 취소 가능",
+          "support": "연중무휴 24시간 지원"
+        },
+        "urgency": "기간 한정: 연간 플랜에서 2개월 무료 + 우선 온보딩 지원!",
+        "limitedTime": "기간 한정:"
+      }
+    }
+  }
+}

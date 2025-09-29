@@ -29,7 +29,7 @@
       },
       "integrationsDropdown": {
         "crm": "CRMシステム",
-        "ecommerce": "Eコマースプラットフォーム",
+        "ecommerce": "電子商取引プラットフォーム",
         "marketing": "マーケティングオートメーション",
         "socialMedia": "ソーシャルメディア",
         "communication": "コミュニケーションツール",
@@ -89,7 +89,7 @@
         },
         "learning": {
           "name": "AI学習ジャーニー",
-          "description" : "コンテンツからAIが賢くなるのを見る"
+          "description": "コンテンツからAIが賢くなるのを見る"
         },
         "dashboard": {
           "name": "リアルタイム分析",
@@ -367,7 +367,7 @@
             "workspaces": "ワークスペース2つ (追加のワークスペースは月額$15)",
             "knowledgeBaseFeatures": "ナレッジベース:",
             "advancedSearch": "高度なドキュメント検索 - キーワード、ベクトル、ハイブリッド",
-            "fileTypes": "20以上のファイルタイプをサポート、スプレッドシートの最適化を含む",
+            "fileTypes": "スプレッドシートの最適化を含む20以上のファイルタイプをサポート",
             "automationFeatures": "自動化:",
             "autoLabel": "ユーザー定義のラベルで会話を自動的にラベリング",
             "builtInActions": "自動ラベリングによってトリガーされる組み込みアクション: SMS、メール",
@@ -396,7 +396,7 @@
             "knowledgeBaseTitle": "ナレッジベース:",
             "automationTitle": "自動化:",
             "voiceAgentsTitle": "音声AIエージェント:",
-            "timezoneTitle": "タイムゾーンサポートによる現地時間認識、以下の場合:"
+            "timezoneTitle": "次の場合はタイムゾーンサポートによる現地時間認識:"
           },
           "buttonText": "プレミアムを開始",
           "badge": "最も人気"
@@ -460,7 +460,8 @@
         "perVoiceMinute": "音声通話1分あたり",
         "voiceOnly": "音声のみモデル",
         "voicePricing": "音声料金",
-        "standardVoice": "標準音声","premiumVoice": "プレミアム音声",
+        "standardVoice": "標準音声",
+        "premiumVoice": "プレミアム音声",
         "placeholderText": "プレースホルダー"
       },
       "note": "価格は米ドルです。音声通話料金は国によって異なり、表示されている料金は米国とカナダのものです。その他の国については、お問い合わせください。",
@@ -584,7 +585,7 @@
     },
     "knowledgeBase": {
       "title": "強力なナレッジベース",
-      "subtitle": "30以上のファイルタイプをアップロードし、AIがカード、ボタン、画像、動画で豊富なコンテキスト応答を提供します。",
+      "subtitle": "30以上のファイルタイプをアップロードし、AIがカード、ボタン、画像、動画で豊富なコンテキスト応答を提供します",
       "supportedFormats": {
         "title": "サポートされているファイルタイプ",
         "formats": {
@@ -640,7 +641,7 @@
       }
     },
     "useCases": {
-      "title": "業界を横断する成功事例",
+      "title": "産業を横断する成功事例",
       "subtitle": "SeaChatの人間とAIのハイブリッドアプローチで、ビジネスがカスタマーサポートをどのように変革しているかをご覧ください。",
       "cases": {
         "ecommerce": {

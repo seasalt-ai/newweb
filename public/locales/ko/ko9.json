@@ -1,0 +1,229 @@
+{
+  "seachat": {
+    "solutions": {
+      "industries": {
+        "hero": {
+          "title": "모든 산업에 자신 있게 서비스 제공",
+          "subtitle": "헬스케어에서 핀테크에 이르기까지 당사의 플랫폼은 전문적인 기능과 규정 준수 표준을 통해 귀하의 산업별 요구 사항에 적응합니다.",
+          "cta": "산업 솔루션 탐색"
+        },
+        "ecommerce": {
+          "title": "전자상거래 및 소매",
+          "description": "AI 챗봇 및 옴니채널 지원으로 온라인 판매를 촉진하고 고객 만족도를 높입니다.",
+          "features": {
+            "automatedSupport": {
+              "title": "자동 고객 지원",
+              "description": "AI 챗봇이 주문 상태, 제품 문의 및 반품을 처리합니다.",
+              "icon": "🛒"
+            },
+            "abandonedCart": {
+              "title": "버려진 장바구니 복구",
+              "description": "개인화된 메시지로 장바구니를 버린 고객을 다시 참여시킵니다.",
+              "icon": "🛍️"
+            },
+            "personalizedRecommendations": {
+              "title": "개인화된 추천",
+              "description": "AI가 고객 행동 및 선호도를 기반으로 제품을 추천합니다.",
+              "icon": "🎁"
+            },
+            "omnichannelSales": {
+              "title": "옴니채널 판매",
+              "description": "WhatsApp, SMS, 웹사이트 채팅 및 소셜 미디어를 포함한 모든 채널에서 판매를 촉진합니다.",
+              "icon": "🌐"
+            }
+          },
+          "cta": "전자상거래 솔루션 탐색"
+        },
+        "healthcare": {
+          "title": "헬스케어",
+          "description": "HIPAA 준수 메시징 및 AI 자동화로 환자 커뮤니케이션을 간소화합니다.",
+          "features": {
+            "hipaaCompliance": {
+              "title": "HIPAA 준수",
+              "description": "모든 환자 상호 작용에서 최고 수준의 보안 및 개인 정보 보호를 보장합니다.",
+              "icon": "🔒"
+            },
+            "appointmentScheduling": {
+              "title": "약속 예약 및 알림",
+              "description": "AI가 약속을 예약하고, 알림을 보내고, 노쇼를 줄입니다.",
+              "icon": "📅"
+            },
+            "patientSupport": {
+              "title": "환자 지원",
+              "description": "AI 챗봇이 일반적인 환자 문의, 증상 사전 심사 및 의료 전문가에게 라우팅을 처리합니다.",
+              "icon": "👩‍⚕️"
+            },
+            "secureMessaging": {
+              "title": "보안 메시징",
+              "description": "환자와 의료 제공자 간에 민감한 정보를 안전하게 교환합니다.",
+              "icon": "✉️"
+            }
+          },
+          "cta": "헬스케어 솔루션 탐색"
+        },
+        "fintech": {
+          "title": "금융 서비스",
+          "description": "보안 커뮤니케이션, 자동화된 지원 및 개인화된 조언으로 고객 참여를 강화합니다.",
+          "features": {
+            "secureCommunication": {
+              "title": "보안 커뮤니케이션",
+              "description": "민감한 금융 문의를 위한 은행 수준의 보안 및 암호화.",
+              "icon": "🏦"
+            },
+            "automatedSupport": {
+              "title": "자동 고객 지원",
+              "description": "AI 챗봇이 계정 잔액, 거래 내역 및 일반적인 금융 문의를 처리합니다.",
+              "icon": "🤖"
+            },
+            "personalizedAdvice": {
+              "title": "개인화된 조언",
+              "description": "AI가 고객의 재정 목표 및 위험 허용 범위에 따라 개인화된 조언을 제공합니다.",
+              "icon": "💡"
+            },
+            "fraudDetection": {
+              "title": "사기 탐지 및 알림",
+              "description": "AI가 의심스러운 활동을 탐지하고 고객에게 실시간으로 알림을 보냅니다.",
+              "icon": "🚨"
+            }
+          },
+          "cta": "금융 서비스 솔루션 탐색"
+        },
+        "education": {
+          "title": "교육",
+          "description": "AI 챗봇 및 옴니채널 지원으로 학생 커뮤니케이션 및 관리를 간소화합니다.",
+          "features": {
+            "studentSupport": {
+              "title": "학생 지원",
+              "description": "AI 챗봇이 과정 등록, 학비 및 캠퍼스 정보에 대한 학생 문의를 처리합니다.",
+              "icon": "🎓"
+            },
+            "admissionAutomation": {
+              "title": "입학 자동화",
+              "description": "AI가 입학 문의를 처리하고, 약속을 예약하고, 신청 절차를 안내합니다.",
+              "icon": "📝"
+            },
+            "parentCommunication": {
+              "title": "학부모 커뮤니케이션",
+              "description": "WhatsApp, SMS 및 이메일을 통해 학부모에게 중요한 정보, 이벤트 및 긴급 알림을 보냅니다.",
+              "icon": "👨‍👩‍👧‍👦"
+            },
+            "alumniEngagement": {
+              "title": "동문 참여",
+              "description": "AI가 동문과 연결하고, 이벤트를 홍보하고, 기부를 요청합니다.",
+              "icon": "🤝"
+            }
+          },
+          "cta": "교육 솔루션 탐색"
+        },
+        "realEstate": {
+          "title": "부동산",
+          "description": "AI 챗봇 및 옴니채널 지원으로 리드를 확보하고, 투어를 예약하고, 고객 만족도를 높입니다.",
+          "features": {
+            "leadGeneration": {
+              "title": "리드 생성 및 검증",
+              "description": "AI 챗봇이 웹사이트 방문자를 참여시키고, 리드를 검증하고, 부동산 중개인에게 인계합니다.",
+              "icon": "🏡"
+            },
+            "showingScheduling": {
+              "title": "투어 일정 관리",
+              "description": "AI가 자동으로 투어를 예약하고, 캘린더와 동기화하고, 알림을 보냅니다.",
+              "icon": "📅"
+            },
+            "propertyInquiries": {
+              "title": "부동산 문의",
+              "description": "AI 챗봇이 부동산 문의, 가격 및 가용성을 처리합니다.",
+              "icon": "🏠"
+            },
+            "virtualTours": {
+              "title": "가상 투어",
+              "description": "WhatsApp 및 웹사이트 채팅을 통해 가상 투어 및 부동산 사진을 제공합니다.",
+              "icon": "📸"
+            }
+          },
+          "cta": "부동산 솔루션 탐색"
+        },
+        "travel": {
+          "title": "여행 및 숙박업",
+          "description": "AI 챗봇 및 옴니채널 지원으로 고객 경험을 향상시키고 예약을 간소화합니다.",
+          "features": {
+            "bookingAutomation": {
+              "title": "예약 자동화",
+              "description": "AI가 항공편, 호텔 및 렌터카 예약을 처리하고 확인을 보냅니다.",
+              "icon": "✈️"
+            },
+            "customerSupport": {
+              "title": "연중무휴 24시간 고객 지원",
+              "description": "AI 챗봇이 항공편 상태, 예약 변경 및 일반적인 문의를 처리합니다.",
+              "icon": "⏰"
+            },
+            "personalizedRecommendations": {
+              "title": "개인화된 추천",
+              "description": "AI가 고객 선호도 및 여행 기록을 기반으로 목적지 및 활동을 추천합니다.",
+              "icon": "🗺️"
+            },
+            "multilingualSupport": {
+              "title": "다국어 지원",
+              "description": "AI가 여러 언어로 고객과 소통하여 전 세계 여행객에게 서비스를 제공합니다.",
+              "icon": "🌐"
+            }
+          },
+          "cta": "여행 및 숙박업 솔루션 탐색"
+        },
+        "saas": {
+          "title": "SaaS 및 기술",
+          "description": "AI 챗봇 및 옴니채널 지원으로 고객 온보딩, 지원 및 참여를 간소화합니다.",
+          "features": {
+            "onboardingAutomation": {
+              "title": "온보딩 자동화",
+              "description": "AI가 신규 사용자를 제품으로 안내하고, 일반적인 질문에 답변하고, 지원 리소스를 제공합니다.",
+              "icon": "🚀"
+            },
+            "technicalSupport": {
+              "title": "기술 지원",
+              "description": "AI 챗봇이 일반적인 기술 문제를 처리하고, 문제 해결 가이드를 제공하고, 필요할 때 인간 상담원에게 인계합니다.",
+              "icon": "💻"
+            },
+            "featureAdoption": {
+              "title": "기능 채택",
+              "description": "AI가 사용자에게 새로운 기능을 소개하고, 사용 방법을 안내하고, 참여를 유도합니다.",
+              "icon": "💡"
+            },
+            "customerFeedback": {
+              "title": "고객 피드백",
+              "description": "AI가 고객으로부터 피드백을 수집하고 제품 개발 팀에 보냅니다.",
+              "icon": "📝"
+            }
+          },
+          "cta": "SaaS 및 기술 솔루션 탐색"
+        },
+        "smallBusiness": {
+          "title": "중소기업",
+          "description": "저렴하고 사용하기 쉬운 솔루션으로 고객 상호 작용을 관리하고 비즈니스를 성장시키십시오.",
+          "features": {
+            "affordablePricing": {
+              "title": "저렴한 가격",
+              "description": "무료 플랜으로 시작하고 성장함에 따라 확장할 수 있는 유연한 가격 책정.",
+              "icon": "💰"
+            },
+            "easySetup": {
+              "title": "쉬운 설정",
+              "description": "기술 지식 없이 몇 분 안에 SeaChat을 설정하고 실행할 수 있습니다.",
+              "icon": "🚀"
+            },
+            "allInOne": {
+              "title": "올인원 플랫폼",
+              "description": "모든 고객 커뮤니케이션을 하나의 통합 허브에서 관리하여 시간을 절약하고 효율성을 높입니다.",
+              "icon": "🏠"
+            },
+            "scalable": {
+              "title": "확장 가능한 솔루션",
+              "description": "비즈니스 성장과 함께 AI 자동화 및 고급 기능을 추가할 수 있습니다.",
+              "icon": "🌱"
+            }
+          },
+          "cta": "중소기업 솔루션 탐색"
+        }
+      }
+    }
+  }
+}

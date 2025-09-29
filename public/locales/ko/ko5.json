@@ -1,0 +1,236 @@
+{
+  "seachat": {
+    "features": {
+      "hero": {
+        "title": "SeaChat 기능",
+        "subtitle": "인간-AI 하이브리드 접근 방식으로 고객 지원을 혁신하십시오.",
+        "description": "SeaChat은 인간 상담원의 공감과 AI 자동화의 효율성을 결합한 포괄적인 고객 지원 플랫폼입니다. 모든 채널에서 탁월한 서비스를 제공하고 성장을 촉진하도록 설계된 기능을 살펴보십시오.",
+        "cta": "무료로 시작하기"
+      },
+      "humanAgents": {
+        "title": "인간 상담원 채팅",
+        "subtitle": "인간적인 접촉을 유지하면서 팀의 효율성을 극대화하십시오.",
+        "description": "SeaChat은 인간 상담원이 고객과 직접 채팅할 수 있는 강력한 플랫폼을 제공합니다. 직관적인 인터페이스, 실시간 대화 관리 및 협업 도구를 통해 팀은 효율적으로 탁월한 서비스를 제공할 수 있습니다.",
+        "features": {
+          "realtimeChat": {
+            "title": "실시간 채팅 관리",
+            "description": "실시간으로 고객 대화를 모니터링, 참여 및 관리하십시오.",
+            "icon": "💬"
+          },
+          "multiAgent": {
+            "title": "다중 상담원 협업",
+            "description": "팀원 간에 대화를 원활하게 전송하고 내부 메모를 공유하십시오.",
+            "icon": "🤝"
+          },
+          "advancedRouting": {
+            "title": "고급 라우팅 및 라벨링",
+            "description": "기술, 가용성 및 고객 우선 순위에 따라 대화를 적절한 상담원에게 자동으로 라우팅하십시오.",
+            "icon": "🏷️"
+          },
+          "performanceAnalytics": {
+            "title": "성과 분석",
+            "description": "응답 시간, 해결률 및 고객 만족도에 대한 자세한 보고서로 팀 성과를 추적하십시오.",
+            "icon": "📊"
+          }
+        },
+        "cta": "인간 상담원 기능 탐색"
+      },
+      "aiAutomation": {
+        "title": "AI 자동화",
+        "subtitle": "AI의 힘으로 지원을 확장하고 일상적인 문의를 처리하십시오.",
+        "description": "SeaChat의 AI 자동화는 일상적인 문의를 처리하고, 고객 질문에 즉시 답변하며, 인간 상담원에게 원활하게 인계하도록 설계되었습니다. AI는 대화에서 학습하고 시간이 지남에 따라 더 똑똑해집니다.",
+        "features": {
+          "smartResponses": {
+            "title": "스마트 자동 응답",
+            "description": "컨텍스트와 의도를 이해하는 AI 기반 응답으로 고객 문의에 즉시 답변하십시오.",
+            "icon": "🤖"
+          },
+          "learningAI": {
+            "title": "대화에서 학습하는 AI",
+            "description": "AI는 과거 대화 및 지식 기반에서 지속적으로 학습하여 정확성과 관련성을 향상시킵니다.",
+            "icon": "🧠"
+          },
+          "seamlessHandoff": {
+            "title": "원활한 인간 인계",
+            "description": "AI가 해결할 수 없는 복잡한 문제의 경우 전체 대화 기록과 함께 인간 상담원에게 원활하게 인계하십시오.",
+            "icon": "🔄"
+          },
+          "multilingualSupport": {
+            "title": "다국어 지원",
+            "description": "AI는 여러 언어로 고객과 소통하여 전 세계 고객에게 서비스를 제공합니다.",
+            "icon": "🌐"
+          }
+        },
+        "cta": "AI 자동화 기능 탐색"
+      },
+      "advancedAI": {
+        "title": "고급 AI 기능",
+        "subtitle": "개인화된 경험을 위한 차세대 AI 지능.",
+        "description": "SeaChat의 고급 AI 기능은 고객 상호 작용을 더욱 개인화되고 효율적이며 효과적으로 만들도록 설계되었습니다. 검색 증강 생성 (RAG)에서 장기 기억에 이르기까지 당사의 AI는 고객의 요구 사항을 깊이 이해합니다.",
+        "features": {
+          "rag": {
+            "title": "검색 증강 생성 (RAG)",
+            "description": "키워드, 벡터 및 하이브리드 검색을 결합하여 지식 기반에서 가장 정확한 정보를 검색합니다.",
+            "icon": "🔍"
+          },
+          "longTermMemory": {
+            "title": "장기 기억",
+            "description": "AI는 과거 대화를 기억하고 개인화된 경험을 위해 고객 선호도 및 기록을 기억합니다.",
+            "icon": "🧠"
+          },
+          "timeAware": {
+            "title": "시간 인식 컨텍스트",
+            "description": "현재 시간, 시간대 및 영업 시간을 기반으로 응답을 조정합니다.",
+            "icon": "⏰"
+          },
+          "contextExtraction": {
+            "title": "스마트 컨텍스트 추출",
+            "description": "대화에서 중요한 정보를 자동으로 추출하고 CRM 및 기타 시스템에 매핑합니다.",
+            "icon": "📝"
+          }
+        },
+        "cta": "고급 AI 기능 탐색"
+      },
+      "knowledgeBase": {
+        "title": "지식 기반",
+        "subtitle": "AI 및 인간 상담원 모두에게 권한을 부여하는 포괄적인 지식 허브.",
+        "description": "SeaChat의 지식 기반은 AI 및 인간 상담원 모두에게 단일 진실의 원천입니다. 30개 이상의 파일 형식을 업로드하고 AI가 카드, 버튼, 이미지 및 비디오로 풍부한 컨텍스트 응답을 제공하도록 하십시오.",
+        "features": {
+          "fileSupport": {
+            "title": "광범위한 파일 지원",
+            "description": "PDF, Excel, CSV, Word, 이미지, 비디오 및 웹사이트 콘텐츠를 포함한 30개 이상의 파일 형식 업로드.",
+            "icon": "📂"
+          },
+          "richResponses": {
+            "title": "풍부한 응답 형식",
+            "description": "대화형 카드, 작업 버튼, 포함된 이미지 및 비디오로 AI 응답을 향상시키십시오.",
+            "icon": "✨"
+          },
+          "autoUpdate": {
+            "title": "자동 업데이트 콘텐츠",
+            "description": "지식 기반은 원본 문서의 변경 사항을 기반으로 자동으로 업데이트됩니다.",
+            "icon": "🔄"
+          },
+          "versionControl": {
+            "title": "버전 제어 및 감사 로그",
+            "description": "모든 변경 사항을 추적하고 필요할 때 이전 버전으로 롤백하십시오.",
+            "icon": "📜"
+          }
+        },
+        "cta": "지식 기반 기능 탐색"
+      },
+      "voiceAgents": {
+        "title": "음성 상담원",
+        "subtitle": "AI 음성 상담원으로 전화 지원을 혁신하십시오.",
+        "description": "SeaChat의 음성 상담원은 전화 통화를 처리하도록 설계된 AI 기반 음성 봇입니다. 일상적인 문의를 처리하고, 약속을 예약하고, 필요할 때 인간 상담원에게 원활하게 인계합니다.",
+        "features": {
+          "naturalVoice": {
+            "title": "자연스러운 음성 대화",
+            "description": "인간과 같은 음성 및 자연어 처리로 고객은 AI와 대화하고 있다는 사실조차 알지 못합니다.",
+            "icon": "🗣️"
+          },
+          "inboundOutbound": {
+            "title": "인바운드 및 아웃바운드 통화",
+            "description": "AI는 고객의 전화를 받거나 아웃바운드 캠페인을 시작할 수 있습니다.",
+            "icon": "📞"
+          },
+          "humanHandoff": {
+            "title": "원활한 인간 인계",
+            "description": "AI가 해결할 수 없는 복잡한 문제의 경우 전체 대화 기록과 함께 인간 상담원에게 원활하게 인계하십시오.",
+            "icon": "🔄"
+          },
+          "multilingualVoice": {
+            "title": "다국어 음성 지원",
+            "description": "AI는 여러 언어로 고객과 소통하여 전 세계 고객에게 서비스를 제공합니다.",
+            "icon": "🌐"
+          }
+        },
+        "cta": "음성 상담원 기능 탐색"
+      },
+      "analytics": {
+        "title": "분석 및 통찰력",
+        "subtitle": "데이터 기반 의사 결정으로 고객 지원을 최적화하십시오.",
+        "description": "SeaChat의 포괄적인 분석 및 보고 기능을 통해 팀 성과, 고객 만족도 및 AI 효율성에 대한 귀중한 통찰력을 얻을 수 있습니다. 데이터 기반 의사 결정을 내리고 지원 운영을 지속적으로 개선하십시오.",
+        "features": {
+          "realtimeDashboard": {
+            "title": "실시간 대시보드",
+            "description": "응답 시간, 해결률 및 고객 만족도와 같은 주요 지표를 실시간으로 모니터링하십시오.",
+            "icon": "📊"
+          },
+          "sentimentAnalysis": {
+            "title": "감정 분석",
+            "description": "고객 감정을 이해하고 대화의 톤을 식별하여 더욱 개인화된 지원을 제공하십시오.",
+            "icon": "😊"
+          },
+          "aiPerformance": {
+            "title": "AI 성과 보고서",
+            "description": "AI가 처리한 문의, 해결률 및 인간 인계에 대한 자세한 보고서.",
+            "icon": "🤖"
+          },
+          "customReports": {
+            "title": "맞춤형 보고서",
+            "description": "특정 비즈니스 요구 사항에 맞게 보고서를 사용자 정의하고 가장 중요한 데이터에 집중하십시오.",
+            "icon": "📈"
+          }
+        },
+        "cta": "분석 및 통찰력 기능 탐색"
+      },
+      "omnichannel": {
+        "title": "옴니채널 지원",
+        "subtitle": "모든 고객 채널을 하나의 통합 플랫폼에 연결하십시오.",
+        "description": "SeaChat의 옴니채널 지원을 통해 고객은 선호하는 채널에서 귀하에게 연락할 수 있으며, 팀은 모든 대화를 하나의 통합 받은 편지함에서 관리할 수 있습니다. WhatsApp, SMS, 웹사이트 채팅 및 소셜 미디어를 포함하여 모든 고객 상호 작용을 원활하게 관리하십시오.",
+        "features": {
+          "unifiedInbox": {
+            "title": "통합 받은 편지함",
+            "description": "모든 채널의 모든 고객 상호 작용을 하나의 화면에서 보고 관리하십시오.",
+            "icon": "📥"
+          },
+          "crossPlatform": {
+            "title": "교차 플랫폼 동기화",
+            "description": "고객이 채널을 전환하더라도 대화 기록 및 컨텍스트가 유지됩니다.",
+            "icon": "🔗"
+          },
+          "channelSwitching": {
+            "title": "원활한 채널 전환",
+            "description": "고객은 컨텍스트를 잃지 않고 채팅에서 음성으로 또는 그 반대로 쉽게 전환할 수 있습니다.",
+            "icon": "↔️"
+          },
+          "customChannels": {
+            "title": "맞춤형 채널 통합",
+            "description": "API 및 Webhook을 사용하여 고유한 맞춤형 채널을 SeaChat에 연결하십시오.",
+            "icon": "🔌"
+          }
+        },
+        "cta": "옴니채널 지원 기능 탐색"
+      },
+      "api": {
+        "title": "API 및 개발자 도구",
+        "subtitle": "기존 시스템과 원활하게 통합하고 맞춤형 솔루션을 구축하십시오.",
+        "description": "SeaChat은 기존 시스템과 원활하게 통합하고 맞춤형 솔루션을 구축하기 위한 강력한 API 및 개발자 도구를 제공합니다. CRM, 전자상거래 플랫폼 또는 맞춤형 애플리케이션과 통합하여 워크플로를 간소화하고 고객 경험을 향상시키십시오.",
+        "features": {
+          "restApi": {
+            "title": "RESTful API",
+            "description": "모든 SeaChat 기능에 액세스하기 위한 포괄적인 RESTful API.",
+            "icon": "💻"
+          },
+          "webhooks": {
+            "title": "Webhook 지원",
+            "description": "실시간 이벤트 알림 및 맞춤형 워크플로 트리거.",
+            "icon": "🎣"
+          },
+          "sdks": {
+            "title": "SDK (Python, Node.js, Go)",
+            "description": "일반적인 프로그래밍 언어용으로 사용하기 쉬운 SDK로 개발을 가속화하십시오.",
+            "icon": "📚"
+          },
+          "developerDocs": {
+            "title": "개발자 문서",
+            "description": "API 및 개발자 도구 사용 방법에 대한 자세한 문서 및 예제.",
+            "icon": "📄"
+          }
+        },
+        "cta": "API 및 개발자 도구 탐색"
+      }
+    }
+  }
+}

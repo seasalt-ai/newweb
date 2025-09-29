@@ -2,15 +2,15 @@
   "seachat": {
     "integrations": {
       "hero": {
-        "title": "すべてのツールを接続する",
-        "subtitle": "SeaChatは、お気に入りのビジネスツールとシームレスに連携し、ワークフローを合理化し、顧客体験を向上させます。",
-        "description": "CRM、Eコマースプラットフォーム、カレンダー、ソーシャルメディアなど、SeaChatはすべてのコミュニケーションを1つの統合ハブに集約します。",
-        "cta": "すべての連携を見る"
+        "title": "모든 도구 연결",
+        "subtitle": "SeaChat은 즐겨 사용하는 비즈니스 도구와 원활하게 통합되어 워크플로를 간소화하고 고객 경험을 향상시킵니다.",
+        "description": "CRM, 전자상거래 플랫폼, 캘린더, 소셜 미디어 등 SeaChat은 모든 커뮤니케이션을 하나의 통합 허브로 가져옵니다.",
+        "cta": "모든 통합 보기"
       },
       "categories": {
         "websites": {
-          "title": "ウェブサイトプラットフォーム",
-          "description": "ウェブサイトにチャットウィジェットを簡単に導入し、訪問者を顧客に変えます。",
+          "title": "웹사이트 플랫폼",
+          "description": "웹사이트에 채팅 위젯을 쉽게 배포하고 방문자를 고객으로 전환하십시오.",
           "integrations": [
             {
               "name": "WordPress",
@@ -29,14 +29,14 @@
               "icon": "/public/company_icons/squarespace.png"
             },
             {
-              "name": "カスタムHTML",
+              "name": "맞춤형 HTML",
               "icon": "/public/company_icons/html.png"
             }
           ]
         },
         "crm": {
-          "title": "CRMシステム",
-          "description": "顧客データと会話履歴を同期して、パーソナライズされたサポートを提供します。",
+          "title": "CRM 시스템",
+          "description": "고객 데이터 및 대화 기록을 동기화하여 개인화된 지원을 제공하십시오.",
           "integrations": [
             {
               "name": "Salesforce",
@@ -61,8 +61,8 @@
           ]
         },
         "ecommerce": {
-          "title": "電子商取引プラットフォーム",
-          "description": "注文状況、製品に関する問い合わせ、放棄されたカートの回復を自動化します。",
+          "title": "전자상거래 플랫폼",
+          "description": "주문 상태, 제품 문의 및 버려진 장바구니 복구를 자동화하십시오.",
           "integrations": [
             {
               "name": "Shopify",
@@ -87,8 +87,8 @@
           ]
         },
         "socialMedia": {
-          "title": "ソーシャルメディア",
-          "description": "顧客が好むプラットフォームで顧客とつながり、ソーシャルエンゲージメントを管理します。",
+          "title": "소셜 미디어",
+          "description": "고객이 선호하는 플랫폼에서 고객과 연결하고 소셜 참여를 관리하십시오.",
           "integrations": [
             {
               "name": "WhatsApp",
@@ -113,8 +113,8 @@
           ]
         },
         "communication": {
-          "title": "コミュニケーションツール",
-          "description": "既存のコミュニケーションワークフローを強化し、チームのコラボレーションを改善します。",
+          "title": "통신 도구",
+          "description": "기존 통신 워크플로를 강화하고 팀 협업을 개선하십시오.",
           "integrations": [
             {
               "name": "Slack",
@@ -139,8 +139,8 @@
           ]
         },
         "marketing": {
-          "title": "マーケティングプラットフォーム",
-          "description": "リードの育成、キャンペーンの自動化、顧客エンゲージメントの追跡を合理化します。",
+          "title": "마케팅 플랫폼",
+          "description": "리드 육성, 캠페인 자동화 및 고객 참여 추적을 간소화하십시오.",
           "integrations": [
             {
               "name": "Mailchimp",
@@ -165,8 +165,8 @@
           ]
         },
         "calendar": {
-          "title": "カレンダー & スケジューリング",
-          "description": "アポイントメントの予約、会議のスケジュール、イベントの管理を自動化します。",
+          "title": "캘린더 및 일정 관리",
+          "description": "약속 예약, 회의 일정 관리 및 이벤트 관리를 자동화하십시오.",
           "integrations": [
             {
               "name": "Google Calendar",
@@ -191,8 +191,8 @@
           ]
         },
         "api": {
-          "title": "カスタムAPI & Webhook",
-          "description": "SeaChatを任意のカスタムシステムやアプリケーションと接続します。",
+          "title": "맞춤형 API 및 Webhook",
+          "description": "SeaChat을 모든 맞춤형 시스템 또는 애플리케이션에 연결하십시오.",
           "integrations": [
             {
               "name": "REST API",
@@ -203,7 +203,7 @@
               "icon": "/public/company_icons/webhook.png"
             },
             {
-              "name": "Make.com (旧Integromat)",
+              "name": "Make.com (이전 Integromat)",
               "icon": "/public/company_icons/make.com.png"
             },
             {
@@ -211,16 +211,16 @@
               "icon": "/public/company_icons/zapier.png"
             },
             {
-              "name": "カスタムSDK",
+              "name": "맞춤형 SDK",
               "icon": "/public/company_icons/sdk.png"
             }
           ]
         }
       },
       "cta": {
-        "title": "すべてのツールを接続する準備はできていますか？",
-        "subtitle": "SeaChatを既存のワークフローにシームレスに統合し、顧客体験を変革します。",
-        "button": "連携を開始"
+        "title": "모든 도구를 연결할 준비가 되셨습니까?",
+        "subtitle": "SeaChat을 기존 워크플로에 원활하게 통합하고 고객 경험을 혁신하십시오.",
+        "button": "통합 시작"
       }
     }
   }
