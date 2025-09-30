@@ -1,0 +1,922 @@
+{
+  "seachat": {
+    "common": {
+      "getStarted": "Mula Percuma",
+      "signIn": "Log Masuk",
+      "learnMore": "Ketahui Lebih Lanjut",
+      "readMore": "Baca Lagi",
+      "viewAll": "Lihat Semua Artikel",
+      "tryNow": "Cuba Sekarang",
+      "contactUs": "Hubungi Kami",
+      "subscribe": "Langgan",
+      "search": "Cari",
+      "back": "Kembali"
+    },
+    "header": {
+      "features": "Ciri-ciri",
+      "integrations": "Integrasi",
+      "solutions": "Penyelesaian",
+      "pricing": "Harga",
+      "blog": "Blog",
+      "language": "Bahasa",
+      "featuresDropdown": {
+        "humanAgents": "Sembang Ejen Manusia",
+        "aiAutomation": "Automasi AI",
+        "advancedAI": "Ciri-ciri AI Lanjutan",
+        "knowledgeBase": "Pangkalan Pengetahuan",
+        "voiceAgents": "Ejen Suara",
+        "analytics": "Analitik & Wawasan",
+        "omnichannel": "Sokongan Omnisaluran",
+        "api": "API & Alat Pembangun"
+      },
+      "integrationsDropdown": {
+        "websites": "Platform Laman Web",
+        "crm": "Sistem CRM",
+        "ecommerce": "E-dagang",
+        "socialMedia": "Media Sosial",
+        "communication": "Alat Komunikasi",
+        "marketing": "Platform Pemasaran",
+        "calendar": "Kalendar & Penjadualan",
+        "api": "API Tersuai"
+      },
+      "solutionsDropdown": {
+        "ecommerce": "E-dagang & Runcit",
+        "healthcare": "Penjagaan Kesihatan",
+        "fintech": "Perkhidmatan Kewangan",
+        "education": "Pendidikan",
+        "realEstate": "Hartanah",
+        "travel": "Pelancongan & Hospitaliti",
+        "saas": "SaaS & Teknologi",
+        "smallBusiness": "Perniagaan Kecil"
+      },
+      "backToMainSite": "Kembali ke Laman Utama",
+      "viewAllIntegrations": "Lihat Semua Integrasi →",
+      "viewAllSolutions": "Lihat Semua Penyelesaian →"
+    },
+    "hero": {
+      "title": {
+        "line1": "Balas Kepada",
+        "line2": "Jutaan 24/7"
+      },
+      "subtitle": "Ejen Langsung",
+      "description": "Ubah sokongan pelanggan dengan platform omnisaluran kami. Mulakan dengan ejen manusia tanpa kos, kemudian integrasikan automasi AI dengan lancar apabila anda berkembang.",
+      "startFree": "Mula Percuma Sekarang",
+      "exploreAI": "Tempah Demo",
+      "alwaysFree": "Pelan Sentiasa Percuma",
+      "integrations": "30+ Integrasi",
+      "setup": "Persediaan dalam 2 Minit",
+      "chat": {
+        "userMessage": "Hai! Saya perlukan bantuan dengan pesanan saya",
+        "botMessage": "Helo! Saya gembira dapat membantu anda dengan pesanan anda. Bolehkah anda memberikan nombor pesanan anda?",
+        "userMessage2": "Saya boleh membantu anda berhubung dengan ejen manusia atau memberikan bantuan AI segera. Bagaimana anda ingin meneruskan?",
+        "typePlaceholder": "Taip mesej anda...",
+        "online": "Dalam Talian",
+        "supportTitle": "Sokongan SeaChat"
+      },
+      "badge": "Mula Percuma dengan Ejen Langsung",
+      "animationSection": {
+        "title": "SeaChat Beraksi",
+        "autoMode": "Auto",
+        "manualMode": "Manual"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "AI Suara Telefon",
+          "description": "Ejen AI mengendalikan perbualan telefon"
+        },
+        "interactive": {
+          "name": "Saluran Interaktif",
+          "description": "Klik untuk melihat perbualan yang berbeza"
+        },
+        "multiChannel": {
+          "name": "Aliran Berbilang Saluran",
+          "description": "Mesej mengalir antara platform yang berbeza"
+        },
+        "agentToAI": {
+          "name": "Penyerahan Manusia ke AI",
+          "description": "Mula dengan manusia, tingkatkan dengan AI"
+        },
+        "learning": {
+          "name": "Perjalanan Pembelajaran AI",
+          "description": "Saksikan AI menjadi lebih pintar daripada kandungan"
+        },
+        "dashboard": {
+          "name": "Analitik Masa Nyata",
+          "description": "Metrik prestasi langsung"
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Mengapa Memilih SeaChat?",
+      "subtitle": "Alami gabungan sempurna sentuhan manusia dan kecekapan AI. Mulakan secara percuma, tingkatkan dengan bijak, berjaya lebih cepat.",
+      "humanAgents": {
+        "title": "Ejen Manusia Benar-benar Percuma 🍺 🎙️",
+        "description": "Mulakan dengan 1 ejen manusia percuma seumur hidup—ya, seumur hidup! Tiada had, tiada batasan, tiada tangkapan.",
+        "badge": "Percuma Selamanya",
+        "highlights": [
+          "Perbualan sembang tanpa had",
+          "Akses sejarah sembang tanpa had",
+          "Kenalan & pembinaan rangkaian tanpa had",
+          "Kebebasan untuk mengeksport semua data anda"
+        ]
+      },
+      "aiAutomation": {
+        "title": "Automasi AI yang Lancar",
+        "description": "Tingkatkan dengan mudah dengan AI pintar yang belajar daripada perbualan dan dokumen anda.",
+        "highlights": [
+          "Balasan automatik pintar",
+          "Belajar daripada interaksi",
+          "Balasan peka konteks"
+        ]
+      },
+      "omnichannel": {
+        "title": "Ketersambungan Omni-Saluran",
+        "description": "Sambungkan semua saluran komunikasi anda dalam satu platform bersepadu untuk sokongan yang konsisten.",
+        "highlights": [
+          "30+ integrasi",
+          "Peti masuk bersepadu",
+          "Penyegerakan merentas platform"
+        ]
+      },
+      "trulyFree": {
+        "title": "Pelan Benar-benar Percuma seperti Percuma 🍺 & 🎙️",
+        "description": "Memperkenalkan Mod Hanya Ejen Manusia SeaChat: Tiket Anda ke Kebebasan Komunikasi yang Tiada Tandingan! Kami teruja untuk mempersembahkan 1 ejen manusia percuma seumur hidup—ya, anda tidak salah dengar, seumur hidup!",
+        "freeFeatures": {
+          "unlimitedChat": {
+            "title": "Sembang Tanpa Had",
+            "description": "Terlibat dalam seberapa banyak perbualan yang anda perlukan, tanpa had atau sekatan."
+          },
+          "unlimitedHistory": {
+            "title": "Sejarah Tanpa Had",
+            "description": "Jangan sekali-kali kehilangan perbualan—akses sejarah sembang lengkap anda pada bila-bila masa."
+          },
+          "unlimitedContacts": {
+            "title": "Kenalan Tanpa Had",
+            "description": "Bina rangkaian anda tanpa sebarang sekatan atau had kenalan."
+          },
+          "freedomToExport": {
+            "title": "Kebebasan untuk Mengeksport",
+            "description": "Data anda, peraturan anda—eksport semua sejarah sembang anda dengan mudah."
+          }
+        },
+        "whyChoose": "Mengapa Memilih SeaChat? Kerana Ia Benar-benar Percuma!",
+        "whatYouGet": "✅ Apa yang Anda Dapatkan PERCUMA Selamanya:",
+        "freeForeverFeatures": [
+          "1 Ejen Manusia Seumur Hidup",
+          "Perbualan Sembang Tanpa Had",
+          "Akses Sejarah Sembang Lengkap",
+          "Pengurusan Kenalan Tanpa Had",
+          "Hak Eksport Data Penuh"
+        ],
+        "scaleWhenReady": "🚀 Tingkatkan Apabila Bersedia:",
+        "scaleFeatures": [
+          "Tambah Automasi AI",
+          "Integrasi Lanjutan",
+          "Ciri-ciri Ejen Suara",
+          "Keselamatan Gred Perusahaan",
+          "Aliran Kerja Tersuai"
+        ],
+        "startButton": "Mula Ejen Percuma Anda Sekarang - Tiada Kad Kredit Diperlukan!"
+      },
+      "statsBar": {
+        "unlimited": "Sembang tanpa had selamanya",
+        "fileTypes": "30+ jenis fail disokong",
+        "setupTime": "Masa persediaan purata 2 minit",
+        "availability": "Ketersediaan AI 24/7 apabila bersedia"
+      }
+    },
+    "featureTabs": {
+      "title": "Ciri-ciri Berkuasa, Persediaan Mudah",
+      "subtitle": "Terokai set ciri komprehensif kami yang direka untuk mengubah pengalaman sokongan pelanggan anda.",
+      "tabs": {
+        "humanAgent": "Ejen Manusia",
+        "agentChat": "Sembang Ejen",
+        "aiAgent": "Ejen AI",
+        "advancedAI": "AI Lanjutan",
+        "knowledgeBase": "Pangkalan Pengetahuan",
+        "integrations": "Integrasi"
+      },
+      "content": {
+        "agentChat": {
+          "title": "Kecemerlangan Ejen Manusia",
+          "subtitle": "Mulakan dengan sokongan manusia sebenar, percuma sepenuhnya",
+          "features": [
+            "Waktu ejen percuma tanpa had",
+            "Pengurusan perbualan masa nyata",
+            "Kerjasama berbilang ejen",
+            "Pelabelan dan penghalaan lanjutan",
+            "Analitik prestasi",
+            "Aliran kerja tersuai"
+          ],
+          "tryFeature": "Cuba Ciri Ini",
+          "watchDemo": "Tonton Demo"
+        },
+        "aiAgent": {
+          "title": "Automasi AI Pintar",
+          "subtitle": "Tingkatkan dengan lancar dengan AI pintar yang belajar",
+          "features": [
+            "Balasan peka konteks",
+            "Belajar daripada perbualan",
+            "Penyerahan manusia yang lancar",
+            "Sokongan berbilang bahasa",
+            "Latihan AI tersuai",
+            "Keupayaan ejen suara"
+          ],
+          "tryFeature": "Cuba Ciri Ini",
+          "watchDemo": "Tonton Demo"
+        },
+        "advancedAI": {
+          "title": "Kecerdasan AI Generasi Seterusnya",
+          "subtitle": "Ciri-ciri AI lanjutan untuk pengalaman yang diperibadikan",
+          "features": [
+            "Penjanaan Augmented Retrieval (RAG)",
+            "Sistem memori pengguna jangka panjang",
+            "Balasan kontekstual peka masa",
+            "Pengekstrakan konteks pintar",
+            "Hasil sembang yang dirujuk",
+            "Penambahbaikan pangkalan pengetahuan"
+          ],
+          "tryDemo": "Cuba Demo AI Lanjutan",
+          "watchAI": "Tonton AI Beraksi"
+        },
+        "knowledgeBase": {
+          "title": "Hab Pengetahuan Komprehensif",
+          "subtitle": "Muat naik 30+ jenis fail untuk balasan AI segera",
+          "features": [
+            "Sokongan PDF, Excel, CSV, Word",
+            "Pengambilan kandungan laman web",
+            "Pemprosesan imej dan video",
+            "Pemformatan balasan kaya",
+            "Kemas kini kandungan automatik",
+            "Kawalan versi"
+          ],
+          "tryFeature": "Cuba Ciri Ini",
+          "watchDemo": "Tonton Demo"
+        },
+        "integrations": {
+          "title": "Integrasi Berkuasa",
+          "subtitle": "Berhubung dengan alat dan platform kegemaran anda",
+          "features": [
+            "Integrasi CRM (Salesforce, HubSpot)",
+            "Tempahan kalendar (Google, Outlook)",
+            "Platform E-dagang",
+            "Alat pemasaran",
+            "Akses API tersuai",
+            "Sokongan Webhook"
+          ],
+          "tryFeature": "Cuba Ciri Ini",
+          "watchDemo": "Tonton Demo"
+        }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "Penjanaan Augmented Retrieval",
+            "description": "Carian Kata Kunci, Vektor, dan Hibrid untuk pengambilan maklumat yang tepat",
+            "details": {
+              "0": "Carian vektor semantik",
+              "1": "Padanan kata kunci",
+              "2": "Algoritma carian hibrid",
+              "3": "Pengindeksan kandungan masa nyata"
+            }
+          },
+          "memory": {
+            "title": "Memori Jangka Panjang",
+            "description": "Pengalaman yang diperibadikan melalui memori pengguna yang berterusan",
+            "details": {
+              "0": "Penjejakan pilihan pengguna",
+              "1": "Analisis sejarah perbualan",
+              "2": "Pengecaman corak tingkah laku",
+              "3": "Kesinambungan merentas sesi"
+            }
+          },
+          "timeAware": {
+            "title": "Kesedaran Masa",
+            "description": "Balasan peka konteks berdasarkan masa dan zon waktu semasa",
+            "details": {
+              "0": "Integrasi cap masa masa nyata",
+              "1": "Penjadualan peka zon waktu",
+              "2": "Cadangan peka masa",
+              "3": "Pengoptimuman waktu perniagaan"
+            }
+          },
+          "contextExtraction": {
+            "title": "Pengekstrakan Konteks",
+            "description": "Pemetaan medan pintar untuk pemahaman pengguna yang lebih baik",
+            "details": {
+              "0": "Definisi medan tersuai",
+              "1": "Pengekstrakan data automatik",
+              "2": "Pilihan bahasa pengguna",
+              "3": "Pembinaan konteks dinamik"
+            }
+          },
+          "referencedResults": {
+            "title": "Hasil yang Dirujuk",
+            "description": "Balasan AI telus dengan petikan sumber",
+            "details": {
+              "0": "Pautan dokumen sumber",
+              "1": "Penjejakan petikan",
+              "2": "Penilaian keyakinan",
+              "3": "Pengesahan fakta"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "Penambahbaikan Pangkalan Pengetahuan",
+            "description": "Penambahbaikan berterusan ketepatan pangkalan pengetahuan",
+            "details": {
+              "0": "Kemas kini kandungan automatik",
+              "1": "Penilaian kualiti",
+              "2": "Pengoptimuman relevansi",
+              "3": "Analitik prestasi"
+            }
+          }
+        }
+      }
+    },
+    "omnichannelDemo": {
+      "title": "Gunakan di Mana Sahaja Pelanggan Anda Berada",
+      "subtitle": "Sambungkan semua titik sentuh pelanggan anda merentasi laman web, media sosial, dan platform komunikasi dengan lancar. Halakan kursor ke setiap saluran untuk melihat metrik prestasi masa nyata.",
+      "messagesPerDay": "Mesej/hari",
+      "responseTime": "Masa balasan",
+      "keyFeatures": "Ciri-ciri Utama",
+      "integrateChannel": "Integrasikan",
+      "channels": {
+        "website": {
+          "name": "Laman Web",
+          "description": "Widget universal yang berfungsi di mana-mana laman web HTML"
+        },
+        "whatsapp": {
+          "name": "WhatsApp",
+          "description": "Berhubung dengan pelanggan di aplikasi pemesejan paling popular di dunia"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "description": "Urus DM Instagram dan balasan cerita dalam satu peti masuk bersepadu"
+        },
+        "facebook": {
+          "name": "Facebook",
+          "description": "Sediakan sokongan pelanggan melalui platform pemesejan Facebook"
+        },
+        "line": {
+          "name": "LINE",
+          "description": "Berhubung dengan pelanggan di platform pemesejan Asia yang popular"
+        },
+        "phone": {
+          "name": "Panggilan Telefon",
+          "description": "Kendalikan sokongan suara dengan ejen suara AI"
+        },
+        "email": {
+          "name": "E-mel",
+          "description": "Urus tiket e-mel dengan penghalaan pintar"
+        },
+        "ecommerce": {
+          "name": "E-dagang",
+          "description": "Integrasikan dengan kedai dalam talian untuk pengurusan pesanan"
+        }
+      },
+      "platformCategories": {
+        "website": {
+          "title": "Integrasi Laman Web",
+          "description": "Gunakan di mana-mana platform laman web dengan widget universal kami"
+        },
+        "socialMedia": {
+          "title": "Media Sosial",
+          "description": "Berhubung dengan pelanggan di platform sosial kegemaran mereka"
+        },
+        "traditional": {
+          "title": "Saluran Tradisional",
+          "description": "Kekalkan sokongan melalui kaedah komunikasi klasik"
+        }
+      },
+      "quickSetup": {
+        "title": "Bersedia untuk Menggunakan di Mana-mana?",
+        "subtitle": "Mulakan dalam beberapa minit dengan proses integrasi mudah kami",
+        "steps": [
+          {
+            "title": "Pilih Saluran Anda",
+            "description": "Pilih daripada 8+ pilihan penggunaan"
+          },
+          {
+            "title": "Salin & Tampal Kod",
+            "description": "Pemasangan widget mudah"
+          },
+          {
+            "title": "Mula Bersembang",
+            "description": "Mula menyokong pelanggan serta-merta"
+          }
+        ],
+        "button": "Mula Penggunaan Percuma"
+      }
+    },
+    "pricing": {
+      "title": "Harga yang Berkembang Bersama Anda",
+      "subtitle": "Mulakan sepenuhnya percuma dengan ejen manusia, kemudian tambah AI apabila anda bersedia untuk meningkatkan skala.",
+      "monthly": "Bulanan",
+      "yearly": "Tahunan",
+      "save": "Jimat 20%",
+      "customize": "Sesuaikan Pelan Anda",
+      "chatVolume": "Jumlah Sembang Bulanan",
+      "agents": "Bilangan Ejen",
+      "plans": {
+        "free": {
+          "name": "Benar-benar Percuma",
+          "tagline": "Alami percubaan ciri-ciri berkuasa",
+          "description": "Sesuai untuk bermula dengan ejen manusia",
+          "features": {
+            "humanAgent": "1 ejen manusia",
+            "unlimitedHumanChats": "Sembang ejen manusia tanpa had",
+            "unlimitedContacts": "Kenalan tanpa had",
+            "unlimitedHistory": "Sejarah sembang tanpa had",
+            "exportHistory": "Kebebasan untuk mengeksport sejarah sembang",
+            "channels": "Saluran: WhatsApp Messenger, widget sembang",
+            "integrations": "Integrasi: Wix, WordPress, Shopify, Make.com, Squarespace",
+            "aiAgent": "Ejen AI dengan 100 balasan AI seumur hidup:",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "Pangkalan pengetahuan termasuk 20 dokumen (maks 200KB) dan 250k token",
+            "workspace": "1 ruang kerja"
+          },
+          "buttonText": "Mula Percuma"
+        },
+        "premium": {
+          "name": "Premium",
+          "tagline": "Tambah Lebih Banyak Ejen AI dan Fail Pengetahuan",
+          "description": "Tingkatkan sokongan anda dengan automasi AI",
+          "month": "bulan",
+          "year": "tahun",
+          "year_description": "Menjimatkan 2 bulan setiap tahun",
+          "features": {
+            "humanAgents": "4 pengguna manusia (kos pengguna manusia tambahan $10/bulan)",
+            "humanAgentPermission": "Sokongan kebenaran ejen manusia",
+            "assignAgent": "Tetapkan ejen manusia kepada perbualan individu",
+            "unreadCounter": "Pembilang mesej belum dibaca untuk setiap ejen manusia",
+            "transferToHuman": "Pemindahan langsung dari ejen AI ke ejen manusia",
+            "transferToAI": "Pemindahan langsung dari ejen manusia ke ejen AI",
+            "unlimitedHumanChats": "Sembang ejen manusia tanpa had",
+            "unlimitedContacts": "Kenalan tanpa had",
+            "unlimitedHistory": "Sejarah sembang tanpa had",
+            "exportHistory": "Kebebasan untuk mengeksport sejarah sembang",
+            "channels": "Saluran tambahan: Line, Panggilan, Panggilan Telefon",
+            "integrations": "Integrasi tambahan: Google Calendar untuk tempahan mesyuarat automatik",
+            "aiAgents": "10 ejen AI, dengan setiap ejen mempunyai:",
+            "aiModels": "Model ChatGPT-4o dan Mistral",
+            "knowledgeBase": "Pangkalan pengetahuan termasuk sehingga 1000 dokumen (10 MB setiap dokumen) dan 5 Juta token",
+            "chatSummary": "Ringkasan sembang dan pemberitahuan melalui e-mel",
+            "agentPrivacy": "Kawalan privasi ejen",
+            "contactCapture": "Penangkapan kenalan pengguna melalui borang tersuai",
+            "chatCost": "Kos ejen AI sembang bermula pada $0.006 setiap balasan",
+            "voiceCost": "Kos ejen AI suara melalui panggilan telefon bermula pada $0.12 seminit",
+            "workspaces": "2 ruang kerja (kos ruang kerja tambahan $15/bulan)",
+            "knowledgeBaseFeatures": "Pangkalan Pengetahuan:",
+            "advancedSearch": "Carian dokumen lanjutan - kata kunci, vektor, hibrid",
+            "fileTypes": "20+ jenis fail disokong, dengan pengoptimuman pada hamparan",
+            "automationFeatures": "Automasi:",
+            "autoLabel": "Labelkan perbualan secara automatik dengan label yang ditentukan pengguna",
+            "builtInActions": "Tindakan terbina dalam yang dicetuskan oleh pelabelan automatik: SMS, E-mel",
+            "externalAPI": "Panggilan API luaran sebagai pencetus dan tindakan",
+            "voiceAgentFeatures": "Ejen Suara AI:",
+            "voiceMessages": "Sokongan mesej suara dalam Messenger, WhatsApp, Line",
+            "phoneCalls": "Sokongan perbualan panggilan telefon 2 hala",
+            "callDirection": "Sokongan panggilan masuk dan keluar",
+            "transferAgent": "Pindahkan ke ejen manusia",
+            "callForwarding": "Penghantaran panggilan disokong",
+            "sttLanguages": "10+ bahasa Ucapan ke Teks",
+            "ttsLanguages": "10+ bahasa Teks ke Ucapan dengan suara dari Azure, ElevenLabs, OpenAI",
+            "callRecording": "Rakaman dan ringkasan panggilan",
+            "callNotification": "Pemberitahuan panggilan melalui e-mel",
+            "formTrackers": "Tetapkan penjejak borang dari perbualan",
+            "slotExtractors": "Pengekstrak slot dari perbualan",
+            "timezoneFeatures": "Kesedaran masa tempatan dengan sokongan zon waktu, untuk:",
+            "businessHours": "waktu perniagaan",
+            "appointmentBooking": "tempahan janji temu",
+            "humanAgent": "4 pengguna manusia (kos pengguna manusia tambahan $10/bulan)",
+            "supportHumanAgent": "Sokongan kebenaran ejen manusia",
+            "liveTransferToHuman": "Pemindahan langsung dari ejen AI ke ejen manusia",
+            "liveTransferToAI": "Pemindahan langsung dari ejen manusia ke ejen AI",
+            "additionalChannels": "Saluran tambahan: Line, Panggilan, Panggilan Telefon",
+            "additionalIntegrations": "Integrasi tambahan: Google Calendar untuk tempahan mesyuarat automatik",
+            "knowledgeBaseTitle": "Pangkalan Pengetahuan:",
+            "automationTitle": "Automasi:",
+            "voiceAgentsTitle": "Ejen Suara AI:",
+            "timezoneTitle": "Kesedaran masa tempatan dengan sokongan zon waktu, untuk:"
+          },
+          "buttonText": "Mula Premium",
+          "badge": "Paling Popular"
+        },
+        "enterprise": {
+          "name": "Perusahaan",
+          "tagline": "Sesuaikan ejen AI eksklusif anda",
+          "description": "Penyelesaian tersuai untuk organisasi besar",
+          "features": {
+            "premiumIncluded": "Semua dalam pelan Premium",
+            "customBuild": "Binaan tersuai",
+            "multipleWorkspaces": "Ruang kerja berbilang - sesuai untuk agensi",
+            "workspaceAgents": "Setiap ruang kerja mempunyai berbilang ejen AI dan nombor telefon",
+            "gpt4oRealtimeAPI": "Akses kepada API Masa Nyata GPT-4o",
+            "customAPI": "Integrasi API tersuai",
+            "fineTuning": "Penalaan halus dengan garis panduan dan sokongan teknikal anda"
+          },
+          "buttonText": "Hubungi Kami"
+        }
+      },
+      "billing": {
+        "monthly": "Bulanan",
+        "yearly": "Tahunan",
+        "year": "tahun",
+        "month": "bulan",
+        "save": "Jimat 2 bulan berbanding bil bulanan"
+      },
+      "calculator": {
+        "title": "Kalkulator Penggunaan Pelan & Model",
+        "description": "Anggarkan kos anda berdasarkan corak penggunaan anda",
+        "modelSelect": "Pilih Model AI",
+        "priceBreakdown": "Pecahan Kos",
+        "licenseYearly": "Yuran lesen (jimat 2 bulan):",
+        "licenseFee": "Yuran lesen:",
+        "usageCost": "Kos penggunaan:",
+        "usageCostYearly": "Kos penggunaan (12 bulan):",
+        "addOnsCost": "Kos tambahan:",
+        "addOnsCostYearly": "Kos tambahan (12 bulan):",
+        "totalPerYear": "Jumlah setahun:",
+        "totalPerMonth": "Jumlah sebulan:",
+        "averagePerMonth": "Purata sebulan:",
+        "aiUsage": "Penggunaan AI (Bayar mengikut penggunaan)",
+        "chatResponses": "Balasan Sembang Bulanan:",
+        "voiceMinutes": "Minit Suara Bulanan:",
+        "voiceMinutesNote": "AS/Kanada sahaja",
+        "chatCost": "Kos Sembang",
+        "voiceCost": "Kos Suara",
+        "additionalResources": "Sumber Tambahan",
+        "humanAgents": "Ejen Manusia:",
+        "aiAgents": "Ejen AI:",
+        "workspaces": "Ruang Kerja:",
+        "included": "Termasuk:",
+        "extra": "Tambahan:",
+        "disclaimer": "Kos penggunaan dikira berdasarkan penggunaan sebenar. Pelan Premium termasuk:",
+        "disclaimerDetails": "Yuran lesen + Penggunaan AI (bayar mengikut penggunaan) + Sumber tambahan di luar had yang termasuk.",
+        "planIncludes": "Pelan Premium Termasuk:",
+        "planIncludesHuman": "4 Ejen Manusia",
+        "planIncludesAI": "10 Ejen AI",
+        "planIncludesWorkspaces": "2 Ruang Kerja",
+        "perChatResponse": "setiap balasan sembang",
+        "perVoiceMinute": "setiap minit suara",
+        "voiceOnly": "Model suara sahaja",
+        "voicePricing": "Harga suara",
+        "standardVoice": "Suara Standard",
+        "premiumVoice": "Suara Premium",
+        "placeholderText": "Teks Pemegang Tempat"
+      },
+      "note": "Harga dalam USD. Harga panggilan suara berbeza mengikut negara dan harga yang disenaraikan adalah untuk Amerika Syarikat dan Kanada. Untuk negara lain, sila hubungi kami.",
+      "comparison": {
+        "title": "Bandingkan Semua Ciri-ciri",
+        "subtitle": "Lihat dengan tepat apa yang termasuk dalam setiap pelan",
+        "featuresTitle": "Ciri-ciri",
+        "trulyFree": "Benar-benar Percuma",
+        "premium": "Premium",
+        "enterprise": "Perusahaan",
+        "humanAgents": "Ejen Manusia",
+        "aiAgents": "Ejen AI",
+        "aiModels": "Model AI",
+        "knowledgeBase": "Pangkalan Pengetahuan",
+        "voiceAI": "Ejen Suara AI",
+        "phoneCalls": "Panggilan Telefon",
+        "automation": "Automasi",
+        "apiIntegration": "Integrasi API",
+        "workspaces": "Ruang Kerja",
+        "support": "Sokongan",
+        "features": {
+          "humanAgents": {
+            "free": "1 ejen",
+            "premium": "4 pengguna",
+            "enterprise": "Tanpa had"
+          },
+          "aiAgents": {
+            "free": "1 ejen (100 balasan)",
+            "premium": "10 ejen (tanpa had)",
+            "enterprise": "Binaan tersuai"
+          },
+          "aiModels": {
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o, Mistral",
+            "enterprise": "Model lanjutan"
+          },
+          "knowledgeBase": {
+            "free": "20 dokumen (200KB)",
+            "premium": "5000 dokumen (10MB setiap satu)",
+            "enterprise": "Tanpa had"
+          },
+          "voiceAI": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
+          },
+          "phoneCalls": {
+            "free": "❌",
+            "premium": "✅ Masuk/Keluar",
+            "enterprise": "✅"
+          },
+          "automation": {
+            "free": "❌",
+            "premium": "✅ Lanjutan",
+            "enterprise": "✅ Tersuai"
+          },
+          "apiIntegration": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ Tersuai"
+          },
+          "workspaces": {
+            "free": "1",
+            "premium": "2 ($15 setiap tambahan)",
+            "enterprise": "Berbilang"
+          },
+          "support": {
+            "free": "Komuniti",
+            "premium": "E-mel + Telefon",
+            "enterprise": "Teknikal khusus"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Perlukan Sesuatu yang Tersuai?",
+        "description": "Kami menawarkan penyelesaian perusahaan tersuai termasuk penggunaan di premis, ciri keselamatan lanjutan, dan pasukan sokongan khusus.",
+        "contactSales": "Hubungi Pasukan Jualan"
+      },
+      "faq": {
+        "title": "Soalan Lazim",
+        "question1": "Adakah pelan percuma benar-benar percuma selamanya?",
+        "answer1": "Ya! Pelan Benar-benar Percuma kami termasuk 1 ejen manusia seumur hidup dengan perbualan, sejarah sembang, dan kenalan tanpa had. Selain itu, anda mendapat 1 ejen AI dengan 100 balasan AI seumur hidup untuk mencuba ciri-ciri AI kami. Tiada kad kredit diperlukan, tiada yuran tersembunyi.",
+        "question2": "Apakah perbezaan antara bil bulanan dan tahunan?",
+        "answer2": "Dengan bil tahunan, anda menjimatkan 2 bulan pada pelan Premium ($299/tahun berbanding $359.88/tahun jika dibayar bulanan). Kitaran bil hanya mempengaruhi pelan Premium - pelan Percuma sentiasa percuma dan Perusahaan adalah harga tersuai.",
+        "question3": "Bolehkah saya menaik taraf atau menurunkan taraf pelan saya pada bila-bila masa?",
+        "answer3": "Sudah tentu! Anda boleh menukar pelan anda pada bila-bila masa. Peningkatan berkuat kuasa serta-merta, dan penurunan taraf berkuat kuasa pada akhir kitaran bil semasa anda.",
+        "question4": "Apa yang berlaku jika saya melebihi had balasan AI saya pada pelan Percuma?",
+        "answer4": "Pelan Percuma termasuk 100 balasan AI seumur hidup. Setelah anda mencapai had ini, anda perlu menaik taraf ke Premium untuk balasan AI tanpa had. Fungsi ejen manusia anda kekal tanpa had pada semua pelan.",
+        "question5": "Bagaimana harga pelan Premium berfungsi?",
+        "answer5": "Premium mempunyai dua komponen: yuran lesen ($29.99/bulan atau $299/tahun) ditambah harga berdasarkan penggunaan. Penggunaan termasuk balasan AI bermula pada $0.006 setiap satu (ChatGPT-4o mini) dan panggilan suara pada $0.12/minit. Pengguna manusia tambahan berharga $10/bulan setiap satu, dan ruang kerja tambahan berharga $15/bulan setiap satu.",
+        "question6": "Apa yang berlaku kepada data saya jika saya membatalkan?",
+        "answer6": "Anda memiliki data anda. Anda boleh mengeksport semua sejarah sembang, kenalan, dan kandungan pangkalan pengetahuan anda pada bila-bila masa, walaupun pada pelan percuma. Kami percaya pada kebebasan dan ketelusan data.",
+        "question7": "Adakah anda menawarkan harga tersuai untuk perusahaan besar?",
+        "answer7": "Ya! Pelan Perusahaan kami menawarkan binaan tersuai, pelbagai perkhidmatan AI yang sesuai untuk agensi, integrasi API tersuai, dan garis panduan reka bentuk profesional dengan sokongan teknikal. Hubungi pasukan jualan kami untuk sebut harga yang diperibadikan."
+      },
+      "cta": {
+        "title": "Revolusi Sembang AI Anda",
+        "subtitle": "Bermula Sekarang!",
+        "description": "Sertai 100,000+ perniagaan yang sudah menggunakan SeaChat untuk menyampaikan pengalaman pelanggan yang luar biasa merentasi semua saluran pemesejan",
+        "stats": {
+          "messages": "100K+",
+          "messagesLabel": "Mesej Harian",
+          "uptime": "99.9%",
+          "uptimeLabel": "Jaminan Waktu Beroperasi",
+          "channels": "15+",
+          "channelsLabel": "Saluran Disokong",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "Mematuhi & Selamat"
+        },
+        "startFree": "MULA BENAR-BENAR PERCUMA DAHULU",
+        "bookDemo": "Tempah Demo Langsung",
+        "badges": {
+          "noCoding": "Tiada Pengekodan Diperlukan",
+          "freePlan": "Pelan Percuma Selamanya",
+          "cancelAnytime": "Batalkan Bila-bila Masa",
+          "support": "Sokongan 24/7"
+        },
+        "urgency": "Masa Terhad: Dapatkan 2 bulan percuma pada pelan tahunan + sokongan onboarding keutamaan!",
+        "limitedTime": "Masa Terhad:"
+      }
+    },
+    "knowledgeBase": {
+      "title": "Pangkalan Pengetahuan Berkuasa",
+      "subtitle": "Muat naik 30+ jenis fail dan biarkan AI menyediakan balasan yang kaya dan kontekstual dengan kad, butang, imej, dan video.",
+      "supportedFormats": {
+        "title": "Jenis Fail yang Disokong",
+        "formats": {
+          "pdf": {
+            "name": "Dokumen PDF",
+            "count": "15 fail"
+          },
+          "excel": {
+            "name": "Helaian Excel",
+            "count": "8 fail"
+          },
+          "word": {
+            "name": "Dokumen Word",
+            "count": "12 fail"
+          },
+          "images": {
+            "name": "Imej",
+            "count": "25 imej"
+          },
+          "websites": {
+            "name": "Laman Web",
+            "count": "5 laman web"
+          },
+          "videos": {
+            "name": "Video",
+            "count": "3 video"
+          }
+        },
+        "richResponse": {
+          "title": "Pemformatan Balasan Kaya:",
+          "features": [
+            "Kad Interaktif",
+            "Butang Tindakan",
+            "Imej Terbenam",
+            "Balasan Video"
+          ]
+        },
+        "addDocuments": "Tambah Dokumen Anda"
+      },
+      "uploadModal": {
+        "title": "Muat Naik Dokumen Anda",
+        "dropzone": {
+          "title": "Letakkan fail anda di sini",
+          "description": "Sokongan untuk PDF, Word, Excel, imej, video, dan banyak lagi",
+          "button": "Pilih Fail"
+        },
+        "demoFiles": [
+          "sample_manual.pdf",
+          "product_data.xlsx",
+          "brand_guide.jpg"
+        ],
+        "close": "Tutup Demo"
+      }
+    },
+    "useCases": {
+      "title": "Kisah Kejayaan Merentasi Industri",
+      "subtitle": "Lihat bagaimana perniagaan mengubah sokongan pelanggan mereka dengan pendekatan hibrid manusia-AI SeaChat.",
+      "cases": {
+        "ecommerce": {
+          "title": "Revolusi Sokongan E-dagang",
+          "industry": "Runcit",
+          "challenge": "Menguruskan 500+ pertanyaan pelanggan harian merentasi pelbagai saluran dengan kakitangan terhad",
+          "solution": "Menggunakan SeaChat dengan ejen AI mengendalikan 70% pertanyaan rutin, ejen manusia untuk isu kompleks",
+          "results": [
+            "Pengurangan 60% dalam masa balasan",
+            "Peningkatan 40% dalam kepuasan pelanggan",
+            "Penjimatan kos 75% pada operasi sokongan"
+          ],
+          "metrics": {
+            "responseTime": "< 30s",
+            "satisfaction": "94%",
+            "cost": "-75%"
+          }
+        },
+        "healthcare": {
+          "title": "Sokongan Pesakit Penjagaan Kesihatan",
+          "industry": "Penjagaan Kesihatan",
+          "challenge": "Menyediakan sokongan pesakit 24/7 sambil mengekalkan pematuhan HIPAA",
+          "solution": "Ejen AI selamat bersepadu dengan tempahan janji temu dan pra-saringan gejala",
+          "results": [
+            "Bantuan pesakit 24/7",
+            "Pengurangan 50% dalam ketidakhadiran",
+            "100% pematuhan HIPAA dikekalkan"
+          ],
+          "metrics": {
+            "availability": "24/7",
+            "noShows": "-50%",
+            "compliance": "100%"
+          }
+        },
+        "fintech": {
+          "title": "Kecemerlangan Perkhidmatan Kewangan",
+          "industry": "FinTech",
+          "challenge": "Mengendalikan pertanyaan kewangan sensitif dengan kelajuan dan keselamatan",
+          "solution": "Latihan AI tersuai mengenai peraturan kewangan dengan penyerahan manusia yang lancar",
+          "results": [
+            "90% resolusi hubungan pertama",
+            "Pemprosesan pertanyaan 3x lebih cepat",
+            "Protokol keselamatan yang dipertingkatkan"
+          ],
+          "metrics": {
+            "resolution": "90%",
+            "speed": "3x",
+            "security": "Dipertingkatkan"
+          }
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Mengubah Sokongan Anda?",
+        "description": "Sertai ratusan perniagaan yang sudah menggunakan SeaChat untuk menyampaikan pengalaman pelanggan yang luar biasa.",
+        "buttons": {
+          "viewCases": "Lihat Semua Kajian Kes",
+          "startStory": "Mula Kisah Kejayaan Anda"
+        },
+        "signUpFree": "Daftar Percuma",
+        "bookDemo": "Tempah Demo"
+      },
+      "labels": {
+        "challenge": "Cabaran:",
+        "solution": "Penyelesaian:",
+        "resultsAchieved": "Hasil yang Dicapai:"
+      },
+      "metrics": {
+        "responseTime": "Masa Balasan",
+        "satisfaction": "Kepuasan",
+        "cost": "Kos",
+        "availability": "Ketersediaan",
+        "noShows": "Ketidakhadiran",
+        "compliance": "Pematuhan",
+        "resolution": "Resolusi",
+        "speed": "Kelajuan",
+        "security": "Keselamatan"
+      }
+    },
+    "testimonials": {
+      "title": "Disayangi oleh Pasukan Sokongan di Seluruh Dunia",
+      "subtitle": "Jangan hanya percaya kata-kata kami. Berikut adalah apa yang pelanggan kami katakan tentang mengubah sokongan mereka dengan SeaChat.",
+      "navigation": {
+        "previous": "Sebelumnya",
+        "next": "Seterusnya"
+      },
+      "trustedBy": "Dipercayai oleh syarikat inovatif di seluruh dunia",
+      "stats": {
+        "customers": "10,000+ Pelanggan Gembira",
+        "uptime": "99.9% Waktu Beroperasi",
+        "messages": "50 Juta+ Mesej Diproses",
+        "rating": "4.9/5 Penilaian Pelanggan"
+      },
+      "testimonials": {
+        "0": {
+          "name": "Sarah Chen",
+          "title": "Pengarah Kejayaan Pelanggan",
+          "company": "TechFlow Solutions",
+          "quote": "SeaChat mengubah operasi sokongan kami. Bermula dengan ejen manusia percuma adalah sempurna untuk permulaan kami, dan peningkatan dengan AI adalah lancar. Masa balasan kami meningkat sebanyak 70%.",
+          "metrics": {
+            "improvement": "70%",
+            "feature": "Masa Balasan"
+          }
+        },
+        "1": {
+          "name": "Marcus Rodriguez",
+          "title": "Pengurus Operasi",
+          "company": "EcoCommerce",
+          "quote": "Ciri pangkalan pengetahuan sangat luar biasa. Kami memuat naik keseluruhan katalog produk dan Soalan Lazim kami, dan AI kini mengendalikan 80% pertanyaan pelanggan dengan ketepatan yang sempurna.",
+          "metrics": {
+            "improvement": "80%",
+            "feature": "Resolusi Pertanyaan"
+          }
+        },
+        "2": {
+          "name": "Emily Watson",
+          "title": "Ketua Pengalaman Pelanggan",
+          "company": "HealthTech Pro",
+          "quote": "Integrasi omnisaluran adalah sempurna. Pelanggan kami boleh memulakan perbualan di WhatsApp dan meneruskan di laman web kami tanpa kehilangan konteks. Mengubah permainan!",
+          "metrics": {
+            "improvement": "95%",
+            "feature": "Kepuasan Pelanggan"
+          }
+        },
+        "3": {
+          "name": "David Park",
+          "title": "Pengasas & CEO",
+          "company": "StartupFlow",
+          "quote": "Sebagai permulaan bootstrap, pelan percuma adalah penyelamat. Kami menyediakan sokongan profesional dari hari pertama tanpa kos pendahuluan. Kini kami gembira membayar ciri-ciri AI apabila kami berkembang.",
+          "metrics": {
+            "improvement": "$0",
+            "feature": "Kos Awal"
+          }
+        },
+        "4": {
+          "name": "Lisa Thompson",
+          "title": "Ketua Pasukan Sokongan",
+          "company": "GlobalRetail Inc",
+          "quote": "Penyerahan manusia-AI sangat lancar sehingga pelanggan tidak menyedari apabila mereka beralih antara ejen AI dan ejen manusia. Ini adalah apa yang kami perlukan untuk senario sokongan kompleks kami.",
+          "metrics": {
+            "improvement": "100%",
+            "feature": "Penyerahan Lancar"
+          }
+        }
+      }
+    },
+    "blog": {
+      "title": "Wawasan & Sumber Terkini",
+      "subtitle": "Kekal di hadapan dengan wawasan pakar mengenai trend sokongan pelanggan, strategi pelaksanaan AI, dan petua pengoptimuman platform.",
+      "categories": {
+        "all": "Semua",
+        "ai": "AI & Automasi",
+        "strategy": "Strategi",
+        "integration": "Integrasi",
+        "knowledge": "Pengurusan Pengetahuan",
+        "success": "Kejayaan Pelanggan"
+      },
+      "featured": "Ditampilkan",
+      "latest": "Catatan Terkini",
+      "readTime": "min baca",
+      "stayUpdated": "Kekal Kemas Kini",
+      "newsletterSubtitle": "Dapatkan wawasan terkini mengenai sokongan pelanggan AI, kemas kini platform, dan amalan terbaik industri yang dihantar ke peti masuk anda.",
+      "joinProfessionals": "Sertai 5,000+ profesional sokongan. Berhenti melanggan pada bila-bila masa.",
+      "loading": "Memuatkan catatan blog...",
+      "loadingPost": "Memuatkan artikel...",
+      "backToBlog": "Kembali ke Blog",
+      "share": "Kongsi",
+      "tags": "Tag",
+      "followLinkedIn": "Ikuti di LinkedIn",
+      "moreArticles": "Lebih Banyak Artikel",
+      "relatedArticles": "Artikel Berkaitan",
+      "searchPlaceholder": "Cari artikel, topik, atau tag...",
+      "articleCount": "artikel ditemui",
+      "noArticles": "Tiada artikel ditemui",
+      "adjustSearch": "Cuba sesuaikan istilah carian atau penapis kategori anda."
+    }
+  }
+}

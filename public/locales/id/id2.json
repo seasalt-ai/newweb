@@ -1,0 +1,922 @@
+{
+  "seachat": {
+    "common": {
+      "getStarted": "Mulai Gratis",
+      "signIn": "Masuk",
+      "learnMore": "Pelajari Lebih Lanjut",
+      "readMore": "Baca Selengkapnya",
+      "viewAll": "Lihat Semua Artikel",
+      "tryNow": "Coba Sekarang",
+      "contactUs": "Hubungi Kami",
+      "subscribe": "Berlangganan",
+      "search": "Cari",
+      "back": "Kembali"
+    },
+    "header": {
+      "features": "Fitur",
+      "integrations": "Integrasi",
+      "solutions": "Solusi",
+      "pricing": "Harga",
+      "blog": "Blog",
+      "language": "Bahasa",
+      "featuresDropdown": {
+        "humanAgents": "Obrolan Agen Manusia",
+        "aiAutomation": "Otomatisasi AI",
+        "advancedAI": "Fitur AI Tingkat Lanjut",
+        "knowledgeBase": "Basis Pengetahuan",
+        "voiceAgents": "Agen Suara",
+        "analytics": "Analitik & Wawasan",
+        "omnichannel": "Dukungan Omnichannel",
+        "api": "API & Alat Pengembang"
+      },
+      "integrationsDropdown": {
+        "websites": "Platform Situs Web",
+        "crm": "Sistem CRM",
+        "ecommerce": "E-commerce",
+        "socialMedia": "Media Sosial",
+        "communication": "Alat Komunikasi",
+        "marketing": "Platform Pemasaran",
+        "calendar": "Kalender & Penjadwalan",
+        "api": "API Kustom"
+      },
+      "solutionsDropdown": {
+        "ecommerce": "E-commerce & Ritel",
+        "healthcare": "Kesehatan",
+        "fintech": "Layanan Keuangan",
+        "education": "Pendidikan",
+        "realEstate": "Real Estat",
+        "travel": "Perjalanan & Perhotelan",
+        "saas": "SaaS & Teknologi",
+        "smallBusiness": "Bisnis Kecil"
+      },
+      "backToMainSite": "Kembali ke Situs Utama",
+      "viewAllIntegrations": "Lihat Semua Integrasi →",
+      "viewAllSolutions": "Lihat Semua Solusi →"
+    },
+    "hero": {
+      "title": {
+        "line1": "Tanggapi",
+        "line2": "Jutaan 24/7"
+      },
+      "subtitle": "Agen Langsung",
+      "description": "Ubah dukungan pelanggan dengan platform omnichannel kami. Mulai dengan agen manusia tanpa biaya, lalu integrasikan otomatisasi AI dengan mulus seiring pertumbuhan Anda.",
+      "startFree": "Mulai Gratis Sekarang",
+      "exploreAI": "Pesan Demo",
+      "alwaysFree": "Paket Selalu Gratis",
+      "integrations": "30+ Integrasi",
+      "setup": "Pengaturan dalam 2 Menit",
+      "chat": {
+        "userMessage": "Hai! Saya butuh bantuan dengan pesanan saya",
+        "botMessage": "Halo! Saya akan dengan senang hati membantu Anda dengan pesanan Anda. Bisakah Anda memberikan nomor pesanan Anda?",
+        "userMessage2": "Saya dapat membantu Anda terhubung dengan agen manusia atau memberikan bantuan AI instan. Bagaimana Anda ingin melanjutkan?",
+        "typePlaceholder": "Ketik pesan Anda...",
+        "online": "Online",
+        "supportTitle": "Dukungan SeaChat"
+      },
+      "badge": "Mulai Gratis dengan Agen Langsung",
+      "animationSection": {
+        "title": "SeaChat Beraksi",
+        "autoMode": "Otomatis",
+        "manualMode": "Manual"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "AI Suara Telepon",
+          "description": "Agen AI menangani percakapan telepon"
+        },
+        "interactive": {
+          "name": "Saluran Interaktif",
+          "description": "Klik untuk melihat percakapan yang berbeda"
+        },
+        "multiChannel": {
+          "name": "Alur Multi-Saluran",
+          "description": "Pesan mengalir antar platform yang berbeda"
+        },
+        "agentToAI": {
+          "name": "Serah Terima Manusia ke AI",
+          "description": "Mulai dengan manusia, skalakan dengan AI"
+        },
+        "learning": {
+          "name": "Perjalanan Pembelajaran AI",
+          "description": "Saksikan AI menjadi lebih pintar dari konten"
+        },
+        "dashboard": {
+          "name": "Analitik Real-Time",
+          "description": "Metrik kinerja langsung"
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Mengapa Memilih SeaChat?",
+      "subtitle": "Rasakan perpaduan sempurna antara sentuhan manusia dan efisiensi AI. Mulai gratis, skalakan dengan cerdas, sukses lebih cepat.",
+      "humanAgents": {
+        "title": "Agen Manusia Benar-benar Gratis 🍺 🎙️",
+        "description": "Mulai dengan 1 agen manusia gratis seumur hidup—ya, seumur hidup! Tanpa batasan, tanpa batas, tanpa jebakan.",
+        "badge": "Gratis Selamanya",
+        "highlights": [
+          "Percakapan obrolan tanpa batas",
+          "Akses riwayat obrolan tanpa batas",
+          "Kontak & pembangunan jaringan tanpa batas",
+          "Kebebasan untuk mengekspor semua data Anda"
+        ]
+      },
+      "aiAutomation": {
+        "title": "Otomatisasi AI yang Mulus",
+        "description": "Skalakan dengan mudah menggunakan AI cerdas yang belajar dari percakapan dan dokumen Anda.",
+        "highlights": [
+          "Respons otomatis cerdas",
+          "Belajar dari interaksi",
+          "Balasan yang peka konteks"
+        ]
+      },
+      "omnichannel": {
+        "title": "Konektivitas Omni-Channel",
+        "description": "Hubungkan semua saluran komunikasi Anda dalam satu platform terpadu untuk dukungan yang konsisten.",
+        "highlights": [
+          "30+ integrasi",
+          "Kotak masuk terpadu",
+          "Sinkronisasi lintas platform"
+        ]
+      },
+      "trulyFree": {
+        "title": "Paket Benar-benar Gratis seperti Gratis 🍺 & 🎙️",
+        "description": "Memperkenalkan Mode Hanya Agen Manusia SeaChat: Tiket Anda menuju Kebebasan Komunikasi yang Tak Tertandingi! Kami sangat senang mempersembahkan 1 agen manusia gratis seumur hidup—ya, Anda tidak salah dengar, seumur hidup!",
+        "freeFeatures": {
+          "unlimitedChat": {
+            "title": "Obrolan Tanpa Batas",
+            "description": "Terlibat dalam percakapan sebanyak yang Anda butuhkan, tanpa batasan atau pembatasan."
+          },
+          "unlimitedHistory": {
+            "title": "Riwayat Tanpa Batas",
+            "description": "Jangan pernah kehilangan percakapan—akses riwayat obrolan lengkap Anda kapan saja."
+          },
+          "unlimitedContacts": {
+            "title": "Kontak Tanpa Batas",
+            "description": "Bangun jaringan Anda tanpa batasan atau batas kontak."
+          },
+          "freedomToExport": {
+            "title": "Kebebasan untuk Mengekspor",
+            "description": "Data Anda, aturan Anda—ekspor semua riwayat obrolan Anda dengan mudah."
+          }
+        },
+        "whyChoose": "Mengapa Memilih SeaChat? Karena Benar-benar Gratis!",
+        "whatYouGet": "✅ Apa yang Anda Dapatkan GRATIS Selamanya:",
+        "freeForeverFeatures": [
+          "1 Agen Manusia Seumur Hidup",
+          "Percakapan Obrolan Tanpa Batas",
+          "Akses Riwayat Obrolan Lengkap",
+          "Manajemen Kontak Tanpa Batas",
+          "Hak Ekspor Data Penuh"
+        ],
+        "scaleWhenReady": "🚀 Skalakan Saat Siap:",
+        "scaleFeatures": [
+          "Tambahkan Otomatisasi AI",
+          "Integrasi Tingkat Lanjut",
+          "Fitur Agen Suara",
+          "Keamanan Perusahaan",
+          "Alur Kerja Kustom"
+        ],
+        "startButton": "Mulai Agen Gratis Anda Sekarang - Tidak Perlu Kartu Kredit!"
+      },
+      "statsBar": {
+        "unlimited": "Obrolan tanpa batas selamanya",
+        "fileTypes": "30+ jenis file didukung",
+        "setupTime": "Waktu pengaturan rata-rata 2 menit",
+        "availability": "Ketersediaan AI 24/7 saat siap"
+      }
+    },
+    "featureTabs": {
+      "title": "Fitur Canggih, Pengaturan Mudah",
+      "subtitle": "Jelajahi rangkaian fitur komprehensif kami yang dirancang untuk mengubah pengalaman dukungan pelanggan Anda.",
+      "tabs": {
+        "humanAgent": "Agen Manusia",
+        "agentChat": "Obrolan Agen",
+        "aiAgent": "Agen AI",
+        "advancedAI": "AI Tingkat Lanjut",
+        "knowledgeBase": "Basis Pengetahuan",
+        "integrations": "Integrasi"
+      },
+      "content": {
+        "agentChat": {
+          "title": "Keunggulan Agen Manusia",
+          "subtitle": "Mulai dengan dukungan manusia nyata, sepenuhnya gratis",
+          "features": [
+            "Jam agen gratis tanpa batas",
+            "Manajemen percakapan real-time",
+            "Kolaborasi multi-agen",
+            "Pelabelan dan perutean tingkat lanjut",
+            "Analitik kinerja",
+            "Alur kerja kustom"
+          ],
+          "tryFeature": "Coba Fitur Ini",
+          "watchDemo": "Tonton Demo"
+        },
+        "aiAgent": {
+          "title": "Otomatisasi AI Cerdas",
+          "subtitle": "Skalakan dengan mulus dengan AI cerdas yang belajar",
+          "features": [
+            "Respons peka konteks",
+            "Belajar dari percakapan",
+            "Serah terima manusia yang mulus",
+            "Dukungan multi-bahasa",
+            "Pelatihan AI kustom",
+            "Kemampuan agen suara"
+          ],
+          "tryFeature": "Coba Fitur Ini",
+          "watchDemo": "Tonton Demo"
+        },
+        "advancedAI": {
+          "title": "Kecerdasan AI Generasi Berikutnya",
+          "subtitle": "Fitur AI tingkat lanjut untuk pengalaman yang dipersonalisasi",
+          "features": [
+            "Generasi Augmented Retrieval (RAG)",
+            "Sistem memori pengguna jangka panjang",
+            "Respons kontekstual yang peka waktu",
+            "Ekstraksi konteks cerdas",
+            "Hasil obrolan yang direferensikan",
+            "Penyempurnaan basis pengetahuan"
+          ],
+          "tryDemo": "Coba Demo AI Tingkat Lanjut",
+          "watchAI": "Tonton AI Beraksi"
+        },
+        "knowledgeBase": {
+          "title": "Pusat Pengetahuan Komprehensif",
+          "subtitle": "Unggah 30+ jenis file untuk respons AI instan",
+          "features": [
+            "Dukungan PDF, Excel, CSV, Word",
+            "Penyerapan konten situs web",
+            "Pemrosesan gambar dan video",
+            "Pemformatan respons kaya",
+            "Konten yang diperbarui secara otomatis",
+            "Kontrol versi"
+          ],
+          "tryFeature": "Coba Fitur Ini",
+          "watchDemo": "Tonton Demo"
+        },
+        "integrations": {
+          "title": "Integrasi Canggih",
+          "subtitle": "Terhubung dengan alat dan platform favorit Anda",
+          "features": [
+            "Integrasi CRM (Salesforce, HubSpot)",
+            "Pemesanan kalender (Google, Outlook)",
+            "Platform e-commerce",
+            "Alat pemasaran",
+            "Akses API kustom",
+            "Dukungan Webhook"
+          ],
+          "tryFeature": "Coba Fitur Ini",
+          "watchDemo": "Tonton Demo"
+        }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "Generasi Augmented Retrieval",
+            "description": "Pencarian Kata Kunci, Vektor, dan Hibrida untuk pengambilan informasi yang tepat",
+            "details": {
+              "0": "Pencarian vektor semantik",
+              "1": "Pencocokan kata kunci",
+              "2": "Algoritma pencarian hibrida",
+              "3": "Pengindeksan konten real-time"
+            }
+          },
+          "memory": {
+            "title": "Memori Jangka Panjang",
+            "description": "Pengalaman yang dipersonalisasi melalui memori pengguna yang persisten",
+            "details": {
+              "0": "Pelacakan preferensi pengguna",
+              "1": "Analisis riwayat percakapan",
+              "2": "Pengenalan pola perilaku",
+              "3": "Kontinuitas lintas sesi"
+            }
+          },
+          "timeAware": {
+            "title": "Kesadaran Waktu",
+            "description": "Respons peka konteks berdasarkan waktu dan zona waktu saat ini",
+            "details": {
+              "0": "Integrasi stempel waktu real-time",
+              "1": "Penjadwalan yang peka zona waktu",
+              "2": "Rekomendasi peka waktu",
+              "3": "Optimalisasi jam kerja"
+            }
+          },
+          "contextExtraction": {
+            "title": "Ekstraksi Konteks",
+            "description": "Pemetaan bidang cerdas untuk pemahaman pengguna yang lebih baik",
+            "details": {
+              "0": "Definisi bidang kustom",
+              "1": "Ekstraksi data otomatis",
+              "2": "Preferensi bahasa pengguna",
+              "3": "Pembangunan konteks dinamis"
+            }
+          },
+          "referencedResults": {
+            "title": "Hasil yang Direferensikan",
+            "description": "Respons AI transparan dengan kutipan sumber",
+            "details": {
+              "0": "Penautan dokumen sumber",
+              "1": "Pelacakan kutipan",
+              "2": "Penilaian kepercayaan",
+              "3": "Verifikasi fakta"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "Penyempurnaan Pengetahuan",
+            "description": "Peningkatan berkelanjutan akurasi basis pengetahuan",
+            "details": {
+              "0": "Konten yang diperbarui secara otomatis",
+              "1": "Penilaian kualitas",
+              "2": "Optimalisasi relevansi",
+              "3": "Analitik kinerja"
+            }
+          }
+        }
+      }
+    },
+    "omnichannelDemo": {
+      "title": "Sebarkan di Mana Pun Pelanggan Anda Berada",
+      "subtitle": "Hubungkan semua titik kontak pelanggan Anda di seluruh situs web, media sosial, dan platform komunikasi dengan mulus. Arahkan kursor ke setiap saluran untuk melihat metrik kinerja real-time.",
+      "messagesPerDay": "Pesan/hari",
+      "responseTime": "Waktu respons",
+      "keyFeatures": "Fitur Utama",
+      "integrateChannel": "Integrasikan",
+      "channels": {
+        "website": {
+          "name": "Situs Web",
+          "description": "Widget universal yang berfungsi di situs web HTML apa pun"
+        },
+        "whatsapp": {
+          "name": "WhatsApp",
+          "description": "Terhubung dengan pelanggan di aplikasi perpesanan paling populer di dunia"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "description": "Kelola DM Instagram dan balasan cerita dalam satu kotak masuk terpadu"
+        },
+        "facebook": {
+          "name": "Facebook",
+          "description": "Berikan dukungan pelanggan melalui platform perpesanan Facebook"
+        },
+        "line": {
+          "name": "LINE",
+          "description": "Terhubung dengan pelanggan di platform perpesanan Asia yang populer"
+        },
+        "phone": {
+          "name": "Panggilan Telepon",
+          "description": "Tangani dukungan suara dengan agen suara AI"
+        },
+        "email": {
+          "name": "Email",
+          "description": "Kelola tiket email dengan perutean cerdas"
+        },
+        "ecommerce": {
+          "name": "E-commerce",
+          "description": "Integrasikan dengan toko online untuk manajemen pesanan"
+        }
+      },
+      "platformCategories": {
+        "website": {
+          "title": "Integrasi Situs Web",
+          "description": "Sebarkan di platform situs web apa pun dengan widget universal kami"
+        },
+        "socialMedia": {
+          "title": "Media Sosial",
+          "description": "Terhubung dengan pelanggan di platform sosial favorit mereka"
+        },
+        "traditional": {
+          "title": "Saluran Tradisional",
+          "description": "Pertahankan dukungan melalui metode komunikasi klasik"
+        }
+      },
+      "quickSetup": {
+        "title": "Siap untuk Menyebarkan di Mana Saja?",
+        "subtitle": "Mulai dalam hitungan menit dengan proses integrasi sederhana kami",
+        "steps": [
+          {
+            "title": "Pilih Saluran Anda",
+            "description": "Pilih dari 8+ opsi penyebaran"
+          },
+          {
+            "title": "Salin & Tempel Kode",
+            "description": "Instalasi widget sederhana"
+          },
+          {
+            "title": "Mulai Mengobrol",
+            "description": "Mulai mendukung pelanggan secara instan"
+          }
+        ],
+        "button": "Mulai Penyebaran Gratis"
+      }
+    },
+    "pricing": {
+      "title": "Harga yang Tumbuh Bersama Anda",
+      "subtitle": "Mulai sepenuhnya gratis dengan agen manusia, lalu tambahkan AI saat Anda siap untuk berkembang.",
+      "monthly": "Bulanan",
+      "yearly": "Tahunan",
+      "save": "Hemat 20%",
+      "customize": "Sesuaikan Paket Anda",
+      "chatVolume": "Volume Obrolan Bulanan",
+      "agents": "Jumlah Agen",
+      "plans": {
+        "free": {
+          "name": "Benar-benar Gratis",
+          "tagline": "Rasakan uji coba fitur-fitur canggih",
+          "description": "Sempurna untuk memulai dengan agen manusia",
+          "features": {
+            "humanAgent": "1 agen manusia",
+            "unlimitedHumanChats": "Obrolan agen manusia tanpa batas",
+            "unlimitedContacts": "Kontak tanpa batas",
+            "unlimitedHistory": "Riwayat obrolan tanpa batas",
+            "exportHistory": "Kebebasan untuk mengekspor riwayat obrolan",
+            "channels": "Saluran: WhatsApp Messenger, widget obrolan",
+            "integrations": "Integrasi: Wix, WordPress, Shopify, Make.com, Squarespace",
+            "aiAgent": "Agen AI dengan 100 balasan AI seumur hidup:",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "Basis pengetahuan mencakup 20 dokumen (maks 200KB) dan 250 ribu token",
+            "workspace": "1 ruang kerja"
+          },
+          "buttonText": "Mulai Gratis"
+        },
+        "premium": {
+          "name": "Premium",
+          "tagline": "Tambahkan Lebih Banyak Agen AI dan File Pengetahuan",
+          "description": "Skalakan dukungan Anda dengan AI otomatisasi",
+          "month": "bulan",
+          "year": "tahun",
+          "year_description": "Hemat 2 bulan setiap tahun",
+          "features": {
+            "humanAgents": "4 pengguna manusia (pengguna manusia tambahan berharga $10/bulan)",
+            "humanAgentPermission": "Dukungan izin agen manusia",
+            "assignAgent": "Tetapkan agen manusia ke percakapan individu",
+            "unreadCounter": "Penghitung pesan belum dibaca untuk setiap agen manusia",
+            "transferToHuman": "Transfer langsung dari agen AI ke agen manusia",
+            "transferToAI": "Transfer langsung dari agen manusia ke agen AI",
+            "unlimitedHumanChats": "Obrolan agen manusia tanpa batas",
+            "unlimitedContacts": "Kontak tanpa batas",
+            "unlimitedHistory": "Riwayat obrolan tanpa batas",
+            "exportHistory": "Kebebasan untuk mengekspor riwayat obrolan",
+            "channels": "Saluran tambahan: Line, Panggilan, Panggilan Telepon",
+            "integrations": "Integrasi tambahan: Google Calendar untuk pemesanan rapat otomatis",
+            "aiAgents": "10 agen AI, dengan setiap agen memiliki:",
+            "aiModels": "Model ChatGPT-4o dan Mistral",
+            "knowledgeBase": "Basis pengetahuan mencakup hingga 1000 dokumen (10 MB per dokumen) dan 5 juta token",
+            "chatSummary": "Ringkasan obrolan dan notifikasi via email",
+            "agentPrivacy": "Kontrol privasi agen",
+            "contactCapture": "Pengambilan kontak pengguna via formulir kustom",
+            "chatCost": "Agen AI obrolan mulai dari $0.006 per respons",
+            "voiceCost": "Agen AI suara melalui panggilan telepon mulai dari $0.12 per menit",
+            "workspaces": "2 ruang kerja (ruang kerja tambahan berharga $15/bulan)",
+            "knowledgeBaseFeatures": "Basis Pengetahuan:",
+            "advancedSearch": "Pencarian dokumen tingkat lanjut - kata kunci, vektor, hibrida",
+            "fileTypes": "20+ jenis file didukung, dengan optimasi pada spreadsheet",
+            "automationFeatures": "Otomatisasi:",
+            "autoLabel": "Secara otomatis melabeli percakapan dengan label yang ditentukan pengguna",
+            "builtInActions": "Tindakan bawaan yang dipicu oleh pelabelan otomatis: SMS, Email",
+            "externalAPI": "Panggilan API eksternal sebagai pemicu dan tindakan",
+            "voiceAgentFeatures": "Agen AI Suara:",
+            "voiceMessages": "Dukungan pesan suara di Messenger, WhatsApp, Line",
+            "phoneCalls": "Dukungan percakapan panggilan telepon 2 arah",
+            "callDirection": "Dukungan panggilan masuk dan keluar",
+            "transferAgent": "Transfer ke agen manusia",
+            "callForwarding": "Penerusan panggilan didukung",
+            "sttLanguages": "10+ bahasa Speech-To-Text",
+            "ttsLanguages": "10+ bahasa Text-To-Speech dengan suara dari Azure, ElevenLabs, OpenAI",
+            "callRecording": "Perekaman dan ringkasan panggilan",
+            "callNotification": "Notifikasi panggilan via email",
+            "formTrackers": "Atur pelacak formulir dari percakapan",
+            "slotExtractors": "Ekstraktor slot dari percakapan",
+            "timezoneFeatures": "Kesadaran waktu lokal dengan dukungan zona waktu, untuk:",
+            "businessHours": "jam kerja",
+            "appointmentBooking": "pemesanan janji temu",
+            "humanAgent": "4 pengguna manusia (pengguna manusia tambahan berharga $10/bulan)",
+            "supportHumanAgent": "Dukungan izin agen manusia",
+            "liveTransferToHuman": "Transfer langsung dari agen AI ke agen manusia",
+            "liveTransferToAI": "Transfer langsung dari agen manusia ke agen AI",
+            "additionalChannels": "Saluran tambahan: Line, Panggilan, Panggilan Telepon",
+            "additionalIntegrations": "Integrasi tambahan: Google Calendar untuk pemesanan rapat otomatis",
+            "knowledgeBaseTitle": "Basis Pengetahuan:",
+            "automationTitle": "Otomatisasi:",
+            "voiceAgentsTitle": "Agen AI Suara:",
+            "timezoneTitle": "Kesadaran waktu lokal dengan dukungan zona waktu, untuk:"
+          },
+          "buttonText": "Mulai Premium",
+          "badge": "Paling Populer"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "tagline": "Sesuaikan agen AI eksklusif Anda",
+          "description": "Solusi kustom untuk organisasi besar",
+          "features": {
+            "premiumIncluded": "Semua yang ada di paket Premium",
+            "customBuild": "Bangunan kustom",
+            "multipleWorkspaces": "Beberapa ruang kerja - sempurna untuk agensi",
+            "workspaceAgents": "Setiap ruang kerja memiliki beberapa agen AI dan nomor telepon",
+            "gpt4oRealtimeAPI": "Akses ke API Realtime GPT-4o",
+            "customAPI": "Integrasi API kustom",
+            "fineTuning": "Penyetelan halus dengan pedoman dan dukungan teknis Anda"
+          },
+          "buttonText": "Hubungi Kami"
+        }
+      },
+      "billing": {
+        "monthly": "Bulanan",
+        "yearly": "Tahunan",
+        "year": "tahun",
+        "month": "bulan",
+        "save": "Hemat 2 bulan dibandingkan tagihan bulanan"
+      },
+      "calculator": {
+        "title": "Kalkulator Penggunaan Paket & Model",
+        "description": "Perkirakan biaya Anda berdasarkan pola penggunaan Anda",
+        "modelSelect": "Pilih Model AI",
+        "priceBreakdown": "Rincian Biaya",
+        "licenseYearly": "Biaya lisensi (hemat 2 bulan):",
+        "licenseFee": "Biaya lisensi:",
+        "usageCost": "Biaya penggunaan:",
+        "usageCostYearly": "Biaya penggunaan (12 bulan):",
+        "addOnsCost": "Biaya add-on:",
+        "addOnsCostYearly": "Biaya add-on (12 bulan):",
+        "totalPerYear": "Total per tahun:",
+        "totalPerMonth": "Total per bulan:",
+        "averagePerMonth": "Rata-rata per bulan:",
+        "aiUsage": "Penggunaan AI (Bayar sesuai penggunaan)",
+        "chatResponses": "Respons Obrolan Bulanan:",
+        "voiceMinutes": "Menit Suara Bulanan:",
+        "voiceMinutesNote": "Hanya USA/Kanada",
+        "chatCost": "Biaya Obrolan",
+        "voiceCost": "Biaya Suara",
+        "additionalResources": "Sumber Daya Tambahan",
+        "humanAgents": "Agen Manusia:",
+        "aiAgents": "Agen AI:",
+        "workspaces": "Ruang Kerja:",
+        "included": "Termasuk:",
+        "extra": "Ekstra:",
+        "disclaimer": "Biaya penggunaan dihitung berdasarkan konsumsi aktual. Paket Premium mencakup:",
+        "disclaimerDetails": "Biaya lisensi + Penggunaan AI (bayar sesuai penggunaan) + Sumber daya tambahan di luar batas yang termasuk.",
+        "planIncludes": "Paket Premium Mencakup:",
+        "planIncludesHuman": "4 Human Agents",
+        "planIncludesAI": "10 AI Agents",
+        "planIncludesWorkspaces": "2 Workspaces",
+        "perChatResponse": "per respons obrolan",
+        "perVoiceMinute": "per menit suara",
+        "voiceOnly": "Model hanya suara",
+        "voicePricing": "Harga suara",
+        "standardVoice": "Suara Standar",
+        "premiumVoice": "Suara Premium",
+        "placeholderText": "Placeholder"
+      },
+      "note": "Harga dalam USD. Harga panggilan suara bervariasi berdasarkan negara dan harga yang tercantum adalah untuk Amerika Serikat dan Kanada. Untuk negara lain, silakan hubungi kami.",
+      "comparison": {
+        "title": "Bandingkan Semua Fitur",
+        "subtitle": "Lihat dengan tepat apa yang termasuk dalam setiap paket",
+        "featuresTitle": "Fitur",
+        "trulyFree": "Benar-benar Gratis",
+        "premium": "Premium",
+        "enterprise": "Enterprise",
+        "humanAgents": "Agen Manusia",
+        "aiAgents": "Agen AI",
+        "aiModels": "Model AI",
+        "knowledgeBase": "Basis Pengetahuan",
+        "voiceAI": "Agen AI Suara",
+        "phoneCalls": "Panggilan Telepon",
+        "automation": "Otomatisasi",
+        "apiIntegration": "Integrasi API",
+        "workspaces": "Ruang Kerja",
+        "support": "Dukungan",
+        "features": {
+          "humanAgents": {
+            "free": "1 agen",
+            "premium": "4 pengguna",
+            "enterprise": "Tidak terbatas"
+          },
+          "aiAgents": {
+            "free": "1 agen (100 balasan)",
+            "premium": "10 agen (tidak terbatas)",
+            "enterprise": "Bangunan kustom"
+          },
+          "aiModels": {
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o, Mistral",
+            "enterprise": "Model tingkat lanjut"
+          },
+          "knowledgeBase": {
+            "free": "20 dokumen (200KB)",
+            "premium": "5000 dokumen (masing-masing 10MB)",
+            "enterprise": "Tidak terbatas"
+          },
+          "voiceAI": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
+          },
+          "phoneCalls": {
+            "free": "❌",
+            "premium": "✅ Masuk/Keluar",
+            "enterprise": "✅"
+          },
+          "automation": {
+            "free": "❌",
+            "premium": "✅ Tingkat Lanjut",
+            "enterprise": "✅ Kustom"
+          },
+          "apiIntegration": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ Kustom"
+          },
+          "workspaces": {
+            "free": "1",
+            "premium": "2 ($15 setiap tambahan)",
+            "enterprise": "Beberapa"
+          },
+          "support": {
+            "free": "Komunitas",
+            "premium": "Email + Telepon",
+            "enterprise": "Teknis khusus"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Butuh Sesuatu yang Kustom?",
+        "description": "Kami menawarkan solusi perusahaan kustom termasuk penyebaran di tempat, fitur keamanan tingkat lanjut, dan tim dukungan khusus.",
+        "contactSales": "Hubungi Tim Penjualan"
+      },
+      "faq": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "question1": "Apakah paket gratis benar-benar gratis selamanya?",
+        "answer1": "Ya! Paket Benar-benar Gratis kami mencakup 1 agen manusia seumur hidup dengan percakapan, riwayat obrolan, dan kontak tanpa batas. Ditambah, Anda mendapatkan 1 agen AI dengan 100 balasan AI seumur hidup untuk mencoba fitur AI kami. Tidak perlu kartu kredit, tanpa biaya tersembunyi.",
+        "question2": "Apa perbedaan antara tagihan bulanan dan tahunan?",
+        "answer2": "Dengan tagihan tahunan, Anda menghemat 2 bulan pada paket Premium ($299/tahun vs $359.88/tahun jika dibayar bulanan). Siklus tagihan hanya memengaruhi paket Premium - paket Gratis selalu gratis dan Enterprise memiliki harga kustom.",
+        "question3": "Bisakah saya meningkatkan atau menurunkan paket saya kapan saja?",
+        "answer3": "Tentu saja! Anda dapat mengubah paket Anda kapan saja. Peningkatan berlaku segera, dan penurunan berlaku pada akhir siklus tagihan Anda saat ini.",
+        "question4": "Apa yang terjadi jika saya melebihi batas balasan AI saya di paket Gratis?",
+        "answer4": "Paket Gratis mencakup 100 balasan AI seumur hidup. Setelah Anda mencapai batas ini, Anda perlu meningkatkan ke Premium untuk respons AI tanpa batas. Fungsionalitas agen manusia Anda tetap tidak terbatas di semua paket.",
+        "question5": "Bagaimana cara kerja harga paket Premium?",
+        "answer5": "Premium memiliki dua komponen: biaya lisensi ($29.99/bulan atau $299/tahun) ditambah harga berbasis penggunaan. Penggunaan mencakup respons AI mulai dari $0.006 masing-masing (ChatGPT-4o mini) dan panggilan suara seharga $0.12/menit. Pengguna manusia tambahan berharga $10/bulan masing-masing, dan ruang kerja tambahan berharga $15/bulan masing-masing.",
+        "question6": "Apa yang terjadi pada data saya jika saya membatalkan?",
+        "answer6": "Anda memiliki data Anda. Anda dapat mengekspor semua riwayat obrolan, kontak, dan konten basis pengetahuan Anda kapan saja, bahkan di paket gratis. Kami percaya pada kebebasan dan transparansi data.",
+        "question7": "Do you offer custom pricing for large enterprises?",
+        "answer7": "Yes! Our Enterprise plan offers custom builds, multiple AI services perfect for agencies, custom API integrations, and professional design guidelines with technical support. Contact our sales team for a personalized quote."
+      },
+      "cta": {
+        "title": "Your AI Chat Revolution",
+        "subtitle": "Starts Right Now!",
+        "description": "Join 100,000+ businesses already using SeaChat to deliver exceptional customer experiences across all messaging channels",
+        "stats": {
+          "messages": "100K+",
+          "messagesLabel": "Messages Daily",
+          "uptime": "99.9%",
+          "uptimeLabel": "Uptime Guarantee",
+          "channels": "15+",
+          "channelsLabel": "Channels Supported",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "Compliant & Secure"
+        },
+        "startFree": "START TRULY FREE FIRST",
+        "bookDemo": "Book Live Demo",
+        "badges": {
+          "noCoding": "No Coding Required",
+          "freePlan": "Free Forever Plan",
+          "cancelAnytime": "Cancel Anytime",
+          "support": "24/7 Support"
+        },
+        "urgency": "Limited Time: Get 2 months free on annual plans + priority onboarding support!",
+        "limitedTime": "Limited Time:"
+      }
+    },
+    "knowledgeBase": {
+      "title": "Powerful Knowledge Base",
+      "subtitle": "Upload 30+ file types and let AI provide rich, contextual responses with cards, buttons, images, and videos.",
+      "supportedFormats": {
+        "title": "Supported File Types",
+        "formats": {
+          "pdf": {
+            "name": "PDF Documents",
+            "count": "15 files"
+          },
+          "excel": {
+            "name": "Excel Sheets",
+            "count": "8 files"
+          },
+          "word": {
+            "name": "Word Documents",
+            "count": "12 files"
+          },
+          "images": {
+            "name": "Images",
+            "count": "25 images"
+          },
+          "websites": {
+            "name": "Websites",
+            "count": "5 sites"
+          },
+          "videos": {
+            "name": "Videos",
+            "count": "3 videos"
+          }
+        },
+        "richResponse": {
+          "title": "Rich Response Formatting:",
+          "features": [
+            "Interactive Cards",
+            "Action Buttons",
+            "Embedded Images",
+            "Video Responses"
+          ]
+        },
+        "addDocuments": "Add Your Documents"
+      },
+      "uploadModal": {
+        "title": "Upload Your Documents",
+        "dropzone": {
+          "title": "Drop your files here",
+          "description": "Support for PDF, Word, Excel, images, videos, and more",
+          "button": "Choose Files"
+        },
+        "demoFiles": [
+          "sample_manual.pdf",
+          "product_data.xlsx",
+          "brand_guide.jpg"
+        ],
+        "close": "Close Demo"
+      }
+    },
+    "useCases": {
+      "title": "Success Stories Across Industries",
+      "subtitle": "See how businesses transform their customer support with SeaChat's human-AI hybrid approach.",
+      "cases": {
+        "ecommerce": {
+          "title": "E-commerce Support Revolution",
+          "industry": "Retail",
+          "challenge": "Managing 500+ daily customer inquiries across multiple channels with limited staff",
+          "solution": "Deployed SeaChat with AI agents handling 70% of routine inquiries, human agents for complex issues",
+          "results": [
+            "60% reduction in response time",
+            "40% increase in customer satisfaction",
+            "75% cost savings on support operations"
+          ],
+          "metrics": {
+            "responseTime": "< 30s",
+            "satisfaction": "94%",
+            "cost": "-75%"
+          }
+        },
+        "healthcare": {
+          "title": "Healthcare Patient Support",
+          "industry": "Healthcare",
+          "challenge": "Providing 24/7 patient support while maintaining HIPAA compliance",
+          "solution": "Integrated secure AI agents with appointment booking and symptom pre-screening",
+          "results": [
+            "24/7 patient assistance",
+            "50% reduction in no-shows",
+            "100% HIPAA compliance maintained"
+          ],
+          "metrics": {
+            "availability": "24/7",
+            "noShows": "-50%",
+            "compliance": "100%"
+          }
+        },
+        "fintech": {
+          "title": "Financial Services Excellence",
+          "industry": "FinTech",
+          "challenge": "Handling sensitive financial queries with speed and security",
+          "solution": "Custom AI training on financial regulations with seamless human escalation",
+          "results": [
+            "90% first-contact resolution",
+            "3x faster query processing",
+            "Enhanced security protocols"
+          ],
+          "metrics": {
+            "resolution": "90%",
+            "speed": "3x",
+            "security": "Enhanced"
+          }
+        }
+      },
+      "cta": {
+        "title": "Ready to Transform Your Support?",
+        "description": "Join hundreds of businesses already using SeaChat to deliver exceptional customer experiences.",
+        "buttons": {
+          "viewCases": "View All Case Studies",
+          "startStory": "Start Your Success Story"
+        },
+        "signUpFree": "Sign Up For Free",
+        "bookDemo": "Book A Demo"
+      },
+      "labels": {
+        "challenge": "Challenge:",
+        "solution": "Solution:",
+        "resultsAchieved": "Results Achieved:"
+      },
+      "metrics": {
+        "responseTime": "Response Time",
+        "satisfaction": "Satisfaction",
+        "cost": "Cost",
+        "availability": "Availability",
+        "noShows": "No-Shows",
+        "compliance": "Compliance",
+        "resolution": "Resolution",
+        "speed": "Speed",
+        "security": "Security"
+      }
+    },
+    "testimonials": {
+      "title": "Loved by Support Teams Worldwide",
+      "subtitle": "Don't just take our word for it. Here's what our customers say about transforming their support with SeaChat.",
+      "navigation": {
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "trustedBy": "Trusted by innovative companies worldwide",
+      "stats": {
+        "customers": "10,000+ Happy Customers",
+        "uptime": "99.9% Uptime",
+        "messages": "50M+ Messages Processed",
+        "rating": "4.9/5 Customer Rating"
+      },
+      "testimonials": {
+        "0": {
+          "name": "Sarah Chen",
+          "title": "Customer Success Director",
+          "company": "TechFlow Solutions",
+          "quote": "SeaChat transformed our support operations. Starting with free human agents was perfect for our startup, and scaling with AI has been seamless. Our response times improved by 70%.",
+          "metrics": {
+            "improvement": "70%",
+            "feature": "Response Time"
+          }
+        },
+        "1": {
+          "name": "Marcus Rodriguez",
+          "title": "Operations Manager",
+          "company": "EcoCommerce",
+          "quote": "The knowledge base feature is incredible. We uploaded our entire product catalog and FAQs, and the AI now handles 80% of customer queries with perfect accuracy.",
+          "metrics": {
+            "improvement": "80%",
+            "feature": "Query Resolution"
+          }
+        },
+        "2": {
+          "name": "Emily Watson",
+          "title": "Head of Customer Experience",
+          "company": "HealthTech Pro",
+          "quote": "The omnichannel integration is flawless. Our customers can start a conversation on WhatsApp and continue on our website without losing context. Game-changing!",
+          "metrics": {
+            "improvement": "95%",
+            "feature": "Customer Satisfaction"
+          }
+        },
+        "3": {
+          "name": "David Park",
+          "title": "Founder & CEO",
+          "company": "StartupFlow",
+          "quote": "As a bootstrap startup, the free plan was a lifesaver. We provided professional support from day one without any upfront costs. Now we're happily paying for AI features as we scale.",
+          "metrics": {
+            "improvement": "$0",
+            "feature": "Initial Cost"
+          }
+        },
+        "4": {
+          "name": "Lisa Thompson",
+          "title": "Support Team Lead",
+          "company": "GlobalRetail Inc",
+          "quote": "The human-AI handoff is so smooth that customers don't even notice when they're switched between AI and human agents. It's exactly what we needed for our complex support scenarios.",
+          "metrics": {
+            "improvement": "100%",
+            "feature": "Seamless Handoff"
+          }
+        }
+      }
+    },
+    "blog": {
+      "title": "Latest Insights & Resources",
+      "subtitle": "Stay ahead with expert insights on customer support trends, AI implementation strategies, and platform optimization tips.",
+      "categories": {
+        "all": "All",
+        "ai": "AI & Automation",
+        "strategy": "Strategy",
+        "integration": "Integration",
+        "knowledge": "Knowledge Management",
+        "success": "Customer Success"
+      },
+      "featured": "Featured",
+      "latest": "Recent Posts",
+      "readTime": "min read",
+      "stayUpdated": "Stay Updated",
+      "newsletterSubtitle": "Get the latest insights on AI customer support, platform updates, and industry best practices delivered to your inbox.",
+      "joinProfessionals": "Join 5,000+ support professionals. Unsubscribe anytime.",
+      "loading": "Loading blog posts...",
+      "loadingPost": "Loading article...",
+      "backToBlog": "Back to Blog",
+      "share": "Share",
+      "tags": "Tags",
+      "followLinkedIn": "Follow on LinkedIn",
+      "moreArticles": "More Articles",
+      "relatedArticles": "Related Articles",
+      "searchPlaceholder": "Search articles, topics, or tags...",
+      "articleCount": "article(s) found",
+      "noArticles": "No articles found",
+      "adjustSearch": "Try adjusting your search terms or category filter."
+    }
+  }
+}

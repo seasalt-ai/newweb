@@ -1,0 +1,403 @@
+{
+  "textToSpeech": {
+    "hero": {
+      "title": "Teknologi Teks-ke-Ucapan",
+      "subtitle": "Hasilkan ucapan seperti manusia dari teks dengan teknologi teks-ke-ucapan neural canggih kami. Buat suara kustom, dukung 40+ bahasa, dan berikan kualitas audio yang luar biasa.",
+      "cta": "Coba Generasi Suara"
+    },
+    "demo": {
+      "title": "Rasakan Teknologi Suara Kami",
+      "subtitle": "Coba suara yang berbeda dan dengarkan kualitasnya sendiri",
+      "chooseVoice": "Pilih suara:",
+      "textPrompt": "Masukkan teks untuk dikonversi ke ucapan:",
+      "defaultText": "Halo! Saya asisten suara AI yang didukung oleh teknologi SeaVoice. Saya dapat membantu Anda dengan layanan pelanggan, penjualan, dan dukungan dengan suara yang alami, seperti manusia.",
+      "placeholderText": "Ketik sesuatu agar AI kami mengatakannya...",
+      "generateSpeech": "Hasilkan Ucapan",
+      "playing": "Memutar..."
+    },
+    "voices": {
+      "sarah": {
+        "name": "Sarah",
+        "gender": "Wanita",
+        "accent": "Bahasa Inggris AS",
+        "description": "Profesional, hangat"
+      },
+      "tom": {
+        "name": "Tom",
+        "gender": "Pria",
+        "accent": "Bahasa Inggris AS",
+        "description": "Ramah, percakapan"
+      },
+      "lissa": {
+        "name": "Lissa",
+        "gender": "Wanita",
+        "accent": "Bahasa Inggris Inggris",
+        "description": "Enerjik, membantu"
+      },
+      "alex": {
+        "name": "Alex",
+        "gender": "Pria",
+        "accent": "Australia",
+        "description": "Jelas, percaya diri"
+      },
+      "maria": {
+        "name": "Maria",
+        "gender": "Wanita",
+        "accent": "Spanyol",
+        "description": "Ekspresif, alami"
+      },
+      "hiroshi": {
+        "name": "Hiroshi",
+        "gender": "Pria",
+        "accent": "Jepang",
+        "description": "Sopan, profesional"
+      }
+    },
+    "features": {
+      "title": "Generasi Suara Tingkat Lanjut",
+      "subtitle": "Jaringan neural canggih memberikan kualitas ucapan seperti manusia",
+      "customVoiceCloning": {
+        "title": "Kloning Suara Kustom",
+        "description": "Buat profil suara unik yang sesuai dengan kepribadian merek dan gaya bicara Anda.",
+        "capabilities": {
+          "voiceCloning": "Kloning suara dari sampel",
+          "brandVoiceConsistency": "Konsistensi suara merek",
+          "emotionalExpression": "Ekspresi emosional",
+          "customPronunciations": "Pelafalan kustom"
+        }
+      },
+      "advancedControls": {
+        "title": "Kontrol Tingkat Lanjut",
+        "description": "Sesuaikan setiap aspek generasi ucapan untuk output audio yang sempurna.",
+        "capabilities": {
+          "speedAdjustment": "Penyesuaian kecepatan",
+          "pitchControl": "Kontrol nada",
+          "emphasisPlacement": "Penempatan penekanan",
+          "pauseInsertion": "Penyisipan jeda"
+        }
+      },
+      "multiLanguageSupport": {
+        "title": "Dukungan Multi-Bahasa",
+        "description": "Hasilkan ucapan alami dalam 40+ bahasa dengan pelafalan asli.",
+        "capabilities": {
+          "fortyPlusLanguages": "40+ bahasa",
+          "regionalAccents": "Aksen regional",
+          "codeSwitching": "Pergantian kode",
+          "multilingualVoices": "Suara multibahasa"
+        }
+      }
+    },
+    "qualityMetrics": {
+      "title": "Metrik Kualitas Luar Biasa",
+      "subtitle": "Kinerja terukur yang memberikan hasil profesional",
+      "naturalness": {
+        "metric": "Skor Kealamian",
+        "value": "4.8/5",
+        "description": "Peringkat evaluasi manusia"
+      },
+      "intelligibility": {
+        "metric": "Keterbacaan",
+        "value": "99.2%",
+        "description": "Akurasi pengenalan kata"
+      },
+      "latency": {
+        "metric": "Latensi",
+        "value": "< 200ms",
+        "description": "Generasi teks ke audio"
+      },
+      "audioQuality": {
+        "metric": "Kualitas Audio",
+        "value": "48kHz",
+        "description": "Output fidelitas tinggi"
+      }
+    },
+    "useCases": {
+      "title": "Aplikasi Serbaguna",
+      "subtitle": "Ubah teks menjadi ucapan di seluruh industri dan kasus penggunaan",
+      "customerService": {
+        "title": "Layanan Pelanggan",
+        "description": "Berikan respons suara yang konsisten dan profesional untuk interaksi pelanggan.",
+        "benefits": {
+          "availability": "Ketersediaan 24/7",
+          "consistentQuality": "Kualitas konsisten",
+          "multiLanguageSupport": "Dukungan multibahasa",
+          "brandVoiceAlignment": "Penyelarasan suara merek"
+        }
+      },
+      "contentCreation": {
+        "title": "Pembuatan Konten",
+        "description": "Hasilkan sulih suara untuk video, podcast, dan konten multimedia.",
+        "benefits": {
+          "costEffectiveProduction": "Produksi hemat biaya",
+          "quickTurnaround": "Waktu penyelesaian cepat",
+          "multipleVoiceOptions": "Beberapa opsi suara",
+          "easyRevisions": "Revisi mudah"
+        }
+      },
+      "accessibility": {
+        "title": "Aksesibilitas",
+        "description": "Buat konten dapat diakses dengan teks-ke-ucapan berkualitas tinggi untuk pengguna tunanetra.",
+        "benefits": {
+          "screenReaderEnhancement": "Peningkatan pembaca layar",
+          "documentNarration": "Narasi dokumen",
+          "webAccessibility": "Aksesibilitas web",
+          "educationalSupport": "Dukungan pendidikan"
+        }
+      },
+      "interactiveApplications": {
+        "title": "Aplikasi Interaktif",
+        "description": "Tambahkan kemampuan suara ke aplikasi, game, dan pengalaman interaktif.",
+        "benefits": {
+          "realTimeGeneration": "Generasi real-time",
+          "dynamicContent": "Konten dinamis",
+          "userEngagement": "Keterlibatan pengguna",
+          "immersiveExperiences": "Pengalaman imersif"
+        }
+      }
+    },
+    "voiceCloning": {
+      "title": "Kloning Suara Kustom",
+      "subtitle": "Buat profil suara unik yang sangat cocok dengan kepribadian merek Anda. Teknologi kloning suara canggih kami dapat mereplikasi gaya bicara, aksen, dan ekspresi emosional hanya dengan beberapa menit audio sampel.",
+      "brandVoiceConsistency": {
+        "title": "Konsistensi Suara Merek",
+        "description": "Pertahankan suara merek yang konsisten di semua interaksi"
+      },
+      "fineTunedControl": {
+        "title": "Kontrol yang Disempurnakan",
+        "description": "Sesuaikan nada, kecepatan, dan ekspresi emosional"
+      },
+      "highFidelityOutput": {
+        "title": "Output Fidelitas Tinggi",
+        "description": "Audio berkualitas profesional untuk aplikasi apa pun"
+      },
+      "process": {
+        "title": "Proses Kloning Suara",
+        "step1": {
+          "title": "Unggah Sampel Audio",
+          "description": "Sediakan 5-10 menit rekaman audio bersih"
+        },
+        "step2": {
+          "title": "Pelatihan AI",
+          "description": "Jaringan neural kami mempelajari karakteristik suara unik Anda"
+        },
+        "step3": {
+          "title": "Generasi Suara",
+          "description": "Hasilkan ucapan tanpa batas dengan suara kustom Anda"
+        }
+      }
+    },
+    "cta": {
+      "title": "Siap Memberi Suara pada Merek Anda?",
+      "subtitle": "Buat suara kustom dan hasilkan ucapan berkualitas profesional untuk aplikasi apa pun",
+      "startVoiceCloning": "Mulai Kloning Suara",
+      "exploreApi": "Jelajahi API"
+    }
+  },
+  "components": {
+    "aiVoiceAvatar": {
+      "badge": {
+        "label": "Avatar AI Interaktif"
+      },
+      "hero": {
+        "title": {
+          "line1": "Temui",
+          "line2": "Agen Suara AI Anda"
+        },
+        "subtitle": "Rasakan masa depan komunikasi AI. Avatar kami menunjukkan percakapan seperti manusia dengan kecerdasan emosional dan beberapa opsi kepribadian."
+      },
+      "voices": {
+        "professional": {
+          "name": "Sarah Profesional",
+          "description": "Suara bisnis yang jelas, berwibawa"
+        },
+        "friendly": {
+          "name": "Mike Ramah",
+          "description": "Layanan pelanggan yang hangat, mudah didekati"
+        },
+        "empathetic": {
+          "name": "Emma Peduli",
+          "description": "Suara layanan kesehatan yang penuh kasih"
+        }
+      },
+      "languages": {
+        "english": "Inggris",
+        "spanish": "Spanyol",
+        "french": "Prancis",
+        "german": "Jerman",
+        "chinese": "Cina"
+      },
+      "demoScripts": {
+        "professional": "Halo, saya Sarah, asisten bisnis AI Anda. Saya dapat menangani pertanyaan pelanggan, menjadwalkan janji temu, dan memberikan informasi produk terperinci dengan presisi dan kejelasan.",
+        "friendly": "Hai! Saya Mike, dan saya di sini untuk membuat pengalaman Anda luar biasa. Baik Anda butuh bantuan dengan pesanan atau hanya punya pertanyaan singkat, saya senang mengobrol!",
+        "empathetic": "Halo, saya Emma. Saya memahami bahwa pertanyaan layanan kesehatan bisa membuat stres, dan saya di sini untuk memberikan dukungan yang penuh perhatian dan akurat kapan pun Anda membutuhkannya."
+      },
+      "controls": {
+        "voicePersonality": "Pilih Kepribadian Suara:",
+        "language": "Bahasa:",
+        "demoVoice": "Demo Suara",
+        "tryVoiceInput": "Coba Input Suara"
+      },
+      "status": {
+        "listening": "Mendengarkan...",
+        "speaking": "Berbicara...",
+        "ready": "Siap",
+        "label": "Status:"
+      },
+      "listeningResponse": "Saya mendengar Anda! Di sinilah saya akan menanggapi input suara Anda dengan pemahaman kontekstual.",
+      "avatarMoods": {
+        "neutral": "netral",
+        "speaking": "berbicara",
+        "listening": "mendengarkan",
+        "thinking": "berpikir"
+      }
+    }
+  },
+  "voiceConversationFlow": {
+    "steps": {
+      "callConnected": {
+        "title": "Panggilan Terhubung",
+        "description": "Pelanggan terhubung dengan bisnis Anda"
+      },
+      "listening": {
+        "title": "AI Mendengarkan",
+        "description": "Pengenalan ucapan canggih menangkap setiap kata"
+      },
+      "processing": {
+        "title": "AI Memproses",
+        "description": "Jaringan neural memahami niat dan konteks"
+      },
+      "responding": {
+        "title": "AI Menanggapi",
+        "description": "Suara seperti manusia memberikan respons yang sempurna"
+      }
+    },
+    "conversationTypes": {
+      "appointmentBooking": "Pemesanan Janji Temu",
+      "orderSupport": "Dukungan Pesanan",
+      "salesInquiry": "Pertanyaan Penjualan"
+    },
+    "conversations": {
+      "appointmentBooking": {
+        "customer": "Hai, saya ingin menjadwalkan janji temu untuk Selasa depan.",
+        "ai": "Saya akan dengan senang hati membantu Anda menjadwalkan janji temu. Biarkan saya memeriksa ketersediaan kami untuk Selasa depan. Jam berapa yang paling cocok untuk Anda?"
+      },
+      "orderSupport": {
+        "customer": "Saya mengalami masalah dengan pesanan terbaru saya. Belum tiba.",
+        "ai": "Saya memahami kekhawatiran Anda tentang pesanan Anda. Biarkan saya segera mencarinya untuk Anda. Bisakah Anda memberikan nomor pesanan Anda?"
+      },
+      "salesInquiry": {
+        "customer": "Bisakah Anda memberi tahu saya tentang paket harga Anda?",
+        "ai": "Tentu saja! Kami memiliki beberapa opsi harga untuk memenuhi kebutuhan yang berbeda. Paket dasar kami dimulai dari $29/bulan dan mencakup semua fitur inti. Apakah Anda ingin saya menjelaskan perbedaannya?"
+      }
+    },
+    "ui": {
+      "chooseConversationType": "Pilih Jenis Percakapan:",
+      "autoProgressing": "Maju otomatis melalui skenario...",
+      "liveConversation": "Percakapan Langsung:",
+      "speaking": "Berbicara...",
+      "aiSpeaking": "AI Berbicara...",
+      "aiThinking": "AI Berpikir...",
+      "processingContext": "Memproses konteks",
+      "accuracyRate": "Tingkat Akurasi"
+    }
+  },
+  "// Large Scale Campaigns Page - English key-value pairs": "",
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | Pusat Kontak Omni-Channel untuk Bisnis Kecil",
+      "description": "Berhenti menyulap aplikasi. Satukan setiap panggilan pelanggan, WhatsApp, dan obrolan dalam satu kotak masuk sederhana. Pusat kontak all-in-one yang dibangun untuk bisnis kecil.",
+      "keywords": "pusat kontak omni-channel, komunikasi bisnis kecil, kotak masuk terpadu, perangkat lunak layanan pelanggan, WhatsApp bisnis, panggilan suara, dukungan obrolan"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | Komunikasi Suara Bertenaga AI - Seasalt.ai",
+        "description": "Ubah komunikasi suara Anda dengan AI. SeaVoice menawarkan perutean panggilan cerdas, analitik suara, dan respons otomatis. Tangani panggilan pelanggan 24/7 dengan agen AI seperti manusia.",
+        "keywords": "suara AI, perangkat lunak pusat panggilan, analitik suara, SeaVoice, perutean panggilan cerdas, sistem telepon otomatis, asisten suara, layanan pelanggan 24/7"
+      },
+      "virtualAssistant": {
+        "title": "Asisten Virtual 24/7 | Solusi Suara AI SeaVoice - Seasalt.ai",
+        "description": "Berikan layanan pelanggan sepanjang waktu dengan Asisten Virtual AI SeaVoice. Agen suara cerdas menangani pertanyaan pelanggan, penjadwalan janji temu, dan permintaan dukungan, meningkatkan kepuasan sambil mengurangi biaya.",
+        "keywords": "asisten virtual, asisten suara AI, layanan pelanggan 24/7, layanan pelanggan cerdas, SeaVoice, otomatisasi suara, otomatisasi layanan pelanggan"
+      }
+    }
+  },
+  "// Key structure: seavoice": {
+    "pages": {
+      "solutions": {
+        "outbound": {
+          "largeScaleCampaigns": "",
+          "subscriptionRenewals": ""
+        }
+      }
+    }
+  },
+  "statsCounter": {
+    "section": {
+      "title": "Dipercaya oleh bisnis di seluruh dunia",
+      "subtitle": "Platform kami mendukung jutaan percakapan setiap hari"
+    },
+    "stats": {
+      "messages": {
+        "label": "Pesan Terkirim",
+        "suffix": " Juta+"
+      },
+      "calls": {
+        "label": "Panggilan Dilakukan",
+        "suffix": " Ribu+"
+      },
+      "uptime": {
+        "label": "Waktu Aktif Sistem",
+        "suffix": "%"
+      },
+      "countries": {
+        "label": "Negara yang Dilayani",
+        "suffix": "+"
+      },
+      "roi": {
+        "label": "Peningkatan ROI",
+        "suffix": "%"
+      }
+    },
+    "dashboard": {
+      "title": "Dasbor SeaX",
+      "messagesSent": "Pesan Terkirim",
+      "deliveryRate": "Tingkat Pengiriman",
+      "recentActivity": "Aktivitas Terbaru",
+      "demo": {
+        "messagesSent": "2.4 Juta",
+        "deliveryRate": "85%"
+      }
+    },
+    "activity": {
+      "flashSale": {
+        "title": "Kampanye Penjualan Kilat",
+        "detail": "50.000 SMS terkirim • 2 menit yang lalu"
+      },
+      "leadFollowup": {
+        "title": "Tindak Lanjut Prospek",
+        "detail": "12.000 panggilan selesai • 5 menit yang lalu"
+      },
+      "whatsapp": {
+        "title": "Kampanye WhatsApp",
+        "detail": "25.000 pesan antrean • 8 menit yang lalu"
+      }
+    },
+    "status": {
+      "liveRunning": "Kampanye langsung berjalan",
+      "liveActivity": "Aktivitas langsung: Pesan sedang dikirim sekarang"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "10 ribu+",
+      "callsMax": "5 ribu+",
+      "voicemailMax": "1 ribu+",
+      "whatsappMax": "10 ribu+"
+    },
+    "breakdown": {
+      "localPlus": "lokal +",
+      "tollFreeMinus": "bebas pulsa"
+    }
+  }
+}

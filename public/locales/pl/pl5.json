@@ -1,0 +1,656 @@
+{
+  "seachat": {
+    "features": {
+      "advancedAI": {
+        "title": "Zaawansowane funkcje AI",
+        "subtitle": "Sztuczna inteligencja nowej generacji z pamięcią, świadomością kontekstu i zaawansowanymi możliwościami rozumowania dla prawdziwie spersonalizowanych doświadczeń klienta.",
+        "exploreButton": "Poznaj zaawansowane AI",
+        "scheduleDemo": "Zaplanuj demo",
+        "capabilities": {
+          "title": "Najnowocześniejsze możliwości AI",
+          "subtitle": "Doświadcz przyszłości obsługi klienta dzięki naszym zaawansowanym funkcjom AI, które uczą się, zapamiętują i dostosowują."
+        },
+        "rag": {
+          "title": "Generowanie rozszerzone o wyszukiwanie (RAG)",
+          "description": "Zaawansowane możliwości wyszukiwania łączące wyszukiwanie słów kluczowych, wektorowe i hybrydowe dla precyzyjnego wyszukiwania informacji.",
+          "details": {
+            "semantic": "Semantyczne wyszukiwanie wektorowe dla zrozumienia kontekstowego",
+            "keyword": "Tradycyjne dopasowywanie słów kluczowych dla dokładnych zapytań",
+            "hybrid": "Algorytmy hybrydowe łączące oba podejścia",
+            "indexing": "Indeksowanie i aktualizacje treści w czasie rzeczywistym"
+          },
+          "sectionTitle": "Generowanie rozszerzone o wyszukiwanie",
+          "sectionSubtitle": "Zaawansowana technologia wyszukiwania, która łączy wiele podejść w celu najdokładniejszego wyszukiwania informacji.",
+          "keyword": "Wyszukiwanie słów kluczowych",
+          "keywordDesc": "Tradycyjne wyszukiwanie z dokładnym dopasowaniem dla precyzyjnych zapytań i konkretnych terminów.",
+          "vector": "Wyszukiwanie wektorowe",
+          "vectorDesc": "Semantyczne zrozumienie, które znajduje informacje istotne kontekstowo.",
+          "hybrid": "Wyszukiwanie hybrydowe",
+          "hybridDesc": "Najlepsze z obu światów, łączące precyzję słów kluczowych ze zrozumieniem semantycznym."
+        },
+        "memory": {
+          "title": "System pamięci długoterminowej",
+          "description": "Trwała pamięć użytkownika, która tworzy spersonalizowane doświadczenia we wszystkich interakcjach.",
+          "details": {
+            "preferences": "Śledzenie i przechowywanie preferencji użytkownika",
+            "history": "Analiza historii rozmów",
+            "patterns": "Rozpoznawanie wzorców zachowań",
+            "continuity": "Ciągłość między sesjami i kontekstem"
+          },
+          "sectionTitle": "Pamięć długoterminowa w akcji",
+          "sectionSubtitle": "Zobacz, jak nasza AI zapamiętuje i uczy się z każdej interakcji, aby zapewnić coraz bardziej spersonalizowane wsparcie.",
+          "fieldsTitle": "Pola ekstrakcji kontekstu",
+          "fieldsDescription": "Nasza AI automatycznie identyfikuje i przechowuje kluczowe informacje o każdym użytkowniku, tworząc bogate profile, które wzbogacają każdą przyszłą interakcję.",
+          "example": "Przykład",
+          "timeline": "Oś czasu pamięci",
+          "firstInteraction": "Pierwsza interakcja",
+          "firstInteractionDesc": "AI uczy się preferencji i kontekstu użytkownika",
+          "ongoingConversations": "Trwające rozmowy",
+          "ongoingConversationsDesc": "Stale aktualizuje profil użytkownika",
+          "returnVisits": "Powracające wizyty",
+          "returnVisitsDesc": "Zapewnia spersonalizowane, kontekstowe odpowiedzi"
+        },
+        "timeAwareness": {
+          "title": "Integracja świadomości czasu",
+          "description": "Odpowiedzi uwzględniające kontekst na podstawie aktualnego czasu, strefy czasowej i istotności czasowej.",
+          "details": {
+            "timestamp": "Integracja znaczników czasu w czasie rzeczywistym",
+            "timezone": "Planowanie i odpowiedzi uwzględniające strefy czasowe",
+            "recommendations": "Rekomendacje wrażliwe na czas",
+            "hours": "Optymalizacja godzin pracy"
+          }
+        },
+        "context": {
+          "title": "Inteligentna ekstrakcja kontekstu",
+          "description": "Inteligentne mapowanie pól i ekstrakcja danych dla lepszego zrozumienia użytkownika.",
+          "details": {
+            "fields": "Niestandardowe definicje i mapowanie pól",
+            "extraction": "Automatyczna ekstrakcja danych z rozmów",
+            "language": "Wykrywanie preferencji językowych użytkownika",
+            "dynamic": "Dynamiczne budowanie i aktualizacje kontekstu"
+          }
+        },
+        "references": {
+          "title": "Wyniki czatu z odniesieniami",
+          "description": "Przejrzyste odpowiedzi AI z cytatami źródłowymi i oceną pewności.",
+          "details": {
+            "linking": "Łączenie z dokumentami źródłowymi i cytatami",
+            "tracking": "Śledzenie i weryfikacja cytatów",
+            "confidence": "Ocena pewności dla odpowiedzi",
+            "verification": "Weryfikacja i walidacja faktów"
+          }
+        },
+        "knowledge": {
+          "title": "Udoskonalanie bazy wiedzy",
+          "description": "Ciągłe ulepszanie dokładności i trafności bazy wiedzy.",
+          "details": {
+            "updating": "Automatyczne aktualizowanie treści na podstawie interakcji",
+            "scoring": "Ocena jakości i ranking treści",
+            "relevance": "Algorytmy optymalizacji trafności",
+            "analytics": "Analityka wydajności i statystyki"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "Język_Użytkownika",
+            "description": "Zapamiętuje preferowany język komunikacji",
+            "example": "Klient preferuje odpowiedzi w języku hiszpańskim"
+          },
+          "product": {
+            "field": "Zainteresowanie_Produktem",
+            "description": "Śledzi kategorie produktów, którymi jest zainteresowany",
+            "example": "Zainteresowany rozwiązaniami oprogramowania premium"
+          },
+          "history": {
+            "field": "Historia_Wsparcia",
+            "description": "Utrzymuje kontekst poprzednich problemów",
+            "example": "Wcześniej miał rozwiązane pytania dotyczące rozliczeń"
+          },
+          "style": {
+            "field": "Styl_Komunikacji",
+            "description": "Dostosowuje się do preferowanego stylu interakcji",
+            "example": "Preferuje szczegółowe wyjaśnienia techniczne"
+          }
+        },
+        "cta": {
+          "title": "Doświadcz przyszłości AI",
+          "subtitle": "Gotowy, aby przekształcić obsługę klienta dzięki zaawansowanej AI, która zapamiętuje, uczy się i dostosowuje? Rozpocznij swoją podróż z naszą najnowocześniejszą technologią.",
+          "signUp": "Zarejestruj się za darmo",
+          "scheduleDemo": "Zaplanuj demo"
+        }
+      },
+      "aiAutomation": {
+        "title": "Automatyzacja AI",
+        "subtitle": "Skaluj obsługę klienta dzięki inteligentnej AI, która uczy się, dostosowuje i zapewnia natychmiastowe odpowiedzi, zachowując jednocześnie ludzki dotyk, gdy jest to potrzebne.",
+        "tryButton": "Wypróbuj automatyzację AI",
+        "featuresTitle": "Inteligentne funkcje AI",
+        "featuresSubtitle": "Nasza automatyzacja AI wykracza poza proste chatboty, aby zapewnić prawdziwie inteligentną obsługę klienta.",
+        "performanceTitle": "Automatyzacja, która naprawdę działa",
+        "performanceSubtitle": "Zobacz, jak nasza automatyzacja AI obsługuje różne typy zapytań klientów z imponującą dokładnością.",
+        "hybridTitle": "Idealna równowaga: AI + Człowiek",
+        "hybridSubtitle": "Nasze hybrydowe podejście łączy szybkość AI z empatią agentów ludzkich.",
+        "aiStrengthsTitle": "AI Automation wyróżnia się w",
+        "aiStrengths": [
+          "Natychmiastowe odpowiedzi na typowe pytania",
+          "Dostępność 24/7 bez przerw",
+          "Obsługa wielu rozmów jednocześnie",
+          "Spójna jakość usług",
+          "Wsparcie komunikacji wielojęzycznej",
+          "Szybki dostęp do informacji z bazy wiedzy"
+        ],
+        "humanStrengthsTitle": "Agenci ludzcy wyróżniają się w",
+        "humanStrengths": [
+          "Złożone rozwiązywanie problemów i empatia",
+          "Budowanie osobistych relacji z klientami",
+          "Obsługa wrażliwych lub emocjonalnych sytuacji",
+          "Kreatywne rozwiązania i myślenie nieszablonowe",
+          "Zrozumienie niuansów potrzeb klienta",
+          "Podejmowanie decyzji w niejednoznacznych scenariuszach"
+        ],
+        "ctaTitle": "Gotowy, aby skalować z AI?",
+        "ctaSubtitle": "Zacznij od darmowych agentów ludzkich, a następnie dodaj automatyzację AI, gdy będziesz gotowy do skalowania. Idealne hybrydowe podejście dla rozwijających się firm.",
+        "contextAware": {
+          "title": "Odpowiedzi uwzględniające kontekst",
+          "description": "AI rozumie kontekst rozmowy i zapewnia trafne, inteligentne odpowiedzi."
+        },
+        "learning": {
+          "title": "Uczenie się z rozmów",
+          "description": "Stale się poprawia, ucząc się z każdej interakcji z klientem."
+        },
+        "handoff": {
+          "title": "Płynne przekazanie do człowieka",
+          "description": "Płynne przejście do agentów ludzkich, gdy pojawią się złożone problemy."
+        },
+        "availability": {
+          "title": "Dostępność 24/7",
+          "description": "Zapewnij natychmiastowe wsparcie przez całą dobę, nawet gdy agenci są offline."
+        },
+        "response": {
+          "title": "Natychmiastowy czas odpowiedzi",
+          "description": "Odpowiadaj na zapytania klientów w milisekundach, a nie minutach."
+        },
+        "multilanguage": {
+          "title": "Obsługa wielu języków",
+          "description": "Automatycznie komunikuj się z klientami w ich preferowanym języku."
+        },
+        "types": {
+          "faq": {
+            "title": "Automatyzacja FAQ",
+            "description": "Natychmiast odpowiadaj na typowe pytania z dokładnymi, aktualnymi informacjami."
+          },
+          "orders": {
+            "title": "Aktualizacje statusu zamówienia",
+            "description": "Dostarczaj informacje o śledzeniu zamówień i wysyłce w czasie rzeczywistym."
+          },
+          "appointments": {
+            "title": "Planowanie spotkań",
+            "description": "Automatycznie rezerwuj spotkania i zarządzaj kalendarzami."
+          },
+          "recommendations": {
+            "title": "Rekomendacje produktów",
+            "description": "Sugeruj odpowiednie produkty na podstawie preferencji klienta."
+          }
+        },
+        "scheduleDemo": "Zaplanuj demo",
+        "signUpForFree": "Zarejestruj się za darmo"
+      },
+      "api": {
+        "restful": {
+          "title": "API RESTful",
+          "description": "Czyste, intuicyjne API REST z kompleksową dokumentacją"
+        },
+        "webhooks": {
+          "title": "Webhooki w czasie rzeczywistym",
+          "description": "Otrzymuj natychmiastowe powiadomienia o zdarzeniach i aktualizacjach rozmów"
+        },
+        "security": {
+          "title": "Bezpieczne uwierzytelnianie",
+          "description": "Uwierzytelnianie OAuth 2.0 i kluczem API z ograniczeniem szybkości"
+        },
+        "cdn": {
+          "title": "Globalny CDN",
+          "description": "Dostęp do API o niskim opóźnieniu z dowolnego miejsca na świecie"
+        },
+        "endpoints": {
+          "createConversation": "Utwórz nową rozmowę",
+          "getConversation": "Pobierz szczegóły rozmowy",
+          "sendMessage": "Wyślij wiadomość w rozmowie"
+        },
+        "sdks": {
+          "available": "Dostępne",
+          "comingSoon": "Wkrótce"
+        },
+        "title": "API i narzędzia dla deweloperów",
+        "subtitle": "Buduj niestandardowe integracje i rozszerzaj możliwości SeaChat dzięki naszemu kompleksowemu API i narzędziom przyjaznym dla deweloperów.",
+        "getKeyButton": "Uzyskaj klucz API",
+        "viewDocsButton": "Wyświetl dokumentację",
+        "featuresTitle": "Potężne funkcje API",
+        "featuresSubtitle": "Wszystko, czego potrzebujesz, aby zintegrować SeaChat z istniejącymi systemami i przepływami pracy.",
+        "endpointsTitle": "Punkty końcowe API",
+        "endpointsSubtitle": "Poznaj nasze kompleksowe API z przykładami i interaktywną dokumentacją.",
+        "exampleRequestResponse": "Przykład żądania/odpowiedzi",
+        "tryItOut": "Wypróbuj",
+        "testConsole": "Testuj w konsoli",
+        "copyCurl": "Kopiuj cURL",
+        "sdksTitle": "SDK i biblioteki",
+        "sdksSubtitle": "Szybko rozpocznij pracę z naszymi oficjalnymi SDK dla popularnych języków programowania.",
+        "exampleTitle": "Przykład szybkiego startu",
+        "exampleSubtitle": "Rozpocznij pracę z API SeaChat w zaledwie kilku liniach kodu.",
+        "jsExample": "Przykład JavaScript",
+        "copy": "Kopiuj",
+        "ctaTitle": "Gotowy, aby rozpocząć budowanie?",
+        "ctaSubtitle": "Uzyskaj swój klucz API i zacznij integrować SeaChat z Twoimi aplikacjami już dziś.",
+        "ctaAccessButton": "Uzyskaj dostęp do API",
+        "ctaDocsButton": "Przeczytaj dokumentację"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "Satysfakcja klienta"
+          },
+          "responseTime": {
+            "title": "Średni czas odpowiedzi"
+          },
+          "resolution": {
+            "title": "Wskaźnik rozwiązania"
+          },
+          "growth": {
+            "title": "Miesięczny wzrost"
+          },
+          "period": "w tym miesiącu"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "Pulpity nawigacyjne w czasie rzeczywistym",
+              "description": "Monitoruj wydajność swojego wsparcia za pomocą dynamicznych, konfigurowalnych pulpitów nawigacyjnych.",
+              "benefits": {
+                "metrics": "Metryki wydajności na żywo",
+                "kpi": "Niestandardowe śledzenie KPI",
+                "team": "Widoki wydajności zespołu",
+                "alerts": "Powiadomienia o alertach"
+              }
+            },
+            "reporting": {
+              "title": "Zaawansowane raportowanie",
+              "description": "Generuj szczegółowe raporty z praktycznymi spostrzeżeniami i trendami.",
+              "benefits": {
+                "automated": "Automatyczne generowanie raportów",
+                "dates": "Niestandardowe zakresy dat",
+                "export": "Możliwości eksportu",
+                "scheduled": "Zaplanowana dostawa"
+              }
+            },
+            "journey": {
+              "title": "Analityka podróży klienta",
+              "description": "Śledź interakcje z klientami we wszystkich punktach styku i kanałach.",
+              "benefits": {
+                "tracking": "Śledzenie wielokanałowe",
+                "visualization": "Wizualizacja podróży",
+                "conversion": "Analiza konwersji",
+                "dropoff": "Identyfikacja porzuceń"
+              }
+            },
+            "optimization": {
+              "title": "Optymalizacja wydajności",
+              "description": "Identyfikuj wąskie gardła i optymalizuj operacje wsparcia.",
+              "benefits": {
+                "bottlenecks": "Wykrywanie wąskich gardeł",
+                "resources": "Alokacja zasobów",
+                "efficiency": "Rekomendacje dotyczące efektywności",
+                "roi": "Analiza ROI"
+              }
+            }
+          }
+        },
+        "title": "Analityka i statystyki",
+        "subtitle": "Podejmuj decyzje oparte na danych dzięki kompleksowej analityce, która ujawnia zachowania klientów, wydajność agentów i możliwości optymalizacji.",
+        "metricsTitle": "Kluczowe metryki wydajności",
+        "metricsSubtitle": "Śledź metryki, które są najważniejsze dla sukcesu Twojej obsługi klienta.",
+        "featuresTitle": "Kompleksowy pakiet analityczny",
+        "featuresSubtitle": "Wszystko, czego potrzebujesz, aby zrozumieć, mierzyć i poprawiać swoje operacje obsługi klienta.",
+        "dashboardTitle": "Interaktywny podgląd pulpitu nawigacyjnego",
+        "dashboardSubtitle": "Zobacz, jak nasz pulpit nawigacyjny analityki dostarcza praktycznych spostrzeżeń na pierwszy rzut oka.",
+        "dashboard": {
+          "overview": "Przegląd wydajności",
+          "months": {
+            "jan": "Sty",
+            "dec": "Gru"
+          },
+          "quickStats": "Szybkie statystyki",
+          "activeConversations": "Aktywne rozmowy",
+          "systemUptime": "Czas działania systemu",
+          "customerRating": "Ocena klienta"
+        },
+        "ctaTitle": "Zacznij podejmować decyzje oparte na danych",
+        "ctaSubtitle": "Odblokuj moc analityki, aby zoptymalizować obsługę klienta i napędzać wzrost biznesu."
+      },
+      "humanAgents": {
+        "title": "Czat z agentem ludzkim",
+        "subtitle": "Zacznij od prawdziwych agentów wsparcia ludzkiego, całkowicie za darmo na zawsze. Bez limitów, bez haczyków, tylko prawdziwy ludzki kontakt z Twoimi klientami.",
+        "startButton": "Rozpocznij za darmo na zawsze",
+        "demoButton": "Obejrzyj demo",
+        "unlimited": {
+          "title": "Nieograniczone godziny agenta",
+          "description": "Bez limitów czasowych, bez limitów godzinowych. Twój agent ludzki pracuje tyle, ile potrzebujesz, całkowicie za darmo."
+        },
+        "realtime": {
+          "title": "Zarządzanie czatem w czasie rzeczywistym",
+          "description": "Obsługuj wiele rozmów jednocześnie dzięki naszemu intuicyjnemu interfejsowi czatu."
+        },
+        "collaboration": {
+          "title": "Współpraca wielu agentów",
+          "description": "Skaluj swój zespół dzięki płynnym przekazaniom między agentami i narzędziom do współpracy."
+        },
+        "security": {
+          "title": "Zaawansowane bezpieczeństwo",
+          "description": "Bezpieczeństwo klasy korporacyjnej z szyfrowaniem end-to-end i ochroną danych."
+        },
+        "analytics": {
+          "title": "Analityka wydajności",
+          "description": "Śledź czasy odpowiedzi, satysfakcję klienta i metryki wydajności agentów."
+        },
+        "workflows": {
+          "title": "Niestandardowe przepływy pracy",
+          "description": "Twórz spersonalizowane przepływy pracy i reguły automatyzacji dla swojego procesu wsparcia."
+        },
+        "benefits": {
+          "personal": {
+            "title": "Osobisty dotyk",
+            "description": "Ludzka empatia i zrozumienie, których AI nie może replikować"
+          },
+          "complex": {
+            "title": "Złożone rozwiązywanie problemów",
+            "description": "Obsługuj niuansowe sytuacje, które wymagają ludzkiej oceny"
+          },
+          "brand": {
+            "title": "Reprezentacja marki",
+            "description": "Agenci, którzy naprawdę rozumieją i reprezentują wartości Twojej marki"
+          },
+          "relationships": {
+            "title": "Relacje z klientami",
+            "description": "Buduj trwałe relacje poprzez prawdziwe ludzkie połączenia"
+          }
+        },
+        "freeForever": {
+          "title": "Prawdziwie darmowe, czyli darmowe 🍺 & 🎙️",
+          "subtitle": "Mamy to na myśli, gdy mówimy darmowe. Jeden agent ludzki na zawsze, z nieograniczonym wszystkim.",
+          "meaningTitle": "Co naprawdę oznacza „Darmowe na zawsze”",
+          "agent": "1 agent ludzki na zawsze",
+          "conversations": "Nieograniczone rozmowy na czacie",
+          "history": "Nieograniczona historia czatu",
+          "contacts": "Nieograniczone kontakty",
+          "export": "Swoboda eksportowania wszystkich danych",
+          "noCredit": "Nie wymaga karty kredytowej",
+          "unlimited": "Nieograniczone wszystko",
+          "noCaps": "Bez ukrytych opłat, bez limitów czasowych, bez limitów rozmów. Tylko czyste, nieograniczone wsparcie ludzkie.",
+          "forever": "Na zawsze"
+        },
+        "featuresTitle": "Potężne funkcje agenta ludzkiego",
+        "featuresSubtitle": "Wszystko, czego potrzebujesz, aby zapewnić wyjątkową obsługę klienta opartą na człowieku.",
+        "whyMatterTitle": "Dlaczego agenci ludzcy nadal mają znaczenie",
+        "whyMatterSubtitle": "W świecie napędzanym przez AI, ludzki kontakt pozostaje niezastąpiony w budowaniu zaufania i rozwiązywaniu złożonych problemów.",
+        "ctaTitle": "Gotowy, aby rozpocząć z agentami ludzkimi?",
+        "ctaSubtitle": "Dołącz do tysięcy firm świadczących wyjątkową obsługę klienta dzięki naszym darmowym agentom ludzkim.",
+        "ctaStartButton": "Rozpocznij za darmo teraz",
+        "ctaDemoButton": "Zaplanuj demo"
+      },
+      "knowledgeBase": {
+        "subtitle": "Wzmocnij swoich agentów AI kompleksowym zarządzaniem wiedzą. Twórz, organizuj i utrzymuj scentralizowane repozytorium informacji, które umożliwia inteligentne, dokładne odpowiedzi.",
+        "managementTitle": "Inteligentne zarządzanie wiedzą",
+        "managementSubtitle": "Zbuduj potężną bazę wiedzy, która rośnie wraz z Twoim biznesem i wzbogaca każdą interakcję z klientem.",
+        "smartSearch": {
+          "title": "Inteligentne wyszukiwanie",
+          "description": "Zaawansowane możliwości wyszukiwania semantycznego, które rozumieją kontekst i intencje, dostarczając precyzyjne informacje natychmiast."
+        },
+        "documentManagement": {
+          "title": "Zarządzanie dokumentami",
+          "description": "Przesyłaj, organizuj i kontroluj wersje dokumentów, często zadawanych pytań, polityk i procedur w jednej scentralizowanej lokalizacji."
+        },
+        "collaboration": {
+          "title": "Edycja współpracująca",
+          "description": "Umożliwiaj współpracę zespołową dzięki edycji w czasie rzeczywistym, przepływom pracy zatwierdzania i kontroli dostępu opartej na rolach."
+        },
+        "autoLearning": {
+          "title": "Automatyczne uczenie się",
+          "description": "Automatycznie przechwytuj i ucz się z udanych interakcji, aby stale poprawiać dokładność wiedzy."
+        },
+        "accessControl": {
+          "title": "Kontrola dostępu",
+          "description": "Zabezpiecz wrażliwe informacje za pomocą szczegółowych uprawnień i zapewnij zgodność z przepisami o ochronie danych."
+        },
+        "multiLanguage": {
+          "title": "Wielojęzyczność",
+          "description": "Obsługa wielu języków i lokalizacji w celu obsługi globalnych klientów z kulturowo odpowiednimi odpowiedziami."
+        },
+        "demoTitle": "Zobacz bazę wiedzy w akcji",
+        "demoSubtitle": "Zobacz, jak nasz inteligentny system wiedzy zasila dokładne, kontekstowe odpowiedzi.",
+        "interfaceTitle": "Interfejs bazy wiedzy",
+        "categories": "Kategorie dokumentów",
+        "productDocs": "Dokumentacja produktu",
+        "articles": "artykuły",
+        "supportFaqs": "Często zadawane pytania dotyczące obsługi klienta",
+        "policies": "Polityki firmy",
+        "recentUpdates": "Ostatnie aktualizacje",
+        "refundUpdate": "Zaktualizowano politykę zwrotów",
+        "hoursAgo": "godzin temu",
+        "returnWindow": "Zaktualizowano okno zwrotu z 14 do 30 dni",
+        "featureGuide": "Przewodnik po nowych funkcjach",
+        "dayAgo": "dzień temu",
+        "analyticsDoc": "Dodano dokumentację dla zaawansowanej analityki",
+        "transformTitle": "Przekształć swoją obsługę klienta",
+        "transformSubtitle": "Dobrze zorganizowana baza wiedzy jest podstawą wyjątkowej obsługi klienta i efektywnych operacji.",
+        "benefitsTitle": "Kluczowe korzyści",
+        "fasterResponse": {
+          "title": "Szybszy czas odpowiedzi",
+          "description": "Zmniejsz średni czas odpowiedzi o 60% dzięki natychmiastowemu dostępowi do dokładnych informacji."
+        },
+        "consistency": {
+          "title": "Spójna dokładność",
+          "description": "Upewnij się, że wszyscy agenci dostarczają spójne, aktualne informacje we wszystkich kanałach."
+        },
+        "training": {
+          "title": "Skalowalne szkolenie",
+          "description": "Szybciej wdrażaj nowych agentów dzięki kompleksowej, przeszukiwalnej dokumentacji."
+        },
+        "readyTitle": "Gotowy, aby rozpocząć?",
+        "readySubtitle": "Zbuduj swoją bazę wiedzy już dziś i przekształć sposób, w jaki Twój zespół świadczy obsługę klienta.",
+        "startButton": "Rozpocznij budowanie",
+        "scheduleDemo": "Zaplanuj demo"
+        },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "Czat na stronie",
+            "description": "Osadzaj widżety czatu na dowolnej platformie internetowej",
+            "seachat": {
+              "features": {
+                "compatibility": "Uniwersalna kompatybilność",
+                "styling": "Niestandardowa stylizacja",
+                "responsive": "Responsywny na urządzenia mobilne",
+                "sync": "Synchronizacja w czasie rzeczywistym"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "WhatsApp Business",
+            "seachat": {
+              "features": {
+                "api": "Integracja API biznesowego",
+                "media": "Obsługa bogatych multimediów",
+                "templates": "Wiadomości szablonowe",
+                "groups": "Wiadomości grupowe"
+              }
+            }
+          },
+          "instagram": {
+            "name": "Instagram Direct",
+            "description": "Zarządzaj wiadomościami DM na Instagramie i odpowiedziami na historie w jednym miejscu",
+            "seachat": {
+              "features": {
+                "replies": "Zarządzanie odpowiedziami na historie",
+                "media": "Udostępnianie multimediów",
+                "responses": "Szybkie odpowiedzi",
+                "greetings": "Automatyczne powitania"
+              }
+            }
+          },
+          "facebook": {
+            "name": "Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "Integracja strony",
+                "responses": "Automatyczne odpowiedzi",
+                "cards": "Bogate karty",
+                "menu": "Trwałe menu"
+              }
+            }
+          },
+          "voice": {
+            "name": "Rozmowy głosowe",
+            "description": "Obsługuj wsparcie telefoniczne za pomocą agentów głosowych AI",
+            "seachat": {
+              "features": {
+                "conversations": "Naturalne rozmowy",
+                "routing": "Routing połączeń",
+                "voicemail": "Transkrypcja poczty głosowej",
+                "conference": "Połączenia konferencyjne"
+              }
+            }
+          },
+          "email": {
+            "name": "Wsparcie e-mailowe",
+            "description": "Zarządzaj zgłoszeniami e-mailowymi za pomocą inteligentnego routingu",
+            "seachat": {
+              "features": {
+                "categorization": "Inteligentna kategoryzacja",
+                "responses": "Automatyczne odpowiedzi",
+                "templates": "Szablony e-mailowe",
+                "priority": "Obsługa priorytetowa"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "Ujednolicony widok klienta",
+            "description": "Zobacz pełną historię klienta we wszystkich kanałach w jednym interfejsie"
+          },
+          "handoffs": {
+            "title": "Płynne przekazania",
+            "description": "Klienci mogą przełączać kanały bez utraty kontekstu rozmowy"
+          },
+          "resolution": {
+            "title": "Szybsze rozwiązanie",
+            "description": "Zmniejsz czas rozwiązania dzięki ujednoliconym przepływom pracy agentów"
+          },
+          "satisfaction": {
+            "title": "Wyższa satysfakcja",
+            "description": "Spójne doświadczenie we wszystkich punktach styku"
+          }
+        },
+        "title": "Wsparcie wielokanałowe",
+        "subtitle": "Połącz wszystkie punkty kontaktu z klientem w jednej ujednoliconej platformie. Zapewnij spójne, bezproblemowe wsparcie na stronach internetowych, w mediach społecznościowych, telefonicznie i e-mailowo.",
+        "channelsTitle": "Wszystkie Twoje kanały, jedna platforma",
+        "channelsSubtitle": "Połącz i zarządzaj rozmowami z klientami we wszystkich kanałach, z których korzystają Twoi klienci.",
+        "benefitsTitle": "Moc prawdziwej wielokanałowości",
+        "benefitsSubtitle": "Wyjdź poza posiadanie wielu kanałów. Twórz ujednolicone doświadczenia, które zachwycają klientów.",
+        "inboxTitle": "Ujednolicone doświadczenie skrzynki odbiorczej",
+        "inboxSubtitle": "Zobacz, jak wszystkie rozmowy z klientami łączą się w jednym inteligentnym interfejsie.",
+        "activeConversations": "Aktywne rozmowy",
+        "websiteChat": "Czat na stronie o funkcjach SeaChat...",
+        "whatsappInquiry": "Zapytanie WhatsApp o status zamówienia...",
+        "instagramDM": "Wiadomość DM na Instagramie o polityce zwrotów...",
+        "conversationView": "Widok rozmowy",
+        "customerVia": "Klient przez stronę internetową",
+        "agentResponse": "Odpowiedź agenta",
+        "customerViaWhatsapp": "Klient przez WhatsApp",
+        "whatsappMessage": "Dzięki! Czy mogę kontynuować tę rozmowę na WhatsApp?",
+        "ctaTitle": "Gotowy, aby ujednolicić swoje kanały klienta?",
+        "ctaSubtitle": "Połącz wszystkie punkty kontaktu z klientem i zapewnij bezproblemowe doświadczenia wsparcia, które sprawią, że klienci będą wracać.",
+        "customerMessage": "Cześć, jestem zainteresowany Waszymi funkcjami automatyzacji AI. Czy możesz mi powiedzieć więcej?",
+        "agentMessage": "Chętnie pomogę! Nasza automatyzacja AI może obsłużyć do 80% rutynowych zapytań..."
+      },
+      "voiceAgents": {
+        "title": "Agenci głosowi",
+        "subtitle": "Przekształć wsparcie telefoniczne dzięki agentom głosowym AI, którzy brzmią naturalnie, rozumieją kontekst i zapewniają natychmiastową pomoc w wielu językach.",
+        "signUpFree": "Zarejestruj się za darmo",
+        "scheduleDemo": "Zaplanuj demo",
+        "natural": {
+          "title": "Naturalne rozmowy głosowe",
+          "description": "Agenci głosowi oparci na AI, którzy brzmią naturalnie i rozumieją kontekst."
+        },
+        "speech": {
+          "title": "Zaawansowane rozpoznawanie mowy",
+          "description": "Dokładna konwersja mowy na tekst w wielu językach i akcentach."
+        },
+        "synthesis": {
+          "title": "Wysokiej jakości synteza mowy",
+          "description": "Krystalicznie czysty, ludzki dźwięk z inteligencją emocjonalną."
+        },
+        "support": {
+          "title": "Wsparcie głosowe 24/7",
+          "description": "Całodobowa pomoc głosowa dla globalnej obsługi klienta."
+        },
+        "multilanguage": {
+          "title": "Obsługa wielu języków",
+          "description": "Wsparcie dla ponad 50 języków z natywną wymową."
+        },
+        "routing": {
+          "title": "Inteligentne routingowanie połączeń",
+          "description": "Inteligentne routingowanie do agentów ludzkich, gdy pojawią się złożone problemy."
+        },
+        "capabilitiesTitle": "Zaawansowane możliwości głosowe",
+        "capabilitiesSubtitle": "Nasi agenci głosowi łączą najnowocześniejszą AI z przetwarzaniem języka naturalnego dla rozmów jak z człowiekiem.",
+        "capabilities": {
+          "service": {
+            "title": "Połączenia obsługi klienta",
+            "description": "Obsługuj rutynowe zapytania, status zamówienia i podstawowe rozwiązywanie problemów"
+          },
+          "appointments": {
+            "title": "Planowanie spotkań",
+            "description": "Automatycznie rezerwuj, przeplanowuj i potwierdzaj spotkania"
+          },
+          "orders": {
+            "title": "Przetwarzanie zamówień",
+            "description": "Przyjmuj zamówienia, przetwarzaj płatności i potwierdzaj szczegóły"
+          },
+          "support": {
+            "title": "Wsparcie techniczne",
+            "description": "Prowadź klientów przez podstawowe kroki rozwiązywania problemów"
+          }
+        },
+        "performanceTitle": "Wydajność agenta głosowego",
+        "performanceSubtitle": "Zobacz, jak nasi agenci głosowi radzą sobie z różnymi typami interakcji z klientami.",
+        "accuracyRate": "Wskaźnik dokładności",
+        "avgDuration": "Średni czas trwania",
+        "experienceTitle": "Doświadcz AI głosowej w akcji",
+        "experienceSubtitle": "Posłuchaj prawdziwych rozmów między klientami a naszymi agentami głosowymi.",
+        "sampleTitle": "Przykładowa rozmowa",
+        "voiceAgent": "Agent głosowy",
+        "customer": "Klient",
+        "agentGreeting": "Witaj! Dziękujemy za skontaktowanie się z pomocą techniczną SeaChat. Jak mogę Ci dzisiaj pomóc?",
+        "customerQuestion": "Cześć, muszę sprawdzić status mojego ostatniego zamówienia.",
+        "agentResponse": "Chętnie Ci w tym pomogę. Czy możesz podać numer zamówienia lub adres e-mail powiązany z Twoim kontem?",
+        "playDemo": "Odtwórz pełne demo",
+        "moreSamples": "Więcej przykładów",
+        "featuresTitle": "Funkcje agenta głosowego",
+        "featuresList": {
+          "0": "Przetwarzanie mowy naturalnej",
+          "1": "Obsługa wielu języków",
+          "2": "Integracja z systemem telefonicznym",
+          "3": "Analiza sentymentu głosu",
+          "4": "Nagrywanie i analiza połączeń",
+          "5": "Inteligentna eskalacja do człowieka"
+        },
+        "ctaTitle": "Gotowy, aby przekształcić wsparcie telefoniczne?",
+        "ctaSubtitle": "Doświadcz przyszłości głosowej obsługi klienta dzięki agentom AI, którzy brzmią i czują się jak ludzie."
+      }
+    },
+    "seo": {
+      "title": "SeaChat - Chatbot AI i automatyzacja obsługi klienta | Seasalt.ai",
+      "titleSuffix": " - Chatbot AI i automatyzacja obsługi klienta | Seasalt.ai",
+      "description": "SeaChat to platforma chatbotów oparta na AI, która pomaga firmom automatyzować obsługę klienta w wielu kanałach, w tym WhatsApp, stronach internetowych, mediach społecznościowych i innych."
+    }
+  }
+}

@@ -1,0 +1,1868 @@
+{
+  "seavoice": {
+    "header": {
+      "navigation": {
+        "platform": {
+          "title": "Platform",
+          "overview": "Gambaran Keseluruhan Platform",
+          "landlineMobile": "Suara Talian Tetap & Mudah Alih",
+          "voipSipByoc": "Suara VoIP & SIP & BYOC",
+          "lineCallPlus": "Line Call Plus untuk Perniagaan",
+          "whatsAppVoice": "API Suara WhatsApp untuk Perniagaan",
+          "speechToText": "Ucapan ke Teks",
+          "textToSpeech": "Teks ke Ucapan",
+          "endToEndLlms": "LLM Hujung ke Hujung"
+        },
+        "inboundSolutions": {
+          "title": "Penyelesaian Masuk",
+          "virtualAssistant": "Pembantu Maya 24/7",
+          "callTransfer": "Pemindahan Panggilan Pintar",
+          "ivrReplacement": "Penggantian IVR",
+          "mentalHealth": "Pendamping Kesihatan Mental",
+          "scamShield": "Perlindungan Scam Shield",
+          "technicalSupport": "Sokongan Teknikal",
+          "orderTracking": "Status & Penjejakan Pesanan",
+          "paymentProcessing": "Pemprosesan Pembayaran",
+          "appointmentBooking": "Tempahan Janji Temu"
+        },
+        "outboundSolutions": {
+          "title": "Penyelesaian Keluar",
+          "leadGeneration": "Penjanaan & Kelayakan Petunjuk",
+          "collections": "Perkhidmatan Kutipan",
+          "reactivation": "Pengaktifan Semula Pelanggan",
+          "seniorChecks": "Panggilan Pemeriksaan Warga Emas",
+          "campaigns": "Kempen Skala Besar",
+          "proactiveSupport": "Sokongan Proaktif",
+          "renewals": "Pembaharuan Langganan",
+          "surveys": "Tinjauan Pelanggan",
+          "fraudAlerts": "Makluman Penipuan"
+        },
+        "pricing": "Harga"
+      },
+      "auth": {
+        "signIn": "Log Masuk",
+        "getStarted": "Mula"
+      },
+      "backToMainSite": "Kembali ke Laman Utama"
+    },
+    "home": {
+      "hero": {
+        "tagline": "Perniagaan Anda Tidak Pernah Tidur",
+        "title": {
+          "line1": "Ejen Suara AI",
+          "line2": "Mengendalikan Panggilan 24/7"
+        },
+        "subtitle": {
+          "line1": "Ubah interaksi pelanggan dengan AI seperti manusia yang tidak pernah tidur.",
+          "line2": "Automasi sokongan, tempahan, dan panggilan keluar dengan skala."
+        },
+        "bookDemo": "Tempah Demo",
+        "signUp": "Daftar Sekarang"
+      },
+      "voiceDemo": {
+        "title": "Cuba Teknologi Suara Kami",
+        "subtitle": "Dengarkan contoh sebenar SeaVoice beraksi dan alami masa depan perbualan berkuasa AI"
+      },
+      "conversationFlow": {
+        "step1": {
+          "title": "Panggilan Pelanggan",
+          "description": "Pemanggil mendail nombor perniagaan anda"
+        },
+        "step2": {
+          "title": "Ejen AI Menjawab",
+          "description": "AI SeaVoice mengangkat serta-merta"
+        },
+        "step3": {
+          "title": "Perbualan Semula Jadi",
+          "description": "Interaksi suara seperti manusia"
+        },
+        "step4": {
+          "title": "Penyelesaian Tugas",
+          "description": "Tempahan, sokongan, atau pemindahan"
+        }
+      },
+      "conversationExamples": {
+        "appointment": {
+          "customer": "Hai, saya ingin menempah janji temu untuk minggu depan.",
+          "ai": "Saya gembira dapat membantu anda menjadualkan janji temu! Benarkan saya menyemak ketersediaan kami untuk minggu depan. Jenis perkhidmatan apa yang anda cari?",
+          "scenario": "Tempahan janji temu"
+        },
+        "support": {
+          "customer": "Saya menghadapi masalah dengan pesanan saya yang terkini. Bolehkah anda membantu?",
+          "ai": "Sudah tentu! Saya di sini untuk membantu dengan pesanan anda. Bolehkah anda memberikan nombor pesanan anda supaya saya boleh mencari butiran untuk anda?",
+          "scenario": "Sokongan pelanggan"
+        },
+        "inquiry": {
+          "customer": "Apakah waktu perniagaan anda?",
+          "ai": "Kami buka Isnin hingga Jumaat dari jam 9 pagi hingga 6 petang, dan Sabtu dari jam 10 pagi hingga 4 petang. Kami tutup pada hari Ahad. Adakah ada perkara khusus yang ingin anda ketahui tentang perkhidmatan kami?",
+          "scenario": "Pertanyaan umum"
+        }
+      },
+      "useCases": {
+        "title": {
+          "line1": "Ubah Perniagaan Anda dengan",
+          "line2": "Kes Penggunaan yang Berjaya"
+        },
+        "subtitle": "Temui bagaimana pemimpin industri memanfaatkan AI SeaVoice untuk merevolusikan interaksi pelanggan dan memacu pertumbuhan",
+        "badge": "Kisah Kejayaan Terbukti",
+        "inbound": {
+          "category": "Penyelesaian Masuk",
+          "appointmentBooking": {
+            "title": "Tempahan & Pengurusan Janji Temu",
+            "description": "Automasi penjadualan janji temu dengan AI yang memahami ketersediaan, pilihan, dan peraturan perniagaan."
+          },
+          "technicalSupport": {
+            "title": "Automasi Sokongan Teknikal",
+            "description": "Sediakan sokongan teknikal segera dengan AI yang boleh mendiagnosis masalah dan membimbing pelanggan melalui penyelesaian."
+          },
+          "virtualAssistant": {
+            "title": "Pembantu Maya",
+            "description": "Kendalikan pertanyaan umum, berikan maklumat, dan hala panggilan dengan bijak."
+          },
+          "callTransfer": {
+            "title": "Pemindahan & Penghalaan Panggilan",
+            "description": "Hala panggilan secara bijak ke jabatan atau ejen yang betul berdasarkan keperluan pemanggil."
+          },
+          "orderTracking": {
+            "title": "Penjejakan & Sokongan Pesanan",
+            "description": "Benarkan pelanggan menyemak status pesanan, menjejaki penghantaran, dan mendapatkan kemas kini penghantaran."
+          },
+          "paymentProcessing": {
+            "title": "Pemprosesan Pembayaran",
+            "description": "Proses pembayaran dengan selamat, kendalikan pertanyaan bil, dan uruskan maklumat akaun."
+          },
+          "ivrReplacement": {
+            "title": "Penggantian IVR",
+            "description": "Gantikan menu tradisional dengan pemahaman bahasa semula jadi untuk pengalaman yang lebih lancar."
+          },
+          "mentalHealth": {
+            "title": "Sokongan Kesihatan Mental",
+            "description": "Sediakan sokongan kesihatan mental berkuasa AI yang empati sepanjang masa."
+          },
+          "scamShield": {
+            "title": "Perlindungan Scam Shield",
+            "description": "Lindungi pengguna anda daripada penipuan dengan pengesanan dan penyekatan masa nyata."
+          },
+          "type": "Masuk"
+        },
+        "outbound": {
+          "category": "Penyelesaian Keluar",
+          "leadGeneration": {
+            "title": "Penjanaan & Kelayakan Petunjuk",
+            "description": "Ubah saluran paip jualan anda dengan penjanaan petunjuk berkuasa AI yang mengenal pasti dan melayakkan prospek."
+          },
+          "seniorChecks": {
+            "title": "Panggilan Pemeriksaan Warga Emas & Kesejahteraan",
+            "description": "Pemeriksaan kesejahteraan berkuasa AI secara berkala untuk warga emas dengan perbualan yang penuh kasih sayang yang memantau kesihatan."
+          },
+          "surveys": {
+            "title": "Tinjauan Pelanggan & Maklum Balas",
+            "description": "Lakukan tinjauan selepas pembelian dan kumpulkan maklum balas pelanggan yang berharga secara automatik."
+          },
+          "collections": {
+            "title": "Kutipan & Peringatan Pembayaran",
+            "description": "Panggilan kutipan yang hormat dan berkesan yang meningkatkan kadar pembayaran sambil mengekalkan hubungan."
+          },
+          "reactivation": {
+            "title": "Pengaktifan Semula Pelanggan",
+            "description": "Libatkan semula pelanggan yang tidak aktif dengan kempen jangkauan yang diperibadikan."
+          },
+          "fraudAlerts": {
+            "title": "Makluman Penipuan & Pengesahan",
+            "description": "Maklumkan pelanggan tentang transaksi yang mencurigakan dan sahkan identiti mereka untuk keselamatan."
+          },
+          "campaigns": {
+            "title": "Kempen Skala Besar",
+            "description": "Laksanakan kempen suara besar-besaran untuk menjangkau ribuan pelanggan secara global."
+          },
+          "proactiveSupport": {
+            "title": "Sokongan Pelanggan Proaktif",
+            "description": "Berikan maklumat kepada pelanggan secara proaktif dengan pemberitahuan pintar."
+          },
+          "renewals": {
+            "title": "Pembaharuan Langganan",
+            "description": "Automasi pembaharuan dengan peringatan dan pemprosesan pembayaran yang lancar."
+          },
+          "type": "Keluar"
+        },
+        "types": {
+          "inbound": "Masuk",
+          "outbound": "Keluar"
+        }
+      },
+      "howItWorks": {
+        "title": {
+          "prefix": "",
+          "highlight": "Mula dalam ",
+          "suffix": "5 Langkah Mudah"
+        },
+        "subtitle": "Dari persediaan hingga tayang langsung dalam masa kurang 20 minit. Proses kami yang diselaraskan menyediakan ejen suara AI anda untuk mengendalikan panggilan serta-merta.",
+        "badge": "Proses Persediaan Mudah",
+        "step1": {
+          "title": "Latih Ejen Suara Anda",
+          "description": "Sesuaikan suara, skrip, dan balasan anda dalam beberapa minit. AI kami belajar daripada laman web dan Profil Perniagaan Google anda untuk mewakili jenama anda dengan tepat."
+        },
+        "step2": {
+          "title": "Sambungkan Sistem Telefon Anda",
+          "description": "Integrasikan SeaVoice dengan lancar dengan persediaan telefon anda yang sedia ada (SIP/VoIP/PSTN). Majukan panggilan ke SeaVoice tanpa menukar nombor perniagaan anda."
+        },
+        "step3": {
+          "title": "Sediakan Peraturan Panggilan",
+          "description": "Tentukan bagaimana SeaVoice mengendalikan pelbagai jenis panggilan dan bila untuk mengalihkan kepada pasukan anda. Pastikan setiap pemanggil mendapat balasan yang betul."
+        },
+        "step4": {
+          "title": "Tayang Langsung",
+          "description": "Aktifkan ejen suara AI anda dan mula mengendalikan panggilan. Keseluruhan proses biasanya mengambil masa kurang dari 20 minit dari awal hingga akhir."
+        },
+        "step5": {
+          "title": "Sokongan & Analitik 24/7",
+          "description": "Pantau panggilan dalam masa nyata, terima transkrip terperinci, dan manfaatkan wawasan untuk meningkatkan perniagaan anda. Pasukan sokongan kami sentiasa tersedia untuk membantu anda mengoptimumkan prestasi."
+        },
+        "ctaBadge": "Kebanyakan pelanggan tayang langsung dalam masa 20 minit",
+        "liveTime": "Kebanyakan pelanggan tayang langsung dalam masa 20 minit"
+      },
+      "comparison": {
+        "title": "AI Suara vs Manusia vs Perkhidmatan Outsourcing",
+        "subtitle": "Lihat bagaimana AI SeaVoice membandingkan dengan alternatif tradisional",
+        "seavoiceAi": "AI SeaVoice",
+        "fullTimeHuman": "Manusia Sepenuh Masa",
+        "outsourcedService": "Perkhidmatan Outsourcing",
+        "availability": {
+          "feature": "Ketersediaan 24/7",
+          "seavoice": "Sentiasa aktif",
+          "human": "Hanya 9-5",
+          "outsourced": "Yuran tambahan"
+        },
+        "callVolume": {
+          "feature": "Pengendalian Volum Panggilan",
+          "seavoice": "500+ serentak",
+          "human": "1 panggilan pada satu masa",
+          "outsourced": "5-10 serentak"
+        },
+        "language": {
+          "feature": "Sokongan Bahasa",
+          "seavoice": "30+ bahasa",
+          "human": "Terhad oleh pengambilan",
+          "outsourced": "Tambahan $/bahasa"
+        },
+        "emotional": {
+          "feature": "Kecerdasan Emosi",
+          "seavoice": "Empati asas",
+          "human": "Tinggi",
+          "outsourced": "Bergantung kepada ejen"
+        },
+        "compliance": {
+          "feature": "Pematuhan",
+          "seavoice": "Alat terbina dalam",
+          "human": "Latihan diperlukan",
+          "outsourced": "Latihan diperlukan"
+        },
+        "implementation": {
+          "feature": "Masa Pelaksanaan",
+          "seavoice": "<1 hari",
+          "human": "Pengambilan 6-8 minggu",
+          "outsourced": "2-4 minggu"
+        },
+        "costComparison": "💰 Perbandingan Kos",
+        "cost": {
+          "monthly": {
+            "feature": "Kos Bulanan",
+            "seavoice": "Bermula pada $30",
+            "human": "$3,397+",
+            "outsourced": "$1,500-$2,500"
+          },
+          "effective": {
+            "feature": "Kadar Berkesan",
+            "seavoice": "$0.12/minit",
+            "human": "$6.79/panggilan",
+            "outsourced": "$3.00-$5.00/panggilan"
+          },
+          "hidden": {
+            "feature": "Kos Tersembunyi",
+            "seavoice": "Tiada",
+            "human": "Manfaat ($800+/bulan)",
+            "outsourced": "Yuran persediaan"
+          }
+        },
+        "savings": {
+          "costVsHuman": "95%",
+          "costVsHumanLabel": "Penjimatan Kos vs Manusia",
+          "costVsOutsourced": "80%",
+          "costVsOutsourcedLabel": "Penjimatan vs Outsourcing",
+          "annualSavings": "$40K+",
+          "annualSavingsLabel": "Penjimatan Tahunan"
+        },
+        "cta": {
+          "title": "Bersedia untuk Mengalami Kelebihan AI SeaVoice?",
+          "subtitle": "Sertai ribuan perniagaan yang telah mengubah perkhidmatan pelanggan mereka dengan AI yang berfungsi 24/7, mengendalikan panggilan tanpa had, dan berskala dengan perniagaan anda.",
+          "bookDemo": "Tempah Demo",
+          "signUp": "Daftar Sekarang",
+          "description": "Sertai ribuan perniagaan yang telah mengubah perkhidmatan pelanggan mereka dengan AI yang berfungsi 24/7, mengendalikan panggilan tanpa had, dan berskala dengan perniagaan anda."
+        },
+        "seavoiceAI": "AI SeaVoice",
+        "costDescription": "Lihat penjimatan kos yang dramatik dengan AI SeaVoice",
+        "costSavings": "95%",
+        "costSavingsLabel": "Penjimatan Kos vs Manusia",
+        "outsourcedSavings": "80%",
+        "outsourcedSavingsLabel": "Penjimatan vs Outsourcing",
+        "annualSavings": "$40K+",
+        "annualSavingsLabel": "Penjimatan Tahunan",
+        "features": {
+          "availability": "Ketersediaan 24/7",
+          "callVolume": "Pengendalian Volum Panggilan",
+          "language": "Sokongan Bahasa",
+          "emotional": "Kecerdasan Emosi",
+          "compliance": "Pematuhan",
+          "implementation": "Masa Pelaksanaan",
+          "monthlyCost": "Kos Bulanan",
+          "effectiveRate": "Kadar Berkesan",
+          "hiddenCosts": "Kos Tersembunyi"
+        },
+        "seavoice": {
+          "availability": "Sentiasa aktif",
+          "callVolume": "500+ serentak",
+          "language": "30+ bahasa",
+          "emotional": "Empati asas",
+          "compliance": "Alat terbina dalam",
+          "implementation": "<1 hari",
+          "monthlyCost": "Bermula pada $30",
+          "effectiveRate": "$0.12/minit",
+          "hiddenCosts": "Tiada"
+        },
+        "human": {
+          "availability": "Hanya 9-5",
+          "callVolume": "1 panggilan pada satu masa",
+          "language": "Terhad oleh pengambilan",
+          "emotional": "Tinggi",
+          "compliance": "Latihan diperlukan",
+          "implementation": "Pengambilan 6-8 minggu",
+          "monthlyCost": "$3,397+",
+          "effectiveRate": "$6.79/panggilan",
+          "hiddenCosts": "Manfaat ($800+/bulan)"
+        },
+        "outsourced": {
+          "availability": "Yuran tambahan",
+          "callVolume": "5-10 serentak",
+          "language": "Tambahan $/bahasa",
+          "emotional": "Bergantung kepada ejen",
+          "compliance": "Latihan diperlukan",
+          "implementation": "2-4 minggu",
+          "monthlyCost": "$1,500-$2,500",
+          "effectiveRate": "$3.00-$5.00/panggilan",
+          "hiddenCosts": "Yuran persediaan"
+        }
+      },
+      "seachat": {
+        "title": {
+          "prefix": "Keupayaan SeaVoice dibawakan kepada anda oleh ",
+          "highlight": "SeaChat",
+          "suffix": " "
+        },
+        "subtitle": "Platform ejen tanpa kod omni-saluran dan berbilang mod",
+        "teamwork": {
+          "title": "Satu Pasukan, Bekerja Bersama untuk Anda"
+        },
+        "chatAgent": {
+          "title": "Ejen AI Sembang",
+          "description": "Balasan segera merentasi platform web, mudah alih, dan pemesejan"
+        },
+        "humanAgent": {
+          "title": "Ejen Manusia",
+          "description": "Penyerahan lancar untuk pertanyaan kompleks yang memerlukan sentuhan manusia"
+        },
+        "voiceAgent": {
+          "title": "Ejen Suara AI",
+          "description": "Perbualan telefon semula jadi yang dikuasakan oleh AI suara lanjutan"
+        },
+        "learnMore": "Ketahui lebih lanjut mengenai SeaChat",
+        "teamTitle": "Satu Pasukan, Bekerja Bersama untuk Anda"
+      },
+      "testimonial": {
+        "quote": "SeaVoice mengurangkan masa latihan ejen kami sebanyak 2 minggu dan meningkatkan kecekapan sebanyak 20%",
+        "author": "Sarah Johnson",
+        "role": "Naib Presiden Kejayaan Pelanggan",
+        "company": "TechCorp Inc.",
+        "stat1": "2 minggu",
+        "stat1Label": "Masa latihan dikurangkan",
+        "stat2": "20%",
+        "stat2Label": "Peningkatan kecekapan",
+        "stat3": "94%",
+        "stat3Label": "Kepuasan pelanggan",
+        "stat4": "500+",
+        "stat4Label": "Panggilan serentak"
+      },
+      "faq": {
+        "title": {
+          "line1": "Soalan Lazim",
+          "line2": ""
+        },
+        "subtitle": "Semua yang anda perlu tahu tentang AI SeaVoice dan bagaimana ia boleh mengubah komunikasi perniagaan anda",
+        "badge": "Ada Soalan?",
+        "expandAll": "Kembangkan Semua Soalan",
+        "collapseAll": "Runtuhkan Semua",
+        "q1": {
+          "question": "Bagaimana SeaVoice berbeza daripada chatbot tradisional?",
+          "answer": "SeaVoice menyediakan perbualan suara masa nyata dengan AI lanjutan yang boleh memahami konteks, mengendalikan gangguan, dan menyampaikan balasan seperti manusia melalui telefon. Tidak seperti chatbot berasaskan teks, SeaVoice mengendalikan panggilan suara sebenar dengan corak ucapan semula jadi."
+        },
+        "q2": {
+          "question": "Berapa lama masa yang diambil untuk persediaan?",
+          "answer": "Persediaan biasanya mengambil masa kurang dari 20 minit. Anda boleh melatih ejen suara anda, menyambungkan sistem telefon anda, menyediakan peraturan panggilan, dan tayang langsung dalam satu sesi."
+        },
+        "q3": {
+          "question": "Bolehkah pemanggil tahu mereka bercakap dengan AI?",
+          "answer": "Teknologi suara lanjutan kami mencipta perbualan yang sangat seperti manusia. Walaupun sesetengah pemanggil mungkin menyedari, kebanyakan mendapati pengalaman itu semula jadi dan membantu. Anda juga boleh menyesuaikan AI untuk memperkenalkan dirinya sebagai pembantu AI jika dikehendaki."
+        },
+        "q4": {
+          "question": "Apa yang berlaku jika SeaVoice tidak dapat menjawab soalan?",
+          "answer": "SeaVoice direka untuk mengendalikan eskalasi dengan anggun. Ia boleh memindahkan panggilan kepada ejen manusia, mengambil mesej, menjadualkan panggilan balik, atau mengarahkan pemanggil kepada sumber yang sesuai berdasarkan peraturan yang anda konfigurasikan."
+        },
+        "q5": {
+          "question": "Bagaimana harga berfungsi?",
+          "answer": "Kami menawarkan harga per minit yang telus. Pelan premium termasuk minit asas dengan penggunaan tambahan dibilkan setiap minit. Pelan perusahaan disesuaikan berdasarkan volum dan keperluan khusus."
+        },
+        "q6": {
+          "question": "Bolehkah saya menyesuaikan suara AI?",
+          "answer": "Ya! Anda boleh memilih daripada pelbagai pilihan suara, melaraskan nada dan gaya bercakap, dan juga mengklon suara tersuai untuk pelan Perusahaan. AI boleh dilatih untuk memadankan gaya komunikasi jenama anda."
+        },
+        "q7": {
+          "question": "Adakah SeaVoice berbilang bahasa?",
+          "answer": "Ya, SeaVoice menyokong perbualan dalam lebih 10 bahasa termasuk Inggeris, Sepanyol, Perancis, Jerman, Itali, Portugis, Belanda, Rusia, Cina, dan Jepun."
+        },
+        "q8": {
+          "question": "Industri mana yang paling mendapat manfaat daripada SeaVoice?",
+          "answer": "SeaVoice berfungsi dengan baik merentasi industri termasuk penjagaan kesihatan, hartanah, hospitaliti, perkhidmatan kewangan, e-dagang, perkhidmatan profesional, dan mana-mana perniagaan yang mengendalikan volum panggilan tinggi atau memerlukan ketersediaan 24/7."
+        },
+        "q9": {
+          "question": "Bolehkah SeaVoice mengendalikan panggilan kecemasan?",
+          "answer": "Walaupun SeaVoice boleh mengendalikan pertanyaan mendesak dan mengalihkan dengan sewajarnya, kami mengesyorkan mengekalkan protokol kecemasan langsung. SeaVoice boleh dikonfigurasikan untuk segera memindahkan panggilan berkaitan kecemasan kepada pengendali manusia."
+        },
+        "q10": {
+          "question": "Bolehkah SeaVoice mengesan panggilan spam?",
+          "answer": "Ya, SeaVoice termasuk pengesanan spam terbina dalam yang boleh mengenal pasti dan menapis panggilan yang mencurigakan, melindungi perniagaan anda daripada gangguan yang tidak diingini sambil memastikan panggilan yang sah masuk."
+        },
+        "q11": {
+          "question": "Bagaimana saya bermula?",
+          "answer": "Bermula adalah mudah! Tempah demo untuk melihat SeaVoice beraksi, kemudian pasukan kami akan membantu anda menyediakan ejen suara anda, mengintegrasikan dengan sistem telefon anda, dan mengkonfigurasikannya untuk keperluan khusus anda. Kebanyakan pelanggan sudah siap dan beroperasi dalam sehari."
+        }
+      },
+      "finalCta": {
+        "title": "Bersedia untuk melihatnya beraksi?",
+        "subtitle": "Dapatkan demo yang diperibadikan dan temui bagaimana SeaVoice boleh mengubah komunikasi pelanggan anda",
+        "bookDemo": "Tempah Demo Hari Ini",
+        "signUp": "Daftar Sekarang"
+      },
+      "dashboard": {
+        "stats": {
+          "totalCalls": "247",
+          "activeCalls": "3",
+          "avgWaitTime": "0:12",
+          "satisfaction": "4.8",
+          "resolutionRate": "92"
+        },
+        "calls": {
+          "sarah": {
+            "customer": "Sarah Johnson",
+            "type": "Tempahan Janji Temu",
+            "status": "selesai",
+            "duration": "3:42",
+            "time": "2 minit lalu",
+            "outcome": "Janji temu dijadualkan untuk Selasa depan jam 2 petang",
+            "tag1": "tempahan",
+            "tag2": "berpuas hati"
+          },
+          "mike": {
+            "customer": "Mike Chen",
+            "type": "Sokongan Teknikal",
+            "status": "dipindahkan",
+            "duration": "1:28",
+            "time": "5 minit lalu",
+            "outcome": "Dipindahkan kepada pakar teknikal - Isu: Masalah log masuk",
+            "tag1": "sokongan",
+            "tag2": "dialihkan"
+          },
+          "emily": {
+            "customer": "Emily Rodriguez",
+            "type": "Pertanyaan Pesanan",
+            "status": "selesai",
+            "duration": "2:15",
+            "time": "8 minit lalu",
+            "outcome": "Status pesanan diberikan - Pakej akan tiba esok",
+            "tag1": "pertanyaan",
+            "tag2": "diselesaikan"
+          },
+          "david": {
+            "customer": "David Wilson",
+            "type": "Soalan Bil",
+            "status": "sedang berjalan",
+            "duration": "1:03",
+            "time": "Baru sahaja",
+            "outcome": "Sedang membincangkan percanggahan bil",
+            "tag1": "bil",
+            "tag2": "aktif"
+          }
+        },
+        "mockCalls": {
+          "customer1": "Sarah Johnson",
+          "type1": "Tempahan Janji Temu",
+          "status1": "selesai",
+          "duration1": "3:42",
+          "time1": "2 minit lalu",
+          "outcome1": "Janji temu dijadualkan untuk Selasa depan jam 2 petang",
+          "customer2": "Mike Chen",
+          "type2": "Sokongan Teknikal",
+          "status2": "dipindahkan",
+          "duration2": "1:28",
+          "time2": "5 minit lalu",
+          "outcome2": "Dipindahkan kepada pakar teknikal - Isu: Masalah log masuk",
+          "customer3": "Emily Rodriguez",
+          "type3": "Pertanyaan Pesanan",
+          "status3": "selesai",
+          "duration3": "2:15",
+          "time3": "8 minit lalu",
+          "outcome3": "Status pesanan diberikan - Pakej akan tiba esok",
+          "customer4": "David Wilson",
+          "type4": "Soalan Bil",
+          "status4": "sedang berjalan",
+          "duration4": "1:03",
+          "time4": "Baru sahaja",
+          "outcome4": "Sedang membincangkan percanggahan bil"
+        }
+      },
+      "testimonials": {
+        "metrics": {
+          "trainingTime": "2 minggu",
+          "trainingTimeLabel": "Masa latihan dikurangkan",
+          "efficiency": "20%",
+          "efficiencyLabel": "Peningkatan kecekapan",
+          "satisfaction": "94%",
+          "satisfactionLabel": "Kepuasan pelanggan",
+          "simultaneousCalls": "500+",
+          "simultaneousCallsLabel": "Panggilan serentak"
+        },
+        "quote": "SeaVoice mengurangkan masa latihan ejen kami sebanyak 2 minggu dan meningkatkan kecekapan sebanyak 20%",
+        "author": "Sarah Johnson",
+        "role": "Naib Presiden Kejayaan Pelanggan",
+        "company": "TechCorp Inc."
+      }
+    },
+    "pricing": {
+      "hero": {
+        "title": "Harga Mudah, Telus",
+        "subtitle": "Penyelesaian AI suara yang direka untuk perkhidmatan pelanggan masuk dan kempen keluar. Dibina di atas asas SeaChat Premium ($29.99) dan SeaX Omni-saluran ($99)."
+      },
+      "plans": {
+        "inboundOnly": {
+          "name": "Masuk Sahaja",
+          "tagline": "Sesuai untuk Perkhidmatan Pelanggan",
+          "price": "$29.99",
+          "period": "/bulan",
+          "description": "Ideal untuk perniagaan yang memerlukan penyelesaian panggilan masuk dengan AI Suara (berdasarkan pelan SeaChat Premium)",
+          "features": {
+            "aiCallHandling": "Pengendalian panggilan berasaskan AI (panggilan masuk sahaja)",
+            "voiceAIPrice": "AI Suara bermula pada $0.12 seminit (model ChatGPT-4o mini)",
+            "phoneNumber": "Nombor telefon termasuk ($2-$3/bulan dengan alamat E911)",
+            "callRecording": "Rakaman dan ringkasan panggilan",
+            "transferHuman": "Pemindahan kepada sokongan ejen manusia",
+            "multiLanguage": "Sokongan suara berbilang bahasa",
+            "sttLanguages": "10+ bahasa Ucapan-ke-Teks",
+            "ttsLanguages": "10+ bahasa Teks-ke-Ucapan dengan suara dari Azure, ElevenLabs, OpenAI",
+            "crmIntegrations": "Integrasi CRM (Salesforce, HubSpot)",
+            "calendarIntegration": "Integrasi kalendar (Google, Outlook)",
+            "callAnalytics": "Analitik dan pelaporan panggilan",
+            "emailNotifications": "Pemberitahuan e-mel untuk panggilan"
+          },
+          "limitations": {
+            "noOutbound": "Tiada keupayaan panggilan keluar",
+            "noBulkCampaigns": "Tiada ciri kempen pukal"
+          },
+          "cta": "Mula dengan Masuk Sahaja",
+          "poweredBy": "Dikuasakan oleh SeaChat"
+        },
+        "inboundOutbound": {
+          "name": "Masuk + Keluar",
+          "tagline": "Tingkatkan Skala Kempen Suara Anda",
+          "price": "$99",
+          "period": "/bulan",
+          "description": "Sesuai untuk kempen AI suara berskala besar (setara dengan pelan Omni-saluran SeaX untuk pengguna pertama)",
+          "badge": "Paling Popular",
+          "features": {
+            "everythingInbound": "Semua dalam pelan Masuk Sahaja",
+            "outboundCalling": "Panggilan keluar dan kempen",
+            "bulkCampaigns": "Kempen AI suara pukal",
+            "voiceAIPrice": "AI Suara bermula pada $0.12 seminit (model ChatGPT-4o mini)",
+            "additionalUsers": "Pengguna tambahan: $49/bulan setiap satu",
+            "multipleNumbers": "Berbilang nombor telefon disokong",
+            "campaignScheduling": "Penjadualan dan automasi kempen",
+            "advancedRouting": "Penghalaan panggilan lanjutan",
+            "customVoiceTraining": "Latihan suara tersuai",
+            "voicemailDrop": "Keupayaan mel suara ($0.05 setiap mel suara)",
+            "apiAccess": "Akses API RESTful",
+            "seachatIntegration": "Integrasi SeaChat untuk sokongan berbilang saluran",
+            "advancedAnalytics": "Papan pemuka analitik lanjutan",
+            "prioritySupport": "Sokongan keutamaan"
+          },
+          "cta": "Mula dengan Masuk + Keluar",
+          "poweredBy": "Dikuasakan oleh SeaX + SeaChat"
+        },
+        "custom": {
+          "name": "Pelan Tersuai",
+          "tagline": "Penyelesaian Gred Perusahaan",
+          "price": "Hubungi Kami",
+          "period": "",
+          "description": "Penyelesaian khusus yang disesuaikan dengan keperluan perniagaan tertentu (serupa dengan pelan Perusahaan SeaChat/SeaX)",
+          "customPriceMessage": "Mari kita bina projek",
+          "features": {
+            "everythingInboundOutbound": "Semua dalam pelan Masuk + Keluar",
+            "multipleWorkspaces": "Ruang kerja berbilang (sesuai untuk agensi)",
+            "workspaceAgents": "Setiap ruang kerja mempunyai berbilang ejen AI dan nombor telefon",
+            "customPricing": "Harga tersuai setiap minit berdasarkan volum",
+            "accountManager": "Pengurus akaun khusus",
+            "uptimeSLA": "SLA waktu beroperasi 99.99%",
+            "compliance": "Pematuhan HIPAA/PCI tersedia",
+            "whiteLabel": "Penyelesaian label putih",
+            "customAPI": "Integrasi API tersuai",
+            "advancedSecurity": "Ciri-ciri keselamatan lanjutan",
+            "voiceCloning": "Kloning suara tersuai",
+            "phoneSupport": "Sokongan telefon keutamaan",
+            "technicalSupport": "Garis panduan reka bentuk profesional dan sokongan teknikal",
+            "onPremise": "Pilihan penggunaan di premis"
+          },
+          "cta": "Hubungi Kami"
+        }
+      },
+      "productRelationship": {
+        "title": "Bagaimana SeaVoice Berhubung dengan SeaChat & SeaX",
+        "seachatIntegration": {
+          "title": "🔗 Integrasi SeaChat",
+          "description": "Pelan Masuk Sahaja SeaVoice ($29.99/bulan) dibina di atas asas pelan SeaChat Premium, menyediakan keupayaan AI suara untuk panggilan masuk pada $0.12 seminit.",
+          "subtitle": "Sesuai untuk perniagaan yang ingin menambah AI suara pada persediaan SeaChat mereka yang sedia ada."
+        },
+        "seaxIntegration": {
+          "title": "📞 Integrasi SeaX",
+          "description": "Pelan Masuk + Keluar SeaVoice ($99/bulan) mencerminkan harga Omni-saluran SeaX, membolehkan kempen suara berskala besar dengan pengendalian panggilan balik.",
+          "subtitle": "Ideal untuk perniagaan yang menjalankan kempen keluar yang memerlukan liputan AI suara yang komprehensif."
+        },
+        "completePicture": {
+          "title": "✨ Gambaran Lengkap",
+          "description": "Semua panggilan AI Suara merentasi SeaChat, SeaX, dan SeaVoice menggunakan kadar $0.12 seminit yang sama dengan model ChatGPT-4o mini. Apabila kenalan memanggil balik selepas kempen keluar, SeaVoice mengendalikan panggilan masuk ini dengan lancar dengan kecerdasan AI yang sama."
+        }
+      },
+      "faq": {
+        "title": "Soalan Lazim",
+        "subtitle": "Semua yang anda perlu tahu tentang harga dan ciri-ciri SeaVoice",
+        "question1": "Bagaimana harga SeaVoice berkaitan dengan SeaChat dan SeaX?",
+        "answer1": "Pelan Masuk Sahaja SeaVoice ($29.99/bulan) adalah berdasarkan pelan SeaChat Premium, berfokus pada AI suara masuk. Pelan Masuk + Keluar ($99/bulan) mencerminkan harga Omni-saluran SeaX untuk kempen suara komprehensif. Semua panggilan AI suara bermula pada $0.12 seminit menggunakan model ChatGPT-4o mini.",
+        "question2": "Apakah perbezaan antara pelan Masuk Sahaja dan Masuk + Keluar?",
+        "answer2": "Masuk Sahaja ($29.99/bulan) mengendalikan panggilan masuk dengan AI, sesuai untuk perkhidmatan pelanggan. Masuk + Keluar ($99/bulan untuk pengguna pertama) menambah keupayaan kempen pukal dan panggilan keluar, sesuai untuk pasukan jualan dan pemasaran yang menjalankan kempen suara berskala besar.",
+        "question3": "Bolehkah saya mengekalkan nombor telefon perniagaan saya yang sedia ada?",
+        "answer3": "Ya, anda boleh mengekalkan nombor perniagaan anda yang sedia ada dan memajukan panggilan ke SeaVoice, atau kami boleh menyediakan nombor baru. Setiap nombor telefon berharga $2-$3/bulan dengan pendaftaran alamat E911.",
+        "question4": "Berapakah kos sebenar panggilan AI suara?",
+        "answer4": "Semua panggilan AI suara bermula pada $0.12 seminit menggunakan model ChatGPT-4o mini. Ini adalah kadar yang sama merentasi pelan SeaChat Premium dan SeaVoice. Model peringkat yang lebih tinggi seperti ChatGPT-4o berharga $0.80 seminit dan tersedia pada pelan tersuai.",
+        "question5": "Apa yang berlaku apabila kenalan memanggil balik selepas kempen keluar?",
+        "answer5": "Dengan pelan Masuk + Keluar, apabila kenalan memanggil balik selepas menerima panggilan kempen, AI Suara masuk kami akan secara automatik mengendalikan panggilan ini, menyediakan kesinambungan yang lancar dalam komunikasi pelanggan anda.",
+        "question6": "Bolehkah saya menaik taraf dari Masuk Sahaja ke Masuk + Keluar?",
+        "answer6": "Sudah tentu! Anda boleh menaik taraf pelan anda pada bila-bila masa. Peningkatan berkuat kuasa serta-merta, dan anda akan mendapat akses kepada panggilan keluar, ciri-ciri kempen, dan tempat duduk pengguna tambahan.",
+        "question7": "Adakah anda menawarkan diskaun volum untuk pelanggan dengan penggunaan tinggi?",
+        "answer7": "Ya, Pelan Tersuai kami menawarkan harga yang dirundingkan berdasarkan volum dan corak penggunaan khusus anda. Hubungi pasukan jualan kami untuk membincangkan harga tersuai yang berskala dengan keperluan perniagaan anda."
+      },
+      "cta": {
+        "title": "Bersedia untuk Bermula?",
+        "subtitle": "Mulakan percubaan percuma anda hari ini dan alami kuasa automasi suara AI",
+        "signUpFree": "Daftar Percuma",
+        "scheduleDemo": "Jadualkan Demo"
+      }
+    },
+    "footer": {
+      "description": "Automasi 80% panggilan pelanggan dengan ejen suara AI yang berbunyi seperti manusia dan berintegrasi dengan lancar dengan perniagaan anda.",
+      "platform": {
+        "title": "Platform",
+        "overview": "Gambaran Keseluruhan Platform",
+        "landlineMobile": "Suara Talian Tetap & Mudah Alih",
+        "voipSipByoc": "Suara VoIP & SIP & BYOC",
+        "lineCallPlus": "Line Call Plus untuk Perniagaan",
+        "whatsAppVoice": "API Suara WhatsApp untuk Perniagaan",
+        "speechToText": "Ucapan ke Teks",
+        "textToSpeech": "Teks ke Ucapan",
+        "endToEndLlms": "LLM Hujung ke Hujung"
+      },
+      "inboundSolutions": {
+        "title": "Penyelesaian Masuk",
+        "virtualAssistant": "Pembantu Maya 24/7",
+        "callTransfer": "Pemindahan Panggilan Pintar",
+        "ivrReplacement": "Penggantian IVR",
+        "mentalHealth": "Pendamping Kesihatan Mental",
+        "scamShield": "Perlindungan Scam Shield",
+        "technicalSupport": "Sokongan Teknikal",
+        "orderTracking": "Status & Penjejakan Pesanan",
+        "paymentProcessing": "Pemprosesan Pembayaran",
+        "appointmentBooking": "Tempahan Janji Temu"
+      },
+      "outboundSolutions": {
+        "title": "Penyelesaian Keluar",
+        "leadGeneration": "Penjanaan & Kelayakan Petunjuk",
+        "collections": "Perkhidmatan Kutipan",
+        "reactivation": "Pengaktifan Semula Pelanggan",
+        "seniorChecks": "Panggilan Pemeriksaan Warga Emas",
+        "campaigns": "Kempen Skala Besar",
+        "proactiveSupport": "Sokongan Proaktif",
+        "renewals": "Pembaharuan Langganan",
+        "surveys": "Tinjauan Pelanggan",
+        "fraudAlerts": "Makluman Penipuan"
+      },
+      "company": {
+        "title": "Syarikat",
+        "pricing": "Harga",
+        "productWiki": "Wiki Produk",
+        "apiReferences": "Rujukan API"
+      },
+      "legal": {
+        "copyright": "© 2020 - {{year}} Seasalt.ai. Hak cipta terpelihara.",
+        "privacyPolicy": "Dasar Privasi",
+        "termsOfService": "Syarat Perkhidmatan"
+      },
+      "stats": {
+        "callsHandled": "1 Juta+ Panggilan Dikendalikan",
+        "activeAgents": "50K+ Ejen Aktif",
+        "uptime": "99.99% Waktu Beroperasi"
+      },
+      "cta": {
+        "title": "Bersedia untuk Mengautomasikan 80% Panggilan Pelanggan Anda?",
+        "description": "Sertai ratusan perniagaan yang menggunakan ejen AI SeaVoice untuk mengendalikan panggilan pelanggan 24/7, mengurangkan kos, dan meningkatkan kepuasan pelanggan.",
+        "getStartedFree": "Mula Percuma",
+        "bookDemo": "Tempah Demo"
+      }
+    },
+    "priceCalculator": {
+      "hero": {
+        "title": "Kalkulator Harga Bulanan",
+        "subtitle": "Kira kos bulanan tepat anda berdasarkan keperluan penggunaan anda. Semua harga adalah untuk AS/Kanada dengan caj telefon termasuk."
+      },
+      "configure": {
+        "title": "Konfigurasi Pelan Anda"
+      },
+      "planType": {
+        "label": "1. Pilih Jenis Pelan Anda",
+        "inbound": {
+          "title": "Masuk Sahaja - $29.99/bulan",
+          "description": "Sesuai untuk perkhidmatan pelanggan"
+        },
+        "inboundOutbound": {
+          "title": "Masuk + Keluar - $99/bulan",
+          "description": "Tingkatkan skala kempen suara anda"
+        }
+      },
+      "phoneNumbers": {
+        "label": "2. Nombor Telefon (dengan alamat E911)",
+        "local": {
+          "label": "Nombor Tempatan ($2/bulan setiap satu)"
+        },
+        "tollFree": {
+          "label": "Nombor Bebas Tol ($3/bulan setiap satu)"
+        }
+      },
+      "voiceAI": {
+        "label": "3. Minit AI Suara ($0.12/minit - ChatGPT-4o mini)",
+        "range": {
+          "min": "0 min",
+          "max": "5,000 min",
+          "current": "minit"
+        }
+      },
+      "humanAgent": {
+        "label": "4. Minit Ejen Manusia ($0.015/minit)",
+        "range": {
+          "min": "0 min",
+          "max": "2,000 min",
+          "current": "minit"
+        }
+      },
+      "breakdown": {
+        "title": "Pecahan Kos Bulanan",
+        "inboundPlan": "Pelan Masuk Sahaja",
+        "inboundOutboundPlan": "Pelan Masuk + Keluar",
+        "phoneNumbersTitle": "Nombor Telefon",
+        "phoneNumbers": {
+          "local": "tempatan",
+          "tollFree": "bebas tol"
+        },
+        "voiceAI": {
+          "title": "Minit AI Suara",
+          "calculation": "min × $0.12"
+        },
+        "humanAgent": {
+          "title": "Minit Ejen Manusia",
+          "calculation": "min × $0.015"
+        },
+        "total": "Jumlah Kos Bulanan"
+      },
+      "features": {
+        "usaCanada": "Liputan AS/Kanada termasuk",
+        "phoneCharges": "Semua caj telefon termasuk",
+        "e911": "Pendaftaran alamat E911 termasuk",
+        "recording": "Rakaman dan analitik panggilan",
+        "outboundCampaigns": "Kempen keluar dan panggilan pukal"
+      },
+      "cta": {
+        "getStartedInbound": "Mula dengan Masuk Sahaja",
+        "getStartedInboundOutbound": "Mula dengan Masuk + Keluar",
+        "scheduleDemo": "Jadualkan Demo"
+      },
+      "notes": {
+        "title": "Nota Penting",
+        "usaCanadaOnly": "Harga yang ditunjukkan adalah untuk AS/Kanada sahaja",
+        "phoneChargesIncluded": "Semua caj panggilan telefon termasuk dalam kadar yang ditunjukkan",
+        "voiceAIModel": "AI Suara menggunakan model ChatGPT-4o mini pada $0.12/minit",
+        "humanAgentMinutes": "Minit ejen manusia adalah untuk pemindahan panggilan dan panggilan langsung"
+      }
+    },
+    "platform": {
+      "hero": {
+        "title": "Platform Suara AI Lengkap",
+        "description": "Temui teknologi yang menggerakkan interaksi suara seperti manusia, integrasi yang lancar, dan wawasan yang boleh diambil tindakan untuk perniagaan anda.",
+        "cta": "Terokai Keupayaan Platform"
+      },
+      "features": {
+        "aiVoice": {
+          "title": "Ejen Suara AI",
+          "description": "Ejen suara seperti manusia yang mengendalikan panggilan masuk dan keluar 24/7 dengan konsistensi sempurna.",
+          "feature1": "Ketersediaan 24/7",
+          "feature2": "Perbualan seperti manusia",
+          "feature3": "Jeda dinamik dan perubahan nada",
+          "feature4": "Sokongan berbilang bahasa"
+        },
+        "conversationalAI": {
+          "title": "AI Perbualan",
+          "description": "AI lanjutan yang belajar daripada dokumen anda dan mengingati interaksi masa lalu untuk perkhidmatan yang diperibadikan.",
+          "feature1": "Teknologi RAG",
+          "feature2": "Memori jangka panjang",
+          "feature3": "Pangkalan pengetahuan tersuai",
+          "feature4": "Kesedaran konteks"
+        },
+        "analytics": {
+          "title": "Analitik & Wawasan",
+          "description": "Transkrip masa nyata, analisis sentimen, dan wawasan yang boleh diambil tindakan dari setiap perbualan.",
+          "feature1": "Transkrip masa nyata",
+          "feature2": "Analisis sentimen",
+          "feature3": "Metrik prestasi",
+          "feature4": "Analitik volum panggilan"
+        },
+        "telephony": {
+          "title": "Telefoni & Ketersambungan",
+          "description": "Integrasi fleksibel dengan pilihan VoIP, SIP, dan BYOC untuk ketersambungan yang lancar.",
+          "feature1": "Integrasi VoIP",
+          "feature2": "SIP trunking",
+          "feature3": "Sokongan BYOC",
+          "feature4": "Liputan global"
+        },
+        "integrations": {
+          "title": "Integrasi & Saluran",
+          "description": "Sambungkan dengan alat anda yang sedia ada dan jangkau pelanggan merentasi pelbagai saluran.",
+          "feature1": "Integrasi CRM",
+          "feature2": "API Suara WhatsApp",
+          "feature3": "Panggilan Perniagaan LINE",
+          "feature4": "Penyegerakan kalendar"
+        },
+        "speech": {
+          "title": "Teknologi Ucapan",
+          "description": "Ucapan-ke-teks dan teks-ke-ucapan terkemuka industri dengan profil suara tersuai.",
+          "feature1": "STT ketepatan tinggi",
+          "feature2": "TTS semula jadi",
+          "feature3": "Kloning suara",
+          "feature4": "10+ bahasa"
+        }
+      },
+      "technology": {
+        "title": "Dibina di atas Teknologi Terkemuka Industri",
+        "subtitle": "Dikuasakan oleh kepakaran pasukan Kaldi asal dalam pengecaman ucapan",
+        "speechRecognition": {
+          "title": "Pengecaman Ucapan",
+          "description": "Teknologi STT lanjutan dengan ketepatan 99%+ , walaupun dengan bunyi latar belakang dan jargon industri.",
+          "metric1": "Ketepatan 99%+",
+          "metric2": "Pemprosesan masa nyata",
+          "metric3": "Pengurangan bunyi"
+        },
+        "nlp": {
+          "title": "Pemprosesan Bahasa Semula Jadi",
+          "description": "AI peka konteks yang memahami niat dan mengekalkan aliran perbualan semula jadi.",
+          "metric1": "Pengecaman niat",
+          "metric2": "Pengekalan konteks",
+          "metric3": "Kecerdasan emosi"
+        },
+        "voiceSynthesis": {
+          "title": "Sintesis Suara",
+          "description": "Teks-ke-ucapan seperti manusia dengan suara yang boleh disesuaikan dan prosodi semula jadi.",
+          "metric1": "Prosodi semula jadi",
+          "metric2": "Kloning suara",
+          "metric3": "Kawalan emosi"
+        }
+      },
+      "landlineMobile": {
+        "hero": {
+          "title": "Penyelesaian Suara Talian Tetap & Mudah Alih",
+          "subtitle": "Ubah sistem telefon tradisional anda dengan ejen suara berkuasa AI yang berfungsi dengan lancar dengan talian tetap dan rangkaian mudah alih di seluruh dunia.",
+          "cta": "Daftar Percuma"
+        },
+        "features": {
+          "0": {
+            "title": "Integrasi Talian Tetap Tradisional",
+            "description": "Sambungkan infrastruktur talian tetap anda yang sedia ada dengan keupayaan suara AI secara lancar.",
+            "benefits": {
+              "0": "Kekalkan nombor telefon anda yang sedia ada",
+              "1": "Tiada perubahan perkakasan diperlukan",
+              "2": "Sandaran AI segera untuk talian sibuk"
+            }
+          },
+          "1": {
+            "title": "Ketersambungan Rangkaian Mudah Alih",
+            "description": "Integrasi langsung dengan pembawa mudah alih untuk kempen keluar dan penglibatan pelanggan.",
+            "benefits": {
+              "0": "Jangkau pelanggan di peranti mudah alih mereka",
+              "1": "Kadar penghantaran tinggi",
+              "2": "Pilihan fallback SMS"
+            }
+          },
+          "2": {
+            "title": "Liputan Global",
+            "description": "Berhubung dengan pelanggan di seluruh dunia melalui kerjasama rangkaian pembawa kami yang luas.",
+            "benefits": {
+              "0": "200+ negara disokong",
+              "1": "Kehadiran nombor tempatan",
+              "2": "Kadar antarabangsa yang kompetitif"
+            }
+          },
+          "title": "Ketersambungan Suara Universal",
+          "subtitle": "Berhubung dengan mana-mana sistem telefon, di mana-mana sahaja di dunia"
+        },
+        "useCases": {
+          "0": {
+            "title": "Peringatan Janji Temu",
+            "description": "Secara automatik memanggil pesakit, pelanggan, atau klien untuk mengesahkan janji temu yang akan datang.",
+            "metrics": {
+              "0": "Pengurangan 40% dalam ketidakhadiran",
+              "1": "Kadar kejayaan hubungan 95%",
+              "2": "Panggilan automatik 24/7"
+            }
+          },
+          "1": {
+            "title": "Pemberitahuan Kecemasan",
+            "description": "Memberitahu kumpulan besar dengan pantas semasa kecemasan atau kemas kini kritikal.",
+            "metrics": {
+              "0": "1000+ panggilan seminit",
+              "1": "Sokongan berbilang bahasa",
+              "2": "Pengesahan penghantaran"
+            }
+          },
+          "2": {
+            "title": "Tinjauan Pelanggan",
+            "description": "Lakukan tinjauan selepas perkhidmatan untuk mengumpul maklum balas pelanggan yang berharga.",
+            "metrics": {
+              "0": "Kadar balasan 3x lebih tinggi",
+              "1": "Analisis sentimen masa nyata",
+              "2": "Pelaporan automatik"
+            }
+          },
+          "title": "Kes Penggunaan Popular",
+          "subtitle": "Lihat bagaimana perniagaan memanfaatkan automasi suara talian tetap dan mudah alih"
+        },
+        "specs": {
+          "title": "Kebolehpercayaan Gred Perusahaan",
+          "subtitle": "Dibina untuk komunikasi misi-kritikal dengan infrastruktur gred pembawa dan jaminan waktu beroperasi 99.99%.",
+          "security": {
+            "title": "Keselamatan & Pematuhan",
+            "description": "Infrastruktur yang mematuhi SOC 2, HIPAA, dan PCI"
+          },
+          "monitoring": {
+            "title": "Pemantauan 24/7",
+            "description": "Pemantauan sistem masa nyata dan failover segera"
+          },
+          "infrastructure": {
+            "title": "Infrastruktur Global",
+            "description": "Pusat data berlebihan merentasi pelbagai wilayah"
+          },
+          "technical": {
+            "title": "Spesifikasi Teknikal",
+            "concurrentCalls": {
+              "label": "Panggilan Serentak",
+              "value": "Tanpa Had"
+            },
+            "audioQuality": {
+              "label": "Kualiti Audio",
+              "value": "Suara HD (G.722)"
+            },
+            "latency": {
+              "label": "Latensi",
+              "value": "< 150ms"
+            },
+            "uptimeSLA": {
+              "label": "SLA Waktu Beroperasi",
+              "value": "99.99%"
+            },
+            "globalCoverage": {
+              "label": "Liputan Global",
+              "value": "200+ Negara"
+            }
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Memodenkan Sistem Telefon Anda?",
+          "subtitle": "Sambungkan infrastruktur talian tetap dan mudah alih anda dengan ejen suara AI dalam beberapa minit",
+          "button": "Jadualkan Panggilan Integrasi"
+        }
+      },
+      "endToEndLLMs": {
+        "hero": {
+          "title": "Penyelesaian LLM Hujung ke Hujung",
+          "subtitle": "Integrasi model bahasa besar lengkap dari input ucapan hingga penjanaan balasan pintar. Dikuasakan oleh AI lanjutan yang memahami konteks, mengekalkan perbualan, dan melaksanakan logik perniagaan.",
+          "cta": "Terokai Keupayaan LLM"
+        },
+        "features": {
+          "title": "Integrasi LLM Lengkap",
+          "subtitle": "Dari pemahaman ucapan hingga penjanaan balasan pintar",
+          "advancedModels": {
+            "title": "Model Bahasa Lanjutan",
+            "description": "Model bahasa besar terkini yang dioptimumkan untuk AI perbualan dan aplikasi perniagaan.",
+            "gpt4Integration": "Integrasi GPT-4",
+            "customFineTuning": "Penalaan halus tersuai",
+            "domainSpecific": "Model khusus domain",
+            "multiModal": "Sokongan berbilang mod"
+          },
+          "knowledgeIntegration": {
+            "title": "Integrasi Pengetahuan",
+            "description": "Integrasikan pangkalan pengetahuan perniagaan anda dengan lancar dengan teknologi RAG (Retrieval-Augmented Generation).",
+            "documentIngestion": "Pengambilan dokumen",
+            "realTimeUpdates": "Kemas kini masa nyata",
+            "semanticSearch": "Carian semantik",
+            "contextAwareness": "Kesedaran konteks"
+          },
+          "enterpriseSecurity": {
+            "title": "Keselamatan Perusahaan",
+            "description": "Keselamatan dan pematuhan gred perusahaan untuk perbualan perniagaan yang sensitif.",
+            "dataEncryption": "Penyulitan data",
+            "accessControls": "Kawalan akses",
+            "auditLogging": "Pencatatan audit",
+            "complianceReady": "Sedia pematuhan"
+          }
+        },
+        "capabilities": {
+          "title": "Keupayaan LLM Lanjutan",
+          "subtitle": "Pemahaman dan penjanaan bahasa yang canggih untuk aplikasi perniagaan",
+          "nlu": {
+            "category": "Pemahaman Bahasa Semula Jadi",
+            "description": "Pemahaman lanjutan mengenai niat pengguna, konteks, dan komunikasi bernuansa.",
+            "intentAccuracy": "Ketepatan niat: 98%",
+            "contextRetention": "Pengekalan konteks: 95%",
+            "sentimentAnalysis": "Analisis sentimen: 96%"
+          },
+          "conversationalFlow": {
+            "category": "Aliran Perbualan",
+            "description": "Mengekalkan perbualan yang semula jadi, koheren merentasi pelbagai giliran dan topik.",
+            "multiTurnCoherence": "Koherensi berbilang giliran: 94%",
+            "topicSwitching": "Penukaran topik: 92%",
+            "contextPreservation": "Pengekalan konteks: 97%"
+          },
+          "businessLogic": {
+            "category": "Integrasi Logik Perniagaan",
+            "description": "Melaksanakan aliran kerja perniagaan yang kompleks dan proses pembuatan keputusan.",
+            "workflowAccuracy": "Ketepatan aliran kerja: 99%",
+            "decisionConsistency": "Konsistensi keputusan: 98%",
+            "errorHandling": "Pengendalian ralat: 95%"
+          },
+          "personalization": {
+            "category": "Pemperibadian",
+            "description": "Menyesuaikan balasan berdasarkan sejarah pengguna, pilihan, dan konteks perniagaan.",
+            "personalizationScore": "Skor pemperibadian: 93%",
+            "userSatisfaction": "Kepuasan pengguna: 96%",
+            "engagementRate": "Kadar penglibatan: 89%"
+          }
+        },
+        "architecture": {
+          "title": "Seni Bina Hujung ke Hujung",
+          "subtitle": "Saluran paip lengkap dari input ucapan hingga balasan suara pintar",
+          "speechInput": {
+            "title": "Pemprosesan Input Ucapan",
+            "description": "Tukar ucapan ke teks dengan ketepatan terkemuka industri",
+            "kaldiASR": "ASR berasaskan Kaldi",
+            "noiseReduction": "Pengurangan bunyi",
+            "speakerDiarization": "Diarisasi pembesar suara"
+          },
+          "llmProcessing": {
+            "title": "Pemprosesan Model Bahasa",
+            "description": "Pemprosesan LLM lanjutan dengan integrasi konteks perniagaan",
+            "gpt4Turbo": "GPT-4 Turbo",
+            "customFineTuning": "Penalaan halus tersuai",
+            "ragIntegration": "Integrasi RAG"
+          },
+          "responseGeneration": {
+            "title": "Penjanaan Balasan",
+            "description": "Jana balasan yang sesuai secara kontekstual dan selaras dengan perniagaan",
+            "templateSystems": "Sistem templat",
+            "dynamicContent": "Kandungan dinamik",
+            "complianceChecking": "Pemeriksaan pematuhan"
+          },
+          "speechOutput": {
+            "title": "Sintesis Output Ucapan",
+            "description": "Tukar balasan teks ke ucapan yang berbunyi semula jadi",
+            "neuralTTS": "TTS neural",
+            "voiceCloning": "Kloning suara",
+            "emotionControl": "Kawalan emosi"
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan Pintar",
+          "subtitle": "Ubah operasi perniagaan dengan perbualan berkuasa AI",
+          "customerSupport": {
+            "title": "Sokongan Pelanggan Pintar",
+            "description": "Kendalikan pertanyaan pelanggan yang kompleks dengan pemahaman seperti manusia dan keupayaan penyelesaian masalah.",
+            "reducedEscalation": "Kadar eskalasi dikurangkan",
+            "fasterResolution": "Masa resolusi lebih cepat",
+            "consistentQuality": "Kualiti perkhidmatan yang konsisten",
+            "availability24x7": "Ketersediaan 24/7"
+          },
+          "salesConversations": {
+            "title": "Perbualan Jualan",
+            "description": "Libatkan prospek dengan perbualan jualan yang diperibadikan yang menyesuaikan diri dengan keperluan dan pilihan pelanggan.",
+            "higherConversion": "Kadar penukaran lebih tinggi",
+            "personalizedRecommendations": "Cadangan yang diperibadikan",
+            "objectionHandling": "Pengendalian bantahan",
+            "leadQualification": "Kelayakan petunjuk"
+          },
+          "technicalSupport": {
+            "title": "Sokongan Teknikal",
+            "description": "Sediakan bantuan teknikal peringkat pakar dengan akses kepada pangkalan pengetahuan yang komprehensif.",
+            "complexTroubleshooting": "Penyelesaian masalah kompleks",
+            "stepByStepGuidance": "Panduan langkah demi langkah",
+            "documentationAccess": "Akses dokumentasi",
+            "escalationIntelligence": "Kecerdasan eskalasi"
+          },
+          "healthcareAssistance": {
+            "title": "Bantuan Penjagaan Kesihatan",
+            "description": "Sokong aliran kerja penjagaan kesihatan dengan AI yang mematuhi HIPAA yang memahami terminologi perubatan.",
+            "medicalKnowledge": "Pangkalan pengetahuan perubatan",
+            "appointmentScheduling": "Penjadualan janji temu",
+            "symptomAssessment": "Penilaian gejala",
+            "careCoordination": "Koordinasi penjagaan"
+          }
+        },
+        "performance": {
+          "title": "Prestasi Perusahaan",
+          "description": "Penyelesaian LLM hujung ke hujung kami menyampaikan prestasi gred perusahaan dengan pemprosesan masa nyata, ketepatan tinggi, dan kebolehskalaan yang boleh dipercayai untuk aplikasi perniagaan misi-kritikal.",
+          "realTimeTitle": "Pemprosesan Masa Nyata",
+          "realTimeDesc": "Masa balasan sub-saat untuk perbualan semula jadi",
+          "securityTitle": "Keselamatan Perusahaan",
+          "securityDesc": "Infrastruktur yang mematuhi SOC 2, HIPAA, dan PCI",
+          "qualityTitle": "Kualiti Perbualan",
+          "qualityDesc": "Interaksi seperti manusia dengan kesedaran konteks",
+          "metricsTitle": "Metrik Prestasi",
+          "responseLatency": "Latensi Balasan",
+          "responseLatencyValue": "< 500ms",
+          "intentAccuracy": "Ketepatan Niat",
+          "intentAccuracyValue": "98.2%",
+          "contextRetention": "Pengekalan Konteks",
+          "contextRetentionValue": "95.8%",
+          "uptimeSLA": "SLA Waktu Beroperasi",
+          "uptimeSLAValue": "99.99%",
+          "concurrentUsers": "Pengguna Serentak",
+          "concurrentUsersValue": "10,000+"
+        },
+        "cta": {
+          "title": "Bersedia untuk Menggunakan Perbualan Pintar?",
+          "subtitle": "Ubah perniagaan anda dengan penyelesaian LLM hujung ke hujung yang memahami, menaakul, dan membalas dengan bijak",
+          "scheduleDemoButton": "Jadualkan Demo LLM",
+          "exploreArchButton": "Terokai Seni Bina"
+        }
+      },
+      "lineCallPlus": {
+        "hero": {
+          "title": "LINE Call Plus untuk Perniagaan",
+          "description": "Ubah akaun Perniagaan LINE anda dengan panggilan suara berkuasa AI. Berhubung dengan pelanggan merentasi pasaran Asia-Pasifik melalui platform pemesejan pilihan mereka.",
+          "cta": "Mula Integrasi LINE"
+        },
+        "marketReach": {
+          "title": "Jangkau Jutaan Merentasi Asia-Pasifik",
+          "subtitle": "LINE mendominasi komunikasi perniagaan di pasaran Asia utama",
+          "activeUsers": "Pengguna Aktif",
+          "marketPenetration": "Penembusan Pasaran"
+        },
+        "features": {
+          "title": "Ciri-ciri Perniagaan LINE yang Berkuasa",
+          "subtitle": "Semua yang anda perlukan untuk menyediakan pengalaman suara yang luar biasa di LINE",
+          "nativeIntegration": {
+            "title": "Integrasi LINE Asli",
+            "description": "Integrasikan panggilan suara secara lancar terus dalam platform pemesejan LINE.",
+            "benefit1": "Panggilan satu ketik dari sembang",
+            "benefit2": "Sejarah perbualan bersepadu",
+            "benefit3": "Sokongan media kaya"
+          },
+          "businessAccount": {
+            "title": "Sokongan Akaun Perniagaan",
+            "description": "Sokongan penuh untuk akaun Perniagaan LINE dengan ciri-ciri dan analitik lanjutan.",
+            "benefit1": "Profil perniagaan yang disahkan",
+            "benefit2": "Pilihan penjenamaan tersuai",
+            "benefit3": "Pengurusan pengguna lanjutan"
+          },
+          "asiaPacific": {
+            "title": "Fokus Asia-Pasifik",
+            "description": "Dioptimumkan untuk pasaran Asia utama di mana LINE mendominasi komunikasi perniagaan.",
+            "benefit1": "Sokongan bahasa tempatan",
+            "benefit2": "Pematuhan serantau",
+            "benefit3": "Penyesuaian budaya"
+          }
+        },
+        "useCases": {
+          "title": "Ubah Interaksi Pelanggan",
+          "subtitle": "Lihat bagaimana perniagaan menggunakan LINE Call Plus untuk meningkatkan hubungan pelanggan",
+          "customerSupport": {
+            "title": "Sokongan Pelanggan",
+            "description": "Sediakan sokongan suara segera terus dalam perbualan LINE.",
+            "metric1": "Resolusi 50% lebih cepat",
+            "metric2": "90% kepuasan pelanggan",
+            "metric3": "Ketersediaan 24/7"
+          },
+          "salesConsultations": {
+            "title": "Konsultasi Jualan",
+            "description": "Tukar pertanyaan sembang kepada panggilan suara untuk pengalaman jualan yang diperibadikan.",
+            "metric1": "Penukaran 3x lebih tinggi",
+            "metric2": "Cadangan yang diperibadikan",
+            "metric3": "Pembinaan kepercayaan"
+          },
+          "appointmentBooking": {
+            "title": "Tempahan Janji Temu",
+            "description": "Membolehkan penjadualan janji temu berasaskan suara dalam akaun Perniagaan LINE.",
+            "metric1": "Tempahan satu ketik",
+            "metric2": "Integrasi kalendar",
+            "metric3": "Peringatan automatik"
+          }
+        },
+        "integration": {
+          "title": "Proses Integrasi Mudah",
+          "subtitle": "Mulakan dengan LINE Call Plus dalam beberapa langkah sahaja",
+          "step1": {
+            "title": "Sambungkan Perniagaan LINE",
+            "description": "Pautkan akaun Perniagaan LINE anda yang sedia ada atau cipta yang baru dengan persediaan berpandu kami."
+          },
+          "step2": {
+            "title": "Konfigurasi Ejen Suara",
+            "description": "Sediakan ejen suara AI anda dengan skrip, suara, dan logik perniagaan tersuai."
+          },
+          "step3": {
+            "title": "Tayang Langsung",
+            "description": "Lancarkan akaun Perniagaan LINE anda yang diaktifkan suara dan mula melibatkan pelanggan."
+          }
+        },
+        "analytics": {
+          "title": "Analitik Komprehensif",
+          "description": "Jejaki prestasi, fahami tingkah laku pelanggan, dan optimumkan interaksi suara LINE anda dengan analitik dan pelaporan terperinci.",
+          "callAnalytics": {
+            "title": "Analitik Panggilan",
+            "description": "Jejaki volum panggilan, tempoh, dan kadar kejayaan"
+          },
+          "userEngagement": {
+            "title": "Penglibatan Pengguna",
+            "description": "Pantau interaksi pengguna dan skor kepuasan"
+          },
+          "platformInsights": {
+            "title": "Wawasan Platform",
+            "description": "Metrik khusus LINE dan data prestasi"
+          },
+          "dashboard": {
+            "title": "Analitik Panggilan LINE",
+            "live": "Langsung",
+            "activeCalls": "Panggilan Aktif",
+            "responseRate": "Kadar Balasan",
+            "avgCallDuration": "Purata Tempoh Panggilan",
+            "customerSatisfaction": "Kepuasan Pelanggan",
+            "sampleResponse": "Ejen suara Jepun membalas pelanggan"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Berkembang di Asia-Pasifik?",
+          "description": "Berhubung dengan jutaan pengguna LINE dan ubah penglibatan pelanggan anda merentasi pasaran Asia utama",
+          "button": "Mula Integrasi LINE"
+        }
+      },
+      "speechToText": {
+        "hero": {
+          "title": "Teknologi Ucapan-ke-Teks",
+          "subtitle": "Pengecaman ucapan terkemuka industri dengan ketepatan 99%+. Tukar mana-mana audio ke teks dalam masa nyata dengan sokongan untuk 50+ bahasa dan perbendaharaan kata industri khusus.",
+          "cta": "Cuba Pengecaman Ucapan"
+        },
+        "features": {
+          "0": {
+            "title": "Pemprosesan Masa Nyata",
+            "description": "Tukar ucapan ke teks dalam masa nyata dengan latensi ultra-rendah untuk perbualan langsung.",
+            "specs": {
+              "0": "Latensi < 100ms",
+              "1": "Pengecaman penstriman",
+              "2": "Transkripsi langsung"
+            }
+          },
+          "1": {
+            "title": "Sokongan Berbilang Bahasa",
+            "description": "Sokongan untuk 50+ bahasa dan dialek dengan pengesanan bahasa automatik.",
+            "specs": {
+              "0": "50+ bahasa",
+              "1": "Pengesanan auto",
+              "2": "Loghat serantau"
+            }
+          },
+          "2": {
+            "title": "Ketepatan Industri",
+            "description": "Model khusus yang dilatih untuk industri dan kes penggunaan yang berbeza.",
+            "specs": {
+              "0": "Ketepatan 99%+",
+              "1": "Khusus domain",
+              "2": "Perbendaharaan kata tersuai"
+            }
+          },
+          "title": "Pengecaman Ucapan Lanjutan",
+          "subtitle": "Dibina di atas kerangka kerja Kaldi asal dengan peningkatan pembelajaran mendalam moden"
+        },
+        "accuracy": {
+          "title": "Ketepatan Terkemuka Industri",
+          "subtitle": "Model khusus yang dilatih untuk industri dan kes penggunaan yang berbeza",
+          "stats": {
+            "0": {
+              "category": "Perbualan Umum",
+              "accuracy": "99.2%",
+              "improvement": "+15%"
+            },
+            "1": {
+              "category": "Terminologi Perubatan",
+              "accuracy": "98.8%",
+              "improvement": "+22%"
+            },
+            "2": {
+              "category": "Perkhidmatan Kewangan",
+              "accuracy": "99.1%",
+              "improvement": "+18%"
+            },
+            "3": {
+              "category": "Sokongan Teknikal",
+              "accuracy": "98.9%",
+              "improvement": "+20%"
+            }
+          },
+          "improvementSuffix": " vs purata industri"
+        },
+        "languages": {
+          "title": "Sokongan Bahasa Global",
+          "subtitle": "Sokongan komprehensif untuk bahasa-bahasa utama dunia dengan pengesanan bahasa automatik dan pengecaman loghat serantau. Model kami terus dilatih pada set data yang pelbagai untuk memastikan ketepatan merentasi gaya bercakap dan persekitaran yang berbeza.",
+          "features": {
+            "0": {
+              "title": "50+ Bahasa",
+              "description": "Bahasa-bahasa utama dunia dan dialek serantau"
+            },
+            "1": {
+              "title": "Pengesanan Auto",
+              "description": "Pengenalpastian dan penukaran bahasa automatik"
+            },
+            "2": {
+              "title": "Pembelajaran Berterusan",
+              "description": "Model bertambah baik dengan penggunaan dan maklum balas"
+            }
+          },
+          "supportedTitle": "Bahasa yang Disokong",
+          "supportedLanguages": {
+            "0": "Inggeris (AS, UK, AU)",
+            "1": "Sepanyol (ES, MX, AR)",
+            "2": "Perancis (FR, CA)",
+            "3": "Jerman",
+            "4": "Itali",
+            "5": "Portugis (BR, PT)",
+            "6": "Jepun",
+            "7": "Korea",
+            "8": "Cina Mandarin",
+            "9": "Kanton",
+            "10": "Hindi",
+            "11": "Arab",
+            "12": "Rusia",
+            "13": "Belanda",
+            "14": "Sweden",
+            "15": "Norway"
+          },
+          "customNote": "Model bahasa tersuai tersedia untuk perbendaharaan kata khusus dan terminologi khusus industri"
+        },
+        "useCases": {
+          "0": {
+            "title": "Transkripsi Pusat Panggilan",
+            "description": "Transkripsi masa nyata panggilan perkhidmatan pelanggan untuk jaminan kualiti dan latihan.",
+            "benefits": {
+              "0": "Pemantauan kualiti",
+              "1": "Rakaman pematuhan",
+              "2": "Latihan ejen",
+              "3": "Wawasan pelanggan"
+            }
+          },
+          "1": {
+            "title": "Dokumentasi Mesyuarat",
+            "description": "Transkripsi automatik mesyuarat, persidangan, dan perbincangan perniagaan.",
+            "benefits": {
+              "0": "Minit mesyuarat",
+              "1": "Pengekstrakan item tindakan",
+              "2": "Arkib yang boleh dicari",
+              "3": "ID berbilang pembesar suara"
+            }
+          },
+          "2": {
+            "title": "Perintah Suara",
+            "description": "Tukar perintah suara ke teks untuk aplikasi dan antara muka yang dikawal suara.",
+            "benefits": {
+              "0": "Operasi bebas tangan",
+              "1": "Ciri-ciri kebolehcapaian",
+              "2": "Kawalan rumah pintar",
+              "3": "Aplikasi mudah alih"
+            }
+          },
+          "3": {
+            "title": "Penciptaan Kandungan",
+            "description": "Ubah kandungan audio menjadi teks untuk podcast, video, dan pengeluaran media.",
+            "benefits": {
+              "0": "Penjanaan sari kata",
+              "1": "Pengindeksan kandungan",
+              "2": "Pengoptimuman SEO",
+              "3": "Pematuhan kebolehcapaian"
+            }
+          },
+          "title": "Kes Penggunaan Berkuasa",
+          "subtitle": "Ubah audio menjadi teks yang boleh diambil tindakan merentasi industri dan aplikasi"
+        },
+        "specs": {
+          "title": "Spesifikasi Teknikal",
+          "subtitle": "Prestasi dan kebolehpercayaan gred perusahaan",
+          "performance": {
+            "title": "Prestasi",
+            "latency": {
+              "label": "Latensi",
+              "value": "< 100ms"
+            },
+            "accuracy": {
+              "label": "Ketepatan",
+              "value": "99%+"
+            },
+            "throughput": {
+              "label": "Throughput",
+              "value": "1000+ serentak"
+            },
+            "uptime": {
+              "label": "Waktu Beroperasi",
+              "value": "99.99%"
+            }
+          },
+          "audioFormats": {
+            "title": "Format Audio",
+            "sampleRate": {
+              "label": "Kadar Sampel",
+              "value": "8-48 kHz"
+            },
+            "bitDepth": {
+              "label": "Kedalaman Bit",
+              "value": "16-32 bit"
+            },
+            "formats": {
+              "label": "Format",
+              "value": "WAV, MP3, FLAC"
+            },
+            "streaming": {
+              "label": "Penstriman",
+              "value": "Masa nyata"
+            }
+          },
+          "integration": {
+            "title": "Integrasi",
+            "api": {
+              "label": "API",
+              "value": "REST & WebSocket"
+            },
+            "sdks": {
+              "label": "SDK",
+              "value": "Python, Node.js, Go"
+            },
+            "webhooks": {
+              "label": "Webhook",
+              "value": "Acara masa nyata"
+            },
+            "security": {
+              "label": "Keselamatan",
+              "value": "TLS 1.3, OAuth 2.0"
+            }
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Mengubah Audio ke Teks?",
+          "subtitle": "Alami kuasa teknologi pengecaman ucapan terkemuka industri",
+          "primaryButton": "Cuba Demo Percuma",
+          "secondaryButton": "Lihat Dokumen API"
+        }
+      },
+      "voipSipByoc": {
+        "hero": {
+          "title": "Penyelesaian Suara VoIP, SIP & BYOC",
+          "subtitle": "Ketersambungan suara gred perusahaan dengan fleksibiliti maksimum. Pilih daripada integrasi VoIP, SIP trunking langsung, atau bawa pembawa anda sendiri untuk kawalan penuh.",
+          "cta": "Bercakap dengan Pakar Ketersambungan"
+        },
+        "connectionTypes": {
+          "title": "Pilihan Ketersambungan Fleksibel",
+          "subtitle": "Pilih kaedah sambungan yang paling sesuai dengan infrastruktur dan keperluan anda",
+          "keyFeatures": "Ciri-ciri Utama:",
+          "voip": {
+            "title": "Integrasi VoIP",
+            "description": "Sambungkan infrastruktur VoIP anda yang sedia ada dengan platform suara AI kami secara lancar.",
+            "features": {
+              "sipTrunk": "Keserasian SIP trunk",
+              "codecOptimization": "Pengoptimuman codec",
+              "qos": "Kualiti Perkhidmatan (QoS)",
+              "bandwidthManagement": "Pengurusan lebar jalur"
+            },
+            "pricing": "Bermula pada $0.08/minit"
+          },
+          "sip": {
+            "title": "SIP Trunking",
+            "description": "Ketersambungan SIP langsung untuk kawalan maksimum dan penyesuaian trafik suara anda.",
+            "features": {
+              "directEndpoints": "Titik akhir SIP langsung",
+              "customRouting": "Peraturan penghalaan tersuai",
+              "failoverProtection": "Perlindungan failover",
+              "realTimeMonitoring": "Pemantauan masa nyata"
+            },
+            "pricing": "Bermula pada $0.06/minit"
+          },
+          "byoc": {
+            "title": "Bawa Pembawa Anda Sendiri (BYOC)",
+            "description": "Gunakan pembawa pilihan anda sambil memanfaatkan keupayaan suara AI kami.",
+            "features": {
+              "carrierIndependence": "Kebebasan pembawa",
+              "costOptimization": "Pengoptimuman kos",
+              "globalReach": "Jangkauan global",
+              "vendorFlexibility": "Fleksibiliti vendor"
+            },
+            "pricing": "Yuran platform + kadar pembawa"
+          }
+        },
+        "benefits": {
+          "title": "Manfaat Perusahaan",
+          "subtitle": "Mengapa perusahaan terkemuka memilih penyelesaian ketersambungan suara kami",
+          "costSavings": {
+            "title": "Penjimatan Kos",
+            "description": "Kurangkan kos komunikasi sehingga 60% dengan penghalaan dan pemilihan pembawa yang dioptimumkan.",
+            "metric": "60%"
+          },
+          "reliability": {
+            "title": "Kebolehpercayaan",
+            "description": "Waktu beroperasi gred perusahaan dengan failover automatik dan infrastruktur berlebihan.",
+            "metric": "99.99%"
+          },
+          "scalability": {
+            "title": "Kebolehskalaan",
+            "description": "Kendalikan ribuan panggilan serentak dengan keupayaan penskalaan elastik.",
+            "metric": "10,000+"
+          },
+          "globalReach": {
+            "title": "Jangkauan Global",
+            "description": "Berhubung dengan pelanggan di seluruh dunia dengan kehadiran tempatan di pasaran utama.",
+            "metric": "200+"
+          }
+        },
+        "technicalExcellence": {
+          "title": "Kecemerlangan Teknikal",
+          "subtitle": "Dibina di atas protokol standard industri dengan keselamatan dan prestasi gred perusahaan. Platform kami menyokong semua codec utama dan menyediakan pemantauan kualiti masa nyata.",
+          "endToEndEncryption": {
+            "title": "Penyulitan Hujung ke Hujung",
+            "description": "TLS 1.3 dan SRTP untuk penghantaran suara yang selamat"
+          },
+          "lowLatency": {
+            "title": "Latensi Rendah",
+            "description": "Latensi sub-150ms untuk perbualan yang jernih"
+          },
+          "advancedConfiguration": {
+            "title": "Konfigurasi Lanjutan",
+            "description": "Kawalan terperinci ke atas penghalaan dan tetapan kualiti"
+          }
+        },
+        "technicalSpecs": {
+          "title": "Spesifikasi Teknikal",
+          "supportedProtocols": {
+            "feature": "Protokol yang Disokong",
+            "value": "SIP 2.0, RTP, SRTP"
+          },
+          "audioCodecs": {
+            "feature": "Codec Audio",
+            "value": "G.711, G.722, G.729, Opus"
+          },
+          "encryption": {
+            "feature": "Penyulitan",
+            "value": "TLS 1.3, SRTP, AES-256"
+          },
+          "networkRequirements": {
+            "feature": "Keperluan Rangkaian",
+            "value": "100 kbps setiap panggilan serentak"
+          },
+          "latency": {
+            "feature": "Latensi",
+            "value": "< 150ms hujung ke hujung"
+          },
+          "jitterBuffer": {
+            "feature": "Jitter Buffer",
+            "value": "Adaptif, 20-200ms"
+          }
+        },
+        "howItWorks": {
+          "title": "Bagaimana Ia Berfungsi",
+          "subtitle": "Integrasi mudah dengan infrastruktur anda yang sedia ada",
+          "yourInfrastructure": {
+            "title": "Infrastruktur Anda",
+            "description": "PBX, sistem VoIP, atau pembawa sedia ada"
+          },
+          "seavoicePlatform": {
+            "title": "Platform SeaVoice",
+            "description": "Pemprosesan dan penghalaan suara AI"
+          },
+          "globalNetwork": {
+            "title": "Rangkaian Global",
+            "description": "Sambungan pembawa di seluruh dunia"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Mengoptimumkan Infrastruktur Suara Anda?",
+          "subtitle": "Bercakap dengan pakar ketersambungan kami untuk mereka bentuk penyelesaian yang sempurna untuk keperluan anda",
+          "scheduleConsultation": "Jadualkan Konsultasi",
+          "signUpForFree": "Daftar Percuma"
+        }
+      },
+      "whatsAppVoice": {
+        "hero": {
+          "title": "API Suara WhatsApp untuk Perniagaan",
+          "subtitle": "Ubah akaun Perniagaan WhatsApp anda dengan panggilan suara berkuasa AI. Jangkau 2+ bilion pengguna di seluruh dunia dengan interaksi suara yang lancar.",
+          "cta": "Dapatkan API Platform Perniagaan WhatsApp"
+        },
+        "globalStats": {
+          "title": "Jangkau Platform Pemesejan Terbesar di Dunia",
+          "subtitle": "WhatsApp mendominasi pemesejan global dengan jangkauan dan penglibatan yang belum pernah terjadi sebelumnya",
+          "stats": {
+            "0": {
+              "region": "Pengguna Global",
+              "count": "2.78B+",
+              "growth": "+3.2% YoY"
+            },
+            "1": {
+              "region": "Akaun Perniagaan",
+              "count": "200M+",
+              "growth": "+15% YoY"
+            },
+            "2": {
+              "region": "Mesej Harian",
+              "count": "100B+",
+              "growth": "+8% YoY"
+            },
+            "3": {
+              "region": "Negara",
+              "count": "180+",
+              "growth": "Liputan Penuh"
+            }
+          }
+        },
+        "features": {
+          "0": {
+            "title": "API Platform Perniagaan WhatsApp",
+            "description": "Integrasi rasmi dengan API Platform Perniagaan WhatsApp untuk komunikasi perniagaan yang disahkan.",
+            "benefits": {
+              "0": "Pengesahan tanda semak hijau",
+              "1": "Ciri-ciri profil perniagaan",
+              "2": "Templat mesej"
+            }
+          },
+          "1": {
+            "title": "Jangkauan Global",
+            "description": "Berhubung dengan 2+ bilion pengguna WhatsApp di seluruh dunia melalui panggilan suara.",
+            "benefits": {
+              "0": "200+ negara disokong",
+              "1": "Keupayaan berbilang bahasa",
+              "2": "Kehadiran nombor tempatan"
+            }
+          },
+          "2": {
+            "title": "Keselamatan Hujung ke Hujung",
+            "description": "Manfaatkan penyulitan hujung ke hujung WhatsApp untuk komunikasi perniagaan yang selamat.",
+            "benefits": {
+              "0": "Penyulitan mesej",
+              "1": "Panggilan suara selamat",
+              "2": "Pematuhan privasi"
+            }
+          },
+          "title": "Ciri-ciri Suara WhatsApp Perusahaan",
+          "subtitle": "Semua yang anda perlukan untuk menyediakan pengalaman suara yang luar biasa di WhatsApp"
+        },
+        "useCases": {
+          "0": {
+            "title": "Sokongan Pelanggan",
+            "description": "Sediakan sokongan suara segera terus dalam perbualan WhatsApp.",
+            "metrics": {
+              "0": "Resolusi 60% lebih cepat",
+              "1": "95% kepuasan pelanggan",
+              "2": "Eskalasi lancar"
+            }
+          },
+          "1": {
+            "title": "Jualan & Konsultasi",
+            "description": "Tukar pertanyaan sembang kepada panggilan suara untuk pengalaman jualan yang diperibadikan.",
+            "metrics": {
+              "0": "Penukaran 4x lebih tinggi",
+              "1": "Sentuhan peribadi",
+              "2": "Pembinaan kepercayaan"
+            }
+          },
+          "2": {
+            "title": "Tempahan Janji Temu",
+            "description": "Membolehkan penjadualan janji temu berasaskan suara dalam Platform Perniagaan WhatsApp.",
+            "metrics": {
+              "0": "Tempahan satu ketik",
+              "1": "Penyegerakan kalendar",
+              "2": "Pengesahan automatik"
+            }
+          },
+          "3": {
+            "title": "Pengurusan Pesanan",
+            "description": "Kendalikan pertanyaan pesanan, kemas kini, dan sokongan melalui interaksi suara.",
+            "metrics": {
+              "0": "Kemas kini masa nyata",
+              "1": "Penjejakan pesanan",
+              "2": "Resolusi isu"
+            }
+          },
+          "title": "Ubah Interaksi Pelanggan",
+          "subtitle": "Lihat bagaimana perniagaan menggunakan API Suara WhatsApp untuk meningkatkan hubungan pelanggan"
+        },
+        "integration": {
+          "title": "Proses Integrasi Mudah",
+          "subtitle": "Mulakan dengan API Suara WhatsApp dalam empat langkah sahaja",
+          "steps": {
+            "0": {
+              "title": "Persediaan Perniagaan WhatsApp",
+              "description": "Sambungkan akaun Perniagaan WhatsApp anda atau cipta profil perniagaan yang disahkan baru."
+            },
+            "1": {
+              "title": "Konfigurasi Ejen Suara",
+              "description": "Konfigurasi ejen suara AI dengan logik perniagaan, skrip, dan suara jenama anda."
+            },
+            "2": {
+              "title": "Integrasi API",
+              "description": "Integrasikan dengan sistem anda yang sedia ada menggunakan API dan webhook komprehensif kami."
+            },
+            "3": {
+              "title": "Tayang Langsung",
+              "description": "Lancarkan Perniagaan WhatsApp anda yang diaktifkan suara dan mula melibatkan pelanggan."
+            }
+          }
+        },
+        "demo": {
+          "title": "Lihat Ia Beraksi",
+          "subtitle": "Alami bagaimana panggilan suara berintegrasi dengan lancar dengan Platform Perniagaan WhatsApp. Ejen AI kami boleh mengendalikan perbualan kompleks sambil mengekalkan pengalaman WhatsApp yang biasa yang disukai pelanggan anda.",
+          "features": {
+            "0": {
+              "title": "Panggilan Satu Ketik",
+              "description": "Pelanggan boleh memulakan panggilan suara terus dari sembang"
+            },
+            "1": {
+              "title": "Penyerahan Lancar",
+              "description": "Peralihan lancar antara AI dan ejen manusia"
+            },
+            "2": {
+              "title": "Sejarah Bersepadu",
+              "description": "Sejarah perbualan lengkap merentasi sembang dan suara"
+            }
+          },
+          "dashboard": {
+            "title": "Papan Pemuka Perniagaan WhatsApp",
+            "liveStatus": "Langsung",
+            "stats": {
+              "activeVoiceCalls": {
+                "label": "Panggilan Suara Aktif",
+                "value": "89"
+              },
+              "messagesToday": {
+                "label": "Mesej Hari Ini",
+                "value": "2,847"
+              },
+              "responseRate": {
+                "label": "Kadar Balasan",
+                "value": "96%"
+              },
+              "customerSatisfaction": {
+                "label": "Kepuasan Pelanggan",
+                "value": "4.9/5"
+              }
+            }
+          },
+          "aiAssistant": {
+            "name": "Pembantu AI",
+            "message": "Hai! Saya di sini untuk membantu dengan pesanan anda. Adakah anda ingin bercakap terus dengan saya? Cukup ketik butang panggil di atas!"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Mengubah Perniagaan WhatsApp?",
+          "subtitle": "Sertai ribuan perniagaan yang menggunakan API Suara WhatsApp untuk menyediakan pengalaman pelanggan yang luar biasa",
+          "primaryButton": "Mula Hari Ini",
+          "secondaryButton": "Jadualkan Demo"
+        }
+      }
+    },
+    "components": {
+      "interactiveCallDashboard": {
+        "liveDashboard": "Papan Pemuka Langsung",
+        "controlCenter": "Pusat Kawalan",
+        "realTimeAnalytics": "Analitik Masa Nyata",
+        "description": "Saksikan platform suara AI kami mengendalikan ribuan panggilan serentak dengan perbualan seperti manusia dan analitik masa nyata.",
+        "bookDemo": "Tempah Demo",
+        "controlCenterTitle": "Pusat Kawalan SeaVoice",
+        "live": "Langsung",
+        "activeCalls": "Panggilan Aktif",
+        "avgQueueTime": "Purata Masa Beratur",
+        "resolutionRate": "Kadar Resolusi",
+        "availability": "Ketersediaan",
+        "globalCallActivity": "Aktiviti Panggilan Global",
+        "recentConversations": "Perbualan Terkini",
+        "customerInquiryResolved": "Pertanyaan pelanggan diselesaikan",
+        "appointmentScheduled": "Janji temu dijadualkan",
+        "paymentProcessed": "Pembayaran diproses",
+        "supportTicketCreated": "Tiket sokongan dicipta",
+        "justNow": "Baru sahaja",
+        "concurrentCalls": "Panggilan Serentak",
+        "uptime": "Waktu Beroperasi",
+        "conversations": {
+          "appointmentRequest": "Hai, saya ingin menjadualkan janji temu",
+          "techCorpGreeting": "Terima kasih kerana menghubungi TechCorp...",
+          "orderTracking": "Bolehkah anda membantu saya menjejaki pesanan saya?",
+          "availabilityResponse": "Saya tersedia Selasa jam 2 petang"
+        }
+      },
+      "voiceDemo": {
+        "demos": {
+          "restaurant": {
+            "title": "Tempahan restoran",
+            "description": "AI mengendalikan tempahan meja, pemeriksaan ketersediaan, dan permintaan khas"
+          },
+          "insurance": {
+            "title": "Panggilan pengesahan insurans",
+            "description": "Pengesahan insurans automatik dan pemprosesan tuntutan"
+          },
+          "techSupport": {
+            "title": "Sokongan teknikal",
+            "description": "Penyelesaian masalah teknikal dan automasi sokongan pelanggan"
+          },
+          "salesLead": {
+            "title": "Kelayakan petunjuk jualan",
+            "description": "Kelayakan petunjuk pintar dan pengurusan saluran jualan"
+          },
+          "realEstate": {
+            "title": "Pengendalian pertanyaan hartanah",
+            "description": "Pertanyaan hartanah, penjadualan tontonan, dan pengurusan klien"
+          },
+          "donation": {
+            "title": "Jangkauan kempen derma",
+            "description": "Kempen pengumpulan dana dan automasi penglibatan penderma"
+          }
+        },
+        "seekTooltip": "Klik untuk mencari"
+      }
+    }
+  }
+}

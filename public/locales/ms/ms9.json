@@ -1,0 +1,1600 @@
+{
+  "seax": {
+    "home": {
+      "seo": {
+        "title": "SeaX - Platform Pemasaran SMS, WhatsApp & Suara Pukal | Seasalt.ai",
+        "description": "Tingkatkan jangkauan anda kepada jutaan dengan SMS pukal, pemesejan WhatsApp, dan kempen suara AI SeaX yang berkuasa. Kadar penghantaran tinggi, jangkauan global, dan analitik lanjutan."
+      },
+      "scalingProblem": {
+        "title": "Masalah Jangkauan Manual",
+        "subtitle": "Perniagaan anda perlu menjangkau ribuan pelanggan, tetapi jangkauan manual tidak berskala. SeaX mengautomasikan komunikasi anda sambil mengekalkan sentuhan peribadi.",
+        "manualOutreach": {
+          "title": "Jangkauan Manual",
+          "description": "Mesej individu yang memakan masa, jangkauan terhad, susulan yang tidak konsisten"
+        },
+        "seaxAutomation": {
+          "title": "Automasi SeaX",
+          "description": "Jutaan mesej dalam beberapa minit, pemperibadian berkuasa AI, kempen susulan automatik"
+        },
+        "stats": {
+          "messagesSent": {
+            "value": "10 Juta+",
+            "label": "Mesej dihantar setiap hari"
+          },
+          "callsPerHour": {
+            "value": "50K+",
+            "label": "Panggilan sejam"
+          },
+          "deliveryRate": {
+            "value": "99.5%",
+            "label": "Kadar penghantaran"
+          },
+          "roiAverage": {
+            "value": "400%",
+            "label": "Purata ROI"
+          }
+        }
+      },
+      "features": {
+        "title": "Ciri-ciri Skala Besar",
+        "subtitle": "Semua yang anda perlukan untuk menjangkau jutaan pelanggan merentasi pelbagai saluran",
+        "sms": {
+          "title": "SMS Pukal",
+          "description": "Hantar jutaan mesej SMS dengan kadar penghantaran 99.5% ke 200+ negara"
+        },
+        "whatsapp": {
+          "title": "Perniagaan WhatsApp",
+          "description": "Jangkau 2+ bilion pengguna WhatsApp dengan kempen templat dan mesej yang diperibadikan"
+        },
+        "voice": {
+          "title": "Kempen Suara AI",
+          "description": "Panggilan telefon automatik dengan suara AI semula jadi untuk tinjauan, peringatan, dan jangkauan"
+        },
+        "ai": {
+          "title": "Automasi AI",
+          "description": "Susulan pintar, pengendalian balasan, dan pengoptimuman kempen yang dikuasakan oleh AI"
+        }
+      },
+      "leadGeneration": {
+        "title": "Tukar Prospek menjadi Pelanggan",
+        "subtitle": "Sistem penjanaan dan pemeliharaan petunjuk yang lengkap yang menukar prospek menjadi pelanggan yang membayar",
+        "capture": {
+          "title": "Tangkap",
+          "description": "Tarik petunjuk dengan kempen yang disasarkan merentasi pelbagai saluran"
+        },
+        "qualify": {
+          "title": "Layakkan",
+          "description": "Penilaian dan kelayakan petunjuk berkuasa AI untuk mengenal pasti prospek terbaik anda"
+        },
+        "nurture": {
+          "title": "Pelihara",
+          "description": "Urutan susulan automatik yang membina hubungan dan memacu penukaran"
+        },
+        "close": {
+          "title": "Tutup",
+          "description": "Penyerahan pintar kepada pasukan jualan dengan sejarah perbualan lengkap dan kecerdasan petunjuk"
+        }
+      },
+      "howItWorks": {
+        "title": "Bagaimana Ia Berfungsi",
+        "subtitle": "Mulakan dalam 4 langkah mudah dan jangkau jutaan pelanggan dalam beberapa jam",
+        "timeRequired": "Masa diperlukan: ",
+        "step1": {
+          "number": "01",
+          "title": "Import Kenalan Anda",
+          "description": "Muat naik senarai kenalan anda dari CSV, Excel, atau integrasikan dengan CRM anda. Sokongan untuk jutaan kenalan dengan deduplikasi pintar.",
+          "time": "2 minit",
+          "illustration": {
+            "checkmark": "✓",
+            "fileName": "contacts_list.csv",
+            "contactCount": "25,847 kenalan",
+            "dropFiles": "Letakkan fail anda di sini",
+            "browse": "atau semak untuk memuat naik",
+            "importedCount": "25,847",
+            "contactsImported": "kenalan diimport"
+          }
+        },
+        "step2": {
+          "number": "02",
+          "title": "Pilih Saluran Anda",
+          "description": "Pilih dari SMS, WhatsApp, Panggilan Suara, atau kempen berbilang saluran. Setiap saluran dioptimumkan untuk penghantaran dan penglibatan maksimum.",
+          "time": "1 minit",
+          "illustration": {
+            "sms": {
+              "label": "SMS",
+              "rate": "98% kadar buka"
+            },
+            "whatsapp": {
+              "label": "WhatsApp",
+              "rate": "90% kadar buka"
+            },
+            "voice": {
+              "label": "Suara",
+              "rate": "75% kadar angkat"
+            }
+          }
+        },
+        "step3": {
+          "number": "03",
+          "title": "Cipta Kempen Anda",
+          "description": "Reka bentuk mesej anda dengan pemperibadian, tetapkan penargetan audiens anda, dan jadualkan kempen anda. Ujian A/B termasuk.",
+          "time": "5 minit",
+          "illustration": {
+            "campaignDraft": "Draf Kempen",
+            "draftStatus": "Draf",
+            "sampleMessage": "Hai {{name}}, kami ada tawaran istimewa untuk anda! Dapatkan diskaun 20% untuk pesanan anda yang seterusnya. Balas STOP untuk berhenti melanggan.",
+            "previewButton": "Pratonton",
+            "abTestButton": "Ujian A/B",
+            "schedule": "Jadualkan",
+            "now": "Hantar Sekarang"
+          }
+        },
+        "step4": {
+          "number": "04",
+          "title": "Jejak & Optimumkan",
+          "description": "Pantau prestasi kempen dalam masa nyata dengan analitik terperinci. Lihat kadar penghantaran, balasan, penukaran, dan metrik ROI.",
+          "time": "Berterusan",
+          "illustration": {
+            "campaignStatus": "Status Kempen",
+            "liveStatus": "Langsung",
+            "deliveredCount": "847K",
+            "delivered": "Dihantar",
+            "responseRate": "12%",
+            "response": "Kadar Balasan",
+            "totalCount": "1.2 Juta",
+            "totalMessages": "Jumlah Mesej",
+            "deliveryRate": "99.5%",
+            "deliveryRateLabel": "Kadar Penghantaran",
+            "analytics": "Analitik prestasi masa nyata dengan penjejakan penukaran"
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Dipercayai oleh Perniagaan yang Berkembang",
+        "subtitle": "Lihat bagaimana syarikat menggunakan SeaX untuk meningkatkan jangkauan pelanggan mereka dan memacu pertumbuhan",
+        "testimonial1": {
+          "quote": "SeaX membantu kami menjangkau 500K pelanggan dalam satu hari. Kadar penghantaran sangat luar biasa dan ROI bercakap untuk dirinya sendiri.",
+          "author": "Sarah Chen",
+          "role": "Pengarah Pemasaran, TechStart"
+        },
+        "testimonial2": {
+          "quote": "Kami meningkatkan kadar penukaran kami sebanyak 300% menggunakan kempen susulan berkuasa AI SeaX. Pengubah permainan untuk perniagaan kami.",
+          "author": "Mike Rodriguez",
+          "role": "CEO, GrowthCorp"
+        },
+        "testimonial3": {
+          "quote": "Integrasi WhatsApp adalah lancar. Kami kini boleh mengadakan perbualan peribadi secara besar-besaran dengan pangkalan pelanggan global kami.",
+          "author": "Lisa Park",
+          "role": "Ketua Kejayaan Pelanggan, GlobalTech"
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Meningkatkan Jangkauan Anda kepada Jutaan?",
+        "subtitle": "Sertai ribuan syarikat yang menggunakan SeaX untuk menjangkau lebih ramai pelanggan, menjana lebih banyak petunjuk, dan berkembang lebih cepat.",
+        "demoButton": "Tempah Demo",
+        "signupButton": "Mula Percubaan Percuma"
+      }
+    },
+    "features": {
+      "seo": {
+        "title": "Ciri-ciri SeaX - Alat Berkuasa untuk Komunikasi Massa",
+        "description": "Terokai ciri-ciri berkuasa SeaX: enjin pemesejan pukal, susulan berkuasa AI, analitik masa nyata, dan infrastruktur gred perusahaan."
+      },
+      "hero": {
+        "title": "Ciri-ciri Berkuasa untuk",
+        "titleHighlight": "Komunikasi Massa",
+        "description": "Semua yang anda perlukan untuk menjangkau jutaan pelanggan merentasi saluran SMS, WhatsApp, dan suara. Dibina untuk skala, direka untuk hasil.",
+        "stats": {
+          "messages": "10 Juta+ mesej setiap hari",
+          "countries": "200+ negara",
+          "security": "Keselamatan perusahaan"
+        }
+      },
+      "core": {
+        "title": "Ciri-ciri Teras",
+        "description": "Alat penting yang menggerakkan kempen komunikasi massa anda",
+        "bulkMessaging": {
+          "title": "Enjin Pemesejan Pukal",
+          "description": "Hantar jutaan mesej SMS, WhatsApp, dan panggilan telefon secara serentak dengan kebolehpercayaan gred pembawa.",
+          "metrics": {
+            "value": "10 Juta+",
+            "label": "Mesej dihantar setiap hari"
+          },
+          "benefits": {
+            "0": "Kebolehpenghantaran gred pembawa",
+            "1": "Jangkauan global merentasi 200+ negara",
+            "2": "Penjejakan penghantaran masa nyata",
+            "3": "Pengoptimuman penghalaan pintar"
+          }
+        },
+        "aiFollowup": {
+          "title": "Susulan Berkuasa AI",
+          "description": "Balasan automatik dan pemeliharaan petunjuk pintar untuk melayakkan prospek 24/7.",
+          "metrics": {
+            "value": "85%",
+            "label": "Kadar kelayakan petunjuk"
+          },
+          "benefits": {
+            "0": "Pengendalian perbualan pintar",
+            "1": "Penilaian petunjuk automatik",
+            "2": "Masa balasan pintar",
+            "3": "Sokongan berbilang bahasa"
+          }
+        },
+        "analytics": {
+          "title": "Analitik Masa Nyata",
+          "description": "Jejak buka, balasan, dan penukaran secara besar-besaran dengan papan pemuka langsung yang komprehensif.",
+          "metrics": {
+            "value": "99.9%",
+            "label": "Jaminan waktu beroperasi"
+          },
+          "benefits": {
+            "0": "Pemantauan kempen langsung",
+            "1": "Penjejakan penukaran",
+            "2": "Wawasan prestasi",
+            "3": "Pelaporan tersuai"
+          }
+        },
+        "compliance": {
+          "title": "Pematuhan & Kebolehpenghantaran",
+          "description": "Jangkauan global dengan pematuhan pembawa dan templat mesej yang telah diluluskan.",
+          "metrics": {
+            "value": "200+",
+            "label": "Negara disokong"
+          },
+          "benefits": {
+            "0": "Mematuhi GDPR",
+            "1": "Proses kelulusan pembawa",
+            "2": "Perlindungan spam",
+            "3": "Pematuhan peraturan"
+          }
+        },
+        "collaboration": {
+          "title": "Kerjasama Pasukan",
+          "description": "Akses berbilang pengguna, kebenaran kempen, dan sumber yang dikongsi untuk pasukan perusahaan.",
+          "metrics": {
+            "value": "500K+",
+            "label": "Panggilan sejam"
+          },
+          "benefits": {
+            "0": "Kebenaran berasaskan peranan",
+            "1": "Templat kempen yang dikongsi",
+            "2": "Penjejakan prestasi pasukan",
+            "3": "Aliran kerja kolaboratif"
+          }
+        },
+        "scale": {
+          "title": "Skala Perusahaan",
+          "description": "Dibina untuk penghantar volum tertinggi dengan infrastruktur dan sokongan khusus.",
+          "metrics": {
+            "value": "1 Juta+",
+            "label": "Mesej seminit"
+          },
+          "benefits": {
+            "0": "Infrastruktur khusus",
+            "1": "Sokongan keutamaan",
+            "2": "Integrasi tersuai",
+            "3": "SLA perusahaan"
+          }
+        }
+      },
+      "categories": {
+        "title": "Kategori Ciri",
+        "description": "Terokai set ciri komprehensif kami mengikut kategori",
+        "messaging": {
+          "title": "Saluran Pemesejan",
+          "sms": {
+            "name": "SMS (10DLC, Bebas Tol, Kod Pendek)",
+            "description": "Semua jenis SMS untuk setiap keperluan perniagaan"
+          },
+          "whatsapp": {
+            "name": "Platform Perniagaan WhatsApp",
+            "description": "Mod kempen untuk pemesejan massa"
+          },
+          "voice": {
+            "name": "Panggilan Suara (100+ Negara)",
+            "description": "Panggilan berkuasa AI melalui Twilio"
+          }
+        },
+        "aiAutomation": {
+          "title": "AI & Automasi",
+          "followup": {
+            "name": "Susulan Berkuasa AI",
+            "description": "Pemeliharaan petunjuk pintar 24/7"
+          },
+          "responses": {
+            "name": "Balasan Automatik",
+            "description": "Pengendalian perbualan pintar"
+          },
+          "scoring": {
+            "name": "Penilaian Petunjuk",
+            "description": "Kelayakan prospek didorong AI"
+          }
+        },
+        "analytics": {
+          "title": "Analitik & Wawasan",
+          "dashboard": {
+            "name": "Papan Pemuka Masa Nyata",
+            "description": "Pemantauan kempen langsung"
+          },
+          "tracking": {
+            "name": "Penjejakan Penukaran",
+            "description": "ROI dan metrik prestasi"
+          },
+          "reporting": {
+            "name": "Pelaporan Tersuai",
+            "description": "Analitik dan wawasan terperinci"
+          }
+        },
+        "enterprise": {
+          "title": "Perusahaan & Keselamatan",
+          "gdpr": {
+            "name": "Pematuhan GDPR",
+            "description": "Pematuhan peraturan penuh"
+          },
+          "team": {
+            "name": "Kerjasama Pasukan",
+            "description": "Akses berbilang pengguna dan kebenaran"
+          },
+          "sla": {
+            "name": "SLA Perusahaan",
+            "description": "Sokongan khusus dan waktu beroperasi"
+          }
+        }
+      },
+      "integrations": {
+        "title": "Dibina untuk Integrasi",
+        "description": "Sambungkan SeaX dengan alat dan aliran kerja anda yang sedia ada",
+        "crm": {
+          "title": "Integrasi CRM",
+          "description": "Sambungkan dengan Salesforce, HubSpot, dan sistem CRM lain untuk aliran data yang lancar.",
+          "sync": "Penyegerakan dua hala",
+          "mapping": "Pemetaan medan tersuai"
+        },
+        "analytics": {
+          "title": "Alat Analitik",
+          "description": "Eksport data ke Google Analytics, Mixpanel, dan platform analitik lain.",
+          "exports": "Eksport masa nyata",
+          "dashboards": "Papan pemuka tersuai"
+        },
+        "api": {
+          "title": "API Pembangun",
+          "description": "API REST penuh untuk integrasi tersuai dan aliran kerja automatik.",
+          "endpoints": "Titik akhir RESTful",
+          "webhooks": "Sokongan Webhook"
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Mengalami Ciri-ciri Ini?",
+        "description": "Lihat bagaimana SeaX boleh mengubah strategi komunikasi anda",
+        "button": "Tempah Demo"
+      }
+    },
+    "channels": {
+      "sms": {
+        "hero": {
+          "stats": {
+            "messagesValue": "10 Juta+",
+            "countriesValue": "200+",
+            "uptimeValue": "99.9%",
+            "deliveryValue": "98%",
+            "messagesSent": "Mesej Dihantar",
+            "countries": "Negara",
+            "uptime": "Waktu Beroperasi",
+            "deliveryRate": "Kadar Penghantaran"
+          },
+          "preview": {
+            "deliveredValue": "847K",
+            "successValue": "98.2%",
+            "title": "Kempen SMS Langsung",
+            "status": "Aktif",
+            "messageLabel": "Mesej Contoh",
+            "message": "Hai [Nama], Jangan lepaskan jualan eksklusif 50% kami berakhir hari ini! Beli sekarang: bit.ly/save50",
+            "delivered": "Dihantar",
+            "successRate": "Kadar Kejayaan"
+          },
+          "badge": "Saluran SMS",
+          "title": "Tingkatkan Skala SMS Anda",
+          "titleHighlight": "kepada Jutaan",
+          "description": "Hantar mesej SMS yang diperibadikan kepada jutaan pelanggan di seluruh dunia dengan kadar penghantaran terkemuka industri dan analitik masa nyata.",
+          "cta": {
+            "primary": "Mula Menghantar SMS",
+            "secondary": "Jadualkan Demo"
+          }
+        },
+        "seo": {
+          "title": "Platform Pemasaran & Komunikasi SMS - SeaX oleh Seasalt.ai",
+          "description": "Hantar mesej SMS pukal secara besar-besaran dengan SeaX. Jangkau pelanggan secara global dengan kadar penghantaran 98%, analitik lanjutan, dan keselamatan gred perusahaan untuk kempen pemasaran dan komunikasi."
+        },
+        "features": {
+          "title": "Ciri-ciri SMS Berkuasa",
+          "description": "Semua yang anda perlukan untuk mencipta, menghantar, dan mengoptimumkan kempen SMS yang memacu hasil.",
+          "globalReach": {
+            "title": "Jangkauan Global",
+            "description": "Hantar SMS ke lebih 200 negara dengan sambungan pembawa langsung untuk kadar penghantaran optimum."
+          },
+          "lightningFast": {
+            "title": "Sepantas Kilat",
+            "description": "Mesej dihantar dalam beberapa saat dengan kemas kini status masa nyata dan pengesahan penghantaran."
+          },
+          "secure": {
+            "title": "Keselamatan Perusahaan",
+            "description": "Penyulitan gred bank, pematuhan GDPR, dan pengendalian data yang selamat untuk semua komunikasi anda."
+          },
+          "analytics": {
+            "title": "Analitik Lanjutan",
+            "description": "Pelaporan terperinci mengenai kadar penghantaran, kadar klik-melalui, dan metrik prestasi kempen."
+          },
+          "bulk": {
+            "title": "Pemesejan Pukal",
+            "description": "Hantar jutaan mesej yang diperibadikan secara serentak dengan penjadualan dan pendikit pintar."
+          },
+          "segmentation": {
+            "title": "Segmentasi Pintar",
+            "description": "Sasarkan segmen pelanggan tertentu dengan pemesejan yang diperibadikan berdasarkan tingkah laku dan pilihan."
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan SMS",
+          "description": "Temui bagaimana perniagaan menggunakan SMS untuk melibatkan pelanggan dan memacu pertumbuhan.",
+          "marketing": {
+            "title": "Kempen Pemasaran",
+            "description": "Pacu jualan dengan mesej promosi, jualan kilat, dan tawaran yang diperibadikan.",
+            "metrics": "sehingga 45% kadar buka"
+          },
+          "support": {
+            "title": "Sokongan Pelanggan",
+            "description": "Hantar kemas kini pesanan, pemberitahuan penghantaran, dan mesej sokongan.",
+            "metrics": "95% kepuasan pelanggan"
+          },
+          "appointments": {
+            "title": "Peringatan Janji Temu",
+            "description": "Kurangkan ketidakhadiran dengan pengesahan dan peringatan janji temu automatik.",
+            "metrics": "Pengurangan 60% dalam ketidakhadiran"
+          },
+          "emergency": {
+            "title": "Makluman Kecemasan",
+            "description": "Hantar pemberitahuan kritikal dan komunikasi kecemasan serta-merta.",
+            "metrics": "99.9% kebolehpercayaan penghantaran"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Meningkatkan Skala SMS Anda?",
+          "description": "Sertai ribuan perniagaan yang menggunakan SeaX untuk menjangkau jutaan pelanggan melalui SMS.",
+          "primary": "Mula Percuma",
+          "secondary": "Tempah Demo"
+        }
+      },
+      "smsLocal": {
+        "title": "SMS Tempatan (10DLC)",
+        "subtitle": "Pemesejan SMS profesional dengan nombor tempatan yang dipercayai",
+        "description": "Hantar kempen SMS volum tinggi menggunakan nombor 10DLC berdaftar yang memberikan kebolehpercayaan yang luar biasa dan kepercayaan pembawa. Sesuai untuk kempen pemasaran, peringatan janji temu, dan pemberitahuan pelanggan.",
+        "seo": {
+          "title": "SMS Tempatan (10DLC) - Pemesejan Perniagaan Profesional | SeaX",
+          "description": "Hantar kempen SMS profesional dengan nombor tempatan 10DLC. Kebolehpenghantaran tinggi, kepercayaan pembawa, dan pemesejan sedia pematuhan untuk komunikasi perniagaan anda."
+        },
+        "hero": {
+          "campaign": {
+            "title": "Papan Pemuka Kempen Pemasaran",
+            "status": "Aktif",
+            "messagesSentValue": "2,847",
+            "messagesSent": "Mesej Dihantar",
+            "deliveryRateValue": "98.5%",
+            "deliveryRate": "Kadar Penghantaran"
+          },
+          "recentActivity": {
+            "title": "Aktiviti Terkini",
+            "marketing": {
+              "title": "Kempen Jualan Kilat",
+              "details": "Dihantar kepada 1,523 pelanggan • 89% dihantar"
+            },
+            "appointment": {
+              "title": "Peringatan Janji Temu",
+              "details": "247 peringatan dihantar • 2% kadar ketidakhadiran"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "98%+",
+          "deliveryRate": "Kadar Penghantaran",
+          "openRateValue": "96%",
+          "openRate": "Kadar Buka",
+          "supportValue": "24/7",
+          "support": "Sokongan"
+        },
+        "features": {
+          "title": "Ciri-ciri Utama",
+          "subtitle": "Semua yang anda perlukan untuk pemasaran SMS profesional",
+          "items": {
+            "0": "Kebolehpenghantaran tinggi dengan kepercayaan pembawa",
+            "1": "Pendaftaran 10DLC dan pengesahan jenama",
+            "2": "Proses pra-kelulusan kempen",
+            "3": "Sokongan pemesejan dua hala",
+            "4": "Analitik dan pelaporan lanjutan",
+            "5": "Pengurusan berhenti melanggan automatik",
+            "6": "Templat mesej dan pemperibadian",
+            "7": "Jadualkan dan kempen titisan"
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan Sempurna",
+          "subtitle": "Aplikasi ideal untuk pemesejan 10DLC",
+          "items": {
+            "0": "Kempen pemasaran dan promosi",
+            "1": "Peringatan dan pengesahan janji temu",
+            "2": "Status pesanan dan pemberitahuan penghantaran",
+            "3": "Perkhidmatan pelanggan dan sokongan",
+            "4": "Pemberitahuan dan makluman acara",
+            "5": "Tinjauan dan pengumpulan maklum balas",
+            "6": "Urutan pemeliharaan petunjuk",
+            "7": "Komunikasi kecemasan dan mendesak"
+          }
+        },
+        "pricing": {
+          "title": "Harga Mudah, Telus",
+          "subtitle": "Tiada yuran tersembunyi, kos yang boleh diramal",
+          "setup": {
+            "label": "Persediaan Kempen",
+            "value": "$150"
+          },
+          "monthly": {
+            "label": "Bulanan",
+            "value": "$2/nombor"
+          },
+          "perMessage": {
+            "label": "Setiap Mesej",
+            "value": "$0.02"
+          },
+          "note": "Harga adalah untuk AS dan Kanada. Pendaftaran jenama dan pendaftaran A2P diperlukan untuk pematuhan 10DLC"
+        },
+        "testimonial": {
+          "quote": "Pemesejan 10DLC telah mengubah sepenuhnya penglibatan pelanggan kami. Kadar penghantaran sangat luar biasa, dan pelanggan mempercayai nombor tempatan kami.",
+          "author": "Sarah Chen",
+          "company": "Pengarah Pemasaran, GrowthTech",
+          "results": "Meningkatkan kadar penghantaran sebanyak 35% dan meningkatkan kadar balasan pelanggan sebanyak 42%"
+        },
+        "compliance": {
+          "title": "Pematuhan Dipermudahkan",
+          "description": "Kami mengendalikan semua keperluan 10DLC yang kompleks supaya anda boleh menumpukan perhatian kepada kempen pemesejan anda",
+          "brandRegistration": {
+            "title": "Pendaftaran Jenama",
+            "description": "Proses pengesahan jenama lengkap dengan rangkaian pembawa untuk kepercayaan dan kebolehpenghantaran maksimum"
+          },
+          "campaignApproval": {
+            "title": "Pra-Kelulusan Kempen",
+            "description": "Dapatkan kempen anda diluluskan oleh pembawa sebelum pelancaran untuk memastikan pematuhan dan prestasi optimum"
+          },
+          "monitoring": {
+            "title": "Pemantauan Berterusan",
+            "description": "Pemantauan berterusan prestasi kempen dan metrik pematuhan untuk mengekalkan kadar penghantaran optimum"
+          }
+        }
+      },
+      "smsShortCode": {
+        "seo": {
+          "title": "Perkhidmatan Kod Pendek SMS | Pemesejan Perusahaan Volum Tinggi | SeaX",
+          "description": "Hantar jutaan mesej SMS serta-merta dengan kod pendek premium. Pemasaran SMS gred perusahaan, pemberitahuan, dan komunikasi massa dengan kadar penghantaran 99.9%."
+        },
+        "nav": {
+          "backToChannels": "← Kembali ke Saluran"
+        },
+        "hero": {
+          "title": {
+            "prefix": "SMS Premium dengan",
+            "highlight": "Kod Pendek Khusus"
+          },
+          "subtitle": "Lancarkan kempen SMS volum tinggi dengan kod pendek 5-6 digit anda sendiri. Kebolehpenghantaran maksimum, kelajuan segera, dan persepsi jenama premium untuk pemasar yang serius.",
+          "primaryCta": "Dapatkan Kod Pendek Anda",
+          "secondaryCta": "Lihat Demo",
+          "demo": {
+            "title": "Kempen Kod Pendek",
+            "code": "Dari: 12345",
+            "message": "JUALAN KILAT: Diskaun 50% untuk semua! Gunakan kod SAVE50. Sah sehingga tengah malam. Balas STOP untuk berhenti melanggan.",
+            "delivered": "✅ Dihantar: 99,847",
+            "rate": "99.9% kadar penghantaran",
+            "speed": "⚡ Penghantaran segera"
+          },
+          "campaign": {
+            "title": "Papan Pemuka Kempen Premium",
+            "status": "Aktif",
+            "messagesSentValue": "2.4 Juta",
+            "messagesSent": "Mesej Dihantar",
+            "deliveryRateValue": "99.8%",
+            "deliveryRate": "Kadar Penghantaran"
+          },
+          "recentActivity": {
+            "title": "Aktiviti Terkini",
+            "marketing": {
+              "title": "Kempen Pemasaran #2024-001",
+              "details": "Promosi cuti dihantar kepada 1.2 Juta pelanggan"
+            },
+            "appointment": {
+              "title": "Peringatan Janji Temu",
+              "details": "850K peringatan dihantar dengan 95% kadar buka"
+            }
+          }
+        },
+        "features": {
+          "title": "Ciri-ciri Premium",
+          "description": "Alami peringkat premium pemasaran SMS dengan kod pendek khusus",
+          "highVolume": {
+            "title": "Kapasiti Volum Tinggi",
+            "description": "Hantar sehingga 100 mesej sesaat dengan infrastruktur kod pendek khusus"
+          },
+          "instantDelivery": {
+            "title": "Penghantaran Segera",
+            "description": "Sifar kelewatan dengan penghalaan keutamaan tertinggi melalui rangkaian pembawa"
+          },
+          "brandRecognition": {
+            "title": "Pengecaman Jenama",
+            "description": "Nombor 5-6 digit yang mudah diingati yang dikenali dan dipercayai pelanggan"
+          },
+          "deliverability": {
+            "title": "Kebolehpenghantaran Maksimum",
+            "description": "Kadar penghantaran 99.9% dengan hubungan pembawa premium dan penghalaan khusus"
+          },
+          "subtitle": "Keupayaan SMS gred perusahaan untuk pemesejan volum tinggi",
+          "items": {
+            "ultraHighThroughput": "Throughput ultra-tinggi: 10,000+ mesej sesaat",
+            "premiumDelivery": "Laluan penghantaran premium untuk kebolehpercayaan maksimum",
+            "brandRecognition": "Pengecaman jenama yang dipertingkatkan dengan kod pendek yang mudah diingati",
+            "carrierApproved": "Pra-diluluskan oleh semua pembawa utama",
+            "dedicatedSupport": "Pengurusan akaun dan sokongan khusus",
+            "complianceReady": "Pematuhan terbina dalam dengan peraturan TCPA dan CAN-SPAM"
+          }
+        },
+        "comparison": {
+          "title": "Kod Pendek vs Pilihan SMS Lain",
+          "description": "Lihat mengapa kod pendek khusus adalah pilihan premium untuk pemasar SMS yang serius",
+          "shortCode": {
+            "title": "Kod Pendek Khusus",
+            "speed": "Penghantaran segera",
+            "volume": "Kapasiti 100 mesej/saat",
+            "deliverability": "99.9% penghantaran",
+            "cost": "$1,000-$1,500/bulan",
+            "setup": "Persediaan 2-3 minggu"
+          },
+          "tollFree": {
+            "title": "Nombor Bebas Tol",
+            "speed": "Penghantaran 3-5 saat",
+            "volume": "Kapasiti 25 mesej/saat",
+            "deliverability": "98.5% penghantaran",
+            "cost": "$15-$50/bulan",
+            "setup": "Persediaan 1-2 hari"
+          },
+          "tenDlc": {
+            "title": "Nombor Tempatan 10DLC",
+            "speed": "Penghantaran 5-10 saat",
+            "volume": "Kapasiti 10 mesej/saat",
+            "deliverability": "95-98% penghantaran",
+            "cost": "$2-$10/bulan",
+            "setup": "Persediaan 5-10 hari"
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan",
+          "description": "Kod pendek cemerlang dalam senario volum tinggi, sensitif masa tertentu",
+          "flashSales": {
+            "title": "Jualan Kilat & Promosi",
+            "description": "Tawaran sensitif masa yang memerlukan penghantaran segera",
+            "example": "JUALAN KILAT: Diskaun 50% berakhir dalam 1 jam!"
+          },
+          "alerts": {
+            "title": "Makluman & Pemberitahuan Kritikal",
+            "description": "Kemas kini kecemasan dan pengumuman penting",
+            "example": "MENDESAK: Penyelenggaraan perkhidmatan malam ini 11PM-1AM"
+          },
+          "contests": {
+            "title": "Peraduan & Pengundian",
+            "description": "Kempen interaktif yang memerlukan balasan segera",
+            "example": "Undi kegemaran anda! Teks A atau B ke 12345"
+          },
+          "events": {
+            "title": "Kemas Kini Acara & Tiket",
+            "description": "Kemas kini masa nyata untuk acara dan tempat besar",
+            "example": "Acara bermula dalam 30 minit! Pintu 5 kini dibuka."
+          },
+          "subtitle": "Sesuai untuk komunikasi volum tinggi, sensitif masa",
+          "items": {
+            "massMarketing": "Kempen pemasaran massa dan promosi",
+            "emergencyAlerts": "Makluman kecemasan dan pemberitahuan kritikal",
+            "votingPolls": "Pengundian, tinjauan, dan penglibatan audiens",
+            "appointmentReminders": "Peringatan janji temu berskala besar",
+            "transactionalSMS": "SMS transaksi volum tinggi",
+            "eventNotifications": "Pemberitahuan dan kemas kini acara"
+          }
+        },
+        "requirements": {
+          "title": "Keperluan Kod Pendek",
+          "description": "Memahami pelaburan dan proses untuk kod pendek khusus",
+          "volume": {
+            "title": "Komitmen Volum Tinggi",
+            "description": "Minimum 100K mesej sebulan untuk mewajarkan pelaburan"
+          },
+          "compliance": {
+            "title": "Pematuhan Ketat",
+            "description": "Keperluan pematuhan yang dipertingkatkan dan audit pembawa berkala"
+          },
+          "setup": {
+            "title": "Garis Masa Persediaan",
+            "description": "2-3 minggu untuk kelulusan pembawa dan penyediaan nombor"
+          },
+          "investment": {
+            "title": "Pelaburan Premium",
+            "description": "$1,000-$1,500 kos berulang bulanan untuk penghalaan khusus"
+          }
+        },
+        "alternatives": {
+          "title": "Pertimbangkan Alternatif Ini Dahulu",
+          "description": "Bagi kebanyakan perniagaan, pilihan ini memberikan nilai yang lebih baik dan persediaan yang lebih mudah",
+          "recommended": {
+            "title": "Disyorkan untuk Kebanyakan Perniagaan",
+            "tollFree": "SMS Bebas Tol untuk pengecaman jenama",
+            "tenDlc": "10DLC untuk pemasaran yang menjimatkan kos",
+            "whatsapp": "WhatsApp untuk jangkauan antarabangsa"
+          },
+          "whenToUpgrade": {
+            "title": "Bila untuk Menaik Taraf ke Kod Pendek",
+            "volume": "Menghantar 500K+ mesej bulanan",
+            "speed": "Memerlukan penghantaran segera untuk kempen sensitif masa",
+            "brand": "Pengecaman jenama adalah kritikal untuk strategi anda",
+            "budget": "Mempunyai bajet pemasaran SMS tahunan $15K+"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Pemasaran SMS Premium?",
+          "description": "Kod pendek sesuai untuk pemasar volum tinggi yang memerlukan kelajuan dan kebolehpenghantaran maksimum. Mari bincangkan jika ia sesuai untuk perniagaan anda.",
+          "primary": "Bincangkan Keperluan Kod Pendek",
+          "secondary": "Mula dengan SMS Bebas Tol",
+          "alternative": "Kebanyakan perniagaan bermula dengan pilihan SMS bebas tol kami dan menaik taraf kepada kod pendek apabila mereka mencapai volum yang lebih tinggi."
+        },
+        "title": "Kod Pendek SMS",
+        "subtitle": "SMS Perusahaan Volum Tinggi",
+        "description": "Jangkau jutaan pelanggan serta-merta dengan pemesejan SMS kod pendek premium. Sesuai untuk kempen pemasaran, pemberitahuan, dan komunikasi massa.",
+        "stats": {
+          "messagesPerSecondValue": "10,000",
+          "messagesPerSecond": "Mesej/Saat",
+          "deliveryRateValue": "99.9%",
+          "deliveryRate": "Kadar Penghantaran",
+          "digitNumbersValue": "5-6 Digit",
+          "digitNumbers": "Nombor Tersedia"
+        },
+        "pricing": {
+          "title": "Harga Perusahaan",
+          "subtitle": "Harga berskala untuk keperluan pemesejan volum tinggi",
+          "setup": {
+            "label": "Yuran Persediaan",
+            "value": "$5,000"
+          },
+          "monthly": {
+            "label": "Yuran Bulanan",
+            "value": "$1,500"
+          },
+          "perMessage": {
+            "label": "Setiap Mesej",
+            "value": "$0.015"
+          },
+          "note": "Diskaun volum tersedia untuk 1 Juta+ mesej/bulan"
+        },
+        "testimonial": {
+          "quote": "SMS kod pendek SeaX telah mengubah penglibatan pelanggan kami. Kami kini menjangkau jutaan pelanggan serta-merta dengan kadar penghantaran terkemuka industri.",
+          "author": "Michael Rodriguez",
+          "company": "TechCorp Enterprise",
+          "results": "Peningkatan 350% dalam jangkauan kempen dengan kadar penghantaran 99.8%"
+        },
+        "premiumFeatures": {
+          "title": "Kelebihan Kod Pendek Premium",
+          "description": "Alami kuasa kod pendek premium untuk komunikasi perusahaan",
+          "ultraThroughput": {
+            "title": "Throughput Ultra-Tinggi",
+            "description": "Hantar sehingga 10,000 mesej sesaat dengan infrastruktur premium kami dan kerjasama pembawa."
+          },
+          "premiumRoutes": {
+            "title": "Laluan Penghantaran Premium",
+            "description": "Jaminan penghantaran keutamaan melalui sambungan pembawa khusus dan penghalaan premium."
+          },
+          "brandRecognition": {
+            "title": "Pengecaman Jenama yang Dipertingkatkan",
+            "description": "Nombor 5-6 digit yang mudah diingati yang dikenali dan dipercayai pelanggan untuk komunikasi jenama anda."
+          }
+        }
+      },
+      "smsTollFree": {
+        "title": "SMS Bebas Tol",
+        "subtitle": "SMS Perniagaan yang Dipercayai",
+        "description": "Bina kepercayaan dan tingkatkan penglibatan dengan nombor SMS bebas tol. Komunikasi profesional yang dikenali dan dibalas oleh pelanggan.",
+        "seo": {
+          "title": "Nombor Bebas Tol SMS | Pemesejan Perniagaan Profesional | SeaX",
+          "description": "Tingkatkan kepercayaan pelanggan dengan nombor bebas tol SMS. Pemesejan perniagaan profesional dengan kadar balasan yang lebih tinggi dan pengecaman jenama yang lebih baik."
+        },
+        "hero": {
+          "title": "Papan Pemuka SMS Bebas Tol",
+          "status": "Aktif",
+          "phoneNumber": "+1-800-AI-AGENT",
+          "dedicatedNumber": "Nombor Bebas Tol Khusus Anda",
+          "deliveryRateValue": "94.7%",
+          "deliveryRate": "Kadar Penghantaran",
+          "higherTrustValue": "2.3x",
+          "higherTrust": "Kadar Kepercayaan Lebih Tinggi",
+          "recentMessages": {
+            "title": "Mesej Terkini",
+            "customerSupport": {
+              "title": "Balasan Sokongan Pelanggan",
+              "details": "Balasan automatik dihantar dari 1-800-SUPPORT"
+            },
+            "survey": {
+              "title": "Tinjauan Kepuasan Pelanggan",
+              "details": "Jemputan tinjauan dihantar dengan 78% kadar balasan"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "94%",
+          "deliveryRate": "Kadar Penghantaran",
+          "higherTrustValue": "2.3x",
+          "higherTrust": "Kepercayaan Lebih Tinggi",
+          "responseRateValue": "78%",
+          "responseRate": "Kadar Balasan"
+        },
+        "features": {
+          "title": "Kelebihan Bebas Tol",
+          "subtitle": "Pemesejan profesional yang membina kepercayaan dan memacu penglibatan",
+          "items": {
+            "recognizableNumbers": "Nombor 1-800 yang mudah dikenali",
+            "noCharges": "Tiada caj kepada penerima - percuma untuk pelanggan",
+            "professionalImage": "Imej jenama profesional yang dipertingkatkan",
+            "higherTrust": "Kepercayaan 2.3x lebih tinggi berbanding nombor biasa",
+            "improvedResponse": "Kadar balasan 78% lebih tinggi",
+            "brandRecognition": "Pengecaman dan ingatan jenama yang lebih baik"
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan Sempurna",
+          "subtitle": "Ideal untuk perniagaan yang mengutamakan kepercayaan dan profesionalisme",
+          "items": {
+            "customerService": "Perkhidmatan pelanggan dan komunikasi sokongan",
+            "appointmentReminders": "Peringatan dan pengesahan janji temu",
+            "surveys": "Tinjauan kepuasan pelanggan",
+            "notifications": "Pemberitahuan akaun penting",
+            "promotions": "Kempen promosi profesional",
+            "alerts": "Makluman dan kemas kini perkhidmatan"
+          }
+        },
+        "pricing": {
+          "title": "Harga Profesional",
+          "subtitle": "Harga telus untuk pemesejan SMS bebas tol",
+          "setupLabel": "Yuran Persediaan",
+          "setup": {
+            "label": "Yuran Persediaan",
+            "value": "$99"
+          },
+          "monthlyLabel": "Yuran Bulanan",
+          "monthly": {
+            "label": "Yuran Bulanan",
+            "value": "$29"
+          },
+          "perMessageLabel": "Setiap Mesej",
+          "perMessage": {
+            "label": "Setiap Mesej",
+            "value": "$0.04"
+          },
+          "note": "Harga adalah untuk AS dan Kanada. Tiada yuran pembawa tambahan atau kos tersembunyi"
+        },
+        "testimonial": {
+          "quote": "Ciri SMS bebas tol telah meningkatkan kadar balasan pelanggan kami dengan ketara. Pelanggan mempercayai mesej dari nombor 1-800 kami jauh lebih banyak daripada nombor biasa.",
+          "author": "Sarah Chen",
+          "company": "HealthCare Plus",
+          "results": "Kadar balasan 78% lebih tinggi dan 94% kepuasan pelanggan"
+        },
+        "trust": {
+          "title": "Mengapa SMS Bebas Tol Berfungsi",
+          "description": "Bina kepercayaan dan pacu penglibatan dengan pemesejan bebas tol profesional",
+          "professionalImage": {
+            "title": "Imej Jenama Profesional",
+            "description": "Nombor bebas tol serta-merta menyampaikan profesionalisme dan kesahihan, menjadikan pelanggan lebih cenderung untuk terlibat dengan mesej anda."
+          },
+          "noCarrierFees": {
+            "title": "Tiada Kos kepada Pelanggan",
+            "description": "Pelanggan tidak membayar untuk menerima mesej, menghapuskan halangan kepada penglibatan dan meningkatkan kadar balasan."
+          },
+          "higherResponse": {
+            "title": "Kadar Balasan Lebih Tinggi",
+            "description": "Kajian menunjukkan kepercayaan 2.3x lebih tinggi dan kadar balasan 78% lebih baik berbanding nombor telefon biasa."
+          }
+        }
+      },
+      "whatsapp": {
+        "seo": {
+          "title": "API Platform Perniagaan WhatsApp | Penyelesaian Pemesejan Perusahaan | SeaX",
+          "description": "Berhubung dengan 2+ bilion pengguna WhatsApp di seluruh dunia. Pemesejan perniagaan profesional dengan media kaya, templat, dan aliran kerja automatik untuk penglibatan pelanggan."
+        },
+        "hero": {
+          "badge": "Saluran Paling Popular",
+          "title": {
+            "line1": "Berhubung dengan",
+            "line2": "Platform Perniagaan WhatsApp"
+          },
+          "description": "Jangkau lebih 2 bilion pengguna di seluruh dunia dengan API Platform Perniagaan WhatsApp. Hantar mesej media kaya, automasi sokongan pelanggan, dan bina hubungan yang bermakna secara besar-besaran.",
+          "stats": {
+            "monthlyUsers": "Pengguna Bulanan",
+            "openRate": "Kadar Buka",
+            "engagementRate": "Kadar Penglibatan",
+            "countriesSupported": "Negara Disokong"
+          },
+          "cta": {
+            "primary": "Mula Percubaan Percuma",
+            "secondary": "Tempah Demo"
+          },
+          "demo": {
+            "title": "Kempen WhatsApp",
+            "subtitle": "Papan Pemuka Prestasi Langsung",
+            "templateLabel": "Mesej Templat",
+            "message": "Hai! Pesanan anda #12345 sedia untuk diambil. Adakah anda ingin menjadualkan masa atau memerlukan arah ke kedai kami?",
+            "button1": "Jadualkan Pengambilan",
+            "button2": "Dapatkan Arah",
+            "openRateValue": "94.8%",
+            "openRateLabel": "Kadar Buka",
+            "deliveredValue": "12.3K",
+            "deliveredLabel": "Mesej Dihantar"
+          }
+        },
+        "features": {
+          "title": "Mengapa Memilih Platform Perniagaan WhatsApp?",
+          "subtitle": "Manfaatkan platform pemesejan paling popular di dunia untuk komunikasi perniagaan anda",
+          "richMedia": {
+            "title": "Sokongan Media Kaya",
+            "description": "Hantar imej, video, dokumen, dan butang interaktif untuk mencipta pengalaman pelanggan yang menarik."
+          },
+          "globalReach": {
+            "title": "Jangkauan Global",
+            "description": "Berhubung dengan pelanggan di 180+ negara di mana WhatsApp sudah menjadi sebahagian daripada rutin harian mereka."
+          },
+          "security": {
+            "title": "Keselamatan Hujung ke Hujung",
+            "description": "Penyulitan terbina dalam memastikan komunikasi selamat sambil mengekalkan kepercayaan pelanggan dan privasi data."
+          },
+          "instantDelivery": {
+            "title": "Penghantaran Segera",
+            "description": "Mesej dihantar serta-merta dengan resit baca dan pengesahan penghantaran untuk penjejakan yang lebih baik."
+          },
+          "analytics": {
+            "title": "Analitik Lanjutan",
+            "description": "Jejak prestasi mesej, kadar penglibatan, dan interaksi pelanggan dengan wawasan terperinci."
+          },
+          "twoWay": {
+            "title": "Perbualan Dua Hala",
+            "description": "Membolehkan perbualan semula jadi dengan pelanggan melalui balasan automatik dan penyerahan ejen manusia."
+          }
+        },
+        "messageTypes": {
+          "title": "Jenis & Keupayaan Mesej",
+          "subtitle": "Pilih daripada pelbagai format mesej untuk melibatkan pelanggan dengan berkesan",
+          "template": {
+            "title": "Mesej Templat",
+            "description": "Templat mesej yang telah diluluskan untuk pemberitahuan, kemas kini, dan kandungan promosi.",
+            "feature1": "Pengesahan dan kemas kini pesanan",
+            "feature2": "Peringatan janji temu",
+            "feature3": "Pemberitahuan pembayaran",
+            "feature4": "Kempen promosi"
+          },
+          "richMedia": {
+            "title": "Mesej Media Kaya",
+            "description": "Libatkan pelanggan dengan kandungan multimedia termasuk imej, video, dan dokumen.",
+            "feature1": "Imej dan video berkualiti tinggi",
+            "feature2": "Dokumen dan katalog PDF",
+            "feature3": "Mesej audio dan nota suara",
+            "feature4": "Perkongsian lokasi"
+          },
+          "interactive": {
+            "title": "Mesej Interaktif",
+            "description": "Cipta pengalaman yang menarik dengan butang, senarai, dan balasan pantas untuk interaksi pelanggan yang lebih baik.",
+            "feature1": "Butang balasan pantas",
+            "feature2": "Pilihan senarai",
+            "feature3": "Butang panggilan-ke-tindakan",
+            "feature4": "Katalog produk"
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan Popular",
+          "subtitle": "Lihat bagaimana perniagaan menggunakan WhatsApp untuk memacu pertumbuhan dan meningkatkan kepuasan pelanggan",
+          "support": {
+            "title": "Sokongan Pelanggan",
+            "description": "Sediakan sokongan pelanggan segera dengan balasan automatik dan penyerahan ejen yang lancar untuk pertanyaan kompleks.",
+            "metrics": "87% masa resolusi lebih cepat"
+          },
+          "orders": {
+            "title": "Pengurusan Pesanan",
+            "description": "Hantar pengesahan pesanan, kemas kini penghantaran, dan pemberitahuan penghantaran untuk memastikan pelanggan sentiasa dimaklumkan sepanjang proses.",
+            "metrics": "95% kadar pengesahan penghantaran"
+          },
+          "marketing": {
+            "title": "Kempen Pemasaran",
+            "description": "Lancarkan kempen pemasaran yang disasarkan dengan kandungan media kaya dan elemen interaktif untuk memacu jualan dan penglibatan.",
+            "metrics": "3.2x kadar penukaran lebih tinggi"
+          },
+          "appointments": {
+            "title": "Tempahan Janji Temu",
+            "description": "Automasi penjadualan janji temu, hantar peringatan, dan kendalikan permintaan penjadualan semula melalui aliran perbualan.",
+            "metrics": "Pengurangan 78% dalam ketidakhadiran"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Berhubung dengan WhatsApp?",
+          "subtitle": "Sertai ribuan perniagaan yang sudah menggunakan API Platform Perniagaan WhatsApp untuk mengembangkan hubungan pelanggan mereka",
+          "primary": "Mula Percubaan Percuma",
+          "secondary": "Tempah Demo"
+        }
+      },
+      "voice": {
+        "title": "Kempen Suara AI",
+        "subtitle": "Panggilan Telefon Automatik secara Besar-besaran",
+        "description": "Jangkau pelanggan serta-merta dengan kempen suara berkuasa AI. Sesuai untuk peringatan janji temu, tinjauan, makluman kecemasan, dan jangkauan pelanggan yang diperibadikan merentasi 100+ negara.",
+        "seoTitle": "Platform Automasi Panggilan Suara - Kempen Telefon Berkuasa AI | SeaX",
+        "seoDescription": "Automasi panggilan telefon secara besar-besaran dengan Suara SeaX. Kempen suara berkuasa AI, peringatan janji temu, tinjauan, dan jangkauan pelanggan dengan kadar sambungan tinggi merentasi 100+ negara.",
+        "hero": {
+          "widget": {
+            "title": "Papan Pemuka Suara AI",
+            "poweredBy": "Dikuasakan oleh SeaX",
+            "callsNumber": "24,847",
+            "callsCompletedToday": "panggilan selesai hari ini",
+            "connectionRateValue": "87%",
+            "connectionRateLabel": "Kadar Sambungan",
+            "countriesValue": "100+",
+            "countriesLabel": "Negara Disokong",
+            "activeCalls": "Panggilan Aktif",
+            "usPhoneNumber": "+1 (555) 123-4567",
+            "appointmentReminder": "Panggilan peringatan janji temu",
+            "ukPhoneNumber": "+44 20 7946 0958",
+            "surveyCall": "Tinjauan kepuasan pelanggan"
+          }
+        },
+        "stats": {
+          "languagesValue": "25+",
+          "languagesLabel": "Bahasa Disokong"
+        },
+        "features": {
+          "title": "Ciri-ciri Suara Berkuasa",
+          "subtitle": "Semua yang anda perlukan untuk kempen suara yang berjaya",
+          "items": {
+            "0": "Sintesis suara semula jadi berkuasa AI",
+            "1": "Sokongan berbilang bahasa (25+ bahasa)",
+            "2": "Analitik dan pelaporan panggilan masa nyata",
+            "3": "Keupayaan respons suara interaktif (IVR)",
+            "4": "Pengesanan dan pengendalian mel suara",
+            "5": "Rakaman dan transkripsi panggilan",
+            "6": "Logik cuba semula pintar dan penjadualan",
+            "7": "Pematuhan dengan peraturan telemarketing",
+            "globalReach": "Jangkauan global dengan nombor telefon tempatan di 180+ negara",
+            "highQuality": "Kualiti suara HD yang jernih dengan penghalaan pintar",
+            "smartDialing": "Pendailan pintar dengan masa optimum dan penjadualan panggilan",
+            "multiLanguage": "Sokongan berbilang bahasa dengan suara yang berbunyi asli",
+            "realTimeAnalytics": "Analitik panggilan masa nyata dan penjejakan prestasi",
+            "complianceReady": "Pematuhan terbina dalam dengan peraturan telemarketing"
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan Kempen Suara",
+          "subtitle": "Aplikasi terbukti untuk automasi suara",
+          "items": {
+            "0": "Peringatan dan pengesahan janji temu",
+            "1": "Tinjauan kepuasan pelanggan",
+            "2": "Peringatan dan kutipan pembayaran",
+            "3": "Makluman dan pemberitahuan kecemasan",
+            "4": "Pengesahan dan kemas kini acara",
+            "5": "Kelayakan dan pemeliharaan petunjuk",
+            "6": "Penyelidikan pasaran dan pengundian",
+            "7": "Pemberitahuan gangguan perkhidmatan",
+            "appointmentReminders": "Peringatan dan pengesahan janji temu automatik",
+            "customerSurveys": "Tinjauan kepuasan pelanggan dan maklum balas",
+            "salesOutreach": "Jangkauan jualan dan panggilan kelayakan petunjuk",
+            "paymentReminders": "Peringatan pembayaran dan panggilan kutipan",
+            "emergencyAlerts": "Pemberitahuan kecemasan dan makluman mendesak",
+            "eventNotifications": "Peringatan acara dan pengumuman penting"
+          }
+        },
+        "pricing": {
+          "title": "Harga Kempen Suara",
+          "subtitle": "Harga yang menjimatkan kos untuk automasi suara",
+          "setup": {
+            "label": "Yuran Persediaan",
+            "value": "$199"
+          },
+          "monthly": {
+            "label": "Yuran Bulanan",
+            "value": "$49"
+          },
+          "perMinute": {
+            "label": "Setiap Minit",
+            "value": "$0.12"
+          },
+          "note": {
+            "value": "Diskaun volum tersedia untuk 10,000+ panggilan/bulan"
+          },
+          "perMessage": {
+            "label": "Setiap Mesej",
+            "value": "$0.08"
+          }
+        },
+        "testimonial": {
+          "quote": "Kempen suara SeaX telah merevolusikan peringatan janji temu kami. Kami telah mengurangkan ketidakhadiran sebanyak 70% dan meningkatkan kepuasan pelanggan dengan ketara.",
+          "author": "Dr. Emily Rodriguez",
+          "company": "HealthFirst Medical Group",
+          "results": "Pengurangan 70% dalam ketidakhadiran dan 95% kadar kepuasan pelanggan"
+        }
+      }
+    },
+    "solutions": {
+      "leadGeneration": {
+        "seo": {
+          "title": "Penyelesaian Penjanaan Petunjuk - Jangkauan Berbilang Saluran SeaX",
+          "description": "Jana petunjuk yang layak secara besar-besaran dengan penyelesaian penjanaan petunjuk berbilang saluran SeaX. Kempen SMS, WhatsApp, dan suara dengan susulan berkuasa AI."
+        },
+        "hero": {
+          "title": "Penjanaan Petunjuk",
+          "titleHighlight": "secara Besar-besaran",
+          "description": "Jana petunjuk yang layak dengan kempen berbilang saluran merentasi SMS, WhatsApp, dan panggilan suara. Susulan berkuasa AI memastikan tiada peluang yang terlepas.",
+          "cta": {
+            "primary": "Mula Menjana Petunjuk",
+            "secondary": "Tempah Demo"
+          }
+        },
+        "features": {
+          "title": "Ciri-ciri Penjanaan Petunjuk Berkuasa",
+          "subtitle": "Semua yang anda perlukan untuk menangkap, melayakkan, dan menukar petunjuk secara besar-besaran",
+          "targetedOutreach": {
+            "title": "Jangkauan Sasaran",
+            "description": "Jangkau prospek yang betul dengan penargetan tepat merentasi SMS, WhatsApp, dan panggilan suara."
+          },
+          "multiChannelCampaigns": {
+            "title": "Kempen Berbilang Saluran",
+            "description": "Laksanakan kempen yang diselaraskan merentasi SMS, WhatsApp, dan suara untuk impak maksimum."
+          },
+          "aiFollowUps": {
+            "title": "Susulan Berkuasa AI",
+            "description": "Balasan pintar automatik yang melayakkan petunjuk dan menjadualkan mesyuarat 24/7."
+          },
+          "realTimeAnalytics": {
+            "title": "Analitik Masa Nyata",
+            "description": "Jejak prestasi kempen, kualiti petunjuk, dan kadar penukaran dalam masa nyata."
+          },
+          "leadScoring": {
+            "title": "Penilaian Petunjuk",
+            "description": "Penilaian dan keutamaan petunjuk automatik berdasarkan penglibatan dan balasan."
+          },
+          "voiceQualification": {
+            "title": "Kelayakan Suara",
+            "description": "Panggilan suara berkuasa AI untuk melayakkan petunjuk dan menempah janji temu secara automatik."
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan Penjanaan Petunjuk",
+          "subtitle": "Strategi terbukti merentasi industri dan jenis perniagaan",
+          "b2bSales": {
+            "title": "Jangkauan Jualan B2B",
+            "description": "Jana petunjuk yang layak untuk pasukan jualan B2B dengan kempen pemesejan yang disasarkan.",
+            "stats": "Peningkatan 300% dalam petunjuk yang layak"
+          },
+          "realEstate": {
+            "title": "Penjanaan Petunjuk Hartanah",
+            "description": "Berhubung dengan pembeli dan penjual hartanah melalui kempen berbilang saluran.",
+            "stats": "Peningkatan kadar balasan 85%"
+          },
+          "insurance": {
+            "title": "Kelayakan Petunjuk Insurans",
+            "description": "Layakkan prospek insurans dengan susulan automatik dan tempahan janji temu.",
+            "stats": "Pengurangan 60% dalam masa kelayakan"
+          },
+          "eventRegistration": {
+            "title": "Pendaftaran Acara",
+            "description": "Pacu pendaftaran acara dengan jemputan yang disasarkan dan urutan susulan.",
+            "stats": "Peningkatan 200% dalam pendaftaran"
+          }
+        },
+        "stats": {
+          "title": "Hasil Terbukti",
+          "subtitle": "Lihat apa yang dicapai oleh klien kami dengan Penjanaan Petunjuk SeaX",
+          "qualifiedLeads": {
+            "value": "5x",
+            "label": "Lebih Banyak Petunjuk yang Layak"
+          },
+          "responseRate": {
+            "value": "85%",
+            "label": "Kadar Balasan"
+          },
+          "timeSavings": {
+            "value": "60%",
+            "label": "Penjimatan Masa"
+          },
+          "roiIncrease": {
+            "value": "300%",
+            "label": "Peningkatan ROI"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Meningkatkan Skala Penjanaan Petunjuk Anda?",
+          "subtitle": "Sertai ribuan perniagaan yang menjana petunjuk yang layak dengan SeaX",
+          "primary": "Daftar Sekarang",
+          "secondary": "Tempah Demo"
+        }
+      },
+      "marketingAutomation": {
+        "seo": {
+          "title": "Platform Automasi Pemasaran - Automasi Berbilang Saluran SeaX",
+          "description": "Automasi kempen pemasaran anda merentasi SMS, WhatsApp, dan panggilan suara. Aliran kerja lanjutan, segmentasi audiens, dan analitik prestasi."
+        },
+        "hero": {
+          "title": {
+            "main": "Automasi Pemasaran",
+            "highlight": "yang Berfungsi"
+          },
+          "description": "Automasi kempen pemasaran anda merentasi SMS, WhatsApp, dan panggilan suara. Cipta aliran kerja canggih yang memelihara petunjuk dan memacu penukaran 24/7.",
+          "cta": {
+            "primary": "Mula Mengautomasikan",
+            "secondary": "Lihat Demo"
+          }
+        },
+        "features": {
+          "title": "Ciri-ciri Automasi Berkuasa",
+          "subtitle": "Bina kempen canggih yang berjalan secara automatik dan memberikan hasil",
+          "items[0]": {
+            "title": "Aliran Kerja Automatik",
+            "description": "Cipta kempen berbilang langkah yang kompleks yang mencetuskan berdasarkan tingkah laku dan balasan pelanggan."
+          },
+          "items[1]": {
+            "title": "Masa Pintar",
+            "description": "Hantar mesej pada masa optimum berdasarkan zon waktu pelanggan dan corak penglibatan."
+          },
+          "items[2]": {
+            "title": "Segmentasi Audiens",
+            "description": "Sasarkan segmen pelanggan tertentu dengan pemesejan yang diperibadikan merentasi semua saluran."
+          },
+          "items[3]": {
+            "title": "Analitik Prestasi",
+            "description": "Jejak kadar penglibatan, penukaran, dan ROI dengan analitik kempen terperinci."
+          },
+          "items[4]": {
+            "title": "Urutan Berbilang Saluran",
+            "description": "Orkestra kempen merentasi SMS, WhatsApp, dan panggilan suara untuk jangkauan maksimum."
+          },
+          "items[5]": {
+            "title": "Ujian A/B",
+            "description": "Uji mesej, masa, dan saluran yang berbeza untuk mengoptimumkan prestasi kempen."
+          }
+        },
+        "automationTypes": {
+          "title": "Aliran Kerja Automasi",
+          "subtitle": "Urutan automasi pra-bina untuk senario pemasaran lazim",
+          "items[0]": {
+            "title": "Siri Selamat Datang",
+            "description": "Onboard pelanggan baru secara automatik dengan urutan selamat datang yang diperibadikan.",
+            "example": "SMS Selamat Datang → Maklumat produk → Tawaran istimewa → Permintaan maklum balas"
+          },
+          "items[1]": {
+            "title": "Pemulihan Keranjang Terbengkalai",
+            "description": "Libatkan semula pelanggan yang meninggalkan barang dalam keranjang mereka dengan peringatan yang disasarkan.",
+            "example": "Peringatan keranjang → Diskaun masa terhad → Cadangan produk"
+          },
+          "items[2]": {
+            "title": "Kitaran Hayat Pelanggan",
+            "description": "Bimbing pelanggan melalui perjalanan mereka dengan titik sentuh automatik.",
+            "example": "Pengesahan pembelian → Petua penggunaan → Peluang upsell → Ganjaran kesetiaan"
+          },
+          "items[3]": {
+            "title": "Kempen Penglibatan Semula",
+            "description": "Dapatkan semula pelanggan yang tidak aktif dengan urutan penglibatan semula yang menarik.",
+            "example": "Mesej rindu anda → Tawaran eksklusif → Kemas kini produk → Insentif mendapatkan semula"
+          },
+          "exampleFlowLabel": "Contoh Aliran:"
+        },
+        "stats": {
+          "title": "Hasil Automasi",
+          "subtitle": "Lihat impak automasi pemasaran pada perniagaan anda",
+          "items[0]": {
+            "value": "10x",
+            "label": "Lebih Cekap"
+          },
+          "items[1]": {
+            "value": "95%",
+            "label": "Kadar Penglibatan"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Penjimatan Masa"
+          },
+          "items[3]": {
+            "value": "400%",
+            "label": "Peningkatan ROI"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Mengautomasikan Pemasaran Anda?",
+          "description": "Sertai ribuan perniagaan yang meningkatkan skala pemasaran mereka dengan automasi SeaX",
+          "primary": "Daftar Sekarang",
+          "secondary": "Tempah Demo"
+        }
+      },
+      "customerEngagement": {
+        "seo": {
+          "title": "Penglibatan Pelanggan - Platform Komunikasi SeaX",
+          "description": "Bina hubungan pelanggan yang lebih kukuh dengan penglibatan berbilang saluran yang diperibadikan merentasi SMS, WhatsApp, dan panggilan suara."
+        },
+        "hero": {
+          "title": {
+            "main": "Penglibatan Pelanggan",
+            "highlight": "yang Membina Kesetiaan"
+          },
+          "description": "Bina hubungan pelanggan yang lebih kukuh dengan penglibatan berbilang saluran yang diperibadikan merentasi SMS, WhatsApp, dan panggilan suara. Tukar setiap interaksi menjadi peluang.",
+          "cta": {
+            "primary": "Libatkan Pelanggan",
+            "secondary": "Tempah Demo"
+          }
+        },
+        "features": {
+          "title": "Ciri-ciri Penglibatan",
+          "subtitle": "Semua yang anda perlukan untuk membina hubungan pelanggan yang bermakna",
+          "items[0]": {
+            "title": "Pemprofilan Pelanggan Lanjutan",
+            "description": "Cipta profil pelanggan yang diperkaya untuk penglibatan yang lebih diperibadikan."
+          },
+          "items[1]": {
+            "title": "Pemesejan Berbilang Saluran",
+            "description": "Libatkan pelanggan merentasi SMS, WhatsApp, dan pemesejan dalam aplikasi."
+          },
+          "items[2]": {
+            "title": "Analisis Sentimen",
+            "description": "Fahami sentimen pelanggan dan sesuaikan komunikasi dengan sewajarnya."
+          },
+          "items[3]": {
+            "title": "Analitik Tingkah Laku",
+            "description": "Jejak dan analisis tingkah laku pelanggan untuk meningkatkan strategi penglibatan."
+          },
+          "items[4]": {
+            "title": "Alat Pemasaran Langsung",
+            "description": "Jalankan kempen yang disasarkan dengan ketepatan, berdasarkan data pelanggan."
+          },
+          "items[5]": {
+            "title": "Interaksi Masa Nyata",
+            "description": "Libatkan pelanggan apabila ia paling penting, dengan pencetus dan komunikasi masa nyata."
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan Penglibatan",
+          "subtitle": "Strategi penglibatan pelanggan dunia nyata merentasi industri",
+          "items[0]": {
+            "title": "Penglibatan E-dagang",
+            "description": "Tingkatkan perniagaan berulang dan pengekalan pelanggan melalui promosi yang diperibadikan.",
+            "stats": "Peningkatan 20% dalam pembelian berulang"
+          },
+          "items[1]": {
+            "title": "Makluman Perkhidmatan Kewangan",
+            "description": "Berikan maklumat kepada klien tentang aktiviti akaun dengan makluman dan kemas kini automatik.",
+            "stats": "80% kadar penglibatan pada makluman"
+          },
+          "items[2]": {
+            "title": "Perjalanan dan Hospitaliti",
+            "description": "Tingkatkan pengalaman tetamu dengan kemas kini pra-ketibaan dan jadual perjalanan yang diperibadikan.",
+            "stats": "Pengurangan 50% dalam pertanyaan pelanggan"
+          },
+          "items[3]": {
+            "title": "Program Kesetiaan Runcit",
+            "description": "Tingkatkan kesetiaan dengan ganjaran dan tawaran yang diperibadikan berdasarkan sejarah pembelian.",
+            "stats": "Peningkatan 25% dalam ahli program kesetiaan"
+          }
+        },
+        "stats": {
+          "title": "Hasil Penglibatan",
+          "subtitle": "Lihat impak penglibatan pelanggan yang dipertingkatkan",
+          "items[0]": {
+            "value": "40%",
+            "label": "Penglibatan Lebih Tinggi"
+          },
+          "items[1]": {
+            "value": "85%",
+            "label": "Kepuasan Pelanggan"
+          },
+          "items[2]": {
+            "value": "60%",
+            "label": "Kadar Pembelian Berulang"
+          },
+          "items[3]": {
+            "value": "3x",
+            "label": "Nilai Seumur Hidup Pelanggan"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Membina Hubungan Pelanggan yang Lebih Kukuh?",
+          "description": "Sertai ribuan perniagaan yang menggunakan SeaX untuk melibatkan pelanggan dan membina kesetiaan yang berkekalan",
+          "primary": "Mula Hari Ini"
+        }
+      },
+      "appointmentReminders": {
+        "seo": {
+          "title": "Peringatan Janji Temu - Penjadualan Automatik SeaX",
+          "description": "Kurangkan ketidakhadiran dan tingkatkan kehadiran dengan peringatan janji temu automatik melalui SMS, WhatsApp, dan panggilan suara. Sistem penjadualan dan pengesahan pintar."
+        },
+        "hero": {
+          "title": {
+            "main": "Peringatan Janji Temu",
+            "highlight": "yang Berfungsi"
+          },
+          "description": "Kurangkan ketidakhadiran dan tingkatkan kehadiran dengan peringatan janji temu automatik melalui SMS, WhatsApp, dan panggilan suara. Penjadualan pintar dengan komunikasi dua hala.",
+          "cta": {
+            "primary": "Mula Mengurangkan Ketidakhadiran",
+            "secondary": "Tempah Demo"
+          }
+        },
+        "features": {
+          "title": "Ciri-ciri Peringatan Berkuasa",
+          "subtitle": "Semua yang anda perlukan untuk memastikan janji temu berjalan lancar dan mengurangkan ketidakhadiran",
+          "items[0]": {
+            "title": "Penjadualan Pintar",
+            "description": "Jadualkan janji temu secara automatik dan hantar pengesahan merentasi SMS, WhatsApp, dan panggilan suara."
+          },
+          "items[1]": {
+            "title": "Peringatan Berbilang Peringkat",
+            "description": "Hantar peringatan yang diperibadikan pada selang waktu optimum - 24 jam, 1 jam, dan 15 minit sebelum janji temu."
+          },
+          "items[2]": {
+            "title": "Komunikasi Dua Hala",
+            "description": "Benarkan pelanggan mengesahkan, menjadualkan semula, atau membatalkan janji temu secara langsung melalui SMS atau WhatsApp."
+          },
+          "items[3]": {
+            "title": "Pemberitahuan Kakitangan",
+            "description": "Berikan maklumat kepada pasukan anda dengan kemas kini masa nyata mengenai perubahan dan pengesahan janji temu."
+          },
+          "items[4]": {
+            "title": "Makluman Tersuai",
+            "description": "Sediakan jadual dan mesej peringatan tersuai untuk jenis dan tempoh janji temu yang berbeza."
+          },
+          "items[5]": {
+            "title": "Analitik & Wawasan",
+            "description": "Jejak kadar ketidakhadiran, kadar pengesahan, dan optimumkan strategi peringatan anda dengan analitik terperinci."
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan Industri",
+          "subtitle": "Strategi peringatan janji temu terbukti merentasi industri yang berbeza",
+          "items[0]": {
+            "title": "Amalan Penjagaan Kesihatan",
+            "description": "Kurangkan ketidakhadiran untuk janji temu perubatan dengan peringatan automatik dan pilihan penjadualan semula yang mudah.",
+            "stats": "Pengurangan 40% dalam ketidakhadiran"
+          },
+          "items[1]": {
+            "title": "Kecantikan & Kesejahteraan",
+            "description": "Pastikan janji temu salon dan spa berjalan lancar dengan peringatan dan permintaan pengesahan yang diperibadikan.",
+            "stats": "85% kadar pengesahan"
+          },
+          "items[2]": {
+            "title": "Perkhidmatan Profesional",
+            "description": "Pastikan konsultasi dan mesyuarat berlaku tepat pada masanya dengan urutan peringatan berbilang saluran.",
+            "stats": "90% kadar kehadiran"
+          },
+          "items[3]": {
+            "title": "Perkhidmatan Automotif",
+            "description": "Ingatkan pelanggan tentang janji temu perkhidmatan dan jadual penyelenggaraan secara automatik.",
+            "stats": "Peningkatan 60% dalam lawatan berulang"
+          }
+        },
+        "stats": {
+          "title": "Hasil Terbukti",
+          "subtitle": "Lihat apa yang dicapai oleh klien kami dengan Peringatan Janji Temu SeaX",
+          "items[0]": {
+            "value": "40%",
+            "label": "Pengurangan dalam Ketidakhadiran"
+          },
+          "items[1]": {
+            "value": "90%",
+            "label": "Kadar Kehadiran"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Penjimatan Masa"
+          },
+          "items[3]": {
+            "value": "95%",
+            "label": "Kepuasan Pelanggan"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Mengurangkan Ketidakhadiran dan Meningkatkan Kehadiran?",
+          "description": "Sertai ribuan perniagaan yang meningkatkan kehadiran janji temu dengan SeaX",
+          "primary": "Mula Hari Ini"
+        }
+      },
+      "emergencyAlerts": {
+        "seo": {
+          "title": "Makluman Kecemasan - Sistem Pemberitahuan SeaX",
+          "description": "Hantar makluman kecemasan segera dengan komunikasi masa nyata merentasi SMS, suara, dan WhatsApp. Pastikan penghantaran mesej dalam situasi kritikal."
+        },
+        "hero": {
+          "title": {
+            "main": "Makluman Kecemasan",
+            "highlight": "yang Menyelamatkan Nyawa"
+          },
+          "description": "Hantar makluman kecemasan segera dengan komunikasi masa nyata merentasi SMS, suara, dan WhatsApp. Pastikan penghantaran mesej dalam situasi kritikal apabila setiap saat penting.",
+          "cta": {
+            "primary": "Mula Menghantar Makluman",
+            "secondary": "Tempah Demo Keselamatan"
+          }
+        },
+        "features": {
+          "title": "Ciri-ciri Makluman Kritikal",
+          "subtitle": "Semua yang anda perlukan untuk komunikasi kecemasan yang berkesan dan boleh dipercayai",
+          "items[0]": {
+            "title": "Siaran Kecemasan Segera",
+            "description": "Hantar makluman kritikal kepada ribuan penerima secara serentak merentasi SMS, suara, dan WhatsApp."
+          },
+          "items[1]": {
+            "title": "Penghantaran Sensitif Masa",
+            "description": "Penghantaran mesej yang diutamakan memastikan komunikasi kecemasan sampai kepada penerima serta-merta."
+          },
+          "items[2]": {
+            "title": "Kumpulan Penerima Sasaran",
+            "description": "Cipta dan urus kumpulan khusus untuk pelbagai jenis kecemasan dan lokasi."
+          },
+          "items[3]": {
+            "title": "Infrastruktur Boleh Dipercayai",
+            "description": "Dibina di atas infrastruktur gred pembawa untuk memastikan mesej sampai apabila ia paling penting."
+          },
+          "items[4]": {
+            "title": "Makluman Berbilang Saluran",
+            "description": "Jangkau orang melalui saluran komunikasi pilihan mereka untuk kadar balasan maksimum."
+          },
+          "items[5]": {
+            "title": "Komunikasi Dua Hala",
+            "description": "Terima pengesahan dan balasan daripada penerima untuk menjejaki keberkesanan makluman."
+          }
+        },
+        "useCases": {
+          "title": "Kes Penggunaan Makluman Kecemasan",
+          "subtitle": "Aplikasi dunia nyata untuk memastikan keselamatan dan komunikasi",
+          "items[0]": {
+            "title": "Tindak Balas Kecemasan Korporat",
+            "description": "Maklumkan pekerja tentang ancaman keselamatan, pemindahan, atau gangguan perniagaan kritikal.",
+            "stats": "99.9% kadar kejayaan penghantaran"
+          },
+          "items[1]": {
+            "title": "Makluman Keselamatan Sekolah",
+            "description": "Maklumkan ibu bapa, pelajar, dan kakitangan serta-merta tentang penutupan sekolah atau insiden keselamatan.",
+            "stats": "30 saat purata masa penghantaran"
+          },
+          "items[2]": {
+            "title": "Makluman Kritikal Penjagaan Kesihatan",
+            "description": "Maklumkan kakitangan perubatan tentang situasi kod, kecemasan pesakit, atau insiden kemudahan.",
+            "stats": "95% kadar balasan dalam 5 minit"
+          },
+          "items[3]": {
+            "title": "Pemberitahuan Keselamatan Awam",
+            "description": "Berikan amaran kepada komuniti tentang bencana alam, keadaan berbahaya, atau ancaman keselamatan awam.",
+            "stats": "10,000+ penerima seminit"
+          }
+        },
+        "stats": {
+          "title": "Tindak Balas Kecemasan Terbukti",
+          "subtitle": "Hantar mesej dengan boleh dipercayai apabila setiap saat penting",
+          "items[0]": {
+            "value": "99.9%",
+            "label": "Kadar Kejayaan Penghantaran"
+          },
+          "items[1]": {
+            "value": "30 saat",
+            "label": "Purata Masa Penghantaran"
+          },
+          "items[2]": {
+            "value": "95%",
+            "label": "Balasan Dalam 5 minit"
+          },
+          "items[3]": {
+            "value": "10,000+",
+            "label": "Mesej seminit"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Memastikan Keselamatan dan Komunikasi?",
+          "description": "Sertai ribuan organisasi yang menggunakan SeaX untuk memastikan keselamatan dan berkomunikasi dengan berkesan semasa kecemasan.",
+          "primary": "Mula Hari Ini"
+        }
+      }
+    }
+  }
+}

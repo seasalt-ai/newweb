@@ -1,227 +1,1598 @@
 {
-  "seachat": {
-    "solutions": {
-      "industries": {
+  "seax": {
+    "home": {
+      "seo": {
+        "title": "SeaX - 대량 SMS, WhatsApp 및 음성 마케팅 플랫폼 | Seasalt.ai",
+        "description": "SeaX의 강력한 대량 SMS, WhatsApp 메시징 및 AI 음성 캠페인으로 수백만 명에게 도달 범위를 확장하십시오. 높은 전송률, 글로벌 도달 범위 및 고급 분석。"
+      },
+      "scalingProblem": {
+        "title": "수동 아웃리치의 문제",
+        "subtitle": "귀하의 비즈니스는 수천 명의 고객에게 도달해야 하지만 수동 아웃리치는 확장되지 않습니다. SeaX는 개인적인 접촉을 유지하면서 커뮤니케이션을 자동화합니다。",
+        "manualOutreach": {
+          "title": "수동 아웃리치",
+          "description": "시간이 많이 걸리는 개별 메시지, 제한된 도달 범위, 일관성 없는 후속 조치"
+        },
+        "seaxAutomation": {
+          "title": "SeaX 자동화",
+          "description": "몇 분 만에 수백만 개의 메시지, AI 기반 개인화, 자동화된 후속 캠페인"
+        },
+        "stats": {
+          "messagesSent": {
+            "value": "10M+",
+            "label": "매일 발송되는 메시지"
+          },
+          "callsPerHour": {
+            "value": "50K+",
+            "label": "시간당 통화 수"
+          },
+          "deliveryRate": {
+            "value": "99.5%",
+            "label": "전송률"
+          },
+          "roiAverage": {
+            "value": "400%",
+            "label": "평균 ROI"
+          }
+        }
+      },
+      "features": {
+        "title": "대규모 확장 기능",
+        "subtitle": "여러 채널을 통해 수백만 명의 고객에게 도달하는 데 필요한 모든 것",
+        "sms": {
+          "title": "대량 SMS",
+          "description": "99.5%의 전송률로 200개 이상의 국가에 수백만 개의 SMS 메시지 전송"
+        },
+        "whatsapp": {
+          "title": "WhatsApp 비즈니스",
+          "description": "템플릿 캠페인 및 개인화된 메시지로 20억 명 이상의 WhatsApp 사용자에게 도달"
+        },
+        "voice": {
+          "title": "AI 음성 캠페인",
+          "description": "설문 조사, 알림 및 아웃리치를 위한 자연스러운 AI 음성을 사용한 자동 전화 통화"
+        },
+        "ai": {
+          "title": "AI 자동화",
+          "description": "AI 기반의 스마트한 후속 조치, 응답 처리 및 캠페인 최적화"
+        }
+      },
+      "leadGeneration": {
+        "title": "잠재 고객을 고객으로 전환",
+        "subtitle": "잠재 고객을 유료 고객으로 전환하는 완벽한 리드 생성 및 육성 시스템",
+        "capture": {
+          "title": "포착",
+          "description": "여러 채널에 걸친 타겟 캠페인으로 리드 유치"
+        },
+        "qualify": {
+          "title": "자격 부여",
+          "description": "최고의 잠재 고객을 식별하기 위한 AI 기반 리드 스코어링 및 자격 부여"
+        },
+        "nurture": {
+          "title": "육성",
+          "description": "관계를 구축하고 전환을 유도하는 자동화된 후속 시퀀스"
+        },
+        "close": {
+          "title": "마감",
+          "description": "완벽한 대화 기록 및 리드 인텔리전스를 갖춘 영업팀으로의 스마트한 인계"
+        }
+      },
+      "howItWorks": {
+        "title": "작동 방식",
+        "subtitle": "4가지 간단한 단계로 시작하여 몇 시간 안에 수백만 명의 고객에게 도달하십시오。",
+        "timeRequired": "소요 시간: ",
+        "step1": {
+          "number": "01",
+          "title": "연락처 가져오기",
+          "description": "CSV, Excel에서 연락처 목록을 업로드하거나 CRM과 통합하십시오. 지능형 중복 제거 기능으로 수백만 개의 연락처를 지원합니다。",
+          "time": "2분",
+          "illustration": {
+            "checkmark": "✓",
+            "fileName": "contacts_list.csv",
+            "contactCount": "25,847개 연락처",
+            "dropFiles": "여기에 파일 놓기",
+            "browse": "또는 업로드할 파일 찾아보기",
+            "importedCount": "25,847",
+            "contactsImported": "개 연락처 가져옴"
+          }
+        },
+        "step2": {
+          "number": "02",
+          "title": "채널 선택",
+          "description": "SMS, WhatsApp, 음성 통화 또는 다중 채널 캠페인 중에서 선택하십시오. 각 채널은 최대 전송 및 참여를 위해 최적화되었습니다。",
+          "time": "1분",
+          "illustration": {
+            "sms": {
+              "label": "SMS",
+              "rate": "98% 개봉률"
+            },
+            "whatsapp": {
+              "label": "WhatsApp",
+              "rate": "90% 개봉률"
+            },
+            "voice": {
+              "label": "음성",
+              "rate": "75% 수신율"
+            }
+          }
+        },
+        "step3": {
+          "number": "03",
+          "title": "캠페인 만들기",
+          "description": "개인화로 메시지를 디자인하고, 잠재고객 타겟팅을 설정하고, 캠페인을 예약하십시오. A/B 테스트가 포함되어 있습니다。",
+          "time": "5분",
+          "illustration": {
+            "campaignDraft": "캠페인 초안",
+            "draftStatus": "초안",
+            "sampleMessage": "{{name}}님, 안녕하세요. 특별한 혜택이 있습니다! 다음 주문 시 20% 할인 받으세요. 수신 거부를 원하시면 STOP이라고 회신하십시오。",
+            "previewButton": "미리보기",
+            "abTestButton": "A/B 테스트",
+            "schedule": "예약",
+            "now": "지금 보내기"
+          }
+        },
+        "step4": {
+          "number": "04",
+          "title": "추적 및 최적화",
+          "description": "상세한 분석으로 캠페인 성과를 실시간으로 모니터링하십시오. 전송률, 응답, 전환 및 ROI 지표를 확인하십시오。",
+          "time": "진행 중",
+          "illustration": {
+            "campaignStatus": "캠페인 상태",
+            "liveStatus": "라이브",
+            "deliveredCount": "847K",
+            "delivered": "전송됨",
+            "responseRate": "12%",
+            "response": "응답률",
+            "totalCount": "1.2M",
+            "totalMessages": "총 메시지",
+            "deliveryRate": "99.5%",
+            "deliveryRateLabel": "전송률",
+            "analytics": "전환 추적 기능이 있는 실시간 성과 분석"
+          }
+        }
+      },
+      "testimonials": {
+        "title": "성장하는 기업들이 신뢰합니다",
+        "subtitle": "기업들이 SeaX를 사용하여 고객 도달 범위를 확장하고 성장을 주도하는 방법을 확인하십시오。",
+        "testimonial1": {
+          "quote": "SeaX 덕분에 하루 만에 50만 명의 고객에게 도달할 수 있었습니다. 전송률은 놀랍고 ROI가 모든 것을 말해줍니다。",
+          "author": "Sarah Chen",
+          "role": "마케팅 이사, TechStart"
+        },
+        "testimonial2": {
+          "quote": "SeaX의 AI 기반 후속 캠페인을 사용하여 전환율을 300% 높였습니다. 우리 비즈니스의 판도를 바꾸었습니다。",
+          "author": "Mike Rodriguez",
+          "role": "CEO, GrowthCorp"
+        },
+        "testimonial3": {
+          "quote": "WhatsApp 통합은 원활합니다. 이제 글로벌 고객 기반과 대규모로 개인적인 대화를 나눌 수 있습니다。",
+          "author": "Lisa Park",
+          "role": "고객 성공 책임자, GlobalTech"
+        }
+      },
+      "cta": {
+        "title": "수백만 명에게 도달 범위를 확장할 준비가 되셨습니까?",
+        "subtitle": "SeaX를 사용하여 더 많은 고객에게 도달하고 더 많은 리드를 생성하며 더 빠르게 성장하는 수천 개의 회사에 합류하십시오。",
+        "demoButton": "데모 예약",
+        "signupButton": "무료 평가판 시작"
+      }
+    },
+    "features": {
+      "seo": {
+        "title": "SeaX 기능 - 대량 통신을 위한 강력한 도구",
+        "description": "SeaX의 강력한 기능인 대량 메시징 엔진, AI 기반 후속 조치, 실시간 분석 및 엔터프라이즈급 인프라를 살펴보십시오。"
+      },
+      "hero": {
+        "title": "강력한 기능",
+        "titleHighlight": "대량 통신",
+        "description": "SMS, WhatsApp 및 음성 채널을 통해 수백만 명의 고객에게 도달하는 데 필요한 모든 것. 확장을 위해 구축되었으며 결과를 위해 설계되었습니다。",
+        "stats": {
+          "messages": "매일 1,000만 건 이상의 메시지",
+          "countries": "200개 이상의 국가",
+          "security": "엔터프라이즈 보안"
+        }
+      },
+      "core": {
+        "title": "핵심 기능",
+        "description": "대량 통신 캠페인을 지원하는 필수 도구",
+        "bulkMessaging": {
+          "title": "대량 메시징 엔진",
+          "description": "통신사급 안정성으로 수백만 개의 SMS, WhatsApp 메시지 및 전화를 동시에 보냅니다。",
+          "metrics": {
+            "value": "10M+",
+            "label": "매일 발송되는 메시지"
+          },
+          "benefits": {
+            "0": "통신사급 전송률",
+            "1": "200개 이상의 국가에 대한 글로벌 도달 범위",
+            "2": "실시간 전송 추적",
+            "3": "지능형 라우팅 최적화"
+          }
+        },
+        "aiFollowup": {
+          "title": "AI 기반 후속 조치",
+          "description": "24/7 잠재 고객을 검증하기 위한 자동 응답 및 스마트 리드 육성。",
+          "metrics": {
+            "value": "85%",
+            "label": "리드 검증률"
+          },
+          "benefits": {
+            "0": "스마트 대화 처리",
+            "1": "자동 리드 스코어링",
+            "2": "지능형 응답 타이밍",
+            "3": "다국어 지원"
+          }
+        },
+        "analytics": {
+          "title": "실시간 분석",
+          "description": "포괄적인 라이브 대시보드로 대규모로 개봉, 회신 및 전환을 추적합니다。",
+          "metrics": {
+            "value": "99.9%",
+            "label": "가동 시간 보장"
+          },
+          "benefits": {
+            "0": "라이브 캠페인 모니터링",
+            "1": "전환 추적",
+            "2": "성과 통찰력",
+            "3": "맞춤형 보고"
+          }
+        },
+        "compliance": {
+          "title": "규정 준수 및 전송률",
+          "description": "통신사 규정 준수 및 사전 승인된 메시지 템플릿을 통한 글로벌 도달 범위。",
+          "metrics": {
+            "value": "200+",
+            "label": "지원 국가"
+          },
+          "benefits": {
+            "0": "GDPR 준수",
+            "1": "통신사 승인 절차",
+            "2": "스팸 방지",
+            "3": "규제 준수"
+          }
+        },
+        "collaboration": {
+          "title": "팀 협업",
+          "description": "엔터프라이즈 팀을 위한 다중 사용자 액세스, 캠페인 권한 및 공유 리소스。",
+          "metrics": {
+            "value": "500K+",
+            "label": "시간당 통화 수"
+          },
+          "benefits": {
+            "0": "역할 기반 권한",
+            "1": "공유 캠페인 템플릿",
+            "2": "팀 성과 추적",
+            "3": "협업 워크플로"
+          }
+        },
+        "scale": {
+          "title": "엔터프라이즈 규모",
+          "description": "전용 인프라 및 지원을 통해 가장 많은 양의 발신자를 위해 구축되었습니다。",
+          "metrics": {
+            "value": "1M+",
+            "label": "분당 메시지 수"
+          },
+          "benefits": {
+            "0": "전용 인프라",
+            "1": "우선 지원",
+            "2": "맞춤형 통합",
+            "3": "엔터프라이즈 SLA"
+          }
+        }
+      },
+      "categories": {
+        "title": "기능 카테고리",
+        "description": "카테고리별로 포괄적인 기능 세트를 살펴보십시오。",
+        "messaging": {
+          "title": "메시징 채널",
+          "sms": {
+            "name": "SMS (10DLC, 수신자 부담, 단축 코드)",
+            "description": "모든 비즈니스 요구에 맞는 모든 SMS 유형"
+          },
+          "whatsapp": {
+            "name": "WhatsApp 비즈니스 플랫폼",
+            "description": "대량 메시징을 위한 캠페인 모드"
+          },
+          "voice": {
+            "name": "음성 통화(100개 이상의 국가)",
+            "description": "Twilio를 통한 AI 기반 통화"
+          }
+        },
+        "aiAutomation": {
+          "title": "AI 및 자동화",
+          "followup": {
+            "name": "AI 기반 후속 조치",
+            "description": "24/7 스마트 리드 육성"
+          },
+          "responses": {
+            "name": "자동 응답",
+            "description": "지능형 대화 처리"
+          },
+          "scoring": {
+            "name": "리드 스코어링",
+            "description": "AI 기반 잠재 고객 검증"
+          }
+        },
+        "analytics": {
+          "title": "분석 및 통찰력",
+          "dashboard": {
+            "name": "실시간 대시보드",
+            "description": "라이브 캠페인 모니터링"
+          },
+          "tracking": {
+            "name": "전환 추적",
+            "description": "ROI 및 성과 지표"
+          },
+          "reporting": {
+            "name": "맞춤형 보고",
+            "description": "상세 분석 및 통찰력"
+          }
+        },
+        "enterprise": {
+          "title": "엔터프라이즈 및 보안",
+          "gdpr": {
+            "name": "GDPR 준수",
+            "description": "완벽한 규제 준수"
+          },
+          "team": {
+            "name": "팀 협업",
+            "description": "다중 사용자 액세스 및 권한"
+          },
+          "sla": {
+            "name": "엔터프라이즈 SLA",
+            "description": "전담 지원 및 가동 시간"
+          }
+        }
+      },
+      "integrations": {
+        "title": "통합을 위해 구축",
+        "description": "SeaX를 기존 도구 및 워크플로와 연결하십시오。",
+        "crm": {
+          "title": "CRM 통합",
+          "description": "Salesforce, HubSpot 및 기타 CRM 시스템과 연결하여 원활한 데이터 흐름을 구현하십시오。",
+          "sync": "양방향 동기화",
+          "mapping": "맞춤형 필드 매핑"
+        },
+        "analytics": {
+          "title": "분석 도구",
+          "description": "Google Analytics, Mixpanel 및 기타 분석 플랫폼으로 데이터를 내보냅니다。",
+          "exports": "실시간 내보내기",
+          "dashboards": "맞춤형 대시보드"
+        },
+        "api": {
+          "title": "개발자 API",
+          "description": "맞춤형 통합 및 자동화된 워크플로를 위한 전체 REST API。",
+          "endpoints": "RESTful 엔드포인트",
+          "webhooks": "웹훅 지원"
+        }
+      },
+      "cta": {
+        "title": "이러한 기능을 경험할 준비가 되셨습니까?",
+        "description": "SeaX가 커뮤니케이션 전략을 어떻게 혁신할 수 있는지 확인하십시오。",
+        "button": "데모 예약"
+      }
+    },
+    "channels": {
+      "sms": {
         "hero": {
-          "title": "모든 산업에 자신 있게 서비스 제공",
-          "subtitle": "헬스케어에서 핀테크에 이르기까지 당사의 플랫폼은 전문적인 기능과 규정 준수 표준을 통해 귀하의 산업별 요구 사항에 적응합니다.",
-          "cta": "산업 솔루션 탐색"
-        },
-        "ecommerce": {
-          "title": "전자상거래 및 소매",
-          "description": "AI 챗봇 및 옴니채널 지원으로 온라인 판매를 촉진하고 고객 만족도를 높입니다.",
-          "features": {
-            "automatedSupport": {
-              "title": "자동 고객 지원",
-              "description": "AI 챗봇이 주문 상태, 제품 문의 및 반품을 처리합니다.",
-              "icon": "🛒"
-            },
-            "abandonedCart": {
-              "title": "버려진 장바구니 복구",
-              "description": "개인화된 메시지로 장바구니를 버린 고객을 다시 참여시킵니다.",
-              "icon": "🛍️"
-            },
-            "personalizedRecommendations": {
-              "title": "개인화된 추천",
-              "description": "AI가 고객 행동 및 선호도를 기반으로 제품을 추천합니다.",
-              "icon": "🎁"
-            },
-            "omnichannelSales": {
-              "title": "옴니채널 판매",
-              "description": "WhatsApp, SMS, 웹사이트 채팅 및 소셜 미디어를 포함한 모든 채널에서 판매를 촉진합니다.",
-              "icon": "🌐"
-            }
+          "stats": {
+            "messagesValue": "10M+",
+            "countriesValue": "200+",
+            "uptimeValue": "99.9%",
+            "deliveryValue": "98%",
+            "messagesSent": "보낸 메시지",
+            "countries": "국가",
+            "uptime": "가동 시간",
+            "deliveryRate": "전송률"
           },
-          "cta": "전자상거래 솔루션 탐색"
-        },
-        "healthcare": {
-          "title": "헬스케어",
-          "description": "HIPAA 준수 메시징 및 AI 자동화로 환자 커뮤니케이션을 간소화합니다.",
-          "features": {
-            "hipaaCompliance": {
-              "title": "HIPAA 준수",
-              "description": "모든 환자 상호 작용에서 최고 수준의 보안 및 개인 정보 보호를 보장합니다.",
-              "icon": "🔒"
-            },
-            "appointmentScheduling": {
-              "title": "약속 예약 및 알림",
-              "description": "AI가 약속을 예약하고, 알림을 보내고, 노쇼를 줄입니다.",
-              "icon": "📅"
-            },
-            "patientSupport": {
-              "title": "환자 지원",
-              "description": "AI 챗봇이 일반적인 환자 문의, 증상 사전 심사 및 의료 전문가에게 라우팅을 처리합니다.",
-              "icon": "👩‍⚕️"
-            },
-            "secureMessaging": {
-              "title": "보안 메시징",
-              "description": "환자와 의료 제공자 간에 민감한 정보를 안전하게 교환합니다.",
-              "icon": "✉️"
-            }
+          "preview": {
+            "deliveredValue": "847K",
+            "successValue": "98.2%",
+            "title": "라이브 SMS 캠페인",
+            "status": "활성",
+            "messageLabel": "샘플 메시지",
+            "message": "[이름]님, 안녕하세요. 오늘 마감되는 독점 50% 할인 행사를 놓치지 마세요! 지금 쇼핑하세요: bit.ly/save50",
+            "delivered": "전송됨",
+            "successRate": "성공률"
           },
-          "cta": "헬스케어 솔루션 탐색"
+          "badge": "SMS 채널",
+          "title": "SMS 확장",
+          "titleHighlight": "수백만으로",
+          "description": "업계 최고의 전송률과 실시간 분석을 통해 전 세계 수백만 명의 고객에게 개인화된 SMS 메시지를 보내십시오。",
+          "cta": {
+            "primary": "SMS 보내기 시작",
+            "secondary": "데모 예약"
+          }
         },
-        "fintech": {
-          "title": "금융 서비스",
-          "description": "보안 커뮤니케이션, 자동화된 지원 및 개인화된 조언으로 고객 참여를 강화합니다.",
-          "features": {
-            "secureCommunication": {
-              "title": "보안 커뮤니케이션",
-              "description": "민감한 금융 문의를 위한 은행 수준의 보안 및 암호화.",
-              "icon": "🏦"
-            },
-            "automatedSupport": {
-              "title": "자동 고객 지원",
-              "description": "AI 챗봇이 계정 잔액, 거래 내역 및 일반적인 금융 문의를 처리합니다.",
-              "icon": "🤖"
-            },
-            "personalizedAdvice": {
-              "title": "개인화된 조언",
-              "description": "AI가 고객의 재정 목표 및 위험 허용 범위에 따라 개인화된 조언을 제공합니다.",
-              "icon": "💡"
-            },
-            "fraudDetection": {
-              "title": "사기 탐지 및 알림",
-              "description": "AI가 의심스러운 활동을 탐지하고 고객에게 실시간으로 알림을 보냅니다.",
-              "icon": "🚨"
-            }
+        "seo": {
+          "title": "SMS 마케팅 및 커뮤니케이션 플랫폼 - SeaX by Seasalt.ai",
+          "description": "SeaX로 대량 SMS 메시지를 대규모로 보내십시오. 마케팅 캠페인 및 커뮤니케이션을 위해 98%의 전송률, 고급 분석 및 엔터프라이즈급 보안으로 전 세계 고객에게 도달하십시오。"
+        },
+        "features": {
+          "title": "강력한 SMS 기능",
+          "description": "결과를 이끌어내는 SMS 캠페인을 만들고, 보내고, 최적화하는 데 필요한 모든 것。",
+          "globalReach": {
+            "title": "글로벌 도달 범위",
+            "description": "최적의 전송률을 위해 직접 통신사 연결을 통해 200개 이상의 국가에 SMS를 보냅니다。"
           },
-          "cta": "금융 서비스 솔루션 탐색"
-        },
-        "education": {
-          "title": "교육",
-          "description": "AI 챗봇 및 옴니채널 지원으로 학생 커뮤니케이션 및 관리를 간소화합니다.",
-          "features": {
-            "studentSupport": {
-              "title": "학생 지원",
-              "description": "AI 챗봇이 과정 등록, 학비 및 캠퍼스 정보에 대한 학생 문의를 처리합니다.",
-              "icon": "🎓"
-            },
-            "admissionAutomation": {
-              "title": "입학 자동화",
-              "description": "AI가 입학 문의를 처리하고, 약속을 예약하고, 신청 절차를 안내합니다.",
-              "icon": "📝"
-            },
-            "parentCommunication": {
-              "title": "학부모 커뮤니케이션",
-              "description": "WhatsApp, SMS 및 이메일을 통해 학부모에게 중요한 정보, 이벤트 및 긴급 알림을 보냅니다.",
-              "icon": "👨‍👩‍👧‍👦"
-            },
-            "alumniEngagement": {
-              "title": "동문 참여",
-              "description": "AI가 동문과 연결하고, 이벤트를 홍보하고, 기부를 요청합니다.",
-              "icon": "🤝"
-            }
+          "lightningFast": {
+            "title": "번개처럼 빠른 속도",
+            "description": "실시간 상태 업데이트 및 전송 확인으로 몇 초 안에 메시지가 전달됩니다。"
           },
-          "cta": "교육 솔루션 탐색"
-        },
-        "realEstate": {
-          "title": "부동산",
-          "description": "AI 챗봇 및 옴니채널 지원으로 리드를 확보하고, 투어를 예약하고, 고객 만족도를 높입니다.",
-          "features": {
-            "leadGeneration": {
-              "title": "리드 생성 및 검증",
-              "description": "AI 챗봇이 웹사이트 방문자를 참여시키고, 리드를 검증하고, 부동산 중개인에게 인계합니다.",
-              "icon": "🏡"
-            },
-            "showingScheduling": {
-              "title": "투어 일정 관리",
-              "description": "AI가 자동으로 투어를 예약하고, 캘린더와 동기화하고, 알림을 보냅니다.",
-              "icon": "📅"
-            },
-            "propertyInquiries": {
-              "title": "부동산 문의",
-              "description": "AI 챗봇이 부동산 문의, 가격 및 가용성을 처리합니다.",
-              "icon": "🏠"
-            },
-            "virtualTours": {
-              "title": "가상 투어",
-              "description": "WhatsApp 및 웹사이트 채팅을 통해 가상 투어 및 부동산 사진을 제공합니다.",
-              "icon": "📸"
-            }
+          "secure": {
+            "title": "엔터프라이즈 보안",
+            "description": "모든 커뮤니케이션을 위한 은행 수준의 암호화, GDPR 준수 및 보안 데이터 처리。"
           },
-          "cta": "부동산 솔루션 탐색"
+          "analytics": {
+            "title": "고급 분석",
+            "description": "전송률, 클릭률 및 캠페인 성과 지표에 대한 상세 보고。"
+          },
+          "bulk": {
+            "title": "대량 메시징",
+            "description": "스마트한 예약 및 조절 기능으로 수백만 개의 개인화된 메시지를 동시에 보냅니다。"
+          },
+          "segmentation": {
+            "title": "스마트 세분화",
+            "description": "행동 및 선호도에 따라 개인화된 메시징으로 특정 고객 세그먼트를 타겟팅합니다。"
+          }
         },
-        "travel": {
-          "title": "여행 및 숙박업",
-          "description": "AI 챗봇 및 옴니채널 지원으로 고객 경험을 향상시키고 예약을 간소화합니다.",
-          "features": {
-            "bookingAutomation": {
-              "title": "예약 자동화",
-              "description": "AI가 항공편, 호텔 및 렌터카 예약을 처리하고 확인을 보냅니다.",
-              "icon": "✈️"
+        "useCases": {
+          "title": "SMS 사용 사례",
+          "description": "기업이 SMS를 사용하여 고객을 참여시키고 성장을 주도하는 방법을 알아보십시오。",
+          "marketing": {
+            "title": "마케팅 캠페인",
+            "description": "프로모션 메시지, 플래시 세일 및 개인화된 제안으로 매출을 증대시키십시오。",
+            "metrics": "최대 45% 개봉률"
+          },
+          "support": {
+            "title": "고객 지원",
+            "description": "주문 업데이트, 배송 알림 및 지원 메시지를 보냅니다。",
+            "metrics": "95% 고객 만족도"
+          },
+          "appointments": {
+            "title": "약속 알림",
+            "description": "자동화된 약속 확인 및 알림으로 노쇼를 줄입니다。",
+            "metrics": "노쇼 60% 감소"
+          },
+          "emergency": {
+            "title": "긴급 알림",
+            "description": "중요한 알림과 긴급 통신을 즉시 보냅니다。",
+            "metrics": "99.9% 전송 신뢰성"
+          }
+        },
+        "cta": {
+          "title": "SMS를 확장할 준비가 되셨습니까?",
+          "description": "SeaX를 사용하여 SMS를 통해 수백만 명의 고객에게 도달하는 수천 개의 기업에 합류하십시오。",
+          "primary": "무료로 시작하기",
+          "secondary": "데모 예약"
+        }
+      },
+      "smsLocal": {
+        "title": "SMS 로컬(10DLC)",
+        "subtitle": "신뢰할 수 있는 지역 번호를 사용한 전문 SMS 메시징",
+        "description": "탁월한 안정성과 통신사 신뢰를 제공하는 등록된 10DLC 번호를 사용하여 대용량 SMS 캠페인을 보내십시오. 마케팅 캠페인, 약속 알림 및 고객 알림에 적합합니다。",
+        "seo": {
+          "title": "SMS 로컬(10DLC) - 전문 비즈니스 메시징 | SeaX",
+          "description": "10DLC 지역 번호로 전문적인 SMS 캠페인을 보내십시오. 비즈니스 커뮤니케이션을 위한 높은 전달률, 통신사 신뢰 및 규정 준수 메시징。"
+        },
+        "hero": {
+          "campaign": {
+            "title": "마케팅 캠페인 대시보드",
+            "status": "활성",
+            "messagesSentValue": "2,847",
+            "messagesSent": "보낸 메시지",
+            "deliveryRateValue": "98.5%",
+            "deliveryRate": "전달률"
+          },
+          "recentActivity": {
+            "title": "최근 활동",
+            "marketing": {
+              "title": "플래시 세일 캠페인",
+              "details": "구독자 1,523명에게 발송 • 89% 전달됨"
             },
+            "appointment": {
+              "title": "약속 알림",
+              "details": "알림 247건 발송 • 노쇼율 2%"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "98%+",
+          "deliveryRate": "전달률",
+          "openRateValue": "96%",
+          "openRate": "개봉률",
+          "supportValue": "24/7",
+          "support": "지원"
+        },
+        "features": {
+          "title": "주요 기능",
+          "subtitle": "전문적인 SMS 마케팅에 필요한 모든 것",
+          "items": {
+            "0": "통신사 신뢰를 통한 높은 전달률",
+            "1": "10DLC 등록 및 브랜드 인증",
+            "2": "캠페인 사전 승인 절차",
+            "3": "양방향 메시징 지원",
+            "4": "고급 분석 및 보고",
+            "5": "자동 수신 거부 관리",
+            "6": "메시지 템플릿 및 개인화",
+            "7": "예약 및 드립 캠페인"
+          }
+        },
+        "useCases": {
+          "title": "완벽한 사용 사례",
+          "subtitle": "10DLC 메시징의 이상적인 애플리케이션",
+          "items": {
+            "0": "마케팅 캠페인 및 프로모션",
+            "1": "약속 알림 및 확인",
+            "2": "주문 상태 및 배송 알림",
+            "3": "고객 서비스 및 지원",
+            "4": "이벤트 알림 및 경고",
+            "5": "설문 조사 및 피드백 수집",
+            "6": "리드 육성 시퀀스",
+            "7": "긴급 및 긴급 통신"
+          }
+        },
+        "pricing": {
+          "title": "간단하고 투명한 가격",
+          "subtitle": "숨겨진 수수료 없음, 예측 가능한 비용",
+          "setup": {
+            "label": "캠페인 설정",
+            "value": "$150"
+          },
+          "monthly": {
+            "label": "월간",
+            "value": "번호당 2달러"
+          },
+          "perMessage": {
+            "label": "메시지당",
+            "value": "$0.02"
+          },
+          "note": "가격은 미국 및 캐나다 기준입니다. 10DLC 규정 준수를 위해 브랜드 등록 및 A2P 등록이 필요합니다。"
+        },
+        "testimonial": {
+          "quote": "10DLC 메시징은 고객 참여를 완전히 변화시켰습니다. 전달률이 뛰어나고 고객은 당사의 지역 번호를 신뢰합니다。",
+          "author": "Sarah Chen",
+          "company": "마케팅 이사, GrowthTech",
+          "results": "전달률 35% 향상 및 고객 응답률 42% 증가"
+        },
+        "compliance": {
+          "title": "간소화된 규정 준수",
+          "description": "복잡한 10DLC 요구 사항을 모두 처리하므로 메시징 캠페인에 집중할 수 있습니다。",
+          "brandRegistration": {
+            "title": "브랜드 등록",
+            "description": "최대한의 신뢰와 전달률을 위해 통신사 네트워크를 통한 완벽한 브랜드 인증 절차"
+          },
+          "campaignApproval": {
+            "title": "캠페인 사전 승인",
+            "description": "규정 준수 및 최적의 성과를 보장하기 위해 시작 전에 통신사로부터 캠페인 승인을 받으십시오。"
+          },
+          "monitoring": {
+            "title": "지속적인 모니터링",
+            "description": "최적의 전달률을 유지하기 위한 캠페인 성과 및 규정 준수 지표의 지속적인 모니터링"
+          }
+        }
+      },
+      "smsShortCode": {
+        "seo": {
+          "title": "SMS 단축 코드 서비스 | 대용량 엔터프라이즈 메시징 | SeaX",
+          "description": "프리미엄 단축 코드로 수백만 개의 SMS 메시지를 즉시 보내십시오. 99.9%의 전달률을 자랑하는 엔터프라이즈급 SMS 마케팅, 알림 및 대량 통신。"
+        },
+        "nav": {
+          "backToChannels": "← 채널로 돌아가기"
+        },
+        "hero": {
+          "title": {
+            "prefix": "프리미엄 SMS",
+            "highlight": "전용 단축 코드"
+          },
+          "subtitle": "자신만의 5-6자리 단축 코드로 대용량 SMS 캠페인을 시작하십시오. 진지한 마케터를 위한 최대 전달률, 즉각적인 속도 및 프리미엄 브랜드 인지도。",
+          "primaryCta": "단축 코드 받기",
+          "secondaryCta": "데모 보기",
+          "demo": {
+            "title": "단축 코드 캠페인",
+            "code": "발신: 12345",
+            "message": "플래시 세일: 모든 상품 50% 할인! 코드 SAVE50을 사용하십시오. 자정까지 유효합니다. 수신 거부를 원하시면 STOP이라고 회신하십시오。",
+            "delivered": "✅ 전달됨: 99,847",
+            "rate": "99.9% 전달률",
+            "speed": "⚡ 즉시 전달"
+          },
+          "campaign": {
+            "title": "프리미엄 캠페인 대시보드",
+            "status": "활성",
+            "messagesSentValue": "2.4M",
+            "messagesSent": "보낸 메시지",
+            "deliveryRateValue": "99.8%",
+            "deliveryRate": "전달률"
+          },
+          "recentActivity": {
+            "title": "최근 활동",
+            "marketing": {
+              "title": "마케팅 캠페인 #2024-001",
+              "details": "구독자 120만 명에게 보낸 연말연시 프로모션"
+            },
+            "appointment": {
+              "title": "약속 알림",
+              "details": "85만 건의 알림 발송, 개봉률 95%"
+            }
+          }
+        },
+        "features": {
+          "title": "프리미엄 기능",
+          "description": "전용 단축 코드로 SMS 마케팅의 프리미엄 등급을 경험하십시오。",
+          "highVolume": {
+            "title": "대용량 용량",
+            "description": "전용 단축 코드 인프라로 초당 최대 100개의 메시지 전송"
+          },
+          "instantDelivery": {
+            "title": "즉시 전달",
+            "description": "통신사 네트워크를 통한 최고 우선 순위 라우팅으로 지연 없음"
+          },
+          "brandRecognition": {
+            "title": "브랜드 인지도",
+            "description": "고객이 인식하고 신뢰하는 기억에 남는 5-6자리 숫자"
+          },
+          "deliverability": {
+            "title": "최대 전달률",
+            "description": "프리미엄 통신사 관계 및 전용 라우팅으로 99.9% 전달률"
+          },
+          "subtitle": "대용량 메시징을 위한 엔터프라이즈급 SMS 기능",
+          "items": {
+            "ultraHighThroughput": "초고속 처리량: 초당 10,000개 이상의 메시지",
+            "premiumDelivery": "최대 안정성을 위한 프리미엄 전달 경로",
+            "brandRecognition": "기억에 남는 단축 코드로 향상된 브랜드 인지도",
+            "carrierApproved": "모든 주요 통신사 사전 승인",
+            "dedicatedSupport": "전담 계정 관리 및 지원",
+            "complianceReady": "TCPA 및 CAN-SPAM 규정 준수 내장"
+          }
+        },
+        "comparison": {
+          "title": "단축 코드 대 기타 SMS 옵션",
+          "description": "전용 단축 코드가 진지한 SMS 마케터에게 프리미엄 선택인 이유 확인",
+          "shortCode": {
+            "title": "전용 단축 코드",
+            "speed": "즉시 전달",
+            "volume": "초당 100개 메시지 용량",
+            "deliverability": "99.9% 전달",
+            "cost": "월 1,000-1,500달러",
+            "setup": "2-3주 설정"
+          },
+          "tollFree": {
+            "title": "수신자 부담 번호",
+            "speed": "3-5초 전달",
+            "volume": "초당 25개 메시지 용량",
+            "deliverability": "98.5% 전달",
+            "cost": "월 15-50달러",
+            "setup": "1-2일 설정"
+          },
+          "tenDlc": {
+            "title": "10DLC 지역 번호",
+            "speed": "5-10초 전달",
+            "volume": "초당 10개 메시지 용량",
+            "deliverability": "95-98% 전달",
+            "cost": "월 2-10달러",
+            "setup": "5-10일 설정"
+          }
+        },
+        "useCases": {
+          "title": "사용 사례",
+          "description": "단축 코드는 특정 대용량, 시간에 민감한 시나리오에서 탁월합니다。",
+          "flashSales": {
+            "title": "플래시 세일 및 프로모션",
+            "description": "즉시 전달이 필요한 시간에 민감한 제안",
+            "example": "플래시 세일: 50% 할인이 1시간 후에 종료됩니다！"
+          },
+          "alerts": {
+            "title": "중요 알림 및 공지",
+            "description": "긴급 업데이트 및 중요 공지",
+            "example": "긴급: 오늘 밤 11시-오전 1시 서비스 점검"
+          },
+          "contests": {
+            "title": "콘테스트 및 투표",
+            "description": "즉각적인 응답이 필요한 대화형 캠페인",
+            "example": "가장 좋아하는 것에 투표하세요! 12345로 A 또는 B를 문자로 보내세요。"
+          },
+          "events": {
+            "title": "이벤트 및 티켓 업데이트",
+            "description": "대규모 이벤트 및 장소에 대한 실시간 업데이트",
+            "example": "이벤트가 30분 후에 시작됩니다! 5번 게이트가 지금 열렸습니다。"
+          },
+          "subtitle": "대용량, 시간에 민감한 통신에 적합",
+          "items": {
+            "massMarketing": "대량 마케팅 캠페인 및 프로모션",
+            "emergencyAlerts": "긴급 알림 및 중요 공지",
+            "votingPolls": "투표, 여론 조사 및 청중 참여",
+            "appointmentReminders": "대규모 약속 알림",
+            "transactionalSMS": "대용량 거래 SMS",
+            "eventNotifications": "이벤트 알림 및 업데이트"
+          }
+        },
+        "requirements": {
+          "title": "단축 코드 요구 사항",
+          "description": "전용 단축 코드에 대한 투자 및 프로세스 이해",
+          "volume": {
+            "title": "대용량 약정",
+            "description": "투자를 정당화하기 위한 월 최소 10만 개 메시지"
+          },
+          "compliance": {
+            "title": "엄격한 규정 준수",
+            "description": "강화된 규정 준수 요구 사항 및 정기적인 통신사 감사"
+          },
+          "setup": {
+            "title": "설정 타임라인",
+            "description": "통신사 승인 및 번호 프로비저닝에 2-3주"
+          },
+          "investment": {
+            "title": "프리미엄 투자",
+            "description": "전용 라우팅을 위한 월 1,000-1,500달러의 반복 비용"
+          }
+        },
+        "alternatives": {
+          "title": "먼저 이러한 대안을 고려하십시오",
+          "description": "대부분의 비즈니스에서 이러한 옵션은 더 나은 가치와 더 쉬운 설정을 제공합니다。",
+          "recommended": {
+            "title": "대부분의 비즈니스에 권장",
+            "tollFree": "브랜드 인지도를 위한 수신자 부담 SMS",
+            "tenDlc": "비용 효율적인 마케팅을 위한 10DLC",
+            "whatsapp": "국제적 도달을 위한 WhatsApp"
+          },
+          "whenToUpgrade": {
+            "title": "단축 코드로 업그레이드할 때",
+            "volume": "월 50만 개 이상의 메시지 전송",
+            "speed": "시간에 민감한 캠페인에 즉시 전달 필요",
+            "brand": "브랜드 인지도가 전략에 중요",
+            "budget": "연간 15,000달러 이상의 SMS 마케팅 예산 보유"
+          }
+        },
+        "cta": {
+          "title": "프리미엄 SMS 마케팅 준비가 되셨습니까?",
+          "description": "단축 코드는 최대 속도와 전달률이 필요한 대용량 마케터에게 적합합니다. 귀하의 비즈니스에 적합한지 논의해 봅시다。",
+          "primary": "단축 코드 요구 사항 논의",
+          "secondary": "수신자 부담 SMS로 시작",
+          "alternative": "대부분의 비즈니스는 수신자 부담 SMS 옵션으로 시작하여 더 많은 양에 도달하면 단축 코드로 업그레이드합니다。"
+        },
+        "title": "SMS 단축 코드",
+        "subtitle": "대용량 엔터프라이즈 SMS",
+        "description": "프리미엄 단축 코드 SMS 메시징으로 수백만 명의 고객에게 즉시 도달하십시오. 마케팅 캠페인, 알림 및 대량 통신에 적합합니다。",
+        "stats": {
+          "messagesPerSecondValue": "10,000",
+          "messagesPerSecond": "초당 메시지",
+          "deliveryRateValue": "99.9%",
+          "deliveryRate": "전달률",
+          "digitNumbersValue": "5-6자리",
+          "digitNumbers": "사용 가능한 번호"
+        },
+        "pricing": {
+          "title": "엔터프라이즈 가격",
+          "subtitle": "대용량 메시징 요구에 맞는 확장 가능한 가격",
+          "setup": {
+            "label": "설정비",
+            "value": "$5,000"
+          },
+          "monthly": {
+            "label": "월 사용료",
+            "value": "$1,500"
+          },
+          "perMessage": {
+            "label": "메시지당",
+            "value": "$0.015"
+          },
+          "note": "월 100만 개 이상의 메시지에 대해 볼륨 할인이 가능합니다。"
+        },
+        "testimonial": {
+          "quote": "SeaX의 단축 코드 SMS는 고객 참여를 혁신했습니다. 이제 업계 최고의 전달률로 수백만 명의 고객에게 즉시 도달할 수 있습니다。",
+          "author": "Michael Rodriguez",
+          "company": "TechCorp Enterprise",
+          "results": "캠페인 도달 범위 350% 증가, 전달률 99.8%"
+        },
+        "premiumFeatures": {
+          "title": "프리미엄 단축 코드의 장점",
+          "description": "엔터프라이즈 커뮤니케이션을 위한 프리미엄 단축 코드의 힘을 경험하십시오。",
+          "ultraThroughput": {
+            "title": "초고속 처리량",
+            "description": "프리미엄 인프라 및 통신사 파트너십을 통해 초당 최대 10,000개의 메시지를 보냅니다。"
+          },
+          "premiumRoutes": {
+            "title": "프리미엄 전달 경로",
+            "description": "전용 통신사 연결 및 프리미엄 라우팅을 통한 우선 전달 보장。"
+          },
+          "brandRecognition": {
+            "title": "향상된 브랜드 인지도",
+            "description": "고객이 브랜드 커뮤니케이션을 위해 인식하고 신뢰하는 기억에 남는 5-6자리 숫자。"
+          }
+        }
+      },
+      "smsTollFree": {
+        "title": "SMS 수신자 부담",
+        "subtitle": "신뢰할 수 있는 비즈니스 SMS",
+        "description": "수신자 부담 SMS 번호로 신뢰를 구축하고 참여를 개선하십시오. 고객이 인식하고 응답하는 전문적인 커뮤니케이션。",
+        "seo": {
+          "title": "SMS 수신자 부담 번호 | 전문 비즈니스 메시징 | SeaX",
+          "description": "SMS 수신자 부담 번호로 고객 신뢰를 향상시키십시오. 응답률이 높고 브랜드 인지도가 향상된 전문 비즈니스 메시징。"
+        },
+        "hero": {
+          "title": "수신자 부담 SMS 대시보드",
+          "status": "활성",
+          "phoneNumber": "+1-800-AI-AGENT",
+          "dedicatedNumber": "전용 수신자 부담 번호",
+          "deliveryRateValue": "94.7%",
+          "deliveryRate": "전달률",
+          "higherTrustValue": "2.3x",
+          "higherTrust": "더 높은 신뢰율",
+          "recentMessages": {
+            "title": "최근 메시지",
             "customerSupport": {
-              "title": "연중무휴 24시간 고객 지원",
-              "description": "AI 챗봇이 항공편 상태, 예약 변경 및 일반적인 문의를 처리합니다.",
-              "icon": "⏰"
+              "title": "고객 지원 응답",
+              "details": "1-800-SUPPORT에서 자동 응답 전송"
             },
-            "personalizedRecommendations": {
-              "title": "개인화된 추천",
-              "description": "AI가 고객 선호도 및 여행 기록을 기반으로 목적지 및 활동을 추천합니다.",
-              "icon": "🗺️"
-            },
-            "multilingualSupport": {
-              "title": "다국어 지원",
-              "description": "AI가 여러 언어로 고객과 소통하여 전 세계 여행객에게 서비스를 제공합니다.",
-              "icon": "🌐"
+            "survey": {
+              "title": "고객 만족도 설문 조사",
+              "details": "응답률 78%로 설문 조사 초대장 전송"
             }
-          },
-          "cta": "여행 및 숙박업 솔루션 탐색"
+          }
         },
-        "saas": {
-          "title": "SaaS 및 기술",
-          "description": "AI 챗봇 및 옴니채널 지원으로 고객 온보딩, 지원 및 참여를 간소화합니다.",
-          "features": {
-            "onboardingAutomation": {
-              "title": "온보딩 자동화",
-              "description": "AI가 신규 사용자를 제품으로 안내하고, 일반적인 질문에 답변하고, 지원 리소스를 제공합니다.",
-              "icon": "🚀"
-            },
-            "technicalSupport": {
-              "title": "기술 지원",
-              "description": "AI 챗봇이 일반적인 기술 문제를 처리하고, 문제 해결 가이드를 제공하고, 필요할 때 인간 상담원에게 인계합니다.",
-              "icon": "💻"
-            },
-            "featureAdoption": {
-              "title": "기능 채택",
-              "description": "AI가 사용자에게 새로운 기능을 소개하고, 사용 방법을 안내하고, 참여를 유도합니다.",
-              "icon": "💡"
-            },
-            "customerFeedback": {
-              "title": "고객 피드백",
-              "description": "AI가 고객으로부터 피드백을 수집하고 제품 개발 팀에 보냅니다.",
-              "icon": "📝"
-            }
-          },
-          "cta": "SaaS 및 기술 솔루션 탐색"
+        "stats": {
+          "deliveryRateValue": "94%",
+          "deliveryRate": "전달률",
+          "higherTrustValue": "2.3x",
+          "higherTrust": "더 높은 신뢰",
+          "responseRateValue": "78%",
+          "responseRate": "응답률"
         },
-        "smallBusiness": {
-          "title": "중소기업",
-          "description": "저렴하고 사용하기 쉬운 솔루션으로 고객 상호 작용을 관리하고 비즈니스를 성장시키십시오.",
-          "features": {
-            "affordablePricing": {
-              "title": "저렴한 가격",
-              "description": "무료 플랜으로 시작하고 성장함에 따라 확장할 수 있는 유연한 가격 책정.",
-              "icon": "💰"
-            },
-            "easySetup": {
-              "title": "쉬운 설정",
-              "description": "기술 지식 없이 몇 분 안에 SeaChat을 설정하고 실행할 수 있습니다.",
-              "icon": "🚀"
-            },
-            "allInOne": {
-              "title": "올인원 플랫폼",
-              "description": "모든 고객 커뮤니케이션을 하나의 통합 허브에서 관리하여 시간을 절약하고 효율성을 높입니다.",
-              "icon": "🏠"
-            },
-            "scalable": {
-              "title": "확장 가능한 솔루션",
-              "description": "비즈니스 성장과 함께 AI 자동화 및 고급 기능을 추가할 수 있습니다.",
-              "icon": "🌱"
-            }
+        "features": {
+          "title": "수신자 부담의 장점",
+          "subtitle": "신뢰를 구축하고 참여를 유도하는 전문적인 메시징",
+          "items": {
+            "recognizableNumbers": "즉시 인식 가능한 1-800 번호",
+            "noCharges": "수신자에게 요금 부과 없음 - 고객 무료",
+            "professionalImage": "향상된 전문 브랜드 이미지",
+            "higherTrust": "일반 번호에 비해 2.3배 높은 신뢰",
+            "improvedResponse": "78% 더 높은 응답률",
+            "brandRecognition": "향상된 브랜드 인지도 및 회상"
+          }
+        },
+        "useCases": {
+          "title": "완벽한 사용 사례",
+          "subtitle": "신뢰와 전문성을 우선시하는 비즈니스에 이상적",
+          "items": {
+            "customerService": "고객 서비스 및 지원 커뮤니케이션",
+            "appointmentReminders": "약속 알림 및 확인",
+            "surveys": "고객 만족도 설문 조사",
+            "notifications": "중요한 계정 알림",
+            "promotions": "전문적인 프로모션 캠페인",
+            "alerts": "서비스 알림 및 업데이트"
+          }
+        },
+        "pricing": {
+          "title": "전문가용 가격",
+          "subtitle": "수신자 부담 SMS 메시징에 대한 투명한 가격",
+          "setupLabel": "설정비",
+          "setup": {
+            "label": "설정비",
+            "value": "$99"
           },
-          "cta": "중소기업 솔루션 탐색"
+          "monthlyLabel": "월 사용료",
+          "monthly": {
+            "label": "월 사용료",
+            "value": "$29"
+          },
+          "perMessageLabel": "메시지당",
+          "perMessage": {
+            "label": "메시지당",
+            "value": "$0.04"
+          },
+          "note": "가격은 미국 및 캐나다 기준입니다. 추가 통신사 요금이나 숨겨진 비용 없음"
+        },
+        "testimonial": {
+          "quote": "수신자 부담 SMS 기능은 고객 응답률을 크게 향상시켰습니다. 고객은 일반 번호보다 1-800 번호의 메시지를 훨씬 더 신뢰합니다。",
+          "author": "Sarah Chen",
+          "company": "HealthCare Plus",
+          "results": "응답률 78% 향상 및 고객 만족도 94%"
+        },
+        "trust": {
+          "title": "수신자 부담 SMS가 작동하는 이유",
+          "description": "전문적인 수신자 부담 메시징으로 신뢰를 구축하고 참여를 유도하십시오。",
+          "professionalImage": {
+            "title": "전문적인 브랜드 이미지",
+            "description": "수신자 부담 번호는 즉시 전문성과 합법성을 전달하여 고객이 메시지에 참여할 가능성을 높입니다。"
+          },
+          "noCarrierFees": {
+            "title": "고객에게 비용 없음",
+            "description": "고객은 메시지 수신에 비용을 지불하지 않으므로 참여 장벽을 제거하고 응답률을 향상시킵니다。"
+          },
+          "higherResponse": {
+            "title": "더 높은 응답률",
+            "description": "연구에 따르면 일반 전화번호에 비해 신뢰도가 2.3배 높고 응답률이 78% 더 좋습니다。"
+          }
+        }
+      },
+      "whatsapp": {
+        "seo": {
+          "title": "WhatsApp 비즈니스 플랫폼 API | 엔터프라이즈 메시징 솔루션 | SeaX",
+          "description": "전 세계 20억 명 이상의 WhatsApp 사용자와 연결하십시오. 고객 참여를 위한 리치 미디어, 템플릿 및 자동화된 워크플로를 갖춘 전문적인 비즈니스 메시징。"
+        },
+        "hero": {
+          "badge": "가장 인기 있는 채널",
+          "title": {
+            "line1": "연결",
+            "line2": "WhatsApp 비즈니스 플랫폼"
+          },
+          "description": "WhatsApp 비즈니스 플랫폼 API를 사용하여 전 세계 20억 명 이상의 사용자에게 도달하십시오. 리치 미디어 메시지를 보내고, 고객 지원을 자동화하고, 대규모로 의미 있는 관계를 구축하십시오。",
+          "stats": {
+            "monthlyUsers": "월간 사용자",
+            "openRate": "개봉률",
+            "engagementRate": "참여율",
+            "countriesSupported": "지원 국가"
+          },
+          "cta": {
+            "primary": "무료 평가판 시작",
+            "secondary": "데모 예약"
+          },
+          "demo": {
+            "title": "WhatsApp 캠페인",
+            "subtitle": "라이브 성과 대시보드",
+            "templateLabel": "템플릿 메시지",
+            "message": "안녕하세요! 주문 #12345가 픽업 준비되었습니다. 시간을 예약하시겠습니까, 아니면 매장으로 가는 길 안내가 필요하십니까?",
+            "button1": "픽업 예약",
+            "button2": "길 안내 받기",
+            "openRateValue": "94.8%",
+            "openRateLabel": "개봉률",
+            "deliveredValue": "12.3K",
+            "deliveredLabel": "전달된 메시지"
+          }
+        },
+        "features": {
+          "title": "WhatsApp 비즈니스 플랫폼을 선택하는 이유",
+          "subtitle": "비즈니스 커뮤니케이션에 세계에서 가장 인기 있는 메시징 플랫폼 활용",
+          "richMedia": {
+            "title": "리치 미디어 지원",
+            "description": "이미지, 비디오, 문서 및 대화형 버튼을 보내 매력적인 고객 경험을 만듭니다。"
+          },
+          "globalReach": {
+            "title": "글로벌 도달 범위",
+            "description": "WhatsApp이 이미 일상 생활의 일부인 180개 이상의 국가의 고객과 연결하십시오。"
+          },
+          "security": {
+            "title": "종단 간 보안",
+            "description": "내장된 암호화는 고객 신뢰와 데이터 개인 정보를 유지하면서 안전한 통신을 보장합니다。"
+          },
+          "instantDelivery": {
+            "title": "즉시 전달",
+            "description": "메시지는 더 나은 추적을 위해 읽음 확인 및 전달 확인과 함께 즉시 전달됩니다。"
+          },
+          "analytics": {
+            "title": "고급 분석",
+            "description": "상세한 통찰력으로 메시지 성과, 참여율 및 고객 상호 작용을 추적합니다。"
+          },
+          "twoWay": {
+            "title": "양방향 대화",
+            "description": "자동 응답 및 인간 상담원 전달을 통해 고객과 자연스러운 대화를 가능하게 합니다。"
+          }
+        },
+        "messageTypes": {
+          "title": "메시지 유형 및 기능",
+          "subtitle": "고객을 효과적으로 참여시키기 위해 다양한 메시지 형식 중에서 선택하십시오。",
+          "template": {
+            "title": "템플릿 메시지",
+            "description": "알림, 업데이트 및 프로모션 콘텐츠에 대한 사전 승인된 메시지 템플릿。",
+            "feature1": "주문 확인 및 업데이트",
+            "feature2": "약속 알림",
+            "feature3": "결제 알림",
+            "feature4": "프로모션 캠페인"
+          },
+          "richMedia": {
+            "title": "리치 미디어 메시지",
+            "description": "이미지, 비디오 및 문서를 포함한 멀티미디어 콘텐츠로 고객을 참여시키십시오。",
+            "feature1": "고품질 이미지 및 비디오",
+            "feature2": "PDF 문서 및 카탈로그",
+            "feature3": "오디오 메시지 및 음성 메모",
+            "feature4": "위치 공유"
+          },
+          "interactive": {
+            "title": "대화형 메시지",
+            "description": "더 나은 고객 상호 작용을 위해 버튼, 목록 및 빠른 답장으로 매력적인 경험을 만듭니다。",
+            "feature1": "빠른 답장 버튼",
+            "feature2": "목록 선택",
+            "feature3": "클릭 유도 버튼",
+            "feature4": "제품 카탈로그"
+          }
+        },
+        "useCases": {
+          "title": "인기 있는 사용 사례",
+          "subtitle": "기업이 WhatsApp을 사용하여 성장을 주도하고 고객 만족도를 향상시키는 방법을 확인하십시오。",
+          "support": {
+            "title": "고객 지원",
+            "description": "복잡한 질문에 대해 자동 응답 및 원활한 상담원 전달로 즉각적인 고객 지원을 제공합니다。",
+            "metrics": "해결 시간 87% 단축"
+          },
+          "orders": {
+            "title": "주문 관리",
+            "description": "주문 확인, 배송 업데이트 및 배송 알림을 보내 프로세스 전반에 걸쳐 고객에게 정보를 제공합니다。",
+            "metrics": "95% 배송 확인율"
+          },
+          "marketing": {
+            "title": "마케팅 캠페인",
+            "description": "리치 미디어 콘텐츠와 대화형 요소를 사용하여 타겟 마케팅 캠페인을 시작하여 판매 및 참여를 유도합니다。",
+            "metrics": "전환율 3.2배 향상"
+          },
+          "appointments": {
+            "title": "약속 예약",
+            "description": "대화 흐름을 통해 약속 예약을 자동화하고, 알림을 보내고, 일정 변경 요청을 처리합니다。",
+            "metrics": "노쇼 78% 감소"
+          }
+        },
+        "cta": {
+          "title": "WhatsApp에 연결할 준비가 되셨습니까?",
+          "subtitle": "이미 WhatsApp 비즈니스 플랫폼 API를 사용하여 고객 관계를 성장시키고 있는 수천 개의 기업에 합류하십시오。",
+          "primary": "무료 평가판 시작",
+          "secondary": "데모 예약"
+        }
+      },
+      "voice": {
+        "title": "AI 음성 캠페인",
+        "subtitle": "대규모 자동 전화 통화",
+        "description": "AI 기반 음성 캠페인으로 고객에게 즉시 도달하십시오. 100개 이상의 국가에서 약속 알림, 설문 조사, 긴급 알림 및 개인화된 고객 아웃리치에 적합합니다。",
+        "seoTitle": "음성 통화 자동화 플랫폼 - AI 기반 전화 캠페인 | SeaX",
+        "seoDescription": "SeaX Voice로 대규모로 전화 통화를 자동화하십시오. 100개 이상의 국가에서 높은 연결률을 자랑하는 AI 기반 음성 캠페인, 약속 알림, 설문 조사 및 고객 아웃리치。",
+        "hero": {
+          "widget": {
+            "title": "AI 음성 대시보드",
+            "poweredBy": "SeaX 제공",
+            "callsNumber": "24,847",
+            "callsCompletedToday": "오늘 완료된 통화",
+            "connectionRateValue": "87%",
+            "connectionRateLabel": "연결률",
+            "countriesValue": "100+",
+            "countriesLabel": "지원 국가",
+            "activeCalls": "활성 통화",
+            "usPhoneNumber": "+1 (555) 123-4567",
+            "appointmentReminder": "약속 알림 전화",
+            "ukPhoneNumber": "+44 20 7946 0958",
+            "surveyCall": "고객 만족도 설문 조사"
+          }
+        },
+        "stats": {
+          "languagesValue": "25+",
+          "languagesLabel": "지원 언어"
+        },
+        "features": {
+          "title": "강력한 음성 기능",
+          "subtitle": "성공적인 음성 캠페인에 필요한 모든 것",
+          "items": {
+            "0": "AI 기반 자연스러운 음성 합성",
+            "1": "다국어 지원(25개 이상의 언어)",
+            "2": "실시간 통화 분석 및 보고",
+            "3": "대화형 음성 응답(IVR) 기능",
+            "4": "음성 메일 감지 및 처리",
+            "5": "통화 녹음 및 스크립트 작성",
+            "6": "스마트 재시도 로직 및 예약",
+            "7": "텔레마케팅 규정 준수",
+            "globalReach": "180개 이상의 국가에서 현지 전화번호로 글로벌 도달 범위",
+            "highQuality": "지능형 라우팅을 통한 수정처럼 맑은 HD 음성 품질",
+            "smartDialing": "최적의 타이밍 및 통화 예약을 통한 스마트 다이얼링",
+            "multiLanguage": "원어민과 같은 음성으로 다국어 지원",
+            "realTimeAnalytics": "실시간 통화 분석 및 성과 추적",
+            "complianceReady": "텔레마케팅 규정 준수 내장"
+          }
+        },
+        "useCases": {
+          "title": "음성 캠페인 사용 사례",
+          "subtitle": "음성 자동화에 대한 입증된 애플리케이션",
+          "items": {
+            "0": "약속 알림 및 확인",
+            "1": "고객 만족도 설문 조사",
+            "2": "결제 알림 및 수금",
+            "3": "긴급 알림 및 공지",
+            "4": "이벤트 확인 및 업데이트",
+            "5": "리드 검증 및 육성",
+            "6": "시장 조사 및 여론 조사",
+            "7": "서비스 중단 알림",
+            "appointmentReminders": "자동 약속 알림 및 확인",
+            "customerSurveys": "고객 만족도 및 피드백 설문 조사",
+            "salesOutreach": "영업 아웃리치 및 리드 검증 통화",
+            "paymentReminders": "결제 알림 및 수금 통화",
+            "emergencyAlerts": "긴급 알림 및 긴급 경고",
+            "eventNotifications": "이벤트 알림 및 중요 공지"
+          }
+        },
+        "pricing": {
+          "title": "음성 캠페인 가격",
+          "subtitle": "음성 자동화를 위한 비용 효율적인 가격",
+          "setup": {
+            "label": "설정비",
+            "value": "$199"
+          },
+          "monthly": {
+            "label": "월 사용료",
+            "value": "$49"
+          },
+          "perMinute": {
+            "label": "분당",
+            "value": "$0.12"
+          },
+          "note": {
+            "value": "월 10,000건 이상의 통화에 대해 볼륨 할인이 가능합니다。"
+          },
+          "perMessage": {
+            "label": "메시지당",
+            "value": "$0.08"
+          }
+        },
+        "testimonial": {
+          "quote": "SeaX 음성 캠페인은 약속 알림에 혁명을 일으켰습니다. 노쇼를 70% 줄이고 고객 만족도를 크게 향상시켰습니다。",
+          "author": "Dr. Emily Rodriguez",
+          "company": "HealthFirst Medical Group",
+          "results": "노쇼 70% 감소 및 고객 만족도 95%"
+        }
+      }
+    },
+    "solutions": {
+      "leadGeneration": {
+        "seo": {
+          "title": "리드 생성 솔루션 - SeaX 다중 채널 아웃리치",
+          "description": "SeaX의 다중 채널 리드 생성 솔루션으로 대규모로 검증된 리드를 생성하십시오. AI 기반 후속 조치가 포함된 SMS, WhatsApp 및 음성 캠페인。"
+        },
+        "hero": {
+          "title": "리드 생성",
+          "titleHighlight": "대규모로",
+          "description": "SMS, WhatsApp 및 음성 통화를 통해 다중 채널 캠페인으로 검증된 리드를 생성하십시오. AI 기반 후속 조치로 기회를 놓치지 않습니다。",
+          "cta": {
+            "primary": "리드 생성 시작",
+            "secondary": "데모 예약"
+          }
+        },
+        "features": {
+          "title": "강력한 리드 생성 기능",
+          "subtitle": "대규모로 리드를 포착, 검증 및 전환하는 데 필요한 모든 것",
+          "targetedOutreach": {
+            "title": "타겟 아웃리치",
+            "description": "SMS, WhatsApp 및 음성 통화를 통해 정밀한 타겟팅으로 올바른 잠재 고객에게 도달하십시오。"
+          },
+          "multiChannelCampaigns": {
+            "title": "다중 채널 캠페인",
+            "description": "최대 효과를 위해 SMS, WhatsApp 및 음성을 통해 조정된 캠페인을 실행하십시오。"
+          },
+          "aiFollowUps": {
+            "title": "AI 기반 후속 조치",
+            "description": "24/7 리드를 검증하고 회의를 예약하는 자동화된 지능형 응답。"
+          },
+          "realTimeAnalytics": {
+            "title": "실시간 분석",
+            "description": "캠페인 성과, 리드 품질 및 전환율을 실시간으로 추적합니다。"
+          },
+          "leadScoring": {
+            "title": "리드 스코어링",
+            "description": "참여 및 응답을 기반으로 한 자동 리드 스코어링 및 우선 순위 지정。"
+          },
+          "voiceQualification": {
+            "title": "음성 검증",
+            "description": "리드를 검증하고 약속을 자동으로 예약하는 AI 기반 음성 통화。"
+          }
+        },
+        "useCases": {
+          "title": "리드 생성 사용 사례",
+          "subtitle": "산업 및 비즈니스 유형 전반에 걸친 입증된 전략",
+          "b2bSales": {
+            "title": "B2B 영업 아웃리치",
+            "description": "타겟 메시징 캠페인으로 B2B 영업팀을 위한 검증된 리드를 생성합니다。",
+            "stats": "검증된 리드 300% 증가"
+          },
+          "realEstate": {
+            "title": "부동산 리드 생성",
+            "description": "다중 채널 캠페인을 통해 부동산 구매자 및 판매자와 연결합니다。",
+            "stats": "응답률 85% 향상"
+          },
+          "insurance": {
+            "title": "보험 리드 검증",
+            "description": "자동화된 후속 조치 및 약속 예약으로 보험 잠재 고객을 검증합니다。",
+            "stats": "검증 시간 60% 단축"
+          },
+          "eventRegistration": {
+            "title": "이벤트 등록",
+            "description": "타겟 초대 및 후속 시퀀스로 이벤트 등록을 유도합니다。",
+            "stats": "등록 200% 증가"
+          }
+        },
+        "stats": {
+          "title": "입증된 결과",
+          "subtitle": "고객이 SeaX 리드 생성으로 달성하는 성과 확인",
+          "qualifiedLeads": {
+            "value": "5x",
+            "label": "더 많은 검증된 리드"
+          },
+          "responseRate": {
+            "value": "85%",
+            "label": "응답률"
+          },
+          "timeSavings": {
+            "value": "60%",
+            "label": "시간 절약"
+          },
+          "roiIncrease": {
+            "value": "300%",
+            "label": "ROI 증가"
+          }
+        },
+        "cta": {
+          "title": "리드 생성을 확장할 준비가 되셨습니까?",
+          "subtitle": "SeaX로 검증된 리드를 생성하는 수천 개의 기업에 합류하십시오。",
+          "primary": "지금 가입",
+          "secondary": "데모 예약"
+        }
+      },
+      "marketingAutomation": {
+        "seo": {
+          "title": "마케팅 자동화 플랫폼 - SeaX 다중 채널 자동화",
+          "description": "SMS, WhatsApp 및 음성 통화를 통해 마케팅 캠페인을 자동화하십시오. 고급 워크플로, 잠재고객 세분화 및 성과 분석。"
+        },
+        "hero": {
+          "title": {
+            "main": "효과적인 마케팅 자동화",
+            "highlight": ""
+          },
+          "description": "SMS, WhatsApp 및 음성 통화를 통해 마케팅 캠페인을 자동화하십시오. 24/7 리드를 육성하고 전환을 유도하는 정교한 워크플로를 만드십시오。",
+          "cta": {
+            "primary": "자동화 시작",
+            "secondary": "데모 보기"
+          }
+        },
+        "features": {
+          "title": "강력한 자동화 기능",
+          "subtitle": "자동으로 실행되고 결과를 제공하는 정교한 캠페인 구축",
+          "items[0]": {
+            "title": "자동화된 워크플로",
+            "description": "고객 행동 및 응답에 따라 트리거되는 복잡한 다단계 캠페인을 만듭니다。"
+          },
+          "items[1]": {
+            "title": "스마트 타이밍",
+            "description": "고객 시간대 및 참여 패턴에 따라 최적의 시간에 메시지를 보냅니다。"
+          },
+          "items[2]": {
+            "title": "잠재고객 세분화",
+            "description": "모든 채널에서 개인화된 메시징으로 특정 고객 세그먼트를 타겟팅합니다。"
+          },
+          "items[3]": {
+            "title": "성과 분석",
+            "description": "상세한 캠페인 분석으로 참여율, 전환 및 ROI를 추적합니다。"
+          },
+          "items[4]": {
+            "title": "다중 채널 시퀀스",
+            "description": "최대 도달 범위를 위해 SMS, WhatsApp 및 음성 통화를 통해 캠페인을 조정합니다。"
+          },
+          "items[5]": {
+            "title": "A/B 테스트",
+            "description": "캠페인 성과를 최적화하기 위해 다양한 메시지, 타이밍 및 채널을 테스트합니다。"
+          }
+        },
+        "automationTypes": {
+          "title": "자동화 워크플로",
+          "subtitle": "일반적인 마케팅 시나리오를 위한 사전 구축된 자동화 시퀀스",
+          "items[0]": {
+            "title": "환영 시리즈",
+            "description": "개인화된 환영 시퀀스로 신규 고객을 자동으로 온보딩합니다。",
+            "example": "환영 SMS → 제품 정보 → 특별 제안 → 피드백 요청"
+          },
+          "items[1]": {
+            "title": "장바구니 포기 복구",
+            "description": "장바구니에 상품을 남겨둔 고객을 타겟 알림으로 다시 참여시킵니다。",
+            "example": "장바구니 알림 → 기간 한정 할인 → 제품 추천"
+          },
+          "items[2]": {
+            "title": "고객 라이프사이클",
+            "description": "자동화된 터치포인트로 고객 여정을 안내합니다。",
+            "example": "구매 확인 → 사용 팁 → 상향 판매 기회 → 로열티 보상"
+          },
+          "items[3]": {
+            "title": "재참여 캠페인",
+            "description": "매력적인 재참여 시퀀스로 비활성 고객을 되찾습니다。",
+            "example": "보고 싶다는 메시지 → 독점 제안 → 제품 업데이트 → 재참여 인센티브"
+          },
+          "exampleFlowLabel": "예시 흐름："
+        },
+        "stats": {
+          "title": "자동화 결과",
+          "subtitle": "마케팅 자동화가 비즈니스에 미치는 영향 확인",
+          "items[0]": {
+            "value": "10x",
+            "label": "더 효율적"
+          },
+          "items[1]": {
+            "value": "95%",
+            "label": "참여율"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "시간 절약"
+          },
+          "items[3]": {
+            "value": "400%",
+            "label": "ROI 증가"
+          }
+        },
+        "cta": {
+          "title": "마케팅을 자동화할 준비가 되셨습니까?",
+          "description": "SeaX 자동화로 마케팅을 확장하는 수천 개의 기업에 합류하십시오。",
+          "primary": "지금 가입",
+          "secondary": "데모 예약"
+        }
+      },
+      "customerEngagement": {
+        "seo": {
+          "title": "고객 참여 - SeaX 커뮤니케이션 플랫폼",
+          "description": "SMS, WhatsApp 및 음성 통화를 통해 개인화된 다중 채널 참여로 더 강력한 고객 관계를 구축하십시오。"
+        },
+        "hero": {
+          "title": {
+            "main": "충성도를 구축하는 고객 참여",
+            "highlight": ""
+          },
+          "description": "SMS, WhatsApp 및 음성 통화를 통해 개인화된 다중 채널 참여로 더 강력한 고객 관계를 구축하십시오. 모든 상호 작용을 기회로 바꾸십시오。",
+          "cta": {
+            "primary": "고객 참여",
+            "secondary": "데모 예약"
+          }
+        },
+        "features": {
+          "title": "참여 기능",
+          "subtitle": "의미 있는 고객 관계를 구축하는 데 필요한 모든 것",
+          "items[0]": {
+            "title": "고급 고객 프로파일링",
+            "description": "더 개인화된 참여를 위해 풍부한 고객 프로필을 만듭니다。"
+          },
+          "items[1]": {
+            "title": "다중 채널 메시징",
+            "description": "SMS, WhatsApp 및 인앱 메시징을 통해 고객과 소통합니다。"
+          },
+          "items[2]": {
+            "title": "감성 분석",
+            "description": "고객 감성을 이해하고 그에 따라 커뮤니케이션을 조정합니다。"
+          },
+          "items[3]": {
+            "title": "행동 분석",
+            "description": "고객 행동을 추적하고 분석하여 참여 전략을 개선합니다。"
+          },
+          "items[4]": {
+            "title": "직접 마케팅 도구",
+            "description": "고객 데이터를 기반으로 정밀하게 타겟 캠페인을 실행합니다。"
+          },
+          "items[5]": {
+            "title": "실시간 상호 작용",
+            "description": "실시간 트리거 및 커뮤니케이션으로 가장 중요한 순간에 고객과 소통합니다。"
+          }
+        },
+        "useCases": {
+          "title": "참여 사용 사례",
+          "subtitle": "산업 전반의 실제 고객 참여 전략",
+          "items[0]": {
+            "title": "전자상거래 참여",
+            "description": "개인화된 프로모션을 통해 반복 구매 및 고객 유지를 늘립니다。",
+            "stats": "반복 구매 20% 증가"
+          },
+          "items[1]": {
+            "title": "금융 서비스 알림",
+            "description": "자동화된 알림 및 업데이트로 계정 활동에 대해 고객에게 정보를 제공합니다。",
+            "stats": "알림 참여율 80%"
+          },
+          "items[2]": {
+            "title": "여행 및 숙박",
+            "description": "도착 전 업데이트 및 개인화된 여정으로 게스트 경험을 향상시킵니다。",
+            "stats": "고객 문의 50% 감소"
+          },
+          "items[3]": {
+            "title": "소매 로열티 프로그램",
+            "description": "구매 내역을 기반으로 한 개인화된 보상 및 제안으로 충성도를 높입니다。",
+            "stats": "로열티 프로그램 회원 25% 증가"
+          }
+        },
+        "stats": {
+          "title": "참여 결과",
+          "subtitle": "향상된 고객 참여의 영향 확인",
+          "items[0]": {
+            "value": "40%",
+            "label": "더 높은 참여"
+          },
+          "items[1]": {
+            "value": "85%",
+            "label": "고객 만족도"
+          },
+          "items[2]": {
+            "value": "60%",
+            "label": "반복 구매율"
+          },
+          "items[3]": {
+            "value": "3x",
+            "label": "고객 평생 가치"
+          }
+        },
+        "cta": {
+          "title": "더 강력한 고객 관계를 구축할 준비가 되셨습니까?",
+          "description": "SeaX를 사용하여 고객을 참여시키고 지속적인 충성도를 구축하는 수천 개의 기업에 합류하십시오。",
+          "primary": "오늘 시작하기"
+        }
+      },
+      "appointmentReminders": {
+        "seo": {
+          "title": "약속 알림 - SeaX 자동 예약",
+          "description": "SMS, WhatsApp 및 음성 통화를 통한 자동 약속 알림으로 노쇼를 줄이고 출석률을 향상시키십시오. 스마트 예약 및 확인 시스템。"
+        },
+        "hero": {
+          "title": {
+            "main": "효과적인 약속 알림",
+            "highlight": ""
+          },
+          "description": "SMS, WhatsApp 및 음성 통화를 통한 자동 약속 알림으로 노쇼를 줄이고 출석률을 향상시키십시오. 양방향 통신을 통한 스마트 예약。",
+          "cta": {
+            "primary": "노쇼 줄이기 시작",
+            "secondary": "데모 예약"
+          }
+        },
+        "features": {
+          "title": "강력한 알림 기능",
+          "subtitle": "약속을 순조롭게 진행하고 노쇼를 줄이는 데 필요한 모든 것",
+          "items[0]": {
+            "title": "스마트 예약",
+            "description": "SMS, WhatsApp 및 음성 통화를 통해 약속을 자동으로 예약하고 확인을 보냅니다。"
+          },
+          "items[1]": {
+            "title": "다단계 알림",
+            "description": "약속 24시간, 1시간 및 15분 전과 같은 최적의 간격으로 개인화된 알림을 보냅니다。"
+          },
+          "items[2]": {
+            "title": "양방향 통신",
+            "description": "고객이 SMS 또는 WhatsApp을 통해 직접 약속을 확인, 변경 또는 취소할 수 있도록 허용합니다。"
+          },
+          "items[3]": {
+            "title": "직원 알림",
+            "description": "약속 변경 및 확인에 대한 실시간 업데이트로 팀에 정보를 제공합니다。"
+          },
+          "items[4]": {
+            "title": "맞춤형 알림",
+            "description": "다양한 약속 유형 및 기간에 대한 맞춤형 알림 일정 및 메시지를 설정합니다。"
+          },
+          "items[5]": {
+            "title": "분석 및 통찰력",
+            "description": "노쇼율, 확인율을 추적하고 상세한 분석으로 알림 전략을 최적화합니다。"
+          }
+        },
+        "useCases": {
+          "title": "산업별 사용 사례",
+          "subtitle": "다양한 산업에 걸친 입증된 약속 알림 전략",
+          "items[0]": {
+            "title": "의료 기관",
+            "description": "자동 알림 및 쉬운 일정 변경 옵션으로 의료 약속의 노쇼를 줄입니다。",
+            "stats": "노쇼 40% 감소"
+          },
+          "items[1]": {
+            "title": "미용 및 웰빙",
+            "description": "개인화된 알림 및 확인 요청으로 살롱 및 스파 약속을 순조롭게 진행합니다。",
+            "stats": "확인율 85%"
+          },
+          "items[2]": {
+            "title": "전문 서비스",
+            "description": "다중 채널 알림 시퀀스로 상담 및 회의가 정시에 이루어지도록 합니다。",
+            "stats": "출석률 90%"
+          },
+          "items[3]": {
+            "title": "자동차 서비스",
+            "description": "서비스 약속 및 유지 보수 일정을 고객에게 자동으로 알립니다。",
+            "stats": "재방문 60% 증가"
+          }
+        },
+        "stats": {
+          "title": "입증된 결과",
+          "subtitle": "고객이 SeaX 약속 알림으로 달성하는 성과 확인",
+          "items[0]": {
+            "value": "40%",
+            "label": "노쇼 감소"
+          },
+          "items[1]": {
+            "value": "90%",
+            "label": "출석률"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "시간 절약"
+          },
+          "items[3]": {
+            "value": "95%",
+            "label": "고객 만족도"
+          }
+        },
+        "cta": {
+          "title": "노쇼를 줄이고 출석률을 향상시킬 준비가 되셨습니까?",
+          "description": "SeaX로 약속 출석률을 향상시키는 수천 개의 기업에 합류하십시오。",
+          "primary": "오늘 시작하기"
+        }
+      },
+      "emergencyAlerts": {
+        "seo": {
+          "title": "긴급 알림 - SeaX 알림 시스템",
+          "description": "SMS, 음성 및 WhatsApp을 통해 실시간 통신으로 즉각적인 긴급 알림을 보냅니다. 중요한 상황에서 메시지 전달을 보장합니다。"
+        },
+        "hero": {
+          "title": {
+            "main": "생명을 구하는 긴급 알림",
+            "highlight": ""
+          },
+          "description": "SMS, 음성 및 WhatsApp을 통해 실시간 통신으로 즉각적인 긴급 알림을 보냅니다. 매초가 중요한 중요한 상황에서 메시지 전달을 보장합니다。",
+          "cta": {
+            "primary": "알림 보내기 시작",
+            "secondary": "안전 데모 예약"
+          }
+        },
+        "features": {
+          "title": "중요 알림 기능",
+          "subtitle": "효과적이고 신뢰할 수 있는 긴급 통신에 필요한 모든 것",
+          "items[0]": {
+            "title": "즉각적인 긴급 방송",
+            "description": "SMS, 음성 및 WhatsApp을 통해 수천 명의 수신자에게 동시에 중요한 알림을 보냅니다。"
+          },
+          "items[1]": {
+            "title": "시간에 민감한 전달",
+            "description": "우선 순위 메시지 전달은 긴급 통신이 수신자에게 즉시 도달하도록 보장합니다。"
+          },
+          "items[2]": {
+            "title": "타겟 수신자 그룹",
+            "description": "다양한 유형의 긴급 상황 및 위치에 대한 특정 그룹을 만들고 관리합니다。"
+          },
+          "items[3]": {
+            "title": "신뢰할 수 있는 인프라",
+            "description": "가장 중요한 순간에 메시지가 전달되도록 통신사급 인프라 위에 구축되었습니다。"
+          },
+          "items[4]": {
+            "title": "다중 채널 알림",
+            "description": "최대 응답률을 위해 선호하는 통신 채널을 통해 사람들에게 도달합니다。"
+          },
+          "items[5]": {
+            "title": "양방향 통신",
+            "description": "알림 효과를 추적하기 위해 수신자로부터 확인 및 응답을 받습니다。"
+          }
+        },
+        "useCases": {
+          "title": "긴급 알림 사용 사례",
+          "subtitle": "안전과 통신을 보장하기 위한 실제 애플리케이션",
+          "items[0]": {
+            "title": "기업 비상 대응",
+            "description": "보안 위협, 대피 또는 중요한 비즈니스 중단에 대해 직원에게 알립니다。",
+            "stats": "99.9% 전달 성공률"
+          },
+          "items[1]": {
+            "title": "학교 안전 알림",
+            "description": "학교 폐쇄 또는 안전 사고에 대해 학부모, 학생 및 교직원에게 즉시 알립니다。",
+            "stats": "평균 전달 시간 30초"
+          },
+          "items[2]": {
+            "title": "의료 중요 알림",
+            "description": "코드 상황, 환자 응급 상황 또는 시설 사고에 대해 의료진에게 경고합니다。",
+            "stats": "5분 이내 응답률 95%"
+          },
+          "items[3]": {
+            "title": "공공 안전 알림",
+            "description": "자연 재해, 위험한 상황 또는 공공 안전 위협에 대해 지역 사회에 경고합니다。",
+            "stats": "분당 10,000명 이상의 수신자"
+          }
+        },
+        "stats": {
+          "title": "입증된 비상 대응",
+          "subtitle": "매초가 중요할 때 메시지를 안정적으로 전달",
+          "items[0]": {
+            "value": "99.9%",
+            "label": "전달 성공률"
+          },
+          "items[1]": {
+            "value": "30초",
+            "label": "평균 전달 시간"
+          },
+          "items[2]": {
+            "value": "95%",
+            "label": "5분 이내 응답"
+          },
+          "items[3]": {
+            "value": "10,000+",
+            "label": "분당 메시지"
+          }
+        },
+        "cta": {
+          "title": "안전과 통신을 보장할 준비가 되셨습니까?",
+          "description": "SeaX를 사용하여 긴급 상황에서 안전을 보장하고 효과적으로 소통하는 수천 개의 조직에 합류하십시오。",
+          "primary": "오늘 시작하기"
         }
       }
     }

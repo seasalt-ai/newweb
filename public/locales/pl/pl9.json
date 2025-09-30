@@ -1,0 +1,1600 @@
+{
+  "seax": {
+    "home": {
+      "seo": {
+        "title": "SeaX - Platforma marketingowa SMS, WhatsApp i głosowa | Seasalt.ai",
+        "description": "Skaluj swój zasięg do milionów dzięki potężnym masowym wiadomościom SMS, WhatsApp i kampaniom głosowym AI SeaX. Wysokie wskaźniki dostarczalności, globalny zasięg i zaawansowana analityka."
+      },
+      "scalingProblem": {
+        "title": "Problem z ręcznym zasięgiem",
+        "subtitle": "Twoja firma musi dotrzeć do tysięcy klientów, ale ręczny zasięg nie skaluje się. SeaX automatyzuje Twoją komunikację, zachowując jednocześnie osobisty kontakt.",
+        "manualOutreach": {
+          "title": "Ręczny zasięg",
+          "description": "Czasochłonne indywidualne wiadomości, ograniczony zasięg, niespójne follow-up"
+        },
+        "seaxAutomation": {
+          "title": "Automatyzacja SeaX",
+          "description": "Miliony wiadomości w ciągu minut, personalizacja oparta na AI, zautomatyzowane kampanie follow-up"
+        },
+        "stats": {
+          "messagesSent": {
+            "value": "10M+",
+            "label": "Wiadomości wysłane dziennie"
+          },
+          "callsPerHour": {
+            "value": "50K+",
+            "label": "Połączenia na godzinę"
+          },
+          "deliveryRate": {
+            "value": "99.5%",
+            "label": "Wskaźnik dostarczalności"
+          },
+          "roiAverage": {
+            "value": "400%",
+            "label": "Średni ROI"
+          }
+        }
+      },
+      "features": {
+        "title": "Funkcje na dużą skalę",
+        "subtitle": "Wszystko, czego potrzebujesz, aby dotrzeć do milionów klientów w wielu kanałach",
+        "sms": {
+          "title": "Masowe SMS",
+          "description": "Wysyłaj miliony wiadomości SMS z 99,5% wskaźnikiem dostarczalności do ponad 200 krajów"
+        },
+        "whatsapp": {
+          "title": "WhatsApp Business",
+          "description": "Docieraj do ponad 2 miliardów użytkowników WhatsApp za pomocą kampanii szablonowych i spersonalizowanych wiadomości"
+        },
+        "voice": {
+          "title": "Kampanie głosowe AI",
+          "description": "Zautomatyzowane połączenia telefoniczne z naturalnymi głosami AI do ankiet, przypomnień i zasięgu"
+        },
+        "ai": {
+          "title": "Automatyzacja AI",
+          "description": "Inteligentne follow-upy, obsługa odpowiedzi i optymalizacja kampanii zasilane przez AI"
+        }
+      },
+      "leadGeneration": {
+        "title": "Przekształć potencjalnych klientów w klientów",
+        "subtitle": "Kompletny system generowania i pielęgnowania leadów, który przekształca potencjalnych klientów w płacących klientów",
+        "capture": {
+          "title": "Pozyskiwanie",
+          "description": "Przyciągaj leady za pomocą ukierunkowanych kampanii w wielu kanałach"
+        },
+        "qualify": {
+          "title": "Kwalifikacja",
+          "description": "Punktowanie i kwalifikacja leadów oparte na AI w celu identyfikacji najlepszych potencjalnych klientów"
+        },
+        "nurture": {
+          "title": "Pielęgnacja",
+          "description": "Zautomatyzowane sekwencje follow-up, które budują relacje i napędzają konwersje"
+        },
+        "close": {
+          "title": "Zamknięcie",
+          "description": "Inteligentne przekazanie do zespołu sprzedaży z pełną historią rozmów i inteligencją leadów"
+        }
+      },
+      "howItWorks": {
+        "title": "Jak to działa",
+        "subtitle": "Rozpocznij w 4 prostych krokach i dotrzyj do milionów klientów w ciągu godzin",
+        "timeRequired": "Wymagany czas: ",
+        "step1": {
+          "number": "01",
+          "title": "Importuj swoje kontakty",
+          "description": "Prześlij swoje listy kontaktów z CSV, Excela lub zintegruj z CRM. Obsługa milionów kontaktów z inteligentną deduplikacją.",
+          "time": "2 minuty",
+          "illustration": {
+            "checkmark": "✓",
+            "fileName": "contacts_list.csv",
+            "contactCount": "25 847 kontaktów",
+            "dropFiles": "Upuść swoje pliki tutaj",
+            "browse": "lub przeglądaj, aby przesłać",
+            "importedCount": "25 847",
+            "contactsImported": "zaimportowanych kontaktów"
+          }
+        },
+        "step2": {
+          "number": "02",
+          "title": "Wybierz swoje kanały",
+          "description": "Wybierz spośród SMS, WhatsApp, połączeń głosowych lub kampanii wielokanałowych. Każdy kanał zoptymalizowany pod kątem maksymalnej dostarczalności i zaangażowania.",
+          "time": "1 minuta",
+          "illustration": {
+            "sms": {
+              "label": "SMS",
+              "rate": "98% wskaźnik otwarć"
+            },
+            "whatsapp": {
+              "label": "WhatsApp",
+              "rate": "90% wskaźnik otwarć"
+            },
+            "voice": {
+              "label": "Głos",
+              "rate": "75% wskaźnik odbioru"
+            }
+          }
+        },
+        "step3": {
+          "number": "03",
+          "title": "Utwórz swoją kampanię",
+          "description": "Zaprojektuj swoją wiadomość z personalizacją, ustaw docelową grupę odbiorców i zaplanuj kampanię. Testy A/B w zestawie.",
+          "time": "5 minut",
+          "illustration": {
+            "campaignDraft": "Projekt kampanii",
+            "draftStatus": "Projekt",
+            "sampleMessage": "Cześć {{name}}, mamy dla Ciebie specjalną ofertę! Uzyskaj 20% zniżki na następne zamówienie. Odpowiedz STOP, aby zrezygnować.",
+            "previewButton": "Podgląd",
+            "abTestButton": "Test A/B",
+            "schedule": "Zaplanuj",
+            "now": "Wyślij teraz"
+          }
+        },
+        "step4": {
+          "number": "04",
+          "title": "Śledź i optymalizuj",
+          "description": "Monitoruj wydajność kampanii w czasie rzeczywistym dzięki szczegółowej analityce. Zobacz wskaźniki dostarczalności, odpowiedzi, konwersje i metryki ROI.",
+          "time": "Ciągłe",
+          "illustration": {
+            "campaignStatus": "Status kampanii",
+            "liveStatus": "Aktywna",
+            "deliveredCount": "847 tys.",
+            "delivered": "Dostarczono",
+            "responseRate": "12%",
+            "response": "Wskaźnik odpowiedzi",
+            "totalCount": "1,2 mln",
+            "totalMessages": "Wszystkie wiadomości",
+            "deliveryRate": "99,5%",
+            "deliveryRateLabel": "Wskaźnik dostarczalności",
+            "analytics": "Analityka wydajności w czasie rzeczywistym ze śledzeniem konwersji"
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Zaufane przez rozwijające się firmy",
+        "subtitle": "Zobacz, jak firmy wykorzystują SeaX do skalowania zasięgu klientów i napędzania wzrostu",
+        "testimonial1": {
+          "quote": "SeaX pomógł nam dotrzeć do 500 tys. klientów w ciągu jednego dnia. Wskaźniki dostarczalności są niesamowite, a ROI mówi samo za siebie.",
+          "author": "Sarah Chen",
+          "role": "Dyrektor Marketingu, TechStart"
+        },
+        "testimonial2": {
+          "quote": "Zwiększyliśmy nasz wskaźnik konwersji o 300% dzięki kampaniom follow-up opartym na AI SeaX. Zmieniło to zasady gry dla naszej firmy.",
+          "author": "Mike Rodriguez",
+          "role": "CEO, GrowthCorp"
+        },
+        "testimonial3": {
+          "quote": "Integracja WhatsApp jest bezproblemowa. Możemy teraz prowadzić osobiste rozmowy na dużą skalę z naszą globalną bazą klientów.",
+          "author": "Lisa Park",
+          "role": "Kierownik ds. sukcesu klienta, GlobalTech"
+        }
+      },
+      "cta": {
+        "title": "Gotowy, aby skalować swój zasięg do milionów?",
+        "subtitle": "Dołącz do tysięcy firm korzystających z SeaX, aby dotrzeć do większej liczby klientów, generować więcej leadów i szybciej rosnąć.",
+        "demoButton": "Zarezerwuj demo",
+        "signupButton": "Rozpocznij bezpłatny okres próbny"
+      }
+    },
+    "features": {
+      "seo": {
+        "title": "Funkcje SeaX - Potężne narzędzia do masowej komunikacji",
+        "description": "Poznaj potężne funkcje SeaX: silnik masowego przesyłania wiadomości, follow-up oparty na AI, analityka w czasie rzeczywistym i infrastruktura klasy korporacyjnej."
+      },
+      "hero": {
+        "title": "Potężne funkcje dla",
+        "titleHighlight": "Masowej komunikacji",
+        "description": "Wszystko, czego potrzebujesz, aby dotrzeć do milionów klientów za pośrednictwem kanałów SMS, WhatsApp i głosowych. Zbudowany z myślą o skalowaniu, zaprojektowany z myślą o wynikach.",
+        "stats": {
+          "messages": "Ponad 10 milionów wiadomości dziennie",
+          "countries": "Ponad 200 krajów",
+          "security": "Bezpieczeństwo korporacyjne"
+        }
+      },
+      "core": {
+        "title": "Kluczowe funkcje",
+        "description": "Niezbędne narzędzia, które napędzają Twoje kampanie masowej komunikacji",
+        "bulkMessaging": {
+          "title": "Silnik masowego przesyłania wiadomości",
+          "description": "Wysyłaj miliony wiadomości SMS, WhatsApp i połączeń telefonicznych jednocześnie z niezawodnością klasy operatorskiej.",
+          "metrics": {
+            "value": "10M+",
+            "label": "Wiadomości wysłane dziennie"
+          },
+          "benefits": {
+            "0": "Dostarczalność klasy operatorskiej",
+            "1": "Globalny zasięg w ponad 200 krajach",
+            "2": "Śledzenie dostarczalności w czasie rzeczywistym",
+            "3": "Inteligentna optymalizacja routingu"
+          }
+        },
+        "aiFollowup": {
+          "title": "Follow-up oparty na AI",
+          "description": "Zautomatyzowane odpowiedzi i inteligentne pielęgnowanie leadów w celu kwalifikacji potencjalnych klientów 24/7.",
+          "metrics": {
+            "value": "85%",
+            "label": "Wskaźnik kwalifikacji leadów"
+          },
+          "benefits": {
+            "0": "Inteligentna obsługa rozmów",
+            "1": "Zautomatyzowane punktowanie leadów",
+            "2": "Inteligentne planowanie odpowiedzi",
+            "3": "Obsługa wielu języków"
+          }
+        },
+        "analytics": {
+          "title": "Analityka w czasie rzeczywistym",
+          "description": "Śledź otwarcia, odpowiedzi i konwersje na dużą skalę dzięki kompleksowemu panelowi na żywo.",
+          "metrics": {
+            "value": "99.9%",
+            "label": "Gwarancja dostępności"
+          },
+          "benefits": {
+            "0": "Monitorowanie kampanii na żywo",
+            "1": "Śledzenie konwersji",
+            "2": "Wglądy w wydajność",
+            "3": "Niestandardowe raportowanie"
+          }
+        },
+        "compliance": {
+          "title": "Zgodność i dostarczalność",
+          "description": "Globalny zasięg z zgodnością z operatorami i wstępnie zatwierdzonymi szablonami wiadomości.",
+          "metrics": {
+            "value": "200+",
+            "label": "Obsługiwane kraje"
+          },
+          "benefits": {
+            "0": "Zgodność z RODO",
+            "1": "Proces zatwierdzania przez operatora",
+            "2": "Ochrona przed spamem",
+            "3": "Zgodność z przepisami"
+          }
+        },
+        "collaboration": {
+          "title": "Współpraca zespołowa",
+          "description": "Dostęp dla wielu użytkowników, uprawnienia do kampanii i wspólne zasoby dla zespołów korporacyjnych.",
+          "metrics": {
+            "value": "500K+",
+            "label": "Połączenia na godzinę"
+          },
+          "benefits": {
+            "0": "Uprawnienia oparte na rolach",
+            "1": "Wspólne szablony kampanii",
+            "2": "Śledzenie wydajności zespołu",
+            "3": "Współpracujące przepływy pracy"
+          }
+        },
+        "scale": {
+          "title": "Skala korporacyjna",
+          "description": "Zbudowany dla nadawców o największym wolumenie z dedykowaną infrastrukturą i wsparciem.",
+          "metrics": {
+            "value": "1M+",
+            "label": "Wiadomości na minutę"
+          },
+          "benefits": {
+            "0": "Dedykowana infrastruktura",
+            "1": "Wsparcie priorytetowe",
+            "2": "Niestandardowe integracje",
+            "3": "Umowy SLA dla przedsiębiorstw"
+          }
+        }
+      },
+      "categories": {
+        "title": "Kategorie funkcji",
+        "description": "Poznaj nasz kompleksowy zestaw funkcji według kategorii",
+        "messaging": {
+          "title": "Kanały wiadomości",
+          "sms": {
+            "name": "SMS (10DLC, bezpłatny, krótki kod)",
+            "description": "Wszystkie typy SMS dla każdej potrzeby biznesowej"
+          },
+          "whatsapp": {
+            "name": "Platforma WhatsApp Business",
+            "description": "Tryb kampanii do masowego przesyłania wiadomości"
+          },
+          "voice": {
+            "name": "Połączenia głosowe (ponad 100 krajów)",
+            "description": "Połączenia oparte na AI za pośrednictwem Twilio"
+          }
+        },
+        "aiAutomation": {
+          "title": "AI i automatyzacja",
+          "followup": {
+            "name": "Follow-up oparty na AI",
+            "description": "Inteligentne pielęgnowanie leadów 24/7"
+          },
+          "responses": {
+            "name": "Zautomatyzowane odpowiedzi",
+            "description": "Inteligentna obsługa rozmów"
+          },
+          "scoring": {
+            "name": "Punktowanie leadów",
+            "description": "Kwalifikacja potencjalnych klientów oparta na AI"
+          }
+        },
+        "analytics": {
+          "title": "Analityka i statystyki",
+          "dashboard": {
+            "name": "Panel w czasie rzeczywistym",
+            "description": "Monitorowanie kampanii na żywo"
+          },
+          "tracking": {
+            "name": "Śledzenie konwersji",
+            "description": "Metryki ROI i wydajności"
+          },
+          "reporting": {
+            "name": "Niestandardowe raportowanie",
+            "description": "Szczegółowa analityka i statystyki"
+          }
+        },
+        "enterprise": {
+          "title": "Przedsiębiorstwo i bezpieczeństwo",
+          "gdpr": {
+            "name": "Zgodność z RODO",
+            "description": "Pełna zgodność z przepisami"
+          },
+          "team": {
+            "name": "Współpraca zespołowa",
+            "description": "Dostęp dla wielu użytkowników i uprawnienia"
+          },
+          "sla": {
+            "name": "Umowy SLA dla przedsiębiorstw",
+            "description": "Dedykowane wsparcie i dostępność"
+          }
+        }
+      },
+      "integrations": {
+        "title": "Zbudowany do integracji",
+        "description": "Połącz SeaX z istniejącymi narzędziami i przepływami pracy",
+        "crm": {
+          "title": "Integracja z CRM",
+          "description": "Połącz się z Salesforce, HubSpot i innymi systemami CRM w celu bezproblemowego przepływu danych.",
+          "sync": "Synchronizacja dwukierunkowa",
+          "mapping": "Niestandardowe mapowanie pól"
+        },
+        "analytics": {
+          "title": "Narzędzia analityczne",
+          "description": "Eksportuj dane do Google Analytics, Mixpanel i innych platform analitycznych.",
+          "exports": "Eksport w czasie rzeczywistym",
+          "dashboards": "Niestandardowe panele"
+        },
+        "api": {
+          "title": "API dla deweloperów",
+          "description": "Pełne API REST do niestandardowych integracji i zautomatyzowanych przepływów pracy.",
+          "endpoints": "Punkty końcowe RESTful",
+          "webhooks": "Obsługa webhooków"
+        }
+      },
+      "cta": {
+        "title": "Gotowy, aby doświadczyć tych funkcji?",
+        "description": "Zobacz, jak SeaX może przekształcić Twoją strategię komunikacji",
+        "button": "Zarezerwuj demo"
+      }
+    },
+    "channels": {
+      "sms": {
+        "hero": {
+          "stats": {
+            "messagesValue": "10M+",
+            "countriesValue": "200+",
+            "uptimeValue": "99.9%",
+            "deliveryValue": "98%",
+            "messagesSent": "Wysłane wiadomości",
+            "countries": "Kraje",
+            "uptime": "Dostępność",
+            "deliveryRate": "Wskaźnik dostarczalności"
+          },
+          "preview": {
+            "deliveredValue": "847 tys.",
+            "successValue": "98.2%",
+            "title": "Kampania SMS na żywo",
+            "status": "Aktywna",
+            "messageLabel": "Przykładowa wiadomość",
+            "message": "Cześć [Name], nie przegap naszej ekskluzywnej wyprzedaży 50% zniżki kończącej się dzisiaj! Kup teraz: bit.ly/save50",
+            "delivered": "Dostarczono",
+            "successRate": "Wskaźnik sukcesu"
+          },
+          "badge": "Kanał SMS",
+          "title": "Skaluj swoje SMS",
+          "titleHighlight": "Do milionów",
+          "description": "Wysyłaj spersonalizowane wiadomości SMS do milionów klientów na całym świecie z wiodącymi w branży wskaźnikami dostarczalności i analityką w czasie rzeczywistym.",
+          "cta": {
+            "primary": "Rozpocznij wysyłanie SMS",
+            "secondary": "Zaplanuj demo"
+          }
+        },
+        "seo": {
+          "title": "Platforma marketingowa i komunikacyjna SMS - SeaX by Seasalt.ai",
+          "description": "Wysyłaj masowe wiadomości SMS na dużą skalę z SeaX. Docieraj do klientów globalnie z 98% wskaźnikami dostarczalności, zaawansowaną analityką i bezpieczeństwem klasy korporacyjnej dla kampanii marketingowych i komunikacji."
+        },
+        "features": {
+          "title": "Potężne funkcje SMS",
+          "description": "Wszystko, czego potrzebujesz, aby tworzyć, wysyłać i optymalizować kampanie SMS, które przynoszą rezultaty.",
+          "globalReach": {
+            "title": "Globalny zasięg",
+            "description": "Wysyłaj SMS-y do ponad 200 krajów z bezpośrednimi połączeniami z operatorami w celu uzyskania optymalnych wskaźników dostarczalności."
+          },
+          "lightningFast": {
+            "title": "Błyskawicznie szybko",
+            "description": "Wiadomości dostarczane w ciągu sekund z aktualizacjami statusu w czasie rzeczywistym i potwierdzeniami dostarczenia."
+          },
+          "secure": {
+            "title": "Bezpieczeństwo korporacyjne",
+            "description": "Szyfrowanie klasy bankowej, zgodność z RODO i bezpieczne przetwarzanie danych dla wszystkich Twoich komunikacji."
+          },
+          "analytics": {
+            "title": "Zaawansowana analityka",
+            "description": "Szczegółowe raportowanie wskaźników dostarczalności, wskaźników klikalności i metryk wydajności kampanii."
+          },
+          "bulk": {
+            "title": "Masowe przesyłanie wiadomości",
+            "description": "Wysyłaj miliony spersonalizowanych wiadomości jednocześnie z inteligentnym planowaniem i ograniczaniem."
+          },
+          "segmentation": {
+            "title": "Inteligentna segmentacja",
+            "description": "Docieraj do określonych segmentów klientów za pomocą spersonalizowanych wiadomości opartych na zachowaniu i preferencjach."
+          }
+        },
+        "useCases": {
+          "title": "Przypadki użycia SMS",
+          "description": "Odkryj, jak firmy wykorzystują SMS do angażowania klientów i napędzania wzrostu.",
+          "marketing": {
+            "title": "Marketing Kampanie",
+            "description": "Zwiększaj sprzedaż za pomocą wiadomości promocyjnych, błyskawicznych wyprzedaży i spersonalizowanych ofert.",
+            "metrics": "do 45% wskaźników otwarć"
+          },
+          "support": {
+            "title": "Obsługa klienta",
+            "description": "Wysyłaj aktualizacje zamówień, powiadomienia o wysyłce i wiadomości wsparcia.",
+            "metrics": "95% satysfakcji klienta"
+          },
+          "appointments": {
+            "title": "Przypomnienia o spotkaniach",
+            "description": "Zmniejsz liczbę nieobecności dzięki automatycznym potwierdzeniom i przypomnieniom o spotkaniach.",
+            "metrics": "60% redukcja nieobecności"
+          },
+          "emergency": {
+            "title": "Alerty awaryjne",
+            "description": "Wysyłaj krytyczne powiadomienia i komunikaty awaryjne natychmiast.",
+            "metrics": "99,9% niezawodności dostarczania"
+          }
+        },
+        "cta": {
+          "title": "Gotowy, aby skalować swoje SMS?",
+          "description": "Dołącz do tysięcy firm korzystających z SeaX, aby dotrzeć do milionów klientów za pośrednictwem SMS.",
+          "primary": "Rozpocznij za darmo",
+          "secondary": "Zarezerwuj demo"
+        }
+      },
+      "smsLocal": {
+        "title": "SMS lokalny (10DLC)",
+        "subtitle": "Profesjonalne wiadomości SMS z zaufanymi numerami lokalnymi",
+        "description": "Wysyłaj kampanie SMS o dużym wolumenie, używając zarejestrowanych numerów 10DLC, które zapewniają wyjątkową niezawodność i zaufanie operatora. Idealne do kampanii marketingowych, przypomnień o spotkaniach i powiadomień dla klientów.",
+        "seo": {
+          "title": "SMS lokalny (10DLC) - Profesjonalne wiadomości biznesowe | SeaX",
+          "description": "Wysyłaj profesjonalne kampanie SMS z lokalnymi numerami 10DLC. Wysoka dostarczalność, zaufanie operatora i wiadomości zgodne z przepisami dla Twojej komunikacji biznesowej."
+        },
+        "hero": {
+          "campaign": {
+            "title": "Panel kampanii marketingowej",
+            "status": "Aktywna",
+            "messagesSentValue": "2 847",
+            "messagesSent": "Wysłane wiadomości",
+            "deliveryRateValue": "98,5%",
+            "deliveryRate": "Wskaźnik dostarczalności"
+          },
+          "recentActivity": {
+            "title": "Ostatnia aktywność",
+            "marketing": {
+              "title": "Kampania błyskawicznej wyprzedaży",
+              "details": "Wysłano do 1523 subskrybentów • 89% dostarczono"
+            },
+            "appointment": {
+              "title": "Przypomnienia o spotkaniach",
+              "details": "Wysłano 247 przypomnień • 2% wskaźnik nieobecności"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "98%+",
+          "deliveryRate": "Wskaźnik dostarczalności",
+          "openRateValue": "96%",
+          "openRate": "Wskaźnik otwarć",
+          "supportValue": "24/7",
+          "support": "Wsparcie"
+        },
+        "features": {
+          "title": "Kluczowe funkcje",
+          "subtitle": "Wszystko, czego potrzebujesz do profesjonalnego marketingu SMS",
+          "items": {
+            "0": "Wysoka dostarczalność z zaufaniem operatora",
+            "1": "Rejestracja 10DLC i weryfikacja marki",
+            "2": "Proces wstępnego zatwierdzania kampanii",
+            "3": "Obsługa wiadomości dwukierunkowych",
+            "4": "Zaawansowana analityka i raportowanie",
+            "5": "Zautomatyzowane zarządzanie rezygnacjami",
+            "6": "Szablony wiadomości i personalizacja",
+            "7": "Planowanie i kampanie kroplowe"
+          }
+        },
+        "useCases": {
+          "title": "Idealne przypadki użycia",
+          "subtitle": "Idealne zastosowania dla wiadomości 10DLC",
+          "items": {
+            "0": "Kampanie marketingowe i promocje",
+            "1": "Przypomnienia i potwierdzenia spotkań",
+            "2": "Status zamówienia i powiadomienia o wysyłce",
+            "3": "Obsługa klienta i wsparcie",
+            "4": "Powiadomienia o wydarzeniach i alerty",
+            "5": "Ankiety i zbieranie opinii",
+            "6": "Sekwencje pielęgnowania leadów",
+            "7": "Komunikacja awaryjna i pilna"
+          }
+        },
+        "pricing": {
+          "title": "Proste, przejrzyste ceny",
+          "subtitle": "Bez ukrytych opłat, przewidywalne koszty",
+          "setup": {
+            "label": "Konfiguracja kampanii",
+            "value": "150 USD"
+          },
+          "monthly": {
+            "label": "Miesięcznie",
+            "value": "2 USD/numer"
+          },
+          "perMessage": {
+            "label": "Za wiadomość",
+            "value": "0,02 USD"
+          },
+          "note": "Cena dotyczy USA i Kanady. Wymagana rejestracja marki i rejestracja A2P dla zgodności z 10DLC"
+        },
+        "testimonial": {
+          "quote": "Wiadomości 10DLC całkowicie zmieniły nasze zaangażowanie klientów. Wskaźniki dostarczalności są wyjątkowe, a klienci ufają naszym lokalnym numerom.",
+          "author": "Sarah Chen",
+          "company": "Dyrektor Marketingu, GrowthTech",
+          "results": "Poprawiono wskaźniki dostarczalności o 35% i zwiększono wskaźniki odpowiedzi klientów o 42%"
+        },
+        "compliance": {
+          "title": "Zgodność uproszczona",
+          "description": "Obsługujemy wszystkie złożone wymagania 10DLC, dzięki czemu możesz skupić się na swoich kampaniach wiadomości",
+          "brandRegistration": {
+            "title": "Rejestracja marki",
+            "description": "Kompletny proces weryfikacji marki z sieciami operatorów w celu uzyskania maksymalnego zaufania i dostarczalności"
+          },
+          "campaignApproval": {
+            "title": "Wstępne zatwierdzanie kampanii",
+            "description": "Uzyskaj zatwierdzenie swoich kampanii przez operatorów przed uruchomieniem, aby zapewnić zgodność i optymalną wydajność"
+          },
+          "monitoring": {
+            "title": "Ciągłe monitorowanie",
+            "description": "Ciągłe monitorowanie wydajności kampanii i metryk zgodności w celu utrzymania optymalnych wskaźników dostarczalności"
+          }
+        }
+      },
+      "smsShortCode": {
+        "seo": {
+          "title": "Usługa krótkich kodów SMS | Masowe wiadomości korporacyjne | SeaX",
+          "description": "Wysyłaj miliony wiadomości SMS natychmiast za pomocą krótkich kodów premium. Marketing SMS klasy korporacyjnej, powiadomienia i masowa komunikacja z 99,9% wskaźnikami dostarczalności."
+        },
+        "nav": {
+          "backToChannels": "← Wróć do kanałów"
+        },
+        "hero": {
+          "title": {
+            "prefix": "SMS Premium z",
+            "highlight": "Dedykowanym krótkim kodem"
+          },
+          "subtitle": "Uruchom kampanie SMS o dużym wolumenie z własnym 5-6 cyfrowym krótkim kodem. Maksymalna dostarczalność, natychmiastowa szybkość i premium percepcja marki dla poważnych marketerów.",
+          "primaryCta": "Uzyskaj swój krótki kod",
+          "secondaryCta": "Zobacz demo",
+          "demo": {
+            "title": "Kampania krótkiego kodu",
+            "code": "Od: 12345",
+            "message": "BŁYSKAWICZNA WYPRZEDAŻ: 50% zniżki na wszystko! Użyj kodu SAVE50. Ważne do północy. Odpowiedz STOP, aby zrezygnować.",
+            "delivered": "✅ Dostarczono: 99 847",
+            "rate": "99,9% wskaźnik dostarczalności",
+            "speed": "⚡ Natychmiastowa dostawa"
+          },
+          "campaign": {
+            "title": "Panel kampanii Premium",
+            "status": "Aktywna",
+            "messagesSentValue": "2,4 mln",
+            "messagesSent": "Wysłane wiadomości",
+            "deliveryRateValue": "99,8%",
+            "deliveryRate": "Wskaźnik dostarczalności"
+          },
+          "recentActivity": {
+            "title": "Ostatnia aktywność",
+            "marketing": {
+              "title": "Kampania marketingowa #2024-001",
+              "details": "Promocja świąteczna wysłana do 1,2 mln subskrybentów"
+            },
+            "appointment": {
+              "title": "Przypomnienia o spotkaniach",
+              "details": "Wysłano 850 tys. przypomnień z 95% wskaźnikiem otwarć"
+            }
+          }
+        },
+        "features": {
+          "title": "Funkcje Premium",
+          "description": "Doświadcz premium poziomu marketingu SMS z dedykowanymi krótkimi kodami",
+          "highVolume": {
+            "title": "Wysoka pojemność",
+            "description": "Wysyłaj do 100 wiadomości na sekundę z dedykowaną infrastrukturą krótkich kodów"
+          },
+          "instantDelivery": {
+            "title": "Natychmiastowa dostawa",
+            "description": "Zero opóźnień z najwyższym priorytetem routingu przez sieci operatorów"
+          },
+          "brandRecognition": {
+            "title": "Rozpoznawalność marki",
+            "description": "Zapamiętywalne 5-6 cyfrowe numery, które klienci rozpoznają i ufają Twojej marce"
+          },
+          "deliverability": {
+            "title": "Maksymalna dostarczalność",
+            "description": "99,9% wskaźników dostarczalności z premium relacjami z operatorami i dedykowanym routingiem"
+          },
+          "subtitle": "Możliwości SMS klasy korporacyjnej dla wiadomości o dużym wolumenie",
+          "items": {
+            "ultraHighThroughput": "Ultra-wysoka przepustowość: ponad 10 000 wiadomości na sekundę",
+            "premiumDelivery": "Premium trasy dostarczania dla maksymalnej niezawodności",
+            "brandRecognition": "Zwiększona rozpoznawalność marki dzięki zapamiętywalnym krótkim kodom",
+            "carrierApproved": "Wstępnie zatwierdzone przez wszystkich głównych operatorów",
+            "dedicatedSupport": "Dedykowane zarządzanie kontem i wsparcie",
+            "complianceReady": "Wbudowana zgodność z przepisami TCPA i CAN-SPAM"
+          }
+        },
+        "comparison": {
+          "title": "Krótki kod vs inne opcje SMS",
+          "description": "Zobacz, dlaczego dedykowane krótkie kody są premium wyborem dla poważnych marketerów SMS",
+          "shortCode": {
+            "title": "Dedykowany krótki kod",
+            "speed": "Natychmiastowa dostawa",
+            "volume": "Pojemność 100 wiadomości/sek.",
+            "deliverability": "99,9% dostarczalności",
+            "cost": "1000-1500 USD/miesiąc",
+            "setup": "2-3 tygodnie konfiguracji"
+          },
+          "tollFree": {
+            "title": "Numer bezpłatny",
+            "speed": "Dostawa w 3-5 sekund",
+            "volume": "Pojemność 25 wiadomości/sek.",
+            "deliverability": "98,5% dostarczalności",
+            "cost": "15-50 USD/miesiąc",
+            "setup": "1-2 dni konfiguracji"
+          },
+          "tenDlc": {
+            "title": "Lokalny numer 10DLC",
+            "speed": "Dostawa w 5-10 sekund",
+            "volume": "Pojemność 10 wiadomości/sek.",
+            "deliverability": "95-98% dostarczalności",
+            "cost": "2-10 USD/miesiąc",
+            "setup": "5-10 dni konfiguracji"
+          }
+        },
+        "useCases": {
+          "title": "Przypadki użycia",
+          "description": "Krótkie kody sprawdzają się w konkretnych scenariuszach o dużym wolumenie i wrażliwych na czas",
+          "flashSales": {
+            "title": "Błyskawiczne wyprzedaże i promocje",
+            "description": "Oferty wrażliwe na czas, które wymagają natychmiastowej dostawy",
+            "example": "BŁYSKAWICZNA WYPRZEDAŻ: 50% zniżki kończy się za 1 godzinę!"
+          },
+          "alerts": {
+            "title": "Krytyczne alerty i powiadomienia",
+            "description": "Pilne aktualizacje i ważne ogłoszenia",
+            "example": "PILNE: Konserwacja usługi dzisiaj w nocy 23:00-1:00"
+          },
+          "contests": {
+            "title": "Konkursy i głosowania",
+            "description": "Interaktywne kampanie wymagające natychmiastowych odpowiedzi",
+            "example": "Głosuj na swojego faworyta! Wyślij A lub B na 12345"
+          },
+          "events": {
+            "title": "Aktualizacje wydarzeń i biletów",
+            "description": "Aktualizacje w czasie rzeczywistym dla dużych wydarzeń i miejsc",
+            "example": "Wydarzenie rozpoczyna się za 30 minut! Brama 5 otwarta."
+          },
+          "subtitle": "Idealne do komunikacji o dużym wolumenie i wrażliwej na czas",
+          "items": {
+            "massMarketing": "Masowe kampanie marketingowe i promocje",
+            "emergencyAlerts": "Alerty awaryjne i krytyczne powiadomienia",
+            "votingPolls": "Głosowania, ankiety i angażowanie publiczności",
+            "appointmentReminders": "Przypomnienia o spotkaniach na dużą skalę",
+            "transactionalSMS": "Transakcyjne SMS o dużym wolumenie",
+            "eventNotifications": "Powiadomienia o wydarzeniach i aktualizacje"
+          }
+        },
+        "requirements": {
+          "title": "Wymagania dotyczące krótkich kodów",
+          "description": "Zrozumienie inwestycji i procesu dla dedykowanych krótkich kodów",
+          "volume": {
+            "title": "Zobowiązanie do dużego wolumenu",
+            "description": "Minimum 100 tys. wiadomości miesięcznie, aby uzasadnić inwestycję"
+          },
+          "compliance": {
+            "title": "Ścisła zgodność",
+            "description": "Zwiększone wymagania dotyczące zgodności i regularne audyty operatorów"
+          },
+          "setup": {
+            "title": "Harmonogram konfiguracji",
+            "description": "2-3 tygodnie na zatwierdzenie przez operatora i udostępnienie numeru"
+          },
+          "investment": {
+            "title": "Inwestycja Premium",
+            "description": "1000-1500 USD miesięczny koszt cykliczny za dedykowany routing"
+          }
+        },
+        "alternatives": {
+          "title": "Najpierw rozważ te alternatywy",
+          "description": "Dla większości firm te opcje zapewniają lepszą wartość i łatwiejszą konfigurację",
+          "recommended": {
+            "title": "Zalecane dla większości firm",
+            "tollFree": "SMS bezpłatny dla rozpoznawalności marki",
+            "tenDlc": "10DLC dla opłacalnego marketingu",
+            "whatsapp": "WhatsApp dla zasięgu międzynarodowego"
+          },
+          "whenToUpgrade": {
+            "title": "Kiedy uaktualnić do krótkiego kodu",
+            "volume": "Wysyłanie ponad 500 tys. wiadomości miesięcznie",
+            "speed": "Potrzebujesz natychmiastowej dostawy dla kampanii wrażliwych na czas",
+            "brand": "Rozpoznawalność marki jest kluczowa dla Twojej strategii",
+            "budget": "Masz ponad 15 tys. USD rocznego budżetu na marketing SMS"
+          }
+        },
+        "cta": {
+          "title": "Gotowy na marketing SMS Premium?",
+          "description": "Krótkie kody są idealne dla marketerów o dużym wolumenie, którzy potrzebują maksymalnej szybkości i dostarczalności. Porozmawiajmy, czy jest to odpowiednie dla Twojej firmy.",
+          "primary": "Omów wymagania dotyczące krótkiego kodu",
+          "secondary": "Rozpocznij od SMS bezpłatnych",
+          "alternative": "Większość firm zaczyna od naszej opcji SMS bezpłatnych i uaktualnia do krótkich kodów, gdy osiągną większe wolumeny."
+        },
+        "title": "Krótki kod SMS",
+        "subtitle": "Masowe wiadomości SMS dla przedsiębiorstw",
+        "description": "Docieraj do milionów klientów natychmiast za pomocą krótkich kodów SMS premium. Idealne do kampanii marketingowych, powiadomień i masowej komunikacji.",
+        "stats": {
+          "messagesPerSecondValue": "10 000",
+          "messagesPerSecond": "Wiadomości/sekundę",
+          "deliveryRateValue": "99,9%",
+          "deliveryRate": "Wskaźnik dostarczalności",
+          "digitNumbersValue": "5-6 cyfr",
+          "digitNumbers": "Dostępne numery"
+        },
+        "pricing": {
+          "title": "Ceny korporacyjne",
+          "subtitle": "Skalowalne ceny dla potrzeb masowego przesyłania wiadomości",
+          "setup": {
+            "label": "Opłata za konfigurację",
+            "value": "5000 USD"
+          },
+          "monthly": {
+            "label": "Opłata miesięczna",
+            "value": "1500 USD"
+          },
+          "perMessage": {
+            "label": "Za wiadomość",
+            "value": "0,015 USD"
+          },
+          "note": "Dostępne rabaty ilościowe dla ponad 1 miliona wiadomości/miesiąc"
+        },
+        "testimonial": {
+          "quote": "Krótkie kody SMS SeaX zmieniły nasze zaangażowanie klientów. Teraz docieramy do milionów klientów natychmiast z wiodącymi w branży wskaźnikami dostarczalności.",
+          "author": "Michael Rodriguez",
+          "company": "TechCorp Enterprise",
+          "results": "Wzrost zasięgu kampanii o 350% z 99,8% wskaźnikami dostarczalności"
+        },
+        "premiumFeatures": {
+          "title": "Zalety krótkich kodów Premium",
+          "description": "Doświadcz mocy krótkich kodów premium dla komunikacji korporacyjnej",
+          "ultraThroughput": {
+            "title": "Ultra-wysoka przepustowość",
+            "description": "Wysyłaj do 10 000 wiadomości na sekundę dzięki naszej premium infrastrukturze i partnerstwom z operatorami."
+          },
+          "premiumRoutes": {
+            "title": "Premium trasy dostarczania",
+            "description": "Gwarantowana priorytetowa dostawa poprzez dedykowane połączenia z operatorami i premium routing."
+          },
+          "brandRecognition": {
+            "title": "Zwiększona rozpoznawalność marki",
+            "description": "Zapamiętywalne 5-6 cyfrowe numery, które klienci rozpoznają i ufają Twojej marce."
+          }
+        }
+      },
+      "smsTollFree": {
+        "title": "SMS bezpłatny",
+        "subtitle": "Zaufane wiadomości biznesowe SMS",
+        "description": "Buduj zaufanie i poprawiaj zaangażowanie dzięki bezpłatnym numerom SMS. Profesjonalna komunikacja, którą klienci rozpoznają i na którą odpowiadają.",
+        "seo": {
+          "title": "Numery bezpłatne SMS | Profesjonalne wiadomości biznesowe | SeaX",
+          "description": "Zwiększ zaufanie klientów dzięki bezpłatnym numerom SMS. Profesjonalne wiadomości biznesowe z wyższymi wskaźnikami odpowiedzi i zwiększoną rozpoznawalnością marki."
+        },
+        "hero": {
+          "title": "Panel SMS bezpłatnych",
+          "status": "Aktywny",
+          "phoneNumber": "+1-800-AI-AGENT",
+          "dedicatedNumber": "Twój dedykowany numer bezpłatny",
+          "deliveryRateValue": "94,7%",
+          "deliveryRate": "Wskaźnik dostarczalności",
+          "higherTrustValue": "2,3x",
+          "higherTrust": "Wyższy wskaźnik zaufania",
+          "recentMessages": {
+            "title": "Ostatnie wiadomości",
+            "customerSupport": {
+              "title": "Odpowiedź obsługi klienta",
+              "details": "Automatyczna odpowiedź wysłana z 1-800-SUPPORT"
+            },
+            "survey": {
+              "title": "Ankieta satysfakcji klienta",
+              "details": "Zaproszenie do ankiety wysłane z 78% wskaźnikiem odpowiedzi"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "94%",
+          "deliveryRate": "Wskaźnik dostarczalności",
+          "higherTrustValue": "2,3x",
+          "higherTrust": "Wyższe zaufanie",
+          "responseRateValue": "78%",
+          "responseRate": "Wskaźnik odpowiedzi"
+        },
+        "features": {
+          "title": "Zalety bezpłatnych numerów",
+          "subtitle": "Profesjonalne wiadomości, które budują zaufanie i napędzają zaangażowanie",
+          "items": {
+            "recognizableNumbers": "Natychmiast rozpoznawalne numery 1-800",
+            "noCharges": "Brak opłat dla odbiorców - bezpłatne dla klientów",
+            "professionalImage": "Ulepszony profesjonalny wizerunek marki",
+            "higherTrust": "2,3x wyższe zaufanie w porównaniu do zwykłych numerów",
+            "improvedResponse": "78% wyższe wskaźniki odpowiedzi",
+            "brandRecognition": "Zwiększona rozpoznawalność i zapamiętywalność marki"
+          }
+        },
+        "useCases": {
+          "title": "Idealne przypadki użycia",
+          "subtitle": "Idealne dla firm, które priorytetyzują zaufanie i profesjonalizm",
+          "items": {
+            "customerService": "Obsługa klienta i komunikacja wsparcia",
+            "appointmentReminders": "Przypomnienia i potwierdzenia spotkań",
+            "surveys": "Ankiety satysfakcji klienta",
+            "notifications": "Ważne powiadomienia o koncie",
+            "promotions": "Profesjonalne kampanie promocyjne",
+            "alerts": "Alerty serwisowe i aktualizacje"
+          }
+        },
+        "pricing": {
+          "title": "Profesjonalne ceny",
+          "subtitle": "Przejrzyste ceny za bezpłatne wiadomości SMS",
+          "setupLabel": "Opłata za konfigurację",
+          "setup": {
+            "label": "Opłata za konfigurację",
+            "value": "99 USD"
+          },
+          "monthlyLabel": "Opłata miesięczna",
+          "monthly": {
+            "label": "Opłata miesięczna",
+            "value": "29 USD"
+          },
+          "perMessageLabel": "Za wiadomość",
+          "perMessage": {
+            "label": "Za wiadomość",
+            "value": "0,04 USD"
+          },
+          "note": "Cena dotyczy USA i Kanady. Brak dodatkowych opłat operatora ani ukrytych kosztów"
+        },
+        "testimonial": {
+          "quote": "Funkcja bezpłatnych wiadomości SMS znacznie poprawiła nasze wskaźniki odpowiedzi klientów. Klienci znacznie bardziej ufają wiadomościom z naszego numeru 1-800 niż zwykłym numerom.",
+          "author": "Sarah Chen",
+          "company": "HealthCare Plus",
+          "results": "78% wyższe wskaźniki odpowiedzi i 94% satysfakcji klienta"
+        },
+        "trust": {
+          "title": "Dlaczego bezpłatne wiadomości SMS działają",
+          "description": "Buduj zaufanie i napędzaj zaangażowanie dzięki profesjonalnym bezpłatnym wiadomościom",
+          "professionalImage": {
+            "title": "Profesjonalny wizerunek marki",
+            "description": "Numery bezpłatne natychmiast przekazują profesjonalizm i legalność, dzięki czemu klienci chętniej angażują się w Twoje wiadomości."
+          },
+          "noCarrierFees": {
+            "title": "Brak kosztów dla klientów",
+            "description": "Klienci nie płacą za odbieranie wiadomości, co usuwa barierę dla zaangażowania i poprawia wskaźniki odpowiedzi."
+          },
+          "higherResponse": {
+            "title": "Wyższe wskaźniki odpowiedzi",
+            "description": "Badania pokazują 2,3x wyższe zaufanie i 78% lepsze wskaźniki odpowiedzi w porównaniu do zwykłych numerów telefonów."
+          }
+        }
+      },
+      "whatsapp": {
+        "seo": {
+          "title": "Platforma WhatsApp Business API | Rozwiązanie do przesyłania wiadomości dla przedsiębiorstw | SeaX",
+          "description": "Połącz się z ponad 2 miliardami użytkowników WhatsApp na całym świecie. Profesjonalne wiadomości biznesowe z bogatymi multimediami, szablonami i zautomatyzowanymi przepływami pracy dla zaangażowania klientów."
+        },
+        "hero": {
+          "badge": "Najpopularniejszy kanał",
+          "title": {
+            "line1": "Połącz się z",
+            "line2": "Platformą WhatsApp Business"
+          },
+          "description": "Docieraj do ponad 2 miliardów użytkowników na całym świecie za pomocą API platformy WhatsApp Business. Wysyłaj wiadomości multimedialne, automatyzuj obsługę klienta i buduj znaczące relacje na dużą skalę.",
+          "stats": {
+            "monthlyUsers": "Miesięczni użytkownicy",
+            "openRate": "Wskaźnik otwarć",
+            "engagementRate": "Wskaźnik zaangażowania",
+            "countriesSupported": "Obsługiwane kraje"
+          },
+          "cta": {
+            "primary": "Rozpocznij bezpłatny okres próbny",
+            "secondary": "Zarezerwuj demo"
+          },
+          "demo": {
+            "title": "Kampania WhatsApp",
+            "subtitle": "Panel wydajności na żywo",
+            "templateLabel": "Wiadomość szablonowa",
+            "message": "Cześć! Twoje zamówienie #12345 jest gotowe do odbioru. Czy chcesz zaplanować godzinę lub potrzebujesz wskazówek do naszego sklepu?",
+            "button1": "Zaplanuj odbiór",
+            "button2": "Uzyskaj wskazówki",
+            "openRateValue": "94,8%",
+            "openRateLabel": "Wskaźnik otwarć",
+            "deliveredValue": "12,3 tys.",
+            "deliveredLabel": "Dostarczone wiadomości"
+          }
+        },
+        "features": {
+          "title": "Dlaczego wybrać platformę WhatsApp Business?",
+          "subtitle": "Wykorzystaj najpopularniejszą platformę do przesyłania wiadomości na świecie do komunikacji biznesowej",
+          "richMedia": {
+            "title": "Obsługa bogatych multimediów",
+            "description": "Wysyłaj obrazy, filmy, dokumenty i interaktywne przyciski, aby tworzyć angażujące doświadczenia klientów."
+          },
+          "globalReach": {
+            "title": "Globalny zasięg",
+            "description": "Połącz się z klientami w ponad 180 krajach, gdzie WhatsApp jest już częścią ich codziennej rutyny."
+          },
+          "security": {
+            "title": "Bezpieczeństwo end-to-end",
+            "description": "Wbudowane szyfrowanie zapewnia bezpieczną komunikację, zachowując jednocześnie zaufanie klientów i prywatność danych."
+          },
+          "instantDelivery": {
+            "title": "Natychmiastowa dostawa",
+            "description": "Wiadomości są dostarczane natychmiast z potwierdzeniami odczytu i dostarczenia w celu lepszego śledzenia."
+          },
+          "analytics": {
+            "title": "Zaawansowana analityka",
+            "description": "Śledź wydajność wiadomości, wskaźniki zaangażowania i interakcje z klientami dzięki szczegółowym statystykom."
+          },
+          "twoWay": {
+            "title": "Rozmowy dwukierunkowe",
+            "description": "Umożliwiaj naturalne rozmowy z klientami za pośrednictwem zautomatyzowanych odpowiedzi i przekazywania do agentów ludzkich."
+          }
+        },
+        "messageTypes": {
+          "title": "Typy wiadomości i możliwości",
+          "subtitle": "Wybierz spośród różnych formatów wiadomości, aby skutecznie angażować klientów",
+          "template": {
+            "title": "Wiadomości szablonowe",
+            "description": "Wstępnie zatwierdzone szablony wiadomości do powiadomień, aktualizacji i treści promocyjnych.",
+            "feature1": "Potwierdzenia i aktualizacje zamówień",
+            "feature2": "Przypomnienia o spotkaniach",
+            "feature3": "Powiadomienia o płatnościach",
+            "feature4": "Kampanie promocyjne"
+          },
+          "richMedia": {
+            "title": "Wiadomości multimedialne",
+            "description": "Angażuj klientów treściami multimedialnymi, w tym obrazami, filmami i dokumentami.",
+            "feature1": "Wysokiej jakości obrazy i filmy",
+            "feature2": "Dokumenty PDF i katalogi",
+            "feature3": "Wiadomości audio i notatki głosowe",
+            "feature4": "Udostępnianie lokalizacji"
+          },
+          "interactive": {
+            "title": "Wiadomości interaktywne",
+            "description": "Twórz angażujące doświadczenia za pomocą przycisków, list i szybkich odpowiedzi w celu lepszej interakcji z klientami.",
+            "feature1": "Przyciski szybkiej odpowiedzi",
+            "feature2": "Wybór z listy",
+            "feature3": "Przyciski wezwania do działania",
+            "feature4": "Katalogi produktów"
+          }
+        },
+        "useCases": {
+          "title": "Popularne przypadki użycia",
+          "subtitle": "Zobacz, jak firmy wykorzystują WhatsApp do napędzania wzrostu i poprawy satysfakcji klienta",
+          "support": {
+            "title": "Obsługa klienta",
+            "description": "Zapewnij natychmiastową obsługę klienta za pomocą zautomatyzowanych odpowiedzi i płynnego przekazywania do agentów w przypadku złożonych zapytań.",
+            "metrics": "87% szybszy czas rozwiązania"
+          },
+          "orders": {
+            "title": "Zarządzanie zamówieniami",
+            "description": "Wysyłaj potwierdzenia zamówień, aktualizacje wysyłki i powiadomienia o dostawie, aby informować klientów na każdym etapie procesu.",
+            "metrics": "95% wskaźnik potwierdzenia dostawy"
+          },
+          "marketing": {
+            "title": "Kampanie marketingowe",
+            "description": "Uruchamiaj ukierunkowane kampanie marketingowe z bogatymi treściami multimedialnymi i elementami interaktywnymi, aby napędzać sprzedaż i zaangażowanie.",
+            "metrics": "3,2x wyższe wskaźniki konwersji"
+          },
+          "appointments": {
+            "title": "Rezerwacja spotkań",
+            "description": "Automatyzuj planowanie spotkań, wysyłaj przypomnienia i obsługuj prośby o przełożenie za pośrednictwem przepływów konwersacyjnych.",
+            "metrics": "78% redukcja nieobecności"
+          }
+        },
+        "cta": {
+          "title": "Gotowy, aby połączyć się z WhatsApp?",
+          "subtitle": "Dołącz do tysięcy firm korzystających już z API platformy WhatsApp Business, aby rozwijać relacje z klientami",
+          "primary": "Rozpocznij bezpłatny okres próbny",
+          "secondary": "Zarezerwuj demo"
+        }
+      },
+      "voice": {
+        "title": "Kampanie głosowe AI",
+        "subtitle": "Zautomatyzowane połączenia telefoniczne na dużą skalę",
+        "description": "Docieraj do klientów natychmiast za pomocą kampanii głosowych opartych na AI. Idealne do przypomnień o spotkaniach, ankiet, alertów awaryjnych i spersonalizowanego zasięgu klientów w ponad 100 krajach.",
+        "seoTitle": "Platforma automatyzacji połączeń głosowych - Kampanie telefoniczne oparte na AI | SeaX",
+        "seoDescription": "Automatyzuj połączenia telefoniczne na dużą skalę z SeaX Voice. Kampanie głosowe oparte na AI, przypomnienia o spotkaniach, ankiety i zasięg klientów z wysokimi wskaźnikami połączeń w ponad 100 krajach.",
+        "hero": {
+          "widget": {
+            "title": "Panel głosowy AI",
+            "poweredBy": "Obsługiwane przez SeaX",
+            "callsNumber": "24 847",
+            "callsCompletedToday": "połączeń zakończonych dzisiaj",
+            "connectionRateValue": "87%",
+            "connectionRateLabel": "Wskaźnik połączeń",
+            "countriesValue": "100+",
+            "countriesLabel": "Obsługiwane kraje",
+            "activeCalls": "Aktywne połączenia",
+            "usPhoneNumber": "+1 (555) 123-4567",
+            "appointmentReminder": "Połączenie z przypomnieniem o spotkaniu",
+            "ukPhoneNumber": "+44 20 7946 0958",
+            "surveyCall": "Ankieta satysfakcji klienta"
+          }
+        },
+        "stats": {
+          "languagesValue": "25+",
+          "languagesLabel": "Obsługiwane języki"
+        },
+        "features": {
+          "title": "Potężne funkcje głosowe",
+          "subtitle": "Wszystko, czego potrzebujesz do udanych kampanii głosowych",
+          "items": {
+            "0": "Synteza naturalnego głosu oparta na AI",
+            "1": "Obsługa wielu języków (ponad 25 języków)",
+            "2": "Analityka i raportowanie połączeń w czasie rzeczywistym",
+            "3": "Możliwość interaktywnej odpowiedzi głosowej (IVR)",
+            "4": "Wykrywanie i obsługa poczty głosowej",
+            "5": "Nagrywanie i transkrypcja połączeń",
+            "6": "Inteligentna logika ponawiania i planowanie",
+            "7": "Zgodność z przepisami telemarketingowymi",
+            "globalReach": "Globalny zasięg z lokalnymi numerami telefonów w ponad 180 krajach",
+            "highQuality": "Krystalicznie czysta jakość głosu HD z inteligentnym routingiem",
+            "smartDialing": "Inteligentne wybieranie numerów z optymalnym czasem i planowaniem połączeń",
+            "multiLanguage": "Obsługa wielu języków z naturalnie brzmiącymi głosami",
+            "realTimeAnalytics": "Analityka połączeń w czasie rzeczywistym i śledzenie wydajności",
+            "complianceReady": "Wbudowana zgodność z przepisami telemarketingowymi"
+          }
+        },
+        "useCases": {
+          "title": "Przypadki użycia kampanii głosowych",
+          "subtitle": "Sprawdzone zastosowania automatyzacji głosowej",
+          "items": {
+            "0": "Przypomnienia i potwierdzenia spotkań",
+            "1": "Ankiety satysfakcji klienta",
+            "2": "Przypomnienia o płatnościach i windykacja",
+            "3": "Alerty awaryjne i powiadomienia",
+            "4": "Potwierdzenia i aktualizacje wydarzeń",
+            "5": "Kwalifikacja i pielęgnowanie leadów",
+            "6": "Badania rynku i ankiety",
+            "7": "Powiadomienia o awariach usług",
+            "appointmentReminders": "Zautomatyzowane przypomnienia i potwierdzenia spotkań",
+            "customerSurveys": "Ankiety satysfakcji klienta i zbieranie opinii",
+            "salesOutreach": "Połączenia sprzedażowe i kwalifikacja leadów",
+            "paymentReminders": "Przypomnienia o płatnościach i połączenia windykacyjne",
+            "emergencyAlerts": "Powiadomienia awaryjne i pilne alerty",
+            "eventNotifications": "Przypomnienia o wydarzeniach i ważne ogłoszenia"
+          }
+        },
+        "pricing": {
+          "title": "Ceny kampanii głosowych",
+          "subtitle": "Opłacalne ceny za automatyzację głosową",
+          "setup": {
+            "label": "Opłata za konfigurację",
+            "value": "199 USD"
+          },
+          "monthly": {
+            "label": "Opłata miesięczna",
+            "value": "49 USD"
+          },
+          "perMinute": {
+            "label": "Za minutę",
+            "value": "0,12 USD"
+          },
+          "note": {
+            "value": "Dostępne rabaty ilościowe dla ponad 10 000 połączeń/miesiąc"
+          },
+          "perMessage": {
+            "label": "Za wiadomość",
+            "value": "0,08 USD"
+          }
+        },
+        "testimonial": {
+          "quote": "Kampanie głosowe SeaX zrewolucjonizowały nasze przypomnienia o spotkaniach. Zmniejszyliśmy liczbę nieobecności o 70% i znacznie poprawiliśmy satysfakcję klienta.",
+          "author": "Dr Emily Rodriguez",
+          "company": "HealthFirst Medical Group",
+          "results": "70% redukcja nieobecności i 95% wskaźnik satysfakcji klienta"
+        }
+      }
+    },
+    "solutions": {
+      "leadGeneration": {
+        "seo": {
+          "title": "Rozwiązanie do generowania leadów - SeaX Multi-Channel Outreach",
+          "description": "Generuj kwalifikowane leady na dużą skalę dzięki wielokanałowemu rozwiązaniu SeaX do generowania leadów. Kampanie SMS, WhatsApp i głosowe z follow-upami opartymi na AI."
+        },
+        "hero": {
+          "title": "Generowanie leadów",
+          "titleHighlight": "na dużą skalę",
+          "description": "Generuj kwalifikowane leady za pomocą kampanii wielokanałowych za pośrednictwem SMS, WhatsApp i połączeń głosowych. Follow-upy oparte na AI zapewniają, że żadna okazja nie zostanie przegapiona.",
+          "cta": {
+            "primary": "Rozpocznij generowanie leadów",
+            "secondary": "Zarezerwuj demo"
+          }
+        },
+        "features": {
+          "title": "Potężne funkcje generowania leadów",
+          "subtitle": "Wszystko, czego potrzebujesz, aby pozyskiwać, kwalifikować i konwertować leady na dużą skalę",
+          "targetedOutreach": {
+            "title": "Ukierunkowany zasięg",
+            "description": "Docieraj do właściwych potencjalnych klientów z precyzyjnym targetowaniem za pośrednictwem SMS, WhatsApp i połączeń głosowych."
+          },
+          "multiChannelCampaigns": {
+            "title": "Kampanie wielokanałowe",
+            "description": "Realizuj skoordynowane kampanie za pośrednictwem SMS, WhatsApp i głosu w celu uzyskania maksymalnego wpływu."
+          },
+          "aiFollowUps": {
+            "title": "Follow-upy oparte na AI",
+            "description": "Zautomatyzowane inteligentne odpowiedzi, które kwalifikują leady i planują spotkania 24/7."
+          },
+          "realTimeAnalytics": {
+            "title": "Analityka w czasie rzeczywistym",
+            "description": "Śledź wydajność kampanii, jakość leadów i wskaźniki konwersji w czasie rzeczywistym."
+          },
+          "leadScoring": {
+            "title": "Punktowanie leadów",
+            "description": "Automatyczne punktowanie i priorytetyzacja leadów na podstawie zaangażowania i odpowiedzi."
+          },
+          "voiceQualification": {
+            "title": "Kwalifikacja głosowa",
+            "description": "Połączenia głosowe oparte na AI w celu kwalifikacji leadów i automatycznego rezerwowania spotkań."
+          }
+        },
+        "useCases": {
+          "title": "Przypadki użycia generowania leadów",
+          "subtitle": "Sprawdzone strategie w różnych branżach i typach biznesu",
+          "b2bSales": {
+            "title": "Zasięg sprzedaży B2B",
+            "description": "Generuj kwalifikowane leady dla zespołów sprzedaży B2B za pomocą ukierunkowanych kampanii wiadomości.",
+            "stats": "300% wzrost kwalifikowanych leadów"
+          },
+          "realEstate": {
+            "title": "Generowanie leadów w nieruchomościach",
+            "description": "Połącz się z kupującymi i sprzedającymi nieruchomości za pośrednictwem kampanii wielokanałowych.",
+            "stats": "85% poprawa wskaźnika odpowiedzi"
+          },
+          "insurance": {
+            "title": "Kwalifikacja leadów ubezpieczeniowych",
+            "description": "Kwalifikuj potencjalnych klientów ubezpieczeniowych za pomocą zautomatyzowanych follow-upów i rezerwacji spotkań.",
+            "stats": "60% redukcja czasu kwalifikacji"
+          },
+          "eventRegistration": {
+            "title": "Rejestracja na wydarzenia",
+            "description": "Zwiększ liczbę rejestracji na wydarzenia za pomocą ukierunkowanych zaproszeń i sekwencji follow-up.",
+            "stats": "200% wzrost rejestracji"
+          }
+        },
+        "stats": {
+          "title": "Sprawdzone wyniki",
+          "subtitle": "Zobacz, co nasi klienci osiągają dzięki generowaniu leadów SeaX",
+          "qualifiedLeads": {
+            "value": "5x",
+            "label": "Więcej kwalifikowanych leadów"
+          },
+          "responseRate": {
+            "value": "85%",
+            "label": "Wskaźnik odpowiedzi"
+          },
+          "timeSavings": {
+            "value": "60%",
+            "label": "Oszczędność czasu"
+          },
+          "roiIncrease": {
+            "value": "300%",
+            "label": "Wzrost ROI"
+          }
+        },
+        "cta": {
+          "title": "Gotowy, aby skalować generowanie leadów?",
+          "subtitle": "Dołącz do tysięcy firm generujących kwalifikowane leady z SeaX",
+          "primary": "Zarejestruj się teraz",
+          "secondary": "Zarezerwuj demo"
+        }
+      },
+      "marketingAutomation": {
+        "seo": {
+          "title": "Platforma automatyzacji marketingu - SeaX Multi-Channel Automation",
+          "description": "Automatyzuj swoje kampanie marketingowe za pośrednictwem SMS, WhatsApp i połączeń głosowych. Zaawansowane przepływy pracy, segmentacja odbiorców i analityka wydajności."
+        },
+        "hero": {
+          "title": {
+            "main": "Automatyzacja marketingu",
+            "highlight": "która działa"
+          },
+          "description": "Automatyzuj swoje kampanie marketingowe za pośrednictwem SMS, WhatsApp i połączeń głosowych. Twórz zaawansowane przepływy pracy, które pielęgnują leady i napędzają konwersje 24/7.",
+          "cta": {
+            "primary": "Rozpocznij automatyzację",
+            "secondary": "Zobacz demo"
+          }
+        },
+        "features": {
+          "title": "Potężne funkcje automatyzacji",
+          "subtitle": "Buduj zaawansowane kampanie, które działają automatycznie i przynoszą rezultaty",
+          "items[0]": {
+            "title": "Zautomatyzowane przepływy pracy",
+            "description": "Twórz złożone, wieloetapowe kampanie, które uruchamiają się na podstawie zachowań i odpowiedzi klientów."
+          },
+          "items[1]": {
+            "title": "Inteligentne planowanie",
+            "description": "Wysyłaj wiadomości w optymalnym czasie na podstawie strefy czasowej klienta i wzorców zaangażowania."
+          },
+          "items[2]": {
+            "title": "Segmentacja odbiorców",
+            "description": "Docieraj do określonych segmentów klientów za pomocą spersonalizowanych wiadomości we wszystkich kanałach."
+          },
+          "items[3]": {
+            "title": "Analityka wydajności",
+            "description": "Śledź wskaźniki zaangażowania, konwersje i ROI dzięki szczegółowej analityce kampanii."
+          },
+          "items[4]": {
+            "title": "Sekwencje wielokanałowe",
+            "description": "Orkiestruj kampanie za pośrednictwem SMS, WhatsApp i połączeń głosowych w celu uzyskania maksymalnego zasięgu."
+          },
+          "items[5]": {
+            "title": "Testy A/B",
+            "description": "Testuj różne wiadomości, czasy i kanały, aby zoptymalizować wydajność kampanii."
+          }
+        },
+        "automationTypes": {
+          "title": "Przepływy pracy automatyzacji",
+          "subtitle": "Wstępnie zbudowane sekwencje automatyzacji dla typowych scenariuszy marketingowych",
+          "items[0]": {
+            "title": "Seria powitalna",
+            "description": "Automatycznie wdrażaj nowych klientów za pomocą spersonalizowanych sekwencji powitalnych.",
+            "example": "SMS powitalny → Informacje o produkcie → Specjalna oferta → Prośba o opinię"
+          },
+          "items[1]": {
+            "title": "Odzyskiwanie porzuconych koszyków",
+            "description": "Ponownie angażuj klientów, którzy zostawili przedmioty w koszyku, za pomocą ukierunkowanych przypomnień.",
+            "example": "Przypomnienie o koszyku → Rabat ograniczony czasowo → Rekomendacje produktów"
+          },
+          "items[2]": {
+            "title": "Cykl życia klienta",
+            "description": "Prowadź klientów przez ich podróż za pomocą zautomatyzowanych punktów styku.",
+            "example": "Potwierdzenie zakupu → Wskazówki dotyczące użytkowania → Możliwości sprzedaży dodatkowej → Nagrody lojalnościowe"
+          },
+          "items[3]": {
+            "title": "Kampanie ponownego zaangażowania",
+            "description": "Odzyskaj nieaktywnych klientów za pomocą przekonujących sekwencji ponownego zaangażowania.",
+            "example": "Wiadomość tęsknię za Tobą → Ekskluzywna oferta → Aktualizacje produktów → Zachęta do powrotu"
+          },
+          "exampleFlowLabel": "Przykładowy przepływ:"
+        },
+        "stats": {
+          "title": "Wyniki automatyzacji",
+          "subtitle": "Zobacz wpływ automatyzacji marketingu na Twoją firmę",
+          "items[0]": {
+            "value": "10x",
+            "label": "Bardziej wydajne"
+          },
+          "items[1]": {
+            "value": "95%",
+            "label": "Wskaźnik zaangażowania"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Oszczędność czasu"
+          },
+          "items[3]": {
+            "value": "400%",
+            "label": "Wzrost ROI"
+          }
+        },
+        "cta": {
+          "title": "Gotowy, aby zautomatyzować swój marketing?",
+          "description": "Dołącz do tysięcy firm skalujących swój marketing dzięki automatyzacji SeaX",
+          "primary": "Zarejestruj się teraz",
+          "secondary": "Zarezerwuj demo"
+        }
+      },
+      "customerEngagement": {
+        "seo": {
+          "title": "Zaangażowanie klienta - Platforma komunikacyjna SeaX",
+          "description": "Buduj silniejsze relacje z klientami dzięki spersonalizowanemu, wielokanałowemu zaangażowaniu za pośrednictwem SMS, WhatsApp i połączeń głosowych."
+        },
+        "hero": {
+          "title": {
+            "main": "Zaangażowanie klienta",
+            "highlight": "które buduje lojalność"
+          },
+          "description": "Buduj silniejsze relacje z klientami dzięki spersonalizowanemu, wielokanałowemu zaangażowaniu za pośrednictwem SMS, WhatsApp i połączeń głosowych. Zamień każdą interakcję w okazję.",
+          "cta": {
+            "primary": "Angażuj klientów",
+            "secondary": "Zarezerwuj demo"
+          }
+        },
+        "features": {
+          "title": "Funkcje zaangażowania",
+          "subtitle": "Wszystko, czego potrzebujesz, aby budować znaczące relacje z klientami",
+          "items[0]": {
+            "title": "Zaawansowane profilowanie klienta",
+            "description": "Twórz wzbogacone profile klientów w celu bardziej spersonalizowanego zaangażowania."
+          },
+          "items[1]": {
+            "title": "Wiadomości wielokanałowe",
+            "description": "Angażuj klientów za pośrednictwem SMS, WhatsApp i wiadomości w aplikacji."
+          },
+          "items[2]": {
+            "title": "Analiza sentymentu",
+            "description": "Zrozum sentymenty klientów i odpowiednio dostosuj komunikację."
+          },
+          "items[3]": {
+            "title": "Analityka behawioralna",
+            "description": "Śledź i analizuj zachowania klientów, aby poprawić strategie zaangażowania."
+          },
+          "items[4]": {
+            "title": "Narzędzia marketingu bezpośredniego",
+            "description": "Prowadź ukierunkowane kampanie z precyzją, w oparciu o dane klientów."
+          },
+          "items[5]": {
+            "title": "Interakcja w czasie rzeczywistym",
+            "description": "Angażuj klientów, gdy ma to największe znaczenie, za pomocą wyzwalaczy i komunikacji w czasie rzeczywistym."
+          }
+        },
+        "useCases": {
+          "title": "Przypadki użycia zaangażowania",
+          "subtitle": "Strategie angażowania klientów w świecie rzeczywistym w różnych branżach",
+          "items[0]": {
+            "title": "Zaangażowanie w e-commerce",
+            "description": "Zwiększaj powtarzalność zakupów i retencję klientów poprzez spersonalizowane promocje.",
+            "stats": "20% wzrost powtarzalności zakupów"
+          },
+          "items[1]": {
+            "title": "Alerty usług finansowych",
+            "description": "Informuj klientów o aktywnościach na koncie za pomocą zautomatyzowanych alertów i aktualizacji.",
+            "stats": "80% wskaźnik zaangażowania w alerty"
+          },
+          "items[2]": {
+            "title": "Podróże i hotelarstwo",
+            "description": "Poprawiaj doświadczenia gości dzięki aktualizacjom przed przyjazdem i spersonalizowanym planom podróży.",
+            "stats": "50% redukcja zapytań klientów"
+          },
+          "items[3]": {
+            "title": "Programy lojalnościowe w handlu detalicznym",
+            "description": "Zwiększaj lojalność dzięki spersonalizowanym nagrodom i ofertom opartym na historii zakupów.",
+            "stats": "25% wzrost liczby członków programu lojalnościowego"
+          }
+        },
+        "stats": {
+          "title": "Wyniki zaangażowania",
+          "subtitle": "Zobacz wpływ zwiększonego zaangażowania klientów",
+          "items[0]": {
+            "value": "40%",
+            "label": "Wyższe zaangażowanie"
+          },
+          "items[1]": {
+            "value": "85%",
+            "label": "Satysfakcja klienta"
+          },
+          "items[2]": {
+            "value": "60%",
+            "label": "Wskaźnik powtarzalności zakupów"
+          },
+          "items[3]": {
+            "value": "3x",
+            "label": "Wartość życiowa klienta"
+          }
+        },
+        "cta": {
+          "title": "Gotowy, aby budować silniejsze relacje z klientami?",
+          "description": "Dołącz do tysięcy firm korzystających z SeaX, aby angażować klientów i budować trwałą lojalność",
+          "primary": "Rozpocznij już dziś"
+        }
+      },
+      "appointmentReminders": {
+        "seo": {
+          "title": "Przypomnienia o spotkaniach - SeaX Automated Scheduling",
+          "description": "Zmniejsz liczbę nieobecności i popraw frekwencję dzięki automatycznym przypomnieniom o spotkaniach za pośrednictwem SMS, WhatsApp i połączeń głosowych. Inteligentny system planowania i potwierdzania."
+        },
+        "hero": {
+          "title": {
+            "main": "Przypomnienia o spotkaniach",
+            "highlight": "które działają"
+          },
+          "description": "Zmniejsz liczbę nieobecności i popraw frekwencję dzięki automatycznym przypomnieniom o spotkaniach za pośrednictwem SMS, WhatsApp i połączeń głosowych. Inteligentne planowanie z dwukierunkową komunikacją.",
+          "cta": {
+            "primary": "Rozpocznij zmniejszanie liczby nieobecności",
+            "secondary": "Zarezerwuj demo"
+          }
+        },
+        "features": {
+          "title": "Potężne funkcje przypomnień",
+          "subtitle": "Wszystko, czego potrzebujesz, aby utrzymać spotkania na właściwym torze i zmniejszyć liczbę nieobecności",
+          "items[0]": {
+            "title": "Inteligentne planowanie",
+            "description": "Automatycznie planuj spotkania i wysyłaj potwierdzenia za pośrednictwem SMS, WhatsApp i połączeń głosowych."
+          },
+          "items[1]": {
+            "title": "Przypomnienia wieloetapowe",
+            "description": "Wysyłaj spersonalizowane przypomnienia w optymalnych odstępach czasu - 24 godziny, 1 godzinę i 15 minut przed spotkaniami."
+          },
+          "items[2]": {
+            "title": "Komunikacja dwukierunkowa",
+            "description": "Pozwól klientom potwierdzać, przeplanowywać lub anulować spotkania bezpośrednio za pośrednictwem SMS lub WhatsApp."
+          },
+          "items[3]": {
+            "title": "Powiadomienia dla personelu",
+            "description": "Informuj swój zespół o zmianach i potwierdzeniach spotkań w czasie rzeczywistym."
+          },
+          "items[4]": {
+            "title": "Niestandardowe alerty",
+            "description": "Ustaw niestandardowe harmonogramy przypomnień i wiadomości dla różnych typów i czasów trwania spotkań."
+          },
+          "items[5]": {
+            "title": "Analityka i statystyki",
+            "description": "Śledź wskaźniki nieobecności, wskaźniki potwierdzeń i optymalizuj swoją strategię przypomnień za pomocą szczegółowej analityki."
+          }
+        },
+        "useCases": {
+          "title": "Przypadki użycia w branży",
+          "subtitle": "Sprawdzone strategie przypomnień o spotkaniach w różnych branżach",
+          "items[0]": {
+            "title": "Praktyki opieki zdrowotnej",
+            "description": "Zmniejsz liczbę nieobecności na wizytach lekarskich dzięki automatycznym przypomnieniom i łatwym opcjom przeplanowania.",
+            "stats": "40% redukcja nieobecności"
+          },
+          "items[1]": {
+            "title": "Uroda i wellness",
+            "description": "Utrzymuj harmonogram spotkań w salonach i spa dzięki spersonalizowanym przypomnieniom i prośbom o potwierdzenie.",
+            "stats": "85% wskaźnik potwierdzeń"
+          },
+          "items[2]": {
+            "title": "Usługi profesjonalne",
+            "description": "Zapewnij, że konsultacje i spotkania odbywają się na czas dzięki wielokanałowym sekwencjom przypomnień.",
+            "stats": "90% wskaźnik frekwencji"
+          },
+          "items[3]": {
+            "title": "Usługi motoryzacyjne",
+            "description": "Automatycznie przypominaj klientom o terminach serwisowych i harmonogramach konserwacji.",
+            "stats": "60% wzrost powtarzalności wizyt"
+          }
+        },
+        "stats": {
+          "title": "Sprawdzone wyniki",
+          "subtitle": "Zobacz, co nasi klienci osiągają dzięki przypomnieniom o spotkaniach SeaX",
+          "items[0]": {
+            "value": "40%",
+            "label": "Redukcja nieobecności"
+          },
+          "items[1]": {
+            "value": "90%",
+            "label": "Wskaźnik frekwencji"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Oszczędność czasu"
+          },
+          "items[3]": {
+            "value": "95%",
+            "label": "Satysfakcja klienta"
+          }
+        },
+        "cta": {
+          "title": "Gotowy, aby zmniejszyć liczbę nieobecności i poprawić frekwencję?",
+          "description": "Dołącz do tysięcy firm poprawiających frekwencję na spotkaniach dzięki SeaX",
+          "primary": "Rozpocznij już dziś"
+        }
+      },
+      "emergencyAlerts": {
+        "seo": {
+          "title": "Alerty awaryjne - System powiadomień SeaX",
+          "description": "Wysyłaj natychmiastowe alerty awaryjne z komunikacją w czasie rzeczywistym za pośrednictwem SMS, głosu i WhatsApp. Zapewnij dostarczenie wiadomości w krytycznych sytuacjach."
+        },
+        "hero": {
+          "title": {
+            "main": "Alerty awaryjne",
+            "highlight": "które ratują życie"
+          },
+          "description": "Wysyłaj natychmiastowe alerty awaryjne z komunikacją w czasie rzeczywistym za pośrednictwem SMS, głosu i WhatsApp. Zapewnij dostarczenie wiadomości w krytycznych sytuacjach, gdy liczy się każda sekunda.",
+          "cta": {
+            "primary": "Rozpocznij wysyłanie alertów",
+            "secondary": "Zarezerwuj demo bezpieczeństwa"
+          }
+        },
+        "features": {
+          "title": "Krytyczne funkcje alertów",
+          "subtitle": "Wszystko, czego potrzebujesz do skutecznej i niezawodnej komunikacji awaryjnej",
+          "items[0]": {
+            "title": "Natychmiastowe nadawanie awaryjne",
+            "description": "Wysyłaj krytyczne alerty do tysięcy odbiorców jednocześnie za pośrednictwem SMS, głosu i WhatsApp."
+          },
+          "items[1]": {
+            "title": "Dostarczanie wrażliwe na czas",
+            "description": "Priorytetowe dostarczanie wiadomości zapewnia, że komunikaty awaryjne docierają do odbiorców natychmiast."
+          },
+          "items[2]": {
+            "title": "Ukierunkowane grupy odbiorców",
+            "description": "Twórz i zarządzaj konkretnymi grupami dla różnych typów sytuacji awaryjnych i lokalizacji."
+          },
+          "items[3]": {
+            "title": "Niezawodna infrastruktura",
+            "description": "Zbudowany na infrastrukturze klasy operatorskiej, aby zapewnić, że wiadomości docierają, gdy ma to największe znaczenie."
+          },
+          "items[4]": {
+            "title": "Alerty wielokanałowe",
+            "description": "Docieraj do ludzi za pośrednictwem preferowanych kanałów komunikacji w celu uzyskania maksymalnych wskaźników odpowiedzi."
+          },
+          "items[5]": {
+            "title": "Komunikacja dwukierunkowa",
+            "description": "Otrzymuj potwierdzenia i odpowiedzi od odbiorców, aby śledzić skuteczność alertów."
+          }
+        },
+        "useCases": {
+          "title": "Przypadki użycia alertów awaryjnych",
+          "subtitle": "Zastosowania w świecie rzeczywistym w celu zapewnienia bezpieczeństwa i komunikacji",
+          "items[0]": {
+            "title": "Korporacyjna reakcja na sytuacje awaryjne",
+            "description": "Powiadamiaj pracowników o zagrożeniach bezpieczeństwa, ewakuacjach lub krytycznych zakłóceniach biznesowych.",
+            "stats": "99,9% wskaźnik sukcesu dostarczania"
+          },
+          "items[1]": {
+            "title": "Alerty bezpieczeństwa szkolnego",
+            "description": "Natychmiast informuj rodziców, uczniów i personel o zamknięciach szkół lub incydentach bezpieczeństwa.",
+            "stats": "30-sekundowy średni czas dostarczania"
+          },
+          "items[2]": {
+            "title": "Krytyczne alerty opieki zdrowotnej",
+            "description": "Powiadamiaj personel medyczny o sytuacjach kodowych, nagłych przypadkach pacjentów lub incydentach w placówkach.",
+            "stats": "95% wskaźnik odpowiedzi w ciągu 5 minut"
+          },
+          "items[3]": {
+            "title": "Powiadomienia o bezpieczeństwie publicznym",
+            "description": "Ostrzegaj społeczności o klęskach żywiołowych, niebezpiecznych warunkach lub zagrożeniach bezpieczeństwa publicznego.",
+            "stats": "Ponad 10 000 odbiorców na minutę"
+          }
+        },
+        "stats": {
+          "title": "Sprawdzona reakcja na sytuacje awaryjne",
+          "subtitle": "Dostarczaj wiadomości niezawodnie, gdy liczy się każda sekunda",
+          "items[0]": {
+            "value": "99,9%",
+            "label": "Wskaźnik sukcesu dostarczania"
+          },
+          "items[1]": {
+            "value": "30 sek.",
+            "label": "Średni czas dostarczania"
+          },
+          "items[2]": {
+            "value": "95%",
+            "label": "Odpowiedź w ciągu 5 minut"
+          },
+          "items[3]": {
+            "value": "10 000+",
+            "label": "Wiadomości na minutę"
+          }
+        },
+        "cta": {
+          "title": "Gotowy, aby zapewnić bezpieczeństwo i komunikację?",
+          "description": "Dołącz do tysięcy organizacji korzystających z SeaX, aby zapewnić bezpieczeństwo i skutecznie komunikować się w sytuacjach awaryjnych.",
+          "primary": "Rozpocznij już dziś"
+        }
+      }
+    }
+  }
+}

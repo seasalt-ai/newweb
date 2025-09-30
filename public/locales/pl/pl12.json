@@ -1,0 +1,393 @@
+{
+  "seavoice": {
+    "platform": {
+      "speechToText": {
+        "hero": {
+          "title": "Technologia mowy na tekst",
+          "subtitle": "Wiodące w branży rozpoznawanie mowy z ponad 99% dokładnością. Konwertuj dowolny dźwięk na tekst w czasie rzeczywistym z obsługą ponad 50 języków i specjalistycznych słownictw branżowych.",
+          "cta": "Wypróbuj rozpoznawanie mowy"
+        },
+        "features": {
+          "0": {
+            "title": "Przetwarzanie w czasie rzeczywistym",
+            "description": "Konwertuj mowę na tekst w czasie rzeczywistym z ultra-niskim opóźnieniem dla rozmów na żywo.",
+            "specs": {
+              "0": "< 100ms opóźnienia",
+              "1": "Rozpoznawanie strumieniowe",
+              "2": "Transkrypcja na żywo"
+            }
+          },
+          "1": {
+            "title": "Obsługa wielu języków",
+            "description": "Obsługa ponad 50 języków i dialektów z automatycznym wykrywaniem języka.",
+            "specs": {
+              "0": "Ponad 50 języków",
+              "1": "Automatyczne wykrywanie",
+              "2": "Akcenty regionalne"
+            }
+          },
+          "2": {
+            "title": "Dokładność branżowa",
+            "description": "Specjalistyczne modele szkolone dla różnych branż i przypadków użycia.",
+            "specs": {
+              "0": "Ponad 99% dokładności",
+              "1": "Specyficzne dla domeny",
+              "2": "Niestandardowe słownictwo"
+            }
+          },
+          "title": "Zaawansowane rozpoznawanie mowy",
+          "subtitle": "Zbudowany na oryginalnej strukturze Kaldi z nowoczesnymi ulepszeniami głębokiego uczenia się"
+        },
+        "accuracy": {
+          "title": "Wiodąca w branży dokładność",
+          "subtitle": "Specjalistyczne modele szkolone dla różnych branż i przypadków użycia",
+          "stats": {
+            "0": {
+              "category": "Ogólna rozmowa",
+              "accuracy": "99,2%",
+              "improvement": "+15%"
+            },
+            "1": {
+              "category": "Terminologia medyczna",
+              "accuracy": "98,8%",
+              "improvement": "+22%"
+            },
+            "2": {
+              "category": "Usługi finansowe",
+              "accuracy": "99,1%",
+              "improvement": "+18%"
+            },
+            "3": {
+              "category": "Wsparcie techniczne",
+              "accuracy": "98,9%",
+              "improvement": "+20%"
+            }
+          },
+          "improvementSuffix": " vs średnia branżowa"
+        },
+        "languages": {
+          "title": "Globalna obsługa języków",
+          "subtitle": "Kompleksowa obsługa głównych języków świata z automatycznym wykrywaniem języka i rozpoznawaniem akcentów regionalnych. Nasze modele są stale szkolone na różnorodnych zbiorach danych, aby zapewnić dokładność w różnych stylach mówienia i środowiskach.",
+          "features": {
+            "0": {
+              "title": "Ponad 50 języków",
+              "description": "Główne języki świata i dialekty regionalne"
+            },
+            "1": {
+              "title": "Automatyczne wykrywanie",
+              "description": "Automatyczna identyfikacja i przełączanie języków"
+            },
+            "2": {
+              "title": "Ciągłe uczenie się",
+              "description": "Modele poprawiają się wraz z użyciem i opiniami"
+            }
+          },
+          "supportedTitle": "Obsługiwane języki",
+          "supportedLanguages": {
+            "0": "Angielski (USA, Wielka Brytania, Australia)",
+            "1": "Hiszpański (Hiszpania, Meksyk, Argentyna)",
+            "2": "Francuski (Francja, Kanada)",
+            "3": "Niemiecki",
+            "4": "Włoski",
+            "5": "Portugalski (Brazylia, Portugalia)",
+            "6": "Japoński",
+            "7": "Koreański",
+            "8": "Mandaryński chiński",
+            "9": "Kantoński",
+            "10": "Hindi",
+            "11": "Arabski",
+            "12": "Rosyjski",
+            "13": "Holenderski",
+            "14": "Szwedzki",
+            "15": "Norweski"
+          },
+          "customNote": "Dostępne niestandardowe modele językowe dla specjalistycznych słownictw i terminologii branżowej"
+        },
+        "useCases": {
+          "0": {
+            "title": "Transkrypcja centrum obsługi telefonicznej",
+            "description": "Transkrypcja połączeń obsługi klienta w czasie rzeczywistym w celu zapewnienia jakości i szkolenia.",
+            "benefits": {
+              "0": "Monitorowanie jakości",
+              "1": "Nagrywanie zgodności",
+              "2": "Szkolenie agentów",
+              "3": "Statystyki klientów"
+            }
+          },
+          "1": {
+            "title": "Dokumentacja spotkań",
+            "description": "Automatyczna transkrypcja spotkań, konferencji i dyskusji biznesowych.",
+            "benefits": {
+              "0": "Protokoły spotkań",
+              "1": "Ekstrakcja elementów działania",
+              "2": "Archiwa z możliwością wyszukiwania",
+              "3": "Identyfikacja wielu mówców"
+            }
+          },
+          "2": {
+            "title": "Polecenia głosowe",
+            "description": "Konwertuj polecenia głosowe na tekst dla aplikacji i interfejsów sterowanych głosem.",
+            "benefits": {
+              "0": "Obsługa bez użycia rąk",
+              "1": "Funkcje dostępności",
+              "2": "Sterowanie inteligentnym domem",
+              "3": "Aplikacje mobilne"
+            }
+          },
+          "3": {
+            "title": "Tworzenie treści",
+            "description": "Przekształć treści audio w tekst dla podcastów, filmów i produkcji medialnych.",
+            "benefits": {
+              "0": "Generowanie napisów",
+              "1": "Indeksowanie treści",
+              "2": "Optymalizacja SEO",
+              "3": "Zgodność z dostępnością"
+            }
+          },
+          "title": "Potężne przypadki użycia",
+          "subtitle": "Przekształć dźwięk w użyteczny tekst w różnych branżach i zastosowaniach"
+        },
+        "specs": {
+          "title": "Specyfikacje techniczne",
+          "subtitle": "Wydajność i niezawodność klasy korporacyjnej",
+          "performance": {
+            "title": "Wydajność",
+            "latency": {
+              "label": "Opóźnienie",
+              "value": "< 100ms"
+            },
+            "accuracy": {
+              "label": "Dokładność",
+              "value": "99%+"
+            },
+            "throughput": {
+              "label": "Przepustowość",
+              "value": "Ponad 1000 równoczesnych"
+            },
+            "uptime": {
+              "label": "Dostępność",
+              "value": "99.99%"
+            }
+          },
+          "audioFormats": {
+            "title": "Formaty audio",
+            "sampleRate": {
+              "label": "Częstotliwość próbkowania",
+              "value": "8-48 kHz"
+            },
+            "bitDepth": {
+              "label": "Głębia bitowa",
+              "value": "16-32 bity"
+            },
+            "formats": {
+              "label": "Formaty",
+              "value": "WAV, MP3, FLAC"
+            },
+            "streaming": {
+              "label": "Strumieniowanie",
+              "value": "W czasie rzeczywistym"
+            }
+          },
+          "integration": {
+            "title": "Integracja",
+            "api": {
+              "label": "API",
+              "value": "REST i WebSocket"
+            },
+            "sdks": {
+              "label": "SDK",
+              "value": "Python, Node.js, Go"
+            },
+            "webhooks": {
+              "label": "Webhooki",
+              "value": "Zdarzenia w czasie rzeczywistym"
+            },
+            "security": {
+              "label": "Bezpieczeństwo",
+              "value": "TLS 1.3, OAuth 2.0"
+            }
+          }
+        },
+        "cta": {
+          "title": "Gotowy, aby przekształcić dźwięk w tekst?",
+          "subtitle": "Doświadcz mocy wiodącej w branży technologii rozpoznawania mowy",
+          "primaryButton": "Wypróbuj darmowe demo",
+          "secondaryButton": "Zobacz dokumentację API"
+        }
+      },
+      "textToSpeech": {
+        "hero": {
+          "title": "Technologia zamiany tekstu na mowę",
+          "subtitle": "Naturalnie brzmiąca synteza mowy z ponad 300 głosami w 50+ językach. Twórz spersonalizowane doświadczenia głosowe z kontrolą emocji i intonacji.",
+          "cta": "Wypróbuj syntezę mowy"
+        },
+        "features": {
+          "0": {
+            "title": "Naturalne głosy",
+            "description": "Ponad 300 naturalnie brzmiących głosów w 50+ językach i dialektach.",
+            "specs": {
+              "0": "50+ języków",
+              "1": "300+ głosów",
+              "2": "Dialekty regionalne"
+            }
+          },
+          "1": {
+            "title": "Kontrola emocji i intonacji",
+            "description": "Dostosuj emocje, ton i intonację, aby tworzyć bardziej ekspresyjne i ludzkie głosy.",
+            "specs": {
+              "0": "Kontrola emocji",
+              "1": "Regulacja tonu",
+              "2": "Dostosowanie intonacji"
+            }
+          },
+          "2": {
+            "title": "Klonowanie głosu",
+            "description": "Twórz niestandardowe głosy, klonując istniejące głosy, aby zachować spójność marki.",
+            "specs": {
+              "0": "Klonowanie głosu",
+              "1": "Spójność marki",
+              "2": "Niestandardowe profile"
+            }
+          },
+          "title": "Zaawansowana synteza mowy",
+          "subtitle": "Zasilany przez najnowocześniejsze modele głębokiego uczenia się dla niezrównanej jakości i naturalności"
+        },
+        "voices": {
+          "title": "Globalna biblioteka głosów",
+          "subtitle": "Wybierz spośród ponad 300 głosów w 50+ językach i dialektach, aby znaleźć idealny głos dla swojej marki.",
+          "features": {
+            "0": {
+              "title": "Ponad 50 języków",
+              "description": "Główne języki świata i dialekty regionalne"
+            },
+            "1": {
+              "title": "300+ głosów",
+              "description": "Różnorodne głosy męskie i żeńskie"
+            },
+            "2": {
+              "title": "Niestandardowe głosy",
+              "description": "Klonowanie głosu dla spójności marki"
+            }
+          },
+          "supportedTitle": "Przykładowe głosy",
+          "supportedVoices": {
+            "0": "Standardowy głos męski (angielski)",
+            "1": "Standardowy głos żeński (angielski)",
+            "2": "Głos męski (hiszpański)",
+            "3": "Głos żeński (francuski)",
+            "4": "Głos męski (niemiecki)",
+            "5": "Głos żeński (japoński)"
+          },
+          "customNote": "Niestandardowe klonowanie głosu dostępne dla planów korporacyjnych"
+        },
+        "useCases": {
+          "0": {
+            "title": "Wirtualni asystenci",
+            "description": "Zasilaj wirtualnych asystentów i chatboty głosowe naturalnie brzmiącymi głosami.",
+            "benefits": {
+              "0": "Lepsze doświadczenie użytkownika",
+              "1": "Zwiększone zaangażowanie",
+              "2": "Spójność marki"
+            }
+          },
+          "1": {
+            "title": "Audiobooki i podcasty",
+            "description": "Konwertuj tekst na mowę dla audiobooków, podcastów i innych treści audio.",
+            "benefits": {
+              "0": "Szybsza produkcja",
+              "1": "Niższe koszty",
+              "2": "Większa dostępność"
+            }
+          },
+          "2": {
+            "title": "Powiadomienia i alerty",
+            "description": "Twórz spersonalizowane powiadomienia głosowe i alerty dla klientów.",
+            "benefits": {
+              "0": "Większa skuteczność",
+              "1": "Spersonalizowane wiadomości",
+              "2": "Automatyczne dostarczanie"
+            }
+          },
+          "3": {
+            "title": "Systemy IVR",
+            "description": "Ulepsz systemy IVR o naturalnie brzmiące głosy i dynamiczne odpowiedzi.",
+            "benefits": {
+              "0": "Lepsza nawigacja",
+              "1": "Zmniejszona frustracja",
+              "2": "Spójność marki"
+            }
+          },
+          "title": "Potężne przypadki użycia",
+          "subtitle": "Przekształć tekst w angażujące doświadczenia głosowe w różnych branżach"
+        },
+        "specs": {
+          "title": "Specyfikacje techniczne",
+          "subtitle": "Wydajność i niezawodność klasy korporacyjnej",
+          "performance": {
+            "title": "Wydajność",
+            "latency": {
+              "label": "Opóźnienie",
+              "value": "< 200ms"
+            },
+            "quality": {
+              "label": "Jakość",
+              "value": "Human-like"
+            },
+            "throughput": {
+              "label": "Przepustowość",
+              "value": "1000+ concurrent"
+            },
+            "uptime": {
+              "label": "Dostępność",
+              "value": "99.99%"
+            }
+          },
+          "audioFormats": {
+            "title": "Formaty audio",
+            "sampleRate": {
+              "label": "Częstotliwość próbkowania",
+              "value": "8-48 kHz"
+            },
+            "bitDepth": {
+              "label": "Głębia bitowa",
+              "value": "16-32 bity"
+            },
+            "formats": {
+              "label": "Formaty",
+              "value": "WAV, MP3, OGG"
+            },
+            "streaming": {
+              "label": "Strumieniowanie",
+              "value": "W czasie rzeczywistym"
+            }
+          },
+          "integration": {
+            "title": "Integracja",
+            "api": {
+              "label": "API",
+              "value": "REST i WebSocket"
+            },
+            "sdks": {
+              "label": "SDK",
+              "value": "Python, Node.js, Go"
+            },
+            "webhooks": {
+              "label": "Webhooki",
+              "value": "Zdarzenia w czasie rzeczywistym"
+            },
+            "security": {
+              "label": "Bezpieczeństwo",
+              "value": "TLS 1.3, OAuth 2.0"
+            }
+          }
+        },
+        "cta": {
+          "title": "Gotowy, aby przekształcić tekst w mowę?",
+          "subtitle": "Doświadcz mocy wiodącej w branży technologii zamiany tekstu na mowę",
+          "primaryButton": "Wypróbuj darmowe demo",
+          "secondaryButton": "Zobacz dokumentację API"
+        }
+      }
+    }
+  }
+}

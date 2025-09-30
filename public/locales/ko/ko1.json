@@ -5,14 +5,14 @@
     "industries": "산업",
     "channels": "채널",
     "pricing": "가격",
-    "compareUs": "비교",
+    "compareUs": "비교하기",
     "blog": "블로그",
     "login": "로그인",
     "startForFree": "가입하기",
     "backToChannels": "채널로 돌아가기",
     "allChannelsOverview": "모든 채널 개요",
     "solutionsDropdown": {
-      "seahealth": "SeaHealth - 최적화된 헬스케어",
+      "seahealth": "SeaHealth - 최적화된 의료",
       "useCases": "사용 사례"
     },
     "useCasesDropdown": {
@@ -27,7 +27,7 @@
       "sms": "SMS",
       "websiteChat": "웹사이트 채팅",
       "instagram": "Instagram",
-      "facebookMessenger": "Facebook Messenger",
+      "facebookMessenger": "Facebook 메신저",
       "contactForms": "문의 양식",
       "line": "Line",
       "websiteWidget": "웹사이트 위젯"
@@ -50,31 +50,31 @@
     },
     "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
     "privacyPolicy": "개인정보처리방침",
-    "termsOfService": "서비스 약관",
+    "termsOfService": "서비스 이용약관",
     "security": "보안",
     "compliance": {
       "soc2": "SOC 2 준수",
-      "hipaa": "HIPAA 지원",
+      "hipaa": "HIPAA 사용 가능",
       "uptime": "99.9% 가동 시간"
     },
     "cta": {
       "title": "수백만 명에게 도달할 준비가 되셨습니까?",
-      "startFreeTrial": "무료로 시작하기",
+      "startFreeTrial": "무료로 가입하기",
       "scheduleDemo": "데모 예약",
-      "subtitle": "SeaX를 사용하여 더 많은 고객에게 도달하고, 더 많은 리드를 확보하고, 더 빠르게 성장하는 수천 개의 비즈니스에 참여하십시오.",
+      "subtitle": "SeaX를 사용하여 더 많은 고객에게 도달하고 더 많은 리드를 생성하며 더 빠르게 성장하는 수천 개의 회사에 합류하십시오。",
       "signUpNow": "지금 가입하기"
     },
-    "tagline": "중소기업을 위해 구축된 올인원 컨택 센터. 지원을 자동화하고, 모든 리드를 확보하고, 모든 고객 대화를 통합합니다.",
-    "seahealth": "SeaHealth - 최적화된 헬스케어",
-    "productWiki": "제품 위키",
+    "tagline": "중소기업을 위해 구축된 올인원 컨택 센터. 지원을 자동화하고 모든 리드를 포착하며 모든 고객 대화를 통합합니다。",
+    "seahealth": "SeaHealth - 최적화된 의료",
+    "productWiki": "제품 Wiki",
     "apiReferences": "API 참조",
     "madeWith": {
-      "text": "제작됨",
+      "text": "만든 곳",
       "inCityOf": "도시에서"
     },
     "inCityOf": "에서",
     "description": {
-      "company": "수백만 명에게 즉시 도달. 수백만 개의 SMS, WhatsApp 메시지, 자동화된 전화 통화를 보내는 궁극적인 플랫폼. 파이프라인을 채우고, 수익을 늘리고, 비즈니스를 확장하십시오."
+      "company": "수백만 명에게 즉시 도달하십시오. 수백만 개의 SMS, WhatsApp 메시지 및 자동 전화 통화를 보내기 위한 최고의 플랫폼입니다. 파이프라인을 채우고 수익을 창출하며 비즈니스를 확장하십시오。"
     },
     "section": {
       "channels": "채널",
@@ -84,8 +84,8 @@
     "links": {
       "channels": {
         "smsOverview": "SMS 개요",
-        "smsLocal": "지역 번호 (10DLC)",
-        "smsTollFree": "수신자 부담 전화",
+        "smsLocal": "로컬 번호 (10DLC)",
+        "smsTollFree": "수신자 부담 번호",
         "smsShortCode": "단축 코드",
         "whatsapp": "WhatsApp Business Platform",
         "voice": "전화 음성"
@@ -94,37 +94,37 @@
         "leadGeneration": "리드 생성",
         "marketingAutomation": "마케팅 자동화",
         "customerEngagement": "고객 참여",
-        "appointmentReminders": "예약 알림",
+        "appointmentReminders": "약속 알림",
         "emergencyAlerts": "긴급 알림"
       },
       "industries": {
         "ecommerceRetail": "전자상거래 및 소매",
         "realEstate": "부동산",
         "politicalCampaigns": "정치 캠페인",
-        "healthcare": "헬스케어",
+        "healthcare": "의료",
         "financialServices": "금융 서비스"
       },
       "company": {
         "features": "기능",
         "pricing": "가격",
-        "productWiki": "제품 위키",
+        "productWiki": "제품 Wiki",
         "apiReferences": "API 참조",
         "careers": "채용"
       }
     },
     "stats": {
-      "messagesDaily": "매일 1천만 개 이상의 메시지 전송",
-      "activeUsers": "5만 명 이상의 활성 사용자",
+      "messagesDaily": "매일 1,000만 건 이상의 메시지",
+      "activeUsers": "50만 명 이상의 활성 사용자",
       "uptime": "99.9% 가동 시간"
     },
     "legal": {
       "privacyPolicy": "개인정보처리방침",
-      "termsOfService": "서비스 약관"
+      "termsOfService": "서비스 이용약관"
     },
     "contact": {
       "phone": "+1 (SMB)-AI-AGENT",
       "email": "info@seasalt.ai",
-      "location": "시애틀, WA"
+      "location": "워싱턴 주 시애틀"
     },
     "logo": {
       "alt": "SeaX"
@@ -138,17 +138,17 @@
   },
   "hero": {
     "title": {
-      "line1": "앱 전환을 멈추고",
-      "line2": "모든 고객을 통합하세요",
-      "line3": "전화, WhatsApp, 채팅을",
-      "line4": "하나의 간단한 받은 편지함으로."
+      "line1": "앱 저글링 중단",
+      "line2": "모든 고객 통합",
+      "line3": "통화, WhatsApp 및 채팅",
+      "line4": "하나의 간단한 받은 편지함에。"
     },
-    "titleWithGradient": "앱 전환을 멈추고, <1>모든 고객</1>의 전화, 문자, WhatsApp, 채팅을 하나의 간단한 받은 편지함으로 통합하세요.",
-    "description": "Seasalt.ai는 중소기업을 위해 구축된 올인원 컨택 센터입니다. 지원을 자동화하고, 모든 리드를 확보하고, 모든 대화를 하나의 화면에서 관리합니다.",
+    "titleWithGradient": "앱 저글링을 중단하세요. <1>모든 고객</1> 통화, 문자, WhatsApp 및 채팅을 하나의 간단한 받은 편지함에 통합하세요。",
+    "description": "Seasalt.ai는 중소기업을 위해 구축된 올인원 컨택 센터입니다. 지원을 자동화하고 모든 리드를 포착하며 단일 화면에서 모든 대화를 관리하세요。",
     "signUp": "가입하기",
     "seeDemo": "데모 예약",
     "trustedBy": "전 세계 성장하는 기업들이 신뢰합니다",
-    "developerMessage": "Seasalt.ai는 개발자에게 <1>도구 사용</1>을 위한 에이전트 기반 통신 도구를 제공합니다.",
+    "developerMessage": "Seasalt.ai는 개발자에게 다음과 같은 <1>도구 사용</1>을 위한 에이전트 통신 도구를 제공합니다：",
     "developerTools": {
       "phoneUse": "전화 사용",
       "messageUse": "메시지 사용",
@@ -165,34 +165,34 @@
   },
   "features": {
     "mainTitle": "중소기업을 위한 옴니채널 코파일럿 컨택 센터",
-    "mainDescription": "모든 채널에서 AI 자동화와 인간 전문 지식을 원활하게 결합합니다. 팀이 탁월한 서비스를 제공하고 성장을 촉진할 수 있도록 지원합니다.",
+    "mainDescription": "모든 채널에서 AI 자동화와 인간 전문 지식을 원활하게 결합합니다. 팀이 탁월한 서비스를 제공하고 성장을 주도할 수 있도록 지원합니다。",
     "omniChannel": {
       "title": "통합 옴니채널 받은 편지함",
-      "description": "리드를 놓치지 마세요. 모든 채널의 고객 상호 작용을 하나의 통합된 보기에서 확인하여 원활한 인간-AI 협업을 가능하게 하고 팀 시간을 주당 5시간 이상 절약합니다."
+      "description": "리드를 놓치지 마십시오. 모든 채널의 모든 고객 상호 작용을 하나의 통합된 보기에서 확인하여 원활한 인간-AI 협업을 가능하게 하고 팀의 주당 5시간 이상을 절약합니다。"
     },
     "aiVoicebot": {
-      "title": "AI 음성 봇 및 챗봇",
-      "description": "첫 번째 디지털 직원은 연중무휴 24시간 근무합니다. 일상적인 문의의 최대 80%를 자동화하고, 매일 5개 이상의 약속을 예약하고, 필요할 때 인간 상담원에게 원활하게 인계합니다."
+      "title": "AI 음성봇 및 챗봇",
+      "description": "첫 번째 디지털 직원은 24시간 연중무휴로 일합니다. 일상적인 문의의 최대 80%를 자동화하고 매일 5개 이상의 약속을 예약하며 필요할 때 인간 상담원에게 원활하게 전달합니다。"
     },
     "voiceWhatsapp": {
       "title": "네이티브 음성 및 WhatsApp 통합",
-      "description": "고객이 선호하는 채널에서 원활하게 서비스를 제공하십시오. 전화가 걸려올 때 WhatsApp 채팅 기록을 즉시 확인하십시오."
+      "description": "모든 고객에게 선호하는 채널에서 원활하게 서비스를 제공합니다. 그들이 전화할 때 WhatsApp 채팅 기록을 즉시 확인합니다。"
     },
     "outboundMarketing": {
       "title": "아웃바운드 마케팅 캠페인",
-      "description": "원활하고 폐쇄 루프 고객 여정을 만드십시오. 타겟 캠페인을 시작하고 동일한 플랫폼에서 모든 응답을 관리하십시오."
+      "description": "원활하고 폐쇄 루프적인 고객 여정을 만듭니다. 타겟 캠페인을 시작하고 동일한 플랫폼에서 모든 회신을 관리합니다。"
     },
     "enterpriseSecurity": {
       "title": "엔터프라이즈급 보안",
-      "description": "HIPAA 준수 솔루션 및 은행 수준 암호화. 고객 데이터는 항상 보호됩니다."
+      "description": "은행 수준의 암호화를 갖춘 HIPAA 준수 솔루션. 고객 데이터가 항상 보호된다는 것을 신뢰하십시오。"
     },
     "predictablePricing": {
       "title": "간단하고 예측 가능한 가격",
-      "description": "자신 있게 예산을 책정하십시오. 투명한 가격 책정으로 매달 얼마를 지불할지 정확히 알 수 있습니다."
+      "description": "자신 있게 예산을 책정하십시오. 투명한 가격 책정은 매달 지불할 금액을 정확히 알 수 있음을 의미합니다。"
     },
     "testimonial": {
-      "quote": "강력한 지식 기반 시스템과 옴니채널 지원을 위해 Seasalt.ai를 추천합니다!",
-      "author": "— 솔루션 아키텍트 검토"
+      "quote": "강력한 지식 기반 시스템과 옴니채널 지원으로 Seasalt.ai를 추천합니다！",
+      "author": "— 솔루션 아키텍트 리뷰"
     },
     "knowledgeBase": {
       "title": "지식 기반"
@@ -200,164 +200,164 @@
   },
   "howItWorks": {
     "title": "3가지 간단한 단계로 시작하기",
-    "description1": "몇 달이 아닌 몇 분 만에 고객 커뮤니케이션을 혁신하십시오.",
-    "description2": "복잡한 설정이나 기술 지식이 필요하지 않습니다.",
+    "description1": "몇 달이 아닌 몇 분 만에 고객 커뮤니케이션을 혁신하십시오。",
+    "description2": "복잡한 설정이나 기술 지식이 필요하지 않습니다。",
     "connectYourChannels": {
       "title": "채널 연결",
-      "description": "전화, WhatsApp, SMS, 웹사이트 채팅 및 소셜 미디어를 몇 분 안에 연결하십시오. 전문 지식이 필요하지 않습니다."
+      "description": "전화, WhatsApp, SMS, 웹사이트 채팅 및 소셜 미디어를 몇 분 만에 연결합니다. 기술 전문 지식이 필요하지 않습니다。"
     },
     "automateRoutineWork": {
-      "title": "일상적인 작업 자동화",
-      "description": "'내 주문은 어디에 있습니까?'와 같은 일반적인 질문을 처리하고 자동으로 약속을 예약하도록 AI를 설정하십시오."
+      "title": "일상 업무 자동화",
+      "description": "AI를 설정하여 \"내 주문은 어디에 있습니까?\"와 같은 일반적인 질문을 처리하고 약속을 자동으로 예약합니다。"
     },
     "unifyYourTeam": {
       "title": "팀 통합",
-      "description": "고객이 채팅에서 전화로 전환하더라도 팀은 전체 대화 기록을 볼 수 있습니다."
+      "description": "고객이 채팅에서 전화 통화로 전환할 때 팀은 전체 대화 기록을 볼 수 있습니다。"
     },
     "signUpNow": "지금 가입하기",
     "setupTime": "5분 이내 설정"
   },
   "useCases": {
-    "title": "모든 비즈니스 요구 사항을 위한 강력한 사용 사례",
-    "description": "컨택 센터에서 마케팅 캠페인에 이르기까지 Seasalt.ai가 엔터프라이즈급 기능을 갖춘 간단하고 통합된 플랫폼으로 특정 비즈니스 요구 사항에 어떻게 적응하는지 알아보십시오.",
+    "title": "모든 비즈니스 요구에 맞는 강력한 사용 사례",
+    "description": "컨택 센터에서 마케팅 캠페인에 이르기까지 Seasalt.ai가 간단하고 통합된 플랫폼에서 엔터프라이즈급 기능으로 특정 비즈니스 요구 사항에 어떻게 적응하는지 확인하십시오。",
     "keyFeatures": "주요 기능",
     "contactCenter": {
       "title": "컨택 센터 운영",
-      "headline": "완전한 통화 관리 기능을 갖춘 전문 컨택 센터",
-      "description": "엔터프라이즈급 기능으로 비즈니스를 전문 컨택 센터로 전환하십시오.",
+      "headline": "전체 통화 관리를 갖춘 전문 컨택 센터",
+      "description": "엔터프라이즈급 기능을 갖춘 전문 컨택 센터로 비즈니스를 혁신하십시오。",
       "features": {
         "ivr": "통화 라우팅을 위한 고급 IVR 시스템",
-        "recording": "자동 통화 녹음 및 전사",
-        "voicemail": "알림이 있는 지능형 음성 메일",
+        "recording": "자동 통화 녹음 및 스크립트 작성",
+        "voicemail": "알림 기능이 있는 지능형 음성 메일",
         "analytics": "실시간 통화 분석 및 보고",
         "dashboards": "상담원 성과 대시보드",
         "queueManagement": "통화 대기열 관리"
       }
     },
     "virtualReceptionist": {
-      "title": "연중무휴 24시간 가상 접수원",
-      "headline": "AI 기반 접수원으로 다시는 전화를 놓치지 마십시오",
-      "description": "인바운드 통화를 캡처하고 리드를 검증하기 위해 연중무휴 24시간 작동하는 지능형 음성 봇을 배포하십시오.",
+      "title": "24/7 가상 접수원",
+      "headline": "AI 기반 접수로 다시는 전화를 놓치지 마십시오",
+      "description": "24시간 내내 인바운드 통화를 포착하고 리드를 검증하는 지능형 음성봇을 배포하십시오。",
       "features": {
-        "aiVoicebot": "AI 음성 봇이 연중무휴 24시간 전화에 응답",
+        "aiVoicebot": "AI 음성봇이 24/7 통화에 응답합니다",
         "appointments": "약속 예약 및 일정 관리",
         "leadQualification": "리드 검증 및 라우팅",
-        "customGreeting": "맞춤형 인사말 및 응답",
-        "handoff": "인간 상담원에게 원활한 인계",
+        "customGreeting": "맞춤 인사말 및 응답",
+        "handoff": "인간 상담원에게 원활하게 전달",
         "multiLanguage": "다국어 지원"
       }
     },
     "smsManagement": {
       "title": "통합 SMS 관리",
-      "headline": "하나의 플랫폼에서 여러 전화 회선 및 양방향 SMS 관리",
-      "description": "모든 비즈니스 전화 회선과 SMS 통신을 하나의 강력한 플랫폼으로 통합하십시오.",
+      "headline": "하나의 플랫폼에서 여러 전화선 및 양방향 SMS 관리",
+      "description": "모든 비즈니스 전화선과 SMS 통신을 하나의 강력한 플랫폼으로 통합하십시오。",
       "features": {
-        "multipleLines": "하나의 대시보드에서 여러 전화 회선",
+        "multipleLines": "하나의 대시보드에 여러 전화선",
         "twoWaySms": "양방향 SMS 대화",
-        "unifiedHistory": "통합 SMS 및 통화 기록",
-        "teamCollaboration": "메시지에서 팀 협업",
+        "unifiedHistory": "통합된 SMS 및 통화 기록",
+        "teamCollaboration": "메시지에 대한 팀 협업",
         "automatedResponses": "자동 SMS 응답",
-        "numberSupport": "지역 및 수신자 부담 전화 지원"
+        "numberSupport": "로컬 및 수신자 부담 번호 지원"
       }
     },
     "smsMarketing": {
       "title": "SMS 마케팅 캠페인",
-      "headline": "10DLC 및 수신자 부담 전화로 강력한 A2P SMS 캠페인 시작",
-      "description": "높은 전달률과 규정 준수로 전문적인 SMS 마케팅 캠페인을 실행하십시오.",
+      "headline": "10DLC 및 수신자 부담으로 강력한 A2P SMS 캠페인 시작",
+      "description": "높은 전달률과 규정 준수를 갖춘 전문적인 SMS 마케팅 캠페인을 실행하십시오。",
       "features": {
         "tenDlc": "10DLC 등록 캠페인",
-        "tollFree": "수신자 부담 전화 및 단축 코드 지원",
-        "highVolume": "대량 메시지 전송",
+        "tollFree": "수신자 부담 및 단축 코드 지원",
+        "highVolume": "대량 메시지 전달",
         "analytics": "캠페인 성과 분석",
-        "compliance": "규정 준수 및 옵트아웃 관리",
+        "compliance": "규정 준수 및 수신 거부 관리",
         "dripCampaigns": "자동 드립 캠페인"
       }
     },
     "whatsappBusiness": {
-      "title": "WhatsApp Business 캠페인",
-      "headline": "WhatsApp Business Platform으로 전 세계 고객에게 도달",
-      "description": "공식 WhatsApp Business Platform을 사용하여 타겟 WhatsApp 캠페인을 시작하십시오.",
+      "title": "WhatsApp 비즈니스 캠페인",
+      "headline": "WhatsApp 비즈니스 플랫폼으로 글로벌 고객에게 도달",
+      "description": "공식 WhatsApp 비즈니스 플랫폼을 사용하여 타겟 WhatsApp 캠페인을 시작하십시오。",
       "features": {
-        "apiIntegration": "WhatsApp Business API 통합",
+        "apiIntegration": "WhatsApp 비즈니스 API 통합",
         "templateMessages": "템플릿 메시지 캠페인",
         "automatedChatbot": "자동 챗봇 응답",
         "richMedia": "리치 미디어 메시지 지원",
-        "globalReach": "전 세계 고객 도달",
+        "globalReach": "글로벌 고객 도달",
         "analytics": "대화 분석"
       }
     },
     "aiSupport": {
-      "title": "지능형 챗봇 및 음성 봇 AI 지원",
-      "headline": "연중무휴 24시간 AI 기반 고객 지원",
-      "description": "모든 통신 채널에 지능형 챗봇을 배포하여 연중무휴 24시간 고객 문의에 응답하십시오.",
+      "title": "지능형 챗봇 및 음성봇 AI 지원",
+      "headline": "잠들지 않는 AI 기반 고객 지원",
+      "description": "모든 통신 채널에 지능형 챗봇을 배포하여 24/7 고객 문의를 처리하십시오。",
       "features": {
-        "automated24x7": "연중무휴 24시간 자동 고객 지원",
+        "automated24x7": "24/7 자동 고객 지원",
         "multiChannel": "다중 채널 챗봇 배포",
-        "instantResponse": "일반적인 문의에 즉시 응답",
-        "humanHandoff": "인간 상담원에게 원활한 인계",
+        "instantResponse": "일반적인 질문에 대한 즉각적인 응답",
+        "humanHandoff": "원활한 인간 상담원 전달",
         "continuousLearning": "지속적인 학습 및 개선",
         "knowledgeBase": "맞춤형 지식 기반 통합"
       }
     },
     "cta": {
       "title": "비즈니스 커뮤니케이션을 혁신할 준비가 되셨습니까?",
-      "description": "비즈니스 요구 사항에 맞는 사용 사례를 선택하십시오. 무료 플랜으로 시작하고 성장함에 따라 확장하십시오.",
+      "description": "비즈니스 요구에 맞는 사용 사례를 선택하십시오. 무료 플랜으로 시작하여 성장함에 따라 확장하십시오。",
       "signUp": "가입하기",
       "bookDemo": "데모 예약"
     }
   },
   "phoneBanner": {
-    "callText": "전화 걸기",
+    "callText": "전화",
     "phoneNumber": "+1 (SMB)-AI-AGENT",
-    "bookingText": "SeaVoice AI 상담원과 회의를 예약하려면.",
-    "availability": "연중무휴 24시간 이용 가능"
+    "bookingText": "SeaVoice AI 에이전트와 회의를 예약하려면。",
+    "availability": "24/7 이용 가능"
   },
   "problemSolution": {
     "title": "앱과 받은 편지함의 미로에서 리드를 잃고 있습니까?",
-    "description": "고객은 모든 곳에서 귀하에게 연락하려고 합니다. 놓친 메시지는 놓친 판매 기회입니다. Seasalt.ai는 모든 커뮤니케이션을 한 곳으로 가져와 기회를 놓치지 않도록 합니다.",
+    "description": "고객은 어디에서나 당신에게 연락하려고 합니다. 놓친 메시지는 놓친 판매입니다. Seasalt.ai는 모든 커뮤니케이션을 한 곳으로 모아 기회를 놓치지 않도록 합니다。",
     "problems": {
       "fragmented": {
-        "title": "분열된 대화",
-        "description": "WhatsApp, 통화 기록 및 웹 채팅 사이를 오가는 것은 혼란을 야기하고 시간을 낭비합니다."
+        "title": "단편화된 대화",
+        "description": "WhatsApp, 전화 기록 및 웹 채팅 사이를 오가는 것은 혼란을 야기하고 시간을 낭비합니다。"
       },
       "lostRevenue": {
-        "title": "잃어버린 수익",
-        "description": "영업 시간 외 메시지를 놓치거나 응답이 지연되면 리드 손실 및 고객 불만으로 이어집니다."
+        "title": "수익 손실",
+        "description": "업무 시간 외에 놓친 메시지와 느린 응답은 리드 손실과 좌절한 고객을 의미합니다。"
       },
       "operational": {
         "title": "운영 과부하",
-        "description": "팀은 고객에게 집중하는 대신 너무 많은 도구를 관리하느라 바쁩니다."
+        "description": "팀은 고객에게 집중하는 대신 너무 많은 도구를 관리하느라 지쳐 있습니다。"
       }
     },
     "solution": {
       "title": "Seasalt.ai: 옴니채널 코파일럿 솔루션",
       "hubTitle": "통합 옴니채널 허브",
-      "subtitle": "AI 및 인간 상담원, 연중무휴 24시간",
+      "subtitle": "AI 및 인간 상담원, 24/7",
       "tabs": {
         "support": "지원",
         "marketing": "마케팅"
       },
       "features": {
         "marketing": {
-          "title": "마케팅 캠페인 코파일럿",
-          "description": "AI 기반 아웃바운드 캠페인 및 스마트 리드 육성으로 더 많은 고객을 확보하십시오."
+          "title": "마케팅 캠페인 공동 조종",
+          "description": "AI 기반 아웃바운드 캠페인과 스마트 리드 육성으로 더 많은 고객을 확보하십시오。"
         },
         "support": {
           "title": "고객 지원 자동 조종",
-          "description": "연중무휴 24시간 AI 상담원이 일상적인 문의를 처리하고 원활한 인간 인계를 통해 지원 비용을 절감합니다."
+          "description": "일상적인 질문을 처리하는 24/7 AI 상담원과 원활한 인간 전달로 지원 비용을 절감하십시오。"
         },
         "human": {
-          "title": "인간적인 접촉을 잃지 마십시오",
-          "description": "필요에 따라 인간 전용, AI 코파일럿 또는 완전 자동 조종의 자동화 수준을 선택하십시오."
+          "title": "인간적인 손길을 잃지 마십시오",
+          "description": "필요에 따라 자동화 수준을 선택하십시오: 인간 전용, AI 코파일럿 또는 완전 자동 조종。"
         }
       },
-      "cta": "이 문제를 해결하기 위해 Seasalt.ai 사용"
+      "cta": "이 문제를 해결하려면 Seasalt.ai를 사용하십시오"
     },
     "mockData": {
       "supportTickets": {
         "sarah": {
           "name": "Sarah Johnson",
-          "description": "주문 상태에 대한 전화",
+          "description": "주문 상태에 대한 전화 통화",
           "timeAgo": "2분 전"
         },
         "mike": {
@@ -379,7 +379,7 @@
       "campaigns": {
         "blackFriday": {
           "name": "블랙 프라이데이 캠페인",
-          "description": "SMS: 2,847개 전송 • 312개 응답",
+          "description": "SMS: 2,847건 발송 • 312건 회신",
           "result": "+47 리드"
         },
         "whatsappLaunch": {
@@ -389,22 +389,22 @@
         },
         "cartRecovery": {
           "name": "장바구니 복구",
-          "description": "이메일 + SMS: 156개 복구",
+          "description": "이메일 + SMS: 156건 복구",
           "result": "+2k"
         },
         "followUp": {
-          "name": "후속 통화 캠페인",
-          "description": "AI 음성 봇: 89개 통화 • 34개 약속",
+          "name": "후속 전화 캠페인",
+          "description": "AI 음성봇: 89건 통화 • 34건 약속",
           "result": "+34 약속"
         }
       }
     }
   },
   "supportPlan": {
-    "title": "지원 계획",
-    "priceNote": "*모든 가격은 미국 달러입니다.",
+    "title": "지원 플랜",
+    "priceNote": "*모든 가격은 미국 달러 기준입니다",
     "trial": {
-      "title": "평가판",
+      "title": "체험판",
       "price": "$0",
       "features": {
         "diy": "제품 위키로 DIY",
@@ -414,44 +414,44 @@
     },
     "launch": {
       "title": "출시",
-      "startsAt": "시작",
+      "startsAt": "시작 가격",
       "minPrice": "$500",
-      "upTo": "까지",
+      "upTo": "최대",
       "maxPrice": "$10,000",
-      "duration": "월 3개월",
-      "description": "출시 지원 계획을 통해 당사 팀은 다음 분야에서 전문적인 지침을 제공하기 위해 최선을 다하고 있습니다.",
+      "duration": "3개월 동안 월",
+      "description": "출시 지원 플랜을 통해 저희 팀은 다음 분야에서 전문적인 지침을 제공하기 위해 최선을 다하고 있습니다：",
       "features": {
         "meetings": {
-          "title": "무제한 1:1 회의:",
-          "description": "SeaChat 팀과의 개별 세션."
+          "title": "무제한 1:1 회의：",
+          "description": "SeaChat 팀과의 개인화된 세션。"
         },
         "promptTuning": {
-          "title": "프롬프트 튜닝:",
-          "description": "채팅 및 음성 애플리케이션 모두에 대한 사용자 정의."
+          "title": "프롬프트 튜닝：",
+          "description": "채팅 및 음성 애플리케이션 모두에 대한 사용자 정의。"
         },
         "guidance": {
-          "title": "디자인 및 기술 지침:",
-          "description": "디자인 및 기술 측면에 대한 전문가 조언."
+          "title": "설계 및 기술 지침：",
+          "description": "설계 및 기술 측면에 대한 전문가 조언。"
         },
         "launchSupport": {
-          "title": "AI 상담원 출시 지원:",
-          "description": "전체 출시 프로세스에 대한 포괄적인 지원."
+          "title": "AI 에이전트 출시 지원：",
+          "description": "출시 프로세스 전반에 걸친 포괄적인 지원。"
         },
         "marketStrategy": {
-          "title": "시장 진출 전략:",
-          "description": "시장 진출을 위한 전략적 계획."
+          "title": "시장 진출 전략：",
+          "description": "시장 진입을 위한 전략적 계획。"
         },
         "successfulLaunch": {
-          "title": "AI 상담원의 성공적인 출시:",
-          "description": "4-6주 이내에 성공적인 출시를 달성하십시오."
+          "title": "성공적인 AI 에이전트 출시：",
+          "description": "4-6주 이내에 성공적인 출시를 달성하십시오。"
         },
         "postLaunch": {
-          "title": "출시 후 반복 및 개선:",
-          "description": "사용량 및 피드백을 기반으로 지속적인 개선."
+          "title": "출시 후 반복 및 개선：",
+          "description": "사용 및 피드백을 기반으로 한 지속적인 향상。"
         },
         "operational": {
-          "title": "운영 안정성:",
-          "description": "AI 상담원의 장기 운영을 위한 표준 운영 절차를 수립합니다."
+          "title": "운영 안정성：",
+          "description": "AI 에이전트의 장기 운영을 위한 표준 운영 절차를 수립하십시오。"
         }
       }
     }
@@ -465,10 +465,10 @@
   },
   "industries": {
     "title": "모든 산업에 자신 있게 서비스 제공",
-    "description": "헬스케어에서 핀테크에 이르기까지 당사의 플랫폼은 전문적인 기능과 규정 준수 표준을 통해 귀하의 산업별 요구 사항에 적응합니다.",
+    "description": "의료에서 핀테크에 이르기까지 당사 플랫폼은 특화된 기능과 규정 준수 표준으로 업계의 고유한 요구 사항에 적응합니다。",
     "cta": {
-      "title": "산업을 혁신할 준비가 되셨습니까?",
-      "description": "특정 규제 및 운영 요구 사항을 충족하면서 탁월한 고객 경험을 제공하기 위해 Seasalt.ai를 신뢰하는 업계 리더에 참여하십시오.",
+      "title": "업계를 혁신할 준비가 되셨습니까?",
+      "description": "특정 규제 및 운영 요구 사항을 충족하면서 탁월한 고객 경험을 제공하기 위해 Seasalt.ai를 신뢰하는 업계 리더들과 함께하십시오。",
       "signUp": "가입하기",
       "bookDemo": "데모 예약"
     },
@@ -477,15 +477,15 @@
         "backToHome": "← 홈으로 돌아가기"
       },
       "hero": {
-        "title": "AI 솔루션 for",
+        "title": "AI 솔루션",
         "signUp": "무료로 시작하기",
         "seeDemo": "데모 보기",
-        "hipaaOffering": "다음도 사용 가능: HIPAA 준수"
+        "hipaaOffering": "또한 사용 가능: HIPAA 준수"
       },
       "seo": {
         "titleSuffix": "솔루션 - Seasalt.ai",
-        "descriptionPrefix": "Seasalt.ai가 어떻게 도움이 되는지 알아보십시오.",
-        "descriptionSuffix": "비즈니스가 고객 커뮤니케이션을 개선하고 성장을 촉진합니다."
+        "descriptionPrefix": "Seasalt.ai가 어떻게",
+        "descriptionSuffix": "기업이 고객 커뮤니케이션을 개선하고 성장을 주도하는 데 도움이 되는지 확인하십시오。"
       },
       "ui": {
         "seahealthAlt": "SeaHealth",
@@ -493,70 +493,71 @@
       },
       "benefits": {
         "title": "Seasalt.ai를 선택하는 이유",
-        "description": "당사의 AI 기반 플랫폼은 커뮤니케이션을 간소화하고 워크플로를 자동화합니다."
+        "description": "당사의 AI 기반 플랫폼은 커뮤니케이션을 간소화하고 워크플로를 자동화합니다。"
       },
       "useCases": {
         "title": "일반적인 사용 사례",
         "description": {
-          "start": "당사의 플랫폼이 어떻게 변화하는지 알아보십시오.",
-          "end": "지능형 자동화를 통한 운영"
+          "start": "당사 플랫폼이 어떻게",
+          "end": "지능형 자동화로 운영을 혁신하는지 알아보십시오"
         },
         "customerSupport": {
-          "title": "연중무휴 24시간 고객 지원",
-          "description": "모든 채널에서 고객 문의에 즉시 응답합니다."
+          "title": "24/7 고객 지원",
+          "description": "모든 채널에서 고객 문의에 즉각적인 응답 제공"
         },
         "leadGeneration": {
           "title": "리드 생성",
-          "description": "AI 기반 대화로 리드를 자동으로 확보하고 검증합니다."
+          "description": "AI 기반 대화로 리드를 자동으로 포착하고 검증"
         },
         "analytics": {
           "title": "분석 및 통찰력",
-          "description": "성과를 추적하고 고객 상호 작용에 대한 통찰력을 얻습니다."
+          "description": "성과를 추적하고 고객 상호 작용에 대한 통찰력 확보"
         },
-        "subtitle": "당사의 플랫폼이 교육 관리의 모든 측면을 어떻게 지원하는지 알아보십시오.",
+        "subtitle": "당사 플랫폼이 교육 관리의 모든 측면을 어떻게 지원하는지 알아보십시오",
         "case1": {
           "title": "학생 정보 시스템",
-          "description": "학생 기록, 성적 및 학업 진행 상황을 중앙 집중식으로 관리합니다."
+          "description": "학생 기록, 성적 및 학업 진행 상황 추적 중앙 집중화"
         },
-        "case2": "학습 관리",
-        "description": "과정을 제공하고, 진행 상황을 추적하고, 교육 콘텐츠를 관리합니다."
+        "case2": {
+          "title": "학습 관리",
+          "description": "과정 제공, 진행 상황 추적 및 교육 콘텐츠 관리"
         },
         "case3": {
           "title": "관리 도구",
-          "description": "등록, 일정 관리 및 기관 운영을 간소화합니다."
+          "description": "등록, 일정 관리 및 기관 운영 간소화"
         }
       },
       "testimonials": {
-        "title": "기업의 목소리",
-        "quote1": "Seasalt.ai는 고객 서비스 운영을 혁신했습니다. 응답 시간은 80% 단축되었고 만족도는 사상 최고치를 기록했습니다.",
+        "title": "기업들이 말합니다",
+        "quote1": "Seasalt.ai는 고객 서비스 운영을 혁신했습니다. 응답 시간은 80% 단축되었고 만족도는 사상 최고입니다。",
         "author1": "Sarah Chen",
         "company1": "고객 성공 관리자",
-        "quote2": "AI 자동화는 셀 수 없이 많은 시간을 절약해 주었습니다. 반복적인 작업을 관리하는 대신 비즈니스 성장에 집중할 수 있습니다.",
+        "quote2": "AI 자동화는 수많은 시간을 절약해 주었습니다. 반복적인 작업을 관리하는 대신 비즈니스 성장에 집중할 수 있습니다。",
         "author2": "Michael Rodriguez",
         "company2": "운영 이사",
-        "subtitle": "기관이 운영을 어떻게 변화시키고 있는지 알아보십시오.",
+        "subtitle": "기관들이 운영을 어떻게 혁신하고 있는지 확인하십시오",
         "testimonial1": {
-          "quote": "이 플랫폼은 우리 학교의 운영 방식을 혁신했습니다. 학생 데이터는 중앙 집중식으로 관리되고 접근 가능해졌습니다.",
-          "author": "Dr. Sarah Johnson",
+          "quote": "이 플랫폼은 학교 운영 방식을 혁신했습니다. 이제 학생 데이터가 중앙 집중화되고 액세스 가능합니다。",
+          "author": "Sarah Johnson 박사",
           "position": "링컨 초등학교 교장"
         },
         "testimonial2": {
-          "quote": "학습 관리 기능 덕분에 학생과 교사 모두에게 원격 학습 및 하이브리드 학습이 원활해졌습니다.",
-          "author": "Prof. Michael Chen",
-          "position": "주립 대학 기술 학부장"
+          "quote": "학습 관리 기능 덕분에 학생과 교직원 모두에게 원격 및 하이브리드 학습이 원활해졌습니다。",
+          "author": "Michael Chen 교수",
+          "position": "주립대학교 기술 학장"
         },
         "testimonial3": {
-          "quote": "우리의 관리 효율성은 극적으로 향상되었습니다. 등록부터 보고까지 모든 것이 간소화되었습니다.",
+          "quote": "관리 효율성이 크게 향상되었습니다. 등록에서 보고에 이르기까지 모든 것이 이제 간소화되었습니다。",
           "author": "Maria Rodriguez",
           "position": "커뮤니티 칼리지 지구 관리자"
         }
       },
       "cta": {
         "title": "비즈니스를 혁신할 준비가 되셨습니까?",
-        "description": "고객 커뮤니케이션을 효율적이고 안전하게 관리하기 위해 Seasalt.ai를 신뢰하는 수천 개의 비즈니스에 참여하십시오.",
+        "description": "고객 커뮤니케이션을 효율적이고 안전하게 관리하기 위해 Seasalt.ai를 신뢰하는 수천 개의 기업에 합류하십시오。",
         "signUp": "무료 평가판 시작",
         "scheduleDemo": "데모 예약",
-        "seahealthLink": "HIPAA 준수 헬스케어 솔루션 탐색",
+        "seahealthLink": "HIPAA 준수 의료 솔루션 살펴보기",
         "buttons": {
           "primary": "무료 평가판 시작",
           "secondary": "데모 예약",
@@ -570,31 +571,31 @@
   },
   "channels": {
     "title": "모든 고객 채널 연결",
-    "description": "모든 고객 커뮤니케이션을 하나의 플랫폼으로 통합하십시오. WhatsApp에서 전화, SMS에서 소셜 미디어에 이르기까지 모든 대화를 하나의 대시보드에서 관리하십시오.",
+    "description": "모든 고객 커뮤니케이션을 하나의 플랫폼으로 통합합니다. WhatsApp에서 전화 통화, SMS에서 소셜 미디어에 이르기까지 단일 대시보드에서 모든 대화를 관리합니다。",
     "whatsapp": {
-      "title": "WhatsApp Business",
+      "title": "WhatsApp 비즈니스",
       "description": "세계에서 가장 인기 있는 메시징 플랫폼에서 고객과 연결",
       "seo": {
-        "title": "WhatsApp Business 통합 - Seasalt.ai",
-        "description": "AI 기반 대화, 대량 캠페인 및 원활한 인간 상담원 지원을 위해 WhatsApp Business 계정을 Seasalt.ai에 연결하십시오. 전 세계 20억 명 이상의 사용자에게 도달하십시오."
+        "title": "WhatsApp 비즈니스 통합 - Seasalt.ai",
+        "description": "WhatsApp 비즈니스 계정을 Seasalt.ai에 연결하여 AI 기반 대화, 대량 캠페인 및 원활한 인간 상담원 지원을 받으십시오. 전 세계 20억 명 이상의 사용자에게 도달하십시오。"
       },
       "nav": {
         "backToChannels": "채널로 돌아가기"
       },
       "hero": {
         "title": {
-          "prefix": "WhatsApp을 귀하의",
+          "prefix": "WhatsApp을",
           "highlight": "비즈니스 명령 센터로 전환"
         },
-        "description": "AI 기반 대화, 대량 캠페인 및 원활한 인간 상담원 지원을 위해 WhatsApp Business 계정을 Seasalt.ai에 연결하십시오. 전 세계 20억 명 이상의 사용자에게 도달하십시오.",
+        "description": "WhatsApp 비즈니스 계정을 Seasalt.ai에 연결하여 AI 기반 대화, 대량 캠페인 및 원활한 인간 상담원 지원을 받으십시오. 전 세계 20억 명 이상의 사용자에게 도달하십시오。",
         "primaryCta": "10분 안에 WhatsApp 연결",
         "secondaryCta": "데모 보기",
-        "demoTitle": "WhatsApp Business",
+        "demoTitle": "WhatsApp 비즈니스",
         "demoMessages": {
-          "customer1": "고객: \"주문 번호 12345는 어디에 있습니까?"",
-          "bot1": "AI 봇: \"주문이 배송 중이며 오늘 오후 6시까지 도착할 예정입니다. 여기에서 추적하십시오: [링크]"",
-          "customer2": "고객: \"배송 주소를 변경할 수 있습니까?"",
-          "bot2": "AI 봇: \"물론입니다! 주소 변경을 위해 인간 상담원에게 연결해 드리겠습니다...""
+          "customer1": "고객: \"내 주문 #12345는 어디에 있습니까?",
+          "bot1": "AI 봇: \"주문하신 상품은 배송 중이며 오늘 오후 6시까지 도착할 예정입니다. 여기에서 추적하세요: [링크]",
+          "customer2": "고객: \"배송 주소를 변경할 수 있습니까?",
+          "bot2": "AI 봇: \"주소 변경을 위해 인간 상담원에게 연결해 드리겠습니다...\""
         }
       },
       "features": {
@@ -602,82 +603,82 @@
         "description": "WhatsApp을 강력한 비즈니스 커뮤니케이션 플랫폼으로 전환하는 데 필요한 모든 것",
         "aiResponses": {
           "title": "AI 기반 응답",
-          "description": "컨텍스트와 의도를 이해하는 자연어 처리 기능을 갖춘 자동 고객 서비스"
+          "description": "문맥과 의도를 이해하는 자연어 처리로 자동화된 고객 서비스"
         },
         "bulkCampaigns": {
           "title": "대량 캠페인 관리",
-          "description": "고급 타겟팅 및 일정 관리를 통해 수천 명의 연락처에 템플릿 메시지 전송"
+          "description": "고급 타겟팅 및 일정 관리로 수천 명의 연락처에게 템플릿 메시지 보내기"
         },
         "humanHandoff": {
-          "title": "인간 상담원 인계",
-          "description": "/live_agent 명령 및 전체 대화 기록을 통해 봇에서 라이브 상담원으로 원활하게 전환"
+          "title": "인간 상담원 전달",
+          "description": "/live_agent 명령과 전체 대화 기록으로 봇에서 라이브 상담원으로 원활하게 전환"
         },
         "metaIntegration": {
-          "title": "Meta Business 통합",
-          "description": "엔터프라이즈급 보안을 갖춘 WhatsApp Business Platform 기능에 대한 전체 액세스"
+          "title": "Meta 비즈니스 통합",
+          "description": "엔터프라이즈급 보안으로 WhatsApp 비즈니스 플랫폼 기능에 대한 전체 액세스"
         }
       },
       "setup": {
         "title": "설정 프로세스 시각화",
-        "description": "엔터프라이즈급 보안을 갖춘 WhatsApp Business 계정을 연결하기 위한 단계별 가이드",
+        "description": "엔터프라이즈급 보안으로 WhatsApp 비즈니스 계정을 연결하는 단계별 가이드",
         "steps": {
           "0": "Meta 개발자 계정 만들기",
-          "1": "WhatsApp Business API 설정",
-          "2": "Webhook 엔드포인트 구성",
+          "1": "WhatsApp 비즈니스 API 구성",
+          "2": "웹훅 엔드포인트 설정",
           "3": "액세스 토큰 생성",
-          "4": "메시지 전송 테스트",
+          "4": "메시지 전달 테스트",
           "5": "첫 번째 캠페인 시작"
         },
         "security": {
           "title": "엔터프라이즈급 보안",
-          "description": "WhatsApp 통합에는 종단 간 암호화, 보안 토큰 관리 및 Meta의 비즈니스 정책 준수가 포함됩니다. 모든 데이터는 은행 수준의 보안으로 보호됩니다."
+          "description": "WhatsApp 통합에는 종단 간 암호화, 보안 토큰 관리 및 Meta의 비즈니스 정책 준수가 포함됩니다. 모든 데이터는 은행 수준의 보안으로 보호됩니다。"
         }
       },
       "cta": {
         "title": "WhatsApp을 연결할 준비가 되셨습니까?",
-        "description": "더 나은 고객 서비스를 제공하고 더 많은 판매를 유도하기 위해 WhatsApp을 사용하는 수천 개의 비즈니스에 참여하십시오.",
+        "description": "WhatsApp을 사용하여 더 나은 고객 서비스를 제공하고 더 많은 매출을 올리는 수천 개의 기업에 합류하십시오。",
         "button": "통합 시작"
       }
     },
     "voice": {
       "title": "음성 및 전화 통화",
-      "description": "AI 음성 봇 및 인간 상담원 지원을 갖춘 전문 전화 시스템"
+      "description": "AI 음성봇 및 인간 상담원 지원을 갖춘 전문 전화 시스템"
     },
     "sms": {
       "title": "SMS 메시징",
       "description": "개인화된 SMS 캠페인으로 고객에게 즉시 도달",
       "seo": {
         "title": "SMS 마케팅 플랫폼 - Seasalt.ai",
-        "description": "개인화된 SMS 캠페인 및 자동 응답으로 고객에게 즉시 도달하십시오. 98%의 개방률과 200개 이상의 국가로 전 세계 배송. 지금 SMS 마케팅을 시작하십시오."
+        "description": "개인화된 SMS 캠페인과 자동 응답으로 고객에게 즉시 도달하십시오. 98%의 개봉률과 200개 이상의 국가에 대한 글로벌 전달. 오늘 SMS 마케팅을 시작하십시오。"
       },
       "nav": {
         "backToChannels": "채널로 돌아가기"
       },
       "hero": {
-        "title": "SMS 마케팅이",
-        "description": "개인화된 SMS 캠페인 및 자동 응답으로 고객에게 즉시 도달하십시오. 98%의 개방률과 200개 이상의 국가로 전 세계 배송.",
+        "title": "실제로 전환되는 SMS 마케팅",
+        "description": "개인화된 SMS 캠페인과 자동 응답으로 고객에게 즉시 도달하십시오. 98%의 개봉률과 200개 이상의 국가에 대한 글로벌 전달。",
         "primaryCta": "SMS 캠페인 시작",
         "secondaryCta": "데모 보기",
         "campaign": {
           "title": "SMS 캠페인",
           "flashSale": {
             "title": "📱 캠페인: 플래시 세일",
-            "sent": "2,847개 메시지 전송"
+            "sent": "2,847개 메시지 발송"
           },
           "delivered": {
-            "title": "✅ 배송됨: 2,834개",
-            "rate": "99.5% 배송률"
+            "title": "✅ 전달됨: 2,834",
+            "rate": "99.5% 전달률"
           },
           "replies": {
-            "title": "💬 답장: 312개",
+            "title": "💬 회신: 312",
             "rate": "11% 응답률"
           },
           "conversions": {
-            "title": "🛒 전환: 47개",
+            "title": "🛒 전환: 47",
             "revenue": "$12,400 수익"
           }
         },
-        "titleHighlight": "실제로 전환됩니다",
+        "titleHighlight": "실제로 전환되는",
         "cta": {
           "primary": "SMS 캠페인 시작",
           "secondary": "데모 보기"
@@ -685,57 +686,57 @@
         "dashboard": {
           "title": "SMS 캠페인",
           "campaign": "📱 캠페인: 플래시 세일",
-          "campaignSent": "2,847개 메시지 전송",
-          "delivered": "✅ 배송됨: 2,834개",
-          "deliveryRate": "99.5% 배송률",
-          "replies": "💬 답장: 312개",
+          "campaignSent": "2,847개 메시지 발송",
+          "delivered": "✅ 전달됨: 2,834",
+          "deliveryRate": "99.5% 전달률",
+          "replies": "💬 회신: 312",
           "responseRate": "11% 응답률",
-          "conversions": "🛒 전환: 47개",
+          "conversions": "🛒 전환: 47",
           "revenue": "$12,400 수익"
         }
       },
       "features": {
-        "title": "규정 준수 및 배송",
-        "description": "전 세계적인 도달 범위와 자동 규정 준수 관리를 갖춘 엔터프라이즈급 SMS 플랫폼",
+        "title": "규정 준수 및 전달",
+        "description": "글로벌 도달 범위와 자동 규정 준수 관리를 갖춘 엔터프라이즈급 SMS 플랫폼",
         "globalReach": {
-          "title": "전 세계 도달 범위",
-          "description": "지역 번호 지원 및 통신사 최적화를 통해 200개 이상의 국가로 SMS 배송"
+          "title": "글로벌 도달 범위",
+          "description": "로컬 번호 지원 및 통신사 최적화로 200개 이상의 국가에 SMS 전달"
         },
         "compliance": {
           "title": "규정 준수 도구",
-          "description": "자동 옵트아웃 관리를 갖춘 TCPA 및 GDPR 준수 기능"
+          "description": "자동 수신 거부 관리를 갖춘 TCPA 및 GDPR 규정 준수 기능"
         },
         "analytics": {
-          "title": "배송 분석",
-          "description": "실시간 배송 추적, 응답률 및 캠페인 성과 지표"
+          "title": "전달 분석",
+          "description": "실시간 전달 추적, 응답률 및 캠페인 성과 지표"
         },
         "scheduling": {
-          "title": "스마트 일정 관리",
-          "description": "수신자 행동을 기반으로 최적의 타이밍으로 시간대 인식 전송"
+          "title": "스마트 스케줄링",
+          "description": "수신자 행동에 기반한 최적의 타이밍으로 시간대 인식 전송"
         }
       },
       "useCases": {
         "title": "입증된 사용 사례",
-        "description": "비즈니스가 참여 및 수익을 유도하기 위해 SMS를 사용하는 방법 알아보기",
+        "description": "기업이 SMS를 사용하여 참여와 수익을 창출하는 방법을 확인하십시오",
         "marketing": {
           "title": "마케팅 캠페인",
-          "description": "높은 개방률을 가진 프로모션 메시지",
-          "stats": "98% 개방률"
+          "description": "높은 개봉률의 프로모션 메시지",
+          "stats": "98% 개봉률"
         },
         "appointments": {
-          "title": "예약 알림",
+          "title": "약속 알림",
           "description": "자동 알림으로 노쇼 감소",
           "stats": "노쇼 25% 감소"
         },
         "orders": {
-          "title": "주문 상태 업데이트",
-          "description": "고객에게 주문 상태 알림",
+          "title": "주문 업데이트",
+          "description": "고객에게 주문에 대한 정보 제공",
           "stats": "90% 만족도"
         },
         "support": {
           "title": "고객 지원",
           "description": "빠른 지원을 위한 양방향 대화",
-          "stats": "해결 시간 5배 단축"
+          "stats": "5배 빠른 해결"
         }
       },
       "builder": {
@@ -743,7 +744,7 @@
         "description": "드래그 앤 드롭 자동화 및 스마트 타겟팅으로 정교한 SMS 캠페인 만들기",
         "segmentation": {
           "title": "스마트 세분화",
-          "description": "행동, 위치 및 선호도를 기반으로 고객 타겟팅"
+          "description": "행동, 위치 및 선호도에 따라 고객 타겟팅"
         },
         "timing": {
           "title": "완벽한 타이밍",
@@ -751,12 +752,12 @@
         },
         "analytics": {
           "title": "실시간 분석",
-          "description": "실시간으로 배송, 개방, 클릭 및 전환 추적"
+          "description": "실시간으로 전달, 개봉, 클릭 및 전환 추적"
         }
       },
       "cta": {
         "title": "SMS 캠페인을 시작할 준비가 되셨습니까?",
-        "description": "더 높은 참여와 수익을 유도하기 위해 SMS를 사용하는 수천 개의 비즈니스에 참여하십시오. 무료 평가판으로 시작하십시오.",
+        "description": "SMS를 사용하여 더 높은 참여와 수익을 창출하는 수천 개의 기업에 합류하십시오. 무료 평가판으로 시작하십시오。",
         "button": "가입하기"
       },
       "backToChannels": "채널로 돌아가기"
@@ -766,45 +767,45 @@
       "description": "AI 기반 채팅으로 웹사이트 방문자를 대화로 전환"
     },
     "cta": {
-      "exploreAll": "모든 채널 탐색",
-      "subtitle": "9개 채널이 모두 원활하게 작동하는 방법 알아보기"
+      "exploreAll": "모든 채널 살펴보기",
+      "subtitle": "9개 채널 모두가 어떻게 원활하게 함께 작동하는지 확인하십시오"
     },
     "phoneCalls": {
       "seo": {
         "title": "전문 전화 시스템 - Seasalt.ai",
-        "description": "Twilio Gold Partnership 및 AI 음성 자동화로 구동되는 인바운드 및 아웃바운드 통화용 클라우드 기반 다이얼패드로 상담원에게 권한을 부여하십시오. 비즈니스 커뮤니케이션을 확장하십시오."
+        "description": "Twilio Gold 파트너십 및 AI 음성 자동화로 구동되는 인바운드 및 아웃바운드 통화를 위한 클라우드 기반 다이얼패드로 상담원을 지원하십시오. 비즈니스 커뮤니케이션을 확장하십시오。"
       },
       "nav": {
         "backToChannels": "채널로 돌아가기"
       },
       "hero": {
         "title": {
-          "prefix": "전문 전화 시스템이",
-          "highlight": "비즈니스와 함께 성장합니다"
+          "prefix": "비즈니스와 함께 확장되는 전문 전화 시스템",
+          "highlight": ""
         },
-        "description": "Twilio Gold Partnership 및 AI 음성 자동화로 구동되는 인바운드 및 아웃바운드 통화용 클라우드 기반 다이얼패드로 상담원에게 권한을 부여하십시오.",
-        "primaryCta": "지금 전화 걸기",
+        "description": "Twilio Gold 파트너십 및 AI 음성 자동화로 구동되는 인바운드 및 아웃바운드 통화를 위한 클라우드 기반 다이얼패드로 상담원을 지원하십시오。",
+        "primaryCta": "오늘 통화 시작",
         "secondaryCta": "데모 보기",
         "dialpad": {
           "title": "상담원 다이얼패드",
-          "callButton": "전화 걸기",
+          "callButton": "통화",
           "endCallButton": "통화 종료"
         }
       },
       "features": {
         "title": "주요 기능",
-        "description": "전문적인 전화 통신을 위해 팀에 필요한 모든 것",
+        "description": "팀이 전문적인 전화 통신에 필요한 모든 것",
         "humanDialpad": {
           "title": "인간 상담원 다이얼패드",
-          "description": "연락처 관리 기능을 갖춘 완전한 기능을 갖춘 클라우드 다이얼패드로 전화를 걸고 받을 수 있습니다."
+          "description": "연락처 관리 기능이 있는 통화 발신 및 수신을 위한 모든 기능을 갖춘 클라우드 다이얼패드"
         },
         "aiVoiceBot": {
           "title": "AI 음성 봇 통합",
-          "description": "필요할 때 인간 상담원에게 원활하게 인계되는 자동 통화 처리"
+          "description": "필요할 때 인간 상담원에게 자연스럽게 전달되는 자동 통화 처리"
         },
         "multiAgent": {
           "title": "다중 상담원 지원",
-          "description": "사용 가능한 상담원에게 자동으로 통화를 라운드 로빈 방식으로 분배"
+          "description": "라운드 로빈 시스템이 사용 가능한 상담원에게 자동으로 통화를 분배합니다"
         },
         "analytics": {
           "title": "통화 분석",
@@ -812,20 +813,20 @@
         }
       },
       "partnership": {
-        "title": "Twilio 파트너십의 이점",
-        "description": "세계에서 가장 신뢰할 수 있는 통신 플랫폼 위에 구축",
+        "title": "Twilio 파트너십 혜택",
+        "description": "세계에서 가장 신뢰받는 통신 플랫폼 위에 구축",
         "goldPartner": {
           "title": "골드 파트너 상태",
-          "benefit1": "Twilio Flex에 대한 직접 액세스 권한을 가진 골드 파트너 상태",
-          "benefit2": "입증된 인프라를 통한 엔터프라이즈급 안정성",
-          "benefit3": "전 세계 도달 범위 - 200개 이상의 국가에서 통화 가능",
-          "benefit4": "빠른 배포 - 10일 이내에 상담원이 통화 가능"
+          "benefit1": "직접 Twilio Flex 액세스가 가능한 골드 파트너 상태",
+          "benefit2": "입증된 인프라에 대한 엔터프라이즈급 안정성",
+          "benefit3": "글로벌 도달 범위 - 200개 이상의 국가에서 통화",
+          "benefit4": "신속한 배포 - 10일 이내에 상담원 통화"
         },
         "global": {
           "title": "글로벌 기능",
           "countries": {
             "title": "200개 이상의 국가",
-            "description": "전 세계에서 전화를 걸고 받을 수 있습니다."
+            "description": "전 세계에서 전화 걸고 받기"
           },
           "uptime": {
             "title": "99.95% 가동 시간",
@@ -833,16 +834,16 @@
           },
           "setup": {
             "title": "10일 설정",
-            "description": "팀을 위한 빠른 배포"
+            "description": "팀을 위한 신속한 배포"
           }
         }
       },
       "useCases": {
         "title": "사용 사례",
-        "description": "다양한 팀이 당사의 전화 시스템을 사용하여 결과를 얻는 방법 알아보기",
+        "description": "다양한 팀이 전화 시스템을 사용하여 결과를 도출하는 방법을 확인하십시오",
         "sales": {
-          "title": "영업 팀",
-          "description": "자동 다이얼러 효율성을 통한 아웃바운드 잠재 고객 발굴"
+          "title": "영업팀",
+          "description": "자동 다이얼러 효율성을 갖춘 아웃바운드 잠재 고객 발굴"
         },
         "support": {
           "title": "고객 지원",
@@ -850,16 +851,16 @@
         },
         "appointments": {
           "title": "약속 설정",
-          "description": "인간 확인을 통한 자동 통화"
+          "description": "인간 확인 기능이 있는 자동 통화"
         },
         "followup": {
           "title": "후속 캠페인",
-          "description": "개인화된 상담원 대화를 통한 대량 통화"
+          "description": "개인화된 상담원 대화가 포함된 대량 통화"
         }
       },
       "cta": {
         "title": "전화 시스템을 업그레이드할 준비가 되셨습니까?",
-        "description": "엔터프라이즈급 안정성과 AI 기반 자동화를 통해 10일 이내에 팀이 전화를 걸기 시작할 수 있습니다.",
+        "description": "엔터프라이즈급 안정성과 AI 기반 자동화로 10일 이내에 팀이 통화할 수 있도록 하십시오。",
         "button": "설정 시작"
       }
     },
@@ -867,94 +868,125 @@
       "navigation": {
         "backToChannels": "채널로 돌아가기"
       },
+      "seo": {
+        "title": "웹사이트 위젯 - 옴니채널 솔루션",
+        "description": "WordPress, Shopify, Squarespace, Wix, MailerLite 및 모든 웹사이트에 옴니채널 위젯을 배포하십시오. 통합된 채팅, 음성 및 메시징으로 고객에게 선택권을 제공하십시오。"
+      },
       "hero": {
-        "title": {
-          "prefix": "웹사이트 방문자를",
-          "highlight": "대화로 전환"
-        },
-        "description": "5분 이내에 강력한 AI 채팅 위젯을 웹사이트에 추가하십시오. 리드를 확보하고, 즉시 지원을 제공하고, 기회를 놓치지 마십시오.",
+        "title": "하나의 위젯,",
+        "titleHighlight": "모든 플랫폼",
+        "subtitle": "WordPress, Shopify, Squarespace, Wix, MailerLite 및 모든 웹사이트에 옴니채널 위젯을 배포하십시오. 통합된 채팅, 음성 및 메시징으로 고객에게 선택권을 제공하십시오。",
         "cta": {
-          "primary": "무료 위젯 받기",
-          "secondary": "데모 예약"
+          "deploy": "지금 위젯 배포",
+          "demo": "데모 예약"
         },
         "widget": {
-          "title": "웹사이트 채팅 위젯",
-          "welcome": {
-            "greeting": "👋 환영합니다!",
-            "question": "오늘 어떻게 도와드릴까요?"
+          "title": "범용 위젯",
+          "chat": {
+            "label": "💬 채팅",
+            "description": "인스턴트 메시징 지원"
           },
-          "visitor": {
-            "message": "방문자: \"무료 배송입니까?""
+          "voice": {
+            "label": "📞 음성",
+            "description": "원클릭 음성 통화"
           },
-          "ai": {
-            "response": "AI: \"네! $50 이상 주문 시 무료 배송입니다. 현재 프로모션을 보시겠습니까?""
+          "whatsapp": {
+            "label": "📱 WhatsApp",
+            "description": "직접 WhatsApp 연결"
           },
-          "button": {
-            "yes": "네, 보여주세요",
-            "no": "아니요, 괜찮습니다"
+          "email": {
+            "label": "📧 이메일",
+            "description": "문의 양식 통합"
           }
-        }
-      },
-      "features": {
-        "title": "주요 기능",
-        "description": "웹사이트 방문자를 참여시키고 고객으로 전환하는 데 필요한 모든 것",
-        "noCodeSetup": {
-          "title": "코드 없는 설정",
-          "description": "기술 지식 없이 5분 이내에 모든 웹사이트에 추가"
-        },
-        "customBranding": {
-          "title": "맞춤형 브랜딩",
-          "description": "맞춤형 색상, 글꼴 및 메시징 스타일로 브랜드와 일치"
-        },
-        "leadCapture": {
-          "title": "리드 캡처",
-          "description": "방문자 정보를 자동으로 수집하고 실시간으로 리드를 검증"
-        },
-        "instantResponses": {
-          "title": "즉시 응답",
-          "description": "AI 기반 응답으로 웹사이트 방문자에게 연중무휴 24시간 즉시 지원 제공"
         }
       },
       "platforms": {
         "title": "모든 플랫폼에서 작동",
-        "subtitle": "모든 주요 웹사이트 빌더 및 플랫폼과 원활하게 통합"
-      },
-      "customization": {
-        "title": "맞춤형 쇼케이스",
-        "subtitle": "풍부한 맞춤형 옵션으로 위젯을 완전히 자신만의 것으로 만드십시오",
-        "positionSize": {
-          "title": "위치 및 크기",
-          "description": "모서리 배치, 크기 및 표시 설정을 선택하십시오."
+        "subtitle": "사용하는 플랫폼에 관계없이 위젯이 기존 웹사이트와 원활하게 통합됩니다",
+        "wordpress": {
+          "name": "WordPress",
+          "description": "WordPress 사이트용 간편한 플러그인 설치"
         },
-        "colorsFonts": {
-          "title": "색상 및 글꼴",
-          "description": "브랜드 색상 및 타이포그래피와 완벽하게 일치"
+        "shopify": {
+          "name": "Shopify",
+          "description": "Shopify 스토어와의 기본 통합"
         },
-        "welcomeMessages": {
-          "title": "환영 메시지",
-          "description": "인사말 메시지 및 대화 시작을 사용자 정의하십시오."
+        "squarespace": {
+          "name": "Squarespace",
+          "description": "Squarespace 사이트용 간단한 포함 코드"
         },
-        "triggerRules": {
-          "title": "트리거 규칙",
-          "description": "위젯이 방문자에게 언제 어디에 표시되는지 설정하십시오."
+        "wix": {
+          "name": "Wix",
+          "description": "Wix 웹사이트용 드래그 앤 드롭 위젯"
         },
-        "realTimePreview": {
-          "title": "실시간 미리보기",
-          "description": "라이브 미리보기 기능으로 변경 사항을 즉시 확인하십시오. 색상, 배치 및 메시지를 사용자 정의하면서 웹사이트에 어떻게 표시되는지 정확히 확인하십시오."
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "MailerLite 랜딩 페이지와의 직접 통합"
+        },
+        "custom": {
+          "name": "맞춤 HTML",
+          "description": "모든 웹사이트용 범용 포함 코드"
         }
       },
-      "analytics": {
-        "title": "강력한 분석",
-        "description": "자세한 분석으로 방문자 참여, 전환율 및 채팅 성과 추적",
-        "conversations": "대화",
-        "conversionRate": "전환율",
-        "responseTime": "응답 시간",
-        "satisfaction": "만족도"
+      "features": {
+        "title": "고급 기능",
+        "subtitle": "단순한 채팅 위젯 이상 - 완벽한 고객 참여 플랫폼",
+        "design": {
+          "title": "사용자 정의 가능한 디자인",
+          "description": "맞춤 색상, 글꼴 및 위치 지정 옵션으로 브랜드와 일치"
+        },
+        "mobile": {
+          "title": "모바일 반응형",
+          "description": "모든 장치 및 화면 크기에서 완벽한 경험"
+        },
+        "nocode": {
+          "title": "코드 없는 설정",
+          "description": "기술 지식 없이 5분 이내에 모든 웹사이트에 추가"
+        },
+        "analytics": {
+          "title": "고급 분석",
+          "description": "방문자 참여, 전환율 및 채팅 성과 추적"
+        }
+      },
+      "styles": {
+        "title": "스타일 선택",
+        "subtitle": "웹사이트 디자인 및 사용자 경험 목표에 맞는 여러 위젯 스타일",
+        "chatBubble": {
+          "name": "채팅 풍선",
+          "description": "하단 모서리에 있는 클래식 플로팅 채팅 풍선"
+        },
+        "slidePanel": {
+          "name": "슬라이드인 패널",
+          "description": "측면에서 우아하게 슬라이드인하는 패널"
+        },
+        "embeddedForm": {
+          "name": "포함된 양식",
+          "description": "페이지 콘텐츠 내의 인라인 문의 양식"
+        },
+        "fullModal": {
+          "name": "전체 화면 모달",
+          "description": "시선을 사로잡는 전체 화면 오버레이"
+        }
+      },
+      "benefits": {
+        "title": "위젯을 선택하는 이유",
+        "switching": {
+          "title": "채널 전환",
+          "description": "문맥을 잃지 않고 채팅, 음성 및 메시징 간의 원활한 전환"
+        },
+        "queue": {
+          "title": "대기열 관리",
+          "description": "상담원 가용성 및 고객 우선 순위에 기반한 지능형 라우팅"
+        },
+        "global": {
+          "title": "글로벌 지원",
+          "description": "국제 고객을 위한 다국어 지원 및 시간대 인식 라우팅"
+        }
       },
       "cta": {
-        "title": "웹사이트에 채팅을 추가할 준비가 되셨습니까?",
-        "description": "몇 분 안에 맞춤형 채팅 위젯을 받으십시오. 코딩이 필요 없고 완전히 사용자 정의할 수 있습니다.",
-        "button": "위젯 코드 받기"
+        "title": "위젯을 배포할 준비가 되셨습니까?",
+        "subtitle": "5분 이내에 웹사이트에 강력한 옴니채널 통신을 추가하십시오. 코딩이 필요하지 않습니다。",
+        "getWidget": "위젯 코드 받기"
       }
     },
     "instagram": {
@@ -963,10 +995,10 @@
       },
       "hero": {
         "title": {
-          "prefix": "귀하의",
-          "highlight": "Instagram 고객 서비스를 확장하십시오"
+          "prefix": "Instagram 고객 서비스 확장",
+          "highlight": ""
         },
-        "subtitle": "개인적인 접촉을 유지하면서 AI 자동화로 수천 개의 Instagram DM을 처리하십시오. 브랜드, 인플루언서 및 커뮤니티를 구축하는 비즈니스에 적합합니다.",
+        "subtitle": "개인적인 손길을 유지하면서 AI 자동화로 수천 개의 Instagram DM을 처리합니다. 커뮤니티를 구축하는 브랜드, 인플루언서 및 비즈니스에 적합합니다。",
         "cta": {
           "primary": "Instagram DM 자동화",
           "secondary": "데모 보기"
@@ -975,32 +1007,32 @@
           "title": "Instagram DM",
           "user1": {
             "handle": "@sarah_style",
-            "message": "이 드레스가 마음에 듭니다! 어떤 사이즈가 있습니까?"
+            "message": "이 드레스 너무 예뻐요! 어떤 사이즈가 있나요?"
           },
           "ai1": {
-            "response": "AI: \"안녕하세요, Sarah! 😍 이 드레스는 XS-XL 사이즈로 제공됩니다. 귀하의 사이즈 재고를 확인해 드릴까요?""
+            "response": "AI: \"안녕하세요, 사라님! 😍 그 드레스는 XS-XL 사이즈로 구매 가능합니다. 원하시는 사이즈의 재고를 확인해 드릴까요?"
           },
           "user2": {
             "handle": "@mike_fitness",
-            "message": "주문 도와주실 수 있습니까?"
+            "message": "주문 관련해서 도와주실 수 있나요?"
           },
           "ai2": {
-            "response": "AI: \"물론입니다! 지원팀에 연결해 드리겠습니다...""
+            "response": "AI: \"물론이죠! 지원팀에 연결해 드리겠습니다...\""
           }
         }
       },
       "visualFirst": {
-        "title": "시각적 우선 접근 방식",
-        "subtitle": "Instagram은 시각적인 모든 것입니다. 당사의 AI는 이미지를 이해하고 상황에 맞는 응답을 제공합니다."
+        "title": "비주얼 우선 접근 방식",
+        "subtitle": "Instagram은 비주얼이 전부입니다. 당사의 AI는 이미지를 이해하고 상황에 맞는 응답을 제공합니다"
       },
       "features": {
         "imageRecognition": {
           "title": "이미지 인식",
-          "description": "지능형 응답 및 추천을 위한 DM 내 제품 이미지의 AI 이해"
+          "description": "지능적인 응답 및 추천을 위한 DM의 제품 이미지에 대한 AI 이해"
         },
         "storyIntegration": {
           "title": "스토리 통합",
-          "description": "청중의 스토리 상호 작용, 설문 조사 및 질문에 자동 응답"
+          "description": "스토리 상호 작용, 설문 조사 및 청중의 질문에 대한 자동 응답"
         },
         "influencerSupport": {
           "title": "인플루언서 지원",
@@ -1008,12 +1040,12 @@
         },
         "smartAutomation": {
           "title": "스마트 자동화",
-          "description": "브랜드의 톤과 개성을 유지하는 AI 기반 응답"
+          "description": "브랜드 목소리와 개성을 유지하는 AI 기반 응답"
         }
       },
       "useCases": {
         "title": "모든 Instagram 비즈니스에 적합",
-        "subtitle": "중소기업에서 주요 인플루언서에 이르기까지 Instagram 자동화가 어떻게 결과를 도출하는지 알아보십시오.",
+        "subtitle": "소규모 비즈니스에서 주요 인플루언서에 이르기까지 Instagram 자동화가 어떻게 결과를 이끌어내는지 확인하십시오",
         "ecommerce": {
           "title": "전자상거래 브랜드",
           "description": "제품 문의 및 주문 지원",
@@ -1022,12 +1054,12 @@
         "influencers": {
           "title": "인플루언서",
           "description": "팬 참여 및 협업 요청",
-          "metric": "대화 10배 증가"
+          "metric": "10배 더 많은 대화"
         },
         "localBusiness": {
           "title": "지역 비즈니스",
           "description": "약속 예약 및 고객 서비스",
-          "metric": "예약 60% 증가"
+          "metric": "60% 더 많은 예약"
         },
         "contentCreators": {
           "title": "콘텐츠 제작자",
@@ -1040,7 +1072,7 @@
         "subtitle": "전문적인 고객 서비스를 위한 Instagram 비즈니스 계정과의 완벽한 통합",
         "analyticsIntegration": {
           "title": "분석 통합",
-          "description": "완전한 성과 추적을 위한 Instagram 인사이트와의 통합"
+          "description": "완벽한 성과 추적을 위해 Instagram Insights와 연결"
         },
         "audienceInsights": {
           "title": "청중 통찰력",
@@ -1052,8 +1084,8 @@
         }
       },
       "cta": {
-        "title": "Instagram 존재감을 확장할 준비가 되셨습니까?",
-        "subtitle": "더 나은 고객 서비스를 제공하고 Instagram에서 더 강력한 커뮤니티를 구축하기 위해 AI를 사용하는 수천 개의 브랜드 및 인플루언서에 참여하십시오.",
+        "title": "Instagram 인지도를 높일 준비가 되셨습니까?",
+        "subtitle": "AI를 사용하여 더 나은 고객 서비스를 제공하고 Instagram에서 더 강력한 커뮤니티를 구축하는 수천 개의 브랜드 및 인플루언서에 합류하십시오。",
         "primary": "자동화 시작",
         "secondary": "데모 보기"
       }
@@ -1063,73 +1095,73 @@
         "backToChannels": "채널로 돌아가기"
       },
       "hero": {
-        "title": "Facebook Messenger를",
+        "title": "Facebook 메신저를",
         "titleHighlight": "판매 기계로 전환",
-        "subtitle": "AI 기반 대화로 Facebook 청중을 참여시키고 팔로워를 고객으로 전환하십시오. 원활한 소셜 커머스를 위해 Facebook Shop과 통합하십시오.",
+        "subtitle": "팔로워를 고객으로 전환하는 AI 기반 대화로 Facebook 잠재고객을 참여시키십시오. 원활한 소셜 커머스를 위해 Facebook Shop과 통합하십시오。",
         "cta": {
-          "primary": "지금 Messenger 연결",
+          "primary": "지금 메신저 연결",
           "secondary": "데모 보기"
         },
         "demo": {
-          "title": "Facebook Messenger",
-          "customerQuery": "고객: \"M 사이즈가 있습니까?"",
-          "aiResponse1": "AI: \"네! M 사이즈 재고가 있습니다. 현재 가격과 제품 링크는 다음과 같습니다 👇"",
+          "title": "Facebook 메신저",
+          "customerQuery": "고객: \"이거 M 사이즈 있나요?",
+          "aiResponse1": "AI: \"네! M 사이즈 있습니다. 현재 가격이 포함된 제품 링크입니다 👇",
           "productName": "여름 드레스 - M 사이즈",
           "productPrice": "$49.99 • 무료 배송",
-          "customerQuery2": "고객: \"완벽합니다! 20% 할인받을 수 있습니까?"",
-          "aiResponse2": "AI: \"MESSENGER15 코드로 15% 할인을 받을 수 있습니다! 주문을 완료하시겠습니까?""
+          "customerQuery2": "고객: \"완벽해요! 20% 할인 받을 수 있나요?",
+          "aiResponse2": "AI: \"MESSENGER15 코드로 15% 할인해 드릴 수 있습니다! 주문을 완료하시겠습니까?"
         }
       },
       "features": {
         "title": "소셜 커머스 기능",
-        "subtitle": "통합된 커머스 기능으로 Facebook 존재감을 강력한 판매 채널로 전환하십시오.",
+        "subtitle": "통합된 커머스 기능으로 Facebook 인지도를 강력한 판매 채널로 전환",
         "shopIntegration": {
           "title": "Facebook Shop 통합",
-          "description": "원활한 쇼핑 경험을 위한 채팅 내 직접 제품 추천"
+          "description": "원활한 쇼핑 경험을 제공하는 채팅 내 직접 제품 추천"
         },
         "leadGeneration": {
           "title": "리드 생성",
-          "description": "CRM 동기화를 통해 Messenger 대화에서 자동 리드 확보"
+          "description": "CRM 동기화 기능이 있는 메신저 대화에서 자동 리드 포착"
         },
         "socialProof": {
-          "title": "소셜 증명",
-          "description": "신뢰 구축을 위한 고객 평가 및 리뷰 통합"
+          "title": "사회적 증거",
+          "description": "신뢰 구축을 위한 고객 후기 및 리뷰 통합"
         },
         "instantResponses": {
-          "title": "즉시 응답",
-          "description": "연중무휴 24시간 Facebook 청중을 참여시키는 AI 기반 응답"
+          "title": "즉각적인 응답",
+          "description": "24/7 Facebook 잠재고객을 참여시키는 AI 기반 응답"
         }
       },
       "socialCommerce": {
-        "title": "완전한 소셜 커머스 솔루션",
-        "subtitle": "Facebook Messenger를 통해 직접 판매하는 데 필요한 모든 것",
+        "title": "완벽한 소셜 커머스 솔루션",
+        "subtitle": "Facebook 메신저를 통해 직접 판매하는 데 필요한 모든 것",
         "productCatalog": {
           "title": "제품 카탈로그 동기화",
-          "description": "즉시 추천을 위해 Facebook Shop 제품을 자동으로 동기화"
+          "description": "즉각적인 추천을 위해 Facebook Shop 제품을 자동으로 동기화"
         },
         "cartRecovery": {
           "title": "장바구니 복구",
-          "description": "개인화된 메시지로 장바구니를 포기한 고객을 다시 참여시킵니다."
+          "description": "개인화된 메시지로 장바구니를 포기한 고객을 다시 참여"
         },
         "orderTracking": {
           "title": "주문 추적",
-          "description": "Messenger를 통해 실시간 주문 상태 및 배송 정보 제공"
+          "description": "메신저를 통해 실시간 주문 업데이트 및 배송 정보 제공"
         },
         "customerReviews": {
           "title": "고객 리뷰",
-          "description": "신뢰와 소셜 증명을 구축하기 위해 고객 리뷰를 수집하고 표시합니다."
+          "description": "신뢰와 사회적 증거를 구축하기 위해 고객 리뷰 수집 및 전시"
         }
       },
       "businessEcosystem": {
         "title": "Facebook 비즈니스 생태계 통합",
-        "subtitle": "전체 Facebook 비즈니스 존재감과 원활하게 통합",
+        "subtitle": "전체 Facebook 비즈니스 인지도와 원활하게 연결",
         "shop": {
           "title": "Facebook Shop",
-          "description": "즉시 제품 추천을 위한 Facebook Shop과의 직접 통합"
+          "description": "즉각적인 제품 추천을 위한 Facebook Shop과의 직접 통합"
         },
         "ads": {
           "title": "Facebook 광고",
-          "description": "원활한 고객 여정을 위해 광고 캠페인을 Messenger와 연결"
+          "description": "원활한 고객 여정을 위해 광고 캠페인을 메신저와 연결"
         },
         "pages": {
           "title": "Facebook 페이지",
@@ -1138,13 +1170,13 @@
       },
       "results": {
         "title": "입증된 결과",
-        "subtitle": "Facebook Messenger 자동화로 비즈니스가 실제 결과를 얻는 방법 알아보기",
+        "subtitle": "기업이 Facebook 메신저 자동화로 실제 결과를 어떻게 이끌어내는지 확인하십시오",
         "engagement": {
           "value": "85%",
-          "description": "이메일보다 높은 참여"
+          "description": "이메일보다 높은 참여율"
         },
         "conversion": {
-          "value": "3배",
+          "value": "3x",
           "description": "더 나은 전환율"
         },
         "costReduction": {
@@ -1152,21 +1184,21 @@
           "description": "지원 비용 절감"
         },
         "availability": {
-          "value": "연중무휴 24시간",
-          "description": "자동 고객 서비스"
+          "value": "24/7",
+          "description": "자동화된 고객 서비스"
         }
       },
       "cta": {
-        "title": "Facebook 존재감을 혁신할 준비가 되셨습니까?",
-        "subtitle": "Facebook Messenger를 Seasalt.ai에 연결하고 소셜 미디어 팔로워를 유료 고객으로 전환하기 시작하십시오.",
-        "primary": "Messenger 연결",
+        "title": "Facebook 인지도를 혁신할 준비가 되셨습니까?",
+        "subtitle": "Facebook 메신저를 Seasalt.ai에 연결하고 소셜 미디어 팔로워를 유료 고객으로 전환하기 시작하십시오。",
+        "primary": "메신저 연결",
         "secondary": "데모 예약"
       }
     },
     "contactForms": {
       "seo": {
         "title": "문의 양식 통합 - Seasalt.ai",
-        "description": "AI로 문의 양식을 대화로 전환하십시오. MailerLite, HubSpot, Mailchimp 등과 원활하게 통합하여 즉시 리드를 참여시킵니다."
+        "description": "AI로 문의 양식을 대화로 전환하십시오. MailerLite, HubSpot, Mailchimp 등과 원활하게 통합하여 즉각적인 리드 참여를 유도하십시오。"
       },
       "nav": {
         "backToChannels": "채널로 돌아가기"
@@ -1176,22 +1208,22 @@
           "part1": "문의 양식을",
           "part2": "대화로 전환"
         },
-        "subtitle": "이메일 마케팅 양식에서 리드를 자동으로 확보하고 AI 기반 대화로 즉시 참여시킵니다. MailerLite, HubSpot, Mailchimp 등과 통합됩니다.",
+        "subtitle": "이메일 마케팅 양식에서 리드를 자동으로 포착하고 AI 기반 대화로 즉시 참여시키십시오. MailerLite, HubSpot, Mailchimp 등과 함께 작동합니다。",
         "ctaPrimary": "양식 연결",
         "ctaSecondary": "데모 보기",
         "demo": {
           "title": "양식 통합",
           "submission": "📝 새 양식 제출",
           "submitter": "Sarah Johnson • sarah@email.com",
-          "aiGreeting": "AI: \"안녕하세요, Sarah! 관심 가져주셔서 감사합니다. 바로 시작할 수 있도록 도와드릴 수 있습니다. 주요 목표는 무엇입니까?"",
-          "userResponse": "Sarah: \"이메일 마케팅을 개선하고 싶습니다."",
-          "aiSchedule": "AI: \"완벽합니다! 전문가와 15분 전략 회의를 예약할 수 있습니다. 내일 오후 2시에 가능하십니까?"",
-          "meetingConfirmed": "✅ 회의가 자동으로 예약되었습니다."
+          "aiGreeting": "AI: \"안녕하세요, 사라님! 관심을 가져주셔서 감사합니다. 바로 시작할 수 있도록 도와드릴 수 있습니다. 주요 목표는 무엇입니까?",
+          "userResponse": "사라: \"이메일 마케팅을 개선하고 싶습니다",
+          "aiSchedule": "AI: \"완벽해요! 전문가와 15분 전략 통화를 예약해 드릴 수 있습니다. 내일 오후 2시에 시간 괜찮으세요?",
+          "meetingConfirmed": "✅ 회의가 자동으로 예약되었습니다"
         }
       },
       "platforms": {
         "title": "지원되는 플랫폼",
-        "subtitle": "모든 주요 이메일 마케팅 플랫폼 및 양식 빌더와 원활하게 통합",
+        "subtitle": "모든 주요 이메일 마케팅 플랫폼 및 양식 빌더와의 원활한 통합",
         "mailerlite": {
           "name": "MailerLite",
           "description": "MailerLite 문의 양식에서 원활한 리드 동기화"
@@ -1202,108 +1234,108 @@
         },
         "constantContact": {
           "name": "Constant Contact",
-          "description": "Constant Contact 양식에서 리드 확보"
+          "description": "Constant Contact 양식에서 리드 포착"
         },
         "hubspot": {
           "name": "HubSpot",
           "description": "HubSpot 마케팅과의 고급 양식 통합"
         },
         "customForms": {
-          "name": "맞춤형 양식",
-          "description": "API를 통한 모든 웹사이트 문의 양식 지원"
+          "name": "맞춤 양식",
+          "description": "API를 통해 모든 웹사이트 문의 양식 지원"
         },
         "wordpress": {
           "name": "WordPress",
-          "description": "WordPress 문의 양식과의 네이티브 통합"
+          "description": "WordPress 문의 양식과의 기본 통합"
         }
       },
       "features": {
         "title": "리드 관리 기능",
         "subtitle": "지능형 자동화로 양식 제출을 검증된 리드로 전환",
         "instantEngagement": {
-          "title": "즉시 참여",
-          "description": "리드가 뜨거울 때 AI 상담원이 양식 제출에 즉시 응답합니다."
+          "title": "즉각적인 참여",
+          "description": "AI 에이전트가 양식 제출에 즉시 응답하여 리드가 뜨거울 때 참여"
         },
         "leadQualification": {
           "title": "리드 검증",
-          "description": "인간에게 인계하기 전에 잠재 고객을 검증하기 위한 자동 후속 질문"
+          "description": "인간 전달 전에 잠재 고객을 검증하기 위한 자동 후속 질문"
         },
         "multiChannel": {
           "title": "다중 채널 후속 조치",
-          "description": "WhatsApp, SMS 또는 전화를 통해 원활하게 대화를 계속합니다."
+          "description": "WhatsApp, SMS 또는 전화를 통해 원활하게 대화 계속"
         },
         "conversionTracking": {
           "title": "전환 추적",
-          "description": "양식에서 고객으로의 전환율을 모니터링하고 성과를 최적화합니다."
+          "description": "양식에서 고객으로의 전환율을 모니터링하고 성과 최적화"
         }
       },
       "useCases": {
         "title": "사용 사례",
-        "subtitle": "AI 대화로 다양한 유형의 양식을 강화하는 방법 알아보기",
+        "subtitle": "AI 대화로 다양한 유형의 양식을 어떻게 향상시킬 수 있는지 확인하십시오",
         "newsletter": {
           "title": "뉴스레터 가입",
-          "description": "환영 대화로 새로운 구독자를 참여시킵니다.",
-          "example": "가입해 주셔서 감사합니다! 가장 관심 있는 주제는 무엇입니까?"
+          "description": "환영 대화로 새로운 구독자 참여",
+          "example": "구독해 주셔서 감사합니다! 어떤 주제에 가장 관심이 있으십니까?"
         },
         "demoRequests": {
           "title": "데모 요청",
-          "description": "제품 데모를 즉시 검증하고 예약합니다.",
-          "example": "지금 데모를 예약할 수 있습니다. 어떤 시간을 선호하십니까?"
+          "description": "제품 데모를 즉시 검증하고 예약",
+          "example": "지금 바로 데모를 예약해 드릴 수 있습니다. 선호하는 시간은 언제입니까?"
         },
         "contactInquiries": {
-          "title": "문의 사항",
-          "description": "일반적인 문의에 즉시 응답합니다.",
-          "example": "도와드리겠습니다! 어떤 정보가 필요하십니까?"
+          "title": "문의",
+          "description": "일반적인 문의에 즉각적인 응답 제공",
+          "example": "도와드리겠습니다! 어떤 특정 정보가 필요하십니까?"
         },
         "leadMagnets": {
           "title": "리드 마그넷",
-          "description": "개인화된 아웃리치로 콘텐츠 다운로드를 후속 조치합니다.",
-          "example": "가이드가 도움이 되었습니까? 질문이 있으면 알려주십시오!"
+          "description": "개인화된 아웃리치로 콘텐츠 다운로드 후속 조치",
+          "example": "가이드가 도움이 되었습니까? 질문에 답변해 드릴 수 있습니다！"
         }
       },
       "benefits": {
-        "title": "통합의 이점",
-        "subtitle": "양식을 대화형 AI에 연결했을 때의 즉각적인 영향을 확인하십시오.",
-        "responseRates": "높은 응답률",
+        "title": "통합 혜택",
+        "subtitle": "양식을 대화형 AI에 연결하는 즉각적인 영향 확인",
+        "responseRates": "더 높은 응답률",
         "qualification": "더 빠른 리드 검증",
         "meetings": "더 많은 검증된 회의",
         "engagement": "리드 참여"
       },
       "cta": {
-        "title": "양식을 슈퍼차지할 준비가 되셨습니까?",
-        "subtitle": "문의 양식을 Seasalt.ai에 연결하고 즉시 AI 기반 대화로 더 많은 리드를 확보하기 시작하십시오.",
+        "title": "양식을 강화할 준비가 되셨습니까?",
+        "subtitle": "문의 양식을 Seasalt.ai에 연결하고 즉각적인 AI 기반 대화로 더 많은 리드를 전환하기 시작하십시오。",
         "action": "지금 양식 연결"
       }
     },
     "line": {
       "seo": {
         "title": "LINE 통합 - Seasalt.ai 솔루션",
-        "description": "Seasalt.ai가 LINE 통합을 통해 아시아 시장에서 고객 커뮤니케이션을 개선하고 성장을 촉진하는 방법 알아보기"
+        "description": "Seasalt.ai가 아시아 시장을 위한 LINE 통합을 통해 기업이 고객 커뮤니케이션을 개선하고 성장을 주도하는 데 어떻게 도움이 되는지 확인하십시오。"
       },
       "navigation": {
         "backToChannels": "채널로 돌아가기"
       },
       "hero": {
-        "title": "LINE 통합으로 아시아 시장을 지배하십시오",
-        "subtitle": "AI 기반 대화 및 비즈니스 메시징으로 아시아 전역의 2억 명 이상의 LINE 사용자와 연결하십시오. 일본, 대만, 태국, 한국 시장을 대상으로 하는 비즈니스에 적합합니다.",
+        "title": "LINE 통합으로 아시아 시장을 장악하십시오",
+        "subtitle": "AI 기반 대화 및 비즈니스 메시징을 통해 아시아 전역의 2억 명 이상의 LINE 사용자와 연결하십시오. 일본, 대만, 태국 및 한국 시장을 타겟팅하는 비즈니스에 적합합니다。",
         "cta": {
           "startIntegration": "LINE 통합 시작",
           "seeDemo": "데모 보기"
         },
         "demo": {
-          "title": "LINE Business",
-          "customer": "제품에 대해 질문이 있습니다.",
-          "customerTranslation": "(제품에 대해 질문이 있습니다.)",
-          "ai1": "안녕하세요! 기꺼이 도와드리겠습니다. 어떤 제품에 대해 궁금하십니까?",
-          "ai1Translation": "(안녕하세요! 기꺼이 도와드리겠습니다. 어떤 제품에 대해 궁금하십니까?)",
-          "stickerMessage": "스티커: 감사합니다!",
-          "ai2": "천만에요! 다른 질문이 있으십니까?",
-          "ai2Translation": "(천만에요! 다른 질문이 있으십니까?)"
+          "title": "LINE 비즈니스",
+          "customer": "商品について質問があります",
+          "customerTranslation": "(제품에 대해 질문이 있습니다)",
+          "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
+          "ai1Translation": "(안녕하세요! 기꺼이 도와드리겠습니다. 어떤 제품에 대해 궁금하신가요?)",
+          "stickerMessage": "스티커: 감사합니다！",
+          "ai2": "どういたしまして！他にご質問はありますか？",
+          "ai2Translation": "(천만에요! 다른 질문 있으신가요?)"
         }
       },
       "marketFocus": {
         "title": "시장 집중",
-        "subtitle": "LINE은 주요 아시아 시장에서 지배적이므로 이 지역을 대상으로 하는 비즈니스에 필수적입니다.",
+        "subtitle": "주요 아시아 시장에서 LINE의 지배력은 이러한 지역을 타겟팅하는 비즈니스에 필수적입니다",
         "activeUsers": "활성 사용자",
         "marketPenetration": "시장 침투율"
       },
@@ -1324,17 +1356,17 @@
           "penetration": "76%"
         },
         "KR": {
-          "country": "한국",
+          "country": "대한민국",
           "users": "35M",
           "penetration": "68%"
         }
       },
       "features": {
         "title": "LINE 비즈니스 기능",
-        "subtitle": "비즈니스 커뮤니케이션 및 고객 참여를 위해 LINE의 고유한 기능을 활용하십시오.",
+        "subtitle": "비즈니스 커뮤니케이션 및 고객 참여를 위한 LINE의 고유한 기능 활용",
         "regionalDominance": {
-          "title": "지역 지배력",
-          "description": "주요 아시아 시장 전역에서 2억 명 이상의 LINE 사용자에게 액세스"
+          "title": "지역적 우위",
+          "description": "주요 아시아 시장 전역의 2억 명 이상의 LINE 사용자에 대한 액세스"
         },
         "officialAccount": {
           "title": "LINE 공식 계정",
@@ -1351,12 +1383,12 @@
       },
       "businessMessaging": {
         "title": "고급 비즈니스 메시징",
-        "subtitle": "향상된 고객 경험을 위해 LINE의 리치 메시징 기능을 활용하십시오."
+        "subtitle": "향상된 고객 경험을 위해 LINE의 풍부한 메시징 기능 활용"
       },
       "businessFeatures": {
         "payIntegration": {
           "title": "LINE Pay 통합",
-          "description": "LINE을 통해 직접 결제를 수락하여 원활한 거래를 가능하게 합니다."
+          "description": "원활한 거래를 위해 LINE을 통해 직접 결제 수락"
         },
         "richMenu": {
           "title": "리치 메뉴 디자인",
@@ -1364,7 +1396,7 @@
         },
         "broadcast": {
           "title": "브로드캐스트 메시징",
-          "description": "LINE 팔로워에게 타겟 메시지 전송"
+          "description": "LINE 팔로워에게 타겟 메시지 보내기"
         },
         "chatbot": {
           "title": "챗봇 빌더",
@@ -1373,16 +1405,16 @@
       },
       "culturalAdaptationSection": {
         "title": "문화적 적응",
-        "subtitle": "당사의 AI는 다양한 아시아 시장의 문화적 뉘앙스와 커뮤니케이션 스타일을 이해합니다."
+        "subtitle": "당사의 AI는 다양한 아시아 시장의 문화적 뉘앙스와 커뮤니케이션 스타일을 이해합니다"
       },
       "culturalFeatures": {
         "localized": {
           "title": "현지화된 응답",
-          "description": "현지 커뮤니케이션 스타일 및 문화적 선호도에 적응된 AI 응답"
+          "description": "현지 커뮤니케이션 스타일과 문화적 선호도에 맞게 조정된 AI 응답"
         },
         "multiLanguage": {
           "title": "다국어 지원",
-          "description": "한국어, 중국어, 태국어, 일본어 및 영어에 대한 네이티브 지원"
+          "description": "일본어, 중국어, 태국어, 한국어 및 영어 기본 지원"
         },
         "sticker": {
           "title": "스티커 통합",
@@ -1391,7 +1423,7 @@
       },
       "cta": {
         "title": "아시아 시장에 진출할 준비가 되셨습니까?",
-        "subtitle": "LINE의 주요 메시징 플랫폼을 통해 아시아 전역의 수백만 명의 잠재 고객과 연결하십시오.",
+        "subtitle": "LINE의 지배적인 메시징 플랫폼을 통해 아시아 전역의 수백만 잠재 고객과 연결하십시오。",
         "startIntegration": "LINE 통합 시작"
       }
     },
@@ -1401,21 +1433,21 @@
       },
       "seo": {
         "title": "웹사이트 위젯 - 옴니채널 솔루션",
-        "description": "WordPress, Shopify, Squarespace, Wix, MailerLite 및 모든 웹사이트에 옴니채널 위젯을 배포하십시오. 통합된 채팅, 음성 및 메시징으로 고객에게 선택권을 제공하십시오."
+        "description": "WordPress, Shopify, Squarespace, Wix, MailerLite 및 모든 웹사이트에 옴니채널 위젯을 배포하십시오. 통합된 채팅, 음성 및 메시징으로 고객에게 선택권을 제공하십시오。"
       },
       "hero": {
         "title": "하나의 위젯,",
         "titleHighlight": "모든 플랫폼",
-        "subtitle": "WordPress, Shopify, Squarespace, Wix, MailerLite 및 모든 웹사이트에 옴니채널 위젯을 배포하십시오. 통합된 채팅, 음성 및 메시징으로 고객에게 선택권을 제공하십시오.",
+        "subtitle": "WordPress, Shopify, Squarespace, Wix, MailerLite 및 모든 웹사이트에 옴니채널 위젯을 배포하십시오. 통합된 채팅, 음성 및 메시징으로 고객에게 선택권을 제공하십시오。",
         "cta": {
           "deploy": "지금 위젯 배포",
           "demo": "데모 예약"
         },
         "widget": {
-          "title": "유니버설 위젯",
+          "title": "범용 위젯",
           "chat": {
             "label": "💬 채팅",
-            "description": "즉시 메시징 지원"
+            "description": "인스턴트 메시징 지원"
           },
           "voice": {
             "label": "📞 음성",
@@ -1433,38 +1465,38 @@
       },
       "platforms": {
         "title": "모든 플랫폼에서 작동",
-        "subtitle": "어떤 플랫폼을 사용하든 당사의 위젯은 기존 웹사이트와 원활하게 통합됩니다.",
+        "subtitle": "사용하는 플랫폼에 관계없이 위젯이 기존 웹사이트와 원활하게 통합됩니다",
         "wordpress": {
           "name": "WordPress",
-          "description": "WordPress 사이트를 위한 쉬운 플러그인 설치"
+          "description": "WordPress 사이트용 간편한 플러그인 설치"
         },
         "shopify": {
           "name": "Shopify",
-          "description": "Shopify 스토어와의 네이티브 통합"
+          "description": "Shopify 스토어와의 기본 통합"
         },
         "squarespace": {
           "name": "Squarespace",
-          "description": "Squarespace 사이트를 위한 간단한 임베드 코드"
+          "description": "Squarespace 사이트용 간단한 포함 코드"
         },
         "wix": {
           "name": "Wix",
-          "description": "Wix 웹사이트를 위한 드래그 앤 드롭 위젯"
+          "description": "Wix 웹사이트용 드래그 앤 드롭 위젯"
         },
         "mailerlite": {
           "name": "MailerLite",
           "description": "MailerLite 랜딩 페이지와의 직접 통합"
         },
         "custom": {
-          "name": "맞춤형 HTML",
-          "description": "모든 웹사이트를 위한 유니버설 임베드 코드"
+          "name": "맞춤 HTML",
+          "description": "모든 웹사이트용 범용 포함 코드"
         }
       },
       "features": {
         "title": "고급 기능",
-        "subtitle": "단순한 채팅 위젯 이상 - 완전한 고객 참여 플랫폼",
+        "subtitle": "단순한 채팅 위젯 이상 - 완벽한 고객 참여 플랫폼",
         "design": {
-          "title": "맞춤형 디자인",
-          "description": "맞춤형 색상, 글꼴 및 배치 옵션으로 브랜드와 일치"
+          "title": "사용자 정의 가능한 디자인",
+          "description": "맞춤 색상, 글꼴 및 위치 지정 옵션으로 브랜드와 일치"
         },
         "mobile": {
           "title": "모바일 반응형",
@@ -1476,38 +1508,38 @@
         },
         "analytics": {
           "title": "고급 분석",
-          "description": "자세한 분석으로 방문자 참여, 전환율 및 채팅 성과 추적"
+          "description": "방문자 참여, 전환율 및 채팅 성과 추적"
         }
       },
       "styles": {
-        "title": "스타일을 선택하십시오",
+        "title": "스타일 선택",
         "subtitle": "웹사이트 디자인 및 사용자 경험 목표에 맞는 여러 위젯 스타일",
         "chatBubble": {
-          "name": "채팅 버블",
-          "description": "하단 모서리에 표시되는 클래식 플로팅 채팅 버블"
+          "name": "채팅 풍선",
+          "description": "하단 모서리에 있는 클래식 플로팅 채팅 풍선"
         },
         "slidePanel": {
-          "name": "슬라이드 인 패널",
-          "description": "측면에서 우아하게 슬라이드 인하는 패널"
+          "name": "슬라이드인 패널",
+          "description": "측면에서 우아하게 슬라이드인하는 패널"
         },
         "embeddedForm": {
-          "name": "임베디드 양식",
-          "description": "페이지 콘텐츠 내 인라인 문의 양식"
+          "name": "포함된 양식",
+          "description": "페이지 콘텐츠 내의 인라인 문의 양식"
         },
         "fullModal": {
           "name": "전체 화면 모달",
-          "description": "주의를 끄는 전체 화면 오버레이"
+          "description": "시선을 사로잡는 전체 화면 오버레이"
         }
       },
       "benefits": {
-        "title": "당사 위젯을 선택하는 이유?",
+        "title": "위젯을 선택하는 이유",
         "switching": {
           "title": "채널 전환",
-          "description": "컨텍스트를 잃지 않고 채팅, 음성 및 메시징 간에 원활하게 전환"
+          "description": "문맥을 잃지 않고 채팅, 음성 및 메시징 간의 원활한 전환"
         },
         "queue": {
           "title": "대기열 관리",
-          "description": "상담원 가용성 및 고객 우선 순위를 기반으로 한 지능형 라우팅"
+          "description": "상담원 가용성 및 고객 우선 순위에 기반한 지능형 라우팅"
         },
         "global": {
           "title": "글로벌 지원",
@@ -1516,15 +1548,15 @@
       },
       "cta": {
         "title": "위젯을 배포할 준비가 되셨습니까?",
-        "subtitle": "5분 이내에 웹사이트에 강력한 옴니채널 커뮤니케이션 추가. 코딩이 필요 없습니다.",
+        "subtitle": "5분 이내에 웹사이트에 강력한 옴니채널 통신을 추가하십시오. 코딩이 필요하지 않습니다。",
         "getWidget": "위젯 코드 받기"
       }
     }
   },
   "comparison": {
     "title": "성장하는 기업이 다른 대안보다 Seasalt.ai를 선택하는 이유",
-    "description": "다른 솔루션과 비교하여 당사가 어떻게 우수한지 알아보십시오. 당사는 중소기업에 필요한 단순성과 투명한 가격 책정으로 엔터프라이즈 기능을 제공하는 유일한 플랫폼입니다.",
-    "recommended": "권장",
+    "description": "다른 솔루션과 어떻게 비교되는지 확인하십시오. 우리는 중소기업에 필요한 단순성을 갖춘 엔터프라이즈급 기능을 제공하는 유일한 플랫폼입니다。",
+    "recommended": "추천",
     "table": {
       "headers": {
         "platform": "플랫폼",
@@ -1532,94 +1564,94 @@
         "pricingModel": "가격 모델",
         "unifiedVoiceDigital": "통합 음성 및 디지털",
         "aiCapabilities": "AI 기능",
-        "bestFor": "최적"
+        "bestFor": "최적 대상"
       }
     },
     "competitors": {
       "seasalt": {
-        "startingPrice": "월 $20/상담원",
-        "pricingModel": "간단한 사용자별 가격",
-        "unifiedVoiceDigital": "✅ 예, 네이티브 지원",
-        "aiCapabilities": "✅ 예, 네이티브 음성 및 챗봇",
-        "bestFor": "저렴한 가격으로 진정한 올인원 플랫폼이 필요한 중소기업."
+        "startingPrice": "월 사용자당 20달러",
+        "pricingModel": "사용자당 간단한 가격 책정",
+        "unifiedVoiceDigital": "✅ 예, 기본 지원",
+        "aiCapabilities": "✅ 예, 기본 음성 및 챗봇",
+        "bestFor": "저렴한 진정한 올인원 플랫폼이 필요한 중소기업。"
       },
       "aircall": {
-        "startingPrice": "월 $30/사용자",
-        "pricingModel": "사용자별 + 추가 기능",
+        "startingPrice": "월 사용자당 30달러",
+        "pricingModel": "사용자당 + 추가 기능",
         "unifiedVoiceDigital": "⚠️ 음성 + WhatsApp (추가 기능)",
-        "aiCapabilities": "⚠️ AI는 유료 추가 기능",
-        "bestFor": "여러 추가 기능을 구매하고 3명 이상의 사용자 최소 요구 사항을 충족할 수 있는 영업/지원 팀."
+        "aiCapabilities": "⚠️ AI는 유료 추가 기능입니다",
+        "bestFor": "여러 추가 기능을 감당할 수 있고 최소 3명의 사용자 요구 사항을 충족하는 영업팀。"
       },
       "ringcentral": {
-        "startingPrice": "월 $65/상담원",
-        "pricingModel": "복잡한 계층",
+        "startingPrice": "월 상담원당 65달러",
+        "pricingModel": "복잡한 계층화",
         "unifiedVoiceDigital": "❌ 별도 제품",
         "aiCapabilities": "✅ 예 (AI 기반 CCaaS)",
-        "bestFor": "별도 CCaaS를 갖춘 광범위한 UCaaS 플랫폼이 필요한 대기업."
+        "bestFor": "별도의 CCaaS가 있는 광범위한 UCaaS 플랫폼이 필요한 대기업。"
       },
       "genesys": {
-        "startingPrice": "월 $75/사용자",
-        "pricingModel": "사용자별 + 높은 최소 요금",
+        "startingPrice": "월 사용자당 75달러",
+        "pricingModel": "사용자당 + 높은 최소 요금",
         "unifiedVoiceDigital": "✅ 예 (프리미엄 플랜에서)",
         "aiCapabilities": "✅ 예 (복잡한 토큰 시스템)",
-        "bestFor": "전용 컨택 센터 팀과 예산을 가진 기업."
+        "bestFor": "전담 컨택 센터 팀과 예산이 있는 기업。"
       },
       "five9": {
-        "startingPrice": "월 $119/사용자",
-        "pricingModel": "사용자별 + 번들",
+        "startingPrice": "월 사용자당 119달러",
+        "pricingModel": "사용자당 + 패키지",
         "unifiedVoiceDigital": "✅ 예 (프리미엄 플랜에서)",
         "aiCapabilities": "✅ 예 (고급 AI)",
-        "bestFor": "엔터프라이즈급 도구가 필요한 대규모 아웃바운드 중심 컨택 센터."
+        "bestFor": "엔터프라이즈 수준의 도구가 필요한 대규모 아웃바운드 중심 컨택 센터。"
       },
       "googleVoice": {
-        "startingPrice": "월 $10/사용자",
-        "pricingModel": "사용자별 + Workspace 요금",
+        "startingPrice": "월 사용자당 10달러",
+        "pricingModel": "사용자당 + Workspace 요금",
         "unifiedVoiceDigital": "❌ 아니요",
-        "aiCapabilities": "❌ 아니요 (음성 메일 전사만)
-        "bestFor": "기본적인 독립형 전화 번호가 필요한 개인 사업자 (미국만 해당)."
+        "aiCapabilities": "❌ 아니요 (음성 메일 스크립트 작성만)",
+        "bestFor": "기본 독립형 전화번호가 필요한 1인 기업가 (미국만 해당)。"
       }
     },
     "cta": {
-      "seeAllComparisons": "모든 자세한 비교 보기"
+      "seeAllComparisons": "모든 상세 비교 보기"
     }
   },
   "industriesData": {
     "ecommerce": {
       "title": "전자상거래",
-      "headline": "버려진 장바구니를 복구하고 주문 질문에 연중무휴 24시간 응답",
+      "headline": "장바구니 포기 복구 및 24/7 주문 문의 답변",
       "benefits": [
         "WhatsApp 및 SMS를 통한 자동 주문 상태 업데이트",
-        "AI가 '내 패키지는 어디에 있습니까?' 문의에 즉시 응답",
-        "스마트한 후속 조치로 버려진 장바구니의 15% 이상 복구",
+        "AI가 \"내 소포는 어디에 있습니까?\" 문의를 즉시 처리",
+        "스마트 후속 조치로 포기된 장바구니의 15% 이상 복구",
         "Shopify 및 Squarespace 통합 포함"
       ]
     },
     "healthcare": {
-      "title": "헬스케어",
-      "headline": "환자 약속을 예약하고 자동으로 알림 전송",
+      "title": "의료",
+      "headline": "환자 약속 예약 및 자동 알림 전송",
       "benefits": [
         "모든 채널에서 HIPAA 준수 메시징",
         "자동 약속 확인 및 알림",
-        "AI가 라우팅 전에 환자 문의를 사전 심사",
+        "AI가 라우팅 전에 환자 문의 사전 심사",
         "스마트 알림으로 노쇼 25% 감소"
       ]
     },
     "realEstate": {
       "title": "부동산",
-      "headline": "리드를 놓치지 않고 문자, 채팅 또는 전화로 투어 예약",
+      "headline": "리드를 놓치지 않고 문자, 채팅 또는 전화로 방문 예약",
       "benefits": [
-        "부동산 문의에 연중무휴 24시간 즉시 응답",
-        "AI를 통한 자동 투어 예약",
-        "인간에게 인계하기 전에 리드 검증",
+        "24/7 부동산 문의에 대한 즉각적인 응답",
+        "AI를 통한 자동 방문 약속",
+        "인간 전달 전 리드 검증",
         "WhatsApp 가상 투어 및 부동산 사진"
       ]
     },
     "restaurants": {
       "title": "레스토랑 및 숙박업",
-      "headline": "모든 채널에서 예약 접수 및 주문 처리",
+      "headline": "모든 채널에서 예약 및 주문 처리",
       "benefits": [
-        "전화 및 채팅을 통한 자동 예약 접수",
-        "AI가 메뉴 질문에 즉시 응답",
+        "전화 및 채팅을 통한 자동 예약",
+        "AI가 메뉴 질문에 즉시 답변",
         "SMS 및 WhatsApp을 통한 주문 확인 전송",
         "직원 방해 없이 배송 문의 처리"
       ]
@@ -1629,39 +1661,39 @@
       "headline": "학생 커뮤니케이션 및 과정 문의 간소화",
       "benefits": [
         "자동 과정 등록 및 일정 관리",
-        "AI가 연중무휴 24시간 일반적인 학생 질문에 응답",
+        "AI가 24/7 일반적인 학생 질문 처리",
         "WhatsApp을 통한 학부모-교사 커뮤니케이션",
         "SMS를 통한 이벤트 알림 및 알림"
       ]
     },
     "automotive": {
       "title": "자동차 및 서비스",
-      "headline": "서비스 약속을 예약하고 고객 문의에 응답",
+      "headline": "서비스 약속 예약 및 고객 문의 처리",
       "benefits": [
         "자동 서비스 약속 예약",
         "SMS를 통한 차량 유지 보수 알림",
-        "AI가 부품 재고 질문에 응답",
-        "사진이 포함된 서비스 완료 알림"
+        "AI가 부품 가용성 질문 처리",
+        "사진과 함께 서비스 완료 알림"
       ]
     },
     "professional": {
       "title": "전문 서비스",
-      "headline": "클라이언트 커뮤니케이션 및 상담 예약 관리",
+      "headline": "고객 커뮤니케이션 및 상담 예약 관리",
       "benefits": [
         "자동 상담 일정 관리",
-        "채팅을 통한 클라이언트 온보딩 양식",
+        "채팅을 통한 고객 접수 양식",
         "보안 채널을 통한 문서 공유",
-        "약속 후속 알림"
+        "약속에 대한 후속 알림"
       ]
     },
     "financial": {
       "title": "금융 서비스",
-      "headline": "보안 클라이언트 커뮤니케이션 및 약속 관리",
+      "headline": "안전한 고객 커뮤니케이션 및 약속 관리",
       "benefits": [
-        "FINRA 준수 메시징 및 기록",
+        "FINRA 준수 메시징 및 녹음",
         "자동 약속 확인",
         "채팅을 통한 보안 문서 수집",
-        "클라이언트 온보딩 워크플로 자동화"
+        "고객 온보딩 워크플로 자동화"
       ]
     },
     "educationTraining": {
@@ -1669,11 +1701,11 @@
       "headline": "포괄적인 관리 솔루션으로 교육 기관 간소화",
       "benefits": [
         "자동 과정 등록 및 일정 관리",
-        "AI가 연중무휴 24시간 일반적인 학생 질문에 응답",
+        "AI가 24/7 일반적인 학생 질문 처리",
         "WhatsApp을 통한 학부모-교사 커뮤니케이션",
         "SMS를 통한 이벤트 알림 및 알림"
       ],
-      "benefits[0]": "학생 등록 및 기록 관리 간소화",
+      "benefits[0]": "간소화된 학생 등록 및 기록 관리",
       "benefits[1]": "자동 일정 관리 및 수업 관리",
       "benefits[2]": "향상된 학부모-교사 커뮤니케이션 도구",
       "benefits[3]": "포괄적인 보고 및 분석"
@@ -1682,23 +1714,23 @@
   "productsData": {
     "seachat": {
       "title": "SeaChat",
-      "description": "연중무휴 24시간 고객에게 응답"
+      "description": "24/7 고객에게 응답"
     },
     "seax": {
       "title": "SeaX",
-      "description": "대량으로 고객에게 도달"
+      "description": "대량으로 고객에게 연락"
     },
     "seameet": {
       "title": "SeaMeet",
-      "description": "회의 및 통화 코파일럿"
+      "description": "회의 및 통화를 위한 코파일럿"
     },
     "seavoice": {
       "title": "SeaVoice",
-      "description": "통화를 위한 AI 음성 상담원",
+      "description": "통화를 위한 AI 음성 에이전트",
       "subProducts": {
-        "tts": "Text To Speech",
-        "stt": "Speech To Text",
-        "discord": "Discord STT Bot"
+        "tts": "텍스트 음성 변환",
+        "stt": "음성 텍스트 변환",
+        "discord": "Discord STT 봇"
       }
     }
   },

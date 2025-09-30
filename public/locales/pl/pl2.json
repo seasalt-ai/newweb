@@ -1,0 +1,922 @@
+{
+  "seachat": {
+    "common": {
+      "getStarted": "Rozpocznij za darmo",
+      "signIn": "Zaloguj się",
+      "learnMore": "Dowiedz się więcej",
+      "readMore": "Czytaj więcej",
+      "viewAll": "Zobacz wszystkie artykuły",
+      "tryNow": "Wypróbuj teraz",
+      "contactUs": "Skontaktuj się z nami",
+      "subscribe": "Subskrybuj",
+      "search": "Szukaj",
+      "back": "Wróć"
+    },
+    "header": {
+      "features": "Funkcje",
+      "integrations": "Integracje",
+      "solutions": "Rozwiązania",
+      "pricing": "Cennik",
+      "blog": "Blog",
+      "language": "Język",
+      "featuresDropdown": {
+        "humanAgents": "Czat z agentem ludzkim",
+        "aiAutomation": "Automatyzacja AI",
+        "advancedAI": "Zaawansowane funkcje AI",
+        "knowledgeBase": "Baza wiedzy",
+        "voiceAgents": "Agenci głosowi",
+        "analytics": "Analityka i statystyki",
+        "omnichannel": "Wielokanałowe wsparcie",
+        "api": "API i narzędzia dla deweloperów"
+      },
+      "integrationsDropdown": {
+        "websites": "Platformy stron internetowych",
+        "crm": "Systemy CRM",
+        "ecommerce": "E-commerce",
+        "socialMedia": "Media społecznościowe",
+        "communication": "Narzędzia komunikacyjne",
+        "marketing": "Platformy marketingowe",
+        "calendar": "Kalendarz i planowanie",
+        "api": "Niestandardowe API"
+      },
+      "solutionsDropdown": {
+        "ecommerce": "E-commerce i handel detaliczny",
+        "healthcare": "Opieka zdrowotna",
+        "fintech": "Usługi finansowe",
+        "education": "Edukacja",
+        "realEstate": "Nieruchomości",
+        "travel": "Podróże i hotelarstwo",
+        "saas": "SaaS i technologia",
+        "smallBusiness": "Małe firmy"
+      },
+      "backToMainSite": "Wróć do strony głównej",
+      "viewAllIntegrations": "Zobacz wszystkie integracje →",
+      "viewAllSolutions": "Zobacz wszystkie rozwiązania →"
+    },
+    "hero": {
+      "title": {
+        "line1": "Odpowiadaj na",
+        "line2": "Miliony 24/7"
+      },
+      "subtitle": "Agenci na żywo",
+      "description": "Zmień obsługę klienta dzięki naszej wielokanałowej platformie. Zacznij od agentów ludzkich bez kosztów, a następnie płynnie zintegruj automatyzację AI w miarę rozwoju.",
+      "startFree": "Rozpocznij za darmo",
+      "exploreAI": "Zarezerwuj demo",
+      "alwaysFree": "Zawsze darmowy plan",
+      "integrations": "30+ Integracji",
+      "setup": "Konfiguracja w 2 minuty",
+      "chat": {
+        "userMessage": "Cześć! Potrzebuję pomocy z moim zamówieniem",
+        "botMessage": "Witaj! Chętnie pomogę Ci z Twoim zamówieniem. Czy możesz podać numer zamówienia?",
+        "userMessage2": "Mogę pomóc Ci połączyć się z agentem ludzkim lub zapewnić natychmiastową pomoc AI. Jak wolisz postępować?",
+        "typePlaceholder": "Wpisz swoją wiadomość...",
+        "online": "Online",
+        "supportTitle": "Wsparcie SeaChat"
+      },
+      "badge": "Rozpocznij za darmo z agentami na żywo",
+      "animationSection": {
+        "title": "SeaChat w akcji",
+        "autoMode": "Auto",
+        "manualMode": "Ręcznie"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "AI głosowe w telefonie",
+          "description": "Agenci AI obsługujący rozmowy telefoniczne"
+        },
+        "interactive": {
+          "name": "Interaktywne kanały",
+          "description": "Kliknij, aby zobaczyć różne rozmowy"
+        },
+        "multiChannel": {
+          "name": "Przepływ wielokanałowy",
+          "description": "Wiadomości przepływające między różnymi platformami"
+        },
+        "agentToAI": {
+          "name": "Przekazanie od człowieka do AI",
+          "description": "Zacznij od ludzi, skaluj z AI"
+        },
+        "learning": {
+          "name": "Podróż uczenia się AI",
+          "description": "Obserwuj, jak AI staje się mądrzejsze z treści"
+        },
+        "dashboard": {
+          "name": "Analityka w czasie rzeczywistym",
+          "description": "Metryki wydajności na żywo"
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Dlaczego wybrać SeaChat?",
+      "subtitle": "Doświadcz idealnego połączenia ludzkiego dotyku i efektywności AI. Zacznij za darmo, skaluj inteligentnie, osiągaj sukces szybciej.",
+      "humanAgents": {
+        "title": "Prawdziwie darmowi agenci ludzcy 🍺 🎙️",
+        "description": "Zacznij z 1 agentem ludzkim za darmo na zawsze — tak, na zawsze! Bez limitów, bez ograniczeń, bez haczyków.",
+        "badge": "Darmowe na zawsze",
+        "highlights": [
+          "Nieograniczone rozmowy na czacie",
+          "Nieograniczony dostęp do historii czatu",
+          "Nieograniczone kontakty i budowanie sieci",
+          "Swoboda eksportowania wszystkich danych"
+        ]
+      },
+      "aiAutomation": {
+        "title": "Płynna automatyzacja AI",
+        "description": "Skaluj bez wysiłku dzięki inteligentnej AI, która uczy się z Twoich rozmów i dokumentów.",
+        "highlights": [
+          "Inteligentne automatyczne odpowiedzi",
+          "Uczenie się z interakcji",
+          "Odpowiedzi uwzględniające kontekst"
+        ]
+      },
+      "omnichannel": {
+        "title": "Łączność wielokanałowa",
+        "description": "Połącz wszystkie swoje kanały komunikacji w jednej ujednoliconej platformie dla spójnego wsparcia.",
+        "highlights": [
+          "30+ integracji",
+          "Ujednolicona skrzynka odbiorcza",
+          "Synchronizacja międzyplatformowa"
+        ]
+      },
+      "trulyFree": {
+        "title": "Prawdziwie darmowy plan, czyli darmowe 🍺 & 🎙️",
+        "description": "Przedstawiamy tryb tylko dla agentów ludzkich SeaChat: Twój bilet do niezrównanej swobody komunikacji! Z radością prezentujemy 1 agenta ludzkiego za darmo na zawsze — tak, dobrze słyszałeś, na zawsze!",
+        "freeFeatures": {
+          "unlimitedChat": {
+            "title": "Nieograniczony czat",
+            "description": "Prowadź tyle rozmów, ile potrzebujesz, bez limitów i ograniczeń."
+          },
+          "unlimitedHistory": {
+            "title": "Nieograniczona historia",
+            "description": "Nigdy nie trać rozmowy — uzyskaj dostęp do pełnej historii czatu w dowolnym momencie."
+          },
+          "unlimitedContacts": {
+            "title": "Nieograniczone kontakty",
+            "description": "Buduj swoją sieć bez żadnych ograniczeń ani limitów kontaktów."
+          },
+          "freedomToExport": {
+            "title": "Swoboda eksportu",
+            "description": "Twoje dane, Twoje zasady — eksportuj całą historię czatu bez wysiłku."
+          }
+        },
+        "whyChoose": "Dlaczego wybrać SeaChat? Ponieważ jest naprawdę darmowy!",
+        "whatYouGet": "✅ Co otrzymujesz ZA DARMO na zawsze:",
+        "freeForeverFeatures": [
+          "1 agent ludzki na zawsze",
+          "Nieograniczone rozmowy na czacie",
+          "Pełny dostęp do historii czatu",
+          "Nieograniczone zarządzanie kontaktami",
+          "Pełne prawa do eksportu danych"
+        ],
+        "scaleWhenReady": "🚀 Skaluj, gdy będziesz gotowy:",
+        "scaleFeatures": [
+          "Dodaj automatyzację AI",
+          "Zaawansowane integracje",
+          "Funkcje agenta głosowego",
+          "Bezpieczeństwo korporacyjne",
+          "Niestandardowe przepływy pracy"
+        ],
+        "startButton": "Rozpocznij korzystanie z darmowego agenta teraz — karta kredytowa nie jest wymagana!"
+      },
+      "statsBar": {
+        "unlimited": "Nieograniczone czaty na zawsze",
+        "fileTypes": "Obsługiwane 30+ typów plików",
+        "setupTime": "Średni czas konfiguracji 2 min",
+        "availability": "Dostępność AI 24/7, gdy będziesz gotowy"
+      }
+    },
+    "featureTabs": {
+      "title": "Potężne funkcje, prosta konfiguracja",
+      "subtitle": "Poznaj nasz kompleksowy zestaw funkcji zaprojektowany, aby przekształcić Twoje doświadczenie w obsłudze klienta.",
+      "tabs": {
+        "humanAgent": "Agent ludzki",
+        "agentChat": "Czat z agentem",
+        "aiAgent": "Agent AI",
+        "advancedAI": "Zaawansowane AI",
+        "knowledgeBase": "Baza wiedzy",
+        "integrations": "Integracje"
+      },
+      "content": {
+        "agentChat": {
+          "title": "Doskonałość agenta ludzkiego",
+          "subtitle": "Zacznij od prawdziwego wsparcia ludzkiego, całkowicie za darmo",
+          "features": [
+            "Nieograniczone darmowe godziny agenta",
+            "Zarządzanie rozmowami w czasie rzeczywistym",
+            "Współpraca wielu agentów",
+            "Zaawansowane etykietowanie i routing",
+            "Analityka wydajności",
+            "Niestandardowe przepływy pracy"
+          ],
+          "tryFeature": "Wypróbuj tę funkcję",
+          "watchDemo": "Obejrzyj demo"
+        },
+        "aiAgent": {
+          "title": "Inteligentna automatyzacja AI",
+          "subtitle": "Skaluj płynnie dzięki inteligentnej AI, która się uczy",
+          "features": [
+            "Odpowiedzi uwzględniające kontekst",
+            "Uczenie się z rozmów",
+            "Płynne przekazanie do człowieka",
+            "Obsługa wielu języków",
+            "Niestandardowe szkolenie AI",
+            "Możliwości agenta głosowego"
+          ],
+          "tryFeature": "Wypróbuj tę funkcję",
+          "watchDemo": "Obejrzyj demo"
+        },
+        "advancedAI": {
+          "title": "Inteligencja AI nowej generacji",
+          "subtitle": "Zaawansowane funkcje AI dla spersonalizowanych doświadczeń",
+          "features": [
+            "Generowanie rozszerzone o wyszukiwanie (RAG)",
+            "System długoterminowej pamięci użytkownika",
+            "Odpowiedzi kontekstowe uwzględniające czas",
+            "Inteligentne wydobywanie kontekstu",
+            "Wyniki czatu z odniesieniami",
+            "Udoskonalanie bazy wiedzy"
+          ],
+          "tryDemo": "Wypróbuj demo zaawansowanego AI",
+          "watchAI": "Obejrzyj AI w akcji"
+        },
+        "knowledgeBase": {
+          "title": "Kompleksowe centrum wiedzy",
+          "subtitle": "Prześlij 30+ typów plików, aby uzyskać natychmiastowe odpowiedzi AI",
+          "features": [
+            "Obsługa PDF, Excel, CSV, Word",
+            "Pobieranie treści ze stron internetowych",
+            "Przetwarzanie obrazów i wideo",
+            "Bogate formatowanie odpowiedzi",
+            "Automatyczne aktualizowanie treści",
+            "Kontrola wersji"
+          ],
+          "tryFeature": "Wypróbuj tę funkcję",
+          "watchDemo": "Obejrzyj demo"
+        },
+        "integrations": {
+          "title": "Potężne integracje",
+          "subtitle": "Połącz się z ulubionymi narzędziami i platformami",
+          "features": [
+            "Integracje CRM (Salesforce, HubSpot)",
+            "Rezerwacja kalendarza (Google, Outlook)",
+            "Platformy e-commerce",
+            "Narzędzia marketingowe",
+            "Niestandardowy dostęp do API",
+            "Obsługa webhooków"
+          ],
+          "tryFeature": "Wypróbuj tę funkcję",
+          "watchDemo": "Obejrzyj demo"
+        }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "Generowanie rozszerzone o wyszukiwanie",
+            "description": "Wyszukiwanie słów kluczowych, wektorowe i hybrydowe dla precyzyjnego wyszukiwania informacji",
+            "details": {
+              "0": "Semantyczne wyszukiwanie wektorowe",
+              "1": "Dopasowywanie słów kluczowych",
+              "2": "Hybrydowe algorytmy wyszukiwania",
+              "3": "Indeksowanie treści w czasie rzeczywistym"
+            }
+          },
+          "memory": {
+            "title": "Długoterminowa pamięć",
+            "description": "Spersonalizowane doświadczenia dzięki trwałej pamięci użytkownika",
+            "details": {
+              "0": "Śledzenie preferencji użytkownika",
+              "1": "Analiza historii rozmów",
+              "2": "Rozpoznawanie wzorców zachowań",
+              "3": "Ciągłość między sesjami"
+            }
+          },
+          "timeAware": {
+            "title": "Świadomość czasu",
+            "description": "Odpowiedzi uwzględniające kontekst na podstawie aktualnego czasu i strefy czasowej",
+            "details": {
+              "0": "Integracja znaczników czasu w czasie rzeczywistym",
+              "1": "Planowanie uwzględniające strefy czasowe",
+              "2": "Rekomendacje wrażliwe na czas",
+              "3": "Optymalizacja godzin pracy"
+            }
+          },
+          "contextExtraction": {
+            "title": "Wydobywanie kontekstu",
+            "description": "Inteligentne mapowanie pól dla lepszego zrozumienia użytkownika",
+            "details": {
+              "0": "Niestandardowe definicje pól",
+              "1": "Automatyczne wydobywanie danych",
+              "2": "Preferencje językowe użytkownika",
+              "3": "Dynamiczne budowanie kontekstu"
+            }
+          },
+          "referencedResults": {
+            "title": "Wyniki z odniesieniami",
+            "description": "Przejrzyste odpowiedzi AI z cytatami źródłowymi",
+            "details": {
+              "0": "Łączenie z dokumentami źródłowymi",
+              "1": "Śledzenie cytatów",
+              "2": "Ocena pewności",
+              "3": "Weryfikacja faktów"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "Udoskonalanie wiedzy",
+            "description": "Ciągłe ulepszanie dokładności bazy wiedzy",
+            "details": {
+              "0": "Automatyczne aktualizowanie treści",
+              "1": "Ocena jakości",
+              "2": "Optymalizacja trafności",
+              "3": "Analityka wydajności"
+            }
+          }
+        }
+      }
+    },
+    "omnichannelDemo": {
+      "title": "Wdrażaj wszędzie tam, gdzie są Twoi klienci",
+      "subtitle": "Płynnie łącz wszystkie punkty kontaktu z klientem na stronach internetowych, w mediach społecznościowych i na platformach komunikacyjnych. Najedź kursorem na każdy kanał, aby zobaczyć metryki wydajności w czasie rzeczywistym.",
+      "messagesPerDay": "Wiadomości/dzień",
+      "responseTime": "Czas odpowiedzi",
+      "keyFeatures": "Kluczowe funkcje",
+      "integrateChannel": "Zintegruj",
+      "channels": {
+        "website": {
+          "name": "Strona internetowa",
+          "description": "Uniwersalny widżet, który działa na każdej stronie HTML"
+        },
+        "whatsapp": {
+          "name": "WhatsApp",
+          "description": "Łącz się z klientami w najpopularniejszej aplikacji do przesyłania wiadomości na świecie"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "description": "Zarządzaj wiadomościami DM na Instagramie i odpowiedziami na historie w jednej ujednoliconej skrzynce odbiorczej"
+        },
+        "facebook": {
+          "name": "Facebook",
+          "description": "Zapewnij obsługę klienta za pośrednictwem platformy komunikacyjnej Facebooka"
+        },
+        "line": {
+          "name": "LINE",
+          "description": "Łącz się z klientami na popularnej azjatyckiej platformie komunikacyjnej"
+        },
+        "phone": {
+          "name": "Rozmowa telefoniczna",
+          "description": "Obsługuj wsparcie głosowe za pomocą agentów głosowych AI"
+        },
+        "email": {
+          "name": "E-mail",
+          "description": "Zarządzaj zgłoszeniami e-mailowymi za pomocą inteligentnego routingu"
+        },
+        "ecommerce": {
+          "name": "E-commerce",
+          "description": "Integruj się ze sklepami internetowymi w celu zarządzania zamówieniami"
+        }
+      },
+      "platformCategories": {
+        "website": {
+          "title": "Integracja ze stroną internetową",
+          "description": "Wdrażaj na dowolnej platformie internetowej za pomocą naszego uniwersalnego widżetu"
+        },
+        "socialMedia": {
+          "title": "Media społecznościowe",
+          "description": "Łącz się z klientami na ich ulubionych platformach społecznościowych"
+        },
+        "traditional": {
+          "title": "Tradycyjne kanały",
+          "description": "Utrzymuj wsparcie za pomocą klasycznych metod komunikacji"
+        }
+      },
+      "quickSetup": {
+        "title": "Gotowy do wdrożenia wszędzie?",
+        "subtitle": "Rozpocznij w kilka minut dzięki naszemu prostemu procesowi integracji",
+        "steps": [
+          {
+            "title": "Wybierz swoje kanały",
+            "description": "Wybierz spośród 8+ opcji wdrożenia"
+          },
+          {
+            "title": "Skopiuj i wklej kod",
+            "description": "Prosta instalacja widżetu"
+          },
+          {
+            "title": "Rozpocznij czatowanie",
+            "description": "Natychmiast rozpocznij wspieranie klientów"
+          }
+        ],
+        "button": "Rozpocznij darmowe wdrożenie"
+      }
+    },
+    "pricing": {
+      "title": "Cennik, który rośnie wraz z Tobą",
+      "subtitle": "Zacznij całkowicie za darmo z agentami ludzkimi, a następnie dodaj AI, gdy będziesz gotowy do skalowania.",
+      "monthly": "Miesięcznie",
+      "yearly": "Rocznie",
+      "save": "Oszczędź 20%",
+      "customize": "Dostosuj swój plan",
+      "chatVolume": "Miesięczny wolumen czatu",
+      "agents": "Liczba agentów",
+      "plans": {
+        "free": {
+          "name": "Prawdziwie darmowy",
+          "tagline": "Wypróbuj potężne funkcje",
+          "description": "Idealny do rozpoczęcia pracy z agentami ludzkimi",
+          "features": {
+            "humanAgent": "1 agent ludzki",
+            "unlimitedHumanChats": "Nieograniczone czaty z agentem ludzkim",
+            "unlimitedContacts": "Nieograniczone kontakty",
+            "unlimitedHistory": "Nieograniczona historia czatu",
+            "exportHistory": "Swoboda eksportowania historii czatu",
+            "channels": "Kanały: WhatsApp Messenger, widżet czatu",
+            "integrations": "Integracje: Wix, WordPress, Shopify, Make.com, Squarespace",
+            "aiAgent": "Agent AI ze 100 dożywotnimi odpowiedziami AI:",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "Baza wiedzy zawiera 20 dokumentów (maks. 200KB) i 250 tys. tokenów",
+            "workspace": "1 obszar roboczy"
+          },
+          "buttonText": "Rozpocznij za darmo"
+        },
+        "premium": {
+          "name": "Premium",
+          "tagline": "Dodaj więcej agentów AI i plików wiedzy",
+          "description": "Skaluj swoje wsparcie dzięki automatyzacji AI",
+          "month": "miesiąc",
+          "year": "rok",
+          "year_description": "Oszczędza 2 miesiące każdego roku",
+          "features": {
+            "humanAgents": "4 użytkowników ludzkich (dodatkowy użytkownik ludzki kosztuje 10 USD/miesiąc)",
+            "humanAgentPermission": "Wsparcie dla uprawnień agenta ludzkiego",
+            "assignAgent": "Przypisz agenta ludzkiego do indywidualnej rozmowy",
+            "unreadCounter": "Licznik nieprzeczytanych wiadomości dla każdego agenta ludzkiego",
+            "transferToHuman": "Przekazanie na żywo od agenta AI do agenta ludzkiego",
+            "transferToAI": "Przekazanie na żywo od agenta ludzkiego do agenta AI",
+            "unlimitedHumanChats": "Nieograniczone czaty z agentem ludzkim",
+            "unlimitedContacts": "Nieograniczone kontakty",
+            "unlimitedHistory": "Nieograniczona historia czatu",
+            "exportHistory": "Swoboda eksportowania historii czatu",
+            "channels": "Dodatkowe kanały: Line, Połączenie, Rozmowa telefoniczna",
+            "integrations": "Dodatkowe integracje: Kalendarz Google do automatycznego rezerwowania spotkań",
+            "aiAgents": "10 agentów AI, z których każdy agent ma:",
+            "aiModels": "Modele ChatGPT-4o i Mistral",
+            "knowledgeBase": "Baza wiedzy zawiera do 1000 dokumentów (10 MB na dokument) i 5M tokenów",
+            "chatSummary": "Podsumowanie czatu i powiadomienie e-mailowe",
+            "agentPrivacy": "Kontrola prywatności agenta",
+            "contactCapture": "Przechwytywanie kontaktów użytkowników za pomocą niestandardowych formularzy",
+            "chatCost": "Agent AI czatu zaczyna się od 0,006 USD za odpowiedź",
+            "voiceCost": "Agent AI głosowy przez rozmowy telefoniczne zaczyna się od 0,12 USD za minutę",
+            "workspaces": "2 obszary robocze (dodatkowy obszar roboczy kosztuje 15 USD/miesiąc)",
+            "knowledgeBaseFeatures": "Baza wiedzy:",
+            "advancedSearch": "Zaawansowane wyszukiwanie dokumentów - słowa kluczowe, wektory, hybrydowe",
+            "fileTypes": "Obsługiwane 20+ typów plików, z optymalizacją dla arkuszy kalkulacyjnych",
+            "automationFeatures": "Automatyzacja:",
+            "autoLabel": "Automatyczne etykietowanie rozmów zdefiniowanymi przez użytkownika etykietami",
+            "builtInActions": "Wbudowane akcje wyzwalane przez automatyczne etykietowanie: SMS, E-mail",
+            "externalAPI": "Zewnętrzne wywołania API jako wyzwalacze i akcje",
+            "voiceAgentFeatures": "Agenci głosowi AI:",
+            "voiceMessages": "Obsługa wiadomości głosowych w Messengerze, WhatsApp, Line",
+            "phoneCalls": "Obsługa dwukierunkowych rozmów telefonicznych",
+            "callDirection": "Obsługa połączeń przychodzących i wychodzących",
+            "transferAgent": "Przekazanie do agenta ludzkiego",
+            "callForwarding": "Obsługa przekierowania połączeń",
+            "sttLanguages": "10+ języków zamiany mowy na tekst",
+            "ttsLanguages": "10+ języków zamiany tekstu na mowę z głosami z Azure, ElevenLabs, OpenAI",
+            "callRecording": "Nagrywanie i podsumowanie rozmów",
+            "callNotification": "Powiadomienie o połączeniu e-mailowe",
+            "formTrackers": "Ustawianie trackerów formularzy z rozmów",
+            "slotExtractors": "Ekstraktory slotów z rozmów",
+            "timezoneFeatures": "Świadomość czasu lokalnego z obsługą stref czasowych, dla:",
+            "businessHours": "godzin pracy",
+            "appointmentBooking": "rezerwacji spotkań",
+            "humanAgent": "4 użytkowników ludzkich (dodatkowy użytkownik ludzki kosztuje 10 USD/miesiąc)",
+            "supportHumanAgent": "Wsparcie dla uprawnień agenta ludzkiego",
+            "liveTransferToHuman": "Przekazanie na żywo od agenta AI do agenta ludzkiego",
+            "liveTransferToAI": "Przekazanie na żywo od agenta ludzkiego do agenta AI",
+            "additionalChannels": "Dodatkowe kanały: Line, Połączenie, Rozmowa telefoniczna",
+            "additionalIntegrations": "Dodatkowe integracje: Kalendarz Google do automatycznego rezerwowania spotkań",
+            "knowledgeBaseTitle": "Baza wiedzy:",
+            "automationTitle": "Automatyzacja:",
+            "voiceAgentsTitle": "Agenci głosowi AI:",
+            "timezoneTitle": "Świadomość czasu lokalnego z obsługą stref czasowych, dla:"
+          },
+          "buttonText": "Rozpocznij Premium",
+          "badge": "Najpopularniejszy"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "tagline": "Dostosuj swoich ekskluzywnych agentów AI",
+          "description": "Niestandardowe rozwiązania dla dużych organizacji",
+          "features": {
+            "premiumIncluded": "Wszystko w planie Premium",
+            "customBuild": "Niestandardowa budowa",
+            "multipleWorkspaces": "Wiele obszarów roboczych - idealne dla agencji",
+            "workspaceAgents": "Każdy obszar roboczy ma wielu agentów AI i numery telefonów",
+            "gpt4oRealtimeAPI": "Dostęp do API GPT-4o Realtime",
+            "customAPI": "Niestandardowa integracja API",
+            "fineTuning": "Dostrajanie z Twoimi wytycznymi i wsparciem technicznym"
+          },
+          "buttonText": "Skontaktuj się z nami"
+        }
+      },
+      "billing": {
+        "monthly": "Miesięcznie",
+        "yearly": "Rocznie",
+        "year": "rok",
+        "month": "miesiąc",
+        "save": "Oszczędź 2 miesiące w porównaniu do rozliczeń miesięcznych"
+      },
+      "calculator": {
+        "title": "Kalkulator planu i użycia modelu",
+        "description": "Oszacuj swoje koszty na podstawie wzorców użytkowania",
+        "modelSelect": "Wybierz model AI",
+        "priceBreakdown": "Rozkład kosztów",
+        "licenseYearly": "Opłata licencyjna (oszczędź 2 miesiące):",
+        "licenseFee": "Opłata licencyjna:",
+        "usageCost": "Koszt użytkowania:",
+        "usageCostYearly": "Koszt użytkowania (12 miesięcy):",
+        "addOnsCost": "Koszt dodatków:",
+        "addOnsCostYearly": "Koszt dodatków (12 miesięcy):",
+        "totalPerYear": "Całkowity koszt roczny:",
+        "totalPerMonth": "Całkowity koszt miesięczny:",
+        "averagePerMonth": "Średnio miesięcznie:",
+        "aiUsage": "Użycie AI (płać za użycie)",
+        "chatResponses": "Miesięczne odpowiedzi na czacie:",
+        "voiceMinutes": "Miesięczne minuty głosowe:",
+        "voiceMinutesNote": "Tylko USA/Kanada",
+        "chatCost": "Koszt czatu",
+        "voiceCost": "Koszt głosu",
+        "additionalResources": "Dodatkowe zasoby",
+        "humanAgents": "Agenci ludzcy:",
+        "aiAgents": "Agenci AI:",
+        "workspaces": "Obszary robocze:",
+        "included": "Wliczone:",
+        "extra": "Dodatkowo:",
+        "disclaimer": "Koszty użytkowania są obliczane na podstawie rzeczywistego zużycia. Plan Premium obejmuje:",
+        "disclaimerDetails": "Opłata licencyjna + użycie AI (płać za użycie) + dodatkowe zasoby poza wliczonymi limitami.",
+        "planIncludes": "Plan Premium obejmuje:",
+        "planIncludesHuman": "4 agentów ludzkich",
+        "planIncludesAI": "10 agentów AI",
+        "planIncludesWorkspaces": "2 obszary robocze",
+        "perChatResponse": "za odpowiedź na czacie",
+        "perVoiceMinute": "za minutę głosu",
+        "voiceOnly": "Model tylko głosowy",
+        "voicePricing": "Cennik głosu",
+        "standardVoice": "Standardowy głos",
+        "premiumVoice": "Głos premium",
+        "placeholderText": "Tekst zastępczy"
+      },
+      "note": "Ceny podane są w USD. Ceny połączeń głosowych różnią się w zależności od kraju, a podane ceny dotyczą Stanów Zjednoczonych i Kanady. W przypadku innych krajów prosimy o kontakt.",
+      "comparison": {
+        "title": "Porównaj wszystkie funkcje",
+        "subtitle": "Zobacz dokładnie, co zawiera każdy plan",
+        "featuresTitle": "Funkcje",
+        "trulyFree": "Prawdziwie darmowy",
+        "premium": "Premium",
+        "enterprise": "Enterprise",
+        "humanAgents": "Agenci ludzcy",
+        "aiAgents": "Agenci AI",
+        "aiModels": "Modele AI",
+        "knowledgeBase": "Baza wiedzy",
+        "voiceAI": "Agenci głosowi AI",
+        "phoneCalls": "Rozmowy telefoniczne",
+        "automation": "Automatyzacja",
+        "apiIntegration": "Integracja API",
+        "workspaces": "Obszary robocze",
+        "support": "Wsparcie",
+        "features": {
+          "humanAgents": {
+            "free": "1 agent",
+            "premium": "4 użytkowników",
+            "enterprise": "Nieograniczone"
+          },
+          "aiAgents": {
+            "free": "1 agent (100 odpowiedzi)",
+            "premium": "10 agentów (nieograniczone)",
+            "enterprise": "Niestandardowa budowa"
+          },
+          "aiModels": {
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o, Mistral",
+            "enterprise": "Zaawansowane modele"
+          },
+          "knowledgeBase": {
+            "free": "20 dokumentów (200KB)",
+            "premium": "5000 dokumentów (po 10MB)",
+            "enterprise": "Nieograniczone"
+          },
+          "voiceAI": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
+          },
+          "phoneCalls": {
+            "free": "❌",
+            "premium": "✅ Przychodzące/Wychodzące",
+            "enterprise": "✅"
+          },
+          "automation": {
+            "free": "❌",
+            "premium": "✅ Zaawansowane",
+            "enterprise": "✅ Niestandardowe"
+          },
+          "apiIntegration": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ Niestandardowe"
+          },
+          "workspaces": {
+            "free": "1",
+            "premium": "2 (15 USD za każdy dodatkowy)",
+            "enterprise": "Wiele"
+          },
+          "support": {
+            "free": "Społeczność",
+            "premium": "E-mail + Telefon",
+            "enterprise": "Dedykowane wsparcie techniczne"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Potrzebujesz czegoś niestandardowego?",
+        "description": "Oferujemy niestandardowe rozwiązania dla przedsiębiorstw, w tym wdrożenia lokalne, zaawansowane funkcje bezpieczeństwa i dedykowane zespoły wsparcia.",
+        "contactSales": "Skontaktuj się z zespołem sprzedaży"
+      },
+      "faq": {
+        "title": "Często zadawane pytania",
+        "question1": "Czy darmowy plan jest naprawdę darmowy na zawsze?",
+        "answer1": "Tak! Nasz plan Prawdziwie Darmowy obejmuje 1 agenta ludzkiego na zawsze z nieograniczonymi rozmowami, historią czatu i kontaktami. Dodatkowo otrzymujesz 1 agenta AI ze 100 dożywotnimi odpowiedziami AI, aby wypróbować nasze funkcje AI. Karta kredytowa nie jest wymagana, bez ukrytych opłat.",
+        "question2": "Jaka jest różnica między rozliczeniem miesięcznym a rocznym?",
+        "answer2": "Przy rozliczeniu rocznym oszczędzasz 2 miesiące na planie Premium (299 USD/rok vs 359,88 USD/rok przy płatności miesięcznej). Cykl rozliczeniowy dotyczy tylko planu Premium - plan Darmowy jest zawsze darmowy, a Enterprise ma niestandardowy cennik.",
+        "question3": "Czy mogę w każdej chwili ulepszyć lub obniżyć swój plan?",
+        "answer3": "Absolutnie! Możesz zmienić swój plan w dowolnym momencie. Ulepszenia wchodzą w życie natychmiast, a obniżenia wchodzą w życie z końcem bieżącego cyklu rozliczeniowego.",
+        "question4": "Co się stanie, jeśli przekroczę limit odpowiedzi AI w planie Darmowym?",
+        "answer4": "Plan Darmowy obejmuje 100 dożywotnich odpowiedzi AI. Po osiągnięciu tego limitu będziesz musiał uaktualnić do planu Premium, aby uzyskać nieograniczone odpowiedzi AI. Funkcjonalność agenta ludzkiego pozostaje nieograniczona we wszystkich planach.",
+        "question5": "Jak działa cennik planu Premium?",
+        "answer5": "Plan Premium składa się z dwóch elementów: opłaty licencyjnej (29,99 USD/miesiąc lub 299 USD/rok) plus ceny oparte na zużyciu. Zużycie obejmuje odpowiedzi AI zaczynające się od 0,006 USD za każdą (ChatGPT-4o mini) i połączenia głosowe za 0,12 USD/minutę. Dodatkowi użytkownicy ludzcy kosztują 10 USD/miesiąc każdy, a dodatkowe obszary robocze kosztują 15 USD/miesiąc każdy.",
+        "question6": "Co się stanie z moimi danymi, jeśli anuluję?",
+        "answer6": "Jesteś właścicielem swoich danych. Możesz eksportować całą historię czatu, kontakty i zawartość bazy wiedzy w dowolnym momencie, nawet w planie darmowym. Wierzymy w wolność danych i przejrzystość.",
+        "question7": "Czy oferujecie niestandardowe ceny dla dużych przedsiębiorstw?",
+        "answer7": "Tak! Nasz plan Enterprise oferuje niestandardowe budowy, wiele usług AI idealnych dla agencji, niestandardowe integracje API i profesjonalne wytyczne projektowe ze wsparciem technicznym. Skontaktuj się z naszym zespołem sprzedaży, aby uzyskać spersonalizowaną ofertę."
+      },
+      "cta": {
+        "title": "Twoja rewolucja w czacie AI",
+        "subtitle": "Zaczyna się teraz!",
+        "description": "Dołącz do ponad 100 000 firm, które już używają SeaChat do zapewniania wyjątkowych doświadczeń klientom we wszystkich kanałach komunikacji",
+        "stats": {
+          "messages": "100 tys.+",
+          "messagesLabel": "Wiadomości dziennie",
+          "uptime": "99,9%",
+          "uptimeLabel": "Gwarancja dostępności",
+          "channels": "15+",
+          "channelsLabel": "Obsługiwane kanały",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "Zgodne i bezpieczne"
+        },
+        "startFree": "ROZPOCZNIJ NAPRAWDĘ ZA DARMO",
+        "bookDemo": "Zarezerwuj demo na żywo",
+        "badges": {
+          "noCoding": "Nie wymaga kodowania",
+          "freePlan": "Darmowy plan na zawsze",
+          "cancelAnytime": "Anuluj w dowolnym momencie",
+          "support": "Wsparcie 24/7"
+        },
+        "urgency": "Ograniczony czas: Uzyskaj 2 miesiące za darmo w planach rocznych + priorytetowe wsparcie wdrożeniowe!",
+        "limitedTime": "Ograniczony czas:"
+      }
+    },
+    "knowledgeBase": {
+      "title": "Potężna baza wiedzy",
+      "subtitle": "Prześlij 30+ typów plików, a AI zapewni bogate, kontekstowe odpowiedzi z kartami, przyciskami, obrazami i filmami.",
+      "supportedFormats": {
+        "title": "Obsługiwane typy plików",
+        "formats": {
+          "pdf": {
+            "name": "Dokumenty PDF",
+            "count": "15 plików"
+          },
+          "excel": {
+            "name": "Arkusze Excel",
+            "count": "8 plików"
+          },
+          "word": {
+            "name": "Dokumenty Word",
+            "count": "12 plików"
+          },
+          "images": {
+            "name": "Obrazy",
+            "count": "25 obrazów"
+          },
+          "websites": {
+            "name": "Strony internetowe",
+            "count": "5 stron"
+          },
+          "videos": {
+            "name": "Filmy",
+            "count": "3 filmy"
+          }
+        },
+        "richResponse": {
+          "title": "Bogate formatowanie odpowiedzi:",
+          "features": [
+            "Interaktywne karty",
+            "Przyciski akcji",
+            "Osadzone obrazy",
+            "Odpowiedzi wideo"
+          ]
+        },
+        "addDocuments": "Dodaj swoje dokumenty"
+      },
+      "uploadModal": {
+        "title": "Prześlij swoje dokumenty",
+        "dropzone": {
+          "title": "Upuść swoje pliki tutaj",
+          "description": "Obsługa plików PDF, Word, Excel, obrazów, filmów i innych",
+          "button": "Wybierz pliki"
+        },
+        "demoFiles": [
+          "sample_manual.pdf",
+          "product_data.xlsx",
+          "brand_guide.jpg"
+        ],
+        "close": "Zamknij demo"
+      }
+    },
+    "useCases": {
+      "title": "Historie sukcesu w różnych branżach",
+      "subtitle": "Zobacz, jak firmy przekształcają obsługę klienta dzięki hybrydowemu podejściu człowiek-AI SeaChat.",
+      "cases": {
+        "ecommerce": {
+          "title": "Rewolucja w obsłudze e-commerce",
+          "industry": "Handel detaliczny",
+          "challenge": "Zarządzanie ponad 500 zapytaniami klientów dziennie w wielu kanałach z ograniczoną liczbą pracowników",
+          "solution": "Wdrożono SeaChat z agentami AI obsługującymi 70% rutynowych zapytań, agentami ludzkimi do złożonych problemów",
+          "results": [
+            "60% skrócenie czasu odpowiedzi",
+            "40% wzrost satysfakcji klienta",
+            "75% oszczędności kosztów operacji wsparcia"
+          ],
+          "metrics": {
+            "responseTime": "< 30s",
+            "satisfaction": "94%",
+            "cost": "-75%"
+          }
+        },
+        "healthcare": {
+          "title": "Wsparcie pacjentów w opiece zdrowotnej",
+          "industry": "Opieka zdrowotna",
+          "challenge": "Zapewnienie całodobowego wsparcia pacjentów przy zachowaniu zgodności z HIPAA",
+          "solution": "Zintegrowani bezpieczni agenci AI z rezerwacją wizyt i wstępnym badaniem objawów",
+          "results": [
+            "Całodobowa pomoc pacjentom",
+            "50% redukcja nieobecności",
+            "100% zachowana zgodność z HIPAA"
+          ],
+          "metrics": {
+            "availability": "24/7",
+            "noShows": "-50%",
+            "compliance": "100%"
+          }
+        },
+        "fintech": {
+          "title": "Doskonałość w usługach finansowych",
+          "industry": "FinTech",
+          "challenge": "Obsługa wrażliwych zapytań finansowych z szybkością i bezpieczeństwem",
+          "solution": "Niestandardowe szkolenie AI w zakresie regulacji finansowych z płynną eskalacją do człowieka",
+          "results": [
+            "90% rozwiązania problemu przy pierwszym kontakcie",
+            "3x szybsze przetwarzanie zapytań",
+            "Ulepszone protokoły bezpieczeństwa"
+          ],
+          "metrics": {
+            "resolution": "90%",
+            "speed": "3x",
+            "security": "Ulepszone"
+          }
+        }
+      },
+      "cta": {
+        "title": "Gotowy, aby przekształcić swoje wsparcie?",
+        "description": "Dołącz do setek firm, które już używają SeaChat do zapewniania wyjątkowych doświadczeń klientom.",
+        "buttons": {
+          "viewCases": "Zobacz wszystkie studia przypadków",
+          "startStory": "Rozpocznij swoją historię sukcesu"
+        },
+        "signUpFree": "Zarejestruj się za darmo",
+        "bookDemo": "Zarezerwuj demo"
+      },
+      "labels": {
+        "challenge": "Wyzwanie:",
+        "solution": "Rozwiązanie:",
+        "resultsAchieved": "Osiągnięte wyniki:"
+      },
+      "metrics": {
+        "responseTime": "Czas odpowiedzi",
+        "satisfaction": "Satysfakcja",
+        "cost": "Koszt",
+        "availability": "Dostępność",
+        "noShows": "Nieobecności",
+        "compliance": "Zgodność",
+        "resolution": "Rozwiązanie",
+        "speed": "Szybkość",
+        "security": "Bezpieczeństwo"
+      }
+    },
+    "testimonials": {
+      "title": "Ukochany przez zespoły wsparcia na całym świecie",
+      "subtitle": "Nie wierz nam na słowo. Oto, co mówią nasi klienci o przekształceniu swojego wsparcia dzięki SeaChat.",
+      "navigation": {
+        "previous": "Poprzedni",
+        "next": "Następny"
+      },
+      "trustedBy": "Zaufany przez innowacyjne firmy na całym świecie",
+      "stats": {
+        "customers": "10 000+ zadowolonych klientów",
+        "uptime": "99,9% dostępności",
+        "messages": "Przetworzono ponad 50 milionów wiadomości",
+        "rating": "Ocena klienta 4,9/5"
+      },
+      "testimonials": {
+        "0": {
+          "name": "Sarah Chen",
+          "title": "Dyrektor ds. sukcesu klienta",
+          "company": "TechFlow Solutions",
+          "quote": "SeaChat przekształcił nasze operacje wsparcia. Rozpoczęcie od darmowych agentów ludzkich było idealne dla naszego startupu, a skalowanie z AI było płynne. Nasze czasy odpowiedzi poprawiły się o 70%.",
+          "metrics": {
+            "improvement": "70%",
+            "feature": "Czas odpowiedzi"
+          }
+        },
+        "1": {
+          "name": "Marcus Rodriguez",
+          "title": "Kierownik operacyjny",
+          "company": "EcoCommerce",
+          "quote": "Funkcja bazy wiedzy jest niesamowita. Przesłaliśmy cały nasz katalog produktów i często zadawane pytania, a AI obsługuje teraz 80% zapytań klientów z doskonałą dokładnością.",
+          "metrics": {
+            "improvement": "80%",
+            "feature": "Rozwiązanie zapytań"
+          }
+        },
+        "2": {
+          "name": "Emily Watson",
+          "title": "Kierownik ds. doświadczeń klienta",
+          "company": "HealthTech Pro",
+          "quote": "Integracja wielokanałowa jest bezbłędna. Nasi klienci mogą rozpocząć rozmowę na WhatsApp i kontynuować na naszej stronie internetowej bez utraty kontekstu. Zmieniająca grę!",
+          "metrics": {
+            "improvement": "95%",
+            "feature": "Satysfakcja klienta"
+          }
+        },
+        "3": {
+          "name": "David Park",
+          "title": "Założyciel i CEO",
+          "company": "StartupFlow",
+          "quote": "Jako startup bootstrapowy, darmowy plan był ratunkiem. Zapewniliśmy profesjonalne wsparcie od pierwszego dnia bez żadnych kosztów początkowych. Teraz z radością płacimy za funkcje AI w miarę skalowania.",
+          "metrics": {
+            "improvement": "$0",
+            "feature": "Koszt początkowy"
+          }
+        },
+        "4": {
+          "name": "Lisa Thompson",
+          "title": "Lider zespołu wsparcia",
+          "company": "GlobalRetail Inc",
+          "quote": "Przekazanie człowiek-AI jest tak płynne, że klienci nawet nie zauważają, kiedy są przełączani między agentami AI a ludzkimi. To dokładnie to, czego potrzebowaliśmy do naszych złożonych scenariuszy wsparcia.",
+          "metrics": {
+            "improvement": "100%",
+            "feature": "Płynne przekazanie"
+          }
+        }
+      }
+    },
+    "blog": {
+      "title": "Najnowsze spostrzeżenia i zasoby",
+      "subtitle": "Bądź na bieżąco z eksperckimi spostrzeżeniami na temat trendów w obsłudze klienta, strategii wdrażania AI i wskazówek dotyczących optymalizacji platformy.",
+      "categories": {
+        "all": "Wszystkie",
+        "ai": "AI i automatyzacja",
+        "strategy": "Strategia",
+        "integration": "Integracja",
+        "knowledge": "Zarządzanie wiedzą",
+        "success": "Sukces klienta"
+      },
+      "featured": "Wyróżnione",
+      "latest": "Najnowsze posty",
+      "readTime": "min czytania",
+      "stayUpdated": "Bądź na bieżąco",
+      "newsletterSubtitle": "Otrzymuj najnowsze spostrzeżenia na temat obsługi klienta AI, aktualizacji platformy i najlepszych praktyk branżowych dostarczane do Twojej skrzynki odbiorczej.",
+      "joinProfessionals": "Dołącz do ponad 5000 specjalistów ds. wsparcia. Anuluj subskrypcję w dowolnym momencie.",
+      "loading": "Ładowanie postów na blogu...",
+      "loadingPost": "Ładowanie artykułu...",
+      "backToBlog": "Wróć do bloga",
+      "share": "Udostępnij",
+      "tags": "Tagi",
+      "followLinkedIn": "Obserwuj na LinkedIn",
+      "moreArticles": "Więcej artykułów",
+      "relatedArticles": "Powiązane artykuły",
+      "searchPlaceholder": "Szukaj artykułów, tematów lub tagów...",
+      "articleCount": "znaleziono artykuł(y)",
+      "noArticles": "Nie znaleziono artykułów",
+      "adjustSearch": "Spróbuj dostosować wyszukiwane hasła lub filtr kategorii."
+    }
+  }
+}
