@@ -1,0 +1,743 @@
+{
+  "seavoice": {
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "Agendamento e Gerenciamento de Consultas",
+            "description": "Automatize o agendamento de consultas com IA que entende disponibilidade, preferências e regras de negócios. Reduza as faltas e otimize seu processo de agendamento com interações de voz inteligentes.",
+            "cta": "Automatizar Agendamento de Consultas"
+          },
+          "features": {
+            "title": "Gerenciamento Inteligente de Consultas",
+            "subtitle": "Sistema de agendamento abrangente que lida com cenários complexos de agendamento",
+            "intelligentScheduling": {
+              "title": "Agendamento Inteligente",
+              "description": "Agendamento de consultas alimentado por IA que entende disponibilidade e preferências.",
+              "benefit1": "Disponibilidade em tempo real",
+              "benefit2": "Resolução inteligente de conflitos",
+              "benefit3": "Correspondência de preferências"
+            },
+            "automatedReminders": {
+              "title": "Lembretes Automatizados",
+              "description": "Reduza as faltas com lembretes e confirmações de agendamento automatizados.",
+              "benefit1": "Lembretes por SMS e voz",
+              "benefit2": "Tempo personalizável",
+              "benefit3": "Rastreamento de confirmação"
+            },
+            "multiProviderSupport": {
+              "title": "Suporte a Vários Provedores",
+              "description": "Gerencie agendamentos em vários provedores, locais e serviços.",
+              "benefit1": "Disponibilidade do provedor",
+              "benefit2": "Gerenciamento de localização",
+              "benefit3": "Categorização de serviços"
+            }
+          },
+          "capabilities": {
+            "title": "Solução Completa de Agendamento",
+            "subtitle": "Lide com todos os aspectos do gerenciamento de agendamentos automaticamente",
+            "appointmentScheduling": {
+              "capability": "Agendamento de Consultas",
+              "description": "Agende novas consultas com base na disponibilidade e preferências",
+              "feature1": "Horários disponíveis",
+              "feature2": "Seleção de provedor",
+              "feature3": "Correspondência de tipo de serviço"
+            },
+            "rescheduling": {
+              "capability": "Reagendamento",
+              "description": "Modifique agendamentos existentes com resolução automática de conflitos",
+              "feature1": "Detecção de conflitos",
+              "feature2": "Sugestões alternativas",
+              "feature3": "Atualizações automáticas"
+            },
+            "cancellationManagement": {
+              "capability": "Gerenciamento de Cancelamento",
+              "description": "Lide com cancelamentos e gerenciamento de lista de espera de forma eficiente",
+              "feature1": "Políticas de cancelamento",
+              "feature2": "Automação de lista de espera",
+              "feature3": "Processamento de reembolso"
+            },
+            "reminderSystem": {
+              "capability": "Sistema de Lembretes",
+              "description": "Lembretes automatizados para reduzir as faltas e melhorar a presença",
+              "feature1": "Lembretes multi-canal",
+              "feature2": "Tempo personalizável",
+              "feature3": "Solicitações de confirmação"
+            }
+          },
+          "industries": {
+            "title": "Aplicações da Indústria",
+            "subtitle": "Soluções de agendamento personalizadas para diferentes indústrias e casos de uso",
+            "healthcare": {
+              "industry": "Saúde",
+              "description": "Consultas médicas, consultas e procedimentos",
+              "benefit1": "Agendamento de pacientes",
+              "benefit2": "Coordenação de provedores",
+              "benefit3": "Verificação de seguro"
+            },
+            "beautyWellness": {
+              "industry": "Beleza e Bem-Estar",
+              "description": "Agendamentos de salão, serviços de spa e sessões de bem-estar",
+              "benefit1": "Rastreamento de duração do serviço",
+              "benefit2": "Preferências de estilo",
+              "benefit3": "Agendamentos de pacotes"
+            },
+            "professionalServices": {
+              "industry": "Serviços Profissionais",
+              "description": "Consultas, reuniões e agendamentos de serviços",
+              "benefit1": "Reserva de sala de reunião",
+              "benefit2": "Disponibilidade de consultor",
+              "benefit3": "Preferências do cliente"
+            }
+          },
+          "reminderSection": {
+            "title": "Sistema de Lembretes Automatizado",
+            "description": "Reduza significativamente as faltas com campanhas de lembretes inteligentes que alcançam os clientes através de seus canais de comunicação preferidos em horários ideais.",
+            "multiChannelReminders": {
+              "title": "Lembretes Multi-Canal",
+              "description": "Chamadas de voz, SMS e lembretes por e-mail"
+            },
+            "optimalTiming": {
+              "title": "Tempo Ideal",
+              "description": "A IA determina os melhores horários para enviar lembretes"
+            },
+            "performanceTracking": {
+              "title": "Rastreamento de Desempenho",
+              "description": "Monitore a eficácia do lembrete e otimize"
+            },
+            "reminderTimeline": {
+              "title": "Linha do Tempo do Lembrete"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "Confirmação Inicial",
+                "description": "Confirmação e detalhes do agendamento"
+              },
+              "dayBefore": {
+                "title": "Lembrete do Dia Anterior",
+                "description": "Lembrete final com instruções de preparação"
+              },
+              "lastMinute": {
+                "title": "Verificação de Última Hora",
+                "description": "Confirmação final e direções"
+              },
+              "sevenDays": "7d",
+              "oneDay": "1d",
+              "twoHours": "2h"
+            }
+          },
+          "benefits": {
+            "title": "Resultados de Desempenho de Agendamento",
+            "subtitle": "Melhorias mensuráveis na eficiência do gerenciamento de agendamentos",
+            "noShowReduction": {
+              "metric": "40%",
+              "description": "Redução nas taxas de não comparecimento"
+            },
+            "availabilityWindow": {
+              "metric": "24/7",
+              "description": "Disponibilidade de agendamento"
+            },
+            "bookingAccuracy": {
+              "metric": "85%",
+              "description": "Taxa de precisão de agendamento"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "Redução na carga de trabalho administrativa"
+            }
+          },
+          "cta": {
+            "title": "Pronto para Automatizar o Agendamento de Consultas?",
+            "description": "Otimize o agendamento e reduza as faltas com gerenciamento inteligente de consultas",
+            "startFreeTrial": "Iniciar Teste Gratuito",
+            "scheduleDemo": "Agendar Demonstração"
+          }
+        },
+        "mentalHealth": {
+          "hero": {
+            "title": "Companheiro de Voz para Saúde Mental",
+            "description": "Forneça suporte compassivo e 24 horas por dia, 7 dias por semana, para saúde mental com IA que ouve, entende e responde com empatia. Preencha com segurança a lacuna entre a crise e o cuidado profissional.",
+            "cta": "Saiba Mais sobre IA para Saúde Mental"
+          },
+          "features": {
+            "title": "Suporte Compassivo de IA",
+            "description": "IA avançada treinada em suporte à saúde mental e intervenção em crises",
+            "empathetic": {
+              "title": "Companheiro de IA Empático",
+              "description": "Treinado para fornecer suporte compassivo e sem julgamento com respostas emocionais apropriadas.",
+              "benefits": {
+                "activeListening": "Escuta ativa",
+                "emotionalValidation": "Validação emocional",
+                "crisisRecognition": "Reconhecimento de crise"
+              }
+            },
+            "safe": {
+              "title": "Seguro e Confidencial",
+              "description": "Plataforma compatível com HIPAA garantindo total privacidade e confidencialidade para todas as interações.",
+              "benefits": {
+                "hipaaCompliance": "Conformidade com HIPAA",
+                "encryptedConversations": "Conversas criptografadas",
+                "anonymousOptions": "Opções anônimas"
+              }
+            },
+            "availability": {
+              "title": "Disponibilidade 24/7",
+              "description": "Sempre disponível quando alguém precisa conversar, fornecendo suporte imediato durante momentos de crise.",
+              "benefits": {
+                "roundTheClockAccess": "Acesso 24 horas por dia",
+                "immediateResponse": "Resposta imediata",
+                "noWaitTimes": "Sem tempos de espera"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "Capacidades de Suporte à Saúde Mental",
+            "description": "Suporte abrangente em todo o espectro de cuidados de saúde mental",
+            "screening": {
+              "title": "Triagem Inicial de Saúde Mental",
+              "description": "Conduza avaliações preliminares usando ferramentas de triagem validadas",
+              "outcomes": {
+                "earlyIdentification": "Identificação precoce",
+                "riskAssessment": "Avaliação de risco",
+                "appropriateReferrals": "Encaminhamentos apropriados"
+              }
+            },
+            "crisis": {
+              "title": "Intervenção em Crise",
+              "description": "Reconheça situações de crise e forneça suporte ou escalonamento imediato",
+              "outcomes": {
+                "crisisDetection": "Detecção de crise",
+                "deEscalationTechniques": "Técnicas de desescalonamento",
+                "emergencyProtocols": "Protocolos de emergência"
+              }
+            },
+            "navigation": {
+              "title": "Navegação de Recursos",
+              "description": "Guie os usuários para recursos e serviços de saúde mental apropriados",
+              "outcomes": {
+                "serviceMatching": "Correspondência de serviço",
+                "appointmentScheduling": "Agendamento de consultas",
+                "followUpSupport": "Suporte de acompanhamento"
+              }
+            },
+            "emotional": {
+              "title": "Suporte Emocional",
+              "description": "Forneça escuta compassiva e validação emocional",
+              "outcomes": {
+                "reducedIsolation": "Isolamento reduzido",
+                "emotionalRelief": "Alívio emocional",
+                "copingStrategies": "Estratégias de enfrentamento"
+              }
+            }
+          },
+          "safety": {
+            "title": "Design com Segurança em Primeiro Lugar",
+            "description": "Nossa IA de saúde mental é projetada com a segurança como prioridade máxima, apresentando detecção avançada de crises e protocolos de escalonamento imediato para garantir que os usuários recebam cuidados profissionais apropriados quando necessário.",
+            "features": {
+              "title": "Recursos de Segurança"
+            },
+            "crisisDetection": {
+              "title": "Detecção de Crise",
+              "description": "Algoritmos avançados identificam situações de crise"
+            },
+            "professionalHandoff": {
+              "title": "Transferência Profissional",
+              "description": "Transferência perfeita para profissionais de saúde mental humanos"
+            },
+            "emergencyProtocols": {
+              "title": "Protocolos de Emergência",
+              "description": "Conexão imediata com linhas diretas de crise quando necessário"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "Detecção de palavras-chave de crise",
+            "suicideRiskAssessment": "Avaliação de risco de suicídio",
+            "automaticEscalationProtocols": "Protocolos de escalonamento automático",
+            "emergencyContactIntegration": "Integração de contato de emergência",
+            "professionalHandoffProcedures": "Procedimentos de transferência profissional",
+            "followUpScheduling": "Agendamento de acompanhamento"
+          },
+          "benefits": {
+            "title": "Impacto na Saúde Mental",
+            "description": "Melhorias mensuráveis na acessibilidade do suporte à saúde mental",
+            "alwaysAvailableSupport": "Suporte sempre disponível",
+            "crisisEscalationReduction": "Redução no escalonamento de crises",
+            "userSatisfactionRate": "Taxa de satisfação do usuário",
+            "helpSeekingBehaviorIncrease": "Aumento no comportamento de busca de ajuda"
+          },
+          "cta": {
+            "title": "Pronto para Apoiar a Saúde Mental?",
+            "description": "Forneça suporte compassivo e 24 horas por dia, 7 dias por semana, para saúde mental com IA que realmente se importa",
+            "learnMore": "Saiba Mais",
+            "contactSpecialists": "Entre em Contato com Especialistas"
+          }
+        },
+        "callTransfer": {
+          "hero": {
+            "title": "Transferência Inteligente de Chamadas Durante o Horário Comercial",
+            "description": "Revolucione seu roteamento de chamadas com transferência inteligente alimentada por IA que entende a intenção do chamador e os conecta à pessoa certa instantaneamente, reduzindo os tempos de espera e melhorando a satisfação do cliente.",
+            "primaryCta": "Otimize seu Roteamento de Chamadas"
+          },
+          "features": {
+            "title": "Recursos de Roteamento Inteligente de Chamadas",
+            "description": "Tecnologia de IA avançada que entende e roteia chamadas com precisão",
+            "intelligentRouting": {
+              "title": "Roteamento Inteligente",
+              "description": "A IA analisa a intenção do chamador e roteia para o departamento ou agente mais apropriado.",
+              "benefits": {
+                "0": "Reconhecimento de intenção",
+                "1": "Roteamento baseado em habilidades",
+                "2": "Tratamento prioritário"
+              }
+            },
+            "agentOptimization": {
+              "title": "Otimização de Agente",
+              "description": "Equilibre a carga de trabalho entre os agentes e garanta que as chamadas cheguem a especialistas disponíveis.",
+              "benefits": {
+                "0": "Balanceamento de carga",
+                "1": "Verificação de disponibilidade",
+                "2": "Correspondência de experiência"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "Tempos de Espera Reduzidos",
+              "description": "Minimize os tempos de espera do cliente com roteamento eficiente e gerenciamento de fila.",
+              "benefits": {
+                "0": "Otimização de fila",
+                "1": "Opções de retorno de chamada",
+                "2": "Atualizações em tempo real"
+              }
+            }
+          },
+          "routing": {
+            "title": "Roteamento Inteligente em Ação",
+            "description": "Veja como nossa IA identifica a intenção e roteia chamadas para resultados ideais"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "Dúvida de Faturamento",
+              "action": "Encaminhar para o Departamento de Faturamento",
+              "result": "90% de resolução na primeira chamada"
+            },
+            "technicalSupport": {
+              "trigger": "Suporte Técnico",
+              "action": "Encaminhar para a Equipe Técnica",
+              "result": "85% de resolução de problemas"
+            },
+            "salesInterest": {
+              "trigger": "Interesse em Vendas",
+              "action": "Encaminhar para a Equipe de Vendas",
+              "result": "40% de taxa de conversão"
+            },
+            "vipCustomer": {
+              "trigger": "Cliente VIP",
+              "action": "Fila de Prioridade",
+              "result": "< 30 segundos de tempo de espera"
+            }
+          },
+          "benefits": {
+            "title": "Impacto Mensurável",
+            "description": "Resultados reais da implementação de transferência inteligente de chamadas"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "Redução no tempo médio de espera"
+            },
+            "resolution": {
+              "description": "Taxa de resolução na primeira chamada"
+            },
+            "efficiency": {
+              "description": "Melhora na eficiência do agente"
+            },
+            "accuracy": {
+              "description": "Roteamento preciso para o departamento correto"
+            }
+          },
+          "cta": {
+            "title": "Pronto para Otimizar seu Roteamento de Chamadas?",
+            "description": "Reduza os tempos de espera e melhore a satisfação do cliente com transferência inteligente de chamadas",
+            "primaryButton": "Iniciar Teste Gratuito",
+            "secondaryButton": "Ver Demonstração"
+          }
+        },
+        "scamShield": {
+          "hero": {
+            "title": "Proteção contra Golpes",
+            "subtitle": "Proteja seus clientes de golpes telefônicos e chamadas fraudulentas com detecção alimentada por IA que identifica e bloqueia ameaças em tempo real, mantendo sua comunidade segura contra fraudes financeiras.",
+            "cta": "Ativar Proteção contra Golpes"
+          },
+          "features": {
+            "title": "Detecção Avançada de Golpes",
+            "subtitle": "Proteção multi-camadas contra táticas de fraude em evolução",
+            "realTimeDetection": {
+              "title": "Detecção de Golpes em Tempo Real",
+              "description": "Algoritmos avançados de IA identificam e bloqueiam chamadas fraudulentas antes que cheguem aos seus clientes.",
+              "benefit1": "Reconhecimento de padrões",
+              "benefit2": "Análise comportamental",
+              "benefit3": "Bloqueio instantâneo"
+            },
+            "threatIntelligence": {
+              "title": "Inteligência de Ameaças",
+              "description": "Banco de dados continuamente atualizado de padrões de golpes conhecidos e números de telefone fraudulentos.",
+              "benefit1": "Dados de ameaças globais",
+              "benefit2": "Atualizações em tempo real",
+              "benefit3": "Aprendizado de máquina"
+            },
+            "customerProtection": {
+              "title": "Proteção ao Cliente",
+              "description": "Proteja proativamente os clientes contra fraudes financeiras e tentativas de roubo de identidade.",
+              "benefit1": "Prevenção de fraudes",
+              "benefit2": "Proteção de identidade",
+              "benefit3": "Segurança financeira"
+            }
+          },
+          "scamTypes": {
+            "title": "Protegido contra Todos os Tipos de Golpes",
+            "subtitle": "Proteção abrangente contra as táticas de fraude mais comuns",
+            "phishing": {
+              "type": "Chamadas de Phishing",
+              "description": "Tentativas de roubar informações pessoais ou credenciais de login",
+              "detection": "Análise de padrão de voz e detecção de palavras-chave",
+              "action": "Terminação imediata da chamada e alerta ao cliente"
+            },
+            "techSupport": {
+              "type": "Golpes de Suporte Técnico",
+              "description": "Falso suporte técnico alegando problemas de computador",
+              "detection": "Reconhecimento de padrão de script e verificação de ID do chamador",
+              "action": "Bloquear chamada e fornecer contato de suporte legítimo"
+            },
+            "financialFraud": {
+              "type": "Fraude Financeira",
+              "description": "Personificando bancos ou instituições financeiras",
+              "detection": "Verificação de instituição e autenticação de voz",
+              "action": "Terminar chamada e notificar a instituição financeira real"
+            },
+            "romance": {
+              "type": "Golpes Românticos",
+              "description": "Construindo relacionamentos falsos para extrair dinheiro",
+              "detection": "Análise de padrão de conversa e detecção de manipulação emocional",
+              "action": "Alertas de aviso e fornecimento de recursos"
+            },
+            "detectionMethod": "Método de Detecção:",
+            "protectionAction": "Ação de Proteção:",
+            "detectionMethodLabel": "Método de Detecção",
+            "protectionActionLabel": "Ação de Proteção"
+          },
+          "protection": {
+            "title": "Sistema de Proteção Multi-Camadas",
+            "subtitle": "Nosso abrangente escudo contra golpes usa vários métodos de detecção trabalhando juntos para fornecer proteção máxima, garantindo que chamadas legítimas sempre sejam atendidas.",
+            "realTimeAnalysis": {
+              "title": "Análise em Tempo Real",
+              "description": "Avaliação instantânea de cada chamada recebida"
+            },
+            "continuousLearning": {
+              "title": "Aprendizado Contínuo",
+              "description": "A IA melhora a detecção a cada golpe bloqueado"
+            },
+            "zeroFalsePositives": {
+              "title": "Zero Falsos Positivos",
+              "description": "Chamadas legítimas nunca são bloqueadas"
+            },
+            "layersTitle": "Camadas de Proteção",
+            "layer1": "Verificação de ID do chamador",
+            "layer2": "Análise de padrão de voz",
+            "layer3": "Algoritmos de detecção de script",
+            "layer4": "Detecção de anomalias comportamentais",
+            "layer5": "Inteligência de ameaças em tempo real",
+            "layer6": "Alertas de educação do cliente"
+          },
+          "benefits": {
+            "title": "Resultados de Proteção",
+            "subtitle": "Eficácia comprovada na interrupção de fraudes e proteção de clientes",
+            "accuracy": {
+              "metric": "95%",
+              "description": "Precisão na detecção de chamadas de golpe"
+            },
+            "reduction": {
+              "metric": "80%",
+              "description": "Redução nas tentativas de fraude bem-sucedidas"
+            },
+            "coverage": {
+              "metric": "24/7",
+              "description": "Cobertura de proteção contínua"
+            },
+            "preservation": {
+              "metric": "99,9%",
+              "description": "Taxa de preservação de chamadas legítimas"
+            }
+          },
+          "cta": {
+            "title": "Pronto para Proteger seus Clientes?",
+            "subtitle": "Pare os golpistas com detecção e proteção contra fraudes alimentadas por IA",
+            "activateProtection": "Ativar Proteção",
+            "learnMore": "Saiba Mais",
+            "primaryButton": "Ativar Proteção",
+            "secondaryButton": "Saiba Mais"
+          },
+          "protectionSystem": {
+            "title": "Sistema de Proteção Multi-Camadas",
+            "subtitle": "Nosso abrangente escudo contra golpes usa vários métodos de detecção trabalhando juntos para fornecer proteção máxima, garantindo que chamadas legítimas sempre sejam atendidas.",
+            "realTimeAnalysis": {
+              "title": "Análise em Tempo Real",
+              "description": "Avaliação instantânea de cada chamada recebida"
+            },
+            "continuousLearning": {
+              "title": "Aprendizado Contínuo",
+              "description": "A IA melhora a detecção a cada golpe bloqueado"
+            },
+            "zeroFalsePositives": {
+              "title": "Zero Falsos Positivos",
+              "description": "Chamadas legítimas nunca são bloqueadas"
+            }
+          },
+          "results": {
+            "title": "Resultados de Proteção",
+            "subtitle": "Eficácia comprovada na interrupção de fraudes e proteção de clientes"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "Processamento Seguro de Pagamentos",
+            "description": "Habilite o processamento seguro de pagamentos compatível com PCI através de interações de voz. Permita que os clientes façam pagamentos com segurança por telefone com proteção avançada contra fraudes e processamento instantâneo de transações.",
+            "cta": "Habilitar Pagamentos Seguros"
+          },
+          "features": {
+            "title": "Recursos de Pagamento por Voz Seguro",
+            "subtitle": "Segurança de nível empresarial encontra experiência perfeita do cliente",
+            "securePayment": {
+              "title": "Processamento Seguro de Pagamentos",
+              "description": "Processe pagamentos com segurança por telefone com tecnologia de voz compatível com PCI.",
+              "benefit1": "Conformidade com PCI DSS",
+              "benefit2": "Transações criptografadas",
+              "benefit3": "Vários métodos de pagamento"
+            },
+            "fraudProtection": {
+              "title": "Proteção contra Fraudes",
+              "description": "Detecção e prevenção avançadas de fraudes para proteger empresas e clientes.",
+              "benefit1": "Detecção de fraudes em tempo real",
+              "benefit2": "Avaliação de risco",
+              "benefit3": "Autenticação segura"
+            },
+            "instantProcessing": {
+              "title": "Processamento Instantâneo",
+              "description": "Processe pagamentos imediatamente com autorização e confirmação em tempo real.",
+              "benefit1": "Autorização em tempo real",
+              "benefit2": "Confirmação instantânea",
+              "benefit3": "Recibos imediatos"
+            }
+          },
+          "paymentMethods": {
+            "title": "Opções Abrangentes de Pagamento",
+            "subtitle": "Aceite todos os principais métodos de pagamento com processamento de voz seguro",
+            "creditCards": {
+              "method": "Cartões de Crédito",
+              "description": "Aceite todos os principais cartões de crédito com processamento de voz seguro",
+              "feature1": "Visa, Mastercard, Amex",
+              "feature2": "Verificação de CVV",
+              "feature3": "Validação de vencimento"
+            },
+            "debitCards": {
+              "method": "Cartões de Débito",
+              "description": "Processe pagamentos com cartão de débito com verificação de PIN",
+              "feature1": "Entrada de PIN por voz",
+              "feature2": "Verificação bancária",
+              "feature3": "Dedução instantânea"
+            },
+            "bankTransfers": {
+              "method": "Transferências Bancárias",
+              "description": "Transferências bancárias diretas e pagamentos ACH",
+              "feature1": "Verificação de conta",
+              "feature2": "Validação de número de roteamento",
+              "feature3": "Processamento ACH"
+            },
+            "digitalWallets": {
+              "method": "Carteiras Digitais",
+              "description": "Suporte para plataformas de pagamento digital populares",
+              "feature1": "Apple Pay",
+              "feature2": "Google Pay",
+              "feature3": "Integração com PayPal"
+            }
+          },
+          "security": {
+            "title": "Segurança de Nível Bancário",
+            "description": "Nosso sistema de processamento de pagamentos atende aos mais altos padrões de segurança da indústria, garantindo que cada transação seja protegida com várias camadas de criptografia e prevenção de fraudes.",
+            "endToEndEncryption": {
+              "title": "Criptografia de Ponta a Ponta",
+              "description": "Todos os dados de pagamento criptografados em trânsito e em repouso"
+            },
+            "pciCompliance": {
+              "title": "Conformidade com PCI DSS",
+              "description": "Infraestrutura certificada Nível 1 PCI DSS"
+            },
+            "realTimeMonitoring": {
+              "title": "Monitoramento em Tempo Real",
+              "description": "Detecção e prevenção contínuas de fraudes"
+            },
+            "featuresTitle": "Recursos de Segurança",
+            "feature1": "Criptografia de ponta a ponta",
+            "feature2": "Conformidade com PCI DSS Nível 1",
+            "feature3": "Tokenização de dados de cartão",
+            "feature4": "Autenticação multifator",
+            "feature5": "Monitoramento de fraudes em tempo real",
+            "feature6": "Reconhecimento seguro de voz"
+          },
+          "benefits": {
+            "title": "Desempenho do Processamento de Pagamentos",
+            "subtitle": "Métricas de confiabilidade e segurança líderes do setor",
+            "uptime": {
+              "metric": "99,9%",
+              "description": "Tempo de atividade do processamento de pagamentos"
+            },
+            "transactionTime": {
+              "metric": "< 3s",
+              "description": "Tempo médio de transação"
+            },
+            "compliance": {
+              "metric": "100%",
+              "description": "Conformidade com PCI DSS"
+            },
+            "fraudRate": {
+              "metric": "0,1%",
+              "description": "Taxa de fraude com proteção de IA"
+            }
+          },
+          "cta": {
+            "title": "Pronto para Pagamentos por Voz Seguros?",
+            "subtitle": "Habilite o processamento de pagamentos compatível com PCI com proteção avançada contra fraudes",
+            "primaryButton": "Iniciar Processamento Seguro",
+            "secondaryButton": "Visão Geral de Segurança"
+          }
+        }
+      },
+      "mentalHealth": {
+        "hero": {
+          "title": "Companheiro de Voz para Saúde Mental",
+          "subtitle": "Forneça suporte compassivo e 24 horas por dia, 7 dias por semana, para saúde mental com IA que ouve, entende e responde com empatia. Preencha com segurança a lacuna entre a crise e o cuidado profissional.",
+          "cta": "Saiba Mais sobre IA para Saúde Mental"
+        },
+        "features": {
+          "title": "Suporte Compassivo de IA",
+          "subtitle": "IA avançada treinada em suporte à saúde mental e intervenção em crises",
+          "empathetic": {
+            "title": "Companheiro de IA Empático",
+            "description": "Treinado para fornecer suporte compassivo e sem julgamento com respostas emocionais apropriadas.",
+            "benefits": {
+              "activeListing": "Escuta ativa",
+              "emotionalValidation": "Validação emocional",
+              "crisisRecognition": "Reconhecimento de crise"
+            }
+          },
+          "safe": {
+            "title": "Seguro e Confidencial",
+            "description": "Plataforma compatível com HIPAA garantindo total privacidade e confidencialidade para todas as interações.",
+            "benefits": {
+              "hipaaCompliance": "Conformidade com HIPAA",
+              "encryptedConversations": "Conversas criptografadas",
+              "anonymousOptions": "Opções anônimas"
+            }
+          },
+          "available": {
+            "title": "Disponibilidade 24/7",
+            "description": "Sempre disponível quando alguém precisa conversar, fornecendo suporte imediato durante momentos de crise.",
+            "benefits": {
+              "roundTheClockAccess": "Acesso 24 horas por dia",
+              "immediateResponse": "Resposta imediata",
+              "noWaitTimes": "Sem tempos de espera"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "Capacidades de Suporte à Saúde Mental",
+          "subtitle": "Suporte abrangente em todo o espectro de cuidados de saúde mental",
+          "screening": {
+            "title": "Triagem Inicial de Saúde Mental",
+            "description": "Conduza avaliações preliminares usando ferramentas de triagem validadas",
+            "outcomes": {
+              "earlyIdentification": "Identificação precoce",
+              "riskAssessment": "Avaliação de risco",
+              "appropriateReferrals": "Encaminhamentos apropriados"
+            }
+          },
+          "crisis": {
+            "title": "Intervenção em Crise",
+            "description": "Reconheça situações de crise e forneça suporte ou escalonamento imediato",
+            "outcomes": {
+              "crisisDetection": "Detecção de crise",
+              "deEscalationTechniques": "Técnicas de desescalonamento",
+              "emergencyProtocols": "Protocolos de emergência"
+            }
+          },
+          "navigation": {
+            "title": "Navegação de Recursos",
+            "description": "Guie os usuários para recursos e serviços de saúde mental apropriados",
+            "outcomes": {
+              "serviceMatching": "Correspondência de serviço",
+              "appointmentScheduling": "Agendamento de consultas",
+              "followUpSupport": "Suporte de acompanhamento"
+            }
+          },
+          "emotional": {
+            "title": "Suporte Emocional",
+            "description": "Forneça escuta compassiva e validação emocional",
+            "outcomes": {
+              "reducedIsolation": "Isolamento reduzido",
+              "emotionalRelief": "Alívio emocional",
+              "copingStrategies": "Estratégias de enfrentamento"
+            }
+          }
+        },
+        "safety": {
+          "title": "Design com Segurança em Primeiro Lugar",
+          "description": "Nossa IA de saúde mental é projetada com a segurança como prioridade máxima, apresentando detecção avançada de crises e protocolos de escalonamento imediato para garantir que os usuários recebam cuidados profissionais apropriados quando necessário.",
+          "crisisDetection": {
+            "title": "Detecção de Crise",
+            "description": "Algoritmos avançados identificam situações de crise"
+          },
+          "professionalHandoff": {
+            "title": "Transferência Profissional",
+            "description": "Transferência perfeita para profissionais de saúde mental humanos"
+          },
+          "emergencyProtocols": {
+            "title": "Protocolos de Emergência",
+            "description": "Conexão imediata com linhas diretas de crise quando necessário"
+          },
+          "features": {
+            "title": "Recursos de Segurança",
+            "crisisKeywordDetection": "Detecção de palavras-chave de crise",
+            "suicideRiskAssessment": "Avaliação de risco de suicídio",
+            "automaticEscalationProtocols": "Protocolos de escalonamento automático",
+            "emergencyContactIntegration": "Integração de contato de emergência",
+            "professionalHandoffProcedures": "Procedimentos de transferência profissional",
+            "followUpScheduling": "Agendamento de acompanhamento"
+          }
+        },
+        "impact": {
+          "title": "Impacto na Saúde Mental",
+          "subtitle": "Melhorias mensuráveis na acessibilidade do suporte à saúde mental",
+          "availability": {
+            "metric": "24/7",
+            "description": "Suporte sempre disponível"
+          },
+          "crisisReduction": {
+            "metric": "60%",
+            "description": "Redução no escalonamento de crises"
+          },
+          "satisfaction": {
+            "metric": "85%",
+            "description": "Taxa de satisfação do usuário"
+          },
+          "helpSeeking": {
+            "metric": "40%",
+            "description": "Aumento no comportamento de busca de ajuda"
+          }
+        },
+        "cta": {
+          "title": "Pronto para Apoiar a Saúde Mental?",
+          "subtitle": "Forneça suporte compassivo e 24 horas por dia, 7 dias por semana, para saúde mental com IA que realmente se importa",
+          "learnMore": "Saiba Mais",
+          "contactSpecialists": "Entre em Contato com Especialistas"
+        }
+      }
+    }
+  }
+}

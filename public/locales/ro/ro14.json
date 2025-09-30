@@ -1,0 +1,403 @@
+{
+  "textToSpeech": {
+    "hero": {
+      "title": "Tehnologie Text-to-Speech",
+      "subtitle": "Generați vorbire asemănătoare cu cea umană din text cu tehnologia noastră avansată neurală text-to-speech. Creați voci personalizate, suport pentru peste 40 de limbi și oferiți o calitate audio excepțională.",
+      "cta": "Încercați generarea vocală"
+    },
+    "demo": {
+      "title": "Experimentați tehnologia noastră vocală",
+      "subtitle": "Încercați diferite voci și ascultați calitatea singuri",
+      "chooseVoice": "Alegeți o voce:",
+      "textPrompt": "Introduceți textul pentru a-l converti în vorbire:",
+      "defaultText": "Bună ziua! Sunt un asistent vocal AI alimentat de tehnologia SeaVoice. Vă pot ajuta cu serviciul clienți, vânzările și suportul într-o voce naturală, asemănătoare cu cea umană.",
+      "placeholderText": "Introduceți ceva pentru ca AI-ul nostru să spună...",
+      "generateSpeech": "Generați vorbire",
+      "playing": "Se redă..."
+    },
+    "voices": {
+      "sarah": {
+        "name": "Sarah",
+        "gender": "Feminin",
+        "accent": "Engleză americană",
+        "description": "Profesională, caldă"
+      },
+      "tom": {
+        "name": "Tom",
+        "gender": "Masculin",
+        "accent": "Engleză americană",
+        "description": "Prietenos, conversațional"
+      },
+      "lissa": {
+        "name": "Lissa",
+        "gender": "Feminin",
+        "accent": "Engleză britanică",
+        "description": "Energetică, utilă"
+      },
+      "alex": {
+        "name": "Alex",
+        "gender": "Masculin",
+        "accent": "Australian",
+        "description": "Clar, încrezător"
+      },
+      "maria": {
+        "name": "Maria",
+        "gender": "Feminin",
+        "accent": "Spaniolă",
+        "description": "Expresivă, naturală"
+      },
+      "hiroshi": {
+        "name": "Hiroshi",
+        "gender": "Masculin",
+        "accent": "Japoneză",
+        "description": "Politicos, profesional"
+      }
+    },
+    "features": {
+      "title": "Generare vocală avansată",
+      "subtitle": "Rețelele neurale de ultimă generație oferă o calitate a vorbirii asemănătoare cu cea umană",
+      "customVoiceCloning": {
+        "title": "Clonare vocală personalizată",
+        "description": "Creați profiluri vocale unice care se potrivesc personalității brandului dvs. și stilului de vorbire.",
+        "capabilities": {
+          "voiceCloning": "Clonare vocală din mostre",
+          "brandVoice": "Consistența vocii brandului",
+          "emotionalExpression": "Expresie emoțională",
+          "customPronunciations": "Pronunții personalizate"
+        }
+      },
+      "advancedControls": {
+        "title": "Controale avansate",
+        "description": "Reglați fin fiecare aspect al generării vorbirii pentru o ieșire audio perfectă.",
+        "capabilities": {
+          "speedAdjustment": "Ajustare viteză",
+          "pitchControl": "Control ton",
+          "emphasisPlacement": "Plasare accent",
+          "pauseInsertion": "Inserare pauză"
+        }
+      },
+      "multiLanguageSupport": {
+        "title": "Suport multilingv",
+        "description": "Generați vorbire naturală în peste 40 de limbi cu pronunție nativă.",
+        "capabilities": {
+          "fortyPlusLanguages": "Peste 40 de limbi",
+          "regionalAccents": "Accente regionale",
+          "codeSwitching": "Comutare cod",
+          "multilingualVoices": "Voci multilingve"
+        }
+      }
+    },
+    "qualityMetrics": {
+      "title": "Metrice de calitate excepționale",
+      "subtitle": "Performanță măsurată care oferă rezultate profesionale",
+      "naturalness": {
+        "metric": "Scor de naturalețe",
+        "value": "4.8/5",
+        "description": "Evaluare umană"
+      },
+      "intelligibility": {
+        "metric": "Inteligibilitate",
+        "value": "99.2%",
+        "description": "Precizia recunoașterii cuvintelor"
+      },
+      "latency": {
+        "metric": "Latență",
+        "value": "< 200ms",
+        "description": "Generare text în audio"
+      },
+      "audioQuality": {
+        "metric": "Calitate audio",
+        "value": "48kHz",
+        "description": "Ieșire de înaltă fidelitate"
+      }
+    },
+    "useCases": {
+      "title": "Aplicații versatile",
+      "subtitle": "Transformați textul în vorbire în diverse industrii și cazuri de utilizare",
+      "customerService": {
+        "title": "Serviciu clienți",
+        "description": "Oferiți răspunsuri vocale consistente, profesionale pentru interacțiunile cu clienții.",
+        "benefits": {
+          "availability": "Disponibilitate 24/7",
+          "consistentQuality": "Calitate consistentă",
+          "multiLanguageSupport": "Suport multilingv",
+          "brandVoiceAlignment": "Alinierea vocii brandului"
+        }
+      },
+      "contentCreation": {
+        "title": "Creare conținut",
+        "description": "Generați voiceover-uri pentru videoclipuri, podcast-uri și conținut multimedia.",
+        "benefits": {
+          "costEffectiveProduction": "Producție rentabilă",
+          "quickTurnaround": "Timp de răspuns rapid",
+          "multipleVoiceOptions": "Opțiuni vocale multiple",
+          "easyRevisions": "Revizuiri ușoare"
+        }
+      },
+      "accessibility": {
+        "title": "Accesibilitate",
+        "description": "Faceți conținutul accesibil cu text-to-speech de înaltă calitate pentru utilizatorii cu deficiențe de vedere.",
+        "benefits": {
+          "screenReaderEnhancement": "Îmbunătățire cititor de ecran",
+          "documentNarration": "Narare documente",
+          "webAccessibility": "Accesibilitate web",
+          "educationalSupport": "Suport educațional"
+        }
+      },
+      "interactiveApplications": {
+        "title": "Aplicații interactive",
+        "description": "Adăugați capacități vocale la aplicații, jocuri și experiențe interactive.",
+        "benefits": {
+          "realTimeGeneration": "Generare în timp real",
+          "dynamicContent": "Conținut dinamic",
+          "userEngagement": "Angajament utilizator",
+          "immersiveExperiences": "Experiențe imersive"
+        }
+      }
+    },
+    "voiceCloning": {
+      "title": "Clonare vocală personalizată",
+      "subtitle": "Creați profiluri vocale unice care se potrivesc perfect personalității brandului dvs. Tehnologia noastră avansată de clonare vocală poate reproduce stiluri de vorbire, accente și expresii emoționale cu doar câteva minute de audio eșantion.",
+      "brandVoiceConsistency": {
+        "title": "Consistența vocii brandului",
+        "description": "Mențineți o voce de brand consistentă pe toate interacțiunile"
+      },
+      "fineTunedControl": {
+        "title": "Control fin reglat",
+        "description": "Ajustați tonul, ritmul și expresia emoțională"
+      },
+      "highFidelityOutput": {
+        "title": "Ieșire de înaltă fidelitate",
+        "description": "Audio de calitate profesională pentru orice aplicație"
+      },
+      "process": {
+        "title": "Proces de clonare vocală",
+        "step1": {
+          "title": "Încărcați mostre audio",
+          "description": "Furnizați 5-10 minute de înregistrări audio curate"
+        },
+        "step2": {
+          "title": "Antrenament AI",
+          "description": "Rețelele noastre neurale învață caracteristicile dvs. vocale unice"
+        },
+        "step3": {
+          "title": "Generare vocală",
+          "description": "Generați vorbire nelimitată cu vocea dvs. personalizată"
+        }
+      }
+    },
+    "cta": {
+      "title": "Gata să dați o voce brandului dvs.?",
+      "subtitle": "Creați voci personalizate și generați vorbire de calitate profesională pentru orice aplicație",
+      "startVoiceCloning": "Începeți clonarea vocală",
+      "exploreApi": "Explorați API-ul"
+    }
+  },
+  "components": {
+    "aiVoiceAvatar": {
+      "badge": {
+        "label": "Avatar AI interactiv"
+      },
+      "hero": {
+        "title": {
+          "line1": "Faceți cunoștință cu",
+          "line2": "Agentul dvs. vocal AI"
+        },
+        "subtitle": "Experimentați viitorul comunicării AI. Avatarurile noastre demonstrează conversații asemănătoare cu cele umane, cu inteligență emoțională și multiple opțiuni de personalitate."
+      },
+      "voices": {
+        "professional": {
+          "name": "Sarah profesională",
+          "description": "Voce de afaceri clară, autoritară"
+        },
+        "friendly": {
+          "name": "Mike prietenos",
+          "description": "Serviciu clienți cald, abordabil"
+        },
+        "empathetic": {
+          "name": "Emma grijulie",
+          "description": "Voce compasională pentru sănătate"
+        }
+      },
+      "languages": {
+        "english": "Engleză",
+        "spanish": "Spaniolă",
+        "french": "Franceză",
+        "german": "Germană",
+        "chinese": "Chineză"
+      },
+      "demoScripts": {
+        "professional": "Bună ziua, sunt Sarah, asistentul dvs. de afaceri AI. Vă pot gestiona interogările clienților, programa programări și oferi informații detaliate despre produse cu precizie și claritate.",
+        "friendly": "Salut! Sunt Mike și sunt aici pentru a vă face experiența uimitoare. Indiferent dacă aveți nevoie de ajutor cu o comandă sau aveți doar o întrebare rapidă, sunt bucuros să discut!",
+        "empathetic": "Bună ziua, sunt Emma. Înțeleg că întrebările despre sănătate pot fi stresante și sunt aici pentru a oferi suport atent și precis ori de câte ori aveți nevoie."
+      },
+      "controls": {
+        "voicePersonality": "Alegeți personalitatea vocală:",
+        "language": "Limbă:",
+        "demoVoice": "Voce demo",
+        "tryVoiceInput": "Încercați intrarea vocală"
+      },
+      "status": {
+        "listening": "Ascultă...",
+        "speaking": "Vorbește...",
+        "ready": "Gata",
+        "label": "Stare:"
+      },
+      "listeningResponse": "V-am auzit! Aici aș răspunde la intrarea dvs. vocală cu înțelegere contextuală.",
+      "avatarMoods": {
+        "neutral": "neutru",
+        "speaking": "vorbește",
+        "listening": "ascultă",
+        "thinking": "gândește"
+      }
+    }
+  },
+  "voiceConversationFlow": {
+    "steps": {
+      "callConnected": {
+        "title": "Apel conectat",
+        "description": "Client conectat cu afacerea dvs."
+      },
+      "listening": {
+        "title": "AI ascultă",
+        "description": "Recunoașterea avansată a vorbirii captează fiecare cuvânt"
+      },
+      "processing": {
+        "title": "AI procesează",
+        "description": "Rețelele neurale înțeleg intenția și contextul"
+      },
+      "responding": {
+        "title": "AI răspunde",
+        "description": "Voce asemănătoare cu cea umană oferă un răspuns perfect"
+      }
+    },
+    "conversationTypes": {
+      "appointmentBooking": "Programare programări",
+      "orderSupport": "Suport comenzi",
+      "salesInquiry": "Interogare vânzări"
+    },
+    "conversations": {
+      "appointmentBooking": {
+        "customer": "Bună, aș dori să programez o întâlnire pentru marțea viitoare.",
+        "ai": "Vă voi ajuta cu plăcere să programați o întâlnire. Permiteți-mi să verific disponibilitatea noastră pentru marțea viitoare. Ce oră ar funcționa cel mai bine pentru dvs.?"
+      },
+      "orderSupport": {
+        "customer": "Am probleme cu comanda mea recentă. Nu a sosit încă.",
+        "ai": "Înțeleg preocuparea dvs. cu privire la comanda dvs. Permiteți-mi să verific imediat. Ați putea, vă rog, să-mi furnizați numărul comenzii?"
+      },
+      "salesInquiry": {
+        "customer": "Puteți să-mi spuneți despre planurile dvs. de prețuri?",
+        "ai": "Absolut! Avem mai multe opțiuni de prețuri pentru a se potrivi diferitelor nevoi. Planul nostru de bază începe de la 29 USD/lună și include toate funcționalitățile de bază. Doriți să vă explic diferențele?"
+      }
+    },
+    "ui": {
+      "chooseConversationType": "Alegeți tipul de conversație:",
+      "autoProgressing": "Progresare automată prin scenarii...",
+      "liveConversation": "Conversație live:",
+      "speaking": "Vorbește...",
+      "aiSpeaking": "AI vorbește...",
+      "aiThinking": "AI gândește...",
+      "processingContext": "Procesare context",
+      "accuracyRate": "Rată de precizie"
+    }
+  },
+  "// Large Scale Campaigns Page - English key-value pairs": "",
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | Centru de contact Omni-Channel pentru afaceri mici",
+      "description": "Nu mai jonglați cu aplicațiile. Unificați fiecare apel al clientului, WhatsApp și chat într-un singur inbox simplu. Centrul de contact all-in-one construit pentru afaceri mici.",
+      "keywords": "centru de contact omni-channel, comunicare afaceri mici, inbox unificat, software serviciu clienți, WhatsApp business, apeluri vocale, suport chat"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | Comunicare vocală alimentată de AI - Seasalt.ai",
+        "description": "Transformați-vă comunicațiile vocale cu AI. SeaVoice oferă rutare inteligentă a apelurilor, analize vocale și răspunsuri automate. Gestionați apelurile clienților 24/7 cu agenți AI asemănători cu cei umani.",
+        "keywords": "voce AI, software call center, analize vocale, SeaVoice, rutare inteligentă apeluri, sistem telefonic automat, asistent vocal, serviciu clienți 24/7"
+      },
+      "virtualAssistant": {
+        "title": "Asistent virtual 24/7 | Soluții vocale AI SeaVoice - Seasalt.ai",
+        "description": "Oferiți serviciu clienți non-stop cu asistentul virtual AI SeaVoice. Agenții vocali inteligenți gestionează interogările clienților, programarea programărilor și solicitările de suport, îmbunătățind satisfacția, reducând în același timp costurile.",
+        "keywords": "asistent virtual, asistent vocal AI, serviciu clienți 24/7, serviciu clienți inteligent, SeaVoice, automatizare vocală, automatizare serviciu clienți"
+      }
+    }
+  },
+  "// Key structure: seavoice": {
+    "pages": {
+      "solutions": {
+        "outbound": {
+          "largeScaleCampaigns": "",
+          "subscriptionRenewals": ""
+        }
+      }
+    }
+  },
+  "statsCounter": {
+    "section": {
+      "title": "De încredere pentru afaceri din întreaga lume",
+      "subtitle": "Platforma noastră alimentează milioane de conversații în fiecare zi"
+    },
+    "stats": {
+      "messages": {
+        "label": "Mesaje trimise",
+        "suffix": "M+"
+      },
+      "calls": {
+        "label": "Apeluri efectuate",
+        "suffix": "K+"
+      },
+      "uptime": {
+        "label": "Timp de funcționare sistem",
+        "suffix": "%"
+      },
+      "countries": {
+        "label": "Țări deservite",
+        "suffix": "+"
+      },
+      "roi": {
+        "label": "Creștere ROI",
+        "suffix": "%"
+      }
+    },
+    "dashboard": {
+      "title": "Tablou de bord SeaX",
+      "messagesSent": "Mesaje trimise",
+      "deliveryRate": "Rată de livrare",
+      "recentActivity": "Activitate recentă",
+      "demo": {
+        "messagesSent": "2,4M",
+        "deliveryRate": "85%"
+      }
+    },
+    "activity": {
+      "flashSale": {
+        "title": "Campanie vânzare flash",
+        "detail": "50.000 SMS trimise • acum 2 min"
+      },
+      "leadFollowup": {
+        "title": "Follow-up lead-uri",
+        "detail": "12.000 apeluri finalizate • acum 5 min"
+      },
+      "whatsapp": {
+        "title": "Campanie WhatsApp",
+        "detail": "25.000 mesaje în coadă • acum 8 min"
+      }
+    },
+    "status": {
+      "liveRunning": "Campanii live în desfășurare",
+      "liveActivity": "Activitate live: Mesaje trimise chiar acum"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "Peste 10k",
+      "callsMax": "Peste 5k",
+      "voicemailMax": "Peste 1k",
+      "whatsappMax": "Peste 10k"
+    },
+    "breakdown": {
+      "localPlus": "local +",
+      "tollFreeMinus": "gratuit"
+    }
+  }
+}

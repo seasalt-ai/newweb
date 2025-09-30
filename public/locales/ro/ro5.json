@@ -1,0 +1,658 @@
+{
+  "seachat": {
+    "features": {
+      "advancedAI": {
+        "title": "Funcționalități AI avansate",
+        "subtitle": "Inteligență AI de generație următoare cu memorie, conștientizare contextuală și capacități avansate de raționament pentru experiențe cu adevărat personalizate pentru clienți.",
+        "exploreButton": "Explorați AI avansată",
+        "scheduleDemo": "Programați o demonstrație",
+        "capabilities": {
+          "title": "Capacități AI de ultimă generație",
+          "subtitle": "Experimentați viitorul suportului clienților cu funcționalitățile noastre AI avansate care învață, memorează și se adaptează."
+        },
+        "rag": {
+          "title": "Generare augmentată cu recuperare (RAG)",
+          "description": "Capacități avansate de căutare care combină căutarea după cuvinte cheie, vectorială și hibridă pentru recuperarea precisă a informațiilor.",
+          "details": {
+            "semantic": "Căutare semantică vectorială pentru înțelegere contextuală",
+            "keyword": "Potrivire tradițională a cuvintelor cheie pentru interogări exacte",
+            "hybrid": "Algoritmi hibrizi care combină ambele abordări",
+            "indexing": "Indexare și actualizare conținut în timp real"
+          },
+          "sectionTitle": "Generare augmentată cu recuperare",
+          "sectionSubtitle": "Tehnologie avansată de căutare care combină multiple abordări pentru cea mai precisă recuperare a informațiilor.",
+          "keyword": "Căutare după cuvinte cheie",
+          "keywordDesc": "Căutare tradițională cu potrivire exactă pentru interogări precise și termeni specifici.",
+          "vector": "Căutare vectorială",
+          "vectorDesc": "Înțelegere semantică care găsește informații relevante contextual.",
+          "hybrid": "Căutare hibridă",
+          "hybridDesc": "Cel mai bun din ambele lumi, combinând precizia cuvintelor cheie cu înțelegerea semantică."
+        },
+        "memory": {
+          "title": "Sistem de memorie pe termen lung",
+          "description": "Memorie persistentă a utilizatorului care creează experiențe personalizate pe toate interacțiunile.",
+          "details": {
+            "preferences": "Urmărirea și stocarea preferințelor utilizatorului",
+            "history": "Analiza istoricului conversațiilor",
+            "patterns": "Recunoașterea modelelor comportamentale",
+            "continuity": "Continuitate și context între sesiuni"
+          },
+          "sectionTitle": "Memorie pe termen lung în acțiune",
+          "sectionSubtitle": "Vedeți cum AI-ul nostru memorează și învață din fiecare interacțiune pentru a oferi un suport din ce în ce mai personalizat.",
+          "fieldsTitle": "Câmpuri de extracție a contextului",
+          "fieldsDescription": "AI-ul nostru identifică și stochează automat informații cheie despre fiecare utilizator, creând profiluri bogate care îmbunătățesc fiecare interacțiune viitoare.",
+          "example": "Exemplu",
+          "timeline": "Cronologie memorie",
+          "firstInteraction": "Prima interacțiune",
+          "firstInteractionDesc": "AI învață preferințele și contextul utilizatorului",
+          "ongoingConversations": "Conversații în desfășurare",
+          "ongoingConversationsDesc": "Actualizează continuu profilul utilizatorului",
+          "returnVisits": "Vizite ulterioare",
+          "returnVisitsDesc": "Oferă răspunsuri personalizate, conștiente de context"
+        },
+        "timeAwareness": {
+          "title": "Integrare conștientizare timp",
+          "description": "Răspunsuri conștiente de context bazate pe ora curentă, fusul orar și relevanța temporală.",
+          "details": {
+            "timestamp": "Integrare timestamp în timp real",
+            "timezone": "Programare și răspunsuri conștiente de fus orar",
+            "recommendations": "Recomandări sensibile la timp",
+            "hours": "Optimizare ore de program"
+          }
+        },
+        "context": {
+          "title": "Extracție inteligentă de context",
+          "description": "Mapare inteligentă a câmpurilor și extracție de date pentru o mai bună înțelegere a utilizatorului.",
+          "details": {
+            "fields": "Definiții și mapare câmpuri personalizate",
+            "extraction": "Extracție automată de date din conversații",
+            "language": "Detectare preferințe lingvistice utilizator",
+            "dynamic": "Construire și actualizare context dinamic"
+          }
+        },
+        "references": {
+          "title": "Rezultate chat referențiate",
+          "description": "Răspunsuri AI transparente cu citări sursă și scor de încredere.",
+          "details": {
+            "linking": "Legătură document sursă și citări",
+            "tracking": "Urmărire și verificare citări",
+            "confidence": "Scor de încredere pentru răspunsuri",
+            "verification": "Verificare și validare fapte"
+          }
+        },
+        "knowledge": {
+          "title": "Rafinarea bazei de cunoștințe",
+          "description": "Îmbunătățire continuă a preciziei și relevanței bazei de cunoștințe.",
+          "details": {
+            "updating": "Conținut cu actualizare automată bazat pe interacțiuni",
+            "scoring": "Scor de calitate și clasificare conținut",
+            "relevance": "Algoritmi de optimizare a relevanței",
+            "analytics": "Analiză performanță și insight-uri"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "User_Language",
+            "description": "Memorează limba de comunicare preferată",
+            "example": "Clientul preferă răspunsuri în spaniolă"
+          },
+          "product": {
+            "field": "Product_Interest",
+            "description": "Urmărește categoriile de produse de interes",
+            "example": "Interesat de soluții software premium"
+          },
+          "history": {
+            "field": "Support_History",
+            "description": "Menține contextul problemelor anterioare",
+            "example": "Anterior a avut întrebări de facturare rezolvate"
+          },
+          "style": {
+            "field": "Communication_Style",
+            "description": "Se adaptează stilului de interacțiune preferat",
+            "example": "Preferă explicații tehnice detaliate"
+          }
+        },
+        "cta": {
+          "title": "Experimentați viitorul AI",
+          "subtitle": "Gata să vă transformați suportul clienților cu AI avansată care memorează, învață și se adaptează? Începeți-vă călătoria cu tehnologia noastră de ultimă generație.",
+          "signUp": "Înregistrați-vă gratuit",
+          "scheduleDemo": "Programați o demonstrație"
+        }
+      },
+      "aiAutomation": {
+        "title": "Automatizare AI",
+        "subtitle": "Scalați-vă suportul clienților cu AI inteligentă care învață, se adaptează și oferă răspunsuri instantanee, menținând în același timp atingerea umană atunci când este necesar.",
+        "tryButton": "Încercați automatizarea AI",
+        "featuresTitle": "Funcționalități AI inteligente",
+        "featuresSubtitle": "Automatizarea noastră AI depășește simplii chatbot-uri pentru a oferi un suport clienților cu adevărat inteligent.",
+        "performanceTitle": "Automatizare care funcționează cu adevărat",
+        "performanceSubtitle": "Vedeți cum automatizarea noastră AI gestionează diferite tipuri de interogări ale clienților cu rate de precizie impresionante.",
+        "hybridTitle": "Echilibrul perfect: AI + Om",
+        "hybridSubtitle": "Abordarea noastră hibridă combină viteza AI cu empatia agenților umani.",
+        "aiStrengthsTitle": "Automatizarea AI excelează la",
+        "aiStrengths": [
+          "Răspunsuri instantanee la întrebări comune",
+          "Disponibilitate 24/7 fără pauze",
+          "Gestionarea mai multor conversații simultan",
+          "Calitate consistentă a serviciilor",
+          "Suport de comunicare multilingv",
+          "Acces rapid la informațiile din baza de cunoștințe"
+        ],
+        "humanStrengthsTitle": "Agenții umani excelează la",
+        "humanStrengths": [
+          "Rezolvarea problemelor complexe și empatie",
+          "Construirea de relații personale cu clienții",
+          "Gestionarea situațiilor sensibile sau emoționale",
+          "Soluții creative și gândire nonconformistă",
+          "Înțelegerea nevoilor nuanțate ale clienților",
+          "Luarea deciziilor în scenarii ambigue"
+        ],
+        "ctaTitle": "Gata să scalați cu AI?",
+        "ctaSubtitle": "Începeți cu agenți umani gratuit, apoi adăugați automatizarea AI când sunteți gata să scalați. Abordarea hibridă perfectă pentru afacerile în creștere.",
+        "contextAware": {
+          "title": "Răspunsuri conștiente de context",
+          "description": "AI înțelege contextul conversației și oferă răspunsuri relevante, inteligente."
+        },
+        "learning": {
+          "title": "Învățare din conversații",
+          "description": "Se îmbunătățește continuu învățând din fiecare interacțiune cu clientul."
+        },
+        "handoff": {
+          "title": "Transfer fără întreruperi către om",
+          "description": "Tranziție fluidă către agenți umani atunci când apar probleme complexe."
+        },
+        "availability": {
+          "title": "Disponibilitate 24/7",
+          "description": "Oferiți suport instantaneu non-stop, chiar și atunci când agenții sunt offline."
+        },
+        "response": {
+          "title": "Timp de răspuns instantaneu",
+          "description": "Răspundeți la interogările clienților în milisecunde, nu în minute."
+        },
+        "multilanguage": {
+          "title": "Suport multilingv",
+          "description": "Comunicați automat cu clienții în limba lor preferată."
+        },
+        "types": {
+          "faq": {
+            "title": "Automatizare FAQ",
+            "description": "Răspundeți instantaneu la întrebări comune cu informații precise și actualizate."
+          },
+          "orders": {
+            "title": "Actualizări stare comandă",
+            "description": "Oferiți urmărire comenzi și informații de livrare în timp real."
+          },
+          "appointments": {
+            "title": "Programare programări",
+            "description": "Programați programări și gestionați calendarele automat."
+          },
+          "recommendations": {
+            "title": "Recomandări produse",
+            "description": "Sugerați produse relevante pe baza preferințelor clienților."
+          }
+        },
+        "scheduleDemo": "Programați o demonstrație",
+        "signUpForFree": "Înregistrați-vă gratuit"
+      },
+      "api": {
+        "restful": {
+          "title": "API RESTful",
+          "description": "API REST curat, intuitiv, cu documentație completă"
+        },
+        "webhooks": {
+          "title": "Webhooks în timp real",
+          "description": "Obțineți notificări instantanee pentru evenimente și actualizări de conversație"
+        },
+        "security": {
+          "title": "Autentificare securizată",
+          "description": "Autentificare OAuth 2.0 și cheie API cu limitare de rată"
+        },
+        "cdn": {
+          "title": "CDN global",
+          "description": "Acces API cu latență scăzută de oriunde din lume"
+        },
+        "endpoints": {
+          "createConversation": "Creați o conversație nouă",
+          "getConversation": "Recuperați detaliile conversației",
+          "sendMessage": "Trimiteți un mesaj într-o conversație"
+        },
+        "sdks": {
+          "available": "Disponibil",
+          "comingSoon": "În curând"
+        },
+        "title": "API și instrumente pentru dezvoltatori",
+        "subtitle": "Construiți integrări personalizate și extindeți capacitățile SeaChat cu API-ul nostru complet și instrumentele prietenoase pentru dezvoltatori.",
+        "getKeyButton": "Obțineți cheia API",
+        "viewDocsButton": "Vizualizați documentația",
+        "featuresTitle": "Funcționalități API puternice",
+        "featuresSubtitle": "Tot ce aveți nevoie pentru a integra SeaChat în sistemele și fluxurile de lucru existente.",
+        "endpointsTitle": "Puncte finale API",
+        "endpointsSubtitle": "Explorați API-ul nostru complet cu exemple și documentație interactivă.",
+        "exampleRequestResponse": "Exemplu cerere/răspuns",
+        "tryItOut": "Încercați",
+        "testConsole": "Testați în consolă",
+        "copyCurl": "Copiați cURL",
+        "sdksTitle": "SDK-uri și biblioteci",
+        "sdksSubtitle": "Începeți rapid cu SDK-urile noastre oficiale pentru limbaje de programare populare.",
+        "exampleTitle": "Exemplu de pornire rapidă",
+        "exampleSubtitle": "Porniți și rulați cu API-ul SeaChat în doar câteva linii de cod.",
+        "jsExample": "Exemplu JavaScript",
+        "copy": "Copiați",
+        "ctaTitle": "Gata să începeți să construiți?",
+        "ctaSubtitle": "Obțineți cheia API și începeți să integrați SeaChat în aplicațiile dvs. astăzi.",
+        "ctaAccessButton": "Obțineți acces API",
+        "ctaDocsButton": "Citiți documentația"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "Satisfacția clienților"
+          },
+          "responseTime": {
+            "title": "Timp mediu de răspuns"
+          },
+          "resolution": {
+            "title": "Rată de rezolvare"
+          },
+          "growth": {
+            "title": "Creștere lunară"
+          },
+          "period": "luna aceasta"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "Tablouri de bord în timp real",
+              "description": "Monitorizați performanța suportului dvs. cu tablouri de bord live, personalizabile.",
+              "benefits": {
+                "metrics": "Metrice de performanță live",
+                "kpi": "Urmărire KPI personalizată",
+                "team": "Vizualizări performanță echipă",
+                "alerts": "Notificări de alertă"
+              }
+            },
+            "reporting": {
+              "title": "Raportare avansată",
+              "description": "Generați rapoarte detaliate cu insight-uri și tendințe acționabile.",
+              "benefits": {
+                "automated": "Generare rapoarte automate",
+                "dates": "Intervale de date personalizate",
+                "export": "Capacități de export",
+                "scheduled": "Livrare programată"
+              }
+            },
+            "journey": {
+              "title": "Analiza călătoriei clientului",
+              "description": "Urmăriți interacțiunile clienților pe toate punctele de contact și canalele.",
+              "benefits": {
+                "tracking": "Urmărire multi-canal",
+                "visualization": "Vizualizare călătorie",
+                "conversion": "Analiza conversiilor",
+                "dropoff": "Identificarea abandonului"
+              }
+            },
+            "optimization": {
+              "title": "Optimizare performanță",
+              "description": "Identificați blocajele și optimizați-vă operațiunile de suport.",
+              "benefits": {
+                "bottlenecks": "Detectarea blocajelor",
+                "resources": "Alocarea resurselor",
+                "efficiency": "Recomandări de eficiență",
+                "roi": "Analiza ROI"
+              }
+            }
+          }
+        },
+        "title": "Analiză și insight-uri",
+        "subtitle": "Luați decizii bazate pe date cu analize complete care dezvăluie comportamentul clienților, performanța agenților și oportunitățile de optimizare.",
+        "metricsTitle": "Metrice cheie de performanță",
+        "metricsSubtitle": "Urmăriți metricile care contează cel mai mult pentru succesul suportului dvs. clienți.",
+        "featuresTitle": "Suită completă de analiză",
+        "featuresSubtitle": "Tot ce aveți nevoie pentru a înțelege, măsura și îmbunătăți operațiunile dvs. de suport clienți.",
+        "dashboardTitle": "Previzualizare tablou de bord interactiv",
+        "dashboardSubtitle": "Vedeți cum tabloul nostru de bord de analiză oferă insight-uri acționabile dintr-o privire.",
+        "dashboard": {
+          "overview": "Prezentare generală performanță",
+          "months": {
+            "jan": "Ian",
+            "dec": "Dec"
+          },
+          "quickStats": "Statistici rapide",
+          "activeConversations": "Conversații active",
+          "systemUptime": "Timp de funcționare sistem",
+          "customerRating": "Evaluare clienți"
+        },
+        "ctaTitle": "Începeți să luați decizii bazate pe date",
+        "ctaSubtitle": "Deblocați puterea analizei pentru a vă optimiza suportul clienților și a stimula creșterea afacerii."
+      },
+      "humanAgents": {
+        "title": "Chat agent uman",
+        "subtitle": "Începeți cu agenți de suport umani reali, complet gratuit pe viață. Fără limite, fără capcane, doar o conexiune umană autentică cu clienții dvs.",
+        "startButton": "Începeți gratuit pentru totdeauna",
+        "demoButton": "Vedeți demonstrația",
+        "unlimited": {
+          "title": "Ore nelimitate de agent",
+          "description": "Fără limite de timp, fără limite orare. Agentul dvs. uman lucrează atât cât aveți nevoie, complet gratuit."
+        },
+        "realtime": {
+          "title": "Gestionare chat în timp real",
+          "description": "Gestionați mai multe conversații simultan cu interfața noastră intuitivă de chat."
+        },
+        "collaboration": {
+          "title": "Colaborare multi-agent",
+          "description": "Scalați-vă echipa cu transferuri fără întreruperi între agenți și instrumente de colaborare."
+        },
+        "security": {
+          "title": "Securitate avansată",
+          "description": "Securitate la nivel de întreprindere cu criptare end-to-end și protecția datelor."
+        },
+        "analytics": {
+          "title": "Analiză performanță",
+          "description": "Urmăriți timpii de răspuns, satisfacția clienților și metricile de performanță ale agenților."
+        },
+        "workflows": {
+          "title": "Fluxuri de lucru personalizate",
+          "description": "Creați fluxuri de lucru personalizate și reguli de automatizare pentru procesul dvs. de suport."
+        },
+        "benefits": {
+          "personal": {
+            "title": "Atingere personală",
+            "description": "Empatie și înțelegere umană pe care AI nu le poate reproduce"
+          },
+          "complex": {
+            "title": "Rezolvarea problemelor complexe",
+            "description": "Gestionați situații nuanțate care necesită judecată umană"
+          },
+          "brand": {
+            "title": "Reprezentarea brandului",
+            "description": "Agenți care înțeleg cu adevărat și reprezintă valorile brandului dvs."
+          },
+          "relationships": {
+            "title": "Relații cu clienții",
+            "description": "Construiți relații durabile prin conexiuni umane autentice"
+          }
+        },
+        "freeForever": {
+          "title": "Cu adevărat gratuit, ca în gratuit 🍺 & 🎙️",
+          "subtitle": "Ne ținem de cuvânt când spunem gratuit. Un agent uman pe viață, cu totul nelimitat.",
+          "meaningTitle": "Ce înseamnă cu adevărat \"Gratuit pentru totdeauna\"",
+          "agent": "1 agent uman pe viață",
+          "conversations": "Conversații nelimitate prin chat",
+          "history": "Istoric chat nelimitat",
+          "contacts": "Contacte nelimitate",
+          "export": "Libertatea de a exporta toate datele",
+          "noCredit": "Nu este necesar un card de credit",
+          "unlimited": "Totul nelimitat",
+          "noCaps": "Fără taxe ascunse, fără limite de timp, fără limite de conversație. Doar suport uman pur, nelimitat.",
+          "forever": "Pentru totdeauna"
+        },
+        "featuresTitle": "Funcționalități puternice ale agentului uman",
+        "featuresSubtitle": "Tot ce aveți nevoie pentru a oferi suport clienților excepțional, alimentat de oameni.",
+        "whyMatterTitle": "De ce agenții umani contează încă",
+        "whyMatterSubtitle": "Într-o lume bazată pe AI, conexiunea umană rămâne de neînlocuit pentru construirea încrederii și rezolvarea problemelor complexe.",
+        "ctaTitle": "Gata să începeți cu agenți umani?",
+        "ctaSubtitle": "Alăturați-vă miilor de afaceri care oferă suport clienților excepțional cu agenții noștri umani gratuiti.",
+        "ctaStartButton": "Începeți gratuit acum",
+        "ctaDemoButton": "Programați o demonstrație"
+      },
+      "knowledgeBase": {
+        "subtitle": "Împuterniciți-vă agenții AI cu gestionarea completă a cunoștințelor. Creați, organizați și mențineți un depozit centralizat de informații care permite răspunsuri inteligente și precise.",
+        "managementTitle": "Gestionare inteligentă a cunoștințelor",
+        "managementSubtitle": "Construiți o bază de cunoștințe puternică care crește odată cu afacerea dvs. și îmbunătățește fiecare interacțiune cu clientul.",
+        "smartSearch": {
+          "title": "Căutare inteligentă",
+          "description": "Capacități avansate de căutare semantică care înțeleg contextul și intenția, oferind informații precise instantaneu."
+        },
+        "documentManagement": {
+          "title": "Gestionare documente",
+          "description": "Încărcați, organizați și controlați versiunile documentelor, întrebărilor frecvente, politicilor și procedurilor într-o singură locație centralizată."
+        },
+        "collaboration": {
+          "title": "Editare colaborativă",
+          "description": "Permiteți colaborarea în echipă cu editare în timp real, fluxuri de lucru de aprobare și controale de acces bazate pe roluri."
+        },
+        "autoLearning": {
+          "title": "Învățare automată",
+          "description": "Captați și învățați automat din interacțiunile de succes pentru a îmbunătăți continuu precizia cunoștințelor."
+        },
+        "accessControl": {
+          "title": "Control acces",
+          "description": "Securizați informațiile sensibile cu permisiuni granulare și asigurați conformitatea cu reglementările de protecție a datelor."
+        },
+        "multiLanguage": {
+          "title": "Multi-limbă",
+          "description": "Suportă mai multe limbi și localizare pentru a servi clienții globali cu răspunsuri adecvate cultural."
+        },
+        "demoTitle": "Vedeți baza de cunoștințe în acțiune",
+        "demoSubtitle": "Urmăriți cum sistemul nostru inteligent de cunoștințe alimentează răspunsuri precise, contextuale.",
+        "interfaceTitle": "Interfață bază de cunoștințe",
+        "categories": "Categorii documente",
+        "productDocs": "Documentație produs",
+        "articles": "articole",
+        "supportFaqs": "Întrebări frecvente suport clienți",
+        "policies": "Politici companie",
+        "recentUpdates": "Actualizări recente",
+        "refundUpdate": "Politica de rambursare actualizată",
+        "hoursAgo": "ore în urmă",
+        "returnWindow": "Fereastră de retur actualizată de la 14 la 30 de zile",
+        "featureGuide": "Ghid funcționalitate nouă",
+        "dayAgo": "zi în urmă",
+        "analyticsDoc": "Documentație adăugată pentru analiză avansată",
+        "transformTitle": "Transformați-vă suportul clienților",
+        "transformSubtitle": "O bază de cunoștințe bine organizată este fundamentul unui serviciu clienți excepțional și al operațiunilor eficiente.",
+        "benefitsTitle": "Beneficii cheie",
+        "fasterResponse": {
+          "title": "Timpi de răspuns mai rapidi",
+          "description": "Reduceți timpul mediu de răspuns cu 60% cu acces instantaneu la informații precise."
+        },
+        "consistency": {
+          "title": "Precizie consistentă",
+          "description": "Asigurați-vă că toți agenții oferă informații consistente și actualizate pe toate canalele."
+        },
+        "training": {
+          "title": "Instruire scalabilă",
+          "description": "Integrați agenți noi mai rapid cu documentație completă, căutabilă."
+        },
+        "readyTitle": "Gata să începeți?",
+        "readySubtitle": "Construiți-vă baza de cunoștințe astăzi și transformați modul în care echipa dvs. oferă suport clienților.",
+        "startButton": "Începeți construcția",
+        "scheduleDemo": "Programați o demonstrație"
+      },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "Chat site web",
+            "description": "Încorporați widget-uri de chat pe orice platformă web",
+            "seachat": {
+              "features": {
+                "compatibility": "Compatibilitate universală",
+                "styling": "Stilizare personalizată",
+                "responsive": "Responsiv mobil",
+                "sync": "Sincronizare în timp real"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "WhatsApp Business",
+            "seachat": {
+              "features": {
+                "api": "Integrare API Business",
+                "media": "Suport media bogată",
+                "templates": "Mesaje șablon",
+                "groups": "Mesagerie de grup"
+              }
+            },
+            "description": "Conectați-vă cu clienții pe cea mai populară aplicație de mesagerie din lume"
+          },
+          "instagram": {
+            "name": "Instagram Direct",
+            "description": "Gestionați DM-urile Instagram și răspunsurile la povestiri într-un singur loc",
+            "seachat": {
+              "features": {
+                "replies": "Gestionare răspunsuri la povestiri",
+                "media": "Partajare media",
+                "responses": "Răspunsuri rapide",
+                "greetings": "Salutări automate"
+              }
+            }
+          },
+          "facebook": {
+            "name": "Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "Integrare pagină",
+                "responses": "Răspunsuri automate",
+                "cards": "Carduri bogate",
+                "menu": "Meniu persistent"
+              }
+            },
+            "description": "Oferiți suport prin platforma de mesagerie Facebook"
+          },
+          "voice": {
+            "name": "Apeluri vocale",
+            "description": "Gestionați suportul telefonic cu agenți vocali AI",
+            "seachat": {
+              "features": {
+                "conversations": "Conversații naturale",
+                "routing": "Rutare apeluri",
+                "voicemail": "Transcrierea mesageriei vocale",
+                "conference": "Apeluri conferință"
+              }
+            }
+          },
+          "email": {
+            "name": "Suport e-mail",
+            "description": "Gestionați tichetele de e-mail cu rutare inteligentă",
+            "seachat": {
+              "features": {
+                "categorization": "Categorizare inteligentă",
+                "responses": "Răspunsuri automate",
+                "templates": "Șabloane e-mail",
+                "priority": "Gestionare priorități"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "Vizualizare unificată a clienților",
+            "description": "Vedeți istoricul complet al clienților pe toate canalele într-o singură interfață"
+          },
+          "handoffs": {
+            "title": "Transferuri fără întreruperi",
+            "description": "Clienții pot schimba canalele fără a pierde contextul conversației"
+          },
+          "resolution": {
+            "title": "Rezolvare mai rapidă",
+            "description": "Reduceți timpul de rezolvare cu fluxuri de lucru unificate ale agenților"
+          },
+          "satisfaction": {
+            "title": "Satisfacție mai mare",
+            "description": "Experiență consistentă pe toate punctele de contact"
+          }
+        },
+        "title": "Suport Omnichannel",
+        "subtitle": "Conectați toate punctele de contact cu clienții dvs. într-o singură platformă unificată. Oferiți suport consistent, fără întreruperi pe site-uri web, rețele sociale, telefon și e-mail.",
+        "channelsTitle": "Toate canalele dvs., o singură platformă",
+        "channelsSubtitle": "Conectați și gestionați conversațiile cu clienții pe fiecare canal pe care îl utilizează clienții dvs.",
+        "benefitsTitle": "Puterea adevăratului Omnichannel",
+        "benefitsSubtitle": "Mergeți dincolo de a avea doar mai multe canale. Creați experiențe unificate care încântă clienții.",
+        "inboxTitle": "Experiență inbox unificat",
+        "inboxSubtitle": "Vedeți cum toate conversațiile dvs. cu clienții se reunesc într-o singură interfață inteligentă.",
+        "activeConversations": "Conversații active",
+        "websiteChat": "Chat site web despre funcționalități produs SeaChat...",
+        "whatsappInquiry": "Interogare WhatsApp despre starea comenzii...",
+        "instagramDM": "DM Instagram despre politica de retur...",
+        "conversationView": "Vizualizare conversație",
+        "customerVia": "Client prin site web",
+        "agentResponse": "Răspuns agent",
+        "customerViaWhatsapp": "Client prin WhatsApp",
+        "whatsappMessage": "Mulțumesc! Pot continua această conversație pe WhatsApp?",
+        "ctaTitle": "Gata să vă unificați canalele de clienți?",
+        "ctaSubtitle": "Conectați toate punctele de contact cu clienții dvs. și oferiți experiențe de suport fără întreruperi care îi fac pe clienți să revină.",
+        "customerMessage": "Bună, sunt interesat de funcționalitățile dvs. de automatizare AI. Puteți să-mi spuneți mai multe?",
+        "agentMessage": "Vă voi ajuta cu plăcere! Automatizarea noastră AI poate gestiona până la 80% din interogările de rutină..."
+      },
+      "voiceAgents": {
+        "title": "Agenți vocali",
+        "subtitle": "Transformați suportul telefonic cu agenți vocali AI care sună natural, înțeleg contextul și oferă asistență instantanee în mai multe limbi.",
+        "signUpFree": "Înregistrați-vă gratuit",
+        "scheduleDemo": "Programați o demonstrație",
+        "natural": {
+          "title": "Conversații vocale naturale",
+          "description": "Agenți vocali alimentați de AI care sună natural și înțeleg contextul."
+        },
+        "speech": {
+          "title": "Recunoaștere avansată a vorbirii",
+          "description": "Conversie precisă vorbire în text în mai multe limbi și accente."
+        },
+        "synthesis": {
+          "title": "Sinteză vocală de înaltă calitate",
+          "description": "Ieșire vocală clară, asemănătoare cu cea umană, cu inteligență emoțională."
+        },
+        "support": {
+          "title": "Suport vocal 24/7",
+          "description": "Asistență vocală non-stop pentru suport clienți global."
+        },
+        "multilanguage": {
+          "title": "Suport multilingv",
+          "description": "Suport pentru peste 50 de limbi cu pronunție nativă."
+        },
+        "routing": {
+          "title": "Rutare inteligentă a apelurilor",
+          "description": "Rutare inteligentă către agenți umani atunci când apar probleme complexe."
+        },
+        "capabilitiesTitle": "Capacități vocale avansate",
+        "capabilitiesSubtitle": "Agenții noștri vocali combină AI de ultimă generație cu procesarea limbajului natural pentru conversații asemănătoare cu cele umane.",
+        "capabilities": {
+          "service": {
+            "title": "Apeluri de serviciu clienți",
+            "description": "Gestionați interogările de rutină, starea comenzilor și depanarea de bază"
+          },
+          "appointments": {
+            "title": "Programare programări",
+            "description": "Programați, reprogramați și confirmați programările automat"
+          },
+          "orders": {
+            "title": "Procesare comenzi",
+            "description": "Preiați comenzi, procesați plăți și confirmați detaliile"
+          },
+          "support": {
+            "title": "Suport tehnic",
+            "description": "Ghidarea clienților prin pașii de depanare de bază"
+          }
+        },
+        "performanceTitle": "Performanța agentului vocal",
+        "performanceSubtitle": "Vedeți cum agenții noștri vocali performează în diferite tipuri de interacțiuni cu clienții.",
+        "accuracyRate": "Rată de precizie",
+        "avgDuration": "Durată medie",
+        "experienceTitle": "Experimentați AI vocală în acțiune",
+        "experienceSubtitle": "Ascultați conversații reale între clienți și agenții noștri vocali.",
+        "sampleTitle": "Exemplu de conversație",
+        "voiceAgent": "Agent vocal",
+        "customer": "Client",
+        "agentGreeting": "Bună ziua! Vă mulțumesc că ați apelat suportul SeaChat. Cum vă pot ajuta astăzi?",
+        "customerQuestion": "Bună, trebuie să verific starea comenzii mele recente.",
+        "agentResponse": "Vă voi ajuta cu plăcere. Ați putea, vă rog, să-mi furnizați numărul comenzii sau adresa de e-mail asociată contului dvs.?",
+        "playDemo": "Redați demonstrația completă",
+        "moreSamples": "Mai multe exemple",
+        "featuresTitle": "Funcționalități agent vocal",
+        "featuresList": {
+          "0": "Procesare vorbire naturală",
+          "1": "Suport multilingv",
+          "2": "Integrare sistem telefonic",
+          "3": "Analiza sentimentului vocal",
+          "4": "Înregistrare și analiză apeluri",
+          "5": "Escaladare inteligentă către om"
+        },
+        "ctaTitle": "Gata să transformați suportul telefonic?",
+        "ctaSubtitle": "Experimentați viitorul suportului vocal pentru clienți cu agenți AI care sună și se simt umani."
+      }
+    },
+    "seo": {
+      "title": "SeaChat - Chatbot AI și automatizare asistență clienți | Seasalt.ai",
+      "titleSuffix": " - Chatbot AI și automatizare asistență clienți | Seasalt.ai",
+      "description": "SeaChat este o platformă chatbot alimentată de AI care ajută afacerile să automatizeze serviciul clienți pe mai multe canale, inclusiv WhatsApp, site-uri web, rețele sociale și multe altele."
+    }
+  }
+}

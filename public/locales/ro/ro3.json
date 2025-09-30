@@ -1,0 +1,1489 @@
+{
+  "seachat": {
+    "solutions": {
+      "healthcare": {
+        "title": "Soluții pentru sănătate",
+        "subtitle": "Transformați îngrijirea pacienților cu suport pentru clienți conform HIPAA, care îmbunătățește satisfacția pacienților, eficientizează operațiunile și îmbunătățește coordonarea îngrijirii.",
+        "trialButton": "Începeți gratuit pentru sănătate",
+        "demoButton": "Programați o demonstrație pentru sănătate",
+        "featuresTitle": "Funcționalități specifice sănătății",
+        "featuresSubtitle": "Funcționalități construite special pentru furnizorii de servicii medicale pentru a oferi îngrijiri excepționale pacienților.",
+        "features": {
+          "hipaa": {
+            "title": "Conformitate HIPAA",
+            "description": "Conformitate HIPAA completă cu comunicații criptate și gestionare sigură a datelor",
+            "benefits": {
+              "encryption": "Criptare end-to-end",
+              "audit": "Jurnale de audit",
+              "access": "Controale de acces",
+              "anonymization": "Anonimizarea datelor"
+            }
+          },
+          "appointments": {
+            "title": "Gestionarea programărilor",
+            "description": "Sisteme de programare, reprogramare și memento-uri fără întreruperi",
+            "benefits": {
+              "availability": "Disponibilitate în timp real",
+              "reminders": "Memento-uri automate",
+              "cancellation": "Gestionarea anulărilor",
+              "waitlist": "Gestionarea listei de așteptare"
+            }
+          },
+          "telehealth": {
+            "title": "Suport telemedicină",
+            "description": "Capacități integrate de telemedicină pentru consultații la distanță ale pacienților",
+            "benefits": {
+              "video": "Consultații video",
+              "messaging": "Mesagerie securizată",
+              "documents": "Partajare documente",
+              "followup": "Îngrijire ulterioară"
+            }
+          },
+          "engagement": {
+            "title": "Angajamentul pacientului",
+            "description": "Îmbunătățiți satisfacția pacientului cu suport 24/7 și îngrijire personalizată",
+            "benefits": {
+              "availability": "Disponibilitate 24/7",
+              "multilanguage": "Suport multilingv",
+              "coordination": "Coordonarea îngrijirii",
+              "education": "Educație pentru sănătate"
+            }
+          }
+        },
+        "metricsTitle": "Metrice de impact în sănătate",
+        "metricsSubtitle": "Rezultate reale de la furnizorii de servicii medicale care utilizează SeaChat pentru suportul pacienților.",
+        "metrics": {
+          "noshows": {
+            "label": "Reducerea absențelor",
+            "description": "Cu memento-uri automate de programare",
+            "value": "40%"
+          },
+          "response": {
+            "label": "Timp de răspuns mai rapid",
+            "description": "Pentru întrebările și preocupările pacienților",
+            "value": "60%"
+          },
+          "satisfaction": {
+            "label": "Satisfacția pacientului",
+            "description": "Cu disponibilitate de suport 24/7",
+            "value": "85%"
+          },
+          "efficiency": {
+            "label": "Eficiență administrativă",
+            "description": "Prin fluxuri de lucru automate",
+            "value": "50%"
+          }
+        },
+        "useCasesTitle": "Cazuri de utilizare comune în sănătate",
+        "useCasesSubtitle": "Vedeți cum SeaChat gestionează interacțiunile tipice cu pacienții și sarcinile administrative.",
+        "useCases": {
+          "appointments": {
+            "title": "Programarea programărilor",
+            "description": "Pacienții pot programa, reprograma sau anula programări prin chat",
+            "example": "Trebuie să-mi reprogram programarea pentru marțea viitoare",
+            "outcome": "Programare automată cu integrare calendar și confirmare"
+          },
+          "prescriptions": {
+            "title": "Întrebări despre rețete",
+            "description": "Gestionați reînnoirea rețetelor și întrebările despre medicamente în siguranță",
+            "example": "Când va fi gata rețeta mea pentru ridicare?",
+            "outcome": "Integrare farmacie în timp real și actualizări de stare"
+          },
+          "insurance": {
+            "title": "Verificarea asigurării",
+            "description": "Verificați acoperirea asigurării și explicați beneficiile pacienților",
+            "example": "Procedura mea este acoperită de planul meu de asigurare?",
+            "outcome": "Verificare instantanee a asigurării și explicație a acoperirii"
+          },
+          "symptoms": {
+            "title": "Pre-screening simptome",
+            "description": "Evaluare simptome alimentată de AI și recomandări de triaj",
+            "example": "Am febră și tuse, ar trebui să vin?",
+            "outcome": "Evaluare simptome cu recomandări adecvate de îngrijire"
+          }
+        },
+        "patientRequest": "Cerere pacient",
+        "seachatResponse": "Răspuns SeaChat",
+        "hipaaTitle": "Conformitate și securitate HIPAA",
+        "hipaaSubtitle": "Construit de la zero având în vedere securitatea și conformitatea în domeniul sănătății. Protejați datele pacienților, oferind în același timp experiențe excepționale de îngrijire.",
+        "compliance": {
+          "complianceFeatures": [
+            "Criptare end-to-end",
+            "Jurnale de audit",
+            "Controale de acces",
+            "Anonimizarea datelor",
+            "Stocare securizată a datelor",
+            "Audituri regulate de securitate",
+            "Instruire și certificare personal",
+            "Proceduri de răspuns la incidente"
+          ]
+        },
+        "certificationsTitle": "Certificări de securitate",
+        "certifications": {
+          "hipaa": "Conform HIPAA",
+          "soc2": "SOC 2 Tip II",
+          "iso": "ISO 27001",
+          "gdpr": "Pregătit GDPR"
+        },
+        "certified": "Certificat",
+        "compliant": "Conform",
+        "ctaTitle": "Gata să transformați îngrijirea pacienților?",
+        "ctaSubtitle": "Alăturați-vă furnizorilor de servicii medicale care utilizează deja SeaChat pentru a oferi experiențe excepționale pacienților, menținând în același timp cele mai înalte standarde de securitate și conformitate.",
+        "ctaTrialButton": "Începeți gratuit pentru sănătate",
+        "ctaDemoButton": "Programați o demonstrație pentru sănătate"
+      },
+      "fintech": {
+        "securityFeatures": [
+          "Criptare end-to-end pentru toate comunicațiile",
+          "Autentificare multi-factor și verificare identitate",
+          "Audituri regulate de securitate și testare de penetrare",
+          "Infrastructură certificată ISO 27001",
+          "Monitorizare și detectare fraudă în timp real",
+          "Puncte finale API securizate cu limitare de rată"
+        ],
+        "title": "Soluții Fintech",
+        "subtitle": "Suport clienți securizat și conform pentru servicii financiare. Gestionați tranzacțiile, oferiți îndrumare investițională și asigurați conformitatea reglementărilor cu încredere.",
+        "trialButton": "Începeți gratuit pentru Fintech",
+        "demoButton": "Programați o demonstrație financiară",
+        "featuresTitle": "Funcționalități servicii financiare",
+        "featuresSubtitle": "Funcționalități construite special pentru instituțiile financiare pentru a oferi suport clienților securizat și conform.",
+        "features": {
+          "security": {
+            "title": "Securitate financiară",
+            "description": "Securitate la nivel bancar cu conformitate PCI DSS și protecție împotriva fraudei",
+            "benefits": {
+              "pci": "Conformitate PCI DSS",
+              "fraud": "Detectare fraudă",
+              "transactions": "Tranzacții securizate",
+              "identity": "Verificare identitate"
+            }
+          },
+          "payment": {
+            "title": "Suport plăți",
+            "description": "Suport complet pentru procesarea plăților și rezolvarea disputelor",
+            "benefits": {
+              "tracking": "Urmărire tranzacții",
+              "dispute": "Gestionare dispute",
+              "refund": "Procesare rambursări",
+              "methods": "Metode de plată"
+            }
+          },
+          "investment": {
+            "title": "Îndrumare investițională",
+            "description": "Consultanță investițională alimentată de AI și suport pentru gestionarea portofoliului",
+            "benefits": {
+              "insights": "Insight-uri de piață",
+              "portfolio": "Analiză portofoliu",
+              "risk": "Evaluare risc",
+              "recommendations": "Recomandări investiționale"
+            }
+          },
+          "compliance": {
+            "title": "Conformitate reglementară",
+            "description": "Conformitate încorporată cu reglementările financiare și cerințele de raportare",
+            "benefits": {
+              "kyc": "Conformitate KYC/AML",
+              "reporting": "Raportare reglementară",
+              "audit": "Jurnale de audit",
+              "protection": "Protecția datelor"
+            }
+          }
+        },
+        "impactTitle": "Impact servicii financiare",
+        "impactSubtitle": "Rezultate reale de la instituțiile financiare care utilizează SeaChat pentru suportul clienților.",
+        "metrics": {
+          "accuracy": {
+            "label": "Precizie tranzacții",
+            "description": "Cu procesare și verificare automată"
+          },
+          "resolution": {
+            "label": "Rezolvare mai rapidă",
+            "description": "Pentru întrebări și dispute financiare"
+          },
+          "fraud": {
+            "label": "Rată de detectare a fraudei",
+            "description": "Cu sisteme de monitorizare alimentate de AI"
+          },
+          "satisfaction": {
+            "label": "Satisfacția clientului",
+            "description": "Pentru interacțiunile de suport financiar"
+          }
+        },
+        "useCasesTitle": "Cazuri de utilizare suport financiar",
+        "useCasesSubtitle": "Vedeți cum SeaChat gestionează interogările și tranzacțiile financiare complexe.",
+        "useCases": {
+          "account": {
+            "title": "Gestionarea contului",
+            "description": "Ajutați clienții cu configurarea, verificarea și gestionarea contului",
+            "example": "Am nevoie de ajutor pentru configurarea contului meu de afaceri",
+            "outcome": "Configurare ghidată a contului cu verificare documente și controale de conformitate"
+          },
+          "transaction": {
+            "title": "Întrebări despre tranzacții",
+            "description": "Oferiți informații în timp real despre starea și istoricul tranzacțiilor",
+            "example": "Unde este transferul meu bancar către ABC Company?",
+            "outcome": "Urmărire tranzacții în timp real cu actualizări detaliate de stare"
+          },
+          "fraud": {
+            "title": "Prevenirea fraudei",
+            "description": "Detectați și preveniți activitățile frauduloase cu monitorizare AI",
+            "example": "Văd o taxă suspectă în contul meu",
+            "outcome": "Investigație imediată a fraudei și măsuri de protecție a contului"
+          },
+          "investment": {
+            "title": "Suport investițional",
+            "description": "Oferiți îndrumare investițională și asistență pentru gestionarea portofoliului",
+            "example": "Ar trebui să investesc în acțiuni tehnologice acum?",
+            "outcome": "Consultanță investițională personalizată bazată pe profilul de risc și analiza pieței"
+          }
+        },
+        "customerInquiry": "Interogare client",
+        "seachatResponse": "Răspuns SeaChat",
+        "securityTitle": "Securitate și conformitate la nivel bancar",
+        "securitySubtitle": "Construit cu cele mai înalte standarde de securitate și cerințe de conformitate reglementară pentru instituțiile de servicii financiare.",
+        "regulatoryTitle": "Conformitate reglementară",
+        "regulations": {
+          "pci": {
+            "name": "PCI DSS",
+            "description": "Standardul de securitate a datelor din industria cardurilor de plată",
+            "status": "Conform"
+          },
+          "sox": {
+            "name": "SOX",
+            "description": "Conformitate cu Legea Sarbanes-Oxley",
+            "status": "Conform"
+          },
+          "gdpr": {
+            "name": "GDPR",
+            "description": "Regulamentul general privind protecția datelor",
+            "status": "Conform"
+          },
+          "kyc": {
+            "name": "KYC/AML",
+            "description": "Cunoașteți-vă clientul / Anti-spălare de bani",
+            "status": "Suportat"
+          },
+          "ccpa": {
+            "name": "CCPA",
+            "description": "Legea californiană privind confidențialitatea consumatorilor",
+            "status": "Conform"
+          },
+          "finra": {
+            "name": "FINRA",
+            "description": "Autoritatea de reglementare a industriei financiare",
+            "status": "Suportat"
+          }
+        },
+        "ctaTitle": "Gata să vă securizați serviciile financiare?",
+        "ctaSubtitle": "Alăturați-vă instituțiilor financiare care utilizează deja SeaChat pentru a oferi suport clienților securizat și conform, care construiește încredere și stimulează creșterea.",
+        "ctaTrialButton": "Începeți gratuit pentru Fintech",
+        "ctaDemoButton": "Programați o demonstrație financiară"
+      },
+      "ecommerce": {
+        "title": "E-commerce și retail",
+        "subtitle": "Transformați-vă magazinul online cu suport inteligent pentru clienți care stimulează vânzările, reduce abandonul coșului și creează clienți fideli.",
+        "trialButton": "Începeți gratuit pentru E-commerce",
+        "demoButton": "Programați o demonstrație E-commerce",
+        "featuresTitle": "Funcționalități specializate pentru E-commerce",
+        "featuresSubtitle": "Funcționalități construite special pentru comercianții online pentru a maximiza vânzările și satisfacția clienților.",
+        "features": {
+          "orders": {
+            "title": "Integrare gestionare comenzi",
+            "description": "Integrați-vă fără probleme cu platforma dvs. de e-commerce pentru urmărirea și actualizarea comenzilor în timp real.",
+            "benefits": {
+              "status": "Stare comandă în timp real",
+              "shipping": "Actualizări automate de livrare",
+              "returns": "Procesare retururi",
+              "inventory": "Întrebări despre inventar"
+            }
+          },
+          "accounts": {
+            "title": "Suport cont client",
+            "description": "Ajutați clienții cu probleme de cont, resetări de parolă și gestionarea profilului.",
+            "benefits": {
+              "recovery": "Recuperare cont",
+              "updates": "Actualizări profil",
+              "subscriptions": "Gestionare abonamente",
+              "billing": "Suport facturare"
+            }
+          },
+          "recommendations": {
+            "title": "Recomandări produse",
+            "description": "Sugestii de produse alimentate de AI bazate pe preferințele clienților și istoricul de navigare.",
+            "benefits": {
+              "personalized": "Sugestii personalizate",
+              "cross": "Oportunități de cross-selling",
+              "upselling": "Automatizare upselling",
+              "inventory": "Optimizare inventar"
+            }
+          },
+          "assistance": {
+            "title": "Asistență cumpărături 24/7",
+            "description": "Suport non-stop pentru clienți din diferite fusuri orare și modele de cumpărături.",
+            "benefits": {
+              "global": "Acoperire globală",
+              "peak": "Suport ore de vârf",
+              "holiday": "Asistență de sărbători",
+              "mobile": "Ajutor cumpărături mobile"
+            }
+          }
+        },
+        "resultsTitle": "Rezultate dovedite în E-commerce",
+        "resultsSubtitle": "Metrice reale de la afacerile de e-commerce care utilizează SeaChat pentru suportul clienților.",
+        "metrics": {
+          "conversion": {
+            "label": "Creștere în conversia vânzărilor",
+            "description": "Prin suport proactiv pentru clienți"
+          },
+          "abandonment": {
+            "label": "Reducerea abandonului coșului",
+            "description": "Cu asistență de cumpărături în timp real"
+          },
+          "resolution": {
+            "label": "Rezolvare mai rapidă a comenzilor",
+            "description": "Actualizări automate ale stării comenzilor"
+          },
+          "satisfaction": {
+            "label": "Rata de satisfacție a clienților",
+            "description": "Pentru interacțiunile de suport e-commerce"
+          }
+        },
+        "integrationsTitle": "Integrări platforme E-commerce",
+        "integrationsSubtitle": "Conectați-vă fără probleme cu stiva dvs. de e-commerce existentă pentru suport unificat pentru clienți.",
+        "integrations": {
+          "shopify": {
+            "name": "Shopify",
+            "description": "Aplicație nativă Shopify cu integrare completă a comenzilor"
+          },
+          "woocommerce": {
+            "name": "WooCommerce",
+            "description": "Plugin WordPress pentru magazinele WooCommerce"
+          },
+          "magento": {
+            "name": "Magento",
+            "description": "Integrare Magento la nivel de întreprindere"
+          },
+          "bigcommerce": {
+            "name": "BigCommerce",
+            "description": "Integrare completă API BigCommerce"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "Procesare plăți și suport facturare"
+          },
+          "paypal": {
+            "name": "PayPal",
+            "description": "Gestionare tranzacții și dispute PayPal"
+          }
+        },
+        "successTitle": "Poveste de succes: Retailer de modă",
+        "challenge": "Provocare",
+        "challengeDescription": "Rată mare de abandon a coșului și clienți care pleacă din cauza întrebărilor despre mărime și a preocupărilor legate de disponibilitatea produselor.",
+        "solution": "Soluție",
+        "solutionDescription": "Implementarea SeaChat cu integrare catalog produse, ghiduri de mărime și recuperare proactivă a coșului abandonat.",
+        "results": "Rezultate",
+        "result1": "Creștere cu 45% a ratei de conversie",
+        "result2": "Reducere cu 60% a abandonului coșului",
+        "result3": "2,3 milioane USD venituri suplimentare în 6 luni",
+        "chatPreview": "Previzualizare chat live",
+        "customer": "Client",
+        "customerQuestion": "Această rochie este disponibilă în mărimea M?",
+        "seachatAI": "SeaChat AI",
+        "aiResponse1": "Da! Rochia de vară albastră este disponibilă în mărimea M. Avem 3 în stoc. Doriți să o adaug la coșul dvs.?",
+        "customerResponse": "Perfect! Da, vă rog să o adăugați.",
+        "aiResponse2": "Adăugată în coș! 🛍️ Vă calificați pentru transport gratuit. Gata de finalizare a comenzii?",
+        "ctaTitle": "Gata să vă stimulați vânzările de E-commerce?",
+        "ctaSubtitle": "Alăturați-vă sutelor de comercianți online care utilizează SeaChat pentru a crește conversiile, a reduce abandonul coșului și a crea experiențe de cumpărături excepționale.",
+        "ctaTrialButton": "Începeți gratuit pentru E-commerce",
+        "ctaDemoButton": "Programați o demonstrație E-commerce"
+      },
+      "education": {
+        "title": "Soluții educaționale",
+        "subtitle": "Transformați suportul educațional cu asistență alimentată de AI pentru studenți, părinți, facultate și personal. Eficientizați operațiunile și îmbunătățiți experiența de învățare.",
+        "trialButton": "Începeți gratuit pentru educație",
+        "demoButton": "Programați o demonstrație pentru educație",
+        "featuresTitle": "Funcționalități specifice educației",
+        "featuresSubtitle": "Funcționalități construite special pentru instituțiile de învățământ pentru a îmbunătăți succesul studenților și eficiența operațională.",
+        "features": {
+          "student": {
+            "title": "Servicii de suport pentru studenți",
+            "description": "Suport complet pentru întrebările studenților, înscriere și asistență academică",
+            "benefits": {
+              "support": "Suport studenți 24/7",
+              "enrollment": "Asistență înscriere",
+              "academic": "Îndrumare academică",
+              "technical": "Ajutor tehnic"
+            }
+          },
+          "admin": {
+            "title": "Automatizare administrativă",
+            "description": "Eficientizați sarcinile administrative cu programare și notificări automate",
+            "benefits": {
+              "scheduling": "Programare cursuri",
+              "events": "Gestionare evenimente",
+              "deadlines": "Memento-uri termene limită",
+              "registration": "Suport înregistrare"
+            }
+          },
+          "stakeholder": {
+            "title": "Suport multi-stakeholder",
+            "description": "Suport pentru studenți, părinți, facultate și personal cu experiențe personalizate",
+            "benefits": {
+              "portals": "Portaluri studenți",
+              "parent": "Comunicare părinți",
+              "faculty": "Asistență facultate",
+              "staff": "Coordonare personal"
+            }
+          },
+          "lms": {
+            "title": "Integrare gestionare învățare",
+            "description": "Integrare fără întreruperi cu platformele LMS și instrumentele educaționale",
+            "benefits": {
+              "connectivity": "Conectivitate LMS",
+              "grades": "Întrebări despre note",
+              "assignments": "Ajutor teme",
+              "courses": "Informații cursuri"
+            }
+          }
+        },
+        "stakeholdersTitle": "Suport pentru toți stakeholderii",
+        "stakeholdersSubtitle": "Experiențe personalizate pentru fiecare membru al comunității dvs. educaționale.",
+        "stakeholders": {
+          "students": {
+            "title": "Studenți",
+            "description": "Suport academic, ajutor la înscriere și servicii campus",
+            "features": {
+              "courses": "Informații cursuri",
+              "assignments": "Termene limită teme",
+              "grades": "Întrebări despre note",
+              "campus": "Navigare campus"
+            }
+          },
+          "parents": {
+            "title": "Părinți",
+            "description": "Rămâneți informat despre progresul studenților și actualizările instituționale",
+            "features": {
+              "progress": "Actualizări progres",
+              "payment": "Informații plată",
+              "events": "Notificări evenimente",
+              "communication": "Comunicare cu facultatea"
+            }
+          },
+          "faculty": {
+            "title": "Facultate",
+            "description": "Suport administrativ și asistență didactică",
+            "features": {
+              "management": "Gestionare cursuri",
+              "inquiries": "Întrebări studenți",
+              "resources": "Solicitări resurse",
+              "technical": "Suport tehnic"
+            }
+          },
+          "staff": {
+            "title": "Personal",
+            "description": "Eficiență operațională și automatizare administrativă",
+            "features": {
+              "automation": "Automatizare procese",
+              "information": "Acces informații",
+              "workflow": "Gestionare flux de lucru",
+              "reporting": "Instrumente de raportare"
+            }
+          }
+        },
+        "metricsTitle": "Metrice de impact educațional",
+        "metricsSubtitle": "Rezultate reale de la instituțiile de învățământ care utilizează SeaChat pentru suportul studenților și administrativ.",
+        "metrics": {
+          "admin": {
+            "label": "Reducerea volumului de muncă administrativ",
+            "description": "Prin interogări automate ale studenților"
+          },
+          "satisfaction": {
+            "label": "Satisfacția studenților",
+            "description": "Cu disponibilitate de suport 24/7"
+          },
+          "response": {
+            "label": "Timp de răspuns mai rapid",
+            "description": "Pentru întrebările studenților și părinților"
+          },
+          "enrollment": {
+            "label": "Creșterea înscrierilor",
+            "description": "Cu procesul de aplicare simplificat"
+          }
+        },
+        "useCasesTitle": "Cazuri de utilizare comune în educație",
+        "useCasesSubtitle": "Vedeți cum SeaChat gestionează interacțiunile tipice cu studenții și administrative.",
+        "useCases": {
+          "enrollment": {
+            "title": "Înscrierea studenților",
+            "description": "Ghidarea studenților potențiali prin procesul de înscriere",
+            "example": "Vreau să aplic pentru programul de Informatică",
+            "outcome": "Ghidare pas cu pas pentru înscriere cu cerințe de documente și termene limită"
+          },
+          "academic": {
+            "title": "Suport academic",
+            "description": "Oferirea de asistență academică și informații despre cursuri",
+            "example": "Când este termenul limită pentru tema mea de Istorie?",
+            "outcome": "Acces în timp real la termenele limită ale temelor și ghiduri de trimitere"
+          },
+          "campus": {
+            "title": "Servicii campus",
+            "description": "Ajutor cu facilitățile campusului, cantină, cazare și transport",
+            "example": "Cum rezerv o sală de studiu în bibliotecă?",
+            "outcome": "Integrare directă a sistemului de rezervare cu disponibilitate și confirmare"
+          },
+          "financial": {
+            "title": "Ajutor financiar",
+            "description": "Asistență cu cererile de ajutor financiar și informații despre burse",
+            "example": "Pentru ce burse sunt eligibil?",
+            "outcome": "Recomandări personalizate de burse bazate pe profilul studentului"
+          }
+        },
+        "studentInquiry": "Interogare student",
+        "seachatResponse": "Răspuns SeaChat",
+        "integrationsTitle": "Integrări platforme educaționale",
+        "integrationsSubtitle": "Conectați-vă fără probleme cu instrumentele și platformele educaționale populare.",
+        "integrations": {
+          "canvas": {
+            "name": "Canvas LMS",
+            "description": "Integrare sistem de gestionare a învățării"
+          },
+          "blackboard": {
+            "name": "Blackboard",
+            "description": "Gestionare cursuri și livrare conținut"
+          },
+          "moodle": {
+            "name": "Moodle",
+            "description": "Platformă de învățare open-source"
+          },
+          "google": {
+            "name": "Google Classroom",
+            "description": "Platformă de colaborare educațională"
+          },
+          "zoom": {
+            "name": "Zoom",
+            "description": "Conferințe video pentru cursuri virtuale"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Colaborare și comunicare educațională"
+          },
+          "sis": {
+            "name": "Sisteme de informații pentru studenți",
+            "description": "Integrare SIS pentru înregistrările studenților"
+          },
+          "library": {
+            "name": "Sisteme de bibliotecă",
+            "description": "Rezervare resurse și căutare catalog"
+          }
+        },
+        "ctaTitle": "Gata să transformați suportul educațional?",
+        "ctaSubtitle": "Alăturați-vă instituțiilor de învățământ care utilizează deja SeaChat pentru a îmbunătăți succesul studenților și a eficientiza operațiunile administrative.",
+        "ctaTrialButton": "Începeți gratuit pentru educație",
+        "ctaDemoButton": "Programați o demonstrație pentru educație"
+      },
+      "realEstate": {
+        "title": "Soluții imobiliare",
+        "subtitle": "Transformați-vă afacerea imobiliară cu suport pentru clienți alimentat de AI care captează lead-uri, coordonează vizionările și oferă asistență clienților 24/7.",
+        "trialButton": "Începeți gratuit pentru imobiliare",
+        "demoButton": "Programați o demonstrație imobiliară",
+        "featuresTitle": "Funcționalități specializate pentru imobiliare",
+        "featuresSubtitle": "Funcționalități construite special pentru profesioniștii din imobiliare pentru a capta lead-uri și a servi mai bine clienții.",
+        "features": {
+          "search": {
+            "title": "Asistență căutare proprietăți",
+            "description": "Ajutați clienții să găsească proprietatea perfectă cu căutare și recomandări alimentate de AI",
+            "benefits": {
+              "matching": "Potrivire inteligentă a proprietăților",
+              "insights": "Insight-uri de piață",
+              "neighborhood": "Informații despre cartier",
+              "analysis": "Analiză prețuri"
+            }
+          },
+          "showing": {
+            "title": "Coordonare vizionări",
+            "description": "Eficientizați vizionările proprietăților cu programare și coordonare automată",
+            "benefits": {
+              "scheduling": "Programare automată",
+              "availability": "Sincronizare disponibilitate",
+              "reminders": "Notificări memento",
+              "route": "Optimizare rută"
+            }
+          },
+          "leads": {
+            "title": "Gestionare lead-uri",
+            "description": "Captați și cultivați lead-uri cu calificare și follow-up inteligent",
+            "benefits": {
+              "qualification": "Calificare lead-uri",
+              "followup": "Follow-up automat",
+              "crm": "Integrare CRM",
+              "tracking": "Urmărire conversii"
+            }
+          },
+          "communication": {
+            "title": "Comunicare cu clienții",
+            "description": "Suport clienți 24/7 pentru întrebări, actualizări și asistență tranzacțională",
+            "benefits": {
+              "availability": "Disponibilitate 24/7",
+              "updates": "Actualizări tranzacții",
+              "assistance": "Asistență documente",
+              "market": "Actualizări piață"
+            }
+          }
+        },
+        "metricsTitle": "Metrice de impact imobiliar",
+        "metricsSubtitle": "Rezultate reale de la profesioniștii din imobiliare care utilizează SeaChat pentru suport clienți și generare de lead-uri.",
+        "metrics": {
+          "leads": {
+            "label": "Mai multe lead-uri calificate",
+            "description": "Prin calificare inteligentă a lead-urilor"
+          },
+          "response": {
+            "label": "Timp de răspuns mai rapid",
+            "description": "Pentru întrebările și solicitările clienților"
+          },
+          "showing": {
+            "label": "Eficiență vizionări",
+            "description": "Cu coordonare automată a programărilor"
+          },
+          "satisfaction": {
+            "label": "Satisfacția clientului",
+            "description": "Cu disponibilitate de suport 24/7"
+          }
+        },
+        "propertyTypesTitle": "Toate tipurile de proprietăți acceptate",
+        "propertyTypesSubtitle": "Indiferent dacă sunteți specializat în proprietăți rezidențiale, comerciale sau de investiții, vă acoperim noi.",
+        "propertyTypes": {
+          "residential": {
+            "name": "Vânzări rezidențiale",
+            "description": "Case unifamiliale, apartamente și case înșiruite"
+          },
+          "commercial": {
+            "name": "Imobiliare comerciale",
+            "description": "Clădiri de birouri, spații comerciale și depozite"
+          },
+          "rental": {
+            "name": "Proprietăți de închiriat",
+            "description": "Complexe de apartamente și gestionarea închirierilor"
+          },
+          "luxury": {
+            "name": "Proprietăți de lux",
+            "description": "Case de lux și listări exclusive"
+          },
+          "investment": {
+            "name": "Proprietăți de investiții",
+            "description": "Investiții de tip fix-and-flip și închirieri"
+          },
+          "new": {
+            "name": "Construcții noi",
+            "description": "Parteneriate cu constructori și dezvoltări noi"
+          }
+        },
+        "useCasesTitle": "Cazuri de utilizare imobiliare",
+        "useCasesSubtitle": "Vedeți cum SeaChat gestionează interacțiunile tipice cu clienții imobiliari și generarea de lead-uri.",
+        "useCases": {
+          "property": {
+            "title": "Întrebări despre proprietăți",
+            "description": "Gestionați întrebările despre proprietăți și oferiți informații detaliate",
+            "example": "Spuneți-mi despre casa cu 3 dormitoare de pe Oak Street",
+            "outcome": "Informații detaliate despre proprietate cu fotografii, prețuri și date despre cartier"
+          },
+          "showing": {
+            "title": "Solicitări de vizionare",
+            "description": "Programați vizionări de proprietăți și coordonați cu toate părțile",
+            "example": "Aș dori să programez o vizionare pentru acest weekend",
+            "outcome": "Programare automată cu disponibilitatea agentului și confirmare"
+          },
+          "market": {
+            "title": "Analiză de piață",
+            "description": "Oferiți insight-uri de piață și evaluări de proprietăți",
+            "example": "Cât valorează casa mea pe piața de astăzi?",
+            "outcome": "Analiză comparativă de piață cu vânzări recente și tendințe"
+          },
+          "transaction": {
+            "title": "Suport tranzacțional",
+            "description": "Ghidarea clienților prin procesul de cumpărare sau vânzare",
+            "example": "Ce documente am nevoie pentru închidere?",
+            "outcome": "Listă de verificare a documentelor necesare cu termene limită și instrucțiuni"
+          }
+        },
+        "clientInquiry": "Interogare client",
+        "seachatResponse": "Răspuns SeaChat",
+        "integrationsTitle": "Integrări platforme imobiliare",
+        "integrationsSubtitle": "Conectați-vă fără probleme cu instrumentele și platformele pe care le utilizați deja pentru a vă gestiona afacerea imobiliară.",
+        "leadCaptureTitle": "Exemplu de captură de lead-uri",
+        "websiteVisitor": "Vizitator site web",
+        "visitorQuery": "Caut o casă cu 3 dormitoare sub 500k USD",
+        "seachatAI": "SeaChat AI",
+        "aiResponse": "Mi-ar plăcea să vă ajut să găsiți casa perfectă! Am mai multe proprietăți cu 3 dormitoare sub 500k USD. Pot obține informațiile dvs. de contact pentru a vă trimite câteva opțiuni?",
+        "visitorResponse": "Sigur! E-mailul meu este john@email.com",
+        "systemAction": "Acțiune sistem",
+        "leadCaptured": "Lead capturat și adăugat la CRM cu preferințe de proprietate",
+        "ctaTitle": "Gata să vă transformați afacerea imobiliară?",
+        "ctaSubtitle": "Alăturați-vă profesioniștilor din imobiliare care utilizează deja SeaChat pentru a capta mai multe lead-uri, a coordona vizionările și a oferi servicii excepționale clienților.",
+        "ctaTrialButton": "Începeți gratuit pentru imobiliare",
+        "ctaDemoButton": "Programați o demonstrație imobiliară",
+        "integrations": {
+          "0": "Integrare MLS",
+          "1": "Sisteme CRM",
+          "2": "Gestionare proprietăți",
+          "3": "Instrumente de generare de lead-uri",
+          "4": "Calendar și programare",
+          "5": "Marketing prin e-mail",
+          "6": "Gestionare documente",
+          "7": "Platforme de tururi virtuale"
+        }
+      },
+      "saas": {
+        "title": "SaaS și tehnologie",
+        "subtitle": "Accelerați adoptarea utilizatorilor și reduceți abandonul cu suport inteligent pentru clienți care oferă asistență tehnică, îndrumare la integrare și gestionare proactivă a succesului.",
+        "trialButton": "Începeți gratuit pentru SaaS",
+        "demoButton": "Programați o demonstrație SaaS",
+        "featuresTitle": "Funcționalități specifice SaaS",
+        "featuresSubtitle": "Funcționalități construite special pentru companiile SaaS pentru a stimula succesul utilizatorilor și creșterea afacerii.",
+        "features": {
+          "technical": {
+            "title": "Suport tehnic",
+            "description": "Oferiți asistență tehnică de specialitate pentru probleme software și integrări",
+            "benefits": {
+              "api": "Ajutor documentație API",
+              "integration": "Suport integrare",
+              "troubleshooting": "Ghiduri de depanare",
+              "resources": "Resurse pentru dezvoltatori"
+            }
+          },
+          "onboarding": {
+            "title": "Integrare utilizatori",
+            "description": "Eficientizați integrarea utilizatorilor cu configurare ghidată și introducere funcționalități",
+            "benefits": {
+              "tutorials": "Tutoriale interactive",
+              "walkthroughs": "Prezentări funcționalități",
+              "setup": "Asistență configurare",
+              "practices": "Cele mai bune practici"
+            }
+          },
+          "success": {
+            "title": "Succes clienți",
+            "description": "Stimulați adoptarea produselor și reduceți abandonul cu suport proactiv",
+            "benefits": {
+              "analytics": "Analiză utilizare",
+              "adoption": "Adoptare funcționalități",
+              "churn": "Prevenire abandon",
+              "upselling": "Oportunități de upselling"
+            }
+          },
+          "security": {
+            "title": "Securitate și conformitate",
+            "description": "Abordați preocupările de securitate și cerințele de conformitate",
+            "benefits": {
+              "documentation": "Documentație securitate",
+              "compliance": "Ghiduri de conformitate",
+              "protection": "Protecția datelor",
+              "audit": "Suport audit"
+            }
+          }
+        },
+        "useCases": {
+          "api": {
+            "title": "Ajutor integrare API",
+            "description": "Asistență dezvoltatorilor cu implementarea și depanarea API",
+            "example": "Cum mă autentific cu API-ul dvs.?",
+            "outcome": "Ghid de autentificare pas cu pas cu exemple de cod și instrumente de testare"
+          },
+          "feature": {
+            "title": "Ghidare funcționalități",
+            "description": "Ajutați utilizatorii să descopere și să implementeze funcționalități avansate",
+            "example": "Cum configurez fluxuri de lucru automate?",
+            "outcome": "Tutorial interactiv cu șabloane de flux de lucru și asistență la configurare"
+          },
+          "billing": {
+            "title": "Facturare și abonamente",
+            "description": "Gestionați întrebările de facturare și gestionarea abonamentelor",
+            "example": "Vreau să-mi actualizez planul, care sunt diferențele?",
+            "outcome": "Comparație planuri cu detalii de preț și asistență la upgrade"
+          },
+          "performance": {
+            "title": "Optimizare performanță",
+            "description": "Oferiți îndrumare privind optimizarea performanței software",
+            "example": "Tabloul meu de bord se încarcă lent, cum pot remedia acest lucru?",
+            "outcome": "Analiză performanță cu recomandări de optimizare și ajutor la implementare"
+          }
+        },
+        "metrics": {
+          "tickets": {
+            "label": "Reducerea tichetelor de suport",
+            "description": "Prin automatizare self-service"
+          },
+          "onboarding": {
+            "label": "Integrare mai rapidă",
+            "description": "Cu asistență ghidată la configurare"
+          },
+          "adoption": {
+            "label": "Adoptare mai mare a funcționalităților",
+            "description": "Prin ghidare proactivă a funcționalităților"
+          },
+          "churn": {
+            "label": "Rată de abandon redusă",
+            "description": "Cu succes proactiv al clienților"
+          }
+        },
+        "types": {
+          "b2b": {
+            "title": "Platforme SaaS B2B",
+            "description": "Software enterprise și instrumente de afaceri",
+            "features": {
+              "tenant": "Suport multi-tenant",
+              "security": "Securitate enterprise",
+              "api": "Documentație API",
+              "assistance": "Asistență integrare"
+            }
+          },
+          "developer": {
+            "title": "Instrumente pentru dezvoltatori",
+            "description": "API-uri, SDK-uri și platforme de dezvoltare",
+            "features": {
+              "examples": "Exemple de cod",
+              "documentation": "Documentație tehnică",
+              "debugging": "Ajutor depanare",
+              "community": "Suport comunitate"
+            }
+          },
+          "marketing": {
+            "title": "Software de marketing",
+            "description": "Automatizare marketing și instrumente de analiză",
+            "features": {
+              "campaign": "Configurare campanie",
+              "analytics": "Ghidare analiză",
+              "integration": "Ajutor integrare",
+              "practices": "Cele mai bune practici"
+            }
+          },
+          "productivity": {
+            "title": "Aplicații de productivitate",
+            "description": "Software de colaborare și productivitate",
+            "features": {
+              "tutorials": "Tutoriale funcționalități",
+              "workflow": "Optimizare flux de lucru",
+              "team": "Configurare echipă",
+              "usage": "Analiză utilizare"
+            }
+          },
+          "ecommerce": {
+            "title": "Platforme E-commerce",
+            "description": "Magazin online și soluții de plată",
+            "features": {
+              "store": "Configurare magazin",
+              "payment": "Integrare plăți",
+              "theme": "Personalizare temă",
+              "performance": "Optimizare performanță"
+            }
+          },
+          "analytics": {
+            "title": "Platforme de analiză",
+            "description": "Analiză date și inteligență de afaceri",
+            "features": {
+              "dashboard": "Creare tablou de bord",
+              "data": "Integrare date",
+              "report": "Generare rapoarte",
+              "visualization": "Ajutor vizualizare"
+            }
+          }
+        },
+        "typesTitle": "Toate categoriile SaaS acceptate",
+        "typesSubtitle": "De la platforme enterprise la instrumente pentru dezvoltatori, suportăm fiecare tip de afacere SaaS.",
+        "impactTitle": "Impact afaceri SaaS",
+        "impactSubtitle": "Rezultate reale de la companiile SaaS care utilizează SeaChat pentru suportul și succesul clienților.",
+        "useCasesTitle": "Cazuri de utilizare suport SaaS",
+        "useCasesSubtitle": "Vedeți cum SeaChat gestionează interacțiunile tipice cu clienții SaaS și suportul tehnic.",
+        "userQuestion": "Întrebare utilizator",
+        "seachatResponse": "Răspuns SeaChat",
+        "integrationsTitle": "Integrări platforme SaaS",
+        "integrationsSubtitle": "Conectați-vă fără probleme cu instrumentele și platformele care alimentează afacerea dvs. SaaS pentru operațiuni unificate de succes al clienților.",
+        "successFlowTitle": "Flux de succes al clienților",
+        "flow": {
+          "onboarding": {
+            "title": "Integrare utilizatori",
+            "description": "Configurare ghidată și introducere funcționalități"
+          },
+          "adoption": {
+            "title": "Adoptare funcționalități",
+            "description": "Recomandări proactive de funcționalități"
+          },
+          "monitoring": {
+            "title": "Monitorizare utilizare",
+            "description": "Urmăriți angajamentul și identificați problemele"
+          },
+          "growth": {
+            "title": "Succes și creștere",
+            "description": "Oportunități de upselling și extindere"
+          }
+        },
+        "ctaTitle": "Gata să accelerați creșterea SaaS?",
+        "ctaSubtitle": "Alăturați-vă companiilor SaaS care utilizează deja SeaChat pentru a stimula adoptarea utilizatorilor, a reduce abandonul și a accelera succesul clienților.",
+        "ctaTrialButton": "Începeți gratuit pentru SaaS",
+        "ctaDemoButton": "Programați o demonstrație SaaS",
+        "integrations": {
+          "0": "Integrare Slack",
+          "1": "Salesforce CRM",
+          "2": "HubSpot",
+          "3": "Zendesk",
+          "4": "Intercom",
+          "5": "Stripe",
+          "6": "Google Analytics",
+          "7": "Microsoft Teams",
+          "8": "Jira",
+          "9": "GitHub",
+          "10": "Atlassian Suite",
+          "11": "Servicii AWS"
+        }
+      },
+      "smallBusiness": {
+        "title": "Soluții pentru afaceri mici",
+        "subtitle": "Suport clienți accesibil, ușor de utilizat pentru afacerile mici. Începeți gratuit și creșteți cu funcționalități care vă ajută să serviți mai bine clienții fără a vă ruina.",
+        "startButton": "Începeți gratuit astăzi",
+        "demoButton": "Vedeți demonstrația pentru afaceri mici",
+        "featuresTitle": "Construit pentru succesul afacerilor mici",
+        "featuresSubtitle": "Tot ce au nevoie afacerile mici pentru a oferi suport clienților profesional, fără complexitate sau costuri.",
+        "features": {
+          "local": {
+            "title": "Suport afaceri locale",
+            "description": "Perfect pentru magazine locale, restaurante și furnizori de servicii",
+            "benefits": {
+              "seo": "Optimizare SEO locală",
+              "google": "Integrare Google My Business",
+              "reviews": "Gestionare recenzii",
+              "customer": "Bază de clienți locală"
+            }
+          },
+          "cost": {
+            "title": "Soluție rentabilă",
+            "description": "Prețuri accesibile care cresc odată cu afacerea dvs.",
+            "benefits": {
+              "free": "Plan gratuit disponibil",
+              "setup": "Fără taxe de configurare",
+              "pricing": "Prețuri flexibile",
+              "roi": "Urmărire ROI"
+            }
+          },
+          "setup": {
+            "title": "Configurare rapidă",
+            "description": "Începeți în câteva minute, nu ore sau zile",
+            "benefits": {
+              "minutes": "Configurare în 5 minute",
+              "templates": "Șabloane predefinite",
+              "integration": "Integrare ușoară",
+              "activation": "Activare instantanee"
+            }
+          },
+          "personal": {
+            "title": "Atingere personală",
+            "description": "Mențineți relații personale, scalând eficient",
+            "benefits": {
+              "history": "Istoric clienți",
+              "notes": "Note personale",
+              "relationship": "Construire relații",
+              "community": "Focalizare pe comunitatea locală"
+            }
+          }
+        },
+        "typesTitle": "Perfect pentru fiecare afacere mică",
+        "typesSubtitle": "De la magazine de retail la servicii profesionale, suportăm toate tipurile de afaceri mici.",
+        "affordableTitle": "Accesibil pentru fiecare buget",
+        "affordableSubtitle": "Începeți complet gratuit și plătiți doar pentru ceea ce aveți nevoie pe măsură ce creșteți. Fără taxe ascunse, fără contracte pe termen lung, fără surprize.",
+        "pricingTitle": "Prețuri simple",
+        "pricing": {
+          "free": {
+            "title": "Gratuit pentru totdeauna",
+            "period": "pe lună",
+            "agent": "1 agent uman pe viață",
+            "conversations": "Conversații nelimitate",
+            "widget": "Widget de site web de bază",
+            "support": "Suport prin e-mail"
+          },
+          "starter": {
+            "title": "AI Starter",
+            "period": "pe lună",
+            "everything": "Totul în gratuit",
+            "ai": "Automatizare AI",
+            "analytics": "Analiză avansată",
+            "priority": "Suport prioritar"
+          }
+        },
+        "resultsTitle": "Rezultate afaceri mici",
+        "resultsSubtitle": "Rezultate reale de la afacerile mici care utilizează SeaChat pentru a îmbunătăți serviciul clienți și a-și crește afacerea.",
+        "metrics": {
+          "inquiries": {
+            "label": "Mai multe întrebări clienți",
+            "description": "Cu disponibilitate 24/7"
+          },
+          "bookings": {
+            "label": "Creștere rezervări",
+            "description": "Prin programare automată"
+          },
+          "time": {
+            "label": "Economie de timp",
+            "description": "La întrebările de rutină ale clienților"
+          },
+          "satisfaction": {
+            "label": "Satisfacția clientului",
+            "description": "Cu răspunsuri instantanee"
+          }
+        },
+        "scenariosTitle": "Scenarii comune pentru afaceri mici",
+        "scenariosSubtitle": "Vedeți cum SeaChat gestionează interacțiunile tipice cu clienții afacerilor mici.",
+        "useCases": {
+          "inquiries": {
+            "title": "Întrebări clienți",
+            "description": "Gestionați întrebările comune despre produse, servicii și orele de program",
+            "example": "Sunteți deschis duminica? La ce oră închideți?",
+            "outcome": "Răspuns instantaneu cu orele curente și informații despre programul de sărbători"
+          },
+          "booking": {
+            "title": "Programare programări",
+            "description": "Permiteți clienților să programeze programări și servicii direct",
+            "example": "Trebuie să-mi programez o tunsoare pentru vineri după-amiază",
+            "outcome": "Verificare disponibilitate în timp real cu confirmare programare și memento-uri"
+          },
+          "product": {
+            "title": "Informații produs",
+            "description": "Oferiți informații detaliate despre produs și disponibilitate",
+            "example": "Aveți iPhone 15 pe culoarea albastră?",
+            "outcome": "Verificare disponibilitate produs cu prețuri și opțiuni de rezervare"
+          },
+          "directions": {
+            "title": "Indicații locale",
+            "description": "Ajutați clienții să vă găsească locația și să obțină indicații",
+            "example": "Cum ajung la magazinul dvs. din centrul orașului?",
+            "outcome": "Hartă interactivă cu indicații și informații despre parcare"
+          }
+        },
+        "customerQuestion": "Întrebare client",
+        "seachatResponse": "Răspuns SeaChat",
+        "ctaTitle": "Gata să vă creșteți afacerea mică?",
+        "ctaSubtitle": "Alăturați-vă miilor de afaceri mici care utilizează deja SeaChat pentru a oferi suport clienților profesional și a-și crește afacerea fără costurile mari ale afacerilor.",
+        "ctaStartButton": "Începeți gratuit pentru afaceri mici",
+        "ctaDemoButton": "Programați o demonstrație pentru afaceri mici",
+        "affordableFeatures": [
+          "Începeți complet gratuit pentru totdeauna",
+          "Fără taxe de configurare sau integrare",
+          "Plătiți doar pentru funcționalitățile pe care le utilizați",
+          "Anulați oricând, fără contracte",
+          "Scalați prețurile odată cu creșterea dvs.",
+          "Asistență gratuită la migrare",
+          "Suport prin e-mail 24/7 inclus",
+          "Garanție de returnare a banilor de 30 de zile"
+        ]
+      },
+      "travel": {
+        "bookingFlowTitle": "Flux de rezervare călătorii",
+        "ctaDemoButton": "Programați o demonstrație călătorii",
+        "ctaSubtitle": "Alăturați-vă companiilor de turism care utilizează deja SeaChat pentru a oferi servicii excepționale clienților și a eficientiza procesele de rezervare la nivel mondial.",
+        "ctaTitle": "Gata să transformați experiențele de călătorie?",
+        "ctaTrialButton": "Începeți gratuit pentru călătorii",
+        "ctaDemoButton": "Programați o demonstrație călătorii",
+        "features": {
+          "booking": {
+            "benefits": {
+              "availability": "Disponibilitate în timp real",
+              "cancellation": "Suport anulare",
+              "comparisons": "Comparații prețuri",
+              "modifications": "Modificări rezervare"
+            },
+            "description": "Ajutați clienții cu rezervări de zboruri, hoteluri și activități cu disponibilitate în timp real",
+            "title": "Asistență rezervări"
+          },
+          "management": {
+            "benefits": {
+              "documents": "Gestionare documente",
+              "loyalty": "Programe de loialitate",
+              "reminders": "Notificări memento",
+              "tracking": "Urmărire călătorie"
+            },
+            "description": "Gestionare completă a călătoriilor de la rezervare la follow-up post-călătorie",
+            "title": "Gestionare călătorii"
+          },
+          "planning": {
+            "benefits": {
+              "insights": "Insight-uri destinație",
+              "itinerary": "Creare itinerariu",
+              "recommendations": "Recomandări locale",
+              "weather": "Actualizări meteo"
+            },
+            "description": "Oferiți recomandări personalizate de călătorie și planificare itinerariu",
+            "title": "Planificare călătorii"
+          },
+          "support": {
+            "benefits": {
+              "emergency": "Asistență de urgență",
+              "multilanguage": "Ajutor multilingv",
+              "timezone": "Suport fus orar global",
+              "updates": "Actualizări în timp real"
+            },
+            "description": "Asistență non-stop pentru călători din diferite fusuri orare",
+            "title": "Suport călătorii 24/7"
+          }
+        },
+        "featuresSubtitle": "Funcționalități construite special pentru afacerile de turism și ospitalitate pentru a îmbunătăți experiențele clienților.",
+        "featuresTitle": "Funcționalități industrie turism",
+        "flow": {
+          "assistance": {
+            "description": "Rezervare ghidată cu procesare plăți",
+            "title": "Asistență rezervări"
+          },
+          "confirmation": {
+            "description": "Confirmare rezervare cu suport continuu",
+            "title": "Confirmare și suport"
+          },
+          "inquiry": {
+            "description": "Clientul întreabă despre opțiunile de călătorie",
+            "title": "Întrebare călătorie"
+          },
+          "search": {
+            "description": "AI caută în mai multe sisteme",
+            "title": "Căutare în timp real"
+          }
+        },
+        "impactSubtitle": "Rezultate reale de la companiile de turism care utilizează SeaChat pentru suport clienți și asistență la rezervare.",
+        "impactTitle": "Impact industrie turism",
+        "integrationsSubtitle": "Conectați-vă fără probleme cu sistemele de rezervare de călătorii, platformele GDS și instrumentele de gestionare a ospitalității pentru operațiuni unificate.",
+        "integrationsTitle": "Integrări industrie turism",
+        "metrics": {
+          "booking": {
+            "description": "Cu căutare și rezervare asistată de AI",
+            "label": "Proces de rezervare mai rapid",
+            "value": "60%"
+          },
+          "call": {
+            "description": "Prin asistență de călătorie automată",
+            "label": "Volum redus de apeluri",
+            "value": "40%"
+          },
+          "resolution": {
+            "description": "Pentru întrebări legate de călătorii",
+            "label": "Rată de rezolvare a problemelor",
+            "value": "95%"
+          },
+          "satisfaction": {
+            "description": "Cu disponibilitate de suport călătorii 24/7",
+            "label": "Satisfacția clientului",
+            "value": "85%"
+          }
+        },
+        "seachatResponse": "Răspuns SeaChat",
+        "services": {
+          "agencies": {
+            "description": "Servicii complete de planificare și rezervare călătorii",
+            "features": {
+              "deals": "Oferte pachete",
+              "groups": "Rezervări de grup",
+              "insurance": "Asigurare de călătorie",
+              "itineraries": "Itinerarii personalizate"
+            },
+            "title": "Agenții de turism"
+          },
+          "airlines": {
+            "description": "Rezervări de zboruri, check-in și actualizări de călătorie",
+            "features": {
+              "baggage": "Urmărire bagaje",
+              "loyalty": "Programe de loialitate",
+              "seat": "Selectare loc",
+              "status": "Stare zbor"
+            },
+            "title": "Companii aeriene"
+          },
+          "car": {
+            "description": "Asistență și suport pentru închirieri auto",
+            "features": {
+              "availability": "Disponibilitate auto",
+              "insurance": "Opțiuni asigurare",
+              "locations": "Locații de preluare",
+              "roadside": "Asistență rutieră"
+            },
+            "title": "Închirieri auto"
+          },
+          "cruise": {
+            "description": "Rezervare croaziere și servicii la bord",
+            "features": {
+              "cabin": "Selectare cabină",
+              "dining": "Rezervări mese",
+              "entertainment": "Rezervare divertisment",
+              "shore": "Excursii la țărm"
+            },
+            "title": "Linii de croazieră"
+          },
+          "hotels": {
+            "description": "Rezervări hoteluri și servicii pentru oaspeți",
+            "features": {
+              "amenity": "Informații facilități",
+              "booking": "Rezervare cameră",
+              "loyalty": "Recompense de loialitate",
+              "requests": "Solicitări speciale"
+            },
+            "title": "Hoteluri și cazare"
+          },
+          "tour": {
+            "description": "Tururi ghidate și rezervări de activități",
+            "features": {
+              "availability": "Disponibilitate tur",
+              "equipment": "Închiriere echipament",
+              "guides": "Ghiduri locale",
+              "sizes": "Dimensiuni grup"
+            },
+            "title": "Operatori de turism"
+          }
+        },
+        "servicesSubtitle": "De la companii aeriene la hoteluri, închirieri auto la linii de croazieră - acoperim fiecare aspect al călătoriilor.",
+        "servicesTitle": "Toate serviciile de călătorie acoperite",
+        "subtitle": "Transformați experiențele de călătorie cu suport pentru clienți alimentat de AI care gestionează rezervările, oferă asistență 24/7 și creează călătorii memorabile pentru clienții dvs.",
+        "title": "Călătorii și ospitalitate",
+        "travelerRequest": "Cerere călător",
+        "trialButton": "Începeți gratuit pentru călătorii",
+        "useCases": {
+          "destination": {
+            "description": "Oferiți sfaturi de călătorie, insight-uri locale și recomandări de destinație",
+            "example": "Care sunt cele mai bune restaurante din Paris?",
+            "outcome": "Recomandări de restaurante curate cu rezervări și insight-uri locale",
+            "title": "Informații destinație"
+          },
+          "disruptions": {
+            "description": "Gestionați întârzierile de zbor, anulările și asistența la reprogramare",
+            "example": "Zborul meu a fost anulat, care sunt opțiunile mele?",
+            "outcome": "Asistență imediată la reprogramare cu zboruri alternative și informații despre compensații",
+            "title": "Perturbări de călătorie"
+          },
+          "documentation": {
+            "description": "Ajutor cu cerințele de viză, informații despre pașaport și documente de călătorie",
+            "example": "Am nevoie de viză pentru a călători în Japonia?",
+            "outcome": "Cerințe complete de viză cu procesul de aplicare și cronologie",
+            "title": "Documentație de călătorie"
+          },
+          "flight": {
+            "description": "Asistență cu rezervări de zboruri, modificări și anulări",
+            "example": "Trebuie să-mi schimb zborul de marți în joi",
+            "outcome": "Verificare disponibilitate zbor în timp real cu opțiuni de reprogramare și informații despre taxe",
+            "title": "Rezervare și modificări zboruri"
+          }
+        },
+        "useCasesSubtitle": "Vedeți cum SeaChat gestionează interogările tipice de călătorie și asistența la rezervare.",
+        "useCasesTitle": "Cazuri de utilizare suport călătorii",
+        "integrations": {
+          "0": "Sisteme GDS (Amadeus, Sabre, Galileo)",
+          "1": "Sisteme de rezervare a companiilor aeriene",
+          "2": "Sisteme de rezervare a hotelurilor",
+          "3": "Platforme de închiriere auto",
+          "4": "Furnizori de asigurări de călătorie",
+          "5": "Sisteme de procesare a plăților"
+        }
+      }
+    },
+    "channels": {
+      "title": "Conectați fiecare canal de client",
+      "description": "Unificați toate comunicațiile cu clienții într-o singură platformă. De la WhatsApp la apeluri telefonice, SMS la rețele sociale - gestionați fiecare conversa dintr-un singur tablou de bord.",
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "description": "Conectați-vă cu clienții pe cea mai populară platformă de mesagerie din lume"
+      },
+      "voice": {
+        "title": "Voce și apeluri telefonice",
+        "description": "Sistem telefonic profesional cu voicebot AI și suport pentru agenți umani"
+      },
+      "sms": {
+        "title": "Mesagerie SMS",
+        "description": "Atingeți clienții instantaneu cu campanii SMS personalizate"
+      },
+      "website": {
+        "title": "Widget de chat pe site",
+        "description": "Transformați vizitatorii site-ului în conversații cu chat alimentat de AI"
+      },
+      "cta": {
+        "exploreAll": "Explorați toate canalele",
+        "subtitle": "Vedeți cum toate cele 9 canale funcționează împreună fără întreruperi"
+      }
+    },
+    "comparison": {
+      "title": "De ce afacerile în creștere aleg SeaChat în detrimentul concurenței?",
+      "description": "Vedeți cum SeaChat înlocuiește mai multe instrumente cu o singură platformă completă. Economisiți bani, obținând în același timp mai multe funcționalități.",
+      "recommended": "Recomandat",
+      "table": {
+        "headers": {
+          "platform": "Platformă",
+          "startingPrice": "Preț de pornire",
+          "pricingModel": "Model de prețuri",
+          "unifiedVoiceDigital": "Voce și digital unificate",
+          "aiCapabilities": "Capacități AI",
+          "bestFor": "Cel mai bun pentru"
+        }
+      },
+      "competitors": {
+        "seasalt": {
+          "startingPrice": "20 USD/agent/lună",
+          "pricingModel": "Prețuri simple per utilizator",
+          "unifiedVoiceDigital": "✅ Da, nativ",
+          "aiCapabilities": "✅ Da, voce și chatbot nativ",
+          "bestFor": "IMM-uri care au nevoie de o platformă cu adevărat all-in-one și accesibilă."
+        },
+        "aircall": {
+          "startingPrice": "30 USD/utilizator/lună",
+          "pricingModel": "Per utilizator + add-on-uri",
+          "unifiedVoiceDigital": "⚠️ Voce + WhatsApp (add-on)",
+          "aiCapabilities": "⚠️ AI este un add-on plătit",
+          "bestFor": "Echipe de vânzări care își pot permite mai multe add-on-uri și îndeplinesc minimul de 3 utilizatori."
+        },
+        "ringcentral": {
+          "startingPrice": "65 USD/agent/lună",
+          "pricingModel": "Niveluri complexe",
+          "unifiedVoiceDigital": "❌ Produse separate",
+          "aiCapabilities": "✅ Da (CCaaS alimentat de AI)",
+          "bestFor": "Companii mari care au nevoie de o platformă UCaaS extinsă cu CCaaS separat."
+        },
+        "genesys": {
+          "startingPrice": "75 USD/utilizator/lună",
+          "pricingModel": "Per utilizator + minime ridicate",
+          "unifiedVoiceDigital": "✅ Da (în planurile premium)",
+          "aiCapabilities": "✅ Da (sistem complex de token-uri)",
+          "bestFor": "Întreprinderi cu echipe și bugete dedicate pentru centre de contact."
+        },
+        "five9": {
+          "startingPrice": "119 USD/utilizator/lună",
+          "pricingModel": "Per utilizator + pachete",
+          "unifiedVoiceDigital": "✅ Da (în planurile premium)",
+          "aiCapabilities": "✅ Da (AI avansată)",
+          "bestFor": "Centre de contact mari, axate pe outbound, care au nevoie de instrumente la nivel de întreprindere."
+        },
+        "googleVoice": {
+          "startingPrice": "10 USD/utilizator/lună",
+          "pricingModel": "Per utilizator + taxă Workspace",
+          "unifiedVoiceDigital": "❌ Nu",
+          "aiCapabilities": "❌ Nu (doar transcriere mesagerie vocală)",
+          "bestFor": "Antreprenori individuali (doar SUA) care au nevoie de un număr de telefon de bază, separat."
+        }
+      },
+      "cta": {
+        "seeAllComparisons": "Vedeți toate comparațiile detaliate"
+      }
+    },
+    "footer": {
+      "product": "Produs",
+      "company": {
+        "productWiki": "Wiki produs",
+        "apiReferences": "Referințe API",
+        "careers": "Cariere",
+        "title": "Companie",
+        "about": "Despre"
+      },
+      "resources": "Resurse",
+      "legal": {
+        "privacyPolicy": "Politica de confidențialitate",
+        "termsOfService": "Termeni și condiții"
+      },
+      "getStarted": "Gata să începeți?",
+      "joinThousands": "Alăturați-vă miilor de afaceri care utilizează deja SeaChat pentru a oferi experiențe excepționale clienților.",
+      "enterEmail": "Introduceți e-mailul dvs.",
+      "noCredit": "Nu este necesar un card de credit • Configurare în 2 minute • Anulați oricând",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. Toate drepturile rezervate.",
+      "compliance": "🔒 Conform SOC 2",
+      "gdpr": "🛡️ Pregătit GDPR",
+      "uptime": "⚡ 99,9% timp de funcționare",
+      "brand": {
+        "description": "Transformați-vă suportul clienților cu combinația perfectă de agenți umani și automatizare AI. Începeți gratuit, scalați inteligent, reușiți mai rapid."
+      },
+      "contact": {
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "Seattle, WA"
+      },
+      "stats": {
+        "messagesDaily": "Peste 5 milioane de mesaje zilnic",
+        "activeUsers": "Peste 100K utilizatori activi",
+        "uptime": "99,9% timp de funcționare"
+      },
+      "cta": {
+        "title": "Gata să vă transformați suportul clienților?",
+        "description": "Alăturați-vă miilor de afaceri care utilizează SeaChat pentru a oferi experiențe excepționale clienților cu suport chat alimentat de AI.",
+        "signUpFree": "Înregistrați-vă gratuit",
+        "scheduleDemo": "Programați o demonstrație",
+        "disclaimer": "Nu este necesar un card de credit • Configurare în 2 minute • Anulați oricând"
+      }
+    },
+    "featureComparison": {
+      "title": "De ce să alegeți SeaChat în detrimentul concurenței?",
+      "subtitle": "Vedeți cum SeaChat înlocuiește mai multe instrumente cu o singură platformă completă. Economisiți bani, obținând în același timp mai multe funcționalități.",
+      "valueTitle": "Valoarea pe care o obțineți:",
+      "totalValue": "331 USD sau mai mult/lună",
+      "competitorTotal": "Valoare totală de la concurenți",
+      "priceTitle": "Prețul pe care îl plătiți:",
+      "seachatPrice": "29,99 USD/lună",
+      "seachatAll": "Toate funcționalitățile incluse",
+      "seeDetailedPricing": "Vedeți prețurile detaliate",
+      "ctaTitle": "Gata să experimentați avantajul SeaChat?",
+      "ctaSubtitle": "Alăturați-vă miilor de afaceri care au ales soluția mai inteligentă și mai accesibilă.",
+      "startFree": "Începeți gratuit acum",
+      "bookDemo": "Programați o demonstrație",
+      "features": {
+        "chatbotWebsite": "Chatbot pentru site-ul web",
+        "chatWidget": "Widget de chat cu agent live",
+        "whatsappMessenger": "WhatsApp/Messenger/Instagram",
+        "multiCalendar": "Programări multi-calendar",
+        "phoneCallAI": "Agenți AI pentru apeluri telefonice primite",
+        "smsActions": "Acțiuni încorporate - SMS",
+        "emailActions": "Acțiuni încorporate - E-mail",
+        "phoneNumber": "Achiziționați număr de telefon",
+        "agencyMode": "Mod agenție",
+        "bulkSMS": "SMS în masă, apel, WhatsApp",
+        "unlimitedContacts": "Contacte nelimitate",
+        "knowledgeBase": "Bază de cunoștințe suplimentară",
+        "extraChatbot": "Chatbot suplimentar"
+      },
+      "table": {
+        "headers": {
+          "features": "Funcționalități",
+          "replaces": "Înlocuiește",
+          "otherTools": "Alte instrumente",
+          "seachat": "SeaChat"
+        },
+        "total": "Total",
+        "totalPrice": "331 USD sau mai mult pe lună",
+        "seachatPrice": "29,99 USD pe lună",
+        "explanations": {
+          "valueYouGet": "↑ Valoarea pe care o obțineți",
+          "priceYouWouldPay": "↑ Prețul pe care l-ați plăti altfel",
+          "priceYouPay": "↑ Prețul pe care îl plătiți"
+        }
+      },
+      "mobile": {
+        "replaces": "Înlocuiește:",
+        "otherTools": "Alte instrumente:",
+        "seachat": "SeaChat:",
+        "otherToolsTotal": "Total alte instrumente:",
+        "seachatTotal": "Total SeaChat:",
+        "totalPrice": "331 USD+ pe lună",
+        "seachatTotalPrice": "29,99 USD pe lună",
+        "priceYouWouldPay": "↑ Prețul pe care l-ați plăti altfel",
+        "priceYouPay": "↑ Prețul pe care îl plătiți"
+      },
+      "uniqueToSeachat": "UNIC",
+      "pricing": {
+        "chatbotWebsite": "99 USD pe lună",
+        "chatWidget": "23 USD per agent pe lună",
+        "whatsappMessenger": "89 USD per utilizator pe lună",
+        "multiCalendar": "10 USD per loc pe lună",
+        "phoneCallAI": "29 USD pe lună",
+        "smsActions": "59 USD pe lună",
+        "emailActions": "20 USD pe lună",
+        "phoneNumber": "2 până la 3 USD pe lună",
+        "unlimitedContacts": "65 USD per 10K contacte",
+        "knowledgeBase": "8 USD per bază de cunoștințe suplimentară",
+        "extraChatbot": "7 USD per chatbot suplimentar"
+      },
+      "seachatValues": {
+        "agencyMode": "Spații de lucru multiple - un spațiu de lucru per client",
+        "bulkSMS": "Integrați cu SeaX de la Seasalt.ai",
+        "unlimitedContacts": "Nelimitat",
+        "knowledgeBase": "5.000 de documente sau 50 de milioane de token-uri",
+        "extraChatbot": "10 boți × 5 canale = 50 de boți de canal"
+      },
+      "replaces": {
+        "uniqueToSeachat": "UNIC pentru SeaChat"
+      }
+    }
+  }
+}

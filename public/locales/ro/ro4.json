@@ -1,0 +1,1606 @@
+{
+  "seachat": {
+    "integrations": {
+      "crm": {
+        "title": "Integrări CRM",
+        "subtitle": "Conectați SeaChat cu CRM-ul dvs. pentru a crea o experiență unificată pentru clienți. Sincronizați contactele, urmăriți lead-urile și gestionați relațiile fără probleme.",
+        "connectButton": "Conectați-vă CRM-ul",
+        "guideButton": "Vizualizați ghidul de integrare",
+        "platformsTitle": "Platforme CRM acceptate",
+        "platformsSubtitle": "Alegeți din lista noastră extinsă de integrări CRM, fiecare optimizată pentru un flux de date fără întreruperi.",
+        "setupTime": "Timp de configurare",
+        "connectPlatform": "Conectați",
+        "whyIntegrateTitle": "De ce să vă integrați cu CRM-ul dvs.?",
+        "whyIntegrateSubtitle": "Transformați suportul clienților într-un instrument puternic de vânzări și gestionare a relațiilor.",
+        "featuresTitle": "Funcționalități complete de integrare CRM",
+        "featuresSubtitle": "Integrările noastre CRM depășesc sincronizarea de bază a contactelor pentru a oferi o soluție completă de gestionare a relațiilor cu clienții.",
+        "workflowTitle": "Flux de lucru integrare",
+        "ctaTitle": "Gata să vă conectați CRM-ul?",
+        "ctaSubtitle": "Începeți să sincronizați datele clienților și transformați conversațiile de suport în oportunități de afaceri.",
+        "ctaChooseButton": "Înregistrați-vă gratuit",
+        "ctaGuideButton": "Vizualizați ghidul de configurare",
+        "platforms": {
+          "salesforce": {
+            "name": "Salesforce",
+            "description": "Integrare completă cu Salesforce CRM pentru echipele enterprise",
+            "features": {
+              "contacts": "Sincronizare contacte",
+              "leads": "Gestionare lead-uri",
+              "opportunities": "Urmărire oportunități",
+              "fields": "Câmpuri personalizate"
+            },
+            "setupTime": "15 minute",
+            "popularity": "Cel mai popular"
+          },
+          "hubspot": {
+            "name": "HubSpot",
+            "description": "Integrare HubSpot fără întreruperi pentru alinierea marketingului și vânzărilor",
+            "features": {
+              "properties": "Proprietăți contacte",
+              "deals": "Pipeline oferte",
+              "sequences": "Secvențe e-mail",
+              "reporting": "Raportare"
+            },
+            "setupTime": "10 minute",
+            "popularity": "Recomandat"
+          },
+          "pipedrive": {
+            "name": "Pipedrive",
+            "description": "Integrare Pipedrive simplă, dar puternică pentru echipele de vânzări",
+            "features": {
+              "pipeline": "Gestionare pipeline",
+              "activity": "Urmărire activitate",
+              "history": "Istoric contacte",
+              "automation": "Automatizare"
+            },
+            "setupTime": "8 minute",
+            "popularity": "Configurare ușoară"
+          },
+          "zoho": {
+            "name": "Zoho CRM",
+            "description": "Integrare Zoho CRM completă cu fluxuri de lucru avansate",
+            "features": {
+              "scoring": "Scor lead-uri",
+              "workflow": "Automatizare flux de lucru",
+              "modules": "Module personalizate",
+              "analytics": "Analiză"
+            },
+            "setupTime": "12 minute",
+            "popularity": "Bogată în funcționalități"
+          },
+          "dynamics": {
+            "name": "Microsoft Dynamics",
+            "description": "Integrare la nivel de întreprindere cu Microsoft Dynamics 365",
+            "features": {
+              "mapping": "Mapare entități",
+              "processes": "Procese de afaceri",
+              "powerbi": "Integrare Power BI",
+              "security": "Securitate"
+            },
+            "setupTime": "20 minute",
+            "popularity": "Enterprise"
+          },
+          "freshworks": {
+            "name": "Freshworks CRM",
+            "description": "Integrare CRM modernă cu suita Freshworks",
+            "features": {
+              "management": "Gestionare contacte",
+              "sequences": "Secvențe de vânzări",
+              "phone": "Integrare telefon",
+              "insights": "Insight-uri AI"
+            },
+            "setupTime": "10 minute",
+            "popularity": "Modern"
+          }
+        },
+        "benefits": {
+          "data": {
+            "title": "Date clienți unificate",
+            "description": "Sincronizați automat informațiile clienților între SeaChat și CRM-ul dvs."
+          },
+          "leads": {
+            "title": "Calitate îmbunătățită a lead-urilor",
+            "description": "Transformați conversațiile de suport în lead-uri calificate"
+          },
+          "sync": {
+            "title": "Sincronizare în timp real",
+            "description": "Mențineți datele clienților actualizate pe toate platformele instantaneu"
+          },
+          "context": {
+            "title": "Context mai bun pentru clienți",
+            "description": "Accesați istoricul complet al clienților în timpul conversațiilor de suport"
+          }
+        },
+        "features": [
+          {
+            "title": "Sincronizare date fără întreruperi",
+            "description": "Sincronizați automat informațiile de contact ale clienților, istoricul conversațiilor și înregistrările interacțiunilor",
+            "icon": "sync"
+          },
+          {
+            "title": "Automatizare lead-uri",
+            "description": "Transformați automat conversațiile de suport în lead-uri calificate în CRM-ul dvs.",
+            "icon": "users"
+          },
+          {
+            "title": "Rutare inteligentă",
+            "description": "Rutați inteligent clienții către echipa de vânzări sau de suport potrivită pe baza datelor CRM",
+            "icon": "route"
+          },
+          {
+            "title": "Vizualizare unificată a clienților",
+            "description": "Accesați istoricul complet al clienților și înregistrările tranzacțiilor instantaneu în timpul conversațiilor de suport",
+            "icon": "eye"
+          },
+          {
+            "title": "Declanșatoare de activitate",
+            "description": "Declanșați automat fluxuri de lucru CRM și campanii de marketing pe baza interacțiunilor cu clienții",
+            "icon": "zap"
+          },
+          {
+            "title": "Rapoarte și analiză",
+            "description": "Raportare unificată pe toate platformele cu insight-uri profunde în ciclul de viață al clienților și metricile de conversie",
+            "icon": "chart"
+          }
+        ],
+        "workflow": {
+          "connect": {
+            "title": "Conectați-vă CRM-ul",
+            "description": "Autentificați și configurați conexiunea CRM"
+          },
+          "map": {
+            "title": "Mapați câmpurile de date",
+            "description": "Configurați modul în care datele circulă între sisteme"
+          },
+          "sync": {
+            "title": "Începeți sincronizarea",
+            "description": "Bucurați-vă de sincronizarea automată a datelor"
+          }
+        }
+      },
+      "api": {
+        "accessButton": "Obțineți acces API",
+        "benefits": {
+          "dataFlow": {
+            "description": "Sincronizare automată între SeaChat și sistemele dvs.",
+            "title": "Flux de date fără întreruperi"
+          },
+          "implementation": {
+            "description": "Configurare rapidă cu șabloane de integrare predefinite",
+            "title": "Implementare mai rapidă"
+          },
+          "insights": {
+            "description": "Raportare îmbunătățită cu surse de date integrate",
+            "title": "Insight-uri mai bune"
+          },
+          "manualWork": {
+            "description": "Eliminați sarcinile repetitive cu automatizare inteligentă",
+            "title": "Muncă manuală redusă"
+          }
+        },
+        "benefitsSubtitle": "Transformați-vă fluxul de lucru cu integrări personalizate puternice SeaChat.",
+        "benefitsTitle": "Beneficiile integrării",
+        "buildSubtitle": "Urmați acești pași simpli pentru a începe cu integrările API personalizate SeaChat.",
+        "buildTitle": "Gata să construiți integrarea dvs.?",
+        "capabilitiesSubtitle": "Tot ce aveți nevoie pentru a construi integrări robuste, scalabile cu SeaChat.",
+        "capabilitiesTitle": "Capacități puternice de integrare",
+        "copyCode": "Copiați codul",
+        "ctaAccessButton": "Obțineți acces API",
+        "ctaDocsButton": "Vizualizați documentația",
+        "ctaSubtitle": "Obțineți acces API și începeți să construiți integrări personalizate puternice care vă transformă fluxul de lucru de suport clienți.",
+        "ctaTitle": "Începeți să construiți astăzi",
+        "docsButton": "Vizualizați documentația API",
+        "exampleSubtitle": "Începeți cu API-ul nostru în doar câteva linii de cod.",
+        "exampleTitle": "Exemplu de cod de pornire rapidă",
+        "features": {
+          "custom": {
+            "description": "Construiți integrări personalizate pentru nevoile dvs. specifice de afaceri",
+            "title": "Integrări personalizate"
+          },
+          "restful": {
+            "description": "API REST curat, bine documentat pentru integrare fără întreruperi",
+            "title": "API RESTful"
+          },
+          "webhooks": {
+            "description": "Notificări instantanee pentru evenimente și actualizări de conversa",
+            "title": "Webhooks în timp real"
+          },
+          "workflow": {
+            "description": "Automatizați fluxurile de lucru complexe cu platforma noastră de integrare",
+            "title": "Automatizare flux de lucru"
+          }
+        },
+        "integrationExample": "Exemplu de integrare personalizată",
+        "patternsSubtitle": "Explorați scenarii comune de integrare și exemple de implementare.",
+        "patternsTitle": "Modele comune de integrare",
+        "resources": {
+          "community": "Suport comunitate dezvoltatori",
+          "docs": "Documentație API completă",
+          "examples": "Exemple de cod în mai multe limbi",
+          "explorer": "Explorer API interactiv",
+          "sandbox": "Mediu sandbox pentru testare",
+          "simulator": "Simulator evenimente Webhook"
+        },
+        "resourcesTitle": "Resurse pentru dezvoltatori",
+        "steps": {
+          "build": {
+            "description": "Dezvoltați-vă integrarea utilizând mediul nostru sandbox",
+            "title": "Construiți și testați"
+          },
+          "credentials": {
+            "description": "Înregistrați-vă și generați cheia API și secretul webhook",
+            "title": "Obțineți credențialele API"
+          },
+          "deploy": {
+            "description": "Lansați-vă integrarea și monitorizați performanța",
+            "title": "Implementați și monitorizați"
+          },
+          "docs": {
+            "description": "Explorați documentația și exemplele noastre complete API",
+            "title": "Revizuiți documentația"
+          }
+        },
+        "subtitle": "Construiți integrări personalizate puternice cu API-ul nostru complet. Conectați SeaChat la orice sistem sau flux de lucru cu instrumentele noastre prietenoase pentru dezvoltatori.",
+        "title": "Integrări API personalizate",
+        "types": {
+          "analytics": {
+            "complexity": "Scăzută",
+            "description": "Trimiteți datele conversațiilor către instrumentele dvs. de analiză",
+            "example": "Urmăriți satisfacția clienților și metricile de suport",
+            "time": "1-2 ore",
+            "title": "Platformă de analiză"
+          },
+          "crm": {
+            "complexity": "Medie",
+            "description": "Sincronizați datele clienților cu sistemul dvs. CRM",
+            "example": "Creați automat lead-uri din conversațiile de suport",
+            "time": "2-4 ore",
+            "title": "Integrare CRM"
+          },
+          "ecommerce": {
+            "complexity": "Medie",
+            "description": "Conectați-vă cu magazinul dvs. online pentru gestionarea comenzilor",
+            "example": "Oferiți starea comenzilor și informații de urmărire în timp real",
+            "time": "3-6 ore",
+            "title": "Platformă E-commerce"
+          },
+          "payment": {
+            "complexity": "Ridicată",
+            "description": "Integrați-vă cu gateway-urile de plată pentru suport de facturare",
+            "example": "Gestionați rambursările și întrebările de plată automat",
+            "time": "4-8 ore",
+            "title": "Procesare plăți"
+          }
+        },
+        "useCaseTitle": "Exemplu de caz de utilizare"
+      },
+      "calendar": {
+        "benefits": {
+          "noShows": {
+            "description": "Memento-urile și confirmările automate reduc programările ratate",
+            "title": "Absențe reduse"
+          },
+          "scheduling": {
+            "description": "Permiteți clienților să-și programeze programările direct din conversațiile de chat",
+            "title": "Programare automată"
+          },
+          "timeSavings": {
+            "description": "Eliminați e-mailurile și apelurile de programare repetitive",
+            "title": "Economie de timp"
+          },
+          "utilization": {
+            "description": "Optimizați utilizarea calendarului cu programare inteligentă",
+            "title": "Utilizare mai bună"
+          }
+        },
+        "benefitsSubtitle": "Eficientizați procesul de programare și îmbunătățiți experiența clienților cu rezervare automată.",
+        "benefitsTitle": "Beneficiile integrării calendarului",
+        "connectButton": "Conectați calendarul",
+        "connectPlatform": "Conectați",
+        "ctaConnectButton": "Conectați-vă calendarul",
+        "ctaGuideButton": "Vizualizați ghidul de configurare",
+        "ctaSubtitle": "Conectați-vă calendarul și permiteți clienților să-și programeze programările fără probleme prin conversațiile dvs. de suport.",
+        "ctaTitle": "Gata să vă automatizați programarea?",
+        "customer": "Client",
+        "customerChoice": "Marți, la ora 14:00, este perfect!",
+        "demoButton": "Programați o demonstrație de programare",
+        "exampleTitle": "Exemplu de programare",
+        "features": [
+          "Sincronizare disponibilitate în timp real",
+          "Confirmări automate de rezervare",
+          "Generare invitații calendar",
+          "Notificări memento",
+          "Suport multi-fus orar",
+          "Gestionare programări recurente"
+        ],
+        "flow": {
+          "availability": {
+            "description": "Sistemul verifică disponibilitatea calendarului în timp real",
+            "example": "Sloturi disponibile: Marți 14:00, Miercuri 10:00, Joi 15:00",
+            "title": "Verificare disponibilitate"
+          },
+          "confirmation": {
+            "description": "Clientul selectează ora și programarea este rezervată automat",
+            "example": "Întâlnire rezervată pentru marți, ora 14:00, cu invitație calendar trimisă",
+            "title": "Confirmare rezervare"
+          },
+          "followup": {
+            "description": "Memento-uri și confirmări trimise automat",
+            "example": "Memento 24 de ore + link întâlnire + materiale de pregătire",
+            "title": "Follow-up automat"
+          },
+          "request": {
+            "description": "Clientul solicită să programeze o întâlnire sau o programare",
+            "example": "\"Aș dori să programez o demonstrație pentru săptămâna viitoare\"",
+            "title": "Cerere client"
+          }
+        },
+        "flowSubtitle": "Vedeți cum funcționează rezervarea programărilor fără întreruperi în cadrul conversațiilor cu clienții.",
+        "flowTitle": "Flux de programare automată",
+        "platforms": {
+          "acuity": {
+            "category": "Profesional",
+            "description": "Programare avansată cu funcționalități de gestionare a clienților",
+            "features": {
+              "group": "Programări de grup",
+              "intake": "Formulare de înregistrare clienți",
+              "packages": "Programare pachete",
+              "workflows": "Fluxuri de lucru automate"
+            },
+            "name": "Acuity Scheduling",
+            "setupTime": "12 minute"
+          },
+          "apple": {
+            "category": "Ecosistem Apple",
+            "description": "Integrare calendar iCloud pentru utilizatorii ecosistemului Apple",
+            "features": {
+              "devices": "Acces pe mai multe dispozitive",
+              "location": "Servicii de localizare",
+              "sharing": "Partajare evenimente",
+              "sync": "Sincronizare iCloud"
+            },
+            "name": "Apple Calendar",
+            "setupTime": "6 minute"
+          },
+          "calcom": {
+            "category": "Programare deschisă",
+            "description": "Infrastructură de programare deschisă pentru echipe și persoane fizice",
+            "features": {
+              "api": "API și webhooks",
+              "booking": "Link-uri de rezervare",
+              "payments": "Integrare plăți",
+              "workflows": "Fluxuri de lucru personalizate"
+            },
+            "name": "Cal.com",
+            "setupTime": "7 minute"
+          },
+          "calendly": {
+            "category": "Programare",
+            "description": "Instrument popular de programare pentru rezervarea automată a programărilor",
+            "features": {
+              "booking": "Pagini de rezervare",
+              "buffer": "Timpi tampon",
+              "payment": "Integrare plăți",
+              "questions": "Întrebări personalizate"
+            },
+            "name": "Calendly",
+            "setupTime": "10 minute"
+          },
+          "google": {
+            "category": "Google Workspace",
+            "description": "Integrare fără întreruperi cu Google Calendar pentru programarea programărilor",
+            "features": {
+              "availability": "Sincronizare disponibilitate",
+              "events": "Creare evenimente",
+              "meetings": "Programare întâlniri",
+              "reminders": "Notificări memento"
+            },
+            "name": "Google Calendar",
+            "setupTime": "5 minute"
+          },
+          "highlevel": {
+            "category": "All-in-One",
+            "description": "Soluție all-in-one pentru vânzări, marketing și automatizare calendar",
+            "features": {
+              "forms": "Formulare de rezervare",
+              "integration": "Integrare CRM",
+              "pipelines": "Pipeline-uri de vânzări",
+              "reminders": "Memento-uri automate"
+            },
+            "name": "HighLevel",
+            "setupTime": "9 minute"
+          },
+          "notion": {
+            "category": "Productivitate",
+            "description": "Gestionare calendar și proiecte cu integrare Notion",
+            "features": {
+              "automation": "Automatizare flux de lucru",
+              "sync": "Sincronizare calendar",
+              "tasks": "Programare sarcini",
+              "templates": "Șabloane personalizate"
+            },
+            "name": "Notion",
+            "setupTime": "6 minute"
+          },
+          "outlook": {
+            "category": "Microsoft 365",
+            "description": "Integrare calendar Microsoft Outlook și Office 365",
+            "features": {
+              "exchange": "Sincronizare Exchange",
+              "recurring": "Evenimente recurente",
+              "rooms": "Săli de întâlnire",
+              "team": "Calendare de echipă"
+            },
+            "name": "Microsoft Outlook",
+            "setupTime": "8 minute"
+          },
+          "zoom": {
+            "category": "Conferințe video",
+            "description": "Programare întâlniri video cu integrare Zoom",
+            "features": {
+              "meetings": "Întâlniri video",
+              "recording": "Configurare înregistrare",
+              "waiting": "Săli de așteptare",
+              "webinar": "Programare webinar"
+            },
+            "name": "Zoom Scheduler",
+            "setupTime": "7 minute"
+          }
+        },
+        "platformsSubtitle": "Conectați-vă cu toate platformele majore de calendar și programare pentru o gestionare fără întreruperi a programărilor.",
+        "platformsTitle": "Integrări calendar platformă SeaChat",
+        "seachatAI": "SeaChat AI",
+        "slot1": "Marți, 16 ianuarie - 14:00 PST",
+        "slot2": "Miercuri, 17 ianuarie - 10:00 PST",
+        "slot3": "Joi, 18 ianuarie - 15:00 PST",
+        "solutionSubtitle": "Tot ce aveți nevoie pentru a gestiona programările, întâlnirile și evenimentele direct din platforma dvs. de suport clienți.",
+        "solutionTitle": "Soluție completă de programare",
+        "subtitle": "Integrați-vă cu platformele populare de calendar pentru a permite programarea fără întreruperi a programărilor direct din conversațiile de suport clienți.",
+        "title": "Calendar și programare",
+        "setup": "Configurare"
+      },
+      "communication": {
+        "benefits": {
+          "collaboration": {
+            "description": "Îmbunătățiți coordonarea internă a echipei și timpii de răspuns",
+            "title": "Colaborare în echipă"
+          },
+          "efficiency": {
+            "description": "Rezolvare mai rapidă cu instrumente de comunicare integrate",
+            "title": "Eficiența răspunsului"
+          },
+          "satisfaction": {
+            "description": "Experiență de suport mai bună pe toate canalele",
+            "title": "Satisfacția clientului"
+          },
+          "unified": {
+            "description": "Gestionați toate canalele de comunicare dintr-un singur hub central",
+            "title": "Comunicare unificată"
+          }
+        },
+        "benefitsSubtitle": "Îmbunătățiți-vă suportul clienților și colaborarea internă cu integrări SeaChat fără întreruperi.",
+        "benefitsTitle": "Beneficiile comunicării integrate",
+        "connectButton": "Conectați instrumentele de comunicare",
+        "connectPlatform": "Conectați-vă cu",
+        "cta": {
+          "connectButton": "Începeți acum",
+          "contactButton": "Contactați vânzările",
+          "title": "Gata să eficientizați comunicarea?",
+          "subtitle": "Conectați-vă instrumentele de comunicare preferate și îmbunătățiți productivitatea echipei și angajamentul clienților."
+        },
+        "demoButton": "Programați o demonstrație de integrare",
+        "features": {
+          "feature1": {
+            "description": "Angajați-vă cu clienții instantaneu pe toate platformele integrate, asigurând răspunsuri în timp util și satisfacție îmbunătățită.",
+            "title": "Mesagerie în timp real"
+          },
+          "feature2": {
+            "description": "Configurați răspunsuri automate și reguli de rutare pentru a gestiona eficient mesajele primite și a reduce efortul manual.",
+            "title": "Fluxuri de lucru automate"
+          },
+          "feature3": {
+            "description": "Gestionați toate conversațiile dintr-o singură interfață intuitivă, eliminând necesitatea de a comuta între diferite aplicații.",
+            "title": "Inbox unificat"
+          },
+          "feature4": {
+            "description": "Obțineți insight-uri despre volumul de comunicare, timpii de răspuns și performanța agenților cu analize și raportare complete.",
+            "title": "Analiză performanță"
+          }
+        },
+        "featuresSubtitle": "Descoperiți cum integrările noastre de comunicare SeaChat vă pot transforma fluxul de lucru.",
+        "featuresTitle": "Funcționalități cheie",
+        "platforms": {
+          "discord": {
+            "category": "Comunitate",
+            "description": "Suport comunitate prin servere și canale Discord",
+            "features": {
+              "bot": "Funcționalități bot",
+              "moderation": "Moderare comunitate",
+              "server": "Integrare server",
+              "voice": "Canale vocale"
+            },
+            "name": "Discord",
+            "setupTime": "10 minute"
+          },
+          "email": {
+            "category": "E-mail",
+            "description": "Conectați-vă cu Gmail, Outlook și alți furnizori de e-mail",
+            "features": {
+              "attachments": "Gestionare atașamente",
+              "routing": "Rutare e-mail",
+              "templates": "Răspunsuri șablon",
+              "threading": "Conversații în fir"
+            },
+            "name": "Platforme de e-mail",
+            "setupTime": "7 minute"
+          },
+          "googlechat": {
+            "category": "Chat echipă",
+            "description": "Eficientizați comunicarea în echipă în cadrul ecosistemului Google Workspace.",
+            "features": {
+              "bots": "Integrări bot SeaChat",
+              "files": "Partajare fișiere",
+              "meetings": "Integrare Meet",
+              "spaces": "Spații pentru colaborare"
+            },
+            "name": "Google Chat",
+            "setupTime": "8 minute"
+          },
+          "kakaotalk": {
+            "category": "Mesagerie",
+            "description": "Conectați-vă cu utilizatorii din Coreea de Sud și nu numai cu KakaoTalk.",
+            "features": {
+              "channels": "Canale Plus Friend",
+              "commerce": "Integrare Kakao Commerce",
+              "messages": "Mesaje bogate",
+              "payments": "Integrare Kakao Pay"
+            },
+            "name": "KakaoTalk",
+            "setupTime": "12 minute"
+          },
+          "slack": {
+            "category": "Chat echipă",
+            "description": "Integrați-vă cu Slack pentru colaborare în echipă și notificări interne",
+            "features": {
+              "channels": "Notificări canal",
+              "commands": "Comenzi bot",
+              "files": "Partajare fișiere",
+              "messages": "Mesaje directe"
+            },
+            "name": "Slack",
+            "setupTime": "5 minute"
+          },
+          "teams": {
+            "category": "Enterprise",
+            "description": "Conectați-vă cu Microsoft Teams pentru comunicare enterprise",
+            "features": {
+              "apps": "Integrare aplicații",
+              "calls": "Apeluri video",
+              "channels": "Canale echipă",
+              "files": "Colaborare fișiere"
+            },
+            "name": "Microsoft Teams",
+            "setupTime": "8 minute"
+          },
+          "telegram": {
+            "category": "Mesagerie",
+            "description": "Integrare bot Telegram pentru suport mesagerie instantanee",
+            "features": {
+              "api": "API bot",
+              "channels": "Difuzare canal",
+              "files": "Transferuri fișiere",
+              "groups": "Chat-uri de grup"
+            },
+            "name": "Telegram",
+            "setupTime": "15 minute"
+          },
+          "whatsapp": {
+            "category": "Mesagerie",
+            "features": {
+              "automation": "Răspunsuri automate",
+              "businessApi": "API Business",
+              "messaging": "Mesagerie bogată",
+              "templates": "Șabloane mesaje"
+            },
+            "name": "WhatsApp",
+            "setupTime": "10 minute",
+            "description": "Angajați-vă cu clienții direct pe cea mai populară aplicație de mesagerie din lume."
+          },
+          "zalo": {
+            "category": "Mesagerie",
+            "description": "Conectați-vă cu clienții din Vietnam și Asia de Sud-Est prin Zalo.",
+            "features": {
+              "messaging": "Mesagerie bogată",
+              "miniApp": "Mini aplicații",
+              "officialAccount": "Conturi oficiale",
+              "payments": "Integrare Zalo Pay"
+            },
+            "name": "Zalo",
+            "setupTime": "10 minute"
+          }
+        },
+        "platformsSubtitle": "Conectați-vă cu instrumentele de comunicare pe care echipa dvs. le utilizează deja pentru o integrare fără întreruperi a fluxului de lucru.",
+        "platformsTitle": "Platforme de comunicare populare",
+        "subtitle": "Integrați-vă cu platformele populare de comunicare precum Slack, Teams, Discord și multe altele pentru a eficientiza fluxul de lucru de suport și colaborarea în echipă.",
+        "title": "Instrumente de comunicare",
+        "setup": "Timp de configurare"
+      },
+      "ecommerce": {
+        "benefits": {
+          "cart": {
+            "description": "Reduceți abandonul coșului cu suport proactiv",
+            "title": "Recuperare coș"
+          },
+          "orders": {
+            "description": "Gestionați interogările de comenzi, urmărirea și actualizările automat",
+            "title": "Gestionare comenzi"
+          },
+          "payment": {
+            "description": "Asistență cu probleme de plată și întrebări de facturare",
+            "title": "Suport plăți"
+          },
+          "sales": {
+            "description": "Transformați conversațiile de suport în vânzări suplimentare",
+            "title": "Creștere vânzări"
+          }
+        },
+        "benefitsSubtitle": "Transformați-vă suportul clienților într-o forță motrice puternică pentru vânzări și retenție.",
+        "benefitsTitle": "Beneficiile suportului E-commerce",
+        "connectPlatform": "Conectați",
+        "cta": {
+          "button1": "Conectați-vă magazinul acum",
+          "button2": "Programați o demonstrație E-commerce"
+        },
+        "ctaSubtitle": "Conectați-vă magazinul online și începeți să oferiți suport excepțional clienților care stimulează vânzările și loialitatea.",
+        "ctaTitle": "Gata să vă stimulați vânzările de E-commerce?",
+        "customer": "Client",
+        "hero": {
+          "button1": "Conectați-vă magazinul",
+          "button2": "Programați o demonstrație E-commerce"
+        },
+        "orderQuestion": "Unde este comanda mea #12345?",
+        "orderResponse": "Comanda dvs. #12345 a fost expediată ieri și este în tranzit. Livrare estimată: Mâine până la ora 18:00. Urmăriți-o aici: [link de urmărire]",
+        "platforms": {
+          "bigcommerce": {
+            "description": "Integrare API BigCommerce pentru magazine online în creștere",
+            "features": {
+              "customers": "Insight-uri clienți",
+              "orders": "Gestionare comenzi",
+              "products": "Date produse",
+              "shipping": "Informații livrare"
+            },
+            "name": "BigCommerce",
+            "popularity": "În creștere",
+            "setupTime": "10 minute"
+          },
+          "etsy": {
+            "description": "Integrare piață Etsy pentru vânzători creativi",
+            "features": {
+              "listings": "Ajutor listări",
+              "messages": "Mesaje clienți",
+              "orders": "Suport comenzi",
+              "shop": "Gestionare magazin"
+            },
+            "name": "Etsy",
+            "popularity": "Creativ",
+            "setupTime": "12 minute"
+          },
+          "fourthwall": {
+            "description": "Platformă pentru creatori pentru a construi un site web gratuit, a vinde produse și a gestiona abonamente",
+            "features": {
+              "community": "Instrumente comunitare",
+              "donations": "Donații",
+              "memberships": "Abonamente",
+              "merch": "Marfă personalizată"
+            },
+            "name": "Fourthwall",
+            "popularity": "Economia creatorilor",
+            "setupTime": "10 minute"
+          },
+          "godaddy": {
+            "description": "Soluție all-in-one pentru site-uri web, marketing și magazine online",
+            "features": {
+              "scheduling": "Programare programări",
+              "security": "Securitate SSL",
+              "social": "Instrumente rețele sociale",
+              "website": "Constructor site web"
+            },
+            "name": "GoDaddy",
+            "popularity": "Comprehensiv",
+            "setupTime": "15 minute"
+          },
+          "hostinger": {
+            "description": "Furnizor de găzduire web cu un constructor de site-uri web integrat și funcționalități de e-commerce",
+            "features": {
+              "builder": "Constructor site web AI",
+              "hosting": "Găzduire fiabilă",
+              "ssl": "SSL gratuit",
+              "support": "Suport 24/7"
+            },
+            "name": "Hostinger",
+            "popularity": "Buget-friendly",
+            "setupTime": "10 minute"
+          },
+          "magento": {
+            "description": "Integrare Magento la nivel de întreprindere pentru e-commerce la scară largă",
+            "features": {
+              "catalog": "Sincronizare catalog",
+              "multistore": "Suport multi-magazin",
+              "orders": "Comenzi avansate",
+              "segments": "Segmente clienți"
+            },
+            "name": "Magento",
+            "popularity": "Enterprise",
+            "setupTime": "15 minute"
+          },
+          "opencart": {
+            "description": "Platformă de e-commerce open-source gratuită pentru magazine online",
+            "features": {
+              "dashboard": "Tablou de bord admin",
+              "extensions": "Extensii bogate",
+              "multi_store": "Funcționalitate multi-magazin",
+              "themes": "Tematizabil"
+            },
+            "name": "OpenCart",
+            "popularity": "Flexibil",
+            "setupTime": "25 minute"
+          },
+          "prestashop": {
+            "description": "Soluție de e-commerce open-source pentru afaceri mici și mari",
+            "features": {
+              "analytics": "Analiză avansată",
+              "customizable": "Foarte personalizabil",
+              "modules": "Mii de module",
+              "multilingual": "Suport multilingv"
+            },
+            "name": "PrestaShop",
+            "popularity": "Open-Source",
+            "setupTime": "30 minute"
+          },
+          "sellfy": {
+            "description": "Platformă de e-commerce pentru creatori pentru a vinde produse digitale, abonamente și bunuri fizice",
+            "features": {
+              "digital": "Vânzări produse digitale",
+              "marketing": "Marketing încorporat",
+              "print_on_demand": "Print-on-demand",
+              "subscriptions": "Servicii de abonament"
+            },
+            "name": "Sellfy",
+            "popularity": "Orientat spre creatori",
+            "setupTime": "5 minute"
+          },
+          "shopify": {
+            "description": "Integrare Shopify completă cu gestionarea comenzilor și sincronizarea clienților",
+            "features": {
+              "catalog": "Catalog produse",
+              "customers": "Profiluri clienți",
+              "inventory": "Sincronizare inventar",
+              "orders": "Urmărire comenzi"
+            },
+            "name": "Shopify",
+            "popularity": "Cel mai popular",
+            "setupTime": "5 minute"
+          },
+          "square": {
+            "description": "Soluții de punct de vânzare și e-commerce pentru afaceri de toate dimensiunile",
+            "features": {
+              "invoicing": "Facturare",
+              "loyalty": "Programe de loialitate",
+              "pos": "POS integrat",
+              "reporting": "Raportare vânzări"
+            },
+            "name": "Square",
+            "popularity": "Retail",
+            "setupTime": "5 minute"
+          },
+          "squarespace": {
+            "description": "Constructor de site-uri web cunoscut pentru șabloanele sale de design frumoase și capacitățile de e-commerce",
+            "features": {
+              "blogging": "Instrumente de blogging",
+              "commerce": "Funcționalități complete de comerț",
+              "design": "Design premiat",
+              "portfolio": "Opțiuni portofoliu"
+            },
+            "name": "Squarespace",
+            "popularity": "Orientat spre design",
+            "setupTime": "20 minute"
+          },
+          "weebly": {
+            "description": "Constructor de site-uri web simplu drag-and-drop cu funcționalități de e-commerce",
+            "features": {
+              "marketing": "Instrumente de marketing",
+              "payments": "Plăți integrate",
+              "seo": "Optimizare SEO",
+              "storefront": "Vitrină personalizabilă"
+            },
+            "name": "Weebly",
+            "popularity": "Ușor de utilizat",
+            "setupTime": "10 minute"
+          },
+          "wix": {
+            "description": "Platformă de dezvoltare web bazată pe cloud pentru crearea de site-uri web HTML5 și site-uri mobile",
+            "features": {
+              "analytics": "Analiză site",
+              "apps": "Piață de aplicații",
+              "mobile": "Optimizat pentru mobil",
+              "templates": "Șabloane de designer"
+            },
+            "name": "Wix",
+            "popularity": "Versatil",
+            "setupTime": "10 minute"
+          },
+          "woocommerce": {
+            "description": "Plugin WordPress WooCommerce pentru integrare perfectă a magazinului",
+            "features": {
+              "customers": "Istoric clienți",
+              "orders": "Stare comandă",
+              "payments": "Urmărire plăți",
+              "products": "Suport produse"
+            },
+            "name": "WooCommerce",
+            "popularity": "WordPress",
+            "setupTime": "8 minute"
+          }
+        },
+        "platformsSubtitle": "Integrați-vă cu toate platformele majore de e-commerce și piețele online pentru suport unificat pentru clienți.",
+        "platformsTitle": "Platforme E-commerce acceptate",
+        "recommendationQuestion": "Super! Puteți recomanda produse similare?",
+        "recommendationResponse": "Pe baza achiziției dvs., s-ar putea să vă placă aceste articole: [Produs A], [Produs B]. Doriți o reducere de 10% la următoarea comandă?",
+        "scenarioTitle": "Scenariu de suport clienți",
+        "seachatAI": "SeaChat AI",
+        "subtitle": "Conectați SeaChat cu magazinul dvs. online pentru a oferi suport excepțional clienților, a crește vânzările și a reduce abandonul coșului.",
+        "supportSubtitle": "Tot ce aveți nevoie pentru a oferi suport excepțional clienților pentru magazinul dvs. online, de la urmărirea comenzilor la recomandări de produse.",
+        "supportTitle": "Suită completă de suport E-commerce",
+        "title": "Integrări E-commerce SeaChat",
+        "setup": "Timp de configurare",
+        "features": [
+          {
+            "title": "Urmărire comenzi în timp real",
+            "description": "Sincronizați automat starea comenzilor și oferiți informații de urmărire instantanee clienților",
+            "icon": "package"
+          },
+          {
+            "title": "Gestionare inventar",
+            "description": "Țineți clienții informați despre disponibilitatea produselor și notificările de reaprovizionare",
+            "icon": "warehouse"
+          },
+          {
+            "title": "Recomandări inteligente de produse",
+            "description": "Sugestii de produse alimentate de AI bazate pe istoricul de cumpărături și preferințele clienților",
+            "icon": "target"
+          },
+          {
+            "title": "Recuperare coș abandonat",
+            "description": "Contactați proactiv clienții care și-au abandonat coșurile cu mesaje personalizate",
+            "icon": "shopping-cart"
+          },
+          {
+            "title": "Rezolvare probleme de plată",
+            "description": "Gestionați eșecurile de plată și întrebările de facturare cu acces instantaneu la datele tranzacțiilor",
+            "icon": "credit-card"
+          },
+          {
+            "title": "Istoric cumpărături clienți",
+            "description": "Accesați istoricul complet de cumpărături al clienților pentru un suport mai bun și servicii personalizate",
+            "icon": "history"
+          }
+        ]
+      },
+      "marketing": {
+        "automationTitle": "Flux de automatizare marketing",
+        "benefits": {
+          "campaigns": {
+            "description": "Rezultate mai bune ale campaniilor cu insight-uri de suport clienți",
+            "title": "Performanța campaniei"
+          },
+          "leads": {
+            "description": "Transformați conversațiile de suport în lead-uri calificate de marketing",
+            "title": "Generare de lead-uri"
+          },
+          "retention": {
+            "description": "Îmbunătățiți retenția cu campanii de marketing personalizate",
+            "title": "Retenția clienților"
+          },
+          "revenue": {
+            "description": "Creșteți veniturile prin eforturi de marketing integrate",
+            "title": "Creștere venituri"
+          }
+        },
+        "benefitsSubtitle": "Transformați suportul clienților într-un motor puternic de marketing și creștere.",
+        "benefitsTitle": "Beneficiile integrării marketingului",
+        "connectButton": "Conectați instrumentele de marketing",
+        "connectPlatform": "Conectați",
+        "ctaConnectButton": "Conectați instrumentele de marketing",
+        "ctaGuideButton": "Vizualizați ghidul de configurare",
+        "ctaSubtitle": "Conectați-vă platformele de marketing și transformați fiecare conversație de suport clienți într-o oportunitate de creștere.",
+        "ctaTitle": "Gata să vă supraîncărcați marketingul?",
+        "demoButton": "Programați o demonstrație de marketing",
+        "flow": {
+          "conversation": {
+            "description": "Clientul întreabă despre funcționalitățile premium",
+            "title": "Conversație de suport"
+          },
+          "conversion": {
+            "description": "Clientul face upgrade la planul premium",
+            "title": "Conversie"
+          },
+          "tagging": {
+            "description": "Client etichetat ca \"interesat de upgrade\"",
+            "title": "Etichetare automată"
+          },
+          "trigger": {
+            "description": "Secvență de e-mail automată declanșată",
+            "title": "Declanșator campanie"
+          }
+        },
+        "integrationSubtitle": "Reduceți decalajul dintre suportul clienților și marketing cu automatizare inteligentă care transformă fiecare conversație într-o oportunitate de creștere.",
+        "integrationTitle": "Integrare completă de marketing",
+        "features": [
+          {
+            "title": "Calificare și scor lead-uri",
+            "description": "Calificați și scorizați automat lead-urile din conversațiile de suport pe baza angajamentului și intenției",
+            "icon": "target"
+          },
+          {
+            "title": "Automatizare declanșator campanie",
+            "description": "Declanșați campanii de marketing țintite pe baza interacțiunilor specifice cu clienții și a modelelor de comportament",
+            "icon": "zap"
+          },
+          {
+            "title": "Mapare călătorie client",
+            "description": "Urmăriți și optimizați călătoria completă a clientului de la primul contact la conversie și retenție",
+            "icon": "map"
+          },
+          {
+            "title": "Livrare conținut personalizat",
+            "description": "Livrați conținut de marketing personalizat și oferte pe baza istoricului conversațiilor de suport și a preferințelor",
+            "icon": "heart"
+          },
+          {
+            "title": "Sincronizare campanii multi-canal",
+            "description": "Sincronizați campaniile de marketing prin e-mail, SMS, WhatsApp și rețele sociale pentru mesagerie consistentă",
+            "icon": "sync"
+          },
+          {
+            "title": "Analiză performanță și ROI",
+            "description": "Măsurați performanța campaniei și ROI-ul cu analize detaliate privind ratele de conversie și valoarea pe durata de viață a clientului",
+            "icon": "chart"
+          }
+        ],
+        "platforms": {
+          "activecampaign": {
+            "category": "Automatizare",
+            "description": "Platformă de automatizare a experienței clienților",
+            "features": {
+              "automation": "Automatizare marketing",
+              "crm": "Integrare CRM",
+              "learning": "Învățare automată",
+              "sending": "Trimitere predictivă"
+            },
+            "name": "ActiveCampaign",
+            "setupTime": "18 minute"
+          },
+          "constantcontact": {
+            "category": "Marketing prin e-mail",
+            "description": "Marketing prin e-mail și automatizare pentru afaceri mici",
+            "features": {
+              "analytics": "Tablou de bord analiză",
+              "scheduling": "Programare campanii",
+              "social": "Instrumente rețele sociale",
+              "templates": "Șabloane e-mail"
+            },
+            "name": "Constant Contact",
+            "setupTime": "7 minute"
+          },
+          "convertkit": {
+            "category": "Economia creatorilor",
+            "description": "Marketing prin e-mail orientat spre creatori cu secvențe de automatizare",
+            "features": {
+              "integrations": "Integrări",
+              "landing": "Pagini de destinație",
+              "sequences": "Secvențe e-mail",
+              "tagging": "Etichetare abonați"
+            },
+            "name": "ConvertKit",
+            "setupTime": "9 minute"
+          },
+          "engagebay": {
+            "category": "All-in-One",
+            "description": "Marketing, vânzări și suport CRM all-in-one",
+            "features": {
+              "automation": "Automatizare marketing",
+              "crm": "Integrare CRM",
+              "email": "Marketing prin e-mail",
+              "forms": "Formulare de lead-uri și pop-up-uri"
+            },
+            "name": "EngageBay",
+            "popularity": "All-in-One",
+            "setupTime": "11 minute"
+          },
+          "hubspot": {
+            "category": "Hub de marketing",
+            "description": "Platformă de marketing inbound cu capacități de nutriție a lead-urilor",
+            "features": {
+              "automation": "Automatizare marketing",
+              "landing": "Pagini de destinație",
+              "scoring": "Scor lead-uri",
+              "social": "Rețele sociale"
+            },
+            "name": "HubSpot Marketing",
+            "setupTime": "15 minute"
+          },
+          "klaviyo": {
+            "category": "E-commerce",
+            "description": "Platformă de marketing prin e-mail și SMS axată pe e-commerce",
+            "features": {
+              "recommendations": "Recomandări produse",
+              "revenue": "Urmărire venituri",
+              "sms": "Campanii SMS",
+              "triggers": "Declanșatoare comportamentale"
+            },
+            "name": "Klaviyo",
+            "setupTime": "12 minute"
+          },
+          "mailchimp": {
+            "category": "Marketing prin e-mail",
+            "description": "Platformă completă de marketing prin e-mail cu insight-uri despre public",
+            "features": {
+              "builder": "Constructor campanii",
+              "reporting": "Raportare",
+              "segmentation": "Segmentare public",
+              "testing": "Testare A/B"
+            },
+            "name": "Mailchimp",
+            "setupTime": "10 minute"
+          },
+          "mailerlite": {
+            "category": "Marketing prin e-mail",
+            "description": "Automatizare marketing prin e-mail cu integrare suport clienți",
+            "features": {
+              "analytics": "Analiză",
+              "automation": "Fluxuri de lucru automate",
+              "campaigns": "Campanii de e-mail",
+              "subscribers": "Gestionare abonați"
+            },
+            "name": "MailerLite",
+            "setupTime": "8 minute"
+          },
+          "omnisend": {
+            "category": "E-commerce",
+            "description": "Automatizare marketing omnichannel pentru e-commerce",
+            "features": {
+              "automation": "Fluxuri de lucru automate",
+              "email": "Campanii de e-mail și SMS",
+              "reports": "Raportare avansată",
+              "segmentation": "Segmentare public"
+            },
+            "name": "Omnisend",
+            "setupTime": "10 minute"
+          }
+        },
+        "platformsSubtitle": "Integrați-vă cu platformele de marketing de top pentru a crea experiențe fără întreruperi pentru clienți.",
+        "platformsTitle": "Platforme de marketing populare",
+        "subtitle": "Conectați SeaChat cu instrumentele dvs. de marketing pentru a transforma conversațiile de suport clienți în oportunități puternice de marketing și campanii personalizate.",
+        "title": "Platforme de marketing",
+        "useCases": {
+          "nurturing": {
+            "description": "Adăugați automat contactele de suport la campaniile de nutriție",
+            "example": "Clientul întreabă despre prețuri → Adăugat la secvența de e-mail de demonstrație a produsului",
+            "title": "Nutriție lead-uri"
+          },
+          "onboarding": {
+            "description": "Experiență de integrare fără întreruperi cu automatizare marketing",
+            "example": "Tichet nou de suport clienți → Serie de bun venit cu resurse utile",
+            "title": "Integrare clienți"
+          },
+          "retention": {
+            "description": "Retenție proactivă bazată pe modele de interacțiune de suport",
+            "example": "Multiple tichete de suport → Contact proactiv de succes al clienților declanșat",
+            "title": "Campanii de retenție"
+          },
+          "upselling": {
+            "description": "Identificați oportunitățile de upselling din conversațiile de suport",
+            "example": "Clientul menționează planuri de creștere → Campanie de upgrade declanșată",
+            "title": "Oportunități de upselling"
+          }
+        },
+        "useCasesSubtitle": "Vedeți cum conversațiile de suport pot declanșa fluxuri de lucru puternice de marketing.",
+        "useCasesTitle": "Cazuri de utilizare automatizare marketing",
+        "workflowExample": "Exemplu de flux de lucru",
+        "setup": "Configurare"
+      },
+      "social": {
+        "features": [
+          {
+            "title": "Răspunsuri instantanee pentru clienți",
+            "description": "Răspundeți la interogările din rețelele sociale în timp real pe toate platformele",
+            "icon": "message-circle"
+          },
+          {
+            "title": "Inbox social unificat",
+            "description": "Gestionați toate mesajele din rețelele sociale dintr-un singur tablou de bord centralizat",
+            "icon": "inbox"
+          },
+          {
+            "title": "Rutare automată inteligentă",
+            "description": "Rutați automat mesajele sociale către membrii echipei potriviți",
+            "icon": "route"
+          },
+          {
+            "title": "Gestionarea reputației brandului",
+            "description": "Monitorizați și răspundeți rapid la mențiunile și comentariile brandului",
+            "icon": "shield"
+          },
+          {
+            "title": "Suport multilingv",
+            "description": "Comunicați cu clienții globali în limba lor preferată",
+            "icon": "globe"
+          },
+          {
+            "title": "Analiză socială",
+            "description": "Urmăriți timpii de răspuns, ratele de angajament și satisfacția clienților",
+            "icon": "chart"
+          }
+        ],
+        "benefits": {
+          "meet": {
+            "description": "Oferiți suport pe platformele pe care clienții dvs. le utilizează deja zilnic",
+            "title": "Întâlniți clienții acolo unde sunt"
+          },
+          "reputation": {
+            "description": "Mențineți o imagine pozitivă a brandului cu răspunsuri rapide și utile",
+            "title": "Reputația brandului"
+          },
+          "response": {
+            "description": "Răspundeți la interogările din rețelele sociale în timp real",
+            "title": "Timpi de răspuns mai rapidi"
+          },
+          "unified": {
+            "description": "Gestionați toate platformele sociale dintr-un singur tablou de bord",
+            "title": "Gestionare unificată"
+          }
+        },
+        "benefitsSubtitle": "Transformați-vă prezența în rețelele sociale într-un canal puternic de suport clienți.",
+        "benefitsTitle": "Beneficiile suportului în rețelele sociale",
+        "brandMentions": "Mențiuni brand care necesită răspuns",
+        "connectButton": "Conectați platformele sociale",
+        "connectPlatform": "Conectați",
+        "ctaConnectButton": "Conectați platformele sociale",
+        "ctaGuideButton": "Programați o demonstrație E-commerce",
+        "ctaSubtitle": "Conectați toate platformele dvs. de rețele sociale și oferiți suport excepțional clienților acolo unde aceștia își petrec timpul.",
+        "ctaTitle": "Gata să unificați suportul dvs. din rețelele sociale?",
+        "dashboardTitle": "Tablou de bord rețele sociale",
+        "demoButton": "Programați o demonstrație socială",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "managementSubtitle": "Tot ce aveți nevoie pentru a gestiona interacțiunile cu clienții pe toate platformele de rețele sociale dintr-un singur tablou de bord unificat.",
+        "managementTitle": "Gestionare completă a rețelelor sociale",
+        "mentions": "3 mențiuni",
+        "newMessages": "12 mesaje noi",
+        "pageMessages": "5 mesaje pagină",
+        "platforms": {
+          "facebook": {
+            "description": "Oferiți suport clienților prin platforma de mesagerie Facebook",
+            "features": {
+              "cards": "Carduri bogate",
+              "menu": "Meniu persistent",
+              "page": "Integrare pagină",
+              "responses": "Răspunsuri automate"
+            },
+            "name": "Facebook Messenger",
+            "setupTime": "12 minute",
+            "users": "Peste 1,3 miliarde de utilizatori"
+          },
+          "instagram": {
+            "description": "Gestionați DM-urile Instagram și răspunsurile la povestiri într-un singur inbox unificat",
+            "features": {
+              "dm": "Mesaje directe",
+              "media": "Partajare media",
+              "responses": "Răspunsuri rapide",
+              "stories": "Răspunsuri la povestiri"
+            },
+            "name": "Instagram",
+            "setupTime": "8 minute",
+            "users": "Peste 1,4 miliarde de utilizatori"
+          },
+          "line": {
+            "description": "Oferiți suport și angajament clienților fără întreruperi pe LINE",
+            "features": {
+              "broadcast": "Mesaje de difuzare",
+              "messaging": "Mesagerie bogată",
+              "payments": "Integrare LINE Pay",
+              "stickers": "Suport autocolante"
+            },
+            "name": "LINE",
+            "setupTime": "10 minute",
+            "users": "Peste 180 de milioane de utilizatori"
+          },
+          "tiktok": {
+            "description": "Angajați-vă cu publicul dvs. și gestionați interacțiunile cu clienții pe TikTok",
+            "features": {
+              "ads": "Suport campanii publicitare",
+              "analytics": "Analiză public",
+              "comments": "Gestionare comentarii",
+              "dm": "Mesaje directe"
+            },
+            "name": "TikTok",
+            "setupTime": "15 minute",
+            "users": "Peste 1 miliard de utilizatori"
+          },
+          "twitter": {
+            "description": "Gestionați interogările și mențiunile clienților pe platforma Twitter/X",
+            "features": {
+              "dm": "Mesaje directe",
+              "mentions": "Urmărire mențiuni",
+              "responses": "Răspunsuri la tweet-uri",
+              "threads": "Gestionare fire de discuție"
+            },
+            "name": "Twitter/X",
+            "setupTime": "15 minute",
+            "users": "Peste 450 de milioane de utilizatori"
+          },
+          "whatsapp": {
+            "description": "Conectați-vă cu clienții pe cea mai populară platformă de mesagerie din lume",
+            "features": {
+              "api": "API Business",
+              "groups": "Grupuri",
+              "media": "Media bogată",
+              "templates": "Șabloane"
+            },
+            "name": "WhatsApp Business",
+            "setupTime": "10 minute",
+            "users": "Peste 2 miliarde de utilizatori"
+          }
+        },
+        "platformsSubtitle": "Integrați-vă cu fiecare platformă socială pe care o utilizează clienții dvs. pentru un suport complet în rețelele sociale.",
+        "platformsTitle": "Toate platformele sociale majore",
+        "productComments": "Comentarii la cea mai recentă prezentare de produse",
+        "productInquiries": "Întrebări clienți despre disponibilitatea produselor",
+        "setup": "Timp de configurare",
+        "storyReplies": "8 răspunsuri la povestiri",
+        "subtitle": "Conectați toate platformele dvs. de rețele sociale și oferiți suport clienților fără întreruperi pe WhatsApp, Instagram, Facebook, Twitter și multe altele.",
+        "supportRequests": "Solicitări de suport și întrebări generale",
+        "title": "Integrări rețele sociale",
+        "twitter": "Twitter/X",
+        "whatsapp": "WhatsApp Business",
+        "worldwide": "la nivel mondial"
+      },
+      "websites": {
+        "code": "Cod",
+        "codeButton": "Obțineți codul widget-ului",
+        "copyCode": "Copiați codul",
+        "ctaCodeButton": "Obțineți codul widget-ului acum",
+        "ctaDocsButton": "Vizualizați documentele de integrare",
+        "ctaSubtitle": "Obțineți codul widget-ului dvs. personalizat și începeți să oferiți suport excepțional clienților în câteva minute.",
+        "ctaTitle": "Gata să adăugați SeaChat pe site-ul dvs.?",
+        "customization": {
+          "colors": {
+            "description": "Potriviți-vă brandul cu culori, fonturi și stiluri personalizate",
+            "features": {
+              "css": "Suprascrieri CSS",
+              "fonts": "Personalizare fonturi",
+              "logo": "Integrare logo brand",
+              "schemes": "Scheme de culori personalizate"
+            },
+            "title": "Culori și branding"
+          },
+          "content": {
+            "description": "Personalizați tot textul și mesajele",
+            "features": {
+              "greetings": "Salutări personalizate",
+              "multilanguage": "Suport multilingv",
+              "offline": "Mesaje offline",
+              "welcome": "Mesaje de bun venit"
+            },
+            "title": "Conținut și mesaje"
+          },
+          "position": {
+            "description": "Controlați unde și cum apare widget-ul",
+            "features": {
+              "auto": "Setări de deschidere automată",
+              "corner": "Poziționare în colț",
+              "mobile": "Responsivitate mobilă",
+              "trigger": "Condiții de declanșare"
+            },
+            "title": "Poziție și comportament"
+          }
+        },
+        "customizationSubtitle": "Faceți ca SeaChat să se potrivească perfect brandului dvs. cu opțiuni extinse de personalizare.",
+        "customizationTitle": "Opțiuni de personalizare",
+        "demoButton": "Programați o demonstrație",
+        "getPlatformCode": "Obțineți",
+        "installation": {
+          "step1": {
+            "description": "Copiați codul widget-ului dvs. unic SeaChat din tabloul de bord",
+            "title": "Obțineți codul widget-ului dvs."
+          },
+          "step2": {
+            "description": "Lipiți codul înainte de eticheta de închidere &lt;/body&gt;",
+            "title": "Adăugați pe site-ul dvs."
+          },
+          "step3": {
+            "description": "Opțional: Personalizați culorile, poziția și comportamentul",
+            "title": "Personalizați aspectul"
+          }
+        },
+        "installationSubtitle": "Urmați acești pași simpli pentru a adăuga SeaChat pe orice site web în câteva minute.",
+        "installationTitle": "Ghid universal de instalare",
+        "platforms": {
+          "generic": {
+            "description": "Widget universal care funcționează pe orice site web HTML",
+            "difficulty": "Ușor",
+            "features": {
+              "compatibility": "Compatibilitate universală",
+              "installation": "Instalare ușoară",
+              "responsive": "Design responsiv",
+              "styling": "Stilizare personalizată"
+            },
+            "name": "Site web generic",
+            "setupTime": "2 minute"
+          },
+          "shopify": {
+            "description": "Optimizat pentru e-commerce cu integrare de urmărire a comenzilor",
+            "difficulty": "Ușor",
+            "features": {
+              "cart": "Abandon coș",
+              "customers": "Sincronizare date clienți",
+              "orders": "Integrare comenzi",
+              "products": "Recomandări produse"
+            },
+            "name": "Shopify",
+            "setupTime": "3 minute"
+          },
+          "squarespace": {
+            "description": "Integrare fără întreruperi cu sistemul de design Squarespace",
+            "difficulty": "Medie",
+            "features": {
+              "code": "Injecție cod",
+              "design": "Potrivire sistem de design",
+              "style": "Personalizare stil",
+              "templates": "Compatibilitate șabloane"
+            },
+            "name": "Squarespace",
+            "setupTime": "3 minute"
+          },
+          "webflow": {
+            "description": "Integrare nativă pentru Webflow CMS și e-commerce",
+            "difficulty": "Ușor",
+            "features": {
+              "cms": "Integrare CMS",
+              "custom": "Injecție cod personalizat",
+              "design": "Prietenos cu designerii",
+              "ecommerce": "Suport e-commerce"
+            },
+            "name": "Webflow",
+            "setupTime": "2 minute"
+          },
+          "wix": {
+            "description": "Integrare drag-and-drop pentru site-uri Wix",
+            "difficulty": "Ușor",
+            "features": {
+              "app": "Magazin de aplicații Wix",
+              "editor": "Editor vizual",
+              "mobile": "Optimizat pentru mobil",
+              "positioning": "Poziționare personalizată"
+            },
+            "name": "Wix",
+            "setupTime": "2 minute"
+          },
+          "wordpress": {
+            "description": "Plugin WordPress nativ cu personalizare avansată",
+            "difficulty": "Ușor",
+            "features": {
+              "dashboard": "Tablou de bord admin",
+              "plugin": "Plugin WordPress",
+              "shortcode": "Suport shortcode",
+              "theme": "Integrare temă"
+            },
+            "name": "WordPress",
+            "setupTime": "1 minut"
+          }
+        },
+        "platformsSubtitle": "Alegeți-vă platforma pentru instrucțiuni optimizate de integrare și configurare.",
+        "platformsTitle": "Platforme acceptate",
+        "subtitle": "Implementați SeaChat pe orice platformă web în câteva minute. Compatibilitate universală cu stilizare personalizată și design responsiv.",
+        "title": "Integrări site-uri web",
+        "viewDocs": "Vizualizați documentația",
+        "setup": "Timp de configurare"
+      }
+    },
+    "heroAnimations": {
+      "agentToAI": {
+        "phases": {
+          "learning": "🧑‍💼 Învățare de la om",
+          "handoff": "🤝 Transfer fluid",
+          "autonomous": "🤖 AI autonom"
+        },
+        "humanMessages": {
+          "0": "Mulțumesc că ați contactat suportul! Cum vă pot ajuta?",
+          "1": "Înțeleg preocuparea dvs. Permiteți-mi să verific asta pentru dvs.",
+          "2": "Pe baza politicii noastre, iată ce recomand...",
+          "3": "Mai este ceva cu ce vă pot ajuta astăzi?"
+        },
+        "aiMessages": {
+          "0": "Am învățat să gestionez acest tip de interogare automat.",
+          "1": "Pe baza conversațiilor anterioare, vă pot ajuta cu asta.",
+          "2": "Înțeleg întrebarea dvs. și pot oferi asistență instantanee.",
+          "3": "Sunt gata să gestionez solicitări similare independent."
+        },
+        "learned": "Învățat",
+        "title": "Transfer de la om la AI",
+        "subtitle": "Începeți cu oameni, scalați cu AI inteligentă"
+      },
+      "conversationLearning": {
+        "documentTypes": {
+          "0": "Manual produs.pdf",
+          "1": "Bază de date FAQ.csv",
+          "2": "Ghid de suport.doc",
+          "3": "Conținut site web"
+        },
+        "knowledgeConcepts": {
+          "0": "Funcționalități produs",
+          "1": "Planuri de prețuri",
+          "2": "Politici de suport",
+          "3": "Specificații tehnice",
+          "4": "Ghiduri utilizator",
+          "5": "Depanare",
+          "6": "Pași de integrare",
+          "7": "Cele mai bune practici"
+        },
+        "conversationExamples": {
+          "0": {
+            "question": "Cum îmi resetez parola?",
+            "improvement": "Proces pas cu pas învățat"
+          },
+          "1": {
+            "question": "Care sunt planurile dvs. de prețuri?",
+            "improvement": "Comparații detaliate adăugate"
+          },
+          "2": {
+            "question": "Integrare cu Slack?",
+            "improvement": "Îndrumare tehnică îmbunătățită"
+          },
+          "3": {
+            "question": "Întrebare de facturare",
+            "improvement": "Înțelegere îmbunătățită a politicii"
+          }
+        },
+        "phaseLabel": "Fază",
+        "accuracy": "Precizie",
+        "title": "Călătoria de învățare a AI",
+        "subtitle": "Urmăriți cum AI devine mai inteligent din conținutul dvs."
+      },
+      "interactiveChannels": {
+        "whatsapp": {
+          "messages": {
+            "0": "Bună! Am nevoie de ajutor cu comanda mea 📦",
+            "1": "Care este politica dvs. de retur?",
+            "2": "Mulțumesc pentru răspunsul rapid! 😊"
+          }
+        },
+        "instagram": {
+          "messages": {
+            "0": "Îmi place noul dvs. produs! 💕",
+            "1": "Este disponibil în albastru?",
+            "2": "Puteți livra în Europa?"
+          }
+        },
+        "website": {
+          "messages": {
+            "0": "Am nevoie de suport tehnic",
+            "1": "Cum îmi resetez parola?",
+            "2": "Plata nu funcționează"
+          }
+        },
+        "email": {
+          "messages": {
+            "0": "Urmărire la e-mailul meu anterior",
+            "1": "Cerere pentru prețuri în vrac",
+            "2": "Mulțumesc pentru asistență"
+          }
+        },
+        "agentResponse": "Vă voi ajuta cu plăcere! Permiteți-mi să verific acele informații pentru dvs.",
+        "channelNames": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "website": "Site web",
+          "email": "E-mail"
+        },
+        "supportSuffix": "Suport",
+        "online": "Online",
+        "typePlaceholder": "Introduceți mesajul dvs....",
+        "title": "Selector de canale interactive",
+        "subtitle": "Faceți clic pe canale pentru a vedea diferite conversații"
+      },
+      "multiChannelFlow": {
+        "channels": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "email": "E-mail",
+          "website": "Site web"
+        },
+        "messageTemplates": {
+          "0": "Am nevoie de ajutor cu comanda",
+          "1": "Întrebare despre produs",
+          "2": "Suport tehnic",
+          "3": "Întrebare de facturare",
+          "4": "Întrebare generală"
+        },
+        "title": "Flux de mesaje multi-canal",
+        "subtitle": "Mesaje care circulă între canale în timp real"
+      },
+      "phoneVoiceAI": {
+        "callerNames": {
+          "0": "John Smith",
+          "1": "Sarah Johnson",
+          "2": "Mike Chen",
+          "3": "Emma Davis",
+          "4": "David Wilson"
+        },
+        "conversationFlow": {
+          "0": {
+            "caller": "Bună, am nevoie de ajutor cu starea comenzii mele",
+            "ai": "Bună ziua! Vă voi ajuta cu plăcere să verificați starea comenzii dvs. Ați putea, vă rog, să-mi furnizați numărul comenzii?"
+          },
+          "1": {
+            "caller": "Da, este numărul de comandă 12345",
+            "ai": "Mulțumesc! Permiteți-mi să verific asta pentru dvs. Văd că comanda dvs. a fost expediată ieri și ar trebui să ajungă mâine."
+          },
+          "2": {
+            "caller": "Perfect! Pot schimba adresa de livrare?",
+            "ai": "Vă pot ajuta cu asta. Care ar dori să fie noua adresă de livrare?"
+          }
+        },
+        "status": {
+          "seachatVoiceAI": "SeaChat Voice AI",
+          "connectedWith": "Conectat cu",
+          "listening": "Ascultă...",
+          "aiSpeaking": "AI vorbește...",
+          "processing": "Procesează...",
+          "liveTranscript": "Transcrierea live:"
+        },
+        "waiting": {
+          "ready": "AI vocală gata",
+          "subtitle": "Așteaptă apeluri primite..."
+        },
+        "stats": {
+          "callsHandled": "Apeluri gestionate",
+          "available": "Disponibil"
+        },
+        "incomingCall": "📞 Apel primit",
+        "features": {
+          "naturalSpeech": {
+            "title": "Vorbire naturală",
+            "description": "Conversație asemănătoare cu cea umană"
+          },
+          "smartRecognition": {
+            "title": "Recunoaștere inteligentă",
+            "description": "Vorbire în text precisă"
+          },
+          "contextAware": {
+            "title": "Conștient de context",
+            "description": "Înțelege intenția"
+          }
+        }
+      },
+      "realtimeDashboard": {
+        "metrics": {
+          "conversations": "Chat-uri active",
+          "response": "Răspuns mediu",
+          "agents": "Agenți online",
+          "satisfaction": "Satisfacție"
+        },
+        "title": "Tablou de bord live",
+        "status": {
+          "live": "Live"
+        },
+        "timeLabels": {
+          "12hAgo": "acum 12h",
+          "6hAgo": "acum 6h",
+          "now": "Acum"
+        }
+      }
+    }
+  }
+}

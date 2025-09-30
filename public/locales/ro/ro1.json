@@ -1,0 +1,1720 @@
+{
+  "header": {
+    "products": "Produse",
+    "solutions": "Soluții",
+    "industries": "Industrii",
+    "channels": "Canale",
+    "pricing": "Prețuri",
+    "compareUs": "Comparați-ne",
+    "blog": "Blog",
+    "login": "Autentificare",
+    "startForFree": "Înregistrare",
+    "backToChannels": "Înapoi la Canale",
+    "allChannelsOverview": "Prezentare generală a tuturor canalelor",
+    "solutionsDropdown": {
+      "seahealth": "SeaHealth - Asistență medicală optimizată",
+      "useCases": "Cazuri de utilizare"
+    },
+    "useCasesDropdown": {
+      "salesMarketing": "Pentru vânzări și marketing",
+      "customerSupport": "Pentru asistență clienți",
+      "aiAutomation": "AI și automatizare",
+      "smeOwners": "Pentru proprietarii de IMM-uri"
+    },
+    "channelsDropdown": {
+      "whatsapp": "WhatsApp",
+      "phoneCalls": "Apeluri telefonice",
+      "sms": "SMS",
+      "websiteChat": "Chat pe site",
+      "instagram": "Instagram",
+      "facebookMessenger": "Facebook Messenger",
+      "contactForms": "Formulare de contact",
+      "line": "Line",
+      "websiteWidget": "Widget pentru site"
+    },
+    "comparisonsDropdown": {
+      "title": "Comparații",
+      "allComparisonsOverview": "Prezentare generală a tuturor comparațiilor"
+    },
+    "compareDropdown": {
+      "allComparisonsOverview": "Prezentare generală a tuturor comparațiilor"
+    },
+    "signIn": "Autentificare"
+  },
+  "footer": {
+    "company": {
+      "title": "Companie",
+      "contact": "Contactați-ne",
+      "about": "Despre noi",
+      "careers": "Cariere"
+    },
+    "copyright": "© 2020 - {{year}} Seasalt.ai. Toate drepturile rezervate.",
+    "privacyPolicy": "Politica de confidențialitate",
+    "termsOfService": "Termeni și condiții",
+    "security": "Securitate",
+    "compliance": {
+      "soc2": "Conform SOC 2",
+      "hipaa": "HIPAA disponibil",
+      "uptime": "99,9% timp de funcționare"
+    },
+    "cta": {
+      "title": "Gata să vă extindeți acoperirea la milioane?",
+      "startFreeTrial": "Înregistrați-vă gratuit",
+      "scheduleDemo": "Programați o demonstrație",
+      "subtitle": "Alăturați-vă miilor de companii care utilizează SeaX pentru a ajunge la mai mulți clienți, a genera mai multe lead-uri și a crește mai rapid.",
+      "signUpNow": "Înregistrați-vă acum"
+    },
+    "tagline": "Un centru de contact all-in-one construit pentru întreprinderile mici. Automatizați asistența, captați fiecare lead și unificați toate conversațiile cu clienții.",
+    "seahealth": "SeaHealth - Asistență medicală optimizată",
+    "productWiki": "Wiki produs",
+    "apiReferences": "Referințe API",
+    "madeWith": {
+      "text": "Realizat cu",
+      "inCityOf": "în orașul"
+    },
+    "inCityOf": "în",
+    "description": {
+      "company": "Atingeți milioane instantaneu. Platforma supremă pentru trimiterea a milioane de SMS-uri, mesaje WhatsApp și apeluri telefonice automate. Umpleți-vă pipeline-ul, generați venituri și extindeți-vă afacerea."
+    },
+    "section": {
+      "channels": "Canale",
+      "solutions": "Soluții",
+      "industries": "Industrii"
+    },
+    "links": {
+      "channels": {
+        "smsOverview": "Prezentare generală SMS",
+        "smsLocal": "Număr local (10DLC)",
+        "smsTollFree": "Număr gratuit",
+        "smsShortCode": "Cod scurt",
+        "whatsapp": "Platforma WhatsApp Business",
+        "voice": "Voce apel telefonic"
+      },
+      "solutions": {
+        "leadGeneration": "Generare de lead-uri",
+        "marketingAutomation": "Automatizare marketing",
+        "customerEngagement": "Angajament clienți",
+        "appointmentReminders": "Memento-uri programări",
+        "emergencyAlerts": "Alerte de urgență"
+      },
+      "industries": {
+        "ecommerceRetail": "E-commerce și retail",
+        "realEstate": "Imobiliare",
+        "politicalCampaigns": "Campanii politice",
+        "healthcare": "Sănătate",
+        "financialServices": "Servicii financiare"
+      },
+      "company": {
+        "features": "Funcționalități",
+        "pricing": "Prețuri",
+        "productWiki": "Wiki produs",
+        "apiReferences": "Referințe API",
+        "careers": "Cariere"
+      }
+    },
+    "stats": {
+      "messagesDaily": "Peste 10 milioane de mesaje zilnic",
+      "activeUsers": "Peste 500 mii de utilizatori activi",
+      "uptime": "99,9% timp de funcționare"
+    },
+    "legal": {
+      "privacyPolicy": "Politica de confidențialitate",
+      "termsOfService": "Termeni și condiții"
+    },
+    "contact": {
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "Seattle, WA"
+    },
+    "logo": {
+      "alt": "SeaX"
+    },
+    "technical": {
+      "tenDlc": "10DLC",
+      "tollFree": "8XX",
+      "sms": "SMS",
+      "shortCode": "xxxxx"
+    }
+  },
+  "hero": {
+    "title": {
+      "line1": "Nu mai jonglați cu aplicațiile",
+      "line2": "Unificați fiecare client",
+      "line3": "Apel, WhatsApp și Chat",
+      "line4": "într-un singur Inbox simplu."
+    },
+    "titleWithGradient": "Nu mai jonglați cu aplicațiile. <1>Unificați fiecare client</1> Apel, Text, WhatsApp și Chat într-un singur Inbox simplu.",
+    "description": "Seasalt.ai este centrul de contact all-in-one construit pentru întreprinderile mici. Automatizați asistența, captați fiecare lead și gestionați toate conversațiile de pe un singur ecran.",
+    "signUp": "Înregistrare",
+    "seeDemo": "Programați o demonstrație",
+    "trustedBy": "De încredere pentru afacerile în creștere din întreaga lume",
+    "developerMessage": "Seasalt.ai oferă dezvoltatorilor un instrument de comunicare agentic pentru următoarele <1>utilizări de instrumente</1>:",
+    "developerTools": {
+      "phoneUse": "utilizare telefon",
+      "messageUse": "utilizare mesaje",
+      "emailUse": "utilizare e-mail",
+      "meetingUse": "utilizare întâlniri"
+    },
+    "unifiedInbox": "Inbox unificat",
+    "appNames": {
+      "whatsapp": "WhatsApp",
+      "sms": "SMS",
+      "phone": "Telefon",
+      "chat": "Chat"
+    }
+  },
+  "features": {
+    "mainTitle": "Centrul de contact copilotat Omni-Channel pentru IMM-uri",
+    "mainDescription": "Îmbină perfect automatizarea AI cu expertiza umană pe toate canalele. Împuterniciți-vă echipa să ofere servicii excepționale și să stimuleze creșterea.",
+    "omniChannel": {
+      "title": "Inbox unificat Omni-Channel",
+      "description": "Nu ratați niciodată un lead. Vedeți fiecare interacțiune cu clienții de pe fiecare canal într-o singură vizualizare unificată, permițând o colaborare uman-AI fără întreruperi și economisind echipei dvs. peste 5 ore pe săptămână."
+    },
+    "aiVoicebot": {
+      "title": "Voicebot și Chatbot AI",
+      "description": "Primul dvs. angajat digital lucrează 24/7. Automatizați până la 80% din interogările de rutină, rezervați peste 5 programări zilnic și transferați fără probleme către agenți umani atunci când este necesar."
+    },
+    "voiceWhatsapp": {
+      "title": "Integrare nativă voce și WhatsApp",
+      "description": "Serviți fiecare client pe canalul său preferat, fără probleme. Vedeți instantaneu istoricul chat-ului WhatsApp atunci când sună."
+    },
+    "outboundMarketing": {
+      "title": "Campanii de marketing outbound",
+      "description": "Creați călătorii fără întreruperi, cu buclă închisă pentru clienți. Lansați campanii țintite și gestionați toate răspunsurile pe aceeași platformă."
+    },
+    "enterpriseSecurity": {
+      "title": "Securitate la nivel de întreprindere",
+      "description": "Soluție conformă HIPAA cu criptare la nivel bancar. Aveți încredere că datele clienților dvs. sunt întotdeauna protejate."
+    },
+    "predictablePricing": {
+      "title": "Prețuri simple, previzibile",
+      "description": "Bugetați cu încredere. Prețurile transparente înseamnă că știți exact cât veți plăti în fiecare lună."
+    },
+    "testimonial": {
+      "quote": "Recomand Seasalt.ai pentru sistemul său puternic de baze de cunoștințe și suportul omni-channel!",
+      "author": "— Recenzie arhitect soluții"
+    },
+    "knowledgeBase": {
+      "title": "Bază de cunoștințe"
+    }
+  },
+  "howItWorks": {
+    "title": "Începeți în 3 pași simpli",
+    "description1": "Transformați-vă comunicațiile cu clienții în minute, nu în luni.",
+    "description2": "Nu este necesară o configurare complexă sau cunoștințe tehnice.",
+    "connectYourChannels": {
+      "title": "Conectați-vă canalele",
+      "description": "Conectați-vă telefonul, WhatsApp, SMS-ul, chat-ul de pe site și rețelele sociale în câteva minute. Nu este necesară expertiză tehnică."
+    },
+    "automateRoutineWork": {
+      "title": "Automatizați munca de rutină",
+      "description": "Configurați AI pentru a gestiona întrebări comune precum \"Unde este comanda mea?\" și pentru a rezerva programări automat."
+    },
+    "unifyYourTeam": {
+      "title": "Unificați-vă echipa",
+      "description": "Echipa dvs. vede istoricul complet al conversației atunci când clienții trec de la chat la apeluri telefonice."
+    },
+    "signUpNow": "Înregistrați-vă acum",
+    "setupTime": "Configurare în mai puțin de 5 minute"
+  },
+  "useCases": {
+    "title": "Cazuri de utilizare puternice pentru fiecare nevoie de afaceri",
+    "description": "De la centre de contact la campanii de marketing, vedeți cum Seasalt.ai se adaptează cerințelor dvs. specifice de afaceri cu funcționalități de nivel enterprise într-o platformă simplă și unificată.",
+    "keyFeatures": "Funcționalități cheie",
+    "contactCenter": {
+      "title": "Operațiuni centru de contact",
+      "headline": "Centru de contact profesional cu gestionare completă a apelurilor",
+      "description": "Transformați-vă afacerea într-un centru de contact profesional cu funcționalități de nivel enterprise.",
+      "features": {
+        "ivr": "Sistem IVR avansat pentru rutarea apelurilor",
+        "recording": "Înregistrare și transcriere automată a apelurilor",
+        "voicemail": "Mesagerie vocală inteligentă cu notificări",
+        "analytics": "Analiză și raportare apeluri în timp real",
+        "dashboards": "Tablouri de bord performanță agenți",
+        "queueManagement": "Gestionare coadă apeluri"
+      }
+    },
+    "virtualReceptionist": {
+      "title": "Recepționist virtual 24/7",
+      "headline": "Nu ratați niciodată un apel cu recepția alimentată de AI",
+      "description": "Implementați un voicebot inteligent care funcționează non-stop pentru a capta apelurile primite și a califica lead-urile.",
+      "features": {
+        "aiVoicebot": "Voicebot AI răspunde la apeluri 24/7",
+        "appointments": "Rezervare și programare programări",
+        "leadQualification": "Calificare și rutare lead-uri",
+        "customGreeting": "Salut personalizat și răspunsuri",
+        "handoff": "Transfer fără întreruperi către agenți umani",
+        "multiLanguage": "Suport multilingv"
+      }
+    },
+    "smsManagement": {
+      "title": "Gestionare SMS unificată",
+      "headline": "Gestionați mai multe linii telefonice și SMS bidirecțional într-o singură platformă",
+      "description": "Consolidați toate liniile telefonice de afaceri și comunicațiile SMS într-o singură platformă puternică.",
+      "features": {
+        "multipleLines": "Mai multe linii telefonice într-un singur tablou de bord",
+        "twoWaySms": "Conversații SMS bidirecționale",
+        "unifiedHistory": "Istoric SMS și apeluri unificat",
+        "teamCollaboration": "Colaborare în echipă pe mesaje",
+        "automatedResponses": "Răspunsuri SMS automate",
+        "numberSupport": "Suport pentru numere locale și gratuite"
+      }
+    },
+    "smsMarketing": {
+      "title": "Campanii de marketing SMS",
+      "headline": "Lansați campanii SMS A2P puternice cu 10DLC și numere gratuite",
+      "description": "Executați campanii de marketing SMS profesionale cu livrare și conformitate ridicate.",
+      "features": {
+        "tenDlc": "Campanii înregistrate 10DLC",
+        "tollFree": "Suport pentru numere gratuite și coduri scurte",
+        "highVolume": "Livrare mesaje de volum mare",
+        "analytics": "Analiză performanță campanie",
+        "compliance": "Gestionare conformitate și opt-out",
+        "dripCampaigns": "Campanii de tip drip automate"
+      }
+    },
+    "whatsappBusiness": {
+      "title": "Campanii WhatsApp Business",
+      "headline": "Atingeți clienții globali cu platforma WhatsApp Business",
+      "description": "Lansați campanii WhatsApp țintite utilizând platforma oficială WhatsApp Business.",
+      "features": {
+        "apiIntegration": "Integrare API WhatsApp Business",
+        "templateMessages": "Campanii de mesaje șablon",
+        "automatedChatbot": "Răspunsuri automate chatbot",
+        "richMedia": "Suport mesaje media bogate",
+        "globalReach": "Acoperire globală clienți",
+        "analytics": "Analiză conversații"
+      }
+    },
+    "aiSupport": {
+      "title": "Suport AI inteligent Chatbot și Voicebot",
+      "headline": "Asistență clienți alimentată de AI care nu doarme niciodată",
+      "description": "Implementați chatbot-uri inteligente pe toate canalele dvs. de comunicare pentru a gestiona interogările clienților 24/7.",
+      "features": {
+        "automated24x7": "Asistență clienți automată 24/7",
+        "multiChannel": "Implementare chatbot multi-canal",
+        "instantResponse": "Răspuns instantaneu la interogări comune",
+        "humanHandoff": "Transfer fără întreruperi către agent uman",
+        "continuousLearning": "Învățare și îmbunătățire continuă",
+        "knowledgeBase": "Integrare bază de cunoștințe personalizată"
+      }
+    },
+    "cta": {
+      "title": "Gata să vă transformați comunicațiile de afaceri?",
+      "description": "Alegeți cazurile de utilizare care se potrivesc nevoilor dvs. de afaceri. Începeți cu planul nostru gratuit și extindeți-vă pe măsură ce creșteți.",
+      "signUp": "Înregistrare",
+      "bookDemo": "Programați o demonstrație"
+    }
+  },
+  "phoneBanner": {
+    "callText": "Apelați",
+    "phoneNumber": "+1 (SMB)-AI-AGENT",
+    "bookingText": "pentru a programa o întâlnire cu agentul AI SeaVoice.",
+    "availability": "Disponibil 24/7"
+  },
+  "problemSolution": {
+    "title": "Pierdeți lead-uri într-un labirint de aplicații și inbox-uri?",
+    "description": "Clienții dvs. încearcă să vă contacteze peste tot. Un mesaj ratat înseamnă o vânzare ratată. Seasalt.ai reunește toate comunicațiile dvs. într-un singur loc, astfel încât să nu ratați niciodată o oportunitate.",
+    "problems": {
+      "fragmented": {
+        "title": "Conversații fragmentate",
+        "description": "Saltul între WhatsApp, jurnalele telefonice și chat-ul web creează haos și pierde timp."
+      },
+      "lostRevenue": {
+        "title": "Venituri pierdute",
+        "description": "Mesajele ratate după orele de program și răspunsurile lente înseamnă lead-uri pierdute și clienți frustrați."
+      },
+      "operational": {
+        "title": "Supraîncărcare operațională",
+        "description": "Echipa dvs. este suprasolicitată gestionând prea multe instrumente în loc să se concentreze pe clienți."
+      }
+    },
+    "solution": {
+      "title": "Seasalt.ai: Soluția dvs. copilotată Omni-Channel",
+      "hubTitle": "Hub unificat Omni-Channel",
+      "subtitle": "Agenți AI și umani, 24/7",
+      "tabs": {
+        "support": "Suport",
+        "marketing": "Marketing"
+      },
+      "features": {
+        "marketing": {
+          "title": "Copilotați-vă campaniile de marketing",
+          "description": "Achiziționați mai mulți clienți cu campanii outbound bazate pe AI și o nutriție inteligentă a lead-urilor."
+        },
+        "support": {
+          "title": "Autopilotați-vă asistența clienți",
+          "description": "Reduceți costurile de asistență cu agenți AI 24/7 care gestionează interogările de rutină și transferul fără întreruperi către oameni."
+        },
+        "human": {
+          "title": "Nu pierdeți niciodată atingerea umană",
+          "description": "Alegeți nivelul de automatizare: Doar uman, Copilot AI sau Autopilot complet, în funcție de nevoile dvs."
+        }
+      },
+      "cta": "Utilizați Seasalt.ai pentru a rezolva acest lucru"
+    },
+    "mockData": {
+      "supportTickets": {
+        "sarah": {
+          "name": "Sarah Johnson",
+          "description": "Apel telefonic despre starea comenzii",
+          "timeAgo": "acum 2m"
+        },
+        "mike": {
+          "name": "Mike Chen",
+          "description": "WhatsApp: Întrebare despre livrare",
+          "timeAgo": "acum 5m"
+        },
+        "lisa": {
+          "name": "Lisa Park",
+          "description": "Chat pe site: Întrebare despre produs",
+          "timeAgo": "acum 8m"
+        },
+        "david": {
+          "name": "David Kim",
+          "description": "Apel de asistență: Problemă tehnică",
+          "timeAgo": "acum 12m"
+        }
+      },
+      "campaigns": {
+        "blackFriday": {
+          "name": "Campanie Black Friday",
+          "description": "SMS: 2.847 trimise • 312 răspunsuri",
+          "result": "+47 lead-uri"
+        },
+        "whatsappLaunch": {
+          "name": "Lansare produs WhatsApp",
+          "description": "1.523 mesaje • 89 conversații",
+          "result": "+23 vânzări"
+        },
+        "cartRecovery": {
+          "name": "Recuperare coș abandonat",
+          "description": "E-mail + SMS: 156 recuperate",
+          "result": "+2k"
+        },
+        "followUp": {
+          "name": "Campanie de apeluri de follow-up",
+          "description": "Voicebot AI: 89 apeluri • 34 programări",
+          "result": "+34 programări"
+        }
+      }
+    }
+  },
+  "supportPlan": {
+    "title": "Plan de suport",
+    "priceNote": "*Toate prețurile sunt în dolari americani",
+    "trial": {
+      "title": "Probă",
+      "price": "$0",
+      "features": {
+        "diy": "DIY cu wiki produs",
+        "email": "E-mail (info@seasalt.ai)",
+        "chat": "sau chat cu asistența clienți (pe această pagină)"
+      }
+    },
+    "launch": {
+      "title": "Lansare",
+      "startsAt": "Începe de la",
+      "minPrice": "$500",
+      "upTo": "până la",
+      "maxPrice": "$10.000",
+      "duration": "pe lună timp de 3 luni",
+      "description": "Cu planul de suport pentru lansare, echipa noastră se angajează să ofere îndrumare profesională în următoarele domenii:",
+      "features": {
+        "meetings": {
+          "title": "Întâlniri 1-la-1 nelimitate:",
+          "description": "Sesiuni personalizate cu echipa SeaChat."
+        },
+        "promptTuning": {
+          "title": "Reglare prompt:",
+          "description": "Personalizare pentru aplicații de chat și voce."
+        },
+        "guidance": {
+          "title": "Îndrumare de design și tehnică:",
+          "description": "Sfaturi de specialitate privind aspectele de design și tehnice."
+        },
+        "launchSupport": {
+          "title": "Suport pentru lansarea agentului AI:",
+          "description": "Asistență completă pe tot parcursul procesului de lansare."
+        },
+        "marketStrategy": {
+          "title": "Strategie de intrare pe piață:",
+          "description": "Planificare strategică pentru intrarea pe piață."
+        },
+        "successfulLaunch": {
+          "title": "Lansare de succes a agentului AI:",
+          "description": "Realizați o lansare de succes în 4-6 săptămâni."
+        },
+        "postLaunch": {
+          "title": "Iterație și îmbunătățire post-lansare:",
+          "description": "Îmbunătățire continuă bazată pe utilizare și feedback."
+        },
+        "operational": {
+          "title": "Stabilitate operațională:",
+          "description": "Stabiliți proceduri operaționale standard pentru funcționarea pe termen lung a agenților AI."
+        }
+      }
+    }
+  },
+  "productDropdown": {
+    "mainSite": {
+      "title": "Site-ul principal Seasalt.ai",
+      "description": "Toate produsele și soluțiile"
+    },
+    "productsLabel": "Produse"
+  },
+  "industries": {
+    "title": "Serviți fiecare industrie cu încredere",
+    "description": "De la asistență medicală la fintech, platforma noastră se adaptează cerințelor unice ale industriei dvs. cu funcționalități specializate și standarde de conformitate.",
+    "cta": {
+      "title": "Gata să vă revoluționați industria?",
+      "description": "Alăturați-vă liderilor din industrie care au încredere în Seasalt.ai pentru a oferi experiențe excepționale clienților, respectând în același timp cerințele specifice de reglementare și operaționale.",
+      "signUp": "Înregistrare",
+      "bookDemo": "Programați o demonstrație"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← Înapoi la Acasă"
+      },
+      "hero": {
+        "title": "Soluții AI pentru",
+        "signUp": "Începeți gratuit",
+        "seeDemo": "Vedeți demonstrația",
+        "hipaaOffering": "De asemenea, disponibil: conform HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "Soluții - Seasalt.ai",
+        "descriptionPrefix": "Vedeți cum Seasalt.ai ajută",
+        "descriptionSuffix": "afacerile să îmbunătățească comunicațiile cu clienții și să stimuleze creșterea."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "Ce"
+      },
+      "benefits": {
+        "title": "De ce să alegeți Seasalt.ai pentru",
+        "description": "Platforma noastră alimentată de AI simplifică comunicațiile și automatizează fluxurile de lucru pentru"
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare comune",
+        "description": {
+          "start": "Descoperiți cum platforma noastră transformă",
+          "end": "operațiunile cu automatizare inteligentă"
+        },
+        "customerSupport": {
+          "title": "Asistență clienți 24/7",
+          "description": "Oferiți răspunsuri instantanee la interogările clienților pe toate canalele"
+        },
+        "leadGeneration": {
+          "title": "Generare de lead-uri",
+          "description": "Captați și calificați lead-uri automat cu conversații alimentate de AI"
+        },
+        "analytics": {
+          "title": "Analiză și insight-uri",
+          "description": "Urmăriți performanța și obțineți insight-uri despre interacțiunile cu clienții"
+        },
+        "subtitle": "Descoperiți cum platforma noastră susține fiecare aspect al managementului educațional",
+        "case1": {
+          "title": "Sisteme de informații pentru studenți",
+          "description": "Centralizați înregistrările studenților, notele și urmărirea progresului academic"
+        },
+        "case2": {
+          "title": "Managementul învățării",
+          "description": "Oferiți cursuri, urmăriți progresul și gestionați conținutul educațional"
+        },
+        "case3": {
+          "title": "Instrumente administrative",
+          "description": "Simplificați înscrierea, programarea și operațiunile instituționale"
+        }
+      },
+      "testimonials": {
+        "title": "Companiile spun",
+        "quote1": "Seasalt.ai a transformat operațiunile noastre de asistență clienți. Timpii de răspuns au scăzut cu 80%, iar satisfacția este la un nivel record.",
+        "author1": "Sarah Chen",
+        "company1": "Manager succes clienți",
+        "quote2": "Automatizarea AI ne-a economisit nenumărate ore. Ne putem concentra pe creșterea afacerii noastre în loc să gestionăm sarcini repetitive.",
+        "author2": "Michael Rodriguez",
+        "company2": "Director operațiuni",
+        "subtitle": "Vedeți cum instituțiile își transformă operațiunile",
+        "testimonial1": {
+          "quote": "Această platformă a revoluționat modul în care gestionăm operațiunile școlare. Datele studenților sunt acum centralizate și accesibile.",
+          "author": "Dr. Sarah Johnson",
+          "position": "Director, Școala Elementară Lincoln"
+        },
+        "testimonial2": {
+          "quote": "Funcționalitățile de management al învățării au făcut ca învățarea la distanță și hibridă să fie fără întreruperi pentru studenții și facultatea noastră.",
+          "author": "Prof. Michael Chen",
+          "position": "Decan Tehnologie, Universitatea de Stat"
+        },
+        "testimonial3": {
+          "quote": "Eficiența noastră administrativă s-a îmbunătățit dramatic. Totul, de la înscriere la raportare, este acum simplificat.",
+          "author": "Maria Rodriguez",
+          "position": "Administrator, Districtul Colegiului Comunitar"
+        }
+      },
+      "cta": {
+        "title": "Gata să vă transformați afacerea?",
+        "description": "Alăturați-vă miilor de companii care au încredere în Seasalt.ai pentru a-și gestiona comunicațiile cu clienții eficient și sigur.",
+        "signUp": "Începeți gratuit",
+        "scheduleDemo": "Programați o demonstrație",
+        "seahealthLink": "Explorați soluțiile de asistență medicală conforme HIPAA",
+        "buttons": {
+          "primary": "Începeți gratuit",
+          "secondary": "Programați o demonstrație",
+          "contact": "Contactați vânzările"
+        }
+      },
+      "solutions": {
+        "title": "Soluții"
+      }
+    }
+  },
+  "channels": {
+    "title": "Conectați fiecare canal de client",
+    "description": "Unificați toate comunicațiile cu clienții într-o singură platformă. De la WhatsApp la apeluri telefonice, SMS la rețele sociale - gestionați fiecare conversa dintr-un singur tablou de bord.",
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Conectați-vă cu clienții pe cea mai populară platformă de mesagerie din lume",
+      "seo": {
+        "title": "Integrare WhatsApp Business - Seasalt.ai",
+        "description": "Conectați-vă contul WhatsApp Business la Seasalt.ai pentru conversații alimentate de AI, campanii în masă și suport fără întreruperi pentru agenți umani. Atingeți peste 2 miliarde de utilizatori din întreaga lume."
+      },
+      "nav": {
+        "backToChannels": "Înapoi la Canale"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Transformați WhatsApp-ul în",
+          "highlight": "Centrul dvs. de comandă pentru afaceri"
+        },
+        "description": "Conectați-vă contul WhatsApp Business la Seasalt.ai pentru conversații alimentate de AI, campanii în masă și suport fără întreruperi pentru agenți umani. Atingeți peste 2 miliarde de utilizatori din întreaga lume.",
+        "primaryCta": "Conectați WhatsApp în 10 minute",
+        "secondaryCta": "Vedeți demonstrația",
+        "demoTitle": "WhatsApp Business",
+        "demoMessages": {
+          "customer1": "Client: \"Unde este comanda mea #12345?",
+          "bot1": "Bot AI: \"Comanda dvs. este în curs de livrare și va ajunge astăzi până la ora 18:00. Urmăriți-o aici: [link]",
+          "customer2": "Client: \"Pot schimba adresa de livrare?",
+          "bot2": "Bot AI: \"Permiteți-mi să vă conectez cu un agent uman pentru modificări de adresă..."
+        }
+      },
+      "features": {
+        "title": "Funcționalități cheie",
+        "description": "Tot ce aveți nevoie pentru a transforma WhatsApp într-o platformă puternică de comunicare de afaceri",
+        "aiResponses": {
+          "title": "Răspunsuri alimentate de AI",
+          "description": "Serviciu clienți automatizat cu procesare a limbajului natural care înțelege contextul și intenția"
+        },
+        "bulkCampaigns": {
+          "title": "Gestionare campanii în masă",
+          "description": "Trimiteți mesaje șablon către mii de contacte cu țintire și programare avansate"
+        },
+        "humanHandoff": {
+          "title": "Transfer către agent uman",
+          "description": "Tranziție fără întreruperi de la bot la agent live cu comanda /live_agent și istoricul complet al conversației"
+        },
+        "metaIntegration": {
+          "title": "Integrare Meta Business",
+          "description": "Acces complet la funcționalitățile platformei WhatsApp Business cu securitate la nivel de întreprindere"
+        }
+      },
+      "setup": {
+        "title": "Vizualizare proces de configurare",
+        "description": "Ghid pas cu pas pentru a vă conecta contul WhatsApp Business cu securitate la nivel de întreprindere",
+        "steps": {
+          "0": "Creați un cont de dezvoltator Meta",
+          "1": "Configurați API-ul WhatsApp Business",
+          "2": "Configurați punctele finale webhook",
+          "3": "Generați token-uri de acces",
+          "4": "Testați livrarea mesajelor",
+          "5": "Lansați prima dvs. campanie"
+        },
+        "security": {
+          "title": "Securitate la nivel de întreprindere",
+          "description": "Integrarea dvs. WhatsApp include criptare end-to-end, gestionare sigură a token-urilor și conformitate cu politicile de afaceri Meta. Toate datele sunt protejate cu securitate la nivel bancar."
+        }
+      },
+      "cta": {
+        "title": "Gata să conectați WhatsApp?",
+        "description": "Alăturați-vă miilor de companii care utilizează WhatsApp pentru a oferi un serviciu clienți mai bun și a genera mai multe vânzări.",
+        "button": "Începeți integrarea"
+      }
+    },
+    "voice": {
+      "title": "Voce și apeluri telefonice",
+      "description": "Sistem telefonic profesional cu voicebot AI și suport pentru agenți umani"
+    },
+    "sms": {
+      "title": "Mesagerie SMS",
+      "description": "Atingeți clienții instantaneu cu campanii SMS personalizate",
+      "seo": {
+        "title": "Platformă de marketing SMS - Seasalt.ai",
+        "description": "Atingeți clienții instantaneu cu campanii SMS personalizate și răspunsuri automate. Rate de deschidere de 98% și livrare globală în peste 200 de țări. Începeți-vă marketingul SMS astăzi."
+      },
+      "nav": {
+        "backToChannels": "Înapoi la Canale"
+      },
+      "hero": {
+        "title": "Marketing SMS care",
+        "description": "Atingeți clienții instantaneu cu campanii SMS personalizate și răspunsuri automate. Rate de deschidere de 98% și livrare globală în peste 200 de țări.",
+        "primaryCta": "Lansați campanii SMS",
+        "secondaryCta": "Vedeți demonstrația",
+        "campaign": {
+          "title": "Campanie SMS",
+          "flashSale": {
+            "title": "📱 Campanie: Vânzare Flash",
+            "sent": "2.847 mesaje trimise"
+          },
+          "delivered": {
+            "title": "✅ Livrate: 2.834",
+            "rate": "99,5% rată de livrare"
+          },
+          "replies": {
+            "title": "💬 Răspunsuri: 312",
+            "rate": "11% rată de răspuns"
+          },
+          "conversions": {
+            "title": "🛒 Conversii: 47",
+            "revenue": "12.400 USD venituri"
+          }
+        },
+        "titleHighlight": "Convertește cu adevărat",
+        "cta": {
+          "primary": "Lansați campanii SMS",
+          "secondary": "Vedeți demonstrația"
+        },
+        "dashboard": {
+          "title": "Campanie SMS",
+          "campaign": "📱 Campanie: Vânzare Flash",
+          "campaignSent": "2.847 mesaje trimise",
+          "delivered": "✅ Livrate: 2.834",
+          "deliveryRate": "99,5% rată de livrare",
+          "replies": "💬 Răspunsuri: 312",
+          "responseRate": "11% rată de răspuns",
+          "conversions": "🛒 Conversii: 47",
+          "revenue": "12.400 USD venituri"
+        }
+      },
+      "features": {
+        "title": "Conformitate și livrare",
+        "description": "Platformă SMS de nivel enterprise cu acoperire globală și gestionare automată a conformității",
+        "globalReach": {
+          "title": "Acoperire globală",
+          "description": "Livrare SMS în peste 200 de țări cu suport pentru numere locale și optimizare a operatorului"
+        },
+        "compliance": {
+          "title": "Instrumente de conformitate",
+          "description": "Funcționalități de conformitate TCPA și GDPR cu gestionare automată a opt-out-ului"
+        },
+        "analytics": {
+          "title": "Analiză livrare",
+          "description": "Urmărire livrare în timp real, rate de răspuns și metrici de performanță a campaniei"
+        },
+        "scheduling": {
+          "title": "Programare inteligentă",
+          "description": "Trimitere conștientă de fus orar cu sincronizare optimă bazată pe comportamentul destinatarului"
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare dovedite",
+        "description": "Vedeți cum afacerile utilizează SMS-ul pentru a stimula angajamentul și veniturile",
+        "marketing": {
+          "title": "Campanii de marketing",
+          "description": "Mesaje promoționale cu rate de deschidere ridicate",
+          "stats": "98% rată de deschidere"
+        },
+        "appointments": {
+          "title": "Memento-uri programări",
+          "description": "Reduceți absențele cu memento-uri automate",
+          "stats": "25% mai puține absențe"
+        },
+        "orders": {
+          "title": "Actualizări comenzi",
+          "description": "Țineți clienții informați despre comenzile lor",
+          "stats": "90% satisfacție"
+        },
+        "support": {
+          "title": "Asistență clienți",
+          "description": "Conversații bidirecționale pentru asistență rapidă",
+          "stats": "Rezoluție de 5 ori mai rapidă"
+        }
+      },
+      "builder": {
+        "title": "Constructor avansat de campanii",
+        "description": "Creați campanii SMS sofisticate cu automatizare drag-and-drop și țintire inteligentă",
+        "segmentation": {
+          "title": "Segmentare inteligentă",
+          "description": "Țintiți clienții în funcție de comportament, locație și preferințe"
+        },
+        "timing": {
+          "title": "Sincronizare perfectă",
+          "description": "Optimizare a timpului de trimitere alimentată de AI pentru angajament maxim"
+        },
+        "analytics": {
+          "title": "Analiză în timp real",
+          "description": "Urmăriți livrarea, deschiderile, clicurile și conversiile în timp real"
+        }
+      },
+      "cta": {
+        "title": "Gata să lansați campaniile dvs. SMS?",
+        "description": "Alăturați-vă miilor de companii care utilizează SMS-ul pentru a stimula un angajament și venituri mai mari. Începeți cu proba noastră gratuită.",
+        "button": "Înregistrare"
+      },
+      "backToChannels": "Înapoi la Canale"
+    },
+    "website": {
+      "title": "Widget de chat pe site",
+      "description": "Transformați vizitatorii site-ului în conversații cu chat alimentat de AI"
+    },
+    "cta": {
+      "exploreAll": "Explorați toate canalele",
+      "subtitle": "Vedeți cum toate cele 9 canale funcționează împreună fără întreruperi"
+    },
+    "phoneCalls": {
+      "seo": {
+        "title": "Sistem telefonic profesional - Seasalt.ai",
+        "description": "Împuterniciți-vă agenții cu un dialpad bazat pe cloud pentru apeluri primite și efectuate, alimentat de parteneriatul Twilio Gold și automatizarea vocală AI. Extindeți-vă comunicațiile de afaceri."
+      },
+      "nav": {
+        "backToChannels": "Înapoi la Canale"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Sistem telefonic profesional care",
+          "highlight": "se extinde odată cu afacerea dvs."
+        },
+        "description": "Împuterniciți-vă agenții cu un dialpad bazat pe cloud pentru efectuarea și primirea apelurilor, alimentat de parteneriatul nostru Twilio Gold și automatizarea vocală AI.",
+        "primaryCta": "Începeți să efectuați apeluri astăzi",
+        "secondaryCta": "Vedeți demonstrația",
+        "dialpad": {
+          "title": "Dialpad agent",
+          "callButton": "Apelați",
+          "endCallButton": "Încheiați apelul"
+        }
+      },
+      "features": {
+        "title": "Funcționalități cheie",
+        "description": "Tot ce are nevoie echipa dvs. pentru comunicarea telefonică profesională",
+        "humanDialpad": {
+          "title": "Dialpad agent uman",
+          "description": "Dialpad cloud complet echipat pentru efectuarea și primirea apelurilor cu gestionarea contactelor"
+        },
+        "aiVoiceBot": {
+          "title": "Integrare voice bot AI",
+          "description": "Gestionare automată a apelurilor cu transfer natural către agenți umani atunci când este necesar"
+        },
+        "multiAgent": {
+          "title": "Suport multi-agent",
+          "description": "Sistemul round robin distribuie automat apelurile către agenții disponibili"
+        },
+        "analytics": {
+          "title": "Analiză apeluri",
+          "description": "Raportare completă privind performanța apelurilor, rezultatele și productivitatea agenților"
+        }
+      },
+      "partnership": {
+        "title": "Beneficiile parteneriatului Twilio",
+        "description": "Construit pe cea mai de încredere platformă de comunicații din lume",
+        "goldPartner": {
+          "title": "Statut de partener Gold",
+          "benefit1": "Statut de partener Gold cu acces direct la Twilio Flex",
+          "benefit2": "Fiabilitate la nivel de întreprindere pe o infrastructură dovedită",
+          "benefit3": "Acoperire globală - efectuați apeluri în peste 200 de țări",
+          "benefit4": "Implementare rapidă - agenții la apeluri în mai puțin de 10 zile"
+        },
+        "global": {
+          "title": "Capacități globale",
+          "countries": {
+            "title": "Peste 200 de țări",
+            "description": "Efectuați și primiți apeluri în întreaga lume"
+          },
+          "uptime": {
+            "title": "99,95% timp de funcționare",
+            "description": "Fiabilitate la nivel de întreprindere"
+          },
+          "setup": {
+            "title": "Configurare în 10 zile",
+            "description": "Implementare rapidă pentru echipa dvs."
+          }
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare",
+        "description": "Vedeți cum diferite echipe utilizează sistemul nostru telefonic pentru a obține rezultate",
+        "sales": {
+          "title": "Echipe de vânzări",
+          "description": "Prospecție outbound cu eficiență de dialer automat"
+        },
+        "support": {
+          "title": "Asistență clienți",
+          "description": "Gestionarea apelurilor primite cu screening AI"
+        },
+        "appointments": {
+          "title": "Programare programări",
+          "description": "Apeluri automate cu confirmare umană"
+        },
+        "followup": {
+          "title": "Campanii de follow-up",
+          "description": "Apeluri în masă cu conversații personalizate ale agenților"
+        }
+      },
+      "cta": {
+        "title": "Gata să vă actualizați sistemul telefonic?",
+        "description": "Puneți-vă echipa la apeluri în mai puțin de 10 zile cu fiabilitate la nivel de întreprindere și automatizare alimentată de AI.",
+        "button": "Începeți configurarea"
+      }
+    },
+    "websiteChat": {
+      "navigation": {
+        "backToChannels": "Înapoi la Canale"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Transformați vizitatorii site-ului în",
+          "highlight": "Conversații"
+        },
+        "description": "Adăugați un widget de chat AI puternic pe site-ul dvs. în mai puțin de 5 minute. Captați lead-uri, oferiți asistență instantanee și nu ratați niciodată o oportunitate.",
+        "cta": {
+          "primary": "Obțineți widget-ul dvs. gratuit",
+          "secondary": "Programați o demonstrație"
+        },
+        "widget": {
+          "title": "Widget de chat pe site",
+          "welcome": {
+            "greeting": "👋 Bun venit!",
+            "question": "Cum vă putem ajuta astăzi?"
+          },
+          "visitor": {
+            "message": "Vizitator: \"Oferiți transport gratuit?""
+          },
+          "ai": {
+            "response": "AI: \"Da! Transport gratuit la comenzi de peste 50 USD. Doriți să vedeți promoțiile noastre actuale?""
+          },
+          "button": {
+            "yes": "Da, arătați-mi",
+            "no": "Nu, mulțumesc"
+          }
+        }
+      },
+      "features": {
+        "title": "Funcționalități cheie",
+        "subtitle": "Tot ce aveți nevoie pentru a angaja vizitatorii site-ului și a-i transforma în clienți",
+        "noCodeSetup": {
+          "title": "Configurare fără cod",
+          "description": "Adăugați pe orice site în mai puțin de 5 minute, fără a fi necesare cunoștințe tehnice"
+        },
+        "customBranding": {
+          "title": "Branding personalizat",
+          "description": "Potriviți-vă brandul cu culori, fonturi și stiluri de mesagerie personalizate"
+        },
+        "leadCapture": {
+          "title": "Captură de lead-uri",
+          "description": "Colectați automat informațiile vizitatorilor și calificați lead-urile în timp real"
+        },
+        "instantResponses": {
+          "title": "Răspunsuri instantanee",
+          "description": "Răspunsurile alimentate de AI oferă ajutor imediat vizitatorilor site-ului 24/7"
+        }
+      },
+      "platforms": {
+        "title": "Funcționează cu fiecare platformă",
+        "subtitle": "Integrare ușoară cu toți constructorii de site-uri și platformele majore"
+      },
+      "customization": {
+        "title": "Prezentare personalizare",
+        "subtitle": "Faceți widget-ul cu adevărat al dvs. cu opțiuni extinse de personalizare",
+        "positionSize": {
+          "title": "Poziție și dimensiune",
+          "description": "Alegeți plasarea în colț, dimensiunea și setările de vizibilitate"
+        },
+        "colorsFonts": {
+          "title": "Culori și fonturi",
+          "description": "Potriviți perfect culorile și tipografia brandului dvs."
+        },
+        "welcomeMessages": {
+          "title": "Mesaje de bun venit",
+          "description": "Personalizați mesajele de salut și inițiatorii de conversa"
+        },
+        "triggerRules": {
+          "title": "Reguli de declanșare",
+          "description": "Setați când și unde apare widget-ul vizitatorilor"
+        },
+        "realTimePreview": {
+          "title": "Previzualizare în timp real",
+          "description": "Vedeți modificările instantaneu cu funcția noastră de previzualizare live. Personalizați culorile, poziționarea și mesajele, văzând exact cum va arăta pe site-ul dvs."
+        }
+      },
+      "analytics": {
+        "title": "Analiză puternică",
+        "subtitle": "Urmăriți angajamentul vizitatorilor, ratele de conversie și performanța chat-ului cu analize detaliate",
+        "conversations": "Conversații",
+        "conversionRate": "Rată de conversie",
+        "responseTime": "Timp de răspuns",
+        "satisfaction": "Satisfacție"
+      },
+      "cta": {
+        "title": "Gata să adăugați chat pe site-ul dvs.?",
+        "subtitle": "Obțineți widget-ul dvs. de chat personalizat în câteva minute. Nu este necesară codificarea, personalizare completă disponibilă.",
+        "getWidgetCode": "Obțineți codul widget-ului"
+      }
+    },
+    "instagram": {
+      "navigation": {
+        "backToChannels": "Înapoi la Canale"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Extindeți-vă",
+          "highlight": "Serviciul clienți Instagram"
+        },
+        "subtitle": "Gestionați mii de DM-uri Instagram cu automatizare AI, menținând în același timp o atingere personală. Perfect pentru branduri, influenceri și afaceri care construiesc comunități.",
+        "cta": {
+          "primary": "Automatizați DM-urile Instagram",
+          "secondary": "Vedeți demonstrația"
+        },
+        "demo": {
+          "title": "DM-uri Instagram",
+          "user1": {
+            "handle": "@sarah_style",
+            "message": "Îmi place această rochie! Ce mărimi aveți?"
+          },
+          "ai1": {
+            "response": "AI: \"Bună Sarah! 😍 Această rochie este disponibilă în mărimile XS-XL. Doriți să verific stocul pentru mărimea dvs.?""
+          },
+          "user2": {
+            "handle": "@mike_fitness",
+            "message": "Mă puteți ajuta cu comanda mea?"
+          },
+          "ai2": {
+            "response": "AI: \"Desigur! Permiteți-mi să vă conectez cu echipa noastră de asistență...""
+          }
+        }
+      },
+      "visualFirst": {
+        "title": "Abordare vizuală-primară",
+        "subtitle": "Instagram este despre imagini. AI-ul nostru înțelege imaginile și oferă răspunsuri contextuale"
+      },
+      "features": {
+        "imageRecognition": {
+          "title": "Recunoaștere imagini",
+          "description": "Înțelegerea AI a imaginilor produselor în DM-uri pentru răspunsuri și recomandări inteligente"
+        },
+        "storyIntegration": {
+          "title": "Integrare poveste",
+          "description": "Răspunsuri automate la interacțiunile cu povestea, sondaje și întrebări din partea publicului dvs."
+        },
+        "influencerSupport": {
+          "title": "Suport influenceri",
+          "description": "Instrumente pentru gestionarea conversațiilor DM de volum mare și a parteneriatelor de brand"
+        },
+        "smartAutomation": {
+          "title": "Automatizare inteligentă",
+          "description": "Răspunsuri alimentate de AI care mențin vocea și personalitatea brandului dvs."
+        }
+      },
+      "useCases": {
+        "title": "Perfect pentru fiecare afacere Instagram",
+        "subtitle": "De la întreprinderi mici la influenceri majori, vedeți cum automatizarea Instagram generează rezultate",
+        "ecommerce": {
+          "title": "Branduri e-commerce",
+          "description": "Interogări produse și suport comenzi",
+          "metric": "Răspuns cu 40% mai rapid"
+        },
+        "influencers": {
+          "title": "Influenceri",
+          "description": "Angajament fani și solicitări de colaborare",
+          "metric": "De 10 ori mai multe conversații"
+        },
+        "localBusiness": {
+          "title": "Afaceri locale",
+          "description": "Rezervare programări și asistență clienți",
+          "metric": "Cu 60% mai multe rezervări"
+        },
+        "contentCreators": {
+          "title": "Creatori de conținut",
+          "description": "Gestionare comunitate și feedback",
+          "metric": "95% rată de satisfacție"
+        }
+      },
+      "businessIntegration": {
+        "title": "Integrare Instagram Business",
+        "subtitle": "Integrare completă cu conturile Instagram Business pentru asistență clienți profesională",
+        "analyticsIntegration": {
+          "title": "Integrare analiză",
+          "description": "Conectați-vă cu Instagram Insights pentru urmărirea completă a performanței"
+        },
+        "audienceInsights": {
+          "title": "Insight-uri public",
+          "description": "Înțelegeți-vă publicul mai bine cu date demografice integrate"
+        },
+        "engagementTracking": {
+          "title": "Urmărire angajament",
+          "description": "Monitorizați interacțiunile cu povestea, angajamentul postărilor și performanța DM"
+        }
+      },
+      "cta": {
+        "title": "Gata să vă extindeți prezența pe Instagram?",
+        "subtitle": "Alăturați-vă miilor de branduri și influenceri care utilizează AI pentru a oferi un serviciu clienți mai bun și a construi comunități mai puternice pe Instagram.",
+        "primary": "Începeți automatizarea",
+        "secondary": "Vedeți demonstrația"
+      }
+    },
+    "facebookMessenger": {
+      "navigation": {
+        "backToChannels": "Înapoi la Canale"
+      },
+      "hero": {
+        "title": "Transformați Facebook Messenger într-o",
+        "titleHighlight": "Mașină de vânzări",
+        "subtitle": "Angajați-vă publicul Facebook cu conversații alimentate de AI care transformă urmăritorii în clienți. Integrați-vă cu Facebook Shop pentru comerț social fără întreruperi.",
+        "cta": {
+          "primary": "Conectați Messenger acum",
+          "secondary": "Vedeți demonstrația"
+        },
+        "demo": {
+          "title": "Facebook Messenger",
+          "customerQuery": "Client: \"Aveți asta în mărimea M?",
+          "aiResponse1": "AI: \"Da! Mărimea M este disponibilă. Iată linkul produsului cu prețul actual 👇",
+          "productName": "Rochie de vară - Mărimea M",
+          "productPrice": "49,99 USD • Transport gratuit",
+          "customerQuery2": "Client: \"Perfect! Pot obține 20% reducere?",
+          "aiResponse2": "AI: \"Vă pot oferi 15% reducere cu codul MESSENGER15! Doriți să finalizați comanda?"
+        }
+      },
+      "features": {
+        "title": "Funcționalități de comerț social",
+        "subtitle": "Transformați-vă prezența pe Facebook într-un canal de vânzări puternic cu funcționalități de comerț integrate",
+        "shopIntegration": {
+          "title": "Integrare Facebook Shop",
+          "description": "Recomandări directe de produse în chat cu experiență de cumpărături fără întreruperi"
+        },
+        "leadGeneration": {
+          "title": "Generare de lead-uri",
+          "description": "Captură automată de lead-uri din conversațiile Messenger cu sincronizare CRM"
+        },
+        "socialProof": {
+          "title": "Dovadă socială",
+          "description": "Integrare de mărturii și recenzii clienți pentru construirea încrederii"
+        },
+        "instantResponses": {
+          "title": "Răspunsuri instantanee",
+          "description": "Răspunsuri alimentate de AI care angajează publicul dvs. Facebook 24/7"
+        }
+      },
+      "socialCommerce": {
+        "title": "Soluție completă de comerț social",
+        "subtitle": "Tot ce aveți nevoie pentru a vinde direct prin Facebook Messenger",
+        "productCatalog": {
+          "title": "Sincronizare catalog produse",
+          "description": "Sincronizați automat produsele dvs. din Facebook Shop pentru recomandări instantanee"
+        },
+        "cartRecovery": {
+          "title": "Recuperare coș",
+          "description": "Reangajați clienții care și-au abandonat coșurile de cumpărături cu mesaje personalizate"
+        },
+        "orderTracking": {
+          "title": "Urmărire comenzi",
+          "description": "Oferiți actualizări de comenzi în timp real și informații de livrare prin Messenger"
+        },
+        "customerReviews": {
+          "title": "Recenzii clienți",
+          "description": "Colectați și afișați recenzii clienți pentru a construi încredere și dovadă socială"
+        }
+      },
+      "businessEcosystem": {
+        "title": "Integrare ecosistem de afaceri Facebook",
+        "subtitle": "Conectați-vă fără întreruperi cu întreaga dvs. prezență de afaceri Facebook",
+        "shop": {
+          "title": "Facebook Shop",
+          "description": "Integrare directă cu magazinul dvs. Facebook pentru recomandări instantanee de produse"
+        },
+        "ads": {
+          "title": "Facebook Ads",
+          "description": "Conectați campaniile publicitare cu Messenger pentru călătorii fără întreruperi ale clienților"
+        },
+        "pages": {
+          "title": "Pagini Facebook",
+          "description": "Gestionare unificată a mesajelor paginii și a interacțiunilor cu clienții"
+        }
+      },
+      "results": {
+        "title": "Rezultate dovedite",
+        "subtitle": "Vedeți cum afacerile obțin rezultate reale cu automatizarea Facebook Messenger",
+        "engagement": {
+          "value": "85%",
+          "description": "Angajament mai mare decât e-mailul"
+        },
+        "conversion": {
+          "value": "3x",
+          "description": "Rate de conversie mai bune"
+        },
+        "costReduction": {
+          "value": "60%",
+          "description": "Reducere a costurilor de asistență"
+        },
+        "availability": {
+          "value": "24/7",
+          "description": "Serviciu clienți automatizat"
+        }
+      },
+      "cta": {
+        "title": "Gata să vă transformați prezența pe Facebook?",
+        "subtitle": "Conectați Facebook Messenger la Seasalt.ai și începeți să vă transformați urmăritorii din rețelele sociale în clienți plătitori.",
+        "primary": "Conectați Messenger",
+        "secondary": "Programați o demonstrație"
+      }
+    },
+    "contactForms": {
+      "seo": {
+        "title": "Integrare formulare de contact - Seasalt.ai",
+        "description": "Transformați formularele dvs. de contact în conversații cu AI. Integrați-vă fără întreruperi cu MailerLite, HubSpot, Mailchimp și multe altele pentru angajament instantaneu al lead-urilor."
+      },
+      "nav": {
+        "backToChannels": "Înapoi la Canale"
+      },
+      "hero": {
+        "title": {
+          "part1": "Transformați formularele de contact în",
+          "part2": "Conversații"
+        },
+        "subtitle": "Captați automat lead-uri din formularele dvs. de marketing prin e-mail și angajați-le instantaneu cu conversații alimentate de AI. Funcționează cu MailerLite, HubSpot, Mailchimp și multe altele.",
+        "ctaPrimary": "Conectați-vă formularele",
+        "ctaSecondary": "Vedeți demonstrația",
+        "demo": {
+          "title": "Integrare formulare",
+          "submission": "📝 Trimitere formular nou",
+          "submitter": "Sarah Johnson • sarah@email.com",
+          "aiGreeting": "AI: \"Bună Sarah! Mulțumim pentru interesul dvs. Vă pot ajuta să începeți imediat. Care este obiectivul dvs. principal?",
+          "userResponse": "Sarah: \"Vreau să-mi îmbunătățesc marketingul prin e-mail",
+          "aiSchedule": "AI: \"Perfect! Vă pot programa un apel strategic de 15 minute cu expertul nostru. Sunteți liber mâine la ora 14:00?",
+          "meetingConfirmed": "✅ Întâlnire programată automat"
+        }
+      },
+      "platforms": {
+        "title": "Platforme acceptate",
+        "subtitle": "Integrare fără întreruperi cu toate platformele majore de marketing prin e-mail și constructorii de formulare",
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "Sincronizare fără întreruperi a lead-urilor din formularele de contact MailerLite"
+        },
+        "mailchimp": {
+          "name": "Mailchimp",
+          "description": "Integrare directă cu formularele de înregistrare Mailchimp"
+        },
+        "constantContact": {
+          "name": "Constant Contact",
+          "description": "Captură de lead-uri din formularele Constant Contact"
+        },
+        "hubspot": {
+          "name": "HubSpot",
+          "description": "Integrare avansată a formularelor cu marketingul HubSpot"
+        },
+        "customForms": {
+          "name": "Formulare personalizate",
+          "description": "Suport pentru orice formular de contact de pe site prin API"
+        },
+        "wordpress": {
+          "name": "WordPress",
+          "description": "Integrare nativă cu formularele de contact WordPress"
+        }
+      },
+      "features": {
+        "title": "Funcționalități de gestionare a lead-urilor",
+        "subtitle": "Transformați trimiterile de formulare în lead-uri calificate cu automatizare inteligentă",
+        "instantEngagement": {
+          "title": "Angajament instantaneu",
+          "description": "Agentul AI răspunde la trimiterile de formulare imediat, în timp ce lead-urile sunt fierbinți"
+        },
+        "leadQualification": {
+          "title": "Calificare lead-uri",
+          "description": "Întrebări de follow-up automate pentru a califica prospecții înainte de transferul uman"
+        },
+        "multiChannel": {
+          "title": "Follow-up multi-canal",
+          "description": "Continuați conversațiile prin WhatsApp, SMS sau telefon fără întreruperi"
+        },
+        "conversionTracking": {
+          "title": "Urmărire conversii",
+          "description": "Monitorizați ratele de conversie de la formular la client și optimizați performanța"
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare",
+        "subtitle": "Vedeți cum diferite tipuri de formulare pot fi îmbunătățite cu conversații AI",
+        "newsletter": {
+          "title": "Înscrieri la newsletter",
+          "description": "Angajați noi abonați cu conversații de bun venit",
+          "example": "Mulțumim pentru abonare! Ce subiecte vă interesează cel mai mult?"
+        },
+        "demoRequests": {
+          "title": "Solicitări de demonstrație",
+          "description": "Calificați și programați demonstrații de produse instantaneu",
+          "example": "Vă pot programa demonstrația chiar acum. Care este ora dvs. preferată?"
+        },
+        "contactInquiries": {
+          "title": "Interogări de contact",
+          "description": "Oferiți răspunsuri imediate la interogările generale",
+          "example": "Sunt aici să vă ajut! Ce informații specifice aveți nevoie?"
+        },
+        "leadMagnets": {
+          "title": "Lead Magnets",
+          "description": "Urmăriți descărcările de conținut cu o abordare personalizată",
+          "example": "Ați găsit ghidul util? Vă pot răspunde la orice întrebări!"
+        }
+      },
+      "benefits": {
+        "title": "Beneficiile integrării",
+        "subtitle": "Vedeți impactul imediat al conectării formularelor dvs. la AI conversațional",
+        "responseRates": "Rate de răspuns mai mari",
+        "qualification": "Calificare lead-uri mai rapidă",
+        "meetings": "Mai multe întâlniri calificate",
+        "engagement": "Angajament lead-uri"
+      },
+      "cta": {
+        "title": "Gata să vă supraîncărcați formularele?",
+        "subtitle": "Conectați-vă formularele de contact la Seasalt.ai și începeți să convertiți mai multe lead-uri cu conversații instantanee alimentate de AI.",
+        "action": "Conectați formularele acum"
+      }
+    },
+    "line": {
+      "seo": {
+        "title": "Integrare LINE - Soluții Seasalt.ai",
+        "description": "Vedeți cum Seasalt.ai ajută afacerile să îmbunătățească comunicațiile cu clienții și să stimuleze creșterea prin integrarea LINE pentru piețele asiatice."
+      },
+      "navigation": {
+        "backToChannels": "Înapoi la Canale"
+      },
+      "hero": {
+        "title": "Dominați piețele asiatice cu integrarea LINE",
+        "subtitle": "Conectați-vă cu peste 200 de milioane de utilizatori LINE din Asia cu conversații alimentate de AI și mesagerie de afaceri. Perfect pentru afacerile care vizează piețele japoneză, taiwaneză, thailandeză și coreeană.",
+        "cta": {
+          "startIntegration": "Începeți integrarea LINE",
+          "seeDemo": "Vedeți demonstrația"
+        },
+        "demo": {
+          "title": "LINE Business",
+          "customer": "商品について質問があります",
+          "customerTranslation": "(Am o întrebare despre produs)",
+          "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
+          "ai1Translation": "(Bună! Mă bucur să vă ajut. Despre ce produs este vorba?)",
+          "stickerMessage": "Autocolant: Mulțumesc!",
+          "ai2": "どういたしまして！他にご質問はありますか？",
+          "ai2Translation": "(Cu plăcere! Mai aveți alte întrebări?)"
+        }
+      },
+      "marketFocus": {
+        "title": "Focalizare pe piață",
+        "subtitle": "Dominanța LINE pe piețele cheie din Asia o face esențială pentru afacerile care vizează aceste regiuni",
+        "activeUsers": "Utilizatori activi",
+        "marketPenetration": "Penetrare pe piață"
+      },
+      "markets": {
+        "JP": {
+          "country": "Japonia",
+          "users": "95M",
+          "penetration": "75%"
+        },
+        "TW": {
+          "country": "Taiwan",
+          "users": "21M",
+          "penetration": "90%"
+        },
+        "TH": {
+          "country": "Thailanda",
+          "users": "53M",
+          "penetration": "76%"
+        },
+        "KR": {
+          "country": "Coreea de Sud",
+          "users": "35M",
+          "penetration": "68%"
+        }
+      },
+      "features": {
+        "title": "Funcționalități LINE Business",
+        "subtitle": "Valorificați funcționalitățile unice ale LINE pentru comunicarea de afaceri și angajamentul clienților",
+        "regionalDominance": {
+          "title": "Dominanță regională",
+          "description": "Acces la peste 200 de milioane de utilizatori LINE pe piețele cheie din Asia"
+        },
+        "officialAccount": {
+          "title": "Cont oficial LINE",
+          "description": "Integrare completă cu contul oficial LINE pentru mesageria de afaceri"
+        },
+        "richMessaging": {
+          "title": "Mesagerie bogată",
+          "description": "Suport pentru autocolante, meniuri bogate și formate de mesaje interactive"
+        },
+        "culturalAdaptation": {
+          "title": "Adaptare culturală",
+          "description": "Funcționalități de mesagerie localizate optimizate pentru diferite piețe asiatice"
+        }
+      },
+      "businessMessaging": {
+        "title": "Mesagerie de afaceri avansată",
+        "subtitle": "Profitați de funcționalitățile de mesagerie bogate ale LINE pentru experiențe îmbunătățite ale clienților"
+      },
+      "businessFeatures": {
+        "payIntegration": {
+          "title": "Integrare LINE Pay",
+          "description": "Acceptați plăți direct prin LINE pentru tranzacții fără întreruperi"
+        },
+        "richMenu": {
+          "title": "Design meniu bogat",
+          "description": "Creați meniuri interactive pentru o navigare ușoară a clienților"
+        },
+        "broadcast": {
+          "title": "Mesagerie de difuzare",
+          "description": "Trimiteți mesaje țintite către urmăritorii dvs. LINE"
+        },
+        "chatbot": {
+          "title": "Constructor chatbot",
+          "description": "Constructor vizual de chatbot optimizat pentru interacțiunile LINE"
+        }
+      },
+      "culturalAdaptationSection": {
+        "title": "Adaptare culturală",
+        "subtitle": "AI-ul nostru înțelege nuanțele culturale și stilurile de comunicare pe diferite piețe asiatice"
+      },
+      "culturalFeatures": {
+        "localized": {
+          "title": "Răspunsuri localizate",
+          "description": "Răspunsuri AI adaptate stilurilor de comunicare locale și preferințelor culturale"
+        },
+        "multiLanguage": {
+          "title": "Suport multilingv",
+          "description": "Suport nativ pentru japoneză, chineză, thailandeză, coreeană și engleză"
+        },
+        "sticker": {
+          "title": "Integrare autocolante",
+          "description": "Utilizare inteligentă a autocolantelor și emoji-urilor LINE pentru conversații naturale"
+        }
+      },
+      "cta": {
+        "title": "Gata să intrați pe piețele asiatice?",
+        "subtitle": "Conectați-vă cu milioane de potențiali clienți din Asia prin platforma de mesagerie dominantă a LINE.",
+        "startIntegration": "Începeți integrarea LINE"
+      }
+    },
+    "websiteWidget": {
+      "navigation": {
+        "backToChannels": "Înapoi la Canale"
+      },
+      "seo": {
+        "title": "Widget site - Soluții Omnichannel",
+        "description": "Implementați widget-ul nostru omnichannel pe WordPress, Shopify, Squarespace, Wix, MailerLite și orice site web. Oferiți clienților alegerea cu chat, voce și mesagerie unificate."
+      },
+      "hero": {
+        "title": "Un singur widget,",
+        "titleHighlight": "Fiecare platformă",
+        "subtitle": "Implementați widget-ul nostru omnichannel pe WordPress, Shopify, Squarespace, Wix, MailerLite și orice site web. Oferiți clienților alegerea cu chat, voce și mesagerie unificate.",
+        "cta": {
+          "deploy": "Implementați widget-ul acum",
+          "demo": "Programați o demonstrație"
+        },
+        "widget": {
+          "title": "Widget universal",
+          "chat": {
+            "label": "💬 Chat",
+            "description": "Suport mesagerie instantanee"
+          },
+          "voice": {
+            "label": "📞 Voce",
+            "description": "Apeluri vocale cu un singur clic"
+          },
+          "whatsapp": {
+            "label": "📱 WhatsApp",
+            "description": "Conexiune directă WhatsApp"
+          },
+          "email": {
+            "label": "📧 E-mail",
+            "description": "Integrare formular de contact"
+          }
+        }
+      },
+      "platforms": {
+        "title": "Funcționează cu fiecare platformă",
+        "subtitle": "Indiferent de platforma pe care o utilizați, widget-ul nostru se integrează perfect cu site-ul dvs. existent",
+        "wordpress": {
+          "name": "WordPress",
+          "description": "Instalare ușoară a plugin-ului pentru site-uri WordPress"
+        },
+        "shopify": {
+          "name": "Shopify",
+          "description": "Integrare nativă cu magazinele Shopify"
+        },
+        "squarespace": {
+          "name": "Squarespace",
+          "description": "Cod de încorporare simplu pentru site-uri Squarespace"
+        },
+        "wix": {
+          "name": "Wix",
+          "description": "Widget drag-and-drop pentru site-uri Wix"
+        },
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "Integrare directă cu paginile de destinație MailerLite"
+        },
+        "custom": {
+          "name": "HTML personalizat",
+          "description": "Cod de încorporare universal pentru orice site web"
+        }
+      },
+      "features": {
+        "title": "Funcționalități avansate",
+        "subtitle": "Mai mult decât un simplu widget de chat - o platformă completă de angajament al clienților",
+        "design": {
+          "title": "Design personalizabil",
+          "description": "Potriviți-vă brandul cu culori, fonturi și opțiuni de poziționare personalizate"
+        },
+        "mobile": {
+          "title": "Responsiv mobil",
+          "description": "Experiență perfectă pe toate dispozitivele și dimensiunile ecranului"
+        },
+        "nocode": {
+          "title": "Configurare fără cod",
+          "description": "Adăugați pe orice site în mai puțin de 5 minute, fără cunoștințe tehnice"
+        },
+        "analytics": {
+          "title": "Analiză avansată",
+          "description": "Urmăriți angajamentul vizitatorilor, ratele de conversie și performanța chat-ului"
+        }
+      },
+      "styles": {
+        "title": "Alegeți-vă stilul",
+        "subtitle": "Mai multe stiluri de widget pentru a se potrivi designului site-ului dvs. și obiectivelor de experiență a utilizatorului",
+        "chatBubble": {
+          "name": "Bule de chat",
+          "description": "Bule de chat plutitoare clasice în colțul de jos"
+        },
+        "slidePanel": {
+          "name": "Panou glisant",
+          "description": "Panou glisant elegant din lateral"
+        },
+        "embeddedForm": {
+          "name": "Formular încorporat",
+          "description": "Formular de contact inline în conținutul paginii"
+        },
+        "fullModal": {
+          "name": "Modal pe ecran complet",
+          "description": "Suprapunere pe ecran complet care atrage atenția"
+        }
+      },
+      "benefits": {
+        "title": "De ce să alegeți widget-ul nostru?",
+        "switching": {
+          "title": "Schimbare canal",
+          "description": "Tranziție fără întreruperi între chat, voce și mesagerie fără a pierde contextul"
+        },
+        "queue": {
+          "title": "Gestionare coadă",
+          "description": "Rutare inteligentă bazată pe disponibilitatea agentului și prioritatea clientului"
+        },
+        "global": {
+          "title": "Suport global",
+          "description": "Suport multilingv și rutare conștientă de fus orar pentru clienții internaționali"
+        }
+      },
+      "cta": {
+        "title": "Gata să implementați widget-ul dvs.?",
+        "subtitle": "Adăugați o comunicare omnichannel puternică pe site-ul dvs. în mai puțin de 5 minute. Nu este necesară codificarea.",
+        "getWidget": "Obțineți codul widget-ului"
+      }
+    }
+  },
+  "comparison": {
+    "title": "De ce afacerile în creștere aleg Seasalt.ai în detrimentul altor alternative",
+    "description": "Vedeți cum ne comparăm cu alte soluții. Suntem singura platformă care oferă funcționalități de nivel enterprise cu simplitatea de care au nevoie întreprinderile mici.",
+    "recommended": "Recomandat",
+    "table": {
+      "headers": {
+        "platform": "Platformă",
+        "startingPrice": "Preț de pornire",
+        "pricingModel": "Model de prețuri",
+        "unifiedVoiceDigital": "Voce și digital unificate",
+        "aiCapabilities": "Capacități AI",
+        "bestFor": "Cel mai bun pentru"
+      }
+    },
+    "competitors": {
+      "seasalt": {
+        "startingPrice": "20 USD/agent/lună",
+        "pricingModel": "Prețuri simple per utilizator",
+        "unifiedVoiceDigital": "✅ Da, suport nativ",
+        "aiCapabilities": "✅ Da, voce și chatbot nativ",
+        "bestFor": "IMM-uri care au nevoie de o platformă cu adevărat all-in-one și accesibilă."
+      },
+      "aircall": {
+        "startingPrice": "30 USD/utilizator/lună",
+        "pricingModel": "Per utilizator + add-on-uri",
+        "unifiedVoiceDigital": "⚠️ Voce + WhatsApp (add-on)",
+        "aiCapabilities": "⚠️ AI este un add-on plătit",
+        "bestFor": "Echipe de vânzări care își pot permite mai multe add-on-uri și îndeplinesc minimul de 3 utilizatori."
+      },
+      "ringcentral": {
+        "startingPrice": "65 USD/agent/lună",
+        "pricingModel": "Niveluri complexe",
+        "unifiedVoiceDigital": "❌ Produse separate",
+        "aiCapabilities": "✅ Da (CCaaS alimentat de AI)",
+        "bestFor": "Companii mari care au nevoie de o platformă UCaaS extinsă cu CCaaS separat."
+      },
+      "genesys": {
+        "startingPrice": "75 USD/utilizator/lună",
+        "pricingModel": "Per utilizator + minime ridicate",
+        "unifiedVoiceDigital": "✅ Da (în planurile premium)",
+        "aiCapabilities": "✅ Da (sistem complex de token-uri)",
+        "bestFor": "Întreprinderi cu echipe și bugete dedicate pentru centre de contact."
+      },
+      "five9": {
+        "startingPrice": "119 USD/utilizator/lună",
+        "pricingModel": "Per utilizator + pachete",
+        "unifiedVoiceDigital": "✅ Da (în planurile premium)",
+        "aiCapabilities": "✅ Da (AI avansată)",
+        "bestFor": "Centre de contact mari, axate pe outbound, care au nevoie de instrumente la nivel de întreprindere."
+      },
+      "googleVoice": {
+        "startingPrice": "10 USD/utilizator/lună",
+        "pricingModel": "Per utilizator + taxă Workspace",
+        "unifiedVoiceDigital": "❌ Nu",
+        "aiCapabilities": "❌ Nu (doar transcriere mesagerie vocală)",
+        "bestFor": "Antreprenori individuali care au nevoie de un număr de telefon de bază, autonom (doar SUA)."
+      }
+    },
+    "cta": {
+      "seeAllComparisons": "Vedeți toate comparațiile detaliate"
+    }
+  },
+  "industriesData": {
+    "ecommerce": {
+      "title": "E-commerce",
+      "headline": "Recuperați coșurile abandonate și răspundeți la întrebările despre comenzi 24/7",
+      "benefits": [
+        "Actualizări automate ale stării comenzilor prin WhatsApp și SMS",
+        "AI gestionează instantaneu interogările \"Unde este pachetul meu?\"",
+        "Recuperați peste 15% din coșurile abandonate cu follow-up-uri inteligente",
+        "Integrări Shopify și Squarespace incluse"
+      ]
+    },
+    "healthcare": {
+      "title": "Sănătate",
+      "headline": "Programați programări pacienți și trimiteți memento-uri automat",
+      "benefits": [
+        "Mesagerie conformă HIPAA pe toate canalele",
+        "Confirmări și memento-uri programări automate",
+        "AI pre-evaluează interogările pacienților înainte de rutare",
+        "Reduceți absențele cu 25% cu notificări inteligente"
+      ]
+    },
+    "realEstate": {
+      "title": "Imobiliare",
+      "headline": "Nu ratați niciodată un lead și programați vizionări prin text, chat sau telefon",
+      "benefits": [
+        "Răspunsuri instantanee la interogările despre proprietăți 24/7",
+        "Programări vizionări automate prin AI",
+        "Calificare lead-uri înainte de transferul uman",
+        "Tururi virtuale WhatsApp și fotografii proprietăți"
+      ]
+    },
+    "restaurants": {
+      "title": "Restaurante și ospitalitate",
+      "headline": "Preiați rezervări și gestionați comenzi pe toate canalele",
+      "benefits": [
+        "Rezervare automată a meselor prin telefon și chat",
+        "Întrebări despre meniu răspuns instantaneu de AI",
+        "Confirmări comenzi trimise prin SMS și WhatsApp",
+        "Gestionați interogările de livrare fără întreruperea personalului"
+      ]
+    },
+    "education": {
+      "title": "Educație și formare",
+      "headline": "Simplificați comunicațiile cu studenții și interogările despre cursuri",
+      "benefits": [
+        "Înscriere și programare cursuri automate",
+        "AI gestionează întrebările comune ale studenților 24/7",
+        "Comunicare părinți-profesori prin WhatsApp",
+        "Notificări și memento-uri evenimente prin SMS"
+      ]
+    },
+    "automotive": {
+      "title": "Auto și servicii",
+      "headline": "Programați programări de service și gestionați interogările clienților",
+      "benefits": [
+        "Programare automată a programărilor de service",
+        "Memento-uri de întreținere vehicule prin SMS",
+        "AI gestionează întrebările despre disponibilitatea pieselor",
+        "Notificări de finalizare service cu fotografii"
+      ]
+    },
+    "professional": {
+      "title": "Servicii profesionale",
+      "headline": "Gestionați comunicațiile cu clienții și rezervările de consultanță",
+      "benefits": [
+        "Programare automată a consultanțelor",
+        "Formulare de înregistrare clienți prin chat",
+        "Partajare documente prin canale securizate",
+        "Memento-uri de follow-up pentru programări"
+      ]
+    },
+    "financial": {
+      "title": "Servicii financiare",
+      "headline": "Comunicații securizate cu clienții și gestionarea programărilor",
+      "benefits": [
+        "Mesagerie și înregistrare conform FINRA",
+        "Confirmări programări automate",
+        "Colectare securizată documente prin chat",
+        "Automatizare flux de lucru de integrare clienți"
+      ]
+    },
+    "educationTraining": {
+      "title": "Educație și formare",
+      "headline": "Simplificați-vă instituția de învățământ cu soluții complete de management",
+      "benefits": [
+        "Înscriere și programare cursuri automate",
+        "AI gestionează întrebările comune ale studenților 24/7",
+        "Comunicare părinți-profesori prin WhatsApp",
+        "Notificări și memento-uri evenimente prin SMS"
+      ],
+      "benefits[0]": "Înscriere simplificată a studenților și gestionarea înregistrărilor",
+      "benefits[1]": "Programare automată și gestionarea cursurilor",
+      "benefits[2]": "Instrumente îmbunătățite de comunicare părinți-profesori",
+      "benefits[3]": "Raportare și analiză completă"
+    }
+  },
+  "productsData": {
+    "seachat": {
+      "title": "SeaChat",
+      "description": "Răspundeți clienților 24/7"
+    },
+    "seax": {
+      "title": "SeaX",
+      "description": "Contactați clienții în masă"
+    },
+    "seameet": {
+      "title": "SeaMeet",
+      "description": "Copilot pentru întâlniri și apeluri"
+    },
+    "seavoice": {
+      "title": "SeaVoice",
+      "description": "Agenți vocali AI pentru apeluri",
+      "subProducts": {
+        "tts": "Text în vorbire",
+        "stt": "Vorbire în text",
+        "discord": "Bot STT Discord"
+      }
+    }
+  },
+  "solutionsData": {
+    "salesMarketing": {
+      "title": "Pentru vânzări și marketing"
+    },
+    "customerSupport": {
+      "title": "Pentru asistență clienți"
+    },
+    "aiAutomation": {
+      "title": "AI și automatizare"
+    },
+    "smeOwners": {
+      "title": "Pentru proprietarii de IMM-uri"
+    }
+  }
+}

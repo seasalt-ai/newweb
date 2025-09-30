@@ -1,0 +1,1394 @@
+{
+  "common": {
+    "tableOfContents": "Cuprins",
+    "loading": {
+      "translations": "Se încarcă traducerile...",
+      "blogPosts": "Se încarcă postările de blog..."
+    },
+    "actions": {
+      "signUp": "Înregistrare",
+      "bookDemo": "Programați o demonstrație",
+      "clearFilters": "Ștergeți filtrele",
+      "signUpForFree": "Înregistrați-vă gratuit",
+      "scheduleDemo": "Programați o demonstrație"
+    }
+  },
+  "navigation": {
+    "backToHome": "Înapoi la Acasă",
+    "backToBlog": "Înapoi la Blog"
+  },
+  "blog": {
+    "searchPlaceholder": "Căutați postări de blog...",
+    "allCategories": "Toate categoriile",
+    "clearFilters": "Ștergeți filtrele",
+    "seo": {
+      "title": "Blog - Seasalt.ai",
+      "description": "Insight-uri, sfaturi și actualizări despre comunicațiile cu clienții bazate pe AI, automatizarea afacerilor și viitorul experienței clienților."
+    },
+    "loading": {
+      "text": "Se încarcă postările de blog..."
+    },
+    "nav": {
+      "backToHome": "Înapoi la Acasă"
+    },
+    "hero": {
+      "title": "Seasalt.ai",
+      "highlight": "Blog",
+      "description": "Insight-uri, sfaturi și actualizări despre comunicațiile cu clienții bazate pe AI, automatizarea afacerilor și viitorul experienței clienților."
+    },
+    "search": {
+      "placeholder": "Căutați postări de blog..."
+    },
+    "filter": {
+      "allCategories": "Toate categoriile"
+    },
+    "empty": {
+      "noPosts": "Nu s-au găsit postări de blog.",
+      "noResults": "Niciun post nu corespunde criteriilor dvs. de căutare.",
+      "clearFilters": "Ștergeți filtrele"
+    },
+    "post": {
+      "readMore": "Citiți mai mult →",
+      "updated": "Actualizat"
+    },
+    "newsletter": {
+      "title": "Rămâneți la curent cu cele mai recente insight-uri ale noastre",
+      "description": "Obțineți cele mai recente articole despre automatizarea AI, experiența clienților și creșterea afacerilor direct în inbox-ul dvs.",
+      "emailPlaceholder": "Introduceți adresa dvs. de e-mail",
+      "subscribeButton": "Abonare"
+    }
+  },
+  "careers": {
+    "seo": {
+      "title": "Cariere la Seasalt.ai",
+      "description": "Explorați oportunitățile de carieră la Seasalt.ai. Alăturați-vă misiunii noastre de a transforma lumea comunicării de afaceri cu AI."
+    },
+    "hero": {
+      "title": "Cariere la Seasalt.ai",
+      "subtitle": "Alăturați-vă misiunii noastre de a transforma lumea comunicării de afaceri cu AI. Angajăm cei mai buni și mai inteligenți oameni din lume pentru a contribui la realizarea acestei transformări."
+    },
+    "mission": {
+      "title": "Misiunea Seasalt.ai",
+      "content": "Misiunea Seasalt.ai este de a transforma lumea afacerilor cu AI. Angajăm cei mai buni și mai inteligenți oameni din lume pentru a contribui la realizarea acestei transformări."
+    },
+    "vision": {
+      "title": "Viziunea Seasalt.ai",
+      "content": "Viziunea Seasalt.ai este de a crea o lume în care oamenii coexistă cu AI. Rezolvăm B2B având în vedere B2C."
+    },
+    "departments": {
+      "business": "Afaceri",
+      "product": "Produs",
+      "engineering": "Inginerie"
+    },
+    "positions": {
+      "businessDeveloper": {
+        "title": "Dezvoltator de afaceri",
+        "location": "La distanță",
+        "type": "Full-time"
+      },
+      "fieldMarketingDirectSales": {
+        "title": "Marketing de teren și vânzări directe",
+        "location": "La distanță",
+        "type": "Full-time"
+      },
+      "technicalProductManager": {
+        "title": "Manager de produs tehnic",
+        "location": "La distanță",
+        "type": "Full-time"
+      },
+      "productMarketing": {
+        "title": "Marketing de produs",
+        "location": "La distanță",
+        "type": "Full-time"
+      },
+      "frontendEngineer": {
+        "title": "Inginer frontend",
+        "location": "La distanță",
+        "type": "Full-time"
+      },
+      "backendEngineer": {
+        "title": "Inginer backend",
+        "location": "La distanță",
+        "type": "Full-time"
+      },
+      "devOps": {
+        "title": "Inginer DevOps",
+        "location": "La distanță",
+        "type": "Full-time"
+      },
+      "mlEngineerNLP": {
+        "title": "Inginer învățare automată (NLP)",
+        "location": "La distanță",
+        "type": "Full-time"
+      },
+      "mlEngineerLanguageModeling": {
+        "title": "Inginer învățare automată (Modelare limbaj)",
+        "location": "La distanță",
+        "type": "Full-time"
+      },
+      "mlEngineerSpeechRecognition": {
+        "title": "Inginer învățare automată (Recunoaștere vorbire)",
+        "location": "La distanță",
+        "type": "Full-time"
+      }
+    },
+    "common": {
+      "detail": "Vizualizați detalii"
+    }
+  },
+  "company": {
+    "seo": {
+      "title": "Despre Seasalt.ai - Informații companie și conducere",
+      "description": "Aflați despre Seasalt.ai, un furnizor de top de soluții tehnologice AI de comunicare în cloud. Fondată de experți AI, transformăm comunicațiile de afaceri cu platforme AI omnichannel."
+    },
+    "hero": {
+      "title": "Despre Seasalt.ai",
+      "description": "Seasalt.ai este un furnizor de top de soluții tehnologice AI de comunicare în cloud, construind platforme unificate, multilingve și omnichannel pentru afaceri din întreaga lume. Fondată în 2020 de veterani ai industriei în AI și tehnologii vocale, Seasalt.ai are misiunea de a face AI conversațională de nivel enterprise accesibilă, sigură și scalabilă pentru toată lumea.",
+      "subtitle": "De la IMM-uri la organizații non-profit și organizații din sectorul public, Seasalt.ai împuternicește echipele să automatizeze comunicarea, să îmbunătățească experiențele clienților și să deblocheze noi canale de creștere."
+    },
+    "mission": {
+      "title": "Misiunea și valorile noastre",
+      "heading": "Misiunea noastră",
+      "text": "Transformăm lumea comunicării de afaceri cu AI – construind conversații naturale, acționabile oriunde, pe orice canal.",
+      "statement": "Construim agenți AI care vorbesc, ascultă și acționează – prin mesagerie, voce și web – astfel încât oamenii să se poată concentra pe ceea ce contează cu adevărat.",
+      "future": "Credem că viitorul muncii este augmentat de AI, nu înlocuit de AI. Tehnologia noastră ajută oamenii să-și facă treaba mai bine, mai rapid și mai semnificativ."
+    },
+    "vision": {
+      "heading": "Viziunea noastră",
+      "text": "Crearea unei lumi în care oamenii și AI colaborează fără probleme, oferind valoare de afaceri bazată pe simplitate, încredere și excelență tehnologică."
+    },
+    "values": {
+      "title": "🧭 Valorile noastre fundamentale",
+      "humanFirst": {
+        "title": "Omul pe primul loc",
+        "description": "Punerea oamenilor în centrul tuturor soluțiilor noastre AI."
+      },
+      "transparency": {
+        "title": "Transparență",
+        "description": "Comunicare deschisă și onestă în cadrul echipei noastre și cu clienții."
+      },
+      "speedSafety": {
+        "title": "Viteză și siguranță",
+        "description": "Oferirea de soluții rapide, menținând în același timp cele mai înalte standarde de siguranță."
+      },
+      "buildPurpose": {
+        "title": "Construiți cu scop",
+        "description": "Fiecare produs și funcționalitate servește un scop semnificativ."
+      },
+      "globalEmpathy": {
+        "title": "Empatie globală",
+        "description": "Proiectarea soluțiilor cu sensibilitate culturală și impact mondial."
+      }
+    },
+    "leadership": {
+      "0": {
+        "role": "CEO și co-fondator",
+        "bio": "Anterior a co-fondat KITT.AI (susținut de Amazon și Microsoft, achiziționat de Baidu). Fondator de două ori și expert AI recunoscut. Doctor în procesarea limbajului natural de la Johns Hopkins University CLSP.",
+        "homepage": "https://xuchen.github.io/"
+      },
+      "1": {
+        "role": "CTO și co-fondator",
+        "bio": "Expert în tehnologia vorbirii, de asemenea co-fondator al KITT.AI. Experiență profundă în recunoașterea vorbirii multilingve și AI conversațională. Doctor în recunoașterea vorbirii de la Johns Hopkins University CLSP.",
+        "scholar": "https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao"
+      },
+      "title": "Conducere și co-fondatori",
+      "homepage": "Pagina principală",
+      "scholar": "Google Scholar"
+    },
+    "offices": {
+      "title": "Locații birouri",
+      "list": [
+        {
+          "title": "Sediul global",
+          "location": "Seattle, Washington, SUA"
+        },
+        {
+          "title": "Centrul de cercetare și dezvoltare și suport Asia",
+          "location": "Taipei, Taiwan"
+        }
+      ]
+    },
+    "products": {
+      "title": "Ce construim",
+      "subtitle": "Portofoliu de produse",
+      "downloadPressKit": "Descărcați logo-ul produsului și kit-ul de presă",
+      "product1": {
+        "name": "SeaChat (AI de răspuns)",
+        "description": "Serviciu clienți alimentat de AI, multilingv, omnichannel (WhatsApp, FB Messenger, Instagram, Line, web, SMS, voce)."
+      },
+      "product2": {
+        "name": "SeaX (AI de contact)",
+        "description": "Angajament outbound, dialpad, campanii, SMS/WhatsApp/voce în masă pentru vânzări și marketing."
+      },
+      "product3": {
+        "name": "SeaMeet (AI de insight-uri)",
+        "description": "Copilot AI pentru întâlniri: minute automate, rezumate, analiză semantică și AI vocală pentru întâlniri de afaceri."
+      },
+      "product4": {
+        "name": "SeaVoice (Autopilot vocal)",
+        "description": "Infrastructură avansată de AI vocală care permite agenților telefonici asemănători cu oamenii pentru apeluri primite și efectuate – construită cu LLM-uri de ultimă generație și recunoaștere a vorbirii."
+      }
+    },
+    "funding": {
+      "title": "Finanțare și investitori",
+      "seedFunding": "Finanțare inițială",
+      "raised": "4,2 milioane USD strânse în 2024",
+      "investorsTitle": "Investitorii noștri includ:",
+      "investorsList": [
+        "Unlock Venture Partners (Investitor principal)",
+        "Z Venture Capital (ZVC, brațul de capital de risc corporativ al LINE)",
+        "SparkLabs Group (SparkLabs Taiwan)",
+        "Grand Vision Capital Group",
+        "PatientsForce"
+      ]
+    },
+    "partnership": {
+      "title": "Parteneriate strategice",
+      "description": "Puterea platformei noastre este amplificată de parteneriate strategice profunde cu lideri tehnologici globali:"
+    },
+    "partnerships": {
+      "list": [
+        {
+          "description": "Ca partener Twilio Gold și revânzător autorizat al Twilio Flex, avem o relație strategică consolidată pentru a îmbunătăți experiența clienților cu AI conversațională. Cheia expansiunii noastre în regiunea Asia-Pacific și Japonia (APJ).",
+          "type": "Partener Gold"
+        },
+        {
+          "description": "Integrări oficiale ale platformei cu Facebook/WhatsApp/Instagram, permițând comunicații omnichannel fără întreruperi.",
+          "type": "Integrare oficială"
+        },
+        {
+          "description": "Parteneriatul ne permite să construim fără probleme funcționalități avansate de e-mail și programare direct în aplicațiile noastre, îmbunătățind profunzimea contextuală a agenților noștri AI.",
+          "type": "Partener strategic"
+        },
+        {
+          "description": "Prin investitorul nostru ZVC, avem acces unic la API-urile de apeluri de afaceri LINE, critice pentru strategia noastră pe piețele cheie din Asia, unde LINE este platforma de comunicare dominantă.",
+          "type": "Partener strategic și investiție"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Călătoria noastră",
+      "subtitle": "Etape cheie în misiunea noastră de a transforma comunicațiile de afaceri",
+      "list": [
+        {
+          "event": "Seasalt.ai fondată de veterani ai industriei în AI și tehnologii vocale"
+        },
+        {
+          "event": "Supraviețuirea Covid19. Nimeni nu a fost concediat."
+        },
+        {
+          "event": "Lansarea platformei SeaChat de servicii clienți omnichannel"
+        },
+        {
+          "event": "Introducerea AI de contact SeaX și AI de insight-uri SeaMeet"
+        },
+        {
+          "event": "Lansarea infrastructurii avansate de AI vocală SeaVoice"
+        }
+      ]
+    },
+    "careers": {
+      "title": "Cariere la Seasalt.ai",
+      "description": "Seasalt.ai operează cu o cultură globală, diversă și prietenoasă cu munca la distanță, căutând întotdeauna ingineri, oameni de știință AI, dezvoltatori și constructori de afaceri.",
+      "cta": "Vedeți posturile deschise",
+      "bullet1": "Cultură globală, diversă și prietenoasă cu munca la distanță",
+      "bullet2": "Lucrați cu tehnologie AI de ultimă generație",
+      "bullet3": "Aveți un impact real în comunicațiile de afaceri",
+      "bullet4": "Colaborați cu veterani ai industriei"
+    },
+    "contact": {
+      "title": "Contact și presă",
+      "press": {
+        "title": "Presă și media",
+        "email": "press@seasalt.ai"
+      },
+      "investors": {
+        "title": "Investitori",
+        "email": "invest@seasalt.ai"
+      },
+      "partnerships": {
+        "title": "Parteneriate",
+        "email": "partnerships@seasalt.ai"
+      },
+      "hotline": {
+        "title": "Linie telefonică 24/7",
+        "number": "+1-(SMB)-AI-AGENT"
+      },
+      "downloadPressKit": "Descărcați logo-ul produsului și kit-ul de presă",
+      "tagline": "Seasalt.ai – conectând inovația și impactul în comunicarea de afaceri, făcând AI cloud accesibilă echipelor din întreaga lume.",
+      "pressKit": {
+        "downloadText": "Descărcați logo-ul produsului și kit-ul de presă",
+        "description": "Seasalt.ai – conectând inovația și impactul în comunicarea de afaceri, făcând AI cloud accesibilă echipelor din întreaga lume."
+      }
+    },
+    "newsletter": {
+      "title": "Abonați-vă la newsletter-ul nostru",
+      "subtitle": "Unul pe săptămână, scris de CEO",
+      "description": "Obțineți insight-uri despre AI, comunicațiile de afaceri și viitorul muncii direct de la echipa noastră de conducere.",
+      "emailPlaceholder": "Introduceți adresa dvs. de e-mail",
+      "cta": "Abonare",
+      "disclaimer": "Fără spam, dezabonați-vă oricând. Vă respectăm confidențialitatea."
+    },
+    "useCaseCategories": {
+      "smallMediumBusinesses": "Afaceri mici și mijlocii",
+      "healthcare": "Sănătate",
+      "education": "Educație",
+      "campaignMessaging": "Mesagerie campanii",
+      "speechAnalysis": "Analiză vorbire"
+    },
+    "useCaseLinks": {
+      "getTwilioApproval": "Obțineți aprobarea Twilio pentru campanii SMS",
+      "bulkSendSms": "Trimiteți SMS în masă",
+      "whatsappCustomers": "WhatsApp clienților dvs.",
+      "callCustomersBatch": "Apelați clienții dvs. în lot",
+      "autoAnswerCalls": "Răspundeți automat la apeluri 24/7",
+      "voiceAiSeniors": "Apeluri AI vocale pentru a verifica persoanele în vârstă",
+      "hospitalAnalytics": "Tablou de bord analiză apeluri telefonice pentru spitale",
+      "conversationalGenAi": "GenAI conversațional pentru sălile de clasă",
+      "winCampaigns": "Câștigați campanii cu mesaje și apeluri automate",
+      "transcribeAudio": "Transcrierea audio și a apelurilor pentru a descoperi insight-uri",
+      "meetingAnalytics": "Analiză întâlniri pentru echipele la distanță"
+    }
+  },
+  "solutions": {
+    "salesMarketing": {
+      "seo": {
+        "title": "Soluții vânzări și marketing - Seasalt.ai",
+        "description": "Captați mai multe lead-uri, răspundeți mai rapid și convertiți mai bine cu automatizare inteligentă care funcționează pe fiecare canal. Prospecții dvs. primesc răspunsuri instantanee în timp ce vă concentrați pe încheierea afacerilor."
+      },
+      "navigation": {
+        "backToHome": "Înapoi la Acasă"
+      },
+      "hero": {
+        "title1": "Transformați fiecare lead în",
+        "titleGradient": "Oportunitate de venit",
+        "subtitle": "Automatizare vânzări și marketing alimentată de AI care nu doarme niciodată",
+        "description": "Captați mai multe lead-uri, răspundeți mai rapid și convertiți mai bine cu automatizare inteligentă care funcționează pe fiecare canal. Prospecții dvs. primesc răspunsuri instantanee în timp ce vă concentrați pe încheierea afacerilor.",
+        "cta": {
+          "primary": "Stimulați-vă conversiile",
+          "secondary": "Programați o demonstrație"
+        },
+        "dashboard": {
+          "title": "Performanță vânzări",
+          "leads": "🎯 47 de lead-uri noi capturate astăzi",
+          "leadsQualified": "AI a calificat 23 ca fiind de prioritate ridicată",
+          "responseTime": "⚡ Timp mediu de răspuns: 12 secunde",
+          "responseTimeBenefit": "Cu 300% mai rapid decât media industriei",
+          "demos": "📅 15 demonstrații programate automat",
+          "demosNote": "În timp ce echipa dvs. era în întâlniri",
+          "pipeline": "💰 24.500 USD pipeline adăugat săptămâna aceasta",
+          "conversion": "Îmbunătățire cu 45% a ratei de conversie"
+        }
+      },
+      "challenges": {
+        "title": "Provocări vânzări și marketing",
+        "description": "Fiecare minut în care nu răspundeți unui lead este un minut în care concurentul dvs. ar putea fi. Nu lăsați procesele manuale să vă coste venituri.",
+        "leadGeneration": {
+          "title": "Generare și calificare lead-uri",
+          "description": "Dificultăți în captarea lead-urilor pe mai multe canale și calificarea lor eficientă"
+        },
+        "conversion": {
+          "title": "Optimizare conversie",
+          "description": "Oportunități ratate de a converti prospecții din cauza timpilor de răspuns lenți"
+        },
+        "campaignManagement": {
+          "title": "Gestionare campanii",
+          "description": "Dificultăți în gestionarea campaniilor multi-canal și urmărirea eficacității acestora"
+        }
+      },
+      "solutions": {
+        "title": "Motorul dvs. de vânzări alimentat de AI",
+        "description": "Transformați-vă operațiunile de vânzări și marketing cu automatizare inteligentă care captează, califică și convertește lead-uri non-stop.",
+        "leadCapture": {
+          "title": "Captură și calificare inteligentă a lead-urilor",
+          "description": "Captați lead-uri de pe fiecare canal și lăsați AI să le califice instantaneu",
+          "benefit1": "Captați lead-uri de pe site-ul web, rețele sociale și anunțuri",
+          "benefit2": "AI califică lead-urile cu întrebări inteligente",
+          "benefit3": "Scorizare și prioritizare automată a lead-urilor",
+          "benefit4": "Notificări instantanee pentru prospecții fierbinți"
+        },
+        "responseTime": {
+          "title": "Timpi de răspuns extrem de rapidi",
+          "description": "Răspundeți prospecților în câteva secunde, nu ore, cu automatizare AI",
+          "benefit1": "Răspunsuri instantanee la toate interogările 24/7",
+          "benefit2": "AI programează demonstrații și consultații automat",
+          "benefit3": "Secvențe inteligente de follow-up care cultivă lead-uri",
+          "benefit4": "Transfer fără întreruperi către reprezentanții de vânzări când sunt gata"
+        },
+        "omnichannel": {
+          "title": "Gestionare campanii omnichannel",
+          "description": "Lansați și gestionați campanii prin SMS, WhatsApp, e-mail și voce",
+          "benefit1": "Gestionare campanii unificată pe toate canalele",
+          "benefit2": "Mesagerie personalizată la scară",
+          "benefit3": "Urmărire performanță campanie în timp real",
+          "benefit4": "Testare A/B și optimizare automată"
+        },
+        "keyBenefits": "Beneficii cheie:"
+      },
+      "useCases": {
+        "title": "Povești de succes reale ale echipelor de vânzări",
+        "description": "Vedeți cum echipele de vânzări și marketing utilizează Seasalt.ai pentru a-și accelera creșterea",
+        "saas": {
+          "title": "Echipa de vânzări SaaS",
+          "challenge": "Generarea și calificarea lead-urilor pentru demonstrații software",
+          "solution": "AI captează lead-uri de pe site-ul web, califică nivelul de interes și programează demonstrații automat"
+        },
+        "ecommerce": {
+          "title": "Marketing E-commerce",
+          "challenge": "Derularea campaniilor promoționale și recuperarea coșurilor abandonate",
+          "solution": "Campanii SMS și WhatsApp automate cu oferte personalizate și recuperare coș"
+        },
+        "realEstate": {
+          "title": "Agenți imobiliari",
+          "challenge": "Urmărirea interogărilor despre proprietăți și programarea vizionărilor",
+          "solution": "AI răspunde instantaneu la întrebările despre proprietăți și programează vizionări"
+        },
+        "professionalServices": {
+          "title": "Servicii profesionale",
+          "challenge": "Convertirea solicitărilor de consultanță în programări rezervate",
+          "solution": "Proces inteligent de calificare care programează consultații cu membrul echipei potrivit"
+        },
+        "challengeLabel": "PROVOCARE:",
+        "solutionLabel": "SOLUȚIA SEASALT.AI:"
+      },
+      "metrics": {
+        "title": "Impactul performanței vânzărilor",
+        "description": "Vedeți impactul măsurabil asupra metricilor dvs. de vânzări și marketing",
+        "responseRate": "Creștere în rata de răspuns a lead-urilor",
+        "conversionRate": "Rate de conversie mai mari",
+        "availability": "Captură și calificare lead-uri",
+        "qualifiedLeads": "Mai multe lead-uri calificate pe lună"
+      },
+      "cta": {
+        "title": "Gata să vă supraîncărcați performanța vânzărilor?",
+        "description": "Alăturați-vă sutelor de echipe de vânzări care utilizează Seasalt.ai pentru a capta mai multe lead-uri, a răspunde mai rapid și a încheia mai multe afaceri cu automatizare AI.",
+        "primary": "Înregistrare",
+        "secondary": "Programați o demonstrație de vânzări",
+        "disclaimer": "Nu este necesar un card de credit • Vedeți rezultatele în 24 de ore • Anulați oricând"
+      }
+    },
+    "customerSupport": {
+      "seo": {
+        "title": "Soluții de suport clienți - Seasalt.ai",
+        "description": "Transformați-vă suportul clienților cu automatizare inteligentă care gestionează interogările de rutină instantaneu, împuternicind în același timp agenții umani să se concentreze pe interacțiuni complexe, de mare valoare."
+      },
+      "navigation": {
+        "backToHome": "Înapoi la Acasă"
+      },
+      "hero": {
+        "title": {
+          "deliver": "Oferiți",
+          "exceptionalSupport": "Suport excepțional",
+          "atScale": "la scară"
+        },
+        "subtitle": "Suport clienți alimentat de AI care nu doarme niciodată",
+        "description": "Transformați-vă suportul clienților cu automatizare inteligentă care gestionează interogările de rutină instantaneu, împuternicind în același timp agenții umani să se concentreze pe interacțiuni complexe, de mare valoare.",
+        "cta": {
+          "primary": "Îmbunătățiți suportul acum",
+          "secondary": "Vedeți demonstrația"
+        },
+        "dashboard": {
+          "title": "Tablou de bord suport",
+          "aiResolved": "🤖 AI a rezolvat 156 de tichete astăzi",
+          "resolutionTime": "Timp mediu de rezolvare: 23 de secunde",
+          "escalated": "👥 12 tichete escalate către oameni",
+          "complexIssues": "Probleme complexe care necesită expertiză",
+          "satisfaction": "😊 Satisfacția clienților: 96%",
+          "satisfactionUp": "În creștere cu 15% față de luna trecută",
+          "responseTime": "⏱️ Timp mediu de răspuns: 8 secunde",
+          "fasterThanAverage": "Cu 98% mai rapid decât media industriei"
+        }
+      },
+      "challenges": {
+        "title": "Provocări suport clienți",
+        "description": "Clienții moderni se așteaptă la suport instantaneu, personalizat. Modelele tradiționale de suport se luptă să îndeplinească aceste așteptări, controlând în același timp costurile.",
+        "responseTimePressure": {
+          "title": "Presiunea timpului de răspuns",
+          "description": "Clienții se așteaptă la răspunsuri instantanee, dar echipa dvs. nu poate fi disponibilă 24/7"
+        },
+        "scalingTeam": {
+          "title": "Scalarea echipei de suport",
+          "description": "Baza de clienți în creștere necesită mai mulți agenți, dar angajarea este costisitoare și lentă"
+        },
+        "repetitiveInquiries": {
+          "title": "Interogări repetitive",
+          "description": "Agenții petrec prea mult timp cu întrebări de rutină în loc de probleme complexe"
+        }
+      },
+      "solutions": {
+        "title": "Soluția dvs. de suport alimentată de AI",
+        "description": "Combinați eficiența automatizării AI cu empatia agenților umani pentru a oferi experiențe excepționale clienților la orice scară.",
+        "instantResponse": {
+          "title": "Sistem de răspuns instantaneu 24/7",
+          "description": "AI gestionează interogările clienților imediat, la orice oră din zi sau din noapte",
+          "benefit1": "Răspunsuri instantanee la întrebări comune",
+          "benefit2": "AI rezolvă 80% din interogările de rutină",
+          "benefit3": "Escaladare fără întreruperi către agenți umani",
+          "benefit4": "Calitate consistentă a serviciilor non-stop"
+        },
+        "agentProductivity": {
+          "title": "Productivitate inteligentă a agenților",
+          "description": "Împuterniciți-vă agenții umani cu asistență AI și context unificat al clienților",
+          "benefit1": "Istoric complet al clienților într-o singură vizualizare",
+          "benefit2": "AI sugerează răspunsuri și soluții",
+          "benefit3": "Rutare și prioritizare automată a tichetelor",
+          "benefit4": "Analiză sentiment în timp real și alerte"
+        },
+        "satisfactionOptimization": {
+          "title": "Optimizarea satisfacției clienților",
+          "description": "Oferiți experiențe excepționale care transformă clienții în susținători",
+          "benefit1": "Rezolvare proactivă a problemelor și follow-up",
+          "benefit2": "Suport personalizat bazat pe istoricul clienților",
+          "benefit3": "Consistență multi-canal pe toate punctele de contact",
+          "benefit4": "Îmbunătățire continuă prin învățare AI"
+        },
+        "keyBenefitsTitle": "Beneficii cheie:"
+      },
+      "useCases": {
+        "title": "Povești de succes ale echipelor de suport",
+        "description": "Vedeți cum echipele de suport clienți utilizează Seasalt.ai pentru a îmbunătăți eficiența și satisfacția",
+        "ecommerce": {
+          "title": "Suport E-commerce",
+          "scenario": "Gestionarea stării comenzilor, retururilor și întrebărilor despre produse la scară",
+          "solution": "AI oferă instantaneu actualizări de comenzi și procesează retururile, escaladând problemele complexe către oameni"
+        },
+        "saas": {
+          "title": "Succes clienți SaaS",
+          "scenario": "Suport pentru utilizatori cu întrebări tehnice și îndrumare funcționalități",
+          "solution": "AI oferă articole de ajutor și tutoriale instantanee, programează apeluri de suport tehnic atunci când este necesar"
+        },
+        "healthcare": {
+          "title": "Suport pacienți în sănătate",
+          "scenario": "Gestionarea programărilor și a interogărilor de bază despre sănătate",
+          "solution": "AI conform HIPAA gestionează programările și întrebările de bază, rutează problemele urgente către personal"
+        },
+        "financial": {
+          "title": "Servicii financiare",
+          "scenario": "Răspunsul la întrebările despre cont, menținând în același timp conformitatea securității",
+          "solution": "AI securizată verifică identitatea și oferă informații despre cont, escaladează problemele sensibile în mod corespunzător"
+        },
+        "challengeLabel": "PROVOCARE:",
+        "solutionLabel": "SOLUȚIA SEASALT.AI:"
+      },
+      "metrics": {
+        "title": "Impactul performanței suportului",
+        "description": "Îmbunătățiri măsurabile în eficiență, satisfacție și gestionarea costurilor",
+        "responseTimeReduction": "80%",
+        "responseTimeDescription": "Reducere a timpului de răspuns",
+        "satisfactionScore": "95%",
+        "satisfactionDescription": "Scor de satisfacție a clienților",
+        "costDecrease": "60%",
+        "costDescription": "Reducere a costurilor de suport",
+        "availability": "24/7",
+        "availabilityDescription": "Disponibilitate fără ore suplimentare"
+      },
+      "cta": {
+        "title": "Gata să vă transformați suportul clienților?",
+        "description": "Alăturați-vă sutelor de echipe de suport care utilizează Seasalt.ai pentru a oferi experiențe clienților mai rapide, mai eficiente și mai satisfăcătoare.",
+        "primary": "Înregistrare",
+        "secondary": "Programați o demonstrație de suport",
+        "disclaimer": "Nu este necesar un card de credit • Îmbunătățiți satisfacția în 24 de ore • Anulați oricând"
+      }
+    },
+    "aiAutomation": {
+      "seo": {
+        "title": "Soluții de automatizare AI - Seasalt.ai",
+        "description": "Transformați-vă operațiunile de afaceri cu AI care nu doar urmează reguli – înțelege contextul, ia decizii inteligente și se îmbunătățește continuu pentru a oferi rezultate excepționale."
+      },
+      "nav": {
+        "backToHome": "Înapoi la Acasă"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Dezlănțuiți puterea",
+          "highlight": "Automatizării AI"
+        },
+        "subtitle": "Automatizare inteligentă care gândește, învață și scalează",
+        "description": "Transformați-vă operațiunile de afaceri cu AI care nu doar urmează reguli – înțelege contextul, ia decizii inteligente și se îmbunătățește continuu pentru a oferi rezultate excepționale.",
+        "cta": {
+          "primary": "Începeți automatizarea",
+          "secondary": "Vedeți AI în acțiune"
+        },
+        "dashboard": {
+          "title": "Centrul de automatizare AI",
+          "stats": {
+            "tasks": "🧠 AI a procesat 342 de sarcini astăzi",
+            "tasksSaved": "Economisit 8,5 ore de muncă manuală",
+            "workflows": "⚡ 23 de fluxuri de lucru automate",
+            "workflowsDescription": "De la capturarea lead-urilor la integrarea clienților",
+            "accuracy": "📈 97% rată de precizie",
+            "accuracyDescription": "Îmbunătățire continuă prin ML",
+            "savings": "🎯 12.400 USD economii de costuri luna aceasta",
+            "savingsDescription": "Prin automatizare inteligentă"
+          }
+        }
+      },
+      "challenges": {
+        "title": "Provocări automatizare",
+        "description": "Automatizarea tradițională este rigidă și limitată. Afacerile moderne au nevoie de automatizare inteligentă care se adaptează, învață și scalează odată cu creșterea lor.",
+        "manualTasks": {
+          "title": "Sarcini repetitive manuale",
+          "description": "Echipa dvs. petrece prea mult timp cu sarcini de rutină care ar putea fi automatizate"
+        },
+        "scaling": {
+          "title": "Limitări de scalare",
+          "description": "Creșterea este limitată de capacitatea umană, mai degrabă decât de oportunitatea de piață"
+        },
+        "inconsistent": {
+          "title": "Experiențe inconsistente",
+          "description": "Experiența clienților variază în funcție de membrul echipei care gestionează interacțiunea"
+        }
+      },
+      "solutions": {
+        "title": "Automatizare AI inteligentă",
+        "description": "Mergeți dincolo de automatizarea simplă bazată pe reguli cu AI care înțelege contextul, ia decizii inteligente și îmbunătățește continuu performanța.",
+        "voiceChat": {
+          "title": "Automatizare inteligentă voce și chat",
+          "description": "Agenți AI care înțeleg contextul și oferă interacțiuni asemănătoare cu cele umane",
+          "benefits": {
+            "nlp": "Procesare limbaj natural pentru interogări complexe",
+            "channels": "Conversații vocale și text pe toate canalele",
+            "contextAware": "Răspunsuri conștiente de context bazate pe istoricul clienților",
+            "handoff": "Transfer fără întreruperi către oameni atunci când este necesar"
+          }
+        },
+        "workflow": {
+          "title": "Automatizare flux de lucru inteligent",
+          "description": "Automatizați procesele de afaceri complexe cu luarea deciziilor inteligentă",
+          "benefits": {
+            "leadQualification": "Calificare și rutare automată a lead-urilor",
+            "scheduling": "Programare și gestionare inteligentă a programărilor",
+            "pricing": "Prețuri dinamice și generare de propuneri",
+            "followUp": "Secvențe de follow-up și nutriție automate"
+          }
+        },
+        "learning": {
+          "title": "Învățare și optimizare continuă",
+          "description": "AI care devine mai inteligentă în timp, îmbunătățind automat performanța",
+          "benefits": {
+            "machineLearning": "Învățare automată din fiecare interacțiune cu clientul",
+            "optimization": "Optimizare automată a preciziei răspunsurilor",
+            "predictive": "Analiză predictivă pentru suport proactiv pentru clienți",
+            "monitoring": "Monitorizare și ajustare performanță în timp real"
+          }
+        },
+        "capabilities": "Capacități cheie:"
+      },
+      "automationTypes": {
+        "title": "Automatizare în întreaga dvs. afacere",
+        "description": "De la suport clienți la vânzări, marketing la operațiuni – automatizarea AI transformă fiecare aspect al afacerii dvs.",
+        "customerService": {
+          "title": "Automatizare suport clienți",
+          "description": "AI gestionează interogările de rutină, escaladează problemele complexe",
+          "examples": {
+            "orderStatus": "Actualizări stare comandă",
+            "faq": "Răspunsuri FAQ",
+            "troubleshooting": "Depanare de bază",
+            "account": "Informații cont"
+          }
+        },
+        "sales": {
+          "title": "Automatizare proces vânzări",
+          "description": "Automatizați calificarea lead-urilor, follow-up-urile și programarea",
+          "examples": {
+            "leadScoring": "Scor lead-uri",
+            "demoBooking": "Programare demonstrații",
+            "proposals": "Generare propuneri",
+            "followUp": "Secvențe de follow-up"
+          }
+        },
+        "marketing": {
+          "title": "Automatizare campanii marketing",
+          "description": "Campanii inteligente care se adaptează pe baza comportamentului clienților",
+          "examples": {
+            "personalized": "Mesagerie personalizată",
+            "timing": "Timpi optimi de trimitere",
+            "testing": "Testare A/B",
+            "optimization": "Optimizare performanță"
+          }
+        },
+        "operational": {
+          "title": "Automatizare operațională",
+          "description": "Eficientizați procesele și fluxurile de lucru interne",
+          "examples": {
+            "dataEntry": "Introducere date",
+            "reports": "Generare rapoarte",
+            "taskAssignment": "Atribuire sarcini",
+            "qualityMonitoring": "Monitorizare calitate"
+          }
+        },
+        "examples": "EXEMPLE:"
+      },
+      "metrics": {
+        "title": "Impactul performanței automatizării",
+        "description": "Îmbunătățiri măsurabile în eficiență, precizie și capacitate operațională",
+        "reduction": {
+          "value": "80%",
+          "label": "Reducere a sarcinilor manuale"
+        },
+        "availability": {
+          "value": "24/7",
+          "label": "Operațiuni automate"
+        },
+        "accuracy": {
+          "value": "95%",
+          "label": "Rată de precizie"
+        },
+        "speed": {
+          "value": "3x",
+          "label": "Procesare mai rapidă"
+        }
+      },
+      "security": {
+        "title": "AI securizată și conformă",
+        "description": "Securitate și conformitate la nivel de întreprindere integrate în fiecare automatizare AI",
+        "dataProtection": {
+          "title": "Protecția datelor",
+          "description": "Criptare end-to-end și gestionare securizată a datelor"
+        },
+        "compliance": {
+          "title": "Pregătit pentru conformitate",
+          "description": "Conformitate HIPAA, GDPR și specifică industriei"
+        },
+        "auditTrail": {
+          "title": "Jurnal de audit",
+          "description": "Înregistrare și monitorizare completă a tuturor acțiunilor AI"
+        }
+      },
+      "cta": {
+        "title": "Gata să vă automatizați afacerea cu AI?",
+        "description": "Alăturați-vă sutelor de afaceri care utilizează Seasalt.ai pentru a automatiza operațiunile, a reduce costurile și a scala eficient cu AI inteligentă.",
+        "primary": "Înregistrare",
+        "secondary": "Programați o demonstrație AI",
+        "disclaimer": "Nu este necesar un card de credit • Vedeți automatizarea în 24 de ore • Anulați oricând"
+      }
+    },
+    "smeOwners": {
+      "seo": {
+        "title": "Soluții pentru proprietarii de IMM-uri - Seasalt.ai",
+        "description": "Sunteți CEO, echipa de vânzări, departamentul de marketing și suportul clienților, toate într-unul. Seasalt.ai vă oferă un asistent AI care gestionează comunicațiile de rutină, astfel încât să vă puteți concentra pe creșterea afacerii dvs."
+      },
+      "navigation": {
+        "backToHome": "Înapoi la Acasă"
+      },
+      "hero": {
+        "title": {
+          "part1": "Nu mai jonglați.",
+          "part2": "Începeți să scalați."
+        },
+        "subtitle": "Hub-ul de comunicare alimentat de AI pentru proprietarii de IMM-uri care poartă mai multe pălării",
+        "description": "Sunteți CEO, echipa de vânzări, departamentul de marketing și suportul clienților, toate într-unul. Seasalt.ai vă oferă un asistent AI care gestionează comunicațiile de rutină, astfel încât să vă puteți concentra pe creșterea afacerii dvs.",
+        "cta": {
+          "getAssistant": "Obțineți asistentul dvs. AI",
+          "bookDemo": "Programați o demonstrație"
+        },
+        "dashboard": {
+          "title": "Tablou de bord proprietar IMM",
+          "aiHandledInquiries": "🤖 AI a gestionat 23 de interogări astăzi",
+          "timeSaved": "V-a economisit 3,5 ore",
+          "appointmentsBooked": "📅 5 programări rezervate automat",
+          "whileInMeetings": "În timp ce erați în întâlniri",
+          "leadsQualified": "💬 12 lead-uri calificate și prioritizate",
+          "readyForFollowup": "Gata pentru follow-up-ul dvs. personal",
+          "smsCampaign": "📱 Campanie SMS: 89% rată de deschidere",
+          "newCustomers": "3 clienți noi achiziționați"
+        }
+      },
+      "challenges": {
+        "title": "Dilema proprietarului de IMM",
+        "description": "Conducerea unei afaceri mici înseamnă să purtați mai multe pălării. Dar asta nu ar trebui să însemne să vă înecați în comunicațiile de rutină.",
+        "wearingMultipleHats": {
+          "title": "Purtarea mai multor pălării",
+          "description": "Gestionarea vânzărilor, marketingului și suportului simultan, încercând în același timp să vă creșteți afacerea"
+        },
+        "limitedTimeResources": {
+          "title": "Timp și resurse limitate",
+          "description": "Fiecare minut contează atunci când conduceți o afacere mică cu o echipă restrânsă"
+        },
+        "scalingChallenges": {
+          "title": "Provocări de scalare",
+          "description": "Cerințe crescânde ale clienților fără o creștere proporțională a dimensiunii echipei sau a bugetului"
+        }
+      },
+      "solutions": {
+        "title": "Soluția dvs. alimentată de AI",
+        "description": "Seasalt.ai acționează ca membrul dvs. virtual al echipei, gestionând sarcinile de rutină, astfel încât să vă puteți concentra pe ceea ce doar dvs. puteți face - creșterea afacerii dvs.",
+        "keyBenefits": "Beneficii cheie:",
+        "aiAutomation": {
+          "title": "Automatizare alimentată de AI",
+          "description": "Lăsați AI să gestioneze interogările de rutină, programarea programărilor și calificarea lead-urilor 24/7",
+          "benefits": {
+            "routineQuestions": "Automatizați 80% din întrebările de rutină ale clienților",
+            "bookAppointments": "Programați programări în timp ce dormiți",
+            "qualifyLeads": "Calificați lead-urile înainte de a ajunge la dvs.",
+            "instantResponses": "Oferiți răspunsuri instantanee pe toate canalele"
+          }
+        },
+        "unifiedView": {
+          "title": "Vizualizare unificată a clienților",
+          "description": "Vedeți fiecare interacțiune cu clientul într-un singur loc, indiferent dacă sună, trimit mesaje sau chat",
+          "benefits": {
+            "singleInbox": "Inbox unic pentru toate comunicațiile cu clienții",
+            "conversationHistory": "Istoric complet al conversațiilor pe toate canalele",
+            "neverLoseTrack": "Nu pierdeți niciodată contextul clientului",
+            "seamlessHandoffs": "Transferuri fără întreruperi între AI și om"
+          }
+        },
+        "smartMarketing": {
+          "title": "Campanii de marketing inteligente",
+          "description": "Derulați campanii țintite prin SMS, WhatsApp și e-mail cu asistență AI",
+          "benefits": {
+            "automatedFollowup": "Secvențe de follow-up automate",
+            "personalizedMessaging": "Mesagerie personalizată la scară",
+            "trackPerformance": "Urmăriți performanța campaniei în timp real",
+            "recoverCarts": "Recuperați automat coșurile abandonate"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Scenarii reale pentru proprietarii de IMM-uri",
+        "description": "Vedeți cum alți proprietari de afaceri ca dvs. utilizează Seasalt.ai pentru a-și scala operațiunile",
+        "challengeLabel": "PROVOCARE:",
+        "solutionLabel": "SOLUȚIA SEASALT.AI:",
+        "soloEntrepreneur": {
+          "title": "Antreprenorul solo",
+          "scenario": "Conducerea unei afaceri de consultanță, gestionând în același timp toate comunicațiile cu clienții",
+          "solution": "AI gestionează interogările inițiale și programează consultații, eliberându-vă să vă concentrați pe livrare"
+        },
+        "smallRetailer": {
+          "title": "Micul comerciant cu amănuntul",
+          "scenario": "Gestionarea comenzilor online, suport clienți și campanii de marketing",
+          "solution": "Actualizări automate de comenzi, răspunsuri instantanee de suport și campanii de marketing țintite"
+        },
+        "serviceProvider": {
+          "title": "Furnizorul de servicii",
+          "scenario": "Jonglarea cu programarea programărilor, întrebările clienților și follow-up-urile",
+          "solution": "AI programează programări, răspunde la întrebări frecvente și trimite memento-uri automate"
+        },
+        "growingStartup": {
+          "title": "Startup-ul în creștere",
+          "scenario": "Scalarea comunicațiilor cu clienții fără a angaja o echipă completă de suport",
+          "solution": "AI gestionează creșterea volumului, menținând în același timp atingerea personală cu transferuri inteligente"
+        }
+      },
+      "roi": {
+        "title": "ROI-ul proprietarului de IMM",
+        "description": "Vedeți impactul imediat asupra operațiunilor și creșterii afacerii dvs.",
+        "timeSaved": {
+          "metric": "Peste 5 ore",
+          "description": "Economisite pe săptămână la comunicațiile de rutină"
+        },
+        "responseRate": {
+          "metric": "40%",
+          "description": "Creștere în rata de răspuns a lead-urilor"
+        },
+        "availability": {
+          "metric": "24/7",
+          "description": "Serviciu clienți fără a angaja personal de noapte"
+        },
+        "conversationsHandled": {
+          "metric": "3x",
+          "description": "Mai multe conversații gestionate cu aceeași echipă"
+        }
+      },
+      "cta": {
+        "title": "Gata să nu mai jonglați și să începeți să scalați?",
+        "description": "Alăturați-vă miilor de proprietari de IMM-uri care și-au recuperat timpul și și-au scalat comunicațiile cu clienții cu automatizare AI.",
+        "startTrial": "Începeți proba gratuită",
+        "scheduleDemo": "Programați o demonstrație personală",
+        "disclaimer": "Nu este necesar un card de credit • Configurare în mai puțin de 10 minute • Anulați oricând"
+      }
+    },
+    "seahealth": {
+      "seo": {
+        "title": "SeaHealth - Comunicare alimentată de AI pentru sănătate",
+        "description": "Îmbunătățiți comunicarea cu pacienții și eficientizați operațiunile cu platforma SeaHealth alimentată de AI, conformă HIPAA. Unificați apelurile, mesajele text și mesageria într-un singur inbox securizat."
+      },
+      "hero": {
+        "title": "SeaHealth permite profesioniștilor din sănătate –",
+        "subtitle": "Transformați interacțiunile cu pacienții, cu:",
+        "features": {
+          "newPatients": "Achiziție pacienți noi",
+          "aiReceptionists": "Recepționeri AI vocali după orele de program",
+          "callAnalytics": "Analiză apeluri front office"
+        },
+        "cta": "Programați o demonstrație astăzi!",
+        "description": "Front office alimentat de AI pentru sănătate. Nu ratați niciodată un apel, o plângere sau o programare din nou."
+      },
+      "top4Reasons": {
+        "title": "Top 4 motive pentru care spitalele și clinicile aleg SeaHealth:",
+        "neverMissCall": "Nu ratați niciodată un apel",
+        "neverMissComplaint": "Nu ratați niciodată o plângere a clientului",
+        "bookAppointments": "Programați programări pentru pacienți noi după orele de program",
+        "provide247Hotline": "Oferiți linie telefonică 24/7 pentru pacienții potențiali și existenți"
+      },
+      "frontOfficeChallenges": {
+        "title": "Abordarea provocărilor front office",
+        "unmonitoredCalls": {
+          "title": "Apel telefonic front desk nesupravegheat",
+          "complaint": "Abordați plângerile clienților înainte de a escalada.",
+          "risks": "Atenuați riscurile de la erorile inițiale de triaj medical.",
+          "professionalism": "Îmbunătățiți profesionalismul cu un ton de vorbire îmbunătățit și conduita recepționerului."
+        },
+        "missedCalls": {
+          "title": "Apeluri primite ratate de la pacienți",
+          "voicemails": "Eliminați mesajele vocale după orele de program cu follow-up-uri active.",
+          "scheduling": "Simplificați programarea și reprogramarea programărilor.",
+          "retention": "Rețineți pacienții asigurându-vă că telefoanele dvs. sunt răspuns 24/7, împiedicându-i să caute concurenți."
+        },
+        "outboundCalls": {
+          "title": "Apeluri outbound pe care nimeni nu vrea să le facă",
+          "followUp": "Asigurați-vă o temeinicie în apelurile de follow-up ale procedurilor.",
+          "insurance": "Simplificați conversațiile lungi cu companiile de asigurări.",
+          "reactivation": "Reactivați pacienții inactivi cu promoții eficiente pentru a umple locurile libere."
+        }
+      },
+      "solutions": {
+        "title": "Soluții pentru fiecare cadru medical",
+        "hospitals": "Spitale și clinici",
+        "dental": "Clinici stomatologice",
+        "hospice": "Cămine de îngrijire paliativă",
+        "emergency": "Îngrijire de urgență",
+        "adult": "Cămine de familie pentru adulți",
+        "veterinary": "Spitale veterinare",
+        "cosmetic": "Chirurgie estetică"
+      },
+      "mainSolution": {
+        "title": "Soluția SeaHealth Front Office – Vă umple automat locurile de programare.",
+        "description": "Soluția noastră alimentată de AI eficientizează operațiunile dvs. de front office, permițând personalului dvs. să se concentreze pe ceea ce contează cel mai mult – îngrijirea pacienților."
+      },
+      "forProviders": {
+        "title": "Pentru furnizorii de servicii medicale",
+        "benefit1": "Reduceți povara administrativă",
+        "benefit2": "Îmbunătățiți satisfacția pacienților",
+        "benefit3": "Creșteți eficiența operațională"
+      },
+      "forPatients": {
+        "title": "Pentru pacienți",
+        "benefit1": "Acces 24/7 la suport",
+        "benefit2": "Programare rapidă a programărilor",
+        "benefit3": "Comunicare fără întreruperi"
+      },
+      "whyChoose": {
+        "title": "De ce să alegeți SeaHealth?",
+        "reason1": {
+          "title": "Conformitate HIPAA",
+          "description": "Prioritizăm confidențialitatea și securitatea datelor pacienților."
+        },
+        "reason2": {
+          "title": "Tehnologii de vorbire naturale și contextuale",
+          "description": "Angajați pacienții cu comunicare asemănătoare cu cea umană."
+        },
+        "reason3": {
+          "title": "Automatizare făcută corect",
+          "description": "Întotdeauna grijă pentru pacienți și proprii angajați."
+        }
+      },
+      "faqs": {
+        "title": "Întrebări frecvente",
+        "faq1": {
+          "question": "Cum funcționează analiza apelurilor de la recepție?",
+          "answer": "Înregistrăm apelurile dvs. primite și efectuate, apoi le transcriem pentru analize ulterioare. E-mailurile de rezumat și alertă sunt trimise zilnic."
+        },
+        "faq2": {
+          "question": "Necesită înregistrarea apelurilor telefonice și cum?",
+          "answer": "Conectăm furnizorul dvs. VoIP pentru a obține înregistrările apelurilor și facem analiza vorbirii pe înregistrări. Dacă utilizați telefoane analogice, folosim un dispozitiv de înregistrare telefonică care vă conectează apelul cu prizele telefonice pentru a obține înregistrările."
+        },
+        "faq3": {
+          "question": "Cum funcționează acoperirea apelurilor telefonice 24/7?",
+          "answer": "Recepționerii alimentați de AI gestionează apelurile non-stop, asigurând că nu se ratează nicio oportunitate. Puteți fie să preluați apelul când sună, fie să transferați apelul către recepționerii AI în timpul sau după orele de program."
+        },
+        "faq4": {
+          "question": "De ce ar trebui să utilizați serviciul nostru?",
+          "answer": "SeaHealth îmbunătățește eficiența, sporește satisfacția pacienților și crește veniturile prin automatizare și soluții alimentate de AI. Este mai ieftin, mai fiabil și mai empatic decât externalizarea muncii de recepționer de la recepție."
+        }
+      },
+      "partners": {
+        "title": "Parteneri și integrări"
+      },
+      "cta": {
+        "title": "Gata să transformați interacțiunile cu pacienții?",
+        "button": "Programați o demonstrație astăzi!"
+      }
+    }
+  },
+  "pricing": {
+    "seo": {
+      "title": "Prețuri - Seasalt.ai",
+      "description": "Prețuri simple, transparente care cresc odată cu dvs. Fără taxe ascunse. Fără add-on-uri complexe. Doar o platformă puternică pentru toate conversațiile dvs."
+    },
+    "hero": {
+      "title": "Alegeți planul care se potrivește nevoilor dvs.",
+      "description": "Fără taxe ascunse. Fără add-on-uri complexe. Doar o platformă puternică pentru toate conversațiile dvs.",
+      "subtitle": "De la startup-uri la enterprise - prețuri transparente, fără taxe ascunse. Începeți gratuit și scalați pe măsură ce creșteți."
+    },
+    "audienceSection": {
+      "title": "Alegeți-vă calea de creștere",
+      "description": "De la startup-uri la enterprise, avem soluția potrivită pentru fiecare etapă a călătoriei dvs.",
+      "startups": {
+        "title": "Pentru startup-uri și IMM-uri",
+        "subtitle": "Începeți mic, scalați inteligent",
+        "seachatFree": {
+          "title": "🚀 Începeți gratuit cu SeaChat",
+          "description": "0 USD pentru totdeauna - 1 agent uman, chat-uri nelimitate"
+        },
+        "seavoice": {
+          "title": "📞 Scalați cu SeaVoice",
+          "description": "29,99 USD/lună - Adăugați AI vocală pentru apeluri primite"
+        },
+        "seax": {
+          "title": "🌟 Creșteți cu SeaX",
+          "description": "99 USD/lună - Platformă omnichannel completă"
+        },
+        "footer": "Perfect pentru afaceri cu 1-50 de angajați"
+      },
+      "enterprise": {
+        "title": "Pentru întreprinderi medii și mari",
+        "subtitle": "Soluții la nivel de întreprindere",
+        "seachatPremium": {
+          "title": "🤖 SeaChat Premium",
+          "description": "29,99 USD/lună + utilizare - AI text la nivel de întreprindere"
+        },
+        "seaxProfessional": {
+          "title": "🏢 SeaX Professional",
+          "description": "99 USD/lună - Platformă unificată cu AI și omnichannel"
+        },
+        "customEnterprise": {
+          "title": "⚡ Custom Enterprise",
+          "description": "Contactați-ne - White-label, HIPAA, integrări personalizate"
+        },
+        "footer": "Perfect pentru afaceri cu peste 50 de angajați"
+      }
+    },
+    "plans": {
+      "title": "Alegeți-vă planul",
+      "description": "Începeți gratuit și scalați pe măsură ce creșteți cu opțiunile noastre flexibile de prețuri",
+      "liveAgent": {
+        "name": "Agent live",
+        "price": "0 USD",
+        "period": "GRATUIT PENTRU TOTDEAUNA",
+        "tagline": "👤 DOAR UMAN",
+        "highlight": "🌟 TOATE CANALELE + DOAR AGENȚI UMANI",
+        "channels": "WhatsApp • Messenger • Line • Instagram • Chat web",
+        "feature1": "1 agent uman inclus",
+        "feature2": "Conversații umane nelimitate",
+        "feature3": "100 de răspunsuri AI pe viață pentru a încerca funcționalitățile",
+        "feature4": "Integrări Shopify de bază",
+        "cta": "🚀 ÎNCEPEȚI GRATUIT ACUM",
+        "poweredBy": "Alimentat de SeaChat"
+      },
+      "whatsappOnly": {
+        "name": "Doar WhatsApp",
+        "price": "19,99 USD",
+        "period": "PER UTILIZATOR/LUNĂ",
+        "tagline": "💬 DOAR MESAGERIE",
+        "highlight": "📲 SPECIALIST WHATSAPP BUSINESS",
+        "channels": "Campanii • API • Chat bidirecțional",
+        "feature1": "Platforma WhatsApp Business",
+        "feature2": "Instrumente de gestionare a campaniilor",
+        "feature3": "Acces API WhatsApp",
+        "feature4": "Contacte și șabloane nelimitate",
+        "cta": "📱 ÎNCEPEȚI WHATSAPP",
+        "poweredBy": "Alimentat de SeaX"
+      },
+      "omnichannel": {
+        "name": "Omnichannel",
+        "firstUserPrice": "99 USD",
+        "firstUserLabel": "PRIMUL UTILIZATOR",
+        "additionalUserPrice": "49 USD",
+        "additionalUserLabel": "FIECARE SUPLIMENTAR",
+        "period": "PE LUNĂ",
+        "tagline": "🌐 O INTERFAȚĂ, TOATE CANALELE",
+        "popular": "🏆 CEL MAI POPULAR",
+        "highlight": "🎯 CENTRU DE CONTACT COMPLET",
+        "subHighlight": "Efectuați și primiți APELURI TELEFONICE!",
+        "feature1": "AGENȚII EFECTUEAZĂ ȘI PRIMESC APELURI",
+        "feature2": "SMS + VOCE + WHATSAPP",
+        "feature3": "Campanii vocale și SMS",
+        "feature4": "API RESTful + integrare SeaChat",
+        "cta": "🚀 ÎNCEPEȚI CENTRUL COMPLET",
+        "poweredBy": "Alimentat de SeaX"
+      },
+      "custom": {
+        "name": "Personalizat",
+        "price": "Să construim un proiect",
+        "period": "Negociați-vă propriul preț",
+        "feature1": "Spații de lucru multiple",
+        "feature2": "Perfect pentru agenții",
+        "feature3": "Integrări API personalizate",
+        "feature4": "Conformitate HIPAA",
+        "feature5": "Opțiuni white-label",
+        "cta": "Contactați-ne"
+      },
+      "popularBadge": "Cel mai popular",
+      "ctaStyles": {
+        "primary": "Înregistrați-vă acum"
+      }
+    },
+    "aiAddons": {
+      "title": "⭐ Add-on-uri AI",
+      "description": "Îmbunătățiți orice plan cu capacități AI",
+      "chatAI": {
+        "title": "Chat AI cu SeaChat",
+        "price": "29,99 USD",
+        "period": "pe lună"
+      },
+      "voiceAI": {
+        "title": "Voice AI cu SeaVoice",
+        "price": "29,99 USD",
+        "period": "pe lună"
+      },
+      "combo": {
+        "title": "Ambele funcționalități AI",
+        "price": "29,99 USD",
+        "period": "pe lună în total",
+        "benefit": "🎉 Obțineți atât Chat AI, cât și Voice AI pentru doar 29,99 USD/lună combinate!"
+      }
+    },
+    "transparentAI": {
+      "title": "Prețuri AI transparente",
+      "description": "Plătiți doar pentru ceea ce utilizați cu prețurile noastre AI clare, bazate pe utilizare",
+      "chatAI": {
+        "title": "Chat AI",
+        "price": "0,006 USD",
+        "period": "per răspuns (ChatGPT-4o mini)",
+        "feature1": "• WhatsApp, Messenger, Chat web",
+        "feature2": "• Răspunsuri automate 24/7",
+        "feature3": "• Integrare bază de cunoștințe"
+      },
+      "voiceAI": {
+        "title": "Voice AI",
+        "price": "0,12 USD",
+        "period": "per minut (ChatGPT-4o mini)",
+        "feature1": "• Apeluri primite și efectuate",
+        "feature2": "• Conversații vocale naturale",
+        "feature3": "• Înregistrare și rezumate apeluri"
+      },
+      "premiumAI": {
+        "title": "AI Premium",
+        "price": "0,80 USD",
+        "period": "per minut (ChatGPT-4o)",
+        "feature1": "• Raționament avansat",
+        "feature2": "• Conversații complexe",
+        "feature3": "• Funcționalități enterprise personalizate"
+      }
+    },
+    "transparentCommunication": {
+      "title": "Prețuri transparente pentru comunicare",
+      "description": "Prețuri clare, anticipate pentru toate nevoile dvs. de comunicare",
+      "sms": {
+        "title": "SMS",
+        "price": "0,02 USD",
+        "period": "per mesaj (SUA/CA)",
+        "description": "Mesagerie text fiabilă cu rate transparente per mesaj"
+      },
+      "voiceCalls": {
+        "title": "Apeluri vocale",
+        "price": "0,015 USD",
+        "period": "per minut (SUA/CA)",
+        "description": "Apeluri vocale clare în peste 100 de țări"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "price": "0,00 USD",
+        "period": "per mesaj la nivel mondial",
+        "description": "Plătiți direct Meta. Fără adaos de la Seasalt.ai"
+      },
+      "otherChannels": "📱 Alte canale precum Instagram, Facebook Messenger și Webchat nu au adaos sau sunt complet gratuite."
+    },
+    "comparison": {
+      "title": "Peisajul comunicațiilor globale: Cum ne comparăm",
+      "description": "Vedeți cum Seasalt.ai se compară cu alte soluții de pe piață. Suntem singura platformă care oferă funcționalități enterprise cu simplitatea de care au nevoie întreprinderile mici.",
+      "table": {
+        "competitor": "Concurent",
+        "startingPrice": "Preț de pornire",
+        "pricingModel": "Model de prețuri",
+        "unifiedVoiceDigital": "Voce și digital unificate",
+        "aiCapabilities": "Capacități AI",
+        "bestFor": "Cel mai bun pentru"
+      },
+      "seasalt": {
+        "name": "Seasalt.ai",
+        "startingPrice": "20 USD/agent/lună",
+        "pricingModel": "Prețuri simple per utilizator",
+        "unifiedVoiceDigital": "✅ Da, nativ",
+        "aiCapabilities": "✅ Da, voce și chatbot nativ",
+        "bestFor": "IMM-uri care au nevoie de o platformă cu adevărat all-in-one și accesibilă.",
+        "recommended": "Recomandat"
+      },
+      "aircall": {
+        "name": "Aircall",
+        "startingPrice": "30 USD/utilizator/lună",
+        "pricingModel": "Per utilizator + add-on-uri",
+        "unifiedVoiceDigital": "⚠️ Voce + WhatsApp (add-on)",
+        "aiCapabilities": "⚠️ AI este un add-on plătit",
+        "bestFor": "Echipe de vânzări care își pot permite mai multe add-on-uri și îndeplinesc minimul de 3 utilizatori."
+      },
+      "ringcentral": {
+        "name": "RingCentral",
+        "startingPrice": "65 USD/agent/lună",
+        "pricingModel": "Niveluri complexe",
+        "unifiedVoiceDigital": "❌ Produse separate",
+        "aiCapabilities": "✅ Da (CCaaS alimentat de AI)",
+        "bestFor": "Companii mari care au nevoie de o platformă UCaaS extinsă cu CCaaS separat."
+      },
+      "genesys": {
+        "name": "Genesys Cloud CX",
+        "startingPrice": "75 USD/utilizator/lună",
+        "pricingModel": "Per utilizator + minime ridicate",
+        "unifiedVoiceDigital": "✅ Da (în nivelurile superioare)",
+        "aiCapabilities": "✅ Da (sistem complex de token-uri)",
+        "bestFor": "Întreprinderi mari cu echipe și bugete dedicate pentru centre de contact."
+      },
+      "five9": {
+        "name": "Five9",
+        "startingPrice": "119 USD/utilizator/lună",
+        "pricingModel": "Per utilizator + pachete",
+        "unifiedVoiceDigital": "✅ Da (în nivelurile premium)",
+        "aiCapabilities": "✅ Da (AI avansată)",
+        "bestFor": "Centre de contact mari, axate pe outbound, care au nevoie de instrumente la nivel de întreprindere."
+      },
+      "googleVoice": {
+        "name": "Google Voice",
+        "startingPrice": "10 USD/utilizator/lună",
+        "pricingModel": "Per utilizator + taxă Workspace",
+        "unifiedVoiceDigital": "❌ Nu",
+        "aiCapabilities": "❌ Nu (doar transcriere mesagerie vocală)",
+        "bestFor": "Antreprenori individuali (doar SUA) care au nevoie de un număr de telefon de bază, separat."
+      },
+      "respondIo": {
+        "name": "respond.io",
+        "startingPrice": "79 USD/lună",
+        "pricingModel": "Contacte active lunare",
+        "unifiedVoiceDigital": "⚠️ Digital-first (Voce este Beta)",
+        "aiCapabilities": "✅ Da (Agent AI la nivelurile superioare)",
+        "bestFor": "Echipe de marketing/vânzări axate pe canale de mesagerie precum WhatsApp."
+      },
+      "intercom": {
+        "name": "Intercom",
+        "startingPrice": "39 USD/loc/lună",
+        "pricingModel": "Per loc + add-on-uri + utilizare",
+        "unifiedVoiceDigital": "⚠️ Digital-first (Voce este pay-as-you-go)",
+        "aiCapabilities": "✅ Da (Agent AI Fin este per rezoluție)",
+        "bestFor": "Afaceri axate pe angajamentul proactiv pe site-ul web și suport."
+      }
+    },
+    "faq": {
+      "1": {
+        "question": "Planul gratuit este cu adevărat gratuit pentru totdeauna?",
+        "answer": "Da! Planul nostru Live Agent include 1 agent uman pe viață cu conversații nelimitate, istoric chat și contacte. În plus, primiți 100 de răspunsuri AI pe viață pentru a încerca funcționalitățile noastre AI. Nu este necesar un card de credit, fără taxe ascunse."
+      },
+      "2": {
+        "question": "Cum funcționează prețurile AI pe SeaChat, SeaX și SeaVoice?",
+        "answer": "Toate apelurile AI vocale pe SeaChat, SeaX și SeaVoice utilizează aceeași rată de 0,12 USD per minut cu modelul ChatGPT-4o mini. Răspunsurile AI chat încep de la 0,006 USD fiecare. Modelele de nivel superior precum ChatGPT-4o costă 0,80 USD per minut și sunt disponibile pe planurile premium."
+      },
+      "3": {
+        "question": "Pot face upgrade sau downgrade la planul meu oricând?",
+        "answer": "Absolut! Vă puteți schimba planul oricând. Upgrade-urile intră în vigoare imediat, iar downgrade-urile intră în vigoare la sfârșitul ciclului dvs. de facturare curent. Vom prorata orice ajustări de facturare."
+      },
+      "4": {
+        "question": "Care este diferența dintre planurile WhatsApp Only și Omnichannel?",
+        "answer": "WhatsApp Only (19,99 USD/lună) se concentrează pe mesageria WhatsApp cu contacte și șabloane nelimitate. Omnichannel (99 USD/lună pentru primul utilizator, 49 USD pentru suplimentar) include SMS, apeluri vocale, campanii, acces API și integrare SeaChat pentru o experiență completă de centru de contact."
+      },
+      "5": {
+        "question": "Există taxe ascunse sau costuri de configurare?",
+        "answer": "Fără taxe ascunse vreodată! Numerele de telefon costă 2-3 USD/lună cu adresă E911. SMS-ul costă 0,02 USD/mesaj, apelurile vocale 0,015 USD/minut (SUA/CA). Mesajele WhatsApp sunt gratuite la nivel mondial - plătiți direct Meta, fără adaos de la noi."
+      },
+      "6": {
+        "question": "Ce se întâmplă cu datele mele dacă anulez?",
+        "answer": "Vă aparțin datele. Puteți exporta tot istoricul chat-ului, contactele și conținutul bazei de cunoștințe oricând, chiar și pe planul gratuit. Credem în libertatea și transparența datelor."
+      },
+      "7": {
+        "question": "Oferiți reduceri de volum pentru întreprinderile mari?",
+        "answer": "Da! Planul nostru Custom Enterprise oferă prețuri negociate pe baza volumului și a modelelor dvs. specifice de utilizare. Contactați echipa noastră de vânzări pentru prețuri personalizate, spații de lucru multiple, conformitate HIPAA și soluții white-label."
+      },
+      "title": "Întrebări frecvente"
+    },
+    "cta": {
+      "title": "Gata să vă transformați",
+      "titleGradient": "Comunicațiile cu clienții?",
+      "description": "Alăturați-vă miilor de afaceri care utilizează Seasalt.ai pentru a oferi experiențe excepționale clienților",
+      "stats": {
+        "customers": "Peste 10.000",
+        "customersLabel": "Clienți fericiți",
+        "uptime": "99,9%",
+        "uptimeLabel": "SLA timp de funcționare",
+        "support": "24/7",
+        "supportLabel": "Suport"
+      },
+      "primary": "🚀 ÎNREGISTRAȚI-VĂ ACUM",
+      "secondary": "📞 Vorbiți cu vânzările",
+      "trustBadge1": "Nu este necesară codificarea",
+      "trustBadge2": "Configurare în mai puțin de 5 minute",
+      "trustBadge3": "Anulați oricând",
+      "trustBadge4": "Plan gratuit disponibil",
+      "urgency": "⚡ Timp limitat: Obțineți 2 luni gratuite la planurile anuale + suport prioritar la integrare!"
+    },
+    "billingToggle": {
+      "monthly": "Facturat lunar",
+      "annually": "Facturat anual",
+      "save20": "Economisiți 20%"
+    },
+    "legacy": {
+      "liveAgent": {
+        "name": "Agent live",
+        "price": "0 USD",
+        "period": "pentru totdeauna",
+        "tagline": "Cu adevărat gratuit, pentru totdeauna. Perfect pentru a începe.",
+        "description": "Perfect pentru a începe. Unificați-vă inbox-ul cu 1 agent uman.",
+        "features": {
+          "0": "1 agent uman",
+          "1": "Chat-uri nelimitate cu agent uman",
+          "2": "WhatsApp/Messenger/LINE/Webchat",
+          "3": "Integrări de bază (Shopify, etc.)",
+          "4": "Suport prin e-mail"
+        },
+        "cta": "Înregistrare"
+      },
+      "professional": {
+        "name": "Profesional",
+        "priceAnnual": "40 USD",
+        "priceMonthly": "50 USD",
+        "period": "pe lună",
+        "additionalPriceAnnual": "+ 20 USD/lună pentru fiecare agent suplimentar",
+        "additionalPriceMonthly": "+ 25 USD/lună pentru fiecare agent suplimentar",
+        "tagline": "Soluția completă, unificată pentru afacerile în creștere.",
+        "description": "Tot ce aveți nevoie pentru a automatiza și scala comunicațiile cu clienții.",
+        "features": {
+          "0": "Totul în Live Agent",
+          "1": "Automatizare AI (Voicebot și Chatbot)",
+          "2": "Toate canalele de comunicare (inclusiv apeluri telefonice)",
+          "3": "Campanii de marketing outbound",
+          "4": "Integrări CRM (HubSpot, Salesforce)",
+          "5": "Analiză și raportare avansată",
+          "6": "Suport prioritar",
+          "7": "Conformitate HIPAA disponibilă"
+        },
+        "cta": "Începeți"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Să vorbim",
+        "period": "",
+        "tagline": "Pentru echipe cu nevoi personalizate.",
+        "description": "Pentru echipe mai mari cu nevoi specifice, cum ar fi conformitate avansată sau integrări personalizate.",
+        "features": {
+          "0": "Totul în Professional",
+          "1": "Conformitate HIPAA",
+          "2": "Integrări personalizate",
+          "3": "Manager de cont dedicat",
+          "4": "Antrenament AI personalizat",
+          "5": "Opțiuni white-label",
+          "6": "Garanții SLA",
+          "7": "Opțiuni de implementare on-premise"
+        },
+        "cta": "Contactați vânzările"
+      }
+    },
+    "billing": {
+      "monthly": "Lunar",
+      "yearly": "Anual",
+      "save": "Economisiți 2 luni"
+    }
+  }
+}

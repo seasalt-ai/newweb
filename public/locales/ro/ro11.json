@@ -1,0 +1,744 @@
+{
+  "seavoice": {
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "Programare și gestionare programări",
+            "description": "Automatizați programarea programărilor cu AI care înțelege disponibilitatea, preferințele și regulile de afaceri. Reduceți absențele și eficientizați procesul de rezervare cu interacțiuni vocale inteligente.",
+            "cta": "Automatizați programarea programărilor"
+          },
+          "features": {
+            "title": "Gestionare inteligentă a programărilor",
+            "subtitle": "Sistem complet de rezervare care gestionează scenarii complexe de programare",
+            "intelligentScheduling": {
+              "title": "Programare inteligentă",
+              "description": "Programare programări alimentată de AI care înțelege disponibilitatea și preferințele.",
+              "benefit1": "Disponibilitate în timp real",
+              "benefit2": "Rezolvare inteligentă a conflictelor",
+              "benefit3": "Potrivire preferințe"
+            },
+            "automatedReminders": {
+              "title": "Memento-uri automate",
+              "description": "Reduceți absențele cu memento-uri și confirmări automate de programare.",
+              "benefit1": "Memento-uri SMS și vocale",
+              "benefit2": "Sincronizare personalizabilă",
+              "benefit3": "Urmărire confirmări"
+            },
+            "multiProviderSupport": {
+              "title": "Suport multi-furnizor",
+              "description": "Gestionați programările pe mai mulți furnizori, locații și servicii.",
+              "benefit1": "Disponibilitate furnizor",
+              "benefit2": "Gestionare locație",
+              "benefit3": "Categorizare servicii"
+            }
+          },
+          "capabilities": {
+            "title": "Soluție completă de rezervare",
+            "subtitle": "Gestionați automat fiecare aspect al gestionării programărilor",
+            "appointmentScheduling": {
+              "capability": "Programare programări",
+              "description": "Rezervați programări noi pe baza disponibilității și preferințelor",
+              "feature1": "Sloturi de timp disponibile",
+              "feature2": "Selecție furnizor",
+              "feature3": "Potrivire tip serviciu"
+            },
+            "rescheduling": {
+              "capability": "Reprogramare",
+              "description": "Modificați programările existente cu rezolvare automată a conflictelor",
+              "feature1": "Detectare conflicte",
+              "feature2": "Sugestii alternative",
+              "feature3": "Actualizări automate"
+            },
+            "cancellationManagement": {
+              "capability": "Gestionare anulări",
+              "description": "Gestionați eficient anulările și gestionarea listei de așteptare",
+              "feature1": "Politici de anulare",
+              "feature2": "Automatizare listă de așteptare",
+              "feature3": "Procesare rambursări"
+            },
+            "reminderSystem": {
+              "capability": "Sistem de memento-uri",
+              "description": "Memento-uri automate pentru a reduce absențele și a îmbunătăți prezența",
+              "feature1": "Memento-uri multi-canal",
+              "feature2": "Sincronizare personalizabilă",
+              "feature3": "Solicitări de confirmare"
+            }
+          },
+          "industries": {
+            "title": "Aplicații industriale",
+            "subtitle": "Soluții de rezervare personalizate pentru diferite industrii și cazuri de utilizare",
+            "healthcare": {
+              "industry": "Sănătate",
+              "description": "Programări medicale, consultații și proceduri",
+              "benefit1": "Programare pacienți",
+              "benefit2": "Coordonare furnizori",
+              "benefit3": "Verificare asigurare"
+            },
+            "beautyWellness": {
+              "industry": "Frumusețe și wellness",
+              "description": "Programări la salon, servicii spa și sesiuni de wellness",
+              "benefit1": "Urmărire durată serviciu",
+              "benefit2": "Preferințe stilist",
+              "benefit3": "Rezervări pachete"
+            },
+            "professionalServices": {
+              "industry": "Servicii profesionale",
+              "description": "Consultații, întâlniri și programări de servicii",
+              "benefit1": "Rezervare sală de ședințe",
+              "benefit2": "Disponibilitate consultant",
+              "benefit3": "Preferințe client"
+            }
+          },
+          "reminderSection": {
+            "title": "Sistem automat de memento-uri",
+            "description": "Reduceți semnificativ absențele cu campanii inteligente de memento-uri care ajung la clienți prin canalele lor de comunicare preferate la ore optime.",
+            "multiChannelReminders": {
+              "title": "Memento-uri multi-canal",
+              "description": "Apeluri vocale, SMS și memento-uri prin e-mail"
+            },
+            "optimalTiming": {
+              "title": "Sincronizare optimă",
+              "description": "AI determină cele mai bune momente pentru a trimite memento-uri"
+            },
+            "performanceTracking": {
+              "title": "Urmărire performanță",
+              "description": "Monitorizați eficacitatea memento-urilor și optimizați"
+            },
+            "reminderTimeline": {
+              "title": "Cronologie memento"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "Confirmare inițială",
+                "description": "Confirmare programare și detalii"
+              },
+              "dayBefore": {
+                "title": "Memento cu o zi înainte",
+                "description": "Memento final cu instrucțiuni de pregătire"
+              },
+              "lastMinute": {
+                "title": "Verificare de ultim moment",
+                "description": "Confirmare finală și indicații"
+              },
+              "sevenDays": "7zile",
+              "oneDay": "1zi",
+              "twoHours": "2ore"
+            }
+          },
+          "benefits": {
+            "title": "Rezultate performanță rezervări",
+            "subtitle": "Îmbunătățiri măsurabile în eficiența gestionării programărilor",
+            "noShowReduction": {
+              "metric": "40%",
+              "description": "Reducerea ratelor de absență"
+            },
+            "availabilityWindow": {
+              "metric": "24/7",
+              "description": "Disponibilitate rezervări"
+            },
+            "bookingAccuracy": {
+              "metric": "85%",
+              "description": "Rată de precizie a rezervărilor"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "Reducerea volumului de muncă administrativ"
+            }
+          },
+          "cta": {
+            "title": "Gata să automatizați programarea programărilor?",
+            "description": "Eficientizați programarea și reduceți absențele cu gestionarea inteligentă a programărilor",
+            "startFreeTrial": "Începeți proba gratuită",
+            "scheduleDemo": "Programați o demonstrație"
+          }
+        },
+        "mentalHealth": {
+          "hero": {
+            "title": "Companion vocal pentru sănătate mintală",
+            "description": "Oferiți suport compasional 24/7 pentru sănătate mintală cu AI care ascultă, înțelege și răspunde cu empatie. Conectați în siguranță decalajul dintre criză și îngrijirea profesională.",
+            "cta": "Aflați despre AI pentru sănătate mintală"
+          },
+          "features": {
+            "title": "Suport AI compasional",
+            "description": "AI avansată antrenată în suport pentru sănătate mintală și intervenție în criză",
+            "empathetic": {
+              "title": "Companion AI empatic",
+              "description": "Antrenat să ofere suport compasional, fără judecată, cu răspunsuri emoționale adecvate.",
+              "benefits": {
+                "activeListening": "Ascultare activă",
+                "emotionalValidation": "Validare emoțională",
+                "crisisRecognition": "Recunoaștere criză"
+              }
+            },
+            "safe": {
+              "title": "Sigur și confidențial",
+              "description": "Platformă conformă HIPAA care asigură confidențialitate și confidențialitate completă pentru toate interacțiunile.",
+              "benefits": {
+                "hipaaCompliance": "Conformitate HIPAA",
+                "encryptedConversations": "Conversații criptate",
+                "anonymousOptions": "Opțiuni anonime"
+              }
+            },
+            "availability": {
+              "title": "Disponibilitate 24/7",
+              "description": "Întotdeauna disponibil când cineva are nevoie să vorbească, oferind suport imediat în momente de criză.",
+              "benefits": {
+                "roundTheClockAccess": "Acces non-stop",
+                "immediateResponse": "Răspuns imediat",
+                "noWaitTimes": "Fără timpi de așteptare"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "Capacități de suport pentru sănătate mintală",
+            "description": "Suport complet pe întregul spectru de îngrijire a sănătății mintale",
+            "screening": {
+              "title": "Screening inițial pentru sănătate mintală",
+              "description": "Efectuați evaluări preliminare utilizând instrumente de screening validate",
+              "outcomes": {
+                "earlyIdentification": "Identificare timpurie",
+                "riskAssessment": "Evaluare risc",
+                "appropriateReferrals": "Trimiteri adecvate"
+              }
+            },
+            "crisis": {
+              "title": "Intervenție în criză",
+              "description": "Recunoașteți situațiile de criză și oferiți suport sau escaladare imediată",
+              "outcomes": {
+                "crisisDetection": "Detectare criză",
+                "deEscalationTechniques": "Tehnici de de-escaladare",
+                "emergencyProtocols": "Protocoale de urgență"
+              }
+            },
+            "navigation": {
+              "title": "Navigare resurse",
+              "description": "Ghidarea utilizatorilor către resurse și servicii adecvate de sănătate mintală",
+              "outcomes": {
+                "serviceMatching": "Potrivire servicii",
+                "appointmentScheduling": "Programare programări",
+                "followUpSupport": "Suport follow-up"
+              }
+            },
+            "emotional": {
+              "title": "Suport emoțional",
+              "description": "Oferiți ascultare compasională și validare emoțională",
+              "outcomes": {
+                "reducedIsolation": "Izolare redusă",
+                "emotionalRelief": "Ameliorare emoțională",
+                "copingStrategies": "Strategii de coping"
+              }
+            }
+          },
+          "safety": {
+            "title": "Design axat pe siguranță",
+            "description": "AI-ul nostru pentru sănătate mintală este conceput cu siguranța ca prioritate principală, prezentând detectare avansată a crizelor și protocoale imediate de escaladare pentru a asigura că utilizatorii primesc îngrijiri profesionale adecvate atunci când este necesar.",
+            "features": {
+              "title": "Funcționalități de siguranță"
+            },
+            "crisisDetection": {
+              "title": "Detectare criză",
+              "description": "Algoritmi avansați identifică situațiile de criză"
+            },
+            "professionalHandoff": {
+              "title": "Transfer profesional",
+              "description": "Transfer fără întreruperi către profesioniști umani din sănătate mintală"
+            },
+            "emergencyProtocols": {
+              "title": "Protocoale de urgență",
+              "description": "Conectare imediată la liniile de urgență atunci când este necesar"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "Detectare cuvinte cheie de criză",
+            "suicideRiskAssessment": "Evaluare risc suicid",
+            "automaticEscalationProtocols": "Protocoale automate de escaladare",
+            "emergencyContactIntegration": "Integrare contact de urgență",
+            "professionalHandoffProcedures": "Proceduri de transfer profesional",
+            "followUpScheduling": "Programare follow-up"
+          },
+          "benefits": {
+            "title": "Impact sănătate mintală",
+            "description": "Îmbunătățiri măsurabile în accesibilitatea suportului pentru sănătate mintală",
+            "alwaysAvailableSupport": "Suport întotdeauna disponibil",
+            "crisisEscalationReduction": "Reducerea escaladării crizelor",
+            "userSatisfactionRate": "Rată de satisfacție a utilizatorilor",
+            "helpSeekingBehaviorIncrease": "Creștere în comportamentul de căutare a ajutorului"
+          },
+          "cta": {
+            "title": "Gata să susțineți sănătatea mintală?",
+            "description": "Oferiți suport compasional 24/7 pentru sănătate mintală cu AI care chiar îi pasă",
+            "learnMore": "Aflați mai multe",
+            "contactSpecialists": "Contactați specialiștii"
+          }
+        },
+        "callTransfer": {
+          "hero": {
+            "title": "Transfer inteligent de apeluri în timpul orelor de program",
+            "description": "Revoluționați-vă rutarea apelurilor cu transfer inteligent alimentat de AI care înțelege intenția apelantului și îi conectează la persoana potrivită instantaneu, reducând timpii de așteptare și îmbunătățind satisfacția clienților.",
+            "primaryCta": "Optimizați-vă rutarea apelurilor"
+          },
+          "features": {
+            "title": "Funcționalități de rutare inteligentă a apelurilor",
+            "description": "Tehnologie AI avansată care înțelege și rutează apelurile cu precizie",
+            "intelligentRouting": {
+              "title": "Rutare inteligentă",
+              "description": "AI analizează intenția apelantului și rutează către departamentul sau agentul cel mai potrivit.",
+              "benefits": {
+                "0": "Recunoaștere intenție",
+                "1": "Rutare bazată pe abilități",
+                "2": "Gestionare priorități"
+              }
+            },
+            "agentOptimization": {
+              "title": "Optimizare agent",
+              "description": "Echilibrați volumul de muncă între agenți și asigurați-vă că apelurile ajung la specialiștii disponibili.",
+              "benefits": {
+                "0": "Echilibrare sarcină",
+                "1": "Verificare disponibilitate",
+                "2": "Potrivire expertiză"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "Timpi de așteptare reduși",
+              "description": "Minimizați timpii de așteptare ai clienților cu rutare eficientă și gestionare a cozilor.",
+              "benefits": {
+                "0": "Optimizare coadă",
+                "1": "Opțiuni de apel invers",
+                "2": "Actualizări în timp real"
+              }
+            }
+          },
+          "routing": {
+            "title": "Rutare inteligentă în acțiune",
+            "description": "Vedeți cum AI-ul nostru identifică intenția și rutează apelurile pentru rezultate optime"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "Interogare facturare",
+              "action": "Rutare către departamentul de facturare",
+              "result": "90% rezolvare la primul apel"
+            },
+            "technicalSupport": {
+              "trigger": "Suport tehnic",
+              "action": "Rutare către echipa tehnică",
+              "result": "85% rezolvare probleme"
+            },
+            "salesInterest": {
+              "trigger": "Interes vânzări",
+              "action": "Rutare către echipa de vânzări",
+              "result": "40% rată de conversie"
+            },
+            "vipCustomer": {
+              "trigger": "Client VIP",
+              "action": "Coada de priorități",
+              "result": "< 30 secunde timp de așteptare"
+            }
+          },
+          "benefits": {
+            "title": "Impact măsurabil",
+            "description": "Rezultate reale din implementarea transferului inteligent de apeluri"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "Reducerea timpului mediu de așteptare"
+            },
+            "resolution": {
+              "description": "Rată de rezolvare la primul apel"
+            },
+            "efficiency": {
+              "description": "Îmbunătățirea eficienței agentului"
+            },
+            "accuracy": {
+              "description": "Rutare precisă către departamentul corect"
+            }
+          },
+          "cta": {
+            "title": "Gata să vă optimizați rutarea apelurilor?",
+            "description": "Reduceți timpii de așteptare și îmbunătățiți satisfacția clienților cu transfer inteligent de apeluri",
+            "primaryButton": "Începeți proba gratuită",
+            "secondaryButton": "Vedeți demonstrația"
+          }
+        },
+        "scamShield": {
+          "hero": {
+            "title": "Protecție împotriva înșelătoriilor",
+            "subtitle": "Protejați-vă clienții de înșelătoriile telefonice și apelurile frauduloase cu detectare alimentată de AI care identifică și blochează amenințările în timp real, menținând comunitatea dvs. în siguranță împotriva fraudei financiare.",
+            "cta": "Activați protecția împotriva înșelătoriilor"
+          },
+          "features": {
+            "title": "Detectare avansată a înșelătoriilor",
+            "subtitle": "Protecție multi-strat împotriva tacticilor de fraudă în evoluție",
+            "realTimeDetection": {
+              "title": "Detectare înșelătorii în timp real",
+              "description": "Algoritmi AI avansați identifică și blochează apelurile frauduloase înainte de a ajunge la clienții dvs.",
+              "benefit1": "Recunoaștere modele",
+              "benefit2": "Analiză comportamentală",
+              "benefit3": "Blocare instantanee"
+            },
+            "threatIntelligence": {
+              "title": "Inteligență amenințări",
+              "description": "Bază de date actualizată continuu cu modele de înșelătorii cunoscute și numere de telefon frauduloase.",
+              "benefit1": "Date globale despre amenințări",
+              "benefit2": "Actualizări în timp real",
+              "benefit3": "Învățare automată"
+            },
+            "customerProtection": {
+              "title": "Protecția clienților",
+              "description": "Protejați proactiv clienții de fraude financiare și tentative de furt de identitate.",
+              "benefit1": "Prevenirea fraudei",
+              "benefit2": "Protecția identității",
+              "benefit3": "Securitate financiară"
+            }
+          },
+          "scamTypes": {
+            "title": "Protejat împotriva tuturor tipurilor de înșelătorii",
+            "subtitle": "Protecție completă împotriva celor mai comune tactici de fraudă",
+            "phishing": {
+              "type": "Apeluri de phishing",
+              "description": "Încercări de a fura informații personale sau credențiale de autentificare",
+              "detection": "Analiza modelului vocal și detectarea cuvintelor cheie",
+              "action": "Terminarea imediată a apelului și alertă client"
+            },
+            "techSupport": {
+              "type": "Înșelătorii suport tehnic",
+              "description": "Suport tehnic fals care pretinde probleme cu computerul",
+              "detection": "Recunoaștere model script și verificare ID apelant",
+              "action": "Blocați apelul și furnizați contact de suport legitim"
+            },
+            "financialFraud": {
+              "type": "Fraudă financiară",
+              "description": "Impersonarea băncilor sau a instituțiilor financiare",
+              "detection": "Verificare instituție și autentificare vocală",
+              "action": "Terminați apelul și notificați instituția financiară reală"
+            },
+            "romance": {
+              "type": "Înșelătorii romantice",
+              "description": "Construirea de relații false pentru a extrage bani",
+              "detection": "Analiza modelului conversației și detectarea manipulării emoționale",
+              "action": "Alerte de avertizare și furnizare de resurse"
+            },
+            "detectionMethod": "Metodă de detectare:",
+            "protectionAction": "Acțiune de protecție:",
+            "detectionMethodLabel": "Metodă de detectare",
+            "protectionActionLabel": "Acțiune de protecție"
+          },
+          "protection": {
+            "title": "Sistem de protecție multi-strat",
+            "subtitle": "Scutul nostru complet împotriva înșelătoriilor utilizează multiple metode de detectare care lucrează împreună pentru a oferi protecție maximă, asigurând în același timp că apelurile legitime trec întotdeauna.",
+            "realTimeAnalysis": {
+              "title": "Analiză în timp real",
+              "description": "Evaluare instantanee a fiecărui apel primit"
+            },
+            "continuousLearning": {
+              "title": "Învățare continuă",
+              "description": "AI îmbunătățește detectarea cu fiecare înșelătorie blocată"
+            },
+            "zeroFalsePositives": {
+              "title": "Zero false pozitive",
+              "description": "Apelurile legitime nu sunt niciodată blocate"
+            },
+            "layersTitle": "Straturi de protecție",
+            "layer1": "Verificare ID apelant",
+            "layer2": "Analiza modelului vocal",
+            "layer3": "Algoritmi de detectare a scriptului",
+            "layer4": "Detectarea anomaliilor comportamentale",
+            "layer5": "Inteligență amenințări în timp real",
+            "layer6": "Alerte de educație a clienților"
+          },
+          "benefits": {
+            "title": "Rezultate protecție",
+            "subtitle": "Eficacitate dovedită în oprirea fraudei și protejarea clienților",
+            "accuracy": {
+              "metric": "95%",
+              "description": "Precizie detectare apeluri înșelătorii"
+            },
+            "reduction": {
+              "metric": "80%",
+              "description": "Reducerea tentativelor de fraudă reușite"
+            },
+            "coverage": {
+              "metric": "24/7",
+              "description": "Acoperire continuă de protecție"
+            },
+            "preservation": {
+              "metric": "99,9%",
+              "description": "Rată de păstrare a apelurilor legitime"
+            }
+          },
+          "cta": {
+            "title": "Gata să vă protejați clienții?",
+            "subtitle": "Opriți înșelătorii cu detectare și protecție împotriva fraudei alimentate de AI",
+            "activateProtection": "Activați protecția",
+            "learnMore": "Aflați mai multe",
+            "primaryButton": "Activați protecția",
+            "secondaryButton": "Aflați mai multe"
+          },
+          "protectionSystem": {
+            "title": "Sistem de protecție multi-strat",
+            "subtitle": "Scutul nostru complet împotriva înșelătoriilor utilizează multiple metode de detectare care lucrează împreună pentru a oferi protecție maximă, asigurând în același timp că apelurile legitime trec întotdeauna.",
+            "realTimeAnalysis": {
+              "title": "Analiză în timp real",
+              "description": "Evaluare instantanee a fiecărui apel primit"
+            },
+            "continuousLearning": {
+              "title": "Învățare continuă",
+              "description": "AI îmbunătățește detectarea cu fiecare înșelătorie blocată"
+            },
+            "zeroFalsePositives": {
+              "title": "Zero false pozitive",
+              "description": "Apelurile legitime nu sunt niciodată blocate"
+            }
+          },
+          "results": {
+            "title": "Rezultate protecție",
+            "subtitle": "Eficacitate dovedită în oprirea fraudei și protejarea clienților"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "Procesare plăți securizată",
+            "description": "Activați procesarea plăților securizată, conformă PCI, prin interacțiuni vocale. Permiteți clienților să efectueze plăți în siguranță prin telefon cu protecție avansată împotriva fraudei și procesare instantanee a tranzacțiilor.",
+            "cta": "Activați plățile securizate"
+          },
+          "features": {
+            "title": "Funcționalități de plată vocală securizată",
+            "subtitle": "Securitatea la nivel de întreprindere se întâlnește cu experiența clientului fără întreruperi",
+            "securePayment": {
+              "title": "Procesare plăți securizată",
+              "description": "Procesați plățile în siguranță prin telefon cu tehnologie vocală conformă PCI.",
+              "benefit1": "Conformitate PCI DSS",
+              "benefit2": "Tranzacții criptate",
+              "benefit3": "Metode de plată multiple"
+            }
+          },
+          "fraudProtection": {
+            "title": "Protecție împotriva fraudei",
+            "description": "Detectare și prevenire avansată a fraudei pentru a proteja atât afacerea, cât și clienții.",
+            "benefit1": "Detectare fraudă în timp real",
+            "benefit2": "Evaluare risc",
+            "benefit3": "Autentificare securizată"
+          },
+          "instantProcessing": {
+            "title": "Procesare instantanee",
+            "description": "Procesați plățile imediat cu autorizare și confirmare în timp real.",
+            "benefit1": "Autorizare în timp real",
+            "benefit2": "Confirmare instantanee",
+            "benefit3": "Chitanțe imediate"
+          }
+        },
+        "paymentMethods": {
+          "title": "Opțiuni complete de plată",
+          "subtitle": "Acceptați toate metodele majore de plată cu procesare vocală securizată",
+          "creditCards": {
+            "method": "Carduri de credit",
+            "description": "Acceptați toate cardurile de credit majore cu procesare vocală securizată",
+            "feature1": "Visa, Mastercard, Amex",
+            "feature2": "Verificare CVV",
+            "feature3": "Validare expirare"
+          },
+          "debitCards": {
+            "method": "Carduri de debit",
+            "description": "Procesați plățile cu cardul de debit cu verificare PIN",
+            "feature1": "Introducere PIN prin voce",
+            "feature2": "Verificare bancară",
+            "feature3": "Deducere instantanee"
+          },
+          "bankTransfers": {
+            "method": "Transferuri bancare",
+            "description": "Transferuri bancare directe și plăți ACH",
+            "feature1": "Verificare cont",
+            "feature2": "Validare număr de rutare",
+            "feature3": "Procesare ACH"
+          },
+          "digitalWallets": {
+            "method": "Portofele digitale",
+            "description": "Suport pentru platforme populare de plată digitală",
+            "feature1": "Apple Pay",
+            "feature2": "Google Pay",
+            "feature3": "Integrare PayPal"
+          }
+        },
+        "security": {
+          "title": "Securitate la nivel bancar",
+          "description": "Sistemul nostru de procesare a plăților îndeplinește cele mai înalte standarde de securitate din industrie, asigurând că fiecare tranzacție este protejată cu multiple straturi de criptare și prevenire a fraudei.",
+          "endToEndEncryption": {
+            "title": "Criptare end-to-end",
+            "description": "Toate datele de plată criptate în tranzit și în repaus"
+          },
+          "pciCompliance": {
+            "title": "Conformitate PCI DSS",
+            "description": "Infrastructură certificată PCI DSS Nivel 1"
+          },
+          "realTimeMonitoring": {
+            "title": "Monitorizare în timp real",
+            "description": "Detectare și prevenire continuă a fraudei"
+          },
+          "featuresTitle": "Funcționalități de securitate",
+          "feature1": "Criptare end-to-end",
+          "feature2": "Conformitate PCI DSS Nivel 1",
+          "feature3": "Tokenizare date card",
+          "feature4": "Autentificare multi-factor",
+          "feature5": "Monitorizare fraudă în timp real",
+          "feature6": "Recunoaștere vocală securizată"
+          }
+        },
+        "benefits": {
+          "title": "Performanța procesării plăților",
+          "subtitle": "Metrice de fiabilitate și securitate de top în industrie",
+          "uptime": {
+            "metric": "99,9%",
+            "description": "Timp de funcționare procesare plăți"
+          },
+          "transactionTime": {
+            "metric": "< 3s",
+            "description": "Timp mediu de tranzacție"
+          },
+          "compliance": {
+            "metric": "100%",
+            "description": "Conformitate PCI DSS"
+          },
+          "fraudRate": {
+            "metric": "0,1%",
+            "description": "Rată de fraudă cu protecție AI"
+          }
+        },
+        "cta": {
+          "title": "Gata pentru plăți vocale securizate?",
+          "subtitle": "Activați procesarea plăților conformă PCI cu protecție avansată împotriva fraudei",
+          "primaryButton": "Începeți procesarea securizată",
+          "secondaryButton": "Prezentare generală securitate"
+        }
+      },
+      "mentalHealth": {
+        "hero": {
+          "title": "Companion vocal pentru sănătate mintală",
+          "description": "Oferiți suport compasional 24/7 pentru sănătate mintală cu AI care ascultă, înțelege și răspunde cu empatie. Conectați în siguranță decalajul dintre criză și îngrijirea profesională.",
+          "cta": "Aflați despre AI pentru sănătate mintală"
+        },
+        "features": {
+          "title": "Suport AI compasional",
+          "subtitle": "AI avansată antrenată în suport pentru sănătate mintală și intervenție în criză",
+          "empathetic": {
+            "title": "Companion AI empatic",
+            "description": "Antrenat să ofere suport compasional, fără judecată, cu răspunsuri emoționale adecvate.",
+            "benefits": {
+              "activeListing": "Ascultare activă",
+              "emotionalValidation": "Validare emoțională",
+              "crisisRecognition": "Recunoaștere criză"
+            }
+          },
+          "safe": {
+            "title": "Sigur și confidențial",
+            "description": "Platformă conformă HIPAA care asigură confidențialitate și confidențialitate completă pentru toate interacțiunile.",
+            "benefits": {
+              "hipaaCompliance": "Conformitate HIPAA",
+              "encryptedConversations": "Conversații criptate",
+              "anonymousOptions": "Opțiuni anonime"
+            }
+          },
+          "available": {
+            "title": "Disponibilitate 24/7",
+            "description": "Întotdeauna disponibil când cineva are nevoie să vorbească, oferind suport imediat în momente de criză.",
+            "benefits": {
+              "roundTheClockAccess": "Acces non-stop",
+              "immediateResponse": "Răspuns imediat",
+              "noWaitTimes": "Fără timpi de așteptare"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "Capacități de suport pentru sănătate mintală",
+          "subtitle": "Suport complet pe întregul spectru de îngrijire a sănătății mintale",
+          "screening": {
+            "title": "Screening inițial pentru sănătate mintală",
+            "description": "Efectuați evaluări preliminare utilizând instrumente de screening validate",
+            "outcomes": {
+              "earlyIdentification": "Identificare timpurie",
+              "riskAssessment": "Evaluare risc",
+              "appropriateReferrals": "Trimiteri adecvate"
+            }
+          },
+          "crisis": {
+            "title": "Intervenție în criză",
+            "description": "Recunoașteți situațiile de criză și oferiți suport sau escaladare imediată",
+            "outcomes": {
+              "crisisDetection": "Detectare criză",
+              "deEscalationTechniques": "Tehnici de de-escaladare",
+              "emergencyProtocols": "Protocoale de urgență"
+            }
+          },
+          "navigation": {
+            "title": "Navigare resurse",
+            "description": "Ghidarea utilizatorilor către resurse și servicii adecvate de sănătate mintală",
+            "outcomes": {
+              "serviceMatching": "Potrivire servicii",
+              "appointmentScheduling": "Programare programări",
+              "followUpSupport": "Suport follow-up"
+            }
+          },
+          "emotional": {
+            "title": "Suport emoțional",
+            "description": "Oferiți ascultare compasională și validare emoțională",
+            "outcomes": {
+              "reducedIsolation": "Izolare redusă",
+              "emotionalRelief": "Ameliorare emoțională",
+              "copingStrategies": "Strategii de coping"
+            }
+          }
+        },
+        "safety": {
+          "title": "Design axat pe siguranță",
+          "description": "AI-ul nostru pentru sănătate mintală este conceput cu siguranța ca prioritate principală, prezentând detectare avansată a crizelor și protocoale imediate de escaladare pentru a asigura că utilizatorii primesc îngrijiri profesionale adecvate atunci când este necesar.",
+          "crisisDetection": {
+            "title": "Detectare criză",
+            "description": "Algoritmi avansați identifică situațiile de criză"
+          },
+          "professionalHandoff": {
+            "title": "Transfer profesional",
+            "description": "Transfer fără întreruperi către profesioniști umani din sănătate mintală"
+          },
+          "emergencyProtocols": {
+            "title": "Protocoale de urgență",
+            "description": "Conectare imediată la liniile de urgență atunci când este necesar"
+          },
+          "features": {
+            "title": "Funcționalități de siguranță",
+            "crisisKeywordDetection": "Detectare cuvinte cheie de criză",
+            "suicideRiskAssessment": "Evaluare risc suicid",
+            "automaticEscalationProtocols": "Protocoale automate de escaladare",
+            "emergencyContactIntegration": "Integrare contact de urgență",
+            "professionalHandoffProcedures": "Proceduri de transfer profesional",
+            "followUpScheduling": "Programare follow-up"
+          }
+        },
+        "impact": {
+          "title": "Impact sănătate mintală",
+          "subtitle": "Îmbunătățiri măsurabile în accesibilitatea suportului pentru sănătate mintală",
+          "availability": {
+            "metric": "24/7",
+            "description": "Suport întotdeauna disponibil"
+          },
+          "crisisReduction": {
+            "metric": "60%",
+            "description": "Reducerea escaladării crizelor"
+          },
+          "satisfaction": {
+            "metric": "85%",
+            "description": "Rată de satisfacție a utilizatorilor"
+          },
+          "helpSeeking": {
+            "metric": "40%",
+            "description": "Creștere în comportamentul de căutare a ajutorului"
+          }
+        },
+        "cta": {
+          "title": "Gata să susțineți sănătatea mintală?",
+          "subtitle": "Oferiți suport compasional 24/7 pentru sănătate mintală cu AI care chiar îi pasă",
+          "learnMore": "Aflați mai multe",
+          "contactSpecialists": "Contactați specialiștii"
+        }
+      }
+    }
+  }
+}
