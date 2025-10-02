@@ -121,7 +121,7 @@ const coreFeatures = [
           </h1>
           
           <p class="text-xl text-gray-600 mb-8">
-            結合LINE官方雙認證技術，SeaChat讓您的客服從「成本中心」轉型為「營收引擎」。從餐廳訂位、電商問答到售後服務，不錯過任何一通潛在商機。
+            結合LINE官方雙認證技術，SeaVoice讓您的客服從「成本中心」轉型為「營收引擎」。從餐廳訂位、電商問答到售後服務，不錯過任何一通潛在商機。
           </p>
           
           <div class="flex flex-col sm:flex-row gap-4 mb-6">
@@ -499,6 +499,12 @@ const coreFeatures = [
             class="h-36 md:h-44 w-auto mt-4 block mx-auto"
             loading="lazy"
           />
+          <img
+            src="/products/line-messaging-api.png"
+            alt="LINE Messaging API"
+            class="h-24 md:h-28 w-auto mt-3 block mx-auto"
+            loading="lazy"
+          />
         </div>
         <div class="flex justify-center md:justify-end">
           <div class="rounded-2xl border border-gray-200 shadow-md overflow-hidden bg-white">
@@ -555,46 +561,113 @@ const coreFeatures = [
         </p>
       </div>
 
-      <!-- Channels Illustration -->
+      <!-- Enhanced Channels Illustration -->
       <div class="mb-12">
-        <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-4 max-w-4xl mx-auto">
-          <div class="grid md:grid-cols-3 gap-4 items-center text-center md:text-left">
-            <!-- Left: Channels -->
-            <div class="space-y-3">
-              <div class="flex items-center justify-center md:justify-start">
-                <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-2">
-                  <PhoneCall className="h-4 w-4 text-green-600" />
-                </div>
-                <div>
-                  <div class="text-sm font-semibold text-gray-900">LINE Call Plus</div>
-                  <div class="text-xs text-gray-500">手機App網路通話</div>
+        <div class="bg-gradient-to-br from-blue-50 to-emerald-50 rounded-2xl border border-gray-200 shadow-lg p-6 max-w-5xl mx-auto">
+          <div class="grid md:grid-cols-4 gap-6 items-center">
+            
+            <!-- Left: Customer Channels -->
+            <div class="space-y-4">
+              <h4 class="text-sm font-semibold text-gray-700 text-center mb-3">客戶端</h4>
+              
+              <!-- LINE App User -->
+              <div class="bg-white rounded-lg p-3 shadow-sm border">
+                <div class="flex items-center">
+                  <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-3">
+                    <Users className="h-5 w-5 text-green-600" />
+                  </div>
+                  <div class="flex-1">
+                    <div class="flex items-center">
+                      <PhoneCall className="h-4 w-4 text-green-600 mr-1" />
+                      <span class="text-sm font-medium">LINE App</span>
+                    </div>
+                    <div class="text-xs text-gray-500">網路通話</div>
+                  </div>
                 </div>
               </div>
-              <div class="flex items-center justify-center md:justify-start">
-                <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-2">
-                  <Phone className="h-4 w-4 text-blue-600" />
-                </div>
-                <div>
-                  <div class="text-sm font-semibold text-gray-900">傳統電話</div>
-                  <div class="text-xs text-gray-500">市話/手機號</div>
+
+              <!-- Traditional Phone User -->
+              <div class="bg-white rounded-lg p-3 shadow-sm border">
+                <div class="flex items-center">
+                  <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                    <Users className="h-5 w-5 text-blue-600" />
+                  </div>
+                  <div class="flex-1">
+                    <div class="flex items-center">
+                      <Phone className="h-4 w-4 text-blue-600 mr-1" />
+                      <span class="text-sm font-medium">傳統電話</span>
+                    </div>
+                    <div class="text-xs text-gray-500">市話/手機</div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <!-- Middle: Connector -->
-            <div class="hidden md:flex items-center justify-center">
-              <div class="text-xs text-gray-500">→ 渠道整合 →</div>
+            <!-- Speech Flow -->
+            <div class="hidden md:flex flex-col items-center justify-center">
+              <div class="flex items-center space-x-1 mb-2">
+                <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse" style="animation-delay: 0.2s"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse" style="animation-delay: 0.4s"></div>
+              </div>
+              <div class="text-xs text-gray-500 text-center">語音數據</div>
+              <div class="text-xs text-gray-500">→</div>
             </div>
 
-            <!-- Right: Seasalt.ai Voice AI -->
+            <!-- SeaVoice AI Engine -->
             <div class="text-center">
-              <div class="inline-flex items-center px-3 py-2 rounded-full bg-emerald-50 border border-emerald-200">
-                <Mic className="h-4 w-4 text-emerald-600 mr-2" />
-                <span class="text-sm font-semibold text-emerald-700">SeaVoice 語音助理</span>
+              <div class="bg-white rounded-xl p-4 shadow-md border-2 border-emerald-200">
+                <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <Mic className="h-6 w-6 text-emerald-600" />
+                </div>
+                <div class="text-sm font-bold text-emerald-700">SeaVoice</div>
+                <div class="text-xs text-gray-500">AI語音引擎</div>
+                <div class="flex justify-center mt-2 space-x-1">
+                  <div class="w-1 h-3 bg-emerald-400 rounded animate-pulse"></div>
+                  <div class="w-1 h-4 bg-emerald-400 rounded animate-pulse" style="animation-delay: 0.1s"></div>
+                  <div class="w-1 h-2 bg-emerald-400 rounded animate-pulse" style="animation-delay: 0.2s"></div>
+                  <div class="w-1 h-5 bg-emerald-400 rounded animate-pulse" style="animation-delay: 0.3s"></div>
+                </div>
               </div>
-              <div class="text-xs text-gray-500 mt-1">
-                統一AI語音服務
+            </div>
+
+            <!-- Business Backend -->
+            <div class="space-y-3">
+              <h4 class="text-sm font-semibold text-gray-700 text-center mb-3">企業端</h4>
+              
+              <!-- Dashboard -->
+              <div class="bg-white rounded-lg p-3 shadow-sm border">
+                <div class="flex items-center">
+                  <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-2">
+                    <BarChart3 className="h-4 w-4 text-purple-600" />
+                  </div>
+                  <div>
+                    <div class="text-sm font-medium">數據儀表板</div>
+                    <div class="text-xs text-gray-500">即時分析</div>
+                  </div>
+                </div>
               </div>
+
+              <!-- Contact Center -->
+              <div class="bg-white rounded-lg p-3 shadow-sm border">
+                <div class="flex items-center">
+                  <div class="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center mr-2">
+                    <Building2 className="h-4 w-4 text-orange-600" />
+                  </div>
+                  <div>
+                    <div class="text-sm font-medium">客服中心</div>
+                    <div class="text-xs text-gray-500">統一管理</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+          <!-- Flow Description -->
+          <div class="mt-4 text-center">
+            <div class="text-xs text-gray-600 bg-white/70 rounded-full px-4 py-2 inline-block">
+              多渠道語音 → AI智能處理 → 企業整合應用
             </div>
           </div>
         </div>
@@ -604,24 +677,24 @@ const coreFeatures = [
         <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg border border-blue-200 hover:shadow-xl transition-all duration-300">
           <div class="flex items-center mb-6">
             <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-              <Mic className="h-6 w-6 text-blue-600" />
+              <PhoneCall className="h-6 w-6 text-blue-600" />
             </div>
-            <h3 class="text-2xl font-bold text-gray-900"> SeaVoice 語音機器人</h3>
+            <h3 class="text-2xl font-bold text-gray-900">LINE Call Plus 支援</h3>
           </div>
           <p class="text-gray-700 leading-relaxed">
-            當顧客點擊 LINE Call Plus 通話按鈕，立即由具備台灣口音的 <strong>SeaVoice</strong> AI語音助理接聽。無論是預約訂位、查詢資訊還是留言，都能提供最自然、有溫度的語音互動體驗，讓您的電話永不佔線、永不漏接。
+            完整整合 <strong>LINE Call Plus API</strong>，讓您的客戶直接透過 LINE App 撥打網路電話給企業。無需額外下載或註冊，使用熟悉的 LINE 介面即可享受高品質語音通話，大幅降低客戶使用門檻，提升聯繫意願。
           </p>
         </div>
         
         <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg border border-green-200 hover:shadow-xl transition-all duration-300">
           <div class="flex items-center mb-6">
             <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-              <MessageCircle className="h-6 w-6 text-green-600" />
+              <Phone className="h-6 w-6 text-green-600" />
             </div>
-            <h3 class="text-2xl font-bold text-gray-900"> SeaChat 文字機器人</h3>
+            <h3 class="text-2xl font-bold text-gray-900">傳統電話支援</h3>
           </div>
           <p class="text-gray-700 leading-relaxed">
-            對於偏好文字溝通的顧客，強大的 <strong>SeaChat</strong> AI文字機器人同樣提供24小時服務。透過您上傳的知識庫，精準回答各式問題，並在必要時無縫轉接真人客服，完整覆蓋所有LINE官方帳號的溝通場景。
+            同時支援<strong>市話與手機號碼</strong>撥打，確保所有客戶都能透過最熟悉的方式聯繫您的企業。無論客戶使用哪種通話方式，都能享受到相同水準的 AI 語音助理服務，真正做到全渠道覆蓋。
           </p>
         </div>
       </div>
@@ -800,7 +873,7 @@ const coreFeatures = [
               <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
               </svg>
-              <span class="text-gray-700"><strong>通話費節省：</strong> LINE Call Plus 每分鐘僅 NT$1.44~6，較傳統電信費用更優惠</span>
+              <span class="text-gray-700"><strong>通話費節省：</strong> 顧客免費撥打更無憂，LINE Call Plus每分鐘較傳統電信費用更優惠。</span>
             </li>
             <li class="flex items-start">
               <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
