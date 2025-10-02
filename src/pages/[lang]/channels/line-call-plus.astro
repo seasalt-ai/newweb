@@ -2,7 +2,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import { getMeetingUrl } from "../../../constants/urls";
 import Lucide from 'lucide-react';
-const { MicOff, Volume2, Grid3X3, PhoneOff, PhoneCall, ArrowLeft, PlaySquare, ShieldCheck, Award, AlertCircle, Clock, CircleDollarSign, RefreshCcw, ListChecks, TrendingUp, PanelsTopLeft, CheckCircle, Calendar, Download, Mic, MessageCircle, Brain, Zap, Users, BarChart3, Star, Building2 } = Lucide;
+const { MicOff, Volume2, Grid3X3, PhoneOff, PhoneCall, Phone, ArrowLeft, PlaySquare, ShieldCheck, Award, AlertCircle, Clock, CircleDollarSign, RefreshCcw, ListChecks, TrendingUp, PanelsTopLeft, CheckCircle, Calendar, Download, Mic, MessageCircle, Brain, Zap, Users, BarChart3, Star, Building2 } = Lucide;
 
 // Only generate the zh-TW route for this landing page
 export async function getStaticPaths() {
@@ -247,6 +247,10 @@ const coreFeatures = [
           </div>
         </div>
       </div>
+
+
+
+
     </div>
   </section>
 
@@ -544,18 +548,63 @@ const coreFeatures = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-          一箭雙雕：語音＋文字，LINE官方帳號溝通全制霸
+          一箭雙雕：LINE＋電話，語音溝通全制霸
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          無論您的顧客偏好通話還是打字，Seasalt.ai 都能提供全天候無縫接軌的AI自動化服務。
+          無論您的顧客偏好LINE Call還是換通電話，Seasalt.ai 都能提供全天候無縫接軌的AI自動化服務。
         </p>
+      </div>
+
+      <!-- Channels Illustration -->
+      <div class="mb-12">
+        <div class="bg-white rounded-xl border border-gray-200 shadow-sm p-4 max-w-4xl mx-auto">
+          <div class="grid md:grid-cols-3 gap-4 items-center text-center md:text-left">
+            <!-- Left: Channels -->
+            <div class="space-y-3">
+              <div class="flex items-center justify-center md:justify-start">
+                <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-2">
+                  <PhoneCall className="h-4 w-4 text-green-600" />
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-gray-900">LINE Call Plus</div>
+                  <div class="text-xs text-gray-500">手機App網路通話</div>
+                </div>
+              </div>
+              <div class="flex items-center justify-center md:justify-start">
+                <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-2">
+                  <Phone className="h-4 w-4 text-blue-600" />
+                </div>
+                <div>
+                  <div class="text-sm font-semibold text-gray-900">傳統電話</div>
+                  <div class="text-xs text-gray-500">市話/手機號</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Middle: Connector -->
+            <div class="hidden md:flex items-center justify-center">
+              <div class="text-xs text-gray-500">→ 渠道整合 →</div>
+            </div>
+
+            <!-- Right: Seasalt.ai Voice AI -->
+            <div class="text-center">
+              <div class="inline-flex items-center px-3 py-2 rounded-full bg-emerald-50 border border-emerald-200">
+                <Mic className="h-4 w-4 text-emerald-600 mr-2" />
+                <span class="text-sm font-semibold text-emerald-700">SeaVoice 語音助理</span>
+              </div>
+              <div class="text-xs text-gray-500 mt-1">
+                統一AI語音服務
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       
       <div class="grid lg:grid-cols-2 gap-8">
         <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg border border-blue-200 hover:shadow-xl transition-all duration-300">
           <div class="flex items-center mb-6">
             <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-              <Mic class="h-6 w-6 text-blue-600" />
+              <Mic className="h-6 w-6 text-blue-600" />
             </div>
             <h3 class="text-2xl font-bold text-gray-900"> SeaVoice 語音機器人</h3>
           </div>
@@ -567,7 +616,7 @@ const coreFeatures = [
         <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg border border-green-200 hover:shadow-xl transition-all duration-300">
           <div class="flex items-center mb-6">
             <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-              <MessageCircle class="h-6 w-6 text-green-600" />
+              <MessageCircle className="h-6 w-6 text-green-600" />
             </div>
             <h3 class="text-2xl font-bold text-gray-900"> SeaChat 文字機器人</h3>
           </div>
@@ -577,6 +626,8 @@ const coreFeatures = [
         </div>
       </div>
     </div>
+
+
   </section>
 
   <!-- Video Demos Section -->
@@ -631,11 +682,11 @@ const coreFeatures = [
             </div>
             <div class="flex items-center gap-2">
               <button type="button" class="inline-flex items-center px-3 py-1.5 rounded-lg bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 text-xs md:text-sm shadow-sm">
-                <Calendar class="h-4 w-4 text-gray-500" />
+                <Calendar className="h-4 w-4 text-gray-500" />
                 <span class="ml-2">{(lang === 'zh-TW' || lang === 'zh-CN') ? '選擇期間' : 'Date range'}</span>
               </button>
               <button type="button" class="inline-flex items-center px-3 py-1.5 rounded-lg bg-green-600 text-white hover:bg-green-700 text-xs md:text-sm shadow-sm">
-                <Download class="h-4 w-4 text-white/90" />
+                <Download className="h-4 w-4 text-white/90" />
                 <span class="ml-2">{(lang === 'zh-TW' || lang === 'zh-CN') ? '下載報表 (CSV)' : 'Download CSV'}</span>
               </button>
             </div>
@@ -1091,7 +1142,7 @@ const coreFeatures = [
           <div class="bg-white rounded-2xl shadow-lg p-6">
             <div class="flex items-center mb-4">
               <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                <Mic class="h-6 w-6 text-blue-600" />
+                <Mic className="h-6 w-6 text-blue-600" />
               </div>
               <h3 class="text-xl font-semibold text-gray-900">體驗 SeaVoice 語音技術</h3>
             </div>
@@ -1103,7 +1154,7 @@ const coreFeatures = [
           <div class="bg-white rounded-2xl shadow-lg p-6">
             <div class="flex items-center mb-4">
               <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                <MessageCircle class="h-6 w-6 text-green-600" />
+                <MessageCircle className="h-6 w-6 text-green-600" />
               </div>
               <h3 class="text-xl font-semibold text-gray-900">SeaChat 平台導覽</h3>
             </div>
