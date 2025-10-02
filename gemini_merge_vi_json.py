@@ -1,4 +1,3 @@
-
 import json
 import os
 import collections
@@ -14,8 +13,13 @@ for i in range(1, 15):
             data = json.load(f, object_pairs_hook=collections.OrderedDict)
             merged_data.update(data)
     except FileNotFoundError:
+        # In case some files are missing, we'll just skip them.
         pass
     except json.JSONDecodeError:
         print(f"Error: Could not decode JSON from {file_path}", file=sys.stderr)
 
-print(json.dumps(merged_data, ensure_ascii=False, indent=2))
+# Write the merged data to vi.json
+with open(os.path.join(base_path, 'vi.json'), 'w', encoding='utf-8') as f:
+    json.dump(merged_data, f, ensure_ascii=False, indent=2)
+
+print("Successfully merged files into vi.json")
