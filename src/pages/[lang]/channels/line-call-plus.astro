@@ -1,0 +1,693 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getMeetingUrl } from "../../../constants/urls";
+
+// Only generate the zh-TW route for this landing page
+export async function getStaticPaths() {
+  return [{ params: { lang: 'zh-TW' } }];
+}
+
+const { lang } = Astro.params;
+
+const seoTitle = 'LINE官方帳號一鍵通話，您的AI語音客服24小時自動上線';
+const seoDescription = '結合LINE官方雙認證技術，SeaChat讓您的客服從成本中心轉型為營收引擎。由最懂台灣人語氣的SeaVoice AI語音助理，為您處理企業資訊問答、AI語音信箱，甚至整合inline完成自動訂位。';
+const canonicalUrl = `http://127.0.0.1:4322/${lang}/channels/line-call-plus`;
+const breadcrumbs = [
+  { name: '首頁', url: `/${lang}/` },
+  { name: '渠道', url: `/${lang}/channels/` },
+  { name: 'LINE Call Plus' }
+];
+
+// Features data
+const businessScenarios = [
+  {
+    icon: '🍽️',
+    title: '餐飲零售業：24小時不打烊的超級店員',
+    features: [
+      '全天候自動訂位：透過與 inline.app 的完美整合',
+      '分店資訊即時答：AI助理化身萬事通',
+      '最新優惠活動語音推播：主動告知折扣活動'
+    ]
+  },
+  {
+    icon: '🛒',
+    title: '電商與網拍：永不疲倦的訂單處理專家',
+    features: [
+      '訂單狀態與物流追蹤：即時查詢訂單狀態',
+      '退換貨政策自動說明：清晰解釋流程與條款',
+      '產品規格與庫存問答：提供最準確的答覆'
+    ]
+  },
+  {
+    icon: '👩‍⚕️',
+    title: '診所、沙龍、服務業：您的智慧預約秘書',
+    features: [
+      '24小時預約排程與查詢：不受櫃檯服務時間限制',
+      '服務項目與價格介紹：幫助顧客做出最佳選擇',
+      '行前提醒與注意事項：大幅降低顧客失約率'
+    ]
+  },
+  {
+    icon: '🏢',
+    title: '品牌企業與B2B：第一線的智慧資訊總機',
+    features: [
+      '潛在客戶資訊篩選與記錄：提供高質量的銷售線索',
+      '取代傳統IVR：智能判斷並提供指引',
+      '永不關機的品牌資訊熱線：24小時可靠管道'
+    ]
+  }
+];
+
+const coreFeatures = [
+  {
+    icon: 'Brain',
+    title: '全方位知識庫，上傳即學習',
+    description: '上傳Excel價目表、PDF產品型錄、公司網站網址、甚至是教學影片，AI即可在幾分鐘內學習完畢，成為該領域的專家。'
+  },
+  {
+    icon: 'Zap',
+    title: '10分鐘極速上線，無需任何程式背景',
+    description: '直覺化的後台介面，讓您像編輯文件一樣簡單地設定AI助理。從建立對話流程到上傳知識，全程無需編寫任何程式碼。'
+  },
+  {
+    icon: 'Users',
+    title: 'AI與真人的完美協作',
+    description: '當遇到AI無法處理的複雜問題時，系統可設定無縫轉接真人客服。真人客服可看到完整的AI對話紀錄。'
+  },
+  {
+    icon: 'Mic',
+    title: '有溫度的台灣口音，自然流暢',
+    description: '採用 Seasalt.ai 獨家 SeaVoice 語音技術，專為台灣市場優化，提供最接近真人的語氣與腔調。'
+  },
+  {
+    icon: 'BarChart3',
+    title: '數據洞察儀表板',
+    description: '輕鬆追蹤來電數量、熱門問題、對話長度等關鍵數據，幫助您不斷優化AI助理的表現。'
+  }
+];
+---
+
+<Layout
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang}
+  type="software"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-green-50 via-white to-green-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+        <div>
+          <a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
+            <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+            </svg>
+            返回所有渠道
+          </a>
+          
+          <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+            LINE官方帳號一鍵通話，您的{' '}
+            <span class="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
+              AI語音客服
+            </span>
+            24小時自動上線
+          </h1>
+          
+          <p class="text-xl text-gray-600 mb-8">
+            結合LINE官方雙認證技術，SeaChat讓您的客服從「成本中心」轉型為「營收引擎」。從餐廳訂位、電商問答到售後服務，不錯過任何一通潛在商機。
+          </p>
+          
+          <div class="flex flex-col sm:flex-row gap-4 mb-6">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+            >
+              ▶ 立即免費註冊 SeaChat，10分鐘啟動您的AI語音助理
+            </a>
+            <a
+              href={getMeetingUrl(lang)}
+              class="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+            >
+              預約演示
+            </a>
+          </div>
+          
+          <p class="text-sm text-gray-500 italic">
+            無需綁定信用卡，極速完成設定
+          </p>
+        </div>
+        
+        <div class="mt-12 lg:mt-0">
+          <div class="relative">
+            <div class="bg-white rounded-2xl shadow-2xl p-6">
+              <div class="flex items-center mb-4">
+                <svg class="h-8 w-8 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/>
+                </svg>
+                <h3 class="text-lg font-semibold">LINE Call Plus 演示</h3>
+              </div>
+              <div class="space-y-3">
+                <div class="bg-green-50 p-3 rounded-lg">
+                  <p class="text-sm text-gray-700">客戶：「我想預約明天下午的用餐」</p>
+                </div>
+                <div class="bg-blue-50 p-3 rounded-lg">
+                  <p class="text-sm text-gray-700">AI：「好的！讓我為您查看明天下午的空位。請問幾位用餐呢？」</p>
+                </div>
+                <div class="bg-green-50 p-3 rounded-lg">
+                  <p class="text-sm text-gray-700">客戶：「4個人」</p>
+                </div>
+                <div class="bg-gray-50 p-3 rounded-lg">
+                  <p class="text-sm text-gray-700">AI：「明天下午2點和5點都有空位，請問您偏好哪個時段？」</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LINE Certification Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          LINE官方雙重認證，技術實力最強保證
+        </h2>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          Seasalt.ai 很榮幸成為 LINE 官方認證的 <strong>「Authorized AI Partner」</strong> 與 <strong>「Certified Provider」</strong>。這代表我們在 AI 整合能力與技術服務穩定性上，擁有 LINE 官方認可的最高標準，是您最值得信賴的合作夥伴。
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl border-2 border-green-100 text-center hover:shadow-lg transition-all duration-300">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="h-8 w-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            LINE Authorized AI Partner
+          </h3>
+          <p class="text-gray-600">官方認證的AI整合夥伴</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl border-2 border-green-100 text-center hover:shadow-lg transition-all duration-300">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="h-8 w-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            LINE Certified Provider
+          </h3>
+          <p class="text-gray-600">技術服務認證供應商</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          您的客服是否正陷入一場無聲的危機？
+        </h2>
+        <p class="text-xl text-gray-600">
+          您的顧客正在流失，而您可能毫無察覺。
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">無盡的等待音...然後掛斷</h3>
+          </div>
+          <p class="text-gray-600">尖峰時段電話永遠佔線，顧客的耐心在等待中消磨殆盡，商機也隨之而去。</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">「非營業時間，請稍後再撥」</h3>
+          </div>
+          <p class="text-gray-600">顧客的需求從不打烊，但您的服務卻有。下班後、假日的潛在客戶，都成了錯過的遺憾。</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">高昂的人力與時間成本</h3>
+          </div>
+          <p class="text-gray-600">建立與維持一個真人客服團隊，不僅薪資成本高昂，更要投入大量時間進行訓練與管理。</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">重複問題的無限迴圈</h3>
+          </div>
+          <p class="text-gray-600">80%的客服時間，都浪費在回答「營業到幾點？」、「地址在哪裡？」等基礎問題上，無法專注於處理更複雜的客戶需求。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Scenarios Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          解鎖新商機：真實商業應用場景
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Seasalt.ai 的 LINE 語音AI方案不僅是客服工具，更是各行各業的業務增長利器。
+        </p>
+      </div>
+      
+      <div class="grid lg:grid-cols-2 gap-8">
+        {businessScenarios.map((scenario, index) => (
+          <div key={index} class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl border border-green-200 hover:shadow-xl transition-all duration-300">
+            <div class="flex items-center mb-6">
+              <div class="text-4xl mr-4">{scenario.icon}</div>
+              <h3 class="text-2xl font-bold text-gray-900">{scenario.title}</h3>
+            </div>
+            <div class="space-y-4">
+              {scenario.features.map((feature, featureIndex) => (
+                <div key={featureIndex} class="flex items-start">
+                  <svg class="h-5 w-5 text-green-500 mr-3 mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <p class="text-gray-700">{feature}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Dual Functionality Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          一箭雙雕：語音＋文字，LINE官方帳號溝通全制霸
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          無論您的顧客偏好通話還是打字，Seasalt.ai 都能提供全天候無縫接軌的AI自動化服務。
+        </p>
+      </div>
+      
+      <div class="grid lg:grid-cols-2 gap-8">
+        <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg border border-blue-200 hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">🎙️ SeaVoice 語音機器人</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed">
+            當顧客點擊 LINE Call Plus 通話按鈕，立即由具備台灣口音的 <strong>SeaVoice</strong> AI語音助理接聽。無論是預約訂位、查詢資訊還是留言，都能提供最自然、有溫度的語音互動體驗，讓您的電話永不佔線、永不漏接。
+          </p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg border border-green-200 hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">💬 SeaChat 文字機器人</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed">
+            對於偏好文字溝通的顧客，強大的 <strong>SeaChat</strong> AI文字機器人同樣提供24小時服務。透過您上傳的知識庫，精準回答各式問題，並在必要時無縫轉接真人客服，完整覆蓋所有LINE官方帳號的溝通場景。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Demos Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          親眼見證AI的威力：功能展示影片
+        </h2>
+      </div>
+      
+      <div class="grid lg:grid-cols-1 gap-12">
+        <div class="bg-white rounded-2xl shadow-lg p-8">
+          <div class="text-center mb-8">
+            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="h-8 w-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">
+              如何將 SeaChat AI 助理串接到您的 LINE 官方帳號
+            </h3>
+            <p class="text-gray-600 mb-6">觀看我們的快速教學，了解如何在幾分鐘內完成設定，讓您的 LINE 官方帳號立即擁有AI超能力。</p>
+          </div>
+          
+          <div class="bg-gray-100 rounded-2xl p-8 flex items-center justify-center h-80">
+            <div class="text-center">
+              <svg class="h-16 w-16 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+              </svg>
+              <p class="text-gray-500 text-lg">演示影片即將推出</p>
+              <p class="text-gray-400 text-sm mt-2">正在製作中...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8 mt-12">
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">體驗 SeaVoice 語音技術</h3>
+          </div>
+          <p class="text-gray-600">了解 SeaVoice 文字轉語音客製化後台，如何調整發音、語調與停頓，創造出獨一無二、最貼近真人的語音體驗。</p>
+        </div>
+        
+        <div class="bg-white rounded-2xl shadow-lg p-6">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">SeaChat 平台導覽</h3>
+          </div>
+          <p class="text-gray-600">深入了解 SeaChat 平台如何運作，從上傳知識到與真人客服協作，感受其強大且易用的功能。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Features Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          不只會聽會說，更是懂你業務的超級大腦
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          我們的語音AI服務，背後由強大的 SeaChat 平台 驅動，它不僅僅是一個聊天機器人，更是您的AI營運中心。
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {coreFeatures.map((feature, index) => (
+          <div key={index} class="p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300">
+            <div class="text-green-600 mb-4">
+              {feature.icon === 'Brain' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+              )}
+              {feature.icon === 'Zap' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              )}
+              {feature.icon === 'Users' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-3-3h-1m-1-3a3 3 0 11-3-3 3 3 0 013 3zm-1 0a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              )}
+              {feature.icon === 'Mic' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/>
+                </svg>
+              )}
+              {feature.icon === 'BarChart3' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2a2 2 0 00-2-2z"/>
+                </svg>
+              )}
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">
+              {feature.title}
+            </h3>
+            <p class="text-gray-600">
+              {feature.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          效益清晰可見：為何您的企業現在就需要？
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          導入 Seasalt.ai LINE 語音AI服務，帶來的不只是效率提升，更是全面的商業價值。
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl border border-green-200 hover:shadow-lg transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">💰 大幅降低營運成本</h3>
+          </div>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>通話費節省：</strong> LINE Call Plus 每分鐘僅 NT$1.44~6，較傳統電信費用更優惠</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>人力成本釋放：</strong> 將80%重複性問題交給AI，讓真人客服專注於高價值的銷售與複雜客訴處理</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl border border-blue-200 hover:shadow-lg transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">📈 有效提升營收轉換</h3>
+          </div>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>24/7商機捕獲：</strong> 全天候接聽電話，將非營業時間的每一通詢問都轉化為潛在訂單</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>通話即是粉絲：</strong> 來電顧客自動成為LINE好友，方便您進行後續的再行銷與優惠推播</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-gradient-to-br from-purple-50 to-white p-8 rounded-2xl border border-purple-200 hover:shadow-lg transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">⭐ 創造極致顧客體驗</h3>
+          </div>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>零等待時間：</strong> 告別惱人的客服等待音樂，每一通電話都能立即得到回應</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>顧客通話免費：</strong> 顧客透過LINE撥打完全免費，大幅提升致電意願</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>VIP專屬通道：</strong> 可設定VIP客戶來電時，跳過AI直接轉接專屬真人客服</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-gradient-to-br from-orange-50 to-white p-8 rounded-2xl border border-orange-200 hover:shadow-lg transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mr-4">
+              <svg class="h-6 w-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">🏢 強化品牌專業形象</h3>
+          </div>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>展現創新思維：</strong> 提供現代化、高效率的溝通管道，讓您的品牌在競爭對手中脫穎而出</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>溝通管道一致性：</strong> 在顧客最常使用的LINE平台上，提供無縫的文字與語音溝通體驗</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          常見問題 (FAQ)
+        </h2>
+      </div>
+      
+      <div class="space-y-6">
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex items-start mb-4">
+              <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                <span class="text-green-600 font-bold text-sm">Q1</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">
+                  我們公司已經有傳統的電話 IVR 系統，導入後能否共存？
+                </h3>
+                <p class="text-gray-700 leading-relaxed">
+                  絕對可以！Seasalt.ai 的方案具備高度彈性，能與您現有的 IVR 系統並行運作。您可以根據分流策略自由配置，例如，設定特定時段或特定需求的來電由 AI 處理。甚至可以為 VIP 客戶設定專屬通道，讓他們來電時能跳過 AI/IVR，直通真人專員，提供尊榮服務。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex items-start mb-4">
+              <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                <span class="text-blue-600 font-bold text-sm">Q2</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">
+                  尖峰時段電話量超大，AI 系統真的能扛住嗎？
+                </h3>
+                <p class="text-gray-700 leading-relaxed">
+                  這正是 AI 的強項所在！在客服高峰期，所有來電會先由 AI 語音助理接聽並進行第一線處理與分流。AI 能瞬間處理大量重複性問題（如訂位、查詢），僅將真正需要真人介入的高價值或複雜對話轉接給客服團隊。您還可以啟用「自動超時交還 AI」的混合模式，確保沒有任何一通電話被遺漏，大幅提升服務量能。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex items-start mb-4">
+              <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                <span class="text-purple-600 font-bold text-sm">Q3</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">
+                  我們除了 LINE，還有官網、Facebook 等多個客服管道，回覆口徑能保持一致嗎？
+                </h3>
+                <p class="text-gray-700 leading-relaxed">
+                  當然。SeaChat 的核心理念就是「統一管理」。它能將來自 LINE、官方網站、Facebook Messenger 等多個渠道的對話，全部整合在一個統一的中台界面。您的團隊可以在同一個地方看到所有顧客訊息，並使用基於相同知識庫的 AI 進行回覆，確保無論顧客從哪個管道進來，都能獲得一致、準確的品牌體驗與回覆策略。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-green-500 to-green-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+          準備好迎接 LINE 客服的革命了嗎？
+        </h2>
+        <p class="text-xl text-white opacity-90 mb-10 max-w-3xl mx-auto">
+          別再讓電話佔線和非營業時間成為您與顧客之間的距離。讓 Seasalt.ai 語音AI助理成為您最強大、最不知疲倦的24小時客服專家與超級業務員。
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            class="bg-white text-green-600 hover:bg-gray-50 px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl"
+          >
+            立即免費註冊 SeaChat，10分鐘啟動您的專屬語音AI助理！
+          </a>
+          <a
+            href={getMeetingUrl(lang)}
+            class="border-2 border-white text-white hover:bg-white hover:text-green-600 px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+          >
+            預約專人討論
+          </a>
+        </div>
+        
+        <p class="text-sm text-white opacity-75 italic">
+          深入了解 SeaChat，發掘更多自動化潛力
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>
