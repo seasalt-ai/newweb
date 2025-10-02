@@ -2,927 +2,927 @@
   "seachat": {
     "solutions": {
       "healthcare": {
-        "title": "의료 솔루션",
-        "subtitle": "환자 만족도를 높이고 운영을 간소화하며 치료 조정을 향상시키는 HIPAA 준수 고객 지원으로 환자 치료를 혁신하십시오。",
-        "trialButton": "무료로 의료 시작",
-        "demoButton": "의료 데모 예약",
-        "featuresTitle": "의료 관련 기능",
-        "featuresSubtitle": "탁월한 환자 치료를 제공하기 위해 의료 제공자를 위해 특별히 제작된 기능입니다。",
+        "title": "Healthcare Solutions",
+        "subtitle": "Transform patient care with HIPAA-compliant customer support that improves patient satisfaction, streamlines operations, and enhances care coordination.",
+        "trialButton": "Start Healthcare For Free",
+        "demoButton": "Schedule Healthcare Demo",
+        "featuresTitle": "Healthcare-Specific Features",
+        "featuresSubtitle": "Purpose-built features for healthcare providers to deliver exceptional patient care.",
         "features": {
           "hipaa": {
-            "title": "HIPAA 준수",
-            "description": "암호화된 통신 및 보안 데이터 처리로 완벽한 HIPAA 준수",
+            "title": "HIPAA Compliance",
+            "description": "Full HIPAA compliance with encrypted communications and secure data handling",
             "benefits": {
-              "encryption": "종단 간 암호화",
-              "audit": "감사 추적",
-              "access": "액세스 제어",
-              "anonymization": "데이터 익명화"
+              "encryption": "End-to-end encryption",
+              "audit": "Audit trails",
+              "access": "Access controls",
+              "anonymization": "Data anonymization"
             }
           },
           "appointments": {
-            "title": "약속 관리",
-            "description": "원활한 약속 예약, 일정 변경 및 알림 시스템",
+            "title": "Appointment Management",
+            "description": "Seamless appointment scheduling, rescheduling, and reminder systems",
             "benefits": {
-              "availability": "실시간 가용성",
-              "reminders": "자동 알림",
-              "cancellation": "취소 처리",
-              "waitlist": "대기자 명단 관리"
+              "availability": "Real-time availability",
+              "reminders": "Automated reminders",
+              "cancellation": "Cancellation handling",
+              "waitlist": "Waitlist management"
             }
           },
           "telehealth": {
-            "title": "원격 의료 지원",
-            "description": "원격 환자 상담을 위한 통합 원격 의료 기능",
+            "title": "Telehealth Support",
+            "description": "Integrated telehealth capabilities for remote patient consultations",
             "benefits": {
-              "video": "화상 상담",
-              "messaging": "보안 메시징",
-              "documents": "문서 공유",
-              "followup": "후속 치료"
+              "video": "Video consultations",
+              "messaging": "Secure messaging",
+              "documents": "Document sharing",
+              "followup": "Follow-up care"
             }
           },
           "engagement": {
-            "title": "환자 참여",
-            "description": "24/7 지원 및 개인화된 치료로 환자 만족도 향상",
+            "title": "Patient Engagement",
+            "description": "Improve patient satisfaction with 24/7 support and personalized care",
             "benefits": {
-              "availability": "24/7 가용성",
-              "multilanguage": "다국어 지원",
-              "coordination": "치료 조정",
-              "education": "건강 교육"
+              "availability": "24/7 availability",
+              "multilanguage": "Multi-language support",
+              "coordination": "Care coordination",
+              "education": "Health education"
             }
           }
         },
-        "metricsTitle": "의료 영향 지표",
-        "metricsSubtitle": "환자 지원을 위해 SeaChat을 사용하는 의료 제공자의 실제 결과입니다。",
+        "metricsTitle": "Healthcare Impact Metrics",
+        "metricsSubtitle": "Real results from healthcare providers using SeaChat for patient support.",
         "metrics": {
           "noshows": {
-            "label": "노쇼 감소",
-            "description": "자동 약속 알림 기능 포함",
+            "label": "Reduction in No-shows",
+            "description": "With automated appointment reminders",
             "value": "40%"
           },
           "response": {
-            "label": "더 빠른 응답 시간",
-            "description": "환자 문의 및 우려 사항에 대해",
+            "label": "Faster Response Time",
+            "description": "For patient inquiries and concerns",
             "value": "60%"
           },
           "satisfaction": {
-            "label": "환자 만족도",
-            "description": "24/7 지원 가능",
+            "label": "Patient Satisfaction",
+            "description": "With 24/7 support availability",
             "value": "85%"
           },
           "efficiency": {
-            "label": "관리 효율성",
-            "description": "자동화된 워크플로를 통해",
+            "label": "Administrative Efficiency",
+            "description": "Through automated workflows",
             "value": "50%"
           }
         },
-        "useCasesTitle": "일반적인 의료 사용 사례",
-        "useCasesSubtitle": "SeaChat이 일반적인 환자 상호 작용 및 관리 작업을 어떻게 처리하는지 확인하십시오。",
+        "useCasesTitle": "Common Healthcare Use Cases",
+        "useCasesSubtitle": "See how SeaChat handles typical patient interactions and administrative tasks.",
         "useCases": {
           "appointments": {
-            "title": "약속 예약",
-            "description": "환자는 채팅을 통해 약속을 예약, 변경 또는 취소할 수 있습니다。",
-            "example": "다음 주 화요일로 약속을 변경해야 합니다。",
-            "outcome": "캘린더 통합 및 확인 기능이 있는 자동 예약"
+            "title": "Appointment Scheduling",
+            "description": "Patients can book, reschedule, or cancel appointments through chat",
+            "example": "I need to reschedule my appointment for next Tuesday",
+            "outcome": "Automated scheduling with calendar integration and confirmation"
           },
           "prescriptions": {
-            "title": "처방전 문의",
-            "description": "처방전 리필 및 약물 질문을 안전하게 처리합니다。",
-            "example": "내 처방전은 언제 픽업할 수 있습니까?",
-            "outcome": "실시간 약국 통합 및 상태 업데이트"
+            "title": "Prescription Inquiries",
+            "description": "Handle prescription refills and medication questions securely",
+            "example": "When will my prescription be ready for pickup?",
+            "outcome": "Real-time pharmacy integration and status updates"
           },
           "insurance": {
-            "title": "보험 확인",
-            "description": "보험 적용 범위를 확인하고 환자에게 혜택을 설명합니다。",
-            "example": "내 시술이 내 보험 플랜에 포함됩니까?",
-            "outcome": "즉시 보험 확인 및 보장 범위 설명"
+            "title": "Insurance Verification",
+            "description": "Verify insurance coverage and explain benefits to patients",
+            "example": "Is my procedure covered by my insurance plan?",
+            "outcome": "Instant insurance verification and coverage explanation"
           },
           "symptoms": {
-            "title": "증상 사전 스크리닝",
-            "description": "AI 기반 증상 평가 및 분류 권장 사항",
-            "example": "열과 기침이 있는데 내원해야 합니까?",
-            "outcome": "적절한 치료 권장 사항이 포함된 증상 평가"
+            "title": "Symptom Pre-screening",
+            "description": "AI-powered symptom assessment and triage recommendations",
+            "example": "I have a fever and cough, should I come in?",
+            "outcome": "Symptom assessment with appropriate care recommendations"
           }
         },
-        "patientRequest": "환자 요청",
-        "seachatResponse": "SeaChat 응답",
-        "hipaaTitle": "HIPAA 준수 및 보안",
-        "hipaaSubtitle": "의료 보안 및 규정 준수를 염두에 두고 처음부터 구축되었습니다. 탁월한 치료 경험을 제공하면서 환자 데이터를 보호하십시오。",
+        "patientRequest": "Patient Request",
+        "seachatResponse": "SeaChat Response",
+        "hipaaTitle": "HIPAA Compliance & Security",
+        "hipaaSubtitle": "Built from the ground up with healthcare security and compliance in mind. Protect patient data while delivering exceptional care experiences.",
         "compliance": {
           "complianceFeatures": [
-            "종단 간 암호화",
-            "감사 추적",
-            "액세스 제어",
-            "데이터 익명화",
-            "보안 데이터 저장소",
-            "정기적인 보안 감사",
-            "직원 교육 및 인증",
-            "사고 대응 절차"
+            "End-to-end encryption",
+            "Audit trails",
+            "Access controls",
+            "Data anonymization",
+            "Secure data storage",
+            "Regular security audits",
+            "Staff training and certification",
+            "Incident response procedures"
           ]
         },
-        "certificationsTitle": "보안 인증",
+        "certificationsTitle": "Security Certifications",
         "certifications": {
-          "hipaa": "HIPAA 준수",
-          "soc2": "SOC 2 유형 II",
+          "hipaa": "HIPAA Compliant",
+          "soc2": "SOC 2 Type II",
           "iso": "ISO 27001",
-          "gdpr": "GDPR 준비 완료"
+          "gdpr": "GDPR Ready"
         },
-        "certified": "인증됨",
-        "compliant": "준수",
-        "ctaTitle": "환자 치료를 혁신할 준비가 되셨습니까?",
-        "ctaSubtitle": "최고의 보안 및 규정 준수 표준을 유지하면서 탁월한 환자 경험을 제공하기 위해 이미 SeaChat을 사용하고 있는 의료 제공자와 함께하십시오。",
-        "ctaTrialButton": "무료로 의료 시작",
-        "ctaDemoButton": "의료 데모 예약"
+        "certified": "Certified",
+        "compliant": "Compliant",
+        "ctaTitle": "Ready to Transform Patient Care?",
+        "ctaSubtitle": "Join healthcare providers already using SeaChat to deliver exceptional patient experiences while maintaining the highest security and compliance standards.",
+        "ctaTrialButton": "Start Healthcare For Free",
+        "ctaDemoButton": "Schedule Healthcare Demo"
       },
       "fintech": {
         "securityFeatures": [
-          "모든 통신에 대한 종단 간 암호화",
-          "다단계 인증 및 신원 확인",
-          "정기적인 보안 감사 및 침투 테스트",
-          "ISO 27001 인증 인프라",
-          "실시간 사기 모니터링 및 탐지",
-          "속도 제한이 있는 보안 API 엔드포인트"
+          "End-to-end encryption for all communications",
+          "Multi-factor authentication and identity verification",
+          "Regular security audits and penetration testing",
+          "ISO 27001 certified infrastructure",
+          "Real-time fraud monitoring and detection",
+          "Secure API endpoints with rate limiting"
         ],
-        "title": "핀테크 솔루션",
-        "subtitle": "금융 서비스를 위한 안전하고 규정을 준수하는 고객 지원. 거래를 처리하고 투자 지침을 제공하며 규제 준수를 자신 있게 보장합니다。",
-        "trialButton": "무료로 핀테크 시작",
-        "demoButton": "금융 데모 예약",
-        "featuresTitle": "금융 서비스 기능",
-        "featuresSubtitle": "금융 기관이 안전하고 규정을 준수하는 고객 지원을 제공하기 위해 특별히 제작된 기능입니다。",
+        "title": "Fintech Solutions",
+        "subtitle": "Secure, compliant customer support for financial services. Handle transactions, provide investment guidance, and ensure regulatory compliance with confidence.",
+        "trialButton": "Start Fintech For Free",
+        "demoButton": "Schedule Financial Demo",
+        "featuresTitle": "Financial Services Features",
+        "featuresSubtitle": "Purpose-built features for financial institutions to deliver secure, compliant customer support.",
         "features": {
           "security": {
-            "title": "금융 보안",
-            "description": "PCI DSS 준수 및 사기 방지 기능이 있는 은행 수준의 보안",
+            "title": "Financial Security",
+            "description": "Bank-grade security with PCI DSS compliance and fraud protection",
             "benefits": {
-              "pci": "PCI DSS 준수",
-              "fraud": "사기 탐지",
-              "transactions": "안전한 거래",
-              "identity": "신원 확인"
+              "pci": "PCI DSS compliance",
+              "fraud": "Fraud detection",
+              "transactions": "Secure transactions",
+              "identity": "Identity verification"
             }
           },
           "payment": {
-            "title": "결제 지원",
-            "description": "포괄적인 결제 처리 지원 및 분쟁 해결",
+            "title": "Payment Support",
+            "description": "Comprehensive payment processing support and dispute resolution",
             "benefits": {
-              "tracking": "거래 추적",
-              "dispute": "분쟁 처리",
-              "refund": "환불 처리",
-              "methods": "결제 방법"
+              "tracking": "Transaction tracking",
+              "dispute": "Dispute handling",
+              "refund": "Refund processing",
+              "methods": "Payment methods"
             }
           },
           "investment": {
-            "title": "투자 지침",
-            "description": "AI 기반 투자 조언 및 포트폴리오 관리 지원",
+            "title": "Investment Guidance",
+            "description": "AI-powered investment advice and portfolio management support",
             "benefits": {
-              "insights": "시장 통찰력",
-              "portfolio": "포트폴리오 분석",
-              "risk": "위험 평가",
-              "recommendations": "투자 추천"
+              "insights": "Market insights",
+              "portfolio": "Portfolio analysis",
+              "risk": "Risk assessment",
+              "recommendations": "Investment recommendations"
             }
           },
           "compliance": {
-            "title": "규제 준수",
-            "description": "금융 규정 및 보고 요구 사항에 대한 기본 제공 준수",
+            "title": "Regulatory Compliance",
+            "description": "Built-in compliance with financial regulations and reporting requirements",
             "benefits": {
-              "kyc": "KYC/AML 준수",
-              "reporting": "규제 보고",
-              "audit": "감사 추적",
-              "protection": "데이터 보호"
+              "kyc": "KYC/AML compliance",
+              "reporting": "Regulatory reporting",
+              "audit": "Audit trails",
+              "protection": "Data protection"
             }
           }
         },
-        "impactTitle": "금융 서비스 영향",
-        "impactSubtitle": "고객 지원을 위해 SeaChat을 사용하는 금융 기관의 실제 결과입니다。",
+        "impactTitle": "Financial Services Impact",
+        "impactSubtitle": "Real results from financial institutions using SeaChat for customer support.",
         "metrics": {
           "accuracy": {
-            "label": "거래 정확도",
-            "description": "자동 처리 및 확인 기능 포함"
+            "label": "Transaction Accuracy",
+            "description": "With automated processing and verification"
           },
           "resolution": {
-            "label": "더 빠른 해결",
-            "description": "금융 문의 및 분쟁에 대해"
+            "label": "Faster Resolution",
+            "description": "For financial inquiries and disputes"
           },
           "fraud": {
-            "label": "사기 탐지율",
-            "description": "AI 기반 모니터링 시스템 포함"
+            "label": "Fraud Detection Rate",
+            "description": "With AI-powered monitoring systems"
           },
           "satisfaction": {
-            "label": "고객 만족도",
-            "description": "금융 지원 상호 작용에 대해"
+            "label": "Customer Satisfaction",
+            "description": "For financial support interactions"
           }
         },
-        "useCasesTitle": "금융 지원 사용 사례",
-        "useCasesSubtitle": "SeaChat이 복잡한 금융 문의 및 거래를 어떻게 처리하는지 확인하십시오。",
+        "useCasesTitle": "Financial Support Use Cases",
+        "useCasesSubtitle": "See how SeaChat handles complex financial inquiries and transactions.",
         "useCases": {
           "account": {
-            "title": "계정 관리",
-            "description": "고객의 계정 설정, 확인 및 관리를 지원합니다。",
-            "example": "비즈니스 계정 설정에 도움이 필요합니다。",
-            "outcome": "문서 확인 및 규정 준수 확인 기능이 있는 안내된 계정 설정"
+            "title": "Account Management",
+            "description": "Help customers with account setup, verification, and management",
+            "example": "I need help setting up my business account",
+            "outcome": "Guided account setup with document verification and compliance checks"
           },
           "transaction": {
-            "title": "거래 문의",
-            "description": "실시간 거래 상태 및 내역 정보를 제공합니다。",
-            "example": "ABC 회사로의 전신 송금은 어디에 있습니까?",
-            "outcome": "상세한 상태 업데이트가 포함된 실시간 거래 추적"
+            "title": "Transaction Inquiries",
+            "description": "Provide real-time transaction status and history information",
+            "example": "Where is my wire transfer to ABC Company?",
+            "outcome": "Real-time transaction tracking with detailed status updates"
           },
           "fraud": {
-            "title": "사기 방지",
-            "description": "AI 모니터링으로 사기 행위를 탐지하고 방지합니다。",
-            "example": "내 계정에 의심스러운 청구가 있습니다。",
-            "outcome": "즉각적인 사기 조사 및 계정 보호 조치"
+            "title": "Fraud Prevention",
+            "description": "Detect and prevent fraudulent activities with AI monitoring",
+            "example": "I see a suspicious charge on my account",
+            "outcome": "Immediate fraud investigation and account protection measures"
           },
           "investment": {
-            "title": "투자 지원",
-            "description": "투자 지침 및 포트폴리오 관리 지원을 제공합니다。",
-            "example": "지금 기술주에 투자해야 합니까?",
-            "outcome": "위험 프로필 및 시장 분석에 기반한 개인화된 투자 조언"
+            "title": "Investment Support",
+            "description": "Provide investment guidance and portfolio management assistance",
+            "example": "Should I invest in tech stocks right now?",
+            "outcome": "Personalized investment advice based on risk profile and market analysis"
           }
         },
-        "customerInquiry": "고객 문의",
-        "seachatResponse": "SeaChat 응답",
-        "securityTitle": "은행 수준의 보안 및 규정 준수",
-        "securitySubtitle": "금융 서비스 기관을 위한 최고 수준의 보안 표준 및 규제 준수 요구 사항으로 구축되었습니다。",
-        "regulatoryTitle": "규제 준수",
+        "customerInquiry": "Customer Inquiry",
+        "seachatResponse": "SeaChat Response",
+        "securityTitle": "Bank-Grade Security & Compliance",
+        "securitySubtitle": "Built with the highest security standards and regulatory compliance requirements for financial services institutions.",
+        "regulatoryTitle": "Regulatory Compliance",
         "regulations": {
           "pci": {
             "name": "PCI DSS",
-            "description": "지불 카드 산업 데이터 보안 표준",
-            "status": "준수"
+            "description": "Payment Card Industry Data Security Standard",
+            "status": "Compliant"
           },
           "sox": {
             "name": "SOX",
-            "description": "사베인스-옥슬리법 준수",
-            "status": "준수"
+            "description": "Sarbanes-Oxley Act compliance",
+            "status": "Compliant"
           },
           "gdpr": {
             "name": "GDPR",
-            "description": "일반 데이터 보호 규정",
-            "status": "준수"
+            "description": "General Data Protection Regulation",
+            "status": "Compliant"
           },
           "kyc": {
             "name": "KYC/AML",
-            "description": "고객 알기/자금 세탁 방지",
-            "status": "지원됨"
+            "description": "Know Your Customer / Anti-Money Laundering",
+            "status": "Supported"
           },
           "ccpa": {
             "name": "CCPA",
-            "description": "캘리포니아 소비자 개인 정보 보호법",
-            "status": "준수"
+            "description": "California Consumer Privacy Act",
+            "status": "Compliant"
           },
           "finra": {
             "name": "FINRA",
-            "description": "금융 산업 규제 기관",
-            "status": "지원됨"
+            "description": "Financial Industry Regulatory Authority",
+            "status": "Supported"
           }
         },
-        "ctaTitle": "금융 서비스를 보호할 준비가 되셨습니까?",
-        "ctaSubtitle": "신뢰를 구축하고 성장을 주도하는 안전하고 규정을 준수하는 고객 지원을 제공하기 위해 이미 SeaChat을 사용하고 있는 금융 기관에 합류하십시오。",
-        "ctaTrialButton": "무료로 핀테크 시작",
-        "ctaDemoButton": "금융 데모 예약"
+        "ctaTitle": "Ready to Secure Your Financial Services?",
+        "ctaSubtitle": "Join financial institutions already using SeaChat to deliver secure, compliant customer support that builds trust and drives growth.",
+        "ctaTrialButton": "Start Fintech For Free",
+        "ctaDemoButton": "Schedule Financial Demo"
       },
       "ecommerce": {
-        "title": "전자상거래 및 소매",
-        "subtitle": "판매를 촉진하고 장바구니 포기를 줄이며 충성도 높은 고객을 만드는 지능형 고객 지원으로 온라인 상점을 혁신하십시오。",
-        "trialButton": "무료로 전자상거래 시작",
-        "demoButton": "전자상거래 데모 예약",
-        "featuresTitle": "전자상거래 특화 기능",
-        "featuresSubtitle": "판매를 극대화하고 고객 만족도를 높이기 위해 온라인 소매업체를 위해 특별히 제작된 기능입니다。",
+        "title": "E-commerce & Retail",
+        "subtitle": "Transform your online store with intelligent customer support that drives sales, reduces cart abandonment, and creates loyal customers.",
+        "trialButton": "Start E-commerce For Free",
+        "demoButton": "Schedule E-commerce Demo",
+        "featuresTitle": "E-commerce Specialized Features",
+        "featuresSubtitle": "Purpose-built features for online retailers to maximize sales and customer satisfaction.",
         "features": {
           "orders": {
-            "title": "주문 관리 통합",
-            "description": "실시간 주문 추적 및 업데이트를 위해 전자상거래 플랫폼과 원활하게 통합합니다。",
+            "title": "Order Management Integration",
+            "description": "Seamlessly integrate with your e-commerce platform for real-time order tracking and updates.",
             "benefits": {
-              "status": "실시간 주문 상태",
-              "shipping": "자동 배송 업데이트",
-              "returns": "반품 처리",
-              "inventory": "재고 문의"
+              "status": "Real-time order status",
+              "shipping": "Automated shipping updates",
+              "returns": "Return processing",
+              "inventory": "Inventory inquiries"
             }
           },
           "accounts": {
-            "title": "고객 계정 지원",
-            "description": "고객의 계정 문제, 비밀번호 재설정 및 프로필 관리를 지원합니다。",
+            "title": "Customer Account Support",
+            "description": "Help customers with account issues, password resets, and profile management.",
             "benefits": {
-              "recovery": "계정 복구",
-              "updates": "프로필 업데이트",
-              "subscriptions": "구독 관리",
-              "billing": "청구 지원"
+              "recovery": "Account recovery",
+              "updates": "Profile updates",
+              "subscriptions": "Subscription management",
+              "billing": "Billing support"
             }
           },
           "recommendations": {
-            "title": "제품 추천",
-            "description": "고객 선호도 및 검색 기록에 기반한 AI 기반 제품 제안。",
+            "title": "Product Recommendations",
+            "description": "AI-powered product suggestions based on customer preferences and browsing history.",
             "benefits": {
-              "personalized": "개인화된 제안",
-              "cross": "교차 판매 기회",
-              "upselling": "상향 판매 자동화",
-              "inventory": "재고 최적화"
+              "personalized": "Personalized suggestions",
+              "cross": "Cross-selling opportunities",
+              "upselling": "Upselling automation",
+              "inventory": "Inventory optimization"
             }
           },
           "assistance": {
-            "title": "24/7 쇼핑 지원",
-            "description": "다양한 시간대와 쇼핑 패턴의 고객을 위한 24시간 지원。",
+            "title": "24/7 Shopping Assistance",
+            "description": "Round-the-clock support for customers across different time zones and shopping patterns.",
             "benefits": {
-              "global": "글로벌 커버리지",
-              "peak": "피크 시간 지원",
-              "holiday": "휴일 지원",
-              "mobile": "모바일 쇼핑 도움말"
+              "global": "Global coverage",
+              "peak": "Peak hour support",
+              "holiday": "Holiday assistance",
+              "mobile": "Mobile shopping help"
             }
           }
         },
-        "resultsTitle": "입증된 전자상거래 결과",
-        "resultsSubtitle": "고객 지원을 위해 SeaChat을 사용하는 전자상거래 비즈니스의 실제 지표입니다。",
+        "resultsTitle": "Proven E-commerce Results",
+        "resultsSubtitle": "Real metrics from e-commerce businesses using SeaChat for customer support.",
         "metrics": {
           "conversion": {
-            "label": "판매 전환율 증가",
-            "description": "사전 예방적 고객 지원을 통해"
+            "label": "Increase in Sales Conversion",
+            "description": "Through proactive customer support"
           },
           "abandonment": {
-            "label": "장바구니 포기 감소",
-            "description": "실시간 쇼핑 지원 포함"
+            "label": "Reduction in Cart Abandonment",
+            "description": "With real-time shopping assistance"
           },
           "resolution": {
-            "label": "더 빠른 주문 해결",
-            "description": "자동 주문 상태 업데이트"
+            "label": "Faster Order Resolution",
+            "description": "Automated order status updates"
           },
           "satisfaction": {
-            "label": "고객 만족도",
-            "description": "전자상거래 지원 상호 작용에 대해"
+            "label": "Customer Satisfaction Rate",
+            "description": "For e-commerce support interactions"
           }
         },
-        "integrationsTitle": "전자상거래 플랫폼 통합",
-        "integrationsSubtitle": "통합된 고객 지원을 위해 기존 전자상거래 스택과 원활하게 연결합니다。",
+        "integrationsTitle": "E-commerce Platform Integrations",
+        "integrationsSubtitle": "Seamlessly connect with your existing e-commerce stack for unified customer support.",
         "integrations": {
           "shopify": {
             "name": "Shopify",
-            "description": "전체 주문 통합 기능이 있는 기본 Shopify 앱"
+            "description": "Native Shopify app with full order integration"
           },
           "woocommerce": {
             "name": "WooCommerce",
-            "description": "WooCommerce 스토어용 WordPress 플러그인"
+            "description": "WordPress plugin for WooCommerce stores"
           },
           "magento": {
             "name": "Magento",
-            "description": "엔터프라이즈급 Magento 통합"
+            "description": "Enterprise-grade Magento integration"
           },
           "bigcommerce": {
             "name": "BigCommerce",
-            "description": "완벽한 BigCommerce API 통합"
+            "description": "Complete BigCommerce API integration"
           },
           "stripe": {
             "name": "Stripe",
-            "description": "결제 처리 및 청구 지원"
+            "description": "Payment processing and billing support"
           },
           "paypal": {
             "name": "PayPal",
-            "description": "PayPal 거래 및 분쟁 처리"
+            "description": "PayPal transaction and dispute handling"
           }
         },
-        "successTitle": "성공 사례: 패션 소매업체",
-        "challenge": "과제",
-        "challengeDescription": "높은 장바구니 포기율과 고객이 사이즈 질문 및 제품 가용성 문제로 인해 이탈합니다。",
-        "solution": "솔루션",
-        "solutionDescription": "제품 카탈로그 통합, 사이즈 가이드 및 사전 예방적 장바구니 포기 복구 기능이 있는 SeaChat 배포。",
-        "results": "결과",
-        "result1": "전환율 45% 증가",
-        "result2": "장바구니 포기 60% 감소",
-        "result3": "6개월 만에 230만 달러 추가 수익",
-        "chatPreview": "라이브 채팅 미리보기",
-        "customer": "고객",
-        "customerQuestion": "이 드레스 M 사이즈 있나요?",
+        "successTitle": "Success Story: Fashion Retailer",
+        "challenge": "Challenge",
+        "challengeDescription": "High cart abandonment rate and customers leaving due to sizing questions and product availability concerns.",
+        "solution": "Solution",
+        "solutionDescription": "Deployed SeaChat with product catalog integration, sizing guides, and proactive cart abandonment recovery.",
+        "results": "Results",
+        "result1": "45% increase in conversion rate",
+        "result2": "60% reduction in cart abandonment",
+        "result3": "$2.3M additional revenue in 6 months",
+        "chatPreview": "Live Chat Preview",
+        "customer": "Customer",
+        "customerQuestion": "Is this dress available in size M?",
         "seachatAI": "SeaChat AI",
-        "aiResponse1": "네! 블루 썸머 드레스는 M 사이즈로 구매 가능합니다. 재고가 3개 있습니다. 장바구니에 추가해 드릴까요?",
-        "customerResponse": "완벽해요! 네, 추가해 주세요。",
-        "aiResponse2": "장바구니에 추가되었습니다! 🛍️ 무료 배송 대상입니다. 결제하시겠습니까?",
-        "ctaTitle": "전자상거래 매출을 높일 준비가 되셨습니까?",
-        "ctaSubtitle": "SeaChat을 사용하여 전환율을 높이고 장바구니 포기를 줄이며 탁월한 쇼핑 경험을 만드는 수백 개의 온라인 소매업체에 합류하십시오。",
-        "ctaTrialButton": "무료로 전자상거래 시작",
-        "ctaDemoButton": "전자상거래 데모 예약"
+        "aiResponse1": "Yes! The Blue Summer Dress is available in size M. We have 3 in stock. Would you like me to add it to your cart?",
+        "customerResponse": "Perfect! Yes, please add it.",
+        "aiResponse2": "Added to cart! 🛍️ You qualify for free shipping. Ready to checkout?",
+        "ctaTitle": "Ready to Boost Your E-commerce Sales?",
+        "ctaSubtitle": "Join hundreds of online retailers using SeaChat to increase conversions, reduce cart abandonment, and create exceptional shopping experiences.",
+        "ctaTrialButton": "Start E-commerce For Free",
+        "ctaDemoButton": "Schedule E-commerce Demo"
       },
       "education": {
-        "title": "교육 솔루션",
-        "subtitle": "학생, 학부모, 교직원 및 직원을 위한 AI 기반 지원으로 교육 지원을 혁신하십시오. 운영을 간소화하고 학습 경험을 향상시키십시오。",
-        "trialButton": "무료로 교육 시작",
-        "demoButton": "교육 데모 예약",
-        "featuresTitle": "교육 관련 기능",
-        "featuresSubtitle": "학생의 성공과 운영 효율성을 향상시키기 위해 교육 기관을 위해 특별히 제작된 기능입니다。",
+        "title": "Education Solutions",
+        "subtitle": "Transform educational support with AI-powered assistance for students, parents, faculty, and staff. Streamline operations and enhance the learning experience.",
+        "trialButton": "Start Education For Free",
+        "demoButton": "Schedule Education Demo",
+        "featuresTitle": "Education-Specific Features",
+        "featuresSubtitle": "Purpose-built features for educational institutions to enhance student success and operational efficiency.",
         "features": {
           "student": {
-            "title": "학생 지원 서비스",
-            "description": "학생 문의, 등록 및 학업 지원을 위한 포괄적인 지원",
+            "title": "Student Support Services",
+            "description": "Comprehensive support for student inquiries, enrollment, and academic assistance",
             "benefits": {
-              "support": "24/7 학생 지원",
-              "enrollment": "등록 지원",
-              "academic": "학업 지도",
-              "technical": "기술 지원"
+              "support": "24/7 student support",
+              "enrollment": "Enrollment assistance",
+              "academic": "Academic guidance",
+              "technical": "Technical help"
             }
           },
           "admin": {
-            "title": "관리 자동화",
-            "description": "자동화된 일정 관리 및 알림으로 관리 작업 간소화",
+            "title": "Administrative Automation",
+            "description": "Streamline administrative tasks with automated scheduling and notifications",
             "benefits": {
-              "scheduling": "수업 일정 관리",
-              "events": "이벤트 관리",
-              "deadlines": "마감일 알림",
-              "registration": "등록 지원"
+              "scheduling": "Class scheduling",
+              "events": "Event management",
+              "deadlines": "Deadline reminders",
+              "registration": "Registration support"
             }
           },
           "stakeholder": {
-            "title": "다중 이해관계자 지원",
-            "description": "맞춤형 경험으로 학생, 학부모, 교직원 및 직원 지원",
+            "title": "Multi-Stakeholder Support",
+            "description": "Support students, parents, faculty, and staff with tailored experiences",
             "benefits": {
-              "portals": "학생 포털",
-              "parent": "학부모 커뮤니케이션",
-              "faculty": "교직원 지원",
-              "staff": "직원 조정"
+              "portals": "Student portals",
+              "parent": "Parent communication",
+              "faculty": "Faculty assistance",
+              "staff": "Staff coordination"
             }
           },
           "lms": {
-            "title": "학습 관리 통합",
-            "description": "LMS 플랫폼 및 교육 도구와의 원활한 통합",
+            "title": "Learning Management Integration",
+            "description": "Seamless integration with LMS platforms and educational tools",
             "benefits": {
-              "connectivity": "LMS 연결",
-              "grades": "성적 문의",
-              "assignments": "과제 도움말",
-              "courses": "과정 정보"
+              "connectivity": "LMS connectivity",
+              "grades": "Grade inquiries",
+              "assignments": "Assignment help",
+              "courses": "Course information"
             }
           }
         },
-        "stakeholdersTitle": "모든 이해관계자 지원",
-        "stakeholdersSubtitle": "교육 커뮤니티의 모든 구성원을 위한 맞춤형 경험。",
+        "stakeholdersTitle": "Support for All Stakeholders",
+        "stakeholdersSubtitle": "Tailored experiences for every member of your educational community.",
         "stakeholders": {
           "students": {
-            "title": "학생",
-            "description": "학업 지원, 등록 도움말 및 캠퍼스 서비스",
+            "title": "Students",
+            "description": "Academic support, enrollment help, and campus services",
             "features": {
-              "courses": "과정 정보",
-              "assignments": "과제 마감일",
-              "grades": "성적 문의",
-              "campus": "캠퍼스 탐색"
+              "courses": "Course information",
+              "assignments": "Assignment deadlines",
+              "grades": "Grade inquiries",
+              "campus": "Campus navigation"
             }
           },
           "parents": {
-            "title": "학부모",
-            "description": "학생의 진도 및 기관 업데이트에 대한 정보 유지",
+            "title": "Parents",
+            "description": "Stay informed about student progress and institutional updates",
             "features": {
-              "progress": "진도 업데이트",
-              "payment": "결제 정보",
-              "events": "이벤트 알림",
-              "communication": "교직원과의 커뮤니케이션"
+              "progress": "Progress updates",
+              "payment": "Payment information",
+              "events": "Event notifications",
+              "communication": "Communication with faculty"
             }
           },
           "faculty": {
-            "title": "교직원",
-            "description": "관리 지원 및 교육 지원",
+            "title": "Faculty",
+            "description": "Administrative support and teaching assistance",
             "features": {
-              "management": "수업 관리",
-              "inquiries": "학생 문의",
-              "resources": "리소스 요청",
-              "technical": "기술 지원"
+              "management": "Class management",
+              "inquiries": "Student inquiries",
+              "resources": "Resource requests",
+              "technical": "Technical support"
             }
           },
           "staff": {
-            "title": "직원",
-            "description": "운영 효율성 및 관리 자동화",
+            "title": "Staff",
+            "description": "Operational efficiency and administrative automation",
             "features": {
-              "automation": "프로세스 자동화",
-              "information": "정보 액세스",
-              "workflow": "워크플로 관리",
-              "reporting": "보고 도구"
+              "automation": "Process automation",
+              "information": "Information access",
+              "workflow": "Workflow management",
+              "reporting": "Reporting tools"
             }
           }
         },
-        "metricsTitle": "교육 영향 지표",
-        "metricsSubtitle": "학생 및 관리 지원을 위해 SeaChat을 사용하는 교육 기관의 실제 결과입니다。",
+        "metricsTitle": "Educational Impact Metrics",
+        "metricsSubtitle": "Real results from educational institutions using SeaChat for student and administrative support.",
         "metrics": {
           "admin": {
-            "label": "관리 업무량 감소",
-            "description": "자동화된 학생 문의를 통해"
+            "label": "Reduced Admin Workload",
+            "description": "Through automated student inquiries"
           },
           "satisfaction": {
-            "label": "학생 만족도",
-            "description": "24/7 지원 가능"
+            "label": "Student Satisfaction",
+            "description": "With 24/7 support availability"
           },
           "response": {
-            "label": "더 빠른 응답 시간",
-            "description": "학생 및 학부모 문의에 대해"
+            "label": "Faster Response Time",
+            "description": "For student and parent inquiries"
           },
           "enrollment": {
-            "label": "등록 증가",
-            "description": "간소화된 신청 절차 포함"
+            "label": "Increased Enrollment",
+            "description": "With streamlined application process"
           }
         },
-        "useCasesTitle": "일반적인 교육 사용 사례",
-        "useCasesSubtitle": "SeaChat이 일반적인 학생 및 관리 상호 작용을 어떻게 처리하는지 확인하십시오。",
+        "useCasesTitle": "Common Educational Use Cases",
+        "useCasesSubtitle": "See how SeaChat handles typical student and administrative interactions.",
         "useCases": {
           "enrollment": {
-            "title": "학생 등록",
-            "description": "예비 학생을 등록 절차에 안내합니다。",
-            "example": "컴퓨터 과학 프로그램에 지원하고 싶습니다。",
-            "outcome": "문서 요구 사항 및 마감일이 포함된 단계별 등록 안내"
+            "title": "Student Enrollment",
+            "description": "Guide prospective students through the enrollment process",
+            "example": "I want to apply for the Computer Science program",
+            "outcome": "Step-by-step enrollment guidance with document requirements and deadlines"
           },
           "academic": {
-            "title": "학업 지원",
-            "description": "학업 지원 및 과정 정보를 제공합니다。",
-            "example": "내 역사 과제 마감일은 언제입니까?",
-            "outcome": "과제 마감일 및 제출 지침에 대한 실시간 액세스"
+            "title": "Academic Support",
+            "description": "Provide academic assistance and course information",
+            "example": "When is the deadline for my History assignment?",
+            "outcome": "Real-time access to assignment deadlines and submission guidelines"
           },
           "campus": {
-            "title": "캠퍼스 서비스",
-            "description": "캠퍼스 시설, 식사, 주택 및 교통을 지원합니다。",
-            "example": "도서관에서 스터디룸을 어떻게 예약합니까?",
-            "outcome": "가용성 및 확인 기능이 있는 직접 예약 시스템 통합"
+            "title": "Campus Services",
+            "description": "Help with campus facilities, dining, housing, and transportation",
+            "example": "How do I reserve a study room in the library?",
+            "outcome": "Direct booking system integration with availability and confirmation"
           },
           "financial": {
-            "title": "재정 지원",
-            "description": "재정 지원 신청 및 장학금 정보를 지원합니다。",
-            "example": "어떤 장학금을 받을 수 있습니까?",
-            "outcome": "학생 프로필에 기반한 개인화된 장학금 추천"
+            "title": "Financial Aid",
+            "description": "Assist with financial aid applications and scholarship information",
+            "example": "What scholarships am I eligible for?",
+            "outcome": "Personalized scholarship recommendations based on student profile"
           }
         },
-        "studentInquiry": "학생 문의",
-        "seachatResponse": "SeaChat 응답",
-        "integrationsTitle": "교육 플랫폼 통합",
-        "integrationsSubtitle": "인기 있는 교육 도구 및 플랫폼과 원활하게 연결합니다。",
+        "studentInquiry": "Student Inquiry",
+        "seachatResponse": "SeaChat Response",
+        "integrationsTitle": "Educational Platform Integrations",
+        "integrationsSubtitle": "Seamlessly connect with popular educational tools and platforms.",
         "integrations": {
           "canvas": {
             "name": "Canvas LMS",
-            "description": "학습 관리 시스템 통합"
+            "description": "Learning management system integration"
           },
           "blackboard": {
             "name": "Blackboard",
-            "description": "과정 관리 및 콘텐츠 전달"
+            "description": "Course management and content delivery"
           },
           "moodle": {
             "name": "Moodle",
-            "description": "오픈 소스 학습 플랫폼"
+            "description": "Open-source learning platform"
           },
           "google": {
             "name": "Google Classroom",
-            "description": "교육 협업 플랫폼"
+            "description": "Educational collaboration platform"
           },
           "zoom": {
             "name": "Zoom",
-            "description": "가상 수업을 위한 화상 회의"
+            "description": "Video conferencing for virtual classes"
           },
           "teams": {
             "name": "Microsoft Teams",
-            "description": "교육 협업 및 커뮤니케이션"
+            "description": "Educational collaboration and communication"
           },
           "sis": {
-            "name": "학생 정보 시스템",
-            "description": "학생 기록을 위한 SIS 통합"
+            "name": "Student Information Systems",
+            "description": "SIS integration for student records"
           },
           "library": {
-            "name": "도서관 시스템",
-            "description": "리소스 예약 및 카탈로그 검색"
+            "name": "Library Systems",
+            "description": "Resource booking and catalog search"
           }
         },
-        "ctaTitle": "교육 지원을 혁신할 준비가 되셨습니까?",
-        "ctaSubtitle": "학생의 성공을 향상시키고 관리 운영을 간소화하기 위해 이미 SeaChat을 사용하고 있는 교육 기관에 합류하십시오。",
-        "ctaTrialButton": "무료로 교육 시작",
-        "ctaDemoButton": "교육 데모 예약"
+        "ctaTitle": "Ready to Transform Education Support?",
+        "ctaSubtitle": "Join educational institutions already using SeaChat to enhance student success and streamline administrative operations.",
+        "ctaTrialButton": "Start Education For Free",
+        "ctaDemoButton": "Schedule Education Demo"
       },
       "realEstate": {
-        "title": "부동산 솔루션",
-        "subtitle": "리드를 포착하고 방문을 조정하며 24/7 고객 지원을 제공하는 AI 기반 고객 지원으로 부동산 비즈니스를 혁신하십시오。",
-        "trialButton": "무료로 부동산 시작",
-        "demoButton": "부동산 데모 예약",
-        "featuresTitle": "부동산 특화 기능",
-        "featuresSubtitle": "부동산 전문가가 리드를 포착하고 고객에게 더 나은 서비스를 제공하기 위해 특별히 제작된 기능입니다。",
+        "title": "Real Estate Solutions",
+        "subtitle": "Transform your real estate business with AI-powered customer support that captures leads, coordinates showings, and provides 24/7 client assistance.",
+        "trialButton": "Start Real Estate For Free",
+        "demoButton": "Schedule Real Estate Demo",
+        "featuresTitle": "Real Estate Specialized Features",
+        "featuresSubtitle": "Purpose-built features for real estate professionals to capture leads and serve clients better.",
         "features": {
           "search": {
-            "title": "부동산 검색 지원",
-            "description": "AI 기반 검색 및 추천으로 고객이 완벽한 부동산을 찾도록 돕습니다。",
+            "title": "Property Search Assistance",
+            "description": "Help clients find their perfect property with AI-powered search and recommendations",
             "benefits": {
-              "matching": "스마트 부동산 매칭",
-              "insights": "시장 통찰력",
-              "neighborhood": "동네 정보",
-              "analysis": "가격 분석"
+              "matching": "Smart property matching",
+              "insights": "Market insights",
+              "neighborhood": "Neighborhood information",
+              "analysis": "Price analysis"
             }
           },
           "showing": {
-            "title": "방문 조정",
-            "description": "자동화된 일정 관리 및 조정으로 부동산 방문을 간소화합니다。",
+            "title": "Showing Coordination",
+            "description": "Streamline property showings with automated scheduling and coordination",
             "benefits": {
-              "scheduling": "자동 일정 관리",
-              "availability": "가용성 동기화",
-              "reminders": "알림 알림",
-              "route": "경로 최적화"
+              "scheduling": "Automated scheduling",
+              "availability": "Availability sync",
+              "reminders": "Reminder notifications",
+              "route": "Route optimization"
             }
           },
           "leads": {
-            "title": "리드 관리",
-            "description": "지능형 검증 및 후속 조치로 리드를 포착하고 육성합니다。",
+            "title": "Lead Management",
+            "description": "Capture and nurture leads with intelligent qualification and follow-up",
             "benefits": {
-              "qualification": "리드 검증",
-              "followup": "자동 후속 조치",
-              "crm": "CRM 통합",
-              "tracking": "전환 추적"
+              "qualification": "Lead qualification",
+              "followup": "Automated follow-up",
+              "crm": "CRM integration",
+              "tracking": "Conversion tracking"
             }
           },
           "communication": {
-            "title": "고객 커뮤니케이션",
-            "description": "문의, 업데이트 및 거래 지원을 위한 24/7 고객 지원",
+            "title": "Client Communication",
+            "description": "24/7 client support for inquiries, updates, and transaction assistance",
             "benefits": {
-              "availability": "24/7 가용성",
-              "updates": "거래 업데이트",
-              "assistance": "문서 지원",
-              "market": "시장 업데이트"
+              "availability": "24/7 availability",
+              "updates": "Transaction updates",
+              "assistance": "Document assistance",
+              "market": "Market updates"
             }
           }
         },
-        "metricsTitle": "부동산 영향 지표",
-        "metricsSubtitle": "고객 지원 및 리드 생성을 위해 SeaChat을 사용하는 부동산 전문가의 실제 결과입니다。",
+        "metricsTitle": "Real Estate Impact Metrics",
+        "metricsSubtitle": "Real results from real estate professionals using SeaChat for client support and lead generation.",
         "metrics": {
           "leads": {
-            "label": "더 많은 검증된 리드",
-            "description": "지능형 리드 검증을 통해"
+            "label": "More Qualified Leads",
+            "description": "Through intelligent lead qualification"
           },
           "response": {
-            "label": "더 빠른 응답 시간",
-            "description": "고객 문의 및 요청에 대해"
+            "label": "Faster Response Time",
+            "description": "For client inquiries and requests"
           },
           "showing": {
-            "label": "방문 효율성",
-            "description": "자동 일정 관리 조정 포함"
+            "label": "Showing Efficiency",
+            "description": "With automated scheduling coordination"
           },
           "satisfaction": {
-            "label": "고객 만족도",
-            "description": "24/7 지원 가능"
+            "label": "Client Satisfaction",
+            "description": "With 24/7 support availability"
           }
         },
-        "propertyTypesTitle": "모든 부동산 유형 지원",
-        "propertyTypesSubtitle": "주거, 상업 또는 투자 부동산을 전문으로 하든 상관없이 저희가 도와드리겠습니다。",
+        "propertyTypesTitle": "All Property Types Supported",
+        "propertyTypesSubtitle": "Whether you specialize in residential, commercial, or investment properties, we've got you covered.",
         "propertyTypes": {
           "residential": {
-            "name": "주거용 매매",
-            "description": "단독 주택, 콘도 및 타운하우스"
+            "name": "Residential Sales",
+            "description": "Single-family homes, condos, and townhouses"
           },
           "commercial": {
-            "name": "상업용 부동산",
-            "description": "사무실 건물, 소매 공간 및 창고"
+            "name": "Commercial Real Estate",
+            "description": "Office buildings, retail spaces, and warehouses"
           },
           "rental": {
-            "name": "임대 부동산",
-            "description": "아파트 단지 및 임대 관리"
+            "name": "Rental Properties",
+            "description": "Apartment complexes and rental management"
           },
           "luxury": {
-            "name": "고급 부동산",
-            "description": "고급 주택 및 독점 매물"
+            "name": "Luxury Properties",
+            "description": "High-end homes and exclusive listings"
           },
           "investment": {
-            "name": "투자 부동산",
-            "description": "수리 후 판매 및 임대 투자"
+            "name": "Investment Properties",
+            "description": "Fix-and-flip and rental investments"
           },
           "new": {
-            "name": "신축",
-            "description": "건축업체 파트너십 및 신규 개발"
+            "name": "New Construction",
+            "description": "Builder partnerships and new developments"
           }
         },
-        "useCasesTitle": "부동산 사용 사례",
-        "useCasesSubtitle": "SeaChat이 일반적인 부동산 고객 상호 작용 및 리드 생성을 어떻게 처리하는지 확인하십시오。",
+        "useCasesTitle": "Real Estate Use Cases",
+        "useCasesSubtitle": "See how SeaChat handles typical real estate client interactions and lead generation.",
         "useCases": {
           "property": {
-            "title": "부동산 문의",
-            "description": "부동산 질문을 처리하고 상세한 정보를 제공합니다。",
-            "example": "오크 스트리트에 있는 3베드룸 주택에 대해 알려주세요。",
-            "outcome": "사진, 가격 및 동네 데이터가 포함된 상세한 부동산 정보"
+            "title": "Property Inquiries",
+            "description": "Handle property questions and provide detailed information",
+            "example": "Tell me about the 3-bedroom house on Oak Street",
+            "outcome": "Detailed property information with photos, pricing, and neighborhood data"
           },
           "showing": {
-            "title": "방문 요청",
-            "description": "부동산 방문을 예약하고 모든 당사자와 조정합니다。",
-            "example": "이번 주말에 방문을 예약하고 싶습니다。",
-            "outcome": "상담원 가용성 및 확인 기능이 있는 자동 예약"
+            "title": "Showing Requests",
+            "description": "Schedule property viewings and coordinate with all parties",
+            "example": "I'd like to schedule a showing for this weekend",
+            "outcome": "Automated scheduling with agent availability and confirmation"
           },
           "market": {
-            "title": "시장 분석",
-            "description": "시장 통찰력과 부동산 가치 평가를 제공합니다。",
-            "example": "오늘 시장에서 내 집의 가치는 얼마입니까?",
-            "outcome": "최근 판매 및 동향이 포함된 비교 시장 분석"
+            "title": "Market Analysis",
+            "description": "Provide market insights and property valuations",
+            "example": "What's my home worth in today's market?",
+            "outcome": "Comparative market analysis with recent sales and trends"
           },
           "transaction": {
-            "title": "거래 지원",
-            "description": "매매 과정을 통해 고객을 안내합니다。",
-            "example": "마감에 필요한 서류는 무엇입니까?",
-            "outcome": "마감일 및 지침이 포함된 필수 서류 체크리스트"
+            "title": "Transaction Support",
+            "description": "Guide clients through the buying or selling process",
+            "example": "What documents do I need for the closing?",
+            "outcome": "Checklist of required documents with deadlines and instructions"
           }
         },
-        "clientInquiry": "고객 문의",
-        "seachatResponse": "SeaChat 응답",
-        "integrationsTitle": "부동산 플랫폼 통합",
-        "integrationsSubtitle": "부동산 비즈니스를 관리하는 데 이미 사용하고 있는 도구 및 플랫폼과 원활하게 연결합니다。",
-        "leadCaptureTitle": "리드 포착 예시",
-        "websiteVisitor": "웹사이트 방문자",
-        "visitorQuery": "50만 달러 미만의 3베드룸 주택을 찾고 있습니다。",
+        "clientInquiry": "Client Inquiry",
+        "seachatResponse": "SeaChat Response",
+        "integrationsTitle": "Real Estate Platform Integrations",
+        "integrationsSubtitle": "Seamlessly connect with the tools and platforms you already use to manage your real estate business.",
+        "leadCaptureTitle": "Lead Capture Example",
+        "websiteVisitor": "Website Visitor",
+        "visitorQuery": "I'm looking for a 3-bedroom house under $500k",
         "seachatAI": "SeaChat AI",
-        "aiResponse": "완벽한 집을 찾는 데 도움을 드리고 싶습니다! 50만 달러 미만의 3베드룸 부동산이 여러 개 있습니다. 몇 가지 옵션을 보내드릴 수 있도록 연락처 정보를 알려주시겠습니까?",
-        "visitorResponse": "물론이죠! 제 이메일은 john@email.com입니다。",
-        "systemAction": "시스템 조치",
-        "leadCaptured": "부동산 선호도와 함께 CRM에 리드가 포착 및 추가되었습니다。",
-        "ctaTitle": "부동산 비즈니스를 혁신할 준비가 되셨습니까?",
-        "ctaSubtitle": "더 많은 리드를 포착하고 방문을 조정하며 탁월한 고객 서비스를 제공하기 위해 이미 SeaChat을 사용하고 있는 부동산 전문가와 함께하십시오。",
-        "ctaTrialButton": "무료로 부동산 시작",
-        "ctaDemoButton": "부동산 데모 예약",
+        "aiResponse": "I'd love to help you find the perfect home! I have several 3-bedroom properties under $500k. Can I get your contact information to send you some options?",
+        "visitorResponse": "Sure! My email is john@email.com",
+        "systemAction": "System Action",
+        "leadCaptured": "Lead captured and added to CRM with property preferences",
+        "ctaTitle": "Ready to Transform Your Real Estate Business?",
+        "ctaSubtitle": "Join real estate professionals already using SeaChat to capture more leads, coordinate showings, and provide exceptional client service.",
+        "ctaTrialButton": "Start Real Estate For Free",
+        "ctaDemoButton": "Schedule Real Estate Demo",
         "integrations": {
-          "0": "MLS 통합",
-          "1": "CRM 시스템",
-          "2": "부동산 관리",
-          "3": "리드 생성 도구",
-          "4": "캘린더 및 일정 관리",
-          "5": "이메일 마케팅",
-          "6": "문서 관리",
-          "7": "가상 투어 플랫폼"
+          "0": "MLS Integration",
+          "1": "CRM Systems",
+          "2": "Property Management",
+          "3": "Lead Generation Tools",
+          "4": "Calendar & Scheduling",
+          "5": "Email Marketing",
+          "6": "Document Management",
+          "7": "Virtual Tour Platforms"
         }
       },
       "saas": {
-        "title": "SaaS 및 기술",
-        "subtitle": "기술 지원, 온보딩 안내 및 사전 예방적 성공 관리를 제공하는 지능형 고객 지원으로 사용자 채택을 가속화하고 이탈을 줄입니다。",
-        "trialButton": "무료로 SaaS 시작",
-        "demoButton": "SaaS 데모 예약",
-        "featuresTitle": "SaaS 관련 기능",
-        "featuresSubtitle": "SaaS 기업이 사용자 성공과 비즈니스 성장을 주도하기 위해 특별히 제작된 기능입니다。",
+        "title": "SaaS & Technology",
+        "subtitle": "Accelerate user adoption and reduce churn with intelligent customer support that provides technical assistance, onboarding guidance, and proactive success management.",
+        "trialButton": "Start SaaS For Free",
+        "demoButton": "Schedule SaaS Demo",
+        "featuresTitle": "SaaS-Specific Features",
+        "featuresSubtitle": "Purpose-built features for SaaS companies to drive user success and business growth.",
         "features": {
           "technical": {
-            "title": "기술 지원",
-            "description": "소프트웨어 문제 및 통합에 대한 전문가 기술 지원 제공",
+            "title": "Technical Support",
+            "description": "Provide expert technical assistance for software issues and integrations",
             "benefits": {
-              "api": "API 문서 도움말",
-              "integration": "통합 지원",
-              "troubleshooting": "문제 해결 가이드",
-              "resources": "개발자 리소스"
+              "api": "API documentation help",
+              "integration": "Integration support",
+              "troubleshooting": "Troubleshooting guides",
+              "resources": "Developer resources"
             }
           },
           "onboarding": {
-            "title": "사용자 온보딩",
-            "description": "안내된 설정 및 기능 소개로 사용자 온보딩 간소화",
+            "title": "User Onboarding",
+            "description": "Streamline user onboarding with guided setup and feature introduction",
             "benefits": {
-              "tutorials": "대화형 튜토리얼",
-              "walkthroughs": "기능 둘러보기",
-              "setup": "설정 지원",
-              "practices": "모범 사례"
+              "tutorials": "Interactive tutorials",
+              "walkthroughs": "Feature walkthroughs",
+              "setup": "Setup assistance",
+              "practices": "Best practices"
             }
           },
           "success": {
-            "title": "고객 성공",
-            "description": "사전 예방적 지원으로 제품 채택을 촉진하고 이탈을 줄입니다。",
+            "title": "Customer Success",
+            "description": "Drive product adoption and reduce churn with proactive support",
             "benefits": {
-              "analytics": "사용량 분석",
-              "adoption": "기능 채택",
-              "churn": "이탈 방지",
-              "upselling": "상향 판매 기회"
+              "analytics": "Usage analytics",
+              "adoption": "Feature adoption",
+              "churn": "Churn prevention",
+              "upselling": "Upselling opportunities"
             }
           },
           "security": {
-            "title": "보안 및 규정 준수",
-            "description": "보안 문제 및 규정 준수 요구 사항 해결",
+            "title": "Security & Compliance",
+            "description": "Address security concerns and compliance requirements",
             "benefits": {
-              "documentation": "보안 문서",
-              "compliance": "규정 준수 가이드",
-              "protection": "데이터 보호",
-              "audit": "감사 지원"
+              "documentation": "Security documentation",
+              "compliance": "Compliance guides",
+              "protection": "Data protection",
+              "audit": "Audit support"
             }
           }
         },
         "useCases": {
           "api": {
-            "title": "API 통합 도움말",
-            "description": "개발자의 API 구현 및 문제 해결 지원",
-            "example": "API로 어떻게 인증합니까?",
-            "outcome": "코드 예제 및 테스트 도구가 포함된 단계별 인증 가이드"
+            "title": "API Integration Help",
+            "description": "Assist developers with API implementation and troubleshooting",
+            "example": "How do I authenticate with your API?",
+            "outcome": "Step-by-step authentication guide with code examples and testing tools"
           },
           "feature": {
-            "title": "기능 안내",
-            "description": "사용자가 고급 기능을 발견하고 구현하도록 돕습니다。",
-            "example": "자동화된 워크플로를 어떻게 설정합니까?",
-            "outcome": "워크플로 템플릿 및 구성 지원이 포함된 대화형 튜토리얼"
+            "title": "Feature Guidance",
+            "description": "Help users discover and implement advanced features",
+            "example": "How do I set up automated workflows?",
+            "outcome": "Interactive tutorial with workflow templates and configuration assistance"
           },
           "billing": {
-            "title": "청구 및 구독",
-            "description": "청구 문의 및 구독 관리 처리",
-            "example": "플랜을 업그레이드하고 싶은데 차이점은 무엇입니까?",
-            "outcome": "가격 세부 정보 및 업그레이드 지원이 포함된 플랜 비교"
+            "title": "Billing & Subscriptions",
+            "description": "Handle billing inquiries and subscription management",
+            "example": "I want to upgrade my plan, what are the differences?",
+            "outcome": "Plan comparison with pricing details and upgrade assistance"
           },
           "performance": {
-            "title": "성능 최적화",
-            "description": "소프트웨어 성능 최적화에 대한 지침 제공",
-            "example": "대시보드가 느리게 로드되는데 어떻게 해결할 수 있습니까?",
-            "outcome": "최적화 권장 사항 및 구현 도움이 포함된 성능 분석"
+            "title": "Performance Optimization",
+            "description": "Provide guidance on optimizing software performance",
+            "example": "My dashboard is loading slowly, how can I fix this?",
+            "outcome": "Performance analysis with optimization recommendations and implementation help"
           }
         },
         "metrics": {
           "tickets": {
-            "label": "지원 티켓 감소",
-            "description": "셀프 서비스 자동화를 통해"
+            "label": "Reduced Support Tickets",
+            "description": "Through self-service automation"
           },
           "onboarding": {
-            "label": "더 빠른 온보딩",
-            "description": "안내된 설정 지원 포함"
+            "label": "Faster Onboarding",
+            "description": "With guided setup assistance"
           },
           "adoption": {
-            "label": "더 높은 기능 채택",
-            "description": "사전 예방적 기능 안내를 통해"
+            "label": "Higher Feature Adoption",
+            "description": "Through proactive feature guidance"
           },
           "churn": {
-            "label": "이탈률 감소",
-            "description": "사전 예방적 고객 성공 포함"
+            "label": "Reduced Churn Rate",
+            "description": "With proactive customer success"
           }
         },
         "types": {
           "b2b": {
-            "title": "B2B SaaS 플랫폼",
-            "description": "엔터프라이즈 소프트웨어 및 비즈니스 도구",
+            "title": "B2B SaaS Platforms",
+            "description": "Enterprise software and business tools",
             "features": {
-              "tenant": "다중 테넌트 지원",
-              "security": "엔터프라이즈 보안",
-              "api": "API 문서",
-              "assistance": "통합 지원"
+              "tenant": "Multi-tenant support",
+              "security": "Enterprise security",
+              "api": "API documentation",
+              "assistance": "Integration assistance"
             }
           },
           "developer": {
-            "title": "개발자 도구",
-            "description": "API, SDK 및 개발 플랫폼",
+            "title": "Developer Tools",
+            "description": "APIs, SDKs, and development platforms",
             "features": {
-              "examples": "코드 예제",
-              "documentation": "기술 문서",
-              "debugging": "디버깅 도움말",
-              "community": "커뮤니티 지원"
+              "examples": "Code examples",
+              "documentation": "Technical documentation",
+              "debugging": "Debugging help",
+              "community": "Community support"
             }
           },
           "marketing": {
-            "title": "마케팅 소프트웨어",
-            "description": "마케팅 자동화 및 분석 도구",
+            "title": "Marketing Software",
+            "description": "Marketing automation and analytics tools",
             "features": {
-              "campaign": "캠페인 설정",
-              "analytics": "분석 안내",
-              "integration": "통합 도움말",
-              "practices": "모범 사례"
+              "campaign": "Campaign setup",
+              "analytics": "Analytics guidance",
+              "integration": "Integration help",
+              "practices": "Best practices"
             }
           },
           "productivity": {
-            "title": "생산성 앱",
-            "description": "협업 및 생산성 소프트웨어",
+            "title": "Productivity Apps",
+            "description": "Collaboration and productivity software",
             "features": {
-              "tutorials": "기능 튜토리얼",
-              "workflow": "워크플로 최적화",
-              "team": "팀 설정",
-              "usage": "사용량 분석"
+              "tutorials": "Feature tutorials",
+              "workflow": "Workflow optimization",
+              "team": "Team setup",
+              "usage": "Usage analytics"
             }
           },
           "ecommerce": {
-            "title": "전자상거래 플랫폼",
-            "description": "온라인 상점 및 결제 솔루션",
+            "title": "E-commerce Platforms",
+            "description": "Online store and payment solutions",
             "features": {
-              "store": "상점 설정",
-              "payment": "결제 통합",
-              "theme": "테마 사용자 정의",
-              "performance": "성능 최적화"
+              "store": "Store setup",
+              "payment": "Payment integration",
+              "theme": "Theme customization",
+              "performance": "Performance optimization"
             }
           },
           "analytics": {
-            "title": "분석 플랫폼",
-            "description": "데이터 분석 및 비즈니스 인텔리전스",
+            "title": "Analytics Platforms",
+            "description": "Data analytics and business intelligence",
             "features": {
-              "dashboard": "대시보드 생성",
-              "data": "데이터 통합",
-              "report": "보고서 생성",
-              "visualization": "시각화 도움말"
+              "dashboard": "Dashboard creation",
+              "data": "Data integration",
+              "report": "Report generation",
+              "visualization": "Visualization help"
             }
           }
         },
-        "typesTitle": "모든 SaaS 카테고리 지원",
-        "typesSubtitle": "엔터프라이즈 플랫폼에서 개발자 도구에 이르기까지 모든 유형의 SaaS 비즈니스를 지원합니다。",
-        "impactTitle": "SaaS 비즈니스 영향",
-        "impactSubtitle": "고객 지원 및 성공을 위해 SeaChat을 사용하는 SaaS 기업의 실제 결과입니다。",
-        "useCasesTitle": "SaaS 지원 사용 사례",
-        "useCasesSubtitle": "SeaChat이 일반적인 SaaS 고객 상호 작용 및 기술 지원을 어떻게 처리하는지 확인하십시오。",
-        "userQuestion": "사용자 질문",
-        "seachatResponse": "SeaChat 응답",
-        "integrationsTitle": "SaaS 플랫폼 통합",
-        "integrationsSubtitle": "SaaS 비즈니스를 지원하는 도구 및 플랫폼과 원활하게 연결하여 통합된 고객 성공 운영을 실현하십시오。",
-        "successFlowTitle": "고객 성공 흐름",
+        "typesTitle": "All SaaS Categories Supported",
+        "typesSubtitle": "From enterprise platforms to developer tools, we support every type of SaaS business.",
+        "impactTitle": "SaaS Business Impact",
+        "impactSubtitle": "Real results from SaaS companies using SeaChat for customer support and success.",
+        "useCasesTitle": "SaaS Support Use Cases",
+        "useCasesSubtitle": "See how SeaChat handles typical SaaS customer interactions and technical support.",
+        "userQuestion": "User Question",
+        "seachatResponse": "SeaChat Response",
+        "integrationsTitle": "SaaS Platform Integrations",
+        "integrationsSubtitle": "Connect with the tools and platforms that power your SaaS business for unified customer success operations.",
+        "successFlowTitle": "Customer Success Flow",
         "flow": {
           "onboarding": {
-            "title": "사용자 온보딩",
-            "description": "안내된 설정 및 기능 소개"
+            "title": "User Onboarding",
+            "description": "Guided setup and feature introduction"
           },
           "adoption": {
-            "title": "기능 채택",
-            "description": "사전 예방적 기능 추천"
+            "title": "Feature Adoption",
+            "description": "Proactive feature recommendations"
           },
           "monitoring": {
-            "title": "사용량 모니터링",
-            "description": "참여 추적 및 문제 식별"
+            "title": "Usage Monitoring",
+            "description": "Track engagement and identify issues"
           },
           "growth": {
-            "title": "성공 및 성장",
-            "description": "상향 판매 및 확장 기회"
+            "title": "Success & Growth",
+            "description": "Upselling and expansion opportunities"
           }
         },
-        "ctaTitle": "SaaS 성장을 가속화할 준비가 되셨습니까?",
-        "ctaSubtitle": "이미 SeaChat을 사용하여 사용자 채택을 촉진하고 이탈을 줄이며 고객 성공을 가속화하는 SaaS 기업에 합류하십시오。",
-        "ctaTrialButton": "무료로 SaaS 시작",
-        "ctaDemoButton": "SaaS 데모 예약",
+        "ctaTitle": "Ready to Accelerate SaaS Growth?",
+        "ctaSubtitle": "Join SaaS companies already using SeaChat to drive user adoption, reduce churn, and accelerate customer success.",
+        "ctaTrialButton": "Start SaaS For Free",
+        "ctaDemoButton": "Schedule SaaS Demo",
         "integrations": {
-          "0": "Slack 통합",
+          "0": "Slack Integration",
           "1": "Salesforce CRM",
           "2": "HubSpot",
           "3": "Zendesk",
@@ -933,408 +933,618 @@
           "8": "Jira",
           "9": "GitHub",
           "10": "Atlassian Suite",
-          "11": "AWS 서비스"
+          "11": "AWS Services"
         }
       },
       "smallBusiness": {
-        "title": "중소기업 솔루션",
-        "subtitle": "중소기업을 위한 저렴하고 사용하기 쉬운 고객 지원. 무료로 시작하고 비용을 들이지 않고 고객에게 더 나은 서비스를 제공하는 데 도움이 되는 기능으로 성장하십시오。",
-        "startButton": "오늘 무료로 시작",
-        "demoButton": "중소기업 데모 보기",
-        "featuresTitle": "중소기업 성공을 위해 구축",
-        "featuresSubtitle": "중소기업이 복잡성이나 비용 없이 전문적인 고객 지원을 제공하는 데 필요한 모든 것。",
+        "title": "Small Business Solutions",
+        "subtitle": "Affordable, easy-to-use customer support for small businesses. Start free and grow with features that help you serve customers better without breaking the bank.",
+        "startButton": "Start Free Today",
+        "demoButton": "View Small Business Demo",
+        "featuresTitle": "Built for Small Business Success",
+        "featuresSubtitle": "Everything small businesses need to provide professional customer support without the complexity or cost.",
         "features": {
           "local": {
-            "title": "지역 비즈니스 지원",
-            "description": "지역 상점, 레스토랑 및 서비스 제공업체에 적합",
+            "title": "Local Business Support",
+            "description": "Perfect for local shops, restaurants, and service providers",
             "benefits": {
-              "seo": "지역 SEO 최적화",
-              "google": "Google 마이 비즈니스 통합",
-              "reviews": "리뷰 관리",
-              "customer": "지역 고객 기반"
+              "seo": "Local SEO optimization",
+              "google": "Google My Business integration",
+              "reviews": "Review management",
+              "customer": "Local customer base"
             }
           },
           "cost": {
-            "title": "비용 효율적인 솔루션",
-            "description": "비즈니스와 함께 성장하는 저렴한 가격",
+            "title": "Cost-Effective Solution",
+            "description": "Affordable pricing that grows with your business",
             "benefits": {
-              "free": "무료 플랜 사용 가능",
-              "setup": "설정비 없음",
-              "pricing": "유연한 가격",
-              "roi": "ROI 추적"
+              "free": "Free plan available",
+              "setup": "No setup fees",
+              "pricing": "Flexible pricing",
+              "roi": "ROI tracking"
             }
           },
           "setup": {
-            "title": "빠른 설정",
-            "description": "몇 시간이나 며칠이 아닌 몇 분 만에 시작",
+            "title": "Quick Setup",
+            "description": "Get started in minutes, not hours or days",
             "benefits": {
-              "minutes": "5분 설정",
-              "templates": "미리 만들어진 템플릿",
-              "integration": "쉬운 통합",
-              "activation": "즉시 활성화"
+              "minutes": "5-minute setup",
+              "templates": "Pre-built templates",
+              "integration": "Easy integration",
+              "activation": "Instant activation"
             }
           },
           "personal": {
-            "title": "개인적인 손길",
-            "description": "효율적으로 확장하면서 개인적인 관계 유지",
+            "title": "Personal Touch",
+            "description": "Maintain personal relationships while scaling efficiently",
             "benefits": {
-              "history": "고객 기록",
-              "notes": "개인 메모",
-              "relationship": "관계 구축",
-              "community": "지역 사회 중심"
+              "history": "Customer history",
+              "notes": "Personal notes",
+              "relationship": "Relationship building",
+              "community": "Local community focus"
             }
           }
         },
-        "typesTitle": "모든 중소기업에 적합",
-        "typesSubtitle": "소매점에서 전문 서비스에 이르기까지 모든 유형의 중소기업을 지원합니다。",
+        "typesTitle": "Perfect for Every Small Business",
+        "typesSubtitle": "From retail stores to professional services, we support all types of small businesses.",
         "types": {
           "retail": {
-            "title": "소매점",
-            "description": "의류, 전자제품, 가정용품 및 전문점",
+            "title": "Retail Stores",
+            "description": "Clothing, electronics, home goods, and specialty shops",
             "features": {
-              "product": "제품 문의",
-              "hours": "영업 시간",
-              "inventory": "재고 확인",
-              "appointment": "약속 예약"
+              "product": "Product inquiries",
+              "hours": "Store hours",
+              "inventory": "Inventory checks",
+              "appointment": "Appointment booking"
             }
           },
           "restaurants": {
-            "title": "레스토랑 및 카페",
-            "description": "식당 및 식품 서비스 비즈니스",
+            "title": "Restaurants & Cafes",
+            "description": "Dining establishments and food service businesses",
             "features": {
-              "menu": "메뉴 질문",
-              "reservations": "예약",
-              "takeout": "테이크아웃 주문",
-              "dietary": "식이 정보"
+              "menu": "Menu questions",
+              "reservations": "Reservations",
+              "takeout": "Takeout orders",
+              "dietary": "Dietary information"
             }
           },
           "professional": {
-            "title": "전문 서비스",
-            "description": "변호사, 회계사, 컨설턴트 및 대행사",
+            "title": "Professional Services",
+            "description": "Lawyers, accountants, consultants, and agencies",
             "features": {
-              "consultation": "상담 예약",
-              "service": "서비스 정보",
-              "documents": "문서 요청",
-              "followup": "후속 일정 관리"
+              "consultation": "Consultation booking",
+              "service": "Service information",
+              "documents": "Document requests",
+              "followup": "Follow-up scheduling"
             }
           },
           "health": {
-            "title": "건강 및 웰빙",
-            "description": "체육관, 스파, 클리닉 및 웰빙 센터",
+            "title": "Health & Wellness",
+            "description": "Gyms, spas, clinics, and wellness centers",
             "features": {
-              "appointment": "약속 예약",
-              "class": "수업 예약",
-              "membership": "회원 정보",
-              "consultations": "건강 상담"
+              "appointment": "Appointment scheduling",
+              "class": "Class bookings",
+              "membership": "Membership info",
+              "consultations": "Health consultations"
             }
           },
           "home": {
-            "title": "홈 서비스",
-            "description": "계약자, 청소부, 조경사 및 수리 서비스",
+            "title": "Home Services",
+            "description": "Contractors, cleaners, landscapers, and repair services",
             "features": {
-              "quotes": "서비스 견적",
-              "scheduling": "일정 관리",
-              "emergency": "긴급 요청",
-              "followup": "후속 지원"
+              "quotes": "Service quotes",
+              "scheduling": "Scheduling",
+              "emergency": "Emergency requests",
+              "followup": "Follow-up support"
             }
           },
           "creative": {
-            "title": "창의적인 서비스",
-            "description": "사진작가, 디자이너, 예술가 및 스튜디오",
+            "title": "Creative Services",
+            "description": "Photographers, designers, artists, and studios",
             "features": {
-              "portfolio": "포트폴리오 공유",
-              "quotes": "프로젝트 견적",
-              "booking": "세션 예약",
-              "consultations": "창의적인 상담"
+              "portfolio": "Portfolio sharing",
+              "quotes": "Project quotes",
+              "booking": "Booking sessions",
+              "consultations": "Creative consultations"
             }
           }
         },
-        "affordableTitle": "모든 예산에 저렴",
-        "affordableSubtitle": "완전히 무료로 시작하고 성장함에 따라 필요한 만큼만 지불하십시오. 숨겨진 수수료, 장기 계약, 놀라움이 없습니다。",
-        "pricingTitle": "간단한 가격",
+        "affordableTitle": "Affordable for Every Budget",
+        "affordableSubtitle": "Start completely free and only pay for what you need as you grow. No hidden fees, no long-term contracts, no surprises.",
+        "pricingTitle": "Simple Pricing",
         "pricing": {
           "free": {
-            "title": "평생 무료",
-            "period": "월",
-            "agent": "평생 인간 상담원 1명",
-            "conversations": "무제한 대화",
-            "widget": "기본 웹사이트 위젯",
-            "support": "이메일 지원"
+            "title": "Free Forever",
+            "period": "per month",
+            "agent": "1 Human agent for life",
+            "conversations": "Unlimited conversations",
+            "widget": "Basic website widget",
+            "support": "Email support"
           },
           "starter": {
-            "title": "AI 스타터",
-            "period": "월",
-            "everything": "무료의 모든 것",
-            "ai": "AI 자동화",
-            "analytics": "고급 분석",
-            "priority": "우선 지원"
+            "title": "AI Starter",
+            "period": "per month",
+            "everything": "Everything in Free",
+            "ai": "AI automation",
+            "analytics": "Advanced analytics",
+            "priority": "Priority support"
           }
         },
-        "resultsTitle": "중소기업 결과",
-        "resultsSubtitle": "고객 서비스를 개선하고 비즈니스를 성장시키기 위해 SeaChat을 사용하는 중소기업의 실제 결과입니다。",
+        "resultsTitle": "Small Business Results",
+        "resultsSubtitle": "Real results from small businesses using SeaChat to improve customer service and grow their business.",
         "metrics": {
           "inquiries": {
-            "label": "더 많은 고객 문의",
-            "description": "24/7 가용성 포함"
+            "label": "More Customer Inquiries",
+            "description": "With 24/7 availability"
           },
           "bookings": {
-            "label": "예약 증가",
-            "description": "자동 예약을 통해"
+            "label": "Increased Bookings",
+            "description": "Through automated scheduling"
           },
           "time": {
-            "label": "시간 절약",
-            "description": "일상적인 고객 질문에 대해"
+            "label": "Time Savings",
+            "description": "On routine customer questions"
           },
           "satisfaction": {
-            "label": "고객 만족도",
-            "description": "즉각적인 응답 포함"
+            "label": "Customer Satisfaction",
+            "description": "With instant responses"
           }
         },
-        "scenariosTitle": "일반적인 중소기업 시나리오",
-        "scenariosSubtitle": "SeaChat이 일반적인 중소기업 고객 상호 작용을 어떻게 처리하는지 확인하십시오。",
+        "scenariosTitle": "Common Small Business Scenarios",
+        "scenariosSubtitle": "See how SeaChat handles typical small business customer interactions.",
         "useCases": {
           "inquiries": {
-            "title": "고객 문의",
-            "description": "제품, 서비스 및 영업 시간에 대한 일반적인 질문 처리",
-            "example": "일요일에 영업합니까? 몇 시에 문을 닫습니까?",
-            "outcome": "현재 시간 및 휴일 일정 정보가 포함된 즉각적인 응답"
+            "title": "Customer Inquiries",
+            "description": "Handle common questions about products, services, and business hours",
+            "example": "Are you open on Sundays? What time do you close?",
+            "outcome": "Instant response with current hours and holiday schedule information"
           },
           "booking": {
-            "title": "약속 예약",
-            "description": "고객이 직접 약속 및 서비스를 예약할 수 있도록 허용",
-            "example": "이번 주 금요일 오후에 이발을 예약해야 합니다。",
-            "outcome": "실시간 가용성 확인 및 예약 확인 및 알림"
+            "title": "Appointment Booking",
+            "description": "Allow customers to book appointments and services directly",
+            "example": "I need to schedule a haircut for this Friday afternoon",
+            "outcome": "Real-time availability check with booking confirmation and reminders"
           },
           "product": {
-            "title": "제품 정보",
-            "description": "상세한 제품 정보 및 가용성 제공",
-            "example": "파란색 iPhone 15가 있습니까?",
-            "outcome": "가격 및 예약 옵션이 포함된 제품 가용성 확인"
+            "title": "Product Information",
+            "description": "Provide detailed product information and availability",
+            "example": "Do you have the iPhone 15 in blue color?",
+            "outcome": "Product availability check with pricing and reservation options"
           },
           "directions": {
-            "title": "지역 길 안내",
-            "description": "고객이 위치를 찾고 길을 찾는 데 도움",
-            "example": "시내에서 매장까지 어떻게 갑니까?",
-            "outcome": "길 안내 및 주차 정보가 포함된 대화형 지도"
+            "title": "Local Directions",
+            "description": "Help customers find your location and get directions",
+            "example": "How do I get to your store from downtown?",
+            "outcome": "Interactive map with directions and parking information"
           }
         },
-        "customerQuestion": "고객 질문",
-        "seachatResponse": "SeaChat 응답",
-        "ctaTitle": "중소기업을 성장시킬 준비가 되셨습니까?",
-        "ctaSubtitle": "이미 SeaChat을 사용하여 전문적인 고객 지원을 제공하고 대기업 비용 없이 비즈니스를 성장시키는 수천 개의 중소기업에 합류하십시오。",
-        "ctaStartButton": "무료로 중소기업 시작",
-        "ctaDemoButton": "중소기업 데모 예약",
+        "customerQuestion": "Customer Question",
+        "seachatResponse": "SeaChat Response",
+        "ctaTitle": "Ready to Grow Your Small Business?",
+        "ctaSubtitle": "Join thousands of small businesses already using SeaChat to provide professional customer support and grow their business without the big business costs.",
+        "ctaStartButton": "Start Small Business For Free",
+        "ctaDemoButton": "Schedule Small Business Demo",
         "affordableFeatures": [
-          "영원히 완전히 무료로 시작",
-          "설정 또는 온보딩 비용 없음",
-          "사용한 기능에 대해서만 지불",
-          "언제든지 취소, 계약 없음",
-          "성장에 따른 확장 가격",
-          "무료 마이그레이션 지원",
-          "24/7 이메일 지원 포함",
-          "30일 환불 보장"
+          "Start completely free forever",
+          "No setup or onboarding fees",
+          "Pay only for features you use",
+          "Cancel anytime, no contracts",
+          "Scale pricing with your growth",
+          "Free migration assistance",
+          "24/7 email support included",
+          "30-day money-back guarantee"
         ]
       },
       "travel": {
-        "bookingFlowTitle": "여행 예약 흐름",
-        "ctaDemoButton": "여행 데모 예약",
-        "ctaSubtitle": "이미 SeaChat을 사용하여 탁월한 고객 서비스를 제공하고 전 세계적으로 예약 프로세스를 간소화하는 여행사에 합류하십시오。",
-        "ctaTitle": "여행 경험을 혁신할 준비가 되셨습니까?",
-        "ctaTrialButton": "무료로 여행 시작",
-        "demoButton": "여행 데모 예약",
+        "bookingFlowTitle": "Travel Booking Flow",
+        "ctaDemoButton": "Schedule Travel Demo",
+        "ctaSubtitle": "Join travel companies already using SeaChat to provide exceptional customer service and streamline booking processes worldwide.",
+        "ctaTitle": "Ready to Transform Travel Experiences?",
+        "ctaTrialButton": "Start Travel For Free",
+        "demoButton": "Schedule Travel Demo",
         "features": {
           "booking": {
             "benefits": {
-              "availability": "실시간 가용성",
-              "cancellation": "취소 지원",
-              "comparisons": "가격 비교",
-              "modifications": "예약 수정"
+              "availability": "Real-time availability",
+              "cancellation": "Cancellation support",
+              "comparisons": "Price comparisons",
+              "modifications": "Booking modifications"
             },
-            "description": "실시간 가용성으로 항공편, 호텔 및 활동 예약을 고객에게 지원",
-            "title": "예약 지원"
+            "description": "Help customers with flight, hotel, and activity bookings with real-time availability",
+            "title": "Booking Assistance"
           },
           "management": {
             "benefits": {
-              "documents": "문서 관리",
-              "loyalty": "로열티 프로그램",
-              "reminders": "알림 알림",
-              "tracking": "여행 추적"
+              "documents": "Document management",
+              "loyalty": "Loyalty programs",
+              "reminders": "Reminder notifications",
+              "tracking": "Trip tracking"
             },
-            "description": "예약에서 여행 후 후속 조치까지 포괄적인 여행 관리",
-            "title": "여행 관리"
+            "description": "Comprehensive trip management from booking to post-travel follow-up",
+            "title": "Trip Management"
           },
           "planning": {
             "benefits": {
-              "insights": "목적지 통찰력",
-              "itinerary": "여정 생성",
-              "recommendations": "현지 추천",
-              "weather": "날씨 업데이트"
+              "insights": "Destination insights",
+              "itinerary": "Itinerary creation",
+              "recommendations": "Local recommendations",
+              "weather": "Weather updates"
             },
-            "description": "개인화된 여행 추천 및 여정 계획 제공",
-            "title": "여행 계획"
+            "description": "Provide personalized travel recommendations and itinerary planning",
+            "title": "Travel Planning"
           },
           "support": {
             "benefits": {
-              "emergency": "긴급 지원",
-              "multilanguage": "다국어 도움말",
-              "timezone": "글로벌 시간대 지원",
-              "updates": "실시간 업데이트"
+              "emergency": "Emergency assistance",
+              "multilanguage": "Multi-language help",
+              "timezone": "Global time zone support",
+              "updates": "Real-time updates"
             },
-            "description": "다양한 시간대의 여행객을 위한 24시간 지원",
-            "title": "24/7 여행 지원"
+            "description": "Round-the-clock assistance for travelers across different time zones",
+            "title": "24/7 Travel Support"
           }
         },
-        "featuresSubtitle": "고객 경험을 향상시키기 위해 여행 및 숙박업 비즈니스를 위해 특별히 제작된 기능입니다。",
-        "featuresTitle": "여행 산업 기능",
+        "featuresSubtitle": "Purpose-built features for travel and hospitality businesses to enhance customer experiences.",
+        "featuresTitle": "Travel Industry Features",
         "flow": {
           "assistance": {
-            "description": "결제 처리가 포함된 안내된 예약",
-            "title": "예약 지원"
+            "description": "Guided booking with payment processing",
+            "title": "Booking Assistance"
           },
           "confirmation": {
-            "description": "지속적인 지원이 포함된 예약 확인",
-            "title": "확인 및 지원"
+            "description": "Booking confirmation with ongoing support",
+            "title": "Confirmation & Support"
           },
           "inquiry": {
-            "description": "고객이 여행 옵션에 대해 질문합니다。",
-            "title": "여행 문의"
+            "description": "Customer asks about travel options",
+            "title": "Travel Inquiry"
           },
           "search": {
-            "description": "AI가 여러 시스템에서 검색합니다。",
-            "title": "실시간 검색"
+            "description": "AI searches across multiple systems",
+            "title": "Real-time Search"
           }
         },
-        "impactSubtitle": "고객 지원 및 예약 지원을 위해 SeaChat을 사용하는 여행사의 실제 결과입니다。",
-        "impactTitle": "여행 산업 영향",
-        "integrationsSubtitle": "여행 예약 시스템, GDS 플랫폼 및 숙박 관리 도구와 원활하게 연결하여 통합된 운영을 실현하십시오。",
-        "integrationsTitle": "여행 산업 통합",
+        "impactSubtitle": "Real results from travel companies using SeaChat for customer support and booking assistance.",
+        "impactTitle": "Travel Industry Impact",
+        "integrationsSubtitle": "Seamlessly connect with travel booking systems, GDS platforms, and hospitality management tools for unified operations.",
+        "integrationsTitle": "Travel Industry Integrations",
         "metrics": {
           "booking": {
-            "description": "AI 지원 검색 및 예약 포함",
-            "label": "더 빠른 예약 프로세스",
+            "description": "With AI-assisted search and booking",
+            "label": "Faster Booking Process",
             "value": "60%"
           },
           "call": {
-            "description": "자동화된 여행 지원을 통해",
-            "label": "통화량 감소",
+            "description": "Through automated travel assistance",
+            "label": "Reduced Call Volume",
             "value": "40%"
           },
           "resolution": {
-            "description": "여행 관련 문의에 대해",
-            "label": "문제 해결률",
+            "description": "For travel-related inquiries",
+            "label": "Issue Resolution Rate",
             "value": "95%"
           },
           "satisfaction": {
-            "description": "24/7 여행 지원 가능",
-            "label": "고객 만족도",
+            "description": "With 24/7 travel support availability",
+            "label": "Customer Satisfaction",
             "value": "85%"
           }
         },
-        "seachatResponse": "SeaChat 응답",
+        "seachatResponse": "SeaChat Response",
         "services": {
           "agencies": {
-            "description": "포괄적인 여행 계획 및 예약 서비스",
+            "description": "Comprehensive travel planning and booking services",
             "features": {
-              "deals": "패키지 상품",
-              "groups": "단체 예약",
-              "insurance": "여행자 보험",
-              "itineraries": "맞춤형 여정"
+              "deals": "Package deals",
+              "groups": "Group bookings",
+              "insurance": "Travel insurance",
+              "itineraries": "Custom itineraries"
             },
-            "title": "여행사"
+            "title": "Travel Agencies"
           },
           "airlines": {
-            "description": "항공편 예약, 체크인 및 여행 업데이트",
+            "description": "Flight bookings, check-ins, and travel updates",
             "features": {
-              "baggage": "수하물 추적",
-              "loyalty": "로열티 프로그램",
-              "seat": "좌석 선택",
-              "status": "항공편 상태"
+              "baggage": "Baggage tracking",
+              "loyalty": "Loyalty programs",
+              "seat": "Seat selection",
+              "status": "Flight status"
             },
-            "title": "항공사"
+            "title": "Airlines"
           },
           "car": {
-            "description": "차량 렌탈 지원 및 지원",
+            "description": "Vehicle rental assistance and support",
             "features": {
-              "availability": "차량 가용성",
-              "insurance": "보험 옵션",
-              "locations": "픽업 장소",
-              "roadside": "긴급출동 서비스"
+              "availability": "Car availability",
+              "insurance": "Insurance options",
+              "locations": "Pickup locations",
+              "roadside": "Roadside assistance"
             },
-            "title": "렌터카"
+            "title": "Car Rentals"
           },
           "cruise": {
-            "description": "크루즈 예약 및 선상 서비스",
+            "description": "Cruise booking and onboard services",
             "features": {
-              "cabin": "객실 선택",
-              "dining": "식사 예약",
-              "entertainment": "엔터테인먼트 예약",
-              "shore": "기항지 관광"
+              "cabin": "Cabin selection",
+              "dining": "Dining reservations",
+              "entertainment": "Entertainment booking",
+              "shore": "Shore excursions"
             },
-            "title": "크루즈 라인"
+            "title": "Cruise Lines"
           },
           "hotels": {
-            "description": "호텔 예약 및 게스트 서비스",
+            "description": "Hotel reservations and guest services",
             "features": {
-              "amenity": "편의 시설 정보",
-              "booking": "객실 예약",
-              "loyalty": "로열티 보상",
-              "requests": "특별 요청"
+              "amenity": "Amenity information",
+              "booking": "Room booking",
+              "loyalty": "Loyalty rewards",
+              "requests": "Special requests"
             },
-            "title": "호텔 및 숙박"
+            "title": "Hotels & Accommodation"
           },
           "tour": {
-            "description": "가이드 투어 및 활동 예약",
+            "description": "Guided tours and activity bookings",
             "features": {
-              "availability": "투어 가용성",
-              "equipment": "장비 대여",
-              "guides": "현지 가이드",
-              "sizes": "그룹 크기"
+              "availability": "Tour availability",
+              "equipment": "Equipment rental",
+              "guides": "Local guides",
+              "sizes": "Group sizes"
             },
-            "title": "여행사"
+            "title": "Tour Operators"
           }
         },
-        "servicesSubtitle": "항공사에서 호텔, 렌터카에서 크루즈 라인에 이르기까지 여행의 모든 측면을 지원합니다。",
-        "servicesTitle": "모든 여행 서비스 포함",
-        "subtitle": "예약을 처리하고 24/7 지원을 제공하며 고객에게 기억에 남는 여정을 만드는 AI 기반 고객 지원으로 여행 경험을 혁신하십시오。",
-        "title": "여행 및 숙박",
-        "travelerRequest": "여행자 요청",
-        "trialButton": "무료로 여행 시작",
+        "servicesSubtitle": "From airlines to hotels, car rentals to cruise lines - we support every aspect of travel.",
+        "servicesTitle": "All Travel Services Covered",
+        "subtitle": "Transform travel experiences with AI-powered customer support that handles bookings, provides 24/7 assistance, and creates memorable journeys for your customers.",
+        "title": "Travel & Hospitality",
+        "travelerRequest": "Traveler Request",
+        "trialButton": "Start Travel For Free",
         "useCases": {
           "destination": {
-            "description": "여행 조언, 현지 통찰력 및 목적지 추천 제공",
-            "example": "파리에서 가장 좋은 레스토랑은 어디입니까?",
-            "outcome": "예약 및 현지 통찰력이 포함된 엄선된 레스토랑 추천",
-            "title": "목적지 정보"
+            "description": "Provide travel advice, local insights, and destination recommendations",
+            "example": "What are the best restaurants in Paris?",
+            "outcome": "Curated restaurant recommendations with reservations and local insights",
+            "title": "Destination Information"
           },
           "disruptions": {
-            "description": "항공편 지연, 취소 및 재예약 지원 처리",
-            "example": "내 항공편이 취소되었습니다. 어떤 옵션이 있습니까?",
-            "outcome": "대체 항공편 및 보상 정보가 포함된 즉각적인 재예약 지원",
-            "title": "여행 중단"
+            "description": "Handle flight delays, cancellations, and rebooking assistance",
+            "example": "My flight was cancelled, what are my options?",
+            "outcome": "Immediate rebooking assistance with alternative flights and compensation information",
+            "title": "Travel Disruptions"
           },
           "documentation": {
-            "description": "비자 요구 사항, 여권 정보 및 여행 서류 지원",
-            "example": "일본 여행에 비자가 필요합니까?",
-            "outcome": "신청 절차 및 타임라인이 포함된 포괄적인 비자 요구 사항",
-            "title": "여행 서류"
+            "description": "Help with visa requirements, passport info, and travel documents",
+            "example": "Do I need a visa to travel to Japan?",
+            "outcome": "Comprehensive visa requirements with application process and timeline",
+            "title": "Travel Documentation"
           },
           "flight": {
-            "description": "항공편 예약, 변경 및 취소 지원",
-            "example": "화요일에서 목요일로 항공편을 변경해야 합니다。",
-            "outcome": "재예약 옵션 및 수수료 정보가 포함된 실시간 항공편 가용성 확인",
-            "title": "항공편 예약 및 변경"
+            "description": "Assist with flight reservations, changes, and cancellations",
+            "example": "I need to change my flight from Tuesday to Thursday",
+            "outcome": "Real-time flight availability check with rebooking options and fee information",
+            "title": "Flight Booking & Changes"
           }
         },
-        "useCasesSubtitle": "SeaChat이 일반적인 여행 문의 및 예약 지원을 어떻게 처리하는지 확인하십시오。",
-        "useCasesTitle": "여행 지원 사용 사례",
+        "useCasesSubtitle": "See how SeaChat handles typical travel inquiries and booking assistance.",
+        "useCasesTitle": "Travel Support Use Cases",
         "integrations": {
-          "0": "GDS 시스템(Amadeus, Sabre, Galileo)",
-          "1": "항공사 예약 시스템",
-          "2": "호텔 예약 시스템",
-          "3": "렌터카 플랫폼",
-          "4": "여행자 보험 제공업체",
-          "5": "결제 처리 시스템"
+          "0": "GDS Systems (Amadeus, Sabre, Galileo)",
+          "1": "Airline booking systems",
+          "2": "Hotel reservation systems",
+          "3": "Car rental platforms",
+          "4": "Travel insurance providers",
+          "5": "Payment processing systems"
         }
+      }
+    },
+    "channels": {
+      "title": "Connect Every Customer Channel",
+      "description": "Unify all your customer communications in one platform. From WhatsApp to phone calls, SMS to social media - manage every conversation from a single dashboard.",
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "description": "Connect with customers on the world's most popular messaging platform"
+      },
+      "voice": {
+        "title": "Voice & Phone Calls",
+        "description": "Professional phone system with AI voicebot and human agent support"
+      },
+      "sms": {
+        "title": "SMS Messaging",
+        "description": "Reach customers instantly with personalized SMS campaigns"
+      },
+      "website": {
+        "title": "Website Chat Widget",
+        "description": "Turn website visitors into conversations with AI-powered chat"
+      },
+      "cta": {
+        "exploreAll": "Explore All Channels",
+        "subtitle": "See how all 9 channels work together seamlessly"
+      }
+    },
+    "comparison": {
+      "title": "Why Growing Businesses Choose Seasalt.ai Over the Alternatives",
+      "description": "See how we compare to other solutions. We're the only platform that delivers enterprise features with small business simplicity.",
+      "recommended": "Recommended",
+      "table": {
+        "headers": {
+          "platform": "Platform",
+          "startingPrice": "Starting Price",
+          "pricingModel": "Pricing Model",
+          "unifiedVoiceDigital": "Unified Voice & Digital",
+          "aiCapabilities": "AI Capabilities",
+          "bestFor": "Best For"
+        }
+      },
+      "competitors": {
+        "seasalt": {
+          "startingPrice": "$20/agent/mo",
+          "pricingModel": "Simple Per-User",
+          "unifiedVoiceDigital": "✅ Yes, Native",
+          "aiCapabilities": "✅ Yes, Native Voice & Chatbots",
+          "bestFor": "SMEs needing an affordable, truly all-in-one platform."
+        },
+        "aircall": {
+          "startingPrice": "$30/user/mo",
+          "pricingModel": "Per-User + Add-ons",
+          "unifiedVoiceDigital": "⚠️ Voice + WhatsApp (Add-on)",
+          "aiCapabilities": "⚠️ AI is a paid add-on",
+          "bestFor": "Sales teams that can afford multiple add-ons and meet the 3-user minimum."
+        },
+        "ringcentral": {
+          "startingPrice": "$65/agent/mo",
+          "pricingModel": "Complex Tiers",
+          "unifiedVoiceDigital": "❌ Separate Products",
+          "aiCapabilities": "✅ Yes (AI-powered CCaaS)",
+          "bestFor": "Large companies needing a broad UCaaS platform with a separate CCaaS."
+        },
+        "genesys": {
+          "startingPrice": "$75/user/mo",
+          "pricingModel": "Per-User + High Minimums",
+          "unifiedVoiceDigital": "✅ Yes (in higher tiers)",
+          "aiCapabilities": "✅ Yes (Complex token system)",
+          "bestFor": "Large enterprises with dedicated contact center teams and budgets."
+        },
+        "five9": {
+          "startingPrice": "$119/user/mo",
+          "pricingModel": "Per-User + Bundles",
+          "unifiedVoiceDigital": "✅ Yes (in premium tiers)",
+          "aiCapabilities": "✅ Yes (Advanced AI)",
+          "bestFor": "Large, outbound-heavy contact centers needing enterprise-grade tools."
+        },
+        "googleVoice": {
+          "startingPrice": "$10/user/mo",
+          "pricingModel": "Per-User + Workspace Fee",
+          "unifiedVoiceDigital": "❌ No",
+          "aiCapabilities": "❌ No (Voicemail transcription only)",
+          "bestFor": "Solopreneurs (US-only) needing a basic, separate phone number."
+        }
+      },
+      "cta": {
+        "seeAllComparisons": "See All Detailed Comparisons"
+      }
+    },
+    "footer": {
+      "product": "Product",
+      "company": {
+        "productWiki": "Product Wiki",
+        "apiReferences": "API References",
+        "careers": "Careers",
+        "title": "Company",
+        "about": "About"
+      },
+      "resources": "Resources",
+      "legal": {
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service"
+      },
+      "getStarted": "Ready to Get Started?",
+      "joinThousands": "Join thousands of businesses already using SeaChat to deliver exceptional customer experiences.",
+      "enterEmail": "Enter your email",
+      "noCredit": "No credit card required • Setup in 2 minutes • Cancel anytime",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
+      "compliance": "🔒 SOC 2 Compliant",
+      "gdpr": "🛡️ GDPR Ready",
+      "uptime": "⚡ 99.9% Uptime",
+      "brand": {
+        "description": "Transform your customer support with the perfect blend of human agents and AI automation. Start free, scale smart, succeed faster."
+      },
+      "contact": {
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "Seattle, WA"
+      },
+      "stats": {
+        "messagesDaily": "5M+ Messages Daily",
+        "activeUsers": "100K+ Active Users",
+        "uptime": "99.9% Uptime"
+      },
+      "cta": {
+        "title": "Ready to Transform Your Customer Support?",
+        "description": "Join thousands of businesses using SeaChat to deliver exceptional customer experiences with AI-powered chat support.",
+        "signUpFree": "Sign Up Free",
+        "scheduleDemo": "Schedule Demo",
+        "disclaimer": "No credit card required • Setup in 2 minutes • Cancel anytime"
+      }
+    },
+    "featureComparison": {
+      "title": "Why Choose SeaChat Over the Competition?",
+      "subtitle": "See how SeaChat replaces multiple tools with one comprehensive platform. Save money while getting more features.",
+      "valueTitle": "The Value You Get:",
+      "totalValue": "$331 or more/month",
+      "competitorTotal": "Total value from competitors",
+      "priceTitle": "The Price You Pay:",
+      "seachatPrice": "$29.99 /month",
+      "seachatAll": "All features included",
+      "seeDetailedPricing": "See Detailed Pricing",
+      "ctaTitle": "Ready to Experience the SeaChat Advantage?",
+      "ctaSubtitle": "Join thousands of businesses that chose the smarter, more affordable solution.",
+      "startFree": "Start Free Now",
+      "bookDemo": "Book a Demo",
+      "features": {
+        "chatbotWebsite": "Chatbot for website",
+        "chatWidget": "Chat widget with live agent",
+        "whatsappMessenger": "WhatsApp/Messenger/Instagram",
+        "multiCalendar": "Multi Calendar bookings",
+        "phoneCallAI": "Inbound phone call AI agents",
+        "smsActions": "Built-in actions - SMS",
+        "emailActions": "Built-in actions - Email",
+        "phoneNumber": "Purchase phone number",
+        "agencyMode": "Agency Mode",
+        "bulkSMS": "Bulk outbound SMS, Call, WhatsApp",
+        "unlimitedContacts": "Unlimited Contacts",
+        "knowledgeBase": "Extra knowledge base",
+        "extraChatbot": "Extra chatbot"
+      },
+      "table": {
+        "headers": {
+          "features": "Features",
+          "replaces": "Replaces",
+          "otherTools": "Other Tools",
+          "seachat": "SeaChat"
+        },
+        "total": "Total",
+        "totalPrice": "$331 or more per month",
+        "seachatPrice": "$29.99 per month",
+        "explanations": {
+          "valueYouGet": "↑ The Value You Get",
+          "priceYouWouldPay": "↑ The Price You'd Otherwise Pay",
+          "priceYouPay": "↑ The Price You Pay"
+        }
+      },
+      "mobile": {
+        "replaces": "Replaces:",
+        "otherTools": "Other Tools:",
+        "seachat": "SeaChat:",
+        "otherToolsTotal": "Other Tools Total:",
+        "seachatTotal": "SeaChat Total:",
+        "totalPrice": "$331+ per month",
+        "seachatTotalPrice": "$29.99 per month",
+        "priceYouWouldPay": "↑ The Price You'd Otherwise Pay",
+        "priceYouPay": "↑ The Price You Pay"
+      },
+      "uniqueToSeachat": "UNIQUE",
+      "pricing": {
+        "chatbotWebsite": "$99 per month",
+        "chatWidget": "$23 per agent per month",
+        "whatsappMessenger": "$89 per user per month",
+        "multiCalendar": "$10 per seat per month",
+        "phoneCallAI": "$29 per month",
+        "smsActions": "$59 per month",
+        "emailActions": "$20 per month",
+        "phoneNumber": "$2 to $3 per month",
+        "unlimitedContacts": "$65 per 10K contacts",
+        "knowledgeBase": "$8 per extra knowledge base",
+        "extraChatbot": "$7 per extra chatbot"
+      },
+      "seachatValues": {
+        "agencyMode": "Multiple workspaces - one workspace per client",
+        "bulkSMS": "Integrate with SeaX from Seasalt.ai",
+        "unlimitedContacts": "Unlimited",
+        "knowledgeBase": "5,000 documents or 50M tokens",
+        "extraChatbot": "10 bots × 5 channels = 50 channel-bots"
+      },
+      "replaces": {
+        "uniqueToSeachat": "UNIQUE to SeaChat"
       }
     }
   }

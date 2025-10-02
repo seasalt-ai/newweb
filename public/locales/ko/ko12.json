@@ -1,1808 +1,742 @@
 {
   "seavoice": {
-    "header": {
-      "navigation": {
-        "platform": {
-          "title": "플랫폼",
-          "overview": "플랫폼 개요",
-          "landlineMobile": "유선 및 모바일 음성",
-          "voipSipByoc": "VoIP & SIP & BYOC 음성",
-          "lineCallPlus": "기업용 라인 콜 플러스",
-          "whatsAppVoice": "기업용 WhatsApp 음성 API",
-          "speechToText": "음성 텍스트 변환",
-          "textToSpeech": "텍스트 음성 변환",
-          "endToEndLlms": "엔드투엔드 LLM"
-        },
-        "inboundSolutions": {
-          "title": "인바운드 솔루션",
-          "virtualAssistant": "24/7 가상 비서",
-          "callTransfer": "스마트 통화 전달",
-          "ivrReplacement": "IVR 교체",
-          "mentalHealth": "정신 건강 동반자",
-          "scamShield": "사기 방지 보호",
-          "technicalSupport": "기술 지원",
-          "orderTracking": "주문 상태 및 추적",
-          "paymentProcessing": "결제 처리",
-          "appointmentBooking": "약속 예약"
-        },
-        "outboundSolutions": {
-          "title": "아웃바운드 솔루션",
-          "leadGeneration": "리드 생성 및 검증",
-          "collections": "수금 서비스",
-          "reactivation": "고객 재활성화",
-          "seniorChecks": "노인 확인 전화",
-          "campaigns": "대규모 캠페인",
-          "proactiveSupport": "사전 예방적 지원",
-          "renewals": "구독 갱신",
-          "surveys": "고객 설문조사",
-          "fraudAlerts": "사기 경보"
-        },
-        "pricing": "가격"
-      },
-      "auth": {
-        "signIn": "로그인",
-        "getStarted": "시작하기"
-      },
-      "backToMainSite": "메인 사이트로 돌아가기"
-    },
-    "home": {
-      "hero": {
-        "tagline": "귀하의 비즈니스는 잠들지 않습니다",
-        "title": {
-          "line1": "AI 음성 상담원",
-          "line2": "24/7 통화 처리"
-        },
-        "subtitle": {
-          "line1": "잠들지 않는 인간과 같은 AI로 고객 상호 작용을 혁신하십시오。",
-          "line2": "지원, 예약 및 아웃바운드 통화를 대규모로 자동화하십시오。"
-        },
-        "bookDemo": "데모 예약",
-        "signUp": "지금 가입"
-      },
-      "voiceDemo": {
-        "title": "음성 기술 체험",
-        "subtitle": "SeaVoice의 실제 작동 사례를 듣고 AI 기반 대화의 미래를 경험하십시오。"
-      },
-      "conversationFlow": {
-        "step1": {
-          "title": "고객 통화",
-          "description": "발신자가 귀하의 비즈니스 번호로 전화를 겁니다。"
-        },
-        "step2": {
-          "title": "AI 상담원 응답",
-          "description": "SeaVoice AI가 즉시 응답합니다。"
-        },
-        "step3": {
-          "title": "자연스러운 대화",
-          "description": "인간과 같은 음성 상호 작용"
-        },
-        "step4": {
-          "title": "작업 완료",
-          "description": "예약, 지원 또는 전달"
-        }
-      },
-      "conversationExamples": {
-        "appointment": {
-          "customer": "안녕하세요, 다음 주에 약속을 잡고 싶습니다。",
-          "ai": "기꺼이 약속 예약을 도와드리겠습니다! 다음 주 가능한 시간을 확인해 보겠습니다. 어떤 종류의 서비스를 찾고 계십니까?",
-          "scenario": "약속 예약"
-        },
-        "support": {
-          "customer": "최근 주문에 문제가 있습니다. 도와주시겠습니까?",
-          "ai": "물론입니다! 주문 관련하여 도와드리겠습니다. 자세한 내용을 조회할 수 있도록 주문 번호를 알려주시겠습니까?",
-          "scenario": "고객 지원"
-        },
-        "inquiry": {
-          "customer": "영업 시간이 어떻게 되나요?",
-          "ai": "월요일부터 금요일까지 오전 9시부터 오후 6시까지, 토요일은 오전 10시부터 오후 4시까지 영업합니다. 일요일은 휴무입니다. 저희 서비스에 대해 특별히 궁금한 점이 있으신가요?",
-          "scenario": "일반 문의"
-        }
-      },
-      "useCases": {
-        "title": {
-          "line1": "성공적인 사용 사례로 비즈니스를 혁신하십시오",
-          "line2": ""
-        },
-        "subtitle": "업계 리더들이 SeaVoice AI를 활용하여 고객 상호 작용을 혁신하고 성장을 주도하는 방법을 알아보십시오。",
-        "badge": "입증된 성공 사례",
-        "inbound": {
-          "category": "인바운드 솔루션",
-          "appointmentBooking": {
-            "title": "약속 예약 및 관리",
-            "description": "가용성, 선호도 및 비즈니스 규칙을 이해하는 AI로 약속 예약을 자동화합니다。"
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "Appointment Booking & Management",
+            "description": "Automate appointment scheduling with AI that understands availability, preferences, and business rules. Reduce no-shows and streamline your booking process with intelligent voice interactions.",
+            "cta": "Automate Appointment Booking"
           },
-          "technicalSupport": {
-            "title": "기술 지원 자동화",
-            "description": "문제를 진단하고 고객에게 해결책을 안내할 수 있는 AI로 즉각적인 기술 지원을 제공합니다。"
+          "features": {
+            "title": "Smart Appointment Management",
+            "subtitle": "Comprehensive booking system that handles complex scheduling scenarios",
+            "intelligentScheduling": {
+              "title": "Intelligent Scheduling",
+              "description": "AI-powered appointment booking that understands availability and preferences.",
+              "benefit1": "Real-time availability",
+              "benefit2": "Smart conflict resolution",
+              "benefit3": "Preference matching"
+            },
+            "automatedReminders": {
+              "title": "Automated Reminders",
+              "description": "Reduce no-shows with automated appointment reminders and confirmations.",
+              "benefit1": "SMS & voice reminders",
+              "benefit2": "Customizable timing",
+              "benefit3": "Confirmation tracking"
+            },
+            "multiProviderSupport": {
+              "title": "Multi-Provider Support",
+              "description": "Manage appointments across multiple providers, locations, and services.",
+              "benefit1": "Provider availability",
+              "benefit2": "Location management",
+              "benefit3": "Service categorization"
+            }
           },
-          "virtualAssistant": {
-            "title": "가상 비서",
-            "description": "일반적인 문의를 처리하고 정보를 제공하며 지능적으로 통화를 라우팅합니다。"
+          "capabilities": {
+            "title": "Complete Booking Solution",
+            "subtitle": "Handle every aspect of appointment management automatically",
+            "appointmentScheduling": {
+              "capability": "Appointment Scheduling",
+              "description": "Book new appointments based on availability and preferences",
+              "feature1": "Available time slots",
+              "feature2": "Provider selection",
+              "feature3": "Service type matching"
+            },
+            "rescheduling": {
+              "capability": "Rescheduling",
+              "description": "Modify existing appointments with automatic conflict resolution",
+              "feature1": "Conflict detection",
+              "feature2": "Alternative suggestions",
+              "feature3": "Automatic updates"
+            },
+            "cancellationManagement": {
+              "capability": "Cancellation Management",
+              "description": "Handle cancellations and waitlist management efficiently",
+              "feature1": "Cancellation policies",
+              "feature2": "Waitlist automation",
+              "feature3": "Refund processing"
+            },
+            "reminderSystem": {
+              "capability": "Reminder System",
+              "description": "Automated reminders to reduce no-shows and improve attendance",
+              "feature1": "Multi-channel reminders",
+              "feature2": "Customizable timing",
+              "feature3": "Confirmation requests"
+            }
           },
-          "callTransfer": {
-            "title": "통화 전달 및 라우팅",
-            "description": "발신자 요구에 따라 적절한 부서 또는 상담원에게 지능적으로 통화를 라우팅합니다。"
+          "industries": {
+            "title": "Industry Applications",
+            "subtitle": "Tailored booking solutions for different industries and use cases",
+            "healthcare": {
+              "industry": "Healthcare",
+              "description": "Medical appointments, consultations, and procedures",
+              "benefit1": "Patient scheduling",
+              "benefit2": "Provider coordination",
+              "benefit3": "Insurance verification"
+            },
+            "beautyWellness": {
+              "industry": "Beauty & Wellness",
+              "description": "Salon appointments, spa services, and wellness sessions",
+              "benefit1": "Service duration tracking",
+              "benefit2": "Stylist preferences",
+              "benefit3": "Package bookings"
+            },
+            "professionalServices": {
+              "industry": "Professional Services",
+              "description": "Consultations, meetings, and service appointments",
+              "benefit1": "Meeting room booking",
+              "benefit2": "Consultant availability",
+              "benefit3": "Client preferences"
+            }
           },
-          "orderTracking": {
-            "title": "주문 추적 및 지원",
-            "description": "고객이 주문 상태를 확인하고 배송을 추적하며 배송 업데이트를 받을 수 있도록 합니다。"
+          "reminderSection": {
+            "title": "Automated Reminder System",
+            "description": "Significantly reduce no-shows with intelligent reminder campaigns that reach customers through their preferred communication channels at optimal times.",
+            "multiChannelReminders": {
+              "title": "Multi-Channel Reminders",
+              "description": "Voice calls, SMS, and email reminders"
+            },
+            "optimalTiming": {
+              "title": "Optimal Timing",
+              "description": "AI determines best times to send reminders"
+            },
+            "performanceTracking": {
+              "title": "Performance Tracking",
+              "description": "Monitor reminder effectiveness and optimize"
+            },
+            "reminderTimeline": {
+              "title": "Reminder Timeline"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "Initial Confirmation",
+                "description": "Appointment confirmation and details"
+              },
+              "dayBefore": {
+                "title": "Day Before Reminder",
+                "description": "Final reminder with preparation instructions"
+              },
+              "lastMinute": {
+                "title": "Last Minute Check",
+                "description": "Final confirmation and directions"
+              },
+              "sevenDays": "7d",
+              "oneDay": "1d",
+              "twoHours": "2h"
+            }
           },
-          "paymentProcessing": {
-            "title": "결제 처리",
-            "description": "안전하게 결제를 처리하고 청구 문의를 처리하며 계정 정보를 관리합니다。"
+          "benefits": {
+            "title": "Booking Performance Results",
+            "subtitle": "Measurable improvements in appointment management efficiency",
+            "noShowReduction": {
+              "metric": "40%",
+              "description": "Reduction in no-show rates"
+            },
+            "availabilityWindow": {
+              "metric": "24/7",
+              "description": "Booking availability"
+            },
+            "bookingAccuracy": {
+              "metric": "85%",
+              "description": "Booking accuracy rate"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "Reduction in admin workload"
+            }
           },
-          "ivrReplacement": {
-            "title": "IVR 교체",
-            "description": "기존 메뉴를 자연어 이해로 교체하여 더 원활한 경험을 제공합니다。"
-          },
-          "mentalHealth": {
-            "title": "정신 건강 지원",
-            "description": "24시간 내내 공감적인 AI 기반 정신 건강 지원을 제공합니다。"
-          },
-          "scamShield": {
-            "title": "사기 방지 보호",
-            "description": "실시간 탐지 및 차단으로 사용자를 사기로부터 보호합니다。"
-          },
-          "type": "인바운드"
-        },
-        "outbound": {
-          "category": "아웃바운드 솔루션",
-          "leadGeneration": {
-            "title": "리드 생성 및 검증",
-            "description": "잠재 고객을 식별하고 검증하는 AI 기반 리드 생성으로 영업 파이프라인을 혁신하십시오。"
-          },
-          "seniorChecks": {
-            "title": "노인 확인 전화 및 건강 관리",
-            "description": "건강을 모니터링하는 동정심 있는 대화로 노인을 위한 정기적인 AI 기반 건강 확인。"
-          },
-          "surveys": {
-            "title": "고객 설문조사 및 피드백",
-            "description": "구매 후 설문조사를 실시하고 귀중한 고객 피드백을 자동으로 수집합니다。"
-          },
-          "collections": {
-            "title": "수금 및 결제 알림",
-            "description": "관계를 유지하면서 결제율을 향상시키는 정중하고 효과적인 수금 전화。"
-          },
-          "reactivation": {
-            "title": "고객 재활성화",
-            "description": "개인화된 아웃리치 캠페인으로 휴면 고객을 다시 참여시킵니다。"
-          },
-          "fraudAlerts": {
-            "title": "사기 경보 및 확인",
-            "description": "의심스러운 거래에 대해 고객에게 알리고 보안을 위해 신원을 확인합니다。"
-          },
-          "campaigns": {
-            "title": "대규모 캠페인",
-            "description": "전 세계 수천 명의 고객에게 도달하기 위해 대규모 음성 캠페인을 실행합니다。"
-          },
-          "proactiveSupport": {
-            "title": "사전 예방적 고객 지원",
-            "description": "지능형 알림으로 고객에게 사전 예방적으로 정보를 제공합니다。"
-          },
-          "renewals": {
-            "title": "구독 갱신",
-            "description": "알림 및 원활한 결제 처리로 갱신을 자동화합니다。"
-          },
-          "type": "아웃바운드"
-        },
-        "types": {
-          "inbound": "인바운드",
-          "outbound": "아웃바운드"
-        }
-      },
-      "howItWorks": {
-        "title": {
-          "prefix": "",
-          "highlight": "5가지 간단한 단계로 시작하기",
-          "suffix": ""
-        },
-        "subtitle": "설정에서 라이브까지 20분 이내. 간소화된 프로세스를 통해 AI 음성 상담원이 즉시 통화를 처리할 수 있도록 준비합니다。",
-        "badge": "간단한 설정 프로세스",
-        "step1": {
-          "title": "음성 상담원 교육",
-          "description": "음성, 스크립트 및 응답을 몇 분 만에 사용자 정의하십시오. 당사의 AI는 귀하의 웹사이트와 Google 비즈니스 프로필에서 학습하여 브랜드를 정확하게 표현합니다。"
-        },
-        "step2": {
-          "title": "전화 시스템 연결",
-          "description": "기존 전화 설정(SIP/VoIP/PSTN)과 SeaVoice를 원활하게 통합하십시오. 비즈니스 번호를 변경하지 않고 SeaVoice로 통화를 전달하십시오。"
-        },
-        "step3": {
-          "title": "통화 규칙 설정",
-          "description": "SeaVoice가 다양한 통화 유형을 처리하는 방법과 팀에 에스컬레이션할 시기를 정의하십시오. 모든 발신자가 올바른 응답을 받도록 하십시오。"
-        },
-        "step4": {
-          "title": "라이브 시작",
-          "description": "AI 음성 상담원을 활성화하고 통화 처리를 시작하십시오. 전체 프로세스는 일반적으로 시작부터 끝까지 20분도 채 걸리지 않습니다。"
-        },
-        "step5": {
-          "title": "24/7 지원 및 분석",
-          "description": "실시간으로 통화를 모니터링하고, 상세한 스크립트를 받고, 통찰력을 활용하여 비즈니스를 개선하십시오. 당사 지원팀은 항상 성능 최적화를 도와드릴 수 있습니다。"
-        },
-        "ctaBadge": "대부분의 고객은 20분 이내에 라이브 상태가 됩니다",
-        "liveTime": "대부분의 고객은 20분 이내에 라이브 상태가 됩니다"
-      },
-      "comparison": {
-        "title": "음성 AI 대 인간 대 아웃소싱 서비스",
-        "subtitle": "SeaVoice AI가 기존 대안과 어떻게 비교되는지 확인하십시오。",
-        "seavoiceAi": "SeaVoice AI",
-        "fullTimeHuman": "정규직 인간",
-        "outsourcedService": "아웃소싱 서비스",
-        "availability": {
-          "feature": "24/7 가용성",
-          "seavoice": "항상 켜짐",
-          "human": "9-5만",
-          "outsourced": "추가 요금"
-        },
-        "callVolume": {
-          "feature": "통화량 처리",
-          "seavoice": "500개 이상 동시",
-          "human": "한 번에 1통화",
-          "outsourced": "5-10개 동시"
-        },
-        "language": {
-          "feature": "언어 지원",
-          "seavoice": "30개 이상의 언어",
-          "human": "고용에 따라 제한됨",
-          "outsourced": "언어당 추가 요금"
-        },
-        "emotional": {
-          "feature": "감성 지능",
-          "seavoice": "기본적인 공감",
-          "human": "높음",
-          "outsourced": "상담원 의존"
-        },
-        "compliance": {
-          "feature": "규정 준수",
-          "seavoice": "내장 도구",
-          "human": "교육 필요",
-          "outsourced": "교육 필요"
-        },
-        "implementation": {
-          "feature": "구현 시간",
-          "seavoice": "<1일",
-          "human": "6-8주 채용",
-          "outsourced": "2-4주"
-        },
-        "costComparison": "💰 비용 비교",
-        "cost": {
-          "monthly": {
-            "feature": "월간 비용",
-            "seavoice": "30달러부터 시작",
-            "human": "3,397달러 이상",
-            "outsourced": "1,500-2,500달러"
-          },
-          "effective": {
-            "feature": "실효 요금",
-            "seavoice": "분당 0.12달러",
-            "human": "통화당 6.79달러",
-            "outsourced": "통화당 3.00-5.00달러"
-          },
-          "hidden": {
-            "feature": "숨겨진 비용",
-            "seavoice": "없음",
-            "human": "복리후생(월 800달러 이상)",
-            "outsourced": "설정비"
+          "cta": {
+            "title": "Ready to Automate Appointment Booking?",
+            "description": "Streamline scheduling and reduce no-shows with intelligent appointment management",
+            "startFreeTrial": "Start Free Trial",
+            "scheduleDemo": "Schedule Demo"
           }
         },
-        "savings": {
-          "costVsHuman": "95%",
-          "costVsHumanLabel": "인간 대비 비용 절감",
-          "costVsOutsourced": "80%",
-          "costVsOutsourcedLabel": "아웃소싱 대비 절감",
-          "annualSavings": "4만 달러 이상",
-          "annualSavingsLabel": "연간 절감액"
-        },
-        "cta": {
-          "title": "SeaVoice AI의 이점을 경험할 준비가 되셨습니까?",
-          "subtitle": "24/7 작동하고 무제한 통화를 처리하며 비즈니스와 함께 확장되는 AI로 고객 서비스를 혁신한 수천 개의 기업에 합류하십시오。",
-          "bookDemo": "데모 예약",
-          "signUp": "지금 가입",
-          "description": "24/7 작동하고 무제한 통화를 처리하며 비즈니스와 함께 확장되는 AI로 고객 서비스를 혁신한 수천 개의 기업에 합류하십시오。"
-        },
-        "seavoiceAI": "SeaVoice AI",
-        "costDescription": "SeaVoice AI로 극적인 비용 절감을 확인하십시오。",
-        "costSavings": "95%",
-        "costSavingsLabel": "인간 대비 비용 절감",
-        "outsourcedSavings": "80%",
-        "outsourcedSavingsLabel": "아웃소싱 대비 절감",
-        "annualSavings": "4만 달러 이상",
-        "annualSavingsLabel": "연간 절감액",
-        "features": {
-          "availability": "24/7 가용성",
-          "callVolume": "통화량 처리",
-          "language": "언어 지원",
-          "emotional": "감성 지능",
-          "compliance": "규정 준수",
-          "implementation": "구현 시간",
-          "monthlyCost": "월간 비용",
-          "effectiveRate": "실효 요금",
-          "hiddenCosts": "숨겨진 비용"
-        },
-        "seavoice": {
-          "availability": "항상 켜짐",
-          "callVolume": "500개 이상 동시",
-          "language": "30개 이상의 언어",
-          "emotional": "기본적인 공감",
-          "compliance": "내장 도구",
-          "implementation": "<1일",
-          "monthlyCost": "30달러부터 시작",
-          "effectiveRate": "분당 0.12달러",
-          "hiddenCosts": "없음"
-        },
-        "human": {
-          "availability": "9-5만",
-          "callVolume": "한 번에 1통화",
-          "language": "고용에 따라 제한됨",
-          "emotional": "높음",
-          "compliance": "교육 필요",
-          "implementation": "6-8주 채용",
-          "monthlyCost": "3,397달러 이상",
-          "effectiveRate": "통화당 6.79달러",
-          "hiddenCosts": "복리후생(월 800달러 이상)"
-        },
-        "outsourced": {
-          "availability": "추가 요금",
-          "callVolume": "5-10개 동시",
-          "language": "언어당 추가 요금",
-          "emotional": "상담원 의존",
-          "compliance": "교육 필요",
-          "implementation": "2-4주",
-          "monthlyCost": "1,500-2,500달러",
-          "effectiveRate": "통화당 3.00-5.00달러",
-          "hiddenCosts": "설정비"
-        }
-      },
-      "seachat": {
-        "title": {
-          "prefix": "SeaVoice의 기능은 ",
-          "highlight": "SeaChat",
-          "suffix": " 에서 제공합니다。"
-        },
-        "subtitle": "옴니채널 및 다중 모드 노코드 상담원 플랫폼",
-        "teamwork": {
-          "title": "하나의 팀, 당신을 위해 함께 일합니다"
-        },
-        "chatAgent": {
-          "title": "채팅 AI 상담원",
-          "description": "웹, 모바일 및 메시징 플랫폼 전반에 걸친 즉각적인 응답"
-        },
-        "humanAgent": {
-          "title": "인간 상담원",
-          "description": "인간적인 손길이 필요한 복잡한 질문에 대한 원활한 인계"
-        },
-        "voiceAgent": {
-          "title": "음성 AI 상담원",
-          "description": "고급 음성 AI로 구동되는 자연스러운 전화 대화"
-        },
-        "learnMore": "SeaChat에 대해 자세히 알아보기",
-        "teamTitle": "하나의 팀, 당신을 위해 함께 일합니다"
-      },
-      "testimonial": {
-        "quote": "SeaVoice는 상담원 교육 시간을 2주 단축하고 효율성을 20% 향상시켰습니다。",
-        "author": "Sarah Johnson",
-        "role": "고객 성공 부사장",
-        "company": "TechCorp Inc.",
-        "stat1": "2주",
-        "stat1Label": "교육 시간 단축",
-        "stat2": "20%",
-        "stat2Label": "효율성 향상",
-        "stat3": "94%",
-        "stat3Label": "고객 만족도",
-        "stat4": "500+",
-        "stat4Label": "동시 통화"
-      },
-      "faq": {
-        "title": {
-          "line1": "자주 묻는",
-          "line2": "질문"
-        },
-        "subtitle": "SeaVoice AI에 대해 알아야 할 모든 것과 비즈니스 커뮤니케이션을 어떻게 혁신할 수 있는지",
-        "badge": "질문이 있으신가요?",
-        "expandAll": "모든 질문 펼치기",
-        "collapseAll": "모두 접기",
-        "q1": {
-          "question": "SeaVoice는 기존 챗봇과 어떻게 다릅니까?",
-          "answer": "SeaVoice는 문맥을 이해하고, 중단을 처리하며, 전화로 인간과 같은 응답을 제공할 수 있는 고급 AI와의 실시간 음성 대화를 제공합니다. 텍스트 기반 챗봇과 달리 SeaVoice는 자연스러운 음성 패턴으로 실제 음성 통화를 처리합니다。"
-        },
-        "q2": {
-          "question": "설정하는 데 얼마나 걸립니까?",
-          "answer": "설정은 일반적으로 20분도 채 걸리지 않습니다. 음성 상담원을 교육하고, 전화 시스템을 연결하고, 통화 규칙을 설정하고, 한 세션에서 라이브로 전환할 수 있습니다。"
-        },
-        "q3": {
-          "question": "발신자가 AI와 통화하고 있다는 것을 알 수 있습니까?",
-          "answer": "당사의 고급 음성 기술은 매우 인간과 같은 대화를 만듭니다. 일부 발신자는 알아차릴 수 있지만 대부분은 자연스럽고 도움이 되는 경험이라고 생각합니다. 원하는 경우 AI가 AI 비서로 자신을 소개하도록 사용자 정의할 수도 있습니다。"
-        },
-        "q4": {
-          "question": "SeaVoice가 질문에 답할 수 없으면 어떻게 됩니까?",
-          "answer": "SeaVoice는 에스컬레이션을 원활하게 처리하도록 설계되었습니다. 구성된 규칙에 따라 인간 상담원에게 통화를 전달하거나, 메시지를 받거나, 콜백을 예약하거나, 발신자를 적절한 리소스로 안내할 수 있습니다。"
-        },
-        "q5": {
-          "question": "가격은 어떻게 책정됩니까?",
-          "answer": "투명한 분당 가격을 제공합니다. 프리미엄 플랜에는 기본 시간이 포함되며 추가 사용량은 분당 청구됩니다. 엔터프라이즈 플랜은 볼륨 및 특정 요구 사항에 따라 사용자 정의됩니다。"
-        },
-        "q6": {
-          "question": "AI의 음성을 사용자 정의할 수 있습니까?",
-          "answer": "네! 여러 음성 옵션 중에서 선택하고, 톤과 말하기 스타일을 조정하고, 엔터프라이즈 플랜의 경우 사용자 정의 음성을 복제할 수도 있습니다. AI는 브랜드의 커뮤니케이션 스타일에 맞게 교육할 수 있습니다。"
-        },
-        "q7": {
-          "question": "SeaVoice는 다국어를 지원합니까?",
-          "answer": "네, SeaVoice는 영어, 스페인어, 프랑스어, 독일어, 이탈리아어, 포르투갈어, 네덜란드어, 러시아어, 중국어, 일본어를 포함한 10개 이상의 언어로 대화를 지원합니다。"
-        },
-        "q8": {
-          "question": "SeaVoice에서 가장 많은 혜택을 받는 산업은 무엇입니까?",
-          "answer": "SeaVoice는 의료, 부동산, 숙박, 금융 서비스, 전자 상거래, 전문 서비스 등, 통화량이 많거나 24/7 가용성이 필요한 모든 비즈니스에서 잘 작동합니다。"
-        },
-        "q9": {
-          "question": "SeaVoice가 긴급 전화를 처리할 수 있습니까?",
-          "answer": "SeaVoice는 긴급 문의를 처리하고 적절하게 에스컬레이션할 수 있지만, 직접적인 긴급 프로토콜을 유지하는 것이 좋습니다. SeaVoice는 긴급 관련 통화를 인간 운영자에게 즉시 전달하도록 구성할 수 있습니다。"
-        },
-        "q10": {
-          "question": "SeaVoice가 스팸 전화를 감지할 수 있습니까?",
-          "answer": "네, SeaVoice에는 의심스러운 통화를 식별하고 필터링하는 내장된 스팸 감지 기능이 포함되어 있어 원치 않는 중단으로부터 비즈니스를 보호하는 동시에 합법적인 통화가 확실히 통과되도록 합니다。"
-        },
-        "q11": {
-          "question": "어떻게 시작합니까?",
-          "answer": "시작하기는 쉽습니다! 데모를 예약하여 SeaVoice의 실제 작동 모습을 확인한 다음, 저희 팀이 음성 상담원을 설정하고, 전화 시스템과 통합하고, 특정 요구 사항에 맞게 구성하는 데 도움을 드릴 것입니다. 대부분의 고객은 하루 안에 시작하고 실행합니다。"
-        }
-      },
-      "finalCta": {
-        "title": "실제 작동 모습을 볼 준비가 되셨습니까?",
-        "subtitle": "개인화된 데모를 받고 SeaVoice가 고객 커뮤니케이션을 어떻게 혁신할 수 있는지 알아보십시오。",
-        "bookDemo": "오늘 데모 예약",
-        "signUp": "지금 가입"
-      },
-      "dashboard": {
-        "stats": {
-          "totalCalls": "247",
-          "activeCalls": "3",
-          "avgWaitTime": "0:12",
-          "satisfaction": "4.8",
-          "resolutionRate": "92"
-        },
-        "calls": {
-          "sarah": {
-            "customer": "Sarah Johnson",
-            "type": "약속 예약",
-            "status": "완료됨",
-            "duration": "3:42",
-            "time": "2분 전",
-            "outcome": "다음 주 화요일 오후 2시에 약속이 예약되었습니다。",
-            "tag1": "예약",
-            "tag2": "만족"
+        "mentalHealth": {
+          "hero": {
+            "title": "Mental Health Voice Companion",
+            "description": "Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
+            "cta": "Learn About Mental Health AI"
           },
-          "mike": {
-            "customer": "Mike Chen",
-            "type": "기술 지원",
-            "status": "전달됨",
-            "duration": "1:28",
-            "time": "5분 전",
-            "outcome": "기술 전문가에게 전달됨 - 문제: 로그인 문제",
-            "tag1": "지원",
-            "tag2": "에스컬레이션됨"
+          "features": {
+            "title": "Compassionate AI Support",
+            "description": "Advanced AI trained in mental health support and crisis intervention",
+            "empathetic": {
+              "title": "Empathetic AI Companion",
+              "description": "Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
+              "benefits": {
+                "activeListening": "Active listening",
+                "emotionalValidation": "Emotional validation",
+                "crisisRecognition": "Crisis recognition"
+              }
+            },
+            "safe": {
+              "title": "Safe & Confidential",
+              "description": "HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.",
+              "benefits": {
+                "hipaaCompliance": "HIPAA compliance",
+                "encryptedConversations": "Encrypted conversations",
+                "anonymousOptions": "Anonymous options"
+              }
+            },
+            "availability": {
+              "title": "24/7 Availability",
+              "description": "Always available when someone needs to talk, providing immediate support during crisis moments.",
+              "benefits": {
+                "roundTheClockAccess": "Round-the-clock access",
+                "immediateResponse": "Immediate response",
+                "noWaitTimes": "No wait times"
+              }
+            }
           },
-          "emily": {
-            "customer": "Emily Rodriguez",
-            "type": "주문 문의",
-            "status": "완료됨",
-            "duration": "2:15",
-            "time": "8분 전",
-            "outcome": "주문 상태 제공됨 - 패키지는 내일 도착합니다。",
-            "tag1": "문의",
-            "tag2": "해결됨"
+          "capabilities": {
+            "title": "Mental Health Support Capabilities",
+            "description": "Comprehensive support across the mental health care spectrum",
+            "screening": {
+              "title": "Initial Mental Health Screening",
+              "description": "Conduct preliminary assessments using validated screening tools",
+              "outcomes": {
+                "earlyIdentification": "Early identification",
+                "riskAssessment": "Risk assessment",
+                "appropriateReferrals": "Appropriate referrals"
+              }
+            },
+            "crisis": {
+              "title": "Crisis Intervention",
+              "description": "Recognize crisis situations and provide immediate support or escalation",
+              "outcomes": {
+                "crisisDetection": "Crisis detection",
+                "deEscalationTechniques": "De-escalation techniques",
+                "emergencyProtocols": "Emergency protocols"
+              }
+            },
+            "navigation": {
+              "title": "Resource Navigation",
+              "description": "Guide users to appropriate mental health resources and services",
+              "outcomes": {
+                "serviceMatching": "Service matching",
+                "appointmentScheduling": "Appointment scheduling",
+                "followUpSupport": "Follow-up support"
+              }
+            },
+            "emotional": {
+              "title": "Emotional Support",
+              "description": "Provide compassionate listening and emotional validation",
+              "outcomes": {
+                "reducedIsolation": "Reduced isolation",
+                "emotionalRelief": "Emotional relief",
+                "copingStrategies": "Coping strategies"
+              }
+            }
           },
-          "david": {
-            "customer": "David Wilson",
-            "type": "청구 질문",
-            "status": "진행 중",
-            "duration": "1:03",
-            "time": "방금",
-            "outcome": "현재 청구 불일치에 대해 논의 중",
-            "tag1": "청구",
-            "tag2": "활성"
+          "safety": {
+            "title": "Safety-First Design",
+            "description": "Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+            "features": {
+              "title": "Safety Features"
+            },
+            "crisisDetection": {
+              "title": "Crisis Detection",
+              "description": "Advanced algorithms identify crisis situations"
+            },
+            "professionalHandoff": {
+              "title": "Professional Handoff",
+              "description": "Seamless transfer to human mental health professionals"
+            },
+            "emergencyProtocols": {
+              "title": "Emergency Protocols",
+              "description": "Immediate connection to crisis hotlines when needed"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "Crisis keyword detection",
+            "suicideRiskAssessment": "Suicide risk assessment",
+            "automaticEscalationProtocols": "Automatic escalation protocols",
+            "emergencyContactIntegration": "Emergency contact integration",
+            "professionalHandoffProcedures": "Professional handoff procedures",
+            "followUpScheduling": "Follow-up scheduling"
+          },
+          "benefits": {
+            "title": "Mental Health Impact",
+            "description": "Measurable improvements in mental health support accessibility",
+            "alwaysAvailableSupport": "Always available support",
+            "crisisEscalationReduction": "Reduction in crisis escalation",
+            "userSatisfactionRate": "User satisfaction rate",
+            "helpSeekingBehaviorIncrease": "Increase in help-seeking behavior"
+          },
+          "cta": {
+            "title": "Ready to Support Mental Health?",
+            "description": "Provide compassionate, 24/7 mental health support with AI that truly cares",
+            "learnMore": "Learn More",
+            "contactSpecialists": "Contact Specialists"
           }
         },
-        "mockCalls": {
-          "customer1": "Sarah Johnson",
-          "type1": "약속 예약",
-          "status1": "완료됨",
-          "duration1": "3:42",
-          "time1": "2분 전",
-          "outcome1": "다음 주 화요일 오후 2시에 약속이 예약되었습니다。",
-          "customer2": "Mike Chen",
-          "type2": "기술 지원",
-          "status2": "전달됨",
-          "duration2": "1:28",
-          "time2": "5분 전",
-          "outcome2": "기술 전문가에게 전달됨 - 문제: 로그인 문제",
-          "customer3": "Emily Rodriguez",
-          "type3": "주문 문의",
-          "status3": "완료됨",
-          "duration3": "2:15",
-          "time3": "8분 전",
-          "outcome3": "주문 상태 제공됨 - 패키지는 내일 도착합니다。",
-          "customer4": "David Wilson",
-          "type4": "청구 질문",
-          "status4": "진행 중",
-          "duration4": "1:03",
-          "time4": "방금",
-          "outcome4": "현재 청구 불일치에 대해 논의 중"
-        }
-      },
-      "testimonials": {
-        "metrics": {
-          "trainingTime": "2주",
-          "trainingTimeLabel": "교육 시간 단축",
-          "efficiency": "20%",
-          "efficiencyLabel": "효율성 향상",
-          "satisfaction": "94%",
-          "satisfactionLabel": "고객 만족도",
-          "simultaneousCalls": "500+",
-          "simultaneousCallsLabel": "동시 통화"
-        },
-        "quote": "SeaVoice는 상담원 교육 시간을 2주 단축하고 효율성을 20% 향상시켰습니다。",
-        "author": "Sarah Johnson",
-        "role": "고객 성공 부사장",
-        "company": "TechCorp Inc."
-      }
-    },
-    "pricing": {
-      "hero": {
-        "title": "간단하고 투명한 가격",
-        "subtitle": "인바운드 고객 서비스 및 아웃바운드 캠페인을 위해 설계된 음성 AI 솔루션. SeaChat Premium(29.99달러) 및 SeaX 옴니채널(99달러) 기반으로 구축되었습니다。"
-      },
-      "plans": {
-        "inboundOnly": {
-          "name": "인바운드 전용",
-          "tagline": "고객 서비스에 적합",
-          "price": "$29.99",
-          "period": "/월",
-          "description": "음성 AI(SeaChat 프리미엄 플랜 기반)를 사용한 인바운드 통화 솔루션이 필요한 비즈니스에 이상적",
+        "callTransfer": {
+          "hero": {
+            "title": "Smart Call Transfer During Business Hours",
+            "description": "Revolutionize your call routing with AI-powered intelligent transfer that understands caller intent and connects them to the right person instantly, reducing wait times and improving customer satisfaction.",
+            "primaryCta": "Optimize Your Call Routing"
+          },
           "features": {
-            "aiCallHandling": "AI 기반 통화 처리(인바운드 통화만 해당)",
-            "voiceAIPrice": "음성 AI는 분당 0.12달러부터 시작(ChatGPT-4o 미니 모델)",
-            "phoneNumber": "전화번호 포함(E911 주소 포함 월 2~3달러)",
-            "callRecording": "통화 녹음 및 요약",
-            "transferHuman": "인간 상담원 지원으로 전송",
-            "multiLanguage": "다국어 음성 지원",
-            "sttLanguages": "10개 이상의 음성-텍스트 변환 언어",
-            "ttsLanguages": "Azure, ElevenLabs, OpenAI의 음성이 포함된 10개 이상의 텍스트-음성 변환 언어",
-            "crmIntegrations": "CRM 통합(Salesforce, HubSpot)",
-            "calendarIntegration": "캘린더 통합(Google, Outlook)",
-            "callAnalytics": "통화 분석 및 보고",
-            "emailNotifications": "통화에 대한 이메일 알림"
+            "title": "Intelligent Call Routing Features",
+            "description": "Advanced AI technology that understands and routes calls with precision",
+            "intelligentRouting": {
+              "title": "Intelligent Routing",
+              "description": "AI analyzes caller intent and routes to the most appropriate department or agent.",
+              "benefits": {
+                "0": "Intent recognition",
+                "1": "Skill-based routing",
+                "2": "Priority handling"
+              }
+            },
+            "agentOptimization": {
+              "title": "Agent Optimization",
+              "description": "Balance workload across agents and ensure calls reach available specialists.",
+              "benefits": {
+                "0": "Load balancing",
+                "1": "Availability checking",
+                "2": "Expertise matching"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "Reduced Wait Times",
+              "description": "Minimize customer wait times with efficient routing and queue management.",
+              "benefits": {
+                "0": "Queue optimization",
+                "1": "Callback options",
+                "2": "Real-time updates"
+              }
+            }
           },
-          "limitations": {
-            "noOutbound": "아웃바운드 통화 기능 없음",
-            "noBulkCampaigns": "대량 캠페인 기능 없음"
+          "routing": {
+            "title": "Smart Routing in Action",
+            "description": "See how our AI identifies intent and routes calls for optimal outcomes"
           },
-          "cta": "인바운드 전용으로 시작",
-          "poweredBy": "SeaChat 제공"
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "Billing Inquiry",
+              "action": "Route to Billing Department",
+              "result": "90% first-call resolution"
+            },
+            "technicalSupport": {
+              "trigger": "Technical Support",
+              "action": "Route to Technical Team",
+              "result": "85% issue resolution"
+            },
+            "salesInterest": {
+              "trigger": "Sales Interest",
+              "action": "Route to Sales Team",
+              "result": "40% conversion rate"
+            },
+            "vipCustomer": {
+              "trigger": "VIP Customer",
+              "action": "Priority Queue",
+              "result": "< 30 second wait time"
+            }
+          },
+          "benefits": {
+            "title": "Measurable Impact",
+            "description": "Real results from implementing intelligent call transfer"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "Reduction in average wait time"
+            },
+            "resolution": {
+              "description": "First-call resolution rate"
+            },
+            "efficiency": {
+              "description": "Improvement in agent efficiency"
+            },
+            "accuracy": {
+              "description": "Accurate routing to correct department"
+            }
+          },
+          "cta": {
+            "title": "Ready to Optimize Your Call Routing?",
+            "description": "Reduce wait times and improve customer satisfaction with intelligent call transfer",
+            "primaryButton": "Start Free Trial",
+            "secondaryButton": "See Demo"
+          }
         },
-        "inboundOutbound": {
-          "name": "인바운드 + 아웃바운드",
-          "tagline": "음성 캠페인 확장",
-          "price": "$99",
-          "period": "/월",
-          "description": "대규모 음성 AI 캠페인에 적합(첫 번째 사용자를 위한 SeaX 옴니채널 플랜과 동일)",
-          "badge": "가장 인기 있음",
+        "scamShield": {
+          "hero": {
+            "title": "Scam Shield Protection",
+            "subtitle": "Protect your customers from phone scams and fraudulent calls with AI-powered detection that identifies and blocks threats in real-time, keeping your community safe from financial fraud.",
+            "cta": "Activate Scam Protection"
+          },
           "features": {
-            "everythingInbound": "인바운드 전용 플랜의 모든 것",
-            "outboundCalling": "아웃바운드 통화 및 캠페인",
-            "bulkCampaigns": "대량 음성 AI 캠페인",
-            "voiceAIPrice": "음성 AI는 분당 0.12달러부터 시작(ChatGPT-4o 미니 모델)",
-            "additionalUsers": "추가 사용자: 각 월 49달러",
-            "multipleNumbers": "여러 전화번호 지원",
-            "campaignScheduling": "캠페인 예약 및 자동화",
-            "advancedRouting": "고급 통화 라우팅",
-            "customVoiceTraining": "맞춤형 음성 교육",
-            "voicemailDrop": "음성 메일 드롭 기능(드롭당 0.05달러)",
-            "apiAccess": "RESTful API 액세스",
-            "seachatIntegration": "다중 채널 지원을 위한 SeaChat 통합",
-            "advancedAnalytics": "고급 분석 대시보드",
-            "prioritySupport": "우선 지원"
+            "title": "Advanced Scam Detection",
+            "subtitle": "Multi-layered protection against evolving fraud tactics",
+            "realTimeDetection": {
+              "title": "Real-Time Scam Detection",
+              "description": "Advanced AI algorithms identify and block fraudulent calls before they reach your customers.",
+              "benefit1": "Pattern recognition",
+              "benefit2": "Behavioral analysis",
+              "benefit3": "Instant blocking"
+            },
+            "threatIntelligence": {
+              "title": "Threat Intelligence",
+              "description": "Continuously updated database of known scam patterns and fraudulent phone numbers.",
+              "benefit1": "Global threat data",
+              "benefit2": "Real-time updates",
+              "benefit3": "Machine learning"
+            },
+            "customerProtection": {
+              "title": "Customer Protection",
+              "description": "Proactively protect customers from financial fraud and identity theft attempts.",
+              "benefit1": "Fraud prevention",
+              "benefit2": "Identity protection",
+              "benefit3": "Financial security"
+            }
           },
-          "cta": "인바운드 + 아웃바운드로 시작",
-          "poweredBy": "SeaX + SeaChat 제공"
+          "scamTypes": {
+            "title": "Protected Against All Scam Types",
+            "subtitle": "Comprehensive protection against the most common fraud tactics",
+            "phishing": {
+              "type": "Phishing Calls",
+              "description": "Attempts to steal personal information or login credentials",
+              "detection": "Voice pattern analysis and keyword detection",
+              "action": "Immediate call termination and customer alert"
+            },
+            "techSupport": {
+              "type": "Tech Support Scams",
+              "description": "Fake technical support claiming computer problems",
+              "detection": "Script pattern recognition and caller ID verification",
+              "action": "Block call and provide legitimate support contact"
+            },
+            "financialFraud": {
+              "type": "Financial Fraud",
+              "description": "Impersonating banks or financial institutions",
+              "detection": "Institution verification and voice authentication",
+              "action": "Terminate call and notify real financial institution"
+            },
+            "romance": {
+              "type": "Romance Scams",
+              "description": "Building fake relationships to extract money",
+              "detection": "Conversation pattern analysis and emotional manipulation detection",
+              "action": "Warning alerts and resource provision"
+            },
+            "detectionMethod": "Detection Method:",
+            "protectionAction": "Protection Action:",
+            "detectionMethodLabel": "Detection Method",
+            "protectionActionLabel": "Protection Action"
+          },
+          "protection": {
+            "title": "Multi-Layer Protection System",
+            "subtitle": "Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "realTimeAnalysis": {
+              "title": "Real-Time Analysis",
+              "description": "Instant evaluation of every incoming call"
+            },
+            "continuousLearning": {
+              "title": "Continuous Learning",
+              "description": "AI improves detection with every blocked scam"
+            },
+            "zeroFalsePositives": {
+              "title": "Zero False Positives",
+              "description": "Legitimate calls are never blocked"
+            },
+            "layersTitle": "Protection Layers",
+            "layer1": "Caller ID verification",
+            "layer2": "Voice pattern analysis",
+            "layer3": "Script detection algorithms",
+            "layer4": "Behavioral anomaly detection",
+            "layer5": "Real-time threat intelligence",
+            "layer6": "Customer education alerts"
+          },
+          "benefits": {
+            "title": "Protection Results",
+            "subtitle": "Proven effectiveness in stopping fraud and protecting customers",
+            "accuracy": {
+              "metric": "95%",
+              "description": "Scam call detection accuracy"
+            },
+            "reduction": {
+              "metric": "80%",
+              "description": "Reduction in successful fraud attempts"
+            },
+            "coverage": {
+              "metric": "24/7",
+              "description": "Continuous protection coverage"
+            },
+            "preservation": {
+              "metric": "99.9%",
+              "description": "Legitimate call preservation rate"
+            }
+          },
+          "cta": {
+            "title": "Ready to Protect Your Customers?",
+            "subtitle": "Stop scammers in their tracks with AI-powered fraud detection and protection",
+            "activateProtection": "Activate Protection",
+            "learnMore": "Learn More",
+            "primaryButton": "Activate Protection",
+            "secondaryButton": "Learn More"
+          },
+          "protectionSystem": {
+            "title": "Multi-Layer Protection System",
+            "subtitle": "Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "realTimeAnalysis": {
+              "title": "Real-Time Analysis",
+              "description": "Instant evaluation of every incoming call"
+            },
+            "continuousLearning": {
+              "title": "Continuous Learning",
+              "description": "AI improves detection with every blocked scam"
+            },
+            "zeroFalsePositives": {
+              "title": "Zero False Positives",
+              "description": "Legitimate calls are never blocked"
+            }
+          },
+          "results": {
+            "title": "Protection Results",
+            "subtitle": "Proven effectiveness in stopping fraud and protecting customers"
+          }
         },
-        "custom": {
-          "name": "맞춤형 플랜",
-          "tagline": "엔터프라이즈급 솔루션",
-          "price": "문의하기",
-          "period": "",
-          "description": "특정 비즈니스 요구에 맞는 맞춤형 솔루션(SeaChat/SeaX 엔터프라이즈 플랜과 유사)",
-          "customPriceMessage": "프로젝트를 만들어 봅시다",
+        "paymentProcessing": {
+          "hero": {
+            "title": "Secure Payment Processing",
+            "description": "Enable secure, PCI-compliant payment processing through voice interactions. Let customers make payments safely over the phone with advanced fraud protection and instant transaction processing.",
+            "cta": "Enable Secure Payments"
+          },
           "features": {
-            "everythingInboundOutbound": "인바운드 + 아웃바운드 플랜의 모든 것",
-            "multipleWorkspaces": "여러 작업 공간(대행사에 적합)",
-            "workspaceAgents": "각 작업 공간에는 여러 AI 상담원과 전화번호가 있습니다。",
-            "customPricing": "볼륨에 따른 분당 맞춤형 가격",
-            "accountManager": "전담 계정 관리자",
-            "uptimeSLA": "99.99% 가동 시간 SLA",
-            "compliance": "HIPAA/PCI 규정 준수 가능",
-            "whiteLabel": "화이트 라벨 솔루션",
-            "customAPI": "맞춤형 API 통합",
-            "advancedSecurity": "고급 보안 기능",
-            "voiceCloning": "맞춤형 음성 복제",
-            "phoneSupport": "우선 전화 지원",
-            "technicalSupport": "전문적인 디자인 지침 및 기술 지원",
-            "onPremise": "온프레미스 배포 옵션"
-          },
-          "cta": "문의하기"
-        }
-      },
-      "productRelationship": {
-        "title": "SeaVoice가 SeaChat 및 SeaX와 어떻게 연결되는가",
-        "seachatIntegration": {
-          "title": "🔗 SeaChat 통합",
-          "description": "SeaVoice 인바운드 전용(월 29.99달러)은 SeaChat 프리미엄 플랜 기반으로 구축되어 분당 0.12달러에 수신 통화에 대한 음성 AI 기능을 제공합니다。",
-          "subtitle": "기존 SeaChat 설정에 음성 AI를 추가하려는 비즈니스에 적합합니다。"
-        },
-        "seaxIntegration": {
-          "title": "📞 SeaX 통합",
-          "description": "SeaVoice 인바운드 + 아웃바운드(월 99달러)는 SeaX 옴니채널 가격을 반영하여 콜백 처리가 포함된 대규모 음성 캠페인을 지원합니다。",
-          "subtitle": "포괄적인 음성 AI 커버리지가 필요한 아웃바운드 캠페인을 실행하는 비즈니스에 이상적입니다。"
-        },
-        "completePicture": {
-          "title": "✨ 전체 그림",
-          "description": "SeaChat, SeaX 및 SeaVoice의 모든 음성 AI 통화는 ChatGPT-4o 미니 모델로 분당 0.12달러의 동일한 요금을 사용합니다. 아웃바운드 캠페인 후 연락처가 다시 전화를 걸면 SeaVoice는 동일한 AI 인텔리전스로 이러한 수신 통화를 원활하게 처리합니다。"
-        }
-      },
-      "faq": {
-        "title": "자주 묻는 질문",
-        "subtitle": "SeaVoice 가격 및 기능에 대해 알아야 할 모든 것",
-        "question1": "SeaVoice 가격은 SeaChat 및 SeaX와 어떻게 관련이 있습니까?",
-        "answer1": "SeaVoice 인바운드 전용 플랜(월 29.99달러)은 SeaChat 프리미엄 플랜을 기반으로 하며 인바운드 음성 AI에 중점을 둡니다. 인바운드 + 아웃바운드 플랜(월 99달러)은 포괄적인 음성 캠페인을 위한 SeaX 옴니채널 가격을 반영합니다. 모든 음성 AI 통화는 ChatGPT-4o 미니 모델을 사용하여 분당 0.12달러부터 시작합니다。",
-        "question2": "인바운드 전용 플랜과 인바운드 + 아웃바운드 플랜의 차이점은 무엇입니까?",
-        "answer2": "인바운드 전용(월 29.99달러)은 AI로 수신 통화를 처리하며 고객 서비스에 적합합니다. 인바운드 + 아웃바운드(첫 번째 사용자는 월 99달러)는 대량 캠페인 기능과 아웃바운드 통화를 추가하여 대규모 음성 캠페인을 실행하는 영업 및 마케팅 팀에 이상적입니다。",
-        "question3": "기존 비즈니스 전화번호를 유지할 수 있습니까?",
-        "answer3": "예, 기존 비즈니스 번호를 유지하고 SeaVoice로 통화를 전달하거나 새 번호를 제공할 수 있습니다. 각 전화번호는 E911 주소 등록 시 월 2~3달러입니다。",
-        "question4": "음성 AI 통화 비용은 실제로 얼마입니까?",
-        "answer4": "모든 음성 AI 통화는 ChatGPT-4o 미니 모델을 사용하여 분당 0.12달러부터 시작합니다. 이는 SeaChat 프리미엄 및 SeaVoice 플랜 전체에서 동일한 요금입니다. ChatGPT-4o와 같은 상위 계층 모델은 분당 0.80달러이며 맞춤형 플랜에서 사용할 수 있습니다。",
-        "question5": "아웃바운드 캠페인 후 연락처가 다시 전화를 걸면 어떻게 됩니까?",
-        "answer5": "인바운드 + 아웃바운드 플랜을 사용하면 연락처가 캠페인 통화를 받은 후 다시 전화를 걸면 인바운드 음성 AI가 이러한 통화를 자동으로 처리하여 고객 커뮤니케이션의 원활한 연속성을 제공합니다。",
-        "question6": "인바운드 전용에서 인바운드 + 아웃바운드로 업그레이드할 수 있습니까?",
-        "answer6": "물론입니다! 언제든지 플랜을 업그레이드할 수 있습니다. 업그레이드는 즉시 적용되며 아웃바운드 통화, 캠페인 기능 및 추가 사용자 좌석에 액세스할 수 있습니다。",
-        "question7": "대량 사용 고객을 위한 볼륨 할인을 제공합니까?",
-        "answer7": "예, 맞춤형 플랜은 특정 볼륨 및 사용 패턴에 따라 협상된 가격을 제공합니다. 비즈니스 요구에 맞는 맞춤형 가격에 대해서는 영업팀에 문의하십시오。"
-      },
-      "cta": {
-        "title": "시작할 준비가 되셨습니까?",
-        "subtitle": "오늘 무료 평가판을 시작하고 AI 음성 자동화의 힘을 경험하십시오。",
-        "signUpFree": "무료로 가입",
-        "scheduleDemo": "데모 예약"
-      }
-    },
-    "footer": {
-      "description": "인간처럼 들리고 비즈니스와 원활하게 통합되는 AI 음성 상담원으로 고객 통화의 80%를 자동화하십시오。",
-      "platform": {
-        "title": "플랫폼",
-        "overview": "플랫폼 개요",
-        "landlineMobile": "유선 및 모바일 음성",
-        "voipSipByoc": "VoIP & SIP & BYOC 음성",
-        "lineCallPlus": "기업용 라인 콜 플러스",
-        "whatsAppVoice": "기업용 WhatsApp 음성 API",
-        "speechToText": "음성 텍스트 변환",
-        "textToSpeech": "텍스트 음성 변환",
-        "endToEndLlms": "엔드투엔드 LLM"
-      },
-      "inboundSolutions": {
-        "title": "인바운드 솔루션",
-        "virtualAssistant": "24/7 가상 비서",
-        "callTransfer": "스마트 통화 전달",
-        "ivrReplacement": "IVR 교체",
-        "mentalHealth": "정신 건강 동반자",
-        "scamShield": "사기 방지 보호",
-        "technicalSupport": "기술 지원",
-        "orderTracking": "주문 상태 및 추적",
-        "paymentProcessing": "결제 처리",
-        "appointmentBooking": "약속 예약"
-      },
-      "outboundSolutions": {
-        "title": "아웃바운드 솔루션",
-        "leadGeneration": "리드 생성 및 검증",
-        "collections": "수금 서비스",
-        "reactivation": "고객 재활성화",
-        "seniorChecks": "노인 확인 전화",
-        "campaigns": "대규모 캠페인",
-        "proactiveSupport": "사전 예방적 지원",
-        "renewals": "구독 갱신",
-        "surveys": "고객 설문조사",
-        "fraudAlerts": "사기 경보"
-      },
-      "company": {
-        "title": "회사",
-        "pricing": "가격",
-        "productWiki": "제품 Wiki",
-        "apiReferences": "API 참조"
-      },
-      "legal": {
-        "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
-        "privacyPolicy": "개인정보 처리방침",
-        "termsOfService": "서비스 이용약관"
-      },
-      "stats": {
-        "callsHandled": "100만 건 이상의 통화 처리",
-        "activeAgents": "5만 명 이상의 활성 상담원",
-        "uptime": "99.99% 가동 시간"
-      },
-      "cta": {
-        "title": "고객 통화의 80%를 자동화할 준비가 되셨습니까?",
-        "description": "SeaVoice AI 상담원을 사용하여 24/7 고객 통화를 처리하고 비용을 절감하며 고객 만족도를 향상시키는 수백 개의 기업에 합류하십시오。",
-        "getStartedFree": "무료로 시작하기",
-        "bookDemo": "데모 예약"
-      }
-    },
-    "priceCalculator": {
-      "hero": {
-        "title": "월간 가격 계산기",
-        "subtitle": "사용 요구 사항에 따라 정확한 월간 비용을 계산하십시오. 모든 가격은 전화 요금이 포함된 미국/캐나다 기준입니다。"
-      },
-      "configure": {
-        "title": "플랜 구성"
-      },
-      "planType": {
-        "label": "1. 플랜 유형 선택",
-        "inbound": {
-          "title": "인바운드 전용 - 월 29.99달러",
-          "description": "고객 서비스에 적합"
-        },
-        "inboundOutbound": {
-          "title": "인바운드 + 아웃바운드 - 월 99달러",
-          "description": "음성 캠페인 확장"
-        }
-      },
-      "phoneNumbers": {
-        "label": "2. 전화번호(E911 주소 포함)",
-        "local": {
-          "label": "지역 번호(각 월 2달러)"
-        },
-        "tollFree": {
-          "label": "수신자 부담 번호(각 월 3달러)"
-        }
-      },
-      "voiceAI": {
-        "label": "3. 음성 AI 시간(분당 0.12달러 - ChatGPT-4o 미니)",
-        "range": {
-          "min": "0분",
-          "max": "5,000분",
-          "current": "분"
-        }
-      },
-      "humanAgent": {
-        "label": "4. 인간 상담원 시간(분당 0.015달러)",
-        "range": {
-          "min": "0분",
-          "max": "2,000분",
-          "current": "분"
-        }
-      },
-      "breakdown": {
-        "title": "월간 비용 내역",
-        "inboundPlan": "인바운드 전용 플랜",
-        "inboundOutboundPlan": "인바운드 + 아웃바운드 플랜",
-        "phoneNumbersTitle": "전화번호",
-        "phoneNumbers": {
-          "local": "지역",
-          "tollFree": "수신자 부담"
-        },
-        "voiceAI": {
-          "title": "음성 AI 시간",
-          "calculation": "분 × 0.12달러"
-        },
-        "humanAgent": {
-          "title": "인간 상담원 시간",
-          "calculation": "분 × 0.015달러"
-        },
-        "total": "총 월간 비용"
-      },
-      "features": {
-        "usaCanada": "미국/캐나다 커버리지 포함",
-        "phoneCharges": "모든 전화 요금 포함",
-        "e911": "E911 주소 등록 포함",
-        "recording": "통화 녹음 및 분석",
-        "outboundCampaigns": "아웃바운드 캠페인 및 대량 통화"
-      },
-      "cta": {
-        "getStartedInbound": "인바운드 전용으로 시작",
-        "getStartedInboundOutbound": "인바운드 + 아웃바운드로 시작",
-        "scheduleDemo": "데모 예약"
-      },
-      "notes": {
-        "title": "중요 참고 사항",
-        "usaCanadaOnly": "표시된 가격은 미국/캐나다 전용입니다。",
-        "phoneChargesIncluded": "모든 전화 통화 요금은 표시된 요금에 포함되어 있습니다。",
-        "voiceAIModel": "음성 AI는 분당 0.12달러에 ChatGPT-4o 미니 모델을 사용합니다。",
-        "humanAgentMinutes": "인간 상담원 시간은 통화 전달 및 직접 통화용입니다。"
-      }
-    },
-    "platform": {
-      "hero": {
-        "title": "완벽한 AI 음성 플랫폼",
-        "description": "인간과 같은 음성 상호 작용, 원활한 통합 및 비즈니스를 위한 실행 가능한 통찰력을 제공하는 기술을 알아보십시오。",
-        "cta": "플랫폼 기능 살펴보기"
-      },
-      "features": {
-        "aiVoice": {
-          "title": "AI 음성 상담원",
-          "description": "완벽한 일관성으로 24/7 인바운드 및 아웃바운드 통화를 처리하는 인간과 같은 음성 상담원。",
-          "feature1": "24/7 가용성",
-          "feature2": "인간과 같은 대화",
-          "feature3": "동적 일시 중지 및 톤 전환",
-          "feature4": "다국어 지원"
-        },
-        "conversationalAI": {
-          "title": "대화형 AI",
-          "description": "문서에서 학습하고 개인화된 서비스를 위해 과거 상호 작용을 기억하는 고급 AI。",
-          "feature1": "RAG 기술",
-          "feature2": "장기 기억",
-          "feature3": "맞춤형 지식 기반",
-          "feature4": "상황 인식"
-        },
-        "analytics": {
-          "title": "분석 및 통찰력",
-          "description": "모든 대화에서 실시간 스크립트, 감성 분석 및 실행 가능한 통찰력。",
-          "feature1": "실시간 스크립트",
-          "feature2": "감성 분석",
-          "feature3": "성과 지표",
-          "feature4": "통화량 분석"
-        },
-        "telephony": {
-          "title": "전화 및 연결성",
-          "description": "VoIP, SIP 및 BYOC 옵션과의 유연한 통합으로 원활한 연결성을 제공합니다。",
-          "feature1": "VoIP 통합",
-          "feature2": "SIP 트렁킹",
-          "feature3": "BYOC 지원",
-          "feature4": "글로벌 커버리지"
-        },
-        "integrations": {
-          "title": "통합 및 채널",
-          "description": "기존 도구와 연결하고 여러 채널을 통해 고객에게 도달하십시오。",
-          "feature1": "CRM 통합",
-          "feature2": "WhatsApp 음성 API",
-          "feature3": "LINE 비즈니스 통화",
-          "feature4": "캘린더 동기화"
-        },
-        "speech": {
-          "title": "음성 기술",
-          "description": "맞춤형 음성 프로필이 포함된 업계 최고의 음성-텍스트 및 텍스트-음성 변환。",
-          "feature1": "고정밀 STT",
-          "feature2": "자연스러운 TTS",
-          "feature3": "음성 복제",
-          "feature4": "10개 이상의 언어"
-        }
-      },
-      "technology": {
-        "title": "업계 최고의 기술 기반",
-        "subtitle": "음성 인식 분야에서 원래 Kaldi 팀의 전문 지식을 바탕으로",
-        "speechRecognition": {
-          "title": "음성 인식",
-          "description": "배경 소음과 업계 전문 용어가 있어도 99% 이상의 정확도를 자랑하는 고급 STT 기술。",
-          "metric1": "99% 이상의 정확도",
-          "metric2": "실시간 처리",
-          "metric3": "소음 감소"
-        },
-        "nlp": {
-          "title": "자연어 처리",
-          "description": "의도를 이해하고 자연스러운 대화 흐름을 유지하는 상황 인식 AI。",
-          "metric1": "의도 인식",
-          "metric2": "문맥 유지",
-          "metric3": "감성 지능"
-        },
-        "voiceSynthesis": {
-          "title": "음성 합성",
-          "description": "사용자 정의 가능한 음성과 자연스러운 운율을 갖춘 인간과 같은 텍스트 음성 변환。",
-          "metric1": "자연스러운 운율",
-          "metric2": "음성 복제",
-          "metric3": "감정 제어"
-        }
-      },
-      "landlineMobile": {
-        "hero": {
-          "title": "유선 및 모바일 음성 솔루션",
-          "subtitle": "전 세계 유선 및 모바일 네트워크와 원활하게 작동하는 AI 기반 음성 상담원으로 기존 전화 시스템을 혁신하십시오。",
-          "cta": "무료로 가입"
-        },
-        "features": {
-          "0": {
-            "title": "기존 유선 통합",
-            "description": "기존 유선 인프라를 AI 음성 기능과 원활하게 연결합니다。",
-            "benefits": {
-              "0": "기존 전화번호 유지",
-              "1": "하드웨어 변경 필요 없음",
-              "2": "비지 라인의 즉각적인 AI 백업"
+            "title": "Secure Voice Payment Features",
+            "subtitle": "Enterprise-grade security meets seamless customer experience",
+            "securePayment": {
+              "title": "Secure Payment Processing",
+              "description": "Process payments safely over the phone with PCI-compliant voice technology.",
+              "benefit1": "PCI DSS compliance",
+              "benefit2": "Encrypted transactions",
+              "benefit3": "Multiple payment methods"
+            },
+            "fraudProtection": {
+              "title": "Fraud Protection",
+              "description": "Advanced fraud detection and prevention to protect both business and customers.",
+              "benefit1": "Real-time fraud detection",
+              "benefit2": "Risk assessment",
+              "benefit3": "Secure authentication"
+            },
+            "instantProcessing": {
+              "title": "Instant Processing",
+              "description": "Process payments immediately with real-time authorization and confirmation.",
+              "benefit1": "Real-time authorization",
+              "benefit2": "Instant confirmation",
+              "benefit3": "Immediate receipts"
             }
           },
-          "1": {
-            "title": "모바일 네트워크 연결",
-            "description": "아웃바운드 캠페인 및 고객 참여를 위한 모바일 통신사와의 직접 통합。",
-            "benefits": {
-              "0": "모바일 장치에서 고객에게 도달",
-              "1": "높은 전달률",
-              "2": "SMS 대체 옵션"
+          "paymentMethods": {
+            "title": "Comprehensive Payment Options",
+            "subtitle": "Accept all major payment methods with secure voice processing",
+            "creditCards": {
+              "method": "Credit Cards",
+              "description": "Accept all major credit cards with secure voice processing",
+              "feature1": "Visa, Mastercard, Amex",
+              "feature2": "CVV verification",
+              "feature3": "Expiry validation"
+            },
+            "debitCards": {
+              "method": "Debit Cards",
+              "description": "Process debit card payments with PIN verification",
+              "feature1": "PIN entry via voice",
+              "feature2": "Bank verification",
+              "feature3": "Instant deduction"
+            },
+            "bankTransfers": {
+              "method": "Bank Transfers",
+              "description": "Direct bank account transfers and ACH payments",
+              "feature1": "Account verification",
+              "feature2": "Routing number validation",
+              "feature3": "ACH processing"
+            },
+            "digitalWallets": {
+              "method": "Digital Wallets",
+              "description": "Support for popular digital payment platforms",
+              "feature1": "Apple Pay",
+              "feature2": "Google Pay",
+              "feature3": "PayPal integration"
             }
           },
-          "2": {
-            "title": "글로벌 커버리지",
-            "description": "광범위한 통신사 네트워크 파트너십을 통해 전 세계 고객과 연결합니다。",
-            "benefits": {
-              "0": "200개 이상의 국가 지원",
-              "1": "현지 번호 존재",
-              "2": "경쟁력 있는 국제 요금"
-            }
-          },
-          "title": "범용 음성 연결",
-          "subtitle": "전 세계 어디에서나 모든 전화 시스템에 연결"
-        },
-        "useCases": {
-          "0": {
-            "title": "약속 알림",
-            "description": "환자, 고객 또는 의뢰인에게 자동으로 전화를 걸어 예정된 약속을 확인합니다。",
-            "metrics": {
-              "0": "노쇼 40% 감소",
-              "1": "95% 연락 성공률",
-              "2": "24/7 자동 통화"
-            }
-          },
-          "1": {
-            "title": "긴급 알림",
-            "description": "긴급 상황이나 중요한 업데이트 시 대규모 그룹에 신속하게 알립니다。",
-            "metrics": {
-              "0": "분당 1000건 이상의 통화",
-              "1": "다국어 지원",
-              "2": "전달 확인"
-            }
-          },
-          "2": {
-            "title": "고객 설문조사",
-            "description": "서비스 후 설문조사를 실시하여 귀중한 고객 피드백을 수집합니다。",
-            "metrics": {
-              "0": "3배 높은 응답률",
-              "1": "실시간 감성 분석",
-              "2": "자동 보고"
-            }
-          },
-          "title": "인기 있는 사용 사례",
-          "subtitle": "기업이 유선 및 모바일 음성 자동화를 활용하는 방법 확인"
-        },
-        "specs": {
-          "title": "엔터프라이즈급 안정성",
-          "subtitle": "통신사급 인프라와 99.99% 가동 시간 보장으로 미션 크리티컬 통신을 위해 구축되었습니다。",
           "security": {
-            "title": "보안 및 규정 준수",
-            "description": "SOC 2, HIPAA 및 PCI 준수 인프라"
+            "title": "Bank-Level Security",
+            "description": "Our payment processing system meets the highest security standards in the industry, ensuring that every transaction is protected with multiple layers of encryption and fraud prevention.",
+            "endToEndEncryption": {
+              "title": "End-to-End Encryption",
+              "description": "All payment data encrypted in transit and at rest"
+            },
+            "pciCompliance": {
+              "title": "PCI DSS Compliance",
+              "description": "Level 1 PCI DSS certified infrastructure"
+            },
+            "realTimeMonitoring": {
+              "title": "Real-Time Monitoring",
+              "description": "Continuous fraud detection and prevention"
+            },
+            "featuresTitle": "Security Features",
+            "feature1": "End-to-end encryption",
+            "feature2": "PCI DSS Level 1 compliance",
+            "feature3": "Tokenization of card data",
+            "feature4": "Multi-factor authentication",
+            "feature5": "Real-time fraud monitoring",
+            "feature6": "Secure voice recognition"
           },
-          "monitoring": {
-            "title": "24/7 모니터링",
-            "description": "실시간 시스템 모니터링 및 즉각적인 장애 조치"
-          },
-          "infrastructure": {
-            "title": "글로벌 인프라",
-            "description": "여러 지역에 걸친 중복 데이터 센터"
-          },
-          "technical": {
-            "title": "기술 사양",
-            "concurrentCalls": {
-              "label": "동시 통화",
-              "value": "무제한"
+          "benefits": {
+            "title": "Payment Processing Performance",
+            "subtitle": "Industry-leading reliability and security metrics",
+            "uptime": {
+              "metric": "99.9%",
+              "description": "Payment processing uptime"
             },
-            "audioQuality": {
-              "label": "오디오 품질",
-              "value": "HD 음성(G.722)"
+            "transactionTime": {
+              "metric": "< 3s",
+              "description": "Average transaction time"
             },
-            "latency": {
-              "label": "지연 시간",
-              "value": "< 150ms"
+            "compliance": {
+              "metric": "100%",
+              "description": "PCI DSS compliance"
             },
-            "uptimeSLA": {
-              "label": "가동 시간 SLA",
-              "value": "99.99%"
-            },
-            "globalCoverage": {
-              "label": "글로벌 커버리지",
-              "value": "200개 이상의 국가"
+            "fraudRate": {
+              "metric": "0.1%",
+              "description": "Fraud rate with AI protection"
             }
+          },
+          "cta": {
+            "title": "Ready for Secure Voice Payments?",
+            "subtitle": "Enable PCI-compliant payment processing with advanced fraud protection",
+            "primaryButton": "Start Secure Processing",
+            "secondaryButton": "Security Overview"
           }
-        },
-        "cta": {
-          "title": "전화 시스템을 현대화할 준비가 되셨습니까?",
-          "subtitle": "유선 및 모바일 인프라를 AI 음성 상담원과 몇 분 만에 연결하십시오。",
-          "button": "통합 통화 예약"
         }
       },
-      "endToEndLLMs": {
+      "mentalHealth": {
         "hero": {
-          "title": "엔드투엔드 LLM 솔루션",
-          "subtitle": "음성 입력에서 지능형 응답 생성까지 완벽한 대규모 언어 모델 통합. 문맥을 이해하고, 대화를 유지하며, 비즈니스 로직을 실행하는 고급 AI로 구동됩니다。",
-          "cta": "LLM 기능 살펴보기"
+          "title": "Mental Health Voice Companion",
+          "subtitle": "Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
+          "cta": "Learn About Mental Health AI"
         },
         "features": {
-          "title": "완벽한 LLM 통합",
-          "subtitle": "음성 이해에서 지능형 응답 생성까지",
-          "advancedModels": {
-            "title": "고급 언어 모델",
-            "description": "대화형 AI 및 비즈니스 애플리케이션에 최적화된 최첨단 대규모 언어 모델。",
-            "gpt4Integration": "GPT-4 통합",
-            "customFineTuning": "맞춤형 미세 조정",
-            "domainSpecific": "도메인별 모델",
-            "multiModal": "다중 모드 지원"
+          "title": "Compassionate AI Support",
+          "subtitle": "Advanced AI trained in mental health support and crisis intervention",
+          "empathetic": {
+            "title": "Empathetic AI Companion",
+            "description": "Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
+            "benefits": {
+              "activeListing": "Active listening",
+              "emotionalValidation": "Emotional validation",
+              "crisisRecognition": "Crisis recognition"
+            }
           },
-          "knowledgeIntegration": {
-            "title": "지식 통합",
-            "description": "RAG(검색 증강 생성) 기술을 사용하여 비즈니스 지식 기반을 원활하게 통합합니다。",
-            "documentIngestion": "문서 수집",
-            "realTimeUpdates": "실시간 업데이트",
-            "semanticSearch": "의미론적 검색",
-            "contextAwareness": "상황 인식"
+          "safe": {
+            "title": "Safe & Confidential",
+            "description": "HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.",
+            "benefits": {
+              "hipaaCompliance": "HIPAA compliance",
+              "encryptedConversations": "Encrypted conversations",
+              "anonymousOptions": "Anonymous options"
+            }
           },
-          "enterpriseSecurity": {
-            "title": "엔터프라이즈 보안",
-            "description": "민감한 비즈니스 대화를 위한 엔터프라이즈급 보안 및 규정 준수。",
-            "dataEncryption": "데이터 암호화",
-            "accessControls": "액세스 제어",
-            "auditLogging": "감사 로깅",
-            "complianceReady": "규정 준수 준비 완료"
+          "available": {
+            "title": "24/7 Availability",
+            "description": "Always available when someone needs to talk, providing immediate support during crisis moments.",
+            "benefits": {
+              "roundTheClockAccess": "Round-the-clock access",
+              "immediateResponse": "Immediate response",
+              "noWaitTimes": "No wait times"
+            }
           }
         },
         "capabilities": {
-          "title": "고급 LLM 기능",
-          "subtitle": "비즈니스 애플리케이션을 위한 정교한 언어 이해 및 생성",
-          "nlu": {
-            "category": "자연어 이해",
-            "description": "사용자 의도, 문맥 및 미묘한 커뮤니케이션의 고급 이해。",
-            "intentAccuracy": "의도 정확도: 98%",
-            "contextRetention": "문맥 유지: 95%",
-            "sentimentAnalysis": "감성 분석: 96%"
+          "title": "Mental Health Support Capabilities",
+          "subtitle": "Comprehensive support across the mental health care spectrum",
+          "screening": {
+            "title": "Initial Mental Health Screening",
+            "description": "Conduct preliminary assessments using validated screening tools",
+            "outcomes": {
+              "earlyIdentification": "Early identification",
+              "riskAssessment": "Risk assessment",
+              "appropriateReferrals": "Appropriate referrals"
+            }
           },
-          "conversationalFlow": {
-            "category": "대화 흐름",
-            "description": "여러 차례와 주제에 걸쳐 자연스럽고 일관된 대화를 유지합니다。",
-            "multiTurnCoherence": "다중 턴 일관성: 94%",
-            "topicSwitching": "주제 전환: 92%",
-            "contextPreservation": "문맥 보존: 97%"
+          "crisis": {
+            "title": "Crisis Intervention",
+            "description": "Recognize crisis situations and provide immediate support or escalation",
+            "outcomes": {
+              "crisisDetection": "Crisis detection",
+              "deEscalationTechniques": "De-escalation techniques",
+              "emergencyProtocols": "Emergency protocols"
+            }
           },
-          "businessLogic": {
-            "category": "비즈니스 로직 통합",
-            "description": "복잡한 비즈니스 워크플로 및 의사 결정 프로세스를 실행합니다。",
-            "workflowAccuracy": "워크플로 정확도: 99%",
-            "decisionConsistency": "결정 일관성: 98%",
-            "errorHandling": "오류 처리: 95%"
+          "navigation": {
+            "title": "Resource Navigation",
+            "description": "Guide users to appropriate mental health resources and services",
+            "outcomes": {
+              "serviceMatching": "Service matching",
+              "appointmentScheduling": "Appointment scheduling",
+              "followUpSupport": "Follow-up support"
+            }
           },
-          "personalization": {
-            "category": "개인화",
-            "description": "사용자 기록, 선호도 및 비즈니스 컨텍스트에 따라 응답을 조정합니다。",
-            "personalizationScore": "개인화 점수: 93%",
-            "userSatisfaction": "사용자 만족도: 96%",
-            "engagementRate": "참여율: 89%"
-          }
-        },
-        "architecture": {
-          "title": "엔드투엔드 아키텍처",
-          "subtitle": "음성 입력에서 지능형 음성 응답까지 완벽한 파이프라인",
-          "speechInput": {
-            "title": "음성 입력 처리",
-            "description": "업계 최고의 정확도로 음성을 텍스트로 변환",
-            "kaldiASR": "Kaldi 기반 ASR",
-            "noiseReduction": "소음 감소",
-            "speakerDiarization": "화자 분리"
-          },
-          "llmProcessing": {
-            "title": "언어 모델 처리",
-            "description": "비즈니스 컨텍스트 통합을 통한 고급 LLM 처리",
-            "gpt4Turbo": "GPT-4 Turbo",
-            "customFineTuning": "맞춤형 미세 조정",
-            "ragIntegration": "RAG 통합"
-          },
-          "responseGeneration": {
-            "title": "응답 생성",
-            "description": "문맥적으로 적절하고 비즈니스에 부합하는 응답 생성",
-            "templateSystems": "템플릿 시스템",
-            "dynamicContent": "동적 콘텐츠",
-            "complianceChecking": "규정 준수 확인"
-          },
-          "speechOutput": {
-            "title": "음성 출력 합성",
-            "description": "텍스트 응답을 자연스럽게 들리는 음성으로 변환",
-            "neuralTTS": "신경망 TTS",
-            "voiceCloning": "음성 복제",
-            "emotionControl": "감정 제어"
-          }
-        },
-        "useCases": {
-          "title": "지능형 사용 사례",
-          "subtitle": "AI 기반 대화로 비즈니스 운영 혁신",
-          "customerSupport": {
-            "title": "지능형 고객 지원",
-            "description": "인간과 같은 이해와 문제 해결 능력으로 복잡한 고객 문의 처리。",
-            "reducedEscalation": "에스컬레이션 비율 감소",
-            "fasterResolution": "더 빠른 해결 시간",
-            "consistentQuality": "일관된 서비스 품질",
-            "availability24x7": "24/7 가용성"
-          },
-          "salesConversations": {
-            "title": "영업 대화",
-            "description": "고객 요구와 선호도에 맞는 개인화된 영업 대화로 잠재 고객 참여。",
-            "higherConversion": "더 높은 전환율",
-            "personalizedRecommendations": "개인화된 추천",
-            "objectionHandling": "반대 의견 처리",
-            "leadQualification": "리드 검증"
-          },
-          "technicalSupport": {
-            "title": "기술 지원",
-            "description": "포괄적인 지식 기반에 대한 액세스를 통해 전문가 수준의 기술 지원 제공。",
-            "complexTroubleshooting": "복잡한 문제 해결",
-            "stepByStepGuidance": "단계별 안내",
-            "documentationAccess": "문서 액세스",
-            "escalationIntelligence": "에스컬레이션 인텔리전스"
-          },
-          "healthcareAssistance": {
-            "title": "의료 지원",
-            "description": "의료 용어를 이해하는 HIPAA 준수 AI로 의료 워크플로 지원。",
-            "medicalKnowledge": "의료 지식 기반",
-            "appointmentScheduling": "약속 예약",
-            "symptomAssessment": "증상 평가",
-            "careCoordination": "치료 조정"
-          }
-        },
-        "performance": {
-          "title": "엔터프라이즈 성능",
-          "description": "당사의 엔드투엔드 LLM 솔루션은 미션 크리티컬 비즈니스 애플리케이션을 위한 실시간 처리, 고정밀도 및 신뢰할 수 있는 확장성을 갖춘 엔터프라이즈급 성능을 제공합니다。",
-          "realTimeTitle": "실시간 처리",
-          "realTimeDesc": "자연스러운 대화를 위한 1초 미만의 응답 시간",
-          "securityTitle": "엔터프라이즈 보안",
-          "securityDesc": "SOC 2, HIPAA 및 PCI 준수 인프라",
-          "qualityTitle": "대화 품질",
-          "qualityDesc": "상황 인식을 통한 인간과 같은 상호 작용",
-          "metricsTitle": "성능 지표",
-          "responseLatency": "응답 지연 시간",
-          "responseLatencyValue": "< 500ms",
-          "intentAccuracy": "의도 정확도",
-          "intentAccuracyValue": "98.2%",
-          "contextRetention": "문맥 유지",
-          "contextRetentionValue": "95.8%",
-          "uptimeSLA": "가동 시간 SLA",
-          "uptimeSLAValue": "99.99%",
-          "concurrentUsers": "동시 사용자",
-          "concurrentUsersValue": "10,000+"
-        },
-        "cta": {
-          "title": "지능형 대화를 배포할 준비가 되셨습니까?",
-          "subtitle": "지능적으로 이해하고, 추론하고, 응답하는 엔드투엔드 LLM 솔루션으로 비즈니스를 혁신하십시오。",
-          "scheduleDemoButton": "LLM 데모 예약",
-          "exploreArchButton": "아키텍처 살펴보기"
-        }
-      },
-      "lineCallPlus": {
-        "hero": {
-          "title": "기업용 라인 콜 플러스",
-          "description": "AI 기반 음성 통화로 LINE 비즈니스 계정을 혁신하십시오. 아시아 태평양 시장의 고객과 선호하는 메시징 플랫폼을 통해 연결하십시오。",
-          "cta": "LINE 통합 시작"
-        },
-        "marketReach": {
-          "title": "아시아 태평양 전역 수백만 명에게 도달",
-          "subtitle": "LINE은 주요 아시아 시장에서 비즈니스 커뮤니케이션을 지배합니다。"
-        },
-        "activeUsers": "활성 사용자",
-        "marketPenetration": "시장 침투율"
-      },
-      "features": {
-        "title": "강력한 LINE 비즈니스 기능",
-        "subtitle": "LINE에서 탁월한 음성 경험을 제공하는 데 필요한 모든 것",
-        "nativeIntegration": {
-          "title": "네이티브 LINE 통합",
-          "description": "LINE 메시징 플랫폼 내에서 음성 통화를 직접 원활하게 통합합니다。",
-          "benefit1": "채팅에서 원탭 통화",
-          "benefit2": "통합된 대화 기록",
-          "benefit3": "리치 미디어 지원"
-        },
-        "businessAccount": {
-          "title": "비즈니스 계정 지원",
-          "description": "고급 기능 및 분석 기능이 있는 LINE 비즈니스 계정 완벽 지원。",
-          "benefit1": "인증된 비즈니스 프로필",
-          "benefit2": "맞춤형 브랜딩 옵션",
-          "benefit3": "고급 사용자 관리"
-        },
-        "asiaPacific": {
-          "title": "아시아 태평양 중심",
-          "description": "LINE이 비즈니스 커뮤니케이션을 지배하는 주요 아시아 시장에 최적화되었습니다。",
-          "benefit1": "현지 언어 지원",
-          "benefit2": "지역 규정 준수",
-          "benefit3": "문화적 맞춤화"
-        }
-      },
-      "useCases": {
-        "title": "고객 상호 작용 혁신",
-        "subtitle": "기업이 LINE 콜 플러스를 사용하여 고객 관계를 강화하는 방법 확인",
-        "customerSupport": {
-          "title": "고객 지원",
-          "description": "LINE 대화 내에서 직접 인스턴트 음성 지원을 제공합니다。",
-          "metric1": "50% 더 빠른 해결",
-          "metric2": "90% 고객 만족도",
-          "metric3": "24/7 가용성"
-        },
-        "salesConsultations": {
-          "title": "영업 상담",
-          "description": "개인화된 영업 경험을 위해 채팅 문의를 음성 통화로 전환합니다。",
-          "metric1": "3배 더 높은 전환율",
-          "metric2": "개인화된 추천",
-          "metric3": "신뢰 구축"
-        },
-        "appointmentBooking": {
-          "title": "약속 예약",
-          "description": "LINE 비즈니스 계정 내에서 음성 기반 약속 예약을 활성화합니다。",
-          "metric1": "즉시 확인",
-          "metric2": "캘린더 통합",
-          "metric3": "자동 알림"
-        }
-      },
-      "integration": {
-        "title": "간단한 통합 프로세스",
-        "subtitle": "몇 단계만 거치면 LINE 콜 플러스를 시작할 수 있습니다。",
-        "step1": {
-          "title": "LINE 비즈니스 연결",
-          "description": "기존 LINE 비즈니스 계정을 연결하거나 안내된 설정으로 새 계정을 만듭니다。"
-        },
-        "step2": {
-          "title": "음성 상담원 구성",
-          "description": "맞춤형 스크립트, 음성 및 비즈니스 로직으로 AI 음성 상담원을 설정합니다。"
-        },
-        "step3": {
-          "title": "라이브 시작",
-          "description": "음성 지원 LINE 비즈니스 계정을 시작하고 고객과 소통을 시작합니다。"
-        }
-      },
-      "analytics": {
-        "title": "포괄적인 분석",
-        "description": "상세한 분석 및 보고를 통해 성과를 추적하고, 고객 행동을 이해하고, LINE 음성 상호 작용을 최적화하십시오。",
-        "callAnalytics": {
-          "title": "통화 분석",
-          "description": "통화량, 시간 및 성공률 추적"
-        },
-        "userEngagement": {
-          "title": "사용자 참여",
-          "description": "사용자 상호 작용 및 만족도 점수 모니터링"
-        },
-        "platformInsights": {
-          "title": "플랫폼 통찰력",
-          "description": "LINE 관련 지표 및 성과 데이터"
-        },
-        "dashboard": {
-          "title": "LINE 통화 분석",
-          "live": "라이브",
-          "activeCalls": "활성 통화",
-          "responseRate": "응답률",
-          "avgCallDuration": "평균 통화 시간",
-          "customerSatisfaction": "고객 만족도",
-          "sampleResponse": "고객에게 응답하는 일본어 음성 상담원"
-        }
-      },
-      "cta": {
-        "title": "아시아 태평양에서 확장할 준비가 되셨습니까?",
-        "description": "LINE의 지배적인 메시징 플랫폼을 통해 아시아 전역의 수백만 잠재 고객과 연결하고 고객 참여를 혁신하십시오。",
-        "button": "LINE 통합 시작"
-      }
-    },
-    "speechToText": {
-      "hero": {
-        "title": "음성-텍스트 변환 기술",
-        "subtitle": "99% 이상의 정확도를 자랑하는 업계 최고의 음성 인식. 50개 이상의 언어와 전문 산업 어휘를 지원하여 모든 오디오를 실시간으로 텍스트로 변환합니다。",
-        "cta": "음성 인식 시도"
-      },
-      "features": {
-        "0": {
-          "title": "실시간 처리",
-          "description": "라이브 대화를 위해 초저지연으로 실시간으로 음성을 텍스트로 변환합니다。",
-          "specs": {
-            "0": "< 100ms 지연 시간",
-            "1": "스트리밍 인식",
-            "2": "라이브 스크립트 작성"
-          }
-        },
-        "1": {
-          "title": "다국어 지원",
-          "description": "자동 언어 감지 기능이 있는 50개 이상의 언어 및 방언 지원。",
-          "specs": {
-            "0": "50개 이상의 언어",
-            "1": "자동 감지",
-            "2": "지역 억양"
-          }
-        },
-        "2": {
-          "title": "산업 정확도",
-          "description": "다양한 산업 및 사용 사례에 맞게 훈련된 전문 모델。",
-          "specs": {
-            "0": "99% 이상의 정확도",
-            "1": "도메인별",
-            "2": "맞춤형 어휘"
-          }
-        },
-        "title": "고급 음성 인식",
-        "subtitle": "최신 딥 러닝 향상 기능이 포함된 원래 Kaldi 프레임워크 기반"
-      },
-      "accuracy": {
-        "title": "업계 최고의 정확도",
-        "subtitle": "다양한 산업 및 사용 사례에 맞게 훈련된 전문 모델",
-        "stats": {
-          "0": {
-            "category": "일반 대화",
-            "accuracy": "99.2%",
-            "improvement": "+15%"
-          },
-          "1": {
-            "category": "의료 용어",
-            "accuracy": "98.8%",
-            "improvement": "+22%"
-          },
-          "2": {
-            "category": "금융 서비스",
-            "accuracy": "99.1%",
-            "improvement": "+18%"
-          },
-          "3": {
-            "category": "기술 지원",
-            "accuracy": "98.9%",
-            "improvement": "+20%"
-          }
-        },
-        "improvementSuffix": " vs 업계 평균"
-      },
-      "languages": {
-        "title": "글로벌 언어 지원",
-        "subtitle": "자동 언어 감지 및 지역 억양 인식을 통한 주요 세계 언어에 대한 포괄적인 지원. 당사의 모델은 다양한 말하기 스타일과 환경에서 정확성을 보장하기 위해 다양한 데이터 세트로 지속적으로 훈련됩니다。",
-        "features": {
-          "0": {
-            "title": "50개 이상의 언어",
-            "description": "주요 세계 언어 및 지역 방언"
-          },
-          "1": {
-            "title": "자동 감지",
-            "description": "자동 언어 식별 및 전환"
-          },
-          "2": {
-            "title": "지속적인 학습",
-            "description": "모델은 사용 및 피드백으로 개선됩니다。"
-          }
-        },
-        "supportedTitle": "지원되는 언어",
-        "supportedLanguages": {
-          "0": "영어(미국, 영국, 호주)",
-          "1": "스페인어(스페인, 멕시코, 아르헨티나)",
-          "2": "프랑스어(프랑스, 캐나다)",
-          "3": "독일어",
-          "4": "이탈리아어",
-          "5": "포르투갈어(브라질, 포르투갈)",
-          "6": "일본어",
-          "7": "한국어",
-          "8": "중국어(북경어)",
-          "9": "광둥어",
-          "10": "힌디어",
-          "11": "아랍어",
-          "12": "러시아어",
-          "13": "네덜란드어",
-          "14": "스웨덴어",
-          "15": "노르웨이어"
-        },
-        "customNote": "전문 어휘 및 산업별 용어를 위한 맞춤형 언어 모델 사용 가능"
-      },
-      "useCases": {
-        "0": {
-          "title": "콜센터 스크립트 작성",
-          "description": "품질 보증 및 교육을 위한 고객 서비스 통화의 실시간 스크립트 작성。",
-          "benefits": {
-            "0": "품질 모니터링",
-            "1": "규정 준수 기록",
-            "2": "상담원 교육",
-            "3": "고객 통찰력"
-          }
-        },
-        "1": {
-          "title": "회의 문서화",
-          "description": "회의, 컨퍼런스 및 비즈니스 토론의 자동 스크립트 작성。",
-          "benefits": {
-            "0": "회의록",
-            "1": "조치 항목 추출",
-            "2": "검색 가능한 아카이브",
-            "3": "다중 화자 ID"
-          }
-        },
-        "2": {
-          "title": "음성 명령",
-          "description": "음성 제어 애플리케이션 및 인터페이스를 위해 음성 명령을 텍스트로 변환합니다。",
-          "benefits": {
-            "0": "핸즈프리 작동",
-            "1": "접근성 기능",
-            "2": "스마트 홈 제어",
-            "3": "모바일 앱"
-          }
-        },
-        "3": {
-          "title": "콘텐츠 제작",
-          "description": "팟캐스트, 비디오 및 미디어 제작을 위해 오디오 콘텐츠를 텍스트로 변환합니다。",
-          "benefits": {
-            "0": "자막 생성",
-            "1": "콘텐츠 인덱싱",
-            "2": "SEO 최적화",
-            "3": "접근성 규정 준수"
-          }
-        },
-        "title": "강력한 사용 사례",
-        "subtitle": "산업 및 애플리케이션 전반에 걸쳐 오디오를 실행 가능한 텍스트로 변환"
-      },
-      "specs": {
-        "title": "기술 사양",
-        "subtitle": "엔터프라이즈급 성능 및 안정성",
-        "performance": {
-          "title": "성능",
-          "latency": {
-            "label": "지연 시간",
-            "value": "< 100ms"
-          },
-          "accuracy": {
-            "label": "정확도",
-            "value": "99%+"
-          },
-          "throughput": {
-            "label": "처리량",
-            "value": "1000+ 동시"
-          },
-          "uptime": {
-            "label": "가동 시간",
-            "value": "99.99%"
-          }
-        },
-        "audioFormats": {
-          "title": "오디오 형식",
-          "sampleRate": {
-            "label": "샘플 속도",
-            "value": "8-48 kHz"
-          },
-          "bitDepth": {
-            "label": "비트 심도",
-            "value": "16-32비트"
-          },
-          "formats": {
-            "label": "형식",
-            "value": "WAV, MP3, FLAC"
-          },
-          "streaming": {
-            "label": "스트리밍",
-            "value": "실시간"
-          }
-        },
-        "integration": {
-          "title": "통합",
-          "api": {
-            "label": "API",
-            "value": "REST & WebSocket"
-          },
-          "sdks": {
-            "label": "SDK",
-            "value": "Python, Node.js, Go"
-          },
-          "webhooks": {
-            "label": "웹훅",
-            "value": "실시간 이벤트"
-          },
-          "security": {
-            "label": "보안",
-            "value": "TLS 1.3, OAuth 2.0"
-          }
-        }
-      },
-      "cta": {
-        "title": "오디오를 텍스트로 변환할 준비가 되셨습니까?",
-        "subtitle": "업계 최고의 음성 인식 기술의 힘을 경험하십시오。",
-        "primaryButton": "무료 데모 시도",
-        "secondaryButton": "API 문서 보기"
-      }
-    },
-    "voipSipByoc": {
-      "hero": {
-        "title": "VoIP, SIP 및 BYOC 음성 솔루션",
-        "subtitle": "최대한의 유연성을 갖춘 엔터프라이즈급 음성 연결. VoIP 통합, 직접 SIP 트렁킹 중에서 선택하거나 완전한 제어를 위해 자체 통신사를 가져오십시오。",
-        "cta": "연결 전문가와 상담"
-      },
-      "connectionTypes": {
-        "title": "유연한 연결 옵션",
-        "subtitle": "인프라 및 요구 사항에 가장 적합한 연결 방법을 선택하십시오。",
-        "keyFeatures": "주요 기능：",
-        "voip": {
-          "title": "VoIP 통합",
-          "description": "기존 VoIP 인프라를 당사의 AI 음성 플랫폼과 원활하게 연결합니다。",
-          "features": {
-            "sipTrunk": "SIP 트렁크 호환성",
-            "codecOptimization": "코덱 최적화",
-            "qos": "서비스 품질(QoS)",
-            "bandwidthManagement": "대역폭 관리"
-          },
-          "pricing": "분당 0.08달러부터 시작"
-        },
-        "sip": {
-          "title": "SIP 트렁킹",
-          "description": "음성 트래픽의 최대한의 제어 및 사용자 정의를 위한 직접 SIP 연결。",
-          "features": {
-            "directEndpoints": "직접 SIP 엔드포인트",
-            "customRouting": "맞춤형 라우팅 규칙",
-            "failoverProtection": "장애 조치 보호",
-            "realTimeMonitoring": "실시간 모니터링"
-          },
-          "pricing": "분당 0.06달러부터 시작"
-        },
-        "byoc": {
-          "title": "자체 통신사 사용(BYOC)",
-          "description": "당사의 AI 음성 기능을 활용하면서 선호하는 통신사를 사용하십시오。",
-          "features": {
-            "carrierIndependence": "통신사 독립성",
-            "costOptimization": "비용 최적화",
-            "globalReach": "글로벌 도달 범위",
-            "vendorFlexibility": "공급업체 유연성"
-          },
-          "pricing": "플랫폼 요금 + 통신사 요금"
-        }
-      },
-      "benefits": {
-        "title": "엔터프라이즈 혜택",
-        "subtitle": "선도적인 기업이 당사의 음성 연결 솔루션을 선택하는 이유",
-        "costSavings": {
-          "title": "비용 절감",
-          "description": "최적화된 라우팅 및 통신사 선택으로 통신 비용을 최대 60% 절감합니다。",
-          "metric": "60%"
-        },
-        "reliability": {
-          "title": "안정성",
-          "description": "자동 장애 조치 및 중복 인프라를 갖춘 엔터프라이즈급 가동 시간。",
-          "metric": "99.99%"
-        },
-        "scalability": {
-          "title": "확장성",
-          "description": "탄력적인 스케일링 기능으로 수천 건의 동시 통화를 처리합니다。",
-          "metric": "10,000+"
-        },
-        "globalReach": {
-          "title": "글로벌 도달 범위",
-          "description": "주요 시장의 현지 입지로 전 세계 고객과 연결합니다。",
-          "metric": "200+"
-        }
-      },
-      "technicalExcellence": {
-        "title": "기술적 우수성",
-        "subtitle": "엔터프라이즈급 보안 및 성능을 갖춘 업계 표준 프로토콜 기반으로 구축되었습니다. 당사 플랫폼은 모든 주요 코덱을 지원하고 실시간 품질 모니터링을 제공합니다。",
-        "endToEndEncryption": {
-          "title": "종단 간 암호화",
-          "description": "안전한 음성 전송을 위한 TLS 1.3 및 SRTP"
-        },
-        "lowLatency": {
-          "title": "낮은 지연 시간",
-          "description": "매우 선명한 대화를 위한 150ms 미만의 지연 시간"
-        },
-        "advancedConfiguration": {
-          "title": "고급 구성",
-          "description": "라우팅 및 품질 설정에 대한 세분화된 제어"
-        }
-      },
-      "technicalSpecs": {
-        "title": "기술 사양",
-        "supportedProtocols": {
-          "feature": "지원되는 프로토콜",
-          "value": "SIP 2.0, RTP, SRTP"
-        },
-        "audioCodecs": {
-          "feature": "오디오 코덱",
-          "value": "G.711, G.722, G.729, Opus"
-        },
-        "encryption": {
-          "feature": "암호화",
-          "value": "TLS 1.3, SRTP, AES-256"
-        },
-        "networkRequirements": {
-          "feature": "네트워크 요구 사항",
-          "value": "동시 통화당 100kbps"
-        },
-        "latency": {
-          "feature": "지연 시간",
-          "value": "종단 간 < 150ms"
-        },
-        "jitterBuffer": {
-          "feature": "지터 버퍼",
-          "value": "적응형, 20-200ms"
-        }
-      },
-      "howItWorks": {
-        "title": "작동 방식",
-        "subtitle": "기존 인프라와의 간단한 통합",
-        "yourInfrastructure": {
-          "title": "귀하의 인프라",
-          "description": "기존 PBX, VoIP 시스템 또는 통신사"
-        },
-        "seavoicePlatform": {
-          "title": "SeaVoice 플랫폼",
-          "description": "AI 음성 처리 및 라우팅"
-        },
-        "globalNetwork": {
-          "title": "글로벌 네트워크",
-          "description": "전 세계 통신사 연결"
-        }
-      },
-      "cta": {
-        "title": "음성 인프라를 최적화할 준비가 되셨습니까?",
-        "subtitle": "연결 전문가와 상담하여 귀하의 요구에 맞는 완벽한 솔루션을 설계하십시오。",
-        "scheduleConsultation": "상담 예약",
-        "signUpForFree": "무료로 가입"
-      }
-    },
-    "whatsAppVoice": {
-      "hero": {
-        "title": "기업용 WhatsApp 음성 API",
-        "subtitle": "AI 기반 음성 통화로 WhatsApp 비즈니스 계정을 혁신하십시오. 원활한 음성 상호 작용으로 전 세계 20억 명 이상의 사용자와 연결하십시오。",
-        "cta": "WhatsApp 비즈니스 플랫폼 API 받기"
-      },
-      "globalStats": {
-        "title": "세계 최대 메시징 플랫폼에 도달",
-        "subtitle": "WhatsApp은 전례 없는 도달 범위와 참여로 글로벌 메시징을 지배합니다。",
-        "stats": {
-          "0": {
-            "region": "글로벌 사용자",
-            "count": "27억 8천만 명 이상",
-            "growth": "전년 대비 +3.2%"
-          },
-          "1": {
-            "region": "비즈니스 계정",
-            "count": "2억 개 이상",
-            "growth": "전년 대비 +15%"
-          },
-          "2": {
-            "region": "일일 메시지",
-            "count": "1,000억 개 이상",
-            "growth": "전년 대비 +8%"
-          },
-          "3": {
-            "region": "국가",
-            "count": "180개 이상",
-            "growth": "전체 커버리지"
-          }
-        }
-      },
-      "features": {
-        "0": {
-          "title": "WhatsApp 비즈니스 플랫폼 API",
-          "description": "인증된 비즈니스 커뮤니케이션을 위한 WhatsApp 비즈니스 플랫폼 API와의 공식 통합。",
-          "benefits": {
-            "0": "녹색 체크 표시 인증",
-            "1": "비즈니스 프로필 기능",
-            "2": "메시지 템플릿"
-          }
-        },
-        "1": {
-          "title": "글로벌 도달 범위",
-          "description": "음성 통화를 통해 전 세계 20억 명 이상의 WhatsApp 사용자와 연결하십시오。",
-          "benefits": {
-            "0": "180개 이상의 국가 지원",
-            "1": "다국어 기능",
-            "2": "현지 번호 존재"
-          }
-        },
-        "2": {
-          "title": "종단 간 보안",
-          "description": "안전한 비즈니스 커뮤니케이션을 위해 WhatsApp의 종단 간 암호화를 활용하십시오。",
-          "benefits": {
-            "0": "메시지 암호화",
-            "1": "안전한 음성 통화",
-            "2": "개인 정보 보호 규정 준수"
-          }
-        },
-        "title": "엔터프라이즈 WhatsApp 음성 기능",
-        "subtitle": "WhatsApp에서 탁월한 음성 경험을 제공하는 데 필요한 모든 것"
-      },
-      "useCases": {
-        "0": {
-          "title": "고객 지원",
-          "description": "WhatsApp 대화 내에서 직접 인스턴트 음성 지원을 제공합니다。",
-          "metrics": {
-            "0": "60% 더 빠른 해결",
-            "1": "95% 고객 만족도",
-            "2": "원활한 에스컬레이션"
-          }
-        },
-        "1": {
-          "title": "영업 및 상담",
-          "description": "개인화된 영업 경험을 위해 채팅 문의를 음성 통화로 전환합니다。",
-          "metrics": {
-            "0": "4배 더 높은 전환율",
-            "1": "개인적인 접촉",
-            "2": "신뢰 구축"
-          }
-        },
-        "2": {
-          "title": "약속 예약",
-          "description": "WhatsApp 비즈니스 플랫폼 내에서 음성 기반 약속 예약을 활성화합니다。",
-          "metrics": {
-            "0": "원탭 예약",
-            "1": "캘린더 동기화",
-            "2": "자동 확인"
-          }
-        },
-        "3": {
-          "title": "주문 관리",
-          "description": "음성 상호 작용을 통해 주문 문의, 업데이트 및 지원을 처리합니다。",
-          "metrics": {
-            "0": "실시간 업데이트",
-            "1": "주문 추적",
-            "2": "문제 해결"
-          }
-        },
-        "title": "고객 상호 작용 혁신",
-        "subtitle": "기업이 WhatsApp 음성 API를 사용하여 고객 관계를 강화하는 방법 확인"
-      },
-      "integration": {
-        "title": "간단한 통합 프로세스",
-        "subtitle": "단 4단계로 WhatsApp 음성 API 시작하기",
-        "steps": {
-          "0": {
-            "title": "WhatsApp 비즈니스 설정",
-            "description": "WhatsApp 비즈니스 계정을 연결하거나 새로운 인증된 비즈니스 프로필을 만듭니다。"
-          },
-          "1": {
-            "title": "음성 상담원 구성",
-            "description": "비즈니스 로직, 스크립트 및 브랜드 음성으로 AI 음성 상담원을 구성합니다。"
-          },
-          "2": {
-            "title": "API 통합",
-            "description": "포괄적인 API 및 웹훅을 사용하여 기존 시스템과 통합합니다。"
-          },
-          "3": {
-            "title": "라이브 시작",
-            "description": "음성 지원 WhatsApp 비즈니스를 시작하고 고객과 소통을 시작합니다。"
-          }
-        }
-      },
-      "demo": {
-        "title": "실제 작동 모습 보기",
-        "subtitle": "음성 통화가 WhatsApp 비즈니스 플랫폼과 얼마나 원활하게 통합되는지 경험하십시오. 당사의 AI 상담원은 고객이 좋아하는 익숙한 WhatsApp 경험을 유지하면서 복잡한 대화를 처리할 수 있습니다。",
-        "features": {
-          "0": {
-            "title": "원탭 통화",
-            "description": "고객이 채팅에서 직접 음성 통화를 시작할 수 있습니다。"
-          },
-          "1": {
-            "title": "원활한 인계",
-            "description": "AI와 인간 상담원 간의 원활한 전환"
-          },
-          "2": {
-            "title": "통합된 기록",
-            "description": "채팅 및 음성 전반에 걸친 완벽한 대화 기록"
-          }
-        },
-        "dashboard": {
-          "title": "WhatsApp 비즈니스 대시보드",
-          "liveStatus": "라이브",
-          "stats": {
-            "activeVoiceCalls": {
-              "label": "활성 음성 통화",
-              "value": "89"
-            },
-            "messagesToday": {
-              "label": "오늘의 메시지",
-              "value": "2,847"
-            },
-            "responseRate": {
-              "label": "응답률",
-              "value": "96%"
-            },
-            "customerSatisfaction": {
-              "label": "고객 만족도",
-              "value": "4.9/5"
+          "emotional": {
+            "title": "Emotional Support",
+            "description": "Provide compassionate listening and emotional validation",
+            "outcomes": {
+              "reducedIsolation": "Reduced isolation",
+              "emotionalRelief": "Emotional relief",
+              "copingStrategies": "Coping strategies"
             }
           }
         },
-        "aiAssistant": {
-          "name": "AI 비서",
-          "message": "안녕하세요! 주문을 도와드리겠습니다. 저와 직접 통화하시겠습니까? 위의 통화 버튼을 누르기만 하면 됩니다！"
+        "safety": {
+          "title": "Safety-First Design",
+          "description": "Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+          "crisisDetection": {
+            "title": "Crisis Detection",
+            "description": "Advanced algorithms identify crisis situations"
+          },
+          "professionalHandoff": {
+            "title": "Professional Handoff",
+            "description": "Seamless transfer to human mental health professionals"
+          },
+          "emergencyProtocols": {
+            "title": "Emergency Protocols",
+            "description": "Immediate connection to crisis hotlines when needed"
+          },
+          "features": {
+            "title": "Safety Features",
+            "crisisKeywordDetection": "Crisis keyword detection",
+            "suicideRiskAssessment": "Suicide risk assessment",
+            "automaticEscalationProtocols": "Automatic escalation protocols",
+            "emergencyContactIntegration": "Emergency contact integration",
+            "professionalHandoffProcedures": "Professional handoff procedures",
+            "followUpScheduling": "Follow-up scheduling"
+          }
+        },
+        "impact": {
+          "title": "Mental Health Impact",
+          "subtitle": "Measurable improvements in mental health support accessibility",
+          "availability": {
+            "metric": "24/7",
+            "description": "Always available support"
+          },
+          "crisisReduction": {
+            "metric": "60%",
+            "description": "Reduction in crisis escalation"
+          },
+          "satisfaction": {
+            "metric": "85%",
+            "description": "User satisfaction rate"
+          },
+          "helpSeeking": {
+            "metric": "40%",
+            "description": "Increase in help-seeking behavior"
+          }
+        },
+        "cta": {
+          "title": "Ready to Support Mental Health?",
+          "subtitle": "Provide compassionate, 24/7 mental health support with AI that truly cares",
+          "learnMore": "Learn More",
+          "contactSpecialists": "Contact Specialists"
         }
-      },
-      "cta": {
-        "title": "WhatsApp 비즈니스를 혁신할 준비가 되셨습니까?",
-        "subtitle": "WhatsApp 음성 API를 사용하여 탁월한 고객 경험을 제공하는 수천 개의 기업에 합류하십시오。",
-        "primaryButton": "오늘 시작하기",
-        "secondaryButton": "데모 예약"
       }
     }
   }

@@ -1,608 +1,608 @@
 {
   "seachat": {
     "common": {
-      "getStarted": "무료로 시작하기",
-      "signIn": "로그인",
-      "learnMore": "더 알아보기",
-      "readMore": "더 읽기",
-      "viewAll": "모든 기사 보기",
-      "tryNow": "지금 시도하기",
-      "contactUs": "문의하기",
-      "subscribe": "구독하기",
-      "search": "검색",
-      "back": "뒤로"
+      "getStarted": "Get Started Free",
+      "signIn": "Sign In",
+      "learnMore": "Learn More",
+      "readMore": "Read More",
+      "viewAll": "View All Articles",
+      "tryNow": "Try Now",
+      "contactUs": "Contact Us",
+      "subscribe": "Subscribe",
+      "search": "Search",
+      "back": "Back"
     },
     "header": {
-      "features": "기능",
-      "integrations": "통합",
-      "solutions": "솔루션",
-      "pricing": "가격",
-      "blog": "블로그",
-      "language": "언어",
+      "features": "Features",
+      "integrations": "Integrations",
+      "solutions": "Solutions",
+      "pricing": "Pricing",
+      "blog": "Blog",
+      "language": "Language",
       "featuresDropdown": {
-        "humanAgents": "인간 상담원 채팅",
-        "aiAutomation": "AI 자동화",
-        "advancedAI": "고급 AI 기능",
-        "knowledgeBase": "지식 기반",
-        "voiceAgents": "음성 상담원",
-        "analytics": "분석 및 통찰력",
-        "omnichannel": "옴니채널 지원",
-        "api": "API 및 개발자 도구"
+        "humanAgents": "Human Agent Chat",
+        "aiAutomation": "AI Automation",
+        "advancedAI": "Advanced AI Features",
+        "knowledgeBase": "Knowledge Base",
+        "voiceAgents": "Voice Agents",
+        "analytics": "Analytics & Insights",
+        "omnichannel": "Omnichannel Support",
+        "api": "API & Developer Tools"
       },
       "integrationsDropdown": {
-        "websites": "웹사이트 플랫폼",
-        "crm": "CRM 시스템",
-        "ecommerce": "전자상거래",
-        "socialMedia": "소셜 미디어",
-        "communication": "커뮤니케이션 도구",
-        "marketing": "마케팅 플랫폼",
-        "calendar": "캘린더 및 일정 관리",
-        "api": "맞춤형 API"
+        "websites": "Website Platforms",
+        "crm": "CRM Systems",
+        "ecommerce": "E-commerce",
+        "socialMedia": "Social Media",
+        "communication": "Communication Tools",
+        "marketing": "Marketing Platforms",
+        "calendar": "Calendar & Scheduling",
+        "api": "Custom API"
       },
       "solutionsDropdown": {
-        "ecommerce": "전자상거래 및 소매",
-        "healthcare": "의료",
-        "fintech": "금융 서비스",
-        "education": "교육",
-        "realEstate": "부동산",
-        "travel": "여행 및 숙박",
-        "saas": "SaaS 및 기술",
-        "smallBusiness": "중소기업"
+        "ecommerce": "E-commerce & Retail",
+        "healthcare": "Healthcare",
+        "fintech": "Financial Services",
+        "education": "Education",
+        "realEstate": "Real Estate",
+        "travel": "Travel & Hospitality",
+        "saas": "SaaS & Technology",
+        "smallBusiness": "Small Business"
       },
-      "backToMainSite": "메인 사이트로 돌아가기",
-      "viewAllIntegrations": "모든 통합 보기 →",
-      "viewAllSolutions": "모든 솔루션 보기 →"
+      "backToMainSite": "Back to Main Site",
+      "viewAllIntegrations": "View All Integrations →",
+      "viewAllSolutions": "View All Solutions →"
     },
     "hero": {
       "title": {
-        "line1": "수백만 명에게",
-        "line2": "24/7 응답"
+        "line1": "Respond To",
+        "line2": "Millions 24/7"
       },
-      "subtitle": "라이브 상담원",
-      "description": "옴니채널 플랫폼으로 고객 지원을 혁신하십시오. 무료로 인간 상담원으로 시작한 다음 성장함에 따라 AI 자동화를 원활하게 통합하십시오。",
-      "startFree": "지금 무료로 시작",
-      "exploreAI": "데모 예약",
-      "alwaysFree": "항상 무료 플랜",
-      "integrations": "30개 이상의 통합",
-      "setup": "2분 안에 설정",
+      "subtitle": "Live Agents",
+      "description": "Transform customer support with our omnichannel platform. Begin with human agents at zero cost, then seamlessly integrate AI automation as you grow.",
+      "startFree": "Start Free Now",
+      "exploreAI": "Book A Demo",
+      "alwaysFree": "Always Free Plan",
+      "integrations": "30+ Integrations",
+      "setup": "Setup in 2 Minutes",
       "chat": {
-        "userMessage": "안녕하세요! 주문에 도움이 필요합니다",
-        "botMessage": "안녕하세요! 주문을 도와드리겠습니다. 주문 번호를 알려주시겠습니까?",
-        "userMessage2": "인간 상담원과 연결하거나 즉각적인 AI 지원을 제공해 드릴 수 있습니다. 어떻게 진행하시겠습니까?",
-        "typePlaceholder": "메시지를 입력하세요...",
-        "online": "온라인",
-        "supportTitle": "SeaChat 지원"
+        "userMessage": "Hi! I need help with my order",
+        "botMessage": "Hello! I'd be happy to help you with your order. Could you please provide your order number?",
+        "userMessage2": "I can help you connect with a human agent or provide instant AI assistance. How would you prefer to proceed?",
+        "typePlaceholder": "Type your message...",
+        "online": "Online",
+        "supportTitle": "SeaChat Support"
       },
-      "badge": "라이브 상담원으로 무료 시작",
+      "badge": "Start Free with Live Agents",
       "animationSection": {
-        "title": "SeaChat 실제 사용 모습",
-        "autoMode": "자동",
-        "manualMode": "수동"
+        "title": "SeaChat in Action",
+        "autoMode": "Auto",
+        "manualMode": "Manual"
       },
       "animations": {
         "phoneVoice": {
-          "name": "전화 음성 AI",
-          "description": "전화 대화를 처리하는 AI 상담원"
+          "name": "Phone Voice AI",
+          "description": "AI agents handling phone conversations"
         },
         "interactive": {
-          "name": "대화형 채널",
-          "description": "다른 대화를 보려면 클릭하세요"
+          "name": "Interactive Channels",
+          "description": "Click to see different conversations"
         },
         "multiChannel": {
-          "name": "다중 채널 흐름",
-          "description": "다른 플랫폼 간에 흐르는 메시지"
+          "name": "Multi-Channel Flow",
+          "description": "Messages flowing between different platforms"
         },
         "agentToAI": {
-          "name": "인간에서 AI로 전달",
-          "description": "인간으로 시작하여 AI로 확장"
+          "name": "Human-to-AI Handoff",
+          "description": "Start with humans, scale with AI"
         },
         "learning": {
-          "name": "AI 학습 여정",
-          "description": "콘텐츠에서 AI가 더 똑똑해지는 것을 지켜보십시오"
+          "name": "AI Learning Journey",
+          "description": "Watch AI get smarter from content"
         },
         "dashboard": {
-          "name": "실시간 분석",
-          "description": "라이브 성과 지표"
+          "name": "Real-Time Analytics",
+          "description": "Live performance metrics"
         }
       }
     },
     "keyFeatures": {
-      "title": "SeaChat을 선택하는 이유",
-      "subtitle": "인간적인 감성과 AI 효율성의 완벽한 조화를 경험하십시오. 무료로 시작하고 스마트하게 확장하며 더 빠르게 성공하십시오。",
+      "title": "Why Choose SeaChat?",
+      "subtitle": "Experience the perfect blend of human touch and AI efficiency. Start free, scale smart, succeed faster.",
       "humanAgents": {
-        "title": "진정으로 무료인 인간 상담원 🍺 🎙️",
-        "description": "평생 무료인 인간 상담원 1명으로 시작하십시오. 예, 평생입니다! 상한선, 제한, 함정이 없습니다。",
-        "badge": "평생 무료",
+        "title": "Truly Free Human Agents 🍺 🎙️",
+        "description": "Start with 1 human agent free for life—yes, for life! No caps, no limits, no catches.",
+        "badge": "Free Forever",
         "highlights": [
-          "무제한 채팅 대화",
-          "무제한 채팅 기록 액세스",
-          "무제한 연락처 및 네트워크 구축",
-          "모든 데이터 내보내기 자유"
+          "Unlimited chat conversations",
+          "Unlimited chat history access",
+          "Unlimited contacts & network building",
+          "Freedom to export all your data"
         ]
       },
       "aiAutomation": {
-        "title": "원활한 AI 자동화",
-        "description": "대화와 문서에서 학습하는 지능형 AI로 손쉽게 확장하십시오。",
+        "title": "Seamless AI Automation",
+        "description": "Scale effortlessly with intelligent AI that learns from your conversations and documents.",
         "highlights": [
-          "스마트 자동 응답",
-          "상호 작용에서 학습",
-          "문맥 인식 응답"
+          "Smart auto-responses",
+          "Learning from interactions",
+          "Context-aware replies"
         ]
       },
       "omnichannel": {
-        "title": "옴니채널 연결",
-        "description": "모든 통신 채널을 하나의 통합 플랫폼에 연결하여 일관된 지원을 제공하십시오。",
+        "title": "Omni-Channel Connectivity",
+        "description": "Connect all your communication channels in one unified platform for consistent support.",
         "highlights": [
-          "30개 이상의 통합",
-          "통합 받은 편지함",
-          "교차 플랫폼 동기화"
+          "30+ integrations",
+          "Unified inbox",
+          "Cross-platform sync"
         ]
       },
       "trulyFree": {
-        "title": "진정으로 무료인 플랜 🍺 & 🎙️",
-        "description": "SeaChat의 인간 상담원 전용 모드를 소개합니다: 비교할 수 없는 커뮤니케이션 자유를 위한 티켓! 평생 무료인 인간 상담원 1명을 제공하게 되어 기쁩니다. 예, 맞습니다. 평생입니다！",
+        "title": "Truly Free Plan as in Free 🍺 & 🎙️",
+        "description": "Introducing SeaChat's Human Agent Only Mode: Your Ticket to Unmatched Communication Freedom! We're thrilled to present 1 human agent free for life—yes, you heard that right, for life!",
         "freeFeatures": {
           "unlimitedChat": {
-            "title": "무제한 채팅",
-            "description": "상한선이나 제한 없이 필요한 만큼 많은 대화에 참여하십시오。"
+            "title": "Unlimited Chat",
+            "description": "Engage in as many conversations as you need, with no caps or restrictions."
           },
           "unlimitedHistory": {
-            "title": "무제한 기록",
-            "description": "대화를 잃지 마십시오. 언제든지 전체 채팅 기록에 액세스하십시오。"
+            "title": "Unlimited History",
+            "description": "Never lose a conversation—access your complete chat history anytime."
           },
           "unlimitedContacts": {
-            "title": "무제한 연락처",
-            "description": "제한이나 연락처 제한 없이 네트워크를 구축하십시오。"
+            "title": "Unlimited Contacts",
+            "description": "Build your network without any restrictions or contact limits."
           },
           "freedomToExport": {
-            "title": "내보내기 자유",
-            "description": "귀하의 데이터, 귀하의 규칙—모든 채팅 기록을 손쉽게 내보내십시오。"
+            "title": "Freedom to Export",
+            "description": "Your data, your rules—export all your chat history effortlessly."
           }
         },
-        "whyChoose": "SeaChat을 선택하는 이유? 진정으로 무료이기 때문입니다！",
-        "whatYouGet": "✅ 평생 무료로 얻는 것：",
+        "whyChoose": "Why Choose SeaChat? Because It's Truly Free!",
+        "whatYouGet": "✅ What You Get FREE Forever:",
         "freeForeverFeatures": [
-          "평생 인간 상담원 1명",
-          "무제한 채팅 대화",
-          "전체 채팅 기록 액세스",
-          "무제한 연락처 관리",
-          "전체 데이터 내보내기 권한"
+          "1 Human Agent for Life",
+          "Unlimited Chat Conversations",
+          "Complete Chat History Access",
+          "Unlimited Contact Management",
+          "Full Data Export Rights"
         ],
-        "scaleWhenReady": "🚀 준비가 되면 확장：",
+        "scaleWhenReady": "🚀 Scale When Ready:",
         "scaleFeatures": [
-          "AI 자동화 추가",
-          "고급 통합",
-          "음성 상담원 기능",
-          "엔터프라이즈 보안",
-          "맞춤형 워크플로"
+          "Add AI Automation",
+          "Advanced Integrations",
+          "Voice Agent Features",
+          "Enterprise Security",
+          "Custom Workflows"
         ],
-        "startButton": "지금 무료 상담원 시작 - 신용카드 필요 없음！"
+        "startButton": "Start Your Free Agent Now - No Credit Card Required!"
       },
       "statsBar": {
-        "unlimited": "영원히 무제한 채팅",
-        "fileTypes": "30개 이상의 파일 형식 지원",
-        "setupTime": "평균 설정 시간 2분",
-        "availability": "준비가 되면 24/7 AI 사용 가능"
+        "unlimited": "Unlimited chats forever",
+        "fileTypes": "30+ file types supported",
+        "setupTime": "2min average setup time",
+        "availability": "24/7 AI availability when ready"
       }
     },
     "featureTabs": {
-      "title": "강력한 기능, 간단한 설정",
-      "subtitle": "고객 지원 경험을 혁신하도록 설계된 포괄적인 기능 세트를 살펴보십시오。",
+      "title": "Powerful Features, Simple Setup",
+      "subtitle": "Explore our comprehensive feature set designed to transform your customer support experience.",
       "tabs": {
-        "humanAgent": "인간 상담원",
-        "agentChat": "상담원 채팅",
-        "aiAgent": "AI 상담원",
-        "advancedAI": "고급 AI",
-        "knowledgeBase": "지식 기반",
-        "integrations": "통합"
+        "humanAgent": "Human Agent",
+        "agentChat": "Agent Chat",
+        "aiAgent": "AI Agent",
+        "advancedAI": "Advanced AI",
+        "knowledgeBase": "Knowledge Base",
+        "integrations": "Integrations"
       },
       "content": {
         "agentChat": {
-          "title": "인간 상담원의 우수성",
-          "subtitle": "완전 무료로 실제 인간 지원으로 시작하십시오",
+          "title": "Human Agent Excellence",
+          "subtitle": "Start with real human support, completely free",
           "features": [
-            "무제한 무료 상담원 시간",
-            "실시간 대화 관리",
-            "다중 상담원 협업",
-            "고급 라벨링 및 라우팅",
-            "성과 분석",
-            "맞춤형 워크플로"
+            "Unlimited free agent hours",
+            "Real-time conversation management",
+            "Multi-agent collaboration",
+            "Advanced labeling and routing",
+            "Performance analytics",
+            "Custom workflows"
           ],
-          "tryFeature": "이 기능 사용해 보기",
-          "watchDemo": "데모 보기"
+          "tryFeature": "Try This Feature",
+          "watchDemo": "Watch Demo"
         },
         "aiAgent": {
-          "title": "지능형 AI 자동화",
-          "subtitle": "학습하는 스마트 AI로 원활하게 확장",
+          "title": "Intelligent AI Automation",
+          "subtitle": "Scale seamlessly with smart AI that learns",
           "features": [
-            "문맥 인식 응답",
-            "대화에서 학습",
-            "원활한 인간 전달",
-            "다국어 지원",
-            "맞춤형 AI 교육",
-            "음성 상담원 기능"
+            "Context-aware responses",
+            "Learning from conversations",
+            "Seamless human handoff",
+            "Multi-language support",
+            "Custom AI training",
+            "Voice agent capabilities"
           ],
-          "tryFeature": "이 기능 사용해 보기",
-          "watchDemo": "데모 보기"
+          "tryFeature": "Try This Feature",
+          "watchDemo": "Watch Demo"
         },
         "advancedAI": {
-          "title": "차세대 AI 인텔리전스",
-          "subtitle": "개인화된 경험을 위한 고급 AI 기능",
+          "title": "Next-Generation AI Intelligence",
+          "subtitle": "Advanced AI features for personalized experiences",
           "features": [
-            "검색 증강 생성(RAG)",
-            "장기 사용자 메모리 시스템",
-            "시간 인식 문맥 응답",
-            "스마트 문맥 추출",
-            "참조된 채팅 결과",
-            "지식 기반 개선"
+            "Retrieval Augmented Generation (RAG)",
+            "Long-term user memory system",
+            "Time-aware contextual responses",
+            "Smart context extraction",
+            "Referenced chat results",
+            "Knowledge base refinement"
           ],
-          "tryDemo": "고급 AI 데모 사용해 보기",
-          "watchAI": "AI 실제 사용 모습 보기"
+          "tryDemo": "Try Advanced AI Demo",
+          "watchAI": "Watch AI in Action"
         },
         "knowledgeBase": {
-          "title": "포괄적인 지식 허브",
-          "subtitle": "30개 이상의 파일 형식을 업로드하고 AI가 즉각적인 응답을 제공하도록 하십시오",
+          "title": "Comprehensive Knowledge Hub",
+          "subtitle": "Upload 30+ file types for instant AI responses",
           "features": [
-            "PDF, Excel, CSV, Word 지원",
-            "웹사이트 콘텐츠 수집",
-            "이미지 및 비디오 처리",
-            "풍부한 응답 서식",
-            "자동 업데이트 콘텐츠",
-            "버전 관리"
+            "PDF, Excel, CSV, Word support",
+            "Website content ingestion",
+            "Image and video processing",
+            "Rich response formatting",
+            "Auto-updating content",
+            "Version control"
           ],
-          "tryFeature": "이 기능 사용해 보기",
-          "watchDemo": "데모 보기"
+          "tryFeature": "Try This Feature",
+          "watchDemo": "Watch Demo"
         },
         "integrations": {
-          "title": "강력한 통합",
-          "subtitle": "즐겨 사용하는 도구 및 플랫폼과 연결",
+          "title": "Powerful Integrations",
+          "subtitle": "Connect with your favorite tools and platforms",
           "features": [
-            "CRM 통합(Salesforce, HubSpot)",
-            "캘린더 예약(Google, Outlook)",
-            "전자상거래 플랫폼",
-            "마케팅 도구",
-            "맞춤형 API 액세스",
-            "웹훅 지원"
+            "CRM integrations (Salesforce, HubSpot)",
+            "Calendar booking (Google, Outlook)",
+            "E-commerce platforms",
+            "Marketing tools",
+            "Custom API access",
+            "Webhook support"
           ],
-          "tryFeature": "이 기능 사용해 보기",
-          "watchDemo": "데모 보기"
+          "tryFeature": "Try This Feature",
+          "watchDemo": "Watch Demo"
         }
       },
       "advancedAI": {
         "features": {
           "rag": {
-            "title": "검색 증강 생성",
-            "description": "정확한 정보 검색을 위한 키워드, 벡터 및 하이브리드 검색",
+            "title": "Retrieval Augmented Generation",
+            "description": "Keyword, Vector, and Hybrid Search for precise information retrieval",
             "details": {
-              "0": "의미론적 벡터 검색",
-              "1": "키워드 일치",
-              "2": "하이브리드 검색 알고리즘",
-              "3": "실시간 콘텐츠 인덱싱"
+              "0": "Semantic vector search",
+              "1": "Keyword matching",
+              "2": "Hybrid search algorithms",
+              "3": "Real-time content indexing"
             }
           },
           "memory": {
-            "title": "장기 기억",
-            "description": "영구적인 사용자 메모리를 통한 개인화된 경험",
+            "title": "Long Term Memory",
+            "description": "Personalized experiences through persistent user memory",
             "details": {
-              "0": "사용자 선호도 추적",
-              "1": "대화 기록 분석",
-              "2": "행동 패턴 인식",
-              "3": "교차 세션 연속성"
+              "0": "User preference tracking",
+              "1": "Conversation history analysis",
+              "2": "Behavioral pattern recognition",
+              "3": "Cross-session continuity"
             }
           },
           "timeAware": {
-            "title": "시간 인식",
-            "description": "현재 시간 및 시간대에 기반한 문맥 인식 응답",
+            "title": "Time Awareness",
+            "description": "Context-aware responses based on current time and timezone",
             "details": {
-              "0": "실시간 타임스탬프 통합",
-              "1": "시간대 인식 일정 관리",
-              "2": "시간에 민감한 추천",
-              "3": "영업 시간 최적화"
+              "0": "Real-time timestamp integration",
+              "1": "Timezone-aware scheduling",
+              "2": "Time-sensitive recommendations",
+              "3": "Business hours optimization"
             }
           },
           "contextExtraction": {
-            "title": "문맥 추출",
-            "description": "더 나은 사용자 이해를 위한 지능형 필드 매핑",
+            "title": "Context Extraction",
+            "description": "Intelligent field mapping for better user comprehension",
             "details": {
-              "0": "맞춤형 필드 정의",
-              "1": "자동 데이터 추출",
-              "2": "사용자 언어 기본 설정",
-              "3": "동적 문맥 구축"
+              "0": "Custom field definitions",
+              "1": "Automatic data extraction",
+              "2": "User language preferences",
+              "3": "Dynamic context building"
             }
           },
           "referencedResults": {
-            "title": "참조된 결과",
-            "description": "소스 인용이 포함된 투명한 AI 응답",
+            "title": "Referenced Results",
+            "description": "Transparent AI responses with source citations",
             "details": {
-              "0": "소스 문서 연결",
-              "1": "인용 추적",
-              "2": "신뢰도 점수 매기기",
-              "3": "사실 확인"
+              "0": "Source document linking",
+              "1": "Citation tracking",
+              "2": "Confidence scoring",
+              "3": "Fact verification"
             }
           },
           "knowledgeRefinement": {
-            "title": "지식 개선",
-            "description": "지식 기반 정확성의 지속적인 개선",
+            "title": "Knowledge Refinement",
+            "description": "Continuous improvement of knowledge base accuracy",
             "details": {
-              "0": "자동 업데이트 콘텐츠",
-              "1": "품질 점수 매기기",
-              "2": "관련성 최적화",
-              "3": "성과 분석"
+              "0": "Auto-updating content",
+              "1": "Quality scoring",
+              "2": "Relevance optimization",
+              "3": "Performance analytics"
             }
           }
         }
       }
     },
     "omnichannelDemo": {
-      "title": "고객이 있는 모든 곳에 배포",
-      "subtitle": "웹사이트, 소셜 미디어 및 통신 플랫폼 전반에 걸쳐 모든 고객 접점을 원활하게 연결합니다. 각 채널 위로 마우스를 가져가 실시간 성과 지표를 확인하십시오。",
-      "messagesPerDay": "일일 메시지",
-      "responseTime": "응답 시간",
-      "keyFeatures": "주요 기능",
-      "integrateChannel": "채널 통합",
+      "title": "Deploy Everywhere Your Customers Are",
+      "subtitle": "Seamlessly connect all your customer touchpoints across websites, social media, and communication platforms. Hover over each channel to see real-time performance metrics.",
+      "messagesPerDay": "Messages/day",
+      "responseTime": "Response time",
+      "keyFeatures": "Key Features",
+      "integrateChannel": "Integrate",
       "channels": {
         "website": {
-          "name": "웹사이트",
-          "description": "모든 HTML 웹사이트에서 작동하는 범용 위젯"
+          "name": "Website",
+          "description": "Universal widget that works on any HTML website"
         },
         "whatsapp": {
           "name": "WhatsApp",
-          "description": "세계에서 가장 인기 있는 메시징 앱에서 고객과 연결"
+          "description": "Connect with customers on the world's most popular messaging app"
         },
         "instagram": {
           "name": "Instagram",
-          "description": "하나의 통합된 받은 편지함에서 Instagram DM 및 스토리 답장 관리"
+          "description": "Manage Instagram DMs and story replies in one unified inbox"
         },
         "facebook": {
           "name": "Facebook",
-          "description": "Facebook의 메시징 플랫폼을 통해 고객 지원 제공"
+          "description": "Provide customer support through Facebook's messaging platform"
         },
         "line": {
           "name": "LINE",
-          "description": "인기 있는 아시아 메시징 플랫폼에서 고객과 연결"
+          "description": "Connect with customers on the popular Asian messaging platform"
         },
         "phone": {
-          "name": "전화 통화",
-          "description": "AI 음성 상담원으로 음성 지원 처리"
+          "name": "Phone Call",
+          "description": "Handle voice support with AI voice agents"
         },
         "email": {
-          "name": "이메일",
-          "description": "지능형 라우팅으로 이메일 티켓 관리"
+          "name": "Email",
+          "description": "Manage email tickets with intelligent routing"
         },
         "ecommerce": {
-          "name": "전자상거래",
-          "description": "주문 관리를 위해 온라인 상점과 통합"
+          "name": "E-commerce",
+          "description": "Integrate with online stores for order management"
         }
       },
       "platformCategories": {
         "website": {
-          "title": "웹사이트 통합",
-          "description": "범용 위젯으로 모든 웹사이트 플랫폼에 배포"
+          "title": "Website Integration",
+          "description": "Deploy on any website platform with our universal widget"
         },
         "socialMedia": {
-          "title": "소셜 미디어",
-          "description": "즐겨 찾는 소셜 플랫폼에서 고객과 연결"
+          "title": "Social Media",
+          "description": "Connect with customers on their favorite social platforms"
         },
         "traditional": {
-          "title": "전통적인 채널",
-          "description": "고전적인 통신 방법을 통해 지원 유지"
+          "title": "Traditional Channels",
+          "description": "Maintain support through classic communication methods"
         }
       },
       "quickSetup": {
-        "title": "어디에나 배포할 준비가 되셨습니까?",
-        "subtitle": "간단한 통합 프로세스로 몇 분 만에 시작하십시오",
+        "title": "Ready to Deploy Everywhere?",
+        "subtitle": "Get started in minutes with our simple integration process",
         "steps": [
           {
-            "title": "채널 선택",
-            "description": "8개 이상의 배포 옵션 중에서 선택"
+            "title": "Choose Your Channels",
+            "description": "Select from 8+ deployment options"
           },
           {
-            "title": "코드 복사 및 붙여넣기",
-            "description": "간단한 위젯 설치"
+            "title": "Copy & Paste Code",
+            "description": "Simple widget installation"
           },
           {
-            "title": "채팅 시작",
-            "description": "즉시 고객 지원 시작"
+            "title": "Start Chatting",
+            "description": "Begin supporting customers instantly"
           }
         ],
-        "button": "무료 배포 시작"
+        "button": "Start Free Deployment"
       }
     },
     "pricing": {
-      "title": "함께 성장하는 가격",
-      "subtitle": "인간 상담원으로 완전히 무료로 시작한 다음 확장할 준비가 되면 AI를 추가하십시오。",
-      "monthly": "월간",
-      "yearly": "연간",
-      "save": "20% 절약",
-      "customize": "플랜 사용자 정의",
-      "chatVolume": "월간 채팅량",
-      "agents": "상담원 수",
+      "title": "Pricing That Grows With You",
+      "subtitle": "Start completely free with human agents, then add AI when you're ready to scale.",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 20%",
+      "customize": "Customize Your Plan",
+      "chatVolume": "Monthly Chat Volume",
+      "agents": "Number of Agents",
       "plans": {
         "free": {
-          "name": "진정한 무료",
-          "tagline": "강력한 기능의 평가판을 경험하십시오",
-          "description": "인간 상담원으로 시작하기에 적합",
+          "name": "Truly Free",
+          "tagline": "Experience a trial of powerful features",
+          "description": "Perfect for getting started with human agents",
           "features": {
-            "humanAgent": "인간 상담원 1명",
-            "unlimitedHumanChats": "무제한 인간 상담원 채팅",
-            "unlimitedContacts": "무제한 연락처",
-            "unlimitedHistory": "무제한 채팅 기록",
-            "exportHistory": "채팅 기록 내보내기 자유",
-            "channels": "채널: WhatsApp 메신저, 채팅 위젯",
-            "integrations": "통합: Wix, WordPress, Shopify, Make.com, Squarespace",
-            "aiAgent": "평생 AI 응답 100개가 포함된 AI 상담원 1명：",
+            "humanAgent": "1 human agent",
+            "unlimitedHumanChats": "Unlimited human agent chats",
+            "unlimitedContacts": "Unlimited contacts",
+            "unlimitedHistory": "Unlimited chat history",
+            "exportHistory": "Freedom to export chat history",
+            "channels": "Channels: WhatsApp Messenger, chat widget",
+            "integrations": "Integrations: Wix, WordPress, Shopify, Make.com, Squarespace",
+            "aiAgent": "AI agent with 100 lifetime AI replies:",
             "aiAgentModel": "ChatGPT-3.5-turbo",
-            "knowledgeBase": "지식 기반에는 문서 20개(최대 200KB)와 토큰 25만 개가 포함됩니다",
-            "workspace": "작업 공간 1개"
+            "knowledgeBase": "Knowledge base includes 20 documents (200KB max) and 250k tokens",
+            "workspace": "1 workspace"
           },
-          "buttonText": "무료로 시작하기"
+          "buttonText": "Get Started Free"
         },
         "premium": {
-          "name": "프리미엄",
-          "tagline": "더 많은 AI 상담원 및 지식 파일 추가",
-          "description": "AI 자동화로 지원 확장",
-          "month": "월",
-          "year": "년",
-          "year_description": "매년 2개월 절약",
+          "name": "Premium",
+          "tagline": "Add more AI Agents and Knowledge Files",
+          "description": "Scale your support with AI automation",
+          "month": "month",
+          "year": "year",
+          "year_description": "Saves 2 months every year",
           "features": {
-            "humanAgents": "인간 사용자 4명(추가 인간 사용자는 월 10달러)",
-            "humanAgentPermission": "인간 상담원 권한 지원",
-            "assignAgent": "개별 대화에 인간 상담원 할당",
-            "unreadCounter": "각 인간 상담원의 읽지 않은 메시지 카운터",
-            "transferToHuman": "AI 상담원에서 인간 상담원으로 실시간 전송",
-            "transferToAI": "인간 상담원에서 AI 상담원으로 실시간 전송",
-            "unlimitedHumanChats": "무제한 인간 상담원 채팅",
-            "unlimitedContacts": "무제한 연락처",
-            "unlimitedHistory": "무제한 채팅 기록",
-            "exportHistory": "채팅 기록 내보내기 자유",
-            "channels": "추가 채널: Line, 통화, 전화 통화",
-            "integrations": "추가 통합: 회의 자동 예약을 위한 Google 캘린더",
-            "aiAgents": "각 상담원이 다음을 갖춘 AI 상담원 10명：",
-            "aiModels": "ChatGPT-4o 및 Mistral 모델",
-            "knowledgeBase": "지식 기반에는 최대 1000개의 문서(문서당 10MB)와 500만 개의 토큰이 포함됩니다",
-            "chatSummary": "이메일을 통한 채팅 요약 및 알림",
-            "agentPrivacy": "상담원 개인 정보 보호 제어",
-            "contactCapture": "맞춤형 양식을 통한 사용자 연락처 캡처",
-            "chatCost": "채팅 AI 상담원은 응답당 0.006달러부터 시작",
-            "voiceCost": "전화 통화를 통한 음성 AI 상담원은 분당 0.12달러부터 시작",
-            "workspaces": "작업 공간 2개(추가 작업 공간은 월 15달러)",
-            "knowledgeBaseFeatures": "지식 기반：",
-            "advancedSearch": "고급 문서 검색 - 키워드, 벡터, 하이브리드",
-            "fileTypes": "20개 이상의 파일 형식 지원, 스프레드시트 최적화",
-            "automationFeatures": "자동화：",
-            "autoLabel": "사용자 정의 레이블로 대화 자동 레이블 지정",
-            "builtInActions": "자동 레이블 지정으로 트리거되는 기본 제공 작업: SMS, 이메일",
-            "externalAPI": "트리거 및 작업으로 외부 API 호출",
-            "voiceAgentFeatures": "음성 AI 상담원：",
-            "voiceMessages": "메신저, WhatsApp, Line에서 음성 메시지 지원",
-            "phoneCalls": "양방향 전화 통화 대화 지원",
-            "callDirection": "인바운드 및 아웃바운드 통화 모두 지원",
-            "transferAgent": "인간 상담원에게 전송",
-            "callForwarding": "통화 전달 지원",
-            "sttLanguages": "10개 이상의 음성-텍스트 변환 언어",
-            "ttsLanguages": "Azure, ElevenLabs, OpenAI의 음성이 포함된 10개 이상의 텍스트-음성 변환 언어",
-            "callRecording": "통화 녹음 및 요약",
-            "callNotification": "이메일을 통한 통화 알림",
-            "formTrackers": "대화에서 양식 추적기 설정",
-            "slotExtractors": "대화에서 슬롯 추출기",
-            "timezoneFeatures": "시간대 지원을 통한 현지 시간 인식：",
-            "businessHours": "영업 시간",
-            "appointmentBooking": "약속 예약",
-            "humanAgent": "인간 사용자 4명(추가 인간 사용자는 월 10달러)",
-            "supportHumanAgent": "인간 상담원 권한 지원",
-            "liveTransferToHuman": "AI 상담원에서 인간 상담원으로 실시간 전송",
-            "liveTransferToAI": "인간 상담원에서 AI 상담원으로 실시간 전송",
-            "additionalChannels": "추가 채널: Line, 통화, 전화 통화",
-            "additionalIntegrations": "추가 통합: 회의 자동 예약을 위한 Google 캘린더",
-            "knowledgeBaseTitle": "지식 기반：",
-            "automationTitle": "자동화：",
-            "voiceAgentsTitle": "음성 AI 상담원：",
-            "timezoneTitle": "시간대 지원을 통한 현지 시간 인식："
+            "humanAgents": "4 human users (additional human user costs $10/month)",
+            "humanAgentPermission": "Support human agent permission",
+            "assignAgent": "Assign human agent to individual conversation",
+            "unreadCounter": "Unread message counter for each human agent",
+            "transferToHuman": "Live transfer from AI agent to human agent",
+            "transferToAI": "Live transfer from human agent to AI agent",
+            "unlimitedHumanChats": "Unlimited human agent chats",
+            "unlimitedContacts": "Unlimited contacts",
+            "unlimitedHistory": "Unlimited chat history",
+            "exportHistory": "Freedom to export chat history",
+            "channels": "Additional channels: Line, Call, Phone Call",
+            "integrations": "Additional integrations: Google Calendar to auto book meetings",
+            "aiAgents": "10 AI agents, with each agent having:",
+            "aiModels": "ChatGPT-4o and Mistral models",
+            "knowledgeBase": "Knowledge base includes up to 1000 documents (10 MB per doc) and 5M tokens",
+            "chatSummary": "Chat summary and notification via email",
+            "agentPrivacy": "Agent privacy control",
+            "contactCapture": "User contact capture via custom forms",
+            "chatCost": "Chat AI agent starts at $0.006 per response",
+            "voiceCost": "Voice AI agent over phone calls starts at $0.12 per minute",
+            "workspaces": "2 workspaces (additional workspace costs $15/month)",
+            "knowledgeBaseFeatures": "Knowledge Base:",
+            "advancedSearch": "Advanced document search - keyword, vector, hybrid",
+            "fileTypes": "20+ file types supported, with optimization on spreadsheets",
+            "automationFeatures": "Automation:",
+            "autoLabel": "Automatically label conversations with user-defined labels",
+            "builtInActions": "Built-in actions triggered by auto-labeling: SMS, Email",
+            "externalAPI": "External API calls as both triggers and actions",
+            "voiceAgentFeatures": "Voice AI Agents:",
+            "voiceMessages": "Support voice messages in Messenger, WhatsApp, Line",
+            "phoneCalls": "Support 2-way phone call conversations",
+            "callDirection": "Support both inbound and outbound call",
+            "transferAgent": "Transfer to human agent",
+            "callForwarding": "Call forwarding supported",
+            "sttLanguages": "10+ Speech-To-Text languages",
+            "ttsLanguages": "10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI",
+            "callRecording": "Call recording and summary",
+            "callNotification": "Call notification via email",
+            "formTrackers": "Set form trackers from conversations",
+            "slotExtractors": "Slot extractors from conversations",
+            "timezoneFeatures": "Local time awareness with timezone support, for:",
+            "businessHours": "business hours",
+            "appointmentBooking": "appointment booking",
+            "humanAgent": "4 human users (additional human user costs $10/month)",
+            "supportHumanAgent": "Support human agent permission",
+            "liveTransferToHuman": "Live transfer from AI agent to human agent",
+            "liveTransferToAI": "Live transfer from human agent to AI agent",
+            "additionalChannels": "Additional channels: Line, Call, Phone Call",
+            "additionalIntegrations": "Additional integrations: Google Calendar to auto book meetings",
+            "knowledgeBaseTitle": "Knowledge Base:",
+            "automationTitle": "Automation:",
+            "voiceAgentsTitle": "Voice AI Agents:",
+            "timezoneTitle": "Local time awareness with timezone support, for:"
           },
-          "buttonText": "프리미엄 시작",
-          "badge": "가장 인기 있음"
+          "buttonText": "Start Premium",
+          "badge": "Most Popular"
         },
         "enterprise": {
-          "name": "엔터프라이즈",
-          "tagline": "독점적인 AI 상담원 사용자 정의",
-          "description": "대규모 조직을 위한 맞춤형 솔루션",
+          "name": "Enterprise",
+          "tagline": "Customize your exclusive AI agents",
+          "description": "Custom solutions for large organizations",
           "features": {
-            "premiumIncluded": "프리미엄 플랜의 모든 것",
-            "customBuild": "맞춤형 빌드",
-            "multipleWorkspaces": "여러 작업 공간 - 대행사에 적합",
-            "workspaceAgents": "각 작업 공간에는 여러 AI 상담원과 전화번호가 있습니다",
-            "gpt4oRealtimeAPI": "GPT-4o 실시간 API에 대한 액세스",
-            "customAPI": "맞춤형 API 통합",
-            "fineTuning": "지침 및 기술 지원을 통한 미세 조정"
+            "premiumIncluded": "Everything in Premium plan",
+            "customBuild": "Custom build",
+            "multipleWorkspaces": "Multiple workspaces - perfect for agencies",
+            "workspaceAgents": "Each workspace has multiple AI agents and phone numbers",
+            "gpt4oRealtimeAPI": "Access to GPT-4o Realtime API",
+            "customAPI": "Custom API integration",
+            "fineTuning": "Fine-tuning with your guidelines and technical support"
           },
-          "buttonText": "문의하기"
+          "buttonText": "Contact Us"
         }
       },
       "billing": {
-        "monthly": "월간",
-        "yearly": "연간",
-        "year": "년",
-        "month": "월",
-        "save": "월별 청구 대비 2개월 절약"
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "year": "year",
+        "month": "month",
+        "save": "Save 2 months vs monthly billing"
       },
       "calculator": {
-        "title": "플랜 및 모델 사용량 계산기",
-        "description": "사용 패턴에 따라 비용을 추정하십시오",
-        "modelSelect": "AI 모델 선택",
-        "priceBreakdown": "비용 내역",
-        "licenseYearly": "라이선스 요금(2개월 절약)：",
-        "licenseFee": "라이선스 요금：",
-        "usageCost": "사용 비용：",
-        "usageCostYearly": "사용 비용(12개월)：",
-        "addOnsCost": "추가 기능 비용：",
-        "addOnsCostYearly": "추가 기능 비용(12개월)：",
-        "totalPerYear": "연간 총액：",
-        "totalPerMonth": "월간 총액：",
-        "averagePerMonth": "월 평균：",
-        "aiUsage": "AI 사용량(사용량당 지불)",
-        "chatResponses": "월간 채팅 응답：",
-        "voiceMinutes": "월간 음성 시간：",
-        "voiceMinutesNote": "미국/캐나다만 해당",
-        "chatCost": "채팅 비용",
-        "voiceCost": "음성 비용",
-        "additionalResources": "추가 리소스",
-        "humanAgents": "인간 상담원：",
-        "aiAgents": "AI 상담원：",
-        "workspaces": "작업 공간：",
-        "included": "포함：",
-        "extra": "추가：",
-        "disclaimer": "사용 비용은 실제 소비량을 기준으로 계산됩니다. 프리미엄 플랜에는 다음이 포함됩니다：",
-        "disclaimerDetails": "라이선스 요금 + AI 사용량(사용량당 지불) + 포함된 한도를 초과하는 추가 리소스。",
-        "planIncludes": "프리미엄 플랜 포함：",
-        "planIncludesHuman": "인간 상담원 4명",
-        "planIncludesAI": "AI 상담원 10명",
-        "planIncludesWorkspaces": "작업 공간 2개",
-        "perChatResponse": "채팅 응답당",
-        "perVoiceMinute": "음성 시간당",
-        "voiceOnly": "음성 전용 모델",
-        "voicePricing": "음성 가격",
-        "standardVoice": "표준 음성",
-        "premiumVoice": "프리미엄 음성",
-        "placeholderText": "자리 표시자"
+        "title": "Plan & Model Usage Calculator",
+        "description": "Estimate your costs based on your usage patterns",
+        "modelSelect": "Select AI Model",
+        "priceBreakdown": "Cost Breakdown",
+        "licenseYearly": "License fee (save 2 months):",
+        "licenseFee": "License fee:",
+        "usageCost": "Usage cost:",
+        "usageCostYearly": "Usage cost (12 months):",
+        "addOnsCost": "Add-ons cost:",
+        "addOnsCostYearly": "Add-ons cost (12 months):",
+        "totalPerYear": "Total per year:",
+        "totalPerMonth": "Total per month:",
+        "averagePerMonth": "Average per month:",
+        "aiUsage": "AI Usage (Pay per use)",
+        "chatResponses": "Monthly Chat Responses:",
+        "voiceMinutes": "Monthly Voice Minutes:",
+        "voiceMinutesNote": "USA/Canada only",
+        "chatCost": "Chat Cost",
+        "voiceCost": "Voice Cost",
+        "additionalResources": "Additional Resources",
+        "humanAgents": "Human Agents:",
+        "aiAgents": "AI Agents:",
+        "workspaces": "Workspaces:",
+        "included": "Included:",
+        "extra": "Extra:",
+        "disclaimer": "Usage costs are calculated based on actual consumption. The Premium plan includes:",
+        "disclaimerDetails": "License fee + AI Usage (pay per use) + Additional resources beyond the included limits.",
+        "planIncludes": "Premium Plan Includes:",
+        "planIncludesHuman": "4 Human Agents",
+        "planIncludesAI": "10 AI Agents",
+        "planIncludesWorkspaces": "2 Workspaces",
+        "perChatResponse": "per chat response",
+        "perVoiceMinute": "per voice minute",
+        "voiceOnly": "Voice only model",
+        "voicePricing": "Voice pricing",
+        "standardVoice": "Standard Voice",
+        "premiumVoice": "Premium Voice",
+        "placeholderText": "Placeholder"
       },
-      "note": "가격은 USD 기준입니다. 음성 통화 가격은 국가별로 다르며 표시된 가격은 미국 및 캐나다용입니다. 다른 국가의 경우 문의하십시오。",
+      "note": "Prices are in USD. Voice call prices vary by country and listed prices are for the United States and Canada. For other countries, please contact us.",
       "comparison": {
-        "title": "모든 기능 비교",
-        "subtitle": "각 플랜에 포함된 내용을 정확하게 확인하십시오",
-        "featuresTitle": "기능",
-        "trulyFree": "진정한 무료",
-        "premium": "프리미엄",
-        "enterprise": "엔터프라이즈",
-        "humanAgents": "인간 상담원",
-        "aiAgents": "AI 상담원",
-        "aiModels": "AI 모델",
-        "knowledgeBase": "지식 기반",
-        "voiceAI": "음성 AI 상담원",
-        "phoneCalls": "전화 통화",
-        "automation": "자동화",
-        "apiIntegration": "API 통합",
-        "workspaces": "작업 공간",
-        "support": "지원",
+        "title": "Compare All Features",
+        "subtitle": "See exactly what's included in each plan",
+        "featuresTitle": "Features",
+        "trulyFree": "Truly Free",
+        "premium": "Premium",
+        "enterprise": "Enterprise",
+        "humanAgents": "Human Agents",
+        "aiAgents": "AI Agents",
+        "aiModels": "AI Models",
+        "knowledgeBase": "Knowledge Base",
+        "voiceAI": "Voice AI Agents",
+        "phoneCalls": "Phone Calls",
+        "automation": "Automation",
+        "apiIntegration": "API Integration",
+        "workspaces": "Workspaces",
+        "support": "Support",
         "features": {
           "humanAgents": {
-            "free": "상담원 1명",
-            "premium": "사용자 4명",
-            "enterprise": "무제한"
+            "free": "1 agent",
+            "premium": "4 users",
+            "enterprise": "Unlimited"
           },
           "aiAgents": {
-            "free": "상담원 1명(응답 100개)",
-            "premium": "상담원 10명(무제한)",
-            "enterprise": "맞춤형 빌드"
+            "free": "1 agent (100 replies)",
+            "premium": "10 agents (unlimited)",
+            "enterprise": "Custom build"
           },
           "aiModels": {
             "free": "ChatGPT-3.5",
             "premium": "ChatGPT-4o, Mistral",
-            "enterprise": "고급 모델"
+            "enterprise": "Advanced models"
           },
           "knowledgeBase": {
-            "free": "문서 20개(200KB)",
-            "premium": "문서 5000개(각 10MB)",
-            "enterprise": "무제한"
+            "free": "20 docs (200KB)",
+            "premium": "5000 docs (10MB each)",
+            "enterprise": "Unlimited"
           },
           "voiceAI": {
             "free": "❌",
@@ -611,165 +611,165 @@
           },
           "phoneCalls": {
             "free": "❌",
-            "premium": "✅ 인바운드/아웃바운드",
+            "premium": "✅ Inbound/Outbound",
             "enterprise": "✅"
           },
           "automation": {
             "free": "❌",
-            "premium": "✅ 고급",
-            "enterprise": "✅ 맞춤형"
+            "premium": "✅ Advanced",
+            "enterprise": "✅ Custom"
           },
           "apiIntegration": {
             "free": "❌",
             "premium": "✅",
-            "enterprise": "✅ 맞춤형"
+            "enterprise": "✅ Custom"
           },
           "workspaces": {
             "free": "1",
-            "premium": "2(추가당 15달러)",
-            "enterprise": "다중"
+            "premium": "2 ($15 each extra)",
+            "enterprise": "Multiple"
           },
           "support": {
-            "free": "커뮤니티",
-            "premium": "이메일 + 전화",
-            "enterprise": "전담 기술"
+            "free": "Community",
+            "premium": "Email + Phone",
+            "enterprise": "Dedicated technical"
           }
         }
       },
       "enterprise": {
-        "title": "맞춤형이 필요하십니까?",
-        "description": "온프레미스 배포, 고급 보안 기능 및 전담 지원팀을 포함한 맞춤형 엔터프라이즈 솔루션을 제공합니다。",
-        "contactSales": "영업팀에 문의"
+        "title": "Need Something Custom?",
+        "description": "We offer custom enterprise solutions including on-premise deployment, advanced security features, and dedicated support teams.",
+        "contactSales": "Contact Sales Team"
       },
       "faq": {
-        "title": "자주 묻는 질문",
-        "question1": "무료 플랜은 정말 영원히 무료입니까?",
-        "answer1": "네! 진정한 무료 플랜에는 평생 무제한 대화, 채팅 기록 및 연락처가 포함된 인간 상담원 1명이 포함됩니다. 또한 AI 기능을 사용해 볼 수 있도록 평생 AI 응답 100개가 포함된 AI 상담원 1명을 제공합니다. 신용카드가 필요 없으며 숨겨진 수수료도 없습니다。",
-        "question2": "월별 청구와 연간 청구의 차이점은 무엇입니까?",
-        "answer2": "연간 청구를 사용하면 프리미엄 플랜에서 2개월을 절약할 수 있습니다(월별 지불 시 연간 359.88달러 대비 연간 299달러). 청구 주기는 프리미엄 플랜에만 영향을 미칩니다. 무료 플랜은 항상 무료이며 엔터프라이즈는 맞춤형 가격입니다。",
-        "question3": "언제든지 플랜을 업그레이드하거나 다운그레이드할 수 있습니까?",
-        "answer3": "물론입니다! 언제든지 플랜을 변경할 수 있습니다. 업그레이드는 즉시 적용되며 다운그레이드는 현재 청구 주기가 끝날 때 적용됩니다。",
-        "question4": "무료 플랜에서 AI 응답 한도를 초과하면 어떻게 됩니까?",
-        "answer4": "무료 플랜에는 평생 AI 응답 100개가 포함됩니다. 이 한도에 도달하면 무제한 AI 응답을 위해 프리미엄으로 업그레이드해야 합니다. 인간 상담원 기능은 모든 플랜에서 무제한으로 유지됩니다。",
-        "question5": "프리미엄 플랜 가격은 어떻게 책정됩니까?",
-        "answer5": "프리미엄에는 라이선스 요금(월 29.99달러 또는 연간 299달러)과 사용량 기반 가격 책정이라는 두 가지 구성 요소가 있습니다. 사용량에는 응답당 0.006달러부터 시작하는 AI 응답(ChatGPT-4o 미니)과 분당 0.12달러의 음성 통화가 포함됩니다. 추가 인간 사용자는 월 10달러, 추가 작업 공간은 월 15달러입니다。",
-        "question6": "취소하면 내 데이터는 어떻게 됩니까?",
-        "answer6": "귀하는 귀하의 데이터를 소유합니다. 무료 플랜에서도 언제든지 모든 채팅 기록, 연락처 및 지식 기반 콘텐츠를 내보낼 수 있습니다. 우리는 데이터 자유와 투명성을 믿습니다。",
-        "question7": "대기업을 위한 맞춤형 가격을 제공합니까?",
-        "answer7": "네! 당사의 엔터프라이즈 플랜은 맞춤형 빌드, 대행사에 적합한 여러 AI 서비스, 맞춤형 API 통합 및 기술 지원이 포함된 전문적인 디자인 지침을 제공합니다. 개인화된 견적을 받으려면 영업팀에 문의하십시오。"
+        "title": "Frequently Asked Questions",
+        "question1": "Is the free plan really free forever?",
+        "answer1": "Yes! Our Truly Free plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. Plus, you get 1 AI agent with 100 lifetime AI replies to try our AI features. No credit card required, no hidden fees.",
+        "question2": "What's the difference between monthly and yearly billing?",
+        "answer2": "With yearly billing, you save 2 months on the Premium plan ($299/year vs $359.88/year if paid monthly). The billing cycle only affects the Premium plan - the Free plan is always free and Enterprise is custom pricing.",
+        "question3": "Can I upgrade or downgrade my plan anytime?",
+        "answer3": "Absolutely! You can change your plan at any time. Upgrades take effect immediately, and downgrades take effect at the end of your current billing cycle.",
+        "question4": "What happens if I exceed my AI reply limit on the Free plan?",
+        "answer4": "The Free plan includes 100 lifetime AI replies. Once you reach this limit, you'll need to upgrade to Premium for unlimited AI responses. Your human agent functionality remains unlimited on all plans.",
+        "question5": "How does the Premium plan pricing work?",
+        "answer5": "Premium has two components: a license fee ($29.99/month or $299/year) plus usage-based pricing. Usage includes AI responses starting at $0.006 each (ChatGPT-4o mini) and voice calls at $0.12/minute. Additional human users cost $10/month each, and extra workspaces cost $15/month each.",
+        "question6": "What happens to my data if I cancel?",
+        "answer6": "You own your data. You can export all your chat history, contacts, and knowledge base content at any time, even on the free plan. We believe in data freedom and transparency.",
+        "question7": "Do you offer custom pricing for large enterprises?",
+        "answer7": "Yes! Our Enterprise plan offers custom builds, multiple AI services perfect for agencies, custom API integrations, and professional design guidelines with technical support. Contact our sales team for a personalized quote."
       },
       "cta": {
-        "title": "AI 채팅 혁명",
-        "subtitle": "지금 바로 시작됩니다！",
-        "description": "모든 메시징 채널에서 탁월한 고객 경험을 제공하기 위해 이미 SeaChat을 사용하고 있는 100,000개 이상의 기업에 합류하십시오",
+        "title": "Your AI Chat Revolution",
+        "subtitle": "Starts Right Now!",
+        "description": "Join 100,000+ businesses already using SeaChat to deliver exceptional customer experiences across all messaging channels",
         "stats": {
-          "messages": "10만 이상",
-          "messagesLabel": "일일 메시지",
+          "messages": "100K+",
+          "messagesLabel": "Messages Daily",
           "uptime": "99.9%",
-          "uptimeLabel": "가동 시간 보장",
-          "channels": "15개 이상",
-          "channelsLabel": "지원되는 채널",
+          "uptimeLabel": "Uptime Guarantee",
+          "channels": "15+",
+          "channelsLabel": "Channels Supported",
           "hipaa": "HIPAA",
-          "hipaaLabel": "준수 및 보안"
+          "hipaaLabel": "Compliant & Secure"
         },
-        "startFree": "진정한 무료로 먼저 시작",
-        "bookDemo": "라이브 데모 예약",
+        "startFree": "START TRULY FREE FIRST",
+        "bookDemo": "Book Live Demo",
         "badges": {
-          "noCoding": "코딩 필요 없음",
-          "freePlan": "평생 무료 플랜",
-          "cancelAnytime": "언제든지 취소",
-          "support": "24/7 지원"
+          "noCoding": "No Coding Required",
+          "freePlan": "Free Forever Plan",
+          "cancelAnytime": "Cancel Anytime",
+          "support": "24/7 Support"
         },
-        "urgency": "기간 한정: 연간 플랜에서 2개월 무료 + 우선 온보딩 지원을 받으십시오！",
-        "limitedTime": "기간 한정："
+        "urgency": "Limited Time: Get 2 months free on annual plans + priority onboarding support!",
+        "limitedTime": "Limited Time:"
       }
     },
     "knowledgeBase": {
-      "title": "강력한 지식 기반",
-      "subtitle": "30개 이상의 파일 형식을 업로드하고 AI가 카드, 버튼, 이미지 및 비디오로 풍부하고 상황에 맞는 응답을 제공하도록 하십시오。",
+      "title": "Powerful Knowledge Base",
+      "subtitle": "Upload 30+ file types and let AI provide rich, contextual responses with cards, buttons, images, and videos.",
       "supportedFormats": {
-        "title": "지원되는 파일 형식",
+        "title": "Supported File Types",
         "formats": {
           "pdf": {
-            "name": "PDF 문서",
-            "count": "15개 파일"
+            "name": "PDF Documents",
+            "count": "15 files"
           },
           "excel": {
-            "name": "Excel 시트",
-            "count": "8개 파일"
+            "name": "Excel Sheets",
+            "count": "8 files"
           },
           "word": {
-            "name": "Word 문서",
-            "count": "12개 파일"
+            "name": "Word Documents",
+            "count": "12 files"
           },
           "images": {
-            "name": "이미지",
-            "count": "25개 이미지"
+            "name": "Images",
+            "count": "25 images"
           },
           "websites": {
-            "name": "웹사이트",
-            "count": "5개 사이트"
+            "name": "Websites",
+            "count": "5 sites"
           },
           "videos": {
-            "name": "비디오",
-            "count": "3개 비디오"
+            "name": "Videos",
+            "count": "3 videos"
           }
         },
         "richResponse": {
-          "title": "풍부한 응답 서식：",
+          "title": "Rich Response Formatting:",
           "features": [
-            "대화형 카드",
-            "작업 버튼",
-            "포함된 이미지",
-            "비디오 응답"
+            "Interactive Cards",
+            "Action Buttons",
+            "Embedded Images",
+            "Video Responses"
           ]
         },
-        "addDocuments": "문서 추가"
+        "addDocuments": "Add Your Documents"
       },
       "uploadModal": {
-        "title": "문서 업로드",
+        "title": "Upload Your Documents",
         "dropzone": {
-          "title": "여기에 파일 놓기",
-          "description": "PDF, Word, Excel, 이미지, 비디오 등 지원",
-          "button": "파일 선택"
+          "title": "Drop your files here",
+          "description": "Support for PDF, Word, Excel, images, videos, and more",
+          "button": "Choose Files"
         },
         "demoFiles": [
           "sample_manual.pdf",
           "product_data.xlsx",
           "brand_guide.jpg"
         ],
-        "close": "데모 닫기"
+        "close": "Close Demo"
       }
     },
     "useCases": {
-      "title": "업계 전반의 성공 사례",
-      "subtitle": "기업이 SeaChat의 인간-AI 하이브리드 접근 방식으로 고객 지원을 어떻게 혁신하는지 확인하십시오。",
+      "title": "Success Stories Across Industries",
+      "subtitle": "See how businesses transform their customer support with SeaChat's human-AI hybrid approach.",
       "cases": {
         "ecommerce": {
-          "title": "전자상거래 지원 혁명",
-          "industry": "소매",
-          "challenge": "제한된 직원으로 여러 채널에서 매일 500건 이상의 고객 문의 관리",
-          "solution": "일상적인 문의의 70%를 처리하는 AI 상담원과 복잡한 문제에 대한 인간 상담원을 배포한 SeaChat",
+          "title": "E-commerce Support Revolution",
+          "industry": "Retail",
+          "challenge": "Managing 500+ daily customer inquiries across multiple channels with limited staff",
+          "solution": "Deployed SeaChat with AI agents handling 70% of routine inquiries, human agents for complex issues",
           "results": [
-            "응답 시간 60% 단축",
-            "고객 만족도 40% 증가",
-            "지원 운영 비용 75% 절감"
+            "60% reduction in response time",
+            "40% increase in customer satisfaction",
+            "75% cost savings on support operations"
           ],
           "metrics": {
-            "responseTime": "< 30초",
+            "responseTime": "< 30s",
             "satisfaction": "94%",
             "cost": "-75%"
           }
         },
         "healthcare": {
-          "title": "의료 환자 지원",
-          "industry": "의료",
-          "challenge": "HIPAA 규정을 준수하면서 24/7 환자 지원 제공",
-          "solution": "약속 예약 및 증상 사전 스크리닝 기능이 있는 보안 AI 상담원 통합",
+          "title": "Healthcare Patient Support",
+          "industry": "Healthcare",
+          "challenge": "Providing 24/7 patient support while maintaining HIPAA compliance",
+          "solution": "Integrated secure AI agents with appointment booking and symptom pre-screening",
           "results": [
-            "24/7 환자 지원",
-            "노쇼 50% 감소",
-            "100% HIPAA 규정 준수 유지"
+            "24/7 patient assistance",
+            "50% reduction in no-shows",
+            "100% HIPAA compliance maintained"
           ],
           "metrics": {
             "availability": "24/7",
@@ -778,145 +778,145 @@
           }
         },
         "fintech": {
-          "title": "금융 서비스 우수성",
-          "industry": "핀테크",
-          "challenge": "민감한 금융 문의를 신속하고 안전하게 처리",
-          "solution": "원활한 인간 에스컬레이션 기능이 있는 금융 규정에 대한 맞춤형 AI 교육",
+          "title": "Financial Services Excellence",
+          "industry": "FinTech",
+          "challenge": "Handling sensitive financial queries with speed and security",
+          "solution": "Custom AI training on financial regulations with seamless human escalation",
           "results": [
-            "90% 최초 연락 해결",
-            "3배 빠른 문의 처리",
-            "향상된 보안 프로토콜"
+            "90% first-contact resolution",
+            "3x faster query processing",
+            "Enhanced security protocols"
           ],
           "metrics": {
             "resolution": "90%",
             "speed": "3x",
-            "security": "향상됨"
+            "security": "Enhanced"
           }
         }
       },
       "cta": {
-        "title": "지원을 혁신할 준비가 되셨습니까?",
-        "description": "이미 SeaChat을 사용하여 탁월한 고객 경험을 제공하는 수백 개의 기업에 합류하십시오。",
+        "title": "Ready to Transform Your Support?",
+        "description": "Join hundreds of businesses already using SeaChat to deliver exceptional customer experiences.",
         "buttons": {
-          "viewCases": "모든 사례 연구 보기",
-          "startStory": "성공 사례 시작"
+          "viewCases": "View All Case Studies",
+          "startStory": "Start Your Success Story"
         },
-        "signUpFree": "무료로 가입하기",
-        "bookDemo": "데모 예약"
+        "signUpFree": "Sign Up For Free",
+        "bookDemo": "Book A Demo"
       },
       "labels": {
-        "challenge": "과제：",
-        "solution": "솔루션：",
-        "resultsAchieved": "달성된 결과："
+        "challenge": "Challenge:",
+        "solution": "Solution:",
+        "resultsAchieved": "Results Achieved:"
       },
       "metrics": {
-        "responseTime": "응답 시간",
-        "satisfaction": "만족도",
-        "cost": "비용",
-        "availability": "가용성",
-        "noShows": "노쇼",
-        "compliance": "규정 준수",
-        "resolution": "해결",
-        "speed": "속도",
-        "security": "보안"
+        "responseTime": "Response Time",
+        "satisfaction": "Satisfaction",
+        "cost": "Cost",
+        "availability": "Availability",
+        "noShows": "No-Shows",
+        "compliance": "Compliance",
+        "resolution": "Resolution",
+        "speed": "Speed",
+        "security": "Security"
       }
     },
     "testimonials": {
-      "title": "전 세계 지원팀의 사랑을 받음",
-      "subtitle": "우리의 말만 믿지 마십시오. 고객이 SeaChat으로 지원을 혁신한 것에 대해 말하는 내용은 다음과 같습니다。",
+      "title": "Loved by Support Teams Worldwide",
+      "subtitle": "Don't just take our word for it. Here's what our customers say about transforming their support with SeaChat.",
       "navigation": {
-        "previous": "이전",
-        "next": "다음"
+        "previous": "Previous",
+        "next": "Next"
       },
-      "trustedBy": "전 세계 혁신적인 기업들이 신뢰합니다",
+      "trustedBy": "Trusted by innovative companies worldwide",
       "stats": {
-        "customers": "10,000명 이상의 행복한 고객",
-        "uptime": "99.9% 가동 시간",
-        "messages": "5,000만 건 이상의 메시지 처리",
-        "rating": "4.9/5 고객 평점"
+        "customers": "10,000+ Happy Customers",
+        "uptime": "99.9% Uptime",
+        "messages": "50M+ Messages Processed",
+        "rating": "4.9/5 Customer Rating"
       },
       "testimonials": {
         "0": {
           "name": "Sarah Chen",
-          "title": "고객 성공 이사",
+          "title": "Customer Success Director",
           "company": "TechFlow Solutions",
-          "quote": "SeaChat은 우리의 지원 운영을 혁신했습니다. 무료 인간 상담원으로 시작하는 것은 우리 스타트업에 완벽했고 AI로 확장하는 것은 원활했습니다. 응답 시간이 70% 향상되었습니다。",
+          "quote": "SeaChat transformed our support operations. Starting with free human agents was perfect for our startup, and scaling with AI has been seamless. Our response times improved by 70%.",
           "metrics": {
             "improvement": "70%",
-            "feature": "응답 시간"
+            "feature": "Response Time"
           }
         },
         "1": {
           "name": "Marcus Rodriguez",
-          "title": "운영 관리자",
+          "title": "Operations Manager",
           "company": "EcoCommerce",
-          "quote": "지식 기반 기능은 놀랍습니다. 전체 제품 카탈로그와 FAQ를 업로드했고 이제 AI가 고객 문의의 80%를 완벽한 정확도로 처리합니다。",
+          "quote": "The knowledge base feature is incredible. We uploaded our entire product catalog and FAQs, and the AI now handles 80% of customer queries with perfect accuracy.",
           "metrics": {
             "improvement": "80%",
-            "feature": "문의 해결"
+            "feature": "Query Resolution"
           }
         },
         "2": {
           "name": "Emily Watson",
-          "title": "고객 경험 책임자",
+          "title": "Head of Customer Experience",
           "company": "HealthTech Pro",
-          "quote": "옴니채널 통합은 완벽합니다. 고객은 WhatsApp에서 대화를 시작하고 문맥을 잃지 않고 웹사이트에서 계속할 수 있습니다. 게임 체인저입니다！",
+          "quote": "The omnichannel integration is flawless. Our customers can start a conversation on WhatsApp and continue on our website without losing context. Game-changing!",
           "metrics": {
             "improvement": "95%",
-            "feature": "고객 만족도"
+            "feature": "Customer Satisfaction"
           }
         },
         "3": {
           "name": "David Park",
-          "title": "창립자 겸 CEO",
+          "title": "Founder & CEO",
           "company": "StartupFlow",
-          "quote": "부트스트랩 스타트업으로서 무료 플랜은 생명의 은인이었습니다. 우리는 초기 비용 없이 첫날부터 전문적인 지원을 제공했습니다. 이제 확장하면서 AI 기능에 기꺼이 비용을 지불하고 있습니다。",
+          "quote": "As a bootstrap startup, the free plan was a lifesaver. We provided professional support from day one without any upfront costs. Now we're happily paying for AI features as we scale.",
           "metrics": {
             "improvement": "$0",
-            "feature": "초기 비용"
+            "feature": "Initial Cost"
           }
         },
         "4": {
           "name": "Lisa Thompson",
-          "title": "지원팀장",
+          "title": "Support Team Lead",
           "company": "GlobalRetail Inc",
-          "quote": "인간-AI 전달이 너무 부드러워서 고객은 AI와 인간 상담원 사이를 전환할 때조차 눈치채지 못합니다. 복잡한 지원 시나리오에 꼭 필요한 것이었습니다。",
+          "quote": "The human-AI handoff is so smooth that customers don't even notice when they're switched between AI and human agents. It's exactly what we needed for our complex support scenarios.",
           "metrics": {
             "improvement": "100%",
-            "feature": "원활한 전달"
+            "feature": "Seamless Handoff"
           }
         }
       }
     },
     "blog": {
-      "title": "최신 통찰력 및 리소스",
-      "subtitle": "고객 지원 동향, AI 구현 전략 및 플랫폼 최적화 팁에 대한 전문가 통찰력으로 앞서 나가십시오。",
+      "title": "Latest Insights & Resources",
+      "subtitle": "Stay ahead with expert insights on customer support trends, AI implementation strategies, and platform optimization tips.",
       "categories": {
-        "all": "모두",
-        "ai": "AI 및 자동화",
-        "strategy": "전략",
-        "integration": "통합",
-        "knowledge": "지식 관리",
-        "success": "고객 성공"
+        "all": "All",
+        "ai": "AI & Automation",
+        "strategy": "Strategy",
+        "integration": "Integration",
+        "knowledge": "Knowledge Management",
+        "success": "Customer Success"
       },
-      "featured": "추천",
-      "latest": "최신 게시물",
-      "readTime": "분 읽기",
-      "stayUpdated": "최신 정보 유지",
-      "newsletterSubtitle": "AI 고객 지원, 플랫폼 업데이트 및 업계 모범 사례에 대한 최신 통찰력을 받은 편지함으로 받아보십시오。",
-      "joinProfessionals": "5,000명 이상의 지원 전문가와 함께하십시오. 언제든지 구독을 취소할 수 있습니다。",
-      "loading": "블로그 게시물 로드 중...",
-      "loadingPost": "기사 로드 중...",
-      "backToBlog": "블로그로 돌아가기",
-      "share": "공유",
-      "tags": "태그",
-      "followLinkedIn": "LinkedIn에서 팔로우",
-      "moreArticles": "더 많은 기사",
-      "relatedArticles": "관련 기사",
-      "searchPlaceholder": "기사, 주제 또는 태그 검색...",
-      "articleCount": "개의 기사를 찾았습니다",
-      "noArticles": "기사를 찾을 수 없습니다",
-      "adjustSearch": "검색어 또는 카테고리 필터를 조정해 보십시오。"
+      "featured": "Featured",
+      "latest": "Recent Posts",
+      "readTime": "min read",
+      "stayUpdated": "Stay Updated",
+      "newsletterSubtitle": "Get the latest insights on AI customer support, platform updates, and industry best practices delivered to your inbox.",
+      "joinProfessionals": "Join 5,000+ support professionals. Unsubscribe anytime.",
+      "loading": "Loading blog posts...",
+      "loadingPost": "Loading article...",
+      "backToBlog": "Back to Blog",
+      "share": "Share",
+      "tags": "Tags",
+      "followLinkedIn": "Follow on LinkedIn",
+      "moreArticles": "More Articles",
+      "relatedArticles": "Related Articles",
+      "searchPlaceholder": "Search articles, topics, or tags...",
+      "articleCount": "article(s) found",
+      "noArticles": "No articles found",
+      "adjustSearch": "Try adjusting your search terms or category filter."
     }
   }
 }
