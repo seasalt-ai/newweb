@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 const { lang } = Astro.params;
 
 const seoTitle = 'LINE官方帳號一鍵通話，您的AI語音客服24小時自動上線';
-const seoDescription = '結合LINE官方雙認證技術，SeaChat讓您的客服從成本中心轉型為營收引擎。由最懂台灣人語氣的SeaVoice AI語音助理，為您處理企業資訊問答、AI語音信箱，甚至整合inline完成自動訂位。';
+const seoDescription = '結合LINE Call Plus，SeaVoice讓您的客服從成本中心轉型為營收引擎。由最懂台灣人語氣的SeaVoice AI語音助理，為您處理企業資訊問答、AI語音信箱，甚至整合inline完成自動訂位。';
 const canonicalUrl = `http://127.0.0.1:4322/${lang}/channels/line-call-plus`;
 const breadcrumbs = [
   { name: '首頁', url: `/${lang}/` },
@@ -121,22 +121,13 @@ const coreFeatures = [
           
           <div class="flex flex-col sm:flex-row gap-4 mb-6">
             <a
-              href="https://chat.seasalt.ai/gpt/signup"
-              class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
-            >
-              ▶ 立即免費註冊 SeaChat，10分鐘啟動您的AI語音助理
-            </a>
-            <a
               href={getMeetingUrl(lang)}
-              class="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+              class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
             >
               預約演示
             </a>
           </div>
           
-          <p class="text-sm text-gray-500 italic">
-            無需綁定信用卡，極速完成設定
-          </p>
         </div>
         
         <div class="mt-12 lg:mt-0">
