@@ -1,134 +1,130 @@
-
-import json
-
-en_json_str = '''
 {
   "header": {
-    "products": "Products",
-    "solutions": "Solutions",
-    "industries": "Industries",
-    "channels": "Channels",
-    "pricing": "Pricing",
-    "compareUs": "Compare Us",
-    "blog": "Blog",
-    "login": "Login",
-    "startForFree": "Sign Up",
-    "backToChannels": "Back to Channels",
-    "allChannelsOverview": "All Channels Overview",
+    "products": "தயாரிப்புகள்",
+    "solutions": "தீர்வுகள்",
+    "industries": "தொழில்கள்",
+    "channels": "சேனல்கள்",
+    "pricing": "விலை",
+    "compareUs": "ஒப்பிடுக",
+    "blog": "வலைப்பதிவு",
+    "login": "உள்நுழை",
+    "startForFree": "இலவசமாக பதிவு செய்க",
+    "backToChannels": "சேனல்களுக்குத் திரும்பு",
+    "allChannelsOverview": "அனைத்து சேனல்களின் கண்ணோட்டம்",
     "solutionsDropdown": {
-      "seahealth": "SeaHealth - Optimized Healthcare",
-      "useCases": "Use Cases"
+      "seahealth": "SeaHealth - உகந்த சுகாதாரம்",
+      "useCases": "பயன்பாட்டு வழக்குகள்"
     },
     "useCasesDropdown": {
-      "salesMarketing": "For Sales & Marketing",
-      "customerSupport": "For Customer Support",
-      "aiAutomation": "AI & Automation",
-      "smeOwners": "For SME Owners"
+      "salesMarketing": "விற்பனை மற்றும் சந்தைப்படுத்தலுக்கு",
+      "customerSupport": "வாடிக்கையாளர் ஆதரவுக்கு",
+      "aiAutomation": "AI & ஆட்டோமேஷன்",
+      "smeOwners": "சிறு மற்றும் நடுத்தர தொழில் உரிமையாளர்களுக்கு"
     },
     "channelsDropdown": {
       "whatsapp": "WhatsApp",
-      "phoneCalls": "Phone Calls",
+      "phoneCalls": "தொலைபேசி அழைப்புகள்",
       "sms": "SMS",
-      "websiteChat": "Website Chat",
+      "websiteChat": "இணையதள அரட்டை",
       "instagram": "Instagram",
       "facebookMessenger": "Facebook Messenger",
-      "contactForms": "Contact Forms",
+      "contactForms": "தொடர்பு படிவங்கள்",
       "line": "Line",
-      "websiteWidget": "Website Widget"
+      "websiteWidget": "இணையதள விட்ஜெட்"
     },
     "comparisonsDropdown": {
-      "title": "Comparisons",
-      "allComparisonsOverview": "All Comparisons Overview"
+      "title": "ஒப்பீடுகள்",
+      "allComparisonsOverview": "அனைத்து ஒப்பீடுகளின் கண்ணோட்டம்"
     },
     "compareDropdown": {
-      "allComparisonsOverview": "All Comparisons Overview"
+      "allComparisonsOverview": "அனைத்து ஒப்பீடுகளின் கண்ணோட்டம்"
     },
-    "signIn": "Sign In"
+    "signIn": "உள்நுழைக"
   },
   "footer": {
     "company": {
-      "title": "Company",
-      "contact": "Contact Us",
-      "about": "About Us",
-      "careers": "Careers"
+      "title": "நிறுவனம்",
+      "contact": "தொடர்பு கொள்ள",
+      "about": "எங்களைப் பற்றி",
+      "careers": "வேலைவாய்ப்புகள்"
     },
-    "copyright": "© 2020 - {{year}} Seasalt.ai. All rights reserved.",
-    "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service",
-    "security": "Security",
+    "copyright": "© 2020 - {{year}} Seasalt.ai. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+    "privacyPolicy": "தனியுரிமைக் கொள்கை",
+    "termsOfService": "சேவை விதிமுறைகள்",
+    "security": "பாதுகாப்பு",
     "compliance": {
-      "soc2": "SOC 2 Compliant",
-      "hipaa": "HIPAA Available",
-      "uptime": "99.9% Uptime"
+      "soc2": "SOC 2 இணக்கமானது",
+      "hipaa": "HIPAA கிடைக்கிறது",
+      "uptime": "99.9% இயக்க நேரம்"
     },
     "cta": {
-      "title": "Ready to Scale Your Outreach to Millions?",
-      "startFreeTrial": "Sign Up for Free",
-      "scheduleDemo": "Schedule Demo",
-      "subtitle": "Join thousands of companies using SeaX to reach more customers, generate more leads, and grow faster.",
-      "signUpNow": "Sign Up Now"
+      "title": "உங்கள் சேவையை லட்சக்கணக்கானவர்களுக்கு அளவிடத் தயாரா?",
+      "startFreeTrial": "இலவசமாக பதிவு செய்க",
+      "scheduleDemo": "டெமோவை திட்டமிடுங்கள்",
+      "subtitle": "SeaX ஐப் பயன்படுத்தி ஆயிரக்கணக்கான நிறுவனங்களுடன் சேர்ந்து அதிக வாடிக்கையாளர்களை அடையுங்கள், அதிக தடயங்களை உருவாக்குங்கள், வேகமாக வளருங்கள்.",
+      "signUpNow": "இப்போது பதிவு செய்க"
     },
-    "tagline": "An all-in-one contact center built for small businesses. Automate support, capture every lead, and unify all your customer conversations.",
-    "seahealth": "SeaHealth - Optimized Healthcare",
-    "productWiki": "Product Wiki",
-    "apiReferences": "API References",
+    "tagline": "சிறு வணிகங்களுக்காக உருவாக்கப்பட்ட ஒரு அனைத்து-ஒரே தொடர்பு மையம். ஆதரவை தானியக்கமாக்குங்கள், ஒவ்வொரு தடயத்தையும் கைப்பற்றுங்கள், உங்கள் அனைத்து வாடிக்கையாளர் உரையாடல்களையும் ஒன்றிணைக்கவும்.",
+    "seahealth": "SeaHealth - உகந்த சுகாதாரம்",
+    "productWiki": "தயாரிப்பு விக்கி",
+    "apiReferences": "API குறிப்புகள்",
     "madeWith": {
-      "text": "Made with",
-      "inCityOf": "in the city of"
+      "text": "உருவாக்கப்பட்டது",
+      "inCityOf": "நகரத்தில்"
     },
-    "inCityOf": "in",
+    "inCityOf": "",
     "description": {
-      "company": "Reach millions instantly. The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business."
+      "company": "லட்சக்கணக்கானவர்களை உடனடியாக அடையுங்கள். லட்சக்கணக்கான எஸ்எம்எஸ், வாட்ஸ்அப் செய்திகள் மற்றும் தானியங்கி தொலைபேசி அழைப்புகளை அனுப்புவதற்கான இறுதி தளம். உங்கள் பைப்லைனை நிரப்பவும், வருவாயை அதிகரிக்கவும், உங்கள் வணிகத்தை அளவிடவும்."
     },
     "section": {
-      "channels": "Channels",
-      "solutions": "Solutions",
-      "industries": "Industries"
+      "channels": "சேனல்கள்",
+      "solutions": "தீர்வுகள்",
+      "industries": "தொழில்கள்"
     },
     "links": {
       "channels": {
-        "smsOverview": "SMS Overview",
-        "smsLocal": "Local Number (10DLC)",
-        "smsTollFree": "Toll-Free Number",
-        "smsShortCode": "Short Code",
-        "whatsapp": "WhatsApp Business Platform",
-        "voice": "Phone Call Voice"
+        "smsOverview": "எஸ்எம்எஸ் கண்ணோட்டம்",
+        "smsLocal": "உள்ளூர் எண் (10DLC)",
+        "smsTollFree": "கட்டணமில்லா எண்",
+        "smsShortCode": "குறுகிய குறியீடு",
+        "whatsapp": "WhatsApp வணிக தளம்",
+        "voice": "தொலைபேசி அழைப்பு குரல்"
       },
       "solutions": {
-        "leadGeneration": "Lead Generation",
-        "marketingAutomation": "Marketing Automation",
-        "customerEngagement": "Customer Engagement",
-        "appointmentReminders": "Appointment Reminders",
-        "emergencyAlerts": "Emergency Alerts"
+        "leadGeneration": "தடம் உருவாக்கம்",
+        "marketingAutomation": "சந்தைப்படுத்தல் ஆட்டோமேஷன்",
+        "customerEngagement": "வாடிக்கையாளர் ஈடுபாடு",
+        "appointmentReminders": "சந்திப்பு நினைவூட்டல்கள்",
+        "emergencyAlerts": "அவசர எச்சரிக்கைகள்"
       },
       "industries": {
-        "ecommerceRetail": "E-commerce & Retail",
-        "realEstate": "Real Estate",
-        "politicalCampaigns": "Political Campaigns",
-        "healthcare": "Healthcare",
-        "financialServices": "Financial Services"
+        "ecommerceRetail": "இ-காமர்ஸ் & சில்லறை விற்பனை",
+        "realEstate": "ரியல் எஸ்டேட்",
+        "politicalCampaigns": "அரசியல் பிரச்சாரங்கள்",
+        "healthcare": "சுகாதாரம்",
+        "financialServices": "நிதி சேவைகள்"
       },
       "company": {
-        "features": "Features",
-        "pricing": "Pricing",
-        "productWiki": "Product Wiki",
-        "apiReferences": "API References",
-        "careers": "Careers"
+        "features": "அம்சங்கள்",
+        "pricing": "விலை",
+        "productWiki": "தயாரிப்பு விக்கி",
+        "apiReferences": "API குறிப்புகள்",
+        "careers": "வேலைவாய்ப்புகள்"
       }
     },
     "stats": {
-      "messagesDaily": "10M+ Messages Daily",
-      "activeUsers": "500K+ Active Users",
-      "uptime": "99.9% Uptime"
+      "messagesDaily": "தினமும் 10M+ செய்திகள்",
+      "activeUsers": "500K+ செயலில் உள்ள பயனர்கள்",
+      "uptime": "99.9% இயக்க நேரம்"
     },
     "legal": {
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service"
+      "privacyPolicy": "தனியுரிமைக் கொள்கை",
+      "termsOfService": "சேவை விதிமுறைகள்"
     },
     "contact": {
       "phone": "+1 (SMB)-AI-AGENT",
       "email": "info@seasalt.ai",
-      "location": "Seattle, WA"
+      "location": "சியாட்டில், WA"
     },
     "logo": {
       "alt": "SeaX"
@@ -142,1588 +138,1583 @@ en_json_str = '''
   },
   "hero": {
     "title": {
-      "line1": "Stop Juggling Apps",
-      "line2": "Unify Every Customer",
-      "line3": "Call, WhatsApp, and Chat",
-      "line4": "in One Simple Inbox."
+      "line1": "பயன்பாடுகளை மாற்றுவதை நிறுத்துங்கள்",
+      "line2": "ஒவ்வொரு வாடிக்கையாளரையும் ஒன்றிணைக்கவும்",
+      "line3": "அழைப்பு, வாட்ஸ்அப் மற்றும் அரட்டை",
+      "line4": "ஒரே எளிய இன்பாக்ஸில்."
     },
-    "titleWithGradient": "Stop Juggling Apps. <1>Unify Every Customer</1> Call, Text, WhatsApp, and Chat in One Simple Inbox.",
-    "description": "Seasalt.ai is the all-in-one contact center built for small businesses. Automate support, capture every lead, and manage all your conversations from a single screen.",
-    "signUp": "Sign Up",
-    "seeDemo": "Book A Demo",
-    "trustedBy": "Trusted by growing businesses worldwide",
-    "developerMessage": "Seasalt.ai brings developers an agentic communication tool for the following <1>tool use</1>:",
+    "titleWithGradient": "பயன்பாடுகளை மாற்றுவதை நிறுத்துங்கள். <1>ஒவ்வொரு வாடிக்கையாளரையும் ஒன்றிணைக்கவும்</1> அழைப்பு, குறுஞ்செய்தி, வாட்ஸ்அப் மற்றும் அரட்டையை ஒரே எளிய இன்பாக்ஸில்.",
+    "description": "Seasalt.ai என்பது சிறு வணிகங்களுக்காக உருவாக்கப்பட்ட அனைத்து-ஒரே தொடர்பு மையம். ஆதரவை தானியக்கமாக்குங்கள், ஒவ்வொரு தடயத்தையும் கைப்பற்றுங்கள், உங்கள் அனைத்து உரையாடல்களையும் ஒரே திரையில் இருந்து நிர்வகிக்கவும்.",
+    "signUp": "பதிவு செய்க",
+    "seeDemo": "ஒரு டெமோவை பதிவு செய்யுங்கள்",
+    "trustedBy": "உலகளவில் வளர்ந்து வரும் வணிகங்களால் நம்பப்படுகிறது",
+    "developerMessage": "Seasalt.ai டெவலப்பர்களுக்கு பின்வரும் <1>கருவி பயன்பாட்டிற்காக</1> ஒரு முகவர் தொடர்பு கருவியை வழங்குகிறது:",
     "developerTools": {
-      "phoneUse": "phone use",
-      "messageUse": "message use",
-      "emailUse": "email use",
-      "meetingUse": "meeting use"
+      "phoneUse": "தொலைபேசி பயன்பாடு",
+      "messageUse": "செய்தி பயன்பாடு",
+      "emailUse": "மின்னஞ்சல் பயன்பாடு",
+      "meetingUse": "சந்திப்பு பயன்பாடு"
     },
-    "unifiedInbox": "Unified Inbox",
+    "unifiedInbox": "ஒருங்கிணைந்த இன்பாக்ஸ்",
     "appNames": {
       "whatsapp": "WhatsApp",
       "sms": "SMS",
-      "phone": "Phone",
-      "chat": "Chat"
+      "phone": "தொலைபேசி",
+      "chat": "அரட்டை"
     }
   },
   "features": {
-    "mainTitle": "The Omni-Channel Copiloted Contact Center for SMEs",
-    "mainDescription": "Seamlessly blend AI automation with human expertise across all channels. Empower your team to deliver exceptional service and drive growth.",
+    "mainTitle": "SMEகளுக்கான ஆம்னி-சேனல் கோபிலோட்டட் தொடர்பு மையம்",
+    "mainDescription": "அனைத்து சேனல்களிலும் AI ஆட்டோமேஷனை மனித நிபுணத்துவத்துடன் தடையின்றி கலக்கவும். உங்கள் குழுவிற்கு விதிவிலக்கான சேவையை வழங்கவும், வளர்ச்சியை இயக்கவும் அதிகாரம் அளியுங்கள்.",
     "omniChannel": {
-      "title": "Unified Omni-Channel Inbox",
-      "description": "Never miss a lead. See every customer interaction from every channel in one unified view, enabling seamless human-AI collaboration and saving your team 5+ hours per week."
+      "title": "ஒருங்கிணைந்த ஆம்னி-சேனல் இன்பாக்ஸ்",
+      "description": "ஒரு தடயத்தையும் தவறவிடாதீர்கள். ஒவ்வொரு சேனலிலிருந்தும் ஒவ்வொரு வாடிக்கையாளர் தொடர்புகளையும் ஒரே ஒருங்கிணைந்த பார்வையில் காணுங்கள், தடையற்ற மனித-AI ஒத்துழைப்பை செயல்படுத்துகிறது மற்றும் உங்கள் குழுவிற்கு வாரத்திற்கு 5+ மணிநேரம் சேமிக்கிறது."
     },
     "aiVoicebot": {
-      "title": "AI Voicebot & Chatbot",
-      "description": "Your first digital employee works 24/7. Automate up to 80% of routine queries, book 5+ appointments daily, and seamlessly handoff to human agents when needed."
+      "title": "AI வாய்ஸ்பாட் & சாட்பாட்",
+      "description": "உங்கள் முதல் டிஜிட்டல் ஊழியர் 24/7 வேலை செய்கிறார். வழக்கமான வினவல்களில் 80% வரை தானியக்கமாக்குங்கள், தினமும் 5+ சந்திப்புகளை பதிவு செய்யுங்கள், தேவைப்படும்போது மனித முகவர்களுக்கு தடையின்றி ஒப்படைக்கவும்."
     },
     "voiceWhatsapp": {
-      "title": "Native Voice & WhatsApp Integration",
-      "description": "Serve every customer on their preferred channel, seamlessly. Instantly see WhatsApp chat history when they call."
+      "title": "நேட்டிவ் வாய்ஸ் & வாட்ஸ்அப் ஒருங்கிணைப்பு",
+      "description": "ஒவ்வொரு வாடிக்கையாளருக்கும் அவர்கள் விரும்பும் சேனலில், தடையின்றி சேவை செய்யுங்கள். அவர்கள் அழைக்கும்போது வாட்ஸ்அப் அரட்டை வரலாற்றை உடனடியாகப் பார்க்கவும்."
     },
     "outboundMarketing": {
-      "title": "Outbound Marketing Campaigns",
-      "description": "Create seamless, closed-loop customer journeys. Launch targeted campaigns and manage all replies on the same platform."
+      "title": "வெளிச்செல்லும் சந்தைப்படுத்தல் பிரச்சாரங்கள்",
+      "description": "தடையற்ற, மூடிய-சுழற்சி வாடிக்கையாளர் பயணங்களை உருவாக்கவும். இலக்கு பிரச்சாரங்களைத் தொடங்குங்கள் மற்றும் ஒரே தளத்தில் அனைத்து பதில்களையும் நிர்வகிக்கவும்."
     },
     "enterpriseSecurity": {
-      "title": "Enterprise-Grade Security",
-      "description": "HIPAA-compliant solution with bank-level encryption. Trust your customer data is always protected."
+      "title": "நிறுவன-தர பாதுகாப்பு",
+      "description": "வங்கி-நிலை குறியாக்கத்துடன் HIPAA-இணக்கமான தீர்வு. உங்கள் வாடிக்கையாளர் தரவு எப்போதும் பாதுகாக்கப்படுவதை நம்புங்கள்."
     },
     "predictablePricing": {
-      "title": "Simple, Predictable Pricing",
-      "description": "Budget with confidence. Transparent pricing means you know exactly what you'll pay each month."
+      "title": "எளிய, கணிக்கக்கூடிய விலை",
+      "description": "நம்பிக்கையுடன் பட்ஜெட் செய்யுங்கள். வெளிப்படையான விலை நிர்ணயம் என்பது ஒவ்வொரு மாதமும் நீங்கள் சரியாக என்ன செலுத்துவீர்கள் என்பதை நீங்கள் அறிவீர்கள் என்பதாகும்."
     },
     "testimonial": {
-      "quote": "I recommend Seasalt.ai for its powerful knowledge base system and omni-channel support!",
-      "author": "— Solution Architect Review"
+      "quote": "அதன் சக்திவாய்ந்த அறிவுத் தள அமைப்பு மற்றும் ஆம்னி-சேனல் ஆதரவிற்காக Seasalt.ai ஐ நான் பரிந்துரைக்கிறேன்!",
+      "author": "— தீர்வு கட்டிடக் கலைஞர் விமர்சனம்"
     },
     "knowledgeBase": {
-      "title": "Knowledge Base"
+      "title": "அறிவுத் தளம்"
     }
   },
   "howItWorks": {
-    "title": "Get Started in 3 Simple Steps",
-    "description1": "Transform your customer communications in minutes, not months.",
-    "description2": "No complex setup or technical knowledge required.",
+    "title": "3 எளிய படிகளில் தொடங்கவும்",
+    "description1": "உங்கள் வாடிக்கையாளர் தகவல்தொடர்புகளை நிமிடங்களில் மாற்றவும், மாதங்களில் அல்ல.",
+    "description2": "சிக்கலான அமைப்பு அல்லது தொழில்நுட்ப அறிவு தேவையில்லை.",
     "connectYourChannels": {
-      "title": "Connect Your Channels",
-      "description": "Link your phone, WhatsApp, SMS, website chat, and social media in minutes. No technical expertise required."
+      "title": "உங்கள் சேனல்களை இணைக்கவும்",
+      "description": "உங்கள் தொலைபேசி, வாட்ஸ்அப், எஸ்எம்எஸ், இணையதள அரட்டை மற்றும் சமூக ஊடகங்களை நிமிடங்களில் இணைக்கவும். தொழில்நுட்ப நிபுணத்துவம் தேவையில்லை."
     },
     "automateRoutineWork": {
-      "title": "Automate Routine Work",
-      "description": "Set up AI to handle common questions like \"Where's my order?\" and book appointments automatically."
+      "title": "வழக்கமான வேலையை தானியக்கமாக்குங்கள்",
+      "description": "பொதுவான கேள்விகளைக் கையாள AI ஐ அமைக்கவும் 'எனது ஆர்டர் எங்கே?' மற்றும் சந்திப்புகளை தானாக பதிவு செய்யவும்."
     },
     "unifyYourTeam": {
-      "title": "Unify Your Team",
-      "description": "Your team sees the complete conversation history when customers switch from chat to phone calls."
+      "title": "உங்கள் குழுவை ஒன்றிணைக்கவும்",
+      "description": "வாடிக்கையாளர்கள் அரட்டையிலிருந்து தொலைபேசி அழைப்புகளுக்கு மாறும்போது உங்கள் குழு முழுமையான உரையாடல் வரலாற்றைக் காண்கிறது."
     },
-    "signUpNow": "Sign Up Now",
-    "setupTime": "Setup in under 5 minutes"
+    "signUpNow": "இப்போது பதிவு செய்க",
+    "setupTime": "5 நிமிடங்களுக்குள் அமைப்பு"
   },
   "useCases": {
-    "title": "Powerful Use Cases for Every Business Need",
-    "description": "From contact centers to marketing campaigns, see how Seasalt.ai adapts to your specific business requirements with enterprise-grade features in a simple, unified platform.",
-    "keyFeatures": "Key Features",
+    "title": "ஒவ்வொரு வணிகத் தேவைக்கும் சக்திவாய்ந்த பயன்பாட்டு வழக்குகள்",
+    "description": "தொடர்பு மையங்கள் முதல் சந்தைப்படுத்தல் பிரச்சாரங்கள் வரை, Seasalt.ai உங்கள் குறிப்பிட்ட வணிகத் தேவைகளுக்கு நிறுவன-தர அம்சங்களுடன் ஒரு எளிய, ஒருங்கிணைந்த தளத்தில் எவ்வாறு மாற்றியமைக்கிறது என்பதைப் பாருங்கள்.",
+    "keyFeatures": "முக்கிய அம்சங்கள்",
     "contactCenter": {
-      "title": "Contact Center Operations",
-      "headline": "Professional Contact Center with Full Call Management",
-      "description": "Transform your business into a professional contact center with enterprise-grade features.",
+      "title": "தொடர்பு மைய செயல்பாடுகள்",
+      "headline": "முழு அழைப்பு நிர்வாகத்துடன் தொழில்முறை தொடர்பு மையம்",
+      "description": "உங்கள் வணிகத்தை நிறுவன-தர அம்சங்களுடன் ஒரு தொழில்முறை தொடர்பு மையமாக மாற்றவும்.",
       "features": {
-        "ivr": "Advanced IVR system for call routing",
-        "recording": "Automatic call recording & transcription",
-        "voicemail": "Intelligent voicemail with notifications",
-        "analytics": "Real-time call analytics & reporting",
-        "dashboards": "Agent performance dashboards",
-        "queueManagement": "Call queue management"
+        "ivr": "அழைப்பு ரூட்டிங்கிற்கான மேம்பட்ட IVR அமைப்பு",
+        "recording": "தானியங்கி அழைப்பு பதிவு & டிரான்ஸ்கிரிப்ஷன்",
+        "voicemail": "அறிவிப்புகளுடன் அறிவார்ந்த குரலஞ்சல்",
+        "analytics": "நிகழ்நேர அழைப்பு பகுப்பாய்வு & அறிக்கையிடல்",
+        "dashboards": "முகவர் செயல்திறன் டாஷ்போர்டுகள்",
+        "queueManagement": "அழைப்பு வரிசை மேலாண்மை"
       }
     },
     "virtualReceptionist": {
-      "title": "24/7 Virtual Receptionist",
-      "headline": "Never Miss a Call Again with AI-Powered Reception",
-      "description": "Deploy an intelligent voicebot that works around the clock to capture inbound calls and qualify leads.",
+      "title": "24/7 மெய்நிகர் வரவேற்பாளர்",
+      "headline": "AI-இயங்கும் வரவேற்புடன் மீண்டும் ஒரு அழைப்பைத் தவறவிடாதீர்கள்",
+      "description": "உள்வரும் அழைப்புகளைப் பிடிக்கவும், தடயங்களை ಅರ್ಹತೆப்படுத்தவும் கடிகாரத்தைச் சுற்றி வேலை செய்யும் ஒரு அறிவார்ந்த வாய்ஸ்பாட்டைப் பயன்படுத்தவும்.",
       "features": {
-        "aiVoicebot": "AI voicebot answers calls 24/7",
-        "appointments": "Appointment booking & scheduling",
-        "leadQualification": "Lead qualification & routing",
-        "customGreeting": "Custom greeting & responses",
-        "handoff": "Seamless handoff to human agents",
-        "multiLanguage": "Multi-language support"
+        "aiVoicebot": "AI வாய்ஸ்பாட் 24/7 அழைப்புகளுக்கு பதிலளிக்கிறது",
+        "appointments": "சந்திப்பு முன்பதிவு & திட்டமிடல்",
+        "leadQualification": "தடம் தகுதி & ரூட்டிங்",
+        "customGreeting": "தனிப்பயன் வாழ்த்து & பதில்கள்",
+        "handoff": "மனித முகவர்களுக்கு தடையற்ற ஒப்படைப்பு",
+        "multiLanguage": "பல மொழி ஆதரவு"
       }
     },
     "smsManagement": {
-      "title": "Unified SMS Management",
-      "headline": "Manage Multiple Phone Lines & Two-Way SMS in One Platform",
-      "description": "Consolidate all your business phone lines and SMS communications into a single, powerful platform.",
+      "title": "ஒருங்கிணைந்த எஸ்எம்எஸ் மேலாண்மை",
+      "headline": "ஒரே தளத்தில் பல தொலைபேசி இணைப்புகள் & இருவழி எஸ்எம்எஸ்ஸை நிர்வகிக்கவும்",
+      "description": "உங்கள் அனைத்து வணிக தொலைபேசி இணைப்புகள் மற்றும் எஸ்எம்எஸ் தகவல்தொடர்புகளை ஒரே, சக்திவாய்ந்த தளத்தில் ஒருங்கிணைக்கவும்.",
       "features": {
-        "multipleLines": "Multiple phone lines in one dashboard",
-        "twoWaySms": "Two-way SMS conversations",
-        "unifiedHistory": "SMS & call history unified",
-        "teamCollaboration": "Team collaboration on messages",
-        "automatedResponses": "Automated SMS responses",
-        "numberSupport": "Local & toll-free number support"
+        "multipleLines": "ஒரே டாஷ்போர்டில் பல தொலைபேசி இணைப்புகள்",
+        "twoWaySms": "இருவழி எஸ்எம்எஸ் உரையாடல்கள்",
+        "unifiedHistory": "எஸ்எம்எஸ் & அழைப்பு வரலாறு ஒருங்கிணைக்கப்பட்டது",
+        "teamCollaboration": "செய்திகளில் குழு ஒத்துழைப்பு",
+        "automatedResponses": "தானியங்கி எஸ்எம்எஸ் பதில்கள்",
+        "numberSupport": "உள்ளூர் & கட்டணமில்லா எண் ஆதரவு"
       }
     },
     "smsMarketing": {
-      "title": "SMS Marketing Campaigns",
-      "headline": "Launch Powerful A2P SMS Campaigns with 10DLC & Toll-Free",
-      "description": "Execute professional SMS marketing campaigns with high deliverability and compliance.",
+      "title": "எஸ்எம்எஸ் சந்தைப்படுத்தல் பிரச்சாரங்கள்",
+      "headline": "10DLC & கட்டணமில்லா மூலம் சக்திவாய்ந்த A2P எஸ்எம்எஸ் பிரச்சாரங்களைத் தொடங்குங்கள்",
+      "description": "உயர் விநியோகத்திறன் மற்றும் இணக்கத்துடன் தொழில்முறை எஸ்எம்எஸ் சந்தைப்படுத்தல் பிரச்சாரங்களை இயக்கவும்.",
       "features": {
-        "tenDlc": "10DLC registered campaigns",
-        "tollFree": "Toll-free & short code support",
-        "highVolume": "High-volume message delivery",
-        "analytics": "Campaign performance analytics",
-        "compliance": "Compliance & opt-out management",
-        "dripCampaigns": "Automated drip campaigns"
+        "tenDlc": "10DLC பதிவு செய்யப்பட்ட பிரச்சாரங்கள்",
+        "tollFree": "கட்டணமில்லா & குறுகிய குறியீடு ஆதரவு",
+        "highVolume": "அதிக அளவு செய்தி விநியோகம்",
+        "analytics": "பிரச்சார செயல்திறன் பகுப்பாய்வு",
+        "compliance": "இணக்கம் & விலகல் மேலாண்மை",
+        "dripCampaigns": "தானியங்கி சொட்டு பிரச்சாரங்கள்"
       }
     },
     "whatsappBusiness": {
-      "title": "WhatsApp Business Campaigns",
-      "headline": "Reach Global Customers with WhatsApp Business Platform",
-      "description": "Launch targeted WhatsApp campaigns using the official WhatsApp Business Platform.",
+      "title": "WhatsApp வணிக பிரச்சாரங்கள்",
+      "headline": "WhatsApp வணிக தளத்துடன் உலகளாவிய வாடிக்கையாளர்களை அடையுங்கள்",
+      "description": "அதிகாரப்பூர்வ WhatsApp வணிக தளத்தைப் பயன்படுத்தி இலக்கு WhatsApp பிரச்சாரங்களைத் தொடங்குங்கள்.",
       "features": {
-        "apiIntegration": "WhatsApp Business API integration",
-        "templateMessages": "Template message campaigns",
-        "automatedChatbot": "Automated chatbot responses",
-        "richMedia": "Rich media message support",
-        "globalReach": "Global customer reach",
-        "analytics": "Conversation analytics"
+        "apiIntegration": "WhatsApp வணிக API ஒருங்கிணைப்பு",
+        "templateMessages": "டெம்ப்ளேட் செய்தி பிரச்சாரங்கள்",
+        "automatedChatbot": "தானியங்கி சாட்பாட் பதில்கள்",
+        "richMedia": "ரிச் மீடியா செய்தி ஆதரவு",
+        "globalReach": "உலகளாவிய வாடிக்கையாளர் சென்றடைதல்",
+        "analytics": "உரையாடல் பகுப்பாய்வு"
       }
     },
     "aiSupport": {
-      "title": "Intelligent Chatbot and Voicebot AI Support",
-      "headline": "AI-Powered Customer Support That Never Sleeps",
-      "description": "Deploy intelligent chatbots across all your communication channels to handle customer inquiries 24/7.",
+      "title": "அறிவார்ந்த சாட்பாட் மற்றும் வாய்ஸ்பாட் AI ஆதரவு",
+      "headline": "தூங்காத AI-இயங்கும் வாடிக்கையாளர் ஆதரவு",
+      "description": "வாடிக்கையாளர் விசாரணைகளை 24/7 கையாள உங்கள் அனைத்து தகவல்தொடர்பு சேனல்களிலும் அறிவார்ந்த சாட்பாட்களைப் பயன்படுத்தவும்.",
       "features": {
-        "automated24x7": "24/7 automated customer support",
-        "multiChannel": "Multi-channel chatbot deployment",
-        "instantResponse": "Instant response to common queries",
-        "humanHandoff": "Seamless human agent handoff",
-        "continuousLearning": "Continuous learning & improvement",
-        "knowledgeBase": "Custom knowledge base integration"
+        "automated24x7": "24/7 தானியங்கி வாடிக்கையாளர் ஆதரவு",
+        "multiChannel": "பல சேனல் சாட்பாட் வரிசைப்படுத்தல்",
+        "instantResponse": "பொதுவான வினவல்களுக்கு உடனடி பதில்",
+        "humanHandoff": "தடையற்ற மனித முகவர் ஒப்படைப்பு",
+        "continuousLearning": "தொடர்ச்சியான கற்றல் & மேம்பாடு",
+        "knowledgeBase": "தனிப்பயன் அறிவுத் தள ஒருங்கிணைப்பு"
       }
     },
     "cta": {
-      "title": "Ready to Transform Your Business Communications?",
-      "description": "Choose the use cases that fit your business needs. Start with our free plan and scale as you grow.",
-      "signUp": "Sign Up",
-      "bookDemo": "Book A Demo"
+      "title": "உங்கள் வணிகத் தகவல்தொடர்புகளை மாற்றத் தயாரா?",
+      "description": "உங்கள் வணிகத் தேவைகளுக்குப் பொருந்தும் பயன்பாட்டு வழக்குகளைத் தேர்வுசெய்க. எங்கள் இலவசத் திட்டத்துடன் தொடங்கி, நீங்கள் வளரும்போது அளவிடவும்.",
+      "signUp": "பதிவு செய்க",
+      "bookDemo": "ஒரு டெமோவை பதிவு செய்யுங்கள்"
     }
   },
   "phoneBanner": {
-    "callText": "Call",
+    "callText": "அழை",
     "phoneNumber": "+1 (SMB)-AI-AGENT",
-    "bookingText": "to book a meeting with the SeaVoice AI agent.",
-    "availability": "Available 24/7"
+    "bookingText": "SeaVoice AI முகவருடன் ஒரு சந்திப்பை பதிவு செய்ய.",
+    "availability": "24/7 கிடைக்கும்"
   },
   "problemSolution": {
-    "title": "Losing Leads in a Maze of Apps and Inboxes?",
-    "description": "Your customers are trying to reach you everywhere. A missed message is a missed sale. Seasalt.ai brings all your communications into one place, so you never miss an opportunity.",
+    "title": "பயன்பாடுகள் மற்றும் இன்பாக்ஸ்களின் பிரமையில் தடயங்களை இழக்கிறீர்களா?",
+    "description": "உங்கள் வாடிக்கையாளர்கள் உங்களை எல்லா இடங்களிலும் அடைய முயற்சிக்கிறார்கள். ஒரு தவறவிட்ட செய்தி ஒரு தவறவிட்ட விற்பனை. Seasalt.ai உங்கள் அனைத்து தகவல்தொடர்புகளையும் ஒரே இடத்தில் கொண்டுவருகிறது, எனவே நீங்கள் ஒரு வாய்ப்பையும் தவறவிட மாட்டீர்கள்.",
     "problems": {
       "fragmented": {
-        "title": "Fragmented Conversations",
-        "description": "Jumping between WhatsApp, phone logs, and web chat creates chaos and wastes time."
+        "title": "துண்டிக்கப்பட்ட உரையாடல்கள்",
+        "description": "வாட்ஸ்அப், தொலைபேசி பதிவுகள் மற்றும் வலை அரட்டைக்கு இடையில் தாவுவது குழப்பத்தை உருவாக்குகிறது மற்றும் நேரத்தை வீணடிக்கிறது."
       },
       "lostRevenue": {
-        "title": "Lost Revenue",
-        "description": "Missed messages after-hours and slow responses mean lost leads and frustrated customers."
+        "title": "இழந்த வருவாய்",
+        "description": "வேலை நேரத்திற்குப் பிறகு தவறவிட்ட செய்திகள் மற்றும் மெதுவான பதில்கள் இழந்த தடயங்கள் மற்றும் விரக்தியடைந்த வாடிக்கையாளர்களைக் குறிக்கின்றன."
       },
       "operational": {
-        "title": "Operational Overload",
-        "description": "Your team is stretched thin managing too many tools instead of focusing on customers."
+        "title": "செயல்பாட்டு சுமை",
+        "description": "உங்கள் குழு வாடிக்கையாளர்களில் கவனம் செலுத்துவதற்குப் பதிலாக பல கருவிகளை நிர்வகிப்பதில் மெலிதாக நீட்டிக்கப்பட்டுள்ளது."
       }
     },
     "solution": {
-      "title": "Seasalt.ai: Your Omni-Channel Copiloted Solution",
-      "hubTitle": "Unified Omni-Channel Hub",
-      "subtitle": "AI & Human Agents, 24/7",
+      "title": "Seasalt.ai: உங்கள் ஆம்னி-சேனல் கோபிலோட்டட் தீர்வு",
+      "hubTitle": "ஒருங்கிணைந்த ஆம்னி-சேனல் மையம்",
+      "subtitle": "AI & மனித முகவர்கள், 24/7",
       "tabs": {
-        "support": "Support",
-        "marketing": "Marketing"
+        "support": "ஆதரவு",
+        "marketing": "சந்தைப்படுத்தல்"
       },
       "features": {
         "marketing": {
-          "title": "Copilot Your Marketing Campaigns",
-          "description": "Acquire more customers with AI-driven outbound campaigns and smart lead nurturing."
+          "title": "உங்கள் சந்தைப்படுத்தல் பிரச்சாரங்களை கோபிலோட் செய்யுங்கள்",
+          "description": "AI-இயங்கும் வெளிச்செல்லும் பிரச்சாரங்கள் மற்றும் ஸ்மார்ட் லீட் வளர்ப்பதன் மூலம் அதிக வாடிக்கையாளர்களைப் பெறுங்கள்."
         },
         "support": {
-          "title": "Autopilot Your Customer Support",
-          "description": "Reduce support costs with 24/7 AI agents handling routine queries and seamless human handoff."
+          "title": "உங்கள் வாடிக்கையாளர் ஆதரவை ஆட்டோபைலட் செய்யுங்கள்",
+          "description": "வழக்கமான வினவல்களைக் கையாளும் 24/7 AI முகவர்கள் மற்றும் தடையற்ற மனித ஒப்படைப்பு மூலம் ஆதரவு செலவுகளைக் குறைக்கவும்."
         },
         "human": {
-          "title": "Never Lose the Human Touch",
-          "description": "Choose your automation level: Human-only, AI Copilot, or Full Autopilot based on your needs."
+          "title": "மனிதத் தொடுதலை ஒருபோதும் இழக்காதீர்கள்",
+          "description": "உங்கள் ஆட்டோமேஷன் அளவைத் தேர்வுசெய்க: மனிதன்-மட்டும், AI கோபிலோட், அல்லது உங்கள் தேவைகளின் அடிப்படையில் முழு ஆட்டோபைலட்."
         }
       },
-      "cta": "Use Seasalt.ai to Solve This"
+      "cta": "இதைத் தீர்க்க Seasalt.ai ஐப் பயன்படுத்தவும்"
     },
     "mockData": {
       "supportTickets": {
         "sarah": {
-          "name": "Sarah Johnson",
-          "description": "Phone call about order status",
-          "timeAgo": "2m ago"
+          "name": "சாரா ஜான்சன்",
+          "description": "ஆர்டர் நிலை குறித்த தொலைபேசி அழைப்பு",
+          "timeAgo": "2நி முன்பு"
         },
         "mike": {
-          "name": "Mike Chen",
-          "description": "WhatsApp: Shipping question",
-          "timeAgo": "5m ago"
+          "name": "மைக் சென்",
+          "description": "வாட்ஸ்அப்: ஷிப்பிங் கேள்வி",
+          "timeAgo": "5நி முன்பு"
         },
         "lisa": {
-          "name": "Lisa Park",
-          "description": "Website chat: Product inquiry",
-          "timeAgo": "8m ago"
+          "name": "லிசா பார்க்",
+          "description": "இணையதள அரட்டை: தயாரிப்பு விசாரணை",
+          "timeAgo": "8நி முன்பு"
         },
         "david": {
-          "name": "David Kim",
-          "description": "Support call: Technical issue",
-          "timeAgo": "12m ago"
+          "name": "டேவிட் கிம்",
+          "description": "ஆதரவு அழைப்பு: தொழில்நுட்ப சிக்கல்",
+          "timeAgo": "12நி முன்பு"
         }
       },
       "campaigns": {
         "blackFriday": {
-          "name": "Black Friday Campaign",
-          "description": "SMS: 2,847 sent • 312 replies",
-          "result": "+47 leads"
+          "name": "கருப்பு வெள்ளி பிரச்சாரம்",
+          "description": "எஸ்எம்எஸ்: 2,847 அனுப்பப்பட்டது • 312 பதில்கள்",
+          "result": "+47 தடயங்கள்"
         },
         "whatsappLaunch": {
-          "name": "WhatsApp Product Launch",
-          "description": "1,523 messages • 89 conversations",
-          "result": "+23 sales"
+          "name": "வாட்ஸ்அப் தயாரிப்பு வெளியீடு",
+          "description": "1,523 செய்திகள் • 89 உரையாடல்கள்",
+          "result": "+23 விற்பனை"
         },
         "cartRecovery": {
-          "name": "Abandoned Cart Recovery",
-          "description": "Email + SMS: 156 recovered",
+          "name": "கைவிடப்பட்ட வண்டி மீட்பு",
+          "description": "மின்னஞ்சல் + எஸ்எம்எஸ்: 156 மீட்கப்பட்டது",
           "result": "+2k"
         },
         "followUp": {
-          "name": "Follow-up Call Campaign",
-          "description": "AI Voicebot: 89 calls • 34 appts",
-          "result": "+34 appts"
+          "name": "பின்தொடர்தல் அழைப்பு பிரச்சாரம்",
+          "description": "AI வாய்ஸ்பாட்: 89 அழைப்புகள் • 34 சந்திப்புகள்",
+          "result": "+34 சந்திப்புகள்"
         }
       }
     }
   },
   "supportPlan": {
-    "title": "Support Plan",
-    "priceNote": "*All prices are in US dollars",
+    "title": "ஆதரவுத் திட்டம்",
+    "priceNote": "*அனைத்து விலைகளும் அமெரிக்க டாலர்களில் உள்ளன",
     "trial": {
-      "title": "Trial",
+      "title": "சோதனை",
       "price": "$0",
       "features": {
-        "diy": "DIY with product wiki",
-        "email": "Email (info@seasalt.ai)",
-        "chat": "or chat with customer support (on this page)"
+        "diy": "தயாரிப்பு விக்கியுடன் DIY",
+        "email": "மின்னஞ்சல் (info@seasalt.ai)",
+        "chat": "அல்லது வாடிக்கையாளர் ஆதரவுடன் அரட்டையடிக்கவும் (இந்தப் பக்கத்தில்)"
       }
     },
     "launch": {
-      "title": "Launch",
-      "startsAt": "Starts at",
+      "title": "வெளியீடு",
+      "startsAt": "தொடங்குகிறது",
       "minPrice": "$500",
-      "upTo": "up to",
+      "upTo": "வரை",
       "maxPrice": "$10,000",
-      "duration": "per month for 3 months",
-      "description": "With the Launch Support Plan, our team is committed to providing professional guidance in the following areas:",
+      "duration": "3 மாதங்களுக்கு மாதத்திற்கு",
+      "description": "வெளியீட்டு ஆதரவுத் திட்டத்துடன், எங்கள் குழு பின்வரும் பகுதிகளில் தொழில்முறை வழிகாட்டுதலை வழங்க உறுதிபூண்டுள்ளது:",
       "features": {
         "meetings": {
-          "title": "Unlimited 1-on-1 Meetings:",
-          "description": "Personalized sessions with the SeaChat team."
+          "title": "வரம்பற்ற 1-க்கு-1 சந்திப்புகள்:",
+          "description": "SeaChat குழுவுடன் தனிப்பயனாக்கப்பட்ட அமர்வுகள்."
         },
         "promptTuning": {
-          "title": "Prompt Tuning:",
-          "description": "Customization for both chat and voice applications."
+          "title": "ப்ராம்ப்ட் ட்யூனிங்:",
+          "description": "அரட்டை மற்றும் குரல் பயன்பாடுகளுக்கான தனிப்பயனாக்கம்."
         },
         "guidance": {
-          "title": "Design and Technical Guidance:",
-          "description": "Expert advice on design and technical aspects."
+          "title": "வடிவமைப்பு மற்றும் தொழில்நுட்ப வழிகாட்டுதல்:",
+          "description": "வடிவமைப்பு மற்றும் தொழில்நுட்ப அம்சங்களில் நிபுணர் ஆலோசனை."
         },
         "launchSupport": {
-          "title": "AI Agent Launch Support:",
-          "description": "Comprehensive assistance throughout the launch process."
+          "title": "AI முகவர் வெளியீட்டு ஆதரவு:",
+          "description": "வெளியீட்டு செயல்முறை முழுவதும் விரிவான உதவி."
         },
         "marketStrategy": {
-          "title": "Go-to-Market Strategy:",
-          "description": "Strategic planning for market entry."
+          "title": "சந்தைக்குச் செல்லும் உத்தி:",
+          "description": "சந்தை நுழைவுக்கான மூலோபாய திட்டமிடல்."
         },
         "successfulLaunch": {
-          "title": "Successful AI Agent Launch:",
-          "description": "Achieve a successful launch within 4-6 weeks."
+          "title": "வெற்றிகரமான AI முகவர் வெளியீடு:",
+          "description": "4-6 வாரங்களுக்குள் ஒரு வெற்றிகரமான வெளியீட்டை அடையுங்கள்."
         },
         "postLaunch": {
-          "title": "Post-Launch Iteration and Improvement:",
-          "description": "Continuous enhancement based on usage and feedback."
+          "title": "வெளியீட்டிற்குப் பிந்தைய மறு செய்கை மற்றும் மேம்பாடு:",
+          "description": "பயன்பாடு மற்றும் பின்னூட்டத்தின் அடிப்படையில் தொடர்ச்சியான மேம்பாடு."
         },
         "operational": {
-          "title": "Operational Stability:",
-          "description": "Establish standard operating procedures for the long-term operation of AI agents."
+          "title": "செயல்பாட்டு நிலைத்தன்மை:",
+          "description": "AI முகவர்களின் நீண்டகால செயல்பாட்டிற்காக நிலையான இயக்க நடைமுறைகளை நிறுவுதல்."
         }
       }
     }
   },
   "productDropdown": {
     "mainSite": {
-      "title": "Seasalt.ai Main Site",
-      "description": "All products and solutions"
+      "title": "Seasalt.ai பிரதான தளம்",
+      "description": "அனைத்து தயாரிப்புகள் மற்றும் தீர்வுகள்"
     },
-    "productsLabel": "Products"
+    "productsLabel": "தயாரிப்புகள்"
   },
   "industries": {
-    "title": "Serve Every Industry with Confidence",
-    "description": "From healthcare to fintech, our platform adapts to your industry's unique requirements with specialized features and compliance standards.",
+    "title": "ஒவ்வொரு தொழிலுக்கும் நம்பிக்கையுடன் சேவை செய்யுங்கள்",
+    "description": "சுகாதாரம் முதல் ஃபிண்டெக் வரை, எங்கள் தளம் உங்கள் தொழில்துறையின் தனித்துவமான தேவைகளுக்கு சிறப்பு அம்சங்கள் மற்றும் இணக்கத் தரங்களுடன் மாற்றியமைக்கிறது.",
     "cta": {
-      "title": "Ready to Revolutionize Your Industry?",
-      "description": "Join industry leaders who trust Seasalt.ai to deliver exceptional customer experiences while meeting specific regulatory and operational requirements.",
-      "signUp": "Sign Up",
-      "bookDemo": "Book A Demo"
+      "title": "உங்கள் தொழில்துறையை புரட்சிகரமாக்கத் தயாரா?",
+      "description": "குறிப்பிட்ட ஒழுங்குமுறை மற்றும் செயல்பாட்டுத் தேவைகளைப் பூர்த்தி செய்யும் போது விதிவிலக்கான வாடிக்கையாளர் அனுபவங்களை வழங்க Seasalt.ai ஐ நம்பும் தொழில் தலைவர்களுடன் சேரவும்.",
+      "signUp": "பதிவு செய்க",
+      "bookDemo": "ஒரு டெமோவை பதிவு செய்யுங்கள்"
     },
     "template": {
       "nav": {
-        "backToHome": "← Back to Home"
+        "backToHome": "← முகப்புக்குத் திரும்பு"
       },
       "hero": {
-        "title": "AI Solutions for",
-        "signUp": "Get Started Free",
-        "seeDemo": "See Demo",
-        "hipaaOffering": "Also available: HIPAA-compliant"
+        "title": "AI தீர்வுகள்",
+        "signUp": "இலவசமாகத் தொடங்குங்கள்",
+        "seeDemo": "டெமோவைப் பார்க்கவும்",
+        "hipaaOffering": "கிடைக்கிறது: HIPAA-இணக்கமானது"
       },
       "seo": {
-        "titleSuffix": "Solutions - Seasalt.ai",
-        "descriptionPrefix": "See how Seasalt.ai helps",
-        "descriptionSuffix": "businesses improve customer communications and drive growth."
+        "titleSuffix": "தீர்வுகள் - Seasalt.ai",
+        "descriptionPrefix": "Seasalt.ai எவ்வாறு உதவுகிறது என்பதைப் பாருங்கள்",
+        "descriptionSuffix": "வணிகங்கள் வாடிக்கையாளர் தகவல்தொடர்புகளை மேம்படுத்துகின்றன மற்றும் வளர்ச்சியை ஊக்குவிக்கின்றன."
       },
       "ui": {
         "seahealthAlt": "SeaHealth",
-        "testimonialsPrefix": "What"
+        "testimonialsPrefix": "என்ன"
       },
       "benefits": {
-        "title": "Why Choose Seasalt.ai for",
-        "description": "Our AI-powered platform streamlines communications and automates workflows for"
+        "title": "ஏன் Seasalt.ai ஐ தேர்வு செய்ய வேண்டும்",
+        "description": "எங்கள் AI-இயங்கும் தளம் தகவல்தொடர்புகளை நெறிப்படுத்துகிறது மற்றும் பணிப்பாய்வுகளை தானியக்கமாக்குகிறது"
       },
       "useCases": {
-        "title": "Common Use Cases",
+        "title": "பொதுவான பயன்பாட்டு வழக்குகள்",
         "description": {
-          "start": "Discover how our platform transforms",
-          "end": "operations with intelligent automation"
+          "start": "எங்கள் தளம் எவ்வாறு மாற்றுகிறது என்பதைக் கண்டறியவும்",
+          "end": "அறிவார்ந்த ஆட்டோமேஷனுடன் செயல்பாடுகள்"
         },
         "customerSupport": {
-          "title": "24/7 Customer Support",
-          "description": "Provide instant responses to customer inquiries across all channels"
+          "title": "24/7 வாடிக்கையாளர் ஆதரவு",
+          "description": "அனைத்து சேனல்களிலும் வாடிக்கையாளர் விசாரணைகளுக்கு உடனடி பதில்களை வழங்கவும்"
         },
         "leadGeneration": {
-          "title": "Lead Generation",
-          "description": "Capture and qualify leads automatically with AI-powered conversations"
+          "title": "தடம் உருவாக்கம்",
+          "description": "AI-இயங்கும் உரையாடல்களுடன் தடயங்களை தானாகப் பிடிக்கவும், தகுதிப்படுத்தவும்"
         },
         "analytics": {
-          "title": "Analytics & Insights",
-          "description": "Track performance and gain insights into customer interactions"
+          "title": "பகுப்பாய்வு & நுண்ணறிவு",
+          "description": "செயல்திறனைக் கண்காணிக்கவும், வாடிக்கையாளர் தொடர்புகளில் நுண்ணறிவுகளைப் பெறவும்"
         },
-        "subtitle": "Discover how our platform supports every aspect of educational management",
+        "subtitle": "கல்வி நிர்வாகத்தின் ஒவ்வொரு அம்சத்தையும் எங்கள் தளம் எவ்வாறு ஆதரிக்கிறது என்பதைக் கண்டறியவும்",
         "case1": {
-          "title": "Student Information Systems",
-          "description": "Centralize student records, grades, and academic progress tracking"
+          "title": "மாணவர் தகவல் அமைப்புகள்",
+          "description": "மாணவர் பதிவுகள், தரங்கள் மற்றும் கல்வி முன்னேற்றக் கண்காணிப்பை மையப்படுத்தவும்"
         },
         "case2": {
-          "title": "Learning Management",
-          "description": "Deliver courses, track progress, and manage educational content"
+          "title": "கற்றல் மேலாண்மை",
+          "description": "படிப்புகளை வழங்கவும், முன்னேற்றத்தைக் கண்காணிக்கவும், கல்வி உள்ளடக்கத்தை நிர்வகிக்கவும்"
         },
         "case3": {
-          "title": "Administrative Tools",
-          "description": "Streamline enrollment, scheduling, and institutional operations"
+          "title": "நிர்வாகக் கருவிகள்",
+          "description": "சேர்க்கை, திட்டமிடல் மற்றும் நிறுவன செயல்பாடுகளை நெறிப்படுத்தவும்"
         }
       },
       "testimonials": {
-        "title": "Companies Are Saying",
-        "quote1": "Seasalt.ai has transformed our customer service operations. Response times are down 80% and satisfaction is at an all-time high.",
-        "author1": "Sarah Chen",
-        "company1": "Customer Success Manager",
-        "quote2": "The AI automation has saved us countless hours. We can focus on growing our business instead of managing repetitive tasks.",
-        "author2": "Michael Rodriguez",
-        "company2": "Operations Director",
-        "subtitle": "See how institutions are transforming their operations",
+        "title": "நிறுவனங்கள் சொல்கின்றன",
+        "quote1": "Seasalt.ai எங்கள் வாடிக்கையாளர் சேவை செயல்பாடுகளை மாற்றியுள்ளது. பதில் நேரங்கள் 80% குறைந்துள்ளன, திருப்தி எல்லா நேரத்திலும் அதிகமாக உள்ளது.",
+        "author1": "சாரா சென்",
+        "company1": "வாடிக்கையாளர் வெற்றி மேலாளர்",
+        "quote2": "AI ஆட்டோமேஷன் எங்களுக்கு எண்ணற்ற மணிநேரங்களைச் சேமித்துள்ளது. மீண்டும் மீண்டும் வரும் பணிகளை நிர்வகிப்பதற்குப் பதிலாக எங்கள் வணிகத்தை வளர்ப்பதில் நாங்கள் கவனம் செலுத்தலாம்.",
+        "author2": "மைக்கேல் ரோட்ரிக்ஸ்",
+        "company2": "செயல்பாட்டு இயக்குனர்",
+        "subtitle": "நிறுவனங்கள் தங்கள் செயல்பாடுகளை எவ்வாறு மாற்றுகின்றன என்பதைப் பாருங்கள்",
         "testimonial1": {
-          "quote": "This platform has revolutionized how we manage our school operations. Student data is now centralized and accessible.",
-          "author": "Dr. Sarah Johnson",
-          "position": "Principal, Lincoln Elementary School"
+          "quote": "இந்த தளம் எங்கள் பள்ளி செயல்பாடுகளை நிர்வகிக்கும் முறையை புரட்சிகரமாக்கியுள்ளது. மாணவர் தரவு இப்போது மையப்படுத்தப்பட்டு அணுகக்கூடியதாக உள்ளது.",
+          "author": "Dr. சாரா ஜான்சன்",
+          "position": "முதல்வர், லிங்கன் தொடக்கப் பள்ளி"
         },
         "testimonial2": {
-          "quote": "The learning management features have made remote and hybrid learning seamless for our students and faculty.",
-          "author": "Prof. Michael Chen",
-          "position": "Dean of Technology, State University"
+          "quote": "கற்றல் மேலாண்மை அம்சங்கள் எங்கள் மாணவர்கள் மற்றும் ஆசிரியர்களுக்கு தொலைநிலை மற்றும் கலப்பின கற்றலை தடையின்றி ஆக்கியுள்ளன.",
+          "author": "Prof. மைக்கேல் சென்",
+          "position": "தொழில்நுட்பத் தலைவர், மாநிலப் பல்கலைக்கழகம்"
         },
         "testimonial3": {
-          "quote": "Our administrative efficiency has improved dramatically. Everything from enrollment to reporting is now streamlined.",
-          "author": "Maria Rodriguez",
-          "position": "Administrator, Community College District"
+          "quote": "எங்கள் நிர்வாகத் திறன் வியத்தகு முறையில் மேம்பட்டுள்ளது. சேர்க்கை முதல் அறிக்கையிடல் வரை அனைத்தும் இப்போது நெறிப்படுத்தப்பட்டுள்ளன.",
+          "author": "மரியா ரோட்ரிக்ஸ்",
+          "position": "நிர்வாகி, சமூகக் கல்லூரி மாவட்டம்"
         }
       },
       "cta": {
-        "title": "Ready to Transform Your Business?",
-        "description": "Join thousands of companies that trust Seasalt.ai to manage their customer communications efficiently and securely.",
-        "signUp": "Start Free Trial",
-        "scheduleDemo": "Schedule Demo",
-        "seahealthLink": "Explore HIPAA-Compliant Healthcare Solutions",
+        "title": "உங்கள் வணிகத்தை மாற்றத் தயாரா?",
+        "description": "தங்கள் வாடிக்கையாளர் தகவல்தொடர்புகளை திறமையாகவும் பாதுகாப்பாகவும் நிர்வகிக்க Seasalt.ai ஐ நம்பும் ஆயிரக்கணக்கான நிறுவனங்களுடன் சேரவும்.",
+        "signUp": "இலவச சோதனையைத் தொடங்குங்கள்",
+        "scheduleDemo": "டெமோவை திட்டமிடுங்கள்",
+        "seahealthLink": "HIPAA-இணக்கமான சுகாதாரத் தீர்வுகளை ஆராயுங்கள்",
         "buttons": {
-          "primary": "Start Free Trial",
-          "secondary": "Schedule Demo",
-          "contact": "Contact Sales"
+          "primary": "இலவச சோதனையைத் தொடங்குங்கள்",
+          "secondary": "டெமோவை திட்டமிடுங்கள்",
+          "contact": "விற்பனையைத் தொடர்பு கொள்ளுங்கள்"
         }
       },
       "solutions": {
-        "title": "Solutions"
+        "title": "தீர்வுகள்"
       }
     }
   },
   "channels": {
-    "title": "Connect Every Customer Channel",
-    "description": "Unify all your customer communications in one platform. From WhatsApp to phone calls, SMS to social media - manage every conversation from a single dashboard.",
+    "title": "ஒவ்வொரு வாடிக்கையாளர் சேனலையும் இணைக்கவும்",
+    "description": "உங்கள் அனைத்து வாடிக்கையாளர் தகவல்தொடர்புகளையும் ஒரே தளத்தில் ஒன்றிணைக்கவும். வாட்ஸ்அப் முதல் தொலைபேசி அழைப்புகள், எஸ்எம்எஸ் முதல் சமூக ஊடகங்கள் வரை - ஒவ்வொரு உரையாடலையும் ஒரே டாஷ்போர்டில் இருந்து நிர்வகிக்கவும்.",
     "whatsapp": {
-      "title": "WhatsApp Business",
-      "description": "Connect with customers on the world's most popular messaging platform",
+      "title": "WhatsApp வணிகம்",
+      "description": "உலகின் மிகவும் பிரபலமான செய்தியிடல் தளத்தில் வாடிக்கையாளர்களுடன் இணையுங்கள்",
       "seo": {
-        "title": "WhatsApp Business Integration - Seasalt.ai",
-        "description": "Connect your WhatsApp Business account to Seasalt.ai for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide."
+        "title": "WhatsApp வணிக ஒருங்கிணைப்பு - Seasalt.ai",
+        "description": "AI-இயங்கும் உரையாடல்கள், மொத்த பிரச்சாரங்கள் மற்றும் தடையற்ற மனித முகவர் ஆதரவிற்காக உங்கள் WhatsApp வணிகக் கணக்கை Seasalt.ai உடன் இணைக்கவும். உலகளவில் 2+ பில்லியன் பயனர்களை அடையுங்கள்."
       },
       "nav": {
-        "backToChannels": "Back to Channels"
+        "backToChannels": "சேனல்களுக்குத் திரும்பு"
       },
       "hero": {
         "title": {
-          "prefix": "Transform WhatsApp into Your",
-          "highlight": "Business Command Center"
+          "prefix": "வாட்ஸ்அப்பை உங்கள்",
+          "highlight": "வணிகக் கட்டளை மையமாக மாற்றவும்"
         },
-        "description": "Connect your WhatsApp Business account to Seasalt.ai for AI-powered conversations, bulk campaigns, and seamless human agent support. Reach 2+ billion users worldwide.",
-        "primaryCta": "Connect WhatsApp in 10 Minutes",
-        "secondaryCta": "See Demo",
-        "demoTitle": "WhatsApp Business",
+        "description": "AI-இயங்கும் உரையாடல்கள், மொத்த பிரச்சாரங்கள் மற்றும் தடையற்ற மனித முகவர் ஆதரவிற்காக உங்கள் WhatsApp வணிகக் கணக்கை Seasalt.ai உடன் இணைக்கவும். உலகளவில் 2+ பில்லியன் பயனர்களை அடையுங்கள்.",
+        "primaryCta": "10 நிமிடங்களில் வாட்ஸ்அப்பை இணைக்கவும்",
+        "secondaryCta": "டெமோவைப் பார்க்கவும்",
+        "demoTitle": "WhatsApp வணிகம்",
         "demoMessages": {
-          "customer1": "Customer: \"Where's my order #12345?",
-          "bot1": "AI Bot: \"Your order is out for delivery and will arrive today by 6 PM. Track it here: [link]",
-          "customer2": "Customer: \"Can I change the delivery address?",
-          "bot2": "AI Bot: \"Let me connect you with a human agent for address changes..."
+          "customer1": "வாடிக்கையாளர்: \"எனது ஆர்டர் #12345 எங்கே?\",
+          "bot1": "AI பாட்: \"உங்கள் ஆர்டர் டெலிவரிக்கு வெளியே உள்ளது, இன்று மாலை 6 மணிக்குள் வந்துவிடும். இங்கே கண்காணிக்கவும்: [இணைப்பு]\",
+          "customer2": "வாடிக்கையாளர்: \"டெலிவரி முகவரியை மாற்ற முடியுமா?\",
+          "bot2": "AI பாட்: \"முகவரி மாற்றங்களுக்கு உங்களை ஒரு மனித முகவருடன் இணைக்கிறேன்...\""
         }
       },
       "features": {
-        "title": "Key Features",
-        "description": "Everything you need to turn WhatsApp into a powerful business communication platform",
+        "title": "முக்கிய அம்சங்கள்",
+        "description": "வாட்ஸ்அப்பை ஒரு சக்திவாய்ந்த வணிகத் தகவல்தொடர்பு தளமாக மாற்ற உங்களுக்குத் தேவையான அனைத்தும்",
         "aiResponses": {
-          "title": "AI-Powered Responses",
-          "description": "Automated customer service with natural language processing that understands context and intent"
+          "title": "AI-இயங்கும் பதில்கள்",
+          "description": "சூழல் மற்றும் நோக்கத்தைப் புரிந்துகொள்ளும் இயற்கை மொழி செயலாக்கத்துடன் தானியங்கி வாடிக்கையாளர் சேவை"
         },
         "bulkCampaigns": {
-          "title": "Bulk Campaign Management",
-          "description": "Send template messages to thousands of contacts with advanced targeting and scheduling"
+          "title": "மொத்த பிரச்சார மேலாண்மை",
+          "description": "மேம்பட்ட இலக்கு மற்றும் திட்டமிடலுடன் ஆயிரக்கணக்கான தொடர்புகளுக்கு டெம்ப்ளேட் செய்திகளை அனுப்பவும்"
         },
         "humanHandoff": {
-          "title": "Human Agent Handoff",
-          "description": "Seamless transition from bot to live agent with /live_agent command and full conversation history"
+          "title": "மனித முகவர் ஒப்படைப்பு",
+          "description": "/live_agent கட்டளை மற்றும் முழு உரையாடல் வரலாற்றுடன் பாட்டிலிருந்து நேரடி முகவருக்கு தடையற்ற மாற்றம்"
         },
         "metaIntegration": {
-          "title": "Meta Business Integration",
-          "description": "Full access to WhatsApp Business Platform features with enterprise-grade security"
+          "title": "மெட்டா வணிக ஒருங்கிணைப்பு",
+          "description": "நிறுவன-தர பாதுகாப்புடன் WhatsApp வணிக தள அம்சங்களுக்கான முழு அணுகல்"
         }
       },
       "setup": {
-        "title": "Setup Process Visualization",
-        "description": "Step-by-step guide to connect your WhatsApp Business account with enterprise-grade security",
+        "title": "அமைப்பு செயல்முறை காட்சிப்படுத்தல்",
+        "description": "நிறுவன-தர பாதுகாப்புடன் உங்கள் WhatsApp வணிகக் கணக்கை இணைக்க படிப்படியான வழிகாட்டி",
         "steps": {
-          "0": "Create Meta Developer Account",
-          "1": "Configure WhatsApp Business API",
-          "2": "Set up webhook endpoints",
-          "3": "Generate access tokens",
-          "4": "Test message delivery",
-          "5": "Launch your first campaign"
+          "0": "மெட்டா டெவலப்பர் கணக்கை உருவாக்கவும்",
+          "1": "WhatsApp வணிக API ஐ உள்ளமைக்கவும்",
+          "2": "வெப்ஹூக் எண்ட்பாயிண்ட்களை அமைக்கவும்",
+          "3": "அணுகல் டோக்கன்களை உருவாக்கவும்",
+          "4": "செய்தி விநியோகத்தை சோதிக்கவும்",
+          "5": "உங்கள் முதல் பிரச்சாரத்தைத் தொடங்கவும்"
         },
         "security": {
-          "title": "Enterprise-Grade Security",
-          "description": "Your WhatsApp integration includes end-to-end encryption, secure token management, and compliance with Meta's business policies. All data is protected with bank-level security."
+          "title": "நிறுவன-தர பாதுகாப்பு",
+          "description": "உங்கள் WhatsApp ஒருங்கிணைப்பில் எண்ட்-டு-எண்ட் குறியாக்கம், பாதுகாப்பான டோக்கன் மேலாண்மை மற்றும் மெட்டாவின் வணிகக் கொள்கைகளுடன் இணக்கம் ஆகியவை அடங்கும். அனைத்து தரவுகளும் வங்கி-நிலை பாதுகாப்புடன் பாதுகாக்கப்படுகின்றன."
         }
       },
       "cta": {
-        "title": "Ready to Connect WhatsApp?",
-        "description": "Join thousands of businesses using WhatsApp to provide better customer service and drive more sales.",
-        "button": "Start Integration"
+        "title": "வாட்ஸ்அப்பை இணைக்கத் தயாரா?",
+        "description": "சிறந்த வாடிக்கையாளர் சேவையை வழங்கவும், அதிக விற்பனையை அதிகரிக்கவும் வாட்ஸ்அப்பைப் பயன்படுத்தும் ஆயிரக்கணக்கான வணிகங்களுடன் சேரவும்.",
+        "button": "ஒருங்கிணைப்பைத் தொடங்குங்கள்"
       }
     },
     "voice": {
-      "title": "Voice & Phone Calls",
-      "description": "Professional phone system with AI voicebot and human agent support"
+      "title": "குரல் & தொலைபேசி அழைப்புகள்",
+      "description": "AI வாய்ஸ்பாட் மற்றும் மனித முகவர் ஆதரவுடன் தொழில்முறை தொலைபேசி அமைப்பு"
     },
     "sms": {
-      "title": "SMS Messaging",
-      "description": "Reach customers instantly with personalized SMS campaigns",
+      "title": "எஸ்எம்எஸ் செய்தியிடல்",
+      "description": "தனிப்பயனாக்கப்பட்ட எஸ்எம்எஸ் பிரச்சாரங்களுடன் வாடிக்கையாளர்களை உடனடியாக அடையுங்கள்",
       "seo": {
-        "title": "SMS Marketing Platform - Seasalt.ai",
-        "description": "Reach customers instantly with personalized SMS campaigns and automated responses. 98% open rates and global delivery to 200+ countries. Start your SMS marketing today."
+        "title": "எஸ்எம்எஸ் சந்தைப்படுத்தல் தளம் - Seasalt.ai",
+        "description": "தனிப்பயனாக்கப்பட்ட எஸ்எம்எஸ் பிரச்சாரங்கள் மற்றும் தானியங்கி பதில்களுடன் வாடிக்கையாளர்களை உடனடியாக அடையுங்கள். 98% திறந்த விகிதங்கள் மற்றும் 200+ நாடுகளுக்கு உலகளாவிய விநியோகம். உங்கள் எஸ்எம்எஸ் சந்தைப்படுத்தலை இன்றே தொடங்குங்கள்."
       },
       "nav": {
-        "backToChannels": "Back to Channels"
+        "backToChannels": "சேனல்களுக்குத் திரும்பு"
       },
       "hero": {
-        "title": "SMS Marketing That",
-        "description": "Reach customers instantly with personalized SMS campaigns and automated responses. 98% open rates and global delivery to 200+ countries.",
-        "primaryCta": "Start SMS Campaigns",
-        "secondaryCta": "See Demo",
+        "title": "எஸ்எம்எஸ் சந்தைப்படுத்தல் அது",
+        "description": "தனிப்பயனாக்கப்பட்ட எஸ்எம்எஸ் பிரச்சாரங்கள் மற்றும் தானியங்கி பதில்களுடன் வாடிக்கையாளர்களை உடனடியாக அடையுங்கள். 98% திறந்த விகிதங்கள் மற்றும் 200+ நாடுகளுக்கு உலகளாவிய விநியோகம்.",
+        "primaryCta": "எஸ்எம்எஸ் பிரச்சாரங்களைத் தொடங்குங்கள்",
+        "secondaryCta": "டெமோவைப் பார்க்கவும்",
         "campaign": {
-          "title": "SMS Campaign",
+          "title": "எஸ்எம்எஸ் பிரச்சாரம்",
           "flashSale": {
-            "title": "📱 Campaign: Flash Sale",
-            "sent": "2,847 messages sent"
+            "title": "📱 பிரச்சாரம்: ஃபிளாஷ் விற்பனை",
+            "sent": "2,847 செய்திகள் அனுப்பப்பட்டன"
           },
           "delivered": {
-            "title": "✅ Delivered: 2,834",
-            "rate": "99.5% delivery rate"
+            "title": "✅ விநியோகிக்கப்பட்டது: 2,834",
+            "rate": "99.5% விநியோக விகிதம்"
           },
           "replies": {
-            "title": "💬 Replies: 312",
-            "rate": "11% response rate"
+            "title": "💬 பதில்கள்: 312",
+            "rate": "11% பதில் விகிதம்"
           },
           "conversions": {
-            "title": "🛒 Conversions: 47",
-            "revenue": "$12,400 revenue"
+            "title": "🛒 மாற்றங்கள்: 47",
+            "revenue": "$12,400 வருவாய்"
           }
         },
-        "titleHighlight": "Actually Converts",
+        "titleHighlight": "உண்மையில் மாற்றுகிறது",
         "cta": {
-          "primary": "Start SMS Campaigns",
-          "secondary": "See Demo"
+          "primary": "எஸ்எம்எஸ் பிரச்சாரங்களைத் தொடங்குங்கள்",
+          "secondary": "டெமோவைப் பார்க்கவும்"
         },
         "dashboard": {
-          "title": "SMS Campaign",
-          "campaign": "📱 Campaign: Flash Sale",
-          "campaignSent": "2,847 messages sent",
-          "delivered": "✅ Delivered: 2,834",
-          "deliveryRate": "99.5% delivery rate",
-          "replies": "💬 Replies: 312",
-          "responseRate": "11% response rate",
-          "conversions": "🛒 Conversions: 47",
-          "revenue": "$12,400 revenue"
+          "title": "எஸ்எம்எஸ் பிரச்சாரம்",
+          "campaign": "📱 பிரச்சாரம்: ஃபிளாஷ் விற்பனை",
+          "campaignSent": "2,847 செய்திகள் அனுப்பப்பட்டன",
+          "delivered": "✅ விநியோகிக்கப்பட்டது: 2,834",
+          "deliveryRate": "99.5% விநியோக விகிதம்",
+          "replies": "💬 பதில்கள்: 312",
+          "responseRate": "11% பதில் விகிதம்",
+          "conversions": "🛒 மாற்றங்கள்: 47",
+          "revenue": "$12,400 வருவாய்"
         }
       },
       "features": {
-        "title": "Compliance & Delivery",
-        "description": "Enterprise-grade SMS platform with global reach and automatic compliance management",
+        "title": "இணக்கம் & விநியோகம்",
+        "description": "உலகளாவிய சென்றடைதல் மற்றும் தானியங்கி இணக்க நிர்வாகத்துடன் நிறுவன-தர எஸ்எம்எஸ் தளம்",
         "globalReach": {
-          "title": "Global Reach",
-          "description": "SMS delivery to 200+ countries with local number support and carrier optimization"
+          "title": "உலகளாவிய சென்றடைதல்",
+          "description": "உள்ளூர் எண் ஆதரவு மற்றும் கேரியர் தேர்வுமுறையுடன் 200+ நாடுகளுக்கு எஸ்எம்எஸ் விநியோகம்"
         },
         "compliance": {
-          "title": "Compliance Tools",
-          "description": "TCPA and GDPR compliance features with automatic opt-out management"
+          "title": "இணக்கக் கருவிகள்",
+          "description": "தானியங்கி விலகல் நிர்வாகத்துடன் TCPA மற்றும் GDPR இணக்க அம்சங்கள்"
         },
         "analytics": {
-          "title": "Delivery Analytics",
-          "description": "Real-time delivery tracking, response rates, and campaign performance metrics"
+          "title": "விநியோகப் பகுப்பாய்வு",
+          "description": "நிகழ்நேர விநியோகக் கண்காணிப்பு, பதில் விகிதங்கள் மற்றும் பிரச்சார செயல்திறன் அளவீடுகள்"
         },
         "scheduling": {
-          "title": "Smart Scheduling",
-          "description": "Timezone-aware sending with optimal timing based on recipient behavior"
+          "title": "ஸ்மார்ட் திட்டமிடல்",
+          "description": "பெறுநரின் நடத்தையின் அடிப்படையில் உகந்த நேரத்துடன் நேர மண்டல-விழிப்புணர்வு அனுப்புதல்"
         }
       },
       "useCases": {
-        "title": "Proven Use Cases",
-        "description": "See how businesses use SMS to drive engagement and revenue",
+        "title": "நிரூபிக்கப்பட்ட பயன்பாட்டு வழக்குகள்",
+        "description": "ஈடுபாட்டையும் வருவாயையும் அதிகரிக்க வணிகங்கள் எஸ்எம்எஸ்ஸை எவ்வாறு பயன்படுத்துகின்றன என்பதைப் பாருங்கள்",
         "marketing": {
-          "title": "Marketing Campaigns",
-          "description": "Promotional messages with high open rates",
-          "stats": "98% open rate"
+          "title": "சந்தைப்படுத்தல் பிரச்சாரங்கள்",
+          "description": "உயர் திறந்த விகிதங்களுடன் விளம்பரச் செய்திகள்",
+          "stats": "98% திறந்த விகிதம்"
         },
         "appointments": {
-          "title": "Appointment Reminders",
-          "description": "Reduce no-shows with automated reminders",
-          "stats": "25% fewer no-shows"
+          "title": "சந்திப்பு நினைவூட்டல்கள்",
+          "description": "தானியங்கி நினைவூட்டல்களுடன் வராதவர்களைக் குறைக்கவும்",
+          "stats": "25% குறைவான வராதவர்கள்"
         },
         "orders": {
-          "title": "Order Updates",
-          "description": "Keep customers informed about their orders",
-          "stats": "90% satisfaction"
+          "title": "ஆர்டர் புதுப்பிப்புகள்",
+          "description": "வாடிக்கையாளர்களுக்கு அவர்களின் ஆர்டர்கள் குறித்துத் தெரிவிக்கவும்",
+          "stats": "90% திருப்தி"
         },
         "support": {
-          "title": "Customer Support",
-          "description": "Two-way conversations for quick support",
-          "stats": "5x faster resolution"
+          "title": "வாடிக்கையாளர் ஆதரவு",
+          "description": "விரைவான ஆதரவிற்காக இருவழி உரையாடல்கள்",
+          "stats": "5x வேகமான தீர்வு"
         }
       },
       "builder": {
-        "title": "Advanced Campaign Builder",
-        "description": "Create sophisticated SMS campaigns with drag-and-drop automation and smart targeting",
+        "title": "மேம்பட்ட பிரச்சார உருவாக்குநர்",
+        "description": "இழுத்தல்-மற்றும்-விடுதல் ஆட்டோமேஷன் மற்றும் ஸ்மார்ட் இலக்குடன் அதிநவீன எஸ்எம்எஸ் பிரச்சாரங்களை உருவாக்கவும்",
         "segmentation": {
-          "title": "Smart Segmentation",
-          "description": "Target customers based on behavior, location, and preferences"
+          "title": "ஸ்மார்ட் பிரிவுபடுத்தல்",
+          "description": "நடத்தை, இருப்பிடம் மற்றும் விருப்பங்களின் அடிப்படையில் வாடிக்கையாளர்களை இலக்கு வைக்கவும்"
         },
         "timing": {
-          "title": "Perfect Timing",
-          "description": "AI-powered send time optimization for maximum engagement"
+          "title": "சரியான நேரம்",
+          "description": "அதிகபட்ச ஈடுபாட்டிற்காக AI-இயங்கும் அனுப்பும் நேர தேர்வுமுறை"
         },
         "analytics": {
-          "title": "Real-time Analytics",
-          "description": "Track delivery, opens, clicks, and conversions in real-time"
+          "title": "நிகழ்நேரப் பகுப்பாய்வு",
+          "description": "விநியோகம், திறப்புகள், கிளிக்குகள் மற்றும் மாற்றங்களை நிகழ்நேரத்தில் கண்காணிக்கவும்"
         }
       },
       "cta": {
-        "title": "Ready to Launch Your SMS Campaigns?",
-        "description": "Join thousands of businesses using SMS to drive higher engagement and revenue. Start with our free trial.",
-        "button": "Sign Up"
+        "title": "உங்கள் எஸ்எம்எஸ் பிரச்சாரங்களைத் தொடங்கத் தயாரா?",
+        "description": "அதிக ஈடுபாடு மற்றும் வருவாயை அதிகரிக்க எஸ்எம்எஸ்ஸைப் பயன்படுத்தும் ஆயிரக்கணக்கான வணிகங்களுடன் சேரவும். எங்கள் இலவச சோதனையுடன் தொடங்கவும்.",
+        "button": "பதிவு செய்க"
       },
-      "backToChannels": "Back to Channels"
+      "backToChannels": "சேனல்களுக்குத் திரும்பு"
     },
     "website": {
-      "title": "Website Chat Widget",
-      "description": "Turn website visitors into conversations with AI-powered chat"
+      "title": "இணையதள அரட்டை விட்ஜெட்",
+      "description": "AI-இயங்கும் அரட்டையுடன் இணையதள பார்வையாளர்களை உரையாடல்களாக மாற்றவும்"
     },
     "cta": {
-      "exploreAll": "Explore All Channels",
-      "subtitle": "See how all 9 channels work together seamlessly"
+      "exploreAll": "அனைத்து சேனல்களையும் ஆராயுங்கள்",
+      "subtitle": "அனைத்து 9 சேனல்களும் தடையின்றி எவ்வாறு ஒன்றாக வேலை செய்கின்றன என்பதைப் பாருங்கள்"
     },
     "phoneCalls": {
       "seo": {
-        "title": "Professional Phone System - Seasalt.ai",
-        "description": "Empower your agents with a cloud-based dialpad for inbound and outbound calls, powered by Twilio Gold Partnership and AI voice automation. Scale your business communication."
+        "title": "தொழில்முறை தொலைபேசி அமைப்பு - Seasalt.ai",
+        "description": "உள்வரும் மற்றும் வெளிச்செல்லும் அழைப்புகளுக்கு கிளவுட் அடிப்படையிலான டயல்பேடுடன் உங்கள் முகவர்களுக்கு அதிகாரம் அளியுங்கள், இது ட்விலியோ கோல்ட் பார்ட்னர்ஷிப் மற்றும் AI குரல் ஆட்டோமேஷனால் இயக்கப்படுகிறது. உங்கள் வணிகத் தகவல்தொடர்பை அளவிடவும்."
       },
       "nav": {
-        "backToChannels": "Back to Channels"
+        "backToChannels": "சேனல்களுக்குத் திரும்பு"
       },
       "hero": {
         "title": {
-          "prefix": "Professional Phone System That",
-          "highlight": "Scales with Your Business"
+          "prefix": "தொழில்முறை தொலைபேசி அமைப்பு அது",
+          "highlight": "உங்கள் வணிகத்துடன் அளவிடுகிறது"
         },
-        "description": "Empower your agents with a cloud-based dialpad for inbound and outbound calls, powered by our Twilio Gold Partnership and AI voice automation.",
-        "primaryCta": "Start Making Calls Today",
-        "secondaryCta": "See Demo",
+        "description": "உள்வரும் மற்றும் வெளிச்செல்லும் அழைப்புகளுக்கு கிளவுட் அடிப்படையிலான டயல்பேடுடன் உங்கள் முகவர்களுக்கு அதிகாரம் அளியுங்கள், இது எங்கள் ட்விலியோ கோல்ட் பார்ட்னர்ஷிப் மற்றும் AI குரல் ஆட்டோமேஷனால் இயக்கப்படுகிறது.",
+        "primaryCta": "இன்றே அழைப்புகளைச் செய்யத் தொடங்குங்கள்",
+        "secondaryCta": "டெமோவைப் பார்க்கவும்",
         "dialpad": {
-          "title": "Agent Dialpad",
-          "callButton": "Call",
-          "endCallButton": "End Call"
+          "title": "முகவர் டயல்பேட்",
+          "callButton": "அழை",
+          "endCallButton": "அழைப்பை முடி"
         }
       },
       "features": {
-        "title": "Key Features",
-        "description": "Everything your team needs for professional phone communication",
+        "title": "முக்கிய அம்சங்கள்",
+        "description": "தொழில்முறை தொலைபேசித் தகவல்தொடர்புக்கு உங்கள் குழுவிற்குத் தேவையான அனைத்தும்",
         "humanDialpad": {
-          "title": "Human Agent Dialpad",
-          "description": "Full-featured cloud dialpad for making and receiving calls with contact management"
+          "title": "மனித முகவர் டயல்பேட்",
+          "description": "தொடர்பு நிர்வாகத்துடன் அழைப்புகளைச் செய்வதற்கும் பெறுவதற்கும் முழு அம்சங்களுடன் கூடிய கிளவுட் டயல்பேட்"
         },
         "aiVoiceBot": {
-          "title": "AI Voice Bot Integration",
-          "description": "Automated call handling with natural handoff to human agents when needed"
+          "title": "AI வாய்ஸ் பாட் ஒருங்கிணைப்பு",
+          "description": "தேவைப்படும்போது மனித முகவர்களுக்கு இயற்கையான ஒப்படைப்புடன் தானியங்கி அழைப்புக் கையாளுதல்"
         },
         "multiAgent": {
-          "title": "Multi-Agent Support",
-          "description": "Round robin system distributes calls across available agents automatically"
+          "title": "பல முகவர் ஆதரவு",
+          "description": "ரவுண்ட் ராபின் அமைப்பு தானாகவே கிடைக்கும் முகவர்களிடையே அழைப்புகளை விநியோகிக்கிறது"
         },
         "analytics": {
-          "title": "Call Analytics",
-          "description": "Comprehensive reporting on call performance, outcomes, and agent productivity"
+          "title": "அழைப்புப் பகுப்பாய்வு",
+          "description": "அழைப்பு செயல்திறன், விளைவுகள் மற்றும் முகவர் உற்பத்தித்திறன் குறித்த விரிவான அறிக்கையிடல்"
         }
       },
       "partnership": {
-        "title": "Twilio Partnership Benefits",
-        "description": "Built on the world's most trusted communications platform",
+        "title": "ட்விலியோ பார்ட்னர்ஷிப் நன்மைகள்",
+        "description": "உலகின் மிகவும் நம்பகமான தகவல்தொடர்பு தளத்தில் கட்டப்பட்டது",
         "goldPartner": {
-          "title": "Gold Partner Status",
-          "benefit1": "Gold Partner Status with direct Twilio Flex access",
-          "benefit2": "Enterprise-Grade Reliability on proven infrastructure",
-          "benefit3": "Global Reach - make calls in 200+ countries",
-          "benefit4": "Quick Deployment - agents on calls in under 10 days"
+          "title": "கோல்ட் பார்ட்னர் நிலை",
+          "benefit1": "நேரடி ட்விலியோ ஃப்ளெக்ஸ் அணுகலுடன் கோல்ட் பார்ட்னர் நிலை",
+          "benefit2": "நிரூபிக்கப்பட்ட உள்கட்டமைப்பில் நிறுவன-தர நம்பகத்தன்மை",
+          "benefit3": "உலகளாவிய சென்றடைதல் - 200+ நாடுகளில் அழைப்புகளைச் செய்யுங்கள்",
+          "benefit4": "விரைவான வரிசைப்படுத்தல் - 10 நாட்களுக்குள் முகவர்கள் அழைப்புகளில்"
         },
         "global": {
-          "title": "Global Capabilities",
+          "title": "உலகளாவிய திறன்கள்",
           "countries": {
-            "title": "200+ Countries",
-            "description": "Make and receive calls worldwide"
+            "title": "200+ நாடுகள்",
+            "description": "உலகளவில் அழைப்புகளைச் செய்து பெறவும்"
           },
           "uptime": {
-            "title": "99.95% Uptime",
-            "description": "Enterprise-grade reliability"
+            "title": "99.95% இயக்க நேரம்",
+            "description": "நிறுவன-தர நம்பகத்தன்மை"
           },
           "setup": {
-            "title": "10-Day Setup",
-            "description": "Quick deployment for your team"
+            "title": "10-நாள் அமைப்பு",
+            "description": "உங்கள் குழுவிற்கான விரைவான வரிசைப்படுத்தல்"
           }
         }
       },
       "useCases": {
-        "title": "Use Cases",
-        "description": "See how different teams use our phone system to drive results",
+        "title": "பயன்பாட்டு வழக்குகள்",
+        "description": "முடிவுகளை இயக்க வெவ்வேறு குழுக்கள் எங்கள் தொலைபேசி அமைப்பை எவ்வாறு பயன்படுத்துகின்றன என்பதைப் பாருங்கள்",
         "sales": {
-          "title": "Sales Teams",
-          "description": "Outbound prospecting with auto dialer efficiency"
+          "title": "விற்பனைக் குழுக்கள்",
+          "description": "ஆட்டோ டயலர் செயல்திறனுடன் வெளிச்செல்லும் வாய்ப்பு"
         },
         "support": {
-          "title": "Customer Support",
-          "description": "Inbound call handling with AI screening"
+          "title": "வாடிக்கையாளர் ஆதரவு",
+          "description": "AI ஸ்கிரீனிங்குடன் உள்வரும் அழைப்புக் கையாளுதல்"
         },
         "appointments": {
-          "title": "Appointment Setting",
-          "description": "Automated calling with human confirmation"
+          "title": "சந்திப்பு அமைப்பு",
+          "description": "மனித உறுதிப்படுத்தலுடன் தானியங்கி அழைப்பு"
         },
         "followup": {
-          "title": "Follow-up Campaigns",
-          "description": "Mass calling with personalized agent conversations"
+          "title": "பின்தொடர்தல் பிரச்சாரங்கள்",
+          "description": "தனிப்பயனாக்கப்பட்ட முகவர் உரையாடல்களுடன் வெகுஜன அழைப்பு"
         }
       },
       "cta": {
-        "title": "Ready to Upgrade Your Phone System?",
-        "description": "Get your team on calls in under 10 days with enterprise-grade reliability and AI-powered automation.",
-        "button": "Start Setup"
+        "title": "உங்கள் தொலைபேசி அமைப்பை மேம்படுத்தத் தயாரா?",
+        "description": "நிறுவன-தர நம்பகத்தன்மை மற்றும் AI-இயங்கும் ஆட்டோமேஷனுடன் 10 நாட்களுக்குள் உங்கள் குழுவை அழைப்புகளில் பெறுங்கள்.",
+        "button": "அமைப்பைத் தொடங்குங்கள்"
       }
     },
     "websiteChat": {
       "navigation": {
-        "backToChannels": "Back to Channels"
-      },
-      "seo": {
-        "title": "Website Widget - Omnichannel Solutions",
-        "description": "Deploy our omnichannel widget on WordPress, Shopify, Squarespace, Wix, MailerLite, and any website. Give customers choice with unified chat, voice, and messaging."
+        "backToChannels": "சேனல்களுக்குத் திரும்பு"
       },
       "hero": {
         "title": {
-          "prefix": "Turn Website Visitors into",
-          "highlight": "Conversations"
+          "prefix": "இணையதள பார்வையாளர்களை",
+          "highlight": "உரையாடல்களாக மாற்றவும்"
         },
-        "subtitle": "Add a powerful AI chat widget to your website in under 5 minutes. Capture leads, provide instant support, and never miss an opportunity.",
+        "description": "5 நிமிடங்களுக்குள் உங்கள் இணையதளத்தில் ஒரு சக்திவாய்ந்த AI அரட்டை விட்ஜெட்டைச் சேர்க்கவும். தடயங்களைப் பிடிக்கவும், உடனடி ஆதரவை வழங்கவும், ஒரு வாய்ப்பையும் தவறவிடாதீர்கள்.",
         "cta": {
-          "primary": "Get Your Free Widget",
-          "secondary": "Book A Demo"
+          "primary": "உங்கள் இலவச விட்ஜெட்டைப் பெறுங்கள்",
+          "secondary": "ஒரு டெமோவை பதிவு செய்யுங்கள்"
         },
         "widget": {
-          "title": "Universal Widget",
+          "title": "இணையதள அரட்டை விட்ஜெட்",
           "welcome": {
-            "greeting": "👋 Welcome!",
-            "question": "How can we help you today?"
+            "greeting": "👋 வரவேற்கிறோம்!",
+            "question": "இன்று நாங்கள் உங்களுக்கு எப்படி உதவ முடியும்?"
           },
           "visitor": {
-            "message": "Visitor: \"Do you offer free shipping?""
+            "message": "பார்வையாளர்: \"நீங்கள் இலவச ஷிப்பிங்கை வழங்குகிறீர்களா?\""
           },
           "ai": {
-            "response": "AI: \"Yes! Free shipping on orders over $50. Would you like to see our current promotions?""
+            "response": "AI: \"ஆம்! $50க்கு மேல் உள்ள ஆர்டர்களுக்கு இலவச ஷிப்பிங். எங்கள் தற்போதைய விளம்பரங்களைப் பார்க்க விரும்புகிறீர்களா?\""
           },
           "button": {
-            "yes": "Yes, show me",
-            "no": "No thanks"
+            "yes": "ஆம், எனக்குக் காட்டு",
+            "no": "வேண்டாம் நன்றி"
           }
         }
       },
       "features": {
-        "title": "Key Features",
-        "subtitle": "Everything you need to engage website visitors and convert them into customers",
+        "title": "முக்கிய அம்சங்கள்",
+        "subtitle": "இணையதள பார்வையாளர்களை ஈடுபடுத்தி அவர்களை வாடிக்கையாளர்களாக மாற்றுவதற்குத் தேவையான அனைத்தும்",
         "noCodeSetup": {
-          "title": "No-Code Setup",
-          "description": "Add to any website in under 5 minutes without technical knowledge required"
+          "title": "குறியீடு இல்லாத அமைப்பு",
+          "description": "தொழில்நுட்ப அறிவு இல்லாமல் 5 நிமிடங்களுக்குள் எந்த இணையதளத்திலும் சேர்க்கவும்"
         },
         "customBranding": {
-          "title": "Custom Branding",
-          "description": "Match your brand with custom colors, fonts, and messaging styles"
+          "title": "தனிப்பயன் பிராண்டிங்",
+          "description": "தனிப்பயன் வண்ணங்கள், எழுத்துருக்கள் மற்றும் செய்தியிடல் பாணிகளுடன் உங்கள் பிராண்டுடன் பொருந்துங்கள்"
         },
         "leadCapture": {
-          "title": "Lead Capture",
-          "description": "Automatically collect visitor information and qualify leads in real-time"
+          "title": "தடம் பிடிப்பு",
+          "description": "பார்வையாளர் தகவல்களை தானாகவே சேகரித்து, நிகழ்நேரத்தில் தடயங்களை தகுதிப்படுத்தவும்"
         },
         "instantResponses": {
-          "title": "Instant Responses",
-          "description": "AI-powered responses provide immediate help to website visitors 24/7"
+          "title": "உடனடி பதில்கள்",
+          "description": "AI-இயங்கும் பதில்கள் இணையதள பார்வையாளர்களுக்கு 24/7 உடனடி உதவியை வழங்குகின்றன"
         }
       },
       "platforms": {
-        "title": "Works with Every Platform",
-        "subtitle": "Easy integration with all major website builders and platforms"
+        "title": "ஒவ்வொரு தளத்துடனும் வேலை செய்கிறது",
+        "subtitle": "அனைத்து முக்கிய இணையதள உருவாக்குநர்கள் மற்றும் தளங்களுடன் எளிதான ஒருங்கிணைப்பு"
       },
       "customization": {
-        "title": "Customization Showcase",
-        "subtitle": "Make the widget truly yours with extensive customization options",
+        "title": "தனிப்பயனாக்க காட்சிப்படுத்தல்",
+        "subtitle": "விரிவான தனிப்பயனாக்க விருப்பங்களுடன் விட்ஜெட்டை உண்மையிலேயே உங்களுடையதாக ஆக்குங்கள்",
         "positionSize": {
-          "title": "Position & Size",
-          "description": "Choose corner placement, size, and visibility settings"
+          "title": "நிலை & அளவு",
+          "description": "மூலை வைப்பு, அளவு மற்றும் தெரிவுநிலை அமைப்புகளைத் தேர்வுசெய்க"
         },
         "colorsFonts": {
-          "title": "Colors & Fonts",
-          "description": "Match your brand colors and typography perfectly"
+          "title": "வண்ணங்கள் & எழுத்துருக்கள்",
+          "description": "உங்கள் பிராண்ட் வண்ணங்கள் மற்றும் அச்சுக்கலையை சரியாகப் பொருத்துங்கள்"
         },
         "welcomeMessages": {
-          "title": "Welcome Messages",
-          "description": "Customize greeting messages and conversation starters"
+          "title": "வரவேற்புச் செய்திகள்",
+          "description": "வாழ்த்துச் செய்திகள் மற்றும் உரையாடல் தொடக்கங்களைத் தனிப்பயனாக்குங்கள்"
         },
         "triggerRules": {
-          "title": "Trigger Rules",
-          "description": "Set when and where the widget appears to visitors"
+          "title": "தூண்டுதல் விதிகள்",
+          "description": "பார்வையாளர்களுக்கு விட்ஜெட் எப்போது, ​​எங்கே தோன்றும் என்பதை அமைக்கவும்"
         },
         "realTimePreview": {
-          "title": "Real-time Preview",
-          "description": "See your changes instantly with our live preview feature. Customize colors, positioning, and messages while seeing exactly how it will look on your website."
+          "title": "நிகழ்நேர முன்னோட்டம்",
+          "description": "எங்கள் நேரடி முன்னோட்ட அம்சத்துடன் உங்கள் மாற்றங்களை உடனடியாகப் பார்க்கவும். வண்ணங்கள், நிலைப்படுத்தல் மற்றும் செய்திகளைத் தனிப்பயனாக்கும்போது அது உங்கள் இணையதளத்தில் எப்படி இருக்கும் என்பதைப் பார்க்கவும்."
         }
       },
       "analytics": {
-        "title": "Powerful Analytics",
-        "subtitle": "Track visitor engagement, conversion rates, and chat performance with detailed analytics",
-        "conversations": "Conversations",
-        "conversionRate": "Conversion Rate",
-        "responseTime": "Response Time",
-        "satisfaction": "Satisfaction"
+        "title": "சக்திவாய்ந்த பகுப்பாய்வு",
+        "subtitle": "விரிவான பகுப்பாய்வுகளுடன் பார்வையாளர் ஈடுபாடு, மாற்று விகிதங்கள் மற்றும் அரட்டை செயல்திறனைக் கண்காணிக்கவும்",
+        "conversations": "உரையாடல்கள்",
+        "conversionRate": "மாற்று விகிதம்",
+        "responseTime": "பதில் நேரம்",
+        "satisfaction": "திருப்தி"
       },
       "cta": {
-        "title": "Ready to Add Chat to Your Website?",
-        "description": "Get your custom chat widget in minutes. No coding required, full customization available.",
-        "button": "Get Widget Code"
+        "title": "உங்கள் இணையதளத்தில் அரட்டையைச் சேர்க்கத் தயாரா?",
+        "description": "5 நிமிடங்களுக்குள் உங்கள் தனிப்பயன் அரட்டை விட்ஜெட்டைப் பெறுங்கள். குறியீட்டு முறை தேவையில்லை, முழு தனிப்பயனாக்கம் கிடைக்கிறது.",
+        "getWidget": "விட்ஜெட் குறியீட்டைப் பெறுங்கள்"
       }
     },
     "instagram": {
       "navigation": {
-        "backToChannels": "Back to Channels"
+        "backToChannels": "சேனல்களுக்குத் திரும்பு"
       },
       "hero": {
         "title": {
-          "prefix": "Scale Your",
-          "highlight": "Instagram Customer Service"
+          "prefix": "உங்கள்",
+          "highlight": "Instagram வாடிக்கையாளர் சேவையை அளவிடவும்"
         },
-        "subtitle": "Handle thousands of Instagram DMs with AI automation while maintaining personal touch. Perfect for brands, influencers, and businesses building communities.",
+        "subtitle": "தனிப்பட்ட தொடர்பைப் பேணும்போது AI ஆட்டோமேஷனுடன் ஆயிரக்கணக்கான Instagram DMகளைக் கையாளவும். சமூகங்களை உருவாக்கும் பிராண்டுகள், செல்வாக்கு செலுத்துபவர்கள் மற்றும் வணிகங்களுக்கு ஏற்றது.",
         "cta": {
-          "primary": "Automate Instagram DMs",
-          "secondary": "See Demo"
+          "primary": "Instagram DMகளை தானியக்கமாக்குங்கள்",
+          "secondary": "டெமோவைப் பார்க்கவும்"
         },
         "demo": {
-          "title": "Instagram DMs",
+          "title": "Instagram DMகள்",
           "user1": {
             "handle": "@sarah_style",
-            "message": "Love this dress! What sizes do you have?"
+            "message": "இந்த ஆடையை விரும்புகிறேன்! உங்களிடம் என்ன அளவுகள் உள்ளன?"
           },
           "ai1": {
-            "response": "AI: \"Hi Sarah! 😍 That dress is available in XS-XL. Would you like me to check stock in your size?"
+            "response": "AI: \"ஹாய் சாரா! 😍 அந்த ஆடை XS-XL இல் கிடைக்கிறது. உங்கள் அளவில் ஸ்டாக்கைச் சரிபார்க்க விரும்புகிறீர்களா?\""
           },
           "user2": {
             "handle": "@mike_fitness",
-            "message": "Can you help me with my order?"
+            "message": "எனது ஆர்டருக்கு உதவ முடியுமா?"
           },
           "ai2": {
-            "response": "AI: \"Of course! Let me connect you with our support team..."
+            "response": "AI: \"நிச்சயமாக! உங்களை எங்கள் ஆதரவுக் குழுவுடன் இணைக்கிறேன்...\""
           }
         }
       },
       "visualFirst": {
-        "title": "Visual-First Approach",
-        "subtitle": "Instagram is all about visuals. Our AI understands images and provides contextual responses"
+        "title": "காட்சி-முதல் அணுகுமுறை",
+        "subtitle": "Instagram அனைத்தும் காட்சிகள் பற்றியது. எங்கள் AI படங்களைப் புரிந்துகொண்டு சூழல் சார்ந்த பதில்களை வழங்குகிறது"
       },
       "features": {
         "imageRecognition": {
-          "title": "Image Recognition",
-          "description": "AI understanding of product images in DMs for intelligent responses and recommendations"
+          "title": "பட அங்கீகாரம்",
+          "description": "அறிவார்ந்த பதில்கள் மற்றும் பரிந்துரைகளுக்கு DMகளில் உள்ள தயாரிப்புப் படங்களின் AI புரிதல்"
         },
         "storyIntegration": {
-          "title": "Story Integration",
-          "description": "Automated responses to story interactions, polls, and questions from your audience"
+          "title": "கதை ஒருங்கிணைப்பு",
+          "description": "உங்கள் பார்வையாளர்களிடமிருந்து கதை தொடர்புகள், கருத்துக் கணிப்புகள் மற்றும் கேள்விகளுக்கு தானியங்கி பதில்கள்"
         },
         "influencerSupport": {
-          "title": "Influencer Support",
-          "description": "Tools for managing high-volume DM conversations and brand partnerships"
+          "title": "செல்வாக்கு செலுத்துபவர் ஆதரவு",
+          "description": "அதிக அளவு DM உரையாடல்கள் மற்றும் பிராண்ட் கூட்டாண்மைகளை நிர்வகிப்பதற்கான கருவிகள்"
         },
         "smartAutomation": {
-          "title": "Smart Automation",
-          "description": "AI-powered responses that maintain your brand voice and personality"
+          "title": "ஸ்மார்ட் ஆட்டோமேஷன்",
+          "description": "உங்கள் பிராண்ட் குரல் மற்றும் ஆளுமையைப் பேணும் AI-இயங்கும் பதில்கள்"
         }
       },
       "useCases": {
-        "title": "Perfect for Every Instagram Business",
-        "subtitle": "From small businesses to major influencers, see how Instagram automation drives results",
+        "title": "ஒவ்வொரு Instagram வணிகத்திற்கும் ஏற்றது",
+        "subtitle": "சிறு வணிகங்கள் முதல் முக்கிய செல்வாக்கு செலுத்துபவர்கள் வரை, Instagram ஆட்டோமேஷன் எவ்வாறு முடிவுகளை இயக்குகிறது என்பதைப் பாருங்கள்",
         "ecommerce": {
-          "title": "E-commerce Brands",
-          "description": "Product inquiries and order support",
-          "metric": "40% faster response"
+          "title": "இ-காமர்ஸ் பிராண்டுகள்",
+          "description": "தயாரிப்பு விசாரணைகள் மற்றும் ஆர்டர் ஆதரவு",
+          "metric": "40% வேகமான பதில்"
         },
         "influencers": {
-          "title": "Influencers",
-          "description": "Fan engagement and collaboration requests",
-          "metric": "10x more conversations"
+          "title": "செல்வாக்கு செலுத்துபவர்கள்",
+          "description": "ரசிகர் ஈடுபாடு மற்றும் ஒத்துழைப்புக் கோரிக்கைகள்",
+          "metric": "10x அதிக உரையாடல்கள்"
         },
         "localBusiness": {
-          "title": "Local Businesses",
-          "description": "Appointment booking and customer service",
-          "metric": "60% more bookings"
+          "title": "உள்ளூர் வணிகங்கள்",
+          "description": "சந்திப்பு முன்பதிவு மற்றும் வாடிக்கையாளர் சேவை",
+          "metric": "60% அதிக முன்பதிவுகள்"
         },
         "contentCreators": {
-          "title": "Content Creators",
-          "description": "Community management and feedback",
-          "metric": "95% satisfaction rate"
+          "title": "உள்ளடக்க உருவாக்குநர்கள்",
+          "description": "சமூக மேலாண்மை மற்றும் பின்னூட்டம்",
+          "metric": "95% திருப்தி விகிதம்"
         }
       },
       "businessIntegration": {
-        "title": "Instagram Business Integration",
-        "subtitle": "Full integration with Instagram Business accounts for professional customer service",
+        "title": "Instagram வணிக ஒருங்கிணைப்பு",
+        "subtitle": "தொழில்முறை வாடிக்கையாளர் சேவைக்காக Instagram வணிகக் கணக்குகளுடன் முழு ஒருங்கிணைப்பு",
         "analyticsIntegration": {
-          "title": "Analytics Integration",
-          "description": "Connect with Instagram Insights for complete performance tracking"
+          "title": "பகுப்பாய்வு ஒருங்கிணைப்பு",
+          "description": "முழுமையான செயல்திறன் கண்காணிப்புக்காக Instagram நுண்ணறிவுகளுடன் இணையுங்கள்"
         },
         "audienceInsights": {
-          "title": "Audience Insights",
-          "description": "Understand your audience better with integrated demographic data"
+          "title": "பார்வையாளர் நுண்ணறிவு",
+          "description": "ஒருங்கிணைந்த மக்கள்தொகைத் தரவுகளுடன் உங்கள் பார்வையாளர்களை நன்கு புரிந்து கொள்ளுங்கள்"
         },
         "engagementTracking": {
-          "title": "Engagement Tracking",
-          "description": "Monitor story interactions, post engagement, and DM performance"
+          "title": "ஈடுபாட்டைக் கண்காணித்தல்",
+          "description": "கதை தொடர்புகள், இடுகை ஈடுபாடு மற்றும் DM செயல்திறனைக் கண்காணிக்கவும்"
         }
       },
       "cta": {
-        "title": "Ready to Scale Your Instagram Presence?",
-        "subtitle": "Join thousands of brands and influencers using AI to provide better customer service and build stronger communities on Instagram.",
-        "primary": "Start Automation",
-        "secondary": "See Demo"
+        "title": "உங்கள் Instagram இருப்பை அளவிடத் தயாரா?",
+        "subtitle": "சிறந்த வாடிக்கையாளர் சேவையை வழங்கவும், Instagram இல் வலுவான சமூகங்களை உருவாக்கவும் AI ஐப் பயன்படுத்தும் ஆயிரக்கணக்கான பிராண்டுகள் மற்றும் செல்வாக்கு செலுத்துபவர்களுடன் சேரவும்.",
+        "primary": "ஆட்டோமேஷனைத் தொடங்குங்கள்",
+        "secondary": "டெமோவைப் பார்க்கவும்"
       }
     },
     "facebookMessenger": {
       "navigation": {
-        "backToChannels": "Back to Channels"
+        "backToChannels": "சேனல்களுக்குத் திரும்பு"
       },
       "hero": {
-        "title": "Turn Facebook Messenger into a",
-        "titleHighlight": "Sales Machine",
-        "subtitle": "Engage your Facebook audience with AI-powered conversations that convert followers into customers. Integrate with Facebook Shop for seamless social commerce.",
+        "title": "Facebook Messenger ஐ ஒரு",
+        "titleHighlight": "விற்பனை இயந்திரமாக மாற்றவும்",
+        "subtitle": "பின்தொடர்பவர்களை வாடிக்கையாளர்களாக மாற்றும் AI-இயங்கும் உரையாடல்களுடன் உங்கள் Facebook பார்வையாளர்களை ஈடுபடுத்துங்கள். தடையற்ற சமூக வர்த்தகத்திற்காக Facebook ஷாப்புடன் ஒருங்கிணைக்கவும்.",
         "cta": {
-          "primary": "Connect Messenger Now",
-          "secondary": "See Demo"
+          "primary": "Messenger ஐ இப்போது இணைக்கவும்",
+          "secondary": "டெமோவைப் பார்க்கவும்"
         },
         "demo": {
           "title": "Facebook Messenger",
-          "customerQuery": "Customer: \"Do you have this in size M?",
-          "aiResponse1": "AI: \"Yes! Size M is available. Here's the product link with current pricing 👇",
-          "productName": "Summer Dress - Size M",
-          "productPrice": "$49.99 • Free shipping",
-          "customerQuery2": "Customer: \"Perfect! Can I get 20% off?",
-          "aiResponse2": "AI: \"I can offer you 15% off with code MESSENGER15! Would you like to complete your order?"
+          "customerQuery": "வாடிக்கையாளர்: \"உங்களிடம் இது M அளவில் உள்ளதா?\"",
+          "aiResponse1": "AI: \"ஆம்! அளவு M கிடைக்கிறது. தற்போதைய விலையுடன் தயாரிப்பு இணைப்பு இங்கே 👇\"",
+          "productName": "கோடைக்கால உடை - அளவு M",
+          "productPrice": "$49.99 • இலவச ஷிப்பிங்",
+          "customerQuery2": "வாடிக்கையாளர்: \"சரியானது! எனக்கு 20% தள்ளுபடி கிடைக்குமா?\"",
+          "aiResponse2": "AI: \"MESSENGER15 என்ற குறியீட்டுடன் நான் உங்களுக்கு 15% தள்ளுபடி வழங்க முடியும்! உங்கள் ஆர்டரை முடிக்க விரும்புகிறீர்களா?\""
         }
       },
       "features": {
-        "title": "Social Commerce Features",
-        "subtitle": "Turn your Facebook presence into a powerful sales channel with integrated commerce features",
+        "title": "சமூக வர்த்தக அம்சங்கள்",
+        "subtitle": "ஒருங்கிணைந்த வர்த்தக அம்சங்களுடன் உங்கள் Facebook இருப்பை ஒரு சக்திவாய்ந்த விற்பனை சேனலாக மாற்றவும்",
         "shopIntegration": {
-          "title": "Facebook Shop Integration",
-          "description": "Direct product recommendations in chat with seamless shopping experience"
+          "title": "Facebook ஷாப் ஒருங்கிணைப்பு",
+          "description": "தடையற்ற ஷாப்பிங் அனுபவத்துடன் அரட்டையில் நேரடி தயாரிப்பு பரிந்துரைகள்"
         },
         "leadGeneration": {
-          "title": "Lead Generation",
-          "description": "Automated lead capture from Messenger conversations with CRM sync"
+          "title": "தடம் உருவாக்கம்",
+          "description": "CRM ஒத்திசைவுடன் Messenger உரையாடல்களிலிருந்து தானியங்கி தடம் பிடிப்பு"
         },
         "socialProof": {
-          "title": "Social Proof",
-          "description": "Customer testimonials and reviews integration for trust building"
+          "title": "சமூகச் சான்று",
+          "description": "நம்பிக்கையை வளர்ப்பதற்கான வாடிக்கையாளர் சான்றுகள் மற்றும் மதிப்புரைகள் ஒருங்கிணைப்பு"
         },
         "instantResponses": {
-          "title": "Instant Responses",
-          "description": "AI-powered responses that engage your Facebook audience 24/7"
+          "title": "உடனடி பதில்கள்",
+          "description": "உங்கள் Facebook பார்வையாளர்களை 24/7 ஈடுபடுத்தும் AI-இயங்கும் பதில்கள்"
         }
       },
       "socialCommerce": {
-        "title": "Complete Social Commerce Solution",
-        "subtitle": "Everything you need to sell directly through Facebook Messenger",
+        "title": "முழுமையான சமூக வர்த்தகத் தீர்வு",
+        "subtitle": "Facebook Messenger மூலம் நேரடியாக விற்க உங்களுக்குத் தேவையான அனைத்தும்",
         "productCatalog": {
-          "title": "Product Catalog Sync",
-          "description": "Automatically sync your Facebook Shop products for instant recommendations"
+          "title": "தயாரிப்பு κατάλογு ஒத்திசைவு",
+          "description": "உடனடி தயாரிப்பு பரிந்துரைகளுக்கு உங்கள் Facebook ஷாப் தயாரிப்புகளை தானாக ஒத்திசைக்கவும்"
         },
         "cartRecovery": {
-          "title": "Cart Recovery",
-          "description": "Re-engage customers who abandoned their shopping carts with personalized messages"
+          "title": "வண்டி மீட்பு",
+          "description": "தனிப்பயனாக்கப்பட்ட செய்திகளுடன் தங்கள் ஷாப்பிங் வண்டிகளைக் கைவிட்ட வாடிக்கையாளர்களை மீண்டும் ஈடுபடுத்துங்கள்"
         },
         "orderTracking": {
-          "title": "Order Tracking",
-          "description": "Provide real-time order updates and shipping information through Messenger"
+          "title": "ஆர்டர் கண்காணிப்பு",
+          "description": "Messenger மூலம் நிகழ்நேர ஆர்டர் புதுப்பிப்புகள் மற்றும் ஷிப்பிங் தகவல்களை வழங்கவும்"
         },
         "customerReviews": {
-          "title": "Customer Reviews",
-          "description": "Collect and showcase customer reviews to build trust and social proof"
+          "title": "வாடிக்கையாளர் மதிப்புரைகள்",
+          "description": "நம்பிக்கை மற்றும் சமூகச் சான்றுகளை உருவாக்க வாடிக்கையாளர் மதிப்புரைகளைச் சேகரித்து காட்சிப்படுத்தவும்"
         }
       },
       "businessEcosystem": {
-        "title": "Facebook Business Ecosystem Integration",
-        "subtitle": "Seamlessly connect with your entire Facebook business presence",
+        "title": "Facebook வணிக சுற்றுச்சூழல் ஒருங்கிணைப்பு",
+        "subtitle": "உங்கள் முழு Facebook வணிக இருப்புடன் தடையின்றி இணையுங்கள்",
         "shop": {
-          "title": "Facebook Shop",
-          "description": "Direct integration with your Facebook Shop for instant product recommendations"
+          "title": "Facebook ஷாப்",
+          "description": "உடனடி தயாரிப்பு பரிந்துரைகளுக்கு உங்கள் Facebook ஷாப்புடன் நேரடி ஒருங்கிணைப்பு"
         },
         "ads": {
-          "title": "Facebook Ads",
-          "description": "Connect ad campaigns with Messenger for seamless customer journeys"
+          "title": "Facebook விளம்பரங்கள்",
+          "description": "தடையற்ற வாடிக்கையாளர் பயணங்களுக்கு விளம்பரப் பிரச்சாரங்களை Messenger உடன் இணைக்கவும்"
         },
         "pages": {
-          "title": "Facebook Pages",
-          "description": "Unified management of page messages and customer interactions"
+          "title": "Facebook பக்கங்கள்",
+          "description": "பக்கச் செய்திகள் மற்றும் வாடிக்கையாளர் தொடர்புகளின் ஒருங்கிணைந்த மேலாண்மை"
         }
       },
       "results": {
-        "title": "Proven Results",
-        "subtitle": "See how businesses are driving real results with Facebook Messenger automation",
+        "title": "நிரூபிக்கப்பட்ட முடிவுகள்",
+        "subtitle": "Facebook Messenger ஆட்டோமேஷனுடன் வணிகங்கள் உண்மையான முடிவுகளை எவ்வாறு இயக்குகின்றன என்பதைப் பாருங்கள்",
         "engagement": {
           "value": "85%",
-          "description": "Higher engagement than email"
+          "description": "மின்னஞ்சலை விட அதிக ஈடுபாடு"
         },
         "conversion": {
           "value": "3x",
-          "description": "Better conversion rates"
+          "description": "சிறந்த மாற்று விகிதங்கள்"
         },
         "costReduction": {
           "value": "60%",
-          "description": "Reduction in support costs"
+          "description": "ஆதரவுச் செலவுகளில் குறைப்பு"
         },
         "availability": {
           "value": "24/7",
-          "description": "Automated customer service"
+          "description": "தானியங்கி வாடிக்கையாளர் சேவை"
         }
       },
       "cta": {
-        "title": "Ready to Transform Your Facebook Presence?",
-        "subtitle": "Connect Facebook Messenger to Seasalt.ai and start converting your social media followers into paying customers.",
-        "primary": "Connect Messenger",
-        "secondary": "Book A Demo"
+        "title": "உங்கள் Facebook இருப்பை மாற்றத் தயாரா?",
+        "subtitle": "Facebook Messenger ஐ Seasalt.ai உடன் இணைத்து, உங்கள் சமூக ஊடகப் பின்தொடர்பவர்களை பணம் செலுத்தும் வாடிக்கையாளர்களாக மாற்றத் தொடங்குங்கள்.",
+        "primary": "Messenger ஐ இணைக்கவும்",
+        "secondary": "ஒரு டெமோவை பதிவு செய்யுங்கள்"
       }
     },
     "contactForms": {
       "seo": {
-        "title": "Contact Forms Integration - Seasalt.ai",
-        "description": "Turn your contact forms into conversations with AI. Seamlessly integrate with MailerLite, HubSpot, Mailchimp and more for instant lead engagement."
+        "title": "தொடர்பு படிவங்கள் ஒருங்கிணைப்பு - Seasalt.ai",
+        "description": "AI உடன் உங்கள் தொடர்பு படிவங்களை உரையாடல்களாக மாற்றவும். உடனடி தடம் ஈடுபாட்டிற்காக MailerLite, HubSpot, Mailchimp மற்றும் பலவற்றுடன் தடையின்றி ஒருங்கிணைக்கவும்."
       },
       "nav": {
-        "backToChannels": "Back to Channels"
+        "backToChannels": "சேனல்களுக்குத் திரும்பு"
       },
       "hero": {
         "title": {
-          "part1": "Turn Contact Forms into",
-          "part2": "Conversations"
+          "part1": "தொடர்பு படிவங்களை",
+          "part2": "உரையாடல்களாக மாற்றவும்"
         },
-        "subtitle": "Automatically capture leads from your email marketing forms and engage them instantly with AI-powered conversations. Works with MailerLite, HubSpot, Mailchimp, and more.",
-        "ctaPrimary": "Connect Your Forms",
-        "ctaSecondary": "See Demo",
+        "subtitle": "உங்கள் மின்னஞ்சல் சந்தைப்படுத்தல் படிவங்களிலிருந்து தடயங்களை தானாகவே கைப்பற்றி, AI-இயங்கும் உரையாடல்களுடன் உடனடியாக அவர்களை ஈடுபடுத்துங்கள். MailerLite, HubSpot, Mailchimp மற்றும் பலவற்றுடன் வேலை செய்கிறது.",
+        "ctaPrimary": "உங்கள் படிவங்களை இணைக்கவும்",
+        "ctaSecondary": "டெமோவைப் பார்க்கவும்",
         "demo": {
-          "title": "Form Integration",
-          "submission": "📝 New Form Submission",
-          "submitter": "Sarah Johnson • sarah@email.com",
-          "aiGreeting": "AI: \"Hi Sarah! Thanks for your interest. I can help you get started right away. What's your main goal?",
-          "userResponse": "Sarah: \"I want to improve my email marketing",
-          "aiSchedule": "AI: \"Perfect! I can schedule a 15-min strategy call with our expert. Are you free tomorrow at 2 PM?",
-          "meetingConfirmed": "✅ Meeting scheduled automatically"
+          "title": "படிவ ஒருங்கிணைப்பு",
+          "submission": "📝 புதிய படிவச் சமர்ப்பிப்பு",
+          "submitter": "சாரா ஜான்சன் • sarah@email.com",
+          "aiGreeting": "AI: \"ஹாய் சாரா! உங்கள் ஆர்வத்திற்கு நன்றி. நான் உங்களுக்கு உடனடியாகத் தொடங்க உதவ முடியும். உங்கள் முக்கிய குறிக்கோள் என்ன?\"",
+          "userResponse": "சாரா: \"எனது மின்னஞ்சல் சந்தைப்படுத்தலை மேம்படுத்த விரும்புகிறேன்\"",
+          "aiSchedule": "AI: \"சரியானது! நான் எங்கள் நிபுணருடன் 15 நிமிட உத்தி அழைப்பைத் திட்டமிட முடியும். நாளை மதியம் 2 மணிக்கு நீங்கள் ஓய்வாக இருக்கிறீர்களா?\"",
+          "meetingConfirmed": "✅ சந்திப்பு தானாகவே திட்டமிடப்பட்டது"
         }
       },
       "platforms": {
-        "title": "Supported Platforms",
-        "subtitle": "Seamless integration with all major email marketing platforms and form builders",
+        "title": "ஆதரிக்கப்படும் தளங்கள்",
+        "subtitle": "அனைத்து முக்கிய மின்னஞ்சல் சந்தைப்படுத்தல் தளங்கள் மற்றும் படிவ உருவாக்குநர்களுடன் தடையற்ற ஒருங்கிணைப்பு",
         "mailerlite": {
           "name": "MailerLite",
-          "description": "Seamless lead sync from MailerLite contact forms"
+          "description": "MailerLite தொடர்பு படிவங்களிலிருந்து தடையற்ற தடம் ஒத்திசைவு"
         },
         "mailchimp": {
           "name": "Mailchimp",
-          "description": "Direct integration with Mailchimp signup forms"
+          "description": "Mailchimp பதிவு படிவங்களுடன் நேரடி ஒருங்கிணைப்பு"
         },
         "constantContact": {
           "name": "Constant Contact",
-          "description": "Lead capture from Constant Contact forms"
+          "description": "Constant Contact படிவங்களிலிருந்து தடம் பிடிப்பு"
         },
         "hubspot": {
           "name": "HubSpot",
-          "description": "Advanced form integration with HubSpot marketing"
+          "description": "HubSpot சந்தைப்படுத்தலுடன் மேம்பட்ட படிவ ஒருங்கிணைப்பு"
         },
         "customForms": {
-          "name": "Custom Forms",
-          "description": "Support for any website contact form via API"
+          "name": "தனிப்பயன் படிவங்கள்",
+          "description": "API வழியாக எந்த இணையதளத் தொடர்பு படிவத்திற்கும் ஆதரவு"
         },
         "wordpress": {
           "name": "WordPress",
-          "description": "Native integration with WordPress contact forms"
+          "description": "WordPress தொடர்பு படிவங்களுடன் நேட்டிவ் ஒருங்கிணைப்பு"
         }
       },
       "features": {
-        "title": "Lead Management Features",
-        "subtitle": "Turn form submissions into qualified leads with intelligent automation",
+        "title": "தடம் மேலாண்மை அம்சங்கள்",
+        "subtitle": "அறிவார்ந்த ஆட்டோமேஷனுடன் படிவச் சமர்ப்பிப்புகளை தகுதிவாய்ந்த தடயங்களாக மாற்றவும்",
         "instantEngagement": {
-          "title": "Instant Engagement",
-          "description": "AI agent responds to form submissions immediately, while leads are hot"
+          "title": "உடனடி ஈடுபாடு",
+          "description": "AI முகவர் படிவச் சமர்ப்பிப்புகளுக்கு உடனடியாக பதிலளிக்கிறது, தடயங்கள் சூடாக இருக்கும்போது"
         },
         "leadQualification": {
-          "title": "Lead Qualification",
-          "description": "Automated follow-up questions to qualify prospects before human handoff"
+          "title": "தடம் தகுதி",
+          "description": "மனித ஒப்படைப்புக்கு முன் வாய்ப்புகளை தகுதிப்படுத்த தானியங்கி பின்தொடர்தல் கேள்விகள்"
         },
         "multiChannel": {
-          "title": "Multi-Channel Follow-up",
-          "description": "Continue conversations via WhatsApp, SMS, or phone seamlessly"
+          "title": "பல சேனல் பின்தொடர்தல்",
+          "description": "வாட்ஸ்அப், எஸ்எம்எஸ் அல்லது தொலைபேசி வழியாக உரையாடல்களைத் தடையின்றித் தொடரவும்"
         },
         "conversionTracking": {
-          "title": "Conversion Tracking",
-          "description": "Monitor form-to-customer conversion rates and optimize performance"
+          "title": "மாற்றக் கண்காணிப்பு",
+          "description": "படிவத்திலிருந்து வாடிக்கையாளர் மாற்று விகிதங்களைக் கண்காணித்து செயல்திறனை மேம்படுத்தவும்"
         }
       },
       "useCases": {
-        "title": "Use Cases",
-        "subtitle": "See how different types of forms can be enhanced with AI conversations",
+        "title": "பயன்பாட்டு வழக்குகள்",
+        "subtitle": "AI உரையாடல்களுடன் வெவ்வேறு வகையான படிவங்களை எவ்வாறு மேம்படுத்தலாம் என்பதைப் பாருங்கள்",
         "newsletter": {
-          "title": "Newsletter Signups",
-          "description": "Engage new subscribers with welcome conversations",
-          "example": "Thanks for subscribing! What topics interest you most?"
+          "title": "செய்திமடல் பதிவுகள்",
+          "description": "வரவேற்பு உரையாடல்களுடன் புதிய சந்தாதாரர்களை ஈடுபடுத்துங்கள்",
+          "example": "பதிவு செய்ததற்கு நன்றி! உங்களுக்கு மிகவும் விருப்பமான தலைப்புகள் யாவை?"
         },
         "demoRequests": {
-          "title": "Demo Requests",
-          "description": "Instantly qualify and schedule product demonstrations",
-          "example": "I can schedule your demo right now. What's your preferred time?"
+          "title": "டெமோ கோரிக்கைகள்",
+          "description": "தயாரிப்பு விளக்கங்களை உடனடியாக தகுதிப்படுத்தி திட்டமிடுங்கள்",
+          "example": "நான் உங்கள் டெமோவை இப்போதே திட்டமிட முடியும். உங்களுக்கு விருப்பமான நேரம் என்ன?"
         },
         "contactInquiries": {
-          "title": "Contact Inquiries",
-          "description": "Provide immediate responses to general inquiries",
-          "example": "I'm here to help! What specific information do you need?"
+          "title": "தொடர்பு விசாரணைகள்",
+          "description": "பொதுவான விசாரணைகளுக்கு உடனடி பதில்களை வழங்கவும்",
+          "example": "நான் உதவ இங்கே இருக்கிறேன்! உங்களுக்கு என்ன குறிப்பிட்ட தகவல் தேவை?"
         },
         "leadMagnets": {
-          "title": "Lead Magnets",
-          "description": "Follow up on content downloads with personalized outreach",
-          "example": "Did you find the guide helpful? I can answer any questions!"
+          "title": "தடம் காந்தங்கள்",
+          "description": "தனிப்பயனாக்கப்பட்ட அவுட்ரீச்சுடன் உள்ளடக்கப் பதிவிறக்கங்களைப் பின்தொடரவும்",
+          "example": "வழிகாட்டி உதவியாக இருந்ததா? நான் எந்தக் கேள்விகளுக்கும் பதிலளிக்க முடியும்!"
         }
       },
       "benefits": {
-        "title": "Integration Benefits",
-        "subtitle": "See the immediate impact of connecting your forms to conversational AI",
-        "responseRates": "Higher response rates",
-        "qualification": "Faster lead qualification",
-        "meetings": "More qualified meetings",
-        "engagement": "Lead engagement"
+        "title": "ஒருங்கிணைப்பு நன்மைகள்",
+        "subtitle": "உங்கள் படிவங்களை உரையாடல் AI உடன் இணைப்பதன் உடனடி தாக்கத்தைப் பாருங்கள்",
+        "responseRates": "அதிக பதில் விகிதங்கள்",
+        "qualification": "வேகமான தடம் தகுதி",
+        "meetings": "കൂടുതൽ യോഗ്യതയുള്ള മീറ്റിംഗുകൾ",
+        "engagement": "தடம் ஈடுபாடு"
       },
       "cta": {
-        "title": "Ready to Supercharge Your Forms?",
-        "subtitle": "Connect your contact forms to Seasalt.ai and start converting more leads with instant AI-powered conversations.",
-        "action": "Connect Forms Now"
+        "title": "உங்கள் படிவங்களை சூப்பர்சார்ஜ் செய்யத் தயாரா?",
+        "subtitle": "உங்கள் தொடர்பு படிவங்களை Seasalt.ai உடன் இணைத்து, உடனடி AI-இயங்கும் உரையாடல்களுடன் அதிக தடயங்களை மாற்றத் தொடங்குங்கள்.",
+        "action": "படிவங்களை இப்போது இணைக்கவும்"
       }
     },
     "line": {
       "seo": {
-        "title": "LINE Integration - Seasalt.ai Solutions",
-        "description": "See how Seasalt.ai helps businesses improve customer communications and drive growth through LINE integration for Asian markets."
+        "title": "LINE ஒருங்கிணைப்பு - Seasalt.ai தீர்வுகள்",
+        "description": "ஆசிய சந்தைகளுக்கான LINE ஒருங்கிணைப்பு மூலம் வணிகங்கள் வாடிக்கையாளர் தகவல்தொடர்புகளை மேம்படுத்தவும், வளர்ச்சியை இயக்கவும் Seasalt.ai எவ்வாறு உதவுகிறது என்பதைப் பாருங்கள்."
       },
       "navigation": {
-        "backToChannels": "Back to Channels"
+        "backToChannels": "சேனல்களுக்குத் திரும்பு"
       },
       "hero": {
-        "title": "Dominate Asian Markets with LINE Integration",
-        "subtitle": "Connect with over 200 million LINE users across Asia with AI-powered conversations and business messaging. Perfect for businesses targeting Japanese, Taiwanese, Thai, and Korean markets.",
+        "title": "LINE ஒருங்கிணைப்புடன் ஆசிய சந்தைகளில் ஆதிக்கம் செலுத்துங்கள்",
+        "subtitle": "AI-இயங்கும் உரையாடல்கள் மற்றும் வணிக செய்தியிடல் மூலம் ஆசியா முழுவதும் 200 மில்லியனுக்கும் அதிகமான LINE பயனர்களுடன் இணையுங்கள். ஜப்பானிய, தைவானிய, தாய் மற்றும் கொரிய சந்தைகளை இலக்காகக் கொண்ட வணிகங்களுக்கு ஏற்றது.",
         "cta": {
-          "startIntegration": "Start LINE Integration",
-          "seeDemo": "See Demo"
+          "startIntegration": "LINE ஒருங்கிணைப்பைத் தொடங்குங்கள்",
+          "seeDemo": "டெமோவைப் பார்க்கவும்"
         },
         "demo": {
-          "title": "LINE Business",
+          "title": "LINE வணிகம்",
           "customer": "商品について質問があります",
-          "customerTranslation": "(I have a question about the product)",
+          "customerTranslation": "(தயாரிப்பு பற்றி எனக்கு ஒரு கேள்வி உள்ளது)",
           "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
-          "ai1Translation": "(Hello! I'm happy to help. Which product?)",
-          "stickerMessage": "Sticker: Thank you!",
+          "ai1Translation": "(வணக்கம்! உதவுவதில் மகிழ்ச்சி. எந்தத் தயாரிப்பு?)",
+          "stickerMessage": "ஸ்டிக்கர்: நன்றி!",
           "ai2": "どういたしまして！他にご質問はありますか？",
-          "ai2Translation": "(You're welcome! Any other questions?)"
+          "ai2Translation": "(வரவேற்கிறோம்! வேறு ஏதேனும் கேள்விகள் உள்ளதா?)"
         }
       },
       "marketFocus": {
-        "title": "Market Focus",
-        "subtitle": "LINE's dominance in key Asian markets makes it essential for businesses targeting these regions",
-        "activeUsers": "Active Users",
-        "marketPenetration": "Market Penetration"
+        "title": "சந்தைக் கவனம்",
+        "subtitle": "முக்கிய ஆசிய சந்தைகளில் LINE இன் ஆதிக்கம் இந்த பிராந்தியங்களை இலக்காகக் கொண்ட வணிகங்களுக்கு அவசியமாக்குகிறது",
+        "activeUsers": "செயலில் உள்ள பயனர்கள்",
+        "marketPenetration": "சந்தை ஊடுருவல்"
       },
       "markets": {
         "JP": {
-          "country": "Japan",
+          "country": "ஜப்பான்",
           "users": "95M",
           "penetration": "75%"
         },
         "TW": {
-          "country": "Taiwan",
+          "country": "தைவான்",
           "users": "21M",
           "penetration": "90%"
         },
         "TH": {
-          "country": "Thailand",
+          "country": "தாய்லாந்து",
           "users": "53M",
           "penetration": "76%"
         },
         "KR": {
-          "country": "South Korea",
+          "country": "தென் கொரியா",
           "users": "35M",
           "penetration": "68%"
         }
       },
       "features": {
-        "title": "LINE Business Features",
-        "subtitle": "Leverage LINE's unique features for business communication and customer engagement",
+        "title": "LINE வணிக அம்சங்கள்",
+        "subtitle": "வணிகத் தகவல்தொடர்பு மற்றும் வாடிக்கையாளர் ஈடுபாட்டிற்காக LINE இன் தனித்துவமான அம்சங்களைப் பயன்படுத்தவும்",
         "regionalDominance": {
-          "title": "Regional Dominance",
-          "description": "Access to over 200 million LINE users across key Asian markets"
+          "title": "பிராந்திய ஆதிக்கம்",
+          "description": "முக்கிய ஆசிய சந்தைகளில் 200 மில்லியனுக்கும் அதிகமான LINE பயனர்களுக்கான அணுகல்"
         },
         "officialAccount": {
-          "title": "LINE Official Account",
-          "description": "Full integration with LINE Official Account for business messaging"
+          "title": "LINE அதிகாரப்பூர்வ கணக்கு",
+          "description": "வணிக செய்தியிடலுக்காக LINE அதிகாரப்பூர்வ கணக்குடன் முழு ஒருங்கிணைப்பு"
         },
         "richMessaging": {
-          "title": "Rich Messaging",
-          "description": "Support for stickers, rich menus, and interactive message formats"
+          "title": "ரிச் மெசேஜிங்",
+          "description": "ஸ்டிக்கர்கள், ரிச் மெனுக்கள் மற்றும் ஊடாடும் செய்தி வடிவங்களுக்கான ஆதரவு"
         },
         "culturalAdaptation": {
-          "title": "Cultural Adaptation",
-          "description": "Localized messaging features optimized for different Asian markets"
+          "title": "கலாச்சாரத் தழுவல்",
+          "description": "வெவ்வேறு ஆசிய சந்தைகளுக்கு உகந்ததாக்கப்பட்ட உள்ளூர்மயமாக்கப்பட்ட செய்தியிடல் அம்சங்கள்"
         }
       },
       "businessMessaging": {
-        "title": "Advanced Business Messaging",
-        "subtitle": "Take advantage of LINE's rich messaging features for enhanced customer experiences"
+        "title": "மேம்பட்ட வணிக செய்தியிடல்",
+        "subtitle": "மேம்பட்ட வாடிக்கையாளர் அனுபவங்களுக்கு LINE இன் ரிச் மெசேஜிங் அம்சங்களைப் பயன்படுத்திக் கொள்ளுங்கள்"
       },
       "businessFeatures": {
         "payIntegration": {
-          "title": "LINE Pay Integration",
-          "description": "Accept payments directly through LINE for seamless transactions"
+          "title": "LINE Pay ஒருங்கிணைப்பு",
+          "description": "தடையற்ற பரிவர்த்தனைகளுக்கு LINE மூலம் நேரடியாக பணம் செலுத்துங்கள்"
         },
         "richMenu": {
-          "title": "Rich Menu Design",
-          "description": "Create interactive menus for easy customer navigation"
+          "title": "ரிச் மெனு வடிவமைப்பு",
+          "description": "எளிதான வாடிக்கையாளர் வழிசெலுத்தலுக்கு ஊடாடும் மெனுக்களை உருவாக்கவும்"
         },
         "broadcast": {
-          "title": "Broadcast Messaging",
-          "description": "Send targeted messages to your LINE followers"
+          "title": "ஒளிபரப்புச் செய்தியிடல்",
+          "description": "உங்கள் LINE பின்தொடர்பவர்களுக்கு இலக்கு செய்திகளை அனுப்பவும்"
         },
         "chatbot": {
-          "title": "Chatbot Builder",
-          "description": "Visual chatbot builder optimized for LINE interactions"
+          "title": "சாட்பாட் உருவாக்குநர்",
+          "description": "LINE தொடர்புகளுக்கு உகந்ததாக்கப்பட்ட காட்சி சாட்பாட் உருவாக்குநர்"
         }
       },
       "culturalAdaptationSection": {
-        "title": "Cultural Adaptation",
-        "subtitle": "Our AI understands cultural nuances and communication styles across different Asian markets"
+        "title": "கலாச்சாரத் தழுவல்",
+        "subtitle": "எங்கள் AI வெவ்வேறு ஆசிய சந்தைகளில் கலாச்சார நுணுக்கங்கள் மற்றும் தகவல்தொடர்பு பாணிகளைப் புரிந்துகொள்கிறது"
       },
       "culturalFeatures": {
         "localized": {
-          "title": "Localized Responses",
-          "description": "AI responses adapted for local communication styles and cultural preferences"
+          "title": "உள்ளூர்மயமாக்கப்பட்ட பதில்கள்",
+          "description": "உள்ளூர் தகவல்தொடர்பு பாணிகள் மற்றும் கலாச்சார விருப்பங்களுக்கு ஏற்றவாறு AI பதில்கள்"
         },
         "multiLanguage": {
-          "title": "Multi-Language Support",
-          "description": "Native support for Japanese, Chinese, Thai, Korean, and English"
+          "title": "பல மொழி ஆதரவு",
+          "description": "ஜப்பானிய, சீன, தாய், கொரிய மற்றும் ஆங்கிலத்திற்கான நேட்டிவ் ஆதரவு"
         },
         "sticker": {
-          "title": "Sticker Integration",
-          "description": "Smart use of LINE stickers and emojis for natural conversations"
+          "title": "ஸ்டிக்கர் ஒருங்கிணைப்பு",
+          "description": "இயற்கையான உரையாடல்களுக்கு LINE ஸ்டிக்கர்கள் மற்றும் ஈமோஜிகளின் ஸ்மார்ட் பயன்பாடு"
         }
       },
       "cta": {
-        "title": "Ready to Enter Asian Markets?",
-        "subtitle": "Connect with millions of potential customers across Asia through LINE's dominant messaging platform.",
-        "startIntegration": "Start LINE Integration"
+        "title": "ஆசிய சந்தைகளில் நுழையத் தயாரா?",
+        "subtitle": "LINE இன் ஆதிக்கமிக்க செய்தியிடல் தளம் மூலம் ஆசியா முழுவதும் மில்லியன் கணக்கான சாத்தியமான வாடிக்கையாளர்களுடன் இணையுங்கள்.",
+        "startIntegration": "LINE ஒருங்கிணைப்பைத் தொடங்குங்கள்"
       }
     },
     "websiteWidget": {
       "navigation": {
-        "backToChannels": "Back to Channels"
+        "backToChannels": "சேனல்களுக்குத் திரும்பு"
       },
       "seo": {
-        "title": "Website Widget - Omnichannel Solutions",
-        "description": "Deploy our omnichannel widget on WordPress, Shopify, Squarespace, Wix, MailerLite, and any website. Give customers choice with unified chat, voice, and messaging."
+        "title": "இணையதள விட்ஜெட் - ஆம்னிசேனல் தீர்வுகள்",
+        "description": "WordPress, Shopify, Squarespace, Wix, MailerLite மற்றும் எந்த இணையதளத்திலும் எங்கள் ஆம்னிசேனல் விட்ஜெட்டைப் பயன்படுத்தவும். ஒருங்கிணைந்த அரட்டை, குரல் மற்றும் செய்தியிடல் மூலம் வாடிக்கையாளர்களுக்குத் தேர்வை வழங்குங்கள்."
       },
       "hero": {
-        "title": "One Widget,",
-        "titleHighlight": "Every Platform",
-        "subtitle": "Deploy our omnichannel widget on WordPress, Shopify, Squarespace, Wix, MailerLite, and any website. Give customers choice with unified chat, voice, and messaging.",
+        "title": "ஒரு விட்ஜெட்,",
+        "titleHighlight": "ஒவ்வொரு தளமும்",
+        "subtitle": "WordPress, Shopify, Squarespace, Wix, MailerLite மற்றும் எந்த இணையதளத்திலும் எங்கள் ஆம்னிசேனல் விட்ஜெட்டைப் பயன்படுத்தவும். ஒருங்கிணைந்த அரட்டை, குரல் மற்றும் செய்தியிடல் மூலம் வாடிக்கையாளர்களுக்குத் தேர்வை வழங்குங்கள்.",
         "cta": {
-          "deploy": "Deploy Widget Now",
-          "demo": "Book A Demo"
+          "deploy": "விட்ஜெட்டை இப்போது வரிசைப்படுத்தவும்",
+          "demo": "ஒரு டெமோவை பதிவு செய்யுங்கள்"
         },
         "widget": {
-          "title": "Universal Widget",
+          "title": "யுனிவர்சல் விட்ஜெட்",
           "chat": {
-            "label": "💬 Chat",
-            "description": "Instant messaging support"
+            "label": "💬 அரட்டை",
+            "description": "உடனடி செய்தியிடல் ஆதரவு"
           },
           "voice": {
-            "label": "📞 Voice",
-            "description": "One-click voice calls"
+            "label": "📞 குரல்",
+            "description": "ஒரே கிளிக்கில் குரல் அழைப்புகள்"
           },
           "whatsapp": {
             "label": "📱 WhatsApp",
-            "description": "Direct WhatsApp connection"
+            "description": "நேரடி WhatsApp இணைப்பு"
           },
           "email": {
-            "label": "📧 Email",
-            "description": "Contact form integration"
+            "label": "📧 மின்னஞ்சல்",
+            "description": "தொடர்பு படிவ ஒருங்கிணைப்பு"
           }
         }
       },
       "platforms": {
-        "title": "Works with Every Platform",
-        "subtitle": "No matter what platform you use, our widget integrates seamlessly with your existing website",
+        "title": "ஒவ்வொரு தளத்துடனும் வேலை செய்கிறது",
+        "subtitle": "நீங்கள் எந்தத் தளத்தைப் பயன்படுத்தினாலும், எங்கள் விட்ஜெட் உங்கள் தற்போதைய இணையதளத்துடன் தடையின்றி ஒருங்கிணைக்கிறது",
         "wordpress": {
           "name": "WordPress",
-          "description": "Easy plugin installation for WordPress sites"
+          "description": "WordPress தளங்களுக்கு எளிதான செருகுநிரல் நிறுவல்"
         },
         "shopify": {
           "name": "Shopify",
-          "description": "Native integration with Shopify stores"
+          "description": "Shopify கடைகளுடன் நேட்டிவ் ஒருங்கிணைப்பு"
         },
         "squarespace": {
           "name": "Squarespace",
-          "description": "Simple embed code for Squarespace sites"
+          "description": "Squarespace தளங்களுக்கு எளிய உட்பொதி குறியீடு"
         },
         "wix": {
           "name": "Wix",
-          "description": "Drag-and-drop widget for Wix websites"
+          "description": "Wix இணையதளங்களுக்கு இழுத்தல்-மற்றும்-விடுதல் விட்ஜெட்"
         },
         "mailerlite": {
           "name": "MailerLite",
-          "description": "Direct integration with MailerLite landing pages"
+          "description": "MailerLite இறங்கும் பக்கங்களுடன் நேரடி ஒருங்கிணைப்பு"
         },
         "custom": {
-          "name": "Custom HTML",
-          "description": "Universal embed code for any website"
+          "name": "தனிப்பயன் HTML",
+          "description": "எந்த இணையதளத்திற்கும் யுனிவர்சல் உட்பொதி குறியீடு"
         }
       },
       "features": {
-        "title": "Advanced Features",
-        "subtitle": "More than just a chat widget - a complete customer engagement platform",
+        "title": "மேம்பட்ட அம்சங்கள்",
+        "subtitle": "ஒரு அரட்டை விட்ஜெட்டை விட அதிகம் - ஒரு முழுமையான வாடிக்கையாளர் ஈடுபாட்டுத் தளம்",
         "design": {
-          "title": "Customizable Design",
-          "description": "Match your brand with custom colors, fonts, and positioning options"
+          "title": "தனிப்பயனாக்கக்கூடிய வடிவமைப்பு",
+          "description": "உங்கள் பிராண்டுடன் தனிப்பயன் வண்ணங்கள், எழுத்துருக்கள் மற்றும் நிலைப்படுத்தல் விருப்பங்களுடன் பொருந்துங்கள்"
         },
         "mobile": {
-          "title": "Mobile Responsive",
-          "description": "Perfect experience across all devices and screen sizes"
+          "title": "மொபைல் பதிலளிக்கக்கூடியது",
+          "description": "அனைத்து சாதனங்கள் மற்றும் திரை அளவுகளிலும் சரியான அனுபவம்"
         },
         "nocode": {
-          "title": "No-Code Setup",
-          "description": "Add to any website in under 5 minutes without technical knowledge"
+          "title": "குறியீடு இல்லாத அமைப்பு",
+          "description": "தொழில்நுட்ப அறிவு இல்லாமல் 5 நிமிடங்களுக்குள் எந்த இணையதளத்திலும் சேர்க்கவும்"
         },
         "analytics": {
-          "title": "Advanced Analytics",
-          "description": "Track visitor engagement, conversion rates, and chat performance"
+          "title": "மேம்பட்ட பகுப்பாய்வு",
+          "description": "பார்வையாளர் ஈடுபாடு, மாற்று விகிதங்கள் மற்றும் அரட்டை செயல்திறனைக் கண்காணிக்கவும்"
         }
       },
       "styles": {
-        "title": "Choose Your Style",
-        "subtitle": "Multiple widget styles to match your website design and user experience goals",
+        "title": "உங்கள் பாணியைத் தேர்வுசெய்க",
+        "subtitle": "உங்கள் இணையதள வடிவமைப்பு மற்றும் பயனர் அனுபவ இலக்குகளுடன் பொருந்த பல விட்ஜெட் பாணிகள்",
         "chatBubble": {
-          "name": "Chat Bubble",
-          "description": "Classic floating chat bubble in bottom corner"
+          "name": "அரட்டைக் குமிழி",
+          "description": "கீழ் மூலையில் கிளாசிக் மிதக்கும் அரட்டைக் குமிழி"
         },
         "slidePanel": {
-          "name": "Slide-in Panel",
-          "description": "Elegant slide-in panel from the side"
+          "name": "ஸ்லைடு-இன் பேனல்",
+          "description": "பக்கத்திலிருந்து நேர்த்தியான ஸ்லைடு-இன் பேனல்"
         },
         "embeddedForm": {
-          "name": "Embedded Form",
-          "description": "Inline contact form within page content"
+          "name": "உட்பொதிக்கப்பட்ட படிவம்",
+          "description": "பக்க உள்ளடக்கத்திற்குள் இன்லைன் தொடர்பு படிவம்"
         },
         "fullModal": {
-          "name": "Full-Screen Modal",
-          "description": "Attention-grabbing full-screen overlay"
+          "name": "முழுத் திரை மோடல்",
+          "description": "கவனத்தை ஈர்க்கும் முழுத் திரை மேலடுக்கு"
         }
       },
       "benefits": {
-        "title": "Why Choose Our Widget?",
+        "title": "ஏன் எங்கள் விட்ஜெட்டைத் தேர்வு செய்ய வேண்டும்?",
         "switching": {
-          "title": "Channel Switching",
-          "description": "Seamless transition between chat, voice, and messaging without losing context"
+          "title": "சேனல் மாறுதல்",
+          "description": "சூழலை இழக்காமல் அரட்டை, குரல் மற்றும் செய்தியிடல் இடையே தடையற்ற மாற்றம்"
         },
         "queue": {
-          "title": "Queue Management",
-          "description": "Intelligent routing based on agent availability and customer priority"
+          "title": "வரிசை மேலாண்மை",
+          "description": "முகவர் கிடைக்கும் தன்மை மற்றும் வாடிக்கையாளர் முன்னுரிமையின் அடிப்படையில் அறிவார்ந்த ரூட்டிங்"
         },
         "global": {
-          "title": "Global Support",
-          "description": "Multi-language support and timezone-aware routing for international customers"
+          "title": "உலகளாவிய ஆதரவு",
+          "description": "சர்வதேச வாடிக்கையாளர்களுக்கு பல மொழி ஆதரவு மற்றும் நேர மண்டல-விழிப்புணர்வு ரூட்டிங்"
         }
       },
       "cta": {
-        "title": "Ready to Deploy Your Widget?",
-        "subtitle": "Add powerful omnichannel communication to your website in under 5 minutes. No coding required.",
-        "getWidget": "Get Widget Code"
+        "title": "உங்கள் விட்ஜெட்டை வரிசைப்படுத்தத் தயாரா?",
+        "subtitle": "5 நிமிடங்களுக்குள் உங்கள் இணையதளத்தில் சக்திவாய்ந்த ஆம்னிசேனல் தகவல்தொடர்பைச் சேர்க்கவும். குறியீட்டு முறை தேவையில்லை.",
+        "getWidget": "விட்ஜெட் குறியீட்டைப் பெறுங்கள்"
       }
     }
   },
   "comparison": {
-    "title": "Why Growing Businesses Choose Seasalt.ai Over Other Alternatives",
-    "description": "See how we compare with other solutions. We are the only platform that delivers enterprise-grade features with the simplicity small businesses need.",
-    "recommended": "Recommended",
+    "title": "வளர்ந்து வரும் வணிகங்கள் ஏன் மற்ற மாற்றுகளுக்கு மேல் Seasalt.ai ஐத் தேர்வு செய்கின்றன",
+    "description": "மற்ற தீர்வுகளுடன் நாங்கள் எவ்வாறு ஒப்பிடுகிறோம் என்பதைப் பாருங்கள். நாங்கள் மட்டுமே நிறுவன-தர அம்சங்களை சிறு வணிகங்களுக்குத் தேவையான எளிமையுடன் வழங்கும் தளம்.",
+    "recommended": "பரிந்துரைக்கப்படுகிறது",
     "table": {
       "headers": {
-        "platform": "Platform",
-        "startingPrice": "Starting Price",
-        "pricingModel": "Pricing Model",
-        "unifiedVoiceDigital": "Unified Voice and Digital",
-        "aiCapabilities": "AI Capabilities",
-        "bestFor": "Best For"
+        "platform": "தளம்",
+        "startingPrice": "தொடக்க விலை",
+        "pricingModel": "விலை மாதிரி",
+        "unifiedVoiceDigital": "ஒருங்கிணைந்த குரல் மற்றும் டிஜிட்டல்",
+        "aiCapabilities": "AI திறன்கள்",
+        "bestFor": "சிறந்தது"
       }
     },
     "competitors": {
       "seasalt": {
-        "startingPrice": "$20/agent/month",
-        "pricingModel": "Simple per-user pricing",
-        "unifiedVoiceDigital": "✅ Yes, native support",
-        "aiCapabilities": "✅ Yes, native voice and chatbot",
-        "bestFor": "SMBs that need an affordable truly all-in-one platform."
+        "startingPrice": "$20/முகவர்/மாதம்",
+        "pricingModel": "ஒரு பயனருக்கு எளிய விலை",
+        "unifiedVoiceDigital": "✅ ஆம், நேட்டிவ் ஆதரவு",
+        "aiCapabilities": "✅ ஆம், நேட்டிவ் குரல் மற்றும் சாட்பாட்",
+        "bestFor": "மலிவு விலையில் உண்மையிலேயே அனைத்து-ஒரே தளம் தேவைப்படும் SMBகள்."
       },
       "aircall": {
-        "startingPrice": "$30/user/month",
-        "pricingModel": "Per-user + add-ons",
-        "unifiedVoiceDigital": "⚠️ Voice + WhatsApp (add-on)",
-        "aiCapabilities": "⚠️ AI is a paid add-on",
-        "bestFor": "Sales teams that can afford multiple add-ons and meet the 3-user minimum."
+        "startingPrice": "$30/பயனர்/மாதம்",
+        "pricingModel": "ஒரு பயனருக்கு + துணை நிரல்கள்",
+        "unifiedVoiceDigital": "⚠️ குரல் + வாட்ஸ்அப் (துணை நிரல்)",
+        "aiCapabilities": "⚠️ AI ஒரு கட்டண துணை நிரல்",
+        "bestFor": "பல துணை நிரல்களை வாங்கக்கூடிய மற்றும் 3-பயனர் குறைந்தபட்சத்தை பூர்த்தி செய்யக்கூடிய விற்பனைக் குழுக்கள்."
       },
       "ringcentral": {
-        "startingPrice": "$65/agent/month",
-        "pricingModel": "Complex tiering",
-        "unifiedVoiceDigital": "❌ Separate products",
-        "aiCapabilities": "✅ Yes (AI-powered CCaaS)",
-        "bestFor": "Large companies needing an extensive UCaaS platform with separate CCaaS."
+        "startingPrice": "$65/முகவர்/மாதம்",
+        "pricingModel": "சிக்கலான அடுக்கு",
+        "unifiedVoiceDigital": "❌ தனித்தனி தயாரிப்புகள்",
+        "aiCapabilities": "✅ ஆம் (AI-இயங்கும் CCaaS)",
+        "bestFor": "தனி CCaaS உடன் விரிவான UCaaS தளம் தேவைப்படும் பெரிய நிறுவனங்கள்."
       },
       "genesys": {
-        "startingPrice": "$75/user/month",
-        "pricingModel": "Per-user + high minimums",
-        "unifiedVoiceDigital": "✅ Yes (in premium plans)",
-        "aiCapabilities": "✅ Yes (complex token system)",
-        "bestFor": "Enterprises with dedicated contact center teams and budgets."
+        "startingPrice": "$75/பயனர்/மாதம்",
+        "pricingModel": "ஒரு பயனருக்கு + அதிகபட்ச குறைந்தபட்சங்கள்",
+        "unifiedVoiceDigital": "✅ ஆம் (பிரீமியம் திட்டங்களில்)",
+        "aiCapabilities": "✅ ஆம் (சிக்கலான டோக்கன் அமைப்பு)",
+        "bestFor": "அர்ப்பணிக்கப்பட்ட தொடர்பு மையக் குழுக்கள் மற்றும் பட்ஜெட்டுகளைக் கொண்ட நிறுவனங்கள்."
       },
       "five9": {
-        "name": "Five9",
-        "startingPrice": "$119/user/month",
-        "pricingModel": "Per-user + packages",
-        "unifiedVoiceDigital": "✅ Yes (in premium plans)",
-        "aiCapabilities": "✅ Yes (advanced AI)",
-        "bestFor": "Large outbound-focused contact centers needing enterprise-level tools."
+        "startingPrice": "$119/பயனர்/மாதம்",
+        "pricingModel": "ஒரு பயனருக்கு + தொகுப்புகள்",
+        "unifiedVoiceDigital": "✅ ஆம் (பிரீமியம் திட்டங்களில்)",
+        "aiCapabilities": "✅ ஆம் (மேம்பட்ட AI)",
+        "bestFor": "நிறுவன-நிலை கருவிகள் தேவைப்படும் பெரிய வெளிச்செல்லும்-கவனம் செலுத்தும் தொடர்பு மையங்கள்."
       },
       "googleVoice": {
-        "startingPrice": "$10/user/month",
-        "pricingModel": "Per-user + Workspace fee",
-        "unifiedVoiceDigital": "❌ No",
-        "aiCapabilities": "❌ No (voicemail transcription only)",
-        "bestFor": "Solo entrepreneurs who need a basic standalone phone number (US only)."
+        "startingPrice": "$10/பயனர்/மாதம்",
+        "pricingModel": "ஒரு பயனருக்கு + பணியிடக் கட்டணம்",
+        "unifiedVoiceDigital": "❌ இல்லை",
+        "aiCapabilities": "❌ இல்லை (குரலஞ்சல் டிரான்ஸ்கிரிப்ஷன் மட்டும்)",
+        "bestFor": "அடிப்படை தனித்த தொலைபேசி எண் தேவைப்படும் தனி தொழில்முனைவோர் (அமெரிக்கா மட்டும்)."
       }
     },
     "cta": {
-      "seeAllComparisons": "See all detailed comparisons"
+      "seeAllComparisons": "அனைத்து விரிவான ஒப்பீடுகளையும் காண்க"
     }
   },
   "industriesData": {
     "ecommerce": {
-      "title": "E-commerce",
-      "headline": "Recover Abandoned Carts & Answer Order Questions 24/7",
+      "title": "இ-காமர்ஸ்",
+      "headline": "கைவிடப்பட்ட வண்டிகளை மீட்கவும் & ஆர்டர் கேள்விகளுக்கு 24/7 பதிலளிக்கவும்",
       "benefits": [
-        "Automated order status updates via WhatsApp & SMS",
-        "AI handles \"Where's my package?\" queries instantly",
-        "Recover 15%+ of abandoned carts with smart follow-ups",
-        "Shopify & Squarespace integrations included"
+        "வாட்ஸ்அப் & எஸ்எம்எஸ் வழியாக தானியங்கி ஆர்டர் நிலை புதுப்பிப்புகள்",
+        "AI \"எனது தொகுப்பு எங்கே?\" வினவல்களை உடனடியாகக் கையாளுகிறது",
+        "ஸ்மார்ட் பின்தொடர்தல்களுடன் கைவிடப்பட்ட வண்டிகளில் 15%+ ஐ மீட்கவும்",
+        "Shopify & Squarespace ஒருங்கிணைப்புகள் சேர்க்கப்பட்டுள்ளன"
       ]
     },
     "healthcare": {
-      "title": "Healthcare",
-      "headline": "Book Patient Appointments & Send Reminders Automatically",
+      "title": "சுகாதாரம்",
+      "headline": "நோயாளி சந்திப்புகளை பதிவு செய்யவும் & நினைவூட்டல்களை தானாக அனுப்பவும்",
       "benefits": [
-        "HIPAA-compliant messaging across all channels",
-        "Automated appointment confirmations & reminders",
-        "AI pre-screens patient inquiries before routing",
-        "Reduce no-shows by 25% with smart notifications"
+        "அனைத்து சேனல்களிலும் HIPAA-இணக்கமான செய்தியிடல்",
+        "தானியங்கி சந்திப்பு உறுதிப்படுத்தல்கள் & நினைவூட்டல்கள்",
+        "ரூட்டிங்கிற்கு முன் AI நோயாளி விசாரணைகளை முன்கூட்டியே திரையிடுகிறது",
+        "ஸ்மார்ட் அறிவிப்புகளுடன் வராதவர்களை 25% குறைக்கவும்"
       ]
     },
     "realEstate": {
-      "title": "Real Estate",
-      "headline": "Never Miss a Lead & Schedule Showings via Text, Chat, or Phone",
+      "title": "ரியல் எஸ்டேட்",
+      "headline": "ஒரு தடயத்தையும் தவறவிடாதீர்கள் & உரை, அரட்டை அல்லது தொலைபேசி வழியாக காட்சிகளைத் திட்டமிடுங்கள்",
       "benefits": [
-        "Instant responses to property inquiries 24/7",
-        "Automated showing appointments via AI",
-        "Lead qualification before human handoff",
-        "WhatsApp virtual tours and property photos"
+        "சொத்து விசாரணைகளுக்கு 24/7 உடனடி பதில்கள்",
+        "AI வழியாக தானியங்கி காட்சி சந்திப்புகள்",
+        "மனித ஒப்படைப்புக்கு முன் தடம் தகுதி",
+        "வாட்ஸ்அப் மெய்நிகர் சுற்றுப்பயணங்கள் மற்றும் சொத்துப் புகைப்படங்கள்"
       ]
     },
     "restaurants": {
-      "title": "Restaurants & Hospitality",
-      "headline": "Take Reservations & Handle Orders Across All Channels",
+      "title": "உணவகங்கள் & விருந்தோம்பல்",
+      "headline": "அனைத்து சேனல்களிலும் முன்பதிவுகளை எடுக்கவும் & ஆர்டர்களைக் கையாளவும்",
       "benefits": [
-        "Automated reservation booking via phone & chat",
-        "Menu questions answered instantly by AI",
-        "Order confirmations sent via SMS & WhatsApp",
-        "Handle delivery inquiries without staff interruption"
+        "தொலைபேசி & அரட்டை வழியாக தானியங்கி முன்பதிவு முன்பதிவு",
+        "மெனு கேள்விகளுக்கு AI உடனடியாக பதிலளித்தது",
+        "எஸ்எம்எஸ் & வாட்ஸ்அப் வழியாக அனுப்பப்பட்ட ஆர்டர் உறுதிப்படுத்தல்கள்",
+        "ஊழியர் குறுக்கீடு இல்லாமல் விநியோக விசாரணைகளைக் கையாளவும்"
       ]
     },
     "education": {
-      "title": "Education & Training",
-      "headline": "Streamline Student Communications & Course Inquiries",
+      "title": "கல்வி & பயிற்சி",
+      "headline": "மாணவர் தகவல்தொடர்புகள் & பாடநெறி விசாரணைகளை நெறிப்படுத்தவும்",
       "benefits": [
-        "Automated course enrollment and scheduling",
-        "AI handles common student questions 24/7",
-        "Parent-teacher communication via WhatsApp",
-        "Event notifications and reminders via SMS"
+        "தானியங்கி பாடநெறி சேர்க்கை மற்றும் திட்டமிடல்",
+        "AI பொதுவான மாணவர் கேள்விகளை 24/7 கையாளுகிறது",
+        "வாட்ஸ்அப் வழியாக பெற்றோர்-ஆசிரியர் தொடர்பு",
+        "எஸ்எம்எஸ் வழியாக நிகழ்வு அறிவிப்புகள் மற்றும் நினைவூட்டல்கள்"
       ]
     },
     "automotive": {
-      "title": "Automotive & Services",
-      "headline": "Book Service Appointments & Handle Customer Inquiries",
+      "title": "வாகன & சேவைகள்",
+      "headline": "சேவை சந்திப்புகளை பதிவு செய்யவும் & வாடிக்கையாளர் விசாரணைகளைக் கையாளவும்",
       "benefits": [
-        "Automated service appointment booking",
-        "Vehicle maintenance reminders via SMS",
-        "AI handles parts availability questions",
-        "Service completion notifications with photos"
+        "தானியங்கி சேவை சந்திப்பு முன்பதிவு",
+        "எஸ்எம்எஸ் வழியாக வாகனப் பராமரிப்பு நினைவூட்டல்கள்",
+        "AI பாகங்கள் கிடைக்கும் கேள்விகளைக் கையாளுகிறது",
+        "புகைப்படங்களுடன் சேவை நிறைவு அறிவிப்புகள்"
       ]
     },
     "professional": {
-      "title": "Professional Services",
-      "headline": "Manage Client Communications & Consultation Bookings",
+      "title": "தொழில்முறை சேவைகள்",
+      "headline": "வாடிக்கையாளர் தகவல்தொடர்புகள் & ஆலோசனை முன்பதிவுகளை நிர்வகிக்கவும்",
       "benefits": [
-        "Automated consultation scheduling",
-        "Client intake forms via chat",
-        "Document sharing through secure channels",
-        "Follow-up reminders for appointments"
+        "தானியங்கி ஆலோசனை திட்டமிடல்",
+        "அரட்டை வழியாக வாடிக்கையாளர் உட்கொள்ளும் படிவங்கள்",
+        "பாதுகாப்பான சேனல்கள் மூலம் ஆவணப் பகிர்வு",
+        "சந்திப்புகளுக்கான பின்தொடர்தல் நினைவூட்டல்கள்"
       ]
     },
     "financial": {
-      "title": "Financial Services",
-      "headline": "Secure Client Communications & Appointment Management",
+      "title": "நிதி சேவைகள்",
+      "headline": "பாதுகாப்பான வாடிக்கையாளர் தகவல்தொடர்புகள் & சந்திப்பு மேலாண்மை",
       "benefits": [
-        "FINRA-compliant messaging and recording",
-        "Automated appointment confirmations",
-        "Secure document collection via chat",
-        "Client onboarding workflow automation"
+        "FINRA-இணக்கமான செய்தியிடல் மற்றும் பதிவு",
+        "தானியங்கி சந்திப்பு உறுதிப்படுத்தல்கள்",
+        "அரட்டை வழியாக பாதுகாப்பான ஆவணச் சேகரிப்பு",
+        "வாடிக்கையாளர் ஆன்போர்டிங் பணிப்பாய்வு ஆட்டோமேஷன்"
       ]
     },
     "educationTraining": {
-      "title": "Education & Training",
-      "headline": "Streamline Your Educational Institution with Comprehensive Management Solutions",
+      "title": "கல்வி & பயிற்சி",
+      "headline": "விரிவான மேலாண்மைத் தீர்வுகளுடன் உங்கள் கல்வி நிறுவனத்தை நெறிப்படுத்தவும்",
       "benefits": [
-        "Automated course enrollment and scheduling",
-        "AI handles common student questions 24/7",
-        "Parent-teacher communication via WhatsApp",
-        "Event notifications and reminders via SMS"
+        "தானியங்கி பாடநெறி சேர்க்கை மற்றும் திட்டமிடல்",
+        "AI பொதுவான மாணவர் கேள்விகளை 24/7 கையாளுகிறது",
+        "வாட்ஸ்அப் வழியாக பெற்றோர்-ஆசிரியர் தொடர்பு",
+        "எஸ்எம்எஸ் வழியாக நிகழ்வு அறிவிப்புகள் மற்றும் நினைவூட்டல்கள்"
       ],
-      "benefits[0]": "Simplified student enrollment and record management",
-      "benefits[1]": "Automated scheduling and class management",
-      "benefits[2]": "Enhanced parent-teacher communication tools",
-      "benefits[3]": "Comprehensive reporting and analytics"
+      "benefits[0]": "எளிமைப்படுத்தப்பட்ட மாணவர் சேர்க்கை மற்றும் பதிவு மேலாண்மை",
+      "benefits[1]": "தானியங்கி திட்டமிடல் மற்றும் வகுப்பு மேலாண்மை",
+      "benefits[2]": "மேம்பட்ட பெற்றோர்-ஆசிரியர் தொடர்பு கருவிகள்",
+      "benefits[3]": "விரிவான அறிக்கையிடல் மற்றும் பகுப்பாய்வு"
     }
   },
   "productsData": {
     "seachat": {
       "title": "SeaChat",
-      "description": "Respond to customers 24/7"
+      "description": "வாடிக்கையாளர்களுக்கு 24/7 பதிலளிக்கவும்"
     },
     "seax": {
       "title": "SeaX",
-      "description": "Outreach to customers in bulk"
+      "description": "வாடிக்கையாளர்களுக்கு மொத்தமாக அவுட்ரீச்"
     },
     "seameet": {
       "title": "SeaMeet",
-      "description": "Copilot for meetings & calls"
+      "description": "சந்திப்புகள் & அழைப்புகளுக்கான கோபிலோட்"
     },
     "seavoice": {
       "title": "SeaVoice",
-      "description": "AI voice agents for calls",
+      "description": "அழைப்புகளுக்கான AI குரல் முகவர்கள்",
       "subProducts": {
-        "tts": "Text To Speech",
-        "stt": "Speech To Text",
-        "discord": "Discord STT Bot"
+        "tts": "உரையிலிருந்து பேச்சு",
+        "stt": "பேச்சிலிருந்து உரை",
+        "discord": "டிஸ்கார்ட் STT பாட்"
       }
     }
   },
   "solutionsData": {
     "salesMarketing": {
-      "title": "For Sales & Marketing"
+      "title": "விற்பனை மற்றும் சந்தைப்படுத்தலுக்கு"
     },
     "customerSupport": {
-      "title": "For Customer Support"
+      "title": "வாடிக்கையாளர் ஆதரவுக்கு"
     },
     "aiAutomation": {
-      "title": "AI & Automation"
+      "title": "AI & ஆட்டோமேஷன்"
     },
     "smeOwners": {
-      "title": "For SME Owners"
+      "title": "சிறு மற்றும் நடுத்தர தொழில் உரிமையாளர்களுக்கு"
     }
   }
 }
