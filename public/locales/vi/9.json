@@ -1,0 +1,1600 @@
+{
+  "seax": {
+    "home": {
+      "seo": {
+        "title": "SeaX - Nền tảng tiếp thị SMS, WhatsApp & Thoại hàng loạt | Seasalt.ai",
+        "description": "Mở rộng phạm vi tiếp cận của bạn đến hàng triệu người với các chiến dịch SMS, nhắn tin WhatsApp và thoại AI mạnh mẽ của SeaX. Tỷ lệ gửi cao, phạm vi toàn cầu và phân tích nâng cao."
+      },
+      "scalingProblem": {
+        "title": "Vấn đề tiếp cận thủ công",
+        "subtitle": "Doanh nghiệp của bạn cần tiếp cận hàng ngàn khách hàng, nhưng tiếp cận thủ công không thể mở rộng quy mô. SeaX tự động hóa giao tiếp của bạn trong khi vẫn duy trì sự tiếp xúc cá nhân.",
+        "manualOutreach": {
+          "title": "Tiếp cận thủ công",
+          "description": "Tin nhắn cá nhân tốn thời gian, phạm vi tiếp cận hạn chế, theo dõi không nhất quán"
+        },
+        "seaxAutomation": {
+          "title": "Tự động hóa SeaX",
+          "description": "Hàng triệu tin nhắn trong vài phút, cá nhân hóa do AI hỗ trợ, các chiến dịch theo dõi tự động"
+        },
+        "stats": {
+          "messagesSent": {
+            "value": "10M+",
+            "label": "Tin nhắn đã gửi hàng ngày"
+          },
+          "callsPerHour": {
+            "value": "50K+",
+            "label": "Cuộc gọi mỗi giờ"
+          },
+          "deliveryRate": {
+            "value": "99.5%",
+            "label": "Tỷ lệ gửi"
+          },
+          "roiAverage": {
+            "value": "400%",
+            "label": "ROI trung bình"
+          }
+        }
+      },
+      "features": {
+        "title": "Tính năng quy mô lớn",
+        "subtitle": "Mọi thứ bạn cần để tiếp cận hàng triệu khách hàng trên nhiều kênh",
+        "sms": {
+          "title": "SMS hàng loạt",
+          "description": "Gửi hàng triệu tin nhắn SMS với tỷ lệ gửi 99,5% đến hơn 200 quốc gia"
+        },
+        "whatsapp": {
+          "title": "WhatsApp Business",
+          "description": "Tiếp cận hơn 2 tỷ người dùng WhatsApp với các chiến dịch mẫu và tin nhắn cá nhân hóa"
+        },
+        "voice": {
+          "title": "Chiến dịch giọng nói AI",
+          "description": "Các cuộc gọi điện thoại tự động với giọng nói AI tự nhiên cho các cuộc khảo sát, nhắc nhở và tiếp cận"
+        },
+        "ai": {
+          "title": "Tự động hóa AI",
+          "description": "Theo dõi thông minh, xử lý phản hồi và tối ưu hóa chiến dịch do AI hỗ trợ"
+        }
+      },
+      "leadGeneration": {
+        "title": "Chuyển đổi khách hàng tiềm năng thành khách hàng",
+        "subtitle": "Một hệ thống tạo và nuôi dưỡng khách hàng tiềm năng hoàn chỉnh biến khách hàng tiềm năng thành khách hàng trả tiền",
+        "capture": {
+          "title": "Thu hút",
+          "description": "Thu hút khách hàng tiềm năng bằng các chiến dịch được nhắm mục tiêu trên nhiều kênh"
+        },
+        "qualify": {
+          "title": "Sàng lọc",
+          "description": "Chấm điểm và sàng lọc khách hàng tiềm năng do AI hỗ trợ để xác định khách hàng tiềm năng tốt nhất của bạn"
+        },
+        "nurture": {
+          "title": "Nuôi dưỡng",
+          "description": "Các chuỗi theo dõi tự động xây dựng mối quan hệ và thúc đẩy chuyển đổi"
+        },
+        "close": {
+          "title": "Chốt",
+          "description": "Chuyển giao thông minh cho đội ngũ bán hàng với lịch sử trò chuyện hoàn chỉnh và thông tin khách hàng tiềm năng"
+        }
+      },
+      "howItWorks": {
+        "title": "Cách thức hoạt động",
+        "subtitle": "Bắt đầu trong 4 bước đơn giản và tiếp cận hàng triệu khách hàng trong vài giờ",
+        "timeRequired": "Thời gian yêu cầu: ",
+        "step1": {
+          "number": "01",
+          "title": "Nhập danh bạ của bạn",
+          "description": "Tải lên danh sách liên hệ của bạn từ CSV, Excel hoặc tích hợp với CRM của bạn. Hỗ trợ hàng triệu liên hệ với loại bỏ trùng lặp thông minh.",
+          "time": "2 phút",
+          "illustration": {
+            "checkmark": "✓",
+            "fileName": "contacts_list.csv",
+            "contactCount": "25.847 liên hệ",
+            "dropFiles": "Kéo và thả tệp của bạn vào đây",
+            "browse": "hoặc duyệt để tải lên",
+            "importedCount": "25.847",
+            "contactsImported": "liên hệ đã nhập"
+          }
+        },
+        "step2": {
+          "number": "02",
+          "title": "Chọn kênh của bạn",
+          "description": "Chọn từ SMS, WhatsApp, cuộc gọi thoại hoặc các chiến dịch đa kênh. Mỗi kênh được tối ưu hóa để gửi và tương tác tối đa.",
+          "time": "1 phút",
+          "illustration": {
+            "sms": {
+              "label": "SMS",
+              "rate": "Tỷ lệ mở 98%"
+            },
+            "whatsapp": {
+              "label": "WhatsApp",
+              "rate": "Tỷ lệ mở 90%"
+            },
+            "voice": {
+              "label": "Thoại",
+              "rate": "Tỷ lệ nhấc máy 75%"
+            }
+          }
+        },
+        "step3": {
+          "number": "03",
+          "title": "Tạo chiến dịch của bạn",
+          "description": "Thiết kế tin nhắn của bạn với cá nhân hóa, đặt mục tiêu đối tượng và lên lịch chiến dịch của bạn. Bao gồm kiểm tra A/B.",
+          "time": "5 phút",
+          "illustration": {
+            "campaignDraft": "Bản nháp chiến dịch",
+            "draftStatus": "Bản nháp",
+            "sampleMessage": "Chào {{name}}, chúng tôi có một ưu đãi đặc biệt dành riêng cho bạn! Giảm giá 20% cho đơn hàng tiếp theo của bạn. Trả lời STOP để từ chối.",
+            "previewButton": "Xem trước",
+            "abTestButton": "Kiểm tra A/B",
+            "schedule": "Lên lịch",
+            "now": "Gửi ngay"
+          }
+        },
+        "step4": {
+          "number": "04",
+          "title": "Theo dõi & Tối ưu hóa",
+          "description": "Giám sát hiệu suất chiến dịch theo thời gian thực với phân tích chi tiết. Xem tỷ lệ gửi, phản hồi, chuyển đổi và các chỉ số ROI.",
+          "time": "Đang diễn ra",
+          "illustration": {
+            "campaignStatus": "Trạng thái chiến dịch",
+            "liveStatus": "Trực tiếp",
+            "deliveredCount": "847K",
+            "delivered": "Đã gửi",
+            "responseRate": "12%",
+            "response": "Tỷ lệ phản hồi",
+            "totalCount": "1.2M",
+            "totalMessages": "Tổng số tin nhắn",
+            "deliveryRate": "99.5%",
+            "deliveryRateLabel": "Tỷ lệ gửi",
+            "analytics": "Phân tích hiệu suất thời gian thực với theo dõi chuyển đổi"
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Được các doanh nghiệp đang phát triển tin cậy",
+        "subtitle": "Xem cách các công ty sử dụng SeaX để mở rộng phạm vi tiếp cận khách hàng và thúc đẩy tăng trưởng",
+        "testimonial1": {
+          "quote": "SeaX đã giúp chúng tôi tiếp cận 500 nghìn khách hàng trong một ngày. Tỷ lệ gửi thật đáng kinh ngạc và ROI tự nói lên tất cả.",
+          "author": "Sarah Chen",
+          "role": "Giám đốc tiếp thị, TechStart"
+        },
+        "testimonial2": {
+          "quote": "Chúng tôi đã tăng tỷ lệ chuyển đổi lên 300% bằng cách sử dụng các chiến dịch theo dõi do AI hỗ trợ của SeaX. Thay đổi cuộc chơi cho doanh nghiệp của chúng tôi.",
+          "author": "Mike Rodriguez",
+          "role": "CEO, GrowthCorp"
+        },
+        "testimonial3": {
+          "quote": "Tích hợp WhatsApp liền mạch. Giờ đây chúng tôi có thể có các cuộc trò chuyện cá nhân ở quy mô lớn với cơ sở khách hàng toàn cầu của mình.",
+          "author": "Lisa Park",
+          "role": "Trưởng phòng thành công khách hàng, GlobalTech"
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng mở rộng phạm vi tiếp cận của bạn đến hàng triệu người?",
+        "subtitle": "Tham gia cùng hàng ngàn công ty sử dụng SeaX để tiếp cận nhiều khách hàng hơn, tạo ra nhiều khách hàng tiềm năng hơn và phát triển nhanh hơn.",
+        "demoButton": "Đặt lịch demo",
+        "signupButton": "Bắt đầu dùng thử miễn phí"
+      }
+    },
+    "features": {
+      "seo": {
+        "title": "Tính năng SeaX - Công cụ mạnh mẽ cho giao tiếp hàng loạt",
+        "description": "Khám phá các tính năng mạnh mẽ của SeaX: công cụ nhắn tin hàng loạt, theo dõi do AI hỗ trợ, phân tích thời gian thực và cơ sở hạ tầng cấp doanh nghiệp."
+      },
+      "hero": {
+        "title": "Tính năng mạnh mẽ cho",
+        "titleHighlight": "Giao tiếp hàng loạt",
+        "description": "Mọi thứ bạn cần để tiếp cận hàng triệu khách hàng trên các kênh SMS, WhatsApp và thoại. Được xây dựng để mở rộng quy mô, được thiết kế để mang lại kết quả.",
+        "stats": {
+          "messages": "Hơn 10 triệu tin nhắn mỗi ngày",
+          "countries": "Hơn 200 quốc gia",
+          "security": "Bảo mật doanh nghiệp"
+        }
+      },
+      "core": {
+        "title": "Tính năng cốt lõi",
+        "description": "Các công cụ thiết yếu cung cấp năng lượng cho các chiến dịch giao tiếp hàng loạt của bạn",
+        "bulkMessaging": {
+          "title": "Công cụ nhắn tin hàng loạt",
+          "description": "Gửi hàng triệu tin nhắn SMS, WhatsApp và cuộc gọi điện thoại cùng lúc với độ tin cậy cấp nhà mạng.",
+          "metrics": {
+            "value": "10M+",
+            "label": "Tin nhắn đã gửi hàng ngày"
+          },
+          "benefits": {
+            "0": "Khả năng gửi cấp nhà mạng",
+            "1": "Phạm vi toàn cầu trên hơn 200 quốc gia",
+            "2": "Theo dõi gửi thời gian thực",
+            "3": "Tối ưu hóa định tuyến thông minh"
+          }
+        },
+        "aiFollowup": {
+          "title": "Theo dõi do AI hỗ trợ",
+          "description": "Phản hồi tự động và nuôi dưỡng khách hàng tiềm năng thông minh để sàng lọc khách hàng tiềm năng 24/7.",
+          "metrics": {
+            "value": "85%",
+            "label": "Tỷ lệ sàng lọc khách hàng tiềm năng"
+          },
+          "benefits": {
+            "0": "Xử lý cuộc trò chuyện thông minh",
+            "1": "Chấm điểm khách hàng tiềm năng tự động",
+            "2": "Thời gian phản hồi thông minh",
+            "3": "Hỗ trợ đa ngôn ngữ"
+          }
+        },
+        "analytics": {
+          "title": "Phân tích thời gian thực",
+          "description": "Theo dõi lượt mở, trả lời và chuyển đổi ở quy mô lớn với bảng điều khiển trực tiếp toàn diện.",
+          "metrics": {
+            "value": "99.9%",
+            "label": "Đảm bảo thời gian hoạt động"
+          },
+          "benefits": {
+            "0": "Giám sát chiến dịch trực tiếp",
+            "1": "Theo dõi chuyển đổi",
+            "2": "Thông tin chi tiết hiệu suất",
+            "3": "Báo cáo tùy chỉnh"
+          }
+        },
+        "compliance": {
+          "title": "Tuân thủ & Khả năng gửi",
+          "description": "Phạm vi toàn cầu với tuân thủ nhà mạng và các mẫu tin nhắn được phê duyệt trước.",
+          "metrics": {
+            "value": "200+",
+            "label": "Các quốc gia được hỗ trợ"
+          },
+          "benefits": {
+            "0": "Tuân thủ GDPR",
+            "1": "Quy trình phê duyệt nhà mạng",
+            "2": "Bảo vệ chống spam",
+            "3": "Tuân thủ quy định"
+          }
+        },
+        "collaboration": {
+          "title": "Cộng tác nhóm",
+          "description": "Truy cập đa người dùng, quyền chiến dịch và tài nguyên dùng chung cho các nhóm doanh nghiệp.",
+          "metrics": {
+            "value": "500K+",
+            "label": "Cuộc gọi mỗi giờ"
+          },
+          "benefits": {
+            "0": "Quyền dựa trên vai trò",
+            "1": "Các mẫu chiến dịch dùng chung",
+            "2": "Theo dõi hiệu suất nhóm",
+            "3": "Quy trình làm việc cộng tác"
+          }
+        },
+        "scale": {
+          "title": "Quy mô doanh nghiệp",
+          "description": "Được xây dựng cho những người gửi khối lượng lớn nhất với cơ sở hạ tầng và hỗ trợ chuyên dụng.",
+          "metrics": {
+            "value": "1M+",
+            "label": "Tin nhắn mỗi phút"
+          },
+          "benefits": {
+            "0": "Cơ sở hạ tầng chuyên dụng",
+            "1": "Hỗ trợ ưu tiên",
+            "2": "Tích hợp tùy chỉnh",
+            "3": "SLA doanh nghiệp"
+          }
+        }
+      },
+      "categories": {
+        "title": "Danh mục tính năng",
+        "description": "Khám phá bộ tính năng toàn diện của chúng tôi theo danh mục",
+        "messaging": {
+          "title": "Kênh nhắn tin",
+          "sms": {
+            "name": "SMS (10DLC, Số điện thoại miễn phí, Mã ngắn)",
+            "description": "Tất cả các loại SMS cho mọi nhu cầu kinh doanh"
+          },
+          "whatsapp": {
+            "name": "Nền tảng WhatsApp Business",
+            "description": "Chế độ chiến dịch cho nhắn tin hàng loạt"
+          },
+          "voice": {
+            "name": "Cuộc gọi thoại (hơn 100 quốc gia)",
+            "description": "Các cuộc gọi do AI hỗ trợ qua Twilio"
+          }
+        },
+        "aiAutomation": {
+          "title": "AI & Tự động hóa",
+          "followup": {
+            "name": "Theo dõi do AI hỗ trợ",
+            "description": "Nuôi dưỡng khách hàng tiềm năng thông minh 24/7"
+          },
+          "responses": {
+            "name": "Phản hồi tự động",
+            "description": "Xử lý cuộc trò chuyện thông minh"
+          },
+          "scoring": {
+            "name": "Chấm điểm khách hàng tiềm năng",
+            "description": "Sàng lọc khách hàng tiềm năng do AI điều khiển"
+          }
+        },
+        "analytics": {
+          "title": "Phân tích & Thông tin chi tiết",
+          "dashboard": {
+            "name": "Bảng điều khiển thời gian thực",
+            "description": "Giám sát chiến dịch trực tiếp"
+          },
+          "tracking": {
+            "name": "Theo dõi chuyển đổi",
+            "description": "ROI và các chỉ số hiệu suất"
+          },
+          "reporting": {
+            "name": "Báo cáo tùy chỉnh",
+            "description": "Phân tích và thông tin chi tiết chi tiết"
+          }
+        },
+        "enterprise": {
+          "title": "Doanh nghiệp & Bảo mật",
+          "gdpr": {
+            "name": "Tuân thủ GDPR",
+            "description": "Tuân thủ quy định đầy đủ"
+          },
+          "team": {
+            "name": "Cộng tác nhóm",
+            "description": "Truy cập và quyền đa người dùng"
+          },
+          "sla": {
+            "name": "SLA doanh nghiệp",
+            "description": "Hỗ trợ và thời gian hoạt động chuyên dụng"
+          }
+        }
+      },
+      "integrations": {
+        "title": "Được xây dựng để tích hợp",
+        "description": "Kết nối SeaX với các công cụ và quy trình làm việc hiện có của bạn",
+        "crm": {
+          "title": "Tích hợp CRM",
+          "description": "Kết nối với Salesforce, HubSpot và các hệ thống CRM khác để luân chuyển dữ liệu liền mạch.",
+          "sync": "Đồng bộ hóa hai chiều",
+          "mapping": "Ánh xạ trường tùy chỉnh"
+        },
+        "analytics": {
+          "title": "Công cụ phân tích",
+          "description": "Xuất dữ liệu sang Google Analytics, Mixpanel và các nền tảng phân tích khác.",
+          "exports": "Xuất thời gian thực",
+          "dashboards": "Bảng điều khiển tùy chỉnh"
+        },
+        "api": {
+          "title": "API dành cho nhà phát triển",
+          "description": "API REST đầy đủ cho các tích hợp tùy chỉnh và quy trình làm việc tự động.",
+          "endpoints": "Các điểm cuối RESTful",
+          "webhooks": "Hỗ trợ Webhook"
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng trải nghiệm các tính năng này?",
+        "description": "Xem cách SeaX có thể chuyển đổi chiến lược giao tiếp của bạn",
+        "button": "Đặt lịch demo"
+      }
+    },
+    "channels": {
+      "sms": {
+        "hero": {
+          "stats": {
+            "messagesValue": "10M+",
+            "countriesValue": "200+",
+            "uptimeValue": "99.9%",
+            "deliveryValue": "98%",
+            "messagesSent": "Tin nhắn đã gửi",
+            "countries": "Quốc gia",
+            "uptime": "Thời gian hoạt động",
+            "deliveryRate": "Tỷ lệ gửi"
+          },
+          "preview": {
+            "deliveredValue": "847K",
+            "successValue": "98.2%",
+            "title": "Chiến dịch SMS trực tiếp",
+            "status": "Hoạt động",
+            "messageLabel": "Tin nhắn mẫu",
+            "message": "Chào [Tên], Đừng bỏ lỡ chương trình giảm giá 50% độc quyền của chúng tôi kết thúc hôm nay! Mua sắm ngay: bit.ly/save50",
+            "delivered": "Đã gửi",
+            "successRate": "Tỷ lệ thành công"
+          },
+          "badge": "Kênh SMS",
+          "title": "Mở rộng quy mô SMS của bạn",
+          "titleHighlight": "Đến hàng triệu",
+          "description": "Gửi tin nhắn SMS cá nhân hóa đến hàng triệu khách hàng trên toàn thế giới với tỷ lệ gửi hàng đầu ngành và phân tích thời gian thực.",
+          "cta": {
+            "primary": "Bắt đầu gửi SMS",
+            "secondary": "Lên lịch demo"
+          }
+        },
+        "seo": {
+          "title": "Nền tảng tiếp thị & giao tiếp SMS - SeaX của Seasalt.ai",
+          "description": "Gửi tin nhắn SMS hàng loạt ở quy mô lớn với SeaX. Tiếp cận khách hàng toàn cầu với tỷ lệ gửi 98%, phân tích nâng cao và bảo mật cấp doanh nghiệp cho các chiến dịch tiếp thị và giao tiếp."
+        },
+        "features": {
+          "title": "Tính năng SMS mạnh mẽ",
+          "description": "Mọi thứ bạn cần để tạo, gửi và tối ưu hóa các chiến dịch SMS mang lại kết quả.",
+          "globalReach": {
+            "title": "Phạm vi toàn cầu",
+            "description": "Gửi SMS đến hơn 200 quốc gia với kết nối nhà mạng trực tiếp để có tỷ lệ gửi tối ưu."
+          },
+          "lightningFast": {
+            "title": "Nhanh như chớp",
+            "description": "Tin nhắn được gửi trong vài giây với cập nhật trạng thái thời gian thực và xác nhận gửi."
+          },
+          "secure": {
+            "title": "Bảo mật doanh nghiệp",
+            "description": "Mã hóa cấp ngân hàng, tuân thủ GDPR và xử lý dữ liệu an toàn cho tất cả các giao tiếp của bạn."
+          },
+          "analytics": {
+            "title": "Phân tích nâng cao",
+            "description": "Báo cáo chi tiết về tỷ lệ gửi, tỷ lệ nhấp và các chỉ số hiệu suất chiến dịch."
+          },
+          "bulk": {
+            "title": "Nhắn tin hàng loạt",
+            "description": "Gửi hàng triệu tin nhắn cá nhân hóa cùng lúc với lên lịch và điều tiết thông minh."
+          },
+          "segmentation": {
+            "title": "Phân khúc thông minh",
+            "description": "Nhắm mục tiêu các phân khúc khách hàng cụ thể với tin nhắn cá nhân hóa dựa trên hành vi và sở thích."
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng SMS",
+          "description": "Khám phá cách các doanh nghiệp sử dụng SMS để tương tác với khách hàng và thúc đẩy tăng trưởng.",
+          "marketing": {
+            "title": "Chiến dịch tiếp thị",
+            "description": "Thúc đẩy doanh số với các tin nhắn khuyến mãi, giảm giá chớp nhoáng và ưu đãi cá nhân hóa.",
+            "metrics": "tỷ lệ mở lên đến 45%"
+          },
+          "support": {
+            "title": "Hỗ trợ khách hàng",
+            "description": "Gửi cập nhật đơn hàng, thông báo vận chuyển và tin nhắn hỗ trợ.",
+            "metrics": "95% sự hài lòng của khách hàng"
+          },
+          "appointments": {
+            "title": "Nhắc nhở cuộc hẹn",
+            "description": "Giảm số lần không đến với xác nhận và nhắc nhở cuộc hẹn tự động.",
+            "metrics": "Giảm 60% số lần không đến"
+          },
+          "emergency": {
+            "title": "Cảnh báo khẩn cấp",
+            "description": "Gửi thông báo quan trọng và giao tiếp khẩn cấp ngay lập tức.",
+            "metrics": "Độ tin cậy gửi 99,9%"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng mở rộng quy mô SMS của bạn?",
+          "description": "Tham gia cùng hàng ngàn doanh nghiệp sử dụng SeaX để tiếp cận hàng triệu khách hàng thông qua SMS.",
+          "primary": "Bắt đầu miễn phí",
+          "secondary": "Đặt lịch demo"
+        }
+      },
+      "smsLocal": {
+        "title": "SMS địa phương (10DLC)",
+        "subtitle": "Nhắn tin SMS chuyên nghiệp với các số địa phương đáng tin cậy",
+        "description": "Gửi các chiến dịch SMS khối lượng lớn bằng cách sử dụng các số 10DLC đã đăng ký mang lại độ tin cậy đặc biệt và sự tin cậy của nhà mạng. Hoàn hảo cho các chiến dịch tiếp thị, nhắc nhở cuộc hẹn và thông báo khách hàng.",
+        "seo": {
+          "title": "SMS địa phương (10DLC) - Nhắn tin doanh nghiệp chuyên nghiệp | SeaX",
+          "description": "Gửi các chiến dịch SMS chuyên nghiệp với các số địa phương 10DLC. Khả năng gửi cao, sự tin cậy của nhà mạng và nhắn tin tuân thủ cho giao tiếp doanh nghiệp của bạn."
+        },
+        "hero": {
+          "campaign": {
+            "title": "Bảng điều khiển chiến dịch tiếp thị",
+            "status": "Hoạt động",
+            "messagesSentValue": "2.847",
+            "messagesSent": "Tin nhắn đã gửi",
+            "deliveryRateValue": "98.5%",
+            "deliveryRate": "Tỷ lệ gửi"
+          },
+          "recentActivity": {
+            "title": "Hoạt động gần đây",
+            "marketing": {
+              "title": "Chiến dịch Flash Sale",
+              "details": "Đã gửi đến 1.523 người đăng ký • 89% đã gửi"
+            },
+            "appointment": {
+              "title": "Nhắc nhở cuộc hẹn",
+              "details": "247 nhắc nhở đã gửi • Tỷ lệ không đến 2%"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "98%+",
+          "deliveryRate": "Tỷ lệ gửi",
+          "openRateValue": "96%",
+          "openRate": "Tỷ lệ mở",
+          "supportValue": "24/7",
+          "support": "Hỗ trợ"
+        },
+        "features": {
+          "title": "Tính năng chính",
+          "subtitle": "Mọi thứ bạn cần cho tiếp thị SMS chuyên nghiệp",
+          "items": {
+            "0": "Khả năng gửi cao với sự tin cậy của nhà mạng",
+            "1": "Đăng ký 10DLC và xác minh thương hiệu",
+            "2": "Quy trình phê duyệt chiến dịch trước",
+            "3": "Hỗ trợ nhắn tin hai chiều",
+            "4": "Phân tích và báo cáo nâng cao",
+            "5": "Quản lý từ chối tự động",
+            "6": "Mẫu tin nhắn và cá nhân hóa",
+            "7": "Lên lịch và các chiến dịch nhỏ giọt"
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng hoàn hảo",
+          "subtitle": "Các ứng dụng lý tưởng cho nhắn tin 10DLC",
+          "items": {
+            "0": "Các chiến dịch và khuyến mãi tiếp thị",
+            "1": "Nhắc nhở và xác nhận cuộc hẹn",
+            "2": "Trạng thái đơn hàng và thông báo vận chuyển",
+            "3": "Dịch vụ khách hàng và hỗ trợ",
+            "4": "Thông báo và cảnh báo sự kiện",
+            "5": "Thu thập khảo sát và phản hồi",
+            "6": "Các chuỗi nuôi dưỡng khách hàng tiềm năng",
+            "7": "Giao tiếp khẩn cấp và cấp bách"
+          }
+        },
+        "pricing": {
+          "title": "Giá cả đơn giản, minh bạch",
+          "subtitle": "Không có phí ẩn, chi phí có thể dự đoán được",
+          "setup": {
+            "label": "Thiết lập chiến dịch",
+            "value": "150 đô la"
+          },
+          "monthly": {
+            "label": "Hàng tháng",
+            "value": "2 đô la/số"
+          },
+          "perMessage": {
+            "label": "Mỗi tin nhắn",
+            "value": "0,02 đô la"
+          },
+          "note": "Giá dành cho Hoa Kỳ và Canada. Yêu cầu đăng ký thương hiệu và đăng ký A2P để tuân thủ 10DLC"
+        },
+        "testimonial": {
+          "quote": "Nhắn tin 10DLC đã hoàn toàn chuyển đổi tương tác khách hàng của chúng tôi. Tỷ lệ gửi thật đáng kinh ngạc, và khách hàng tin tưởng các số địa phương của chúng tôi.",
+          "author": "Sarah Chen",
+          "company": "Giám đốc tiếp thị, GrowthTech",
+          "results": "Cải thiện tỷ lệ gửi 35% và tăng tỷ lệ phản hồi khách hàng 42%"
+        },
+        "compliance": {
+          "title": "Tuân thủ đơn giản",
+          "description": "Chúng tôi xử lý tất cả các yêu cầu 10DLC phức tạp để bạn có thể tập trung vào các chiến dịch nhắn tin của mình",
+          "brandRegistration": {
+            "title": "Đăng ký thương hiệu",
+            "description": "Hoàn thành quy trình xác minh thương hiệu với các mạng nhà mạng để có độ tin cậy và khả năng gửi tối đa"
+          },
+          "campaignApproval": {
+            "title": "Phê duyệt chiến dịch trước",
+            "description": "Nhận các chiến dịch của bạn được nhà mạng phê duyệt trước khi ra mắt để đảm bảo tuân thủ và hiệu suất tối ưu"
+          },
+          "monitoring": {
+            "title": "Giám sát liên tục",
+            "description": "Giám sát liên tục hiệu suất chiến dịch và các chỉ số tuân thủ để duy trì tỷ lệ gửi tối ưu"
+          }
+        }
+      },
+      "smsShortCode": {
+        "seo": {
+          "title": "Dịch vụ mã ngắn SMS | Nhắn tin doanh nghiệp khối lượng lớn | SeaX",
+          "description": "Gửi hàng triệu tin nhắn SMS ngay lập tức với mã ngắn cao cấp. Tiếp thị SMS cấp doanh nghiệp, thông báo và giao tiếp hàng loạt với tỷ lệ gửi 99,9%."
+        },
+        "nav": {
+          "backToChannels": "← Quay lại kênh"
+        },
+        "hero": {
+          "title": {
+            "prefix": "SMS cao cấp với",
+            "highlight": "Mã ngắn chuyên dụng"
+          },
+          "subtitle": "Khởi chạy các chiến dịch SMS khối lượng lớn với mã ngắn 5-6 chữ số của riêng bạn. Khả năng gửi tối đa, tốc độ tức thì và nhận diện thương hiệu cao cấp cho các nhà tiếp thị nghiêm túc.",
+          "primaryCta": "Lấy mã ngắn của bạn",
+          "secondaryCta": "Xem demo",
+          "demo": {
+            "title": "Chiến dịch mã ngắn",
+            "code": "Từ: 12345",
+            "message": "FLASH SALE: Giảm giá 50% tất cả mọi thứ! Sử dụng mã SAVE50. Có hiệu lực đến nửa đêm. Trả lời STOP để từ chối.",
+            "delivered": "✅ Đã gửi: 99.847",
+            "rate": "Tỷ lệ gửi 99,9%",
+            "speed": "⚡ Gửi tức thì"
+          },
+          "campaign": {
+            "title": "Bảng điều khiển chiến dịch cao cấp",
+            "status": "Hoạt động",
+            "messagesSentValue": "2.4M",
+            "messagesSent": "Tin nhắn đã gửi",
+            "deliveryRateValue": "99.8%",
+            "deliveryRate": "Tỷ lệ gửi"
+          },
+          "recentActivity": {
+            "title": "Hoạt động gần đây",
+            "marketing": {
+              "title": "Chiến dịch tiếp thị #2024-001",
+              "details": "Khuyến mãi ngày lễ đã gửi đến 1,2 triệu người đăng ký"
+            },
+            "appointment": {
+              "title": "Nhắc nhở cuộc hẹn",
+              "details": "850 nghìn nhắc nhở đã gửi với tỷ lệ mở 95%"
+            }
+          }
+        },
+        "features": {
+          "title": "Tính năng cao cấp",
+          "description": "Trải nghiệm cấp độ cao cấp của tiếp thị SMS với mã ngắn chuyên dụng",
+          "highVolume": {
+            "title": "Dung lượng khối lượng lớn",
+            "description": "Gửi tới 100 tin nhắn mỗi giây với cơ sở hạ tầng mã ngắn chuyên dụng"
+          },
+          "instantDelivery": {
+            "title": "Gửi tức thì",
+            "description": "Không có độ trễ với định tuyến ưu tiên cao nhất qua các mạng nhà mạng"
+          },
+          "brandRecognition": {
+            "title": "Nhận diện thương hiệu",
+            "description": "Các số 5-6 chữ số đáng nhớ mà khách hàng nhận ra và tin cậy"
+          },
+          "deliverability": {
+            "title": "Khả năng gửi tối đa",
+            "description": "Tỷ lệ gửi 99,9% với các mối quan hệ nhà mạng cao cấp và định tuyến chuyên dụng"
+          },
+          "subtitle": "Khả năng SMS cấp doanh nghiệp cho nhắn tin khối lượng lớn",
+          "items": {
+            "ultraHighThroughput": "Thông lượng cực cao: hơn 10.000 tin nhắn mỗi giây",
+            "premiumDelivery": "Các tuyến gửi cao cấp để có độ tin cậy tối đa",
+            "brandRecognition": "Nhận diện thương hiệu nâng cao với mã ngắn đáng nhớ",
+            "carrierApproved": "Được tất cả các nhà mạng lớn phê duyệt trước",
+            "dedicatedSupport": "Quản lý tài khoản và hỗ trợ chuyên dụng",
+            "complianceReady": "Tuân thủ tích hợp với các quy định TCPA và CAN-SPAM"
+          }
+        },
+        "comparison": {
+          "title": "Mã ngắn so với các tùy chọn SMS khác",
+          "description": "Xem tại sao mã ngắn chuyên dụng là lựa chọn cao cấp cho các nhà tiếp thị SMS nghiêm túc",
+          "shortCode": {
+            "title": "Mã ngắn chuyên dụng",
+            "speed": "Gửi tức thì",
+            "volume": "Dung lượng 100 tin nhắn/giây",
+            "deliverability": "Gửi 99,9%",
+            "cost": "1.000-1.500 đô la/tháng",
+            "setup": "Thiết lập 2-3 tuần"
+          },
+          "tollFree": {
+            "title": "Số điện thoại miễn phí",
+            "speed": "Gửi 3-5 giây",
+            "volume": "Dung lượng 25 tin nhắn/giây",
+            "deliverability": "Gửi 98,5%",
+            "cost": "15-50 đô la/tháng",
+            "setup": "Thiết lập 1-2 ngày"
+          },
+          "tenDlc": {
+            "title": "Số địa phương 10DLC",
+            "speed": "Gửi 5-10 giây",
+            "volume": "Dung lượng 10 tin nhắn/giây",
+            "deliverability": "Gửi 95-98%",
+            "cost": "2-10 đô la/tháng",
+            "setup": "Thiết lập 5-10 ngày"
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng",
+          "description": "Mã ngắn xuất sắc trong các kịch bản khối lượng lớn, nhạy cảm về thời gian cụ thể",
+          "flashSales": {
+            "title": "Giảm giá chớp nhoáng & Khuyến mãi",
+            "description": "Các ưu đãi nhạy cảm về thời gian cần gửi tức thì",
+            "example": "FLASH SALE: Giảm giá 50% kết thúc trong 1 giờ!"
+          },
+          "alerts": {
+            "title": "Cảnh báo & Thông báo quan trọng",
+            "description": "Cập nhật khẩn cấp và thông báo quan trọng",
+            "example": "KHẨN CẤP: Bảo trì dịch vụ tối nay 11 giờ tối - 1 giờ sáng"
+          },
+          "contests": {
+            "title": "Cuộc thi & Bỏ phiếu",
+            "description": "Các chiến dịch tương tác yêu cầu phản hồi tức thì",
+            "example": "Bình chọn cho yêu thích của bạn! Nhắn tin A hoặc B đến 12345"
+          },
+          "events": {
+            "title": "Cập nhật sự kiện & Vé",
+            "description": "Cập nhật thời gian thực cho các sự kiện và địa điểm lớn",
+            "example": "Sự kiện bắt đầu trong 30 phút! Cổng 5 hiện đã mở."
+          },
+          "subtitle": "Hoàn hảo cho các giao tiếp khối lượng lớn, nhạy cảm về thời gian",
+          "items": {
+            "massMarketing": "Các chiến dịch và khuyến mãi tiếp thị hàng loạt",
+            "emergencyAlerts": "Cảnh báo khẩn cấp và thông báo quan trọng",
+            "votingPolls": "Bỏ phiếu, thăm dò ý kiến và tương tác với khán giả",
+            "appointmentReminders": "Nhắc nhở cuộc hẹn quy mô lớn",
+            "transactionalSMS": "SMS giao dịch khối lượng lớn",
+            "eventNotifications": "Thông báo và cập nhật sự kiện"
+          }
+        },
+        "requirements": {
+          "title": "Yêu cầu mã ngắn",
+          "description": "Hiểu khoản đầu tư và quy trình cho mã ngắn chuyên dụng",
+          "volume": {
+            "title": "Cam kết khối lượng lớn",
+            "description": "Tối thiểu 100 nghìn tin nhắn mỗi tháng để biện minh cho khoản đầu tư"
+          },
+          "compliance": {
+            "title": "Tuân thủ nghiêm ngặt",
+            "description": "Các yêu cầu tuân thủ nâng cao và kiểm toán nhà mạng thường xuyên"
+          },
+          "setup": {
+            "title": "Thời gian thiết lập",
+            "description": "2-3 tuần để phê duyệt nhà mạng và cung cấp số"
+          },
+          "investment": {
+            "title": "Đầu tư cao cấp",
+            "description": "1.000-1.500 đô la chi phí định kỳ hàng tháng cho định tuyến chuyên dụng"
+          }
+        },
+        "alternatives": {
+          "title": "Xem xét các lựa chọn thay thế này trước",
+          "description": "Đối với hầu hết các doanh nghiệp, các tùy chọn này mang lại giá trị tốt hơn và thiết lập dễ dàng hơn",
+          "recommended": {
+            "title": "Được khuyến nghị cho hầu hết các doanh nghiệp",
+            "tollFree": "SMS số điện thoại miễn phí để nhận diện thương hiệu",
+            "tenDlc": "10DLC để tiếp thị hiệu quả về chi phí",
+            "whatsapp": "WhatsApp để tiếp cận quốc tế"
+          },
+          "whenToUpgrade": {
+            "title": "Khi nào nên nâng cấp lên mã ngắn",
+            "volume": "Gửi hơn 500 nghìn tin nhắn hàng tháng",
+            "speed": "Cần gửi tức thì cho các chiến dịch nhạy cảm về thời gian",
+            "brand": "Nhận diện thương hiệu rất quan trọng đối với chiến lược của bạn",
+            "budget": "Có ngân sách tiếp thị SMS hàng năm hơn 15 nghìn đô la"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng cho tiếp thị SMS cao cấp?",
+          "description": "Mã ngắn hoàn hảo cho các nhà tiếp thị khối lượng lớn cần tốc độ và khả năng gửi tối đa. Hãy thảo luận xem nó có phù hợp với doanh nghiệp của bạn không.",
+          "primary": "Thảo luận yêu cầu mã ngắn",
+          "secondary": "Bắt đầu với SMS số điện thoại miễn phí",
+          "alternative": "Hầu hết các doanh nghiệp bắt đầu với tùy chọn SMS số điện thoại miễn phí của chúng tôi và nâng cấp lên mã ngắn khi họ đạt khối lượng cao hơn."
+        },
+        "title": "Mã ngắn SMS",
+        "subtitle": "SMS doanh nghiệp khối lượng lớn",
+        "description": "Tiếp cận hàng triệu khách hàng ngay lập tức với nhắn tin SMS mã ngắn cao cấp. Hoàn hảo cho các chiến dịch tiếp thị, thông báo và giao tiếp hàng loạt.",
+        "stats": {
+          "messagesPerSecondValue": "10.000",
+          "messagesPerSecond": "Tin nhắn/giây",
+          "deliveryRateValue": "99.9%",
+          "deliveryRate": "Tỷ lệ gửi",
+          "digitNumbersValue": "5-6 chữ số",
+          "digitNumbers": "Số có sẵn"
+        },
+        "pricing": {
+          "title": "Giá doanh nghiệp",
+          "subtitle": "Giá có thể mở rộng cho nhu cầu nhắn tin khối lượng lớn",
+          "setup": {
+            "label": "Phí thiết lập",
+            "value": "5.000 đô la"
+          },
+          "monthly": {
+            "label": "Phí hàng tháng",
+            "value": "1.500 đô la"
+          },
+          "perMessage": {
+            "label": "Mỗi tin nhắn",
+            "value": "0,015 đô la"
+          },
+          "note": "Giảm giá theo số lượng có sẵn cho hơn 1 triệu tin nhắn/tháng"
+        },
+        "testimonial": {
+          "quote": "Các chiến dịch SMS mã ngắn của SeaX đã chuyển đổi tương tác khách hàng của chúng tôi. Giờ đây chúng tôi tiếp cận hàng triệu khách hàng ngay lập tức với tỷ lệ gửi hàng đầu ngành.",
+          "author": "Michael Rodriguez",
+          "company": "TechCorp Enterprise",
+          "results": "Tăng 350% phạm vi tiếp cận chiến dịch với tỷ lệ gửi 99,8%"
+        },
+        "premiumFeatures": {
+          "title": "Ưu điểm mã ngắn cao cấp",
+          "description": "Trải nghiệm sức mạnh của mã ngắn cao cấp cho giao tiếp doanh nghiệp",
+          "ultraThroughput": {
+            "title": "Thông lượng cực cao",
+            "description": "Gửi tới 10.000 tin nhắn mỗi giây với cơ sở hạ tầng cao cấp và quan hệ đối tác nhà mạng của chúng tôi."
+          },
+          "premiumRoutes": {
+            "title": "Các tuyến gửi cao cấp",
+            "description": "Đảm bảo gửi ưu tiên thông qua các kết nối nhà mạng chuyên dụng và định tuyến cao cấp."
+          },
+          "brandRecognition": {
+            "title": "Nhận diện thương hiệu nâng cao",
+            "description": "Các số 5-6 chữ số đáng nhớ mà khách hàng nhận ra và tin cậy cho giao tiếp thương hiệu của bạn."
+          }
+        }
+      },
+      "smsTollFree": {
+        "title": "SMS số điện thoại miễn phí",
+        "subtitle": "SMS doanh nghiệp đáng tin cậy",
+        "description": "Xây dựng lòng tin và cải thiện tương tác với các số SMS số điện thoại miễn phí. Giao tiếp chuyên nghiệp mà khách hàng nhận ra và phản hồi.",
+        "seo": {
+          "title": "Số điện thoại miễn phí SMS | Nhắn tin doanh nghiệp chuyên nghiệp | SeaX",
+          "description": "Nâng cao lòng tin của khách hàng với các số điện thoại miễn phí SMS. Nhắn tin doanh nghiệp chuyên nghiệp với tỷ lệ phản hồi cao hơn và nhận diện thương hiệu được cải thiện."
+        },
+        "hero": {
+          "title": "Bảng điều khiển SMS số điện thoại miễn phí",
+          "status": "Hoạt động",
+          "phoneNumber": "+1-800-AI-AGENT",
+          "dedicatedNumber": "Số điện thoại miễn phí chuyên dụng của bạn",
+          "deliveryRateValue": "94.7%",
+          "deliveryRate": "Tỷ lệ gửi",
+          "higherTrustValue": "2.3x",
+          "higherTrust": "Tỷ lệ tin cậy cao hơn",
+          "recentMessages": {
+            "title": "Tin nhắn gần đây",
+            "customerSupport": {
+              "title": "Phản hồi hỗ trợ khách hàng",
+              "details": "Tin nhắn tự động đã gửi từ 1-800-SUPPORT"
+            },
+            "survey": {
+              "title": "Khảo sát sự hài lòng của khách hàng",
+              "details": "Lời mời khảo sát đã gửi với tỷ lệ phản hồi 78%"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "94%",
+          "deliveryRate": "Tỷ lệ gửi",
+          "higherTrustValue": "2.3x",
+          "higherTrust": "Tỷ lệ tin cậy cao hơn",
+          "responseRateValue": "78%",
+          "responseRate": "Tỷ lệ phản hồi"
+        },
+        "features": {
+          "title": "Ưu điểm số điện thoại miễn phí",
+          "subtitle": "Nhắn tin chuyên nghiệp xây dựng lòng tin và thúc đẩy tương tác",
+          "items": {
+            "recognizableNumbers": "Các số 1-800 dễ nhận biết",
+            "noCharges": "Không tính phí người nhận - miễn phí cho khách hàng",
+            "professionalImage": "Hình ảnh thương hiệu chuyên nghiệp nâng cao",
+            "higherTrust": "Tỷ lệ tin cậy cao hơn 2,3 lần so với các số thông thường",
+            "improvedResponse": "Tỷ lệ phản hồi cao hơn 78%",
+            "brandRecognition": "Nhận diện và ghi nhớ thương hiệu được cải thiện"
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng hoàn hảo",
+          "subtitle": "Lý tưởng cho các doanh nghiệp ưu tiên lòng tin và tính chuyên nghiệp",
+          "items": {
+            "customerService": "Dịch vụ khách hàng và giao tiếp hỗ trợ",
+            "appointmentReminders": "Nhắc nhở và xác nhận cuộc hẹn",
+            "surveys": "Khảo sát sự hài lòng của khách hàng",
+            "notifications": "Thông báo tài khoản quan trọng",
+            "promotions": "Các chiến dịch khuyến mãi chuyên nghiệp",
+            "alerts": "Cảnh báo và cập nhật dịch vụ"
+          }
+        },
+        "pricing": {
+          "title": "Giá chuyên nghiệp",
+          "subtitle": "Giá cả minh bạch cho nhắn tin SMS số điện thoại miễn phí",
+          "setupLabel": "Phí thiết lập",
+          "setup": {
+            "label": "Phí thiết lập",
+            "value": "99 đô la"
+          },
+          "monthlyLabel": "Phí hàng tháng",
+          "monthly": {
+            "label": "Phí hàng tháng",
+            "value": "29 đô la"
+          },
+          "perMessageLabel": "Mỗi tin nhắn",
+          "perMessage": {
+            "label": "Mỗi tin nhắn",
+            "value": "0,04 đô la"
+          },
+          "note": "Giá dành cho Hoa Kỳ và Canada. Không có phí nhà mạng bổ sung hoặc chi phí ẩn"
+        },
+        "testimonial": {
+          "quote": "Tính năng SMS số điện thoại miễn phí đã cải thiện đáng kể tỷ lệ phản hồi khách hàng của chúng tôi. Khách hàng tin tưởng tin nhắn từ số 1-800 của chúng tôi nhiều hơn các số thông thường.",
+          "author": "Sarah Chen",
+          "company": "HealthCare Plus",
+          "results": "Tỷ lệ phản hồi cao hơn 78% và sự hài lòng của khách hàng 94%"
+        },
+        "trust": {
+          "title": "Tại sao SMS số điện thoại miễn phí hoạt động",
+          "description": "Xây dựng lòng tin và thúc đẩy tương tác với nhắn tin số điện thoại miễn phí chuyên nghiệp",
+          "professionalImage": {
+            "title": "Hình ảnh thương hiệu chuyên nghiệp",
+            "description": "Các số điện thoại miễn phí ngay lập tức truyền tải sự chuyên nghiệp và hợp pháp, khiến khách hàng có nhiều khả năng tương tác với tin nhắn của bạn hơn."
+          },
+          "noCarrierFees": {
+            "title": "Không tính phí khách hàng",
+            "description": "Khách hàng không phải trả tiền để nhận tin nhắn, loại bỏ rào cản tương tác và cải thiện tỷ lệ phản hồi."
+          },
+          "higherResponse": {
+            "title": "Tỷ lệ phản hồi cao hơn",
+            "description": "Các nghiên cứu cho thấy tỷ lệ tin cậy cao hơn 2,3 lần và tỷ lệ phản hồi tốt hơn 78% so với các số điện thoại thông thường."
+          }
+        }
+      },
+      "whatsapp": {
+        "seo": {
+          "title": "API nền tảng WhatsApp Business | Giải pháp nhắn tin doanh nghiệp | SeaX",
+          "description": "Kết nối với hơn 2 tỷ người dùng WhatsApp trên toàn thế giới. Nhắn tin doanh nghiệp chuyên nghiệp với đa phương tiện phong phú, mẫu và quy trình làm việc tự động để tương tác với khách hàng."
+        },
+        "hero": {
+          "badge": "Kênh phổ biến nhất",
+          "title": {
+            "line1": "Kết nối với",
+            "line2": "Nền tảng WhatsApp Business"
+          },
+          "description": "Tiếp cận hơn 2 tỷ người dùng trên toàn thế giới với API nền tảng WhatsApp Business. Gửi tin nhắn đa phương tiện phong phú, tự động hóa hỗ trợ khách hàng và xây dựng mối quan hệ có ý nghĩa ở quy mô lớn.",
+          "stats": {
+            "monthlyUsers": "Người dùng hàng tháng",
+            "openRate": "Tỷ lệ mở",
+            "engagementRate": "Tỷ lệ tương tác",
+            "countriesSupported": "Các quốc gia được hỗ trợ"
+          },
+          "cta": {
+            "primary": "Bắt đầu dùng thử miễn phí",
+            "secondary": "Đặt lịch demo"
+          },
+          "demo": {
+            "title": "Chiến dịch WhatsApp",
+            "subtitle": "Bảng điều khiển hiệu suất trực tiếp",
+            "templateLabel": "Tin nhắn mẫu",
+            "message": "Chào! Đơn hàng #12345 của bạn đã sẵn sàng để lấy. Bạn có muốn lên lịch thời gian hoặc cần chỉ đường đến cửa hàng của chúng tôi không?",
+            "button1": "Lên lịch lấy hàng",
+            "button2": "Nhận chỉ đường",
+            "openRateValue": "94.8%",
+            "openRateLabel": "Tỷ lệ mở",
+            "deliveredValue": "12.3K",
+            "deliveredLabel": "Tin nhắn đã gửi"
+          }
+        },
+        "features": {
+          "title": "Tại sao chọn nền tảng WhatsApp Business?",
+          "subtitle": "Tận dụng nền tảng nhắn tin phổ biến nhất thế giới cho giao tiếp doanh nghiệp của bạn",
+          "richMedia": {
+            "title": "Hỗ trợ đa phương tiện phong phú",
+            "description": "Gửi hình ảnh, video, tài liệu và các nút tương tác để tạo trải nghiệm khách hàng hấp dẫn."
+          },
+          "globalReach": {
+            "title": "Phạm vi toàn cầu",
+            "description": "Kết nối với khách hàng ở hơn 180 quốc gia nơi WhatsApp đã là một phần trong thói quen hàng ngày của họ."
+          },
+          "security": {
+            "title": "Bảo mật đầu cuối",
+            "description": "Mã hóa tích hợp đảm bảo giao tiếp an toàn trong khi vẫn duy trì lòng tin của khách hàng và quyền riêng tư dữ liệu."
+          },
+          "instantDelivery": {
+            "title": "Gửi tức thì",
+            "description": "Tin nhắn được gửi ngay lập tức với biên nhận đã đọc và xác nhận gửi để theo dõi tốt hơn."
+          },
+          "analytics": {
+            "title": "Phân tích nâng cao",
+            "description": "Theo dõi hiệu suất tin nhắn, tỷ lệ tương tác và các tương tác của khách hàng với thông tin chi tiết chi tiết."
+          },
+          "twoWay": {
+            "title": "Cuộc trò chuyện hai chiều",
+            "description": "Cho phép các cuộc trò chuyện tự nhiên với khách hàng thông qua các phản hồi tự động và chuyển giao nhân viên con người."
+          }
+        },
+        "messageTypes": {
+          "title": "Các loại tin nhắn & Khả năng",
+          "subtitle": "Chọn từ các định dạng tin nhắn khác nhau để tương tác với khách hàng hiệu quả",
+          "template": {
+            "title": "Tin nhắn mẫu",
+            "description": "Các mẫu tin nhắn được phê duyệt trước cho thông báo, cập nhật và nội dung khuyến mãi.",
+            "feature1": "Xác nhận và cập nhật đơn hàng",
+            "feature2": "Nhắc nhở cuộc hẹn",
+            "feature3": "Thông báo thanh toán",
+            "feature4": "Các chiến dịch khuyến mãi"
+          },
+          "richMedia": {
+            "title": "Tin nhắn đa phương tiện phong phú",
+            "description": "Tương tác với khách hàng bằng nội dung đa phương tiện bao gồm hình ảnh, video và tài liệu.",
+            "feature1": "Hình ảnh và video chất lượng cao",
+            "feature2": "Tài liệu PDF và danh mục",
+            "feature3": "Tin nhắn âm thanh và ghi chú thoại",
+            "feature4": "Chia sẻ vị trí"
+          },
+          "interactive": {
+            "title": "Tin nhắn tương tác",
+            "description": "Tạo trải nghiệm hấp dẫn với các nút, danh sách và trả lời nhanh để tương tác với khách hàng tốt hơn.",
+            "feature1": "Các nút trả lời nhanh",
+            "feature2": "Lựa chọn danh sách",
+            "feature3": "Các nút kêu gọi hành động",
+            "feature4": "Danh mục sản phẩm"
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng phổ biến",
+          "subtitle": "Xem cách các doanh nghiệp sử dụng WhatsApp để thúc đẩy tăng trưởng và cải thiện sự hài lòng của khách hàng",
+          "support": {
+            "title": "Hỗ trợ khách hàng",
+            "description": "Cung cấp hỗ trợ khách hàng tức thì với các phản hồi tự động và chuyển giao nhân viên liền mạch cho các truy vấn phức tạp.",
+            "metrics": "Thời gian giải quyết nhanh hơn 87%"
+          },
+          "orders": {
+            "title": "Quản lý đơn hàng",
+            "description": "Gửi xác nhận đơn hàng, cập nhật vận chuyển và thông báo giao hàng để giữ khách hàng được thông báo trong suốt quá trình.",
+            "metrics": "Tỷ lệ xác nhận giao hàng 95%"
+          },
+          "marketing": {
+            "title": "Chiến dịch tiếp thị",
+            "description": "Khởi chạy các chiến dịch tiếp thị được nhắm mục tiêu với nội dung đa phương tiện phong phú và các yếu tố tương tác để thúc đẩy doanh số và tương tác.",
+            "metrics": "Tỷ lệ chuyển đổi cao hơn 3,2 lần"
+          },
+          "appointments": {
+            "title": "Đặt lịch hẹn",
+            "description": "Tự động hóa lên lịch hẹn, gửi nhắc nhở và xử lý các yêu cầu lên lịch lại thông qua các luồng đàm thoại.",
+            "metrics": "Giảm 78% số lần không đến"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng kết nối với WhatsApp?",
+          "subtitle": "Tham gia cùng hàng ngàn doanh nghiệp đã sử dụng API nền tảng WhatsApp Business để phát triển mối quan hệ khách hàng của họ",
+          "primary": "Bắt đầu dùng thử miễn phí",
+          "secondary": "Đặt lịch demo"
+        }
+      },
+      "voice": {
+        "title": "Chiến dịch giọng nói AI",
+        "subtitle": "Cuộc gọi điện thoại tự động ở quy mô lớn",
+        "description": "Tiếp cận khách hàng ngay lập tức với các chiến dịch giọng nói do AI hỗ trợ. Hoàn hảo cho nhắc nhở cuộc hẹn, khảo sát, cảnh báo khẩn cấp và tiếp cận khách hàng cá nhân hóa trên hơn 100 quốc gia.",
+        "seoTitle": "Nền tảng tự động hóa cuộc gọi thoại - Các chiến dịch điện thoại do AI hỗ trợ | SeaX",
+        "seoDescription": "Tự động hóa cuộc gọi điện thoại ở quy mô lớn với SeaX Voice. Các chiến dịch giọng nói do AI hỗ trợ, nhắc nhở cuộc hẹn, khảo sát và tiếp cận khách hàng với tỷ lệ kết nối cao trên hơn 100 quốc gia.",
+        "hero": {
+          "widget": {
+            "title": "Bảng điều khiển giọng nói AI",
+            "poweredBy": "Được hỗ trợ bởi SeaX",
+            "callsNumber": "24.847",
+            "callsCompletedToday": "cuộc gọi đã hoàn thành hôm nay",
+            "connectionRateValue": "87%",
+            "connectionRateLabel": "Tỷ lệ kết nối",
+            "countriesValue": "100+",
+            "countriesLabel": "Các quốc gia được hỗ trợ",
+            "activeCalls": "Cuộc gọi đang hoạt động",
+            "usPhoneNumber": "+1 (555) 123-4567",
+            "appointmentReminder": "Cuộc gọi nhắc nhở cuộc hẹn",
+            "ukPhoneNumber": "+44 20 7946 0958",
+            "surveyCall": "Cuộc gọi khảo sát sự hài lòng của khách hàng"
+          }
+        },
+        "stats": {
+          "languagesValue": "25+",
+          "languagesLabel": "Các ngôn ngữ được hỗ trợ"
+        },
+        "features": {
+          "title": "Tính năng giọng nói mạnh mẽ",
+          "subtitle": "Mọi thứ bạn cần cho các chiến dịch giọng nói thành công",
+          "items": {
+            "0": "Tổng hợp giọng nói tự nhiên do AI hỗ trợ",
+            "1": "Hỗ trợ đa ngôn ngữ (hơn 25 ngôn ngữ)",
+            "2": "Phân tích và báo cáo cuộc gọi thời gian thực",
+            "3": "Khả năng phản hồi giọng nói tương tác (IVR)",
+            "4": "Phát hiện và xử lý thư thoại",
+            "5": "Ghi âm và phiên âm cuộc gọi",
+            "6": "Logic thử lại thông minh và lên lịch",
+            "7": "Tuân thủ các quy định tiếp thị qua điện thoại",
+            "globalReach": "Phạm vi toàn cầu với các số điện thoại địa phương ở hơn 180 quốc gia",
+            "highQuality": "Chất lượng giọng nói HD rõ ràng với định tuyến thông minh",
+            "smartDialing": "Quay số thông minh với thời gian tối ưu và lên lịch cuộc gọi",
+            "multiLanguage": "Hỗ trợ đa ngôn ngữ với giọng nói giống bản địa",
+            "realTimeAnalytics": "Phân tích cuộc gọi thời gian thực và theo dõi hiệu suất",
+            "complianceReady": "Tuân thủ tích hợp với các quy định tiếp thị qua điện thoại"
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng chiến dịch giọng nói",
+          "subtitle": "Các ứng dụng đã được chứng minh cho tự động hóa giọng nói",
+          "items": {
+            "0": "Nhắc nhở và xác nhận cuộc hẹn",
+            "1": "Khảo sát sự hài lòng của khách hàng",
+            "2": "Nhắc nhở thanh toán và thu nợ",
+            "3": "Cảnh báo và thông báo khẩn cấp",
+            "4": "Xác nhận và cập nhật sự kiện",
+            "5": "Sàng lọc và nuôi dưỡng khách hàng tiềm năng",
+            "6": "Nghiên cứu thị trường và thăm dò ý kiến",
+            "7": "Thông báo ngừng dịch vụ",
+            "appointmentReminders": "Nhắc nhở và xác nhận cuộc hẹn tự động",
+            "customerSurveys": "Khảo sát sự hài lòng và phản hồi của khách hàng",
+            "salesOutreach": "Tiếp cận bán hàng và cuộc gọi sàng lọc khách hàng tiềm năng",
+            "paymentReminders": "Nhắc nhở thanh toán và cuộc gọi thu nợ",
+            "emergencyAlerts": "Cảnh báo khẩn cấp và thông báo khẩn cấp",
+            "eventNotifications": "Nhắc nhở sự kiện và thông báo quan trọng"
+          }
+        },
+        "pricing": {
+          "title": "Giá chiến dịch giọng nói",
+          "subtitle": "Giá hiệu quả về chi phí cho tự động hóa giọng nói",
+          "setup": {
+            "label": "Phí thiết lập",
+            "value": "199 đô la"
+          },
+          "monthly": {
+            "label": "Phí hàng tháng",
+            "value": "49 đô la"
+          },
+          "perMinute": {
+            "label": "Mỗi phút",
+            "value": "0,12 đô la"
+          },
+          "note": {
+            "value": "Giảm giá theo số lượng có sẵn cho hơn 10.000 cuộc gọi/tháng"
+          },
+          "perMessage": {
+            "label": "Mỗi tin nhắn",
+            "value": "0,08 đô la"
+          }
+        },
+        "testimonial": {
+          "quote": "Các chiến dịch giọng nói của SeaX đã cách mạng hóa việc nhắc nhở cuộc hẹn của chúng tôi. Chúng tôi đã giảm 70% số lần không đến và cải thiện đáng kể sự hài lòng của khách hàng.",
+          "author": "Tiến sĩ Emily Rodriguez",
+          "company": "Tập đoàn y tế HealthFirst",
+          "results": "Giảm 70% số lần không đến và tỷ lệ hài lòng của khách hàng 95%"
+        }
+      }
+    },
+    "solutions": {
+      "leadGeneration": {
+        "seo": {
+          "title": "Giải pháp tạo khách hàng tiềm năng - Giải pháp tiếp cận đa kênh SeaX",
+          "description": "Tạo khách hàng tiềm năng đủ điều kiện ở quy mô lớn với giải pháp tạo khách hàng tiềm năng đa kênh của SeaX. Các chiến dịch SMS, WhatsApp và giọng nói với theo dõi do AI hỗ trợ."
+        },
+        "hero": {
+          "title": "Tạo khách hàng tiềm năng",
+          "titleHighlight": "ở quy mô lớn",
+          "description": "Tạo khách hàng tiềm năng đủ điều kiện với các chiến dịch đa kênh trên SMS, WhatsApp và cuộc gọi thoại. Theo dõi do AI hỗ trợ đảm bảo không bỏ lỡ cơ hội nào.",
+          "cta": {
+            "primary": "Bắt đầu tạo khách hàng tiềm năng",
+            "secondary": "Đặt lịch demo"
+          }
+        },
+        "features": {
+          "title": "Tính năng tạo khách hàng tiềm năng mạnh mẽ",
+          "subtitle": "Mọi thứ bạn cần để thu hút, sàng lọc và chuyển đổi khách hàng tiềm năng ở quy mô lớn",
+          "targetedOutreach": {
+            "title": "Tiếp cận được nhắm mục tiêu",
+            "description": "Tiếp cận đúng khách hàng tiềm năng với nhắm mục tiêu chính xác trên SMS, WhatsApp và cuộc gọi thoại."
+          },
+          "multiChannelCampaigns": {
+            "title": "Chiến dịch đa kênh",
+            "description": "Thực hiện các chiến dịch phối hợp trên SMS, WhatsApp và thoại để có tác động tối đa."
+          },
+          "aiFollowUps": {
+            "title": "Theo dõi do AI hỗ trợ",
+            "description": "Phản hồi thông minh tự động sàng lọc khách hàng tiềm năng và lên lịch cuộc họp 24/7."
+          },
+          "realTimeAnalytics": {
+            "title": "Phân tích thời gian thực",
+            "description": "Theo dõi hiệu suất chiến dịch, chất lượng khách hàng tiềm năng và tỷ lệ chuyển đổi theo thời gian thực."
+          },
+          "leadScoring": {
+            "title": "Chấm điểm khách hàng tiềm năng",
+            "description": "Chấm điểm và ưu tiên khách hàng tiềm năng tự động dựa trên tương tác và phản hồi."
+          },
+          "voiceQualification": {
+            "title": "Sàng lọc giọng nói",
+            "description": "Các cuộc gọi thoại do AI hỗ trợ để sàng lọc khách hàng tiềm năng và tự động đặt lịch hẹn."
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng tạo khách hàng tiềm năng",
+          "subtitle": "Các chiến lược đã được chứng minh trên các ngành và loại hình kinh doanh",
+          "b2bSales": {
+            "title": "Tiếp cận bán hàng B2B",
+            "description": "Tạo khách hàng tiềm năng đủ điều kiện cho các đội ngũ bán hàng B2B với các chiến dịch nhắn tin được nhắm mục tiêu.",
+            "stats": "Tăng 300% khách hàng tiềm năng đủ điều kiện"
+          },
+          "realEstate": {
+            "title": "Tạo khách hàng tiềm năng bất động sản",
+            "description": "Kết nối với người mua và người bán tài sản thông qua các chiến dịch đa kênh.",
+            "stats": "Cải thiện tỷ lệ phản hồi 85%"
+          },
+          "insurance": {
+            "title": "Sàng lọc khách hàng tiềm năng bảo hiểm",
+            "description": "Sàng lọc khách hàng tiềm năng bảo hiểm với theo dõi tự động và đặt lịch hẹn.",
+            "stats": "Giảm 60% thời gian sàng lọc"
+          },
+          "eventRegistration": {
+            "title": "Đăng ký sự kiện",
+            "description": "Thúc đẩy đăng ký sự kiện với các lời mời được nhắm mục tiêu và các chuỗi theo dõi.",
+            "stats": "Tăng 200% số lượng đăng ký"
+          }
+        },
+        "stats": {
+          "title": "Kết quả đã được chứng minh",
+          "subtitle": "Xem những gì khách hàng của chúng tôi đạt được với SeaX Lead Generation",
+          "qualifiedLeads": {
+            "value": "5x",
+            "label": "Nhiều khách hàng tiềm năng đủ điều kiện hơn"
+          },
+          "responseRate": {
+            "value": "85%",
+            "label": "Tỷ lệ phản hồi"
+          },
+          "timeSavings": {
+            "value": "60%",
+            "label": "Tiết kiệm thời gian"
+          },
+          "roiIncrease": {
+            "value": "300%",
+            "label": "Tăng ROI"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng mở rộng quy mô tạo khách hàng tiềm năng của bạn?",
+          "subtitle": "Tham gia cùng hàng ngàn doanh nghiệp tạo khách hàng tiềm năng đủ điều kiện với SeaX",
+          "primary": "Đăng ký ngay",
+          "secondary": "Đặt lịch demo"
+        }
+      },
+      "marketingAutomation": {
+        "seo": {
+          "title": "Nền tảng tự động hóa tiếp thị - Tự động hóa đa kênh SeaX",
+          "description": "Tự động hóa các chiến dịch tiếp thị của bạn trên SMS, WhatsApp và cuộc gọi thoại. Các quy trình làm việc nâng cao, phân khúc đối tượng và phân tích hiệu suất."
+        },
+        "hero": {
+          "title": {
+            "main": "Tự động hóa tiếp thị",
+            "highlight": "Hoạt động hiệu quả"
+          },
+          "description": "Tự động hóa các chiến dịch tiếp thị của bạn trên SMS, WhatsApp và cuộc gọi thoại. Tạo các quy trình làm việc phức tạp nuôi dưỡng khách hàng tiềm năng và thúc đẩy chuyển đổi 24/7.",
+          "cta": {
+            "primary": "Bắt đầu tự động hóa",
+            "secondary": "Xem demo"
+          }
+        },
+        "features": {
+          "title": "Tính năng tự động hóa mạnh mẽ",
+          "subtitle": "Xây dựng các chiến dịch phức tạp chạy tự động và mang lại kết quả",
+          "items[0]": {
+            "title": "Quy trình làm việc tự động",
+            "description": "Tạo các chiến dịch đa bước phức tạp kích hoạt dựa trên hành vi và phản hồi của khách hàng."
+          },
+          "items[1]": {
+            "title": "Thời gian thông minh",
+            "description": "Gửi tin nhắn vào thời điểm tối ưu dựa trên múi giờ và mẫu tương tác của khách hàng."
+          },
+          "items[2]": {
+            "title": "Phân khúc đối tượng",
+            "description": "Nhắm mục tiêu các phân khúc khách hàng cụ thể với tin nhắn cá nhân hóa trên tất cả các kênh."
+          },
+          "items[3]": {
+            "title": "Phân tích hiệu suất",
+            "description": "Theo dõi tỷ lệ tương tác, chuyển đổi và ROI với phân tích chiến dịch chi tiết."
+          },
+          "items[4]": {
+            "title": "Các chuỗi đa kênh",
+            "description": "Điều phối các chiến dịch trên SMS, WhatsApp và cuộc gọi thoại để có phạm vi tiếp cận tối đa."
+          },
+          "items[5]": {
+            "title": "Kiểm tra A/B",
+            "description": "Kiểm tra các tin nhắn, thời gian và kênh khác nhau để tối ưu hóa hiệu suất chiến dịch."
+          }
+        },
+        "automationTypes": {
+          "title": "Quy trình làm việc tự động",
+          "subtitle": "Các chuỗi tự động hóa có sẵn cho các kịch bản tiếp thị phổ biến",
+          "items[0]": {
+            "title": "Chuỗi chào mừng",
+            "description": "Tự động giới thiệu khách hàng mới với các chuỗi chào mừng cá nhân hóa.",
+            "example": "SMS chào mừng → Thông tin sản phẩm → Ưu đãi đặc biệt → Yêu cầu phản hồi"
+          },
+          "items[1]": {
+            "title": "Khôi phục giỏ hàng bị bỏ quên",
+            "description": "Tái tương tác với khách hàng đã bỏ lại các mặt hàng trong giỏ hàng của họ bằng các nhắc nhở được nhắm mục tiêu.",
+            "example": "Nhắc nhở giỏ hàng → Giảm giá có thời hạn → Đề xuất sản phẩm"
+          },
+          "items[2]": {
+            "title": "Vòng đời khách hàng",
+            "description": "Hướng dẫn khách hàng qua hành trình của họ với các điểm tiếp xúc tự động.",
+            "example": "Xác nhận mua hàng → Mẹo sử dụng → Cơ hội bán thêm → Phần thưởng khách hàng thân thiết"
+          },
+          "items[3]": {
+            "title": "Chiến dịch tái tương tác",
+            "description": "Dành lại khách hàng không hoạt động với các chuỗi tái tương tác hấp dẫn.",
+            "example": "Tin nhắn nhớ bạn → Ưu đãi độc quyền → Cập nhật sản phẩm → Ưu đãi giành lại"
+          },
+          "exampleFlowLabel": "Luồng ví dụ:"
+        },
+        "stats": {
+          "title": "Kết quả tự động hóa",
+          "subtitle": "Xem tác động của tự động hóa tiếp thị đối với doanh nghiệp của bạn",
+          "items[0]": {
+            "value": "10x",
+            "label": "Hiệu quả hơn"
+          },
+          "items[1]": {
+            "value": "95%",
+            "label": "Tỷ lệ tương tác"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Tiết kiệm thời gian"
+          },
+          "items[3]": {
+            "value": "400%",
+            "label": "Tăng ROI"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng tự động hóa tiếp thị của bạn?",
+          "description": "Tham gia cùng hàng ngàn doanh nghiệp mở rộng quy mô tiếp thị của họ với tự động hóa SeaX",
+          "primary": "Đăng ký ngay",
+          "secondary": "Đặt lịch demo"
+        }
+      },
+      "customerEngagement": {
+        "seo": {
+          "title": "Tương tác khách hàng - Nền tảng giao tiếp SeaX",
+          "description": "Xây dựng mối quan hệ khách hàng mạnh mẽ hơn với tương tác đa kênh cá nhân hóa trên SMS, WhatsApp và cuộc gọi thoại."
+        },
+        "hero": {
+          "title": {
+            "main": "Tương tác khách hàng",
+            "highlight": "Xây dựng lòng trung thành"
+          },
+          "description": "Xây dựng mối quan hệ khách hàng mạnh mẽ hơn với tương tác đa kênh cá nhân hóa trên SMS, WhatsApp và cuộc gọi thoại. Biến mọi tương tác thành một cơ hội.",
+          "cta": {
+            "primary": "Tương tác với khách hàng",
+            "secondary": "Đặt lịch demo"
+          }
+        },
+        "features": {
+          "title": "Tính năng tương tác",
+          "subtitle": "Mọi thứ bạn cần để xây dựng mối quan hệ khách hàng có ý nghĩa",
+          "items[0]": {
+            "title": "Hồ sơ khách hàng nâng cao",
+            "description": "Tạo hồ sơ khách hàng phong phú để tương tác cá nhân hóa hơn."
+          },
+          "items[1]": {
+            "title": "Nhắn tin đa kênh",
+            "description": "Tương tác với khách hàng trên SMS, WhatsApp và nhắn tin trong ứng dụng."
+          },
+          "items[2]": {
+            "title": "Phân tích cảm xúc",
+            "description": "Hiểu cảm xúc của khách hàng và điều chỉnh giao tiếp cho phù hợp."
+          },
+          "items[3]": {
+            "title": "Phân tích hành vi",
+            "description": "Theo dõi và phân tích hành vi khách hàng để cải thiện chiến lược tương tác."
+          },
+          "items[4]": {
+            "title": "Công cụ tiếp thị trực tiếp",
+            "description": "Chạy các chiến dịch được nhắm mục tiêu với độ chính xác, dựa trên dữ liệu khách hàng."
+          },
+          "items[5]": {
+            "title": "Tương tác thời gian thực",
+            "description": "Tương tác với khách hàng khi điều đó quan trọng nhất, với các kích hoạt và giao tiếp thời gian thực."
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng tương tác",
+          "subtitle": "Các chiến lược tương tác khách hàng thực tế trên các ngành",
+          "items[0]": {
+            "title": "Tương tác thương mại điện tử",
+            "description": "Tăng cường kinh doanh lặp lại và giữ chân khách hàng thông qua các chương trình khuyến mãi cá nhân hóa.",
+            "stats": "Tăng 20% mua hàng lặp lại"
+          },
+          "items[1]": {
+            "title": "Cảnh báo dịch vụ tài chính",
+            "description": "Giữ khách hàng được thông báo về các hoạt động tài khoản với các cảnh báo và cập nhật tự động.",
+            "stats": "Tỷ lệ tương tác 80% trên các cảnh báo"
+          },
+          "items[2]": {
+            "title": "Du lịch và khách sạn",
+            "description": "Nâng cao trải nghiệm khách hàng với các cập nhật trước khi đến và hành trình cá nhân hóa.",
+            "stats": "Giảm 50% các yêu cầu của khách hàng"
+          },
+          "items[3]": {
+            "title": "Chương trình khách hàng thân thiết bán lẻ",
+            "description": "Tăng cường lòng trung thành với các phần thưởng và ưu đãi cá nhân hóa dựa trên lịch sử mua hàng.",
+            "stats": "Tăng 25% thành viên chương trình khách hàng thân thiết"
+          }
+        },
+        "stats": {
+          "title": "Kết quả tương tác",
+          "subtitle": "Xem tác động của tương tác khách hàng nâng cao",
+          "items[0]": {
+            "value": "40%",
+            "label": "Tương tác cao hơn"
+          },
+          "items[1]": {
+            "value": "85%",
+            "label": "Sự hài lòng của khách hàng"
+          },
+          "items[2]": {
+            "value": "60%",
+            "label": "Tỷ lệ mua hàng lặp lại"
+          },
+          "items[3]": {
+            "value": "3x",
+            "label": "Giá trị trọn đời của khách hàng"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng xây dựng mối quan hệ khách hàng mạnh mẽ hơn?",
+          "description": "Tham gia cùng hàng ngàn doanh nghiệp sử dụng SeaX để tương tác với khách hàng và xây dựng lòng trung thành lâu dài",
+          "primary": "Bắt đầu ngay hôm nay"
+        }
+      },
+      "appointmentReminders": {
+        "seo": {
+          "title": "Nhắc nhở cuộc hẹn - Lên lịch tự động SeaX",
+          "description": "Giảm số lần không đến và cải thiện sự tham dự với nhắc nhở cuộc hẹn tự động qua SMS, WhatsApp và cuộc gọi thoại. Hệ thống lên lịch và xác nhận thông minh."
+        },
+        "hero": {
+          "title": {
+            "main": "Nhắc nhở cuộc hẹn",
+            "highlight": "Hoạt động hiệu quả"
+          },
+          "description": "Giảm số lần không đến và cải thiện sự tham dự với nhắc nhở cuộc hẹn tự động qua SMS, WhatsApp và cuộc gọi thoại. Lên lịch thông minh với giao tiếp hai chiều.",
+          "cta": {
+            "primary": "Bắt đầu giảm số lần không đến",
+            "secondary": "Đặt lịch demo"
+          }
+        },
+        "features": {
+          "title": "Tính năng nhắc nhở mạnh mẽ",
+          "subtitle": "Mọi thứ bạn cần để giữ các cuộc hẹn đúng lịch và giảm số lần không đến",
+          "items[0]": {
+            "title": "Lên lịch thông minh",
+            "description": "Tự động lên lịch hẹn và gửi xác nhận qua SMS, WhatsApp và cuộc gọi thoại."
+          },
+          "items[1]": {
+            "title": "Nhắc nhở đa giai đoạn",
+            "description": "Gửi nhắc nhở cá nhân hóa vào các khoảng thời gian tối ưu - 24 giờ, 1 giờ và 15 phút trước cuộc hẹn."
+          },
+          "items[2]": {
+            "title": "Giao tiếp hai chiều",
+            "description": "Cho phép khách hàng xác nhận, lên lịch lại hoặc hủy cuộc hẹn trực tiếp qua SMS hoặc WhatsApp."
+          },
+          "items[3]": {
+            "title": "Thông báo cho nhân viên",
+            "description": "Giữ nhóm của bạn được thông báo với các cập nhật thời gian thực về các thay đổi và xác nhận cuộc hẹn."
+          },
+          "items[4]": {
+            "title": "Cảnh báo tùy chỉnh",
+            "description": "Thiết lập lịch nhắc nhở và tin nhắn tùy chỉnh cho các loại và thời lượng cuộc hẹn khác nhau."
+          },
+          "items[5]": {
+            "title": "Phân tích & Thông tin chi tiết",
+            "description": "Theo dõi tỷ lệ không đến, tỷ lệ xác nhận và tối ưu hóa chiến lược nhắc nhở của bạn với phân tích chi tiết."
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng ngành",
+          "subtitle": "Các chiến lược nhắc nhở cuộc hẹn đã được chứng minh trên các ngành khác nhau",
+          "items[0]": {
+            "title": "Thực hành chăm sóc sức khỏe",
+            "description": "Giảm số lần không đến cho các cuộc hẹn y tế với nhắc nhở tự động và các tùy chọn lên lịch lại dễ dàng.",
+            "stats": "Giảm 40% số lần không đến"
+          },
+          "items[1]": {
+            "title": "Làm đẹp & Sức khỏe",
+            "description": "Giữ các cuộc hẹn tại salon và spa đúng lịch với nhắc nhở cá nhân hóa và yêu cầu xác nhận.",
+            "stats": "Tỷ lệ xác nhận 85%"
+          },
+          "items[2]": {
+            "title": "Dịch vụ chuyên nghiệp",
+            "description": "Đảm bảo các cuộc tư vấn và cuộc họp diễn ra đúng giờ với các chuỗi nhắc nhở đa kênh.",
+            "stats": "Tỷ lệ tham dự 90%"
+          },
+          "items[3]": {
+            "title": "Dịch vụ ô tô",
+            "description": "Nhắc nhở khách hàng về các cuộc hẹn dịch vụ và lịch bảo trì tự động.",
+            "stats": "Tăng 60% lượt truy cập lặp lại"
+          }
+        },
+        "stats": {
+          "title": "Kết quả đã được chứng minh",
+          "subtitle": "Xem những gì khách hàng của chúng tôi đạt được với SeaX Appointment Reminders",
+          "items[0]": {
+            "value": "40%",
+            "label": "Giảm số lần không đến"
+          },
+          "items[1]": {
+            "value": "90%",
+            "label": "Tỷ lệ tham dự"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Tiết kiệm thời gian"
+          },
+          "items[3]": {
+            "value": "95%",
+            "label": "Sự hài lòng của khách hàng"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng giảm số lần không đến và cải thiện sự tham dự?",
+          "description": "Tham gia cùng hàng ngàn doanh nghiệp cải thiện sự tham dự cuộc hẹn với SeaX",
+          "primary": "Bắt đầu ngay hôm nay"
+        }
+      },
+      "emergencyAlerts": {
+        "seo": {
+          "title": "Cảnh báo khẩn cấp - Hệ thống thông báo SeaX",
+          "description": "Gửi cảnh báo khẩn cấp tức thì với giao tiếp thời gian thực trên SMS, thoại và WhatsApp. Đảm bảo gửi tin nhắn trong các tình huống quan trọng."
+        },
+        "hero": {
+          "title": {
+            "main": "Cảnh báo khẩn cấp",
+            "highlight": "Cứu sống"
+          },
+          "description": "Gửi cảnh báo khẩn cấp tức thì với giao tiếp thời gian thực trên SMS, thoại và WhatsApp. Đảm bảo gửi tin nhắn trong các tình huống quan trọng khi mỗi giây đều quý giá.",
+          "cta": {
+            "primary": "Bắt đầu gửi cảnh báo",
+            "secondary": "Đặt lịch demo an toàn"
+          }
+        },
+        "features": {
+          "title": "Tính năng cảnh báo quan trọng",
+          "subtitle": "Mọi thứ bạn cần cho giao tiếp khẩn cấp hiệu quả và đáng tin cậy",
+          "items[0]": {
+            "title": "Phát sóng khẩn cấp tức thì",
+            "description": "Gửi cảnh báo quan trọng đến hàng ngàn người nhận cùng lúc trên SMS, thoại và WhatsApp."
+          },
+          "items[1]": {
+            "title": "Gửi nhạy cảm về thời gian",
+            "description": "Gửi tin nhắn ưu tiên đảm bảo giao tiếp khẩn cấp đến người nhận ngay lập tức."
+          },
+          "items[2]": {
+            "title": "Các nhóm người nhận được nhắm mục tiêu",
+            "description": "Tạo và quản lý các nhóm cụ thể cho các loại và địa điểm khẩn cấp khác nhau."
+          },
+          "items[3]": {
+            "title": "Cơ sở hạ tầng đáng tin cậy",
+            "description": "Được xây dựng trên cơ sở hạ tầng cấp nhà mạng để đảm bảo tin nhắn được gửi đi khi điều đó quan trọng nhất."
+          },
+          "items[4]": {
+            "title": "Cảnh báo đa kênh",
+            "description": "Tiếp cận mọi người thông qua các kênh giao tiếp ưa thích của họ để có tỷ lệ phản hồi tối đa."
+          },
+          "items[5]": {
+            "title": "Giao tiếp hai chiều",
+            "description": "Nhận xác nhận và phản hồi từ người nhận để theo dõi hiệu quả cảnh báo."
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng cảnh báo khẩn cấp",
+          "subtitle": "Các ứng dụng thực tế để đảm bảo an toàn và giao tiếp",
+          "items[0]": {
+            "title": "Phản ứng khẩn cấp của công ty",
+            "description": "Thông báo cho nhân viên về các mối đe dọa bảo mật, sơ tán hoặc gián đoạn kinh doanh quan trọng.",
+            "stats": "Tỷ lệ thành công gửi 99,9%"
+          },
+          "items[1]": {
+            "title": "Cảnh báo an toàn trường học",
+            "description": "Thông báo ngay lập tức cho phụ huynh, học sinh và nhân viên về việc đóng cửa trường học hoặc các sự cố an toàn.",
+            "stats": "Thời gian gửi trung bình 30 giây"
+          },
+          "items[2]": {
+            "title": "Cảnh báo quan trọng về chăm sóc sức khỏe",
+            "description": "Cảnh báo nhân viên y tế về các tình huống mã, trường hợp khẩn cấp của bệnh nhân hoặc sự cố cơ sở.",
+            "stats": "Tỷ lệ phản hồi 95% trong vòng 5 phút"
+          },
+          "items[3]": {
+            "title": "Thông báo an toàn công cộng",
+            "description": "Cảnh báo cộng đồng về thiên tai, điều kiện nguy hiểm hoặc các mối đe dọa an toàn công cộng.",
+            "stats": "Hơn 10.000 người nhận mỗi phút"
+          }
+        },
+        "stats": {
+          "title": "Phản ứng khẩn cấp đã được chứng minh",
+          "subtitle": "Gửi tin nhắn đáng tin cậy khi mỗi giây đều quý giá",
+          "items[0]": {
+            "value": "99.9%",
+            "label": "Tỷ lệ thành công gửi"
+          },
+          "items[1]": {
+            "value": "30 giây",
+            "label": "Thời gian gửi trung bình"
+          },
+          "items[2]": {
+            "value": "95%",
+            "label": "Phản hồi trong vòng 5 phút"
+          },
+          "items[3]": {
+            "value": "10.000+",
+            "label": "Tin nhắn mỗi phút"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng đảm bảo an toàn và giao tiếp?",
+          "description": "Tham gia cùng hàng ngàn tổ chức sử dụng SeaX để đảm bảo an toàn và giao tiếp hiệu quả trong các trường hợp khẩn cấp.",
+          "primary": "Bắt đầu ngay hôm nay"
+        }
+      }
+    }
+  }
+}

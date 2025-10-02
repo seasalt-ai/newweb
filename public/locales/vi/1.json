@@ -1,0 +1,403 @@
+{
+  "header": {
+    "products": "Sản phẩm",
+    "solutions": "Giải pháp",
+    "industries": "Ngành nghề",
+    "channels": "Kênh",
+    "pricing": "Giá cả",
+    "compareUs": "So sánh chúng tôi",
+    "blog": "Blog",
+    "login": "Đăng nhập",
+    "startForFree": "Đăng ký",
+    "backToChannels": "Quay lại kênh",
+    "allChannelsOverview": "Tổng quan tất cả các kênh",
+    "solutionsDropdown": {
+      "seahealth": "SeaHealth - Chăm sóc sức khỏe tùy chỉnh",
+      "useCases": "Trường hợp sử dụng"
+    },
+    "useCasesDropdown": {
+      "salesMarketing": "Dành cho bán hàng & tiếp thị",
+      "customerSupport": "Dành cho hỗ trợ khách hàng",
+      "aiAutomation": "AI & Tự động hóa",
+      "smeOwners": "Dành cho chủ doanh nghiệp SME"
+    },
+    "channelsDropdown": {
+      "whatsapp": "WhatsApp",
+      "phoneCalls": "Cuộc gọi điện thoại",
+      "sms": "SMS",
+      "websiteChat": "Trò chuyện trên trang web",
+      "instagram": "Instagram",
+      "facebookMessenger": "Facebook Messenger",
+      "contactForms": "Biểu mẫu liên hệ",
+      "line": "Line",
+      "websiteWidget": "Widget trang web"
+    },
+    "comparisonsDropdown": {
+      "title": "So sánh",
+      "allComparisonsOverview": "Tổng quan tất cả các so sánh"
+    },
+    "compareDropdown": {
+      "allComparisonsOverview": "Tổng quan tất cả các so sánh"
+    },
+    "signIn": "Đăng nhập"
+  },
+  "footer": {
+    "company": {
+      "title": "Công ty",
+      "contact": "Liên hệ chúng tôi",
+      "about": "Về chúng tôi",
+      "careers": "Tuyển dụng"
+    },
+    "copyright": "© 2020 - {{year}} Seasalt.ai. Mọi quyền được bảo lưu.",
+    "privacyPolicy": "Chính sách bảo mật",
+    "termsOfService": "Điều khoản dịch vụ",
+    "security": "Bảo mật",
+    "compliance": {
+      "soc2": "Tuân thủ SOC 2",
+      "hipaa": "Tương thích HIPAA",
+      "uptime": "Thời gian hoạt động 99,9%"
+    },
+    "cta": {
+      "title": "Sẵn sàng mở rộng phạm vi tiếp cận của bạn đến hàng triệu người?",
+      "startFreeTrial": "Đăng ký miễn phí",
+      "scheduleDemo": "Lên lịch demo",
+      "subtitle": "Tham gia cùng hàng ngàn doanh nghiệp đang sử dụng SeaX để tiếp cận nhiều khách hàng hơn, tạo ra nhiều khách hàng tiềm năng hơn và phát triển nhanh hơn",
+      "signUpNow": "Đăng ký ngay"
+    },
+    "tagline": "Trung tâm liên hệ đa kênh được xây dựng cho các doanh nghiệp nhỏ. Tự động hóa hỗ trợ, nắm bắt mọi cơ hội bán hàng và hợp nhất tất cả các cuộc trò chuyện của khách hàng của bạn.",
+    "seahealth": "SeaHealth - Chăm sóc sức khỏe tùy chỉnh",
+    "productWiki": "Wiki sản phẩm",
+    "apiReferences": "Tài liệu tham khảo API",
+    "madeWith": {
+      "text": "Được tạo ra với",
+      "inCityOf": "tại thành phố"
+    },
+    "inCityOf": "tại",
+    "description": {
+      "company": "Tiếp cận hàng triệu người ngay lập tức. Nền tảng tối ưu để gửi hàng triệu tin nhắn SMS, WhatsApp và cuộc gọi điện thoại tự động. Lấp đầy kênh bán hàng của bạn, thúc đẩy doanh thu và mở rộng quy mô kinh doanh của bạn."
+    },
+    "section": {
+      "channels": "Kênh",
+      "solutions": "Giải pháp",
+      "industries": "Ngành nghề"
+    },
+    "links": {
+      "channels": {
+        "smsOverview": "Tổng quan SMS",
+        "smsLocal": "Số địa phương (10DLC)",
+        "smsTollFree": "Số điện thoại miễn phí",
+        "smsShortCode": "Mã ngắn",
+        "whatsapp": "Nền tảng kinh doanh WhatsApp",
+        "voice": "Thoại gọi điện thoại"
+      },
+      "solutions": {
+        "leadGeneration": "Tạo khách hàng tiềm năng",
+        "marketingAutomation": "Tự động hóa tiếp thị",
+        "customerEngagement": "Tương tác khách hàng",
+        "appointmentReminders": "Nhắc nhở cuộc hẹn",
+        "emergencyAlerts": "Cảnh báo khẩn cấp"
+      },
+      "industries": {
+        "ecommerceRetail": "Thương mại điện tử & Bán lẻ",
+        "realEstate": "Bất động sản",
+        "politicalCampaigns": "Chiến dịch chính trị",
+        "healthcare": "Chăm sóc sức khỏe",
+        "financialServices": "Dịch vụ tài chính"
+      },
+      "company": {
+        "features": "Tính năng",
+        "pricing": "Giá cả",
+        "productWiki": "Wiki sản phẩm",
+        "apiReferences": "Tài liệu tham khảo API",
+        "careers": "Tuyển dụng"
+      }
+    },
+    "stats": {
+      "messagesDaily": "Hơn 10 triệu tin nhắn mỗi ngày",
+      "activeUsers": "Hơn 500 nghìn người dùng",
+      "uptime": "Thời gian hoạt động 99,9%"
+    },
+    "legal": {
+      "privacyPolicy": "Chính sách bảo mật",
+      "termsOfService": "Điều khoản dịch vụ"
+    },
+    "contact": {
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "Seattle, WA"
+    },
+    "logo": {
+      "alt": "SeaX"
+    },
+    "technical": {
+      "tenDlc": "10DLC",
+      "tollFree": "8XX",
+      "sms": "SMS",
+      "shortCode": "xxxxx"
+    }
+  },
+  "hero": {
+    "title": {
+      "line1": "Ngừng chuyển đổi ứng dụng.",
+      "line2": "Hợp nhất mọi khách hàng",
+      "line3": "cuộc gọi, WhatsApp và trò chuyện",
+      "line4": "trong một hộp thư đến đơn giản."
+    },
+    "titleWithGradient": "Ngừng chuyển đổi ứng dụng. <1>Hợp nhất mọi khách hàng</1> cuộc gọi, tin nhắn, WhatsApp và trò chuyện trong một hộp thư đến đơn giản.",
+    "description": "Seasalt.ai là một trung tâm liên hệ đa kênh được xây dựng cho các doanh nghiệp nhỏ. Tự động hóa hỗ trợ, nắm bắt mọi cơ hội bán hàng và quản lý tất cả các cuộc trò chuyện của bạn từ một màn hình duy nhất.",
+    "signUp": "Đăng ký",
+    "seeDemo": "Đặt lịch demo",
+    "trustedBy": "Được tin cậy bởi các doanh nghiệp đang phát triển trên toàn thế giới",
+    "developerMessage": "Seasalt.ai cung cấp các công cụ giao tiếp đại diện cho các nhà phát triển để <1>sử dụng công cụ</1> sau:",
+    "developerTools": {
+      "phoneUse": "Sử dụng điện thoại",
+      "messageUse": "Sử dụng tin nhắn",
+      "emailUse": "Sử dụng email",
+      "meetingUse": "Sử dụng cuộc họp"
+    },
+    "unifiedInbox": "Hộp thư đến hợp nhất",
+    "appNames": {
+      "whatsapp": "WhatsApp",
+      "sms": "SMS",
+      "phone": "Điện thoại",
+      "chat": "Trò chuyện"
+    }
+  },
+  "features": {
+    "mainTitle": "Trung tâm liên hệ đa kênh được hỗ trợ bởi AI cho SME",
+    "mainDescription": "Kết hợp liền mạch tự động hóa AI với chuyên môn của con người trên mọi kênh. Nâng cao năng lực đội ngũ của bạn để cung cấp dịch vụ xuất sắc và thúc đẩy tăng trưởng.",
+    "omniChannel": {
+      "title": "Hộp thư đến đa kênh hợp nhất",
+      "description": "Không bao giờ bỏ lỡ một khách hàng tiềm năng. Xem mọi tương tác của khách hàng từ mọi kênh trong một chế độ xem hợp nhất duy nhất. Cho phép cộng tác liền mạch giữa con người và AI, tiết kiệm cho nhóm của bạn hơn 5 giờ mỗi tuần."
+    },
+    "aiVoicebot": {
+      "title": "AI Voicebot & Chatbot",
+      "description": "Nhân viên kỹ thuật số đầu tiên của bạn làm việc 24/7, tự động hóa tới 80% các câu hỏi lặp lại, đặt hơn 5 cuộc hẹn mỗi ngày và chuyển giao liền mạch cho nhân viên con người khi cần."
+    },
+    "voiceWhatsapp": {
+      "title": "Tích hợp thoại và WhatsApp gốc",
+      "description": "Phục vụ mọi khách hàng trên kênh họ muốn một cách liền mạch. Xem lịch sử trò chuyện WhatsApp ngay lập tức khi họ gọi điện."
+    },
+    "outboundMarketing": {
+      "title": "Chiến dịch tiếp thị đi",
+      "description": "Xây dựng hành trình khách hàng end-to-end liền mạch. Khởi chạy các chiến dịch được nhắm mục tiêu và quản lý tất cả các phản hồi trên cùng một nền tảng."
+    },
+    "enterpriseSecurity": {
+      "title": "Bảo mật cấp doanh nghiệp",
+      "description": "Giải pháp tương thích HIPAA với mã hóa cấp ngân hàng. Hãy yên tâm rằng dữ liệu khách hàng của bạn luôn được bảo vệ."
+    },
+    "predictablePricing": {
+      "title": "Giá cả đơn giản, dễ dự đoán",
+      "description": "Lập ngân sách tự tin. Giá cả minh bạch có nghĩa là bạn sẽ biết chính xác số tiền phải trả mỗi tháng."
+    },
+    "testimonial": {
+      "quote": "Tôi rất khuyến nghị Seasalt.ai vì hệ thống cơ sở kiến thức mạnh mẽ và hỗ trợ đa kênh!",
+      "author": "— Đánh giá từ Kiến trúc sư giải pháp"
+    },
+    "knowledgeBase": {
+      "title": "Cơ sở kiến thức"
+    }
+  },
+  "howItWorks": {
+    "title": "Bắt đầu trong 3 bước đơn giản",
+    "description1": "Chuyển đổi giao tiếp với khách hàng của bạn trong vài phút, không phải vài tháng.",
+    "description2": "Không cần thiết lập phức tạp hoặc kiến thức kỹ thuật.",
+    "connectYourChannels": {
+      "title": "Kết nối các kênh của bạn",
+      "description": "Liên kết điện thoại, WhatsApp, SMS, trò chuyện trên trang web và mạng xã hội của bạn trong vài phút. Không cần chuyên môn kỹ thuật."
+    },
+    "automateRoutineWork": {
+      "title": "Tự động hóa công việc thường ngày",
+      "description": "Thiết lập AI để xử lý các câu hỏi phổ biến như \"Đơn hàng của tôi ở đâu?\" và tự động đặt lịch hẹn."
+    },
+    "unifyYourTeam": {
+      "title": "Hợp nhất đội ngũ của bạn",
+      "description": "Đội ngũ của bạn sẽ thấy lịch sử trò chuyện đầy đủ khi khách hàng chuyển từ trò chuyện sang cuộc gọi điện thoại."
+    },
+    "signUpNow": "Đăng ký ngay",
+    "setupTime": "Thiết lập trong vòng chưa đầy 5 phút"
+  },
+  "useCases": {
+    "title": "Các trường hợp sử dụng mạnh mẽ cho mọi nhu cầu kinh doanh",
+    "description": "Từ trung tâm liên hệ đến các chiến dịch tiếp thị, hãy xem cách Seasalt.ai thích ứng với các yêu cầu kinh doanh cụ thể của bạn với các tính năng cấp doanh nghiệp trong một nền tảng đơn giản, hợp nhất.",
+    "keyFeatures": "Các tính năng chính",
+    "contactCenter": {
+      "title": "Hoạt động trung tâm liên hệ",
+      "headline": "Trung tâm liên hệ chuyên nghiệp với quản lý cuộc gọi đầy đủ",
+      "description": "Biến doanh nghiệp của bạn thành một trung tâm liên hệ chuyên nghiệp với các tính năng cấp doanh nghiệp.",
+      "features": {
+        "ivr": "Hệ thống IVR nâng cao để định tuyến cuộc gọi",
+        "recording": "Ghi âm cuộc gọi và phiên âm tự động",
+        "voicemail": "Thư thoại thông minh với thông báo",
+        "analytics": "Phân tích cuộc gọi và báo cáo thời gian thực",
+        "dashboards": "Bảng điều khiển hiệu suất của nhân viên",
+        "queueManagement": "Quản lý hàng đợi cuộc gọi"
+      }
+    },
+    "virtualReceptionist": {
+      "title": "Lễ tân ảo 24/7",
+      "headline": "Không bao giờ bỏ lỡ cuộc gọi nào nữa với lễ tân do AI điều khiển",
+      "description": "Triển khai voicebot thông minh hoạt động suốt ngày đêm để trả lời các cuộc gọi đến và sàng lọc khách hàng tiềm năng.",
+      "features": {
+        "aiVoicebot": "Voicebot AI trả lời cuộc gọi 24/7",
+        "appointments": "Đặt lịch và sắp xếp cuộc hẹn",
+        "leadQualification": "Sàng lọc và định tuyến khách hàng tiềm năng",
+        "customGreeting": "Lời chào và phản hồi tùy chỉnh",
+        "handoff": "Chuyển giao liền mạch cho nhân viên con người",
+        "multiLanguage": "Hỗ trợ đa ngôn ngữ"
+      }
+    },
+    "smsManagement": {
+      "title": "Quản lý SMS hợp nhất",
+      "headline": "Quản lý nhiều đường dây điện thoại và SMS hai chiều trong một nền tảng duy nhất",
+      "description": "Hợp nhất tất cả các cuộc gọi điện thoại kinh doanh và giao tiếp SMS của bạn vào một nền tảng mạnh mẽ duy nhất.",
+      "features": {
+        "multipleLines": "Nhiều đường dây điện thoại trong một bảng điều khiển",
+        "twoWaySms": "Trò chuyện SMS hai chiều",
+        "unifiedHistory": "Lịch sử SMS và cuộc gọi hợp nhất",
+        "teamCollaboration": "Cộng tác nhóm trên tin nhắn",
+        "automatedResponses": "Phản hồi SMS tự động",
+        "numberSupport": "Hỗ trợ số địa phương và số điện thoại miễn phí"
+      }
+    },
+    "smsMarketing": {
+      "title": "Chiến dịch tiếp thị SMS",
+      "headline": "Khởi chạy các chiến dịch SMS A2P mạnh mẽ với 10DLC và số điện thoại miễn phí",
+      "description": "Thực hiện các chiến dịch tiếp thị SMS chuyên nghiệp với khả năng gửi tin nhắn cao và tuân thủ quy định.",
+      "features": {
+        "tenDlc": "Chiến dịch 10DLC đã đăng ký",
+        "tollFree": "Hỗ trợ số điện thoại miễn phí và mã ngắn",
+        "highVolume": "Gửi tin nhắn số lượng lớn",
+        "analytics": "Phân tích hiệu suất chiến dịch",
+        "compliance": "Quản lý tuân thủ và từ chối nhận tin tự động",
+        "dripCampaigns": "Chiến dịch nhỏ giọt tự động"
+      }
+    },
+    "whatsappBusiness": {
+      "title": "Chiến dịch kinh doanh WhatsApp",
+      "headline": "Tiếp cận khách hàng toàn cầu với nền tảng kinh doanh WhatsApp",
+      "description": "Khởi chạy các chiến dịch WhatsApp được nhắm mục tiêu bằng cách sử dụng nền tảng kinh doanh WhatsApp chính thức.",
+      "features": {
+        "apiIntegration": "Tích hợp API kinh doanh WhatsApp",
+        "templateMessages": "Chiến dịch tin nhắn mẫu",
+        "automatedChatbot": "Phản hồi chatbot tự động",
+        "richMedia": "Hỗ trợ tin nhắn đa phương tiện",
+        "globalReach": "Tiếp cận khách hàng toàn cầu",
+        "analytics": "Phân tích cuộc trò chuyện"
+      }
+    },
+    "aiSupport": {
+      "title": "Hỗ trợ AI Chatbot và Voicebot thông minh",
+      "headline": "Hỗ trợ khách hàng do AI điều khiển không bao giờ ngủ",
+      "description": "Triển khai chatbot thông minh trên tất cả các kênh giao tiếp của bạn để xử lý các câu hỏi của khách hàng 24/7.",
+      "features": {
+        "automated24x7": "Hỗ trợ khách hàng tự động 24/7",
+        "multiChannel": "Triển khai chatbot đa kênh",
+        "instantResponse": "Phản hồi tức thì cho các câu hỏi phổ biến",
+        "humanHandoff": "Chuyển giao liền mạch cho nhân viên con người",
+        "continuousLearning": "Học hỏi và cải thiện liên tục",
+        "knowledgeBase": "Tích hợp cơ sở kiến thức tùy chỉnh"
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng chuyển đổi giao tiếp kinh doanh của bạn?",
+      "description": "Chọn trường hợp sử dụng phù hợp với nhu cầu kinh doanh của bạn. Bắt đầu với gói miễn phí của chúng tôi và mở rộng quy mô khi bạn phát triển.",
+      "signUp": "Đăng ký",
+      "bookDemo": "Đặt lịch demo"
+    }
+  },
+  "phoneBanner": {
+    "callText": "Gọi",
+    "phoneNumber": "+1 (SMB)-AI-AGENT",
+    "bookingText": "để đặt lịch họp với nhân viên SeaVoice AI",
+    "availability": "Có sẵn 24/7"
+  },
+  "problemSolution": {
+    "title": "Mất khách hàng tiềm năng trong các ứng dụng và hộp thư đến lộn xộn?",
+    "description": "Khách hàng của bạn đang cố gắng liên hệ với bạn ở khắp mọi nơi. Một tin nhắn bị bỏ lỡ là một cơ hội bán hàng bị bỏ lỡ. Seasalt.ai tập hợp tất cả các giao tiếp của bạn vào một nơi để bạn không bao giờ bỏ lỡ cơ hội.",
+    "problems": {
+      "fragmented": {
+        "title": "Các cuộc trò chuyện rời rạc",
+        "description": "Việc chuyển đổi giữa WhatsApp, nhật ký cuộc gọi và trò chuyện trên web gây ra sự nhầm lẫn và lãng phí thời gian."
+      },
+      "lostRevenue": {
+        "title": "Doanh thu bị mất",
+        "description": "Các tin nhắn bị bỏ lỡ sau giờ làm việc và phản hồi chậm có nghĩa là mất khách hàng tiềm năng và khách hàng thất vọng."
+      },
+      "operational": {
+        "title": "Gánh nặng vận hành",
+        "description": "Đội ngũ của bạn quá tải với việc quản lý quá nhiều công cụ thay vì tập trung vào khách hàng."
+      }
+    },
+    "solution": {
+      "title": "Seasalt.ai: Giải pháp đa kênh được hỗ trợ bởi AI của bạn",
+      "hubTitle": "Trung tâm đa kênh hợp nhất",
+      "subtitle": "AI và nhân viên con người, 24/7",
+      "tabs": {
+        "support": "Hỗ trợ",
+        "marketing": "Tiếp thị"
+      },
+      "features": {
+        "marketing": {
+          "title": "Hỗ trợ chiến dịch tiếp thị của bạn",
+          "description": "Có thêm khách hàng với các chiến dịch đi do AI điều khiển và nuôi dưỡng khách hàng tiềm năng thông minh."
+        },
+        "support": {
+          "title": "Tự động hóa hỗ trợ khách hàng của bạn",
+          "description": "Giảm chi phí hỗ trợ với nhân viên AI 24/7 xử lý các câu hỏi lặp lại và chuyển giao liền mạch cho con người."
+        },
+        "human": {
+          "title": "Không bao giờ mất đi sự tương tác của con người",
+          "description": "Chọn mức độ tự động hóa của bạn: chỉ con người, AI Copilot hoặc Tự động hóa hoàn toàn tùy theo nhu cầu của bạn."
+        }
+      },
+      "cta": "Sử dụng Seasalt.ai để giải quyết vấn đề này"
+    },
+    "mockData": {
+      "supportTickets": {
+        "sarah": {
+          "name": "Sarah Johnson",
+          "description": "Cuộc gọi về trạng thái đơn hàng",
+          "timeAgo": "2 phút trước"
+        },
+        "mike": {
+          "name": "Mike Chen",
+          "description": "WhatsApp: Câu hỏi về vận chuyển",
+          "timeAgo": "5 phút trước"
+        },
+        "lisa": {
+          "name": "Lisa Park",
+          "description": "Trò chuyện trên trang web: Yêu cầu sản phẩm",
+          "timeAgo": "8 phút trước"
+        },
+        "david": {
+          "name": "David Kim",
+          "description": "Cuộc gọi hỗ trợ: Sự cố kỹ thuật",
+          "timeAgo": "12 phút trước"
+        }
+      },
+      "campaigns": {
+        "blackFriday": {
+          "name": "Chiến dịch Black Friday",
+          "description": "SMS: Đã gửi 2.847 • Đã trả lời 312",
+          "result": "+47 khách hàng tiềm năng"
+        },
+        "whatsappLaunch": {
+          "name": "Ra mắt sản phẩm WhatsApp",
+          "description": "1.523 tin nhắn • 89 cuộc trò chuyện",
+          "result": "+23 doanh số"
+        },
+        "cartRecovery": {
+          "name": "Khôi phục giỏ hàng bị bỏ quên",
+          "description": "Email + SMS: Đã khôi phục 156",
+          "result": "+2k"
+        },
+        "followUp": {
+          "name": "Chiến dịch gọi điện theo dõi",
+          "description": "Voicebot AI: 89 cuộc gọi • 34 cuộc hẹn",
+          "result": "+34 cuộc hẹn"
+        }
+      }
+    }
+  }
+}

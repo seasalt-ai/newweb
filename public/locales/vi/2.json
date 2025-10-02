@@ -1,0 +1,922 @@
+{
+  "seachat": {
+    "common": {
+      "getStarted": "Bắt đầu miễn phí",
+      "signIn": "Đăng nhập",
+      "learnMore": "Tìm hiểu thêm",
+      "readMore": "Đọc thêm",
+      "viewAll": "Xem tất cả bài viết",
+      "tryNow": "Thử ngay",
+      "contactUs": "Liên hệ chúng tôi",
+      "subscribe": "Đăng ký",
+      "search": "Tìm kiếm",
+      "back": "Quay lại"
+    },
+    "header": {
+      "features": "Tính năng",
+      "integrations": "Tích hợp",
+      "solutions": "Giải pháp",
+      "pricing": "Giá cả",
+      "blog": "Blog",
+      "language": "Ngôn ngữ",
+      "featuresDropdown": {
+        "humanAgents": "Trò chuyện với nhân viên con người",
+        "aiAutomation": "Tự động hóa AI",
+        "advancedAI": "Tính năng AI nâng cao",
+        "knowledgeBase": "Cơ sở kiến thức",
+        "voiceAgents": "Nhân viên giọng nói",
+        "analytics": "Phân tích & Thông tin chi tiết",
+        "omnichannel": "Hỗ trợ đa kênh",
+        "api": "API & Công cụ dành cho nhà phát triển"
+      },
+      "integrationsDropdown": {
+        "websites": "Nền tảng trang web",
+        "crm": "Hệ thống CRM",
+        "ecommerce": "Thương mại điện tử",
+        "socialMedia": "Mạng xã hội",
+        "communication": "Công cụ giao tiếp",
+        "marketing": "Nền tảng tiếp thị",
+        "calendar": "Lịch & Lên lịch",
+        "api": "API tùy chỉnh"
+      },
+      "solutionsDropdown": {
+        "ecommerce": "Thương mại điện tử & Bán lẻ",
+        "healthcare": "Chăm sóc sức khỏe",
+        "fintech": "Dịch vụ tài chính",
+        "education": "Giáo dục",
+        "realEstate": "Bất động sản",
+        "travel": "Du lịch & Khách sạn",
+        "saas": "SaaS & Công nghệ",
+        "smallBusiness": "Doanh nghiệp nhỏ"
+      },
+      "backToMainSite": "Quay lại trang web chính",
+      "viewAllIntegrations": "Xem tất cả các tích hợp →",
+      "viewAllSolutions": "Xem tất cả các giải pháp →"
+    },
+    "hero": {
+      "title": {
+        "line1": "Phản hồi",
+        "line2": "Hàng triệu 24/7"
+      },
+      "subtitle": "Nhân viên trực tiếp",
+      "description": "Chuyển đổi hỗ trợ khách hàng với nền tảng đa kênh của chúng tôi. Bắt đầu với nhân viên con người miễn phí, sau đó tích hợp tự động hóa AI liền mạch khi bạn phát triển.",
+      "startFree": "Bắt đầu miễn phí ngay",
+      "exploreAI": "Đặt lịch demo",
+      "alwaysFree": "Gói miễn phí vĩnh viễn",
+      "integrations": "Hơn 30 tích hợp",
+      "setup": "Thiết lập trong 2 phút",
+      "chat": {
+        "userMessage": "Chào! Tôi cần giúp đỡ với đơn hàng của mình",
+        "botMessage": "Chào bạn! Tôi rất vui được giúp bạn với đơn hàng của bạn. Bạn có thể vui lòng cung cấp số đơn hàng của bạn không?",
+        "userMessage2": "Tôi có thể giúp bạn kết nối với một nhân viên con người hoặc cung cấp hỗ trợ AI tức thì. Bạn muốn tiếp tục như thế nào?",
+        "typePlaceholder": "Nhập tin nhắn của bạn...",
+        "online": "Trực tuyến",
+        "supportTitle": "Hỗ trợ SeaChat"
+      },
+      "badge": "Bắt đầu miễn phí với nhân viên trực tiếp",
+      "animationSection": {
+        "title": "SeaChat đang hoạt động",
+        "autoMode": "Tự động",
+        "manualMode": "Thủ công"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "Giọng nói điện thoại AI",
+          "description": "Nhân viên AI xử lý các cuộc gọi điện thoại"
+        },
+        "interactive": {
+          "name": "Các kênh tương tác",
+          "description": "Nhấp để xem các cuộc trò chuyện khác nhau"
+        },
+        "multiChannel": {
+          "name": "Luồng đa kênh",
+          "description": "Tin nhắn chảy giữa các nền tảng khác nhau"
+        },
+        "agentToAI": {
+          "name": "Chuyển giao từ con người sang AI",
+          "description": "Bắt đầu với con người, mở rộng quy mô với AI"
+        },
+        "learning": {
+          "name": "Hành trình học tập của AI",
+          "description": "Xem AI trở nên thông minh hơn từ nội dung"
+        },
+        "dashboard": {
+          "name": "Phân tích thời gian thực",
+          "description": "Các chỉ số hiệu suất trực tiếp"
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Tại sao chọn SeaChat?",
+      "subtitle": "Trải nghiệm sự kết hợp hoàn hảo giữa sự tiếp xúc của con người và hiệu quả của AI. Bắt đầu miễn phí, mở rộng quy mô thông minh, thành công nhanh hơn.",
+      "humanAgents": {
+        "title": "Nhân viên con người hoàn toàn miễn phí 🍺 🎙️",
+        "description": "Bắt đầu với 1 nhân viên con người miễn phí trọn đời—đúng vậy, trọn đời! Không giới hạn, không giới hạn, không có điều kiện.",
+        "badge": "Miễn phí vĩnh viễn",
+        "highlights": [
+          "Trò chuyện không giới hạn",
+          "Truy cập lịch sử trò chuyện không giới hạn",
+          "Liên hệ không giới hạn & xây dựng mạng lưới",
+          "Tự do xuất tất cả dữ liệu của bạn"
+        ]
+      },
+      "aiAutomation": {
+        "title": "Tự động hóa AI liền mạch",
+        "description": "Mở rộng quy mô dễ dàng với AI thông minh học hỏi từ các cuộc trò chuyện và tài liệu của bạn.",
+        "highlights": [
+          "Phản hồi tự động thông minh",
+          "Học hỏi từ các tương tác",
+          "Trả lời theo ngữ cảnh"
+        ]
+      },
+      "omnichannel": {
+        "title": "Kết nối đa kênh",
+        "description": "Kết nối tất cả các kênh giao tiếp của bạn trong một nền tảng hợp nhất để hỗ trợ nhất quán.",
+        "highlights": [
+          "Hơn 30 tích hợp",
+          "Hộp thư đến hợp nhất",
+          "Đồng bộ hóa đa nền tảng"
+        ]
+      },
+      "trulyFree": {
+        "title": "Gói hoàn toàn miễn phí như Miễn phí 🍺 & 🎙️",
+        "description": "Giới thiệu Chế độ chỉ dành cho nhân viên con người của SeaChat: Vé của bạn đến Tự do giao tiếp không giới hạn! Chúng tôi rất vui mừng được giới thiệu 1 nhân viên con người miễn phí trọn đời—đúng vậy, bạn đã nghe đúng, trọn đời!",
+        "freeFeatures": {
+          "unlimitedChat": {
+            "title": "Trò chuyện không giới hạn",
+            "description": "Tham gia vào nhiều cuộc trò chuyện tùy thích, không giới hạn hoặc hạn chế."
+          },
+          "unlimitedHistory": {
+            "title": "Lịch sử không giới hạn",
+            "description": "Không bao giờ mất một cuộc trò chuyện nào—truy cập toàn bộ lịch sử trò chuyện của bạn bất cứ lúc nào."
+          },
+          "unlimitedContacts": {
+            "title": "Liên hệ không giới hạn",
+            "description": "Xây dựng mạng lưới của bạn mà không có bất kỳ hạn chế hoặc giới hạn liên hệ nào."
+          },
+          "freedomToExport": {
+            "title": "Tự do xuất",
+            "description": "Dữ liệu của bạn, quy tắc của bạn—xuất tất cả lịch sử trò chuyện của bạn một cách dễ dàng."
+          }
+        },
+        "whyChoose": "Tại sao chọn SeaChat? Bởi vì nó hoàn toàn miễn phí!",
+        "whatYouGet": "✅ Những gì bạn nhận được MIỄN PHÍ VĨNH VIỄN:",
+        "freeForeverFeatures": [
+          "1 nhân viên con người trọn đời",
+          "Trò chuyện không giới hạn",
+          "Truy cập lịch sử trò chuyện đầy đủ",
+          "Quản lý liên hệ không giới hạn",
+          "Quyền xuất dữ liệu đầy đủ"
+        ],
+        "scaleWhenReady": "🚀 Mở rộng quy mô khi sẵn sàng:",
+        "scaleFeatures": [
+          "Thêm tự động hóa AI",
+          "Tích hợp nâng cao",
+          "Tính năng nhân viên giọng nói",
+          "Bảo mật doanh nghiệp",
+          "Quy trình làm việc tùy chỉnh"
+        ],
+        "startButton": "Bắt đầu nhân viên miễn phí của bạn ngay bây giờ - Không cần thẻ tín dụng!"
+      },
+      "statsBar": {
+        "unlimited": "Trò chuyện không giới hạn mãi mãi",
+        "fileTypes": "Hơn 30 loại tệp được hỗ trợ",
+        "setupTime": "Thời gian thiết lập trung bình 2 phút",
+        "availability": "AI có sẵn 24/7 khi sẵn sàng"
+      }
+    },
+    "featureTabs": {
+      "title": "Tính năng mạnh mẽ, thiết lập đơn giản",
+      "subtitle": "Khám phá bộ tính năng toàn diện của chúng tôi được thiết kế để chuyển đổi trải nghiệm hỗ trợ khách hàng của bạn.",
+      "tabs": {
+        "humanAgent": "Nhân viên con người",
+        "agentChat": "Trò chuyện với nhân viên",
+        "aiAgent": "Nhân viên AI",
+        "advancedAI": "AI nâng cao",
+        "knowledgeBase": "Cơ sở kiến thức",
+        "integrations": "Tích hợp"
+      },
+      "content": {
+        "agentChat": {
+          "title": "Sự xuất sắc của nhân viên con người",
+          "subtitle": "Bắt đầu với hỗ trợ của con người thực, hoàn toàn miễn phí",
+          "features": [
+            "Giờ làm việc của nhân viên miễn phí không giới hạn",
+            "Quản lý cuộc trò chuyện thời gian thực",
+            "Cộng tác đa nhân viên",
+            "Gắn nhãn và định tuyến nâng cao",
+            "Phân tích hiệu suất",
+            "Quy trình làm việc tùy chỉnh"
+          ],
+          "tryFeature": "Thử tính năng này",
+          "watchDemo": "Xem demo"
+        },
+        "aiAgent": {
+          "title": "Tự động hóa AI thông minh",
+          "subtitle": "Mở rộng quy mô liền mạch với AI thông minh học hỏi",
+          "features": [
+            "Phản hồi theo ngữ cảnh",
+            "Học hỏi từ các cuộc trò chuyện",
+            "Chuyển giao liền mạch cho con người",
+            "Hỗ trợ đa ngôn ngữ",
+            "Đào tạo AI tùy chỉnh",
+            "Khả năng nhân viên giọng nói"
+          ],
+          "tryFeature": "Thử tính năng này",
+          "watchDemo": "Xem demo"
+        },
+        "advancedAI": {
+          "title": "Trí tuệ AI thế hệ tiếp theo",
+          "subtitle": "Các tính năng AI nâng cao cho trải nghiệm cá nhân hóa",
+          "features": [
+            "Tạo sinh tăng cường truy xuất (RAG)",
+            "Hệ thống bộ nhớ người dùng dài hạn",
+            "Phản hồi theo ngữ cảnh theo thời gian",
+            "Trích xuất ngữ cảnh thông minh",
+            "Kết quả trò chuyện được tham chiếu",
+            "Tinh chỉnh cơ sở kiến thức"
+          ],
+          "tryDemo": "Thử demo AI nâng cao",
+          "watchAI": "Xem AI hoạt động"
+        },
+        "knowledgeBase": {
+          "title": "Trung tâm kiến thức toàn diện",
+          "subtitle": "Tải lên hơn 30 loại tệp để AI phản hồi tức thì, theo ngữ cảnh với thẻ, nút, hình ảnh và video.",
+          "features": [
+            "Hỗ trợ PDF, Excel, CSV, Word",
+            "Thu thập nội dung trang web",
+            "Xử lý hình ảnh và video",
+            "Định dạng phản hồi phong phú",
+            "Nội dung tự động cập nhật",
+            "Kiểm soát phiên bản"
+          ],
+          "tryFeature": "Thử tính năng này",
+          "watchDemo": "Xem demo"
+        },
+        "integrations": {
+          "title": "Tích hợp mạnh mẽ",
+          "subtitle": "Kết nối với các công cụ và nền tảng yêu thích của bạn",
+          "features": [
+            "Tích hợp CRM (Salesforce, HubSpot)",
+            "Đặt lịch hẹn (Google, Outlook)",
+            "Nền tảng thương mại điện tử",
+            "Công cụ tiếp thị",
+            "Truy cập API tùy chỉnh",
+            "Hỗ trợ Webhook"
+          ],
+          "tryFeature": "Thử tính năng này",
+          "watchDemo": "Xem demo"
+        }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "Tạo sinh tăng cường truy xuất",
+            "description": "Tìm kiếm từ khóa, vector và lai để truy xuất thông tin chính xác",
+            "details": {
+              "0": "Tìm kiếm vector ngữ nghĩa",
+              "1": "Đối sánh từ khóa",
+              "2": "Thuật toán tìm kiếm lai",
+              "3": "Lập chỉ mục nội dung thời gian thực"
+            }
+          },
+          "memory": {
+            "title": "Bộ nhớ dài hạn",
+            "description": "Trải nghiệm cá nhân hóa thông qua bộ nhớ người dùng liên tục",
+            "details": {
+              "0": "Theo dõi sở thích người dùng",
+              "1": "Phân tích lịch sử trò chuyện",
+              "2": "Nhận dạng mẫu hành vi",
+              "3": "Tính liên tục giữa các phiên"
+            }
+          },
+          "timeAware": {
+            "title": "Nhận thức thời gian",
+            "description": "Phản hồi theo ngữ cảnh dựa trên thời gian và múi giờ hiện tại",
+            "details": {
+              "0": "Tích hợp dấu thời gian thời gian thực",
+              "1": "Lên lịch theo múi giờ",
+              "2": "Đề xuất nhạy cảm về thời gian",
+              "3": "Tối ưu hóa giờ làm việc"
+            }
+          },
+          "contextExtraction": {
+            "title": "Trích xuất ngữ cảnh",
+            "description": "Ánh xạ trường thông minh để hiểu người dùng tốt hơn",
+            "details": {
+              "0": "Định nghĩa trường tùy chỉnh",
+              "1": "Trích xuất dữ liệu tự động",
+              "2": "Sở thích ngôn ngữ người dùng",
+              "3": "Xây dựng ngữ cảnh động"
+            }
+          },
+          "referencedResults": {
+            "title": "Kết quả được tham chiếu",
+            "description": "Phản hồi AI minh bạch với trích dẫn nguồn",
+            "details": {
+              "0": "Liên kết tài liệu nguồn",
+              "1": "Theo dõi trích dẫn",
+              "2": "Chấm điểm độ tin cậy",
+              "3": "Xác minh sự thật"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "Tinh chỉnh kiến thức",
+            "description": "Cải thiện liên tục độ chính xác của cơ sở kiến thức",
+            "details": {
+              "0": "Nội dung tự động cập nhật",
+              "1": "Chấm điểm chất lượng",
+              "2": "Tối ưu hóa mức độ liên quan",
+              "3": "Phân tích hiệu suất"
+            }
+          }
+        }
+      }
+    },
+    "omnichannelDemo": {
+      "title": "Triển khai ở mọi nơi khách hàng của bạn đang ở",
+      "subtitle": "Kết nối liền mạch tất cả các điểm tiếp xúc khách hàng của bạn trên các trang web, mạng xã hội và nền tảng giao tiếp. Di chuột qua từng kênh để xem các chỉ số hiệu suất thời gian thực.",
+      "messagesPerDay": "Tin nhắn/ngày",
+      "responseTime": "Thời gian phản hồi",
+      "keyFeatures": "Các tính năng chính",
+      "integrateChannel": "Tích hợp",
+      "channels": {
+        "website": {
+          "name": "Trang web",
+          "description": "Widget phổ quát hoạt động trên mọi trang web HTML"
+        },
+        "whatsapp": {
+          "name": "WhatsApp",
+          "description": "Kết nối với khách hàng trên ứng dụng nhắn tin phổ biến nhất thế giới"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "description": "Quản lý tin nhắn trực tiếp và trả lời câu chuyện trên Instagram trong một hộp thư đến hợp nhất"
+        },
+        "facebook": {
+          "name": "Facebook",
+          "description": "Cung cấp hỗ trợ khách hàng thông qua nền tảng nhắn tin của Facebook"
+        },
+        "line": {
+          "name": "LINE",
+          "description": "Kết nối với khách hàng trên nền tảng nhắn tin phổ biến ở châu Á"
+        },
+        "phone": {
+          "name": "Cuộc gọi điện thoại",
+          "description": "Xử lý hỗ trợ thoại với nhân viên giọng nói AI"
+        },
+        "email": {
+          "name": "Email",
+          "description": "Quản lý phiếu yêu cầu qua email với định tuyến thông minh"
+        },
+        "ecommerce": {
+          "name": "Thương mại điện tử",
+          "description": "Tích hợp với các cửa hàng trực tuyến để quản lý đơn hàng"
+        }
+      },
+      "platformCategories": {
+        "website": {
+          "title": "Tích hợp trang web",
+          "description": "Triển khai trên mọi nền tảng trang web với widget phổ quát của chúng tôi"
+        },
+        "socialMedia": {
+          "title": "Mạng xã hội",
+          "description": "Kết nối với khách hàng trên các nền tảng xã hội yêu thích của họ"
+        },
+        "traditional": {
+          "title": "Các kênh truyền thống",
+          "description": "Duy trì hỗ trợ thông qua các phương pháp giao tiếp cổ điển"
+        }
+      },
+      "quickSetup": {
+        "title": "Sẵn sàng triển khai ở mọi nơi?",
+        "subtitle": "Bắt đầu trong vài phút với quy trình tích hợp đơn giản của chúng tôi",
+        "steps": [
+          {
+            "title": "Chọn kênh của bạn",
+            "description": "Chọn từ hơn 8 tùy chọn triển khai"
+          },
+          {
+            "title": "Sao chép & Dán mã",
+            "description": "Cài đặt widget đơn giản"
+          },
+          {
+            "title": "Bắt đầu trò chuyện",
+            "description": "Bắt đầu hỗ trợ khách hàng ngay lập tức"
+          }
+        ],
+        "button": "Bắt đầu triển khai miễn phí"
+      }
+    },
+    "pricing": {
+      "title": "Giá cả phát triển cùng bạn",
+      "subtitle": "Bắt đầu hoàn toàn miễn phí với nhân viên con người, sau đó thêm AI khi bạn sẵn sàng mở rộng quy mô.",
+      "monthly": "Hàng tháng",
+      "yearly": "Hàng năm",
+      "save": "Tiết kiệm 20%",
+      "customize": "Tùy chỉnh gói của bạn",
+      "chatVolume": "Lượng trò chuyện hàng tháng",
+      "agents": "Số lượng nhân viên",
+      "plans": {
+        "free": {
+          "name": "Hoàn toàn miễn phí",
+          "tagline": "Trải nghiệm bản dùng thử các tính năng mạnh mẽ",
+          "description": "Hoàn hảo để bắt đầu với nhân viên con người",
+          "features": {
+            "humanAgent": "1 nhân viên con người",
+            "unlimitedHumanChats": "Trò chuyện không giới hạn với nhân viên con người",
+            "unlimitedContacts": "Liên hệ không giới hạn",
+            "unlimitedHistory": "Lịch sử trò chuyện không giới hạn",
+            "exportHistory": "Tự do xuất lịch sử trò chuyện",
+            "channels": "Kênh: WhatsApp Messenger, widget trò chuyện",
+            "integrations": "Tích hợp: Wix, WordPress, Shopify, Make.com, Squarespace",
+            "aiAgent": "Nhân viên AI với 100 phản hồi AI trọn đời:",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "Cơ sở kiến thức bao gồm 20 tài liệu (tối đa 200KB) và 250k token",
+            "workspace": "1 không gian làm việc"
+          },
+          "buttonText": "Bắt đầu miễn phí"
+        },
+        "premium": {
+          "name": "Premium",
+          "tagline": "Thêm nhiều nhân viên AI và tệp kiến thức",
+          "description": "Mở rộng quy mô hỗ trợ của bạn với tự động hóa AI",
+          "month": "tháng",
+          "year": "năm",
+          "year_description": "Tiết kiệm 2 tháng mỗi năm",
+          "features": {
+            "humanAgents": "4 người dùng con người (người dùng con người bổ sung có giá 10 đô la/tháng)",
+            "humanAgentPermission": "Hỗ trợ quyền nhân viên con người",
+            "assignAgent": "Chỉ định nhân viên con người cho từng cuộc trò chuyện",
+            "unreadCounter": "Bộ đếm tin nhắn chưa đọc cho mỗi nhân viên con người",
+            "transferToHuman": "Chuyển trực tiếp từ nhân viên AI sang nhân viên con người",
+            "transferToAI": "Chuyển trực tiếp từ nhân viên con người sang nhân viên AI",
+            "unlimitedHumanChats": "Trò chuyện không giới hạn với nhân viên con người",
+            "unlimitedContacts": "Liên hệ không giới hạn",
+            "unlimitedHistory": "Lịch sử trò chuyện không giới hạn",
+            "exportHistory": "Tự do xuất lịch sử trò chuyện",
+            "channels": "Các kênh bổ sung: Line, Cuộc gọi, Cuộc gọi điện thoại",
+            "integrations": "Các tích hợp bổ sung: Lịch Google để tự động đặt lịch họp",
+            "aiAgents": "10 nhân viên AI, với mỗi nhân viên có:",
+            "aiModels": "Các mô hình ChatGPT-4o và Mistral",
+            "knowledgeBase": "Cơ sở kiến thức bao gồm tối đa 1000 tài liệu (10 MB mỗi tài liệu) và 5 triệu token",
+            "chatSummary": "Tóm tắt trò chuyện và thông báo qua email",
+            "agentPrivacy": "Kiểm soát quyền riêng tư của nhân viên",
+            "contactCapture": "Thu thập thông tin liên hệ người dùng qua các biểu mẫu tùy chỉnh",
+            "chatCost": "Nhân viên AI trò chuyện bắt đầu từ 0,006 đô la mỗi phản hồi",
+            "voiceCost": "Nhân viên AI giọng nói qua cuộc gọi điện thoại bắt đầu từ 0,12 đô la mỗi phút",
+            "workspaces": "2 không gian làm việc (không gian làm việc bổ sung có giá 15 đô la/tháng)",
+            "knowledgeBaseFeatures": "Cơ sở kiến thức:",
+            "advancedSearch": "Tìm kiếm tài liệu nâng cao - từ khóa, vector, lai",
+            "fileTypes": "Hơn 20 loại tệp được hỗ trợ, với tối ưu hóa trên bảng tính",
+            "automationFeatures": "Tự động hóa:",
+            "autoLabel": "Tự động gắn nhãn các cuộc trò chuyện bằng nhãn do người dùng định nghĩa",
+            "builtInActions": "Các hành động tích hợp được kích hoạt bởi tự động gắn nhãn: SMS, Email",
+            "externalAPI": "Các cuộc gọi API bên ngoài làm cả trình kích hoạt và hành động",
+            "voiceAgentFeatures": "Nhân viên AI giọng nói:",
+            "voiceMessages": "Hỗ trợ tin nhắn thoại trong Messenger, WhatsApp, Line",
+            "phoneCalls": "Hỗ trợ các cuộc trò chuyện điện thoại 2 chiều",
+            "callDirection": "Hỗ trợ cả cuộc gọi đến và đi",
+            "transferAgent": "Chuyển giao cho nhân viên con người",
+            "callForwarding": "Chuyển tiếp cuộc gọi được hỗ trợ",
+            "sttLanguages": "Hơn 10 ngôn ngữ chuyển giọng nói thành văn bản",
+            "ttsLanguages": "Hơn 10 ngôn ngữ chuyển văn bản thành giọng nói với giọng nói từ Azure, ElevenLabs, OpenAI",
+            "callRecording": "Ghi âm cuộc gọi và tóm tắt",
+            "callNotification": "Thông báo cuộc gọi qua email",
+            "formTrackers": "Đặt trình theo dõi biểu mẫu từ các cuộc trò chuyện",
+            "slotExtractors": "Trích xuất khe từ các cuộc trò chuyện",
+            "timezoneFeatures": "Nhận thức thời gian địa phương với hỗ trợ múi giờ, cho:",
+            "businessHours": "giờ làm việc",
+            "appointmentBooking": "đặt lịch hẹn",
+            "humanAgent": "4 người dùng con người (người dùng con người bổ sung có giá 10 đô la/tháng)",
+            "supportHumanAgent": "Hỗ trợ quyền nhân viên con người",
+            "liveTransferToHuman": "Chuyển trực tiếp từ nhân viên AI sang nhân viên con người",
+            "liveTransferToAI": "Chuyển trực tiếp từ nhân viên con người sang nhân viên AI",
+            "additionalChannels": "Các kênh bổ sung: Line, Cuộc gọi, Cuộc gọi điện thoại",
+            "additionalIntegrations": "Các tích hợp bổ sung: Lịch Google để tự động đặt lịch họp",
+            "knowledgeBaseTitle": "Cơ sở kiến thức:",
+            "automationTitle": "Tự động hóa:",
+            "voiceAgentsTitle": "Nhân viên AI giọng nói:",
+            "timezoneTitle": "Nhận thức thời gian địa phương với hỗ trợ múi giờ, cho:"
+          },
+          "buttonText": "Bắt đầu Premium",
+          "badge": "Phổ biến nhất"
+        },
+        "enterprise": {
+          "name": "Doanh nghiệp",
+          "tagline": "Tùy chỉnh nhân viên AI độc quyền của bạn",
+          "description": "Các giải pháp tùy chỉnh cho các tổ chức lớn",
+          "features": {
+            "premiumIncluded": "Mọi thứ trong gói Premium",
+            "customBuild": "Xây dựng tùy chỉnh",
+            "multipleWorkspaces": "Nhiều không gian làm việc - hoàn hảo cho các đại lý",
+            "workspaceAgents": "Mỗi không gian làm việc có nhiều nhân viên AI và số điện thoại",
+            "gpt4oRealtimeAPI": "Truy cập API thời gian thực GPT-4o",
+            "customAPI": "Tích hợp API tùy chỉnh",
+            "fineTuning": "Tinh chỉnh với hướng dẫn và hỗ trợ kỹ thuật của bạn"
+          },
+          "buttonText": "Liên hệ chúng tôi"
+        }
+      },
+      "billing": {
+        "monthly": "Hàng tháng",
+        "yearly": "Hàng năm",
+        "year": "năm",
+        "month": "tháng",
+        "save": "Tiết kiệm 2 tháng so với thanh toán hàng tháng"
+      },
+      "calculator": {
+        "title": "Công cụ tính toán sử dụng gói & mô hình",
+        "description": "Ước tính chi phí của bạn dựa trên các mẫu sử dụng của bạn",
+        "modelSelect": "Chọn mô hình AI",
+        "priceBreakdown": "Phân tích chi phí",
+        "licenseYearly": "Phí cấp phép (tiết kiệm 2 tháng):",
+        "licenseFee": "Phí cấp phép:",
+        "usageCost": "Chi phí sử dụng:",
+        "usageCostYearly": "Chi phí sử dụng (12 tháng):",
+        "addOnsCost": "Chi phí tiện ích bổ sung:",
+        "addOnsCostYearly": "Chi phí tiện ích bổ sung (12 tháng):",
+        "totalPerYear": "Tổng cộng mỗi năm:",
+        "totalPerMonth": "Tổng cộng mỗi tháng:",
+        "averagePerMonth": "Trung bình mỗi tháng:",
+        "aiUsage": "Sử dụng AI (Trả tiền theo mức sử dụng)",
+        "chatResponses": "Phản hồi trò chuyện hàng tháng:",
+        "voiceMinutes": "Số phút thoại hàng tháng:",
+        "voiceMinutesNote": "Chỉ dành cho Hoa Kỳ/Canada",
+        "chatCost": "Chi phí trò chuyện",
+        "voiceCost": "Chi phí thoại",
+        "additionalResources": "Tài nguyên bổ sung",
+        "humanAgents": "Nhân viên con người:",
+        "aiAgents": "Nhân viên AI:",
+        "workspaces": "Không gian làm việc:",
+        "included": "Bao gồm:",
+        "extra": "Thêm:",
+        "disclaimer": "Chi phí sử dụng được tính toán dựa trên mức tiêu thụ thực tế. Gói Premium bao gồm:",
+        "disclaimerDetails": "Phí cấp phép + Sử dụng AI (trả tiền theo mức sử dụng) + Tài nguyên bổ sung ngoài giới hạn bao gồm.",
+        "planIncludes": "Gói Premium bao gồm:",
+        "planIncludesHuman": "4 nhân viên con người",
+        "planIncludesAI": "10 nhân viên AI",
+        "planIncludesWorkspaces": "2 không gian làm việc",
+        "perChatResponse": "mỗi phản hồi trò chuyện",
+        "perVoiceMinute": "mỗi phút thoại",
+        "voiceOnly": "Mô hình chỉ thoại",
+        "voicePricing": "Giá thoại",
+        "standardVoice": "Giọng nói tiêu chuẩn",
+        "premiumVoice": "Giọng nói cao cấp",
+        "placeholderText": "Văn bản giữ chỗ"
+      },
+      "note": "Giá được tính bằng USD. Giá cuộc gọi thoại thay đổi tùy theo quốc gia và giá niêm yết là dành cho Hoa Kỳ và Canada. Đối với các quốc gia khác, vui lòng liên hệ với chúng tôi.",
+      "comparison": {
+        "title": "So sánh tất cả các tính năng",
+        "subtitle": "Xem chính xác những gì được bao gồm trong mỗi gói",
+        "featuresTitle": "Tính năng",
+        "trulyFree": "Hoàn toàn miễn phí",
+        "premium": "Premium",
+        "enterprise": "Doanh nghiệp",
+        "humanAgents": "Nhân viên con người",
+        "aiAgents": "Nhân viên AI",
+        "aiModels": "Mô hình AI",
+        "knowledgeBase": "Cơ sở kiến thức",
+        "voiceAI": "Nhân viên AI giọng nói",
+        "phoneCalls": "Cuộc gọi điện thoại",
+        "automation": "Tự động hóa",
+        "apiIntegration": "Tích hợp API",
+        "workspaces": "Không gian làm việc",
+        "support": "Hỗ trợ",
+        "features": {
+          "humanAgents": {
+            "free": "1 nhân viên",
+            "premium": "4 người dùng",
+            "enterprise": "Không giới hạn"
+          },
+          "aiAgents": {
+            "free": "1 nhân viên (100 phản hồi)",
+            "premium": "10 nhân viên (không giới hạn)",
+            "enterprise": "Xây dựng tùy chỉnh"
+          },
+          "aiModels": {
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o, Mistral",
+            "enterprise": "Các mô hình nâng cao"
+          },
+          "knowledgeBase": {
+            "free": "20 tài liệu (200KB)",
+            "premium": "5000 tài liệu (10MB mỗi tài liệu)",
+            "enterprise": "Không giới hạn"
+          },
+          "voiceAI": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
+          },
+          "phoneCalls": {
+            "free": "❌",
+            "premium": "✅ Đến/Đi",
+            "enterprise": "✅"
+          },
+          "automation": {
+            "free": "❌",
+            "premium": "✅ Nâng cao",
+            "enterprise": "✅ Tùy chỉnh"
+          },
+          "apiIntegration": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ Tùy chỉnh"
+          },
+          "workspaces": {
+            "free": "1",
+            "premium": "2 (15 đô la mỗi cái thêm)",
+            "enterprise": "Nhiều"
+          },
+          "support": {
+            "free": "Cộng đồng",
+            "premium": "Email + Điện thoại",
+            "enterprise": "Kỹ thuật chuyên dụng"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Cần một cái gì đó tùy chỉnh?",
+        "description": "Chúng tôi cung cấp các giải pháp doanh nghiệp tùy chỉnh bao gồm triển khai tại chỗ, các tính năng bảo mật nâng cao và đội ngũ hỗ trợ chuyên dụng.",
+        "contactSales": "Liên hệ đội ngũ bán hàng"
+      },
+      "faq": {
+        "title": "Các câu hỏi thường gặp",
+        "question1": "Gói miễn phí có thực sự miễn phí mãi mãi không?",
+        "answer1": "Có! Gói Hoàn toàn miễn phí của chúng tôi bao gồm 1 nhân viên con người trọn đời với các cuộc trò chuyện, lịch sử trò chuyện và liên hệ không giới hạn. Ngoài ra, bạn nhận được 1 nhân viên AI với 100 phản hồi AI trọn đời để thử các tính năng AI của chúng tôi. Không cần thẻ tín dụng, không có phí ẩn.",
+        "question2": "Sự khác biệt giữa thanh toán hàng tháng và hàng năm là gì?",
+        "answer2": "Với thanh toán hàng năm, bạn tiết kiệm 2 tháng trên gói Premium (299 đô la/năm so với 359,88 đô la/năm nếu thanh toán hàng tháng). Chu kỳ thanh toán chỉ ảnh hưởng đến gói Premium - gói Miễn phí luôn miễn phí và gói Doanh nghiệp có giá tùy chỉnh.",
+        "question3": "Tôi có thể nâng cấp hoặc hạ cấp gói của mình bất cứ lúc nào không?",
+        "answer3": "Tuyệt đối! Bạn có thể thay đổi gói của mình bất cứ lúc nào. Nâng cấp có hiệu lực ngay lập tức và hạ cấp có hiệu lực vào cuối chu kỳ thanh toán hiện tại của bạn.",
+        "question4": "Điều gì xảy ra nếu tôi vượt quá giới hạn phản hồi AI trên gói Miễn phí?",
+        "answer4": "Gói Miễn phí bao gồm 100 phản hồi AI trọn đời. Khi bạn đạt đến giới hạn này, bạn sẽ cần nâng cấp lên gói Premium để có phản hồi AI không giới hạn. Chức năng nhân viên con người của bạn vẫn không giới hạn trên tất cả các gói.",
+        "question5": "Giá gói Premium hoạt động như thế nào?",
+        "answer5": "Gói Premium có hai thành phần: phí cấp phép (29,99 đô la/tháng hoặc 299 đô la/năm) cộng với giá dựa trên mức sử dụng. Mức sử dụng bao gồm các phản hồi AI bắt đầu từ 0,006 đô la mỗi phản hồi (ChatGPT-4o mini) và các cuộc gọi thoại với giá 0,12 đô la/phút. Người dùng con người bổ sung có giá 10 đô la/tháng mỗi người, và không gian làm việc bổ sung có giá 15 đô la/tháng mỗi cái.",
+        "question6": "Điều gì xảy ra với dữ liệu của tôi nếu tôi hủy?",
+        "answer6": "Bạn sở hữu dữ liệu của mình. Bạn có thể xuất tất cả lịch sử trò chuyện, liên hệ và nội dung cơ sở kiến thức của mình bất cứ lúc nào, ngay cả trên gói miễn phí. Chúng tôi tin vào tự do dữ liệu và tính minh bạch.",
+        "question7": "Bạn có cung cấp giá tùy chỉnh cho các doanh nghiệp lớn không?",
+        "answer7": "Có! Gói Doanh nghiệp của chúng tôi cung cấp các bản dựng tùy chỉnh, nhiều dịch vụ AI hoàn hảo cho các đại lý, tích hợp API tùy chỉnh và hướng dẫn thiết kế chuyên nghiệp với hỗ trợ kỹ thuật. Liên hệ với đội ngũ bán hàng của chúng tôi để nhận báo giá cá nhân hóa."
+      },
+      "cta": {
+        "title": "Cuộc cách mạng trò chuyện AI của bạn",
+        "subtitle": "Bắt đầu ngay bây giờ!",
+        "description": "Tham gia cùng hơn 100.000 doanh nghiệp đã sử dụng SeaChat để mang lại trải nghiệm khách hàng đặc biệt trên tất cả các kênh nhắn tin",
+        "stats": {
+          "messages": "100K+",
+          "messagesLabel": "Tin nhắn hàng ngày",
+          "uptime": "99.9%",
+          "uptimeLabel": "Đảm bảo thời gian hoạt động",
+          "channels": "15+",
+          "channelsLabel": "Các kênh được hỗ trợ",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "Tuân thủ & Bảo mật"
+        },
+        "startFree": "BẮT ĐẦU HOÀN TOÀN MIỄN PHÍ TRƯỚC",
+        "bookDemo": "Đặt lịch demo trực tiếp",
+        "badges": {
+          "noCoding": "Không yêu cầu mã hóa",
+          "freePlan": "Gói miễn phí vĩnh viễn",
+          "cancelAnytime": "Hủy bất cứ lúc nào",
+          "support": "Hỗ trợ 24/7"
+        },
+        "urgency": "Thời gian giới hạn: Nhận 2 tháng miễn phí trên các gói hàng năm + hỗ trợ giới thiệu ưu tiên!",
+        "limitedTime": "Thời gian giới hạn:"
+      }
+    },
+    "knowledgeBase": {
+      "title": "Cơ sở kiến thức mạnh mẽ",
+      "subtitle": "Tải lên hơn 30 loại tệp và để AI cung cấp các phản hồi phong phú, theo ngữ cảnh với thẻ, nút, hình ảnh và video.",
+      "supportedFormats": {
+        "title": "Các loại tệp được hỗ trợ",
+        "formats": {
+          "pdf": {
+            "name": "Tài liệu PDF",
+            "count": "15 tệp"
+          },
+          "excel": {
+            "name": "Bảng tính Excel",
+            "count": "8 tệp"
+          },
+          "word": {
+            "name": "Tài liệu Word",
+            "count": "12 tệp"
+          },
+          "images": {
+            "name": "Hình ảnh",
+            "count": "25 hình ảnh"
+          },
+          "websites": {
+            "name": "Trang web",
+            "count": "5 trang web"
+          },
+          "videos": {
+            "name": "Video",
+            "count": "3 video"
+          }
+        },
+        "richResponse": {
+          "title": "Định dạng phản hồi phong phú:",
+          "features": [
+            "Thẻ tương tác",
+            "Nút hành động",
+            "Hình ảnh nhúng",
+            "Phản hồi video"
+          ]
+        },
+        "addDocuments": "Thêm tài liệu của bạn"
+      },
+      "uploadModal": {
+        "title": "Tải lên tài liệu của bạn",
+        "dropzone": {
+          "title": "Kéo và thả tệp của bạn vào đây",
+          "description": "Hỗ trợ PDF, Word, Excel, hình ảnh, video và nhiều hơn nữa",
+          "button": "Chọn tệp"
+        },
+        "demoFiles": [
+          "sample_manual.pdf",
+          "product_data.xlsx",
+          "brand_guide.jpg"
+        ],
+        "close": "Đóng demo"
+      }
+    },
+    "useCases": {
+      "title": "Những câu chuyện thành công trên các ngành",
+      "subtitle": "Xem cách các doanh nghiệp chuyển đổi hỗ trợ khách hàng của họ với phương pháp kết hợp AI-con người của SeaChat.",
+      "cases": {
+        "ecommerce": {
+          "title": "Cuộc cách mạng hỗ trợ thương mại điện tử",
+          "industry": "Bán lẻ",
+          "challenge": "Quản lý hơn 500 yêu cầu của khách hàng hàng ngày trên nhiều kênh với đội ngũ nhân viên hạn chế",
+          "solution": "Triển khai SeaChat với nhân viên AI xử lý 70% các yêu cầu thường xuyên, nhân viên con người xử lý các vấn đề phức tạp",
+          "results": [
+            "Giảm 60% thời gian phản hồi",
+            "Tăng 40% sự hài lòng của khách hàng",
+            "Tiết kiệm 75% chi phí hoạt động hỗ trợ"
+          ],
+          "metrics": {
+            "responseTime": "< 30 giây",
+            "satisfaction": "94%",
+            "cost": "-75%"
+          }
+        },
+        "healthcare": {
+          "title": "Hỗ trợ bệnh nhân chăm sóc sức khỏe",
+          "industry": "Chăm sóc sức khỏe",
+          "challenge": "Cung cấp hỗ trợ bệnh nhân 24/7 trong khi vẫn duy trì tuân thủ HIPAA",
+          "solution": "Tích hợp nhân viên AI an toàn với đặt lịch hẹn và sàng lọc triệu chứng trước",
+          "results": [
+            "Hỗ trợ bệnh nhân 24/7",
+            "Giảm 50% số lần không đến",
+            "Duy trì tuân thủ HIPAA 100%"
+          ],
+          "metrics": {
+            "availability": "24/7",
+            "noShows": "-50%",
+            "compliance": "100%"
+          }
+        },
+        "fintech": {
+          "title": "Sự xuất sắc của dịch vụ tài chính",
+          "industry": "FinTech",
+          "challenge": "Xử lý các yêu cầu tài chính nhạy cảm với tốc độ và bảo mật",
+          "solution": "Đào tạo AI tùy chỉnh về các quy định tài chính với leo thang con người liền mạch",
+          "results": [
+            "Giải quyết lần đầu 90%",
+            "Xử lý yêu cầu nhanh hơn 3 lần",
+            "Các giao thức bảo mật nâng cao"
+          ],
+          "metrics": {
+            "resolution": "90%",
+            "speed": "3x",
+            "security": "Nâng cao"
+          }
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng chuyển đổi hỗ trợ của bạn?",
+        "description": "Tham gia cùng hàng trăm doanh nghiệp đã sử dụng SeaChat để mang lại trải nghiệm khách hàng đặc biệt.",
+        "buttons": {
+          "viewCases": "Xem tất cả các trường hợp nghiên cứu",
+          "startStory": "Bắt đầu câu chuyện thành công của bạn"
+        },
+        "signUpFree": "Đăng ký miễn phí",
+        "bookDemo": "Đặt lịch demo"
+      },
+      "labels": {
+        "challenge": "Thử thách:",
+        "solution": "Giải pháp:",
+        "resultsAchieved": "Kết quả đạt được:"
+      },
+      "metrics": {
+        "responseTime": "Thời gian phản hồi",
+        "satisfaction": "Sự hài lòng",
+        "cost": "Chi phí",
+        "availability": "Khả dụng",
+        "noShows": "Không đến",
+        "compliance": "Tuân thủ",
+        "resolution": "Giải quyết",
+        "speed": "Tốc độ",
+        "security": "Bảo mật"
+      }
+    },
+    "testimonials": {
+      "title": "Được các đội ngũ hỗ trợ trên toàn thế giới yêu thích",
+      "subtitle": "Đừng chỉ tin lời chúng tôi. Đây là những gì khách hàng của chúng tôi nói về việc chuyển đổi hỗ trợ của họ với SeaChat.",
+      "navigation": {
+        "previous": "Trước",
+        "next": "Tiếp theo"
+      },
+      "trustedBy": "Được các công ty đổi mới trên toàn thế giới tin cậy",
+      "stats": {
+        "customers": "Hơn 10.000 khách hàng hài lòng",
+        "uptime": "Thời gian hoạt động 99,9%",
+        "messages": "Hơn 50 triệu tin nhắn đã xử lý",
+        "rating": "Đánh giá khách hàng 4,9/5"
+      },
+      "testimonials": {
+        "0": {
+          "name": "Sarah Chen",
+          "title": "Giám đốc thành công khách hàng",
+          "company": "TechFlow Solutions",
+          "quote": "SeaChat đã chuyển đổi hoạt động hỗ trợ của chúng tôi. Bắt đầu với nhân viên con người miễn phí là hoàn hảo cho công ty khởi nghiệp của chúng tôi, và mở rộng quy mô với AI đã diễn ra liền mạch. Thời gian phản hồi của chúng tôi đã cải thiện 70%.",
+          "metrics": {
+            "improvement": "70%",
+            "feature": "Thời gian phản hồi"
+          }
+        },
+        "1": {
+          "name": "Marcus Rodriguez",
+          "title": "Quản lý hoạt động",
+          "company": "EcoCommerce",
+          "quote": "Tính năng cơ sở kiến thức thật đáng kinh ngạc. Chúng tôi đã tải lên toàn bộ danh mục sản phẩm và Câu hỏi thường gặp của mình, và AI hiện xử lý 80% các yêu cầu của khách hàng với độ chính xác hoàn hảo.",
+          "metrics": {
+            "improvement": "80%",
+            "feature": "Giải quyết yêu cầu"
+          }
+        },
+        "2": {
+          "name": "Emily Watson",
+          "title": "Trưởng phòng trải nghiệm khách hàng",
+          "company": "HealthTech Pro",
+          "quote": "Tích hợp đa kênh hoàn hảo. Khách hàng của chúng tôi có thể bắt đầu cuộc trò chuyện trên WhatsApp và tiếp tục trên trang web của chúng tôi mà không mất ngữ cảnh. Thay đổi cuộc chơi!",
+          "metrics": {
+            "improvement": "95%",
+            "feature": "Sự hài lòng của khách hàng"
+          }
+        },
+        "3": {
+          "name": "David Park",
+          "title": "Người sáng lập & CEO",
+          "company": "StartupFlow",
+          "quote": "Là một công ty khởi nghiệp tự lực, gói miễn phí là một cứu cánh. Chúng tôi đã cung cấp hỗ trợ chuyên nghiệp ngay từ ngày đầu mà không có bất kỳ chi phí trả trước nào. Bây giờ chúng tôi rất vui khi trả tiền cho các tính năng AI khi chúng tôi mở rộng quy mô.",
+          "metrics": {
+            "improvement": "$0",
+            "feature": "Chi phí ban đầu"
+          }
+        },
+        "4": {
+          "name": "Lisa Thompson",
+          "title": "Trưởng nhóm hỗ trợ",
+          "company": "GlobalRetail Inc",
+          "quote": "Việc chuyển giao từ con người sang AI rất mượt mà đến nỗi khách hàng thậm chí không nhận ra khi họ được chuyển đổi giữa nhân viên AI và nhân viên con người. Đó chính xác là những gì chúng tôi cần cho các kịch bản hỗ trợ phức tạp của chúng tôi.",
+          "metrics": {
+            "improvement": "100%",
+            "feature": "Chuyển giao liền mạch"
+          }
+        }
+      }
+    },
+    "blog": {
+      "title": "Thông tin chi tiết & Tài nguyên mới nhất",
+      "subtitle": "Luôn dẫn đầu với những thông tin chi tiết chuyên sâu về xu hướng hỗ trợ khách hàng, chiến lược triển khai AI và các mẹo tối ưu hóa nền tảng.",
+      "categories": {
+        "all": "Tất cả",
+        "ai": "AI & Tự động hóa",
+        "strategy": "Chiến lược",
+        "integration": "Tích hợp",
+        "knowledge": "Quản lý kiến thức",
+        "success": "Thành công của khách hàng"
+      },
+      "featured": "Nổi bật",
+      "latest": "Bài viết gần đây",
+      "readTime": "phút đọc",
+      "stayUpdated": "Luôn cập nhật",
+      "newsletterSubtitle": "Nhận những thông tin chi tiết mới nhất về hỗ trợ khách hàng AI, cập nhật nền tảng và các phương pháp hay nhất trong ngành được gửi đến hộp thư đến của bạn.",
+      "joinProfessionals": "Tham gia cùng hơn 5.000 chuyên gia hỗ trợ. Hủy đăng ký bất cứ lúc nào.",
+      "loading": "Đang tải bài viết blog...",
+      "loadingPost": "Đang tải bài viết...",
+      "backToBlog": "Quay lại Blog",
+      "share": "Chia sẻ",
+      "tags": "Thẻ",
+      "followLinkedIn": "Theo dõi trên LinkedIn",
+      "moreArticles": "Thêm bài viết",
+      "relatedArticles": "Bài viết liên quan",
+      "searchPlaceholder": "Tìm kiếm bài viết, chủ đề hoặc thẻ...",
+      "articleCount": "bài viết được tìm thấy",
+      "noArticles": "Không tìm thấy bài viết nào",
+      "adjustSearch": "Hãy thử điều chỉnh các thuật ngữ tìm kiếm hoặc bộ lọc danh mục của bạn."
+    }
+  }
+}

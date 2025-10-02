@@ -1,0 +1,1394 @@
+{
+  "common": {
+    "tableOfContents": "Mục lục",
+    "loading": {
+      "translations": "Đang tải bản dịch...",
+      "blogPosts": "Đang tải bài viết blog..."
+    },
+    "actions": {
+      "signUp": "Đăng ký",
+      "bookDemo": "Đặt lịch demo",
+      "clearFilters": "Xóa bộ lọc",
+      "signUpForFree": "Đăng ký miễn phí",
+      "scheduleDemo": "Lên lịch demo"
+    }
+  },
+  "navigation": {
+    "backToHome": "Quay lại trang chủ",
+    "backToBlog": "Quay lại Blog"
+  },
+  "blog": {
+    "searchPlaceholder": "Tìm kiếm bài viết blog...",
+    "allCategories": "Tất cả danh mục",
+    "clearFilters": "Xóa bộ lọc",
+    "seo": {
+      "title": "Blog - Seasalt.ai",
+      "description": "Thông tin chi tiết, mẹo và cập nhật về giao tiếp khách hàng do AI hỗ trợ, tự động hóa kinh doanh và tương lai của trải nghiệm khách hàng."
+    },
+    "loading": {
+      "text": "Đang tải bài viết blog..."
+    },
+    "nav": {
+      "backToHome": "Quay lại trang chủ"
+    },
+    "hero": {
+      "title": "Seasalt.ai",
+      "highlight": "Blog",
+      "description": "Thông tin chi tiết, mẹo và cập nhật về giao tiếp khách hàng do AI hỗ trợ, tự động hóa kinh doanh và tương lai của trải nghiệm khách hàng."
+    },
+    "search": {
+      "placeholder": "Tìm kiếm bài viết blog..."
+    },
+    "filter": {
+      "allCategories": "Tất cả danh mục"
+    },
+    "empty": {
+      "noPosts": "Không tìm thấy bài viết blog nào.",
+      "noResults": "Không có bài viết nào khớp với tiêu chí tìm kiếm của bạn.",
+      "clearFilters": "Xóa bộ lọc"
+    },
+    "post": {
+      "readMore": "Đọc thêm →",
+      "updated": "Đã cập nhật"
+    },
+    "newsletter": {
+      "title": "Luôn cập nhật với những thông tin chi tiết mới nhất của chúng tôi",
+      "description": "Nhận các bài viết mới nhất về tự động hóa AI, trải nghiệm khách hàng và tăng trưởng kinh doanh được gửi thẳng vào hộp thư đến của bạn.",
+      "emailPlaceholder": "Nhập email của bạn",
+      "subscribeButton": "Đăng ký"
+    }
+  },
+  "careers": {
+    "seo": {
+      "title": "Tuyển dụng tại Seasalt.ai",
+      "description": "Khám phá cơ hội nghề nghiệp tại Seasalt.ai. Tham gia sứ mệnh của chúng tôi để chuyển đổi thế giới giao tiếp kinh doanh bằng AI."
+    },
+    "hero": {
+      "title": "Tuyển dụng tại Seasalt.ai",
+      "subtitle": "Tham gia sứ mệnh của chúng tôi để chuyển đổi thế giới giao tiếp kinh doanh bằng AI. Chúng tôi tuyển dụng những người giỏi nhất và sáng giá nhất thế giới để giúp biến sự chuyển đổi này thành hiện thực."
+    },
+    "mission": {
+      "title": "Sứ mệnh của Seasalt.ai",
+      "content": "Sứ mệnh của Seasalt.ai là chuyển đổi thế giới kinh doanh bằng AI. Chúng tôi tuyển dụng những người giỏi nhất và sáng giá nhất thế giới để giúp biến sự chuyển đổi này thành hiện thực."
+    },
+    "vision": {
+      "title": "Tầm nhìn của Seasalt.ai",
+      "content": "Tầm nhìn của Seasalt.ai là tạo ra một thế giới nơi con người cùng tồn tại với AI. Chúng tôi giải quyết B2B với B2C trong tâm trí."
+    },
+    "departments": {
+      "business": "Kinh doanh",
+      "product": "Sản phẩm",
+      "engineering": "Kỹ thuật"
+    },
+    "positions": {
+      "businessDeveloper": {
+        "title": "Nhà phát triển kinh doanh",
+        "location": "Từ xa",
+        "type": "Toàn thời gian"
+      },
+      "fieldMarketingDirectSales": {
+        "title": "Tiếp thị tại hiện trường & Bán hàng trực tiếp",
+        "location": "Từ xa",
+        "type": "Toàn thời gian"
+      },
+      "technicalProductManager": {
+        "title": "Quản lý sản phẩm kỹ thuật",
+        "location": "Từ xa",
+        "type": "Toàn thời gian"
+      },
+      "productMarketing": {
+        "title": "Tiếp thị sản phẩm",
+        "location": "Từ xa",
+        "type": "Toàn thời gian"
+      },
+      "frontendEngineer": {
+        "title": "Kỹ sư Frontend",
+        "location": "Từ xa",
+        "type": "Toàn thời gian"
+      },
+      "backendEngineer": {
+        "title": "Kỹ sư Backend",
+        "location": "Từ xa",
+        "type": "Toàn thời gian"
+      },
+      "devOps": {
+        "title": "Kỹ sư DevOps",
+        "location": "Từ xa",
+        "type": "Toàn thời gian"
+      },
+      "mlEngineerNLP": {
+        "title": "Kỹ sư học máy (NLP)",
+        "location": "Từ xa",
+        "type": "Toàn thời gian"
+      },
+      "mlEngineerLanguageModeling": {
+        "title": "Kỹ sư học máy (Mô hình ngôn ngữ)",
+        "location": "Từ xa",
+        "type": "Toàn thời gian"
+      },
+      "mlEngineerSpeechRecognition": {
+        "title": "Kỹ sư học máy (Nhận dạng giọng nói)",
+        "location": "Từ xa",
+        "type": "Toàn thời gian"
+      }
+    },
+    "common": {
+      "detail": "Xem chi tiết"
+    }
+  },
+  "company": {
+    "seo": {
+      "title": "Về Seasalt.ai - Thông tin công ty & Lãnh đạo",
+      "description": "Tìm hiểu về Seasalt.ai, nhà cung cấp hàng đầu các giải pháp công nghệ AI giao tiếp đám mây. Được thành lập bởi các chuyên gia AI, chúng tôi đang chuyển đổi giao tiếp kinh doanh bằng các nền tảng AI đa kênh."
+    },
+    "hero": {
+      "title": "Về Seasalt.ai",
+      "description": "Seasalt.ai là nhà cung cấp hàng đầu các giải pháp công nghệ AI giao tiếp đám mây, xây dựng các nền tảng hợp nhất, đa ngôn ngữ và đa kênh cho các doanh nghiệp trên toàn thế giới. Được thành lập vào năm 2020 bởi các cựu chiến binh trong ngành AI và công nghệ giọng nói, Seasalt.ai đang thực hiện sứ mệnh làm cho AI đàm thoại cấp doanh nghiệp trở nên dễ tiếp cận, an toàn và có khả năng mở rộng cho mọi người.",
+      "subtitle": "Từ các SME đến các tổ chức phi lợi nhuận đến các tổ chức khu vực công, Seasalt.ai trao quyền cho các nhóm tự động hóa giao tiếp, nâng cao trải nghiệm khách hàng và mở khóa các kênh tăng trưởng mới."
+    },
+    "mission": {
+      "title": "Sứ mệnh & Giá trị của chúng tôi",
+      "heading": "Sứ mệnh của chúng tôi",
+      "text": "Chuyển đổi thế giới giao tiếp kinh doanh bằng AI—xây dựng các cuộc trò chuyện tự nhiên, có thể hành động ở bất cứ đâu, trên bất kỳ kênh nào.",
+      "statement": "Chúng tôi xây dựng các nhân viên AI nói, nghe và hành động — trên tin nhắn, giọng nói và web — để con người có thể tập trung vào những gì thực sự quan trọng.",
+      "future": "Chúng tôi tin rằng tương lai của công việc là được AI tăng cường, không phải bị AI thay thế. Công nghệ của chúng tôi giúp mọi người làm việc tốt hơn, nhanh hơn và có ý nghĩa hơn."
+    },
+    "vision": {
+      "heading": "Tầm nhìn của chúng tôi",
+      "text": "Tạo ra một thế giới nơi con người và AI cộng tác liền mạch, mang lại giá trị kinh doanh bắt nguồn từ sự đơn giản, tin cậy và sự xuất sắc về công nghệ."
+    },
+    "values": {
+      "title": "🧭 Giá trị cốt lõi của chúng tôi",
+      "humanFirst": {
+        "title": "Con người là trên hết",
+        "description": "Đặt con người vào trung tâm của tất cả các giải pháp AI của chúng tôi."
+      },
+      "transparency": {
+        "title": "Minh bạch",
+        "description": "Giao tiếp cởi mở và trung thực trong toàn bộ nhóm của chúng tôi và với khách hàng."
+      },
+      "speedSafety": {
+        "title": "Tốc độ & An toàn",
+        "description": "Cung cấp các giải pháp nhanh chóng trong khi duy trì các tiêu chuẩn an toàn cao nhất."
+      },
+      "buildPurpose": {
+        "title": "Xây dựng có mục đích",
+        "description": "Mọi sản phẩm và tính năng đều phục vụ một mục tiêu có ý nghĩa."
+      },
+      "globalEmpathy": {
+        "title": "Đồng cảm toàn cầu",
+        "description": "Thiết kế các giải pháp với sự nhạy cảm văn hóa và tác động toàn cầu."
+      }
+    },
+    "leadership": {
+      "0": {
+        "role": "CEO & Đồng sáng lập",
+        "bio": "Trước đây đồng sáng lập KITT.AI (được Amazon và Microsoft hỗ trợ, được Baidu mua lại). Hai lần là người sáng lập và là chuyên gia AI được công nhận. Tiến sĩ về Xử lý ngôn ngữ tự nhiên từ Đại học Johns Hopkins CLSP.",
+        "homepage": "https://xuchen.github.io/"
+      },
+      "1": {
+        "role": "CTO & Đồng sáng lập",
+        "bio": "Chuyên gia về công nghệ giọng nói, cũng là đồng sáng lập KITT.AI. Kinh nghiệm sâu sắc về nhận dạng giọng nói đa ngôn ngữ và AI đàm thoại. Tiến sĩ về Nhận dạng giọng nói từ Đại học Johns Hopkins CLSP.",
+        "scholar": "https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao"
+      },
+      "title": "Lãnh đạo & Đồng sáng lập",
+      "homepage": "Trang chủ",
+      "scholar": "Google Scholar"
+    },
+    "offices": {
+      "title": "Địa điểm văn phòng",
+      "list": [
+        {
+          "title": "Trụ sở chính toàn cầu",
+          "location": "Seattle, Washington, Hoa Kỳ"
+        },
+        {
+          "title": "Trung tâm R&D và hỗ trợ châu Á",
+          "location": "Đài Bắc, Đài Loan"
+        }
+      ]
+    },
+    "products": {
+      "title": "Những gì chúng tôi xây dựng",
+      "subtitle": "Danh mục sản phẩm",
+      "downloadPressKit": "Tải xuống Logo sản phẩm & Bộ báo chí",
+      "product1": {
+        "name": "SeaChat (AI phản hồi)",
+        "description": "Dịch vụ khách hàng đa kênh, đa ngôn ngữ, do AI hỗ trợ (WhatsApp, FB Messenger, Instagram, Line, web, SMS, giọng nói)."
+      },
+      "product2": {
+        "name": "SeaX (AI tiếp cận)",
+        "description": "Tiếp cận khách hàng, bàn phím quay số, chiến dịch, SMS/WhatsApp/thoại hàng loạt cho bán hàng và tiếp thị."
+      },
+      "product3": {
+        "name": "SeaMeet (AI thông tin chi tiết)",
+        "description": "Trợ lý cuộc họp AI: biên bản tự động, tóm tắt, phân tích ngữ nghĩa và AI giọng nói cho các cuộc họp kinh doanh."
+      },
+      "product4": {
+        "name": "SeaVoice (Tự động lái bằng giọng nói)",
+        "description": "Cơ sở hạ tầng AI giọng nói tiên tiến cho phép các nhân viên điện thoại giống con người cho các cuộc gọi đến và đi — được xây dựng với các LLM và nhận dạng giọng nói hiện đại."
+      }
+    },
+    "funding": {
+      "title": "Tài trợ & Nhà đầu tư",
+      "seedFunding": "Vòng hạt giống",
+      "raised": "4,2 triệu USD được huy động vào năm 2024",
+      "investorsTitle": "Các nhà đầu tư của chúng tôi bao gồm:",
+      "investorsList": [
+        "Unlock Venture Partners (Nhà đầu tư chính)",
+        "Z Venture Capital (ZVC, chi nhánh đầu tư mạo hiểm của LINE)",
+        "SparkLabs Group (SparkLabs Taiwan)",
+        "Grand Vision Capital Group",
+        "PatientsForce"
+      ]
+    },
+    "partnership": {
+      "title": "Đối tác chiến lược",
+      "description": "Sức mạnh của nền tảng của chúng tôi được khuếch đại bởi các mối quan hệ đối tác chiến lược sâu rộng với các nhà lãnh đạo công nghệ toàn cầu:"
+    },
+    "partnerships": {
+      "list": [
+        {
+          "description": "Là đối tác vàng của Twilio và nhà phân phối ủy quyền của Twilio Flex, chúng tôi có mối quan hệ chiến lược được tăng cường để nâng cao trải nghiệm khách hàng với AI đàm thoại. Quan trọng đối với việc mở rộng của chúng tôi ở khu vực Châu Á-Thái Bình Dương và Nhật Bản (APJ).",
+          "type": "Đối tác vàng"
+        },
+        {
+          "description": "Tích hợp nền tảng chính thức với Facebook/WhatsApp/Instagram, cho phép giao tiếp đa kênh liền mạch.",
+          "type": "Tích hợp chính thức"
+        },
+        {
+          "description": "Quan hệ đối tác cho phép chúng tôi xây dựng liền mạch các tính năng email và lên lịch nâng cao trực tiếp vào các ứng dụng của chúng tôi, tăng cường chiều sâu ngữ cảnh của các nhân viên AI của chúng tôi.",
+          "type": "Đối tác chiến lược"
+        },
+        {
+          "description": "Thông qua nhà đầu tư ZVC của chúng tôi, chúng tôi có quyền truy cập độc đáo vào API cuộc gọi kinh doanh của LINE, rất quan trọng đối với chiến lược của chúng tôi ở các thị trường châu Á chính nơi LINE là nền tảng giao tiếp thống trị.",
+          "type": "Đối tác chiến lược và đầu tư"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Hành trình của chúng tôi",
+      "subtitle": "Các cột mốc quan trọng trong sứ mệnh của chúng tôi để chuyển đổi giao tiếp kinh doanh",
+      "list": [
+        {
+          "event": "Seasalt.ai được thành lập bởi các cựu chiến binh trong ngành AI và công nghệ giọng nói"
+        },
+        {
+          "event": "Sống sót qua Covid19. Không ai bị sa thải."
+        },
+        {
+          "event": "Ra mắt nền tảng dịch vụ khách hàng đa kênh SeaChat"
+        },
+        {
+          "event": "Giới thiệu AI tiếp cận SeaX và AI thông tin chi tiết SeaMeet"
+        },
+        {
+          "event": "Ra mắt cơ sở hạ tầng AI giọng nói tiên tiến SeaVoice"
+        }
+      ]
+    },
+    "careers": {
+      "title": "Tuyển dụng tại Seasalt.ai",
+      "description": "Seasalt.ai hoạt động với văn hóa toàn cầu, đa dạng và thân thiện với làm việc từ xa, luôn tìm kiếm các kỹ sư, nhà khoa học AI, nhà phát triển và nhà xây dựng kinh doanh.",
+      "cta": "Xem các vị trí đang mở",
+      "bullet1": "Văn hóa toàn cầu, đa dạng và thân thiện với làm việc từ xa",
+      "bullet2": "Làm việc với công nghệ AI tiên tiến",
+      "bullet3": "Tạo ra tác động thực sự trong giao tiếp kinh doanh",
+      "bullet4": "Cộng tác với các cựu chiến binh trong ngành"
+    },
+    "contact": {
+      "title": "Liên hệ & Báo chí",
+      "press": {
+        "title": "Báo chí & Truyền thông",
+        "email": "press@seasalt.ai"
+      },
+      "investors": {
+        "title": "Nhà đầu tư",
+        "email": "invest@seasalt.ai"
+      },
+      "partnerships": {
+        "title": "Đối tác",
+        "email": "partnerships@seasalt.ai"
+      },
+      "hotline": {
+        "title": "Đường dây nóng 24/7",
+        "number": "+1-(SMB)-AI-AGENT"
+      },
+      "downloadPressKit": "Tải xuống Logo sản phẩm & Bộ báo chí",
+      "tagline": "Seasalt.ai—kết nối đổi mới và tác động trong giao tiếp kinh doanh, làm cho AI đám mây dễ tiếp cận cho các nhóm trên toàn thế giới.",
+      "pressKit": {
+        "downloadText": "Tải xuống Logo sản phẩm & Bộ báo chí",
+        "description": "Seasalt.ai—kết nối đổi mới và tác động trong giao tiếp kinh doanh, làm cho AI đám mây dễ tiếp cận cho các nhóm trên toàn thế giới."
+      }
+    },
+    "newsletter": {
+      "title": "Đăng ký nhận bản tin của chúng tôi",
+      "subtitle": "Mỗi tuần một lần, do CEO viết",
+      "description": "Nhận thông tin chi tiết về AI, giao tiếp kinh doanh và tương lai của công việc trực tiếp từ đội ngũ lãnh đạo của chúng tôi.",
+      "emailPlaceholder": "Nhập địa chỉ email của bạn",
+      "cta": "Đăng ký",
+      "disclaimer": "Không spam, hủy đăng ký bất cứ lúc nào. Chúng tôi tôn trọng quyền riêng tư của bạn."
+    },
+    "useCaseCategories": {
+      "smallMediumBusinesses": "Doanh nghiệp nhỏ & vừa",
+      "healthcare": "Chăm sóc sức khỏe",
+      "education": "Giáo dục",
+      "campaignMessaging": "Tin nhắn chiến dịch",
+      "speechAnalysis": "Phân tích giọng nói"
+    },
+    "useCaseLinks": {
+      "getTwilioApproval": "Được chấp thuận cho các chiến dịch SMS của Twilio",
+      "bulkSendSms": "Gửi SMS hàng loạt",
+      "whatsappCustomers": "WhatsApp khách hàng của bạn",
+      "callCustomersBatch": "Gọi khách hàng của bạn theo lô",
+      "autoAnswerCalls": "Tự động trả lời cuộc gọi 24/7",
+      "voiceAiSeniors": "Cuộc gọi AI giọng nói để kiểm tra người cao tuổi",
+      "hospitalAnalytics": "Bảng điều khiển phân tích cuộc gọi điện thoại cho bệnh viện",
+      "conversationalGenAi": "GenAI đàm thoại cho lớp học",
+      "winCampaigns": "Giành chiến thắng các chiến dịch với tin nhắn & cuộc gọi tự động",
+      "transcribeAudio": "Phiên âm âm thanh & cuộc gọi để khám phá thông tin chi tiết",
+      "meetingAnalytics": "Phân tích cuộc họp cho các nhóm từ xa"
+    }
+  },
+  "solutions": {
+    "salesMarketing": {
+      "seo": {
+        "title": "Giải pháp bán hàng & tiếp thị - Seasalt.ai",
+        "description": "Thu hút nhiều khách hàng tiềm năng hơn, phản hồi nhanh hơn và chuyển đổi tốt hơn với tự động hóa thông minh hoạt động trên mọi kênh. Khách hàng tiềm năng của bạn nhận được phản hồi tức thì trong khi bạn tập trung vào việc chốt giao dịch."
+      },
+      "navigation": {
+        "backToHome": "Quay lại trang chủ"
+      },
+      "hero": {
+        "title1": "Biến mọi khách hàng tiềm năng thành",
+        "titleGradient": "Cơ hội doanh thu",
+        "subtitle": "Tự động hóa bán hàng & tiếp thị do AI hỗ trợ không bao giờ ngủ",
+        "description": "Thu hút nhiều khách hàng tiềm năng hơn, phản hồi nhanh hơn và chuyển đổi tốt hơn với tự động hóa thông minh hoạt động trên mọi kênh. Khách hàng tiềm năng của bạn nhận được phản hồi tức thì trong khi bạn tập trung vào việc chốt giao dịch.",
+        "cta": {
+          "primary": "Tăng cường chuyển đổi của bạn",
+          "secondary": "Đặt lịch demo"
+        },
+        "dashboard": {
+          "title": "Hiệu suất bán hàng",
+          "leads": "🎯 47 khách hàng tiềm năng mới được thu hút hôm nay",
+          "leadsQualified": "AI đã sàng lọc 23 khách hàng tiềm năng ưu tiên cao",
+          "responseTime": "⚡ Thời gian phản hồi trung bình: 12 giây",
+          "responseTimeBenefit": "Nhanh hơn 300% so với mức trung bình ngành",
+          "demos": "📅 15 demo được đặt tự động",
+          "demosNote": "Trong khi nhóm của bạn đang họp",
+          "pipeline": "💰 24.500 đô la đường ống được thêm vào tuần này",
+          "conversion": "Cải thiện tỷ lệ chuyển đổi 45%"
+        }
+      },
+      "challenges": {
+        "title": "Thử thách bán hàng & tiếp thị",
+        "description": "Mỗi phút bạn không phản hồi khách hàng tiềm năng là một phút đối thủ cạnh tranh của bạn có thể làm. Đừng để các quy trình thủ công làm mất doanh thu của bạn.",
+        "leadGeneration": {
+          "title": "Tạo & Sàng lọc khách hàng tiềm năng",
+          "description": "Đang gặp khó khăn trong việc thu hút khách hàng tiềm năng trên nhiều kênh và sàng lọc chúng một cách hiệu quả"
+        },
+        "conversion": {
+          "title": "Tối ưu hóa chuyển đổi",
+          "description": "Bỏ lỡ cơ hội chuyển đổi khách hàng tiềm năng do thời gian phản hồi chậm"
+        },
+        "campaignManagement": {
+          "title": "Quản lý chiến dịch",
+          "description": "Khó khăn trong việc quản lý các chiến dịch đa kênh và theo dõi hiệu quả của chúng"
+        }
+      },
+      "solutions": {
+        "title": "Công cụ bán hàng do AI hỗ trợ của bạn",
+        "description": "Chuyển đổi hoạt động bán hàng và tiếp thị của bạn với tự động hóa thông minh thu hút, sàng lọc và chuyển đổi khách hàng tiềm năng suốt ngày đêm.",
+        "leadCapture": {
+          "title": "Thu hút & Sàng lọc khách hàng tiềm năng thông minh",
+          "description": "Thu hút khách hàng tiềm năng từ mọi kênh và để AI sàng lọc chúng ngay lập tức",
+          "benefit1": "Thu hút khách hàng tiềm năng từ trang web, mạng xã hội và quảng cáo",
+          "benefit2": "AI sàng lọc khách hàng tiềm năng bằng cách đặt câu hỏi thông minh",
+          "benefit3": "Chấm điểm và ưu tiên khách hàng tiềm năng tự động",
+          "benefit4": "Thông báo tức thì cho các khách hàng tiềm năng nóng"
+        },
+        "responseTime": {
+          "title": "Thời gian phản hồi nhanh như chớp",
+          "description": "Phản hồi khách hàng tiềm năng trong vài giây, không phải vài giờ, với tự động hóa AI",
+          "benefit1": "Phản hồi tức thì cho tất cả các yêu cầu 24/7",
+          "benefit2": "AI tự động đặt lịch demo và tư vấn",
+          "benefit3": "Các chuỗi theo dõi thông minh nuôi dưỡng khách hàng tiềm năng",
+          "benefit4": "Chuyển giao liền mạch cho nhân viên bán hàng khi sẵn sàng"
+        },
+        "omnichannel": {
+          "title": "Quản lý chiến dịch đa kênh",
+          "description": "Khởi chạy và quản lý các chiến dịch trên SMS, WhatsApp, email và giọng nói",
+          "benefit1": "Quản lý chiến dịch hợp nhất trên tất cả các kênh",
+          "benefit2": "Tin nhắn cá nhân hóa ở quy mô lớn",
+          "benefit3": "Theo dõi hiệu suất chiến dịch thời gian thực",
+          "benefit4": "Kiểm tra A/B và tối ưu hóa tự động"
+        },
+        "keyBenefits": "Lợi ích chính:"
+      },
+      "useCases": {
+        "title": "Những câu chuyện thành công thực tế của đội ngũ bán hàng",
+        "description": "Xem cách các đội ngũ bán hàng và tiếp thị đang sử dụng Seasalt.ai để tăng tốc tăng trưởng của họ",
+        "saas": {
+          "title": "Đội ngũ bán hàng SaaS",
+          "challenge": "Tạo và sàng lọc khách hàng tiềm năng cho các bản demo phần mềm",
+          "solution": "AI thu hút khách hàng tiềm năng từ trang web, sàng lọc mức độ quan tâm và tự động đặt lịch demo"
+        },
+        "ecommerce": {
+          "title": "Tiếp thị thương mại điện tử",
+          "challenge": "Chạy các chiến dịch khuyến mãi và khôi phục giỏ hàng bị bỏ quên",
+          "solution": "Các chiến dịch SMS và WhatsApp tự động với các ưu đãi cá nhân hóa và khôi phục giỏ hàng"
+        },
+        "realEstate": {
+          "title": "Đại lý bất động sản",
+          "challenge": "Theo dõi các yêu cầu về tài sản và lên lịch xem nhà",
+          "solution": "AI phản hồi các câu hỏi về tài sản ngay lập tức và đặt lịch xem nhà"
+        },
+        "professionalServices": {
+          "title": "Dịch vụ chuyên nghiệp",
+          "challenge": "Chuyển đổi các yêu cầu tư vấn thành các cuộc hẹn đã đặt",
+          "solution": "Quy trình sàng lọc thông minh tự động đặt lịch tư vấn với thành viên nhóm phù hợp"
+        },
+        "challengeLabel": "THỬ THÁCH:",
+        "solutionLabel": "GIẢI PHÁP CỦA SEASALT.AI:"
+      },
+      "metrics": {
+        "title": "Tác động hiệu suất bán hàng",
+        "description": "Xem tác động có thể đo lường được đối với các chỉ số bán hàng và tiếp thị của bạn",
+        "responseRate": "Tăng tỷ lệ phản hồi khách hàng tiềm năng",
+        "conversionRate": "Tỷ lệ chuyển đổi cao hơn",
+        "availability": "Thu hút và sàng lọc khách hàng tiềm năng",
+        "qualifiedLeads": "Nhiều khách hàng tiềm năng đủ điều kiện hơn mỗi tháng"
+      },
+      "cta": {
+        "title": "Sẵn sàng tăng cường hiệu suất bán hàng của bạn?",
+        "description": "Tham gia cùng hàng trăm đội ngũ bán hàng sử dụng Seasalt.ai để thu hút nhiều khách hàng tiềm năng hơn, phản hồi nhanh hơn và chốt nhiều giao dịch hơn với tự động hóa AI.",
+        "primary": "Đăng ký",
+        "secondary": "Đặt lịch demo bán hàng",
+        "disclaimer": "Không cần thẻ tín dụng • Xem kết quả trong 24 giờ • Hủy bất cứ lúc nào"
+      }
+    },
+    "customerSupport": {
+      "seo": {
+        "title": "Giải pháp hỗ trợ khách hàng - Seasalt.ai",
+        "description": "Chuyển đổi hỗ trợ khách hàng của bạn với tự động hóa thông minh xử lý các yêu cầu thường xuyên ngay lập tức trong khi trao quyền cho nhân viên con người của bạn tập trung vào các tương tác phức tạp, có giá trị cao."
+      },
+      "navigation": {
+        "backToHome": "Quay lại trang chủ"
+      },
+      "hero": {
+        "title": {
+          "deliver": "Cung cấp",
+          "exceptionalSupport": "Hỗ trợ đặc biệt",
+          "atScale": "ở quy mô lớn"
+        },
+        "subtitle": "Hỗ trợ khách hàng do AI hỗ trợ không bao giờ ngủ",
+        "description": "Chuyển đổi hỗ trợ khách hàng của bạn với tự động hóa thông minh xử lý các yêu cầu thường xuyên ngay lập tức trong khi trao quyền cho nhân viên con người của bạn tập trung vào các tương tác phức tạp, có giá trị cao.",
+        "cta": {
+          "primary": "Cải thiện hỗ trợ ngay",
+          "secondary": "Xem demo"
+        },
+        "dashboard": {
+          "title": "Bảng điều khiển hỗ trợ",
+          "aiResolved": "🤖 AI đã giải quyết 156 phiếu hôm nay",
+          "resolutionTime": "Thời gian giải quyết trung bình: 23 giây",
+          "escalated": "👥 12 phiếu đã được chuyển cho con người",
+          "complexIssues": "Các vấn đề phức tạp cần chuyên môn",
+          "satisfaction": "😊 Sự hài lòng của khách hàng: 96%",
+          "satisfactionUp": "Tăng 15% so với tháng trước",
+          "responseTime": "⏱️ Thời gian phản hồi trung bình: 8 giây",
+          "fasterThanAverage": "Nhanh hơn 98% so với mức trung bình ngành"
+        }
+      },
+      "challenges": {
+        "title": "Thử thách hỗ trợ khách hàng",
+        "description": "Khách hàng hiện đại mong đợi hỗ trợ tức thì, cá nhân hóa. Các mô hình hỗ trợ truyền thống gặp khó khăn trong việc đáp ứng những kỳ vọng này trong khi kiểm soát chi phí.",
+        "responseTimePressure": {
+          "title": "Áp lực thời gian phản hồi",
+          "description": "Khách hàng mong đợi phản hồi tức thì, nhưng nhóm của bạn không thể có mặt 24/7"
+        },
+        "scalingTeam": {
+          "title": "Mở rộng quy mô đội ngũ hỗ trợ",
+          "description": "Cơ sở khách hàng ngày càng tăng đòi hỏi nhiều nhân viên hơn, nhưng việc tuyển dụng tốn kém và chậm chạp"
+        },
+        "repetitiveInquiries": {
+          "title": "Các yêu cầu lặp đi lặp lại",
+          "description": "Nhân viên dành quá nhiều thời gian cho các câu hỏi thường xuyên thay vì các vấn đề phức tạp"
+        }
+      },
+      "solutions": {
+        "title": "Giải pháp hỗ trợ do AI hỗ trợ của bạn",
+        "description": "Kết hợp hiệu quả của tự động hóa AI với sự đồng cảm của nhân viên con người để mang lại trải nghiệm khách hàng đặc biệt ở mọi quy mô.",
+        "instantResponse": {
+          "title": "Hệ thống phản hồi tức thì 24/7",
+          "description": "AI xử lý các yêu cầu của khách hàng ngay lập tức, bất cứ lúc nào trong ngày hoặc đêm",
+          "benefit1": "Phản hồi tức thì cho các câu hỏi thường gặp",
+          "benefit2": "AI giải quyết 80% các yêu cầu thường xuyên",
+          "benefit3": "Chuyển giao liền mạch cho nhân viên con người",
+          "benefit4": "Chất lượng dịch vụ nhất quán suốt ngày đêm"
+        },
+        "agentProductivity": {
+          "title": "Năng suất nhân viên thông minh",
+          "description": "Trao quyền cho nhân viên con người của bạn với hỗ trợ AI và ngữ cảnh khách hàng hợp nhất",
+          "benefit1": "Lịch sử khách hàng hoàn chỉnh trong một chế độ xem",
+          "benefit2": "AI đề xuất phản hồi và giải pháp",
+          "benefit3": "Định tuyến và ưu tiên phiếu tự động",
+          "benefit4": "Phân tích cảm xúc và cảnh báo thời gian thực"
+        },
+        "satisfactionOptimization": {
+          "title": "Tối ưu hóa sự hài lòng của khách hàng",
+          "description": "Mang lại trải nghiệm đặc biệt biến khách hàng thành người ủng hộ",
+          "benefit1": "Giải quyết vấn đề và theo dõi chủ động",
+          "benefit2": "Hỗ trợ cá nhân hóa dựa trên lịch sử khách hàng",
+          "benefit3": "Tính nhất quán đa kênh trên tất cả các điểm tiếp xúc",
+          "benefit4": "Cải thiện liên tục thông qua học hỏi của AI"
+        },
+        "keyBenefitsTitle": "Lợi ích chính:"
+      },
+      "useCases": {
+        "title": "Những câu chuyện thành công của đội ngũ hỗ trợ",
+        "description": "Xem cách các đội ngũ hỗ trợ khách hàng đang sử dụng Seasalt.ai để cải thiện hiệu quả và sự hài lòng",
+        "ecommerce": {
+          "title": "Hỗ trợ thương mại điện tử",
+          "scenario": "Xử lý trạng thái đơn hàng, trả hàng và các câu hỏi về sản phẩm ở quy mô lớn",
+          "solution": "AI cung cấp cập nhật đơn hàng và xử lý trả hàng ngay lập tức, chuyển các vấn đề phức tạp cho con người"
+        },
+        "saas": {
+          "title": "Thành công khách hàng SaaS",
+          "scenario": "Hỗ trợ người dùng với các câu hỏi kỹ thuật và hướng dẫn tính năng",
+          "solution": "AI cung cấp các bài viết trợ giúp và hướng dẫn tức thì, đặt lịch cuộc gọi hỗ trợ kỹ thuật khi cần"
+        },
+        "healthcare": {
+          "title": "Hỗ trợ bệnh nhân chăm sóc sức khỏe",
+          "scenario": "Quản lý lên lịch hẹn và các yêu cầu sức khỏe cơ bản",
+          "solution": "AI tuân thủ HIPAA xử lý lên lịch và các câu hỏi cơ bản, định tuyến các vấn đề khẩn cấp cho nhân viên"
+        },
+        "financial": {
+          "title": "Dịch vụ tài chính",
+          "scenario": "Trả lời các câu hỏi về tài khoản trong khi duy trì tuân thủ bảo mật",
+          "solution": "AI an toàn xác minh danh tính và cung cấp thông tin tài khoản, chuyển các vấn đề nhạy cảm một cách thích hợp"
+        },
+        "challengeLabel": "THỬ THÁCH:",
+        "solutionLabel": "GIẢI PHÁP CỦA SEASALT.AI:"
+      },
+      "metrics": {
+        "title": "Tác động hiệu suất hỗ trợ",
+        "description": "Những cải thiện có thể đo lường được về hiệu quả, sự hài lòng và quản lý chi phí",
+        "responseTimeReduction": "80%",
+        "responseTimeDescription": "Giảm thời gian phản hồi",
+        "satisfactionScore": "95%",
+        "satisfactionDescription": "Điểm hài lòng của khách hàng",
+        "costDecrease": "60%",
+        "costDescription": "Giảm chi phí hỗ trợ",
+        "availability": "24/7",
+        "availabilityDescription": "Khả dụng không cần làm thêm giờ"
+      },
+      "cta": {
+        "title": "Sẵn sàng chuyển đổi hỗ trợ khách hàng của bạn?",
+        "description": "Tham gia cùng hàng trăm đội ngũ hỗ trợ sử dụng Seasalt.ai để mang lại trải nghiệm khách hàng nhanh hơn, hiệu quả hơn và hài lòng hơn.",
+        "primary": "Đăng ký",
+        "secondary": "Đặt lịch demo hỗ trợ",
+        "disclaimer": "Không cần thẻ tín dụng • Cải thiện sự hài lòng trong 24 giờ • Hủy bất cứ lúc nào"
+      }
+    },
+    "aiAutomation": {
+      "seo": {
+        "title": "Giải pháp tự động hóa AI - Seasalt.ai",
+        "description": "Chuyển đổi hoạt động kinh doanh của bạn với AI không chỉ tuân theo các quy tắc—nó hiểu ngữ cảnh, đưa ra các quyết định thông minh và liên tục cải thiện để mang lại kết quả đặc biệt."
+      },
+      "nav": {
+        "backToHome": "Quay lại trang chủ"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Giải phóng sức mạnh của",
+          "highlight": "Tự động hóa AI"
+        },
+        "subtitle": "Tự động hóa thông minh suy nghĩ, học hỏi và mở rộng quy mô",
+        "description": "Chuyển đổi hoạt động kinh doanh của bạn với AI không chỉ tuân theo các quy tắc—nó hiểu ngữ cảnh, đưa ra các quyết định thông minh và liên tục cải thiện để mang lại kết quả đặc biệt.",
+        "cta": {
+          "primary": "Bắt đầu tự động hóa",
+          "secondary": "Xem AI hoạt động"
+        },
+        "dashboard": {
+          "title": "Trung tâm tự động hóa AI",
+          "stats": {
+            "tasks": "🧠 AI đã xử lý 342 tác vụ hôm nay",
+            "tasksSaved": "Tiết kiệm 8,5 giờ làm việc thủ công",
+            "workflows": "⚡ 23 quy trình làm việc được tự động hóa",
+            "workflowsDescription": "Từ thu hút khách hàng tiềm năng đến giới thiệu khách hàng",
+            "accuracy": "📈 Tỷ lệ chính xác 97%",
+            "accuracyDescription": "Liên tục cải thiện thông qua ML",
+            "savings": "🎯 Tiết kiệm chi phí 12.400 đô la tháng này",
+            "savingsDescription": "Thông qua tự động hóa thông minh"
+          }
+        }
+      },
+      "challenges": {
+        "title": "Thử thách tự động hóa",
+        "description": "Tự động hóa truyền thống cứng nhắc và hạn chế. Các doanh nghiệp hiện đại cần tự động hóa thông minh thích ứng, học hỏi và mở rộng quy mô theo sự phát triển của họ.",
+        "manualTasks": {
+          "title": "Các tác vụ lặp đi lặp lại thủ công",
+          "description": "Nhóm của bạn dành quá nhiều thời gian cho các tác vụ thường xuyên có thể được tự động hóa"
+        },
+        "scaling": {
+          "title": "Giới hạn mở rộng quy mô",
+          "description": "Tăng trưởng bị giới hạn bởi năng lực con người thay vì cơ hội thị trường"
+        },
+        "inconsistent": {
+          "title": "Trải nghiệm không nhất quán",
+          "description": "Trải nghiệm khách hàng thay đổi tùy thuộc vào thành viên nhóm nào xử lý tương tác"
+        }
+      },
+      "solutions": {
+        "title": "Tự động hóa AI thông minh",
+        "description": "Vượt xa tự động hóa dựa trên quy tắc đơn giản với AI hiểu ngữ cảnh, đưa ra các quyết định thông minh và liên tục cải thiện hiệu suất.",
+        "voiceChat": {
+          "title": "Tự động hóa giọng nói & trò chuyện thông minh",
+          "description": "Các nhân viên AI hiểu ngữ cảnh và cung cấp các tương tác giống con người",
+          "benefits": {
+            "nlp": "Xử lý ngôn ngữ tự nhiên cho các truy vấn phức tạp",
+            "channels": "Các cuộc trò chuyện bằng giọng nói và văn bản trên tất cả các kênh",
+            "contextAware": "Phản hồi nhận biết ngữ cảnh dựa trên lịch sử khách hàng",
+            "handoff": "Chuyển giao liền mạch cho con người khi cần"
+          }
+        },
+        "workflow": {
+          "title": "Tự động hóa quy trình làm việc thông minh",
+          "description": "Tự động hóa các quy trình kinh doanh phức tạp với việc ra quyết định thông minh",
+          "benefits": {
+            "leadQualification": "Sàng lọc và định tuyến khách hàng tiềm năng tự động",
+            "scheduling": "Lên lịch và quản lý cuộc hẹn thông minh",
+            "pricing": "Định giá động và tạo đề xuất",
+            "followUp": "Các chuỗi theo dõi và nuôi dưỡng tự động"
+          }
+        },
+        "learning": {
+          "title": "Học hỏi & Tối ưu hóa liên tục",
+          "description": "AI trở nên thông minh hơn theo thời gian, tự động cải thiện hiệu suất",
+          "benefits": {
+            "machineLearning": "Học máy từ mọi tương tác của khách hàng",
+            "optimization": "Tối ưu hóa tự động độ chính xác của phản hồi",
+            "predictive": "Phân tích dự đoán cho dịch vụ khách hàng chủ động",
+            "monitoring": "Giám sát và điều chỉnh hiệu suất thời gian thực"
+          }
+        },
+        "capabilities": "Khả năng chính:"
+      },
+      "automationTypes": {
+        "title": "Tự động hóa trên toàn doanh nghiệp của bạn",
+        "description": "Từ dịch vụ khách hàng đến bán hàng, tiếp thị đến hoạt động—tự động hóa AI chuyển đổi mọi khía cạnh của doanh nghiệp bạn.",
+        "customerService": {
+          "title": "Tự động hóa dịch vụ khách hàng",
+          "description": "AI xử lý các yêu cầu thường xuyên, leo thang các vấn đề phức tạp",
+          "examples": {
+            "orderStatus": "Cập nhật trạng thái đơn hàng",
+            "faq": "Phản hồi Câu hỏi thường gặp",
+            "troubleshooting": "Khắc phục sự cố cơ bản",
+            "account": "Thông tin tài khoản"
+          }
+        },
+        "sales": {
+          "title": "Tự động hóa quy trình bán hàng",
+          "description": "Tự động sàng lọc khách hàng tiềm năng, theo dõi và lên lịch",
+          "examples": {
+            "leadScoring": "Chấm điểm khách hàng tiềm năng",
+            "demoBooking": "Đặt lịch demo",
+            "proposals": "Tạo đề xuất",
+            "followUp": "Các chuỗi theo dõi"
+          }
+        },
+        "marketing": {
+          "title": "Tự động hóa chiến dịch tiếp thị",
+          "description": "Các chiến dịch thông minh thích ứng dựa trên hành vi khách hàng",
+          "examples": {
+            "personalized": "Tin nhắn cá nhân hóa",
+            "timing": "Thời gian gửi tối ưu",
+            "testing": "Kiểm tra A/B",
+            "optimization": "Tối ưu hóa hiệu suất"
+          }
+        },
+        "operational": {
+          "title": "Tự động hóa hoạt động",
+          "description": "Hợp lý hóa các quy trình và quy trình làm việc nội bộ",
+          "examples": {
+            "dataEntry": "Nhập dữ liệu",
+            "reports": "Tạo báo cáo",
+            "taskAssignment": "Giao nhiệm vụ",
+            "qualityMonitoring": "Giám sát chất lượng"
+          }
+        },
+        "examples": "VÍ DỤ:"
+      },
+      "metrics": {
+        "title": "Tác động hiệu suất tự động hóa",
+        "description": "Những cải thiện có thể đo lường được về hiệu quả, độ chính xác và năng lực hoạt động",
+        "reduction": {
+          "value": "80%",
+          "label": "Giảm các tác vụ thủ công"
+        },
+        "availability": {
+          "value": "24/7",
+          "label": "Hoạt động tự động"
+        },
+        "accuracy": {
+          "value": "95%",
+          "label": "Tỷ lệ chính xác"
+        },
+        "speed": {
+          "value": "3x",
+          "label": "Xử lý nhanh hơn"
+        }
+      },
+      "security": {
+        "title": "AI an toàn & tuân thủ",
+        "description": "Bảo mật và tuân thủ cấp doanh nghiệp được tích hợp vào mọi tự động hóa AI",
+        "dataProtection": {
+          "title": "Bảo vệ dữ liệu",
+          "description": "Mã hóa đầu cuối và xử lý dữ liệu an toàn"
+        },
+        "compliance": {
+          "title": "Sẵn sàng tuân thủ",
+          "description": "Tuân thủ HIPAA, GDPR và các quy định cụ thể của ngành"
+        },
+        "auditTrail": {
+          "title": "Nhật ký kiểm toán",
+          "description": "Ghi nhật ký và giám sát đầy đủ tất cả các hành động của AI"
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng tự động hóa doanh nghiệp của bạn bằng AI?",
+        "description": "Tham gia cùng hàng trăm doanh nghiệp sử dụng Seasalt.ai để tự động hóa hoạt động, giảm chi phí và mở rộng quy mô hiệu quả với AI thông minh.",
+        "primary": "Đăng ký",
+        "secondary": "Đặt lịch demo AI",
+        "disclaimer": "Không cần thẻ tín dụng • Xem tự động hóa trong 24 giờ • Hủy bất cứ lúc nào"
+      }
+    },
+    "smeOwners": {
+      "seo": {
+        "title": "Giải pháp dành cho chủ SME - Seasalt.ai",
+        "description": "Bạn là CEO, đội ngũ bán hàng, bộ phận tiếp thị và hỗ trợ khách hàng tất cả trong một. Seasalt.ai cung cấp cho bạn một trợ lý AI xử lý các giao tiếp thường xuyên để bạn có thể tập trung vào việc phát triển doanh nghiệp của mình."
+      },
+      "navigation": {
+        "backToHome": "Quay lại trang chủ"
+      },
+      "hero": {
+        "title": {
+          "part1": "Ngừng xoay sở.",
+          "part2": "Bắt đầu mở rộng quy mô."
+        },
+        "subtitle": "Trung tâm giao tiếp do AI hỗ trợ dành cho chủ SME đa năng",
+        "description": "Bạn là CEO, đội ngũ bán hàng, bộ phận tiếp thị và hỗ trợ khách hàng tất cả trong một. Seasalt.ai cung cấp cho bạn một trợ lý AI xử lý các giao tiếp thường xuyên để bạn có thể tập trung vào việc phát triển doanh nghiệp của mình.",
+        "cta": {
+          "getAssistant": "Nhận trợ lý AI của bạn",
+          "bookDemo": "Đặt lịch demo"
+        },
+        "dashboard": {
+          "title": "Bảng điều khiển chủ SME",
+          "aiHandledInquiries": "🤖 AI đã xử lý 23 yêu cầu hôm nay",
+          "timeSaved": "Tiết kiệm cho bạn 3,5 giờ",
+          "appointmentsBooked": "📅 5 cuộc hẹn được đặt tự động",
+          "whileInMeetings": "Trong khi bạn đang họp",
+          "leadsQualified": "💬 12 khách hàng tiềm năng đã được sàng lọc và ưu tiên",
+          "readyForFollowup": "Sẵn sàng cho việc theo dõi cá nhân của bạn",
+          "smsCampaign": "📱 Chiến dịch SMS: tỷ lệ mở 89%",
+          "newCustomers": "3 khách hàng mới đã được thu hút"
+        }
+      },
+      "challenges": {
+        "title": "Tình thế tiến thoái lưỡng nan của chủ SME",
+        "description": "Điều hành một doanh nghiệp nhỏ có nghĩa là phải đảm nhiệm nhiều vai trò. Nhưng điều đó không có nghĩa là phải chìm đắm trong các giao tiếp thường xuyên.",
+        "wearingMultipleHats": {
+          "title": "Đảm nhiệm nhiều vai trò",
+          "description": "Quản lý bán hàng, tiếp thị và hỗ trợ đồng thời cố gắng phát triển doanh nghiệp của bạn"
+        },
+        "limitedTimeResources": {
+          "title": "Thời gian & Tài nguyên hạn chế",
+          "description": "Mỗi phút đều có giá trị khi bạn điều hành một doanh nghiệp nhỏ với đội ngũ tinh gọn"
+        },
+        "scalingChallenges": {
+          "title": "Thử thách mở rộng quy mô",
+          "description": "Nhu cầu khách hàng ngày càng tăng mà không tăng tương ứng về quy mô đội ngũ hoặc ngân sách"
+        }
+      },
+      "solutions": {
+        "title": "Giải pháp do AI hỗ trợ của bạn",
+        "description": "Seasalt.ai hoạt động như một thành viên nhóm ảo của bạn, xử lý các tác vụ thường xuyên để bạn có thể tập trung vào những gì chỉ bạn mới có thể làm - phát triển doanh nghiệp của mình.",
+        "keyBenefits": "Lợi ích chính:",
+        "aiAutomation": {
+          "title": "Tự động hóa do AI hỗ trợ",
+          "description": "Để AI xử lý các yêu cầu thường xuyên, đặt lịch hẹn và sàng lọc khách hàng tiềm năng 24/7",
+          "benefits": {
+            "routineQuestions": "Tự động hóa 80% các câu hỏi thường xuyên của khách hàng",
+            "bookAppointments": "Đặt lịch hẹn trong khi bạn ngủ",
+            "qualifyLeads": "Sàng lọc khách hàng tiềm năng trước khi họ đến với bạn",
+            "instantResponses": "Cung cấp phản hồi tức thì trên tất cả các kênh"
+          }
+        },
+        "unifiedView": {
+          "title": "Chế độ xem khách hàng hợp nhất",
+          "description": "Xem mọi tương tác của khách hàng ở một nơi, cho dù họ gọi điện, nhắn tin hay trò chuyện",
+          "benefits": {
+            "singleInbox": "Hộp thư đến duy nhất cho tất cả các giao tiếp của khách hàng",
+            "conversationHistory": "Lịch sử trò chuyện hoàn chỉnh trên các kênh",
+            "neverLoseTrack": "Không bao giờ mất dấu ngữ cảnh khách hàng",
+            "seamlessHandoffs": "Chuyển giao liền mạch giữa AI và con người"
+          }
+        },
+        "smartMarketing": {
+          "title": "Chiến dịch tiếp thị thông minh",
+          "description": "Chạy các chiến dịch được nhắm mục tiêu trên SMS, WhatsApp và email với sự hỗ trợ của AI",
+          "benefits": {
+            "automatedFollowup": "Các chuỗi theo dõi tự động",
+            "personalizedMessaging": "Tin nhắn cá nhân hóa ở quy mô lớn",
+            "trackPerformance": "Theo dõi hiệu suất chiến dịch thời gian thực",
+            "recoverCarts": "Khôi phục giỏ hàng bị bỏ quên tự động"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Các kịch bản chủ SME thực tế",
+        "description": "Xem cách các chủ doanh nghiệp khác như bạn đang sử dụng Seasalt.ai để mở rộng quy mô hoạt động của họ",
+        "challengeLabel": "THỬ THÁCH:",
+        "solutionLabel": "GIẢI PHÁP CỦA SEASALT.AI:",
+        "soloEntrepreneur": {
+          "title": "Doanh nhân độc lập",
+          "scenario": "Điều hành một doanh nghiệp tư vấn trong khi quản lý tất cả các giao tiếp với khách hàng",
+          "solution": "AI xử lý các yêu cầu ban đầu và đặt lịch tư vấn, giúp bạn tập trung vào việc cung cấp dịch vụ"
+        },
+        "smallRetailer": {
+          "title": "Nhà bán lẻ nhỏ",
+          "scenario": "Quản lý đơn hàng trực tuyến, hỗ trợ khách hàng và các chiến dịch tiếp thị",
+          "solution": "Cập nhật đơn hàng tự động, phản hồi hỗ trợ tức thì và các chiến dịch tiếp thị được nhắm mục tiêu"
+        },
+        "serviceProvider": {
+          "title": "Nhà cung cấp dịch vụ",
+          "scenario": "Xoay sở giữa lên lịch hẹn, các câu hỏi của khách hàng và theo dõi",
+          "solution": "AI đặt lịch hẹn, trả lời Câu hỏi thường gặp và gửi nhắc nhở tự động"
+        },
+        "growingStartup": {
+          "title": "Công ty khởi nghiệp đang phát triển",
+          "scenario": "Mở rộng quy mô giao tiếp với khách hàng mà không cần thuê một đội ngũ hỗ trợ đầy đủ",
+          "solution": "AI xử lý tăng trưởng khối lượng trong khi vẫn duy trì sự tiếp xúc cá nhân với các chuyển giao thông minh"
+        }
+      },
+      "roi": {
+        "title": "ROI của chủ SME",
+        "description": "Xem tác động tức thì đến hoạt động kinh doanh và tăng trưởng của bạn",
+        "timeSaved": {
+          "metric": "Hơn 5 giờ",
+          "description": "Tiết kiệm mỗi tuần cho các giao tiếp thường xuyên"
+        },
+        "responseRate": {
+          "metric": "40%",
+          "description": "Tăng tỷ lệ phản hồi khách hàng tiềm năng"
+        },
+        "availability": {
+          "metric": "24/7",
+          "description": "Dịch vụ khách hàng không cần thuê nhân viên làm đêm"
+        },
+        "conversationsHandled": {
+          "metric": "3x",
+          "description": "Nhiều cuộc trò chuyện được xử lý hơn với cùng một đội ngũ"
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng ngừng xoay sở và bắt đầu mở rộng quy mô?",
+        "description": "Tham gia cùng hàng ngàn chủ SME đã lấy lại thời gian của họ và mở rộng quy mô giao tiếp với khách hàng bằng tự động hóa AI.",
+        "startTrial": "Bắt đầu dùng thử miễn phí",
+        "scheduleDemo": "Lên lịch demo cá nhân",
+        "disclaimer": "Không cần thẻ tín dụng • Thiết lập trong vòng chưa đầy 10 phút • Hủy bất cứ lúc nào"
+      }
+    },
+    "seahealth": {
+      "seo": {
+        "title": "SeaHealth - Giao tiếp do AI hỗ trợ cho chăm sóc sức khỏe",
+        "description": "Nâng cao giao tiếp với bệnh nhân và hợp lý hóa hoạt động với nền tảng tuân thủ HIPAA, do AI hỗ trợ của SeaHealth. Hợp nhất các cuộc gọi, tin nhắn và nhắn tin trong một hộp thư đến an toàn."
+      },
+      "hero": {
+        "title": "SeaHealth cho phép các chuyên gia chăm sóc sức khỏe –",
+        "subtitle": "Chuyển đổi tương tác với bệnh nhân, với:",
+        "features": {
+          "newPatients": "Thu hút bệnh nhân mới",
+          "aiReceptionists": "Lễ tân AI giọng nói sau giờ làm việc",
+          "callAnalytics": "Phân tích cuộc gọi văn phòng"
+        },
+        "cta": "Đặt lịch demo ngay hôm nay!",
+        "description": "Văn phòng do AI hỗ trợ cho chăm sóc sức khỏe. Không bao giờ bỏ lỡ một cuộc gọi, khiếu nại hoặc cuộc hẹn nào nữa."
+      },
+      "top4Reasons": {
+        "title": "4 lý do hàng đầu các bệnh viện và phòng khám chọn SeaHealth:",
+        "neverMissCall": "Không bao giờ bỏ lỡ cuộc gọi",
+        "neverMissComplaint": "Không bao giờ bỏ lỡ khiếu nại của khách hàng",
+        "bookAppointments": "Đặt lịch hẹn bệnh nhân mới sau giờ làm việc",
+        "provide247Hotline": "Cung cấp đường dây nóng 24/7 cho bệnh nhân tiềm năng và hiện có"
+      },
+      "frontOfficeChallenges": {
+        "title": "Giải quyết các thách thức của văn phòng",
+        "unmonitoredCalls": {
+          "title": "Cuộc gọi điện thoại bàn không được giám sát",
+          "complaint": "Giải quyết khiếu nại của khách hàng trước khi chúng leo thang.",
+          "risks": "Giảm thiểu rủi ro từ các lỗi phân loại y tế ban đầu.",
+          "professionalism": "Nâng cao tính chuyên nghiệp với tông giọng nói và hành vi của lễ tân được cải thiện."
+        },
+        "missedCalls": {
+          "title": "Các cuộc gọi đến bị bỏ lỡ từ bệnh nhân",
+          "voicemails": "Loại bỏ thư thoại sau giờ làm việc với các cuộc gọi theo dõi chủ động.",
+          "scheduling": "Đơn giản hóa việc lên lịch và lên lịch lại cuộc hẹn.",
+          "retention": "Giữ chân bệnh nhân bằng cách đảm bảo điện thoại của bạn được trả lời 24/7, ngăn họ tìm kiếm đối thủ cạnh tranh."
+        },
+        "outboundCalls": {
+          "title": "Các cuộc gọi đi không ai muốn thực hiện",
+          "followUp": "Đảm bảo sự kỹ lưỡng trong các cuộc gọi theo dõi thủ tục.",
+          "insurance": "Đơn giản hóa các cuộc trò chuyện dài dòng với các công ty bảo hiểm.",
+          "reactivation": "Kích hoạt lại bệnh nhân đã bỏ cuộc với các chương trình khuyến mãi hiệu quả để lấp đầy các chỗ trống."
+        }
+      },
+      "solutions": {
+        "title": "Giải pháp cho mọi cơ sở chăm sóc sức khỏe",
+        "hospitals": "Bệnh viện & Phòng khám",
+        "dental": "Phòng khám nha khoa",
+        "hospice": "Nhà tế bần",
+        "emergency": "Chăm sóc khẩn cấp",
+        "adult": "Nhà gia đình người lớn",
+        "veterinary": "Bệnh viện thú y",
+        "cosmetic": "Phẫu thuật thẩm mỹ"
+      },
+      "mainSolution": {
+        "title": "Giải pháp văn phòng SeaHealth – Tự động lấp đầy các khung giờ hẹn của bạn.",
+        "description": "Giải pháp do AI hỗ trợ của chúng tôi hợp lý hóa hoạt động văn phòng của bạn, cho phép nhân viên của bạn tập trung vào những gì quan trọng nhất - chăm sóc bệnh nhân."
+      },
+      "forProviders": {
+        "title": "Dành cho các nhà cung cấp dịch vụ chăm sóc sức khỏe",
+        "benefit1": "Giảm gánh nặng hành chính",
+        "benefit2": "Cải thiện sự hài lòng của bệnh nhân",
+        "benefit3": "Tăng hiệu quả hoạt động"
+      },
+      "forPatients": {
+        "title": "Dành cho bệnh nhân",
+        "benefit1": "Truy cập hỗ trợ 24/7",
+        "benefit2": "Lên lịch hẹn nhanh chóng",
+        "benefit3": "Giao tiếp liền mạch"
+      },
+      "whyChoose": {
+        "title": "Tại sao chọn SeaHealth?",
+        "reason1": {
+          "title": "Tuân thủ HIPAA",
+          "description": "Chúng tôi ưu tiên quyền riêng tư và bảo mật dữ liệu bệnh nhân."
+        },
+        "reason2": {
+          "title": "Công nghệ giọng nói tự nhiên & theo ngữ cảnh",
+          "description": "Tương tác với bệnh nhân bằng giao tiếp giống con người."
+        },
+        "reason3": {
+          "title": "Tự động hóa đúng cách",
+          "description": "Luôn quan tâm đến bệnh nhân và nhân viên của bạn."
+        }
+      },
+      "faqs": {
+        "title": "Các câu hỏi thường gặp",
+        "faq1": {
+          "question": "Phân tích cuộc gọi bàn của bạn hoạt động như thế nào?",
+          "answer": "Chúng tôi ghi lại các cuộc gọi đến và đi của bạn, sau đó phiên âm chúng để phân tích thêm. Các email tóm tắt và cảnh báo được gửi hàng ngày."
+        },
+        "faq2": {
+          "question": "Nó có yêu cầu ghi âm cuộc gọi không, và bằng cách nào?",
+          "answer": "Chúng tôi kết nối nhà cung cấp VoIP của bạn để lấy các bản ghi cuộc gọi và thực hiện phân tích giọng nói trên các bản ghi. Nếu bạn sử dụng điện thoại analog, chúng tôi sử dụng thiết bị ghi âm điện thoại kết nối cuộc gọi của bạn với các giắc cắm điện thoại để lấy các bản ghi."
+        },
+        "faq3": {
+          "question": "Phạm vi phủ sóng cuộc gọi điện thoại 24/7 hoạt động như thế nào?",
+          "answer": "Các lễ tân do AI hỗ trợ xử lý cuộc gọi suốt ngày đêm, đảm bảo không bỏ lỡ cơ hội nào. Bạn có thể nhấc máy khi họ gọi, hoặc chuyển cuộc gọi đến các lễ tân AI trong hoặc sau giờ làm việc."
+        },
+        "faq4": {
+          "question": "Tại sao tôi nên sử dụng dịch vụ của bạn?",
+          "answer": "SeaHealth cải thiện hiệu quả, nâng cao sự hài lòng của bệnh nhân và tăng doanh thu thông qua tự động hóa và các giải pháp do AI hỗ trợ. Nó rẻ hơn, đáng tin cậy hơn và đồng cảm hơn so với việc thuê ngoài công việc lễ tân của bạn."
+        }
+      },
+      "partners": {
+        "title": "Đối tác & Tích hợp"
+      },
+      "cta": {
+        "title": "Sẵn sàng chuyển đổi tương tác với bệnh nhân?",
+        "button": "Đặt lịch demo ngay hôm nay!"
+      }
+    }
+  },
+  "pricing": {
+    "seo": {
+      "title": "Giá cả - Seasalt.ai",
+      "description": "Giá cả đơn giản, minh bạch phát triển cùng bạn. Không có phí ẩn. Không có tiện ích bổ sung phức tạp. Chỉ một nền tảng mạnh mẽ cho tất cả các cuộc trò chuyện của bạn."
+    },
+    "hero": {
+      "title": "Chọn gói phù hợp với nhu cầu của bạn",
+      "description": "Không có phí ẩn. Không có tiện ích bổ sung phức tạp. Chỉ một nền tảng mạnh mẽ cho tất cả các cuộc trò chuyện của bạn.",
+      "subtitle": "Từ các công ty khởi nghiệp đến doanh nghiệp - giá cả minh bạch không có phí ẩn. Bắt đầu miễn phí và mở rộng quy mô khi bạn phát triển."
+    },
+    "audienceSection": {
+      "title": "Chọn con đường phát triển của bạn",
+      "description": "Từ các công ty khởi nghiệp đến doanh nghiệp, chúng tôi có giải pháp phù hợp cho mọi giai đoạn trong hành trình của bạn",
+      "startups": {
+        "title": "Dành cho các công ty khởi nghiệp & SME",
+        "subtitle": "Bắt đầu nhỏ, mở rộng quy mô thông minh",
+        "seachatFree": {
+          "title": "🚀 Bắt đầu miễn phí với SeaChat",
+          "description": "0 đô la mãi mãi - 1 nhân viên con người, trò chuyện không giới hạn"
+        },
+        "seavoice": {
+          "title": "📞 Mở rộng quy mô với SeaVoice",
+          "description": "29,99 đô la/tháng - Thêm AI giọng nói cho các cuộc gọi đến"
+        },
+        "seax": {
+          "title": "🌟 Phát triển với SeaX",
+          "description": "99 đô la/tháng - Nền tảng đa kênh hoàn chỉnh"
+        },
+        "footer": "Hoàn hảo cho các doanh nghiệp có 1-50 nhân viên"
+      },
+      "enterprise": {
+        "title": "Dành cho các doanh nghiệp vừa và lớn",
+        "subtitle": "Giải pháp cấp doanh nghiệp",
+        "seachatPremium": {
+          "title": "🤖 SeaChat Premium",
+          "description": "29,99 đô la/tháng + sử dụng - AI văn bản cấp doanh nghiệp"
+        },
+        "seaxProfessional": {
+          "title": "🏢 SeaX Professional",
+          "description": "99 đô la/tháng - Nền tảng hợp nhất với AI và đa kênh"
+        },
+        "customEnterprise": {
+          "title": "⚡ Doanh nghiệp tùy chỉnh",
+          "description": "Liên hệ với chúng tôi - Nhãn trắng, HIPAA, tích hợp tùy chỉnh"
+        },
+        "footer": "Hoàn hảo cho các doanh nghiệp có hơn 50 nhân viên"
+      }
+    },
+    "plans": {
+      "title": "Chọn gói của bạn",
+      "description": "Bắt đầu miễn phí và mở rộng quy mô khi bạn phát triển với các tùy chọn giá linh hoạt của chúng tôi",
+      "liveAgent": {
+        "name": "Nhân viên trực tiếp",
+        "price": "0 đô la",
+        "period": "MIỄN PHÍ VĨNH VIỄN",
+        "tagline": "👤 CHỈ CON NGƯỜI",
+        "highlight": "🌟 TẤT CẢ CÁC KÊNH + CHỈ NHÂN VIÊN CON NGƯỜI",
+        "channels": "WhatsApp • Messenger • Line • Instagram • Trò chuyện web",
+        "feature1": "Bao gồm 1 nhân viên con người",
+        "feature2": "Cuộc trò chuyện không giới hạn với con người",
+        "feature3": "100 phản hồi AI để thử các tính năng",
+        "feature4": "Tích hợp Shopify cơ bản",
+        "cta": "🚀 BẮT ĐẦU MIỄN PHÍ NGAY",
+        "poweredBy": "Được hỗ trợ bởi SeaChat"
+      },
+      "whatsappOnly": {
+        "name": "Chỉ WhatsApp",
+        "price": "19,99 đô la",
+        "period": "MỖI NGƯỜI DÙNG/THÁNG",
+        "tagline": "💬 CHỈ NHẮN TIN",
+        "highlight": "📲 CHUYÊN GIA WHATSAPP BUSINESS",
+        "channels": "Chiến dịch • API • Trò chuyện 2 chiều",
+        "feature1": "Nền tảng WhatsApp Business",
+        "feature2": "Công cụ quản lý chiến dịch",
+        "feature3": "Truy cập API WhatsApp",
+        "feature4": "Liên hệ & mẫu không giới hạn",
+        "cta": "📱 BẮT ĐẦU WHATSAPP",
+        "poweredBy": "Được hỗ trợ bởi SeaX"
+      },
+      "omnichannel": {
+        "name": "Đa kênh",
+        "firstUserPrice": "99 đô la",
+        "firstUserLabel": "NGƯỜI DÙNG ĐẦU TIÊN",
+        "additionalUserPrice": "49 đô la",
+        "additionalUserLabel": "MỖI NGƯỜI DÙNG THÊM",
+        "period": "MỖI THÁNG",
+        "tagline": "🌐 MỘT GIAO DIỆN, TẤT CẢ CÁC KÊNH",
+        "popular": "🏆 PHỔ BIẾN NHẤT",
+        "highlight": "🎯 TRUNG TÂM LIÊN HỆ HOÀN CHỈNH",
+        "subHighlight": "Thực hiện & Nhận CUỘC GỌI ĐIỆN THOẠI!",
+        "feature1": "NHÂN VIÊN THỰC HIỆN & NHẬN CUỘC GỌI",
+        "feature2": "SMS + GIỌNG NÓI + WHATSAPP",
+        "feature3": "Chiến dịch giọng nói & SMS",
+        "feature4": "API RESTful + tích hợp SeaChat",
+        "cta": "🚀 BẮT ĐẦU TRUNG TÂM HOÀN CHỈNH",
+        "poweredBy": "Được hỗ trợ bởi SeaX"
+      },
+      "custom": {
+        "name": "Tùy chỉnh",
+        "price": "Hãy cùng xây dựng một dự án",
+        "period": "Thương lượng giá của riêng bạn",
+        "feature1": "Nhiều không gian làm việc",
+        "feature2": "Hoàn hảo cho các đại lý",
+        "feature3": "Tích hợp API tùy chỉnh",
+        "feature4": "Tuân thủ HIPAA",
+        "feature5": "Các tùy chọn nhãn trắng",
+        "cta": "Liên hệ chúng tôi"
+      },
+      "popularBadge": "Phổ biến nhất",
+      "ctaStyles": {
+        "primary": "Đăng ký ngay"
+      }
+    },
+    "aiAddons": {
+      "title": "⭐ Tiện ích bổ sung AI",
+      "description": "Nâng cao bất kỳ gói nào với khả năng AI",
+      "chatAI": {
+        "title": "AI trò chuyện với SeaChat",
+        "price": "29,99 đô la",
+        "period": "mỗi tháng"
+      },
+      "voiceAI": {
+        "title": "AI giọng nói với SeaVoice",
+        "price": "29,99 đô la",
+        "period": "mỗi tháng"
+      },
+      "combo": {
+        "title": "Cả hai tính năng AI",
+        "price": "29,99 đô la",
+        "period": "tổng cộng mỗi tháng",
+        "benefit": "🎉 Nhận cả AI trò chuyện và AI giọng nói chỉ với 29,99 đô la/tháng kết hợp!"
+      }
+    },
+    "transparentAI": {
+      "title": "Giá AI minh bạch",
+      "description": "Chỉ trả tiền cho những gì bạn sử dụng với giá AI rõ ràng, dựa trên mức sử dụng của chúng tôi",
+      "chatAI": {
+        "title": "AI trò chuyện",
+        "price": "0,006 đô la",
+        "period": "mỗi phản hồi (ChatGPT-4o mini)",
+        "feature1": "• WhatsApp, Messenger, Trò chuyện web",
+        "feature2": "• Phản hồi tự động 24/7",
+        "feature3": "• Tích hợp cơ sở kiến thức"
+      },
+      "voiceAI": {
+        "title": "AI giọng nói",
+        "price": "0,12 đô la",
+        "period": "mỗi phút (ChatGPT-4o mini)",
+        "feature1": "• Cuộc gọi đến & đi",
+        "feature2": "• Cuộc trò chuyện giọng nói tự nhiên",
+        "feature3": "• Ghi âm & tóm tắt cuộc gọi"
+      },
+      "premiumAI": {
+        "title": "AI cao cấp",
+        "price": "0,80 đô la",
+        "period": "mỗi phút (ChatGPT-4o)",
+        "feature1": "• Suy luận nâng cao",
+        "feature2": "• Cuộc trò chuyện phức tạp",
+        "feature3": "• Các tính năng doanh nghiệp tùy chỉnh"
+      }
+    },
+    "transparentCommunication": {
+      "title": "Giá giao tiếp minh bạch",
+      "description": "Giá cả rõ ràng, minh bạch cho tất cả các nhu cầu giao tiếp của bạn",
+      "sms": {
+        "title": "SMS",
+        "price": "0,02 đô la",
+        "period": "mỗi tin nhắn (USA/CA)",
+        "description": "Nhắn tin văn bản đáng tin cậy với giá mỗi tin nhắn minh bạch"
+      },
+      "voiceCalls": {
+        "title": "Cuộc gọi thoại",
+        "price": "0,015 đô la",
+        "period": "mỗi phút (USA/CA)",
+        "description": "Cuộc gọi thoại rõ ràng trên hơn 100 quốc gia"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "price": "0,00 đô la",
+        "period": "mỗi tin nhắn trên toàn thế giới",
+        "description": "Bạn trả tiền trực tiếp cho Meta. Không có phí tăng thêm từ Seasalt.ai"
+      },
+      "otherChannels": "📱 Các kênh khác như Instagram, Facebook Messenger và Webchat không có phí tăng thêm hoặc hoàn toàn miễn phí."
+    },
+    "comparison": {
+      "title": "Bức tranh toàn cảnh giao tiếp toàn cầu: Chúng tôi xếp hạng như thế nào",
+      "description": "Xem cách Seasalt.ai so sánh với các giải pháp khác trên thị trường. Chúng tôi là nền tảng duy nhất cung cấp các tính năng doanh nghiệp với sự đơn giản của doanh nghiệp nhỏ.",
+      "table": {
+        "competitor": "Đối thủ cạnh tranh",
+        "startingPrice": "Giá khởi điểm",
+        "pricingModel": "Mô hình định giá",
+        "unifiedVoiceDigital": "Thoại & Kỹ thuật số hợp nhất",
+        "aiCapabilities": "Khả năng AI",
+        "bestFor": "Tốt nhất cho"
+      },
+      "seasalt": {
+        "name": "Seasalt.ai",
+        "startingPrice": "20 đô la/nhân viên/tháng",
+        "pricingModel": "Đơn giản theo người dùng",
+        "unifiedVoiceDigital": "✅ Có, Bản địa",
+        "aiCapabilities": "✅ Có, Voice & Chatbot bản địa",
+        "bestFor": "Các SME cần một nền tảng tất cả trong một giá cả phải chăng, thực sự.",
+        "recommended": "Được đề xuất"
+      },
+      "aircall": {
+        "name": "Aircall",
+        "startingPrice": "30 đô la/người dùng/tháng",
+        "pricingModel": "Theo người dùng + Tiện ích bổ sung",
+        "unifiedVoiceDigital": "⚠️ Thoại + WhatsApp (Tiện ích bổ sung)",
+        "aiCapabilities": "⚠️ AI là tiện ích bổ sung trả phí",
+        "bestFor": "Các đội ngũ bán hàng có thể chi trả nhiều tiện ích bổ sung và đáp ứng tối thiểu 3 người dùng."
+      },
+      "ringcentral": {
+        "name": "RingCentral",
+        "startingPrice": "65 đô la/nhân viên/tháng",
+        "pricingModel": "Các cấp độ phức tạp",
+        "unifiedVoiceDigital": "❌ Sản phẩm riêng biệt",
+        "aiCapabilities": "✅ Có (CCaaS do AI hỗ trợ)",
+        "bestFor": "Các công ty lớn cần một nền tảng UCaaS rộng lớn với một CCaaS riêng biệt."
+      },
+      "genesys": {
+        "name": "Genesys Cloud CX",
+        "startingPrice": "75 đô la/người dùng/tháng",
+        "pricingModel": "Theo người dùng + Mức tối thiểu cao",
+        "unifiedVoiceDigital": "✅ Có (ở các cấp cao hơn)",
+        "aiCapabilities": "✅ Có (Hệ thống token phức tạp)",
+        "bestFor": "Các doanh nghiệp lớn với đội ngũ trung tâm liên hệ chuyên dụng và ngân sách."
+      },
+      "five9": {
+        "name": "Five9",
+        "startingPrice": "119 đô la/người dùng/tháng",
+        "pricingModel": "Theo người dùng + Gói",
+        "unifiedVoiceDigital": "✅ Có (ở các cấp cao cấp)",
+        "aiCapabilities": "✅ Có (AI nâng cao)",
+        "bestFor": "Các trung tâm liên hệ lớn, tập trung vào cuộc gọi đi cần các công cụ cấp doanh nghiệp."
+      },
+      "googleVoice": {
+        "name": "Google Voice",
+        "startingPrice": "10 đô la/người dùng/tháng",
+        "pricingModel": "Theo người dùng + Phí không gian làm việc",
+        "unifiedVoiceDigital": "❌ Không",
+        "aiCapabilities": "❌ Không (Chỉ phiên âm thư thoại)",
+        "bestFor": "Các doanh nhân độc lập (chỉ ở Hoa Kỳ) cần một số điện thoại cơ bản, riêng biệt."
+      },
+      "respondIo": {
+        "name": "respond.io",
+        "startingPrice": "79 đô la/tháng",
+        "pricingModel": "Liên hệ hoạt động hàng tháng",
+        "unifiedVoiceDigital": "⚠️ Ưu tiên kỹ thuật số (Thoại là Beta)",
+        "aiCapabilities": "✅ Có (Nhân viên AI ở các cấp cao hơn)",
+        "bestFor": "Các đội ngũ tiếp thị/bán hàng tập trung vào các kênh nhắn tin như WhatsApp."
+      },
+      "intercom": {
+        "name": "Intercom",
+        "startingPrice": "39 đô la/chỗ ngồi/tháng",
+        "pricingModel": "Theo chỗ ngồi + Tiện ích bổ sung + Sử dụng",
+        "unifiedVoiceDigital": "⚠️ Ưu tiên kỹ thuật số (Thoại là trả tiền theo mức sử dụng)",
+        "aiCapabilities": "✅ Có (Nhân viên AI Fin là theo giải quyết)",
+        "bestFor": "Các doanh nghiệp tập trung vào tương tác và hỗ trợ trang web chủ động."
+      }
+    },
+    "faq": {
+      "1": {
+        "question": "Gói miễn phí có thực sự miễn phí mãi mãi không?",
+        "answer": "Có! Gói Nhân viên trực tiếp của chúng tôi bao gồm 1 nhân viên con người trọn đời với các cuộc trò chuyện, lịch sử trò chuyện và liên hệ không giới hạn. Ngoài ra, bạn nhận được 100 phản hồi AI trọn đời để thử các tính năng AI của chúng tôi. Không cần thẻ tín dụng, không có phí ẩn."
+      },
+      "2": {
+        "question": "Giá AI hoạt động như thế nào trên SeaChat, SeaX và SeaVoice?",
+        "answer": "Tất cả các cuộc gọi AI giọng nói trên SeaChat, SeaX và SeaVoice đều sử dụng cùng mức giá 0,12 đô la mỗi phút với mô hình ChatGPT-4o mini. Các phản hồi AI trò chuyện bắt đầu từ 0,006 đô la mỗi phản hồi. Các mô hình cấp cao hơn như ChatGPT-4o có giá 0,80 đô la mỗi phút và có sẵn trên các gói cao cấp."
+      },
+      "3": {
+        "question": "Tôi có thể nâng cấp hoặc hạ cấp gói của mình bất cứ lúc nào không?",
+        "answer": "Tuyệt đối! Bạn có thể thay đổi gói của mình bất cứ lúc nào. Nâng cấp có hiệu lực ngay lập tức và hạ cấp có hiệu lực vào cuối chu kỳ thanh toán hiện tại của bạn. Chúng tôi sẽ tính toán điều chỉnh thanh toán theo tỷ lệ."
+      },
+      "4": {
+        "question": "Sự khác biệt giữa gói Chỉ WhatsApp và Đa kênh là gì?",
+        "answer": "Gói Chỉ WhatsApp (19,99 đô la/tháng) tập trung vào nhắn tin WhatsApp với các liên hệ và mẫu không giới hạn. Gói Đa kênh (99 đô la/tháng cho người dùng đầu tiên, 49 đô la cho mỗi người dùng bổ sung) bao gồm SMS, cuộc gọi thoại, chiến dịch, truy cập API và tích hợp SeaChat để có trải nghiệm trung tâm liên hệ hoàn chỉnh."
+      },
+      "5": {
+        "question": "Có bất kỳ phí ẩn hoặc phí thiết lập nào không?",
+        "answer": "Không có phí ẩn nào cả! Số điện thoại có giá 2-3 đô la/tháng với địa chỉ E911. SMS có giá 0,02 đô la/tin nhắn, cuộc gọi thoại 0,015 đô la/phút (USA/CA). Tin nhắn WhatsApp miễn phí trên toàn thế giới - bạn trả tiền trực tiếp cho Meta mà không có phí tăng thêm từ chúng tôi."
+      },
+      "6": {
+        "question": "Điều gì xảy ra với dữ liệu của tôi nếu tôi hủy?",
+        "answer": "Bạn sở hữu dữ liệu của mình. Bạn có thể xuất tất cả lịch sử trò chuyện, liên hệ và nội dung cơ sở kiến thức của mình bất cứ lúc nào, ngay cả trên gói miễn phí. Chúng tôi tin vào tự do dữ liệu và tính minh bạch."
+      },
+      "7": {
+        "question": "Bạn có cung cấp giảm giá theo số lượng cho các doanh nghiệp lớn không?",
+        "answer": "Có! Gói Doanh nghiệp tùy chỉnh của chúng tôi cung cấp giá được thương lượng dựa trên khối lượng và mẫu sử dụng cụ thể của bạn. Liên hệ với đội ngũ bán hàng của chúng tôi để nhận báo giá tùy chỉnh, nhiều không gian làm việc, tuân thủ HIPAA và các giải pháp nhãn trắng."
+      },
+      "title": "Các câu hỏi thường gặp"
+    },
+    "cta": {
+      "title": "Sẵn sàng chuyển đổi",
+      "titleGradient": "Giao tiếp khách hàng?",
+      "description": "Tham gia cùng hàng ngàn doanh nghiệp sử dụng Seasalt.ai để mang lại trải nghiệm khách hàng đặc biệt",
+      "stats": {
+        "customers": "10.000+",
+        "customersLabel": "Khách hàng hài lòng",
+        "uptime": "99.9%",
+        "uptimeLabel": "SLA thời gian hoạt động",
+        "support": "24/7",
+        "supportLabel": "Hỗ trợ"
+      },
+      "primary": "🚀 ĐĂNG KÝ NGAY",
+      "secondary": "📞 Nói chuyện với bộ phận bán hàng",
+      "trustBadge1": "Không yêu cầu mã hóa",
+      "trustBadge2": "Thiết lập trong vòng chưa đầy 5 phút",
+      "trustBadge3": "Hủy bất cứ lúc nào",
+      "trustBadge4": "Có gói miễn phí thực sự",
+      "urgency": "⚡ Thời gian giới hạn: Nhận 2 tháng miễn phí trên các gói hàng năm + hỗ trợ giới thiệu ưu tiên!"
+    },
+    "billingToggle": {
+      "monthly": "Thanh toán hàng tháng",
+      "annually": "Thanh toán hàng năm",
+      "save20": "Tiết kiệm 20%"
+    },
+    "legacy": {
+      "liveAgent": {
+        "name": "Nhân viên trực tiếp",
+        "price": "0 đô la",
+        "period": "mãi mãi",
+        "tagline": "Hoàn toàn miễn phí, mãi mãi. Hoàn hảo để bắt đầu.",
+        "description": "Hoàn hảo để bắt đầu. Hợp nhất hộp thư đến của bạn với 1 nhân viên con người.",
+        "features": {
+          "0": "1 nhân viên con người",
+          "1": "Trò chuyện không giới hạn với nhân viên con người",
+          "2": "WhatsApp/Messenger/LINE/Trò chuyện web",
+          "3": "Tích hợp cơ bản (Shopify, v.v.)",
+          "4": "Hỗ trợ qua email"
+        },
+        "cta": "Đăng ký"
+      },
+      "professional": {
+        "name": "Chuyên nghiệp",
+        "priceAnnual": "40 đô la",
+        "priceMonthly": "50 đô la",
+        "period": "mỗi tháng",
+        "additionalPriceAnnual": "+ 20 đô la/tháng cho mỗi nhân viên bổ sung",
+        "additionalPriceMonthly": "+ 25 đô la/tháng cho mỗi nhân viên bổ sung",
+        "tagline": "Giải pháp hoàn chỉnh, hợp nhất cho các doanh nghiệp đang phát triển.",
+        "description": "Mọi thứ bạn cần để tự động hóa và mở rộng quy mô giao tiếp với khách hàng.",
+        "features": {
+          "0": "Mọi thứ trong Nhân viên trực tiếp",
+          "1": "Tự động hóa AI (Voicebot & Chatbot)",
+          "2": "Tất cả các kênh giao tiếp (bao gồm cuộc gọi điện thoại)",
+          "3": "Chiến dịch tiếp thị đi",
+          "4": "Tích hợp CRM (HubSpot, Salesforce)",
+          "5": "Phân tích & báo cáo nâng cao",
+          "6": "Hỗ trợ ưu tiên",
+          "7": "Có sẵn tuân thủ HIPAA"
+        },
+        "cta": "Bắt đầu"
+      },
+      "enterprise": {
+        "name": "Doanh nghiệp",
+        "price": "Hãy nói chuyện",
+        "period": "",
+        "tagline": "Dành cho các nhóm có nhu cầu tùy chỉnh.",
+        "description": "Dành cho các nhóm lớn hơn có nhu cầu cụ thể như tuân thủ nâng cao hoặc tích hợp tùy chỉnh.",
+        "features": {
+          "0": "Mọi thứ trong Chuyên nghiệp",
+          "1": "Tuân thủ HIPAA",
+          "2": "Tích hợp tùy chỉnh",
+          "3": "Quản lý tài khoản chuyên dụng",
+          "4": "Đào tạo AI tùy chỉnh",
+          "5": "Các tùy chọn nhãn trắng",
+          "6": "Đảm bảo SLA",
+          "7": "Các tùy chọn triển khai tại chỗ"
+        },
+        "cta": "Liên hệ bán hàng"
+      }
+    },
+    "billing": {
+      "monthly": "Hàng tháng",
+      "yearly": "Hàng năm",
+      "save": "Tiết kiệm 2 tháng"
+    }
+  }
+}

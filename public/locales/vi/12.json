@@ -1,0 +1,743 @@
+{
+  "seavoice": {
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "Đặt lịch hẹn & Quản lý",
+            "description": "Tự động hóa việc lên lịch hẹn với AI hiểu tình trạng sẵn có, sở thích và quy tắc kinh doanh. Giảm số lần không đến và hợp lý hóa quy trình đặt chỗ của bạn với các tương tác giọng nói thông minh.",
+            "cta": "Tự động hóa đặt lịch hẹn"
+          },
+          "features": {
+            "title": "Quản lý cuộc hẹn thông minh",
+            "subtitle": "Hệ thống đặt chỗ toàn diện xử lý các kịch bản lên lịch phức tạp",
+            "intelligentScheduling": {
+              "title": "Lên lịch thông minh",
+              "description": "Đặt lịch hẹn do AI hỗ trợ hiểu tình trạng sẵn có và sở thích.",
+              "benefit1": "Khả dụng thời gian thực",
+              "benefit2": "Giải quyết xung đột thông minh",
+              "benefit3": "Đối sánh sở thích"
+            },
+            "automatedReminders": {
+              "title": "Nhắc nhở tự động",
+              "description": "Giảm số lần không đến với nhắc nhở và xác nhận cuộc hẹn tự động.",
+              "benefit1": "Nhắc nhở SMS & thoại",
+              "benefit2": "Thời gian có thể tùy chỉnh",
+              "benefit3": "Theo dõi xác nhận"
+            },
+            "multiProviderSupport": {
+              "title": "Hỗ trợ đa nhà cung cấp",
+              "description": "Quản lý các cuộc hẹn trên nhiều nhà cung cấp, địa điểm và dịch vụ.",
+              "benefit1": "Khả dụng của nhà cung cấp",
+              "benefit2": "Quản lý địa điểm",
+              "benefit3": "Phân loại dịch vụ"
+            }
+          },
+          "capabilities": {
+            "title": "Giải pháp đặt chỗ hoàn chỉnh",
+            "subtitle": "Tự động xử lý mọi khía cạnh của quản lý cuộc hẹn",
+            "appointmentScheduling": {
+              "capability": "Lên lịch cuộc hẹn",
+              "description": "Đặt lịch hẹn mới dựa trên tình trạng sẵn có và sở thích",
+              "feature1": "Các khung giờ có sẵn",
+              "feature2": "Chọn nhà cung cấp",
+              "feature3": "Đối sánh loại dịch vụ"
+            },
+            "rescheduling": {
+              "capability": "Lên lịch lại",
+              "description": "Sửa đổi các cuộc hẹn hiện có với giải quyết xung đột tự động",
+              "feature1": "Phát hiện xung đột",
+              "feature2": "Đề xuất thay thế",
+              "feature3": "Cập nhật tự động"
+            },
+            "cancellationManagement": {
+              "capability": "Quản lý hủy bỏ",
+              "description": "Xử lý việc hủy bỏ và quản lý danh sách chờ một cách hiệu quả",
+              "feature1": "Chính sách hủy bỏ",
+              "feature2": "Tự động hóa danh sách chờ",
+              "feature3": "Xử lý hoàn tiền"
+            },
+            "reminderSystem": {
+              "capability": "Hệ thống nhắc nhở",
+              "description": "Nhắc nhở tự động để giảm số lần không đến và cải thiện sự tham dự",
+              "feature1": "Nhắc nhở đa kênh",
+              "feature2": "Thời gian có thể tùy chỉnh",
+              "feature3": "Yêu cầu xác nhận"
+            }
+          },
+          "industries": {
+            "title": "Ứng dụng ngành",
+            "subtitle": "Các giải pháp đặt chỗ tùy chỉnh cho các ngành và trường hợp sử dụng khác nhau",
+            "healthcare": {
+              "industry": "Chăm sóc sức khỏe",
+              "description": "Các cuộc hẹn y tế, tư vấn và thủ tục",
+              "benefit1": "Lên lịch bệnh nhân",
+              "benefit2": "Phối hợp nhà cung cấp",
+              "benefit3": "Xác minh bảo hiểm"
+            },
+            "beautyWellness": {
+              "industry": "Làm đẹp & Sức khỏe",
+              "description": "Các cuộc hẹn tại salon, dịch vụ spa và các buổi tập sức khỏe",
+              "benefit1": "Theo dõi thời lượng dịch vụ",
+              "benefit2": "Sở thích của nhà tạo mẫu",
+              "benefit3": "Đặt chỗ gói"
+            },
+            "professionalServices": {
+              "industry": "Dịch vụ chuyên nghiệp",
+              "description": "Tư vấn, cuộc họp và các cuộc hẹn dịch vụ",
+              "benefit1": "Đặt phòng họp",
+              "benefit2": "Khả dụng của tư vấn viên",
+              "benefit3": "Sở thích của khách hàng"
+            }
+          },
+          "reminderSection": {
+            "title": "Hệ thống nhắc nhở tự động",
+            "description": "Giảm đáng kể số lần không đến với các chiến dịch nhắc nhở thông minh tiếp cận khách hàng thông qua các kênh giao tiếp ưa thích của họ vào thời điểm tối ưu.",
+            "multiChannelReminders": {
+              "title": "Nhắc nhở đa kênh",
+              "description": "Cuộc gọi thoại, SMS và nhắc nhở email"
+            },
+            "optimalTiming": {
+              "title": "Thời gian tối ưu",
+              "description": "AI xác định thời điểm tốt nhất để gửi nhắc nhở"
+            },
+            "performanceTracking": {
+              "title": "Theo dõi hiệu suất",
+              "description": "Giám sát hiệu quả nhắc nhở và tối ưu hóa"
+            },
+            "reminderTimeline": {
+              "title": "Dòng thời gian nhắc nhở"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "Xác nhận ban đầu",
+                "description": "Xác nhận cuộc hẹn và chi tiết"
+              },
+              "dayBefore": {
+                "title": "Nhắc nhở một ngày trước",
+                "description": "Nhắc nhở cuối cùng với hướng dẫn chuẩn bị"
+              },
+              "lastMinute": {
+                "title": "Kiểm tra phút cuối",
+                "description": "Xác nhận cuối cùng và chỉ đường"
+              },
+              "sevenDays": "7 ngày",
+              "oneDay": "1 ngày",
+              "twoHours": "2 giờ"
+            }
+          },
+          "benefits": {
+            "title": "Kết quả hiệu suất đặt chỗ",
+            "subtitle": "Những cải thiện có thể đo lường được về hiệu quả quản lý cuộc hẹn",
+            "noShowReduction": {
+              "metric": "40%",
+              "description": "Giảm tỷ lệ không đến"
+            },
+            "availabilityWindow": {
+              "metric": "24/7",
+              "description": "Khả dụng đặt chỗ"
+            },
+            "bookingAccuracy": {
+              "metric": "85%",
+              "description": "Tỷ lệ chính xác đặt chỗ"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "Giảm khối lượng công việc hành chính"
+            }
+          },
+          "cta": {
+            "title": "Sẵn sàng tự động hóa đặt lịch hẹn?",
+            "description": "Hợp lý hóa việc lên lịch và giảm số lần không đến với quản lý cuộc hẹn thông minh",
+            "startFreeTrial": "Bắt đầu dùng thử miễn phí",
+            "scheduleDemo": "Lên lịch demo"
+          }
+        },
+        "mentalHealth": {
+          "hero": {
+            "title": "Đồng hành sức khỏe tâm thần bằng giọng nói",
+            "description": "Cung cấp hỗ trợ sức khỏe tâm thần 24/7 đầy cảm thông với AI lắng nghe, hiểu và phản hồi bằng sự đồng cảm. An toàn thu hẹp khoảng cách giữa khủng hoảng và chăm sóc chuyên nghiệp.",
+            "cta": "Tìm hiểu về AI sức khỏe tâm thần"
+          },
+          "features": {
+            "title": "Hỗ trợ AI đầy cảm thông",
+            "description": "AI tiên tiến được đào tạo về hỗ trợ sức khỏe tâm thần và can thiệp khủng hoảng",
+            "empathetic": {
+              "title": "Đồng hành AI đầy cảm thông",
+              "description": "Được đào tạo để cung cấp hỗ trợ đầy cảm thông, không phán xét với các phản ứng cảm xúc phù hợp.",
+              "benefits": {
+                "activeListening": "Lắng nghe chủ động",
+                "emotionalValidation": "Xác nhận cảm xúc",
+                "crisisRecognition": "Nhận dạng khủng hoảng"
+              }
+            },
+            "safe": {
+              "title": "An toàn & Bảo mật",
+              "description": "Nền tảng tuân thủ HIPAA đảm bảo quyền riêng tư và bảo mật hoàn toàn cho tất cả các tương tác.",
+              "benefits": {
+                "hipaaCompliance": "Tuân thủ HIPAA",
+                "encryptedConversations": "Các cuộc trò chuyện được mã hóa",
+                "anonymousOptions": "Các tùy chọn ẩn danh"
+              }
+            },
+            "availability": {
+              "title": "Khả dụng 24/7",
+              "description": "Luôn có sẵn khi ai đó cần nói chuyện, cung cấp hỗ trợ tức thì trong những khoảnh khắc khủng hoảng.",
+              "benefits": {
+                "roundTheClockAccess": "Truy cập suốt ngày đêm",
+                "immediateResponse": "Phản hồi tức thì",
+                "noWaitTimes": "Không có thời gian chờ"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "Khả năng hỗ trợ sức khỏe tâm thần",
+            "description": "Hỗ trợ toàn diện trên toàn bộ phổ chăm sóc sức khỏe tâm thần",
+            "screening": {
+              "title": "Sàng lọc sức khỏe tâm thần ban đầu",
+              "description": "Thực hiện các đánh giá sơ bộ bằng cách sử dụng các công cụ sàng lọc đã được xác thực",
+              "outcomes": {
+                "earlyIdentification": "Phát hiện sớm",
+                "riskAssessment": "Đánh giá rủi ro",
+                "appropriateReferrals": "Giới thiệu phù hợp"
+              }
+            },
+            "crisis": {
+              "title": "Can thiệp khủng hoảng",
+              "description": "Nhận dạng các tình huống khủng hoảng và cung cấp hỗ trợ hoặc leo thang ngay lập tức",
+              "outcomes": {
+                "crisisDetection": "Phát hiện khủng hoảng",
+                "deEscalationTechniques": "Các kỹ thuật giảm leo thang",
+                "emergencyProtocols": "Các giao thức khẩn cấp"
+              }
+            },
+            "navigation": {
+              "title": "Điều hướng tài nguyên",
+              "description": "Hướng dẫn người dùng đến các tài nguyên và dịch vụ sức khỏe tâm thần phù hợp",
+              "outcomes": {
+                "serviceMatching": "Đối sánh dịch vụ",
+                "appointmentScheduling": "Lên lịch cuộc hẹn",
+                "followUpSupport": "Hỗ trợ theo dõi"
+              }
+            },
+            "emotional": {
+              "title": "Hỗ trợ cảm xúc",
+              "description": "Cung cấp lắng nghe đầy cảm thông và xác nhận cảm xúc",
+              "outcomes": {
+                "reducedIsolation": "Giảm cô lập",
+                "emotionalRelief": "Giải tỏa cảm xúc",
+                "copingStrategies": "Các chiến lược đối phó"
+              }
+            }
+          },
+          "safety": {
+            "title": "Thiết kế ưu tiên an toàn",
+            "description": "AI sức khỏe tâm thần của chúng tôi được thiết kế với an toàn là ưu tiên hàng đầu, có tính năng phát hiện khủng hoảng nâng cao và các giao thức leo thang ngay lập tức để đảm bảo người dùng nhận được chăm sóc chuyên nghiệp phù hợp khi cần.",
+            "features": {
+              "title": "Tính năng an toàn"
+            },
+            "crisisDetection": {
+              "title": "Phát hiện khủng hoảng",
+              "description": "Các thuật toán nâng cao xác định các tình huống khủng hoảng"
+            },
+            "professionalHandoff": {
+              "title": "Chuyển giao chuyên nghiệp",
+              "description": "Chuyển đổi liền mạch sang các chuyên gia sức khỏe tâm thần con người"
+            },
+            "emergencyProtocols": {
+              "title": "Các giao thức khẩn cấp",
+              "description": "Kết nối tức thì với các đường dây nóng khủng hoảng khi cần"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "Phát hiện từ khóa khủng hoảng",
+            "suicideRiskAssessment": "Đánh giá rủi ro tự tử",
+            "automaticEscalationProtocols": "Các giao thức leo thang tự động",
+            "emergencyContactIntegration": "Tích hợp liên hệ khẩn cấp",
+            "professionalHandoffProcedures": "Các quy trình chuyển giao chuyên nghiệp",
+            "followUpScheduling": "Lên lịch theo dõi"
+          },
+          "benefits": {
+            "title": "Tác động sức khỏe tâm thần",
+            "description": "Những cải thiện có thể đo lường được về khả năng tiếp cận hỗ trợ sức khỏe tâm thần",
+            "alwaysAvailableSupport": "Hỗ trợ luôn có sẵn",
+            "crisisEscalationReduction": "Giảm leo thang khủng hoảng",
+            "userSatisfactionRate": "Tỷ lệ hài lòng của người dùng",
+            "helpSeekingBehaviorIncrease": "Tăng hành vi tìm kiếm sự giúp đỡ"
+          },
+          "cta": {
+            "title": "Sẵn sàng hỗ trợ sức khỏe tâm thần?",
+            "description": "Cung cấp hỗ trợ sức khỏe tâm thần 24/7 đầy cảm thông với AI thực sự quan tâm",
+            "learnMore": "Tìm hiểu thêm",
+            "contactSpecialists": "Liên hệ chuyên gia"
+          }
+        },
+        "callTransfer": {
+          "hero": {
+            "title": "Chuyển cuộc gọi thông minh trong giờ làm việc",
+            "description": "Cách mạng hóa định tuyến cuộc gọi của bạn với chuyển cuộc gọi thông minh do AI hỗ trợ hiểu ý định của người gọi và kết nối họ với người phù hợp ngay lập tức, giảm thời gian chờ và cải thiện sự hài lòng của khách hàng.",
+            "primaryCta": "Tối ưu hóa định tuyến cuộc gọi của bạn"
+          },
+          "features": {
+            "title": "Tính năng định tuyến cuộc gọi thông minh",
+            "description": "Công nghệ AI tiên tiến hiểu và định tuyến cuộc gọi với độ chính xác",
+            "intelligentRouting": {
+              "title": "Định tuyến thông minh",
+              "description": "AI phân tích ý định của người gọi và định tuyến đến bộ phận hoặc nhân viên phù hợp nhất.",
+              "benefits": {
+                "0": "Nhận dạng ý định",
+                "1": "Định tuyến dựa trên kỹ năng",
+                "2": "Xử lý ưu tiên"
+              }
+            },
+            "agentOptimization": {
+              "title": "Tối ưu hóa nhân viên",
+              "description": "Cân bằng khối lượng công việc giữa các nhân viên và đảm bảo cuộc gọi đến các chuyên gia có sẵn.",
+              "benefits": {
+                "0": "Cân bằng tải",
+                "1": "Kiểm tra khả dụng",
+                "2": "Đối sánh chuyên môn"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "Giảm thời gian chờ",
+              "description": "Giảm thiểu thời gian chờ của khách hàng với định tuyến và quản lý hàng đợi hiệu quả.",
+              "benefits": {
+                "0": "Tối ưu hóa hàng đợi",
+                "1": "Các tùy chọn gọi lại",
+                "2": "Cập nhật thời gian thực"
+              }
+            }
+          },
+          "routing": {
+            "title": "Định tuyến thông minh đang hoạt động",
+            "description": "Xem cách AI của chúng tôi xác định ý định và định tuyến cuộc gọi để có kết quả tối ưu"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "Yêu cầu thanh toán",
+              "action": "Định tuyến đến bộ phận thanh toán",
+              "result": "Giải quyết cuộc gọi đầu tiên 90%"
+            },
+            "technicalSupport": {
+              "trigger": "Hỗ trợ kỹ thuật",
+              "action": "Định tuyến đến đội ngũ kỹ thuật",
+              "result": "Giải quyết vấn đề 85%"
+            },
+            "salesInterest": {
+              "trigger": "Quan tâm bán hàng",
+              "action": "Định tuyến đến đội ngũ bán hàng",
+              "result": "Tỷ lệ chuyển đổi 40%"
+            },
+            "vipCustomer": {
+              "trigger": "Khách hàng VIP",
+              "action": "Hàng đợi ưu tiên",
+              "result": "Thời gian chờ < 30 giây"
+            }
+          },
+          "benefits": {
+            "title": "Tác động có thể đo lường được",
+            "description": "Kết quả thực tế từ việc triển khai chuyển cuộc gọi thông minh"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "Giảm thời gian chờ trung bình"
+            },
+            "resolution": {
+              "description": "Tỷ lệ giải quyết cuộc gọi đầu tiên"
+            },
+            "efficiency": {
+              "description": "Cải thiện hiệu quả của nhân viên"
+            },
+            "accuracy": {
+              "description": "Định tuyến chính xác đến bộ phận phù hợp"
+            }
+          },
+          "cta": {
+            "title": "Sẵn sàng tối ưu hóa định tuyến cuộc gọi của bạn?",
+            "description": "Giảm thời gian chờ và cải thiện sự hài lòng của khách hàng với chuyển cuộc gọi thông minh",
+            "primaryButton": "Bắt đầu dùng thử miễn phí",
+            "secondaryButton": "Xem demo"
+          }
+        },
+        "scamShield": {
+          "hero": {
+            "title": "Bảo vệ chống lừa đảo",
+            "subtitle": "Bảo vệ khách hàng của bạn khỏi các cuộc gọi lừa đảo và gian lận bằng cách phát hiện do AI hỗ trợ xác định và chặn các mối đe dọa theo thời gian thực, giữ an toàn cho cộng đồng của bạn khỏi gian lận tài chính.",
+            "cta": "Kích hoạt bảo vệ chống lừa đảo"
+          },
+          "features": {
+            "title": "Phát hiện lừa đảo nâng cao",
+            "subtitle": "Bảo vệ nhiều lớp chống lại các chiến thuật gian lận đang phát triển",
+            "realTimeDetection": {
+              "title": "Phát hiện lừa đảo thời gian thực",
+              "description": "Các thuật toán AI tiên tiến xác định và chặn các cuộc gọi gian lận trước khi chúng đến khách hàng của bạn.",
+              "benefit1": "Nhận dạng mẫu",
+              "benefit2": "Phân tích hành vi",
+              "benefit3": "Chặn tức thì"
+            },
+            "threatIntelligence": {
+              "title": "Thông tin tình báo về mối đe dọa",
+              "description": "Cơ sở dữ liệu được cập nhật liên tục về các mẫu lừa đảo đã biết và số điện thoại gian lận.",
+              "benefit1": "Dữ liệu mối đe dọa toàn cầu",
+              "benefit2": "Cập nhật thời gian thực",
+              "benefit3": "Học máy"
+            },
+            "customerProtection": {
+              "title": "Bảo vệ khách hàng",
+              "description": "Chủ động bảo vệ khách hàng khỏi gian lận tài chính và các nỗ lực đánh cắp danh tính.",
+              "benefit1": "Phòng chống gian lận",
+              "benefit2": "Bảo vệ danh tính",
+              "benefit3": "Bảo mật tài chính"
+            }
+          },
+          "scamTypes": {
+            "title": "Được bảo vệ chống lại tất cả các loại lừa đảo",
+            "subtitle": "Bảo vệ toàn diện chống lại các chiến thuật gian lận phổ biến nhất",
+            "phishing": {
+              "type": "Cuộc gọi lừa đảo",
+              "description": "Các nỗ lực đánh cắp thông tin cá nhân hoặc thông tin đăng nhập",
+              "detection": "Phân tích mẫu giọng nói và phát hiện từ khóa",
+              "action": "Chấm dứt cuộc gọi ngay lập tức và cảnh báo khách hàng"
+            },
+            "techSupport": {
+              "type": "Lừa đảo hỗ trợ kỹ thuật",
+              "description": "Hỗ trợ kỹ thuật giả mạo tuyên bố có vấn đề về máy tính",
+              "detection": "Nhận dạng mẫu kịch bản và xác minh ID người gọi",
+              "action": "Chặn cuộc gọi và cung cấp liên hệ hỗ trợ hợp pháp"
+            },
+            "financialFraud": {
+              "type": "Gian lận tài chính",
+              "description": "Mạo danh ngân hàng hoặc tổ chức tài chính",
+              "detection": "Xác minh tổ chức và xác thực giọng nói",
+              "action": "Chấm dứt cuộc gọi và thông báo cho tổ chức tài chính thực"
+            },
+            "romance": {
+              "type": "Lừa đảo tình cảm",
+              "description": "Xây dựng mối quan hệ giả mạo để chiếm đoạt tiền",
+              "detection": "Phân tích mẫu cuộc trò chuyện và phát hiện thao túng cảm xúc",
+              "action": "Cảnh báo và cung cấp tài nguyên"
+            },
+            "detectionMethod": "Phương pháp phát hiện:",
+            "protectionAction": "Hành động bảo vệ:",
+            "detectionMethodLabel": "Phương pháp phát hiện",
+            "protectionActionLabel": "Hành động bảo vệ"
+          },
+          "protection": {
+            "title": "Hệ thống bảo vệ đa lớp",
+            "subtitle": "Lá chắn chống lừa đảo toàn diện của chúng tôi sử dụng nhiều phương pháp phát hiện hoạt động cùng nhau để cung cấp bảo vệ tối đa trong khi đảm bảo các cuộc gọi hợp pháp luôn được thông qua.",
+            "realTimeAnalysis": {
+              "title": "Phân tích thời gian thực",
+              "description": "Đánh giá tức thì mọi cuộc gọi đến"
+            },
+            "continuousLearning": {
+              "title": "Học hỏi liên tục",
+              "description": "AI cải thiện khả năng phát hiện với mỗi vụ lừa đảo bị chặn"
+            },
+            "zeroFalsePositives": {
+              "title": "Không có dương tính giả",
+              "description": "Các cuộc gọi hợp pháp không bao giờ bị chặn"
+            },
+            "layersTitle": "Các lớp bảo vệ",
+            "layer1": "Xác minh ID người gọi",
+            "layer2": "Phân tích mẫu giọng nói",
+            "layer3": "Các thuật toán phát hiện kịch bản",
+            "layer4": "Phát hiện bất thường hành vi",
+            "layer5": "Thông tin tình báo về mối đe dọa thời gian thực",
+            "layer6": "Cảnh báo giáo dục khách hàng"
+          },
+          "benefits": {
+            "title": "Kết quả bảo vệ",
+            "subtitle": "Hiệu quả đã được chứng minh trong việc ngăn chặn gian lận và bảo vệ khách hàng",
+            "accuracy": {
+              "metric": "95%",
+              "description": "Độ chính xác phát hiện cuộc gọi lừa đảo"
+            },
+            "reduction": {
+              "metric": "80%",
+              "description": "Giảm các nỗ lực gian lận thành công"
+            },
+            "coverage": {
+              "metric": "24/7",
+              "description": "Phạm vi bảo vệ liên tục"
+            },
+            "preservation": {
+              "metric": "99.9%",
+              "description": "Tỷ lệ bảo toàn cuộc gọi hợp pháp"
+            }
+          },
+          "cta": {
+            "title": "Sẵn sàng bảo vệ khách hàng của bạn?",
+            "subtitle": "Ngăn chặn những kẻ lừa đảo bằng cách phát hiện và bảo vệ gian lận do AI hỗ trợ",
+            "activateProtection": "Kích hoạt bảo vệ",
+            "learnMore": "Tìm hiểu thêm",
+            "primaryButton": "Kích hoạt bảo vệ",
+            "secondaryButton": "Tìm hiểu thêm"
+          },
+          "protectionSystem": {
+            "title": "Hệ thống bảo vệ đa lớp",
+            "subtitle": "Lá chắn chống lừa đảo toàn diện của chúng tôi sử dụng nhiều phương pháp phát hiện hoạt động cùng nhau để cung cấp bảo vệ tối đa trong khi đảm bảo các cuộc gọi hợp pháp luôn được thông qua.",
+            "realTimeAnalysis": {
+              "title": "Phân tích thời gian thực",
+              "description": "Đánh giá tức thì mọi cuộc gọi đến"
+            },
+            "continuousLearning": {
+              "title": "Học hỏi liên tục",
+              "description": "AI cải thiện khả năng phát hiện với mỗi vụ lừa đảo bị chặn"
+            },
+            "zeroFalsePositives": {
+              "title": "Không có dương tính giả",
+              "description": "Các cuộc gọi hợp pháp không bao giờ bị chặn"
+            }
+          },
+          "results": {
+            "title": "Kết quả bảo vệ",
+            "subtitle": "Hiệu quả đã được chứng minh trong việc ngăn chặn gian lận và bảo vệ khách hàng"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "Xử lý thanh toán an toàn",
+            "description": "Cho phép xử lý thanh toán an toàn, tuân thủ PCI thông qua các tương tác thoại. Cho phép khách hàng thanh toán an toàn qua điện thoại với bảo vệ gian lận nâng cao và xử lý giao dịch tức thì.",
+            "cta": "Kích hoạt thanh toán an toàn"
+          },
+          "features": {
+            "title": "Tính năng thanh toán bằng giọng nói an toàn",
+            "subtitle": "Bảo mật cấp doanh nghiệp đáp ứng trải nghiệm khách hàng liền mạch",
+            "securePayment": {
+              "title": "Xử lý thanh toán an toàn",
+              "description": "Xử lý thanh toán an toàn qua điện thoại với công nghệ thoại tuân thủ PCI.",
+              "benefit1": "Tuân thủ PCI DSS",
+              "benefit2": "Giao dịch được mã hóa",
+              "benefit3": "Nhiều phương thức thanh toán"
+            },
+            "fraudProtection": {
+              "title": "Bảo vệ gian lận",
+              "description": "Phát hiện và ngăn chặn gian lận nâng cao để bảo vệ cả doanh nghiệp và khách hàng.",
+              "benefit1": "Phát hiện gian lận thời gian thực",
+              "benefit2": "Đánh giá rủi ro",
+              "benefit3": "Xác thực an toàn"
+            },
+            "instantProcessing": {
+              "title": "Xử lý tức thì",
+              "description": "Xử lý thanh toán ngay lập tức với ủy quyền và xác nhận thời gian thực.",
+              "benefit1": "Ủy quyền thời gian thực",
+              "benefit2": "Xác nhận tức thì",
+              "benefit3": "Biên nhận tức thì"
+            }
+          },
+          "paymentMethods": {
+            "title": "Các tùy chọn thanh toán toàn diện",
+            "subtitle": "Chấp nhận tất cả các phương thức thanh toán chính với xử lý thoại an toàn",
+            "creditCards": {
+              "method": "Thẻ tín dụng",
+              "description": "Chấp nhận tất cả các thẻ tín dụng chính với xử lý thoại an toàn",
+              "feature1": "Visa, Mastercard, Amex",
+              "feature2": "Xác minh CVV",
+              "feature3": "Xác thực ngày hết hạn"
+            },
+            "debitCards": {
+              "method": "Thẻ ghi nợ",
+              "description": "Xử lý thanh toán bằng thẻ ghi nợ với xác minh PIN",
+              "feature1": "Nhập PIN qua giọng nói",
+              "feature2": "Xác minh ngân hàng",
+              "feature3": "Khấu trừ tức thì"
+            },
+            "bankTransfers": {
+              "method": "Chuyển khoản ngân hàng",
+              "description": "Chuyển khoản ngân hàng trực tiếp và thanh toán ACH",
+              "feature1": "Xác minh tài khoản",
+              "feature2": "Xác thực số định tuyến",
+              "feature3": "Xử lý ACH"
+            },
+            "digitalWallets": {
+              "method": "Ví điện tử",
+              "description": "Hỗ trợ các nền tảng thanh toán kỹ thuật số phổ biến",
+              "feature1": "Apple Pay",
+              "feature2": "Google Pay",
+              "feature3": "Tích hợp PayPal"
+            }
+          },
+          "security": {
+            "title": "Bảo mật cấp ngân hàng",
+            "description": "Hệ thống xử lý thanh toán của chúng tôi đáp ứng các tiêu chuẩn bảo mật cao nhất trong ngành, đảm bảo mọi giao dịch được bảo vệ bằng nhiều lớp mã hóa và phòng chống gian lận.",
+            "endToEndEncryption": {
+              "title": "Mã hóa đầu cuối",
+              "description": "Tất cả dữ liệu thanh toán được mã hóa trong quá trình truyền và khi không hoạt động"
+            },
+            "pciCompliance": {
+              "title": "Tuân thủ PCI DSS",
+              "description": "Cơ sở hạ tầng được chứng nhận PCI DSS cấp 1"
+            },
+            "realTimeMonitoring": {
+              "title": "Giám sát thời gian thực",
+              "description": "Phát hiện và ngăn chặn gian lận liên tục"
+            },
+            "featuresTitle": "Tính năng bảo mật",
+            "feature1": "Mã hóa đầu cuối",
+            "feature2": "Tuân thủ PCI DSS cấp 1",
+            "feature3": "Mã hóa dữ liệu thẻ",
+            "feature4": "Xác thực đa yếu tố",
+            "feature5": "Giám sát gian lận thời gian thực",
+            "feature6": "Nhận dạng giọng nói an toàn"
+          },
+          "benefits": {
+            "title": "Hiệu suất xử lý thanh toán",
+            "subtitle": "Độ tin cậy và các chỉ số bảo mật hàng đầu ngành",
+            "uptime": {
+              "metric": "99.9%",
+              "description": "Thời gian hoạt động xử lý thanh toán"
+            },
+            "transactionTime": {
+              "metric": "< 3 giây",
+              "description": "Thời gian giao dịch trung bình"
+            },
+            "compliance": {
+              "metric": "100%",
+              "description": "Tuân thủ PCI DSS"
+            },
+            "fraudRate": {
+              "metric": "0.1%",
+              "description": "Tỷ lệ gian lận với bảo vệ AI"
+            }
+          },
+          "cta": {
+            "title": "Sẵn sàng cho thanh toán bằng giọng nói an toàn?",
+            "subtitle": "Cho phép xử lý thanh toán tuân thủ PCI với bảo vệ gian lận nâng cao",
+            "primaryButton": "Bắt đầu xử lý an toàn",
+            "secondaryButton": "Tổng quan bảo mật"
+          }
+        }
+      },
+      "mentalHealth": {
+        "hero": {
+          "title": "Đồng hành sức khỏe tâm thần bằng giọng nói",
+          "subtitle": "Cung cấp hỗ trợ sức khỏe tâm thần 24/7 đầy cảm thông với AI lắng nghe, hiểu và phản hồi bằng sự đồng cảm. An toàn thu hẹp khoảng cách giữa khủng hoảng và chăm sóc chuyên nghiệp.",
+          "cta": "Tìm hiểu về AI sức khỏe tâm thần"
+        },
+        "features": {
+          "title": "Hỗ trợ AI đầy cảm thông",
+          "subtitle": "AI tiên tiến được đào tạo về hỗ trợ sức khỏe tâm thần và can thiệp khủng hoảng",
+          "empathetic": {
+            "title": "Đồng hành AI đầy cảm thông",
+            "description": "Được đào tạo để cung cấp hỗ trợ đầy cảm thông, không phán xét với các phản ứng cảm xúc phù hợp.",
+            "benefits": {
+              "activeListing": "Lắng nghe chủ động",
+              "emotionalValidation": "Xác nhận cảm xúc",
+              "crisisRecognition": "Nhận dạng khủng hoảng"
+            }
+          },
+          "safe": {
+            "title": "An toàn & Bảo mật",
+            "description": "Nền tảng tuân thủ HIPAA đảm bảo quyền riêng tư và bảo mật hoàn toàn cho tất cả các tương tác.",
+            "benefits": {
+              "hipaaCompliance": "Tuân thủ HIPAA",
+              "encryptedConversations": "Các cuộc trò chuyện được mã hóa",
+              "anonymousOptions": "Các tùy chọn ẩn danh"
+            }
+          },
+          "available": {
+            "title": "Khả dụng 24/7",
+            "description": "Luôn có sẵn khi ai đó cần nói chuyện, cung cấp hỗ trợ tức thì trong những khoảnh khắc khủng hoảng.",
+            "benefits": {
+              "roundTheClockAccess": "Truy cập suốt ngày đêm",
+              "immediateResponse": "Phản hồi tức thì",
+              "noWaitTimes": "Không có thời gian chờ"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "Khả năng hỗ trợ sức khỏe tâm thần",
+          "subtitle": "Hỗ trợ toàn diện trên toàn bộ phổ chăm sóc sức khỏe tâm thần",
+          "screening": {
+            "title": "Sàng lọc sức khỏe tâm thần ban đầu",
+            "description": "Thực hiện các đánh giá sơ bộ bằng cách sử dụng các công cụ sàng lọc đã được xác thực",
+            "outcomes": {
+              "earlyIdentification": "Phát hiện sớm",
+              "riskAssessment": "Đánh giá rủi ro",
+              "appropriateReferrals": "Giới thiệu phù hợp"
+            }
+          },
+          "crisis": {
+            "title": "Can thiệp khủng hoảng",
+            "description": "Nhận dạng các tình huống khủng hoảng và cung cấp hỗ trợ hoặc leo thang ngay lập tức",
+            "outcomes": {
+              "crisisDetection": "Phát hiện khủng hoảng",
+              "deEscalationTechniques": "Các kỹ thuật giảm leo thang",
+              "emergencyProtocols": "Các giao thức khẩn cấp"
+            }
+          },
+          "navigation": {
+            "title": "Điều hướng tài nguyên",
+            "description": "Hướng dẫn người dùng đến các tài nguyên và dịch vụ sức khỏe tâm thần phù hợp",
+            "outcomes": {
+              "serviceMatching": "Đối sánh dịch vụ",
+              "appointmentScheduling": "Lên lịch cuộc hẹn",
+              "followUpSupport": "Hỗ trợ theo dõi"
+            }
+          },
+          "emotional": {
+            "title": "Hỗ trợ cảm xúc",
+            "description": "Cung cấp lắng nghe đầy cảm thông và xác nhận cảm xúc",
+            "outcomes": {
+              "reducedIsolation": "Giảm cô lập",
+              "emotionalRelief": "Giải tỏa cảm xúc",
+              "copingStrategies": "Các chiến lược đối phó"
+            }
+          }
+        },
+        "safety": {
+          "title": "Thiết kế ưu tiên an toàn",
+          "description": "AI sức khỏe tâm thần của chúng tôi được thiết kế với an toàn là ưu tiên hàng đầu, có tính năng phát hiện khủng hoảng nâng cao và các giao thức leo thang ngay lập tức để đảm bảo người dùng nhận được chăm sóc chuyên nghiệp phù hợp khi cần.",
+          "crisisDetection": {
+            "title": "Phát hiện khủng hoảng",
+            "description": "Các thuật toán nâng cao xác định các tình huống khủng hoảng"
+          },
+          "professionalHandoff": {
+            "title": "Chuyển giao chuyên nghiệp",
+            "description": "Chuyển đổi liền mạch sang các chuyên gia sức khỏe tâm thần con người"
+          },
+          "emergencyProtocols": {
+            "title": "Các giao thức khẩn cấp",
+            "description": "Kết nối tức thì với các đường dây nóng khủng hoảng khi cần"
+          },
+          "features": {
+            "title": "Tính năng an toàn",
+            "crisisKeywordDetection": "Phát hiện từ khóa khủng hoảng",
+            "suicideRiskAssessment": "Đánh giá rủi ro tự tử",
+            "automaticEscalationProtocols": "Các giao thức leo thang tự động",
+            "emergencyContactIntegration": "Tích hợp liên hệ khẩn cấp",
+            "professionalHandoffProcedures": "Các quy trình chuyển giao chuyên nghiệp",
+            "followUpScheduling": "Lên lịch theo dõi"
+          }
+        },
+        "impact": {
+          "title": "Tác động sức khỏe tâm thần",
+          "subtitle": "Những cải thiện có thể đo lường được về khả năng tiếp cận hỗ trợ sức khỏe tâm thần",
+          "availability": {
+            "metric": "24/7",
+            "description": "Hỗ trợ luôn có sẵn"
+          },
+          "crisisReduction": {
+            "metric": "60%",
+            "description": "Giảm leo thang khủng hoảng"
+          },
+          "satisfaction": {
+            "metric": "85%",
+            "description": "Tỷ lệ hài lòng của người dùng"
+          },
+          "helpSeeking": {
+            "metric": "40%",
+            "description": "Tăng hành vi tìm kiếm sự giúp đỡ"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng hỗ trợ sức khỏe tâm thần?",
+          "subtitle": "Cung cấp hỗ trợ sức khỏe tâm thần 24/7 đầy cảm thông với AI thực sự quan tâm",
+          "learnMore": "Tìm hiểu thêm",
+          "contactSpecialists": "Liên hệ chuyên gia"
+        }
+      }
+    }
+  }
+}

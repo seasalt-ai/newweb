@@ -1,0 +1,1938 @@
+{
+  "compare": {
+    "aircallAlternative": {
+      "seo": {
+        "title": "Thay thế Aircall - Giao tiếp hợp nhất Seasalt.ai",
+        "description": "Thoát khỏi các khoản phí bổ sung và số lượng người dùng tối thiểu của Aircall. Xem tại sao các nhóm đang phát triển chọn nền tảng giao tiếp tất cả trong một của Seasalt.ai với giá cả minh bạch."
+      },
+      "nav": {
+        "backToOverview": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": {
+          "part1": "Mệt mỏi với các khoản phí bổ sung và số lượng người dùng tối thiểu?",
+          "part2": "Xem tại sao các nhóm đang phát triển chọn Seasalt.ai thay vì Aircall"
+        },
+        "subtitle": "Aircall nổi tiếng với giao diện thân thiện với người dùng nhưng lại đẩy các nhóm nhỏ vào thế khó với yêu cầu tối thiểu 3 người dùng và mô hình định giá khóa các tính năng quan trọng như AI, phân tích nâng cao và thậm chí tích hợp WhatsApp đằng sau các tiện ích bổ sung hàng tháng đắt đỏ. Seasalt.ai cung cấp một nền tảng thực sự tất cả trong một với giá cả minh bạch."
+      },
+      "comparison": {
+        "title": "So sánh tính năng theo tính năng",
+        "subtitle": "Xem cách Seasalt.ai cung cấp tất cả các tính năng bạn cần mà không có phí bổ sung và sự phức tạp",
+        "table": {
+          "headers": {
+            "feature": "Tính năng",
+            "seasalt": "Seasalt.ai",
+            "aircall": "Aircall"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "Mô hình định giá",
+            "seasalt": "Phí đơn giản theo người dùng",
+            "competitor": "Theo giấy phép + nhiều tiện ích bổ sung bắt buộc"
+          },
+          "userMinimum": {
+            "name": "Số lượng người dùng tối thiểu",
+            "seasalt": "1",
+            "competitor": "3"
+          },
+          "unifiedComm": {
+            "name": "Thoại & WhatsApp hợp nhất",
+            "seasalt": "Có, bao gồm nguyên bản",
+            "competitor": "Không, yêu cầu tiện ích bổ sung 10 đô la/tháng"
+          },
+          "aiVoiceAgent": {
+            "name": "Nhân viên giọng nói AI",
+            "seasalt": "Có, bao gồm (dựa trên mức sử dụng)",
+            "competitor": "Không, yêu cầu tiện ích bổ sung 0,99 đô la/phút"
+          },
+          "aiCallSummaries": {
+            "name": "Tóm tắt cuộc gọi AI",
+            "seasalt": "Có, bao gồm",
+            "competitor": "Không, yêu cầu tiện ích bổ sung 9 đô la/tháng"
+          },
+          "advancedAnalytics": {
+            "name": "Phân tích nâng cao",
+            "seasalt": "Có, bao gồm",
+            "competitor": "Không, yêu cầu tiện ích bổ sung 15 đô la/tháng"
+          },
+          "callQuality": {
+            "name": "Chất lượng cuộc gọi được báo cáo",
+            "seasalt": "Giọng nói chất lượng cao",
+            "competitor": "Người dùng báo cáo chất lượng không nhất quán và cuộc gọi bị rớt"
+          },
+          "bestFor": {
+            "name": "Tốt nhất cho",
+            "seasalt": "Các SME cần một giải pháp tất cả trong một giá cả phải chăng, thực sự",
+            "competitor": "Các nhóm bán hàng/hỗ trợ có thể đáp ứng số lượng người dùng tối thiểu và chi trả nhiều tiện ích bổ sung"
+          }
+        }
+      },
+      "costComparison": {
+        "title": "So sánh chi phí thực tế",
+        "subtitle": "Xem cách các khoản phí bổ sung của Aircall nhanh chóng tăng lên so với giá cả minh bạch của Seasalt.ai",
+        "aircall": {
+          "title": "Kiểm tra thực tế Aircall",
+          "basePlan": "Gói cơ bản (mỗi người dùng)",
+          "basePlanCost": "30 đô la/tháng",
+          "aiVoiceAddon": "Tiện ích bổ sung giọng nói AI",
+          "aiVoiceAddonCost": "+9 đô la/tháng",
+          "whatsappIntegration": "Tích hợp WhatsApp",
+          "whatsappIntegrationCost": "+10 đô la/tháng",
+          "advancedAnalytics": "Phân tích nâng cao",
+          "advancedAnalyticsCost": "+15 đô la/tháng",
+          "totalPerUser": "Tổng cộng mỗi người dùng",
+          "totalPerUserCost": "64 đô la/tháng",
+          "minimumNote": "Cộng với tối thiểu 3 người dùng = tối thiểu 192 đô la/tháng"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "admin": "Quản trị viên (người dùng đầu tiên)",
+          "adminCost": "50 đô la/tháng",
+          "additionalAgents": "Các nhân viên bổ sung",
+          "additionalAgentsCost": "25 đô la/tháng mỗi người",
+          "aiVoiceIncluded": "Bao gồm giọng nói AI + trò chuyện",
+          "aiVoiceIncludedCost": "0 đô la",
+          "allChannelsIncluded": "Bao gồm tất cả các kênh",
+          "allChannelsIncludedCost": "0 đô la",
+          "analyticsIncluded": "Bao gồm phân tích",
+          "analyticsIncludedCost": "0 đô la",
+          "total": "Tổng cộng (3 người dùng)",
+          "totalCost": "100 đô la/tháng",
+          "savings": "Tiết kiệm 92 đô la/tháng so với Aircall"
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng thoát khỏi các khoản phí bổ sung?",
+        "subtitle": "Tham gia cùng hàng ngàn doanh nghiệp đang phát triển đã chuyển từ Aircall để có được tất cả các tính năng họ cần mà không có sự phức tạp và chi phí ẩn.",
+        "signUp": "Đăng ký",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "ringcentral": {
+      "seo": {
+        "title": "Thay thế RingCentral - Trung tâm liên hệ hợp nhất so với các giải pháp phân mảnh | Seasalt.ai",
+        "description": "Khám phá lý do tại sao trung tâm liên hệ thực sự hợp nhất của Seasalt.ai vượt trội hơn cách tiếp cận UCaaS và CCaaS phân mảnh của RingCentral. So sánh giá cả, tính năng và kiến trúc.",
+        "canonicalPath": "/compare/ringcentral-alternative"
+      },
+      "navigation": {
+        "backToOverview": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": {
+          "part1": "Tìm kiếm một trung tâm liên hệ tất cả trong một thực sự?",
+          "part2": "Xem tại sao nền tảng \"hợp nhất\" của RingCentral lại thiếu sót"
+        },
+        "subtitle": "RingCentral là một gã khổng lồ trong lĩnh vực truyền thông, nhưng giải pháp của họ bị phân mảnh. Sản phẩm chính của họ là hệ thống điện thoại doanh nghiệp (UCaaS), trong khi trung tâm liên hệ của họ (RingCX) là một sản phẩm cao cấp riêng biệt bắt đầu từ 65 đô la/nhân viên/tháng. Điều này tạo ra sự phức tạp và cô lập. Seasalt.ai được xây dựng từ đầu như một trung tâm liên hệ hợp nhất duy nhất."
+      },
+      "comparison": {
+        "title": "Kiến trúc hợp nhất so với phân mảnh",
+        "subtitle": "Xem tại sao một nền tảng thực sự hợp nhất đánh bại các sản phẩm riêng biệt được ghép nối với nhau",
+        "table": {
+          "headers": {
+            "feature": "Tính năng",
+            "seasalt": "Seasalt.ai",
+            "ringcentral": "RingCentral"
+          }
+        },
+        "features": {
+          "platformArchitecture": {
+            "name": "Kiến trúc nền tảng",
+            "seasalt": "Trung tâm liên hệ hợp nhất thực sự",
+            "ringcentral": "Các sản phẩm UCaaS và CCaaS riêng biệt"
+          },
+          "startingPrice": {
+            "name": "Giá khởi điểm (Trung tâm liên hệ)",
+            "seasalt": "25 đô la/nhân viên/tháng",
+            "ringcentral": "65 đô la/nhân viên/tháng (RingCX)"
+          },
+          "unifiedVoiceDigital": {
+            "name": "Thoại & Kỹ thuật số hợp nhất",
+            "seasalt": "Có, bao gồm nguyên bản",
+            "ringcentral": "Không, không được hợp nhất nguyên bản trong một hộp thư đến"
+          },
+          "integrationQuality": {
+            "name": "Chất lượng tích hợp",
+            "seasalt": "Tích hợp đáng tin cậy, hiện đại",
+            "ringcentral": "Người dùng báo cáo tích hợp lỗi và các vấn đề ghi nhật ký"
+          },
+          "easeOfUse": {
+            "name": "Dễ sử dụng",
+            "seasalt": "Trực quan cho các nhóm nhỏ",
+            "ringcentral": "Người dùng báo cáo thiết lập có thể \"gây chán nản\""
+          },
+          "bestFor": {
+            "name": "Tốt nhất cho",
+            "seasalt": "Các SME muốn một trung tâm liên hệ đơn giản, mạnh mẽ và thực sự hợp nhất",
+            "ringcentral": "Các công ty lớn cần một nền tảng UCaaS rộng lớn và sẵn sàng trả thêm tiền cho một giải pháp trung tâm liên hệ riêng biệt"
+          }
+        }
+      },
+      "architecture": {
+        "title": "Kiến trúc quan trọng",
+        "subtitle": "Tại sao hợp nhất đánh bại phân mảnh khi nói đến giao tiếp khách hàng",
+        "seasalt": {
+          "title": "Seasalt.ai: Nền tảng hợp nhất",
+          "features": {
+            "singleLogin": "Đăng nhập một lần cho tất cả các kênh",
+            "unifiedHistory": "Lịch sử trò chuyện hợp nhất",
+            "seamlessSwitching": "Chuyển đổi kênh liền mạch",
+            "oneBilling": "Một hóa đơn, một liên hệ hỗ trợ",
+            "builtInIntegrations": "Tích hợp tích hợp hoạt động"
+          }
+        },
+        "ringcentral": {
+          "title": "RingCentral: Các sản phẩm riêng biệt",
+          "issues": {
+            "multipleLogins": "Nhiều đăng nhập và giao diện",
+            "fragmentedData": "Dữ liệu cuộc trò chuyện phân mảnh",
+            "complexIntegration": "Yêu cầu tích hợp phức tạp",
+            "separateBilling": "Thanh toán riêng cho UCaaS và CCaaS",
+            "buggyIntegrations": "Người dùng báo cáo tích hợp lỗi"
+          }
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng cho sự hợp nhất thực sự?",
+        "subtitle": "Ngừng xoay sở với các hệ thống riêng biệt. Có một trung tâm liên hệ thực sự hợp nhất hoạt động liền mạch ngay từ ngày đầu.",
+        "signUp": "Đăng ký",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "genesysAlternative": {
+      "seo": {
+        "title": "Thay thế Genesys - Giải pháp trung tâm liên hệ tập trung vào SME",
+        "description": "Các tính năng cấp doanh nghiệp mà không có sự phức tạp của doanh nghiệp. So sánh Seasalt.ai với Genesys Cloud CX cho các doanh nghiệp nhỏ và vừa."
+      },
+      "nav": {
+        "backToOverview": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title1": "Sức mạnh doanh nghiệp,",
+        "title2": "Không có giá & sự phức tạp của doanh nghiệp",
+        "subtitle": "Genesys là một nền tảng mạnh mẽ, cấp doanh nghiệp được thiết kế cho các tập đoàn lớn với đội ngũ IT chuyên dụng và ngân sách lớn. Các mô hình định giá của họ phản ánh điều này, với chi phí cao cho mỗi người dùng, cam kết tối thiểu hàng tháng đáng kể (tối thiểu ~2.000 đô la/tháng) và thanh toán dựa trên token phức tạp cho các tính năng AI. Đối với một SME, điều này không chỉ không thể chi trả—mà còn không thể quản lý."
+      },
+      "comparison": {
+        "title": "Tập trung vào SME so với chỉ dành cho doanh nghiệp",
+        "subtitle": "Xem tại sao Seasalt.ai cung cấp sức mạnh bạn cần mà không có sự phức tạp bạn không cần"
+      },
+      "table": {
+        "headers": {
+          "feature": "Tính năng",
+          "seasalt": "Seasalt.ai",
+          "genesys": "Genesys Cloud CX"
+        }
+      },
+      "features": {
+        "targetCustomer": {
+          "name": "Khách hàng mục tiêu",
+          "seasalt": "Doanh nghiệp nhỏ và vừa (SME)",
+          "competitor": "Các doanh nghiệp lớn"
+        },
+        "startingPrice": {
+          "name": "Giá khởi điểm",
+          "seasalt": "25 đô la/nhân viên/tháng",
+          "competitor": "75 đô la/người dùng/tháng"
+        },
+        "minimumCommitment": {
+          "name": "Cam kết tối thiểu",
+          "seasalt": "Không",
+          "competitor": "Cao (tối thiểu ~2.000 đô la/tháng)"
+        },
+        "pricingComplexity": {
+          "name": "Độ phức tạp của giá",
+          "seasalt": "Đơn giản & Minh bạch",
+          "competitor": "Cực kỳ phức tạp. Các gói theo cấp, token sử dụng, tiện ích bổ sung, dựa trên báo giá"
+        },
+        "easeOfSetup": {
+          "name": "Dễ thiết lập",
+          "seasalt": "Vài phút để hoạt động",
+          "competitor": "Yêu cầu tài nguyên triển khai đáng kể"
+        },
+        "bestFor": {
+          "name": "Tốt nhất cho",
+          "seasalt": "Các SME cần các tính năng mạnh mẽ với sự đơn giản và giá cả phải chăng",
+          "competitor": "Các tập đoàn toàn cầu với hàng trăm nhân viên và đội ngũ quản lý chuyên dụng"
+        }
+      },
+      "costReality": {
+        "title": "Chi phí thực tế của các giải pháp doanh nghiệp",
+        "subtitle": "Tại sao giá doanh nghiệp không có ý nghĩa đối với các doanh nghiệp đang phát triển"
+      },
+      "seasaltBenefits": {
+        "title": "Seasalt.ai: Được xây dựng cho SME",
+        "noMinimum": {
+          "title": "Không có cam kết tối thiểu",
+          "description": "Bắt đầu với 1 người dùng, mở rộng quy mô khi bạn phát triển"
+        },
+        "simplePricing": {
+          "title": "Giá cả đơn giản",
+          "description": "25 đô la/nhân viên/tháng, bao gồm tất cả các tính năng"
+        },
+        "quickSetup": {
+          "title": "Thiết lập nhanh chóng",
+          "description": "Hoạt động trong vài phút, không phải vài tháng"
+        },
+        "selfService": {
+          "title": "Tự phục vụ",
+          "description": "Không yêu cầu đội ngũ triển khai"
+        }
+      },
+      "genesysLimitations": {
+        "title": "Genesys: Tập trung vào doanh nghiệp",
+        "highMinimums": {
+          "title": "Mức tối thiểu cao",
+          "description": "Cam kết tối thiểu ~2.000 đô la/tháng"
+        },
+        "complexPricing": {
+          "title": "Giá cả phức tạp",
+          "description": "Các gói theo cấp, token sử dụng, dựa trên báo giá"
+        },
+        "longImplementation": {
+          "title": "Triển khai dài",
+          "description": "Yêu cầu tài nguyên triển khai chuyên dụng"
+        },
+        "enterpriseSales": {
+          "title": "Bán hàng doanh nghiệp",
+          "description": "Phải liên hệ bán hàng để biết giá"
+        }
+      },
+      "cta": {
+        "title": "Nhận các tính năng doanh nghiệp với giá SME",
+        "subtitle": "Tại sao phải trả giá doanh nghiệp khi bạn có thể có các tính năng bạn cần với một phần nhỏ chi phí?",
+        "signUp": "Đăng ký",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "five9Alternative": {
+      "seo": {
+        "title": "Thay thế Five9 - Giải pháp trung tâm liên hệ giá cả phải chăng | Seasalt.ai",
+        "description": "Tìm kiếm một giải pháp thay thế Five9? Seasalt.ai cung cấp các tính năng trung tâm liên hệ đa kênh mạnh mẽ với giá 25 đô la/nhân viên/tháng so với 119 đô la/người dùng/tháng của Five9. Hoàn hảo cho các SME."
+      },
+      "navigation": {
+        "backLink": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": {
+          "part1": "Tiếp cận mạnh mẽ mà không có",
+          "part2": "Giá doanh nghiệp"
+        },
+        "subtitle": "Five9 là một nền tảng mạnh mẽ được thiết kế cho các trung tâm liên hệ lớn, tập trung vào cuộc gọi đi với ngân sách doanh nghiệp bắt đầu từ 119 đô la/người dùng/tháng. Mặc dù rất xuất sắc cho các trung tâm cuộc gọi lớn, nhưng nó quá mức và quá đắt đối với hầu hết các doanh nghiệp đang phát triển. Seasalt.ai cung cấp các khả năng đa kênh và AI mà các SME cần với các tính năng đến/đi cân bằng với một phần nhỏ chi phí."
+      },
+      "comparison": {
+        "title": "Giải pháp tập trung vào doanh nghiệp so với SME",
+        "subtitle": "Xem tại sao bạn không cần sự phức tạp của doanh nghiệp để có được kết quả mạnh mẽ",
+        "table": {
+          "headers": {
+            "feature": "Tính năng",
+            "seasalt": "Seasalt.ai",
+            "five9": "Five9"
+          }
+        },
+        "features": {
+          "targetCustomer": {
+            "name": "Khách hàng mục tiêu",
+            "seasalt": "Doanh nghiệp nhỏ và vừa (SME)",
+            "competitor": "Các doanh nghiệp lớn"
+          },
+          "startingPrice": {
+            "name": "Giá khởi điểm",
+            "seasalt": "25 đô la/nhân viên/tháng",
+            "competitor": "119 đô la/người dùng/tháng"
+          },
+          "pricingModel": {
+            "name": "Mô hình định giá",
+            "seasalt": "Đơn giản & Minh bạch",
+            "competitor": "Theo người dùng + Gói + Các cấp độ phức tạp"
+          },
+          "setupComplexity": {
+            "name": "Độ phức tạp của thiết lập",
+            "seasalt": "Tự phục vụ, triển khai trong vài phút",
+            "competitor": "Yêu cầu dịch vụ chuyên nghiệp và đội ngũ triển khai"
+          },
+          "outboundFocus": {
+            "name": "Tập trung vào cuộc gọi đi",
+            "seasalt": "Đến/đi cân bằng với tự động hóa AI",
+            "competitor": "Tập trung mạnh vào cuộc gọi đi với quay số nâng cao"
+          },
+          "bestFor": {
+            "name": "Tốt nhất cho",
+            "seasalt": "Các SME cần đa kênh giá cả phải chăng với tự động hóa AI",
+            "competitor": "Các trung tâm liên hệ lớn, tập trung vào cuộc gọi đi với đội ngũ chuyên dụng"
+          }
+        }
+      },
+      "cost": {
+        "title": "Thực tế chi phí",
+        "subtitle": "Xem cách giá doanh nghiệp của Five9 so với cách tiếp cận tập trung vào SME của Seasalt.ai",
+        "agents5": {
+          "title": "5 nhân viên",
+          "seasalt": {
+            "price": "175 đô la/tháng",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "595 đô la/tháng",
+            "label": "Five9"
+          },
+          "savings": "Tiết kiệm 420 đô la/tháng"
+        },
+        "agents10": {
+          "title": "10 nhân viên",
+          "seasalt": {
+            "price": "275 đô la/tháng",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "1.190 đô la/tháng",
+            "label": "Five9"
+          },
+          "savings": "Tiết kiệm 915 đô la/tháng"
+        },
+        "agents20": {
+          "title": "20 nhân viên",
+          "seasalt": {
+            "price": "525 đô la/tháng",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "2.380 đô la/tháng",
+            "label": "Five9"
+          },
+          "savings": "Tiết kiệm 1.855 đô la/tháng"
+        }
+      },
+      "features": {
+        "title": "Cách tiếp cận cân bằng so với tập trung vào cuộc gọi đi",
+        "subtitle": "Hầu hết các doanh nghiệp cần cả khả năng đến và đi, không chỉ tập trung mạnh vào cuộc gọi đi",
+        "seasalt": {
+          "title": "Seasalt.ai: Đa kênh cân bằng",
+          "feature1": "Hỗ trợ khách hàng đến trên tất cả các kênh",
+          "feature2": "Các chiến dịch tiếp thị đi (SMS, WhatsApp, Giọng nói)",
+          "feature3": "Tự động hóa AI cho cả đến và đi",
+          "feature4": "Hộp thư đến hợp nhất cho tất cả các tương tác của khách hàng",
+          "feature5": "Hoàn hảo cho các doanh nghiệp đang phát triển"
+        },
+        "five9": {
+          "title": "Five9: Tập trung mạnh vào cuộc gọi đi",
+          "feature1": "Khả năng quay số dự đoán nâng cao",
+          "feature2": "Các công cụ quản lý chiến dịch phức tạp",
+          "feature3": "Các tính năng tuân thủ cấp doanh nghiệp",
+          "feature4": "Được thiết kế cho các trung tâm cuộc gọi khối lượng lớn",
+          "feature5": "Yêu cầu đội ngũ quản lý chuyên dụng"
+        }
+      },
+      "cta": {
+        "title": "Nhận các tính năng mạnh mẽ mà không có sự phức tạp của doanh nghiệp",
+        "subtitle": "Tại sao phải trả tiền gấp 5 lần cho các tính năng bạn không cần? Có được giải pháp đa kênh cân bằng phát triển cùng doanh nghiệp của bạn.",
+        "signUp": "Đăng ký",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "avayaAlternative": {
+      "seo": {
+        "title": "Kiến trúc đám mây hiện đại so với cơ sở hạ tầng cũ - Thay thế Avaya | Seasalt.ai",
+        "description": "So sánh kiến trúc đám mây hiện đại của Seasalt.ai với cơ sở hạ tầng cũ của Avaya. Xem tại sao ưu tiên đám mây đánh bại các hệ thống cũ được điều chỉnh cho các doanh nghiệp đang phát triển."
+      },
+      "navigation": {
+        "backToCompare": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": {
+          "main": "Kiến trúc đám mây hiện đại so với",
+          "highlight": "Cơ sở hạ tầng cũ"
+        },
+        "description": "Avaya đã là một gã khổng lồ viễn thông trong nhiều thập kỷ, nhưng kiến trúc cũ và sự tập trung vào doanh nghiệp phức tạp của họ khiến họ không phù hợp với các doanh nghiệp hiện đại, đang phát triển. Mặc dù họ đang chuyển đổi sang các giải pháp đám mây, nhưng giá cả của họ vẫn tập trung vào doanh nghiệp với cấp phép phức tạp và các yêu cầu dịch vụ chuyên nghiệp. Seasalt.ai được xây dựng trên nền tảng đám mây ngay từ ngày đầu cho doanh nghiệp hiện đại."
+      },
+      "comparison": {
+        "title": "Di chuyển đám mây gốc so với cũ",
+        "subtitle": "Xem tại sao bắt đầu với kiến trúc hiện đại đánh bại việc điều chỉnh các hệ thống cũ",
+        "tableHeaders": {
+          "feature": "Tính năng",
+          "seasalt": "Seasalt.ai",
+          "avaya": "Avaya"
+        },
+        "features": {
+          "platformType": {
+            "name": "Loại nền tảng",
+            "seasalt": "Giao tiếp hợp nhất đám mây gốc",
+            "competitor": "Tại chỗ cũ với di chuyển đám mây"
+          },
+          "startingPrice": {
+            "name": "Giá khởi điểm",
+            "seasalt": "25 đô la/nhân viên/tháng",
+            "competitor": "Dựa trên báo giá (thường là 50-100 đô la+/người dùng/tháng)"
+          },
+          "setupComplexity": {
+            "name": "Độ phức tạp của thiết lập",
+            "seasalt": "Tự phục vụ, triển khai trong vài phút",
+            "competitor": "Yêu cầu dịch vụ chuyên nghiệp và triển khai"
+          },
+          "modernArchitecture": {
+            "name": "Kiến trúc hiện đại",
+            "seasalt": "Được xây dựng cho ưu tiên đám mây, dựa trên API",
+            "competitor": "Kiến trúc cũ với các điều chỉnh đám mây"
+          },
+          "aiIntegration": {
+            "name": "Tích hợp AI",
+            "seasalt": "Bao gồm AI giọng nói và chatbot bản địa",
+            "competitor": "Khả năng AI thông qua các đối tác và tiện ích bổ sung"
+          },
+          "targetMarket": {
+            "name": "Thị trường mục tiêu",
+            "seasalt": "Các SME và doanh nghiệp đang phát triển",
+            "competitor": "Các doanh nghiệp lớn với cơ sở hạ tầng Avaya hiện có"
+          }
+        }
+      },
+      "architecture": {
+        "title": "Kiến trúc hiện đại so với cũ",
+        "subtitle": "Tại sao kiến trúc đám mây gốc quan trọng đối với các doanh nghiệp đang phát triển",
+        "seasalt": {
+          "title": "Seasalt.ai: Đám mây gốc",
+          "feature1": "Được xây dựng cho đám mây ngay từ ngày đầu",
+          "feature2": "Kiến trúc ưu tiên API",
+          "feature3": "Cập nhật và mở rộng quy mô tự động",
+          "feature4": "Tích hợp hiện đại",
+          "feature5": "Triển khai tự phục vụ"
+        },
+        "avaya": {
+          "title": "Avaya: Di chuyển cũ",
+          "feature1": "Nguồn gốc tại chỗ cũ",
+          "feature2": "Mô hình cấp phép phức tạp",
+          "feature3": "Yêu cầu dịch vụ chuyên nghiệp",
+          "feature4": "Độ phức tạp của tích hợp",
+          "feature5": "Quy trình bán hàng doanh nghiệp"
+        }
+      },
+      "businessImpact": {
+        "title": "Tác động kinh doanh",
+        "subtitle": "Cách các lựa chọn kiến trúc ảnh hưởng đến hoạt động kinh doanh của bạn",
+        "timeToValue": {
+          "title": "Thời gian tạo giá trị",
+          "seasalt": {
+            "value": "Vài phút",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "Vài tháng",
+            "label": "Avaya"
+          }
+        },
+        "setupComplexity": {
+          "title": "Độ phức tạp của thiết lập",
+          "seasalt": {
+            "value": "Tự phục vụ",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "Dịch vụ chuyên nghiệp",
+            "label": "Avaya"
+          }
+        },
+        "ongoingMaintenance": {
+          "title": "Bảo trì liên tục",
+          "seasalt": {
+            "value": "Tự động",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "Thủ công",
+            "label": "Avaya"
+          }
+        }
+      },
+      "cta": {
+        "title": "Chọn hiện đại thay vì cũ",
+        "subtitle": "Tại sao phải vật lộn với kiến trúc cũ khi bạn có thể có một giải pháp đám mây gốc, hiện đại được xây dựng cho các doanh nghiệp ngày nay?",
+        "signUp": "Đăng ký",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "googleVoiceAlternative": {
+      "seo": {
+        "title": "Tốt nghiệp Google Voice? Đây là giải pháp chuyên nghiệp bạn cần - Seasalt.ai",
+        "description": "Xem tại sao các doanh nghiệp đang phát triển cần nhiều hơn dịch vụ VoIP cơ bản của Google Voice. So sánh các tính năng và khám phá nền tảng giao tiếp chuyên nghiệp của Seasalt.ai."
+      },
+      "nav": {
+        "backToOverview": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": {
+          "line1": "Tốt nghiệp Google Voice?",
+          "line2": "Đây là giải pháp chuyên nghiệp bạn cần"
+        },
+        "subtitle": "Google Voice là một công cụ tuyệt vời để sử dụng cá nhân hoặc cho các doanh nhân độc lập, nhưng nó không phải là một hệ thống điện thoại doanh nghiệp thực sự. Ngay khi bạn thuê một nhóm, bạn sẽ gặp khó khăn. Nó thiếu các tính năng kinh doanh quan trọng như hộp thư đến nhóm dùng chung, hàng đợi cuộc gọi, số điện thoại miễn phí và phân tích. Quan trọng nhất, nó không có API công khai, nghĩa là nó không thể tích hợp với CRM của bạn hoặc các phần mềm kinh doanh thiết yếu khác."
+      },
+      "comparison": {
+        "title": "Hệ thống kinh doanh chuyên nghiệp so với VoIP cá nhân",
+        "subtitle": "Xem tại sao các doanh nghiệp đang phát triển cần nhiều hơn một dịch vụ điện thoại cơ bản",
+        "table": {
+          "feature": "Tính năng",
+          "seasalt": "Seasalt.ai",
+          "competitor": "Google Voice"
+        },
+        "features": {
+          "systemType": {
+            "feature": "Loại hệ thống",
+            "seasalt": "Trung tâm liên hệ đa kênh chuyên nghiệp",
+            "competitor": "Dịch vụ VoIP cơ bản (không phải hệ thống điện thoại thực sự)"
+          },
+          "teamCollaboration": {
+            "feature": "Cộng tác nhóm",
+            "seasalt": "Hộp thư đến dùng chung, Quản lý nhóm",
+            "competitor": "Không có hộp thư đến dùng chung. Được thiết kế cho cá nhân, không phải nhóm"
+          },
+          "crmIntegrations": {
+            "feature": "Tích hợp CRM & bên thứ 3",
+            "seasalt": "Có, tích hợp rộng rãi",
+            "competitor": "Không. Chỉ tích hợp với các ứng dụng Google Workspace"
+          },
+          "supportedChannels": {
+            "feature": "Các kênh được hỗ trợ",
+            "seasalt": "Thoại, SMS, WhatsApp, Messenger, Instagram, LINE, Webchat",
+            "competitor": "Thoại, SMS (chỉ ở Hoa Kỳ)"
+          },
+          "automation": {
+            "feature": "Tự động hóa (Bot/IVR)",
+            "seasalt": "Voicebot AI, Chatbot, IVR nâng cao",
+            "competitor": "Chỉ có tổng đài tự động cơ bản. Không có tự động hóa khác"
+          },
+          "tollFree": {
+            "feature": "Số điện thoại miễn phí",
+            "seasalt": "Có",
+            "competitor": "Không"
+          },
+          "callAnalytics": {
+            "feature": "Phân tích cuộc gọi",
+            "seasalt": "Có, báo cáo chi tiết",
+            "competitor": "Không. Chỉ có nhật ký sử dụng cơ bản"
+          },
+          "bestFor": {
+            "feature": "Tốt nhất cho",
+            "seasalt": "Các doanh nghiệp đang phát triển cần một nền tảng giao tiếp chuyên nghiệp, có khả năng mở rộng",
+            "competitor": "Các doanh nhân độc lập hoặc người làm nghề tự do ở Hoa Kỳ cần một số điện thoại đơn giản, riêng biệt"
+          }
+        }
+      },
+      "growthLimitations": {
+        "title": "Khi bạn vượt quá Google Voice",
+        "subtitle": "Dấu hiệu cho thấy đã đến lúc nâng cấp lên một nền tảng giao tiếp kinh doanh chuyên nghiệp",
+        "firstEmployee": {
+          "title": "Bạn đã thuê nhân viên đầu tiên của mình",
+          "description": "Google Voice không hỗ trợ hộp thư đến dùng chung hoặc cộng tác nhóm. Mỗi người cần số điện thoại riêng của họ."
+        },
+        "crmIntegration": {
+          "title": "Bạn cần tích hợp CRM",
+          "description": "Không có API có nghĩa là không tích hợp với Salesforce, HubSpot hoặc bất kỳ phần mềm kinh doanh thiết yếu nào khác."
+        },
+        "professionalFeatures": {
+          "title": "Bạn muốn các tính năng chuyên nghiệp",
+          "description": "Không có hàng đợi cuộc gọi, IVR nâng cao, phân tích cuộc gọi hoặc số điện thoại miễn phí."
+        },
+        "multipleChannels": {
+          "title": "Bạn cần nhiều kênh",
+          "description": "Chỉ hỗ trợ thoại và SMS. Không có WhatsApp, trò chuyện web hoặc tích hợp mạng xã hội."
+        },
+        "automation": {
+          "title": "Bạn muốn tự động hóa",
+          "description": "Không có chatbot AI, voicebot hoặc khả năng tự động hóa nâng cao."
+        },
+        "internationalSupport": {
+          "title": "Bạn cần hỗ trợ quốc tế",
+          "description": "Hỗ trợ cuộc gọi quốc tế và SMS hạn chế so với các nền tảng kinh doanh."
+        }
+      },
+      "benefits": {
+        "title": "Những gì bạn đạt được với Seasalt.ai",
+        "subtitle": "Các tính năng chuyên nghiệp mà doanh nghiệp đang phát triển của bạn cần",
+        "teamCollaboration": {
+          "title": "Cộng tác nhóm",
+          "feature1": "Hộp thư đến nhóm dùng chung cho tất cả các giao tiếp",
+          "feature2": "Phân phối cuộc gọi luân phiên",
+          "feature3": "Phân tích hiệu suất nhóm",
+          "feature4": "Chuyển giao cuộc trò chuyện giữa các nhân viên"
+        },
+        "professionalFeatures": {
+          "title": "Tính năng chuyên nghiệp",
+          "feature1": "IVR nâng cao và định tuyến cuộc gọi",
+          "feature2": "Có sẵn số điện thoại miễn phí",
+          "feature3": "Phân tích và báo cáo cuộc gọi chi tiết",
+          "feature4": "Tích hợp CRM và công cụ kinh doanh"
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng nâng cấp lên giao tiếp chuyên nghiệp?",
+        "subtitle": "Chuyển đổi từ Google Voice sang một nền tảng được xây dựng cho các doanh nghiệp đang phát triển. Giữ số điện thoại hiện có của bạn và có được các khả năng mới mạnh mẽ.",
+        "signUp": "Đăng ký",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "respondIoAlternative": {
+      "seo": {
+        "title": "Thay thế Respond.io - Seasalt.ai",
+        "description": "So sánh Seasalt.ai với Respond.io. Có được đa kênh thực sự với cuộc gọi thoại bản địa thay vì các tính năng beta. Giá theo người dùng có thể dự đoán được so với mô hình MACs phức tạp."
+      },
+      "navigation": {
+        "backLink": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": {
+          "main": "Đừng chấp nhận chỉ kỹ thuật số.",
+          "highlight": "Có được đa kênh thực sự với thoại và nhắn tin bản địa"
+        },
+        "description": "Respond.io là một nền tảng mạnh mẽ dành cho các doanh nghiệp tập trung vào các kênh nhắn tin như WhatsApp. Tuy nhiên, giá của nó dựa trên Số liên hệ hoạt động hàng tháng (MACs), có thể trở nên không thể dự đoán được, và các kênh quan trọng như Thoại vẫn đang trong giai đoạn beta. Hơn nữa, phí sử dụng WhatsApp được tính riêng, thêm một lớp phức tạp về chi phí. Seasalt.ai cung cấp một nền tảng thực sự hợp nhất nơi thoại là một tính năng cốt lõi, bản địa."
+      },
+      "comparison": {
+        "title": "Đa kênh hợp nhất so với ưu tiên kỹ thuật số",
+        "subtitle": "Xem tại sao tích hợp thoại bản địa quan trọng đối với giao tiếp khách hàng hoàn chỉnh",
+        "table": {
+          "headers": {
+            "feature": "Tính năng",
+            "seasalt": "Seasalt.ai",
+            "competitor": "respond.io"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "Mô hình định giá",
+            "seasalt": "Phí đơn giản & có thể dự đoán được theo người dùng",
+            "competitor": "Số liên hệ hoạt động hàng tháng (MACs) + Người dùng"
+          },
+          "startingPrice": {
+            "name": "Giá khởi điểm",
+            "seasalt": "25 đô la/nhân viên/tháng",
+            "competitor": "79 đô la/tháng (bao gồm 5 người dùng)"
+          },
+          "voiceCalling": {
+            "name": "Gọi thoại",
+            "seasalt": "Có, bản địa và được hỗ trợ đầy đủ",
+            "competitor": "Tính năng beta"
+          },
+          "whatsappFees": {
+            "name": "Phí WhatsApp",
+            "seasalt": "Bao gồm trong mức sử dụng",
+            "competitor": "Được tính riêng bởi Meta"
+          },
+          "aiAgent": {
+            "name": "Nhân viên AI",
+            "seasalt": "Có, bao gồm trong tất cả các gói",
+            "competitor": "Yêu cầu gói Growth (159 đô la/tháng+)"
+          },
+          "coreFocus": {
+            "name": "Tập trung cốt lõi",
+            "seasalt": "Đa kênh thực sự (Thoại + Kỹ thuật số)",
+            "competitor": "Nhắn tin ưu tiên kỹ thuật số"
+          },
+          "bestFor": {
+            "name": "Tốt nhất cho",
+            "seasalt": "Các SME cần một trung tâm hợp nhất cho tất cả các cuộc trò chuyện của khách hàng, bao gồm cuộc gọi điện thoại",
+            "competitor": "Các đội ngũ tiếp thị và bán hàng tập trung chủ yếu vào việc tạo khách hàng tiềm năng thông qua trò chuyện"
+          }
+        }
+      },
+      "pricing": {
+        "title": "Giá cả có thể dự đoán được so với biến động",
+        "subtitle": "Tại sao giá đơn giản theo người dùng đánh bại các mô hình dựa trên liên hệ phức tạp",
+        "seasalt": {
+          "title": "Seasalt.ai: Đơn giản & Có thể dự đoán được",
+          "perAgent": {
+            "title": "Giá theo người dùng",
+            "description": "25 đô la/nhân viên/tháng - dễ dàng lập ngân sách và mở rộng quy mô"
+          },
+          "allChannels": {
+            "title": "Bao gồm tất cả các kênh",
+            "description": "Thoại, SMS, WhatsApp, trò chuyện - không có phí bổ sung"
+          },
+          "usageIncluded": {
+            "title": "Bao gồm mức sử dụng",
+            "description": "Mức sử dụng WhatsApp và SMS bao gồm trong gói"
+          },
+          "noSurprises": {
+            "title": "Không có bất ngờ",
+            "description": "Chi phí hàng tháng có thể dự đoán được, dễ dàng dự báo"
+          }
+        },
+        "competitor": {
+          "title": "respond.io: Các biến số phức tạp",
+          "monthlyContacts": {
+            "title": "Số liên hệ hoạt động hàng tháng",
+            "description": "Giá thay đổi dựa trên hoạt động liên hệ"
+          },
+          "separateFees": {
+            "title": "Phí WhatsApp riêng biệt",
+            "description": "Phí Meta được tính riêng"
+          },
+          "voiceBeta": {
+            "title": "Thoại trong giai đoạn Beta",
+            "description": "Tính năng cốt lõi vẫn đang được phát triển"
+          },
+          "unpredictableCosts": {
+            "title": "Chi phí không thể dự đoán được",
+            "description": "Hóa đơn hàng tháng có thể thay đổi đáng kể"
+          }
+        }
+      },
+      "voice": {
+        "title": "Thoại bản địa so với tính năng Beta",
+        "subtitle": "Tại sao thoại nên là một tính năng cốt lõi, không phải là một suy nghĩ sau",
+        "seasalt": {
+          "title": "Seasalt.ai: Thiết kế ưu tiên thoại",
+          "nativeVoice": "Gọi thoại bản địa được tích hợp vào nền tảng",
+          "aiVoicebot": "Voicebot AI với chuyển giao cho con người",
+          "unifiedHistory": "Lịch sử trò chuyện hợp nhất trên thoại và kỹ thuật số",
+          "phoneFeatures": "Các tính năng hệ thống điện thoại chuyên nghiệp",
+          "productionReady": "Sẵn sàng sản xuất và được hỗ trợ đầy đủ"
+        },
+        "competitor": {
+          "title": "respond.io: Thoại là Beta",
+          "betaTesting": "Gọi thoại vẫn đang trong giai đoạn thử nghiệm beta",
+          "limitedFeatures": "Các tính năng thoại và độ tin cậy hạn chế",
+          "potentialBugs": "Tiềm ẩn lỗi và sự không ổn định",
+          "uncertainRoadmap": "Lộ trình và thời gian không chắc chắn",
+          "notRecommended": "Không được khuyến nghị cho mục đích sản xuất"
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng cho đa kênh thực sự?",
+        "description": "Ngừng chờ đợi các tính năng beta. Có được một nền tảng nơi các kênh thoại và kỹ thuật số hoạt động liền mạch với nhau ngay từ ngày đầu.",
+        "signUp": "Đăng ký",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "intercomAlternative": {
+      "seo": {
+        "title": "Thay thế Intercom - Nền tảng giao tiếp khách hàng hoàn chỉnh - Seasalt.ai",
+        "description": "So sánh Seasalt.ai với Intercom: Có được trung tâm liên hệ hợp nhất vượt ra ngoài các widget trang web. Giá cả minh bạch so với phí theo giải quyết. Bao gồm thoại, SMS, WhatsApp."
+      },
+      "navigation": {
+        "backText": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Vượt ra ngoài widget trang web.",
+          "highlight": "Có được một nền tảng giao tiếp khách hàng hoàn chỉnh"
+        },
+        "subtitle": "Intercom xuất sắc trong việc tương tác chủ động trên trang web với chatbot AI và trò chuyện trực tiếp tốt nhất trong phân khúc, Fin. Tuy nhiên, mô hình định giá của nó phức tạp và đắt đỏ, với các khoản phí riêng cho mỗi chỗ ngồi, mỗi giải quyết AI (0,99 đô la mỗi cái) và cho các tiện ích bổ sung. Thoại và SMS là những tính năng trả tiền theo mức sử dụng sau này. Seasalt.ai được xây dựng như một trung tâm liên hệ thực sự, nơi thoại là một kênh chính."
+      },
+      "comparison": {
+        "title": "Nền tảng hoàn chỉnh so với công cụ tập trung vào trang web",
+        "subtitle": "Xem tại sao một trung tâm liên hệ hợp nhất đánh bại một công cụ tương tác trang web chuyên biệt",
+        "table": {
+          "feature": "Tính năng",
+          "seasalt": "Seasalt.ai",
+          "competitor": "Intercom"
+        },
+        "features": {
+          "pricingModel": {
+            "name": "Mô hình định giá",
+            "seasalt": "Phí đơn giản & có thể dự đoán được theo người dùng",
+            "competitor": "Theo chỗ ngồi + Theo giải quyết + Tiện ích bổ sung"
+          },
+          "startingPrice": {
+            "name": "Giá khởi điểm",
+            "seasalt": "25 đô la/nhân viên/tháng",
+            "competitor": "29-39 đô la/chỗ ngồi/tháng"
+          },
+          "aiAgentCost": {
+            "name": "Chi phí nhân viên AI",
+            "seasalt": "Bao gồm (dựa trên mức sử dụng)",
+            "competitor": "0,99 đô la mỗi giải quyết"
+          },
+          "voiceCalling": {
+            "name": "Gọi thoại",
+            "seasalt": "Có, bản địa và được hỗ trợ đầy đủ",
+            "competitor": "Tiện ích bổ sung trả tiền theo mức sử dụng"
+          },
+          "coreFocus": {
+            "name": "Tập trung cốt lõi",
+            "seasalt": "Trung tâm liên hệ hợp nhất",
+            "competitor": "Tương tác & Hỗ trợ trang web"
+          },
+          "bestFor": {
+            "name": "Tốt nhất cho",
+            "seasalt": "Các SME cần một trung tâm giao tiếp hoàn chỉnh cho tất cả các kênh",
+            "competitor": "Các doanh nghiệp SaaS và dựa trên web tập trung vào việc chuyển đổi và hỗ trợ người dùng trên trang web của họ"
+          }
+        }
+      },
+      "pricing": {
+        "title": "Giá cả đơn giản so với phức tạp",
+        "subtitle": "Tại sao giá cả minh bạch đánh bại các khoản phí theo giải quyết và phí sử dụng",
+        "seasalt": {
+          "title": "Seasalt.ai: Giá cả minh bạch",
+          "perAgent": {
+            "title": "25 đô la/nhân viên/tháng",
+            "description": "Bao gồm mọi thứ, không có bất ngờ"
+          },
+          "aiIncluded": {
+            "title": "Bao gồm AI",
+            "description": "Thoại và chatbot bao gồm trong gói"
+          },
+          "allChannels": {
+            "title": "Tất cả các kênh",
+            "description": "Thoại, SMS, WhatsApp, trò chuyện - không có phí bổ sung"
+          },
+          "predictable": {
+            "title": "Chi phí có thể dự đoán được",
+            "description": "Dễ dàng lập ngân sách và dự báo"
+          }
+        },
+        "intercom": {
+          "title": "Intercom: Thanh toán phức tạp",
+          "basePrice": {
+            "title": "39 đô la/chỗ ngồi/tháng",
+            "description": "Giá cơ bản trước các tiện ích bổ sung"
+          },
+          "aiResolution": {
+            "title": "0,99 đô la mỗi giải quyết AI",
+            "description": "Phí cho mỗi tương tác AI"
+          },
+          "payPerUse": {
+            "title": "Thoại trả tiền theo mức sử dụng",
+            "description": "Gọi thoại được tính phí riêng"
+          },
+          "unpredictable": {
+            "title": "Hóa đơn không thể dự đoán được",
+            "description": "Chi phí thay đổi dựa trên mức sử dụng"
+          }
+        }
+      },
+      "scenarios": {
+        "title": "Các kịch bản chi phí thực tế",
+        "subtitle": "Xem cách giá theo giải quyết của Intercom có thể nhanh chóng tăng lên",
+        "light": {
+          "title": "Sử dụng nhẹ",
+          "description": "3 nhân viên, 100 giải quyết AI/tháng",
+          "seasalt": {
+            "price": "75 đô la/tháng",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "216 đô la/tháng",
+            "label": "Intercom",
+            "breakdown": "(117 đô la cơ bản + 99 đô la AI)"
+          }
+        },
+        "medium": {
+          "title": "Sử dụng trung bình",
+          "description": "5 nhân viên, 300 giải quyết AI/tháng",
+          "seasalt": {
+            "price": "150 đô la/tháng",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "492 đô la/tháng",
+            "label": "Intercom",
+            "breakdown": "(195 đô la cơ bản + 297 đô la AI)"
+          }
+        },
+        "heavy": {
+          "title": "Sử dụng nhiều",
+          "description": "10 nhân viên, 1000 giải quyết AI/tháng",
+          "seasalt": {
+            "price": "275 đô la/tháng",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "1.380 đô la/tháng",
+            "label": "Intercom",
+            "breakdown": "(390 đô la cơ bản + 990 đô la AI)"
+          }
+        }
+      },
+      "channels": {
+        "title": "Phạm vi phủ sóng kênh hoàn chỉnh so với tập trung vào trang web",
+        "subtitle": "Tại sao các doanh nghiệp cần nhiều hơn chỉ tương tác trên trang web",
+        "seasalt": {
+          "title": "Seasalt.ai: Phạm vi phủ sóng hoàn chỉnh",
+          "voice": "Gọi thoại bản địa và hệ thống điện thoại",
+          "whatsapp": "Tích hợp WhatsApp Business",
+          "sms": "Tiếp thị và hỗ trợ SMS",
+          "social": "Nhắn tin mạng xã hội (Instagram, Facebook)",
+          "website": "Trò chuyện trang web và biểu mẫu liên hệ",
+          "unified": "Hộp thư đến hợp nhất cho tất cả các kênh"
+        },
+        "intercom": {
+          "title": "Intercom: Tập trung vào trang web",
+          "websiteChat": "Trò chuyện và tương tác trang web xuất sắc",
+          "proactive": "Nhắn tin và nhắm mục tiêu chủ động",
+          "voiceAddon": "Gọi thoại như tiện ích bổ sung trả tiền theo mức sử dụng",
+          "smsLimited": "Khả năng SMS hạn chế",
+          "noWhatsapp": "Không có tích hợp WhatsApp Business bản địa",
+          "noSocial": "Không hỗ trợ nhắn tin mạng xã hội"
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng cho giao tiếp khách hàng hoàn chỉnh?",
+        "subtitle": "Ngừng trả tiền cho mỗi giải quyết và có được một nền tảng hoàn chỉnh bao gồm tất cả các nhu cầu giao tiếp khách hàng của bạn với giá có thể dự đoán được.",
+        "signUp": "Đăng ký",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "kustomerAlternative": {
+      "seo": {
+        "title": "Thay thế Kustomer | So sánh Seasalt.ai với Kustomer",
+        "description": "So sánh Seasalt.ai với Kustomer để hỗ trợ khách hàng. Xem tại sao các SME chọn giải pháp đa kênh giá cả phải chăng của chúng tôi thay vì các nền tảng giá doanh nghiệp."
+      },
+      "nav": {
+        "backLink": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": "Sức mạnh doanh nghiệp với giá SME.",
+        "highlight": "Tại sao phải trả tiền cho 8 chỗ ngồi khi bạn chỉ cần 2?",
+        "description": "Kustomer là một nền tảng đa kênh mạnh mẽ, thực sự cung cấp một chế độ xem hợp nhất về hành trình khách hàng. Tuy nhiên, sức mạnh của nó đi kèm với giá doanh nghiệp. Gói theo chỗ ngồi bắt đầu từ 89 đô la/tháng với yêu cầu tối thiểu 8 chỗ ngồi, khiến nó không thể tiếp cận được đối với hầu hết các SME. Các khả năng AI quan trọng cũng là các tiện ích bổ sung đắt đỏ. Seasalt.ai cung cấp chức năng đa kênh cốt lõi và tự động hóa AI mà các SME cần."
+      },
+      "comparison": {
+        "title": "Có thể truy cập SME so với chỉ dành cho doanh nghiệp",
+        "subtitle": "Xem tại sao các tính năng mạnh mẽ không nên yêu cầu mức tối thiểu của doanh nghiệp",
+        "table": {
+          "headers": {
+            "feature": "Tính năng",
+            "seasalt": "Seasalt.ai",
+            "kustomer": "Kustomer"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "Mô hình định giá",
+            "seasalt": "Phí đơn giản & có thể dự đoán được theo người dùng",
+            "kustomer": "Theo chỗ ngồi hoặc theo cuộc trò chuyện"
+          },
+          "startingPrice": {
+            "name": "Giá khởi điểm",
+            "seasalt": "25 đô la/nhân viên/tháng",
+            "kustomer": "89 đô la/chỗ ngồi/tháng"
+          },
+          "minimumCommitment": {
+            "name": "Cam kết tối thiểu",
+            "seasalt": "1 người dùng",
+            "kustomer": "8 chỗ ngồi (trên gói theo chỗ ngồi)"
+          },
+          "aiCapabilities": {
+            "name": "Khả năng AI",
+            "seasalt": "Bao gồm (dựa trên mức sử dụng)",
+            "kustomer": "Tiện ích bổ sung trả phí (40 đô la/người dùng/tháng hoặc 0,60 đô la/cuộc trò chuyện)"
+          },
+          "omnichannelTimeline": {
+            "name": "Dòng thời gian đa kênh",
+            "seasalt": "Có",
+            "kustomer": "Có, rất mạnh"
+          },
+          "coreFocus": {
+            "name": "Tập trung cốt lõi",
+            "seasalt": "Giao tiếp hợp nhất, giá cả phải chăng cho các SME",
+            "kustomer": "Dịch vụ khách hàng quy mô doanh nghiệp, dựa trên dữ liệu"
+          },
+          "bestFor": {
+            "name": "Tốt nhất cho",
+            "seasalt": "Các doanh nghiệp đang phát triển cần một giải pháp đa kênh mạnh mẽ nhưng giá cả phải chăng",
+            "kustomer": "Các đội ngũ hỗ trợ lớn có thể đáp ứng số lượng chỗ ngồi tối thiểu và cần tích hợp dữ liệu sâu"
+          }
+        }
+      },
+      "costBarrier": {
+        "title": "Rào cản tối thiểu 8 chỗ ngồi",
+        "subtitle": "Xem cách cam kết tối thiểu của Kustomer định giá các doanh nghiệp đang phát triển",
+        "scenarios": {
+          "twoAgents": {
+            "title": "2 nhân viên",
+            "seasaltPrice": "75 đô la/tháng",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "712 đô la/tháng",
+            "kustomerLabel": "Kustomer (tối thiểu 8 chỗ ngồi)",
+            "savings": "Tiết kiệm 637 đô la/tháng"
+          },
+          "fiveAgents": {
+            "title": "5 nhân viên",
+            "seasaltPrice": "175 đô la/tháng",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "712 đô la/tháng",
+            "kustomerLabel": "Kustomer (tối thiểu 8 chỗ ngồi)",
+            "savings": "Tiết kiệm 537 đô la/tháng"
+          },
+          "eightAgents": {
+            "title": "8 nhân viên",
+            "seasaltPrice": "225 đô la/tháng",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "712 đô la/tháng",
+            "kustomerLabel": "Kustomer",
+            "savings": "Tiết kiệm 487 đô la/tháng"
+          }
+        },
+        "problem": {
+          "title": "Vấn đề khả năng tiếp cận SME",
+          "description": "Yêu cầu tối thiểu 8 chỗ ngồi của Kustomer có nghĩa là ngay cả một nhóm 2 người cũng phải trả tiền cho 6 chỗ ngồi không sử dụng. Điều này tạo ra một rào cản nhân tạo ngăn cản các doanh nghiệp đang phát triển truy cập các tính năng đa kênh mạnh mẽ cho đến khi họ đạt quy mô doanh nghiệp."
+        }
+      },
+      "aiCosts": {
+        "title": "AI bao gồm so với tiện ích bổ sung đắt đỏ",
+        "subtitle": "Xem cách chi phí AI tăng lên khi nó được coi là một tính năng cao cấp",
+        "seasalt": {
+          "title": "Seasalt.ai: Bao gồm AI",
+          "voiceAi": {
+            "title": "AI giọng nói",
+            "description": "Bao gồm trong gói cơ bản"
+          },
+          "chatAi": {
+            "title": "AI trò chuyện",
+            "description": "Bao gồm trong gói cơ bản"
+          },
+          "smartRouting": {
+            "title": "Định tuyến thông minh",
+            "description": "Bao gồm trong gói cơ bản"
+          },
+          "totalCost": {
+            "title": "Tổng chi phí AI",
+            "amount": "0 đô la bổ sung"
+          }
+        },
+        "kustomer": {
+          "title": "Kustomer: AI là tiện ích bổ sung",
+          "perUser": {
+            "title": "KIQ AI (Theo người dùng)",
+            "description": "40 đô la/người dùng/tháng bổ sung"
+          },
+          "perConversation": {
+            "title": "KIQ AI (Theo cuộc trò chuyện)",
+            "description": "0,60 đô la/cuộc trò chuyện"
+          },
+          "example": {
+            "title": "Ví dụ: 8 người dùng",
+            "calculation": "8 × 40 đô la = 320 đô la/tháng thêm"
+          },
+          "totalCost": {
+            "title": "Tổng chi phí AI",
+            "amount": "320 đô la+ bổ sung"
+          }
+        }
+      },
+      "features": {
+        "title": "Những gì bạn nhận được so với những gì bạn phải trả",
+        "subtitle": "Cả hai nền tảng đều cung cấp khả năng đa kênh mạnh mẽ, nhưng ở các mức giá rất khác nhau",
+        "shared": {
+          "title": "Những gì bạn nhận được với cả hai",
+          "unifiedInbox": "Hộp thư đến đa kênh hợp nhất",
+          "conversationHistory": "Lịch sử trò chuyện của khách hàng",
+          "teamCollaboration": "Công cụ cộng tác nhóm",
+          "analytics": "Phân tích và báo cáo",
+          "crmIntegrations": "Tích hợp CRM"
+        },
+        "advantages": {
+          "title": "Lợi thế của Seasalt.ai",
+          "noMinimum": "Không yêu cầu số lượng chỗ ngồi tối thiểu",
+          "aiIncluded": "AI bao gồm trong giá cơ bản",
+          "nativeVoice": "Nền tảng gọi thoại bản địa",
+          "selfService": "Thiết lập và quản lý tự phục vụ",
+          "smeFocused": "Giá cả và tính năng tập trung vào SME"
+        }
+      },
+      "cta": {
+        "title": "Nhận các tính năng doanh nghiệp mà không có mức tối thiểu của doanh nghiệp",
+        "subtitle": "Tại sao phải trả tiền cho 8 chỗ ngồi khi bạn chỉ cần 2? Có được khả năng đa kênh mạnh mẽ mở rộng quy mô theo quy mô nhóm thực tế của bạn.",
+        "signUp": "Đăng ký",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "threeCXAlternative": {
+      "seo": {
+        "title": "Seasalt.ai so với 3CX thay thế - Đám mây được quản lý so với tự lưu trữ",
+        "description": "So sánh giải pháp đám mây được quản lý hoàn toàn của Seasalt.ai với PBX tự lưu trữ của 3CX. Xem chi phí thực tế và sự phức tạp đằng sau giá cả \"phải chăng\" của 3CX."
+      },
+      "nav": {
+        "backLink": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": "Chọn sự đơn giản và sức mạnh đám mây.",
+        "highlight": "Ngừng quản lý máy chủ và bắt đầu nói chuyện với khách hàng",
+        "description": "3CX cung cấp một PBX nền tảng mở với mô hình định giá độc đáo dựa trên các cuộc gọi đồng thời, không phải người dùng, có thể hiệu quả về chi phí cho một số người. Tuy nhiên, điều này đi kèm với sự phức tạp và chi phí ẩn đáng kể. Bạn chịu trách nhiệm về lưu trữ, chứng chỉ SSL và hỗ trợ kỹ thuật (bắt đầu từ 75 đô la mỗi phiếu). Nó về cơ bản là một hệ thống điện thoại, không phải một nền tảng đa kênh bản địa. Seasalt.ai là một giải pháp đám mây gốc, được quản lý hoàn toàn."
+      },
+      "comparison": {
+        "title": "Đám mây được quản lý so với sự phức tạp của tự lưu trữ",
+        "subtitle": "Xem tại sao được quản lý hoàn toàn đánh bại tự làm cho các doanh nghiệp đang phát triển",
+        "table": {
+          "headers": {
+            "feature": "Tính năng",
+            "seasalt": "Seasalt.ai",
+            "threeCX": "3CX"
+          }
+        },
+        "features": {
+          "platformType": {
+            "name": "Loại nền tảng",
+            "seasalt": "Giao tiếp hợp nhất đám mây gốc",
+            "threeCX": "PBX IP tự lưu trữ hoặc được lưu trữ"
+          },
+          "pricingModel": {
+            "name": "Mô hình định giá",
+            "seasalt": "Phí đơn giản theo người dùng",
+            "threeCX": "Theo cuộc gọi đồng thời + Lưu trữ + Hỗ trợ"
+          },
+          "managementOverhead": {
+            "name": "Chi phí quản lý",
+            "seasalt": "Không (Được Seasalt.ai quản lý hoàn toàn)",
+            "threeCX": "Cao (Yêu cầu chuyên môn kỹ thuật để thiết lập & bảo trì)"
+          },
+          "omnichannelInbox": {
+            "name": "Hộp thư đến đa kênh",
+            "seasalt": "Có, bản địa",
+            "threeCX": "Không, chủ yếu là hệ thống điện thoại"
+          },
+          "aiCapabilities": {
+            "name": "Khả năng AI",
+            "seasalt": "Có, Voice & Chatbot bản địa",
+            "threeCX": "Tiện ích bổ sung \"Sắp ra mắt\""
+          },
+          "bestFor": {
+            "name": "Tốt nhất cho",
+            "seasalt": "Các doanh nghiệp muốn một giải pháp tất cả trong một mạnh mẽ, dễ sử dụng",
+            "threeCX": "Các tổ chức am hiểu công nghệ muốn kiểm soát hoàn toàn PBX của họ"
+          }
+        }
+      },
+      "hiddenCosts": {
+        "title": "Chi phí ẩn của 3CX \"phải chăng\"",
+        "subtitle": "Xem những gì 3CX không bao gồm trong giá quảng cáo của họ",
+        "seasalt": {
+          "title": "Seasalt.ai: Bao gồm tất cả",
+          "pricing": "25 đô la/nhân viên/tháng",
+          "pricingDescription": "Bao gồm mọi thứ",
+          "cloudHosting": {
+            "title": "Lưu trữ đám mây",
+            "description": "Bao gồm - không quản lý máy chủ"
+          },
+          "support": {
+            "title": "Hỗ trợ",
+            "description": "Bao gồm - hỗ trợ không giới hạn"
+          },
+          "updates": {
+            "title": "Cập nhật & Bảo trì",
+            "description": "Bao gồm - cập nhật tự động"
+          },
+          "ssl": {
+            "title": "Chứng chỉ SSL",
+            "description": "Bao gồm - được quản lý tự động"
+          }
+        },
+        "threeCX": {
+          "title": "3CX: Chi phí ẩn",
+          "baseLicense": {
+            "price": "~25 đô la/tháng (4 cuộc gọi)",
+            "description": "Chỉ giấy phép cơ bản"
+          },
+          "hostingCosts": {
+            "title": "Chi phí lưu trữ",
+            "description": "20-100 đô la+/tháng cho VPS/lưu trữ đám mây"
+          },
+          "supportTickets": {
+            "title": "Phiếu hỗ trợ",
+            "description": "75 đô la+ mỗi phiếu hỗ trợ"
+          },
+          "itManagement": {
+            "title": "Quản lý IT",
+            "description": "Thời gian của bạn hoặc phí tư vấn"
+          },
+          "sslCerts": {
+            "title": "Chứng chỉ SSL",
+            "description": "50-200 đô la+/năm cho chứng chỉ"
+          }
+        },
+        "realCost": {
+          "title": "Tổng chi phí sở hữu thực tế",
+          "description": "Giá quảng cáo của 3CX không bao gồm lưu trữ, hỗ trợ, bảo trì hoặc thời gian bạn sẽ dành để quản lý nó. Đối với hầu hết các doanh nghiệp, tổng chi phí nhanh chóng vượt quá một giải pháp được quản lý hoàn toàn.",
+          "calculation": "Chi phí \"thực tế\" của 3CX: 25 đô la giấy phép + 50 đô la lưu trữ + 75 đô la phiếu hỗ trợ + thời gian của bạn = 150 đô la+ mỗi tháng"
+        }
+      },
+      "technicalComplexity": {
+        "title": "Tập trung vào kinh doanh, không phải quản lý IT",
+        "subtitle": "Xem những gì bạn sẽ cần quản lý với 3CX so với những gì Seasalt.ai xử lý cho bạn",
+        "threeCX": {
+          "title": "Những gì bạn quản lý với 3CX",
+          "serverProvisioning": "Cung cấp và cấu hình máy chủ",
+          "osUpdates": "Cập nhật hệ điều hành và các bản vá bảo mật",
+          "sslInstallation": "Cài đặt và gia hạn chứng chỉ SSL",
+          "firewallConfig": "Cấu hình tường lửa và bảo mật",
+          "backupRecovery": "Sao lưu và phục hồi thảm họa",
+          "troubleshooting": "Khắc phục sự cố và phiếu hỗ trợ",
+          "capacityPlanning": "Lập kế hoạch năng lực và mở rộng quy mô"
+        },
+        "seasalt": {
+          "title": "Những gì Seasalt.ai xử lý",
+          "infrastructure": "Quản lý cơ sở hạ tầng hoàn chỉnh",
+          "securityUpdates": "Cập nhật bảo mật tự động",
+          "sslManagement": "Chứng chỉ SSL được quản lý tự động",
+          "enterpriseSecurity": "Bảo mật cấp doanh nghiệp tích hợp",
+          "backups": "Sao lưu và dự phòng tự động",
+          "monitoring": "Giám sát và hỗ trợ 24/7",
+          "scaling": "Mở rộng quy mô và tối ưu hóa tự động"
+        }
+      },
+      "cta": {
+        "title": "Tập trung vào phát triển doanh nghiệp của bạn, không phải quản lý máy chủ",
+        "subtitle": "Tại sao phải dành thời gian cho quản lý IT khi bạn có thể nói chuyện với khách hàng? Có được một giải pháp được quản lý hoàn toàn hoạt động hiệu quả.",
+        "signUp": "Đăng ký",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "dialpadAlternative": {
+      "seo": {
+        "title": "Thay thế Dialpad: Trung tâm liên hệ hợp nhất so với nâng cấp đắt đỏ | Seasalt.ai",
+        "description": "Đừng bị mắc kẹt bởi chi phí nâng cấp của Dialpad. Có được một trung tâm liên hệ hợp nhất ngay từ đầu với Seasalt.ai - các tính năng đầy đủ với giá 25 đô la/nhân viên/tháng so với 80 đô la+ cho cấp trung tâm liên hệ của Dialpad."
+      },
+      "nav": {
+        "backLink": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": "Đừng trả thêm tiền cho một \"Trung tâm liên hệ.\"",
+        "highlight": "Có được một nền tảng hợp nhất ngay từ đầu",
+        "description": "Dialpad cung cấp một nền tảng UCaaS mạnh mẽ với trí tuệ giọng nói xuất sắc (phiên âm và tóm tắt AI) với giá khởi điểm hấp dẫn 15 đô la/người dùng/tháng. Tuy nhiên, đây không phải là giải pháp trung tâm liên hệ của họ. Các tính năng trung tâm liên hệ thực sự, bao gồm định tuyến đa kênh và phân tích nâng cao, yêu cầu nâng cấp lên các gói đắt đỏ hơn nhiều như Dialpad Support, bắt đầu từ 80 đô la/người dùng/tháng. Seasalt.ai được xây dựng như một trung tâm liên hệ hợp nhất ngay từ đầu."
+      },
+      "comparison": {
+        "title": "Trung tâm liên hệ hợp nhất so với các sản phẩm riêng biệt",
+        "subtitle": "Xem tại sao bắt đầu với một nền tảng hợp nhất đánh bại việc nâng cấp lên các cấp trung tâm liên hệ đắt đỏ",
+        "table": {
+          "headers": {
+            "feature": "Tính năng",
+            "seasalt": "Seasalt.ai",
+            "dialpad": "Dialpad"
+          }
+        },
+        "features": {
+          "platformArchitecture": {
+            "name": "Kiến trúc nền tảng",
+            "seasalt": "Trung tâm liên hệ hợp nhất thực sự",
+            "dialpad": "Các sản phẩm UCaaS và CCaaS riêng biệt"
+          },
+          "startingPrice": {
+            "name": "Giá khởi điểm (UCaaS)",
+            "seasalt": "25 đô la/nhân viên/tháng",
+            "dialpad": "15 đô la/người dùng/tháng"
+          },
+          "contactCenterPrice": {
+            "name": "Giá trung tâm liên hệ",
+            "seasalt": "25 đô la/nhân viên/tháng",
+            "dialpad": "80 đô la+/người dùng/tháng"
+          },
+          "unifiedVoiceDigital": {
+            "name": "Thoại & Kỹ thuật số hợp nhất",
+            "seasalt": "Có, bao gồm nguyên bản",
+            "dialpad": "Không, yêu cầu gói CCaaS đắt đỏ"
+          },
+          "voiceAI": {
+            "name": "AI giọng nói",
+            "seasalt": "Có, Voicebot & Phiên âm",
+            "dialpad": "Có, phiên âm & tóm tắt mạnh mẽ"
+          },
+          "globalSMS": {
+            "name": "SMS toàn cầu",
+            "seasalt": "Có",
+            "dialpad": "Yêu cầu gói Pro (25 đô la/tháng+)"
+          },
+          "bestFor": {
+            "name": "Tốt nhất cho",
+            "seasalt": "Các SME muốn một trung tâm liên hệ đơn giản, mạnh mẽ và thực sự hợp nhất",
+            "dialpad": "Các doanh nghiệp ưu tiên AI cho các cuộc gọi thoại nhưng không cần hộp thư đến kỹ thuật số hợp nhất"
+          }
+        }
+      },
+      "pricingTiers": {
+        "title": "Bẫy nâng cấp trung tâm liên hệ",
+        "subtitle": "Xem cách giá khởi điểm hấp dẫn của Dialpad dẫn đến các nâng cấp đắt đỏ cho các tính năng trung tâm liên hệ",
+        "dialpadStandard": {
+          "title": "Dialpad Standard",
+          "price": "15 đô la",
+          "period": "/người dùng/tháng",
+          "features": {
+            "basicCalling": "Gọi cơ bản",
+            "voiceIntelligence": "Trí tuệ giọng nói",
+            "noOmnichannel": "Không đa kênh",
+            "noContactCenter": "Không có tính năng trung tâm liên hệ"
+          },
+          "goodFor": "Tốt cho: Điện thoại doanh nghiệp cơ bản"
+        },
+        "dialpadSupport": {
+          "title": "Dialpad Support",
+          "price": "80 đô la+",
+          "period": "/người dùng/tháng",
+          "features": {
+            "contactCenterFeatures": "Tính năng trung tâm liên hệ",
+            "omnichannelRouting": "Định tuyến đa kênh",
+            "advancedAnalytics": "Phân tích nâng cao",
+            "digitalChannels": "Các kênh kỹ thuật số"
+          },
+          "requiredFor": "Yêu cầu cho: Nhu cầu trung tâm liên hệ"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "price": "25 đô la",
+          "period": "/nhân viên/tháng",
+          "features": {
+            "fullContactCenter": "Trung tâm liên hệ đầy đủ",
+            "allChannelsIncluded": "Bao gồm tất cả các kênh",
+            "aiVoiceChat": "AI giọng nói & trò chuyện",
+            "noUpgradeRequired": "Không yêu cầu nâng cấp"
+          },
+          "perfectFor": "Hoàn hảo cho: Giải pháp hoàn chỉnh"
+        }
+      },
+      "costAnalysis": {
+        "title": "Chi phí thực tế của các tính năng trung tâm liên hệ",
+        "subtitle": "Xem cách chi phí nâng cấp của Dialpad so với giá hợp nhất của Seasalt.ai",
+        "agents5": {
+          "title": "5 nhân viên",
+          "seasalt": {
+            "price": "125 đô la/tháng",
+            "label": "Seasalt.ai (Hoàn chỉnh)"
+          },
+          "dialpadBasic": {
+            "price": "75 đô la/tháng",
+            "label": "Dialpad (Chỉ cơ bản)"
+          },
+          "dialpadCC": {
+            "price": "400 đô la/tháng",
+            "label": "Dialpad (Trung tâm liên hệ)"
+          }
+        },
+        "agents10": {
+          "title": "10 nhân viên",
+          "seasalt": {
+            "price": "275 đô la/tháng",
+            "label": "Seasalt.ai (Hoàn chỉnh)"
+          },
+          "dialpadBasic": {
+            "price": "150 đô la/tháng",
+            "label": "Dialpad (Chỉ cơ bản)"
+          },
+          "dialpadCC": {
+            "price": "800 đô la/tháng",
+            "label": "Dialpad (Trung tâm liên hệ)"
+          }
+        },
+        "agents20": {
+          "title": "20 nhân viên",
+          "seasalt": {
+            "price": "525 đô la/tháng",
+            "label": "Seasalt.ai (Hoàn chỉnh)"
+          },
+          "dialpadBasic": {
+            "price": "300 đô la/tháng",
+            "label": "Dialpad (Chỉ cơ bản)"
+          },
+          "dialpadCC": {
+            "price": "1.600 đô la/tháng",
+            "label": "Dialpad (Trung tâm liên hệ)"
+          }
+        }
+      },
+      "voiceAI": {
+        "title": "AI giọng nói: Cả hai nền tảng đều xuất sắc",
+        "subtitle": "Cả hai nền tảng đều cung cấp khả năng AI giọng nói mạnh mẽ, nhưng trong các ngữ cảnh khác nhau",
+        "seasalt": {
+          "title": "Seasalt.ai: Bộ AI hoàn chỉnh",
+          "features": {
+            "voicebotHandling": "Voicebot AI để xử lý cuộc gọi tự động",
+            "realtimeTranscription": "Phiên âm và tóm tắt thời gian thực",
+            "aiChatbots": "Chatbot AI cho các kênh kỹ thuật số",
+            "unifiedAI": "AI hợp nhất trên tất cả các kênh",
+            "includedPricing": "Bao gồm trong giá cơ bản"
+          }
+        },
+        "dialpad": {
+          "title": "Dialpad: AI tập trung vào giọng nói",
+          "features": {
+            "excellentTranscription": "Phiên âm thời gian thực xuất sắc",
+            "aiSummaries": "Tóm tắt cuộc gọi do AI hỗ trợ",
+            "sentimentAnalysis": "Phân tích cảm xúc",
+            "limitedVoiceOnly": "Chỉ giới hạn ở kênh thoại",
+            "noAutomatedHandling": "Không xử lý cuộc gọi tự động"
+          }
+        }
+      },
+      "cta": {
+        "title": "Bỏ qua con đường nâng cấp đắt đỏ",
+        "description": "Tại sao phải bắt đầu với các tính năng cơ bản và trả tiền gấp 3 lần cho các khả năng trung tâm liên hệ? Có được mọi thứ bạn cần ngay từ ngày đầu với một phần nhỏ chi phí.",
+        "buttons": {
+          "signUp": "Đăng ký",
+          "bookDemo": "Đặt lịch demo"
+        }
+      }
+    },
+    "eightXEightAlternative": {
+      "seo": {
+        "title": "Thay thế 8x8: Tính năng doanh nghiệp mà không có giá doanh nghiệp | Seasalt.ai",
+        "description": "Có được các tính năng đa kênh cấp doanh nghiệp bạn cần với giá cả thân thiện với SME. Giải pháp thay thế minh bạch, đơn giản và giá cả phải chăng cho các giải pháp doanh nghiệp 8x8 phức tạp."
+      },
+      "nav": {
+        "backLink": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": "Có được các tính năng doanh nghiệp bạn cần,",
+        "highlight": "Mà không có giá doanh nghiệp bạn không cần",
+        "description": "8x8 là một giải pháp toàn diện, cấp doanh nghiệp cung cấp đầy đủ các tính năng UCaaS và CCaaS, bao gồm định tuyến đa kênh thực sự và phân tích nâng cao. Mặc dù mạnh mẽ, nhưng giá của nó không rõ ràng (dựa trên báo giá) và lịch sử đắt đỏ, nhắm mục tiêu các tổ chức lớn hơn. Đối với các SME, sự phức tạp và chi phí thường là rào cản. Seasalt.ai cung cấp các tính năng đa kênh và AI chính thúc đẩy giá trị cho một doanh nghiệp đang phát triển."
+      },
+      "comparison": {
+        "title": "Tập trung vào SME so với phức tạp của doanh nghiệp",
+        "subtitle": "Xem tại sao đơn giản và minh bạch đánh bại phức tạp và không rõ ràng cho các doanh nghiệp đang phát triển",
+        "table": {
+          "headers": {
+            "feature": "Tính năng",
+            "seasalt": "Seasalt.ai",
+            "eightXEight": "8x8"
+          }
+        },
+        "features": {
+          "targetCustomer": {
+            "name": "Khách hàng mục tiêu",
+            "seasalt": "Doanh nghiệp nhỏ và vừa (SME)",
+            "eightXEight": "Thị trường trung bình đến doanh nghiệp"
+          },
+          "pricingModel": {
+            "name": "Mô hình định giá",
+            "seasalt": "Phí đơn giản & có thể dự đoán được theo người dùng",
+            "eightXEight": "Dựa trên báo giá (Các cấp độ đắt đỏ trong lịch sử)"
+          },
+          "startingPrice": {
+            "name": "Giá khởi điểm",
+            "seasalt": "25 đô la/nhân viên/tháng",
+            "eightXEight": "Không được niêm yết công khai (Trước đây bắt đầu từ 24 đô la/tháng cho UCaaS cơ bản)"
+          },
+          "omnichannelRouting": {
+            "name": "Định tuyến đa kênh",
+            "seasalt": "Có",
+            "eightXEight": "Có, nâng cao"
+          },
+          "workforceManagement": {
+            "name": "Quản lý lực lượng lao động",
+            "seasalt": "Cơ bản",
+            "eightXEight": "Có, nâng cao"
+          },
+          "easeOfSetup": {
+            "name": "Dễ thiết lập",
+            "seasalt": "Đơn giản, tự phục vụ",
+            "eightXEight": "Phức tạp, phải liên hệ bán hàng"
+          },
+          "bestFor": {
+            "name": "Tốt nhất cho",
+            "seasalt": "Các SME cần một nền tảng mạnh mẽ nhưng giá cả phải chăng và dễ sử dụng",
+            "eightXEight": "Các doanh nghiệp lớn yêu cầu một bộ đầy đủ các công cụ giao tiếp và quản lý nâng cao"
+          }
+        }
+      },
+      "pricingTransparency": {
+        "title": "Giá cả minh bạch so với ẩn",
+        "subtitle": "Tại sao giá dựa trên báo giá tạo ra rào cản cho các doanh nghiệp đang phát triển",
+        "seasalt": {
+          "title": "Seasalt.ai: Giá cả minh bạch",
+          "pricing": {
+            "title": "25 đô la/nhân viên/tháng",
+            "description": "Giá cả rõ ràng, được công bố"
+          },
+          "selfService": {
+            "title": "Đăng ký tự phục vụ",
+            "description": "Bắt đầu ngay lập tức, không cần cuộc gọi bán hàng"
+          },
+          "noMinimums": {
+            "title": "Không có mức tối thiểu",
+            "description": "Bắt đầu với 1 người dùng, mở rộng quy mô khi cần"
+          },
+          "predictableCosts": {
+            "title": "Chi phí có thể dự đoán được",
+            "description": "Lập ngân sách và dự báo dễ dàng"
+          }
+        },
+        "eightXEight": {
+          "title": "8x8: Độ phức tạp dựa trên báo giá",
+          "hiddenPricing": {
+            "title": "Giá ẩn",
+            "description": "Phải liên hệ bán hàng để biết giá"
+          },
+          "salesProcess": {
+            "title": "Quy trình bán hàng",
+            "description": "Chu kỳ bán hàng và đàm phán kéo dài"
+          },
+          "enterpriseFocus": {
+            "title": "Tập trung vào doanh nghiệp",
+            "description": "Giá được tối ưu hóa cho các tổ chức lớn"
+          },
+          "complexContracts": {
+            "title": "Hợp đồng phức tạp",
+            "description": "Cam kết nhiều năm và các điều khoản phức tạp"
+          }
+        },
+        "quoteBasedProblem": {
+          "title": "Vấn đề giá dựa trên báo giá",
+          "description": "Khi giá không minh bạch, điều đó thường có nghĩa là nó đắt đỏ. Giá dựa trên báo giá tạo ra rào cản cho các SME cần lập ngân sách và đưa ra quyết định nhanh chóng. Nó được thiết kế cho người mua doanh nghiệp với đội ngũ mua sắm chuyên dụng và ngân sách lớn."
+        }
+      },
+      "featureComparison": {
+        "title": "Thiết yếu so với quá kỹ thuật",
+        "subtitle": "Xem cách Seasalt.ai tập trung vào những gì SME thực sự cần so với sự phức tạp của doanh nghiệp",
+        "seasalt": {
+          "title": "Seasalt.ai: Tập trung vào SME",
+          "features": {
+            "essentialOmnichannel": "Các tính năng đa kênh thiết yếu",
+            "aiAutomation": "Tự động hóa AI bao gồm",
+            "simpleSetup": "Thiết lập và quản lý đơn giản",
+            "intuitiveUI": "Giao diện người dùng trực quan",
+            "affordableScaling": "Mở rộng quy mô giá cả phải chăng",
+            "fastTimeToValue": "Thời gian tạo giá trị nhanh"
+          }
+        },
+        "eightXEight": {
+          "title": "8x8: Phức tạp của doanh nghiệp",
+          "features": {
+            "advancedWorkforce": "Quản lý lực lượng lao động nâng cao",
+            "comprehensiveAnalytics": "Bộ phân tích toàn diện",
+            "complexImplementation": "Yêu cầu triển khai phức tạp",
+            "steepLearning": "Đường cong học tập dốc",
+            "highTotalCost": "Tổng chi phí sở hữu cao",
+            "longDeployment": "Thời gian triển khai dài"
+          }
+        }
+      },
+      "businessImpact": {
+        "title": "So sánh tác động kinh doanh",
+        "subtitle": "Cách lựa chọn nền tảng ảnh hưởng đến hoạt động kinh doanh và tăng trưởng của bạn",
+        "timeToDeploy": {
+          "title": "Thời gian triển khai",
+          "seasalt": {
+            "value": "Vài phút",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "Vài tháng",
+            "label": "8x8"
+          }
+        },
+        "learningCurve": {
+          "title": "Đường cong học tập",
+          "seasalt": {
+            "value": "Thấp",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "Cao",
+            "label": "8x8"
+          }
+        },
+        "totalCost": {
+          "title": "Tổng chi phí",
+          "seasalt": {
+            "value": "Có thể dự đoán được",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "Biến động",
+            "label": "8x8"
+          }
+        }
+      },
+      "cta": {
+        "title": "Có được sức mạnh doanh nghiệp với sự đơn giản của SME",
+        "description": "Tại sao phải đối phó với sự phức tạp của doanh nghiệp khi bạn có thể có các tính năng bạn cần trong một gói đơn giản, giá cả phải chăng được thiết kế cho các doanh nghiệp đang phát triển?",
+        "buttons": {
+          "signUp": "Đăng ký",
+          "bookDemo": "Đặt lịch demo"
+        }
+      }
+    },
+    "openPhoneAlternative": {
+      "seo": {
+        "title": "Thay thế OpenPhone: Đa kênh thực sự vượt ra ngoài điện thoại & SMS | Seasalt.ai",
+        "description": "Tốt nghiệp từ các giới hạn thoại/SMS của OpenPhone sang một nền tảng đa kênh hoàn chỉnh. Có được WhatsApp, trò chuyện web, tự động hóa AI và định tuyến nâng cao với giá 25 đô la/nhân viên."
+      },
+      "nav": {
+        "backLink": "Quay lại tổng quan so sánh"
+      },
+      "hero": {
+        "title": "Doanh nghiệp của bạn cần nhiều hơn chỉ một số điện thoại.",
+        "highlight": "Tốt nghiệp lên một nền tảng giao tiếp thực sự",
+        "description": "OpenPhone là một hệ thống điện thoại doanh nghiệp hiện đại, xuất sắc và giá cả phải chăng, hoàn hảo cho các nhóm cần một số điện thoại dùng chung cho các cuộc gọi và tin nhắn. Tuy nhiên, nó không phải là một trung tâm liên hệ đa kênh. Nó thiếu các kênh quan trọng như trò chuyện web và mạng xã hội, và khả năng tự động hóa và AI của nó bị giới hạn ở các tiện ích bổ sung hoặc tích hợp cơ bản. Seasalt.ai là bước tiếp theo hợp lý cho các doanh nghiệp đã vượt quá một giải pháp điện thoại đơn giản."
+      },
+      "comparison": {
+        "title": "Hệ thống điện thoại so với nền tảng giao tiếp hoàn chỉnh",
+        "subtitle": "Xem tại sao các doanh nghiệp đang phát triển cần nhiều hơn chỉ dịch vụ điện thoại cơ bản",
+        "table": {
+          "headers": {
+            "feature": "Tính năng",
+            "seasalt": "Seasalt.ai",
+            "openPhone": "OpenPhone"
+          }
+        },
+        "features": {
+          "platformType": {
+            "name": "Loại nền tảng",
+            "seasalt": "Trung tâm liên hệ đa kênh",
+            "openPhone": "Hệ thống điện thoại doanh nghiệp (VoIP)"
+          },
+          "supportedChannels": {
+            "name": "Các kênh được hỗ trợ",
+            "seasalt": "Thoại, SMS, WhatsApp, Trò chuyện web, Mạng xã hội",
+            "openPhone": "Chỉ thoại & SMS/MMS"
+          },
+          "unifiedInbox": {
+            "name": "Hộp thư đến hợp nhất",
+            "seasalt": "Có, cho tất cả các kênh",
+            "openPhone": "Có, nhưng chỉ cho cuộc gọi & tin nhắn"
+          },
+          "aiFeatures": {
+            "name": "Tính năng AI giọng nói/Chatbot",
+            "seasalt": "Có, bản địa và bao gồm",
+            "openPhone": "AI là tiện ích bổ sung trả phí (49 đô la/tháng)"
+          },
+          "advancedRouting": {
+            "name": "Định tuyến nâng cao",
+            "seasalt": "Có, dựa trên kỹ năng & IVR",
+            "openPhone": "IVR cơ bản trên gói Business (23 đô la/tháng+)"
+          },
+          "crmIntegrations": {
+            "name": "Tích hợp CRM",
+            "seasalt": "Có",
+            "openPhone": "HubSpot/Salesforce chỉ trên gói Business"
+          },
+          "bestFor": {
+            "name": "Tốt nhất cho",
+            "seasalt": "Các doanh nghiệp cần quản lý tất cả các kênh giao tiếp khách hàng ở một nơi",
+            "openPhone": "Các nhóm nhỏ và công ty khởi nghiệp cần một số điện thoại dùng chung đơn giản, giá cả phải chăng"
+          }
+        }
+      },
+      "growthLimitations": {
+        "title": "Khi bạn vượt quá một hệ thống điện thoại đơn giản",
+        "subtitle": "Dấu hiệu cho thấy đã đến lúc nâng cấp từ OpenPhone lên một nền tảng giao tiếp hoàn chỉnh",
+        "customerChat": {
+          "title": "Khách hàng muốn trò chuyện",
+          "description": "Khách hàng của bạn đang yêu cầu trò chuyện trên trang web, hỗ trợ WhatsApp hoặc nhắn tin mạng xã hội mà OpenPhone không thể cung cấp."
+        },
+        "automation": {
+          "title": "Bạn cần tự động hóa",
+          "description": "Bạn muốn AI xử lý các câu hỏi thường xuyên, đặt lịch hẹn hoặc cung cấp hỗ trợ 24/7 vượt ra ngoài các phản hồi tự động cơ bản."
+        },
+        "complexRouting": {
+          "title": "Định tuyến cuộc gọi phức tạp",
+          "description": "Bạn cần IVR nâng cao, định tuyến dựa trên kỹ năng hoặc quản lý hàng đợi vượt ra ngoài các tính năng cơ bản của OpenPhone."
+        },
+        "marketingCampaigns": {
+          "title": "Chiến dịch tiếp thị",
+          "description": "Bạn muốn chạy các chiến dịch SMS đi, tiếp thị WhatsApp hoặc tiếp cận khách hàng đa kênh."
+        },
+        "unifiedCustomerView": {
+          "title": "Chế độ xem khách hàng hợp nhất",
+          "description": "Bạn cần xem tất cả các tương tác của khách hàng trên các kênh, không chỉ cuộc gọi điện thoại và tin nhắn."
+        },
+        "advancedAnalytics": {
+          "title": "Phân tích nâng cao",
+          "description": "Bạn muốn báo cáo chi tiết về các tương tác của khách hàng, hiệu suất của nhân viên và các chỉ số kinh doanh."
+        }
+      },
+      "featureExpansion": {
+        "title": "Những gì bạn đạt được với Seasalt.ai",
+        "subtitle": "Giữ lại mọi thứ bạn yêu thích ở OpenPhone và thêm các khả năng đa kênh mạnh mẽ",
+        "keepWorks": {
+          "title": "Giữ lại những gì hoạt động",
+          "sharedNumber": "Số điện thoại doanh nghiệp dùng chung",
+          "teamSMS": "Nhắn tin SMS và MMS nhóm",
+          "simpleInterface": "Giao diện đơn giản, trực quan",
+          "mobileApp": "Ứng dụng di động để sử dụng khi đang di chuyển",
+          "affordablePricing": "Giá cả phải chăng"
+        },
+        "addCapabilities": {
+          "title": "Thêm khả năng mới",
+          "whatsapp": "Tích hợp WhatsApp Business",
+          "webchat": "Widget trò chuyện trang web",
+          "socialMedia": "Nhắn tin mạng xã hội",
+          "aiVoicebots": "Voicebot và chatbot AI",
+          "analytics": "Phân tích và báo cáo nâng cao"
+        }
+      },
+      "pricingComparison": {
+        "title": "So sánh giá",
+        "subtitle": "Xem cách nền tảng hoàn chỉnh của Seasalt.ai so với OpenPhone với các tiện ích bổ sung",
+        "openPhoneStarter": {
+          "title": "OpenPhone Starter",
+          "price": "15 đô la",
+          "period": "/người dùng/tháng",
+          "voiceOnly": "Chỉ thoại & SMS",
+          "noAI": "Không có tính năng AI",
+          "noChannels": "Không có kênh khác"
+        },
+        "openPhoneAddons": {
+          "title": "OpenPhone + Tiện ích bổ sung",
+          "price": "72 đô la",
+          "period": "/người dùng/tháng",
+          "businessPlan": "Gói Business (23 đô la)",
+          "aiFeatures": "Tính năng AI (49 đô la)",
+          "stillLimited": "Vẫn chỉ thoại & SMS"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "price": "25 đô la",
+          "period": "/nhân viên/tháng",
+          "allChannels": "Bao gồm tất cả các kênh",
+          "aiIncluded": "Bao gồm AI",
+          "completePlatform": "Nền tảng hoàn chỉnh"
+        }
+      },
+      "migrationPath": {
+        "title": "Đường dẫn di chuyển dễ dàng",
+        "subtitle": "Chuyển đổi liền mạch từ OpenPhone sang Seasalt.ai mà không mất số điện thoại hoặc làm gián đoạn dịch vụ",
+        "keepNumber": {
+          "title": "Giữ số điện thoại của bạn",
+          "description": "Chuyển số điện thoại doanh nghiệp hiện có của bạn sang Seasalt.ai"
+        },
+        "addChannels": {
+          "title": "Thêm kênh mới",
+          "description": "Kết nối WhatsApp, trò chuyện web và mạng xã hội"
+        },
+        "enableAI": {
+          "title": "Bật AI",
+          "description": "Thiết lập các phản hồi tự động và voicebot"
+        },
+        "trainTeam": {
+          "title": "Đào tạo nhóm của bạn",
+          "description": "Giới thiệu nhanh chóng các tính năng và khả năng mới"
+        }
+      },
+      "cta": {
+        "title": "Sẵn sàng nâng cấp nền tảng giao tiếp của bạn?",
+        "description": "Giữ lại mọi thứ bạn yêu thích ở OpenPhone và thêm các khả năng đa kênh mạnh mẽ sẽ giúp doanh nghiệp của bạn phát triển.",
+        "buttons": {
+          "signUp": "Đăng ký",
+          "bookDemo": "Đặt lịch demo"
+        }
+      }
+    }
+  },
+  "channelsOverview": {
+    "seo": {
+      "title": "Các kênh giao tiếp - Seasalt.ai",
+      "description": "Kết nối WhatsApp, cuộc gọi điện thoại, SMS, biểu mẫu liên hệ và mạng xã hội trong một bảng điều khiển duy nhất. Quản lý mọi cuộc trò chuyện của khách hàng từ một nền tảng mạnh mẽ."
+    },
+    "hero": {
+      "backToHome": "Quay lại trang chủ",
+      "title": "Mọi kênh khách hàng,",
+      "titleHighlight": "Một nền tảng hợp nhất",
+      "subtitle": "Kết nối WhatsApp, cuộc gọi điện thoại, SMS, biểu mẫu liên hệ và mạng xã hội trong một bảng điều khiển duy nhất. Quản lý mọi cuộc trò chuyện của khách hàng từ một nền tảng mạnh mẽ.",
+      "hubTitle": "Trung tâm Seasalt.ai",
+      "hubSubtitle": "Tất cả các kênh hợp nhất"
+    },
+    "channelsSection": {
+      "title": "Chọn kênh của bạn",
+      "subtitle": "Bắt đầu với các kênh mà khách hàng của bạn sử dụng nhiều nhất, sau đó mở rộng khi bạn phát triển. Mỗi tích hợp mất vài phút, không phải vài tháng."
+    },
+    "channels": {
+      "whatsappBusiness": {
+        "name": "WhatsApp Business",
+        "capabilities": {
+          "0": "Phản hồi chatbot do AI hỗ trợ",
+          "1": "Chiến dịch nhắn tin hàng loạt",
+          "2": "Hỗ trợ tin nhắn thoại",
+          "3": "Tích hợp API Meta Cloud"
+        }
+      },
+      "voicePhoneCalls": {
+        "name": "Thoại & Cuộc gọi điện thoại",
+        "capabilities": {
+          "0": "Voicebot AI với chuyển giao cho con người",
+          "1": "Chiến dịch quay số tự động",
+          "2": "Luân phiên đa nhân viên",
+          "3": "Tích hợp Twilio Flex"
+        }
+      },
+      "smsMessaging": {
+        "name": "Nhắn tin SMS",
+        "capabilities": {
+          "0": "Chiến dịch SMS hàng loạt",
+          "1": "Cuộc trò chuyện hai chiều",
+          "2": "Giao hàng toàn cầu (hơn 200 quốc gia)",
+          "3": "Công cụ tuân thủ TCPA"
+        }
+      },
+      "websiteChatWidget": {
+        "name": "Widget trò chuyện trang web",
+        "capabilities": {
+          "0": "Widget trò chuyện có thể nhúng",
+          "1": "Thiết kế có thể tùy chỉnh",
+          "2": "Biểu mẫu thu hút khách hàng tiềm năng",
+          "3": "Tích hợp WordPress, Shopify"
+        }
+      },
+      "instagramDMs": {
+        "name": "Tin nhắn trực tiếp Instagram",
+        "capabilities": {
+          "0": "Phản hồi tin nhắn trực tiếp tự động",
+          "1": "Xử lý tương tác câu chuyện",
+          "2": "AI nhận dạng hình ảnh",
+          "3": "Tích hợp tài khoản doanh nghiệp"
+        }
+      },
+      "facebookMessenger": {
+        "name": "Facebook Messenger",
+        "capabilities": {
+          "0": "Tích hợp doanh nghiệp Facebook",
+          "1": "Tích hợp cửa hàng",
+          "2": "Công cụ tạo khách hàng tiềm năng",
+          "3": "Tính năng bằng chứng xã hội"
+        }
+      },
+      "contactForms": {
+        "name": "Biểu mẫu liên hệ",
+        "capabilities": {
+          "0": "Tích hợp MailerLite",
+          "1": "Đồng bộ hóa biểu mẫu HubSpot",
+          "2": "Tương tác khách hàng tiềm năng tức thì",
+          "3": "Đồng bộ hóa CRM"
+        }
+      },
+      "lineBusiness": {
+        "name": "LINE Business",
+        "capabilities": {
+          "0": "Tài khoản chính thức LINE",
+          "1": "Tập trung vào thị trường châu Á",
+          "2": "Nhắn tin doanh nghiệp",
+          "3": "Bản địa hóa văn hóa"
+        }
+      },
+      "websiteWidget": {
+        "name": "Widget trang web",
+        "capabilities": {
+          "0": "Widget đa kênh",
+          "1": "Hỗ trợ WordPress, Shopify, Wix",
+          "2": "Tích hợp MailerLite",
+          "3": "Phân tích nâng cao"
+        }
+      }
+    },
+    "labels": {
+      "difficulty": {
+        "easy": "Dễ",
+        "medium": "Trung bình"
+      },
+      "learnMore": "Tìm hiểu thêm"
+    },
+    "benefitsSection": {
+      "title": "Lợi ích tích hợp",
+      "subtitle": "Khi tất cả các kênh của bạn hoạt động cùng nhau, điều kỳ diệu sẽ xảy ra. Xem tại sao giao tiếp hợp nhất là tương lai của tương tác khách hàng."
+    },
+    "benefits": {
+      "unifiedCustomerView": {
+        "title": "Chế độ xem khách hàng hợp nhất",
+        "description": "Lịch sử trò chuyện duy nhất trên tất cả các kênh với ngữ cảnh hoàn chỉnh"
+      },
+      "consistentAITraining": {
+        "title": "Đào tạo AI nhất quán",
+        "description": "Một cơ sở kiến thức cung cấp phản hồi trên tất cả các nền tảng giao tiếp"
+      },
+      "seamlessHandoffs": {
+        "title": "Chuyển giao liền mạch",
+        "description": "Chuyển đổi cuộc trò chuyện giữa các kênh mà không mất ngữ cảnh hoặc lịch sử"
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng hợp nhất các kênh khách hàng của bạn?",
+      "subtitle": "Bắt đầu với gói miễn phí của chúng tôi và kết nối kênh đầu tiên của bạn trong vài phút. Mở rộng quy mô khi doanh nghiệp của bạn phát triển.",
+      "signUp": "Đăng ký",
+      "bookDemo": "Đặt lịch demo"
+    }
+  }
+}
