@@ -4,738 +4,603 @@
       "inbound": {
         "appointmentBooking": {
           "hero": {
-            "title": "Appointment Booking & Management",
-            "description": "Automate appointment scheduling with AI that understands availability, preferences, and business rules. Reduce no-shows and streamline your booking process with intelligent voice interactions.",
-            "cta": "Automate Appointment Booking"
+            "title": "예약 및 관리",
+            "description": "가용성, 선호도 및 비즈니스 규칙을 이해하는 AI로 예약 일정을 자동화합니다. 지능형 음성 상호 작용으로 노쇼를 줄이고 예약 프로세스를 간소화하세요.",
+            "cta": "예약 자동화"
           },
           "features": {
-            "title": "Smart Appointment Management",
-            "subtitle": "Comprehensive booking system that handles complex scheduling scenarios",
+            "title": "스마트 예약 관리",
+            "subtitle": "복잡한 일정 시나리오를 처리하는 포괄적인 예약 시스템",
             "intelligentScheduling": {
-              "title": "Intelligent Scheduling",
-              "description": "AI-powered appointment booking that understands availability and preferences.",
-              "benefit1": "Real-time availability",
-              "benefit2": "Smart conflict resolution",
-              "benefit3": "Preference matching"
+              "title": "지능형 일정 관리",
+              "description": "가용성 및 선호도를 이해하는 AI 기반 예약.",
+              "benefit1": "실시간 가용성",
+              "benefit2": "스마트 충돌 해결",
+              "benefit3": "선호도 일치"
             },
             "automatedReminders": {
-              "title": "Automated Reminders",
-              "description": "Reduce no-shows with automated appointment reminders and confirmations.",
-              "benefit1": "SMS & voice reminders",
-              "benefit2": "Customizable timing",
-              "benefit3": "Confirmation tracking"
+              "title": "자동 알림",
+              "description": "자동 예약 알림 및 확인으로 노쇼 감소.",
+              "benefit1": "SMS 및 음성 알림",
+              "benefit2": "사용자 정의 가능한 타이밍",
+              "benefit3": "확인 추적"
             },
             "multiProviderSupport": {
-              "title": "Multi-Provider Support",
-              "description": "Manage appointments across multiple providers, locations, and services.",
-              "benefit1": "Provider availability",
-              "benefit2": "Location management",
-              "benefit3": "Service categorization"
+              "title": "다중 제공자 지원",
+              "description": "여러 제공자, 위치 및 서비스에 걸쳐 예약을 관리합니다.",
+              "benefit1": "제공자 가용성",
+              "benefit2": "위치 관리",
+              "benefit3": "서비스 분류"
             }
           },
           "capabilities": {
-            "title": "Complete Booking Solution",
-            "subtitle": "Handle every aspect of appointment management automatically",
+            "title": "완벽한 예약 솔루션",
+            "subtitle": "예약 관리의 모든 측면을 자동으로 처리",
             "appointmentScheduling": {
-              "capability": "Appointment Scheduling",
-              "description": "Book new appointments based on availability and preferences",
-              "feature1": "Available time slots",
-              "feature2": "Provider selection",
-              "feature3": "Service type matching"
+              "capability": "예약",
+              "description": "가용성 및 선호도를 기반으로 새로운 약속 예약",
+              "feature1": "사용 가능한 시간 슬롯",
+              "feature2": "제공자 선택",
+              "feature3": "서비스 유형 일치"
             },
             "rescheduling": {
-              "capability": "Rescheduling",
-              "description": "Modify existing appointments with automatic conflict resolution",
-              "feature1": "Conflict detection",
-              "feature2": "Alternative suggestions",
-              "feature3": "Automatic updates"
+              "capability": "재예약",
+              "description": "자동 충돌 해결로 기존 약속 수정",
+              "feature1": "충돌 감지",
+              "feature2": "대안 제안",
+              "feature3": "자동 업데이트"
             },
             "cancellationManagement": {
-              "capability": "Cancellation Management",
-              "description": "Handle cancellations and waitlist management efficiently",
-              "feature1": "Cancellation policies",
-              "feature2": "Waitlist automation",
-              "feature3": "Refund processing"
+              "capability": "취소 관리",
+              "description": "취소 및 대기 목록 관리를 효율적으로 처리",
+              "feature1": "취소 정책",
+              "feature2": "대기 목록 자동화",
+              "feature3": "환불 처리"
             },
             "reminderSystem": {
-              "capability": "Reminder System",
-              "description": "Automated reminders to reduce no-shows and improve attendance",
-              "feature1": "Multi-channel reminders",
-              "feature2": "Customizable timing",
-              "feature3": "Confirmation requests"
+              "capability": "알림 시스템",
+              "description": "노쇼를 줄이고 참석률을 높이는 자동 알림",
+              "feature1": "다중 채널 알림",
+              "feature2": "사용자 정의 가능한 타이밍",
+              "feature3": "확인 요청"
             }
           },
           "industries": {
-            "title": "Industry Applications",
-            "subtitle": "Tailored booking solutions for different industries and use cases",
+            "title": "산업 응용",
+            "subtitle": "다양한 산업 및 사용 사례에 맞춘 예약 솔루션",
             "healthcare": {
-              "industry": "Healthcare",
-              "description": "Medical appointments, consultations, and procedures",
-              "benefit1": "Patient scheduling",
-              "benefit2": "Provider coordination",
-              "benefit3": "Insurance verification"
+              "industry": "의료",
+              "description": "의료 약속, 상담 및 절차",
+              "benefit1": "환자 일정 관리",
+              "benefit2": "제공자 조정",
+              "benefit3": "보험 확인"
             },
             "beautyWellness": {
-              "industry": "Beauty & Wellness",
-              "description": "Salon appointments, spa services, and wellness sessions",
-              "benefit1": "Service duration tracking",
-              "benefit2": "Stylist preferences",
-              "benefit3": "Package bookings"
+              "industry": "미용 및 웰빙",
+              "description": "미용실 예약, 스파 서비스 및 웰빙 세션",
+              "benefit1": "서비스 기간 추적",
+              "benefit2": "스타일리스트 선호도",
+              "benefit3": "패키지 예약"
             },
             "professionalServices": {
-              "industry": "Professional Services",
-              "description": "Consultations, meetings, and service appointments",
-              "benefit1": "Meeting room booking",
-              "benefit2": "Consultant availability",
-              "benefit3": "Client preferences"
+              "industry": "전문 서비스",
+              "description": "상담, 회의 및 서비스 약속",
+              "benefit1": "회의실 예약",
+              "benefit2": "컨설턴트 가용성",
+              "benefit3": "클라이언트 선호도"
             }
           },
           "reminderSection": {
-            "title": "Automated Reminder System",
-            "description": "Significantly reduce no-shows with intelligent reminder campaigns that reach customers through their preferred communication channels at optimal times.",
+            "title": "자동 알림 시스템",
+            "description": "고객이 선호하는 커뮤니케이션 채널을 통해 최적의 시간에 도달하는 지능형 알림 캠페인으로 노쇼를 크게 줄입니다.",
             "multiChannelReminders": {
-              "title": "Multi-Channel Reminders",
-              "description": "Voice calls, SMS, and email reminders"
+              "title": "다중 채널 알림",
+              "description": "음성 통화, SMS 및 이메일 알림"
             },
             "optimalTiming": {
-              "title": "Optimal Timing",
-              "description": "AI determines best times to send reminders"
+              "title": "최적의 타이밍",
+              "description": "AI가 알림을 보내는 최적의 시간을 결정합니다."
             },
             "performanceTracking": {
-              "title": "Performance Tracking",
-              "description": "Monitor reminder effectiveness and optimize"
+              "title": "성과 추적",
+              "description": "알림 효과를 모니터링하고 최적화합니다."
             },
             "reminderTimeline": {
-              "title": "Reminder Timeline"
+              "title": "알림 타임라인"
             },
             "timeline": {
               "initialConfirmation": {
-                "title": "Initial Confirmation",
-                "description": "Appointment confirmation and details"
+                "title": "초기 확인",
+                "description": "예약 확인 및 세부 정보"
               },
               "dayBefore": {
-                "title": "Day Before Reminder",
-                "description": "Final reminder with preparation instructions"
+                "title": "하루 전 알림",
+                "description": "준비 지침이 포함된 최종 알림"
               },
               "lastMinute": {
-                "title": "Last Minute Check",
-                "description": "Final confirmation and directions"
+                "title": "마지막 순간 확인",
+                "description": "최종 확인 및 길 안내"
               },
-              "sevenDays": "7d",
-              "oneDay": "1d",
-              "twoHours": "2h"
+              "sevenDays": "7일",
+              "oneDay": "1일",
+              "twoHours": "2시간"
             }
           },
           "benefits": {
-            "title": "Booking Performance Results",
-            "subtitle": "Measurable improvements in appointment management efficiency",
+            "title": "예약 성과 결과",
+            "subtitle": "예약 관리 효율성의 측정 가능한 개선",
             "noShowReduction": {
               "metric": "40%",
-              "description": "Reduction in no-show rates"
+              "description": "노쇼율 감소"
             },
             "availabilityWindow": {
-              "metric": "24/7",
-              "description": "Booking availability"
+              "metric": "연중무휴",
+              "description": "예약 가용성"
             },
             "bookingAccuracy": {
               "metric": "85%",
-              "description": "Booking accuracy rate"
+              "description": "예약 정확도"
             },
             "workloadReduction": {
               "metric": "60%",
-              "description": "Reduction in admin workload"
+              "description": "관리 업무량 감소"
             }
           },
           "cta": {
-            "title": "Ready to Automate Appointment Booking?",
-            "description": "Streamline scheduling and reduce no-shows with intelligent appointment management",
-            "startFreeTrial": "Start Free Trial",
-            "scheduleDemo": "Schedule Demo"
+            "title": "예약 자동화를 위한 준비가 되셨습니까?",
+            "description": "지능형 예약 관리로 일정 관리를 간소화하고 노쇼를 줄입니다.",
+            "startFreeTrial": "무료 체험 시작",
+            "scheduleDemo": "데모 예약"
           }
         },
         "mentalHealth": {
           "hero": {
-            "title": "Mental Health Voice Companion",
-            "description": "Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
-            "cta": "Learn About Mental Health AI"
+            "title": "정신 건강 음성 동반자",
+            "description": "공감으로 경청하고, 이해하며, 응답하는 AI로 공감적인 연중무휴 정신 건강 지원을 제공합니다. 위기와 전문적인 치료 사이의 간극을 안전하게 메웁니다.",
+            "cta": "정신 건강 AI에 대해 알아보기"
           },
           "features": {
-            "title": "Compassionate AI Support",
-            "description": "Advanced AI trained in mental health support and crisis intervention",
+            "title": "공감적인 AI 지원",
+            "description": "정신 건강 지원 및 위기 개입에 훈련된 고급 AI",
             "empathetic": {
-              "title": "Empathetic AI Companion",
-              "description": "Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
+              "title": "공감적인 AI 동반자",
+              "description": "적절한 감정적 반응으로 공감적이고 비판단적인 지원을 제공하도록 훈련되었습니다.",
               "benefits": {
-                "activeListening": "Active listening",
-                "emotionalValidation": "Emotional validation",
-                "crisisRecognition": "Crisis recognition"
+                "activeListening": "적극적인 경청",
+                "emotionalValidation": "감정적 검증",
+                "crisisRecognition": "위기 인식"
               }
             },
             "safe": {
-              "title": "Safe & Confidential",
-              "description": "HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.",
+              "title": "안전 및 기밀",
+              "description": "모든 상호 작용에 대한 완전한 개인 정보 보호 및 기밀성을 보장하는 HIPAA 준수 플랫폼.",
               "benefits": {
-                "hipaaCompliance": "HIPAA compliance",
-                "encryptedConversations": "Encrypted conversations",
-                "anonymousOptions": "Anonymous options"
+                "hipaaCompliance": "HIPAA 준수",
+                "encryptedConversations": "암호화된 대화",
+                "anonymousOptions": "익명 옵션"
               }
             },
             "availability": {
-              "title": "24/7 Availability",
-              "description": "Always available when someone needs to talk, providing immediate support during crisis moments.",
+              "title": "연중무휴 가용성",
+              "description": "누군가 대화가 필요할 때 항상 사용할 수 있으며, 위기 순간에 즉각적인 지원을 제공합니다.",
               "benefits": {
-                "roundTheClockAccess": "Round-the-clock access",
-                "immediateResponse": "Immediate response",
-                "noWaitTimes": "No wait times"
+                "roundTheClockAccess": "연중무휴 액세스",
+                "immediateResponse": "즉각적인 응답",
+                "noWaitTimes": "대기 시간 없음"
               }
             }
           },
           "capabilities": {
-            "title": "Mental Health Support Capabilities",
-            "description": "Comprehensive support across the mental health care spectrum",
+            "title": "정신 건강 지원 기능",
+            "description": "정신 건강 관리 스펙트럼 전반에 걸친 포괄적인 지원",
             "screening": {
-              "title": "Initial Mental Health Screening",
-              "description": "Conduct preliminary assessments using validated screening tools",
+              "title": "초기 정신 건강 검진",
+              "description": "검증된 검진 도구를 사용하여 예비 평가 수행",
               "outcomes": {
-                "earlyIdentification": "Early identification",
-                "riskAssessment": "Risk assessment",
-                "appropriateReferrals": "Appropriate referrals"
+                "earlyIdentification": "조기 식별",
+                "riskAssessment": "위험 평가",
+                "appropriateReferrals": "적절한 추천"
               }
             },
             "crisis": {
-              "title": "Crisis Intervention",
-              "description": "Recognize crisis situations and provide immediate support or escalation",
+              "title": "위기 개입",
+              "description": "위기 상황을 인식하고 즉각적인 지원 또는 에스컬레이션 제공",
               "outcomes": {
-                "crisisDetection": "Crisis detection",
-                "deEscalationTechniques": "De-escalation techniques",
-                "emergencyProtocols": "Emergency protocols"
+                "crisisDetection": "위기 감지",
+                "deEscalationTechniques": "위기 완화 기술",
+                "emergencyProtocols": "긴급 프로토콜"
               }
             },
             "navigation": {
-              "title": "Resource Navigation",
-              "description": "Guide users to appropriate mental health resources and services",
+              "title": "리소스 탐색",
+              "description": "사용자를 적절한 정신 건강 리소스 및 서비스로 안내",
               "outcomes": {
-                "serviceMatching": "Service matching",
-                "appointmentScheduling": "Appointment scheduling",
-                "followUpSupport": "Follow-up support"
+                "serviceMatching": "서비스 일치",
+                "appointmentScheduling": "예약",
+                "followUpSupport": "후속 지원"
               }
             },
             "emotional": {
-              "title": "Emotional Support",
-              "description": "Provide compassionate listening and emotional validation",
+              "title": "정서적 지원",
+              "description": "공감적인 경청 및 정서적 검증 제공",
               "outcomes": {
-                "reducedIsolation": "Reduced isolation",
-                "emotionalRelief": "Emotional relief",
-                "copingStrategies": "Coping strategies"
+                "reducedIsolation": "고립 감소",
+                "emotionalRelief": "정서적 안도",
+                "copingStrategies": "대처 전략"
               }
             }
           },
           "safety": {
-            "title": "Safety-First Design",
-            "description": "Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+            "title": "안전 우선 설계",
+            "description": "저희 정신 건강 AI는 안전을 최우선으로 설계되었으며, 고급 위기 감지 및 즉각적인 에스컬레이션 프로토콜을 통해 필요할 때 사용자가 적절한 전문 치료를 받을 수 있도록 보장합니다.",
             "features": {
-              "title": "Safety Features"
+              "title": "안전 기능"
             },
             "crisisDetection": {
-              "title": "Crisis Detection",
-              "description": "Advanced algorithms identify crisis situations"
+              "title": "위기 감지",
+              "description": "고급 알고리즘이 위기 상황 식별"
             },
             "professionalHandoff": {
-              "title": "Professional Handoff",
-              "description": "Seamless transfer to human mental health professionals"
+              "title": "전문가 인계",
+              "description": "인간 정신 건강 전문가에게 원활하게 전환"
             },
             "emergencyProtocols": {
-              "title": "Emergency Protocols",
-              "description": "Immediate connection to crisis hotlines when needed"
+              "title": "긴급 프로토콜",
+              "description": "필요할 때 위기 핫라인에 즉시 연결"
             }
           },
           "safetyFeatures": {
-            "crisisKeywordDetection": "Crisis keyword detection",
-            "suicideRiskAssessment": "Suicide risk assessment",
-            "automaticEscalationProtocols": "Automatic escalation protocols",
-            "emergencyContactIntegration": "Emergency contact integration",
-            "professionalHandoffProcedures": "Professional handoff procedures",
-            "followUpScheduling": "Follow-up scheduling"
+            "crisisKeywordDetection": "위기 키워드 감지",
+            "suicideRiskAssessment": "자살 위험 평가",
+            "automaticEscalationProtocols": "자동 에스컬레이션 프로토콜",
+            "emergencyContactIntegration": "긴급 연락처 통합",
+            "professionalHandoffProcedures": "전문가 인계 절차",
+            "followUpScheduling": "후속 일정 관리"
           },
           "benefits": {
-            "title": "Mental Health Impact",
-            "description": "Measurable improvements in mental health support accessibility",
-            "alwaysAvailableSupport": "Always available support",
-            "crisisEscalationReduction": "Reduction in crisis escalation",
-            "userSatisfactionRate": "User satisfaction rate",
-            "helpSeekingBehaviorIncrease": "Increase in help-seeking behavior"
+            "title": "정신 건강 영향",
+            "description": "정신 건강 지원 접근성의 측정 가능한 개선",
+            "alwaysAvailableSupport": "항상 사용 가능한 지원",
+            "crisisEscalationReduction": "위기 에스컬레이션 감소",
+            "userSatisfactionRate": "사용자 만족도",
+            "helpSeekingBehaviorIncrease": "도움 요청 행동 증가"
           },
           "cta": {
-            "title": "Ready to Support Mental Health?",
-            "description": "Provide compassionate, 24/7 mental health support with AI that truly cares",
-            "learnMore": "Learn More",
-            "contactSpecialists": "Contact Specialists"
+            "title": "정신 건강을 지원할 준비가 되셨습니까?",
+            "description": "진정으로 돌보는 AI로 공감적인 연중무휴 정신 건강 지원을 제공합니다.",
+            "learnMore": "더 알아보기",
+            "contactSpecialists": "전문가에게 문의"
           }
         },
         "callTransfer": {
           "hero": {
-            "title": "Smart Call Transfer During Business Hours",
-            "description": "Revolutionize your call routing with AI-powered intelligent transfer that understands caller intent and connects them to the right person instantly, reducing wait times and improving customer satisfaction.",
-            "primaryCta": "Optimize Your Call Routing"
+            "title": "영업 시간 중 스마트 통화 전환",
+            "description": "발신자 의도를 이해하고 즉시 적절한 사람에게 연결하여 대기 시간을 줄이고 고객 만족도를 높이는 AI 기반 지능형 전환으로 통화 라우팅을 혁신하세요.",
+            "primaryCta": "통화 라우팅 최적화"
           },
           "features": {
-            "title": "Intelligent Call Routing Features",
-            "description": "Advanced AI technology that understands and routes calls with precision",
+            "title": "지능형 통화 라우팅 기능",
+            "description": "정확하게 통화를 이해하고 라우팅하는 고급 AI 기술",
             "intelligentRouting": {
-              "title": "Intelligent Routing",
-              "description": "AI analyzes caller intent and routes to the most appropriate department or agent.",
-              "benefits": {
-                "0": "Intent recognition",
-                "1": "Skill-based routing",
-                "2": "Priority handling"
-              }
+              "title": "지능형 라우팅",
+              "description": "AI가 발신자 의도를 분석하고 가장 적절한 부서 또는 상담원에게 라우팅합니다.",
+              "benefit1": "의도 인식",
+              "benefit2": "기술 기반 라우팅",
+              "benefit3": "우선 처리"
             },
             "agentOptimization": {
-              "title": "Agent Optimization",
-              "description": "Balance workload across agents and ensure calls reach available specialists.",
-              "benefits": {
-                "0": "Load balancing",
-                "1": "Availability checking",
-                "2": "Expertise matching"
-              }
+              "title": "상담원 최적화",
+              "description": "상담원 간의 업무량을 균형 있게 분배하고 통화가 사용 가능한 전문가에게 도달하도록 보장합니다.",
+              "benefit1": "로드 밸런싱",
+              "benefit2": "가용성 확인",
+              "benefit3": "전문 지식 일치"
             },
             "reducedWaitTimes": {
-              "title": "Reduced Wait Times",
-              "description": "Minimize customer wait times with efficient routing and queue management.",
-              "benefits": {
-                "0": "Queue optimization",
-                "1": "Callback options",
-                "2": "Real-time updates"
-              }
+              "title": "대기 시간 감소",
+              "description": "효율적인 라우팅 및 대기열 관리로 고객 대기 시간을 최소화합니다.",
+              "benefit1": "대기열 최적화",
+              "benefit2": "콜백 옵션",
+              "benefit3": "실시간 업데이트"
             }
           },
           "routing": {
-            "title": "Smart Routing in Action",
-            "description": "See how our AI identifies intent and routes calls for optimal outcomes"
+            "title": "작동 중인 스마트 라우팅",
+            "description": "AI가 의도를 식별하고 최적의 결과를 위해 통화를 라우팅하는 방법을 확인하세요."
           },
           "routingRules": {
             "billingInquiry": {
-              "trigger": "Billing Inquiry",
-              "action": "Route to Billing Department",
-              "result": "90% first-call resolution"
+              "trigger": "청구 문의",
+              "action": "청구 부서로 라우팅",
+              "result": "90% 첫 통화 해결"
             },
             "technicalSupport": {
-              "trigger": "Technical Support",
-              "action": "Route to Technical Team",
-              "result": "85% issue resolution"
+              "trigger": "기술 지원",
+              "action": "기술 팀으로 라우팅",
+              "result": "85% 문제 해결"
             },
             "salesInterest": {
-              "trigger": "Sales Interest",
-              "action": "Route to Sales Team",
-              "result": "40% conversion rate"
+              "trigger": "판매 관심",
+              "action": "영업 팀으로 라우팅",
+              "result": "40% 전환율"
             },
             "vipCustomer": {
-              "trigger": "VIP Customer",
-              "action": "Priority Queue",
-              "result": "< 30 second wait time"
+              "trigger": "VIP 고객",
+              "action": "우선 대기열",
+              "result": "< 30초 대기 시간"
             }
           },
           "benefits": {
-            "title": "Measurable Impact",
-            "description": "Real results from implementing intelligent call transfer"
+            "title": "측정 가능한 영향",
+            "description": "지능형 통화 전환 구현의 실제 결과"
           },
           "metrics": {
             "waitTime": {
-              "description": "Reduction in average wait time"
+              "description": "평균 대기 시간 감소"
             },
             "resolution": {
-              "description": "First-call resolution rate"
+              "description": "첫 통화 해결률"
             },
             "efficiency": {
-              "description": "Improvement in agent efficiency"
+              "description": "상담원 효율성 향상"
             },
             "accuracy": {
-              "description": "Accurate routing to correct department"
+              "description": "올바른 부서로 정확한 라우팅"
             }
           },
           "cta": {
-            "title": "Ready to Optimize Your Call Routing?",
-            "description": "Reduce wait times and improve customer satisfaction with intelligent call transfer",
-            "primaryButton": "Start Free Trial",
-            "secondaryButton": "See Demo"
+            "title": "통화 라우팅을 최적화할 준비가 되셨습니까?",
+            "description": "지능형 통화 전환으로 대기 시간을 줄이고 고객 만족도를 높입니다.",
+            "primaryButton": "무료 체험 시작",
+            "secondaryButton": "데모 보기"
           }
         },
         "scamShield": {
           "hero": {
-            "title": "Scam Shield Protection",
-            "subtitle": "Protect your customers from phone scams and fraudulent calls with AI-powered detection that identifies and blocks threats in real-time, keeping your community safe from financial fraud.",
-            "cta": "Activate Scam Protection"
+            "title": "스캠 차단 보호",
+            "subtitle": "실시간으로 위협을 식별하고 차단하는 AI 기반 감지로 전화 스캠 및 사기성 통화로부터 고객을 보호하여 커뮤니티를 금융 사기로부터 안전하게 지킵니다.",
+            "cta": "스캠 보호 활성화"
           },
           "features": {
-            "title": "Advanced Scam Detection",
-            "subtitle": "Multi-layered protection against evolving fraud tactics",
+            "title": "고급 스캠 감지",
+            "subtitle": "진화하는 사기 전술에 대한 다층 보호",
             "realTimeDetection": {
-              "title": "Real-Time Scam Detection",
-              "description": "Advanced AI algorithms identify and block fraudulent calls before they reach your customers.",
-              "benefit1": "Pattern recognition",
-              "benefit2": "Behavioral analysis",
-              "benefit3": "Instant blocking"
+              "title": "실시간 스캠 감지",
+              "description": "고급 AI 알고리즘이 사기성 통화가 고객에게 도달하기 전에 식별하고 차단합니다.",
+              "benefit1": "패턴 인식",
+              "benefit2": "행동 분석",
+              "benefit3": "즉시 차단"
             },
             "threatIntelligence": {
-              "title": "Threat Intelligence",
-              "description": "Continuously updated database of known scam patterns and fraudulent phone numbers.",
-              "benefit1": "Global threat data",
-              "benefit2": "Real-time updates",
-              "benefit3": "Machine learning"
+              "title": "위협 인텔리전스",
+              "description": "알려진 스캠 패턴 및 사기성 전화 번호의 지속적으로 업데이트되는 데이터베이스.",
+              "benefit1": "글로벌 위협 데이터",
+              "benefit2": "실시간 업데이트",
+              "benefit3": "머신러닝"
             },
             "customerProtection": {
-              "title": "Customer Protection",
-              "description": "Proactively protect customers from financial fraud and identity theft attempts.",
-              "benefit1": "Fraud prevention",
-              "benefit2": "Identity protection",
-              "benefit3": "Financial security"
+              "title": "고객 보호",
+              "description": "금융 사기 및 신원 도용 시도로부터 고객을 사전 예방적으로 보호합니다.",
+              "benefit1": "사기 방지",
+              "benefit2": "신원 보호",
+              "benefit3": "금융 보안"
             }
           },
           "scamTypes": {
-            "title": "Protected Against All Scam Types",
-            "subtitle": "Comprehensive protection against the most common fraud tactics",
+            "title": "모든 스캠 유형에 대한 보호",
+            "subtitle": "가장 일반적인 사기 전술에 대한 포괄적인 보호",
             "phishing": {
-              "type": "Phishing Calls",
-              "description": "Attempts to steal personal information or login credentials",
-              "detection": "Voice pattern analysis and keyword detection",
-              "action": "Immediate call termination and customer alert"
+              "type": "피싱 통화",
+              "description": "개인 정보 또는 로그인 자격 증명을 훔치려는 시도",
+              "detection": "음성 패턴 분석 및 키워드 감지",
+              "action": "즉시 통화 종료 및 고객 알림"
             },
             "techSupport": {
-              "type": "Tech Support Scams",
-              "description": "Fake technical support claiming computer problems",
-              "detection": "Script pattern recognition and caller ID verification",
-              "action": "Block call and provide legitimate support contact"
+              "type": "기술 지원 스캠",
+              "description": "컴퓨터 문제를 주장하는 가짜 기술 지원",
+              "detection": "스크립트 패턴 인식 및 발신자 ID 확인",
+              "action": "통화 차단 및 합법적인 지원 연락처 제공"
             },
             "financialFraud": {
-              "type": "Financial Fraud",
-              "description": "Impersonating banks or financial institutions",
-              "detection": "Institution verification and voice authentication",
-              "action": "Terminate call and notify real financial institution"
+              "type": "금융 사기",
+              "description": "은행 또는 금융 기관 사칭",
+              "detection": "기관 확인 및 음성 인증",
+              "action": "통화 종료 및 실제 금융 기관에 알림"
             },
             "romance": {
-              "type": "Romance Scams",
-              "description": "Building fake relationships to extract money",
-              "detection": "Conversation pattern analysis and emotional manipulation detection",
-              "action": "Warning alerts and resource provision"
+              "type": "로맨스 스캠",
+              "description": "돈을 갈취하기 위해 가짜 관계 구축",
+              "detection": "대화 패턴 분석 및 감정 조작 감지",
+              "action": "경고 알림 및 리소스 제공"
             },
-            "detectionMethod": "Detection Method:",
-            "protectionAction": "Protection Action:",
-            "detectionMethodLabel": "Detection Method",
-            "protectionActionLabel": "Protection Action"
+            "detectionMethod": "감지 방법:",
+            "protectionAction": "보호 조치:",
+            "detectionMethodLabel": "감지 방법",
+            "protectionActionLabel": "보호 조치"
           },
           "protection": {
-            "title": "Multi-Layer Protection System",
-            "subtitle": "Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "title": "다층 보호 시스템",
+            "description": "저희의 포괄적인 스캠 차단은 여러 감지 방법을 함께 사용하여 합법적인 통화가 항상 통과되도록 하면서 최대 보호를 제공합니다.",
             "realTimeAnalysis": {
-              "title": "Real-Time Analysis",
-              "description": "Instant evaluation of every incoming call"
+              "title": "실시간 분석",
+              "description": "모든 수신 통화에 대한 즉각적인 평가"
             },
             "continuousLearning": {
-              "title": "Continuous Learning",
-              "description": "AI improves detection with every blocked scam"
+              "title": "지속적인 학습",
+              "description": "AI는 차단된 모든 스캠으로 감지를 개선합니다."
             },
             "zeroFalsePositives": {
-              "title": "Zero False Positives",
-              "description": "Legitimate calls are never blocked"
+              "title": "오탐 없음",
+              "description": "합법적인 통화는 절대 차단되지 않습니다."
             },
-            "layersTitle": "Protection Layers",
-            "layer1": "Caller ID verification",
-            "layer2": "Voice pattern analysis",
-            "layer3": "Script detection algorithms",
-            "layer4": "Behavioral anomaly detection",
-            "layer5": "Real-time threat intelligence",
-            "layer6": "Customer education alerts"
+            "layersTitle": "보호 계층",
+            "layer1": "발신자 ID 확인",
+            "layer2": "음성 패턴 분석",
+            "layer3": "스크립트 감지 알고리즘",
+            "layer4": "행동 이상 감지",
+            "layer5": "실시간 위협 인텔리전스",
+            "layer6": "고객 교육 알림"
           },
           "benefits": {
-            "title": "Protection Results",
-            "subtitle": "Proven effectiveness in stopping fraud and protecting customers",
+            "title": "보호 결과",
+            "subtitle": "사기 방지 및 고객 보호에 대한 입증된 효과",
             "accuracy": {
               "metric": "95%",
-              "description": "Scam call detection accuracy"
+              "description": "스캠 통화 감지 정확도"
             },
             "reduction": {
               "metric": "80%",
-              "description": "Reduction in successful fraud attempts"
+              "description": "성공적인 사기 시도 감소"
             },
             "coverage": {
-              "metric": "24/7",
-              "description": "Continuous protection coverage"
+              "metric": "연중무휴",
+              "description": "지속적인 보호 범위"
             },
             "preservation": {
               "metric": "99.9%",
-              "description": "Legitimate call preservation rate"
+              "description": "합법적인 통화 보존율"
             }
           },
           "cta": {
-            "title": "Ready to Protect Your Customers?",
-            "subtitle": "Stop scammers in their tracks with AI-powered fraud detection and protection",
-            "activateProtection": "Activate Protection",
-            "learnMore": "Learn More",
-            "primaryButton": "Activate Protection",
-            "secondaryButton": "Learn More"
+            "title": "고객을 보호할 준비가 되셨습니까?",
+            "subtitle": "AI 기반 사기 감지 및 보호로 스캐머를 막으세요",
+            "activateProtection": "보호 활성화",
+            "learnMore": "더 알아보기",
+            "primaryButton": "보호 활성화",
+            "secondaryButton": "더 알아보기"
           },
           "protectionSystem": {
-            "title": "Multi-Layer Protection System",
-            "subtitle": "Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "title": "다층 보호 시스템",
+            "subtitle": "저희의 포괄적인 스캠 차단은 여러 감지 방법을 함께 사용하여 합법적인 통화가 항상 통과되도록 하면서 최대 보호를 제공합니다.",
             "realTimeAnalysis": {
-              "title": "Real-Time Analysis",
-              "description": "Instant evaluation of every incoming call"
+              "title": "실시간 분석",
+              "description": "모든 수신 통화에 대한 즉각적인 평가"
             },
             "continuousLearning": {
-              "title": "Continuous Learning",
-              "description": "AI improves detection with every blocked scam"
+              "title": "지속적인 학습",
+              "description": "AI는 차단된 모든 스캠으로 감지를 개선합니다."
             },
             "zeroFalsePositives": {
-              "title": "Zero False Positives",
-              "description": "Legitimate calls are never blocked"
+              "title": "오탐 없음",
+              "description": "합법적인 통화는 절대 차단되지 않습니다."
             }
           },
           "results": {
-            "title": "Protection Results",
-            "subtitle": "Proven effectiveness in stopping fraud and protecting customers"
+            "title": "보호 결과",
+            "subtitle": "사기 방지 및 고객 보호에 대한 입증된 효과"
           }
         },
         "paymentProcessing": {
           "hero": {
-            "title": "Secure Payment Processing",
-            "description": "Enable secure, PCI-compliant payment processing through voice interactions. Let customers make payments safely over the phone with advanced fraud protection and instant transaction processing.",
-            "cta": "Enable Secure Payments"
+            "title": "보안 결제 처리",
+            "description": "음성 상호 작용을 통해 안전하고 PCI 준수 결제 처리를 활성화합니다. 고급 사기 방지 및 즉시적인 거래 처리로 고객이 전화로 안전하게 결제할 수 있도록 합니다.",
+            "cta": "보안 결제 활성화"
           },
           "features": {
-            "title": "Secure Voice Payment Features",
-            "subtitle": "Enterprise-grade security meets seamless customer experience",
+            "title": "보안 음성 결제 기능",
+            "subtitle": "엔터프라이즈급 보안과 원활한 고객 경험의 만남",
             "securePayment": {
-              "title": "Secure Payment Processing",
-              "description": "Process payments safely over the phone with PCI-compliant voice technology.",
-              "benefit1": "PCI DSS compliance",
-              "benefit2": "Encrypted transactions",
-              "benefit3": "Multiple payment methods"
+              "title": "보안 결제 처리",
+              "description": "PCI 준수 음성 기술로 전화로 안전하게 결제를 처리합니다.",
+              "benefit1": "PCI DSS 준수",
+              "benefit2": "암호화된 거래",
+              "benefit3": "여러 결제 방법"
             },
             "fraudProtection": {
-              "title": "Fraud Protection",
-              "description": "Advanced fraud detection and prevention to protect both business and customers.",
-              "benefit1": "Real-time fraud detection",
-              "benefit2": "Risk assessment",
-              "benefit3": "Secure authentication"
+              "title": "사기 방지",
+              "description": "비즈니스와 고객을 모두 보호하기 위한 고급 사기 감지 및 방지.",
+              "benefit1": "실시간 사기 감지",
+              "benefit2": "위험 평가",
+              "benefit3": "보안 인증"
             },
             "instantProcessing": {
-              "title": "Instant Processing",
-              "description": "Process payments immediately with real-time authorization and confirmation.",
-              "benefit1": "Real-time authorization",
-              "benefit2": "Instant confirmation",
-              "benefit3": "Immediate receipts"
+              "title": "즉시 처리",
+              "description": "실시간 승인 및 확인으로 즉시 결제를 처리합니다.",
+              "benefit1": "실시간 승인",
+              "benefit2": "즉시 확인",
+              "benefit3": "즉시 영수증"
             }
           },
           "paymentMethods": {
-            "title": "Comprehensive Payment Options",
-            "subtitle": "Accept all major payment methods with secure voice processing",
+            "title": "포괄적인 결제 옵션",
+            "subtitle": "보안 음성 처리로 모든 주요 결제 방법을 허용",
             "creditCards": {
-              "method": "Credit Cards",
-              "description": "Accept all major credit cards with secure voice processing",
+              "method": "신용 카드",
+              "description": "보안 음성 처리로 모든 주요 신용 카드 허용",
               "feature1": "Visa, Mastercard, Amex",
-              "feature2": "CVV verification",
-              "feature3": "Expiry validation"
+              "feature2": "CVV 확인",
+              "feature3": "만료 유효성 검사"
             },
             "debitCards": {
-              "method": "Debit Cards",
-              "description": "Process debit card payments with PIN verification",
-              "feature1": "PIN entry via voice",
-              "feature2": "Bank verification",
-              "feature3": "Instant deduction"
+              "method": "직불 카드",
+              "description": "PIN 확인으로 직불 카드 결제 처리",
+              "feature1": "음성을 통한 PIN 입력",
+              "feature2": "은행 확인",
+              "feature3": "즉시 공제"
             },
             "bankTransfers": {
-              "method": "Bank Transfers",
-              "description": "Direct bank account transfers and ACH payments",
-              "feature1": "Account verification",
-              "feature2": "Routing number validation",
-              "feature3": "ACH processing"
+              "method": "은행 송금",
+              "description": "직접 은행 계좌 송금 및 ACH 결제",
+              "feature1": "계좌 확인",
+              "feature2": "라우팅 번호 유효성 검사",
+              "feature3": "ACH 처리"
             },
             "digitalWallets": {
-              "method": "Digital Wallets",
-              "description": "Support for popular digital payment platforms",
+              "method": "디지털 지갑",
+              "description": "인기 있는 디지털 결제 플랫폼 지원",
               "feature1": "Apple Pay",
               "feature2": "Google Pay",
-              "feature3": "PayPal integration"
+              "feature3": "PayPal 통합"
             }
           },
           "security": {
-            "title": "Bank-Level Security",
-            "description": "Our payment processing system meets the highest security standards in the industry, ensuring that every transaction is protected with multiple layers of encryption and fraud prevention.",
+            "title": "은행 수준 보안",
+            "description": "저희 결제 처리 시스템은 업계 최고 보안 표준을 충족하여 모든 거래가 여러 계층의 암호화 및 사기 방지로 보호되도록 합니다.",
             "endToEndEncryption": {
-              "title": "End-to-End Encryption",
-              "description": "All payment data encrypted in transit and at rest"
+              "title": "종단 간 암호화",
+              "description": "모든 결제 데이터는 전송 중 및 저장 중 암호화됩니다."
             },
             "pciCompliance": {
-              "title": "PCI DSS Compliance",
-              "description": "Level 1 PCI DSS certified infrastructure"
+              "title": "PCI DSS 준수",
+              "description": "레벨 1 PCI DSS 인증 인프라"
             },
             "realTimeMonitoring": {
-              "title": "Real-Time Monitoring",
-              "description": "Continuous fraud detection and prevention"
+              "title": "실시간 모니터링",
+              "description": "지속적인 사기 감지 및 방지"
             },
-            "featuresTitle": "Security Features",
-            "feature1": "End-to-end encryption",
-            "feature2": "PCI DSS Level 1 compliance",
-            "feature3": "Tokenization of card data",
-            "feature4": "Multi-factor authentication",
-            "feature5": "Real-time fraud monitoring",
-            "feature6": "Secure voice recognition"
+            "featuresTitle": "보안 기능",
+            "feature1": "종단 간 암호화",
+            "feature2": "PCI DSS 레벨 1 준수",
+            "feature3": "카드 데이터 토큰화",
+            "feature4": "다단계 인증",
+            "feature5": "실시간 사기 모니터링",
+            "feature6": "보안 음성 인식"
           },
           "benefits": {
-            "title": "Payment Processing Performance",
-            "subtitle": "Industry-leading reliability and security metrics",
+            "title": "결제 처리 성과",
+            "subtitle": "업계 최고의 안정성 및 보안 지표",
             "uptime": {
               "metric": "99.9%",
-              "description": "Payment processing uptime"
+              "description": "결제 처리 가동 시간"
             },
             "transactionTime": {
-              "metric": "< 3s",
-              "description": "Average transaction time"
+              "metric": "< 3초",
+              "description": "평균 거래 시간"
             },
             "compliance": {
               "metric": "100%",
-              "description": "PCI DSS compliance"
+              "description": "PCI DSS 준수"
             },
             "fraudRate": {
               "metric": "0.1%",
-              "description": "Fraud rate with AI protection"
+              "description": "AI 보호를 통한 사기율"
             }
           },
           "cta": {
-            "title": "Ready for Secure Voice Payments?",
-            "subtitle": "Enable PCI-compliant payment processing with advanced fraud protection",
-            "primaryButton": "Start Secure Processing",
-            "secondaryButton": "Security Overview"
+            "title": "보안 음성 결제를 위한 준비가 되셨습니까?",
+            "subtitle": "고급 사기 방지 기능을 갖춘 PCI 준수 결제 처리를 활성화합니다.",
+            "primaryButton": "보안 처리 시작",
+            "secondaryButton": "보안 개요"
           }
-        }
-      },
-      "mentalHealth": {
-        "hero": {
-          "title": "Mental Health Voice Companion",
-          "subtitle": "Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
-          "cta": "Learn About Mental Health AI"
-        },
-        "features": {
-          "title": "Compassionate AI Support",
-          "subtitle": "Advanced AI trained in mental health support and crisis intervention",
-          "empathetic": {
-            "title": "Empathetic AI Companion",
-            "description": "Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
-            "benefits": {
-              "activeListing": "Active listening",
-              "emotionalValidation": "Emotional validation",
-              "crisisRecognition": "Crisis recognition"
-            }
-          },
-          "safe": {
-            "title": "Safe & Confidential",
-            "description": "HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.",
-            "benefits": {
-              "hipaaCompliance": "HIPAA compliance",
-              "encryptedConversations": "Encrypted conversations",
-              "anonymousOptions": "Anonymous options"
-            }
-          },
-          "available": {
-            "title": "24/7 Availability",
-            "description": "Always available when someone needs to talk, providing immediate support during crisis moments.",
-            "benefits": {
-              "roundTheClockAccess": "Round-the-clock access",
-              "immediateResponse": "Immediate response",
-              "noWaitTimes": "No wait times"
-            }
-          }
-        },
-        "capabilities": {
-          "title": "Mental Health Support Capabilities",
-          "subtitle": "Comprehensive support across the mental health care spectrum",
-          "screening": {
-            "title": "Initial Mental Health Screening",
-            "description": "Conduct preliminary assessments using validated screening tools",
-            "outcomes": {
-              "earlyIdentification": "Early identification",
-              "riskAssessment": "Risk assessment",
-              "appropriateReferrals": "Appropriate referrals"
-            }
-          },
-          "crisis": {
-            "title": "Crisis Intervention",
-            "description": "Recognize crisis situations and provide immediate support or escalation",
-            "outcomes": {
-              "crisisDetection": "Crisis detection",
-              "deEscalationTechniques": "De-escalation techniques",
-              "emergencyProtocols": "Emergency protocols"
-            }
-          },
-          "navigation": {
-            "title": "Resource Navigation",
-            "description": "Guide users to appropriate mental health resources and services",
-            "outcomes": {
-              "serviceMatching": "Service matching",
-              "appointmentScheduling": "Appointment scheduling",
-              "followUpSupport": "Follow-up support"
-            }
-          },
-          "emotional": {
-            "title": "Emotional Support",
-            "description": "Provide compassionate listening and emotional validation",
-            "outcomes": {
-              "reducedIsolation": "Reduced isolation",
-              "emotionalRelief": "Emotional relief",
-              "copingStrategies": "Coping strategies"
-            }
-          }
-        },
-        "safety": {
-          "title": "Safety-First Design",
-          "description": "Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
-          "crisisDetection": {
-            "title": "Crisis Detection",
-            "description": "Advanced algorithms identify crisis situations"
-          },
-          "professionalHandoff": {
-            "title": "Professional Handoff",
-            "description": "Seamless transfer to human mental health professionals"
-          },
-          "emergencyProtocols": {
-            "title": "Emergency Protocols",
-            "description": "Immediate connection to crisis hotlines when needed"
-          },
-          "features": {
-            "title": "Safety Features",
-            "crisisKeywordDetection": "Crisis keyword detection",
-            "suicideRiskAssessment": "Suicide risk assessment",
-            "automaticEscalationProtocols": "Automatic escalation protocols",
-            "emergencyContactIntegration": "Emergency contact integration",
-            "professionalHandoffProcedures": "Professional handoff procedures",
-            "followUpScheduling": "Follow-up scheduling"
-          }
-        },
-        "impact": {
-          "title": "Mental Health Impact",
-          "subtitle": "Measurable improvements in mental health support accessibility",
-          "availability": {
-            "metric": "24/7",
-            "description": "Always available support"
-          },
-          "crisisReduction": {
-            "metric": "60%",
-            "description": "Reduction in crisis escalation"
-          },
-          "satisfaction": {
-            "metric": "85%",
-            "description": "User satisfaction rate"
-          },
-          "helpSeeking": {
-            "metric": "40%",
-            "description": "Increase in help-seeking behavior"
-          }
-        },
-        "cta": {
-          "title": "Ready to Support Mental Health?",
-          "subtitle": "Provide compassionate, 24/7 mental health support with AI that truly cares",
-          "learnMore": "Learn More",
-          "contactSpecialists": "Contact Specialists"
         }
       }
     }

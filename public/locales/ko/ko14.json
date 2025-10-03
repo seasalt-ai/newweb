@@ -1,323 +1,329 @@
 {
   "textToSpeech": {
     "hero": {
-      "title": "Text-to-Speech Technology",
-      "subtitle": "Generate human-like speech from text with our advanced neural text-to-speech technology. Create custom voices, support 40+ languages, and deliver exceptional audio quality.",
-      "cta": "Try Voice Generation"
+      "title": "텍스트-음성 변환 기술",
+      "subtitle": "저희의 고급 신경망 텍스트-음성 변환 기술로 텍스트에서 인간과 같은 음성을 생성하세요. 맞춤형 음성을 만들고, 40개 이상의 언어를 지원하며, 탁월한 오디오 품질을 제공합니다.",
+      "cta": "음성 생성 사용해보기"
     },
     "demo": {
-      "title": "Experience Our Voice Technology",
-      "subtitle": "Try different voices and hear the quality for yourself",
-      "chooseVoice": "Choose a voice:",
-      "textPrompt": "Enter text to convert to speech:",
-      "defaultText": "Hello! I'm an AI voice assistant powered by SeaVoice technology. I can help you with customer service, sales, and support in a natural, human-like voice.",
-      "placeholderText": "Type something for our AI to say...",
-      "generateSpeech": "Generate Speech",
-      "playing": "Playing..."
+      "title": "저희 음성 기술 경험하기",
+      "subtitle": "다양한 음성을 시도하고 직접 품질을 들어보세요",
+      "chooseVoice": "음성 선택:",
+      "textPrompt": "음성으로 변환할 텍스트 입력:",
+      "defaultText": "안녕하세요! 저는 SeaVoice 기술로 구동되는 AI 음성 비서입니다. 자연스럽고 인간과 같은 음성으로 고객 서비스, 판매 및 지원을 도와드릴 수 있습니다.",
+      "placeholderText": "AI가 말할 내용을 입력하세요...",
+      "generateSpeech": "음성 생성",
+      "playing": "재생 중..."
     },
     "voices": {
       "sarah": {
         "name": "Sarah",
-        "gender": "Female",
-        "accent": "US English",
-        "description": "Professional, warm"
+        "gender": "여성",
+        "accent": "미국 영어",
+        "description": "전문적, 따뜻함"
       },
       "tom": {
         "name": "Tom",
-        "gender": "Male",
-        "accent": "US English",
-        "description": "Friendly, conversational"
+        "gender": "남성",
+        "accent": "미국 영어",
+        "description": "친근함, 대화적"
       },
       "lissa": {
         "name": "Lissa",
-        "gender": "Female",
-        "accent": "UK English",
-        "description": "Energetic, helpful"
+        "gender": "여성",
+        "accent": "영국 영어",
+        "description": "활기찬, 도움이 되는"
       },
       "alex": {
         "name": "Alex",
-        "gender": "Male",
-        "accent": "Australian",
-        "description": "Clear, confident"
+        "gender": "남성",
+        "accent": "호주",
+        "description": "명확함, 자신감"
       },
       "maria": {
         "name": "Maria",
-        "gender": "Female",
-        "accent": "Spanish",
-        "description": "Expressive, natural"
+        "gender": "여성",
+        "accent": "스페인어",
+        "description": "표현력이 풍부한, 자연스러운"
       },
       "hiroshi": {
         "name": "Hiroshi",
-        "gender": "Male",
-        "accent": "Japanese",
-        "description": "Polite, professional"
+        "gender": "남성",
+        "accent": "일본어",
+        "description": "정중함, 전문적"
       }
     },
     "features": {
-      "title": "Advanced Voice Generation",
-      "subtitle": "Cutting-edge neural networks deliver human-like speech quality",
+      "title": "고급 음성 생성",
+      "subtitle": "최첨단 신경망은 인간과 같은 음성 품질을 제공합니다.",
       "customVoiceCloning": {
-        "title": "Custom Voice Cloning",
-        "description": "Create unique voice profiles that match your brand personality and speaking style.",
+        "title": "맞춤형 음성 복제",
+        "description": "브랜드 개성 및 말하기 스타일에 맞는 고유한 음성 프로필을 만드세요.",
         "capabilities": {
-          "voiceCloning": "Voice cloning from samples",
-          "brandVoice": "Brand voice consistency",
-          "emotionalExpression": "Emotional expression",
-          "customPronunciations": "Custom pronunciations"
+          "voiceCloning": "샘플에서 음성 복제",
+          "brandVoiceConsistency": "브랜드 음성 일관성",
+          "emotionalExpression": "감정 표현",
+          "customPronunciations": "맞춤형 발음"
         }
       },
       "advancedControls": {
-        "title": "Advanced Controls",
-        "description": "Fine-tune every aspect of speech generation for perfect audio output.",
+        "title": "고급 제어",
+        "description": "완벽한 오디오 출력을 위해 음성 생성의 모든 측면을 미세 조정합니다.",
         "capabilities": {
-          "speedAdjustment": "Speed adjustment",
-          "pitchControl": "Pitch control",
-          "emphasisPlacement": "Emphasis placement",
-          "pauseInsertion": "Pause insertion"
+          "speedAdjustment": "속도 조정",
+          "pitchControl": "피치 제어",
+          "emphasisPlacement": "강조 배치",
+          "pauseInsertion": "일시 정지 삽입"
         }
       },
       "multiLanguageSupport": {
-        "title": "Multi-Language Support",
-        "description": "Generate natural speech in 40+ languages with native pronunciation.",
+        "title": "다국어 지원",
+        "description": "원어민 발음으로 40개 이상의 언어로 자연스러운 음성을 생성합니다.",
         "capabilities": {
-          "fortyPlusLanguages": "40+ languages",
-          "regionalAccents": "Regional accents",
-          "codeSwitching": "Code-switching",
-          "multilingualVoices": "Multilingual voices"
+          "fortyPlusLanguages": "40개 이상 언어",
+          "regionalAccents": "지역 악센트",
+          "codeSwitching": "코드 전환",
+          "multilingualVoices": "다국어 음성"
         }
       }
     },
     "qualityMetrics": {
-      "title": "Exceptional Quality Metrics",
-      "subtitle": "Measured performance that delivers professional results",
+      "title": "탁월한 품질 지표",
+      "subtitle": "전문적인 결과를 제공하는 측정된 성능",
       "naturalness": {
-        "metric": "Naturalness Score",
+        "metric": "자연스러움 점수",
         "value": "4.8/5",
-        "description": "Human evaluation rating"
+        "description": "인간 평가 등급"
       },
       "intelligibility": {
-        "metric": "Intelligibility",
+        "metric": "명료도",
         "value": "99.2%",
-        "description": "Word recognition accuracy"
+        "description": "단어 인식 정확도"
       },
       "latency": {
-        "metric": "Latency",
+        "metric": "지연 시간",
         "value": "< 200ms",
-        "description": "Text to audio generation"
+        "description": "텍스트-오디오 생성"
       },
       "audioQuality": {
-        "metric": "Audio Quality",
+        "metric": "오디오 품질",
         "value": "48kHz",
-        "description": "High-fidelity output"
+        "description": "고음질 출력"
       }
     },
     "useCases": {
-      "title": "Versatile Applications",
-      "subtitle": "Transform text into speech across industries and use cases",
+      "title": "다목적 응용",
+      "subtitle": "산업 및 사용 사례 전반에 걸쳐 텍스트를 음성으로 변환",
       "customerService": {
-        "title": "Customer Service",
-        "description": "Provide consistent, professional voice responses for customer interactions.",
+        "title": "고객 서비스",
+        "description": "고객 상호 작용을 위한 일관되고 전문적인 음성 응답 제공.",
         "benefits": {
-          "availability": "24/7 availability",
-          "consistentQuality": "Consistent quality",
-          "multiLanguageSupport": "Multi-language support",
-          "brandVoiceAlignment": "Brand voice alignment"
+          "availability": "연중무휴 가용성",
+          "consistentQuality": "일관된 품질",
+          "multiLanguageSupport": "다국어 지원",
+          "brandVoiceAlignment": "브랜드 음성 일치"
         }
       },
       "contentCreation": {
-        "title": "Content Creation",
-        "description": "Generate voiceovers for videos, podcasts, and multimedia content.",
+        "title": "콘텐츠 생성",
+        "description": "비디오, 팟캐스트 및 멀티미디어 콘텐츠를 위한 보이스오버 생성.",
         "benefits": {
-          "costEffectiveProduction": "Cost-effective production",
-          "quickTurnaround": "Quick turnaround",
-          "multipleVoiceOptions": "Multiple voice options",
-          "easyRevisions": "Easy revisions"
+          "costEffectiveProduction": "비용 효율적인 생산",
+          "quickTurnaround": "빠른 처리 시간",
+          "multipleVoiceOptions": "여러 음성 옵션",
+          "easyRevisions": "쉬운 수정"
         }
       },
       "accessibility": {
-        "title": "Accessibility",
-        "description": "Make content accessible with high-quality text-to-speech for visually impaired users.",
+        "title": "접근성",
+        "description": "시각 장애인 사용자를 위한 고품질 텍스트-음성 변환으로 콘텐츠에 접근성을 제공합니다.",
         "benefits": {
-          "screenReaderEnhancement": "Screen reader enhancement",
-          "documentNarration": "Document narration",
-          "webAccessibility": "Web accessibility",
-          "educationalSupport": "Educational support"
+          "screenReaderEnhancement": "스크린 리더 향상",
+          "documentNarration": "문서 내레이션",
+          "webAccessibility": "웹 접근성",
+          "educationalSupport": "교육 지원"
         }
       },
       "interactiveApplications": {
-        "title": "Interactive Applications",
-        "description": "Add voice capabilities to apps, games, and interactive experiences.",
+        "title": "대화형 응용 프로그램",
+        "description": "앱, 게임 및 대화형 경험에 음성 기능을 추가합니다.",
         "benefits": {
-          "realTimeGeneration": "Real-time generation",
-          "dynamicContent": "Dynamic content",
-          "userEngagement": "User engagement",
-          "immersiveExperiences": "Immersive experiences"
+          "realTimeGeneration": "실시간 생성",
+          "dynamicContent": "동적 콘텐츠",
+          "userEngagement": "사용자 참여",
+          "immersiveExperiences": "몰입형 경험"
         }
       }
     },
     "voiceCloning": {
-      "title": "Custom Voice Cloning",
-      "subtitle": "Create unique voice profiles that perfectly match your brand personality. Our advanced voice cloning technology can replicate speaking styles, accents, and emotional expressions with just a few minutes of sample audio.",
+      "title": "맞춤형 음성 복제",
+      "subtitle": "브랜드 개성에 완벽하게 일치하는 고유한 음성 프로필을 만드세요. 저희의 고급 음성 복제 기술은 몇 분의 샘플 오디오만으로 말하기 스타일, 악센트 및 감정 표현을 복제할 수 있습니다.",
       "brandVoiceConsistency": {
-        "title": "Brand Voice Consistency",
-        "description": "Maintain consistent brand voice across all interactions"
+        "title": "브랜드 음성 일관성",
+        "description": "모든 상호 작용에서 일관된 브랜드 음성 유지"
       },
       "fineTunedControl": {
-        "title": "Fine-Tuned Control",
-        "description": "Adjust tone, pace, and emotional expression"
+        "title": "미세 조정 제어",
+        "description": "톤, 속도 및 감정 표현 조정"
       },
       "highFidelityOutput": {
-        "title": "High Fidelity Output",
-        "description": "Professional quality audio for any application"
+        "title": "고음질 출력",
+        "description": "모든 애플리케이션을 위한 전문적인 품질의 오디오"
       },
       "process": {
-        "title": "Voice Cloning Process",
+        "title": "음성 복제 프로세스",
         "step1": {
-          "title": "Upload Audio Samples",
-          "description": "Provide 5-10 minutes of clean audio recordings"
+          "title": "오디오 샘플 업로드",
+          "description": "5-10분 분량의 깨끗한 오디오 녹음 제공"
         },
         "step2": {
-          "title": "AI Training",
-          "description": "Our neural networks learn your unique voice characteristics"
+          "title": "AI 훈련",
+          "description": "저희 신경망은 귀하의 고유한 음성 특성을 학습합니다."
         },
         "step3": {
-          "title": "Voice Generation",
-          "description": "Generate unlimited speech with your custom voice"
+          "title": "음성 생성",
+          "description": "맞춤형 음성으로 무제한 음성 생성"
         }
       }
     },
     "cta": {
-      "title": "Ready to Give Your Brand a Voice?",
-      "subtitle": "Create custom voices and generate professional-quality speech for any application",
-      "startVoiceCloning": "Start Voice Cloning",
-      "exploreApi": "Explore API"
+      "title": "브랜드에 음성을 부여할 준비가 되셨습니까?",
+      "subtitle": "모든 애플리케이션을 위한 맞춤형 음성을 만들고 전문적인 품질의 음성을 생성합니다.",
+      "startVoiceCloning": "음성 복제 시작",
+      "exploreApi": "API 탐색"
     }
   },
   "components": {
     "aiVoiceAvatar": {
       "badge": {
-        "label": "Interactive AI Avatar"
+        "label": "대화형 AI 아바타"
       },
       "hero": {
         "title": {
-          "line1": "Meet Your",
-          "line2": "AI Voice Agent"
+          "line1": "귀하의",
+          "line2": "AI 음성 상담원 만나기"
         },
-        "subtitle": "Experience the future of AI communication. Our avatars demonstrate human-like conversations with emotional intelligence and multiple personality options."
+        "subtitle": "AI 커뮤니케이션의 미래를 경험하세요. 저희 아바타는 감성 지능과 여러 성격 옵션을 갖춘 인간과 같은 대화를 보여줍니다."
       },
       "voices": {
         "professional": {
-          "name": "Professional Sarah",
-          "description": "Clear, authoritative business voice"
+          "name": "전문 Sarah",
+          "gender": "여성",
+          "accent": "미국 영어",
+          "description": "명확하고 권위 있는 비즈니스 음성"
         },
         "friendly": {
-          "name": "Friendly Mike",
-          "description": "Warm, approachable customer service"
+          "name": "친근한 Mike",
+          "gender": "남성",
+          "accent": "미국 영어",
+          "description": "따뜻하고 친근한 고객 서비스"
         },
         "empathetic": {
-          "name": "Caring Emma",
-          "description": "Compassionate healthcare voice"
+          "name": "배려심 있는 Emma",
+          "gender": "여성",
+          "accent": "미국 영어",
+          "description": "공감적인 의료 음성"
         }
       },
       "languages": {
-        "english": "English",
-        "spanish": "Spanish",
-        "french": "French",
-        "german": "German",
-        "chinese": "Chinese"
+        "english": "영어",
+        "spanish": "스페인어",
+        "french": "프랑스어",
+        "german": "독일어",
+        "chinese": "중국어"
       },
       "demoScripts": {
-        "professional": "Hello, I'm Sarah, your AI business assistant. I can handle customer inquiries, schedule appointments, and provide detailed product information with precision and clarity.",
-        "friendly": "Hi there! I'm Mike, and I'm here to make your experience amazing. Whether you need help with an order or just have a quick question, I'm happy to chat!",
-        "empathetic": "Hello, I'm Emma. I understand that healthcare questions can be stressful, and I'm here to provide caring, accurate support whenever you need it."
+        "professional": "안녕하세요, 저는 Sarah입니다. 귀하의 AI 비즈니스 비서입니다. 정확하고 명확하게 고객 문의를 처리하고, 약속을 예약하며, 자세한 제품 정보를 제공할 수 있습니다.",
+        "friendly": "안녕하세요! 저는 Mike입니다. 귀하의 경험을 놀랍게 만들기 위해 여기에 있습니다. 주문에 도움이 필요하거나 간단한 질문이 있으시면 기꺼이 채팅해 드리겠습니다!",
+        "empathetic": "안녕하세요, 저는 Emma입니다. 의료 질문이 스트레스가 될 수 있다는 것을 이해하며, 필요할 때마다 배려심 있고 정확한 지원을 제공하기 위해 여기에 있습니다."
       },
       "controls": {
-        "voicePersonality": "Choose Voice Personality:",
-        "language": "Language:",
-        "demoVoice": "Demo Voice",
-        "tryVoiceInput": "Try Voice Input"
+        "voicePersonality": "음성 성격 선택:",
+        "language": "언어:",
+        "demoVoice": "데모 음성",
+        "tryVoiceInput": "음성 입력 사용해보기"
       },
       "status": {
-        "listening": "Listening...",
-        "speaking": "Speaking...",
-        "ready": "Ready",
-        "label": "Status:"
+        "listening": "듣는 중...",
+        "speaking": "말하는 중...",
+        "ready": "준비 완료",
+        "label": "상태:"
       },
-      "listeningResponse": "I heard you! This is where I would respond to your voice input with contextual understanding.",
+      "listeningResponse": "들었습니다! 여기에서 컨텍스트 이해와 함께 음성 입력에 응답할 것입니다.",
       "avatarMoods": {
-        "neutral": "neutral",
-        "speaking": "speaking",
-        "listening": "listening",
-        "thinking": "thinking"
+        "neutral": "중립",
+        "speaking": "말하는 중",
+        "listening": "듣는 중",
+        "thinking": "생각 중"
       }
     }
   },
   "voiceConversationFlow": {
     "steps": {
       "callConnected": {
-        "title": "Call Connected",
-        "description": "Customer connected with your business"
+        "title": "통화 연결됨",
+        "description": "고객이 귀하의 비즈니스와 연결됨"
       },
       "listening": {
-        "title": "AI Listening",
-        "description": "Advanced speech recognition captures every word"
+        "title": "AI 듣는 중",
+        "description": "고급 음성 인식이 모든 단어를 캡처"
       },
       "processing": {
-        "title": "AI Processing",
-        "description": "Neural networks understand intent and context"
+        "title": "AI 처리 중",
+        "description": "신경망이 의도와 컨텍스트를 이해"
       },
       "responding": {
-        "title": "AI Responding",
-        "description": "Human-like voice delivers perfect response"
+        "title": "AI 응답 중",
+        "description": "인간과 같은 음성이 완벽한 응답을 전달"
       }
     },
     "conversationTypes": {
-      "appointmentBooking": "Appointment Booking",
-      "orderSupport": "Order Support",
-      "salesInquiry": "Sales Inquiry"
+      "appointmentBooking": "예약",
+      "orderSupport": "주문 지원",
+      "salesInquiry": "판매 문의"
     },
     "conversations": {
       "appointmentBooking": {
-        "customer": "Hi, I'd like to schedule an appointment for next Tuesday.",
-        "ai": "I'd be happy to help you schedule an appointment. Let me check our availability for next Tuesday. What time would work best for you?"
+        "customer": "안녕하세요, 다음 주 화요일에 예약을 하고 싶습니다.",
+        "ai": "예약을 도와드리겠습니다. 다음 주 화요일에 가능한 시간을 확인해 드리겠습니다. 어떤 시간이 가장 좋으십니까?"
       },
       "orderSupport": {
-        "customer": "I'm having trouble with my recent order. It hasn't arrived yet.",
-        "ai": "I understand your concern about your order. Let me look that up for you right away. Can you please provide your order number?"
+        "customer": "최근 주문에 문제가 있습니다. 아직 도착하지 않았습니다.",
+        "ai": "주문에 대한 우려를 이해합니다. 즉시 확인해 드리겠습니다. 주문 번호를 알려주시겠습니까?"
       },
       "salesInquiry": {
-        "customer": "Can you tell me about your pricing plans?",
-        "ai": "Absolutely! We have several pricing options to fit different needs. Our basic plan starts at $29/month and includes all core features. Would you like me to explain the differences?"
+        "customer": "가격 플랜에 대해 알려주실 수 있나요?",
+        "ai": "물론입니다! 우리는 다양한 필요에 맞는 여러 가격 옵션을 가지고 있습니다. 기본 플랜은 월 $29부터 시작하며 모든 핵심 기능을 포함합니다. 차이점을 설명해 드릴까요?"
       }
     },
     "ui": {
-      "chooseConversationType": "Choose Conversation Type:",
-      "autoProgressing": "Auto-progressing through scenarios...",
-      "liveConversation": "Live Conversation:",
-      "speaking": "Speaking...",
-      "aiSpeaking": "AI Speaking...",
-      "aiThinking": "AI Thinking...",
-      "processingContext": "Processing context",
-      "accuracyRate": "Accuracy Rate"
+      "chooseConversationType": "대화 유형 선택:",
+      "autoProgressing": "시나리오를 통해 자동 진행 중...",
+      "liveConversation": "라이브 대화:",
+      "speaking": "말하는 중...",
+      "aiSpeaking": "AI 말하는 중...",
+      "aiThinking": "AI 생각 중...",
+      "processingContext": "컨텍스트 처리 중",
+      "accuracyRate": "정확도"
     }
   },
   "// Large Scale Campaigns Page - English key-value pairs": "",
   "seo": {
     "homepage": {
-      "title": "Seasalt.ai | Omni-Channel Contact Center for Small Businesses",
-      "description": "Stop juggling apps. Unify every customer call, WhatsApp, and chat in one simple inbox. The all-in-one contact center built for small businesses.",
-      "keywords": "omni-channel contact center, small business communication, unified inbox, customer service software, WhatsApp business, voice calls, chat support"
+      "title": "Seasalt.ai | 중소기업을 위한 옴니채널 컨택 센터",
+      "description": "앱 저글링을 멈추세요. 모든 고객 통화, WhatsApp 및 채팅을 하나의 간단한 받은 편지함에 통합하세요. 중소기업을 위해 구축된 올인원 컨택 센터.",
+      "keywords": "옴니채널 컨택 센터, 중소기업 커뮤니케이션, 통합 받은 편지함, 고객 서비스 소프트웨어, WhatsApp 비즈니스, 음성 통화, 채팅 지원"
     },
     "seavoice": {
       "homepage": {
-        "title": "SeaVoice | AI-Powered Voice Communication - Seasalt.ai",
-        "description": "Transform your voice communications with AI. SeaVoice offers intelligent call routing, voice analytics, and automated responses. Handle customer calls 24/7 with human-like AI agents.",
-        "keywords": "AI voice, call center software, voice analytics, SeaVoice, intelligent call routing, automated phone system, voice assistant, 24/7 customer service"
+        "title": "SeaVoice | AI 기반 음성 커뮤니케이션 - Seasalt.ai",
+        "description": "AI로 음성 커뮤니케이션을 혁신하세요. SeaVoice는 지능형 통화 라우팅, 음성 분석 및 자동 응답을 제공합니다. 인간과 같은 AI 상담원으로 연중무휴 고객 통화를 처리하세요.",
+        "keywords": "AI 음성, 콜센터 소프트웨어, 음성 분석, SeaVoice, 지능형 통화 라우팅, 자동 전화 시스템, 음성 비서, 연중무휴 고객 서비스"
       },
       "virtualAssistant": {
-        "title": "24/7 Virtual Assistant | SeaVoice AI Voice Solutions - Seasalt.ai",
-        "description": "Provide round-the-clock customer service with SeaVoice AI Virtual Assistant. Intelligent voice agents handle customer inquiries, appointment scheduling, and support requests, improving satisfaction while reducing costs.",
-        "keywords": "virtual assistant, AI voice assistant, 24/7 customer service, intelligent customer service, SeaVoice, voice automation, customer service automation"
+        "title": "연중무휴 가상 비서 | SeaVoice AI 음성 솔루션 - Seasalt.ai",
+        "description": "SeaVoice AI 가상 비서로 연중무휴 고객 서비스를 제공하세요. 지능형 음성 상담원이 고객 문의, 예약 및 지원 요청을 처리하여 비용을 절감하면서 만족도를 높입니다.",
+        "keywords": "가상 비서, AI 음성 비서, 연중무휴 고객 서비스, 지능형 고객 서비스, SeaVoice, 음성 자동화, 고객 서비스 자동화"
       }
     }
   },
@@ -333,36 +339,36 @@
   },
   "statsCounter": {
     "section": {
-      "title": "Trusted by businesses worldwide",
-      "subtitle": "Our platform powers millions of conversations every day"
+      "title": "전 세계 기업의 신뢰",
+      "subtitle": "저희 플랫폼은 매일 수백만 건의 대화를 처리합니다."
     },
     "stats": {
       "messages": {
-        "label": "Messages Sent",
-        "suffix": "M+"
+        "label": "메시지 전송",
+        "suffix": "백만+"
       },
       "calls": {
-        "label": "Calls Made",
-        "suffix": "K+"
+        "label": "통화 수",
+        "suffix": "천+"
       },
       "uptime": {
-        "label": "System Uptime",
+        "label": "시스템 가동 시간",
         "suffix": "%"
       },
       "countries": {
-        "label": "Countries Served",
+        "label": "서비스된 국가",
         "suffix": "+"
       },
       "roi": {
-        "label": "ROI Increase",
+        "label": "ROI 증가",
         "suffix": "%"
       }
     },
     "dashboard": {
-      "title": "SeaX Dashboard",
-      "messagesSent": "Messages Sent",
-      "deliveryRate": "Delivery Rate",
-      "recentActivity": "Recent Activity",
+      "title": "SeaX 대시보드",
+      "messagesSent": "메시지 전송",
+      "deliveryRate": "전달률",
+      "recentActivity": "최근 활동",
       "demo": {
         "messagesSent": "2.4M",
         "deliveryRate": "85%"
@@ -370,21 +376,21 @@
     },
     "activity": {
       "flashSale": {
-        "title": "Flash Sale Campaign",
-        "detail": "50,000 SMS sent • 2 min ago"
+        "title": "플래시 세일 캠페인",
+        "detail": "50,000개 SMS 전송 • 2분 전"
       },
       "leadFollowup": {
-        "title": "Lead Follow-up",
-        "detail": "12,000 calls completed • 5 min ago"
+        "title": "리드 후속 조치",
+        "detail": "12,000통 통화 완료 • 5분 전"
       },
       "whatsapp": {
-        "title": "WhatsApp Campaign",
-        "detail": "25,000 messages queued • 8 min ago"
+        "title": "WhatsApp 캠페인",
+        "detail": "25,000개 메시지 대기열 • 8분 전"
       }
     },
     "status": {
-      "liveRunning": "Live campaigns running",
-      "liveActivity": "Live activity: Messages being sent right now"
+      "liveRunning": "라이브 캠페인 실행 중",
+      "liveActivity": "실시간 활동: 지금 메시지 전송 중"
     }
   },
   "omniCalculator": {
@@ -396,8 +402,8 @@
       "whatsappMax": "10k+"
     },
     "breakdown": {
-      "localPlus": "local +",
-      "tollFreeMinus": "toll-free"
+      "localPlus": "지역 +",
+      "tollFreeMinus": "수신자 부담"
     }
   }
 }

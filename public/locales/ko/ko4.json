@@ -2,1532 +2,1532 @@
   "seachat": {
     "integrations": {
       "crm": {
-        "title": "CRM Integrations",
-        "subtitle": "Connect SeaChat with your CRM to create a unified customer experience. Sync contacts, track leads, and manage relationships seamlessly.",
-        "connectButton": "Connect Your CRM",
-        "guideButton": "View Integration Guide",
-        "platformsTitle": "Supported CRM Platforms",
-        "platformsSubtitle": "Choose from our extensive list of CRM integrations, each optimized for seamless data flow.",
-        "setupTime": "Setup time",
-        "connectPlatform": "Connect",
-        "whyIntegrateTitle": "Why Integrate with Your CRM?",
-        "whyIntegrateSubtitle": "Transform your customer support into a powerful sales and relationship management tool.",
-        "featuresTitle": "Comprehensive CRM Integration Features",
-        "featuresSubtitle": "Our CRM integrations go beyond basic contact sync to provide a complete customer relationship management solution.",
-        "workflowTitle": "Integration Workflow",
-        "ctaTitle": "Ready to Connect Your CRM?",
-        "ctaSubtitle": "Start syncing your customer data and transform support conversations into business opportunities.",
-        "ctaChooseButton": "Sign Up For Free",
-        "ctaGuideButton": "View Setup Guide",
+        "title": "CRM 통합",
+        "subtitle": "SeaChat을 CRM과 연결하여 통합된 고객 경험을 만드세요. 연락처를 동기화하고, 리드를 추적하며, 관계를 원활하게 관리하세요.",
+        "connectButton": "CRM 연결",
+        "guideButton": "통합 가이드 보기",
+        "platformsTitle": "지원되는 CRM 플랫폼",
+        "platformsSubtitle": "원활한 데이터 흐름을 위해 최적화된 광범위한 CRM 통합 목록에서 선택하세요.",
+        "setupTime": "설정 시간",
+        "connectPlatform": "연결",
+        "whyIntegrateTitle": "CRM과 통합하는 이유?",
+        "whyIntegrateSubtitle": "고객 지원을 강력한 판매 및 관계 관리 도구로 전환하세요.",
+        "featuresTitle": "포괄적인 CRM 통합 기능",
+        "featuresSubtitle": "저희 CRM 통합은 기본적인 연락처 동기화를 넘어 완전한 고객 관계 관리 솔루션을 제공합니다.",
+        "workflowTitle": "통합 워크플로우",
+        "ctaTitle": "CRM을 연결할 준비가 되셨습니까?",
+        "ctaSubtitle": "고객 데이터를 동기화하고 지원 대화를 비즈니스 기회로 전환하세요.",
+        "ctaChooseButton": "무료로 가입",
+        "ctaGuideButton": "설정 가이드 보기",
         "platforms": {
           "salesforce": {
             "name": "Salesforce",
-            "description": "Complete integration with Salesforce CRM for enterprise teams",
+            "description": "엔터프라이즈 팀을 위한 Salesforce CRM과의 완벽한 통합",
             "features": {
-              "contacts": "Contact sync",
-              "leads": "Lead management",
-              "opportunities": "Opportunity tracking",
-              "fields": "Custom fields"
+              "contacts": "연락처 동기화",
+              "leads": "리드 관리",
+              "opportunities": "기회 추적",
+              "fields": "사용자 정의 필드"
             },
-            "setupTime": "15 minutes",
-            "popularity": "Most Popular"
+            "setupTime": "15분",
+            "popularity": "가장 인기 있는"
           },
           "hubspot": {
             "name": "HubSpot",
-            "description": "Seamless HubSpot integration for marketing and sales alignment",
+            "description": "마케팅 및 판매 조정을 위한 원활한 HubSpot 통합",
             "features": {
-              "properties": "Contact properties",
-              "deals": "Deal pipeline",
-              "sequences": "Email sequences",
-              "reporting": "Reporting"
+              "properties": "연락처 속성",
+              "deals": "거래 파이프라인",
+              "sequences": "이메일 시퀀스",
+              "reporting": "보고"
             },
-            "setupTime": "10 minutes",
-            "popularity": "Recommended"
+            "setupTime": "10분",
+            "popularity": "추천"
           },
           "pipedrive": {
             "name": "Pipedrive",
-            "description": "Simple yet powerful Pipedrive integration for sales teams",
+            "description": "영업 팀을 위한 간단하면서도 강력한 Pipedrive 통합",
             "features": {
-              "pipeline": "Pipeline management",
-              "activity": "Activity tracking",
-              "history": "Contact history",
-              "automation": "Automation"
+              "pipeline": "파이프라인 관리",
+              "activity": "활동 추적",
+              "history": "연락처 기록",
+              "automation": "자동화"
             },
-            "setupTime": "8 minutes",
-            "popularity": "Easy Setup"
+            "setupTime": "8분",
+            "popularity": "쉬운 설정"
           },
           "zoho": {
             "name": "Zoho CRM",
-            "description": "Comprehensive Zoho CRM integration with advanced workflows",
+            "description": "고급 워크플로우를 갖춘 포괄적인 Zoho CRM 통합",
             "features": {
-              "scoring": "Lead scoring",
-              "workflow": "Workflow automation",
-              "modules": "Custom modules",
-              "analytics": "Analytics"
+              "scoring": "리드 점수",
+              "workflow": "워크플로우 자동화",
+              "modules": "사용자 정의 모듈",
+              "analytics": "분석"
             },
-            "setupTime": "12 minutes",
-            "popularity": "Feature Rich"
+            "setupTime": "12분",
+            "popularity": "기능 풍부"
           },
           "dynamics": {
             "name": "Microsoft Dynamics",
-            "description": "Enterprise-grade integration with Microsoft Dynamics 365",
+            "description": "Microsoft Dynamics 365와의 엔터프라이즈급 통합",
             "features": {
-              "mapping": "Entity mapping",
-              "processes": "Business processes",
-              "powerbi": "Power BI integration",
-              "security": "Security"
+              "mapping": "엔티티 매핑",
+              "processes": "비즈니스 프로세스",
+              "powerbi": "Power BI 통합",
+              "security": "보안"
             },
-            "setupTime": "20 minutes",
-            "popularity": "Enterprise"
+            "setupTime": "20분",
+            "popularity": "엔터프라이즈"
           },
           "freshworks": {
             "name": "Freshworks CRM",
-            "description": "Modern CRM integration with Freshworks suite",
+            "description": "Freshworks 제품군과의 현대적인 CRM 통합",
             "features": {
-              "management": "Contact management",
-              "sequences": "Sales sequences",
-              "phone": "Phone integration",
-              "insights": "AI insights"
+              "management": "연락처 관리",
+              "sequences": "판매 시퀀스",
+              "phone": "전화 통합",
+              "insights": "AI 통찰력"
             },
-            "setupTime": "10 minutes",
-            "popularity": "Modern"
+            "setupTime": "10분",
+            "popularity": "현대적"
           }
         },
         "benefits": {
           "data": {
-            "title": "Unified Customer Data",
-            "description": "Sync customer information automatically between SeaChat and your CRM"
+            "title": "통합 고객 데이터",
+            "description": "SeaChat과 CRM 간에 고객 정보를 자동으로 동기화"
           },
           "leads": {
-            "title": "Improved Lead Quality",
-            "description": "Convert support conversations into qualified leads"
+            "title": "향상된 리드 품질",
+            "description": "지원 대화를 자격 있는 리드로 전환"
           },
           "sync": {
-            "title": "Real-time Synchronization",
-            "description": "Keep customer data updated across all platforms instantly"
+            "title": "실시간 동기화",
+            "description": "모든 플랫폼에서 고객 데이터를 즉시 업데이트 유지"
           },
           "context": {
-            "title": "Better Customer Context",
-            "description": "Access complete customer history during support conversations"
+            "title": "더 나은 고객 컨텍스트",
+            "description": "지원 대화 중에 전체 고객 기록에 액세스"
           }
         },
         "features": [
           {
-            "title": "Seamless Data Sync",
-            "description": "Automatically sync customer contact information, conversation history, and interaction records",
+            "title": "원활한 데이터 동기화",
+            "description": "고객 연락처 정보, 대화 기록 및 상호 작용 기록을 자동으로 동기화",
             "icon": "sync"
           },
           {
-            "title": "Lead Automation",
-            "description": "Automatically convert support conversations into qualified leads in your CRM",
+            "title": "리드 자동화",
+            "description": "지원 대화를 CRM에서 자격 있는 리드로 자동 전환",
             "icon": "users"
           },
           {
-            "title": "Smart Routing",
-            "description": "Intelligently route customers to the right sales or support team based on CRM data",
+            "title": "스마트 라우팅",
+            "description": "CRM 데이터를 기반으로 고객을 적절한 판매 또는 지원 팀으로 지능적으로 라우팅",
             "icon": "route"
           },
           {
-            "title": "Unified Customer View",
-            "description": "Access complete customer history and transaction records instantly during support conversations",
+            "title": "통합 고객 보기",
+            "description": "지원 대화 중에 전체 고객 기록 및 거래 기록에 즉시 액세스",
             "icon": "eye"
           },
           {
-            "title": "Activity Triggers",
-            "description": "Automatically trigger CRM workflows and marketing campaigns based on customer interactions",
+            "title": "활동 트리거",
+            "description": "고객 상호 작용을 기반으로 CRM 워크플로우 및 마케팅 캠페인을 자동으로 트리거",
             "icon": "zap"
           },
           {
-            "title": "Reports & Analytics",
-            "description": "Unified reporting across platforms with deep insights into customer lifecycle and conversion metrics",
+            "title": "보고서 및 분석",
+            "description": "고객 라이프사이클 및 전환 지표에 대한 심층적인 통찰력을 제공하는 플랫폼 전반의 통합 보고",
             "icon": "chart"
           }
         ],
         "workflow": {
           "connect": {
-            "title": "Connect Your CRM",
-            "description": "Authenticate and configure your CRM connection"
+            "title": "CRM 연결",
+            "description": "CRM 연결을 인증하고 구성"
           },
           "map": {
-            "title": "Map Data Fields",
-            "description": "Configure how data flows between systems"
+            "title": "데이터 필드 매핑",
+            "description": "시스템 간 데이터 흐름 구성"
           },
           "sync": {
-            "title": "Start Syncing",
-            "description": "Enjoy automatic data synchronization"
+            "title": "동기화 시작",
+            "description": "자동 데이터 동기화 즐기기"
           }
         }
       },
       "api": {
-        "accessButton": "Get API Access",
+        "accessButton": "API 액세스",
         "benefits": {
           "dataFlow": {
-            "description": "Automatic synchronization between SeaChat and your systems",
-            "title": "Seamless Data Flow"
+            "description": "SeaChat과 시스템 간의 자동 동기화",
+            "title": "원활한 데이터 흐름"
           },
           "implementation": {
-            "description": "Quick setup with pre-built integration templates",
-            "title": "Faster Implementation"
+            "description": "사전 구축된 통합 템플릿으로 빠른 설정",
+            "title": "더 빠른 구현"
           },
           "insights": {
-            "description": "Enhanced reporting with integrated data sources",
-            "title": "Better Insights"
+            "description": "통합 데이터 소스를 통한 향상된 보고",
+            "title": "더 나은 통찰력"
           },
           "manualWork": {
-            "description": "Eliminate repetitive tasks with intelligent automation",
-            "title": "Reduced Manual Work"
+            "description": "지능형 자동화로 반복적인 작업 제거",
+            "title": "수동 작업 감소"
           }
         },
-        "benefitsSubtitle": "Transform your workflow with powerful custom Seachat integrations.",
-        "benefitsTitle": "Integration Benefits",
-        "buildSubtitle": "Follow these simple steps to get started with custom API Seachat integrations.",
-        "buildTitle": "Ready to Build Your Integration?",
-        "capabilitiesSubtitle": "Everything you need to build robust, scalable integrations with SeaChat.",
-        "capabilitiesTitle": "Powerful Integration Capabilities",
-        "copyCode": "Copy Code",
-        "ctaAccessButton": "Get API Access",
-        "ctaDocsButton": "View Documentation",
-        "ctaSubtitle": "Get API access and start building powerful custom integrations that transform your customer support workflow.",
-        "ctaTitle": "Start Building Today",
-        "docsButton": "View API Documentation",
-        "exampleSubtitle": "Get started with our API in just a few lines of code.",
-        "exampleTitle": "Quick Start Code Example",
+        "benefitsSubtitle": "강력한 맞춤형 SeaChat 통합으로 워크플로우를 혁신하세요.",
+        "benefitsTitle": "통합 이점",
+        "buildSubtitle": "맞춤형 API SeaChat 통합을 시작하려면 다음 간단한 단계를 따르세요.",
+        "buildTitle": "통합을 구축할 준비가 되셨습니까?",
+        "capabilitiesSubtitle": "SeaChat과 강력하고 확장 가능한 통합을 구축하는 데 필요한 모든 것.",
+        "capabilitiesTitle": "강력한 통합 기능",
+        "copyCode": "코드 복사",
+        "ctaAccessButton": "API 액세스",
+        "ctaDocsButton": "문서 보기",
+        "ctaSubtitle": "API 액세스를 얻고 고객 지원 워크플로우를 혁신하는 강력한 맞춤형 통합을 구축하세요.",
+        "ctaTitle": "지금 구축 시작",
+        "docsButton": "API 문서 보기",
+        "exampleSubtitle": "몇 줄의 코드로 API를 시작하세요.",
+        "exampleTitle": "빠른 시작 코드 예제",
         "features": {
           "custom": {
-            "description": "Build custom integrations for your specific business needs",
-            "title": "Custom Integrations"
+            "description": "특정 비즈니스 요구 사항에 맞는 맞춤형 통합 구축",
+            "title": "맞춤형 통합"
           },
           "restful": {
-            "description": "Clean, well-documented REST API for seamless integration",
+            "description": "원활한 통합을 위한 깔끔하고 잘 문서화된 REST API",
             "title": "RESTful API"
           },
           "webhooks": {
-            "description": "Instant notifications for events and conversation updates",
-            "title": "Real-time Webhooks"
+            "description": "이벤트 및 대화 업데이트에 대한 즉각적인 알림",
+            "title": "실시간 웹훅"
           },
           "workflow": {
-            "description": "Automate complex workflows with our integration platform",
-            "title": "Workflow Automation"
+            "description": "통합 플랫폼으로 복잡한 워크플로우 자동화",
+            "title": "워크플로우 자동화"
           }
         },
-        "integrationExample": "Custom Integration Example",
-        "patternsSubtitle": "Explore popular integration scenarios and implementation examples.",
-        "patternsTitle": "Common Integration Patterns",
+        "integrationExample": "맞춤형 통합 예제",
+        "patternsSubtitle": "인기 있는 통합 시나리오 및 구현 예제를 살펴보세요.",
+        "patternsTitle": "일반적인 통합 패턴",
         "resources": {
-          "community": "Developer community support",
-          "docs": "Comprehensive API documentation",
-          "examples": "Code examples in multiple languages",
-          "explorer": "Interactive API explorer",
-          "sandbox": "Sandbox environment for testing",
-          "simulator": "Webhook event simulator"
+          "community": "개발자 커뮤니티 지원",
+          "docs": "포괄적인 API 문서",
+          "examples": "여러 언어로 된 코드 예제",
+          "explorer": "대화형 API 탐색기",
+          "sandbox": "샌드박스 환경 테스트",
+          "simulator": "웹훅 이벤트 시뮬레이터"
         },
-        "resourcesTitle": "Developer Resources",
+        "resourcesTitle": "개발자 리소스",
         "steps": {
           "build": {
-            "description": "Develop your integration using our sandbox environment",
-            "title": "Build & Test"
+            "description": "샌드박스 환경을 사용하여 통합 개발",
+            "title": "구축 및 테스트"
           },
           "credentials": {
-            "description": "Sign up and generate your API key and webhook secret",
-            "title": "Get API Credentials"
+            "description": "가입하고 API 키 및 웹훅 비밀 생성",
+            "title": "API 자격 증명 얻기"
           },
           "deploy": {
-            "description": "Launch your integration and monitor performance",
-            "title": "Deploy & Monitor"
+            "description": "통합을 시작하고 성능 모니터링",
+            "title": "배포 및 모니터링"
           },
           "docs": {
-            "description": "Explore our comprehensive API documentation and examples",
-            "title": "Review Documentation"
+            "description": "포괄적인 API 문서 및 예제 살펴보기",
+            "title": "문서 검토"
           }
         },
-        "subtitle": "Build powerful custom integrations with our comprehensive API. Connect SeaChat to any system or workflow with our developer-friendly tools.",
-        "title": "Custom API Integrations",
+        "subtitle": "포괄적인 API로 강력한 맞춤형 통합을 구축하세요. 개발자 친화적인 도구로 SeaChat을 모든 시스템 또는 워크플로우에 연결하세요.",
+        "title": "맞춤형 API 통합",
         "types": {
           "analytics": {
-            "complexity": "Low",
-            "description": "Send conversation data to your analytics tools",
-            "example": "Track customer satisfaction and support metrics",
-            "time": "1-2 hours",
-            "title": "Analytics Platform"
+            "complexity": "낮음",
+            "description": "대화 데이터를 분석 도구로 전송",
+            "example": "고객 만족도 및 지원 지표 추적",
+            "time": "1-2시간",
+            "title": "분석 플랫폼"
           },
           "crm": {
-            "complexity": "Medium",
-            "description": "Sync customer data with your CRM system",
-            "example": "Automatically create leads from support conversations",
-            "time": "2-4 hours",
-            "title": "CRM Integration"
+            "complexity": "중간",
+            "description": "CRM 시스템과 고객 데이터 동기화",
+            "example": "지원 대화에서 자동으로 리드 생성",
+            "time": "2-4시간",
+            "title": "CRM 통합"
           },
           "ecommerce": {
-            "complexity": "Medium",
-            "description": "Connect with your online store for order management",
-            "example": "Provide real-time order status and tracking information",
-            "time": "3-6 hours",
-            "title": "E-commerce Platform"
+            "complexity": "중간",
+            "description": "주문 관리를 위해 온라인 상점과 연결",
+            "example": "실시간 주문 상태 및 추적 정보 제공",
+            "time": "3-6시간",
+            "title": "전자상거래 플랫폼"
           },
           "payment": {
-            "complexity": "High",
-            "description": "Integrate with payment gateways for billing support",
-            "example": "Handle refunds and payment inquiries automatically",
-            "time": "4-8 hours",
-            "title": "Payment Processing"
+            "complexity": "높음",
+            "description": "청구 지원을 위해 결제 게이트웨이와 통합",
+            "example": "환불 및 결제 문의 자동 처리",
+            "time": "4-8시간",
+            "title": "결제 처리"
           }
         },
-        "useCaseTitle": "Example Use Case"
+        "useCaseTitle": "사용 사례 예제"
       },
       "calendar": {
         "benefits": {
           "noShows": {
-            "description": "Automatic reminders and confirmations reduce missed appointments",
-            "title": "Reduced No-Shows"
+            "description": "자동 알림 및 확인으로 놓친 약속 감소",
+            "title": "노쇼 감소"
           },
           "scheduling": {
-            "description": "Let customers book appointments directly from chat conversations",
-            "title": "Automated Scheduling"
+            "description": "고객이 채팅 대화에서 직접 약속을 예약할 수 있도록 허용",
+            "title": "자동 일정 관리"
           },
           "timeSavings": {
-            "description": "Eliminate back-and-forth scheduling emails and calls",
-            "title": "Time Savings"
+            "description": "왔다 갔다 하는 일정 이메일 및 전화 제거",
+            "title": "시간 절약"
           },
           "utilization": {
-            "description": "Optimize calendar usage with intelligent scheduling",
-            "title": "Better Utilization"
+            "description": "지능형 일정 관리로 캘린더 사용 최적화",
+            "title": "더 나은 활용"
           }
         },
-        "benefitsSubtitle": "Streamline your scheduling process and improve customer experience with automated booking.",
-        "benefitsTitle": "Calendar Integration Benefits",
-        "connectButton": "Connect Calendar",
-        "connectPlatform": "Connect",
-        "ctaConnectButton": "Connect Your Calendar",
-        "ctaGuideButton": "View Setup Guide",
-        "ctaSubtitle": "Connect your calendar and let customers book appointments seamlessly through your support conversations.",
-        "ctaTitle": "Ready to Automate Your Scheduling?",
-        "customer": "Customer",
-        "customerChoice": "Tuesday at 2 PM works perfect!",
-        "demoButton": "Book Scheduling Demo",
-        "exampleTitle": "Scheduling Example",
+        "benefitsSubtitle": "자동 예약으로 일정 관리 프로세스를 간소화하고 고객 경험을 향상시키세요.",
+        "benefitsTitle": "캘린더 통합 이점",
+        "connectButton": "캘린더 연결",
+        "connectPlatform": "연결",
+        "ctaConnectButton": "캘린더 연결",
+        "ctaGuideButton": "설정 가이드 보기",
+        "ctaSubtitle": "캘린더를 연결하고 고객이 지원 대화를 통해 원활하게 약속을 예약할 수 있도록 하세요.",
+        "ctaTitle": "일정 관리를 자동화할 준비가 되셨습니까?",
+        "customer": "고객",
+        "customerChoice": "화요일 오후 2시가 완벽합니다!",
+        "demoButton": "일정 데모 예약",
+        "exampleTitle": "일정 예제",
         "features": [
-          "Real-time availability sync",
-          "Automated booking confirmations",
-          "Calendar invite generation",
-          "Reminder notifications",
-          "Multi-timezone support",
-          "Recurring appointment handling"
+          "실시간 가용성 동기화",
+          "자동 예약 확인",
+          "캘린더 초대 생성",
+          "알림",
+          "다중 시간대 지원",
+          "반복 약속 처리"
         ],
         "flow": {
           "availability": {
-            "description": "System checks real-time calendar availability",
-            "example": "Available slots: Tue 2PM, Wed 10AM, Thu 3PM",
-            "title": "Availability Check"
+            "description": "시스템이 실시간 캘린더 가용성 확인",
+            "example": "사용 가능한 슬롯: 화요일 오후 2시, 수요일 오전 10시, 목요일 오후 3시",
+            "title": "가용성 확인"
           },
           "confirmation": {
-            "description": "Customer selects time and appointment is automatically booked",
-            "example": "Meeting booked for Tuesday 2PM with calendar invite sent",
-            "title": "Booking Confirmation"
+            "description": "고객이 시간을 선택하고 약속이 자동으로 예약됨",
+            "example": "화요일 오후 2시 회의 예약 완료, 캘린더 초대 전송됨",
+            "title": "예약 확인"
           },
           "followup": {
-            "description": "Reminders and confirmations sent automatically",
-            "example": "24hr reminder + meeting link + preparation materials",
-            "title": "Automated Follow-up"
+            "description": "알림 및 확인이 자동으로 전송됨",
+            "example": "24시간 알림 + 회의 링크 + 준비 자료",
+            "title": "자동 후속 조치"
           },
           "request": {
-            "description": "Customer asks to schedule a meeting or appointment",
-            "example": "\"I'd like to schedule a demo for next week\"",
-            "title": "Customer Request"
+            "description": "고객이 회의 또는 약속 일정을 요청",
+            "example": "\"다음 주에 데모 일정을 잡고 싶습니다\"",
+            "title": "고객 요청"
           }
         },
-        "flowSubtitle": "See how seamless appointment booking works within customer conversations.",
-        "flowTitle": "Automated Scheduling Flow",
+        "flowSubtitle": "고객 대화 내에서 원활한 약속 예약이 어떻게 작동하는지 확인하세요.",
+        "flowTitle": "자동 일정 관리 흐름",
         "platforms": {
           "acuity": {
-            "category": "Professional",
-            "description": "Advanced scheduling with client management features",
+            "category": "전문",
+            "description": "클라이언트 관리 기능을 갖춘 고급 일정 관리",
             "features": {
-              "group": "Group appointments",
-              "intake": "Client intake forms",
-              "packages": "Package scheduling",
-              "workflows": "Automated workflows"
+              "group": "그룹 약속",
+              "intake": "클라이언트 접수 양식",
+              "packages": "패키지 일정 관리",
+              "workflows": "자동화된 워크플로우"
             },
             "name": "Acuity Scheduling",
-            "setupTime": "12 minutes"
+            "setupTime": "12분"
           },
           "apple": {
-            "category": "Apple Ecosystem",
-            "description": "iCloud calendar integration for Apple ecosystem users",
+            "category": "Apple 생태계",
+            "description": "Apple 생태계 사용자를 위한 iCloud 캘린더 통합",
             "features": {
-              "devices": "Cross-device access",
-              "location": "Location services",
-              "sharing": "Event sharing",
-              "sync": "iCloud sync"
+              "devices": "교차 장치 액세스",
+              "location": "위치 서비스",
+              "sharing": "이벤트 공유",
+              "sync": "iCloud 동기화"
             },
             "name": "Apple Calendar",
-            "setupTime": "6 minutes"
+            "setupTime": "6분"
           },
           "calcom": {
-            "category": "Open Scheduling",
-            "description": "Open scheduling infrastructure for teams and individuals",
+            "category": "오픈 일정 관리",
+            "description": "팀 및 개인을 위한 오픈 일정 관리 인프라",
             "features": {
-              "api": "API & webhooks",
-              "booking": "Booking links",
-              "payments": "Payment integration",
-              "workflows": "Custom workflows"
+              "api": "API 및 웹훅",
+              "booking": "예약 링크",
+              "payments": "결제 통합",
+              "workflows": "맞춤형 워크플로우"
             },
             "name": "Cal.com",
-            "setupTime": "7 minutes"
+            "setupTime": "7분"
           },
           "calendly": {
-            "category": "Scheduling",
-            "description": "Popular scheduling tool for automated appointment booking",
+            "category": "일정 관리",
+            "description": "자동 약속 예약을 위한 인기 있는 일정 관리 도구",
             "features": {
-              "booking": "Booking pages",
-              "buffer": "Buffer times",
-              "payment": "Payment integration",
-              "questions": "Custom questions"
+              "booking": "예약 페이지",
+              "buffer": "버퍼 시간",
+              "payment": "결제 통합",
+              "questions": "맞춤형 질문"
             },
             "name": "Calendly",
-            "setupTime": "10 minutes"
+            "setupTime": "10분"
           },
           "google": {
             "category": "Google Workspace",
-            "description": "Seamless integration with Google Calendar for appointment scheduling",
+            "description": "약속 일정을 위한 Google Calendar와의 원활한 통합",
             "features": {
-              "availability": "Availability sync",
-              "events": "Event creation",
-              "meetings": "Meeting scheduling",
-              "reminders": "Reminder notifications"
+              "availability": "가용성 동기화",
+              "events": "이벤트 생성",
+              "meetings": "회의 일정 관리",
+              "reminders": "알림"
             },
             "name": "Google Calendar",
-            "setupTime": "5 minutes"
+            "setupTime": "5분"
           },
           "highlevel": {
-            "category": "All-in-One",
-            "description": "All-in-one sales, marketing, and calendar automation",
+            "category": "올인원",
+            "description": "판매, 마케팅 및 캘린더 자동화를 위한 올인원 솔루션",
             "features": {
-              "forms": "Booking forms",
-              "integration": "CRM integration",
-              "pipelines": "Sales pipelines",
-              "reminders": "Automated reminders"
+              "forms": "예약 양식",
+              "integration": "CRM 통합",
+              "pipelines": "판매 파이프라인",
+              "reminders": "자동 알림"
             },
             "name": "HighLevel",
-            "setupTime": "9 minutes"
+            "setupTime": "9분"
           },
           "notion": {
-            "category": "Productivity",
-            "description": "Calendar and project management with Notion integration",
+            "category": "생산성",
+            "description": "Notion 통합을 통한 캘린더 및 프로젝트 관리",
             "features": {
-              "automation": "Workflow automation",
-              "sync": "Calendar sync",
-              "tasks": "Task scheduling",
-              "templates": "Custom templates"
+              "automation": "워크플로우 자동화",
+              "sync": "캘린더 동기화",
+              "tasks": "작업 일정 관리",
+              "templates": "맞춤형 템플릿"
             },
             "name": "Notion",
-            "setupTime": "6 minutes"
+            "setupTime": "6분"
           },
           "outlook": {
             "category": "Microsoft 365",
-            "description": "Microsoft Outlook and Office 365 calendar integration",
+            "description": "Microsoft Outlook 및 Office 365 캘린더 통합",
             "features": {
-              "exchange": "Exchange sync",
-              "recurring": "Recurring events",
-              "rooms": "Meeting rooms",
-              "team": "Team calendars"
+              "exchange": "Exchange 동기화",
+              "recurring": "반복 이벤트",
+              "rooms": "회의실",
+              "team": "팀 캘린더"
             },
             "name": "Microsoft Outlook",
-            "setupTime": "8 minutes"
+            "setupTime": "8분"
           },
           "zoom": {
-            "category": "Video Conferencing",
-            "description": "Video meeting scheduling with Zoom integration",
+            "category": "화상 회의",
+            "description": "Zoom 통합을 통한 화상 회의 일정 관리",
             "features": {
-              "meetings": "Video meetings",
-              "recording": "Recording setup",
-              "waiting": "Waiting rooms",
-              "webinar": "Webinar scheduling"
+              "meetings": "화상 회의",
+              "recording": "녹화 설정",
+              "waiting": "대기실",
+              "webinar": "웨비나 일정 관리"
             },
             "name": "Zoom Scheduler",
-            "setupTime": "7 minutes"
+            "setupTime": "7분"
           }
         },
-        "platformsSubtitle": "Connect with all major calendar and scheduling platforms for seamless appointment management.",
-        "platformsTitle": "Calendar Platform Seachat Integrations",
+        "platformsSubtitle": "원활한 약속 관리를 위해 모든 주요 캘린더 및 일정 관리 플랫폼과 연결하세요.",
+        "platformsTitle": "캘린더 플랫폼 SeaChat 통합",
         "seachatAI": "SeaChat AI",
-        "slot1": "Tuesday, Jan 16 - 2:00 PM PST",
-        "slot2": "Wednesday, Jan 17 - 10:00 AM PST",
-        "slot3": "Thursday, Jan 18 - 3:00 PM PST",
-        "solutionSubtitle": "Everything you need to manage appointments, meetings, and events directly from your customer support platform.",
-        "solutionTitle": "Complete Scheduling Solution",
-        "subtitle": "Integrate with popular calendar platforms to enable seamless appointment scheduling directly from customer support conversations.",
-        "title": "Calendar & Scheduling",
-        "setup": "Set up"
+        "slot1": "1월 16일 화요일 - 오후 2시 PST",
+        "slot2": "1월 17일 수요일 - 오전 10시 PST",
+        "slot3": "1월 18일 목요일 - 오후 3시 PST",
+        "solutionSubtitle": "고객 지원 플랫폼에서 직접 약속, 회의 및 이벤트를 관리하는 데 필요한 모든 것.",
+        "solutionTitle": "완벽한 일정 관리 솔루션",
+        "subtitle": "인기 있는 캘린더 플랫폼과 통합하여 고객 지원 대화에서 직접 원활한 약속 일정을 활성화하세요.",
+        "title": "캘린더 및 일정 관리",
+        "setup": "설정"
       },
       "communication": {
         "benefits": {
           "collaboration": {
-            "description": "Improve internal team coordination and response times",
-            "title": "Team Collaboration"
+            "description": "내부 팀 조정 및 응답 시간 개선",
+            "title": "팀 협업"
           },
           "efficiency": {
-            "description": "Faster resolution with integrated communication tools",
-            "title": "Response Efficiency"
+            "description": "통합 커뮤니케이션 도구로 더 빠른 해결",
+            "title": "응답 효율성"
           },
           "satisfaction": {
-            "description": "Better support experience across all channels",
-            "title": "Customer Satisfaction"
+            "description": "모든 채널에서 더 나은 지원 경험",
+            "title": "고객 만족도"
           },
           "unified": {
-            "description": "Manage all communication channels from one central hub",
-            "title": "Unified Communication"
+            "description": "하나의 중앙 허브에서 모든 커뮤니케이션 채널 관리",
+            "title": "통합 커뮤니케이션"
           }
         },
-        "benefitsSubtitle": "Enhance your customer support and internal collaboration with seamless Seachat integrations.",
-        "benefitsTitle": "Benefits of Integrated Communication",
-        "connectButton": "Connect Communication Tools",
-        "connectPlatform": "Connect with",
+        "benefitsSubtitle": "원활한 SeaChat 통합으로 고객 지원 및 내부 협업을 강화하세요.",
+        "benefitsTitle": "통합 커뮤니케이션의 이점",
+        "connectButton": "커뮤니케이션 도구 연결",
+        "connectPlatform": "연결",
         "cta": {
-          "connectButton": "Get Started Now",
-          "contactButton": "Contact Sales",
-          "title": "Ready to Streamline Your Communication?",
-          "subtitle": "Connect your favorite communication tools and enhance your team's productivity and customer engagement."
+          "connectButton": "지금 시작하기",
+          "contactButton": "영업팀에 문의",
+          "title": "커뮤니케이션을 간소화할 준비가 되셨습니까?",
+          "subtitle": "좋아하는 커뮤니케이션 도구를 연결하고 팀의 생산성 및 고객 참여를 향상시키세요."
         },
-        "demoButton": "Schedule Integration Demo",
+        "demoButton": "통합 데모 예약",
         "features": {
           "feature1": {
-            "description": "Engage with customers instantly across all integrated platforms, ensuring timely responses and improved satisfaction.",
-            "title": "Real-time Messaging"
+            "description": "모든 통합 플랫폼에서 고객과 즉시 소통하여 적시에 응답하고 만족도를 높입니다.",
+            "title": "실시간 메시징"
           },
           "feature2": {
-            "description": "Set up automated responses and routing rules to efficiently manage incoming messages and reduce manual effort.",
-            "title": "Automated Workflows"
+            "description": "자동 응답 및 라우팅 규칙을 설정하여 수신 메시지를 효율적으로 관리하고 수동 작업을 줄입니다.",
+            "title": "자동화된 워크플로우"
           },
           "feature3": {
-            "description": "Manage all conversations from a single, intuitive interface, eliminating the need to switch between different applications.",
-            "title": "Unified Inbox"
+            "description": "단일의 직관적인 인터페이스에서 모든 대화를 관리하여 다른 애플리케이션 간 전환할 필요가 없습니다.",
+            "title": "통합 받은 편지함"
           },
           "feature4": {
-            "description": "Gain insights into communication volume, response times, and agent performance with comprehensive analytics and reporting.",
-            "title": "Performance Analytics"
+            "description": "포괄적인 분석 및 보고를 통해 통신량, 응답 시간 및 상담원 성능에 대한 통찰력을 얻습니다.",
+            "title": "성능 분석"
           }
         },
-        "featuresSubtitle": "Discover how our communication Seachat integrations can transform your workflow.",
-        "featuresTitle": "Key Features",
+        "featuresSubtitle": "저희 커뮤니케이션 SeaChat 통합이 워크플로우를 어떻게 혁신할 수 있는지 알아보세요.",
+        "featuresTitle": "주요 기능",
         "platforms": {
           "discord": {
-            "category": "Community",
-            "description": "Community support through Discord servers and channels",
+            "category": "커뮤니티",
+            "description": "Discord 서버 및 채널을 통한 커뮤니티 지원",
             "features": {
-              "bot": "Bot features",
-              "moderation": "Community moderation",
-              "server": "Server integration",
-              "voice": "Voice channels"
+              "bot": "봇 기능",
+              "moderation": "커뮤니티 중재",
+              "server": "서버 통합",
+              "voice": "음성 채널"
             },
             "name": "Discord",
-            "setupTime": "10 minutes"
+            "setupTime": "10분"
           },
           "email": {
-            "category": "Email",
-            "description": "Connect with Gmail, Outlook, and other email providers",
+            "category": "이메일",
+            "description": "Gmail, Outlook 및 기타 이메일 제공업체와 연결",
             "features": {
-              "attachments": "Attachment handling",
-              "routing": "Email routing",
-              "templates": "Template responses",
-              "threading": "Threading"
+              "attachments": "첨부 파일 처리",
+              "routing": "이메일 라우팅",
+              "templates": "템플릿 응답",
+              "threading": "스레딩"
             },
-            "name": "Email Platforms",
-            "setupTime": "7 minutes"
+            "name": "이메일 플랫폼",
+            "setupTime": "7분"
           },
           "googlechat": {
-            "category": "Team Chat",
-            "description": "Streamline team communication within the Google Workspace ecosystem.",
+            "category": "팀 채팅",
+            "description": "Google Workspace 생태계 내에서 팀 커뮤니케이션 간소화.",
             "features": {
-              "bots": "Bot Seachat integrations",
-              "files": "File sharing",
-              "meetings": "Meet integration",
-              "spaces": "Spaces for collaboration"
+              "bots": "봇 SeaChat 통합",
+              "files": "파일 공유",
+              "meetings": "Meet 통합",
+              "spaces": "협업을 위한 공간"
             },
             "name": "Google Chat",
-            "setupTime": "8 minutes"
+            "setupTime": "8분"
           },
           "kakaotalk": {
-            "category": "Messaging",
-            "description": "Connect with users in South Korea and beyond with KakaoTalk.",
+            "category": "메시징",
+            "description": "KakaoTalk으로 한국 및 그 외 지역 사용자들과 연결하세요.",
             "features": {
-              "channels": "Plus Friend Channels",
-              "commerce": "Kakao Commerce integration",
-              "messages": "Rich messages",
-              "payments": "Kakao Pay integration"
+              "channels": "플러스 친구 채널",
+              "commerce": "카카오 커머스 통합",
+              "messages": "리치 메시지",
+              "payments": "카카오페이 통합"
             },
             "name": "KakaoTalk",
-            "setupTime": "12 minutes"
+            "setupTime": "12분"
           },
           "slack": {
-            "category": "Team Chat",
-            "description": "Integrate with Slack for team collaboration and internal notifications",
+            "category": "팀 채팅",
+            "description": "팀 협업 및 내부 알림을 위해 Slack과 통합",
             "features": {
-              "channels": "Channel notifications",
-              "commands": "Bot commands",
-              "files": "File sharing",
-              "messages": "Direct messages"
+              "channels": "채널 알림",
+              "commands": "봇 명령",
+              "files": "파일 공유",
+              "messages": "직접 메시지"
             },
             "name": "Slack",
-            "setupTime": "5 minutes"
+            "setupTime": "5분"
           },
           "teams": {
-            "category": "Enterprise",
-            "description": "Connect with Microsoft Teams for enterprise communication",
+            "category": "엔터프라이즈",
+            "description": "엔터프라이즈 커뮤니케이션을 위해 Microsoft Teams와 연결",
             "features": {
-              "apps": "App integration",
-              "calls": "Video calls",
-              "channels": "Team channels",
-              "files": "File collaboration"
+              "apps": "앱 통합",
+              "calls": "화상 통화",
+              "channels": "팀 채널",
+              "files": "파일 협업"
             },
             "name": "Microsoft Teams",
-            "setupTime": "8 minutes"
+            "setupTime": "8분"
           },
           "telegram": {
-            "category": "Messaging",
-            "description": "Telegram bot integration for instant messaging support",
+            "category": "메시징",
+            "description": "즉석 메시징 지원을 위한 Telegram 봇 통합",
             "features": {
-              "api": "Bot API",
-              "channels": "Channel broadcasting",
-              "files": "File transfers",
-              "groups": "Group chats"
+              "api": "봇 API",
+              "channels": "채널 브로드캐스팅",
+              "files": "파일 전송",
+              "groups": "그룹 채팅"
             },
             "name": "Telegram",
-            "setupTime": "15 minutes"
+            "setupTime": "15분"
           },
           "whatsapp": {
-            "category": "Messaging",
+            "category": "메시징",
             "features": {
-              "automation": "Automated responses",
-              "businessApi": "Business API",
-              "messaging": "Rich messaging",
-              "templates": "Message templates"
+              "automation": "자동 응답",
+              "businessApi": "비즈니스 API",
+              "messaging": "리치 메시징",
+              "templates": "메시지 템플릿"
             },
             "name": "WhatsApp",
-            "setupTime": "10 minutes",
-            "description": "Engage with customers directly on the world's most popular messaging app."
+            "setupTime": "10분",
+            "description": "세계에서 가장 인기 있는 메시징 앱에서 고객과 직접 소통하세요."
           },
           "zalo": {
-            "category": "Messaging",
-            "description": "Connect with customers in Vietnam and Southeast Asia via Zalo.",
+            "category": "메시징",
+            "description": "Zalo를 통해 베트남 및 동남아시아 고객과 연결하세요.",
             "features": {
-              "messaging": "Rich messaging",
-              "miniApp": "Mini Apps",
-              "officialAccount": "Official Accounts",
-              "payments": "Zalo Pay integration"
+              "messaging": "리치 메시징",
+              "miniApp": "미니 앱",
+              "officialAccount": "공식 계정",
+              "payments": "Zalo Pay 통합"
             },
             "name": "Zalo",
-            "setupTime": "10 minutes"
+            "setupTime": "10분"
           }
         },
-        "platformsSubtitle": "Connect with the communication tools your team already uses for seamless workflow integration.",
-        "platformsTitle": "Popular Communication Platforms",
-        "subtitle": "Integrate with popular communication platforms like Slack, Teams, Discord, and more to streamline your support workflow and team collaboration.",
-        "title": "Communication Tools",
-        "setup": "Setup time"
+        "platformsSubtitle": "원활한 워크플로우 통합을 위해 팀이 이미 사용하는 커뮤니케이션 도구와 연결하세요.",
+        "platformsTitle": "인기 있는 커뮤니케이션 플랫폼",
+        "subtitle": "Slack, Teams, Discord 등 인기 있는 커뮤니케이션 플랫폼과 통합하여 지원 워크플로우 및 팀 협업을 간소화하세요.",
+        "title": "커뮤니케이션 도구",
+        "setup": "설정 시간"
       },
       "ecommerce": {
         "benefits": {
           "cart": {
-            "description": "Reduce cart abandonment with proactive support",
-            "title": "Cart Recovery"
+            "description": "사전 예방적 지원으로 장바구니 포기 감소",
+            "title": "장바구니 복구"
           },
           "orders": {
-            "description": "Handle order inquiries, tracking, and updates automatically",
-            "title": "Order Management"
+            "description": "주문 문의, 추적 및 업데이트를 자동으로 처리",
+            "title": "주문 관리"
           },
           "payment": {
-            "description": "Assist with payment issues and billing questions",
-            "title": "Payment Support"
+            "description": "결제 문제 및 청구 질문 지원",
+            "title": "결제 지원"
           },
           "sales": {
-            "description": "Convert support conversations into additional sales",
-            "title": "Sales Increase"
+            "description": "지원 대화를 추가 판매로 전환",
+            "title": "판매 증가"
           }
         },
-        "benefitsSubtitle": "Transform your customer support into a sales-driving, retention-boosting powerhouse.",
-        "benefitsTitle": "E-commerce Support Benefits",
-        "connectPlatform": "Connect",
+        "benefitsSubtitle": "고객 지원을 판매를 촉진하고 유지율을 높이는 강력한 도구로 전환하세요.",
+        "benefitsTitle": "전자상거래 지원 이점",
+        "connectPlatform": "연결",
         "cta": {
-          "button1": "Connect Your Store Now",
-          "button2": "Schedule E-commerce Demo"
+          "button1": "지금 상점 연결",
+          "button2": "전자상거래 데모 예약"
         },
-        "ctaSubtitle": "Connect your online store and start providing exceptional customer support that drives sales and loyalty.",
-        "ctaTitle": "Ready to Boost Your E-commerce Sales?",
-        "customer": "Customer",
+        "ctaSubtitle": "온라인 상점을 연결하고 판매 및 충성도를 높이는 탁월한 고객 지원을 시작하세요.",
+        "ctaTitle": "전자상거래 판매를 늘릴 준비가 되셨습니까?",
+        "customer": "고객",
         "hero": {
-          "button1": "Connect Your Store",
-          "button2": "Schedule E-commerce Demo"
+          "button1": "상점 연결",
+          "button2": "전자상거래 데모 예약"
         },
-        "orderQuestion": "Where is my order #12345?",
-        "orderResponse": "Your order #12345 shipped yesterday and is currently in transit. Expected delivery: Tomorrow by 6 PM. Track it here: [tracking link]",
+        "orderQuestion": "제 주문 #12345는 어디에 있나요?",
+        "orderResponse": "주문 #12345는 어제 배송되었으며 현재 운송 중입니다. 예상 배송: 내일 오후 6시까지. 여기에서 추적하세요: [추적 링크]",
         "platforms": {
           "bigcommerce": {
-            "description": "BigCommerce API integration for growing online stores",
+            "description": "성장하는 온라인 상점을 위한 BigCommerce API 통합",
             "features": {
-              "customers": "Customer insights",
-              "orders": "Order management",
-              "products": "Product data",
-              "shipping": "Shipping info"
+              "customers": "고객 통찰력",
+              "orders": "주문 관리",
+              "products": "제품 데이터",
+              "shipping": "배송 정보"
             },
             "name": "BigCommerce",
-            "popularity": "Growing",
-            "setupTime": "10 minutes"
+            "popularity": "성장 중",
+            "setupTime": "10분"
           },
           "etsy": {
-            "description": "Etsy marketplace integration for creative sellers",
+            "description": "창의적인 판매자를 위한 Etsy 마켓플레이스 통합",
             "features": {
-              "listings": "Listing help",
-              "messages": "Customer messages",
-              "orders": "Order support",
-              "shop": "Shop management"
+              "listings": "목록 도움말",
+              "messages": "고객 메시지",
+              "orders": "주문 지원",
+              "shop": "상점 관리"
             },
             "name": "Etsy",
-            "popularity": "Creative",
-            "setupTime": "12 minutes"
+            "popularity": "창의적",
+            "setupTime": "12분"
           },
           "fourthwall": {
-            "description": "Platform for creators to build a free website, sell products, and manage memberships",
+            "description": "크리에이터가 무료 웹사이트를 구축하고, 제품을 판매하고, 멤버십을 관리할 수 있는 플랫폼",
             "features": {
-              "community": "Community tools",
-              "donations": "Donations",
-              "memberships": "Memberships",
-              "merch": "Custom merch"
+              "community": "커뮤니티 도구",
+              "donations": "기부",
+              "memberships": "멤버십",
+              "merch": "맞춤형 상품"
             },
             "name": "Fourthwall",
-            "popularity": "Creator Economy",
-            "setupTime": "10 minutes"
+            "popularity": "크리에이터 경제",
+            "setupTime": "10분"
           },
           "godaddy": {
-            "description": "All-in-one solution for websites, marketing, and online stores",
+            "description": "웹사이트, 마케팅 및 온라인 상점을 위한 올인원 솔루션",
             "features": {
-              "scheduling": "Appointment scheduling",
-              "security": "SSL security",
-              "social": "Social media tools",
-              "website": "Website builder"
+              "scheduling": "예약",
+              "security": "SSL 보안",
+              "social": "소셜 미디어 도구",
+              "website": "웹사이트 빌더"
             },
             "name": "GoDaddy",
-            "popularity": "Comprehensive",
-            "setupTime": "15 minutes"
+            "popularity": "포괄적",
+            "setupTime": "15분"
           },
           "hostinger": {
-            "description": "Web hosting provider with an integrated website builder and e-commerce features",
+            "description": "통합 웹사이트 빌더 및 전자상거래 기능을 갖춘 웹 호스팅 제공업체",
             "features": {
-              "builder": "AI website builder",
-              "hosting": "Reliable hosting",
-              "ssl": "Free SSL",
-              "support": "24/7 support"
+              "builder": "AI 웹사이트 빌더",
+              "hosting": "안정적인 호스팅",
+              "ssl": "무료 SSL",
+              "support": "연중무휴 지원"
             },
             "name": "Hostinger",
-            "popularity": "Budget-Friendly",
-            "setupTime": "10 minutes"
+            "popularity": "예산 친화적",
+            "setupTime": "10분"
           },
           "magento": {
-            "description": "Enterprise Magento integration for large-scale e-commerce",
+            "description": "대규모 전자상거래를 위한 엔터프라이즈 Magento 통합",
             "features": {
-              "catalog": "Catalog sync",
-              "multistore": "Multi-store support",
-              "orders": "Advanced orders",
-              "segments": "Customer segments"
+              "catalog": "카탈로그 동기화",
+              "multistore": "다중 상점 지원",
+              "orders": "고급 주문",
+              "segments": "고객 세그먼트"
             },
             "name": "Magento",
-            "popularity": "Enterprise",
-            "setupTime": "15 minutes"
+            "popularity": "엔터프라이즈",
+            "setupTime": "15분"
           },
           "opencart": {
-            "description": "Free open-source e-commerce platform for online stores",
+            "description": "온라인 상점을 위한 무료 오픈 소스 전자상거래 플랫폼",
             "features": {
-              "dashboard": "Admin dashboard",
-              "extensions": "Rich extensions",
-              "multi_store": "Multi-store functionality",
-              "themes": "Themable"
+              "dashboard": "관리자 대시보드",
+              "extensions": "풍부한 확장 기능",
+              "multi_store": "다중 상점 기능",
+              "themes": "테마 가능"
             },
             "name": "OpenCart",
-            "popularity": "Flexible",
-            "setupTime": "25 minutes"
+            "popularity": "유연함",
+            "setupTime": "25분"
           },
           "prestashop": {
-            "description": "Open-source e-commerce solution for small to large businesses",
+            "description": "소기업부터 대기업까지 오픈 소스 전자상거래 솔루션",
             "features": {
-              "analytics": "Advanced analytics",
-              "customizable": "Highly customizable",
-              "modules": "Thousands of modules",
-              "multilingual": "Multilingual support"
+              "analytics": "고급 분석",
+              "customizable": "높은 사용자 정의 가능",
+              "modules": "수천 개의 모듈",
+              "multilingual": "다국어 지원"
             },
             "name": "PrestaShop",
-            "popularity": "Open-Source",
-            "setupTime": "30 minutes"
+            "popularity": "오픈 소스",
+            "setupTime": "30분"
           },
           "sellfy": {
-            "description": "E-commerce platform for creators to sell digital products, subscriptions, and physical goods",
+            "description": "크리에이터가 디지털 제품, 구독 및 실제 상품을 판매할 수 있는 전자상거래 플랫폼",
             "features": {
-              "digital": "Digital product sales",
-              "marketing": "Built-in marketing",
-              "print_on_demand": "Print-on-demand",
-              "subscriptions": "Subscription services"
+              "digital": "디지털 제품 판매",
+              "marketing": "내장 마케팅",
+              "print_on_demand": "주문형 인쇄",
+              "subscriptions": "구독 서비스"
             },
             "name": "Sellfy",
-            "popularity": "Creator-Focused",
-            "setupTime": "5 minutes"
+            "popularity": "크리에이터 중심",
+            "setupTime": "5분"
           },
           "shopify": {
-            "description": "Complete Shopify integration with order management and customer sync",
+            "description": "주문 관리 및 고객 동기화 기능을 갖춘 완벽한 Shopify 통합",
             "features": {
-              "catalog": "Product catalog",
-              "customers": "Customer profiles",
-              "inventory": "Inventory sync",
-              "orders": "Order tracking"
+              "catalog": "제품 카탈로그",
+              "customers": "고객 프로필",
+              "inventory": "재고 동기화",
+              "orders": "주문 추적"
             },
             "name": "Shopify",
-            "popularity": "Most Popular",
-            "setupTime": "5 minutes"
+            "popularity": "가장 인기 있는",
+            "setupTime": "5분"
           },
           "square": {
-            "description": "Point-of-sale and e-commerce solutions for businesses of all sizes",
+            "description": "모든 규모의 비즈니스를 위한 POS 및 전자상거래 솔루션",
             "features": {
-              "invoicing": "Invoicing",
-              "loyalty": "Loyalty programs",
-              "pos": "Integrated POS",
-              "reporting": "Sales reporting"
+              "invoicing": "송장 발행",
+              "loyalty": "로열티 프로그램",
+              "pos": "통합 POS",
+              "reporting": "판매 보고"
             },
             "name": "Square",
-            "popularity": "Retail",
-            "setupTime": "5 minutes"
+            "popularity": "소매",
+            "setupTime": "5분"
           },
           "squarespace": {
-            "description": "Website builder known for its beautiful design templates and e-commerce capabilities",
+            "description": "아름다운 디자인 템플릿과 전자상거래 기능으로 유명한 웹사이트 빌더",
             "features": {
-              "blogging": "Blogging tools",
-              "commerce": "Full commerce features",
-              "design": "Award-winning design",
-              "portfolio": "Portfolio options"
+              "blogging": "블로그 도구",
+              "commerce": "전체 상거래 기능",
+              "design": "수상 경력에 빛나는 디자인",
+              "portfolio": "포트폴리오 옵션"
             },
             "name": "Squarespace",
-            "popularity": "Design-Focused",
-            "setupTime": "20 minutes"
+            "popularity": "디자인 중심",
+            "setupTime": "20분"
           },
           "weebly": {
-            "description": "Simple drag-and-drop website builder with e-commerce features",
+            "description": "전자상거래 기능을 갖춘 간단한 드래그 앤 드롭 웹사이트 빌더",
             "features": {
-              "marketing": "Marketing tools",
-              "payments": "Integrated payments",
-              "seo": "SEO optimization",
-              "storefront": "Customizable storefront"
+              "marketing": "마케팅 도구",
+              "payments": "통합 결제",
+              "seo": "SEO 최적화",
+              "storefront": "사용자 정의 가능한 상점 전면"
             },
             "name": "Weebly",
-            "popularity": "User-Friendly",
-            "setupTime": "10 minutes"
+            "popularity": "사용자 친화적",
+            "setupTime": "10분"
           },
           "wix": {
-            "description": "Cloud-based web development platform for creating HTML5 websites and mobile sites",
+            "description": "HTML5 웹사이트 및 모바일 사이트 생성을 위한 클라우드 기반 웹 개발 플랫폼",
             "features": {
-              "analytics": "Site analytics",
-              "apps": "App market",
-              "mobile": "Mobile optimized",
-              "templates": "Designer templates"
+              "analytics": "사이트 분석",
+              "apps": "앱 마켓",
+              "mobile": "모바일 최적화",
+              "templates": "디자이너 템플릿"
             },
             "name": "Wix",
-            "popularity": "Versatile",
-            "setupTime": "10 minutes"
+            "popularity": "다재다능",
+            "setupTime": "10분"
           },
           "woocommerce": {
-            "description": "WordPress WooCommerce plugin for seamless store integration",
+            "description": "원활한 상점 통합을 위한 WordPress WooCommerce 플러그인",
             "features": {
-              "customers": "Customer history",
-              "orders": "Order status",
-              "payments": "Payment tracking",
-              "products": "Product support"
+              "customers": "고객 기록",
+              "orders": "주문 상태",
+              "payments": "결제 추적",
+              "products": "제품 지원"
             },
             "name": "WooCommerce",
             "popularity": "WordPress",
-            "setupTime": "8 minutes"
+            "setupTime": "8분"
           }
         },
-        "platformsSubtitle": "Integrate with all major e-commerce platforms and marketplaces for unified customer support.",
-        "platformsTitle": "Supported E-commerce Platforms",
-        "recommendationQuestion": "Great! Can you recommend similar products?",
-        "recommendationResponse": "Based on your purchase, you might like these items: [Product A], [Product B]. Would you like a 10% discount on your next order?",
-        "scenarioTitle": "Customer Support Scenario",
+        "platformsSubtitle": "통합 고객 지원을 위해 모든 주요 전자상거래 플랫폼 및 마켓플레이스와 통합하세요.",
+        "platformsTitle": "지원되는 전자상거래 플랫폼",
+        "recommendationQuestion": "좋습니다! 비슷한 제품을 추천해 주시겠어요?",
+        "recommendationResponse": "구매하신 제품을 기반으로 다음 품목이 마음에 드실 수 있습니다: [제품 A], [제품 B]. 다음 주문 시 10% 할인을 받으시겠습니까?",
+        "scenarioTitle": "고객 지원 시나리오",
         "seachatAI": "SeaChat AI",
-        "subtitle": "Connect SeaChat with your online store to provide exceptional customer support, increase sales, and reduce cart abandonment.",
-        "supportSubtitle": "Everything you need to provide exceptional customer support for your online store, from order tracking to product recommendations.",
-        "supportTitle": "Complete E-commerce Support Suite",
-        "title": "E-commerce Seachat integrations",
-        "setup": "Setup time",
+        "subtitle": "SeaChat을 온라인 상점과 연결하여 탁월한 고객 지원을 제공하고, 판매를 늘리며, 장바구니 포기를 줄이세요.",
+        "supportSubtitle": "주문 추적부터 제품 추천까지 온라인 상점을 위한 탁월한 고객 지원을 제공하는 데 필요한 모든 것.",
+        "supportTitle": "완벽한 전자상거래 지원 제품군",
+        "title": "전자상거래 SeaChat 통합",
+        "setup": "설정 시간",
         "features": [
           {
-            "title": "Real-Time Order Tracking",
-            "description": "Automatically sync order status and provide instant tracking information to customers",
+            "title": "실시간 주문 추적",
+            "description": "주문 상태를 자동으로 동기화하고 고객에게 즉각적인 추적 정보 제공",
             "icon": "package"
           },
           {
-            "title": "Inventory Management",
-            "description": "Keep customers informed about product availability and restock notifications",
+            "title": "재고 관리",
+            "description": "제품 가용성 및 재입고 알림에 대한 고객 정보 유지",
             "icon": "warehouse"
           },
           {
-            "title": "Smart Product Recommendations",
-            "description": "AI-powered product suggestions based on customer purchase history and preferences",
+            "title": "스마트 제품 추천",
+            "description": "고객 구매 기록 및 선호도를 기반으로 한 AI 기반 제품 제안",
             "icon": "target"
           },
           {
-            "title": "Cart Abandonment Recovery",
-            "description": "Proactively reach out to customers who abandoned their carts with personalized messages",
+            "title": "장바구니 포기 복구",
+            "description": "개인화된 메시지로 장바구니를 포기한 고객에게 사전 예방적으로 연락",
             "icon": "shopping-cart"
           },
           {
-            "title": "Payment Issue Resolution",
-            "description": "Handle payment failures and billing inquiries with instant access to transaction data",
+            "title": "결제 문제 해결",
+            "description": "거래 데이터에 즉시 액세스하여 결제 실패 및 청구 문의 처리",
             "icon": "credit-card"
           },
           {
-            "title": "Customer Purchase History",
-            "description": "Access complete customer purchase history for better support and personalized service",
+            "title": "고객 구매 기록",
+            "description": "더 나은 지원 및 개인화된 서비스를 위해 전체 고객 구매 기록에 액세스",
             "icon": "history"
           }
         ]
       },
       "marketing": {
-        "automationTitle": "Marketing Automation Flow",
+        "automationTitle": "마케팅 자동화 흐름",
         "benefits": {
           "campaigns": {
-            "description": "Better campaign results with customer support insights",
-            "title": "Campaign Performance"
+            "description": "고객 지원 통찰력으로 더 나은 캠페인 결과",
+            "title": "캠페인 성과"
           },
           "leads": {
-            "description": "Convert support conversations into marketing qualified leads",
-            "title": "Lead Generation"
+            "description": "지원 대화를 마케팅 자격 리드로 전환",
+            "title": "리드 생성"
           },
           "retention": {
-            "description": "Improve retention with personalized marketing campaigns",
-            "title": "Customer Retention"
+            "description": "개인화된 마케팅 캠페인으로 유지율 개선",
+            "title": "고객 유지"
           },
           "revenue": {
-            "description": "Increase revenue through integrated marketing efforts",
-            "title": "Revenue Growth"
+            "description": "통합 마케팅 노력을 통해 수익 증가",
+            "title": "수익 성장"
           }
         },
-        "benefitsSubtitle": "Transform customer support into a powerful marketing and growth engine.",
-        "benefitsTitle": "Marketing Integration Benefits",
-        "connectButton": "Connect Marketing Tools",
-        "connectPlatform": "Connect",
-        "ctaConnectButton": "Connect Marketing Tools",
-        "ctaGuideButton": "View Setup Guide",
-        "ctaSubtitle": "Connect your marketing platforms and turn every customer support conversation into a growth opportunity.",
-        "ctaTitle": "Ready to Supercharge Your Marketing?",
-        "demoButton": "Schedule Marketing Demo",
+        "benefitsSubtitle": "고객 지원을 강력한 마케팅 및 성장 엔진으로 전환하세요.",
+        "benefitsTitle": "마케팅 통합 이점",
+        "connectButton": "마케팅 도구 연결",
+        "connectPlatform": "연결",
+        "ctaConnectButton": "마케팅 도구 연결",
+        "ctaGuideButton": "설정 가이드 보기",
+        "ctaSubtitle": "마케팅 플랫폼을 연결하고 모든 고객 지원 대화를 성장 기회로 전환하세요.",
+        "ctaTitle": "마케팅을 강화할 준비가 되셨습니까?",
+        "demoButton": "마케팅 데모 예약",
         "flow": {
           "conversation": {
-            "description": "Customer asks about premium features",
-            "title": "Support Conversation"
+            "description": "고객이 프리미엄 기능에 대해 문의",
+            "title": "지원 대화"
           },
           "conversion": {
-            "description": "Customer upgrades to premium plan",
-            "title": "Conversion"
+            "description": "고객이 프리미엄 플랜으로 업그레이드",
+            "title": "전환"
           },
           "tagging": {
-            "description": "Customer tagged as \"interested in upgrade",
-            "title": "Automatic Tagging"
+            "description": "고객이 \"업그레이드에 관심 있음\"으로 태그됨",
+            "title": "자동 태그 지정"
           },
           "trigger": {
-            "description": "Automated email sequence starts",
-            "title": "Campaign Trigger"
+            "description": "자동 이메일 시퀀스 시작",
+            "title": "캠페인 트리거"
           }
         },
-        "integrationSubtitle": "Bridge the gap between customer support and marketing with intelligent automation that turns every conversation into a growth opportunity.",
-        "integrationTitle": "Complete Marketing Integration",
+        "integrationSubtitle": "모든 대화를 성장 기회로 전환하는 지능형 자동화로 고객 지원과 마케팅 간의 격차를 해소하세요.",
+        "integrationTitle": "완벽한 마케팅 통합",
         "features": [
           {
-            "title": "Lead Qualification & Scoring",
-            "description": "Automatically qualify and score leads from support conversations based on engagement and intent",
+            "title": "리드 자격 부여 및 점수 매기기",
+            "description": "참여도 및 의도를 기반으로 지원 대화에서 리드를 자동으로 자격 부여 및 점수 매기기",
             "icon": "target"
           },
           {
-            "title": "Campaign Trigger Automation",
-            "description": "Trigger targeted marketing campaigns based on specific customer interactions and behavior patterns",
+            "title": "캠페인 트리거 자동화",
+            "description": "특정 고객 상호 작용 및 행동 패턴을 기반으로 타겟 마케팅 캠페인 트리거",
             "icon": "zap"
           },
           {
-            "title": "Customer Journey Mapping",
-            "description": "Track and optimize the complete customer journey from first contact to conversion and retention",
+            "title": "고객 여정 매핑",
+            "description": "첫 접촉부터 전환 및 유지까지 전체 고객 여정 추적 및 최적화",
             "icon": "map"
           },
           {
-            "title": "Personalized Content Delivery",
-            "description": "Deliver personalized marketing content and offers based on support conversation history and preferences",
+            "title": "개인화된 콘텐츠 전달",
+            "description": "지원 대화 기록 및 선호도를 기반으로 개인화된 마케팅 콘텐츠 및 제안 전달",
             "icon": "heart"
           },
           {
-            "title": "Multi-Channel Campaign Sync",
-            "description": "Synchronize marketing campaigns across email, SMS, WhatsApp, and social media for consistent messaging",
+            "title": "다중 채널 캠페인 동기화",
+            "description": "일관된 메시징을 위해 이메일, SMS, WhatsApp 및 소셜 미디어 전반에 걸쳐 마케팅 캠페인 동기화",
             "icon": "sync"
           },
           {
-            "title": "Performance Analytics & ROI",
-            "description": "Measure campaign performance and ROI with detailed analytics on conversion rates and customer lifetime value",
+            "title": "성과 분석 및 ROI",
+            "description": "전환율 및 고객 평생 가치에 대한 자세한 분석으로 캠페인 성과 및 ROI 측정",
             "icon": "chart"
           }
         ],
         "platforms": {
           "activecampaign": {
-            "category": "Automation",
-            "description": "Customer experience automation platform",
+            "category": "자동화",
+            "description": "고객 경험 자동화 플랫폼",
             "features": {
-              "automation": "Marketing automation",
-              "crm": "CRM integration",
-              "learning": "Machine learning",
-              "sending": "Predictive sending"
+              "automation": "마케팅 자동화",
+              "crm": "CRM 통합",
+              "learning": "머신 러닝",
+              "sending": "예측 전송"
             },
             "name": "ActiveCampaign",
-            "setupTime": "18 minutes"
+            "setupTime": "18분"
           },
           "constantcontact": {
-            "category": "Email Marketing",
-            "description": "Email marketing and automation for small businesses",
+            "category": "이메일 마케팅",
+            "description": "소기업을 위한 이메일 마케팅 및 자동화",
             "features": {
-              "analytics": "Analytics dashboard",
-              "scheduling": "Campaign scheduling",
-              "social": "Social media tools",
-              "templates": "Email templates"
+              "analytics": "분석 대시보드",
+              "scheduling": "캠페인 일정 관리",
+              "social": "소셜 미디어 도구",
+              "templates": "이메일 템플릿"
             },
             "name": "Constant Contact",
-            "setupTime": "7 minutes"
+            "setupTime": "7분"
           },
           "convertkit": {
-            "category": "Creator Economy",
-            "description": "Creator-focused email marketing with automation sequences",
+            "category": "크리에이터 경제",
+            "description": "자동화 시퀀스를 갖춘 크리에이터 중심 이메일 마케팅",
             "features": {
-              "integrations": "Integrations",
-              "landing": "Landing pages",
-              "sequences": "Email sequences",
-              "tagging": "Subscriber tagging"
+              "integrations": "통합",
+              "landing": "랜딩 페이지",
+              "sequences": "이메일 시퀀스",
+              "tagging": "구독자 태그 지정"
             },
             "name": "ConvertKit",
-            "setupTime": "9 minutes"
+            "setupTime": "9분"
           },
           "engagebay": {
-            "category": "All-in-One",
-            "description": "All-in-one marketing, sales, and support CRM",
+            "category": "올인원",
+            "description": "올인원 마케팅, 판매 및 지원 CRM",
             "features": {
-              "automation": "Marketing automation",
-              "crm": "CRM integration",
-              "email": "Email marketing",
-              "forms": "Lead forms & popups"
+              "automation": "마케팅 자동화",
+              "crm": "CRM 통합",
+              "email": "이메일 마케팅",
+              "forms": "리드 양식 및 팝업"
             },
             "name": "EngageBay",
-            "setupTime": "11 minutes"
+            "setupTime": "11분"
           },
           "hubspot": {
-            "category": "Marketing Hub",
-            "description": "Inbound marketing platform with lead nurturing capabilities",
+            "category": "마케팅 허브",
+            "description": "리드 육성 기능을 갖춘 인바운드 마케팅 플랫폼",
             "features": {
-              "automation": "Marketing automation",
-              "landing": "Landing pages",
-              "scoring": "Lead scoring",
-              "social": "Social media"
+              "automation": "마케팅 자동화",
+              "landing": "랜딩 페이지",
+              "scoring": "리드 점수",
+              "social": "소셜 미디어"
             },
             "name": "HubSpot Marketing",
-            "setupTime": "15 minutes"
+            "setupTime": "15분"
           },
           "klaviyo": {
-            "category": "E-commerce",
-            "description": "E-commerce focused email and SMS marketing platform",
+            "category": "전자상거래",
+            "description": "전자상거래 중심 이메일 및 SMS 마케팅 플랫폼",
             "features": {
-              "recommendations": "Product recommendations",
-              "revenue": "Revenue tracking",
-              "sms": "SMS campaigns",
-              "triggers": "Behavioral triggers"
+              "recommendations": "제품 추천",
+              "revenue": "수익 추적",
+              "sms": "SMS 캠페인",
+              "triggers": "행동 트리거"
             },
             "name": "Klaviyo",
-            "setupTime": "12 minutes"
+            "setupTime": "12분"
           },
           "mailchimp": {
-            "category": "Email Marketing",
-            "description": "Comprehensive email marketing platform with audience insights",
+            "category": "이메일 마케팅",
+            "description": "잠재 고객 통찰력을 갖춘 포괄적인 이메일 마케팅 플랫폼",
             "features": {
-              "builder": "Campaign builder",
-              "reporting": "Reporting",
-              "segmentation": "Audience segmentation",
-              "testing": "A/B testing"
+              "builder": "캠페인 빌더",
+              "reporting": "보고",
+              "segmentation": "잠재 고객 세분화",
+              "testing": "A/B 테스트"
             },
             "name": "Mailchimp",
-            "setupTime": "10 minutes"
+            "setupTime": "10분"
           },
           "mailerlite": {
-            "category": "Email Marketing",
-            "description": "Email marketing automation with customer support integration",
+            "category": "이메일 마케팅",
+            "description": "고객 지원 통합을 통한 이메일 마케팅 자동화",
             "features": {
-              "analytics": "Analytics",
-              "automation": "Automation workflows",
-              "campaigns": "Email campaigns",
-              "subscribers": "Subscriber management"
+              "analytics": "분석",
+              "automation": "자동화 워크플로우",
+              "campaigns": "이메일 캠페인",
+              "subscribers": "구독자 관리"
             },
             "name": "MailerLite",
-            "setupTime": "8 minutes"
+            "setupTime": "8분"
           },
           "omnisend": {
-            "category": "E-commerce",
-            "description": "Omnichannel marketing automation for e-commerce",
+            "category": "전자상거래",
+            "description": "전자상거래를 위한 옴니채널 마케팅 자동화",
             "features": {
-              "automation": "Automation workflows",
-              "email": "Email & SMS campaigns",
-              "reports": "Advanced reporting",
-              "segmentation": "Audience segmentation"
+              "automation": "자동화 워크플로우",
+              "email": "이메일 및 SMS 캠페인",
+              "reports": "고급 보고",
+              "segmentation": "잠재 고객 세분화"
             },
             "name": "Omnisend",
-            "setupTime": "10 minutes"
+            "setupTime": "10분"
           }
         },
-        "platformsSubtitle": "Integrate with leading marketing platforms to create seamless customer experiences.",
-        "platformsTitle": "Popular Marketing Platforms",
-        "subtitle": "Connect SeaChat with your marketing tools to turn customer support conversations into powerful marketing opportunities and personalized campaigns.",
-        "title": "Marketing Platforms",
+        "platformsSubtitle": "선도적인 마케팅 플랫폼과 통합하여 원활한 고객 경험을 만드세요.",
+        "platformsTitle": "인기 있는 마케팅 플랫폼",
+        "subtitle": "SeaChat을 마케팅 도구와 연결하여 고객 지원 대화를 강력한 마케팅 기회 및 개인화된 캠페인으로 전환하세요.",
+        "title": "마케팅 플랫폼",
         "useCases": {
           "nurturing": {
-            "description": "Automatically add support contacts to nurturing campaigns",
-            "example": "Customer asks about pricing → Added to product demo email sequence",
-            "title": "Lead Nurturing"
+            "description": "지원 연락처를 육성 캠페인에 자동으로 추가",
+            "example": "고객이 가격에 대해 문의 → 제품 데모 이메일 시퀀스에 추가됨",
+            "title": "리드 육성"
           },
           "onboarding": {
-            "description": "Seamless onboarding experience with marketing automation",
-            "example": "New customer support ticket → Welcome series with helpful resources",
-            "title": "Customer Onboarding"
+            "description": "마케팅 자동화로 원활한 온보딩 경험",
+            "example": "새로운 고객 지원 티켓 → 유용한 리소스가 포함된 환영 시리즈",
+            "title": "고객 온보딩"
           },
           "retention": {
-            "description": "Proactive retention based on support interaction patterns",
-            "example": "Multiple support tickets → Triggered customer success outreach",
-            "title": "Retention Campaigns"
+            "description": "지원 상호 작용 패턴을 기반으로 한 사전 예방적 유지",
+            "example": "여러 지원 티켓 → 고객 성공 아웃리치 트리거",
+            "title": "유지 캠페인"
           },
           "upselling": {
-            "description": "Identify upselling opportunities from support conversations",
-            "example": "Customer mentions growth plans → Triggered upgrade campaign",
-            "title": "Upselling Opportunities"
+            "description": "지원 대화에서 상향 판매 기회 식별",
+            "example": "고객이 성장 계획 언급 → 업그레이드 캠페인 트리거",
+            "title": "상향 판매 기회"
           }
         },
-        "useCasesSubtitle": "See how support conversations can trigger powerful marketing workflows.",
-        "useCasesTitle": "Marketing Automation Use Cases",
-        "workflowExample": "Example Workflow",
-        "setup": "Set up"
+        "useCasesSubtitle": "지원 대화가 강력한 마케팅 워크플로우를 어떻게 트리거할 수 있는지 확인하세요.",
+        "useCasesTitle": "마케팅 자동화 사용 사례",
+        "workflowExample": "예제 워크플로우",
+        "setup": "설정"
       },
       "social": {
         "features": [
           {
-            "title": "Instant Customer Responses",
-            "description": "Reply to social media inquiries in real-time across all platforms",
+            "title": "즉각적인 고객 응답",
+            "description": "모든 플랫폼에서 소셜 미디어 문의에 실시간으로 응답",
             "icon": "message-circle"
           },
           {
-            "title": "Unified Social Inbox",
-            "description": "Manage all social media messages from one centralized dashboard",
+            "title": "통합 소셜 받은 편지함",
+            "description": "하나의 중앙 집중식 대시보드에서 모든 소셜 미디어 메시지 관리",
             "icon": "inbox"
           },
           {
-            "title": "Smart Auto-Routing",
-            "description": "Automatically route social messages to the right team members",
+            "title": "스마트 자동 라우팅",
+            "description": "소셜 메시지를 적절한 팀 구성원에게 자동으로 라우팅",
             "icon": "route"
           },
           {
-            "title": "Brand Reputation Management",
-            "description": "Monitor and respond to brand mentions and comments quickly",
+            "title": "브랜드 평판 관리",
+            "description": "브랜드 언급 및 댓글을 신속하게 모니터링하고 응답",
             "icon": "shield"
           },
           {
-            "title": "Multi-Language Support",
-            "description": "Communicate with global customers in their preferred language",
+            "title": "다국어 지원",
+            "description": "선호하는 언어로 글로벌 고객과 소통",
             "icon": "globe"
           },
           {
-            "title": "Social Analytics",
-            "description": "Track response times, engagement rates, and customer satisfaction",
+            "title": "소셜 분석",
+            "description": "응답 시간, 참여율 및 고객 만족도 추적",
             "icon": "chart"
           }
         ],
         "benefits": {
           "meet": {
-            "description": "Provide support on the platforms your customers already use daily",
-            "title": "Meet Customers Where They Are"
+            "description": "고객이 매일 사용하는 플랫폼에서 지원 제공",
+            "title": "고객이 있는 곳에서 만나세요"
           },
           "reputation": {
-            "description": "Maintain positive brand image with quick, helpful responses",
-            "title": "Brand Reputation"
+            "description": "빠르고 유용한 응답으로 긍정적인 브랜드 이미지 유지",
+            "title": "브랜드 평판"
           },
           "response": {
-            "description": "Respond to social media inquiries in real-time",
-            "title": "Faster Response Times"
+            "description": "소셜 미디어 문의에 실시간으로 응답",
+            "title": "더 빠른 응답 시간"
           },
           "unified": {
-            "description": "Handle all social platforms from one dashboard",
-            "title": "Unified Management"
+            "description": "하나의 대시보드에서 모든 소셜 플랫폼 처리",
+            "title": "통합 관리"
           }
         },
-        "benefitsSubtitle": "Transform your social media presence into a powerful customer support channel.",
-        "benefitsTitle": "Social Media Support Benefits",
-        "brandMentions": "Brand mentions requiring response",
-        "connectButton": "Connect Social Platforms",
-        "connectPlatform": "Connect",
-        "ctaConnectButton": "Connect Social Platforms",
-        "ctaGuideButton": "Schedule E-commerce Demo",
-        "ctaSubtitle": "Connect all your social media platforms and provide exceptional customer support where your customers spend their time.",
-        "ctaTitle": "Ready to Unify Your Social Media Support?",
-        "dashboardTitle": "Social Media Dashboard",
-        "demoButton": "Schedule Social Demo",
+        "benefitsSubtitle": "소셜 미디어 존재를 강력한 고객 지원 채널로 전환하세요.",
+        "benefitsTitle": "소셜 미디어 지원 이점",
+        "brandMentions": "응답이 필요한 브랜드 언급",
+        "connectButton": "소셜 플랫폼 연결",
+        "connectPlatform": "연결",
+        "ctaConnectButton": "소셜 플랫폼 연결",
+        "ctaGuideButton": "전자상거래 데모 예약",
+        "ctaSubtitle": "모든 소셜 미디어 플랫폼을 연결하고 고객이 시간을 보내는 곳에서 탁월한 고객 지원을 제공하세요.",
+        "ctaTitle": "소셜 미디어 지원을 통합할 준비가 되셨습니까?",
+        "dashboardTitle": "소셜 미디어 대시보드",
+        "demoButton": "소셜 데모 예약",
         "facebook": "Facebook",
         "instagram": "Instagram",
-        "managementSubtitle": "Everything you need to manage customer interactions across all social media platforms from one unified dashboard.",
-        "managementTitle": "Complete Social Media Management",
-        "mentions": "3 mentions",
-        "newMessages": "12 new messages",
-        "pageMessages": "5 page messages",
+        "managementSubtitle": "하나의 통합 대시보드에서 모든 소셜 미디어 플랫폼에 걸쳐 고객 상호 작용을 관리하는 데 필요한 모든 것.",
+        "managementTitle": "완벽한 소셜 미디어 관리",
+        "mentions": "3회 언급",
+        "newMessages": "새 메시지 12개",
+        "pageMessages": "페이지 메시지 5개",
         "platforms": {
           "facebook": {
-            "description": "Provide customer support through Facebook's messaging platform",
+            "description": "Facebook의 메시징 플랫폼을 통해 고객 지원 제공",
             "features": {
-              "cards": "Rich cards",
-              "menu": "Persistent menu",
-              "page": "Page integration",
-              "responses": "Automated responses"
+              "cards": "리치 카드",
+              "menu": "영구 메뉴",
+              "page": "페이지 통합",
+              "responses": "자동 응답"
             },
             "name": "Facebook Messenger",
-            "setupTime": "12 minutes",
-            "users": "1.3B+ users"
+            "setupTime": "12분",
+            "users": "13억 명 이상"
           },
           "instagram": {
-            "description": "Manage Instagram DMs and story replies in one unified inbox",
+            "description": "하나의 통합 받은 편지함에서 Instagram DM 및 스토리 답장 관리",
             "features": {
-              "dm": "Direct messages",
-              "media": "Media sharing",
-              "responses": "Quick responses",
-              "stories": "Story replies"
+              "dm": "직접 메시지",
+              "media": "미디어 공유",
+              "responses": "빠른 응답",
+              "stories": "스토리 답장"
             },
             "name": "Instagram",
-            "setupTime": "8 minutes",
-            "users": "1.4B+ users"
+            "setupTime": "8분",
+            "users": "14억 명 이상"
           },
           "line": {
-            "description": "Provide seamless customer support and engagement on LINE",
+            "description": "LINE에서 원활한 고객 지원 및 참여 제공",
             "features": {
-              "broadcast": "Broadcast messages",
-              "messaging": "Rich messaging",
-              "payments": "LINE Pay integration",
-              "stickers": "Sticker support"
+              "broadcast": "브로드캐스트 메시지",
+              "messaging": "리치 메시지",
+              "payments": "LINE Pay 통합",
+              "stickers": "스티커 지원"
             },
             "name": "LINE",
-            "setupTime": "10 minutes",
-            "users": "180M+ users"
+            "setupTime": "10분",
+            "users": "1억 8천만 명 이상"
           },
           "tiktok": {
-            "description": "Engage with your audience and manage customer interactions on TikTok",
+            "description": "TikTok에서 잠재 고객과 소통하고 고객 상호 작용 관리",
             "features": {
-              "ads": "Ad campaign support",
-              "analytics": "Audience analytics",
-              "comments": "Comment management",
-              "dm": "Direct messages"
+              "ads": "광고 캠페인 지원",
+              "analytics": "잠재 고객 분석",
+              "comments": "댓글 관리",
+              "dm": "직접 메시지"
             },
             "name": "TikTok",
-            "setupTime": "15 minutes",
-            "users": "1B+ users"
+            "setupTime": "15분",
+            "users": "10억 명 이상"
           },
           "twitter": {
-            "description": "Handle customer inquiries and mentions on Twitter/X platform",
+            "description": "Twitter/X 플랫폼에서 고객 문의 및 언급 처리",
             "features": {
-              "dm": "Direct messages",
-              "mentions": "Mention tracking",
-              "responses": "Tweet responses",
-              "threads": "Thread management"
+              "dm": "직접 메시지",
+              "mentions": "언급 추적",
+              "responses": "트윗 응답",
+              "threads": "스레드 관리"
             },
             "name": "Twitter/X",
-            "setupTime": "15 minutes",
-            "users": "450M+ users"
+            "setupTime": "15분",
+            "users": "4억 5천만 명 이상"
           },
           "whatsapp": {
-            "description": "Connect with customers on the world's most popular messaging platform",
+            "description": "세계에서 가장 인기 있는 메시징 플랫폼에서 고객과 연결",
             "features": {
-              "api": "Business API",
-              "groups": "Groups",
-              "media": "Rich media",
-              "templates": "Templates"
+              "api": "비즈니스 API",
+              "groups": "그룹",
+              "media": "리치 미디어",
+              "templates": "템플릿"
             },
             "name": "WhatsApp Business",
-            "setupTime": "10 minutes",
-            "users": "2B+ users"
+            "setupTime": "10분",
+            "users": "20억 명 이상"
           }
         },
-        "platformsSubtitle": "Integrate with every social platform your customers use for comprehensive social media support.",
-        "platformsTitle": "All Major Social Platforms",
-        "productComments": "Comments on latest product showcase",
-        "productInquiries": "Customer inquiries about product availability",
-        "setup": "Setup time",
-        "storyReplies": "8 story replies",
-        "subtitle": "Connect all your social media platforms and provide seamless customer support across WhatsApp, Instagram, Facebook, Twitter, and more.",
-        "supportRequests": "Support requests and general inquiries",
-        "title": "Social Media Integrations",
+        "platformsSubtitle": "포괄적인 소셜 미디어 지원을 위해 고객이 사용하는 모든 소셜 플랫폼과 통합하세요.",
+        "platformsTitle": "모든 주요 소셜 플랫폼",
+        "productComments": "최신 제품 쇼케이스에 대한 댓글",
+        "productInquiries": "제품 가용성에 대한 고객 문의",
+        "setup": "설정 시간",
+        "storyReplies": "스토리 답장 8개",
+        "subtitle": "모든 소셜 미디어 플랫폼을 연결하고 WhatsApp, Instagram, Facebook, Twitter 등에서 원활한 고객 지원을 제공하세요.",
+        "supportRequests": "지원 요청 및 일반 문의",
+        "title": "소셜 미디어 통합",
         "twitter": "Twitter/X",
         "whatsapp": "WhatsApp Business",
-        "worldwide": "worldwide"
+        "worldwide": "전 세계"
       },
       "websites": {
-        "code": "Code",
-        "codeButton": "Get Widget Code",
-        "copyCode": "Copy Code",
-        "ctaCodeButton": "Get Widget Code Now",
-        "ctaDocsButton": "View Integration Docs",
-        "ctaSubtitle": "Get your custom widget code and start providing exceptional customer support in minutes.",
-        "ctaTitle": "Ready to Add SeaChat to Your Website?",
+        "code": "코드",
+        "codeButton": "위젯 코드 받기",
+        "copyCode": "코드 복사",
+        "ctaCodeButton": "지금 위젯 코드 받기",
+        "ctaDocsButton": "통합 문서 보기",
+        "ctaSubtitle": "맞춤형 위젯 코드를 받고 몇 분 안에 탁월한 고객 지원을 시작하세요.",
+        "ctaTitle": "SeaChat을 웹사이트에 추가할 준비가 되셨습니까?",
         "customization": {
           "colors": {
-            "description": "Match your brand colors, fonts, and styling",
+            "description": "브랜드 색상, 글꼴 및 스타일과 일치",
             "features": {
-              "css": "CSS overrides",
-              "fonts": "Font customization",
-              "logo": "Brand logo integration",
-              "schemes": "Custom color schemes"
+              "css": "CSS 재정의",
+              "fonts": "글꼴 사용자 정의",
+              "logo": "브랜드 로고 통합",
+              "schemes": "맞춤형 색상 구성표"
             },
-            "title": "Colors & Branding"
+            "title": "색상 및 브랜딩"
           },
           "content": {
-            "description": "Customize all text and messaging",
+            "description": "모든 텍스트 및 메시징 사용자 정의",
             "features": {
-              "greetings": "Custom greetings",
-              "multilanguage": "Multi-language support",
-              "offline": "Offline messages",
-              "welcome": "Welcome messages"
+              "greetings": "맞춤형 인사말",
+              "multilanguage": "다국어 지원",
+              "offline": "오프라인 메시지",
+              "welcome": "환영 메시지"
             },
-            "title": "Content & Messages"
+            "title": "콘텐츠 및 메시지"
           },
           "position": {
-            "description": "Control where and how the widget appears",
+            "description": "위젯이 나타나는 위치 및 방법 제어",
             "features": {
-              "auto": "Auto-open settings",
-              "corner": "Corner positioning",
-              "mobile": "Mobile responsiveness",
-              "trigger": "Trigger conditions"
+              "auto": "자동 열기 설정",
+              "corner": "모서리 위치 지정",
+              "mobile": "모바일 반응형",
+              "trigger": "트리거 조건"
             },
-            "title": "Position & Behavior"
+            "title": "위치 및 동작"
           }
         },
-        "customizationSubtitle": "Make SeaChat match your brand perfectly with extensive customization options.",
-        "customizationTitle": "Customization Options",
-        "demoButton": "Schedule Demo",
-        "getPlatformCode": "Get",
+        "customizationSubtitle": "광범위한 사용자 정의 옵션으로 SeaChat을 브랜드와 완벽하게 일치시키세요.",
+        "customizationTitle": "사용자 정의 옵션",
+        "demoButton": "데모 예약",
+        "getPlatformCode": "받기",
         "installation": {
           "step1": {
-            "description": "Copy your unique SeaChat widget code from the dashboard",
-            "title": "Get Your Widget Code"
+            "description": "대시보드에서 고유한 SeaChat 위젯 코드 복사",
+            "title": "위젯 코드 받기"
           },
           "step2": {
-            "description": "Paste the code before the closing </body> tag",
-            "title": "Add to Your Website"
+            "description": "닫는 <\/body> 태그 앞에 코드 붙여넣기",
+            "title": "웹사이트에 추가"
           },
           "step3": {
-            "description": "Optional: Customize colors, position, and behavior",
-            "title": "Customize Appearance"
+            "description": "선택 사항: 색상, 위치 및 동작 사용자 정의",
+            "title": "모양 사용자 정의"
           }
         },
-        "installationSubtitle": "Follow these simple steps to add SeaChat to any website in minutes.",
-        "installationTitle": "Universal Installation Guide",
+        "installationSubtitle": "몇 분 안에 SeaChat을 모든 웹사이트에 추가하려면 다음 간단한 단계를 따르세요.",
+        "installationTitle": "범용 설치 가이드",
         "platforms": {
           "generic": {
-            "description": "Universal widget that works on any HTML website",
-            "difficulty": "Easy",
+            "description": "모든 HTML 웹사이트에서 작동하는 범용 위젯",
+            "difficulty": "쉬움",
             "features": {
-              "compatibility": "Universal compatibility",
-              "installation": "Easy installation",
-              "responsive": "Responsive design",
-              "styling": "Custom styling"
+              "compatibility": "범용 호환성",
+              "installation": "쉬운 설치",
+              "responsive": "반응형 디자인",
+              "styling": "맞춤형 스타일링"
             },
-            "name": "Generic Website",
-            "setupTime": "2 minutes"
+            "name": "일반 웹사이트",
+            "setupTime": "2분"
           },
           "shopify": {
-            "description": "E-commerce optimized with order tracking integration",
-            "difficulty": "Easy",
+            "description": "주문 추적 통합으로 전자상거래에 최적화됨",
+            "difficulty": "쉬움",
             "features": {
-              "cart": "Cart abandonment",
-              "customers": "Customer data sync",
-              "orders": "Order integration",
-              "products": "Product recommendations"
+              "cart": "장바구니 포기",
+              "customers": "고객 데이터 동기화",
+              "orders": "주문 통합",
+              "products": "제품 추천"
             },
             "name": "Shopify",
-            "setupTime": "3 minutes"
+            "setupTime": "3분"
           },
           "squarespace": {
-            "description": "Seamless integration with Squarespace design system",
-            "difficulty": "Medium",
+            "description": "Squarespace 디자인 시스템과의 원활한 통합",
+            "difficulty": "중간",
             "features": {
-              "code": "Code injection",
-              "design": "Design system match",
-              "style": "Style customization",
-              "templates": "Template compatibility"
+              "code": "코드 삽입",
+              "design": "디자인 시스템 일치",
+              "style": "스타일 사용자 정의",
+              "templates": "템플릿 호환성"
             },
             "name": "Squarespace",
-            "setupTime": "3 minutes"
+            "setupTime": "3분"
           },
           "webflow": {
-            "description": "Native integration for Webflow CMS and e-commerce",
-            "difficulty": "Easy",
+            "description": "Webflow CMS 및 전자상거래를 위한 기본 통합",
+            "difficulty": "쉬움",
             "features": {
-              "cms": "CMS integration",
-              "custom": "Custom code injection",
-              "design": "Designer-friendly",
-              "ecommerce": "E-commerce support"
+              "cms": "CMS 통합",
+              "custom": "맞춤형 코드 삽입",
+              "design": "디자이너 친화적",
+              "ecommerce": "전자상거래 지원"
             },
             "name": "Webflow",
-            "setupTime": "2 minutes"
+            "setupTime": "2분"
           },
           "wix": {
-            "description": "Drag-and-drop integration for Wix websites",
-            "difficulty": "Easy",
+            "description": "Wix 웹사이트를 위한 드래그 앤 드롭 통합",
+            "difficulty": "쉬움",
             "features": {
-              "app": "Wix app store",
-              "editor": "Visual editor",
-              "mobile": "Mobile optimized",
-              "positioning": "Custom positioning"
+              "app": "Wix 앱 스토어",
+              "editor": "시각 편집기",
+              "mobile": "모바일 최적화",
+              "positioning": "맞춤형 위치 지정"
             },
             "name": "Wix",
-            "setupTime": "2 minutes"
+            "setupTime": "2분"
           },
           "wordpress": {
-            "description": "Native WordPress plugin with advanced customization",
-            "difficulty": "Easy",
+            "description": "고급 사용자 정의 기능을 갖춘 기본 WordPress 플러그인",
+            "difficulty": "쉬움",
             "features": {
-              "dashboard": "Admin dashboard",
-              "plugin": "WordPress plugin",
-              "shortcode": "Shortcode support",
-              "theme": "Theme integration"
+              "dashboard": "관리자 대시보드",
+              "plugin": "WordPress 플러그인",
+              "shortcode": "숏코드 지원",
+              "theme": "테마 통합"
             },
             "name": "WordPress",
-            "setupTime": "1 minute"
+            "setupTime": "1분"
           }
         },
-        "platformsSubtitle": "Choose your platform for optimized integration and setup instructions.",
-        "platformsTitle": "Supported Platforms",
-        "subtitle": "Deploy SeaChat on any website platform in minutes. Universal compatibility with custom styling and responsive design.",
-        "title": "Website Integrations",
-        "viewDocs": "View Documentation",
-        "setup": "Setup time"
+        "platformsSubtitle": "최적화된 통합 및 설정 지침을 위해 플랫폼을 선택하세요.",
+        "platformsTitle": "지원되는 플랫폼",
+        "subtitle": "몇 분 안에 SeaChat을 모든 웹사이트 플랫폼에 배포하세요. 맞춤형 스타일링 및 반응형 디자인을 갖춘 범용 호환성.",
+        "title": "웹사이트 통합",
+        "viewDocs": "문서 보기",
+        "setup": "설정 시간"
       }
     },
     "heroAnimations": {
       "agentToAI": {
         "phases": {
-          "learning": "🧑‍💼 Learning from Human",
-          "handoff": "🤝 Smooth Handoff",
-          "autonomous": "🤖 AI Autonomous"
+          "learning": "🧑‍💼 인간으로부터 학습",
+          "handoff": "🤝 원활한 핸드오프",
+          "autonomous": "🤖 AI 자율"
         },
         "humanMessages": {
-          "0": "Thank you for contacting support! How can I help?",
-          "1": "I understand your concern. Let me check that for you.",
-          "2": "Based on our policy, here's what I recommend...",
-          "3": "Is there anything else I can help you with today?"
+          "0": "지원팀에 문의해 주셔서 감사합니다! 어떻게 도와드릴까요?",
+          "1": "우려 사항을 이해합니다. 확인해 드리겠습니다.",
+          "2": "저희 정책에 따라 다음과 같이 권장합니다...",
+          "3": "오늘 더 도와드릴 일이 있으신가요?"
         },
         "aiMessages": {
-          "0": "I've learned to handle this type of inquiry automatically.",
-          "1": "Based on previous conversations, I can help with this.",
-          "2": "I understand your question and can provide instant assistance.",
-          "3": "I'm ready to handle similar requests independently."
+          "0": "이러한 유형의 문의를 자동으로 처리하는 방법을 배웠습니다.",
+          "1": "이전 대화를 기반으로 이 문제를 해결할 수 있습니다.",
+          "2": "질문을 이해했으며 즉각적인 지원을 제공할 수 있습니다.",
+          "3": "유사한 요청을 독립적으로 처리할 준비가 되었습니다."
         },
-        "learned": "Learned",
-        "title": "Human-to-AI Handoff",
-        "subtitle": "Start with humans, scale with intelligent AI"
+        "learned": "학습됨",
+        "title": "인간-AI 핸드오프",
+        "subtitle": "인간으로 시작하여 지능형 AI로 확장"
       },
       "conversationLearning": {
         "documentTypes": {
-          "0": "Product Manual.pdf",
-          "1": "FAQ Database.csv",
-          "2": "Support Guide.doc",
-          "3": "Website Content"
+          "0": "제품 설명서.pdf",
+          "1": "FAQ 데이터베이스.csv",
+          "2": "지원 가이드.doc",
+          "3": "웹사이트 콘텐츠"
         },
         "knowledgeConcepts": {
-          "0": "Product Features",
-          "1": "Pricing Plans",
-          "2": "Support Policies",
-          "3": "Technical Specs",
-          "4": "User Guidelines",
-          "5": "Troubleshooting",
-          "6": "Integration Steps",
-          "7": "Best Practices"
+          "0": "제품 기능",
+          "1" : "가격 플랜",
+          "2": "지원 정책",
+          "3": "기술 사양",
+          "4": "사용자 지침",
+          "5": "문제 해결",
+          "6": "통합 단계",
+          "7": "모범 사례"
         },
         "conversationExamples": {
           "0": {
-            "question": "How do I reset my password?",
-            "improvement": "Learned step-by-step process"
+            "question": "비밀번호를 재설정하려면 어떻게 해야 하나요?",
+            "improvement": "단계별 프로세스 학습"
           },
           "1": {
-            "question": "What are your pricing plans?",
-            "improvement": "Added detailed comparisons"
+            "question": "가격 플랜은 어떻게 되나요?",
+            "improvement": "자세한 비교 추가"
           },
           "2": {
-            "question": "Integration with Slack?",
-            "improvement": "Improved technical guidance"
+            "question": "Slack과 통합되나요?",
+            "improvement": "기술 지침 개선"
           },
           "3": {
-            "question": "Billing question",
-            "improvement": "Enhanced policy understanding"
+            "question": "청구 질문",
+            "improvement": "정책 이해도 향상"
           }
         },
-        "phaseLabel": "Phase",
-        "accuracy": "Accuracy",
-        "title": "AI Learning Journey",
-        "subtitle": "Watch AI get smarter from your content"
+        "phaseLabel": "단계",
+        "accuracy": "정확도",
+        "title": "AI 학습 여정",
+        "subtitle": "콘텐츠에서 AI가 더 똑똑해지는 것을 지켜보세요"
       },
       "interactiveChannels": {
         "whatsapp": {
           "messages": {
-            "0": "Hi! Need help with my order 📦",
-            "1": "What's your return policy?",
-            "2": "Thanks for the quick response! 😊"
+            "0": "안녕하세요! 제 주문 📦에 도움이 필요합니다",
+            "1": "반품 정책은 어떻게 되나요?",
+            "2": "빠른 답변 감사합니다! 😊"
           }
         },
         "instagram": {
           "messages": {
-            "0": "Love your new product! 💕",
-            "1": "Is this available in blue?",
-            "2": "Can you ship to Europe?"
+            "0": "새 제품 정말 마음에 들어요! 💕",
+            "1": "이 제품은 파란색으로도 구매할 수 있나요?",
+            "2": "유럽으로 배송할 수 있나요?"
           }
         },
         "website": {
           "messages": {
-            "0": "I need technical support",
-            "1": "How do I reset my password?",
-            "2": "The checkout isn't working"
+            "0": "기술 지원이 필요합니다",
+            "1": "비밀번호를 재설정하려면 어떻게 해야 하나요?",
+            "2": "결제가 작동하지 않습니다"
           }
         },
         "email": {
           "messages": {
-            "0": "Following up on my previous email",
-            "1": "Request for bulk pricing",
-            "2": "Thank you for your assistance"
+            "0": "이전 이메일에 대한 후속 조치",
+            "1": "대량 가격 문의",
+            "2": "도움 주셔서 감사합니다"
           }
         },
-        "agentResponse": "I'd be happy to help you with that! Let me check that information for you.",
+        "agentResponse": "기꺼이 도와드리겠습니다! 정보를 확인해 드리겠습니다.",
         "channelNames": {
           "whatsapp": "WhatsApp",
           "instagram": "Instagram",
-          "website": "Website",
-          "email": "Email"
+          "website": "웹사이트",
+          "email": "이메일"
         },
-        "supportSuffix": "Support",
-        "online": "Online",
-        "typePlaceholder": "Type your message...",
-        "title": "Interactive Channel Selector",
-        "subtitle": "Click channels to see different conversations"
+        "supportSuffix": "지원",
+        "online": "온라인",
+        "typePlaceholder": "메시지를 입력하세요...",
+        "title": "대화형 채널 선택기",
+        "subtitle": "다른 대화를 보려면 채널을 클릭하세요"
       },
       "multiChannelFlow": {
         "channels": {
           "whatsapp": "WhatsApp",
           "instagram": "Instagram",
           "facebook": "Facebook",
-          "email": "Email",
-          "website": "Website"
+          "email": "이메일",
+          "website": "웹사이트"
         },
         "messageTemplates": {
-          "0": "Need help with order",
-          "1": "Product question",
-          "2": "Technical support",
-          "3": "Billing inquiry",
-          "4": "General question"
+          "0": "주문 도움말 필요",
+          "1": "제품 질문",
+          "2": "기술 지원",
+          "3": "청구 문의",
+          "4": "일반 질문"
         },
-        "title": "Multi-Channel Message Flow",
-        "subtitle": "Messages flowing between channels in real-time"
+        "title": "다중 채널 메시지 흐름",
+        "subtitle": "채널 간 실시간 메시지 흐름"
       },
       "phoneVoiceAI": {
         "callerNames": {
@@ -1539,65 +1539,65 @@
         },
         "conversationFlow": {
           "0": {
-            "caller": "Hi, I need help with my order status",
-            "ai": "Hello! I'd be happy to help you check your order status. Could you please provide your order number?"
+            "caller": "안녕하세요, 주문 상태에 대해 도움이 필요합니다",
+            "ai": "안녕하세요! 주문 상태를 확인하는 데 기꺼이 도와드리겠습니다. 주문 번호를 알려주시겠습니까?"
           },
           "1": {
-            "caller": "Yes, it's order number 12345",
-            "ai": "Thank you! Let me look that up for you. I can see your order was shipped yesterday and should arrive tomorrow."
+            "caller": "네, 주문 번호는 12345입니다",
+            "ai": "감사합니다! 확인해 드리겠습니다. 주문은 어제 배송되었으며 내일 도착할 예정입니다."
           },
           "2": {
-            "caller": "Perfect! Can I change the delivery address?",
-            "ai": "I can help you with that. What would you like the new delivery address to be?"
+            "caller": "완벽합니다! 배송 주소를 변경할 수 있나요?",
+            "ai": "도와드릴 수 있습니다. 새 배송 주소는 무엇으로 하시겠습니까?"
           }
         },
         "status": {
-          "seachatVoiceAI": "SeaChat Voice AI",
-          "connectedWith": "Connected with",
-          "listening": "Listening...",
-          "aiSpeaking": "AI Speaking...",
-          "processing": "Processing...",
-          "liveTranscript": "Live Transcript:"
+          "seachatVoiceAI": "SeaChat 음성 AI",
+          "connectedWith": "연결됨",
+          "listening": "듣는 중...",
+          "aiSpeaking": "AI 말하는 중...",
+          "processing": "처리 중...",
+          "liveTranscript": "실시간 스크립트:"
         },
         "waiting": {
-          "ready": "Voice AI Ready",
-          "subtitle": "Waiting for incoming calls..."
+          "ready": "음성 AI 준비 완료",
+          "subtitle": "수신 전화 대기 중..."
         },
         "stats": {
-          "callsHandled": "Calls Handled",
-          "available": "Available"
+          "callsHandled": "처리된 통화",
+          "available": "사용 가능"
         },
-        "incomingCall": "📞 Incoming Call",
+        "incomingCall": "📞 수신 전화",
         "features": {
           "naturalSpeech": {
-            "title": "Natural Speech",
-            "description": "Human-like conversation"
+            "title": "자연스러운 음성",
+            "description": "인간과 같은 대화"
           },
           "smartRecognition": {
-            "title": "Smart Recognition",
-            "description": "Accurate speech-to-text"
+            "title": "스마트 인식",
+            "description": "정확한 음성-텍스트 변환"
           },
           "contextAware": {
-            "title": "Context Aware",
-            "description": "Understands intent"
+            "title": "상황 인식",
+            "description": "의도 이해"
           }
         }
       },
       "realtimeDashboard": {
         "metrics": {
-          "conversations": "Active Chats",
-          "response": "Avg Response",
-          "agents": "Online Agents",
-          "satisfaction": "Satisfaction"
+          "conversations": "활성 채팅",
+          "response": "평균 응답",
+          "agents": "온라인 상담원",
+          "satisfaction": "만족도"
         },
-        "title": "Live Dashboard",
+        "title": "라이브 대시보드",
         "status": {
-          "live": "Live"
+          "live": "라이브"
         },
         "timeLabels": {
-          "12hAgo": "12h ago",
-          "6hAgo": "6h ago",
-          "now": "Now"
+          "12hAgo": "12시간 전",
+          "6hAgo": "6시간 전",
+          "now": "지금"
         }
       }
     }

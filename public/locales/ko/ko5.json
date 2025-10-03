@@ -2,473 +2,473 @@
   "seachat": {
     "features": {
       "advancedAI": {
-        "title": "Advanced AI Features",
-        "subtitle": "Next-generation AI intelligence with memory, context awareness, and advanced reasoning capabilities for truly personalized customer experiences.",
-        "exploreButton": "Explore Advanced AI",
-        "scheduleDemo": "Schedule Demo",
+        "title": "고급 AI 기능",
+        "subtitle": "기억, 상황 인식 및 고급 추론 기능을 갖춘 차세대 AI 지능으로 진정으로 개인화된 고객 경험을 제공합니다.",
+        "exploreButton": "고급 AI 탐색",
+        "scheduleDemo": "데모 예약",
         "capabilities": {
-          "title": "Cutting-Edge AI Capabilities",
-          "subtitle": "Experience the future of customer support with our advanced AI features that learn, remember, and adapt."
+          "title": "최첨단 AI 기능",
+          "subtitle": "학습하고, 기억하고, 적응하는 고급 AI 기능으로 고객 지원의 미래를 경험하세요."
         },
         "rag": {
-          "title": "Retrieval Augmented Generation (RAG)",
-          "description": "Advanced search capabilities combining keyword, vector, and hybrid search for precise information retrieval.",
+          "title": "검색 증강 생성 (RAG)",
+          "description": "정확한 정보 검색을 위한 키워드, 벡터 및 하이브리드 검색을 결합한 고급 검색 기능.",
           "details": {
-            "semantic": "Semantic vector search for contextual understanding",
-            "keyword": "Traditional keyword matching for exact queries",
-            "hybrid": "Hybrid algorithms combining both approaches",
-            "indexing": "Real-time content indexing and updates"
+            "semantic": "상황 이해를 위한 의미론적 벡터 검색",
+            "keyword": "정확한 쿼리를 위한 전통적인 키워드 일치",
+            "hybrid": "두 가지 접근 방식을 결합한 하이브리드 알고리즘",
+            "indexing": "실시간 콘텐츠 인덱싱 및 업데이트"
           },
-          "sectionTitle": "Retrieval Augmented Generation",
-          "sectionSubtitle": "Advanced search technology that combines multiple approaches for the most accurate information retrieval.",
-          "keyword": "Keyword Search",
-          "keywordDesc": "Traditional exact-match searching for precise queries and specific terms.",
-          "vector": "Vector Search",
-          "vectorDesc": "Semantic understanding that finds contextually relevant information.",
-          "hybrid": "Hybrid Search",
-          "hybridDesc": "Best of both worlds, combining keyword precision with semantic understanding."
+          "sectionTitle": "검색 증강 생성",
+          "sectionSubtitle": "가장 정확한 정보 검색을 위해 여러 접근 방식을 결합한 고급 검색 기술.",
+          "keyword": "키워드 검색",
+          "keywordDesc": "정확한 쿼리 및 특정 용어에 대한 전통적인 정확 일치 검색.",
+          "vector": "벡터 검색",
+          "vectorDesc": "상황에 맞는 관련 정보를 찾는 의미론적 이해.",
+          "hybrid": "하이브리드 검색",
+          "hybridDesc": "키워드 정확성과 의미론적 이해를 결합한 두 가지 장점."
         },
         "memory": {
-          "title": "Long Term Memory System",
-          "description": "Persistent user memory that creates personalized experiences across all interactions.",
+          "title": "장기 기억 시스템",
+          "description": "모든 상호 작용에서 개인화된 경험을 생성하는 영구적인 사용자 기억.",
           "details": {
-            "preferences": "User preference tracking and storage",
-            "history": "Conversation history analysis",
-            "patterns": "Behavioral pattern recognition",
-            "continuity": "Cross-session continuity and context"
+            "preferences": "사용자 선호도 추적 및 저장",
+            "history": "대화 기록 분석",
+            "patterns": "행동 패턴 인식",
+            "continuity": "세션 간 연속성 및 컨텍스트"
           },
-          "sectionTitle": "Long Term Memory in Action",
-          "sectionSubtitle": "See how our AI remembers and learns from every interaction to provide increasingly personalized support.",
-          "fieldsTitle": "Context Extraction Fields",
-          "fieldsDescription": "Our AI automatically identifies and stores key information about each user, creating rich profiles that enhance every future interaction.",
-          "example": "Example",
-          "timeline": "Memory Timeline",
-          "firstInteraction": "First Interaction",
-          "firstInteractionDesc": "AI learns user preferences and context",
-          "ongoingConversations": "Ongoing Conversations",
-          "ongoingConversationsDesc": "Continuously updates user profile",
-          "returnVisits": "Return Visits",
-          "returnVisitsDesc": "Provides personalized, context-aware responses"
+          "sectionTitle": "작동 중인 장기 기억",
+          "sectionSubtitle": "AI가 모든 상호 작용에서 기억하고 학습하여 점점 더 개인화된 지원을 제공하는 방법을 확인하세요.",
+          "fieldsTitle": "컨텍스트 추출 필드",
+          "fieldsDescription": "저희 AI는 각 사용자에 대한 주요 정보를 자동으로 식별하고 저장하여 모든 미래 상호 작용을 향상시키는 풍부한 프로필을 생성합니다.",
+          "example": "예시",
+          "timeline": "기억 타임라인",
+          "firstInteraction": "첫 번째 상호 작용",
+          "firstInteractionDesc": "AI가 사용자 선호도 및 컨텍스트 학습",
+          "ongoingConversations": "진행 중인 대화",
+          "ongoingConversationsDesc": "사용자 프로필 지속적으로 업데이트",
+          "returnVisits": "재방문",
+          "returnVisitsDesc": "개인화된 상황 인식 응답 제공"
         },
         "timeAwareness": {
-          "title": "Time Awareness Integration",
-          "description": "Context-aware responses based on current time, timezone, and temporal relevance.",
+          "title": "시간 인식 통합",
+          "description": "현재 시간, 시간대 및 시간적 관련성을 기반으로 한 상황 인식 응답.",
           "details": {
-            "timestamp": "Real-time timestamp integration",
-            "timezone": "Timezone-aware scheduling and responses",
-            "recommendations": "Time-sensitive recommendations",
-            "hours": "Business hours optimization"
+            "timestamp": "실시간 타임스탬프 통합",
+            "timezone": "시간대 인식 일정 관리 및 응답",
+            "recommendations": "시간에 민감한 권장 사항",
+            "hours": "영업 시간 최적화"
           }
         },
         "context": {
-          "title": "Smart Context Extraction",
-          "description": "Intelligent field mapping and data extraction for better user comprehension.",
+          "title": "스마트 컨텍스트 추출",
+          "description": "더 나은 사용자 이해를 위한 지능형 필드 매핑 및 데이터 추출.",
           "details": {
-            "fields": "Custom field definitions and mapping",
-            "extraction": "Automatic data extraction from conversations",
-            "language": "User language preference detection",
-            "dynamic": "Dynamic context building and updates"
+            "fields": "맞춤형 필드 정의 및 매핑",
+            "extraction": "대화에서 자동 데이터 추출",
+            "language": "사용자 언어 기본 설정 감지",
+            "dynamic": "동적 컨텍스트 구축 및 업데이트"
           }
         },
         "references": {
-          "title": "Referenced Chat Results",
-          "description": "Transparent AI responses with source citations and confidence scoring.",
+          "title": "참조된 채팅 결과",
+          "description": "소스 인용 및 신뢰도 점수가 포함된 투명한 AI 응답.",
           "details": {
-            "linking": "Source document linking and citations",
-            "tracking": "Citation tracking and verification",
-            "confidence": "Confidence scoring for responses",
-            "verification": "Fact verification and validation"
+            "linking": "소스 문서 연결 및 인용",
+            "tracking": "인용 추적 및 확인",
+            "confidence": "응답에 대한 신뢰도 점수",
+            "verification": "사실 확인 및 검증"
           }
         },
         "knowledge": {
-          "title": "Knowledge Base Refinement",
-          "description": "Continuous improvement of knowledge base accuracy and relevance.",
+          "title": "지식 기반 개선",
+          "description": "지식 기반 정확성 및 관련성의 지속적인 개선.",
           "details": {
-            "updating": "Auto-updating content based on interactions",
-            "scoring": "Quality scoring and content ranking",
-            "relevance": "Relevance optimization algorithms",
-            "analytics": "Performance analytics and insights"
+            "updating": "상호 작용을 기반으로 한 자동 업데이트 콘텐츠",
+            "scoring": "품질 점수 및 콘텐츠 순위",
+            "relevance": "관련성 최적화 알고리즘",
+            "analytics": "성능 분석 및 통찰력"
           }
         },
         "memoryExamples": {
           "language": {
             "field": "User_Language",
-            "description": "Remembers preferred communication language",
-            "example": "Customer prefers Spanish responses"
+            "description": "선호하는 통신 언어 기억",
+            "example": "고객은 스페인어 응답을 선호합니다"
           },
           "product": {
             "field": "Product_Interest",
-            "description": "Tracks product categories of interest",
-            "example": "Interested in premium software solutions"
+            "description": "관심 있는 제품 카테고리 추적",
+            "example": "프리미엄 소프트웨어 솔루션에 관심 있음"
           },
           "history": {
             "field": "Support_History",
-            "description": "Maintains context of previous issues",
-            "example": "Previously had billing questions resolved"
+            "description": "이전 문제의 컨텍스트 유지",
+            "example": "이전에 청구 질문이 해결됨"
           },
           "style": {
             "field": "Communication_Style",
-            "description": "Adapts to preferred interaction style",
-            "example": "Prefers detailed technical explanations"
+            "description": "선호하는 상호 작용 스타일에 적응",
+            "example": "자세한 기술 설명을 선호합니다"
           }
         },
         "cta": {
-          "title": "Experience the Future of AI",
-          "subtitle": "Ready to transform your customer support with advanced AI that remembers, learns, and adapts? Start your journey with our cutting-edge technology.",
-          "signUp": "Sign Up For Free",
-          "scheduleDemo": "Schedule Demo"
+          "title": "AI의 미래를 경험하세요",
+          "subtitle": "기억하고, 학습하고, 적응하는 고급 AI로 고객 지원을 혁신할 준비가 되셨습니까? 최첨단 기술로 여정을 시작하세요.",
+          "signUp": "무료로 가입",
+          "scheduleDemo": "데모 예약"
         }
       },
       "aiAutomation": {
-        "title": "AI Automation",
-        "subtitle": "Scale your customer support with intelligent AI that learns, adapts, and provides instant responses while maintaining the human touch when needed.",
-        "tryButton": "Try AI Automation",
-        "featuresTitle": "Intelligent AI Features",
-        "featuresSubtitle": "Our AI automation goes beyond simple chatbots to provide truly intelligent customer support.",
-        "performanceTitle": "Automation That Actually Works",
-        "performanceSubtitle": "See how our AI automation handles different types of customer inquiries with impressive accuracy rates.",
-        "hybridTitle": "The Perfect Balance: AI + Human",
-        "hybridSubtitle": "Our hybrid approach combines the speed of AI with the empathy of human agents.",
-        "aiStrengthsTitle": "AI Automation Excels At",
+        "title": "AI 자동화",
+        "subtitle": "학습하고, 적응하며, 필요한 경우 인간적인 손길을 유지하면서 즉각적인 응답을 제공하는 지능형 AI로 고객 지원을 확장하세요.",
+        "tryButton": "AI 자동화 사용해보기",
+        "featuresTitle": "지능형 AI 기능",
+        "featuresSubtitle": "저희 AI 자동화는 단순한 챗봇을 넘어 진정으로 지능적인 고객 지원을 제공합니다.",
+        "performanceTitle": "실제로 작동하는 자동화",
+        "performanceSubtitle": "저희 AI 자동화가 인상적인 정확도로 다양한 유형의 고객 문의를 처리하는 방법을 확인하세요.",
+        "hybridTitle": "완벽한 균형: AI + 인간",
+        "hybridSubtitle": "저희 하이브리드 접근 방식은 AI의 속도와 인간 상담원의 공감 능력을 결합합니다.",
+        "aiStrengthsTitle": "AI 자동화의 강점",
         "aiStrengths": [
-          "Instant responses to common questions",
-          "24/7 availability without breaks",
-          "Handling multiple conversations simultaneously",
-          "Consistent service quality",
-          "Multilingual communication support",
-          "Quick access to knowledge base information"
+          "일반적인 질문에 대한 즉각적인 응답",
+          "휴식 없이 연중무휴 가용성",
+          "여러 대화를 동시에 처리",
+          "일관된 서비스 품질",
+          "다국어 커뮤니케이션 지원",
+          "지식 기반 정보에 대한 빠른 액세스"
         ],
-        "humanStrengthsTitle": "Human Agents Excel At",
+        "humanStrengthsTitle": "인간 상담원의 강점",
         "humanStrengths": [
-          "Complex problem-solving and empathy",
-          "Building personal relationships with customers",
-          "Handling sensitive or emotional situations",
-          "Creative solutions and out-of-box thinking",
-          "Understanding nuanced customer needs",
-          "Making judgment calls in ambiguous scenarios"
+          "복잡한 문제 해결 및 공감",
+          "고객과의 개인적인 관계 구축",
+          "민감하거나 감정적인 상황 처리",
+          "창의적인 솔루션 및 틀에 얽매이지 않는 사고",
+          "미묘한 고객 요구 사항 이해",
+          "모호한 시나리오에서 판단 내리기"
         ],
-        "ctaTitle": "Ready to Scale with AI?",
-        "ctaSubtitle": "Start with free human agents, then add AI automation when you're ready to scale. The perfect hybrid approach for growing businesses.",
+        "ctaTitle": "AI로 확장할 준비가 되셨습니까?",
+        "ctaSubtitle": "무료 인간 상담원으로 시작한 다음, 확장할 준비가 되면 AI 자동화를 추가하세요. 성장하는 비즈니스를 위한 완벽한 하이브리드 접근 방식입니다.",
         "contextAware": {
-          "title": "Context-Aware Responses",
-          "description": "AI understands conversation context and provides relevant, intelligent responses."
+          "title": "상황 인식 응답",
+          "description": "AI는 대화 컨텍스트를 이해하고 관련성 있고 지능적인 응답을 제공합니다."
         },
         "learning": {
-          "title": "Learning from Conversations",
-          "description": "Continuously improves by learning from every customer interaction."
+          "title": "대화에서 학습",
+          "description": "모든 고객 상호 작용에서 학습하여 지속적으로 개선됩니다."
         },
         "handoff": {
-          "title": "Seamless Human Handoff",
-          "description": "Smooth transition to human agents when complex issues arise."
+          "title": "원활한 인간 핸드오프",
+          "description": "복잡한 문제가 발생할 경우 인간 상담원에게 원활하게 전환됩니다."
         },
         "availability": {
-          "title": "24/7 Availability",
-          "description": "Provide instant support around the clock, even when agents are offline."
+          "title": "연중무휴 가용성",
+          "description": "상담원이 오프라인일 때도 연중무휴 즉각적인 지원을 제공합니다."
         },
         "response": {
-          "title": "Instant Response Time",
-          "description": "Respond to customer queries in milliseconds, not minutes."
+          "title": "즉각적인 응답 시간",
+          "description": "몇 분이 아닌 밀리초 단위로 고객 문의에 응답합니다."
         },
         "multilanguage": {
-          "title": "Multi-language Support",
-          "description": "Communicate with customers in their preferred language automatically."
+          "title": "다국어 지원",
+          "description": "고객이 선호하는 언어로 자동으로 소통합니다."
         },
         "types": {
           "faq": {
-            "title": "FAQ Automation",
-            "description": "Instantly answer common questions with accurate, up-to-date information."
+            "title": "FAQ 자동화",
+            "description": "정확하고 최신 정보로 일반적인 질문에 즉시 답변합니다."
           },
           "orders": {
-            "title": "Order Status Updates",
-            "description": "Provide real-time order tracking and shipping information."
+            "title": "주문 상태 업데이트",
+            "description": "실시간 주문 추적 및 배송 정보를 제공합니다."
           },
           "appointments": {
-            "title": "Appointment Scheduling",
-            "description": "Book appointments and manage calendars automatically."
+            "title": "예약",
+            "description": "약속을 예약하고 캘린더를 자동으로 관리합니다."
           },
           "recommendations": {
-            "title": "Product Recommendations",
-            "description": "Suggest relevant products based on customer preferences."
+            "title": "제품 추천",
+            "description": "고객 선호도를 기반으로 관련 제품을 제안합니다."
           }
         },
-        "scheduleDemo": "Schedule Demo",
-        "signUpForFree": "Sign Up For Free"
+        "scheduleDemo": "데모 예약",
+        "signUpForFree": "무료로 가입"
       },
       "api": {
         "restful": {
           "title": "RESTful API",
-          "description": "Clean, intuitive REST API with comprehensive documentation"
+          "description": "포괄적인 문서가 포함된 깔끔하고 직관적인 REST API"
         },
         "webhooks": {
-          "title": "Real-time Webhooks",
-          "description": "Get instant notifications for events and conversation updates"
+          "title": "실시간 웹훅",
+          "description": "이벤트 및 대화 업데이트에 대한 즉각적인 알림"
         },
         "security": {
-          "title": "Secure Authentication",
-          "description": "OAuth 2.0 and API key authentication with rate limiting"
+          "title": "보안 인증",
+          "description": "속도 제한이 있는 OAuth 2.0 및 API 키 인증"
         },
         "cdn": {
-          "title": "Global CDN",
-          "description": "Low-latency API access from anywhere in the world"
+          "title": "글로벌 CDN",
+          "description": "전 세계 어디에서나 낮은 지연 시간의 API 액세스"
         },
         "endpoints": {
-          "createConversation": "Create a new conversation",
-          "getConversation": "Retrieve conversation details",
-          "sendMessage": "Send a message in a conversation"
+          "createConversation": "새 대화 생성",
+          "getConversation": "대화 세부 정보 검색",
+          "sendMessage": "대화에서 메시지 보내기"
         },
         "sdks": {
-          "available": "Available",
-          "comingSoon": "Coming Soon"
+          "available": "사용 가능",
+          "comingSoon": "출시 예정"
         },
-        "title": "API & Developer Tools",
-        "subtitle": "Build custom integrations and extend SeaChat's capabilities with our comprehensive API and developer-friendly tools.",
-        "getKeyButton": "Get API Key",
-        "viewDocsButton": "View Documentation",
-        "featuresTitle": "Powerful API Features",
-        "featuresSubtitle": "Everything you need to integrate SeaChat into your existing systems and workflows.",
-        "endpointsTitle": "API Endpoints",
-        "endpointsSubtitle": "Explore our comprehensive API with examples and interactive documentation.",
-        "exampleRequestResponse": "Example Request/Response",
-        "tryItOut": "Try it out",
-        "testConsole": "Test in Console",
-        "copyCurl": "Copy cURL",
-        "sdksTitle": "SDKs & Libraries",
-        "sdksSubtitle": "Get started quickly with our official SDKs for popular programming languages.",
-        "exampleTitle": "Quick Start Example",
-        "exampleSubtitle": "Get up and running with SeaChat API in just a few lines of code.",
-        "jsExample": "JavaScript Example",
-        "copy": "Copy",
-        "ctaTitle": "Ready to Start Building?",
-        "ctaSubtitle": "Get your API key and start integrating SeaChat into your applications today.",
-        "ctaAccessButton": "Get API Access",
-        "ctaDocsButton": "Read Documentation"
+        "title": "API 및 개발자 도구",
+        "subtitle": "포괄적인 API 및 개발자 친화적인 도구로 맞춤형 통합을 구축하고 SeaChat의 기능을 확장하세요.",
+        "getKeyButton": "API 키 받기",
+        "viewDocsButton": "문서 보기",
+        "featuresTitle": "강력한 API 기능",
+        "featuresSubtitle": "SeaChat을 기존 시스템 및 워크플로우에 통합하는 데 필요한 모든 것.",
+        "endpointsTitle": "API 엔드포인트",
+        "endpointsSubtitle": "예제 및 대화형 문서와 함께 포괄적인 API를 살펴보세요.",
+        "exampleRequestResponse": "예제 요청/응답",
+        "tryItOut": "사용해보기",
+        "testConsole": "콘솔에서 테스트",
+        "copyCurl": "cURL 복사",
+        "sdksTitle": "SDK 및 라이브러리",
+        "sdksSubtitle": "인기 있는 프로그래밍 언어를 위한 공식 SDK로 빠르게 시작하세요.",
+        "exampleTitle": "빠른 시작 예제",
+        "exampleSubtitle": "몇 줄의 코드로 SeaChat API를 시작하세요.",
+        "jsExample": "JavaScript 예제",
+        "copy": "복사",
+        "ctaTitle": "구축을 시작할 준비가 되셨습니까?",
+        "ctaSubtitle": "API 키를 받고 오늘부터 SeaChat을 애플리케이션에 통합하세요.",
+        "ctaAccessButton": "API 액세스",
+        "ctaDocsButton": "문서 읽기"
       },
       "analytics": {
         "metrics": {
           "satisfaction": {
-            "title": "Customer Satisfaction"
+            "title": "고객 만족도"
           },
           "responseTime": {
-            "title": "Average Response Time"
+            "title": "평균 응답 시간"
           },
           "resolution": {
-            "title": "Resolution Rate"
+            "title": "해결률"
           },
           "growth": {
-            "title": "Monthly Growth"
+            "title": "월별 성장"
           },
-          "period": "this month"
+          "period": "이번 달"
         },
         "seachat": {
           "features": {
             "dashboards": {
-              "title": "Real-time Dashboards",
-              "description": "Monitor your support performance with live, customizable dashboards.",
+              "title": "실시간 대시보드",
+              "description": "실시간으로 사용자 정의 가능한 대시보드로 지원 성능을 모니터링합니다.",
               "benefits": {
-                "metrics": "Live performance metrics",
-                "kpi": "Custom KPI tracking",
-                "team": "Team performance views",
-                "alerts": "Alert notifications"
+                "metrics": "실시간 성능 지표",
+                "kpi": "맞춤형 KPI 추적",
+                "team": "팀 성과 보기",
+                "alerts": "알림"
               }
             },
             "reporting": {
-              "title": "Advanced Reporting",
-              "description": "Generate detailed reports with actionable insights and trends.",
+              "title": "고급 보고",
+              "description": "실행 가능한 통찰력 및 추세가 포함된 자세한 보고서 생성.",
               "benefits": {
-                "automated": "Automated report generation",
-                "dates": "Custom date ranges",
-                "export": "Export capabilities",
-                "scheduled": "Scheduled delivery"
+                "automated": "자동 보고서 생성",
+                "dates": "맞춤형 날짜 범위",
+                "export": "내보내기 기능",
+                "scheduled": "예약된 배달"
               }
             },
             "journey": {
-              "title": "Customer Journey Analytics",
-              "description": "Track customer interactions across all touchpoints and channels.",
+              "title": "고객 여정 분석",
+              "description": "모든 접점에서 고객 상호 작용 추적.",
               "benefits": {
-                "tracking": "Multi-channel tracking",
-                "visualization": "Journey visualization",
-                "conversion": "Conversion analysis",
-                "dropoff": "Drop-off identification"
+                "tracking": "다중 채널 추적",
+                "visualization": "여정 시각화",
+                "conversion": "전환 분석",
+                "dropoff": "이탈 식별"
               }
             },
             "optimization": {
-              "title": "Performance Optimization",
-              "description": "Identify bottlenecks and optimize your support operations.",
+              "title": "성능 최적화",
+              "description": "병목 현상을 식별하고 지원 운영을 최적화합니다.",
               "benefits": {
-                "bottlenecks": "Bottleneck detection",
-                "resources": "Resource allocation",
-                "efficiency": "Efficiency recommendations",
-                "roi": "ROI analysis"
+                "bottlenecks": "병목 현상 감지",
+                "resources": "리소스 할당",
+                "efficiency": "효율성 권장 사항",
+                "roi": "ROI 분석"
               }
             }
           }
         },
-        "title": "Analytics & Insights",
-        "subtitle": "Make data-driven decisions with comprehensive analytics that reveal customer behavior, agent performance, and optimization opportunities.",
-        "metricsTitle": "Key Performance Metrics",
-        "metricsSubtitle": "Track the metrics that matter most to your customer support success.",
-        "featuresTitle": "Comprehensive Analytics Suite",
-        "featuresSubtitle": "Everything you need to understand, measure, and improve your customer support operations.",
-        "dashboardTitle": "Interactive Dashboard Preview",
-        "dashboardSubtitle": "See how our analytics dashboard provides actionable insights at a glance.",
+        "title": "분석 및 통찰력",
+        "subtitle": "고객 행동, 상담원 성과 및 최적화 기회를 보여주는 포괄적인 분석으로 데이터 기반 의사 결정을 내리세요.",
+        "metricsTitle": "주요 성과 지표",
+        "metricsSubtitle": "고객 지원 성공에 가장 중요한 지표를 추적하세요.",
+        "featuresTitle": "포괄적인 분석 제품군",
+        "featuresSubtitle": "고객 지원 운영을 이해하고, 측정하고, 개선하는 데 필요한 모든 것.",
+        "dashboardTitle": "대화형 대시보드 미리보기",
+        "dashboardSubtitle": "저희 분석 대시보드가 한눈에 실행 가능한 통찰력을 제공하는 방법을 확인하세요.",
         "dashboard": {
-          "overview": "Performance Overview",
+          "overview": "성과 개요",
           "months": {
-            "jan": "Jan",
-            "dec": "Dec"
+            "jan": "1월",
+            "dec": "12월"
           },
-          "quickStats": "Quick Stats",
-          "activeConversations": "Active Conversations",
-          "systemUptime": "System Uptime",
-          "customerRating": "Customer Rating"
+          "quickStats": "빠른 통계",
+          "activeConversations": "활성 대화",
+          "systemUptime": "시스템 가동 시간",
+          "customerRating": "고객 평점"
         },
-        "ctaTitle": "Start Making Data-Driven Decisions",
-        "ctaSubtitle": "Unlock the power of analytics to optimize your customer support and drive business growth."
+        "ctaTitle": "데이터 기반 의사 결정을 시작하세요",
+        "ctaSubtitle": "분석의 힘을 활용하여 고객 지원을 최적화하고 비즈니스 성장을 촉진하세요."
       },
       "humanAgents": {
-        "title": "Human Agent Chat",
-        "subtitle": "Start with real human support agents, completely free for life. No limits, no catches, just genuine human connection with your customers.",
-        "startButton": "Start Free Forever",
-        "demoButton": "Watch Demo",
+        "title": "인간 상담원 채팅",
+        "subtitle": "평생 무료로 실제 인간 상담원 지원으로 시작하세요. 제한, 함정 없이 고객과의 진정한 인간적인 연결.",
+        "startButton": "평생 무료 시작",
+        "demoButton": "데모 보기",
         "unlimited": {
-          "title": "Unlimited Agent Hours",
-          "description": "No time limits, no hourly caps. Your human agent works as much as you need, completely free."
+          "title": "무제한 상담원 시간",
+          "description": "시간 제한, 시간당 상한 없음. 인간 상담원은 필요한 만큼 작동하며 완전히 무료입니다."
         },
         "realtime": {
-          "title": "Real-time Chat Management",
-          "description": "Handle multiple conversations simultaneously with our intuitive chat interface."
+          "title": "실시간 채팅 관리",
+          "description": "직관적인 채팅 인터페이스로 여러 대화를 동시에 처리합니다."
         },
         "collaboration": {
-          "title": "Multi-agent Collaboration",
-          "description": "Scale your team with seamless agent-to-agent handoffs and collaboration tools."
+          "title": "다중 상담원 협업",
+          "description": "원활한 상담원 간 핸드오프 및 협업 도구로 팀을 확장하세요."
         },
         "security": {
-          "title": "Advanced Security",
-          "description": "Enterprise-grade security with end-to-end encryption and data protection."
+          "title": "고급 보안",
+          "description": "종단 간 암호화 및 데이터 보호 기능을 갖춘 엔터프라이즈급 보안."
         },
         "analytics": {
-          "title": "Performance Analytics",
-          "description": "Track response times, customer satisfaction, and agent performance metrics."
+          "title": "성능 분석",
+          "description": "응답 시간, 고객 만족도 및 상담원 성과 지표를 추적합니다."
         },
         "workflows": {
-          "title": "Custom Workflows",
-          "description": "Create personalized workflows and automation rules for your support process."
+          "title": "맞춤형 워크플로우",
+          "description": "지원 프로세스를 위한 개인화된 워크플로우 및 자동화 규칙을 생성합니다."
         },
         "benefits": {
           "personal": {
-            "title": "Personal Touch",
-            "description": "Human empathy and understanding that AI cannot replicate"
+            "title": "개인적인 터치",
+            "description": "AI가 복제할 수 없는 인간의 공감과 이해"
           },
           "complex": {
-            "title": "Complex Problem Solving",
-            "description": "Handle nuanced situations that require human judgment"
+            "title": "복잡한 문제 해결",
+            "description": "인간의 판단이 필요한 미묘한 상황 처리"
           },
           "brand": {
-            "title": "Brand Representation",
-            "description": "Agents who truly understand and represent your brand values"
+            "title": "브랜드 대표",
+            "description": "브랜드 가치를 진정으로 이해하고 대표하는 상담원"
           },
           "relationships": {
-            "title": "Customer Relationships",
-            "description": "Build lasting relationships through genuine human connections"
+            "title": "고객 관계",
+            "description": "진정한 인간적인 연결을 통해 지속적인 관계 구축"
           }
         },
         "freeForever": {
-          "title": "Truly Free as in Free 🍺 & 🎙️",
-          "subtitle": "We mean it when we say free. One human agent for life, with unlimited everything.",
-          "meaningTitle": "What \"Free Forever\" Really Means",
-          "agent": "1 Human Agent for Life",
-          "conversations": "Unlimited Chat Conversations",
-          "history": "Unlimited Chat History",
-          "contacts": "Unlimited Contacts",
-          "export": "Freedom to Export All Data",
-          "noCredit": "No Credit Card Required",
-          "unlimited": "Unlimited Everything",
-          "noCaps": "No hidden fees, no time limits, no conversation caps. Just pure, unlimited human support.",
-          "forever": "Forever"
+          "title": "진정한 무료 🍺 & 🎙️",
+          "subtitle": "저희는 무료라고 말할 때 진심입니다. 평생 1명의 인간 상담원, 모든 것이 무제한입니다.",
+          "meaningTitle": "\"평생 무료\"가 실제로 의미하는 것",
+          "agent": "평생 1명의 인간 상담원",
+          "conversations": "무제한 채팅 대화",
+          "history": "무제한 채팅 기록",
+          "contacts": "무제한 연락처",
+          "export": "모든 데이터 내보내기 자유",
+          "noCredit": "신용 카드 필요 없음",
+          "unlimited": "모든 것이 무제한",
+          "noCaps": "숨겨진 비용, 시간 제한, 대화 상한 없음. 순수하고 무제한적인 인간 지원.",
+          "forever": "평생"
         },
-        "featuresTitle": "Powerful Human Agent Features",
-        "featuresSubtitle": "Everything you need to provide exceptional human-powered customer support.",
-        "whyMatterTitle": "Why Human Agents Still Matter",
-        "whyMatterSubtitle": "In an AI-driven world, human connection remains irreplaceable for building trust and solving complex problems.",
-        "ctaTitle": "Ready to Start with Human Agents?",
-        "ctaSubtitle": "Join thousands of businesses providing exceptional customer support with our free human agents.",
-        "ctaStartButton": "Start Free Now",
-        "ctaDemoButton": "Schedule Demo"
+        "featuresTitle": "강력한 인간 상담원 기능",
+        "featuresSubtitle": "탁월한 인간 기반 고객 지원을 제공하는 데 필요한 모든 것.",
+        "whyMatterTitle": "인간 상담원이 여전히 중요한 이유",
+        "whyMatterSubtitle": "AI 기반 세상에서 인간적인 연결은 신뢰를 구축하고 복잡한 문제를 해결하는 데 여전히 대체할 수 없습니다.",
+        "ctaTitle": "인간 상담원과 시작할 준비가 되셨습니까?",
+        "ctaSubtitle": "무료 인간 상담원으로 탁월한 고객 지원을 제공하는 수천 개의 기업에 합류하세요.",
+        "ctaStartButton": "지금 무료 시작",
+        "ctaDemoButton": "데모 예약"
       },
       "knowledgeBase": {
-        "subtitle": "Empower your AI agents with comprehensive knowledge management. Create, organize, and maintain a centralized repository of information that enables intelligent, accurate responses.",
-        "managementTitle": "Intelligent Knowledge Management",
-        "managementSubtitle": "Build a powerful knowledge foundation that grows with your business and enhances every customer interaction.",
+        "subtitle": "포괄적인 지식 관리로 AI 상담원을 강화하세요. 지능적이고 정확한 응답을 가능하게 하는 중앙 집중식 정보 저장소를 생성, 구성 및 유지 관리하세요.",
+        "managementTitle": "지능형 지식 관리",
+        "managementSubtitle": "비즈니스와 함께 성장하고 모든 고객 상호 작용을 향상시키는 강력한 지식 기반을 구축하세요.",
         "smartSearch": {
-          "title": "Smart Search",
-          "description": "Advanced semantic search capabilities that understand context and intent, delivering precise information instantly."
+          "title": "스마트 검색",
+          "description": "컨텍스트와 의도를 이해하고 정확한 정보를 즉시 제공하는 고급 의미론적 검색 기능."
         },
         "documentManagement": {
-          "title": "Document Management",
-          "description": "Upload, organize, and version control documents, FAQs, policies, and procedures in one centralized location."
+          "title": "문서 관리",
+          "description": "문서, FAQ, 정책 및 절차를 하나의 중앙 집중식 위치에 업로드, 구성 및 버전 제어."
         },
         "collaboration": {
-          "title": "Collaborative Editing",
-          "description": "Enable team collaboration with real-time editing, approval workflows, and role-based access controls."
+          "title": "협업 편집",
+          "description": "실시간 편집, 승인 워크플로우 및 역할 기반 액세스 제어로 팀 협업 활성화."
         },
         "autoLearning": {
-          "title": "Auto-Learning",
-          "description": "Automatically capture and learn from successful interactions to continuously improve knowledge accuracy."
+          "title": "자동 학습",
+          "description": "성공적인 상호 작용에서 자동으로 캡처하고 학습하여 지식 정확도를 지속적으로 개선."
         },
         "accessControl": {
-          "title": "Access Control",
-          "description": "Secure sensitive information with granular permissions and ensure compliance with data protection regulations."
+          "title": "액세스 제어",
+          "description": "세분화된 권한으로 민감한 정보를 보호하고 데이터 보호 규정 준수 보장."
         },
         "multiLanguage": {
-          "title": "Multi-Language",
-          "description": "Support multiple languages and localization to serve global customers with culturally appropriate responses."
+          "title": "다국어",
+          "description": "문화적으로 적절한 응답으로 글로벌 고객에게 서비스를 제공하기 위해 여러 언어 및 현지화 지원."
         },
-        "demoTitle": "See Knowledge Base in Action",
-        "demoSubtitle": "Watch how our intelligent knowledge system powers accurate, contextual responses.",
-        "interfaceTitle": "Knowledge Base Interface",
-        "categories": "Document Categories",
-        "productDocs": "Product Documentation",
-        "articles": "articles",
-        "supportFaqs": "Customer Support FAQs",
-        "policies": "Company Policies",
-        "recentUpdates": "Recent Updates",
-        "refundUpdate": "Refund Policy Updated",
-        "hoursAgo": "hours ago",
-        "returnWindow": "Updated return window from 14 to 30 days",
-        "featureGuide": "New Feature Guide",
-        "dayAgo": "day ago",
-        "analyticsDoc": "Added documentation for advanced analytics",
-        "transformTitle": "Transform Your Customer Support",
-        "transformSubtitle": "A well-organized knowledge base is the foundation of exceptional customer service and efficient operations.",
-        "benefitsTitle": "Key Benefits",
+        "demoTitle": "작동 중인 지식 기반 보기",
+        "demoSubtitle": "저희 지능형 지식 시스템이 정확하고 상황에 맞는 응답을 어떻게 제공하는지 확인하세요.",
+        "interfaceTitle": "지식 기반 인터페이스",
+        "categories": "문서 카테고리",
+        "productDocs": "제품 문서",
+        "articles": "기사",
+        "supportFaqs": "고객 지원 FAQ",
+        "policies": "회사 정책",
+        "recentUpdates": "최근 업데이트",
+        "refundUpdate": "환불 정책 업데이트됨",
+        "hoursAgo": "시간 전",
+        "returnWindow": "반품 기간이 14일에서 30일로 업데이트됨",
+        "featureGuide": "새로운 기능 가이드",
+        "dayAgo": "일 전",
+        "analyticsDoc": "고급 분석에 대한 문서 추가됨",
+        "transformTitle": "고객 지원 혁신",
+        "transformSubtitle": "잘 정리된 지식 기반은 탁월한 고객 서비스 및 효율적인 운영의 기반입니다.",
+        "benefitsTitle": "주요 이점",
         "fasterResponse": {
-          "title": "Faster Response Times",
-          "description": "Reduce average response time by 60% with instant access to accurate information."
+          "title": "더 빠른 응답 시간",
+          "description": "정확한 정보에 즉시 액세스하여 평균 응답 시간을 60% 단축."
         },
         "consistency": {
-          "title": "Consistent Accuracy",
-          "description": "Ensure all agents provide consistent, up-to-date information across all channels."
+          "title": "일관된 정확성",
+          "description": "모든 상담원이 모든 채널에서 일관되고 최신 정보를 제공하도록 보장."
         },
         "training": {
-          "title": "Scalable Training",
-          "description": "Onboard new agents faster with comprehensive, searchable documentation."
+          "title": "확장 가능한 교육",
+          "description": "포괄적이고 검색 가능한 문서로 신규 상담원 온보딩 속도 향상."
         },
-        "readyTitle": "Ready to Get Started?",
-        "readySubtitle": "Build your knowledge base today and transform how your team delivers customer support.",
-        "startButton": "Start Building",
-        "scheduleDemo": "Schedule Demo"
+        "readyTitle": "시작할 준비가 되셨습니까?",
+        "readySubtitle": "오늘 지식 기반을 구축하고 팀이 고객 지원을 제공하는 방식을 혁신하세요.",
+        "startButton": "구축 시작",
+        "scheduleDemo": "데모 예약"
       },
       "omnichannel": {
         "channels": {
           "website": {
-            "name": "Website Chat",
-            "description": "Embed chat widgets on any website platform",
+            "name": "웹사이트 채팅",
+            "description": "모든 웹사이트 플랫폼에 채팅 위젯 삽입",
             "seachat": {
               "features": {
-                "compatibility": "Universal compatibility",
-                "styling": "Custom styling",
-                "responsive": "Mobile responsive",
-                "sync": "Real-time sync"
+                "compatibility": "범용 호환성",
+                "styling": "맞춤형 스타일링",
+                "responsive": "모바일 반응형",
+                "sync": "실시간 동기화"
               }
             }
           },
@@ -476,23 +476,23 @@
             "name": "WhatsApp Business",
             "seachat": {
               "features": {
-                "api": "Business API integration",
-                "media": "Rich media support",
-                "templates": "Template messages",
-                "groups": "Group messaging"
+                "api": "비즈니스 API 통합",
+                "media": "리치 미디어 지원",
+                "templates": "템플릿 메시지",
+                "groups": "그룹 메시징"
               }
             },
-            "description": "Connect with customers on the world's most popular messaging app"
+            "description": "세계에서 가장 인기 있는 메시징 앱에서 고객과 연결"
           },
           "instagram": {
             "name": "Instagram Direct",
-            "description": "Manage Instagram DMs and story replies in one place",
+            "description": "Instagram DM 및 스토리 답장을 한 곳에서 관리",
             "seachat": {
               "features": {
-                "replies": "Story reply management",
-                "media": "Media sharing",
-                "responses": "Quick responses",
-                "greetings": "Automated greetings"
+                "replies": "스토리 답장 관리",
+                "media": "미디어 공유",
+                "responses": "빠른 응답",
+                "greetings": "자동 인사말"
               }
             }
           },
@@ -500,159 +500,159 @@
             "name": "Facebook Messenger",
             "seachat": {
               "features": {
-                "integration": "Page integration",
-                "responses": "Automated responses",
-                "cards": "Rich cards",
-                "menu": "Persistent menu"
+                "integration": "페이지 통합",
+                "responses": "자동 응답",
+                "cards": "리치 카드",
+                "menu": "영구 메뉴"
               }
             },
-            "description": "Provide support through Facebook's messaging platform"
+            "description": "Facebook의 메시징 플랫폼을 통해 지원 제공"
           },
           "voice": {
-            "name": "Voice Calls",
-            "description": "Handle phone support with AI voice agents",
+            "name": "음성 통화",
+            "description": "AI 음성 상담원으로 전화 지원 처리",
             "seachat": {
               "features": {
-                "conversations": "Natural conversations",
-                "routing": "Call routing",
-                "voicemail": "Voicemail transcription",
-                "conference": "Conference calls"
+                "conversations": "자연스러운 대화",
+                "routing": "통화 라우팅",
+                "voicemail": "음성 메일 전사",
+                "conference": "회의 통화"
               }
             }
           },
           "email": {
-            "name": "Email Support",
-            "description": "Manage email tickets with intelligent routing",
+            "name": "이메일 지원",
+            "description": "지능형 라우팅으로 이메일 티켓 관리",
             "seachat": {
               "features": {
-                "categorization": "Smart categorization",
-                "responses": "Auto-responses",
-                "templates": "Email templates",
-                "priority": "Priority handling"
+                "categorization": "스마트 분류",
+                "responses": "자동 응답",
+                "templates": "이메일 템플릿",
+                "priority": "우선 처리"
               }
             }
           }
         },
         "benefits": {
           "unifiedView": {
-            "title": "Unified Customer View",
-            "description": "See complete customer history across all channels in one interface"
+            "title": "통합 고객 보기",
+            "description": "하나의 인터페이스에서 모든 채널의 전체 고객 기록 보기"
           },
           "handoffs": {
-            "title": "Seamless Handoffs",
-            "description": "Customers can switch channels without losing conversation context"
+            "title": "원활한 핸드오프",
+            "description": "고객은 대화 컨텍스트를 잃지 않고 채널을 전환할 수 있습니다"
           },
           "resolution": {
-            "title": "Faster Resolution",
-            "description": "Reduce resolution time with unified agent workflows"
+            "title": "더 빠른 해결",
+            "description": "통합 상담원 워크플로우로 해결 시간 단축"
           },
           "satisfaction": {
-            "title": "Higher Satisfaction",
-            "description": "Consistent experience across all touchpoints"
+            "title": "더 높은 만족도",
+            "description": "모든 접점에서 일관된 경험"
           }
         },
-        "title": "Omnichannel Support",
-        "subtitle": "Connect all your customer touchpoints in one unified platform. Provide consistent, seamless support across websites, social media, phone, and email.",
-        "channelsTitle": "All Your Channels, One Platform",
-        "channelsSubtitle": "Connect and manage customer conversations across every channel your customers use.",
-        "benefitsTitle": "The Power of True Omnichannel",
-        "benefitsSubtitle": "Go beyond just having multiple channels. Create unified experiences that delight customers.",
-        "inboxTitle": "Unified Inbox Experience",
-        "inboxSubtitle": "See how all your customer conversations come together in one intelligent interface.",
-        "activeConversations": "Active Conversations",
-        "websiteChat": "Website chat about product seachat.features...",
-        "whatsappInquiry": "WhatsApp inquiry about order status...",
-        "instagramDM": "Instagram DM about return policy...",
-        "conversationView": "Conversation View",
-        "customerVia": "Customer via Website",
-        "agentResponse": "Agent Response",
-        "customerViaWhatsapp": "Customer via WhatsApp",
-        "whatsappMessage": "Thanks! Can I continue this conversation on WhatsApp?",
-        "ctaTitle": "Ready to Unify Your Customer Channels?",
-        "ctaSubtitle": "Connect all your customer touchpoints and provide seamless support experiences that keep customers coming back.",
-        "customerMessage": "Hi, I'm interested in your AI automation features. Can you tell me more?",
-        "agentMessage": "I'd be happy to help! Our AI automation can handle up to 80% of routine inquiries..."
+        "title": "옴니채널 지원",
+        "subtitle": "모든 고객 접점을 하나의 통합 플랫폼에 연결하세요. 웹사이트, 소셜 미디어, 전화 및 이메일 전반에 걸쳐 일관되고 원활한 지원을 제공하세요.",
+        "channelsTitle": "모든 채널, 하나의 플랫폼",
+        "channelsSubtitle": "고객이 사용하는 모든 채널에서 고객 대화를 연결하고 관리하세요.",
+        "benefitsTitle": "진정한 옴니채널의 힘",
+        "benefitsSubtitle": "여러 채널을 넘어선 경험을 만드세요. 고객을 기쁘게 하는 통합 경험을 만드세요.",
+        "inboxTitle": "통합 받은 편지함 경험",
+        "inboxSubtitle": "모든 고객 대화가 하나의 지능형 인터페이스에서 어떻게 통합되는지 확인하세요.",
+        "activeConversations": "활성 대화",
+        "websiteChat": "제품 seachat.features...에 대한 웹사이트 채팅",
+        "whatsappInquiry": "주문 상태에 대한 WhatsApp 문의...",
+        "instagramDM": "반품 정책에 대한 Instagram DM...",
+        "conversationView": "대화 보기",
+        "customerVia": "웹사이트를 통한 고객",
+        "agentResponse": "상담원 응답",
+        "customerViaWhatsapp": "WhatsApp을 통한 고객",
+        "whatsappMessage": "감사합니다! WhatsApp에서 이 대화를 계속할 수 있나요?",
+        "ctaTitle": "고객 채널을 통합할 준비가 되셨습니까?",
+        "ctaSubtitle": "모든 고객 접점을 연결하고 고객이 다시 찾게 만드는 원활한 지원 경험을 제공하세요.",
+        "customerMessage": "안녕하세요, AI 자동화 기능에 관심이 있습니다. 더 자세히 알려주실 수 있나요?",
+        "agentMessage": "기꺼이 도와드리겠습니다! 저희 AI 자동화는 일상적인 문의의 최대 80%를 처리할 수 있습니다..."
       },
       "voiceAgents": {
-        "title": "Voice Agents",
-        "subtitle": "Transform phone support with AI voice agents that sound natural, understand context, and provide instant assistance in multiple languages.",
-        "signUpFree": "Sign Up For Free",
-        "scheduleDemo": "Schedule Demo",
+        "title": "음성 상담원",
+        "subtitle": "자연스럽게 들리고, 컨텍스트를 이해하며, 여러 언어로 즉각적인 지원을 제공하는 AI 음성 상담원으로 전화 지원을 혁신하세요.",
+        "signUpFree": "무료로 가입",
+        "scheduleDemo": "데모 예약",
         "natural": {
-          "title": "Natural Voice Conversations",
-          "description": "AI-powered voice agents that sound natural and understand context."
+          "title": "자연스러운 음성 대화",
+          "description": "자연스럽게 들리고 컨텍스트를 이해하는 AI 기반 음성 상담원."
         },
         "speech": {
-          "title": "Advanced Speech Recognition",
-          "description": "Accurate speech-to-text conversion in multiple languages and accents."
+          "title": "고급 음성 인식",
+          "description": "여러 언어 및 악센트에서 정확한 음성-텍스트 변환."
         },
         "synthesis": {
-          "title": "High-Quality Voice Synthesis",
-          "description": "Crystal-clear, human-like voice output with emotional intelligence."
+          "title": "고품질 음성 합성",
+          "description": "감성 지능을 갖춘 선명하고 인간과 같은 음성 출력."
         },
         "support": {
-          "title": "24/7 Voice Support",
-          "description": "Round-the-clock voice assistance for global customer support."
+          "title": "연중무휴 음성 지원",
+          "description": "글로벌 고객 지원을 위한 연중무휴 음성 지원."
         },
         "multilanguage": {
-          "title": "Multi-Language Support",
-          "description": "Support for 50+ languages with native pronunciation."
+          "title": "다국어 지원",
+          "description": "원어민 발음으로 50개 이상의 언어 지원."
         },
         "routing": {
-          "title": "Intelligent Call Routing",
-          "description": "Smart routing to human agents when complex issues arise."
+          "title": "지능형 통화 라우팅",
+          "description": "복잡한 문제가 발생할 경우 인간 상담원에게 스마트 라우팅."
         },
-        "capabilitiesTitle": "Advanced Voice Capabilities",
-        "capabilitiesSubtitle": "Our voice agents combine cutting-edge AI with natural language processing for human-like conversations.",
+        "capabilitiesTitle": "고급 음성 기능",
+        "capabilitiesSubtitle": "저희 음성 상담원은 최첨단 AI와 자연어 처리를 결합하여 인간과 같은 대화를 제공합니다.",
         "capabilities": {
           "service": {
-            "title": "Customer Service Calls",
-            "description": "Handle routine inquiries, order status, and basic troubleshooting"
+            "title": "고객 서비스 통화",
+            "description": "일상적인 문의, 주문 상태 및 기본적인 문제 해결 처리"
           },
           "appointments": {
-            "title": "Appointment Scheduling",
-            "description": "Book, reschedule, and confirm appointments automatically"
+            "title": "예약",
+            "description": "약속을 자동으로 예약, 재예약 및 확인"
           },
           "orders": {
-            "title": "Order Processing",
-            "description": "Take orders, process payments, and confirm details"
+            "title": "주문 처리",
+            "description": "주문을 받고, 결제를 처리하고, 세부 정보 확인"
           },
           "support": {
-            "title": "Technical Support",
-            "description": "Guide customers through basic troubleshooting steps"
+            "title": "기술 지원",
+            "description": "기본적인 문제 해결 단계를 통해 고객 안내"
           }
         },
-        "performanceTitle": "Voice Agent Performance",
-        "performanceSubtitle": "See how our voice agents perform across different types of customer interactions.",
-        "accuracyRate": "Accuracy Rate",
-        "avgDuration": "Avg Duration",
-        "experienceTitle": "Experience Voice AI in Action",
-        "experienceSubtitle": "Listen to real conversations between customers and our voice agents.",
-        "sampleTitle": "Sample Conversation",
-        "voiceAgent": "Voice Agent",
-        "customer": "Customer",
-        "agentGreeting": "Hello! Thank you for calling SeaChat support. How can I help you today?",
-        "customerQuestion": "Hi, I need to check the status of my recent order.",
-        "agentResponse": "I'd be happy to help you with that. Could you please provide your order number or the email address associated with your account?",
-        "playDemo": "Play Full Demo",
-        "moreSamples": "More Samples",
-        "featuresTitle": "Voice Agent Features",
+        "performanceTitle": "음성 상담원 성능",
+        "performanceSubtitle": "저희 음성 상담원이 다양한 유형의 고객 상호 작용에서 어떻게 작동하는지 확인하세요.",
+        "accuracyRate": "정확도",
+        "avgDuration": "평균 지속 시간",
+        "experienceTitle": "작동 중인 음성 AI 경험",
+        "experienceSubtitle": "고객과 음성 상담원 간의 실제 대화를 들어보세요.",
+        "sampleTitle": "샘플 대화",
+        "voiceAgent": "음성 상담원",
+        "customer": "고객",
+        "agentGreeting": "안녕하세요! SeaChat 지원팀에 전화해 주셔서 감사합니다. 오늘 어떻게 도와드릴까요?",
+        "customerQuestion": "안녕하세요, 최근 주문 상태를 확인해야 합니다.",
+        "agentResponse": "기꺼이 도와드리겠습니다. 주문 번호 또는 계정과 연결된 이메일 주소를 알려주시겠습니까?",
+        "playDemo": "전체 데모 재생",
+        "moreSamples": "더 많은 샘플",
+        "featuresTitle": "음성 상담원 기능",
         "featuresList": {
-          "0": "Natural speech processing",
-          "1": "Multi-language support",
-          "2": "Phone system integration",
-          "3": "Voice sentiment analysis",
-          "4": "Call recording and analysis",
-          "5": "Intelligent human escalation"
+          "0": "자연스러운 음성 처리",
+          "1": "다국어 지원",
+          "2": "전화 시스템 통합",
+          "3": "음성 감정 분석",
+          "4": "통화 녹음 및 분석",
+          "5": "지능형 인간 에스컬레이션"
         },
-        "ctaTitle": "Ready to Transform Phone Support?",
-        "ctaSubtitle": "Experience the future of voice customer support with AI agents that sound and feel human."
+        "ctaTitle": "전화 지원을 혁신할 준비가 되셨습니까?",
+        "ctaSubtitle": "인간처럼 들리고 느껴지는 AI 상담원으로 음성 고객 지원의 미래를 경험하세요."
       }
     },
     "seo": {
-      "title": "SeaChat - AI Chatbot & Customer Service Automation | Seasalt.ai",
-      "titleSuffix": " - AI Chatbot & Customer Service Automation | Seasalt.ai",
-      "description": "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more."
+      "title": "SeaChat - AI 챗봇 및 고객 서비스 자동화 | Seasalt.ai",
+      "titleSuffix": " - AI 챗봇 및 고객 서비스 자동화 | Seasalt.ai",
+      "description": "SeaChat은 WhatsApp, 웹사이트, 소셜 미디어 등 여러 채널에서 고객 서비스를 자동화하는 데 도움이 되는 AI 기반 챗봇 플랫폼입니다."
     }
   }
 }
