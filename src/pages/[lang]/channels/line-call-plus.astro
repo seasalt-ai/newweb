@@ -1,0 +1,1240 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getMeetingUrl } from "../../../constants/urls";
+import Lucide from 'lucide-react';
+const { MicOff, Volume2, Grid3X3, PhoneOff, PhoneCall, Phone, ArrowLeft, PlaySquare, ShieldCheck, Award, AlertCircle, Clock, CircleDollarSign, RefreshCcw, ListChecks, TrendingUp, PanelsTopLeft, CheckCircle, Calendar, Download, Mic, MessageCircle, Brain, Zap, Users, BarChart3, Star, Building2 } = Lucide;
+
+// Only generate the zh-TW route for this landing page
+export async function getStaticPaths() {
+  return [{ params: { lang: 'zh-TW' } }];
+}
+
+const { lang } = Astro.params;
+
+const seoTitle = 'LINE官方帳號一鍵通話，您的AI語音客服24小時自動上線';
+const seoDescription = '結合LINE Call Plus，SeaVoice讓您的客服從成本中心轉型為營收引擎。由最懂台灣人語氣的SeaVoice AI語音助理，為您處理企業資訊問答、AI語音信箱，甚至整合inline完成自動訂位。';
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+const isZh = lang === 'zh-TW' || lang === 'zh-CN';
+const breadcrumbs = [
+  { name: '首頁', url: `/${lang}/` },
+  { name: '渠道', url: `/${lang}/channels/` },
+  { name: 'LINE Call Plus' }
+];
+
+// Features data
+const businessScenarios = [
+  {
+    icon: '🍽️',
+    title: '餐飲零售業：24小時不打烊的超級店員',
+    features: [
+      '全天候自動訂位：透過與 inline.app 的完美整合',
+      '分店資訊即時答：AI助理化身萬事通',
+      '最新優惠活動語音推播：主動告知折扣活動'
+    ]
+  },
+  {
+    icon: '🛒',
+    title: '電商與網拍：永不疲倦的訂單處理專家',
+    features: [
+      '訂單狀態與物流追蹤：即時查詢訂單狀態',
+      '退換貨政策自動說明：清晰解釋流程與條款',
+      '產品規格與庫存問答：提供最準確的答覆'
+    ]
+  },
+  {
+    icon: '👩‍⚕️',
+    title: '診所、沙龍、服務業：您的智慧預約秘書',
+    features: [
+      '24小時預約排程與查詢：不受櫃檯服務時間限制',
+      '服務項目與價格介紹：幫助顧客做出最佳選擇',
+      '行前提醒與注意事項：大幅降低顧客失約率'
+    ]
+  },
+  {
+    icon: '🏢',
+    title: '品牌企業與B2B：第一線的智慧資訊總機',
+    features: [
+      '潛在客戶資訊篩選與記錄：提供高質量的銷售線索',
+      '取代傳統IVR：智能判斷並提供指引',
+      '永不關機的品牌資訊熱線：24小時可靠管道'
+    ]
+  }
+];
+
+const coreFeatures = [
+  {
+    icon: 'Brain',
+    title: '全方位知識庫，上傳即學習',
+    description: '上傳Excel價目表、PDF產品型錄、公司網站網址、甚至是教學影片，AI即可在幾分鐘內學習完畢，成為該領域的專家。'
+  },
+  {
+    icon: 'Zap',
+    title: '10分鐘極速上線，無需任何程式背景',
+    description: '直覺化的後台介面，讓您像編輯文件一樣簡單地設定AI助理。從建立對話流程到上傳知識，全程無需編寫任何程式碼。'
+  },
+  {
+    icon: 'Users',
+    title: 'AI與真人的完美協作',
+    description: '當遇到AI無法處理的複雜問題時，系統可設定無縫轉接真人客服。真人客服可看到完整的AI對話紀錄。'
+  },
+  {
+    icon: 'Mic',
+    title: '有溫度的台灣口音，自然流暢',
+    description: '採用 Seasalt.ai 獨家 SeaVoice 語音技術，專為台灣市場優化，提供最接近真人的語氣與腔調。'
+  },
+  {
+    icon: 'BarChart3',
+    title: '數據洞察儀表板',
+    description: '輕鬆追蹤來電數量、熱門問題、對話長度等關鍵數據，幫助您不斷優化AI助理的表現。'
+  },
+  {
+    icon: 'ShieldCheck',
+    title: '企業級安全與權限控管',
+    description: '支援角色權限、審核流程與稽核記錄，保障資料安全與法規合規。'
+  }
+];
+---
+
+<Layout
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang}
+  type="software"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-green-50 via-white to-green-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+        <div>
+          <a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
+            <ArrowLeft className="h-5 w-5 mr-2" />
+            返回所有渠道
+          </a>
+          
+          <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+            LINE官方帳號一鍵通話，您的{' '}
+            <span class="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
+              AI語音客服
+            </span>
+            24小時自動上線
+          </h1>
+          
+          <p class="text-xl text-gray-600 mb-8">
+            結合LINE官方雙認證技術，SeaVoice讓您的客服從「成本中心」轉型為「營收引擎」。從餐廳訂位、電商問答到售後服務，不錯過任何一通潛在商機。
+          </p>
+          
+          <div class="flex flex-col sm:flex-row gap-4 mb-6">
+            <a
+              href={getMeetingUrl(lang)}
+              class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+            >
+              預約演示
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="mt-12 lg:mt-0">
+          <div class="relative">
+            <div id="line-call-demo" data-state="incoming" data-speaker="ai" class="bg-white rounded-2xl shadow-2xl p-6">
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center">
+                  <div class="w-8 h-8 rounded-full bg-green-500 text-white flex items-center justify-center mr-3 font-bold">L</div>
+                  <div>
+                    <h3 class="text-lg font-semibold">商家客服（SeaVoice）</h3>
+                    <p class="text-xs text-gray-500">LINE 來電 · 通話中 00:12</p>
+                  </div>
+                </div>
+                <span class="inline-flex items-center text-xs px-2 py-1 rounded-full bg-green-50 text-green-700 border border-green-200">
+                  <PhoneCall className="h-4 w-4 mr-1" />
+                  從 LINE 撥打給商家
+                </span>
+              </div>
+
+              <div class="relative rounded-xl bg-gray-50 border border-gray-200 p-5 overflow-hidden mb-4">
+                <div class="flex items-end justify-center h-28 gap-1">
+                  <div class="eq-bar w-1.5 rounded-sm" style="--h:18; --d:1100ms; --delay:0ms"></div>
+                  <div class="eq-bar w-1.5 rounded-sm" style="--h:28; --d:900ms; --delay:120ms"></div>
+                  <div class="eq-bar w-1.5 rounded-sm" style="--h:22; --d:1000ms; --delay:240ms"></div>
+                  <div class="eq-bar w-1.5 rounded-sm" style="--h:34; --d:800ms; --delay:360ms"></div>
+                  <div class="eq-bar w-1.5 rounded-sm" style="--h:40; --d:950ms; --delay:480ms"></div>
+                  <div class="eq-bar w-1.5 rounded-sm" style="--h:26; --d:1050ms; --delay:600ms"></div>
+                  <div class="eq-bar w-1.5 rounded-sm" style="--h:38; --d:870ms; --delay:720ms"></div>
+                  <div class="eq-bar w-1.5 rounded-sm" style="--h:20; --d:980ms; --delay:840ms"></div>
+                  <div class="eq-bar w-1.5 rounded-sm" style="--h:30; --d:920ms; --delay:960ms"></div>
+                  <div class="eq-bar w-1.5 rounded-sm" style="--h:16; --d:1020ms; --delay:1080ms"></div>
+                </div>
+                <div class="absolute top-3 right-3 flex items-center gap-2">
+                  <div class="indicator-ai items-center hidden">
+                    <span class="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                    <span class="text-xs text-green-700">AI 說話中</span>
+                  </div>
+                  <div class="indicator-user items-center hidden">
+                    <span class="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                    <span class="text-xs text-blue-700">客戶說話中</span>
+                  </div>
+                </div>
+
+                <style>
+                  @keyframes equalize {
+                    0%   { height: 8px;    opacity: .7; transform: translateY(10px); }
+                    25%  { height: calc(var(--h, 20) * 1px); opacity: 1; transform: translateY(0); }
+                    50%  { height: 12px;   opacity: .85; transform: translateY(6px); }
+                    75%  { height: calc(var(--h, 20) * .7px); opacity: .95; transform: translateY(3px); }
+                    100% { height: 8px;    opacity: .7; transform: translateY(10px); }
+                  }
+                  #line-call-demo .eq-bar {
+                    animation: equalize var(--d, 1000ms) ease-in-out var(--delay, 0ms) infinite;
+                  }
+                  /* Waveform color by active speaker */
+                  #line-call-demo[data-speaker="ai"] .eq-bar { background-color: #22c55e; } /* green-500 */
+                  #line-call-demo[data-speaker="user"] .eq-bar { background-color: #3b82f6; } /* blue-500 */
+                  /* Indicator toggle */
+                  #line-call-demo .indicator-ai,
+                  #line-call-demo .indicator-user { display: none; }
+                  #line-call-demo[data-speaker="ai"] .indicator-ai { display: inline-flex; }
+                  #line-call-demo[data-speaker="user"] .indicator-user { display: inline-flex; }
+                  /* Transcript line coloring by active speaker */
+                  #line-call-demo[data-speaker="ai"] .ai-line { color: #166534; }   /* green-800 */
+                  #line-call-demo[data-speaker="ai"] .user-line { color: #4b5563; } /* gray-600 */
+                  #line-call-demo[data-speaker="user"] .user-line { color: #1d4ed8; } /* blue-700 */
+                  #line-call-demo[data-speaker="user"] .ai-line { color: #4b5563; }  /* gray-600 */
+                </style>
+              </div>
+
+              <div class="flex items-center justify-center gap-4 mb-4">
+                <button class="w-12 h-12 rounded-full bg-gray-100 text-gray-700 flex items-center justify-center hover:bg-gray-200 ring-1 ring-gray-200" aria-label="靜音">
+                  <MicOff className="h-6 w-6" />
+                </button>
+                <button class="w-12 h-12 rounded-full bg-gray-100 text-gray-700 flex items-center justify-center hover:bg-gray-200 ring-1 ring-gray-200" aria-label="擴音">
+                  <Volume2 className="h-6 w-6" />
+                </button>
+                <button class="w-12 h-12 rounded-full bg-gray-100 text-gray-400 flex items-center justify-center ring-1 ring-gray-200 cursor-not-allowed" aria-label="數字鍵盤">
+                  <Grid3X3 className="h-6 w-6" />
+                </button>
+                <button class="w-12 h-12 rounded-full bg-red-500 text-white flex items-center justify-center hover:bg-red-600 shadow-sm" aria-label="結束通話">
+                  <PhoneOff className="h-6 w-6" />
+                </button>
+              </div>
+
+              <div class="bg-white/80 backdrop-blur-sm border border-gray-200 rounded-lg p-3">
+                <div class="inline-flex items-center text-[10px] uppercase tracking-wide text-gray-600 mb-1">
+                  <PlaySquare className="h-3 w-3 mr-1 text-gray-400" />
+                  即時語音字幕
+                </div>
+                <div class="space-y-1.5 bg-gray-50 rounded-md p-3">
+                  <p class="text-sm user-line">客戶：「我想預約明天下午的用餐」</p>
+                  <p class="text-sm ai-line">AI：「好的！讓我為您查看明天下午的空位。請問幾位用餐呢？」</p>
+                  <p class="text-sm user-line">客戶：「4個人」</p>
+                  <p class="text-sm ai-line">AI：「明天下午2點和5點都有空位，請問您偏好哪個時段？」</p>
+                </div>
+              </div>
+            </div>
+            <script>
+              (() => {
+                const el = document.getElementById('line-call-demo');
+                if (!el) return;
+                let speaker = 'ai';
+                el.setAttribute('data-speaker', speaker);
+                setInterval(() => {
+                  speaker = speaker === 'ai' ? 'user' : 'ai';
+                  el.setAttribute('data-speaker', speaker);
+                }, 2500);
+              })();
+            </script>
+            <!-- 自動切換 AI/客戶 說話中（僅示意動畫） -->
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <!-- LINE Certification Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          LINE官方雙重認證，技術實力最強保證
+        </h2>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          Seasalt.ai 很榮幸成為 LINE 官方認證的 <strong>「Authorized AI Partner」</strong> 與 <strong>「Certified Provider」</strong>。我們在 AI 整合能力與技術服務穩定性上，擁有 LINE 官方認可的最高標準，是您最值得信賴的合作夥伴。
+        </p>
+      </div>
+
+      <div class="flex justify-center mb-8">
+        <img
+          src="/products/Line-AI-Partner.png"
+          alt="LINE AI Partner"
+          class="max-h-[320px] md:max-h-[360px] w-auto max-w-full object-contain rounded-xl border border-gray-200 shadow-sm"
+          loading="lazy"
+        />
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl border-2 border-green-100 text-center hover:shadow-lg transition-all duration-300">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <ShieldCheck className="h-8 w-8 text-green-600" />
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            LINE Authorized AI Partner
+          </h3>
+          <p class="text-gray-600">LINE官方認證AI夥伴</p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl border-2 border-green-100 text-center hover:shadow-lg transition-all duration-300">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <Award className="h-8 w-8 text-green-600" />
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">
+            LINE Certified Provider
+          </h3>
+          <p class="text-gray-600">LINE認證技術服務供應商</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          您的客服是否正陷入一場無聲的危機？
+        </h2>
+        <p class="text-xl text-gray-600">
+          您的顧客正在流失，而您可能毫無察覺。
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
+              <AlertCircle className="h-6 w-6 text-red-600" />
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">無盡的等待音...然後掛斷</h3>
+          </div>
+          <p class="text-gray-600">尖峰時段電話永遠佔線，顧客的耐心在等待中消磨殆盡，商機也隨之而去。</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
+              <Clock className="h-6 w-6 text-red-600" />
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">「非營業時間，請稍後再撥」</h3>
+          </div>
+          <p class="text-gray-600">顧客的需求從不打烊，但您的服務卻有。下班後、假日的潛在客戶，都成了錯過的遺憾。</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
+              <CircleDollarSign className="h-6 w-6 text-red-600" />
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">高昂的人力與時間成本</h3>
+          </div>
+          <p class="text-gray-600">建立與維持一個真人客服團隊，不僅薪資成本高昂，更要投入大量時間進行訓練與管理。</p>
+        </div>
+        
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-4">
+            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
+              <RefreshCcw className="h-6 w-6 text-red-600" />
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">重複問題的無限迴圈</h3>
+          </div>
+          <p class="text-gray-600">80%的客服時間，都浪費在回答「營業到幾點？」、「地址在哪裡？」等基礎問題上，無法專注於處理更複雜的客戶需求。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Scenarios Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          解鎖新商機：真實商業應用場景
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Seasalt.ai 的 LINE 語音AI方案不僅是客服工具，更是各行各業的業務增長利器。
+        </p>
+      </div>
+      
+      <div class="grid lg:grid-cols-2 gap-8">
+        {businessScenarios.map((scenario, index) => (
+          <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl border border-green-200 hover:shadow-xl transition-all duration-300">
+            <div class="flex items-center mb-6">
+              <div class="text-4xl mr-4">{scenario.icon}</div>
+              <h3 class="text-2xl font-bold text-gray-900">{scenario.title}</h3>
+            </div>
+            <div class="space-y-4">
+              {scenario.features.map((feature, featureIndex) => (
+                <div class="flex items-start">
+                  <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                  </svg>
+                  <p class="text-gray-700">{feature}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Inline Integration Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <div class="flex items-center justify-center gap-3 mb-4">
+          <img src="/seasalt-ai-logo.png" alt="Seasalt.ai" class="h-8 w-auto" />
+          <span class="text-sm text-gray-400">x</span>
+          <img src="/company_icons/inline-logo.png" alt="inline" class="h-8 w-auto" />
+        </div>
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
+          集成 inline.app，讓訂位全自動化
+        </h2>
+        <p class="text-lg text-gray-600">
+          通過 Seasalt.ai 與 inline 隨時電話預約訂位
+        </p>
+      </div>
+
+      <div class="bg-gradient-to-br from-green-50 to-white p-6 md:p-10 rounded-2xl border border-green-200 mb-8">
+        <div class="grid md:grid-cols-2 gap-8 items-start">
+          <div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Seasalt.ai x inline：電話訂位一氣呵成</h3>
+            <p class="text-gray-700 mb-4">
+              透過 Seasalt.ai 的 SeaVoice 語音助理，顧客從 LINE Call Plus 撥入後即可口頭完成訂位需求。系統即時查詢 inline 的可用時段、座位配置，並以語音引導完成確認，過程無需人工介入。
+            </p>
+            <ul class="text-gray-700 space-y-2">
+              <li class="flex"><span class="text-green-500 mr-2">•</span>即時查詢可訂位：連接 inline 可用時段與桌位圖</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>語音完成確認：自動送出確認簡訊、避免人為疏失</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>資料自動寫回：訂位結果同步回 inline，前台零負擔</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-base font-semibold text-gray-900 mb-2">為何以 Seasalt.ai 為核心？</h4>
+            <ul class="text-gray-700 space-y-2">
+              <li class="flex"><span class="text-green-500 mr-2">•</span>台灣口音自然語音：更貼近在地顧客溝通習慣</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>知識庫整合：可同步回答營業資訊、活動與加價購</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>跨渠道一致：與 SeaChat 文字機器人共用知識與策略</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- 整合流程 -->
+        <div class="bg-gradient-to-br from-green-50 to-white p-6 rounded-2xl border border-green-200 hover:shadow-xl transition-all duration-300">
+          <div class="w-10 h-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-3">
+            <ListChecks class="h-5 w-5" />
+          </div>
+          <h4 class="text-lg font-semibold text-gray-900 mb-3">整合流程</h4>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex"><span class="text-green-500 mr-2">•</span>LINE Call Plus 撥入 → SeaVoice 語音助理理解需求</li>
+            <li class="flex"><span class="text-green-500 mr-2">•</span>查詢 inline 空位 → 語音確認人數/時段/偏好</li>
+            <li class="flex"><span class="text-green-500 mr-2">•</span>建立訂位 → 結果寫回 inline，簡訊通知顧客</li>
+          </ul>
+        </div>
+
+        <!-- 營運自動化 -->
+        <div class="bg-gradient-to-br from-green-50 to-white p-6 rounded-2xl border border-green-200 hover:shadow-xl transition-all duration-300">
+          <div class="w-10 h-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-3">
+            <TrendingUp class="h-5 w-5" />
+          </div>
+          <h4 class="text-lg font-semibold text-gray-900 mb-3">營運自動化</h4>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex"><span class="text-green-500 mr-2">•</span>尖峰時段零漏接：同時處理大量來電</li>
+            <li class="flex"><span class="text-green-500 mr-2">•</span>自動確認與提醒：降低爽約，提升翻桌率</li>
+            <li class="flex"><span class="text-green-500 mr-2">•</span>VIP 規則：自動識別並套用座位/偏好</li>
+          </ul>
+        </div>
+
+        <!-- 資料連動 -->
+        <div class="bg-gradient-to-br from-green-50 to-white p-6 rounded-2xl border border-green-200 hover:shadow-xl transition-all duration-300">
+          <div class="w-10 h-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-3">
+            <PanelsTopLeft class="h-5 w-5" />
+          </div>
+          <h4 class="text-lg font-semibold text-gray-900 mb-3">資料連動</h4>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex"><span class="text-green-500 mr-2">•</span>與 SeaChat 共用知識庫，跨語音/文字一致回覆</li>
+            <li class="flex"><span class="text-green-500 mr-2">•</span>訂位數據可視化：熱門時段、取消率、轉換率</li>
+            <li class="flex"><span class="text-green-500 mr-2">•</span>後續再行銷：顧客成為 LINE 好友，精準觸達</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="text-sm text-gray-500 mt-6 text-center">
+        以 Seasalt.ai 為核心，將語音理解、知識庫與 inline 訂位深度整合，讓電話訂位真正做到全自動化。
+      </p>
+    </div>
+  </section>
+
+  <!-- Line Call Plus x Seasalt.ai Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-8 items-center mb-10">
+        <div>
+          <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
+            Line Call Plus x Seasalt.ai
+          </h2>
+          <p class="text-lg text-gray-600">
+            企業級雲端整合，零硬體上線；以 SeaVoice + SeaChat 打通 LINE 網路通話的 AI 客服全流程
+          </p>
+          <img
+            src="/products/line-call-plus-api-logo.jpeg"
+            alt="LINE Call Plus 標誌"
+            class="h-36 md:h-44 w-auto mt-4 block mx-auto"
+            loading="lazy"
+          />
+          <img
+            src="/products/line-messaging-api.png"
+            alt="LINE Messaging API"
+            class="h-32 md:h-36 w-auto mt-3 block mx-auto"
+            loading="lazy"
+          />
+        </div>
+        <div class="flex justify-center md:justify-end">
+          <div class="rounded-2xl border border-gray-200 shadow-md overflow-hidden bg-white">
+            <img
+              src="/products/line-call-plus-on-seasalt-ai.jpeg"
+              alt="LINE Call Plus 在 Seasalt.ai 的操作示意"
+              class="w-auto h-[520px] md:h-[620px] object-contain"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-green-50 to-white p-6 md:p-10 rounded-2xl border border-green-200">
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- 左欄：LINE Call Plus 與技術整合 -->
+          <div>
+            <img src="/products/line-call-plus-api-logo.jpeg" alt="LINE Call Plus" class="h-14 md:h-16 w-auto mb-3" />
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">關於 LINE Call Plus 與技術整合</h3>
+            <ul class="space-y-2 text-gray-700">
+              <li class="flex"><span class="text-green-500 mr-2">•</span>零硬體需求：雲端 SaaS，一鍵啟用，無需 SBC/VoIP 自行部署</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>網路語音品質：LINE 已優化語音體驗，穩定網路下清晰流暢</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>非傳統電話號碼：由官方帳號的「通話」按鈕直接撥入</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>多管道語音：亦支援市話/手機號轉接至 AI 助理，統一自動化</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>中斷續辦：SeaVoice 留存對話紀錄，方便後續主動跟進</li>
+            </ul>
+          </div>
+          <!-- 右欄：Seasalt.ai 平台與 AI 功能 -->
+          <div>
+            <img src="/seasalt-ai-logo.png" alt="Seasalt.ai" class="h-14 md:h-16 w-auto mb-3" />
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">關於 Seasalt.ai 平台與 AI 功能</h3>
+            <ul class="space-y-2 text-gray-700">
+              <li class="flex"><span class="text-green-500 mr-2">•</span>10 分鐘上線：無需程式背景，上傳 Excel/PDF/網址 即可訓練</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>理解複雜問題：大語言模型驅動，支援脈絡理解與持續優化</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>SeaVoice 可客製：語速/語調/發音可調，打造專屬品牌聲音</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>營運儀表板：追蹤來電量、獨立用戶、轉接比率等關鍵指標</li>
+              <li class="flex"><span class="text-green-500 mr-2">•</span>跨文字與語音：SeaChat 與 SeaVoice 共用知識庫，口徑一致</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dual Functionality Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          一箭雙雕：LINE＋電話，語音溝通全制霸
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          無論您的顧客偏好LINE Call還是換通電話，Seasalt.ai 都能提供全天候無縫接軌的AI自動化服務。
+        </p>
+      </div>
+
+      <!-- Enhanced Channels Illustration -->
+      <div class="mb-12">
+        <div class="bg-gradient-to-br from-blue-50 to-emerald-50 rounded-2xl border border-gray-200 shadow-lg p-6 max-w-5xl mx-auto">
+          <div class="grid md:grid-cols-4 gap-6 items-center">
+            
+            <!-- Left: Customer Channels -->
+            <div class="space-y-4">
+              <h4 class="text-sm font-semibold text-gray-700 text-center mb-3">客戶端</h4>
+              
+              <!-- LINE App User -->
+              <div class="bg-white rounded-lg p-3 shadow-sm border">
+                <div class="flex items-center">
+                  <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-3">
+                    <Users className="h-5 w-5 text-green-600" />
+                  </div>
+                  <div class="flex-1">
+                    <div class="flex items-center">
+                      <PhoneCall className="h-4 w-4 text-green-600 mr-1" />
+                      <span class="text-sm font-medium">LINE App</span>
+                    </div>
+                    <div class="text-xs text-gray-500">網路通話</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Traditional Phone User -->
+              <div class="bg-white rounded-lg p-3 shadow-sm border">
+                <div class="flex items-center">
+                  <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+                    <Users className="h-5 w-5 text-blue-600" />
+                  </div>
+                  <div class="flex-1">
+                    <div class="flex items-center">
+                      <Phone className="h-4 w-4 text-blue-600 mr-1" />
+                      <span class="text-sm font-medium">傳統電話</span>
+                    </div>
+                    <div class="text-xs text-gray-500">市話/手機</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Speech Flow -->
+            <div class="hidden md:flex flex-col items-center justify-center">
+              <div class="flex items-center space-x-1 mb-2">
+                <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse" style="animation-delay: 0.2s"></div>
+                <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse" style="animation-delay: 0.4s"></div>
+              </div>
+              <div class="text-xs text-gray-500 text-center">語音數據</div>
+              <div class="text-xs text-gray-500">→</div>
+            </div>
+
+            <!-- SeaVoice AI Engine -->
+            <div class="text-center">
+              <div class="bg-white rounded-xl p-4 shadow-md border-2 border-emerald-200">
+                <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <Mic className="h-6 w-6 text-emerald-600" />
+                </div>
+                <div class="text-sm font-bold text-emerald-700">SeaVoice</div>
+                <div class="text-xs text-gray-500">AI語音引擎</div>
+                <div class="flex justify-center mt-2 space-x-1">
+                  <div class="w-1 h-3 bg-emerald-400 rounded animate-pulse"></div>
+                  <div class="w-1 h-4 bg-emerald-400 rounded animate-pulse" style="animation-delay: 0.1s"></div>
+                  <div class="w-1 h-2 bg-emerald-400 rounded animate-pulse" style="animation-delay: 0.2s"></div>
+                  <div class="w-1 h-5 bg-emerald-400 rounded animate-pulse" style="animation-delay: 0.3s"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Business Backend -->
+            <div class="space-y-3">
+              <h4 class="text-sm font-semibold text-gray-700 text-center mb-3">企業端</h4>
+              
+              <!-- Dashboard -->
+              <div class="bg-white rounded-lg p-3 shadow-sm border">
+                <div class="flex items-center">
+                  <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-2">
+                    <BarChart3 className="h-4 w-4 text-purple-600" />
+                  </div>
+                  <div>
+                    <div class="text-sm font-medium">數據儀表板</div>
+                    <div class="text-xs text-gray-500">即時分析</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Contact Center -->
+              <div class="bg-white rounded-lg p-3 shadow-sm border">
+                <div class="flex items-center">
+                  <div class="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center mr-2">
+                    <Building2 className="h-4 w-4 text-orange-600" />
+                  </div>
+                  <div>
+                    <div class="text-sm font-medium">客服中心</div>
+                    <div class="text-xs text-gray-500">統一管理</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+          <!-- Flow Description -->
+          <div class="mt-4 text-center">
+            <div class="text-xs text-gray-600 bg-white/70 rounded-full px-4 py-2 inline-block">
+              多渠道語音 → AI智能處理 → 企業整合應用
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid lg:grid-cols-2 gap-8">
+        <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg border border-blue-200 hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+              <PhoneCall className="h-6 w-6 text-blue-600" />
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">LINE Call Plus 支援</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed">
+            完整整合 <strong>LINE Call Plus API</strong>，讓您的客戶直接透過 LINE App 撥打網路電話給企業。無需額外下載或註冊，使用熟悉的 LINE 介面即可享受高品質語音通話，大幅降低客戶使用門檻，提升聯繫意願。
+          </p>
+        </div>
+        
+        <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg border border-green-200 hover:shadow-xl transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+              <Phone className="h-6 w-6 text-green-600" />
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900">傳統電話支援</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed">
+            同時支援<strong>市話與手機號碼</strong>撥打，確保所有客戶都能透過最熟悉的方式聯繫您的企業。無論客戶使用哪種通話方式，都能享受到相同水準的 AI 語音助理服務，真正做到全渠道覆蓋。
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Video Demos Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          親眼見證AI的威力：功能展示影片
+        </h2>
+      </div>
+
+      <div class="grid lg:grid-cols-1 gap-12">
+        <div class="bg-white rounded-2xl shadow-lg p-8">
+          <div class="text-center mb-8">
+            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg class="h-8 w-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">
+              LINE Call Plus演示
+            </h3>
+            <p class="text-gray-600 mb-6">觀看我們的演示教學，了解LINE Call Plus實際體驗，讓您的 LINE 官方帳號立即擁有AI超能力。</p>
+          </div>
+          
+          <div class="bg-gray-100 rounded-2xl p-8 flex items-center justify-center h-80">
+            <div class="text-center">
+              <svg class="h-16 w-16 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+              </svg>
+              <p class="text-gray-500 text-lg">演示影片即將推出</p>
+              <p class="text-gray-400 text-sm mt-2">正在製作中...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Analytics for Line Call Plus (Subsection) -->
+      <div class="mt-16 mb-12">
+        <div class="text-center mb-6">
+          <h3 class="text-2xl lg:text-3xl font-bold text-gray-900">
+  {isZh ? 'LINE Call Plus 數據分析' : 'Analytics for Line Call Plus'}
+</h3>
+          <p class="text-gray-600 mt-2">
+  {isZh ? 'LINE Call Plus 統計完成資料（示意）' : 'LINE Call Plus analytics overview (sample)'}
+</p>
+        </div>
+        <div class="bg-gradient-to-br from-green-50 to-white rounded-2xl border border-green-200 shadow-sm p-4 md:p-6">
+          <div class="flex items-center justify-between gap-3 mb-4">
+            <div class="text-xs text-gray-500">
+              {isZh ? '統計完成資料：至 2025/09/30 止（示意）' : 'As of 2025/09/30 (sample data)'}
+            </div>
+            <div class="flex items-center gap-2">
+              <button type="button" class="inline-flex items-center px-3 py-1.5 rounded-lg bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 text-xs md:text-sm shadow-sm">
+                <Calendar className="h-4 w-4 text-gray-500" />
+                <span class="ml-2">{isZh ? '選擇期間' : 'Date range'}</span>
+              </button>
+              <button type="button" class="inline-flex items-center px-3 py-1.5 rounded-lg bg-green-600 text-white hover:bg-green-700 text-xs md:text-sm shadow-sm">
+                <Download className="h-4 w-4 text-white/90" />
+                <span class="ml-2">{isZh ? '下載報表 (CSV)' : 'Download CSV'}</span>
+              </button>
+            </div>
+          </div>
+          <div class="rounded-xl overflow-hidden border border-gray-100 shadow mx-auto max-w-xl md:max-w-2xl">
+            {(lang === 'zh-TW' || lang === 'zh-CN') ? (
+              <img
+                src="/products/line-call-plus-analytics-zh-tw.jpeg"
+                alt="LINE Call Plus 分析儀表板"
+                class="w-full h-auto"
+                loading="lazy"
+              />
+            ) : (
+              <img
+                src="/products/line-call-plus-analytics-en.jpeg"
+                alt="LINE Call Plus Analytics dashboard"
+                class="w-full h-auto"
+                loading="lazy"
+              />
+            )}
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-6 mt-6">
+            <div>
+              <h4 class="text-base font-semibold text-gray-900 mb-2">
+  {isZh ? '追蹤指標與意義' : 'Key metrics and meanings'}
+</h4>
+              <ul class="space-y-1.5 text-gray-700 text-sm">
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '不重複用戶：過去 7/30 天的獨立來電者，衡量觸及面與新客比重' : 'Unique callers (7/30 days): reach and new‑customer mix'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '通話：總通話量與趨勢，評估電話需求波動與行銷活動成效' : 'Calls (7/30 days): volume and trendlines for demand and campaign impact'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '放棄接通：顧客未接通即離開的次數，用於優化流程與話術' : 'Abandoned before connect: left pre‑connection; optimize flow and greeting'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '通話時間：平均/總時長與同期變化，反映問題複雜度與處理效率' : 'Call duration: average/total and deltas indicating complexity and efficiency'}</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="text-base font-semibold text-gray-900 mb-2">
+  {isZh ? '如何用於營運優化' : 'How to operationalize insights'}
+</h4>
+              <ul class="space-y-1.5 text-gray-700 text-sm">
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '尖峰時段預備：依通話量熱區調整 SeaVoice 回覆策略與 SLA' : 'Peak preparedness: tune SeaVoice prompts and SLA via call‑volume heatmaps'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '降低放棄接通：調整開場白與選單引導，縮短首響時間' : 'Reduce abandonment: refine greeting and menu guidance to cut time‑to‑first‑response'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '提升轉換：搭配 inline 可訂位時段，優先推薦高供給時段' : 'Boost conversion: leverage inline availability to recommend high‑supply slots'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '跨渠道洞察：與 SeaChat 文字對話數據對照，統一知識庫口徑' : 'Cross‑channel insight: compare with SeaChat chat data; one shared knowledge base'}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Core Features Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          不只會聽會說，更是懂你業務的超級大腦
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          我們的語音AI服務，背後由強大的 SeaVoice 平台 驅動，它不僅僅是一個聊天機器人，更是您的AI營運中心。
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {coreFeatures.map((feature, index) => (
+          <div class="p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300">
+            <div class="text-green-600 mb-4">
+              {feature.icon === 'Brain' && (<Brain className="h-8 w-8" />)}
+              {feature.icon === 'Zap' && (<Zap className="h-8 w-8" />)}
+              {feature.icon === 'Users' && (<Users className="h-8 w-8" />)}
+              {feature.icon === 'Mic' && (<Mic className="h-8 w-8" />)}
+              {feature.icon === 'BarChart3' && (<BarChart3 className="h-8 w-8" />)}
+              {feature.icon === 'ShieldCheck' && (<ShieldCheck className="h-8 w-8" />)}
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">
+              {feature.title}
+            </h3>
+            <p class="text-gray-600">
+              {feature.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          效益清晰可見：為何您的企業現在就需要？
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          導入 Seasalt.ai LINE 語音AI服務，帶來的不只是效率提升，更是全面的商業價值。
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl border border-green-200 hover:shadow-lg transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+              <CircleDollarSign class="h-6 w-6 text-green-600" />
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900"> 大幅降低營運成本</h3>
+          </div>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>通話費節省：</strong> 顧客免費撥打更無憂，LINE Call Plus每分鐘較傳統電信費用更優惠。</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>人力成本釋放：</strong> 將80%重複性問題交給AI，讓真人客服專注於高價值的銷售與複雜客訴處理</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl border border-blue-200 hover:shadow-lg transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+              <TrendingUp class="h-6 w-6 text-blue-600" />
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900"> 有效提升營收轉換</h3>
+          </div>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>24/7商機捕獲：</strong> 全天候接聽電話，將非營業時間的每一通詢問都轉化為潛在訂單</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>通話即是粉絲：</strong> 來電顧客自動成為LINE好友，方便您進行後續的再行銷與優惠推播</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-gradient-to-br from-purple-50 to-white p-8 rounded-2xl border border-purple-200 hover:shadow-lg transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
+              <Star class="h-6 w-6 text-purple-600" />
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900"> 創造極致顧客體驗</h3>
+          </div>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>零等待時間：</strong> 告別惱人的客服等待音樂，每一通電話都能立即得到回應</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>顧客通話免費：</strong> 顧客透過LINE撥打完全免費，大幅提升致電意願</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>VIP專屬通道：</strong> 可設定VIP客戶來電時，跳過AI直接轉接專屬真人客服</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="bg-gradient-to-br from-orange-50 to-white p-8 rounded-2xl border border-orange-200 hover:shadow-lg transition-all duration-300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mr-4">
+              <Building2 class="h-6 w-6 text-orange-600" />
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900"> 強化品牌專業形象</h3>
+          </div>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>展現創新思維：</strong> 提供現代化、高效率的溝通管道，讓您的品牌在競爭對手中脫穎而出</span>
+            </li>
+            <li class="flex items-start">
+              <svg class="h-5 w-5 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-gray-700"><strong>溝通管道一致性：</strong> 在顧客最常使用的LINE平台上，提供無縫的文字與語音溝通體驗</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          常見問題 (FAQ)
+        </h2>
+      </div>
+      
+      <div class="space-y-6">
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex items-start mb-4">
+              <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                <span class="text-green-600 font-bold text-sm">Q1</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">
+                  我們公司已經有傳統的電話 IVR 系統，導入後能否共存？
+                </h3>
+                <p class="text-gray-700 leading-relaxed">
+                  絕對可以！Seasalt.ai 的方案具備高度彈性，能與您現有的 IVR 系統並行運作。您可以根據分流策略自由配置，例如，設定特定時段或特定需求的來電由 AI 處理。甚至可以為 VIP 客戶設定專屬通道，讓他們來電時能跳過 AI/IVR，直通真人專員，提供尊榮服務。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex items-start mb-4">
+              <div class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                <span class="text-blue-600 font-bold text-sm">Q2</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">
+                  尖峰時段電話量超大，AI 系統真的能扛住嗎？
+                </h3>
+                <p class="text-gray-700 leading-relaxed">
+                  這正是 AI 的強項所在！在客服高峰期，所有來電會先由 AI 語音助理接聽並進行第一線處理與分流。AI 能瞬間處理大量重複性問題（如訂位、查詢），僅將真正需要真人介入的高價值或複雜對話轉接給客服團隊。您還可以啟用「自動超時交還 AI」的混合模式，確保沒有任何一通電話被遺漏，大幅提升服務量能。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+          <div class="p-8">
+            <div class="flex items-start mb-4">
+              <div class="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                <span class="text-purple-600 font-bold text-sm">Q3</span>
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">
+                  我們除了 LINE，還有官網、Facebook 等多個客服管道，回覆口徑能保持一致嗎？
+                </h3>
+                <p class="text-gray-700 leading-relaxed">
+                  當然。Seasalt.ai 的核心理念就是「統一管理」。它能將來自 LINE、官方網站、Facebook Messenger 等多個渠道的對話，全部整合在一個統一的中台界面。您的團隊可以在同一個地方看到所有顧客訊息，並使用基於相同知識庫的 AI 進行回覆，確保無論顧客從哪個管道進來，都能獲得一致、準確的品牌體驗與回覆策略。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 關於 LINE Call Plus 與技術整合 -->
+        <div class="pt-4">
+          <h3 class="text-lg font-semibold text-gray-900 mb-4">關於 LINE Call Plus 與技術整合</h3>
+
+          <!-- Q4 -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 mb-6">
+            <div class="p-8">
+              <div class="flex items-start mb-4">
+                <div class="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                  <span class="text-emerald-600 font-bold text-sm">Q4</span>
+                </div>
+                <div>
+                  <h4 class="text-xl font-semibold text-gray-900 mb-3">
+                    導入 Seasalt.ai 的 AI 語音服務，需要採購特定的硬體設備嗎？
+                  </h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    不需要。Seasalt.ai 的服務是基於雲端的 SaaS 解決方案。您不需要為此購置任何額外的主機或硬體設備。我們處理了所有與 LINE Call Plus 串接所需的 SBC（Session Border Controller）與 VoIP Gateway 設定，您只需專注於在 SeaChat 平台上設定您的 AI 助理即可。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q5 -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 mb-6">
+            <div class="p-8">
+              <div class="flex items-start mb-4">
+                <div class="w-8 h-8 bg-cyan-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                  <span class="text-cyan-600 font-bold text-sm">Q5</span>
+                </div>
+                <div>
+                  <h4 class="text-xl font-semibold text-gray-900 mb-3">
+                    顧客通話的音質如何？會不會受到網路影響？
+                  </h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    LINE Call Plus 的通話品質主要取決於用戶端的網路連線狀況。LINE 已對語音通話進行優化，在穩定的網路環境（如 Wi‑Fi 或 4G/5G）下，通話品質清晰流暢。Seasalt.ai 端則確保 SeaVoice 的語音生成品質，提供自然順暢的對話體驗。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q6 -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 mb-6">
+            <div class="p-8">
+              <div class="flex items-start mb-4">
+                <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                  <span class="text-amber-600 font-bold text-sm">Q6</span>
+                </div>
+                <div>
+                  <h4 class="text-xl font-semibold text-gray-900 mb-3">
+                    我們可以指定 AI 助理接聽的電話號碼嗎？
+                  </h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    LINE Call Plus 透過官方帳號的「通話」按鈕發起網路來電，並不綁定傳統電話號碼。不過，Seasalt.ai 也提供傳統號碼的語音機器人服務，您可將既有市話或手機號碼轉接至 AI 助理，實現多管道語音自動化。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q7 -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 mb-8">
+            <div class="p-8">
+              <div class="flex items-start mb-4">
+                <div class="w-8 h-8 bg-rose-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                  <span class="text-rose-600 font-bold text-sm">Q7</span>
+                </div>
+                <div>
+                  <h4 class="text-xl font-semibold text-gray-900 mb-3">
+                    如果 AI 通話到一半斷線，該怎麼辦？
+                  </h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    SeaChat 平台會記錄每一通來電的完整對話歷史（包含語音轉文字）。若通話意外中斷，真人客服可在後台查看該顧客的來電紀錄與對話內容，並可視情況透過 LINE 訊息主動聯繫顧客，完成未竟的服務。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 關於 Seasalt.ai 平台與 AI 功能 -->
+        <div class="pt-2">
+          <h3 class="text-lg font-semibold text-gray-900 mb-4">關於 Seasalt.ai 平台與 AI 功能</h3>
+
+          <!-- Q8 -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 mb-6">
+            <div class="p-8">
+              <div class="flex items-start mb-4">
+                <div class="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                  <span class="text-indigo-600 font-bold text-sm">Q8</span>
+                </div>
+                <div>
+                  <h4 class="text-xl font-semibold text-gray-900 mb-3">
+                    訓練 AI 助理會不會很困難？需要多久才能上線？
+                  </h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    完全不會！SeaChat 以「無需程式背景」為核心設計理念。只要將常見問答、產品列表、服務流程等整理成 Excel 或 PDF，上傳至知識庫即可開始運作；最快 10 分鐘內即可完成第一版設定並開始測試。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q9 -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 mb-6">
+            <div class="p-8">
+              <div class="flex items-start mb-4">
+                <div class="w-8 h-8 bg-teal-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                  <span class="text-teal-600 font-bold text-sm">Q9</span>
+                </div>
+                <div>
+                  <h4 class="text-xl font-semibold text-gray-900 mb-3">
+                    AI 助理能理解多複雜的問題？會不會答非所問？
+                  </h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    我們的 AI 助理基於先進的大語言模型，具備良好的自然語言理解與脈絡記憶能力。您可透過優化知識庫與後台「檢視對話」機制持續調整，AI 會從修正中學習，回答的精準度會愈來愈高。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q10 -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 mb-6">
+            <div class="p-8">
+              <div class="flex items-start mb-4">
+                <div class="w-8 h-8 bg-fuchsia-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                  <span class="text-fuchsia-600 font-bold text-sm">Q10</span>
+                </div>
+                <div>
+                  <h4 class="text-xl font-semibold text-gray-900 mb-3">
+                    AI 語音助理的聲音可以客製化嗎？
+                  </h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    可以。Seasalt.ai 的 SeaVoice 支援 TTS 客製化，包含語速、語調與特定詞彙發音調整，協助您打造符合品牌形象的專屬聲音。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Q11 -->
+          <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+            <div class="p-8">
+              <div class="flex items-start mb-4">
+                <div class="w-8 h-8 bg-sky-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                  <span class="text-sky-600 font-bold text-sm">Q11</span>
+                </div>
+                <div>
+                  <h4 class="text-xl font-semibold text-gray-900 mb-3">
+                    導入後，如何評估 AI 助理的成效？
+                  </h4>
+                  <p class="text-gray-700 leading-relaxed">
+                    SeaChat 內建數據儀表板，能追蹤總來電/訊息量、熱門問題排行、AI 獨立處理比率、轉接真人次數等關鍵指標，協助您評估成效並持續優化服務流程。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-green-500 to-green-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+          準備好迎接 LINE 客服的革命了嗎？
+        </h2>
+        <p class="text-xl text-white opacity-90 mb-10 max-w-3xl mx-auto">
+          別再讓電話佔線和非營業時間成為您與顧客之間的距離。讓 Seasalt.ai 語音AI助理成為您最強大、最不知疲倦的24小時客服專家與超級業務員。
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+          <a
+            href={getMeetingUrl(lang)}
+            class="bg-white text-green-600 hover:bg-gray-50 px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl"
+          >
+            預約專人討論
+          </a>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-8 mt-8">
+          <div class="bg-white rounded-2xl shadow-lg p-6">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                <Mic className="h-6 w-6 text-blue-600" />
+              </div>
+              <h3 class="text-xl font-semibold text-gray-900">體驗 SeaVoice 語音技術</h3>
+            </div>
+            <p class="text-gray-700 text-left">
+              了解 SeaVoice 文字轉語音客製化後台，如何調整發音、語調與停頓，創造出獨一無二、最貼近真人的語音體驗。
+            </p>
+          </div>
+          
+          <div class="bg-white rounded-2xl shadow-lg p-6">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                <MessageCircle className="h-6 w-6 text-green-600" />
+              </div>
+              <h3 class="text-xl font-semibold text-gray-900">SeaVoice/SeaChat 平台導覽</h3>
+            </div>
+            <p class="text-gray-700 text-left">
+              深入了解 SeaChat 平台如何運作，從上傳知識到與真人客服協作，感受其強大且易用的功能。
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+</Layout>

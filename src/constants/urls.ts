@@ -7,8 +7,8 @@ export const HUBSPOT_DEMO_ZH_TW =
 // Helper function to get the appropriate meeting URL based on language
 export const getMeetingUrl = (language: string): string => {
   if (
-    language.toLowerCase() === "zh-CN" ||
-    language.toLowerCase() === "zh-TW"
+    language.toLowerCase() === "zh-cn" ||
+    language.toLowerCase() === "zh-tw"
   ) {
     return HUBSPOT_DEMO_ZH_TW;
   }
