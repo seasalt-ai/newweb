@@ -13,7 +13,8 @@ const { lang } = Astro.params;
 
 const seoTitle = 'LINE官方帳號一鍵通話，您的AI語音客服24小時自動上線';
 const seoDescription = '結合LINE Call Plus，SeaVoice讓您的客服從成本中心轉型為營收引擎。由最懂台灣人語氣的SeaVoice AI語音助理，為您處理企業資訊問答、AI語音信箱，甚至整合inline完成自動訂位。';
-const canonicalUrl = `http://127.0.0.1:4322/${lang}/channels/line-call-plus`;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+const isZh = lang === 'zh-TW' || lang === 'zh-CN';
 const breadcrumbs = [
   { name: '首頁', url: `/${lang}/` },
   { name: '渠道', url: `/${lang}/channels/` },
@@ -315,8 +316,7 @@ const coreFeatures = [
         <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
           <div class="flex items-center mb-4">
             <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
-              <AlertCircle class="h-6 w-6 text-red-600" />
-              </svg>
+              <AlertCircle className="h-6 w-6 text-red-600" />
             </div>
             <h3 class="text-xl font-semibold text-gray-900">無盡的等待音...然後掛斷</h3>
           </div>
@@ -326,8 +326,7 @@ const coreFeatures = [
         <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
           <div class="flex items-center mb-4">
             <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
-              <Clock class="h-6 w-6 text-red-600" />
-              </svg>
+              <Clock className="h-6 w-6 text-red-600" />
             </div>
             <h3 class="text-xl font-semibold text-gray-900">「非營業時間，請稍後再撥」</h3>
           </div>
@@ -337,8 +336,7 @@ const coreFeatures = [
         <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
           <div class="flex items-center mb-4">
             <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
-              <CircleDollarSign class="h-6 w-6 text-red-600" />
-              </svg>
+              <CircleDollarSign className="h-6 w-6 text-red-600" />
             </div>
             <h3 class="text-xl font-semibold text-gray-900">高昂的人力與時間成本</h3>
           </div>
@@ -348,8 +346,7 @@ const coreFeatures = [
         <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
           <div class="flex items-center mb-4">
             <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mr-4">
-              <RefreshCcw class="h-6 w-6 text-red-600" />
-              </svg>
+              <RefreshCcw className="h-6 w-6 text-red-600" />
             </div>
             <h3 class="text-xl font-semibold text-gray-900">重複問題的無限迴圈</h3>
           </div>
@@ -742,25 +739,25 @@ const coreFeatures = [
       <div class="mt-16 mb-12">
         <div class="text-center mb-6">
           <h3 class="text-2xl lg:text-3xl font-bold text-gray-900">
-  {(lang === 'zh-TW' || lang === 'zh-CN') ? 'LINE Call Plus 數據分析' : 'Analytics for Line Call Plus'}
+  {isZh ? 'LINE Call Plus 數據分析' : 'Analytics for Line Call Plus'}
 </h3>
           <p class="text-gray-600 mt-2">
-  {(lang === 'zh-TW' || lang === 'zh-CN') ? 'LINE Call Plus 統計完成資料（示意）' : 'LINE Call Plus analytics overview (sample)'}
+  {isZh ? 'LINE Call Plus 統計完成資料（示意）' : 'LINE Call Plus analytics overview (sample)'}
 </p>
         </div>
         <div class="bg-gradient-to-br from-green-50 to-white rounded-2xl border border-green-200 shadow-sm p-4 md:p-6">
           <div class="flex items-center justify-between gap-3 mb-4">
             <div class="text-xs text-gray-500">
-              {(lang === 'zh-TW' || lang === 'zh-CN') ? '統計完成資料：至 2025/09/30 止（示意）' : 'As of 2025/09/30 (sample data)'}
+              {isZh ? '統計完成資料：至 2025/09/30 止（示意）' : 'As of 2025/09/30 (sample data)'}
             </div>
             <div class="flex items-center gap-2">
               <button type="button" class="inline-flex items-center px-3 py-1.5 rounded-lg bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 text-xs md:text-sm shadow-sm">
                 <Calendar className="h-4 w-4 text-gray-500" />
-                <span class="ml-2">{(lang === 'zh-TW' || lang === 'zh-CN') ? '選擇期間' : 'Date range'}</span>
+                <span class="ml-2">{isZh ? '選擇期間' : 'Date range'}</span>
               </button>
               <button type="button" class="inline-flex items-center px-3 py-1.5 rounded-lg bg-green-600 text-white hover:bg-green-700 text-xs md:text-sm shadow-sm">
                 <Download className="h-4 w-4 text-white/90" />
-                <span class="ml-2">{(lang === 'zh-TW' || lang === 'zh-CN') ? '下載報表 (CSV)' : 'Download CSV'}</span>
+                <span class="ml-2">{isZh ? '下載報表 (CSV)' : 'Download CSV'}</span>
               </button>
             </div>
           </div>
@@ -785,24 +782,24 @@ const coreFeatures = [
           <div class="grid md:grid-cols-2 gap-6 mt-6">
             <div>
               <h4 class="text-base font-semibold text-gray-900 mb-2">
-  {(lang === 'zh-TW' || lang === 'zh-CN') ? '追蹤指標與意義' : 'Key metrics and meanings'}
+  {isZh ? '追蹤指標與意義' : 'Key metrics and meanings'}
 </h4>
               <ul class="space-y-1.5 text-gray-700 text-sm">
-                <li class="flex"><span class="text-green-500 mr-2">•</span>{(lang === 'zh-TW' || lang === 'zh-CN') ? '不重複用戶：過去 7/30 天的獨立來電者，衡量觸及面與新客比重' : 'Unique callers (7/30 days): reach and new‑customer mix'}</li>
-                <li class="flex"><span class="text-green-500 mr-2">•</span>{(lang === 'zh-TW' || lang === 'zh-CN') ? '通話：總通話量與趨勢，評估電話需求波動與行銷活動成效' : 'Calls (7/30 days): volume and trendlines for demand and campaign impact'}</li>
-                <li class="flex"><span class="text-green-500 mr-2">•</span>{(lang === 'zh-TW' || lang === 'zh-CN') ? '放棄接通：顧客未接通即離開的次數，用於優化流程與話術' : 'Abandoned before connect: left pre‑connection; optimize flow and greeting'}</li>
-                <li class="flex"><span class="text-green-500 mr-2">•</span>{(lang === 'zh-TW' || lang === 'zh-CN') ? '通話時間：平均/總時長與同期變化，反映問題複雜度與處理效率' : 'Call duration: average/total and deltas indicating complexity and efficiency'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '不重複用戶：過去 7/30 天的獨立來電者，衡量觸及面與新客比重' : 'Unique callers (7/30 days): reach and new‑customer mix'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '通話：總通話量與趨勢，評估電話需求波動與行銷活動成效' : 'Calls (7/30 days): volume and trendlines for demand and campaign impact'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '放棄接通：顧客未接通即離開的次數，用於優化流程與話術' : 'Abandoned before connect: left pre‑connection; optimize flow and greeting'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '通話時間：平均/總時長與同期變化，反映問題複雜度與處理效率' : 'Call duration: average/total and deltas indicating complexity and efficiency'}</li>
               </ul>
             </div>
             <div>
               <h4 class="text-base font-semibold text-gray-900 mb-2">
-  {(lang === 'zh-TW' || lang === 'zh-CN') ? '如何用於營運優化' : 'How to operationalize insights'}
+  {isZh ? '如何用於營運優化' : 'How to operationalize insights'}
 </h4>
               <ul class="space-y-1.5 text-gray-700 text-sm">
-                <li class="flex"><span class="text-green-500 mr-2">•</span>{(lang === 'zh-TW' || lang === 'zh-CN') ? '尖峰時段預備：依通話量熱區調整 SeaVoice 回覆策略與 SLA' : 'Peak preparedness: tune SeaVoice prompts and SLA via call‑volume heatmaps'}</li>
-                <li class="flex"><span class="text-green-500 mr-2">•</span>{(lang === 'zh-TW' || lang === 'zh-CN') ? '降低放棄接通：調整開場白與選單引導，縮短首響時間' : 'Reduce abandonment: refine greeting and menu guidance to cut time‑to‑first‑response'}</li>
-                <li class="flex"><span class="text-green-500 mr-2">•</span>{(lang === 'zh-TW' || lang === 'zh-CN') ? '提升轉換：搭配 inline 可訂位時段，優先推薦高供給時段' : 'Boost conversion: leverage inline availability to recommend high‑supply slots'}</li>
-                <li class="flex"><span class="text-green-500 mr-2">•</span>{(lang === 'zh-TW' || lang === 'zh-CN') ? '跨渠道洞察：與 SeaChat 文字對話數據對照，統一知識庫口徑' : 'Cross‑channel insight: compare with SeaChat chat data; one shared knowledge base'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '尖峰時段預備：依通話量熱區調整 SeaVoice 回覆策略與 SLA' : 'Peak preparedness: tune SeaVoice prompts and SLA via call‑volume heatmaps'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '降低放棄接通：調整開場白與選單引導，縮短首響時間' : 'Reduce abandonment: refine greeting and menu guidance to cut time‑to‑first‑response'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '提升轉換：搭配 inline 可訂位時段，優先推薦高供給時段' : 'Boost conversion: leverage inline availability to recommend high‑supply slots'}</li>
+                <li class="flex"><span class="text-green-500 mr-2">•</span>{isZh ? '跨渠道洞察：與 SeaChat 文字對話數據對照，統一知識庫口徑' : 'Cross‑channel insight: compare with SeaChat chat data; one shared knowledge base'}</li>
               </ul>
             </div>
           </div>
