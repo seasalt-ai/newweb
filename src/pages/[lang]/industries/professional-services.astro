@@ -1,0 +1,40 @@
+---
+import IndustryPageTemplate from '../../../components/IndustryPageTemplate.astro';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
+
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const industryData = {
+  title: t('industriesData.professional.title'),
+  headline: t('industriesData.professional.headline'),
+  benefits: [
+    t('industriesData.professional.benefits.0'),
+    t('industriesData.professional.benefits.1'),
+    t('industriesData.professional.benefits.2'),
+    t('industriesData.professional.benefits.3')
+  ],
+  color: 'text-gray-600',
+  bgColor: 'bg-gray-50',
+  borderColor: 'border-gray-200',
+  iconName: 'briefcase',
+  slug: 'professional-services'
+};
+---
+
+<IndustryPageTemplate
+  title={industryData.title}
+  headline={industryData.headline}
+  benefits={industryData.benefits}
+  color={industryData.color}
+  bgColor={industryData.bgColor}
+  borderColor={industryData.borderColor}
+  iconName={industryData.iconName}
+  slug={industryData.slug}
+  lang={currentLang}
+/>

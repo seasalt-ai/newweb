@@ -1,0 +1,120 @@
+import React, { useState, useEffect } from 'react';
+import { MessageSquare, Phone, MessageCircle, Megaphone } from 'lucide-react';
+
+interface AppIcon {
+  name: string;
+  color: string;
+  displayName: string;
+}
+
+interface HeroAnimationProps {
+  appIcons: AppIcon[];
+  unifiedInboxText: string;
+}
+
+const HeroAnimation: React.FC<HeroAnimationProps> = ({ appIcons, unifiedInboxText }) => {
+  const [animationPhase, setAnimationPhase] = useState(0);
+  const [isHovered, setIsHovered] = useState(false);
+
+  useEffect(() => {
+    if (!isHovered) {
+      const interval = setInterval(() => {
+        setAnimationPhase((prev) => (prev + 1) % 4);
+      }, 2000);
+      return () => clearInterval(interval);
+    }
+  }, [isHovered]);
+
+  const appIconsWithLucide = [
+    { icon: MessageCircle, color: 'text-green-500', name: appIcons[0]?.displayName || 'WhatsApp' },
+    { icon: MessageSquare, color: 'text-blue-500', name: appIcons[1]?.displayName || 'SMS' },
+    { icon: Phone, color: 'text-purple-500', name: appIcons[2]?.displayName || 'Phone' },
+    { icon: MessageSquare, color: 'text-orange-500', name: appIcons[3]?.displayName || 'Chat' }
+  ];
+
+  return (
+    <div 
+      className="relative h-96 mb-16 flex items-center justify-center cursor-pointer"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {/* Scattered App Icons */}
+      {appIconsWithLucide.map((app, index) => {
+        const Icon = app.icon;
+        return (
+          <div
+            key={index}
+            className={`absolute transition-all duration-1000 ease-in-out ${
+              animationPhase >= 2 ? 'opacity-0 scale-0' : 'opacity-100 scale-100'
+            }`}
+            style={{
+              transform: animationPhase === 0 
+                ? `translate(${Math.cos(index * Math.PI / 2) * 150}px, ${Math.sin(index * Math.PI / 2) * 150}px)`
+                : animationPhase === 1
+                ? `translate(${Math.cos(index * Math.PI / 2) * 75}px, ${Math.sin(index * Math.PI / 2) * 75}px)`
+                : 'translate(0px, 0px)'
+            }}
+          >
+            <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center hover:shadow-xl transition-shadow duration-300">
+              <Icon className={`h-8 w-8 ${app.color}`} />
+            </div>
+            <div className="text-center mt-2">
+              <span className="text-sm font-medium text-gray-600">{app.name}</span>
+            </div>
+          </div>
+        );
+      })}
+
+      {/* Central Unified Inbox */}
+      <div 
+        className={`absolute transition-all duration-1000 ease-in-out ${
+          animationPhase >= 2 ? 'opacity-100 scale-110' : 'opacity-0 scale-0'
+        }`}
+      >
+        <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-3xl shadow-2xl flex items-center justify-center">
+          <Megaphone className="h-12 w-12 text-white" />
+        </div>
+        <div className="text-center mt-4">
+          <span className="text-lg font-semibold text-gray-800">{unifiedInboxText}</span>
+        </div>
+      </div>
+
+      {/* Connection Lines */}
+      {animationPhase === 1 && (
+        <>
+          {[0, 1, 2, 3].map((index) => (
+            <div
+              key={index}
+              className="absolute w-px bg-gradient-to-r from-transparent via-blue-400 to-transparent opacity-60 animate-pulse"
+              style={{
+                height: '75px',
+                transform: `rotate(${index * 90}deg)`,
+                transformOrigin: 'bottom center'
+              }}
+            ></div>
+          ))}
+        </>
+      )}
+
+      {/* Floating Particles */}
+      {animationPhase >= 2 && (
+        <>
+          {[...Array(8)].map((_, index) => (
+            <div
+              key={index}
+              className="absolute w-2 h-2 bg-blue-400 rounded-full opacity-60 animate-bounce"
+              style={{
+                left: `${20 + index * 10}%`,
+                top: `${30 + (index % 3) * 20}%`,
+                animationDelay: `${index * 0.2}s`,
+                animationDuration: '2s'
+              }}
+            ></div>
+          ))}
+        </>
+      )}
+    </div>
+  );
+};
+
+export default HeroAnimation;

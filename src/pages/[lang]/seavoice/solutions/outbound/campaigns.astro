@@ -1,0 +1,542 @@
+---
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
+import Layout from '../../../../../layouts/Layout.astro';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// Extract language from params and validate it
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translation helpers
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO data for Large Scale Campaigns page
+const seoTitle = t('seavoice.pages.solutions.outbound.largeScaleCampaigns.hero.title') || 'Large Scale Outbound Campaigns - AI Voice Marketing at Scale | SeaVoice';
+const seoDescription = t('seavoice.pages.solutions.outbound.largeScaleCampaigns.hero.description') || 'Execute massive voice campaigns that reach thousands of customers simultaneously. From product launches to emergency notifications, deliver personalized messages at unprecedented scale with AI-powered efficiency.';
+const seoKeywords = 'mass campaigns, outbound marketing, voice marketing, AI campaigns, bulk voice calls, marketing automation, large scale campaigns, SeaVoice';
+
+// Breadcrumbs for SEO
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound` },
+  { name: 'Large Scale Campaigns' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.faq.q1') || 'How many calls can a campaign handle?',
+    answer: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.faq.a1') || 'SeaVoice scales to thousands of concurrent calls with real-time analytics and pacing controls.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.faq.q2') || 'Can messages be personalized?',
+    answer: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.faq.a2') || 'Yes. Campaigns support dynamic fields, segment rules, and context-aware scripts.'
+  }
+];
+
+// Service structured data
+const serviceData = {
+  serviceType: 'AI-Powered Mass Voice Campaigns',
+  provider: 'SeaVoice by Seasalt.ai',
+  areaServed: 'Global',
+  availableChannel: ['Voice', 'Phone', 'AI Assistant'],
+  hoursAvailable: {
+    opens: '00:00',
+    closes: '23:59',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+  },
+  offers: [
+    {
+      name: 'Mass Communication',
+      description: 'Reach thousands of customers simultaneously with personalized voice messages',
+    },
+    {
+      name: 'Audience Segmentation',
+      description: 'Target specific customer segments with tailored messages and timing'
+    },
+    {
+      name: 'Real-Time Analytics',
+      description: 'Monitor campaign performance and optimize in real-time for better results'
+    }
+  ]
+};
+
+// 功能數據
+const features = [
+  {
+    icon: 'megaphone',
+    title: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.massCommunication.title'),
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.massCommunication.description'),
+    benefits: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.massCommunication.benefit1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.massCommunication.benefit2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.massCommunication.benefit3')
+    ]
+  },
+  {
+    icon: 'users',
+    title: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.audienceSegmentation.title'),
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.audienceSegmentation.description'),
+    benefits: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.audienceSegmentation.benefit1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.audienceSegmentation.benefit2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.audienceSegmentation.benefit3')
+    ]
+  },
+  {
+    icon: 'chart',
+    title: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.realTimeAnalytics.title'),
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.realTimeAnalytics.description'),
+    benefits: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.realTimeAnalytics.benefit1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.realTimeAnalytics.benefit2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.realTimeAnalytics.benefit3')
+    ]
+  }
+];
+
+// 活動類型數據
+const campaignTypes = [
+  {
+    type: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.type'),
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.description'),
+    examples: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.example1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.example2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.example3')
+    ],
+    metrics: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.metric1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.metric2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.productAnnouncements.metric3')
+    ]
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.type'),
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.description'),
+    examples: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.example1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.example2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.example3')
+    ],
+    metrics: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.metric1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.metric2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.emergencyNotifications.metric3')
+    ]
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.type'),
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.description'),
+    examples: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.example1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.example2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.example3')
+    ],
+    metrics: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.metric1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.metric2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.marketingCampaigns.metric3')
+    ]
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.type'),
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.description'),
+    examples: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.example1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.example2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.example3')
+    ],
+    metrics: [
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.metric1'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.metric2'),
+      t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.surveyResearch.metric3')
+    ]
+  }
+];
+
+// 效益數據
+const benefits = [
+  { 
+    metric: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric1.value'), 
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric1.description') 
+  },
+  { 
+    metric: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric2.value'), 
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric2.description') 
+  },
+  { 
+    metric: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric3.value'), 
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric3.description') 
+  },
+  { 
+    metric: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric4.value'), 
+    description: t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.metric4.description') 
+  }
+];
+
+// 擴展能力數據
+const scalingCapabilities = [
+  t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability1'),
+  t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability2'),
+  t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability3'),
+  t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability4'),
+  t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability5'),
+  t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.capability6')
+];
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  type="service"
+service={serviceData}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+  headerVersion="seavoice"
+  footerVersion="seavoice"
+>
+  <div class="min-h-screen bg-white">
+    
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-indigo-50 via-white to-purple-50 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center animate-fade-up">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path>
+            </svg>
+          </div>
+          <h1 class="text-5xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.hero.title')}
+          </h1>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.hero.description')}
+          </p>
+          <button class="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors hover:scale-105 transition-transform">
+            {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.hero.cta')}
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-up">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.features.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {features.map((feature, index) => (
+            <div 
+              class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow animate-fade-up"
+              style={`animation-delay: ${index * 200}ms`}
+            >
+              <div class="w-12 h-12 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg flex items-center justify-center mb-6">
+                {feature.icon === 'megaphone' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'users' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'chart' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                  </svg>
+                )}
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+              <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+              <div class="space-y-2">
+                {feature.benefits.map((benefit) => (
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span class="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Campaign Types -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-up">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {campaignTypes.map((campaign, index) => (
+            <div 
+              class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 animate-fade-up"
+              style={`animation-delay: ${index * 100}ms`}
+            >
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{campaign.type}</h3>
+              <p class="text-gray-600 mb-6">{campaign.description}</p>
+              
+              <div class="mb-6">
+                <h4 class="font-semibold text-gray-900 text-sm mb-3">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.commonExamples')}</h4>
+                <div class="space-y-1">
+                  {campaign.examples.map((example) => (
+                    <div class="flex items-center">
+                      <div class="w-1.5 h-1.5 bg-indigo-600 rounded-full mr-2"></div>
+                      <span class="text-sm text-gray-700">{example}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              
+              <div class="p-4 bg-indigo-50 rounded-lg">
+                <h4 class="font-semibold text-indigo-900 text-sm mb-2">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.campaignTypes.performanceMetrics')}</h4>
+                <div class="space-y-1">
+                  {campaign.metrics.map((metric) => (
+                    <p class="text-xs text-indigo-800">{metric}</p>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Scaling Capabilities -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="animate-fade-right">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.title')}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.description')}
+            </p>
+            <div class="space-y-6">
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-indigo-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.globalInfrastructure.title')}</h3>
+                  <p class="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.globalInfrastructure.description')}</p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-indigo-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.highSpeedExecution.title')}</h3>
+                  <p class="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.highSpeedExecution.description')}</p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-indigo-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.realTimeMonitoring.title')}</h3>
+                  <p class="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.realTimeMonitoring.description')}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 animate-fade-left">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.capabilities.title')}</h3>
+            <div class="grid grid-cols-1 gap-3">
+              {scalingCapabilities.map((capability) => (
+                <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                  <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span class="text-gray-700 font-medium">{capability}</span>
+                </div>
+              ))}
+            </div>
+            
+            <div class="mt-6 p-4 bg-white rounded-lg">
+              <h4 class="font-semibold text-gray-900 mb-2">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.title')}</h4>
+              <div class="space-y-2">
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.activeCalls')}</span>
+                  <span class="font-semibold text-indigo-600">8,547</span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.completionRate')}</span>
+                  <span class="font-semibold text-green-600">94.2%</span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-600">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.scaling.dashboard.responseRate')}</span>
+                  <span class="font-semibold text-blue-600">67.8%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Metrics -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-up">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.benefits.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {benefits.map((benefit, index) => (
+            <div 
+              class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200 animate-fade-up"
+              style={`animation-delay: ${index * 100}ms`}
+            >
+              <div class="text-4xl font-bold text-indigo-600 mb-4">{benefit.metric}</div>
+              <p class="text-gray-600">{benefit.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="animate-fade-up">
+          <h2 class="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.outbound.largeScaleCampaigns.cta.title')}</h2>
+          <p class="text-xl mb-8 opacity-90">
+            {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.cta.description')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button class="bg-white text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors hover:scale-105 transition-transform">
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.cta.primaryButton')}
+            </button>
+            <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-indigo-600 transition-colors hover:scale-105 transition-transform">
+              {t('seavoice.pages.solutions.outbound.largeScaleCampaigns.cta.secondaryButton')}
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- CSS 動畫 -->
+  <style>
+    @keyframes fade-up {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fade-right {
+      from {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fade-left {
+      from {
+        opacity: 0;
+        transform: translateX(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .animate-fade-up {
+      animation: fade-up 0.8s ease-out forwards;
+      opacity: 0;
+    }
+
+    .animate-fade-right {
+      animation: fade-right 0.8s ease-out forwards;
+      opacity: 0;
+    }
+
+    .animate-fade-left {
+      animation: fade-left 0.8s ease-out 0.2s forwards;
+      opacity: 0;
+    }
+
+    /* 觸發滾動時的動畫 */
+    @media (prefers-reduced-motion: no-preference) {
+      .animate-fade-up {
+        animation-play-state: paused;
+      }
+      
+      .animate-fade-up.animate {
+        animation-play-state: running;
+      }
+    }
+  </style>
+
+  <!-- JavaScript 用於滾動觸發動畫 -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -100px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate');
+          }
+        });
+      }, observerOptions);
+
+      // 觀察所有需要動畫的元素
+      document.querySelectorAll('.animate-fade-up, .animate-fade-right, .animate-fade-left').forEach(el => {
+        observer.observe(el);
+      });
+    });
+  </script>
+</Layout>

@@ -1,0 +1,878 @@
+---
+import { defaultLang, languages } from '../i18n/helpers';
+import { SCHEMA_IDS, ORGANIZATION_INFO, PRODUCTS_INFO, getLocalizedProductInfo, getLocalizedOrganizationDescription, type ProductKey } from '../config/schemaData';
+import { getProductKeyFromPath } from '../utils/schemaGenerator';
+
+interface Props {
+  title?: string;
+  description?: string;
+  keywords?: string;
+  image?: string;
+  canonical?: string;
+  lang?: string;
+  type?: 'website' | 'article' | 'product' | 'software' | 'service' | 'organization' | 'person' | 'event' | 'course' | 'book' | 'movie' | 'music' | 'recipe' | 'faq';
+  
+  // SEO Control
+  noindex?: boolean;
+  nofollow?: boolean;
+  noarchive?: boolean;
+  nosnippet?: boolean;
+  noimageindex?: boolean;
+  maxSnippet?: number;
+  maxImagePreview?: 'none' | 'standard' | 'large';
+  maxVideoPreview?: number;
+  
+  // Multi-language support
+  alternateUrls?: Record<string, string>;
+  
+  // Structured data
+  article?: {
+    publishedTime?: string;
+    modifiedTime?: string;
+    author?: string;
+    section?: string;
+    tags?: string[];
+    estimatedReadingTime?: number;
+  };
+  
+  product?: {
+    brand?: string;
+    category?: string;
+    sku?: string;
+    gtin?: string;
+    price?: string;
+    currency?: string;
+    availability?: 'InStock' | 'OutOfStock' | 'PreOrder' | 'BackOrder' | 'Discontinued';
+    condition?: 'New' | 'Used' | 'Refurbished' | 'Damaged';
+  };
+  
+  software?: {
+    applicationCategory?: string;
+    operatingSystem?: string;
+    downloadUrl?: string;
+    version?: string;
+    fileSize?: string;
+    requirements?: string;
+    price?: string;
+    currency?: string;
+  };
+  
+  service?: {
+    serviceType?: string;
+    provider?: string;
+    areaServed?: string;
+    availableChannel?: string[];
+    hoursAvailable?: {
+      opens?: string;
+      closes?: string;
+      dayOfWeek?: string[];
+    };
+    offers?: Array<{
+      name?: string;
+      description?: string;
+      price?: string;
+      priceCurrency?: string;
+      priceSpecification?: {
+        price?: string;
+        priceCurrency?: string;
+        unitCode?: string;
+      };
+    }>;
+    // Legacy single price support
+    price?: string;
+    currency?: string;
+  };
+  
+  event?: {
+    startDate?: string;
+    endDate?: string;
+    location?: {
+      name?: string;
+      address?: string;
+      latitude?: number;
+      longitude?: number;
+    };
+    organizer?: string;
+    price?: string;
+    currency?: string;
+  };
+  
+  person?: {
+    name?: string;
+    jobTitle?: string;
+    worksFor?: string;
+    email?: string;
+    telephone?: string;
+    address?: string;
+    sameAs?: string[];
+  };
+  
+  course?: {
+    name?: string;
+    description?: string;
+    provider?: string;
+    courseCode?: string;
+    hasCourseInstance?: {
+      startDate?: string;
+      endDate?: string;
+      courseMode?: string;
+    };
+  };
+  
+  rating?: {
+    value: number;
+    count: number;
+    bestRating?: number;
+    worstRating?: number;
+  };
+  
+  organization?: {
+    name?: string;
+    alternateName?: string;
+    url?: string;
+    logo?: string;
+    sameAs?: string[];
+    contactPoint?: {
+      telephone?: string;
+      email?: string;
+      contactType?: string;
+      availableLanguage?: string[];
+      areaServed?: string;
+    };
+    address?: {
+      streetAddress?: string;
+      addressLocality?: string;
+      addressRegion?: string;
+      postalCode?: string;
+      addressCountry?: string;
+    };
+  };
+  
+  video?: {
+    name?: string;
+    description?: string;
+    thumbnailUrl?: string;
+    uploadDate?: string;
+    duration?: string;
+    contentUrl?: string;
+    embedUrl?: string;
+    transcript?: string;
+  };
+  
+  faqs?: Array<{
+    question: string;
+    answer: string;
+  }>;
+  
+  breadcrumbs?: Array<{
+    name: string;
+    url?: string;
+  }>;
+  
+  images?: Array<{
+    url: string;
+    alt?: string;
+    width?: number;
+    height?: number;
+  }>;
+  
+  geo?: {
+    latitude: number;
+    longitude: number;
+  };
+  
+  // Social Media
+  twitterCard?: 'summary' | 'summary_large_image' | 'app' | 'player';
+  twitterSite?: string;
+  twitterCreator?: string;
+  
+  // Custom meta tags
+  customMeta?: Array<{
+    name?: string;
+    property?: string;
+    content: string;
+  }>;
+  
+  // Website verification
+  googleSiteVerification?: string;
+  bingSiteVerification?: string;
+  yandexVerification?: string;
+  pinterestVerification?: string;
+  
+  // Analytics and tracking
+  googleAnalytics?: string;
+  googleTagManager?: string;
+  facebookPixel?: string;
+  
+  // RSS and Feeds
+  rssFeeds?: Array<{
+    title: string;
+    url: string;
+    type?: string;
+  }>;
+  
+  // Security
+  contentSecurityPolicy?: string;
+  
+  // PWA
+  themeColor?: string;
+  backgroundColor?: string;
+  manifestUrl?: string;
+  
+  // Custom JSON-LD
+  customJsonLd?: Record<string, any>[];
+}
+
+const {
+  title = 'SeaSalt.ai - AI-Powered Omnichannel Customer Communication Platform',
+  description = 'Transform your customer communications with SeaSalt.ai\'s AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.',
+  keywords = 'AI customer service, omnichannel platform, WhatsApp business, customer support software, contact center solutions, conversational AI, customer communication',
+  image = '/seasalt-ai-logo.png',
+  canonical,
+  lang = defaultLang,
+  type = 'website',
+  noindex = false,
+  nofollow = false,
+  noarchive = false,
+  nosnippet = false,
+  noimageindex = false,
+  maxSnippet,
+  maxImagePreview = 'large',
+  maxVideoPreview,
+  alternateUrls,
+  article,
+  product,
+  software,
+  service,
+  event,
+  person,
+  course,
+  faqs,
+  breadcrumbs,
+  rating,
+  organization,
+  video,
+  images,
+  geo,
+  twitterCard = 'summary_large_image',
+  twitterSite = '@seasalt_ai',
+  twitterCreator = '@seasalt_ai',
+  customMeta = [],
+  googleSiteVerification,
+  bingSiteVerification,
+  yandexVerification,
+  pinterestVerification,
+  googleAnalytics,
+  googleTagManager,
+  facebookPixel,
+  rssFeeds = [],
+  contentSecurityPolicy,
+  themeColor = '#0EA5E9',
+  backgroundColor = '#ffffff',
+  manifestUrl = '/site.webmanifest',
+  customJsonLd = []
+} = Astro.props;
+
+// URL processing
+// Support relative canonical URLs by resolving against the current page URL
+const currentUrl = canonical ? new URL(canonical, Astro.url) : Astro.url;
+const baseUrl = `${currentUrl.protocol}//${currentUrl.host}`;
+const canonicalUrl = canonical ? new URL(canonical, Astro.url).href : Astro.url.href;
+
+// Safe image URL handling
+const safeImage = image || '/seasalt-ai-logo.png';
+const absoluteImageUrl = (safeImage && safeImage.startsWith && safeImage.startsWith('http')) 
+  ? safeImage 
+  : `${baseUrl}${safeImage}`;
+
+// Multi-language support - generate hreflang links
+const alternateLinks = alternateUrls ? 
+  Object.entries(alternateUrls).map(([langCode, url]) => ({
+    lang: langCode,
+    url: url.startsWith('http') ? url : `${baseUrl}${url}`
+  })) :
+  // Auto-generate from current URL if not provided
+  Object.keys(languages).map(langCode => {
+    const langPath = langCode === defaultLang ? '' : `/${langCode}`;
+    const alternatePath = currentUrl.pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?/i, '');
+    return {
+      lang: langCode,
+      url: `${baseUrl}${langPath}${alternatePath}${currentUrl.search}`,
+    };
+  });
+
+// Robots settings
+const robotsDirectives = [
+  noindex ? 'noindex' : 'index',
+  nofollow ? 'nofollow' : 'follow',
+  ...(noarchive ? ['noarchive'] : []),
+  ...(nosnippet ? ['nosnippet'] : []),
+  ...(noimageindex ? ['noimageindex'] : []),
+  ...(maxSnippet ? [`max-snippet:${maxSnippet}`] : []),
+  ...(maxImagePreview ? [`max-image-preview:${maxImagePreview}`] : []),
+  ...(maxVideoPreview ? [`max-video-preview:${maxVideoPreview}`] : [])
+];
+const robotsContent = robotsDirectives.join(',');
+
+// Structured data generation
+const getStructuredDataType = (type: string) => {
+  const typeMap = {
+    'website': 'WebSite',
+    'article': 'Article',
+    'product': 'Product',
+    'software': 'SoftwareApplication',
+    'service': 'Service',
+    'organization': 'Organization',
+    'person': 'Person',
+    'event': 'Event',
+    'course': 'Course',
+    'book': 'Book',
+    'movie': 'Movie',
+    'music': 'MusicRecording',
+    'recipe': 'Recipe',
+    'faq': 'FAQPage'
+  };
+  return typeMap[type as keyof typeof typeMap] || 'WebPage';
+};
+
+const baseStructuredData = {
+  "@context": "https://schema.org",
+  "@type": getStructuredDataType(type),
+  "name": title,
+  "description": description,
+  "url": canonicalUrl,
+  "image": absoluteImageUrl,
+  "inLanguage": lang,
+};
+
+// Website metadata
+if (type === 'website') {
+  baseStructuredData["@id"] = SCHEMA_IDS.WEBSITE;
+  // Use all supported languages for site-level inLanguage
+  baseStructuredData.inLanguage = Object.keys(languages);
+  // Link publisher organization if available
+  baseStructuredData.publisher = { "@id": SCHEMA_IDS.ORGANIZATION };
+}
+
+// Rating data
+if (rating) {
+  baseStructuredData.aggregateRating = {
+    "@type": "AggregateRating",
+    "ratingValue": rating.value,
+    "ratingCount": rating.count,
+    "bestRating": rating.bestRating || 5,
+    "worstRating": rating.worstRating || 1
+  };
+}
+
+// Geographic location
+if (geo) {
+  baseStructuredData.geo = {
+    "@type": "GeoCoordinates",
+    "latitude": geo.latitude,
+    "longitude": geo.longitude
+  };
+}
+
+const structuredDataArray = [baseStructuredData];
+
+// Organization data (richer defaults)
+const organizationData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": SCHEMA_IDS.ORGANIZATION,
+  "name": organization?.name || ORGANIZATION_INFO.name,
+  "alternateName": organization?.alternateName || ORGANIZATION_INFO.alternateName,
+  "description": organization?.description || getLocalizedOrganizationDescription(lang),
+  "url": organization?.url || ORGANIZATION_INFO.url,
+  "logo": {
+    "@type": "ImageObject",
+    "url": (organization?.logo && organization.logo.startsWith('http'))
+      ? organization.logo
+      : (ORGANIZATION_INFO.logo.url || `${baseUrl}${organization?.logo || '/seasalt-ai-logo.png'}`),
+    "width": ORGANIZATION_INFO.logo.width || 1200,
+    "height": ORGANIZATION_INFO.logo.height || 630
+  },
+  "sameAs": organization?.sameAs || ORGANIZATION_INFO.sameAs,
+  "foundingDate": ORGANIZATION_INFO.foundingDate,
+};
+
+// ContactPoint
+organizationData.contactPoint = {
+  "@type": "ContactPoint",
+  "email": organization?.contactPoint?.email || ORGANIZATION_INFO.contactPoint.email,
+  ...(organization?.contactPoint?.telephone && { "telephone": organization.contactPoint.telephone }),
+  "contactType": organization?.contactPoint?.contactType || "customer service",
+  "availableLanguage": organization?.contactPoint?.availableLanguage || ORGANIZATION_INFO.contactPoint.availableLanguage,
+};
+
+// Address
+if (organization?.address || ORGANIZATION_INFO.address) {
+  organizationData.address = {
+    "@type": "PostalAddress",
+    ...(ORGANIZATION_INFO.address || {}),
+    ...(organization?.address || {})
+  };
+}
+
+// Market coverage - structured format
+organizationData.areaServed = ORGANIZATION_INFO.areaServed.map(countryCode => ({
+  "@type": "Country",
+  "identifier": countryCode
+}));
+
+// Available languages - structured format
+organizationData.availableLanguage = ORGANIZATION_INFO.availableLanguage.map(langCode => ({
+  "@type": "Language",
+  "name": langCode
+}));
+
+structuredDataArray.push(organizationData);
+
+// Article data
+if (type === 'article' && article) {
+  const articleData = {
+    ...baseStructuredData,
+    "@type": "Article",
+    "headline": title,
+    "datePublished": article.publishedTime,
+    "dateModified": article.modifiedTime || article.publishedTime,
+    "author": {
+      "@type": "Organization",
+      "name": article.author || "SeaSalt.ai"
+    },
+    "publisher": organizationData,
+    "articleSection": article.section,
+    "keywords": article.tags,
+    "wordCount": article.estimatedReadingTime ? article.estimatedReadingTime * 200 : undefined,
+    "timeRequired": article.estimatedReadingTime ? `PT${article.estimatedReadingTime}M` : undefined
+  };
+  structuredDataArray[0] = articleData;
+}
+
+// Product data
+if (type === 'product' && product) {
+  const productData = {
+    ...baseStructuredData,
+    "@type": "Product",
+    "brand": product.brand ? { "@type": "Brand", "name": product.brand } : undefined,
+    "category": product.category,
+    "sku": product.sku,
+    "gtin": product.gtin,
+    "offers": product.price ? {
+      "@type": "Offer",
+      "price": product.price,
+      "priceCurrency": product.currency || "USD",
+      "availability": `https://schema.org/${product.availability || 'InStock'}`,
+      "itemCondition": `https://schema.org/${product.condition || 'New'}Condition`
+    } : undefined
+  };
+  structuredDataArray[0] = productData;
+}
+
+// Software data
+if (type === 'software' && software) {
+  const softwareData = {
+    ...baseStructuredData,
+    "@type": "SoftwareApplication",
+    "applicationCategory": software.applicationCategory,
+    "operatingSystem": software.operatingSystem,
+    "downloadUrl": software.downloadUrl,
+    "softwareVersion": software.version,
+    "fileSize": software.fileSize,
+    "softwareRequirements": software.requirements,
+    "offers": software.price ? {
+      "@type": "Offer",
+      "price": software.price,
+      "priceCurrency": software.currency || "USD"
+    } : undefined
+  };
+  structuredDataArray[0] = softwareData;
+}
+
+// Service data
+if (type === 'service' && service) {
+  const serviceData = {
+    ...baseStructuredData,
+    "@type": "Service",
+    "serviceType": service.serviceType,
+    "provider": {
+      "@type": "Organization",
+      "name": service.provider || "SeaSalt.ai"
+    },
+    "areaServed": service.areaServed,
+    "availableChannel": service.availableChannel,
+    "hoursAvailable": service.hoursAvailable ? {
+      "@type": "OpeningHoursSpecification",
+      "opens": service.hoursAvailable.opens,
+      "closes": service.hoursAvailable.closes,
+      "dayOfWeek": service.hoursAvailable.dayOfWeek
+    } : undefined,
+    "offers": service.offers && service.offers.length > 0 ? service.offers.map(offer => ({
+      "@type": "Offer",
+      "name": offer.name,
+      "description": offer.description,
+      "price": offer.price,
+      "priceCurrency": offer.priceCurrency || "USD",
+      "priceSpecification": offer.priceSpecification ? {
+        "@type": "UnitPriceSpecification",
+        "price": offer.priceSpecification.price,
+        "priceCurrency": offer.priceSpecification.priceCurrency || "USD",
+        "unitCode": offer.priceSpecification.unitCode
+      } : undefined
+    })) : (service.price ? [{
+      "@type": "Offer",
+      "price": service.price,
+      "priceCurrency": service.currency || "USD"
+    }] : undefined)
+  };
+  structuredDataArray[0] = serviceData;
+}
+
+// Event data
+if (type === 'event' && event) {
+  const eventData = {
+    ...baseStructuredData,
+    "@type": "Event",
+    "startDate": event.startDate,
+    "endDate": event.endDate,
+    "location": event.location ? {
+      "@type": "Place",
+      "name": event.location.name,
+      "address": event.location.address,
+      ...(event.location.latitude && event.location.longitude ? {
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": event.location.latitude,
+          "longitude": event.location.longitude
+        }
+      } : {})
+    } : undefined,
+    "organizer": event.organizer ? {
+      "@type": "Organization",
+      "name": event.organizer
+    } : organizationData,
+    "offers": event.price ? {
+      "@type": "Offer",
+      "price": event.price,
+      "priceCurrency": event.currency || "USD"
+    } : undefined
+  };
+  structuredDataArray[0] = eventData;
+}
+
+// Person data
+if (type === 'person' && person) {
+  const personData = {
+    ...baseStructuredData,
+    "@type": "Person",
+    "name": person.name,
+    "jobTitle": person.jobTitle,
+    "worksFor": person.worksFor ? {
+      "@type": "Organization",
+      "name": person.worksFor
+    } : undefined,
+    "email": person.email,
+    "telephone": person.telephone,
+    "address": person.address,
+    "sameAs": person.sameAs
+  };
+  structuredDataArray[0] = personData;
+}
+
+// Course data
+if (type === 'course' && course) {
+  const courseData = {
+    ...baseStructuredData,
+    "@type": "Course",
+    "name": course.name,
+    "description": course.description,
+    "provider": {
+      "@type": "Organization",
+      "name": course.provider
+    },
+    "courseCode": course.courseCode,
+    "hasCourseInstance": course.hasCourseInstance ? {
+      "@type": "CourseInstance",
+      "startDate": course.hasCourseInstance.startDate,
+      "endDate": course.hasCourseInstance.endDate,
+      "courseMode": course.hasCourseInstance.courseMode
+    } : undefined
+  };
+  structuredDataArray[0] = courseData;
+}
+
+// FAQ data
+if (faqs && faqs.length > 0) {
+  structuredDataArray.push({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  });
+}
+
+// Add WebPage schema in addition to WebSite for richer context
+if (type === 'website') {
+  structuredDataArray.push({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": canonicalUrl,
+    "name": title,
+    "description": description,
+    "url": canonicalUrl,
+    "inLanguage": lang,
+    "isPartOf": { "@id": SCHEMA_IDS.WEBSITE },
+    "publisher": { "@id": SCHEMA_IDS.ORGANIZATION }
+  });
+}
+
+// Breadcrumb data
+if (breadcrumbs && breadcrumbs.length > 0) {
+  structuredDataArray.push({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": breadcrumbs.map((crumb, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": crumb.name,
+      ...(crumb.url && { "item": `${baseUrl}${crumb.url}` })
+    }))
+  });
+}
+
+// Video data
+if (video) {
+  structuredDataArray.push({
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": video.name,
+    "description": video.description,
+    ...(video.thumbnailUrl && { "thumbnailUrl": video.thumbnailUrl.startsWith('http') ? video.thumbnailUrl : `${baseUrl}${video.thumbnailUrl}` }),
+    "uploadDate": video.uploadDate,
+    "duration": video.duration,
+    "contentUrl": video.contentUrl,
+    "embedUrl": video.embedUrl,
+    "transcript": video.transcript
+  });
+}
+
+// Auto-generate SoftwareApplication schema for product pages (SeaChat / SeaX / SeaVoice)
+// Skip if an explicit product schema is already provided
+try {
+  const pathname = Astro.url.pathname;
+  const detectedProduct = getProductKeyFromPath(pathname) as ProductKey | null;
+  if (detectedProduct && type !== 'product') {
+    const localized = getLocalizedProductInfo(detectedProduct, lang);
+    const productIdMap: Record<ProductKey, string> = {
+      seachat: SCHEMA_IDS.SEACHAT_PRODUCT,
+      seax: SCHEMA_IDS.SEAX_PRODUCT,
+      seavoice: SCHEMA_IDS.SEAVOICE_PRODUCT,
+    };
+    const abs = (p: string) => (p && p.startsWith('http')) ? p : `${baseUrl}${p}`;
+
+    const softwareSchema = {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "@id": productIdMap[detectedProduct],
+      "name": localized.name,
+      "description": localized.description,
+      "applicationCategory": localized.applicationCategory,
+      "operatingSystem": localized.operatingSystem,
+      "url": canonicalUrl,
+      "image": abs(localized.image),
+      ...(localized.screenshots?.length ? { "screenshot": localized.screenshots.map(abs) } : {}),
+      ...(localized.features?.length ? { "featureList": localized.features } : {}),
+      "offers": service && service.offers ? service.offers.map(offer => ({
+        "@type": "Offer",
+        "name": offer.name,
+        "description": offer.description,
+        "price": offer.price,
+        "priceCurrency": offer.priceCurrency || "USD"
+      })) : {
+        "@type": "Offer",
+        "price": PRODUCTS_INFO[detectedProduct].offers.price,
+        "priceCurrency": PRODUCTS_INFO[detectedProduct].offers.priceCurrency,
+        "availability": PRODUCTS_INFO[detectedProduct].offers.availability,
+        "description": PRODUCTS_INFO[detectedProduct].offers.description,
+        "seller": { "@id": SCHEMA_IDS.ORGANIZATION }
+      },
+      ...(PRODUCTS_INFO[detectedProduct].aggregateRating ? {
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": PRODUCTS_INFO[detectedProduct].aggregateRating!.ratingValue,
+          "bestRating": PRODUCTS_INFO[detectedProduct].aggregateRating!.bestRating,
+          "ratingCount": PRODUCTS_INFO[detectedProduct].aggregateRating!.ratingCount
+        }
+      } : {}),
+      "publisher": { "@id": SCHEMA_IDS.ORGANIZATION }
+    };
+
+    structuredDataArray.push(softwareSchema);
+  }
+} catch (e) {
+  // fail silently to avoid breaking page rendering
+}
+
+// Custom JSON-LD
+if (customJsonLd && customJsonLd.length > 0) {
+  structuredDataArray.push(...customJsonLd);
+}
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- SEO Meta Tags -->
+<title>{title}</title>
+<meta name="description" content={description} />
+{keywords && <meta name="keywords" content={keywords} />}
+<meta name="author" content="SeaSalt.ai" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalUrl} />
+
+<!-- Multi-language support (hreflang) -->
+{alternateLinks.map(({ lang: altLang, url }) => (
+  <link rel="alternate" hreflang={altLang} href={url} />
+))}
+<link rel="alternate" hreflang="x-default" href={alternateLinks.find(link => link.lang === defaultLang)?.url || baseUrl} />
+
+<!-- Open Graph -->
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:image" content={absoluteImageUrl} />
+<meta property="og:site_name" content="SeaSalt.ai" />
+
+<!-- Additional Open Graph images -->
+{images && images.map((image, index) => (
+  image.url && (
+    <>
+      <meta property="og:image" content={(image.url && image.url.startsWith('http')) ? image.url : `${baseUrl}${image.url}`} />
+      <meta property="og:image:alt" content={image.alt || title} />
+      {image.width && <meta property="og:image:width" content={image.width.toString()} />}
+      {image.height && <meta property="og:image:height" content={image.height.toString()} />}
+    </>
+  )
+))}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content={twitterCard} />
+<meta name="twitter:site" content={twitterSite} />
+<meta name="twitter:creator" content={twitterCreator} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={absoluteImageUrl} />
+<meta name="twitter:image:alt" content={title} />
+
+<!-- Robots -->
+<meta name="robots" content={robotsContent} />
+<meta name="googlebot" content={robotsContent} />
+
+<!-- Custom Meta Tags -->
+{customMeta.map((meta) => (
+  meta.name ? 
+    <meta name={meta.name} content={meta.content} /> :
+    <meta property={meta.property} content={meta.content} />
+))}
+
+<!-- Website Verification -->
+{googleSiteVerification && <meta name="google-site-verification" content={googleSiteVerification} />}
+{bingSiteVerification && <meta name="msvalidate.01" content={bingSiteVerification} />}
+{yandexVerification && <meta name="yandex-verification" content={yandexVerification} />}
+{pinterestVerification && <meta name="p:domain_verify" content={pinterestVerification} />}
+
+<!-- Favicon and Icons -->
+<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/seasalt-ai-favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href={manifestUrl} />
+
+<!-- PWA and Theme Colors -->
+<meta name="theme-color" content={themeColor} />
+<meta name="background-color" content={backgroundColor} />
+<meta name="msapplication-TileColor" content={themeColor} />
+<meta name="msapplication-config" content="/browserconfig.xml" />
+
+<!-- Mobile Optimization -->
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="SeaSalt.ai" />
+
+<!-- DNS Prefetch and Preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+
+<!-- RSS Feeds -->
+{rssFeeds.map((feed) => (
+  feed.url && (
+    <link rel="alternate" type={feed.type || "application/rss+xml"} title={feed.title} href={feed.url} />
+  )
+))}
+
+<!-- Security Headers -->
+<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+<meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+{contentSecurityPolicy && <meta http-equiv="Content-Security-Policy" content={contentSecurityPolicy} />}
+
+<!-- Performance Hints -->
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width, Device-Memory" />
+
+
+<!-- Structured Data -->
+{structuredDataArray.map((data, index) => (
+  <script key={index} type="application/ld+json" set:html={JSON.stringify(data, null, 0)} />
+))}
+
+<!-- Google Analytics -->
+{googleAnalytics && (
+  <>
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalytics}`}></script>
+    <script set:html={`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${googleAnalytics}');
+    `} />
+  </>
+)}
+
+<!-- Google Tag Manager -->
+{googleTagManager && (
+  <script set:html={`
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','${googleTagManager}');
+  `} />
+)}
+
+<!-- Facebook Pixel -->
+{facebookPixel && (
+  <script set:html={`
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '${facebookPixel}');
+    fbq('track', 'PageView');
+  `} />
+  <noscript><img height="1" width="1" style="display:none" src={`https://www.facebook.com/tr?id=${facebookPixel}&ev=PageView&noscript=1`} /></noscript>
+)}

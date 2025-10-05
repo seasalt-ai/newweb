@@ -121,7 +121,7 @@ main() {
     else
         # Show what's being deployed
         print_info "Files to be deployed:"
-        git diff --cached --stat
+        # git diff --cached --stat
         
         git commit -m "$COMMIT_MSG"
         

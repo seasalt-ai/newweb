@@ -1,0 +1,516 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+import { getMeetingUrl } from '../../../../constants/urls';
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translations for server-side rendering
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO metadata - 使用與舊版本相同的翻譯鍵
+const seoTitle = t('seachat.solutions.ecommerce.title') || 'SeaChat for E-commerce - Boost Sales & Reduce Cart Abandonment';
+const seoDescription = t('seachat.solutions.ecommerce.subtitle') || 'Transform your online store with intelligent customer support that drives sales, reduces cart abandonment, and creates loyal customers.';
+const seoKeywords = t('seachat.solutions.ecommerce.keywords') || 'SeaChat ecommerce, online retail, cart abandonment, sales conversion, customer support, shopping assistance';
+
+// Canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/ecommerce`;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Solutions', url: `/${currentLang}/seachat/solutions/` },
+  { name: t('seachat.solutions.ecommerce.breadcrumb') || 'E-commerce' }
+];
+
+// Open Graph and Twitter data
+const ogData = {
+  title: seoTitle,
+  description: seoDescription,
+  type: 'website',
+  url: canonicalUrl,
+  image: 'https://seasalt.ai/images/seachat-ecommerce-og.jpg',
+  site_name: 'Seasalt.ai',
+};
+
+const twitterData = {
+  card: 'summary_large_image',
+  title: seoTitle,  
+  description: seoDescription,
+  image: 'https://seasalt.ai/images/seachat-ecommerce-twitter.jpg',
+};
+
+// Structured data
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SeaChat E-commerce Solutions",
+  "applicationCategory": "BusinessApplication",
+  "description": seoDescription,
+  "url": canonicalUrl,
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "description": "Free trial available"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "featureList": [
+    "Order Management Integration",
+    "Customer Account Support", 
+    "Product Recommendations",
+    "24/7 Shopping Assistance",
+    "Cart Abandonment Recovery",
+    "Multi-channel Support"
+  ],
+  "screenshot": "https://seasalt.ai/images/seachat-ecommerce-screenshot.jpg"
+};
+
+// Page data - 保持與舊版本相同的翻譯鍵
+const features = [
+  {
+    icon: 'shopping-bag',
+    titleKey: 'seachat.solutions.ecommerce.features.orders.title',
+    titleDefault: 'Order Management Integration',
+    descKey: 'seachat.solutions.ecommerce.features.orders.description',
+    descDefault: 'Seamlessly integrate with your e-commerce platform for real-time order tracking and updates.',
+    benefits: [
+      { key: 'seachat.solutions.ecommerce.features.orders.benefits.status', default: 'Real-time order status' },
+      { key: 'seachat.solutions.ecommerce.features.orders.benefits.shipping', default: 'Automated shipping updates' },
+      { key: 'seachat.solutions.ecommerce.features.orders.benefits.returns', default: 'Return processing' },
+      { key: 'seachat.solutions.ecommerce.features.orders.benefits.inventory', default: 'Inventory inquiries' }
+    ]
+  },
+  {
+    icon: 'users',
+    titleKey: 'seachat.solutions.ecommerce.features.accounts.title',
+    titleDefault: 'Customer Account Support',
+    descKey: 'seachat.solutions.ecommerce.features.accounts.description',
+    descDefault: 'Help customers with account issues, password resets, and profile management.',
+    benefits: [
+      { key: 'seachat.solutions.ecommerce.features.accounts.benefits.recovery', default: 'Account recovery' },
+      { key: 'seachat.solutions.ecommerce.features.accounts.benefits.updates', default: 'Profile updates' },
+      { key: 'seachat.solutions.ecommerce.features.accounts.benefits.subscriptions', default: 'Subscription management' },
+      { key: 'seachat.solutions.ecommerce.features.accounts.benefits.billing', default: 'Billing support' }
+    ]
+  },
+  {
+    icon: 'star',
+    titleKey: 'seachat.solutions.ecommerce.features.recommendations.title',
+    titleDefault: 'Product Recommendations',
+    descKey: 'seachat.solutions.ecommerce.features.recommendations.description',
+    descDefault: 'AI-powered product suggestions based on customer preferences and browsing history.',
+    benefits: [
+      { key: 'seachat.solutions.ecommerce.features.recommendations.benefits.personalized', default: 'Personalized suggestions' },
+      { key: 'seachat.solutions.ecommerce.features.recommendations.benefits.cross', default: 'Cross-selling opportunities' },
+      { key: 'seachat.solutions.ecommerce.features.recommendations.benefits.upselling', default: 'Upselling automation' },
+      { key: 'seachat.solutions.ecommerce.features.recommendations.benefits.inventory', default: 'Inventory optimization' }
+    ]
+  },
+  {
+    icon: 'clock',
+    titleKey: 'seachat.solutions.ecommerce.features.assistance.title',
+    titleDefault: '24/7 Shopping Assistance',
+    descKey: 'seachat.solutions.ecommerce.features.assistance.description',
+    descDefault: 'Round-the-clock support for customers across different time zones and shopping patterns.',
+    benefits: [
+      { key: 'seachat.solutions.ecommerce.features.assistance.benefits.global', default: 'Global coverage' },
+      { key: 'seachat.solutions.ecommerce.features.assistance.benefits.peak', default: 'Peak hour support' },
+      { key: 'seachat.solutions.ecommerce.features.assistance.benefits.holiday', default: 'Holiday assistance' },
+      { key: 'seachat.solutions.ecommerce.features.assistance.benefits.mobile', default: 'Mobile shopping help' }
+    ]
+  }
+];
+
+const integrations = [
+  { 
+    nameKey: 'seachat.solutions.ecommerce.integrations.shopify.name',
+    nameDefault: 'Shopify',
+    logo: '🛍️', 
+    descKey: 'seachat.solutions.ecommerce.integrations.shopify.description',
+    descDefault: 'Native Shopify app with full order integration'
+  },
+  { 
+    nameKey: 'seachat.solutions.ecommerce.integrations.woocommerce.name',
+    nameDefault: 'WooCommerce',
+    logo: '🛒', 
+    descKey: 'seachat.solutions.ecommerce.integrations.woocommerce.description',
+    descDefault: 'WordPress plugin for WooCommerce stores'
+  },
+  { 
+    nameKey: 'seachat.solutions.ecommerce.integrations.magento.name',
+    nameDefault: 'Magento',
+    logo: '🏪', 
+    descKey: 'seachat.solutions.ecommerce.integrations.magento.description',
+    descDefault: 'Enterprise-grade Magento integration'
+  },
+  { 
+    nameKey: 'seachat.solutions.ecommerce.integrations.bigcommerce.name',
+    nameDefault: 'BigCommerce',
+    logo: '🏬', 
+    descKey: 'seachat.solutions.ecommerce.integrations.bigcommerce.description',
+    descDefault: 'Complete BigCommerce API integration'
+  },
+  { 
+    nameKey: 'seachat.solutions.ecommerce.integrations.stripe.name',
+    nameDefault: 'Stripe',
+    logo: '💳', 
+    descKey: 'seachat.solutions.ecommerce.integrations.stripe.description',
+    descDefault: 'Payment processing and billing support'
+  },
+  { 
+    nameKey: 'seachat.solutions.ecommerce.integrations.paypal.name',
+    nameDefault: 'PayPal',
+    logo: '💰', 
+    descKey: 'seachat.solutions.ecommerce.integrations.paypal.description',
+    descDefault: 'PayPal transaction and dispute handling'
+  }
+];
+
+const metrics = [
+  { 
+    value: '40%', 
+    labelKey: 'seachat.solutions.ecommerce.metrics.conversion.label',
+    labelDefault: 'Increase in Sales Conversion',
+    descKey: 'seachat.solutions.ecommerce.metrics.conversion.description',
+    descDefault: 'Through proactive customer support'
+  },
+  { 
+    value: '65%', 
+    labelKey: 'seachat.solutions.ecommerce.metrics.abandonment.label',
+    labelDefault: 'Reduction in Cart Abandonment',
+    descKey: 'seachat.solutions.ecommerce.metrics.abandonment.description',
+    descDefault: 'With real-time shopping assistance'
+  },
+  { 
+    value: '80%', 
+    labelKey: 'seachat.solutions.ecommerce.metrics.resolution.label',
+    labelDefault: 'Faster Order Resolution',
+    descKey: 'seachat.solutions.ecommerce.metrics.resolution.description',
+    descDefault: 'Automated order status updates'
+  },
+  { 
+    value: '90%', 
+    labelKey: 'seachat.solutions.ecommerce.metrics.satisfaction.label',
+    labelDefault: 'Customer Satisfaction Rate',
+    descKey: 'seachat.solutions.ecommerce.metrics.satisfaction.description',
+    descDefault: 'For e-commerce support interactions'
+  }
+];
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout 
+  title={seoTitle} 
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  canonicalUrl={canonicalUrl}
+  ogData={ogData}
+  twitterData={twitterData}
+  structuredData={structuredData}
+  breadcrumbs={breadcrumbs}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-purple-900 via-blue-800 to-indigo-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-purple-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.solutions.ecommerce.title') || 'E-commerce & Retail'}
+            </h1>
+          </div>
+          <p class="text-2xl text-purple-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.solutions.ecommerce.subtitle') || 'Transform your online store with intelligent customer support that drives sales, reduces cart abandonment, and creates loyal customers.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-purple-500 hover:bg-purple-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.solutions.ecommerce.trialButton') || 'Start E-commerce For Free'}
+            </a>
+            <a
+              href={meetingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.solutions.ecommerce.demoButton') || 'Schedule E-commerce Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.ecommerce.featuresTitle') || 'E-commerce Specialized Features'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.ecommerce.featuresSubtitle') || 'Purpose-built features for online retailers to maximize sales and customer satisfaction.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          {features.map((feature) => (
+            <div class="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8 border border-purple-100">
+              <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-2xl flex items-center justify-center mb-6">
+                {feature.icon === 'shopping-bag' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'users' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'star' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'clock' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                )}
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(feature.titleKey) || feature.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6 text-lg">
+                {t(feature.descKey) || feature.descDefault}
+              </p>
+              
+              <div class="space-y-3">
+                {feature.benefits.map((benefit) => (
+                  <div class="flex items-center space-x-3">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-gray-700">{t(benefit.key) || benefit.default}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Metrics -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.ecommerce.resultsTitle') || 'Proven E-commerce Results'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.ecommerce.resultsSubtitle') || 'Real metrics from e-commerce businesses using SeaChat for customer support.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {metrics.map((metric) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div class="text-4xl font-bold text-purple-600 mb-4">{metric.value}</div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                {t(metric.labelKey) || metric.labelDefault}
+              </h3>
+              <p class="text-gray-600 text-sm">
+                {t(metric.descKey) || metric.descDefault}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Platform Integrations -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.ecommerce.integrationsTitle') || 'E-commerce Platform Integrations'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.ecommerce.integrationsSubtitle') || 'Seamlessly connect with your existing e-commerce stack for unified customer support.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {integrations.map((integration) => (
+            <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+              <div class="text-4xl mb-4">{integration.logo}</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-3">
+                {t(integration.nameKey) || integration.nameDefault}
+              </h3>
+              <p class="text-gray-600">
+                {t(integration.descKey) || integration.descDefault}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Case Example -->
+    <section class="py-20 bg-gradient-to-br from-purple-50 to-blue-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seachat.solutions.ecommerce.successTitle') || 'Success Story: Fashion Retailer'}
+            </h2>
+            <div class="space-y-6">
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <h3 class="font-bold text-red-600 mb-2">
+                  {t('seachat.solutions.ecommerce.challenge') || 'Challenge'}:
+                </h3>
+                <p class="text-gray-700">
+                  {t('seachat.solutions.ecommerce.challengeDescription') || 'High cart abandonment rate and customers leaving due to sizing questions and product availability concerns.'}
+                </p>
+              </div>
+              
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <h3 class="font-bold text-blue-600 mb-2">
+                  {t('seachat.solutions.ecommerce.solution') || 'Solution'}:
+                </h3>
+                <p class="text-gray-700">
+                  {t('seachat.solutions.ecommerce.solutionDescription') || 'Deployed SeaChat with product catalog integration, sizing guides, and proactive cart abandonment recovery.'}
+                </p>
+              </div>
+              
+              <div class="bg-white rounded-xl p-6 shadow-lg">
+                <h3 class="font-bold text-green-600 mb-2">
+                  {t('seachat.solutions.ecommerce.results') || 'Results'}:
+                </h3>
+                <ul class="space-y-2 text-gray-700">
+                  <li class="flex items-center space-x-2">
+                    <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
+                    <span>{t('seachat.solutions.ecommerce.result1') || '45% increase in conversion rate'}</span>
+                  </li>
+                  <li class="flex items-center space-x-2">
+                    <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
+                    <span>{t('seachat.solutions.ecommerce.result2') || '60% reduction in cart abandonment'}</span>
+                  </li>
+                  <li class="flex items-center space-x-2">
+                    <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
+                    <span>{t('seachat.solutions.ecommerce.result3') || '$2.3M additional revenue in 6 months'}</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-8 shadow-2xl">
+            <h3 class="text-xl font-bold text-gray-900 mb-6">
+              {t('seachat.solutions.ecommerce.chatPreview') || 'Live Chat Preview'}
+            </h3>
+            <div class="space-y-4">
+              <div class="bg-gray-100 rounded-lg p-4">
+                <div class="text-sm text-gray-600 mb-2">
+                  {t('seachat.solutions.ecommerce.customer') || 'Customer'}
+                </div>
+                <div class="text-gray-800">
+                  {t('seachat.solutions.ecommerce.customerQuestion') || '"Is this dress available in size M?"'}
+                </div>
+              </div>
+              <div class="bg-blue-100 rounded-lg p-4">
+                <div class="text-sm text-blue-600 mb-2">
+                  {t('seachat.solutions.ecommerce.seachatAI') || 'SeaChat AI'}
+                </div>
+                <div class="text-gray-800">
+                  {t('seachat.solutions.ecommerce.aiResponse1') || '"Yes! The Blue Summer Dress is available in size M. We have 3 in stock. Would you like me to add it to your cart?"'}
+                </div>
+              </div>
+              <div class="bg-gray-100 rounded-lg p-4">
+                <div class="text-sm text-gray-600 mb-2">
+                  {t('seachat.solutions.ecommerce.customer') || 'Customer'}
+                </div>
+                <div class="text-gray-800">
+                  {t('seachat.solutions.ecommerce.customerResponse') || '"Perfect! Yes, please add it."'}
+                </div>
+              </div>
+              <div class="bg-green-100 rounded-lg p-4">
+                <div class="text-sm text-green-600 mb-2">
+                  {t('seachat.solutions.ecommerce.seachatAI') || 'SeaChat AI'}
+                </div>
+                <div class="text-gray-800">
+                  {t('seachat.solutions.ecommerce.aiResponse2') || '"Added to cart! 🛍️ You qualify for free shipping. Ready to checkout?"'}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-purple-600 to-blue-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.solutions.ecommerce.ctaTitle') || 'Ready to Boost Your E-commerce Sales?'}
+        </h2>
+        <p class="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.solutions.ecommerce.ctaSubtitle') || 'Join hundreds of online retailers using SeaChat to increase conversions, reduce cart abandonment, and create exceptional shopping experiences.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.solutions.ecommerce.ctaTrialButton') || 'Start E-commerce For Free'}
+          </a>
+          <a
+            href={meetingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+          >
+            {t('seachat.solutions.ecommerce.ctaDemoButton') || 'Schedule E-commerce Demo'}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

@@ -1,0 +1,521 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getMeetingUrl } from "../../../../constants/urls";
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translations for server-side rendering
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO metadata
+const seoTitle = t('seachat.solutions.saas.title') || 'SeaChat for SaaS - AI Customer Support for Software Companies';
+const seoDescription = t('seachat.solutions.saas.subtitle') || 'Transform SaaS customer success with SeaChat\'s AI-powered support that handles technical questions, onboarding, and user adoption to reduce churn and drive growth.';
+const seoKeywords = t('seachat.solutions.saas.keywords') || 'SeaChat SaaS, AI customer support, software customer success, technical support automation, user onboarding, SaaS solutions';
+
+// Canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/saas`;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Solutions', url: `/${currentLang}/seachat/solutions/` },
+  { name: t('seachat.solutions.saas.breadcrumb') || 'SaaS' }
+];
+
+// Open Graph and Twitter data
+const ogData = {
+  title: seoTitle,
+  description: seoDescription,
+  type: 'website',
+  url: canonicalUrl,
+  image: 'https://seasalt.ai/images/seachat-saas-og.jpg',
+  site_name: 'Seasalt.ai',
+};
+
+const twitterData = {
+  card: 'summary_large_image',
+  title: seoTitle,
+  description: seoDescription,
+  image: 'https://seasalt.ai/images/seachat-saas-twitter.jpg',
+};
+
+// Structured data for SaaS Solutions
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SeaChat SaaS Solutions",
+  "applicationCategory": "BusinessApplication",
+  "description": seoDescription,
+  "url": canonicalUrl,
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "description": "Free trial available"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "featureList": [
+    "Technical Support Automation",
+    "User Onboarding",
+    "Customer Success Management", 
+    "Security & Compliance",
+    "API Integration Support",
+    "Multi-language Support",
+    "Performance Analytics",
+    "Churn Reduction"
+  ],
+  "screenshot": "https://seasalt.ai/images/seachat-saas-screenshot.jpg"
+};
+
+// Data for the page
+const features = [
+  {
+    icon: '💻',
+    title: t('seachat.solutions.saas.features.technical.title') || 'Technical Support',
+    description: t('seachat.solutions.saas.features.technical.description') || 'Provide instant technical support and API assistance to developers and users',
+    benefits: [
+      t('seachat.solutions.saas.features.technical.benefits.api') || 'API documentation help',
+      t('seachat.solutions.saas.features.technical.benefits.integration') || 'Integration guidance',
+      t('seachat.solutions.saas.features.technical.benefits.troubleshooting') || 'Troubleshooting assistance',
+      t('seachat.solutions.saas.features.technical.benefits.resources') || 'Developer resources'
+    ]
+  },
+  {
+    icon: '👥',
+    title: t('seachat.solutions.saas.features.onboarding.title') || 'User Onboarding',
+    description: t('seachat.solutions.saas.features.onboarding.description') || 'Streamline user onboarding with guided tutorials and setup assistance',
+    benefits: [
+      t('seachat.solutions.saas.features.onboarding.benefits.tutorials') || 'Interactive tutorials',
+      t('seachat.solutions.saas.features.onboarding.benefits.walkthroughs') || 'Step-by-step walkthroughs',
+      t('seachat.solutions.saas.features.onboarding.benefits.setup') || 'Account setup help',
+      t('seachat.solutions.saas.features.onboarding.benefits.practices') || 'Best practices guidance'
+    ]
+  },
+  {
+    icon: '📈',
+    title: t('seachat.solutions.saas.features.success.title') || 'Customer Success',
+    description: t('seachat.solutions.saas.features.success.description') || 'Drive user adoption and reduce churn with proactive customer success management',
+    benefits: [
+      t('seachat.solutions.saas.features.success.benefits.analytics') || 'Usage analytics',
+      t('seachat.solutions.saas.features.success.benefits.adoption') || 'Feature adoption tracking',
+      t('seachat.solutions.saas.features.success.benefits.churn') || 'Churn prevention',
+      t('seachat.solutions.saas.features.success.benefits.upselling') || 'Upselling opportunities'
+    ]
+  },
+  {
+    icon: '🔒',
+    title: t('seachat.solutions.saas.features.security.title') || 'Security & Compliance',
+    description: t('seachat.solutions.saas.features.security.description') || 'Address security questions and compliance requirements with confidence',
+    benefits: [
+      t('seachat.solutions.saas.features.security.benefits.documentation') || 'Security documentation',
+      t('seachat.solutions.saas.features.security.benefits.compliance') || 'Compliance information',
+      t('seachat.solutions.saas.features.security.benefits.protection') || 'Data protection details',
+      t('seachat.solutions.saas.features.security.benefits.audit') || 'Audit trail support'
+    ]
+  }
+];
+
+const useCases = [
+  {
+    title: t('seachat.solutions.saas.useCases.api.title') || 'API Support',
+    description: t('seachat.solutions.saas.useCases.api.description') || 'Help developers integrate and use your API effectively',
+    example: t('seachat.solutions.saas.useCases.api.example') || '"How do I authenticate with your API?"',
+    outcome: t('seachat.solutions.saas.useCases.api.outcome') || 'Instant API documentation with code examples and authentication steps'
+  },
+  {
+    title: t('seachat.solutions.saas.useCases.feature.title') || 'Feature Guidance',
+    description: t('seachat.solutions.saas.useCases.feature.description') || 'Guide users through complex features and workflows',
+    example: t('seachat.solutions.saas.useCases.feature.example') || '"How do I set up automated workflows?"',
+    outcome: t('seachat.solutions.saas.useCases.feature.outcome') || 'Step-by-step tutorial with screenshots and best practices'
+  },
+  {
+    title: t('seachat.solutions.saas.useCases.billing.title') || 'Billing & Subscriptions',
+    description: t('seachat.solutions.saas.useCases.billing.description') || 'Handle billing inquiries and subscription management',
+    example: t('seachat.solutions.saas.useCases.billing.example') || '"How do I upgrade my subscription plan?"',
+    outcome: t('seachat.solutions.saas.useCases.billing.outcome') || 'Direct upgrade process with pricing details and feature comparisons'
+  },
+  {
+    title: t('seachat.solutions.saas.useCases.performance.title') || 'Performance Issues',
+    description: t('seachat.solutions.saas.useCases.performance.description') || 'Diagnose and resolve performance-related concerns',
+    example: t('seachat.solutions.saas.useCases.performance.example') || '"Why is my dashboard loading slowly?"',
+    outcome: t('seachat.solutions.saas.useCases.performance.outcome') || 'Performance diagnostic steps with optimization recommendations'
+  }
+];
+
+const metrics = [
+  { 
+    value: '70%', 
+    label: t('seachat.solutions.saas.metrics.tickets.label') || 'Reduction in Support Tickets', 
+    description: t('seachat.solutions.saas.metrics.tickets.description') || 'Through automated technical support' 
+  },
+  { 
+    value: '45%', 
+    label: t('seachat.solutions.saas.metrics.onboarding.label') || 'Faster Onboarding', 
+    description: t('seachat.solutions.saas.metrics.onboarding.description') || 'With guided setup assistance' 
+  },
+  { 
+    value: '60%', 
+    label: t('seachat.solutions.saas.metrics.adoption.label') || 'Higher Feature Adoption', 
+    description: t('seachat.solutions.saas.metrics.adoption.description') || 'Through proactive guidance' 
+  },
+  { 
+    value: '35%', 
+    label: t('seachat.solutions.saas.metrics.churn.label') || 'Lower Churn Rate', 
+    description: t('seachat.solutions.saas.metrics.churn.description') || 'With better user success' 
+  }
+];
+
+const saasTypes = [
+  {
+    title: t('seachat.solutions.saas.types.b2b.title') || 'B2B SaaS Platforms',
+    description: t('seachat.solutions.saas.types.b2b.description') || 'Enterprise-grade support for business software solutions',
+    features: [
+      t('seachat.solutions.saas.types.b2b.features.tenant') || 'Multi-tenant support',
+      t('seachat.solutions.saas.types.b2b.features.security') || 'Enterprise security',
+      t('seachat.solutions.saas.types.b2b.features.api') || 'API integration help',
+      t('seachat.solutions.saas.types.b2b.features.assistance') || 'Implementation assistance'
+    ]
+  },
+  {
+    title: t('seachat.solutions.saas.types.developer.title') || 'Developer Tools',
+    description: t('seachat.solutions.saas.types.developer.description') || 'Support for development platforms and coding tools',
+    features: [
+      t('seachat.solutions.saas.types.developer.features.examples') || 'Code examples',
+      t('seachat.solutions.saas.types.developer.features.documentation') || 'API documentation',
+      t('seachat.solutions.saas.types.developer.features.debugging') || 'Debugging help',
+      t('seachat.solutions.saas.types.developer.features.community') || 'Community support'
+    ]
+  },
+  {
+    title: t('seachat.solutions.saas.types.marketing.title') || 'Marketing Platforms',
+    description: t('seachat.solutions.saas.types.marketing.description') || 'Customer support for marketing automation tools',
+    features: [
+      t('seachat.solutions.saas.types.marketing.features.campaign') || 'Campaign setup',
+      t('seachat.solutions.saas.types.marketing.features.analytics') || 'Analytics guidance',
+      t('seachat.solutions.saas.types.marketing.features.integration') || 'Platform integrations',
+      t('seachat.solutions.saas.types.marketing.features.practices') || 'Best practices'
+    ]
+  },
+  {
+    title: t('seachat.solutions.saas.types.productivity.title') || 'Productivity Software',
+    description: t('seachat.solutions.saas.types.productivity.description') || 'Support for workplace productivity and collaboration tools',
+    features: [
+      t('seachat.solutions.saas.types.productivity.features.tutorials') || 'Feature tutorials',
+      t('seachat.solutions.saas.types.productivity.features.workflow') || 'Workflow optimization',
+      t('seachat.solutions.saas.types.productivity.features.team') || 'Team collaboration',
+      t('seachat.solutions.saas.types.productivity.features.usage') || 'Usage analytics'
+    ]
+  },
+  {
+    title: t('seachat.solutions.saas.types.ecommerce.title') || 'E-commerce Platforms',
+    description: t('seachat.solutions.saas.types.ecommerce.description') || 'Customer support for online selling and e-commerce tools',
+    features: [
+      t('seachat.solutions.saas.types.ecommerce.features.store') || 'Store setup',
+      t('seachat.solutions.saas.types.ecommerce.features.payment') || 'Payment processing',
+      t('seachat.solutions.saas.types.ecommerce.features.theme') || 'Theme customization',
+      t('seachat.solutions.saas.types.ecommerce.features.performance') || 'Performance optimization'
+    ]
+  },
+  {
+    title: t('seachat.solutions.saas.types.analytics.title') || 'Analytics Platforms',
+    description: t('seachat.solutions.saas.types.analytics.description') || 'Support for data analytics and business intelligence tools',
+    features: [
+      t('seachat.solutions.saas.types.analytics.features.dashboard') || 'Dashboard creation',
+      t('seachat.solutions.saas.types.analytics.features.data') || 'Data integration',
+      t('seachat.solutions.saas.types.analytics.features.report') || 'Report generation',
+      t('seachat.solutions.saas.types.analytics.features.visualization') || 'Data visualization'
+    ]
+  }
+];
+
+const integrations = [
+  'Customer Success Platforms',
+  'Help Desk Software',
+  'CRM Systems',
+  'Analytics Tools',
+  'Development Tools',
+  'Documentation Platforms'
+];
+---
+
+<Layout 
+  title={seoTitle} 
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  canonicalUrl={canonicalUrl}
+  ogData={ogData}
+  twitterData={twitterData}
+  structuredData={structuredData}
+  breadcrumbs={breadcrumbs}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <span class="text-6xl mr-4">☁️</span>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.solutions.saas.title') || 'SaaS Solutions'}
+            </h1>
+          </div>
+          <p class="text-2xl text-indigo-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.solutions.saas.subtitle') || 'Transform SaaS customer success with AI-powered support that handles technical questions, onboarding, and user adoption to reduce churn and drive growth.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-indigo-500 hover:bg-indigo-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.solutions.saas.trialButton') || 'Start SaaS For Free'}
+            </a>
+            <a
+              href={getMeetingUrl(lang)}
+              class="border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.solutions.saas.demoButton') || 'Schedule SaaS Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.saas.featuresTitle') || 'SaaS-Specific Features'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.saas.featuresSubtitle') || 'Purpose-built features for SaaS companies to enhance customer success and reduce churn.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          {features.map((feature, index) => (
+            <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 border border-indigo-100">
+              <div class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-2xl flex items-center justify-center mb-6">
+                <span class="text-2xl">{feature.icon}</span>
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+              <p class="text-gray-600 mb-6 text-lg">{feature.description}</p>
+              
+              <div class="space-y-3">
+                {feature.benefits.map((benefit, idx) => (
+                  <div class="flex items-center space-x-3">
+                    <span class="w-5 h-5 text-green-500 flex-shrink-0">✓</span>
+                    <span class="text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- SaaS Types -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.saas.typesTitle') || 'All SaaS Categories Covered'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.saas.typesSubtitle') || 'From developer tools to marketing platforms - we support every type of SaaS business.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {saasTypes.map((type, index) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{type.title}</h3>
+              <p class="text-gray-600 mb-6">{type.description}</p>
+              
+              <div class="space-y-2">
+                {type.features.map((feature, idx) => (
+                  <div class="flex items-center space-x-3">
+                    <div class="w-2 h-2 bg-indigo-500 rounded-full"></div>
+                    <span class="text-gray-700 text-sm">{feature}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Metrics -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.saas.impactTitle') || 'SaaS Business Impact'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.saas.impactSubtitle') || 'Real results from SaaS companies using SeaChat for customer success and technical support.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {metrics.map((metric, index) => (
+            <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div class="text-4xl font-bold text-indigo-600 mb-4">{metric.value}</div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">{metric.label}</h3>
+              <p class="text-gray-600 text-sm">{metric.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.saas.useCasesTitle') || 'Common SaaS Support Scenarios'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.saas.useCasesSubtitle') || 'See how SeaChat handles typical SaaS customer inquiries and technical support.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {useCases.map((useCase, index) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">{useCase.title}</h3>
+              <p class="text-gray-600 mb-6">{useCase.description}</p>
+              
+              <div class="space-y-4">
+                <div class="bg-indigo-50 rounded-lg p-4 border-l-4 border-indigo-500">
+                  <h4 class="font-semibold text-indigo-900 mb-2">{t('seachat.solutions.saas.userQuestion') || 'User Question'}:</h4>
+                  <p class="text-indigo-800 italic">"{useCase.example}"</p>
+                </div>
+                
+                <div class="bg-green-50 rounded-lg p-4 border-l-4 border-green-500">
+                  <h4 class="font-semibold text-green-900 mb-2">{t('seachat.solutions.saas.seachatResponse') || 'SeaChat Response'}:</h4>
+                  <p class="text-green-800">{useCase.outcome}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Integrations -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seachat.solutions.saas.integrationsTitle') || 'SaaS Platform Integrations'}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seachat.solutions.saas.integrationsSubtitle') || 'Seamlessly connect with customer success platforms, analytics tools, and development environments for unified operations.'}
+            </p>
+            
+            <!-- <div class="grid md:grid-cols-1 gap-4">
+              {integrations.map((integration, index) => (
+                <div class="flex items-center space-x-3">
+                  <span class="w-5 h-5 text-green-500 flex-shrink-0">✓</span>
+                  <span class="text-gray-700">{integration}</span>
+                </div>
+              ))}
+            </div> -->
+          </div>
+          
+          <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 border border-indigo-100">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seachat.solutions.saas.successFlowTitle') || 'Customer Success Flow'}</h3>
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-indigo-600 text-white rounded-full flex items-center justify-center font-bold text-sm">1</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.onboarding.title') || 'User Onboarding'}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.onboarding.description') || 'Guide new users through setup and initial configuration'}</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-sm">2</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.adoption.title') || 'Feature Adoption'}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.adoption.description') || 'Help users discover and adopt advanced features'}</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm">3</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.monitoring.title') || 'Usage Monitoring'}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.monitoring.description') || 'Monitor user engagement and identify at-risk customers'}</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-sm">4</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.solutions.saas.flow.growth.title') || 'Account Growth'}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.solutions.saas.flow.growth.description') || 'Identify upselling opportunities and drive expansion'}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-indigo-600 to-purple-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.solutions.saas.ctaTitle') || 'Ready to Transform Your SaaS Support?'}
+        </h2>
+        <p class="text-xl text-indigo-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.solutions.saas.ctaSubtitle') || 'Join SaaS companies already using SeaChat to reduce churn, improve user adoption, and scale customer success effortlessly.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-indigo-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.solutions.saas.ctaTrialButton') || 'Start SaaS For Free'}
+          </a>
+          <a
+            href={getMeetingUrl(lang)}
+            class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+          >
+            {t('seachat.solutions.saas.ctaDemoButton') || 'Schedule SaaS Demo'}
+            <span class="ml-2">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

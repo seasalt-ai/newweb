@@ -1,0 +1,373 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../i18n/helpers';
+import { getMeetingUrl } from "../../constants/urls";
+import { MessageCircle, Phone, MessageSquare, Monitor, Instagram, Mail, FileText, Smartphone, Globe, ArrowLeft, Star, Zap, Shield } from 'lucide-react';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 取得動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯幫助函數
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO 資料
+const title = t('channelsOverview.seo.title') || 'Communication Channels - Seasalt.ai';
+const description = t('channelsOverview.seo.description') || 'Connect WhatsApp, phone calls, SMS, contact forms, and social media in a single dashboard. Manage every customer conversation from one powerful platform.';
+const keywords = 'communication channels, WhatsApp business, SMS messaging, phone calls, unified communications, omnichannel';
+
+// 頻道清單
+const channels = [
+  {
+    icon: 'MessageCircle',
+    name: t('channelsOverview.channels.whatsappBusiness.name'),
+    capabilities: [
+      t('channelsOverview.channels.whatsappBusiness.capabilities.0'),
+      t('channelsOverview.channels.whatsappBusiness.capabilities.1'),
+      t('channelsOverview.channels.whatsappBusiness.capabilities.2'),
+      t('channelsOverview.channels.whatsappBusiness.capabilities.3')
+    ],
+    difficulty: t('channelsOverview.labels.difficulty.easy'),
+    difficultyColor: 'bg-green-100 text-green-800',
+    link: '/channels/whatsapp',
+    color: 'text-green-600',
+    bgColor: 'bg-green-50'
+  },
+  {
+    icon: 'Phone',
+    name: t('channelsOverview.channels.voicePhoneCalls.name'),
+    capabilities: [
+      t('channelsOverview.channels.voicePhoneCalls.capabilities.0'),
+      t('channelsOverview.channels.voicePhoneCalls.capabilities.1'),
+      t('channelsOverview.channels.voicePhoneCalls.capabilities.2'),
+      t('channelsOverview.channels.voicePhoneCalls.capabilities.3')
+    ],
+    difficulty: t('channelsOverview.labels.difficulty.medium'),
+    difficultyColor: 'bg-yellow-100 text-yellow-800',
+    link: '/channels/phone-calls',
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50'
+  },
+  {
+    icon: 'MessageSquare',
+    name: t('channelsOverview.channels.smsMessaging.name'),
+    capabilities: [
+      t('channelsOverview.channels.smsMessaging.capabilities.0'),
+      t('channelsOverview.channels.smsMessaging.capabilities.1'),
+      t('channelsOverview.channels.smsMessaging.capabilities.2'),
+      t('channelsOverview.channels.smsMessaging.capabilities.3')
+    ],
+    difficulty: t('channelsOverview.labels.difficulty.easy'),
+    difficultyColor: 'bg-green-100 text-green-800',
+    link: '/channels/sms',
+    color: 'text-purple-600',
+    bgColor: 'bg-purple-50'
+  },
+  {
+    icon: 'Monitor',
+    name: t('channelsOverview.channels.websiteChatWidget.name'),
+    capabilities: [
+      t('channelsOverview.channels.websiteChatWidget.capabilities.0'),
+      t('channelsOverview.channels.websiteChatWidget.capabilities.1'),
+      t('channelsOverview.channels.websiteChatWidget.capabilities.2'),
+      t('channelsOverview.channels.websiteChatWidget.capabilities.3')
+    ],
+    difficulty: t('channelsOverview.labels.difficulty.easy'),
+    difficultyColor: 'bg-green-100 text-green-800',
+    link: '/channels/website-chat',
+    color: 'text-indigo-600',
+    bgColor: 'bg-indigo-50'
+  },
+  {
+    icon: 'Instagram',
+    name: t('channelsOverview.channels.instagramDMs.name'),
+    capabilities: [
+      t('channelsOverview.channels.instagramDMs.capabilities.0'),
+      t('channelsOverview.channels.instagramDMs.capabilities.1'),
+      t('channelsOverview.channels.instagramDMs.capabilities.2'),
+      t('channelsOverview.channels.instagramDMs.capabilities.3')
+    ],
+    difficulty: t('channelsOverview.labels.difficulty.medium'),
+    difficultyColor: 'bg-yellow-100 text-yellow-800',
+    link: '/channels/instagram',
+    color: 'text-pink-600',
+    bgColor: 'bg-pink-50'
+  },
+  {
+    icon: 'Mail',
+    name: t('channelsOverview.channels.facebookMessenger.name'),
+    capabilities: [
+      t('channelsOverview.channels.facebookMessenger.capabilities.0'),
+      t('channelsOverview.channels.facebookMessenger.capabilities.1'),
+      t('channelsOverview.channels.facebookMessenger.capabilities.2'),
+      t('channelsOverview.channels.facebookMessenger.capabilities.3')
+    ],
+    difficulty: t('channelsOverview.labels.difficulty.medium'),
+    difficultyColor: 'bg-yellow-100 text-yellow-800',
+    link: '/channels/facebook-messenger',
+    color: 'text-blue-700',
+    bgColor: 'bg-blue-50'
+  },
+  {
+    icon: 'FileText',
+    name: t('channelsOverview.channels.contactForms.name'),
+    capabilities: [
+      t('channelsOverview.channels.contactForms.capabilities.0'),
+      t('channelsOverview.channels.contactForms.capabilities.1'),
+      t('channelsOverview.channels.contactForms.capabilities.2'),
+      t('channelsOverview.channels.contactForms.capabilities.3')
+    ],
+    difficulty: t('channelsOverview.labels.difficulty.easy'),
+    difficultyColor: 'bg-green-100 text-green-800',
+    link: '/channels/contact-forms',
+    color: 'text-gray-600',
+    bgColor: 'bg-gray-50'
+  },
+  {
+    icon: 'Smartphone',
+    name: t('channelsOverview.channels.lineBusiness.name'),
+    capabilities: [
+      t('channelsOverview.channels.lineBusiness.capabilities.0'),
+      t('channelsOverview.channels.lineBusiness.capabilities.1'),
+      t('channelsOverview.channels.lineBusiness.capabilities.2'),
+      t('channelsOverview.channels.lineBusiness.capabilities.3')
+    ],
+    difficulty: t('channelsOverview.labels.difficulty.medium'),
+    difficultyColor: 'bg-yellow-100 text-yellow-800',
+    link: '/channels/line',
+    color: 'text-green-500',
+    bgColor: 'bg-green-50'
+  },
+  {
+    icon: 'Globe',
+    name: t('channelsOverview.channels.websiteWidget.name'),
+    capabilities: [
+      t('channelsOverview.channels.websiteWidget.capabilities.0'),
+      t('channelsOverview.channels.websiteWidget.capabilities.1'),
+      t('channelsOverview.channels.websiteWidget.capabilities.2'),
+      t('channelsOverview.channels.websiteWidget.capabilities.3')
+    ],
+    difficulty: t('channelsOverview.labels.difficulty.easy'),
+    difficultyColor: 'bg-green-100 text-green-800',
+    link: '/channels/website-widget',
+    color: 'text-orange-600',
+    bgColor: 'bg-orange-50'
+  }
+];
+
+// 優勢清單
+const benefits = [
+  {
+    icon: 'Star',
+    title: t('channelsOverview.benefits.unifiedCustomerView.title'),
+    description: t('channelsOverview.benefits.unifiedCustomerView.description'),
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-100'
+  },
+  {
+    icon: 'Zap',
+    title: t('channelsOverview.benefits.consistentAITraining.title'),
+    description: t('channelsOverview.benefits.consistentAITraining.description'),
+    color: 'text-green-600',
+    bgColor: 'bg-green-100'
+  },
+  {
+    icon: 'Shield',
+    title: t('channelsOverview.benefits.seamlessHandoffs.title'),
+    description: t('channelsOverview.benefits.seamlessHandoffs.description'),
+    color: 'text-purple-600',
+    bgColor: 'bg-purple-100'
+  }
+];
+
+const meetingUrl = getMeetingUrl(currentLang);
+
+// 圖示組件映射
+const iconMap = {
+  MessageCircle,
+  Phone,
+  MessageSquare,
+  Monitor,
+  Instagram,
+  Mail,
+  FileText,
+  Smartphone,
+  Globe,
+  Star,
+  Zap,
+  Shield
+};
+---
+
+<Layout 
+  title={title} 
+  description={description} 
+  lang={currentLang}
+  keywords={keywords}
+  type="website"
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <a href={`/${currentLang}/`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+        <ArrowLeft className="h-5 w-5 mr-2" />
+        {t('channelsOverview.hero.backToHome')}
+      </a>
+      <div class="text-center mb-16">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('channelsOverview.hero.title')}{' '}
+          <span class="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+            {t('channelsOverview.hero.titleHighlight')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channelsOverview.hero.subtitle')}
+        </p>
+      </div>
+
+      <!-- Central Hub Visualization -->
+      <div class="relative max-w-4xl mx-auto">
+        <div class="bg-white rounded-2xl shadow-2xl p-8 text-center">
+          <div class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-6 rounded-xl mb-6">
+            <h3 class="text-2xl font-bold">{t('channelsOverview.hero.hubTitle')}</h3>
+            <p class="opacity-90">{t('channelsOverview.hero.hubSubtitle')}</p>
+          </div>
+          <div class="grid grid-cols-3 md:grid-cols-5 gap-4">
+            {channels.slice(0, 5).map((channel, index) => {
+              const Icon = iconMap[channel.icon] || iconMap.MessageCircle;
+              return (
+                <div key={index} class={`${channel.bgColor} ${channel.color} p-3 rounded-lg`}>
+                  <Icon class="h-8 w-8" />
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Channels Grid -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channelsOverview.channelsSection.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channelsOverview.channelsSection.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {channels.map((channel, index) => {
+          const Icon = iconMap[channel.icon] || iconMap.MessageCircle;
+          return (
+            <div 
+              key={index}
+              class="p-6 rounded-2xl border-2 border-gray-200 hover:border-gray-300 hover:shadow-lg transition-all duration-300 group"
+            >
+              <div class="flex items-start justify-between mb-4">
+                <div class={`${channel.bgColor} ${channel.color} p-3 rounded-xl group-hover:scale-110 transition-transform duration-300`}>
+                  <Icon class="h-8 w-8" />
+                </div>
+              <span class={`px-3 py-1 rounded-full text-xs font-medium ${channel.difficultyColor}`}>
+                {channel.difficulty}
+              </span>
+            </div>
+            
+            <h3 class="text-xl font-semibold text-gray-900 mb-4">
+              {channel.name}
+            </h3>
+            
+            <ul class="space-y-2 mb-6">
+              {channel.capabilities.map((capability, capIndex) => (
+                <li key={capIndex} class="flex items-start text-sm text-gray-600">
+                  <div class="w-1.5 h-1.5 bg-gray-400 rounded-full mt-2 mr-2 flex-shrink-0"></div>
+                  {capability}
+                </li>
+              ))}
+            </ul>
+            
+              <a
+                href={`/${currentLang}${channel.link}`}
+                class="block w-full text-center bg-gray-100 hover:bg-gray-200 text-gray-800 py-3 rounded-lg font-medium transition-colors duration-200"
+              >
+                {t('channelsOverview.labels.learnMore')}
+              </a>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- Integration Benefits -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channelsOverview.benefitsSection.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channelsOverview.benefitsSection.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        {benefits.map((benefit, index) => {
+          const Icon = iconMap[benefit.icon] || iconMap.Star;
+          return (
+            <div 
+              key={index}
+              class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 group text-center"
+            >
+              <div class={`${benefit.bgColor} ${benefit.color} p-4 rounded-2xl w-fit mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                <Icon class="h-8 w-8" />
+              </div>
+              <h3 class="text-xl font-semibold text-gray-900 mb-4">
+                {benefit.title}
+              </h3>
+              <p class="text-gray-600 leading-relaxed">
+                {benefit.description}
+              </p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-blue-600 to-indigo-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('channelsOverview.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('channelsOverview.cta.subtitle')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('channelsOverview.cta.signUp')}
+        </a>
+        <a
+          href={meetingUrl}
+          class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('channelsOverview.cta.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,566 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+import { getMeetingUrl } from '../../../../constants/urls';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translations for server-side rendering
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO metadata - 使用與舊版本相同的翻譯鍵
+const seoTitle = t('seachat.solutions.fintech.title') || 'SeaChat for Fintech - Secure Financial Customer Support';
+const seoDescription = t('seachat.solutions.fintech.subtitle') || 'Secure, compliant customer support for financial services. Handle transactions, provide investment guidance, and ensure regulatory compliance with confidence.';
+const seoKeywords = t('seachat.solutions.fintech.keywords') || 'fintech customer support, financial AI, banking chatbot, compliance, transaction support, investment guidance';
+
+// Canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/fintech`;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Solutions', url: `/${currentLang}/seachat/solutions/` },
+  { name: t('seachat.solutions.fintech.breadcrumb') || 'Fintech' }
+];
+
+// Open Graph and Twitter data
+const ogData = {
+  title: seoTitle,
+  description: seoDescription,
+  type: 'website',
+  url: canonicalUrl,
+  image: 'https://seasalt.ai/images/seachat-fintech-og.jpg',
+  site_name: 'Seasalt.ai',
+};
+
+const twitterData = {
+  card: 'summary_large_image',
+  title: seoTitle,  
+  description: seoDescription,
+  image: 'https://seasalt.ai/images/seachat-fintech-twitter.jpg',
+};
+
+// Structured data
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SeaChat Fintech Solutions",
+  "applicationCategory": "BusinessApplication",
+  "description": seoDescription,
+  "url": canonicalUrl,
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "description": "Free trial available"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "featureList": [
+    "Financial Security & Compliance",
+    "Payment Support & Processing", 
+    "Investment Guidance",
+    "Regulatory Compliance",
+    "Transaction Tracking",
+    "Fraud Prevention"
+  ],
+  "screenshot": "https://seasalt.ai/images/seachat-fintech-screenshot.jpg"
+};
+
+// Page data - 保持與舊版本相同的翻譯鍵
+const features = [
+  {
+    icon: 'shield',
+    titleKey: 'seachat.solutions.fintech.features.security.title',
+    titleDefault: 'Financial Security',
+    descKey: 'seachat.solutions.fintech.features.security.description',
+    descDefault: 'Bank-grade security with PCI DSS compliance and fraud protection',
+    benefits: [
+      { key: 'seachat.solutions.fintech.features.security.benefits.pci', default: 'PCI DSS compliance' },
+      { key: 'seachat.solutions.fintech.features.security.benefits.fraud', default: 'Fraud detection' },
+      { key: 'seachat.solutions.fintech.features.security.benefits.transactions', default: 'Secure transactions' },
+      { key: 'seachat.solutions.fintech.features.security.benefits.identity', default: 'Identity verification' }
+    ]
+  },
+  {
+    icon: 'credit-card',
+    titleKey: 'seachat.solutions.fintech.features.payment.title',
+    titleDefault: 'Payment Support',
+    descKey: 'seachat.solutions.fintech.features.payment.description',
+    descDefault: 'Comprehensive payment processing support and dispute resolution',
+    benefits: [
+      { key: 'seachat.solutions.fintech.features.payment.benefits.tracking', default: 'Transaction tracking' },
+      { key: 'seachat.solutions.fintech.features.payment.benefits.dispute', default: 'Dispute handling' },
+      { key: 'seachat.solutions.fintech.features.payment.benefits.refund', default: 'Refund processing' },
+      { key: 'seachat.solutions.fintech.features.payment.benefits.methods', default: 'Payment methods' }
+    ]
+  },
+  {
+    icon: 'trending-up',
+    titleKey: 'seachat.solutions.fintech.features.investment.title',
+    titleDefault: 'Investment Guidance',
+    descKey: 'seachat.solutions.fintech.features.investment.description',
+    descDefault: 'AI-powered investment advice and portfolio management support',
+    benefits: [
+      { key: 'seachat.solutions.fintech.features.investment.benefits.insights', default: 'Market insights' },
+      { key: 'seachat.solutions.fintech.features.investment.benefits.portfolio', default: 'Portfolio analysis' },
+      { key: 'seachat.solutions.fintech.features.investment.benefits.risk', default: 'Risk assessment' },
+      { key: 'seachat.solutions.fintech.features.investment.benefits.recommendations', default: 'Investment recommendations' }
+    ]
+  },
+  {
+    icon: 'lock',
+    titleKey: 'seachat.solutions.fintech.features.compliance.title',
+    titleDefault: 'Regulatory Compliance',
+    descKey: 'seachat.solutions.fintech.features.compliance.description',
+    descDefault: 'Built-in compliance with financial regulations and reporting requirements',
+    benefits: [
+      { key: 'seachat.solutions.fintech.features.compliance.benefits.kyc', default: 'KYC/AML compliance' },
+      { key: 'seachat.solutions.fintech.features.compliance.benefits.reporting', default: 'Regulatory reporting' },
+      { key: 'seachat.solutions.fintech.features.compliance.benefits.audit', default: 'Audit trails' },
+      { key: 'seachat.solutions.fintech.features.compliance.benefits.protection', default: 'Data protection' }
+    ]
+  }
+];
+
+const useCases = [
+  {
+    titleKey: 'seachat.solutions.fintech.useCases.account.title',
+    titleDefault: 'Account Management',
+    descKey: 'seachat.solutions.fintech.useCases.account.description', 
+    descDefault: 'Help customers with account setup, verification, and management',
+    exampleKey: 'seachat.solutions.fintech.useCases.account.example',
+    exampleDefault: 'I need help setting up my business account',
+    outcomeKey: 'seachat.solutions.fintech.useCases.account.outcome',
+    outcomeDefault: 'Guided account setup with document verification and compliance checks'
+  },
+  {
+    titleKey: 'seachat.solutions.fintech.useCases.transaction.title',
+    titleDefault: 'Transaction Inquiries',
+    descKey: 'seachat.solutions.fintech.useCases.transaction.description',
+    descDefault: 'Provide real-time transaction status and history information',
+    exampleKey: 'seachat.solutions.fintech.useCases.transaction.example',
+    exampleDefault: 'Where is my wire transfer to ABC Company?',
+    outcomeKey: 'seachat.solutions.fintech.useCases.transaction.outcome',
+    outcomeDefault: 'Real-time transaction tracking with detailed status updates'
+  },
+  {
+    titleKey: 'seachat.solutions.fintech.useCases.fraud.title',
+    titleDefault: 'Fraud Prevention',
+    descKey: 'seachat.solutions.fintech.useCases.fraud.description',
+    descDefault: 'Detect and prevent fraudulent activities with AI monitoring',
+    exampleKey: 'seachat.solutions.fintech.useCases.fraud.example',
+    exampleDefault: 'I see a suspicious charge on my account',
+    outcomeKey: 'seachat.solutions.fintech.useCases.fraud.outcome',
+    outcomeDefault: 'Immediate fraud investigation and account protection measures'
+  },
+  {
+    titleKey: 'seachat.solutions.fintech.useCases.investment.title',
+    titleDefault: 'Investment Support',
+    descKey: 'seachat.solutions.fintech.useCases.investment.description',
+    descDefault: 'Provide investment guidance and portfolio management assistance',
+    exampleKey: 'seachat.solutions.fintech.useCases.investment.example',
+    exampleDefault: 'Should I invest in tech stocks right now?',
+    outcomeKey: 'seachat.solutions.fintech.useCases.investment.outcome',
+    outcomeDefault: 'Personalized investment advice based on risk profile and market analysis'
+  }
+];
+
+const metrics = [
+  { 
+    value: '99.9%', 
+    labelKey: 'seachat.solutions.fintech.metrics.accuracy.label',
+    labelDefault: 'Transaction Accuracy', 
+    descKey: 'seachat.solutions.fintech.metrics.accuracy.description',
+    descDefault: 'With automated processing and verification'
+  },
+  { 
+    value: '75%', 
+    labelKey: 'seachat.solutions.fintech.metrics.resolution.label',
+    labelDefault: 'Faster Resolution', 
+    descKey: 'seachat.solutions.fintech.metrics.resolution.description',
+    descDefault: 'For financial inquiries and disputes'
+  },
+  { 
+    value: '90%', 
+    labelKey: 'seachat.solutions.fintech.metrics.fraud.label',
+    labelDefault: 'Fraud Detection Rate', 
+    descKey: 'seachat.solutions.fintech.metrics.fraud.description',
+    descDefault: 'With AI-powered monitoring systems'
+  },
+  { 
+    value: '95%', 
+    labelKey: 'seachat.solutions.fintech.metrics.satisfaction.label',
+    labelDefault: 'Customer Satisfaction', 
+    descKey: 'seachat.solutions.fintech.metrics.satisfaction.description',
+    descDefault: 'For financial support interactions'
+  }
+];
+
+const regulations = [
+  { 
+    nameKey: 'seachat.solutions.fintech.regulations.pci.name',
+    nameDefault: 'PCI DSS', 
+    descKey: 'seachat.solutions.fintech.regulations.pci.description',
+    descDefault: 'Payment Card Industry Data Security Standard', 
+    statusKey: 'seachat.solutions.fintech.regulations.pci.status',
+    statusDefault: 'Compliant' 
+  },
+  { 
+    nameKey: 'seachat.solutions.fintech.regulations.sox.name',
+    nameDefault: 'SOX', 
+    descKey: 'seachat.solutions.fintech.regulations.sox.description',
+    descDefault: 'Sarbanes-Oxley Act compliance', 
+    statusKey: 'seachat.solutions.fintech.regulations.sox.status',
+    statusDefault: 'Compliant' 
+  },
+  { 
+    nameKey: 'seachat.solutions.fintech.regulations.gdpr.name',
+    nameDefault: 'GDPR', 
+    descKey: 'seachat.solutions.fintech.regulations.gdpr.description',
+    descDefault: 'General Data Protection Regulation', 
+    statusKey: 'seachat.solutions.fintech.regulations.gdpr.status',
+    statusDefault: 'Compliant' 
+  },
+  { 
+    nameKey: 'seachat.solutions.fintech.regulations.kyc.name',
+    nameDefault: 'KYC/AML', 
+    descKey: 'seachat.solutions.fintech.regulations.kyc.description',
+    descDefault: 'Know Your Customer / Anti-Money Laundering', 
+    statusKey: 'seachat.solutions.fintech.regulations.kyc.status',
+    statusDefault: 'Supported' 
+  },
+  { 
+    nameKey: 'seachat.solutions.fintech.regulations.ccpa.name',
+    nameDefault: 'CCPA', 
+    descKey: 'seachat.solutions.fintech.regulations.ccpa.description',
+    descDefault: 'California Consumer Privacy Act', 
+    statusKey: 'seachat.solutions.fintech.regulations.ccpa.status',
+    statusDefault: 'Compliant' 
+  },
+  { 
+    nameKey: 'seachat.solutions.fintech.regulations.finra.name',
+    nameDefault: 'FINRA', 
+    descKey: 'seachat.solutions.fintech.regulations.finra.description',
+    descDefault: 'Financial Industry Regulatory Authority', 
+    statusKey: 'seachat.solutions.fintech.regulations.finra.status',
+    statusDefault: 'Supported' 
+  }
+];
+
+// Helper function to get icon SVG
+function getIconSVG(iconName: string) {
+  const icons = {
+    'dollar-sign': `<svg class="w-16 h-16 text-green-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"/>
+    </svg>`,
+    'shield': `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+    </svg>`,
+    'credit-card': `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+    </svg>`,
+    'trending-up': `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+    </svg>`,
+    'lock': `<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+    </svg>`,
+    'check-circle': `<svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+    </svg>`,
+    'arrow-right': `<svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+    </svg>`
+  };
+  return icons[iconName] || '';
+}
+---
+
+<Layout 
+  title={seoTitle} 
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  canonicalUrl={canonicalUrl}
+  ogData={ogData}
+  twitterData={twitterData}
+  structuredData={structuredData}
+  breadcrumbs={breadcrumbs}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-green-900 via-blue-800 to-indigo-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <Fragment set:html={getIconSVG('dollar-sign')} />
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.solutions.fintech.title') || 'Fintech Solutions'}
+            </h1>
+          </div>
+          <p class="text-2xl text-green-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.solutions.fintech.subtitle') || 'Secure, compliant customer support for financial services. Handle transactions, provide investment guidance, and ensure regulatory compliance with confidence.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-green-500 hover:bg-green-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.solutions.fintech.trialButton') || 'Start Fintech For Free'}
+            </a>
+            <a
+              href={getMeetingUrl(currentLang)}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-green-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.solutions.fintech.demoButton') || 'Schedule Financial Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.fintech.featuresTitle') || 'Financial Services Features'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.fintech.featuresSubtitle') || 'Purpose-built features for financial institutions to deliver secure, compliant customer support.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              class="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl p-8 border border-green-100"
+            >
+              <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-blue-500 rounded-2xl flex items-center justify-center mb-6">
+                <Fragment set:html={getIconSVG(feature.icon)} />
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(feature.titleKey) || feature.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6 text-lg">
+                {t(feature.descKey) || feature.descDefault}
+              </p>
+              
+              <div class="space-y-3">
+                {feature.benefits.map((benefit, idx) => (
+                  <div key={idx} class="flex items-center space-x-3">
+                    <Fragment set:html={getIconSVG('check-circle')} />
+                    <span class="text-gray-700">{t(benefit.key) || benefit.default}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Metrics -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.fintech.impactTitle') || 'Financial Services Impact'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.fintech.impactSubtitle') || 'Real results from financial institutions using SeaChat for customer support.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {metrics.map((metric, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300"
+            >
+              <div class="text-4xl font-bold text-green-600 mb-4">{metric.value}</div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                {t(metric.labelKey) || metric.labelDefault}
+              </h3>
+              <p class="text-gray-600 text-sm">
+                {t(metric.descKey) || metric.descDefault}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.fintech.useCasesTitle') || 'Financial Support Use Cases'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.fintech.useCasesSubtitle') || 'See how SeaChat handles complex financial inquiries and transactions.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {useCases.map((useCase, index) => (
+            <div
+              key={index}
+              class="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl p-8 border border-green-100"
+            >
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(useCase.titleKey) || useCase.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6">
+                {t(useCase.descKey) || useCase.descDefault}
+              </p>
+              
+              <div class="space-y-4">
+                <div class="bg-white rounded-lg p-4 border-l-4 border-blue-500">
+                  <h4 class="font-semibold text-blue-900 mb-2">
+                    {t('seachat.solutions.fintech.customerInquiry') || 'Customer Inquiry'}:
+                  </h4>
+                  <p class="text-blue-800 italic">
+                    "{t(useCase.exampleKey) || useCase.exampleDefault}"
+                  </p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-4 border-l-4 border-green-500">
+                  <h4 class="font-semibold text-green-900 mb-2">
+                    {t('seachat.solutions.fintech.seachatResponse') || 'SeaChat Response'}:
+                  </h4>
+                  <p class="text-green-800">
+                    {t(useCase.outcomeKey) || useCase.outcomeDefault}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Security & Compliance -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seachat.solutions.fintech.securityTitle') || 'Bank-Grade Security & Compliance'}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seachat.solutions.fintech.securitySubtitle') || 'Built with the highest security standards and regulatory compliance requirements for financial services institutions.'}
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+              {(() => {
+                const securityFeatures = t('seachat.solutions.fintech.securityFeatures', { returnObjects: true });
+                const featuresArray = Array.isArray(securityFeatures) ? securityFeatures : [
+                  'End-to-end encryption',
+                  'Multi-factor authentication',
+                  'Regular security audits',
+                  'Data loss prevention',
+                  'Access controls',
+                  'Audit logging'
+                ];
+                return featuresArray.map((feature: string, index: number) => (
+                  <div key={index} class="flex items-center space-x-3">
+                    <Fragment set:html={getIconSVG('check-circle')} />
+                    <span class="text-gray-700">{feature}</span>
+                  </div>
+                ));
+              })()}
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-8 shadow-2xl">
+            <div class="text-center mb-6">
+              <Fragment set:html={`<svg class="w-16 h-16 text-green-600 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+              </svg>`} />
+              <h3 class="text-2xl font-bold text-gray-900">
+                {t('seachat.solutions.fintech.regulatoryTitle') || 'Regulatory Compliance'}
+              </h3>
+            </div>
+            
+            <div class="space-y-4">
+              {regulations.map((regulation, index) => (
+                <div key={index} class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                  <div>
+                    <div class="font-medium text-gray-900">
+                      {t(regulation.nameKey) || regulation.nameDefault}
+                    </div>
+                    <div class="text-sm text-gray-600">
+                      {t(regulation.descKey) || regulation.descDefault}
+                    </div>
+                  </div>
+                  <span class={`px-3 py-1 rounded-full text-sm font-medium ${
+                    (t(regulation.statusKey) || regulation.statusDefault) === 'Compliant' 
+                      ? 'bg-green-100 text-green-800' 
+                      : 'bg-blue-100 text-blue-800'
+                  }`}>
+                    {t(regulation.statusKey) || regulation.statusDefault}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-green-600 to-blue-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.solutions.fintech.ctaTitle') || 'Ready to Secure Your Financial Services?'}
+        </h2>
+        <p class="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.solutions.fintech.ctaSubtitle') || 'Join financial institutions already using SeaChat to deliver secure, compliant customer support that builds trust and drives growth.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.solutions.fintech.ctaTrialButton') || 'Start Fintech For Free'}
+          </a>
+          <a
+            href={getMeetingUrl(currentLang)}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+          >
+            {t('seachat.solutions.fintech.ctaDemoButton') || 'Schedule Financial Demo'}
+            <Fragment set:html={getIconSVG('arrow-right')} />
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

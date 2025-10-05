@@ -1,0 +1,612 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+import { getMeetingUrl } from '../../../../constants/urls';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translations for server-side rendering
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO metadata - 使用與舊版本相同的翻譯鍵
+const seoTitle = t('seachat.solutions.education.title') || 'SeaChat for Education - Streamline Student Support & Campus Communication';
+const seoDescription = t('seachat.solutions.education.subtitle') || 'Transform your educational institution with intelligent AI support for students, parents, faculty, and staff. Automate admissions, academic support, and campus operations.';
+const seoKeywords = t('seachat.solutions.education.keywords') || 'SeaChat education, student support, campus communication, educational AI, admission automation, academic assistance';
+
+// Canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/education`;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Solutions', url: `/${currentLang}/seachat/solutions/` },
+  { name: t('seachat.solutions.education.breadcrumb') || 'Education' }
+];
+
+// Open Graph and Twitter data
+const ogData = {
+  title: seoTitle,
+  description: seoDescription,
+  type: 'website',
+  url: canonicalUrl,
+  image: 'https://seasalt.ai/images/seachat-education-og.jpg',
+  site_name: 'Seasalt.ai',
+};
+
+const twitterData = {
+  card: 'summary_large_image',
+  title: seoTitle,  
+  description: seoDescription,
+  image: 'https://seasalt.ai/images/seachat-education-twitter.jpg',
+};
+
+// Structured data
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SeaChat Education Solutions",
+  "applicationCategory": "BusinessApplication",
+  "description": seoDescription,
+  "url": canonicalUrl,
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "description": "Free trial available"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "featureList": [
+    "Student Support Automation",
+    "Administrative Task Management", 
+    "Stakeholder Communication",
+    "LMS Integration",
+    "24/7 Campus Assistance",
+    "Multi-Language Support"
+  ],
+  "screenshot": "https://seasalt.ai/images/seachat-education-screenshot.jpg"
+};
+
+// Page data - 保持與舊版本相同的翻譯鍵
+const features = [
+  {
+    icon: 'book-open',
+    titleKey: 'seachat.solutions.education.features.student.title',
+    titleDefault: 'Student Support Services',
+    descKey: 'seachat.solutions.education.features.student.description',
+    descDefault: 'Provide comprehensive support for student inquiries, enrollment, academic guidance, and technical assistance.',
+    benefits: [
+      { key: 'seachat.solutions.education.features.student.benefits.support', default: '24/7 student support' },
+      { key: 'seachat.solutions.education.features.student.benefits.enrollment', default: 'Enrollment assistance' },
+      { key: 'seachat.solutions.education.features.student.benefits.academic', default: 'Academic guidance' },
+      { key: 'seachat.solutions.education.features.student.benefits.technical', default: 'Technical support' }
+    ]
+  },
+  {
+    icon: 'calendar',
+    titleKey: 'seachat.solutions.education.features.admin.title',
+    titleDefault: 'Administrative Automation',
+    descKey: 'seachat.solutions.education.features.admin.description',
+    descDefault: 'Streamline administrative tasks including class scheduling, event management, and deadline tracking.',
+    benefits: [
+      { key: 'seachat.solutions.education.features.admin.benefits.scheduling', default: 'Class scheduling automation' },
+      { key: 'seachat.solutions.education.features.admin.benefits.events', default: 'Event management' },
+      { key: 'seachat.solutions.education.features.admin.benefits.deadlines', default: 'Deadline notifications' },
+      { key: 'seachat.solutions.education.features.admin.benefits.registration', default: 'Course registration' }
+    ]
+  },
+  {
+    icon: 'users',
+    titleKey: 'seachat.solutions.education.features.stakeholder.title',
+    titleDefault: 'Stakeholder Communication',
+    descKey: 'seachat.solutions.education.features.stakeholder.description',
+    descDefault: 'Connect students, parents, faculty, and staff through unified communication portals.',
+    benefits: [
+      { key: 'seachat.solutions.education.features.stakeholder.benefits.portals', default: 'Unified communication portals' },
+      { key: 'seachat.solutions.education.features.stakeholder.benefits.parent', default: 'Parent engagement' },
+      { key: 'seachat.solutions.education.features.stakeholder.benefits.faculty', default: 'Faculty collaboration' },
+      { key: 'seachat.solutions.education.features.stakeholder.benefits.staff', default: 'Staff coordination' }
+    ]
+  },
+  {
+    icon: 'message-square',
+    titleKey: 'seachat.solutions.education.features.lms.title',
+    titleDefault: 'LMS Integration',
+    descKey: 'seachat.solutions.education.features.lms.description',
+    descDefault: 'Seamlessly integrate with learning management systems to provide contextual support.',
+    benefits: [
+      { key: 'seachat.solutions.education.features.lms.benefits.connectivity', default: 'LMS connectivity' },
+      { key: 'seachat.solutions.education.features.lms.benefits.grades', default: 'Grade inquiries' },
+      { key: 'seachat.solutions.education.features.lms.benefits.assignments', default: 'Assignment help' },
+      { key: 'seachat.solutions.education.features.lms.benefits.courses', default: 'Course information' }
+    ]
+  }
+];
+
+const integrations = [
+  { 
+    nameKey: 'seachat.solutions.education.integrations.canvas.name',
+    nameDefault: 'Canvas',
+    logo: '🎨', 
+    descKey: 'seachat.solutions.education.integrations.canvas.description',
+    descDefault: 'Complete integration with Canvas LMS platform'
+  },
+  { 
+    nameKey: 'seachat.solutions.education.integrations.blackboard.name',
+    nameDefault: 'Blackboard Learn',
+    logo: '⚫', 
+    descKey: 'seachat.solutions.education.integrations.blackboard.description',
+    descDefault: 'Native Blackboard Learn integration for seamless support'
+  },
+  { 
+    nameKey: 'seachat.solutions.education.integrations.moodle.name',
+    nameDefault: 'Moodle',
+    logo: '🎓', 
+    descKey: 'seachat.solutions.education.integrations.moodle.description',
+    descDefault: 'Open-source Moodle LMS connectivity'
+  },
+  { 
+    nameKey: 'seachat.solutions.education.integrations.google.name',
+    nameDefault: 'Google Classroom',
+    logo: '📚', 
+    descKey: 'seachat.solutions.education.integrations.google.description',
+    descDefault: 'Google for Education suite integration'
+  },
+  { 
+    nameKey: 'seachat.solutions.education.integrations.zoom.name',
+    nameDefault: 'Zoom',
+    logo: '📹', 
+    descKey: 'seachat.solutions.education.integrations.zoom.description',
+    descDefault: 'Video conferencing and webinar support'
+  },
+  { 
+    nameKey: 'seachat.solutions.education.integrations.teams.name',
+    nameDefault: 'Microsoft Teams',
+    logo: '💼', 
+    descKey: 'seachat.solutions.education.integrations.teams.description',
+    descDefault: 'Microsoft Teams for Education integration'
+  },
+  { 
+    nameKey: 'seachat.solutions.education.integrations.sis.name',
+    nameDefault: 'Student Information System',
+    logo: '🗂️', 
+    descKey: 'seachat.solutions.education.integrations.sis.description',
+    descDefault: 'Connect with existing SIS platforms'
+  },
+  { 
+    nameKey: 'seachat.solutions.education.integrations.library.name',
+    nameDefault: 'Library Systems',
+    logo: '📖', 
+    descKey: 'seachat.solutions.education.integrations.library.description',
+    descDefault: 'Library catalog and resource management'
+  }
+];
+
+const metrics = [
+  { 
+    value: '50%', 
+    labelKey: 'seachat.solutions.education.metrics.admin.label',
+    labelDefault: 'Reduction in Administrative Tasks',
+    descKey: 'seachat.solutions.education.metrics.admin.description',
+    descDefault: 'Through intelligent automation'
+  },
+  { 
+    value: '85%', 
+    labelKey: 'seachat.solutions.education.metrics.satisfaction.label',
+    labelDefault: 'Student Satisfaction Rate',
+    descKey: 'seachat.solutions.education.metrics.satisfaction.description',
+    descDefault: 'For AI-powered support interactions'
+  },
+  { 
+    value: '40%', 
+    labelKey: 'seachat.solutions.education.metrics.response.label',
+    labelDefault: 'Faster Response Times',
+    descKey: 'seachat.solutions.education.metrics.response.description',
+    descDefault: 'With automated inquiry handling'
+  },
+  { 
+    value: '60%', 
+    labelKey: 'seachat.solutions.education.metrics.enrollment.label',
+    labelDefault: 'Increase in Enrollment Inquiries',
+    descKey: 'seachat.solutions.education.metrics.enrollment.description',
+    descDefault: 'Through 24/7 availability'
+  }
+];
+
+const stakeholders = [
+  {
+    titleKey: 'seachat.solutions.education.stakeholders.students.title',
+    titleDefault: 'Students',
+    descKey: 'seachat.solutions.education.stakeholders.students.description',
+    descDefault: 'Comprehensive support for all student needs',
+    features: [
+      { key: 'seachat.solutions.education.stakeholders.students.features.courses', default: 'Course information' },
+      { key: 'seachat.solutions.education.stakeholders.students.features.assignments', default: 'Assignment help' },
+      { key: 'seachat.solutions.education.stakeholders.students.features.grades', default: 'Grade inquiries' },
+      { key: 'seachat.solutions.education.stakeholders.students.features.campus', default: 'Campus services' }
+    ]
+  },
+  {
+    titleKey: 'seachat.solutions.education.stakeholders.parents.title',
+    titleDefault: 'Parents',
+    descKey: 'seachat.solutions.education.stakeholders.parents.description',
+    descDefault: 'Keep parents informed and engaged',
+    features: [
+      { key: 'seachat.solutions.education.stakeholders.parents.features.progress', default: 'Student progress updates' },
+      { key: 'seachat.solutions.education.stakeholders.parents.features.payment', default: 'Payment information' },
+      { key: 'seachat.solutions.education.stakeholders.parents.features.events', default: 'School events' },
+      { key: 'seachat.solutions.education.stakeholders.parents.features.communication', default: 'Teacher communication' }
+    ]
+  },
+  {
+    titleKey: 'seachat.solutions.education.stakeholders.faculty.title',
+    titleDefault: 'Faculty',
+    descKey: 'seachat.solutions.education.stakeholders.faculty.description',
+    descDefault: 'Support teaching and administrative tasks',
+    features: [
+      { key: 'seachat.solutions.education.stakeholders.faculty.features.management', default: 'Class management' },
+      { key: 'seachat.solutions.education.stakeholders.faculty.features.inquiries', default: 'Student inquiries' },
+      { key: 'seachat.solutions.education.stakeholders.faculty.features.resources', default: 'Resource access' },
+      { key: 'seachat.solutions.education.stakeholders.faculty.features.technical', default: 'Technical support' }
+    ]
+  },
+  {
+    titleKey: 'seachat.solutions.education.stakeholders.staff.title',
+    titleDefault: 'Staff',
+    descKey: 'seachat.solutions.education.stakeholders.staff.description',
+    descDefault: 'Administrative efficiency and support',
+    features: [
+      { key: 'seachat.solutions.education.stakeholders.staff.features.automation', default: 'Process automation' },
+      { key: 'seachat.solutions.education.stakeholders.staff.features.information', default: 'Information management' },
+      { key: 'seachat.solutions.education.stakeholders.staff.features.workflow', default: 'Workflow optimization' },
+      { key: 'seachat.solutions.education.stakeholders.staff.features.reporting', default: 'Reporting tools' }
+    ]
+  }
+];
+
+const useCases = [
+  {
+    titleKey: 'seachat.solutions.education.useCases.enrollment.title',
+    titleDefault: 'Enrollment Support',
+    descKey: 'seachat.solutions.education.useCases.enrollment.description',
+    descDefault: 'Streamline admission processes and support prospective students',
+    exampleKey: 'seachat.solutions.education.useCases.enrollment.example',
+    exampleDefault: 'What documents do I need for my application?',
+    outcomeKey: 'seachat.solutions.education.useCases.enrollment.outcome',
+    outcomeDefault: 'Instantly provide personalized checklist based on program and student type'
+  },
+  {
+    titleKey: 'seachat.solutions.education.useCases.academic.title',
+    titleDefault: 'Academic Support',
+    descKey: 'seachat.solutions.education.useCases.academic.description',
+    descDefault: 'Help students with course-related questions and academic guidance',
+    exampleKey: 'seachat.solutions.education.useCases.academic.example',
+    exampleDefault: 'How can I access my course materials?',
+    outcomeKey: 'seachat.solutions.education.useCases.academic.outcome',
+    outcomeDefault: 'Direct students to LMS with personalized login assistance'
+  },
+  {
+    titleKey: 'seachat.solutions.education.useCases.campus.title',
+    titleDefault: 'Campus Services',
+    descKey: 'seachat.solutions.education.useCases.campus.description',
+    descDefault: 'Provide information about campus facilities and services',
+    exampleKey: 'seachat.solutions.education.useCases.campus.example',
+    exampleDefault: 'Where is the library located?',
+    outcomeKey: 'seachat.solutions.education.useCases.campus.outcome',
+    outcomeDefault: 'Provide location, hours, and available services with interactive map'
+  },
+  {
+    titleKey: 'seachat.solutions.education.useCases.financial.title',
+    titleDefault: 'Financial Aid Support',
+    descKey: 'seachat.solutions.education.useCases.financial.description',
+    descDefault: 'Assist with financial aid inquiries and payment questions',
+    exampleKey: 'seachat.solutions.education.useCases.financial.example',
+    exampleDefault: 'What financial aid options are available?',
+    outcomeKey: 'seachat.solutions.education.useCases.financial.outcome',
+    outcomeDefault: 'Present available scholarships, grants, and loan options based on eligibility'
+  }
+];
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout 
+  title={seoTitle} 
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  canonicalUrl={canonicalUrl}
+  ogData={ogData}
+  twitterData={twitterData}
+  structuredData={structuredData}
+  breadcrumbs={breadcrumbs}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-purple-800 to-indigo-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-blue-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.solutions.education.title') || 'Education & Training'}
+            </h1>
+          </div>
+          <p class="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.solutions.education.subtitle') || 'Transform your educational institution with intelligent AI support for students, parents, faculty, and staff. Automate admissions, academic support, and campus operations.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.solutions.education.trialButton') || 'Start Education Trial'}
+            </a>
+            <a
+              href={meetingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.solutions.education.demoButton') || 'Schedule Education Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.education.featuresTitle') || 'Comprehensive Education Features'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.education.featuresSubtitle') || 'Purpose-built features to support all aspects of educational institutions and their stakeholders.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          {features.map((feature) => (
+            <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-100">
+              <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center mb-6">
+                {feature.icon === 'book-open' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                  </svg>
+                )}
+                {feature.icon === 'calendar' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'users' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'message-square' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                  </svg>
+                )}
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(feature.titleKey) || feature.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6 text-lg">
+                {t(feature.descKey) || feature.descDefault}
+              </p>
+              
+              <div class="space-y-3">
+                {feature.benefits.map((benefit) => (
+                  <div class="flex items-center space-x-3">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-gray-700">{t(benefit.key) || benefit.default}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Stakeholder Support -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.education.stakeholdersTitle') || 'Support All Stakeholders'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.education.stakeholdersSubtitle') || 'Comprehensive AI support for every member of your educational community.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {stakeholders.map((stakeholder) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">
+                {t(stakeholder.titleKey) || stakeholder.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6">
+                {t(stakeholder.descKey) || stakeholder.descDefault}
+              </p>
+              
+              <div class="space-y-2">
+                {stakeholder.features.map((feature) => (
+                  <div class="flex items-center space-x-3">
+                    <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                    <span class="text-gray-700 text-sm">{t(feature.key) || feature.default}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Metrics -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.education.metricsTitle') || 'Proven Educational Results'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.education.metricsSubtitle') || 'Real metrics from educational institutions using SeaChat for student and administrative support.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {metrics.map((metric) => (
+            <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div class="text-4xl font-bold text-blue-600 mb-4">{metric.value}</div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                {t(metric.labelKey) || metric.labelDefault}
+              </h3>
+              <p class="text-gray-600 text-sm">
+                {t(metric.descKey) || metric.descDefault}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.education.useCasesTitle') || 'Real Educational Use Cases'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.education.useCasesSubtitle') || 'See how SeaChat handles common educational inquiries with intelligent, contextual responses.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {useCases.map((useCase) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(useCase.titleKey) || useCase.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6">
+                {t(useCase.descKey) || useCase.descDefault}
+              </p>
+              
+              <div class="space-y-4">
+                <div class="bg-blue-50 rounded-lg p-4 border-l-4 border-blue-500">
+                  <h4 class="font-semibold text-blue-900 mb-2">
+                    {t('seachat.solutions.education.studentInquiry') || 'Student Inquiry'}:
+                  </h4>
+                  <p class="text-blue-800 italic">
+                    "{t(useCase.exampleKey) || useCase.exampleDefault}"
+                  </p>
+                </div>
+                
+                <div class="bg-green-50 rounded-lg p-4 border-l-4 border-green-500">
+                  <h4 class="font-semibold text-green-900 mb-2">
+                    {t('seachat.solutions.education.seachatResponse') || 'SeaChat Response'}:
+                  </h4>
+                  <p class="text-green-800">
+                    {t(useCase.outcomeKey) || useCase.outcomeDefault}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Integrations -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.education.integrationsTitle') || 'Educational Platform Integrations'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.education.integrationsSubtitle') || 'Seamlessly connect with your existing educational technology stack for unified support experiences.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {integrations.map((integration) => (
+            <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all duration-300">
+              <div class="text-4xl mb-4">{integration.logo}</div>
+              <h3 class="font-bold text-gray-900 mb-2">
+                {t(integration.nameKey) || integration.nameDefault}
+              </h3>
+              <p class="text-gray-600 text-sm">
+                {t(integration.descKey) || integration.descDefault}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.solutions.education.ctaTitle') || 'Ready to Transform Your Educational Institution?'}
+        </h2>
+        <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.solutions.education.ctaSubtitle') || 'Join educational institutions worldwide in providing exceptional AI-powered support to students, faculty, and staff.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.solutions.education.ctaTrialButton') || 'Start Free Education Trial'}
+          </a>
+          <a
+            href={meetingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+          >
+            {t('seachat.solutions.education.ctaDemoButton') || 'Schedule Education Demo'}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

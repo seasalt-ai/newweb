@@ -1,0 +1,153 @@
+{
+  "performance_baseline": {
+    "test_date": "$(date +%Y-%m-%d)",
+    "test_time": "$(date +%H:%M:%S)",
+    "description": "React + Vite 架構效能基準測試",
+    
+    "technical_stack": {
+      "framework": "React 18.3.1",
+      "build_tool": "Vite 5.4.2", 
+      "css": "Tailwind CSS 3.4.1",
+      "router": "React Router DOM 6.26.1",
+      "i18n": "i18next 23.10.0 + react-i18next 14.0.5",
+      "seo": "react-helmet-async 2.0.4",
+      "animation": "Framer Motion 12.23.5",
+      "rendering": "Client-Side Rendering (CSR) + Prerendering"
+    },
+    
+    "build_performance": {
+      "build_tool": "Vite",
+      "typescript_compilation": "tsc -b",
+      "bundle_optimization": "Vite production build",
+      "css_processing": "Tailwind CSS + PostCSS",
+      "asset_optimization": "Vite built-in optimization"
+    },
+    
+    "expected_metrics": {
+      "description": "預期的效能指標（基於 React + Vite 架構）",
+      "lighthouse": {
+        "performance": "85-95",
+        "accessibility": "95-100", 
+        "best_practices": "90-100",
+        "seo": "90-100"
+      },
+      "loading": {
+        "first_contentful_paint": "1.2-2.0s",
+        "largest_contentful_paint": "2.0-3.5s", 
+        "time_to_interactive": "2.5-4.0s",
+        "cumulative_layout_shift": "< 0.1"
+      },
+      "bundle_sizes": {
+        "main_js": "較大（包含完整 React 運行時）",
+        "css": "Tailwind CSS purged",
+        "assets": "圖片和字體檔案"
+      }
+    },
+    
+    "optimization_features": {
+      "prerendering": {
+        "enabled": true,
+        "method": "Puppeteer-based prerendering",
+        "scripts": ["prerender-simple.mjs", "prerender-copy.mjs"],
+        "purpose": "提升 SEO 和首次載入速度"
+      },
+      "code_splitting": {
+        "enabled": true,
+        "method": "React Router + React.lazy",
+        "level": "Route-based splitting"
+      },
+      "css_optimization": {
+        "method": "Tailwind CSS purging",
+        "tree_shaking": true
+      },
+      "asset_optimization": {
+        "images": "基本最佳化",
+        "fonts": "字體預載入",
+        "compression": "Gzip/Brotli (伺服器端)"
+      }
+    },
+    
+    "multi_language_impact": {
+      "supported_languages": 20,
+      "loading_method": "i18next-http-backend (動態載入)",
+      "bundle_impact": "翻譯資源分離載入",
+      "routing_complexity": "語言前綴路由 /{lang}/page"
+    },
+    
+    "seo_features": {
+      "meta_tags": "動態生成 (react-helmet-async)",
+      "structured_data": "Schema.org 標記",
+      "sitemaps": "自動生成",
+      "canonical_urls": "多語言 canonical 和 hreflang",
+      "prerendering": "Puppeteer 預渲染提升 SEO"
+    },
+    
+    "improvement_targets": {
+      "description": "搬遷到 Astro 後預期的改善項目",
+      "performance": {
+        "bundle_size": "顯著減少 (移除 React 運行時)",
+        "loading_speed": "提升 20-40%",
+        "time_to_interactive": "大幅減少",
+        "core_web_vitals": "全面提升"
+      },
+      "seo": {
+        "static_generation": "原生 SSG，無需預渲染",
+        "html_output": "更乾淨的 HTML 輸出",
+        "crawlability": "搜尋引擎爬蟲友善"
+      },
+      "maintenance": {
+        "build_time": "減少建置時間",
+        "complexity": "降低架構複雜度",
+        "developer_experience": "改善開發體驗"
+      }
+    },
+    
+    "migration_considerations": {
+      "critical_features": [
+        "20種語言完整支援",
+        "所有路由結構保持不變", 
+        "SEO meta 標籤完全相同",
+        "視覺外觀 100% 一致",
+        "互動功能正常運作"
+      ],
+      "potential_challenges": [
+        "React 組件轉換為 Astro 組件",
+        "i18next 轉換為 Astro i18n",
+        "客戶端互動轉換為島嶼架構",
+        "建置和部署流程調整"
+      ]
+    },
+    
+    "test_urls_for_comparison": {
+      "homepage": {
+        "en": "/en",
+        "zh_tw": "/zh-TW", 
+        "es": "/es"
+      },
+      "product_pages": {
+        "seachat": "/en/seachat",
+        "seax": "/en/seax", 
+        "seavoice": "/en/seavoice"
+      },
+      "content_pages": {
+        "blog": "/en/blog",
+        "company": "/en/company",
+        "pricing": "/en/pricing"
+      },
+      "channel_pages": {
+        "whatsapp": "/en/channels/whatsapp",
+        "sms": "/en/channels/sms"
+      }
+    }
+  },
+  
+  "notes": [
+    "此為基於技術棧分析的效能基準",
+    "實際效能測試應在搬遷完成後進行比較",
+    "Astro 架構預期將在所有指標上優於當前 React 架構",
+    "搬遷後需要進行實際的 Lighthouse 測試驗證改善程度"
+  ],
+  
+  "generated_by": "React to Astro Migration Process",
+  "baseline_version": "React 18.3.1 + Vite 5.4.2"
+}

@@ -1,7 +1,12 @@
 User-agent: *
 Allow: /
 
+# Block sensitive areas
 Disallow: /admin/
 Disallow: /api/
+Disallow: /_astro/
+Disallow: /scripts/
+Disallow: /node_modules/
 
-Sitemap: https://seasalt.ai/sitemap.xml
+# Sitemap
+Sitemap: https://seasalt.ai/sitemap-index.xml

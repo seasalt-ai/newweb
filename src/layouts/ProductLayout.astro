@@ -1,0 +1,183 @@
+---
+import '../styles/global.css';
+import SEO from '../components/SEO.astro';
+import TopBar from '../components/TopBar.astro';
+import ProductHeader from '../components/react/product/Header.tsx';
+import ProductFooter from '../components/react/product/Footer.tsx';
+import { getProductConfig, getProductThemeVars, type ProductType } from '../config/products';
+
+export interface Props {
+  product: ProductType;
+  seoData: {
+    title: string;
+    description: string;
+    keywords: string;
+    canonical: string;
+    ogImage?: string;
+  };
+  translations: {
+    [key: string]: any;
+  };
+  breadcrumbs?: Array<{
+    name: string;
+    url?: string;
+  }>;
+  faqs?: Array<{
+    question: string;
+    answer: string;
+  }>;
+  lang?: string;
+  enableTopBar?: boolean;
+}
+
+const { 
+  product,
+  seoData,
+  translations,
+  breadcrumbs,
+  faqs,
+  lang = 'en',
+  enableTopBar = false
+} = Astro.props;
+
+const config = getProductConfig(product);
+const themeVars = getProductThemeVars(product);
+
+// 為產品頁面添加特定的 meta 標籤
+const productMeta = {
+  'seax': 'AI-Powered SMS Marketing Platform',
+  'seachat': 'AI-Powered Chatbot Platform', 
+  'seavoice': 'AI-Powered Voice Assistant Platform'
+};
+---
+
+<!doctype html>
+<html lang={lang} style={themeVars}>
+  <head>
+    <SEO 
+      title={seoData.title}
+      description={seoData.description}
+      lang={lang}
+      keywords={seoData.keywords}
+      image={seoData.ogImage}
+      canonical={seoData.canonical}
+      type="software"
+      faqs={faqs}
+      breadcrumbs={breadcrumbs}
+    />
+    <meta name="generator" content={Astro.generator} />
+    
+    <!-- Preload key fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Product specific meta tags -->
+    <meta name="product" content={product}>
+    <meta name="product-description" content={productMeta[product]}>
+    <meta name="theme-color" content={config.theme.primary}>
+    
+    <!-- Additional product specific head elements can go here -->
+  </head>
+  <body>
+    <div class="product-container">
+      {enableTopBar && config.enableFeatures.topBar && <TopBar />}
+      <ProductHeader 
+        client:only="react"
+        product={product}
+        config={config}
+        lang={lang}
+        translations={translations}
+      />
+      <main class="product-main">
+        <slot />
+      </main>
+      <ProductFooter 
+        client:only="react"
+        product={product}
+        config={config}
+        lang={lang}
+        translations={translations}
+      />
+    </div>
+  </body>
+</html>
+
+<style is:global>
+  html {
+    font-family: system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #374151;
+    background-color: #ffffff;
+  }
+  
+  /* Product specific global styles */
+  .product-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-main {
+    flex: 1;
+  }
+
+  /* Dynamic product theme styles using CSS variables */
+  .product-primary {
+    color: var(--product-primary);
+  }
+  
+  .product-bg-primary {
+    background-color: var(--product-primary);
+  }
+  
+  .product-border-primary {
+    border-color: var(--product-primary);
+  }
+  
+  .product-gradient {
+    background: linear-gradient(to right, var(--product-gradient-from), var(--product-gradient-to));
+  }
+  
+  /* Hover states for product theming */
+  .hover\:product-primary:hover {
+    color: var(--product-primary);
+  }
+  
+  .hover\:product-bg-primary:hover {
+    background-color: var(--product-primary);
+  }
+  
+  .hover\:product-bg-secondary:hover {
+    background-color: var(--product-secondary);
+  }
+
+  /* Focus states for accessibility */
+  .focus\:product-primary:focus {
+    color: var(--product-primary);
+  }
+  
+  .focus\:product-border-primary:focus {
+    border-color: var(--product-primary);
+  }
+
+  /* Responsive adjustments for different products */
+  @media (max-width: 768px) {
+    .product-container {
+      font-size: 14px;
+    }
+  }
+
+  /* Print styles - hide product-specific elements when printing */
+  @media print {
+    .product-gradient {
+      background: none !important;
+      color: black !important;
+    }
+  }
+</style>

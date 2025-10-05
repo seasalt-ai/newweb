@@ -1,0 +1,388 @@
+---
+import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
+import Layout from '../../../../layouts/Layout.astro';
+import CodeBlock from '../../../../components/react/seachat/integrations/CodeBlock';
+import PlatformIcon from '../../../../components/react/seachat/integrations/PlatformIcon';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t, translations } = await getTranslationHelpers(lang as SupportedLanguage);
+
+// Helper function to get the correct SeaChat Wiki URL based on language
+const getSeaChatWikiUrl = () => {
+  const currentLanguage = lang as string;
+  const wikiLanguage = (currentLanguage === 'zh-TW' || currentLanguage === 'zh-CN') ? 'zh' : 'en';
+  return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
+};
+
+// Platform data
+const platforms = [
+  {
+    name: t('seachat.integrations.websites.platforms.generic.name'),
+    description: t('seachat.integrations.websites.platforms.generic.description'),
+    iconType: 'globe',
+    color: 'from-blue-500 to-indigo-600',
+    features: [
+      t('seachat.integrations.websites.platforms.generic.features.compatibility'),
+      t('seachat.integrations.websites.platforms.generic.features.styling'),
+      t('seachat.integrations.websites.platforms.generic.features.responsive'),
+      t('seachat.integrations.websites.platforms.generic.features.installation')
+    ],
+    setupTime: t('seachat.integrations.websites.platforms.generic.setupTime'),
+    difficulty: t('seachat.integrations.websites.platforms.generic.difficulty')
+  },
+  {
+    name: t('seachat.integrations.websites.platforms.wordpress.name'),
+    description: t('seachat.integrations.websites.platforms.wordpress.description'),
+    iconType: 'wordpress',
+    color: 'from-blue-600 to-purple-600',
+    features: [
+      t('seachat.integrations.websites.platforms.wordpress.features.plugin'),
+      t('seachat.integrations.websites.platforms.wordpress.features.dashboard'),
+      t('seachat.integrations.websites.platforms.wordpress.features.theme'),
+      t('seachat.integrations.websites.platforms.wordpress.features.shortcode')
+    ],
+    setupTime: t('seachat.integrations.websites.platforms.wordpress.setupTime'),
+    difficulty: t('seachat.integrations.websites.platforms.wordpress.difficulty')
+  },
+  {
+    name: t('seachat.integrations.websites.platforms.shopify.name'),
+    description: t('seachat.integrations.websites.platforms.shopify.description'),
+    iconType: 'shopify',
+    color: 'from-green-500 to-teal-600',
+    features: [
+      t('seachat.integrations.websites.platforms.shopify.features.orders'),
+      t('seachat.integrations.websites.platforms.shopify.features.customers'),
+      t('seachat.integrations.websites.platforms.shopify.features.products'),
+      t('seachat.integrations.websites.platforms.shopify.features.cart')
+    ],
+    setupTime: t('seachat.integrations.websites.platforms.shopify.setupTime'),
+    difficulty: t('seachat.integrations.websites.platforms.shopify.difficulty')
+  },
+  {
+    name: t('seachat.integrations.websites.platforms.wix.name'),
+    description: t('seachat.integrations.websites.platforms.wix.description'),
+    iconType: 'wix',
+    color: 'from-purple-500 to-pink-600',
+    features: [
+      t('seachat.integrations.websites.platforms.wix.features.app'),
+      t('seachat.integrations.websites.platforms.wix.features.editor'),
+      t('seachat.integrations.websites.platforms.wix.features.mobile'),
+      t('seachat.integrations.websites.platforms.wix.features.positioning')
+    ],
+    setupTime: t('seachat.integrations.websites.platforms.wix.setupTime'),
+    difficulty: t('seachat.integrations.websites.platforms.wix.difficulty')
+  },
+  {
+    name: t('seachat.integrations.websites.platforms.squarespace.name'),
+    description: t('seachat.integrations.websites.platforms.squarespace.description'),
+    iconType: 'squarespace',
+    color: 'from-orange-500 to-red-600',
+    features: [
+      t('seachat.integrations.websites.platforms.squarespace.features.design'),
+      t('seachat.integrations.websites.platforms.squarespace.features.code'),
+      t('seachat.integrations.websites.platforms.squarespace.features.templates'),
+      t('seachat.integrations.websites.platforms.squarespace.features.style')
+    ],
+    setupTime: t('seachat.integrations.websites.platforms.squarespace.setupTime'),
+    difficulty: t('seachat.integrations.websites.platforms.squarespace.difficulty')
+  },
+  {
+    name: t('seachat.integrations.websites.platforms.webflow.name'),
+    description: t('seachat.integrations.websites.platforms.webflow.description'),
+    iconType: 'webflow',
+    color: 'from-blue-400 to-blue-600',
+    features: [
+      t('seachat.integrations.websites.platforms.webflow.features.cms'),
+      t('seachat.integrations.websites.platforms.webflow.features.ecommerce'),
+      t('seachat.integrations.websites.platforms.webflow.features.design'),
+      t('seachat.integrations.websites.platforms.webflow.features.custom')
+    ],
+    setupTime: t('seachat.integrations.websites.platforms.webflow.setupTime'),
+    difficulty: t('seachat.integrations.websites.platforms.webflow.difficulty')
+  }
+];
+
+// Installation steps data
+const installationSteps = [
+  {
+    step: 1,
+    title: t('seachat.integrations.websites.installation.step1.title'),
+    description: t('seachat.integrations.websites.installation.step1.description'),
+    code: `<script>
+  (function(w,d,s,o,f,js,fjs){
+    w['SeaChatWidget']=o;w[o]=w[o]||function(){
+    (w[o].q=w[o].q||[]).push(arguments)};
+    js=d.createElement(s),fjs=d.getElementsByTagName(s)[0];
+    js.id=o;js.src=f;js.async=1;fjs.parentNode.insertBefore(js,fjs);
+  })(window,document,'script','seachat','https://widget.seachat.com/widget.js');
+  seachat('init', 'YOUR_WIDGET_ID');
+</script>`
+  },
+  {
+    step: 2,
+    title: t('seachat.integrations.websites.installation.step2.title'),
+    description: t('seachat.integrations.websites.installation.step2.description'),
+    code: `<!-- Your website content -->
+<script>
+  // SeaChat widget code goes here
+</script>
+</body>
+</html>`
+  },
+  {
+    step: 3,
+    title: t('seachat.integrations.websites.installation.step3.title'),
+    description: t('seachat.integrations.websites.installation.step3.description'),
+    code: `seachat('config', {
+  primaryColor: '#0891b2',
+  position: 'bottom-right',
+  greeting: 'Hi! How can we help you today?',
+  showOnMobile: true
+});`
+  }
+];
+
+// Customization options
+const customizationOptions = [
+  {
+    title: t('seachat.integrations.websites.customization.colors.title'),
+    description: t('seachat.integrations.websites.customization.colors.description'),
+    features: [
+      t('seachat.integrations.websites.customization.colors.features.schemes'),
+      t('seachat.integrations.websites.customization.colors.features.logo'),
+      t('seachat.integrations.websites.customization.colors.features.fonts'),
+      t('seachat.integrations.websites.customization.colors.features.css')
+    ]
+  },
+  {
+    title: t('seachat.integrations.websites.customization.position.title'),
+    description: t('seachat.integrations.websites.customization.position.description'),
+    features: [
+      t('seachat.integrations.websites.customization.position.features.corner'),
+      t('seachat.integrations.websites.customization.position.features.auto'),
+      t('seachat.integrations.websites.customization.position.features.mobile'),
+      t('seachat.integrations.websites.customization.position.features.trigger')
+    ]
+  },
+  {
+    title: t('seachat.integrations.websites.customization.content.title'),
+    description: t('seachat.integrations.websites.customization.content.description'),
+    features: [
+      t('seachat.integrations.websites.customization.content.features.welcome'),
+      t('seachat.integrations.websites.customization.content.features.offline'),
+      t('seachat.integrations.websites.customization.content.features.multilanguage'),
+      t('seachat.integrations.websites.customization.content.features.greetings')
+    ]
+  }
+];
+
+// SEO metadata
+const seoTitle = t('seachat.integrations.websites.title') + ' - SeaChat | Seasalt.ai';
+const seoDescription = t('seachat.integrations.websites.subtitle');
+const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/websites`;
+---
+
+<Layout 
+  breadcrumbs={[{ name: 'Home', url: `/${lang}/` }, { name: 'SeaChat', url: `/${lang}/seachat/` }, { name: 'Integrations', url: `/${lang}/seachat/integrations/` }, { name: 'Websites' }]}
+  title=
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang as SupportedLanguage}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-blue-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.integrations.websites.title')}
+            </h1>
+          </div>
+          <p class="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.integrations.websites.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://chat.seasalt.ai/gpt/signup" class="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">
+              {t('seachat.integrations.websites.codeButton')}
+            </a>
+            <a href={getMeetingUrl(lang as string)} class="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+              {t('seachat.integrations.websites.demoButton')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Platform Grid -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.websites.platformsTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.websites.platformsSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {platforms.map((platform, index) => (
+            <div key={index} class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+              <div class={`w-16 h-16 bg-gradient-to-br ${platform.color} rounded-2xl flex items-center justify-center mb-6`}>
+                <PlatformIcon 
+                  iconType={platform.iconType} 
+                  className="w-8 h-8 text-white"
+                  client:only="react" 
+                />
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">{platform.name}</h3>
+              <p class="text-gray-600 mb-6">{platform.description}</p>
+              
+              <div class="space-y-3 mb-6">
+                {platform.features.map((feature, idx) => (
+                  <div key={idx} class="flex items-center space-x-3">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-gray-700">{feature}</span>
+                  </div>
+                ))}
+              </div>
+              
+              <div class="flex items-center justify-between mb-6 text-sm">
+                <div class="flex items-center space-x-2">
+                  <svg class="w-4 h-4 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                  </svg>
+                  <span class="text-gray-600">{t('seachat.integrations.websites.setup')}: {platform.setupTime}</span>
+                </div>
+                <div class={`px-3 py-1 rounded-full text-xs font-medium ${
+                  platform.difficulty === t('seachat.integrations.websites.platforms.generic.difficulty') ? 'bg-green-100 text-green-800' : 'bg-yellow-100 text-yellow-800'
+                }`}>
+                  {platform.difficulty}
+                </div>
+              </div>
+              
+              <a href="https://chat.seasalt.ai/gpt/signup" class="w-full bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">
+                {t('seachat.integrations.websites.getPlatformCode')} {platform.name} {t('seachat.integrations.websites.code')}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Installation Guide -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.websites.installationTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.websites.installationSubtitle')}
+          </p>
+        </div>
+
+        <div class="space-y-12">
+          {installationSteps.map((step, index) => (
+            <div key={index} class="grid lg:grid-cols-2 gap-12 items-center">
+              <div class={index % 2 === 1 ? 'lg:order-2' : ''}>
+                <div class="flex items-center mb-6">
+                  <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg mr-4">
+                    {step.step}
+                  </div>
+                  <h3 class="text-2xl font-bold text-gray-900">{step.title}</h3>
+                </div>
+                <p class="text-lg text-gray-600 mb-6">{step.description}</p>
+                <div class="flex space-x-4">
+                  <a href={getSeaChatWikiUrl()} class="flex items-center space-x-2 text-blue-600 hover:text-blue-700 font-semibold">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                    <span>{t('seachat.integrations.websites.viewDocs')}</span>
+                  </a>
+                </div>
+              </div>
+              
+              <div class={index % 2 === 1 ? 'lg:order-1' : ''}>
+                <CodeBlock 
+                  code={step.code} 
+                  lang={lang as SupportedLanguage}
+                  translations={translations}
+                  copyButtonText={t('seachat.integrations.websites.copyCode')}
+                  copiedText={t('seachat.integrations.websites.copied')}
+                  client:only="react"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Customization Options -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.websites.customizationTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.websites.customizationSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {customizationOptions.map((option, index) => (
+            <div key={index} class="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 border border-gray-100">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{option.title}</h3>
+              <p class="text-gray-600 mb-6">{option.description}</p>
+              <ul class="space-y-2">
+                {option.features.map((feature, idx) => (
+                  <li key={idx} class="flex items-center space-x-3">
+                    <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                    <span class="text-gray-700">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.integrations.websites.ctaTitle')}
+        </h2>
+        <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.integrations.websites.ctaSubtitle')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://chat.seasalt.ai/gpt/signup" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center">
+            {t('seachat.integrations.websites.ctaCodeButton')}
+          </a>
+          <a href={getSeaChatWikiUrl()} class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+            {t('seachat.integrations.websites.ctaDocsButton')}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

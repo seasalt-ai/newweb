@@ -1,0 +1,260 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getMeetingUrl } from "../../../constants/urls";
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../i18n/helpers';
+import { ArrowLeft, Check, X } from 'lucide-react';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 取得動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯幫助函數
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO 資料
+const title = t('compare.aircallAlternative.seo.title') || 'Best Aircall Alternative - Seasalt.ai AI Contact Center';
+const description = t('compare.aircallAlternative.seo.description') || 'Discover why Seasalt.ai is the best Aircall alternative. Compare features, pricing, and capabilities for AI-powered contact center solutions.';
+const keywords = 'Aircall alternative, AI voice agent, contact center, WhatsApp integration, unified communications';
+
+// 比較功能資料
+const comparisonFeatures = [
+  {
+    feature: t('compare.aircallAlternative.comparison.features.pricingModel.name'),
+    seasalt: t('compare.aircallAlternative.comparison.features.pricingModel.seasalt'),
+    competitor: t('compare.aircallAlternative.comparison.features.pricingModel.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.aircallAlternative.comparison.features.userMinimum.name'),
+    seasalt: t('compare.aircallAlternative.comparison.features.userMinimum.seasalt'),
+    competitor: t('compare.aircallAlternative.comparison.features.userMinimum.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.aircallAlternative.comparison.features.unifiedComm.name'),
+    seasalt: t('compare.aircallAlternative.comparison.features.unifiedComm.seasalt'),
+    competitor: t('compare.aircallAlternative.comparison.features.unifiedComm.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.aircallAlternative.comparison.features.aiVoiceAgent.name'),
+    seasalt: t('compare.aircallAlternative.comparison.features.aiVoiceAgent.seasalt'),
+    competitor: t('compare.aircallAlternative.comparison.features.aiVoiceAgent.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.aircallAlternative.comparison.features.aiCallSummaries.name'),
+    seasalt: t('compare.aircallAlternative.comparison.features.aiCallSummaries.seasalt'),
+    competitor: t('compare.aircallAlternative.comparison.features.aiCallSummaries.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.aircallAlternative.comparison.features.advancedAnalytics.name'),
+    seasalt: t('compare.aircallAlternative.comparison.features.advancedAnalytics.seasalt'),
+    competitor: t('compare.aircallAlternative.comparison.features.advancedAnalytics.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.aircallAlternative.comparison.features.callQuality.name'),
+    seasalt: t('compare.aircallAlternative.comparison.features.callQuality.seasalt'),
+    competitor: t('compare.aircallAlternative.comparison.features.callQuality.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.aircallAlternative.comparison.features.bestFor.name'),
+    seasalt: t('compare.aircallAlternative.comparison.features.bestFor.seasalt'),
+    competitor: t('compare.aircallAlternative.comparison.features.bestFor.competitor'),
+    seasaltAdvantage: false
+  }
+];
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout 
+  title={title} 
+  description={description} 
+  lang={currentLang}
+  keywords={keywords}
+  type="website"
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<a href={`/${currentLang}/compare`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+        <ArrowLeft className="h-5 w-5 mr-2" />
+        {t('compare.aircallAlternative.nav.backToOverview')}
+      </a>
+      
+      <div class="text-center mb-16">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('compare.aircallAlternative.hero.title.part1')}{' '}
+          <span class="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
+            {t('compare.aircallAlternative.hero.title.part2')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          {t('compare.aircallAlternative.hero.subtitle')}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Comparison -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.aircallAlternative.comparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.aircallAlternative.comparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.aircallAlternative.comparison.table.headers.feature')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.aircallAlternative.comparison.table.headers.seasalt')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.aircallAlternative.comparison.table.headers.aircall')}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              {comparisonFeatures.map((item, index) => (
+                <tr key={index} class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{item.feature}</td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <Check className="h-5 w-5 text-green-600 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.seasalt}</span>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <X className="h-5 w-5 text-red-500 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.competitor}</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cost Breakdown -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.aircallAlternative.costComparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.aircallAlternative.costComparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="bg-red-50 p-8 rounded-xl border-2 border-red-200">
+          <h3 class="text-2xl font-bold text-red-800 mb-6 text-center">{t('compare.aircallAlternative.costComparison.aircall.title')}</h3>
+          <div class="space-y-3 text-red-700">
+            <div class="flex justify-between">
+              <span>{t('compare.aircallAlternative.costComparison.aircall.basePlan')}</span>
+              <span class="font-semibold">{t('compare.aircallAlternative.costComparison.aircall.basePlanCost')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span>{t('compare.aircallAlternative.costComparison.aircall.aiVoiceAddon')}</span>
+              <span class="font-semibold">{t('compare.aircallAlternative.costComparison.aircall.aiVoiceAddonCost')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span>{t('compare.aircallAlternative.costComparison.aircall.whatsappIntegration')}</span>
+              <span class="font-semibold">{t('compare.aircallAlternative.costComparison.aircall.whatsappIntegrationCost')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span>{t('compare.aircallAlternative.costComparison.aircall.advancedAnalytics')}</span>
+              <span class="font-semibold">{t('compare.aircallAlternative.costComparison.aircall.advancedAnalyticsCost')}</span>
+            </div>
+            <div class="border-t border-red-300 pt-3 mt-3">
+              <div class="flex justify-between text-xl font-bold text-red-800">
+                <span>{t('compare.aircallAlternative.costComparison.aircall.totalPerUser')}</span>
+                <span>{t('compare.aircallAlternative.costComparison.aircall.totalPerUserCost')}</span>
+              </div>
+              <p class="text-sm text-red-600 mt-2">{t('compare.aircallAlternative.costComparison.aircall.minimumNote')}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-green-50 p-8 rounded-xl border-2 border-green-200">
+          <h3 class="text-2xl font-bold text-green-800 mb-6 text-center">{t('compare.aircallAlternative.costComparison.seasalt.title')}</h3>
+          <div class="space-y-3 text-green-700">
+            <div class="flex justify-between">
+              <span>{t('compare.aircallAlternative.costComparison.seasalt.admin')}</span>
+              <span class="font-semibold">{t('compare.aircallAlternative.costComparison.seasalt.adminCost')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span>{t('compare.aircallAlternative.costComparison.seasalt.additionalAgents')}</span>
+              <span class="font-semibold">{t('compare.aircallAlternative.costComparison.seasalt.additionalAgentsCost')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span>{t('compare.aircallAlternative.costComparison.seasalt.aiVoiceIncluded')}</span>
+              <span class="font-semibold">{t('compare.aircallAlternative.costComparison.seasalt.aiVoiceIncludedCost')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span>{t('compare.aircallAlternative.costComparison.seasalt.allChannelsIncluded')}</span>
+              <span class="font-semibold">{t('compare.aircallAlternative.costComparison.seasalt.allChannelsIncludedCost')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span>{t('compare.aircallAlternative.costComparison.seasalt.analyticsIncluded')}</span>
+              <span class="font-semibold">{t('compare.aircallAlternative.costComparison.seasalt.analyticsIncludedCost')}</span>
+            </div>
+            <div class="border-t border-green-300 pt-3 mt-3">
+              <div class="flex justify-between text-xl font-bold text-green-800">
+                <span>{t('compare.aircallAlternative.costComparison.seasalt.total')}</span>
+                <span>{t('compare.aircallAlternative.costComparison.seasalt.totalCost')}</span>
+              </div>
+              <p class="text-sm text-green-600 mt-2">{t('compare.aircallAlternative.costComparison.seasalt.savings')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-blue-600 to-blue-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('compare.aircallAlternative.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('compare.aircallAlternative.cta.subtitle')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.aircallAlternative.cta.signUp')}
+        </a>
+        <a
+          href={meetingUrl}
+          class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.aircallAlternative.cta.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,359 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
+import { ArrowLeft, Check, X } from 'lucide-react';
+
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const title = t('compare.kustomerAlternative.seo.title') || 'Best Kustomer Alternative - Seasalt.ai';
+const description = t('compare.kustomerAlternative.seo.description') || 'Compare Seasalt.ai vs Kustomer for customer support and CX platforms.';
+const keywords = 'Kustomer alternative, customer support platform, CX platform, contact center';
+
+const comparisonFeatures = [
+  {
+    feature: t('compare.kustomerAlternative.comparison.features.pricingModel.name'),
+    seasalt: t('compare.kustomerAlternative.comparison.features.pricingModel.seasalt'),
+    competitor: t('compare.kustomerAlternative.comparison.features.pricingModel.kustomer'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.kustomerAlternative.comparison.features.startingPrice.name'),
+    seasalt: t('compare.kustomerAlternative.comparison.features.startingPrice.seasalt'),
+    competitor: t('compare.kustomerAlternative.comparison.features.startingPrice.kustomer'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.kustomerAlternative.comparison.features.minimumCommitment.name'),
+    seasalt: t('compare.kustomerAlternative.comparison.features.minimumCommitment.seasalt'),
+    competitor: t('compare.kustomerAlternative.comparison.features.minimumCommitment.kustomer'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.kustomerAlternative.comparison.features.aiCapabilities.name'),
+    seasalt: t('compare.kustomerAlternative.comparison.features.aiCapabilities.seasalt'),
+    competitor: t('compare.kustomerAlternative.comparison.features.aiCapabilities.kustomer'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.kustomerAlternative.comparison.features.omnichannelTimeline.name'),
+    seasalt: t('compare.kustomerAlternative.comparison.features.omnichannelTimeline.seasalt'),
+    competitor: t('compare.kustomerAlternative.comparison.features.omnichannelTimeline.kustomer'),
+    seasaltAdvantage: false
+  },
+  {
+    feature: t('compare.kustomerAlternative.comparison.features.coreFocus.name'),
+    seasalt: t('compare.kustomerAlternative.comparison.features.coreFocus.seasalt'),
+    competitor: t('compare.kustomerAlternative.comparison.features.coreFocus.kustomer'),
+    seasaltAdvantage: false
+  },
+  {
+    feature: t('compare.kustomerAlternative.comparison.features.bestFor.name'),
+    seasalt: t('compare.kustomerAlternative.comparison.features.bestFor.seasalt'),
+    competitor: t('compare.kustomerAlternative.comparison.features.bestFor.kustomer'),
+    seasaltAdvantage: false
+  }
+];
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout title={title} description={description} lang={currentLang} keywords={keywords} type="website">
+  <section class="bg-gradient-to-br from-green-50 via-white to-green-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<a href={`/${currentLang}/compare`} class="inline-flex items-center text-gray-600 hover:text-green-600 transition-colors duration-200 mb-8">
+        <ArrowLeft className="h-5 w-5 mr-2" />
+        {t('compare.kustomerAlternative.nav.backLink')}
+      </a>
+      
+      <div class="text-center mb-16">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('compare.kustomerAlternative.hero.title')}{' '}
+          <span class="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
+            {t('compare.kustomerAlternative.hero.highlight')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          {t('compare.kustomerAlternative.hero.description')}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.kustomerAlternative.comparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.kustomerAlternative.comparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.kustomerAlternative.comparison.table.headers.feature')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.kustomerAlternative.comparison.table.headers.seasalt')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.kustomerAlternative.comparison.table.headers.kustomer')}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              {comparisonFeatures.map((item, index) => (
+                <tr key={index} class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{item.feature}</td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <Check className="h-5 w-5 text-green-600 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.seasalt}</span>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <X className="h-5 w-5 text-red-500 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.competitor}</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.kustomerAlternative.costBarrier.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.kustomerAlternative.costBarrier.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-lg font-bold text-gray-900 mb-4">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-green-600">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.seasaltPrice')}</div>
+              <div class="text-sm text-green-700">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.seasaltLabel')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-red-600">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.kustomerPrice')}</div>
+              <div class="text-sm text-red-700">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.kustomerLabel')}</div>
+            </div>
+            <div class="text-sm text-gray-600">{t('compare.kustomerAlternative.costBarrier.scenarios.twoAgents.savings')}</div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-lg font-bold text-gray-900 mb-4">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-green-600">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.seasaltPrice')}</div>
+              <div class="text-sm text-green-700">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.seasaltLabel')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-red-600">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.kustomerPrice')}</div>
+              <div class="text-sm text-red-700">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.kustomerLabel')}</div>
+            </div>
+            <div class="text-sm text-gray-600">{t('compare.kustomerAlternative.costBarrier.scenarios.fiveAgents.savings')}</div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <h3 class="text-lg font-bold text-gray-900 mb-4">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.title')}</h3>
+          <div class="space-y-3">
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-green-600">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.seasaltPrice')}</div>
+              <div class="text-sm text-green-700">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.seasaltLabel')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-xl font-bold text-red-600">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.kustomerPrice')}</div>
+              <div class="text-sm text-red-700">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.kustomerLabel')}</div>
+            </div>
+            <div class="text-sm text-gray-600">{t('compare.kustomerAlternative.costBarrier.scenarios.eightAgents.savings')}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 bg-red-50 border-2 border-red-200 rounded-2xl p-8">
+        <div class="text-center">
+          <svg class="h-12 w-12 text-red-600 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
+          </svg>
+          <h3 class="text-2xl font-bold text-red-800 mb-4">
+            {t('compare.kustomerAlternative.costBarrier.problem.title')}
+          </h3>
+          <p class="text-red-700 max-w-2xl mx-auto">
+            {t('compare.kustomerAlternative.costBarrier.problem.description')}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.kustomerAlternative.aiCosts.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.kustomerAlternative.aiCosts.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-blue-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-blue-600 mb-6">{t('compare.kustomerAlternative.aiCosts.seasalt.title')}</h3>
+          <div class="space-y-4">
+            <div class="bg-white p-4 rounded-lg">
+              <h4 class="font-semibold text-blue-800">{t('compare.kustomerAlternative.aiCosts.seasalt.voiceAi.title')}</h4>
+              <p class="text-blue-700 text-sm">{t('compare.kustomerAlternative.aiCosts.seasalt.voiceAi.description')}</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg">
+              <h4 class="font-semibold text-blue-800">{t('compare.kustomerAlternative.aiCosts.seasalt.chatAi.title')}</h4>
+              <p class="text-blue-700 text-sm">{t('compare.kustomerAlternative.aiCosts.seasalt.chatAi.description')}</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg">
+              <h4 class="font-semibold text-blue-800">{t('compare.kustomerAlternative.aiCosts.seasalt.smartRouting.title')}</h4>
+              <p class="text-blue-700 text-sm">{t('compare.kustomerAlternative.aiCosts.seasalt.smartRouting.description')}</p>
+            </div>
+            <div class="bg-green-50 p-4 rounded-lg border-2 border-green-200">
+              <h4 class="font-semibold text-green-800">{t('compare.kustomerAlternative.aiCosts.seasalt.totalCost.title')}</h4>
+              <p class="text-green-700 font-bold">{t('compare.kustomerAlternative.aiCosts.seasalt.totalCost.amount')}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gray-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-gray-600 mb-6">{t('compare.kustomerAlternative.aiCosts.kustomer.title')}</h3>
+          <div class="space-y-4">
+            <div class="bg-white p-4 rounded-lg">
+              <h4 class="font-semibold text-gray-800">{t('compare.kustomerAlternative.aiCosts.kustomer.perUser.title')}</h4>
+              <p class="text-gray-700 text-sm">{t('compare.kustomerAlternative.aiCosts.kustomer.perUser.description')}</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg">
+              <h4 class="font-semibold text-gray-800">{t('compare.kustomerAlternative.aiCosts.kustomer.perConversation.title')}</h4>
+              <p class="text-gray-700 text-sm">{t('compare.kustomerAlternative.aiCosts.kustomer.perConversation.description')}</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg">
+              <h4 class="font-semibold text-gray-800">{t('compare.kustomerAlternative.aiCosts.kustomer.example.title')}</h4>
+              <p class="text-gray-700 text-sm">{t('compare.kustomerAlternative.aiCosts.kustomer.example.calculation')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg border-2 border-red-200">
+              <h4 class="font-semibold text-red-800">{t('compare.kustomerAlternative.aiCosts.kustomer.totalCost.title')}</h4>
+              <p class="text-red-700 font-bold">{t('compare.kustomerAlternative.aiCosts.kustomer.totalCost.amount')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.kustomerAlternative.features.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.kustomerAlternative.features.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-green-600 mb-6">{t('compare.kustomerAlternative.features.shared.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.kustomerAlternative.features.shared.unifiedInbox')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.kustomerAlternative.features.shared.conversationHistory')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.kustomerAlternative.features.shared.teamCollaboration')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.kustomerAlternative.features.shared.analytics')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.kustomerAlternative.features.shared.crmIntegrations')}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-blue-600 mb-6">{t('compare.kustomerAlternative.features.advantages.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.kustomerAlternative.features.advantages.noMinimum')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.kustomerAlternative.features.advantages.aiIncluded')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.kustomerAlternative.features.advantages.nativeVoice')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.kustomerAlternative.features.advantages.selfService')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.kustomerAlternative.features.advantages.smeFocused')}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gradient-to-r from-green-600 to-green-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('compare.kustomerAlternative.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('compare.kustomerAlternative.cta.subtitle')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.kustomerAlternative.cta.signUp')}
+        </a>
+        <a
+          href={meetingUrl}
+          class="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.kustomerAlternative.cta.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

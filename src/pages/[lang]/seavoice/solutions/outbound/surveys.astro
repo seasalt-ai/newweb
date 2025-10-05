@@ -1,0 +1,658 @@
+---
+import Layout from '../../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
+import CustomerSurveysHero from '../../../../../components/react/seavoice/CustomerSurveysHero';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang },
+  }));
+}
+
+// Get language from URL parameters
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translation helpers for the current language
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// Generate SEO data
+const seoData = {
+  title: t('seo.seavoice.surveys.title') || 'Customer Survey Automation | SeaVoice AI Voice Solutions - Seasalt.ai',
+  description: t('seo.seavoice.surveys.description') || 'Gather valuable customer feedback through natural voice conversations. Conduct automated surveys that feel personal and engaging, achieving higher response rates and more detailed insights than traditional methods.',
+  keywords: t('seo.seavoice.surveys.keywords') || 'customer surveys, voice surveys, AI voice automation, feedback collection, CSAT surveys, post-purchase surveys, market research, SeaVoice',
+  ogImage: '/images/og/seavoice-customer-surveys.jpg',
+  canonicalUrl: `/${currentLang}/seavoice/solutions/outbound/surveys`
+};
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.customerSurveys.breadcrumb') || 'Customer Surveys' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.customerSurveys.faq.q1') || 'Do voice surveys get higher response rates?',
+    answer: t('seavoice.pages.solutions.outbound.customerSurveys.faq.a1') || 'Yes. Conversational voice surveys often achieve higher completion rates and richer responses than forms.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.customerSurveys.faq.q2') || 'Can results be exported to analytics tools?',
+    answer: t('seavoice.pages.solutions.outbound.customerSurveys.faq.a2') || 'Yes. Responses and insights can be exported to BI tools or data warehouses.'
+  }
+];
+---
+<Layout seo={seoData} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
+  <main>
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-cyan-50 via-white to-blue-50 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <CustomerSurveysHero 
+          client:only="react"
+          lang={currentLang}
+          translations={translations}
+        />
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.customerSurveys.sections.features.title') || 'Intelligent Survey Features'}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.customerSurveys.sections.features.subtitle') || 'Advanced AI technology that makes surveys feel like natural conversations'}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <!-- Conversational Surveys Feature -->
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-lg flex items-center justify-center mb-6">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.features.conversational.title') || 'Conversational Surveys'}
+            </h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.features.conversational.description') || 'Natural voice conversations that feel like friendly discussions rather than formal surveys.'}
+            </p>
+            <div class="space-y-2">
+              <div class="flex items-center">
+                <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-sm text-gray-700">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.features.conversational.benefits.0') || 'Higher response rates'}
+                </span>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-sm text-gray-700">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.features.conversational.benefits.1') || 'Natural interactions'}
+                </span>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-sm text-gray-700">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.features.conversational.benefits.2') || 'Detailed feedback'}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real-Time Analytics Feature -->
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-lg flex items-center justify-center mb-6">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.features.analytics.title') || 'Real-Time Analytics'}
+            </h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.features.analytics.description') || 'Instant analysis and reporting of survey responses with actionable insights.'}
+            </p>
+            <div class="space-y-2">
+              <div class="flex items-center">
+                <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-sm text-gray-700">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.features.analytics.benefits.0') || 'Live dashboards'}
+                </span>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-sm text-gray-700">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.features.analytics.benefits.1') || 'Sentiment analysis'}
+                </span>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-sm text-gray-700">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.features.analytics.benefits.2') || 'Trend identification'}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Targeted Outreach Feature -->
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-lg flex items-center justify-center mb-6">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.features.outreach.title') || 'Targeted Outreach'}
+            </h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.features.outreach.description') || 'Reach specific customer segments with personalized survey experiences.'}
+            </p>
+            <div class="space-y-2">
+              <div class="flex items-center">
+                <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-sm text-gray-700">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.features.outreach.benefits.0') || 'Demographic targeting'}
+                </span>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-sm text-gray-700">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.features.outreach.benefits.1') || 'Behavioral segmentation'}
+                </span>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-sm text-gray-700">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.features.outreach.benefits.2') || 'Custom timing'}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Survey Types Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.customerSurveys.sections.surveys.title') || 'Comprehensive Survey Solutions'}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.customerSurveys.sections.surveys.subtitle') || 'Tailored survey types for different business objectives and insights'}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- CSAT Survey -->
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.title') || 'Customer Satisfaction (CSAT)'}
+            </h3>
+            <p class="text-gray-600 mb-6">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.description') || 'Measure overall satisfaction with products, services, or interactions'}
+            </p>
+            
+            <div class="mb-6">
+              <h4 class="font-semibold text-gray-900 text-sm mb-3">
+                {t('seavoice.pages.solutions.outbound.customerSurveys.sections.sampleQuestions') || 'Sample Questions:'}
+              </h4>
+              <div class="space-y-2">
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.questions.0') || 'How satisfied are you with our service?'}"
+                  </span>
+                </div>
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.questions.1') || 'What could we improve?'}"
+                  </span>
+                </div>
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.questions.2') || 'Would you recommend us?'}"
+                  </span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-4 bg-cyan-50 rounded-lg">
+              <h4 class="font-semibold text-cyan-900 text-sm mb-2">
+                {t('seavoice.pages.solutions.outbound.customerSurveys.sections.keyMetrics') || 'Key Metrics:'}
+              </h4>
+              <div class="flex flex-wrap gap-2">
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.metrics.0') || 'CSAT Score'}
+                </span>
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.metrics.1') || 'Net Promoter Score'}
+                </span>
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.csat.metrics.2') || 'Response Rate'}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post-Purchase Survey -->
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.title') || 'Post-Purchase Feedback'}
+            </h3>
+            <p class="text-gray-600 mb-6">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.description') || 'Gather insights immediately after a purchase or service interaction'}
+            </p>
+            
+            <div class="mb-6">
+              <h4 class="font-semibold text-gray-900 text-sm mb-3">
+                {t('seavoice.pages.solutions.outbound.customerSurveys.sections.sampleQuestions') || 'Sample Questions:'}
+              </h4>
+              <div class="space-y-2">
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.questions.0') || 'How was your buying experience?'}"
+                  </span>
+                </div>
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.questions.1') || 'Did the product meet expectations?'}"
+                  </span>
+                </div>
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.questions.2') || 'Any delivery issues?'}"
+                  </span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-4 bg-cyan-50 rounded-lg">
+              <h4 class="font-semibold text-cyan-900 text-sm mb-2">
+                {t('seavoice.pages.solutions.outbound.customerSurveys.sections.keyMetrics') || 'Key Metrics:'}
+              </h4>
+              <div class="flex flex-wrap gap-2">
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.metrics.0') || 'Purchase Satisfaction'}
+                </span>
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.metrics.1') || 'Delivery Rating'}
+                </span>
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.postPurchase.metrics.2') || 'Product Quality'}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Development Survey -->
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.title') || 'Product Development'}
+            </h3>
+            <p class="text-gray-600 mb-6">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.description') || 'Collect input for new features, products, or service improvements'}
+            </p>
+            
+            <div class="mb-6">
+              <h4 class="font-semibold text-gray-900 text-sm mb-3">
+                {t('seavoice.pages.solutions.outbound.customerSurveys.sections.sampleQuestions') || 'Sample Questions:'}
+              </h4>
+              <div class="space-y-2">
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.questions.0') || 'What features would you like to see?'}"
+                  </span>
+                </div>
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.questions.1') || 'How do you use our product?'}"
+                  </span>
+                </div>
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.questions.2') || 'What problems need solving?'}"
+                  </span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-4 bg-cyan-50 rounded-lg">
+              <h4 class="font-semibold text-cyan-900 text-sm mb-2">
+                {t('seavoice.pages.solutions.outbound.customerSurveys.sections.keyMetrics') || 'Key Metrics:'}
+              </h4>
+              <div class="flex flex-wrap gap-2">
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.metrics.0') || 'Feature Requests'}
+                </span>
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.metrics.1') || 'Usage Patterns'}
+                </span>
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.productDev.metrics.2') || 'Pain Points'}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Market Research Survey -->
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.title') || 'Market Research'}
+            </h3>
+            <p class="text-gray-600 mb-6">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.description') || 'Understand market trends, preferences, and competitive landscape'}
+            </p>
+            
+            <div class="mb-6">
+              <h4 class="font-semibold text-gray-900 text-sm mb-3">
+                {t('seavoice.pages.solutions.outbound.customerSurveys.sections.sampleQuestions') || 'Sample Questions:'}
+              </h4>
+              <div class="space-y-2">
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.questions.0') || 'What brands do you prefer?'}"
+                  </span>
+                </div>
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.questions.1') || 'How do you make purchasing decisions?'}"
+                  </span>
+                </div>
+                <div class="flex items-start">
+                  <div class="w-1.5 h-1.5 bg-cyan-600 rounded-full mr-2 mt-2"></div>
+                  <span class="text-sm text-gray-700 italic">
+                    "{t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.questions.2') || 'What influences your choices?'}"
+                  </span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-4 bg-cyan-50 rounded-lg">
+              <h4 class="font-semibold text-cyan-900 text-sm mb-2">
+                {t('seavoice.pages.solutions.outbound.customerSurveys.sections.keyMetrics') || 'Key Metrics:'}
+              </h4>
+              <div class="flex flex-wrap gap-2">
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.metrics.0') || 'Brand Awareness'}
+                </span>
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.metrics.1') || 'Purchase Drivers'}
+                </span>
+                <span class="text-xs bg-cyan-100 text-cyan-800 px-2 py-1 rounded">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.surveyTypes.marketResearch.metrics.2') || 'Market Trends'}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Analysis & Insights Section -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.sections.analytics.title') || 'Advanced Analytics & Insights'}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.sections.analytics.description') || 'Our AI doesn\'t just collect responses—it analyzes sentiment, identifies trends, and provides actionable insights that help you make data-driven decisions to improve your business.'}
+            </p>
+            <div class="space-y-6">
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-cyan-600 mr-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.analytics.sentimentAnalysis.title') || 'Sentiment Analysis'}
+                  </h3>
+                  <p class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.analytics.sentimentAnalysis.description') || 'Understand emotional tone behind responses'}
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-cyan-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.analytics.trendIdentification.title') || 'Trend Identification'}
+                  </h3>
+                  <p class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.analytics.trendIdentification.description') || 'Spot patterns and emerging issues early'}
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-cyan-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.analytics.actionableReports.title') || 'Actionable Reports'}
+                  </h3>
+                  <p class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.analytics.actionableReports.description') || 'Get specific recommendations for improvement'}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.sections.analysisFeatures.title') || 'Analysis Features'}
+            </h3>
+            <div class="grid grid-cols-1 gap-3">
+              <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-gray-700 font-medium">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.0') || 'Real-time sentiment analysis'}
+                </span>
+              </div>
+              <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-gray-700 font-medium">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.1') || 'Automated response categorization'}
+                </span>
+              </div>
+              <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-gray-700 font-medium">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.2') || 'Trend identification and alerts'}
+                </span>
+              </div>
+              <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-gray-700 font-medium">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.3') || 'Custom reporting dashboards'}
+                </span>
+              </div>
+              <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-gray-700 font-medium">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.4') || 'Integration with CRM systems'}
+                </span>
+              </div>
+              <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-gray-700 font-medium">
+                  {t('seavoice.pages.solutions.outbound.customerSurveys.analysisFeatures.5') || 'Actionable insights generation'}
+                </span>
+              </div>
+            </div>
+            
+            <div class="mt-6 p-4 bg-white rounded-lg">
+              <h4 class="font-semibold text-gray-900 mb-2">
+                {t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.title') || 'Live Survey Dashboard'}
+              </h4>
+              <div class="space-y-2">
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.responsesToday') || 'Responses Today:'}
+                  </span>
+                  <span class="font-semibold text-cyan-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.responsesTodayValue') || '1,847'}
+                  </span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.completionRate') || 'Completion Rate:'}
+                  </span>
+                  <span class="font-semibold text-green-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.completionRateValue') || '85.3%'}
+                  </span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.avgSatisfaction') || 'Avg. Satisfaction:'}
+                  </span>
+                  <span class="font-semibold text-blue-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.avgSatisfactionValue') || '4.2/5'}
+                  </span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.sentiment') || 'Sentiment:'}
+                  </span>
+                  <span class="font-semibold text-green-600">
+                    {t('seavoice.pages.solutions.outbound.customerSurveys.dashboard.sentimentValue') || '78% Positive'}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Metrics Section -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.customerSurveys.sections.benefits.title') || 'Survey Performance Results'}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.customerSurveys.sections.benefits.subtitle') || 'Proven improvements in feedback collection and customer insights'}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+            <div class="text-4xl font-bold text-cyan-600 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.benefits.0.metric') || '3x'}
+            </div>
+            <p class="text-gray-600">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.benefits.0.description') || 'Higher response rate than traditional surveys'}
+            </p>
+          </div>
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+            <div class="text-4xl font-bold text-cyan-600 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.benefits.1.metric') || '85%'}
+            </div>
+            <p class="text-gray-600">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.benefits.1.description') || 'Survey completion rate'}
+            </p>
+          </div>
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+            <div class="text-4xl font-bold text-cyan-600 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.benefits.2.metric') || '60%'}
+            </div>
+            <p class="text-gray-600">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.benefits.2.description') || 'More detailed feedback collected'}
+            </p>
+          </div>
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+            <div class="text-4xl font-bold text-cyan-600 mb-4">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.benefits.3.metric') || '24/7'}
+            </div>
+            <p class="text-gray-600">
+              {t('seavoice.pages.solutions.outbound.customerSurveys.benefits.3.description') || 'Automated survey deployment'}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-cyan-600 to-blue-600 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold mb-6">
+          {t('seavoice.pages.solutions.outbound.customerSurveys.cta.title') || 'Ready to Gather Better Customer Insights?'}
+        </h2>
+        <p class="text-xl mb-8 opacity-90">
+          {t('seavoice.pages.solutions.outbound.customerSurveys.cta.subtitle') || 'Start collecting valuable feedback with conversational surveys that customers actually want to complete'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a 
+            href={`/${currentLang}/pricing`}
+            class="bg-white text-cyan-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+          >
+            {t('seavoice.pages.solutions.outbound.customerSurveys.cta.primaryBtn') || 'Launch Survey Campaign'}
+          </a>
+          <a 
+            href={`/${currentLang}/contact`}
+            class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-cyan-600 transition-colors"
+          >
+            {t('seavoice.pages.solutions.outbound.customerSurveys.cta.secondaryBtn') || 'See Sample Survey'}
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

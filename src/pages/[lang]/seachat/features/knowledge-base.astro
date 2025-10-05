@@ -1,0 +1,318 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
+
+// Generate all static paths for supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translation helpers for the current language
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO data for the knowledge base page (using the same keys as the old version)
+const title = t('features.knowledgeBase.title') || 'Knowledge Base';
+const subtitle = t('seachat.features.knowledgeBase.subtitle') || 'Empower your AI agents with comprehensive knowledge management. Create, organize, and maintain a centralized repository of information that enables intelligent, accurate responses.';
+
+const seoData = {
+  title: `${title} | SeaChat`,
+  description: subtitle,
+  keywords: 'knowledge base, AI agents, knowledge management, information repository, intelligent responses, customer support',
+  ogTitle: `${title} | SeaChat`,
+  ogDescription: subtitle,
+  ogType: 'website'
+};
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Features', url: `/${currentLang}/seachat/features/` },
+  { name: title }
+];
+---
+
+<Layout 
+  title={seoData.title}
+  description={seoData.description}
+  keywords={seoData.keywords}
+  lang={currentLang}
+  ogTitle={seoData.ogTitle}
+  ogDescription={seoData.ogDescription}
+  ogType={seoData.ogType}
+  breadcrumbs={breadcrumbs}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-blue-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('features.knowledgeBase.title') || 'Knowledge Base'}
+            </h1>
+          </div>
+          <p class="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.features.knowledgeBase.subtitle') || 'Empower your AI agents with comprehensive knowledge management. Create, organize, and maintain a centralized repository of information that enables intelligent, accurate responses.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.features.knowledgeBase.startButton') || 'Start Building'}
+            </a>
+            <a
+              href={getMeetingUrl(currentLang)}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
+            >
+              {t('seachat.features.knowledgeBase.scheduleDemo') || 'Schedule Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seachat.features.knowledgeBase.managementTitle') || 'Intelligent Knowledge Management'}
+        </h2>
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+          {t('seachat.features.knowledgeBase.managementSubtitle') || 'Build a powerful knowledge foundation that grows with your business and enhances every customer interaction.'}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+          <div class="bg-blue-100 p-3 rounded-xl w-fit mb-6">
+            <svg class="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">{t('seachat.features.knowledgeBase.smartSearch.title') || 'Smart Search'}</h3>
+          <p class="text-gray-600">
+            {t('seachat.features.knowledgeBase.smartSearch.description') || 'Advanced semantic search capabilities that understand context and intent, delivering precise information instantly.'}
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+          <div class="bg-green-100 p-3 rounded-xl w-fit mb-6">
+            <svg class="h-6 w-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">{t('seachat.features.knowledgeBase.documentManagement.title') || 'Document Management'}</h3>
+          <p class="text-gray-600">
+            {t('seachat.features.knowledgeBase.documentManagement.description') || 'Upload, organize, and version control documents, FAQs, policies, and procedures in one centralized location.'}
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+          <div class="bg-purple-100 p-3 rounded-xl w-fit mb-6">
+            <svg class="h-6 w-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">{t('seachat.features.knowledgeBase.collaboration.title') || 'Collaborative Editing'}</h3>
+          <p class="text-gray-600">
+            {t('seachat.features.knowledgeBase.collaboration.description') || 'Enable team collaboration with real-time editing, approval workflows, and role-based access controls.'}
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+          <div class="bg-orange-100 p-3 rounded-xl w-fit mb-6">
+            <svg class="h-6 w-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">{t('seachat.features.knowledgeBase.autoLearning.title') || 'Auto-Learning'}</h3>
+          <p class="text-gray-600">
+            {t('seachat.features.knowledgeBase.autoLearning.description') || 'Automatically capture and learn from successful interactions to continuously improve knowledge accuracy.'}
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+          <div class="bg-red-100 p-3 rounded-xl w-fit mb-6">
+            <svg class="h-6 w-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">{t('seachat.features.knowledgeBase.accessControl.title') || 'Access Control'}</h3>
+          <p class="text-gray-600">
+            {t('seachat.features.knowledgeBase.accessControl.description') || 'Secure sensitive information with granular permissions and ensure compliance with data protection regulations.'}
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+          <div class="bg-indigo-100 p-3 rounded-xl w-fit mb-6">
+            <svg class="h-6 w-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">{t('seachat.features.knowledgeBase.multiLanguage.title') || 'Multi-Language'}</h3>
+          <p class="text-gray-600">
+            {t('seachat.features.knowledgeBase.multiLanguage.description') || 'Support multiple languages and localization to serve global customers with culturally appropriate responses.'}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Knowledge Base Demo -->
+    <div class="bg-gray-50 py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.knowledgeBase.demoTitle') || 'See Knowledge Base in Action'}
+          </h2>
+          <p class="text-lg text-gray-600">
+            {t('seachat.features.knowledgeBase.demoSubtitle') || 'Watch how our intelligent knowledge system powers accurate, contextual responses.'}
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div class="bg-gradient-to-r from-blue-600 to-indigo-600 p-6">
+            <h3 class="text-xl font-semibold text-white">{t('seachat.features.knowledgeBase.interfaceTitle') || 'Knowledge Base Interface'}</h3>
+          </div>
+          <div class="p-8">
+            <div class="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 class="text-lg font-semibold text-gray-900 mb-4">{t('seachat.features.knowledgeBase.categories') || 'Document Categories'}</h4>
+                <div class="space-y-3">
+                  <div class="flex items-center p-3 bg-blue-50 rounded-lg">
+                    <svg class="h-5 w-5 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                    <span class="text-gray-700">{t('seachat.features.knowledgeBase.productDocs') || 'Product Documentation'}</span>
+                    <span class="ml-auto text-sm text-gray-500">24 {t('seachat.features.knowledgeBase.articles') || 'articles'}</span>
+                  </div>
+                  <div class="flex items-center p-3 bg-green-50 rounded-lg">
+                    <svg class="h-5 w-5 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                    <span class="text-gray-700">{t('seachat.features.knowledgeBase.supportFaqs') || 'Customer Support FAQs'}</span>
+                    <span class="ml-auto text-sm text-gray-500">156 {t('seachat.features.knowledgeBase.articles') || 'articles'}</span>
+                  </div>
+                  <div class="flex items-center p-3 bg-purple-50 rounded-lg">
+                    <svg class="h-5 w-5 text-purple-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                    <span class="text-gray-700">{t('seachat.features.knowledgeBase.policies') || 'Company Policies'}</span>
+                    <span class="ml-auto text-sm text-gray-500">12 {t('seachat.features.knowledgeBase.articles') || 'articles'}</span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h4 class="text-lg font-semibold text-gray-900 mb-4">{t('seachat.features.knowledgeBase.recentUpdates') || 'Recent Updates'}</h4>
+                <div class="space-y-3">
+                  <div class="p-3 border border-gray-200 rounded-lg">
+                    <div class="flex justify-between items-start mb-2">
+                      <span class="font-medium text-gray-900">{t('seachat.features.knowledgeBase.refundUpdate') || 'Refund Policy Updated'}</span>
+                      <span class="text-xs text-gray-500">2 {t('seachat.features.knowledgeBase.hoursAgo') || 'hours ago'}</span>
+                    </div>
+                    <p class="text-sm text-gray-600">{t('seachat.features.knowledgeBase.returnWindow') || 'Updated return window from 14 to 30 days'}</p>
+                  </div>
+                  <div class="p-3 border border-gray-200 rounded-lg">
+                    <div class="flex justify-between items-start mb-2">
+                      <span class="font-medium text-gray-900">{t('seachat.features.knowledgeBase.featureGuide') || 'New Feature Guide'}</span>
+                      <span class="text-xs text-gray-500">1 {t('seachat.features.knowledgeBase.dayAgo') || 'day ago'}</span>
+                    </div>
+                    <p class="text-sm text-gray-600">{t('seachat.features.knowledgeBase.analyticsDoc') || 'Added documentation for advanced analytics'}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seachat.features.knowledgeBase.transformTitle') || 'Transform Your Customer Support'}
+        </h2>
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+          {t('seachat.features.knowledgeBase.transformSubtitle') || 'A well-organized knowledge base is the foundation of exceptional customer service and efficient operations.'}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seachat.features.knowledgeBase.benefitsTitle') || 'Key Benefits'}</h3>
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="bg-blue-100 p-2 rounded-lg mr-4 mt-1">
+                <svg class="h-5 w-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900 mb-2">{t('seachat.features.knowledgeBase.fasterResponse.title') || 'Faster Response Times'}</h4>
+                <p class="text-gray-600">{t('seachat.features.knowledgeBase.fasterResponse.description') || 'Reduce average response time by 60% with instant access to accurate information.'}</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="bg-green-100 p-2 rounded-lg mr-4 mt-1">
+                <svg class="h-5 w-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900 mb-2">{t('seachat.features.knowledgeBase.consistency.title') || 'Consistent Accuracy'}</h4>
+                <p class="text-gray-600">{t('seachat.features.knowledgeBase.consistency.description') || 'Ensure all agents provide consistent, up-to-date information across all channels.'}</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="bg-purple-100 p-2 rounded-lg mr-4 mt-1">
+                <svg class="h-5 w-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900 mb-2">{t('seachat.features.knowledgeBase.training.title') || 'Scalable Training'}</h4>
+                <p class="text-gray-600">{t('seachat.features.knowledgeBase.training.description') || 'Onboard new agents faster with comprehensive, searchable documentation.'}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gradient-to-br from-blue-50 to-indigo-100 p-8 rounded-2xl">
+          <div class="text-center">
+            <div class="bg-white p-4 rounded-xl inline-block mb-6">
+              <svg class="h-12 w-12 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+              </svg>
+            </div>
+            <h4 class="text-xl font-bold text-gray-900 mb-4">{t('seachat.features.knowledgeBase.readyTitle') || 'Ready to Get Started?'}</h4>
+            <p class="text-gray-600 mb-6">
+              {t('seachat.features.knowledgeBase.readySubtitle') || 'Build your knowledge base today and transform how your team delivers customer support.'}
+            </p>
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
+            >
+              {t('seachat.features.knowledgeBase.startButton') || 'Start Building'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

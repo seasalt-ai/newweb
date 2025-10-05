@@ -1,0 +1,96 @@
+---
+import { getTranslationHelpers, extractLangFromPath, type SupportedLanguage } from '../i18n/helpers';
+import { getMeetingUrl } from '../constants/urls';
+import HeroAnimation from './HeroAnimation';
+
+export interface Props {
+  lang?: string;
+}
+
+const { lang = 'en' } = Astro.props;
+const currentLang = extractLangFromPath(Astro.url.pathname) || lang as SupportedLanguage;
+const { t } = await getTranslationHelpers(currentLang);
+
+// Helper function to process translated text with HTML components
+function processTranslationWithComponents(text: string): { __html: string } {
+  // Replace <1> and </1> with span tags for gradient text
+  const processedText = text
+    .replace(/<1>/g, '<span class="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent text-3xl sm:text-4xl lg:text-6xl font-bold">')
+    .replace(/<\/1>/g, '</span>');
+  
+  return { __html: processedText };
+}
+
+const meetingUrl = getMeetingUrl(currentLang);
+
+// App icons data matching original
+const appIcons = [
+  { name: 'whatsapp', color: 'text-green-500', displayName: t('hero.appNames.whatsapp') },
+  { name: 'sms', color: 'text-blue-500', displayName: t('hero.appNames.sms') },
+  { name: 'phone', color: 'text-purple-500', displayName: t('hero.appNames.phone') },
+  { name: 'chat', color: 'text-orange-500', displayName: t('hero.appNames.chat') }
+];
+---
+
+<section class="bg-gradient-to-br from-blue-50 via-white to-indigo-50 pt-16 pb-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center space-y-12 lg:space-y-0">
+      <!-- Left Column - Content -->
+      <div class="lg:pr-8 w-full">
+        <div class="text-center lg:text-left w-full">
+          <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6" set:html={processTranslationWithComponents(t('hero.titleWithGradient')).__html}>
+          </h1>
+          
+          <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
+            {t('hero.description')}
+          </p>
+          
+          <!-- CTAs -->
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 sm:mb-12">
+            <a
+              href="https://seax.seasalt.ai/signup"
+              class="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
+            >
+              {t('hero.signUp')}
+            </a>
+            <a
+              href={meetingUrl}
+              class="border-2 border-gray-300 hover:border-blue-600 text-gray-700 hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+            >
+              {t('hero.seeDemo')}
+            </a>
+          </div>
+
+          <!-- Social Proof -->
+          <div class="border-t border-gray-200 pt-6 sm:pt-8">
+            <p class="text-sm text-gray-500 mb-4" set:html={processTranslationWithComponents(t('hero.developerMessage').replace(/<1>/g, '<code class="text-sm font-mono text-red-800 font-semibold whitespace-nowrap">').replace(/<\/1>/g, '</code>')).__html}>
+            </p>
+            <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4">
+              <code class="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
+                {t('hero.developerTools.phoneUse')}
+              </code>
+              <code class="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
+                {t('hero.developerTools.messageUse')}
+              </code>
+              <code class="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
+                {t('hero.developerTools.emailUse')}
+              </code>
+              <code class="text-sm font-mono bg-red-50 text-red-800 px-3 py-1.5 rounded-md border border-red-200 font-semibold whitespace-nowrap">
+                {t('hero.developerTools.meetingUse')}
+              </code>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column - Animation -->
+      <div class="mt-8 lg:mt-0">
+        <HeroAnimation 
+          client:load
+          appIcons={appIcons}
+          unifiedInboxText={t('hero.unifiedInbox')}
+        />
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,348 @@
+---
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
+import Layout from '../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  return supportedLocales.map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t } = await getTranslationHelpers(lang as SupportedLanguage);
+
+const seoTitle = t('channels.websiteChat.seo.title');
+const seoDescription = t('channels.websiteChat.seo.description');
+const seoKeywords = t('channels.websiteChat.seo.keywords');
+const canonicalUrl = `https://seasalt.ai/${lang}/channels/website-chat`;
+
+const breadcrumbs = [
+{ name: t('breadcrumbs.home'), url: `/${lang}/` },
+{ name: t('breadcrumbs.channels'), url: `/${lang}/channels/` },
+  { name: t('breadcrumbs.websiteChat') }
+];
+
+const features = [
+  {
+    iconName: 'Code',
+    title: t('channels.websiteChat.features.noCodeSetup.title'),
+    description: t('channels.websiteChat.features.noCodeSetup.description')
+  },
+  {
+    iconName: 'Palette',
+    title: t('channels.websiteChat.features.customBranding.title'),
+    description: t('channels.websiteChat.features.customBranding.description')
+  },
+  {
+    iconName: 'Users',
+    title: t('channels.websiteChat.features.leadCapture.title'),
+    description: t('channels.websiteChat.features.leadCapture.description')
+  },
+  {
+    iconName: 'Zap',
+    title: t('channels.websiteChat.features.instantResponses.title'),
+    description: t('channels.websiteChat.features.instantResponses.description')
+  }
+];
+
+const integrations = [
+  'WordPress',
+  'Shopify',
+  'Squarespace', 
+  'Wix',
+  'Webflow',
+  'Custom HTML'
+];
+
+const customizationOptions = [
+  {
+    title: t('channels.websiteChat.customization.positionSize.title'),
+    description: t('channels.websiteChat.customization.positionSize.description')
+  },
+  {
+    title: t('channels.websiteChat.customization.colorsFonts.title'),
+    description: t('channels.websiteChat.customization.colorsFonts.description')
+  },
+  {
+    title: t('channels.websiteChat.customization.welcomeMessages.title'),
+    description: t('channels.websiteChat.customization.welcomeMessages.description')
+  },
+  {
+    title: t('channels.websiteChat.customization.triggerRules.title'),
+    description: t('channels.websiteChat.customization.triggerRules.description')
+  }
+];
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang}
+  keywords={seoKeywords}
+  type="software"
+  breadcrumbs={breadcrumbs}
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-indigo-50 via-white to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+        <div>
+<a href={`/${lang}/channels`} class="inline-flex items-center text-gray-600 hover:text-indigo-600 transition-colors duration-200 mb-8">
+            <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            {t('channels.websiteChat.navigation.backToChannels')}
+          </a>
+          <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+            {t('channels.websiteChat.hero.title.prefix')}{' '}
+            <span class="bg-gradient-to-r from-indigo-600 to-indigo-700 bg-clip-text text-transparent">
+              {t('channels.websiteChat.hero.title.highlight')}
+            </span>
+          </h1>
+          <p class="text-xl text-gray-600 mb-8">
+            {t('channels.websiteChat.hero.description')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+            >
+              {t('channels.websiteChat.hero.cta.primary')}
+            </a>
+            <a
+              href={getMeetingUrl(lang)} class="border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+            >
+              {t('channels.websiteChat.hero.cta.secondary')}
+            </a>
+          </div>
+        </div>
+        
+        <div class="mt-12 lg:mt-0">
+          <div class="relative">
+            <div class="bg-white rounded-2xl shadow-2xl p-6">
+              <div class="flex items-center mb-4">
+                 <svg class="h-8 w-8 text-indigo-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                <h3 class="text-lg font-semibold">{t('channels.websiteChat.hero.widget.title')}</h3>
+              </div>
+              <div class="space-y-3">
+                <div class="bg-indigo-50 p-3 rounded-lg">
+                  <p class="text-sm font-medium text-indigo-800">{t('channels.websiteChat.hero.widget.welcome.greeting')}</p>
+                  <p class="text-xs text-indigo-600">{t('channels.websiteChat.hero.widget.welcome.question')}</p>
+                </div>
+                <div class="bg-gray-50 p-3 rounded-lg">
+                  <p class="text-sm text-gray-700">{t('channels.websiteChat.hero.widget.visitor.message')}</p>
+                </div>
+                <div class="bg-blue-50 p-3 rounded-lg">
+                  <p class="text-sm text-blue-700">{t('channels.websiteChat.hero.widget.ai.response')}</p>
+                </div>
+                <div class="flex space-x-2">
+                  <button class="bg-indigo-600 text-white px-3 py-1 rounded text-xs">{t('channels.websiteChat.hero.widget.button.yes')}</button>
+                  <button class="bg-gray-200 text-gray-700 px-3 py-1 rounded text-xs">{t('channels.websiteChat.hero.widget.button.no')}</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channels.websiteChat.features.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channels.websiteChat.features.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {features.map((feature, index) => (
+          <div key={index} class="p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition-all duration-300">
+            <div class="text-indigo-600 mb-4">
+              {feature.iconName === 'Code' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                </svg>
+              )}
+              {feature.iconName === 'Palette' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"></path>
+                </svg>
+              )}
+              {feature.iconName === 'Users' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                </svg>
+              )}
+              {feature.iconName === 'Zap' && (
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+              )}
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">
+              {feature.title}
+            </h3>
+            <p class="text-gray-600">
+              {feature.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Platform Integration -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channels.websiteChat.platforms.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channels.websiteChat.platforms.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+        {integrations.map((platform, index) => (
+          <div key={index} class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 text-center">
+            <div class="h-12 w-12 mx-auto mb-4 flex items-center justify-center">
+              {platform === 'WordPress' && (
+                <img src="/logos/platforms/wordpress.svg" alt="WordPress" class="h-10 w-10" />
+              )}
+              {platform === 'Shopify' && (
+                <img src="/logos/platforms/shopify.svg" alt="Shopify" class="h-10 w-10" />
+              )}
+              {platform === 'Squarespace' && (
+                <img src="/logos/platforms/squarespace.svg" alt="Squarespace" class="h-10 w-10" />
+              )}
+              {platform === 'Wix' && (
+                <img src="/logos/platforms/wix.svg" alt="Wix" class="h-10 w-10" />
+              )}
+              {platform === 'Webflow' && (
+                <img src="/logos/platforms/webflow.svg" alt="Webflow" class="h-10 w-10" />
+              )}
+              {platform === 'Custom HTML' && (
+                <svg class="h-10 w-10" fill="#e34f26" viewBox="0 0 24 24">
+                  <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/>
+                </svg>
+              )}
+            </div>
+            <h3 class="text-sm font-semibold text-gray-900">{platform}</h3>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Customization Showcase -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channels.websiteChat.customization.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channels.websiteChat.customization.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <div class="grid grid-cols-2 gap-6">
+            {customizationOptions.map((option, index) => (
+              <div key={index} class="p-4 rounded-xl border border-gray-200">
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                  {option.title}
+                </h3>
+                <p class="text-gray-600 text-sm">
+                  {option.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div class="bg-gradient-to-br from-indigo-50 to-indigo-100 p-8 rounded-2xl">
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">
+            {t('channels.websiteChat.customization.realTimePreview.title')}
+          </h3>
+          <p class="text-gray-600 mb-6">
+            {t('channels.websiteChat.customization.realTimePreview.description')}
+          </p>
+          <div class="bg-white p-4 rounded-lg shadow-lg">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-sm font-medium text-gray-900">Live Preview</span>
+              <div class="flex space-x-2">
+                <div class="w-3 h-3 bg-red-400 rounded-full"></div>
+                <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                <div class="w-3 h-3 bg-green-400 rounded-full"></div>
+              </div>
+            </div>
+            <div class="bg-indigo-600 text-white p-3 rounded-lg text-sm">
+              Hi! How can I help you today? 👋
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analytics Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('channels.websiteChat.analytics.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('channels.websiteChat.analytics.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <div class="text-3xl font-bold text-indigo-600 mb-2">2,847</div>
+          <div class="text-gray-600">{t('channels.websiteChat.analytics.conversations')}</div>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <div class="text-3xl font-bold text-green-600 mb-2">23%</div>
+          <div class="text-gray-600">{t('channels.websiteChat.analytics.conversionRate')}</div>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <div class="text-3xl font-bold text-blue-600 mb-2">< 30s</div>
+          <div class="text-gray-600">{t('channels.websiteChat.analytics.responseTime')}</div>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <div class="text-3xl font-bold text-orange-600 mb-2">4.8/5</div>
+          <div class="text-gray-600">{t('channels.websiteChat.analytics.satisfaction')}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-indigo-600 to-indigo-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('channels.websiteChat.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('channels.websiteChat.cta.description')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          class="bg-white text-indigo-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('channels.websiteChat.cta.button')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
+

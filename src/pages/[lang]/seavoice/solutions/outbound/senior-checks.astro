@@ -1,0 +1,462 @@
+---
+import Layout from '../../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
+import { Heart, Shield, Clock, Phone, CheckCircle, Users } from 'lucide-react';
+
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// SEO metadata
+const title = t('seavoice.pages.solutions.outbound.seniorCheckCalls.hero.title');
+const description = t('seavoice.pages.solutions.outbound.seniorCheckCalls.hero.description');
+const canonicalUrl = `${Astro.site}${currentLang}/seavoice/solutions/outbound/senior-checks`;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.seniorCheckCalls.breadcrumb') || 'Senior Check Calls' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.seniorCheckCalls.faq.q1') || 'How are emergencies handled?',
+    answer: t('seavoice.pages.solutions.outbound.seniorCheckCalls.faq.a1') || 'Emergency keywords and missed-call escalation trigger alerts to family or providers, with optional emergency services integration.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.seniorCheckCalls.faq.q2') || 'Can call schedules be customized?',
+    answer: t('seavoice.pages.solutions.outbound.seniorCheckCalls.faq.a2') || 'Yes. Daily or weekly check-ins with flexible time windows are supported per recipient preferences.'
+  }
+];
+
+// Page data structures
+const features = [
+  {
+    title: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.wellnessMonitoring.title'),
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.wellnessMonitoring.description'),
+    benefits: [
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.wellnessMonitoring.benefit1'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.wellnessMonitoring.benefit2'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.wellnessMonitoring.benefit3')
+    ],
+    icon: 'Heart'
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.emergencyDetection.title'),
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.emergencyDetection.description'),
+    benefits: [
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.emergencyDetection.benefit1'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.emergencyDetection.benefit2'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.emergencyDetection.benefit3')
+    ],
+    icon: 'Shield'
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.flexibleScheduling.title'),
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.flexibleScheduling.description'),
+    benefits: [
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.flexibleScheduling.benefit1'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.flexibleScheduling.benefit2'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.flexibleScheduling.benefit3')
+    ],
+    icon: 'Clock'
+  }
+];
+
+const checkTypes = [
+  {
+    type: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.type'),
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.description'),
+    frequency: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.frequency'),
+    duration: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.duration'),
+    focus: [
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.focus1'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.focus2'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.dailyWellness.focus3')
+    ]
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.type'),
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.description'),
+    frequency: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.frequency'),
+    duration: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.duration'),
+    focus: [
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.focus1'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.focus2'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.weeklyHealth.focus3')
+    ]
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.type'),
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.description'),
+    frequency: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.frequency'),
+    duration: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.duration'),
+    focus: [
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.focus1'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.focus2'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.emergencyResponse.focus3')
+    ]
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.type'),
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.description'),
+    frequency: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.frequency'),
+    duration: t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.duration'),
+    focus: [
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.focus1'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.focus2'),
+      t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.socialConnection.focus3')
+    ]
+  }
+];
+
+const benefits = [
+  { 
+    metric: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.seniorSatisfaction.metric'), 
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.seniorSatisfaction.description')
+  },
+  { 
+    metric: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.emergencyReduction.metric'), 
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.emergencyReduction.description')
+  },
+  { 
+    metric: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.availability.metric'), 
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.availability.description')
+  },
+  { 
+    metric: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.familyPeace.metric'), 
+    description: t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.familyPeace.description')
+  }
+];
+
+const safetyProtocols = [
+  t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.missedCallEscalation'),
+  t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.emergencyKeyword'),
+  t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.familyNotifications'),
+  t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.healthcareProvider'),
+  t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.emergencyServices'),
+  t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.protocols.medicalAlert')
+];
+---
+
+<Layout 
+  title={title}
+  description={description}
+  lang={currentLang}
+  canonicalUrl={canonicalUrl}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+>
+  <div class="min-h-screen bg-white">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center animate-fade-in-up">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+            </svg>
+          </div>
+          <h1 class="text-5xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.hero.title')}
+          </h1>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.hero.description')}
+          </p>
+          <button class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.hero.button')}
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in-up">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.features.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {features.map((feature, index) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow animate-fade-in-up-delay">
+              <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mb-6">
+                {feature.icon === 'Heart' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'Shield' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'Clock' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                )}
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+              <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+              <div class="space-y-2">
+                {feature.benefits.map((benefit) => (
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span class="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Check Types -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in-up">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {checkTypes.map((check, index) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 animate-fade-in-up-delay">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{check.type}</h3>
+              <p class="text-gray-600 mb-6">{check.description}</p>
+              
+              <div class="grid grid-cols-2 gap-4 mb-6">
+                <div>
+                  <h4 class="font-semibold text-gray-900 text-sm mb-1">
+                    {t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.labels.frequency')}
+                  </h4>
+                  <p class="text-gray-600 text-sm">{check.frequency}</p>
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-900 text-sm mb-1">
+                    {t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.labels.duration')}
+                  </h4>
+                  <p class="text-gray-600 text-sm">{check.duration}</p>
+                </div>
+              </div>
+              
+              <div>
+                <h4 class="font-semibold text-gray-900 text-sm mb-3">
+                  {t('seavoice.pages.solutions.outbound.seniorCheckCalls.checkTypes.labels.focusAreas')}
+                </h4>
+                <div class="space-y-1">
+                  {check.focus.map((item) => (
+                    <div class="flex items-center">
+                      <div class="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2"></div>
+                      <span class="text-sm text-gray-700">{item}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Safety Protocols -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="animate-fade-in-left">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.title')}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.description')}
+            </p>
+            <div class="space-y-6">
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-blue-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">
+                    {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.emergencyResponse.title')}
+                  </h3>
+                  <p class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.emergencyResponse.description')}
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-blue-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">
+                    {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.familyCoordination.title')}
+                  </h3>
+                  <p class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.familyCoordination.description')}
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-blue-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">
+                    {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.healthcareIntegration.title')}
+                  </h3>
+                  <p class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.healthcareIntegration.description')}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 animate-fade-in-right">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.safetyProtocols.featuresTitle')}
+            </h3>
+            <div class="grid grid-cols-1 gap-3">
+              {safetyProtocols.map((protocol) => (
+                <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                  <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span class="text-gray-700 font-medium">{protocol}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Metrics -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-fade-in-up">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.benefits.subtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {benefits.map((benefit, index) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200 animate-fade-in-up-delay">
+              <div class="text-4xl font-bold text-blue-600 mb-4">{benefit.metric}</div>
+              <p class="text-gray-600">{benefit.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="animate-fade-in-up">
+          <h2 class="text-4xl font-bold mb-6">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.cta.title')}
+          </h2>
+          <p class="text-xl mb-8 opacity-90">
+            {t('seavoice.pages.solutions.outbound.seniorCheckCalls.cta.description')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.cta.startButton')}
+            </button>
+            <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+              {t('seavoice.pages.solutions.outbound.seniorCheckCalls.cta.learnButton')}
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <style>
+    .animate-fade-in-up {
+      opacity: 0;
+      transform: translateY(50px);
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+
+    .animate-fade-in-up-delay {
+      opacity: 0;
+      transform: translateY(50px);
+      animation: fadeInUp 0.8s ease-out 0.2s forwards;
+    }
+
+    .animate-fade-in-left {
+      opacity: 0;
+      transform: translateX(-50px);
+      animation: fadeInLeft 0.8s ease-out forwards;
+    }
+
+    .animate-fade-in-right {
+      opacity: 0;
+      transform: translateX(50px);
+      animation: fadeInRight 0.8s ease-out 0.2s forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInLeft {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeInRight {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .animate-fade-in-up,
+      .animate-fade-in-up-delay,
+      .animate-fade-in-left,
+      .animate-fade-in-right {
+        animation: none;
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+</Layout>

@@ -1,0 +1,326 @@
+---
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
+import Layout from '../../../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${currentLang}/seavoice/solutions/inbound/` },
+  { name: t('seavoice.pages.solutions.inbound.technicalSupport.breadcrumb') || 'Technical Support' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.inbound.technicalSupport.faq.q1') || 'What issues can AI technical support resolve?',
+    answer: t('seavoice.pages.solutions.inbound.technicalSupport.faq.a1') || 'Hardware, software, network, and account security issues with guided troubleshooting and smart escalation.'
+  },
+  {
+    question: t('seavoice.pages.solutions.inbound.technicalSupport.faq.q2') || 'How are complex cases handled?',
+    answer: t('seavoice.pages.solutions.inbound.technicalSupport.faq.a2') || 'Complex cases are transferred to human agents with context, transcripts, and diagnostic results.'
+  }
+];
+
+// SEO配置
+const title = t('seavoice.pages.solutions.inbound.technicalSupport.hero.title');
+const description = t('seavoice.pages.solutions.inbound.technicalSupport.hero.description');
+const canonicalURL = new URL(`/${currentLang}/seavoice/solutions/inbound/technical-support`, Astro.site);
+
+// 頁面數據結構
+const features = [
+  {
+    icon: 'wrench',
+    title: t('seavoice.pages.solutions.inbound.technicalSupport.features.automatedTroubleshooting.title'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.features.automatedTroubleshooting.description'),
+    benefits: [
+      t('seavoice.pages.solutions.inbound.technicalSupport.features.automatedTroubleshooting.benefits.0'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.features.automatedTroubleshooting.benefits.1'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.features.automatedTroubleshooting.benefits.2')
+    ]
+  },
+  {
+    icon: 'zap',
+    title: t('seavoice.pages.solutions.inbound.technicalSupport.features.intelligentEscalation.title'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.features.intelligentEscalation.description'),
+    benefits: [
+      t('seavoice.pages.solutions.inbound.technicalSupport.features.intelligentEscalation.benefits.0'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.features.intelligentEscalation.benefits.1'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.features.intelligentEscalation.benefits.2')
+    ]
+  },
+  {
+    icon: 'users',
+    title: t('seavoice.pages.solutions.inbound.technicalSupport.features.multiPlatformSupport.title'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.features.multiPlatformSupport.description'),
+    benefits: [
+      t('seavoice.pages.solutions.inbound.technicalSupport.features.multiPlatformSupport.benefits.0'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.features.multiPlatformSupport.benefits.1'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.features.multiPlatformSupport.benefits.2')
+    ]
+  }
+];
+
+const supportCapabilities = [
+  {
+    category: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.hardwareIssues.category'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.hardwareIssues.description'),
+    examples: [
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.hardwareIssues.examples.0'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.hardwareIssues.examples.1'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.hardwareIssues.examples.2')
+    ]
+  },
+  {
+    category: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.softwareTroubleshooting.category'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.softwareTroubleshooting.description'),
+    examples: [
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.softwareTroubleshooting.examples.0'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.softwareTroubleshooting.examples.1'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.softwareTroubleshooting.examples.2')
+    ]
+  },
+  {
+    category: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.networkProblems.category'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.networkProblems.description'),
+    examples: [
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.networkProblems.examples.0'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.networkProblems.examples.1'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.networkProblems.examples.2')
+    ]
+  },
+  {
+    category: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.accountSecurity.category'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.accountSecurity.description'),
+    examples: [
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.accountSecurity.examples.0'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.accountSecurity.examples.1'),
+      t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.accountSecurity.examples.2')
+    ]
+  }
+];
+
+const benefits = [
+  { metric: '75%', description: t('seavoice.pages.solutions.inbound.technicalSupport.metrics.resolution.description') },
+  { metric: '60%', description: t('seavoice.pages.solutions.inbound.technicalSupport.metrics.reductionTime.description') },
+  { metric: '90%', description: t('seavoice.pages.solutions.inbound.technicalSupport.metrics.satisfaction.description') },
+  { metric: '24/7', description: t('seavoice.pages.solutions.inbound.technicalSupport.metrics.availability.description') }
+];
+
+const troubleshootingSteps = [
+  {
+    step: 1,
+    title: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.issueIdentification.title'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.issueIdentification.description')
+  },
+  {
+    step: 2,
+    title: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.diagnosticAnalysis.title'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.diagnosticAnalysis.description')
+  },
+  {
+    step: 3,
+    title: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.solutionGuidance.title'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.solutionGuidance.description')
+  },
+  {
+    step: 4,
+    title: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.verificationFollowup.title'),
+    description: t('seavoice.pages.solutions.inbound.technicalSupport.process.steps.verificationFollowup.description')
+  }
+];
+---
+
+<Layout
+  title={title}
+  description={description}
+  canonical={canonicalURL}
+  lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+>
+  <div class="min-h-screen bg-white">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-blue-50 via-white to-cyan-50 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+          </div>
+          <h1 class="text-5xl font-bold text-gray-900 mb-6">
+            {title}
+          </h1>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            {description}
+          </p>
+          <button class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.hero.primaryCta')}
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.features.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.features.description')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {features.map((feature, index) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+              <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-lg flex items-center justify-center mb-6">
+                {feature.icon === 'wrench' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'zap' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'users' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                  </svg>
+                )}
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+              <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+              <div class="space-y-2">
+                {feature.benefits.map((benefit) => (
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Support Capabilities -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.capabilities.description')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {supportCapabilities.map((capability) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{capability.category}</h3>
+              <p class="text-gray-600 mb-6">{capability.description}</p>
+              <div class="space-y-2">
+                {capability.examples.map((example) => (
+                  <div class="flex items-center">
+                    <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                    <span class="text-sm text-gray-700">{example}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Troubleshooting Process -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.process.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.process.description')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {troubleshootingSteps.map((step) => (
+            <div class="text-center">
+              <div class="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+                {step.step}
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{step.title}</h3>
+              <p class="text-gray-600">{step.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Metrics -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.benefits.title')}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.benefits.description')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {benefits.map((benefit) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+              <div class="text-4xl font-bold text-blue-600 mb-4">{benefit.metric}</div>
+              <p class="text-gray-600">{benefit.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-cyan-600 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.inbound.technicalSupport.cta.title')}</h2>
+        <p class="text-xl mb-8 opacity-90">
+          {t('seavoice.pages.solutions.inbound.technicalSupport.cta.description')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.cta.primaryButton')}
+          </button>
+          <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+            {t('seavoice.pages.solutions.inbound.technicalSupport.cta.secondaryButton')}
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

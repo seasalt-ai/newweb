@@ -1,0 +1,304 @@
+---
+import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import Layout from '../../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t } = await getTranslationHelpers(lang as SupportedLanguage);
+
+// Integration categories data
+const integrationCategories = [
+  {
+    title: t('seachat.header.integrationsDropdown.websites'),
+    description: t('seachat.integrations.websites.subtitle'),
+    href: `/${lang}/seachat/integrations/websites`,
+    icon: 'globe',
+    color: 'from-blue-500 to-indigo-600',
+    platforms: ['WordPress', 'Shopify', 'Wix', 'Squarespace', 'Webflow']
+  },
+  {
+    title: t('seachat.header.integrationsDropdown.crm'),
+    description: t('seachat.integrations.crm.subtitle'),
+    href: `/${lang}/seachat/integrations/crm`,
+    icon: 'database',
+    color: 'from-purple-500 to-pink-600',
+    platforms: ['Salesforce', 'HubSpot', 'Pipedrive', 'Zoho', 'Dynamics']
+  },
+  {
+    title: t('seachat.header.integrationsDropdown.ecommerce'),
+    description: t('seachat.integrations.ecommerce.subtitle'),
+    href: `/${lang}/seachat/integrations/ecommerce`,
+    icon: 'shopping',
+    color: 'from-green-500 to-teal-600',
+    platforms: ['Shopify', 'WooCommerce', 'BigCommerce', 'Magento', 'Square']
+  },
+  {
+    title: t('seachat.header.integrationsDropdown.socialMedia'),
+    description: t('seachat.integrations.socialMedia.subtitle'),
+    href: `/${lang}/seachat/integrations/social-media`,
+    icon: 'social',
+    color: 'from-pink-500 to-rose-600',
+    platforms: ['Facebook', 'Instagram', 'Twitter', 'LinkedIn', 'WhatsApp']
+  },
+  {
+    title: t('seachat.header.integrationsDropdown.communication'),
+    description: t('seachat.integrations.communication.subtitle'),
+    href: `/${lang}/seachat/integrations/communication`,
+    icon: 'message',
+    color: 'from-indigo-500 to-blue-600',
+    platforms: ['Slack', 'Microsoft Teams', 'Discord', 'Telegram', 'Email']
+  },
+  {
+    title: t('seachat.header.integrationsDropdown.marketing'),
+    description: t('seachat.integrations.marketing.subtitle'),
+    href: `/${lang}/seachat/integrations/marketing`,
+    icon: 'megaphone',
+    color: 'from-orange-500 to-red-600',
+    platforms: ['Mailchimp', 'ActiveCampaign', 'Klaviyo', 'SendGrid', 'Brevo']
+  },
+  {
+    title: t('seachat.header.integrationsDropdown.calendar'),
+    description: t('seachat.integrations.calendar.subtitle'),
+    href: `/${lang}/seachat/integrations/calendar`,
+    icon: 'calendar',
+    color: 'from-cyan-500 to-blue-600',
+    platforms: ['Calendly', 'Google Calendar', 'Outlook', 'Cal.com', 'Acuity']
+  },
+  {
+    title: t('seachat.header.integrationsDropdown.api'),
+    description: t('seachat.integrations.api.subtitle'),
+    href: `/${lang}/seachat/integrations/api`,
+    icon: 'code',
+    color: 'from-gray-600 to-gray-800',
+    platforms: ['REST API', 'GraphQL', 'Webhooks', 'SDK', 'Custom']
+  }
+];
+
+// SEO metadata
+const seoTitle = t('seachat.integrations.title');
+const seoDescription = t('seachat.integrations.subtitle');
+const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations`;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${lang}/` },
+  { name: 'SeaChat', url: `/${lang}/seachat/` },
+  { name: 'Integrations' }
+];
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang as SupportedLanguage}
+  breadcrumbs={breadcrumbs}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <h1 class="text-5xl md:text-6xl font-bold mb-6">
+            {t('seachat.integrations.title')}
+          </h1>
+          <p class="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.integrations.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://chat.seasalt.ai/gpt/signup" class="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">
+              {t('seachat.integrations.getStarted')}
+            </a>
+            <a href={`https://wiki.seasalt.ai/${lang === 'zh-TW' || lang === 'zh-CN' ? 'zh' : 'en'}/seachat`} class="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+              {t('seachat.integrations.viewDocs')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Integration Categories Grid -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.categoriesTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.categoriesSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {integrationCategories.map((category, index) => (
+            <a 
+              key={index}
+              href={category.href}
+              class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+            >
+              <div class={`w-16 h-16 bg-gradient-to-br ${category.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
+                {/* Category icons */}
+                {category.icon === 'globe' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+                  </svg>
+                )}
+                {category.icon === 'database' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                  </svg>
+                )}
+                {category.icon === 'shopping' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                  </svg>
+                )}
+                {category.icon === 'social' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                  </svg>
+                )}
+                {category.icon === 'message' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                  </svg>
+                )}
+                {category.icon === 'megaphone' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path>
+                  </svg>
+                )}
+                {category.icon === 'calendar' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  </svg>
+                )}
+                {category.icon === 'code' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                  </svg>
+                )}
+              </div>
+              
+              <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+                {category.title}
+              </h3>
+              <p class="text-gray-600 mb-4 text-sm">
+                {category.description}
+              </p>
+              
+              <div class="space-y-2">
+                <p class="text-xs font-semibold text-gray-500 uppercase tracking-wider">
+                  {t('seachat.integrations.popularPlatforms')}:
+                </p>
+                <div class="flex flex-wrap gap-1">
+                  {category.platforms.slice(0, 3).map((platform, idx) => (
+                    <span key={idx} class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">
+                      {platform}
+                    </span>
+                  ))}
+                  {category.platforms.length > 3 && (
+                    <span class="text-xs text-gray-500">
+                      +{category.platforms.length - 3} {t('seachat.integrations.more')}
+                    </span>
+                  )}
+                </div>
+              </div>
+              
+              <div class="mt-6 flex items-center text-blue-600 font-semibold group-hover:translate-x-2 transition-transform">
+                {t('seachat.integrations.viewIntegrations')}
+                <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.benefitsTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.benefitsSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-2xl p-8 shadow-lg">
+            <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">
+              {t('seachat.integrations.benefits.automation.title')}
+            </h3>
+            <p class="text-gray-600">
+              {t('seachat.integrations.benefits.automation.description')}
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-8 shadow-lg">
+            <div class="w-12 h-12 bg-green-100 text-green-600 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">
+              {t('seachat.integrations.benefits.data.title')}
+            </h3>
+            <p class="text-gray-600">
+              {t('seachat.integrations.benefits.data.description')}
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-8 shadow-lg">
+            <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-4">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">
+              {t('seachat.integrations.benefits.workflow.title')}
+            </h3>
+            <p class="text-gray-600">
+              {t('seachat.integrations.benefits.workflow.description')}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.integrations.ctaTitle')}
+        </h2>
+        <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.integrations.ctaSubtitle')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://chat.seasalt.ai/gpt/signup" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center">
+            {t('seachat.integrations.ctaButton')}
+          </a>
+          <a href={`/${lang}/seachat/integrations/api`} class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center">
+            {t('seachat.integrations.apiButton')}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

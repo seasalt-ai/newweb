@@ -1,0 +1,481 @@
+---
+import { getTranslationHelpers, languages, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
+import Layout from '../../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const { t } = await getTranslationHelpers(lang as SupportedLanguage);
+
+// Helper function to get the correct SeaChat Wiki URL based on language
+const getSeaChatWikiUrl = (currentLanguage: string) => {
+  const wikiLanguage = (currentLanguage === 'zh-TW' || currentLanguage === 'zh-CN') ? 'zh' : 'en';
+  return `https://wiki.seasalt.ai/${wikiLanguage}/seachat`;
+};
+
+const platforms = [
+  {
+    name: t('seachat.integrations.marketing.platforms.activecampaign.name'),
+    icon: 'zap',
+    color: 'from-indigo-500 to-purple-500',
+    description: t('seachat.integrations.marketing.platforms.activecampaign.description'),
+    features: [
+      t('seachat.integrations.marketing.platforms.activecampaign.features.automation'),
+      t('seachat.integrations.marketing.platforms.activecampaign.features.crm'),
+      t('seachat.integrations.marketing.platforms.activecampaign.features.learning'),
+      t('seachat.integrations.marketing.platforms.activecampaign.features.sending')
+    ],
+    setupTime: t('seachat.integrations.marketing.platforms.activecampaign.setupTime'),
+    category: t('seachat.integrations.marketing.platforms.activecampaign.category')
+  },
+  {
+    name: t('seachat.integrations.marketing.platforms.constantcontact.name'),
+    icon: 'mail',
+    color: 'from-blue-500 to-yellow-400',
+    description: t('seachat.integrations.marketing.platforms.constantcontact.description'),
+    features: [
+      t('seachat.integrations.marketing.platforms.constantcontact.features.templates'),
+      t('seachat.integrations.marketing.platforms.constantcontact.features.social'),
+      t('seachat.integrations.marketing.platforms.constantcontact.features.scheduling'),
+      t('seachat.integrations.marketing.platforms.constantcontact.features.analytics')
+    ],
+    setupTime: t('seachat.integrations.marketing.platforms.constantcontact.setupTime'),
+    category: t('seachat.integrations.marketing.platforms.constantcontact.category')
+  },
+  {
+    name: t('seachat.integrations.marketing.platforms.convertkit.name'),
+    icon: 'users',
+    color: 'from-blue-500 to-indigo-500',
+    description: t('seachat.integrations.marketing.platforms.convertkit.description'),
+    features: [
+      t('seachat.integrations.marketing.platforms.convertkit.features.sequences'),
+      t('seachat.integrations.marketing.platforms.convertkit.features.tagging'),
+      t('seachat.integrations.marketing.platforms.convertkit.features.landing'),
+      t('seachat.integrations.marketing.platforms.convertkit.features.integrations')
+    ],
+    setupTime: t('seachat.integrations.marketing.platforms.convertkit.setupTime'),
+    category: t('seachat.integrations.marketing.platforms.convertkit.category')
+  },
+  {
+    name: t('seachat.integrations.marketing.platforms.engagebay.name'),
+    icon: 'users',
+    color: 'from-pink-500 to-orange-400',
+    description: t('seachat.integrations.marketing.platforms.engagebay.description'),
+    features: [
+      t('seachat.integrations.marketing.platforms.engagebay.features.email'),
+      t('seachat.integrations.marketing.platforms.engagebay.features.crm'),
+      t('seachat.integrations.marketing.platforms.engagebay.features.forms'),
+      t('seachat.integrations.marketing.platforms.engagebay.features.automation')
+    ],
+    setupTime: t('seachat.integrations.marketing.platforms.engagebay.setupTime'),
+    category: t('seachat.integrations.marketing.platforms.engagebay.category')
+  },
+  {
+    name: t('seachat.integrations.marketing.platforms.hubspot.name'),
+    icon: 'hubspot',
+    color: 'from-orange-500 to-red-500',
+    description: t('seachat.integrations.marketing.platforms.hubspot.description'),
+    features: [
+      t('seachat.integrations.marketing.platforms.hubspot.features.scoring'),
+      t('seachat.integrations.marketing.platforms.hubspot.features.automation'),
+      t('seachat.integrations.marketing.platforms.hubspot.features.landing'),
+      t('seachat.integrations.marketing.platforms.hubspot.features.social')
+    ],
+    setupTime: t('seachat.integrations.marketing.platforms.hubspot.setupTime'),
+    category: t('seachat.integrations.marketing.platforms.hubspot.category')
+  },
+  {
+    name: t('seachat.integrations.marketing.platforms.klaviyo.name'),
+    icon: 'zap',
+    color: 'from-purple-500 to-pink-500',
+    description: t('seachat.integrations.marketing.platforms.klaviyo.description'),
+    features: [
+      t('seachat.integrations.marketing.platforms.klaviyo.features.triggers'),
+      t('seachat.integrations.marketing.platforms.klaviyo.features.recommendations'),
+      t('seachat.integrations.marketing.platforms.klaviyo.features.sms'),
+      t('seachat.integrations.marketing.platforms.klaviyo.features.revenue')
+    ],
+    setupTime: t('seachat.integrations.marketing.platforms.klaviyo.setupTime'),
+    category: t('seachat.integrations.marketing.platforms.klaviyo.category')
+  },
+  {
+    name: t('seachat.integrations.marketing.platforms.mailchimp.name'),
+    icon: 'mailchimp',
+    color: 'from-yellow-500 to-orange-500',
+    description: t('seachat.integrations.marketing.platforms.mailchimp.description'),
+    features: [
+      t('seachat.integrations.marketing.platforms.mailchimp.features.builder'),
+      t('seachat.integrations.marketing.platforms.mailchimp.features.segmentation'),
+      t('seachat.integrations.marketing.platforms.mailchimp.features.testing'),
+      t('seachat.integrations.marketing.platforms.mailchimp.features.reporting')
+    ],
+    setupTime: t('seachat.integrations.marketing.platforms.mailchimp.setupTime'),
+    category: t('seachat.integrations.marketing.platforms.mailchimp.category')
+  },
+  {
+    name: t('seachat.integrations.marketing.platforms.mailerlite.name'),
+    icon: 'mail',
+    color: 'from-green-500 to-emerald-500',
+    description: t('seachat.integrations.marketing.platforms.mailerlite.description'),
+    features: [
+      t('seachat.integrations.marketing.platforms.mailerlite.features.campaigns'),
+      t('seachat.integrations.marketing.platforms.mailerlite.features.automation'),
+      t('seachat.integrations.marketing.platforms.mailerlite.features.subscribers'),
+      t('seachat.integrations.marketing.platforms.mailerlite.features.analytics')
+    ],
+    setupTime: t('seachat.integrations.marketing.platforms.mailerlite.setupTime'),
+    category: t('seachat.integrations.marketing.platforms.mailerlite.category')
+  },
+  {
+    name: t('seachat.integrations.marketing.platforms.omnisend.name'),
+    icon: 'mail',
+    color: 'from-teal-500 to-green-500',
+    description: t('seachat.integrations.marketing.platforms.omnisend.description'),
+    features: [
+      t('seachat.integrations.marketing.platforms.omnisend.features.email'),
+      t('seachat.integrations.marketing.platforms.omnisend.features.automation'),
+      t('seachat.integrations.marketing.platforms.omnisend.features.segmentation'),
+      t('seachat.integrations.marketing.platforms.omnisend.features.reports')
+    ],
+    setupTime: t('seachat.integrations.marketing.platforms.omnisend.setupTime'),
+    category: t('seachat.integrations.marketing.platforms.omnisend.category')
+  }
+];
+
+const benefits = [
+  {
+    title: t('seachat.integrations.marketing.benefits.leads.title'),
+    description: t('seachat.integrations.marketing.benefits.leads.description'),
+    metric: '35%'
+  },
+  {
+    title: t('seachat.integrations.marketing.benefits.retention.title'),
+    description: t('seachat.integrations.marketing.benefits.retention.description'),
+    metric: '60%'
+  },
+  {
+    title: t('seachat.integrations.marketing.benefits.campaigns.title'),
+    description: t('seachat.integrations.marketing.benefits.campaigns.description'),
+    metric: '45%'
+  },
+  {
+    title: t('seachat.integrations.marketing.benefits.revenue.title'),
+    description: t('seachat.integrations.marketing.benefits.revenue.description'),
+    metric: '28%'
+  }
+];
+
+// Get features array from translations - handling array type
+const featuresData = t('seachat.integrations.marketing.features');
+const features = Array.isArray(featuresData) ? featuresData : [];
+
+const useCases = [
+  {
+    title: t('seachat.integrations.marketing.useCases.nurturing.title'),
+    description: t('seachat.integrations.marketing.useCases.nurturing.description'),
+    example: t('seachat.integrations.marketing.useCases.nurturing.example')
+  },
+  {
+    title: t('seachat.integrations.marketing.useCases.upselling.title'),
+    description: t('seachat.integrations.marketing.useCases.upselling.description'),
+    example: t('seachat.integrations.marketing.useCases.upselling.example')
+  },
+  {
+    title: t('seachat.integrations.marketing.useCases.onboarding.title'),
+    description: t('seachat.integrations.marketing.useCases.onboarding.description'),
+    example: t('seachat.integrations.marketing.useCases.onboarding.example')
+  },
+  {
+    title: t('seachat.integrations.marketing.useCases.retention.title'),
+    description: t('seachat.integrations.marketing.useCases.retention.description'),
+    example: t('seachat.integrations.marketing.useCases.retention.example')
+  }
+];
+
+// SEO metadata
+const seoTitle = t('seachat.integrations.marketing.title') + ' | SeaChat';
+const seoDescription = t('seachat.integrations.marketing.subtitle');
+const canonicalUrl = `https://seasalt.ai/${lang}/seachat/integrations/marketing`;
+---
+
+<Layout 
+  breadcrumbs={[{ name: 'Home', url: `/${lang}/` }, { name: 'SeaChat', url: `/${lang}/seachat/` }, { name: 'Integrations', url: `/${lang}/seachat/integrations/` }, { name: 'Marketing' }]}
+  title=
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={lang as SupportedLanguage}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-orange-900 via-red-800 to-pink-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-orange-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.integrations.marketing.title')}
+            </h1>
+          </div>
+          <p class="text-2xl text-orange-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.integrations.marketing.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-orange-500 hover:bg-orange-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.integrations.marketing.connectButton')}
+            </a>
+            <a
+              href={getMeetingUrl(lang)}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-orange-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.integrations.marketing.demoButton')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supported Platforms -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.marketing.platformsTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.marketing.platformsSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {platforms.map((platform) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+              <div class="flex items-center justify-between mb-6">
+                <div class={`w-16 h-16 bg-gradient-to-br ${platform.color} rounded-2xl flex items-center justify-center`}>
+                  {/* Platform icons */}
+                  {platform.icon === 'zap' && (
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                  )}
+                  {platform.icon === 'mail' && (
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg>
+                  )}
+                  {platform.icon === 'users' && (
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                    </svg>
+                  )}
+                  {platform.icon === 'hubspot' && (
+                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M18.164 7.93V5.084a2.198 2.198 0 001.267-1.978v-.067A2.2 2.2 0 0017.238.845h-.067a2.2 2.2 0 00-2.193 2.193v.067c0 .854.497 1.594 1.215 1.96v2.862c-1.17.233-2.26.714-3.196 1.403l-7.893-5.885c.088-.27.14-.555.14-.854C5.244 1.71 4.534 1 3.652 1S2.06 1.71 2.06 2.591c0 .882.71 1.591 1.591 1.591.315 0 .607-.1.854-.252l7.87 5.873a7.925 7.925 0 00-1.521 4.94v.053c0 4.387 3.55 7.936 7.937 7.936s7.936-3.55 7.936-7.936v-.053a7.951 7.951 0 00-7.562-7.918v.105zm-.873 11.646a3.573 3.573 0 01-3.568-3.568 3.573 3.573 0 013.568-3.567 3.573 3.573 0 013.567 3.567 3.573 3.573 0 01-3.567 3.568z"/>
+                    </svg>
+                  )}
+                  {platform.icon === 'mailchimp' && (
+                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M11.267 2.2l-.659 1.31.493.17s.219-.558.384-.837c.279-.465.546-.643.546-.643zm7.028 10.22a.924.924 0 00.077.082s.041-.197.012-.359a.576.576 0 00-.348-.42c-.21-.09-.478-.026-.68.13-.367.285-.374.655-.15.837a.513.513 0 00.618.04c.144-.089.27-.222.306-.372.017-.058.017-.107.002-.144a.078.078 0 00-.065-.038.123.123 0 00-.068.02c-.03.018-.053.047-.064.08a.258.258 0 00-.004.105.31.31 0 01-.006.12.143.143 0 01-.083.088.094.094 0 01-.103-.016c-.046-.049-.045-.17.074-.286a.29.29 0 01.249-.097.162.162 0 01.128.079c.063.113.015.303-.101.435a.638.638 0 01-.42.216.408.408 0 01-.215-.031 1.1 1.1 0 00.009.057c.032.136.107.21.212.21.076 0 .162-.037.238-.103a.571.571 0 00.215-.477zm.641.813c-.032.049-.152.164-.396.23a1.8 1.8 0 01-.303.052l-.056-.052a.303.303 0 00-.022-.017c-.01-.008-.045-.026-.062-.034l.002-.007c.166-.054.373-.177.495-.38.06-.098.083-.193.068-.283a.279.279 0 00-.155-.194.527.527 0 00-.597.154.775.775 0 00-.193.574c-.214.005-.43-.006-.643-.033a3.843 3.843 0 01-.704-.152 8.463 8.463 0 00-.072-.775 8.697 8.697 0 00-.353-1.563c.837.105 1.694.022 2.276-.214.695-.282 1.024-.693.978-1.226-.031-.348-.224-.635-.559-.829a2.502 2.502 0 00-1.513-.247c-.543.087-1.028.32-1.402.675-.355.337-.582.76-.677 1.261-.127.68.006 1.264.19 1.693l-.022.004-.226.04c-.235-.813-.61-1.64-1.086-2.395-.583-.924-1.314-1.715-2.115-2.285-.406-.29-.832-.52-1.268-.684.273-.424.477-.928.589-1.51a4.113 4.113 0 00-.006-1.763c-.244-1.138-.862-1.869-1.566-1.853-.334.006-.641.186-.867.508-.227.32-.348.763-.341 1.241.01.802.373 1.657.883 2.078.227.189.469.315.703.366a6.034 6.034 0 01-.727 1.016 8.072 8.072 0 00-.494-.297 5.94 5.94 0 00-2.452-.763c-.892-.066-1.565.126-2 .573-.367.378-.485.879-.341 1.45.145.57.513 1.134 1.033 1.587.622.542 1.446.88 2.237.88a3.64 3.64 0 00.512-.038c.426-.06.803-.189 1.117-.382.387-.237.695-.587.891-1.012.127-.273.162-.515.166-.773l-.002-.138a2.894 2.894 0 00-.008-.13l.003-.001c.237.139.461.301.671.487.736.652 1.28 1.639 1.573 2.855.088.366.153.74.195 1.115-.377-.148-.82-.268-1.295-.303a3.373 3.373 0 00-1.56.216c-.415.188-.712.456-.857.775-.128.283-.14.595-.034.903.104.305.315.58.613.8.326.24.74.4 1.194.461.467.064.97.021 1.451-.122.327-.097.638-.238.908-.417.035.235.076.47.121.704.121.636.281 1.216.457 1.64.228.547.482.86.735.904.162.03.297-.064.392-.27.12-.264.183-.72.17-1.287a9.45 9.45 0 00-.096-1.093 1.702 1.702 0 01.243.041c.338.081.619.21.756.345.062.062.085.115.082.16-.003.04-.029.095-.093.163z"/>
+                    </svg>
+                  )}
+                </div>
+                <span class="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-medium">
+                  {platform.category}
+                </span>
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">{platform.name}</h3>
+              <p class="text-gray-600 mb-6">{platform.description}</p>
+              
+              <div class="space-y-3 mb-6">
+                {platform.features.map((feature) => (
+                  <div class="flex items-center space-x-3">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-gray-700">{feature}</span>
+                  </div>
+                ))}
+              </div>
+              
+              <div class="flex items-center justify-between mb-6">
+                <div class="text-sm text-gray-600">
+                  {t('seachat.integrations.marketing.setup')}: <span class="font-medium text-gray-900">{platform.setupTime}</span>
+                </div>
+              </div>
+              
+              <a
+                href="https://chat.seasalt.ai/gpt/signup"
+                target="_blank"
+                rel="noopener noreferrer"
+                class={`w-full bg-gradient-to-r ${platform.color} hover:opacity-90 text-white py-3 px-6 rounded-lg font-semibold transition-all transform hover:scale-105 text-center block`}
+              >
+                {t('seachat.integrations.marketing.connectPlatform')} {platform.name}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.marketing.benefitsTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.marketing.benefitsSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {benefits.map((benefit) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div class="text-4xl font-bold text-orange-600 mb-4">+{benefit.metric}</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{benefit.title}</h3>
+              <p class="text-gray-600">{benefit.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.integrations.marketing.useCasesTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.integrations.marketing.useCasesSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {useCases.map((useCase) => (
+            <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 border border-orange-100">
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">{useCase.title}</h3>
+              <p class="text-gray-600 mb-6">{useCase.description}</p>
+              
+              <div class="bg-white rounded-lg p-4 border-l-4 border-orange-500">
+                <h4 class="font-semibold text-gray-900 mb-2">{t('seachat.integrations.marketing.workflowExample')}:</h4>
+                <p class="text-gray-700 text-sm">{useCase.example}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Showcase -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seachat.integrations.marketing.integrationTitle')}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seachat.integrations.marketing.integrationSubtitle')}
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+              {features.map((feature) => (
+                <div class="flex items-center space-x-3">
+                  <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                  <span class="text-gray-700">{feature.title}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 border border-orange-100">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seachat.integrations.marketing.automationTitle')}</h3>
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold text-sm">1</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.integrations.marketing.flow.conversation.title')}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.integrations.marketing.flow.conversation.description')}</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-red-600 text-white rounded-full flex items-center justify-center font-bold text-sm">2</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.integrations.marketing.flow.tagging.title')}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.integrations.marketing.flow.tagging.description')}</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-pink-600 text-white rounded-full flex items-center justify-center font-bold text-sm">3</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.integrations.marketing.flow.trigger.title')}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.integrations.marketing.flow.trigger.description')}</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start space-x-4">
+                <div class="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-sm">4</div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{t('seachat.integrations.marketing.flow.conversion.title')}</h4>
+                  <p class="text-gray-600 text-sm">{t('seachat.integrations.marketing.flow.conversion.description')}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-orange-600 to-red-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.integrations.marketing.ctaTitle')}
+        </h2>
+        <p class="text-xl text-orange-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.integrations.marketing.ctaSubtitle')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-orange-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.integrations.marketing.ctaConnectButton')}
+          </a>
+          <a
+            href={getSeaChatWikiUrl(lang)}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
+          >
+            {t('seachat.integrations.marketing.ctaGuideButton')}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

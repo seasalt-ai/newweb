@@ -1,0 +1,215 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
+import { ArrowLeft, Check, X } from 'lucide-react';
+
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const title = t('compare.ringCentralAlternative.seo.title') || 'Best RingCentral Alternative - Seasalt.ai';
+const description = t('compare.ringCentralAlternative.seo.description') || 'Compare Seasalt.ai vs RingCentral for unified communications and contact center solutions.';
+
+const comparisonFeatures = [
+  {
+    feature: t('compare.ringcentral.comparison.features.platformArchitecture.name'),
+    seasalt: t('compare.ringcentral.comparison.features.platformArchitecture.seasalt'),
+    competitor: t('compare.ringcentral.comparison.features.platformArchitecture.ringcentral'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.ringcentral.comparison.features.startingPrice.name'),
+    seasalt: t('compare.ringcentral.comparison.features.startingPrice.seasalt'),
+    competitor: t('compare.ringcentral.comparison.features.startingPrice.ringcentral'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.ringcentral.comparison.features.unifiedVoiceDigital.name'),
+    seasalt: t('compare.ringcentral.comparison.features.unifiedVoiceDigital.seasalt'),
+    competitor: t('compare.ringcentral.comparison.features.unifiedVoiceDigital.ringcentral'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.ringcentral.comparison.features.integrationQuality.name'),
+    seasalt: t('compare.ringcentral.comparison.features.integrationQuality.seasalt'),
+    competitor: t('compare.ringcentral.comparison.features.integrationQuality.ringcentral'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.ringcentral.comparison.features.easeOfUse.name'),
+    seasalt: t('compare.ringcentral.comparison.features.easeOfUse.seasalt'),
+    competitor: t('compare.ringcentral.comparison.features.easeOfUse.ringcentral'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.ringcentral.comparison.features.bestFor.name'),
+    seasalt: t('compare.ringcentral.comparison.features.bestFor.seasalt'),
+    competitor: t('compare.ringcentral.comparison.features.bestFor.ringcentral'),
+    seasaltAdvantage: false
+  }
+];
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout title={title} description={description} lang={currentLang} keywords="RingCentral alternative" type="website">
+  <section class="bg-gradient-to-br from-blue-50 via-white to-blue-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<a href={`/${currentLang}/compare`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+        <ArrowLeft className="h-5 w-5 mr-2" />
+        {t('compare.ringcentral.navigation.backToOverview')}
+      </a>
+      
+      <div class="text-center mb-16">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('compare.ringcentral.hero.title.part1')}{' '}
+          <span class="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
+            {t('compare.ringcentral.hero.title.part2')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          {t('compare.ringcentral.hero.subtitle')}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.ringcentral.comparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.ringcentral.comparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.ringcentral.comparison.table.headers.feature')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.ringcentral.comparison.table.headers.seasalt')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.ringcentral.comparison.table.headers.ringcentral')}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              {comparisonFeatures.map((item, index) => (
+                <tr key={index} class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{item.feature}</td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <Check className="h-5 w-5 text-green-600 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.seasalt}</span>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <X className="h-5 w-5 text-red-500 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.competitor}</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Architecture Comparison -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.ringcentral.architecture.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.ringcentral.architecture.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-blue-600 mb-6">{t('compare.ringcentral.architecture.seasalt.title')}</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.ringcentral.architecture.seasalt.features.singleLogin')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.ringcentral.architecture.seasalt.features.unifiedHistory')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.ringcentral.architecture.seasalt.features.seamlessSwitching')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.ringcentral.architecture.seasalt.features.oneBilling')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.ringcentral.architecture.seasalt.features.builtInIntegrations')}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-gray-600 mb-6">{t('compare.ringcentral.architecture.ringcentral.title')}</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.ringcentral.architecture.ringcentral.issues.multipleLogins')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.ringcentral.architecture.ringcentral.issues.fragmentedData')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.ringcentral.architecture.ringcentral.issues.complexIntegration')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.ringcentral.architecture.ringcentral.issues.separateBilling')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.ringcentral.architecture.ringcentral.issues.buggyIntegrations')}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-blue-600 to-blue-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('compare.ringcentral.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('compare.ringcentral.cta.subtitle')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://seax.seasalt.ai/signup" class="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200">
+          {t('compare.ringcentral.cta.signUp')}
+        </a>
+        <a href={meetingUrl} class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200">
+          {t('compare.ringcentral.cta.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

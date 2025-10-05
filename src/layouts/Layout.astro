@@ -1,0 +1,153 @@
+---
+import '../styles/global.css';
+import VersionManager from '../components/versions/VersionManager.astro';
+import SEO from '../components/SEO.astro';
+import SeaChatWidget from '../components/SeaChatWidget.astro';
+
+export interface Props {
+	title: string;
+	description?: string;
+	lang?: string;
+	keywords?: string;
+	image?: string;
+	canonical?: string;
+	type?: 'website' | 'article' | 'product' | 'software' | 'service';
+	article?: {
+		publishedTime?: string;
+		modifiedTime?: string;
+		author?: string;
+		section?: string;
+		tags?: string[];
+	};
+	service?: {
+		serviceType?: string;
+		provider?: string;
+		areaServed?: string;
+		availableChannel?: string[];
+		hoursAvailable?: {
+			opens?: string;
+			closes?: string;
+			dayOfWeek?: string[];
+		};
+		offers?: Array<{
+			name?: string;
+			description?: string;
+			price?: string;
+			priceCurrency?: string;
+			priceSpecification?: {
+				price?: string;
+				priceCurrency?: string;
+				unitCode?: string;
+			};
+		}>;
+		price?: string;
+		currency?: string;
+	};
+	faqs?: Array<{
+		question: string;
+		answer: string;
+	}>;
+	breadcrumbs?: Array<{
+		name: string;
+		url?: string;
+	}>;
+	// Organization (for richer JSON-LD on all pages)
+	organization?: {
+		name?: string;
+		alternateName?: string;
+		url?: string;
+		logo?: string;
+		sameAs?: string[];
+		contactPoint?: {
+			telephone?: string;
+			email?: string;
+			contactType?: string;
+			availableLanguage?: string[];
+			areaServed?: string;
+		};
+		address?: {
+			streetAddress?: string;
+			addressLocality?: string;
+			addressRegion?: string;
+			postalCode?: string;
+			addressCountry?: string;
+		};
+	};
+	noindex?: boolean;
+	nofollow?: boolean;
+	customJsonLd?: Record<string, any>[];
+	// Version management props
+	headerVersion?: 'default' | 'seachat' | 'seax' | 'seavoice';
+	footerVersion?: 'default' | 'seachat' | 'seax' | 'seavoice';
+}
+
+const { 
+	title, 
+	description = 'SeaSalt.ai - AI-Powered Contact Center Solutions', 
+	lang = 'en',
+	keywords,
+	image,
+	canonical,
+	type = 'website',
+	article,
+	service,
+	faqs,
+	breadcrumbs,
+	organization,
+	noindex = false,
+	nofollow = false,
+	customJsonLd,
+	headerVersion,
+	footerVersion
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang={lang}>
+	<head>
+		<SEO 
+			title={title}
+			description={description}
+			lang={lang}
+			keywords={keywords}
+			image={image}
+			canonical={canonical}
+			type={type}
+			article={article}
+			service={service}
+			faqs={faqs}
+			breadcrumbs={breadcrumbs}
+			organization={organization}
+			noindex={noindex}
+			nofollow={nofollow}
+			customJsonLd={customJsonLd}
+		/>
+		<meta name="generator" content={Astro.generator} />
+	</head>
+	<body>
+		<VersionManager type="header" version={headerVersion} lang={lang} currentPath={Astro.url.pathname} />
+		<main>
+			<slot />
+		</main>
+		<VersionManager type="footer" version={footerVersion} lang={lang} currentPath={Astro.url.pathname} />
+		<!-- SeaChat Webchat Widget -->
+		<SeaChatWidget />
+	</body>
+</html>
+
+<style is:global>
+	html {
+		font-family: system-ui, sans-serif;
+	}
+	code {
+		font-family:
+			Menlo,
+			Monaco,
+			Lucida Console,
+			Liberation Mono,
+			DejaVu Sans Mono,
+			Bitstream Vera Sans Mono,
+			Courier New,
+			monospace;
+	}
+</style>

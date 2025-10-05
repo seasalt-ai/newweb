@@ -1,0 +1,483 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+
+// 生成所有語言的靜態路徑
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 獲取動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯
+const { t } = await getTranslationHelpers(currentLang);
+
+// 從翻譯中獲取數據
+const features = [
+  {
+    title: t('seavoice.platform.speechToText.features.0.title'),
+    description: t('seavoice.platform.speechToText.features.0.description'),
+    specs: [
+      t('seavoice.platform.speechToText.features.0.specs.0'),
+      t('seavoice.platform.speechToText.features.0.specs.1'),
+      t('seavoice.platform.speechToText.features.0.specs.2')
+    ]
+  },
+  {
+    title: t('seavoice.platform.speechToText.features.1.title'),
+    description: t('seavoice.platform.speechToText.features.1.description'),
+    specs: [
+      t('seavoice.platform.speechToText.features.1.specs.0'),
+      t('seavoice.platform.speechToText.features.1.specs.1'),
+      t('seavoice.platform.speechToText.features.1.specs.2')
+    ]
+  },
+  {
+    title: t('seavoice.platform.speechToText.features.2.title'),
+    description: t('seavoice.platform.speechToText.features.2.description'),
+    specs: [
+      t('seavoice.platform.speechToText.features.2.specs.0'),
+      t('seavoice.platform.speechToText.features.2.specs.1'),
+      t('seavoice.platform.speechToText.features.2.specs.2')
+    ]
+  }
+];
+
+const accuracyStats = [
+  {
+    category: t('seavoice.platform.speechToText.accuracy.stats.0.category'),
+    accuracy: t('seavoice.platform.speechToText.accuracy.stats.0.accuracy'),
+    improvement: t('seavoice.platform.speechToText.accuracy.stats.0.improvement')
+  },
+  {
+    category: t('seavoice.platform.speechToText.accuracy.stats.1.category'),
+    accuracy: t('seavoice.platform.speechToText.accuracy.stats.1.accuracy'),
+    improvement: t('seavoice.platform.speechToText.accuracy.stats.1.improvement')
+  },
+  {
+    category: t('seavoice.platform.speechToText.accuracy.stats.2.category'),
+    accuracy: t('seavoice.platform.speechToText.accuracy.stats.2.accuracy'),
+    improvement: t('seavoice.platform.speechToText.accuracy.stats.2.improvement')
+  },
+  {
+    category: t('seavoice.platform.speechToText.accuracy.stats.3.category'),
+    accuracy: t('seavoice.platform.speechToText.accuracy.stats.3.accuracy'),
+    improvement: t('seavoice.platform.speechToText.accuracy.stats.3.improvement')
+  }
+];
+
+const supportedLanguages = [
+  t('seavoice.platform.speechToText.languages.supportedLanguages.0'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.1'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.2'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.3'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.4'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.5'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.6'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.7'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.8'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.9'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.10'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.11'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.12'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.13'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.14'),
+  t('seavoice.platform.speechToText.languages.supportedLanguages.15')
+];
+
+const useCases = [
+  {
+    title: t('seavoice.platform.speechToText.useCases.0.title'),
+    description: t('seavoice.platform.speechToText.useCases.0.description'),
+    benefits: [
+      t('seavoice.platform.speechToText.useCases.0.benefits.0'),
+      t('seavoice.platform.speechToText.useCases.0.benefits.1'),
+      t('seavoice.platform.speechToText.useCases.0.benefits.2'),
+      t('seavoice.platform.speechToText.useCases.0.benefits.3')
+    ]
+  },
+  {
+    title: t('seavoice.platform.speechToText.useCases.1.title'),
+    description: t('seavoice.platform.speechToText.useCases.1.description'),
+    benefits: [
+      t('seavoice.platform.speechToText.useCases.1.benefits.0'),
+      t('seavoice.platform.speechToText.useCases.1.benefits.1'),
+      t('seavoice.platform.speechToText.useCases.1.benefits.2'),
+      t('seavoice.platform.speechToText.useCases.1.benefits.3')
+    ]
+  },
+  {
+    title: t('seavoice.platform.speechToText.useCases.2.title'),
+    description: t('seavoice.platform.speechToText.useCases.2.description'),
+    benefits: [
+      t('seavoice.platform.speechToText.useCases.2.benefits.0'),
+      t('seavoice.platform.speechToText.useCases.2.benefits.1'),
+      t('seavoice.platform.speechToText.useCases.2.benefits.2'),
+      t('seavoice.platform.speechToText.useCases.2.benefits.3')
+    ]
+  },
+  {
+    title: t('seavoice.platform.speechToText.useCases.3.title'),
+    description: t('seavoice.platform.speechToText.useCases.3.description'),
+    benefits: [
+      t('seavoice.platform.speechToText.useCases.3.benefits.0'),
+      t('seavoice.platform.speechToText.useCases.3.benefits.1'),
+      t('seavoice.platform.speechToText.useCases.3.benefits.2'),
+      t('seavoice.platform.speechToText.useCases.3.benefits.3')
+    ]
+  }
+];
+
+// SEO 數據
+const title = t('seavoice.platform.speechToText.hero.title') + ' | SeaVoice Platform';
+const description = t('seavoice.platform.speechToText.hero.subtitle');
+const keywords = 'speech to text, voice recognition, AI transcription, SeaVoice, real-time transcription, voice to text API';
+
+// 構建 canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seavoice/platform/speech-to-text`;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform', url: `/${currentLang}/seavoice/platform/` },
+  { name: 'Speech to Text' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.platform.speechToText.faq.q1') || 'What accuracy can I expect from STT?',
+    answer: t('seavoice.platform.speechToText.faq.a1') || 'SeaVoice STT achieves high accuracy with domain adaptation and noise robustness, often exceeding 95% in typical business conditions.'
+  },
+  {
+    question: t('seavoice.platform.speechToText.faq.q2') || 'Does it support real-time transcription?',
+    answer: t('seavoice.platform.speechToText.faq.a2') || 'Yes. Real-time streaming is supported with low latency for live interactions and analytics.'
+  },
+  {
+    question: t('seavoice.platform.speechToText.faq.q3') || 'Which languages are available?',
+    answer: t('seavoice.platform.speechToText.faq.a3') || 'Multiple languages are supported and can be extended with custom vocabularies for specialized terminology.'
+  }
+];
+---
+
+<Layout
+  title={title}
+  description={description}
+  keywords={keywords}
+  canonical={canonicalUrl}
+  lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center mb-6">
+          <div class="w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+            <!-- Mic Icon (Lucide mic icon recreated in SVG) -->
+            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path>
+            </svg>
+          </div>
+        </div>
+        <h1 class="text-5xl font-bold text-gray-900 mb-6">
+          {t('seavoice.platform.speechToText.hero.title')}
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          {t('seavoice.platform.speechToText.hero.subtitle')}
+        </p>
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+        >
+          {t('seavoice.platform.speechToText.hero.cta')}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.platform.speechToText.features.title')}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.platform.speechToText.features.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {features.map((feature, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mb-6">
+              {index === 0 && (
+                <!-- Zap Icon -->
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+              )}
+              {index === 1 && (
+                <!-- Globe Icon -->
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+                </svg>
+              )}
+              {index === 2 && (
+                <!-- Shield Icon -->
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                </svg>
+              )}
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+            <div class="space-y-2">
+              {feature.specs.map((spec) => (
+                <div class="flex items-center">
+                  <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <span class="text-sm text-gray-700">{spec}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Accuracy Stats -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.platform.speechToText.accuracy.title')}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.platform.speechToText.accuracy.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {accuracyStats.map((stat) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center">
+            <h3 class="text-lg font-bold text-gray-900 mb-4">{stat.category}</h3>
+            <div class="text-4xl font-bold text-blue-600 mb-2">{stat.accuracy}</div>
+            <p class="text-sm text-green-600 font-semibold">{stat.improvement}{t('seavoice.platform.speechToText.accuracy.improvementSuffix')}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Language Support -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.platform.speechToText.languages.title')}
+          </h2>
+          <p class="text-lg text-gray-600 mb-8">
+            {t('seavoice.platform.speechToText.languages.subtitle')}
+          </p>
+          <div class="space-y-6">
+            <div class="flex items-center">
+              <!-- Globe Icon -->
+              <svg class="w-6 h-6 text-blue-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">{t('seavoice.platform.speechToText.languages.features.0.title')}</h3>
+                <p class="text-gray-600">{t('seavoice.platform.speechToText.languages.features.0.description')}</p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <!-- Settings Icon -->
+              <svg class="w-6 h-6 text-blue-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">{t('seavoice.platform.speechToText.languages.features.1.title')}</h3>
+                <p class="text-gray-600">{t('seavoice.platform.speechToText.languages.features.1.description')}</p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <!-- BarChart3 Icon -->
+              <svg class="w-6 h-6 text-blue-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">{t('seavoice.platform.speechToText.languages.features.2.title')}</h3>
+                <p class="text-gray-600">{t('seavoice.platform.speechToText.languages.features.2.description')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.platform.speechToText.languages.supportedTitle')}</h3>
+          <div class="grid grid-cols-1 gap-2">
+            {supportedLanguages.map((language) => (
+              <div class="flex items-center py-2">
+                <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                <span class="text-gray-700">{language}</span>
+              </div>
+            ))}
+          </div>
+          <div class="mt-6 p-4 bg-white rounded-lg">
+            <p class="text-sm text-gray-600 italic">
+              "{t('seavoice.platform.speechToText.languages.customNote')}"
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.platform.speechToText.useCases.title')}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.platform.speechToText.useCases.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {useCases.map((useCase) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{useCase.title}</h3>
+            <p class="text-gray-600 mb-6">{useCase.description}</p>
+            <div class="grid grid-cols-2 gap-2">
+              {useCase.benefits.map((benefit) => (
+                <div class="flex items-center">
+                  <div class="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                  <span class="text-sm text-gray-700">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Specs -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.platform.speechToText.specs.title')}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.platform.speechToText.specs.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+          <h3 class="text-xl font-bold text-gray-900 mb-6">{t('seavoice.platform.speechToText.specs.performance.title')}</h3>
+          <div class="space-y-4">
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.performance.latency.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.performance.latency.value')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.performance.accuracy.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.performance.accuracy.value')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.performance.throughput.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.performance.throughput.value')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.performance.uptime.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.performance.uptime.value')}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+          <h3 class="text-xl font-bold text-gray-900 mb-6">{t('seavoice.platform.speechToText.specs.audioFormats.title')}</h3>
+          <div class="space-y-4">
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.audioFormats.sampleRate.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.audioFormats.sampleRate.value')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.audioFormats.bitDepth.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.audioFormats.bitDepth.value')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.audioFormats.formats.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.audioFormats.formats.value')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.audioFormats.streaming.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.audioFormats.streaming.value')}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+          <h3 class="text-xl font-bold text-gray-900 mb-6">{t('seavoice.platform.speechToText.specs.integration.title')}</h3>
+          <div class="space-y-4">
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.integration.api.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.integration.api.value')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.integration.sdks.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.integration.sdks.value')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.integration.webhooks.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.integration.webhooks.value')}</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-gray-600">{t('seavoice.platform.speechToText.specs.integration.security.label')}</span>
+              <span class="font-semibold">{t('seavoice.platform.speechToText.specs.integration.security.value')}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl font-bold mb-6">{t('seavoice.platform.speechToText.cta.title')}</h2>
+      <p class="text-xl mb-8 opacity-90">
+        {t('seavoice.platform.speechToText.cta.subtitle')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+        >
+          {t('seavoice.platform.speechToText.cta.primaryButton')}
+        </a>
+        <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+          {t('seavoice.platform.speechToText.cta.secondaryButton')}
+        </button>
+      </div>
+    </div>
+  </section>
+</Layout>

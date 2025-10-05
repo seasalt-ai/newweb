@@ -1,0 +1,330 @@
+---
+import { getTranslationHelpers } from '../../../i18n/helpers';
+import type { VersionConfig } from '../config';
+
+export interface Props {
+  currentPath?: string;
+  lang?: string;
+  versionConfig?: VersionConfig;
+}
+
+const { currentPath = '/', lang = 'en', versionConfig } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-gray-900 text-white" dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 sm:gap-3 lg:gap-4">
+      
+      <!-- Brand Section -->
+      <div class="lg:col-span-1">
+        <div class="flex items-center mb-6">
+          <img 
+            src={versionConfig?.logo || '/seachat-logo.png'} 
+            alt="SeaChat" 
+            class="h-8 brightness-0 invert" 
+          />
+        </div>
+        
+        <p class="text-gray-400 mb-6 leading-relaxed">
+          {t('seachat.footer.brand.description') || 'AI-powered chatbot platform for automated customer support'}
+        </p>
+        
+        <div class="space-y-3 mb-6">
+          <div class="flex items-center space-x-3 text-gray-400">
+            <span aria-hidden="true">📧</span>
+            <span>{t('seachat.footer.contact.email') || 'info@seasalt.ai'}</span>
+          </div>
+          <div class="flex items-center space-x-3 text-gray-400">
+            <span aria-hidden="true">📞</span>
+            <span>{t('seachat.footer.contact.phone') || '+1 (SMB)-AI-AGENT'}</span>
+          </div>
+          <div class="flex items-center space-x-3 text-gray-400">
+            <span aria-hidden="true">📍</span>
+            <span>{t('seachat.footer.contact.location') || 'Taipei, Taiwan'}</span>
+          </div>
+        </div>
+        
+        <div class="flex space-x-4">
+          <a href="https://www.linkedin.com/company/seasalt-ai/" class="text-gray-400 hover:text-teal-400 transition-colors">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-5 h-5" />
+          </a>
+          <a href="https://www.youtube.com/@seasaltai" class="text-gray-400 hover:text-teal-400 transition-colors">
+            <img src="https://cdn.simpleicons.org/youtube/ffffff" alt="YouTube" class="w-5 h-5" />
+          </a>
+          <a href="https://twitter.com/SeasaltAI" class="text-gray-400 hover:text-teal-400 transition-colors">
+            <img src="https://cdn.simpleicons.org/x/ffffff" alt="Twitter" class="w-5 h-5" />
+          </a>
+          <a href="https://discord.gg/VgAWg3c7rU" class="text-gray-400 hover:text-teal-400 transition-colors">
+            <img src="https://cdn.simpleicons.org/discord/ffffff" alt="Discord" class="w-5 h-5" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Features -->
+      <div>
+        <!-- Desktop: Regular heading -->
+        <h3 class="hidden lg:block text-lg font-semibold mb-6">{t('seachat.header.features') || 'Features'}</h3>
+        
+        <!-- Mobile: Collapsible heading -->
+        <button 
+          class="mobile-section-toggle lg:hidden flex items-center justify-between w-full text-lg font-semibold mb-4 text-left"
+          data-section="features"
+        >
+          {t('seachat.header.features') || 'Features'}
+          <svg class="w-4 h-4 transition-transform chevron-down" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        
+        <!-- Desktop: Always visible -->
+        <ul class="hidden lg:block space-y-3">
+<li><a href={`/${lang}/seachat/features/human-agents`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🧑‍💼</span>{t('seachat.header.featuresDropdown.humanAgents') || 'Human Agents'}</a></li>
+<li><a href={`/${lang}/seachat/features/ai-automation`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🤖</span>{t('seachat.header.featuresDropdown.aiAutomation') || 'AI Automation'}</a></li>
+<li><a href={`/${lang}/seachat/features/advanced-ai`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🧠</span>{t('seachat.header.featuresDropdown.advancedAI') || 'Advanced AI'}</a></li>
+<li><a href={`/${lang}/seachat/features/knowledge-base`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📚</span>{t('seachat.header.featuresDropdown.knowledgeBase') || 'Knowledge Base'}</a></li>
+<li><a href={`/${lang}/seachat/features/voice-agents`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🎙️</span>{t('seachat.header.featuresDropdown.voiceAgents') || 'Voice Agents'}</a></li>
+<li><a href={`/${lang}/seachat/features/analytics`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📊</span>{t('seachat.header.featuresDropdown.analytics') || 'Analytics'}</a></li>
+<li><a href={`/${lang}/seachat/features/omnichannel`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🌐</span>{t('seachat.header.featuresDropdown.omnichannel') || 'Omnichannel'}</a></li>
+<li><a href={`/${lang}/seachat/features/api`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🔌</span>{t('seachat.header.featuresDropdown.api') || 'API'}</a></li>
+        </ul>
+        
+        <!-- Mobile: Collapsible content -->
+        <div class="lg:hidden mobile-section-content hidden" data-section-content="features">
+          <ul class="space-y-3">
+<li><a href={`/${lang}/seachat/features/human-agents`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🧑‍💼</span>{t('seachat.header.featuresDropdown.humanAgents') || 'Human Agents'}</a></li>
+<li><a href={`/${lang}/seachat/features/ai-automation`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🤖</span>{t('seachat.header.featuresDropdown.aiAutomation') || 'AI Automation'}</a></li>
+<li><a href={`/${lang}/seachat/features/advanced-ai`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🧠</span>{t('seachat.header.featuresDropdown.advancedAI') || 'Advanced AI'}</a></li>
+<li><a href={`/${lang}/seachat/features/knowledge-base`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📚</span>{t('seachat.header.featuresDropdown.knowledgeBase') || 'Knowledge Base'}</a></li>
+<li><a href={`/${lang}/seachat/features/voice-agents`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🎙️</span>{t('seachat.header.featuresDropdown.voiceAgents') || 'Voice Agents'}</a></li>
+<li><a href={`/${lang}/seachat/features/analytics`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📊</span>{t('seachat.header.featuresDropdown.analytics') || 'Analytics'}</a></li>
+<li><a href={`/${lang}/seachat/features/omnichannel`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🌐</span>{t('seachat.header.featuresDropdown.omnichannel') || 'Omnichannel'}</a></li>
+<li><a href={`/${lang}/seachat/features/api`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🔌</span>{t('seachat.header.featuresDropdown.api') || 'API'}</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Integrations -->
+      <div>
+        <!-- Desktop: Regular heading -->
+        <h3 class="hidden lg:block text-lg font-semibold mb-6">{t('seachat.header.integrations') || 'Integrations'}</h3>
+        
+        <!-- Mobile: Collapsible heading -->
+        <button 
+          class="mobile-section-toggle lg:hidden flex items-center justify-between w-full text-lg font-semibold mb-4 text-left"
+          data-section="integrations"
+        >
+          {t('seachat.header.integrations') || 'Integrations'}
+          <svg class="w-4 h-4 transition-transform chevron-down" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        
+        <!-- Desktop: Always visible -->
+        <ul class="hidden lg:block space-y-3">
+<li><a href={`/${lang}/seachat/integrations/websites`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🖥️</span>{t('seachat.header.integrationsDropdown.websites') || 'Websites'}</a></li>
+<li><a href={`/${lang}/seachat/integrations/crm`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📇</span>{t('seachat.header.integrationsDropdown.crm') || 'CRM'}</a></li>
+<li><a href={`/${lang}/seachat/integrations/ecommerce`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🛒</span>{t('seachat.header.integrationsDropdown.ecommerce') || 'E-commerce'}</a></li>
+<li><a href={`/${lang}/seachat/integrations/social-media`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📣</span>{t('seachat.header.integrationsDropdown.socialMedia') || 'Social Media'}</a></li>
+<li><a href={`/${lang}/seachat/integrations/communication`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">💬</span>{t('seachat.header.integrationsDropdown.communication') || 'Communication'}</a></li>
+<li><a href={`/${lang}/seachat/integrations/marketing`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📣</span>{t('seachat.header.integrationsDropdown.marketing') || 'Marketing'}</a></li>
+<li><a href={`/${lang}/seachat/integrations/calendar`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📅</span>{t('seachat.header.integrationsDropdown.calendar') || 'Calendar'}</a></li>
+<li><a href={`/${lang}/seachat/integrations/api`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🔌</span>{t('seachat.header.integrationsDropdown.api') || 'API'}</a></li>
+        </ul>
+        
+        <!-- Mobile: Collapsible content -->
+        <div class="lg:hidden mobile-section-content hidden" data-section-content="integrations">
+          <ul class="space-y-3">
+<li><a href={`/${lang}/seachat/integrations/websites`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🖥️</span>{t('seachat.header.integrationsDropdown.websites') || 'Websites'}</a></li>
+<li><a href={`/${lang}/seachat/integrations/crm`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📇</span>{t('seachat.header.integrationsDropdown.crm') || 'CRM'}</a></li>
+<li><a href={`/${lang}/seachat/integrations/ecommerce`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🛒</span>{t('seachat.header.integrationsDropdown.ecommerce') || 'E-commerce'}</a></li>
+<li><a href={`/${lang}/seachat/integrations/social-media`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📣</span>{t('seachat.header.integrationsDropdown.socialMedia') || 'Social Media'}</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Solutions -->
+      <div>
+        <!-- Desktop: Regular heading -->
+        <h3 class="hidden lg:block text-lg font-semibold mb-6">{t('seachat.header.solutions') || 'Solutions'}</h3>
+        
+        <!-- Mobile: Collapsible heading -->
+        <button 
+          class="mobile-section-toggle lg:hidden flex items-center justify-between w-full text-lg font-semibold mb-4 text-left"
+          data-section="solutions"
+        >
+          {t('seachat.header.solutions') || 'Solutions'}
+          <svg class="w-4 h-4 transition-transform chevron-down" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        
+        <!-- Desktop: Always visible -->
+        <ul class="hidden lg:block space-y-3">
+<li><a href={`/${lang}/seachat/solutions/ecommerce`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🛒</span>{t('seachat.header.solutionsDropdown.ecommerce') || 'E-commerce'}</a></li>
+<li><a href={`/${lang}/seachat/solutions/healthcare`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🏥</span>{t('seachat.header.solutionsDropdown.healthcare') || 'Healthcare'}</a></li>
+<li><a href={`/${lang}/seachat/solutions/fintech`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">💳</span>{t('seachat.header.solutionsDropdown.fintech') || 'Fintech'}</a></li>
+<li><a href={`/${lang}/seachat/solutions/education`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🎓</span>{t('seachat.header.solutionsDropdown.education') || 'Education'}</a></li>
+<li><a href={`/${lang}/seachat/solutions/real-estate`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🏠</span>{t('seachat.header.solutionsDropdown.realEstate') || 'Real Estate'}</a></li>
+<li><a href={`/${lang}/seachat/solutions/travel`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">✈️</span>{t('seachat.header.solutionsDropdown.travel') || 'Travel'}</a></li>
+<li><a href={`/${lang}/seachat/solutions/saas`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">☁️</span>{t('seachat.header.solutionsDropdown.saas') || 'SaaS'}</a></li>
+<li><a href={`/${lang}/seachat/solutions/small-business`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🏪</span>{t('seachat.header.solutionsDropdown.smallBusiness') || 'Small Business'}</a></li>
+        </ul>
+        
+        <!-- Mobile: Collapsible content -->
+        <div class="lg:hidden mobile-section-content hidden" data-section-content="solutions">
+          <ul class="space-y-3">
+<li><a href={`/${lang}/seachat/solutions/ecommerce`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🛒</span>{t('seachat.header.solutionsDropdown.ecommerce') || 'E-commerce'}</a></li>
+<li><a href={`/${lang}/seachat/solutions/healthcare`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🏥</span>{t('seachat.header.solutionsDropdown.healthcare') || 'Healthcare'}</a></li>
+<li><a href={`/${lang}/seachat/solutions/fintech`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">💳</span>{t('seachat.header.solutionsDropdown.fintech') || 'Fintech'}</a></li>
+<li><a href={`/${lang}/seachat/solutions/education`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🎓</span>{t('seachat.header.solutionsDropdown.education') || 'Education'}</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <!-- Desktop: Regular heading -->
+        <h3 class="hidden lg:block text-lg font-semibold mb-6">{t('seachat.footer.company.title') || 'Company'}</h3>
+        
+        <!-- Mobile: Collapsible heading -->
+        <button 
+          class="mobile-section-toggle lg:hidden flex items-center justify-between w-full text-lg font-semibold mb-4 text-left"
+          data-section="company"
+        >
+          {t('seachat.footer.company.title') || 'Company'}
+          <svg class="w-4 h-4 transition-transform chevron-down" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        
+        <!-- Desktop: Always visible -->
+        <ul class="hidden lg:block space-y-3">
+<li><a href={`/${lang}/blog`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📰</span>{t('header.blog') || 'Blog'}</a></li>
+<li><a href={`/${lang}/seachat/pricing`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">💲</span>{t('header.pricing') || 'Pricing'}</a></li>
+<li><a href={`/${lang}/compare-us-overview`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📊</span>{t('header.compareUs') || 'Compare Us'}</a></li>
+<li><a href={`https://wiki.seasalt.ai/${(lang === 'zh-TW' || lang === 'zh-CN') ? 'zh' : 'en'}/seachat`} target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📚</span>{t('seachat.footer.company.productWiki') || 'Product Wiki'}</a></li>
+<li><a href="https://api.seasalt.ai" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🔌</span>{t('seachat.footer.company.apiReferences') || 'API References'}</a></li>
+<li><a href={`/${lang}/careers`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">💼</span>{t('seachat.footer.company.careers') || 'Careers'}</a></li>
+<li><a href={`/${lang}/company`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">🏢</span>{t('seachat.footer.company.about') || 'About'}</a></li>
+        </ul>
+        
+        <!-- Mobile: Collapsible content -->
+        <div class="lg:hidden mobile-section-content hidden" data-section-content="company">
+          <ul class="space-y-3">
+<li><a href={`/${lang}/blog`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📰</span>{t('header.blog') || 'Blog'}</a></li>
+<li><a href={`/${lang}/seachat/pricing`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">💲</span>{t('header.pricing') || 'Pricing'}</a></li>
+<li><a href={`/${lang}/compare-us-overview`} class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📊</span>{t('header.compareUs') || 'Compare Us'}</a></li>
+<li><a href={`https://wiki.seasalt.ai/${(lang === 'zh-TW' || lang === 'zh-CN') ? 'zh' : 'en'}/seachat`} target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors flex items-center"><span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">📚</span>{t('seachat.footer.company.productWiki') || 'Product Wiki'}</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-gray-800 mt-12 pt-8">
+      <div class="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+        <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
+          <p class="text-gray-300 text-sm">
+            {t('footer.copyright', { year: currentYear })}
+          </p>
+          <div class="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
+            <a href={`/${lang}/privacy`} class="text-gray-300 hover:text-white transition-colors duration-200">
+              {t('seachat.footer.legal.privacyPolicy') || 'Privacy Policy'}
+            </a>
+            <a href={`/${lang}/terms`} class="text-gray-300 hover:text-white transition-colors duration-200">
+              {t('seachat.footer.legal.termsOfService') || 'Terms of Service'}
+            </a>
+          </div>
+        </div>
+        
+        <!-- Stats -->
+        <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300">
+          <span class="flex items-center">
+<span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">💬</span>
+            {t('seachat.footer.stats.messagesDaily') || '100M+ messages daily'}
+          </span>
+          <span class="flex items-center">
+<span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">👥</span>
+            {t('seachat.footer.stats.activeUsers') || '50K+ active users'}
+          </span>
+          <span class="flex items-center">
+<span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">⚡</span>
+            {t('seachat.footer.stats.uptime') || '99.9% uptime'}
+          </span>
+        </div>
+      </div>
+      
+      <!-- Fun Footer Tagline -->
+      <div class="text-center text-gray-400 text-sm mt-8">
+        <p>
+          Made with 
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart inline w-4 h-4 text-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+          in the city of{' '}
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coffee inline w-4 h-4 text-amber-700"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="6" x2="6" y1="2" y2="4"></line><line x1="10" x2="10" y1="2" y2="4"></line><line x1="14" x2="14" y1="2" y2="4"></line></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-umbrella inline w-4 h-4 text-blue-400"><path d="M22 12a10.06 10.06 1 0 0-20 0Z"></path><path d="M12 12v8a2 2 0 0 0 4 0"></path><path d="M12 2v1"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plane inline w-4 h-4 text-gray-500"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gem inline w-4 h-4 text-fuchsia-500"><path d="M6 3h12l4 6-10 13L2 9Z"></path><path d="M11 3 8 9l4 13 4-13-3-6"></path><path d="M2 9h20"></path></svg>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Banner -->
+  <div class="bg-gradient-to-r from-teal-600 to-cyan-600 py-6 sm:py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
+      <h3 class="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
+        {t('seachat.footer.cta.title') || 'Ready to transform your customer support?'}
+      </h3>
+      <p class="text-white opacity-90 mb-6 max-w-2xl mx-auto">
+        {t('seachat.footer.cta.description') || 'Join thousands of businesses using SeaChat to automate customer conversations.'}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          class="bg-white text-teal-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+        >
+          {t('seachat.footer.cta.signUpFree') || 'Sign Up Free'}
+        </a>
+        <a
+          href={`https://calendly.com/seasalt-ai/seasalt-ai-demo?utm_source=website&utm_medium=footer&utm_campaign=cta&utm_content=demo_${lang}`}
+          class="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+        >
+          {t('seachat.footer.cta.scheduleDemo') || 'Schedule Demo'}
+        </a>
+      </div>
+      <p class="text-sm text-white opacity-75 mt-4">
+        {t('seachat.footer.cta.disclaimer') || 'No credit card required • Free forever plan available'}
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Mobile footer collapsible functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const sectionToggles = document.querySelectorAll('.mobile-section-toggle');
+    
+    sectionToggles.forEach(toggle => {
+      toggle.addEventListener('click', function() {
+        const section = this.getAttribute('data-section');
+        const content = document.querySelector(`[data-section-content="${section}"]`);
+        const chevron = this.querySelector('.chevron-down');
+        
+        if (content) {
+          const isHidden = content.classList.contains('hidden');
+          content.classList.toggle('hidden');
+          
+          if (chevron) {
+            if (isHidden) {
+              chevron.classList.add('rotate-180');
+            } else {
+              chevron.classList.remove('rotate-180');
+            }
+          }
+        }
+      });
+    });
+  });
+</script>

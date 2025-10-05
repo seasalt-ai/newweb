@@ -1,0 +1,290 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
+import { ArrowLeft, ArrowRight } from 'lucide-react';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+const locales = supportedLocales;
+  
+return locales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 取得動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯幫助函數
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO 資料
+const title = t('compareUsOverview.seo.title') || 'Compare Seasalt.ai vs Competitors - Contact Center Solutions';
+const description = t('compareUsOverview.seo.description') || 'Compare Seasalt.ai with leading contact center and communication platforms. See why businesses choose us over Aircall, RingCentral, Genesys, and more.';
+const keywords = 'contact center comparison, Aircall alternative, RingCentral alternative, Genesys alternative, unified communications';
+
+// 競爭對手清單
+const competitors = [
+  {
+    name: 'Aircall',
+    category: t('compareUsOverview.competitors.aircall.category'),
+    description: t('compareUsOverview.competitors.aircall.description'),
+link: `/${currentLang}/compare/aircall-alternative`,
+    color: 'bg-blue-50 border-blue-200'
+  },
+  {
+    name: 'RingCentral',
+    category: t('compareUsOverview.competitors.ringcentral.category'),
+    description: t('compareUsOverview.competitors.ringcentral.description'),
+link: `/${currentLang}/compare/ringcentral-alternative`,
+    color: 'bg-purple-50 border-purple-200'
+  },
+  {
+    name: 'Genesys Cloud CX',
+    category: t('compareUsOverview.competitors.genesys.category'),
+    description: t('compareUsOverview.competitors.genesys.description'),
+link: `/${currentLang}/compare/genesys-alternative`,
+    color: 'bg-red-50 border-red-200'
+  },
+  {
+    name: 'Five9',
+    category: t('compareUsOverview.competitors.five9.category'),
+    description: t('compareUsOverview.competitors.five9.description'),
+link: `/${currentLang}/compare/five9-alternative`,
+    color: 'bg-orange-50 border-orange-200'
+  },
+  {
+    name: 'Avaya',
+    category: t('compareUsOverview.competitors.avaya.category'),
+    description: t('compareUsOverview.competitors.avaya.description'),
+link: `/${currentLang}/compare/avaya-alternative`,
+    color: 'bg-indigo-50 border-indigo-200'
+  },
+  {
+    name: 'Google Voice',
+    category: t('compareUsOverview.competitors.googleVoice.category'),
+    description: t('compareUsOverview.competitors.googleVoice.description'),
+link: `/${currentLang}/compare/google-voice-alternative`,
+    color: 'bg-green-50 border-green-200'
+  },
+  {
+    name: 'respond.io',
+    category: t('compareUsOverview.competitors.respondIo.category'),
+    description: t('compareUsOverview.competitors.respondIo.description'),
+link: `/${currentLang}/compare/respond-io-alternative`,
+    color: 'bg-teal-50 border-teal-200'
+  },
+  {
+    name: 'Intercom',
+    category: t('compareUsOverview.competitors.intercom.category'),
+    description: t('compareUsOverview.competitors.intercom.description'),
+link: `/${currentLang}/compare/intercom-alternative`,
+    color: 'bg-pink-50 border-pink-200'
+  },
+  {
+    name: 'Kustomer',
+    category: t('compareUsOverview.competitors.kustomer.category'),
+    description: t('compareUsOverview.competitors.kustomer.description'),
+link: `/${currentLang}/compare/kustomer-alternative`,
+    color: 'bg-yellow-50 border-yellow-200'
+  },
+  {
+    name: '3CX',
+    category: t('compareUsOverview.competitors.threeCx.category'),
+    description: t('compareUsOverview.competitors.threeCx.description'),
+link: `/${currentLang}/compare/3cx-alternative`,
+    color: 'bg-gray-50 border-gray-200'
+  },
+  {
+    name: 'Dialpad',
+    category: t('compareUsOverview.competitors.dialpad.category'),
+    description: t('compareUsOverview.competitors.dialpad.description'),
+link: `/${currentLang}/compare/dialpad-alternative`,
+    color: 'bg-cyan-50 border-cyan-200'
+  },
+  {
+    name: '8x8',
+    category: t('compareUsOverview.competitors.eightByEight.category'),
+    description: t('compareUsOverview.competitors.eightByEight.description'),
+link: `/${currentLang}/compare/8x8-alternative`,
+    color: 'bg-slate-50 border-slate-200'
+  },
+  {
+    name: 'OpenPhone',
+    category: t('compareUsOverview.competitors.openphone.category'),
+    description: t('compareUsOverview.competitors.openphone.description'),
+link: `/${currentLang}/compare/openphone-alternative`,
+    color: 'bg-emerald-50 border-emerald-200'
+  }
+];
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout 
+  title={title} 
+  description={description} 
+  lang={currentLang}
+  keywords={keywords}
+  type="website"
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+<a href={`/${currentLang}/`} class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-8">
+          <ArrowLeft className="h-5 w-5 mr-2" />
+          {t('compareUsOverview.hero.backToHome')}
+        </a>
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('compareUsOverview.hero.title')}{' '}
+          <span class="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+            {t('compareUsOverview.hero.titleHighlight')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compareUsOverview.hero.subtitle')}
+        </p>
+      </div>
+
+      <!-- Quick Stats -->
+      <div class="grid md:grid-cols-4 gap-6 mb-16">
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <div class="text-3xl font-bold text-blue-600 mb-2">13</div>
+          <div class="text-sm text-gray-600">{t('compareUsOverview.stats.competitorsAnalyzed')}</div>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <div class="text-3xl font-bold text-green-600 mb-2">$25</div>
+          <div class="text-sm text-gray-600">{t('compareUsOverview.stats.startingPrice')}</div>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <div class="text-3xl font-bold text-purple-600 mb-2">9</div>
+          <div class="text-sm text-gray-600">{t('compareUsOverview.stats.channelsIncluded')}</div>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg text-center">
+          <div class="text-3xl font-bold text-orange-600 mb-2">1</div>
+          <div class="text-sm text-gray-600">{t('compareUsOverview.stats.unifiedPlatform')}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Competitors Grid -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compareUsOverview.competitorsSection.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compareUsOverview.competitorsSection.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {competitors.map((competitor, index) => (
+          <a
+            key={index}
+            href={competitor.link}
+            class={`p-6 rounded-2xl border-2 ${competitor.color} hover:shadow-lg transition-all duration-300 group`}
+          >
+            <div class="flex items-start justify-between mb-4">
+              <div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors duration-200">
+                  {competitor.name}
+                </h3>
+                <span class="text-sm font-medium text-gray-600 bg-white px-2 py-1 rounded-full">
+                  {competitor.category}
+                </span>
+              </div>
+              <ArrowRight className="h-5 w-5 text-gray-400 group-hover:text-blue-600 transition-colors duration-200" />
+            </div>
+            <p class="text-gray-700 text-sm leading-relaxed">
+              {competitor.description}
+            </p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Compare Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compareUsOverview.whyCompareSection.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compareUsOverview.whyCompareSection.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
+          <div class="bg-blue-100 p-4 rounded-2xl w-fit mx-auto mb-6">
+            <div class="text-2xl">🔍</div>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">
+            {t('compareUsOverview.benefits.transparency.title')}
+          </h3>
+          <p class="text-gray-600">
+            {t('compareUsOverview.benefits.transparency.description')}
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
+          <div class="bg-green-100 p-4 rounded-2xl w-fit mx-auto mb-6">
+            <div class="text-2xl">💡</div>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">
+            {t('compareUsOverview.benefits.decisions.title')}
+          </h3>
+          <p class="text-gray-600">
+            {t('compareUsOverview.benefits.decisions.description')}
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-lg text-center">
+          <div class="bg-purple-100 p-4 rounded-2xl w-fit mx-auto mb-6">
+            <div class="text-2xl">🎯</div>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-900 mb-4">
+            {t('compareUsOverview.benefits.fit.title')}
+          </h3>
+          <p class="text-gray-600">
+            {t('compareUsOverview.benefits.fit.description')}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-blue-600 to-indigo-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('compareUsOverview.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('compareUsOverview.cta.subtitle')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-blue-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compareUsOverview.cta.signUp')}
+        </a>
+        <a
+          href={meetingUrl}
+          class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compareUsOverview.cta.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

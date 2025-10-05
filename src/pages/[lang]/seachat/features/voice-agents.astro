@@ -1,0 +1,387 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
+
+// Generate all static paths for supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translation helpers for the current language
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO data for the voice agents page (using the same keys as the old version)
+const title = t('seachat.features.voiceAgents.title') || 'Voice Agents';
+const subtitle = t('seachat.features.voiceAgents.subtitle') || 'Transform phone support with AI voice agents that sound natural, understand context, and provide instant assistance in multiple languages.';
+
+const seoData = {
+  title: `${title} | SeaChat`,
+  description: subtitle,
+  keywords: 'voice agents, AI voice, phone support, speech recognition, voice synthesis, natural language processing',
+  ogTitle: `${title} | SeaChat`,
+  ogDescription: subtitle,
+  ogType: 'website'
+};
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Features', url: `/${currentLang}/seachat/features/` },
+  { name: title }
+];
+
+// Features data structure (same as old version)
+const features = [
+  {
+    iconName: 'phone',
+    title: t('seachat.features.voiceAgents.natural.title') || 'Natural Voice Conversations',
+    description: t('seachat.features.voiceAgents.natural.description') || 'AI-powered voice agents that sound natural and understand context.',
+    color: 'from-blue-500 to-indigo-600'
+  },
+  {
+    iconName: 'mic',
+    title: t('seachat.features.voiceAgents.speech.title') || 'Advanced Speech Recognition',
+    description: t('seachat.features.voiceAgents.speech.description') || 'Accurate speech-to-text conversion in multiple languages and accents.',
+    color: 'from-green-500 to-teal-600'
+  },
+  {
+    iconName: 'volume',
+    title: t('seachat.features.voiceAgents.synthesis.title') || 'High-Quality Voice Synthesis',
+    description: t('seachat.features.voiceAgents.synthesis.description') || 'Crystal-clear, human-like voice output with emotional intelligence.',
+    color: 'from-purple-500 to-pink-600'
+  },
+  {
+    iconName: 'clock',
+    title: t('seachat.features.voiceAgents.support.title') || '24/7 Voice Support',
+    description: t('seachat.features.voiceAgents.support.description') || 'Round-the-clock voice assistance for global customer support.',
+    color: 'from-orange-500 to-red-600'
+  },
+  {
+    iconName: 'globe',
+    title: t('seachat.features.voiceAgents.multilanguage.title') || 'Multi-Language Support',
+    description: t('seachat.features.voiceAgents.multilanguage.description') || 'Support for 50+ languages with native pronunciation.',
+    color: 'from-teal-500 to-blue-600'
+  },
+  {
+    iconName: 'brain',
+    title: t('seachat.features.voiceAgents.routing.title') || 'Intelligent Call Routing',
+    description: t('seachat.features.voiceAgents.routing.description') || 'Smart routing to human agents when complex issues arise.',
+    color: 'from-indigo-500 to-purple-600'
+  }
+];
+
+// Voice capabilities data (same as old version)
+const voiceCapabilities = [
+  {
+    title: t('seachat.features.voiceAgents.capabilities.service.title') || 'Customer Service Calls',
+    description: t('seachat.features.voiceAgents.capabilities.service.description') || 'Handle routine inquiries, order status, and basic troubleshooting',
+    accuracy: '95%',
+    avgDuration: '2.5 min'
+  },
+  {
+    title: t('seachat.features.voiceAgents.capabilities.appointments.title') || 'Appointment Scheduling',
+    description: t('seachat.features.voiceAgents.capabilities.appointments.description') || 'Book, reschedule, and confirm appointments automatically',
+    accuracy: '98%',
+    avgDuration: '1.8 min'
+  },
+  {
+    title: t('seachat.features.voiceAgents.capabilities.orders.title') || 'Order Processing',
+    description: t('seachat.features.voiceAgents.capabilities.orders.description') || 'Take orders, process payments, and confirm details',
+    accuracy: '92%',
+    avgDuration: '3.2 min'
+  },
+  {
+    title: t('seachat.features.voiceAgents.capabilities.support.title') || 'Technical Support',
+    description: t('seachat.features.voiceAgents.capabilities.support.description') || 'Guide customers through basic troubleshooting steps',
+    accuracy: '88%',
+    avgDuration: '4.1 min'
+  }
+];
+
+// Get features list with safety check (same as old version)
+const getFeaturesList = () => {
+  const featuresList = t('seachat.features.voiceAgents.featuresList', { returnObjects: true });
+  if (featuresList && typeof featuresList === 'object' && !Array.isArray(featuresList)) {
+    return [
+      t('seachat.features.voiceAgents.featuresList.0') || 'Natural speech processing',
+      t('seachat.features.voiceAgents.featuresList.1') || 'Multi-language support',
+      t('seachat.features.voiceAgents.featuresList.2') || 'Phone system integration',
+      t('seachat.features.voiceAgents.featuresList.3') || 'Voice sentiment analysis',
+      t('seachat.features.voiceAgents.featuresList.4') || 'Call recording and analysis',
+      t('seachat.features.voiceAgents.featuresList.5') || 'Intelligent human escalation'
+    ];
+  }
+  return Array.isArray(featuresList) ? featuresList : [
+    t('seachat.features.voiceAgents.featuresList.0') || 'Natural speech processing',
+    t('seachat.features.voiceAgents.featuresList.1') || 'Multi-language support',
+    t('seachat.features.voiceAgents.featuresList.2') || 'Phone system integration',
+    t('seachat.features.voiceAgents.featuresList.3') || 'Voice sentiment analysis',
+    t('seachat.features.voiceAgents.featuresList.4') || 'Call recording and analysis',
+    t('seachat.features.voiceAgents.featuresList.5') || 'Intelligent human escalation'
+  ];
+};
+
+const featuresList = getFeaturesList();
+
+// Icon components as SVG
+const getIcon = (iconName: string) => {
+  switch (iconName) {
+    case 'phone':
+      return `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />`;
+    case 'mic':
+      return `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />`;
+    case 'volume':
+      return `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M11 5L6 9H2v6h4l5 4V5z" />`;
+    case 'clock':
+      return `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />`;
+    case 'globe':
+      return `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />`;
+    case 'brain':
+      return `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />`;
+    case 'play':
+      return `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1.586a1 1 0 01.707.293L12 11l.707-.707A1 1 0 0113.414 10H15M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />`;
+    case 'arrow-right':
+      return `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />`;
+    default:
+      return '';
+  }
+};
+---
+
+<Layout 
+  title={seoData.title}
+  description={seoData.description}
+  keywords={seoData.keywords}
+  lang={currentLang}
+  ogTitle={seoData.ogTitle}
+  ogDescription={seoData.ogDescription}
+  ogType={seoData.ogType}
+  breadcrumbs={breadcrumbs}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-indigo-900 via-purple-800 to-blue-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-indigo-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {title}
+            </h1>
+          </div>
+          <p class="text-2xl text-indigo-200 mb-8 max-w-4xl mx-auto">
+            {subtitle}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-indigo-500 hover:bg-indigo-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.features.voiceAgents.signUpFree') || 'Sign Up For Free'}
+            </a>
+            <a
+              href={getMeetingUrl(currentLang)}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-indigo-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+            >
+              {t('seachat.features.voiceAgents.scheduleDemo') || 'Schedule Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.voiceAgents.capabilitiesTitle') || 'Advanced Voice Capabilities'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.voiceAgents.capabilitiesSubtitle') || 'Our voice agents combine cutting-edge AI with natural language processing for human-like conversations.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+            >
+              <div class={`w-16 h-16 bg-gradient-to-br ${feature.color} rounded-2xl flex items-center justify-center mb-6`}>
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <Fragment set:html={getIcon(feature.iconName)} />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+              <p class="text-gray-600 leading-relaxed">{feature.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Voice Capabilities -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.voiceAgents.performanceTitle') || 'Voice Agent Performance'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.voiceAgents.performanceSubtitle') || 'See how our voice agents perform across different types of customer interactions.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {voiceCapabilities.map((capability, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{capability.title}</h3>
+              <p class="text-gray-600 mb-6">{capability.description}</p>
+              
+              <div class="grid grid-cols-2 gap-4">
+                <div class="text-center bg-green-50 rounded-lg p-4">
+                  <div class="text-2xl font-bold text-green-600">{capability.accuracy}</div>
+                  <div class="text-sm text-gray-600">{t('seachat.features.voiceAgents.accuracyRate') || 'Accuracy Rate'}</div>
+                </div>
+                <div class="text-center bg-blue-50 rounded-lg p-4">
+                  <div class="text-2xl font-bold text-blue-600">{capability.avgDuration}</div>
+                  <div class="text-sm text-gray-600">{t('seachat.features.voiceAgents.avgDuration') || 'Avg Duration'}</div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Voice Demo Section -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.voiceAgents.experienceTitle') || 'Experience Voice AI in Action'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.voiceAgents.experienceSubtitle') || 'Listen to real conversations between customers and our voice agents.'}
+          </p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div class="space-y-8">
+            <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 border border-indigo-100">
+              <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seachat.features.voiceAgents.sampleTitle') || 'Sample Conversation'}</h3>
+              <div class="space-y-4">
+                <div class="bg-white rounded-lg p-4 shadow-sm">
+                  <div class="flex items-center mb-2">
+                    <svg class="w-4 h-4 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
+                    <span class="text-sm font-medium text-blue-600">{t('seachat.features.voiceAgents.voiceAgent') || 'Voice Agent'}</span>
+                  </div>
+                  <p class="text-gray-800">{t('seachat.features.voiceAgents.agentGreeting') || '"Hello! Thank you for calling SeaChat support. How can I help you today?"'}</p>
+                </div>
+                
+                <div class="bg-gray-100 rounded-lg p-4">
+                  <div class="flex items-center mb-2">
+                    <svg class="w-4 h-4 text-gray-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path>
+                    </svg>
+                    <span class="text-sm font-medium text-gray-600">{t('seachat.features.voiceAgents.customer') || 'Customer'}</span>
+                  </div>
+                  <p class="text-gray-800">{t('seachat.features.voiceAgents.customerQuestion') || '"Hi, I need to check the status of my recent order."'}</p>
+                </div>
+                
+                <div class="bg-white rounded-lg p-4 shadow-sm">
+                  <div class="flex items-center mb-2">
+                    <svg class="w-4 h-4 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
+                    <span class="text-sm font-medium text-blue-600">{t('seachat.features.voiceAgents.voiceAgent') || 'Voice Agent'}</span>
+                  </div>
+                  <p class="text-gray-800">{t('seachat.features.voiceAgents.agentResponse') || '"I\'d be happy to help you with that. Could you please provide your order number or the email address associated with your account?"'}</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flex space-x-4">
+              <button class="flex items-center space-x-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1.586a1 1 0 01.707.293L12 11l.707-.707A1 1 0 0113.414 10H15M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <span>{t('seachat.features.voiceAgents.playDemo') || 'Play Full Demo'}</span>
+              </button>
+              <button class="flex items-center space-x-2 text-indigo-600 hover:text-indigo-700 font-semibold">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M11 5L6 9H2v6h4l5 4V5z"></path>
+                </svg>
+                <span>{t('seachat.features.voiceAgents.moreSamples') || 'More Samples'}</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-br from-gray-900 to-indigo-900 rounded-2xl p-8 text-white">
+            <h3 class="text-2xl font-bold mb-6">{t('seachat.features.voiceAgents.featuresTitle') || 'Voice Agent Features'}</h3>
+            <div class="space-y-4">
+              {featuresList.map((feature, index) => (
+                <div key={index} class="flex items-center space-x-3">
+                  <div class="w-2 h-2 bg-indigo-400 rounded-full"></div>
+                  <span>{feature}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-indigo-600 to-purple-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.features.voiceAgents.ctaTitle') || 'Ready to Transform Phone Support?'}
+        </h2>
+        <p class="text-xl text-indigo-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.features.voiceAgents.ctaSubtitle') || 'Experience the future of voice customer support with AI agents that sound and feel human.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-indigo-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.features.voiceAgents.signUpFree') || 'Sign Up For Free'}
+          </a>
+          <a
+            href={getMeetingUrl(currentLang)}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+          >
+            {t('seachat.features.voiceAgents.scheduleDemo') || 'Schedule Demo'}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

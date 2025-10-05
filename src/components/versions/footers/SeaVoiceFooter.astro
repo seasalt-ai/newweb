@@ -1,0 +1,484 @@
+---
+import { getTranslationHelpers } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
+import type { VersionConfig } from '../config';
+
+export interface Props {
+  currentPath?: string;
+  lang?: string;
+  versionConfig?: VersionConfig;
+}
+
+const { currentPath = '/', lang = 'en', versionConfig } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+const currentYear = new Date().getFullYear();
+
+// Helper function to get SeaVoice Wiki URL based on language
+const getWikiUrl = () => {
+  const wikiLanguage = (lang === 'zh-TW' || lang === 'zh-CN') ? 'zh' : 'en';
+  return `https://wiki.seasalt.ai/${wikiLanguage}/`;
+};
+
+// Helper function to render emoji icons
+const getIcon = (iconName: string, className = 'w-4 h-4 mr-2') => {
+  const e = (emoji: string) => `<span class="inline-flex items-center justify-center w-4 h-4 mr-2 shrink-0 align-middle" aria-hidden="true">${emoji}</span>`;
+  const icons: Record<string, string> = {
+    Monitor: e('🖥️'),
+    Phone: e('📞'),
+    Wifi: e('📶'),
+    PhoneCall: e('📞'),
+    MessageCircle: e('💬'),
+    AudioLines: e('🎙️'),
+    Volume2: e('🔊'),
+    Brain: e('🧠'),
+    Bot: e('🤖'),
+    ArrowRightLeft: e('🔁'),
+    Zap: e('⚡'),
+    Heart: e('❤️'),
+    Shield: e('🛡️'),
+    Headphones: e('🎧'),
+    Package: e('📦'),
+    CreditCard: e('💳'),
+    Calendar: e('📅'),
+    Target: e('🎯'),
+    DollarSign: e('💲'),
+    UserCheck: e('👤'),
+    Clock: e('⏰'),
+    Megaphone: e('📣'),
+    Headset: e('🎧'),
+    RefreshCw: e('🔄'),
+    FileText: e('📄'),
+    AlertTriangle: e('⚠️'),
+    Mail: e('✉️'),
+    MessageSquare: e('💬'),
+    BarChart3: e('📊'),
+    Book: e('📚'),
+    Server: e('🖥️'),
+    Briefcase: e('💼'),
+    Building2: e('🏢'),
+    Users: e('👥'),
+    Activity: e('📈'),
+    MapPin: e('📍'),
+    ChevronDown: e('⌄')
+  };
+  return icons[iconName] || '';
+};
+
+// Platform links
+const platformLinks = [
+  { name: t('seavoice.footer.platform.overview') || 'Platform Overview', href: `/${lang}/seavoice/platform`, icon: 'Monitor' },
+  { name: t('seavoice.footer.platform.landlineMobile') || 'Landline & Mobile', href: `/${lang}/seavoice/platform/landline-mobile`, icon: 'Phone' },
+  { name: t('seavoice.footer.platform.voipSipByoc') || 'VoIP/SIP/BYOC', href: `/${lang}/seavoice/platform/voip-sip-byoc`, icon: 'Wifi' },
+  { name: t('seavoice.footer.platform.lineCallPlus') || 'Line Call Plus', href: `/${lang}/seavoice/platform/line-call-plus`, icon: 'PhoneCall' },
+  { name: t('seavoice.footer.platform.whatsAppVoice') || 'WhatsApp Voice', href: `/${lang}/seavoice/platform/whatsapp-voice`, icon: 'MessageCircle' },
+  { name: t('seavoice.footer.platform.speechToText') || 'Speech to Text', href: `/${lang}/seavoice/platform/speech-to-text`, icon: 'AudioLines' },
+  { name: t('seavoice.footer.platform.textToSpeech') || 'Text to Speech', href: `/${lang}/seavoice/platform/text-to-speech`, icon: 'Volume2' },
+  { name: t('seavoice.footer.platform.endToEndLlms') || 'End-to-End LLMs', href: `/${lang}/seavoice/platform/end-to-end-llms`, icon: 'Brain' }
+];
+
+// Inbound solutions links (first 6 items from original)
+const inboundSolutionsLinks = [
+  { name: t('seavoice.footer.inboundSolutions.virtualAssistant') || 'Virtual Assistant', href: `/${lang}/seavoice/solutions/inbound/virtual-assistant`, icon: 'Bot' },
+  { name: t('seavoice.footer.inboundSolutions.callTransfer') || 'Call Transfer', href: `/${lang}/seavoice/solutions/inbound/call-transfer`, icon: 'ArrowRightLeft' },
+  { name: t('seavoice.footer.inboundSolutions.ivrReplacement') || 'IVR Replacement', href: `/${lang}/seavoice/solutions/inbound/ivr-replacement`, icon: 'Zap' },
+  { name: t('seavoice.footer.inboundSolutions.mentalHealth') || 'Mental Health', href: `/${lang}/seavoice/solutions/inbound/mental-health`, icon: 'Heart' },
+  { name: t('seavoice.footer.inboundSolutions.scamShield') || 'Scam Shield', href: `/${lang}/seavoice/solutions/inbound/scam-shield`, icon: 'Shield' },
+  { name: t('seavoice.footer.inboundSolutions.technicalSupport') || 'Technical Support', href: `/${lang}/seavoice/solutions/inbound/technical-support`, icon: 'Headphones' }
+];
+
+// Outbound solutions links (first 6 items from original)
+const outboundSolutionsLinks = [
+  { name: t('seavoice.footer.outboundSolutions.leadGeneration') || 'Lead Generation', href: `/${lang}/seavoice/solutions/outbound/lead-generation`, icon: 'Target' },
+  { name: t('seavoice.footer.outboundSolutions.collections') || 'Collections', href: `/${lang}/seavoice/solutions/outbound/collections`, icon: 'DollarSign' },
+  { name: t('seavoice.footer.outboundSolutions.reactivation') || 'Reactivation', href: `/${lang}/seavoice/solutions/outbound/reactivation`, icon: 'UserCheck' },
+  { name: t('seavoice.footer.outboundSolutions.seniorChecks') || 'Senior Checks', href: `/${lang}/seavoice/solutions/outbound/senior-checks`, icon: 'Clock' },
+  { name: t('seavoice.footer.outboundSolutions.campaigns') || 'Campaigns', href: `/${lang}/seavoice/solutions/outbound/campaigns`, icon: 'Megaphone' },
+  { name: t('seavoice.footer.outboundSolutions.proactiveSupport') || 'Proactive Support', href: `/${lang}/seavoice/solutions/outbound/proactive-support`, icon: 'Headset' }
+];
+
+// Company links
+const companyLinks = [
+  { name: t('header.blog') || 'Blog', href: `/${lang}/blog`, icon: 'MessageSquare' },
+  { name: t('seavoice.footer.company.pricing') || 'Pricing', href: `/${lang}/seavoice/pricing`, icon: 'DollarSign' },
+  { name: t('header.compareUs') || 'Compare Us', href: `/${lang}/compare-us-overview`, icon: 'BarChart3' },
+  { name: t('seavoice.footer.company.productWiki') || 'Product Wiki', href: getWikiUrl(), icon: 'Book', external: true },
+  { name: t('seavoice.footer.company.apiReferences') || 'API References', href: 'https://api.seasalt.ai', icon: 'Server', external: true },
+  { name: t('footer.company.careers') || 'Careers', href: `/${lang}/careers`, icon: 'Briefcase' },
+  { name: t('footer.company.about') || 'About', href: `/${lang}/company`, icon: 'Building2' }
+];
+---
+
+<footer class="bg-gray-900 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-2 sm:gap-3 lg:gap-4">
+      <!-- Company Info -->
+      <div class="lg:col-span-2">
+        <a href={`/${lang}/seavoice`} class="flex items-center mb-4">
+          <img 
+            src={versionConfig?.logo || '/seavoice-logo.png'} 
+            alt="SeaVoice Logo" 
+            class="h-8 brightness-0 invert" 
+          />
+        </a>
+        <p class="text-gray-400 mb-6">
+          {t('seavoice.footer.description') || 'AI voice assistant platform for automated phone conversations'}
+        </p>
+        
+        <!-- Contact Information -->
+        <div class="space-y-3 mb-6">
+          <div class="flex items-center space-x-3 text-gray-400">
+            <Fragment set:html={getIcon('Mail', 'w-4 h-4')} />
+            <span>info@seasalt.ai</span>
+          </div>
+          <div class="flex items-center space-x-3 text-gray-400">
+            <Fragment set:html={getIcon('Phone', 'w-4 h-4')} />
+            <span>+1 (SMB)-AI-AGENT</span>
+          </div>
+          <div class="flex items-center space-x-3 text-gray-400">
+            <Fragment set:html={getIcon('MapPin', 'w-4 h-4')} />
+            <span>Seattle, WA</span>
+          </div>
+        </div>
+        
+        <!-- Social Links -->
+        <div class="flex space-x-4">
+          <a href="https://www.linkedin.com/company/seasalt-ai/" class="text-gray-400 hover:text-blue-400 transition-colors">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-5 h-5" />
+          </a>
+          <a href="https://www.youtube.com/@seasaltai" class="text-gray-400 hover:text-blue-400 transition-colors">
+            <img src="https://cdn.simpleicons.org/youtube/ffffff" alt="YouTube" class="w-5 h-5" />
+          </a>
+          <a href="https://twitter.com/SeasaltAI" class="text-gray-400 hover:text-blue-400 transition-colors">
+            <img src="https://cdn.simpleicons.org/x/ffffff" alt="Twitter" class="w-5 h-5" />
+          </a>
+          <a href="https://discord.gg/VgAWg3c7rU" class="text-gray-400 hover:text-blue-400 transition-colors">
+            <img src="https://cdn.simpleicons.org/discord/ffffff" alt="Discord" class="w-5 h-5" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Platform Links -->
+      <div>
+        <!-- Desktop: Regular heading -->
+        <h3 class="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
+          {t('seavoice.footer.platform.title') || 'Platform'}
+        </h3>
+        
+        <!-- Mobile: Collapsible heading -->
+        <button 
+          class="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left mobile-section-toggle"
+          data-section="platform"
+        >
+          {t('seavoice.footer.platform.title') || 'Platform'}
+          <Fragment set:html={getIcon('ChevronDown', 'w-4 h-4 transition-transform chevron')} />
+        </button>
+        
+        <!-- Desktop: Always visible -->
+        <ul class="hidden lg:block space-y-2">
+          {platformLinks.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+              >
+                <Fragment set:html={getIcon(link.icon)} />
+                {link.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+        
+        <!-- Mobile: Collapsible content -->
+        <div class="lg:hidden mobile-section-content hidden" data-section-content="platform">
+          <ul class="space-y-2">
+            {platformLinks.map((link) => (
+              <li>
+                <a
+                  href={link.href}
+                  class="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                >
+                  <Fragment set:html={getIcon(link.icon)} />
+                  {link.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <!-- Inbound Solutions Links -->
+      <div>
+        <!-- Desktop: Regular heading -->
+        <h3 class="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
+          {t('seavoice.footer.inboundSolutions.title') || 'Inbound Solutions'}
+        </h3>
+        
+        <!-- Mobile: Collapsible heading -->
+        <button 
+          class="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left mobile-section-toggle"
+          data-section="inboundSolutions"
+        >
+          {t('seavoice.footer.inboundSolutions.title') || 'Inbound Solutions'}
+          <Fragment set:html={getIcon('ChevronDown', 'w-4 h-4 transition-transform chevron')} />
+        </button>
+        
+        <!-- Desktop: Always visible -->
+        <ul class="hidden lg:block space-y-2">
+          {inboundSolutionsLinks.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+              >
+                <Fragment set:html={getIcon(link.icon)} />
+                {link.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+        
+        <!-- Mobile: Collapsible content -->
+        <div class="lg:hidden mobile-section-content hidden" data-section-content="inboundSolutions">
+          <ul class="space-y-2">
+            {inboundSolutionsLinks.map((link) => (
+              <li>
+                <a
+                  href={link.href}
+                  class="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                >
+                  <Fragment set:html={getIcon(link.icon)} />
+                  {link.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <!-- Outbound Solutions Links -->
+      <div>
+        <!-- Desktop: Regular heading -->
+        <h3 class="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
+          {t('seavoice.footer.outboundSolutions.title') || 'Outbound Solutions'}
+        </h3>
+        
+        <!-- Mobile: Collapsible heading -->
+        <button 
+          class="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left mobile-section-toggle"
+          data-section="outboundSolutions"
+        >
+          {t('seavoice.footer.outboundSolutions.title') || 'Outbound Solutions'}
+          <Fragment set:html={getIcon('ChevronDown', 'w-4 h-4 transition-transform chevron')} />
+        </button>
+        
+        <!-- Desktop: Always visible -->
+        <ul class="hidden lg:block space-y-2">
+          {outboundSolutionsLinks.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+              >
+                <Fragment set:html={getIcon(link.icon)} />
+                {link.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+        
+        <!-- Mobile: Collapsible content -->
+        <div class="lg:hidden mobile-section-content hidden" data-section-content="outboundSolutions">
+          <ul class="space-y-2">
+            {outboundSolutionsLinks.map((link) => (
+              <li>
+                <a
+                  href={link.href}
+                  class="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                >
+                  <Fragment set:html={getIcon(link.icon)} />
+                  {link.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <!-- Company Links -->
+      <div>
+        <!-- Desktop: Regular heading -->
+        <h3 class="hidden lg:block text-sm font-semibold uppercase tracking-wider mb-4">
+          {t('seavoice.footer.company.title') || 'Company'}
+        </h3>
+        
+        <!-- Mobile: Collapsible heading -->
+        <button 
+          class="lg:hidden flex items-center justify-between w-full text-sm font-semibold uppercase tracking-wider mb-4 text-left mobile-section-toggle"
+          data-section="company"
+        >
+          {t('seavoice.footer.company.title') || 'Company'}
+          <Fragment set:html={getIcon('ChevronDown', 'w-4 h-4 transition-transform chevron')} />
+        </button>
+        
+        <!-- Desktop: Always visible -->
+        <ul class="hidden lg:block space-y-2">
+          {companyLinks.map((link) => (
+            <li>
+              {link.external ? (
+                <a
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                >
+                  <Fragment set:html={getIcon(link.icon)} />
+                  {link.name}
+                </a>
+              ) : (
+                <a
+                  href={link.href}
+                  class="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                >
+                  <Fragment set:html={getIcon(link.icon)} />
+                  {link.name}
+                </a>
+              )}
+            </li>
+          ))}
+        </ul>
+        
+        <!-- Mobile: Collapsible content -->
+        <div class="lg:hidden mobile-section-content hidden" data-section-content="company">
+          <ul class="space-y-2">
+            {companyLinks.map((link) => (
+              <li>
+                {link.external ? (
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                  >
+                    <Fragment set:html={getIcon(link.icon)} />
+                    {link.name}
+                  </a>
+                ) : (
+                  <a
+                    href={link.href}
+                    class="text-gray-400 hover:text-white transition-colors text-sm flex items-center"
+                  >
+                    <Fragment set:html={getIcon(link.icon)} />
+                    {link.name}
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bottom Bar -->
+    <div class="mt-8 pt-8 border-t border-gray-800">
+      <div class="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+        <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
+          <p class="text-gray-300 text-sm">
+            {t('seavoice.footer.legal.copyright', { year: currentYear }) || `© ${currentYear} Seasalt.ai. All rights reserved.`}
+          </p>
+          <div class="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
+            <a href={`/${lang}/privacy`} class="text-gray-300 hover:text-white transition-colors duration-200">
+              {t('seavoice.footer.legal.privacyPolicy') || 'Privacy Policy'}
+            </a>
+            <a href={`/${lang}/terms`} class="text-gray-300 hover:text-white transition-colors duration-200">
+              {t('seavoice.footer.legal.termsOfService') || 'Terms of Service'}
+            </a>
+          </div>
+        </div>
+        
+        <!-- Stats -->
+        <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300">
+          <span class="flex items-center">
+            <Fragment set:html={getIcon('PhoneCall', 'w-4 h-4 mr-1')} />
+            {t('seavoice.footer.stats.callsHandled') || '1M+ calls handled'}
+          </span>
+          <span class="flex items-center">
+            <Fragment set:html={getIcon('Users', 'w-4 h-4 mr-1')} />
+            {t('seavoice.footer.stats.activeAgents') || '10K+ active agents'}
+          </span>
+          <span class="flex items-center">
+            <Fragment set:html={getIcon('Activity', 'w-4 h-4 mr-1')} />
+            {t('seavoice.footer.stats.uptime') || '99.9% uptime'}
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Fun Footer Tagline -->
+    <div class="text-center text-gray-400 text-sm mt-8">
+      <p>
+        Made with 
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart inline w-4 h-4 text-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+          in the city of{' '}
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coffee inline w-4 h-4 text-amber-700"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="6" x2="6" y1="2" y2="4"></line><line x1="10" x2="10" y1="2" y2="4"></line><line x1="14" x2="14" y1="2" y2="4"></line></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-umbrella inline w-4 h-4 text-blue-400"><path d="M22 12a10.06 10.06 1 0 0-20 0Z"></path><path d="M12 12v8a2 2 0 0 0 4 0"></path><path d="M12 2v1"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plane inline w-4 h-4 text-gray-500"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gem inline w-4 h-4 text-fuchsia-500"><path d="M6 3h12l4 6-10 13L2 9Z"></path><path d="M11 3 8 9l4 13 4-13-3-6"></path><path d="M2 9h20"></path></svg>
+      </p>
+    </div>
+  </div>
+
+  <!-- CTA Banner -->
+  <div class="bg-gradient-to-r from-blue-600 to-indigo-600 py-6 sm:py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
+      <h3 class="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
+        {t('seavoice.footer.cta.title') || 'Ready to transform your phone conversations?'}
+      </h3>
+      <p class="text-white opacity-90 mb-6 max-w-2xl mx-auto">
+        {t('seavoice.footer.cta.description') || 'Get started with SeaVoice and experience the power of AI-driven voice assistance.'}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          class="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+        >
+          {t('seavoice.footer.cta.getStartedFree') || 'Get Started Free'}
+        </a>
+        <a
+          href={getMeetingUrl(lang)}
+          class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+        >
+          {t('seavoice.footer.cta.bookDemo') || 'Book Demo'}
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- JavaScript for mobile collapsible functionality -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const sectionToggles = document.querySelectorAll('.mobile-section-toggle');
+    
+    sectionToggles.forEach(toggle => {
+      toggle.addEventListener('click', function() {
+        const section = this.getAttribute('data-section');
+        const content = document.querySelector(`[data-section-content="${section}"]`);
+        const chevron = this.querySelector('.chevron');
+        
+        if (content) {
+          const isHidden = content.classList.contains('hidden');
+          content.classList.toggle('hidden');
+          
+          if (chevron) {
+            if (isHidden) {
+              chevron.classList.add('rotate-180');
+            } else {
+              chevron.classList.remove('rotate-180');
+            }
+          }
+        }
+      });
+    });
+  });
+</script>

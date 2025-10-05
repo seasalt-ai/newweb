@@ -1,0 +1,264 @@
+---
+import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t, translations } = await getTranslationHelpers(currentLang);
+---
+
+<SeaxLayout 
+  seoData={{
+    title: t('seax.solutions.customerEngagement.seo.title') || "Customer Engagement Solutions - SeaX Mass Communication Platform",
+    description: t('seax.solutions.customerEngagement.seo.description') || "Build stronger customer relationships with personalized multi-channel communication and interactive experiences.",
+    keywords: t('seax.keywords') || "customer engagement, personalized messaging, multi-channel communication, customer journey, mass communication",
+    canonical: `https://seasalt.ai/${currentLang}/seax/solutions/customer-engagement`
+  }}
+  lang={currentLang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+        {t('seax.solutions.customerEngagement.hero.title.main') || 'Customer Engagement'}
+        <span class="text-blue-600 block">{t('seax.solutions.customerEngagement.hero.title.highlight') || 'That Builds Loyalty'}</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t('seax.solutions.customerEngagement.hero.description') || 'Create meaningful connections with customers through personalized communication and interactive experiences across SMS, WhatsApp, and voice.'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://meetings.hubspot.com/seasalt-ai/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{t('seax.solutions.customerEngagement.hero.cta.primary') || 'Start Engaging'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </a>
+        
+        <a
+          href={`/${currentLang}/seax/pricing`}
+          class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
+        >
+          {t('seax.solutions.customerEngagement.hero.cta.secondary') || 'View Demo'}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.customerEngagement.features.title') || 'Customer Engagement Features'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.customerEngagement.features.subtitle') || 'Everything you need to create meaningful customer relationships'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Personalized Communication -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.customerEngagement.features.items[0].title') || 'Personalized Communication'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.customerEngagement.features.items[0].description') || 'Deliver personalized messages using customer data to create relevant and meaningful communications that drive engagement.'}
+          </p>
+        </div>
+
+        <!-- Multi-Channel Messaging -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.customerEngagement.features.items[1].title') || 'Multi-Channel Messaging'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.customerEngagement.features.items[1].description') || 'Engage customers across SMS, WhatsApp, and voice channels with consistent, coordinated messaging strategies.'}
+          </p>
+        </div>
+
+        <!-- Customer Journey Mapping -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.customerEngagement.features.items[2].title') || 'Customer Journey Mapping'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.customerEngagement.features.items[2].description') || 'Map and optimize customer journeys with intelligent touchpoint management and automated engagement triggers.'}
+          </p>
+        </div>
+
+        <!-- Real-Time Analytics -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2a2 2 0 00-2 2z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.customerEngagement.features.items[3].title') || 'Real-Time Analytics'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.customerEngagement.features.items[3].description') || 'Track engagement metrics, customer satisfaction, and campaign performance with comprehensive real-time analytics.'}
+          </p>
+        </div>
+
+        <!-- Smart Segmentation -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14-7H3m16 14H7m12-7H9"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.customerEngagement.features.items[4].title') || 'Smart Segmentation'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.customerEngagement.features.items[4].description') || 'Segment customers based on behavior, preferences, and engagement history for more targeted communications.'}
+          </p>
+        </div>
+
+        <!-- Automated Workflows -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.customerEngagement.features.items[5].title') || 'Automated Workflows'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.customerEngagement.features.items[5].description') || 'Create automated engagement workflows that respond to customer actions and deliver timely, relevant communications.'}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Use Cases Section -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.customerEngagement.useCases.title') || 'Customer Engagement Use Cases'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.customerEngagement.useCases.subtitle') || 'See how different industries use SeaX for customer engagement'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.customerEngagement.useCases.items[0].title') || 'Retail Loyalty Programs'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.customerEngagement.useCases.items[0].description') || 'Engage customers with personalized offers, loyalty rewards, and exclusive access to build long-term relationships.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.customerEngagement.useCases.items[0].stats') || '40% increase in customer lifetime value'}</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.customerEngagement.useCases.items[1].title') || 'SaaS Onboarding'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.customerEngagement.useCases.items[1].description') || 'Guide new users through onboarding with interactive tutorials and proactive support communications.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.customerEngagement.useCases.items[1].stats') || '60% improvement in user activation'}</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.customerEngagement.useCases.items[2].title') || 'Healthcare Patient Care'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.customerEngagement.useCases.items[2].description') || 'Keep patients engaged with health tips, appointment reminders, and personalized care communications.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.customerEngagement.useCases.items[2].stats') || '85% patient satisfaction rate'}</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.customerEngagement.useCases.items[3].title') || 'Financial Services'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.customerEngagement.useCases.items[3].description') || 'Engage customers with financial insights, account updates, and personalized investment opportunities.'}</p>
+          <div class="bg-blue-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-blue-800">{t('seax.solutions.customerEngagement.useCases.items[3].stats') || '50% increase in product adoption'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.customerEngagement.stats.title') || 'Customer Engagement Results'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.customerEngagement.stats.subtitle') || 'See the impact of effective customer engagement'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-blue-600 mb-2">{t('seax.solutions.customerEngagement.stats.items[0].value') || '85%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.customerEngagement.stats.items[0].label') || 'Customer Satisfaction'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-green-600 mb-2">{t('seax.solutions.customerEngagement.stats.items[1].value') || '300%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.customerEngagement.stats.items[1].label') || 'Engagement Increase'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-purple-600 mb-2">{t('seax.solutions.customerEngagement.stats.items[2].value') || '40%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.customerEngagement.stats.items[2].label') || 'Retention Improvement'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-orange-600 mb-2">{t('seax.solutions.customerEngagement.stats.items[3].value') || '70%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.customerEngagement.stats.items[3].label') || 'Response Rate'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="py-20 bg-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t('seax.solutions.customerEngagement.cta.title') || 'Ready to Engage Your Customers?'}
+      </h2>
+      <p class="text-xl text-blue-100 mb-8">
+        {t('seax.solutions.customerEngagement.cta.description') || 'Start building stronger customer relationships today'}
+      </p>
+      
+      <a
+        href="https://meetings.hubspot.com/seasalt-ai/demo"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
+      >
+        <span>{t('seax.solutions.customerEngagement.cta.primary') || 'Get Started'}</span>
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</SeaxLayout>

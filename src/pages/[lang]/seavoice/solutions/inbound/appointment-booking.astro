@@ -1,0 +1,452 @@
+---
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
+import Layout from '../../../../../layouts/Layout.astro';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// Extract language from params and validate it
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translation helpers
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO data using the same structure as original
+const seoTitle = t('seavoice.solutions.inbound.appointmentBooking.hero.title') || 'Appointment Booking & Management - AI Voice Solutions | SeaVoice';
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.solutions.inbound.appointmentBooking.faq.q1') || 'Which calendars are supported?',
+    answer: t('seavoice.solutions.inbound.appointmentBooking.faq.a1') || 'Google Calendar and Outlook are supported, with availability checks and automatic confirmations.'
+  },
+  {
+    question: t('seavoice.solutions.inbound.appointmentBooking.faq.q2') || 'Can the system send reminders and reschedule?',
+    answer: t('seavoice.solutions.inbound.appointmentBooking.faq.a2') || 'Yes. Automated reminders, rescheduling flows, and multi-provider availability are supported.'
+  }
+];
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${currentLang}/seavoice/solutions/inbound/` },
+  { name: 'Appointment Booking' }
+];
+const seoDescription = t('seavoice.solutions.inbound.appointmentBooking.hero.description') || 'Automate appointment scheduling with AI that understands availability, preferences, and business rules. Reduce no-shows and streamline your booking process.';
+const seoKeywords = 'appointment booking, AI scheduling, voice automation, appointment management, SeaVoice, automated booking, appointment reminders';
+
+// Features data matching original structure
+const features = [
+  {
+    icon: 'Calendar',
+    title: t('seavoice.solutions.inbound.appointmentBooking.features.intelligentScheduling.title') || 'Intelligent Scheduling',
+    description: t('seavoice.solutions.inbound.appointmentBooking.features.intelligentScheduling.description') || 'AI-powered appointment booking that understands availability and preferences.',
+    benefits: [
+      t('seavoice.solutions.inbound.appointmentBooking.features.intelligentScheduling.benefit1') || 'Real-time availability',
+      t('seavoice.solutions.inbound.appointmentBooking.features.intelligentScheduling.benefit2') || 'Smart conflict resolution',
+      t('seavoice.solutions.inbound.appointmentBooking.features.intelligentScheduling.benefit3') || 'Preference matching'
+    ]
+  },
+  {
+    icon: 'Clock',
+    title: t('seavoice.solutions.inbound.appointmentBooking.features.automatedReminders.title') || 'Automated Reminders',
+    description: t('seavoice.solutions.inbound.appointmentBooking.features.automatedReminders.description') || 'Reduce no-shows with automated appointment reminders and confirmations.',
+    benefits: [
+      t('seavoice.solutions.inbound.appointmentBooking.features.automatedReminders.benefit1') || 'SMS & voice reminders',
+      t('seavoice.solutions.inbound.appointmentBooking.features.automatedReminders.benefit2') || 'Customizable timing',
+      t('seavoice.solutions.inbound.appointmentBooking.features.automatedReminders.benefit3') || 'Confirmation tracking'
+    ]
+  },
+  {
+    icon: 'Users',
+    title: t('seavoice.solutions.inbound.appointmentBooking.features.multiProviderSupport.title') || 'Multi-Provider Support',
+    description: t('seavoice.solutions.inbound.appointmentBooking.features.multiProviderSupport.description') || 'Manage appointments across multiple providers, locations, and services.',
+    benefits: [
+      t('seavoice.solutions.inbound.appointmentBooking.features.multiProviderSupport.benefit1') || 'Provider availability',
+      t('seavoice.solutions.inbound.appointmentBooking.features.multiProviderSupport.benefit2') || 'Location management',
+      t('seavoice.solutions.inbound.appointmentBooking.features.multiProviderSupport.benefit3') || 'Service categorization'
+    ]
+  }
+];
+
+// Booking capabilities matching original structure
+const bookingCapabilities = [
+  {
+    capability: t('seavoice.solutions.inbound.appointmentBooking.capabilities.appointmentScheduling.capability') || 'Appointment Scheduling',
+    description: t('seavoice.solutions.inbound.appointmentBooking.capabilities.appointmentScheduling.description') || 'Book new appointments based on availability and preferences',
+    features: [
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.appointmentScheduling.feature1') || 'Available time slots',
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.appointmentScheduling.feature2') || 'Provider selection',
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.appointmentScheduling.feature3') || 'Service type matching'
+    ]
+  },
+  {
+    capability: t('seavoice.solutions.inbound.appointmentBooking.capabilities.rescheduling.capability') || 'Rescheduling',
+    description: t('seavoice.solutions.inbound.appointmentBooking.capabilities.rescheduling.description') || 'Modify existing appointments with automatic conflict resolution',
+    features: [
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.rescheduling.feature1') || 'Conflict detection',
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.rescheduling.feature2') || 'Alternative suggestions',
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.rescheduling.feature3') || 'Automatic updates'
+    ]
+  },
+  {
+    capability: t('seavoice.solutions.inbound.appointmentBooking.capabilities.cancellationManagement.capability') || 'Cancellation Management',
+    description: t('seavoice.solutions.inbound.appointmentBooking.capabilities.cancellationManagement.description') || 'Handle cancellations and waitlist management efficiently',
+    features: [
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.cancellationManagement.feature1') || 'Cancellation policies',
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.cancellationManagement.feature2') || 'Waitlist automation',
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.cancellationManagement.feature3') || 'Refund processing'
+    ]
+  },
+  {
+    capability: t('seavoice.solutions.inbound.appointmentBooking.capabilities.reminderSystem.capability') || 'Reminder System',
+    description: t('seavoice.solutions.inbound.appointmentBooking.capabilities.reminderSystem.description') || 'Automated reminders to reduce no-shows and improve attendance',
+    features: [
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.reminderSystem.feature1') || 'Multi-channel reminders',
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.reminderSystem.feature2') || 'Customizable timing',
+      t('seavoice.solutions.inbound.appointmentBooking.capabilities.reminderSystem.feature3') || 'Confirmation requests'
+    ]
+  }
+];
+
+// Industries data
+const industries = [
+  {
+    industry: t('seavoice.solutions.inbound.appointmentBooking.industries.healthcare.industry') || 'Healthcare',
+    description: t('seavoice.solutions.inbound.appointmentBooking.industries.healthcare.description') || 'Medical appointments, consultations, and procedures',
+    benefits: [
+      t('seavoice.solutions.inbound.appointmentBooking.industries.healthcare.benefit1') || 'Patient scheduling',
+      t('seavoice.solutions.inbound.appointmentBooking.industries.healthcare.benefit2') || 'Provider coordination',
+      t('seavoice.solutions.inbound.appointmentBooking.industries.healthcare.benefit3') || 'Insurance verification'
+    ]
+  },
+  {
+    industry: t('seavoice.solutions.inbound.appointmentBooking.industries.beautyWellness.industry') || 'Beauty & Wellness',
+    description: t('seavoice.solutions.inbound.appointmentBooking.industries.beautyWellness.description') || 'Salon appointments, spa services, and wellness sessions',
+    benefits: [
+      t('seavoice.solutions.inbound.appointmentBooking.industries.beautyWellness.benefit1') || 'Service duration tracking',
+      t('seavoice.solutions.inbound.appointmentBooking.industries.beautyWellness.benefit2') || 'Stylist preferences',
+      t('seavoice.solutions.inbound.appointmentBooking.industries.beautyWellness.benefit3') || 'Package bookings'
+    ]
+  },
+  {
+    industry: t('seavoice.solutions.inbound.appointmentBooking.industries.professionalServices.industry') || 'Professional Services',
+    description: t('seavoice.solutions.inbound.appointmentBooking.industries.professionalServices.description') || 'Consultations, meetings, and service appointments',
+    benefits: [
+      t('seavoice.solutions.inbound.appointmentBooking.industries.professionalServices.benefit1') || 'Meeting room booking',
+      t('seavoice.solutions.inbound.appointmentBooking.industries.professionalServices.benefit2') || 'Consultant availability',
+      t('seavoice.solutions.inbound.appointmentBooking.industries.professionalServices.benefit3') || 'Client preferences'
+    ]
+  }
+];
+
+// Benefits metrics
+const benefits = [
+  { 
+    metric: t('seavoice.solutions.inbound.appointmentBooking.benefits.noShowReduction.metric') || '40%', 
+    description: t('seavoice.solutions.inbound.appointmentBooking.benefits.noShowReduction.description') || 'Reduction in no-show rates' 
+  },
+  { 
+    metric: t('seavoice.solutions.inbound.appointmentBooking.benefits.availabilityWindow.metric') || '24/7', 
+    description: t('seavoice.solutions.inbound.appointmentBooking.benefits.availabilityWindow.description') || 'Booking availability' 
+  },
+  { 
+    metric: t('seavoice.solutions.inbound.appointmentBooking.benefits.bookingAccuracy.metric') || '85%', 
+    description: t('seavoice.solutions.inbound.appointmentBooking.benefits.bookingAccuracy.description') || 'Booking accuracy rate' 
+  },
+  { 
+    metric: t('seavoice.solutions.inbound.appointmentBooking.benefits.workloadReduction.metric') || '60%', 
+    description: t('seavoice.solutions.inbound.appointmentBooking.benefits.workloadReduction.description') || 'Reduction in admin workload' 
+  }
+];
+
+// Reminder timeline data
+const reminderTimeline = [
+  {
+    period: t('seavoice.solutions.inbound.appointmentBooking.reminderSection.timeline.sevenDays') || '7d',
+    title: t('seavoice.solutions.inbound.appointmentBooking.reminderSection.timeline.initialConfirmation.title') || 'Initial Confirmation',
+    description: t('seavoice.solutions.inbound.appointmentBooking.reminderSection.timeline.initialConfirmation.description') || 'Appointment confirmation and details'
+  },
+  {
+    period: t('seavoice.solutions.inbound.appointmentBooking.reminderSection.timeline.oneDay') || '1d',
+    title: t('seavoice.solutions.inbound.appointmentBooking.reminderSection.timeline.dayBefore.title') || 'Day Before Reminder',
+    description: t('seavoice.solutions.inbound.appointmentBooking.reminderSection.timeline.dayBefore.description') || 'Final reminder with preparation instructions'
+  },
+  {
+    period: t('seavoice.solutions.inbound.appointmentBooking.reminderSection.timeline.twoHours') || '2h',
+    title: t('seavoice.solutions.inbound.appointmentBooking.reminderSection.timeline.lastMinute.title') || 'Last Minute Check',
+    description: t('seavoice.solutions.inbound.appointmentBooking.reminderSection.timeline.lastMinute.description') || 'Final confirmation and directions'
+  }
+];
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-purple-50 via-white to-pink-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center mb-6">
+          <svg class="w-16 h-16 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3a1 1 0 011-1h6a1 1 0 011 1v4m-6 4v8m-4-8V7a1 1 0 011-1h2m-3 12h12a1 1 0 001-1v-8a1 1 0 00-1-1H5a1 1 0 00-1 1v8a1 1 0 001 1z"/>
+          </svg>
+        </div>
+        <h1 class="text-5xl font-bold text-gray-900 mb-6">
+          {t('seavoice.solutions.inbound.appointmentBooking.hero.title') || 'Appointment Booking & Management'}
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          {t('seavoice.solutions.inbound.appointmentBooking.hero.description') || 'Automate appointment scheduling with AI that understands availability, preferences, and business rules. Reduce no-shows and streamline your booking process with intelligent voice interactions.'}
+        </p>
+        <button class="bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors">
+          {t('seavoice.solutions.inbound.appointmentBooking.hero.cta') || 'Automate Appointment Booking'}
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.solutions.inbound.appointmentBooking.features.title') || 'Smart Appointment Management'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.solutions.inbound.appointmentBooking.features.subtitle') || 'Comprehensive booking system that handles complex scheduling scenarios'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {features.map((feature, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mb-6">
+              {feature.icon === 'Calendar' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3a1 1 0 011-1h6a1 1 0 011 1v4m-6 4v8m-4-8V7a1 1 0 011-1h2m-3 12h12a1 1 0 001-1v-8a1 1 0 00-1-1H5a1 1 0 00-1 1v8a1 1 0 001 1z"/>
+                </svg>
+              )}
+              {feature.icon === 'Clock' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              )}
+              {feature.icon === 'Users' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                </svg>
+              )}
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+            <div class="space-y-2">
+              {feature.benefits.map((benefit, benefitIndex) => (
+                <div class="flex items-center">
+                  <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+                  <span class="text-sm text-gray-700">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Capabilities -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.solutions.inbound.appointmentBooking.capabilities.title') || 'Complete Booking Solution'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.solutions.inbound.appointmentBooking.capabilities.subtitle') || 'Handle every aspect of appointment management automatically'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {bookingCapabilities.map((capability, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{capability.capability}</h3>
+            <p class="text-gray-600 mb-6">{capability.description}</p>
+            <div class="space-y-2">
+              {capability.features.map((feature, featureIndex) => (
+                <div class="flex items-center">
+                  <div class="w-2 h-2 bg-purple-600 rounded-full mr-3"></div>
+                  <span class="text-sm text-gray-700">{feature}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Industry Applications -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.solutions.inbound.appointmentBooking.industries.title') || 'Industry Applications'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.solutions.inbound.appointmentBooking.industries.subtitle') || 'Tailored booking solutions for different industries and use cases'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {industries.map((industry, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{industry.industry}</h3>
+            <p class="text-gray-600 mb-6">{industry.description}</p>
+            <div class="space-y-2">
+              {industry.benefits.map((benefit, benefitIndex) => (
+                <div class="flex items-center">
+                  <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+                  <span class="text-sm text-gray-700">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Reminder System -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.solutions.inbound.appointmentBooking.reminderSection.title') || 'Automated Reminder System'}
+          </h2>
+          <p class="text-lg text-gray-600 mb-8">
+            {t('seavoice.solutions.inbound.appointmentBooking.reminderSection.description') || 'Significantly reduce no-shows with intelligent reminder campaigns that reach customers through their preferred communication channels at optimal times.'}
+          </p>
+          <div class="space-y-6">
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-purple-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-5 5-5-5h5v-9a1 1 0 011-1h2a1 1 0 011 1v9z"/>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">
+                  {t('seavoice.solutions.inbound.appointmentBooking.reminderSection.multiChannelReminders.title') || 'Multi-Channel Reminders'}
+                </h3>
+                <p class="text-gray-600">
+                  {t('seavoice.solutions.inbound.appointmentBooking.reminderSection.multiChannelReminders.description') || 'Voice calls, SMS, and email reminders'}
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-purple-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">
+                  {t('seavoice.solutions.inbound.appointmentBooking.reminderSection.optimalTiming.title') || 'Optimal Timing'}
+                </h3>
+                <p class="text-gray-600">
+                  {t('seavoice.solutions.inbound.appointmentBooking.reminderSection.optimalTiming.description') || 'AI determines best times to send reminders'}
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-purple-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">
+                  {t('seavoice.solutions.inbound.appointmentBooking.reminderSection.performanceTracking.title') || 'Performance Tracking'}
+                </h3>
+                <p class="text-gray-600">
+                  {t('seavoice.solutions.inbound.appointmentBooking.reminderSection.performanceTracking.description') || 'Monitor reminder effectiveness and optimize'}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">
+            {t('seavoice.solutions.inbound.appointmentBooking.reminderSection.reminderTimeline.title') || 'Reminder Timeline'}
+          </h3>
+          <div class="space-y-6">
+            {reminderTimeline.map((reminder, index) => (
+              <div class="flex items-start">
+                <div class="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center mr-4 text-sm font-bold">
+                  {reminder.period}
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-900">{reminder.title}</h4>
+                  <p class="text-gray-600 text-sm">{reminder.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Metrics -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.solutions.inbound.appointmentBooking.benefits.title') || 'Booking Performance Results'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.solutions.inbound.appointmentBooking.benefits.subtitle') || 'Measurable improvements in appointment management efficiency'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {benefits.map((benefit, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+            <div class="text-4xl font-bold text-purple-600 mb-4">{benefit.metric}</div>
+            <p class="text-gray-600">{benefit.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-purple-600 to-pink-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl font-bold mb-6">
+        {t('seavoice.solutions.inbound.appointmentBooking.cta.title') || 'Ready to Automate Appointment Booking?'}
+      </h2>
+      <p class="text-xl mb-8 opacity-90">
+        {t('seavoice.solutions.inbound.appointmentBooking.cta.description') || 'Streamline scheduling and reduce no-shows with intelligent appointment management'}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button class="bg-white text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+          {t('seavoice.solutions.inbound.appointmentBooking.cta.startFreeTrial') || 'Start Free Trial'}
+        </button>
+        <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors">
+          {t('seavoice.solutions.inbound.appointmentBooking.cta.scheduleDemo') || 'Schedule Demo'}
+        </button>
+      </div>
+    </div>
+  </section>
+</Layout>

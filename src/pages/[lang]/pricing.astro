@@ -1,0 +1,1075 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getMeetingUrl } from "../../constants/urls";
+import PricingBillingToggle from '../../components/react/PricingBillingToggle.tsx';
+import PricingFAQ from '../../components/react/PricingFAQ.tsx';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../i18n/helpers';
+import { Check, Star, Users, Building2, Sparkles, MessageSquare, Phone, Bot, DollarSign } from 'lucide-react';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 取得動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯幫助函數
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// SEO 資料
+const title = t('pricing.seo.title') || 'Pricing - Seasalt.ai AI Contact Center Solutions';
+const description = t('pricing.seo.description') || 'Choose the right plan for your business. Transparent pricing for AI-powered contact center solutions with no hidden fees.';
+const keywords = 'pricing, plans, AI contact center, omnichannel, WhatsApp, voice calls, chat support, small business';
+
+// FAQ 資料 - 從翻譯系統取得
+const faqData = [
+  {
+    question: t('pricing.faq.1.question'),
+    answer: t('pricing.faq.1.answer')
+  },
+  {
+    question: t('pricing.faq.2.question'),
+    answer: t('pricing.faq.2.answer')
+  },
+  {
+    question: t('pricing.faq.3.question'),
+    answer: t('pricing.faq.3.answer')
+  },
+  {
+    question: t('pricing.faq.4.question'),
+    answer: t('pricing.faq.4.answer')
+  },
+  {
+    question: t('pricing.faq.5.question'),
+    answer: t('pricing.faq.5.answer')
+  },
+  {
+    question: t('pricing.faq.6.question'),
+    answer: t('pricing.faq.6.answer')
+  },
+  {
+    question: t('pricing.faq.7.question'),
+    answer: t('pricing.faq.7.answer')
+  }
+];
+
+// 定價頁面的麵包屑導航
+const breadcrumbs = [
+  { name: t('nav.home') || 'Home', url: `/${currentLang}/` },
+  { name: t('nav.pricing') || 'Pricing' }
+];
+
+// 定價方案的 Offer 結構化資料
+const pricingOffers = [
+  {
+    "@type": "Offer",
+    "name": "SeaChat Free",
+    "description": "Perfect for startups and small businesses starting their AI journey",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "category": "AI Chatbot",
+    "eligibleQuantity": {
+      "@type": "QuantitativeValue",
+      "value": 1,
+      "unitText": "user"
+    },
+    "seller": {
+      "@type": "Organization",
+      "name": "Seasalt.ai"
+    }
+  },
+  {
+    "@type": "Offer",
+    "name": "SeaX Professional",
+    "description": "Omnichannel communication platform for scaling businesses",
+    "price": "19.99",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "category": "Communication Platform",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "unitText": "MONTH"
+    },
+    "seller": {
+      "@type": "Organization",
+      "name": "Seasalt.ai"
+    }
+  },
+  {
+    "@type": "Offer",
+    "name": "SeaVoice AI",
+    "description": "AI-powered voice communication platform", 
+    "price": "29.99",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "category": "Voice AI Platform",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "29.99",
+      "priceCurrency": "USD",
+      "unitText": "MONTH"
+    },
+    "seller": {
+      "@type": "Organization",
+      "name": "Seasalt.ai"
+    }
+  }
+];
+
+// 定價頁面的完整服務結構化資料
+const pricingServiceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "AI-Powered Contact Center Solutions",
+  "description": "Comprehensive AI contact center platform with omnichannel communication, voice agents, and chatbot automation",
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "serviceType": "AI Contact Center Platform",
+  "areaServed": [
+    "US", "CA", "GB", "AU", "SG", "TW", "HK", "MO", "JP", "KR", 
+    "DE", "FR", "ES", "IT", "NL", "IN", "ID", "MY", "TH", "VN", "PH"
+  ],
+  "offers": pricingOffers,
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "AI Contact Center Solutions Pricing",
+    "itemListElement": pricingOffers.map((offer, index) => ({
+      "@type": "OfferCatalogEntry",
+      "position": index + 1,
+      "itemOffered": offer
+    }))
+  }
+};
+
+// 自訂 JSON-LD 結構化資料陣列
+const customJsonLd = [pricingServiceSchema];
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout 
+  title={title} 
+  description={description} 
+  lang={currentLang}
+  keywords={keywords}
+  type="service"
+  service={{
+    serviceType: "AI Contact Center Platform",
+    provider: "Seasalt.ai",
+    areaServed: "Global",
+    offers: pricingOffers
+  }}
+  faqs={faqData.filter(faq => faq.question && faq.answer)}
+  customJsonLd={customJsonLd}
+>
+  <!-- Hero Section with Gradient Background -->
+  <section class="bg-gradient-to-br from-indigo-900 via-purple-900 to-blue-900 py-16 sm:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+          {t('pricing.hero.title')}
+        </h1>
+        <p class="text-lg sm:text-xl text-blue-100 max-w-3xl mx-auto mb-6 sm:mb-8">
+          {t('pricing.hero.description')}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-hidden py-12 sm:py-20">
+
+    <!-- Strategy 3: Audience-Focused Section -->
+    <section class="py-16 bg-gradient-to-br from-blue-50 to-indigo-50 mb-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">{t('pricing.audienceSection.title')}</h2>
+          <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+            {t('pricing.audienceSection.description')}
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+          <!-- For Startups - Enhanced Design -->
+          <div class="relative bg-gradient-to-br from-teal-50 via-green-50 to-emerald-50 rounded-3xl p-8 shadow-2xl border-2 border-teal-200 hover:shadow-3xl hover:scale-105 transition-all duration-300 group">
+            <!-- Decorative Element -->
+            <div class="absolute -top-4 -left-4 w-16 h-16 bg-gradient-to-br from-teal-400 to-green-500 rounded-full opacity-20 group-hover:opacity-30 transition-opacity"></div>
+            
+            <div class="relative z-10">
+              <div class="flex items-center mb-6">
+                <div class="w-16 h-16 bg-gradient-to-br from-teal-500 to-green-600 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
+                  <Users className="w-8 h-8 text-white" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900">{t('pricing.audienceSection.startups.title')}</h3>
+                  <p class="text-teal-600 font-medium">{t('pricing.audienceSection.startups.subtitle')}</p>
+                </div>
+              </div>
+              
+              <div class="space-y-5">
+                <div class="bg-white/70 rounded-xl p-4 shadow-sm">
+                  <div class="flex items-start space-x-3">
+                    <div class="w-6 h-6 bg-teal-500 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Check className="w-4 h-4 text-white" />
+                    </div>
+                    <div>
+                      <p class="font-bold text-gray-900">{t('pricing.audienceSection.startups.seachatFree.title')}</p>
+                      <p class="text-sm text-gray-700">{t('pricing.audienceSection.startups.seachatFree.description')}</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="bg-white/70 rounded-xl p-4 shadow-sm">
+                  <div class="flex items-start space-x-3">
+                    <div class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Check className="w-4 h-4 text-white" />
+                    </div>
+                    <div>
+                      <p class="font-bold text-gray-900">{t('pricing.audienceSection.startups.seavoice.title')}</p>
+                      <p class="text-sm text-gray-700">{t('pricing.audienceSection.startups.seavoice.description')}</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="bg-white/70 rounded-xl p-4 shadow-sm">
+                  <div class="flex items-start space-x-3">
+                    <div class="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Check className="w-4 h-4 text-white" />
+                    </div>
+                    <div>
+                      <p class="font-bold text-gray-900">{t('pricing.audienceSection.startups.seax.title')}</p>
+                      <p class="text-sm text-gray-700">{t('pricing.audienceSection.startups.seax.description')}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mt-6 pt-4 border-t border-teal-200">
+                <p class="text-center font-semibold text-teal-700">{t('pricing.audienceSection.startups.footer')}</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- For Enterprises - Enhanced Design -->
+          <div class="relative bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 rounded-3xl p-8 shadow-2xl border-2 border-blue-200 hover:shadow-3xl hover:scale-105 transition-all duration-300 group">
+            <!-- Decorative Element -->
+            <div class="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full opacity-20 group-hover:opacity-30 transition-opacity"></div>
+            
+            <div class="relative z-10">
+              <div class="flex items-center mb-6">
+                <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mr-4 shadow-lg">
+                  <Building2 className="w-8 h-8 text-white" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900">{t('pricing.audienceSection.enterprise.title')}</h3>
+                  <p class="text-blue-600 font-medium">{t('pricing.audienceSection.enterprise.subtitle')}</p>
+                </div>
+              </div>
+              
+              <div class="space-y-5">
+                <div class="bg-white/70 rounded-xl p-4 shadow-sm">
+                  <div class="flex items-start space-x-3">
+                    <div class="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Check className="w-4 h-4 text-white" />
+                    </div>
+                    <div>
+                      <p class="font-bold text-gray-900">{t('pricing.audienceSection.enterprise.seachatPremium.title')}</p>
+                      <p class="text-sm text-gray-700">{t('pricing.audienceSection.enterprise.seachatPremium.description')}</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="bg-white/70 rounded-xl p-4 shadow-sm">
+                  <div class="flex items-start space-x-3">
+                    <div class="w-6 h-6 bg-indigo-500 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Check className="w-4 h-4 text-white" />
+                    </div>
+                    <div>
+                      <p class="font-bold text-gray-900">{t('pricing.audienceSection.enterprise.seaxProfessional.title')}</p>
+                      <p class="text-sm text-gray-700">{t('pricing.audienceSection.enterprise.seaxProfessional.description')}</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="bg-white/70 rounded-xl p-4 shadow-sm">
+                  <div class="flex items-start space-x-3">
+                    <div class="w-6 h-6 bg-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Check className="w-4 h-4 text-white" />
+                    </div>
+                    <div>
+                      <p class="font-bold text-gray-900">{t('pricing.audienceSection.enterprise.customEnterprise.title')}</p>
+                      <p class="text-sm text-gray-700">{t('pricing.audienceSection.enterprise.customEnterprise.description')}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mt-6 pt-4 border-t border-blue-200">
+                <p class="text-center font-semibold text-blue-700">{t('pricing.audienceSection.enterprise.footer')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- New Plan Structure -->
+    <div class="mb-16 sm:mb-20">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">{t('pricing.plans.title')}</h2>
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+          {t('pricing.plans.description')}
+        </p>
+      </div>
+      
+      <!-- 4 Main Plans - ULTRA BOLD DISTINCTIONS -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 max-w-7xl mx-auto mb-12">
+        <!-- Live Agent - SeaChat Free -->
+        <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-orange-300 hover:shadow-2xl transition-all transform hover:scale-105 relative overflow-visible">
+          <!-- Bold Visual Indicator -->
+          <div class="absolute top-0 left-0 w-full h-3 bg-gradient-to-r from-orange-400 to-orange-600"></div>
+          <div class="absolute -top-3 -right-3 bg-orange-500 text-white px-4 py-2 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap">
+            {t('pricing.plans.liveAgent.tagline')}
+          </div>
+          
+          <div class="text-center mb-4 mt-2">
+            <div class="w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-orange-100 to-orange-200 rounded-full flex items-center justify-center">
+              <MessageSquare className="w-8 h-8 text-orange-600" />
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">{t('pricing.plans.liveAgent.name')}</h3>
+            <div class="text-4xl font-black text-orange-600 mb-1">{t('pricing.plans.liveAgent.price')}</div>
+            <p class="text-sm font-bold text-orange-700 mb-3 uppercase tracking-wide">{t('pricing.plans.liveAgent.period')}</p>
+          </div>
+          
+          <!-- MEGA HIGHLIGHT BOX -->
+          <div class="bg-orange-50 border-2 border-orange-200 rounded-lg p-3 mb-4">
+            <p class="text-center font-black text-orange-800 text-sm uppercase tracking-wide">
+              {t('pricing.plans.liveAgent.highlight')}
+            </p>
+            <p class="text-center text-xs text-orange-700 mt-1">
+              {t('pricing.plans.liveAgent.channels')}
+            </p>
+          </div>
+          
+          <div class="space-y-2 mb-6">
+            <div class="bg-orange-50 rounded p-2 flex items-start space-x-2">
+              <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs font-semibold text-orange-800">{t('pricing.plans.liveAgent.feature1')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.liveAgent.feature2')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.liveAgent.feature3')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-orange-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.liveAgent.feature4')}</span>
+            </div>
+          </div>
+          <a 
+            href="https://chat.seasalt.ai/signup"
+            class="block bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white px-4 py-3 rounded-lg font-bold transition-all text-center text-sm shadow-lg transform hover:scale-105 mb-2"
+          >
+            {t('pricing.plans.liveAgent.cta')}
+          </a>
+          <p class="text-center text-xs text-gray-500">{t('pricing.plans.liveAgent.poweredBy')}</p>
+        </div>
+        
+        <!-- WhatsApp Only - SeaX -->
+        <div class="bg-white rounded-2xl p-6 shadow-lg border-2 border-emerald-300 hover:shadow-2xl transition-all transform hover:scale-105 relative overflow-visible">
+          <!-- Bold Visual Indicator -->
+          <div class="absolute top-0 left-0 w-full h-3 bg-gradient-to-r from-emerald-400 to-green-500"></div>
+          <div class="absolute -top-3 -right-3 bg-emerald-500 text-white px-4 py-2 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap">
+            {t('pricing.plans.whatsappOnly.tagline')}
+          </div>
+          
+          <div class="text-center mb-4 mt-2">
+            <div class="w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-full flex items-center justify-center">
+              <Phone className="w-8 h-8 text-emerald-600" />
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">{t('pricing.plans.whatsappOnly.name')}</h3>
+            <div class="text-4xl font-black text-emerald-600 mb-1">{t('pricing.plans.whatsappOnly.price')}</div>
+            <p class="text-sm font-bold text-emerald-700 mb-3 uppercase tracking-wide">{t('pricing.plans.whatsappOnly.period')}</p>
+          </div>
+          
+          <!-- MEGA HIGHLIGHT BOX -->
+          <div class="bg-emerald-50 border-2 border-emerald-200 rounded-lg p-3 mb-4">
+            <p class="text-center font-black text-emerald-800 text-sm uppercase tracking-wide">
+              {t('pricing.plans.whatsappOnly.highlight')}
+            </p>
+            <p class="text-center text-xs text-emerald-700 mt-1">
+              {t('pricing.plans.whatsappOnly.channels')}
+            </p>
+          </div>
+          
+          <div class="space-y-2 mb-6">
+            <div class="bg-emerald-50 rounded p-2 flex items-start space-x-2">
+              <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs font-semibold text-emerald-800">{t('pricing.plans.whatsappOnly.feature1')}</span>
+            </div>
+            <div class="bg-emerald-50 rounded p-2 flex items-start space-x-2">
+              <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs font-semibold text-emerald-800">{t('pricing.plans.whatsappOnly.feature2')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.whatsappOnly.feature3')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-emerald-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.whatsappOnly.feature4')}</span>
+            </div>
+          </div>
+          <a 
+            href="https://seax.seasalt.ai/signup"
+            class="block bg-gradient-to-r from-emerald-600 to-emerald-700 hover:from-emerald-700 hover:to-emerald-800 text-white px-4 py-3 rounded-lg font-bold transition-all text-center text-sm shadow-lg transform hover:scale-105 mb-2"
+          >
+            {t('pricing.plans.whatsappOnly.cta')}
+          </a>
+          <p class="text-center text-xs text-gray-500">{t('pricing.plans.whatsappOnly.poweredBy')}</p>
+        </div>
+        
+        <!-- Omnichannel - SeaX -->
+        <div class="bg-white rounded-2xl p-6 shadow-xl border-4 border-blue-400 hover:shadow-2xl transition-all transform hover:scale-105 relative overflow-visible pt-12">
+          <!-- ULTRA Bold Visual Indicators -->
+          <div class="absolute top-0 left-0 w-full h-4 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 animate-pulse"></div>
+          <div class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 z-10">
+            <span class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-full text-xs font-black flex items-center shadow-2xl">
+              <Star className="w-4 h-4 mr-1 animate-spin" />
+              {t('pricing.plans.omnichannel.popular')}
+            </span>
+          </div>
+          <div class="absolute -top-4 -right-4 bg-blue-500 text-white px-4 py-3 rounded-full text-xs font-bold transform rotate-12 shadow-lg whitespace-nowrap z-20">
+            {t('pricing.plans.omnichannel.tagline')}
+          </div>
+          
+          <div class="text-center mb-4 mt-4">
+            <div class="w-16 h-16 mx-auto mb-3 bg-gradient-to-br from-blue-100 to-purple-200 rounded-full flex items-center justify-center">
+              <Building2 className="w-8 h-8 text-blue-600" />
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">{t('pricing.plans.omnichannel.name')}</h3>
+            <div class="flex justify-center items-center space-x-2 mb-1">
+              <div>
+                <div class="text-3xl font-black text-blue-600">{t('pricing.plans.omnichannel.firstUserPrice')}</div>
+                <div class="text-xs font-bold text-blue-700">{t('pricing.plans.omnichannel.firstUserLabel')}</div>
+              </div>
+              <div class="text-blue-400 font-black text-2xl">+</div>
+              <div>
+                <div class="text-3xl font-black text-blue-600">{t('pricing.plans.omnichannel.additionalUserPrice')}</div>
+                <div class="text-xs font-bold text-blue-700">{t('pricing.plans.omnichannel.additionalUserLabel')}</div>
+              </div>
+            </div>
+            <p class="text-sm font-bold text-blue-700 mb-3 uppercase tracking-wide">{t('pricing.plans.omnichannel.period')}</p>
+          </div>
+          
+          <!-- MEGA HIGHLIGHT BOX -->
+          <div class="bg-gradient-to-r from-blue-50 to-purple-50 border-2 border-blue-300 rounded-lg p-3 mb-4">
+            <p class="text-center font-black text-blue-800 text-sm uppercase tracking-wide">
+              {t('pricing.plans.omnichannel.highlight')}
+            </p>
+            <p class="text-center text-xs text-blue-700 mt-1 font-semibold">
+              {t('pricing.plans.omnichannel.subHighlight')}
+            </p>
+          </div>
+          
+          <div class="space-y-2 mb-6">
+            <div class="bg-blue-50 rounded p-2 flex items-start space-x-2 border border-blue-200">
+              <Phone className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs font-black text-blue-800">{t('pricing.plans.omnichannel.feature1')}</span>
+            </div>
+            <div class="bg-blue-50 rounded p-2 flex items-start space-x-2 border border-blue-200">
+              <Users className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs font-black text-blue-800">{t('pricing.plans.omnichannel.feature2')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.omnichannel.feature3')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-blue-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.omnichannel.feature4')}</span>
+            </div>
+          </div>
+          <a 
+            href="https://SeaX.seasalt.ai/signup"
+            class="block bg-gradient-to-r from-blue-600 via-purple-600 to-blue-700 hover:from-blue-700 hover:via-purple-700 hover:to-blue-800 text-white px-4 py-3 rounded-lg font-black transition-all text-center text-sm shadow-2xl transform hover:scale-105 uppercase mb-2"
+          >
+            {t('pricing.plans.omnichannel.cta')}
+          </a>
+          <p class="text-center text-xs text-gray-500">{t('pricing.plans.omnichannel.poweredBy')}</p>
+        </div>
+        
+        <!-- Custom - Enterprise -->
+        <div class="bg-white rounded-2xl p-6 shadow-lg border border-gray-300 hover:shadow-xl transition-all">
+          <div class="text-center mb-4">
+            <div class="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-full flex items-center justify-center">
+              <Building2 className="w-8 h-8 text-gray-600" />
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">{t('pricing.plans.custom.name')}</h3>
+            <p class="text-sm font-semibold text-gray-500 mb-4 uppercase tracking-wide">{t('pricing.plans.custom.period')}</p>
+          </div>
+          <div class="space-y-2 mb-6">
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.custom.feature1')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.custom.feature2')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.custom.feature3')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.custom.feature4')}</span>
+            </div>
+            <div class="flex items-start space-x-2">
+              <Check className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+              <span class="text-xs text-gray-700">{t('pricing.plans.custom.feature5')}</span>
+            </div>
+          </div>
+          <a 
+            href={meetingUrl}
+            class="block bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors text-center text-sm"
+          >
+            {t('pricing.plans.custom.cta')}
+          </a>
+        </div>
+      </div>
+      
+      <!-- AI Add-ons with Combo Pricing -->
+      <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8">
+        <div class="text-center mb-8">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">{t('pricing.aiAddons.title')}</h3>
+          <p class="text-lg text-gray-600">
+            {t('pricing.aiAddons.description')}
+          </p>
+        </div>
+        
+        <div class="flex flex-col lg:flex-row items-center justify-center gap-8 max-w-4xl mx-auto">
+          <!-- Chat AI with SeaChat -->
+          <div class="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center flex-1 max-w-xs">
+            <MessageSquare className="w-8 h-8 text-green-600 mx-auto mb-3" />
+            <h4 class="text-lg font-semibold text-gray-800 mb-2">{t('pricing.aiAddons.chatAI.title')}</h4>
+            <div class="text-2xl font-bold text-green-600 mb-2">{t('pricing.aiAddons.chatAI.price')}</div>
+            <p class="text-sm text-gray-600">{t('pricing.aiAddons.chatAI.period')}</p>
+          </div>
+          
+          <!-- Plus Sign -->
+          <div class="text-2xl font-bold text-gray-400">+</div>
+          
+          <!-- Voice AI with SeaVoice -->
+          <div class="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center flex-1 max-w-xs">
+            <Phone className="w-8 h-8 text-blue-600 mx-auto mb-3" />
+            <h4 class="text-lg font-semibold text-gray-800 mb-2">{t('pricing.aiAddons.voiceAI.title')}</h4>
+            <div class="text-2xl font-bold text-blue-600 mb-2">{t('pricing.aiAddons.voiceAI.price')}</div>
+            <p class="text-sm text-gray-600">{t('pricing.aiAddons.voiceAI.period')}</p>
+          </div>
+          
+          <!-- Equals Sign -->
+          <div class="text-2xl font-bold text-gray-400">=</div>
+          
+          <!-- Combo Price -->
+          <div class="bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-xl p-6 shadow-lg text-center flex-1 max-w-xs">
+            <Sparkles className="w-8 h-8 text-white mx-auto mb-3" />
+            <h4 class="text-lg font-semibold mb-2">{t('pricing.aiAddons.combo.title')}</h4>
+            <div class="text-2xl font-bold mb-2">{t('pricing.aiAddons.combo.price')}</div>
+            <p class="text-sm opacity-90">{t('pricing.aiAddons.combo.period')}</p>
+          </div>
+        </div>
+        
+        <div class="text-center mt-6">
+          <p class="text-lg font-semibold text-gray-700">
+            {t('pricing.aiAddons.combo.benefit')}
+          </p>
+        </div>
+      </div>
+      
+      <!-- Transparent AI Pricing -->
+      <div class="bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl p-8 mb-12">
+        <div class="text-center mb-8">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">{t('pricing.transparentAI.title')}</h3>
+          <p class="text-lg text-gray-600">
+            {t('pricing.transparentAI.description')}
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <!-- Chat AI -->
+          <div class="bg-white rounded-xl shadow-md p-6 text-center">
+            <MessageSquare className="w-12 h-12 text-green-600 mx-auto mb-4" />
+            <h4 class="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAI.chatAI.title')}</h4>
+            <div class="text-3xl font-bold text-green-600 mb-2">{t('pricing.transparentAI.chatAI.price')}</div>
+            <p class="text-sm text-gray-600 mb-4">{t('pricing.transparentAI.chatAI.period')}</p>
+            <ul class="text-sm text-gray-700 space-y-1">
+              <li>• {t('pricing.transparentAI.chatAI.feature1')}</li>
+              <li>• {t('pricing.transparentAI.chatAI.feature2')}</li>
+              <li>• {t('pricing.transparentAI.chatAI.feature3')}</li>
+            </ul>
+          </div>
+          
+          <!-- Voice AI -->
+          <div class="bg-white rounded-xl shadow-md p-6 text-center">
+            <Phone className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+            <h4 class="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAI.voiceAI.title')}</h4>
+            <div class="text-3xl font-bold text-blue-600 mb-2">{t('pricing.transparentAI.voiceAI.price')}</div>
+            <p class="text-sm text-gray-600 mb-4">{t('pricing.transparentAI.voiceAI.period')}</p>
+            <ul class="text-sm text-gray-700 space-y-1">
+              <li>• {t('pricing.transparentAI.voiceAI.feature1')}</li>
+              <li>• {t('pricing.transparentAI.voiceAI.feature2')}</li>
+              <li>• {t('pricing.transparentAI.voiceAI.feature3')}</li>
+            </ul>
+          </div>
+          
+          <!-- Premium AI -->
+          <div class="bg-white rounded-xl shadow-md p-6 text-center">
+            <Sparkles className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+            <h4 class="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentAI.premiumAI.title')}</h4>
+            <div class="text-3xl font-bold text-purple-600 mb-2">{t('pricing.transparentAI.premiumAI.price')}</div>
+            <p class="text-sm text-gray-600 mb-4">{t('pricing.transparentAI.premiumAI.period')}</p>
+            <ul class="text-sm text-gray-700 space-y-1">
+              <li>• {t('pricing.transparentAI.premiumAI.feature1')}</li>
+              <li>• {t('pricing.transparentAI.premiumAI.feature2')}</li>
+              <li>• {t('pricing.transparentAI.premiumAI.feature3')}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Transparent Communication Pricing -->
+      <div class="bg-white rounded-2xl p-8 shadow-lg mb-12">
+        <div class="text-center mb-8">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">{t('pricing.transparentCommunication.title')}</h3>
+          <p class="text-lg text-gray-600">
+            {t('pricing.transparentCommunication.description')}
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <!-- SMS -->
+          <div class="bg-blue-50 rounded-xl p-6 text-center border border-blue-200">
+            <MessageSquare className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+            <h4 class="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunication.sms.title')}</h4>
+            <div class="text-3xl font-bold text-blue-600 mb-2">{t('pricing.transparentCommunication.sms.price')}</div>
+            <p class="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunication.sms.period')}</p>
+            <p class="text-sm text-gray-600">{t('pricing.transparentCommunication.sms.description')}</p>
+          </div>
+          
+          <!-- Voice Calls -->
+          <div class="bg-green-50 rounded-xl p-6 text-center border border-green-200">
+            <Phone className="w-12 h-12 text-green-600 mx-auto mb-4" />
+            <h4 class="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunication.voiceCalls.title')}</h4>
+            <div class="text-3xl font-bold text-green-600 mb-2">{t('pricing.transparentCommunication.voiceCalls.price')}</div>
+            <p class="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunication.voiceCalls.period')}</p>
+            <p class="text-sm text-gray-600">{t('pricing.transparentCommunication.voiceCalls.description')}</p>
+          </div>
+          
+          <!-- WhatsApp Business -->
+          <div class="bg-emerald-50 rounded-xl p-6 text-center border border-emerald-200">
+            <Users className="w-12 h-12 text-emerald-600 mx-auto mb-4" />
+            <h4 class="text-xl font-bold text-gray-900 mb-2">{t('pricing.transparentCommunication.whatsapp.title')}</h4>
+            <div class="text-3xl font-bold text-emerald-600 mb-2">{t('pricing.transparentCommunication.whatsapp.price')}</div>
+            <p class="text-sm text-gray-600 mb-4">{t('pricing.transparentCommunication.whatsapp.period')}</p>
+            <p class="text-sm text-gray-600">{t('pricing.transparentCommunication.whatsapp.description')}</p>
+          </div>
+        </div>
+        
+        <div class="mt-8 text-center">
+          <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+            {t('pricing.transparentCommunication.otherChannels')}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Master Competitor Comparison Table -->
+    <div class="mb-16 sm:mb-20">
+      <div class="text-center mb-12">
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('pricing.comparison.title')}
+        </h2>
+        <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('pricing.comparison.description')}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-6">
+        <div class="overflow-x-auto">
+          <table class="w-full min-w-[800px]">
+            <thead class="bg-gray-50 text-left">
+              <tr>
+                <th class="px-4 sm:px-6 py-3 sm:py-4 text-left text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.competitor')}</th>
+                <th class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.startingPrice')}</th>
+                <th class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.pricingModel')}</th>
+                <th class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.unifiedVoiceDigital')}</th>
+                <th class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.aiCapabilities')}</th>
+                <th class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm font-semibold text-gray-900">{t('pricing.comparison.table.bestFor')}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              <!-- Seasalt.ai -->
+              <tr class="bg-blue-50 border-2 border-blue-200">
+                <td class="px-4 sm:px-6 py-3 sm:py-4">
+                  <div class="flex items-center flex-wrap gap-2">
+                    <div class="flex-shrink-0">
+                      <span class="text-xs sm:text-sm font-semibold break-words hyphens-auto text-blue-900">
+                        {t('pricing.comparison.seasalt.name')}
+                      </span>
+                    </div>
+                    <span class="px-1.5 sm:px-2 py-0.5 sm:py-1 bg-blue-600 text-white text-xs rounded-full whitespace-nowrap flex-shrink-0">
+                      {t('pricing.comparison.seasalt.recommended')}
+                    </span>
+                  </div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.seasalt.startingPrice')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.seasalt.pricingModel')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.seasalt.unifiedVoiceDigital')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.seasalt.aiCapabilities')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto leading-tight">{t('pricing.comparison.seasalt.bestFor')}</div>
+                </td>
+              </tr>
+              
+              <!-- Aircall -->
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 sm:px-6 py-3 sm:py-4">
+                  <div class="flex items-center flex-wrap gap-2">
+                    <div class="flex-shrink-0">
+                      <a 
+                        href={`/${currentLang}/compare/aircall-alternative`}
+                        class="text-xs sm:text-sm font-semibold hover:underline break-words hyphens-auto text-blue-600 hover:text-blue-800"
+                      >
+                        {t('pricing.comparison.aircall.name')}
+                      </a>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.aircall.startingPrice')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.aircall.pricingModel')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.aircall.unifiedVoiceDigital')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.aircall.aiCapabilities')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto leading-tight">{t('pricing.comparison.aircall.bestFor')}</div>
+                </td>
+              </tr>
+              
+              <!-- 其他競爭對手 -->
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 sm:px-6 py-3 sm:py-4">
+                  <div class="flex items-center flex-wrap gap-2">
+                    <div class="flex-shrink-0">
+                      <a 
+                        href={`/${currentLang}/compare/ringcentral-alternative`}
+                        class="text-xs sm:text-sm font-semibold hover:underline break-words hyphens-auto text-blue-600 hover:text-blue-800"
+                      >
+                        {t('pricing.comparison.ringcentral.name')}
+                      </a>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.ringcentral.startingPrice')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.ringcentral.pricingModel')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.ringcentral.unifiedVoiceDigital')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.ringcentral.aiCapabilities')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto leading-tight">{t('pricing.comparison.ringcentral.bestFor')}</div>
+                </td>
+              </tr>
+              
+              <!-- Genesys -->
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 sm:px-6 py-3 sm:py-4">
+                  <div class="flex items-center flex-wrap gap-2">
+                    <div class="flex-shrink-0">
+                      <a 
+                        href={`/${currentLang}/compare/genesys-alternative`}
+                        class="text-xs sm:text-sm font-semibold hover:underline break-words hyphens-auto text-blue-600 hover:text-blue-800"
+                      >
+                        {t('pricing.comparison.genesys.name')}
+                      </a>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.genesys.startingPrice')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.genesys.pricingModel')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.genesys.unifiedVoiceDigital')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.genesys.aiCapabilities')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto leading-tight">{t('pricing.comparison.genesys.bestFor')}</div>
+                </td>
+              </tr>
+              
+              <!-- Five9 -->
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 sm:px-6 py-3 sm:py-4">
+                  <div class="flex items-center flex-wrap gap-2">
+                    <div class="flex-shrink-0">
+                      <a 
+                        href={`/${currentLang}/compare/five9-alternative`}
+                        class="text-xs sm:text-sm font-semibold hover:underline break-words hyphens-auto text-blue-600 hover:text-blue-800"
+                      >
+                        {t('pricing.comparison.five9.name')}
+                      </a>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.five9.startingPrice')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.five9.pricingModel')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.five9.unifiedVoiceDigital')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.five9.aiCapabilities')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto leading-tight">{t('pricing.comparison.five9.bestFor')}</div>
+                </td>
+              </tr>
+              
+              <!-- Google Voice -->
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 sm:px-6 py-3 sm:py-4">
+                  <div class="flex items-center flex-wrap gap-2">
+                    <div class="flex-shrink-0">
+                      <a 
+                        href={`/${currentLang}/compare/google-voice-alternative`}
+                        class="text-xs sm:text-sm font-semibold hover:underline break-words hyphens-auto text-blue-600 hover:text-blue-800"
+                      >
+                        {t('pricing.comparison.googleVoice.name')}
+                      </a>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.googleVoice.startingPrice')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.googleVoice.pricingModel')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.googleVoice.unifiedVoiceDigital')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.googleVoice.aiCapabilities')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto leading-tight">{t('pricing.comparison.googleVoice.bestFor')}</div>
+                </td>
+              </tr>
+              
+              <!-- Respond.io -->
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 sm:px-6 py-3 sm:py-4">
+                  <div class="flex items-center flex-wrap gap-2">
+                    <div class="flex-shrink-0">
+                      <a 
+                        href={`/${currentLang}/compare/respond-io-alternative`}
+                        class="text-xs sm:text-sm font-semibold hover:underline break-words hyphens-auto text-blue-600 hover:text-blue-800"
+                      >
+                        {t('pricing.comparison.respondIo.name')}
+                      </a>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.respondIo.startingPrice')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.respondIo.pricingModel')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.respondIo.unifiedVoiceDigital')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.respondIo.aiCapabilities')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto leading-tight">{t('pricing.comparison.respondIo.bestFor')}</div>
+                </td>
+              </tr>
+              
+              <!-- Intercom -->
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 sm:px-6 py-3 sm:py-4">
+                  <div class="flex items-center flex-wrap gap-2">
+                    <div class="flex-shrink-0">
+                      <a 
+                        href={`/${currentLang}/compare/intercom-alternative`}
+                        class="text-xs sm:text-sm font-semibold hover:underline break-words hyphens-auto text-blue-600 hover:text-blue-800"
+                      >
+                        {t('pricing.comparison.intercom.name')}
+                      </a>
+                    </div>
+                  </div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.intercom.startingPrice')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.intercom.pricingModel')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.intercom.unifiedVoiceDigital')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto">{t('pricing.comparison.intercom.aiCapabilities')}</div>
+                </td>
+                <td class="px-4 sm:px-6 py-3 sm:py-4 text-center text-xs sm:text-sm text-gray-700">
+                  <div class="break-words hyphens-auto leading-tight">{t('pricing.comparison.intercom.bestFor')}</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Section with React Component for Interactivity -->
+    <div class="mb-16 sm:mb-20">
+      <h3 class="text-xl sm:text-2xl font-bold text-gray-900 text-center mb-8 sm:mb-12">
+        {t('pricing.faq.title')}
+      </h3>
+      <!-- React 組件處理 FAQ 互動 -->
+      <PricingFAQ lang={currentLang} client:load translations={translations} />
+    </div>
+
+    <!-- Dramatic Final CTA Section -->
+    <section class="relative py-20 bg-gradient-to-br from-blue-600 via-purple-700 to-indigo-800 overflow-hidden">
+      <!-- Animated Background Elements -->
+      <div class="absolute inset-0">
+        <div class="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full animate-pulse"></div>
+        <div class="absolute bottom-10 right-10 w-24 h-24 bg-white/10 rounded-full animate-bounce delay-1000"></div>
+        <div class="absolute top-1/2 left-1/4 w-16 h-16 bg-white/10 rounded-full animate-pulse delay-500"></div>
+      </div>
+      
+      <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <!-- Main Heading -->
+        <div class="mb-8">
+          <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-4 leading-tight">
+            {t('pricing.cta.title')}
+            <span class="block bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent">
+              {t('pricing.cta.titleGradient')}
+            </span>
+          </h2>
+          <p class="text-xl sm:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
+            {t('pricing.cta.description')}
+          </p>
+        </div>
+        
+        <!-- Stats Row -->
+        <div class="grid grid-cols-3 gap-8 mb-12 max-w-2xl mx-auto">
+          <div class="text-center">
+            <div class="text-3xl sm:text-4xl font-black text-white mb-2">{t('pricing.cta.stats.customers')}</div>
+            <div class="text-sm text-blue-200">{t('pricing.cta.stats.customersLabel')}</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl sm:text-4xl font-black text-white mb-2">{t('pricing.cta.stats.uptime')}</div>
+            <div class="text-sm text-blue-200">{t('pricing.cta.stats.uptimeLabel')}</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl sm:text-4xl font-black text-white mb-2">{t('pricing.cta.stats.support')}</div>
+            <div class="text-sm text-blue-200">{t('pricing.cta.stats.supportLabel')}</div>
+          </div>
+        </div>
+        
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+          <a
+            href="https://seax.seasalt.ai/signup"
+            class="group relative inline-flex items-center justify-center px-8 py-4 text-xl font-black text-blue-900 bg-gradient-to-r from-yellow-300 via-orange-400 to-yellow-300 rounded-2xl shadow-2xl hover:shadow-yellow-300/50 transform hover:scale-110 transition-all duration-300 animate-pulse hover:animate-none"
+          >
+            <span class="relative z-10 flex items-center">
+              {t('pricing.cta.primary')}
+              <Star className="w-6 h-6 ml-2 animate-spin" />
+            </span>
+            <div class="absolute inset-0 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          </a>
+          
+          <a
+            href={meetingUrl}
+            class="inline-flex items-center px-6 py-3 text-lg font-semibold text-white border-2 border-white rounded-xl hover:bg-white hover:text-blue-900 transition-all duration-300 transform hover:scale-105"
+          >
+            {t('pricing.cta.secondary')}
+          </a>
+        </div>
+        
+        <!-- Trust Badges -->
+        <div class="flex flex-wrap justify-center items-center gap-6 text-blue-200 text-sm">
+          <div class="flex items-center gap-2">
+            <Check className="w-5 h-5 text-green-400" />
+            <span>{t('pricing.cta.trustBadge1')}</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <Check className="w-5 h-5 text-green-400" />
+            <span>{t('pricing.cta.trustBadge2')}</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <Check className="w-5 h-5 text-green-400" />
+            <span>{t('pricing.cta.trustBadge3')}</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <Check className="w-5 h-5 text-green-400" />
+            <span>{t('pricing.cta.trustBadge4')}</span>
+          </div>
+        </div>
+        
+        <!-- Urgency Message -->
+        <div class="mt-8 p-4 bg-white/10 backdrop-blur rounded-xl border border-white/20">
+          <p class="text-white font-semibold">
+            {t('pricing.cta.urgency')}
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

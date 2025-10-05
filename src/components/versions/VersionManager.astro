@@ -1,0 +1,72 @@
+---
+import type { ComponentVersion } from './config.ts';
+import { getVersionConfig, detectVersionFromPath, DEFAULT_VERSION } from './config.ts';
+import { extractLangFromPath } from '../../i18n/helpers.ts';
+
+// Component props
+export interface Props {
+  type: 'header' | 'footer';
+  version?: ComponentVersion;
+  currentPath?: string;
+}
+
+const { type, version, currentPath = '/' } = Astro.props;
+const currentLang = extractLangFromPath(Astro.url.pathname);
+
+// Determine which version to use
+const componentVersion = version || detectVersionFromPath(Astro.url.pathname);
+const versionConfig = getVersionConfig(componentVersion);
+
+// Dynamic component import based on version and type
+let Component;
+
+if (type === 'header') {
+  switch (componentVersion) {
+    case 'seachat':
+      Component = (await import('./headers/SeaChatHeader.astro')).default;
+      break;
+    case 'seax':
+      Component = (await import('./headers/SeaXHeader.astro')).default;
+      break;
+    case 'seavoice':
+      Component = (await import('./headers/SeaVoiceHeader.astro')).default;
+      break;
+    case 'default':
+    default:
+      Component = (await import('./headers/DefaultHeader.astro')).default;
+      break;
+  }
+} else if (type === 'footer') {
+  switch (componentVersion) {
+    case 'seachat':
+      Component = (await import('./footers/SeaChatFooter.astro')).default;
+      break;
+    case 'seax':
+      Component = (await import('./footers/SeaXFooter.astro')).default;
+      break;
+    case 'seavoice':
+      Component = (await import('./footers/SeaVoiceFooter.astro')).default;
+      break;
+    case 'default':
+    default:
+      Component = (await import('./footers/DefaultFooter.astro')).default;
+      break;
+  }
+}
+---
+
+{Component && (
+  <Component 
+    currentPath={currentPath} 
+    lang={currentLang}
+    versionConfig={versionConfig}
+    {...Astro.props}
+  />
+)}
+
+<!-- Development version indicator (only in dev mode) -->
+{import.meta.env.DEV && (
+  <!-- <div class="fixed bottom-4 right-4 z-50 bg-black bg-opacity-75 text-white px-3 py-2 rounded text-xs font-mono">
+    {type}: {componentVersion}
+  </div> -->
+)}

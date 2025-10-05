@@ -1,0 +1,176 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+import ConnectionTypesSection from '../../../../components/react/seavoice/voip-sip-byoc/ConnectionTypesSection';
+import BenefitsSection from '../../../../components/react/seavoice/voip-sip-byoc/BenefitsSection';
+import TechnicalSpecsSection from '../../../../components/react/seavoice/voip-sip-byoc/TechnicalSpecsSection';
+import HowItWorksSection from '../../../../components/react/seavoice/voip-sip-byoc/HowItWorksSection';
+
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// SEO 資料
+const seoData = {
+  title: t('seavoice.platform.voipSipByoc.hero.title'),
+  description: t('seavoice.platform.voipSipByoc.hero.subtitle'),
+  canonical: `https://seasalt.ai/${currentLang}/seavoice/platform/voip-sip-byoc`,
+  keywords: 'VoIP, SIP, BYOC, Voice Solutions, Enterprise Voice, SIP Trunking, Voice Connectivity',
+  lang: currentLang,
+  type: 'service' as const,
+  service: {
+    serviceType: 'Voice Communication Platform',
+    provider: 'Seasalt.ai',
+    areaServed: 'Worldwide',
+    offers: [
+      {
+        name: 'VoIP Integration',
+        description: 'Connect your existing VoIP infrastructure seamlessly',
+        price: '0.08',
+        priceCurrency: 'USD',
+        priceSpecification: {
+          price: '0.08',
+          priceCurrency: 'USD',
+          unitCode: 'MIN'
+        }
+      },
+      {
+        name: 'SIP Trunking',
+        description: 'Direct SIP connectivity for maximum control',
+        price: '0.06',
+        priceCurrency: 'USD',
+        priceSpecification: {
+          price: '0.06',
+          priceCurrency: 'USD',
+          unitCode: 'MIN'
+        }
+      }
+    ]
+  }
+};
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform', url: `/${currentLang}/seavoice/platform/` },
+  { name: 'VoIP, SIP & BYOC' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.platform.voipSipByoc.faq.q1') || 'Can we bring our own carrier (BYOC)?',
+    answer: t('seavoice.platform.voipSipByoc.faq.a1') || 'Yes. We support BYOC with SIP trunking and interop guides for major carriers.'
+  },
+  {
+    question: t('seavoice.platform.voipSipByoc.faq.q2') || 'Do you support mixed environments?',
+    answer: t('seavoice.platform.voipSipByoc.faq.a2') || 'Yes. You can combine VoIP, SIP trunks, and PSTN connectivity in one deployment.'
+  }
+];
+---
+
+<Layout
+  title={seoData.title}
+  description={seoData.description}
+  canonical={seoData.canonical}
+  keywords={seoData.keywords}
+  lang={seoData.lang}
+  type={seoData.type}
+  service={seoData.service}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+>
+  <div class="min-h-screen bg-white">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-blue-50 via-white to-teal-50 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"></path>
+            </svg>
+          </div>
+          <h1 class="text-5xl font-bold text-gray-900 mb-6">
+            {t('seavoice.platform.voipSipByoc.hero.title')}
+          </h1>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            {t('seavoice.platform.voipSipByoc.hero.subtitle')}
+          </p>
+          <a
+            href="https://cal.com/seasalt-ai/15min"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+          >
+            {t('seavoice.platform.voipSipByoc.hero.cta')}
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connection Types Section -->
+    <ConnectionTypesSection 
+      client:load
+      lang={currentLang} 
+      translations={translations}
+    />
+
+    <!-- Benefits Section -->
+    <BenefitsSection 
+      client:load
+      lang={currentLang}
+      translations={translations}
+    />
+
+    <!-- Technical Specs Section -->
+    <TechnicalSpecsSection 
+      client:load
+      lang={currentLang}
+      translations={translations}
+    />
+
+    <!-- How It Works Section -->
+    <HowItWorksSection 
+      client:load
+      lang={currentLang}
+      translations={translations}
+    />
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold mb-6">{t('seavoice.platform.voipSipByoc.cta.title')}</h2>
+        <p class="text-xl mb-8 opacity-90">
+          {t('seavoice.platform.voipSipByoc.cta.subtitle')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://cal.com/seasalt-ai/15min"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+          >
+            {t('seavoice.platform.voipSipByoc.cta.scheduleConsultation')}
+          </a>
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
+          >
+            {t('seavoice.platform.voipSipByoc.cta.signUpForFree')}
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

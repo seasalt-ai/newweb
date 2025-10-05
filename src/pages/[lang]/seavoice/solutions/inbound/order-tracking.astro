@@ -1,0 +1,369 @@
+---
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
+import Layout from '../../../../../layouts/Layout.astro';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// Extract language from params and validate it
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translation helpers
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO data using the same translation structure as original OrderTrackingPage.tsx
+const seoTitle = t('seavoice.pages.solutions.inbound.orderTracking.hero.title') || 'Order Tracking & Status Updates - AI Voice Solutions | SeaVoice';
+const seoDescription = t('seavoice.pages.solutions.inbound.orderTracking.hero.subtitle') || 'Provide real-time order updates and shipping information through AI-powered voice interactions. Keep customers informed automatically.';
+const seoKeywords = 'order tracking, delivery updates, shipping status, voice automation, SeaVoice, order management, customer service';
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Inbound', url: `/${currentLang}/seavoice/solutions/inbound/` },
+  { name: t('seavoice.pages.solutions.inbound.orderTracking.breadcrumb') || 'Order Tracking' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.inbound.orderTracking.faq.q1') || 'Which carriers do you integrate with?',
+    answer: t('seavoice.pages.solutions.inbound.orderTracking.faq.a1') || 'We integrate with major carriers like FedEx, UPS, USPS, DHL, and can support custom carriers.'
+  },
+  {
+    question: t('seavoice.pages.solutions.inbound.orderTracking.faq.q2') || 'Can customers receive proactive updates?',
+    answer: t('seavoice.pages.solutions.inbound.orderTracking.faq.a2') || 'Yes. Automated notifications for delays, delivery windows, and confirmations are supported.'
+  }
+];
+
+// Features data matching original structure
+const features = [
+  {
+    icon: 'Package',
+    title: t('seavoice.pages.solutions.inbound.orderTracking.features.realTimeStatus.title') || 'Real-Time Order Status',
+    description: t('seavoice.pages.solutions.inbound.orderTracking.features.realTimeStatus.description') || 'Instant access to current order status and delivery information',
+    benefits: [
+      t('seavoice.pages.solutions.inbound.orderTracking.features.realTimeStatus.benefits.liveTracking') || 'Live order tracking',
+      t('seavoice.pages.solutions.inbound.orderTracking.features.realTimeStatus.benefits.deliveryEstimates') || 'Accurate delivery estimates',
+      t('seavoice.pages.solutions.inbound.orderTracking.features.realTimeStatus.benefits.statusNotifications') || 'Automatic status notifications'
+    ]
+  },
+  {
+    icon: 'MapPin',
+    title: t('seavoice.pages.solutions.inbound.orderTracking.features.locationTracking.title') || 'Location Tracking',
+    description: t('seavoice.pages.solutions.inbound.orderTracking.features.locationTracking.description') || 'GPS-based location tracking for accurate delivery updates',
+    benefits: [
+      t('seavoice.pages.solutions.inbound.orderTracking.features.locationTracking.benefits.gpsTracking') || 'GPS location tracking',
+      t('seavoice.pages.solutions.inbound.orderTracking.features.locationTracking.benefits.routeOptimization') || 'Route optimization',
+      t('seavoice.pages.solutions.inbound.orderTracking.features.locationTracking.benefits.deliveryMapping') || 'Visual delivery mapping'
+    ]
+  },
+  {
+    icon: 'Clock',
+    title: t('seavoice.pages.solutions.inbound.orderTracking.features.proactiveUpdates.title') || 'Proactive Updates',
+    description: t('seavoice.pages.solutions.inbound.orderTracking.features.proactiveUpdates.description') || 'Automatic notifications for delays, changes, and confirmations',
+    benefits: [
+      t('seavoice.pages.solutions.inbound.orderTracking.features.proactiveUpdates.benefits.delayNotifications') || 'Delay notifications',
+      t('seavoice.pages.solutions.inbound.orderTracking.features.proactiveUpdates.benefits.scheduleChanges') || 'Schedule change alerts',
+      t('seavoice.pages.solutions.inbound.orderTracking.features.proactiveUpdates.benefits.deliveryConfirmations') || 'Delivery confirmations'
+    ]
+  }
+];
+
+// Tracking stages matching original structure
+const trackingCapabilities = [
+  {
+    stage: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.orderPlaced.title') || 'Order Placed',
+    description: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.orderPlaced.description') || 'Order confirmation and initial processing',
+    information: [
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.orderPlaced.info.orderNumber') || 'Order number confirmation',
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.orderPlaced.info.itemsOrdered') || 'Items ordered details',
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.orderPlaced.info.processingTimeline') || 'Processing timeline'
+    ]
+  },
+  {
+    stage: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.inTransit.title') || 'In Transit',
+    description: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.inTransit.description') || 'Package is on its way to the destination',
+    information: [
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.inTransit.info.currentLocation') || 'Current location',
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.inTransit.info.expectedDelivery') || 'Expected delivery time',
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.inTransit.info.carrierInformation') || 'Carrier information'
+    ]
+  },
+  {
+    stage: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.outForDelivery.title') || 'Out for Delivery',
+    description: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.outForDelivery.description') || 'Package is on the delivery vehicle',
+    information: [
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.outForDelivery.info.deliveryWindow') || 'Delivery window',
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.outForDelivery.info.driverContact') || 'Driver contact info',
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.outForDelivery.info.specialInstructions') || 'Special instructions'
+    ]
+  },
+  {
+    stage: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.delivered.title') || 'Delivered',
+    description: t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.delivered.description') || 'Package has been successfully delivered',
+    information: [
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.delivered.info.deliveryTime') || 'Delivery timestamp',
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.delivered.info.deliveryLocation') || 'Delivery location',
+      t('seavoice.pages.solutions.inbound.orderTracking.tracking.stages.delivered.info.signatureConfirmation') || 'Signature confirmation'
+    ]
+  }
+];
+
+// Benefits metrics
+const benefits = [
+  { 
+    metric: t('seavoice.pages.solutions.inbound.orderTracking.impact.callReduction.metric') || '75%', 
+    description: t('seavoice.pages.solutions.inbound.orderTracking.impact.callReduction.description') || 'Reduction in support calls' 
+  },
+  { 
+    metric: t('seavoice.pages.solutions.inbound.orderTracking.impact.satisfaction.metric') || '92%', 
+    description: t('seavoice.pages.solutions.inbound.orderTracking.impact.satisfaction.description') || 'Customer satisfaction rate' 
+  },
+  { 
+    metric: t('seavoice.pages.solutions.inbound.orderTracking.impact.availability.metric') || '24/7', 
+    description: t('seavoice.pages.solutions.inbound.orderTracking.impact.availability.description') || 'Order tracking availability' 
+  },
+  { 
+    metric: t('seavoice.pages.solutions.inbound.orderTracking.impact.workloadReduction.metric') || '60%', 
+    description: t('seavoice.pages.solutions.inbound.orderTracking.impact.workloadReduction.description') || 'Support workload reduction' 
+  }
+];
+
+// Integrations data
+const integrations = [
+  t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.fedex') || 'FedEx',
+  t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.ups') || 'UPS',
+  t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.usps') || 'USPS',
+  t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.dhl') || 'DHL',
+  t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.amazon') || 'Amazon Logistics',
+  t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.custom') || 'Custom Carriers'
+];
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-green-50 via-white to-blue-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center mb-6">
+          <svg class="w-16 h-16 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+          </svg>
+        </div>
+        <h1 class="text-5xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.inbound.orderTracking.hero.title') || 'Order Tracking & Status Updates'}
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          {t('seavoice.pages.solutions.inbound.orderTracking.hero.subtitle') || 'Provide real-time order updates and shipping information through AI-powered voice interactions. Keep customers informed automatically about their orders and deliveries.'}
+        </p>
+        <button class="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors">
+          {t('seavoice.pages.solutions.inbound.orderTracking.hero.cta') || 'Start Order Tracking'}
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.inbound.orderTracking.features.title') || 'Order Tracking Features'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.inbound.orderTracking.features.subtitle') || 'Comprehensive order tracking capabilities that keep your customers informed every step of the way'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {features.map((feature, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-gradient-to-r from-green-600 to-blue-600 rounded-lg flex items-center justify-center mb-6">
+              {feature.icon === 'Package' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+                </svg>
+              )}
+              {feature.icon === 'MapPin' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              )}
+              {feature.icon === 'Clock' && (
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              )}
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+            <div class="space-y-2">
+              {feature.benefits.map((benefit) => (
+                <div class="flex items-center">
+                  <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                  </svg>
+                  <span class="text-sm text-gray-700">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Tracking Stages -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.inbound.orderTracking.tracking.title') || 'Complete Order Journey'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.inbound.orderTracking.tracking.subtitle') || 'AI provides detailed information at every stage of the order lifecycle'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {trackingCapabilities.map((stage, index) => (
+          <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+            <div class="text-center mb-4">
+              <div class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-3 text-lg font-bold">
+                {index + 1}
+              </div>
+              <h3 class="text-lg font-bold text-gray-900">{stage.stage}</h3>
+            </div>
+            <p class="text-gray-600 text-sm mb-4">{stage.description}</p>
+            <div class="space-y-1">
+              {stage.information.map((info) => (
+                <div class="flex items-center">
+                  <div class="w-1.5 h-1.5 bg-green-600 rounded-full mr-2"></div>
+                  <span class="text-xs text-gray-600">{info}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Carrier Integrations -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.inbound.orderTracking.integration.title') || 'Multi-Carrier Integration'}
+          </h2>
+          <p class="text-lg text-gray-600 mb-8">
+            {t('seavoice.pages.solutions.inbound.orderTracking.integration.description') || 'Connect with major shipping carriers and provide unified tracking information to your customers.'}
+          </p>
+          <div class="space-y-6">
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-green-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">{t('seavoice.pages.solutions.inbound.orderTracking.integration.multiCarrier.title') || 'Multi-Carrier Support'}</h3>
+                <p class="text-gray-600">{t('seavoice.pages.solutions.inbound.orderTracking.integration.multiCarrier.description') || 'Support for all major shipping carriers and logistics providers'}</p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-green-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">{t('seavoice.pages.solutions.inbound.orderTracking.integration.realTimeUpdates.title') || 'Real-Time Updates'}</h3>
+                <p class="text-gray-600">{t('seavoice.pages.solutions.inbound.orderTracking.integration.realTimeUpdates.description') || 'Live tracking information updated automatically from carrier systems'}</p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-green-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+              </svg>
+              <div>
+                <h3 class="font-semibold text-gray-900">{t('seavoice.pages.solutions.inbound.orderTracking.integration.deliveryAnalytics.title') || 'Delivery Analytics'}</h3>
+                <p class="text-gray-600">{t('seavoice.pages.solutions.inbound.orderTracking.integration.deliveryAnalytics.description') || 'Comprehensive analytics on delivery performance and customer satisfaction'}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl p-8">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.pages.solutions.inbound.orderTracking.integration.carriers.title') || 'Supported Carriers'}</h3>
+          <div class="grid grid-cols-2 gap-3">
+            {integrations.map((integration, index) => (
+              <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                </svg>
+                <span class="text-gray-700 font-medium">{integration}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Metrics -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.inbound.orderTracking.impact.title') || 'Business Impact'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.inbound.orderTracking.impact.subtitle') || 'Measurable improvements in customer satisfaction and operational efficiency'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {benefits.map((benefit, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+            <div class="text-4xl font-bold text-green-600 mb-4">{benefit.metric}</div>
+            <p class="text-gray-600">{benefit.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-green-600 to-blue-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div>
+        <h2 class="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.inbound.orderTracking.cta.title') || 'Ready to Transform Order Management?'}</h2>
+        <p class="text-xl mb-8 opacity-90">
+          {t('seavoice.pages.solutions.inbound.orderTracking.cta.subtitle') || 'Implement AI-powered order tracking and reduce support volume while improving customer satisfaction.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+            {t('seavoice.pages.solutions.inbound.orderTracking.cta.startTrial') || 'Start Free Trial'}
+          </button>
+          <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-600 transition-colors">
+            {t('seavoice.pages.solutions.inbound.orderTracking.cta.seeDemo') || 'Schedule Demo'}
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

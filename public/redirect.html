@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <meta name="robots" content="noindex" />
+    <script>
+      (function () {
+        // Supported locales (must mirror astro.config.mjs)
+        var supported = [
+          "en",
+          "es",
+          "zh-TW",
+          "zh-CN",
+          "ja",
+          "ko",
+          "fr",
+          "de",
+          "ar",
+          "fa",
+          "fil",
+          "hi",
+          "id",
+          "ms",
+          "pl",
+          "pt",
+          "ru",
+          "ta",
+          "th",
+          "vi",
+          "ro",
+        ];
+
+        function normalizePath(p) {
+          try {
+            if (/^https?:/i.test(p)) {
+              var u = new URL(p, window.location.origin);
+              return (u.pathname || "/") + (u.search || "") + (u.hash || "");
+            }
+          } catch (e) {}
+          if (!p) return "/";
+          if (p[0] !== "/") p = "/" + p;
+          return p;
+        }
+
+        function hasLocalePrefix(p) {
+          var pathOnly = (p.split("?")[0] || "").split("#")[0] || "";
+          var first = (
+            pathOnly.split("/").filter(Boolean)[0] || ""
+          ).toLowerCase();
+          return supported.indexOf(first) !== -1;
+        }
+
+        function detectPreferredLang() {
+          // 1) localStorage preference
+          try {
+            var saved = localStorage.getItem("seasalt-preferred-language");
+            if (saved && supported.indexOf(saved) !== -1) return saved;
+          } catch (e) {
+            console.warn("[redirect] read localStorage failed:", e);
+          }
+
+          // 2) Browser languages with comprehensive mapping
+          try {
+            var langs = navigator.languages || [
+              navigator.language || navigator.userLanguage || "",
+            ];
+            
+            // Language mapping table
+            var languageMap = {
+              'zh-Hans': 'zh-CN',
+              'zh-Hant': 'zh-TW',
+              'zh-HK': 'zh-TW',
+              'zh-MO': 'zh-TW',
+              'zh-SG': 'zh-CN',
+              'zh': 'zh-TW',
+              'fil-PH': 'fil',
+              'tl': 'fil',
+              'fa-IR': 'fa',
+              'ms-MY': 'ms',
+              'ta-IN': 'ta',
+              'hi-IN': 'hi',
+              'id-ID': 'id',
+              'th-TH': 'th',
+              'vi-VN': 'vi'
+            };
+            
+            for (var i = 0; i < langs.length; i++) {
+              var lang = String(langs[i] || "").trim();
+              var lower = lang.toLowerCase();
+              
+              // Direct match
+              if (supported.indexOf(lower) !== -1) return lower;
+              
+              // Language mapping
+              if (languageMap[lang] && supported.indexOf(languageMap[lang]) !== -1) {
+                return languageMap[lang];
+              }
+              
+              // Prefix matching
+              var prefix = lower.split("-")[0];
+              if (supported.indexOf(prefix) !== -1) return prefix;
+              
+              // Special Chinese handling
+              if (prefix === "zh") {
+                if (lower.includes("cn") || lower.includes("hans") || lower.includes("sg")) {
+                  return "zh-CN";
+                }
+                return "zh-TW";
+              }
+            }
+          } catch (e) {
+            console.warn("[redirect] detect from navigator failed:", e);
+          }
+
+          // 3) Timezone fallback
+          try {
+            var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            var timezoneMap = {
+              'Asia/Tokyo': 'ja',
+              'Asia/Seoul': 'ko',
+              'Asia/Shanghai': 'zh-CN',
+              'Asia/Hong_Kong': 'zh-TW',
+              'Asia/Taipei': 'zh-TW',
+              'Asia/Singapore': 'zh-CN',
+              'Asia/Bangkok': 'th',
+              'Asia/Ho_Chi_Minh': 'vi',
+              'Asia/Jakarta': 'id',
+              'Asia/Kuala_Lumpur': 'ms',
+              'Asia/Manila': 'fil',
+              'Asia/Kolkata': 'hi',
+              'Asia/Tehran': 'fa',
+              'Asia/Dubai': 'ar',
+              'Europe/Berlin': 'de',
+              'Europe/Paris': 'fr',
+              'Europe/Madrid': 'es',
+              'Europe/Warsaw': 'pl',
+              'Europe/Moscow': 'ru',
+              'America/Mexico_City': 'es',
+              'America/Sao_Paulo': 'pt'
+            };
+            var tzLang = timezoneMap[tz];
+            if (tzLang && supported.indexOf(tzLang) !== -1) return tzLang;
+          } catch (e) {
+            console.warn("[redirect] timezone detection failed:", e);
+          }
+
+          // 4) Fallback
+          return "en";
+        }
+
+        try {
+          var params = new URLSearchParams(window.location.search);
+          var p = params.get("p") || "/";
+          try {
+            p = decodeURIComponent(p);
+          } catch (e) {
+            console.warn("[redirect] decodeURIComponent failed:", e);
+          }
+          console.log("[redirect] incoming p =", p);
+          p = normalizePath(p);
+          console.log("[redirect] normalized p =", p);
+
+          if (hasLocalePrefix(p)) {
+            console.log(
+              "[redirect] already has locale prefix, go directly:",
+              p
+            );
+            window.location.replace(p);
+            return;
+          }
+
+          var preferred = detectPreferredLang();
+          console.log("[redirect] preferred lang =", preferred);
+          try {
+            localStorage.setItem("seasalt-preferred-language", preferred);
+          } catch (e) {
+            console.warn("[redirect] set localStorage failed:", e);
+          }
+
+          var target = "/" + preferred + p;
+          console.log("[redirect] redirecting to target =", target);
+          window.location.replace(target);
+        } catch (e) {
+          console.error("[redirect] fatal error, fallback to /en/:", e);
+          // On error, fallback to default locale
+          window.location.replace("/en/");
+        }
+      })();
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url=/en/" />
+    </noscript>
+  </head>
+  <body>
+    <p>Redirecting…</p>
+  </body>
+</html>

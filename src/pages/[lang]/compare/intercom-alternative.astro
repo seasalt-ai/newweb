@@ -1,0 +1,363 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
+import { ArrowLeft, Check, X, AlertCircle } from 'lucide-react';
+
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const title = t('compare.intercomAlternative.seo.title') || 'Best Intercom Alternative - Seasalt.ai';
+const description = t('compare.intercomAlternative.seo.description') || 'Compare Seasalt.ai vs Intercom for contact center and communication solutions.';
+const keywords = 'Intercom alternative, AI customer support, pricing transparency';
+
+// 比較功能資料
+const comparisonFeatures = [
+  {
+    feature: t('compare.intercomAlternative.comparison.features.pricingModel.name'),
+    seasalt: t('compare.intercomAlternative.comparison.features.pricingModel.seasalt'),
+    competitor: t('compare.intercomAlternative.comparison.features.pricingModel.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.intercomAlternative.comparison.features.startingPrice.name'),
+    seasalt: t('compare.intercomAlternative.comparison.features.startingPrice.seasalt'),
+    competitor: t('compare.intercomAlternative.comparison.features.startingPrice.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.intercomAlternative.comparison.features.aiAgentCost.name'),
+    seasalt: t('compare.intercomAlternative.comparison.features.aiAgentCost.seasalt'),
+    competitor: t('compare.intercomAlternative.comparison.features.aiAgentCost.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.intercomAlternative.comparison.features.voiceCalling.name'),
+    seasalt: t('compare.intercomAlternative.comparison.features.voiceCalling.seasalt'),
+    competitor: t('compare.intercomAlternative.comparison.features.voiceCalling.competitor'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.intercomAlternative.comparison.features.coreFocus.name'),
+    seasalt: t('compare.intercomAlternative.comparison.features.coreFocus.seasalt'),
+    competitor: t('compare.intercomAlternative.comparison.features.coreFocus.competitor'),
+    seasaltAdvantage: false
+  },
+  {
+    feature: t('compare.intercomAlternative.comparison.features.bestFor.name'),
+    seasalt: t('compare.intercomAlternative.comparison.features.bestFor.seasalt'),
+    competitor: t('compare.intercomAlternative.comparison.features.bestFor.competitor'),
+    seasaltAdvantage: false
+  }
+];
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout title={title} description={description} lang={currentLang} keywords={keywords} type="website">
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-purple-50 via-white to-purple-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<a href={`/${currentLang}/compare-us-overview`} class="inline-flex items-center text-gray-600 hover:text-purple-600 transition-colors duration-200 mb-8">
+        <ArrowLeft className="h-5 w-5 mr-2" />
+        {t('compare.intercomAlternative.navigation.backText')}
+      </a>
+      
+      <div class="text-center mb-16">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('compare.intercomAlternative.hero.title.prefix')}{' '}
+          <span class="bg-gradient-to-r from-purple-600 to-purple-700 bg-clip-text text-transparent">
+            {t('compare.intercomAlternative.hero.title.highlight')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          {t('compare.intercomAlternative.hero.subtitle')}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed Comparison -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.intercomAlternative.comparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.intercomAlternative.comparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.intercomAlternative.comparison.table.feature')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.intercomAlternative.comparison.table.seasalt')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.intercomAlternative.comparison.table.competitor')}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              {comparisonFeatures.map((item, index) => (
+                <tr key={index} class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{item.feature}</td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <Check className="h-5 w-5 text-green-600 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.seasalt}</span>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <AlertCircle className="h-5 w-5 text-yellow-500 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.competitor}</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Complexity -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.intercomAlternative.pricing.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.intercomAlternative.pricing.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-blue-600 mb-6">{t('compare.intercomAlternative.pricing.seasalt.title')}</h3>
+          <div class="space-y-4">
+            <div class="bg-green-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-green-800">{t('compare.intercomAlternative.pricing.seasalt.perAgent.title')}</h4>
+              <p class="text-green-700 text-sm">{t('compare.intercomAlternative.pricing.seasalt.perAgent.description')}</p>
+            </div>
+            <div class="bg-blue-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-blue-800">{t('compare.intercomAlternative.pricing.seasalt.aiIncluded.title')}</h4>
+              <p class="text-blue-700 text-sm">{t('compare.intercomAlternative.pricing.seasalt.aiIncluded.description')}</p>
+            </div>
+            <div class="bg-purple-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-purple-800">{t('compare.intercomAlternative.pricing.seasalt.allChannels.title')}</h4>
+              <p class="text-purple-700 text-sm">{t('compare.intercomAlternative.pricing.seasalt.allChannels.description')}</p>
+            </div>
+            <div class="bg-orange-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-orange-800">{t('compare.intercomAlternative.pricing.seasalt.predictable.title')}</h4>
+              <p class="text-orange-700 text-sm">{t('compare.intercomAlternative.pricing.seasalt.predictable.description')}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-bold text-gray-600 mb-6">{t('compare.intercomAlternative.pricing.intercom.title')}</h3>
+          <div class="space-y-4">
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.intercomAlternative.pricing.intercom.basePrice.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.intercomAlternative.pricing.intercom.basePrice.description')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.intercomAlternative.pricing.intercom.aiResolution.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.intercomAlternative.pricing.intercom.aiResolution.description')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.intercomAlternative.pricing.intercom.payPerUse.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.intercomAlternative.pricing.intercom.payPerUse.description')}</p>
+            </div>
+            <div class="bg-red-50 p-4 rounded-lg">
+              <h4 class="font-semibold text-red-800">{t('compare.intercomAlternative.pricing.intercom.unpredictable.title')}</h4>
+              <p class="text-red-700 text-sm">{t('compare.intercomAlternative.pricing.intercom.unpredictable.description')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cost Scenario Analysis -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.intercomAlternative.scenarios.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.intercomAlternative.scenarios.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h3 class="text-lg font-bold text-gray-900 mb-4 text-center">{t('compare.intercomAlternative.scenarios.light.title')}</h3>
+          <div class="space-y-3">
+            <div class="text-center">
+              <div class="text-sm text-gray-600 mb-2">{t('compare.intercomAlternative.scenarios.light.description')}</div>
+            </div>
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-lg font-bold text-green-600 text-center">{t('compare.intercomAlternative.scenarios.light.seasalt.price')}</div>
+              <div class="text-sm text-green-700 text-center">{t('compare.intercomAlternative.scenarios.light.seasalt.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-lg font-bold text-red-600 text-center">{t('compare.intercomAlternative.scenarios.light.intercom.price')}</div>
+              <div class="text-sm text-red-700 text-center">{t('compare.intercomAlternative.scenarios.light.intercom.label')}</div>
+              <div class="text-xs text-red-600 text-center mt-1">{t('compare.intercomAlternative.scenarios.light.intercom.breakdown')}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h3 class="text-lg font-bold text-gray-900 mb-4 text-center">{t('compare.intercomAlternative.scenarios.medium.title')}</h3>
+          <div class="space-y-3">
+            <div class="text-center">
+              <div class="text-sm text-gray-600 mb-2">{t('compare.intercomAlternative.scenarios.medium.description')}</div>
+            </div>
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-lg font-bold text-green-600 text-center">{t('compare.intercomAlternative.scenarios.medium.seasalt.price')}</div>
+              <div class="text-sm text-green-700 text-center">{t('compare.intercomAlternative.scenarios.medium.seasalt.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-lg font-bold text-red-600 text-center">{t('compare.intercomAlternative.scenarios.medium.intercom.price')}</div>
+              <div class="text-sm text-red-700 text-center">{t('compare.intercomAlternative.scenarios.medium.intercom.label')}</div>
+              <div class="text-xs text-red-600 text-center mt-1">{t('compare.intercomAlternative.scenarios.medium.intercom.breakdown')}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h3 class="text-lg font-bold text-gray-900 mb-4 text-center">{t('compare.intercomAlternative.scenarios.heavy.title')}</h3>
+          <div class="space-y-3">
+            <div class="text-center">
+              <div class="text-sm text-gray-600 mb-2">{t('compare.intercomAlternative.scenarios.heavy.description')}</div>
+            </div>
+            <div class="bg-green-50 p-3 rounded-lg">
+              <div class="text-lg font-bold text-green-600 text-center">{t('compare.intercomAlternative.scenarios.heavy.seasalt.price')}</div>
+              <div class="text-sm text-green-700 text-center">{t('compare.intercomAlternative.scenarios.heavy.seasalt.label')}</div>
+            </div>
+            <div class="bg-red-50 p-3 rounded-lg">
+              <div class="text-lg font-bold text-red-600 text-center">{t('compare.intercomAlternative.scenarios.heavy.intercom.price')}</div>
+              <div class="text-sm text-red-700 text-center">{t('compare.intercomAlternative.scenarios.heavy.intercom.label')}</div>
+              <div class="text-xs text-red-600 text-center mt-1">{t('compare.intercomAlternative.scenarios.heavy.intercom.breakdown')}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Channel Coverage -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.intercomAlternative.channels.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.intercomAlternative.channels.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-blue-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-blue-600 mb-6">{t('compare.intercomAlternative.channels.seasalt.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.voice')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.whatsapp')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.sms')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.social')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.website')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.seasalt.unified')}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-purple-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-purple-600 mb-6">{t('compare.intercomAlternative.channels.intercom.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.intercom.websiteChat')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.intercom.proactive')}</span>
+            </li>
+            <li class="flex items-start">
+              <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.intercom.voiceAddon')}</span>
+            </li>
+            <li class="flex items-start">
+              <AlertCircle className="h-5 w-5 text-yellow-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.intercom.smsLimited')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.intercom.noWhatsapp')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.intercomAlternative.channels.intercom.noSocial')}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-purple-600 to-purple-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('compare.intercomAlternative.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('compare.intercomAlternative.cta.subtitle')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-purple-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.intercomAlternative.cta.signUp')}
+        </a>
+        <a
+          href={meetingUrl}
+          class="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.intercomAlternative.cta.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,419 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
+import { ArrowLeft, Check, X, AlertCircle } from 'lucide-react';
+
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+const title = t('compare.openPhoneAlternative.seo.title') || 'Best OpenPhone Alternative - Seasalt.ai';
+const description = t('compare.openPhoneAlternative.seo.description') || 'Compare Seasalt.ai vs OpenPhone for business phone systems and contact centers.';
+const keywords = 'OpenPhone alternative, business phone system, VoIP, contact center software';
+
+const comparisonFeatures = [
+  {
+    feature: t('compare.openPhoneAlternative.comparison.features.platformType.name'),
+    seasalt: t('compare.openPhoneAlternative.comparison.features.platformType.seasalt'),
+    competitor: t('compare.openPhoneAlternative.comparison.features.platformType.openPhone'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.openPhoneAlternative.comparison.features.supportedChannels.name'),
+    seasalt: t('compare.openPhoneAlternative.comparison.features.supportedChannels.seasalt'),
+    competitor: t('compare.openPhoneAlternative.comparison.features.supportedChannels.openPhone'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.openPhoneAlternative.comparison.features.unifiedInbox.name'),
+    seasalt: t('compare.openPhoneAlternative.comparison.features.unifiedInbox.seasalt'),
+    competitor: t('compare.openPhoneAlternative.comparison.features.unifiedInbox.openPhone'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.openPhoneAlternative.comparison.features.aiFeatures.name'),
+    seasalt: t('compare.openPhoneAlternative.comparison.features.aiFeatures.seasalt'),
+    competitor: t('compare.openPhoneAlternative.comparison.features.aiFeatures.openPhone'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.openPhoneAlternative.comparison.features.advancedRouting.name'),
+    seasalt: t('compare.openPhoneAlternative.comparison.features.advancedRouting.seasalt'),
+    competitor: t('compare.openPhoneAlternative.comparison.features.advancedRouting.openPhone'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.openPhoneAlternative.comparison.features.crmIntegrations.name'),
+    seasalt: t('compare.openPhoneAlternative.comparison.features.crmIntegrations.seasalt'),
+    competitor: t('compare.openPhoneAlternative.comparison.features.crmIntegrations.openPhone'),
+    seasaltAdvantage: true
+  },
+  {
+    feature: t('compare.openPhoneAlternative.comparison.features.bestFor.name'),
+    seasalt: t('compare.openPhoneAlternative.comparison.features.bestFor.seasalt'),
+    competitor: t('compare.openPhoneAlternative.comparison.features.bestFor.openPhone'),
+    seasaltAdvantage: false
+  }
+];
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout title={title} description={description} lang={currentLang} keywords={keywords} type="website">
+  <section class="bg-gradient-to-br from-emerald-50 via-white to-emerald-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<a href={`/${currentLang}/compare`} class="inline-flex items-center text-gray-600 hover:text-emerald-600 transition-colors duration-200 mb-8">
+        <ArrowLeft className="h-5 w-5 mr-2" />
+        {t('compare.openPhoneAlternative.nav.backLink')}
+      </a>
+      
+      <div class="text-center mb-16">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+          {t('compare.openPhoneAlternative.hero.title')}{' '}
+          <span class="bg-gradient-to-r from-emerald-600 to-emerald-700 bg-clip-text text-transparent">
+            {t('compare.openPhoneAlternative.hero.highlight')}
+          </span>
+        </h1>
+        <p class="text-xl text-gray-600 max-w-4xl mx-auto">
+          {t('compare.openPhoneAlternative.hero.description')}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.openPhoneAlternative.comparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.openPhoneAlternative.comparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50">
+              <tr>
+                <th class="px-6 py-4 text-left text-sm font-semibold text-gray-900">{t('compare.openPhoneAlternative.comparison.table.headers.feature')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-blue-600">{t('compare.openPhoneAlternative.comparison.table.headers.seasalt')}</th>
+                <th class="px-6 py-4 text-center text-sm font-semibold text-gray-900">{t('compare.openPhoneAlternative.comparison.table.headers.openPhone')}</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              {comparisonFeatures.map((item, index) => (
+                <tr key={index} class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900">{item.feature}</td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <Check className="h-5 w-5 text-green-600 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.seasalt}</span>
+                    </div>
+                  </td>
+                  <td class="px-6 py-4 text-center">
+                    <div class="flex items-center justify-center">
+                      {item.seasaltAdvantage && <AlertCircle className="h-5 w-5 text-yellow-500 mr-2" />}
+                      <span class="text-sm text-gray-700">{item.competitor}</span>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.openPhoneAlternative.growthLimitations.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.openPhoneAlternative.growthLimitations.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="bg-yellow-100 p-3 rounded-lg mb-4">
+            <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.customerChat.title')}</h3>
+          <p class="text-gray-600 text-sm">
+            {t('compare.openPhoneAlternative.growthLimitations.customerChat.description')}
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="bg-yellow-100 p-3 rounded-lg mb-4">
+            <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.automation.title')}</h3>
+          <p class="text-gray-600 text-sm">
+            {t('compare.openPhoneAlternative.growthLimitations.automation.description')}
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="bg-yellow-100 p-3 rounded-lg mb-4">
+            <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.complexRouting.title')}</h3>
+          <p class="text-gray-600 text-sm">
+            {t('compare.openPhoneAlternative.growthLimitations.complexRouting.description')}
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="bg-yellow-100 p-3 rounded-lg mb-4">
+            <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.marketingCampaigns.title')}</h3>
+          <p class="text-gray-600 text-sm">
+            {t('compare.openPhoneAlternative.growthLimitations.marketingCampaigns.description')}
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="bg-yellow-100 p-3 rounded-lg mb-4">
+            <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.unifiedCustomerView.title')}</h3>
+          <p class="text-gray-600 text-sm">
+            {t('compare.openPhoneAlternative.growthLimitations.unifiedCustomerView.description')}
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="bg-yellow-100 p-3 rounded-lg mb-4">
+            <AlertCircle className="h-8 w-8 text-yellow-600 mx-auto" />
+          </div>
+          <h3 class="text-lg font-bold text-gray-900 mb-3">{t('compare.openPhoneAlternative.growthLimitations.advancedAnalytics.title')}</h3>
+          <p class="text-gray-600 text-sm">
+            {t('compare.openPhoneAlternative.growthLimitations.advancedAnalytics.description')}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.openPhoneAlternative.featureExpansion.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.openPhoneAlternative.featureExpansion.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-green-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-green-600 mb-6">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.sharedNumber')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.teamSMS')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.simpleInterface')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.mobileApp')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.keepWorks.affordablePricing')}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-blue-50 p-8 rounded-xl">
+          <h3 class="text-2xl font-bold text-blue-600 mb-6">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.title')}</h3>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.whatsapp')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.webchat')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.socialMedia')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.aiVoicebots')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+              <span class="text-gray-700">{t('compare.openPhoneAlternative.featureExpansion.addCapabilities.analytics')}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.openPhoneAlternative.pricingComparison.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.openPhoneAlternative.pricingComparison.subtitle')}
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.title')}</h3>
+          <div class="text-center mb-6">
+            <div class="text-3xl font-bold text-gray-900">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.price')}</div>
+            <div class="text-sm text-gray-600">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.period')}</div>
+          </div>
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.voiceOnly')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.noAI')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneStarter.noChannels')}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg border-2 border-yellow-200">
+          <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.title')}</h3>
+          <div class="text-center mb-6">
+            <div class="text-3xl font-bold text-yellow-600">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.price')}</div>
+            <div class="text-sm text-gray-600">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.period')}</div>
+          </div>
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.businessPlan')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.aiFeatures')}</span>
+            </li>
+            <li class="flex items-start">
+              <X className="h-5 w-5 text-red-500 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.openPhoneAddons.stillLimited')}</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-200">
+          <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">{t('compare.openPhoneAlternative.pricingComparison.seasalt.title')}</h3>
+          <div class="text-center mb-6">
+            <div class="text-3xl font-bold text-blue-600">{t('compare.openPhoneAlternative.pricingComparison.seasalt.price')}</div>
+            <div class="text-sm text-gray-600">{t('compare.openPhoneAlternative.pricingComparison.seasalt.period')}</div>
+          </div>
+          <ul class="space-y-3 mb-6">
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.seasalt.allChannels')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.seasalt.aiIncluded')}</span>
+            </li>
+            <li class="flex items-start">
+              <Check className="h-5 w-5 text-green-600 mr-3 mt-0.5" />
+              <span class="text-sm text-gray-700">{t('compare.openPhoneAlternative.pricingComparison.seasalt.completePlatform')}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          {t('compare.openPhoneAlternative.migrationPath.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('compare.openPhoneAlternative.migrationPath.subtitle')}
+        </p>
+      </div>
+
+      <div class="bg-green-50 border-2 border-green-200 rounded-2xl p-8">
+        <div class="grid md:grid-cols-4 gap-6">
+          <div class="text-center">
+            <div class="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+            <h3 class="font-semibold text-green-800 mb-2">{t('compare.openPhoneAlternative.migrationPath.keepNumber.title')}</h3>
+            <p class="text-green-700 text-sm">{t('compare.openPhoneAlternative.migrationPath.keepNumber.description')}</p>
+          </div>
+          <div class="text-center">
+            <div class="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+            <h3 class="font-semibold text-green-800 mb-2">{t('compare.openPhoneAlternative.migrationPath.addChannels.title')}</h3>
+            <p class="text-green-700 text-sm">{t('compare.openPhoneAlternative.migrationPath.addChannels.description')}</p>
+          </div>
+          <div class="text-center">
+            <div class="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+            <h3 class="font-semibold text-green-800 mb-2">{t('compare.openPhoneAlternative.migrationPath.enableAI.title')}</h3>
+            <p class="text-green-700 text-sm">{t('compare.openPhoneAlternative.migrationPath.enableAI.description')}</p>
+          </div>
+          <div class="text-center">
+            <div class="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+            <h3 class="font-semibold text-green-800 mb-2">{t('compare.openPhoneAlternative.migrationPath.trainTeam.title')}</h3>
+            <p class="text-green-700 text-sm">{t('compare.openPhoneAlternative.migrationPath.trainTeam.description')}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gradient-to-r from-emerald-600 to-emerald-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
+        {t('compare.openPhoneAlternative.cta.title')}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('compare.openPhoneAlternative.cta.description')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-green-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.openPhoneAlternative.cta.buttons.signUp')}
+        </a>
+        <a
+          href={meetingUrl}
+          class="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
+        >
+          {t('compare.openPhoneAlternative.cta.buttons.bookDemo')}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

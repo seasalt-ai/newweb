@@ -1,0 +1,578 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, toBcp47LanguageTag, normalizeContentLangToRouteLang, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('blog');
+  const paths: any[] = [];
+
+  for (const entry of blogEntries) {
+    const contentLang = entry.id.split('/')[0]; // 內容資料夾語言，如 'en' 或 'zh-cn'
+    const routeLang = normalizeContentLangToRouteLang(contentLang);
+    if (!routeLang) continue; // 跳過不支援的語言（如 ro）
+    const slug = entry.id.split('/')[1].replace('.md', '');
+
+    // 僅為在 supportedLocales 中的語言生成
+    if (supportedLocales.includes(routeLang)) {
+      paths.push({
+        params: {
+          lang: routeLang,
+          slug
+        },
+        props: { entry }
+      });
+    }
+  }
+
+  return paths;
+}
+
+type Props = {
+  entry: CollectionEntry<'blog'>;
+};
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+// 如果文章沒有設定圖片，嘗試從內容中提取第一張圖片
+let extractedImage = entry.data.image;
+if (!extractedImage) {
+  // 直接從Markdown內容中搜索圖片標籤
+  const imgRegex = /!\[([^\]]*)\]\(([^)]+)\)|<img[^>]+src=["']([^"']+)["'][^>]*>/gi;
+  let match;
+  
+  while ((match = imgRegex.exec(entry.body)) !== null) {
+    const imageUrl = match[2] || match[3]; // Markdown 或 HTML 格式
+    if (imageUrl) {
+      extractedImage = {
+        url: imageUrl,
+        alt: match[1] || entry.data.title
+      };
+      break; // 只取第一張圖片
+    }
+  }
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+// 格式化日期
+const bcp47 = toBcp47LanguageTag(currentLang);
+const publishDate = new Date(entry.data.publishDate).toLocaleDateString(
+  bcp47,
+  {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  }
+);
+
+const updatedDate = entry.data.updatedDate ? new Date(entry.data.updatedDate).toLocaleDateString(
+  bcp47
+) : null;
+
+// 估算閱讀時間
+const readingTime = Math.ceil((entry.body.replace(/<[^>]*>/g, '').split(/\s+/).length) / 200);
+
+// 獲取相關文章（同語言下的其他文章）
+const relatedPosts = await getCollection('blog', ({ data, id }) => {
+  const postLang = id.split('/')[0];
+  return (
+    data.draft !== true && 
+    postLang === currentLang && 
+    id !== entry.id &&
+    (data.tags?.some(tag => entry.data.tags?.includes(tag)) || data.category === entry.data.category)
+  );
+});
+
+// 為相關文章也處理圖片提取
+const relatedPostsWithImages = await Promise.all(
+  relatedPosts.slice(0, 3).map(async (post) => {
+    let postImage = post.data.image;
+    
+    if (!postImage) {
+      // 直接從Markdown內容中搜索圖片標籤
+      const imgRegex = /!\[([^\]]*)\]\(([^)]+)\)|<img[^>]+src=["']([^"']+)["'][^>]*>/gi;
+      let match;
+      
+      while ((match = imgRegex.exec(post.body)) !== null) {
+        const imageUrl = match[2] || match[3]; // Markdown 或 HTML 格式
+        if (imageUrl) {
+          postImage = {
+            url: imageUrl,
+            alt: match[1] || post.data.title
+          };
+          break; // 只取第一張圖片
+        }
+      }
+    }
+    
+    return {
+      ...post,
+      extractedImage: postImage
+    };
+  })
+);
+const limitedRelatedPosts = relatedPostsWithImages;
+
+// 檢測當前文章的可用語言版本
+const currentSlug = entry.id.split('/')[1].replace('.md', ''); // 從 "en/post-name.md" 中提取 "post-name"
+const allBlogEntries = await getCollection('blog');
+const availableLanguages = allBlogEntries
+  .filter(post => {
+    const postSlug = post.id.split('/')[1].replace('.md', '');
+    return postSlug === currentSlug && post.data.draft !== true;
+  })
+  .map(post => normalizeContentLangToRouteLang(post.id.split('/')[0]))
+  .filter((l): l is SupportedLanguage => !!l && l !== currentLang);
+
+// 語言名稱對應
+const languageNames = {
+  'en': 'English',
+  'es': 'Español', 
+  'zh-TW': '繁體中文',
+  'zh-CN': '简体中文',
+  'ja': '日本語',
+  'ko': '한국어',
+  'fr': 'Français',
+  'de': 'Deutsch',
+  'ar': 'العربية',
+  'fa': 'فارسی',
+  'fil': 'Filipino',
+  'hi': 'हिन्दी',
+  'id': 'Bahasa Indonesia',
+  'ms': 'Bahasa Melayu',
+  'pl': 'Polski',
+  'pt': 'Português',
+  'ru': 'Русский',
+  'ta': 'தமிழ்',
+  'th': 'ไทย',
+  'vi': 'Tiếng Việt'
+};
+
+// 生成結構化資料
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": entry.data.title,
+  "description": entry.data.description,
+  "image": extractedImage?.url,
+  "datePublished": entry.data.publishDate.toISOString(),
+  "dateModified": entry.data.updatedDate?.toISOString() || entry.data.publishDate.toISOString(),
+  "author": {
+    "@type": "Person",
+    "name": entry.data.author || "Seasalt.ai"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/seasalt-ai-logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `/${currentLang}/blog/${entry.slug}`
+  }
+};
+
+// 生成麵包屑
+const breadcrumbs = [
+  { name: t('nav.home') || 'Home', url: `/${currentLang}/` },
+  { name: t('nav.blog') || 'Blog', url: `/${currentLang}/blog/` },
+  { name: entry.data.title }
+];
+---
+
+<Layout 
+  title={entry.data.title}
+  description={entry.data.description} 
+  lang={currentLang}
+  type="article"
+  article={{
+    publishedTime: entry.data.publishDate.toISOString(),
+    modifiedTime: entry.data.updatedDate?.toISOString(),
+    author: entry.data.author,
+    section: entry.data.category,
+    tags: entry.data.tags
+  }}
+  breadcrumbs={breadcrumbs}
+  image={extractedImage?.url}
+  keywords={entry.data.tags?.join(', ')}
+>
+  <!-- SEO 結構化資料 -->
+  <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  
+  <div class="min-h-screen bg-white">
+    <main>
+      <!-- Hero Section -->
+      <section class="bg-gradient-to-br from-blue-50 via-white to-indigo-50 py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <a 
+            href={`/${currentLang}/blog`} 
+            class="inline-flex items-center text-gray-600 hover:text-blue-600 transition-colors duration-200 mb-6 sm:mb-8"
+          >
+            <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            {t('blog.nav.backToBlog') || 'Back to Blog'}
+          </a>
+          
+          <!-- 文章圖片 -->
+          <div class="mb-6 sm:mb-8">
+            {extractedImage ? (
+              <img
+                src={extractedImage.url}
+                alt={extractedImage.alt}
+                class="w-full h-48 sm:h-64 md:h-80 object-cover rounded-2xl shadow-lg"
+                onerror="this.src='/seasalt-ai-icon.png'"
+              />
+            ) : (
+              <div class="w-full h-48 sm:h-64 md:h-80 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl shadow-lg flex items-center justify-center">
+                <svg class="w-16 h-16 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"></path>
+                </svg>
+              </div>
+            )}
+          </div>
+
+          <!-- 文章訊息 -->
+          <div class="flex flex-wrap items-center text-xs sm:text-sm text-gray-500 mb-4 sm:mb-6 gap-2 sm:gap-4">
+            <div class="flex items-center flex-shrink-0">
+              <svg class="h-3 w-3 sm:h-4 sm:w-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+              </svg>
+              <span>
+                {t('blog.post.published') || 'Published'}: {publishDate}
+                {updatedDate && updatedDate !== publishDate && (
+                  <span class="block text-xs text-gray-400 mt-0.5">
+                    ({t('blog.post.updated') || 'Updated'}: {updatedDate})
+                  </span>
+                )}
+              </span>
+            </div>
+            {entry.data.author && (
+              <div class="flex items-center flex-shrink-0">
+                <svg class="h-3 w-3 sm:h-4 sm:w-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                </svg>
+                <span>{entry.data.author}</span>
+              </div>
+            )}
+            <div class="flex items-center flex-shrink-0">
+              <svg class="h-3 w-3 sm:h-4 sm:w-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+              </svg>
+              <span>{readingTime} {t('blog.readTime') || 'min read'}</span>
+            </div>
+            
+            <!-- 語言切換 -->
+            {availableLanguages.length > 0 && (
+              <div class="flex items-center flex-wrap gap-1 mt-2 sm:mt-0">
+                <span class="text-xs sm:text-sm text-gray-500 mr-1 sm:mr-2">{t('blog.post.availableIn') || 'Available in:'}</span>
+                <div class="flex flex-wrap gap-1 sm:gap-2">
+                  <!-- 當前語言按鈕 -->
+                  <span class="px-1.5 sm:px-2 py-0.5 sm:py-1 text-xs rounded bg-blue-600 text-white">
+                    {languageNames[currentLang] || currentLang}
+                  </span>
+                  <!-- 其他可用語言 -->
+                  {availableLanguages.map(langCode => (
+                    <a
+                      href={`/${langCode}/blog/${currentSlug}`}
+                      class="px-1.5 sm:px-2 py-0.5 sm:py-1 text-xs rounded bg-gray-200 text-gray-700 hover:bg-gray-300 transition-colors duration-200"
+                    >
+                      {languageNames[langCode] || langCode}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+            
+            <!-- 分享按鈕 -->
+            <button
+              id="share-button"
+              class="flex items-center text-blue-600 hover:text-blue-700 transition-colors duration-200 mt-2 sm:mt-0"
+              data-title={entry.data.title}
+              data-description={entry.data.description}
+            >
+              <svg class="h-3 w-3 sm:h-4 sm:w-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"></path>
+              </svg>
+              {t('blog.post.share') || 'Share'}
+            </button>
+          </div>
+
+          <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight">
+            {entry.data.title}
+          </h1>
+
+          <p class="text-lg sm:text-xl text-gray-600 mb-6 sm:mb-8 leading-relaxed">
+            {entry.data.description}
+          </p>
+
+          {entry.data.tags && entry.data.tags.length > 0 && (
+            <div class="flex flex-wrap gap-1.5 sm:gap-2 mb-6 sm:mb-8">
+              {entry.data.tags.map((tag) => (
+                <span
+                  class="inline-flex items-center px-2 sm:px-3 py-0.5 sm:py-1 bg-blue-100 text-blue-800 text-xs sm:text-sm font-medium rounded-full"
+                >
+                  <svg class="h-2.5 w-2.5 sm:h-3 sm:w-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a3 3 0 013-3h5c.256 0 .512.098.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
+                  </svg>
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+
+      <!-- 文章內容 -->
+      <section class="py-8 sm:py-12 bg-white relative">
+        <!-- 目錄 -->
+        <div id="table-of-contents" class="fixed top-1/2 right-4 transform -translate-y-1/2 z-10 bg-white p-4 rounded-lg shadow-lg border border-gray-200 max-w-xs hidden lg:block">
+          <h3 class="font-semibold text-sm text-gray-900 mb-3">{t('blog.post.tableOfContents') || 'Table of Contents'}</h3>
+          <nav id="toc-nav" class="text-sm"></nav>
+        </div>
+        
+        <div class="max-w-none mx-auto">
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <article class="prose prose-lg prose-blue max-w-none
+              prose-headings:text-gray-900 prose-headings:font-bold prose-headings:tracking-tight
+              prose-h1:text-4xl prose-h1:mb-8 prose-h1:mt-12 prose-h1:font-extrabold prose-h1:leading-tight
+              prose-h2:text-3xl prose-h2:mb-6 prose-h2:mt-12 prose-h2:font-bold prose-h2:leading-tight
+              prose-h3:text-2xl prose-h3:mb-4 prose-h3:mt-10 prose-h3:font-semibold prose-h3:leading-tight
+              prose-h4:text-xl prose-h4:mb-3 prose-h4:mt-8 prose-h4:font-semibold
+              prose-p:text-gray-800 prose-p:leading-relaxed prose-p:mb-6 prose-p:text-lg prose-p:font-normal
+              prose-a:text-blue-600 prose-a:font-medium prose-a:no-underline hover:prose-a:underline hover:prose-a:text-blue-700
+              prose-strong:text-gray-900 prose-strong:font-semibold
+              prose-em:text-gray-700 prose-em:font-medium
+              prose-ul:mb-8 prose-ol:mb-8 prose-ul:text-lg prose-ol:text-lg
+              prose-li:text-gray-800 prose-li:mb-3 prose-li:leading-relaxed
+              prose-blockquote:border-l-4 prose-blockquote:border-green-500 prose-blockquote:bg-green-50 
+              prose-blockquote:py-6 prose-blockquote:px-6 prose-blockquote:rounded-r-lg prose-blockquote:my-8
+              prose-blockquote:text-lg prose-blockquote:font-medium prose-blockquote:italic
+              prose-code:bg-gray-100 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-base prose-code:font-mono
+              prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:rounded-xl prose-pre:p-6 prose-pre:my-8 prose-pre:text-sm
+              prose-img:rounded-xl prose-img:shadow-xl prose-img:mx-auto prose-img:my-8
+              prose-table:my-8 prose-table:text-base
+              prose-th:bg-gray-50 prose-th:font-semibold prose-th:text-gray-900
+              prose-td:text-gray-800
+              prose-hr:my-12 prose-hr:border-gray-200
+              first:prose-p:text-xl first:prose-p:font-medium first:prose-p:text-gray-700 first:prose-p:leading-8"
+            >
+              <Content />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 相關文章 -->
+      {limitedRelatedPosts.length > 0 && (
+        <section class="py-16 sm:py-20 bg-gray-50">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 sm:mb-12 text-center">
+              {t('blog.relatedArticles') || 'Related Articles'}
+            </h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+              {limitedRelatedPosts.map((relatedPost) => {
+                const relatedPublishDate = new Date(relatedPost.data.publishDate).toLocaleDateString(
+                  currentLang === 'zh-TW' ? 'zh-TW' : currentLang === 'zh-CN' ? 'zh-CN' : currentLang
+                );
+                
+                return (
+                  <article class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 overflow-hidden">
+                    <div class="bg-gray-200">
+                      {relatedPost.extractedImage ? (
+                        <img
+                          src={relatedPost.extractedImage.url}
+                          alt={relatedPost.extractedImage.alt}
+                          class="w-full h-32 sm:h-40 object-cover hover:scale-105 transition-transform duration-300"
+                          onerror="this.src='/seasalt-ai-icon.png'"
+                        />
+                      ) : (
+                        <div class="w-full h-32 sm:h-40 bg-gradient-to-br from-blue-100 to-indigo-100 flex items-center justify-center">
+                          <svg class="w-8 h-8 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"></path>
+                          </svg>
+                        </div>
+                      )}
+                    </div>
+                    <div class="p-4">
+                      <div class="flex items-center text-xs text-gray-500 mb-2">
+                        <svg class="h-3 w-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>{relatedPublishDate}</span>
+                      </div>
+                      <h3 class="text-lg font-semibold text-gray-900 mb-2 line-clamp-2">
+                        <a href={`/${currentLang}/blog/${relatedPost.slug.split('/')[1]}`} class="hover:text-blue-600 transition-colors">
+                          {relatedPost.data.title}
+                        </a>
+                      </h3>
+                      <p class="text-sm text-gray-600 line-clamp-3">
+                        {relatedPost.data.description}
+                      </p>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <!-- CTA Section -->
+      <section class="py-16 sm:py-20 bg-gradient-to-r from-blue-600 to-blue-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4 sm:mb-6">
+            {t('blog.cta.title') || 'Ready to Transform Your Customer Communications?'}
+          </h2>
+          <p class="text-lg sm:text-xl text-white opacity-90 mb-6 sm:mb-8 max-w-2xl mx-auto">
+            {t('blog.cta.description') || 'See how Seasalt.ai can help your business automate support, capture leads, and deliver exceptional customer experiences.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+            <a
+              href="https://seax.seasalt.ai/signup"
+              class="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
+            >
+              {t('blog.cta.signUp') || 'Sign Up'}
+            </a>
+            <a
+              href="#"
+              class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
+            >
+              {t('blog.cta.scheduleDemo') || 'Schedule Demo'}
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</Layout>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const shareButton = document.getElementById('share-button');
+    const tocContainer = document.getElementById('table-of-contents');
+    const tocNav = document.getElementById('toc-nav');
+    
+    // 分享功能
+    if (shareButton) {
+      shareButton.addEventListener('click', function(e) {
+        e.preventDefault();
+        const title = this.dataset.title;
+        const description = this.dataset.description;
+        const url = window.location.href;
+        
+        if (navigator.share) {
+          navigator.share({
+            title: title,
+            text: description,
+            url: url,
+          });
+        } else {
+          // 回退到複製連結
+          navigator.clipboard.writeText(url).then(() => {
+            // 創建臨時提示
+            const tooltip = document.createElement('div');
+            tooltip.textContent = 'Link copied to clipboard!';
+            tooltip.className = 'fixed top-4 right-4 bg-green-600 text-white px-4 py-2 rounded-lg z-50';
+            document.body.appendChild(tooltip);
+            
+            setTimeout(() => {
+              document.body.removeChild(tooltip);
+            }, 3000);
+          });
+        }
+      });
+    }
+    
+    // 生成目錄
+    if (tocNav && tocContainer) {
+      const headings = document.querySelectorAll('article h2, article h3, article h4');
+      
+      if (headings.length > 0) {
+        tocContainer.classList.remove('hidden');
+        
+        headings.forEach((heading, index) => {
+          const id = `heading-${index}`;
+          heading.id = id;
+          
+          const link = document.createElement('a');
+          link.href = `#${id}`;
+          link.textContent = heading.textContent;
+          link.className = `block py-1 text-gray-600 hover:text-blue-600 transition-colors duration-200 ${
+            heading.tagName === 'H2' ? 'font-medium' : 
+            heading.tagName === 'H3' ? 'ml-4 text-sm' : 'ml-8 text-xs'
+          }`;
+          
+          tocNav.appendChild(link);
+        });
+        
+        // 平滑滾動
+        tocNav.addEventListener('click', function(e) {
+          if (e.target.tagName === 'A') {
+            e.preventDefault();
+            const targetId = e.target.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+              });
+            }
+          }
+        });
+      }
+    }
+    
+    // 滾動時高亮目錄
+    if (tocNav) {
+      let ticking = false;
+      
+      function updateActiveHeading() {
+        const headings = Array.from(document.querySelectorAll('article h2, article h3, article h4'));
+        const tocLinks = Array.from(tocNav.querySelectorAll('a'));
+        
+        let activeIndex = 0;
+        const scrollTop = window.scrollY + 100; // 偏移量
+        
+        headings.forEach((heading, index) => {
+          if (heading.offsetTop <= scrollTop) {
+            activeIndex = index;
+          }
+        });
+        
+        tocLinks.forEach((link, index) => {
+          if (index === activeIndex) {
+            link.classList.add('text-blue-600', 'font-semibold');
+            link.classList.remove('text-gray-600');
+          } else {
+            link.classList.remove('text-blue-600', 'font-semibold');
+            link.classList.add('text-gray-600');
+          }
+        });
+        
+        ticking = false;
+      }
+      
+      function onScroll() {
+        if (!ticking) {
+          requestAnimationFrame(updateActiveHeading);
+          ticking = true;
+        }
+      }
+      
+      window.addEventListener('scroll', onScroll);
+      
+      // 初始化高亮
+      updateActiveHeading();
+    }
+  });
+</script>

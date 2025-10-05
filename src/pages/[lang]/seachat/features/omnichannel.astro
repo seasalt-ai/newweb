@@ -1,0 +1,358 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+
+import { Globe, MessageSquare, Phone, Mail, Instagram, Facebook, ArrowRight } from 'lucide-react';
+
+// Generate all static paths for supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translation helpers for the current language
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO data for the omnichannel page
+const title = t('seachat.features.omnichannel.title') || 'Omnichannel Support';
+const subtitle = t('seachat.features.omnichannel.subtitle') || 'Connect all your customer touchpoints in one unified platform. Provide consistent, seamless support across websites, social media, phone, and email.';
+
+const seoData = {
+  title: `${title} | SeaChat`,
+  description: subtitle,
+  keywords: 'omnichannel support, unified platform, customer service, chat support, voice support, social media',
+  ogTitle: title,
+  ogDescription: subtitle,
+  ogType: 'website'
+};
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Features', url: `/${currentLang}/seachat/features/` },
+  { name: title }
+];
+
+// Channels data
+const channels = [
+  {
+    iconName: 'Globe',
+    name: t('seachat.features.omnichannel.channels.website.name') || 'Website Chat',
+    description: t('seachat.features.omnichannel.channels.website.description') || 'Embed chat widgets on any website platform',
+    features: [
+      t('seachat.features.omnichannel.channels.website.seachat.features.compatibility') || 'Universal compatibility',
+      t('seachat.features.omnichannel.channels.website.seachat.features.styling') || 'Custom styling',
+      t('seachat.features.omnichannel.channels.website.seachat.features.responsive') || 'Mobile responsive',
+      t('seachat.features.omnichannel.channels.website.seachat.features.sync') || 'Real-time sync'
+    ]
+  },
+  {
+    iconName: 'MessageSquare',
+    name: t('seachat.features.omnichannel.channels.whatsapp.name') || 'WhatsApp Business',
+    description: t('seachat.features.omnichannel.channels.whatsapp.description') || 'Connect with customers on the world\'s most popular messaging app',
+    features: [
+      t('seachat.features.omnichannel.channels.whatsapp.seachat.features.api') || 'Business API integration',
+      t('seachat.features.omnichannel.channels.whatsapp.seachat.features.media') || 'Rich media support',
+      t('seachat.features.omnichannel.channels.whatsapp.seachat.features.templates') || 'Template messages',
+      t('seachat.features.omnichannel.channels.whatsapp.seachat.features.groups') || 'Group messaging'
+    ]
+  },
+  {
+    iconName: 'Instagram',
+    name: t('seachat.features.omnichannel.channels.instagram.name') || 'Instagram Direct',
+    description: t('seachat.features.omnichannel.channels.instagram.description') || 'Manage Instagram DMs and story replies in one place',
+    features: [
+      t('seachat.features.omnichannel.channels.instagram.seachat.features.replies') || 'Story reply management',
+      t('seachat.features.omnichannel.channels.instagram.seachat.features.media') || 'Media sharing',
+      t('seachat.features.omnichannel.channels.instagram.seachat.features.responses') || 'Quick responses',
+      t('seachat.features.omnichannel.channels.instagram.seachat.features.greetings') || 'Automated greetings'
+    ]
+  },
+  {
+    iconName: 'Facebook',
+    name: t('seachat.features.omnichannel.channels.facebook.name') || 'Facebook Messenger',
+    description: t('seachat.features.omnichannel.channels.facebook.description') || 'Provide support through Facebook\'s messaging platform',
+    features: [
+      t('seachat.features.omnichannel.channels.facebook.seachat.features.integration') || 'Page integration',
+      t('seachat.features.omnichannel.channels.facebook.seachat.features.responses') || 'Automated responses',
+      t('seachat.features.omnichannel.channels.facebook.seachat.features.cards') || 'Rich cards',
+      t('seachat.features.omnichannel.channels.facebook.seachat.features.menu') || 'Persistent menu'
+    ]
+  },
+  {
+    iconName: 'Phone',
+    name: t('seachat.features.omnichannel.channels.voice.name') || 'Voice Calls',
+    description: t('seachat.features.omnichannel.channels.voice.description') || 'Handle phone support with AI voice agents',
+    features: [
+      t('seachat.features.omnichannel.channels.voice.seachat.features.conversations') || 'Natural conversations',
+      t('seachat.features.omnichannel.channels.voice.seachat.features.routing') || 'Call routing',
+      t('seachat.features.omnichannel.channels.voice.seachat.features.voicemail') || 'Voicemail transcription',
+      t('seachat.features.omnichannel.channels.voice.seachat.features.conference') || 'Conference calls'
+    ]
+  },
+  {
+    iconName: 'Mail',
+    name: t('seachat.features.omnichannel.channels.email.name') || 'Email Support',
+    description: t('seachat.features.omnichannel.channels.email.description') || 'Manage email tickets with intelligent routing',
+    features: [
+      t('seachat.features.omnichannel.channels.email.seachat.features.categorization') || 'Smart categorization',
+      t('seachat.features.omnichannel.channels.email.seachat.features.responses') || 'Auto-responses',
+      t('seachat.features.omnichannel.channels.email.seachat.features.templates') || 'Email templates',
+      t('seachat.features.omnichannel.channels.email.seachat.features.priority') || 'Priority handling'
+    ]
+  }
+];
+
+// Benefits data
+const benefits = [
+  {
+    title: t('seachat.features.omnichannel.benefits.unifiedView.title') || 'Unified Customer View',
+    description: t('seachat.features.omnichannel.benefits.unifiedView.description') || 'See complete customer history across all channels in one interface',
+    metric: '360°'
+  },
+  {
+    title: t('seachat.features.omnichannel.benefits.handoffs.title') || 'Seamless Handoffs',
+    description: t('seachat.features.omnichannel.benefits.handoffs.description') || 'Customers can switch channels without losing conversation context',
+    metric: '100%'
+  },
+  {
+    title: t('seachat.features.omnichannel.benefits.resolution.title') || 'Faster Resolution',
+    description: t('seachat.features.omnichannel.benefits.resolution.description') || 'Reduce resolution time with unified agent workflows',
+    metric: '45%'
+  },
+  {
+    title: t('seachat.features.omnichannel.benefits.satisfaction.title') || 'Higher Satisfaction',
+    description: t('seachat.features.omnichannel.benefits.satisfaction.description') || 'Consistent experience across all touchpoints',
+    metric: '92%'
+  }
+];
+
+// Note: For actual brand logos (WhatsApp, Instagram, Facebook), 
+// we use lucide-react icons as placeholders.
+// In production, these should be replaced with actual brand SVG logos 
+// to comply with brand guidelines.
+---
+
+<Layout 
+  title={seoData.title}
+  description={seoData.description}
+  keywords={seoData.keywords}
+  lang={currentLang}
+  ogTitle={seoData.ogTitle}
+  ogDescription={seoData.ogDescription}
+  ogType={seoData.ogType}
+  breadcrumbs={breadcrumbs}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-purple-900 via-blue-800 to-indigo-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <span class="text-6xl mr-4">🌐</span>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {title}
+            </h1>
+          </div>
+          <p class="text-2xl text-purple-200 mb-8 max-w-4xl mx-auto">
+            {subtitle}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-purple-500 hover:bg-purple-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('common.actions.signUpForFree') || 'Sign Up For Free'}
+            </a>
+            <a
+              href={`https://calendar.app.google/NL13hnQEG5Mj6LsPA`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('common.actions.scheduleDemo') || 'Schedule Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supported Channels -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.omnichannel.channelsTitle') || 'All Your Channels, One Platform'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.omnichannel.channelsSubtitle') || 'Connect and manage customer conversations across every channel your customers use.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {channels.map((channel, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+            >
+              <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-2xl flex items-center justify-center mb-6">
+                {channel.iconName === 'Globe' && <Globe class="w-8 h-8 text-white" />}
+                {channel.iconName === 'MessageSquare' && <MessageSquare class="w-8 h-8 text-white" />}
+                {channel.iconName === 'Instagram' && <Instagram class="w-8 h-8 text-white" />}
+                {channel.iconName === 'Facebook' && <Facebook class="w-8 h-8 text-white" />}
+                {channel.iconName === 'Phone' && <Phone class="w-8 h-8 text-white" />}
+                {channel.iconName === 'Mail' && <Mail class="w-8 h-8 text-white" />}
+              </div>
+              
+              <h3 class="text-xl font-bold text-gray-900 mb-3">{channel.name}</h3>
+              <p class="text-gray-600 mb-6">{channel.description}</p>
+              
+              <div class="space-y-2">
+                {channel.features.map((feature, idx) => (
+                  <div key={idx} class="flex items-center space-x-3">
+                    <div class="w-2 h-2 bg-purple-500 rounded-full"></div>
+                    <span class="text-gray-700 text-sm">{feature}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.omnichannel.benefitsTitle') || 'The Power of True Omnichannel'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.omnichannel.benefitsSubtitle') || 'Go beyond just having multiple channels. Create unified experiences that delight customers.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {benefits.map((benefit, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300"
+            >
+              <div class="text-4xl font-bold text-purple-600 mb-4">{benefit.metric}</div>
+              <h3 class="text-xl font-bold text-gray-900 mb-4">{benefit.title}</h3>
+              <p class="text-gray-600">{benefit.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Unified Inbox Demo -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.omnichannel.inboxTitle') || 'Unified Inbox Experience'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.omnichannel.inboxSubtitle') || 'See how all your customer conversations come together in one intelligent interface.'}
+          </p>
+        </div>
+
+        <div class="bg-gradient-to-br from-gray-900 to-purple-900 rounded-2xl p-8 text-white">
+          <div class="grid lg:grid-cols-3 gap-8">
+            <div>
+              <h3 class="text-xl font-bold mb-6">{t('seachat.features.omnichannel.activeConversations') || 'Active Conversations'}</h3>
+              <div class="space-y-4">
+                <div class="bg-white/10 rounded-lg p-4 backdrop-blur-sm border-l-4 border-blue-400">
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="font-medium">Sarah Chen</span>
+                    <span class="text-blue-400">🌐</span>
+                  </div>
+                  <p class="text-sm text-gray-300">{t('seachat.features.omnichannel.websiteChat') || 'Website chat about product features...'}</p>
+                </div>
+                
+                <div class="bg-white/10 rounded-lg p-4 backdrop-blur-sm border-l-4 border-green-400">
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="font-medium">Mike Johnson</span>
+                    <span class="text-green-400">💬</span>
+                  </div>
+                  <p class="text-sm text-gray-300">{t('seachat.features.omnichannel.whatsappInquiry') || 'WhatsApp inquiry about order status...'}</p>
+                </div>
+                
+                <div class="bg-white/10 rounded-lg p-4 backdrop-blur-sm border-l-4 border-pink-400">
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="font-medium">Emma Wilson</span>
+                    <span class="text-pink-400">📸</span>
+                  </div>
+                  <p class="text-sm text-gray-300">{t('seachat.features.omnichannel.instagramDM') || 'Instagram DM about return policy...'}</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="lg:col-span-2">
+              <h3 class="text-xl font-bold mb-6">{t('seachat.features.omnichannel.conversationView') || 'Conversation View'}</h3>
+              <div class="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
+                <div class="space-y-4">
+                  <div class="bg-blue-500/20 rounded-lg p-3">
+                    <div class="text-sm text-blue-300 mb-1">{t('seachat.features.omnichannel.customerVia') || 'Customer via Website'}</div>
+                    <p>{t('seachat.features.omnichannel.customerMessage') || 'Hi, I\'m interested in your AI automation features. Can you tell me more?'}</p>
+                  </div>
+                  
+                  <div class="bg-purple-500/20 rounded-lg p-3">
+                    <div class="text-sm text-purple-300 mb-1">{t('seachat.features.omnichannel.agentResponse') || 'Agent Response'}</div>
+                    <p>{t('seachat.features.omnichannel.agentMessage') || 'I\'d be happy to help! Our AI automation can handle up to 80% of routine inquiries...'}</p>
+                  </div>
+                  
+                  <div class="bg-green-500/20 rounded-lg p-3">
+                    <div class="text-sm text-green-300 mb-1">{t('seachat.features.omnichannel.customerViaWhatsapp') || 'Customer via WhatsApp'}</div>
+                    <p>{t('seachat.features.omnichannel.whatsappMessage') || 'Thanks! Can I continue this conversation on WhatsApp?'}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-purple-600 to-blue-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.features.omnichannel.ctaTitle') || 'Ready to Unify Your Customer Channels?'}
+        </h2>
+        <p class="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.features.omnichannel.ctaSubtitle') || 'Connect all your customer touchpoints and provide seamless support experiences that keep customers coming back.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('common.actions.signUpForFree') || 'Sign Up For Free'}
+          </a>
+          <a
+            href={`https://calendar.app.google/NL13hnQEG5Mj6LsPA`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+          >
+            {t('common.actions.scheduleDemo') || 'Schedule Demo'}
+            <span class="ml-2">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

@@ -1,0 +1,370 @@
+---
+import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, languages, getLocalizedPath } from '../../../../i18n/helpers';
+
+const { lang } = Astro.params;
+const { t, translations } = await getTranslationHelpers(lang);
+
+// SEO Configuration
+const seoData = {
+  title: t('seax.channels.sms.seo.title') || 'Bulk SMS Marketing - Send Millions of SMS Messages | SeaX',
+  description: t('seax.channels.sms.seo.description') || 'Send millions of SMS messages instantly with SeaX. High delivery rates, global reach, and advanced analytics for your SMS marketing campaigns.',
+  keywords: t('seax.channels.sms.seo.keywords') || 'bulk SMS, SMS marketing, mass messaging, SMS campaigns, text messaging, SMS API',
+  canonical: 'https://seasalt.ai' + getLocalizedPath('/seax/channels/sms', lang),
+  ogImage: '/seax-sms.png'
+};
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: getLocalizedPath('/', lang) },
+  { name: 'SeaX', url: getLocalizedPath('/seax', lang) },
+  { name: 'Channels', url: getLocalizedPath('/seax/channels', lang) },
+  { name: 'SMS', url: getLocalizedPath('/seax/channels/sms', lang) }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: "What is SeaX SMS and how does it work?",
+    answer: "SeaX SMS is a bulk messaging platform that allows you to send millions of text messages instantly to your customers worldwide. It features high delivery rates, real-time analytics, and global carrier connections."
+  },
+  {
+    question: "What are the SMS delivery rates with SeaX?",
+    answer: "SeaX maintains industry-leading SMS delivery rates of over 98% globally, with real-time delivery tracking and comprehensive reporting for all your campaigns."
+  },
+  {
+    question: "Can I send SMS messages internationally?",
+    answer: "Yes, SeaX supports SMS delivery to over 195 countries worldwide with competitive pricing and reliable carrier partnerships for international messaging."
+  }
+];
+
+// Features data
+const features = [
+  {
+    title: t('seax.channels.sms.features.globalReach.title') || 'Global Reach',
+    description: t('seax.channels.sms.features.globalReach.description') || 'Send SMS to 195+ countries worldwide',
+    icon: 'globe'
+  },
+  {
+    title: t('seax.channels.sms.features.lightningFast.title') || 'Lightning Fast',
+    description: t('seax.channels.sms.features.lightningFast.description') || 'Deliver millions of messages in seconds',
+    icon: 'zap'
+  },
+  {
+    title: t('seax.channels.sms.features.secure.title') || 'Secure & Compliant',
+    description: t('seax.channels.sms.features.secure.description') || 'Bank-level security with full compliance',
+    icon: 'shield'
+  },
+  {
+    title: t('seax.channels.sms.features.analytics.title') || 'Advanced Analytics',
+    description: t('seax.channels.sms.features.analytics.description') || 'Real-time tracking and detailed reports',
+    icon: 'chart'
+  },
+  {
+    title: t('seax.channels.sms.features.bulk.title') || 'Bulk Messaging',
+    description: t('seax.channels.sms.features.bulk.description') || 'Send to millions of recipients simultaneously',
+    icon: 'users'
+  },
+  {
+    title: t('seax.channels.sms.features.segmentation.title') || 'Smart Segmentation',
+    description: t('seax.channels.sms.features.segmentation.description') || 'Target specific customer segments',
+    icon: 'target'
+  }
+];
+
+// Use cases data
+const useCases = [
+  {
+    title: t('seax.channels.sms.useCases.marketing.title') || 'Marketing Campaigns',
+    description: t('seax.channels.sms.useCases.marketing.description') || 'Drive sales with promotional SMS campaigns',
+    metrics: t('seax.channels.sms.useCases.marketing.metrics') || 'Up to 98% open rates'
+  },
+  {
+    title: t('seax.channels.sms.useCases.support.title') || 'Customer Support',
+    description: t('seax.channels.sms.useCases.support.description') || 'Provide instant support notifications',
+    metrics: t('seax.channels.sms.useCases.support.metrics') || '5x faster response times'
+  },
+  {
+    title: t('seax.channels.sms.useCases.appointments.title') || 'Appointment Reminders',
+    description: t('seax.channels.sms.useCases.appointments.description') || 'Reduce no-shows with timely reminders',
+    metrics: t('seax.channels.sms.useCases.appointments.metrics') || '40% reduction in no-shows'
+  },
+  {
+    title: t('seax.channels.sms.useCases.emergency.title') || 'Emergency Alerts',
+    description: t('seax.channels.sms.useCases.emergency.description') || 'Send critical alerts instantly',
+    metrics: t('seax.channels.sms.useCases.emergency.metrics') || '99.9% delivery guarantee'
+  }
+];
+
+// Stats data
+const stats = [
+  { 
+    value: t('seax.channels.sms.hero.stats.messagesValue') || '10M+', 
+    label: t('seax.channels.sms.hero.stats.messagesSent') || 'Messages Sent Daily' 
+  },
+  { 
+    value: t('seax.channels.sms.hero.stats.countriesValue') || '195+', 
+    label: t('seax.channels.sms.hero.stats.countries') || 'Countries Covered' 
+  },
+  { 
+    value: t('seax.channels.sms.hero.stats.uptimeValue') || '99.9%', 
+    label: t('seax.channels.sms.hero.stats.uptime') || 'System Uptime' 
+  },
+  { 
+    value: t('seax.channels.sms.hero.stats.deliveryValue') || '98%+', 
+    label: t('seax.channels.sms.hero.stats.deliveryRate') || 'Delivery Rate' 
+  }
+];
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map(lang => ({
+    params: { lang },
+  }));
+}
+
+// Helper function to get demo URL
+const getDemoUrl = () => {
+  return `https://calendly.com/seasalt-ai/seasalt-ai-demo?lang=${lang}`;
+};
+---
+
+<SeaxLayout 
+  {seoData} 
+  productKey="seax" 
+  breadcrumbs={breadcrumbs} 
+  faqs={faqs} 
+  lang={lang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-green-50 to-blue-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="space-y-8">
+          <div class="space-y-4">
+            <div class="flex items-center space-x-3">
+              <div class="bg-green-100 p-3 rounded-lg">
+                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                </svg>
+              </div>
+              <span class="text-sm font-medium text-green-600 bg-green-100 px-3 py-1 rounded-full">
+                {t('seax.channels.sms.hero.badge') || 'SMS Marketing'}
+              </span>
+            </div>
+            <h1 class="text-4xl sm:text-5xl font-bold text-gray-900">
+              {t('seax.channels.sms.hero.title') || 'Bulk SMS'}
+              <span class="text-green-600 block">
+                {t('seax.channels.sms.hero.titleHighlight') || 'Marketing Platform'}
+              </span>
+            </h1>
+            <p class="text-xl text-gray-600">
+              {t('seax.channels.sms.hero.description') || 'Send millions of SMS messages instantly to customers worldwide. High delivery rates, advanced analytics, and global reach for your marketing campaigns.'}
+            </p>
+          </div>
+          
+          <div class="grid grid-cols-2 gap-4">
+            {stats.map((stat, index) => (
+              <div key={index} class="text-center">
+                <div class="text-2xl font-bold text-green-600">{stat.value}</div>
+                <div class="text-sm text-gray-600">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+          
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a
+              href="https://seax.seasalt.ai/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center space-x-2"
+            >
+              <span>{t('seax.channels.sms.hero.cta.primary') || 'Start Free Trial'}</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              </svg>
+            </a>
+            <a
+              href={getDemoUrl()}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transition-colors text-center"
+            >
+              {t('seax.channels.sms.hero.cta.secondary') || 'Book Demo'}
+            </a>
+          </div>
+        </div>
+        
+        <!-- SMS Illustration -->
+        <div class="relative">
+          <div class="bg-white rounded-2xl shadow-xl p-8 border">
+            <div class="space-y-6">
+              <div class="flex items-center justify-between">
+                <h3 class="text-lg font-semibold text-gray-900">
+                  {t('seax.channels.sms.hero.preview.title') || 'SMS Campaign Preview'}
+                </h3>
+                <span class="text-sm text-green-600 bg-green-100 px-3 py-1 rounded-full font-medium">
+                  {t('seax.channels.sms.hero.preview.status') || 'Live'}
+                </span>
+              </div>
+              
+              <div class="bg-gray-50 rounded-lg p-4">
+                <div class="text-sm text-gray-700 mb-2">
+                  {t('seax.channels.sms.hero.preview.messageLabel') || 'Message Preview'}
+                </div>
+                <div class="bg-white rounded-lg p-3 border-l-4 border-green-500">
+                  <div class="text-sm text-gray-900">
+                    "{t('seax.channels.sms.hero.preview.message') || 'Hi {{name}}! Special offer: 50% off today only. Use code SAVE50. Shop now: {{link}}'}"
+                  </div>
+                </div>
+              </div>
+              
+              <div class="grid grid-cols-2 gap-4">
+                <div class="bg-blue-50 rounded-lg p-3 text-center">
+                  <div class="text-2xl font-bold text-blue-600">
+                    {t('seax.channels.sms.hero.preview.deliveredValue') || '847K'}
+                  </div>
+                  <div class="text-sm text-gray-600">
+                    {t('seax.channels.sms.hero.preview.delivered') || 'Delivered'}
+                  </div>
+                </div>
+                <div class="bg-green-50 rounded-lg p-3 text-center">
+                  <div class="text-2xl font-bold text-green-600">
+                    {t('seax.channels.sms.hero.preview.successValue') || '98.2%'}
+                  </div>
+                  <div class="text-sm text-gray-600">
+                    {t('seax.channels.sms.hero.preview.successRate') || 'Success Rate'}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Features Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.channels.sms.features.title') || 'Powerful SMS Features'}
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          {t('seax.channels.sms.features.description') || 'Everything you need to run successful SMS marketing campaigns at scale'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {features.map((feature, index) => (
+          <div key={index} class="text-center space-y-4">
+            <div class="bg-green-100 p-4 rounded-lg w-16 h-16 flex items-center justify-center mx-auto">
+              {feature.icon === 'globe' && (
+                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              )}
+              {feature.icon === 'zap' && (
+                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              )}
+              {feature.icon === 'shield' && (
+                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                </svg>
+              )}
+              {feature.icon === 'chart' && (
+                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                </svg>
+              )}
+              {feature.icon === 'users' && (
+                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+                </svg>
+              )}
+              {feature.icon === 'target' && (
+                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M6.267 3.455a8 8 0 111.164 1.164l-1.122 1.122a6.5 6.5 0 10-.958-.958l1.122-1.122z"/>
+                </svg>
+              )}
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900">{feature.title}</h3>
+            <p class="text-gray-600">{feature.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+  
+  <!-- Use Cases Section -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.channels.sms.useCases.title') || 'SMS Use Cases'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.channels.sms.useCases.description') || 'Discover how businesses use SMS to drive results'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {useCases.map((useCase, index) => (
+          <div key={index} class="bg-white rounded-lg p-6 shadow-sm">
+            <div class="flex items-start space-x-4">
+              <div class="bg-green-100 p-2 rounded-lg">
+                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">{useCase.title}</h3>
+                <p class="text-gray-600 mb-3">{useCase.description}</p>
+                <div class="text-sm font-medium text-green-600">{useCase.metrics}</div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+  
+  <!-- CTA Section -->
+  <div class="bg-green-600 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t('seax.channels.sms.cta.title') || 'Ready to Scale Your SMS Marketing?'}
+      </h2>
+      <p class="text-xl text-green-100 mb-8">
+        {t('seax.channels.sms.cta.description') || 'Join thousands of businesses using SeaX to reach millions of customers through SMS'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{t('seax.channels.sms.cta.primary') || 'Start Free Trial'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          </svg>
+        </a>
+        
+        <a
+          href={getDemoUrl()}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
+        >
+          {t('seax.channels.sms.cta.secondary') || 'Book Demo'}
+        </a>
+      </div>
+    </div>
+  </div>
+</SeaxLayout>

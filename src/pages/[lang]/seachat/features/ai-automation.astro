@@ -1,0 +1,314 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../../i18n/helpers';
+import { getMeetingUrl } from "../../../../constants/urls";
+import { Bot, Zap, Brain, MessageSquare, Clock, TrendingUp, ArrowRight } from 'lucide-react';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// Get language and i18n functions
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO data
+const seoTitle = t('seachat.features.aiAutomation.title') + ' - SeaChat';
+const seoDescription = t('seachat.features.aiAutomation.subtitle');
+const seoKeywords = 'AI automation, customer support, chatbot, voice agents, SeaChat, artificial intelligence';
+const canonicalUrl = currentLang === 'en' ? 'https://seasalt.ai/seachat/features/ai-automation' : `https://seasalt.ai/${currentLang}/seachat/features/ai-automation`;
+
+// 麵包屑導航
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Features', url: `/${currentLang}/seachat/features/` },
+  { name: 'AI Automation' }
+];
+
+// Page data
+const features = [
+  {
+    icon: 'Brain',
+    title: t('seachat.features.aiAutomation.contextAware.title'),
+    description: t('seachat.features.aiAutomation.contextAware.description'),
+    color: 'from-purple-500 to-indigo-500'
+  },
+  {
+    icon: 'TrendingUp',
+    title: t('seachat.features.aiAutomation.learning.title'),
+    description: t('seachat.features.aiAutomation.learning.description'),
+    color: 'from-blue-500 to-teal-500'
+  },
+  {
+    icon: 'MessageSquare',
+    title: t('seachat.features.aiAutomation.handoff.title'),
+    description: t('seachat.features.aiAutomation.handoff.description'),
+    color: 'from-green-500 to-emerald-500'
+  },
+  {
+    icon: 'Clock',
+    title: t('seachat.features.aiAutomation.availability.title'),
+    description: t('seachat.features.aiAutomation.availability.description'),
+    color: 'from-orange-500 to-red-500'
+  },
+  {
+    icon: 'Zap',
+    title: t('seachat.features.aiAutomation.response.title'),
+    description: t('seachat.features.aiAutomation.response.description'),
+    color: 'from-yellow-500 to-orange-500'
+  },
+  {
+    icon: 'Bot',
+    title: t('seachat.features.aiAutomation.multilanguage.title'),
+    description: t('seachat.features.aiAutomation.multilanguage.description'),
+    color: 'from-pink-500 to-purple-500'
+  }
+];
+
+const automationTypes = [
+  {
+    title: t('seachat.features.aiAutomation.types.faq.title'),
+    description: t('seachat.features.aiAutomation.types.faq.description'),
+    percentage: 85,
+    color: 'bg-blue-500'
+  },
+  {
+    title: t('seachat.features.aiAutomation.types.orders.title'),
+    description: t('seachat.features.aiAutomation.types.orders.description'),
+    percentage: 92,
+    color: 'bg-green-500'
+  },
+  {
+    title: t('seachat.features.aiAutomation.types.appointments.title'),
+    description: t('seachat.features.aiAutomation.types.appointments.description'),
+    percentage: 78,
+    color: 'bg-purple-500'
+  },
+  {
+    title: t('seachat.features.aiAutomation.types.recommendations.title'),
+    description: t('seachat.features.aiAutomation.types.recommendations.description'),
+    percentage: 88,
+    color: 'bg-teal-500'
+  }
+];
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  canonical={canonicalUrl}
+  lang={currentLang}
+  keywords={seoKeywords}
+  type="service"
+  breadcrumbs={breadcrumbs}
+  image="https://seasalt.ai/seasalt-ai-og-image.png"
+  article={{
+    publishedTime: '2024-01-01T00:00:00Z',
+    modifiedTime: '2024-01-15T00:00:00Z',
+    author: 'SeaChat Team',
+    section: 'Features'
+  }}
+>
+  <main>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-purple-900 via-blue-800 to-indigo-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <Bot size={64} class="text-purple-300 mr-4" />
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.features.aiAutomation.title')}
+            </h1>
+          </div>
+          <p class="text-2xl text-purple-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.features.aiAutomation.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-purple-500 hover:bg-purple-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.features.aiAutomation.tryButton')}
+            </a>
+            <a
+              href={getMeetingUrl(currentLang)}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-purple-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
+            >
+              {t('seachat.features.aiAutomation.scheduleDemo')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.aiAutomation.featuresTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.aiAutomation.featuresSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {features.map((feature, index) => {
+            let IconComponent;
+            if (feature.icon === 'Brain') IconComponent = Brain;
+            else if (feature.icon === 'TrendingUp') IconComponent = TrendingUp;
+            else if (feature.icon === 'MessageSquare') IconComponent = MessageSquare;
+            else if (feature.icon === 'Clock') IconComponent = Clock;
+            else if (feature.icon === 'Zap') IconComponent = Zap;
+            else if (feature.icon === 'Bot') IconComponent = Bot;
+            
+            return (
+              <div
+                key={index}
+                class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+              >
+                <div class={`w-16 h-16 bg-gradient-to-br ${feature.color} rounded-2xl flex items-center justify-center mb-6`}>
+                  {IconComponent && <IconComponent size={32} class="text-white" />}
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+                <p class="text-gray-600 leading-relaxed">{feature.description}</p>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+
+    <!-- Automation Performance -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.aiAutomation.performanceTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.aiAutomation.performanceSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {automationTypes.map((type, index) => (
+            <div
+              key={index}
+              class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-xl font-bold text-gray-900">{type.title}</h3>
+                <span class="text-2xl font-bold text-gray-900">{type.percentage}%</span>
+              </div>
+              <p class="text-gray-600 mb-6">{type.description}</p>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div 
+                  class={`${type.color} h-3 rounded-full transition-all duration-1000`}
+                  style={`width: ${type.percentage}%`}
+                ></div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- AI vs Human Comparison -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.features.aiAutomation.hybridTitle')}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.features.aiAutomation.hybridSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12">
+          <!-- AI Strengths -->
+          <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-100">
+            <div class="flex items-center mb-6">
+              <Bot size={48} class="text-blue-600 mr-4" />
+              <h3 class="text-2xl font-bold text-gray-900">{t('seachat.features.aiAutomation.aiStrengthsTitle')}</h3>
+            </div>
+            <div class="space-y-4">
+              {Array.isArray(t('seachat.features.aiAutomation.aiStrengths')) ? 
+                t('seachat.features.aiAutomation.aiStrengths').map((strength, index) => (
+                  <div
+                    key={index}
+                    class="flex items-center space-x-3 group"
+                  >
+                    <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                    <span class="text-gray-700">{strength}</span>
+                  </div>
+                )) : []}
+            </div>
+          </div>
+
+          <!-- Human Strengths -->
+          <div class="bg-gradient-to-br from-green-50 to-teal-50 rounded-2xl p-8 border border-green-100">
+            <div class="flex items-center mb-6">
+              <MessageSquare size={48} class="text-green-600 mr-4" />
+              <h3 class="text-2xl font-bold text-gray-900">{t('seachat.features.aiAutomation.humanStrengthsTitle')}</h3>
+            </div>
+            <div class="space-y-4">
+              {Array.isArray(t('seachat.features.aiAutomation.humanStrengths')) ? 
+                t('seachat.features.aiAutomation.humanStrengths').map((strength, index) => (
+                  <div
+                    key={index}
+                    class="flex items-center space-x-3 group"
+                  >
+                    <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                    <span class="text-gray-700">{strength}</span>
+                  </div>
+                )) : []}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-purple-600 to-blue-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.features.aiAutomation.ctaTitle')}
+        </h2>
+        <p class="text-xl text-purple-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.features.aiAutomation.ctaSubtitle')}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-purple-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.features.aiAutomation.signUpForFree')}
+          </a>
+          <a
+            href={getMeetingUrl(currentLang)}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center"
+          >
+            {t('seachat.features.aiAutomation.scheduleDemo')}
+            <ArrowRight size={20} class="ml-2" />
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

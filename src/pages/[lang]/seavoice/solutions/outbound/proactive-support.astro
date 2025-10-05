@@ -1,0 +1,458 @@
+---
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
+import Layout from '../../../../../layouts/Layout.astro';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯資源
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO 內容 - 使用與舊版本相同的翻譯鍵
+const seoTitle = t('seavoice.pages.solutions.outbound.proactiveSupport.hero.title') || 'Proactive Customer Support - SeaVoice';
+const seoDescription = t('seavoice.pages.solutions.outbound.proactiveSupport.hero.description') || 'Stay ahead of customer issues with intelligent proactive notifications. Automatically inform customers about service updates, account changes, and important information before they need to call you.';
+const seoKeywords = 'proactive support, customer notifications, service alerts, AI notifications, account updates, SeaVoice';
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.proactiveSupport.breadcrumb') || 'Proactive Support' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.proactiveSupport.faq.q1') || 'What kinds of proactive notifications can be sent?',
+    answer: t('seavoice.pages.solutions.outbound.proactiveSupport.faq.a1') || 'Service outages, account changes, security alerts, billing notices, and delivery updates are supported.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.proactiveSupport.faq.q2') || 'How do you avoid notification fatigue?',
+    answer: t('seavoice.pages.solutions.outbound.proactiveSupport.faq.a2') || 'Preference management, intelligent prioritization, and optimal timing controls reduce fatigue.'
+  }
+];
+
+// 準備數據結構 - 使用與舊版本完全相同的翻譯鍵路徑
+const features = [
+  {
+    title: t('seavoice.pages.solutions.outbound.proactiveSupport.features.proactiveNotifications.title') || 'Proactive Notifications',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.features.proactiveNotifications.description') || 'Automatically notify customers about important updates, changes, or issues before they become problems.',
+    benefits: [
+      t('seavoice.pages.solutions.outbound.proactiveSupport.features.proactiveNotifications.benefit1') || 'Service alerts',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.features.proactiveNotifications.benefit2') || 'Account updates',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.features.proactiveNotifications.benefit3') || 'Preventive notifications'
+    ],
+    icon: 'bell'
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.proactiveSupport.features.issuePrevention.title') || 'Issue Prevention',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.features.issuePrevention.description') || 'Identify potential problems early and reach out to customers with solutions.',
+    benefits: [
+      t('seavoice.pages.solutions.outbound.proactiveSupport.features.issuePrevention.benefit1') || 'Early detection',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.features.issuePrevention.benefit2') || 'Preventive measures',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.features.issuePrevention.benefit3') || 'Problem resolution'
+    ],
+    icon: 'shield'
+  },
+  {
+    title: t('seavoice.pages.solutions.outbound.proactiveSupport.features.timelyCommunication.title') || 'Timely Communication',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.features.timelyCommunication.description') || 'Deliver critical information at the right time to maximize customer satisfaction.',
+    benefits: [
+      t('seavoice.pages.solutions.outbound.proactiveSupport.features.timelyCommunication.benefit1') || 'Optimal timing',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.features.timelyCommunication.benefit2') || 'Urgency awareness',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.features.timelyCommunication.benefit3') || 'Scheduled delivery'
+    ],
+    icon: 'clock'
+  }
+];
+
+const notificationTypes = [
+  {
+    type: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.serviceOutages.type') || 'Service Outages',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.serviceOutages.description') || 'Inform customers about planned maintenance or unexpected service disruptions',
+    examples: [
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.serviceOutages.example1') || 'Planned maintenance windows',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.serviceOutages.example2') || 'Unexpected outages',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.serviceOutages.example3') || 'Service restoration updates'
+    ],
+    urgency: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.serviceOutages.urgency') || 'High',
+    timing: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.serviceOutages.timing') || 'Immediate'
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.accountChanges.type') || 'Account Changes',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.accountChanges.description') || 'Notify customers about important changes to their accounts or services',
+    examples: [
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.accountChanges.example1') || 'Policy updates',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.accountChanges.example2') || 'Rate changes',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.accountChanges.example3') || 'Feature modifications'
+    ],
+    urgency: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.accountChanges.urgency') || 'Medium',
+    timing: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.accountChanges.timing') || 'Advance notice'
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.securityAlerts.type') || 'Security Alerts',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.securityAlerts.description') || 'Alert customers to potential security issues or suspicious activities',
+    examples: [
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.securityAlerts.example1') || 'Login attempts',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.securityAlerts.example2') || 'Password changes',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.securityAlerts.example3') || 'Account access'
+    ],
+    urgency: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.securityAlerts.urgency') || 'High',
+    timing: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.securityAlerts.timing') || 'Real-time'
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.productUpdates.type') || 'Product Updates',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.productUpdates.description') || 'Share information about new features, improvements, or changes',
+    examples: [
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.productUpdates.example1') || 'New features',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.productUpdates.example2') || 'App updates',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.productUpdates.example3') || 'Service enhancements'
+    ],
+    urgency: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.productUpdates.urgency') || 'Low',
+    timing: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.productUpdates.timing') || 'Scheduled'
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.billingNotifications.type') || 'Billing Notifications',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.billingNotifications.description') || 'Proactive communication about billing, payments, and account status',
+    examples: [
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.billingNotifications.example1') || 'Payment due dates',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.billingNotifications.example2') || 'Failed payments',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.billingNotifications.example3') || 'Credit updates'
+    ],
+    urgency: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.billingNotifications.urgency') || 'Medium',
+    timing: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.billingNotifications.timing') || 'Advance notice'
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.deliveryUpdates.type') || 'Delivery Updates',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.deliveryUpdates.description') || 'Keep customers informed about shipment and delivery status changes',
+    examples: [
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.deliveryUpdates.example1') || 'Shipping delays',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.deliveryUpdates.example2') || 'Delivery confirmations',
+      t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.deliveryUpdates.example3') || 'Address issues'
+    ],
+    urgency: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.deliveryUpdates.urgency') || 'Medium',
+    timing: t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.deliveryUpdates.timing') || 'Real-time'
+  }
+];
+
+const benefits = [
+  {
+    metric: t('seavoice.pages.solutions.outbound.proactiveSupport.benefits.reactiveCalls.metric') || '70%',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.benefits.reactiveCalls.description') || 'Reduction in reactive support calls'
+  },
+  {
+    metric: t('seavoice.pages.solutions.outbound.proactiveSupport.benefits.customerSatisfaction.metric') || '85%',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.benefits.customerSatisfaction.description') || 'Customer satisfaction with proactive updates'
+  },
+  {
+    metric: t('seavoice.pages.solutions.outbound.proactiveSupport.benefits.customerChurn.metric') || '50%',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.benefits.customerChurn.description') || 'Decrease in customer churn'
+  },
+  {
+    metric: t('seavoice.pages.solutions.outbound.proactiveSupport.benefits.automatedMonitoring.metric') || '24/7',
+    description: t('seavoice.pages.solutions.outbound.proactiveSupport.benefits.automatedMonitoring.description') || 'Automated monitoring and alerts'
+  }
+];
+
+const automationFeatures = [
+  t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.features.realTimeMonitoring') || 'Real-time system monitoring',
+  t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.features.intelligentPrioritization') || 'Intelligent alert prioritization',
+  t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.features.preferenceManagement') || 'Customer preference management',
+  t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.features.multiChannelDelivery') || 'Multi-channel delivery options',
+  t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.features.escalationProtocols') || 'Escalation protocols',
+  t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.features.performanceAnalytics') || 'Performance analytics'
+];
+---
+
+<Layout 
+  title={seoTitle}
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+>
+  <div class="min-h-screen bg-white">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-teal-50 via-white to-blue-50 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-5 5-5-5h5v-12"></path>
+            </svg>
+          </div>
+          <h1 class="text-5xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.hero.title') || 'Proactive Customer Support'}
+          </h1>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.hero.description') || 'Stay ahead of customer issues with intelligent proactive notifications. Automatically inform customers about service updates, account changes, and important information before they need to call you.'}
+          </p>
+          <button class="bg-teal-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-teal-700 transition-colors">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.hero.cta') || 'Enable Proactive Support'}
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.features.title') || 'Intelligent Proactive Features'}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.features.subtitle') || 'Advanced automation that anticipates customer needs and prevents issues'}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {features.map((feature) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+              <div class="w-12 h-12 bg-gradient-to-r from-teal-600 to-blue-600 rounded-lg flex items-center justify-center mb-6">
+                {feature.icon === 'bell' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-5 5-5-5h5v-12"></path>
+                  </svg>
+                )}
+                {feature.icon === 'shield' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'clock' && (
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                )}
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+              <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+              <div class="space-y-2">
+                {feature.benefits.map((benefit) => (
+                  <div class="flex items-center">
+                    <svg class="w-4 h-4 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span class="text-sm text-gray-700">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Notification Types -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.title') || 'Comprehensive Notification Types'}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.notificationTypes.subtitle') || 'Cover all aspects of customer communication with intelligent automation'}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {notificationTypes.map((notification) => (
+            <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-lg font-bold text-gray-900">{notification.type}</h3>
+                <div class={`px-2 py-1 rounded-full text-xs font-semibold ${
+                  notification.urgency === 'High' ? 'bg-red-100 text-red-800' :
+                  notification.urgency === 'Medium' ? 'bg-yellow-100 text-yellow-800' :
+                  'bg-green-100 text-green-800'
+                }`}>
+                  {notification.urgency}
+                </div>
+              </div>
+              
+              <p class="text-gray-600 text-sm mb-4">{notification.description}</p>
+              
+              <div class="mb-4">
+                <h4 class="font-semibold text-gray-900 text-sm mb-2">
+                  {t('seavoice.pages.solutions.outbound.proactiveSupport.labels.examples') || 'Examples'}:
+                </h4>
+                <div class="space-y-1">
+                  {notification.examples.map((example) => (
+                    <div class="flex items-center">
+                      <div class="w-1.5 h-1.5 bg-teal-600 rounded-full mr-2"></div>
+                      <span class="text-xs text-gray-700">{example}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              
+              <div class="flex justify-between text-xs text-gray-500">
+                <span>{t('seavoice.pages.solutions.outbound.proactiveSupport.labels.timing') || 'Timing'}: {notification.timing}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Automation Features -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.title') || 'Advanced Automation Engine'}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.description') || 'Our intelligent automation system continuously monitors your services and customer accounts, automatically triggering appropriate notifications based on predefined rules and customer preferences.'}
+            </p>
+            <div class="space-y-6">
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-teal-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.subFeatures.realTimeMonitoring.title') || 'Real-Time Monitoring'}
+                  </h3>
+                  <p class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.subFeatures.realTimeMonitoring.description') || 'Continuous system and account monitoring'}
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-teal-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.732-.833-2.5 0L4.268 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.subFeatures.smartPrioritization.title') || 'Smart Prioritization'}
+                  </h3>
+                  <p class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.subFeatures.smartPrioritization.description') || 'Intelligent alert ranking and delivery'}
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-center">
+                <svg class="w-6 h-6 text-teal-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <div>
+                  <h3 class="font-semibold text-gray-900">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.subFeatures.customerPreferences.title') || 'Customer Preferences'}
+                  </h3>
+                  <p class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.subFeatures.customerPreferences.description') || 'Respect individual communication preferences'}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-teal-50 to-blue-50 rounded-2xl p-8">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">
+              {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.featuresTitle') || 'Automation Features'}
+            </h3>
+            <div class="grid grid-cols-1 gap-3">
+              {automationFeatures.map((feature) => (
+                <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                  <svg class="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span class="text-gray-700 font-medium">{feature}</span>
+                </div>
+              ))}
+            </div>
+            
+            <div class="mt-6 p-4 bg-white rounded-lg">
+              <h4 class="font-semibold text-gray-900 mb-2">
+                {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.liveMonitoring.title') || 'Live Monitoring'}
+              </h4>
+              <div class="space-y-2">
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.liveMonitoring.activeMonitors') || 'Active Monitors:'}
+                  </span>
+                  <span class="font-semibold text-teal-600">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.liveMonitoring.activeMonitorsValue') || '1,247'}
+                  </span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.liveMonitoring.notificationsSent') || 'Notifications Sent:'}
+                  </span>
+                  <span class="font-semibold text-blue-600">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.liveMonitoring.notificationsSentValue') || '3,892'}
+                  </span>
+                </div>
+                <div class="flex justify-between text-sm">
+                  <span class="text-gray-600">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.liveMonitoring.issuesPrevented') || 'Issues Prevented:'}
+                  </span>
+                  <span class="font-semibold text-green-600">
+                    {t('seavoice.pages.solutions.outbound.proactiveSupport.automationSection.liveMonitoring.issuesPreventedValue') || '156'}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Metrics -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.benefits.title') || 'Proactive Support Impact'}
+          </h2>
+          <p class="text-xl text-gray-600">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.benefits.subtitle') || 'Measurable improvements in customer satisfaction and support efficiency'}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {benefits.map((benefit) => (
+            <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+              <div class="text-4xl font-bold text-teal-600 mb-4">{benefit.metric}</div>
+              <p class="text-gray-600">{benefit.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-teal-600 to-blue-600 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div>
+          <h2 class="text-4xl font-bold mb-6">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.cta.title') || 'Ready to Get Ahead of Customer Issues?'}
+          </h2>
+          <p class="text-xl mb-8 opacity-90">
+            {t('seavoice.pages.solutions.outbound.proactiveSupport.cta.subtitle') || 'Transform your customer support with intelligent proactive notifications and issue prevention'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <button class="bg-white text-teal-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+              {t('seavoice.pages.solutions.outbound.proactiveSupport.cta.startProactiveSupport') || 'Start Proactive Support'}
+            </button>
+            <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-teal-600 transition-colors">
+              {t('seavoice.pages.solutions.outbound.proactiveSupport.cta.seeDemo') || 'See Demo'}
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

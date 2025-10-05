@@ -1,0 +1,467 @@
+---
+import { getTranslationHelpers } from '../../../i18n/helpers';
+import type { VersionConfig } from '../config';
+
+export interface Props {
+  currentPath?: string;
+  lang?: string;
+  versionConfig?: VersionConfig;
+}
+
+const { currentPath = '/', lang = 'en', versionConfig } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+
+// Products data
+const products = [
+  {
+    title: t('productsData.seachat.title'),
+    href: '/seachat',
+    description: t('productsData.seachat.description'),
+    icon: 'MessageSquare'
+  },
+  {
+    title: t('productsData.seax.title'),
+    href: '/seax',
+    description: t('productsData.seax.description'),
+    icon: 'Users'
+  },
+  {
+    title: t('productsData.seameet.title'),
+    href: 'https://seameet.ai/',
+    description: t('productsData.seameet.description'),
+    icon: 'Video'
+  },
+  {
+    title: t('productsData.seavoice.title'),
+    href: '/seavoice',
+    description: t('productsData.seavoice.description'),
+    icon: 'Mic',
+    subProducts: [
+      {
+        title: t('productsData.seavoice.subProducts.tts'),
+        href: 'https://suite.seasalt.ai/tts/'
+      },
+      {
+        title: t('productsData.seavoice.subProducts.stt'),
+        href: 'https://suite.seasalt.ai/stt/'
+      },
+      {
+        title: t('productsData.seavoice.subProducts.discord'),
+        href: 'https://voice.seasalt.ai/discord/'
+      }
+    ]
+  }
+];
+
+// Solutions data
+const solutions = [
+  {
+    title: t('solutionsData.salesMarketing.title'),
+    path: '/solutions/sales-marketing',
+    slug: 'sales-marketing',
+    icon: 'TrendingUp'
+  },
+  {
+    title: t('solutionsData.customerSupport.title'),
+    path: '/solutions/customer-support',
+    slug: 'customer-support',
+    icon: 'Headphones'
+  },
+  {
+    title: t('solutionsData.aiAutomation.title'),
+    path: '/solutions/ai-automation',
+    slug: 'ai-automation',
+    icon: 'Bot'
+  },
+  {
+    title: t('solutionsData.smeOwners.title'),
+    path: '/solutions/sme-owners',
+    slug: 'sme-owners',
+    icon: 'Building2'
+  }
+];
+
+// Industries data
+const industries = [
+  {
+    icon: 'ShoppingCart',
+    title: t('industriesData.ecommerce.title'),
+    slug: 'e-commerce'
+  },
+  {
+    icon: 'Heart',
+    title: t('industriesData.healthcare.title'),
+    slug: 'healthcare'
+  },
+  {
+    icon: 'Home',
+    title: t('industriesData.realEstate.title'),
+    slug: 'real-estate'
+  },
+  {
+    icon: 'Utensils',
+    title: t('industriesData.restaurants.title'),
+    slug: 'restaurants-hospitality'
+  },
+  {
+    icon: 'GraduationCap',
+    title: t('industriesData.education.title'),
+    slug: 'education-training'
+  },
+  {
+    icon: 'Car',
+    title: t('industriesData.automotive.title'),
+    slug: 'automotive-services'
+  },
+  {
+    icon: 'Briefcase',
+    title: t('industriesData.professional.title'),
+    slug: 'professional-services'
+  },
+  {
+    icon: 'Building',
+    title: t('industriesData.financial.title'),
+    slug: 'financial-services'
+  }
+];
+
+// Helper function to get Wiki URL
+const getWikiUrl = () => {
+  const wikiLanguage = (lang === 'zh-TW' || lang === 'zh-CN') ? 'zh' : 'en';
+  return `https://wiki.seasalt.ai/${wikiLanguage}`;
+};
+
+const currentYear = new Date().getFullYear();
+const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
+---
+
+<footer class="bg-gray-900 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 sm:gap-3 lg:gap-4">
+      
+      <!-- Company Info -->
+      <div class="lg:col-span-1">
+        <div class="flex items-center mb-6">
+          <img 
+            src={logoSrc} 
+            alt="Seasalt.ai" 
+            class="h-8 w-auto brightness-0 invert"
+          />
+        </div>
+        <p class="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
+          {t('footer.tagline')}
+        </p>
+        <div class="space-y-2 sm:space-y-3">
+          <div class="flex items-center text-gray-300">
+            <span class="mr-2" aria-hidden="true">📞</span>
+            <span class="text-sm">+1 (SMB)-AI-AGENT</span>
+          </div>
+          <div class="flex items-center text-gray-300">
+            <span class="mr-2" aria-hidden="true">📧</span>
+            <span class="text-sm">info@seasalt.ai</span>
+          </div>
+          <div class="flex items-center text-gray-300">
+            <span class="mr-2" aria-hidden="true">📍</span>
+            <span class="text-sm">Seattle, WA</span>
+          </div>
+        </div>
+        
+        <!-- Social Media Links -->
+        <div class="flex space-x-4 mt-6">
+          <a href="https://www.linkedin.com/company/seasalt-ai/" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-200">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="w-5 h-5" />
+          </a>
+          <a href="https://www.youtube.com/@seasaltai" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-200">
+            <img src="https://cdn.simpleicons.org/youtube/ffffff" alt="YouTube" class="w-5 h-5" />
+          </a>
+          <a href="https://twitter.com/SeasaltAI" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-200">
+            <img src="https://cdn.simpleicons.org/x/ffffff" alt="Twitter" class="w-5 h-5" />
+          </a>
+          <a href="https://discord.gg/VgAWg3c7rU" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-200">
+            <img src="https://cdn.simpleicons.org/discord/ffffff" alt="Discord" class="w-5 h-5" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Products -->
+      <div>
+        <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('header.products')}</h3>
+        <ul class="space-y-2 sm:space-y-3">
+          {products.map((product, index) => {
+            const updatedHref = product.href.startsWith('/')
+              ? `/${lang}${product.href}`
+              : product.href;
+            return (
+              <li key={index}>
+                <a 
+                  href={updatedHref}
+                  target={product.href.startsWith('/') ? '_self' : '_blank'}
+                  rel={product.href.startsWith('/') ? '' : 'noopener noreferrer'}
+                  class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center"
+                >
+                  {product.icon === 'MessageSquare' && (
+                    <span class="mr-2" aria-hidden="true">💬</span>
+                  )}
+                  {product.icon === 'Users' && (
+                    <span class="mr-2" aria-hidden="true">👥</span>
+                  )}
+                  {product.icon === 'Video' && (
+                    <span class="mr-2" aria-hidden="true">📹</span>
+                  )}
+                  {product.icon === 'Mic' && (
+                    <span class="mr-2" aria-hidden="true">🎤</span>
+                  )}
+                  {product.title}
+                </a>
+                {product.subProducts && (
+                  <ul class="ml-4 mt-1 sm:mt-2 space-y-1 sm:space-y-2">
+                    {product.subProducts.map((subProduct, subIndex) => (
+                      <li key={subIndex}>
+                        <a
+                          href={subProduct.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="text-gray-400 hover:text-gray-300 transition-colors duration-200 text-sm"
+                        >
+                          {subProduct.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+
+      <!-- Solutions -->
+      <div>
+        <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('header.solutions')}</h3>
+        <ul class="space-y-2 sm:space-y-3">
+          {solutions.map((solution, index) => (
+            <li key={index}>
+              <a 
+                href={`/${lang}${solution.path}`}
+                class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center"
+              >
+                {solution.icon === 'TrendingUp' && (
+                  <span class="mr-2" aria-hidden="true">📈</span>
+                )}
+                {solution.icon === 'Headphones' && (
+                  <span class="mr-2" aria-hidden="true">🎧</span>
+                )}
+                {solution.icon === 'Bot' && (
+                  <span class="mr-2" aria-hidden="true">🤖</span>
+                )}
+                {solution.icon === 'Building2' && (
+                  <span class="mr-2" aria-hidden="true">🏢</span>
+                )}
+                {solution.title}
+              </a>
+            </li>
+          ))}
+          <li>
+            <a 
+              href={`/${lang}/seahealth`}
+              class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center"
+            >
+              <span class="mr-2" aria-hidden="true">❤️</span>
+              {t('footer.seahealth') || 'SeaHealth'}
+            </a>
+          </li>
+          <li>
+            <a 
+              href={`/${lang}/channels-overview`} 
+              class="text-gray-300 hover:text-white transition-colors duration-200"
+            >
+              {t('header.allChannelsOverview')}
+            </a>
+            <!-- Channel Icons -->
+            <div class="grid grid-cols-4 sm:grid-cols-5 gap-2 mt-3">
+              <a href={`/${lang}/channels/whatsapp`} class="text-green-600 hover:text-green-500 transition-colors duration-200 flex justify-center">
+                <img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp" class="h-5 w-5" />
+              </a>
+              <a href={`/${lang}/channels/phone-calls`} class="text-blue-600 hover:text-blue-500 transition-colors duration-200 flex justify-center">
+                <span aria-hidden="true">📞</span>
+              </a>
+              <a href={`/${lang}/channels/sms`} class="text-purple-600 hover:text-purple-500 transition-colors duration-200 flex justify-center">
+                <span aria-hidden="true">💬</span>
+              </a>
+              <a href={`/${lang}/channels/website-chat`} class="text-indigo-600 hover:text-indigo-500 transition-colors duration-200 flex justify-center">
+                <span aria-hidden="true">💬</span>
+              </a>
+              <a href={`/${lang}/channels/instagram`} class="text-pink-600 hover:text-pink-500 transition-colors duration-200 flex justify-center">
+                <img src="https://cdn.simpleicons.org/instagram/ffffff" alt="Instagram" class="h-5 w-5" />
+              </a>
+              <a href={`/${lang}/channels/facebook-messenger`} class="text-blue-700 hover:text-blue-600 transition-colors duration-200 flex justify-center">
+                <img src="https://cdn.simpleicons.org/messenger/ffffff" alt="Messenger" class="h-5 w-5" />
+              </a>
+              <a href={`/${lang}/channels/contact-forms`} class="text-gray-400 hover:text-gray-300 transition-colors duration-200 flex justify-center">
+                <span aria-hidden="true">📝</span>
+              </a>
+              <a href={`/${lang}/channels/line`} class="text-green-500 hover:text-green-400 transition-colors duration-200 flex justify-center">
+                <img src="https://cdn.simpleicons.org/line/ffffff" alt="LINE" class="h-5 w-5" />
+              </a>
+              <a href={`/${lang}/channels/website-widget`} class="text-orange-600 hover:text-orange-500 transition-colors duration-200 flex justify-center">
+                <span aria-hidden="true">🧩</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Industries -->
+      <div>
+        <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('header.industries')}</h3>
+        <ul class="space-y-2 sm:space-y-3">
+          {industries.map((industry, index) => (
+            <li key={index}>
+              <a 
+                href={`/${lang}/industries/${industry.slug}`}
+                class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center"
+              >
+                {industry.icon === 'ShoppingCart' && (
+                  <span class="mr-2" aria-hidden="true">🛒</span>
+                )}
+                {industry.icon === 'Heart' && (
+                  <span class="mr-2" aria-hidden="true">❤️</span>
+                )}
+                {industry.icon === 'Home' && (
+                  <span class="mr-2" aria-hidden="true">🏠</span>
+                )}
+                {industry.icon === 'Utensils' && (
+                  <span class="mr-2" aria-hidden="true">🍽️</span>
+                )}
+                {industry.icon === 'GraduationCap' && (
+                  <span class="mr-2" aria-hidden="true">🎓</span>
+                )}
+                {industry.icon === 'Car' && (
+                  <span class="mr-2" aria-hidden="true">🚗</span>
+                )}
+                {industry.icon === 'Briefcase' && (
+                  <span class="mr-2" aria-hidden="true">💼</span>
+                )}
+                {industry.icon === 'Building' && (
+                  <span class="mr-2" aria-hidden="true">🏦</span>
+                )}
+                {industry.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6">{t('footer.company.title')}</h3>
+        <ul class="space-y-2 sm:space-y-3">
+          <li>
+            <a href={`/${lang}/company`} class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
+              <span class="mr-2" aria-hidden="true">🏢</span>
+              {t('footer.company.about')}
+            </a>
+          </li>
+          <li>
+            <a href={`/${lang}/blog`} class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
+              <span class="mr-2" aria-hidden="true">📰</span>
+              {t('header.blog')}
+            </a>
+          </li>
+          <li>
+            <a href={`/${lang}/pricing`} class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
+              <span class="mr-2" aria-hidden="true">💲</span>
+              {t('header.pricing')}
+            </a>
+          </li>
+          <li>
+            <a href={`/${lang}/compare-us-overview`} class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
+              <span class="mr-2" aria-hidden="true">📊</span>
+              {t('header.compareUs')}
+            </a>
+          </li>
+          <li>
+            <a href={getWikiUrl()} target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
+              <span class="mr-2" aria-hidden="true">📚</span>
+              {t('footer.productWiki') || 'Wiki'}
+            </a>
+          </li>
+          <li>
+            <a href="https://api.seasalt.ai" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
+              <span class="mr-2" aria-hidden="true">🔌</span>
+              {t('footer.apiReferences') || 'API References'}
+            </a>
+          </li>
+          <li>
+            <a href={`/${lang}/careers`} class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center">
+              <span class="mr-2" aria-hidden="true">💼</span>
+              {t('footer.company.careers')}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8">
+      <div class="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+        <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 md:space-x-6 mb-2 lg:mb-0">
+          <p class="text-gray-300 text-sm">
+            {t('footer.copyright', { year: currentYear })}
+          </p>
+          <div class="flex space-x-3 sm:space-x-4 text-xs sm:text-sm">
+            <a href="/privacy" class="text-gray-300 hover:text-white transition-colors duration-200">
+              {t('footer.privacyPolicy')}
+            </a>
+            <a href="/terms" class="text-gray-300 hover:text-white transition-colors duration-200">
+              {t('footer.termsOfService')}
+            </a>
+          </div>
+        </div>
+        
+        <!-- Social Proof -->
+        <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4 text-xs sm:text-sm text-gray-300">
+          <a href="/seahealth" class="flex items-center hover:text-white transition-colors duration-200">
+            <img src="/hipaa-icon.svg" alt="HIPAA" class="h-5 w-5 mr-1 inline-block align-text-bottom" />
+            {t('footer.compliance.hipaa') || 'HIPAA Compliant'}
+          </a>
+          <span>🌍 {t('footer.compliance.uptime') || '99.9% Uptime'}</span>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p class="text-gray-300 text-sm">
+          Made with 
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart inline w-4 h-4 text-red-500"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+          in the city of{' '}
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coffee inline w-4 h-4 text-amber-700"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="6" x2="6" y1="2" y2="4"></line><line x1="10" x2="10" y1="2" y2="4"></line><line x1="14" x2="14" y1="2" y2="4"></line></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-umbrella inline w-4 h-4 text-blue-400"><path d="M22 12a10.06 10.06 1 0 0-20 0Z"></path><path d="M12 12v8a2 2 0 0 0 4 0"></path><path d="M12 2v1"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plane inline w-4 h-4 text-gray-500"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gem inline w-4 h-4 text-fuchsia-500"><path d="M6 3h12l4 6-10 13L2 9Z"></path><path d="M11 3 8 9l4 13 4-13-3-6"></path><path d="M2 9h20"></path></svg>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Banner -->
+  <div class="bg-gradient-to-r from-blue-600 to-indigo-600 py-6 sm:py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
+      <h3 class="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
+        {t('footer.cta.title') || 'Ready to get started?'}
+      </h3>
+      <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+        >
+          {t('footer.cta.startFreeTrial') || 'Start Free Trial'}
+        </a>
+        <a
+          href="https://cal.com/seasalt-ai/demo"
+          class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-semibold transition-all duration-200 text-sm sm:text-base"
+        >
+          {t('footer.cta.scheduleDemo') || 'Schedule Demo'}
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>

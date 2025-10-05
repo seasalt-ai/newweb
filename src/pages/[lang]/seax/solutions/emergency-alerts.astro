@@ -1,0 +1,274 @@
+---
+import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+---
+
+<SeaxLayout 
+  seoData={{
+    title: t('seax.solutions.emergencyAlerts.seo.title') || "Emergency Alert Solutions - SeaX Mass Communication Platform",
+    description: t('seax.solutions.emergencyAlerts.seo.description') || "Send critical emergency notifications instantly to large audiences with reliable delivery across multiple channels.",
+    keywords: t('seax.solutions.emergencyAlerts.seo.keywords') || "emergency alerts, mass notifications, critical communications, instant messaging, emergency management",
+    canonical: `https://seasalt.ai/${currentLang}/seax/solutions/emergency-alerts`
+  }}
+  lang={currentLang}
+  headerVersion="seax"
+  footerVersion="seax"
+>
+
+  <!-- Hero Section -->
+  <div class="bg-gradient-to-br from-red-50 to-yellow-100 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+        {t('seax.solutions.emergencyAlerts.hero.title.main') || 'Emergency Alerts'}
+        <span class="text-red-600 block">{t('seax.solutions.emergencyAlerts.hero.title.highlight') || 'When Every Second Counts'}</span>
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t('seax.solutions.emergencyAlerts.hero.description') || 'Send critical emergency notifications instantly to large audiences with reliable delivery across SMS, WhatsApp, voice calls, and other channels.'}
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://meetings.hubspot.com/seasalt-ai/demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-red-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-700 transition-colors flex items-center justify-center space-x-2"
+        >
+          <span>{t('seax.solutions.emergencyAlerts.hero.cta.primary') || 'Setup Emergency Alerts'}</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </a>
+        
+        <a
+          href={`/${currentLang}/seax/pricing`}
+          class="border-2 border-red-600 text-red-600 px-8 py-4 rounded-lg font-semibold hover:bg-red-50 transition-colors"
+        >
+          {t('seax.solutions.emergencyAlerts.hero.cta.secondary') || 'View Pricing'}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.emergencyAlerts.features.title') || 'Emergency Alert Features'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.emergencyAlerts.features.subtitle') || 'Critical communication tools designed for emergency situations'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Feature 0: Instant Mass Delivery -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.732-.833-2.464 0L4.34 16.5c-.77.833.192 2.5 1.732 2.5z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.emergencyAlerts.features.items[0].title') || 'Instant Mass Delivery'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.emergencyAlerts.features.items[0].description') || 'Send emergency notifications to millions of recipients simultaneously across multiple channels within seconds.'}
+          </p>
+        </div>
+
+        <!-- Feature 1: Multi-Channel Redundancy -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.emergencyAlerts.features.items[1].title') || 'Multi-Channel Redundancy'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.emergencyAlerts.features.items[1].description') || 'Ensure message delivery through SMS, WhatsApp, voice calls, email, and push notifications for maximum reach.'}
+          </p>
+        </div>
+
+        <!-- Feature 2: Location-Based Targeting -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.emergencyAlerts.features.items[2].title') || 'Location-Based Targeting'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.emergencyAlerts.features.items[2].description') || 'Target emergency alerts by geographic location, ensuring only affected areas receive relevant notifications.'}
+          </p>
+        </div>
+
+        <!-- Feature 3: Priority Routing -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.emergencyAlerts.features.items[3].title') || 'Priority Routing'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.emergencyAlerts.features.items[3].description') || 'Emergency messages receive highest priority routing to ensure immediate delivery even during network congestion.'}
+          </p>
+        </div>
+
+        <!-- Feature 4: Real-Time Tracking -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-5 5v-5zM4.343 12.343l1.414 1.414L9 10.5l6-6 3.75 3.75-6.75 6.75-2.25-2.25z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.emergencyAlerts.features.items[4].title') || 'Real-Time Tracking'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.emergencyAlerts.features.items[4].description') || 'Monitor message delivery status in real-time with detailed analytics on reach, delivery, and response rates.'}
+          </p>
+        </div>
+
+        <!-- Feature 5: API Integration -->
+        <div class="bg-gray-50 rounded-lg p-6">
+          <div class="flex items-center space-x-3 mb-4">
+            <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+            </svg>
+            <h3 class="text-lg font-semibold text-gray-900">{t('seax.solutions.emergencyAlerts.features.items[5].title') || 'API Integration'}</h3>
+          </div>
+          <p class="text-gray-600">
+            {t('seax.solutions.emergencyAlerts.features.items[5].description') || 'Integrate with emergency management systems and IoT sensors for automated alert triggering.'}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Use Cases Section -->
+  <div class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.emergencyAlerts.useCases.title') || 'Emergency Alert Use Cases'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.emergencyAlerts.useCases.subtitle') || 'Critical situations where instant communication saves lives'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Use Case 0 -->
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.emergencyAlerts.useCases.items[0].title') || 'Natural Disasters'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.emergencyAlerts.useCases.items[0].description') || 'Alert communities about hurricanes, earthquakes, floods, wildfires, and other natural emergencies with evacuation instructions and safety information.'}</p>
+          <div class="bg-red-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-red-800">{t('seax.solutions.emergencyAlerts.useCases.items[0].stats') || 'Reaches 1M+ people in under 60 seconds'}</div>
+          </div>
+        </div>
+
+        <!-- Use Case 1 -->
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.emergencyAlerts.useCases.items[1].title') || 'Security Threats'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.emergencyAlerts.useCases.items[1].description') || 'Notify employees, students, or residents about active threats, lockdown procedures, and safety protocols for immediate response.'}</p>
+          <div class="bg-red-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-red-800">{t('seax.solutions.emergencyAlerts.useCases.items[1].stats') || '99.9% delivery success rate'}</div>
+          </div>
+        </div>
+
+        <!-- Use Case 2 -->
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.emergencyAlerts.useCases.items[2].title') || 'Health Emergencies'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.emergencyAlerts.useCases.items[2].description') || 'Communicate public health emergencies, disease outbreaks, vaccination campaigns, and critical health information to large populations.'}</p>
+          <div class="bg-red-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-red-800">{t('seax.solutions.emergencyAlerts.useCases.items[2].stats') || 'Multi-language support for global reach'}</div>
+          </div>
+        </div>
+
+        <!-- Use Case 3 -->
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="text-xl font-semibold text-gray-900 mb-3">{t('seax.solutions.emergencyAlerts.useCases.items[3].title') || 'Infrastructure Failures'}</h3>
+          <p class="text-gray-600 mb-4">{t('seax.solutions.emergencyAlerts.useCases.items[3].description') || 'Alert about power outages, water contamination, transportation disruptions, and other critical infrastructure issues affecting public safety.'}</p>
+          <div class="bg-red-50 rounded-lg p-3">
+            <div class="text-sm font-medium text-red-800">{t('seax.solutions.emergencyAlerts.useCases.items[3].stats') || 'Priority carrier routing ensures delivery'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+          {t('seax.solutions.emergencyAlerts.stats.title') || 'Emergency Alert Performance'}
+        </h2>
+        <p class="text-lg text-gray-600">
+          {t('seax.solutions.emergencyAlerts.stats.subtitle') || 'When emergencies strike, performance matters most'}
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-red-50 to-red-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-red-600 mb-2">{t('seax.solutions.emergencyAlerts.stats.items[0].value') || '<30s'}</div>
+            <div class="text-gray-600">{t('seax.solutions.emergencyAlerts.stats.items[0].label') || 'Average Delivery Time'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-yellow-600 mb-2">{t('seax.solutions.emergencyAlerts.stats.items[1].value') || '99.9%'}</div>
+            <div class="text-gray-600">{t('seax.solutions.emergencyAlerts.stats.items[1].label') || 'Delivery Success Rate'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-blue-600 mb-2">{t('seax.solutions.emergencyAlerts.stats.items[2].value') || '10M+'}</div>
+            <div class="text-gray-600">{t('seax.solutions.emergencyAlerts.stats.items[2].label') || 'Messages Per Hour'}</div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6">
+            <div class="text-3xl font-bold text-green-600 mb-2">{t('seax.solutions.emergencyAlerts.stats.items[3].value') || '24/7'}</div>
+            <div class="text-gray-600">{t('seax.solutions.emergencyAlerts.stats.items[3].label') || 'Support & Monitoring'}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div class="py-20 bg-gradient-to-r from-red-600 to-yellow-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-white mb-4">
+        {t('seax.solutions.emergencyAlerts.cta.title') || 'Be Prepared for Any Emergency'}
+      </h2>
+      <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
+        {t('seax.solutions.emergencyAlerts.cta.description') || 'Set up your emergency communication system before you need it'}
+      </p>
+      
+      <a
+        href="https://meetings.hubspot.com/seasalt-ai/demo"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="bg-white text-red-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
+      >
+        <span>{t('seax.solutions.emergencyAlerts.cta.primary') || 'Setup Emergency System'}</span>
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</SeaxLayout>

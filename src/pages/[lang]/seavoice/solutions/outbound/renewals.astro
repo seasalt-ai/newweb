@@ -1,0 +1,442 @@
+---
+import Layout from '../../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../../i18n/helpers';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO配置
+const seoData = {
+  title: t('seavoice.pages.solutions.outbound.subscriptionRenewals.hero.title') || 'Subscription Renewal Automation - SeaVoice',
+  description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.hero.description') || 'Maximize subscription renewals with intelligent AI-powered campaigns that engage customers at the right time with personalized messages, process payments seamlessly, and reduce churn through proactive retention strategies.',
+  canonical: `/${currentLang}/seavoice/solutions/outbound/renewals`,
+};
+
+// 功能配置
+const features = [
+  {
+    icon: 'refresh',
+    title: t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.automatedRenewalReminders.title') || 'Automated Renewal Reminders',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.automatedRenewalReminders.description') || 'Intelligent reminders sent at optimal times to maximize renewal rates and reduce churn.',
+    benefits: [
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.automatedRenewalReminders.benefit1') || 'Personalized timing',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.automatedRenewalReminders.benefit2') || 'Multiple touchpoints',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.automatedRenewalReminders.benefit3') || 'Renewal optimization'
+    ]
+  },
+  {
+    icon: 'credit-card',
+    title: t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.paymentProcessing.title') || 'Payment Processing',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.paymentProcessing.description') || 'Seamless payment collection and processing for subscription renewals over the phone.',
+    benefits: [
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.paymentProcessing.benefit1') || 'Secure transactions',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.paymentProcessing.benefit2') || 'Multiple payment methods',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.paymentProcessing.benefit3') || 'Failed payment recovery'
+    ]
+  },
+  {
+    icon: 'users',
+    title: t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.customerRetention.title') || 'Customer Retention',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.customerRetention.description') || 'Proactive engagement to address concerns and retain valuable subscribers.',
+    benefits: [
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.customerRetention.benefit1') || 'Churn prevention',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.customerRetention.benefit2') || 'Value reinforcement',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.customerRetention.benefit3') || 'Loyalty building'
+    ]
+  }
+];
+
+// 續約流程配置
+const renewalProcess = [
+  {
+    step: 1,
+    title: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step1.title') || 'Early Notification',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step1.description') || 'Initial reminder sent 30 days before renewal date',
+    timing: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step1.timing') || '30 days before',
+    action: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step1.action') || 'Awareness and preparation'
+  },
+  {
+    step: 2,
+    title: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step2.title') || 'Value Reinforcement',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step2.description') || 'Highlight subscription benefits and usage statistics',
+    timing: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step2.timing') || '14 days before',
+    action: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step2.action') || 'Value demonstration'
+  },
+  {
+    step: 3,
+    title: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step3.title') || 'Renewal Confirmation',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step3.description') || 'Direct renewal request with payment processing',
+    timing: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step3.timing') || '7 days before',
+    action: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step3.action') || 'Renewal processing'
+  },
+  {
+    step: 4,
+    title: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step4.title') || 'Last Chance Offer',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step4.description') || 'Final reminder with special retention offers',
+    timing: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step4.timing') || '1 day before',
+    action: t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.step4.action') || 'Retention attempt'
+  }
+];
+
+// 效益指標配置
+const benefits = [
+  { 
+    metric: t('seavoice.pages.solutions.outbound.subscriptionRenewals.benefits.metric1.value') || '85%', 
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.benefits.metric1.description') || 'Subscription renewal rate'
+  },
+  { 
+    metric: t('seavoice.pages.solutions.outbound.subscriptionRenewals.benefits.metric2.value') || '40%', 
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.benefits.metric2.description') || 'Reduction in involuntary churn'
+  },
+  { 
+    metric: t('seavoice.pages.solutions.outbound.subscriptionRenewals.benefits.metric3.value') || '60%', 
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.benefits.metric3.description') || 'Decrease in payment failures'
+  },
+  { 
+    metric: t('seavoice.pages.solutions.outbound.subscriptionRenewals.benefits.metric4.value') || '25%', 
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.benefits.metric4.description') || 'Increase in customer lifetime value'
+  }
+];
+
+// 訂閱類型配置
+const subscriptionTypes = [
+  {
+    type: t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.saas.type') || 'Software as a Service (SaaS)',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.saas.description') || 'Monthly and annual software subscription renewals',
+    strategies: [
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.saas.strategy1') || 'Feature usage reports',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.saas.strategy2') || 'ROI demonstrations',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.saas.strategy3') || 'Upgrade opportunities'
+    ]
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.mediaEntertainment.type') || 'Media & Entertainment',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.mediaEntertainment.description') || 'Streaming services and digital content subscriptions',
+    strategies: [
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.mediaEntertainment.strategy1') || 'Content recommendations',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.mediaEntertainment.strategy2') || 'Viewing statistics',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.mediaEntertainment.strategy3') || 'Exclusive offers'
+    ]
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.professionalServices.type') || 'Professional Services',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.professionalServices.description') || 'Consulting, coaching, and professional service renewals',
+    strategies: [
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.professionalServices.strategy1') || 'Success metrics',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.professionalServices.strategy2') || 'Relationship building',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.professionalServices.strategy3') || 'Service expansion'
+    ]
+  },
+  {
+    type: t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.ecommerce.type') || 'E-commerce Subscriptions',
+    description: t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.ecommerce.description') || 'Product delivery and membership renewals',
+    strategies: [
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.ecommerce.strategy1') || 'Delivery convenience',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.ecommerce.strategy2') || 'Cost savings',
+      t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.ecommerce.strategy3') || 'Product variety'
+    ]
+  }
+];
+
+// 留存策略配置
+const retentionTactics = [
+  t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.tactics.tactic1') || 'Personalized renewal offers',
+  t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.tactics.tactic2') || 'Usage analytics and insights',
+  t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.tactics.tactic3') || 'Loyalty rewards and discounts',
+  t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.tactics.tactic4') || 'Service upgrade options',
+  t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.tactics.tactic5') || 'Payment plan flexibility',
+  t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.tactics.tactic6') || 'Win-back campaigns'
+];
+
+// 圖示組件映射
+function getIconSvg(iconName: string) {
+  const icons = {
+    'refresh': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>',
+    'credit-card': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>',
+    'users': '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>',
+    'check-circle': '<svg class="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>',
+    'calendar': '<svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>',
+    'bar-chart': '<svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>'
+  };
+  return icons[iconName as keyof typeof icons] || icons.refresh;
+}
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Solutions', url: `/${currentLang}/seavoice/solutions/` },
+  { name: 'Outbound', url: `/${currentLang}/seavoice/solutions/outbound/` },
+  { name: t('seavoice.pages.solutions.outbound.subscriptionRenewals.breadcrumb') || 'Subscription Renewals' }
+];
+
+// FAQs
+const faqs = [
+  {
+    question: t('seavoice.pages.solutions.outbound.subscriptionRenewals.faq.q1') || 'How do you reduce involuntary churn?',
+    answer: t('seavoice.pages.solutions.outbound.subscriptionRenewals.faq.a1') || 'We send intelligent reminders, recover failed payments, and target at-risk customers with tailored offers.'
+  },
+  {
+    question: t('seavoice.pages.solutions.outbound.subscriptionRenewals.faq.q2') || 'Can payments be processed during the call?',
+    answer: t('seavoice.pages.solutions.outbound.subscriptionRenewals.faq.a2') || 'Yes. PCI-compliant voice payment processing is supported with instant confirmation.'
+  }
+];
+
+---
+
+<Layout seo={seoData} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-green-50 via-white to-emerald-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center mb-6">
+          <svg class="w-16 h-16 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+          </svg>
+        </div>
+        <h1 class="text-5xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.hero.title') || 'Subscription Renewal Automation'}
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.hero.description') || 'Maximize subscription renewals with intelligent AI-powered campaigns that engage customers at the right time with personalized messages, process payments seamlessly, and reduce churn through proactive retention strategies.'}
+        </p>
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors inline-block"
+        >
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.hero.cta') || 'Automate Renewals'}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.title') || 'Smart Renewal Management'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.features.subtitle') || 'Comprehensive automation that maximizes renewals and reduces churn'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {features.map((feature, index) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg flex items-center justify-center mb-6">
+              <Fragment set:html={getIconSvg(feature.icon)} />
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+            <div class="space-y-2">
+              {feature.benefits.map((benefit) => (
+                <div class="flex items-center">
+                  <Fragment set:html={getIconSvg('check-circle')} />
+                  <span class="text-sm text-gray-700 ml-3">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Renewal Process -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.title') || 'Strategic Renewal Timeline'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.renewalProcess.subtitle') || 'Optimized touchpoint sequence to maximize renewal success'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {renewalProcess.map((process) => (
+          <div class="text-center">
+            <div class="w-16 h-16 bg-green-600 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+              {process.step}
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{process.title}</h3>
+            <p class="text-gray-600 mb-4">{process.description}</p>
+            <div class="space-y-2">
+              <div class="p-2 bg-green-50 rounded-lg">
+                <p class="text-sm font-semibold text-green-800">{process.timing}</p>
+              </div>
+              <div class="p-2 bg-blue-50 rounded-lg">
+                <p class="text-sm text-blue-800">{process.action}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscription Types -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.title') || 'Industry-Specific Strategies'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.subtitle') || 'Tailored renewal approaches for different subscription models'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {subscriptionTypes.map((subscription) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{subscription.type}</h3>
+            <p class="text-gray-600 mb-6">{subscription.description}</p>
+            <div>
+              <h4 class="font-semibold text-gray-900 text-sm mb-3">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.subscriptionTypes.renewalStrategies') || 'Renewal Strategies:'}</h4>
+              <div class="space-y-2">
+                {subscription.strategies.map((strategy) => (
+                  <div class="flex items-center">
+                    <div class="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
+                    <span class="text-sm text-gray-700">{strategy}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Retention Tactics -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.title') || 'Advanced Retention Strategies'}
+          </h2>
+          <p class="text-lg text-gray-600 mb-8">
+            {t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.description') || 'Our AI analyzes customer behavior, usage patterns, and engagement levels to determine the most effective retention approach for each subscriber, maximizing renewal rates and customer lifetime value.'}
+          </p>
+          <div class="space-y-6">
+            <div class="flex items-center">
+              <Fragment set:html={getIconSvg('calendar')} />
+              <div class="ml-4">
+                <h3 class="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.optimalTiming.title') || 'Optimal Timing'}</h3>
+                <p class="text-gray-600">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.optimalTiming.description') || 'AI determines best contact times for each customer'}</p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <Fragment set:html={getIconSvg('bar-chart')} />
+              <div class="ml-4">
+                <h3 class="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.usageAnalytics.title') || 'Usage Analytics'}</h3>
+                <p class="text-gray-600">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.usageAnalytics.description') || 'Leverage customer data for personalized approaches'}</p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <Fragment set:html={getIconSvg('users')} />
+              <div class="ml-4">
+                <h3 class="font-semibold text-gray-900">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.segmentedCampaigns.title') || 'Segmented Campaigns'}</h3>
+                <p class="text-gray-600">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.segmentedCampaigns.description') || 'Tailored messages for different customer segments'}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.tactics.title') || 'Retention Tactics'}</h3>
+          <div class="grid grid-cols-1 gap-3">
+            {retentionTactics.map((tactic) => (
+              <div class="flex items-center p-3 bg-white rounded-lg shadow-sm">
+                <Fragment set:html={getIconSvg('check-circle')} />
+                <span class="text-gray-700 font-medium ml-3">{tactic}</span>
+              </div>
+            ))}
+          </div>
+          
+          <div class="mt-6 p-4 bg-white rounded-lg">
+            <h4 class="font-semibold text-gray-900 mb-2">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.dashboard.title') || 'Renewal Dashboard'}</h4>
+            <div class="space-y-2">
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-600">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.dashboard.renewalsThisMonth') || 'Renewals This Month:'}</span>
+                <span class="font-semibold text-green-600">1,247</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-600">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.dashboard.renewalRate') || 'Renewal Rate:'}</span>
+                <span class="font-semibold text-green-600">85.3%</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-600">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.retention.dashboard.revenueRetained') || 'Revenue Retained:'}</span>
+                <span class="font-semibold text-green-600">$2.1M</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Metrics -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.benefits.title') || 'Renewal Performance Results'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.benefits.subtitle') || 'Proven impact on subscription business metrics'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {benefits.map((benefit) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg text-center border border-gray-200">
+            <div class="text-4xl font-bold text-green-600 mb-4">{benefit.metric}</div>
+            <p class="text-gray-600">{benefit.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-green-600 to-emerald-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl font-bold mb-6">{t('seavoice.pages.solutions.outbound.subscriptionRenewals.cta.title') || 'Ready to Maximize Subscription Renewals?'}</h2>
+      <p class="text-xl mb-8 opacity-90">
+        {t('seavoice.pages.solutions.outbound.subscriptionRenewals.cta.description') || 'Automate your renewal process and reduce churn with intelligent AI-powered campaigns'}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white text-green-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
+        >
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.cta.primaryButton') || 'Start Renewal Automation'}
+        </a>
+        <a
+          href="#calculator"
+          class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-600 transition-colors inline-block"
+        >
+          {t('seavoice.pages.solutions.outbound.subscriptionRenewals.cta.secondaryButton') || 'Calculate ROI'}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

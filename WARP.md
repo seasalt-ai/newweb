@@ -2,334 +2,301 @@
 
 This file provides guidance to WARP (warp.dev) when working with code in this repository.
 
-## Quick Start Commands
+## Repository Overview
 
-### Development
+This is the SeaSalt.ai official website built with **Astro 5.x** framework, featuring:
+- **Multi-language support**: 20 languages with i18n routing
+- **Static Site Generation (SSG)**: All pages pre-rendered for optimal performance
+- **React Islands**: Interactive components using React with selective hydration
+- **Modern stack**: TypeScript, Tailwind CSS, Framer Motion
+
+## Development Commands
+
+### Essential Commands
 ```bash
 # Install dependencies
 npm install
 
-# Start development server (http://localhost:5173)
+# Start development server (http://localhost:4321)
 npm run dev
 
-# Preview production build
-npm run preview
-```
-
-### Building & Production
-```bash
-# Build for production (includes TypeScript check, Vite build, and prerendering)
+# Build production site to ./dist/
 npm run build
 
-# Build without prerendering
-npm run build-only
+# Preview production build locally
+npm run preview
 
-# Generate static routes
-npm run generate-routes
+# TypeScript and Astro checks
+npm run astro check
 
-# Prerendering with Puppeteer
-npm run prerender
+# Run any Astro CLI command
+npm run astro -- [command]
 ```
 
-### Linting & Code Quality
+### Development Workflow
 ```bash
-# Run ESLint
-npm run lint
-
-# For Python scripts, use flake8 with project-specific rules
-flake8 --count --max-complexity=15 --max-line-length=127 --statistics --ignore D,E203,E501,W503,W504 --exclude=__init__.py* scripts/*.py
+# Quick development cycle
+npm run dev          # Start dev server
+# Make changes, then:
+npm run build        # Test production build
+npm run preview      # Test built site locally
 ```
 
-### SEO & Site Generation
-```bash
-# Generate sitemap
-npm run generate-sitemap
+## Architecture & Code Structure
 
-# Generate robots.txt
-npm run generate-robots
+### Framework Architecture
+- **Framework**: Astro 5.x (SSG-focused)
+- **React Integration**: Islands architecture for interactive components
+- **Routing**: File-based routing with dynamic `[lang]` parameter
+- **Styling**: Tailwind CSS with custom configurations
+- **Build Output**: Static HTML files with minimal JavaScript
 
-# Update both sitemap and robots.txt
-npm run seo-update
-
-# Analyze SEO (development)
-npm run seo-analyze-dev
-
-# Analyze SEO (production)
-npm run seo-analyze-prod
-
-# Generate SEO report with timestamp
-npm run seo-report
-```
-
-## Architecture Overview
-
-This is a React + TypeScript single-page application built with Vite, featuring:
-
-### Core Stack
-- **React 18** with React Router v6 for client-side routing
-- **TypeScript** for type safety
-- **Vite** for build tooling and development server
-- **Tailwind CSS** for styling
-- **i18next** for internationalization
-
-### Project Structure
+### Directory Structure
 ```
 src/
-├── App.tsx                 # Main router and route definitions
-├── main.tsx               # Application entry point
-├── i18n.ts                # i18next configuration
-├── components/            # Shared UI components
-│   ├── Header.tsx
-│   ├── Footer.tsx
-│   ├── SEOHelmet.tsx     # SEO meta tags management
-│   ├── LanguageRouter.tsx # Language-aware routing
-│   └── [product]Router.tsx # Product-specific routers
-├── pages/                 # Page components
-│   ├── channels/         # Channel-specific pages
-│   ├── compare/          # Comparison pages
-│   ├── industries/       # Industry pages
-│   └── solutions/        # Solution pages
-├── seachat/              # SeaChat product module
-├── seavoice/             # SeaVoice product module
-├── seax/                 # SeaX product module
-├── hooks/                # Custom React hooks
-├── utils/                # Utility functions
-│   └── seo.ts           # SEO utilities
-└── constants/            # Constants and configs
-    └── languages.ts      # Supported languages
+├── components/           # Reusable UI components
+│   ├── *.astro          # Static Astro components
+│   ├── *.tsx            # Interactive React components  
+│   └── versions/        # Product-specific header/footer variants
+├── pages/               # File-based routing
+│   ├── index.astro      # Root with language detection/redirect
+│   └── [lang]/          # All localized pages
+├── layouts/             # Page layout templates
+├── i18n/               # Internationalization system
+│   ├── helpers.ts       # Core i18n utilities and React hooks
+│   └── locales/         # Translation files (20 languages)
+├── content/            # Content collections (blog, etc.)
+├── config/             # Site configuration
+├── styles/             # Global CSS and utilities
+├── types/              # TypeScript type definitions
+└── utils/              # Utility functions
 ```
 
-### Routing Architecture
-- Uses React Router v6 with path-based language routing (`/:lang/...`)
-- Three main product routers: `SeaChatRouter`, `SeaXRouter`, `SeaVoiceRouter`
-- Language detection from URL path with fallback to browser language
-- Automatic redirects for non-language-prefixed URLs
+### Component Architecture
+- **Astro Components**: Server-rendered, static content (`.astro`)
+- **React Components**: Client-side interactivity with `client:*` directives (`.tsx`)
+- **Layout System**: Consistent page structure across all routes
+- **Product Variants**: Specialized headers/footers for SeaChat, SeaX, SeaVoice
 
-### Key Components & Patterns
-- **SEOHelmet**: Centralized SEO management using react-helmet-async
-- **LanguageRouter**: Handles language-aware routing and redirects
-- **Product Routers**: Modular routing for each product (SeaChat, SeaX, SeaVoice)
-- **HtmlLangUpdater**: Updates HTML lang attribute on language change
+## Multi-language (i18n) System
 
-## Internationalization (i18n) System
+### Language Configuration
+- **Supported Languages**: 20 languages (en, zh-TW, zh-CN, ja, ko, es, fr, de, ar, fa, fil, hi, id, ms, pl, pt, ru, ta, th, vi)
+- **Default Language**: English (`en`)
+- **Routing**: All languages use prefix (`/en/`, `/zh-tw/`, etc.)
+- **Translation Files**: `src/i18n/locales/{lang}.json`
 
-### Setup
-- **Library**: i18next with react-i18next
-- **Languages**: 20+ languages supported (en, es, zh-TW, ja, ko, fr, de, etc.)
-- **Translation files**: Located in `public/locales/{lang}.json`
-- **Language detection**: URL-based with browser language fallback
+### Using Translations in Astro Components
+```astro
+---
+import { getTranslationHelpers, type SupportedLanguage } from '../i18n/helpers';
 
-### Key i18n Features
-```typescript
-// Language extraction from URL
-const pathSegments = window.location.pathname.split('/').filter(Boolean);
-const lang = pathSegments[0]; // e.g., /zh-TW/seachat -> zh-TW
+const lang = Astro.params.lang as SupportedLanguage || 'en';
+const { t } = await getTranslationHelpers(lang);
+---
 
-// i18next configuration highlights
-{
-  fallbackLng: 'en',
-  supportedLngs: [...SUPPORTED_LANGUAGES],
-  backend: {
-    loadPath: '/locales/{{lng}}.json?v=' + Date.now(),
-  }
+<h1>{t('page.title')}</h1>
+<p>{t('page.description')}</p>
+```
+
+### Using Translations in React Components
+```tsx
+import { useTranslation, type SupportedLanguage } from '../i18n/helpers';
+
+interface Props {
+  lang: SupportedLanguage;
+  translations?: any; // For SSR compatibility
 }
+
+const MyComponent = ({ lang, translations }: Props) => {
+  const { t, isLoading } = translations ? 
+    { t: null, isLoading: false } : 
+    useTranslation(lang);
+    
+  // Create unified translation getter
+  const getText = (key: string, fallback: string): string => {
+    if (translations) {
+      // SSR mode: get from props
+      // ... navigation logic for nested keys
+      return result || fallback;
+    }
+    // CSR mode: use hook
+    return t?.(key) || fallback;
+  };
+  
+  if (isLoading) return <div>Loading...</div>;
+  
+  return (
+    <div>
+      <h1>{getText('component.title', 'Default Title')}</h1>
+    </div>
+  );
+};
 ```
+
+### Page Route Generation
+All pages under `src/pages/[lang]/` automatically generate 20 language versions:
+```astro
+---
+// Generates routes: /en/pricing, /zh-tw/pricing, etc.
+export async function getStaticPaths() {
+  const languages = ['en', 'zh-tw', 'zh-cn', /* ... */];
+  return languages.map((lang) => ({ params: { lang } }));
+}
+---
+```
+
+## SEO System
+
+### Meta Tags & JSON-LD
+The site uses comprehensive SEO with automatic generation of:
+- **Meta tags**: title, description, Open Graph, Twitter Cards
+- **JSON-LD schemas**: Organization, WebSite, Product, FAQPage, BreadcrumbList
+- **Hreflang tags**: Multi-language SEO connections
+- **Canonical URLs**: Proper URL canonicalization
+
+### SEO Best Practices
+- Use descriptive page titles and meta descriptions for each language
+- Implement proper heading hierarchy (h1 → h2 → h3)
+- Include structured data for products and services
+- Ensure all images have alt text
+
+## Performance Guidelines
+
+### Astro Best Practices
+- **Static First**: Use Astro components for static content
+- **Selective Hydration**: Only use React for interactive elements
+- **Client Directives**: Choose appropriate `client:*` directive
+  - `client:load` - Hydrate immediately on page load
+  - `client:idle` - Hydrate when browser is idle
+  - `client:visible` - Hydrate when component enters viewport
+  - `client:only="react"` - Skip server-side rendering
+
+### Build Optimization
+- **Static Generation**: All pages pre-built as HTML
+- **Image Optimization**: Use Astro's built-in image optimization
+- **Code Splitting**: Automatic for React components
+- **Translation Caching**: i18n system caches loaded translations
+
+## React Component Guidelines
+
+### Component Structure
+```tsx
+interface ComponentProps {
+  lang: SupportedLanguage;
+  translations?: any; // For SSR support
+  className?: string;
+}
+
+const Component = ({ lang, translations, className }: ComponentProps) => {
+  // Always implement SSR/CSR translation pattern
+  const { t: hookT, isLoading } = translations ? 
+    { t: null, isLoading: false } : 
+    useTranslation(lang);
+    
+  const getText = (key: string, fallback: string) => {
+    // Implement unified translation getter
+  };
+  
+  if (isLoading) return <LoadingSkeleton />;
+  
+  return (
+    <div className={className}>
+      {/* Use getText with meaningful fallbacks */}
+      <h1>{getText('title', 'Default Title')}</h1>
+    </div>
+  );
+};
+```
+
+### Animation Components
+- Use **Framer Motion** for animations
+- Implement **IntersectionObserver** for scroll-triggered animations
+- Keep animations performant and accessible
+- Provide reduced motion alternatives
+
+## TypeScript Configuration
+
+### Type Safety
+- **Strict Mode**: Full TypeScript strict mode enabled
+- **JSX**: React JSX transformation configured
+- **Import Source**: React import source for JSX
+- **Type Checking**: Run `npm run astro check` before commits
+
+### Key Types
+```typescript
+import type { SupportedLanguage } from '../i18n/helpers';
+
+// Component props should always include lang
+interface PageProps {
+  lang: SupportedLanguage;
+}
+
+// Use Astro's built-in types
+import type { APIRoute } from 'astro';
+```
+
+## Content Management
+
+### Adding New Pages
+1. Create `.astro` file in `src/pages/[lang]/`
+2. Implement `getStaticPaths()` for all languages
+3. Add translation keys to all language JSON files
+4. Use Layout component with proper SEO configuration
+5. Test build with `npm run build`
 
 ### Translation Management
+1. **Add translations to all language files** in `src/i18n/locales/`
+2. **Use hierarchical keys**: `page.section.element`
+3. **Include fallback values** in all React components
+4. **Test missing translations** by checking browser console in dev mode
 
-#### Bulk Translation Method (Recommended)
-For adding multiple translations efficiently:
+### Blog System
+- **Status**: Currently disabled but can be re-enabled
+- **Content**: Markdown files with frontmatter
+- **Location**: `src/content/blog/[lang]/`
+- **Re-activation**: Follow instructions in `docs/` if needed
 
+## Troubleshooting
+
+### Common Build Issues
+- **Translation errors**: Check all language files have consistent keys
+- **Type errors**: Run `npm run astro check` for detailed diagnostics
+- **Missing translations**: Check browser console for missing key warnings
+
+### Development Issues
+- **SSR translation errors**: Ensure React components handle both SSR and CSR modes
+- **Language routing**: Verify `astro.config.mjs` matches helper functions
+- **Performance**: Check client directives on React components
+
+### i18n Debugging
+- Missing translations log to console in development
+- Use browser dev tools to inspect generated routes
+- Verify translation files are valid JSON format
+
+## Production Deployment
+
+### Build Process
 ```bash
-# 1. Create key-value file
-cat > translations.txt << EOF
-nav.home=Home
-nav.products=Products
-nav.solutions=Solutions
-EOF
-
-# 2. Generate nested JSON
-node scripts/generate-updates.js translations.txt updates.json
-
-# 3. Apply bulk updates
-node scripts/bulk-update-translation.js public/locales/en.json updates.json
-
-# 4. Clean up
-rm translations.txt updates.json
-
-# 5. Check for hardcoded strings
-node scripts/analyze-i18n-coverage.js src/components/YourComponent.tsx
+npm run build    # Generates ~1440 static pages (72 pages × 20 languages)
+npm run preview  # Test built site locally before deploy
 ```
 
-#### Single Translation Update
-```bash
-node scripts/update-translation.js public/locales/en.json "nav.home" "Homepage"
-```
+### Build Output
+- **Static HTML**: All pages pre-rendered
+- **Assets**: Optimized CSS, JS, images in `dist/`
+- **Performance**: Lighthouse scores 90+ expected
+- **SEO Ready**: All meta tags and structured data included
 
-### Adding New Languages
-1. Create translation file: `public/locales/{lang-code}.json`
-2. Add to `SUPPORTED_LANGUAGES` in `src/constants/languages.ts`
-3. Copy structure from `en.json` and translate values
-4. Update language selector in Header component
-
-## Blog System
-
-### Blog Content Structure
-- **Location**: `content/blog/{lang}/*.md`
-- **Languages**: Separate folders for each language (en, es, zh-TW, etc.)
-- **Parser**: Uses gray-matter for frontmatter parsing
-- **Renderer**: React Markdown with syntax highlighting
-
-### Blog Post Frontmatter
-```yaml
 ---
-title: "Post Title"
-metatitle: "SEO Title"
-date: 2025-01-27T10:30:00Z
-modified_date: 2025-01-27T10:30:00Z
-draft: false
-author: "Author Name"
-description: "Meta description for SEO"
-weight: 1
-tags:
-  - Tag1
-  - Tag2
-image: images/blog/post-slug/thumbnail.png
-canonicalURL: /blog/post-slug/
-url: /blog/post-slug/
----
-```
 
-### Blog Features
-- Multilingual support with language-specific folders
-- Automatic pagination
-- Tag-based filtering
-- SEO optimization with structured data
-- Responsive images with CDN support
+## Key Architectural Principles
 
-### Automated Blog Translation
-```bash
-# Translate blog post to all languages
-npm run blog:translate-all your-post-slug
+1. **Static-First Architecture**: Prioritize static generation for performance and SEO
+2. **Progressive Enhancement**: Add interactivity only where needed with React islands
+3. **i18n-First Design**: Every component and page designed for 20 languages from the start
+4. **Type Safety**: Comprehensive TypeScript usage for maintainable code
+5. **SEO Optimization**: Built-in SEO best practices with structured data
+6. **Performance Focus**: Optimized build process and runtime performance
 
-# Deploy multilingual blog
-npm run blog:deploy-multilingual your-post-slug
-```
-
-## SEO & Metadata
-
-### SEO Implementation
-- **Meta Management**: react-helmet-async for dynamic meta tags
-- **Sitemap Generation**: Automated with language alternates
-- **Robots.txt**: Generated with proper directives
-- **Structured Data**: JSON-LD for blog posts and organization
-
-### SEO Utilities
-```typescript
-// Standard SEO data generation
-import { getSEOData, getCanonicalUrl } from './utils/seo';
-
-const seoData = getSEOData(t, 'seo.homepage', {
-  canonicalUrl: getCanonicalUrl(language, path),
-  image: '/seasalt-ai-logo.png'
-});
-```
-
-### Sitemap & Robots Generation
-```bash
-# Generate sitemap with all pages and languages
-npm run generate-sitemap
-
-# Generate robots.txt
-npm run generate-robots
-
-# Both together
-npm run seo-update
-```
-
-## Deployment
-
-### Netlify Configuration
-- Build command: `npm run build`
-- Publish directory: `dist`
-- Automatic redirects for client-side routing
-- Cache control headers configured in `netlify.toml`
-
-### Prerendering
-The build process includes automatic prerendering:
-1. TypeScript compilation
-2. Vite build
-3. Puppeteer-based prerendering for SEO
-
-### Environment Considerations
-- No environment variables required for basic operation
-- Translation files loaded dynamically from `/locales/`
-- Sitemap and robots.txt copied to dist during build
-
-## Important Project-Specific Notes
-
-### Multi-Product Architecture
-This website serves three distinct products:
-- **SeaChat**: AI chatbot platform (`/seachat/*`)
-- **SeaX**: Omnichannel communication (`/seax/*`)
-- **SeaVoice**: AI voice agents (`/seavoice/*`)
-
-Each product has its own router and page structure but shares common components and i18n system.
-
-### Translation Workflow
-The project uses a sophisticated translation management system:
-1. **Bulk Translation Method**: Efficient for multiple updates
-2. **Automated backups**: Created before each update
-3. **Validation**: JSON integrity checks after updates
-4. **Coverage Analysis**: Detect remaining hardcoded strings
-
-See `scripts/how-to-update-json.md` for detailed translation workflow documentation.
-
-### Git Integration with Translations
-When using git with --no-pager flag (as per rules), always use:
-```bash
-git --no-pager log
-git --no-pager diff
-git --no-pager show
-```
-
-### Code Style Guidelines
-- Use TypeScript for all new components
-- Follow existing component patterns in respective product folders
-- Maintain i18n keys in hierarchical structure
-- Use Tailwind CSS classes for styling
-- Keep SEO metadata consistent across pages
-
-### Testing Considerations
-Currently no test suite configured. When adding tests:
-- Consider Vitest for unit testing (Vite-native)
-- React Testing Library for component tests
-- Playwright for E2E testing (prerendering already uses Puppeteer)
-
-## Common Development Tasks
-
-### Adding a New Page
-1. Create component in appropriate `pages/` subfolder
-2. Add route in `App.tsx` or product router
-3. Add i18n keys for page content
-4. Generate SEO metadata using `getSEOData`
-5. Update sitemap generation if needed
-
-### Adding a New Channel/Industry/Solution Page
-1. Follow existing patterns in respective folders
-2. Use consistent component structure
-3. Include proper SEO metadata
-4. Add translations for all supported languages
-
-### Updating Navigation
-1. Update i18n keys in translation files
-2. Modify `Header.tsx` component
-3. Ensure mobile responsiveness
-4. Test language switching
-
-### Working with Blog Posts
-1. Create markdown file in `content/blog/{lang}/`
-2. Include complete frontmatter
-3. Use relative image paths
-4. Run blog translation scripts for multilingual support
-5. Regenerate sitemap after adding
+This architecture supports SeaSalt.ai's global presence with excellent performance, SEO, and maintainability.

@@ -1,0 +1,141 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
+
+// React 組件
+import Hero from '../../../components/react/seachat/Hero';
+import OmnichannelDemo from '../../../components/react/seachat/OmnichannelDemo';
+import FeatureTabs from '../../../components/react/seachat/FeatureTabs';
+import KnowledgeBase from '../../../components/react/seachat/KnowledgeBase';
+import Testimonials from '../../../components/react/seachat/Testimonials';
+
+// Astro 組件
+import KeyFeatures from '../../../components/seachat/KeyFeatures.astro';
+import FeatureComparison from '../../../components/seachat/FeatureComparison.astro';
+import UseCases from '../../../components/seachat/UseCases.astro';
+
+// 為所有支持的語言生成靜態路徑
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// 取得動態語言參數
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// 獲取翻譯幫助函數
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// SEO 設定
+const title = t('seachat.seo.title') || 'SeaChat - AI-Powered Chatbot Platform | SeaSalt.ai';
+const description = t('seachat.seo.description') || 'Transform your customer support with SeaChat\'s AI-powered chatbot platform. Automate conversations across WhatsApp, SMS, webchat, and voice calls.';
+const keywords = t('seachat.seo.keywords') || 'AI chatbot, customer service automation, WhatsApp business, conversational AI, chatbot platform, customer support';
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` }
+];
+---
+<Layout 
+  title={title} 
+  description={description} 
+  lang={currentLang}
+  keywords={keywords}
+  type="service"
+  headerVersion="seachat"
+  footerVersion="seachat"
+  breadcrumbs={breadcrumbs}
+  service={{
+    "offers": [
+      {
+        "name": t('seachat.pricing.plans.free.name') || 'Free',
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": t('seachat.pricing.plans.free.description')
+      },
+      {
+        "name": t('seachat.pricing.plans.premium.name') || 'Premium',
+        "price": "29.99",
+        "priceCurrency": "USD",
+        "description": t('seachat.pricing.plans.premium.description')
+      },
+      {
+        "name": t('seachat.pricing.plans.enterprise.name') || 'Enterprise',
+        "price": "Contact for pricing",
+        "priceCurrency": "USD",
+        "description": t('seachat.pricing.plans.enterprise.description')
+      }
+    ]
+  }}
+><Hero 
+    client:only="react" 
+    lang={currentLang} 
+    translations={translations}
+  />
+
+  <!-- Key Features Section -->
+  <KeyFeatures lang={currentLang} />
+
+  <!-- Omnichannel Demo Section -->
+  <OmnichannelDemo 
+    client:only="react" 
+    lang={currentLang} 
+    translations={translations}
+  />
+
+  <!-- Feature Tabs Section -->
+  <FeatureTabs 
+    client:only="react" 
+    lang={currentLang} 
+    translations={translations}
+  />
+
+  <!-- Knowledge Base Section -->
+  <KnowledgeBase
+    client:only="react" 
+    lang={currentLang} 
+    translations={translations}
+  />
+
+  <!-- Feature Comparison Section -->
+  <FeatureComparison lang={currentLang} />
+
+  <!-- Use Cases Section -->
+  <UseCases lang={currentLang} />
+
+  <!-- Testimonials Section -->
+  <Testimonials
+    client:only="react" 
+    lang={currentLang} 
+    translations={translations}
+  />
+
+  <!-- Call to Action Section -->
+  <section class="py-20 bg-gradient-to-br from-teal-600 to-blue-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+        {t('footer.cta.title') || 'Ready to Transform Your Customer Support?'}
+      </h2>
+      <p class="text-xl text-teal-100 mb-8 max-w-3xl mx-auto">
+        {t('footer.cta.subtitle') || 'Join thousands of businesses using SeaChat to deliver exceptional customer experiences.'}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          class="bg-white text-teal-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 shadow-lg"
+        >
+          {t('footer.cta.startFreeTrial') || 'Start Free Trial'}
+        </a>
+        <a
+          href="https://calendly.com/seasalt-ai/seasalt-ai-demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 rounded-lg font-semibold text-lg transition-all"
+        >
+          {t('footer.cta.scheduleDemo') || 'Schedule Demo'}
+        </a>
+      </div>
+    </Layout>

@@ -1,0 +1,400 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+import VoiceDemo from '../../../../components/react/VoiceDemo';
+import { User, Settings, Globe, Volume2 } from 'lucide-react';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t, translations } = await getTranslationHelpers(currentLang);
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaVoice', url: `/${currentLang}/seavoice/` },
+  { name: 'Platform', url: `/${currentLang}/seavoice/platform/` },
+  { name: 'Text to Speech' }
+];
+
+// SEO配置
+const seoData = {
+  title: t('textToSpeech.hero.title') || 'Text-to-Speech Technology - SeaVoice',
+  description: t('textToSpeech.hero.subtitle') || 'Generate human-like speech from text with our advanced neural text-to-speech technology. Create custom voices, support 40+ languages, and deliver exceptional audio quality.',
+  canonical: `/${currentLang}/seavoice/platform/text-to-speech`,
+};
+
+// FAQs
+const faqs = [
+  {
+    question: t('textToSpeech.faq.q1') || 'Can I create a custom brand voice?',
+    answer: t('textToSpeech.faq.a1') || 'Yes. SeaVoice supports custom voice cloning with fine-grained control over tone, pronunciation, and style.'
+  },
+  {
+    question: t('textToSpeech.faq.q2') || 'How many languages and accents are supported?',
+    answer: t('textToSpeech.faq.a2') || 'Over 40 languages are supported with regional accents and natural prosody for high intelligibility.'
+  },
+  {
+    question: t('textToSpeech.faq.q3') || 'Is latency suitable for real-time use?',
+    answer: t('textToSpeech.faq.a3') || 'Yes. Typical text-to-audio latency is under 200ms, suitable for interactive applications.'
+  }
+];
+
+// 功能特色配置
+const features = [
+  {
+    icon: 'user',
+    title: t('textToSpeech.features.customVoiceCloning.title') || 'Custom Voice Cloning',
+    description: t('textToSpeech.features.customVoiceCloning.description') || 'Create unique voice profiles that match your brand personality and speaking style.',
+    capabilities: [
+      t('textToSpeech.features.customVoiceCloning.capabilities.voiceCloning') || 'Voice cloning from samples',
+      t('textToSpeech.features.customVoiceCloning.capabilities.brandVoice') || 'Brand voice consistency',
+      t('textToSpeech.features.customVoiceCloning.capabilities.emotionalExpression') || 'Emotional expression',
+      t('textToSpeech.features.customVoiceCloning.capabilities.customPronunciations') || 'Custom pronunciations'
+    ]
+  },
+  {
+    icon: 'settings',
+    title: t('textToSpeech.features.advancedControls.title') || 'Advanced Controls',
+    description: t('textToSpeech.features.advancedControls.description') || 'Fine-tune every aspect of speech generation for perfect audio output.',
+    capabilities: [
+      t('textToSpeech.features.advancedControls.capabilities.speedAdjustment') || 'Speed adjustment',
+      t('textToSpeech.features.advancedControls.capabilities.pitchControl') || 'Pitch control',
+      t('textToSpeech.features.advancedControls.capabilities.emphasisPlacement') || 'Emphasis placement',
+      t('textToSpeech.features.advancedControls.capabilities.pauseInsertion') || 'Pause insertion'
+    ]
+  },
+  {
+    icon: 'globe',
+    title: t('textToSpeech.features.multiLanguageSupport.title') || 'Multi-Language Support',
+    description: t('textToSpeech.features.multiLanguageSupport.description') || 'Generate natural speech in 40+ languages with native pronunciation.',
+    capabilities: [
+      t('textToSpeech.features.multiLanguageSupport.capabilities.fortyPlusLanguages') || '40+ languages',
+      t('textToSpeech.features.multiLanguageSupport.capabilities.regionalAccents') || 'Regional accents',
+      t('textToSpeech.features.multiLanguageSupport.capabilities.codeSwitching') || 'Code-switching',
+      t('textToSpeech.features.multiLanguageSupport.capabilities.multilingualVoices') || 'Multilingual voices'
+    ]
+  }
+];
+
+// 品質指標配置
+const qualityMetrics = [
+  {
+    metric: t('textToSpeech.qualityMetrics.naturalness.metric') || 'Naturalness Score',
+    value: t('textToSpeech.qualityMetrics.naturalness.value') || '4.8/5',
+    description: t('textToSpeech.qualityMetrics.naturalness.description') || 'Human evaluation rating'
+  },
+  {
+    metric: t('textToSpeech.qualityMetrics.intelligibility.metric') || 'Intelligibility',
+    value: t('textToSpeech.qualityMetrics.intelligibility.value') || '99.2%',
+    description: t('textToSpeech.qualityMetrics.intelligibility.description') || 'Word recognition accuracy'
+  },
+  {
+    metric: t('textToSpeech.qualityMetrics.latency.metric') || 'Latency',
+    value: t('textToSpeech.qualityMetrics.latency.value') || '< 200ms',
+    description: t('textToSpeech.qualityMetrics.latency.description') || 'Text to audio generation'
+  },
+  {
+    metric: t('textToSpeech.qualityMetrics.audioQuality.metric') || 'Audio Quality',
+    value: t('textToSpeech.qualityMetrics.audioQuality.value') || '48kHz',
+    description: t('textToSpeech.qualityMetrics.audioQuality.description') || 'High-fidelity output'
+  }
+];
+
+// 使用案例配置
+const useCases = [
+  {
+    title: t('textToSpeech.useCases.customerService.title') || 'Customer Service',
+    description: t('textToSpeech.useCases.customerService.description') || 'Provide consistent, professional voice responses for customer interactions.',
+    benefits: [
+      t('textToSpeech.useCases.customerService.benefits.availability') || '24/7 availability',
+      t('textToSpeech.useCases.customerService.benefits.consistentQuality') || 'Consistent quality',
+      t('textToSpeech.useCases.customerService.benefits.multiLanguageSupport') || 'Multi-language support',
+      t('textToSpeech.useCases.customerService.benefits.brandVoiceAlignment') || 'Brand voice alignment'
+    ]
+  },
+  {
+    title: t('textToSpeech.useCases.contentCreation.title') || 'Content Creation',
+    description: t('textToSpeech.useCases.contentCreation.description') || 'Generate voiceovers for videos, podcasts, and multimedia content.',
+    benefits: [
+      t('textToSpeech.useCases.contentCreation.benefits.costEffectiveProduction') || 'Cost-effective production',
+      t('textToSpeech.useCases.contentCreation.benefits.quickTurnaround') || 'Quick turnaround',
+      t('textToSpeech.useCases.contentCreation.benefits.multipleVoiceOptions') || 'Multiple voice options',
+      t('textToSpeech.useCases.contentCreation.benefits.easyRevisions') || 'Easy revisions'
+    ]
+  },
+  {
+    title: t('textToSpeech.useCases.accessibility.title') || 'Accessibility',
+    description: t('textToSpeech.useCases.accessibility.description') || 'Make content accessible with high-quality text-to-speech for visually impaired users.',
+    benefits: [
+      t('textToSpeech.useCases.accessibility.benefits.screenReaderEnhancement') || 'Screen reader enhancement',
+      t('textToSpeech.useCases.accessibility.benefits.documentNarration') || 'Document narration',
+      t('textToSpeech.useCases.accessibility.benefits.webAccessibility') || 'Web accessibility',
+      t('textToSpeech.useCases.accessibility.benefits.educationalSupport') || 'Educational support'
+    ]
+  },
+  {
+    title: t('textToSpeech.useCases.interactiveApplications.title') || 'Interactive Applications',
+    description: t('textToSpeech.useCases.interactiveApplications.description') || 'Add voice capabilities to apps, games, and interactive experiences.',
+    benefits: [
+      t('textToSpeech.useCases.interactiveApplications.benefits.realTimeGeneration') || 'Real-time generation',
+      t('textToSpeech.useCases.interactiveApplications.benefits.dynamicContent') || 'Dynamic content',
+      t('textToSpeech.useCases.interactiveApplications.benefits.userEngagement') || 'User engagement',
+      t('textToSpeech.useCases.interactiveApplications.benefits.immersiveExperiences') || 'Immersive experiences'
+    ]
+  }
+];
+
+// 圖示組件映射
+function getIconSvg(iconName: string) {
+  const icons = {
+    user: '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>',
+    settings: '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>',
+    globe: '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>',
+    volume: '<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>'
+  };
+  return icons[iconName as keyof typeof icons] || icons.volume;
+}
+---
+
+<Layout title={seoData.title} description={seoData.description} canonical={seoData.canonical} lang={currentLang} breadcrumbs={breadcrumbs} faqs={faqs}>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-purple-50 via-white to-blue-50 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <div class="flex items-center justify-center mb-6">
+          <div class="w-16 h-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full flex items-center justify-center">
+            <Fragment set:html={getIconSvg('volume')} />
+          </div>
+        </div>
+        <h1 class="text-5xl font-bold text-gray-900 mb-6">
+          {t('textToSpeech.hero.title') || 'Text-to-Speech Technology'}
+        </h1>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+          {t('textToSpeech.hero.subtitle') || 'Generate human-like speech from text with our advanced neural text-to-speech technology. Create custom voices, support 40+ languages, and deliver exceptional audio quality.'}
+        </p>
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors"
+        >
+          {t('textToSpeech.hero.cta') || 'Try Voice Generation'}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Voice Demo -->
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('textToSpeech.demo.title') || 'Experience Our Voice Technology'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('textToSpeech.demo.subtitle') || 'Try different voices and hear the quality for yourself'}
+        </p>
+      </div>
+
+      <VoiceDemo client:only="react" lang={currentLang} translations={translations} />
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('textToSpeech.features.title') || 'Advanced Voice Generation'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('textToSpeech.features.subtitle') || 'Cutting-edge neural networks deliver human-like speech quality'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {features.map((feature) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
+            <div class="w-12 h-12 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center mb-6">
+              <Fragment set:html={getIconSvg(feature.icon)} />
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">{feature.title}</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">{feature.description}</p>
+            <div class="space-y-2">
+              {feature.capabilities.map((capability) => (
+                <div class="flex items-center">
+                  <div class="w-2 h-2 bg-purple-600 rounded-full mr-3"></div>
+                  <span class="text-sm text-gray-700">{capability}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Quality Metrics -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('textToSpeech.qualityMetrics.title') || 'Exceptional Quality Metrics'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('textToSpeech.qualityMetrics.subtitle') || 'Measured performance that delivers professional results'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {qualityMetrics.map((metric) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200 text-center">
+            <div class="text-3xl font-bold text-purple-600 mb-2">{metric.value}</div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2">{metric.metric}</h3>
+            <p class="text-sm text-gray-600">{metric.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+          {t('textToSpeech.useCases.title') || 'Versatile Applications'}
+        </h2>
+        <p class="text-xl text-gray-600">
+          {t('textToSpeech.useCases.subtitle') || 'Transform text into speech across industries and use cases'}
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {useCases.map((useCase) => (
+          <div class="bg-white rounded-xl p-8 shadow-lg border border-gray-200">
+            <h3 class="text-xl font-bold text-gray-900 mb-4">{useCase.title}</h3>
+            <p class="text-gray-600 mb-6">{useCase.description}</p>
+            <div class="grid grid-cols-2 gap-2">
+              {useCase.benefits.map((benefit) => (
+                <div class="flex items-center">
+                  <div class="w-2 h-2 bg-purple-600 rounded-full mr-3"></div>
+                  <span class="text-sm text-gray-700">{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Voice Cloning Section -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            {t('textToSpeech.voiceCloning.title') || 'Custom Voice Cloning'}
+          </h2>
+          <p class="text-lg text-gray-600 mb-8">
+            {t('textToSpeech.voiceCloning.subtitle') || 'Create unique voice profiles that perfectly match your brand personality. Our advanced voice cloning technology can replicate speaking styles, accents, and emotional expressions with just a few minutes of sample audio.'}
+          </p>
+          <div class="space-y-6">
+            <div class="flex items-center">
+              <Fragment set:html={getIconSvg('user')} />
+              <div class="ml-4">
+                <h3 class="font-semibold text-gray-900">{t('textToSpeech.voiceCloning.brandVoiceConsistency.title') || 'Brand Voice Consistency'}</h3>
+                <p class="text-gray-600">{t('textToSpeech.voiceCloning.brandVoiceConsistency.description') || 'Maintain consistent brand voice across all interactions'}</p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <Fragment set:html={getIconSvg('settings')} />
+              <div class="ml-4">
+                <h3 class="font-semibold text-gray-900">{t('textToSpeech.voiceCloning.fineTunedControl.title') || 'Fine-Tuned Control'}</h3>
+                <p class="text-gray-600">{t('textToSpeech.voiceCloning.fineTunedControl.description') || 'Adjust tone, pace, and emotional expression'}</p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <Fragment set:html={getIconSvg('volume')} />
+              <div class="ml-4">
+                <h3 class="font-semibold text-gray-900">{t('textToSpeech.voiceCloning.highFidelityOutput.title') || 'High Fidelity Output'}</h3>
+                <p class="text-gray-600">{t('textToSpeech.voiceCloning.highFidelityOutput.description') || 'Professional quality audio for any application'}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">{t('textToSpeech.voiceCloning.process.title') || 'Voice Cloning Process'}</h3>
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center mr-4 text-sm font-bold">
+                1
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900 mb-1">{t('textToSpeech.voiceCloning.process.step1.title') || 'Upload Audio Samples'}</h4>
+                <p class="text-gray-600 text-sm">{t('textToSpeech.voiceCloning.process.step1.description') || 'Provide 5-10 minutes of clean audio recordings'}</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center mr-4 text-sm font-bold">
+                2
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900 mb-1">{t('textToSpeech.voiceCloning.process.step2.title') || 'AI Training'}</h4>
+                <p class="text-gray-600 text-sm">{t('textToSpeech.voiceCloning.process.step2.description') || 'Our neural networks learn your unique voice characteristics'}</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center mr-4 text-sm font-bold">
+                3
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900 mb-1">{t('textToSpeech.voiceCloning.process.step3.title') || 'Voice Generation'}</h4>
+                <p class="text-gray-600 text-sm">{t('textToSpeech.voiceCloning.process.step3.description') || 'Generate unlimited speech with your custom voice'}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl font-bold mb-6">{t('textToSpeech.cta.title') || 'Ready to Give Your Brand a Voice?'}</h2>
+      <p class="text-xl mb-8 opacity-90">
+        {t('textToSpeech.cta.subtitle') || 'Create custom voices and generate professional-quality speech for any application'}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors"
+        >
+          {t('textToSpeech.cta.startVoiceCloning') || 'Start Voice Cloning'}
+        </a>
+        <a
+          href="https://chat.seasalt.ai/gpt/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors"
+        >
+          {t('textToSpeech.cta.exploreApi') || 'Explore API'}
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

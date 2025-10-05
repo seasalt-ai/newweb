@@ -1,11 +1,11 @@
 /**
- * Structured Data Configuration
+ * Schema.org Structured Data Configuration for Seasalt.ai
  * 
- * This file provides the foundational data structures, constants,
- * and business information used to generate schema.org structured data.
+ * This file provides the foundational data structures and business information
+ * used to generate schema.org structured data across the website.
  */
 
-import { SUPPORTED_LANGUAGES, LANGUAGE_REGION_MAP } from '../constants/languages';
+import { languages, type SupportedLanguage } from '../i18n/helpers';
 
 // =============================================================================
 // Schema.org Entity IDs (for cross-referencing schemas)
@@ -20,6 +20,31 @@ export const SCHEMA_IDS = {
 } as const;
 
 // =============================================================================
+// Common Schema Types and Context
+// =============================================================================
+
+export const SCHEMA_CONTEXT = 'https://schema.org';
+
+export const COMMON_SCHEMA_TYPES = {
+  ORGANIZATION: 'Organization',
+  WEBSITE: 'WebSite',
+  WEBPAGE: 'WebPage',
+  PRODUCT: 'Product',
+  SOFTWARE_APPLICATION: 'SoftwareApplication',
+  OFFER: 'Offer',
+  BREADCRUMB_LIST: 'BreadcrumbList',
+  LIST_ITEM: 'ListItem',
+  FAQ_PAGE: 'FAQPage',
+  QUESTION: 'Question',
+  ANSWER: 'Answer',
+  ARTICLE: 'Article',
+  IMAGE_OBJECT: 'ImageObject',
+  CONTACT_POINT: 'ContactPoint',
+  SEARCH_ACTION: 'SearchAction',
+  ENTRY_POINT: 'EntryPoint'
+} as const;
+
+// =============================================================================
 // Organization Information
 // =============================================================================
 
@@ -27,25 +52,15 @@ export interface OrganizationInfo {
   name: string;
   alternateName: string;
   url: string;
+  description: string;
+  industry: string;
   logo: {
     url: string;
     width: number;
     height: number;
   };
   foundingDate: string;
-  contactPoint: {
-    email: string;
-    contactType: string;
-    availableLanguage: string[];
-  };
-  sameAs: string[];
-  areaServed: string[]; // ISO country codes
-  availableLanguage: string[];
-}
-
-// Enhanced organization information interface
-export interface EnhancedOrganizationInfo extends OrganizationInfo {
-  address?: {
+  address: {
     streetAddress: string;
     addressLocality: string;
     addressRegion: string;
@@ -53,6 +68,11 @@ export interface EnhancedOrganizationInfo extends OrganizationInfo {
     postalCode: string;
   };
   telephone?: string;
+  contactPoint: {
+    email: string;
+    contactType: string;
+    availableLanguage: string[];
+  };
   aggregateRating?: {
     ratingValue: number;
     bestRating: number;
@@ -62,18 +82,19 @@ export interface EnhancedOrganizationInfo extends OrganizationInfo {
     minValue: number;
     maxValue: number;
   };
-  industry: string;
-  description: string;
+  sameAs: string[];
+  areaServed: string[]; // ISO country codes
+  availableLanguage: string[];
 }
 
-export const ORGANIZATION_INFO: EnhancedOrganizationInfo = {
+export const ORGANIZATION_INFO: OrganizationInfo = {
   name: 'Seasalt.ai',
   alternateName: 'Seasalt AI',
   url: 'https://seasalt.ai',
   description: 'Leading AI conversation intelligence platform offering omnichannel customer communication solutions for businesses of all sizes.',
   industry: 'Software Development',
   logo: {
-    url: 'https://seasalt.ai/seasalt-ai-logo.png',
+    url: '/seasalt-ai-logo.png',
     width: 1200,
     height: 630
   },
@@ -89,9 +110,7 @@ export const ORGANIZATION_INFO: EnhancedOrganizationInfo = {
   contactPoint: {
     email: 'info@seasalt.ai',
     contactType: 'customer service',
-    availableLanguage: SUPPORTED_LANGUAGES.map(lang => 
-      LANGUAGE_REGION_MAP[lang]?.language || lang
-    )
+    availableLanguage: Object.keys(languages)
   },
   aggregateRating: {
     ratingValue: 4.8,
@@ -118,7 +137,25 @@ export const ORGANIZATION_INFO: EnhancedOrganizationInfo = {
     'BR', 'MX', 'AR', // Latin American markets
     'AE', 'SA' // Middle East markets
   ],
-  availableLanguage: [...SUPPORTED_LANGUAGES]
+  availableLanguage: Object.keys(languages)
+};
+
+// =============================================================================
+// Website Information
+// =============================================================================
+
+export interface WebsiteInfo {
+  name: string;
+  url: string;
+  description: string;
+  inLanguage: string[];
+}
+
+export const WEBSITE_INFO: WebsiteInfo = {
+  name: 'Seasalt.ai',
+  url: 'https://seasalt.ai',
+  description: 'AI-powered omnichannel customer communication platform for businesses of all sizes',
+  inLanguage: Object.keys(languages)
 };
 
 // =============================================================================
@@ -133,12 +170,6 @@ export interface ProductInfo {
   applicationCategory: string;
   operatingSystem: string;
   features: string[];
-  defaultOffer: {
-    price: string;
-    priceCurrency: string;
-    availability: string;
-    description: string;
-  };
   image: string;
   screenshots: string[];
   aggregateRating?: {
@@ -146,94 +177,18 @@ export interface ProductInfo {
     bestRating: number;
     ratingCount: number;
   };
+  offers: {
+    price: string;
+    priceCurrency: string;
+    availability: string;
+    description: string;
+  };
 }
-
-// Enhanced Product Info with Multilingual Support
-export interface LocalizedProductInfo extends ProductInfo {
-  localizedDescriptions?: Record<string, string>;
-  localizedFeatures?: Record<string, string[]>;
-  localizedOfferDescriptions?: Record<string, string>;
-}
-
-// =============================================================================
-// Multilingual Product Data
-// =============================================================================
-
-/**
- * Comprehensive multilingual product descriptions for all supported languages
- */
-export const LOCALIZED_PRODUCT_DESCRIPTIONS: Record<ProductKey, Record<string, string>> = {
-  seachat: {
-    'en': 'Free AI chatbot platform with unlimited conversations, 4 human agents, and enterprise AI models. Build powerful conversational AI experiences.',
-    'zh-TW': '免費的 AI 聊天機器人平台，提供無限對話、4 名人工客服和企業級 AI 模型。打造強大的對話式 AI 體驗。',
-    'zh-CN': '免费的 AI 聊天机器人平台，提供无限对话、4 名人工客服和企业级 AI 模型。打造强大的对话式 AI 体验。',
-    'es': 'Plataforma de chatbot de IA gratuita con conversaciones ilimitadas, 4 agentes humanos y modelos de IA empresariales. Cree potentes experiencias de IA conversacional.',
-    'fr': "Plateforme de chatbot IA gratuite avec conversations illimitées, 4 agents humains et modèles d'IA d'entreprise. Créez des expériences d'IA conversationnelle puissantes.",
-    'de': 'Kostenlose KI-Chatbot-Plattform mit unbegrenzten Gesprächen, 4 menschlichen Agenten und Enterprise-KI-Modellen. Erstellen Sie leistungsstarke konversationelle KI-Erlebnisse.',
-    'pt': 'Plataforma de chatbot de IA gratuita com conversas ilimitadas, 4 agentes humanos e modelos de IA empresariais. Construa experiências poderosas de IA conversacional.',
-    'ja': '無制限の会話、4人のヒューマンエージェント、エンタープライズAIモデルを備えた無料のAIチャットボットプラットフォーム。強力な会話型AI体験を構築。',
-    'ko': '무제한 대화, 4명의 휴먼 에이전트, 엔터프라이즈 AI 모델을 제공하는 무료 AI 챗봇 플랫폼. 강력한 대화형 AI 경험 구축.',
-    'ar': 'منصة روبوت محادثة بالذكاء الاصطناعي مجانية مع محادثات غير محدودة و4 عملاء بشريين ونماذج ذكاء اصطناعي للمؤسسات. أنشئ تجارب ذكاء اصطناعي محادثي قوية.',
-    'ru': 'Бесплатная платформа чат-бота на базе ИИ с неограниченными диалогами, 4 живыми агентами и корпоративными ИИ-моделями. Создавайте мощные разговорные ИИ-решения.',
-    'hi': 'असीमित बातचीत, 4 मानव एजेंट और एंटरप्राइज़ AI मॉडलों के साथ मुफ्त AI चैटबॉट प्लेटफ़ॉर्म। शक्तिशाली संवादात्मक AI अनुभव बनाएं।',
-    'id': 'Platform chatbot AI gratis dengan percakapan tanpa batas, 4 agen manusia, dan model AI perusahaan. Bangun pengalaman AI percakapan yang kuat.',
-    'th': 'แพลตฟอร์มแชตบอท AI ฟรีพร้อมการสนทนาไม่จำกัด ตัวแทนมนุษย์ 4 คน และโมเดล AI สำหรับองค์กร สร้างประสบการณ์ AI เชิงสนทนาที่ทรงพลัง',
-    'vi': 'Nền tảng chatbot AI miễn phí với số lượng cuộc trò chuyện không giới hạn, 4 nhân viên hỗ trợ con người và các mô hình AI doanh nghiệp. Xây dựng trải nghiệm AI hội thoại mạnh mẽ.',
-    'ms': 'Platform chatbot AI percuma dengan perbualan tanpa had, 4 ejen manusia dan model AI perusahaan. Bina pengalaman AI perbualan yang berkuasa.',
-    'fil': 'Libreng AI chatbot platform na may walang limitasyong usapan, 4 na human agents, at enterprise AI models. Bumuo ng makapangyarihang conversational AI experiences.',
-    'pl': 'Darmowa platforma chatbota AI z nielimitowanymi rozmowami, 4 ludzkimi agentami i modelami AI klasy enterprise. Twórz potężne doświadczenia konwersacyjne AI.',
-    'fa': 'پلتفرم رایگان چت‌بات هوش مصنوعی با گفتگوهای نامحدود، ۴ اپراتور انسانی و مدل‌های هوش مصنوعی سازمانی. تجربه‌های قدرتمند هوش مصنوعی مکالمه‌ای بسازید.',
-    'ta': 'வரம்பற்ற உரையாடல்கள், 4 மனித முகவர்கள் மற்றும் நிறுவனம் தரமான AI மாதிரிகள் கொண்ட இலவச AI அரட்டைப் பேச்சு தளம். சக்திவாய்ந்த உரையாடல் AI அனுபவங்களை உருவாக்குங்கள்.'
-  },
-  seax: {
-    'en': 'Omnichannel communication platform that unifies WhatsApp, SMS, voice calls, and more in one dashboard. Scale your customer communications.',
-    'zh-TW': '全通路溝通平台，將 WhatsApp、簡訊、語音通話等整合在一個儀表板中。擴展您的客戶溝通。',
-    'zh-CN': '全渠道沟通平台，将 WhatsApp、短信、语音通话等整合在一个仪表板中。扩展您的客户沟通。',
-    'es': 'Plataforma de comunicación omnicanal que unifica WhatsApp, SMS, llamadas de voz y más en un solo panel. Escale sus comunicaciones con los clientes.',
-    'fr': "Plateforme de communication omnicanale qui unifie WhatsApp, SMS, appels vocaux et plus encore dans un seul tableau de bord. Faites évoluer vos communications client.",
-    'de': 'Omnichannel-Kommunikationsplattform, die WhatsApp, SMS, Sprachanrufe und mehr in einem Dashboard vereint. Skalieren Sie Ihre Kundenkommunikation.',
-    'pt': 'Plataforma de comunicação omnichannel que unifica WhatsApp, SMS, chamadas de voz e muito mais em um único painel. Escale suas comunicações com clientes.',
-    'ja': 'WhatsApp、SMS、音声通話などを1つのダッシュボードに統合するオムニチャネルコミュニケーションプラットフォーム。顧客コミュニケーションを拡張。',
-    'ko': 'WhatsApp, SMS, 음성 통화 등을 하나의 대시보드에 통합하는 옴니채널 커뮤니케이션 플랫폼. 고객 커뮤니케이션 확장.',
-    'ar': 'منصة اتصالات متعددة القنوات توحد WhatsApp والرسائل النصية والمكالمات الصوتية والمزيد في لوحة تحكم واحدة. قم بتوسيع اتصالاتك مع العملاء.',
-    'ru': 'Омниканальная платформа коммуникаций, объединяющая WhatsApp, SMS, голосовые вызовы и многое другое в единой панели. Масштабируйте коммуникации с клиентами.',
-    'hi': 'व्हाट्सएप, एसएमएस, वॉयस कॉल और अधिक को एक डैशबोर्ड में एकीकृत करने वाला ऑम्निचैनल संचार प्लेटफ़ॉर्म। अपनी ग्राहक संचार को स्केल करें।',
-    'id': 'Platform komunikasi omnichannel yang menyatukan WhatsApp, SMS, panggilan suara, dan lainnya dalam satu dasbor. Skala komunikasi pelanggan Anda.',
-    'th': 'แพลตฟอร์มการสื่อสารแบบ Omnichannel ที่รวม WhatsApp, SMS, การโทรด้วยเสียง และอื่น ๆ ไว้ในแดชบอร์ดเดียว ขยายการสื่อสารกับลูกค้าของคุณ',
-    'vi': 'Nền tảng giao tiếp đa kênh hợp nhất WhatsApp, SMS, cuộc gọi thoại và nhiều hơn nữa trong một bảng điều khiển. Mở rộng giao tiếp với khách hàng của bạn.',
-    'ms': 'Platform komunikasi omnichannel yang menyatukan WhatsApp, SMS, panggilan suara dan banyak lagi dalam satu papan pemuka. Skala komunikasi pelanggan anda.',
-    'fil': 'Omnichannel communication platform na pinagsasama ang WhatsApp, SMS, voice calls, at iba pa sa iisang dashboard. I-scale ang iyong customer communications.',
-    'pl': 'Omnikanałowa platforma komunikacyjna, która łączy WhatsApp, SMS, połączenia głosowe i więcej w jednym panelu. Skaluj komunikację z klientami.',
-    'fa': 'پلتفرم ارتباطی همه‌کاناله که واتس‌اپ، پیامک، تماس صوتی و موارد دیگر را در یک داشبورد یکپارچه می‌کند. ارتباطات مشتریان خود را مقیاس دهید.',
-    'ta': 'WhatsApp, SMS, குரல் அழைப்புகள் மற்றும் பலவற்றை ஒரு டாஷ்போர்டில் ஒருங்கிணைக்கும் Omnichannel தொடர்பு தளம். உங்கள் வாடிக்கையாளர் தொடர்புகளை அளவிடுங்கள்.'
-  },
-  seavoice: {
-    'en': 'AI-powered voice communication platform with intelligent call routing, voice analytics, and automated responses. Transform your voice operations.',
-    'zh-TW': '採用 AI 技術的語音溝通平台，具備智能通話路由、語音分析和自動化回應。轉型您的語音營運。',
-    'zh-CN': '采用 AI 技术的语音沟通平台，具备智能通话路由、语音分析和自动化响应。转型您的语音运营。',
-    'es': 'Plataforma de comunicación de voz impulsada por IA con enrutamiento inteligente de llamadas, analítica de voz y respuestas automatizadas. Transforme sus operaciones de voz.',
-    'fr': "Plateforme de communication vocale alimentée par l'IA avec routage intelligent des appels, analytique vocale et réponses automatisées. Transformez vos opérations vocales.",
-    'de': 'KI-gestützte Sprachkommunikationsplattform mit intelligentem Anrufrouting, Sprachanalysen und automatisierten Antworten. Transformieren Sie Ihre Sprachabläufe.',
-    'pt': 'Plataforma de comunicação por voz com IA com roteamento inteligente de chamadas, análises de voz e respostas automatizadas. Transforme suas operações de voz.',
-    'ja': 'インテリジェントなコールルーティング、音声分析、自動応答を備えたAI音声コミュニケーションプラットフォーム。音声オペレーションを変革。',
-    'ko': '지능형 통화 라우팅, 음성 분석, 자동 응답을 갖춘 AI 기반 음성 커뮤니케이션 플랫폼. 음성 운영을 혁신.',
-    'ar': 'منصة اتصالات صوتية مدعومة بالذكاء الاصطناعي مع توجيه ذكي للمكالمات وتحليلات صوتية واستجابات آلية. حوّل عمليات الصوت لديك.',
-    'ru': 'Платформа голосовой связи на базе ИИ с интеллектуальной маршрутизацией звонков, голосовой аналитикой и автоматическими ответами. Трансформируйте голосовые операции.',
-    'hi': 'इंटेलिजेंट कॉल रूटिंग, वॉयस एनालिटिक्स और स्वचालित प्रतिक्रियाओं के साथ AI-संचालित वॉयस कम्युनिकेशन प्लेटफ़ॉर्म। अपनी वॉयस ऑपरेशंस को बदलें।',
-    'id': 'Platform komunikasi suara bertenaga AI dengan perutean panggilan cerdas, analitik suara, dan respons otomatis. Transformasikan operasi suara Anda.',
-    'th': 'แพลตฟอร์มการสื่อสารด้วยเสียงที่ขับเคลื่อนด้วย AI พร้อมการกำหนดเส้นทางการโทรอัจฉริยะ การวิเคราะห์เสียง และการตอบสนองอัตโนมัติ เปลี่ยนแปลงการดำเนินงานด้านเสียงของคุณ',
-    'vi': 'Nền tảng giao tiếp giọng nói được hỗ trợ bởi AI với định tuyến cuộc gọi thông minh, phân tích giọng nói và phản hồi tự động. Chuyển đổi hoạt động thoại của bạn.',
-    'ms': 'Platform komunikasi suara berkuasa AI dengan perutean panggilan pintar, analitik suara dan respons automatik. Ubah operasi suara anda.',
-    'fil': 'AI-powered voice communication platform na may intelligent call routing, voice analytics, at automated responses. I-transform ang iyong voice operations.',
-    'pl': 'Platforma komunikacji głosowej zasilana przez AI z inteligentnym kierowaniem połączeń, analizą głosu i zautomatyzowanymi odpowiedziami. Odmień swoje operacje głosowe.',
-    'fa': 'سکوی ارتباط صوتی مبتنی بر هوش مصنوعی با مسیریابی هوشمند تماس، تحلیل گفتار و پاسخ‌های خودکار. عملیات صوتی خود را متحول کنید.',
-    'ta': 'புத்திசாலி கால் ரௌட்டிங், குரல் பகுப்பாய்வு மற்றும் தானியங்கு பதில்களுடன் AI சக்தியூட்டப்பட்ட குரல் தொடர்பு தளம். உங்கள் குரல் செயல்பாடுகளை மாற்றியமைக்கவும்.'
-  }
-};
 
 // Static product information (non-localized)
-const PRODUCT_STATIC_INFO = {
+export const PRODUCTS_INFO: Record<ProductKey, Omit<ProductInfo, 'description' | 'features'>> = {
   seachat: {
+    name: 'SeaChat',
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web, iOS, Android',
     image: '/seachat-logo.png',
@@ -246,9 +201,16 @@ const PRODUCT_STATIC_INFO = {
       ratingValue: 4.8,
       bestRating: 5.0,
       ratingCount: 1247
+    },
+    offers: {
+      price: '0',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      description: 'Free forever plan with premium options available'
     }
   },
   seax: {
+    name: 'SeaX',
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web, iOS, Android',
     image: '/seax-logo.png',
@@ -262,9 +224,16 @@ const PRODUCT_STATIC_INFO = {
       ratingValue: 4.7,
       bestRating: 5.0,
       ratingCount: 892
+    },
+    offers: {
+      price: '19.99',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      description: 'Professional omnichannel communication platform'
     }
   },
   seavoice: {
+    name: 'SeaVoice',
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Web, SIP, PSTN',
     image: '/seavoice-logo.png',
@@ -277,880 +246,1368 @@ const PRODUCT_STATIC_INFO = {
       ratingValue: 4.9,
       bestRating: 5.0,
       ratingCount: 634
+    },
+    offers: {
+      price: '29.99',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      description: 'AI-powered voice communication platform'
     }
   }
 };
 
-// Pricing tier interface
-export interface PricingTier {
-  name: string;
-  price: string;
-  priceCurrency: string;
-  period?: string;
-  description: string;
-  features?: string[];
-  isPopular?: boolean;
-  isFree?: boolean;
+// =============================================================================
+// Schema Availability Types
+// =============================================================================
+
+export type SchemaAvailability = 
+  | 'https://schema.org/InStock'
+  | 'https://schema.org/OutOfStock'
+  | 'https://schema.org/PreOrder'
+  | 'https://schema.org/BackOrder'
+  | 'https://schema.org/Discontinued';
+
+export const SCHEMA_AVAILABILITY = {
+  IN_STOCK: 'https://schema.org/InStock' as const,
+  OUT_OF_STOCK: 'https://schema.org/OutOfStock' as const,
+  PRE_ORDER: 'https://schema.org/PreOrder' as const,
+  BACK_ORDER: 'https://schema.org/BackOrder' as const,
+  DISCONTINUED: 'https://schema.org/Discontinued' as const
+} as const;
+
+// =============================================================================
+// Localized Organization Descriptions
+// =============================================================================
+
+export const LOCALIZED_ORGANIZATION_DESCRIPTIONS: Record<string, string> = {
+  'en': 'Leading AI conversation intelligence platform offering omnichannel customer communication solutions for businesses of all sizes.',
+  'zh-TW': '領先的 AI 對話智能平台，為各種規模的企業提供全通路客戶溝通解決方案。',
+  'zh-CN': '领先的 AI 对话智能平台，为各种规模的企业提供全渠道客户沟通解决方案。',
+  'es': 'Plataforma líder de inteligencia conversacional de IA que ofrece soluciones de comunicación omnicanal para empresas de todos los tamaños.',
+  'fr': 'Plateforme leader d\'intelligence conversationnelle IA offrant des solutions de communication omnicanale pour les entreprises de toutes tailles.',
+  'de': 'Führende KI-Gesprächsintelligenz-Plattform, die Omnichannel-Kundenkommunikationslösungen für Unternehmen jeder Größe bietet.',
+  'ja': 'あらゆる規模の企業向けにオムニチャネル顧客コミュニケーションソリューションを提供する、業界をリードするAI会話インテリジェンスプラットフォーム。',
+  'ko': '모든 규모의 기업을 위한 옴니채널 고객 커뮤니케이션 솔루션을 제공하는 선도적인 AI 대화 인텔리전스 플랫폼.',
+  'ar': 'منصة رائدة لذكاء المحادثة بالذكاء الاصطناعي تقدم حلول التواصل متعدد القنوات للشركات من جميع الأحجام.',
+  'fa': 'پلتفرم پیشرو هوش مکالمه AI که راه‌حل‌های ارتباط چندکاناله مشتری را برای کسب‌وکارهای همه اندازه‌ها ارائه می‌دهد.',
+  'fil': 'Nangungunang AI conversation intelligence platform na nag-aalok ng omnichannel customer communication solutions para sa mga negosyo ng lahat ng laki.',
+  'hi': 'सभी आकार के व्यवसायों के लिए ओमनीचैनल ग्राहक संचार समाधान प्रदान करने वाला अग्रणी AI वार्तालाप बुद्धिमत्ता प्लेटफॉर्म।',
+  'id': 'Platform kecerdasan percakapan AI terdepan yang menawarkan solusi komunikasi pelanggan omnichannel untuk bisnis dari semua ukuran.',
+  'ms': 'Platform kecerdasan perbualan AI terkemuka yang menawarkan penyelesaian komunikasi pelanggan omnichannel untuk perniagaan dari semua saiz.',
+  'pl': 'Wiodąca platforma inteligencji konwersacyjnej AI oferująca rozwiązania komunikacji omnichannel dla firm wszystkich rozmiarów.',
+  'pt': 'Plataforma líder de inteligência conversacional de IA oferecendo soluções de comunicação omnichannel para empresas de todos os tamanhos.',
+  'ru': 'Ведущая платформа разговорного ИИ, предлагающая омниканальные решения для клиентского общения для бизнеса любого размера.',
+  'ta': 'அனைத்து அளவிலான வணிகங்களுக்கும் ஆம்னிசேனல் வாடிக்கையாளர் தொடர்பு தீர்வுகளை வழங்கும் முன்னணி AI உரையாடல் நுண்ணறிவு தளம்।',
+  'th': 'แพลตฟอร์มปัญญาประดิษฐ์สำหรับการสนทนาชั้นนำที่เสนอโซลูชันการสื่อสารลูกค้าแบบออมนิแชนเนลสำหรับธุรกิจทุกขนาด',
+  'vi': 'Nền tảng trí tuệ hội thoại AI hàng đầu cung cấp các giải pháp giao tiếp khách hàng đa kênh cho các doanh nghiệp mọi quy mô.'
+};
+
+/**
+ * Get localized organization description
+ */
+export function getLocalizedOrganizationDescription(language: string): string {
+  return LOCALIZED_ORGANIZATION_DESCRIPTIONS[language] || LOCALIZED_ORGANIZATION_DESCRIPTIONS['en'];
 }
 
-// Base pricing structure (without localized content)
-const PRODUCT_PRICING_BASE: Record<ProductKey, Omit<PricingTier, 'name' | 'description' | 'features'>[]> = {
-  seachat: [
+// =============================================================================
+// Localized Service Schemas
+// =============================================================================
+
+export const LOCALIZED_SERVICE_SCHEMAS = {
+  seachat: {
+    'en': {
+      name: 'SeaChat',
+      description: 'SeaChat: AI-powered chat automation and agent-assist platform by Seasalt AI, enabling multilingual, live-agent-transfer, webchat, SMS, WhatsApp, and CRM integrations for 24/7 conversational support.',
+      keywords: 'AI chatbot, live agent transfer, multilingual, webchat, SMS, WhatsApp, CRM integration',
+      featureList: [
+        'No-code setup in 10 minutes',
+        'Live agent transfer',
+        'Multilingual support',
+        'Integrates with webchat, SMS, Line, WhatsApp, CRM, Shopify, calendars, Twilio'
+      ],
+      audienceType: 'Businesses, Educational Institutions, Customer Support Teams'
+    },
+    'zh-TW': {
+      name: 'SeaChat',
+      description: 'SeaChat：Seasalt AI 推出的 AI 聊天自動化和客服輔助平台，支援多語言、真人客服轉接、網頁聊天、簡訊、WhatsApp 和 CRM 整合，提供 24/7 對話支援。',
+      keywords: 'AI 聊天機器人, 真人客服轉接, 多語言, 網頁聊天, 簡訊, WhatsApp, CRM 整合',
+      featureList: [
+        '10 分鐘免程式設定',
+        '真人客服轉接',
+        '多語言支援',
+        '整合網頁聊天、簡訊、Line、WhatsApp、CRM、Shopify、行事曆、Twilio'
+      ],
+      audienceType: '企業、教育機構、客戶服務團隊'
+    },
+    'zh-CN': {
+      name: 'SeaChat',
+      description: 'SeaChat：Seasalt AI 推出的 AI 聊天自动化和客服辅助平台，支持多语言、真人客服转接、网页聊天、短信、WhatsApp 和 CRM 整合，提供 24/7 对话支持。',
+      keywords: 'AI 聊天机器人, 真人客服转接, 多语言, 网页聊天, 短信, WhatsApp, CRM 整合',
+      featureList: [
+        '10 分钟免程序设定',
+        '真人客服转接',
+        '多语言支持',
+        '整合网页聊天、短信、Line、WhatsApp、CRM、Shopify、日历、Twilio'
+      ],
+      audienceType: '企业、教育机构、客户服务团队'
+    },
+    'es': {
+      name: 'SeaChat',
+      description: 'SeaChat: Plataforma de automatización de chat con IA y asistencia de agentes de Seasalt AI, que permite soporte conversacional 24/7 con capacidades multilingües, transferencia a agentes en vivo, webchat, SMS, WhatsApp e integraciones CRM.',
+      keywords: 'chatbot IA, transferencia agente en vivo, multilingüe, webchat, SMS, WhatsApp, integración CRM',
+      featureList: [
+        'Configuración sin código en 10 minutos',
+        'Transferencia a agente en vivo',
+        'Soporte multilingüe',
+        'Integra con webchat, SMS, Line, WhatsApp, CRM, Shopify, calendarios, Twilio'
+      ],
+      audienceType: 'Empresas, Instituciones Educativas, Equipos de Atención al Cliente'
+    },
+    'fr': {
+      name: 'SeaChat',
+      description: 'SeaChat : Plateforme d\'automatisation de chat IA et d\'assistance d\'agents par Seasalt AI, permettant un support conversationnel 24/7 avec capacités multilingues, transfert d\'agent en direct, webchat, SMS, WhatsApp et intégrations CRM.',
+      keywords: 'chatbot IA, transfert agent direct, multilingue, webchat, SMS, WhatsApp, intégration CRM',
+      featureList: [
+        'Configuration sans code en 10 minutes',
+        'Transfert vers agent en direct',
+        'Support multilingue',
+        'Intègre webchat, SMS, Line, WhatsApp, CRM, Shopify, calendriers, Twilio'
+      ],
+      audienceType: 'Entreprises, Institutions Éducatives, Équipes de Support Client'
+    },
+    'de': {
+      name: 'SeaChat',
+      description: 'SeaChat: KI-gestützte Chat-Automatisierung und Agent-Assistenz-Plattform von Seasalt AI, die mehrsprachigen 24/7-Konversationssupport mit Live-Agent-Transfer, Webchat, SMS, WhatsApp und CRM-Integrationen ermöglicht.',
+      keywords: 'KI-Chatbot, Live-Agent-Transfer, mehrsprachig, Webchat, SMS, WhatsApp, CRM-Integration',
+      featureList: [
+        'No-Code-Setup in 10 Minuten',
+        'Live-Agent-Transfer',
+        'Mehrsprachiger Support',
+        'Integriert Webchat, SMS, Line, WhatsApp, CRM, Shopify, Kalender, Twilio'
+      ],
+      audienceType: 'Unternehmen, Bildungseinrichtungen, Kundensupport-Teams'
+    },
+    'ja': {
+      name: 'SeaChat',
+      description: 'SeaChat：Seasalt AIによるAI搭載チャット自動化とエージェント支援プラットフォーム。多言語、ライブエージェント転送、ウェブチャット、SMS、WhatsApp、CRM統合により24/7会話サポートを提供。',
+      keywords: 'AIチャットボット, ライブエージェント転送, 多言語, ウェブチャット, SMS, WhatsApp, CRM統合',
+      featureList: [
+        '10分でノーコードセットアップ',
+        'ライブエージェント転送',
+        '多言語サポート',
+        'ウェブチャット、SMS、Line、WhatsApp、CRM、Shopify、カレンダー、Twilio統合'
+      ],
+      audienceType: '企業、教育機関、カスタマーサポートチーム'
+    },
+    'ko': {
+      name: 'SeaChat',
+      description: 'SeaChat: Seasalt AI의 AI 기반 채팅 자동화 및 상담원 지원 플랫폼으로, 다국어, 실시간 상담원 연결, 웹채팅, SMS, WhatsApp, CRM 통합을 통해 24/7 대화 지원을 제공합니다.',
+      keywords: 'AI 챗봇, 실시간 상담원 연결, 다국어, 웹채팅, SMS, WhatsApp, CRM 통합',
+      featureList: [
+        '10분 내 노코드 설정',
+        '실시간 상담원 연결',
+        '다국어 지원',
+        '웹채팅, SMS, Line, WhatsApp, CRM, Shopify, 캘린더, Twilio 통합'
+      ],
+      audienceType: '기업, 교육기관, 고객지원팀'
+    },
+    'ar': {
+      name: 'SeaChat',
+      description: 'SeaChat: منصة أتمتة الدردشة ومساعدة الوكلاء المدعومة بالذكاء الاصطناعي من Seasalt AI، تمكن الدعم التحادثي متعدد اللغات على مدار الساعة مع نقل الوكيل المباشر وتكامل الويب والرسائل النصية وWhatsApp وCRM.',
+      keywords: 'روبوت دردشة بالذكاء الاصطناعي, نقل وكيل مباشر, متعدد اللغات, دردشة ويب, رسائل نصية, واتساب, تكامل CRM',
+      featureList: [
+        'إعداد بلا كود في 10 دقائق',
+        'نقل الوكيل المباشر',
+        'دعم متعدد اللغات',
+        'يتكامل مع دردشة الويب والرسائل النصية وLine وWhatsApp وCRM وShopify والتقاويم وTwilio'
+      ],
+      audienceType: 'الشركات والمؤسسات التعليمية وفرق دعم العملاء'
+    },
+    'fa': {
+      name: 'SeaChat',
+      description: 'SeaChat: پلتفرم اتوماسیون چت و کمک عامل مبتنی بر هوش مصنوعی توسط Seasalt AI، پشتیبانی مکالمه‌ای 24/7 چندزبانه با انتقال عامل زنده، وب‌چت، پیامک، واتساپ و ادغام CRM را فراهم می‌کند.',
+      keywords: 'چت‌بات هوش مصنوعی, انتقال عامل زنده, چندزبانه, وب‌چت, پیامک, واتساپ, ادغام CRM',
+      featureList: [
+        'راه‌اندازی بدون کد در 10 دقیقه',
+        'انتقال عامل زنده',
+        'پشتیبانی چندزبانه',
+        'ادغام با وب‌چت، پیامک، Line، واتساپ، CRM، Shopify، تقویم، Twilio'
+      ],
+      audienceType: 'کسب‌وکارها، موسسات آموزشی، تیم‌های پشتیبانی مشتری'
+    },
+    'fil': {
+      name: 'SeaChat',
+      description: 'SeaChat: AI-powered na chat automation at agent-assist platform ng Seasalt AI, nagbibigay ng 24/7 conversational support na multilingual, may live-agent-transfer, webchat, SMS, WhatsApp, at CRM integrations.',
+      keywords: 'AI chatbot, live agent transfer, multilingual, webchat, SMS, WhatsApp, CRM integration',
+      featureList: [
+        'No-code setup sa loob ng 10 minuto',
+        'Live agent transfer',
+        'Multilingual support',
+        'Sumusuporta sa webchat, SMS, Line, WhatsApp, CRM, Shopify, calendars, Twilio'
+      ],
+      audienceType: 'Mga Negosyo, Mga Institusyong Pang-edukasyon, Mga Customer Support Team'
+    },
+    'hi': {
+      name: 'SeaChat',
+      description: 'SeaChat: Seasalt AI का AI-संचालित चैट स्वचालन और एजेंट-सहायक प्लेटफॉर्म, जो बहुभाषी, लाइव-एजेंट-ट्रांसफर, वेबचैट, SMS, WhatsApp, और CRM एकीकरण के साथ 24/7 वार्तालाप समर्थन प्रदान करता है।',
+      keywords: 'AI चैटबॉट, लाइव एजेंट ट्रांसफर, बहुभाषी, वेबचैट, SMS, WhatsApp, CRM एकीकरण',
+      featureList: [
+        '10 मिनट में नो-कोड सेटअप',
+        'लाइव एजेंट ट्रांसफर',
+        'बहुभाषी समर्थन',
+        'वेबचैट, SMS, Line, WhatsApp, CRM, Shopify, कैलेंडर, Twilio के साथ एकीकृत'
+      ],
+      audienceType: 'व्यवसाय, शैक्षणिक संस्थान, ग्राहक सहायता टीमें'
+    },
+    'id': {
+      name: 'SeaChat',
+      description: 'SeaChat: Platform otomatisasi chat dan bantuan agen bertenaga AI oleh Seasalt AI, memberikan dukungan percakapan 24/7 multibahasa dengan transfer agen langsung, webchat, SMS, WhatsApp, dan integrasi CRM.',
+      keywords: 'chatbot AI, transfer agen langsung, multibahasa, webchat, SMS, WhatsApp, integrasi CRM',
+      featureList: [
+        'Setup tanpa kode dalam 10 menit',
+        'Transfer agen langsung',
+        'Dukungan multibahasa',
+        'Terintegrasi dengan webchat, SMS, Line, WhatsApp, CRM, Shopify, kalender, Twilio'
+      ],
+      audienceType: 'Bisnis, Institusi Pendidikan, Tim Dukungan Pelanggan'
+    },
+    'ms': {
+      name: 'SeaChat',
+      description: 'SeaChat: Platform automasi sembang dan bantuan ejen berkuasa AI oleh Seasalt AI, membolehkan sokongan perbualan 24/7 berbilang bahasa dengan pemindahan ejen langsung, webchat, SMS, WhatsApp, dan integrasi CRM.',
+      keywords: 'chatbot AI, pemindahan ejen langsung, berbilang bahasa, webchat, SMS, WhatsApp, integrasi CRM',
+      featureList: [
+        'Persediaan tanpa kod dalam 10 minit',
+        'Pemindahan ejen langsung',
+        'Sokongan berbilang bahasa',
+        'Berintegrasi dengan webchat, SMS, Line, WhatsApp, CRM, Shopify, kalendar, Twilio'
+      ],
+      audienceType: 'Perniagaan, Institusi Pendidikan, Pasukan Sokongan Pelanggan'
+    },
+    'pl': {
+      name: 'SeaChat',
+      description: 'SeaChat: Platforma automatyzacji czatu i wsparcia agentów oparta na AI od Seasalt AI, umożliwiająca wielojęzyczne wsparcie konwersacyjne 24/7 z transferem do żywego agenta, webchat, SMS, WhatsApp i integracjami CRM.',
+      keywords: 'chatbot AI, transfer do żywego agenta, wielojęzyczny, webchat, SMS, WhatsApp, integracja CRM',
+      featureList: [
+        'Konfiguracja bez kodu w 10 minut',
+        'Transfer do żywego agenta',
+        'Wsparcie wielojęzyczne',
+        'Integruje się z webchat, SMS, Line, WhatsApp, CRM, Shopify, kalendarzami, Twilio'
+      ],
+      audienceType: 'Firmy, Instytucje Edukacyjne, Zespoły Wsparcia Klienta'
+    },
+    'pt': {
+      name: 'SeaChat',
+      description: 'SeaChat: Plataforma de automação de chat e assistência de agentes com IA da Seasalt AI, permitindo suporte conversacional multilíngue 24/7 com transferência de agente ao vivo, webchat, SMS, WhatsApp e integrações CRM.',
+      keywords: 'chatbot IA, transferência agente ao vivo, multilíngue, webchat, SMS, WhatsApp, integração CRM',
+      featureList: [
+        'Configuração sem código em 10 minutos',
+        'Transferência para agente ao vivo',
+        'Suporte multilíngue',
+        'Integra com webchat, SMS, Line, WhatsApp, CRM, Shopify, calendários, Twilio'
+      ],
+      audienceType: 'Empresas, Instituições Educacionais, Equipes de Suporte ao Cliente'
+    },
+    'ru': {
+      name: 'SeaChat',
+      description: 'SeaChat: Платформа автоматизации чата и помощи агентов на основе ИИ от Seasalt AI, обеспечивающая многоязычную разговорную поддержку 24/7 с переводом на живого агента, веб-чат, SMS, WhatsApp и интеграциями CRM.',
+      keywords: 'ИИ чатбот, перевод живого агента, многоязычный, веб-чат, SMS, WhatsApp, интеграция CRM',
+      featureList: [
+        'Настройка без кода за 10 минут',
+        'Перевод на живого агента',
+        'Многоязычная поддержка',
+        'Интегрируется с веб-чат, SMS, Line, WhatsApp, CRM, Shopify, календарями, Twilio'
+      ],
+      audienceType: 'Бизнес, Образовательные учреждения, Команды поддержки клиентов'
+    },
+    'ta': {
+      name: 'SeaChat',
+      description: 'SeaChat: Seasalt AI இன் AI-இயங்கும் அரட்டை தானியங்கு மற்றும் முகவர்-உதவி தளம், பலமொழி, நேரடி-முகவர்-மாற்றம், வலைஅரட்டை, SMS, WhatsApp, மற்றும் CRM ஒருங்கிணைப்புகளுடன் 24/7 உரையாடல் ஆதரவை வழங்குகிறது.',
+      keywords: 'AI அரட்டைபோட், நேரடி முகவர் மாற்றம், பலமொழி, வலைஅரட்டை, SMS, WhatsApp, CRM ஒருங்கிணைப்பு',
+      featureList: [
+        '10 நிமிடங்களில் கோட் இல்லாத அமைப்பு',
+        'நேரடி முகவர் மாற்றம்',
+        'பலமொழி ஆதரவு',
+        'வலைஅரட்டை, SMS, Line, WhatsApp, CRM, Shopify, நாட்காட்டிகள், Twilio உடன் ஒருங்கிணைக்கிறது'
+      ],
+      audienceType: 'வணிகங்கள், கல்வி நிறுவனங்கள், வாடிக்கையாளர் ஆதரவு அணிகள்'
+    },
+    'th': {
+      name: 'SeaChat',
+      description: 'SeaChat: แพลตฟอร์มการทำงานอัตโนมัติของแชทและช่วยเหลือเอเจนต์ที่ขับเคลื่อนด้วย AI จาก Seasalt AI ให้การสนับสนุนการสนทนาแบบหลายภาษา 24/7 พร้อมการโอนเอเจนต์สด เว็บแชท SMS WhatsApp และการรวม CRM',
+      keywords: 'แชทบอท AI, การโอนเอเจนต์สด, หลายภาษา, เว็บแชท, SMS, WhatsApp, การรวม CRM',
+      featureList: [
+        'ตั้งค่าแบบไม่ต้องเขียนโค้ดใน 10 นาที',
+        'การโอนเอเจนต์สด',
+        'การสนับสนุนหลายภาษา',
+        'รวมกับเว็บแชท SMS Line WhatsApp CRM Shopify ปฏิทิน Twilio'
+      ],
+      audienceType: 'ธุรกิจ สถาบันการศึกษา ทีมสนับสนุนลูกค้า'
+    },
+    'vi': {
+      name: 'SeaChat',
+      description: 'SeaChat: Nền tảng tự động hóa chat và hỗ trợ đại lý được hỗ trợ bởi AI của Seasalt AI, cho phép hỗ trợ đối thoại đa ngôn ngữ 24/7 với chuyển đại lý trực tiếp, webchat, SMS, WhatsApp và tích hợp CRM.',
+      keywords: 'chatbot AI, chuyển đại lý trực tiếp, đa ngôn ngữ, webchat, SMS, WhatsApp, tích hợp CRM',
+      featureList: [
+        'Thiết lập không cần mã trong 10 phút',
+        'Chuyển đại lý trực tiếp',
+        'Hỗ trợ đa ngôn ngữ',
+        'Tích hợp với webchat, SMS, Line, WhatsApp, CRM, Shopify, lịch, Twilio'
+      ],
+      audienceType: 'Doanh nghiệp, Cơ sở Giáo dục, Đội Hỗ trợ Khách hàng'
+    }
+  },
+  seax: {
+    'en': {
+      name: 'SeaX',
+      description: 'SeaX: Cloud communication platform for mass outreach by Seasalt AI, enabling businesses to send millions of SMS messages, make thousands of voice calls, and run WhatsApp campaigns at scale with AI automation and real-time analytics.',
+      keywords: 'bulk SMS, mass communication, WhatsApp campaigns, voice calls, lead generation, marketing automation, omnichannel outreach',
+      featureList: [
+        'Send millions of SMS messages daily',
+        'Make thousands of voice calls per hour',
+        'WhatsApp Business API integration',
+        'AI-powered follow-up automation',
+        'Real-time campaign analytics',
+        'Lead generation and qualification',
+        'GDPR and compliance tools',
+        'Enterprise-grade scalability'
+      ],
+      audienceType: 'Enterprises, Marketing Teams, Sales Organizations, Political Campaigns'
+    },
+    'zh-TW': {
+      name: 'SeaX',
+      description: 'SeaX：Seasalt AI 大規模推廣雲端通訊平台，讓企業能夠發送數百萬條簡訊、撥打數千通語音電話，並透過 AI 自動化和即時分析大規模執行 WhatsApp 行銷活動。',
+      keywords: '大量簡訊, 大規模通訊, WhatsApp 行銷活動, 語音通話, 潛在客戶開發, 行銷自動化, 全通路推廣',
+      featureList: [
+        '每日發送數百萬條簡訊',
+        '每小時撥打數千通語音電話',
+        'WhatsApp Business API 整合',
+        'AI 驅動的後續追蹤自動化',
+        '即時行銷活動分析',
+        '潛在客戶開發和篩選',
+        'GDPR 和合規工具',
+        '企業級擴展性'
+      ],
+      audienceType: '企業、行銷團隊、銷售組織、政治競選'
+    },
+    'zh-CN': {
+      name: 'SeaX',
+      description: 'SeaX：Seasalt AI 大规模推广云端通讯平台，让企业能够发送数百万条短信、拨打数千通语音电话，并通过 AI 自动化和实时分析大规模执行 WhatsApp 营销活动。',
+      keywords: '大量短信, 大规模通讯, WhatsApp 营销活动, 语音通话, 潜在客户开发, 营销自动化, 全渠道推广',
+      featureList: [
+        '每日发送数百万条短信',
+        '每小时拨打数千通语音电话',
+        'WhatsApp Business API 整合',
+        'AI 驱动的后续跟进自动化',
+        '实时营销活动分析',
+        '潜在客户开发和筛选',
+        'GDPR 和合规工具',
+        '企业级扩展性'
+      ],
+      audienceType: '企业、营销团队、销售组织、政治竞选'
+    },
+    'es': {
+      name: 'SeaX',
+      description: 'SeaX: Plataforma de comunicación en la nube para alcance masivo de Seasalt AI, que permite a las empresas enviar millones de mensajes SMS, realizar miles de llamadas de voz y ejecutar campañas de WhatsApp a escala con automatización IA y análisis en tiempo real.',
+      keywords: 'SMS masivo, comunicación masiva, campañas WhatsApp, llamadas de voz, generación de leads, automatización marketing, alcance omnicanal',
+      featureList: [
+        'Enviar millones de mensajes SMS diarios',
+        'Realizar miles de llamadas de voz por hora',
+        'Integración WhatsApp Business API',
+        'Automatización de seguimiento con IA',
+        'Análisis de campañas en tiempo real',
+        'Generación y calificación de leads',
+        'Herramientas GDPR y cumplimiento',
+        'Escalabilidad de nivel empresarial'
+      ],
+      audienceType: 'Empresas, Equipos de Marketing, Organizaciones de Ventas, Campañas Políticas'
+    },
+    'fr': {
+      name: 'SeaX',
+      description: 'SeaX : Plateforme de communication cloud pour diffusion massive par Seasalt AI, permettant aux entreprises d\'envoyer des millions de SMS, passer des milliers d\'appels vocaux et exécuter des campagnes WhatsApp à grande échelle avec automatisation IA et analyses en temps réel.',
+      keywords: 'SMS en masse, communication massive, campagnes WhatsApp, appels vocaux, génération leads, automatisation marketing, diffusion omnicanale',
+      featureList: [
+        'Envoyer des millions de SMS quotidiens',
+        'Passer des milliers d\'appels vocaux par heure',
+        'Intégration WhatsApp Business API',
+        'Automatisation de suivi alimentée par IA',
+        'Analyses de campagnes en temps réel',
+        'Génération et qualification de leads',
+        'Outils GDPR et conformité',
+        'Évolutivité de niveau entreprise'
+      ],
+      audienceType: 'Entreprises, Équipes Marketing, Organisations de Vente, Campagnes Politiques'
+    },
+    'de': {
+      name: 'SeaX',
+      description: 'SeaX: Cloud-Kommunikationsplattform für Massenkommunikation von Seasalt AI, die es Unternehmen ermöglicht, Millionen von SMS zu senden, Tausende von Sprachanrufen zu tätigen und WhatsApp-Kampagnen mit KI-Automatisierung und Echtzeit-Analysen zu skalieren.',
+      keywords: 'Massen-SMS, Massenkommunikation, WhatsApp-Kampagnen, Sprachanrufe, Lead-Generierung, Marketing-Automatisierung, Omnichannel-Reichweite',
+      featureList: [
+        'Millionen von SMS täglich senden',
+        'Tausende von Sprachanrufen pro Stunde',
+        'WhatsApp Business API Integration',
+        'KI-gestützte Follow-up-Automatisierung',
+        'Echtzeit-Kampagnen-Analysen',
+        'Lead-Generierung und -Qualifizierung',
+        'DSGVO- und Compliance-Tools',
+        'Unternehmens-Skalierbarkeit'
+      ],
+      audienceType: 'Unternehmen, Marketing-Teams, Verkaufsorganisationen, Politische Kampagnen'
+    },
+    'ja': {
+      name: 'SeaX',
+      description: 'SeaX：Seasalt AIによる大規模アウトリーチ向けクラウドコミュニケーションプラットフォーム。企業が数百万のSMSメッセージ送信、数千の音声通話実行、WhatsAppキャンペーンをAI自動化とリアルタイム分析で大規模展開することを可能にします。',
+      keywords: '一括SMS, 大規模コミュニケーション, WhatsAppキャンペーン, 音声通話, リード生成, マーケティング自動化, オムニチャネルアウトリーチ',
+      featureList: [
+        '毎日数百万のSMSメッセージを送信',
+        '1時間に数千の音声通話を実行',
+        'WhatsApp Business API統合',
+        'AI搭載フォローアップ自動化',
+        'リアルタイムキャンペーン分析',
+        'リード生成と評価',
+        'GDPRとコンプライアンスツール',
+        'エンタープライズ級スケーラビリティ'
+      ],
+      audienceType: '企業、マーケティングチーム、営業組織、政治キャンペーン'
+    },
+    'ko': {
+      name: 'SeaX',
+      description: 'SeaX: Seasalt AI의 대규모 아웃리치를 위한 클라우드 커뮤니케이션 플랫폼으로, 기업이 수백만 개의 SMS 메시지 발송, 수천 번의 음성 통화 실행, AI 자동화와 실시간 분석을 통한 대규모 WhatsApp 캠페인을 가능하게 합니다.',
+      keywords: '대량 SMS, 대규모 커뮤니케이션, WhatsApp 캠페인, 음성 통화, 리드 생성, 마케팅 자동화, 옴니채널 아웃리치',
+      featureList: [
+        '매일 수백만 개의 SMS 메시지 발송',
+        '시간당 수천 번의 음성 통화 실행',
+        'WhatsApp Business API 통합',
+        'AI 기반 후속 조치 자동화',
+        '실시간 캠페인 분석',
+        '리드 생성 및 검증',
+        'GDPR 및 규정 준수 도구',
+        '엔터프라이즈급 확장성'
+      ],
+      audienceType: '기업, 마케팅팀, 영업조직, 정치 캠페인'
+    },
+    'ar': {
+      name: 'SeaX',
+      description: 'SeaX: منصة اتصالات سحابية للوصول الجماعي من Seasalt AI، تمكن الشركات من إرسال ملايين رسائل SMS وإجراء آلاف المكالمات الصوتية وتشغيل حملات WhatsApp على نطاق واسع مع الأتمتة بالذكاء الاصطناعي والتحليلات في الوقت الفعلي.',
+      keywords: 'رسائل SMS مجمعة, اتصالات جماعية, حملات واتساب, مكالمات صوتية, توليد العملاء المحتملين, أتمتة التسويق, الوصول متعدد القنوات',
+      featureList: [
+        'إرسال ملايين رسائل SMS يومياً',
+        'إجراء آلاف المكالمات الصوتية في الساعة',
+        'تكامل WhatsApp Business API',
+        'أتمتة المتابعة المدعومة بالذكاء الاصطناعي',
+        'تحليلات الحملات في الوقت الفعلي',
+        'توليد وتأهيل العملاء المحتملين',
+        'أدوات GDPR والامتثال',
+        'قابلية التوسع على مستوى المؤسسة'
+      ],
+      audienceType: 'الشركات، فرق التسويق، منظمات المبيعات، الحملات السياسية'
+    },
+    'fa': {
+      name: 'SeaX',
+      description: 'SeaX: پلتفرم ارتباطات ابری برای دسترسی انبوه توسط Seasalt AI، که شرکت‌ها را قادر می‌سازد میلیون‌ها پیام SMS ارسال کنند، هزاران تماس صوتی برقرار کنند و کمپین‌های واتساپ را در مقیاس وسیع با اتوماسیون هوش مصنوعی و تحلیل‌های بلادرنگ اجرا کنند.',
+      keywords: 'پیامک انبوه, ارتباطات انبوه, کمپین‌های واتساپ, تماس‌های صوتی, تولید مشتری بالقوه, اتوماسیون بازاریابی, دسترسی چندکاناله',
+      featureList: [
+        'ارسال میلیون‌ها پیام SMS روزانه',
+        'برقراری هزاران تماس صوتی در ساعت',
+        'ادغام WhatsApp Business API',
+        'اتوماسیون پیگیری مبتنی بر هوش مصنوعی',
+        'تحلیل‌های کمپین بلادرنگ',
+        'تولید و ارزیابی مشتری بالقوه',
+        'ابزارهای GDPR و انطباق',
+        'مقیاس‌پذیری سطح سازمانی'
+      ],
+      audienceType: 'شرکت‌ها، تیم‌های بازاریابی، سازمان‌های فروش، کمپین‌های سیاسی'
+    },
+    'fil': {
+      name: 'SeaX',
+      description: 'SeaX: Cloud communication platform para sa mass outreach ng Seasalt AI, nagbibigay-daan sa mga negosyo na magpadala ng milyun-milyong SMS messages, gumawa ng libu-libong voice calls, at magpatakbo ng WhatsApp campaigns sa malaking sukat gamit ang AI automation at real-time analytics.',
+      keywords: 'bulk SMS, mass communication, WhatsApp campaigns, voice calls, lead generation, marketing automation, omnichannel outreach',
+      featureList: [
+        'Magpadala ng milyun-milyong SMS messages araw-araw',
+        'Gumawa ng libu-libong voice calls bawat oras',
+        'WhatsApp Business API integration',
+        'AI-powered follow-up automation',
+        'Real-time campaign analytics',
+        'Lead generation at qualification',
+        'GDPR at compliance tools',
+        'Enterprise-grade scalability'
+      ],
+      audienceType: 'Mga Kumpanya, Marketing Teams, Sales Organizations, Political Campaigns'
+    },
+    'hi': {
+      name: 'SeaX',
+      description: 'SeaX: Seasalt AI का व्यापक पहुंच के लिए क्लाउड संचार प्लेटफॉर्म, जो व्यवसायों को लाखों SMS संदेश भेजने, हजारों आवाज कॉल करने और AI स्वचालन और वास्तविक समय विश्लेषण के साथ बड़े पैमाने पर WhatsApp अभियान चलाने में सक्षम बनाता है।',
+      keywords: 'बल्क SMS, व्यापक संचार, WhatsApp अभियान, आवाज कॉल, लीड जनरेशन, मार्केटिंग स्वचालन, ओमनीचैनल पहुंच',
+      featureList: [
+        'प्रतिदिन लाखों SMS संदेश भेजें',
+        'प्रति घंटे हजारों आवाज कॉल करें',
+        'WhatsApp Business API एकीकरण',
+        'AI-संचालित फॉलो-अप स्वचालन',
+        'वास्तविक समय अभियान विश्लेषण',
+        'लीड जनरेशन और योग्यता',
+        'GDPR और अनुपालन उपकरण',
+        'एंटरप्राइज़-ग्रेड स्केलेबिलिटी'
+      ],
+      audienceType: 'उद्यम, मार्केटिंग टीमें, बिक्री संगठन, राजनीतिक अभियान'
+    },
+    'id': {
+      name: 'SeaX',
+      description: 'SeaX: Platform komunikasi cloud untuk jangkauan massal oleh Seasalt AI, memungkinkan bisnis mengirim jutaan pesan SMS, melakukan ribuan panggilan suara, dan menjalankan kampanye WhatsApp dalam skala besar dengan otomatisasi AI dan analitik real-time.',
+      keywords: 'SMS massal, komunikasi massal, kampanye WhatsApp, panggilan suara, generasi prospek, otomatisasi pemasaran, jangkauan omnichannel',
+      featureList: [
+        'Kirim jutaan pesan SMS harian',
+        'Lakukan ribuan panggilan suara per jam',
+        'Integrasi WhatsApp Business API',
+        'Otomatisasi tindak lanjut bertenaga AI',
+        'Analitik kampanye real-time',
+        'Generasi dan kualifikasi prospek',
+        'Alat GDPR dan kepatuhan',
+        'Skalabilitas tingkat enterprise'
+      ],
+      audienceType: 'Perusahaan, Tim Pemasaran, Organisasi Penjualan, Kampanye Politik'
+    },
+    'ms': {
+      name: 'SeaX',
+      description: 'SeaX: Platform komunikasi awan untuk jangkauan besar-besaran oleh Seasalt AI, membolehkan perniagaan menghantar berjuta-juta mesej SMS, membuat beribu-ribu panggilan suara, dan menjalankan kempen WhatsApp pada skala besar dengan automasi AI dan analitik masa nyata.',
+      keywords: 'SMS pukal, komunikasi besar-besaran, kempen WhatsApp, panggilan suara, penjanaan prospek, automasi pemasaran, jangkauan omnichannel',
+      featureList: [
+        'Hantar berjuta-juta mesej SMS harian',
+        'Buat beribu-ribu panggilan suara sejam',
+        'Integrasi WhatsApp Business API',
+        'Automasi susulan berkuasa AI',
+        'Analitik kempen masa nyata',
+        'Penjanaan dan kelayakan prospek',
+        'Alat GDPR dan pematuhan',
+        'Skalabiliti gred perusahaan'
+      ],
+      audienceType: 'Perusahaan, Pasukan Pemasaran, Organisasi Jualan, Kempen Politik'
+    },
+    'pl': {
+      name: 'SeaX',
+      description: 'SeaX: Platforma komunikacji chmurowej do masowego zasięgu od Seasalt AI, umożliwiająca firmom wysyłanie milionów wiadomości SMS, wykonywanie tysięcy połączeń głosowych i prowadzenie kampanii WhatsApp na dużą skalę z automatyzacją AI i analizami w czasie rzeczywistym.',
+      keywords: 'masowe SMS, komunikacja masowa, kampanie WhatsApp, połączenia głosowe, generowanie leadów, automatyzacja marketingu, zasięg omnichannel',
+      featureList: [
+        'Wysyłaj miliony wiadomości SMS dziennie',
+        'Wykonuj tysiące połączeń głosowych na godzinę',
+        'Integracja WhatsApp Business API',
+        'Automatyzacja follow-up napędzana AI',
+        'Analiza kampanii w czasie rzeczywistym',
+        'Generowanie i kwalifikacja leadów',
+        'Narzędzia GDPR i zgodności',
+        'Skalowalność klasy enterprise'
+      ],
+      audienceType: 'Przedsiębiorstwa, Zespoły Marketingu, Organizacje Sprzedaży, Kampanie Polityczne'
+    },
+    'pt': {
+      name: 'SeaX',
+      description: 'SeaX: Plataforma de comunicação em nuvem para alcance em massa da Seasalt AI, permitindo que empresas enviem milhões de mensagens SMS, façam milhares de chamadas de voz e executem campanhas do WhatsApp em grande escala com automação de IA e análises em tempo real.',
+      keywords: 'SMS em massa, comunicação em massa, campanhas WhatsApp, chamadas de voz, geração de leads, automação de marketing, alcance omnichannel',
+      featureList: [
+        'Enviar milhões de mensagens SMS diariamente',
+        'Fazer milhares de chamadas de voz por hora',
+        'Integração WhatsApp Business API',
+        'Automação de acompanhamento com IA',
+        'Análises de campanha em tempo real',
+        'Geração e qualificação de leads',
+        'Ferramentas GDPR e conformidade',
+        'Escalabilidade de nível empresarial'
+      ],
+      audienceType: 'Empresas, Equipes de Marketing, Organizações de Vendas, Campanhas Políticas'
+    },
+    'ru': {
+      name: 'SeaX',
+      description: 'SeaX: Облачная коммуникационная платформа для массового охвата от Seasalt AI, позволяющая предприятиям отправлять миллионы SMS-сообщений, совершать тысячи голосовых звонков и проводить кампании WhatsApp в большом масштабе с автоматизацией ИИ и аналитикой в реальном времени.',
+      keywords: 'массовые SMS, массовые коммуникации, кампании WhatsApp, голосовые звонки, генерация лидов, автоматизация маркетинга, омниканальный охват',
+      featureList: [
+        'Отправлять миллионы SMS-сообщений ежедневно',
+        'Совершать тысячи голосовых звонков в час',
+        'Интеграция WhatsApp Business API',
+        'Автоматизация последующих действий на основе ИИ',
+        'Аналитика кампаний в реальном времени',
+        'Генерация и квалификация лидов',
+        'Инструменты GDPR и соответствия',
+        'Масштабируемость корпоративного уровня'
+      ],
+      audienceType: 'Предприятия, Маркетинговые команды, Организации продаж, Политические кампании'
+    },
+    'ta': {
+      name: 'SeaX',
+      description: 'SeaX: Seasalt AI இன் பெரிய அளவிலான வெளியீட்டுக்கான மேக தொடர்பு தளம், வணிகங்கள் கோடிக்கணக்கான SMS செய்திகளை அனுப்பவும், ஆயிரக்கணக்கான குரல் அழைப்புகளை மேற்கொள்ளவும், AI தானியங்கு மற்றும் நேரடி ஆய்வுகளுடன் பெரிய அளவில் WhatsApp பிரச்சாரங்களை இயக்கவும் உதவுகிறது.',
+      keywords: 'மொத்த SMS, பெரிய அளவு தொடர்பு, WhatsApp பிரச்சாரங்கள், குரல் அழைப்புகள், வாய்ப்பு உருவாக்கம், சந்தைப்படுத்தல் தானியங்கு, பல்வேறு சேனல் வெளியீடு',
+      featureList: [
+        'தினமும் கோடிக்கணக்கான SMS செய்திகளை அனுப்பவும்',
+        'மணிக்கு ஆயிரக்கணக்கான குரல் அழைப்புகளை மேற்கொள்ளவும்',
+        'WhatsApp Business API ஒருங்கிணைப்பு',
+        'AI இயங்கும் பின்தொடர்தல் தானியங்கு',
+        'நேரடி பிரச்சார ஆய்வுகள்',
+        'வாய்ப்பு உருவாக்கம் மற்றும் தகுதி',
+        'GDPR மற்றும் இணக்க கருவிகள்',
+        'நிறுவன-தர அளவிடுதல்'
+      ],
+      audienceType: 'நிறுவனங்கள், சந்தைப்படுத்தல் குழுக்கள், விற்பனை அமைப்புகள், அரசியல் பிரச்சாரங்கள்'
+    },
+    'th': {
+      name: 'SeaX',
+      description: 'SeaX: แพลตฟอร์มการสื่อสารบนคลาวด์สำหรับการเข้าถึงมวลชนจาก Seasalt AI ช่วยให้ธุรกิจส่งข้อความ SMS หลายล้านข้อความ โทรเสียงหลายพันสาย และดำเนินแคมเปญ WhatsApp ในระดับใหญ่ด้วยระบบอัตโนมัติ AI และการวิเคราะห์แบบเรียลไทม์',
+      keywords: 'SMS จำนวนมาก, การสื่อสารมวลชน, แคมเปญ WhatsApp, การโทรเสียง, การสร้างลูกค้าเป้าหมาย, ระบบอัตโนมัติการตลาด, การเข้าถึงแบบหลายช่องทาง',
+      featureList: [
+        'ส่งข้อความ SMS หลายล้านข้อความต่อวัน',
+        'โทรเสียงหลายพันสายต่อชั่วโมง',
+        'การรวม WhatsApp Business API',
+        'ระบบอัตโนมัติการติดตามด้วย AI',
+        'การวิเคราะห์แคมเปญแบบเรียลไทม์',
+        'การสร้างและคัดกรองลูกค้าเป้าหมาย',
+        'เครื่องมือ GDPR และการปฏิบัติตามกฎหมาย',
+        'ความสามารถในการขยายระดับองค์กร'
+      ],
+      audienceType: 'องค์กร ทีมการตลาด องค์กรขาย แคมเปญการเมือง'
+    },
+    'vi': {
+      name: 'SeaX',
+      description: 'SeaX: Nền tảng truyền thông đám mây cho tiếp cận hàng loạt của Seasalt AI, cho phép doanh nghiệp gửi hàng triệu tin nhắn SMS, thực hiện hàng nghìn cuộc gọi thoại và chạy các chiến dịch WhatsApp quy mô lớn với tự động hóa AI và phân tích thời gian thực.',
+      keywords: 'SMS hàng loạt, truyền thông đại chúng, chiến dịch WhatsApp, cuộc gọi thoại, tạo khách hàng tiềm năng, tự động hóa marketing, tiếp cận đa kênh',
+      featureList: [
+        'Gửi hàng triệu tin nhắn SMS hàng ngày',
+        'Thực hiện hàng nghìn cuộc gọi thoại mỗi giờ',
+        'Tích hợp WhatsApp Business API',
+        'Tự động hóa theo dõi được hỗ trợ bởi AI',
+        'Phân tích chiến dịch thời gian thực',
+        'Tạo và đánh giá khách hàng tiềm năng',
+        'Công cụ GDPR và tuân thủ',
+        'Khả năng mở rộng cấp doanh nghiệp'
+      ],
+      audienceType: 'Doanh nghiệp, Đội Marketing, Tổ chức Bán hàng, Chiến dịch Chính trị'
+    }
+  },
+  seavoice: {
+    'en': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: AI-powered voice communication platform by Seasalt AI, enabling intelligent call routing, voice analytics, automated responses, and seamless integration with CRM systems for 24/7 voice support.',
+      keywords: 'AI voice agents, call automation, voice analytics, intelligent routing, speech-to-text, text-to-speech, voice AI',
+      featureList: [
+        'AI voice agents',
+        'Intelligent call routing',
+        'Voice analytics',
+        'Speech-to-text conversion',
+        'Text-to-speech synthesis',
+        'Call recording and monitoring',
+        'Real-time voice analysis',
+        'CRM integration'
+      ],
+      audienceType: 'Call Centers, Customer Support Teams, Healthcare Providers, Financial Services'
+    },
+    'zh-TW': {
+      name: 'SeaVoice',
+      description: 'SeaVoice：Seasalt AI 推出的 AI 語音通訊平台，提供智能通話路由、語音分析、自動回應，並與 CRM 系統無縫整合，提供 24/7 語音支援。',
+      keywords: 'AI 語音代理, 通話自動化, 語音分析, 智能路由, 語音轉文字, 文字轉語音, 語音 AI',
+      featureList: [
+        'AI語音代理',
+        '智能通話路由',
+        '語音分析',
+        '語音轉文字',
+        '文字轉語音',
+        '通話錄音監控',
+        '即時語音分析',
+        'CRM整合'
+      ],
+      audienceType: '客服中心、客戶支援團隊、醫療保健提供者、金融服務'
+    },
+    'zh-CN': {
+      name: 'SeaVoice',
+      description: 'SeaVoice：Seasalt AI 推出的 AI 语音通信平台，提供智能通话路由、语音分析、自动响应，并与 CRM 系统无缝整合，提供 24/7 语音支持。',
+      keywords: 'AI 语音代理, 通话自动化, 语音分析, 智能路由, 语音转文字, 文字转语音, 语音 AI',
+      featureList: [
+        'AI语音代理',
+        '智能通话路由',
+        '语音分析',
+        '语音转文字',
+        '文字转语音',
+        '通话录音监控',
+        '实时语音分析',
+        'CRM整合'
+      ],
+      audienceType: '客服中心、客户支持团队、医疗保健提供者、金融服务'
+    },
+    'es': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Plataforma de comunicación de voz impulsada por IA de Seasalt AI, que permite enrutamiento inteligente de llamadas, análisis de voz, respuestas automatizadas e integración perfecta con sistemas CRM para soporte de voz 24/7.',
+      keywords: 'agentes de voz IA, automatización de llamadas, análisis de voz, enrutamiento inteligente, voz a texto, texto a voz, IA de voz',
+      featureList: [
+        'Agentes de voz IA',
+        'Enrutamiento inteligente de llamadas',
+        'Análisis de voz',
+        'Conversión de voz a texto',
+        'Síntesis de texto a voz',
+        'Grabación y monitoreo de llamadas',
+        'Análisis de voz en tiempo real',
+        'Integración CRM'
+      ],
+      audienceType: 'Centros de Llamadas, Equipos de Soporte al Cliente, Proveedores de Salud, Servicios Financieros'
+    },
+    'fr': {
+      name: 'SeaVoice',
+      description: 'SeaVoice : Plateforme de communication vocale alimentée par l\'IA de Seasalt AI, permettant le routage intelligent d\'appels, l\'analyse vocale, les réponses automatisées et l\'intégration transparente avec les systèmes CRM pour un support vocal 24/7.',
+      keywords: 'agents vocaux IA, automatisation d\'appels, analyse vocale, routage intelligent, parole vers texte, texte vers parole, IA vocale',
+      featureList: [
+        'Agents vocaux IA',
+        'Routage intelligent d\'appels',
+        'Analyse vocale',
+        'Conversion parole vers texte',
+        'Synthèse texte vers parole',
+        'Enregistrement et surveillance d\'appels',
+        'Analyse vocale en temps réel',
+        'Intégration CRM'
+      ],
+      audienceType: 'Centres d\'Appels, Équipes de Support Client, Fournisseurs de Santé, Services Financiers'
+    },
+    'de': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: KI-gestützte Sprachkommunikationsplattform von Seasalt AI, die intelligentes Anrufrouting, Sprachanalyse, automatisierte Antworten und nahtlose Integration mit CRM-Systemen für 24/7-Sprachsupport ermöglicht.',
+      keywords: 'KI-Sprachagenten, Anrufautomatisierung, Sprachanalyse, intelligentes Routing, Sprache zu Text, Text zu Sprache, Sprach-KI',
+      featureList: [
+        'KI-Sprachagenten',
+        'Intelligentes Anrufrouting',
+        'Sprachanalyse',
+        'Sprache-zu-Text-Konvertierung',
+        'Text-zu-Sprache-Synthese',
+        'Anrufaufzeichnung und -überwachung',
+        'Echtzeit-Sprachanalyse',
+        'CRM-Integration'
+      ],
+      audienceType: 'Call Center, Kundensupport-Teams, Gesundheitsdienstleister, Finanzdienstleistungen'
+    },
+    'ja': {
+      name: 'SeaVoice',
+      description: 'SeaVoice：Seasalt AIによるAI搭載音声通信プラットフォーム。インテリジェントコールルーティング、音声分析、自動応答、CRMシステムとのシームレス統合により24/7音声サポートを実現。',
+      keywords: 'AI音声エージェント, 通話自動化, 音声分析, インテリジェントルーティング, 音声テキスト変換, テキスト音声変換, 音声AI',
+      featureList: [
+        'AI音声エージェント',
+        'インテリジェントコールルーティング',
+        '音声分析',
+        '音声テキスト変換',
+        'テキスト音声変換',
+        '通話録音・監視',
+        'リアルタイム音声分析',
+        'CRM統合'
+      ],
+      audienceType: 'コールセンター、カスタマーサポートチーム、医療提供者、金融サービス'
+    },
+    'ko': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Seasalt AI의 AI 기반 음성 통신 플랫폼으로, 지능형 통화 라우팅, 음성 분석, 자동 응답 및 CRM 시스템과의 원활한 통합을 통해 24/7 음성 지원을 제공합니다.',
+      keywords: 'AI 음성 에이전트, 통화 자동화, 음성 분석, 지능형 라우팅, 음성-텍스트 변환, 텍스트-음성 변환, 음성 AI',
+      featureList: [
+        'AI 음성 에이전트',
+        '지능형 통화 라우팅',
+        '음성 분석',
+        '음성-텍스트 변환',
+        '텍스트-음성 변환',
+        '통화 녹음 및 모니터링',
+        '실시간 음성 분석',
+        'CRM 통합'
+      ],
+      audienceType: '콜센터, 고객 지원팀, 의료 서비스 제공자, 금융 서비스'
+    },
+    'ar': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: منصة اتصالات صوتية مدعومة بالذكاء الاصطناعي من Seasalt AI، تتيح توجيه المكالمات الذكي، وتحليل الصوت، والاستجابات الآلية، والتكامل السلس مع أنظمة CRM لدعم صوتي على مدار الساعة طوال أيام الأسبوع.',
+      keywords: 'وكلاء صوتيون بالذكاء الاصطناعي، أتمتة المكالمات، تحليل الصوت، التوجيه الذكي، الكلام إلى نص، النص إلى كلام، ذكاء اصطناعي صوتي',
+      featureList: [
+        'وكلاء الصوت بالذكاء الاصطناعي',
+        'توجيه المكالمات الذكي',
+        'تحليلات الصوت',
+        'تحويل الكلام إلى نص',
+        'تركيب النص إلى كلام',
+        'تسجيل ومراقبة المكالمات',
+        'تحليل الصوت في الوقت الفعلي',
+        'تكامل CRM'
+      ],
+      audienceType: 'مراكز الاتصال، فرق دعم العملاء، مقدمو الرعاية الصحية، الخدمات المالية'
+    },
+    'fa': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: پلتفرم ارتباطات صوتی مبتنی بر هوش مصنوعی توسط Seasalt AI که مسیریابی هوشمند تماس، تحلیل صوت، پاسخ‌های خودکار و ادغام یکپارچه با سیستم‌های CRM را برای پشتیبانی صوتی 24/7 فراهم می‌کند.',
+      keywords: 'عوامل صوتی هوش مصنوعی، اتوماسیون تماس، تحلیل صوت، مسیریابی هوشمند، گفتار به متن، متن به گفتار، هوش مصنوعی صوتی',
+      featureList: [
+        'عوامل صوتی هوش مصنوعی',
+        'مسیریابی هوشمند تماس',
+        'تحلیل‌های صوتی',
+        'تبدیل گفتار به متن',
+        'سنتز متن به گفتار',
+        'ضبط و نظارت بر تماس',
+        'تحلیل صوتی بلادرنگ',
+        'ادغام CRM'
+      ],
+      audienceType: 'مراکز تماس، تیم‌های پشتیبانی مشتری، ارائه‌دهندگان مراقبت‌های بهداشتی، خدمات مالی'
+    },
+    'fil': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: AI-powered voice communication platform ng Seasalt AI na nagbibigay-daan sa intelligent call routing, voice analytics, automated responses, at seamless integration sa CRM systems para sa 24/7 voice support.',
+      keywords: 'AI voice agents, call automation, voice analytics, intelligent routing, speech-to-text, text-to-speech, voice AI',
+      featureList: [
+        'AI voice agents',
+        'Intelligent call routing',
+        'Voice analytics',
+        'Speech-to-text conversion',
+        'Text-to-speech synthesis',
+        'Call recording at monitoring',
+        'Real-time voice analysis',
+        'CRM integration'
+      ],
+      audienceType: 'Call Centers, Customer Support Teams, Healthcare Providers, Financial Services'
+    },
+    'hi': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Seasalt AI का AI-संचालित वॉयस कम्युनिकेशन प्लेटफॉर्म जो बुद्धिमान कॉल राउटिंग, वॉयस एनालिटिक्स, स्वचालित प्रतिक्रियाओं और CRM सिस्टम के साथ सहज एकीकरण के माध्यम से 24/7 वॉयस सपोर्ट प्रदान करता है।',
+      keywords: 'AI वॉयस एजेंट, कॉल ऑटोमेशन, वॉयस एनालिटिक्स, बुद्धिमान राउटिंग, भाषण-से-पाठ, पाठ-से-भाषण, वॉयस AI',
+      featureList: [
+        'AI वॉयस एजेंट',
+        'बुद्धिमान कॉल राउटिंग',
+        'वॉयस एनालिटिक्स',
+        'भाषण-से-पाठ रूपांतरण',
+        'पाठ-से-भाषण संश्लेषण',
+        'कॉल रिकॉर्डिंग और निगरानी',
+        'रीयल-टाइम वॉयस विश्लेषण',
+        'CRM एकीकरण'
+      ],
+      audienceType: 'कॉल सेंटर, ग्राहक सहायता टीम, स्वास्थ्य सेवा प्रदाता, वित्तीय सेवाएं'
+    },
+    'id': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Platform komunikasi suara bertenaga AI oleh Seasalt AI yang memungkinkan routing panggilan cerdas, analitik suara, respons otomatis, dan integrasi mulus dengan sistem CRM untuk dukungan suara 24/7.',
+      keywords: 'agen suara AI, otomatisasi panggilan, analitik suara, routing cerdas, ucapan-ke-teks, teks-ke-ucapan, AI suara',
+      featureList: [
+        'Agen suara AI',
+        'Routing panggilan cerdas',
+        'Analitik suara',
+        'Konversi ucapan-ke-teks',
+        'Sintesis teks-ke-ucapan',
+        'Perekaman dan pemantauan panggilan',
+        'Analisis suara real-time',
+        'Integrasi CRM'
+      ],
+      audienceType: 'Call Center, Tim Dukungan Pelanggan, Penyedia Layanan Kesehatan, Layanan Keuangan'
+    },
+    'ms': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Platform komunikasi suara berkuasa AI oleh Seasalt AI yang membolehkan penghalaan panggilan pintar, analitik suara, respons automatik, dan integrasi lancar dengan sistem CRM untuk sokongan suara 24/7.',
+      keywords: 'ejen suara AI, automasi panggilan, analitik suara, penghalaan pintar, pertuturan-ke-teks, teks-ke-pertuturan, AI suara',
+      featureList: [
+        'Ejen suara AI',
+        'Penghalaan panggilan pintar',
+        'Analitik suara',
+        'Penukaran pertuturan-ke-teks',
+        'Sintesis teks-ke-pertuturan',
+        'Rakaman dan pemantauan panggilan',
+        'Analisis suara masa nyata',
+        'Integrasi CRM'
+      ],
+      audienceType: 'Pusat Panggilan, Pasukan Sokongan Pelanggan, Pembekal Penjagaan Kesihatan, Perkhidmatan Kewangan'
+    },
+    'pl': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Platforma komunikacji głosowej napędzana przez AI od Seasalt AI, umożliwiająca inteligentne routowanie połączeń, analizę głosu, automatyczne odpowiedzi i bezproblemową integrację z systemami CRM dla całodobowego wsparcia głosowego.',
+      keywords: 'agenci głosowi AI, automatyzacja połączeń, analiza głosu, inteligentne routowanie, mowa na tekst, tekst na mowę, AI głosowe',
+      featureList: [
+        'Agenci głosowi AI',
+        'Inteligentne routowanie połączeń',
+        'Analiza głosu',
+        'Konwersja mowy na tekst',
+        'Synteza tekstu na mowę',
+        'Nagrywanie i monitorowanie połączeń',
+        'Analiza głosu w czasie rzeczywistym',
+        'Integracja CRM'
+      ],
+      audienceType: 'Centra Obsługi Telefonicznej, Zespoły Wsparcia Klienta, Dostawcy Opieki Zdrowotnej, Usługi Finansowe'
+    },
+    'pt': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Plataforma de comunicação de voz alimentada por IA da Seasalt AI que permite roteamento inteligente de chamadas, análise de voz, respostas automatizadas e integração perfeita com sistemas CRM para suporte de voz 24/7.',
+      keywords: 'agentes de voz IA, automação de chamadas, análise de voz, roteamento inteligente, fala-para-texto, texto-para-fala, IA de voz',
+      featureList: [
+        'Agentes de voz IA',
+        'Roteamento inteligente de chamadas',
+        'Análise de voz',
+        'Conversão de fala para texto',
+        'Síntese de texto para fala',
+        'Gravação e monitoramento de chamadas',
+        'Análise de voz em tempo real',
+        'Integração CRM'
+      ],
+      audienceType: 'Centros de Atendimento, Equipes de Suporte ao Cliente, Provedores de Saúde, Serviços Financeiros'
+    },
+    'ru': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Платформа голосовой связи на основе ИИ от Seasalt AI, обеспечивающая интеллектуальную маршрутизацию звонков, анализ голоса, автоматизированные ответы и бесшовную интеграцию с системами CRM для круглосуточной голосовой поддержки.',
+      keywords: 'голосовые агенты ИИ, автоматизация звонков, анализ голоса, интеллектуальная маршрутизация, речь в текст, текст в речь, голосовой ИИ',
+      featureList: [
+        'Голосовые агенты ИИ',
+        'Интеллектуальная маршрутизация звонков',
+        'Анализ голоса',
+        'Преобразование речи в текст',
+        'Синтез текста в речь',
+        'Запись и мониторинг звонков',
+        'Анализ голоса в реальном времени',
+        'Интеграция CRM'
+      ],
+      audienceType: 'Колл-центры, Команды поддержки клиентов, Поставщики медицинских услуг, Финансовые услуги'
+    },
+    'ta': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Seasalt AI இன் AI-இயங்கும் குரல் தொடர்பு தளம் புத்திசாலித்தனமான அழைப்பு வழிகாட்டல், குரல் பகுப்பாய்வு, தானியங்கு பதில்கள் மற்றும் 24/7 குரல் ஆதரவுக்கான CRM அமைப்புகளுடன் தடையில்லா ஒருங்கிணைப்பை செயல்படுத்துகிறது.',
+      keywords: 'AI குரல் முகவர்கள், அழைப்பு தானியங்கு, குரல் பகுப்பாய்வு, புத்திசாலித்தனமான வழிகாட்டல், பேச்சு-செய்-உரை, உரை-செய்-பேச்சு, குரல் AI',
+      featureList: [
+        'AI குரல் முகவர்கள்',
+        'புத்திசாலித்தனமான அழைப்பு வழிகாட்டல்',
+        'குரல் பகுப்பாய்வு',
+        'பேச்சு-உரை மாற்றம்',
+        'உரை-பேச்சு தொகுப்பு',
+        'அழைப்பு பதிவு மற்றும் கண்காணிப்பு',
+        'நேரடி குரல் பகுப்பாய்வு',
+        'CRM ஒருங்கிணைப்பு'
+      ],
+      audienceType: 'அழைப்பு மையங்கள், வாடிக்கையாளர் ஆதரவு குழுக்கள், சுகாதார சேவை வழங்குநர்கள், நிதி சேவைகள்'
+    },
+    'th': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: แพลตฟอร์มการสื่อสารด้วยเสียงที่ขับเคลื่อนด้วย AI จาก Seasalt AI ที่ช่วยในการกำหนดเส้นทางการโทรอัจฉริยะ, การวิเคราะห์เสียง, การตอบสนองอัตโนมัติ และการผสานรวมกับระบบ CRM อย่างไร้รอยต่อสำหรับการสนับสนุนด้วยเสียง 24/7',
+      keywords: 'เอเจนต์เสียง AI, การทำให้การโทรเป็นอัตโนมัติ, การวิเคราะห์เสียง, การกำหนดเส้นทางอัจฉริยะ, การแปลงเสียงเป็นข้อความ, การแปลงข้อความเป็นเสียง, AI เสียง',
+      featureList: [
+        'เอเจนต์เสียง AI',
+        'การกำหนดเส้นทางการโทรอัจฉริยะ',
+        'การวิเคราะห์เสียง',
+        'การแปลงเสียงเป็นข้อความ',
+        'การสังเคราะห์ข้อความเป็นเสียง',
+        'การบันทึกและตรวจสอบการโทร',
+        'การวิเคราะห์เสียงแบบเรียลไทม์',
+        'การผสานรวม CRM'
+      ],
+      audienceType: 'ศูนย์รับสาย, ทีมสนับสนุนลูกค้า, ผู้ให้บริการด้านสุขภาพ, บริการทางการเงิน'
+    },
+    'vi': {
+      name: 'SeaVoice',
+      description: 'SeaVoice: Nền tảng giao tiếp bằng giọng nói được hỗ trợ bởi AI của Seasalt AI cho phép định tuyến cuộc gọi thông minh, phân tích giọng nói, phản hồi tự động và tích hợp liền mạch với hệ thống CRM để hỗ trợ giọng nói 24/7.',
+      keywords: 'đại lý giọng nói AI, tự động hóa cuộc gọi, phân tích giọng nói, định tuyến thông minh, giọng nói-sang-văn bản, văn bản-sang-giọng nói, AI giọng nói',
+      featureList: [
+        'Đại lý giọng nói AI',
+        'Định tuyến cuộc gọi thông minh',
+        'Phân tích giọng nói',
+        'Chuyển đổi giọng nói sang văn bản',
+        'Tổng hợp văn bản sang giọng nói',
+        'Ghi âm và giám sát cuộc gọi',
+        'Phân tích giọng nói thời gian thực',
+        'Tích hợp CRM'
+      ],
+      audienceType: 'Trung tâm Cuộc gọi, Đội Hỗ trợ Khách hàng, Nhà cung cấp Chăm sóc Sức khỏe, Dịch vụ Tài chính'
+    }
+  }
+};
+
+export const LOCALIZED_FAQ_SCHEMAS = {
+  'en': [
     {
-      price: '0',
-      priceCurrency: 'USD',
-      period: 'forever',
-      isFree: true
+      question: "What is Seasalt.ai?",
+      answer: "Seasalt.ai is an AI-powered omnichannel customer communication platform that helps businesses automate customer service across multiple channels including WhatsApp, SMS, voice calls, and web chat."
     },
     {
-      price: '29.99',
-      priceCurrency: 'USD',
-      period: 'month',
-      isPopular: true
+      question: "What products does Seasalt.ai offer?",
+      answer: "Seasalt.ai offers three main products: SeaChat for AI chatbots and customer service automation, SeaX for omnichannel communication campaigns, and SeaVoice for AI voice agents and call automation."
     },
     {
-      price: 'custom',
-      priceCurrency: 'USD'
+      question: "How does Seasalt.ai help businesses?",
+      answer: "Seasalt.ai helps businesses reduce customer service costs, improve response times, automate repetitive tasks, and provide 24/7 customer support across multiple communication channels using advanced AI technology."
     }
   ],
-  seax: [
+  'zh-TW': [
     {
-      price: '19.99',
-      priceCurrency: 'USD',
-      period: 'month/user'
+      question: "什麼是 Seasalt.ai？",
+      answer: "Seasalt.ai 是一個 AI 驅動的全通路客戶溝通平台，幫助企業在多個通道（包括 WhatsApp、簡訊、語音通話和網頁聊天）上自動化客戶服務。"
     },
     {
-      price: '99',
-      priceCurrency: 'USD',
-      period: 'month',
-      isPopular: true
+      question: "Seasalt.ai 提供哪些產品？",
+      answer: "Seasalt.ai 提供三個主要產品：SeaChat 用於 AI 聊天機器人和客戶服務自動化，SeaX 用於全通路溝通活動，SeaVoice 用於 AI 語音代理和通話自動化。"
     },
     {
-      price: 'custom',
-      priceCurrency: 'USD'
+      question: "Seasalt.ai 如何幫助企業？",
+      answer: "Seasalt.ai 幫助企業降低客戶服務成本、改善回應時間、自動化重複性任務，並使用先進的 AI 技術在多個溝通通道上提供 24/7 客戶支援。"
     }
   ],
-  seavoice: [
+  'zh-CN': [
     {
-      price: '29.99',
-      priceCurrency: 'USD',
-      period: 'month'
+      question: "什么是 Seasalt.ai？",
+      answer: "Seasalt.ai 是一个 AI 驱动的全渠道客户沟通平台，帮助企业在多个渠道（包括 WhatsApp、短信、语音通话和网页聊天）上自动化客户服务。"
     },
     {
-      price: '99',
-      priceCurrency: 'USD',
-      period: 'month',
-      isPopular: true
+      question: "Seasalt.ai 提供哪些产品？",
+      answer: "Seasalt.ai 提供三个主要产品：SeaChat 用于 AI 聊天机器人和客户服务自动化，SeaX 用于全渠道沟通活动，SeaVoice 用于 AI 语音代理和通话自动化。"
     },
     {
-      price: 'custom',
-      priceCurrency: 'USD'
+      question: "Seasalt.ai 如何帮助企业？",
+      answer: "Seasalt.ai 帮助企业降低客户服务成本、改善响应时间、自动化重复性任务，并使用先进的 AI 技术在多个沟通渠道上提供 24/7 客户支持。"
+    }
+  ],
+  'es': [
+    {
+      question: "¿Qué es Seasalt.ai?",
+      answer: "Seasalt.ai es una plataforma de comunicación omnicanal impulsada por IA que ayuda a las empresas a automatizar el servicio al cliente a través de múltiples canales incluyendo WhatsApp, SMS, llamadas de voz y chat web."
+    },
+    {
+      question: "¿Qué productos ofrece Seasalt.ai?",
+      answer: "Seasalt.ai ofrece tres productos principales: SeaChat para chatbots de IA y automatización de servicio al cliente, SeaX para campañas de comunicación omnicanal, y SeaVoice para agentes de voz IA y automatización de llamadas."
+    },
+    {
+      question: "¿Cómo ayuda Seasalt.ai a las empresas?",
+      answer: "Seasalt.ai ayuda a las empresas a reducir costos de servicio al cliente, mejorar tiempos de respuesta, automatizar tareas repetitivas y proporcionar soporte al cliente 24/7 a través de múltiples canales de comunicación usando tecnología IA avanzada."
+    }
+  ],
+  'fr': [
+    {
+      question: "Qu'est-ce que Seasalt.ai ?",
+      answer: "Seasalt.ai est une plateforme de communication client omnicanale alimentée par l'IA qui aide les entreprises à automatiser le service client sur plusieurs canaux incluant WhatsApp, SMS, appels vocaux et chat web."
+    },
+    {
+      question: "Quels produits propose Seasalt.ai ?",
+      answer: "Seasalt.ai propose trois produits principaux : SeaChat pour les chatbots IA et l'automatisation du service client, SeaX pour les campagnes de communication omnicanale, et SeaVoice pour les agents vocaux IA et l'automatisation d'appels."
+    },
+    {
+      question: "Comment Seasalt.ai aide-t-il les entreprises ?",
+      answer: "Seasalt.ai aide les entreprises à réduire les coûts de service client, améliorer les temps de réponse, automatiser les tâches répétitives et fournir un support client 24/7 sur plusieurs canaux de communication utilisant une technologie IA avancée."
+    }
+  ],
+  'de': [
+    {
+      question: "Was ist Seasalt.ai?",
+      answer: "Seasalt.ai ist eine KI-gestützte Omnichannel-Kundenkommunikationsplattform, die Unternehmen dabei hilft, den Kundenservice über mehrere Kanäle hinweg zu automatisieren, einschließlich WhatsApp, SMS, Sprachanrufen und Web-Chat."
+    },
+    {
+      question: "Welche Produkte bietet Seasalt.ai?",
+      answer: "Seasalt.ai bietet drei Hauptprodukte: SeaChat für KI-Chatbots und Kundenservice-Automatisierung, SeaX für Omnichannel-Kommunikationskampagnen und SeaVoice für KI-Sprachagenten und Anruf-Automatisierung."
+    },
+    {
+      question: "Wie hilft Seasalt.ai Unternehmen?",
+      answer: "Seasalt.ai hilft Unternehmen dabei, Kundenservice-Kosten zu reduzieren, Antwortzeiten zu verbessern, wiederkehrende Aufgaben zu automatisieren und 24/7-Kundensupport über mehrere Kommunikationskanäle mit fortschrittlicher KI-Technologie bereitzustellen."
+    }
+  ],
+  'ja': [
+    {
+      question: "Seasalt.aiとは何ですか？",
+      answer: "Seasalt.aiは、WhatsApp、SMS、音声通話、ウェブチャットなど複数のチャネルでカスタマーサービスの自動化を支援するAI搭載のオムニチャネル顧客コミュニケーションプラットフォームです。"
+    },
+    {
+      question: "Seasalt.aiはどのような製品を提供していますか？",
+      answer: "Seasalt.aiは3つの主要製品を提供しています：AIチャットボットとカスタマーサービス自動化のためのSeaChat、オムニチャネルコミュニケーションキャンペーンのためのSeaX、AI音声エージェントと通話自動化のためのSeaVoice。"
+    },
+    {
+      question: "Seasalt.aiはどのように企業を支援しますか？",
+      answer: "Seasalt.aiは、高度なAI技術を使用して、カスタマーサービスコストの削減、応答時間の改善、反復タスクの自動化、複数のコミュニケーションチャネルでの24/7カスタマーサポートの提供を企業に支援します。"
+    }
+  ],
+  'ko': [
+    {
+      question: "Seasalt.ai란 무엇인가요?",
+      answer: "Seasalt.ai는 WhatsApp, SMS, 음성 통화, 웹 채팅을 포함한 여러 채널에서 고객 서비스 자동화를 지원하는 AI 기반 옴니채널 고객 커뮤니케이션 플랫폼입니다."
+    },
+    {
+      question: "Seasalt.ai는 어떤 제품을 제공하나요?",
+      answer: "Seasalt.ai는 세 가지 주요 제품을 제공합니다: AI 챗봇과 고객 서비스 자동화를 위한 SeaChat, 옴니채널 커뮤니케이션 캠페인을 위한 SeaX, AI 음성 에이전트와 통화 자동화를 위한 SeaVoice."
+    },
+    {
+      question: "Seasalt.ai는 기업에 어떤 도움을 주나요?",
+      answer: "Seasalt.ai는 고급 AI 기술을 사용하여 고객 서비스 비용 절감, 응답 시간 개선, 반복적인 작업 자동화, 여러 커뮤니케이션 채널에서 24/7 고객 지원 제공을 통해 기업을 지원합니다."
+    }
+  ],
+  'ar': [
+    {
+      question: "ما هو Seasalt.ai؟",
+      answer: "Seasalt.ai هي منصة اتصال عملاء متعددة القنوات مدعومة بالذكاء الاصطناعي تساعد الشركات على أتمتة خدمة العملاء عبر قنوات متعددة بما في ذلك WhatsApp وSMS والمكالمات الصوتية والدردشة عبر الويب."
+    },
+    {
+      question: "ما هي المنتجات التي يقدمها Seasalt.ai؟",
+      answer: "يقدم Seasalt.ai ثلاثة منتجات رئيسية: SeaChat لروبوتات الدردشة بالذكاء الاصطناعي وأتمتة خدمة العملاء، وSeaX لحملات الاتصال متعددة القنوات، وSeaVoice لوكلاء الصوت بالذكاء الاصطناعي وأتمتة المكالمات."
+    },
+    {
+      question: "كيف يساعد Seasalt.ai الشركات؟",
+      answer: "يساعد Seasalt.ai الشركات على تقليل تكاليف خدمة العملاء وتحسين أوقات الاستجابة وأتمتة المهام المتكررة وتوفير دعم العملاء على مدار الساعة طوال أيام الأسبوع عبر قنوات اتصال متعددة باستخدام تقنية الذكاء الاصطناعي المتقدمة."
+    }
+  ],
+  'fa': [
+    {
+      question: "Seasalt.ai چیست؟",
+      answer: "Seasalt.ai یک پلتفرم ارتباطات مشتری چندکاناله مبتنی بر هوش مصنوعی است که به کسب‌وکارها کمک می‌کند خدمات مشتری را در کانال‌های متعدد از جمله WhatsApp، پیامک، تماس‌های صوتی و چت وب خودکار کنند."
+    },
+    {
+      question: "Seasalt.ai چه محصولاتی ارائه می‌دهد؟",
+      answer: "Seasalt.ai سه محصول اصلی ارائه می‌دهد: SeaChat برای چت‌بات‌های هوش مصنوعی و خودکارسازی خدمات مشتری، SeaX برای کمپین‌های ارتباطی چندکاناله، و SeaVoice برای عوامل صوتی هوش مصنوعی و خودکارسازی تماس."
+    },
+    {
+      question: "Seasalt.ai چگونه به کسب‌وکارها کمک می‌کند؟",
+      answer: "Seasalt.ai با استفاده از فناوری پیشرفته هوش مصنوعی به کسب‌وکارها کمک می‌کند تا هزینه‌های خدمات مشتری را کاهش دهند، زمان پاسخ‌گویی را بهبود بخشند، کارهای تکراری را خودکار کنند و پشتیبانی 24/7 مشتری را در کانال‌های ارتباطی متعدد ارائه دهند."
+    }
+  ],
+  'fil': [
+    {
+      question: "Ano ang Seasalt.ai?",
+      answer: "Ang Seasalt.ai ay isang AI-powered omnichannel customer communication platform na tumutulong sa mga negosyo na mag-automate ng customer service sa maraming channels kasama ang WhatsApp, SMS, voice calls, at web chat."
+    },
+    {
+      question: "Anong mga produkto ang inaalok ng Seasalt.ai?",
+      answer: "Nag-aalok ang Seasalt.ai ng tatlong pangunahing produkto: SeaChat para sa AI chatbots at customer service automation, SeaX para sa omnichannel communication campaigns, at SeaVoice para sa AI voice agents at call automation."
+    },
+    {
+      question: "Paano nakakatulong ang Seasalt.ai sa mga negosyo?",
+      answer: "Tumutulong ang Seasalt.ai sa mga negosyo na mabawasan ang customer service costs, mapabuti ang response times, ma-automate ang repetitive tasks, at magbigay ng 24/7 customer support sa maraming communication channels gamit ang advanced AI technology."
+    }
+  ],
+  'hi': [
+    {
+      question: "Seasalt.ai क्या है?",
+      answer: "Seasalt.ai एक AI-संचालित ओमनीचैनल ग्राहक संचार प्लेटफॉर्म है जो व्यवसायों को WhatsApp, SMS, आवाज कॉल और वेब चैट सहित कई चैनलों में ग्राहक सेवा को स्वचालित करने में मदद करता है।"
+    },
+    {
+      question: "Seasalt.ai कौन से उत्पाद प्रदान करता है?",
+      answer: "Seasalt.ai तीन मुख्य उत्पाद प्रदान करता है: AI चैटबॉट और ग्राहक सेवा स्वचालन के लिए SeaChat, ओमनीचैनल संचार अभियानों के लिए SeaX, और AI आवाज एजेंट और कॉल स्वचालन के लिए SeaVoice।"
+    },
+    {
+      question: "Seasalt.ai व्यवसायों की कैसे मदद करता है?",
+      answer: "Seasalt.ai उन्नत AI तकनीक का उपयोग करके व्यवसायों को ग्राहक सेवा लागत कम करने, प्रतिक्रिया समय में सुधार करने, दोहराए जाने वाले कार्यों को स्वचालित करने और कई संचार चैनलों में 24/7 ग्राहक सहायता प्रदान करने में मदद करता है।"
+    }
+  ],
+  'id': [
+    {
+      question: "Apa itu Seasalt.ai?",
+      answer: "Seasalt.ai adalah platform komunikasi pelanggan omnichannel bertenaga AI yang membantu bisnis mengotomatisasi layanan pelanggan di berbagai saluran termasuk WhatsApp, SMS, panggilan suara, dan chat web."
+    },
+    {
+      question: "Produk apa yang ditawarkan Seasalt.ai?",
+      answer: "Seasalt.ai menawarkan tiga produk utama: SeaChat untuk chatbot AI dan otomatisasi layanan pelanggan, SeaX untuk kampanye komunikasi omnichannel, dan SeaVoice untuk agen suara AI dan otomatisasi panggilan."
+    },
+    {
+      question: "Bagaimana Seasalt.ai membantu bisnis?",
+      answer: "Seasalt.ai membantu bisnis mengurangi biaya layanan pelanggan, meningkatkan waktu respons, mengotomatisasi tugas berulang, dan menyediakan dukungan pelanggan 24/7 di berbagai saluran komunikasi menggunakan teknologi AI canggih."
+    }
+  ],
+  'ms': [
+    {
+      question: "Apakah Seasalt.ai?",
+      answer: "Seasalt.ai ialah platform komunikasi pelanggan omnichannel berkuasa AI yang membantu perniagaan mengautomatikkan perkhidmatan pelanggan merentasi pelbagai saluran termasuk WhatsApp, SMS, panggilan suara, dan sembang web."
+    },
+    {
+      question: "Apakah produk yang ditawarkan oleh Seasalt.ai?",
+      answer: "Seasalt.ai menawarkan tiga produk utama: SeaChat untuk chatbot AI dan automasi perkhidmatan pelanggan, SeaX untuk kempen komunikasi omnichannel, dan SeaVoice untuk ejen suara AI dan automasi panggilan."
+    },
+    {
+      question: "Bagaimanakah Seasalt.ai membantu perniagaan?",
+      answer: "Seasalt.ai membantu perniagaan mengurangkan kos perkhidmatan pelanggan, meningkatkan masa respons, mengautomatikkan tugas berulang, dan menyediakan sokongan pelanggan 24/7 merentasi pelbagai saluran komunikasi menggunakan teknologi AI canggih."
+    }
+  ],
+  'pl': [
+    {
+      question: "Co to jest Seasalt.ai?",
+      answer: "Seasalt.ai to platforma komunikacji z klientami omnichannel napędzana przez AI, która pomaga firmom automatyzować obsługę klienta w wielu kanałach, w tym WhatsApp, SMS, rozmowy głosowe i czat internetowy."
+    },
+    {
+      question: "Jakie produkty oferuje Seasalt.ai?",
+      answer: "Seasalt.ai oferuje trzy główne produkty: SeaChat dla chatbotów AI i automatyzacji obsługi klienta, SeaX dla kampanii komunikacji omnichannel oraz SeaVoice dla agentów głosowych AI i automatyzacji połączeń."
+    },
+    {
+      question: "Jak Seasalt.ai pomaga firmom?",
+      answer: "Seasalt.ai pomaga firmom obniżyć koszty obsługi klienta, poprawić czasy odpowiedzi, zautomatyzować powtarzające się zadania i zapewnić całodobowe wsparcie klienta w wielu kanałach komunikacji przy użyciu zaawansowanej technologii AI."
+    }
+  ],
+  'pt': [
+    {
+      question: "O que é o Seasalt.ai?",
+      answer: "Seasalt.ai é uma plataforma de comunicação omnichannel com clientes alimentada por IA que ajuda empresas a automatizar o atendimento ao cliente em vários canais, incluindo WhatsApp, SMS, chamadas de voz e chat web."
+    },
+    {
+      question: "Quais produtos o Seasalt.ai oferece?",
+      answer: "Seasalt.ai oferece três produtos principais: SeaChat para chatbots de IA e automação de atendimento ao cliente, SeaX para campanhas de comunicação omnichannel e SeaVoice para agentes de voz de IA e automação de chamadas."
+    },
+    {
+      question: "Como o Seasalt.ai ajuda as empresas?",
+      answer: "Seasalt.ai ajuda as empresas a reduzir custos de atendimento ao cliente, melhorar tempos de resposta, automatizar tarefas repetitivas e fornecer suporte ao cliente 24/7 em vários canais de comunicação usando tecnologia de IA avançada."
+    }
+  ],
+  'ru': [
+    {
+      question: "Что такое Seasalt.ai?",
+      answer: "Seasalt.ai - это платформа омниканальной клиентской коммуникации на основе ИИ, которая помогает предприятиям автоматизировать обслуживание клиентов по нескольким каналам, включая WhatsApp, SMS, голосовые звонки и веб-чат."
+    },
+    {
+      question: "Какие продукты предлагает Seasalt.ai?",
+      answer: "Seasalt.ai предлагает три основных продукта: SeaChat для ИИ-чатботов и автоматизации обслуживания клиентов, SeaX для омниканальных коммуникационных кампаний и SeaVoice для голосовых ИИ-агентов и автоматизации звонков."
+    },
+    {
+      question: "Как Seasalt.ai помогает бизнесу?",
+      answer: "Seasalt.ai помогает предприятиям снизить расходы на обслуживание клиентов, улучшить время отклика, автоматизировать повторяющиеся задачи и обеспечить круглосуточную поддержку клиентов по нескольким каналам связи, используя передовые ИИ-технологии."
+    }
+  ],
+  'ta': [
+    {
+      question: "Seasalt.ai என்றால் என்ன?",
+      answer: "Seasalt.ai என்பது AI-ஆல் இயக்கப்படும் ஒரு பல்வேறு சேனல் வாடிக்கையாளர் தொடர்பு தளமாகும், இது WhatsApp, SMS, குரல் அழைப்புகள் மற்றும் வலை அரட்டை உள்ளிட்ட பல சேனல்களில் வாடிக்கையாளர் சேவையை தானியங்குபடுத்த வணிகங்களுக்கு உதவுகிறது."
+    },
+    {
+      question: "Seasalt.ai என்ன தயாரிப்புகளை வழங்குகிறது?",
+      answer: "Seasalt.ai மூன்று முக்கிய தயாரிப்புகளை வழங்குகிறது: AI அரட்டைபோட்கள் மற்றும் வாடிக்கையாளர் சேவை தானியங்குபடுத்தலுக்கான SeaChat, பல்வேறு சேனல் தொடர்பு பிரச்சாரங்களுக்கான SeaX, மற்றும் AI குரல் முகவர்கள் மற்றும் அழைப்பு தானியங்குபடுத்தலுக்கான SeaVoice."
+    },
+    {
+      question: "Seasalt.ai வணிகங்களுக்கு எவ்வாறு உதவுகிறது?",
+      answer: "Seasalt.ai மேம்பட்ட AI தொழில்நுட்பத்தைப் பயன்படுத்தி வணிகங்களுக்கு வாடிக்கையாளர் சேவை செலவுகளைக் குறைக்கவும், பதில் நேரங்களை மேம்படுத்தவும், மீண்டும் மீண்டும் செய்யும் பணிகளை தானியங்குபடுத்தவும், மற்றும் பல தொடர்பு சேனல்களில் 24/7 வாடிக்கையாளர் ஆதரவை வழங்கவும் உதவுகிறது."
+    }
+  ],
+  'th': [
+    {
+      question: "Seasalt.ai คืออะไร?",
+      answer: "Seasalt.ai เป็นแพลตฟอร์มการสื่อสารลูกค้าแบบหลายช่องทางที่ขับเคลื่อนด้วย AI ที่ช่วยธุรกิจทำให้การบริการลูกค้าเป็นแบบอัตโนมัติในหลายช่องทาง รวมถึง WhatsApp, SMS, การโทรเสียง และเว็บแชท"
+    },
+    {
+      question: "Seasalt.ai เสนอผลิตภัณฑ์อะไรบ้าง?",
+      answer: "Seasalt.ai เสนอผลิตภัณฑ์หลักสามตัว: SeaChat สำหรับแชทบอท AI และระบบอัตโนมัติการบริการลูกค้า, SeaX สำหรับแคมเปญการสื่อสารแบบหลายช่องทาง และ SeaVoice สำหรับเอเจนต์เสียง AI และระบบอัตโนมัติการโทร"
+    },
+    {
+      question: "Seasalt.ai ช่วยธุรกิจอย่างไร?",
+      answer: "Seasalt.ai ช่วยธุรกิจลดต้นทุนการบริการลูกค้า ปรับปรุงเวลาการตอบสนอง ทำให้งานที่ทำซ้ำเป็นแบบอัตโนมัติ และให้การสนับสนุนลูกค้า 24/7 ในหลายช่องทางการสื่อสารโดยใช้เทคโนโลยี AI ขั้นสูง"
+    }
+  ],
+  'vi': [
+    {
+      question: "Seasalt.ai là gì?",
+      answer: "Seasalt.ai là nền tảng giao tiếp khách hàng đa kênh được hỗ trợ bởi AI giúp các doanh nghiệp tự động hóa dịch vụ khách hàng trên nhiều kênh bao gồm WhatsApp, SMS, cuộc gọi thoại và chat web."
+    },
+    {
+      question: "Seasalt.ai cung cấp những sản phẩm gì?",
+      answer: "Seasalt.ai cung cấp ba sản phẩm chính: SeaChat cho chatbot AI và tự động hóa dịch vụ khách hàng, SeaX cho các chiến dịch giao tiếp đa kênh, và SeaVoice cho đại lý giọng nói AI và tự động hóa cuộc gọi."
+    },
+    {
+      question: "Seasalt.ai giúp doanh nghiệp như thế nào?",
+      answer: "Seasalt.ai giúp doanh nghiệp giảm chi phí dịch vụ khách hàng, cải thiện thời gian phản hồi, tự động hóa các tác vụ lặp lại và cung cấp hỗ trợ khách hàng 24/7 trên nhiều kênh giao tiếp bằng công nghệ AI tiên tiến."
     }
   ]
 };
 
 /**
- * Get localized pricing tiers for a product
- * @param productKey - The product key
- * @param language - The language code
- * @returns Array of pricing tiers with localized content
+ * Get localized service schema
  */
-export function getLocalizedPricingTiers(productKey: ProductKey, language: string = 'en'): PricingTier[] {
-  const baseTiers = PRODUCT_PRICING_BASE[productKey];
-  const tierNames = getPricingTierNames(productKey, language);
-  const tierDescriptions = getPricingTierDescriptions(productKey, language);
-  const tierFeatures = getPricingTierFeatures(productKey, language);
-  
-  return baseTiers.map((baseTier, index) => ({
-    ...baseTier,
-    name: tierNames[index],
-    description: tierDescriptions[index],
-    features: tierFeatures[index]
-  }));
+export function getLocalizedServiceSchema(serviceKey: 'seachat' | 'seax', language: string) {
+  return LOCALIZED_SERVICE_SCHEMAS[serviceKey][language] || LOCALIZED_SERVICE_SCHEMAS[serviceKey]['en'];
 }
 
 /**
- * Get localized tier names
+ * Get localized FAQ schema
  */
-function getPricingTierNames(productKey: ProductKey, language: string): string[] {
-  const names: Record<ProductKey, Record<string, string[]>> = {
-    seachat: {
-      'en': ['Live Agent', 'SeaChat Premium', 'Custom Enterprise'],
-      'zh-TW': ['即時客服', 'SeaChat 進階版', '客製化企業版'],
-      'zh-CN': ['实时客服', 'SeaChat 高级版', '定制企业版'],
-      'es': ['Agente en Vivo', 'SeaChat Premium', 'Empresa Personalizada'],
-      'fr': ['Agent en Direct', 'SeaChat Premium', 'Entreprise Personnalisée'],
-      'de': ['Live-Agent', 'SeaChat Premium', 'Individuelles Enterprise'],
-      'pt': ['Agente ao Vivo', 'SeaChat Premium', 'Empresa Personalizada'],
-      'ja': ['ライブエージェント', 'SeaChatプレミアム', 'カスタムエンタープライズ'],
-      'ko': ['라이브 에이전트', 'SeaChat 프리미엄', '맞춤형 엔터프라이즈'],
-      'ar': ['وكيل مباشر', 'SeaChat بريميوم', 'مؤسسة مخصصة'],
-      'ru': ['Живой агент', 'SeaChat Премиум', 'Индивидуальный корпоративный'],
-      'hi': ['लाइव एजेंट', 'SeaChat प्रीमियम', 'कस्टम एंटरप्राइज़'],
-      'id': ['Agen Langsung', 'SeaChat Premium', 'Perusahaan Kustom'],
-      'th': ['ตัวแทนสด', 'SeaChat พรีเมียม', 'องค์กรแบบกำหนดเอง'],
-      'vi': ['Nhân viên Trực tiếp', 'SeaChat Premium', 'Doanh nghiệp Tùy chỉnh'],
-      'ms': ['Ejen Langsung', 'SeaChat Premium', 'Perusahaan Tersuai'],
-      'fil': ['Live Agent', 'SeaChat Premium', 'Custom Enterprise'],
-      'pl': ['Agent na żywo', 'SeaChat Premium', 'Niestandardowe przedsiębiorstwo'],
-      'fa': ['نماینده زنده', 'SeaChat پرمیوم', 'سازمانی سفارشی'],
-      'ta': ['நேரடி முகவர்', 'SeaChat பிரீமியம்', 'தனிப்பயன் நிறுவனம்']
-    },
-    seax: {
-      'en': ['WhatsApp Only', 'Omnichannel', 'Custom Enterprise'],
-      'zh-TW': ['僅限 WhatsApp', '全通路', '客製化企業版'],
-      'zh-CN': ['仅限 WhatsApp', '全渠道', '定制企业版'],
-      'es': ['Solo WhatsApp', 'Omnicanal', 'Empresa Personalizada'],
-      'fr': ['WhatsApp Uniquement', 'Omnicanal', 'Entreprise Personnalisée'],
-      'de': ['Nur WhatsApp', 'Omnichannel', 'Individuelles Enterprise'],
-      'pt': ['Apenas WhatsApp', 'Omnichannel', 'Empresa Personalizada'],
-      'ja': ['WhatsAppのみ', 'オムニチャネル', 'カスタムエンタープライズ'],
-      'ko': ['WhatsApp 전용', '옴니채널', '맞춤형 엔터프라이즈'],
-      'ar': ['واتساب فقط', 'متعدد القنوات', 'مؤسسة مخصصة'],
-      'ru': ['Только WhatsApp', 'Омниканальный', 'Индивидуальный корпоративный'],
-      'hi': ['केवल WhatsApp', 'ओमनीचैनल', 'कस्टम एंटरप्राइज़'],
-      'id': ['Hanya WhatsApp', 'Omnichannel', 'Perusahaan Kustom'],
-      'th': ['WhatsApp เท่านั้น', 'Omnichannel', 'องค์กรแบบกำหนดเอง'],
-      'vi': ['Chỉ WhatsApp', 'Đa kênh', 'Doanh nghiệp Tùy chỉnh'],
-      'ms': ['WhatsApp Sahaja', 'Omnichannel', 'Perusahaan Tersuai'],
-      'fil': ['WhatsApp Lang', 'Omnichannel', 'Custom Enterprise'],
-      'pl': ['Tylko WhatsApp', 'Omnikanał', 'Niestandardowe przedsiębiorstwo'],
-      'fa': ['فقط واتساپ', 'چندکاناله', 'سازمانی سفارشی'],
-      'ta': ['WhatsApp மட்டும்', 'பல்வழி', 'தனிப்பயன் நிறுவனம்']
-    },
-    seavoice: {
-      'en': ['Inbound Only', 'Inbound + Outbound', 'Custom Enterprise'],
-      'zh-TW': ['僅進線', '進線+外撥', '客製化企業版'],
-      'zh-CN': ['仅进线', '进线+外拨', '定制企业版'],
-      'es': ['Solo Entrante', 'Entrante + Saliente', 'Empresa Personalizada'],
-      'fr': ['Entrant Uniquement', 'Entrant + Sortant', 'Entreprise Personnalisée'],
-      'de': ['Nur Eingehend', 'Eingehend + Ausgehend', 'Individuelles Enterprise'],
-      'pt': ['Apenas Entrada', 'Entrada + Saída', 'Empresa Personalizada'],
-      'ja': ['インバウンドのみ', 'インバウンド+アウトバウンド', 'カスタムエンタープライズ'],
-      'ko': ['인바운드 전용', '인바운드+아웃바운드', '맞춤형 엔터프라이즈'],
-      'ar': ['الوارد فقط', 'الوارد + الصادر', 'مؤسسة مخصصة'],
-      'ru': ['Только входящие', 'Входящие + Исходящие', 'Индивидуальный корпоративный'],
-      'hi': ['केवल इनबाउंड', 'इनबाउंड + आउटबाउंड', 'कस्टम एंटरप्राइज़'],
-      'id': ['Hanya Masuk', 'Masuk + Keluar', 'Perusahaan Kustom'],
-      'th': ['สายเข้าเท่านั้น', 'สายเข้า + สายออก', 'องค์กรแบบกำหนดเอง'],
-      'vi': ['Chỉ Gọi đến', 'Gọi đến + Gọi đi', 'Doanh nghiệp Tùy chỉnh'],
-      'ms': ['Masuk Sahaja', 'Masuk + Keluar', 'Perusahaan Tersuai'],
-      'fil': ['Inbound Lang', 'Inbound + Outbound', 'Custom Enterprise'],
-      'pl': ['Tylko przychodzące', 'Przychodzące + Wychodzące', 'Niestandardowe przedsiębiorstwo'],
-      'fa': ['فقط ورودی', 'ورودی + خروجی', 'سازمانی سفارشی'],
-      'ta': ['உள்வரும் மட்டும்', 'உள்வரும் + வெளிச்செல்லும்', 'தனிப்பயன் நிறுவனம்']
-    }
-  };
-  
-  return names[productKey][language] || names[productKey]['en'];
+export function getLocalizedFaqSchema(language: string) {
+  return LOCALIZED_FAQ_SCHEMAS[language] || LOCALIZED_FAQ_SCHEMAS['en'];
 }
 
-/**
- * Get localized tier descriptions
- */
-function getPricingTierDescriptions(productKey: ProductKey, language: string): string[] {
-  const descriptions: Record<ProductKey, Record<string, string[]>> = {
-    seachat: {
-      'en': [
-        'Free forever with 1 human agent and unlimited conversations',
-        'AI-powered chatbot with advanced features',
-        'Tailored solutions for large organizations'
-      ],
-      'zh-TW': [
-        '永久免費，含1位人工客服和無限對話',
-        'AI驅動的聊天機器人，具備進階功能',
-        '為大型組織量身打造的解決方案'
-      ],
-      'zh-CN': [
-        '永久免费，含1位人工客服和无限对话',
-        'AI驱动的聊天机器人，具备高级功能',
-        '为大型组织定制的解决方案'
-      ],
-      'es': [
-        'Gratis para siempre con 1 agente humano y conversaciones ilimitadas',
-        'Chatbot impulsado por IA con funciones avanzadas',
-        'Soluciones personalizadas para grandes organizaciones'
-      ],
-      'fr': [
-        'Gratuit pour toujours avec 1 agent humain et conversations illimitées',
-        'Chatbot alimenté par l\'IA avec fonctionnalités avancées',
-        'Solutions sur mesure pour grandes organisations'
-      ],
-      'de': [
-        'Für immer kostenlos mit 1 menschlichen Agenten und unbegrenzten Gesprächen',
-        'KI-gesteuerter Chatbot mit erweiterten Funktionen',
-        'Maßgeschneiderte Lösungen für große Organisationen'
-      ],
-      'pt': [
-        'Grátis para sempre com 1 agente humano e conversas ilimitadas',
-        'Chatbot alimentado por IA com recursos avançados',
-        'Soluções personalizadas para grandes organizações'
-      ],
-      'ja': [
-        '1人の人間エージェントと無制限の会話で永久無料',
-        '高度な機能を備えたAI搭載チャットボット',
-        '大規模組織向けのカスタマイズソリューション'
-      ],
-      'ko': [
-        '1명의 상담원과 무제한 대화로 영원히 무료',
-        '고급 기능을 갖춘 AI 기반 챗봇',
-        '대규모 조직을 위한 맞춤형 솔루션'
-      ],
-      'ar': [
-        'مجاني للأبد مع وكيل بشري واحد ومحادثات غير محدودة',
-        'روبوت محادثة مدعوم بالذكاء الاصطناعي مع ميزات متقدمة',
-        'حلول مخصصة للمؤسسات الكبيرة'
-      ],
-      'ru': [
-        'Бесплатно навсегда с 1 человеческим агентом и неограниченными разговорами',
-        'Чат-бот на основе ИИ с расширенными функциями',
-        'Индивидуальные решения для крупных организаций'
-      ],
-      'hi': [
-        '1 मानव एजेंट और असीमित वार्तालाप के साथ हमेशा मुफ्त',
-        'उन्नत सुविधाओं के साथ AI-संचालित चैटबॉट',
-        'बड़े संगठनों के लिए अनुकूलित समाधान'
-      ],
-      'id': [
-        'Gratis selamanya dengan 1 agen manusia dan percakapan tak terbatas',
-        'Chatbot bertenaga AI dengan fitur canggih',
-        'Solusi yang disesuaikan untuk organisasi besar'
-      ],
-      'th': [
-        'ฟรีตลอดกาลพร้อมตัวแทนมนุษย์ 1 คนและการสนทนาไม่จำกัด',
-        'แชทบอทที่ขับเคลื่อนด้วย AI พร้อมฟีเจอร์ขั้นสูง',
-        'โซลูชันที่ปรับแต่งสำหรับองค์กรขนาดใหญ่'
-      ],
-      'vi': [
-        'Miễn phí vĩnh viễn với 1 nhân viên và cuộc trò chuyện không giới hạn',
-        'Chatbot được hỗ trợ bởi AI với các tính năng nâng cao',
-        'Giải pháp tùy chỉnh cho các tổ chức lớn'
-      ],
-      'ms': [
-        'Percuma selama-lamanya dengan 1 ejen manusia dan perbualan tanpa had',
-        'Chatbot berkuasa AI dengan ciri-ciri canggih',
-        'Penyelesaian yang disesuaikan untuk organisasi besar'
-      ],
-      'fil': [
-        'Libre magpakailanman na may 1 ahente at walang hanggang pag-uusap',
-        'AI-powered chatbot na may advanced features',
-        'Mga solusyong inangkop para sa malalaking organisasyon'
-      ],
-      'pl': [
-        'Darmowe na zawsze z 1 agentem i nieograniczonymi rozmowami',
-        'Chatbot napędzany AI z zaawansowanymi funkcjami',
-        'Rozwiązania dostosowane do dużych organizacji'
-      ],
-      'fa': [
-        'رایگان برای همیشه با 1 نماینده انسانی و مکالمات نامحدود',
-        'چت‌بات مجهز به هوش مصنوعی با ویژگی‌های پیشرفته',
-        'راه‌حل‌های سفارشی برای سازمان‌های بزرگ'
-      ],
-      'ta': [
-        '1 மனித முகவர் மற்றும் வரம்பற்ற உரையாடல்களுடன் எப்போதும் இலவசம்',
-        'மேம்பட்ட அம்சங்களுடன் AI-இயக்கப்படும் சாட்போட்',
-        'பெரிய நிறுவனங்களுக்கான தனிப்பயன் தீர்வுகள்'
-      ]
-    },
-    seax: {
-      'en': [
-        'WhatsApp Business platform for messaging',
-        'Complete contact center platform (first user)',
-        'Multi-workspace solution for agencies'
-      ],
-      'zh-TW': [
-        'WhatsApp商業訊息平台',
-        '完整的聯絡中心平台（第一位用戶）',
-        '適合代理商的多工作區解決方案'
-      ],
-      'zh-CN': [
-        'WhatsApp商业消息平台',
-        '完整的联系中心平台（第一位用户）',
-        '适合代理商的多工作区解决方案'
-      ],
-      'es': [
-        'Plataforma WhatsApp Business para mensajería',
-        'Plataforma completa de centro de contacto (primer usuario)',
-        'Solución multi-espacio de trabajo para agencias'
-      ],
-      'fr': [
-        'Plateforme WhatsApp Business pour la messagerie',
-        'Plateforme complète de centre de contact (premier utilisateur)',
-        'Solution multi-espaces de travail pour agences'
-      ],
-      'de': [
-        'WhatsApp Business-Plattform für Messaging',
-        'Komplette Contact-Center-Plattform (erster Benutzer)',
-        'Multi-Workspace-Lösung für Agenturen'
-      ],
-      'pt': [
-        'Plataforma WhatsApp Business para mensagens',
-        'Plataforma completa de centro de contato (primeiro usuário)',
-        'Solução multi-workspace para agências'
-      ],
-      'ja': [
-        'メッセージング用WhatsAppビジネスプラットフォーム',
-        '完全なコンタクトセンタープラットフォーム（初回ユーザー）',
-        '代理店向けマルチワークスペースソリューション'
-      ],
-      'ko': [
-        '메시징을 위한 WhatsApp 비즈니스 플랫폼',
-        '완벽한 컨택 센터 플랫폼 (첫 번째 사용자)',
-        '에이전시를 위한 멀티 워크스페이스 솔루션'
-      ],
-      'ar': [
-        'منصة WhatsApp Business للمراسلة',
-        'منصة مركز اتصال كاملة (المستخدم الأول)',
-        'حل متعدد مساحات العمل للوكالات'
-      ],
-      'ru': [
-        'Платформа WhatsApp Business для обмена сообщениями',
-        'Полная платформа контакт-центра (первый пользователь)',
-        'Многопространственное решение для агентств'
-      ],
-      'hi': [
-        'संदेश भेजने के लिए WhatsApp Business प्लेटफॉर्म',
-        'पूर्ण संपर्क केंद्र प्लेटफॉर्म (पहला उपयोगकर्ता)',
-        'एजेंसियों के लिए मल्टी-वर्कस्पेस समाधान'
-      ],
-      'id': [
-        'Platform WhatsApp Business untuk perpesanan',
-        'Platform pusat kontak lengkap (pengguna pertama)',
-        'Solusi multi-ruang kerja untuk agensi'
-      ],
-      'th': [
-        'แพลตฟอร์ม WhatsApp Business สำหรับการส่งข้อความ',
-        'แพลตฟอร์มศูนย์ติดต่อที่สมบูรณ์ (ผู้ใช้คนแรก)',
-        'โซลูชันหลายพื้นที่ทำงานสำหรับเอเจนซี'
-      ],
-      'vi': [
-        'Nền tảng WhatsApp Business cho nhắn tin',
-        'Nền tảng trung tâm liên hệ hoàn chỉnh (người dùng đầu tiên)',
-        'Giải pháp đa không gian làm việc cho các đại lý'
-      ],
-      'ms': [
-        'Platform WhatsApp Business untuk pemesejan',
-        'Platform pusat kenalan lengkap (pengguna pertama)',
-        'Penyelesaian berbilang ruang kerja untuk agensi'
-      ],
-      'fil': [
-        'WhatsApp Business platform para sa pagmemensahe',
-        'Kumpletong contact center platform (unang user)',
-        'Multi-workspace solution para sa mga ahensya'
-      ],
-      'pl': [
-        'Platforma WhatsApp Business do wiadomości',
-        'Kompletna platforma centrum kontaktowego (pierwszy użytkownik)',
-        'Rozwiązanie wieloprzestrzenne dla agencji'
-      ],
-      'fa': [
-        'پلتفرم WhatsApp Business برای پیام‌رسانی',
-        'پلتفرم کامل مرکز تماس (اولین کاربر)',
-        'راه‌حل چند فضای کاری برای آژانس‌ها'
-      ],
-      'ta': [
-        'செய்தி அனுப்புவதற்கான WhatsApp Business தளம்',
-        'முழுமையான தொடர்பு மைய தளம் (முதல் பயனர்)',
-        'ஏஜென்சிகளுக்கான பல பணியிட தீர்வு'
-      ]
-    },
-    seavoice: {
-      'en': [
-        'AI voice agents for incoming calls',
-        'Full voice AI platform with campaigns',
-        'Enterprise-grade voice solutions'
-      ],
-      'zh-TW': [
-        '處理進線電話的AI語音代理',
-        '具備行銷功能的完整語音AI平台',
-        '企業級語音解決方案'
-      ],
-      'zh-CN': [
-        '处理进线电话的AI语音代理',
-        '具备营销功能的完整语音AI平台',
-        '企业级语音解决方案'
-      ],
-      'es': [
-        'Agentes de voz AI para llamadas entrantes',
-        'Plataforma completa de voz AI con campañas',
-        'Soluciones de voz de grado empresarial'
-      ],
-      'fr': [
-        'Agents vocaux IA pour appels entrants',
-        'Plateforme vocale IA complète avec campagnes',
-        'Solutions vocales de niveau entreprise'
-      ],
-      'de': [
-        'KI-Sprachagenten für eingehende Anrufe',
-        'Vollständige Sprach-KI-Plattform mit Kampagnen',
-        'Sprachlösungen auf Unternehmensebene'
-      ],
-      'pt': [
-        'Agentes de voz AI para chamadas recebidas',
-        'Plataforma completa de voz AI com campanhas',
-        'Soluções de voz de nível empresarial'
-      ],
-      'ja': [
-        '着信通話用のAI音声エージェント',
-        'キャンペーン機能付き完全音声AIプラットフォーム',
-        'エンタープライズグレードの音声ソリューション'
-      ],
-      'ko': [
-        '수신 통화를 위한 AI 음성 에이전트',
-        '캠페인 기능이 있는 전체 음성 AI 플랫폼',
-        '엔터프라이즈급 음성 솔루션'
-      ],
-      'ar': [
-        'وكلاء صوت الذكاء الاصطناعي للمكالمات الواردة',
-        'منصة صوتية كاملة بالذكاء الاصطناعي مع حملات',
-        'حلول صوتية على مستوى المؤسسات'
-      ],
-      'ru': [
-        'ИИ-голосовые агенты для входящих звонков',
-        'Полная голосовая ИИ-платформа с кампаниями',
-        'Голосовые решения корпоративного уровня'
-      ],
-      'hi': [
-        'आने वाली कॉल के लिए AI वॉयस एजेंट',
-        'अभियानों के साथ पूर्ण वॉयस AI प्लेटफॉर्म',
-        'एंटरप्राइज़-ग्रेड वॉयस समाधान'
-      ],
-      'id': [
-        'Agen suara AI untuk panggilan masuk',
-        'Platform suara AI lengkap dengan kampanye',
-        'Solusi suara tingkat perusahaan'
-      ],
-      'th': [
-        'ตัวแทนเสียง AI สำหรับสายเรียกเข้า',
-        'แพลตฟอร์มเสียง AI เต็มรูปแบบพร้อมแคมเปญ',
-        'โซลูชันเสียงระดับองค์กร'
-      ],
-      'vi': [
-        'Nhân viên AI giọng nói cho cuộc gọi đến',
-        'Nền tảng AI giọng nói đầy đủ với chiến dịch',
-        'Giải pháp giọng nói cấp doanh nghiệp'
-      ],
-      'ms': [
-        'Ejen suara AI untuk panggilan masuk',
-        'Platform suara AI penuh dengan kempen',
-        'Penyelesaian suara gred perusahaan'
-      ],
-      'fil': [
-        'AI voice agents para sa papasok na tawag',
-        'Kumpletong voice AI platform na may mga kampanya',
-        'Enterprise-grade na voice solutions'
-      ],
-      'pl': [
-        'Agenci głosowi AI do połączeń przychodzących',
-        'Pełna platforma głosowa AI z kampaniami',
-        'Rozwiązania głosowe klasy korporacyjnej'
-      ],
-      'fa': [
-        'عوامل صوتی هوش مصنوعی برای تماس‌های ورودی',
-        'پلتفرم صوتی کامل هوش مصنوعی با کمپین‌ها',
-        'راه‌حل‌های صوتی در سطح سازمانی'
-      ],
-      'ta': [
-        'உள்வரும் அழைப்புகளுக்கான AI குரல் முகவர்கள்',
-        'பிரச்சாரங்களுடன் முழு குரல் AI தளம்',
-        'நிறுவன தர குரல் தீர்வுகள்'
-      ]
-    }
-  };
-  
-  // Return the descriptions for the language, or fallback to English
-  return descriptions[productKey][language] || descriptions[productKey]['en'];
-}
+// =============================================================================
+// Localized Product Descriptions
+// =============================================================================
 
-/**
- * Get localized tier features
- */
-function getPricingTierFeatures(productKey: ProductKey, language: string): string[][] {
-  const features: Record<ProductKey, Record<string, string[][]>> = {
-    seachat: {
-      'en': [
-        ['1 human agent included', 'Unlimited human conversations', '100 AI responses to test', 'Basic Shopify integrations'],
-        ['Everything in Free plan', 'Unlimited AI conversations', 'GPT-4 and Claude models', 'Advanced analytics', 'Custom branding'],
-        ['Multiple workspaces', 'HIPAA compliance', 'White-label options', 'Dedicated support', 'Custom integrations']
-      ],
-      'zh-TW': [
-        ['包含1位人工客服', '無限人工對話', '100次AI回應測試', '基本Shopify整合'],
-        ['包含免費方案所有功能', '無限AI對話', 'GPT-4和Claude模型', '進階分析', '客製化品牌'],
-        ['多個工作區', 'HIPAA合規', '白標選項', '專屬支援', '客製化整合']
-      ],
-      'zh-CN': [
-        ['包含1位人工客服', '无限人工对话', '100次AI响应测试', '基本Shopify集成'],
-        ['包含免费方案所有功能', '无限AI对话', 'GPT-4和Claude模型', '高级分析', '定制品牌'],
-        ['多个工作区', 'HIPAA合规', '白标选项', '专属支持', '定制集成']
-      ],
-      'es': [
-        ['1 agente humano incluido', 'Conversaciones humanas ilimitadas', '100 respuestas AI de prueba', 'Integraciones básicas de Shopify'],
-        ['Todo en el plan gratuito', 'Conversaciones AI ilimitadas', 'Modelos GPT-4 y Claude', 'Análisis avanzado', 'Marca personalizada'],
-        ['Múltiples espacios de trabajo', 'Cumplimiento HIPAA', 'Opciones de marca blanca', 'Soporte dedicado', 'Integraciones personalizadas']
-      ],
-      'fr': [
-        ['1 agent humain inclus', 'Conversations humaines illimitées', '100 réponses IA de test', 'Intégrations Shopify de base'],
-        ['Tout dans le plan gratuit', 'Conversations IA illimitées', 'Modèles GPT-4 et Claude', 'Analyses avancées', 'Marque personnalisée'],
-        ['Espaces de travail multiples', 'Conformité HIPAA', 'Options en marque blanche', 'Support dédié', 'Intégrations personnalisées']
-      ],
-      'de': [
-        ['1 menschlicher Agent enthalten', 'Unbegrenzte menschliche Gespräche', '100 AI-Antworten zum Testen', 'Grundlegende Shopify-Integrationen'],
-        ['Alles im kostenlosen Plan', 'Unbegrenzte KI-Gespräche', 'GPT-4 und Claude Modelle', 'Erweiterte Analysen', 'Individuelles Branding'],
-        ['Mehrere Arbeitsbereiche', 'HIPAA-Konformität', 'White-Label-Optionen', 'Dedizierter Support', 'Benutzerdefinierte Integrationen']
-      ],
-      'pt': [
-        ['1 agente humano incluído', 'Conversas humanas ilimitadas', '100 respostas de IA para teste', 'Integrações básicas do Shopify'],
-        ['Tudo no plano gratuito', 'Conversas de IA ilimitadas', 'Modelos GPT-4 e Claude', 'Análises avançadas', 'Marca personalizada'],
-        ['Múltiplos espaços de trabalho', 'Conformidade HIPAA', 'Opções de marca branca', 'Suporte dedicado', 'Integrações personalizadas']
-      ],
-      'ja': [
-        ['人間エージェント1名含む', '無制限の人間の会話', '100回のAI応答テスト', '基本的なShopify統合'],
-        ['無料プランの全機能', '無制限のAI会話', 'GPT-4とClaudeモデル', '高度な分析', 'カスタムブランディング'],
-        ['複数のワークスペース', 'HIPAA準拠', 'ホワイトラベルオプション', '専任サポート', 'カスタム統合']
-      ],
-      'ko': [
-        ['인간 상담원 1명 포함', '무제한 인간 대화', '100회 AI 응답 테스트', '기본 Shopify 통합'],
-        ['무료 플랜의 모든 기능', '무제한 AI 대화', 'GPT-4 및 Claude 모델', '고급 분석', '맞춤형 브랜딩'],
-        ['다중 작업 공간', 'HIPAA 준수', '화이트 라벨 옵션', '전담 지원', '맞춤형 통합']
-      ],
-      'ar': [
-        ['وكيل بشري واحد مضمن', 'محادثات بشرية غير محدودة', '100 رد AI للاختبار', 'تكاملات Shopify الأساسية'],
-        ['كل شيء في الخطة المجانية', 'محادثات AI غير محدودة', 'نماذج GPT-4 وClaude', 'تحليلات متقدمة', 'علامة تجارية مخصصة'],
-        ['مساحات عمل متعددة', 'امتثال HIPAA', 'خيارات العلامة البيضاء', 'دعم مخصص', 'تكاملات مخصصة']
-      ],
-      'ru': [
-        ['1 человеческий агент включен', 'Неограниченные человеческие разговоры', '100 ответов ИИ для тестирования', 'Базовые интеграции Shopify'],
-        ['Все из бесплатного плана', 'Неограниченные разговоры с ИИ', 'Модели GPT-4 и Claude', 'Расширенная аналитика', 'Индивидуальный брендинг'],
-        ['Несколько рабочих пространств', 'Соответствие HIPAA', 'Варианты белой метки', 'Выделенная поддержка', 'Пользовательские интеграции']
-      ],
-      'hi': [
-        ['1 मानव एजेंट शामिल', 'असीमित मानव वार्तालाप', '100 AI प्रतिक्रियाएं परीक्षण के लिए', 'बुनियादी Shopify एकीकरण'],
-        ['मुफ्त योजना में सब कुछ', 'असीमित AI वार्तालाप', 'GPT-4 और Claude मॉडल', 'उन्नत विश्लेषण', 'कस्टम ब्रांडिंग'],
-        ['कई कार्यस्थान', 'HIPAA अनुपालन', 'व्हाइट-लेबल विकल्प', 'समर्पित समर्थन', 'कस्टम एकीकरण']
-      ],
-      'id': [
-        ['1 agen manusia termasuk', 'Percakapan manusia tak terbatas', '100 respons AI untuk uji coba', 'Integrasi Shopify dasar'],
-        ['Semua dalam paket gratis', 'Percakapan AI tak terbatas', 'Model GPT-4 dan Claude', 'Analisis lanjutan', 'Branding khusus'],
-        ['Beberapa ruang kerja', 'Kepatuhan HIPAA', 'Opsi label putih', 'Dukungan khusus', 'Integrasi khusus']
-      ],
-      'th': [
-        ['ตัวแทนมนุษย์ 1 คนรวมอยู่', 'การสนทนากับมนุษย์ไม่จำกัด', '100 การตอบกลับ AI สำหรับทดสอบ', 'การผสานรวม Shopify พื้นฐาน'],
-        ['ทุกอย่างในแผนฟรี', 'การสนทนา AI ไม่จำกัด', 'โมเดล GPT-4 และ Claude', 'การวิเคราะห์ขั้นสูง', 'แบรนด์ที่กำหนดเอง'],
-        ['พื้นที่ทำงานหลายแห่ง', 'ความสอดคล้อง HIPAA', 'ตัวเลือกไวท์เลเบล', 'การสนับสนุนเฉพาะ', 'การผสานรวมที่กำหนดเอง']
-      ],
-      'vi': [
-        ['Bao gồm 1 nhân viên', 'Trò chuyện không giới hạn với con người', '100 phản hồi AI để thử nghiệm', 'Tích hợp Shopify cơ bản'],
-        ['Mọi thứ trong gói miễn phí', 'Trò chuyện AI không giới hạn', 'Mô hình GPT-4 và Claude', 'Phân tích nâng cao', 'Thương hiệu tùy chỉnh'],
-        ['Nhiều không gian làm việc', 'Tuân thủ HIPAA', 'Tùy chọn nhãn trắng', 'Hỗ trợ riêng', 'Tích hợp tùy chỉnh']
-      ],
-      'ms': [
-        ['1 ejen manusia disertakan', 'Perbualan manusia tanpa had', '100 respons AI untuk ujian', 'Integrasi Shopify asas'],
-        ['Semua dalam pelan percuma', 'Perbualan AI tanpa had', 'Model GPT-4 dan Claude', 'Analisis lanjutan', 'Penjenamaan tersuai'],
-        ['Berbilang ruang kerja', 'Pematuhan HIPAA', 'Pilihan label putih', 'Sokongan khusus', 'Integrasi tersuai']
-      ],
-      'fil': [
-        ['1 ahenteng tao kasama', 'Walang hanggang pag-uusap ng tao', '100 AI responses para subukan', 'Basic na Shopify integrations'],
-        ['Lahat sa Free plan', 'Walang hanggang AI conversations', 'GPT-4 at Claude models', 'Advanced analytics', 'Custom branding'],
-        ['Multiple workspaces', 'HIPAA compliance', 'White-label options', 'Dedicated support', 'Custom integrations']
-      ],
-      'pl': [
-        ['1 ludzki agent wliczony', 'Nieograniczone rozmowy z ludźmi', '100 odpowiedzi AI do testów', 'Podstawowe integracje Shopify'],
-        ['Wszystko w darmowym planie', 'Nieograniczone rozmowy AI', 'Modele GPT-4 i Claude', 'Zaawansowane analizy', 'Niestandardowy branding'],
-        ['Wiele przestrzeni roboczych', 'Zgodność z HIPAA', 'Opcje white-label', 'Dedykowane wsparcie', 'Niestandardowe integracje']
-      ],
-      'fa': [
-        ['1 نماینده انسانی شامل', 'گفتگوهای انسانی نامحدود', '100 پاسخ AI برای آزمایش', 'ادغام‌های پایه Shopify'],
-        ['همه چیز در طرح رایگان', 'گفتگوهای نامحدود AI', 'مدل‌های GPT-4 و Claude', 'تحلیل‌های پیشرفته', 'برندسازی سفارشی'],
-        ['فضاهای کاری متعدد', 'انطباق با HIPAA', 'گزینه‌های برچسب سفید', 'پشتیبانی اختصاصی', 'ادغام‌های سفارشی']
-      ],
-      'ta': [
-        ['1 மனித முகவர் சேர்க்கப்பட்டுள்ளது', 'வரம்பற்ற மனித உரையாடல்கள்', '100 AI பதில்கள் சோதனைக்கு', 'அடிப்படை Shopify ஒருங்கிணைப்புகள்'],
-        ['இலவச திட்டத்தில் அனைத்தும்', 'வரம்பற்ற AI உரையாடல்கள்', 'GPT-4 மற்றும் Claude மாதிரிகள்', 'மேம்பட்ட பகுப்பாய்வு', 'தனிப்பயன் பிராண்டிங்'],
-        ['பல பணியிடங்கள்', 'HIPAA இணக்கம்', 'வெள்ளை லேபிள் விருப்பங்கள்', 'அர்ப்பணிக்கப்பட்ட ஆதரவு', 'தனிப்பயன் ஒருங்கிணைப்புகள்']
-      ]
-    },
-    seax: {
-      'en': [
-        ['WhatsApp Business platform', 'Campaign management tools', 'WhatsApp API access', 'Unlimited contacts & templates'],
-        ['All messaging channels', 'Voice calls & SMS', 'Campaign automation', 'RESTful API', 'Additional users $49/month'],
-        ['Multiple workspaces', 'Custom API integrations', 'HIPAA compliance', 'White-label options', 'Volume discounts']
-      ],
-      'zh-TW': [
-        ['WhatsApp商業平台', '行銷活動管理工具', 'WhatsApp API存取', '無限聯絡人和範本'],
-        ['所有訊息通道', '語音通話和簡訊', '行銷活動自動化', 'RESTful API', '額外用戶每月$49'],
-        ['多個工作區', '客製API整合', 'HIPAA合規', '白標選項', '大量折扣']
-      ],
-      'zh-CN': [
-        ['WhatsApp商业平台', '营销活动管理工具', 'WhatsApp API访问', '无限联系人和模板'],
-        ['所有消息渠道', '语音通话和短信', '营销活动自动化', 'RESTful API', '额外用户每月$49'],
-        ['多个工作区', '定制API集成', 'HIPAA合规', '白标选项', '批量折扣']
-      ],
-      'es': [
-        ['Plataforma WhatsApp Business', 'Herramientas de gestión de campañas', 'Acceso API de WhatsApp', 'Contactos y plantillas ilimitados'],
-        ['Todos los canales de mensajería', 'Llamadas de voz y SMS', 'Automatización de campañas', 'API RESTful', 'Usuarios adicionales $49/mes'],
-        ['Múltiples espacios de trabajo', 'Integraciones API personalizadas', 'Cumplimiento HIPAA', 'Opciones de marca blanca', 'Descuentos por volumen']
-      ],
-      'fr': [
-        ['Plateforme WhatsApp Business', 'Outils de gestion de campagnes', 'Accès API WhatsApp', 'Contacts et modèles illimités'],
-        ['Tous les canaux de messagerie', 'Appels vocaux et SMS', 'Automatisation de campagnes', 'API RESTful', 'Utilisateurs supplémentaires 49$/mois'],
-        ['Espaces de travail multiples', 'Intégrations API personnalisées', 'Conformité HIPAA', 'Options en marque blanche', 'Remises sur volume']
-      ],
-      'de': [
-        ['WhatsApp Business-Plattform', 'Kampagnenverwaltungstools', 'WhatsApp API-Zugriff', 'Unbegrenzte Kontakte & Vorlagen'],
-        ['Alle Messaging-Kanäle', 'Sprachanrufe & SMS', 'Kampagnenautomatisierung', 'RESTful API', 'Zusätzliche Benutzer $49/Monat'],
-        ['Mehrere Arbeitsbereiche', 'Benutzerdefinierte API-Integrationen', 'HIPAA-Konformität', 'White-Label-Optionen', 'Mengenrabatte']
-      ],
-      'pt': [
-        ['Plataforma WhatsApp Business', 'Ferramentas de gestão de campanhas', 'Acesso à API do WhatsApp', 'Contatos e modelos ilimitados'],
-        ['Todos os canais de mensagens', 'Chamadas de voz e SMS', 'Automação de campanhas', 'API RESTful', 'Usuários adicionais $49/mês'],
-        ['Múltiplos espaços de trabalho', 'Integrações de API personalizadas', 'Conformidade HIPAA', 'Opções de marca branca', 'Descontos por volume']
-      ],
-      'ja': [
-        ['WhatsAppビジネスプラットフォーム', 'キャンペーン管理ツール', 'WhatsApp APIアクセス', '無制限の連絡先とテンプレート'],
-        ['すべてのメッセージングチャネル', '音声通話とSMS', 'キャンペーン自動化', 'RESTful API', '追加ユーザー月額$49'],
-        ['複数のワークスペース', 'カスタムAPI統合', 'HIPAA準拠', 'ホワイトラベルオプション', 'ボリューム割引']
-      ],
-      'ko': [
-        ['WhatsApp 비즈니스 플랫폼', '캠페인 관리 도구', 'WhatsApp API 액세스', '무제한 연락처 및 템플릿'],
-        ['모든 메시징 채널', '음성 통화 및 SMS', '캠페인 자동화', 'RESTful API', '추가 사용자 월 $49'],
-        ['다중 작업 공간', '맞춤형 API 통합', 'HIPAA 준수', '화이트 라벨 옵션', '대량 할인']
-      ],
-      'ar': [
-        ['منصة WhatsApp Business', 'أدوات إدارة الحملات', 'الوصول إلى WhatsApp API', 'جهات اتصال وقوالب غير محدودة'],
-        ['جميع قنوات المراسلة', 'المكالمات الصوتية والرسائل القصيرة', 'أتمتة الحملات', 'RESTful API', 'مستخدمون إضافيون 49 دولار/شهر'],
-        ['مساحات عمل متعددة', 'تكاملات API مخصصة', 'امتثال HIPAA', 'خيارات العلامة البيضاء', 'خصومات الكمية']
-      ],
-      'ru': [
-        ['Платформа WhatsApp Business', 'Инструменты управления кампаниями', 'Доступ к WhatsApp API', 'Неограниченные контакты и шаблоны'],
-        ['Все каналы обмена сообщениями', 'Голосовые звонки и SMS', 'Автоматизация кампаний', 'RESTful API', 'Дополнительные пользователи $49/месяц'],
-        ['Несколько рабочих пространств', 'Пользовательские API-интеграции', 'Соответствие HIPAA', 'Варианты белой метки', 'Оптовые скидки']
-      ],
-      'hi': [
-        ['WhatsApp Business प्लेटफॉर्म', 'अभियान प्रबंधन उपकरण', 'WhatsApp API पहुंच', 'असीमित संपर्क और टेम्प्लेट'],
-        ['सभी मैसेजिंग चैनल', 'वॉयस कॉल और SMS', 'अभियान स्वचालन', 'RESTful API', 'अतिरिक्त उपयोगकर्ता $49/महीना'],
-        ['कई कार्यस्थान', 'कस्टम API एकीकरण', 'HIPAA अनुपालन', 'व्हाइट-लेबल विकल्प', 'वॉल्यूम छूट']
-      ],
-      'id': [
-        ['Platform WhatsApp Business', 'Alat manajemen kampanye', 'Akses WhatsApp API', 'Kontak & template tak terbatas'],
-        ['Semua saluran perpesanan', 'Panggilan suara & SMS', 'Otomasi kampanye', 'RESTful API', 'Pengguna tambahan $49/bulan'],
-        ['Beberapa ruang kerja', 'Integrasi API khusus', 'Kepatuhan HIPAA', 'Opsi label putih', 'Diskon volume']
-      ],
-      'th': [
-        ['แพลตฟอร์ม WhatsApp Business', 'เครื่องมือจัดการแคมเปญ', 'การเข้าถึง WhatsApp API', 'ผู้ติดต่อและเทมเพลตไม่จำกัด'],
-        ['ช่องทางการส่งข้อความทั้งหมด', 'การโทรด้วยเสียงและ SMS', 'การทำแคมเปญอัตโนมัติ', 'RESTful API', 'ผู้ใช้เพิ่มเติม $49/เดือน'],
-        ['พื้นที่ทำงานหลายแห่ง', 'การผสานรวม API ที่กำหนดเอง', 'ความสอดคล้อง HIPAA', 'ตัวเลือกไวท์เลเบล', 'ส่วนลดปริมาณ']
-      ],
-      'vi': [
-        ['Nền tảng WhatsApp Business', 'Công cụ quản lý chiến dịch', 'Truy cập WhatsApp API', 'Liên hệ & mẫu không giới hạn'],
-        ['Tất cả kênh nhắn tin', 'Cuộc gọi thoại & SMS', 'Tự động hóa chiến dịch', 'RESTful API', 'Người dùng thêm $49/tháng'],
-        ['Nhiều không gian làm việc', 'Tích hợp API tùy chỉnh', 'Tuân thủ HIPAA', 'Tùy chọn nhãn trắng', 'Giảm giá số lượng']
-      ],
-      'ms': [
-        ['Platform WhatsApp Business', 'Alat pengurusan kempen', 'Akses WhatsApp API', 'Kenalan & templat tanpa had'],
-        ['Semua saluran pemesejan', 'Panggilan suara & SMS', 'Automasi kempen', 'RESTful API', 'Pengguna tambahan $49/bulan'],
-        ['Berbilang ruang kerja', 'Integrasi API tersuai', 'Pematuhan HIPAA', 'Pilihan label putih', 'Diskaun volum']
-      ],
-      'fil': [
-        ['WhatsApp Business platform', 'Campaign management tools', 'WhatsApp API access', 'Unlimited contacts & templates'],
-        ['Lahat ng messaging channels', 'Voice calls & SMS', 'Campaign automation', 'RESTful API', 'Additional users $49/buwan'],
-        ['Multiple workspaces', 'Custom API integrations', 'HIPAA compliance', 'White-label options', 'Volume discounts']
-      ],
-      'pl': [
-        ['Platforma WhatsApp Business', 'Narzędzia zarządzania kampaniami', 'Dostęp do WhatsApp API', 'Nieograniczone kontakty i szablony'],
-        ['Wszystkie kanały komunikacji', 'Połączenia głosowe i SMS', 'Automatyzacja kampanii', 'RESTful API', 'Dodatkowi użytkownicy $49/miesiąc'],
-        ['Wiele przestrzeni roboczych', 'Niestandardowe integracje API', 'Zgodność z HIPAA', 'Opcje white-label', 'Rabaty ilościowe']
-      ],
-      'fa': [
-        ['پلتفرم WhatsApp Business', 'ابزارهای مدیریت کمپین', 'دسترسی به WhatsApp API', 'مخاطبین و قالب‌های نامحدود'],
-        ['همه کانال‌های پیام‌رسانی', 'تماس‌های صوتی و پیامک', 'خودکارسازی کمپین', 'RESTful API', 'کاربران اضافی 49 دلار/ماه'],
-        ['فضاهای کاری متعدد', 'ادغام‌های API سفارشی', 'انطباق با HIPAA', 'گزینه‌های برچسب سفید', 'تخفیف‌های حجمی']
-      ],
-      'ta': [
-        ['WhatsApp Business தளம்', 'பிரச்சார மேலாண்மை கருவிகள்', 'WhatsApp API அணுகல்', 'வரம்பற்ற தொடர்புகள் & டெம்ப்ளேட்கள்'],
-        ['அனைத்து மெசேஜிங் சேனல்கள்', 'குரல் அழைப்புகள் & SMS', 'பிரச்சார தானியங்கமயமாக்கல்', 'RESTful API', 'கூடுதல் பயனர்கள் $49/மாதம்'],
-        ['பல பணியிடங்கள்', 'தனிப்பயன் API ஒருங்கிணைப்புகள்', 'HIPAA இணக்கம்', 'வெள்ளை லேபிள் விருப்பங்கள்', 'தொகுதி தள்ளுபடிகள்']
-      ]
-    },
-    seavoice: {
-      'en': [
-        ['AI call handling (inbound)', 'Voice AI from $0.12/min', 'Phone number included', 'Call recording & summaries', 'CRM integrations'],
-        ['Everything in Inbound Only', 'Outbound calling campaigns', 'Bulk voice campaigns', 'Advanced routing', 'Additional users $49/month'],
-        ['Multiple workspaces', 'Custom voice cloning', 'HIPAA/PCI compliance', 'Dedicated account manager', 'On-premise options']
-      ],
-      'zh-TW': [
-        ['AI通話處理（進線）', '語音AI每分鐘$0.12起', '包含電話號碼', '通話錄音和摘要', 'CRM整合'],
-        ['包含僅進線方案所有功能', '外撥通話行銷', '大量語音行銷', '進階路由', '額外用戶每月$49'],
-        ['多個工作區', '客製語音複製', 'HIPAA/PCI合規', '專屬客戶經理', '本地部署選項']
-      ],
-      'zh-CN': [
-        ['AI通话处理（进线）', '语音AI每分钟$0.12起', '包含电话号码', '通话录音和摘要', 'CRM集成'],
-        ['包含仅进线方案所有功能', '外拨通话营销', '批量语音营销', '高级路由', '额外用户每月$49'],
-        ['多个工作区', '定制语音克隆', 'HIPAA/PCI合规', '专属客户经理', '本地部署选项']
-      ],
-      'es': [
-        ['Manejo de llamadas AI (entrantes)', 'Voz AI desde $0.12/min', 'Número de teléfono incluido', 'Grabación de llamadas y resúmenes', 'Integraciones CRM'],
-        ['Todo en Solo Entrante', 'Campañas de llamadas salientes', 'Campañas de voz masivas', 'Enrutamiento avanzado', 'Usuarios adicionales $49/mes'],
-        ['Múltiples espacios de trabajo', 'Clonación de voz personalizada', 'Cumplimiento HIPAA/PCI', 'Gerente de cuenta dedicado', 'Opciones locales']
-      ],
-      'fr': [
-        ['Gestion d\'appels IA (entrants)', 'IA vocale à partir de 0,12$/min', 'Numéro de téléphone inclus', 'Enregistrement d\'appels et résumés', 'Intégrations CRM'],
-        ['Tout dans Entrant Uniquement', 'Campagnes d\'appels sortants', 'Campagnes vocales en masse', 'Routage avancé', 'Utilisateurs supplémentaires 49$/mois'],
-        ['Espaces de travail multiples', 'Clonage vocal personnalisé', 'Conformité HIPAA/PCI', 'Gestionnaire de compte dédié', 'Options sur site']
-      ],
-      'de': [
-        ['KI-Anrufbehandlung (eingehend)', 'Sprach-KI ab $0,12/Min', 'Telefonnummer enthalten', 'Anrufaufzeichnung & Zusammenfassungen', 'CRM-Integrationen'],
-        ['Alles in Nur Eingehend', 'Ausgehende Anrufkampagnen', 'Massen-Sprachkampagnen', 'Erweiterte Weiterleitung', 'Zusätzliche Benutzer $49/Monat'],
-        ['Mehrere Arbeitsbereiche', 'Benutzerdefiniertes Stimmklonen', 'HIPAA/PCI-Konformität', 'Dedizierter Account Manager', 'On-Premise-Optionen']
-      ],
-      'pt': [
-        ['Tratamento de chamadas AI (entrada)', 'Voz AI a partir de $0,12/min', 'Número de telefone incluído', 'Gravação de chamadas e resumos', 'Integrações CRM'],
-        ['Tudo em Apenas Entrada', 'Campanhas de chamadas de saída', 'Campanhas de voz em massa', 'Roteamento avançado', 'Usuários adicionais $49/mês'],
-        ['Múltiplos espaços de trabalho', 'Clonagem de voz personalizada', 'Conformidade HIPAA/PCI', 'Gerente de conta dedicado', 'Opções no local']
-      ],
-      'ja': [
-        ['AIコール処理（着信）', '音声AI $0.12/分から', '電話番号込み', '通話録音と要約', 'CRM統合'],
-        ['インバウンドのみの全機能', 'アウトバウンドコールキャンペーン', '一括音声キャンペーン', '高度なルーティング', '追加ユーザー月額$49'],
-        ['複数のワークスペース', 'カスタム音声クローニング', 'HIPAA/PCI準拠', '専任アカウントマネージャー', 'オンプレミスオプション']
-      ],
-      'ko': [
-        ['AI 통화 처리(수신)', '음성 AI 분당 $0.12부터', '전화번호 포함', '통화 녹음 및 요약', 'CRM 통합'],
-        ['인바운드 전용의 모든 기능', '아웃바운드 통화 캠페인', '대량 음성 캠페인', '고급 라우팅', '추가 사용자 월 $49'],
-        ['다중 작업 공간', '맞춤형 음성 복제', 'HIPAA/PCI 준수', '전담 계정 관리자', '온프레미스 옵션']
-      ],
-      'ar': [
-        ['معالجة المكالمات بالذكاء الاصطناعي (الواردة)', 'الذكاء الاصطناعي الصوتي من 0.12 دولار/دقيقة', 'رقم هاتف مضمن', 'تسجيل المكالمات والملخصات', 'تكاملات CRM'],
-        ['كل شيء في الوارد فقط', 'حملات المكالمات الصادرة', 'حملات صوتية بالجملة', 'التوجيه المتقدم', 'مستخدمون إضافيون 49 دولار/شهر'],
-        ['مساحات عمل متعددة', 'استنساخ صوتي مخصص', 'امتثال HIPAA/PCI', 'مدير حساب مخصص', 'خيارات في الموقع']
-      ],
-      'ru': [
-        ['Обработка звонков ИИ (входящие)', 'Голосовой ИИ от $0,12/мин', 'Телефонный номер включен', 'Запись звонков и резюме', 'Интеграции CRM'],
-        ['Все в Только Входящие', 'Кампании исходящих звонков', 'Массовые голосовые кампании', 'Расширенная маршрутизация', 'Дополнительные пользователи $49/месяц'],
-        ['Несколько рабочих пространств', 'Пользовательское клонирование голоса', 'Соответствие HIPAA/PCI', 'Выделенный менеджер аккаунта', 'Локальные варианты']
-      ],
-      'hi': [
-        ['AI कॉल हैंडलिंग (इनबाउंड)', 'वॉयस AI $0.12/मिनट से', 'फोन नंबर शामिल', 'कॉल रिकॉर्डिंग और सारांश', 'CRM एकीकरण'],
-        ['इनबाउंड में सब कुछ', 'आउटबाउंड कॉलिंग अभियान', 'बल्क वॉयस अभियान', 'उन्नत रूटिंग', 'अतिरिक्त उपयोगकर्ता $49/महीना'],
-        ['कई कार्यस्थान', 'कस्टम वॉयस क्लोनिंग', 'HIPAA/PCI अनुपालन', 'समर्पित खाता प्रबंधक', 'ऑन-प्रिमाइज़ विकल्प']
-      ],
-      'id': [
-        ['Penanganan panggilan AI (masuk)', 'Suara AI dari $0,12/menit', 'Nomor telepon disertakan', 'Perekaman panggilan & ringkasan', 'Integrasi CRM'],
-        ['Semua dalam Hanya Masuk', 'Kampanye panggilan keluar', 'Kampanye suara massal', 'Perutean lanjutan', 'Pengguna tambahan $49/bulan'],
-        ['Beberapa ruang kerja', 'Kloning suara khusus', 'Kepatuhan HIPAA/PCI', 'Manajer akun khusus', 'Opsi on-premise']
-      ],
-      'th': [
-        ['การจัดการสาย AI (สายเข้า)', 'เสียง AI เริ่มต้นที่ $0.12/นาที', 'รวมหมายเลขโทรศัพท์', 'บันทึกการโทรและสรุป', 'การผสานรวม CRM'],
-        ['ทุกอย่างในสายเข้าเท่านั้น', 'แคมเปญการโทรออก', 'แคมเปญเสียงจำนวนมาก', 'การกำหนดเส้นทางขั้นสูง', 'ผู้ใช้เพิ่มเติม $49/เดือน'],
-        ['พื้นที่ทำงานหลายแห่ง', 'การโคลนเสียงที่กำหนดเอง', 'ความสอดคล้อง HIPAA/PCI', 'ผู้จัดการบัญชีเฉพาะ', 'ตัวเลือกภายในองค์กร']
-      ],
-      'vi': [
-        ['Xử lý cuộc gọi AI (gọi đến)', 'Giọng nói AI từ $0,12/phút', 'Bao gồm số điện thoại', 'Ghi âm cuộc gọi & tóm tắt', 'Tích hợp CRM'],
-        ['Mọi thứ trong Chỉ Gọi Đến', 'Chiến dịch gọi đi', 'Chiến dịch giọng nói hàng loạt', 'Định tuyến nâng cao', 'Người dùng thêm $49/tháng'],
-        ['Nhiều không gian làm việc', 'Nhân bản giọng nói tùy chỉnh', 'Tuân thủ HIPAA/PCI', 'Quản lý tài khoản chuyên dụng', 'Tùy chọn tại chỗ']
-      ],
-      'ms': [
-        ['Pengendalian panggilan AI (masuk)', 'Suara AI dari $0.12/minit', 'Nombor telefon disertakan', 'Rakaman panggilan & ringkasan', 'Integrasi CRM'],
-        ['Semua dalam Masuk Sahaja', 'Kempen panggilan keluar', 'Kempen suara pukal', 'Penghalaan lanjutan', 'Pengguna tambahan $49/bulan'],
-        ['Berbilang ruang kerja', 'Pengklonan suara tersuai', 'Pematuhan HIPAA/PCI', 'Pengurus akaun khusus', 'Pilihan on-premise']
-      ],
-      'fil': [
-        ['AI call handling (papasok)', 'Voice AI mula $0.12/minuto', 'May kasamang phone number', 'Call recording & summaries', 'CRM integrations'],
-        ['Lahat sa Inbound Lang', 'Outbound calling campaigns', 'Bulk voice campaigns', 'Advanced routing', 'Additional users $49/buwan'],
-        ['Multiple workspaces', 'Custom voice cloning', 'HIPAA/PCI compliance', 'Dedicated account manager', 'On-premise options']
-      ],
-      'pl': [
-        ['Obsługa połączeń AI (przychodzące)', 'Głos AI od $0,12/min', 'Numer telefonu w zestawie', 'Nagrywanie połączeń i podsumowania', 'Integracje CRM'],
-        ['Wszystko w Tylko Przychodzące', 'Kampanie połączeń wychodzących', 'Masowe kampanie głosowe', 'Zaawansowane trasowanie', 'Dodatkowi użytkownicy $49/miesiąc'],
-        ['Wiele przestrzeni roboczych', 'Niestandardowe klonowanie głosu', 'Zgodność z HIPAA/PCI', 'Dedykowany menedżer konta', 'Opcje lokalne']
-      ],
-      'fa': [
-        ['مدیریت تماس AI (ورودی)', 'صدای AI از 0.12 دلار/دقیقه', 'شماره تلفن شامل', 'ضبط تماس و خلاصه‌ها', 'ادغام‌های CRM'],
-        ['همه چیز در فقط ورودی', 'کمپین‌های تماس خروجی', 'کمپین‌های صوتی انبوه', 'مسیریابی پیشرفته', 'کاربران اضافی 49 دلار/ماه'],
-        ['فضاهای کاری متعدد', 'شبیه‌سازی صدای سفارشی', 'انطباق با HIPAA/PCI', 'مدیر حساب اختصاصی', 'گزینه‌های محلی']
-      ],
-      'ta': [
-        ['AI அழைப்பு கையாளுதல் (உள்வரும்)', 'குரல் AI $0.12/நிமிடம் முதல்', 'தொலைபேசி எண் சேர்க்கப்பட்டுள்ளது', 'அழைப்பு பதிவு & சுருக்கங்கள்', 'CRM ஒருங்கிணைப்புகள்'],
-        ['உள்வரும் மட்டும் உள்ள அனைத்தும்', 'வெளிச்செல்லும் அழைப்பு பிரச்சாரங்கள்', 'மொத்த குரல் பிரச்சாரங்கள்', 'மேம்பட்ட வழிப்படுத்தல்', 'கூடுதல் பயனர்கள் $49/மாதம்'],
-        ['பல பணியிடங்கள்', 'தனிப்பயன் குரல் குளோனிங்', 'HIPAA/PCI இணக்கம்', 'அர்ப்பணிக்கப்பட்ட கணக்கு மேலாளர்', 'உள்ளூர் விருப்பங்கள்']
-      ]
-    }
-  };
-  
-  return features[productKey][language] || features[productKey]['en'];
-}
-
-// For backward compatibility, export a default PRODUCT_PRICING
-const PRODUCT_PRICING: Record<ProductKey, PricingTier[]> = {
-  seachat: getLocalizedPricingTiers('seachat', 'en'),
-  seax: getLocalizedPricingTiers('seax', 'en'),
-  seavoice: getLocalizedPricingTiers('seavoice', 'en')
+export const LOCALIZED_PRODUCT_DESCRIPTIONS: Record<ProductKey, Record<string, string>> = {
+  seachat: {
+    'en': 'Free AI chatbot platform with unlimited conversations, 4 human agents, and enterprise AI models. Build powerful conversational AI experiences.',
+    'zh-TW': '免費的 AI 聊天機器人平台，提供無限對話、4 名人工客服和企業級 AI 模型。打造強大的對話式 AI 體驗。',
+    'zh-CN': '免费的 AI 聊天机器人平台，提供无限对话、4 名人工客服和企业级 AI 模型。打造强大的对话式 AI 体验。',
+    'es': 'Plataforma de chatbot de IA gratuita con conversaciones ilimitadas, 4 agentes humanos y modelos de IA empresariales.',
+    'fr': 'Plateforme de chatbot IA gratuite avec conversations illimitées, 4 agents humains et modèles d\'IA d\'entreprise.',
+    'de': 'Kostenlose KI-Chatbot-Plattform mit unbegrenzten Gesprächen, 4 menschlichen Agenten und Enterprise-KI-Modellen.',
+    'ja': '無制限の会話、4人のヒューマンエージェント、エンタープライズAIモデルを備えた無料のAIチャットボットプラットフォーム。',
+    'ko': '무제한 대화, 4명의 휴먼 에이전트, 엔터프라이즈 AI 모델을 제공하는 무료 AI 챗봇 플랫폼.',
+    'ar': 'منصة روبوت دردشة ذكاء اصطناعي مجانية مع محادثات غير محدودة و 4 وكلاء بشريين ونماذج ذكاء اصطناعي للمؤسسات.',
+    'fa': 'پلتفرم رایگان چت‌بات هوش مصنوعی با مکالمات نامحدود، 4 عامل انسانی و مدل‌های هوش مصنوعی سازمانی.',
+    'fil': 'Libreng AI chatbot platform na may walang limitasyon na conversations, 4 human agents, at enterprise AI models.',
+    'hi': 'असीमित बातचीत, 4 मानव एजेंट और एंटरप्राइज़ AI मॉडल के साथ मुफ्त AI चैटबॉट प्लेटफॉर्म।',
+    'id': 'Platform chatbot AI gratis dengan percakapan tak terbatas, 4 agen manusia, dan model AI enterprise.',
+    'ms': 'Platform chatbot AI percuma dengan perbualan tanpa had, 4 ejen manusia, dan model AI perusahaan.',
+    'pl': 'Darmowa platforma chatbotów AI z nieograniczonymi rozmowami, 4 agentami ludzkimi i modelami AI dla przedsiębiorstw.',
+    'pt': 'Plataforma de chatbot de IA gratuita com conversas ilimitadas, 4 agentes humanos e modelos de IA empresariais.',
+    'ru': 'Бесплатная платформа AI-чатботов с неограниченными разговорами, 4 человеческими агентами и корпоративными AI-моделями.',
+    'ta': 'வரம்பற்ற உரையாடல்கள், 4 மனித முகவர்கள் மற்றும் நிறுவன AI மாதிரிகளுடன் இலவச AI அரட்டைபோட் தளம்।',
+    'th': 'แพลตฟอร์มแชทบอท AI ฟรีพร้อมการสนทนาไม่จำกัด เอเจนต์มนุษย์ 4 คน และโมเดล AI ระดับองค์กร',
+    'vi': 'Nền tảng chatbot AI miễn phí với cuộc trò chuyện không giới hạn, 4 đại lý con người và mô hình AI doanh nghiệp.'
+  },
+  seax: {
+    'en': 'Omnichannel communication platform that unifies WhatsApp, SMS, voice calls, and more in one dashboard. Scale your customer communications.',
+    'zh-TW': '全通路溝通平台，將 WhatsApp、簡訊、語音通話等整合在一個儀表板中。擴展您的客戶溝通。',
+    'zh-CN': '全渠道沟通平台，将 WhatsApp、短信、语音通话等整合在一个仪表板中。扩展您的客户沟通。',
+    'es': 'Plataforma de comunicación omnicanal que unifica WhatsApp, SMS, llamadas de voz y más en un solo panel.',
+    'fr': 'Plateforme de communication omnicanale qui unifie WhatsApp, SMS, appels vocaux et plus encore dans un seul tableau de bord.',
+    'de': 'Omnichannel-Kommunikationsplattform, die WhatsApp, SMS, Sprachanrufe und mehr in einem Dashboard vereint.',
+    'ja': 'WhatsApp、SMS、音声通話などを1つのダッシュボードに統合するオムニチャネルコミュニケーションプラットフォーム。',
+    'ko': 'WhatsApp, SMS, 음성 통화 등을 하나의 대시보드에 통합하는 옴니채널 커뮤니케이션 플랫폼.',
+    'ar': 'منصة اتصالات متعددة القنوات توحد WhatsApp والرسائل النصية والمكالمات الصوتية والمزيد في لوحة تحكم واحدة.',
+    'fa': 'پلتفرم ارتباطات چندکاناله که WhatsApp، پیامک، تماس‌های صوتی و موارد دیگر را در یک داشبورد متحد می‌کند.',
+    'fil': 'Omnichannel communication platform na nag-uunify ng WhatsApp, SMS, voice calls, at iba pa sa isang dashboard.',
+    'hi': 'ओमनीचैनल संचार प्लेटफॉर्म जो WhatsApp, SMS, आवाज कॉल और अधिक को एक डैशबोर्ड में एकीकृत करता है।',
+    'id': 'Platform komunikasi omnichannel yang menyatukan WhatsApp, SMS, panggilan suara, dan lainnya dalam satu dashboard.',
+    'ms': 'Platform komunikasi omnichannel yang menyatukan WhatsApp, SMS, panggilan suara, dan lain-lain dalam satu papan pemuka.',
+    'pl': 'Platforma komunikacji omnichannel, która łączy WhatsApp, SMS, połączenia głosowe i więcej w jednym panelu.',
+    'pt': 'Plataforma de comunicação omnichannel que unifica WhatsApp, SMS, chamadas de voz e mais em um painel.',
+    'ru': 'Омниканальная коммуникационная платформа, объединяющая WhatsApp, SMS, голосовые звонки и многое другое в одной панели.',
+    'ta': 'WhatsApp, SMS, குரல் அழைப்புகள் மற்றும் பலவற்றை ஒரே டாஷ்போர்டில் ஒருங்கிணைக்கும் பல்வேறு சேனல் தொடர்பு தளம்।',
+    'th': 'แพลตฟอร์มการสื่อสารแบบหลายช่องทางที่รวม WhatsApp, SMS, การโทรเสียง และอื่นๆ ในแดชบอร์ดเดียว',
+    'vi': 'Nền tảng giao tiếp đa kênh hợp nhất WhatsApp, SMS, cuộc gọi thoại và nhiều hơn nữa trong một bảng điều khiển.'
+  },
+  seavoice: {
+    'en': 'AI-powered voice communication platform with intelligent call routing, voice analytics, and automated responses. Transform your voice operations.',
+    'zh-TW': '採用 AI 技術的語音溝通平台，具備智能通話路由、語音分析和自動化回應。轉型您的語音營運。',
+    'zh-CN': '采用 AI 技术的语音沟通平台，具备智能通话路由、语音分析和自动化响应。转型您的语音运营。',
+    'es': 'Plataforma de comunicación de voz impulsada por IA con enrutamiento inteligente de llamadas, analítica de voz y respuestas automatizadas.',
+    'fr': 'Plateforme de communication vocale alimentée par l\'IA avec routage intelligent des appels, analytique vocale et réponses automatisées.',
+    'de': 'KI-gestützte Sprachkommunikationsplattform mit intelligentem Anrufrouting, Sprachanalysen und automatisierten Antworten.',
+    'ja': 'インテリジェントなコールルーティング、音声分析、自動応答を備えたAI音声コミュニケーションプラットフォーム。',
+    'ko': '지능형 통화 라우팅, 음성 분석, 자동 응답을 갖춘 AI 기반 음성 커뮤니케이션 플랫폼.',
+    'ar': 'منصة اتصالات صوتية مدعومة بالذكاء الاصطناعي مع توجيه ذكي للمكالمات وتحليلات صوتية واستجابات آلية.',
+    'fa': 'پلتفرم ارتباطات صوتی مبتنی بر هوش مصنوعی با مسیریابی هوشمند تماس، تحلیل‌های صوتی و پاسخ‌های خودکار.',
+    'fil': 'AI-powered na voice communication platform na may intelligent call routing, voice analytics, at automated responses.',
+    'hi': 'बुद्धिमान कॉल राउटिंग, वॉयस एनालिटिक्स और स्वचालित प्रतिक्रियाओं के साथ AI-संचालित वॉयस कम्युनिकेशन प्लेटफॉर्म।',
+    'id': 'Platform komunikasi suara bertenaga AI dengan routing panggilan cerdas, analitik suara, dan respons otomatis.',
+    'ms': 'Platform komunikasi suara berkuasa AI dengan penghalaan panggilan pintar, analitik suara, dan respons automatik.',
+    'pl': 'Platforma komunikacji głosowej napędzana przez AI z inteligentnym routowaniem połączeń, analizą głosu i automatycznymi odpowiedziami.',
+    'pt': 'Plataforma de comunicação de voz alimentada por IA com roteamento inteligente de chamadas, análise de voz e respostas automatizadas.',
+    'ru': 'Платформа голосовой связи на основе ИИ с интеллектуальной маршрутизацией звонков, голосовой аналитикой и автоматизированными ответами.',
+    'ta': 'புத்திசாலித்தனமான அழைப்பு பாதை, குரல் பகுப்பாய்வு மற்றும் தானியங்கு பதில்களுடன் AI-இயங்கும் குரல் தொடர்பு தளம்।',
+    'th': 'แพลตฟอร์มการสื่อสารด้วยเสียงที่ขับเคลื่อนด้วย AI พร้อมการกำหนดเส้นทางการโทรอัจฉริยะ การวิเคราะห์เสียง และการตอบสนองอัตโนมัติ',
+    'vi': 'Nền tảng giao tiếp bằng giọng nói được hỗ trợ bởi AI với định tuyến cuộc gọi thông minh, phân tích giọng nói và phản hồi tự động.'
+  }
 };
 
+// =============================================================================
+// Helper Functions
+// =============================================================================
+
 /**
- * Get localized product information
- * @param productKey - The product key
- * @param language - The language code (defaults to 'en')
- * @param tierIndex - Which pricing tier to use (defaults to 0 - the base/cheapest tier)
- * @returns Complete product information with localized content
+ * Get localized product description
  */
-export function getLocalizedProductInfo(
-  productKey: ProductKey, 
-  language: string = 'en',
-  tierIndex: number = 0
-): ProductInfo {
-  const staticInfo = PRODUCT_STATIC_INFO[productKey];
-  const pricingTiers = PRODUCT_PRICING[productKey];
-  const selectedTier = pricingTiers[tierIndex] || pricingTiers[0];
-  const localizedDescription = LOCALIZED_PRODUCT_DESCRIPTIONS[productKey][language] || LOCALIZED_PRODUCT_DESCRIPTIONS[productKey]['en'];
-  
-  // Get localized features based on product
-  const localizedFeatures = getLocalizedFeatures(productKey, language);
-  
-  // Get localized offer description
-  const offerDescription = getLocalizedOfferDescription(productKey, language, selectedTier);
+export function getLocalizedProductDescription(productKey: ProductKey, language: string): string {
+  return LOCALIZED_PRODUCT_DESCRIPTIONS[productKey][language] || 
+         LOCALIZED_PRODUCT_DESCRIPTIONS[productKey]['en'];
+}
+
+/**
+ * Get complete product information with localization
+ */
+export function getLocalizedProductInfo(productKey: ProductKey, language: string = 'en'): ProductInfo {
+  const staticInfo = PRODUCTS_INFO[productKey];
+  const localizedDescription = getLocalizedProductDescription(productKey, language);
   
   return {
-    name: productKey.charAt(0).toUpperCase() + productKey.slice(1).replace('chat', 'Chat').replace('voice', 'Voice').replace('seax', 'SeaX'),
-    description: localizedDescription,
     ...staticInfo,
-    features: localizedFeatures,
-    defaultOffer: {
-      price: selectedTier.price,
-      priceCurrency: selectedTier.priceCurrency,
-      availability: 'https://schema.org/InStock',
-      description: offerDescription
-    }
+    description: localizedDescription,
+    features: getLocalizedProductFeatures(productKey, language)
   };
 }
 
 /**
- * Get all pricing tiers for a product
- * @param productKey - The product key
- * @returns Array of all pricing tiers for the product
+ * Get localized product features
  */
-export function getProductPricingTiers(productKey: ProductKey): PricingTier[] {
-  return PRODUCT_PRICING[productKey] || [];
-}
-
-/**
- * Get the most popular pricing tier for a product
- * @param productKey - The product key
- * @returns The popular tier or the first tier if none marked as popular
- */
-export function getPopularPricingTier(productKey: ProductKey): PricingTier | undefined {
-  const tiers = PRODUCT_PRICING[productKey];
-  return tiers?.find(tier => tier.isPopular) || tiers?.[0];
-}
-
-/**
- * Get localized features for a product
- */
-function getLocalizedFeatures(productKey: ProductKey, language: string): string[] {
+export function getLocalizedProductFeatures(productKey: ProductKey, language: string): string[] {
   const features: Record<ProductKey, Record<string, string[]>> = {
     seachat: {
       'en': [
         'Unlimited AI conversations',
         '1 human agent included (free plan)',
-        'Enterprise AI models (GPT-4, Claude)',
+        'Enterprise AI models (GPT-4, GPT-5, Claude)',
         'Omnichannel integration',
         'Knowledge base management',
         'Advanced analytics',
@@ -1171,18 +1628,18 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
         '无限AI对话',
         '包含1位人工客服（免费方案）',
         '企业级AI模型（GPT-4、Claude）',
-        '全渠道集成',
+        '全渠道整合',
         '知识库管理',
         '高级分析',
         '定制品牌',
         'API访问'
       ],
       'es': [
-        'Conversaciones AI ilimitadas',
+        'Conversaciones de IA ilimitadas',
         '1 agente humano incluido (plan gratuito)',
-        'Modelos de IA empresarial (GPT-4, Claude)',
+        'Modelos de IA empresariales (GPT-4, GPT-5, Claude)',
         'Integración omnicanal',
-        'Gestión de base de conocimiento',
+        'Gestión de base de conocimientos',
         'Análisis avanzado',
         'Marca personalizada',
         'Acceso API'
@@ -1190,36 +1647,26 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
       'fr': [
         'Conversations IA illimitées',
         '1 agent humain inclus (plan gratuit)',
-        'Modèles IA d\'entreprise (GPT-4, Claude)',
+        'Modèles IA d\'entreprise (GPT-4, GPT-5, Claude)',
         'Intégration omnicanale',
         'Gestion de base de connaissances',
         'Analyses avancées',
-        'Marque personnalisée',
+        'Image de marque personnalisée',
         'Accès API'
       ],
       'de': [
         'Unbegrenzte KI-Gespräche',
         '1 menschlicher Agent enthalten (kostenloser Plan)',
-        'Enterprise-KI-Modelle (GPT-4, Claude)',
+        'Enterprise-KI-Modelle (GPT-4, GPT-5, Claude)',
         'Omnichannel-Integration',
-        'Wissensdatenbank-Verwaltung',
+        'Wissensdatenbank-Management',
         'Erweiterte Analysen',
         'Individuelles Branding',
-        'API-Zugriff'
-      ],
-      'pt': [
-        'Conversas de IA ilimitadas',
-        '1 agente humano incluído (plano gratuito)',
-        'Modelos de IA empresarial (GPT-4, Claude)',
-        'Integração omnicanal',
-        'Gestão de base de conhecimento',
-        'Análises avançadas',
-        'Marca personalizada',
-        'Acesso à API'
+        'API-Zugang'
       ],
       'ja': [
         '無制限のAI会話',
-        '人間エージェント1名含む（無料プラン）',
+        '1名のヒューマンエージェント含む（無料プラン）',
         'エンタープライズAIモデル（GPT-4、Claude）',
         'オムニチャネル統合',
         'ナレッジベース管理',
@@ -1229,38 +1676,48 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
       ],
       'ko': [
         '무제한 AI 대화',
-        '인간 상담원 1명 포함(무료 플랜)',
-        '엔터프라이즈 AI 모델(GPT-4, Claude)',
+        '1명의 휴먼 에이전트 포함 (무료 플랜)',
+        '엔터프라이즈 AI 모델 (GPT-4, GPT-5, Claude)',
         '옴니채널 통합',
-        '지식 베이스 관리',
+        '지식베이스 관리',
         '고급 분석',
-        '맞춤형 브랜딩',
+        '커스텀 브랜딩',
         'API 액세스'
       ],
       'ar': [
-        'محادثات AI غير محدودة',
-        'وكيل بشري واحد مضمن (الخطة المجانية)',
-        'نماذج AI للمؤسسات (GPT-4، Claude)',
-        'تكامل متعدد القنوات',
+        'محادثات ذكاء اصطناعي غير محدودة',
+        'وكيل بشري واحد مشمول (خطة مجانية)',
+        'نماذج ذكاء اصطناعي للمؤسسات (GPT-4، Claude)',
+        'التكامل متعدد القنوات',
         'إدارة قاعدة المعرفة',
         'تحليلات متقدمة',
         'علامة تجارية مخصصة',
-        'الوصول إلى API'
+        'وصول API'
       ],
-      'ru': [
-        'Неограниченные разговоры с ИИ',
-        '1 человеческий агент включен (бесплатный план)',
-        'Корпоративные модели ИИ (GPT-4, Claude)',
-        'Омниканальная интеграция',
-        'Управление базой знаний',
-        'Расширенная аналитика',
-        'Индивидуальный брендинг',
-        'Доступ к API'
+      'fa': [
+        'مکالمات نامحدود هوش مصنوعی',
+        '1 عامل انسانی شامل (طرح رایگان)',
+        'مدل‌های هوش مصنوعی سازمانی (GPT-4، Claude)',
+        'ادغام چندکاناله',
+        'مدیریت پایگاه دانش',
+        'تحلیل‌های پیشرفته',
+        'برندسازی سفارشی',
+        'دسترسی API'
+      ],
+      'fil': [
+        'Walang limitasyon na AI conversations',
+        '1 human agent kasama (libreng plan)',
+        'Enterprise AI models (GPT-4, GPT-5, Claude)',
+        'Omnichannel integration',
+        'Knowledge base management',
+        'Advanced analytics',
+        'Custom branding',
+        'API access'
       ],
       'hi': [
-        'असीमित AI वार्तालाप',
+        'असीमित AI बातचीत',
         '1 मानव एजेंट शामिल (मुफ्त योजना)',
-        'एंटरप्राइज़ AI मॉडल (GPT-4, Claude)',
+        'एंटरप्राइज़ AI मॉडल (GPT-4, GPT-5, Claude)',
         'ओमनीचैनल एकीकरण',
         'ज्ञान आधार प्रबंधन',
         'उन्नत विश्लेषण',
@@ -1268,84 +1725,84 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
         'API पहुंच'
       ],
       'id': [
-        'Percakapan AI tak terbatas',
+        'Percakapan AI tanpa batas',
         '1 agen manusia termasuk (paket gratis)',
-        'Model AI perusahaan (GPT-4, Claude)',
+        'Model AI enterprise (GPT-4, GPT-5, Claude)',
         'Integrasi omnichannel',
         'Manajemen basis pengetahuan',
-        'Analisis lanjutan',
-        'Branding khusus',
+        'Analitik lanjutan',
+        'Branding kustom',
         'Akses API'
-      ],
-      'th': [
-        'การสนทนา AI ไม่จำกัด',
-        'ตัวแทนมนุษย์ 1 คนรวม (แผนฟรี)',
-        'โมเดล AI ระดับองค์กร (GPT-4, Claude)',
-        'การผสานรวมออมนิแชนเนล',
-        'การจัดการฐานความรู้',
-        'การวิเคราะห์ขั้นสูง',
-        'แบรนด์ที่กำหนดเอง',
-        'การเข้าถึง API'
-      ],
-      'vi': [
-        'Trò chuyện AI không giới hạn',
-        '1 nhân viên con người bao gồm (gói miễn phí)',
-        'Mô hình AI doanh nghiệp (GPT-4, Claude)',
-        'Tích hợp đa kênh',
-        'Quản lý cơ sở kiến thức',
-        'Phân tích nâng cao',
-        'Thương hiệu tùy chỉnh',
-        'Truy cập API'
       ],
       'ms': [
         'Perbualan AI tanpa had',
         '1 ejen manusia disertakan (pelan percuma)',
-        'Model AI perusahaan (GPT-4, Claude)',
+        'Model AI perusahaan (GPT-4, GPT-5, Claude)',
         'Integrasi omnichannel',
         'Pengurusan pangkalan pengetahuan',
-        'Analisis lanjutan',
+        'Analitik lanjutan',
         'Penjenamaan tersuai',
         'Akses API'
       ],
-      'fil': [
-        'Walang hanggang AI conversations',
-        '1 ahenteng tao kasama (free plan)',
-        'Enterprise AI models (GPT-4, Claude)',
-        'Omnichannel integration',
-        'Knowledge base management',
-        'Advanced analytics',
-        'Custom branding',
-        'API access'
-      ],
       'pl': [
         'Nieograniczone rozmowy AI',
-        '1 ludzki agent wliczony (darmowy plan)',
-        'Korporacyjne modele AI (GPT-4, Claude)',
-        'Integracja omnikanałowa',
+        '1 agent ludzki w zestawie (plan darmowy)',
+        'Modele AI dla przedsiębiorstw (GPT-4, GPT-5, Claude)',
+        'Integracja omnichannel',
         'Zarządzanie bazą wiedzy',
-        'Zaawansowane analizy',
+        'Zaawansowane analityki',
         'Niestandardowy branding',
         'Dostęp do API'
       ],
-      'fa': [
-        'گفتگوهای نامحدود AI',
-        '1 نماینده انسانی شامل (طرح رایگان)',
-        'مدل‌های AI سازمانی (GPT-4، Claude)',
-        'ادغام چندکاناله',
-        'مدیریت پایگاه دانش',
-        'تحلیل‌های پیشرفته',
-        'برندسازی سفارشی',
-        'دسترسی API'
+      'pt': [
+        'Conversas de IA ilimitadas',
+        '1 agente humano incluído (plano gratuito)',
+        'Modelos de IA empresariais (GPT-4, GPT-5, Claude)',
+        'Integração omnichannel',
+        'Gestão de base de conhecimento',
+        'Análises avançadas',
+        'Marca personalizada',
+        'Acesso à API'
+      ],
+      'ru': [
+        'Неограниченные ИИ-разговоры',
+        '1 человеческий агент включен (бесплатный план)',
+        'Корпоративные ИИ-модели (GPT-4, GPT-5, Claude)',
+        'Омниканальная интеграция',
+        'Управление базой знаний',
+        'Расширенная аналитика',
+        'Индивидуальный брендинг',
+        'Доступ к API'
       ],
       'ta': [
         'வரம்பற்ற AI உரையாடல்கள்',
         '1 மனித முகவர் சேர்க்கப்பட்டுள்ளது (இலவச திட்டம்)',
-        'நிறுவன AI மாதிரிகள் (GPT-4, Claude)',
-        'பல்வழி ஒருங்கிணைப்பு',
-        'அறிவுத் தளம் மேலாண்மை',
+        'நிறுவன AI மாதிரிகள் (GPT-4, GPT-5, Claude)',
+        'ஆம்னிசேனல் ஒருங்கிணைப்பு',
+        'அறிவுத் தளக் கட்டுப்பாடு',
         'மேம்பட்ட பகுப்பாய்வு',
         'தனிப்பயன் பிராண்டிங்',
         'API அணுகல்'
+      ],
+      'th': [
+        'การสนทนา AI ไม่จำกัด',
+        'รวมเอเจนต์มนุษย์ 1 คน (แผนฟรี)',
+        'โมเดล AI ระดับองค์กร (GPT-4, GPT-5, Claude)',
+        'การรวมแบบหลายช่องทาง',
+        'การจัดการฐานความรู้',
+        'การวิเคราะห์ขั้นสูง',
+        'การสร้างแบรนด์แบบกำหนดเอง',
+        'การเข้าถึง API'
+      ],
+      'vi': [
+        'Cuộc trò chuyện AI không giới hạn',
+        '1 đại lý con người được bao gồm (gói miễn phí)',
+        'Mô hình AI doanh nghiệp (GPT-4, GPT-5, Claude)',
+        'Tích hợp đa kênh',
+        'Quản lý cơ sở tri thức',
+        'Phân tích nâng cao',
+        'Thương hiệu tùy chỉnh',
+        'Truy cập API'
       ]
     },
     seax: {
@@ -1370,8 +1827,8 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
         '效能分析'
       ],
       'zh-CN': [
-        'WhatsApp商业集成',
-        '短信营销活动',
+        'WhatsApp商业整合',
+        'SMS营销活动',
         '语音通话管理',
         '统一收件箱',
         '团队协作',
@@ -1380,7 +1837,7 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
         '性能分析'
       ],
       'es': [
-        'Integración WhatsApp Business',
+        'Integración de WhatsApp Business',
         'Campañas de marketing por SMS',
         'Gestión de llamadas de voz',
         'Bandeja de entrada unificada',
@@ -1391,49 +1848,39 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
       ],
       'fr': [
         'Intégration WhatsApp Business',
-        'Campagnes de marketing SMS',
-        'Gestion des appels vocaux',
+        'Campagnes marketing SMS',
+        'Gestion d\'appels vocaux',
         'Boîte de réception unifiée',
         'Collaboration d\'équipe',
         'Flux de travail automatisés',
-        'Gestion des contacts',
+        'Gestion de contacts',
         'Analyses de performance'
       ],
       'de': [
-        'WhatsApp Business-Integration',
+        'WhatsApp Business Integration',
         'SMS-Marketing-Kampagnen',
-        'Sprachanrufverwaltung',
+        'Sprachanruf-Management',
         'Einheitlicher Posteingang',
         'Team-Zusammenarbeit',
         'Automatisierte Workflows',
-        'Kontaktverwaltung',
+        'Kontakt-Management',
         'Leistungsanalysen'
       ],
-      'pt': [
-        'Integração WhatsApp Business',
-        'Campanhas de marketing por SMS',
-        'Gestão de chamadas de voz',
-        'Caixa de entrada unificada',
-        'Colaboração em equipe',
-        'Fluxos de trabalho automatizados',
-        'Gestão de contatos',
-        'Análises de desempenho'
-      ],
       'ja': [
-        'WhatsAppビジネス統合',
+        'WhatsApp Business統合',
         'SMSマーケティングキャンペーン',
         '音声通話管理',
-        '統一受信箱',
-        'チームコラボレーション',
+        '統合受信箱',
+        'チーム連携',
         '自動化ワークフロー',
         '連絡先管理',
         'パフォーマンス分析'
       ],
       'ko': [
-        'WhatsApp 비즈니스 통합',
+        'WhatsApp Business 통합',
         'SMS 마케팅 캠페인',
         '음성 통화 관리',
-        '통합 받은 편지함',
+        '통합 받은편지함',
         '팀 협업',
         '자동화 워크플로우',
         '연락처 관리',
@@ -1441,73 +1888,23 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
       ],
       'ar': [
         'تكامل WhatsApp Business',
-        'حملات التسويق عبر الرسائل القصيرة',
+        'حملات التسويق عبر الرسائل النصية',
         'إدارة المكالمات الصوتية',
-        'صندوق بريد موحد',
+        'صندوق وارد موحد',
         'التعاون الجماعي',
-        'سير العمل التلقائي',
+        'سير العمل الآلي',
         'إدارة جهات الاتصال',
         'تحليلات الأداء'
       ],
-      'ru': [
-        'Интеграция WhatsApp Business',
-        'SMS-маркетинговые кампании',
-        'Управление голосовыми вызовами',
-        'Единый почтовый ящик',
-        'Командное сотрудничество',
-        'Автоматизированные рабочие процессы',
-        'Управление контактами',
-        'Аналитика производительности'
-      ],
-      'hi': [
-        'WhatsApp Business एकीकरण',
-        'SMS मार्केटिंग अभियान',
-        'वॉयस कॉल प्रबंधन',
-        'एकीकृत इनबॉक्स',
-        'टीम सहयोग',
-        'स्वचालन कार्यप्रवाह',
-        'संपर्क प्रबंधन',
-        'प्रदर्शन विश्लेषण'
-      ],
-      'id': [
-        'Integrasi WhatsApp Business',
-        'Kampanye pemasaran SMS',
-        'Manajemen panggilan suara',
-        'Kotak masuk terpadu',
-        'Kolaborasi tim',
-        'Alur kerja otomasi',
-        'Manajemen kontak',
-        'Analisis kinerja'
-      ],
-      'th': [
-        'การผสานรวม WhatsApp Business',
-        'แคมเปญการตลาด SMS',
-        'การจัดการการโทรด้วยเสียง',
-        'กล่องขาเข้าแบบรวม',
-        'การทำงานร่วมกันเป็นทีม',
-        'เวิร์กโฟลว์อัตโนมัติ',
-        'การจัดการผู้ติดต่อ',
-        'การวิเคราะห์ประสิทธิภาพ'
-      ],
-      'vi': [
-        'Tích hợp WhatsApp Business',
-        'Chiến dịch tiếp thị SMS',
-        'Quản lý cuộc gọi thoại',
-        'Hộp thư đến thống nhất',
-        'Cộng tác nhóm',
-        'Quy trình làm việc tự động',
-        'Quản lý liên hệ',
-        'Phân tích hiệu suất'
-      ],
-      'ms': [
-        'Integrasi WhatsApp Business',
-        'Kempen pemasaran SMS',
-        'Pengurusan panggilan suara',
-        'Peti masuk bersatu',
-        'Kerjasama pasukan',
-        'Aliran kerja automasi',
-        'Pengurusan kenalan',
-        'Analisis prestasi'
+      'fa': [
+        'ادغام WhatsApp Business',
+        'کمپین‌های بازاریابی پیامک',
+        'مدیریت تماس‌های صوتی',
+        'صندوق ورودی یکپارچه',
+        'همکاری تیمی',
+        'گردش‌های کار خودکار',
+        'مدیریت مخاطبین',
+        'تحلیل‌های عملکرد'
       ],
       'fil': [
         'WhatsApp Business integration',
@@ -1519,6 +1916,36 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
         'Contact management',
         'Performance analytics'
       ],
+      'hi': [
+        'WhatsApp Business एकीकरण',
+        'SMS मार्केटिंग अभियान',
+        'वॉयस कॉल प्रबंधन',
+        'एकीकृत इनबॉक्स',
+        'टीम सहयोग',
+        'स्वचालन वर्कफ़्लो',
+        'संपर्क प्रबंधन',
+        'प्रदर्शन विश्लेषण'
+      ],
+      'id': [
+        'Integrasi WhatsApp Business',
+        'Kampanye pemasaran SMS',
+        'Manajemen panggilan suara',
+        'Kotak masuk terpadu',
+        'Kolaborasi tim',
+        'Alur kerja otomatis',
+        'Manajemen kontak',
+        'Analitik kinerja'
+      ],
+      'ms': [
+        'Integrasi WhatsApp Business',
+        'Kempen pemasaran SMS',
+        'Pengurusan panggilan suara',
+        'Peti masuk bersepadu',
+        'Kerjasama pasukan',
+        'Alir kerja automasi',
+        'Pengurusan kenalan',
+        'Analitik prestasi'
+      ],
       'pl': [
         'Integracja WhatsApp Business',
         'Kampanie marketingowe SMS',
@@ -1527,17 +1954,27 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
         'Współpraca zespołowa',
         'Automatyczne przepływy pracy',
         'Zarządzanie kontaktami',
-        'Analizy wydajności'
+        'Analityka wydajności'
       ],
-      'fa': [
-        'ادغام WhatsApp Business',
-        'کمپین‌های بازاریابی پیامکی',
-        'مدیریت تماس‌های صوتی',
-        'صندوق ورودی یکپارچه',
-        'همکاری تیمی',
-        'گردش کار خودکار',
-        'مدیریت مخاطبین',
-        'تحلیل عملکرد'
+      'pt': [
+        'Integração WhatsApp Business',
+        'Campanhas de marketing por SMS',
+        'Gestão de chamadas de voz',
+        'Caixa de entrada unificada',
+        'Colaboração em equipe',
+        'Fluxos de trabalho automatizados',
+        'Gestão de contatos',
+        'Análises de desempenho'
+      ],
+      'ru': [
+        'Интеграция WhatsApp Business',
+        'SMS-маркетинговые кампании',
+        'Управление голосовыми звонками',
+        'Единый почтовый ящик',
+        'Командная работа',
+        'Автоматизированные рабочие процессы',
+        'Управление контактами',
+        'Аналитика производительности'
       ],
       'ta': [
         'WhatsApp Business ஒருங்கிணைப்பு',
@@ -1548,6 +1985,26 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
         'தானியங்கு பணிப்பாய்வுகள்',
         'தொடர்பு மேலாண்மை',
         'செயல்திறன் பகுப்பாய்வு'
+      ],
+      'th': [
+        'การรวม WhatsApp Business',
+        'แคมเปญการตลาด SMS',
+        'การจัดการการโทรเสียง',
+        'กล่องจดหมายแบบรวม',
+        'การทำงานร่วมกันของทีม',
+        'เวิร์กโฟลว์อัตโนมัติ',
+        'การจัดการรายชื่อติดต่อ',
+        'การวิเคราะห์ประสิทธิภาพ'
+      ],
+      'vi': [
+        'Tích hợp WhatsApp Business',
+        'Chiến dịch tiếp thị SMS',
+        'Quản lý cuộc gọi thoại',
+        'Hộp thư đến thống nhất',
+        'Cộng tác nhóm',
+        'Quy trình tự động',
+        'Quản lý liên hệ',
+        'Phân tích hiệu suất'
       ]
     },
     seavoice: {
@@ -1555,417 +2012,204 @@ function getLocalizedFeatures(productKey: ProductKey, language: string): string[
         'AI voice agents',
         'Intelligent call routing',
         'Voice analytics',
-        'Call recording & transcription',
-        'Sentiment analysis',
-        'Multi-language support',
-        'CRM integration',
-        'Real-time monitoring'
+        'Speech-to-text',
+        'Text-to-speech',
+        'Call recording',
+        'Real-time monitoring',
+        'CRM integration'
       ],
       'zh-TW': [
         'AI語音代理',
         '智能通話路由',
         '語音分析',
-        '通話錄音和轉錄',
-        '情感分析',
-        '多語言支援',
-        'CRM整合',
-        '即時監控'
+        '語音轉文字',
+        '文字轉語音',
+        '通話錄音',
+        '即時監控',
+        'CRM整合'
       ],
       'zh-CN': [
         'AI语音代理',
         '智能通话路由',
         '语音分析',
-        '通话录音和转录',
-        '情感分析',
-        '多语言支持',
-        'CRM集成',
-        '实时监控'
+        '语音转文字',
+        '文字转语音',
+        '通话录音',
+        '实时监控',
+        'CRM整合'
       ],
       'es': [
-        'Agentes de voz AI',
+        'Agentes de voz IA',
         'Enrutamiento inteligente de llamadas',
         'Análisis de voz',
-        'Grabación y transcripción de llamadas',
-        'Análisis de sentimiento',
-        'Soporte multiidioma',
-        'Integración CRM',
-        'Monitoreo en tiempo real'
+        'Voz a texto',
+        'Texto a voz',
+        'Grabación de llamadas',
+        'Monitoreo en tiempo real',
+        'Integración CRM'
       ],
       'fr': [
         'Agents vocaux IA',
-        'Routage d\'appels intelligent',
-        'Analyse vocale',
-        'Enregistrement et transcription d\'appels',
-        'Analyse des sentiments',
-        'Support multilingue',
-        'Intégration CRM',
-        'Surveillance en temps réel'
+        'Routage intelligent d\'appels',
+        'Analyses vocales',
+        'Parole-vers-texte',
+        'Texte-vers-parole',
+        'Enregistrement d\'appels',
+        'Surveillance en temps réel',
+        'Intégration CRM'
       ],
       'de': [
         'KI-Sprachagenten',
-        'Intelligente Anrufweiterleitung',
-        'Sprachanalyse',
-        'Anrufaufzeichnung & Transkription',
-        'Sentimentanalyse',
-        'Mehrsprachige Unterstützung',
-        'CRM-Integration',
-        'Echtzeitüberwachung'
-      ],
-      'pt': [
-        'Agentes de voz AI',
-        'Roteamento inteligente de chamadas',
-        'Análise de voz',
-        'Gravação e transcrição de chamadas',
-        'Análise de sentimento',
-        'Suporte multilíngue',
-        'Integração CRM',
-        'Monitoramento em tempo real'
+        'Intelligentes Anruf-Routing',
+        'Sprachanalysen',
+        'Sprache-zu-Text',
+        'Text-zu-Sprache',
+        'Anrufaufzeichnung',
+        'Echtzeit-Überwachung',
+        'CRM-Integration'
       ],
       'ja': [
         'AI音声エージェント',
         'インテリジェントコールルーティング',
         '音声分析',
-        '通話録音と文字起こし',
-        '感情分析',
-        '多言語サポート',
-        'CRM統合',
-        'リアルタイム監視'
+        '音声テキスト変換',
+        'テキスト音声変換',
+        '通話録音',
+        'リアルタイム監視',
+        'CRM統合'
       ],
       'ko': [
         'AI 음성 에이전트',
         '지능형 통화 라우팅',
         '음성 분석',
-        '통화 녹음 및 전사',
-        '감정 분석',
-        '다국어 지원',
-        'CRM 통합',
-        '실시간 모니터링'
+        '음성-텍스트 변환',
+        '텍스트-음성 변환',
+        '통화 녹음',
+        '실시간 모니터링',
+        'CRM 통합'
       ],
       'ar': [
-        'وكلاء صوت AI',
+        'وكلاء الصوت بالذكاء الاصطناعي',
         'توجيه المكالمات الذكي',
-        'تحليل الصوت',
-        'تسجيل المكالمات والنسخ',
-        'تحليل المشاعر',
-        'دعم متعدد اللغات',
-        'تكامل CRM',
-        'المراقبة في الوقت الفعلي'
+        'تحليلات الصوت',
+        'الكلام إلى نص',
+        'النص إلى كلام',
+        'تسجيل المكالمات',
+        'المراقبة في الوقت الفعلي',
+        'تكامل CRM'
       ],
-      'ru': [
-        'Голосовые агенты ИИ',
-        'Интеллектуальная маршрутизация вызовов',
-        'Голосовая аналитика',
-        'Запись и транскрипция звонков',
-        'Анализ настроений',
-        'Многоязычная поддержка',
-        'Интеграция CRM',
-        'Мониторинг в реальном времени'
-      ],
-      'hi': [
-        'AI वॉयस एजेंट',
-        'बुद्धिमान कॉल रूटिंग',
-        'वॉयस एनालिटिक्स',
-        'कॉल रिकॉर्डिंग और ट्रांसक्रिप्शन',
-        'भावना विश्लेषण',
-        'बहु-भाषा समर्थन',
-        'CRM एकीकरण',
-        'रियल-टाइम मॉनिटरिंग'
-      ],
-      'id': [
-        'Agen suara AI',
-        'Perutean panggilan cerdas',
-        'Analisis suara',
-        'Perekaman & transkripsi panggilan',
-        'Analisis sentimen',
-        'Dukungan multi-bahasa',
-        'Integrasi CRM',
-        'Pemantauan real-time'
-      ],
-      'th': [
-        'ตัวแทนเสียง AI',
-        'การกำหนดเส้นทางสายอัจฉริยะ',
-        'การวิเคราะห์เสียง',
-        'การบันทึกและถอดความการโทร',
-        'การวิเคราะห์ความรู้สึก',
-        'รองรับหลายภาษา',
-        'การผสานรวม CRM',
-        'การตรวจสอบแบบเรียลไทม์'
-      ],
-      'vi': [
-        'Nhân viên AI giọng nói',
-        'Định tuyến cuộc gọi thông minh',
-        'Phân tích giọng nói',
-        'Ghi âm & phiên âm cuộc gọi',
-        'Phân tích cảm xúc',
-        'Hỗ trợ đa ngôn ngữ',
-        'Tích hợp CRM',
-        'Giám sát thời gian thực'
-      ],
-      'ms': [
-        'Ejen suara AI',
-        'Penghalaan panggilan pintar',
-        'Analisis suara',
-        'Rakaman & transkripsi panggilan',
-        'Analisis sentimen',
-        'Sokongan berbilang bahasa',
-        'Integrasi CRM',
-        'Pemantauan masa nyata'
+      'fa': [
+        'عوامل صوتی هوش مصنوعی',
+        'مسیریابی هوشمند تماس',
+        'تحلیل‌های صوتی',
+        'گفتار به متن',
+        'متن به گفتار',
+        'ضبط تماس',
+        'نظارت بلادرنگ',
+        'ادغام CRM'
       ],
       'fil': [
         'AI voice agents',
         'Intelligent call routing',
         'Voice analytics',
-        'Call recording & transcription',
-        'Sentiment analysis',
-        'Multi-language support',
-        'CRM integration',
-        'Real-time monitoring'
+        'Speech-to-text',
+        'Text-to-speech',
+        'Call recording',
+        'Real-time monitoring',
+        'CRM integration'
+      ],
+      'hi': [
+        'AI वॉयस एजेंट',
+        'बुद्धिमान कॉल राउटिंग',
+        'वॉयस एनालिटिक्स',
+        'भाषण-से-पाठ',
+        'पाठ-से-भाषण',
+        'कॉल रिकॉर्डिंग',
+        'रीयल-टाइम निगरानी',
+        'CRM एकीकरण'
+      ],
+      'id': [
+        'Agen suara AI',
+        'Routing panggilan cerdas',
+        'Analitik suara',
+        'Ucapan-ke-teks',
+        'Teks-ke-ucapan',
+        'Perekaman panggilan',
+        'Pemantauan real-time',
+        'Integrasi CRM'
+      ],
+      'ms': [
+        'Ejen suara AI',
+        'Penghalaan panggilan pintar',
+        'Analitik suara',
+        'Pertuturan-ke-teks',
+        'Teks-ke-pertuturan',
+        'Rakaman panggilan',
+        'Pemantauan masa nyata',
+        'Integrasi CRM'
       ],
       'pl': [
         'Agenci głosowi AI',
-        'Inteligentne trasowanie połączeń',
-        'Analizy głosowe',
-        'Nagrywanie i transkrypcja połączeń',
-        'Analiza sentymentu',
-        'Wsparcie wielojęzyczne',
-        'Integracja CRM',
-        'Monitorowanie w czasie rzeczywistym'
+        'Inteligentne routowanie połączeń',
+        'Analityka głosu',
+        'Mowa-na-tekst',
+        'Tekst-na-mowę',
+        'Nagrywanie połączeń',
+        'Monitorowanie w czasie rzeczywistym',
+        'Integracja CRM'
       ],
-      'fa': [
-        'عوامل صوتی AI',
-        'مسیریابی هوشمند تماس',
-        'تحلیل صوت',
-        'ضبط و رونویسی تماس',
-        'تحلیل احساسات',
-        'پشتیبانی چندزبانه',
-        'ادغام CRM',
-        'نظارت در زمان واقعی'
+      'pt': [
+        'Agentes de voz IA',
+        'Roteamento inteligente de chamadas',
+        'Análises de voz',
+        'Fala-para-texto',
+        'Texto-para-fala',
+        'Gravação de chamadas',
+        'Monitoramento em tempo real',
+        'Integração CRM'
+      ],
+      'ru': [
+        'ИИ голосовые агенты',
+        'Интеллектуальная маршрутизация звонков',
+        'Голосовая аналитика',
+        'Речь-в-текст',
+        'Текст-в-речь',
+        'Запись звонков',
+        'Мониторинг в реальном времени',
+        'Интеграция CRM'
       ],
       'ta': [
         'AI குரல் முகவர்கள்',
-        'அறிவார்ந்த அழைப்பு வழிகாட்டுதல்',
+        'புத்திசாலித்தனமான அழைப்பு பாதை',
         'குரல் பகுப்பாய்வு',
-        'அழைப்பு பதிவு & எழுத்துப்பெயர்ப்பு',
-        'உணர்வு பகுப்பாய்வு',
-        'பல மொழி ஆதரவு',
-        'CRM ஒருங்கிணைப்பு',
-        'நிகழ்நேர கண்காணிப்பு'
+        'பேச்சு-இல்-உரை',
+        'உரை-இல்-பேச்சு',
+        'அழைப்பு பதிவு',
+        'நேரடி நேர கண்காணிப்பு',
+        'CRM ஒருங்கிணைப்பு'
+      ],
+      'th': [
+        'เอเจนต์เสียง AI',
+        'การกำหนดเส้นทางการโทรอัจฉริยะ',
+        'การวิเคราะห์เสียง',
+        'การแปลงเสียงเป็นข้อความ',
+        'การแปลงข้อความเป็นเสียง',
+        'การบันทึกการโทร',
+        'การติดตามแบบเรียลไทม์',
+        'การรวม CRM'
+      ],
+      'vi': [
+        'Đại lý giọng nói AI',
+        'Định tuyến cuộc gọi thông minh',
+        'Phân tích giọng nói',
+        'Giọng nói-thành-văn bản',
+        'Văn bản-thành-giọng nói',
+        'Ghi âm cuộc gọi',
+        'Giám sát thời gian thực',
+        'Tích hợp CRM'
       ]
     }
   };
   
   return features[productKey][language] || features[productKey]['en'];
-}
-
-/**
- * Get localized offer description
- */
-function getLocalizedOfferDescription(productKey: ProductKey, language: string, tier: PricingTier): string {
-  const descriptions: Record<ProductKey, Record<string, string>> = {
-    seachat: {
-      'en': `Free forever plan with 1 human agent and unlimited conversations. AI capabilities available for $29.99/month.`,
-      'zh-TW': `永久免費方案，包含 1 位人工客服和無限對話。AI 功能每月 $29.99 美元。`,
-      'zh-CN': `永久免费方案，包含 1 位人工客服和无限对话。AI 功能每月 $29.99 美元。`,
-      'es': `Plan gratuito para siempre con 1 agente humano y conversaciones ilimitadas. Capacidades de IA disponibles por $29.99/mes.`,
-      'fr': `Plan gratuit à vie avec 1 agent humain et conversations illimitées. Capacités IA disponibles pour 29,99$/mois.`,
-      'de': `Kostenloser Plan für immer mit 1 menschlichen Agenten und unbegrenzten Gesprächen. KI-Funktionen für $29,99/Monat verfügbar.`,
-      'pt': `Plano gratuito para sempre com 1 agente humano e conversas ilimitadas. Recursos de IA disponíveis por $29,99/mês.`,
-      'ja': `1人のヒューマンエージェントと無制限の会話を含む永久無料プラン。AI機能は月額$29.99で利用可能。`,
-      'ko': `1명의 인간 에이전트와 무제한 대화가 포함된 영구 무료 플랜. AI 기능은 월 $29.99에 이용 가능.`,
-      'ar': `خطة مجانية إلى الأبد مع وكيل بشري واحد ومحادثات غير محدودة. إمكانيات الذكاء الاصطناعي متاحة مقابل 29.99 دولار شهريًا.`,
-      'ru': `Бесплатный навсегда план с 1 живым агентом и неограниченными диалогами. ИИ-возможности доступны за $29.99/месяц.`,
-      'hi': `1 मानव एजेंट और असीमित बातचीत के साथ हमेशा के लिए मुफ्त योजना। AI क्षमताएं $29.99/महीने पर उपलब्ध।`,
-      'id': `Paket gratis selamanya dengan 1 agen manusia dan percakapan tak terbatas. Kemampuan AI tersedia seharga $29,99/bulan.`,
-      'th': `แผนฟรีตลอดชีพพร้อมตัวแทนมนุษย์ 1 คนและการสนทนาไม่จำกัด ความสามารถ AI ราคา $29.99/เดือน`,
-      'vi': `Gói miễn phí vĩnh viễn với 1 nhân viên hỗ trợ và trò chuyện không giới hạn. Tính năng AI có sẵn với giá $29.99/tháng.`,
-      'ms': `Pelan percuma selamanya dengan 1 ejen manusia dan perbualan tanpa had. Keupayaan AI tersedia pada $29.99/bulan.`,
-      'fil': `Libreng plano magpakailanman na may 1 tao na ahente at walang limitasyong pag-uusap. AI capabilities na available sa $29.99/buwan.`,
-      'pl': `Darmowy plan na zawsze z 1 ludzkim agentem i nielimitowanymi rozmowami. Możliwości AI dostępne za $29,99/miesiąc.`,
-      'fa': `طرح رایگان همیشگی با 1 نماینده انسانی و گفتگوهای نامحدود. قابلیت‌های هوش مصنوعی با 29.99 دلار در ماه در دسترس است.`,
-      'ta': `1 மனித முகவர் மற்றும் வரம்பற்ற உரையாடல்களுடன் எப்போதும் இலவச திட்டம். AI திறன்கள் $29.99/மாதத்திற்கு கிடைக்கும்.`
-    },
-    seax: {
-      'en': `WhatsApp Only plan at $19.99/month, or full Omnichannel platform starting at $99/month for first user, $49/month for additional users.`,
-      'zh-TW': `WhatsApp 專用方案每月 $19.99 美元，或完整全通路平台第一位用戶每月 $99 美元起，額外用戶每月 $49 美元。`,
-      'zh-CN': `WhatsApp 专用方案每月 $19.99 美元，或完整全渠道平台第一位用户每月 $99 美元起，额外用户每月 $49 美元。`,
-      'es': `Plan Solo WhatsApp a $19.99/mes, o plataforma Omnicanal completa desde $99/mes para el primer usuario, $49/mes por usuario adicional.`,
-      'fr': `Plan WhatsApp uniquement à 19,99$/mois, ou plateforme Omnicanale complète à partir de 99$/mois pour le premier utilisateur, 49$/mois par utilisateur supplémentaire.`,
-      'de': `WhatsApp-Only-Plan für $19,99/Monat oder vollständige Omnichannel-Plattform ab $99/Monat für den ersten Benutzer, $49/Monat für zusätzliche Benutzer.`,
-      'pt': `Plano Apenas WhatsApp por $19,99/mês, ou plataforma Omnichannel completa a partir de $99/mês para o primeiro usuário, $49/mês por usuário adicional.`,
-      'ja': `WhatsApp専用プラン月額$19.99、またはフルオムニチャネルプラットフォーム初回ユーザー月額$99から、追加ユーザー月額$49。`,
-      'ko': `WhatsApp 전용 플랜 월 $19.99, 또는 전체 옴니채널 플랫폼 첫 사용자 월 $99부터, 추가 사용자 월 $49.`,
-      'ar': `خطة WhatsApp فقط بـ 19.99 دولار/شهر، أو منصة Omnichannel الكاملة بدءًا من 99 دولار/شهر للمستخدم الأول، 49 دولار/شهر للمستخدمين الإضافيين.`,
-      'ru': `План только WhatsApp за $19.99/месяц, или полная омниканальная платформа от $99/месяц для первого пользователя, $49/месяц для дополнительных пользователей.`,
-      'hi': `केवल WhatsApp योजना $19.99/महीने पर, या पूर्ण ओमनीचैनल प्लेटफ़ॉर्म पहले उपयोगकर्ता के लिए $99/महीने से, अतिरिक्त उपयोगकर्ताओं के लिए $49/महीने।`,
-      'id': `Paket Hanya WhatsApp seharga $19,99/bulan, atau platform Omnichannel lengkap mulai dari $99/bulan untuk pengguna pertama, $49/bulan untuk pengguna tambahan.`,
-      'th': `แผน WhatsApp เท่านั้นราคา $19.99/เดือน หรือแพลตฟอร์ม Omnichannel เต็มรูปแบบเริ่มต้นที่ $99/เดือนสำหรับผู้ใช้คนแรก $49/เดือนสำหรับผู้ใช้เพิ่มเติม`,
-      'vi': `Gói Chỉ WhatsApp với giá $19.99/tháng, hoặc nền tảng Omnichannel đầy đủ bắt đầu từ $99/tháng cho người dùng đầu tiên, $49/tháng cho người dùng thêm.`,
-      'ms': `Pelan WhatsApp Sahaja pada $19.99/bulan, atau platform Omnichannel penuh bermula dari $99/bulan untuk pengguna pertama, $49/bulan untuk pengguna tambahan.`,
-      'fil': `WhatsApp Only plan sa $19.99/buwan, o kumpletong Omnichannel platform simula sa $99/buwan para sa unang user, $49/buwan para sa karagdagang users.`,
-      'pl': `Plan Tylko WhatsApp za $19,99/miesiąc lub pełna platforma Omnichannel od $99/miesiąc dla pierwszego użytkownika, $49/miesiąc dla dodatkowych użytkowników.`,
-      'fa': `طرح فقط واتساپ با 19.99 دلار در ماه، یا پلتفرم کامل Omnichannel از 99 دلار در ماه برای کاربر اول، 49 دلار در ماه برای کاربران اضافی.`,
-      'ta': `WhatsApp மட்டும் திட்டம் $19.99/மாதம், அல்லது முழு Omnichannel தளம் முதல் பயனருக்கு $99/மாதம் தொடங்கி, கூடுதல் பயனர்களுக்கு $49/மாதம்.`
-    },
-    seavoice: {
-      'en': `AI voice platform with inbound-only plan at $29.99/month or full inbound+outbound at $99/month.`,
-      'zh-TW': `AI 語音平台，僅進線方案每月 $29.99 美元，完整進線+外撥每月 $99 美元。`,
-      'zh-CN': `AI 语音平台，仅进线方案每月 $29.99 美元，完整进线+外拨每月 $99 美元。`,
-      'es': `Plataforma de voz AI con plan solo entrante a $29.99/mes o completo entrante+saliente a $99/mes.`,
-      'fr': `Plateforme vocale IA avec plan entrant uniquement à 29,99$/mois ou complet entrant+sortant à 99$/mois.`,
-      'de': `KI-Sprachplattform mit Nur-Eingangs-Plan für $29,99/Monat oder vollständig eingehend+ausgehend für $99/Monat.`,
-      'pt': `Plataforma de voz AI com plano apenas entrada por $29,99/mês ou completo entrada+saída por $99/mês.`,
-      'ja': `インバウンドのみプラン月額$29.99、またはフルインバウンド+アウトバウンド月額$99のAI音声プラットフォーム。`,
-      'ko': `인바운드 전용 플랜 월 $29.99 또는 전체 인바운드+아웃바운드 월 $99의 AI 음성 플랫폼.`,
-      'ar': `منصة صوتية بالذكاء الاصطناعي مع خطة الوارد فقط بـ 29.99 دولار/شهر أو كاملة وارد+صادر بـ 99 دولار/شهر.`,
-      'ru': `Платформа голосового ИИ с планом только входящих за $29.99/месяц или полным входящие+исходящие за $99/месяц.`,
-      'hi': `इनबाउंड-केवल योजना $29.99/महीने पर या पूर्ण इनबाउंड+आउटबाउंड $99/महीने पर AI वॉयस प्लेटफ़ॉर्म।`,
-      'id': `Platform suara AI dengan paket hanya masuk seharga $29,99/bulan atau lengkap masuk+keluar seharga $99/bulan.`,
-      'th': `แพลตฟอร์มเสียง AI พร้อมแผนเฉพาะสายเข้าราคา $29.99/เดือน หรือแบบเต็มสายเข้า+สายออกราคา $99/เดือน`,
-      'vi': `Nền tảng giọng nói AI với gói chỉ cuộc gọi đến giá $29.99/tháng hoặc đầy đủ cuộc gọi đến+đi giá $99/tháng.`,
-      'ms': `Platform suara AI dengan pelan masuk sahaja pada $29.99/bulan atau penuh masuk+keluar pada $99/bulan.`,
-      'fil': `AI voice platform na may inbound-only plan sa $29.99/buwan o kumpletong inbound+outbound sa $99/buwan.`,
-      'pl': `Platforma głosowa AI z planem tylko przychodzącym za $29,99/miesiąc lub pełnym przychodzącym+wychodzącym za $99/miesiąc.`,
-      'fa': `پلتفرم صوتی هوش مصنوعی با طرح فقط ورودی 29.99 دلار در ماه یا کامل ورودی+خروجی 99 دلار در ماه.`,
-      'ta': `உள்வரும் மட்டும் திட்டம் $29.99/மாதம் அல்லது முழு உள்வரும்+வெளிச்செல்லும் $99/மாதம் கொண்ட AI குரல் தளம்.`
-    }
-  };
-  
-  return descriptions[productKey][language] || descriptions[productKey]['en'];
-}
-
-// Export a default PRODUCTS_INFO for backward compatibility
-// This uses English as the default language
-export const PRODUCTS_INFO: Record<ProductKey, ProductInfo> = {
-  seachat: getLocalizedProductInfo('seachat', 'en'),
-  seax: getLocalizedProductInfo('seax', 'en'),
-  seavoice: getLocalizedProductInfo('seavoice', 'en')
-};
-
-// =============================================================================
-// Website Information
-// =============================================================================
-
-export interface WebsiteInfo {
-  name: string;
-  url: string;
-  description: string;
-  inLanguage: string[];
-  potentialAction: {
-    '@type': string;
-    target: {
-      '@type': string;
-      urlTemplate: string;
-      'query-input': string;
-    };
-  };
-}
-
-export const WEBSITE_INFO: WebsiteInfo = {
-  name: 'Seasalt.ai',
-  url: 'https://seasalt.ai',
-  description: 'Leading AI conversation intelligence platform offering omnichannel customer communication solutions for businesses of all sizes.',
-  inLanguage: SUPPORTED_LANGUAGES.map(lang => 
-    LANGUAGE_REGION_MAP[lang]?.primaryLocale.replace('_', '-') || lang
-  ),
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: 'https://seasalt.ai/search?q={search_term_string}',
-      'query-input': 'required name=search_term_string'
-    }
-  }
-};
-
-// =============================================================================
-// Schema.org Availability Constants
-// =============================================================================
-
-export const SCHEMA_AVAILABILITY = {
-  IN_STOCK: 'https://schema.org/InStock',
-  OUT_OF_STOCK: 'https://schema.org/OutOfStock',
-  PRE_ORDER: 'https://schema.org/PreOrder',
-  IN_STORE_ONLY: 'https://schema.org/InStoreOnly',
-  ONLINE_ONLY: 'https://schema.org/OnlineOnly',
-  LIMITED_AVAILABILITY: 'https://schema.org/LimitedAvailability'
-} as const;
-
-export type SchemaAvailability = typeof SCHEMA_AVAILABILITY[keyof typeof SCHEMA_AVAILABILITY];
-
-// =============================================================================
-// Common Schema.org Types
-// =============================================================================
-
-export const SCHEMA_CONTEXT = 'https://schema.org';
-
-export const COMMON_SCHEMA_TYPES = {
-  ORGANIZATION: 'Organization',
-  WEBSITE: 'WebSite',
-  WEBPAGE: 'WebPage',
-  SOFTWARE_APPLICATION: 'SoftwareApplication',
-  OFFER: 'Offer',
-  AGGREGATE_RATING: 'AggregateRating',
-  IMAGE_OBJECT: 'ImageObject',
-  CONTACT_POINT: 'ContactPoint',
-  BREADCRUMB_LIST: 'BreadcrumbList',
-  LIST_ITEM: 'ListItem',
-  FAQ_PAGE: 'FAQPage',
-  QUESTION: 'Question',
-  ANSWER: 'Answer',
-  ARTICLE: 'Article',
-  PERSON: 'Person',
-  SEARCH_ACTION: 'SearchAction',
-  ENTRY_POINT: 'EntryPoint'
-} as const;
-
-// =============================================================================
-// Localized Data Access Utilities
-// =============================================================================
-
-/**
- * Gets localized product description from the centralized data
- * @param productKey - The product key (seachat, seax, seavoice)
- * @param language - The language code
- * @returns Localized description or English fallback
- */
-export function getLocalizedProductDescription(productKey: ProductKey, language: string): string {
-  const localizedDesc = LOCALIZED_PRODUCT_DESCRIPTIONS[productKey]?.[language];
-  if (localizedDesc) {
-    return localizedDesc;
-  }
-  
-  // Fallback to English description
-  const englishDesc = LOCALIZED_PRODUCT_DESCRIPTIONS[productKey]?.['en'];
-  if (englishDesc) {
-    return englishDesc;
-  }
-  
-  // Final fallback to the basic product info description
-  return PRODUCTS_INFO[productKey]?.description || '';
-}
-
-/**
- * Gets the base product information with optional localized description
- * @param productKey - The product key
- * @param language - Optional language for localized description
- * @returns ProductInfo with potentially localized description
- */
-export function getProductInfo(productKey: ProductKey, language?: string): ProductInfo {
-  const baseInfo = PRODUCTS_INFO[productKey];
-  
-  if (!baseInfo) {
-    throw new Error(`Product information not found for key: ${productKey}`);
-  }
-  
-  if (!language) {
-    return baseInfo;
-  }
-  
-  // Return base info with localized description if available
-  const localizedDescription = getLocalizedProductDescription(productKey, language);
-  
-  return {
-    ...baseInfo,
-    description: localizedDescription
-  };
 }

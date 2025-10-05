@@ -1,0 +1,493 @@
+---
+import LanguageSwitcher from '../../LanguageSwitcher.astro';
+import { getTranslationHelpers } from '../../../i18n/helpers';
+import type { VersionConfig } from '../config';
+import ProductLogoDropdown from '../shared/ProductLogoDropdown.astro';
+import PhoneBanner from '../shared/PhoneBanner.astro';
+
+// Header component props
+export interface Props {
+  currentPath?: string;
+  lang?: string;
+  versionConfig?: VersionConfig;
+}
+
+const { currentPath = '/', lang = 'en', versionConfig } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+
+// Navigation data using translations
+const solutions = [
+  { title: t('header.useCasesDropdown.salesMarketing'), path: '/solutions/sales-marketing', icon: 'TrendingUp' },
+  { title: t('header.useCasesDropdown.customerSupport'), path: '/solutions/customer-support', icon: 'Headphones' },
+  { title: t('header.useCasesDropdown.aiAutomation'), path: '/solutions/ai-automation', icon: 'Bot' },
+  { title: t('header.useCasesDropdown.smeOwners'), path: '/solutions/sme-owners', icon: 'Building2' }
+];
+
+const industries = [
+  { title: t('industriesData.ecommerce.title'), path: '/industries/ecommerce', slug: 'e-commerce', icon: 'ShoppingCart' },
+  { title: t('industriesData.healthcare.title'), path: '/industries/healthcare', slug: 'healthcare', icon: 'Heart' },
+  { title: t('industriesData.realEstate.title'), path: '/industries/real-estate', slug: 'real-estate', icon: 'Home' },
+  { title: t('industriesData.restaurants.title'), path: '/industries/restaurants-hospitality', slug: 'restaurants-hospitality', icon: 'Utensils' },
+  { title: t('industriesData.education.title'), path: '/industries/education', slug: 'education-training', icon: 'GraduationCap' },
+  { title: t('industriesData.automotive.title'), path: '/industries/automotive', slug: 'automotive-services', icon: 'Car' },
+  { title: t('industriesData.professional.title'), path: '/industries/professional-services', slug: 'professional-services', icon: 'Briefcase' },
+  { title: t('industriesData.financial.title'), path: '/industries/financial-services', slug: 'financial-services', icon: 'Building' }
+];
+
+const channels = [
+  { title: t('header.channelsDropdown.whatsapp'), path: '/channels/whatsapp', icon: 'MessageCircle' },
+  { title: t('header.channelsDropdown.phoneCalls'), path: '/channels/phone-calls', icon: 'Phone' },
+  { title: t('header.channelsDropdown.sms'), path: '/channels/sms', icon: 'MessageSquare' },
+  { title: t('header.channelsDropdown.websiteChat'), path: '/channels/website-chat', icon: 'Bot' },
+  { title: t('header.channelsDropdown.instagram'), path: '/channels/instagram', icon: 'Instagram' },
+  { title: t('header.channelsDropdown.facebookMessenger'), path: '/channels/facebook-messenger', icon: 'Facebook' },
+  { title: t('header.channelsDropdown.contactForms'), path: '/channels/contact-forms', icon: 'Mail' },
+  { title: t('header.channelsDropdown.line'), path: '/channels/line', icon: 'MessageSquare' },
+  { title: t('header.channelsDropdown.websiteWidget'), path: '/channels/website-widget', icon: 'Monitor' }
+];
+
+// Emoji mapping for default header icons
+const solutionEmoji: Record<string, string> = {
+  TrendingUp: '📈',
+  Headphones: '🎧',
+  Bot: '🤖',
+  Building2: '🏢'
+};
+
+const industryEmoji: Record<string, string> = {
+  ShoppingCart: '🛒',
+  Heart: '❤️',
+  Home: '🏠',
+  Utensils: '🍽️',
+  GraduationCap: '🎓',
+  Car: '🚗',
+  Briefcase: '💼',
+  Building: '🏢'
+};
+
+// Brand logo URLs (Simple Icons CDN) for channel items
+const channelLogoMap: Record<string, { url: string; alt: string }> = {
+  '/channels/whatsapp': { url: 'https://cdn.simpleicons.org/whatsapp/25D366', alt: 'WhatsApp' },
+  '/channels/instagram': { url: 'https://cdn.simpleicons.org/instagram/E4405F', alt: 'Instagram' },
+  '/channels/facebook-messenger': { url: 'https://cdn.simpleicons.org/messenger/00B2FF', alt: 'Facebook Messenger' },
+  '/channels/line': { url: 'https://cdn.simpleicons.org/line/00C300', alt: 'LINE' }
+};
+
+// Emoji mapping for non-brand channels
+const nonBrandEmoji: Record<string, string> = {
+  '/channels/phone-calls': '📞',
+  '/channels/sms': '✉️',
+  '/channels/website-chat': '💬',
+  '/channels/website-widget': '🧩',
+  '/channels/contact-forms': '📝'
+};
+
+const competitors = [
+  { title: 'vs. Aircall', path: '/compare/aircall-alternative' },
+  { title: 'vs. RingCentral', path: '/compare/ringcentral-alternative' },
+  { title: 'vs. Genesys', path: '/compare/genesys-alternative' },
+  { title: 'vs. Five9', path: '/compare/five9-alternative' },
+  { title: 'vs. Avaya', path: '/compare/avaya-alternative' },
+  { title: 'vs. Google Voice', path: '/compare/google-voice-alternative' },
+  { title: 'vs. respond.io', path: '/compare/respond-io-alternative' },
+  { title: 'vs. Intercom', path: '/compare/intercom-alternative' },
+  { title: 'vs. Kustomer', path: '/compare/kustomer-alternative' },
+  { title: 'vs. 3CX', path: '/compare/3cx-alternative' },
+  { title: 'vs. Dialpad', path: '/compare/dialpad-alternative' },
+  { title: 'vs. 8x8', path: '/compare/8x8-alternative' },
+  { title: 'vs. OpenPhone', path: '/compare/openphone-alternative' }
+];
+
+
+// Helper function to render SVG icons
+const getIcon = (iconName: string, className = 'w-4 h-4') => {
+  const icons = {
+    MessageSquare: `<svg xmlns="http://www.w3.org/2000/svg" class="${className}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>`,
+    Users: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>`,
+    Video: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>`,
+    Mic: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>`,
+    TrendingUp: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>`,
+    Headphones: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8a2 2 0 012 2v5l-2 1-2-1V6a2 2 0 00-2-2H8a2 2 0 00-2 2v5l-2 1-2-1V6a2 2 0 012-2z"></path></svg>`,
+    Bot: `<svg xmlns="http://www.w3.org/2000/svg" class="${className}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"></path><rect width="16" height="12" x="4" y="8" rx="2"></rect><path d="M2 14h2"></path><path d="M20 14h2"></path><path d="M15 13v2"></path><path d="M9 13v2"></path></svg>`,
+    Building2: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>`,
+    ShoppingCart: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17M17 13v4a2 2 0 01-2 2H9a2 2 0 01-2-2v-4m8 0V9a2 2 0 00-2-2H9a2 2 0 00-2 2v4.01"></path></svg>`,
+    Heart: `<svg class="${className}" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>`,
+    Home: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>`,
+    Utensils: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"></path></svg>`,
+    GraduationCap: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z M12 14l-6.16-3.422"></path></svg>`,
+    Car: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"></path></svg>`,
+    Briefcase: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0H8m8 0v6a2 2 0 01-2 2H10a2 2 0 01-2-2V6m8 0H8"></path></svg>`,
+    Building: `<svg class="${className}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>`,
+    MessageCircle: `<svg xmlns="http://www.w3.org/2000/svg" class="${className}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>`,
+    Phone: `<svg xmlns="http://www.w3.org/2000/svg" class="${className}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>`,
+    Instagram: `<svg xmlns="http://www.w3.org/2000/svg" class="${className}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>`,
+    Facebook: `<svg xmlns="http://www.w3.org/2000/svg" class="${className}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>`,
+    Mail: `<svg xmlns="http://www.w3.org/2000/svg" class="${className}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>`,
+    Monitor: `<svg xmlns="http://www.w3.org/2000/svg" class="${className}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg>`
+  };
+  return icons[iconName] || '';
+};
+
+const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
+---
+
+<PhoneBanner lang={lang} />
+
+<header class="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <!-- Logo Section -->
+      <div class="relative flex items-center">
+        <a 
+          href={`/${lang}`} 
+          class="hover:opacity-80 transition-opacity flex items-center"
+        >
+          <img 
+            src={logoSrc} 
+            alt="Seasalt.ai" 
+            class="h-6 sm:h-8 w-auto flex-shrink-0"
+          />
+        </a>
+        
+        <ProductLogoDropdown lang={lang} />
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden lg:flex items-center space-x-8">
+        <!-- Solutions Dropdown -->
+        <div class="relative">
+          <button
+            class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
+            data-dropdown="solutions"
+          >
+            {t('header.solutions')}
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div 
+            class="absolute top-full left-0 mt-2 w-[340px] bg-white rounded-lg shadow-lg border border-gray-200 py-2 max-h-[80vh] overflow-y-auto z-50 hidden dropdown-menu"
+            data-dropdown-menu="solutions"
+          >
+            <!-- Existing Solutions -->
+{solutions.map((solution) => (
+              <a 
+                href={`/${lang}${solution.path}`}
+                class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+              >
+                <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="solution-icon">{solutionEmoji[solution.icon] || '✨'}</span>
+                {solution.title}
+              </a>
+            ))}
+            
+            <!-- SeaHealth Entry -->
+            <a 
+              href={`/${lang}/seahealth`}
+              class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+            >
+              <Fragment set:html={getIcon('Heart', 'h-5 w-5 text-red-500')} />
+              {t('header.solutionsDropdown.seahealth')}
+            </a>
+            
+            <!-- Use Cases Section -->
+            <div class="border-t border-gray-100 mt-2 pt-2">
+              <div class="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wide">
+                {t('header.solutionsDropdown.useCases')}
+              </div>
+              
+              <!-- Small & Medium Businesses -->
+              <div class="mb-2">
+                <div class="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-50">
+                  <span class="text-sm" role="img" aria-label="building">🏢</span>
+                  Small & Medium Businesses
+                </div>
+                <div class="bg-white">
+                  <a href="https://usecase.seasalt.ai/approved-for-twilio-sms-campaign/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Get approved for Twilio SMS campaigns</a>
+                  <a href="https://usecase.seasalt.ai/bulk-send-sms/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Bulk send SMS</a>
+                  <a href="https://usecase.seasalt.ai/whatsapp-business-app-platform-api/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">WhatsApp your customers</a>
+                  <a href="https://usecase.seasalt.ai/call-your-customers-in-batch/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Call your customers in batch</a>
+                  <a href="https://usecase.seasalt.ai/auto-answer-calls-247/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Auto-answer calls 24/7</a>
+                </div>
+              </div>
+              
+              <!-- Healthcare -->
+              <div class="mb-2">
+                <div class="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-50">
+                  <span class="text-sm" role="img" aria-label="plus">➕</span>
+                  Healthcare
+                </div>
+                <div class="bg-white">
+                  <a href="https://usecase.seasalt.ai/voice-ai-calls-to-check-on-seniors/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Voice AI calls to check on seniors</a>
+                  <a href="https://usecase.seasalt.ai/hospital-phone-call-analytics-dashboard/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Phone call analytics dashboard for hospitals</a>
+                </div>
+              </div>
+              
+              <!-- Education -->
+              <div class="mb-2">
+                <div class="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-50">
+                  <span class="text-sm" role="img" aria-label="graduation-cap">🎓</span>
+                  Education
+                </div>
+                <div class="bg-white">
+                  <a href="https://usecase.seasalt.ai/education/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Conversational GenAI for classrooms</a>
+                </div>
+              </div>
+              
+              <!-- Campaign Messaging -->
+              <div class="mb-2">
+                <div class="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-50">
+                  <span class="text-sm" role="img" aria-label="comment-alt">💬</span>
+                  Campaign Messaging
+                </div>
+                <div class="bg-white">
+                  <a href="https://usecase.seasalt.ai/win-campaigns-with-auto-texts-calls/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Win campaigns with automated texts & calls</a>
+                </div>
+              </div>
+              
+              <!-- Speech Analysis -->
+              <div class="mb-1">
+                <div class="flex items-center gap-2 px-4 py-1.5 text-sm font-medium text-gray-800 bg-gray-50">
+                  <span class="text-sm" role="img" aria-label="circle">⚪</span>
+                  Speech Analysis
+                </div>
+                <div class="bg-white">
+                  <a href="https://usecase.seasalt.ai/transcribe-audio-to-discover-insights/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Transcribe audio & calls to discover insights</a>
+                  <a href="https://usecase.seasalt.ai/seameet-global-team-case-study/" class="block px-6 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:text-blue-600" target="_blank" rel="noopener noreferrer">Meeting analytics for remote teams</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Industries Dropdown -->
+        <div class="relative">
+          <button
+            class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
+            data-dropdown="industries"
+          >
+            {t('header.industries')}
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div 
+            class="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
+            data-dropdown-menu="industries"
+          >
+{industries.map((industry) => (
+              <a 
+                href={`/${lang}${industry.path}`}
+                class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+              >
+                <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="industry-icon">{industryEmoji[industry.icon] || '⭐'}</span>
+                {industry.title}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- Channels Dropdown -->
+        <div class="relative">
+          <button
+            class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
+            data-dropdown="channels"
+          >
+            {t('header.channels')}
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div 
+            class="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
+            data-dropdown-menu="channels"
+          >
+{channels.map((channel) => {
+              const brand = channelLogoMap[channel.path];
+              const emoji = nonBrandEmoji[channel.path];
+              return (
+                <a 
+                  href={`/${lang}${channel.path}`}
+                  class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                >
+                  {brand ? (
+                    <img src={brand.url} alt={brand.alt} class="h-5 w-5" loading="lazy" />
+                  ) : emoji ? (
+                    <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="channel-emoji">{emoji}</span>
+                  ) : (
+                    <Fragment set:html={getIcon(channel.icon, 'h-5 w-5 text-gray-400')} />
+                  )}
+                  {channel.title}
+                </a>
+              );
+            })}
+          </div>
+        </div>
+
+        <!-- Compare Dropdown -->
+        <div class="relative">
+          <button
+            class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
+            data-dropdown="compare"
+          >
+            {t('header.compareUs') || 'Compare Us'}
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div 
+            class="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
+            data-dropdown-menu="compare"
+          >
+            {competitors.map((competitor) => (
+              <a 
+                href={`/${lang}${competitor.path}`}
+                class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+              >
+                {competitor.title}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- Pricing Link -->
+        <a
+          href={`/${lang}/pricing`}
+          class="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+        >
+          {t('header.pricing')}
+        </a>
+
+        <!-- Blog Link -->
+        <a
+          href={`/${lang}/blog`}
+          class="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+        >
+          {t('header.blog')}
+        </a>
+      </nav>
+
+      <!-- CTA Buttons -->
+      <div class="hidden lg:flex items-center space-x-4">
+        <!-- Language Switcher -->
+        <LanguageSwitcher lang={lang} />
+        
+        <!-- Sign In Button -->
+        <a
+          href="https://seax.seasalt.ai/signin"
+          class="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+        >
+          {t('header.signIn')}
+        </a>
+        
+        <!-- Start for Free Button -->
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium"
+        >
+          {t('header.startForFree')}
+        </a>
+      </div>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <div class="lg:hidden">
+        <button 
+          class="mobile-menu-toggle inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+          aria-expanded="false"
+        >
+          <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="lg:hidden hidden mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        {solutions.map((solution) => (
+          <a
+            href={`/${lang}${solution.path}`}
+            class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
+          >
+            {solution.title}
+          </a>
+        ))}
+        
+        <a
+          href={`/${lang}/pricing`}
+          class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
+        >
+          {t('header.pricing')}
+        </a>
+        
+        <a
+          href={`/${lang}/blog`}
+          class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
+        >
+          {t('header.blog')}
+        </a>
+        
+        <!-- Login/Signup buttons for mobile -->
+        <div class="border-t border-gray-200 pt-4 mt-4">
+          <a 
+            href="https://seax.seasalt.ai/signin" 
+            class="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors mb-3"
+          >
+            {t('header.signIn')}
+          </a>
+          <a 
+            href="https://seax.seasalt.ai/signup" 
+            class="block px-4 py-3 bg-blue-600 text-white rounded-lg text-center font-medium hover:bg-blue-700 transition-colors"
+          >
+            {t('header.startForFree')}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  // Header dropdown functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const dropdownTriggers = document.querySelectorAll('.dropdown-trigger');
+    const dropdownMenus = document.querySelectorAll('.dropdown-menu');
+    
+    dropdownTriggers.forEach(trigger => {
+      trigger.addEventListener('mouseenter', function() {
+        const dropdownId = this.getAttribute('data-dropdown');
+        const menu = document.querySelector(`[data-dropdown-menu="${dropdownId}"]`);
+        if (menu) {
+          dropdownMenus.forEach(m => m.classList.add('hidden'));
+          menu.classList.remove('hidden');
+        }
+      });
+    });
+
+    dropdownMenus.forEach(menu => {
+      menu.addEventListener('mouseleave', function() {
+        this.classList.add('hidden');
+      });
+    });
+
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', function(event) {
+      if (!event.target.closest('.dropdown-trigger') && !event.target.closest('.dropdown-menu')) {
+        dropdownMenus.forEach(menu => menu.classList.add('hidden'));
+      }
+    });
+
+    // Mobile menu toggle
+    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    
+    if (mobileMenuToggle && mobileMenu) {
+      mobileMenuToggle.addEventListener('click', function() {
+        mobileMenu.classList.toggle('hidden');
+        const expanded = mobileMenu.classList.contains('hidden') ? 'false' : 'true';
+        this.setAttribute('aria-expanded', expanded);
+      });
+    }
+  });
+</script>

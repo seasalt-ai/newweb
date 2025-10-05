@@ -1,0 +1,572 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, type SupportedLanguage, supportedLocales } from '../../../../i18n/helpers';
+import { getMeetingUrl } from '../../../../constants/urls';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translations for server-side rendering
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO metadata - 使用與舊版本相同的翻譯鍵
+const seoTitle = t('seachat.solutions.realEstate.title') || 'SeaChat for Real Estate - Capture Leads & Schedule Showings';
+const seoDescription = t('seachat.solutions.realEstate.subtitle') || 'Transform your real estate business with AI-powered customer support that captures leads, coordinates showings, and provides 24/7 client assistance.';
+const seoKeywords = t('seachat.solutions.realEstate.keywords') || 'SeaChat real estate, property management, lead generation, showing coordination, real estate agent, property search';
+
+// Canonical URL
+const canonicalUrl = `https://seasalt.ai/${currentLang}/seachat/solutions/real-estate`;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${currentLang}/` },
+  { name: 'SeaChat', url: `/${currentLang}/seachat/` },
+  { name: 'Solutions', url: `/${currentLang}/seachat/solutions/` },
+  { name: t('seachat.solutions.realEstate.breadcrumb') || 'Real Estate' }
+];
+
+// Open Graph and Twitter data
+const ogData = {
+  title: seoTitle,
+  description: seoDescription,
+  type: 'website',
+  url: canonicalUrl,
+  image: 'https://seasalt.ai/images/seachat-realestate-og.jpg',
+  site_name: 'Seasalt.ai',
+};
+
+const twitterData = {
+  card: 'summary_large_image',
+  title: seoTitle,  
+  description: seoDescription,
+  image: 'https://seasalt.ai/images/seachat-realestate-twitter.jpg',
+};
+
+// Structured data
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SeaChat Real Estate Solutions",
+  "applicationCategory": "BusinessApplication",
+  "description": seoDescription,
+  "url": canonicalUrl,
+  "operatingSystem": "Web-based",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "description": "Free trial available"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "featureList": [
+    "Property Search Assistance",
+    "Showing Coordination",
+    "Lead Management", 
+    "Client Communication",
+    "Multi-channel Support",
+    "Market Analysis Tools"
+  ],
+  "screenshot": "https://seasalt.ai/images/seachat-realestate-screenshot.jpg"
+};
+
+// Page data - 保持與舊版本相同的翻譯鍵
+const features = [
+  {
+    icon: 'search',
+    titleKey: 'seachat.solutions.realEstate.features.search.title',
+    titleDefault: 'Property Search Assistance',
+    descKey: 'seachat.solutions.realEstate.features.search.description',
+    descDefault: 'Help clients find their perfect property with AI-powered search and recommendations',
+    benefits: [
+      { key: 'seachat.solutions.realEstate.features.search.benefits.matching', default: 'Smart property matching' },
+      { key: 'seachat.solutions.realEstate.features.search.benefits.insights', default: 'Market insights' },
+      { key: 'seachat.solutions.realEstate.features.search.benefits.neighborhood', default: 'Neighborhood information' },
+      { key: 'seachat.solutions.realEstate.features.search.benefits.analysis', default: 'Price analysis' }
+    ]
+  },
+  {
+    icon: 'calendar',
+    titleKey: 'seachat.solutions.realEstate.features.showing.title',
+    titleDefault: 'Showing Coordination',
+    descKey: 'seachat.solutions.realEstate.features.showing.description',
+    descDefault: 'Streamline property showings with automated scheduling and coordination',
+    benefits: [
+      { key: 'seachat.solutions.realEstate.features.showing.benefits.scheduling', default: 'Automated scheduling' },
+      { key: 'seachat.solutions.realEstate.features.showing.benefits.availability', default: 'Availability sync' },
+      { key: 'seachat.solutions.realEstate.features.showing.benefits.reminders', default: 'Reminder notifications' },
+      { key: 'seachat.solutions.realEstate.features.showing.benefits.route', default: 'Route optimization' }
+    ]
+  },
+  {
+    icon: 'users',
+    titleKey: 'seachat.solutions.realEstate.features.leads.title',
+    titleDefault: 'Lead Management',
+    descKey: 'seachat.solutions.realEstate.features.leads.description',
+    descDefault: 'Capture and nurture leads with intelligent qualification and follow-up',
+    benefits: [
+      { key: 'seachat.solutions.realEstate.features.leads.benefits.qualification', default: 'Lead qualification' },
+      { key: 'seachat.solutions.realEstate.features.leads.benefits.followup', default: 'Automated follow-up' },
+      { key: 'seachat.solutions.realEstate.features.leads.benefits.crm', default: 'CRM integration' },
+      { key: 'seachat.solutions.realEstate.features.leads.benefits.tracking', default: 'Conversion tracking' }
+    ]
+  },
+  {
+    icon: 'phone',
+    titleKey: 'seachat.solutions.realEstate.features.communication.title',
+    titleDefault: 'Client Communication',
+    descKey: 'seachat.solutions.realEstate.features.communication.description',
+    descDefault: '24/7 client support for inquiries, updates, and transaction assistance',
+    benefits: [
+      { key: 'seachat.solutions.realEstate.features.communication.benefits.availability', default: '24/7 availability' },
+      { key: 'seachat.solutions.realEstate.features.communication.benefits.updates', default: 'Transaction updates' },
+      { key: 'seachat.solutions.realEstate.features.communication.benefits.assistance', default: 'Document assistance' },
+      { key: 'seachat.solutions.realEstate.features.communication.benefits.market', default: 'Market updates' }
+    ]
+  }
+];
+
+const propertyTypes = [
+  { 
+    nameKey: 'seachat.solutions.realEstate.propertyTypes.residential.name',
+    nameDefault: 'Residential Sales',
+    descKey: 'seachat.solutions.realEstate.propertyTypes.residential.description',
+    descDefault: 'Single-family homes, condos, and townhouses'
+  },
+  { 
+    nameKey: 'seachat.solutions.realEstate.propertyTypes.commercial.name',
+    nameDefault: 'Commercial Real Estate',
+    descKey: 'seachat.solutions.realEstate.propertyTypes.commercial.description',
+    descDefault: 'Office buildings, retail spaces, and warehouses'
+  },
+  { 
+    nameKey: 'seachat.solutions.realEstate.propertyTypes.rental.name',
+    nameDefault: 'Rental Properties',
+    descKey: 'seachat.solutions.realEstate.propertyTypes.rental.description',
+    descDefault: 'Apartment complexes and rental management'
+  },
+  { 
+    nameKey: 'seachat.solutions.realEstate.propertyTypes.luxury.name',
+    nameDefault: 'Luxury Properties',
+    descKey: 'seachat.solutions.realEstate.propertyTypes.luxury.description',
+    descDefault: 'High-end homes and exclusive listings'
+  },
+  { 
+    nameKey: 'seachat.solutions.realEstate.propertyTypes.investment.name',
+    nameDefault: 'Investment Properties',
+    descKey: 'seachat.solutions.realEstate.propertyTypes.investment.description',
+    descDefault: 'Fix-and-flip and rental investments'
+  },
+  { 
+    nameKey: 'seachat.solutions.realEstate.propertyTypes.new.name',
+    nameDefault: 'New Construction',
+    descKey: 'seachat.solutions.realEstate.propertyTypes.new.description',
+    descDefault: 'Builder partnerships and new developments'
+  }
+];
+
+const metrics = [
+  { 
+    value: '65%', 
+    labelKey: 'seachat.solutions.realEstate.metrics.leads.label',
+    labelDefault: 'More Qualified Leads',
+    descKey: 'seachat.solutions.realEstate.metrics.leads.description',
+    descDefault: 'Through intelligent lead qualification'
+  },
+  { 
+    value: '45%', 
+    labelKey: 'seachat.solutions.realEstate.metrics.response.label',
+    labelDefault: 'Faster Response Time',
+    descKey: 'seachat.solutions.realEstate.metrics.response.description',
+    descDefault: 'For client inquiries and requests'
+  },
+  { 
+    value: '80%', 
+    labelKey: 'seachat.solutions.realEstate.metrics.showing.label',
+    labelDefault: 'Showing Efficiency',
+    descKey: 'seachat.solutions.realEstate.metrics.showing.description',
+    descDefault: 'With automated scheduling coordination'
+  },
+  { 
+    value: '90%', 
+    labelKey: 'seachat.solutions.realEstate.metrics.satisfaction.label',
+    labelDefault: 'Client Satisfaction',
+    descKey: 'seachat.solutions.realEstate.metrics.satisfaction.description',
+    descDefault: 'With 24/7 support availability'
+  }
+];
+
+const useCases = [
+  {
+    titleKey: 'seachat.solutions.realEstate.useCases.property.title',
+    titleDefault: 'Property Inquiries',
+    descKey: 'seachat.solutions.realEstate.useCases.property.description',
+    descDefault: 'Handle property questions and provide detailed information',
+    exampleKey: 'seachat.solutions.realEstate.useCases.property.example',
+    exampleDefault: '"Tell me about the 3-bedroom house on Oak Street"',
+    outcomeKey: 'seachat.solutions.realEstate.useCases.property.outcome',
+    outcomeDefault: 'Detailed property information with photos, pricing, and neighborhood data'
+  },
+  {
+    titleKey: 'seachat.solutions.realEstate.useCases.showing.title',
+    titleDefault: 'Showing Requests',
+    descKey: 'seachat.solutions.realEstate.useCases.showing.description',
+    descDefault: 'Schedule property viewings and coordinate with all parties',
+    exampleKey: 'seachat.solutions.realEstate.useCases.showing.example',
+    exampleDefault: '"I\'d like to schedule a showing for this weekend"',
+    outcomeKey: 'seachat.solutions.realEstate.useCases.showing.outcome',
+    outcomeDefault: 'Automated scheduling with agent availability and confirmation'
+  },
+  {
+    titleKey: 'seachat.solutions.realEstate.useCases.market.title',
+    titleDefault: 'Market Analysis',
+    descKey: 'seachat.solutions.realEstate.useCases.market.description',
+    descDefault: 'Provide market insights and property valuations',
+    exampleKey: 'seachat.solutions.realEstate.useCases.market.example',
+    exampleDefault: '"What\'s my home worth in today\'s market?"',
+    outcomeKey: 'seachat.solutions.realEstate.useCases.market.outcome',
+    outcomeDefault: 'Comparative market analysis with recent sales and trends'
+  },
+  {
+    titleKey: 'seachat.solutions.realEstate.useCases.transaction.title',
+    titleDefault: 'Transaction Support',
+    descKey: 'seachat.solutions.realEstate.useCases.transaction.description',
+    descDefault: 'Guide clients through the buying or selling process',
+    exampleKey: 'seachat.solutions.realEstate.useCases.transaction.example',
+    exampleDefault: '"What documents do I need for the closing?"',
+    outcomeKey: 'seachat.solutions.realEstate.useCases.transaction.outcome',
+    outcomeDefault: 'Checklist of required documents with deadlines and instructions'
+  }
+];
+
+const meetingUrl = getMeetingUrl(currentLang);
+---
+
+<Layout 
+  title={seoTitle} 
+  description={seoDescription}
+  keywords={seoKeywords}
+  lang={currentLang}
+  canonicalUrl={canonicalUrl}
+  ogData={ogData}
+  twitterData={twitterData}
+  structuredData={structuredData}
+  breadcrumbs={breadcrumbs}
+>
+  <div>
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-700 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center mb-6">
+            <svg class="w-16 h-16 text-blue-300 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+            </svg>
+            <h1 class="text-5xl md:text-6xl font-bold">
+              {t('seachat.solutions.realEstate.title') || 'Real Estate Solutions'}
+            </h1>
+          </div>
+          <p class="text-2xl text-blue-200 mb-8 max-w-4xl mx-auto">
+            {t('seachat.solutions.realEstate.subtitle') || 'Transform your real estate business with AI-powered customer support that captures leads, coordinates showings, and provides 24/7 client assistance.'}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://chat.seasalt.ai/gpt/signup"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 text-center"
+            >
+              {t('seachat.solutions.realEstate.trialButton') || 'Start Real Estate For Free'}
+            </a>
+            <a
+              href={meetingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all text-center"
+            >
+              {t('seachat.solutions.realEstate.demoButton') || 'Schedule Real Estate Demo'}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.realEstate.featuresTitle') || 'Real Estate Specialized Features'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.realEstate.featuresSubtitle') || 'Purpose-built features for real estate professionals to capture leads and serve clients better.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          {features.map((feature) => (
+            <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
+              <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-2xl flex items-center justify-center mb-6">
+                {feature.icon === 'search' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'calendar' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'users' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                  </svg>
+                )}
+                {feature.icon === 'phone' && (
+                  <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                  </svg>
+                )}
+              </div>
+              
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(feature.titleKey) || feature.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6 text-lg">
+                {t(feature.descKey) || feature.descDefault}
+              </p>
+              
+              <div class="space-y-3">
+                {feature.benefits.map((benefit) => (
+                  <div class="flex items-center space-x-3">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-gray-700">{t(benefit.key) || benefit.default}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Performance Metrics -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.realEstate.metricsTitle') || 'Real Estate Impact Metrics'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.realEstate.metricsSubtitle') || 'Real results from real estate professionals using SeaChat for client support and lead generation.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {metrics.map((metric) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div class="text-4xl font-bold text-blue-600 mb-4">{metric.value}</div>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                {t(metric.labelKey) || metric.labelDefault}
+              </h3>
+              <p class="text-gray-600 text-sm">
+                {t(metric.descKey) || metric.descDefault}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Property Types -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.realEstate.propertyTypesTitle') || 'All Property Types Supported'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.realEstate.propertyTypesSubtitle') || 'Whether you specialize in residential, commercial, or investment properties, we\'ve got you covered.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {propertyTypes.map((type) => (
+            <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all duration-300">
+              <h3 class="text-xl font-bold text-gray-900 mb-3">
+                {t(type.nameKey) || type.nameDefault}
+              </h3>
+              <p class="text-gray-600">
+                {t(type.descKey) || type.descDefault}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            {t('seachat.solutions.realEstate.useCasesTitle') || 'Real Estate Use Cases'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seachat.solutions.realEstate.useCasesSubtitle') || 'See how SeaChat handles typical real estate client interactions and lead generation.'}
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+          {useCases.map((useCase) => (
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+              <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                {t(useCase.titleKey) || useCase.titleDefault}
+              </h3>
+              <p class="text-gray-600 mb-6">
+                {t(useCase.descKey) || useCase.descDefault}
+              </p>
+              
+              <div class="space-y-4">
+                <div class="bg-blue-50 rounded-lg p-4 border-l-4 border-blue-500">
+                  <h4 class="font-semibold text-blue-900 mb-2">
+                    {t('seachat.solutions.realEstate.clientInquiry') || 'Client Inquiry'}:
+                  </h4>
+                  <p class="text-blue-800 italic">
+                    {t(useCase.exampleKey) || useCase.exampleDefault}
+                  </p>
+                </div>
+                
+                <div class="bg-green-50 rounded-lg p-4 border-l-4 border-green-500">
+                  <h4 class="font-semibold text-green-900 mb-2">
+                    {t('seachat.solutions.realEstate.seachatResponse') || 'SeaChat Response'}:
+                  </h4>
+                  <p class="text-green-800">
+                    {t(useCase.outcomeKey) || useCase.outcomeDefault}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Integrations -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              {t('seachat.solutions.realEstate.integrationsTitle') || 'Real Estate Platform Integrations'}
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              {t('seachat.solutions.realEstate.integrationsSubtitle') || 'Seamlessly connect with the tools and platforms you already use to manage your real estate business.'}
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+              {['MLS Systems', 'Zillow Premier Agent', 'Realtor.com', 'HubSpot CRM', 'Chime CRM', 'Follow Up Boss'].map((integration) => (
+                <div class="flex items-center space-x-3">
+                  <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                  <span class="text-gray-700">{integration}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6">
+              {t('seachat.solutions.realEstate.leadCaptureTitle') || 'Lead Capture Example'}
+            </h3>
+            <div class="space-y-4">
+              <div class="bg-white rounded-lg p-4 shadow-sm">
+                <div class="text-sm text-gray-600 mb-2">
+                  {t('seachat.solutions.realEstate.websiteVisitor') || 'Website Visitor'}
+                </div>
+                <p class="text-gray-800">
+                  {t('seachat.solutions.realEstate.visitorQuery') || '"I\'m looking for a 3-bedroom house under $500k"'}
+                </p>
+              </div>
+              
+              <div class="bg-blue-100 rounded-lg p-4">
+                <div class="text-sm text-blue-600 mb-2">
+                  {t('seachat.solutions.realEstate.seachatAI') || 'SeaChat AI'}
+                </div>
+                <p class="text-gray-800">
+                  {t('seachat.solutions.realEstate.aiResponse') || '"I\'d love to help you find the perfect home! I have several 3-bedroom properties under $500k. Can I get your contact information to send you some options?"'}
+                </p>
+              </div>
+              
+              <div class="bg-white rounded-lg p-4 shadow-sm">
+                <div class="text-sm text-gray-600 mb-2">
+                  {t('seachat.solutions.realEstate.websiteVisitor') || 'Website Visitor'}
+                </div>
+                <p class="text-gray-800">
+                  {t('seachat.solutions.realEstate.visitorResponse') || '"Sure! My email is john@email.com"'}
+                </p>
+              </div>
+              
+              <div class="bg-green-100 rounded-lg p-4">
+                <div class="text-sm text-green-600 mb-2">
+                  {t('seachat.solutions.realEstate.systemAction') || 'System Action'}
+                </div>
+                <p class="text-gray-800">
+                  ✅ {t('seachat.solutions.realEstate.leadCaptured') || 'Lead captured and added to CRM with property preferences'}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-indigo-600">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+          {t('seachat.solutions.realEstate.ctaTitle') || 'Ready to Transform Your Real Estate Business?'}
+        </h2>
+        <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+          {t('seachat.solutions.realEstate.ctaSubtitle') || 'Join real estate professionals already using SeaChat to capture more leads, coordinate showings, and provide exceptional client service.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://chat.seasalt.ai/gpt/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center"
+          >
+            {t('seachat.solutions.realEstate.ctaTrialButton') || 'Start Real Estate For Free'}
+          </a>
+          <a
+            href={meetingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all flex items-center justify-center text-center"
+          >
+            {t('seachat.solutions.realEstate.ctaDemoButton') || 'Schedule Real Estate Demo'}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Layout>

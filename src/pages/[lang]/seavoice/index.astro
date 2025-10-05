@@ -1,0 +1,1092 @@
+---
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
+import { getMeetingUrl } from "../../../constants/urls";
+import Layout from '../../../layouts/Layout.astro';
+import VoiceConversationFlow from '../../../components/react/seavoice/VoiceConversationFlow.tsx';
+import VoiceDemo from '../../../components/react/seavoice/VoiceDemo.tsx';
+import InteractiveCallDashboard from '../../../components/react/seavoice/InteractiveCallDashboard.tsx';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+// Extract language from params and validate it
+const { lang } = Astro.params;
+const validatedLang = (lang as SupportedLanguage) || 'en';
+
+// Get translation helpers
+const { t } = await getTranslationHelpers(validatedLang);
+
+// Use translations for SEO - matching original structure
+const seoTitle = t('seo.seavoice.homepage.title') || 'SeaVoice - AI Voice Automation Platform | Seasalt.ai';
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: 'Home', url: `/${validatedLang}/` },
+  { name: 'SeaVoice', url: `/${validatedLang}/seavoice/` }
+];
+const seoDescription = t('seo.seavoice.homepage.description') || 'Transform your customer interactions with AI-powered voice agents. 24/7 availability, unlimited scalability, and seamless integration.';
+const seoKeywords = t('seo.seavoice.homepage.keywords') || 'AI voice, call center software, voice analytics, SeaVoice, intelligent call routing, automated phone system, voice assistant, 24/7 customer service';
+
+// Color mapping for use cases - matching original structure
+const colorClasses = {
+  blue: {
+    bg100: 'bg-blue-100',
+    bg50: 'bg-blue-50',
+    text600: 'text-blue-600',
+    text800: 'text-blue-800',
+    border100: 'border-blue-100'
+  },
+  purple: {
+    bg100: 'bg-purple-100',
+    bg50: 'bg-purple-50', 
+    text600: 'text-purple-600',
+    text800: 'text-purple-800',
+    border100: 'border-purple-100'
+  }
+};
+
+// Use Case Categories - exactly matching the original structure with 9 inbound + 9 outbound
+const useCaseCategories = [
+  {
+    category: t('seavoice.home.useCases.inbound.category') || 'Inbound Solutions',
+    color: 'blue',
+    cases: [
+      {
+        title: t('seavoice.home.useCases.inbound.appointmentBooking.title') || 'Appointment Booking',
+        description: t('seavoice.home.useCases.inbound.appointmentBooking.description') || 'Automated scheduling and management',
+        type: t('seavoice.home.useCases.types.inbound') || 'Inbound',
+        url: '/solutions/inbound/appointment-booking'
+      },
+      {
+        title: t('seavoice.home.useCases.inbound.technicalSupport.title') || 'Technical Support', 
+        description: t('seavoice.home.useCases.inbound.technicalSupport.description') || 'Instant troubleshooting assistance',
+        type: t('seavoice.home.useCases.types.inbound') || 'Inbound',
+        url: '/solutions/inbound/technical-support'
+      },
+      {
+        title: t('seavoice.home.useCases.inbound.virtualAssistant.title') || '24/7 Virtual Assistant',
+        description: t('seavoice.home.useCases.inbound.virtualAssistant.description') || 'Always available customer support',
+        type: t('seavoice.home.useCases.types.inbound') || 'Inbound',
+        url: '/solutions/inbound/virtual-assistant'
+      },
+      {
+        title: t('seavoice.home.useCases.inbound.callTransfer.title') || 'Intelligent Call Transfer',
+        description: t('seavoice.home.useCases.inbound.callTransfer.description') || 'Route calls to the right department',
+        type: t('seavoice.home.useCases.types.inbound') || 'Inbound', 
+        url: '/solutions/inbound/call-transfer'
+      },
+      {
+        title: t('seavoice.home.useCases.inbound.orderTracking.title') || 'Order Tracking',
+        description: t('seavoice.home.useCases.inbound.orderTracking.description') || 'Real-time order status updates',
+        type: t('seavoice.home.useCases.types.inbound') || 'Inbound',
+        url: '/solutions/inbound/order-tracking'
+      },
+      {
+        title: t('seavoice.home.useCases.inbound.paymentProcessing.title') || 'Payment Processing',
+        description: t('seavoice.home.useCases.inbound.paymentProcessing.description') || 'Secure payment collection',
+        type: t('seavoice.home.useCases.types.inbound') || 'Inbound',
+        url: '/solutions/inbound/payment-processing'
+      },
+      {
+        title: t('seavoice.home.useCases.inbound.ivrReplacement.title') || 'IVR Replacement',
+        description: t('seavoice.home.useCases.inbound.ivrReplacement.description') || 'Natural language phone menus',
+        type: t('seavoice.home.useCases.types.inbound') || 'Inbound',
+        url: '/solutions/inbound/ivr-replacement'
+      },
+      {
+        title: t('seavoice.home.useCases.inbound.mentalHealth.title') || 'Mental Health Support',
+        description: t('seavoice.home.useCases.inbound.mentalHealth.description') || 'Compassionate AI assistance',
+        type: t('seavoice.home.useCases.types.inbound') || 'Inbound',
+        url: '/solutions/inbound/mental-health'
+      },
+      {
+        title: t('seavoice.home.useCases.inbound.scamShield.title') || 'Scam Shield',
+        description: t('seavoice.home.useCases.inbound.scamShield.description') || 'Protect against fraudulent calls',
+        type: t('seavoice.home.useCases.types.inbound') || 'Inbound',
+        url: '/solutions/inbound/scam-shield'
+      }
+    ]
+  },
+  {
+    category: t('seavoice.home.useCases.outbound.category') || 'Outbound Solutions',
+    color: 'purple',
+    cases: [
+      {
+        title: t('seavoice.home.useCases.outbound.leadGeneration.title') || 'Lead Generation',
+        description: t('seavoice.home.useCases.outbound.leadGeneration.description') || 'Proactive customer outreach',
+        type: t('seavoice.home.useCases.types.outbound') || 'Outbound',
+        url: '/solutions/outbound/lead-generation'
+      },
+      {
+        title: t('seavoice.home.useCases.outbound.seniorChecks.title') || 'Senior Wellness Checks',
+        description: t('seavoice.home.useCases.outbound.seniorChecks.description') || 'Regular health check-ins',
+        type: t('seavoice.home.useCases.types.outbound') || 'Outbound',
+        url: '/solutions/outbound/senior-checks'
+      },
+      {
+        title: t('seavoice.home.useCases.outbound.surveys.title') || 'Customer Surveys',
+        description: t('seavoice.home.useCases.outbound.surveys.description') || 'Automated feedback collection',
+        type: t('seavoice.home.useCases.types.outbound') || 'Outbound',
+        url: '/solutions/outbound/surveys'
+      },
+      {
+        title: t('seavoice.home.useCases.outbound.collections.title') || 'Collections Service',
+        description: t('seavoice.home.useCases.outbound.collections.description') || 'Professional debt recovery',
+        type: t('seavoice.home.useCases.types.outbound') || 'Outbound',
+        url: '/solutions/outbound/collections'
+      },
+      {
+        title: t('seavoice.home.useCases.outbound.reactivation.title') || 'Customer Reactivation', 
+        description: t('seavoice.home.useCases.outbound.reactivation.description') || 'Win back lapsed customers',
+        type: t('seavoice.home.useCases.types.outbound') || 'Outbound',
+        url: '/solutions/outbound/reactivation'
+      },
+      {
+        title: t('seavoice.home.useCases.outbound.fraudAlerts.title') || 'Fraud Alerts',
+        description: t('seavoice.home.useCases.outbound.fraudAlerts.description') || 'Instant security notifications',
+        type: t('seavoice.home.useCases.types.outbound') || 'Outbound',
+        url: '/solutions/outbound/fraud-alerts'
+      },
+      {
+        title: t('seavoice.home.useCases.outbound.campaigns.title') || 'Marketing Campaigns',
+        description: t('seavoice.home.useCases.outbound.campaigns.description') || 'Targeted promotional calls',
+        type: t('seavoice.home.useCases.types.outbound') || 'Outbound',
+        url: '/solutions/outbound/campaigns'
+      },
+      {
+        title: t('seavoice.home.useCases.outbound.proactiveSupport.title') || 'Proactive Support',
+        description: t('seavoice.home.useCases.outbound.proactiveSupport.description') || 'Prevent issues before they occur',
+        type: t('seavoice.home.useCases.types.outbound') || 'Outbound',
+        url: '/solutions/outbound/proactive-support'
+      },
+      {
+        title: t('seavoice.home.useCases.outbound.renewals.title') || 'Contract Renewals',
+        description: t('seavoice.home.useCases.outbound.renewals.description') || 'Automate renewal processes',
+        type: t('seavoice.home.useCases.types.outbound') || 'Outbound',
+        url: '/solutions/outbound/renewals'
+      }
+    ]
+  }
+];
+
+// Platform steps - exactly 5 as in original
+const platformSteps = [
+  {
+    title: t('seavoice.home.howItWorks.step1.title') || 'Configure AI Agent',
+    description: t('seavoice.home.howItWorks.step1.description') || 'Set up your voice agent with custom prompts and workflows'
+  },
+  {
+    title: t('seavoice.home.howItWorks.step2.title') || 'Connect Phone System',
+    description: t('seavoice.home.howItWorks.step2.description') || 'Integrate with your existing phone infrastructure'
+  },
+  {
+    title: t('seavoice.home.howItWorks.step3.title') || 'Handle Calls 24/7',
+    description: t('seavoice.home.howItWorks.step3.description') || 'AI agents automatically answer and process calls'
+  },
+  {
+    title: t('seavoice.home.howItWorks.step4.title') || 'Real-time Support',
+    description: t('seavoice.home.howItWorks.step4.description') || 'Human oversight and intervention when needed'
+  },
+  {
+    title: t('seavoice.home.howItWorks.step5.title') || 'Analytics & Insights',
+    description: t('seavoice.home.howItWorks.step5.description') || 'Track performance and optimize conversations'
+  }
+];
+
+// Testimonials - matching original
+const testimonials = [
+  {
+    quote: t('seavoice.home.testimonials.quote') || 'SeaVoice has transformed our customer service. We now handle 10x more calls with better satisfaction rates.',
+    author: t('seavoice.home.testimonials.author') || 'Sarah Johnson',
+    role: t('seavoice.home.testimonials.role') || 'Head of Operations',
+    company: t('seavoice.home.testimonials.company') || 'TechCorp Inc.'
+  }
+];
+
+// FAQ items - exactly 11 as in original
+const faqItems = [
+  {
+    question: t('seavoice.home.faq.q1.question') || 'How quickly can SeaVoice be deployed?',
+    answer: t('seavoice.home.faq.q1.answer') || 'SeaVoice can typically be deployed within 24-48 hours, depending on your specific requirements and integrations.'
+  },
+  {
+    question: t('seavoice.home.faq.q2.question') || 'What languages does SeaVoice support?',
+    answer: t('seavoice.home.faq.q2.answer') || 'SeaVoice supports over 30 languages and can be configured for multiple languages simultaneously.'
+  },
+  {
+    question: t('seavoice.home.faq.q3.question') || 'How does SeaVoice handle complex queries?',
+    answer: t('seavoice.home.faq.q3.answer') || 'SeaVoice uses advanced AI to understand context and can seamlessly transfer to human agents when needed.'
+  },
+  {
+    question: t('seavoice.home.faq.q4.question') || 'Is SeaVoice compliant with industry regulations?',
+    answer: t('seavoice.home.faq.q4.answer') || 'Yes, SeaVoice is fully compliant with GDPR, HIPAA, PCI DSS, and other major industry standards.'
+  },
+  {
+    question: t('seavoice.home.faq.q5.question') || 'Can SeaVoice integrate with my existing CRM?',
+    answer: t('seavoice.home.faq.q5.answer') || 'SeaVoice offers robust API integrations with popular CRM systems like Salesforce, HubSpot, and custom solutions.'
+  },
+  {
+    question: t('seavoice.home.faq.q6.question') || 'What is the accuracy rate of voice recognition?',
+    answer: t('seavoice.home.faq.q6.answer') || 'Our voice recognition achieves over 95% accuracy in most languages and continues to improve with use.'
+  },
+  {
+    question: t('seavoice.home.faq.q7.question') || 'How does pricing work?',
+    answer: t('seavoice.home.faq.q7.answer') || 'We offer flexible pricing based on call volume, features needed, and deployment complexity.'
+  },
+  {
+    question: t('seavoice.home.faq.q8.question') || 'Can I customize the AI voice personality?',
+    answer: t('seavoice.home.faq.q8.answer') || 'Yes, you can customize voice tone, personality, and responses to match your brand.'
+  },
+  {
+    question: t('seavoice.home.faq.q9.question') || 'What kind of support do you provide?',
+    answer: t('seavoice.home.faq.q9.answer') || 'We provide 24/7 technical support, training, and ongoing optimization services.'
+  },
+  {
+    question: t('seavoice.home.faq.q10.question') || 'Is there a free trial available?',
+    answer: t('seavoice.home.faq.q10.answer') || 'Yes, we offer a free trial so you can experience SeaVoice capabilities firsthand.'
+  },
+  {
+    question: t('seavoice.home.faq.q11.question') || 'How secure is the call data?',
+    answer: t('seavoice.home.faq.q11.answer') || 'All call data is encrypted and stored securely, meeting the highest security standards.'
+  }
+];
+---
+
+<Layout 
+  title={seoTitle} 
+  description={seoDescription} 
+  keywords={seoKeywords} 
+  lang={validatedLang}
+  headerVersion="seavoice"
+  footerVersion="seavoice"
+  breadcrumbs={breadcrumbs}
+  faqs={faqItems}
+>
+
+  <div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    
+    <!-- Hero Section - Exactly matching UnifiedHomePage -->
+    <section class="relative bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 py-24 lg:py-32 overflow-hidden">
+      <!-- Animated background elements -->
+      <div class="absolute inset-0">
+        <div class="absolute top-0 left-0 w-96 h-96 bg-blue-500/10 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+        <div class="absolute top-0 right-0 w-96 h-96 bg-purple-500/10 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-1000"></div>
+        <div class="absolute bottom-0 left-1/2 w-96 h-96 bg-pink-500/10 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-2000"></div>
+      </div>
+      
+      <!-- Floating particles -->
+      <div class="absolute inset-0 overflow-hidden">
+        {Array.from({ length: 50 }, (_, i) => (
+          <div 
+            key={i}
+            class="absolute w-1 h-1 bg-white/20 rounded-full animate-pulse"
+            style={{
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 3}s`,
+              animationDuration: `${2 + Math.random() * 3}s`
+            }}
+          />
+        ))}
+      </div>
+      
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <!-- Left column - Hero Content -->
+          <div class="text-left">
+            <div class="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-white/80 text-sm font-medium mb-8">
+              <svg class="w-4 h-4 mr-2 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+              {t('seavoice.home.hero.tagline') || 'AI-Powered Voice Automation'}
+            </div>
+            
+            <h1 class="font-bold text-white leading-tight mb-8 tracking-tight" style="font-size: 4rem; line-height: 1.1; font-weight: bold; color: white;">
+              <span class="bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 bg-clip-text text-transparent" style="font-size: inherit;">
+                {t('seavoice.home.hero.title.line1') || 'Transform'}
+              </span>
+              <br />
+              <span class="text-white/90" style="font-size: inherit;">{t('seavoice.home.hero.title.line2') || 'Customer Interactions'}</span>
+            </h1>
+            
+            <p class="text-xl sm:text-2xl text-white/80 leading-relaxed max-w-4xl mb-12 font-light">
+              {t('seavoice.home.hero.subtitle.line1') || 'Experience the future of voice interactions with AI agents that understand, engage,'}
+              <br class="hidden sm:block" />
+              <span class="text-blue-300">{t('seavoice.home.hero.subtitle.line2') || 'and deliver exceptional customer experiences 24/7.'}</span>
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-6 justify-start mb-16">
+              <a 
+                href={getMeetingUrl(validatedLang)} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="group relative bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 flex items-center justify-center overflow-hidden"
+              >
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <span class="relative z-10">{t('seavoice.home.hero.bookDemo') || 'Book a Demo'}</span>
+                <svg class="relative z-10 ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+              
+              <a 
+                href="https://chat.seasalt.ai/signup" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="group relative bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-4 rounded-2xl text-lg font-semibold hover:bg-white/20 transition-all duration-300 flex items-center justify-center"
+              >
+                <span>{t('seavoice.home.hero.signUp') || 'Get Started'}</span>
+                <svg class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right column - VoiceConversationFlow React Island -->
+          <div class="relative">
+            <VoiceConversationFlow 
+              lang={validatedLang} 
+              client:load 
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Voice Demo Section - Matching original -->
+    <section class="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
+            {t('seavoice.home.voiceDemo.title') || 'Experience AI Voice in Action'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seavoice.home.voiceDemo.subtitle') || 'Listen to how our AI handles real customer interactions with natural, intelligent responses.'}
+          </p>
+        </div>
+        <div class="max-w-4xl mx-auto">
+          <VoiceDemo 
+            lang={validatedLang} 
+            client:load 
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Use Cases Section - Exactly matching original with all 18 use cases -->
+    <section class="py-24 bg-white relative overflow-hidden">
+      <!-- Background decorative elements -->
+      <div class="absolute top-0 right-0 w-96 h-96 bg-blue-100/30 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+      <div class="absolute bottom-0 left-0 w-96 h-96 bg-purple-100/30 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
+      
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="text-center mb-20">
+          <div class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full border border-blue-200 text-blue-700 text-sm font-medium mb-6">
+            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+            </svg>
+            {t('seavoice.home.useCases.badge') || 'Proven Solutions'}
+          </div>
+          <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+            {t('seavoice.home.useCases.title.line1') || t('seavoice.home.useCases.title') || 'Powerful Voice Solutions'}
+            <br />
+            {t('seavoice.home.useCases.title.line2') || 'for Every Business Need'}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seavoice.home.useCases.subtitle') || 'From customer service to lead generation, SeaVoice handles it all with intelligent automation.'}
+          </p>
+        </div>
+
+        {useCaseCategories.map((category, categoryIndex) => (
+          <div key={categoryIndex} class="mb-16">
+            <div class="flex items-center mb-8">
+              <div class={`w-12 h-12 ${colorClasses[category.color as keyof typeof colorClasses].bg100} rounded-lg flex items-center justify-center mr-4`}>
+                <svg class={`w-6 h-6 ${colorClasses[category.color as keyof typeof colorClasses].text600}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                </svg>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900">
+                {category.category}
+              </h3>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+{category.cases.map((useCase, index) => (
+                <a 
+                  key={index} 
+href={`/${validatedLang}/seavoice${useCase.url}`}
+                  class={`${colorClasses[category.color as keyof typeof colorClasses].bg50} rounded-xl p-6 hover:shadow-lg transition-all border ${colorClasses[category.color as keyof typeof colorClasses].border100} cursor-pointer group block use-case-card`}
+                  data-url={useCase.url}
+                >
+                  <div class="flex items-center justify-between mb-3">
+                    <span class={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${colorClasses[category.color as keyof typeof colorClasses].bg100} ${colorClasses[category.color as keyof typeof colorClasses].text800}`}>
+                      {useCase.type}
+                    </span>
+                    <svg class={`w-4 h-4 ${colorClasses[category.color as keyof typeof colorClasses].text600} opacity-0 group-hover:opacity-100 transition-opacity`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                  </div>
+                  <h4 class="text-lg font-semibold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">{useCase.title}</h4>
+                  <p class="text-gray-600 text-sm">{useCase.description}</p>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-24 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 relative overflow-hidden">
+      <!-- Background pattern -->
+      <div class="absolute inset-0 opacity-5">
+        <div class="absolute top-1/4 left-1/4 w-2 h-2 bg-blue-600 rounded-full animate-pulse"></div>
+        <div class="absolute top-1/3 right-1/3 w-1 h-1 bg-purple-600 rounded-full animate-pulse" style="animation-delay: 1s;"></div>
+        <div class="absolute bottom-1/4 left-1/3 w-3 h-3 bg-indigo-600 rounded-full animate-pulse" style="animation-delay: 2s;"></div>
+      </div>
+      
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="text-center mb-20">
+          <div class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-indigo-100 to-purple-100 rounded-full border border-indigo-200 text-indigo-700 text-sm font-medium mb-6">
+            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+            {t('seavoice.home.howItWorks.badge') || 'Simple Setup'}
+          </div>
+          <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+            <span>{t('seavoice.home.howItWorks.title.prefix') || 'How'}</span>
+            <span class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mx-2">
+              {t('seavoice.home.howItWorks.title.highlight') || 'It'}
+            </span>
+            <span>{t('seavoice.home.howItWorks.title.suffix') || 'Works'}</span>
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seavoice.home.howItWorks.subtitle') || 'Get started with SeaVoice in five simple steps and transform your customer interactions.'}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 relative">
+          <!-- Connection lines for desktop -->
+          <div class="hidden lg:block absolute top-10 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-200 via-purple-200 to-indigo-200 z-0"></div>
+          
+          {platformSteps.map((step, index) => (
+            <div key={index} class="relative z-10 text-center group">
+              <div class="relative mb-8">
+                <div class="flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 via-purple-500 to-indigo-600 rounded-2xl mb-4 mx-auto shadow-2xl group-hover:shadow-blue-500/25 transition-all duration-300 relative overflow-hidden group-hover:scale-105">
+                  <div class="absolute inset-0 bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <svg class="w-10 h-10 text-white relative z-10 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    {index === 0 && <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>}
+                    {index === 1 && <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>}
+                    {index === 2 && <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>}
+                    {index === 3 && <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>}
+                    {index === 4 && <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>}
+                  </svg>
+                </div>
+                <div class="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full flex items-center justify-center text-white text-sm font-bold shadow-lg">
+                  {index + 1}
+                </div>
+              </div>
+              
+              <div class="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-white/20 group-hover:shadow-xl group-hover:bg-white/90 transition-all duration-300">
+                <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">{step.title}</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">{step.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        
+        <!-- CTA below steps -->
+        <div class="text-center mt-16">
+          <div class="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-green-100 to-emerald-100 rounded-full border border-green-200 text-green-700 text-sm font-medium">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            {t('seavoice.home.howItWorks.liveTime') || 'Go live in 24 hours'}
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+
+
+    <!-- Voice AI vs Human vs Outsourced Services Comparison - Exactly matching original -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-6">{t('seavoice.home.comparison.title') || 'Why Choose SeaVoice?'}</h2>
+          <p class="text-xl text-gray-600">{t('seavoice.home.comparison.subtitle') || 'See how SeaVoice compares to traditional solutions'}</p>
+        </div>
+
+        <div class="w-full">
+          <!-- Header Row -->
+          <div class="grid grid-cols-4 gap-4 mb-8">
+            <div class="text-center">
+              <div class="h-12"></div> <!-- Empty space for feature labels -->
+            </div>
+            <div class="text-center bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border-2 border-purple-200">
+              <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg class="w-6 h-6 text-white fill-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-purple-900">{t('seavoice.home.comparison.seavoiceAI') || 'SeaVoice AI'}</h3>
+            </div>
+            <div class="text-center bg-gray-50 rounded-xl p-6 border border-gray-200">
+              <div class="w-12 h-12 bg-gray-400 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-gray-700">{t('seavoice.home.comparison.fullTimeHuman') || 'Full-time Human'}</h3>
+            </div>
+            <div class="text-center bg-gray-50 rounded-xl p-6 border border-gray-200">
+              <div class="w-12 h-12 bg-gray-400 rounded-full flex items-center justify-center mx-auto mb-3">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold text-gray-700">{t('seavoice.home.comparison.outsourcedService') || 'Outsourced Service'}</h3>
+            </div>
+          </div>
+
+          <!-- Comparison Feature Rows -->
+          <div class="space-y-3 mb-12">
+            <!-- 24/7 Availability -->
+            <div class="grid grid-cols-4 gap-4 items-center py-4 px-6 bg-gray-50/50 rounded-xl hover:bg-gray-50 transition-colors">
+              <div class="font-semibold text-gray-900">{t('seavoice.home.comparison.features.availability') || '24/7 Availability'}</div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                  ✅ {t('seavoice.home.comparison.seavoice.availability') || 'Always on'}
+                </span>
+              </div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800">
+                  ❌ {t('seavoice.home.comparison.human.availability') || '9-5 only'}
+                </span>
+              </div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                  ⚠️ {t('seavoice.home.comparison.outsourced.availability') || 'Extra fees'}
+                </span>
+              </div>
+            </div>
+
+            <!-- Call Volume Handling -->
+            <div class="grid grid-cols-4 gap-4 items-center py-4 px-6 bg-white rounded-xl hover:bg-gray-50/50 transition-colors">
+              <div class="font-semibold text-gray-900">{t('seavoice.home.comparison.features.callVolume') || 'Call Volume Handling'}</div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                  ✅ {t('seavoice.home.comparison.seavoice.callVolume') || '500+ concurrent'}
+                </span>
+              </div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800">
+                  ❌ {t('seavoice.home.comparison.human.callVolume') || '1 call at a time'}
+                </span>
+              </div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                  ⚠️ {t('seavoice.home.comparison.outsourced.callVolume') || '5-10 concurrent'}
+                </span>
+              </div>
+            </div>
+
+            <!-- Language Support -->
+            <div class="grid grid-cols-4 gap-4 items-center py-4 px-6 bg-gray-50/50 rounded-xl hover:bg-gray-50 transition-colors">
+              <div class="font-semibold text-gray-900">{t('seavoice.home.comparison.features.language') || 'Language Support'}</div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                  ✅ {t('seavoice.home.comparison.seavoice.language') || '30+ languages'}
+                </span>
+              </div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800">
+                  ❌ {t('seavoice.home.comparison.human.language') || 'Limited by hire'}
+                </span>
+              </div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                  ⚠️ {t('seavoice.home.comparison.outsourced.language') || 'Extra $/language'}
+                </span>
+              </div>
+            </div>
+
+            <!-- Emotional Intelligence -->
+            <div class="grid grid-cols-4 gap-4 items-center py-4 px-6 bg-white rounded-xl hover:bg-gray-50/50 transition-colors">
+              <div class="font-semibold text-gray-900">{t('seavoice.home.comparison.features.emotional') || 'Emotional Intelligence'}</div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                  ⚠️ {t('seavoice.home.comparison.seavoice.emotional') || 'Basic empathy'}
+                </span>
+              </div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                  ✅ {t('seavoice.home.comparison.human.emotional') || 'High'}
+                </span>
+              </div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                  ⚠️ {t('seavoice.home.comparison.outsourced.emotional') || 'Agent-dependent'}
+                </span>
+              </div>
+            </div>
+
+            <!-- Implementation Time -->
+            <div class="grid grid-cols-4 gap-4 items-center py-4 px-6 bg-gray-50/50 rounded-xl hover:bg-gray-50 transition-colors">
+              <div class="font-semibold text-gray-900">{t('seavoice.home.comparison.features.implementation') || 'Implementation Time'}</div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                  ✅ {t('seavoice.home.comparison.seavoice.implementation') || '<1 day'}
+                </span>
+              </div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800">
+                  ❌ {t('seavoice.home.comparison.human.implementation') || '6-8 week hiring'}
+                </span>
+              </div>
+              <div class="text-center">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                  ⚠️ {t('seavoice.home.comparison.outsourced.implementation') || '2-4 weeks'}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cost Comparison Section -->
+          <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 mb-8">
+            <h3 class="text-2xl font-bold text-center mb-8 text-gray-900">
+              {t('seavoice.home.comparison.costComparison') || '💰 Cost Comparison'}
+            </h3>
+            
+            <div class="space-y-3">
+              <!-- Monthly Cost -->
+              <div class="grid grid-cols-4 gap-4 items-center py-4 px-6 bg-white rounded-xl">
+                <div class="font-semibold text-gray-900">{t('seavoice.home.comparison.features.monthlyCost') || 'Monthly Cost'}</div>
+                <div class="text-center">
+                  <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                    {t('seavoice.home.comparison.seavoice.monthlyCost') || 'Starts at $30'}
+                  </span>
+                </div>
+                <div class="text-center">
+                  <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800">
+                    {t('seavoice.home.comparison.human.monthlyCost') || '$3,397+'}
+                  </span>
+                </div>
+                <div class="text-center">
+                  <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                    {t('seavoice.home.comparison.outsourced.monthlyCost') || '$1,500-$2,500'}
+                  </span>
+                </div>
+              </div>
+
+              <!-- Effective Rate -->
+              <div class="grid grid-cols-4 gap-4 items-center py-4 px-6 bg-white/50 rounded-xl">
+                <div class="font-semibold text-gray-900">{t('seavoice.home.comparison.features.effectiveRate') || 'Effective Rate'}</div>
+                <div class="text-center">
+                  <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                    {t('seavoice.home.comparison.seavoice.effectiveRate') || '$0.12/minute'}
+                  </span>
+                </div>
+                <div class="text-center">
+                  <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800">
+                    {t('seavoice.home.comparison.human.effectiveRate') || '$6.79/call'}
+                  </span>
+                </div>
+                <div class="text-center">
+                  <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                    {t('seavoice.home.comparison.outsourced.effectiveRate') || '$3.00-$5.00/call'}
+                  </span>
+                </div>
+              </div>
+
+              <!-- Hidden Costs -->
+              <div class="grid grid-cols-4 gap-4 items-center py-4 px-6 bg-white rounded-xl">
+                <div class="font-semibold text-gray-900">{t('seavoice.home.comparison.features.hiddenCosts') || 'Hidden Costs'}</div>
+                <div class="text-center">
+                  <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+                    ✅ {t('seavoice.home.comparison.seavoice.hiddenCosts') || 'None'}
+                  </span>
+                </div>
+                <div class="text-center">
+                  <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800">
+                    ❌ {t('seavoice.home.comparison.human.hiddenCosts') || 'Benefits ($800+/mo)'}
+                  </span>
+                </div>
+                <div class="text-center">
+                  <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                    ⚠️ {t('seavoice.home.comparison.outsourced.hiddenCosts') || 'Setup fees'}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Savings Highlight Section -->
+          <div class="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 text-white text-center">
+            <h3 class="text-2xl font-bold mb-6">
+              {t('seavoice.home.comparison.cta.title') || 'Ready to Experience the SeaVoice AI Advantage?'}
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div>
+                <div class="text-4xl font-bold mb-2">{t('seavoice.home.comparison.savings.costVsHuman') || '95%'}</div>
+                <div class="text-sm opacity-90">{t('seavoice.home.comparison.savings.costVsHumanLabel') || 'Cost Savings vs Human'}</div>
+              </div>
+              <div>
+                <div class="text-4xl font-bold mb-2">{t('seavoice.home.comparison.savings.costVsOutsourced') || '80%'}</div>
+                <div class="text-sm opacity-90">{t('seavoice.home.comparison.savings.costVsOutsourcedLabel') || 'Savings vs Outsourced'}</div>
+              </div>
+              <div>
+                <div class="text-4xl font-bold mb-2">{t('seavoice.home.comparison.savings.annualSavings') || '$40K+'}</div>
+                <div class="text-sm opacity-90">{t('seavoice.home.comparison.savings.annualSavingsLabel') || 'Annual Savings'}</div>
+              </div>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href={getMeetingUrl(validatedLang)}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-white text-purple-600 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors hover:scale-105 transform duration-200"
+              >
+                {t('seavoice.home.comparison.cta.bookDemo') || 'Book a Demo'}
+              </a>
+              <a
+                href="https://chat.seasalt.ai/signup"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-white/10 border-2 border-white text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-white/20 transition-colors hover:scale-105 transform duration-200"
+              >
+                {t('seavoice.home.comparison.cta.signUp') || 'Sign Up Now'}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SeaChat Capabilities Section -->
+    <section class="py-16 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold mb-4">
+            <span>{t('seavoice.home.seachat.title.prefix') || t('seavoice.home.seachat.title') || 'Capabilities of SeaVoice is brought to you by '}</span>
+            <span class="text-teal-400">{t('seavoice.home.seachat.title.highlight') || 'SeaChat'}</span>
+            <span>{t('seavoice.home.seachat.title.suffix') || ''}</span>
+          </h2>
+          <p class="text-xl text-gray-300">
+            {t('seavoice.home.seachat.subtitle') || 'An omni-channel and multi-modal no-code agent platform'}
+          </p>
+        </div>
+        
+        <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+          <h3 class="text-2xl font-semibold text-center mb-8">
+            {t('seavoice.home.seachat.teamTitle') || 'One Team, Working Together for You'}
+          </h3>
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Chat AI Agent -->
+            <div class="text-center group hover:transform hover:scale-105 transition-all duration-300">
+              <div class="flex justify-center mb-4">
+                <div class="w-20 h-20 bg-teal-500/20 rounded-full flex items-center justify-center group-hover:bg-teal-500/30 transition-colors">
+                  <svg class="w-10 h-10 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path>
+                  </svg>
+                </div>
+              </div>
+              <h4 class="text-lg font-semibold mb-2 group-hover:text-teal-300 transition-colors">
+                {t('seavoice.home.seachat.chatAgent.title') || 'Chat AI Agent'}
+              </h4>
+              <p class="text-gray-300">
+                {t('seavoice.home.seachat.chatAgent.description') || 'Instant responses across web, mobile, and messaging platforms'}
+              </p>
+            </div>
+            
+            <!-- Human Agent -->
+            <div class="text-center group hover:transform hover:scale-105 transition-all duration-300">
+              <div class="flex justify-center mb-4">
+                <div class="w-20 h-20 bg-blue-500/20 rounded-full flex items-center justify-center group-hover:bg-blue-500/30 transition-colors">
+                  <svg class="w-10 h-10 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                  </svg>
+                </div>
+              </div>
+              <h4 class="text-lg font-semibold mb-2 group-hover:text-blue-300 transition-colors">
+                {t('seavoice.home.seachat.humanAgent.title') || 'Human Agent'}
+              </h4>
+              <p class="text-gray-300">
+                {t('seavoice.home.seachat.humanAgent.description') || 'Seamless handoff for complex queries that need a human touch'}
+              </p>
+            </div>
+            
+            <!-- Voice AI Agent -->
+            <div class="text-center group hover:transform hover:scale-105 transition-all duration-300">
+              <div class="flex justify-center mb-4">
+                <div class="w-20 h-20 bg-purple-500/20 rounded-full flex items-center justify-center group-hover:bg-purple-500/30 transition-colors">
+                  <svg class="w-10 h-10 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path>
+                  </svg>
+                </div>
+              </div>
+              <h4 class="text-lg font-semibold mb-2 group-hover:text-purple-300 transition-colors">
+                {t('seavoice.home.seachat.voiceAgent.title') || 'Voice AI Agent'}
+              </h4>
+              <p class="text-gray-300">
+                {t('seavoice.home.seachat.voiceAgent.description') || 'Natural phone conversations powered by advanced voice AI'}
+              </p>
+            </div>
+          </div>
+          
+          <div class="mt-8 text-center">
+<a 
+href={`/${validatedLang}/seachat`}
+              class="inline-flex items-center text-teal-400 hover:text-teal-300 font-semibold transition-colors group"
+            >
+              {t('seavoice.home.seachat.learnMore') || 'Learn more about SeaChat'}
+              <svg class="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Testimonials Section -->
+    <section class="py-20 bg-gray-900 text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <div class="flex items-center mb-6">
+              {[...Array(5)].map((_, i) => (
+                <svg key={i} class="w-5 h-5 text-yellow-400 fill-current" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                </svg>
+              ))}
+            </div>
+            <blockquote class="text-2xl font-medium leading-relaxed mb-6">
+              "{t('seavoice.home.testimonial.quote') || 'SeaVoice has revolutionized our customer service operations. The AI agents handle 80% of our calls flawlessly, allowing our human agents to focus on complex issues.'}"
+            </blockquote>
+            <div>
+              <div class="font-semibold">{t('seavoice.home.testimonial.author') || 'Sarah Chen'}</div>
+              <div class="text-gray-400">{t('seavoice.home.testimonial.role') || 'Head of Customer Operations'}, {t('seavoice.home.testimonial.company') || 'TechCorp Solutions'}</div>
+            </div>
+          </div>
+          
+          <div class="grid grid-cols-2 gap-6">
+            <div class="text-center">
+              <div class="text-4xl font-bold text-blue-400 mb-2">{t('seavoice.home.testimonial.stat1') || '95%'}</div>
+              <div class="text-gray-400">{t('seavoice.home.testimonial.stat1Label') || 'Call Resolution Rate'}</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-teal-400 mb-2">{t('seavoice.home.testimonial.stat2') || '24/7'}</div>
+              <div class="text-gray-400">{t('seavoice.home.testimonial.stat2Label') || 'Availability'}</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-purple-400 mb-2">{t('seavoice.home.testimonial.stat3') || '60%'}</div>
+              <div class="text-gray-400">{t('seavoice.home.testimonial.stat3Label') || 'Cost Reduction'}</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-orange-400 mb-2">{t('seavoice.home.testimonial.stat4') || '<2s'}</div>
+              <div class="text-gray-400">{t('seavoice.home.testimonial.stat4Label') || 'Average Response Time'}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Call Dashboard -->
+    <InteractiveCallDashboard 
+      lang={validatedLang} 
+      client:load 
+    />
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-slate-100 relative">
+      <!-- Background decorative elements -->
+      <!-- <div class="absolute top-0 left-0 w-72 h-72 bg-blue-100/20 rounded-full -translate-y-1/2 -translate-x-1/2 blur-3xl"></div>
+      <div class="absolute bottom-0 right-0 w-72 h-72 bg-purple-100/20 rounded-full translate-y-1/2 translate-x-1/2 blur-3xl"></div> -->
+      
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="text-center mb-16">
+          <div class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 rounded-full border border-blue-200 text-blue-700 text-sm font-medium mb-6">
+            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            {t('seavoice.home.faq.badge') || 'Got Questions?'}
+          </div>
+          <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+            <span>{t('seavoice.home.faq.title.line1') || 'Frequently Asked'}</span>
+            <br class="hidden sm:block" />
+            <span class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              {t('seavoice.home.faq.title.line2') || 'Questions'}
+            </span>
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            {t('seavoice.home.faq.subtitle') || 'Everything you need to know about SeaVoice AI and how it can transform your business communications'}
+          </p>
+        </div>
+        
+        <!-- Expand/Collapse All Button -->
+        <div class="text-center mb-8">
+          <button
+            id="faq-toggle-all"
+            class="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white rounded-lg px-6 py-3 font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            <span id="toggle-text">{t('seavoice.home.faq.expandAll') || 'Expand All Questions'}</span>
+          </button>
+        </div>
+
+        <div class="space-y-4">
+          {faqItems.map((faq, index) => (
+            <div key={index} class="bg-white/80 backdrop-blur-sm rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 faq-item">
+              <button
+                class="faq-button w-full px-6 py-6 text-left flex items-center justify-between hover:bg-gray-50/50 rounded-2xl transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-20"
+              >
+                <h3 class="text-lg font-semibold text-gray-900 pr-8">{faq.question}</h3>
+                <svg class="faq-chevron w-5 h-5 text-blue-600 flex-shrink-0 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+              
+              <div class="faq-answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                <div class="px-6 pb-6">
+                  <div class="border-t border-gray-100 pt-4">
+                    <p class="text-gray-600 leading-relaxed">{faq.answer}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 bg-gradient-to-r from-blue-600 to-teal-600 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold mb-6">{t('seavoice.home.finalCta.title') || 'Ready to Transform Your Customer Experience?'}</h2>
+        <p class="text-xl mb-8 opacity-90">
+          {t('seavoice.home.finalCta.subtitle') || 'Join thousands of businesses already using SeaVoice to deliver exceptional voice interactions.'}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href={getMeetingUrl(validatedLang)}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors hover:scale-105 transform duration-200"
+          >
+            {t('seavoice.home.finalCta.bookDemo') || 'Book Your Demo'}
+          </a>
+          <a
+            href="https://chat.seasalt.ai/signup"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-white/10 border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white/20 transition-colors hover:scale-105 transform duration-200"
+          >
+            {t('seavoice.home.finalCta.signUp') || 'Start Free Trial'}
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Use case card navigation
+    document.addEventListener('DOMContentLoaded', function() {
+      const useCaseCards = document.querySelectorAll('.use-case-card');
+      const currentLang = window.location.pathname.split('/')[1] || 'en';
+      
+      useCaseCards.forEach(card => {
+        card.addEventListener('click', function() {
+          const url = this.getAttribute('data-url');
+          if (url) {
+            // Navigate to the use case page with language prefix
+            window.location.href = `/${currentLang}/seavoice${url}`;
+          }
+        });
+        
+        // Add keyboard accessibility
+        card.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            this.click();
+          }
+        });
+        
+        // Make it focusable
+        card.setAttribute('tabindex', '0');
+      });
+      
+      // Enhanced FAQ toggle functionality
+      let allExpanded = false;
+      const toggleAllButton = document.getElementById('faq-toggle-all');
+      const toggleText = document.getElementById('toggle-text');
+      const faqItems = document.querySelectorAll('.faq-item');
+      const expandAllText = toggleText.textContent || 'Expand All Questions';
+      const collapseAllText = 'Collapse All';
+      
+      // Individual FAQ toggle
+      faqItems.forEach(item => {
+        const button = item.querySelector('.faq-button');
+        const answer = item.querySelector('.faq-answer');
+        const chevron = button.querySelector('.faq-chevron');
+        
+        button.addEventListener('click', function() {
+          const isOpen = answer.style.maxHeight && answer.style.maxHeight !== '0px';
+          
+          if (isOpen) {
+            answer.style.maxHeight = '0px';
+            chevron.style.transform = 'rotate(0deg)';
+          } else {
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            chevron.style.transform = 'rotate(180deg)';
+          }
+          
+          // Update toggle all button state
+          updateToggleAllState();
+        });
+      });
+      
+      // Expand/Collapse all functionality
+      toggleAllButton.addEventListener('click', function() {
+        allExpanded = !allExpanded;
+        
+        faqItems.forEach(item => {
+          const answer = item.querySelector('.faq-answer');
+          const chevron = item.querySelector('.faq-chevron');
+          
+          if (allExpanded) {
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            chevron.style.transform = 'rotate(180deg)';
+          } else {
+            answer.style.maxHeight = '0px';
+            chevron.style.transform = 'rotate(0deg)';
+          }
+        });
+        
+        toggleText.textContent = allExpanded ? collapseAllText : expandAllText;
+      });
+      
+      // Update toggle all button state based on individual item states
+      function updateToggleAllState() {
+        const openItems = Array.from(faqItems).filter(item => {
+          const answer = item.querySelector('.faq-answer');
+          return answer.style.maxHeight && answer.style.maxHeight !== '0px';
+        });
+        
+        if (openItems.length === faqItems.length) {
+          allExpanded = true;
+          toggleText.textContent = collapseAllText;
+        } else if (openItems.length === 0) {
+          allExpanded = false;
+          toggleText.textContent = expandAllText;
+        }
+      }
+    });
+  </script>
+</Layout>
