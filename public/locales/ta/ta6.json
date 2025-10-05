@@ -1,506 +1,506 @@
 {
   "common": {
-    "tableOfContents": "目次",
+    "tableOfContents": "Table of Contents",
     "loading": {
-      "translations": "翻訳の読み込み...",
-      "blogPosts": "ブログ投稿の読み込み..."
+      "translations": "Loading translations...",
+      "blogPosts": "Loading blog posts..."
     },
     "actions": {
-      "signUp": "サインアップ",
-      "bookDemo": "デモを予約してください",
-      "clearFilters": "フィルターをクリアします",
-      "signUpForFree": "無料でサインアップしてください",
-      "scheduleDemo": "デモをスケジュールします"
+      "signUp": "Sign Up",
+      "bookDemo": "Book A Demo",
+      "clearFilters": "Clear filters",
+      "signUpForFree": "Sign Up For Free",
+      "scheduleDemo": "Schedule Demo"
     }
   },
   "navigation": {
-    "backToHome": "家に戻る",
-    "backToBlog": "ブログに戻ります"
+    "backToHome": "Back to Home",
+    "backToBlog": "Back to Blog"
   },
   "blog": {
-    "searchPlaceholder": "ブログ投稿を検索...",
-    "allCategories": "すべてのカテゴリ",
-    "clearFilters": "フィルターをクリアします",
+    "searchPlaceholder": "Search blog posts...",
+    "allCategories": "All Categories",
+    "clearFilters": "Clear filters",
     "seo": {
-      "title": "ブログ-Seasalt.ai",
-      "description": "AIを搭載した顧客コミュニケーション、ビジネスオートメーション、およびカスタマーエクスペリエンスの将来に関する洞察、ヒント、更新。"
+      "title": "Blog - Seasalt.ai",
+      "description": "Insights, tips, and updates on AI-powered customer communications, business automation, and the future of customer experience."
     },
     "loading": {
-      "text": "ブログ投稿の読み込み..."
+      "text": "Loading blog posts..."
     },
     "nav": {
-      "backToHome": "家に戻る"
+      "backToHome": "Back to Home"
     },
     "hero": {
       "title": "Seasalt.ai",
-      "highlight": "ブログ",
-      "description": "AIを搭載した顧客コミュニケーション、ビジネスオートメーション、およびカスタマーエクスペリエンスの将来に関する洞察、ヒント、更新。"
+      "highlight": "Blog",
+      "description": "Insights, tips, and updates on AI-powered customer communications, business automation, and the future of customer experience."
     },
     "search": {
-      "placeholder": "ブログ投稿を検索..."
+      "placeholder": "Search blog posts..."
     },
     "filter": {
-      "allCategories": "すべてのカテゴリ"
+      "allCategories": "All Categories"
     },
     "empty": {
-      "noPosts": "ブログの投稿は見つかりませんでした。",
-      "noResults": "検索条件に一致する投稿はありません。",
-      "clearFilters": "フィルターをクリアします"
+      "noPosts": "No blog posts found.",
+      "noResults": "No posts match your search criteria.",
+      "clearFilters": "Clear filters"
     },
     "post": {
-      "readMore": "続きを読む→",
-      "updated": "更新"
+      "readMore": "Read More →",
+      "updated": "Updated"
     },
     "newsletter": {
-      "title": "最新の洞察を最新の状態に保ちます",
-      "description": "AIオートメーション、カスタマーエクスペリエンス、およびビジネスの成長に関する最新の記事を受信トレイに直接入手してください。",
-      "emailPlaceholder": "メールを入力してください",
-      "subscribeButton": "購読する"
+      "title": "Stay Updated with Our Latest Insights",
+      "description": "Get the latest articles on AI automation, customer experience, and business growth delivered straight to your inbox.",
+      "emailPlaceholder": "Enter your email",
+      "subscribeButton": "Subscribe"
     }
   },
   "careers": {
     "seo": {
-      "title": "Seasalt.aiでのキャリア",
-      "description": "Seasalt.aiでキャリアの機会を探ります。AIとのビジネスコミュニケーションの世界を変えるための私たちの使命に参加してください。"
+      "title": "Careers at Seasalt.ai",
+      "description": "Explore career opportunities at Seasalt.ai. Join our mission to transform the world of business communication with AI."
     },
     "hero": {
-      "title": "Seasalt.aiでのキャリア",
-      "subtitle": "AIとのビジネスコミュニケーションの世界を変えるための私たちの使命に参加してください。私たちは、この変容を実現するために、世界最高で最も明るい人々を雇います。"
+      "title": "Careers at Seasalt.ai",
+      "subtitle": "Join our mission to transform the world of business communication with AI. We hire the world's best and brightest people to help make this transformation a reality."
     },
     "mission": {
-      "title": "seasalt.aiの使命",
-      "content": "Seasalt.aiの使命は、AIでビジネスの世界を変えることです。私たちは、この変容を実現するために、世界最高で最も明るい人々を雇います。"
+      "title": "Seasalt.ai's Mission",
+      "content": "Seasalt.ai's mission is to transform the world of businesses with AI. We hire the world's best and brightest people to help make this transformation a reality."
     },
     "vision": {
-      "title": "seasalt.aiのビジョン",
-      "content": "Seasalt.aiのビジョンは、人間がAIと共存する世界を創造することです。B2Cを念頭に置いてB2Bを解決します。"
+      "title": "Seasalt.ai's Vision",
+      "content": "Seasalt.ai's vision is to create a world where humans coexist with AI. We solve B2B with B2C in mind."
     },
     "departments": {
-      "business": "仕事",
-      "product": "製品",
-      "engineering": "エンジニアリング"
+      "business": "Business",
+      "product": "Product",
+      "engineering": "Engineering"
     },
     "positions": {
       "businessDeveloper": {
-        "title": "ビジネス開発者",
-        "location": "リモート",
-        "type": "フルタイム"
+        "title": "Business Developer",
+        "location": "Remote",
+        "type": "Full-time"
       },
       "fieldMarketingDirectSales": {
-        "title": "フィールドマーケティングと直接販売",
-        "location": "リモート",
-        "type": "フルタイム"
+        "title": "Field Marketing & Direct Sales",
+        "location": "Remote",
+        "type": "Full-time"
       },
       "technicalProductManager": {
-        "title": "テクニカルプロダクトマネージャー",
-        "location": "リモート",
-        "type": "フルタイム"
+        "title": "Technical Product Manager",
+        "location": "Remote",
+        "type": "Full-time"
       },
       "productMarketing": {
-        "title": "製品マーケティング",
-        "location": "リモート",
-        "type": "フルタイム"
+        "title": "Product Marketing",
+        "location": "Remote",
+        "type": "Full-time"
       },
       "frontendEngineer": {
-        "title": "フロントエンジニア",
-        "location": "リモート",
-        "type": "フルタイム"
+        "title": "Frontend Engineer",
+        "location": "Remote",
+        "type": "Full-time"
       },
       "backendEngineer": {
-        "title": "バックエンドエンジニア",
-        "location": "リモート",
-        "type": "フルタイム"
+        "title": "Backend Engineer",
+        "location": "Remote",
+        "type": "Full-time"
       },
       "devOps": {
-        "title": "DevOpsエンジニア",
-        "location": "リモート",
-        "type": "フルタイム"
+        "title": "DevOps Engineer",
+        "location": "Remote",
+        "type": "Full-time"
       },
       "mlEngineerNLP": {
-        "title": "機械学習エンジニア（NLP）",
-        "location": "リモート",
-        "type": "フルタイム"
+        "title": "Machine Learning Engineer (NLP)",
+        "location": "Remote",
+        "type": "Full-time"
       },
       "mlEngineerLanguageModeling": {
-        "title": "機械学習エンジニア（言語モデリング）",
-        "location": "リモート",
-        "type": "フルタイム"
+        "title": "Machine Learning Engineer (Language Modeling)",
+        "location": "Remote",
+        "type": "Full-time"
       },
       "mlEngineerSpeechRecognition": {
-        "title": "機械学習エンジニア（音声認識）",
-        "location": "リモート",
-        "type": "フルタイム"
+        "title": "Machine Learning Engineer (Speech Recognition)",
+        "location": "Remote",
+        "type": "Full-time"
       }
     },
     "common": {
-      "detail": "詳細を表示します"
+      "detail": "View Details"
     }
   },
   "company": {
     "seo": {
-      "title": "Seasalt.aiについて - 会社の情報とリーダーシップ",
-      "description": "クラウド通信AIテクノロジーソリューションの大手プロバイダーであるSeasalt.aiについて学びます。AIの専門家によって設立され、Omnichannel AIプラットフォームとのビジネスコミュニケーションを変革しています。"
+      "title": "About Seasalt.ai - Company Information & Leadership",
+      "description": "Learn about Seasalt.ai, a leading provider of cloud communication AI technology solutions. Founded by AI experts, we're transforming business communications with omnichannel AI platforms."
     },
     "hero": {
-      "title": "seasalt.aiについて",
-      "description": "Seasalt.aiは、世界中の企業向けの統一された多言語、およびオムニチャネルプラットフォームを構築するクラウド通信AIテクノロジーソリューションの大手プロバイダーです。AIおよびVoice Technologiesの業界退役軍人によって2020年に設立されたSeasalt.aiは、エンタープライズグレードの会話型AIをすべての人がアクセスしやすく、安全で、スケーラブルにすることを使命としています。",
-      "subtitle": "中小企業から非営利団体、公共部門の組織まで、Seasalt.aiはチームにコミュニケーションを自動化し、顧客体験を向上させ、成長のための新しいチャネルのロックを解除することができます。"
+      "title": "About Seasalt.ai",
+      "description": "Seasalt.ai is a leading provider of cloud communication AI technology solutions, building unified, multilingual, and omnichannel platforms for businesses around the world. Founded in 2020 by industry veterans in AI and voice technologies, Seasalt.ai is on a mission to make enterprise-grade conversational AI accessible, secure, and scalable for everyone.",
+      "subtitle": "From SMEs to non-profits to public sector organizations, Seasalt.ai empowers teams to automate communication, elevate customer experiences, and unlock new channels for growth."
     },
     "mission": {
-      "title": "私たちの使命と価値",
-      "heading": "私たちの使命",
-      "text": "AIとのビジネスコミュニケーションの世界を変革します。あらゆるチャネルで、どこでも自然で実用的な会話を構築します。",
-      "statement": "私たちは、メッセージング、声、ウェブを介して話をし、耳を傾け、行動するAIエージェントを構築し、人間が本当に重要なことに集中できるようにします。",
-      "future": "私たちは、仕事の未来はAIの熟成であり、AIが補償されていないと考えています。私たちのテクノロジーは、人々が仕事をより良く、より速く、より有意義に行うのに役立ちます。"
+      "title": "Our Mission & Values",
+      "heading": "Our Mission",
+      "text": "Transform the world of business communication with AI—building natural, actionable conversations anywhere, on any channel.",
+      "statement": "We build AI agents that talk, listen, and act — across messaging, voice, and web — so humans can focus on what truly matters.",
+      "future": "We believe the future of work is AI-augmented, not AI-replaced. Our technology helps people do their jobs better, faster, and more meaningfully."
     },
     "vision": {
-      "heading": "私たちのビジョン",
-      "text": "人間とAIがシームレスに協力し、シンプルさ、信頼、技術の卓越性に根ざしたビジネス価値を提供する世界を作ります。"
+      "heading": "Our Vision",
+      "text": "Create a world where humans and AI collaborate seamlessly, delivering business value rooted in simplicity, trust, and technological excellence."
     },
     "values": {
-      "title": "core私たちのコアバリュー",
+      "title": "🧭 Our Core Values",
       "humanFirst": {
-        "title": "最初に人間",
-        "description": "すべてのAIソリューションの中心に人々を置きま​​す。"
+        "title": "Human First",
+        "description": "Putting people at the center of all our AI solutions."
       },
       "transparency": {
-        "title": "透明性",
-        "description": "私たちのチーム全体と顧客とのオープンで正直なコミュニケーション。"
+        "title": "Transparency",
+        "description": "Open and honest communication across our team and with customers."
       },
       "speedSafety": {
-        "title": "速度と安全",
-        "description": "最高の安全基準を維持しながら、高速ソリューションを提供します。"
+        "title": "Speed & Safety",
+        "description": "Delivering fast solutions while maintaining the highest safety standards."
       },
       "buildPurpose": {
-        "title": "目的を持って構築します",
-        "description": "すべての製品と機能は、意味のある目標に役立ちます。"
+        "title": "Build with Purpose",
+        "description": "Every product and feature serves a meaningful goal."
       },
       "globalEmpathy": {
-        "title": "グローバルな共感",
-        "description": "文化的感受性と世界的な影響を伴うソリューションの設計。"
+        "title": "Global Empathy",
+        "description": "Designing solutions with cultural sensitivity and worldwide impact."
       }
     },
     "leadership": {
       "0": {
-        "role": "CEOおよび共同設立者",
-        "bio": "以前は共同設立されたKitt.ai（AmazonとMicrosoftが支援し、Baiduが買収）。2回の創設者であり、AIの専門家が認められています。Johns Hopkins University CLSPからの自然言語処理の博士号。",
+        "role": "CEO & Co-Founder",
+        "bio": "Previously co-founded KITT.AI (backed by Amazon and Microsoft, acquired by Baidu). Two-time founder and recognized AI expert. PhD in Natural Language Processing from Johns Hopkins University CLSP.",
         "homepage": "https://xuchen.github.io/"
       },
       "1": {
-        "role": "CTO＆共同設立者",
-        "bio": "Kitt.aiの共同設立者でもあるSpeech Technologyの専門家。多言語の音声認識と会話AIの深い経験。ジョンズ・ホプキンス大学CLSPからの音声認識の博士号。",
+        "role": "CTO & Co-Founder",
+        "bio": "Expert in speech technology, also co-founder of KITT.AI. Deep experience in multilingual speech recognition and conversational AI. PhD in Speech Recognition from Johns Hopkins University CLSP.",
         "scholar": "https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao"
       },
-      "title": "リーダーシップと共同設立者",
-      "homepage": "ホームページ",
+      "title": "Leadership & Co-founders",
+      "homepage": "Homepage",
       "scholar": "Google Scholar"
     },
     "offices": {
-      "title": "オフィスの場所",
+      "title": "Office Locations",
       "list": [
         {
-          "title": "グローバル本部",
-          "location": "シアトル、ワシントン、米国"
+          "title": "Global Headquarters",
+          "location": "Seattle, Washington, USA"
         },
         {
-          "title": "アジアの研究開発およびサポートセンター",
-          "location": "台湾、台湾"
+          "title": "Asia R&D and Support Center",
+          "location": "Taipei, Taiwan"
         }
       ]
     },
     "products": {
-      "title": "私たちが構築するもの",
-      "subtitle": "製品ポートフォリオ",
-      "downloadPressKit": "製品ロゴ＆プレスキットをダウンロードします",
+      "title": "What We Build",
+      "subtitle": "Product Portfolio",
+      "downloadPressKit": "Download the Product Logo & Press Kit",
       "product1": {
-        "name": "Seachat（Response's）",
-        "description": "AI搭載、多言語、オムニチャネルカスタマーサービス（WhatsApp、FB Messenger、Instagram、Line、Web、SMS、Voice）。"
+        "name": "SeaChat (Response AI)",
+        "description": "AI-powered, multilingual, omnichannel customer service (WhatsApp, FB Messenger, Instagram, Line, web, SMS, voice)."
       },
       "product2": {
-        "name": "セックス（otreachAI）",
-        "description": "アウトバウンドエンゲージメント、ダイヤルパッド、キャンペーン、販売およびマーケティングのためのバルクSMS/WhatsApp/Voice。"
+        "name": "SeaX (Outreach AI)",
+        "description": "Outbound engagement, dialpad, campaigns, bulk SMS/WhatsApp/voice for sales and marketing."
       },
       "product3": {
-        "name": "シーミート（InsightsAI）",
-        "description": "AI Meeting Copilot：自動分析、概要、セマンティック分析、音声AIのビジネスミーティング。"
+        "name": "SeaMeet (Insights AI)",
+        "description": "AI meeting copilot: automated minutes, summaries, semantic analytics, and voice AI for business meetings."
       },
       "product4": {
-        "name": "Seavoice（音声オートパイロット）",
-        "description": "高度な音声AIインフラストラクチャインバウンドおよびアウトバウンドコール用の人間のような電話エージェントを可能にします - 最先端のLLMと音声認識で構築されました。"
+        "name": "SeaVoice (Voice Autopilot)",
+        "description": "Advanced voice AI infrastructure enabling human-like phone agents for inbound and outbound calls — built with state-of-the-art LLMs and speech recognition."
       }
     },
     "funding": {
-      "title": "資金と投資家",
-      "seedFunding": "シード資金",
-      "raised": "2024年に420万ドルが調達されました",
-      "investorsTitle": "私たちの投資家は次のとおりです。",
+      "title": "Funding & Investors",
+      "seedFunding": "Seed Funding",
+      "raised": "$4.2 million USD raised in 2024",
+      "investorsTitle": "Our investors include:",
       "investorsList": [
-        "ベンチャーパートナーのロックを解除する（リード投資家）",
-        "Zベンチャーキャピタル（ZVC、ラインのコーポレートベンチャーアーム）",
-        "SparkLabs Group（SparkLabs Taiwan）",
-        "グランドビジョンキャピタルグループ",
-        "患者の力"
+        "Unlock Venture Partners (Lead Investor)",
+        "Z Venture Capital (ZVC, the corporate venture arm of LINE)",
+        "SparkLabs Group (SparkLabs Taiwan)",
+        "Grand Vision Capital Group",
+        "PatientsForce"
       ]
     },
     "partnership": {
-      "title": "戦略的パートナーシップ",
-      "description": "私たちのプラットフォームの力は、グローバルなテクノロジーリーダーとの深い戦略的パートナーシップによって増幅されます。"
+      "title": "Strategic Partnerships",
+      "description": "Our platform's power is amplified by deep, strategic partnerships with global technology leaders:"
     },
     "partnerships": {
       "list": [
         {
-          "description": "Twilio Goldのパートナーであり、Twilio Flexの認定再販業者として、会話型AIでの顧客体験を強化するための戦略的関係が強化されています。アジア太平洋地域および日本（APJ）地域での拡大の鍵。",
-          "type": "ゴールドパートナー"
+          "description": "As a Twilio Gold Partner and authorized reseller of Twilio Flex, we have a strengthened strategic relationship to enhance customer experience with conversational AI. Key to our expansion in the Asia-Pacific and Japan (APJ) region.",
+          "type": "Gold Partner"
         },
         {
-          "description": "Facebook/WhatsApp/Instagramとの公式プラットフォームの統合により、シームレスなオムニチャネル通信が可能になります。",
-          "type": "公式統合"
+          "description": "Official platform integrations with Facebook/WhatsApp/Instagram, enabling seamless omnichannel communications.",
+          "type": "Official Integration"
         },
         {
-          "description": "パートナーシップにより、高度な電子メールとスケジューリング機能をアプリケーションに直接構築し、AIエージェントのコンテキスト深さを強化することができます。",
-          "type": "戦略的パートナー"
+          "description": "Partnership allows us to seamlessly build advanced email and scheduling features directly into our applications, enhancing the contextual depth of our AI agents.",
+          "type": "Strategic Partner"
         },
         {
-          "description": "投資家ZVCを通じて、ラインが支配的なコミュニケーションプラットフォームである主要なアジア市場での戦略にとって重要なラインのビジネスコールAPIにユニークなアクセスがあります。",
-          "type": "戦略的なパートナーと投資"
+          "description": "Through our investor ZVC, we have unique access to LINE's business call APIs, critical for our strategy in key Asian markets where LINE is the dominant communication platform.",
+          "type": "Strategic Partner and Investment"
         }
       ]
     },
     "timeline": {
-      "title": "私たちの旅",
-      "subtitle": "ビジネスコミュニケーションを変革するという私たちの使命における重要なマイルストーン",
+      "title": "Our Journey",
+      "subtitle": "Key milestones in our mission to transform business communications",
       "list": [
         {
-          "event": "seasalt.ai AIおよびVoice Technologiesの業界退役軍人によって設立された"
+          "event": "Seasalt.ai founded by industry veterans in AI and voice technologies"
         },
         {
-          "event": "生き残ったCovid 19。誰も手放されませんでした。"
+          "event": "Surviving Covid19. No one was let go."
         },
         {
-          "event": "Seachat Omnichannelカスタマーサービスプラットフォームの発売"
+          "event": "Launch of SeaChat omnichannel customer service platform"
         },
         {
-          "event": "SeaxのアウトリーチAIおよびSeameet Insights AIの導入"
+          "event": "Introduction of SeaX outreach AI and SeaMeet insights AI"
         },
         {
-          "event": "Seavoice Advanced Voice AIインフラストラクチャの発売"
+          "event": "Launch of SeaVoice advanced voice AI infrastructure"
         }
       ]
     },
     "careers": {
-      "title": "Seasalt.aiでのキャリア",
-      "description": "Seasalt.aiは、常にエンジニア、AIの科学者、開発者、ビジネスビルダーを求めており、グローバルで多様な、遠隔に優しい文化で運営されています。",
-      "cta": "オープンポジションを参照してください",
-      "bullet1": "グローバル、多様で、遠隔に優しい文化",
-      "bullet2": "最先端のAIテクノロジーを使用します",
-      "bullet3": "ビジネスコミュニケーションに本当の影響を与えます",
-      "bullet4": "業界の退役軍人と協力します"
+      "title": "Careers at Seasalt.ai",
+      "description": "Seasalt.ai operates with a global, diverse, and remote-friendly culture, always seeking engineers, AI scientists, developers, and business builders.",
+      "cta": "See open positions",
+      "bullet1": "Global, diverse, and remote-friendly culture",
+      "bullet2": "Work with cutting-edge AI technology",
+      "bullet3": "Make real impact in business communications",
+      "bullet4": "Collaborate with industry veterans"
     },
     "contact": {
-      "title": "連絡＆プレス",
+      "title": "Contact & Press",
       "press": {
-        "title": "プレス＆メディア",
+        "title": "Press & Media",
         "email": "press@seasalt.ai"
       },
       "investors": {
-        "title": "投資家",
-        "email": "Invest@seaSalt.ai"
+        "title": "Investors",
+        "email": "invest@seasalt.ai"
       },
       "partnerships": {
-        "title": "パートナーシップ",
-        "email": "Partnerships@seasalt.ai"
+        "title": "Partnerships",
+        "email": "partnerships@seasalt.ai"
       },
       "hotline": {
-        "title": "24/7ホットライン",
-        "number": "+1-（SMB）-ai-agent"
+        "title": "24/7 Hotline",
+        "number": "+1-(SMB)-AI-AGENT"
       },
-      "downloadPressKit": "製品ロゴ＆プレスキットをダウンロードします",
-      "tagline": "Seasalt.ai  - ビジネスコミュニケーションにおける革新と影響を練り、世界中のチームがクラウドAIにアクセスできるようにします。",
+      "downloadPressKit": "Download the Product Logo & Press Kit",
+      "tagline": "Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide.",
       "pressKit": {
-        "downloadText": "製品ロゴ＆プレスキットをダウンロードします",
-        "description": "Seasalt.ai  - ビジネスコミュニケーションにおける革新と影響を練り、世界中のチームがクラウドAIにアクセスできるようにします。"
+        "downloadText": "Download the Product Logo & Press Kit",
+        "description": "Seasalt.ai—bridging innovation and impact in business communication, making cloud AI accessible for teams worldwide."
       }
     },
     "newsletter": {
-      "title": "ニュースレターにサインアップしてください",
-      "subtitle": "CEOによって書かれた週に1週間",
-      "description": "リーダーシップチームから直接、AI、ビジネスコミュニケーション、および仕事の未来に関する洞察を得てください。",
-      "emailPlaceholder": "メールアドレスを入力してください",
-      "cta": "購読する",
-      "disclaimer": "スパムはありません、いつでも登録解除。私たちはあなたのプライバシーを尊重します。"
+      "title": "Sign Up to Our Newsletter",
+      "subtitle": "One per week, written by the CEO",
+      "description": "Get insights on AI, business communications, and the future of work directly from our leadership team.",
+      "emailPlaceholder": "Enter your email address",
+      "cta": "Subscribe",
+      "disclaimer": "No spam, unsubscribe at any time. We respect your privacy."
     },
     "useCaseCategories": {
-      "smallMediumBusinesses": "中小企業",
-      "healthcare": "健康管理",
-      "education": "教育",
-      "campaignMessaging": "キャンペーンメッセージング",
-      "speechAnalysis": "音声分析"
+      "smallMediumBusinesses": "Small & Medium Businesses",
+      "healthcare": "Healthcare",
+      "education": "Education",
+      "campaignMessaging": "Campaign Messaging",
+      "speechAnalysis": "Speech Analysis"
     },
     "useCaseLinks": {
-      "getTwilioApproval": "Twilio SMSキャンペーンの承認を受けてください",
-      "bulkSendSms": "バルクはSMSを送信します",
-      "whatsappCustomers": "WhatsAppあなたの顧客",
-      "callCustomersBatch": "バッチで顧客に電話してください",
-      "autoAnswerCalls": "24/7の自動回答",
-      "voiceAiSeniors": "Voice AIは、高齢者をチェックするために電話をかけます",
-      "hospitalAnalytics": "病院向けの電話分析ダッシュボード",
-      "conversationalGenAi": "教室用の会話genai",
-      "winCampaigns": "自動化されたテキストとコールでキャンペーンを獲得します",
-      "transcribeAudio": "洞察を発見するために、オーディオと電話を転写します",
-      "meetingAnalytics": "リモートチームの分析に会う"
+      "getTwilioApproval": "Get approved for Twilio SMS campaigns",
+      "bulkSendSms": "Bulk send SMS",
+      "whatsappCustomers": "WhatsApp your customers",
+      "callCustomersBatch": "Call your customers in batch",
+      "autoAnswerCalls": "Auto-answer calls 24/7",
+      "voiceAiSeniors": "Voice AI calls to check on seniors",
+      "hospitalAnalytics": "Phone call analytics dashboard for hospitals",
+      "conversationalGenAi": "Conversational GenAI for classrooms",
+      "winCampaigns": "Win campaigns with automated texts & calls",
+      "transcribeAudio": "Transcribe audio & calls to discover insights",
+      "meetingAnalytics": "Meeting analytics for remote teams"
     }
   },
   "solutions": {
     "salesMarketing": {
       "seo": {
-        "title": "Sales＆Marketing Solutions -Seasalt.ai",
-        "description": "より多くのリードをキャプチャし、より速く応答し、すべてのチャネル全体で機能するインテリジェントオートメーションでより良く変換します。あなたの見込み客は、取引の閉会に集中している間、即座の回答を得ることができます。"
+        "title": "Sales & Marketing Solutions - Seasalt.ai",
+        "description": "Capture more leads, respond faster, and convert better with intelligent automation that works across every channel. Your prospects get instant responses while you focus on closing deals."
       },
       "navigation": {
-        "backToHome": "家に戻る"
+        "backToHome": "Back to Home"
       },
       "hero": {
-        "title1": "すべてのリードをに変えます",
-        "titleGradient": "収益の機会",
-        "subtitle": "眠らないAIを搭載した販売およびマーケティングオートメーション",
-        "description": "より多くのリードをキャプチャし、より速く応答し、すべてのチャネル全体で機能するインテリジェントオートメーションでより良く変換します。あなたの見込み客は、取引の閉会に集中している間、即座の回答を得ることができます。",
+        "title1": "Turn Every Lead into",
+        "titleGradient": "Revenue Opportunity",
+        "subtitle": "AI-Powered Sales & Marketing Automation That Never Sleeps",
+        "description": "Capture more leads, respond faster, and convert better with intelligent automation that works across every channel. Your prospects get instant responses while you focus on closing deals.",
         "cta": {
-          "primary": "コンバージョンを後押しします",
-          "secondary": "デモを予約してください"
+          "primary": "Boost Your Conversions",
+          "secondary": "Book A Demo"
         },
         "dashboard": {
-          "title": "販売パフォーマンス",
-          "leads": "🎯47今日キャプチャされた新しいリード",
-          "leadsQualified": "AIは23を優先順位として修飾しました",
-          "responseTime": "⚡平均応答時間：12秒",
-          "responseTimeBenefit": "業界平均よりも300％速い",
-          "demos": "📅自動的に予約された15デモ",
-          "demosNote": "あなたのチームが会議に参加している間",
-          "pipeline": "今週追加された24,500ドルのパイプライン",
-          "conversion": "45％の変換率の改善"
+          "title": "Sales Performance",
+          "leads": "🎯 47 new leads captured today",
+          "leadsQualified": "AI qualified 23 as high-priority",
+          "responseTime": "⚡ Average response time: 12 seconds",
+          "responseTimeBenefit": "300% faster than industry average",
+          "demos": "📅 15 demos booked automatically",
+          "demosNote": "While your team was in meetings",
+          "pipeline": "💰 $24,500 pipeline added this week",
+          "conversion": "45% conversion rate improvement"
         }
       },
       "challenges": {
-        "title": "販売とマーケティングの課題",
-        "description": "あなたがリードに応答していない毎分は、あなたの競争相手がいるかもしれません。マニュアルプロセスに収益がかかるようにしないでください。",
+        "title": "Sales & Marketing Challenges",
+        "description": "Every minute you're not responding to a lead is a minute your competitor might be. Don't let manual processes cost you revenue.",
         "leadGeneration": {
-          "title": "リードジェネレーションと資格",
-          "description": "複数のチャネルにわたってリードを獲得し、効率的に資格を得るのに苦労しています"
+          "title": "Lead Generation & Qualification",
+          "description": "Struggling to capture leads across multiple channels and qualify them efficiently"
         },
         "conversion": {
-          "title": "変換の最適化",
-          "description": "応答時間が遅いため見込み客を変換する機会がない"
+          "title": "Conversion Optimization",
+          "description": "Missing opportunities to convert prospects due to slow response times"
         },
         "campaignManagement": {
-          "title": "キャンペーン管理",
-          "description": "マルチチャネルキャンペーンの管理とその効果の追跡が困難です"
+          "title": "Campaign Management",
+          "description": "Difficulty managing multi-channel campaigns and tracking their effectiveness"
         }
       },
       "solutions": {
-        "title": "AI搭載の販売エンジン",
-        "description": "販売およびマーケティングオペレーションを、24時間周辺のリードをキャプチャ、資格、変換するインテリジェントオートメーションで変換します。",
+        "title": "Your AI-Powered Sales Engine",
+        "description": "Transform your sales and marketing operations with intelligent automation that captures, qualifies, and converts leads around the clock.",
         "leadCapture": {
-          "title": "インテリジェントなリードキャプチャと資格",
-          "description": "すべてのチャネルからリードをキャプチャし、AIに即座に資格を与えます",
-          "benefit1": "ウェブサイト、ソーシャルメディア、広告からのリードをキャプチャします",
-          "benefit2": "AIはスマートな質問でリードを修飾します",
-          "benefit3": "自動リードスコアリングと優先順位付け",
-          "benefit4": "ホット見込み客向けのインスタント通知"
+          "title": "Intelligent Lead Capture & Qualification",
+          "description": "Capture leads from every channel and let AI qualify them instantly",
+          "benefit1": "Capture leads from website, social media, and ads",
+          "benefit2": "AI qualifies leads with smart questioning",
+          "benefit3": "Automatic lead scoring and prioritization",
+          "benefit4": "Instant notifications for hot prospects"
         },
         "responseTime": {
-          "title": "稲妻の応答時間",
-          "description": "AIオートメーションで数時間ではなく数秒以内に見込み客に対応する",
-          "benefit1": "24時間年中無休のすべての問い合わせへのインスタント応答",
-          "benefit2": "AIはデモと相談を自動的に予約します",
-          "benefit3": "育てるスマートフォローアップシーケンスがリードします",
-          "benefit4": "準備ができたら、営業担当者へのシームレスなハンドオフ"
+          "title": "Lightning-Fast Response Times",
+          "description": "Respond to prospects within seconds, not hours, with AI automation",
+          "benefit1": "Instant responses to all inquiries 24/7",
+          "benefit2": "AI books demos and consultations automatically",
+          "benefit3": "Smart follow-up sequences that nurture leads",
+          "benefit4": "Seamless handoff to sales reps when ready"
         },
         "omnichannel": {
-          "title": "オムニチャネルキャンペーン管理",
-          "description": "SMS、WhatsApp、電子メール、音声全体のキャンペーンを開始および管理する",
-          "benefit1": "すべてのチャネルにわたる統一されたキャンペーン管理",
-          "benefit2": "規模のパーソナライズされたメッセージング",
-          "benefit3": "リアルタイムキャンペーンのパフォーマンス追跡",
-          "benefit4": "自動A/Bのテストと最適化"
+          "title": "Omnichannel Campaign Management",
+          "description": "Launch and manage campaigns across SMS, WhatsApp, email, and voice",
+          "benefit1": "Unified campaign management across all channels",
+          "benefit2": "Personalized messaging at scale",
+          "benefit3": "Real-time campaign performance tracking",
+          "benefit4": "Automated A/B testing and optimization"
         },
-        "keyBenefits": "主な利点："
+        "keyBenefits": "Key Benefits:"
       },
       "useCases": {
-        "title": "実際の営業チームのサクセスストーリー",
-        "description": "販売チームとマーケティングチームがseasalt.aiを使用して成長を加速している方法をご覧ください",
+        "title": "Real Sales Team Success Stories",
+        "description": "See how sales and marketing teams are using Seasalt.ai to accelerate their growth",
         "saas": {
-          "title": "SaaSセールスチーム",
-          "challenge": "ソフトウェアデモの生成と資格のリード",
-          "solution": "AIはウェブサイトからリードをキャプチャし、利益レベルを適格で、本のデモを自動的にデモ"
+          "title": "SaaS Sales Team",
+          "challenge": "Generating and qualifying leads for software demos",
+          "solution": "AI captures leads from website, qualifies interest level, and books demos automatically"
         },
         "ecommerce": {
-          "title": "eコマースマーケティング",
-          "challenge": "プロモーションキャンペーンの実行と放棄されたカートの回復",
-          "solution": "パーソナライズされたオファーとカートリカバリーを備えた自動化されたSMSおよびWhatsAppキャンペーン"
+          "title": "E-commerce Marketing",
+          "challenge": "Running promotional campaigns and recovering abandoned carts",
+          "solution": "Automated SMS and WhatsApp campaigns with personalized offers and cart recovery"
         },
         "realEstate": {
-          "title": "不動産業者",
-          "challenge": "不動産の問い合わせとスケジューリングのショーをフォローアップします",
-          "solution": "AIは財産の質問に即座に回答し、予定を示す本に応答します"
+          "title": "Real Estate Agents",
+          "challenge": "Following up on property inquiries and scheduling showings",
+          "solution": "AI responds to property questions instantly and books showing appointments"
         },
         "professionalServices": {
-          "title": "プロフェッショナルサービス",
-          "challenge": "相談リクエストを予約された予定に変換します",
-          "solution": "適切なチームメンバーとの相談を予約する賢明な資格プロセス"
+          "title": "Professional Services",
+          "challenge": "Converting consultation requests into booked appointments",
+          "solution": "Smart qualification process that books consultations with the right team member"
         },
-        "challengeLabel": "チャレンジ：",
-        "solutionLabel": "seasalt.aiソリューション："
+        "challengeLabel": "CHALLENGE:",
+        "solutionLabel": "SEASALT.AI SOLUTION:"
       },
       "metrics": {
-        "title": "販売パフォーマンスの影響",
-        "description": "販売およびマーケティングメトリックへの測定可能な影響をご覧ください",
-        "responseRate": "リード応答率の増加",
-        "conversionRate": "より高い変換率",
-        "availability": "リードキャプチャと資格",
-        "qualifiedLeads": "より多くの資格のあるリード"
+        "title": "Sales Performance Impact",
+        "description": "See the measurable impact on your sales and marketing metrics",
+        "responseRate": "Increase in lead response rate",
+        "conversionRate": "Higher conversion rates",
+        "availability": "Lead capture and qualification",
+        "qualifiedLeads": "More qualified leads per month"
       },
       "cta": {
-        "title": "販売パフォーマンスを充電する準備はできましたか？",
-        "description": "Seasalt.aiを使用して何百もの営業チームに参加して、より多くのリードをキャプチャし、より速く対応し、AIオートメーションをより多くの取引を締め切ります。",
-        "primary": "サインアップ",
-        "secondary": "販売デモを予約します",
-        "disclaimer": "クレジットカードは不要です•24時間で結果を見る•いつでもキャンセル"
+        "title": "Ready to Supercharge Your Sales Performance?",
+        "description": "Join hundreds of sales teams using Seasalt.ai to capture more leads, respond faster, and close more deals with AI automation.",
+        "primary": "Sign Up",
+        "secondary": "Book Sales Demo",
+        "disclaimer": "No credit card required • See results in 24 hours • Cancel anytime"
       }
     },
     "customerSupport": {
       "seo": {
-        "title": "カスタマーサポートソリューション-Seasalt.ai",
-        "description": "人間のエージェントが複雑で価値の高い相互作用に集中できるようにしながら、日常の問い合わせを即座に処理するインテリジェントな自動化でカスタマーサポートを変換します。"
+        "title": "Customer Support Solutions - Seasalt.ai",
+        "description": "Transform your customer support with intelligent automation that handles routine inquiries instantly while empowering your human agents to focus on complex, high-value interactions."
       },
       "navigation": {
-        "backToHome": "家に戻る"
+        "backToHome": "Back to Home"
       },
       "hero": {
         "title": {
-          "deliver": "届ける",
-          "exceptionalSupport": "例外的なサポート",
-          "atScale": "大規模"
+          "deliver": "Deliver",
+          "exceptionalSupport": "Exceptional Support",
+          "atScale": "at Scale"
         },
-        "subtitle": "眠らないAIを搭載したカスタマーサポート",
-        "description": "人間のエージェントが複雑で価値の高い相互作用に集中できるようにしながら、日常の問い合わせを即座に処理するインテリジェントな自動化でカスタマーサポートを変換します。",
+        "subtitle": "AI-Powered Customer Support That Never Sleeps",
+        "description": "Transform your customer support with intelligent automation that handles routine inquiries instantly while empowering your human agents to focus on complex, high-value interactions.",
         "cta": {
-          "primary": "今すぐサポートを改善してください",
-          "secondary": "デモを参照してください"
+          "primary": "Improve Support Now",
+          "secondary": "See Demo"
         },
         "dashboard": {
-          "title": "ダッシュボードをサポートします",
-          "aiResolved": "ai本日、156枚のチケットを解決しました",
-          "resolutionTime": "平均解像度時間：23秒",
-          "escalated": "👥12枚のチケットが人間にエスカレートしました",
-          "complexIssues": "専門知識を必要とする複雑な問題",
-          "satisfaction": "customer顧客満足度：96％",
-          "satisfactionUp": "先月から15％増加",
-          "responseTime": "⏱§平均応答時間：8秒",
-          "fasterThanAverage": "業界平均よりも98％速い"
+          "title": "Support Dashboard",
+          "aiResolved": "🤖 AI resolved 156 tickets today",
+          "resolutionTime": "Average resolution time: 23 seconds",
+          "escalated": "👥 12 tickets escalated to humans",
+          "complexIssues": "Complex issues requiring expertise",
+          "satisfaction": "😊 Customer satisfaction: 96%",
+          "satisfactionUp": "Up 15% from last month",
+          "responseTime": "⏱️ Average response time: 8 seconds",
+          "fasterThanAverage": "98% faster than industry average"
         }
       },
       "challenges": {
-        "title": "カスタマーサポートの課題",
+        "title": "Customer Support Challenges",
         "description": "Modern customers expect instant, personalized support. Traditional support models struggle to meet these expectations while controlling costs.",
         "responseTimePressure": {
           "title": "Response Time Pressure",

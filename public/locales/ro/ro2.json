@@ -1,587 +1,608 @@
 {
   "seachat": {
     "common": {
-      "getStarted": "Începeți gratuit",
-      "signIn": "Autentificare",
-      "learnMore": "Aflați mai multe",
-      "readMore": "Citiți mai mult",
-      "viewAll": "Vizualizați toate articolele",
-      "tryNow": "Încercați acum",
-      "contactUs": "Contactați-ne",
-      "subscribe": "Abonare",
-      "search": "Căutare",
-      "back": "Înapoi"
+      "getStarted": "Get Started Free",
+      "signIn": "Sign In",
+      "learnMore": "Learn More",
+      "readMore": "Read More",
+      "viewAll": "View All Articles",
+      "tryNow": "Try Now",
+      "contactUs": "Contact Us",
+      "subscribe": "Subscribe",
+      "search": "Search",
+      "back": "Back"
     },
     "header": {
-      "features": "Funcționalități",
-      "integrations": "Integrări",
-      "solutions": "Soluții",
-      "pricing": "Prețuri",
+      "features": "Features",
+      "integrations": "Integrations",
+      "solutions": "Solutions",
+      "pricing": "Pricing",
       "blog": "Blog",
-      "language": "Limbă",
+      "language": "Language",
       "featuresDropdown": {
-        "humanAgents": "Chat agent uman",
-        "aiAutomation": "Automatizare AI",
-        "advancedAI": "Funcționalități AI avansate",
-        "knowledgeBase": "Bază de cunoștințe",
-        "voiceAgents": "Agenți vocali",
-        "analytics": "Analiză și insight-uri",
-        "omnichannel": "Suport omnichannel",
-        "api": "API și instrumente pentru dezvoltatori"
+        "humanAgents": "Human Agent Chat",
+        "aiAutomation": "AI Automation",
+        "advancedAI": "Advanced AI Features",
+        "knowledgeBase": "Knowledge Base",
+        "voiceAgents": "Voice Agents",
+        "analytics": "Analytics & Insights",
+        "omnichannel": "Omnichannel Support",
+        "api": "API & Developer Tools"
       },
       "integrationsDropdown": {
-        "websites": "Platforme site-uri web",
-        "crm": "Sisteme CRM",
+        "websites": "Website Platforms",
+        "crm": "CRM Systems",
         "ecommerce": "E-commerce",
-        "socialMedia": "Rețele sociale",
-        "communication": "Instrumente de comunicare",
-        "marketing": "Platforme de marketing",
-        "calendar": "Calendar și programare",
-        "api": "API personalizat"
+        "socialMedia": "Social Media",
+        "communication": "Communication Tools",
+        "marketing": "Marketing Platforms",
+        "calendar": "Calendar & Scheduling",
+        "api": "Custom API"
       },
       "solutionsDropdown": {
-        "ecommerce": "E-commerce și retail",
-        "healthcare": "Sănătate",
-        "fintech": "Servicii financiare",
-        "education": "Educație",
-        "realEstate": "Imobiliare",
-        "travel": "Călătorii și ospitalitate",
-        "saas": "SaaS și tehnologie",
-        "smallBusiness": "Afaceri mici"
+        "ecommerce": "E-commerce & Retail",
+        "healthcare": "Healthcare",
+        "fintech": "Financial Services",
+        "education": "Education",
+        "realEstate": "Real Estate",
+        "travel": "Travel & Hospitality",
+        "saas": "SaaS & Technology",
+        "smallBusiness": "Small Business"
       },
-      "backToMainSite": "Înapoi la site-ul principal",
-      "viewAllIntegrations": "Vizualizați toate integrările →",
-      "viewAllSolutions": "Vizualizați toate soluțiile →"
+      "backToMainSite": "Back to Main Site",
+      "viewAllIntegrations": "View All Integrations →",
+      "viewAllSolutions": "View All Solutions →"
     },
     "hero": {
       "title": {
-        "line1": "Răspundeți la",
-        "line2": "Milioane 24/7"
+        "line1": "Respond To",
+        "line2": "Millions 24/7"
       },
-      "subtitle": "Agenți live",
-      "description": "Transformați asistența clienților cu platforma noastră omnichannel. Începeți cu agenți umani gratuit, apoi integrați fără probleme automatizarea AI pe măsură ce creșteți.",
-      "startFree": "Începeți gratuit acum",
-      "exploreAI": "Programați o demonstrație",
-      "alwaysFree": "Plan gratuit permanent",
-      "integrations": "Peste 30 de integrări",
-      "setup": "Configurare în 2 minute",
+      "subtitle": "Live Agents",
+      "description": "Transform customer support with our omnichannel platform. Begin with human agents at zero cost, then seamlessly integrate AI automation as you grow.",
+      "startFree": "Start Free Now",
+      "exploreAI": "Book A Demo",
+      "alwaysFree": "Always Free Plan",
+      "integrations": "30+ Integrations",
+      "setup": "Setup in 2 Minutes",
       "chat": {
-        "userMessage": "Bună! Am nevoie de ajutor cu comanda mea",
-        "botMessage": "Bună ziua! Vă voi ajuta cu plăcere cu comanda dumneavoastră. Ați putea, vă rog, să-mi furnizați numărul comenzii?",
-        "userMessage2": "Vă pot ajuta să vă conectați cu un agent uman sau să vă ofer asistență AI instantanee. Cum ați prefera să procedați?",
-        "typePlaceholder": "Introduceți mesajul dvs....",
+        "userMessage": "Hi! I need help with my order",
+        "botMessage": "Hello! I'd be happy to help you with your order. Could you please provide your order number?",
+        "userMessage2": "I can help you connect with a human agent or provide instant AI assistance. How would you prefer to proceed?",
+        "typePlaceholder": "Type your message...",
         "online": "Online",
-        "supportTitle": "Suport SeaChat"
+        "supportTitle": "SeaChat Support"
       },
-      "badge": "Începeți gratuit cu agenți live",
+      "badge": "Start Free with Live Agents",
       "animationSection": {
-        "title": "SeaChat în acțiune",
+        "title": "SeaChat in Action",
         "autoMode": "Auto",
         "manualMode": "Manual"
       },
       "animations": {
         "phoneVoice": {
-          "name": "AI vocală telefonică",
-          "description": "Agenți AI care gestionează conversații telefonice"
+          "name": "Phone Voice AI",
+          "description": "AI agents handling phone conversations"
         },
         "interactive": {
-          "name": "Canale interactive",
-          "description": "Faceți clic pentru a vedea diferite conversații"
+          "name": "Interactive Channels",
+          "description": "Click to see different conversations"
         },
         "multiChannel": {
-          "name": "Flux multi-canal",
-          "description": "Mesaje care circulă între diferite platforme"
+          "name": "Multi-Channel Flow",
+          "description": "Messages flowing between different platforms"
         },
         "agentToAI": {
-          "name": "Transfer de la om la AI",
-          "description": "Începeți cu oameni, extindeți cu AI"
+          "name": "Human-to-AI Handoff",
+          "description": "Start with humans, scale with AI"
         },
         "learning": {
-          "name": "Călătoria de învățare a AI",
-          "description": "Urmăriți cum AI devine mai inteligent din conținut"
+          "name": "AI Learning Journey",
+          "description": "Watch AI get smarter from content"
         },
         "dashboard": {
-          "name": "Analiză în timp real",
-          "description": "Metrice de performanță live"
+          "name": "Real-Time Analytics",
+          "description": "Live performance metrics"
         }
       }
     },
     "keyFeatures": {
-      "title": "De ce să alegeți SeaChat?",
-      "subtitle": "Experimentați combinația perfectă de atingere umană și eficiență AI. Începeți gratuit, scalați inteligent, reușiți mai rapid.",
+      "title": "Why Choose SeaChat?",
+      "subtitle": "Experience the perfect blend of human touch and AI efficiency. Start free, scale smart, succeed faster.",
       "humanAgents": {
-        "title": "Agenți umani cu adevărat gratuit 🍺 🎙️",
-        "description": "Începeți cu 1 agent uman gratuit pe viață – da, pe viață! Fără limite, fără restricții, fără capcane.",
-        "badge": "Gratuit pentru totdeauna",
+        "title": "Truly Free Human Agents 🍺 🎙️",
+        "description": "Start with 1 human agent free for life—yes, for life! No caps, no limits, no catches.",
+        "badge": "Free Forever",
         "highlights": [
-          "Conversații nelimitate prin chat",
-          "Acces nelimitat la istoricul chat-ului",
-          "Contacte nelimitate și construire de rețea",
-          "Libertatea de a exporta toate datele dvs."
+          "Unlimited chat conversations",
+          "Unlimited chat history access",
+          "Unlimited contacts & network building",
+          "Freedom to export all your data"
         ]
       },
       "aiAutomation": {
-        "title": "Automatizare AI fără întreruperi",
-        "description": "Scalați fără efort cu AI inteligentă care învață din conversațiile și documentele dvs.",
+        "title": "Seamless AI Automation",
+        "description": "Scale effortlessly with intelligent AI that learns from your conversations and documents.",
         "highlights": [
-          "Răspunsuri automate inteligente",
-          "Învățare din interacțiuni",
-          "Răspunsuri conștiente de context"
+          "Smart auto-responses",
+          "Learning from interactions",
+          "Context-aware replies"
         ]
       },
       "omnichannel": {
-        "title": "Conectivitate Omni-Channel",
-        "description": "Conectați toate canalele dvs. de comunicare într-o singură platformă unificată pentru suport consistent.",
+        "title": "Omni-Channel Connectivity",
+        "description": "Connect all your communication channels in one unified platform for consistent support.",
         "highlights": [
-          "Peste 30 de integrări",
-          "Inbox unificat",
-          "Sincronizare multi-platformă"
+          "30+ integrations",
+          "Unified inbox",
+          "Cross-platform sync"
         ]
       },
       "trulyFree": {
-        "title": "Plan cu adevărat gratuit, ca în gratuit 🍺 & 🎙️",
-        "description": "Vă prezentăm modul SeaChat numai pentru agenți umani: biletul dvs. către o libertate de comunicare inegalabilă! Suntem încântați să vă oferim 1 agent uman gratuit pe viață – da, ați auzit bine, pe viață!",
+        "title": "Truly Free Plan as in Free 🍺 & 🎙️",
+        "description": "Introducing SeaChat's Human Agent Only Mode: Your Ticket to Unmatched Communication Freedom! We're thrilled to present 1 human agent free for life—yes, you heard that right, for life!",
         "freeFeatures": {
           "unlimitedChat": {
-            "title": "Chat nelimitat",
-            "description": "Angajați-vă în câte conversații aveți nevoie, fără limite sau restricții."
+            "title": "Unlimited Chat",
+            "description": "Engage in as many conversations as you need, with no caps or restrictions."
           },
           "unlimitedHistory": {
-            "title": "Istoric nelimitat",
-            "description": "Nu pierdeți niciodată o conversație – accesați istoricul complet al chat-ului oricând."
+            "title": "Unlimited History",
+            "description": "Never lose a conversation—access your complete chat history anytime."
           },
           "unlimitedContacts": {
-            "title": "Contacte nelimitate",
-            "description": "Construiți-vă rețeaua fără restricții sau limite de contacte."
+            "title": "Unlimited Contacts",
+            "description": "Build your network without any restrictions or contact limits."
           },
           "freedomToExport": {
-            "title": "Libertatea de a exporta",
-            "description": "Datele dvs., regulile dvs. – exportați fără efort tot istoricul chat-ului."
+            "title": "Freedom to Export",
+            "description": "Your data, your rules—export all your chat history effortlessly."
           }
         },
-        "whyChoose": "De ce să alegeți SeaChat? Pentru că este cu adevărat gratuit!",
-        "whatYouGet": "✅ Ce obțineți GRATUIT pentru totdeauna:",
+        "whyChoose": "Why Choose SeaChat? Because It's Truly Free!",
+        "whatYouGet": "✅ What You Get FREE Forever:",
         "freeForeverFeatures": [
-          "1 agent uman pe viață",
-          "Conversații nelimitate prin chat",
-          "Acces complet la istoricul chat-ului",
-          "Gestionare nelimitată a contactelor",
-          "Drepturi complete de exportare a datelor"
+          "1 Human Agent for Life",
+          "Unlimited Chat Conversations",
+          "Complete Chat History Access",
+          "Unlimited Contact Management",
+          "Full Data Export Rights"
         ],
-        "scaleWhenReady": "🚀 Scalați când sunteți gata:",
+        "scaleWhenReady": "🚀 Scale When Ready:",
         "scaleFeatures": [
-          "Adăugați automatizare AI",
-          "Integrări avansate",
-          "Funcționalități agent vocal",
-          "Securitate la nivel de întreprindere",
-          "Fluxuri de lucru personalizate"
+          "Add AI Automation",
+          "Advanced Integrations",
+          "Voice Agent Features",
+          "Enterprise Security",
+          "Custom Workflows"
         ],
-        "startButton": "Începeți acum cu agentul dvs. gratuit – nu este necesar un card de credit!"
+        "startButton": "Start Your Free Agent Now - No Credit Card Required!"
       },
       "statsBar": {
-        "unlimited": "Chat-uri nelimitate pentru totdeauna",
-        "fileTypes": "Peste 30 de tipuri de fișiere acceptate",
-        "setupTime": "Timp mediu de configurare de 2 minute",
-        "availability": "Disponibilitate AI 24/7 când este gata"
+        "unlimited": "Unlimited chats forever",
+        "fileTypes": "30+ file types supported",
+        "setupTime": "2min average setup time",
+        "availability": "24/7 AI availability when ready"
       }
     },
     "featureTabs": {
-      "title": "Funcționalități puternice, configurare simplă",
-      "subtitle": "Explorați setul nostru complet de funcționalități concepute pentru a vă transforma experiența de asistență clienți.",
+      "title": "Powerful Features, Simple Setup",
+      "subtitle": "Explore our comprehensive feature set designed to transform your customer support experience.",
       "tabs": {
-        "humanAgent": "Agent uman",
-        "agentChat": "Chat agent",
-        "aiAgent": "Agent AI",
-        "advancedAI": "AI avansată",
-        "knowledgeBase": "Bază de cunoștințe",
-        "integrations": "Integrări"
+        "humanAgent": "Human Agent",
+        "agentChat": "Agent Chat",
+        "aiAgent": "AI Agent",
+        "advancedAI": "Advanced AI",
+        "knowledgeBase": "Knowledge Base",
+        "integrations": "Integrations"
       },
       "content": {
         "agentChat": {
-          "title": "Excelența agentului uman",
-          "subtitle": "Începeți cu suport uman real, complet gratuit",
+          "title": "Human Agent Excellence",
+          "subtitle": "Start with real human support, completely free",
           "features": [
-            "Ore nelimitate de agent gratuit",
-            "Gestionare conversații în timp real",
-            "Colaborare multi-agent",
-            "Etichetare și rutare avansată",
-            "Analiză performanță",
-            "Fluxuri de lucru personalizate"
+            "Unlimited free agent hours",
+            "Real-time conversation management",
+            "Multi-agent collaboration",
+            "Advanced labeling and routing",
+            "Performance analytics",
+            "Custom workflows"
           ],
-          "tryFeature": "Încercați această funcționalitate",
-          "watchDemo": "Vedeți demonstrația"
+          "tryFeature": "Try This Feature",
+          "watchDemo": "Watch Demo"
         },
         "aiAgent": {
-          "title": "Automatizare AI inteligentă",
-          "subtitle": "Scalați fără probleme cu AI inteligentă care învață",
+          "title": "Intelligent AI Automation",
+          "subtitle": "Scale seamlessly with smart AI that learns",
           "features": [
-            "Răspunsuri conștiente de context",
-            "Învățare din conversații",
-            "Transfer fără întreruperi către om",
-            "Suport multilingv",
-            "Antrenament AI personalizat",
-            "Capacități agent vocal"
+            "Context-aware responses",
+            "Learning from conversations",
+            "Seamless human handoff",
+            "Multi-language support",
+            "Custom AI training",
+            "Voice agent capabilities"
           ],
-          "tryFeature": "Încercați această funcționalitate",
-          "watchDemo": "Vedeți demonstrația"
+          "tryFeature": "Try This Feature",
+          "watchDemo": "Watch Demo"
         },
         "advancedAI": {
-          "title": "Inteligență AI de generație următoare",
-          "subtitle": "Funcționalități AI avansate pentru experiențe personalizate",
+          "title": "Next-Generation AI Intelligence",
+          "subtitle": "Advanced AI features for personalized experiences",
           "features": [
-            "Generare augmentată cu recuperare (RAG)",
-            "Sistem de memorie utilizator pe termen lung",
-            "Răspunsuri contextuale conștiente de timp",
-            "Extracție inteligentă de context",
-            "Rezultate chat referențiate",
-            "Rafinarea bazei de cunoștințe"
+            "Retrieval Augmented Generation (RAG)",
+            "Long-term user memory system",
+            "Time-aware contextual responses",
+            "Smart context extraction",
+            "Referenced chat results",
+            "Knowledge base refinement"
           ],
-          "tryDemo": "Încercați demonstrația AI avansată",
-          "watchAI": "Vedeți AI în acțiune"
+          "tryDemo": "Try Advanced AI Demo",
+          "watchAI": "Watch AI in Action"
         },
         "knowledgeBase": {
-          "title": "Hub de cunoștințe complet",
-          "subtitle": "Încărcați peste 30 de tipuri de fișiere pentru răspunsuri AI instantanee",
+          "title": "Comprehensive Knowledge Hub",
+          "subtitle": "Upload 30+ file types for instant AI responses",
           "features": [
-            "Suport PDF, Excel, CSV, Word",
-            "Ingestie conținut site web",
-            "Procesare imagini și video",
-            "Formatare răspuns bogat",
-            "Conținut cu actualizare automată",
-            "Control versiuni"
+            "PDF, Excel, CSV, Word support",
+            "Website content ingestion",
+            "Image and video processing",
+            "Rich response formatting",
+            "Auto-updating content",
+            "Version control"
           ],
-          "tryFeature": "Încercați această funcționalitate",
-          "watchDemo": "Vedeți demonstrația"
+          "tryFeature": "Try This Feature",
+          "watchDemo": "Watch Demo"
         },
         "integrations": {
-          "title": "Integrări puternice",
-          "subtitle": "Conectați-vă cu instrumentele și platformele dvs. preferate",
+          "title": "Powerful Integrations",
+          "subtitle": "Connect with your favorite tools and platforms",
           "features": [
-            "Integrări CRM (Salesforce, HubSpot)",
-            "Programare calendar (Google, Outlook)",
-            "Platforme e-commerce",
-            "Instrumente de marketing",
-            "Acces API personalizat",
-            "Suport webhook"
+            "CRM integrations (Salesforce, HubSpot)",
+            "Calendar booking (Google, Outlook)",
+            "E-commerce platforms",
+            "Marketing tools",
+            "Custom API access",
+            "Webhook support"
           ],
-          "tryFeature": "Încercați această funcționalitate",
-          "watchDemo": "Vedeți demonstrația"
+          "tryFeature": "Try This Feature",
+          "watchDemo": "Watch Demo"
         }
       },
       "advancedAI": {
         "features": {
           "rag": {
-            "title": "Generare augmentată cu recuperare",
-            "description": "Căutare după cuvinte cheie, vectori și hibridă pentru recuperarea precisă a informațiilor",
+            "title": "Retrieval Augmented Generation",
+            "description": "Keyword, Vector, and Hybrid Search for precise information retrieval",
             "details": {
-              "0": "Căutare semantică vectorială",
-              "1": "Potrivire cuvinte cheie",
-              "2": "Algoritmi de căutare hibridă",
-              "3": "Indexare conținut în timp real"
+              "0": "Semantic vector search",
+              "1": "Keyword matching",
+              "2": "Hybrid search algorithms",
+              "3": "Real-time content indexing"
             }
           },
           "memory": {
-            "title": "Memorie pe termen lung",
-            "description": "Experiențe personalizate prin memorie persistentă a utilizatorului",
+            "title": "Long Term Memory",
+            "description": "Personalized experiences through persistent user memory",
             "details": {
-              "0": "Urmărire preferințe utilizator",
-              "1": "Analiză istoric conversații",
-              "2": "Recunoaștere modele comportamentale",
-              "3": "Continuitate între sesiuni"
+              "0": "User preference tracking",
+              "1": "Conversation history analysis",
+              "2": "Behavioral pattern recognition",
+              "3": "Cross-session continuity"
             }
           },
           "timeAware": {
-            "title": "Conștientizare timp",
-            "description": "Răspunsuri conștiente de context bazate pe ora curentă și fusul orar",
+            "title": "Time Awareness",
+            "description": "Context-aware responses based on current time and timezone",
             "details": {
-              "0": "Integrare timestamp în timp real",
-              "1": "Programare conștientă de fus orar",
-              "2": "Recomandări sensibile la timp",
-              "3": "Optimizare ore de program"
+              "0": "Real-time timestamp integration",
+              "1": "Timezone-aware scheduling",
+              "2": "Time-sensitive recommendations",
+              "3": "Business hours optimization"
             }
           },
           "contextExtraction": {
-            "title": "Extracție context",
-            "description": "Mapare inteligentă a câmpurilor pentru o mai bună înțelegere a utilizatorului",
+            "title": "Context Extraction",
+            "description": "Intelligent field mapping for better user comprehension",
             "details": {
-              "0": "Definiții câmpuri personalizate",
-              "1": "Extracție automată de date",
-              "2": "Preferințe lingvistice utilizator",
-              "3": "Construire context dinamic"
+              "0": "Custom field definitions",
+              "1": "Automatic data extraction",
+              "2": "User language preferences",
+              "3": "Dynamic context building"
             }
           },
           "referencedResults": {
-            "title": "Rezultate referențiate",
-            "description": "Răspunsuri AI transparente cu citări sursă",
+            "title": "Referenced Results",
+            "description": "Transparent AI responses with source citations",
             "details": {
-              "0": "Legătură document sursă",
-              "1": "Urmărire citări",
-              "2": "Scor de încredere",
-              "3": "Verificare fapte"
+              "0": "Source document linking",
+              "1": "Citation tracking",
+              "2": "Confidence scoring",
+              "3": "Fact verification"
             }
           },
           "knowledgeRefinement": {
-            "title": "Rafinarea cunoștințelor",
-            "description": "Îmbunătățire continuă a preciziei bazei de cunoștințe",
+            "title": "Knowledge Refinement",
+            "description": "Continuous improvement of knowledge base accuracy",
             "details": {
-              "0": "Conținut cu actualizare automată",
-              "1": "Scor de calitate",
-              "2": "Optimizare relevanță",
-              "3": "Analiză performanță"
+              "0": "Auto-updating content",
+              "1": "Quality scoring",
+              "2": "Relevance optimization",
+              "3": "Performance analytics"
             }
           }
         }
       }
     },
     "omnichannelDemo": {
-      "title": "Implementați oriunde se află clienții dvs.",
-      "subtitle": "Conectați fără probleme toate punctele de contact cu clienții dvs. pe site-uri web, rețele sociale și platforme de comunicare. Treceți cu mouse-ul peste fiecare canal pentru a vedea metricile de performanță în timp real.",
-      "messagesPerDay": "Mesaje/zi",
-      "responseTime": "Timp de răspuns",
-      "keyFeatures": "Funcționalități cheie",
-      "integrateChannel": "Integrați",
+      "title": "Deploy Everywhere Your Customers Are",
+      "subtitle": "Seamlessly connect all your customer touchpoints across websites, social media, and communication platforms. Hover over each channel to see real-time performance metrics.",
+      "messagesPerDay": "Messages/day",
+      "responseTime": "Response time",
+      "keyFeatures": "Key Features",
+      "integrateChannel": "Integrate",
       "channels": {
         "website": {
-          "name": "Site web",
-          "description": "Widget universal care funcționează pe orice site web HTML"
+          "name": "Website",
+          "description": "Universal widget that works on any HTML website"
         },
         "whatsapp": {
           "name": "WhatsApp",
-          "description": "Conectați-vă cu clienții pe cea mai populară aplicație de mesagerie din lume"
+          "description": "Connect with customers on the world's most popular messaging app"
         },
         "instagram": {
           "name": "Instagram",
-          "description": "Gestionați DM-urile Instagram și răspunsurile la povestiri într-un singur inbox unificat"
+          "description": "Manage Instagram DMs and story replies in one unified inbox"
         },
         "facebook": {
           "name": "Facebook",
-          "description": "Oferiți asistență clienților prin platforma de mesagerie Facebook"
+          "description": "Provide customer support through Facebook's messaging platform"
         },
         "line": {
           "name": "LINE",
-          "description": "Conectați-vă cu clienții pe populara platformă de mesagerie asiatică"
+          "description": "Connect with customers on the popular Asian messaging platform"
         },
         "phone": {
-          "name": "Apel telefonic",
-          "description": "Gestionați suportul vocal cu agenți vocali AI"
+          "name": "Phone Call",
+          "description": "Handle voice support with AI voice agents"
         },
         "email": {
-          "name": "E-mail",
-          "description": "Gestionați tichetele de e-mail cu rutare inteligentă"
+          "name": "Email",
+          "description": "Manage email tickets with intelligent routing"
         },
         "ecommerce": {
           "name": "E-commerce",
-          "description": "Integrați-vă cu magazinele online pentru gestionarea comenzilor"
+          "description": "Integrate with online stores for order management"
         }
       },
       "platformCategories": {
         "website": {
-          "title": "Integrare site web",
-          "description": "Implementați pe orice platformă web cu widget-ul nostru universal"
+          "title": "Website Integration",
+          "description": "Deploy on any website platform with our universal widget"
         },
         "socialMedia": {
-          "title": "Rețele sociale",
-          "description": "Conectați-vă cu clienții pe platformele lor sociale preferate"
+          "title": "Social Media",
+          "description": "Connect with customers on their favorite social platforms"
         },
         "traditional": {
-          "title": "Canale tradiționale",
-          "description": "Mențineți suportul prin metode clasice de comunicare"
+          "title": "Traditional Channels",
+          "description": "Maintain support through classic communication methods"
         }
       },
       "quickSetup": {
-        "title": "Gata de implementare peste tot?",
-        "subtitle": "Începeți în câteva minute cu procesul nostru simplu de integrare",
+        "title": "Ready to Deploy Everywhere?",
+        "subtitle": "Get started in minutes with our simple integration process",
         "steps": [
           {
-            "title": "Alegeți-vă canalele",
-            "description": "Selectați din peste 8 opțiuni de implementare"
+            "title": "Choose Your Channels",
+            "description": "Select from 8+ deployment options"
           },
           {
-            "title": "Copiați și lipiți codul",
-            "description": "Instalare simplă a widget-ului"
+            "title": "Copy & Paste Code",
+            "description": "Simple widget installation"
           },
           {
-            "title": "Începeți să discutați",
-            "description": "Începeți să oferiți suport clienților instantaneu"
+            "title": "Start Chatting",
+            "description": "Begin supporting customers instantly"
           }
         ],
-        "button": "Începeți implementarea gratuită"
+        "button": "Start Free Deployment"
       }
     },
     "pricing": {
-      "title": "Prețuri care cresc odată cu dvs.",
-      "subtitle": "Începeți complet gratuit cu agenți umani, apoi adăugați AI când sunteți gata să scalați.",
-      "monthly": "Lunar",
-      "yearly": "Anual",
-      "save": "Economisiți 20%",
-      "customize": "Personalizați-vă planul",
-      "chatVolume": "Volum lunar de chat",
-      "agents": "Număr de agenți",
+      "title": "Pricing That Grows With You",
+      "subtitle": "Start completely free with human agents, then add AI when you're ready to scale.",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 20%",
+      "customize": "Customize Your Plan",
+      "chatVolume": "Monthly Chat Volume",
+      "agents": "Number of Agents",
       "plans": {
         "free": {
-          "name": "Cu adevărat gratuit",
-          "tagline": "Experimentați o probă de funcționalități puternice",
-          "description": "Perfect pentru a începe cu agenți umani",
+          "name": "Truly Free",
+          "tagline": "Experience a trial of powerful features",
+          "description": "Perfect for getting started with human agents",
           "features": {
-            "humanAgent": "1 agent uman",
-            "unlimitedHumanChats": "Chat-uri nelimitate cu agent uman",
-            "unlimitedContacts": "Contacte nelimitate",
-            "unlimitedHistory": "Istoric chat nelimitat",
-            "exportHistory": "Libertatea de a exporta istoricul chat-ului",
-            "channels": "Canale: WhatsApp Messenger, widget de chat",
-            "integrations": "Integrări: Wix, WordPress, Shopify, Make.com, Squarespace",
-            "aiAgent": "Agent AI cu 100 de răspunsuri AI pe viață:",
+            "humanAgent": "1 human agent",
+            "unlimitedHumanChats": "Unlimited human agent chats",
+            "unlimitedContacts": "Unlimited contacts",
+            "unlimitedHistory": "Unlimited chat history",
+            "exportHistory": "Freedom to export chat history",
+            "channels": "Channels: WhatsApp Messenger, chat widget",
+            "integrations": "Integrations: Wix, WordPress, Shopify, Make.com, Squarespace",
+            "aiAgent": "AI agent with 100 lifetime AI replies:",
             "aiAgentModel": "ChatGPT-3.5-turbo",
-            "knowledgeBase": "Baza de cunoștințe include 20 de documente (max. 200KB) și 250k token-uri",
-            "workspace": "1 spațiu de lucru"
+            "knowledgeBase": "Knowledge base includes 20 documents (200KB max) and 250k tokens",
+            "workspace": "1 workspace"
           },
-          "buttonText": "Începeți gratuit"
+          "buttonText": "Get Started Free"
         },
         "premium": {
           "name": "Premium",
-          "tagline": "Adăugați mai mulți agenți AI și fișiere de cunoștințe",
-          "description": "Scalați-vă suportul cu automatizare AI",
-          "month": "lună",
-          "year": "an",
-          "year_description": "Economisește 2 luni în fiecare an",
+          "tagline": "Add more AI Agents and Knowledge Files",
+          "description": "Scale your support with AI automation",
+          "month": "month",
+          "year": "year",
+          "year_description": "Saves 2 months every year",
           "features": {
-            "humanAgents": "4 utilizatori umani (utilizator uman suplimentar costă 10 USD/lună)",
-            "humanAgentPermission": "Suport permisiune agent uman",
-            "assignAgent": "Atribuiți agent uman conversației individuale",
-            "unreadCounter": "Contor mesaje necitite pentru fiecare agent uman",
-            "transferToHuman": "Transfer live de la agent AI la agent uman",
-            "transferToAI": "Transfer live de la agent uman la agent AI",
-            "unlimitedHumanChats": "Chat-uri nelimitate cu agent uman",
-            "unlimitedContacts": "Contacte nelimitate",
-            "unlimitedHistory": "Istoric chat nelimitat",
-            "exportHistory": "Libertatea de a exporta istoricul chat-ului",
-            "channels": "Canale suplimentare: Line, Apel, Apel telefonic",
-            "integrations": "Integrări suplimentare: Google Calendar pentru a rezerva automat întâlniri",
-            "aiAgents": "10 agenți AI, fiecare agent având:",
-            "aiModels": "Modele ChatGPT-4o și Mistral",
-            "knowledgeBase": "Baza de cunoștințe include până la 1000 de documente (10 MB per document) și 5M token-uri",
-            "chatSummary": "Rezumat chat și notificare prin e-mail",
-            "agentPrivacy": "Control confidențialitate agent",
-            "contactCapture": "Captură contact utilizator prin formulare personalizate",
-            "slotExtractors": "Extractoare de sloturi din conversații",
-            "timezoneFeatures": "Conștientizare a orei locale cu suport pentru fus orar, pentru:",
-            "businessHours": "ore de program",
-            "appointmentBooking": "programare programări",
-            "humanAgent": "4 utilizatori umani (utilizator uman suplimentar costă 10 USD/lună)",
-            "supportHumanAgent": "Suport permisiune agent uman",
-            "liveTransferToHuman": "Transfer live de la agent AI la agent uman",
-            "liveTransferToAI": "Transfer live de la agent uman la agent AI",
-            "additionalChannels": "Canale suplimentare: Line, Apel, Apel telefonic",
-            "additionalIntegrations": "Integrări suplimentare: Google Calendar pentru a rezerva automat întâlniri",
-            "knowledgeBaseTitle": "Bază de cunoștințe:",
-            "automationTitle": "Automatizare:",
-            "voiceAgentsTitle": "Agenți vocali AI:",
-            "timezoneTitle": "Conștientizare a orei locale cu suport pentru fus orar, pentru:"
+            "humanAgents": "4 human users (additional human user costs $10/month)",
+            "humanAgentPermission": "Support human agent permission",
+            "assignAgent": "Assign human agent to individual conversation",
+            "unreadCounter": "Unread message counter for each human agent",
+            "transferToHuman": "Live transfer from AI agent to human agent",
+            "transferToAI": "Live transfer from human agent to AI agent",
+            "unlimitedHumanChats": "Unlimited human agent chats",
+            "unlimitedContacts": "Unlimited contacts",
+            "unlimitedHistory": "Unlimited chat history",
+            "exportHistory": "Freedom to export chat history",
+            "channels": "Additional channels: Line, Call, Phone Call",
+            "integrations": "Additional integrations: Google Calendar to auto book meetings",
+            "aiAgents": "10 AI agents, with each agent having:",
+            "aiModels": "ChatGPT-4o and Mistral models",
+            "knowledgeBase": "Knowledge base includes up to 1000 documents (10 MB per doc) and 5M tokens",
+            "chatSummary": "Chat summary and notification via email",
+            "agentPrivacy": "Agent privacy control",
+            "contactCapture": "User contact capture via custom forms",
+            "chatCost": "Chat AI agent starts at $0.006 per response",
+            "voiceCost": "Voice AI agent over phone calls starts at $0.12 per minute",
+            "workspaces": "2 workspaces (additional workspace costs $15/month)",
+            "knowledgeBaseFeatures": "Knowledge Base:",
+            "advancedSearch": "Advanced document search - keyword, vector, hybrid",
+            "fileTypes": "20+ file types supported, with optimization on spreadsheets",
+            "automationFeatures": "Automation:",
+            "autoLabel": "Automatically label conversations with user-defined labels",
+            "builtInActions": "Built-in actions triggered by auto-labeling: SMS, Email",
+            "externalAPI": "External API calls as both triggers and actions",
+            "voiceAgentFeatures": "Voice AI Agents:",
+            "voiceMessages": "Support voice messages in Messenger, WhatsApp, Line",
+            "phoneCalls": "Support 2-way phone call conversations",
+            "callDirection": "Support both inbound and outbound call",
+            "transferAgent": "Transfer to human agent",
+            "callForwarding": "Call forwarding supported",
+            "sttLanguages": "10+ Speech-To-Text languages",
+            "ttsLanguages": "10+ Text-To-Speech languages with voices from Azure, ElevenLabs, OpenAI",
+            "callRecording": "Call recording and summary",
+            "callNotification": "Call notification via email",
+            "formTrackers": "Set form trackers from conversations",
+            "slotExtractors": "Slot extractors from conversations",
+            "timezoneFeatures": "Local time awareness with timezone support, for:",
+            "businessHours": "business hours",
+            "appointmentBooking": "appointment booking",
+            "humanAgent": "4 human users (additional human user costs $10/month)",
+            "supportHumanAgent": "Support human agent permission",
+            "liveTransferToHuman": "Live transfer from AI agent to human agent",
+            "liveTransferToAI": "Live transfer from human agent to AI agent",
+            "additionalChannels": "Additional channels: Line, Call, Phone Call",
+            "additionalIntegrations": "Additional integrations: Google Calendar to auto book meetings",
+            "knowledgeBaseTitle": "Knowledge Base:",
+            "automationTitle": "Automation:",
+            "voiceAgentsTitle": "Voice AI Agents:",
+            "timezoneTitle": "Local time awareness with timezone support, for:"
           },
-          "buttonText": "Începeți Premium",
-          "badge": "Cel mai popular"
+          "buttonText": "Start Premium",
+          "badge": "Most Popular"
         },
         "enterprise": {
           "name": "Enterprise",
-          "tagline": "Personalizați-vă agenții AI exclusivi",
-          "description": "Soluții personalizate pentru organizații mari",
+          "tagline": "Customize your exclusive AI agents",
+          "description": "Custom solutions for large organizations",
           "features": {
-            "premiumIncluded": "Totul inclus în planul Premium",
-            "customBuild": "Construcție personalizată",
-            "multipleWorkspaces": "Spații de lucru multiple - perfect pentru agenții",
-            "workspaceAgents": "Fiecare spațiu de lucru are mai mulți agenți AI și numere de telefon",
-            "gpt4oRealtimeAPI": "Acces la API-ul GPT-4o în timp real",
-            "customAPI": "Integrare API personalizată",
-            "fineTuning": "Reglare fină cu ghidurile dvs. și suport tehnic"
+            "premiumIncluded": "Everything in Premium plan",
+            "customBuild": "Custom build",
+            "multipleWorkspaces": "Multiple workspaces - perfect for agencies",
+            "workspaceAgents": "Each workspace has multiple AI agents and phone numbers",
+            "gpt4oRealtimeAPI": "Access to GPT-4o Realtime API",
+            "customAPI": "Custom API integration",
+            "fineTuning": "Fine-tuning with your guidelines and technical support"
           },
-          "buttonText": "Contactați-ne"
+          "buttonText": "Contact Us"
         }
       },
       "billing": {
-        "monthly": "Lunar",
-        "yearly": "Anual",
-        "year": "an",
-        "month": "lună",
-        "save": "Economisiți 2 luni față de facturarea lunară"
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "year": "year",
+        "month": "month",
+        "save": "Save 2 months vs monthly billing"
       },
       "calculator": {
-        "title": "Calculator de utilizare plan și model",
-        "description": "Estimați-vă costurile pe baza modelelor dvs. de utilizare",
-        "modelSelect": "Selectați modelul AI",
-        "priceBreakdown": "Defalcare costuri",
-        "licenseYearly": "Taxă licență (economisiți 2 luni):",
-        "licenseFee": "Taxă licență:",
-        "usageCost": "Cost utilizare:",
-        "usageCostYearly": "Cost utilizare (12 luni):",
-        "addOnsCost": "Cost add-on-uri:",
-        "addOnsCostYearly": "Cost add-on-uri (12 luni):",
-        "totalPerYear": "Total pe an:",
-        "totalPerMonth": "Total pe lună:",
-        "averagePerMonth": "Medie pe lună:",
-        "aiUsage": "Utilizare AI (plătiți pe utilizare)",
-        "chatResponses": "Răspunsuri chat lunare:",
-        "voiceMinutes": "Minute vocale lunare:",
-        "voiceMinutesNote": "Doar SUA/Canada",
-        "chatCost": "Cost chat",
-        "voiceCost": "Cost voce",
-        "additionalResources": "Resurse suplimentare",
-        "humanAgents": "Agenți umani:",
-        "aiAgents": "Agenți AI:",
-        "workspaces": "Spații de lucru:",
-        "included": "Inclus:",
+        "title": "Plan & Model Usage Calculator",
+        "description": "Estimate your costs based on your usage patterns",
+        "modelSelect": "Select AI Model",
+        "priceBreakdown": "Cost Breakdown",
+        "licenseYearly": "License fee (save 2 months):",
+        "licenseFee": "License fee:",
+        "usageCost": "Usage cost:",
+        "usageCostYearly": "Usage cost (12 months):",
+        "addOnsCost": "Add-ons cost:",
+        "addOnsCostYearly": "Add-ons cost (12 months):",
+        "totalPerYear": "Total per year:",
+        "totalPerMonth": "Total per month:",
+        "averagePerMonth": "Average per month:",
+        "aiUsage": "AI Usage (Pay per use)",
+        "chatResponses": "Monthly Chat Responses:",
+        "voiceMinutes": "Monthly Voice Minutes:",
+        "voiceMinutesNote": "USA/Canada only",
+        "chatCost": "Chat Cost",
+        "voiceCost": "Voice Cost",
+        "additionalResources": "Additional Resources",
+        "humanAgents": "Human Agents:",
+        "aiAgents": "AI Agents:",
+        "workspaces": "Workspaces:",
+        "included": "Included:",
         "extra": "Extra:",
-        "disclaimer": "Costurile de utilizare sunt calculate pe baza consumului real. Planul Premium include:",
-        "disclaimerDetails": "Taxă licență + Utilizare AI (plătiți pe utilizare) + Resurse suplimentare peste limitele incluse.",
-        "planIncludes": "Planul Premium include:",
-        "planIncludesHuman": "4 agenți umani",
-        "planIncludesAI": "10 agenți AI",
-        "planIncludesWorkspaces": "2 spații de lucru",
-        "perChatResponse": "per răspuns chat",
-        "perVoiceMinute": "per minut vocal",
-        "voiceOnly": "Model doar vocal",
-        "voicePricing": "Prețuri voce",
-        "standardVoice": "Voce standard",
-        "premiumVoice": "Voce premium",
-        "placeholderText": "Text substituent"
+        "disclaimer": "Usage costs are calculated based on actual consumption. The Premium plan includes:",
+        "disclaimerDetails": "License fee + AI Usage (pay per use) + Additional resources beyond the included limits.",
+        "planIncludes": "Premium Plan Includes:",
+        "planIncludesHuman": "4 Human Agents",
+        "planIncludesAI": "10 AI Agents",
+        "planIncludesWorkspaces": "2 Workspaces",
+        "perChatResponse": "per chat response",
+        "perVoiceMinute": "per voice minute",
+        "voiceOnly": "Voice only model",
+        "voicePricing": "Voice pricing",
+        "standardVoice": "Standard Voice",
+        "premiumVoice": "Premium Voice",
+        "placeholderText": "Placeholder"
       },
-      "note": "Prețurile sunt în USD. Prețurile apelurilor vocale variază în funcție de țară, iar prețurile listate sunt pentru Statele Unite și Canada. Pentru alte țări, vă rugăm să ne contactați.",
+      "note": "Prices are in USD. Voice call prices vary by country and listed prices are for the United States and Canada. For other countries, please contact us.",
       "comparison": {
-        "title": "Comparați toate funcționalitățile",
-        "subtitle": "Vedeți exact ce este inclus în fiecare plan",
-        "featuresTitle": "Funcționalități",
-        "trulyFree": "Cu adevărat gratuit",
+        "title": "Compare All Features",
+        "subtitle": "See exactly what's included in each plan",
+        "featuresTitle": "Features",
+        "trulyFree": "Truly Free",
         "premium": "Premium",
         "enterprise": "Enterprise",
-        "humanAgents": "Agenți umani",
-        "aiAgents": "Agenți AI",
-        "aiModels": "Modele AI",
-        "knowledgeBase": "Bază de cunoștințe",
-        "voiceAI": "Agenți vocali AI",
-        "phoneCalls": "Apeluri telefonice",
-        "automation": "Automatizare",
-        "apiIntegration": "Integrare API",
-        "workspaces": "Spații de lucru",
-        "support": "Suport",
+        "humanAgents": "Human Agents",
+        "aiAgents": "AI Agents",
+        "aiModels": "AI Models",
+        "knowledgeBase": "Knowledge Base",
+        "voiceAI": "Voice AI Agents",
+        "phoneCalls": "Phone Calls",
+        "automation": "Automation",
+        "apiIntegration": "API Integration",
+        "workspaces": "Workspaces",
+        "support": "Support",
         "features": {
           "humanAgents": {
             "free": "1 agent",
-            "premium": "4 utilizatori",
-            "enterprise": "Nelimitat"
+            "premium": "4 users",
+            "enterprise": "Unlimited"
           },
           "aiAgents": {
-            "free": "1 agent (100 răspunsuri)",
-            "premium": "10 agenți (nelimitat)",
-            "enterprise": "Construcție personalizată"
+            "free": "1 agent (100 replies)",
+            "premium": "10 agents (unlimited)",
+            "enterprise": "Custom build"
           },
           "aiModels": {
             "free": "ChatGPT-3.5",
             "premium": "ChatGPT-4o, Mistral",
-            "enterprise": "Modele avansate"
+            "enterprise": "Advanced models"
           },
           "knowledgeBase": {
-            "free": "20 documente (200KB)",
-            "premium": "5000 documente (10MB fiecare)",
-            "enterprise": "Nelimitat"
+            "free": "20 docs (200KB)",
+            "premium": "5000 docs (10MB each)",
+            "enterprise": "Unlimited"
           },
           "voiceAI": {
             "free": "❌",
@@ -595,144 +616,144 @@
           },
           "automation": {
             "free": "❌",
-            "premium": "✅ Avansat",
-            "enterprise": "✅ Personalizat"
+            "premium": "✅ Advanced",
+            "enterprise": "✅ Custom"
           },
           "apiIntegration": {
             "free": "❌",
             "premium": "✅",
-            "enterprise": "✅ Personalizat"
+            "enterprise": "✅ Custom"
           },
           "workspaces": {
             "free": "1",
-            "premium": "2 (15 USD fiecare extra)",
+            "premium": "2 ($15 each extra)",
             "enterprise": "Multiple"
           },
           "support": {
-            "free": "Comunitate",
-            "premium": "E-mail + Telefon",
-            "enterprise": "Tehnic dedicat"
+            "free": "Community",
+            "premium": "Email + Phone",
+            "enterprise": "Dedicated technical"
           }
         }
       },
       "enterprise": {
-        "title": "Aveți nevoie de ceva personalizat?",
-        "description": "Oferim soluții enterprise personalizate, inclusiv implementare on-premise, funcționalități avansate de securitate și echipe de suport dedicate.",
-        "contactSales": "Contactați echipa de vânzări"
+        "title": "Need Something Custom?",
+        "description": "We offer custom enterprise solutions including on-premise deployment, advanced security features, and dedicated support teams.",
+        "contactSales": "Contact Sales Team"
       },
       "faq": {
-        "title": "Întrebări frecvente",
-        "question1": "Planul gratuit este cu adevărat gratuit pentru totdeauna?",
-        "answer1": "Da! Planul nostru cu adevărat gratuit include 1 agent uman pe viață cu conversații nelimitate, istoric chat și contacte. În plus, primiți 1 agent AI cu 100 de răspunsuri AI pe viață pentru a încerca funcționalitățile noastre AI. Nu este necesar un card de credit, fără taxe ascunse.",
-        "question2": "Care este diferența dintre facturarea lunară și cea anuală?",
-        "answer2": "Cu facturarea anuală, economisiți 2 luni la planul Premium (299 USD/an față de 359,88 USD/an dacă este plătit lunar). Ciclul de facturare afectează doar planul Premium - planul gratuit este întotdeauna gratuit, iar Enterprise are prețuri personalizate.",
-        "question3": "Pot face upgrade sau downgrade la planul meu oricând?",
-        "answer3": "Absolut! Vă puteți schimba planul oricând. Upgrade-urile intră în vigoare imediat, iar downgrade-urile intră în vigoare la sfârșitul ciclului dvs. de facturare curent.",
-        "question4": "Ce se întâmplă dacă depășesc limita de răspunsuri AI la planul gratuit?",
-        "answer4": "Planul gratuit include 100 de răspunsuri AI pe viață. Odată ce ați atins această limită, va trebui să faceți upgrade la Premium pentru răspunsuri AI nelimitate. Funcționalitatea agentului dvs. uman rămâne nelimitată la toate planurile.",
-        "question5": "Cum funcționează prețurile planului Premium?",
-        "answer5": "Premium are două componente: o taxă de licență (29,99 USD/lună sau 299 USD/an) plus prețuri bazate pe utilizare. Utilizarea include răspunsuri AI începând de la 0,006 USD fiecare (ChatGPT-4o mini) și apeluri vocale la 0,12 USD/minut. Utilizatorii umani suplimentari costă 10 USD/lună fiecare, iar spațiile de lucru suplimentare costă 15 USD/lună fiecare.",
-        "question6": "Ce se întâmplă cu datele mele dacă anulez?",
-        "answer6": "Vă aparțin datele. Puteți exporta tot istoricul chat-ului, contactele și conținutul bazei de cunoștințe oricând, chiar și pe planul gratuit. Credem în libertatea și transparența datelor.",
-        "question7": "Oferiți prețuri personalizate pentru întreprinderile mari?",
-        "answer7": "Da! Planul nostru Enterprise oferă construcții personalizate, multiple servicii AI perfecte pentru agenții, integrări API personalizate și ghiduri de design profesional cu suport tehnic. Contactați echipa noastră de vânzări pentru o ofertă personalizată."
+        "title": "Frequently Asked Questions",
+        "question1": "Is the free plan really free forever?",
+        "answer1": "Yes! Our Truly Free plan includes 1 human agent for life with unlimited conversations, chat history, and contacts. Plus, you get 1 AI agent with 100 lifetime AI replies to try our AI features. No credit card required, no hidden fees.",
+        "question2": "What's the difference between monthly and yearly billing?",
+        "answer2": "With yearly billing, you save 2 months on the Premium plan ($299/year vs $359.88/year if paid monthly). The billing cycle only affects the Premium plan - the Free plan is always free and Enterprise is custom pricing.",
+        "question3": "Can I upgrade or downgrade my plan anytime?",
+        "answer3": "Absolutely! You can change your plan at any time. Upgrades take effect immediately, and downgrades take effect at the end of your current billing cycle.",
+        "question4": "What happens if I exceed my AI reply limit on the Free plan?",
+        "answer4": "The Free plan includes 100 lifetime AI replies. Once you reach this limit, you'll need to upgrade to Premium for unlimited AI responses. Your human agent functionality remains unlimited on all plans.",
+        "question5": "How does the Premium plan pricing work?",
+        "answer5": "Premium has two components: a license fee ($29.99/month or $299/year) plus usage-based pricing. Usage includes AI responses starting at $0.006 each (ChatGPT-4o mini) and voice calls at $0.12/minute. Additional human users cost $10/month each, and extra workspaces cost $15/month each.",
+        "question6": "What happens to my data if I cancel?",
+        "answer6": "You own your data. You can export all your chat history, contacts, and knowledge base content at any time, even on the free plan. We believe in data freedom and transparency.",
+        "question7": "Do you offer custom pricing for large enterprises?",
+        "answer7": "Yes! Our Enterprise plan offers custom builds, multiple AI services perfect for agencies, custom API integrations, and professional design guidelines with technical support. Contact our sales team for a personalized quote."
       },
       "cta": {
-        "title": "Revoluția dvs. de chat AI",
-        "subtitle": "Începe chiar acum!",
-        "description": "Alăturați-vă celor peste 100.000 de afaceri care utilizează deja SeaChat pentru a oferi experiențe excepționale clienților pe toate canalele de mesagerie",
+        "title": "Your AI Chat Revolution",
+        "subtitle": "Starts Right Now!",
+        "description": "Join 100,000+ businesses already using SeaChat to deliver exceptional customer experiences across all messaging channels",
         "stats": {
-          "messages": "Peste 100K",
-          "messagesLabel": "Mesaje zilnic",
-          "uptime": "99,9%",
-          "uptimeLabel": "Garanție timp de funcționare",
-          "channels": "Peste 15",
-          "channelsLabel": "Canale acceptate",
+          "messages": "100K+",
+          "messagesLabel": "Messages Daily",
+          "uptime": "99.9%",
+          "uptimeLabel": "Uptime Guarantee",
+          "channels": "15+",
+          "channelsLabel": "Channels Supported",
           "hipaa": "HIPAA",
-          "hipaaLabel": "Conform și securizat"
+          "hipaaLabel": "Compliant & Secure"
         },
-        "startFree": "ÎNCEPEȚI CU ADEVĂRAT GRATUIT PRIMUL",
-        "bookDemo": "Programați o demonstrație live",
+        "startFree": "START TRULY FREE FIRST",
+        "bookDemo": "Book Live Demo",
         "badges": {
-          "noCoding": "Nu este necesară codificarea",
-          "freePlan": "Plan gratuit permanent",
-          "cancelAnytime": "Anulați oricând",
-          "support": "Suport 24/7"
+          "noCoding": "No Coding Required",
+          "freePlan": "Free Forever Plan",
+          "cancelAnytime": "Cancel Anytime",
+          "support": "24/7 Support"
         },
-        "urgency": "Timp limitat: Obțineți 2 luni gratuite la planurile anuale + suport prioritar la integrare!",
-        "limitedTime": "Timp limitat:"
+        "urgency": "Limited Time: Get 2 months free on annual plans + priority onboarding support!",
+        "limitedTime": "Limited Time:"
       }
     },
     "knowledgeBase": {
-      "title": "Bază de cunoștințe puternică",
-      "subtitle": "Încărcați peste 30 de tipuri de fișiere și lăsați AI să ofere răspunsuri bogate, contextuale, cu carduri, butoane, imagini și videoclipuri.",
+      "title": "Powerful Knowledge Base",
+      "subtitle": "Upload 30+ file types and let AI provide rich, contextual responses with cards, buttons, images, and videos.",
       "supportedFormats": {
-        "title": "Tipuri de fișiere acceptate",
+        "title": "Supported File Types",
         "formats": {
           "pdf": {
-            "name": "Documente PDF",
-            "count": "15 fișiere"
+            "name": "PDF Documents",
+            "count": "15 files"
           },
           "excel": {
-            "name": "Foi de calcul Excel",
-            "count": "8 fișiere"
+            "name": "Excel Sheets",
+            "count": "8 files"
           },
           "word": {
-            "name": "Documente Word",
-            "count": "12 fișiere"
+            "name": "Word Documents",
+            "count": "12 files"
           },
           "images": {
-            "name": "Imagini",
-            "count": "25 imagini"
+            "name": "Images",
+            "count": "25 images"
           },
           "websites": {
-            "name": "Site-uri web",
-            "count": "5 site-uri"
+            "name": "Websites",
+            "count": "5 sites"
           },
           "videos": {
-            "name": "Videoclipuri",
-            "count": "3 videoclipuri"
+            "name": "Videos",
+            "count": "3 videos"
           }
         },
         "richResponse": {
-          "title": "Formatare răspuns bogat:",
+          "title": "Rich Response Formatting:",
           "features": [
-            "Carduri interactive",
-            "Butoane de acțiune",
-            "Imagini încorporate",
-            "Răspunsuri video"
+            "Interactive Cards",
+            "Action Buttons",
+            "Embedded Images",
+            "Video Responses"
           ]
         },
-        "addDocuments": "Adăugați documentele dvs."
+        "addDocuments": "Add Your Documents"
       },
       "uploadModal": {
-        "title": "Încărcați documentele dvs.",
+        "title": "Upload Your Documents",
         "dropzone": {
-          "title": "Trageți fișierele aici",
-          "description": "Suport pentru PDF, Word, Excel, imagini, videoclipuri și multe altele",
-          "button": "Alegeți fișiere"
+          "title": "Drop your files here",
+          "description": "Support for PDF, Word, Excel, images, videos, and more",
+          "button": "Choose Files"
         },
         "demoFiles": [
           "sample_manual.pdf",
           "product_data.xlsx",
           "brand_guide.jpg"
         ],
-        "close": "Închideți demonstrația"
+        "close": "Close Demo"
       }
     },
     "useCases": {
-      "title": "Povești de succes în diverse industrii",
-      "subtitle": "Vedeți cum afacerile își transformă asistența clienților cu abordarea hibridă om-AI a SeaChat.",
+      "title": "Success Stories Across Industries",
+      "subtitle": "See how businesses transform their customer support with SeaChat's human-AI hybrid approach.",
       "cases": {
         "ecommerce": {
-          "title": "Revoluția suportului e-commerce",
+          "title": "E-commerce Support Revolution",
           "industry": "Retail",
-          "challenge": "Gestionarea a peste 500 de interogări zilnice ale clienților pe mai multe canale cu personal limitat",
-          "solution": "Implementarea SeaChat cu agenți AI care gestionează 70% din interogările de rutină, agenți umani pentru probleme complexe",
+          "challenge": "Managing 500+ daily customer inquiries across multiple channels with limited staff",
+          "solution": "Deployed SeaChat with AI agents handling 70% of routine inquiries, human agents for complex issues",
           "results": [
-            "Reducere cu 60% a timpului de răspuns",
-            "Creștere cu 40% a satisfacției clienților",
-            "Economii de costuri de 75% la operațiunile de suport"
+            "60% reduction in response time",
+            "40% increase in customer satisfaction",
+            "75% cost savings on support operations"
           ],
           "metrics": {
             "responseTime": "< 30s",
@@ -741,14 +762,14 @@
           }
         },
         "healthcare": {
-          "title": "Suport pacienți în asistența medicală",
-          "industry": "Sănătate",
-          "challenge": "Oferirea de suport pacienților 24/7, menținând în același timp conformitatea HIPAA",
-          "solution": "Integrarea agenților AI securizați cu programarea programărilor și pre-screening-ul simptomelor",
+          "title": "Healthcare Patient Support",
+          "industry": "Healthcare",
+          "challenge": "Providing 24/7 patient support while maintaining HIPAA compliance",
+          "solution": "Integrated secure AI agents with appointment booking and symptom pre-screening",
           "results": [
-            "Asistență pacienți 24/7",
-            "Reducere cu 50% a absențelor",
-            "100% conformitate HIPAA menținută"
+            "24/7 patient assistance",
+            "50% reduction in no-shows",
+            "100% HIPAA compliance maintained"
           ],
           "metrics": {
             "availability": "24/7",
@@ -757,145 +778,145 @@
           }
         },
         "fintech": {
-          "title": "Excelență în servicii financiare",
+          "title": "Financial Services Excellence",
           "industry": "FinTech",
-          "challenge": "Gestionarea interogărilor financiare sensibile cu viteză și securitate",
-          "solution": "Antrenament AI personalizat pe reglementările financiare cu escaladare umană fără întreruperi",
+          "challenge": "Handling sensitive financial queries with speed and security",
+          "solution": "Custom AI training on financial regulations with seamless human escalation",
           "results": [
-            "90% rezolvare la primul contact",
-            "Procesare interogări de 3 ori mai rapidă",
-            "Protocoale de securitate îmbunătățite"
+            "90% first-contact resolution",
+            "3x faster query processing",
+            "Enhanced security protocols"
           ],
           "metrics": {
             "resolution": "90%",
             "speed": "3x",
-            "security": "Îmbunătățit"
+            "security": "Enhanced"
           }
         }
       },
       "cta": {
-        "title": "Gata să vă transformați suportul?",
-        "description": "Alăturați-vă sutelor de afaceri care utilizează deja SeaChat pentru a oferi experiențe excepționale clienților.",
+        "title": "Ready to Transform Your Support?",
+        "description": "Join hundreds of businesses already using SeaChat to deliver exceptional customer experiences.",
         "buttons": {
-          "viewCases": "Vizualizați toate studiile de caz",
-          "startStory": "Începeți povestea dvs. de succes"
+          "viewCases": "View All Case Studies",
+          "startStory": "Start Your Success Story"
         },
-        "signUpFree": "Înregistrați-vă gratuit",
-        "bookDemo": "Programați o demonstrație"
+        "signUpFree": "Sign Up For Free",
+        "bookDemo": "Book A Demo"
       },
       "labels": {
-        "challenge": "Provocare:",
-        "solution": "Soluție:",
-        "resultsAchieved": "Rezultate obținute:"
+        "challenge": "Challenge:",
+        "solution": "Solution:",
+        "resultsAchieved": "Results Achieved:"
       },
       "metrics": {
-        "responseTime": "Timp de răspuns",
-        "satisfaction": "Satisfacție",
+        "responseTime": "Response Time",
+        "satisfaction": "Satisfaction",
         "cost": "Cost",
-        "availability": "Disponibilitate",
-        "noShows": "Absențe",
-        "compliance": "Conformitate",
-        "resolution": "Rezolvare",
-        "speed": "Viteză",
-        "security": "Securitate"
+        "availability": "Availability",
+        "noShows": "No-Shows",
+        "compliance": "Compliance",
+        "resolution": "Resolution",
+        "speed": "Speed",
+        "security": "Security"
       }
     },
     "testimonials": {
-      "title": "Iubit de echipele de suport din întreaga lume",
-      "subtitle": "Nu ne credeți pe cuvânt. Iată ce spun clienții noștri despre transformarea suportului lor cu abordarea hibridă om-AI a SeaChat.",
+      "title": "Loved by Support Teams Worldwide",
+      "subtitle": "Don't just take our word for it. Here's what our customers say about transforming their support with SeaChat.",
       "navigation": {
-        "previous": "Anterior",
-        "next": "Următor"
+        "previous": "Previous",
+        "next": "Next"
       },
-      "trustedBy": "De încredere pentru companii inovatoare din întreaga lume",
+      "trustedBy": "Trusted by innovative companies worldwide",
       "stats": {
-        "customers": "Peste 10.000 de clienți fericiți",
-        "uptime": "99,9% timp de funcționare",
-        "messages": "Peste 50 de milioane de mesaje procesate",
-        "rating": "4,9/5 evaluare clienți"
+        "customers": "10,000+ Happy Customers",
+        "uptime": "99.9% Uptime",
+        "messages": "50M+ Messages Processed",
+        "rating": "4.9/5 Customer Rating"
       },
       "testimonials": {
         "0": {
           "name": "Sarah Chen",
-          "title": "Director succes clienți",
+          "title": "Customer Success Director",
           "company": "TechFlow Solutions",
-          "quote": "SeaChat a transformat operațiunile noastre de suport. Începerea cu agenți umani gratuit a fost perfectă pentru startup-ul nostru, iar scalarea cu AI a fost fără întreruperi. Timpii noștri de răspuns s-au îmbunătățit cu 70%.",
+          "quote": "SeaChat transformed our support operations. Starting with free human agents was perfect for our startup, and scaling with AI has been seamless. Our response times improved by 70%.",
           "metrics": {
             "improvement": "70%",
-            "feature": "Timp de răspuns"
+            "feature": "Response Time"
           }
         },
         "1": {
           "name": "Marcus Rodriguez",
-          "title": "Manager operațiuni",
+          "title": "Operations Manager",
           "company": "EcoCommerce",
-          "quote": "Funcționalitatea bazei de cunoștințe este incredibilă. Am încărcat întregul nostru catalog de produse și întrebări frecvente, iar AI gestionează acum 80% din interogările clienților cu o precizie perfectă.",
+          "quote": "The knowledge base feature is incredible. We uploaded our entire product catalog and FAQs, and the AI now handles 80% of customer queries with perfect accuracy.",
           "metrics": {
             "improvement": "80%",
-            "feature": "Rezolvare interogări"
+            "feature": "Query Resolution"
           }
         },
         "2": {
           "name": "Emily Watson",
-          "title": "Șef experiență clienți",
+          "title": "Head of Customer Experience",
           "company": "HealthTech Pro",
-          "quote": "Integrarea omnichannel este impecabilă. Clienții noștri pot începe o conversa pe WhatsApp și pot continua pe site-ul nostru fără a pierde contextul. O schimbare de joc!",
+          "quote": "The omnichannel integration is flawless. Our customers can start a conversation on WhatsApp and continue on our website without losing context. Game-changing!",
           "metrics": {
             "improvement": "95%",
-            "feature": "Satisfacție clienți"
+            "feature": "Customer Satisfaction"
           }
         },
         "3": {
           "name": "David Park",
-          "title": "Fondator și CEO",
+          "title": "Founder & CEO",
           "company": "StartupFlow",
-          "quote": "Ca startup bootstrap, planul gratuit a fost o salvare. Am oferit suport profesional din prima zi fără costuri inițiale. Acum plătim cu bucurie pentru funcționalitățile AI pe măsură ce scalăm.",
+          "quote": "As a bootstrap startup, the free plan was a lifesaver. We provided professional support from day one without any upfront costs. Now we're happily paying for AI features as we scale.",
           "metrics": {
-            "improvement": "0 USD",
-            "feature": "Cost inițial"
+            "improvement": "$0",
+            "feature": "Initial Cost"
           }
         },
         "4": {
           "name": "Lisa Thompson",
-          "title": "Lider echipă suport",
+          "title": "Support Team Lead",
           "company": "GlobalRetail Inc",
-          "quote": "Transferul om-AI este atât de fluid încât clienții nici nu observă când sunt transferați între agenții AI și agenții umani. Este exact ceea ce aveam nevoie pentru scenariile noastre complexe de suport.",
+          "quote": "The human-AI handoff is so smooth that customers don't even notice when they're switched between AI and human agents. It's exactly what we needed for our complex support scenarios.",
           "metrics": {
             "improvement": "100%",
-            "feature": "Transfer fără întreruperi"
+            "feature": "Seamless Handoff"
           }
         }
       }
     },
     "blog": {
-      "title": "Cele mai recente insight-uri și resurse",
-      "subtitle": "Rămâneți la curent cu insight-uri de specialitate despre tendințele de asistență clienți, strategiile de implementare AI și sfaturi de optimizare a platformei.",
+      "title": "Latest Insights & Resources",
+      "subtitle": "Stay ahead with expert insights on customer support trends, AI implementation strategies, and platform optimization tips.",
       "categories": {
-        "all": "Toate",
-        "ai": "AI și automatizare",
-        "strategy": "Strategie",
-        "integration": "Integrare",
-        "knowledge": "Gestionarea cunoștințelor",
-        "success": "Succes clienți"
+        "all": "All",
+        "ai": "AI & Automation",
+        "strategy": "Strategy",
+        "integration": "Integration",
+        "knowledge": "Knowledge Management",
+        "success": "Customer Success"
       },
-      "featured": "Recomandate",
-      "latest": "Postări recente",
-      "readTime": "min citire",
-      "stayUpdated": "Rămâneți la curent",
-      "newsletterSubtitle": "Obțineți cele mai recente insight-uri despre asistența clienților AI, actualizări ale platformei și cele mai bune practici din industrie livrate în inbox-ul dvs.",
-      "joinProfessionals": "Alăturați-vă celor peste 5.000 de profesioniști în suport. Dezabonați-vă oricând.",
-      "loading": "Se încarcă postările de blog...",
-      "loadingPost": "Se încarcă articolul...",
-      "backToBlog": "Înapoi la blog",
-      "share": "Partajați",
-      "tags": "Etichete",
-      "followLinkedIn": "Urmăriți pe LinkedIn",
-      "moreArticles": "Mai multe articole",
-      "relatedArticles": "Articole similare",
-      "searchPlaceholder": "Căutați articole, subiecte sau etichete...",
-      "articleCount": "articol(e) găsit(e)",
-      "noArticles": "Niciun articol găsit",
-      "adjustSearch": "Încercați să ajustați termenii de căutare sau filtrul de categorii."
+      "featured": "Featured",
+      "latest": "Recent Posts",
+      "readTime": "min read",
+      "stayUpdated": "Stay Updated",
+      "newsletterSubtitle": "Get the latest insights on AI customer support, platform updates, and industry best practices delivered to your inbox.",
+      "joinProfessionals": "Join 5,000+ support professionals. Unsubscribe anytime.",
+      "loading": "Loading blog posts...",
+      "loadingPost": "Loading article...",
+      "backToBlog": "Back to Blog",
+      "share": "Share",
+      "tags": "Tags",
+      "followLinkedIn": "Follow on LinkedIn",
+      "moreArticles": "More Articles",
+      "relatedArticles": "Related Articles",
+      "searchPlaceholder": "Search articles, topics, or tags...",
+      "articleCount": "article(s) found",
+      "noArticles": "No articles found",
+      "adjustSearch": "Try adjusting your search terms or category filter."
     }
   }
 }

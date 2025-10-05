@@ -1,7 +1,102 @@
 {
-  "blog_page_description": "Seasalt.aiのブログで、AIとテクノロジーの最新情報をご覧ください。当社の専門家による洞察、トレンド、イノベーションをご覧ください。",
-  "blog_page_title": "Seasalt.aiブログ：AIに関する洞察とイノベーション",
-  "blog_subtitle": "Seasalt.aiチームからの最新の記事、洞察、イノベーションをご覧ください。",
-  "blog_title": "Seasalt.aiブログ",
-  "search_placeholder": "記事を検索"
+  "compareUsOverview": {
+    "seo": {
+      "title": "seasalt.aiを代替案と比較します",
+      "description": "すべての主要な競合他社との詳細な比較を参照してください。私たちは、中小企業のシンプルさと透明な価格設定を備えたエンタープライズ機能を提供する唯一のプラットフォームです。"
+    },
+    "hero": {
+      "backToHome": "家に戻る",
+      "title": "seasalt.aiがどのように比較されますか",
+      "titleHighlight": "すべての代替品",
+      "subtitle": "すべての主要な競合他社との詳細な比較を参照してください。私たちは、中小企業のシンプルさと透明な価格設定を備えたエンタープライズ機能を提供する唯一のプラットフォームです。"
+    },
+    "stats": {
+      "competitorsAnalyzed": "競合他社が分析しました",
+      "startingPrice": "開始価格/エージェント",
+      "channelsIncluded": "含まれるチャネル",
+      "unifiedPlatform": "統一されたプラットフォーム"
+    },
+    "competitorsSection": {
+      "title": "比較を選択してください",
+      "subtitle": "競合他社をクリックして、seasalt.aiとの詳細な機能の比較を確認してください"
+    },
+    "competitors": {
+      "aircall": {
+        "category": "販売中心の電話システム",
+        "description": "ユーザーフレンドリーなインターフェイスですが、高価なアドオンと3ユーザーの最小"
+      },
+      "ringcentral": {
+        "category": "UCAAS巨人",
+        "description": "個別のUCAASおよびCCAAS製品を備えた断片化されたプラットフォーム"
+      },
+      "genesys": {
+        "category": "エンタープライズコンタクトセンター",
+        "description": "強力だが高価で、最小限と複雑な価格設定"
+      },
+      "five9": {
+        "category": "エンタープライズコンタクトセンター",
+        "description": "エンタープライズの価格設定がユーザーあたり119ドルから始まるアウトバウンドヘビープラットフォーム"
+      },
+      "avaya": {
+        "category": "レガシープロバイダー",
+        "description": "複雑なエンタープライズフォーカスと引用ベースの価格設定を備えたレガシーアーキテクチャ"
+      },
+      "googleVoice": {
+        "category": "基本的なVoIPサービス",
+        "description": "ソロプレナーに最適ですが、チームの機能と統合がありません"
+      },
+      "respondIo": {
+        "category": "デジタルファーストプラットフォーム",
+        "description": "強力なメッセージングプラットフォームですが、音声はベータ版であり、価格設定は複雑です"
+      },
+      "intercom": {
+        "category": "ウェブサイトのエンゲージメントツール",
+        "description": "ウェブサイトのチャットに最適ですが、解像度ごとの価格設定は高価です"
+      },
+      "kustomer": {
+        "category": "エンタープライズカスタマーサービス",
+        "description": "強力なオムニチャネルですが、8席の最小および高価なAIアドオン"
+      },
+      "threeCx": {
+        "category": "自己ホストされたソリューション",
+        "description": "オープンプラットフォームですが、技術的な専門知識と隠されたコストが必要です"
+      },
+      "dialpad": {
+        "category": "コンタクトセンター層を備えたUCAAS",
+        "description": "良い音声AIですが、コンタクトセンター機能に必要な高価なアップグレード"
+      },
+      "eightByEight": {
+        "category": "エンタープライズコミュニケーション",
+        "description": "包括的であるが見積もりベースの価格設定と企業の複雑さ"
+      },
+      "openphone": {
+        "category": "シンプルなビジネス電話",
+        "description": "最新の電話システムですが、高価なAIアドオンを備えた音声/SMSに限定されています"
+      }
+    },
+    "whyCompareSection": {
+      "title": "なぜ私たちは皆と自分自身を比較します",
+      "subtitle": "私たちは透明性を信じています。市場のあらゆる代替案に対してどのように積み重なっているかを正確に確認してください。"
+    },
+    "benefits": {
+      "transparency": {
+        "title": "完全な透明性",
+        "description": "機能、価格設定、および機能をどのように比較するかを正確に示します。マーケティングの綿毛はありません。"
+      },
+      "decisions": {
+        "title": "情報に基づいた決定",
+        "description": "すべてのオプションの詳細で正直な比較を使用して、ビジネスに適した選択を行います。"
+      },
+      "fit": {
+        "title": "あなたのフィット感を見つけてください",
+        "description": "すべてのビジネスは異なります。どのソリューションがあなたのニーズと予算に本当に一致するかを見てください。"
+      }
+    },
+    "cta": {
+      "title": "なぜ私たちが違うのかを見る準備はできていますか？",
+      "subtitle": "すべての選択肢を比較した後、私たちはあなたが同意すると思います：Seasalt.aiは成長するビジネスの賢明な選択です。",
+      "signUp": "サインアップ",
+      "bookDemo": "デモを予約してください"
+    }
+  }
 }

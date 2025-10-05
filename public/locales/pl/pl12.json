@@ -1,391 +1,741 @@
 {
   "seavoice": {
-    "platform": {
-      "speechToText": {
-        "hero": {
-          "title": "Technologia mowy na tekst",
-          "subtitle": "Wiodące w branży rozpoznawanie mowy z ponad 99% dokładnością. Konwertuj dowolny dźwięk na tekst w czasie rzeczywistym z obsługą ponad 50 języków i specjalistycznych słownictw branżowych.",
-          "cta": "Wypróbuj rozpoznawanie mowy"
-        },
-        "features": {
-          "0": {
-            "title": "Przetwarzanie w czasie rzeczywistym",
-            "description": "Konwertuj mowę na tekst w czasie rzeczywistym z ultra-niskim opóźnieniem dla rozmów na żywo.",
-            "specs": {
-              "0": "< 100ms opóźnienia",
-              "1": "Rozpoznawanie strumieniowe",
-              "2": "Transkrypcja na żywo"
-            }
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "Rezerwacja i zarządzanie spotkaniami",
+            "description": "Zautomatyzuj harmonogram wizyty z sztuczną inteligencją, która rozumie dostępność, preferencje i zasady biznesowe.Zmniejsz brak-wyświetlacze i usprawnij proces rezerwacji dzięki inteligentnym interakcjom głosowym.",
+            "cta": "Zautomatyzuj rezerwację wizyty"
           },
-          "1": {
-            "title": "Obsługa wielu języków",
-            "description": "Obsługa ponad 50 języków i dialektów z automatycznym wykrywaniem języka.",
-            "specs": {
-              "0": "Ponad 50 języków",
-              "1": "Automatyczne wykrywanie",
-              "2": "Akcenty regionalne"
-            }
-          },
-          "2": {
-            "title": "Dokładność branżowa",
-            "description": "Specjalistyczne modele szkolone dla różnych branż i przypadków użycia.",
-            "specs": {
-              "0": "Ponad 99% dokładności",
-              "1": "Specyficzne dla domeny",
-              "2": "Niestandardowe słownictwo"
-            }
-          },
-          "title": "Zaawansowane rozpoznawanie mowy",
-          "subtitle": "Zbudowany na oryginalnej strukturze Kaldi z nowoczesnymi ulepszeniami głębokiego uczenia się"
-        },
-        "accuracy": {
-          "title": "Wiodąca w branży dokładność",
-          "subtitle": "Specjalistyczne modele szkolone dla różnych branż i przypadków użycia",
-          "stats": {
-            "0": {
-              "category": "Ogólna rozmowa",
-              "accuracy": "99,2%",
-              "improvement": "+15%"
-            },
-            "1": {
-              "category": "Terminologia medyczna",
-              "accuracy": "98,8%",
-              "improvement": "+22%"
-            },
-            "2": {
-              "category": "Usługi finansowe",
-              "accuracy": "99,1%",
-              "improvement": "+18%"
-            },
-            "3": {
-              "category": "Wsparcie techniczne",
-              "accuracy": "98,9%",
-              "improvement": "+20%"
-            }
-          },
-          "improvementSuffix": " vs średnia branżowa"
-        },
-        "languages": {
-          "title": "Globalna obsługa języków",
-          "subtitle": "Kompleksowa obsługa głównych języków świata z automatycznym wykrywaniem języka i rozpoznawaniem akcentów regionalnych. Nasze modele są stale szkolone na różnorodnych zbiorach danych, aby zapewnić dokładność w różnych stylach mówienia i środowiskach.",
           "features": {
-            "0": {
-              "title": "Ponad 50 języków",
-              "description": "Główne języki świata i dialekty regionalne"
+            "title": "Zarządzanie inteligentnym spotkaniami",
+            "subtitle": "Kompleksowy system rezerwacji, który obsługuje złożone scenariusze planowania",
+            "intelligentScheduling": {
+              "title": "Inteligentne planowanie",
+              "description": "Rezerwacja spotkań z napędem AI, która rozumie dostępność i preferencje.",
+              "benefit1": "Dostępność w czasie rzeczywistym",
+              "benefit2": "Smart Conflict Resolution",
+              "benefit3": "Dopasowanie preferencji"
             },
-            "1": {
-              "title": "Automatyczne wykrywanie",
-              "description": "Automatyczna identyfikacja i przełączanie języków"
+            "automatedReminders": {
+              "title": "Zautomatyzowane przypomnienia",
+              "description": "Zmniejsz brak z zautomatyzowanymi przypomnieniami i potwierdzeniami.",
+              "benefit1": "Przypomnienia SMS i głos",
+              "benefit2": "Konfigurowalne czas",
+              "benefit3": "Śledzenie potwierdzenia"
             },
-            "2": {
-              "title": "Ciągłe uczenie się",
-              "description": "Modele poprawiają się wraz z użyciem i opiniami"
+            "multiProviderSupport": {
+              "title": "Obsługa wielu osób",
+              "description": "Zarządzaj spotkaniami między wieloma dostawcami, lokalizacjami i usługami.",
+              "benefit1": "Dostępność dostawcy",
+              "benefit2": "Zarządzanie lokalizacją",
+              "benefit3": "Kategoryzacja usług"
             }
           },
-          "supportedTitle": "Obsługiwane języki",
-          "supportedLanguages": {
-            "0": "Angielski (USA, Wielka Brytania, Australia)",
-            "1": "Hiszpański (Hiszpania, Meksyk, Argentyna)",
-            "2": "Francuski (Francja, Kanada)",
-            "3": "Niemiecki",
-            "4": "Włoski",
-            "5": "Portugalski (Brazylia, Portugalia)",
-            "6": "Japoński",
-            "7": "Koreański",
-            "8": "Mandaryński chiński",
-            "9": "Kantoński",
-            "10": "Hindi",
-            "11": "Arabski",
-            "12": "Rosyjski",
-            "13": "Holenderski",
-            "14": "Szwedzki",
-            "15": "Norweski"
+          "capabilities": {
+            "title": "Kompletne rozwiązanie rezerwacji",
+            "subtitle": "Automatycznie obsługuj każdy aspekt zarządzania spotkaniami",
+            "appointmentScheduling": {
+              "capability": "Planowanie terminów",
+              "description": "Zarezerwuj nowe spotkania na podstawie dostępności i preferencji",
+              "feature1": "Dostępne przedziały czasowe",
+              "feature2": "Wybór dostawcy",
+              "feature3": "Dopasowanie typu usługi"
+            },
+            "rescheduling": {
+              "capability": "Zmiana harmonogramu",
+              "description": "Zmodyfikuj istniejące spotkania za pomocą automatycznego rozwiązywania konfliktów",
+              "feature1": "Wykrywanie konfliktów",
+              "feature2": "Alternatywne sugestie",
+              "feature3": "Automatyczne aktualizacje"
+            },
+            "cancellationManagement": {
+              "capability": "Zarządzanie anulowaniem",
+              "description": "Obsługuj anulowanie i efektywnie zarządzanie listą oczekującymi",
+              "feature1": "Zasady anulowania",
+              "feature2": "Automatyzacja listy oczekujących",
+              "feature3": "Przetwarzanie zwrotu pieniędzy"
+            },
+            "reminderSystem": {
+              "capability": "System przypomnienia",
+              "description": "Zautomatyzowane przypomnienia o zmniejszeniu braków i poprawy frekwencji",
+              "feature1": "Przypomnienie wielokanałowe",
+              "feature2": "Konfigurowalne czas",
+              "feature3": "Żądania potwierdzenia"
+            }
           },
-          "customNote": "Dostępne niestandardowe modele językowe dla specjalistycznych słownictw i terminologii branżowej"
+          "industries": {
+            "title": "Aplikacje branżowe",
+            "subtitle": "Dostosowane rozwiązania do rezerwacji dla różnych branż i przypadków użycia",
+            "healthcare": {
+              "industry": "Opieka zdrowotna",
+              "description": "Wizyty lekarskie, konsultacje i procedury",
+              "benefit1": "Planowanie pacjentów",
+              "benefit2": "Koordynacja dostawcy",
+              "benefit3": "Weryfikacja ubezpieczenia"
+            },
+            "beautyWellness": {
+              "industry": "Piękno i Wellness",
+              "description": "Spotkania w salonie, usługi spa i sesje wellness",
+              "benefit1": "Śledzenie czasu trwania usługi",
+              "benefit2": "Preferencje stylistyczne",
+              "benefit3": "Rezerwacje pakietów"
+            },
+            "professionalServices": {
+              "industry": "Usługi profesjonalne",
+              "description": "Konsultacje, spotkania i spotkania serwisowe",
+              "benefit1": "Rezerwacja sali konferencyjnej",
+              "benefit2": "Dostępność konsultantów",
+              "benefit3": "Preferencje klienta"
+            }
+          },
+          "reminderSection": {
+            "title": "Zautomatyzowany system przypomnienia",
+            "description": "Znacząco zmniejsz brak z inteligentnymi kampaniami przypomnienia, które docierają do klientów za pośrednictwem preferowanych kanałów komunikacji w optymalnym czasie.",
+            "multiChannelReminders": {
+              "title": "Przypomnienie wielokanałowe",
+              "description": "Połączenia głosowe, SMS i przypomnienia e -mailowe"
+            },
+            "optimalTiming": {
+              "title": "Optymalny czas",
+              "description": "AI określa najlepsze czasy na wysłanie przypomnień"
+            },
+            "performanceTracking": {
+              "title": "Śledzenie wydajności",
+              "description": "Monitoruj skuteczność przypomnienia i optymalizuj"
+            },
+            "reminderTimeline": {
+              "title": "Oś czasu przypomnienia"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "Początkowe potwierdzenie",
+                "description": "Potwierdzenie i szczegóły spotkania"
+              },
+              "dayBefore": {
+                "title": "Dzień przed przypomnieniem",
+                "description": "Ostateczne przypomnienie z instrukcjami przygotowania"
+              },
+              "lastMinute": {
+                "title": "Kontrola w ostatniej chwili",
+                "description": "Ostateczne potwierdzenie i wskazówki"
+              },
+              "sevenDays": "koniec",
+              "oneDay": "1d",
+              "twoHours": "On"
+            }
+          },
+          "benefits": {
+            "title": "Wyniki rezerwacji wyniki",
+            "subtitle": "Mierzalna poprawa wydajności zarządzania spotkaniami",
+            "noShowReduction": {
+              "metric": "40%",
+              "description": "Zmniejszenie stawek bez show"
+            },
+            "availabilityWindow": {
+              "metric": "24/7",
+              "description": "Dostępność rezerwacji"
+            },
+            "bookingAccuracy": {
+              "metric": "85%",
+              "description": "Wskaźnik dokładności rezerwacji"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "Zmniejszenie obciążenia administratora"
+            }
+          },
+          "cta": {
+            "title": "Gotowy do zautomatyzowania rezerwacji wizyty?",
+            "description": "Usprawnij harmonogram i zmniejsz zakazu z inteligentnym zarządzaniem spotkaniami",
+            "startFreeTrial": "Rozpocznij bezpłatny proces",
+            "scheduleDemo": "Demo harmonogramu"
+          }
         },
-        "useCases": {
-          "0": {
-            "title": "Transkrypcja centrum obsługi telefonicznej",
-            "description": "Transkrypcja połączeń obsługi klienta w czasie rzeczywistym w celu zapewnienia jakości i szkolenia.",
-            "benefits": {
-              "0": "Monitorowanie jakości",
-              "1": "Nagrywanie zgodności",
-              "2": "Szkolenie agentów",
-              "3": "Statystyki klientów"
+        "mentalHealth": {
+          "hero": {
+            "title": "Towarzysz głosu zdrowia psychicznego",
+            "description": "Zapewnij współczujące wsparcie zdrowia psychicznego 24/7 z AI, która słucha, rozumie i reaguje empatią.Bezpiecznie wypełnij lukę między kryzysem a opieką zawodową.",
+            "cta": "Dowiedz się o zdrowiu psychicznym AI"
+          },
+          "features": {
+            "title": "Współczujące wsparcie AI",
+            "description": "Zaawansowana AI przeszkolona w zakresie wsparcia zdrowia psychicznego i interwencji kryzysowej",
+            "empathetic": {
+              "title": "Empatyczny towarzysz AI",
+              "description": "Wyszkolony w celu zapewnienia współczującego, bez osądu wsparcia z odpowiednimi reakcjami emocjonalnymi.",
+              "benefits": {
+                "activeListening": "Aktywne słuchanie",
+                "emotionalValidation": "Walidacja emocjonalna",
+                "crisisRecognition": "Crisis recognition"
+              }
+            },
+            "safe": {
+              "title": "Safe & Confidential",
+              "description": "HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.",
+              "benefits": {
+                "hipaaCompliance": "HIPAA compliance",
+                "encryptedConversations": "Encrypted conversations",
+                "anonymousOptions": "Anonymous options"
+              }
+            },
+            "availability": {
+              "title": "24/7 Availability",
+              "description": "Always available when someone needs to talk, providing immediate support during crisis moments.",
+              "benefits": {
+                "roundTheClockAccess": "Round-the-clock access",
+                "immediateResponse": "Immediate response",
+                "noWaitTimes": "No wait times"
+              }
             }
           },
-          "1": {
-            "title": "Dokumentacja spotkań",
-            "description": "Automatyczna transkrypcja spotkań, konferencji i dyskusji biznesowych.",
-            "benefits": {
-              "0": "Protokoły spotkań",
-              "1": "Ekstrakcja elementów działania",
-              "2": "Archiwa z możliwością wyszukiwania",
-              "3": "Identyfikacja wielu mówców"
+          "capabilities": {
+            "title": "Mental Health Support Capabilities",
+            "description": "Comprehensive support across the mental health care spectrum",
+            "screening": {
+              "title": "Initial Mental Health Screening",
+              "description": "Conduct preliminary assessments using validated screening tools",
+              "outcomes": {
+                "earlyIdentification": "Early identification",
+                "riskAssessment": "Risk assessment",
+                "appropriateReferrals": "Appropriate referrals"
+              }
+            },
+            "crisis": {
+              "title": "Crisis Intervention",
+              "description": "Recognize crisis situations and provide immediate support or escalation",
+              "outcomes": {
+                "crisisDetection": "Crisis detection",
+                "deEscalationTechniques": "De-escalation techniques",
+                "emergencyProtocols": "Emergency protocols"
+              }
+            },
+            "navigation": {
+              "title": "Resource Navigation",
+              "description": "Guide users to appropriate mental health resources and services",
+              "outcomes": {
+                "serviceMatching": "Service matching",
+                "appointmentScheduling": "Appointment scheduling",
+                "followUpSupport": "Follow-up support"
+              }
+            },
+            "emotional": {
+              "title": "Emotional Support",
+              "description": "Provide compassionate listening and emotional validation",
+              "outcomes": {
+                "reducedIsolation": "Reduced isolation",
+                "emotionalRelief": "Emotional relief",
+                "copingStrategies": "Coping strategies"
+              }
             }
           },
-          "2": {
-            "title": "Polecenia głosowe",
-            "description": "Konwertuj polecenia głosowe na tekst dla aplikacji i interfejsów sterowanych głosem.",
-            "benefits": {
-              "0": "Obsługa bez użycia rąk",
-              "1": "Funkcje dostępności",
-              "2": "Sterowanie inteligentnym domem",
-              "3": "Aplikacje mobilne"
+          "safety": {
+            "title": "Safety-First Design",
+            "description": "Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+            "features": {
+              "title": "Safety Features"
+            },
+            "crisisDetection": {
+              "title": "Crisis Detection",
+              "description": "Advanced algorithms identify crisis situations"
+            },
+            "professionalHandoff": {
+              "title": "Professional Handoff",
+              "description": "Seamless transfer to human mental health professionals"
+            },
+            "emergencyProtocols": {
+              "title": "Emergency Protocols",
+              "description": "Immediate connection to crisis hotlines when needed"
             }
           },
-          "3": {
-            "title": "Tworzenie treści",
-            "description": "Przekształć treści audio w tekst dla podcastów, filmów i produkcji medialnych.",
-            "benefits": {
-              "0": "Generowanie napisów",
-              "1": "Indeksowanie treści",
-              "2": "Optymalizacja SEO",
-              "3": "Zgodność z dostępnością"
-            }
+          "safetyFeatures": {
+            "crisisKeywordDetection": "Crisis keyword detection",
+            "suicideRiskAssessment": "Suicide risk assessment",
+            "automaticEscalationProtocols": "Automatic escalation protocols",
+            "emergencyContactIntegration": "Emergency contact integration",
+            "professionalHandoffProcedures": "Professional handoff procedures",
+            "followUpScheduling": "Follow-up scheduling"
           },
-          "title": "Potężne przypadki użycia",
-          "subtitle": "Przekształć dźwięk w użyteczny tekst w różnych branżach i zastosowaniach"
+          "benefits": {
+            "title": "Mental Health Impact",
+            "description": "Measurable improvements in mental health support accessibility",
+            "alwaysAvailableSupport": "Always available support",
+            "crisisEscalationReduction": "Reduction in crisis escalation",
+            "userSatisfactionRate": "User satisfaction rate",
+            "helpSeekingBehaviorIncrease": "Increase in help-seeking behavior"
+          },
+          "cta": {
+            "title": "Ready to Support Mental Health?",
+            "description": "Provide compassionate, 24/7 mental health support with AI that truly cares",
+            "learnMore": "Learn More",
+            "contactSpecialists": "Contact Specialists"
+          }
         },
-        "specs": {
-          "title": "Specyfikacje techniczne",
-          "subtitle": "Wydajność i niezawodność klasy korporacyjnej",
-          "performance": {
-            "title": "Wydajność",
-            "latency": {
-              "label": "Opóźnienie",
-              "value": "< 100ms"
+        "callTransfer": {
+          "hero": {
+            "title": "Smart Call Transfer During Business Hours",
+            "description": "Revolutionize your call routing with AI-powered intelligent transfer that understands caller intent and connects them to the right person instantly, reducing wait times and improving customer satisfaction.",
+            "primaryCta": "Optimize Your Call Routing"
+          },
+          "features": {
+            "title": "Intelligent Call Routing Features",
+            "description": "Advanced AI technology that understands and routes calls with precision",
+            "intelligentRouting": {
+              "title": "Intelligent Routing",
+              "description": "AI analyzes caller intent and routes to the most appropriate department or agent.",
+              "benefits": {
+                "0": "Intent recognition",
+                "1": "Skill-based routing",
+                "2": "Priority handling"
+              }
+            },
+            "agentOptimization": {
+              "title": "Agent Optimization",
+              "description": "Balance workload across agents and ensure calls reach available specialists.",
+              "benefits": {
+                "0": "Load balancing",
+                "1": "Availability checking",
+                "2": "Expertise matching"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "Reduced Wait Times",
+              "description": "Minimize customer wait times with efficient routing and queue management.",
+              "benefits": {
+                "0": "Queue optimization",
+                "1": "Callback options",
+                "2": "Real-time updates"
+              }
+            }
+          },
+          "routing": {
+            "title": "Smart Routing in Action",
+            "description": "See how our AI identifies intent and routes calls for optimal outcomes"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "Billing Inquiry",
+              "action": "Route to Billing Department",
+              "result": "90% first-call resolution"
+            },
+            "technicalSupport": {
+              "trigger": "Technical Support",
+              "action": "Route to Technical Team",
+              "result": "85% issue resolution"
+            },
+            "salesInterest": {
+              "trigger": "Sales Interest",
+              "action": "Route to Sales Team",
+              "result": "40% conversion rate"
+            },
+            "vipCustomer": {
+              "trigger": "VIP Customer",
+              "action": "Priority Queue",
+              "result": "< 30 second wait time"
+            }
+          },
+          "benefits": {
+            "title": "Measurable Impact",
+            "description": "Real results from implementing intelligent call transfer"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "Reduction in average wait time"
+            },
+            "resolution": {
+              "description": "First-call resolution rate"
+            },
+            "efficiency": {
+              "description": "Improvement in agent efficiency"
             },
             "accuracy": {
-              "label": "Dokładność",
-              "value": "99%+"
-            },
-            "throughput": {
-              "label": "Przepustowość",
-              "value": "Ponad 1000 równoczesnych"
-            },
-            "uptime": {
-              "label": "Dostępność",
-              "value": "99.99%"
+              "description": "Accurate routing to correct department"
             }
           },
-          "audioFormats": {
-            "title": "Formaty audio",
-            "sampleRate": {
-              "label": "Częstotliwość próbkowania",
-              "value": "8-48 kHz"
-            },
-            "bitDepth": {
-              "label": "Głębia bitowa",
-              "value": "16-32 bity"
-            },
-            "formats": {
-              "label": "Formaty",
-              "value": "WAV, MP3, FLAC"
-            },
-            "streaming": {
-              "label": "Strumieniowanie",
-              "value": "W czasie rzeczywistym"
-            }
-          },
-          "integration": {
-            "title": "Integracja",
-            "api": {
-              "label": "API",
-              "value": "REST i WebSocket"
-            },
-            "sdks": {
-              "label": "SDK",
-              "value": "Python, Node.js, Go"
-            },
-            "webhooks": {
-              "label": "Webhooki",
-              "value": "Zdarzenia w czasie rzeczywistym"
-            },
-            "security": {
-              "label": "Bezpieczeństwo",
-              "value": "TLS 1.3, OAuth 2.0"
-            }
+          "cta": {
+            "title": "Ready to Optimize Your Call Routing?",
+            "description": "Reduce wait times and improve customer satisfaction with intelligent call transfer",
+            "primaryButton": "Start Free Trial",
+            "secondaryButton": "See Demo"
           }
         },
-        "cta": {
-          "title": "Gotowy, aby przekształcić dźwięk w tekst?",
-          "subtitle": "Doświadcz mocy wiodącej w branży technologii rozpoznawania mowy",
-          "primaryButton": "Wypróbuj darmowe demo",
-          "secondaryButton": "Zobacz dokumentację API"
+        "scamShield": {
+          "hero": {
+            "title": "Scam Shield Protection",
+            "subtitle": "Protect your customers from phone scams and fraudulent calls with AI-powered detection that identifies and blocks threats in real-time, keeping your community safe from financial fraud.",
+            "cta": "Activate Scam Protection"
+          },
+          "features": {
+            "title": "Advanced Scam Detection",
+            "subtitle": "Multi-layered protection against evolving fraud tactics",
+            "realTimeDetection": {
+              "title": "Real-Time Scam Detection",
+              "description": "Advanced AI algorithms identify and block fraudulent calls before they reach your customers.",
+              "benefit1": "Pattern recognition",
+              "benefit2": "Behavioral analysis",
+              "benefit3": "Instant blocking"
+            },
+            "threatIntelligence": {
+              "title": "Threat Intelligence",
+              "description": "Continuously updated database of known scam patterns and fraudulent phone numbers.",
+              "benefit1": "Global threat data",
+              "benefit2": "Real-time updates",
+              "benefit3": "Machine learning"
+            },
+            "customerProtection": {
+              "title": "Customer Protection",
+              "description": "Proactively protect customers from financial fraud and identity theft attempts.",
+              "benefit1": "Fraud prevention",
+              "benefit2": "Identity protection",
+              "benefit3": "Financial security"
+            }
+          },
+          "scamTypes": {
+            "title": "Protected Against All Scam Types",
+            "subtitle": "Comprehensive protection against the most common fraud tactics",
+            "phishing": {
+              "type": "Phishing Calls",
+              "description": "Attempts to steal personal information or login credentials",
+              "detection": "Voice pattern analysis and keyword detection",
+              "action": "Immediate call termination and customer alert"
+            },
+            "techSupport": {
+              "type": "Tech Support Scams",
+              "description": "Fake technical support claiming computer problems",
+              "detection": "Script pattern recognition and caller ID verification",
+              "action": "Block call and provide legitimate support contact"
+            },
+            "financialFraud": {
+              "type": "Financial Fraud",
+              "description": "Impersonating banks or financial institutions",
+              "detection": "Institution verification and voice authentication",
+              "action": "Terminate call and notify real financial institution"
+            },
+            "romance": {
+              "type": "Romance Scams",
+              "description": "Building fake relationships to extract money",
+              "detection": "Conversation pattern analysis and emotional manipulation detection",
+              "action": "Warning alerts and resource provision"
+            },
+            "detectionMethod": "Detection Method:",
+            "protectionAction": "Protection Action:",
+            "detectionMethodLabel": "Detection Method",
+            "protectionActionLabel": "Protection Action"
+          },
+          "protection": {
+            "title": "Multi-Layer Protection System",
+            "subtitle": "Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "realTimeAnalysis": {
+              "title": "Real-Time Analysis",
+              "description": "Instant evaluation of every incoming call"
+            },
+            "continuousLearning": {
+              "title": "Continuous Learning",
+              "description": "AI improves detection with every blocked scam"
+            },
+            "zeroFalsePositives": {
+              "title": "Zero False Positives",
+              "description": "Legitimate calls are never blocked"
+            },
+            "layersTitle": "Protection Layers",
+            "layer1": "Caller ID verification",
+            "layer2": "Voice pattern analysis",
+            "layer3": "Script detection algorithms",
+            "layer4": "Behavioral anomaly detection",
+            "layer5": "Real-time threat intelligence",
+            "layer6": "Customer education alerts"
+          },
+          "benefits": {
+            "title": "Protection Results",
+            "subtitle": "Proven effectiveness in stopping fraud and protecting customers",
+            "accuracy": {
+              "metric": "95%",
+              "description": "Scam call detection accuracy"
+            },
+            "reduction": {
+              "metric": "80%",
+              "description": "Reduction in successful fraud attempts"
+            },
+            "coverage": {
+              "metric": "24/7",
+              "description": "Continuous protection coverage"
+            },
+            "preservation": {
+              "metric": "99.9%",
+              "description": "Legitimate call preservation rate"
+            }
+          },
+          "cta": {
+            "title": "Ready to Protect Your Customers?",
+            "subtitle": "Stop scammers in their tracks with AI-powered fraud detection and protection",
+            "activateProtection": "Activate Protection",
+            "learnMore": "Learn More",
+            "primaryButton": "Activate Protection",
+            "secondaryButton": "Learn More"
+          },
+          "protectionSystem": {
+            "title": "Multi-Layer Protection System",
+            "subtitle": "Our comprehensive scam shield uses multiple detection methods working together to provide maximum protection while ensuring legitimate calls always get through.",
+            "realTimeAnalysis": {
+              "title": "Real-Time Analysis",
+              "description": "Instant evaluation of every incoming call"
+            },
+            "continuousLearning": {
+              "title": "Continuous Learning",
+              "description": "AI improves detection with every blocked scam"
+            },
+            "zeroFalsePositives": {
+              "title": "Zero False Positives",
+              "description": "Legitimate calls are never blocked"
+            }
+          },
+          "results": {
+            "title": "Protection Results",
+            "subtitle": "Proven effectiveness in stopping fraud and protecting customers"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "Secure Payment Processing",
+            "description": "Enable secure, PCI-compliant payment processing through voice interactions. Let customers make payments safely over the phone with advanced fraud protection and instant transaction processing.",
+            "cta": "Enable Secure Payments"
+          },
+          "features": {
+            "title": "Secure Voice Payment Features",
+            "subtitle": "Enterprise-grade security meets seamless customer experience",
+            "securePayment": {
+              "title": "Secure Payment Processing",
+              "description": "Process payments safely over the phone with PCI-compliant voice technology.",
+              "benefit1": "PCI DSS compliance",
+              "benefit2": "Encrypted transactions",
+              "benefit3": "Multiple payment methods"
+            },
+            "fraudProtection": {
+              "title": "Fraud Protection",
+              "description": "Advanced fraud detection and prevention to protect both business and customers.",
+              "benefit1": "Real-time fraud detection",
+              "benefit2": "Risk assessment",
+              "benefit3": "Secure authentication"
+            },
+            "instantProcessing": {
+              "title": "Instant Processing",
+              "description": "Process payments immediately with real-time authorization and confirmation.",
+              "benefit1": "Real-time authorization",
+              "benefit2": "Instant confirmation",
+              "benefit3": "Immediate receipts"
+            }
+          },
+          "paymentMethods": {
+            "title": "Comprehensive Payment Options",
+            "subtitle": "Accept all major payment methods with secure voice processing",
+            "creditCards": {
+              "method": "Credit Cards",
+              "description": "Accept all major credit cards with secure voice processing",
+              "feature1": "Visa, Mastercard, Amex",
+              "feature2": "CVV verification",
+              "feature3": "Expiry validation"
+            },
+            "debitCards": {
+              "method": "Debit Cards",
+              "description": "Process debit card payments with PIN verification",
+              "feature1": "PIN entry via voice",
+              "feature2": "Bank verification",
+              "feature3": "Instant deduction"
+            },
+            "bankTransfers": {
+              "method": "Bank Transfers",
+              "description": "Direct bank account transfers and ACH payments",
+              "feature1": "Account verification",
+              "feature2": "Routing number validation",
+              "feature3": "ACH processing"
+            },
+            "digitalWallets": {
+              "method": "Digital Wallets",
+              "description": "Support for popular digital payment platforms",
+              "feature1": "Apple Pay",
+              "feature2": "Google Pay",
+              "feature3": "PayPal integration"
+            }
+          },
+          "security": {
+            "title": "Bank-Level Security",
+            "description": "Our payment processing system meets the highest security standards in the industry, ensuring that every transaction is protected with multiple layers of encryption and fraud prevention.",
+            "endToEndEncryption": {
+              "title": "End-to-End Encryption",
+              "description": "All payment data encrypted in transit and at rest"
+            },
+            "pciCompliance": {
+              "title": "PCI DSS Compliance",
+              "description": "Level 1 PCI DSS certified infrastructure"
+            },
+            "realTimeMonitoring": {
+              "title": "Real-Time Monitoring",
+              "description": "Continuous fraud detection and prevention"
+            },
+            "featuresTitle": "Security Features",
+            "feature1": "End-to-end encryption",
+            "feature2": "PCI DSS Level 1 compliance",
+            "feature3": "Tokenization of card data",
+            "feature4": "Multi-factor authentication",
+            "feature5": "Real-time fraud monitoring",
+            "feature6": "Secure voice recognition"
+          },
+          "benefits": {
+            "title": "Payment Processing Performance",
+            "subtitle": "Industry-leading reliability and security metrics",
+            "uptime": {
+              "metric": "99.9%",
+              "description": "Payment processing uptime"
+            },
+            "transactionTime": {
+              "metric": "< 3s",
+              "description": "Average transaction time"
+            },
+            "compliance": {
+              "metric": "100%",
+              "description": "PCI DSS compliance"
+            },
+            "fraudRate": {
+              "metric": "0.1%",
+              "description": "Fraud rate with AI protection"
+            }
+          },
+          "cta": {
+            "title": "Ready for Secure Voice Payments?",
+            "subtitle": "Enable PCI-compliant payment processing with advanced fraud protection",
+            "primaryButton": "Start Secure Processing",
+            "secondaryButton": "Security Overview"
+          }
         }
       },
-      "textToSpeech": {
+      "mentalHealth": {
         "hero": {
-          "title": "Technologia zamiany tekstu na mowę",
-          "subtitle": "Naturalnie brzmiąca synteza mowy z ponad 300 głosami w 50+ językach. Twórz spersonalizowane doświadczenia głosowe z kontrolą emocji i intonacji.",
-          "cta": "Wypróbuj syntezę mowy"
+          "title": "Mental Health Voice Companion",
+          "subtitle": "Provide compassionate, 24/7 mental health support with AI that listens, understands, and responds with empathy. Safely bridge the gap between crisis and professional care.",
+          "cta": "Learn About Mental Health AI"
         },
         "features": {
-          "0": {
-            "title": "Naturalne głosy",
-            "description": "Ponad 300 naturalnie brzmiących głosów w 50+ językach i dialektach.",
-            "specs": {
-              "0": "50+ języków",
-              "1": "300+ głosów",
-              "2": "Dialekty regionalne"
-            }
-          },
-          "1": {
-            "title": "Kontrola emocji i intonacji",
-            "description": "Dostosuj emocje, ton i intonację, aby tworzyć bardziej ekspresyjne i ludzkie głosy.",
-            "specs": {
-              "0": "Kontrola emocji",
-              "1": "Regulacja tonu",
-              "2": "Dostosowanie intonacji"
-            }
-          },
-          "2": {
-            "title": "Klonowanie głosu",
-            "description": "Twórz niestandardowe głosy, klonując istniejące głosy, aby zachować spójność marki.",
-            "specs": {
-              "0": "Klonowanie głosu",
-              "1": "Spójność marki",
-              "2": "Niestandardowe profile"
-            }
-          },
-          "title": "Zaawansowana synteza mowy",
-          "subtitle": "Zasilany przez najnowocześniejsze modele głębokiego uczenia się dla niezrównanej jakości i naturalności"
-        },
-        "voices": {
-          "title": "Globalna biblioteka głosów",
-          "subtitle": "Wybierz spośród ponad 300 głosów w 50+ językach i dialektach, aby znaleźć idealny głos dla swojej marki.",
-          "features": {
-            "0": {
-              "title": "Ponad 50 języków",
-              "description": "Główne języki świata i dialekty regionalne"
-            },
-            "1": {
-              "title": "300+ głosów",
-              "description": "Różnorodne głosy męskie i żeńskie"
-            },
-            "2": {
-              "title": "Niestandardowe głosy",
-              "description": "Klonowanie głosu dla spójności marki"
-            }
-          },
-          "supportedTitle": "Przykładowe głosy",
-          "supportedVoices": {
-            "0": "Standardowy głos męski (angielski)",
-            "1": "Standardowy głos żeński (angielski)",
-            "2": "Głos męski (hiszpański)",
-            "3": "Głos żeński (francuski)",
-            "4": "Głos męski (niemiecki)",
-            "5": "Głos żeński (japoński)"
-          },
-          "customNote": "Niestandardowe klonowanie głosu dostępne dla planów korporacyjnych"
-        },
-        "useCases": {
-          "0": {
-            "title": "Wirtualni asystenci",
-            "description": "Zasilaj wirtualnych asystentów i chatboty głosowe naturalnie brzmiącymi głosami.",
+          "title": "Compassionate AI Support",
+          "subtitle": "Advanced AI trained in mental health support and crisis intervention",
+          "empathetic": {
+            "title": "Empathetic AI Companion",
+            "description": "Trained to provide compassionate, non-judgmental support with appropriate emotional responses.",
             "benefits": {
-              "0": "Lepsze doświadczenie użytkownika",
-              "1": "Zwiększone zaangażowanie",
-              "2": "Spójność marki"
+              "activeListing": "Active listening",
+              "emotionalValidation": "Emotional validation",
+              "crisisRecognition": "Crisis recognition"
             }
           },
-          "1": {
-            "title": "Audiobooki i podcasty",
-            "description": "Konwertuj tekst na mowę dla audiobooków, podcastów i innych treści audio.",
+          "safe": {
+            "title": "Safe & Confidential",
+            "description": "HIPAA-compliant platform ensuring complete privacy and confidentiality for all interactions.",
             "benefits": {
-              "0": "Szybsza produkcja",
-              "1": "Niższe koszty",
-              "2": "Większa dostępność"
+              "hipaaCompliance": "HIPAA compliance",
+              "encryptedConversations": "Encrypted conversations",
+              "anonymousOptions": "Anonymous options"
             }
           },
-          "2": {
-            "title": "Powiadomienia i alerty",
-            "description": "Twórz spersonalizowane powiadomienia głosowe i alerty dla klientów.",
+          "available": {
+            "title": "24/7 Availability",
+            "description": "Always available when someone needs to talk, providing immediate support during crisis moments.",
             "benefits": {
-              "0": "Większa skuteczność",
-              "1": "Spersonalizowane wiadomości",
-              "2": "Automatyczne dostarczanie"
-            }
-          },
-          "3": {
-            "title": "Systemy IVR",
-            "description": "Ulepsz systemy IVR o naturalnie brzmiące głosy i dynamiczne odpowiedzi.",
-            "benefits": {
-              "0": "Lepsza nawigacja",
-              "1": "Zmniejszona frustracja",
-              "2": "Spójność marki"
-            }
-          },
-          "title": "Potężne przypadki użycia",
-          "subtitle": "Przekształć tekst w angażujące doświadczenia głosowe w różnych branżach"
-        },
-        "specs": {
-          "title": "Specyfikacje techniczne",
-          "subtitle": "Wydajność i niezawodność klasy korporacyjnej",
-          "performance": {
-            "title": "Wydajność",
-            "latency": {
-              "label": "Opóźnienie",
-              "value": "< 200ms"
-            },
-            "quality": {
-              "label": "Jakość",
-              "value": "Human-like"
-            },
-            "throughput": {
-              "label": "Przepustowość",
-              "value": "1000+ concurrent"
-            },
-            "uptime": {
-              "label": "Dostępność",
-              "value": "99.99%"
-            }
-          },
-          "audioFormats": {
-            "title": "Formaty audio",
-            "sampleRate": {
-              "label": "Częstotliwość próbkowania",
-              "value": "8-48 kHz"
-            },
-            "bitDepth": {
-              "label": "Głębia bitowa",
-              "value": "16-32 bity"
-            },
-            "formats": {
-              "label": "Formaty",
-              "value": "WAV, MP3, OGG"
-            },
-            "streaming": {
-              "label": "Strumieniowanie",
-              "value": "W czasie rzeczywistym"
-            }
-          },
-          "integration": {
-            "title": "Integracja",
-            "api": {
-              "label": "API",
-              "value": "REST i WebSocket"
-            },
-            "sdks": {
-              "label": "SDK",
-              "value": "Python, Node.js, Go"
-            },
-            "webhooks": {
-              "label": "Webhooki",
-              "value": "Zdarzenia w czasie rzeczywistym"
-            },
-            "security": {
-              "label": "Bezpieczeństwo",
-              "value": "TLS 1.3, OAuth 2.0"
+              "roundTheClockAccess": "Round-the-clock access",
+              "immediateResponse": "Immediate response",
+              "noWaitTimes": "No wait times"
             }
           }
         },
+        "capabilities": {
+          "title": "Mental Health Support Capabilities",
+          "subtitle": "Comprehensive support across the mental health care spectrum",
+          "screening": {
+            "title": "Initial Mental Health Screening",
+            "description": "Conduct preliminary assessments using validated screening tools",
+            "outcomes": {
+              "earlyIdentification": "Early identification",
+              "riskAssessment": "Risk assessment",
+              "appropriateReferrals": "Appropriate referrals"
+            }
+          },
+          "crisis": {
+            "title": "Crisis Intervention",
+            "description": "Recognize crisis situations and provide immediate support or escalation",
+            "outcomes": {
+              "crisisDetection": "Crisis detection",
+              "deEscalationTechniques": "De-escalation techniques",
+              "emergencyProtocols": "Emergency protocols"
+            }
+          },
+          "navigation": {
+            "title": "Resource Navigation",
+            "description": "Guide users to appropriate mental health resources and services",
+            "outcomes": {
+              "serviceMatching": "Service matching",
+              "appointmentScheduling": "Appointment scheduling",
+              "followUpSupport": "Follow-up support"
+            }
+          },
+          "emotional": {
+            "title": "Emotional Support",
+            "description": "Provide compassionate listening and emotional validation",
+            "outcomes": {
+              "reducedIsolation": "Reduced isolation",
+              "emotionalRelief": "Emotional relief",
+              "copingStrategies": "Coping strategies"
+            }
+          }
+        },
+        "safety": {
+          "title": "Safety-First Design",
+          "description": "Our mental health AI is designed with safety as the top priority, featuring advanced crisis detection and immediate escalation protocols to ensure users receive appropriate professional care when needed.",
+          "crisisDetection": {
+            "title": "Crisis Detection",
+            "description": "Advanced algorithms identify crisis situations"
+          },
+          "professionalHandoff": {
+            "title": "Professional Handoff",
+            "description": "Seamless transfer to human mental health professionals"
+          },
+          "emergencyProtocols": {
+            "title": "Emergency Protocols",
+            "description": "Immediate connection to crisis hotlines when needed"
+          },
+          "features": {
+            "title": "Safety Features",
+            "crisisKeywordDetection": "Crisis keyword detection",
+            "suicideRiskAssessment": "Suicide risk assessment",
+            "automaticEscalationProtocols": "Automatic escalation protocols",
+            "emergencyContactIntegration": "Emergency contact integration",
+            "professionalHandoffProcedures": "Professional handoff procedures",
+            "followUpScheduling": "Follow-up scheduling"
+          }
+        },
+        "impact": {
+          "title": "Mental Health Impact",
+          "subtitle": "Measurable improvements in mental health support accessibility",
+          "availability": {
+            "metric": "24/7",
+            "description": "Always available support"
+          },
+          "crisisReduction": {
+            "metric": "60%",
+            "description": "Reduction in crisis escalation"
+          },
+          "satisfaction": {
+            "metric": "85%",
+            "description": "User satisfaction rate"
+          },
+          "helpSeeking": {
+            "metric": "40%",
+            "description": "Increase in help-seeking behavior"
+          }
+        },
         "cta": {
-          "title": "Gotowy, aby przekształcić tekst w mowę?",
-          "subtitle": "Doświadcz mocy wiodącej w branży technologii zamiany tekstu na mowę",
-          "primaryButton": "Wypróbuj darmowe demo",
-          "secondaryButton": "Zobacz dokumentację API"
+          "title": "Ready to Support Mental Health?",
+          "subtitle": "Provide compassionate, 24/7 mental health support with AI that truly cares",
+          "learnMore": "Learn More",
+          "contactSpecialists": "Contact Specialists"
         }
       }
     }
