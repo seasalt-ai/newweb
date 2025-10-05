@@ -878,8 +878,9 @@
             "title": "Resolução de Problemas de Pagamento",
             "description": "Lide com falhas de pagamento e dúvidas de faturamento com acesso instantâneo aos dados da transação",
             "icon": "credit-card"
-          },
-          "customerPurchaseHistory": {
+          }
+      },
+        "customerPurchaseHistory": {
             "title": "Histórico de Compras do Cliente",
             "description": "Acesse o histórico completo de compras do cliente para melhor suporte e serviço personalizado",
             "icon": "history"
