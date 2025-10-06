@@ -42,6 +42,7 @@ const LanguageSwitcher = ({ className = '', lang, currentPath, translations }: L
     { code: 'ms' as SupportedLanguage, name: 'Bahasa Melayu', shortCode: 'MY' },
     { code: 'pl' as SupportedLanguage, name: 'Polski', shortCode: 'PL' },
     { code: 'pt' as SupportedLanguage, name: 'Português', shortCode: 'PT' },
+    { code: 'ro' as SupportedLanguage, name: 'Română', shortCode: 'RO' },
     { code: 'ru' as SupportedLanguage, name: 'Русский', shortCode: 'RU' },
     { code: 'ta' as SupportedLanguage, name: 'தமிழ்', shortCode: 'IN' },
     { code: 'th' as SupportedLanguage, name: 'ไทย', shortCode: 'TH' },
