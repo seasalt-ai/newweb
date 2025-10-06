@@ -147,6 +147,7 @@ const languageNames = {
   'pl': 'Polski',
   'pt': 'Português',
   'ru': 'Русский',
+  'ro': 'Română',
   'ta': 'தமிழ்',
   'th': 'ไทย',
   'vi': 'Tiếng Việt'
@@ -218,7 +219,7 @@ const breadcrumbs = [
             <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
             </svg>
-            {t('blog.nav.backToBlog') || 'Back to Blog'}
+            {t('seachat.blog.backToBlog') || 'Back to Blog'}
           </a>
           
           <!-- 文章圖片 -->
@@ -246,7 +247,7 @@ const breadcrumbs = [
                 <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
               </svg>
               <span>
-                {t('blog.post.published') || 'Published'}: {publishDate}
+                {publishDate}
                 {updatedDate && updatedDate !== publishDate && (
                   <span class="block text-xs text-gray-400 mt-0.5">
                     ({t('blog.post.updated') || 'Updated'}: {updatedDate})
@@ -266,13 +267,13 @@ const breadcrumbs = [
               <svg class="h-3 w-3 sm:h-4 sm:w-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
               </svg>
-              <span>{readingTime} {t('blog.readTime') || 'min read'}</span>
+              <span>{readingTime} {t('seachat.blog.readTime') || 'min read'}</span>
             </div>
             
             <!-- 語言切換 -->
             {availableLanguages.length > 0 && (
               <div class="flex items-center flex-wrap gap-1 mt-2 sm:mt-0">
-                <span class="text-xs sm:text-sm text-gray-500 mr-1 sm:mr-2">{t('blog.post.availableIn') || 'Available in:'}</span>
+                <span class="text-xs sm:text-sm text-gray-500 mr-1 sm:mr-2">{t('blog.details.availableIn') || 'Available in:'}</span>
                 <div class="flex flex-wrap gap-1 sm:gap-2">
                   <!-- 當前語言按鈕 -->
                   <span class="px-1.5 sm:px-2 py-0.5 sm:py-1 text-xs rounded bg-blue-600 text-white">
@@ -301,7 +302,7 @@ const breadcrumbs = [
               <svg class="h-3 w-3 sm:h-4 sm:w-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"></path>
               </svg>
-              {t('blog.post.share') || 'Share'}
+              {t('blog.details.share') || 'Share'}
             </button>
           </div>
 
@@ -334,7 +335,7 @@ const breadcrumbs = [
       <section class="py-8 sm:py-12 bg-white relative">
         <!-- 目錄 -->
         <div id="table-of-contents" class="fixed top-1/2 right-4 transform -translate-y-1/2 z-10 bg-white p-4 rounded-lg shadow-lg border border-gray-200 max-w-xs hidden lg:block">
-          <h3 class="font-semibold text-sm text-gray-900 mb-3">{t('blog.post.tableOfContents') || 'Table of Contents'}</h3>
+          <h3 class="font-semibold text-sm text-gray-900 mb-3">{t('blog.details.tableOfContents') || 'Table of Contents'}</h3>
           <nav id="toc-nav" class="text-sm"></nav>
         </div>
         
@@ -375,7 +376,7 @@ const breadcrumbs = [
         <section class="py-16 sm:py-20 bg-gray-50">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-8 sm:mb-12 text-center">
-              {t('blog.relatedArticles') || 'Related Articles'}
+              {t('blog.details.relatedArticles') || 'Related Articles'}
             </h2>
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {limitedRelatedPosts.map((relatedPost) => {
@@ -429,23 +430,23 @@ const breadcrumbs = [
       <section class="py-16 sm:py-20 bg-gradient-to-r from-blue-600 to-blue-700">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center overflow-hidden">
           <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4 sm:mb-6">
-            {t('blog.cta.title') || 'Ready to Transform Your Customer Communications?'}
+            {t('blog.details.cta.title') || 'Ready to Transform Your Customer Communications?'}
           </h2>
           <p class="text-lg sm:text-xl text-white opacity-90 mb-6 sm:mb-8 max-w-2xl mx-auto">
-            {t('blog.cta.description') || 'See how Seasalt.ai can help your business automate support, capture leads, and deliver exceptional customer experiences.'}
+            {t('blog.details.cta.description') || 'See how Seasalt.ai can help your business automate support, capture leads, and deliver exceptional customer experiences.'}
           </p>
           <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <a
               href="https://seax.seasalt.ai/signup"
               class="bg-white text-blue-600 hover:bg-gray-50 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
             >
-              {t('blog.cta.signUp') || 'Sign Up'}
+              {t('blog.details.cta.signUp') || 'Sign Up'}
             </a>
             <a
               href="#"
               class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold transition-all duration-200"
             >
-              {t('blog.cta.scheduleDemo') || 'Schedule Demo'}
+              {t('blog.details.cta.scheduleDemo') || 'Schedule Demo'}
             </a>
           </div>
         </div>
