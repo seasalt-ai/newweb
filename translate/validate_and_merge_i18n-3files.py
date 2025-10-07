@@ -152,8 +152,11 @@ def merge_json_files(file_paths: List[Path]) -> Dict[Any, Any]:
 
 def validate_file_existence(base_path: Path, lang: str) -> bool:
     """Validate that all required files exist."""
+    # This should be discovered dynamically, not hardcoded.
+    # For example, using glob:
+    # en_files = sorted([p.name for p in (base_path / 'en').glob('en*.json')])
     en_files = ['en1.json', 'en2.json', 'en3.json']
-    lang_files = [f'{lang}1.json', f'{lang}2.json', f'{lang}3.json']
+    lang_files = [f'{lang}{i}.json' for i in range(1, len(en_files) + 1)]
     
     # Check English reference files
     en_dir = base_path / 'en'
