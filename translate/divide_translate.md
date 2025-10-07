@@ -55,14 +55,7 @@ python split_json.py en --max-lines 1500
 
 **合并命令示例：**
 ```bash
-python3 merge_json.py public/locales/hi/hi.json \
-  public/locales/hi/hi1.json public/locales/hi/hi2.json \
-  public/locales/hi/hi3.json public/locales/hi/hi4.json \
-  public/locales/hi/hi5.json public/locales/hi/hi6.json \
-  public/locales/hi/hi7.json public/locales/hi/hi8.json \
-  public/locales/hi/hi9.json public/locales/hi/hi10.json \
-  public/locales/hi/hi11.json public/locales/hi/hi12.json \
-  public/locales/hi/hi13.json public/locales/hi/hi14.json
+python3 merge_json.py hi
 ```
 
 **合并脚本行为：**
