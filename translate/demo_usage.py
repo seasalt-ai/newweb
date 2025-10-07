@@ -10,8 +10,7 @@ Usage:
 """
 
 import subprocess
-import sys
-from pathlib import Path
+import subprocess
 
 
 def run_command(command):
