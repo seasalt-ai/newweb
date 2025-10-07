@@ -1,0 +1,1605 @@
+{
+  "seachat": {
+    "integrations": {
+      "crm": {
+        "title": "Integrasi CRM",
+        "subtitle": "Hubungkan SeaChat dengan CRM Anda untuk menciptakan pengalaman pelanggan yang terpadu. Sinkronkan kontak, lacak prospek, dan kelola hubungan dengan mulus.",
+        "connectButton": "Hubungkan CRM Anda",
+        "guideButton": "Lihat Panduan Integrasi",
+        "platformsTitle": "Platform CRM yang Didukung",
+        "platformsSubtitle": "Pilih dari daftar ekstensif integrasi CRM kami, masing-masing dioptimalkan untuk aliran data yang mulus.",
+        "setupTime": "Waktu pengaturan",
+        "connectPlatform": "Hubungkan",
+        "whyIntegrateTitle": "Mengapa Berintegrasi dengan CRM Anda?",
+        "whyIntegrateSubtitle": "Ubah dukungan pelanggan Anda menjadi alat penjualan dan manajemen hubungan yang kuat.",
+        "featuresTitle": "Fitur Integrasi CRM Komprehensif",
+        "featuresSubtitle": "Integrasi CRM kami melampaui sinkronisasi kontak dasar untuk menyediakan solusi manajemen hubungan pelanggan yang lengkap.",
+        "workflowTitle": "Alur Kerja Integrasi",
+        "ctaTitle": "Siap Menghubungkan CRM Anda?",
+        "ctaSubtitle": "Mulai menyinkronkan data pelanggan Anda dan ubah percakapan dukungan menjadi peluang bisnis.",
+        "ctaChooseButton": "Daftar Gratis",
+        "ctaGuideButton": "Lihat Panduan Pengaturan",
+        "platforms": {
+          "salesforce": {
+            "name": "Salesforce",
+            "description": "Integrasi lengkap dengan Salesforce CRM untuk tim perusahaan",
+            "features": {
+              "contacts": "Sinkronisasi kontak",
+              "leads": "Manajemen prospek",
+              "opportunities": "Pelacakan peluang",
+              "fields": "Bidang kustom"
+            },
+            "setupTime": "15 menit",
+            "popularity": "Paling Populer"
+          },
+          "hubspot": {
+            "name": "HubSpot",
+            "description": "Integrasi HubSpot yang mulus untuk penyelarasan pemasaran dan penjualan",
+            "features": {
+              "properties": "Properti kontak",
+              "deals": "Saluran kesepakatan",
+              "sequences": "Urutan email",
+              "reporting": "Pelaporan"
+            },
+            "setupTime": "10 menit",
+            "popularity": "Direkomendasikan"
+          },
+          "pipedrive": {
+            "name": "Pipedrive",
+            "description": "Integrasi Pipedrive yang sederhana namun kuat untuk tim penjualan",
+            "features": {
+              "pipeline": "Manajemen saluran",
+              "activity": "Pelacakan aktivitas",
+              "history": "Riwayat kontak",
+              "automation": "Otomatisasi"
+            },
+            "setupTime": "8 menit",
+            "popularity": "Pengaturan Mudah"
+          },
+          "zoho": {
+            "name": "Zoho CRM",
+            "description": "Integrasi Zoho CRM komprehensif dengan alur kerja tingkat lanjut",
+            "features": {
+              "scoring": "Penilaian prospek",
+              "workflow": "Otomatisasi alur kerja",
+              "modules": "Modul kustom",
+              "analytics": "Analitik"
+            },
+            "setupTime": "12 menit",
+            "popularity": "Kaya Fitur"
+          },
+          "dynamics": {
+            "name": "Microsoft Dynamics",
+            "description": "Integrasi tingkat perusahaan dengan Microsoft Dynamics 365",
+            "features": {
+              "mapping": "Pemetaan entitas",
+              "processes": "Proses bisnis",
+              "powerbi": "Integrasi Power BI",
+              "security": "Keamanan"
+            },
+            "setupTime": "20 menit",
+            "popularity": "Perusahaan"
+          },
+          "freshworks": {
+            "name": "Freshworks CRM",
+            "description": "Integrasi CRM modern dengan suite Freshworks",
+            "features": {
+              "management": "Manajemen kontak",
+              "sequences": "Urutan penjualan",
+              "phone": "Integrasi telepon",
+              "insights": "Wawasan AI"
+            },
+            "setupTime": "10 menit",
+            "popularity": "Modern"
+          }
+        },
+        "benefits": {
+          "data": {
+            "title": "Data Pelanggan Terpadu",
+            "description": "Sinkronkan informasi pelanggan secara otomatis antara SeaChat dan CRM Anda"
+          },
+          "leads": {
+            "title": "Kualitas Prospek yang Ditingkatkan",
+            "description": "Ubah percakapan dukungan menjadi prospek yang berkualitas"
+          },
+          "sync": {
+            "title": "Sinkronisasi Real-time",
+            "description": "Jaga agar data pelanggan tetap diperbarui di semua platform secara instan"
+          },
+          "context": {
+            "title": "Konteks Pelanggan yang Lebih Baik",
+            "description": "Akses riwayat pelanggan lengkap selama percakapan dukungan"
+          }
+        },
+        "features": [
+          {
+            "title": "Sinkronisasi Data yang Mulus",
+            "description": "Secara otomatis menyinkronkan informasi kontak pelanggan, riwayat percakapan, dan catatan interaksi",
+            "icon": "sync"
+          },
+          {
+            "title": "Otomatisasi Prospek",
+            "description": "Secara otomatis mengubah percakapan dukungan menjadi prospek yang berkualitas di CRM Anda",
+            "icon": "users"
+          },
+          {
+            "title": "Perutean Cerdas",
+            "description": "Secara cerdas mengarahkan pelanggan ke tim penjualan atau dukungan yang tepat berdasarkan data CRM",
+            "icon": "route"
+          },
+          {
+            "title": "Tampilan Pelanggan Terpadu",
+            "description": "Akses riwayat pelanggan lengkap dan catatan transaksi secara instan selama percakapan dukungan",
+            "icon": "eye"
+          },
+          {
+            "title": "Pemicu Aktivitas",
+            "description": "Secara otomatis memicu alur kerja CRM dan kampanye pemasaran berdasarkan interaksi pelanggan",
+            "icon": "zap"
+          },
+          {
+            "title": "Laporan & Analitik",
+            "description": "Pelaporan terpadu di seluruh platform dengan wawasan mendalam tentang siklus hidup pelanggan dan metrik konversi",
+            "icon": "chart"
+          }
+        ],
+        "workflow": {
+          "connect": {
+            "title": "Hubungkan CRM Anda",
+            "description": "Autentikasi dan konfigurasikan koneksi CRM Anda"
+          },
+          "map": {
+            "title": "Petakan Bidang Data",
+            "description": "Konfigurasikan bagaimana data mengalir antar sistem"
+          },
+          "sync": {
+            "title": "Mulai Sinkronisasi",
+            "description": "Nikmati sinkronisasi data otomatis"
+          }
+        }
+      },
+      "api": {
+        "accessButton": "Dapatkan Akses API",
+        "benefits": {
+          "dataFlow": {
+            "description": "Sinkronisasi otomatis antara SeaChat dan sistem Anda",
+            "title": "Aliran Data yang Mulus"
+          },
+          "implementation": {
+            "description": "Pengaturan cepat dengan template integrasi siap pakai",
+            "title": "Implementasi Lebih Cepat"
+          },
+          "insights": {
+            "description": "Pelaporan yang ditingkatkan dengan sumber data terintegrasi",
+            "title": "Wawasan Lebih Baik"
+          },
+          "manualWork": {
+            "description": "Hilangkan tugas berulang dengan otomatisasi cerdas",
+            "title": "Pengurangan Pekerjaan Manual"
+          }
+        },
+        "benefitsSubtitle": "Ubah alur kerja Anda dengan integrasi SeaChat kustom yang kuat.",
+        "benefitsTitle": "Manfaat Integrasi",
+        "buildSubtitle": "Ikuti langkah-langkah sederhana ini untuk memulai dengan integrasi API SeaChat kustom.",
+        "buildTitle": "Siap Membangun Integrasi Anda?",
+        "capabilitiesSubtitle": "Semua yang Anda butuhkan untuk membangun integrasi yang kuat dan skalabel dengan SeaChat.",
+        "capabilitiesTitle": "Kemampuan Integrasi yang Kuat",
+        "copyCode": "Salin Kode",
+        "ctaAccessButton": "Dapatkan Akses API",
+        "ctaDocsButton": "Lihat Dokumentasi",
+        "ctaSubtitle": "Dapatkan akses API dan mulai bangun integrasi kustom yang kuat yang mengubah alur kerja dukungan pelanggan Anda.",
+        "ctaTitle": "Mulai Membangun Hari Ini",
+        "docsButton": "Lihat Dokumentasi API",
+        "exampleSubtitle": "Mulai dengan API kami hanya dengan beberapa baris kode.",
+        "exampleTitle": "Contoh Kode Mulai Cepat",
+        "features": {
+          "custom": {
+            "description": "Bangun integrasi kustom untuk kebutuhan bisnis spesifik Anda",
+            "title": "Integrasi Kustom"
+          },
+          "restful": {
+            "description": "API REST yang bersih dan terdokumentasi dengan baik untuk integrasi yang mulus",
+            "title": "API RESTful"
+          },
+          "webhooks": {
+            "description": "Notifikasi instan untuk acara dan pembaruan percakapan",
+            "title": "Webhook Real-time"
+          },
+          "workflow": {
+            "description": "Otomatiskan alur kerja kompleks dengan platform integrasi kami",
+            "title": "Otomatisasi Alur Kerja"
+          }
+        },
+        "integrationExample": "Contoh Integrasi Kustom",
+        "patternsSubtitle": "Jelajahi skenario integrasi populer dan contoh implementasi.",
+        "patternsTitle": "Pola Integrasi Umum",
+        "resources": {
+          "community": "Dukungan komunitas pengembang",
+          "docs": "Dokumentasi API komprehensif",
+          "examples": "Contoh kode dalam berbagai bahasa",
+          "explorer": "Penjelajah API interaktif",
+          "sandbox": "Lingkungan sandbox untuk pengujian",
+          "simulator": "Simulator acara webhook"
+        },
+        "resourcesTitle": "Sumber Daya Pengembang",
+        "steps": {
+          "build": {
+            "description": "Kembangkan integrasi Anda menggunakan lingkungan sandbox kami",
+            "title": "Bangun & Uji"
+          },
+          "credentials": {
+            "description": "Daftar dan hasilkan kunci API dan rahasia webhook Anda",
+            "title": "Dapatkan Kredensial API"
+          },
+          "deploy": {
+            "description": "Luncurkan integrasi Anda dan pantau kinerja",
+            "title": "Sebarkan & Pantau"
+          },
+          "docs": {
+            "description": "Jelajahi dokumentasi dan contoh API komprehensif kami",
+            "title": "Tinjau Dokumentasi"
+          }
+        },
+        "subtitle": "Bangun integrasi kustom yang kuat dengan API komprehensif kami. Hubungkan SeaChat ke sistem atau alur kerja apa pun dengan alat ramah pengembang kami.",
+        "title": "Integrasi API Kustom",
+        "types": {
+          "analytics": {
+            "complexity": "Rendah",
+            "description": "Kirim data percakapan ke alat analitik Anda",
+            "example": "Lacak kepuasan pelanggan dan metrik dukungan",
+            "time": "1-2 jam",
+            "title": "Platform Analitik"
+          },
+          "crm": {
+            "complexity": "Sedang",
+            "description": "Sinkronkan data pelanggan dengan sistem CRM Anda",
+            "example": "Secara otomatis membuat prospek dari percakapan dukungan",
+            "time": "2-4 jam",
+            "title": "Integrasi CRM"
+          },
+          "ecommerce": {
+            "complexity": "Sedang",
+            "description": "Hubungkan dengan toko online Anda untuk manajemen pesanan",
+            "example": "Berikan status pesanan real-time dan informasi pelacakan",
+            "time": "3-6 jam",
+            "title": "Platform E-commerce"
+          },
+          "payment": {
+            "complexity": "Tinggi",
+            "description": "Integrasikan dengan gateway pembayaran untuk dukungan penagihan",
+            "example": "Tangani pengembalian dana dan pertanyaan pembayaran secara otomatis",
+            "time": "4-8 jam",
+            "title": "Pemrosesan Pembayaran"
+          }
+        },
+        "useCaseTitle": "Contoh Kasus Penggunaan"
+      },
+      "calendar": {
+        "benefits": {
+          "noShows": {
+            "description": "Pengingat dan konfirmasi otomatis mengurangi janji temu yang terlewat",
+            "title": "Pengurangan Ketidakhadiran"
+          },
+          "scheduling": {
+            "description": "Biarkan pelanggan memesan janji temu langsung dari percakapan obrolan",
+            "title": "Penjadwalan Otomatis"
+          },
+          "timeSavings": {
+            "description": "Hilangkan email dan panggilan penjadwalan bolak-balik",
+            "title": "Penghematan Waktu"
+          },
+          "utilization": {
+            "description": "Optimalkan penggunaan kalender dengan penjadwalan cerdas",
+            "title": "Pemanfaatan Lebih Baik"
+          }
+        },
+        "benefitsSubtitle": "Sederhanakan proses penjadwalan Anda dan tingkatkan pengalaman pelanggan dengan pemesanan otomatis.",
+        "benefitsTitle": "Manfaat Integrasi Kalender",
+        "connectButton": "Hubungkan Kalender",
+        "connectPlatform": "Hubungkan",
+        "ctaConnectButton": "Hubungkan Kalender Anda",
+        "ctaGuideButton": "Lihat Panduan Pengaturan",
+        "ctaSubtitle": "Hubungkan kalender Anda dan biarkan pelanggan memesan janji temu dengan mulus melalui percakapan dukungan Anda.",
+        "ctaTitle": "Siap Mengotomatiskan Penjadwalan Anda?",
+        "customer": "Pelanggan",
+        "customerChoice": "Selasa pukul 2 siang sangat cocok!",
+        "demoButton": "Pesan Demo Penjadwalan",
+        "exampleTitle": "Contoh Penjadwalan",
+        "features": [
+          "Sinkronisasi ketersediaan real-time",
+          "Konfirmasi pemesanan otomatis",
+          "Pembuatan undangan kalender",
+          "Notifikasi pengingat",
+          "Dukungan multi-zona waktu",
+          "Penanganan janji temu berulang"
+        ],
+        "flow": {
+          "availability": {
+            "description": "Sistem memeriksa ketersediaan kalender real-time",
+            "example": "Slot tersedia: Selasa 2 siang, Rabu 10 pagi, Kamis 3 sore",
+            "title": "Pemeriksaan Ketersediaan"
+          },
+          "confirmation": {
+            "description": "Pelanggan memilih waktu dan janji temu secara otomatis dipesan",
+            "example": "Rapat dipesan untuk Selasa 2 siang dengan undangan kalender dikirim",
+            "title": "Konfirmasi Pemesanan"
+          },
+          "followup": {
+            "description": "Pengingat dan konfirmasi dikirim secara otomatis",
+            "example": "Pengingat 24 jam + tautan rapat + materi persiapan",
+            "title": "Tindak Lanjut Otomatis"
+          },
+          "request": {
+            "description": "Pelanggan meminta untuk menjadwalkan rapat atau janji temu",
+            "example": "\"Saya ingin menjadwalkan demo untuk minggu depan\"",
+            "title": "Permintaan Pelanggan"
+          }
+        },
+        "flowSubtitle": "Lihat bagaimana pemesanan janji temu yang mulus berfungsi dalam percakapan pelanggan.",
+        "flowTitle": "Alur Penjadwalan Otomatis",
+        "platforms": {
+          "acuity": {
+            "category": "Profesional",
+            "description": "Penjadwalan tingkat lanjut dengan fitur manajemen klien",
+            "features": {
+              "group": "Janji temu grup",
+              "intake": "Formulir penerimaan klien",
+              "packages": "Penjadwalan paket",
+              "workflows": "Alur kerja otomatis"
+            },
+            "name": "Acuity Scheduling",
+            "setupTime": "12 menit"
+          },
+          "apple": {
+            "category": "Ekosistem Apple",
+            "description": "Integrasi kalender iCloud untuk pengguna ekosistem Apple",
+            "features": {
+              "devices": "Akses lintas perangkat",
+              "location": "Layanan lokasi",
+              "sharing": "Berbagi acara",
+              "sync": "Sinkronisasi iCloud"
+            },
+            "name": "Apple Calendar",
+            "setupTime": "6 menit"
+          },
+          "calcom": {
+            "category": "Penjadwalan Terbuka",
+            "description": "Infrastruktur penjadwalan terbuka untuk tim dan individu",
+            "features": {
+              "api": "API & webhook",
+              "booking": "Tautan pemesanan",
+              "payments": "Integrasi pembayaran",
+              "workflows": "Alur kerja kustom"
+            },
+            "name": "Cal.com",
+            "setupTime": "7 menit"
+          },
+          "calendly": {
+            "category": "Penjadwalan",
+            "description": "Alat penjadwalan populer untuk pemesanan janji temu otomatis",
+            "features": {
+              "booking": "Halaman pemesanan",
+              "buffer": "Waktu buffer",
+              "payment": "Integrasi pembayaran",
+              "questions": "Pertanyaan kustom"
+            },
+            "name": "Calendly",
+            "setupTime": "10 menit"
+          },
+          "google": {
+            "category": "Google Workspace",
+            "description": "Integrasi mulus dengan Google Calendar untuk penjadwalan janji temu",
+            "features": {
+              "availability": "Sinkronisasi ketersediaan",
+              "events": "Pembuatan acara",
+              "meetings": "Penjadwalan rapat",
+              "reminders": "Notifikasi pengingat"
+            },
+            "name": "Google Calendar",
+            "setupTime": "5 menit"
+          },
+          "highlevel": {
+            "category": "All-in-One",
+            "description": "Penjualan, pemasaran, dan otomatisasi kalender all-in-one",
+            "features": {
+              "forms": "Formulir pemesanan",
+              "integration": "Integrasi CRM",
+              "pipelines": "Saluran penjualan",
+              "reminders": "Pengingat otomatis"
+            },
+            "name": "HighLevel",
+            "setupTime": "9 menit"
+          },
+          "notion": {
+            "category": "Produktivitas",
+            "description": "Manajemen kalender dan proyek dengan integrasi Notion",
+            "features": {
+              "automation": "Otomatisasi alur kerja",
+              "sync": "Sinkronisasi kalender",
+              "tasks": "Penjadwalan tugas",
+              "templates": "Template kustom"
+            },
+            "name": "Notion",
+            "setupTime": "6 menit"
+          },
+          "outlook": {
+            "category": "Microsoft 365",
+            "description": "Integrasi kalender Microsoft Outlook dan Office 365",
+            "features": {
+              "exchange": "Sinkronisasi Exchange",
+              "recurring": "Acara berulang",
+              "rooms": "Ruang rapat",
+              "team": "Kalender tim"
+            },
+            "name": "Microsoft Outlook",
+            "setupTime": "8 menit"
+          },
+          "zoom": {
+            "category": "Konferensi Video",
+            "description": "Penjadwalan rapat video dengan integrasi Zoom",
+            "features": {
+              "meetings": "Rapat video",
+              "recording": "Pengaturan perekaman",
+              "waiting": "Ruang tunggu",
+              "webinar": "Penjadwalan webinar"
+            },
+            "name": "Zoom Scheduler",
+            "setupTime": "7 menit"
+          }
+        },
+        "platformsSubtitle": "Terhubung dengan semua platform kalender dan penjadwalan utama untuk manajemen janji temu yang mulus.",
+        "platformsTitle": "Integrasi Platform Kalender SeaChat",
+        "seachatAI": "SeaChat AI",
+        "slot1": "Selasa, 16 Januari - 14:00 PST",
+        "slot2": "Rabu, 17 Januari - 10:00 PST",
+        "slot3": "Kamis, 18 Januari - 15:00 PST",
+        "solutionSubtitle": "Semua yang Anda butuhkan untuk mengelola janji temu, rapat, dan acara langsung dari platform dukungan pelanggan Anda.",
+        "solutionTitle": "Solusi Penjadwalan Lengkap",
+        "subtitle": "Integrasikan dengan platform kalender populer untuk memungkinkan penjadwalan janji temu yang mulus langsung dari percakapan dukungan pelanggan.",
+        "title": "Kalender & Penjadwalan",
+        "setup": "Pengaturan"
+      },
+      "communication": {
+        "benefits": {
+          "collaboration": {
+            "description": "Tingkatkan koordinasi tim internal dan waktu respons",
+            "title": "Kolaborasi Tim"
+          },
+          "efficiency": {
+            "description": "Resolusi lebih cepat dengan alat komunikasi terintegrasi",
+            "title": "Efisiensi Respons"
+          },
+          "satisfaction": {
+            "description": "Pengalaman dukungan yang lebih baik di semua saluran",
+            "title": "Kepuasan Pelanggan"
+          },
+          "unified": {
+            "description": "Kelola semua saluran komunikasi dari satu hub pusat",
+            "title": "Komunikasi Terpadu"
+          }
+        },
+        "benefitsSubtitle": "Tingkatkan dukungan pelanggan dan kolaborasi internal Anda dengan integrasi SeaChat yang mulus.",
+        "benefitsTitle": "Manfaat Komunikasi Terintegrasi",
+        "connectButton": "Hubungkan Alat Komunikasi",
+        "connectPlatform": "Terhubung dengan",
+        "cta": {
+          "connectButton": "Mulai Sekarang",
+          "contactButton": "Hubungi Penjualan",
+          "title": "Siap Menyederhanakan Komunikasi Anda?",
+          "subtitle": "Hubungkan alat komunikasi favorit Anda dan tingkatkan produktivitas tim Anda serta keterlibatan pelanggan."
+        },
+        "demoButton": "Jadwalkan Demo Integrasi",
+        "features": {
+          "feature1": {
+            "description": "Berinteraksi dengan pelanggan secara instan di semua platform terintegrasi, memastikan respons tepat waktu dan kepuasan yang meningkat.",
+            "title": "Pesan Real-time"
+          },
+          "feature2": {
+            "description": "Siapkan respons otomatis dan aturan perutean untuk mengelola pesan masuk secara efisien dan mengurangi upaya manual.",
+            "title": "Alur Kerja Otomatis"
+          },
+          "feature3": {
+            "description": "Kelola semua percakapan dari satu antarmuka yang intuitif, menghilangkan kebutuhan untuk beralih antar aplikasi yang berbeda.",
+            "title": "Kotak Masuk Terpadu"
+          },
+          "feature4": {
+            "description": "Dapatkan wawasan tentang volume komunikasi, waktu respons, dan kinerja agen dengan analitik dan pelaporan komprehensif.",
+            "title": "Analitik Kinerja"
+          }
+        },
+        "featuresSubtitle": "Temukan bagaimana integrasi komunikasi SeaChat kami dapat mengubah alur kerja Anda.",
+        "featuresTitle": "Fitur Utama",
+        "platforms": {
+          "discord": {
+            "category": "Komunitas",
+            "description": "Dukungan komunitas melalui server dan saluran Discord",
+            "features": {
+              "bot": "Fitur bot",
+              "moderation": "Moderasi komunitas",
+              "server": "Integrasi server",
+              "voice": "Saluran suara"
+            },
+            "name": "Discord",
+            "setupTime": "10 menit"
+          },
+          "email": {
+            "category": "Email",
+            "description": "Terhubung dengan Gmail, Outlook, dan penyedia email lainnya",
+            "features": {
+              "attachments": "Penanganan lampiran",
+              "routing": "Perutean email",
+              "templates": "Respons template",
+              "threading": "Threading"
+            },
+            "name": "Platform Email",
+            "setupTime": "7 menit"
+          },
+          "googlechat": {
+            "category": "Obrolan Tim",
+            "description": "Sederhanakan komunikasi tim dalam ekosistem Google Workspace.",
+            "features": {
+              "bots": "Integrasi Bot SeaChat",
+              "files": "Berbagi file",
+              "meetings": "Integrasi Meet",
+              "spaces": "Ruang untuk kolaborasi"
+            },
+            "name": "Google Chat",
+            "setupTime": "8 menit"
+          },
+          "kakaotalk": {
+            "category": "Pesan",
+            "description": "Terhubung dengan pengguna di Korea Selatan dan sekitarnya dengan KakaoTalk.",
+            "features": {
+              "channels": "Saluran Plus Friend",
+              "commerce": "Integrasi Kakao Commerce",
+              "messages": "Pesan kaya",
+              "payments": "Integrasi Kakao Pay"
+            },
+            "name": "KakaoTalk",
+            "setupTime": "12 menit"
+          },
+          "slack": {
+            "category": "Obrolan Tim",
+            "description": "Integrasikan dengan Slack untuk kolaborasi tim dan notifikasi internal",
+            "features": {
+              "channels": "Notifikasi saluran",
+              "commands": "Perintah bot",
+              "files": "Berbagi file",
+              "messages": "Pesan langsung"
+            },
+            "name": "Slack",
+            "setupTime": "5 menit"
+          },
+          "teams": {
+            "category": "Perusahaan",
+            "description": "Terhubung dengan Microsoft Teams untuk komunikasi perusahaan",
+            "features": {
+              "apps": "Integrasi aplikasi",
+              "calls": "Panggilan video",
+              "channels": "Saluran tim",
+              "files": "Kolaborasi file"
+            },
+            "name": "Microsoft Teams",
+            "setupTime": "8 menit"
+          },
+          "telegram": {
+            "category": "Pesan",
+            "description": "Integrasi bot Telegram untuk dukungan pesan instan",
+            "features": {
+              "api": "API Bot",
+              "channels": "Penyiaran saluran",
+              "files": "Transfer file",
+              "groups": "Obrolan grup"
+            },
+            "name": "Telegram",
+            "setupTime": "15 menit"
+          },
+          "whatsapp": {
+            "category": "Pesan",
+            "features": {
+              "automation": "Respons otomatis",
+              "businessApi": "API Bisnis",
+              "messaging": "Pesan kaya",
+              "templates": "Template pesan"
+            },
+            "name": "WhatsApp",
+            "setupTime": "10 menit",
+            "description": "Berinteraksi dengan pelanggan langsung di aplikasi perpesanan paling populer di dunia."
+          },
+          "zalo": {
+            "category": "Pesan",
+            "description": "Terhubung dengan pelanggan di Vietnam dan Asia Tenggara melalui Zalo.",
+            "features": {
+              "messaging": "Pesan kaya",
+              "miniApp": "Aplikasi Mini",
+              "officialAccount": "Akun Resmi",
+              "payments": "Integrasi Zalo Pay"
+            },
+            "name": "Zalo",
+            "setupTime": "10 menit"
+          }
+        },
+        "platformsSubtitle": "Terhubung dengan alat komunikasi yang sudah digunakan tim Anda untuk integrasi alur kerja yang mulus.",
+        "platformsTitle": "Platform Komunikasi Populer",
+        "subtitle": "Integrasikan dengan platform komunikasi populer seperti Slack, Teams, Discord, dan lainnya untuk menyederhanakan alur kerja dukungan Anda dan kolaborasi tim.",
+        "title": "Alat Komunikasi",
+        "setup": "Waktu pengaturan"
+      },
+      "ecommerce": {
+        "benefits": {
+          "cart": {
+            "description": "Kurangi pengabaian keranjang dengan dukungan proaktif",
+            "title": "Pemulihan Keranjang"
+          },
+          "orders": {
+            "description": "Tangani pertanyaan pesanan, pelacakan, dan pembaruan secara otomatis",
+            "title": "Manajemen Pesanan"
+          },
+          "payment": {
+            "description": "Bantu dengan masalah pembayaran dan pertanyaan penagihan",
+            "title": "Dukungan Pembayaran"
+          },
+          "sales": {
+            "description": "Ubah percakapan dukungan menjadi penjualan tambahan",
+            "title": "Peningkatan Penjualan"
+          }
+        },
+        "benefitsSubtitle": "Ubah dukungan pelanggan Anda menjadi pembangkit tenaga penjualan dan retensi.",
+        "benefitsTitle": "Manfaat Dukungan E-commerce",
+        "connectPlatform": "Hubungkan",
+        "cta": {
+          "button1": "Hubungkan Toko Anda Sekarang",
+          "button2": "Jadwalkan Demo E-commerce"
+        },
+        "ctaSubtitle": "Hubungkan toko online Anda dan mulailah memberikan dukungan pelanggan yang luar biasa yang mendorong penjualan dan loyalitas.",
+        "ctaTitle": "Siap Meningkatkan Penjualan E-commerce Anda?",
+        "customer": "Pelanggan",
+        "hero": {
+          "button1": "Hubungkan Toko Anda",
+          "button2": "Jadwalkan Demo E-commerce"
+        },
+        "orderQuestion": "Di mana pesanan saya #12345?",
+        "orderResponse": "Pesanan Anda #12345 dikirim kemarin dan saat ini dalam perjalanan. Perkiraan pengiriman: Besok pukul 6 sore. Lacak di sini: [tautan pelacakan]",
+        "platforms": {
+          "bigcommerce": {
+            "description": "Integrasi API BigCommerce untuk toko online yang berkembang",
+            "features": {
+              "customers": "Wawasan pelanggan",
+              "orders": "Manajemen pesanan",
+              "products": "Data produk",
+              "shipping": "Info pengiriman"
+            },
+            "name": "BigCommerce",
+            "popularity": "Berkembang",
+            "setupTime": "10 menit"
+          },
+          "etsy": {
+            "description": "Integrasi pasar Etsy untuk penjual kreatif",
+            "features": {
+              "listings": "Bantuan daftar",
+              "messages": "Pesan pelanggan",
+              "orders": "Dukungan pesanan",
+              "shop": "Manajemen toko"
+            },
+            "name": "Etsy",
+            "popularity": "Kreatif",
+            "setupTime": "12 menit"
+          },
+          "fourthwall": {
+            "description": "Platform untuk kreator untuk membangun situs web gratis, menjual produk, dan mengelola keanggotaan",
+            "features": {
+              "community": "Alat komunitas",
+              "donations": "Donasi",
+              "memberships": "Keanggotaan",
+              "merch": "Merchandise kustom"
+            },
+            "name": "Fourthwall",
+            "popularity": "Ekonomi Kreator",
+            "setupTime": "10 menit"
+          },
+          "godaddy": {
+            "description": "Solusi all-in-one untuk situs web, pemasaran, dan toko online",
+            "features": {
+              "scheduling": "Penjadwalan janji temu",
+              "security": "Keamanan SSL",
+              "social": "Alat media sosial",
+              "website": "Pembuat situs web"
+            },
+            "name": "GoDaddy",
+            "popularity": "Komprehensif",
+            "setupTime": "15 menit"
+          },
+          "hostinger": {
+            "description": "Penyedia hosting web dengan pembuat situs web terintegrasi dan fitur e-commerce",
+            "features": {
+              "builder": "Pembuat situs web AI",
+              "hosting": "Hosting yang andal",
+              "ssl": "SSL gratis",
+              "support": "Dukungan 24/7"
+            },
+            "name": "Hostinger",
+            "popularity": "Ramah Anggaran",
+            "setupTime": "10 menit"
+          },
+          "magento": {
+            "description": "Integrasi Magento tingkat perusahaan untuk e-commerce skala besar",
+            "features": {
+              "catalog": "Sinkronisasi katalog",
+              "multistore": "Dukungan multi-toko",
+              "orders": "Pesanan tingkat lanjut",
+              "segments": "Segmen pelanggan"
+            },
+            "name": "Magento",
+            "popularity": "Perusahaan",
+            "setupTime": "15 menit"
+          },
+          "opencart": {
+            "description": "Platform e-commerce open-source gratis untuk toko online",
+            "features": {
+              "dashboard": "Dasbor admin",
+              "extensions": "Ekstensi kaya",
+              "multi_store": "Fungsionalitas multi-toko",
+              "themes": "Dapat diubah tema"
+            },
+            "name": "OpenCart",
+            "popularity": "Fleksibel",
+            "setupTime": "25 menit"
+          },
+          "prestashop": {
+            "description": "Solusi e-commerce open-source untuk bisnis kecil hingga besar",
+            "features": {
+              "analytics": "Analitik tingkat lanjut",
+              "customizable": "Sangat dapat disesuaikan",
+              "modules": "Ribuan modul",
+              "multilingual": "Dukungan multibahasa"
+            },
+            "name": "PrestaShop",
+            "popularity": "Open-Source",
+            "setupTime": "30 menit"
+          },
+          "sellfy": {
+            "description": "Platform e-commerce untuk kreator untuk menjual produk digital, langganan, dan barang fisik",
+            "features": {
+              "digital": "Penjualan produk digital",
+              "marketing": "Pemasaran bawaan",
+              "print_on_demand": "Cetak sesuai permintaan",
+              "subscriptions": "Layanan langganan"
+            },
+            "name": "Sellfy",
+            "popularity": "Berfokus pada Kreator",
+            "setupTime": "5 menit"
+          },
+          "shopify": {
+            "description": "Integrasi Shopify lengkap dengan manajemen pesanan dan sinkronisasi pelanggan",
+            "features": {
+              "catalog": "Katalog produk",
+              "customers": "Profil pelanggan",
+              "inventory": "Sinkronisasi inventaris",
+              "orders": "Pelacakan pesanan"
+            },
+            "name": "Shopify",
+            "popularity": "Paling Populer",
+            "setupTime": "5 menit"
+          },
+          "square": {
+            "description": "Solusi point-of-sale dan e-commerce untuk bisnis dari semua ukuran",
+            "features": {
+              "invoicing": "Penagihan",
+              "loyalty": "Program loyalitas",
+              "pos": "POS terintegrasi",
+              "reporting": "Pelaporan penjualan"
+            },
+            "name": "Square",
+            "popularity": "Ritel",
+            "setupTime": "5 menit"
+          },
+          "squarespace": {
+            "description": "Pembuat situs web yang dikenal dengan template desainnya yang indah dan kemampuan e-commerce",
+            "features": {
+              "blogging": "Alat blogging",
+              "commerce": "Fitur e-commerce lengkap",
+              "design": "Desain pemenang penghargaan",
+              "portfolio": "Opsi portofolio"
+            },
+            "name": "Squarespace",
+            "popularity": "Berfokus pada Desain",
+            "setupTime": "20 menit"
+          },
+          "weebly": {
+            "description": "Pembuat situs web drag-and-drop sederhana dengan fitur e-commerce",
+            "features": {
+              "marketing": "Alat pemasaran",
+              "payments": "Pembayaran terintegrasi",
+              "seo": "Optimalisasi SEO",
+              "storefront": "Tampilan toko yang dapat disesuaikan"
+            },
+            "name": "Weebly",
+            "popularity": "Ramah Pengguna",
+            "setupTime": "10 menit"
+          },
+          "wix": {
+            "description": "Platform pengembangan web berbasis cloud untuk membuat situs web HTML5 dan situs seluler",
+            "features": {
+              "analytics": "Analitik situs",
+              "apps": "Pasar aplikasi",
+              "mobile": "Dioptimalkan untuk seluler",
+              "templates": "Template desainer"
+            },
+            "name": "Wix",
+            "popularity": "Serbaguna",
+            "setupTime": "10 menit"
+          },
+          "woocommerce": {
+            "description": "Plugin WordPress WooCommerce untuk integrasi toko yang mulus",
+            "features": {
+              "customers": "Riwayat pelanggan",
+              "orders": "Status pesanan",
+              "payments": "Pelacakan pembayaran",
+              "products": "Dukungan produk"
+            },
+            "name": "WooCommerce",
+            "popularity": "WordPress",
+            "setupTime": "8 menit"
+          }
+        },
+        "platformsSubtitle": "Integrasikan dengan semua platform dan pasar e-commerce utama untuk dukungan pelanggan terpadu.",
+        "platformsTitle": "Platform E-commerce yang Didukung",
+        "recommendationQuestion": "Bagus! Bisakah Anda merekomendasikan produk serupa?",
+        "recommendationResponse": "Berdasarkan pembelian Anda, Anda mungkin menyukai item ini: [Produk A], [Produk B]. Apakah Anda ingin diskon 10% untuk pesanan Anda berikutnya?",
+        "scenarioTitle": "Skenario Dukungan Pelanggan",
+        "seachatAI": "SeaChat AI",
+        "subtitle": "Hubungkan SeaChat dengan toko online Anda untuk memberikan dukungan pelanggan yang luar biasa, meningkatkan penjualan, dan mengurangi pengabaian keranjang.",
+        "supportSubtitle": "Semua yang Anda butuhkan untuk memberikan dukungan pelanggan yang luar biasa untuk toko online Anda, mulai dari pelacakan pesanan hingga rekomendasi produk.",
+        "supportTitle": "Suite Dukungan E-commerce Lengkap",
+        "title": "Integrasi E-commerce SeaChat",
+        "setup": "Waktu pengaturan",
+        "features": [
+          {
+            "title": "Pelacakan Pesanan Real-Time",
+            "description": "Secara otomatis menyinkronkan status pesanan dan memberikan informasi pelacakan instan kepada pelanggan",
+            "icon": "package"
+          },
+          {
+            "title": "Manajemen Inventaris",
+            "description": "Berikan informasi kepada pelanggan tentang ketersediaan produk dan notifikasi stok ulang",
+            "icon": "warehouse"
+          },
+          {
+            "title": "Rekomendasi Produk Cerdas",
+            "description": "Saran produk bertenaga AI berdasarkan riwayat pembelian dan preferensi pelanggan",
+            "icon": "target"
+          },
+          {
+            "title": "Pemulihan Pengabaian Keranjang",
+            "description": "Secara proaktif menjangkau pelanggan yang meninggalkan keranjang mereka dengan pesan yang dipersonalisasi",
+            "icon": "shopping-cart"
+          },
+          {
+            "title": "Resolusi Masalah Pembayaran",
+            "description": "Tangani kegagalan pembayaran dan pertanyaan penagihan dengan akses instan ke data transaksi",
+            "icon": "credit-card"
+          },
+          {
+            "title": "Riwayat Pembelian Pelanggan",
+            "description": "Akses riwayat pembelian pelanggan lengkap untuk dukungan yang lebih baik dan layanan yang dipersonalisasi",
+            "icon": "history"
+          }
+        ]
+      },
+      "marketing": {
+        "automationTitle": "Alur Otomatisasi Pemasaran",
+        "benefits": {
+          "campaigns": {
+            "description": "Hasil kampanye yang lebih baik dengan wawasan dukungan pelanggan",
+            "title": "Kinerja Kampanye"
+          },
+          "leads": {
+            "description": "Ubah percakapan dukungan menjadi prospek yang berkualitas pemasaran",
+            "title": "Generasi Prospek"
+          },
+          "retention": {
+            "description": "Tingkatkan retensi dengan kampanye pemasaran yang dipersonalisasi",
+            "title": "Retensi Pelanggan"
+          },
+          "revenue": {
+            "description": "Tingkatkan pendapatan melalui upaya pemasaran terintegrasi",
+            "title": "Pertumbuhan Pendapatan"
+          }
+        },
+        "benefitsSubtitle": "Ubah dukungan pelanggan Anda menjadi mesin pemasaran dan pertumbuhan yang kuat.",
+        "benefitsTitle": "Manfaat Integrasi Pemasaran",
+        "connectButton": "Hubungkan Alat Pemasaran",
+        "connectPlatform": "Hubungkan",
+        "ctaConnectButton": "Hubungkan Alat Pemasaran",
+        "ctaGuideButton": "Lihat Panduan Pengaturan",
+        "ctaSubtitle": "Hubungkan platform pemasaran Anda dan ubah setiap percakapan dukungan pelanggan menjadi peluang pertumbuhan.",
+        "ctaTitle": "Siap Meningkatkan Pemasaran Anda?",
+        "demoButton": "Jadwalkan Demo Pemasaran",
+        "flow": {
+          "conversation": {
+            "description": "Pelanggan bertanya tentang fitur premium",
+            "title": "Percakapan Dukungan"
+          },
+          "conversion": {
+            "description": "Pelanggan meningkatkan ke paket premium",
+            "title": "Konversi"
+          },
+          "tagging": {
+            "description": "Pelanggan ditandai sebagai \"tertarik pada peningkatan\"",
+            "title": "Penandaan Otomatis"
+          },
+          "trigger": {
+            "description": "Urutan email otomatis dimulai",
+            "title": "Pemicu Kampanye"
+          }
+        },
+        "integrationSubtitle": "Jembatani kesenjangan antara dukungan pelanggan dan pemasaran dengan otomatisasi cerdas yang mengubah setiap percakapan menjadi peluang pertumbuhan.",
+        "integrationTitle": "Integrasi Pemasaran Lengkap",
+        "features": [
+          {
+            "title": "Kualifikasi & Penilaian Prospek",
+            "description": "Secara otomatis mengkualifikasi dan menilai prospek dari percakapan dukungan berdasarkan keterlibatan dan niat",
+            "icon": "target"
+          },
+          {
+            "title": "Otomatisasi Pemicu Kampanye",
+            "description": "Memicu kampanye pemasaran yang ditargetkan berdasarkan interaksi pelanggan dan pola perilaku tertentu",
+            "icon": "zap"
+          },
+          {
+            "title": "Pemetaan Perjalanan Pelanggan",
+            "description": "Lacak dan optimalkan perjalanan pelanggan lengkap dari kontak pertama hingga konversi dan retensi",
+            "icon": "map"
+          },
+          {
+            "title": "Pengiriman Konten yang Dipersonalisasi",
+            "description": "Kirim konten dan penawaran pemasaran yang dipersonalisasi berdasarkan riwayat percakapan dukungan dan preferensi",
+            "icon": "heart"
+          },
+          {
+            "title": "Sinkronisasi Kampanye Multi-Saluran",
+            "description": "Sinkronkan kampanye pemasaran di seluruh email, SMS, WhatsApp, dan media sosial untuk pesan yang konsisten",
+            "icon": "sync"
+          },
+          {
+            "title": "Analitik Kinerja & ROI",
+            "description": "Ukur kinerja kampanye dan ROI dengan analitik terperinci tentang tingkat konversi dan nilai seumur hidup pelanggan",
+            "icon": "chart"
+          }
+        ],
+        "platforms": {
+          "activecampaign": {
+            "category": "Otomatisasi",
+            "description": "Platform otomatisasi pengalaman pelanggan",
+            "features": {
+              "automation": "Otomatisasi pemasaran",
+              "crm": "Integrasi CRM",
+              "learning": "Pembelajaran mesin",
+              "sending": "Pengiriman prediktif"
+            },
+            "name": "ActiveCampaign",
+            "setupTime": "18 menit"
+          },
+          "constantcontact": {
+            "category": "Pemasaran Email",
+            "description": "Pemasaran email dan otomatisasi untuk bisnis kecil",
+            "features": {
+              "analytics": "Dasbor analitik",
+              "scheduling": "Penjadwalan kampanye",
+              "social": "Alat media sosial",
+              "templates": "Template email"
+            },
+            "name": "Constant Contact",
+            "setupTime": "7 menit"
+          },
+          "convertkit": {
+            "category": "Ekonomi Kreator",
+            "description": "Pemasaran email berfokus pada kreator dengan urutan otomatisasi",
+            "features": {
+              "integrations": "Integrasi",
+              "landing": "Halaman arahan",
+              "sequences": "Urutan email",
+              "tagging": "Penandaan pelanggan"
+            },
+            "name": "ConvertKit",
+            "setupTime": "9 menit"
+          },
+          "engagebay": {
+            "category": "All-in-One",
+            "description": "Pemasaran, penjualan, dan dukungan CRM all-in-one",
+            "features": {
+              "automation": "Otomatisasi pemasaran",
+              "crm": "Integrasi CRM",
+              "email": "Pemasaran email",
+              "forms": "Formulir prospek & pop-up"
+            },
+            "name": "EngageBay",
+            "setupTime": "11 menit"
+          },
+          "hubspot": {
+            "category": "Pusat Pemasaran",
+            "description": "Platform pemasaran masuk dengan kemampuan pemeliharaan prospek",
+            "features": {
+              "automation": "Otomatisasi pemasaran",
+              "landing": "Halaman arahan",
+              "scoring": "Penilaian prospek",
+              "social": "Media sosial"
+            },
+            "name": "HubSpot Marketing",
+            "setupTime": "15 menit"
+          },
+          "klaviyo": {
+            "category": "E-commerce",
+            "description": "Platform pemasaran email dan SMS berfokus pada e-commerce",
+            "features": {
+              "recommendations": "Rekomendasi produk",
+              "revenue": "Pelacakan pendapatan",
+              "sms": "Kampanye SMS",
+              "triggers": "Pemicu perilaku"
+            },
+            "name": "Klaviyo",
+            "setupTime": "12 menit"
+          },
+          "mailchimp": {
+            "category": "Pemasaran Email",
+            "description": "Platform pemasaran email komprehensif dengan wawasan audiens",
+            "features": {
+              "builder": "Pembuat kampanye",
+              "reporting": "Pelaporan",
+              "segmentation": "Segmentasi audiens",
+              "testing": "Pengujian A/B"
+            },
+            "name": "Mailchimp",
+            "setupTime": "10 menit"
+          },
+          "mailerlite": {
+            "category": "Pemasaran Email",
+            "description": "Otomatisasi pemasaran email dengan integrasi dukungan pelanggan",
+            "features": {
+              "analytics": "Analitik",
+              "automation": "Alur kerja otomatisasi",
+              "campaigns": "Kampanye email",
+              "subscribers": "Manajemen pelanggan"
+            },
+            "name": "MailerLite",
+            "setupTime": "8 menit"
+          },
+          "omnisend": {
+            "category": "E-commerce",
+            "description": "Otomatisasi pemasaran omnichannel untuk e-commerce",
+            "features": {
+              "automation": "Alur kerja otomatisasi",
+              "email": "Kampanye email & SMS",
+              "reports": "Pelaporan tingkat lanjut",
+              "segmentation": "Segmentasi audiens"
+            },
+            "name": "Omnisend",
+            "setupTime": "10 menit"
+          }
+        },
+        "platformsSubtitle": "Integrasikan dengan platform pemasaran terkemuka untuk menciptakan pengalaman pelanggan yang mulus.",
+        "platformsTitle": "Platform Pemasaran Populer",
+        "subtitle": "Hubungkan SeaChat dengan alat pemasaran Anda untuk mengubah percakapan dukungan pelanggan menjadi peluang pemasaran yang kuat dan kampanye yang dipersonalisasi.",
+        "title": "Platform Pemasaran",
+        "useCases": {
+          "nurturing": {
+            "description": "Secara otomatis menambahkan kontak dukungan ke kampanye pemeliharaan",
+            "example": "Pelanggan bertanya tentang harga → Ditambahkan ke urutan email demo produk",
+            "title": "Pemeliharaan Prospek"
+          },
+          "onboarding": {
+            "description": "Pengalaman orientasi yang mulus dengan otomatisasi pemasaran",
+            "example": "Tiket dukungan pelanggan baru → Seri selamat datang dengan sumber daya yang bermanfaat",
+            "title": "Orientasi Pelanggan"
+          },
+          "retention": {
+            "description": "Retensi proaktif berdasarkan pola interaksi dukungan",
+            "example": "Beberapa tiket dukungan → Jangkauan keberhasilan pelanggan yang dipicu",
+            "title": "Kampanye Retensi"
+          },
+          "upselling": {
+            "description": "Identifikasi peluang penjualan ke atas dari percakapan dukungan",
+            "example": "Pelanggan menyebutkan rencana pertumbuhan → Kampanye peningkatan yang dipicu",
+            "title": "Peluang Penjualan ke Atas"
+          }
+        },
+        "useCasesSubtitle": "Lihat bagaimana percakapan dukungan dapat memicu alur kerja pemasaran yang kuat.",
+        "useCasesTitle": "Kasus Penggunaan Otomatisasi Pemasaran",
+        "workflowExample": "Contoh Alur Kerja",
+        "setup": "Pengaturan"
+      },
+      "social": {
+        "features": [
+          {
+            "title": "Respons Pelanggan Instan",
+            "description": "Balas pertanyaan media sosial secara real-time di semua platform",
+            "icon": "message-circle"
+          },
+          {
+            "title": "Kotak Masuk Sosial Terpadu",
+            "description": "Kelola semua pesan media sosial dari satu dasbor terpusat",
+            "icon": "inbox"
+          },
+          {
+            "title": "Perutean Otomatis Cerdas",
+            "description": "Secara otomatis mengarahkan pesan sosial ke anggota tim yang tepat",
+            "icon": "route"
+          },
+          {
+            "title": "Manajemen Reputasi Merek",
+            "description": "Pantau dan tanggapi penyebutan dan komentar merek dengan cepat",
+            "icon": "shield"
+          },
+          {
+            "title": "Dukungan Multi-Bahasa",
+            "description": "Berkomunikasi dengan pelanggan global dalam bahasa pilihan mereka",
+            "icon": "globe"
+          },
+          {
+            "title": "Analitik Sosial",
+            "description": "Lacak waktu respons, tingkat keterlibatan, dan kepuasan pelanggan",
+            "icon": "chart"
+          }
+        ],
+        "benefits": {
+          "meet": {
+            "description": "Berikan dukungan di platform yang sudah digunakan pelanggan Anda setiap hari",
+            "title": "Temui Pelanggan di Mana Pun Mereka Berada"
+          },
+          "reputation": {
+            "description": "Pertahankan citra merek positif dengan respons cepat dan bermanfaat",
+            "title": "Reputasi Merek"
+          },
+          "response": {
+            "description": "Tanggapi pertanyaan media sosial secara real-time",
+            "title": "Waktu Respons Lebih Cepat"
+          },
+          "unified": {
+            "description": "Tangani semua platform sosial dari satu dasbor",
+            "title": "Manajemen Terpadu"
+          }
+        },
+        "benefitsSubtitle": "Ubah kehadiran media sosial Anda menjadi saluran dukungan pelanggan yang kuat.",
+        "benefitsTitle": "Manfaat Dukungan Media Sosial",
+        "brandMentions": "Penyebutan merek yang membutuhkan respons",
+        "connectButton": "Hubungkan Platform Sosial",
+        "connectPlatform": "Hubungkan",
+        "ctaConnectButton": "Hubungkan Platform Sosial",
+        "ctaGuideButton": "Jadwalkan Demo E-commerce",
+        "ctaSubtitle": "Hubungkan semua platform media sosial Anda dan berikan dukungan pelanggan yang luar biasa di mana pelanggan Anda menghabiskan waktu mereka.",
+        "ctaTitle": "Siap Menyatukan Dukungan Media Sosial Anda?",
+        "dashboardTitle": "Dasbor Media Sosial",
+        "demoButton": "Jadwalkan Demo Sosial",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "managementSubtitle": "Semua yang Anda butuhkan untuk mengelola interaksi pelanggan di semua platform media sosial dari satu dasbor terpadu.",
+        "managementTitle": "Manajemen Media Sosial Lengkap",
+        "mentions": "3 penyebutan",
+        "newMessages": "12 pesan baru",
+        "pageMessages": "5 pesan halaman",
+        "platforms": {
+          "facebook": {
+            "description": "Berikan dukungan pelanggan melalui platform perpesanan Facebook",
+            "features": {
+              "cards": "Kartu kaya",
+              "menu": "Menu persisten",
+              "page": "Integrasi halaman",
+              "responses": "Respons otomatis"
+            },
+            "name": "Facebook Messenger",
+            "setupTime": "12 menit",
+            "users": "1.3 Miliar+ pengguna"
+          },
+          "instagram": {
+            "description": "Kelola DM Instagram dan balasan cerita dalam satu kotak masuk terpadu",
+            "features": {
+              "dm": "Pesan langsung",
+              "media": "Berbagi media",
+              "responses": "Respons cepat",
+              "stories": "Balasan cerita"
+            },
+            "name": "Instagram",
+            "setupTime": "8 menit",
+            "users": "1.4 Miliar+ pengguna"
+          },
+          "line": {
+            "description": "Berikan dukungan dan keterlibatan pelanggan yang mulus di LINE",
+            "features": {
+              "broadcast": "Pesan siaran",
+              "messaging": "Pesan kaya",
+              "payments": "Integrasi LINE Pay",
+              "stickers": "Dukungan stiker"
+            },
+            "name": "LINE",
+            "setupTime": "10 menit",
+            "users": "180 Juta+ pengguna"
+          },
+          "tiktok": {
+            "description": "Berinteraksi dengan audiens Anda dan kelola interaksi pelanggan di TikTok",
+            "features": {
+              "ads": "Dukungan kampanye iklan",
+              "analytics": "Analitik audiens",
+              "comments": "Manajemen komentar",
+              "dm": "Pesan langsung"
+            },
+            "name": "TikTok",
+            "setupTime": "15 menit",
+            "users": "1 Miliar+ pengguna"
+          },
+          "twitter": {
+            "description": "Tangani pertanyaan dan penyebutan pelanggan di platform Twitter/X",
+            "features": {
+              "dm": "Pesan langsung",
+              "mentions": "Pelacakan penyebutan",
+              "responses": "Respons tweet",
+              "threads": "Manajemen utas"
+            },
+            "name": "Twitter/X",
+            "setupTime": "15 menit",
+            "users": "450 Juta+ pengguna"
+          },
+          "whatsapp": {
+            "description": "Terhubung dengan pelanggan di platform perpesanan paling populer di dunia",
+            "features": {
+              "api": "API Bisnis",
+              "groups": "Grup",
+              "media": "Media kaya",
+              "templates": "Template"
+            },
+            "name": "WhatsApp Business",
+            "setupTime": "10 menit",
+            "users": "2 Miliar+ pengguna"
+          }
+        },
+        "platformsSubtitle": "Integrasikan dengan setiap platform sosial yang digunakan pelanggan Anda untuk dukungan media sosial yang komprehensif.",
+        "platformsTitle": "Semua Platform Sosial Utama",
+        "productComments": "Komentar pada pameran produk terbaru",
+        "productInquiries": "Pertanyaan pelanggan tentang ketersediaan produk",
+        "setup": "Waktu pengaturan",
+        "storyReplies": "8 balasan cerita",
+        "subtitle": "Hubungkan semua platform media sosial Anda dan berikan dukungan pelanggan yang mulus di seluruh WhatsApp, Instagram, Facebook, Twitter, dan lainnya.",
+        "supportRequests": "Permintaan dukungan dan pertanyaan umum",
+        "title": "Integrasi Media Sosial",
+        "twitter": "Twitter/X",
+        "whatsapp": "WhatsApp Business",
+        "worldwide": "seluruh dunia"
+      },
+      "websites": {
+        "code": "Kode",
+        "codeButton": "Dapatkan Kode Widget",
+        "copyCode": "Salin Kode",
+        "ctaCodeButton": "Dapatkan Kode Widget Sekarang",
+        "ctaDocsButton": "Lihat Dokumen Integrasi",
+        "ctaSubtitle": "Dapatkan kode widget kustom Anda dan mulailah memberikan dukungan pelanggan yang luar biasa dalam hitungan menit.",
+        "ctaTitle": "Siap Menambahkan SeaChat ke Situs Web Anda?",
+        "customization": {
+          "colors": {
+            "description": "Cocokkan warna merek, font, dan gaya Anda",
+            "features": {
+              "css": "Penggantian CSS",
+              "fonts": "Kustomisasi font",
+              "logo": "Integrasi logo merek",
+              "schemes": "Skema warna kustom"
+            },
+            "title": "Warna & Branding"
+          },
+          "content": {
+            "description": "Sesuaikan semua teks dan pesan",
+            "features": {
+              "greetings": "Salam kustom",
+              "multilanguage": "Dukungan multibahasa",
+              "offline": "Pesan offline",
+              "welcome": "Pesan selamat datang"
+            },
+            "title": "Konten & Pesan"
+          },
+          "position": {
+            "description": "Kontrol di mana dan bagaimana widget muncul",
+            "features": {
+              "auto": "Pengaturan buka otomatis",
+              "corner": "Penempatan sudut",
+              "mobile": "Responsif seluler",
+              "trigger": "Kondisi pemicu"
+            },
+            "title": "Posisi & Perilaku"
+          }
+        },
+        "customizationSubtitle": "Buat SeaChat cocok dengan merek Anda dengan sempurna dengan opsi kustomisasi yang luas.",
+        "customizationTitle": "Opsi Kustomisasi",
+        "demoButton": "Jadwalkan Demo",
+        "getPlatformCode": "Dapatkan",
+        "installation": {
+          "step1": {
+            "description": "Salin kode widget SeaChat unik Anda dari dasbor",
+            "title": "Dapatkan Kode Widget Anda"
+          },
+          "step2": {
+            "description": "Tempel kode sebelum tag penutup </body>",
+            "title": "Tambahkan ke Situs Web Anda"
+          },
+          "step3": {
+            "description": "Opsional: Sesuaikan warna, posisi, dan perilaku",
+            "title": "Sesuaikan Penampilan"
+          }
+        },
+        "installationSubtitle": "Ikuti langkah-langkah sederhana ini untuk menambahkan SeaChat ke situs web mana pun dalam hitungan menit.",
+        "installationTitle": "Panduan Instalasi Universal",
+        "platforms": {
+          "generic": {
+            "description": "Widget universal yang berfungsi di situs web HTML apa pun",
+            "difficulty": "Mudah",
+            "features": {
+              "compatibility": "Kompatibilitas universal",
+              "installation": "Instalasi mudah",
+              "responsive": "Desain responsif",
+              "styling": "Gaya kustom"
+            },
+            "name": "Situs Web Generik",
+            "setupTime": "2 menit"
+          },
+          "shopify": {
+            "description": "Dioptimalkan untuk e-commerce dengan integrasi pelacakan pesanan",
+            "difficulty": "Mudah",
+            "features": {
+              "cart": "Pengabaian keranjang",
+              "customers": "Sinkronisasi data pelanggan",
+              "orders": "Integrasi pesanan",
+              "products": "Rekomendasi produk"
+            },
+            "name": "Shopify",
+            "setupTime": "3 menit"
+          },
+          "squarespace": {
+            "description": "Integrasi mulus dengan sistem desain Squarespace",
+            "difficulty": "Sedang",
+            "features": {
+              "code": "Injeksi kode",
+              "design": "Pencocokan sistem desain",
+              "style": "Kustomisasi gaya",
+              "templates": "Kompatibilitas template"
+            },
+            "name": "Squarespace",
+            "setupTime": "3 menit"
+          },
+          "webflow": {
+            "description": "Integrasi asli untuk Webflow CMS dan e-commerce",
+            "difficulty": "Mudah",
+            "features": {
+              "cms": "Integrasi CMS",
+              "custom": "Injeksi kode kustom",
+              "design": "Ramah desainer",
+              "ecommerce": "Dukungan e-commerce"
+            },
+            "name": "Webflow",
+            "setupTime": "2 menit"
+          },
+          "wix": {
+            "description": "Integrasi drag-and-drop untuk situs web Wix",
+            "difficulty": "Mudah",
+            "features": {
+              "app": "Toko aplikasi Wix",
+              "editor": "Editor visual",
+              "mobile": "Dioptimalkan untuk seluler",
+              "positioning": "Penempatan kustom"
+            },
+            "name": "Wix",
+            "setupTime": "2 menit"
+          },
+          "wordpress": {
+            "description": "Plugin WordPress asli dengan kustomisasi tingkat lanjut",
+            "difficulty": "Mudah",
+            "features": {
+              "dashboard": "Dasbor admin",
+              "plugin": "Plugin WordPress",
+              "shortcode": "Dukungan shortcode",
+              "theme": "Integrasi tema"
+            },
+            "name": "WordPress",
+            "setupTime": "1 menit"
+          }
+        },
+        "platformsSubtitle": "Pilih platform Anda untuk integrasi dan instruksi pengaturan yang dioptimalkan.",
+        "platformsTitle": "Platform yang Didukung",
+        "subtitle": "Sebarkan SeaChat di platform situs web mana pun dalam hitungan menit. Kompatibilitas universal dengan gaya kustom dan desain responsif.",
+        "title": "Integrasi Situs Web",
+        "viewDocs": "Lihat Dokumentasi",
+        "setup": "Waktu pengaturan"
+      }
+    },
+    "heroAnimations": {
+      "agentToAI": {
+        "phases": {
+          "learning": "🧑‍💼 Belajar dari Manusia",
+          "handoff": "🤝 Serah Terima Mulus",
+          "autonomous": "🤖 AI Otonom"
+        },
+        "humanMessages": {
+          "0": "Terima kasih telah menghubungi dukungan! Bagaimana saya bisa membantu?",
+          "1": "Saya memahami kekhawatiran Anda. Biarkan saya memeriksanya untuk Anda.",
+          "2": "Berdasarkan kebijakan kami, inilah yang saya rekomendasikan...",
+          "3": "Apakah ada hal lain yang bisa saya bantu hari ini?"
+        },
+        "aiMessages": {
+          "0": "Saya telah belajar untuk menangani jenis pertanyaan ini secara otomatis.",
+          "1": "Berdasarkan percakapan sebelumnya, saya dapat membantu dengan ini.",
+          "2": "Saya memahami pertanyaan Anda dan dapat memberikan bantuan instan.",
+          "3": "Saya siap menangani permintaan serupa secara mandiri."
+        },
+        "learned": "Dipelajaran",
+        "title": "Serah Terima Manusia ke AI",
+        "subtitle": "Mulai dengan manusia, skalakan dengan AI cerdas"
+      },
+      "conversationLearning": {
+        "documentTypes": {
+          "0": "Manual Produk.pdf",
+          "1": "Basis Data FAQ.csv",
+          "2": "Panduan Dukungan.doc",
+          "3": "Konten Situs Web"
+        },
+        "knowledgeConcepts": {
+          "0": "Fitur Produk",
+          "1": "Paket Harga",
+          "2": "Kebijakan Dukungan",
+          "3": "Spesifikasi Teknis",
+          "4": "Panduan Pengguna",
+          "5": "Pemecahan Masalah",
+          "6": "Langkah-langkah Integrasi",
+          "7": "Praktik Terbaik"
+        },
+        "conversationExamples": {
+          "0": {
+            "question": "Bagaimana cara mengatur ulang kata sandi saya?",
+            "improvement": "Proses langkah demi langkah yang dipelajari"
+          },
+          "1": {
+            "question": "Apa saja paket harga Anda?",
+            "improvement": "Menambahkan perbandingan terperinci"
+          },
+          "2": {
+            "question": "Integrasi dengan Slack?",
+            "improvement": "Panduan teknis yang ditingkatkan"
+          },
+          "3": {
+            "question": "Pertanyaan penagihan",
+            "improvement": "Pemahaman kebijakan yang ditingkatkan"
+          }
+        },
+        "phaseLabel": "Fase",
+        "accuracy": "Akurasi",
+        "title": "Perjalanan Pembelajaran AI",
+        "subtitle": "Saksikan AI menjadi lebih pintar dari konten Anda"
+      },
+      "interactiveChannels": {
+        "whatsapp": {
+          "messages": {
+            "0": "Hai! Butuh bantuan dengan pesanan saya 📦",
+            "1": "Apa kebijakan pengembalian Anda?",
+            "2": "Terima kasih atas respons cepatnya! 😊"
+          }
+        },
+        "instagram": {
+          "messages": {
+            "0": "Suka produk baru Anda! 💕",
+            "1": "Apakah ini tersedia dalam warna biru?",
+            "2": "Bisakah Anda mengirim ke Eropa?"
+          }
+        },
+        "website": {
+          "messages": {
+            "0": "Saya butuh dukungan teknis",
+            "1": "Bagaimana cara mengatur ulang kata sandi saya?",
+            "2": "Checkout tidak berfungsi"
+          }
+        },
+        "email": {
+          "messages": {
+            "0": "Menindaklanjuti email saya sebelumnya",
+            "1": "Permintaan harga massal",
+            "2": "Terima kasih atas bantuan Anda"
+          }
+        },
+        "agentResponse": "Saya akan dengan senang hati membantu Anda! Biarkan saya memeriksa informasi itu untuk Anda.",
+        "channelNames": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "website": "Situs Web",
+          "email": "Email"
+        },
+        "supportSuffix": "Dukungan",
+        "online": "Online",
+        "typePlaceholder": "Ketik pesan Anda...",
+        "title": "Pemilih Saluran Interaktif",
+        "subtitle": "Klik saluran untuk melihat percakapan yang berbeda"
+      },
+      "multiChannelFlow": {
+        "channels": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "email": "Email",
+          "website": "Situs Web"
+        },
+        "messageTemplates": {
+          "0": "Butuh bantuan dengan pesanan",
+          "1": "Pertanyaan produk",
+          "2": "Dukungan teknis",
+          "3": "Pertanyaan penagihan",
+          "4": "Pertanyaan umum"
+        },
+        "title": "Alur Pesan Multi-Saluran",
+        "subtitle": "Pesan mengalir antar saluran secara real-time"
+      },
+      "phoneVoiceAI": {
+        "callerNames": {
+          "0": "John Smith",
+          "1": "Sarah Johnson",
+          "2": "Mike Chen",
+          "3": "Emma Davis",
+          "4": "David Wilson"
+        },
+        "conversationFlow": {
+          "0": {
+            "caller": "Hai, saya butuh bantuan dengan status pesanan saya",
+            "ai": "Halo! Saya akan dengan senang hati membantu Anda memeriksa status pesanan Anda. Bisakah Anda memberikan nomor pesanan Anda?"
+          },
+          "1": {
+            "caller": "Ya, itu nomor pesanan 12345",
+            "ai": "Terima kasih! Biarkan saya mencarinya untuk Anda. Saya dapat melihat pesanan Anda dikirim kemarin dan seharusnya tiba besok."
+          },
+          "2": {
+            "caller": "Sempurna! Bisakah saya mengubah alamat pengiriman?",
+            "ai": "Saya dapat membantu Anda dengan itu. Apa alamat pengiriman baru yang Anda inginkan?"
+          }
+        },
+        "status": {
+          "seachatVoiceAI": "SeaChat Voice AI",
+          "connectedWith": "Terhubung dengan",
+          "listening": "Mendengarkan...",
+          "aiSpeaking": "AI Berbicara...",
+          "processing": "Memproses...",
+          "liveTranscript": "Transkrip Langsung:"
+        },
+        "waiting": {
+          "ready": "AI Suara Siap",
+          "subtitle": "Menunggu panggilan masuk..."
+        },
+        "stats": {
+          "callsHandled": "Panggilan Ditangani",
+          "available": "Tersedia"
+        },
+        "incomingCall": "📞 Panggilan Masuk",
+        "features": {
+          "naturalSpeech": {
+            "title": "Ucapan Alami",
+            "description": "Percakapan seperti manusia"
+          },
+          "smartRecognition": {
+            "title": "Pengenalan Cerdas",
+            "description": "Ucapan-ke-teks yang akurat"
+          },
+          "contextAware": {
+            "title": "Peka Konteks",
+            "description": "Memahami niat"
+          }
+        }
+      },
+      "realtimeDashboard": {
+        "metrics": {
+          "conversations": "Obrolan Aktif",
+          "response": "Respons Rata-rata",
+          "agents": "Agen Online",
+          "satisfaction": "Kepuasan"
+        },
+        "title": "Dasbor Langsung",
+        "status": {
+          "live": "Langsung"
+        },
+        "timeLabels": {
+          "12hAgo": "12 jam yang lalu",
+          "6hAgo": "6 jam yang lalu",
+          "now": "Sekarang"
+        }
+      }
+    }
+  }
+}

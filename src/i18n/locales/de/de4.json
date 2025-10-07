@@ -1,0 +1,1605 @@
+{
+  "seachat": {
+    "integrations": {
+      "crm": {
+        "title": "CRM -Integrationen",
+        "subtitle": "Verbinden Sie SEACHAT mit Ihrem CRM, um ein einheitliches Kundenerlebnis zu schaffen. Synchronisierende Kontakte synchronisieren, Leads verfolgen und Beziehungen nahtlos verwalten.",
+        "connectButton": "Verbinden Sie Ihr CRM",
+        "guideButton": "Integrationshandbuch anzeigen",
+        "platformsTitle": "Unterstützte CRM -Plattformen",
+        "platformsSubtitle": "Wählen Sie aus unserer umfangreichen Liste der CRM -Integrationen, die jeweils für den nahtlosen Datenfluss optimiert sind.",
+        "setupTime": "Einrichtungszeit",
+        "connectPlatform": "Verbinden",
+        "whyIntegrateTitle": "Warum in Ihr CRM integrieren?",
+        "whyIntegrateSubtitle": "Verwandeln Sie Ihren Kundensupport in ein leistungsstarkes Verkaufs- und Beziehungsmanagement -Tool.",
+        "featuresTitle": "Umfassende CRM -Integrationsfunktionen",
+        "featuresSubtitle": "Unsere CRM -Integrationen gehen über die grundlegende Kontaktsynchronisation hinaus, um eine vollständige Lösung für Kundenbeziehungsmanagement zu bieten.",
+        "workflowTitle": "Integrations -Workflow",
+        "ctaTitle": "Bereit, Ihr CRM zu verbinden?",
+        "ctaSubtitle": "Synchronisieren Sie Ihre Kundendaten und verwandeln Sie Support -Gespräche in Geschäftsmöglichkeiten.",
+        "ctaChooseButton": "Melden Sie sich kostenlos an",
+        "ctaGuideButton": "Setup -Handbuch anzeigen",
+        "platforms": {
+          "salesforce": {
+            "name": "Salesforce",
+            "description": "Vervollständigen Sie die Integration in Salesforce CRM für Unternehmensteams",
+            "features": {
+              "contacts": "Wenden Sie sich an synchronisiert",
+              "leads": "Lead Management",
+              "opportunities": "Opportunitätsverfolgung",
+              "fields": "Benutzerdefinierte Felder"
+            },
+            "setupTime": "15 Minuten",
+            "popularity": "Am beliebtesten"
+          },
+          "hubspot": {
+            "name": "Hubspot",
+            "description": "Seamless HubSpot -Integration für Marketing- und Vertriebsausrichtung",
+            "features": {
+              "properties": "Kontakteigenschaften",
+              "deals": "Deal Pipeline",
+              "sequences": "E -Mail -Sequenzen",
+              "reporting": "Berichterstattung"
+            },
+            "setupTime": "10 Minuten",
+            "popularity": "Empfohlen"
+          },
+          "pipedrive": {
+            "name": "Pipedrive",
+            "description": "Einfache, aber leistungsstarke Pipedrive -Integration für Verkaufsteams",
+            "features": {
+              "pipeline": "Pipeline -Management",
+              "activity": "Aktivitätsverfolgung",
+              "history": "Kontaktgeschichte",
+              "automation": "Automatisierung"
+            },
+            "setupTime": "8 Minuten",
+            "popularity": "Einfache Setup"
+          },
+          "zoho": {
+            "name": "Zoho CRM",
+            "description": "Umfassende Zoho -CRM -Integration mit fortschrittlichen Workflows",
+            "features": {
+              "scoring": "Bleibewertung",
+              "workflow": "Workflow -Automatisierung",
+              "modules": "Benutzerdefinierte Module",
+              "analytics": "Analyse"
+            },
+            "setupTime": "12 Minuten",
+            "popularity": "Feature Rich"
+          },
+          "dynamics": {
+            "name": "Microsoft Dynamics",
+            "description": "Integration von Enterprise-Grade in Microsoft Dynamics 365",
+            "features": {
+              "mapping": "Entitätskartierung",
+              "processes": "Geschäftsprozesse",
+              "powerbi": "Power BI -Integration",
+              "security": "Sicherheit"
+            },
+            "setupTime": "20 Minuten",
+            "popularity": "Unternehmen"
+          },
+          "freshworks": {
+            "name": "FreshWorks CRM",
+            "description": "Moderne CRM -Integration mit FreshWorks Suite",
+            "features": {
+              "management": "Kontaktmanagement",
+              "sequences": "Verkaufssequenzen",
+              "phone": "Telefonintegration",
+              "insights": "AI Einblicke"
+            },
+            "setupTime": "10 Minuten",
+            "popularity": "Modern"
+          }
+        },
+        "benefits": {
+          "data": {
+            "title": "Einheitliche Kundendaten",
+            "description": "Synchronisieren Sie Kundeninformationen automatisch zwischen SEACHAT und Ihrem CRM"
+          },
+          "leads": {
+            "title": "Verbesserte Bleiqualität",
+            "description": "Umwandeln Support -Gespräche in qualifizierte Leads"
+          },
+          "sync": {
+            "title": "Echtzeitsynchronisation",
+            "description": "Halten Sie die Kundendaten auf allen Plattformen sofort aktualisiert"
+          },
+          "context": {
+            "title": "Besserer Kundenkontext",
+            "description": "Zugriff auf die vollständige Kundenhistorie während der Support -Gespräche"
+          }
+        },
+        "features": [
+          {
+            "title": "Nahlose Datensynchronisierung",
+            "description": "Synchronisieren Sie automatisch Kundenkontaktinformationen, Konversationshistorien und Interaktionsunterlagen",
+            "icon": "Synchronisation"
+          },
+          {
+            "title": "Bleiautomatisierung",
+            "description": "Umwandeln Sie Support -Gespräche automatisch in qualifizierte Leads in Ihrem CRM",
+            "icon": "Benutzer"
+          },
+          {
+            "title": "Smart Routing",
+            "description": "Reiten Sie Kunden intelligent an den richtigen Verkaufs- oder Support -Team an, basierend auf CRM -Daten",
+            "icon": "Route"
+          },
+          {
+            "title": "Einheitliche Kundenansicht",
+            "description": "Greifen Sie während der Support -Gespräche sofort auf den vollständigen Kundenverlauf und Transaktionsaufzeichnungen zu",
+            "icon": "Auge"
+          },
+          {
+            "title": "Aktivität auslöst",
+            "description": "Lösen Sie automatisch CRM -Workflows und Marketingkampagnen auf der Grundlage von Kundeninteraktionen aus",
+            "icon": "Zap"
+          },
+          {
+            "title": "Berichte & Analytics",
+            "description": "Einheitliche Berichterstattung über Plattformen mit tiefen Einsichten in den Kundenlebenszyklus- und Conversion -Metriken",
+            "icon": "Diagramm"
+          }
+        ],
+        "workflow": {
+          "connect": {
+            "title": "Verbinden Sie Ihr CRM",
+            "description": "Authentifizieren und konfigurieren Sie Ihre CRM -Verbindung"
+          },
+          "map": {
+            "title": "Kartendatenfelder",
+            "description": "Konfigurieren Sie, wie die Daten zwischen den Systemen fließen"
+          },
+          "sync": {
+            "title": "Synchieren beginnen",
+            "description": "Genießen Sie die automatische Datensynchronisation"
+          }
+        }
+      },
+      "api": {
+        "accessButton": "Holen Sie sich den API -Zugriff",
+        "benefits": {
+          "dataFlow": {
+            "description": "Automatische Synchronisation zwischen SEACHAT und Ihren Systemen",
+            "title": "Nahloser Datenfluss"
+          },
+          "implementation": {
+            "description": "Schnelles Setup mit vorgefertigten Integrationsvorlagen",
+            "title": "Schnellere Implementierung"
+          },
+          "insights": {
+            "description": "Verbesserte Berichterstattung mit integrierten Datenquellen",
+            "title": "Bessere Erkenntnisse"
+          },
+          "manualWork": {
+            "description": "Beseitigen Sie sich wiederholte Aufgaben mit intelligenter Automatisierung",
+            "title": "Reduzierte manuelle Arbeit"
+          }
+        },
+        "benefitsSubtitle": "Verwandeln Sie Ihren Workflow mit leistungsstarken benutzerdefinierten SEACHAT -Integrationen.",
+        "benefitsTitle": "Integrationsvorteile",
+        "buildSubtitle": "Befolgen Sie diese einfachen Schritte, um mit benutzerdefinierten API -SEACHAT -Integrationen zu beginnen.",
+        "buildTitle": "Bereit, Ihre Integration aufzubauen?",
+        "capabilitiesSubtitle": "Alles, was Sie brauchen, um robuste, skalierbare Integrationen in SEACHAT aufzubauen.",
+        "capabilitiesTitle": "Leistungsstarke Integrationsfähigkeiten",
+        "copyCode": "Code kopieren",
+        "ctaAccessButton": "Holen Sie sich den API -Zugriff",
+        "ctaDocsButton": "Dokumentation anzeigen",
+        "ctaSubtitle": "Holen Sie sich den API -Zugriff und erstellen Sie leistungsstarke benutzerdefinierte Integrationen, die Ihren Kundensupport -Workflow verändern.",
+        "ctaTitle": "Bauen Sie noch heute an",
+        "docsButton": "API -Dokumentation anzeigen",
+        "exampleSubtitle": "Beginnen Sie mit unserer API in nur wenigen Codezeilen.",
+        "exampleTitle": "Beispiel für Schnellstartcode",
+        "features": {
+          "custom": {
+            "description": "Erstellen Sie benutzerdefinierte Integrationen für Ihre spezifischen Geschäftsanforderungen",
+            "title": "Benutzerdefinierte Integrationen"
+          },
+          "restful": {
+            "description": "Saubere, gut dokumentierte REST-API für die nahtlose Integration",
+            "title": "RESTful -API"
+          },
+          "webhooks": {
+            "description": "Sofortige Benachrichtigungen für Ereignisse und Konversationsaktualisierungen",
+            "title": "Echtzeit-Webhooks"
+          },
+          "workflow": {
+            "description": "Automatisieren Sie komplexe Workflows mit unserer Integrationsplattform",
+            "title": "Workflow -Automatisierung"
+          }
+        },
+        "integrationExample": "Beispiel für benutzerdefinierte Integration",
+        "patternsSubtitle": "Erforschen Sie beliebte Integrationsszenarien und Implementierungsbeispiele.",
+        "patternsTitle": "Gemeinsame Integrationsmuster",
+        "resources": {
+          "community": "Entwickler -Community -Unterstützung",
+          "docs": "Umfassende API -Dokumentation",
+          "examples": "Codebeispiele in mehreren Sprachen",
+          "explorer": "Interaktiver API -Explorer",
+          "sandbox": "Sandboxumgebung zum Testen",
+          "simulator": "Webhook Event Simulator"
+        },
+        "resourcesTitle": "Entwicklerressourcen",
+        "steps": {
+          "build": {
+            "description": "Entwickeln Sie Ihre Integration mithilfe unserer Sandbox -Umgebung",
+            "title": "Bauen & testen"
+          },
+          "credentials": {
+            "description": "Melden Sie sich an und generieren Sie Ihren API -Schlüssel und Ihr Webhook -Geheimnis",
+            "title": "Holen Sie sich API -Anmeldeinformationen"
+          },
+          "deploy": {
+            "description": "Starten Sie Ihre Integration und überwachen Sie die Leistung",
+            "title": "Bereitstellen und Überwachung"
+          },
+          "docs": {
+            "description": "Erforschen Sie unsere umfassenden API -Dokumentation und Beispiele",
+            "title": "Überprüfung der Dokumentation"
+          }
+        },
+        "subtitle": "Bauen Sie leistungsstarke benutzerdefinierte Integrationen in unsere umfassende API auf. Schließen Sie SEACHAT mit jedem System oder Workflow mit unseren Entwicklerfreundlichen Tools an.",
+        "title": "Benutzerdefinierte API -Integrationen",
+        "types": {
+          "analytics": {
+            "complexity": "Niedrig",
+            "description": "Senden Sie Gesprächsdaten an Ihre Analyse -Tools",
+            "example": "Verfolgen Sie die Kundenzufriedenheit und Support -Metriken",
+            "time": "1-2 Stunden",
+            "title": "Analyseplattform"
+          },
+          "crm": {
+            "complexity": "Medium",
+            "description": "Synchronisieren Sie Kundendaten mit Ihrem CRM -System",
+            "example": "Erstellen Sie automatisch Leads aus Support -Gesprächen",
+            "time": "2-4 Stunden",
+            "title": "CRM -Integration"
+          },
+          "ecommerce": {
+            "complexity": "Medium",
+            "description": "Verbinden Sie sich mit Ihrem Online -Shop für die Bestellverwaltung",
+            "example": "Geben Sie den Status und die Verfolgung von Echtzeit-Bestellungen an",
+            "time": "3-6 Stunden",
+            "title": "E-Commerce-Plattform"
+          },
+          "payment": {
+            "complexity": "Hoch",
+            "description": "Integrieren Sie sich in Zahlungsgateways für die Abrechnungsunterstützung",
+            "example": "Behandeln Sie Rückerstattungen und Zahlungsanfragen automatisch",
+            "time": "4-8 Stunden",
+            "title": "Zahlungsabwicklung"
+          }
+        },
+        "useCaseTitle": "Beispiel Anwendungsfall"
+      },
+      "calendar": {
+        "benefits": {
+          "noShows": {
+            "description": "Automatische Erinnerungen und Bestätigungen reduzieren verpasste Termine",
+            "title": "Reduzierte No-Shows"
+          },
+          "scheduling": {
+            "description": "Lassen Sie Kunden Termine direkt aus Chat -Gesprächen buchen",
+            "title": "Automatisierte Planung"
+          },
+          "timeSavings": {
+            "description": "Beseitigen",
+            "title": "Zeiteinsparung"
+          },
+          "utilization": {
+            "description": "Optimieren Sie die Kalenderverwendung mit intelligenter Planung",
+            "title": "Bessere Nutzung"
+          }
+        },
+        "benefitsSubtitle": "Rationalieren Sie Ihren Planungsprozess und verbessern Sie das Kundenerlebnis mit automatisierter Buchung.",
+        "benefitsTitle": "Kalenderintegrationsvorteile",
+        "connectButton": "Kalender verbinden",
+        "connectPlatform": "Verbinden",
+        "ctaConnectButton": "Verbinden Sie Ihren Kalender",
+        "ctaGuideButton": "Setup -Handbuch anzeigen",
+        "ctaSubtitle": "Verbinden Sie Ihren Kalender und lassen Sie Kunden Termine durch Ihre Support -Gespräche nahtlos buchen.",
+        "ctaTitle": "Bereit, Ihre Planung zu automatisieren?",
+        "customer": "Kunde",
+        "customerChoice": "Dienstag um 14 Uhr funktioniert perfekt!",
+        "demoButton": "Buchplanung Demo",
+        "exampleTitle": "Planungsbeispiel",
+        "features": [
+          "Echtzeit-Verfügbarkeitssynchronisierung",
+          "Automatisierte Buchungsbestätigungen",
+          "Kalender einladende Generation",
+          "Erinnerungsbenachrichtigungen",
+          "Mehrzeit-Zone-Unterstützung",
+          "Wiederkehrender Terminhandling"
+        ],
+        "flow": {
+          "availability": {
+            "description": "System überprüft Echtzeitkalender Verfügbarkeit",
+            "example": "Verfügbar",
+            "title": "Verfügbarkeitsprüfung"
+          },
+          "confirmation": {
+            "description": "Der Kunde wählt Zeit und Termin wird automatisch gebucht",
+            "example": "Treffen für Dienstag um 14 Uhr mit Kalendereinladung gebucht",
+            "title": "Buchungsbestätigung"
+          },
+          "followup": {
+            "description": "Erinnerungen und Bestätigungen automatisch gesendet",
+            "example": "24 -Stunden -Erinnerung + Meeting Link + Vorbereitungsmaterialien",
+            "title": "Automatisierte Follow-up"
+          },
+          "request": {
+            "description": "Der Kunde bittet darum, eine Besprechung oder einen Termin zu vereinbaren",
+            "example": "\"Ich möchte eine Demo für nächste Woche planen\"",
+            "title": "Kundenanfrage"
+          }
+        },
+        "flowSubtitle": "Sehen Sie, wie eine nahtlose Terminbuchung in Kundengesprächen funktioniert.",
+        "flowTitle": "Automatisierter Planungsfluss",
+        "platforms": {
+          "acuity": {
+            "category": "Professional",
+            "description": "Erweiterte Planung mit Kundenverwaltungsfunktionen",
+            "features": {
+              "group": "Gruppentermine",
+              "intake": "Client -Aufnahmeformen",
+              "packages": "Paketplanung",
+              "workflows": "Automatisierte Workflows"
+            },
+            "name": "Schärfeplanung",
+            "setupTime": "12 Minuten"
+          },
+          "apple": {
+            "category": "Apple -Ökosystem",
+            "description": "ICloud -Kalenderintegration für Apple -Ökosystembenutzer",
+            "features": {
+              "devices": "Cross-Device-Zugang",
+              "location": "Standortdienste",
+              "sharing": "Ereignisfreigabe",
+              "sync": "iCloud sync"
+            },
+            "name": "Apfelkalender",
+            "setupTime": "6 Minuten"
+          },
+          "calcom": {
+            "category": "Offene Planung",
+            "description": "Offene Planungsinfrastruktur für Teams und Einzelpersonen",
+            "features": {
+              "api": "API & Webhooks",
+              "booking": "Buchungslinks",
+              "payments": "Zahlungsintegration",
+              "workflows": "Benutzerdefinierte Workflows"
+            },
+            "name": "Cal.com",
+            "setupTime": "7 Minuten"
+          },
+          "calendly": {
+            "category": "Planung",
+            "description": "Beliebtes Planungstool für automatisierte Terminbuchung",
+            "features": {
+              "booking": "Buchungsseiten",
+              "buffer": "Pufferzeiten",
+              "payment": "Zahlungsintegration",
+              "questions": "Benutzerdefinierte Fragen"
+            },
+            "name": "Kalenden",
+            "setupTime": "10 Minuten"
+          },
+          "google": {
+            "category": "Google -Arbeitsbereich",
+            "description": "Nahlose Integration in den Google -Kalender für die Terminplanung",
+            "features": {
+              "availability": "Verfügbarkeitssynchronisierung",
+              "events": "Ereigniserstellung",
+              "meetings": "Besprechungsplanung",
+              "reminders": "Erinnerungsbenachrichtigungen"
+            },
+            "name": "Google -Kalender",
+            "setupTime": "5 Minuten"
+          },
+          "highlevel": {
+            "category": "All-in-One",
+            "description": "All-in-One-Vertrieb, Marketing und Kalenderautomatisierung",
+            "features": {
+              "forms": "Buchungsformen",
+              "integration": "CRM -Integration",
+              "pipelines": "Verkaufspipelines",
+              "reminders": "Automatisierte Erinnerungen"
+            },
+            "name": "HighLevel",
+            "setupTime": "9 Minuten"
+          },
+          "notion": {
+            "category": "Produktivität",
+            "description": "Kalender und Projektmanagement mit Integration von Begriffe",
+            "features": {
+              "automation": "Workflow -Automatisierung",
+              "sync": "Kalendersynchronisation",
+              "tasks": "Aufgabenplanung",
+              "templates": "Benutzerdefinierte Vorlagen"
+            },
+            "name": "Vorstellung",
+            "setupTime": "6 Minuten"
+          },
+          "outlook": {
+            "category": "Microsoft 365",
+            "description": "Microsoft Outlook und Office 365 Kalenderintegration",
+            "features": {
+              "exchange": "Austauschsynchronisation",
+              "recurring": "Wiederkehrende Ereignisse",
+              "rooms": "Besprechungsräume",
+              "team": "Teamkalender"
+            },
+            "name": "Microsoft Outlook",
+            "setupTime": "8 Minuten"
+          },
+          "zoom": {
+            "category": "Videokonferenzen",
+            "description": "Video -Meeting -Planung mit Zoom -Integration",
+            "features": {
+              "meetings": "Video Meetings",
+              "recording": "Aufnahme ein Setup",
+              "waiting": "Wartezimmer",
+              "webinar": "Webinarplanung"
+            },
+            "name": "Zoom Scheduler",
+            "setupTime": "7 Minuten"
+          }
+        },
+        "platformsSubtitle": "Verbinden Sie sich mit allen wichtigen Kalender- und Planungsplattformen für ein nahtloses Terminmanagement.",
+        "platformsTitle": "Kalenderplattform SEACHAT -Integrationen",
+        "seachatAI": "Adept ai",
+        "slot1": "Dienstag, 16. Januar - 14.00 Uhr PST",
+        "slot2": "Mittwoch, 17. Januar - 10:00 Uhr PST",
+        "slot3": "Donnerstag, 18. Januar - 15.00 Uhr PST",
+        "solutionSubtitle": "Alles, was Sie benötigen, um Termine, Meetings und Veranstaltungen direkt von Ihrer Kundensupport -Plattform zu verwalten.",
+        "solutionTitle": "Vollständige Planungslösung",
+        "subtitle": "Integrieren Sie sich in beliebte Kalenderplattformen, um eine nahtlose Terminplanung direkt aus Konversationen für Kundensupports zu ermöglichen.",
+        "title": "Kalender & Planung",
+        "setup": "Aufstellen"
+      },
+      "communication": {
+        "benefits": {
+          "collaboration": {
+            "description": "Verbesserung der internen Teamkoordination und den Reaktionszeiten",
+            "title": "Teamzusammenarbeit"
+          },
+          "efficiency": {
+            "description": "Schnellere Auflösung mit integrierten Kommunikationstools",
+            "title": "Reaktionseffizienz"
+          },
+          "satisfaction": {
+            "description": "Bessere Unterstützungserfahrung über alle Kanäle hinweg besser",
+            "title": "Kundenzufriedenheit"
+          },
+          "unified": {
+            "description": "Verwalten Sie alle Kommunikationskanäle von einem zentralen Hub",
+            "title": "Einheitliche Kommunikation"
+          }
+        },
+        "benefitsSubtitle": "Verbessern Sie Ihre Kundenunterstützung und die interne Zusammenarbeit mit nahtlosen SEACHAT -Integrationen.",
+        "benefitsTitle": "Vorteile der integrierten Kommunikation",
+        "connectButton": "Kommunikationsinstrumente verbinden",
+        "connectPlatform": "Verbinden mit",
+        "cta": {
+          "connectButton": "Fangen Sie jetzt an",
+          "contactButton": "Wenden Sie sich an den Verkauf",
+          "title": "Bereit, Ihre Kommunikation zu optimieren?",
+          "subtitle": "Verbinden Sie Ihre bevorzugten Kommunikationstools und verbessern Sie die Produktivität und das Kundenbindung Ihres Teams."
+        },
+        "demoButton": "Planenintegration Demo",
+        "features": {
+          "feature1": {
+            "description": "Machen Sie sich sofort mit Kunden auf allen integrierten Plattformen zusammen, um rechtzeitige Antworten zu gewährleisten und die Zufriedenheit zu verbessern.",
+            "title": "Echtzeit-Nachrichten"
+          },
+          "feature2": {
+            "description": "Richten Sie automatisierte Antworten und Routing -Regeln ein, um eingehende Nachrichten effizient zu verwalten und die manuellen Anstrengungen zu reduzieren.",
+            "title": "Automatisierte Workflows"
+          },
+          "feature3": {
+            "description": "Verwalten Sie alle Konversationen von einer einzelnen, intuitiven Schnittstelle und beseitigen Sie die Notwendigkeit, zwischen verschiedenen Anwendungen zu wechseln.",
+            "title": "Einheitlicher Posteingang"
+          },
+          "feature4": {
+            "description": "Gewinnen Sie Einblicke in Kommunikationsvolumen, Reaktionszeiten und Agentenleistung mit umfassender Analytik und Berichterstattung.",
+            "title": "Leistungsanalyse"
+          }
+        },
+        "featuresSubtitle": "Entdecken Sie, wie unsere Kommunikationsseachat -Integrationen Ihren Workflow verändern können.",
+        "featuresTitle": "Schlüsselmerkmale",
+        "platforms": {
+          "discord": {
+            "category": "Gemeinschaft",
+            "description": "Community -Unterstützung durch Discord -Server und -kanäle",
+            "features": {
+              "bot": "Bot -Funktionen",
+              "moderation": "Mäßigung der Gemeinschaft",
+              "server": "Serverintegration",
+              "voice": "Sprachkanäle"
+            },
+            "name": "Zwietracht",
+            "setupTime": "10 Minuten"
+          },
+          "email": {
+            "category": "E-Mail",
+            "description": "Verbinden Sie sich mit Google Mail, Outlook und anderen E -Mail -Anbietern",
+            "features": {
+              "attachments": "Anhangsbehandlung",
+              "routing": "E -Mail -Routing",
+              "templates": "Vorlagenantworten",
+              "threading": "Fäden"
+            },
+            "name": "E -Mail -Plattformen",
+            "setupTime": "7 Minuten"
+          },
+          "googlechat": {
+            "category": "Team -Chat",
+            "description": "Streamline -Teamkommunikation im Google Workspace -Ökosystem.",
+            "features": {
+              "bots": "Bot SEACHAT -Integrationen",
+              "files": "Dateifreigabe",
+              "meetings": "Integration treffen",
+              "spaces": "Räume für die Zusammenarbeit"
+            },
+            "name": "Google Chat",
+            "setupTime": "8 Minuten"
+          },
+          "kakaotalk": {
+            "category": "Nachrichten",
+            "description": "Verbinden Sie sich mit Nutzern in Südkorea und darüber hinaus mit Kakaotalk.",
+            "features": {
+              "channels": "Plus Freundskanäle",
+              "commerce": "Kakao Commerce Integration",
+              "messages": "Reiche Nachrichten",
+              "payments": "Kakao Pay Integration"
+            },
+            "name": "Kakaotalk",
+            "setupTime": "12 Minuten"
+          },
+          "slack": {
+            "category": "Team -Chat",
+            "description": "Integrieren Sie sich in Slack für Teamzusammenarbeit und interne Benachrichtigungen",
+            "features": {
+              "channels": "Kanalbenachrichtigungen",
+              "commands": "Bot -Befehle",
+              "files": "Dateifreigabe",
+              "messages": "Direktnachrichten"
+            },
+            "name": "Locker",
+            "setupTime": "5 Minuten"
+          },
+          "teams": {
+            "category": "Unternehmen",
+            "description": "Verbinden Sie sich mit Microsoft -Teams für die Unternehmenskommunikation",
+            "features": {
+              "apps": "App -Integration",
+              "calls": "Videoanrufe",
+              "channels": "Teamkanäle",
+              "files": "Dateizusammenarbeit"
+            },
+            "name": "Microsoft Teams",
+            "setupTime": "8 Minuten"
+          },
+          "telegram": {
+            "category": "Nachrichten",
+            "description": "Integration von Telegram -Bot -Integration für Instant Messaging Support",
+            "features": {
+              "api": "Bot Feuer",
+              "channels": "Kanalübertragung",
+              "files": "Dateitransfers",
+              "groups": "Gruppenchats"
+            },
+            "name": "Telegramm",
+            "setupTime": "15 Minuten"
+          },
+          "whatsapp": {
+            "category": "Nachrichten",
+            "features": {
+              "automation": "Automatisierte Antworten",
+              "businessApi": "Business API",
+              "messaging": "Reiche Nachrichten",
+              "templates": "Nachrichtenvorlagen"
+            },
+            "name": "WhatsApp",
+            "setupTime": "10 Minuten",
+            "description": "Machen Sie sich direkt mit Kunden in der weltweit beliebtesten Messaging -App ein."
+          },
+          "zalo": {
+            "category": "Nachrichten",
+            "description": "Verbinden Sie sich mit Kunden in Vietnam und Südostasien über Zalo.",
+            "features": {
+              "messaging": "Reiche Nachrichten",
+              "miniApp": "Mini -Apps",
+              "officialAccount": "Offizielle Konten",
+              "payments": "Zalo Pay Integration"
+            },
+            "name": "Zalo",
+            "setupTime": "10 Minuten"
+          }
+        },
+        "platformsSubtitle": "Verbinden Sie sich mit den Kommunikationstools, die Ihr Team bereits für die nahtlose Workflow -Integration verwendet.",
+        "platformsTitle": "Beliebte Kommunikationsplattformen",
+        "subtitle": "Integrieren Sie sich in beliebte Kommunikationsplattformen wie Slack, Teams, Discord und mehr, um Ihren Support -Workflow und Ihre Teamzusammenarbeit zu optimieren.",
+        "title": "Kommunikationsinstrumente",
+        "setup": "Einrichtungszeit"
+      },
+      "ecommerce": {
+        "benefits": {
+          "cart": {
+            "description": "Reduzieren Sie die Aufgabe des Karrens mit proaktiver Unterstützung",
+            "title": "Wagenwiederherstellung"
+          },
+          "orders": {
+            "description": "Behandeln Sie Anfragen, Verfolgung und Updates automatisch bestellen",
+            "title": "Auftragsmanagement"
+          },
+          "payment": {
+            "description": "Unterstützung bei Zahlungsfragen und Rechnungsfragen",
+            "title": "Zahlungsunterstützung"
+          },
+          "sales": {
+            "description": "Umwandeln Support -Gespräche in zusätzliche Verkäufe",
+            "title": "Umsatzsteigerung"
+          }
+        },
+        "benefitsSubtitle": "Verwandeln Sie Ihren Kundensupport in ein Verkaufsantrieb, bei der Bindung, die bei der Bindung steigt.",
+        "benefitsTitle": "E-Commerce-Unterstützung Vorteile",
+        "connectPlatform": "Verbinden",
+        "cta": {
+          "button1": "Verbinden Sie jetzt Ihr Geschäft",
+          "button2": "Planen Sie die E-Commerce-Demo"
+        },
+        "ctaSubtitle": "Verbinden Sie Ihren Online -Shop und bieten Sie außergewöhnliche Kundenbetreuung an, die Vertrieb und Loyalität vorantreibt.",
+        "ctaTitle": "Bereit, Ihren E-Commerce-Umsatz zu steigern?",
+        "customer": "Kunde",
+        "hero": {
+          "button1": "Verbinden Sie Ihren Geschäft",
+          "button2": "Planen Sie die E-Commerce-Demo"
+        },
+        "orderQuestion": "Wo ist meine Bestellung Nr. 12345?",
+        "orderResponse": "Ihre Bestellung Nr. 12345 wurde gestern versandt und befindet sich derzeit im Transit. Erwartete Lieferung: Morgen um 18 Uhr. Verfolgen Sie es hier: [Tracking -Link]",
+        "platforms": {
+          "bigcommerce": {
+            "description": "Bigcommerce -API -Integration für den Anbau von Online -Geschäften",
+            "features": {
+              "customers": "Kundenerkenntnisse",
+              "orders": "Auftragsmanagement",
+              "products": "Produktdaten",
+              "shipping": "Versandinfo"
+            },
+            "name": "BigCommerce",
+            "popularity": "Anbau",
+            "setupTime": "10 Minuten"
+          },
+          "etsy": {
+            "description": "Etsy Marketplace Integration für kreative Verkäufer",
+            "features": {
+              "listings": "Helfer auflisten",
+              "messages": "Kundennachrichten",
+              "orders": "Bestellunterstützung",
+              "shop": "Ladenmanagement"
+            },
+            "name": "Etsy",
+            "popularity": "Kreativ",
+            "setupTime": "12 Minuten"
+          },
+          "fourthwall": {
+            "description": "Plattform für Ersteller, um eine kostenlose Website zu erstellen, Produkte zu verkaufen und Mitgliedschaften zu verwalten",
+            "features": {
+              "community": "Community -Tools",
+              "donations": "Spenden",
+              "memberships": "Mitgliedschaften",
+              "merch": "Benutzerdefinierte Merch"
+            },
+            "name": "Viertes",
+            "popularity": "Schöpferwirtschaft",
+            "setupTime": "10 Minuten"
+          },
+          "godaddy": {
+            "description": "All-in-One-Lösung für Websites, Marketing und Online-Stores",
+            "features": {
+              "scheduling": "Terminplanung",
+              "security": "SSL -Sicherheit",
+              "social": "Social -Media -Tools",
+              "website": "Website Builder"
+            },
+            "name": "GoDaddy",
+            "popularity": "Umfassend",
+            "setupTime": "15 Minuten"
+          },
+          "hostinger": {
+            "description": "Webhosting-Anbieter mit einem integrierten Website-Builder und E-Commerce-Funktionen",
+            "features": {
+              "builder": "AI -Website Builder",
+              "hosting": "Zuverlässiger Hosting",
+              "ssl": "Kostenlose SSL",
+              "support": "24/7 Unterstützung"
+            },
+            "name": "Hostinger",
+            "popularity": "Budgetfreundlich",
+            "setupTime": "10 Minuten"
+          },
+          "magento": {
+            "description": "Enterprise Magento-Integration für groß angelegte E-Commerce",
+            "features": {
+              "catalog": "Katalogsynchronisation",
+              "multistore": "Mehrfach-Store-Support",
+              "orders": "Fortgeschrittene Bestellungen",
+              "segments": "Kundensegmente"
+            },
+            "name": "Magento",
+            "popularity": "Unternehmen",
+            "setupTime": "15 Minuten"
+          },
+          "opencart": {
+            "description": "Kostenlose Open-Source-E-Commerce-Plattform für Online-Shops",
+            "features": {
+              "dashboard": "Admin -Dashboard",
+              "extensions": "Reiche Erweiterungen",
+              "multi_store": "Multi-Store-Funktionalität",
+              "themes": "Thema"
+            },
+            "name": "OpenCart",
+            "popularity": "Flexibel",
+            "setupTime": "25 Minuten"
+          },
+          "prestashop": {
+            "description": "Open-Source E-Commerce-Lösung für kleine bis große Unternehmen",
+            "features": {
+              "analytics": "Erweiterte Analytik",
+              "customizable": "Hoch anpassbar",
+              "modules": "Tausende von Modulen",
+              "multilingual": "Mehrsprachige Unterstützung"
+            },
+            "name": "Prestashop",
+            "popularity": "Open-Source",
+            "setupTime": "30 Minuten"
+          },
+          "sellfy": {
+            "description": "E-Commerce-Plattform für Schöpfer, um digitale Produkte, Abonnements und physische Waren zu verkaufen",
+            "features": {
+              "digital": "Verkäufe digitaler Produkte",
+              "marketing": "Integriertes Marketing",
+              "print_on_demand": "Print-on-Demand",
+              "subscriptions": "Abonnementdienste"
+            },
+            "name": "Zelle",
+            "popularity": "Schöpfer ausgerichtet",
+            "setupTime": "5 Minuten"
+          },
+          "shopify": {
+            "description": "Vervollständigen Sie die Shopify -Integration in das Bestellmanagement und die Kundensynchronisierung",
+            "features": {
+              "catalog": "Produktkatalog",
+              "customers": "Kundenprofile",
+              "inventory": "Inventarsynchronisation",
+              "orders": "Bestellverfolgung"
+            },
+            "name": "Shopify",
+            "popularity": "Am beliebtesten",
+            "setupTime": "5 Minuten"
+          },
+          "square": {
+            "description": "Point-of-Sale- und E-Commerce-Lösungen für Unternehmen aller Größen",
+            "features": {
+              "invoicing": "Fakturierung",
+              "loyalty": "Treueprogramme",
+              "pos": "Integriertes pos",
+              "reporting": "Verkaufsberichterstattung"
+            },
+            "name": "Quadrat",
+            "popularity": "Einzelhandel",
+            "setupTime": "5 Minuten"
+          },
+          "squarespace": {
+            "description": "Website Builder, bekannt für seine schönen Designvorlagen und E-Commerce-Funktionen",
+            "features": {
+              "blogging": "Blogging -Tools",
+              "commerce": "Vollständige Handelsmerkmale",
+              "design": "Preisgekröntes Design",
+              "portfolio": "Portfoliooptionen"
+            },
+            "name": "Squarespace",
+            "popularity": "Design-Focused",
+            "setupTime": "20 minutes"
+          },
+          "weebly": {
+            "description": "Simple drag-and-drop website builder with e-commerce features",
+            "features": {
+              "marketing": "Marketing tools",
+              "payments": "Integrated payments",
+              "seo": "SEO optimization",
+              "storefront": "Customizable storefront"
+            },
+            "name": "Weebly",
+            "popularity": "User-Friendly",
+            "setupTime": "10 minutes"
+          },
+          "wix": {
+            "description": "Cloud-based web development platform for creating HTML5 websites and mobile sites",
+            "features": {
+              "analytics": "Site analytics",
+              "apps": "App market",
+              "mobile": "Mobile optimized",
+              "templates": "Designer templates"
+            },
+            "name": "Wix",
+            "popularity": "Versatile",
+            "setupTime": "10 minutes"
+          },
+          "woocommerce": {
+            "description": "WordPress WooCommerce plugin for seamless store integration",
+            "features": {
+              "customers": "Customer history",
+              "orders": "Order status",
+              "payments": "Payment tracking",
+              "products": "Product support"
+            },
+            "name": "WooCommerce",
+            "popularity": "WordPress",
+            "setupTime": "8 minutes"
+          }
+        },
+        "platformsSubtitle": "Integrate with all major e-commerce platforms and marketplaces for unified customer support.",
+        "platformsTitle": "Supported E-commerce Platforms",
+        "recommendationQuestion": "Great! Can you recommend similar products?",
+        "recommendationResponse": "Based on your purchase, you might like these items: [Product A], [Product B]. Would you like a 10% discount on your next order?",
+        "scenarioTitle": "Customer Support Scenario",
+        "seachatAI": "SeaChat AI",
+        "subtitle": "Connect SeaChat with your online store to provide exceptional customer support, increase sales, and reduce cart abandonment.",
+        "supportSubtitle": "Everything you need to provide exceptional customer support for your online store, from order tracking to product recommendations.",
+        "supportTitle": "Complete E-commerce Support Suite",
+        "title": "E-commerce Seachat integrations",
+        "setup": "Setup time",
+        "features": [
+          {
+            "title": "Real-Time Order Tracking",
+            "description": "Automatically sync order status and provide instant tracking information to customers",
+            "icon": "package"
+          },
+          {
+            "title": "Inventory Management",
+            "description": "Keep customers informed about product availability and restock notifications",
+            "icon": "warehouse"
+          },
+          {
+            "title": "Smart Product Recommendations",
+            "description": "AI-powered product suggestions based on customer purchase history and preferences",
+            "icon": "target"
+          },
+          {
+            "title": "Cart Abandonment Recovery",
+            "description": "Proactively reach out to customers who abandoned their carts with personalized messages",
+            "icon": "shopping-cart"
+          },
+          {
+            "title": "Payment Issue Resolution",
+            "description": "Handle payment failures and billing inquiries with instant access to transaction data",
+            "icon": "credit-card"
+          },
+          {
+            "title": "Customer Purchase History",
+            "description": "Access complete customer purchase history for better support and personalized service",
+            "icon": "history"
+          }
+        ]
+      },
+      "marketing": {
+        "automationTitle": "Marketing Automation Flow",
+        "benefits": {
+          "campaigns": {
+            "description": "Better campaign results with customer support insights",
+            "title": "Campaign Performance"
+          },
+          "leads": {
+            "description": "Convert support conversations into marketing qualified leads",
+            "title": "Lead Generation"
+          },
+          "retention": {
+            "description": "Improve retention with personalized marketing campaigns",
+            "title": "Customer Retention"
+          },
+          "revenue": {
+            "description": "Increase revenue through integrated marketing efforts",
+            "title": "Revenue Growth"
+          }
+        },
+        "benefitsSubtitle": "Transform customer support into a powerful marketing and growth engine.",
+        "benefitsTitle": "Marketing Integration Benefits",
+        "connectButton": "Connect Marketing Tools",
+        "connectPlatform": "Connect",
+        "ctaConnectButton": "Connect Marketing Tools",
+        "ctaGuideButton": "View Setup Guide",
+        "ctaSubtitle": "Connect your marketing platforms and turn every customer support conversation into a growth opportunity.",
+        "ctaTitle": "Ready to Supercharge Your Marketing?",
+        "demoButton": "Schedule Marketing Demo",
+        "flow": {
+          "conversation": {
+            "description": "Customer asks about premium features",
+            "title": "Support Conversation"
+          },
+          "conversion": {
+            "description": "Customer upgrades to premium plan",
+            "title": "Conversion"
+          },
+          "tagging": {
+            "description": "Customer tagged as \"interested in upgrade",
+            "title": "Automatic Tagging"
+          },
+          "trigger": {
+            "description": "Automated email sequence starts",
+            "title": "Campaign Trigger"
+          }
+        },
+        "integrationSubtitle": "Bridge the gap between customer support and marketing with intelligent automation that turns every conversation into a growth opportunity.",
+        "integrationTitle": "Complete Marketing Integration",
+        "features": [
+          {
+            "title": "Lead Qualification & Scoring",
+            "description": "Automatically qualify and score leads from support conversations based on engagement and intent",
+            "icon": "target"
+          },
+          {
+            "title": "Campaign Trigger Automation",
+            "description": "Trigger targeted marketing campaigns based on specific customer interactions and behavior patterns",
+            "icon": "zap"
+          },
+          {
+            "title": "Customer Journey Mapping",
+            "description": "Track and optimize the complete customer journey from first contact to conversion and retention",
+            "icon": "map"
+          },
+          {
+            "title": "Personalized Content Delivery",
+            "description": "Deliver personalized marketing content and offers based on support conversation history and preferences",
+            "icon": "heart"
+          },
+          {
+            "title": "Multi-Channel Campaign Sync",
+            "description": "Synchronize marketing campaigns across email, SMS, WhatsApp, and social media for consistent messaging",
+            "icon": "sync"
+          },
+          {
+            "title": "Performance Analytics & ROI",
+            "description": "Measure campaign performance and ROI with detailed analytics on conversion rates and customer lifetime value",
+            "icon": "chart"
+          }
+        ],
+        "platforms": {
+          "activecampaign": {
+            "category": "Automation",
+            "description": "Customer experience automation platform",
+            "features": {
+              "automation": "Marketing automation",
+              "crm": "CRM integration",
+              "learning": "Machine learning",
+              "sending": "Predictive sending"
+            },
+            "name": "ActiveCampaign",
+            "setupTime": "18 minutes"
+          },
+          "constantcontact": {
+            "category": "Email Marketing",
+            "description": "Email marketing and automation for small businesses",
+            "features": {
+              "analytics": "Analytics dashboard",
+              "scheduling": "Campaign scheduling",
+              "social": "Social media tools",
+              "templates": "Email templates"
+            },
+            "name": "Constant Contact",
+            "setupTime": "7 minutes"
+          },
+          "convertkit": {
+            "category": "Creator Economy",
+            "description": "Creator-focused email marketing with automation sequences",
+            "features": {
+              "integrations": "Integrations",
+              "landing": "Landing pages",
+              "sequences": "Email sequences",
+              "tagging": "Subscriber tagging"
+            },
+            "name": "ConvertKit",
+            "setupTime": "9 minutes"
+          },
+          "engagebay": {
+            "category": "All-in-One",
+            "description": "All-in-one marketing, sales, and support CRM",
+            "features": {
+              "automation": "Marketing automation",
+              "crm": "CRM integration",
+              "email": "Email marketing",
+              "forms": "Lead forms & popups"
+            },
+            "name": "EngageBay",
+            "setupTime": "11 minutes"
+          },
+          "hubspot": {
+            "category": "Marketing Hub",
+            "description": "Inbound marketing platform with lead nurturing capabilities",
+            "features": {
+              "automation": "Marketing automation",
+              "landing": "Landing pages",
+              "scoring": "Lead scoring",
+              "social": "Social media"
+            },
+            "name": "HubSpot Marketing",
+            "setupTime": "15 minutes"
+          },
+          "klaviyo": {
+            "category": "E-commerce",
+            "description": "E-commerce focused email and SMS marketing platform",
+            "features": {
+              "recommendations": "Product recommendations",
+              "revenue": "Revenue tracking",
+              "sms": "SMS campaigns",
+              "triggers": "Behavioral triggers"
+            },
+            "name": "Klaviyo",
+            "setupTime": "12 minutes"
+          },
+          "mailchimp": {
+            "category": "Email Marketing",
+            "description": "Comprehensive email marketing platform with audience insights",
+            "features": {
+              "builder": "Campaign builder",
+              "reporting": "Reporting",
+              "segmentation": "Audience segmentation",
+              "testing": "A/B testing"
+            },
+            "name": "Mailchimp",
+            "setupTime": "10 minutes"
+          },
+          "mailerlite": {
+            "category": "Email Marketing",
+            "description": "Email marketing automation with customer support integration",
+            "features": {
+              "analytics": "Analytics",
+              "automation": "Automation workflows",
+              "campaigns": "Email campaigns",
+              "subscribers": "Subscriber management"
+            },
+            "name": "MailerLite",
+            "setupTime": "8 minutes"
+          },
+          "omnisend": {
+            "category": "E-commerce",
+            "description": "Omnichannel marketing automation for e-commerce",
+            "features": {
+              "automation": "Automation workflows",
+              "email": "Email & SMS campaigns",
+              "reports": "Advanced reporting",
+              "segmentation": "Audience segmentation"
+            },
+            "name": "Omnisend",
+            "setupTime": "10 minutes"
+          }
+        },
+        "platformsSubtitle": "Integrate with leading marketing platforms to create seamless customer experiences.",
+        "platformsTitle": "Popular Marketing Platforms",
+        "subtitle": "Connect SeaChat with your marketing tools to turn customer support conversations into powerful marketing opportunities and personalized campaigns.",
+        "title": "Marketing Platforms",
+        "useCases": {
+          "nurturing": {
+            "description": "Automatically add support contacts to nurturing campaigns",
+            "example": "Customer asks about pricing → Added to product demo email sequence",
+            "title": "Lead Nurturing"
+          },
+          "onboarding": {
+            "description": "Seamless onboarding experience with marketing automation",
+            "example": "New customer support ticket → Welcome series with helpful resources",
+            "title": "Customer Onboarding"
+          },
+          "retention": {
+            "description": "Proactive retention based on support interaction patterns",
+            "example": "Multiple support tickets → Triggered customer success outreach",
+            "title": "Retention Campaigns"
+          },
+          "upselling": {
+            "description": "Identify upselling opportunities from support conversations",
+            "example": "Customer mentions growth plans → Triggered upgrade campaign",
+            "title": "Upselling Opportunities"
+          }
+        },
+        "useCasesSubtitle": "See how support conversations can trigger powerful marketing workflows.",
+        "useCasesTitle": "Marketing Automation Use Cases",
+        "workflowExample": "Example Workflow",
+        "setup": "Set up"
+      },
+      "social": {
+        "features": [
+          {
+            "title": "Instant Customer Responses",
+            "description": "Reply to social media inquiries in real-time across all platforms",
+            "icon": "message-circle"
+          },
+          {
+            "title": "Unified Social Inbox",
+            "description": "Manage all social media messages from one centralized dashboard",
+            "icon": "inbox"
+          },
+          {
+            "title": "Smart Auto-Routing",
+            "description": "Automatically route social messages to the right team members",
+            "icon": "route"
+          },
+          {
+            "title": "Brand Reputation Management",
+            "description": "Monitor and respond to brand mentions and comments quickly",
+            "icon": "shield"
+          },
+          {
+            "title": "Multi-Language Support",
+            "description": "Communicate with global customers in their preferred language",
+            "icon": "globe"
+          },
+          {
+            "title": "Social Analytics",
+            "description": "Track response times, engagement rates, and customer satisfaction",
+            "icon": "chart"
+          }
+        ],
+        "benefits": {
+          "meet": {
+            "description": "Provide support on the platforms your customers already use daily",
+            "title": "Meet Customers Where They Are"
+          },
+          "reputation": {
+            "description": "Maintain positive brand image with quick, helpful responses",
+            "title": "Brand Reputation"
+          },
+          "response": {
+            "description": "Respond to social media inquiries in real-time",
+            "title": "Faster Response Times"
+          },
+          "unified": {
+            "description": "Handle all social platforms from one dashboard",
+            "title": "Unified Management"
+          }
+        },
+        "benefitsSubtitle": "Transform your social media presence into a powerful customer support channel.",
+        "benefitsTitle": "Social Media Support Benefits",
+        "brandMentions": "Brand mentions requiring response",
+        "connectButton": "Connect Social Platforms",
+        "connectPlatform": "Connect",
+        "ctaConnectButton": "Connect Social Platforms",
+        "ctaGuideButton": "Schedule E-commerce Demo",
+        "ctaSubtitle": "Connect all your social media platforms and provide exceptional customer support where your customers spend their time.",
+        "ctaTitle": "Ready to Unify Your Social Media Support?",
+        "dashboardTitle": "Social Media Dashboard",
+        "demoButton": "Schedule Social Demo",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "managementSubtitle": "Everything you need to manage customer interactions across all social media platforms from one unified dashboard.",
+        "managementTitle": "Complete Social Media Management",
+        "mentions": "3 mentions",
+        "newMessages": "12 new messages",
+        "pageMessages": "5 page messages",
+        "platforms": {
+          "facebook": {
+            "description": "Provide customer support through Facebook's messaging platform",
+            "features": {
+              "cards": "Rich cards",
+              "menu": "Persistent menu",
+              "page": "Page integration",
+              "responses": "Automated responses"
+            },
+            "name": "Facebook Messenger",
+            "setupTime": "12 minutes",
+            "users": "1.3B+ users"
+          },
+          "instagram": {
+            "description": "Manage Instagram DMs and story replies in one unified inbox",
+            "features": {
+              "dm": "Direct messages",
+              "media": "Media sharing",
+              "responses": "Quick responses",
+              "stories": "Story replies"
+            },
+            "name": "Instagram",
+            "setupTime": "8 minutes",
+            "users": "1.4B+ users"
+          },
+          "line": {
+            "description": "Provide seamless customer support and engagement on LINE",
+            "features": {
+              "broadcast": "Broadcast messages",
+              "messaging": "Rich messaging",
+              "payments": "LINE Pay integration",
+              "stickers": "Sticker support"
+            },
+            "name": "LINE",
+            "setupTime": "10 minutes",
+            "users": "180M+ users"
+          },
+          "tiktok": {
+            "description": "Engage with your audience and manage customer interactions on TikTok",
+            "features": {
+              "ads": "Ad campaign support",
+              "analytics": "Audience analytics",
+              "comments": "Comment management",
+              "dm": "Direct messages"
+            },
+            "name": "TikTok",
+            "setupTime": "15 minutes",
+            "users": "1B+ users"
+          },
+          "twitter": {
+            "description": "Handle customer inquiries and mentions on Twitter/X platform",
+            "features": {
+              "dm": "Direct messages",
+              "mentions": "Mention tracking",
+              "responses": "Tweet responses",
+              "threads": "Thread management"
+            },
+            "name": "Twitter/X",
+            "setupTime": "15 minutes",
+            "users": "450M+ users"
+          },
+          "whatsapp": {
+            "description": "Connect with customers on the world's most popular messaging platform",
+            "features": {
+              "api": "Business API",
+              "groups": "Groups",
+              "media": "Rich media",
+              "templates": "Templates"
+            },
+            "name": "WhatsApp Business",
+            "setupTime": "10 minutes",
+            "users": "2B+ users"
+          }
+        },
+        "platformsSubtitle": "Integrate with every social platform your customers use for comprehensive social media support.",
+        "platformsTitle": "All Major Social Platforms",
+        "productComments": "Comments on latest product showcase",
+        "productInquiries": "Customer inquiries about product availability",
+        "setup": "Setup time",
+        "storyReplies": "8 story replies",
+        "subtitle": "Connect all your social media platforms and provide seamless customer support across WhatsApp, Instagram, Facebook, Twitter, and more.",
+        "supportRequests": "Support requests and general inquiries",
+        "title": "Social Media Integrations",
+        "twitter": "Twitter/X",
+        "whatsapp": "WhatsApp Business",
+        "worldwide": "worldwide"
+      },
+      "websites": {
+        "code": "Code",
+        "codeButton": "Get Widget Code",
+        "copyCode": "Copy Code",
+        "ctaCodeButton": "Get Widget Code Now",
+        "ctaDocsButton": "View Integration Docs",
+        "ctaSubtitle": "Get your custom widget code and start providing exceptional customer support in minutes.",
+        "ctaTitle": "Ready to Add SeaChat to Your Website?",
+        "customization": {
+          "colors": {
+            "description": "Match your brand colors, fonts, and styling",
+            "features": {
+              "css": "CSS overrides",
+              "fonts": "Font customization",
+              "logo": "Brand logo integration",
+              "schemes": "Custom color schemes"
+            },
+            "title": "Colors & Branding"
+          },
+          "content": {
+            "description": "Customize all text and messaging",
+            "features": {
+              "greetings": "Custom greetings",
+              "multilanguage": "Multi-language support",
+              "offline": "Offline messages",
+              "welcome": "Welcome messages"
+            },
+            "title": "Content & Messages"
+          },
+          "position": {
+            "description": "Control where and how the widget appears",
+            "features": {
+              "auto": "Auto-open settings",
+              "corner": "Corner positioning",
+              "mobile": "Mobile responsiveness",
+              "trigger": "Trigger conditions"
+            },
+            "title": "Position & Behavior"
+          }
+        },
+        "customizationSubtitle": "Make SeaChat match your brand perfectly with extensive customization options.",
+        "customizationTitle": "Customization Options",
+        "demoButton": "Schedule Demo",
+        "getPlatformCode": "Get",
+        "installation": {
+          "step1": {
+            "description": "Copy your unique SeaChat widget code from the dashboard",
+            "title": "Get Your Widget Code"
+          },
+          "step2": {
+            "description": "Paste the code before the closing </body> tag",
+            "title": "Add to Your Website"
+          },
+          "step3": {
+            "description": "Optional: Customize colors, position, and behavior",
+            "title": "Customize Appearance"
+          }
+        },
+        "installationSubtitle": "Follow these simple steps to add SeaChat to any website in minutes.",
+        "installationTitle": "Universal Installation Guide",
+        "platforms": {
+          "generic": {
+            "description": "Universal widget that works on any HTML website",
+            "difficulty": "Easy",
+            "features": {
+              "compatibility": "Universal compatibility",
+              "installation": "Easy installation",
+              "responsive": "Responsive design",
+              "styling": "Custom styling"
+            },
+            "name": "Generic Website",
+            "setupTime": "2 minutes"
+          },
+          "shopify": {
+            "description": "E-commerce optimized with order tracking integration",
+            "difficulty": "Easy",
+            "features": {
+              "cart": "Cart abandonment",
+              "customers": "Customer data sync",
+              "orders": "Order integration",
+              "products": "Product recommendations"
+            },
+            "name": "Shopify",
+            "setupTime": "3 minutes"
+          },
+          "squarespace": {
+            "description": "Seamless integration with Squarespace design system",
+            "difficulty": "Medium",
+            "features": {
+              "code": "Code injection",
+              "design": "Design system match",
+              "style": "Style customization",
+              "templates": "Template compatibility"
+            },
+            "name": "Squarespace",
+            "setupTime": "3 minutes"
+          },
+          "webflow": {
+            "description": "Native integration for Webflow CMS and e-commerce",
+            "difficulty": "Easy",
+            "features": {
+              "cms": "CMS integration",
+              "custom": "Custom code injection",
+              "design": "Designer-friendly",
+              "ecommerce": "E-commerce support"
+            },
+            "name": "Webflow",
+            "setupTime": "2 minutes"
+          },
+          "wix": {
+            "description": "Drag-and-drop integration for Wix websites",
+            "difficulty": "Easy",
+            "features": {
+              "app": "Wix app store",
+              "editor": "Visual editor",
+              "mobile": "Mobile optimized",
+              "positioning": "Custom positioning"
+            },
+            "name": "Wix",
+            "setupTime": "2 minutes"
+          },
+          "wordpress": {
+            "description": "Native WordPress plugin with advanced customization",
+            "difficulty": "Easy",
+            "features": {
+              "dashboard": "Admin dashboard",
+              "plugin": "WordPress plugin",
+              "shortcode": "Shortcode support",
+              "theme": "Theme integration"
+            },
+            "name": "WordPress",
+            "setupTime": "1 minute"
+          }
+        },
+        "platformsSubtitle": "Choose your platform for optimized integration and setup instructions.",
+        "platformsTitle": "Supported Platforms",
+        "subtitle": "Deploy SeaChat on any website platform in minutes. Universal compatibility with custom styling and responsive design.",
+        "title": "Website Integrations",
+        "viewDocs": "View Documentation",
+        "setup": "Setup time"
+      }
+    },
+    "heroAnimations": {
+      "agentToAI": {
+        "phases": {
+          "learning": "🧑‍💼 Learning from Human",
+          "handoff": "🤝 Smooth Handoff",
+          "autonomous": "🤖 AI Autonomous"
+        },
+        "humanMessages": {
+          "0": "Thank you for contacting support! How can I help?",
+          "1": "I understand your concern. Let me check that for you.",
+          "2": "Based on our policy, here's what I recommend...",
+          "3": "Is there anything else I can help you with today?"
+        },
+        "aiMessages": {
+          "0": "I've learned to handle this type of inquiry automatically.",
+          "1": "Based on previous conversations, I can help with this.",
+          "2": "I understand your question and can provide instant assistance.",
+          "3": "I'm ready to handle similar requests independently."
+        },
+        "learned": "Learned",
+        "title": "Human-to-AI Handoff",
+        "subtitle": "Start with humans, scale with intelligent AI"
+      },
+      "conversationLearning": {
+        "documentTypes": {
+          "0": "Product Manual.pdf",
+          "1": "FAQ Database.csv",
+          "2": "Support Guide.doc",
+          "3": "Website Content"
+        },
+        "knowledgeConcepts": {
+          "0": "Product Features",
+          "1": "Pricing Plans",
+          "2": "Support Policies",
+          "3": "Technical Specs",
+          "4": "User Guidelines",
+          "5": "Troubleshooting",
+          "6": "Integration Steps",
+          "7": "Best Practices"
+        },
+        "conversationExamples": {
+          "0": {
+            "question": "How do I reset my password?",
+            "improvement": "Learned step-by-step process"
+          },
+          "1": {
+            "question": "What are your pricing plans?",
+            "improvement": "Added detailed comparisons"
+          },
+          "2": {
+            "question": "Integration with Slack?",
+            "improvement": "Improved technical guidance"
+          },
+          "3": {
+            "question": "Billing question",
+            "improvement": "Enhanced policy understanding"
+          }
+        },
+        "phaseLabel": "Phase",
+        "accuracy": "Accuracy",
+        "title": "AI Learning Journey",
+        "subtitle": "Watch AI get smarter from your content"
+      },
+      "interactiveChannels": {
+        "whatsapp": {
+          "messages": {
+            "0": "Hi! Need help with my order 📦",
+            "1": "What's your return policy?",
+            "2": "Thanks for the quick response! 😊"
+          }
+        },
+        "instagram": {
+          "messages": {
+            "0": "Love your new product! 💕",
+            "1": "Is this available in blue?",
+            "2": "Can you ship to Europe?"
+          }
+        },
+        "website": {
+          "messages": {
+            "0": "I need technical support",
+            "1": "How do I reset my password?",
+            "2": "The checkout isn't working"
+          }
+        },
+        "email": {
+          "messages": {
+            "0": "Following up on my previous email",
+            "1": "Request for bulk pricing",
+            "2": "Thank you for your assistance"
+          }
+        },
+        "agentResponse": "I'd be happy to help you with that! Let me check that information for you.",
+        "channelNames": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "website": "Website",
+          "email": "Email"
+        },
+        "supportSuffix": "Support",
+        "online": "Online",
+        "typePlaceholder": "Type your message...",
+        "title": "Interactive Channel Selector",
+        "subtitle": "Click channels to see different conversations"
+      },
+      "multiChannelFlow": {
+        "channels": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "email": "Email",
+          "website": "Website"
+        },
+        "messageTemplates": {
+          "0": "Need help with order",
+          "1": "Product question",
+          "2": "Technical support",
+          "3": "Billing inquiry",
+          "4": "General question"
+        },
+        "title": "Multi-Channel Message Flow",
+        "subtitle": "Messages flowing between channels in real-time"
+      },
+      "phoneVoiceAI": {
+        "callerNames": {
+          "0": "John Smith",
+          "1": "Sarah Johnson",
+          "2": "Mike Chen",
+          "3": "Emma Davis",
+          "4": "David Wilson"
+        },
+        "conversationFlow": {
+          "0": {
+            "caller": "Hi, I need help with my order status",
+            "ai": "Hello! I'd be happy to help you check your order status. Could you please provide your order number?"
+          },
+          "1": {
+            "caller": "Yes, it's order number 12345",
+            "ai": "Thank you! Let me look that up for you. I can see your order was shipped yesterday and should arrive tomorrow."
+          },
+          "2": {
+            "caller": "Perfect! Can I change the delivery address?",
+            "ai": "I can help you with that. What would you like the new delivery address to be?"
+          }
+        },
+        "status": {
+          "seachatVoiceAI": "SeaChat Voice AI",
+          "connectedWith": "Connected with",
+          "listening": "Listening...",
+          "aiSpeaking": "AI Speaking...",
+          "processing": "Processing...",
+          "liveTranscript": "Live Transcript:"
+        },
+        "waiting": {
+          "ready": "Voice AI Ready",
+          "subtitle": "Waiting for incoming calls..."
+        },
+        "stats": {
+          "callsHandled": "Calls Handled",
+          "available": "Available"
+        },
+        "incomingCall": "📞 Incoming Call",
+        "features": {
+          "naturalSpeech": {
+            "title": "Natural Speech",
+            "description": "Human-like conversation"
+          },
+          "smartRecognition": {
+            "title": "Smart Recognition",
+            "description": "Accurate speech-to-text"
+          },
+          "contextAware": {
+            "title": "Context Aware",
+            "description": "Understands intent"
+          }
+        }
+      },
+      "realtimeDashboard": {
+        "metrics": {
+          "conversations": "Active Chats",
+          "response": "Avg Response",
+          "agents": "Online Agents",
+          "satisfaction": "Satisfaction"
+        },
+        "title": "Live Dashboard",
+        "status": {
+          "live": "Live"
+        },
+        "timeLabels": {
+          "12hAgo": "12h ago",
+          "6hAgo": "6h ago",
+          "now": "Now"
+        }
+      }
+    }
+  }
+}

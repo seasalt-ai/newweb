@@ -1,0 +1,1905 @@
+{
+  "seavoice": {
+    "pages": {
+      "solutions": {
+        "inbound": {
+          "ivrReplacement": {
+            "hero": {
+              "title": "Penggantian IVR dengan Bahasa Alami",
+              "subtitle": "Hilangkan pohon telepon dan navigasi menu yang membuat frustrasi. Biarkan pelanggan berbicara secara alami untuk menjelaskan kebutuhan mereka dan terhubung ke tempat yang tepat secara instan.",
+              "cta": "Ganti IVR Anda Hari Ini"
+            },
+            "features": {
+              "title": "Fitur Antarmuka Suara Modern",
+              "subtitle": "Ubah sistem telepon usang dengan percakapan cerdas",
+              "naturalLanguage": {
+                "title": "Pemahaman Bahasa Alami",
+                "description": "Ganti opsi menu yang membingungkan dengan percakapan alami yang memahami apa yang sebenarnya diinginkan pelanggan.",
+                "benefit1": "Antarmuka percakapan",
+                "benefit2": "Pengenalan niat",
+                "benefit3": "Kesadaran konteks"
+              },
+              "instantResolution": {
+                "title": "Resolusi Instan",
+                "description": "Selesaikan pertanyaan pelanggan segera tanpa menavigasi melalui beberapa tingkat menu.",
+                "benefit1": "Waktu tunggu nol",
+                "benefit2": "Jawaban langsung",
+                "benefit3": "Bantuan segera"
+              },
+              "improvedExperience": {
+                "title": "Pengalaman yang Ditingkatkan",
+                "description": "Ubah pohon telepon yang membuat frustrasi menjadi interaksi pelanggan yang menyenangkan dan efisien.",
+                "benefit1": "Kepuasan lebih tinggi",
+                "benefit2": "Pengurangan pengabaian",
+                "benefit3": "Aksesibilitas lebih baik"
+              }
+            },
+            "comparison": {
+              "title": "IVR Tradisional vs. Bahasa Alami",
+              "subtitle": "Lihat perbedaan dramatis dalam pengalaman pelanggan",
+              "customerExperience": {
+                "aspect": "Pengalaman Pelanggan",
+                "traditional": "Tekan 1 untuk penjualan, 2 untuk dukungan...",
+                "modern": "Saya butuh bantuan dengan pesanan saya\" - Terhubung secara instan\"",
+                "improvement": "Peningkatan kepuasan 85%"
+              },
+              "timeToResolution": {
+                "aspect": "Waktu untuk Resolusi",
+                "traditional": "3-5 menit menavigasi menu",
+                "modern": "30 detik untuk mencapai departemen yang tepat",
+                "improvement": "Pengurangan waktu 80%"
+              },
+              "callAbandonment": {
+                "aspect": "Pengabaian Panggilan",
+                "traditional": "25% mengabaikan selama navigasi menu",
+                "modern": "Tingkat pengabaian 5%",
+                "improvement": "Pengurangan 80%"
+              },
+              "accessibility": {
+                "aspect": "Aksesibilitas",
+                "traditional": "Sulit untuk pengguna lansia/cacat",
+                "modern": "Ucapan alami untuk semua pengguna",
+                "improvement": "Aksesibilitas 100%"
+              },
+              "traditionalIvr": "IVR Tradisional",
+              "naturalLanguage": "Bahasa Alami"
+            },
+            "benefits": {
+              "title": "Peningkatan Terukur",
+              "subtitle": "Hasil nyata dari penggantian sistem IVR tradisional",
+              "satisfaction": {
+                "metric": "85%",
+                "description": "Peningkatan kepuasan pelanggan"
+              },
+              "abandonment": {
+                "metric": "80%",
+                "description": "Pengurangan pengabaian panggilan"
+              },
+              "resolution": {
+                "metric": "70%",
+                "description": "Resolusi panggilan lebih cepat"
+              },
+              "misdirected": {
+                "metric": "90%",
+                "description": "Pengurangan panggilan yang salah arah"
+              }
+            },
+            "cta": {
+              "title": "Siap Memodernisasi Sistem Telepon Anda?",
+              "subtitle": "Ganti pohon telepon yang membuat frustrasi dengan percakapan alami yang disukai pelanggan",
+              "startTrial": "Mulai Uji Coba Gratis",
+              "seeDemo": "Lihat Demo"
+            },
+            "title": "Penggantian IVR",
+            "description": "Ganti menu telepon usang dengan pemahaman bahasa alami.",
+            "benefit1": "Percakapan alami",
+            "benefit2": "UX lebih baik",
+            "benefit3": "Kepuasan lebih tinggi"
+          },
+          "technicalSupport": {
+            "hero": {
+              "title": "Otomatisasi Dukungan Teknis",
+              "description": "Berikan dukungan teknis instan dengan AI yang dapat mendiagnosis masalah, memandu pelanggan melalui solusi, dan mengalihkan masalah kompleks ke pakar manusia saat dibutuhkan.",
+              "primaryCta": "Otomatiskan Dukungan Teknis"
+            },
+            "features": {
+              "title": "Dukungan Teknis Cerdas",
+              "description": "AI canggih yang memahami masalah teknis dan memberikan solusi",
+              "automatedTroubleshooting": {
+                "title": "Pemecahan Masalah Otomatis",
+                "description": "Pandu pelanggan melalui solusi langkah demi langkah untuk masalah teknis umum.",
+                "benefits": {
+                  "0": "Resolusi swalayan",
+                  "1": "Diagnostik instan",
+                  "2": "Panduan interaktif"
+                }
+              },
+              "intelligentEscalation": {
+                "title": "Eskalasi Cerdas",
+                "description": "Secara otomatis mengalihkan masalah kompleks ke teknisi manusia dengan konteks penuh.",
+                "benefits": {
+                  "0": "Perutean cerdas",
+                  "1": "Pelestarian konteks",
+                  "2": "Serah terima mulus"
+                }
+              },
+              "multiPlatformSupport": {
+                "title": "Dukungan Multi-Platform",
+                "description": "Berikan bantuan teknis di berbagai perangkat, perangkat lunak, dan platform.",
+                "benefits": {
+                  "0": "Kompatibilitas universal",
+                  "1": "Keahlian lintas platform",
+                  "2": "Cakupan komprehensif"
+                }
+              }
+            },
+            "capabilities": {
+              "title": "Cakupan Dukungan Komprehensif",
+              "description": "Tangani berbagai masalah teknis di semua platform",
+              "hardwareIssues": {
+                "category": "Masalah Perangkat Keras",
+                "description": "Mendiagnosis dan menyelesaikan masalah terkait perangkat keras",
+                "examples": {
+                  "0": "Konektivitas perangkat",
+                  "1": "Masalah kinerja",
+                  "2": "Pengaturan perangkat keras"
+                }
+              },
+              "softwareTroubleshooting": {
+                "category": "Pemecahan Masalah Perangkat Lunak",
+                "description": "Bantu dengan instalasi dan konfigurasi perangkat lunak",
+                "examples": {
+                  "0": "Instalasi aplikasi",
+                  "1": "Konfigurasi pengaturan",
+                  "2": "Bantuan pembaruan"
+                }
+              },
+              "networkProblems": {
+                "category": "Masalah Jaringan",
+                "description": "Selesaikan masalah konektivitas internet dan jaringan",
+                "examples": {
+                  "0": "Pengaturan WiFi",
+                  "1": "Masalah koneksi",
+                  "2": "Optimalisasi kecepatan"
+                }
+              },
+              "accountSecurity": {
+                "category": "Akun & Keamanan",
+                "description": "Bantu dengan akses akun dan masalah keamanan",
+                "examples": {
+                  "0": "Reset kata sandi",
+                  "1": "Pemulihan akun",
+                  "2": "Pengaturan keamanan"
+                }
+              }
+            },
+            "process": {
+              "title": "Proses Pemecahan Masalah AI",
+              "description": "Pendekatan sistematis untuk mendiagnosis dan menyelesaikan masalah teknis",
+              "steps": {
+                "issueIdentification": {
+                  "title": "Identifikasi Masalah",
+                  "description": "AI mendengarkan deskripsi masalah dan mengajukan pertanyaan klarifikasi"
+                },
+                "diagnosticAnalysis": {
+                  "title": "Analisis Diagnostik",
+                  "description": "Sistem menganalisis gejala dan mengidentifikasi penyebab potensial"
+                },
+                "solutionGuidance": {
+                  "title": "Panduan Solusi",
+                  "description": "Memberikan instruksi langkah demi langkah untuk menyelesaikan masalah"
+                },
+                "verificationFollowup": {
+                  "title": "Verifikasi & Tindak Lanjut",
+                  "description": "Mengkonfirmasi resolusi dan menawarkan bantuan tambahan jika diperlukan"
+                }
+              }
+            },
+            "benefits": {
+              "title": "Hasil Efisiensi Dukungan",
+              "description": "Peningkatan terukur dalam operasi dukungan teknis"
+            },
+            "metrics": {
+              "resolution": {
+                "description": "Masalah diselesaikan tanpa agen manusia"
+              },
+              "reductionTime": {
+                "description": "Pengurangan waktu resolusi rata-rata"
+              },
+              "satisfaction": {
+                "description": "Kepuasan pelanggan dengan dukungan AI"
+              },
+              "availability": {
+                "description": "Ketersediaan dukungan teknis"
+              }
+            },
+            "cta": {
+              "title": "Siap Mengotomatiskan Dukungan Teknis?",
+              "description": "Berikan bantuan teknis instan dan cerdas yang menyelesaikan masalah lebih cepat",
+              "primaryButton": "Mulai Uji Coba Gratis",
+              "secondaryButton": "Lihat Demo"
+            },
+            "title": "Dukungan Teknis",
+            "description": "Otomatiskan pemecahan masalah dan pandu pengguna melalui masalah teknis.",
+            "benefit1": "Solusi swalayan",
+            "benefit2": "Resolusi lebih cepat",
+            "benefit3": "Penghematan biaya"
+          },
+          "orderTracking": {
+            "hero": {
+              "title": "Status & Pelacakan Pesanan",
+              "subtitle": "Biarkan pelanggan secara instan memeriksa status pesanan mereka, melacak pengiriman, dan mendapatkan pembaruan pengiriman melalui percakapan suara alami. Kurangi panggilan dukungan sambil meningkatkan kepuasan pelanggan.",
+              "cta": "Aktifkan Pelacakan Pesanan"
+            },
+            "features": {
+              "title": "Pelacakan Pesanan Komprehensif",
+              "subtitle": "Visibilitas lengkap ke status pesanan dan kemajuan pengiriman",
+              "realTimeStatus": {
+                "title": "Status Pesanan Real-Time",
+                "description": "Secara instan memberikan informasi terkini kepada pelanggan tentang pesanan dan pengiriman mereka.",
+                "benefits": {
+                  "liveTracking": "Pembaruan pelacakan langsung",
+                  "deliveryEstimates": "Estimasi pengiriman",
+                  "statusNotifications": "Notifikasi status"
+                }
+              },
+              "locationTracking": {
+                "title": "Pelacakan Lokasi",
+                "description": "Bagikan informasi lokasi yang tepat dan kemajuan pengiriman dengan pelanggan.",
+                "benefits": {
+                  "gpsTracking": "Pelacakan GPS",
+                  "routeOptimization": "Optimalisasi rute",
+                  "deliveryMapping": "Pemetaan pengiriman"
+                }
+              },
+              "proactiveUpdates": {
+                "title": "Pembaruan Proaktif",
+                "description": "Secara otomatis memberitahu pelanggan tentang penundaan, perubahan, atau konfirmasi pengiriman.",
+                "benefits": {
+                  "delayNotifications": "Notifikasi penundaan",
+                  "scheduleChanges": "Perubahan jadwal",
+                  "deliveryConfirmations": "Konfirmasi pengiriman"
+                }
+              }
+            },
+            "tracking": {
+              "title": "Perjalanan Pengiriman Lengkap",
+              "subtitle": "Lacak setiap tahap dari penempatan pesanan hingga pengiriman akhir",
+              "stages": {
+                "orderPlaced": {
+                  "title": "Pesanan Ditempatkan",
+                  "description": "Konfirmasi penerimaan pesanan dan awal pemrosesan",
+                  "info": {
+                    "orderNumber": "Nomor pesanan",
+                    "itemsOrdered": "Item yang dipesan",
+                    "processingTimeline": "Garis waktu pemrosesan"
+                  }
+                },
+                "inTransit": {
+                  "title": "Dalam Perjalanan",
+                  "description": "Paket sedang dalam perjalanan ke tujuan",
+                  "info": {
+                    "currentLocation": "Lokasi saat ini",
+                    "expectedDelivery": "Perkiraan pengiriman",
+                    "carrierInformation": "Informasi operator"
+                  }
+                },
+                "outForDelivery": {
+                  "title": "Sedang Dikirim",
+                  "description": "Paket sedang bersama pengemudi pengiriman untuk pengiriman akhir",
+                  "info": {
+                    "deliveryWindow": "Jendela pengiriman",
+                    "driverContact": "Kontak pengemudi",
+                    "specialInstructions": "Instruksi khusus"
+                  }
+                },
+                "delivered": {
+                  "title": "Terkirim",
+                  "description": "Paket telah berhasil dikirim",
+                  "info": {
+                    "deliveryTime": "Waktu pengiriman",
+                    "deliveryLocation": "Lokasi pengiriman",
+                    "signatureConfirmation": "Konfirmasi tanda tangan"
+                  }
+                }
+              }
+            },
+            "integration": {
+              "title": "Integrasi Operator Universal",
+              "description": "Terhubung dengan semua operator pengiriman utama dan penyedia logistik untuk memberikan informasi pelacakan komprehensif terlepas dari bagaimana paket dikirim.",
+              "multiCarrier": {
+                "title": "Dukungan Multi-Operator",
+                "description": "Lacak paket di semua operator utama"
+              },
+              "realTimeUpdates": {
+                "title": "Pembaruan Real-Time",
+                "description": "Data pelacakan langsung dari API operator"
+              },
+              "deliveryAnalytics": {
+                "title": "Analitik Pengiriman",
+                "description": "Wawasan kinerja dan metrik pengiriman"
+              },
+              "carriers": {
+                "title": "Operator yang Didukung",
+                "fedex": "API FedEx",
+                "ups": "Pelacakan UPS",
+                "usps": "Integrasi USPS",
+                "dhl": "Layanan DHL",
+                "amazon": "Logistik Amazon",
+                "custom": "Operator Kustom"
+              }
+            },
+            "impact": {
+              "title": "Dampak Layanan Pelanggan",
+              "subtitle": "Peningkatan terukur dalam kepuasan pelanggan dan efisiensi dukungan",
+              "callReduction": {
+                "metric": "85%",
+                "description": "Pengurangan panggilan \"Di mana pesanan saya?\""
+              },
+              "satisfaction": {
+                "metric": "95%",
+                "description": "Kepuasan pelanggan dengan info pelacakan"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "Ketersediaan status pesanan"
+              },
+              "workloadReduction": {
+                "metric": "60%",
+                "description": "Penurunan beban kerja layanan pelanggan"
+              }
+            },
+            "cta": {
+              "title": "Siap Mengotomatiskan Pelacakan Pesanan?",
+              "subtitle": "Kurangi panggilan dukungan dan tingkatkan kepuasan pelanggan dengan status pesanan instan",
+              "startTrial": "Mulai Uji Coba Gratis",
+              "seeDemo": "Lihat Demo"
+            },
+            "title": "Status & Pelacakan Pesanan",
+            "description": "Biarkan pelanggan memeriksa status pesanan dan informasi pengiriman secara instan.",
+            "benefit1": "Pembaruan instan",
+            "benefit2": "Pengurangan panggilan",
+            "benefit3": "Pengalaman lebih baik"
+          },
+          "paymentProcessing": {
+            "hero": {
+              "title": "Pemrosesan Pembayaran Aman",
+              "description": "Aktifkan pemrosesan pembayaran yang aman dan sesuai PCI melalui interaksi suara. Biarkan pelanggan melakukan pembayaran dengan aman melalui telepon dengan perlindungan penipuan canggih dan pemrosesan transaksi instan.",
+              "cta": "Aktifkan Pembayaran Aman"
+            },
+            "features": {
+              "title": "Fitur Pembayaran Suara Aman",
+              "description": "Keamanan tingkat perusahaan bertemu pengalaman pelanggan yang mulus",
+              "secure": {
+                "title": "Pemrosesan Pembayaran Aman",
+                "description": "Proses pembayaran dengan aman melalui telepon dengan teknologi suara yang sesuai PCI.",
+                "benefits": {
+                  "pciCompliance": "Kepatuhan PCI DSS",
+                  "encryptedTransactions": "Transaksi terenkripsi",
+                  "multiplePaymentMethods": "Beberapa metode pembayaran"
+                }
+              },
+              "fraud": {
+                "title": "Perlindungan Penipuan",
+                "description": "Deteksi dan pencegahan penipuan canggih untuk melindungi bisnis dan pelanggan.",
+                "benefits": {
+                  "realtimeFraudDetection": "Deteksi penipuan real-time",
+                  "riskAssessment": "Penilaian risiko",
+                  "secureAuthentication": "Autentikasi aman"
+                }
+              },
+              "instant": {
+                "title": "Pemrosesan Instan",
+                "description": "Proses pembayaran segera dengan otorisasi dan konfirmasi real-time.",
+                "benefits": {
+                  "realtimeAuthorization": "Otorisasi real-time",
+                  "instantConfirmation": "Konfirmasi instan",
+                  "immediateReceipts": "Tanda terima segera"
+                }
+              }
+            },
+            "paymentMethods": {
+              "title": "Opsi Pembayaran Komprehensif",
+              "description": "Terima semua metode pembayaran utama dengan pemrosesan suara yang aman",
+              "creditCards": {
+                "method": "Kartu Kredit",
+                "description": "Terima semua kartu kredit utama dengan pemrosesan suara yang aman",
+                "features": {
+                  "visaMastercardAmex": "Visa, Mastercard, Amex",
+                  "cvvVerification": "Verifikasi CVV",
+                  "expiryValidation": "Validasi kedaluwarsa"
+                }
+              },
+              "debitCards": {
+                "method": "Kartu Debit",
+                "description": "Proses pembayaran kartu debit dengan verifikasi PIN",
+                "features": {
+                  "pinEntryVoice": "Entri PIN melalui suara",
+                  "bankVerification": "Verifikasi bank",
+                  "instantDeduction": "Potongan instan"
+                }
+              },
+              "bankTransfers": {
+                "method": "Transfer Bank",
+                "description": "Transfer rekening bank langsung dan pembayaran ACH",
+                "features": {
+                  "accountVerification": "Verifikasi akun",
+                  "routingNumberValidation": "Validasi nomor routing",
+                  "achProcessing": "Pemrosesan ACH"
+                }
+              },
+              "digitalWallets": {
+                "method": "Dompet Digital",
+                "description": "Dukungan untuk platform pembayaran digital populer",
+                "features": {
+                  "applePay": "Apple Pay",
+                  "googlePay": "Google Pay",
+                  "paypalIntegration": "Integrasi PayPal"
+                }
+              }
+            },
+            "security": {
+              "title": "Keamanan Tingkat Bank",
+              "description": "Sistem pemrosesan pembayaran kami memenuhi standar keamanan tertinggi di industri, memastikan bahwa setiap transaksi dilindungi dengan beberapa lapisan enkripsi dan pencegahan penipuan.",
+              "features": {
+                "title": "Fitur Keamanan"
+              },
+              "encryption": {
+                "title": "Enkripsi Ujung ke Ujung",
+                "description": "Semua data pembayaran dienkripsi dalam transit dan saat istirahat"
+              },
+              "pciCompliance": {
+                "title": "Kepatuhan PCI DSS",
+                "description": "Infrastruktur bersertifikat PCI DSS Level 1"
+              },
+              "monitoring": {
+                "title": "Pemantauan Real-Time",
+                "description": "Deteksi dan pencegahan penipuan berkelanjutan"
+              }
+            },
+            "securityFeatures": {
+              "endToEndEncryption": "Enkripsi ujung ke ujung",
+              "pciDssCompliance": "Kepatuhan PCI DSS Level 1",
+              "tokenization": "Tokenisasi data kartu",
+              "multiFactorAuth": "Autentikasi multi-faktor",
+              "fraudMonitoring": "Pemantauan penipuan real-time",
+              "voiceRecognition": "Pengenalan suara aman"
+            },
+            "benefits": {
+              "title": "Kinerja Pemrosesan Pembayaran",
+              "description": "Keandalan dan metrik keamanan terkemuka di industri",
+              "uptime": {
+                "metric": "99.9%",
+                "description": "Waktu aktif pemrosesan pembayaran"
+              },
+              "transactionTime": {
+                "metric": "< 3 detik",
+                "description": "Waktu transaksi rata-rata"
+              },
+              "compliance": {
+                "metric": "100%",
+                "description": "Kepatuhan PCI DSS"
+              },
+              "fraudRate": {
+                "metric": "0.1%",
+                "description": "Tingkat penipuan dengan perlindungan AI"
+              }
+            },
+            "cta": {
+              "title": "Siap untuk Pembayaran Suara Aman?",
+              "subtitle": "Aktifkan pemrosesan pembayaran yang sesuai PCI dengan perlindungan penipuan canggih",
+              "primaryButton": "Mulai Pemrosesan Aman",
+              "secondaryButton": "Ikhtisar Keamanan"
+            },
+            "title": "Pemrosesan Pembayaran",
+            "description": "Proses pembayaran dengan aman dan tangani pertanyaan penagihan.",
+            "benefit1": "Transaksi aman",
+            "benefit2": "Penagihan otomatis",
+            "benefit3": "Kepatuhan PCI"
+          },
+          "virtualAssistant": {
+            "hero": {
+              "title": "Asisten Virtual 24/7 untuk Panggilan Setelah Jam Kerja",
+              "description": "Jangan pernah melewatkan panggilan pelanggan lagi. Asisten virtual AI kami memberikan dukungan cerdas seperti manusia sepanjang waktu, memastikan pelanggan Anda selalu menerima bantuan segera saat mereka sangat membutuhkannya.",
+              "primaryCta": "Mulai Asisten 24/7 Anda"
+            },
+            "features": {
+              "title": "Dukungan Pelanggan Selalu Aktif",
+              "description": "Dukungan setelah jam kerja komprehensif yang mempertahankan kualitas layanan Anda 24/7",
+              "availability": {
+                "title": "Ketersediaan 24/7",
+                "description": "Jangan pernah melewatkan panggilan lagi dengan bantuan AI sepanjang waktu yang menangani pertanyaan kapan saja.",
+                "benefits": {
+                  "0": "Selalu tersedia",
+                  "1": "Tidak ada biaya lembur",
+                  "2": "Cakupan zona waktu global"
+                }
+              },
+              "callHandling": {
+                "title": "Penanganan Panggilan Cerdas",
+                "description": "AI canggih memahami niat penelepon dan memberikan respons atau eskalasi yang sesuai.",
+                "benefits": {
+                  "0": "Percakapan alami",
+                  "1": "Kesadaran konteks",
+                  "2": "Eskalasi cerdas"
+                }
+              },
+              "handoffs": {
+                "title": "Serah Terima Mulus",
+                "description": "Transisi mulus ke agen manusia saat dibutuhkan, dengan pelestarian konteks penuh.",
+                "benefits": {
+                  "0": "Retensi konteks",
+                  "1": "Transfer hangat",
+                  "2": "Tidak ada informasi yang diulang"
+                }
+              }
+            },
+            "benefits": {
+              "title": "Hasil yang Terbukti",
+              "description": "Lihat dampak bantuan virtual 24/7 pada bisnis Anda"
+            },
+            "metrics": {
+              "abandonment": {
+                "description": "Pengurangan pengabaian panggilan setelah jam kerja"
+              },
+              "availability": {
+                "description": "Ketersediaan layanan pelanggan berkelanjutan"
+              },
+              "costSavings": {
+                "description": "Penghematan biaya dibandingkan dengan agen manusia"
+              },
+              "satisfaction": {
+                "description": "Kepuasan pelanggan dengan interaksi AI"
+              }
+            },
+            "useCases": {
+              "title": "Aplikasi Industri",
+              "description": "Lihat bagaimana berbagai industri diuntungkan dari bantuan virtual 24/7",
+              "healthcare": {
+                "title": "Layanan Kesehatan Setelah Jam Kerja",
+                "description": "Tangani pertanyaan pasien, permintaan janji temu, dan triase darurat di luar jam kerja.",
+                "metrics": {
+                  "0": "Pengurangan 60% dalam panggilan yang terlewat",
+                  "1": "Dukungan pasien 24/7",
+                  "2": "Sesuai HIPAA"
+                }
+              },
+              "ecommerce": {
+                "title": "Dukungan E-commerce",
+                "description": "Bantu pelanggan dengan pertanyaan pesanan, pengembalian, dan informasi produk kapan saja.",
+                "metrics": {
+                  "0": "Peningkatan 40% dalam kepuasan pelanggan",
+                  "1": "Status pesanan instan",
+                  "2": "Ketersediaan 24/7"
+                }
+              },
+              "financial": {
+                "title": "Layanan Keuangan",
+                "description": "Berikan informasi akun, peringatan penipuan, dan layanan perbankan dasar setelah jam kerja.",
+                "metrics": {
+                  "0": "Autentikasi aman",
+                  "1": "Pencegahan penipuan",
+                  "2": "Kepatuhan regulasi"
+                }
+              }
+            },
+            "cta": {
+              "title": "Siap untuk Dukungan Pelanggan 24/7?",
+              "description": "Ubah pengalaman pelanggan setelah jam kerja Anda dengan bantuan virtual cerdas",
+              "primaryButton": "Mulai Uji Coba Gratis",
+              "secondaryButton": "Jadwalkan Demo"
+            },
+            "title": "Asisten Virtual 24/7",
+            "description": "Berikan dukungan segera di luar jam kerja dengan penanganan panggilan cerdas.",
+            "benefit1": "Ketersediaan 24/7",
+            "benefit2": "Respons instan",
+            "benefit3": "Pengurangan biaya"
+          },
+          "header": "Solusi Inbound",
+          "description": "Tangani panggilan masuk dengan otomatisasi cerdas dan pengalaman pelanggan yang unggul",
+          "smartCallTransfer": {
+            "title": "Transfer Panggilan Cerdas",
+            "description": "Secara cerdas mengarahkan panggilan ke departemen yang tepat berdasarkan niat penelepon.",
+            "benefit1": "Waktu tunggu berkurang",
+            "benefit2": "Perutean lebih baik",
+            "benefit3": "Efisiensi meningkat"
+          },
+          "mentalHealth": {
+            "title": "Pendamping Kesehatan Mental",
+            "description": "Berikan dukungan empatik untuk skrining dan sumber daya kesehatan mental.",
+            "benefit1": "Dukungan 24/7",
+            "benefit2": "Respons empatik",
+            "benefit3": "Eskalasi krisis"
+          },
+          "scamShield": {
+            "title": "Perlindungan Scam Shield",
+            "description": "Identifikasi dan blokir panggilan penipuan untuk melindungi pelanggan Anda.",
+            "benefit1": "Deteksi penipuan",
+            "benefit2": "Perlindungan pelanggan",
+            "benefit3": "Pengurangan panggilan penipuan"
+          },
+          "appointmentBooking": {
+            "title": "Pemesanan Janji Temu",
+            "description": "Aktifkan penjadwalan dan manajemen janji temu otonom.",
+            "benefit1": "Pemesanan 24/7",
+            "benefit2": "Sinkronisasi kalender",
+            "benefit3": "Pengingat otomatis"
+          }
+        },
+        "outbound": {
+          "customerReactivation": {
+            "hero": {
+              "title": "Kampanye Reaktivasi Pelanggan",
+              "subtitle": "Dapatkan kembali pelanggan yang tidak aktif dengan kampanye jangkauan bertenaga AI yang dipersonalisasi. Libatkan kembali pelanggan lama dengan penawaran menarik dan bangun kembali hubungan berharga yang mendorong pendapatan berulang.",
+              "cta": "Mulai Kampanye Reaktivasi"
+            },
+            "features": {
+              "title": "Fitur Reaktivasi Cerdas",
+              "subtitle": "Kampanye bertenaga AI yang memahami perilaku dan preferensi pelanggan",
+              "personalizedOutreach": {
+                "title": "Jangkauan yang Dipersonalisasi",
+                "description": "Percakapan bertenaga AI yang disesuaikan dengan riwayat dan preferensi setiap pelanggan.",
+                "benefits": {
+                  "customMessaging": "Pesan kustom",
+                  "historicalContext": "Konteks historis",
+                  "behavioralInsights": "Wawasan perilaku"
+                }
+              },
+              "winBackCampaigns": {
+                "title": "Kampanye Dapatkan Kembali",
+                "description": "Kampanye strategis yang dirancang untuk melibatkan kembali pelanggan yang tidak aktif dengan penawaran menarik.",
+                "benefits": {
+                  "specialPromotions": "Promosi khusus",
+                  "loyaltyRewards": "Hadiah loyalitas",
+                  "exclusiveAccess": "Akses eksklusif"
+                }
+              },
+              "performanceAnalytics": {
+                "title": "Analitik Kinerja",
+                "description": "Lacak tingkat keberhasilan reaktivasi dan optimalkan kampanye untuk hasil yang lebih baik.",
+                "benefits": {
+                  "conversionTracking": "Pelacakan konversi",
+                  "abTesting": "Pengujian A/B",
+                  "roiAnalysis": "Analisis ROI"
+                }
+              }
+            },
+            "process": {
+              "title": "Proses Reaktivasi",
+              "subtitle": "Pendekatan strategis untuk mendapatkan kembali pelanggan yang berharga",
+              "steps": {
+                "customerSegmentation": {
+                  "title": "Segmentasi Pelanggan",
+                  "description": "Identifikasi dan kategorikan pelanggan yang tidak aktif berdasarkan riwayat dan nilai mereka",
+                  "outcome": "Pendekatan yang ditargetkan: tingkat respons 3x lebih tinggi"
+                },
+                "personalizedOutreach": {
+                  "title": "Jangkauan yang Dipersonalisasi",
+                  "description": "AI membuat pesan yang dipersonalisasi berdasarkan preferensi dan riwayat pelanggan",
+                  "outcome": "Tingkat keterlibatan: 45% vs 12% generik"
+                },
+                "offerPresentation": {
+                  "title": "Presentasi Penawaran",
+                  "description": "Sajikan penawaran dapatkan kembali yang menarik yang disesuaikan dengan nilai dan minat pelanggan",
+                  "outcome": "Tingkat konversi: 25% dengan penawaran yang dipersonalisasi"
+                },
+                "followUpNurturing": {
+                  "title": "Tindak Lanjut & Pemeliharaan",
+                  "description": "Urutan tindak lanjut otomatis untuk memelihara pelanggan yang tertarik kembali ke status aktif",
+                  "outcome": "Tingkat retensi: 80% pelanggan yang direaktivasi"
+                }
+              }
+            },
+            "campaigns": {
+              "title": "Jenis Kampanye Reaktivasi",
+              "subtitle": "Berbagai strategi untuk melibatkan kembali segmen pelanggan yang berbeda",
+              "winBackOffers": {
+                "title": "Penawaran Dapatkan Kembali",
+                "description": "Diskon dan promosi khusus untuk menarik pelanggan kembali",
+                "tactics": {
+                  "exclusiveDiscounts": "Diskon eksklusif",
+                  "limitedTimeOffers": "Penawaran waktu terbatas",
+                  "freeTrials": "Uji coba gratis"
+                }
+              },
+              "feedbackCollection": {
+                "title": "Pengumpulan Umpan Balik",
+                "description": "Pahami mengapa pelanggan pergi dan atasi kekhawatiran mereka",
+                "tactics": {
+                  "exitSurveys": "Survei keluar",
+                  "concernResolution": "Resolusi masalah",
+                  "serviceImprovements": "Peningkatan layanan"
+                }
+              },
+              "productUpdates": {
+                "title": "Pembaruan Produk",
+                "description": "Beritahu pelanggan tentang fitur atau peningkatan baru",
+                "tactics": {
+                  "featureAnnouncements": "Pengumuman fitur",
+                  "benefitExplanations": "Penjelasan manfaat",
+                  "demoInvitations": "Undangan demo"
+                }
+              },
+              "loyaltyRewards": {
+                "title": "Hadiah Loyalitas",
+                "description": "Kenali loyalitas masa lalu dan tawarkan perlakuan khusus",
+                "tactics": {
+                  "vipStatus": "Status VIP",
+                  "loyaltyPoints": "Poin loyalitas",
+                  "exclusiveAccess": "Akses eksklusif"
+                }
+              }
+            },
+            "results": {
+              "title": "Hasil Reaktivasi",
+              "subtitle": "Keberhasilan yang terbukti dalam mendapatkan kembali pelanggan yang berharga",
+              "reactivationRate": {
+                "metric": "35%",
+                "description": "Tingkat reaktivasi pelanggan"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "Pengurangan biaya vs metode tradisional"
+              },
+              "responseRate": {
+                "metric": "3x",
+                "description": "Tingkat respons lebih tinggi dari kampanye generik"
+              },
+              "retentionRate": {
+                "metric": "80%",
+                "description": "Tingkat retensi pelanggan yang direaktivasi"
+              }
+            },
+            "cta": {
+              "title": "Siap Mendapatkan Kembali Pelanggan Anda?",
+              "subtitle": "Mulai kampanye reaktivasi yang dipersonalisasi yang membangun kembali hubungan pelanggan yang berharga",
+              "startCampaign": "Mulai Kampanye",
+              "viewCaseStudies": "Lihat Studi Kasus"
+            }
+          },
+          "fraudAlerts": {
+            "hero": {
+              "title": "Sistem Peringatan Penipuan",
+              "description": "Lindungi pelanggan Anda dengan peringatan penipuan instan. Sistem bertenaga AI kami mendeteksi aktivitas mencurigakan dan secara otomatis menghubungi pelanggan untuk memverifikasi transaksi."
+            },
+            "features": {
+              "title": "Deteksi Penipuan Tingkat Lanjut",
+              "subtitle": "Perlindungan multi-lapis dan peringatan cerdas untuk melindungi pelanggan Anda",
+              "realTimeDetection": {
+                "title": "Deteksi Penipuan Real-time",
+                "description": "Algoritma AI canggih mengidentifikasi dan memblokir panggilan penipuan sebelum mencapai pelanggan Anda.",
+                "benefit1": "Pengenalan pola",
+                "benefit2": "Analisis perilaku",
+                "benefit3": "Pemblokiran instan"
+              },
+              "threatIntelligence": {
+                "title": "Intelijen Ancaman",
+                "description": "Basis data yang terus diperbarui tentang pola penipuan yang diketahui dan nomor telepon penipuan.",
+                "benefit1": "Data ancaman global",
+                "benefit2": "Pembaruan real-time",
+                "benefit3": "Pembelajaran mesin"
+              },
+              "customerProtection": {
+                "title": "Perlindungan Pelanggan",
+                "description": "Secara proaktif melindungi pelanggan dari penipuan finansial dan upaya pencurian identitas.",
+                "benefit1": "Pencegahan penipuan",
+                "benefit2": "Perlindungan identitas",
+                "benefit3": "Keamanan finansial"
+              }
+            },
+            "howItWorks": {
+              "title": "Cara Kerja Peringatan Penipuan",
+              "step1": {
+                "title": "Deteksi Penipuan",
+                "description": "Sistem mengidentifikasi pola transaksi yang mencurigakan"
+              },
+              "step2": {
+                "title": "Peringatan Segera",
+                "description": "Agen AI memanggil pelanggan dalam waktu 2 menit"
+              },
+              "step3": {
+                "title": "Verifikasi",
+                "description": "Pelanggan mengkonfirmasi atau menolak transaksi"
+              },
+              "step4": {
+                "title": "Tindakan yang Diambil",
+                "description": "Transaksi disetujui atau tindakan keamanan diaktifkan"
+              },
+              "sampleCall": {
+                "title": "Contoh Panggilan Peringatan",
+                "message": "Halo, ini adalah peringatan keamanan dari [Nama Bank]. Kami telah mendeteksi aktivitas tidak biasa di akun Anda. Transaksi $500 di Amazon baru saja dicoba. Apakah Anda mengotorisasi pembelian ini? Silakan tekan 1 untuk mengkonfirmasi atau 2 jika ini bukan Anda."
+              }
+            },
+            "benefits": {
+              "title": "Manfaat Utama",
+              "fraudPrevention": {
+                "title": "Pencegahan Penipuan",
+                "description": "Kurangi transaksi penipuan hingga 85%"
+              },
+              "instantResponse": {
+                "title": "Respons Instan",
+                "description": "Beritahu pelanggan dalam waktu 2 menit setelah deteksi"
+              },
+              "customerTrust": {
+                "title": "Kepercayaan Pelanggan",
+                "description": "Bangun kepercayaan dengan perlindungan proaktif"
+              },
+              "smartAnalytics": {
+                "title": "Analitik Cerdas",
+                "description": "Wawasan terperinci tentang pola dan tren penipuan"
+              }
+            },
+            "useCases": {
+              "title": "Kasus Penggunaan Umum",
+              "banking": {
+                "title": "Perbankan & Layanan Keuangan",
+                "item1": "Deteksi penipuan kartu kredit",
+                "item2": "Peringatan pola pengeluaran tidak biasa",
+                "item3": "Pencegahan pengambilalihan akun",
+                "item4": "Verifikasi transaksi besar"
+              },
+              "ecommerce": {
+                "title": "E-commerce & Ritel",
+                "item1": "Pola pembelian mencurigakan",
+                "item2": "Verifikasi pesanan bernilai tinggi",
+                "item3": "Perlindungan pencurian identitas",
+                "item4": "Perubahan metode pembayaran"
+              }
+            },
+            "cta": {
+              "title": "Lindungi Pelanggan Anda Hari Ini",
+              "description": "Implementasikan deteksi penipuan canggih dengan peringatan pelanggan otomatis untuk mengurangi kerugian dan membangun kepercayaan.",
+              "button": "Mulai dengan Peringatan Penipuan"
+            },
+            "title": "Peringatan Penipuan",
+            "description": "Beritahu pelanggan tentang aktivitas akun yang mencurigakan segera.",
+            "benefit1": "Peringatan real-time",
+            "benefit2": "Perlindungan akun",
+            "benefit3": "Pencegahan penipuan"
+          },
+          "largeScaleCampaigns": {
+            "hero": {
+              "title": "Kampanye Outbound Skala Besar",
+              "description": "Jalankan kampanye suara besar-besaran yang menjangkau ribuan pelanggan secara bersamaan. Dari peluncuran produk hingga notifikasi darurat, kirim pesan yang dipersonalisasi dalam skala yang belum pernah terjadi sebelumnya dengan efisiensi bertenaga AI.",
+              "cta": "Luncurkan Kampanye Massal"
+            },
+            "features": {
+              "title": "Fitur Kampanye Skala Perusahaan",
+              "subtitle": "Alat canggih untuk mengelola dan menjalankan kampanye suara skala besar",
+              "massCommunication": {
+                "title": "Komunikasi Massal",
+                "description": "Jangkau ribuan pelanggan secara bersamaan dengan pesan suara yang dipersonalisasi.",
+                "benefit1": "Panggilan bersamaan tanpa batas",
+                "benefit2": "Pesan yang dipersonalisasi",
+                "benefit3": "Jangkauan global"
+              },
+              "audienceSegmentation": {
+                "title": "Segmentasi Audiens",
+                "description": "Targetkan segmen pelanggan tertentu dengan pesan dan waktu yang disesuaikan.",
+                "benefit1": "Penargetan demografis",
+                "benefit2": "Segmentasi perilaku",
+                "benefit3": "Audiens kustom"
+              },
+              "realTimeAnalytics": {
+                "title": "Analitik Real-Time",
+                "description": "Pantau kinerja kampanye dan optimalkan secara real-time untuk hasil yang lebih baik.",
+                "benefit1": "Dasbor langsung",
+                "benefit2": "Metrik kinerja",
+                "benefit3": "Pengujian A/B"
+              }
+            },
+            "campaignTypes": {
+              "title": "Jenis & Aplikasi Kampanye",
+              "subtitle": "Solusi serbaguna untuk berbagai kebutuhan komunikasi bisnis",
+              "productAnnouncements": {
+                "type": "Pengumuman Produk",
+                "description": "Luncurkan produk atau layanan baru dengan kampanye kesadaran yang luas",
+                "example1": "Rilis fitur baru",
+                "example2": "Peluncuran produk",
+                "example3": "Pembaruan layanan",
+                "metric1": "Jangkauan: 100 Ribu+ pelanggan",
+                "metric2": "Kesadaran: Peningkatan 85%",
+                "metric3": "Keterlibatan: Respons 45%"
+              },
+              "emergencyNotifications": {
+                "type": "Notifikasi Darurat",
+                "description": "Sebarkan informasi penting dengan cepat selama keadaan darurat",
+                "example1": "Pemadaman layanan",
+                "example2": "Peringatan keamanan",
+                "example3": "Perubahan kebijakan",
+                "metric1": "Kecepatan: 1000 panggilan/menit",
+                "metric2": "Pengiriman: Keberhasilan 99%",
+                "metric3": "Respons: < 5 menit"
+              },
+              "marketingCampaigns": {
+                "type": "Kampanye Pemasaran",
+                "description": "Jalankan inisiatif promosi dan pemasaran skala besar",
+                "example1": "Promosi musiman",
+                "example2": "Kampanye merek",
+                "example3": "Undangan acara",
+                "metric1": "Konversi: Rata-rata 12%",
+                "metric2": "ROI: Khas 300%",
+                "metric3": "Jangkauan: Skala tak terbatas"
+              },
+              "surveyResearch": {
+                "type": "Survei & Riset",
+                "description": "Lakukan riset pasar dan kumpulkan umpan balik pelanggan dalam skala besar",
+                "example1": "Riset pasar",
+                "example2": "Kepuasan pelanggan",
+                "example3": "Umpan balik produk",
+                "metric1": "Respons: Tingkat 35%",
+                "metric2": "Penyelesaian: 80%",
+                "metric3": "Wawasan: Real-time"
+              },
+              "commonExamples": "Contoh Umum:",
+              "performanceMetrics": "Metrik Kinerja:"
+            },
+            "scaling": {
+              "title": "Skala & Jangkauan Tanpa Batas",
+              "description": "Platform kami dibangun untuk menangani kampanye dalam ukuran apa pun, dari ribuan hingga jutaan panggilan. Dengan kemitraan operator global dan infrastruktur canggih, kami memastikan pengiriman yang andal dalam skala besar.",
+              "globalInfrastructure": {
+                "title": "Infrastruktur Global",
+                "description": "Jaringan operator di seluruh dunia untuk jangkauan maksimum"
+              },
+              "highSpeedExecution": {
+                "title": "Eksekusi Berkecepatan Tinggi",
+                "description": "1000+ panggilan bersamaan per menit"
+              },
+              "realTimeMonitoring": {
+                "title": "Pemantauan Real-Time",
+                "description": "Pelacakan kinerja kampanye langsung"
+              },
+              "capabilities": {
+                "title": "Kemampuan Penskalaan",
+                "capability1": "Panggilan bersamaan tanpa batas",
+                "capability2": "Jaringan operator global",
+                "capability3": "Dukungan multibahasa",
+                "capability4": "Optimalisasi zona waktu",
+                "capability5": "Kepatuhan regulasi",
+                "capability6": "Pemantauan real-time"
+              },
+              "dashboard": {
+                "title": "Dasbor Kampanye",
+                "activeCalls": "Panggilan Aktif:",
+                "completionRate": "Tingkat Penyelesaian:",
+                "responseRate": "Tingkat Respons:"
+              }
+            },
+            "benefits": {
+              "title": "Hasil Kinerja Kampanye",
+              "subtitle": "Efektivitas yang terbukti dalam skala perusahaan",
+              "metric1": {
+                "value": "10.000+",
+                "description": "Panggilan bersamaan didukung"
+              },
+              "metric2": {
+                "value": "99.9%",
+                "description": "Tingkat keberhasilan pengiriman pesan"
+              },
+              "metric3": {
+                "value": "75%",
+                "description": "Pengurangan biaya vs metode tradisional"
+              },
+              "metric4": {
+                "value": "24/7",
+                "description": "Kemampuan eksekusi kampanye"
+              }
+            },
+            "cta": {
+              "title": "Siap Menskalakan Komunikasi Anda?",
+              "description": "Luncurkan kampanye suara besar-besaran yang menjangkau ribuan pelanggan dengan pesan yang dipersonalisasi",
+              "primaryButton": "Rencanakan Kampanye Anda",
+              "secondaryButton": "Lihat Studi Kasus"
+            }
+          },
+          "hero": {
+            "title": "Otomatisasi Layanan Penagihan",
+            "description": "Sederhanakan proses penagihan utang Anda dengan panggilan bertenaga AI yang mempertahankan hubungan pelanggan sambil meningkatkan tingkat penagihan. Sepenuhnya sesuai dengan peraturan FDCPA dan TCPA.",
+            "cta": "Tingkatkan Tingkat Penagihan"
+          },
+          "features": {
+            "title": "Fitur Penagihan Cerdas",
+            "subtitle": "Otomatisasi penagihan utang yang profesional, sesuai, dan efektif",
+            "paymentReminders": {
+              "title": "Pengingat Pembayaran Otomatis",
+              "description": "Pengingat yang lembut dan profesional yang mempertahankan hubungan pelanggan sambil mendorong pembayaran.",
+              "benefit1": "Pesan yang dapat disesuaikan",
+              "benefit2": "Beberapa upaya kontak",
+              "benefit3": "Opsi rencana pembayaran"
+            },
+            "compliance": {
+              "title": "Kepatuhan & Regulasi",
+              "description": "Kepatuhan bawaan dengan FDCPA, TCPA, dan peraturan penagihan utang lainnya.",
+              "benefit1": "Kepatuhan regulasi",
+              "benefit2": "Perekaman panggilan",
+              "benefit3": "Jejak audit"
+            },
+            "optimalTiming": {
+              "title": "Waktu Optimal",
+              "description": "AI menentukan waktu terbaik untuk menghubungi pelanggan untuk tingkat respons maksimum.",
+              "benefit1": "Kesadaran zona waktu",
+              "benefit2": "Pola perilaku",
+              "benefit3": "Optimalisasi respons"
+            }
+          },
+          "collectionProcess": {
+            "title": "Strategi Penagihan Progresif",
+            "subtitle": "Pendekatan eskalasi yang memaksimalkan penagihan sambil menjaga hubungan",
+            "earlyReminder": {
+              "stage": "Pengingat Awal",
+              "description": "Pengingat pembayaran yang ramah untuk akun yang baru saja jatuh tempo",
+              "approach": "Nada lembut, membantu dengan opsi pembayaran",
+              "success": "Tingkat pembayaran 65%"
+            },
+            "followUp": {
+              "stage": "Tindak Lanjut",
+              "description": "Komunikasi yang lebih langsung untuk akun yang terus-menerus jatuh tempo",
+              "approach": "Konsekuensi yang jelas, penawaran rencana pembayaran",
+              "success": "Tingkat pembayaran 45%"
+            },
+            "finalNotice": {
+              "stage": "Pemberitahuan Akhir",
+              "description": "Upaya terakhir sebelum eskalasi ke penagih manusia",
+              "approach": "Nada mendesak, batas waktu pembayaran akhir",
+              "success": "Tingkat pembayaran 30%"
+            },
+            "humanHandoff": {
+              "stage": "Serah Terima Manusia",
+              "description": "Kasus kompleks ditransfer ke penagih manusia dengan konteks penuh",
+              "approach": "Riwayat akun terperinci dan interaksi sebelumnya",
+              "success": "Tingkat resolusi 25%"
+            }
+          },
+          "benefits": {
+            "title": "Hasil Penagihan yang Terbukti",
+            "subtitle": "Lihat dampak penagihan bertenaga AI pada tingkat pemulihan Anda",
+            "collectionRates": {
+              "metric": "40%",
+              "description": "Peningkatan tingkat penagihan"
+            },
+            "costReduction": {
+              "metric": "60%",
+              "description": "Pengurangan biaya penagihan"
+            },
+            "paymentProcessing": {
+              "metric": "80%",
+              "description": "Pemrosesan pembayaran lebih cepat"
+            },
+            "complianceRate": {
+              "metric": "95%",
+              "description": "Tingkat kepatuhan regulasi"
+            }
+          },
+          "complianceSection": {
+            "title": "Kepatuhan Bawaan",
+            "description": "Platform penagihan kami dirancang dengan kepatuhan sebagai intinya, memastikan semua interaksi memenuhi peraturan federal dan negara bagian sambil mempertahankan standar profesional.",
+            "features": {
+              "fdcpaCompliance": "Kepatuhan FDCPA",
+              "tcpaCompliance": "Kepatuhan TCPA",
+              "stateRegulation": "Kepatuhan Regulasi Negara Bagian",
+              "callRecording": "Perekaman & Pemantauan Panggilan",
+              "disputeHandling": "Penanganan Sengketa",
+              "ceaseDesist": "Manajemen Berhenti & Berhenti"
+            },
+            "subFeatures": {
+              "regulatoryCompliance": {
+                "title": "Kepatuhan Regulasi",
+                "description": "FDCPA, TCPA, dan peraturan khusus negara bagian"
+              },
+              "auditTrail": {
+                "title": "Jejak Audit Lengkap",
+                "description": "Pencatatan terperinci semua interaksi dan hasil"
+              },
+              "timingControls": {
+                "title": "Kontrol Waktu",
+                "description": "Kepatuhan otomatis terhadap batasan waktu panggilan"
+              }
+            },
+            "featuresTitle": "Fitur Kepatuhan"
+          },
+          "cta": {
+            "title": "Siap Meningkatkan Tingkat Penagihan Anda?",
+            "subtitle": "Mulai memulihkan lebih banyak utang dengan penagihan bertenaga AI yang sesuai dan profesional",
+            "startFreeTrial": "Mulai Uji Coba Gratis",
+            "scheduleDemo": "Jadwalkan Demo"
+          },
+          "leadGeneration": {
+            "hero": {
+              "title": "Generasi & Kualifikasi Prospek",
+              "subtitle": "Ubah saluran penjualan Anda dengan generasi prospek bertenaga AI yang mengidentifikasi, mengkualifikasi, dan memelihara prospek secara otomatis, hanya memberikan prospek berkualitas tertinggi ke tim penjualan Anda.",
+              "cta": "Tingkatkan Generasi Prospek Anda"
+            },
+            "features": {
+              "title": "Fitur Generasi Prospek Cerdas",
+              "subtitle": "Teknologi AI canggih yang mengidentifikasi dan mengkualifikasi prospek dengan presisi",
+              "intelligentQualification": {
+                "title": "Kualifikasi Prospek Cerdas",
+                "description": "Percakapan bertenaga AI yang mengidentifikasi prospek berkualitas tinggi dan mengumpulkan informasi penting.",
+                "benefits": {
+                  "automatedScoring": "Penilaian otomatis",
+                  "intentDetection": "Deteksi niat",
+                  "demographicProfiling": "Pembuatan profil demografis"
+                }
+              },
+              "personalizedOutreach": {
+                "title": "Jangkauan yang Dipersonalisasi",
+                "description": "Percakapan dinamis yang disesuaikan dengan setiap prospek berdasarkan profil dan minat mereka.",
+                "benefits": {
+                  "customMessaging": "Pesan kustom",
+                  "behavioralTriggers": "Pemicu perilaku",
+                  "contextualResponses": "Respons kontekstual"
+                }
+              },
+              "realTimeAnalytics": {
+                "title": "Analitik Real-Time",
+                "description": "Lacak kinerja kampanye dan kualitas prospek dengan pelaporan komprehensif.",
+                "benefits": {
+                  "conversionTracking": "Pelacakan konversi",
+                  "qualityMetrics": "Metrik kualitas",
+                  "roiAnalysis": "Analisis ROI"
+                }
+              }
+            },
+            "process": {
+              "title": "Proses Kualifikasi Prospek",
+              "subtitle": "Dari kontak awal hingga serah terima yang berkualitas - lihat bagaimana AI kami bekerja",
+              "steps": {
+                "initialContact": {
+                  "title": "Kontak Awal",
+                  "description": "Agen AI melakukan panggilan keluar yang dipersonalisasi ke prospek",
+                  "outcome": "Tingkat keterlibatan: 35%"
+                },
+                "needsAssessment": {
+                  "title": "Penilaian Kebutuhan",
+                  "description": "Pertanyaan cerdas untuk memahami persyaratan prospek",
+                  "outcome": "Tingkat kualifikasi: 60%"
+                },
+                "interestScoring": {
+                  "title": "Penilaian Minat",
+                  "description": "AI menilai kualitas prospek berdasarkan respons dan keterlibatan",
+                  "outcome": "Tingkat akurasi: 85%"
+                },
+                "handoffToSales": {
+                  "title": "Serah Terima ke Penjualan",
+                  "description": "Prospek yang berkualitas ditransfer ke tim penjualan manusia dengan konteks penuh",
+                  "outcome": "Tingkat konversi: 25%"
+                }
+              }
+            },
+            "results": {
+              "title": "Hasil yang Terbukti",
+              "subtitle": "Lihat dampak generasi prospek bertenaga AI pada saluran penjualan Anda",
+              "qualifiedLeads": {
+                "metric": "300%",
+                "description": "Peningkatan prospek yang berkualitas"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "Pengurangan biaya per prospek"
+              },
+              "accuracy": {
+                "metric": "85%",
+                "description": "Akurasi kualifikasi prospek"
+              },
+              "conversion": {
+                "metric": "25%",
+                "description": "Tingkat konversi prospek ke pelanggan"
+              }
+            },
+            "industries": {
+              "title": "Kisah Sukses Industri",
+              "subtitle": "Lihat bagaimana berbagai industri diuntungkan dari generasi prospek AI",
+              "realEstate": {
+                "name": "Real Estat",
+                "description": "Kualifikasi pembeli dan penjual properti, penjadwalan penayangan",
+                "results": {
+                  "moreLeads": "40% lebih banyak prospek yang berkualitas",
+                  "fasterCycle": "Siklus penjualan 50% lebih cepat"
+                }
+              },
+              "insurance": {
+                "name": "Asuransi",
+                "description": "Identifikasi prospek yang membutuhkan cakupan, kumpulkan informasi risiko",
+                "results": {
+                  "increaseSales": "Peningkatan 35% dalam penjualan polis",
+                  "costReduction": "Pengurangan biaya 60%"
+                }
+              },
+              "softwareSaas": {
+                "name": "Perangkat Lunak/SaaS",
+                "description": "Kualifikasi prospek perusahaan, penjadwalan demo produk",
+                "results": {
+                  "demoBookings": "3x lebih banyak pemesanan demo",
+                  "closeRate": "Tingkat penutupan 45% lebih tinggi"
+                }
+              }
+            },
+            "cta": {
+              "title": "Siap Mengubah Generasi Prospek Anda?",
+              "subtitle": "Mulai menghasilkan dan mengkualifikasi lebih banyak prospek dengan panggilan keluar bertenaga AI",
+              "startTrial": "Mulai Uji Coba Gratis",
+              "scheduleDemo": "Jadwalkan Demo"
+            },
+            "title": "Generasi & Kualifikasi Prospek",
+            "description": "Secara proaktif mengkualifikasi prospek dan menjadwalkan tindak lanjut untuk tim penjualan.",
+            "benefit1": "Konversi lebih tinggi",
+            "benefit2": "Prospek yang berkualitas",
+            "benefit3": "Efisiensi penjualan"
+          },
+          "customerSurveys": {
+            "hero": {
+              "title": "Otomatisasi Survei Pelanggan",
+              "description": "Kumpulkan umpan balik pelanggan yang berharga melalui percakapan suara alami. Lakukan survei otomatis yang terasa pribadi dan menarik, mencapai tingkat respons yang lebih tinggi dan wawasan yang lebih terperinci daripada metode tradisional.",
+              "cta": "Mulai Kampanye Survei"
+            },
+            "sections": {
+              "features": {
+                "title": "Fitur Survei Cerdas",
+                "subtitle": "Teknologi AI canggih yang membuat survei terasa seperti percakapan alami"
+              },
+              "surveys": {
+                "title": "Solusi Survei Komprehensif",
+                "subtitle": "Jenis survei yang disesuaikan untuk berbagai tujuan dan wawasan bisnis"
+              },
+              "sampleQuestions": "Contoh Pertanyaan:",
+              "keyMetrics": "Metrik Utama:",
+              "analytics": {
+                "title": "Analitik & Wawasan Tingkat Lanjut",
+                "description": "AI kami tidak hanya mengumpulkan respons—ia menganalisis sentimen, mengidentifikasi tren, dan memberikan wawasan yang dapat ditindaklanjuti yang membantu Anda membuat keputusan berdasarkan data untuk meningkatkan bisnis Anda."
+              },
+              "analysisFeatures": {
+                "title": "Fitur Analisis"
+              },
+              "benefits": {
+                "title": "Hasil Kinerja Survei",
+                "subtitle": "Peningkatan yang terbukti dalam pengumpulan umpan balik dan wawasan pelanggan"
+              }
+            },
+            "features": {
+              "conversational": {
+                "title": "Survei Percakapan",
+                "description": "Percakapan suara alami yang terasa seperti diskusi ramah daripada survei formal.",
+                "benefits": {
+                  "0": "Tingkat respons lebih tinggi",
+                  "1": "Interaksi alami",
+                  "2": "Umpan balik terperinci"
+                }
+              },
+              "analytics": {
+                "title": "Analitik Real-Time",
+                "description": "Analisis dan pelaporan instan respons survei dengan wawasan yang dapat ditindaklanjuti.",
+                "benefits": {
+                  "0": "Dasbor langsung",
+                  "1": "Analisis sentimen",
+                  "2": "Identifikasi tren"
+                }
+              },
+              "outreach": {
+                "title": "Jangkauan yang Ditargetkan",
+                "description": "Jangkau segmen pelanggan tertentu dengan pengalaman survei yang dipersonalisasi.",
+                "benefits": {
+                  "0": "Penargetan demografis",
+                  "1": "Segmentasi perilaku",
+                  "2": "Waktu kustom"
+                }
+              }
+            },
+            "surveyTypes": {
+              "csat": {
+                "title": "Kepuasan Pelanggan (CSAT)",
+                "description": "Ukur kepuasan keseluruhan dengan produk, layanan, atau interaksi",
+                "questions": {
+                  "0": "Seberapa puas Anda dengan layanan kami?",
+                  "1": "Apa yang bisa kami tingkatkan?",
+                  "2": "Apakah Anda akan merekomendasikan kami?"
+                },
+                "metrics": {
+                  "0": "Skor CSAT",
+                  "1": "Skor Promotor Bersih",
+                  "2": "Tingkat Respons"
+                }
+              },
+              "postPurchase": {
+                "title": "Umpan Balik Pasca-Pembelian",
+                "description": "Kumpulkan wawasan segera setelah interaksi pembelian atau layanan",
+                "questions": {
+                  "0": "Bagaimana pengalaman pembelian Anda?",
+                  "1": "Apakah produk memenuhi harapan?",
+                  "2": "Ada masalah pengiriman?"
+                },
+                "metrics": {
+                  "0": "Kepuasan Pembelian",
+                  "1": "Peringkat Pengiriman",
+                  "2": "Kualitas Produk"
+                }
+              },
+              "productDev": {
+                "title": "Pengembangan Produk",
+                "description": "Kumpulkan masukan untuk fitur baru, produk, atau peningkatan layanan",
+                "questions": {
+                  "0": "Fitur apa yang ingin Anda lihat?",
+                  "1": "Bagaimana Anda menggunakan produk kami?",
+                  "2": "Masalah apa yang perlu diselesaikan?"
+                },
+                "metrics": {
+                  "0": "Permintaan Fitur",
+                  "1": "Pola Penggunaan",
+                  "2": "Titik Sakit"
+                }
+              },
+              "marketResearch": {
+                "title": "Riset Pasar",
+                "description": "Pahami tren pasar, preferensi, dan lanskap kompetitif",
+                "questions": {
+                  "0": "Merek apa yang Anda sukai?",
+                  "1": "Bagaimana Anda membuat keputusan pembelian?",
+                  "2": "Apa yang memengaruhi pilihan Anda?"
+                },
+                "metrics": {
+                  "0": "Kesadaran Merek",
+                  "1": "Pendorong Pembelian",
+                  "2": "Tren Pasar"
+                }
+              }
+            },
+            "analytics": {
+              "sentimentAnalysis": {
+                "title": "Analisis Sentimen",
+                "description": "Pahami nada emosional di balik respons"
+              },
+              "trendIdentification": {
+                "title": "Identifikasi Tren",
+                "description": "Temukan pola dan masalah yang muncul lebih awal"
+              },
+              "actionableReports": {
+                "title": "Laporan yang Dapat Ditindaklanjuti",
+                "description": "Dapatkan rekomendasi spesifik untuk peningkatan"
+              }
+            },
+            "analysisFeatures": {
+              "0": "Analisis sentimen real-time",
+              "1": "Kategorisasi respons otomatis",
+              "2": "Identifikasi dan peringatan tren",
+              "3": "Dasbor pelaporan kustom",
+              "4": "Integrasi dengan sistem CRM",
+              "5": "Generasi wawasan yang dapat ditindaklanjuti"
+            },
+            "dashboard": {
+              "title": "Dasbor Survei Langsung",
+              "responsesToday": "Respons Hari Ini:",
+              "completionRate": "Tingkat Penyelesaian:",
+              "avgSatisfaction": "Kepuasan Rata-rata:",
+              "sentiment": "Sentimen:",
+              "responsesTodayValue": "1.847",
+              "completionRateValue": "85.3%",
+              "avgSatisfactionValue": "4.2/5",
+              "sentimentValue": "78% Positif"
+            },
+            "benefits": {
+              "0": {
+                "metric": "3x",
+                "description": "Tingkat respons lebih tinggi dari survei tradisional"
+              },
+              "1": {
+                "metric": "85%",
+                "description": "Tingkat penyelesaian survei"
+              },
+              "2": {
+                "metric": "60%",
+                "description": "Umpan balik yang lebih terperinci dikumpulkan"
+              },
+              "3": {
+                "metric": "24/7",
+                "description": "Penyebaran survei otomatis"
+              }
+            },
+            "cta": {
+              "title": "Siap Mengumpulkan Wawasan Pelanggan yang Lebih Baik?",
+              "subtitle": "Mulai mengumpulkan umpan balik yang berharga dengan survei percakapan yang benar-benar ingin diselesaikan pelanggan",
+              "primaryBtn": "Luncurkan Kampanye Survei",
+              "secondaryBtn": "Lihat Contoh Survei"
+            }
+          },
+          "proactiveSupport": {
+            "hero": {
+              "title": "Dukungan Pelanggan Proaktif",
+              "description": "Tetap selangkah lebih maju dari masalah pelanggan dengan notifikasi proaktif cerdas. Secara otomatis memberitahu pelanggan tentang pembaruan layanan, perubahan akun, dan informasi penting sebelum mereka perlu menghubungi Anda.",
+              "cta": "Aktifkan Dukungan Proaktif"
+            },
+            "features": {
+              "title": "Fitur Proaktif Cerdas",
+              "subtitle": "Otomatisasi canggih yang mengantisipasi kebutuhan pelanggan dan mencegah masalah",
+              "proactiveNotifications": {
+                "title": "Notifikasi Proaktif",
+                "description": "Secara otomatis memberitahu pelanggan tentang pembaruan, perubahan, atau masalah penting sebelum menjadi masalah.",
+                "benefit1": "Peringatan layanan",
+                "benefit2": "Pembaruan akun",
+                "benefit3": "Notifikasi pencegahan"
+              },
+              "issuePrevention": {
+                "title": "Pencegahan Masalah",
+                "description": "Identifikasi masalah potensial lebih awal dan jangkau pelanggan dengan solusi.",
+                "benefit1": "Deteksi dini",
+                "benefit2": "Tindakan pencegahan",
+                "benefit3": "Resolusi masalah"
+              },
+              "timelyCommunication": {
+                "title": "Komunikasi Tepat Waktu",
+                "description": "Kirim informasi penting pada waktu yang tepat untuk memaksimalkan kepuasan pelanggan.",
+                "benefit1": "Waktu optimal",
+                "benefit2": "Kesadaran urgensi",
+                "benefit3": "Pengiriman terjadwal"
+              }
+            },
+            "notificationTypes": {
+              "title": "Jenis Notifikasi Komprehensif",
+              "subtitle": "Cakup semua aspek komunikasi pelanggan dengan otomatisasi cerdas",
+              "serviceOutages": {
+                "type": "Pemadaman Layanan",
+                "description": "Beritahu pelanggan tentang pemeliharaan terencana atau gangguan layanan yang tidak terduga",
+                "example1": "Jendela pemeliharaan terencana",
+                "example2": "Pemadaman tidak terduga",
+                "example3": "Pembaruan pemulihan layanan",
+                "urgency": "Tinggi",
+                "timing": "Segera"
+              },
+              "accountChanges": {
+                "type": "Perubahan Akun",
+                "description": "Beritahu pelanggan tentang perubahan penting pada akun atau layanan mereka",
+                "example1": "Pembaruan kebijakan",
+                "example2": "Perubahan tarif",
+                "example3": "Modifikasi fitur",
+                "urgency": "Sedang",
+                "timing": "Pemberitahuan awal"
+              },
+              "securityAlerts": {
+                "type": "Peringatan Keamanan",
+                "description": "Peringatkan pelanggan tentang masalah keamanan potensial atau aktivitas mencurigakan",
+                "example1": "Upaya login",
+                "example2": "Perubahan kata sandi",
+                "example3": "Akses akun",
+                "urgency": "Tinggi",
+                "timing": "Real-time"
+              },
+              "productUpdates": {
+                "type": "Pembaruan Produk",
+                "description": "Bagikan informasi tentang fitur baru, peningkatan, atau perubahan",
+                "example1": "Fitur baru",
+                "example2": "Pembaruan aplikasi",
+                "example3": "Peningkatan layanan",
+                "urgency": "Rendah",
+                "timing": "Terjadwal"
+              },
+              "billingNotifications": {
+                "type": "Notifikasi Penagihan",
+                "description": "Komunikasi proaktif tentang penagihan, pembayaran, dan status akun",
+                "example1": "Tanggal jatuh tempo pembayaran",
+                "example2": "Pembayaran gagal",
+                "example3": "Pembaruan kredit",
+                "urgency": "Sedang",
+                "timing": "Pemberitahuan awal"
+              },
+              "deliveryUpdates": {
+                "type": "Pembaruan Pengiriman",
+                "description": "Berikan informasi kepada pelanggan tentang perubahan status pengiriman dan pengiriman",
+                "example1": "Penundaan pengiriman",
+                "example2": "Konfirmasi pengiriman",
+                "example3": "Masalah alamat",
+                "urgency": "Sedang",
+                "timing": "Real-time"
+              }
+            },
+            "urgency": {
+              "high": "Tinggi",
+              "medium": "Sedang",
+              "low": "Rendah"
+            },
+            "labels": {
+              "examples": "Contoh",
+              "timing": "Waktu"
+            },
+            "automationSection": {
+              "title": "Mesin Otomatisasi Tingkat Lanjut",
+              "description": "Sistem otomatisasi cerdas kami terus memantau layanan dan akun pelanggan Anda, secara otomatis memicu notifikasi yang sesuai berdasarkan aturan yang telah ditentukan dan preferensi pelanggan.",
+              "subFeatures": {
+                "realTimeMonitoring": {
+                  "title": "Pemantauan Real-Time",
+                  "description": "Pemantauan sistem dan akun berkelanjutan"
+                },
+                "smartPrioritization": {
+                  "title": "Prioritas Cerdas",
+                  "description": "Peringkat dan pengiriman peringatan cerdas"
+                },
+                "customerPreferences": {
+                  "title": "Preferensi Pelanggan",
+                  "description": "Hormati preferensi komunikasi individu"
+                }
+              },
+              "featuresTitle": "Fitur Otomatisasi",
+              "features": {
+                "realTimeMonitoring": "Pemantauan sistem real-time",
+                "intelligentPrioritization": "Prioritas peringatan cerdas",
+                "preferenceManagement": "Manajemen preferensi pelanggan",
+                "multiChannelDelivery": "Opsi pengiriman multi-saluran",
+                "escalationProtocols": "Protokol eskalasi",
+                "performanceAnalytics": "Analitik kinerja"
+              },
+              "liveMonitoring": {
+                "title": "Pemantauan Langsung",
+                "activeMonitors": "Monitor Aktif:",
+                "activeMonitorsValue": "1.247",
+                "notificationsSent": "Notifikasi Terkirim:",
+                "notificationsSentValue": "3.892",
+                "issuesPrevented": "Masalah yang Dicegah:",
+                "issuesPreventedValue": "156"
+              }
+            },
+            "benefits": {
+              "title": "Dampak Dukungan Proaktif",
+              "subtitle": "Peningkatan terukur dalam kepuasan pelanggan dan efisiensi dukungan",
+              "reactiveCalls": {
+                "metric": "70%",
+                "description": "Pengurangan panggilan dukungan reaktif"
+              },
+              "customerSatisfaction": {
+                "metric": "85%",
+                "description": "Kepuasan pelanggan dengan pembaruan proaktif"
+              },
+              "customerChurn": {
+                "metric": "50%",
+                "description": "Penurunan churn pelanggan"
+              },
+              "automatedMonitoring": {
+                "metric": "24/7",
+                "description": "Pemantauan dan peringatan otomatis"
+              }
+            },
+            "cta": {
+              "title": "Siap Mengatasi Masalah Pelanggan?",
+              "subtitle": "Ubah dukungan pelanggan Anda dengan notifikasi proaktif cerdas dan pencegahan masalah",
+              "startProactiveSupport": "Mulai Dukungan Proaktif",
+              "seeDemo": "Lihat Demo"
+            },
+            "title": "Dukungan Proaktif",
+            "description": "Beritahu pelanggan tentang pembaruan layanan dan informasi penting.",
+            "benefit1": "Komunikasi proaktif",
+            "benefit2": "Pencegahan masalah",
+            "benefit3": "Kepuasan pelanggan"
+          },
+          "seniorCheckCalls": {
+            "hero": {
+              "title": "Panggilan Pemeriksaan Senior & Pemantauan Kesejahteraan",
+              "description": "Berikan ketenangan pikiran bagi keluarga dengan pemeriksaan kesejahteraan bertenaga AI secara teratur untuk lansia. Percakapan yang penuh kasih yang memantau kesehatan, mendeteksi keadaan darurat, dan memastikan keamanan sambil mempertahankan martabat dan kemandirian.",
+              "button": "Mulai Pemantauan Kesejahteraan"
+            },
+            "features": {
+              "title": "Perawatan Senior yang Penuh Kasih",
+              "subtitle": "Teknologi AI yang dirancang khusus untuk kesejahteraan dan keamanan senior",
+              "wellnessMonitoring": {
+                "title": "Pemantauan Kesejahteraan",
+                "description": "Pemeriksaan rutin untuk memantau kesehatan dan kesejahteraan senior dengan percakapan AI yang penuh kasih.",
+                "benefit1": "Jadwal harian/mingguan",
+                "benefit2": "Pelacakan status kesehatan",
+                "benefit3": "Pengingat obat"
+              },
+              "emergencyDetection": {
+                "title": "Deteksi Darurat",
+                "description": "AI canggih mengenali sinyal bahaya dan situasi darurat untuk respons segera.",
+                "benefit1": "Pengenalan krisis",
+                "benefit2": "Kontak darurat",
+                "benefit3": "Peringatan responden pertama"
+              },
+              "flexibleScheduling": {
+                "title": "Penjadwalan Fleksibel",
+                "description": "Jadwal panggilan yang dapat disesuaikan yang beradaptasi dengan preferensi dan kebutuhan individu.",
+                "benefit1": "Waktu yang dipersonalisasi",
+                "benefit2": "Penyesuaian liburan",
+                "benefit3": "Koordinasi keluarga"
+              }
+            },
+            "checkTypes": {
+              "title": "Layanan Pemeriksaan Komprehensif",
+              "subtitle": "Pemantauan kesejahteraan yang fleksibel yang disesuaikan dengan kebutuhan individu",
+              "dailyWellness": {
+                "type": "Pemeriksaan Kesejahteraan Harian",
+                "description": "Panggilan harian singkat untuk memastikan lansia aman dan sehat",
+                "frequency": "Harian pada waktu yang disukai",
+                "duration": "3-5 menit",
+                "focus1": "Kesejahteraan umum",
+                "focus2": "Kepatuhan obat",
+                "focus3": "Konfirmasi keamanan"
+              },
+              "weeklyHealth": {
+                "type": "Tinjauan Kesehatan Mingguan",
+                "description": "Penilaian kesehatan dan kebutuhan mingguan yang komprehensif",
+                "frequency": "Mingguan pada hari yang dipilih",
+                "duration": "10-15 menit",
+                "focus1": "Perubahan kesehatan",
+                "focus2": "Pengingat janji temu",
+                "focus3": "Pembaruan keluarga"
+              },
+              "emergencyResponse": {
+                "type": "Respons Darurat",
+                "description": "Respons segera terhadap panggilan yang terlewat atau sinyal bahaya",
+                "frequency": "Sesuai kebutuhan",
+                "duration": "Variabel",
+                "focus1": "Verifikasi kesejahteraan",
+                "focus2": "Layanan darurat",
+                "focus3": "Notifikasi keluarga"
+              },
+              "socialConnection": {
+                "type": "Koneksi Sosial",
+                "description": "Percakapan ramah untuk mengurangi isolasi dan kesepian",
+                "frequency": "Dua mingguan atau bulanan",
+                "duration": "15-20 menit",
+                "focus1": "Persahabatan",
+                "focus2": "Kesehatan mental",
+                "focus3": "Saran aktivitas"
+              },
+              "labels": {
+                "frequency": "Frekuensi",
+                "duration": "Durasi",
+                "focusAreas": "Area Fokus:"
+              }
+            },
+            "safetyProtocols": {
+              "title": "Protokol Keamanan Tingkat Lanjut",
+              "description": "Sistem panggilan pemeriksaan senior kami mencakup langkah-langkah keamanan komprehensif yang dirancang untuk mendeteksi keadaan darurat, berkoordinasi dengan anggota keluarga, dan memastikan respons cepat saat dibutuhkan.",
+              "emergencyResponse": {
+                "title": "Respons Darurat",
+                "description": "Eskalasi segera untuk panggilan yang terlewat atau bahaya"
+              },
+              "familyCoordination": {
+                "title": "Koordinasi Keluarga",
+                "description": "Notifikasi otomatis ke keluarga dan pengasuh"
+              },
+              "healthcareIntegration": {
+                "title": "Integrasi Layanan Kesehatan",
+                "description": "Koordinasi dengan penyedia layanan kesehatan dan layanan"
+              },
+              "featuresTitle": "Fitur Keamanan",
+              "protocols": {
+                "missedCallEscalation": "Prosedur eskalasi panggilan yang terlewat",
+                "emergencyKeyword": "Pengenalan kata kunci darurat",
+                "familyNotifications": "Notifikasi keluarga dan pengasuh",
+                "healthcareProvider": "Integrasi penyedia layanan kesehatan",
+                "emergencyServices": "Koordinasi layanan darurat lokal",
+                "medicalAlert": "Kompatibilitas sistem peringatan medis"
+              }
+            },
+            "benefits": {
+              "title": "Dampak Pemantauan Kesejahteraan",
+              "subtitle": "Peningkatan terukur dalam keamanan senior dan ketenangan pikiran keluarga",
+              "seniorSatisfaction": {
+                "metric": "95%",
+                "description": "Kepuasan senior dengan pendamping AI"
+              },
+              "emergencyReduction": {
+                "metric": "40%",
+                "description": "Pengurangan insiden darurat"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "Ketersediaan respons darurat"
+              },
+              "familyPeace": {
+                "metric": "85%",
+                "description": "Peningkatan ketenangan pikiran keluarga"
+              }
+            },
+            "cta": {
+              "title": "Siap Memastikan Keamanan Senior?",
+              "description": "Berikan ketenangan pikiran dengan pemantauan kesejahteraan AI yang penuh kasih untuk orang yang Anda cintai",
+              "startButton": "Mulai Pemantauan",
+              "learnButton": "Pelajari Lebih Lanjut"
+            }
+          },
+          "subscriptionRenewals": {
+            "hero": {
+              "title": "Otomatisasi Perpanjangan Langganan",
+              "description": "Maksimalkan perpanjangan langganan dengan kampanye bertenaga AI cerdas yang melibatkan pelanggan pada waktu yang tepat dengan pesan yang dipersonalisasi, memproses pembayaran dengan mulus, dan mengurangi churn melalui strategi retensi proaktif.",
+              "cta": "Otomatiskan Perpanjangan"
+            },
+            "features": {
+              "title": "Manajemen Perpanjangan Cerdas",
+              "subtitle": "Otomatisasi komprehensif yang memaksimalkan perpanjangan dan mengurangi churn",
+              "automatedRenewalReminders": {
+                "title": "Pengingat Perpanjangan Otomatis",
+                "description": "Pengingat cerdas yang dikirim pada waktu optimal untuk memaksimalkan tingkat perpanjangan dan mengurangi churn.",
+                "benefit1": "Waktu yang dipersonalisasi",
+                "benefit2": "Beberapa titik sentuh",
+                "benefit3": "Optimalisasi perpanjangan"
+              },
+              "paymentProcessing": {
+                "title": "Pemrosesan Pembayaran",
+                "description": "Pengumpulan dan pemrosesan pembayaran yang mulus untuk perpanjangan langganan melalui telepon.",
+                "benefit1": "Transaksi aman",
+                "benefit2": "Beberapa metode pembayaran",
+                "benefit3": "Pemulihan pembayaran gagal"
+              },
+              "customerRetention": {
+                "title": "Retensi Pelanggan",
+                "description": "Keterlibatan proaktif untuk mengatasi masalah dan mempertahankan pelanggan berharga.",
+                "benefit1": "Pencegahan churn",
+                "benefit2": "Penguatan nilai",
+                "benefit3": "Membangun loyalitas"
+              }
+            },
+            "renewalProcess": {
+              "title": "Garis Waktu Perpanjangan Strategis",
+              "subtitle": "Urutan titik sentuh yang dioptimalkan untuk memaksimalkan keberhasilan perpanjangan",
+              "step1": {
+                "title": "Notifikasi Awal",
+                "description": "Pengingat awal dikirim 30 hari sebelum tanggal perpanjangan",
+                "timing": "30 hari sebelumnya",
+                "action": "Kesadaran dan persiapan"
+              },
+              "step2": {
+                "title": "Penguatan Nilai",
+                "description": "Sorot manfaat langganan dan statistik penggunaan",
+                "timing": "14 hari sebelumnya",
+                "action": "Demonstrasi nilai"
+              },
+              "step3": {
+                "title": "Konfirmasi Perpanjangan",
+                "description": "Permintaan perpanjangan langsung dengan pemrosesan pembayaran",
+                "timing": "7 hari sebelumnya",
+                "action": "Pemrosesan perpanjangan"
+              },
+              "step4": {
+                "title": "Penawaran Kesempatan Terakhir",
+                "description": "Pengingat terakhir dengan penawaran retensi khusus",
+                "timing": "1 hari sebelumnya",
+                "action": "Upaya retensi"
+              }
+            },
+            "subscriptionTypes": {
+              "title": "Strategi Khusus Industri",
+              "subtitle": "Pendekatan perpanjangan yang disesuaikan untuk model langganan yang berbeda",
+              "saas": {
+                "type": "Perangkat Lunak sebagai Layanan (SaaS)",
+                "description": "Perpanjangan langganan perangkat lunak bulanan dan tahunan",
+                "strategy1": "Laporan penggunaan fitur",
+                "strategy2": "Demonstrasi ROI",
+                "strategy3": "Peluang peningkatan"
+              },
+              "mediaEntertainment": {
+                "type": "Media & Hiburan",
+                "description": "Layanan streaming dan langganan konten digital",
+                "strategy1": "Rekomendasi konten",
+                "strategy2": "Statistik penayangan",
+                "strategy3": "Penawaran eksklusif"
+              },
+              "professionalServices": {
+                "type": "Layanan Profesional",
+                "description": "Konsultasi, pelatihan, dan perpanjangan layanan profesional",
+                "strategy1": "Metrik keberhasilan",
+                "strategy2": "Membangun hubungan",
+                "strategy3": "Perluasan layanan"
+              },
+              "ecommerce": {
+                "type": "Langganan E-commerce",
+                "description": "Pengiriman produk dan perpanjangan keanggotaan",
+                "strategy1": "Kenyamanan pengiriman",
+                "strategy2": "Penghematan biaya",
+                "strategy3": "Variasi produk"
+              },
+              "renewalStrategies": "Strategi Perpanjangan:"
+            },
+            "retention": {
+              "title": "Strategi Retensi Tingkat Lanjut",
+              "description": "AI kami menganalisis perilaku pelanggan, pola penggunaan, dan tingkat keterlibatan untuk menentukan pendekatan retensi yang paling efektif untuk setiap pelanggan, memaksimalkan tingkat perpanjangan dan nilai seumur hidup pelanggan.",
+              "optimalTiming": {
+                "title": "Waktu Optimal",
+                "description": "AI menentukan waktu kontak terbaik untuk setiap pelanggan"
+              },
+              "usageAnalytics": {
+                "title": "Analitik Penggunaan",
+                "description": "Manfaatkan data pelanggan untuk pendekatan yang dipersonalisasi"
+              },
+              "segmentedCampaigns": {
+                "title": "Kampanye Tersegmentasi",
+                "description": "Pesan yang disesuaikan untuk segmen pelanggan yang berbeda"
+              },
+              "tactics": {
+                "title": "Taktik Retensi",
+                "tactic1": "Penawaran perpanjangan yang dipersonalisasi",
+                "tactic2": "Analitik dan wawasan penggunaan",
+                "tactic3": "Hadiah dan diskon loyalitas",
+                "tactic4": "Opsi peningkatan layanan",
+                "tactic5": "Fleksibilitas rencana pembayaran",
+                "tactic6": "Kampanye dapatkan kembali"
+              },
+              "dashboard": {
+                "title": "Dasbor Perpanjangan",
+                "renewalsThisMonth": "Perpanjangan Bulan Ini:",
+                "renewalRate": "Tingkat Perpanjangan:",
+                "revenueRetained": "Pendapatan yang Dipertahankan:"
+              }
+            },
+            "benefits": {
+              "title": "Hasil Kinerja Perpanjangan",
+              "subtitle": "Dampak yang terbukti pada metrik bisnis langganan",
+              "metric1": {
+                "value": "85%",
+                "description": "Tingkat perpanjangan langganan"
+              },
+              "metric2": {
+                "value": "40%",
+                "description": "Pengurangan churn yang tidak disengaja"
+              },
+              "metric3": {
+                "value": "60%",
+                "description": "Penurunan kegagalan pembayaran"
+              },
+              "metric4": {
+                "value": "25%",
+                "description": "Peningkatan nilai seumur hidup pelanggan"
+              }
+            },
+            "cta": {
+              "title": "Siap Memaksimalkan Perpanjangan Langganan?",
+              "subtitle": "Otomatiskan proses perpanjangan Anda dan kurangi churn dengan kampanye bertenaga AI cerdas",
+              "primaryButton": "Mulai Otomatisasi Perpanjangan",
+              "secondaryButton": "Hitung ROI"
+            }
+          },
+          "header": "Solusi Outbound",
+          "description": "Libatkan pelanggan secara proaktif dengan kampanye panggilan keluar otomatis",
+          "collections": {
+            "title": "Layanan Penagihan",
+            "description": "Otomatiskan pengingat pembayaran dan proses penagihan.",
+            "benefit1": "Penagihan lebih cepat",
+            "benefit2": "Pengaturan pembayaran",
+            "benefit3": "Kepatuhan"
+          },
+          "reactivation": {
+            "title": "Reaktivasi Pelanggan",
+            "description": "Libatkan kembali pelanggan yang tidak aktif dengan jangkauan yang dipersonalisasi.",
+            "benefit1": "Kampanye dapatkan kembali",
+            "benefit2": "Penawaran yang dipersonalisasi",
+            "benefit3": "Retensi pelanggan"
+          },
+          "seniorChecks": {
+            "title": "Panggilan Pemeriksaan Senior",
+            "description": "Berikan pemeriksaan kesejahteraan untuk lansia secara teratur atau sesuai permintaan.",
+            "benefit1": "Pemantauan kesejahteraan",
+            "benefit2": "Eskalasi darurat",
+            "benefit3": "Ketenangan pikiran"
+          },
+          "campaigns": {
+            "title": "Kampanye Skala Besar",
+            "description": "Jalankan kampanye pemasaran dan informasi bervolume tinggi.",
+            "benefit1": "Jangkauan massal",
+            "benefit2": "Pesan yang dipersonalisasi",
+            "benefit3": "Hemat biaya"
+          },
+          "renewals": {
+            "title": "Perpanjangan Langganan",
+            "description": "Otomatiskan pengingat dan pemrosesan perpanjangan langganan.",
+            "benefit1": "Perpanjangan otomatis",
+            "benefit2": "Pengurangan churn",
+            "benefit3": "Perlindungan pendapatan"
+          },
+          "surveys": {
+            "title": "Survei Pelanggan",
+            "description": "Kumpulkan umpan balik pasca-layanan secara otomatis.",
+            "benefit1": "Pengumpulan umpan balik",
+            "benefit2": "Wawasan kualitas",
+            "benefit3": "Data peningkatan"
+          }
+        },
+        "hero": {
+          "title": "Solusi Suara AI untuk Setiap Kebutuhan Bisnis",
+          "description": "Temukan solusi otomatisasi suara inbound dan outbound komprehensif yang dirancang untuk mengubah komunikasi pelanggan dan operasi bisnis Anda."
+        },
+        "cta": {
+          "title": "Siap Mengubah Komunikasi Bisnis Anda?",
+          "description": "Temukan bagaimana solusi suara AI kami dapat mengotomatiskan interaksi pelanggan Anda dan mendorong pertumbuhan bisnis",
+          "button": "Jadwalkan Konsultasi"
+        },
+        "learnMore": "Pelajari Lebih Lanjut"
+      }
+    }
+  }
+}

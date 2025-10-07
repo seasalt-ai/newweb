@@ -1,0 +1,1720 @@
+{
+  "header": {
+    "products": "Produits",
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "channels": "Canaux",
+    "pricing": "Tarifs",
+    "compareUs": "Nous comparer",
+    "blog": "Blog",
+    "login": "Connexion",
+    "startForFree": "S'inscrire",
+    "backToChannels": "Retour aux Canaux",
+    "allChannelsOverview": "Aperçu de tous les canaux",
+    "solutionsDropdown": {
+      "seahealth": "SeaHealth - Soins de santé optimisés",
+      "useCases": "Cas d'utilisation"
+    },
+    "useCasesDropdown": {
+      "salesMarketing": "Pour les ventes et le marketing",
+      "customerSupport": "Pour le support client",
+      "aiAutomation": "IA et Automatisation",
+      "smeOwners": "Pour les propriétaires de PME"
+    },
+    "channelsDropdown": {
+      "whatsapp": "WhatsApp",
+      "phoneCalls": "Appels téléphoniques",
+      "sms": "SMS",
+      "websiteChat": "Chat de site Web",
+      "instagram": "Instagram",
+      "facebookMessenger": "Facebook Messenger",
+      "contactForms": "Formulaires de contact",
+      "line": "Line",
+      "websiteWidget": "Widget de site Web"
+    },
+    "comparisonsDropdown": {
+      "title": "Comparaisons",
+      "allComparisonsOverview": "Aperçu de toutes les comparaisons"
+    },
+    "compareDropdown": {
+      "allComparisonsOverview": "Aperçu de toutes les comparaisons"
+    },
+    "signIn": "Se connecter"
+  },
+  "footer": {
+    "company": {
+      "title": "Entreprise",
+      "contact": "Nous contacter",
+      "about": "À propos de nous",
+      "careers": "Carrières"
+    },
+    "copyright": "© 2020 - {{year}} Seasalt.ai. Tous droits réservés.",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "security": "Sécurité",
+    "compliance": {
+      "soc2": "Conforme SOC 2",
+      "hipaa": "HIPAA Disponible",
+      "uptime": "99.9% Uptime"
+    },
+    "cta": {
+      "title": "Prêt à étendre votre portée à des millions?",
+      "startFreeTrial": "Inscrivez-vous gratuitement",
+      "scheduleDemo": "Planifier une démo",
+      "subtitle": "Rejoignez des milliers d'entreprises utilisant SeaX pour atteindre plus de clients, générer plus de prospects et croître plus rapidement.",
+      "signUpNow": "Inscrivez-vous maintenant"
+    },
+    "tagline": "Un centre de contact tout-en-un conçu pour les petites entreprises. Automatisez le support, capturez chaque prospect et unifiez toutes vos conversations client.",
+    "seahealth": "SeaHealth - Soins de santé optimisés",
+    "productWiki": "Wiki du produit",
+    "apiReferences": "Références API",
+    "madeWith": {
+      "text": "Fait avec",
+      "inCityOf": "dans la ville de"
+    },
+    "inCityOf": "dans",
+    "description": {
+      "company": "Atteignez des millions instantanément. La plateforme ultime pour envoyer des millions de SMS, de messages WhatsApp et d'appels téléphoniques automatisés. Remplissez votre pipeline, générez des revenus et développez votre entreprise."
+    },
+    "section": {
+      "channels": "Canaux",
+      "solutions": "Solutions",
+      "industries": "Industries"
+    },
+    "links": {
+      "channels": {
+        "smsOverview": "Aperçu SMS",
+        "smsLocal": "Numéro local (10DLC)",
+        "smsTollFree": "Numéro sans frais",
+        "smsShortCode": "Code court",
+        "whatsapp": "Plateforme WhatsApp Business",
+        "voice": "Voix d'appel téléphonique"
+      },
+      "solutions": {
+        "leadGeneration": "Génération de prospects",
+        "marketingAutomation": "Automatisation du marketing",
+        "customerEngagement": "Engagement client",
+        "appointmentReminders": "Rappels de rendez-vous",
+        "emergencyAlerts": "Alertes d'urgence"
+      },
+      "industries": {
+        "ecommerceRetail": "E-commerce et Vente au détail",
+        "realEstate": "Immobilier",
+        "politicalCampaigns": "Campagnes politiques",
+        "healthcare": "Soins de santé",
+        "financialServices": "Services financiers"
+      },
+      "company": {
+        "features": "Caractéristiques",
+        "pricing": "Tarifs",
+        "productWiki": "Wiki du produit",
+        "apiReferences": "Références API",
+        "careers": "Carrières"
+      }
+    },
+    "stats": {
+      "messagesDaily": "10M+ Messages par jour",
+      "activeUsers": "500K+ Utilisateurs actifs",
+      "uptime": "99.9% Uptime"
+    },
+    "legal": {
+      "privacyPolicy": "Politique de confidentialité",
+      "termsOfService": "Conditions d'utilisation"
+    },
+    "contact": {
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "Seattle, WA"
+    },
+    "logo": {
+      "alt": "SeaX"
+    },
+    "technical": {
+      "tenDlc": "10DLC",
+      "tollFree": "8XX",
+      "sms": "SMS",
+      "shortCode": "xxxxx"
+    }
+  },
+  "hero": {
+    "title": {
+      "line1": "Arrêtez de jongler avec les applications",
+      "line2": "Unifiez chaque client",
+      "line3": "Appel, WhatsApp et Chat",
+      "line4": "dans une seule boîte de réception simple."
+    },
+    "titleWithGradient": "Arrêtez de jongler avec les applications. <1>Unifiez chaque client</1> Appel, SMS, WhatsApp et Chat dans une seule boîte de réception simple.",
+    "description": "Seasalt.ai est le centre de contact tout-en-un conçu pour les petites entreprises. Automatisez le support, capturez chaque prospect et gérez toutes vos conversations à partir d'un seul écran.",
+    "signUp": "S'inscrire",
+    "seeDemo": "Réserver une démo",
+    "trustedBy": "Approuvé par les entreprises en croissance du monde entier",
+    "developerMessage": "Seasalt.ai apporte aux développeurs un outil de communication agentique pour l'<1>utilisation d'outils</1> suivante:",
+    "developerTools": {
+      "phoneUse": "utilisation du téléphone",
+      "messageUse": "utilisation des messages",
+      "emailUse": "utilisation des e-mails",
+      "meetingUse": "utilisation des réunions"
+    },
+    "unifiedInbox": "Boîte de réception unifiée",
+    "appNames": {
+      "whatsapp": "WhatsApp",
+      "sms": "SMS",
+      "phone": "Téléphone",
+      "chat": "Chat"
+    }
+  },
+  "features": {
+    "mainTitle": "Le centre de contact copilote omnicanal pour les PME",
+    "mainDescription": "Mélangez de manière transparente l'automatisation de l'IA avec l'expertise humaine sur tous les canaux. Donnez à votre équipe les moyens de fournir un service exceptionnel et de stimuler la croissance.",
+    "omniChannel": {
+      "title": "Boîte de réception omnicanal unifiée",
+      "description": "Ne manquez jamais un prospect. Visualisez chaque interaction client de chaque canal dans une vue unifiée, permettant une collaboration homme-IA transparente et faisant gagner à votre équipe plus de 5 heures par semaine."
+    },
+    "aiVoicebot": {
+      "title": "AI Voicebot & Chatbot",
+      "description": "Votre premier employé numérique travaille 24h/24 et 7j/7. Automatisez jusqu'à 80% des requêtes de routine, réservez plus de 5 rendez-vous par jour et transférez de manière transparente aux agents humains si nécessaire."
+    },
+    "voiceWhatsapp": {
+      "title": "Intégration native de la voix et de WhatsApp",
+      "description": "Servez chaque client sur son canal préféré, de manière transparente. Visualisez instantanément l'historique des discussions WhatsApp lorsqu'ils appellent."
+    },
+    "outboundMarketing": {
+      "title": "Campagnes de marketing sortant",
+      "description": "Créez des parcours clients transparents et en boucle fermée. Lancez des campagnes ciblées et gérez toutes les réponses sur la même plateforme."
+    },
+    "enterpriseSecurity": {
+      "title": "Sécurité de niveau entreprise",
+      "description": "Solution conforme à la loi HIPAA avec un cryptage de niveau bancaire. Ayez l'assurance que les données de vos clients sont toujours protégées."
+    },
+    "predictablePricing": {
+      "title": "Tarification simple et prévisible",
+      "description": "Budgétez en toute confiance. Une tarification transparente signifie que vous savez exactly ce que vous paierez chaque mois."
+    },
+    "testimonial": {
+      "quote": "Je recommande Seasalt.ai pour son puissant système de base de connaissances et son support omnicanal!",
+      "author": "— Avis d'un architecte de solutions"
+    },
+    "knowledgeBase": {
+      "title": "Base de connaissances"
+    }
+  },
+  "howItWorks": {
+    "title": "Commencez en 3 étapes simples",
+    "description1": "Transformez vos communications client en quelques minutes, pas en mois.",
+    "description2": "Aucune configuration complexe ni connaissance technique requise.",
+    "connectYourChannels": {
+      "title": "Connectez vos canaux",
+      "description": "Connectez votre téléphone, WhatsApp, SMS, chat de site Web et réseaux sociaux en quelques minutes. Aucune expertise technique requise."
+    },
+    "automateRoutineWork": {
+      "title": "Automatisez le travail de routine",
+      "description": "Configurez l'IA pour gérer les questions courantes telles que \"Où est ma commande?\" et prendre des rendez-vous automatiquement."
+    },
+    "unifyYourTeam": {
+      "title": "Unifiez votre équipe",
+      "description": "Votre équipe voit l'historique complet des conversations lorsque les clients passent du chat aux appels téléphoniques."
+    },
+    "signUpNow": "Inscrivez-vous maintenant",
+    "setupTime": "Configuration en moins de 5 minutes"
+  },
+  "useCases": {
+    "title": "Des cas d'utilisation puissants pour tous les besoins de l'entreprise",
+    "description": "Des centres de contact aux campagnes marketing, découvrez comment Seasalt.ai s'adapte à vos besoins spécifiques avec des fonctionnalités de niveau entreprise dans une plateforme simple et unifiée.",
+    "keyFeatures": "Caractéristiques principales",
+    "contactCenter": {
+      "title": "Opérations du centre de contact",
+      "headline": "Centre de contact professionnel avec gestion complète des appels",
+      "description": "Transformez votre entreprise en un centre de contact professionnel avec des fonctionnalités de niveau entreprise.",
+      "features": {
+        "ivr": "Système IVR avancé pour le routage des appels",
+        "recording": "Enregistrement et transcription automatiques des appels",
+        "voicemail": "Messagerie vocale intelligente avec notifications",
+        "analytics": "Analyse et rapports d'appels en temps réel",
+        "dashboards": "Tableaux de bord des performances des agents",
+        "queueManagement": "Gestion de la file d'attente des appels"
+      }
+    },
+    "virtualReceptionist": {
+      "title": "Réceptionniste virtuelle 24/7",
+      "headline": "Ne manquez plus jamais un appel grâce à la réception alimentée par l'IA",
+      "description": "Déployez un voicebot intelligent qui fonctionne 24 heures sur 24 pour capturer les appels entrants et qualifier les prospects.",
+      "features": {
+        "aiVoicebot": "Le voicebot IA répond aux appels 24/7",
+        "appointments": "Prise de rendez-vous et planification",
+        "leadQualification": "Qualification et routage des prospects",
+        "customGreeting": "Accueil et réponses personnalisés",
+        "handoff": "Transfert transparent aux agents humains",
+        "multiLanguage": "Support multilingue"
+      }
+    },
+    "smsManagement": {
+      "title": "Gestion unifiée des SMS",
+      "headline": "Gérez plusieurs lignes téléphoniques et SMS bidirectionnels sur une seule plateforme",
+      "description": "Consolidez toutes vos lignes téléphoniques professionnelles et vos communications SMS en une seule plateforme puissante.",
+      "features": {
+        "multipleLines": "Plusieurs lignes téléphoniques dans un seul tableau de bord",
+        "twoWaySms": "Conversations SMS bidirectionnelles",
+        "unifiedHistory": "Historique unifié des SMS et des appels",
+        "teamCollaboration": "Collaboration d'équipe sur les messages",
+        "automatedResponses": "Réponses SMS automatisées",
+        "numberSupport": "Support de numéros locaux et sans frais"
+      }
+    },
+    "smsMarketing": {
+      "title": "Campagnes de marketing par SMS",
+      "headline": "Lancez de puissantes campagnes SMS A2P avec 10DLC et sans frais",
+      "description": "Exécutez des campagnes de marketing par SMS professionnelles avec une haute délivrabilité et une conformité élevée.",
+      "features": {
+        "tenDlc": "Campagnes enregistrées 10DLC",
+        "tollFree": "Support de numéros sans frais et de codes courts",
+        "highVolume": "Livraison de messages à grand volume",
+        "analytics": "Analyse des performances des campagnes",
+        "compliance": "Gestion de la conformité et des désabonnements",
+        "dripCampaigns": "Campagnes de goutte à goutte automatisées"
+      }
+    },
+    "whatsappBusiness": {
+      "title": "Campagnes WhatsApp Business",
+      "headline": "Atteignez des clients du monde entier avec la plateforme WhatsApp Business",
+      "description": "Lancez des campagnes WhatsApp ciblées à l'aide de la plateforme officielle WhatsApp Business.",
+      "features": {
+        "apiIntegration": "Intégration de l'API WhatsApp Business",
+        "templateMessages": "Campagnes de messages modèles",
+        "automatedChatbot": "Réponses de chatbot automatisées",
+        "richMedia": "Support de messages multimédias riches",
+        "globalReach": "Portée client mondiale",
+        "analytics": "Analyse des conversations"
+      }
+    },
+    "aiSupport": {
+      "title": "Support IA intelligent par chatbot et voicebot",
+      "headline": "Un support client alimenté par l'IA qui ne dort jamais",
+      "description": "Déployez des chatbots intelligents sur tous vos canaux de communication pour gérer les demandes des clients 24/7.",
+      "features": {
+        "automated24x7": "Support client automatisé 24/7",
+        "multiChannel": "Déploiement de chatbot multicanal",
+        "instantResponse": "Réponse instantanée aux requêtes courantes",
+        "humanHandoff": "Transfert transparent à un agent humain",
+        "continuousLearning": "Apprentissage et amélioration continus",
+        "knowledgeBase": "Intégration d'une base de connaissances personnalisée"
+      }
+    },
+    "cta": {
+      "title": "Prêt à transformer les communications de votre entreprise?",
+      "description": "Choisissez les cas d'utilisation qui correspondent aux besoins de votre entreprise. Commencez avec notre plan gratuit et évoluez à mesure que vous grandissez.",
+      "signUp": "S'inscrire",
+      "bookDemo": "Réserver une démo"
+    }
+  },
+  "phoneBanner": {
+    "callText": "Appelez",
+    "phoneNumber": "+1 (SMB)-AI-AGENT",
+    "bookingText": "pour réserver une réunion avec l'agent SeaVoice AI.",
+    "availability": "Disponible 24/7"
+  },
+  "problemSolution": {
+    "title": "Vous perdez des prospects dans un dédale d'applications et de boîtes de réception?",
+    "description": "Vos clients essaient de vous joindre partout. Un message manqué est une vente manquée. Seasalt.ai rassemble toutes vos communications en un seul endroit, pour que vous ne manquiez jamais une opportunité.",
+    "problems": {
+      "fragmented": {
+        "title": "Conversations fragmentées",
+        "description": "Jongler entre WhatsApp, les journaux d'appels et le chat Web crée le chaos et fait perdre du temps."
+      },
+      "lostRevenue": {
+        "title": "Perte de revenus",
+        "description": "Les messages manqués en dehors des heures d'ouverture et les réponses lentes signifient des prospects perdus et des clients frustrés."
+      },
+      "operational": {
+        "title": "Surcharge opérationnelle",
+        "description": "Votre équipe est débordée à gérer trop d'outils au lieu de se concentrer sur les clients."
+      }
+    },
+    "solution": {
+      "title": "Seasalt.ai: Votre solution copilote omnicanal",
+      "hubTitle": "Hub omnicanal unifié",
+      "subtitle": "Agents IA et humains, 24/7",
+      "tabs": {
+        "support": "Support",
+        "marketing": "Marketing"
+      },
+      "features": {
+        "marketing": {
+          "title": "Copilotez vos campagnes marketing",
+          "description": "Acquérez plus de clients avec des campagnes sortantes pilotées par l'IA et un nurturing intelligent des prospects."
+        },
+        "support": {
+          "title": "Pilotez automatiquement votre support client",
+          "description": "Réduisez les coûts de support avec des agents IA 24/7 qui gèrent les requêtes de routine et un transfert transparent à un agent humain."
+        },
+        "human": {
+          "title": "Ne perdez jamais le contact humain",
+          "description": "Choisissez votre niveau d'automatisation: Humain uniquement, Copilote IA ou Pilote automatique complet en fonction de vos besoins."
+        }
+      },
+      "cta": "Utilisez Seasalt.ai pour résoudre ce problème"
+    },
+    "mockData": {
+      "supportTickets": {
+        "sarah": {
+          "name": "Sarah Johnson",
+          "description": "Appel téléphonique concernant l'état de la commande",
+          "timeAgo": "il y a 2m"
+        },
+        "mike": {
+          "name": "Mike Chen",
+          "description": "WhatsApp: Question sur l'expédition",
+          "timeAgo": "il y a 5m"
+        },
+        "lisa": {
+          "name": "Lisa Park",
+          "description": "Chat du site Web: Demande de produit",
+          "timeAgo": "il y a 8m"
+        },
+        "david": {
+          "name": "David Kim",
+          "description": "Appel de support: Problème technique",
+          "timeAgo": "il y a 12m"
+        }
+      },
+      "campaigns": {
+        "blackFriday": {
+          "name": "Campagne du Black Friday",
+          "description": "SMS: 2 847 envoyés • 312 réponses",
+          "result": "+47 prospects"
+        },
+        "whatsappLaunch": {
+          "name": "Lancement de produit WhatsApp",
+          "description": "1 523 messages • 89 conversations",
+          "result": "+23 ventes"
+        },
+        "cartRecovery": {
+          "name": "Récupération de panier abandonné",
+          "description": "E-mail + SMS: 156 récupérés",
+          "result": "+2k"
+        },
+        "followUp": {
+          "name": "Campagne d'appels de suivi",
+          "description": "AI Voicebot: 89 appels • 34 rdv",
+          "result": "+34 rdv"
+        }
+      }
+    }
+  },
+  "supportPlan": {
+    "title": "Plan de support",
+    "priceNote": "*Tous les prix sont en dollars américains",
+    "trial": {
+      "title": "Essai",
+      "price": "0 $",
+      "features": {
+        "diy": "Bricolage avec le wiki du produit",
+        "email": "E-mail (info@seasalt.ai)",
+        "chat": "ou discutez avec le support client (sur cette page)"
+      }
+    },
+    "launch": {
+      "title": "Lancement",
+      "startsAt": "Commence à",
+      "minPrice": "500 $",
+      "upTo": "jusqu'à",
+      "maxPrice": "10 000 $",
+      "duration": "par mois pendant 3 mois",
+      "description": "Avec le plan de support de lancement, notre équipe s'engage à fournir des conseils professionnels dans les domaines suivants:",
+      "features": {
+        "meetings": {
+          "title": "Réunions individuelles illimitées:",
+          "description": "Sessions personnalisées avec l'équipe SeaChat."
+        },
+        "promptTuning": {
+          "title": "Réglage des invites:",
+          "description": "Personnalisation pour les applications de chat et vocales."
+        },
+        "guidance": {
+          "title": "Conseils en matière de conception et techniques:",
+          "description": "Conseils d'experts sur les aspects de conception et techniques."
+        },
+        "launchSupport": {
+          "title": "Support au lancement de l'agent IA:",
+          "description": "Assistance complète tout au long du processus de lancement."
+        },
+        "marketStrategy": {
+          "title": "Stratégie de mise sur le marché:",
+          "description": "Planification stratégique pour l'entrée sur le marché."
+        },
+        "successfulLaunch": {
+          "title": "Lancement réussi de l'agent IA:",
+          "description": "Réalisez un lancement réussi en 4 à 6 semaines."
+        },
+        "postLaunch": {
+          "title": "Itération et amélioration post-lancement:",
+          "description": "Amélioration continue basée sur l'utilisation et les commentaires."
+        },
+        "operational": {
+          "title": "Stabilité opérationnelle:",
+          "description": "Établissez des procédures d'exploitation standard pour le fonctionnement à long terme des agents IA."
+        }
+      }
+    }
+  },
+  "productDropdown": {
+    "mainSite": {
+      "title": "Site principal de Seasalt.ai",
+      "description": "Tous les produits et solutions"
+    },
+    "productsLabel": "Produits"
+  },
+  "industries": {
+    "title": "Servez chaque industrie en toute confiance",
+    "description": "Des soins de santé à la fintech, notre plateforme s'adapte aux exigences uniques de votre secteur avec des fonctionnalités spécialisées et des normes de conformité.",
+    "cta": {
+      "title": "Prêt à révolutionner votre industrie?",
+      "description": "Rejoignez les leaders de l'industrie qui font confiance à Seasalt.ai pour offrir des expériences client exceptionnelles tout en répondant à des exigences réglementaires et opérationnelles spécifiques.",
+      "signUp": "S'inscrire",
+      "bookDemo": "Réserver une démo"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← Retour à l'accueil"
+      },
+      "hero": {
+        "title": "Solutions IA pour",
+        "signUp": "Commencez gratuitement",
+        "seeDemo": "Voir la démo",
+        "hipaaOffering": "Également disponible: conforme à la loi HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "Solutions - Seasalt.ai",
+        "descriptionPrefix": "Découvrez comment Seasalt.ai aide",
+        "descriptionSuffix": "les entreprises à améliorer les communications client et à stimuler la croissance."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "Ce que"
+      },
+      "benefits": {
+        "title": "Pourquoi choisir Seasalt.ai pour",
+        "description": "Notre plateforme alimentée par l'IA rationalise les communications et automatise les flux de travail pour"
+      },
+      "useCases": {
+        "title": "Cas d'utilisation courants",
+        "description": {
+          "start": "Découvrez comment notre plateforme transforme",
+          "end": "les opérations avec une automatisation intelligente"
+        },
+        "customerSupport": {
+          "title": "Support client 24/7",
+          "description": "Fournissez des réponses instantanées aux demandes des clients sur tous les canaux"
+        },
+        "leadGeneration": {
+          "title": "Génération de prospects",
+          "description": "Capturez et qualifiez automatiquement les prospects avec des conversations alimentées par l'IA"
+        },
+        "analytics": {
+          "title": "Analyse et informations",
+          "description": "Suivez les performances et obtenez des informations sur les interactions client"
+        },
+        "subtitle": "Découvrez comment notre plateforme prend en charge chaque aspect de la gestion de l'éducation",
+        "case1": {
+          "title": "Systèmes d'information sur les étudiants",
+          "description": "Centralisez les dossiers des étudiants, les notes et le suivi des progrès académiques"
+        },
+        "case2": {
+          "title": "Gestion de l'apprentissage",
+          "description": "Proposez des cours, suivez les progrès et gérez le contenu éducatif"
+        },
+        "case3": {
+          "title": "Outils administratifs",
+          "description": "Rationalisez les inscriptions, la planification et les opérations institutionnelles"
+        }
+      },
+      "testimonials": {
+        "title": "Les entreprises disent",
+        "quote1": "Seasalt.ai a transformé nos opérations de service client. Les temps de réponse ont diminué de 80% et la satisfaction est à un niveau record.",
+        "author1": "Sarah Chen",
+        "company1": "Responsable du succès client",
+        "quote2": "L'automatisation de l'IA nous a fait gagner d'innombrables heures. Nous pouvons nous concentrer sur la croissance de notre entreprise au lieu de gérer des tâches répétitives.",
+        "author2": "Michael Rodriguez",
+        "company2": "Directeur des opérations",
+        "subtitle": "Découvrez comment les institutions transforment leurs opérations",
+        "testimonial1": {
+          "quote": "Cette plateforme a révolutionné la façon dont nous gérons nos opérations scolaires. Les données des élèves sont désormais centralisées et accessibles.",
+          "author": "Dr. Sarah Johnson",
+          "position": "Directrice, École élémentaire Lincoln"
+        },
+        "testimonial2": {
+          "quote": "Les fonctionnalités de gestion de l'apprentissage ont rendu l'apprentissage à distance et hybride transparent pour nos étudiants et nos professeurs.",
+          "author": "Prof. Michael Chen",
+          "position": "Doyen de la technologie, Université d'État"
+        },
+        "testimonial3": {
+          "quote": "Notre efficacité administrative s'est considérablement améliorée. Tout, de l'inscription aux rapports, est désormais rationalisé.",
+          "author": "Maria Rodriguez",
+          "position": "Administratrice, District du Community College"
+        }
+      },
+      "cta": {
+        "title": "Prêt à transformer votre entreprise?",
+        "description": "Rejoignez des milliers d'entreprises qui font confiance à Seasalt.ai pour gérer leurs communications client de manière efficace et sécurisée.",
+        "signUp": "Commencer l'essai gratuit",
+        "scheduleDemo": "Planifier une démo",
+        "seahealthLink": "Explorez les solutions de soins de santé conformes à la loi HIPAA",
+        "buttons": {
+          "primary": "Commencer l'essai gratuit",
+          "secondary": "Planifier une démo",
+          "contact": "Contacter les ventes"
+        }
+      },
+      "solutions": {
+        "title": "Solutions"
+      }
+    }
+  },
+  "channels": {
+    "title": "Connectez chaque canal client",
+    "description": "Unifiez toutes vos communications client sur une seule plateforme. De WhatsApp aux appels téléphoniques, des SMS aux réseaux sociaux - gérez chaque conversation à partir d'un seul tableau de bord.",
+    "whatsapp": {
+      "title": "WhatsApp Business",
+      "description": "Connectez-vous avec les clients sur la plateforme de messagerie la plus populaire au monde",
+      "seo": {
+        "title": "Intégration WhatsApp Business - Seasalt.ai",
+        "description": "Connectez votre compte WhatsApp Business à Seasalt.ai pour des conversations alimentées par l'IA, des campagnes en masse et un support transparent par des agents humains. Atteignez plus de 2 milliards d'utilisateurs dans le monde."
+      },
+      "nav": {
+        "backToChannels": "Retour aux canaux"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Transformez WhatsApp en votre",
+          "highlight": "Centre de commande d'entreprise"
+        },
+        "description": "Connectez votre compte WhatsApp Business à Seasalt.ai pour des conversations alimentées par l'IA, des campagnes en masse et un support transparent par des agents humains. Atteignez plus de 2 milliards d'utilisateurs dans le monde.",
+        "primaryCta": "Connectez WhatsApp en 10 minutes",
+        "secondaryCta": "Voir la démo",
+        "demoTitle": "WhatsApp Business",
+        "demoMessages": {
+          "customer1": "Client: \"Où est ma commande #12345?",
+          "bot1": "Bot IA: \"Votre commande est en cours de livraison et arrivera aujourd'hui avant 18h. Suivez-la ici: [lien]",
+          "customer2": "Client: \"Puis-je changer l'adresse de livraison?",
+          "bot2": "Bot IA: \"Laissez-moi vous mettre en relation avec un agent humain pour les changements d'adresse..."
+        }
+      },
+      "features": {
+        "title": "Caractéristiques principales",
+        "description": "Tout ce dont vous avez besoin pour transformer WhatsApp en une puissante plateforme de communication d'entreprise",
+        "aiResponses": {
+          "title": "Réponses alimentées par l'IA",
+          "description": "Service client automatisé avec traitement du langage naturel qui comprend le contexte et l'intention"
+        },
+        "bulkCampaigns": {
+          "title": "Gestion des campagnes en masse",
+          "description": "Envoyez des messages modèles à des milliers de contacts avec un ciblage et une planification avancés"
+        },
+        "humanHandoff": {
+          "title": "Transfert à un agent humain",
+          "description": "Transition transparente du bot à l'agent en direct avec la commande /live_agent et l'historique complet des conversations"
+        },
+        "metaIntegration": {
+          "title": "Intégration Meta Business",
+          "description": "Accès complet aux fonctionnalités de la plateforme WhatsApp Business avec une sécurité de niveau entreprise"
+        }
+      },
+      "setup": {
+        "title": "Visualisation du processus de configuration",
+        "description": "Guide étape par étape pour connecter votre compte WhatsApp Business avec une sécurité de niveau entreprise",
+        "steps": {
+          "0": "Créer un compte de développeur Meta",
+          "1": "Configurer l'API WhatsApp Business",
+          "2": "Configurer les points de terminaison webhook",
+          "3": "Générer des jetons d'accès",
+          "4": "Tester la livraison des messages",
+          "5": "Lancer votre première campagne"
+        },
+        "security": {
+          "title": "Sécurité de niveau entreprise",
+          "description": "Votre intégration WhatsApp comprend un cryptage de bout en bout, une gestion sécurisée des jetons et la conformité avec les politiques commerciales de Meta. Toutes les données sont protégées par une sécurité de niveau bancaire."
+        }
+      },
+      "cta": {
+        "title": "Prêt à connecter WhatsApp?",
+        "description": "Rejoignez des milliers d'entreprises qui utilisent WhatsApp pour fournir un meilleur service client et générer plus de ventes.",
+        "button": "Démarrer l'intégration"
+      }
+    },
+    "voice": {
+      "title": "Appels vocaux et téléphoniques",
+      "description": "Système téléphonique professionnel avec voicebot IA et support par agent humain"
+    },
+    "sms": {
+      "title": "Messagerie SMS",
+      "description": "Atteignez instantanément les clients avec des campagnes SMS personnalisées",
+      "seo": {
+        "title": "Plateforme de marketing par SMS - Seasalt.ai",
+        "description": "Atteignez instantanément les clients avec des campagnes SMS personnalisées et des réponses automatisées. Taux d'ouverture de 98% et livraison mondiale dans plus de 200 pays. Commencez votre marketing par SMS dès today."
+      },
+      "nav": {
+        "backToChannels": "Retour aux canaux"
+      },
+      "hero": {
+        "title": "Le marketing par SMS qui",
+        "description": "Atteignez instantanément les clients avec des campagnes SMS personnalisées et des réponses automatisées. Taux d'ouverture de 98% et livraison mondiale dans plus de 200 pays.",
+        "primaryCta": "Démarrer les campagnes SMS",
+        "secondaryCta": "Voir la démo",
+        "campaign": {
+          "title": "Campagne SMS",
+          "flashSale": {
+            "title": "📱 Campagne: Vente flash",
+            "sent": "2 847 messages envoyés"
+          },
+          "delivered": {
+            "title": "✅ Livré: 2 834",
+            "rate": "Taux de livraison de 99,5%"
+          },
+          "replies": {
+            "title": "💬 Réponses: 312",
+            "rate": "Taux de réponse de 11%"
+          },
+          "conversions": {
+            "title": "🛒 Conversions: 47",
+            "revenue": "12 400 $ de revenus"
+          }
+        },
+        "titleHighlight": "Convertit vraiment",
+        "cta": {
+          "primary": "Démarrer les campagnes SMS",
+          "secondary": "Voir la démo"
+        },
+        "dashboard": {
+          "title": "Campagne SMS",
+          "campaign": "📱 Campagne: Vente flash",
+          "campaignSent": "2 847 messages envoyés",
+          "delivered": "✅ Livré: 2 834",
+          "deliveryRate": "Taux de livraison de 99,5%",
+          "replies": "💬 Réponses: 312",
+          "responseRate": "Taux de réponse de 11%",
+          "conversions": "🛒 Conversions: 47",
+          "revenue": "12 400 $ de revenus"
+        }
+      },
+      "features": {
+        "title": "Conformité et livraison",
+        "description": "Plateforme SMS de niveau entreprise avec une portée mondiale et une gestion automatique de la conformité",
+        "globalReach": {
+          "title": "Portée mondiale",
+          "description": "Livraison de SMS dans plus de 200 pays avec support de numéros locaux et optimisation des opérateurs"
+        },
+        "compliance": {
+          "title": "Outils de conformité",
+          "description": "Fonctionnalités de conformité TCPA et GDPR avec gestion automatique des désabonnements"
+        },
+        "analytics": {
+          "title": "Analyse de la livraison",
+          "description": "Suivi de la livraison en temps réel, taux de réponse et mesures de performance des campagnes"
+        },
+        "scheduling": {
+          "title": "Planification intelligente",
+          "description": "Envoi tenant compte du fuseau horaire avec un timing optimal basé sur le comportement du destinataire"
+        }
+      },
+      "useCases": {
+        "title": "Cas d'utilisation éprouvés",
+        "description": "Découvrez comment les entreprises utilisent les SMS pour stimuler l'engagement et les revenus",
+        "marketing": {
+          "title": "Campagnes marketing",
+          "description": "Messages promotionnels avec des taux d'ouverture élevés",
+          "stats": "Taux d'ouverture de 98%"
+        },
+        "appointments": {
+          "title": "Rappels de rendez-vous",
+          "description": "Réduisez les absences avec des rappels automatisés",
+          "stats": "25% d'absences en moins"
+        },
+        "orders": {
+          "title": "Mises à jour des commandes",
+          "description": "Tenez les clients informés de leurs commandes",
+          "stats": "90% de satisfaction"
+        },
+        "support": {
+          "title": "Support client",
+          "description": "Conversations bidirectionnelles pour un support rapide",
+          "stats": "Résolution 5 fois plus rapide"
+        }
+      },
+      "builder": {
+        "title": "Générateur de campagnes avancé",
+        "description": "Créez des campagnes SMS sophistiquées avec une automatisation par glisser-déposer et un ciblage intelligent",
+        "segmentation": {
+          "title": "Segmentation intelligente",
+          "description": "Ciblez les clients en fonction de leur comportement, de leur emplacement et de leurs préférences"
+        },
+        "timing": {
+          "title": "Timing parfait",
+          "description": "Optimisation du temps d'envoi alimentée par l'IA pour un engagement maximal"
+        },
+        "analytics": {
+          "title": "Analyse en temps réel",
+          "description": "Suivez la livraison, les ouvertures, les clics et les conversions en temps réel"
+        }
+      },
+      "cta": {
+        "title": "Prêt à lancer vos campagnes SMS?",
+        "description": "Rejoignez des milliers d'entreprises qui utilisent les SMS pour générer un engagement et des revenus plus élevés. Commencez avec notre essai gratuit.",
+        "button": "S'inscrire"
+      },
+      "backToChannels": "Retour aux canaux"
+    },
+    "website": {
+      "title": "Widget de chat de site Web",
+      "description": "Transformez les visiteurs de votre site Web en conversations avec un chat alimenté par l'IA"
+    },
+    "cta": {
+      "exploreAll": "Explorer tous les canaux",
+      "subtitle": "Découvrez comment les 9 canaux fonctionnent ensemble de manière transparente"
+    },
+    "phoneCalls": {
+      "seo": {
+        "title": "Système téléphonique professionnel - Seasalt.ai",
+        "description": "Donnez à vos agents un composeur cloud pour les appels entrants et sortants, alimenté par le partenariat Twilio Gold et l'automatisation vocale par IA. Développez la communication de votre entreprise."
+      },
+      "nav": {
+        "backToChannels": "Retour aux canaux"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Un système téléphonique professionnel qui",
+          "highlight": "évolue avec votre entreprise"
+        },
+        "description": "Donnez à vos agents un composeur cloud pour les appels entrants et sortants, alimenté par notre partenariat Twilio Gold et l'automatisation vocale par IA.",
+        "primaryCta": "Commencez à passer des appels dès aujourd'hui",
+        "secondaryCta": "Voir la démo",
+        "dialpad": {
+          "title": "Composeur de l'agent",
+          "callButton": "Appeler",
+          "endCallButton": "Terminer l'appel"
+        }
+      },
+      "features": {
+        "title": "Caractéristiques principales",
+        "description": "Tout ce dont votre équipe a besoin pour une communication téléphonique professionnelle",
+        "humanDialpad": {
+          "title": "Composeur de l'agent humain",
+          "description": "Composeur cloud complet pour passer et recevoir des appels avec gestion des contacts"
+        },
+        "aiVoiceBot": {
+          "title": "Intégration du bot vocal IA",
+          "description": "Gestion automatisée des appels avec transfert naturel aux agents humains si nécessaire"
+        },
+        "multiAgent": {
+          "title": "Support multi-agents",
+          "description": "Le système Round Robin distribue automatically les appels aux agents disponibles"
+        },
+        "analytics": {
+          "title": "Analyse des appels",
+          "description": "Rapports complets sur les performances des appels, les résultats et la productivité des agents"
+        }
+      },
+      "partnership": {
+        "title": "Avantages du partenariat Twilio",
+        "description": "Construit sur la plateforme de communication la plus fiable au monde",
+        "goldPartner": {
+          "title": "Statut de partenaire Gold",
+          "benefit1": "Statut de partenaire Gold avec accès direct à Twilio Flex",
+          "benefit2": "Fiabilité de niveau entreprise sur une infrastructure éprouvée",
+          "benefit3": "Portée mondiale - passez des appels dans plus de 200 pays",
+          "benefit4": "Déploiement rapide - agents sur les appels en moins de 10 jours"
+        },
+        "global": {
+          "title": "Capacités mondiales",
+          "countries": {
+            "title": "Plus de 200 pays",
+            "description": "Passez et recevez des appels dans le monde entier"
+          },
+          "uptime": {
+            "title": "99,95% de disponibilité",
+            "description": "Fiabilité de niveau entreprise"
+          },
+          "setup": {
+            "title": "Configuration en 10 jours",
+            "description": "Déploiement rapide pour votre équipe"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Cas d'utilisation",
+        "description": "Découvrez comment différentes équipes utilisent notre système téléphonique pour obtenir des résultats",
+        "sales": {
+          "title": "Équipes de vente",
+          "description": "Prospection sortante avec l'efficacité d'un composeur automatique"
+        },
+        "support": {
+          "title": "Support client",
+          "description": "Gestion des appels entrants avec filtrage par IA"
+        },
+        "appointments": {
+          "title": "Prise de rendez-vous",
+          "description": "Appels automatisés avec confirmation humaine"
+        },
+        "followup": {
+          "title": "Campagnes de suivi",
+          "description": "Appels de masse avec des conversations d'agents personnalisées"
+        }
+      },
+      "cta": {
+        "title": "Prêt à mettre à niveau votre système téléphonique?",
+        "description": "Mettez votre équipe sur les appels en moins de 10 jours avec une fiabilité de niveau entreprise et une automatisation alimentée par l'IA.",
+        "button": "Démarrer la configuration"
+      }
+    },
+    "websiteChat": {
+      "navigation": {
+        "backToChannels": "Retour aux canaux"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Transformez les visiteurs de votre site Web en",
+          "highlight": "Conversations"
+        },
+        "description": "Ajoutez un puissant widget de chat IA à votre site Web en moins de 5 minutes. Capturez des prospects, fournissez un support instantané et ne manquez jamais une opportunité.",
+        "cta": {
+          "primary": "Obtenez votre widget gratuit",
+          "secondary": "Réserver une démo"
+        },
+        "widget": {
+          "title": "Widget de chat de site Web",
+          "welcome": {
+            "greeting": "👋 Bienvenue!",
+            "question": "Comment pouvons-nous vous aider aujourd'hui?"
+          },
+          "visitor": {
+            "message": "Visiteur: \"Offrez-vous la livraison gratuite?"
+          },
+          "ai": {
+            "response": "IA: \"Oui! Livraison gratuite pour les commandes de plus de 50 $. Souhaitez-vous voir nos promotions actuelles?"
+          },
+          "button": {
+            "yes": "Oui, montrez-moi",
+            "no": "Non merci"
+          }
+        }
+      },
+      "features": {
+        "title": "Caractéristiques principales",
+        "subtitle": "Tout ce dont vous avez besoin pour engager les visiteurs de votre site Web et les convertir en clients",
+        "noCodeSetup": {
+          "title": "Configuration sans code",
+          "description": "Ajoutez à n'importe quel site Web en moins de 5 minutes sans aucune connaissance technique requise"
+        },
+        "customBranding": {
+          "title": "Marque personnalisée",
+          "description": "Assortissez votre marque avec des couleurs, des polices et des styles de messagerie personnalisés"
+        },
+        "leadCapture": {
+          "title": "Capture de prospects",
+          "description": "Collectez automatiquement les informations des visiteurs et qualifiez les prospects en temps réel"
+        },
+        "instantResponses": {
+          "title": "Réponses instantanées",
+          "description": "Les réponses alimentées par l'IA fournissent une aide immédiate aux visiteurs du site Web 24/7"
+        }
+      },
+      "platforms": {
+        "title": "Fonctionne avec toutes les plateformes",
+        "subtitle": "Intégration facile avec tous les principaux constructeurs de sites Web et plateformes"
+      },
+      "customization": {
+        "title": "Vitrine de personnalisation",
+        "subtitle": "Personnalisez vraiment le widget avec de nombreuses options de personnalisation",
+        "positionSize": {
+          "title": "Position et taille",
+          "description": "Choisissez le placement dans les coins, la taille et les paramètres de visibilité"
+        },
+        "colorsFonts": {
+          "title": "Couleurs et polices",
+          "description": "Assortissez parfaitement les couleurs et la typographie de votre marque"
+        },
+        "welcomeMessages": {
+          "title": "Messages de bienvenue",
+          "description": "Personnalisez les messages d'accueil et les amorces de conversation"
+        },
+        "triggerRules": {
+          "title": "Règles de déclenchement",
+          "description": "Définissez quand et où le widget apparaît aux visiteurs"
+        },
+        "realTimePreview": {
+          "title": "Aperçu en temps réel",
+          "description": "Visualisez instantanément vos modifications grâce à notre fonction d'aperçu en direct. Personnalisez les couleurs, le positionnement et les messages tout en voyant exactly à quoi cela ressemblera sur votre site Web."
+        }
+      },
+      "analytics": {
+        "title": "Analyse puissante",
+        "subtitle": "Suivez l'engagement des visiteurs, les taux de conversion et les performances du chat avec une analyse détaillée",
+        "conversations": "Conversations",
+        "conversionRate": "Taux de conversion",
+        "responseTime": "Temps de réponse",
+        "satisfaction": "Satisfaction"
+      },
+      "cta": {
+        "title": "Prêt à ajouter un chat à votre site Web?",
+        "description": "Obtenez votre widget de chat personnalisé en quelques minutes. Aucun codage requis, personnalisation complète disponible.",
+        "button": "Obtenir le code du widget"
+      }
+    },
+    "instagram": {
+      "navigation": {
+        "backToChannels": "Retour aux canaux"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Développez votre",
+          "highlight": "Service client Instagram"
+        },
+        "subtitle": "Gérez des milliers de DM Instagram avec l'automatisation de l'IA tout en conservant une touche personnelle. Parfait pour les marques, les influenceurs et les entreprises qui créent des communautés.",
+        "cta": {
+          "primary": "Automatiser les DM Instagram",
+          "secondary": "Voir la démo"
+        },
+        "demo": {
+          "title": "DM Instagram",
+          "user1": {
+            "handle": "@sarah_style",
+            "message": "J'adore cette robe! Quelles tailles avez-vous?"
+          },
+          "ai1": {
+            "response": "IA: \"Salut Sarah! 😍 Cette robe est disponible en XS-XL. Voulez-vous que je vérifie le stock dans votre taille?"
+          },
+          "user2": {
+            "handle": "@mike_fitness",
+            "message": "Pouvez-vous m'aider avec ma commande?"
+          },
+          "ai2": {
+            "response": "IA: \"Bien sûr! Laissez-moi vous mettre en relation avec notre équipe de support..."
+          }
+        }
+      },
+      "visualFirst": {
+        "title": "Approche axée sur le visuel",
+        "subtitle": "Instagram est avant tout une question de visuels. Notre IA comprend les images et fournit des réponses contextuelles"
+      },
+      "features": {
+        "imageRecognition": {
+          "title": "Reconnaissance d'images",
+          "description": "Compréhension par l'IA des images de produits dans les DM pour des réponses et des recommandations intelligentes"
+        },
+        "storyIntegration": {
+          "title": "Intégration des stories",
+          "description": "Réponses automatisées aux interactions avec les stories, aux sondages et aux questions de votre public"
+        },
+        "influencerSupport": {
+          "title": "Support aux influenceurs",
+          "description": "Outils pour gérer les conversations DM à grand volume et les partenariats de marque"
+        },
+        "smartAutomation": {
+          "title": "Automatisation intelligente",
+          "description": "Réponses alimentées par l'IA qui maintiennent la voix et la personnalité de votre marque"
+        }
+      },
+      "useCases": {
+        "title": "Parfait pour toutes les entreprises Instagram",
+        "subtitle": "Des petites entreprises aux grands influenceurs, découvrez comment l'automatisation d'Instagram génère des résultats",
+        "ecommerce": {
+          "title": "Marques de commerce électronique",
+          "description": "Demandes de produits et support de commande",
+          "metric": "Réponse 40% plus rapide"
+        },
+        "influencers": {
+          "title": "Influenceurs",
+          "description": "Engagement des fans et demandes de collaboration",
+          "metric": "10x plus de conversations"
+        },
+        "localBusiness": {
+          "title": "Entreprises locales",
+          "description": "Prise de rendez-vous et service client",
+          "metric": "60% de réservations en plus"
+        },
+        "contentCreators": {
+          "title": "Créateurs de contenu",
+          "description": "Gestion de la communauté et commentaires",
+          "metric": "Taux de satisfaction de 95%"
+        }
+      },
+      "businessIntegration": {
+        "title": "Intégration Instagram Business",
+        "subtitle": "Intégration complète avec les comptes Instagram Business pour un service client professionnel",
+        "analyticsIntegration": {
+          "title": "Intégration des analyses",
+          "description": "Connectez-vous à Instagram Insights pour un suivi complet des performances"
+        },
+        "audienceInsights": {
+          "title": "Informations sur l'audience",
+          "description": "Comprenez mieux votre public avec des données démographiques intégrées"
+        },
+        "engagementTracking": {
+          "title": "Suivi de l'engagement",
+          "description": "Surveillez les interactions avec les stories, l'engagement des publications et les performances des DM"
+        }
+      },
+      "cta": {
+        "title": "Prêt à développer votre présence sur Instagram?",
+        "subtitle": "Rejoignez des milliers de marques et d'influenceurs qui utilisent l'IA pour fournir un meilleur service client et créer des communautés plus fortes sur Instagram.",
+        "primary": "Démarrer l'automatisation",
+        "secondary": "Voir la démo"
+      }
+    },
+    "facebookMessenger": {
+      "navigation": {
+        "backToChannels": "Retour aux canaux"
+      },
+      "hero": {
+        "title": "Transformez Facebook Messenger en une",
+        "titleHighlight": "Machine à vendre",
+        "subtitle": "Engagez votre public Facebook avec des conversations alimentées par l'IA qui convertissent les abonnés en clients. Intégrez-vous à Facebook Shop pour un commerce social transparent.",
+        "cta": {
+          "primary": "Connecter Messenger maintenant",
+          "secondary": "Voir la démo"
+        },
+        "demo": {
+          "title": "Facebook Messenger",
+          "customerQuery": "Client: \"Avez-vous ceci en taille M?",
+          "aiResponse1": "IA: \"Oui! La taille M est disponible. Voici le lien du produit avec le prix actuel 👇",
+          "productName": "Robe d'été - Taille M",
+          "productPrice": "49,99 $ • Livraison gratuite",
+          "customerQuery2": "Client: \"Parfait! Puis-je avoir 20% de réduction?",
+          "aiResponse2": "IA: \"Je peux vous offrir 15% de réduction avec le code MESSENGER15! Souhaitez-vous finaliser votre commande?"
+        }
+      },
+      "features": {
+        "title": "Fonctionnalités de commerce social",
+        "subtitle": "Transformez votre présence sur Facebook en un puissant canal de vente avec des fonctionnalités de commerce intégrées",
+        "shopIntegration": {
+          "title": "Intégration de la boutique Facebook",
+          "description": "Recommandations de produits directes dans le chat avec une expérience d'achat transparente"
+        },
+        "leadGeneration": {
+          "title": "Génération de prospects",
+          "description": "Capture automatisée de prospects à partir des conversations Messenger avec synchronisation CRM"
+        },
+        "socialProof": {
+          "title": "Preuve sociale",
+          "description": "Intégration des témoignages et des avis clients pour renforcer la confiance"
+        },
+        "instantResponses": {
+          "title": "Réponses instantanées",
+          "description": "Réponses alimentées par l'IA qui engagent votre public Facebook 24/7"
+        }
+      },
+      "socialCommerce": {
+        "title": "Solution complète de commerce social",
+        "subtitle": "Tout ce dont vous avez besoin pour vendre directly via Facebook Messenger",
+        "productCatalog": {
+          "title": "Synchronisation du catalogue de produits",
+          "description": "Synchronisez automatiquement vos produits Facebook Shop pour des recommandations instantanées"
+        },
+        "cartRecovery": {
+          "title": "Récupération de panier",
+          "description": "Réengagez les clients qui ont abandonné leur panier avec des messages personnalisés"
+        },
+        "orderTracking": {
+          "title": "Suivi des commandes",
+          "description": "Fournissez des mises à jour de commande en temps réel et des informations d'expédition via Messenger"
+        },
+        "customerReviews": {
+          "title": "Avis clients",
+          "description": "Collectez et présentez les avis clients pour renforcer la confiance et la preuve sociale"
+        }
+      },
+      "businessEcosystem": {
+        "title": "Intégration de l'écosystème commercial de Facebook",
+        "subtitle": "Connectez-vous de manière transparente à l'ensemble de votre présence commerciale sur Facebook",
+        "shop": {
+          "title": "Boutique Facebook",
+          "description": "Intégration directe avec votre boutique Facebook pour des recommandations de produits instantanées"
+        },
+        "ads": {
+          "title": "Publicités Facebook",
+          "description": "Connectez les campagnes publicitaires à Messenger pour des parcours clients transparents"
+        },
+        "pages": {
+          "title": "Pages Facebook",
+          "description": "Gestion unifiée des messages de page et des interactions client"
+        }
+      },
+      "results": {
+        "title": "Résultats prouvés",
+        "subtitle": "Découvrez comment les entreprises obtiennent de vrais résultats avec l'automatisation de Facebook Messenger",
+        "engagement": {
+          "value": "85%",
+          "description": "Engagement plus élevé que l'e-mail"
+        },
+        "conversion": {
+          "value": "3x",
+          "description": "Meilleurs taux de conversion"
+        },
+        "costReduction": {
+          "value": "60%",
+          "description": "Réduction des coûts de support"
+        },
+        "availability": {
+          "value": "24/7",
+          "description": "Service client automatisé"
+        }
+      },
+      "cta": {
+        "title": "Prêt à transformer votre présence sur Facebook?",
+        "subtitle": "Connectez Facebook Messenger à Seasalt.ai et commencez à convertir vos abonnés sur les réseaux sociaux en clients payants.",
+        "primary": "Connecter Messenger",
+        "secondary": "Réserver une démo"
+      }
+    },
+    "contactForms": {
+      "seo": {
+        "title": "Intégration des formulaires de contact - Seasalt.ai",
+        "description": "Transformez vos formulaires de contact en conversations avec l'IA. Intégrez-vous de manière transparente à MailerLite, HubSpot, Mailchimp et plus encore pour un engagement instantané des prospects."
+      },
+      "nav": {
+        "backToChannels": "Retour aux canaux"
+      },
+      "hero": {
+        "title": {
+          "part1": "Transformez les formulaires de contact en",
+          "part2": "Conversations"
+        },
+        "subtitle": "Capturez automatiquement les prospects de vos formulaires de marketing par e-mail et engagez-les instantanément avec des conversations alimentées par l'IA. Fonctionne avec MailerLite, HubSpot, Mailchimp, et plus encore.",
+        "ctaPrimary": "Connectez vos formulaires",
+        "ctaSecondary": "Voir la démo",
+        "demo": {
+          "title": "Intégration de formulaire",
+          "submission": "📝 Nouvelle soumission de formulaire",
+          "submitter": "Sarah Johnson • sarah@email.com",
+          "aiGreeting": "IA: \"Salut Sarah! Merci de votre intérêt. Je peux vous aider à démarrer tout de suite. Quel est votre objectif principal?",
+          "userResponse": "Sarah: \"Je veux améliorer mon marketing par e-mail",
+          "aiSchedule": "IA: \"Parfait! Je peux planifier un appel stratégique de 15 minutes avec notre expert. Êtes-vous libre demain à 14h?",
+          "meetingConfirmed": "✅ Réunion planifiée automatiquement"
+        }
+      },
+      "platforms": {
+        "title": "Plateformes prises en charge",
+        "subtitle": "Intégration transparente avec toutes les principales plateformes de marketing par e-mail et constructeurs de formulaires",
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "Synchronisation transparente des prospects à partir des formulaires de contact MailerLite"
+        },
+        "mailchimp": {
+          "name": "Mailchimp",
+          "description": "Intégration directe avec les formulaires d'inscription Mailchimp"
+        },
+        "constantContact": {
+          "name": "Constant Contact",
+          "description": "Capture de prospects à partir des formulaires Constant Contact"
+        },
+        "hubspot": {
+          "name": "HubSpot",
+          "description": "Intégration avancée de formulaires avec le marketing HubSpot"
+        },
+        "customForms": {
+          "name": "Formulaires personnalisés",
+          "description": "Support pour tout formulaire de contact de site Web via API"
+        },
+        "wordpress": {
+          "name": "WordPress",
+          "description": "Intégration native avec les formulaires de contact WordPress"
+        }
+      },
+      "features": {
+        "title": "Fonctionnalités de gestion des prospects",
+        "subtitle": "Transformez les soumissions de formulaires en prospects qualifiés avec une automatisation intelligente",
+        "instantEngagement": {
+          "title": "Engagement instantané",
+          "description": "L'agent IA répond immédiatement aux soumissions de formulaires, pendant que les prospects sont chauds"
+        },
+        "leadQualification": {
+          "title": "Qualification des prospects",
+          "description": "Questions de suivi automatisées pour qualifier les prospects avant le transfert à un agent humain"
+        },
+        "multiChannel": {
+          "title": "Suivi multicanal",
+          "description": "Continuez les conversations via WhatsApp, SMS ou téléphone de manière transparente"
+        },
+        "conversionTracking": {
+          "title": "Suivi des conversions",
+          "description": "Surveillez les taux de conversion de formulaire à client et optimisez les performances"
+        }
+      },
+      "useCases": {
+        "title": "Cas d'utilisation",
+        "subtitle": "Découvrez comment différents types de formulaires peuvent être améliorés avec des conversations IA",
+        "newsletter": {
+          "title": "Inscriptions à la newsletter",
+          "description": "Engagez les nouveaux abonnés avec des conversations de bienvenue",
+          "example": "Merci de vous être abonné! Quels sujets vous intéressent le plus?"
+        },
+        "demoRequests": {
+          "title": "Demandes de démo",
+          "description": "Qualifiez et planifiez instantanément des démonstrations de produits",
+          "example": "Je peux planifier votre démo dès maintenant. Quelle est votre heure préférée?"
+        },
+        "contactInquiries": {
+          "title": "Demandes de contact",
+          "description": "Fournissez des réponses immédiates aux demandes générales",
+          "example": "Je suis là pour vous aider! De quelles informations spécifiques avez-vous besoin?"
+        },
+        "leadMagnets": {
+          "title": "Aimants à prospects",
+          "description": "Suivez les téléchargements de contenu avec un contact personnalisé",
+          "example": "Le guide vous a-t-il été utile? Je peux répondre à toutes vos questions!"
+        }
+      },
+      "benefits": {
+        "title": "Avantages de l'intégration",
+        "subtitle": "Voyez l'impact immédiat de la connexion de vos formulaires à l'IA conversationnelle",
+        "responseRates": "Taux de réponse plus élevés",
+        "qualification": "Qualification plus rapide des prospects",
+        "meetings": "Plus de réunions qualifiées",
+        "engagement": "Engagement des prospects"
+      },
+      "cta": {
+        "title": "Prêt à dynamiser vos formulaires?",
+        "subtitle": "Connectez vos formulaires de contact à Seasalt.ai et commencez à convertir plus de prospects avec des conversations instantanées alimentées par l'IA.",
+        "action": "Connecter les formulaires maintenant"
+      }
+    },
+    "line": {
+      "seo": {
+        "title": "Intégration LINE - Solutions Seasalt.ai",
+        "description": "Découvrez comment Seasalt.ai aide les entreprises à améliorer les communications client et à stimuler la croissance grâce à l'intégration de LINE pour les marchés asiatiques."
+      },
+      "navigation": {
+        "backToChannels": "Retour aux canaux"
+      },
+      "hero": {
+        "title": "Dominez les marchés asiatiques avec l'intégration LINE",
+        "subtitle": "Connectez-vous avec plus de 200 millions d'utilisateurs LINE à travers l'Asie avec des conversations alimentées par l'IA et une messagerie professionnelle. Parfait pour les entreprises ciblant les marchés japonais, taïwanais, thaïlandais et coréens.",
+        "cta": {
+          "startIntegration": "Démarrer l'intégration LINE",
+          "seeDemo": "Voir la démo"
+        },
+        "demo": {
+          "title": "LINE Business",
+          "customer": "商品について質問があります",
+          "customerTranslation": "(J'ai une question sur le produit)",
+          "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
+          "ai1Translation": "(Bonjour! Je suis heureux de vous aider. Quel produit?)",
+          "stickerMessage": "Autocollant: Merci!",
+          "ai2": "どういたしまして！他にご質問はありますか？",
+          "ai2Translation": "(De rien! D'autres questions?)"
+        }
+      },
+      "marketFocus": {
+        "title": "Focus sur le marché",
+        "subtitle": "La domination de LINE sur les principaux marchés asiatiques le rend essentiel pour les entreprises ciblant ces régions",
+        "activeUsers": "Utilisateurs actifs",
+        "marketPenetration": "Pénétration du marché"
+      },
+      "markets": {
+        "JP": {
+          "country": "Japon",
+          "users": "95M",
+          "penetration": "75%"
+        },
+        "TW": {
+          "country": "Taïwan",
+          "users": "21M",
+          "penetration": "90%"
+        },
+        "TH": {
+          "country": "Thaïlande",
+          "users": "53M",
+          "penetration": "76%"
+        },
+        "KR": {
+          "country": "Corée du Sud",
+          "users": "35M",
+          "penetration": "68%"
+        }
+      },
+      "features": {
+        "title": "Fonctionnalités LINE Business",
+        "subtitle": "Tirez parti des fonctionnalités uniques de LINE pour la communication d'entreprise et l'engagement client",
+        "regionalDominance": {
+          "title": "Domination régionale",
+          "description": "Accès à plus de 200 millions d'utilisateurs LINE sur les principaux marchés asiatiques"
+        },
+        "officialAccount": {
+          "title": "Compte officiel LINE",
+          "description": "Intégration complète avec le compte officiel LINE pour la messagerie professionnelle"
+        },
+        "richMessaging": {
+          "title": "Messagerie riche",
+          "description": "Support pour les autocollants, les menus riches et les formats de messages interactifs"
+        },
+        "culturalAdaptation": {
+          "title": "Adaptation culturelle",
+          "description": "Fonctionnalités de messagerie localisées optimisées pour différents marchés asiatiques"
+        }
+      },
+      "businessMessaging": {
+        "title": "Messagerie professionnelle avancée",
+        "subtitle": "Profitez des fonctionnalités de messagerie riche de LINE pour des expériences client améliorées"
+      },
+      "businessFeatures": {
+        "payIntegration": {
+          "title": "Intégration LINE Pay",
+          "description": "Acceptez les paiements directly via LINE pour des transactions transparentes"
+        },
+        "richMenu": {
+          "title": "Conception de menu riche",
+          "description": "Créez des menus interactifs pour une navigation client facile"
+        },
+        "broadcast": {
+          "title": "Messagerie de diffusion",
+          "description": "Envoyez des messages ciblés à vos abonnés LINE"
+        },
+        "chatbot": {
+          "title": "Générateur de chatbot",
+          "description": "Générateur de chatbot visuel optimisé pour les interactions LINE"
+        }
+      },
+      "culturalAdaptationSection": {
+        "title": "Adaptation culturelle",
+        "subtitle": "Notre IA comprend les nuances culturelles et les styles de communication sur différents marchés asiatiques"
+      },
+      "culturalFeatures": {
+        "localized": {
+          "title": "Réponses localisées",
+          "description": "Réponses de l'IA adaptées aux styles de communication locaux et aux préférences culturelles"
+        },
+        "multiLanguage": {
+          "title": "Support multilingue",
+          "description": "Support natif pour le japonais, le chinois, le thaï, le coréen et l'anglais"
+        },
+        "sticker": {
+          "title": "Intégration d'autocollants",
+          "description": "Utilisation intelligente des autocollants et des emojis LINE pour des conversations naturelles"
+        }
+      },
+      "cta": {
+        "title": "Prêt à entrer sur les marchés asiatiques?",
+        "subtitle": "Connectez-vous avec des millions de clients potentiels à travers l'Asie via la plateforme de messagerie dominante de LINE.",
+        "startIntegration": "Démarrer l'intégration LINE"
+      }
+    },
+    "websiteWidget": {
+      "navigation": {
+        "backToChannels": "Retour aux canaux"
+      },
+      "seo": {
+        "title": "Widget de site Web - Solutions omnicanal",
+        "description": "Déployez notre widget omnicanal sur WordPress, Shopify, Squarespace, Wix, MailerLite et n'importe quel site Web. Donnez le choix aux clients avec un chat, une voix et une messagerie unifiés."
+      },
+      "hero": {
+        "title": "Un widget,",
+        "titleHighlight": "Toutes les plateformes",
+        "subtitle": "Déployez notre widget omnicanal sur WordPress, Shopify, Squarespace, Wix, MailerLite et n'importe quel site Web. Donnez le choix aux clients avec un chat, une voix et une messagerie unifiés.",
+        "cta": {
+          "deploy": "Déployer le widget maintenant",
+          "demo": "Réserver une démo"
+        },
+        "widget": {
+          "title": "Widget universel",
+          "chat": {
+            "label": "💬 Chat",
+            "description": "Support de messagerie instantanée"
+          },
+          "voice": {
+            "label": "📞 Voix",
+            "description": "Appels vocaux en un clic"
+          },
+          "whatsapp": {
+            "label": "📱 WhatsApp",
+            "description": "Connexion directe à WhatsApp"
+          },
+          "email": {
+            "label": "📧 E-mail",
+            "description": "Intégration du formulaire de contact"
+          }
+        }
+      },
+      "platforms": {
+        "title": "Fonctionne avec toutes les plateformes",
+        "subtitle": "Quelle que soit la plateforme que vous utilisez, notre widget s'intègre de manière transparente à votre site Web existant",
+        "wordpress": {
+          "name": "WordPress",
+          "description": "Installation facile du plugin pour les sites WordPress"
+        },
+        "shopify": {
+          "name": "Shopify",
+          "description": "Intégration native avec les boutiques Shopify"
+        },
+        "squarespace": {
+          "name": "Squarespace",
+          "description": "Code d'intégration simple pour les sites Squarespace"
+        },
+        "wix": {
+          "name": "Wix",
+          "description": "Widget par glisser-déposer pour les sites Web Wix"
+        },
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "Intégration directe avec les pages de destination MailerLite"
+        },
+        "custom": {
+          "name": "HTML personnalisé",
+          "description": "Code d'intégration universel pour n'importe quel site Web"
+        }
+      },
+      "features": {
+        "title": "Fonctionnalités avancées",
+        "subtitle": "Plus qu'un simple widget de chat - une plateforme complète d'engagement client",
+        "design": {
+          "title": "Conception personnalisable",
+          "description": "Assortissez votre marque avec des couleurs, des polices et des options de positionnement personnalisées"
+        },
+        "mobile": {
+          "title": "Adaptatif mobile",
+          "description": "Expérience parfaite sur tous les appareils et toutes les tailles d'écran"
+        },
+        "nocode": {
+          "title": "Configuration sans code",
+          "description": "Ajoutez à n'importe quel site Web en moins de 5 minutes sans connaissances techniques"
+        },
+        "analytics": {
+          "title": "Analyse avancée",
+          "description": "Suivez l'engagement des visiteurs, les taux de conversion et les performances du chat"
+        }
+      },
+      "styles": {
+        "title": "Choisissez votre style",
+        "subtitle": "Plusieurs styles de widgets pour correspondre à la conception de votre site Web et aux objectifs de l'expérience utilisateur",
+        "chatBubble": {
+          "name": "Bulle de chat",
+          "description": "Bulle de chat flottante classique dans le coin inférieur"
+        },
+        "slidePanel": {
+          "name": "Panneau coulissant",
+          "description": "Panneau coulissant élégant sur le côté"
+        },
+        "embeddedForm": {
+          "name": "Formulaire intégré",
+          "description": "Formulaire de contact en ligne dans le contenu de la page"
+        },
+        "fullModal": {
+          "name": "Modale plein écran",
+          "description": "Superposition plein écran qui attire l'attention"
+        }
+      },
+      "benefits": {
+        "title": "Pourquoi choisir notre widget?",
+        "switching": {
+          "title": "Changement de canal",
+          "description": "Transition transparente entre le chat, la voix et la messagerie sans perdre le contexte"
+        },
+        "queue": {
+          "title": "Gestion de la file d'attente",
+          "description": "Routage intelligent basé sur la disponibilité des agents et la priorité des clients"
+        },
+        "global": {
+          "title": "Support mondial",
+          "description": "Support multilingue et routage tenant compte du fuseau horaire pour les clients internationaux"
+        }
+      },
+      "cta": {
+        "title": "Prêt à déployer votre widget?",
+        "subtitle": "Ajoutez une communication omnicanal puissante à votre site Web en moins de 5 minutes. Aucun codage requis.",
+        "getWidget": "Obtenir le code du widget"
+      }
+    }
+  },
+  "comparison": {
+    "title": "Pourquoi les entreprises en croissance choisissent Seasalt.ai plutôt que d'autres alternatives",
+    "description": "Découvrez comment nous nous comparons à d'autres solutions. Nous sommes la seule plateforme qui offre des fonctionnalités de niveau entreprise avec la simplicité dont les petites entreprises ont besoin.",
+    "recommended": "Recommandé",
+    "table": {
+      "headers": {
+        "platform": "Plateforme",
+        "startingPrice": "Prix de départ",
+        "pricingModel": "Modèle de tarification",
+        "unifiedVoiceDigital": "Voix et numérique unifiés",
+        "aiCapabilities": "Capacités IA",
+        "bestFor": "Idéal pour"
+      }
+    },
+    "competitors": {
+      "seasalt": {
+        "startingPrice": "20 $/agent/mois",
+        "pricingModel": "Tarification simple par utilisateur",
+        "unifiedVoiceDigital": "✅ Oui, support natif",
+        "aiCapabilities": "✅ Oui, voix et chatbot natifs",
+        "bestFor": "Les PME qui ont besoin d'une plateforme tout-en-un vraiment abordable."
+      },
+      "aircall": {
+        "startingPrice": "30 $/utilisateur/mois",
+        "pricingModel": "Par utilisateur + modules complémentaires",
+        "unifiedVoiceDigital": "⚠️ Voix + WhatsApp (module complémentaire)",
+        "aiCapabilities": "⚠️ L'IA est un module complémentaire payant",
+        "bestFor": "Les équipes de vente qui peuvent se permettre plusieurs modules complémentaires et qui respectent le minimum de 3 utilisateurs."
+      },
+      "ringcentral": {
+        "startingPrice": "65 $/agent/mois",
+        "pricingModel": "Niveaux complexes",
+        "unifiedVoiceDigital": "❌ Produits distincts",
+        "aiCapabilities": "✅ Oui (CCaaS alimenté par l'IA)",
+        "bestFor": "Les grandes entreprises qui ont besoin d'une plateforme UCaaS étendue avec un CCaaS distinct."
+      },
+      "genesys": {
+        "startingPrice": "75 $/utilisateur/mois",
+        "pricingModel": "Par utilisateur + minimums élevés",
+        "unifiedVoiceDigital": "✅ Oui (dans les forfaits premium)",
+        "aiCapabilities": "✅ Oui (système de jetons complexe)",
+        "bestFor": "Les entreprises avec des équipes et des budgets de centre de contact dédiés."
+      },
+      "five9": {
+        "startingPrice": "119 $/utilisateur/mois",
+        "pricingModel": "Par utilisateur + forfaits",
+        "unifiedVoiceDigital": "✅ Oui (dans les forfaits premium)",
+        "aiCapabilities": "✅ Oui (IA avancée)",
+        "bestFor": "Les grands centres de contact axés sur les appels sortants qui ont besoin d'outils de niveau entreprise."
+      },
+      "googleVoice": {
+        "startingPrice": "10 $/utilisateur/mois",
+        "pricingModel": "Par utilisateur + frais Workspace",
+        "unifiedVoiceDigital": "❌ Non",
+        "aiCapabilities": "❌ Non (transcription de la messagerie vocale uniquement)",
+        "bestFor": "Les entrepreneurs individuels qui ont besoin d'un numéro de téléphone autonome de base (États-Unis uniquement)."
+      }
+    },
+    "cta": {
+      "seeAllComparisons": "Voir toutes les comparaisons détaillées"
+    }
+  },
+  "industriesData": {
+    "ecommerce": {
+      "title": "Commerce électronique",
+      "headline": "Récupérez les paniers abandonnés et répondez aux questions sur les commandes 24/7",
+      "benefits": [
+        "Mises à jour automatiques de l'état des commandes via WhatsApp et SMS",
+        "L'IA gère instantanément les requêtes \"Où est mon colis?\"",
+        "Récupérez plus de 15% des paniers abandonnés avec des suivis intelligents",
+        "Intégrations Shopify et Squarespace incluses"
+      ]
+    },
+    "healthcare": {
+      "title": "Soins de santé",
+      "headline": "Prenez des rendez-vous avec les patients et envoyez des rappels automatiquement",
+      "benefits": [
+        "Messagerie conforme à la loi HIPAA sur tous les canaux",
+        "Confirmations et rappels de rendez-vous automatisés",
+        "L'IA présélectionne les demandes des patients avant de les acheminer",
+        "Réduisez les absences de 25% avec des notifications intelligentes"
+      ]
+    },
+    "realEstate": {
+      "title": "Immobilier",
+      "headline": "Ne manquez jamais un prospect et planifiez des visites par SMS, chat ou téléphone",
+      "benefits": [
+        "Réponses instantanées aux demandes de renseignements sur les propriétés 24/7",
+        "Prise de rendez-vous automatisée via l'IA",
+        "Qualification des prospects avant le transfert à un agent humain",
+        "Visites virtuelles WhatsApp et photos de propriétés"
+      ]
+    },
+    "restaurants": {
+      "title": "Restaurants et hôtellerie",
+      "headline": "Prenez des réservations et gérez les commandes sur tous les canaux",
+      "benefits": [
+        "Prise de réservation automatisée par téléphone et chat",
+        "Questions sur le menu répondues instantanément par l'IA",
+        "Confirmations de commande envoyées par SMS et WhatsApp",
+        "Gérez les demandes de livraison sans interruption du personnel"
+      ]
+    },
+    "education": {
+      "title": "Éducation et formation",
+      "headline": "Rationalisez les communications avec les étudiants et les demandes de renseignements sur les cours",
+      "benefits": [
+        "Inscription et planification automatisées des cours",
+        "L'IA gère les questions courantes des étudiants 24/7",
+        "Communication parents-enseignants via WhatsApp",
+        "Notifications d'événements et rappels par SMS"
+      ]
+    },
+    "automotive": {
+      "title": "Automobile et services",
+      "headline": "Prenez des rendez-vous de service et gérez les demandes des clients",
+      "benefits": [
+        "Prise de rendez-vous de service automatisée",
+        "Rappels d'entretien du véhicule par SMS",
+        "L'IA gère les questions de disponibilité des pièces",
+        "Notifications de fin de service avec photos"
+      ]
+    },
+    "professional": {
+      "title": "Services professionnels",
+      "headline": "Gérez les communications avec les clients et les réservations de consultations",
+      "benefits": [
+        "Planification automatisée des consultations",
+        "Formulaires d'admission des clients par chat",
+        "Partage de documents via des canaux sécurisés",
+        "Rappels de suivi pour les rendez-vous"
+      ]
+    },
+    "financial": {
+      "title": "Services financiers",
+      "headline": "Communications client sécurisées et gestion des rendez-vous",
+      "benefits": [
+        "Messagerie et enregistrement conformes à la FINRA",
+        "Confirmations de rendez-vous automatisées",
+        "Collecte sécurisée de documents par chat",
+        "Automatisation du flux de travail d'intégration des clients"
+      ]
+    },
+    "educationTraining": {
+      "title": "Éducation et formation",
+      "headline": "Rationalisez votre établissement d'enseignement avec des solutions de gestion complètes",
+      "benefits": [
+        "Inscription et planification automatisées des cours",
+        "L'IA gère les questions courantes des étudiants 24/7",
+        "Communication parents-enseignants via WhatsApp",
+        "Notifications d'événements et rappels par SMS"
+      ],
+      "benefits[0]": "Inscription simplifiée des étudiants et gestion des dossiers",
+      "benefits[1]": "Planification et gestion automatisées des classes",
+      "benefits[2]": "Outils de communication parents-enseignants améliorés",
+      "benefits[3]": "Rapports et analyses complets"
+    }
+  },
+  "productsData": {
+    "seachat": {
+      "title": "SeaChat",
+      "description": "Répondez aux clients 24/7"
+    },
+    "seax": {
+      "title": "SeaX",
+      "description": "Contactez les clients en masse"
+    },
+    "seameet": {
+      "title": "SeaMeet",
+      "description": "Copilote pour les réunions et les appels"
+    },
+    "seavoice": {
+      "title": "SeaVoice",
+      "description": "Agents vocaux IA pour les appels",
+      "subProducts": {
+        "tts": "Synthèse vocale",
+        "stt": "Reconnaissance vocale",
+        "discord": "Bot STT Discord"
+      }
+    }
+  },
+  "solutionsData": {
+    "salesMarketing": {
+      "title": "Pour les ventes et le marketing"
+    },
+    "customerSupport": {
+      "title": "Pour le support client"
+    },
+    "aiAutomation": {
+      "title": "IA et Automatisation"
+    },
+    "smeOwners": {
+      "title": "Pour les propriétaires de PME"
+    }
+  }
+}

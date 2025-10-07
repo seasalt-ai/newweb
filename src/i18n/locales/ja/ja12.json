@@ -1,0 +1,743 @@
+{
+  "seavoice": {
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "予約と管理",
+            "description": "空き状況、好み、ビジネスルールを理解するAIで予約を自動化します。インテリジェントな音声対話で無断キャンセルを減らし、予約プロセスを合理化します。",
+            "cta": "予約を自動化"
+          },
+          "features": {
+            "title": "スマートな予約管理",
+            "subtitle": "複雑なスケジューリングシナリオを処理する包括的な予約システム",
+            "intelligentScheduling": {
+              "title": "インテリジェントなスケジューリング",
+              "description": "空き状況と好みを理解するAIを活用した予約。",
+              "benefit1": "リアルタイムの空き状況",
+              "benefit2": "スマートな競合解決",
+              "benefit3": "好みのマッチング"
+            },
+            "automatedReminders": {
+              "title": "自動リマインダー",
+              "description": "自動予約リマインダーと確認で無断キャンセルを減らします。",
+              "benefit1": "SMSと音声リマインダー",
+              "benefit2": "カスタマイズ可能なタイミング",
+              "benefit3": "確認追跡"
+            },
+            "multiProviderSupport": {
+              "title": "複数プロバイダーのサポート",
+              "description": "複数のプロバイダー、場所、サービスにわたる予約を管理します。",
+              "benefit1": "プロバイダーの空き状況",
+              "benefit2": "場所の管理",
+              "benefit3": "サービスの分類"
+            }
+          },
+          "capabilities": {
+            "title": "完全な予約ソリューション",
+            "subtitle": "予約管理のあらゆる側面を自動的に処理します",
+            "appointmentScheduling": {
+              "capability": "予約スケジューリング",
+              "description": "空き状況と好みに基づいて新しい予約を予約します",
+              "feature1": "利用可能な時間枠",
+              "feature2": "プロバイダーの選択",
+              "feature3": "サービスタイプのマッチング"
+            },
+            "rescheduling": {
+              "capability": "再スケジュール",
+              "description": "自動競合解決で既存の予約を変更します",
+              "feature1": "競合の検出",
+              "feature2": "代替案の提案",
+              "feature3": "自動更新"
+            },
+            "cancellationManagement": {
+              "capability": "キャンセル管理",
+              "description": "キャンセルと待機リストの管理を効率的に処理します",
+              "feature1": "キャンセルポリシー",
+              "feature2": "待機リストの自動化",
+              "feature3": "返金処理"
+            },
+            "reminderSystem": {
+              "capability": "リマインダーシステム",
+              "description": "無断キャンセルを減らし、出席率を向上させるための自動リマインダー",
+              "feature1": "マルチチャネルリマインダー",
+              "feature2": "カスタマイズ可能なタイミング",
+              "feature3": "確認リクエスト"
+            }
+          },
+          "industries": {
+            "title": "業界アプリケーション",
+            "subtitle": "さまざまな業界やユースケース向けのカスタマイズされた予約ソリューション",
+            "healthcare": {
+              "industry": "ヘルスケア",
+              "description": "医療予約、コンサルテーション、処置",
+              "benefit1": "患者のスケジューリング",
+              "benefit2": "プロバイダーの調整",
+              "benefit3": "保険の確認"
+            },
+            "beautyWellness": {
+              "industry": "美容とウェルネス",
+              "description": "サロンの予約、スパサービス、ウェルネスセッション",
+              "benefit1": "サービス時間の追跡",
+              "benefit2": "スタイリストの好み",
+              "benefit3": "パッケージ予約"
+            },
+            "professionalServices": {
+              "industry": "専門サービス",
+              "description": "コンサルテーション、会議、サービス予約",
+              "benefit1": "会議室の予約",
+              "benefit2": "コンサルタントの空き状況",
+              "benefit3": "クライアントの好み"
+            }
+          },
+          "reminderSection": {
+            "title": "自動リマインダーシステム",
+            "description": "最適な時間に好みのコミュニケーションチャネルを通じて顧客にリーチするインテリジェントなリマインダーキャンペーンで、無断キャンセルを大幅に削減します。",
+            "multiChannelReminders": {
+              "title": "マルチチャネルリマインダー",
+              "description": "音声通話、SMS、メールリマインダー"
+            },
+            "optimalTiming": {
+              "title": "最適なタイミング",
+              "description": "AIがリマインダーを送信する最適な時間を決定します"
+            },
+            "performanceTracking": {
+              "title": "パフォーマンストラッキング",
+              "description": "リマインダーの効果を監視して最適化します"
+            },
+            "reminderTimeline": {
+              "title": "リマインダーのタイムライン"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "初期確認",
+                "description": "予約の確認と詳細"
+              },
+              "dayBefore": {
+                "title": "前日のリマインダー",
+                "description": "準備手順付きの最終リマインダー"
+              },
+              "lastMinute": {
+                "title": "直前の確認",
+                "description": "最終確認と道順"
+              },
+              "sevenDays": "7d",
+              "oneDay": "1d",
+              "twoHours": "2h"
+            }
+          },
+          "benefits": {
+            "title": "予約パフォーマンスの結果",
+            "subtitle": "予約管理効率の測定可能な改善",
+            "noShowReduction": {
+              "metric": "40%",
+              "description": "無断キャンセル率の削減"
+            },
+            "availabilityWindow": {
+              "metric": "24/7",
+              "description": "予約の可用性"
+            },
+            "bookingAccuracy": {
+              "metric": "85%",
+              "description": "予約精度率"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "管理作業負荷の削減"
+            }
+          },
+          "cta": {
+            "title": "予約を自動化する準備はできましたか？",
+            "description": "インテリジェントな予約管理でスケジューリングを合理化し、無断キャンセルを減らします",
+            "startFreeTrial": "無料トライアルを開始",
+            "scheduleDemo": "デモをスケジュール"
+          }
+        },
+        "mentalHealth": {
+          "hero": {
+            "title": "メンタルヘルス音声コンパニオン",
+            "description": "共感を持って聞き、理解し、応答するAIで、24時間年中無休の思いやりのあるメンタルヘルスサポートを提供します。危機と専門的なケアの間のギャップを安全に埋めます。",
+            "cta": "メンタルヘルスAIについて学ぶ"
+          },
+          "features": {
+            "title": "思いやりのあるAIサポート",
+            "description": "メンタルヘルスサポートと危機介入のトレーニングを受けた高度なAI",
+            "empathetic": {
+              "title": "共感的なAIコンパニオン",
+              "description": "適切な感情的応答で、思いやりのある、判断を下さないサポートを提供するようにトレーニングされています。",
+              "benefits": {
+                "activeListening": "積極的な傾聴",
+                "emotionalValidation": "感情的な検証",
+                "crisisRecognition": "危機の認識"
+              }
+            },
+            "safe": {
+              "title": "安全で機密",
+              "description": "すべてのやり取りの完全なプライバシーと機密性を保証するHIPAA準拠のプラットフォーム。",
+              "benefits": {
+                "hipaaCompliance": "HIPAAコンプライアンス",
+                "encryptedConversations": "暗号化された会話",
+                "anonymousOptions": "匿名オプション"
+              }
+            },
+            "availability": {
+              "title": "24時間年中無休の可用性",
+              "description": "誰かが話したいときにいつでも利用でき、危機的な瞬間に即時のサポートを提供します。",
+              "benefits": {
+                "roundTheClockAccess": "24時間アクセス",
+                "immediateResponse": "即時応答",
+                "noWaitTimes": "待ち時間なし"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "メンタルヘルスサポート機能",
+            "description": "メンタルヘルスケアのスペクトル全体にわたる包括的なサポート",
+            "screening": {
+              "title": "初期メンタルヘルススクリーニング",
+              "description": "検証済みのスクリーニングツールを使用して予備評価を実施します",
+              "outcomes": {
+                "earlyIdentification": "早期発見",
+                "riskAssessment": "リスク評価",
+                "appropriateReferrals": "適切な紹介"
+              }
+            },
+            "crisis": {
+              "title": "危機介入",
+              "description": "危機的状況を認識し、即時のサポートまたはエスカレーションを提供します",
+              "outcomes": {
+                "crisisDetection": "危機検出",
+                "deEscalationTechniques": "エスカレーション解除テクニック",
+                "emergencyProtocols": "緊急プロトコル"
+              }
+            },
+            "navigation": {
+              "title": "リソースナビゲーション",
+              "description": "ユーザーを適切なメンタルヘルスリソースとサービスに案内します",
+              "outcomes": {
+                "serviceMatching": "サービスのマッチング",
+                "appointmentScheduling": "予約スケジューリング",
+                "followUpSupport": "フォローアップサポート"
+              }
+            },
+            "emotional": {
+              "title": "感情的サポート",
+              "description": "思いやりのある傾聴と感情的な検証を提供します",
+              "outcomes": {
+                "reducedIsolation": "孤立感の軽減",
+                "emotionalRelief": "感情的な安堵",
+                "copingStrategies": "対処戦略"
+              }
+            }
+          },
+          "safety": {
+            "title": "安全第一の設計",
+            "description": "当社のメンタルヘルスAIは、安全を最優先に設計されており、高度な危機検出と即時エスカレーションプロトコルを備えており、ユーザーが必要なときに適切な専門的ケアを受けられるようにします。",
+            "features": {
+              "title": "安全機能"
+            },
+            "crisisDetection": {
+              "title": "危機検出",
+              "description": "高度なアルゴリズムが危機的状況を特定します"
+            },
+            "professionalHandoff": {
+              "title": "専門家への引き継ぎ",
+              "description": "人間のメンタルヘルス専門家へのシームレスな転送"
+            },
+            "emergencyProtocols": {
+              "title": "緊急プロトコル",
+              "description": "必要なときに危機ホットラインに即座に接続"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "危機キーワード検出",
+            "suicideRiskAssessment": "自殺リスク評価",
+            "automaticEscalationProtocols": "自動エスカレーションプロトコル",
+            "emergencyContactIntegration": "緊急連絡先統合",
+            "professionalHandoffProcedures": "専門家への引き継ぎ手順",
+            "followUpScheduling": "フォローアップスケジューリング"
+          },
+          "benefits": {
+            "title": "メンタルヘルスへの影響",
+            "description": "メンタルヘルスサポートのアクセシビリティにおける測定可能な改善",
+            "alwaysAvailableSupport": "いつでも利用できるサポート",
+            "crisisEscalationReduction": "危機エスカレーションの削減",
+            "userSatisfactionRate": "ユーザー満足度",
+            "helpSeekingBehaviorIncrease": "援助希求行動の増加"
+          },
+          "cta": {
+            "title": "メンタルヘルスをサポートする準備はできましたか？",
+            "description": "本当に気にかけてくれるAIで、24時間年中無休の思いやりのあるメンタルヘルスサポートを提供します",
+            "learnMore": "詳細を見る",
+            "contactSpecialists": "専門家に連絡"
+          }
+        },
+        "callTransfer": {
+          "hero": {
+            "title": "営業時間中のスマートコール転送",
+            "description": "発信者の意図を理解し、即座に適切な担当者に接続するAIを活用したインテリジェントな転送で、コールルーティングに革命を起こし、待ち時間を短縮し、顧客満足度を向上させます。",
+            "primaryCta": "コールルーティングを最適化"
+          },
+          "features": {
+            "title": "インテリジェントなコールルーティング機能",
+            "description": "通話を正確に理解してルーティングする高度なAIテクノロジー",
+            "intelligentRouting": {
+              "title": "インテリジェントなルーティング",
+              "description": "AIが発信者の意図を分析し、最も適切な部門またはエージェントにルーティングします。",
+              "benefits": {
+                "0": "意図認識",
+                "1": "スキルベースのルーティング",
+                "2": "優先処理"
+              }
+            },
+            "agentOptimization": {
+              "title": "エージェントの最適化",
+              "description": "エージェント間の作業負荷を分散し、通話が利用可能な専門家に確実に届くようにします。",
+              "benefits": {
+                "0": "負荷分散",
+                "1": "可用性の確認",
+                "2": "専門知識のマッチング"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "待ち時間の短縮",
+              "description": "効率的なルーティングとキュー管理で顧客の待ち時間を最小限に抑えます。",
+              "benefits": {
+                "0": "キューの最適化",
+                "1": "コールバックオプション",
+                "2": "リアルタイム更新"
+              }
+            }
+          },
+          "routing": {
+            "title": "スマートルーティングの実際",
+            "description": "当社のAIが意図を特定し、最適な結果を得るために通話をルーティングする方法をご覧ください"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "請求に関する問い合わせ",
+              "action": "請求部門に転送",
+              "result": "90%の初回解決率"
+            },
+            "technicalSupport": {
+              "trigger": "技術サポート",
+              "action": "技術チームに転送",
+              "result": "85%の問題解決率"
+            },
+            "salesInterest": {
+              "trigger": "販売への関心",
+              "action": "営業チームに転送",
+              "result": "40%のコンバージョン率"
+            },
+            "vipCustomer": {
+              "trigger": "VIP顧客",
+              "action": "優先キュー",
+              "result": "30秒未満の待ち時間"
+            }
+          },
+          "benefits": {
+            "title": "測定可能な影響",
+            "description": "インテリジェントなコール転送を実装した実際の結果"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "平均待ち時間の短縮"
+            },
+            "resolution": {
+              "description": "初回解決率"
+            },
+            "efficiency": {
+              "description": "エージェント効率の向上"
+            },
+            "accuracy": {
+              "description": "正しい部門への正確なルーティング"
+            }
+          },
+          "cta": {
+            "title": "コールルーティングを最適化する準備はできましたか？",
+            "description": "インテリジェントなコール転送で待ち時間を短縮し、顧客満足度を向上させます",
+            "primaryButton": "無料トライアルを開始",
+            "secondaryButton": "デモを見る"
+          }
+        },
+        "scamShield": {
+          "hero": {
+            "title": "詐欺シールド保護",
+            "subtitle": "AIを活用した検出機能で、電話詐欺や不正な通話から顧客を保護し、脅威をリアルタイムで特定してブロックし、コミュニティを金融詐欺から安全に保ちます。",
+            "cta": "詐欺対策を有効にする"
+          },
+          "features": {
+            "title": "高度な詐欺検出",
+            "subtitle": "進化する詐欺戦術に対する多層防御",
+            "realTimeDetection": {
+              "title": "リアルタイム詐欺検出",
+              "description": "高度なAIアルゴリズムが、不正な通話が顧客に届く前に特定してブロックします。",
+              "benefit1": "パターン認識",
+              "benefit2": "行動分析",
+              "benefit3": "即時ブロック"
+            },
+            "threatIntelligence": {
+              "title": "脅威インテリジェンス",
+              "description": "既知の詐欺パターンと不正な電話番号の継続的に更新されるデータベース。",
+              "benefit1": "グローバルな脅威データ",
+              "benefit2": "リアルタイム更新",
+              "benefit3": "機械学習"
+            },
+            "customerProtection": {
+              "title": "顧客保護",
+              "description": "金融詐欺や個人情報盗難の試みから顧客を積極的に保護します。",
+              "benefit1": "詐欺防止",
+              "benefit2": "個人情報保護",
+              "benefit3": "金融セキュリティ"
+            }
+          },
+          "scamTypes": {
+            "title": "すべての詐欺タイプから保護",
+            "subtitle": "最も一般的な詐欺戦術に対する包括的な保護",
+            "phishing": {
+              "type": "フィッシング電話",
+              "description": "個人情報やログイン認証情報を盗もうとする試み",
+              "detection": "音声パターン分析とキーワード検出",
+              "action": "即時通話終了と顧客への警告"
+            },
+            "techSupport": {
+              "type": "技術サポート詐欺",
+              "description": "コンピュータの問題を主張する偽の技術サポート",
+              "detection": "スクリプトパターン認識と発信者ID検証",
+              "action": "通話をブロックし、正規のサポート連絡先を提供する"
+            },
+            "financialFraud": {
+              "type": "金融詐欺",
+              "description": "銀行や金融機関になりすます",
+              "detection": "機関の検証と音声認証",
+              "action": "通話を終了し、実際の金融機関に通知する"
+            },
+            "romance": {
+              "type": "ロマンス詐欺",
+              "description": "金銭をだまし取るために偽の関係を築く",
+              "detection": "会話パターン分析と感情操作検出",
+              "action": "警告アラートとリソースの提供"
+            },
+            "detectionMethod": "検出方法：",
+            "protectionAction": "保護アクション：",
+            "detectionMethodLabel": "検出方法",
+            "protectionActionLabel": "保護アクション"
+          },
+          "protection": {
+            "title": "多層保護システム",
+            "subtitle": "当社の包括的な詐欺シールドは、複数の検出方法を連携させて最大限の保護を提供すると同時に、正当な通話が常に通過するようにします。",
+            "realTimeAnalysis": {
+              "title": "リアルタイム分析",
+              "description": "すべての着信コールの即時評価"
+            },
+            "continuousLearning": {
+              "title": "継続的な学習",
+              "description": "AIはブロックされた詐欺ごとに検出を改善します"
+            },
+            "zeroFalsePositives": {
+              "title": "誤検知ゼロ",
+              "description": "正当な通話は決してブロックされません"
+            },
+            "layersTitle": "保護層",
+            "layer1": "発信者ID検証",
+            "layer2": "音声パターン分析",
+            "layer3": "スクリプト検出アルゴリズム",
+            "layer4": "行動異常検出",
+            "layer5": "リアルタイム脅威インテリジェンス",
+            "layer6": "顧客教育アラート"
+          },
+          "benefits": {
+            "title": "保護結果",
+            "subtitle": "詐欺を阻止し、顧客を保護する実証済みの有効性",
+            "accuracy": {
+              "metric": "95%",
+              "description": "詐欺電話検出精度"
+            },
+            "reduction": {
+              "metric": "80%",
+              "description": "成功した詐欺の試みの削減"
+            },
+            "coverage": {
+              "metric": "24/7",
+              "description": "継続的な保護カバレッジ"
+            },
+            "preservation": {
+              "metric": "99.9%",
+              "description": "正当な通話の保存率"
+            }
+          },
+          "cta": {
+            "title": "顧客を保護する準備はできましたか？",
+            "subtitle": "AIを活用した詐欺検出と保護で詐欺師を阻止します",
+            "activateProtection": "保護を有効にする",
+            "learnMore": "詳細を見る",
+            "primaryButton": "保護を有効にする",
+            "secondaryButton": "詳細を見る"
+          },
+          "protectionSystem": {
+            "title": "多層保護システム",
+            "subtitle": "当社の包括的な詐欺シールドは、複数の検出方法を連携させて最大限の保護を提供すると同時に、正当な通話が常に通過するようにします。",
+            "realTimeAnalysis": {
+              "title": "リアルタイム分析",
+              "description": "すべての着信コールの即時評価"
+            },
+            "continuousLearning": {
+              "title": "継続的な学習",
+              "description": "AIはブロックされた詐欺ごとに検出を改善します"
+            },
+            "zeroFalsePositives": {
+              "title": "誤検知ゼロ",
+              "description": "正当な通話は決してブロックされません"
+            }
+          },
+          "results": {
+            "title": "保護結果",
+            "subtitle": "詐欺を阻止し、顧客を保護する実証済みの有効性"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "安全な支払い処理",
+            "description": "音声対話を通じて、安全でPCI準拠の支払い処理を有効にします。高度な不正防止機能と即時取引処理により、顧客が電話で安全に支払いを行えるようにします。",
+            "cta": "安全な支払いを有効にする"
+          },
+          "features": {
+            "title": "安全な音声支払い機能",
+            "subtitle": "エンタープライズグレードのセキュリティとシームレスな顧客体験の融合",
+            "securePayment": {
+              "title": "安全な支払い処理",
+              "description": "PCI準拠の音声技術で電話で安全に支払いを処理します。",
+              "benefit1": "PCI DSSコンプライアンス",
+              "benefit2": "暗号化された取引",
+              "benefit3": "複数の支払い方法"
+            },
+            "fraudProtection": {
+              "title": "不正防止",
+              "description": "ビジネスと顧客の両方を保護するための高度な不正検出と防止。",
+              "benefit1": "リアルタイムの不正検出",
+              "benefit2": "リスク評価",
+              "benefit3": "安全な認証"
+            },
+            "instantProcessing": {
+              "title": "即時処理",
+              "description": "リアルタイムの承認と確認で支払いを即座に処理します。",
+              "benefit1": "リアルタイム承認",
+              "benefit2": "即時確認",
+              "benefit3": "即時領収書"
+            }
+          },
+          "paymentMethods": {
+            "title": "包括的な支払いオプション",
+            "subtitle": "安全な音声処理ですべての主要な支払い方法を受け入れます",
+            "creditCards": {
+              "method": "クレジットカード",
+              "description": "安全な音声処理ですべての主要なクレジットカードを受け入れます",
+              "feature1": "Visa、Mastercard、Amex",
+              "feature2": "CVV検証",
+              "feature3": "有効期限の検証"
+            },
+            "debitCards": {
+              "method": "デビットカード",
+              "description": "PIN検証でデビットカードの支払いを処理します",
+              "feature1": "音声によるPIN入力",
+              "feature2": "銀行の検証",
+              "feature3": "即時引き落とし"
+            },
+            "bankTransfers": {
+              "method": "銀行振込",
+              "description": "直接の銀行口座振込とACH支払い",
+              "feature1": "口座の検証",
+              "feature2": "ルーティング番号の検証",
+              "feature3": "ACH処理"
+            },
+            "digitalWallets": {
+              "method": "デジタルウォレット",
+              "description": "人気のデジタル決済プラットフォームのサポート",
+              "feature1": "Apple Pay",
+              "feature2": "Google Pay",
+              "feature3": "PayPal統合"
+            }
+          },
+          "security": {
+            "title": "銀行レベルのセキュリティ",
+            "description": "当社の支払い処理システムは、業界最高水準のセキュリティ基準を満たしており、すべての取引が複数の暗号化と不正防止の層で保護されていることを保証します。",
+            "endToEndEncryption": {
+              "title": "エンドツーエンド暗号化",
+              "description": "転送中および保存中のすべての支払いデータを暗号化"
+            },
+            "pciCompliance": {
+              "title": "PCI DSSコンプライアンス",
+              "description": "レベル1のPCI DSS認定インフラストラクチャ"
+            },
+            "realTimeMonitoring": {
+              "title": "リアルタイム監視",
+              "description": "継続的な不正検出と防止"
+            },
+            "featuresTitle": "セキュリティ機能",
+            "feature1": "エンドツーエンド暗号化",
+            "feature2": "PCI DSSレベル1コンプライアンス",
+            "feature3": "カードデータのトークン化",
+            "feature4": "多要素認証",
+            "feature5": "リアルタイムの不正監視",
+            "feature6": "安全な音声認識"
+          },
+          "benefits": {
+            "title": "支払い処理のパフォーマンス",
+            "subtitle": "業界をリードする信頼性とセキュリティの指標",
+            "uptime": {
+              "metric": "99.9%",
+              "description": "支払い処理の稼働時間"
+            },
+            "transactionTime": {
+              "metric": "< 3秒",
+              "description": "平均取引時間"
+            },
+            "compliance": {
+              "metric": "100%",
+              "description": "PCI DSSコンプライアンス"
+            },
+            "fraudRate": {
+              "metric": "0.1%",
+              "description": "AI保護による不正率"
+            }
+          },
+          "cta": {
+            "title": "安全な音声支払いの準備はできましたか？",
+            "subtitle": "高度な不正防止機能を備えたPCI準拠の支払い処理を有効にします",
+            "primaryButton": "安全な処理を開始",
+            "secondaryButton": "セキュリティの概要"
+          }
+        }
+      },
+      "mentalHealth": {
+        "hero": {
+          "title": "メンタルヘルス音声コンパニオン",
+          "subtitle": "共感を持って聞き、理解し、応答するAIで、24時間年中無休の思いやりのあるメンタルヘルスサポートを提供します。危機と専門的なケアの間のギャップを安全に埋めます。",
+          "cta": "メンタルヘルスAIについて学ぶ"
+        },
+        "features": {
+          "title": "思いやりのあるAIサポート",
+          "subtitle": "メンタルヘルスサポートと危機介入のトレーニングを受けた高度なAI",
+          "empathetic": {
+            "title": "共感的なAIコンパニオン",
+            "description": "適切な感情的応答で、思いやりのある、判断を下さないサポートを提供するようにトレーニングされています。",
+            "benefits": {
+              "activeListing": "積極的な傾聴",
+              "emotionalValidation": "感情的な検証",
+              "crisisRecognition": "危機の認識"
+            }
+          },
+          "safe": {
+            "title": "安全で機密",
+            "description": "すべてのやり取りの完全なプライバシーと機密性を保証するHIPAA準拠のプラットフォーム。",
+            "benefits": {
+              "hipaaCompliance": "HIPAAコンプライアンス",
+              "encryptedConversations": "暗号化された会話",
+              "anonymousOptions": "匿名オプション"
+            }
+          },
+          "available": {
+            "title": "24時間年中無休の可用性",
+            "description": "誰かが話したいときにいつでも利用でき、危機的な瞬間に即時のサポートを提供します。",
+            "benefits": {
+              "roundTheClockAccess": "24時間アクセス",
+              "immediateResponse": "即時応答",
+              "noWaitTimes": "待ち時間なし"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "メンタルヘルスサポート機能",
+          "subtitle": "メンタルヘルスケアのスペクトル全体にわたる包括的なサポート",
+          "screening": {
+            "title": "初期メンタルヘルススクリーニング",
+            "description": "検証済みのスクリーニングツールを使用して予備評価を実施します",
+            "outcomes": {
+              "earlyIdentification": "早期発見",
+              "riskAssessment": "リスク評価",
+              "appropriateReferrals": "適切な紹介"
+            }
+          },
+          "crisis": {
+            "title": "危機介入",
+            "description": "危機的状況を認識し、即時のサポートまたはエスカレーションを提供します",
+            "outcomes": {
+              "crisisDetection": "危機検出",
+              "deEscalationTechniques": "エスカレーション解除テクニック",
+              "emergencyProtocols": "緊急プロトコル"
+            }
+          },
+          "navigation": {
+            "title": "リソースナビゲーション",
+            "description": "ユーザーを適切なメンタルヘルスリソースとサービスに案内します",
+            "outcomes": {
+              "serviceMatching": "サービスのマッチング",
+              "appointmentScheduling": "予約スケジューリング",
+              "followUpSupport": "フォローアップサポート"
+            }
+          },
+          "emotional": {
+            "title": "感情的サポート",
+            "description": "思いやりのある傾聴と感情的な検証を提供します",
+            "outcomes": {
+              "reducedIsolation": "孤立感の軽減",
+              "emotionalRelief": "感情的な安堵",
+              "copingStrategies": "対処戦略"
+            }
+          }
+        },
+        "safety": {
+          "title": "安全第一の設計",
+          "description": "当社のメンタルヘルスAIは、安全を最優先に設計されており、高度な危機検出と即時エスカレーションプロトコルを備えており、ユーザーが必要なときに適切な専門的ケアを受けられるようにします。",
+          "crisisDetection": {
+            "title": "危機検出",
+            "description": "高度なアルゴリズムが危機的状況を特定します"
+          },
+          "professionalHandoff": {
+            "title": "専門家への引き継ぎ",
+            "description": "人間のメンタルヘルス専門家へのシームレスな転送"
+          },
+          "emergencyProtocols": {
+            "title": "緊急プロトコル",
+            "description": "必要なときに危機ホットラインに即座に接続"
+          },
+          "features": {
+            "title": "安全機能",
+            "crisisKeywordDetection": "危機キーワード検出",
+            "suicideRiskAssessment": "自殺リスク評価",
+            "automaticEscalationProtocols": "自動エスカレーションプロトコル",
+            "emergencyContactIntegration": "緊急連絡先統合",
+            "professionalHandoffProcedures": "専門家への引き継ぎ手順",
+            "followUpScheduling": "フォローアップスケジューリング"
+          }
+        },
+        "impact": {
+          "title": "メンタルヘルスへの影響",
+          "subtitle": "メンタルヘルスサポートのアクセシビリティにおける測定可能な改善",
+          "availability": {
+            "metric": "24/7",
+            "description": "いつでも利用できるサポート"
+          },
+          "crisisReduction": {
+            "metric": "60%",
+            "description": "危機エスカレーションの削減"
+          },
+          "satisfaction": {
+            "metric": "85%",
+            "description": "ユーザー満足度"
+          },
+          "helpSeeking": {
+            "metric": "40%",
+            "description": "援助希求行動の増加"
+          }
+        },
+        "cta": {
+          "title": "メンタルヘルスをサポートする準備はできましたか？",
+          "subtitle": "本当に気にかけてくれるAIで、24時間年中無休の思いやりのあるメンタルヘルスサポートを提供します",
+          "learnMore": "詳細を見る",
+          "contactSpecialists": "専門家に連絡"
+        }
+      }
+    }
+  }
+}

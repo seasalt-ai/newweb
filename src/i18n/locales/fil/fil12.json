@@ -1,0 +1,97 @@
+{
+  "seameet": {
+    "features": {
+      "title": "Mga Tampok",
+      "description": "Isang komprehensibong hanay ng mga tool upang i-streamline ang iyong mga pulong at i-maximize ang pagiging produktibo.",
+      "transcription": {
+        "title": "Transkripsyon at Pag-record",
+        "description": "Huwag kailanman palampasin ang isang salita na may tumpak, real-time na transkripsyon at pag-record ng audio/video."
+      },
+      "summarization": {
+        "title": "Buod at mga Highlight",
+        "description": "Awtomatikong bumuo ng mga maigsi na buod at mga highlight ng pulong upang makuha ang mga pangunahing takeaway."
+      },
+      "speakerDiarization": {
+        "title": "Diarization ng Tagapagsalita",
+        "description": "Tukuyin kung sino ang nagsabi kung ano na may tumpak na pagkilala at pag-label ng tagapagsalita."
+      },
+      "actionItems": {
+        "title": "Pagkuha ng Item ng Aksyon",
+        "description": "Awtomatikong tukuyin at i-extract ang mga item ng aksyon at mga susunod na hakbang mula sa mga pag-uusap sa pulong."
+      },
+      "integrations": {
+        "title": "Mga Pagsasama",
+        "description": "Walang putol na isama sa iyong mga paboritong tool sa kalendaryo, komunikasyon, at CRM."
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Makakuha ng mga insight sa mga pattern ng pag-uusap, mga paksa, at pagganap ng koponan."
+      }
+    },
+    "solutions": {
+      "title": "Mga Solusyon",
+      "description": "Mga pinasadyang solusyon para sa iba't ibang mga kaso ng paggamit sa negosyo.",
+      "sales": {
+        "title": "Mga Koponan sa Pagbebenta",
+        "description": "Pagbutihin ang pagganap sa pagbebenta na may mga insight mula sa mga tawag sa customer at mga pulong."
+      },
+      "customerSupport": {
+        "title": "Suporta sa Customer",
+        "description": "Pahusayin ang kalidad ng serbisyo at tiyakin ang pagsunod sa mga na-record na pakikipag-ugnayan."
+      },
+      "remoteTeams": {
+        "title": "Mga Remote na Koponan",
+        "description": "Manatiling nakahanay at produktibo sa mga awtomatikong tala at buod ng pulong."
+      },
+      "education": {
+        "title": "Edukasyon",
+        "description": "I-transcribe ang mga lektura at mga talakayan sa klase para sa mas mahusay na pag-aaral at pag-access."
+      }
+    },
+    "pricing": {
+      "title": "Pagpepresyo",
+      "description": "Pumili ng isang plano na akma sa iyong mga pangangailangan.",
+      "free": {
+        "title": "Libre",
+        "price": "$0",
+        "features": [
+          "Pangunahing transkripsyon",
+          "Limitadong pag-record"
+        ]
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "$15/buwan",
+        "features": [
+          "Advanced na transkripsyon",
+          "Walang limitasyong pag-record",
+          "Mga buod ng AI"
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "price": "Pasadyang",
+        "features": [
+          "Mga tampok ng Pro",
+          "Analytics ng koponan",
+          "Mga pagsasama sa enterprise"
+        ]
+      }
+    },
+    "about": {
+      "title": "Tungkol sa",
+      "description": "Ang SeaMeet ay isang produkto ng Seasalt.ai, na nakatuon sa pagbabago ng komunikasyon sa negosyo gamit ang AI."
+    },
+    "hero": {
+      "title": "SeaMeet",
+      "subtitle": "Ang Iyong AI Meeting Copilot",
+      "description": "Awtomatikong i-transcribe, ibuod, at suriin ang iyong mga pulong. Huwag kailanman kumuha ng mga tala muli.",
+      "cta": "Magsimula nang Libre"
+    },
+    "footer": {
+      "contact": "Makipag-ugnayan sa Amin",
+      "privacy": "Patakaran sa Privacy",
+      "terms": "Mga Tuntunin ng Serbisyo"
+    }
+  }
+}

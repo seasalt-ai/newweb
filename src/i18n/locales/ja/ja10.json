@@ -1,0 +1,1565 @@
+{
+  "seax": {
+    "industries": {
+      "ecommerceRetail": {
+        "seo": {
+          "title": "eコマースおよび小売向けSeaX - スマートメッセージングで売上を向上",
+          "description": "SeaXのインテリジェントなメッセージングプラットフォームでeコマースビジネスを変革します。パーソナライズされたコミュニケーションで、放棄されたカートを回復し、顧客維持率を高め、売上を促進します。"
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX for",
+            "highlight": "eコマース＆小売"
+          },
+          "description": "売上を促進し、カート放棄を減らし、顧客ロイヤルティを構築するインテリジェントなメッセージングでeコマース体験を変革します。",
+          "cta": {
+            "primary": "業界ソリューションを入手",
+            "secondary": "機能を表示"
+          }
+        },
+        "challenges": {
+          "title": "当社が解決するeコマースの課題",
+          "subtitle": "eコマースおよび小売業界における一般的なコミュニケーションの課題",
+          "items[0]": {
+            "title": "高いカート放棄率",
+            "description": "タイムリーなフォローアップとパーソナライズされたエンゲージメントの欠如により、顧客は購入を完了せずに離脱します。"
+          },
+          "items[1]": {
+            "title": "低い顧客維持率",
+            "description": "効果的な維持戦略なしに顧客との長期的な関係を維持することの難しさ。"
+          },
+          "items[2]": {
+            "title": "一貫性のないコミュニケーション",
+            "description": "複数のチャネルにわたる断片化されたメッセージングは、貧弱な顧客体験につながります。"
+          },
+          "items[3]": {
+            "title": "限定的なパーソナライズ",
+            "description": "個々の顧客の好みや行動に共鳴しない一般的なマーケティングメッセージ。"
+          },
+          "items[4]": {
+            "title": "不十分な注文の更新",
+            "description": "注文状況、配送状況の更新、配達通知について顧客は何も知らされません。"
+          },
+          "items[5]": {
+            "title": "非効果的な再エンゲージメント",
+            "description": "非アクティブな顧客を取り戻し、リピート購入を促すのに苦労しています。"
+          }
+        },
+        "useCases": {
+          "title": "eコマースのユースケース",
+          "subtitle": "eコマースおよび小売業向けの実際のアプリケーション",
+          "items[0]": {
+            "title": "放棄されたカートの回復",
+            "description": "パーソナライズされたSMSとメッセージングキャンペーンを自動化して、失われた売上を回復し、カートに商品を残した顧客を再エンゲージメントします。",
+            "benefits[0]": "カート回復率が30%向上",
+            "benefits[1]": "パーソナライズされた製品の推奨",
+            "benefits[2]": "自動タイミング最適化"
+          },
+          "items[1]": {
+            "title": "注文状況と配送状況の更新",
+            "description": "リアルタイムの注文更新と配達通知で、購入ジャーニー全体を通して顧客に情報を提供します。",
+            "benefits[0]": "カスタマーサービスの問い合わせの削減",
+            "benefits[1]": "顧客満足度の向上",
+            "benefits[2]": "プロアクティブなコミュニケーション"
+          },
+          "items[2]": {
+            "title": "顧客ロイヤルティプログラム",
+            "description": "限定オファー、特典、パーソナライズされたショッピング体験で、リピート顧客向けのターゲットを絞ったキャンペーンを作成します。",
+            "benefits[0]": "リピート購入が20%増加",
+            "benefits[1]": "より高い顧客生涯価値",
+            "benefits[2]": "自動特典配布"
+          },
+          "items[3]": {
+            "title": "プロモーションキャンペーン",
+            "description": "SMS、メッセージング、ソーシャルプラットフォーム全体でターゲットを絞ったマーケティングキャンペーンを開始して、売上とエンゲージメントを促進します。",
+            "benefits[0]": "より高いコンバージョン率",
+            "benefits[1]": "マーケティング費用のROI向上",
+            "benefits[2]": "セグメント化されたオーディエンスターゲティング"
+          }
+        },
+        "stats": {
+          "title": "SeaXによるeコマースの結果",
+          "subtitle": "eコマースおよび小売業向けの実証済みの成果",
+          "items[0]": {
+            "value": "30%",
+            "label": "売上コンバージョン率の向上",
+            "description": "カート回復の平均改善"
+          },
+          "items[1]": {
+            "value": "20%",
+            "label": "顧客維持率の向上",
+            "description": "より高いリピート購入率"
+          },
+          "items[2]": {
+            "value": "15%",
+            "label": "カート放棄の削減",
+            "description": "タイムリーなパーソナライズされたメッセージングを通じて"
+          }
+        },
+        "features": {
+          "title": "eコマース企業がSeaXを選ぶ理由",
+          "subtitle": "オンライン小売の成功のために特別に設計された包括的な機能",
+          "items[0]": {
+            "title": "オムニチャネルメッセージング",
+            "description": "1つの統合ダッシュボードからSMS、WhatsApp、ソーシャルプラットフォーム全体で顧客にリーチします。"
+          },
+          "items[1]": {
+            "title": "スマートセグメンテーション",
+            "description": "行動、購入履歴、好みに基づいて顧客を自動的にセグメント化します。"
+          },
+          "items[2]": {
+            "title": "リアルタイム分析",
+            "description": "詳細な洞察により、キャンペーンのパフォーマンス、顧客エンゲージメント、ROIを追跡します。"
+          }
+        },
+        "cta": {
+          "title": "eコマースビジネスを変革する準備はできましたか？",
+          "description": "SeaXを使用して売上を増やし、カート放棄を減らし、永続的な顧客関係を構築している何千ものeコマース企業に参加してください。",
+          "primary": "今日から始める",
+          "secondary": "価格を見る"
+        }
+      },
+      "realEstate": {
+        "seo": {
+          "title": "不動産向けSeaX - 即時リード対応とクライアントコミュニケーション",
+          "description": "SeaXの自動メッセージングプラットフォームで不動産ビジネスを変革します。リードに即座に応答し、内覧を自動的にスケジュールし、取引全体を通してクライアントに情報を提供します。"
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX for",
+            "highlight": "不動産"
+          },
+          "description": "二度とリードを逃さない。インテリジェントなメッセージングでクライアントコミュニケーションを自動化し、内覧を即座にスケジュールし、より多くの取引を成立させます。",
+          "cta": {
+            "primary": "業界ソリューションを入手",
+            "secondary": "機能を表示"
+          }
+        },
+        "challenges": {
+          "title": "当社が解決する不動産の課題",
+          "subtitle": "不動産の専門家が直面する一般的なコミュニケーションの課題",
+          "items[0]": {
+            "title": "リード応答時間",
+            "description": "不動産のリードはすぐに冷めてしまいます。潜在的な買い手または売り手が連絡してきたときは毎分が重要ですが、エージェントはしばしば電話に出られないか、応答が遅すぎます。"
+          },
+          "items[1]": {
+            "title": "アポイントのスケジューリング",
+            "description": "複数の関係者間で物件の内覧、会議、クロージングを調整すると、スケジュールの競合や機会損失につながります。"
+          },
+          "items[2]": {
+            "title": "クライアントコミュニケーション",
+            "description": "複数の物件にわたる買い手、売り手、貸し手、その他のエージェントとの継続的なコミュニケーションを管理することは、圧倒的になります。"
+          },
+          "items[3]": {
+            "title": "時間外の可用性",
+            "description": "不動産は午後5時に終わりません。クライアントは夕方や週末の応答を期待しますが、エージェントにも個人的な時間が必要です。"
+          },
+          "items[4]": {
+            "title": "フォローアップの一貫性",
+            "description": "紹介のためにリードや過去のクライアントと一貫したフォローアップを維持するには、手動で管理するのが難しい体系的なコミュニケーションが必要です。"
+          },
+          "items[5]": {
+            "title": "物件の更新",
+            "description": "関心のある買い手に価格の変更、新しいリスティング、市場の更新について情報を提供するには、絶え間ない手作業が必要です。"
+          }
+        },
+        "useCases": {
+          "title": "不動産のユースケース",
+          "subtitle": "不動産の専門家がSeaXを使用してビジネスを成長させる方法",
+          "items[0]": {
+            "title": "即時リード応答",
+            "description": "SMS経由で新しいリードに数秒以内に自動的に応答し、関心が高いうちに捉え、即時フォローアップの資格を与えます。",
+            "benefits[0]": "5倍速い応答時間",
+            "benefits[1]": "自動リード認定",
+            "benefits[2]": "二度とリードを逃さない"
+          },
+          "items[1]": {
+            "title": "自動アポイントスケジューリング",
+            "description": "クライアントがSMS経由で直接物件の内覧やコンサルテーションを予約できるようにし、自動カレンダー統合とリマインダー通知を提供します。",
+            "benefits[0]": "スケジュールの競合の削減",
+            "benefits[1]": "自動リマインダー",
+            "benefits[2]": "カレンダー統合"
+          },
+          "items[2]": {
+            "title": "取引の更新",
+            "description": "検査、資金調達、クロージングの進捗に関する自動更新により、売買プロセス全体を通してすべての関係者に情報を提供します。",
+            "benefits[0]": "クライアントの不安の軽減",
+            "benefits[1]": "ステータス確認の電話の減少",
+            "benefits[2]": "よりスムーズな取引"
+          },
+          "items[3]": {
+            "title": "市場の更新と育成",
+            "description": "自動市場レポート、新しいリスティングアラート、パーソナライズされた物件の推奨を通じて、過去のクライアントやリードの記憶に残り続けます。",
+            "benefits[0]": "紹介の増加",
+            "benefits[1]": "より多くのリピートビジネス",
+            "benefits[2]": "一貫した市場での存在感"
+          }
+        },
+        "stats": {
+          "title": "SeaXによる不動産の結果",
+          "subtitle": "不動産の専門家向けの実証済みの成果",
+          "items[0]": {
+            "value": "5x",
+            "label": "より速いリード応答",
+            "description": "数時間から数秒へ"
+          },
+          "items[1]": {
+            "value": "40%",
+            "label": "より多くのアポイントが予約されました",
+            "description": "自動スケジューリングを通じて"
+          },
+          "items[2]": {
+            "value": "25%",
+            "label": "紹介の増加",
+            "description": "より良いクライアント関係"
+          }
+        },
+        "cta": {
+          "title": "不動産ビジネスを変革する準備はできましたか？",
+          "description": "SeaXを使用してより速く応答し、より多くのアポイントを予約し、より多くの取引を成立させている何千もの不動産の専門家に参加してください。",
+          "primary": "今日から始める",
+          "secondary": "価格を見る"
+        }
+      },
+      "politicalCampaigns": {
+        "seo": {
+          "title": "政治キャンペーン向けSeaX - 有権者を動員し、選挙に勝つ",
+          "description": "SeaXの強力なメッセージングプラットフォームで政治キャンペーンを変革します。より多くの有権者にリーチし、より多くの資金を調達し、支持者を動員して選挙日に勝ちます。"
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX for",
+            "highlight": "政治キャンペーン"
+          },
+          "description": "政治キャンペーン向けの究極のメッセージングプラットフォームで、すべての有権者にリーチし、支持者を動員し、選挙に勝ちます。",
+          "cta": {
+            "primary": "キャンペーンソリューションを入手",
+            "secondary": "機能を表示"
+          }
+        },
+        "challenges": {
+          "title": "当社が解決する政治キャンペーンの課題",
+          "subtitle": "現代の政治キャンペーンが直面する一般的なコミュニケーションの課題",
+          "items[0]": {
+            "title": "有権者アウトリーチ",
+            "description": "複数のチャネルにわたる多様な有権者層にリーチし、動員することは、現代のキャンペーンにとって大きな課題です。"
+          },
+          "items[1]": {
+            "title": "ボランティアの調整",
+            "description": "イベント、戸別訪問、電話かけのためにボランティアを組織し、コミュニケーションをとるには、絶え間ない努力が必要です。"
+          },
+          "items[2]": {
+            "title": "パーソナライズされたメッセージング",
+            "description": "有権者の関心、場所、候補者の公約に基づいてパーソナライズされたメッセージを配信することは重要ですが、困難です。"
+          },
+          "items[3]": {
+            "title": "資金調達",
+            "description": "多数の少額寄付者から資金を調達するには、継続的なエンゲージメントと簡単な寄付プロセスが必要です。"
+          },
+          "items[4]": {
+            "title": "投票の呼びかけ（GOTV）",
+            "description": "選挙日に支持者に投票を効果的に思い出させ、動員することは、大きなロジスティック上の課題です。"
+          },
+          "items[5]": {
+            "title": "寄付のフォローアップ",
+            "description": "寄付者に迅速に感謝し、寄付後もエンゲージメントを維持することは、将来の資金調達の成功に不可欠です。"
+          }
+        },
+        "useCases": {
+          "title": "政治キャンペーンのユースケース",
+          "subtitle": "政治キャンペーンがSeaXを使用して選挙に勝つ方法",
+          "items[0]": {
+            "title": "有権者登録運動",
+            "description": "SMSを使用して有権者登録リンクを送信し、質問に答え、有権者を登録プロセスに導きます。",
+            "benefits[0]": "有権者登録の増加",
+            "benefits[1]": "自動フォローアップ",
+            "benefits[2]": "管理作業の削減"
+          },
+          "items[1]": {
+            "title": "イベントの出欠確認とリマインダー",
+            "description": "自動SMSリマインダーでキャンペーン集会、タウンホール、その他のイベントの出欠確認を管理し、出席率を最大化します。",
+            "benefits[0]": "より高いイベント出席率",
+            "benefits[1]": "自動リマインダー",
+            "benefits[2]": "簡単な出欠確認管理"
+          },
+          "items[2]": {
+            "title": "資金調達の訴え",
+            "description": "SMS経由でターゲットを絞った資金調達の訴えを送信し、寄付への直接リンクを提供して、支持者が簡単に貢献できるようにします。",
+            "benefits[0]": "寄付の増加",
+            "benefits[1]": "より高いコンバージョン率",
+            "benefits[2]": "簡素化された寄付プロセス"
+          },
+          "items[3]": {
+            "title": "GOTVと選挙日のリマインダー",
+            "description": "選挙日に支持者に投票所と時間を含むパーソナライズされたリマインダーを送信して、投票率を最大化します。",
+            "benefits[0]": "より高い投票率",
+            "benefits[1]": "パーソナライズされたリマインダー",
+            "benefits[2]": "投票の呼びかけ費用の削減"
+          }
+        },
+        "stats": {
+          "title": "SeaXによるキャンペーンの結果",
+          "subtitle": "政治キャンペーン向けの実証済みの成果",
+          "items[0]": {
+            "value": "15%",
+            "label": "投票率の向上",
+            "description": "ターゲットを絞ったGOTVメッセージを通じて"
+          },
+          "items[1]": {
+            "value": "25%",
+            "label": "より多くの寄付",
+            "description": "簡素化された資金調達の訴えから"
+          },
+          "items[2]": {
+            "value": "50%",
+            "label": "より多くのボランティア",
+            "description": "より良い調整を通じて"
+          }
+        },
+        "cta": {
+          "title": "選挙に勝つ準備はできましたか？",
+          "description": "SeaXを使用して有権者を動員し、資金を調達し、選挙日に勝っている何百ものキャンペーンに参加してください。",
+          "primary": "今日から始める",
+          "secondary": "価格を見る"
+        }
+      },
+      "healthcare": {
+        "seo": {
+          "title": "ヘルスケア向けSeaX - 患者エンゲージメントとケア提供の改善",
+          "description": "SeaXの革新的なメッセージングプラットフォームでヘルスケアサービスを強化します。患者エンゲージメントを改善し、ケアの調整を合理化し、より良い健康成果を提供します。"
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX for",
+            "highlight": "ヘルスケア"
+          },
+          "description": "ヘルスケアプロバイダー向けに調整された自動メッセージングソリューションで、患者エンゲージメントを高め、ケアの成果を改善します。",
+          "cta": {
+            "primary": "業界ソリューションを入手",
+            "secondary": "機能を表示"
+          }
+        },
+        "challenges": {
+          "title": "当社が解決するヘルスケアの課題",
+          "subtitle": "高度なコミュニケーション方法を通じてヘルスケア提供における一般的な障害を克服する",
+          "items": {
+            "0": {
+              "title": "患者のフォローアップ",
+              "description": "退院後または予約後に患者とタイムリーにフォローアップして、再入院を防ぎ、ケアの成果を改善します。"
+            },
+            "1": {
+              "title": "アポイントのスケジューリング",
+              "description": "無断キャンセル率を減らし、医師のスケジュールを最適化し、患者満足度を高めながら、予約予約を効率的に管理します。"
+            },
+            "2": {
+              "title": "慢性期ケア管理",
+              "description": "一貫したコミュニケーションと教育を通じて、慢性疾患を持つ患者がケアプランに積極的に関与し続けるようにします。"
+            },
+            "3": {
+              "title": "緊急警報",
+              "description": "重要な健康警報と緊急情報を患者、スタッフ、利害関係者に迅速に伝達します。"
+            },
+            "4": {
+              "title": "患者教育",
+              "description": "より良い健康管理と意思決定のために、患者と介護者に最新の情報とガイダンスを提供します。"
+            },
+            "5": {
+              "title": "服薬リマインダー",
+              "description": "タイムリーでパーソナライズされたリマインダーシステムの欠如により、患者は服薬を忘れてしまいます。"
+            }
+          }
+        },
+        "useCases": {
+          "title": "ヘルスケアのユースケース",
+          "subtitle": "SeaXがヘルスケア提供を変革する方法の実際の例",
+          "items": {
+            "0": {
+              "title": "患者リマインダー",
+              "description": "今後の予約、服薬スケジュール、予防スクリーニングについて、パーソナライズされたSMSリマインダーを自動的に送信します。",
+              "benefits": {
+                "0": "無断キャンセルの削減",
+                "1": "服薬アドヒアランスの向上",
+                "2": "より良い健康成果"
+              }
+            },
+            "1": {
+              "title": "慢性疾患モニタリング",
+              "description": "継続的なコミュニケーション、教育リソース、進捗追跡で慢性期ケア患者をエンゲージメントし、生活の質を向上させます。",
+              "benefits": {
+                "0": "患者満足度の向上",
+                "1": "再入院率の低下",
+                "2": "強化されたケアの調整"
+              }
+            },
+            "2": {
+              "title": "危機警報",
+              "description": "公衆衛生上の緊急事態や自然災害時に、患者や医療チームに緊急警報や最新情報を配信します。",
+              "benefits": {
+                "0": "より速い情報伝達",
+                "1": "より大きな患者の信頼",
+                "2": "効果的な危機管理"
+              }
+            },
+            "3": {
+              "title": "遠隔医療の予約設定",
+              "description": "遠隔医療の設定を患者に案内し、仮想予約を成功させるための技術サポートを提供します。",
+              "benefits": {
+                "0": "ケアへのアクセスの拡大",
+                "1": "より高い患者エンゲージメント",
+                "2": "移動の障壁の軽減"
+              }
+            }
+          }
+        },
+        "stats": {
+          "title": "SeaXで達成されたヘルスケアの結果",
+          "subtitle": "ヘルスケアプロバイダー向けの実証済みの影響",
+          "items": {
+            "0": {
+              "value": "40%",
+              "label": "無断キャンセルの削減",
+              "description": "タイムリーな予約リマインダー付き"
+            },
+            "1": {
+              "value": "35%",
+              "label": "患者エンゲージメントの向上",
+              "description": "パーソナライズされたコミュニケーション戦略を通じて"
+            },
+            "2": {
+              "value": "60%",
+              "label": "より速い危機対応",
+              "description": "緊急事態および公衆衛生警報中"
+            }
+          }
+        },
+        "features": {
+          "title": "ヘルスケアプロバイダーがSeaXを選ぶ理由",
+          "subtitle": "ヘルスケアコミュニケーションの成功のために設計された包括的な機能",
+          "items": {
+            "0": {
+              "title": "HIPAAコンプライアンス",
+              "description": "すべてのHIPAA要件を満たすエンドツーエンドの暗号化と安全なデータ処理。"
+            },
+            "1": {
+              "title": "マルチチャネルメッセージング",
+              "description": "1つのダッシュボードからSMS、音声通話、安全なメッセージングプラットフォームを通じて患者にリーチします。"
+            },
+            "2": {
+              "title": "スマートスケジューリング",
+              "description": "自動再スケジュールおよび確認機能を備えたインテリジェントな予約リマインダー。"
+            }
+          }
+        },
+        "cta": {
+          "title": "ヘルスケアサービスを変革する準備はできましたか？",
+          "description": "SeaXと提携して、患者体験とケア提供に革命を起こしましょう",
+          "primary": "今日から始める",
+          "secondary": "価格を見る"
+        }
+      },
+      "financialServices": {
+        "seo": {
+          "title": "金融サービス向けSeaX - 安全なコミュニケーションとクライアントエンゲージメント",
+          "description": "SeaXの安全なメッセージングプラットフォームで金融サービスを強化します。自動化されたソリューションでクライアントコミュニケーションを改善し、ローンプロセスを合理化し、エンゲージメントを高めます。"
+        },
+        "hero": {
+          "title": {
+            "main": "SeaX for",
+            "highlight": "金融サービス"
+          },
+          "description": "金融業界向けに設計された安全で自動化されたメッセージングソリューションで、より強力なクライアント関係を構築し、金融業務を合理化します。",
+          "cta": {
+            "primary": "業界ソリューションを入手",
+            "secondary": "機能を表示"
+          }
+        },
+        "challenges": {
+          "title": "当社が解決する金融サービスの課題",
+          "subtitle": "金融サービス業界における一般的なコミュニケーションの課題",
+          "items": {
+            "0": {
+              "title": "ローン申請の更新",
+              "description": "明確なコミュニケーションを維持し、信頼を築きながら、複雑なローン承認プロセス全体を通して申請者に情報を提供します。"
+            },
+            "1": {
+              "title": "不正行為アラート",
+              "description": "疑わしいアカウントアクティビティを顧客に迅速に通知し、検証と解決のための安全なチャネルを提供します。"
+            },
+            "2": {
+              "title": "投資の更新",
+              "description": "タイムリーな市場の更新、ポートフォリオのパフォーマンス、投資機会をパーソナライズされた方法でクライアントに提供します。"
+            },
+            "3": {
+              "title": "支払いのリマインダー",
+              "description": "クライアントとの専門的な関係を維持しながら、自動支払いリマインダーと延滞通知を送信します。"
+            },
+            "4": {
+              "title": "顧客オンボーディング",
+              "description": "新しい顧客をアカウント設定、検証プロセス、初期サービスのアクティベーションにスムーズに案内します。"
+            },
+            "5": {
+              "title": "アカウント通知",
+              "description": "アカウント残高、取引、重要なアカウントの変更に関するリアルタイムの更新を提供して、顧客体験を向上させます。"
+            }
+          }
+        },
+        "useCases": {
+          "title": "金融サービスのユースケース",
+          "subtitle": "金融機関がSeaXを使用してクライアントサービスを強化する方法",
+          "items": {
+            "0": {
+              "title": "ローンステータスの更新",
+              "description": "パーソナライズされたメッセージングで、ローン申請の進捗、必要な書類、承認状況について申請者に自動的に通知します。",
+              "benefits": {
+                "0": "顧客の不安の軽減",
+                "1": "より速い書類提出",
+                "2": "承認率の向上"
+              }
+            },
+            "1": {
+              "title": "不正行為の防止",
+              "description": "SMS経由で疑わしいアクティビティを顧客に即座に警告し、アカウントを保護し、不正行為による損失を減らすための安全な検証リンクを提供します。",
+              "benefits": {
+                "0": "より速い不正行為の検出",
+                "1": "金融損失の削減",
+                "2": "顧客の信頼の向上"
+              }
+            },
+            "2": {
+              "title": "投資アラート",
+              "description": "各クライアントの好みに合わせて、タイムリーな市場の更新、ポートフォリオのパフォーマンスレポート、投資機会を送信します。",
+              "benefits": {
+                "0": "クライアントエンゲージメントの向上",
+                "1": "より良い投資判断",
+                "2": "より高いポートフォリオパフォーマンス"
+              }
+            },
+            "3": {
+              "title": "支払い回収",
+              "description": "良好な顧客関係を維持するパーソナライズされたメッセージングで、支払いリマインダーと延滞通知を自動化します。",
+              "benefits": {
+                "0": "回収率の向上",
+                "1": "延滞の削減",
+                "2": "より良い顧客維持"
+              }
+            }
+          }
+        },
+        "stats": {
+          "title": "SeaXによる金融サービスの結果",
+          "subtitle": "金融機関向けの実証済みの成果",
+          "items": {
+            "0": {
+              "value": "45%",
+              "label": "より速いローン処理",
+              "description": "自動ステータス更新を通じて"
+            },
+            "1": {
+              "value": "30%",
+              "label": "不正行為による損失の削減",
+              "description": "リアルタイムアラート付き"
+            },
+            "2": {
+              "value": "60%",
+              "label": "回収率の向上",
+              "description": "タイムリーな支払いリマインダーを通じて"
+            }
+          }
+        },
+        "cta": {
+          "title": "金融サービスを変革する準備はできましたか？",
+          "description": "SeaXを使用してクライアントコミュニケーションを強化し、業務効率を改善し、ビジネスの成長を促進している主要な金融機関に参加してください。",
+          "primary": "今日から始める",
+          "secondary": "価格を見る"
+        }
+      }
+    },
+    "pricing": {
+      "seo": {
+        "title": "SeaXの価格 - 透明性、拡張性、価値主導",
+        "description": "大量のSMS、WhatsApp、音声通信向けのシンプルで透明な価格設定。予測可能なコストで、数千から数百万のメッセージに拡張できます。"
+      },
+      "hero": {
+        "title": {
+          "main": "シンプルで透明な",
+          "highlight": "拡張可能な価格設定"
+        },
+        "description": "小規模から始めても大規模に展開しても、当社の価格設定はビジネスの成長に合わせて拡張します。隠れた料金や驚きはなく、結果をもたらす予測可能なコストだけです。"
+      },
+      "plans": {
+        "title": "プランを選択",
+        "billing": {
+          "monthly": "月払い",
+          "yearly": "年払い",
+          "savings": "（2か月分お得）"
+        },
+        "whatsapp": {
+          "name": "WhatsAppのみ",
+          "subheader": "市場で最高の価格",
+          "price": {
+            "monthly": "$19.99",
+            "yearly": "$199"
+          },
+          "period": {
+            "monthly": "/月",
+            "yearly": "/年"
+          },
+          "description": "ユーザーごと",
+          "features": {
+            "0": "WhatsAppの送受信",
+            "1": "WhatsApp Business Platformのサポート",
+            "2": "無制限の連絡先",
+            "3": "テンプレート",
+            "4": "1つのワークスペース"
+          },
+          "cta": "今すぐサインアップ"
+        },
+        "omnichannel": {
+          "name": "オムニチャネル",
+          "subheader": "本格的なコンタクトセンター",
+          "price": {
+            "monthly": "$99",
+            "yearly": "$999"
+          },
+          "additionalPrice": {
+            "monthly": "$49",
+            "yearly": "$499"
+          },
+          "period": {
+            "monthly": "/月",
+            "yearly": "/年"
+          },
+          "description": "最初のユーザー",
+          "additionalDescription": "追加ユーザー",
+          "features": {
+            "0": "SMSの送受信",
+            "1": "インバウンド/アウトバウンドの電話",
+            "2": "SMSキャンペーン",
+            "3": "RESTful APIアクセス",
+            "4": "電話キャンペーン",
+            "5": "SeaChat統合",
+            "6": "1つのワークスペース",
+            "7": "（追加のワークスペースは月額49ドルまたは年額499ドル）",
+            "8": "コミュニケーション：",
+            "9": "$0.02/SMS、$0.04/MMS、",
+            "10": "$0.05/ボイスメールドロップ",
+            "11": "電話での音声AIエージェントは1分あたり0.12ドルから"
+          },
+          "cta": "オムニチャネルを開始"
+        },
+        "custom": {
+          "name": "カスタム",
+          "subheader": "独自の価格を交渉",
+          "price": "お問い合わせ",
+          "description": "カスタムビルド",
+          "features": {
+            "0": "複数のワークスペース — 代理店に最適",
+            "1": "各ワークスペースには複数のAIエージェントと電話番号があります",
+            "2": "プロフェッショナルな設計ガイドラインと技術サポート、ローンチサポートプランとセットで販売"
+          },
+          "cta": "お問い合わせ"
+        },
+        "disclaimer": "* 価格は国によって異なります。記載されている価格は米国向けです。その他の国については、お問い合わせください。"
+      },
+      "channels": {
+        "title": "チャネルごとの価格",
+        "subtitle": "各コミュニケーションチャネルの透明な価格設定",
+        "smsLocal": {
+          "name": "SMSローカル（10DLC）",
+          "campaignSetup": "$150",
+          "monthly": "$2/番号",
+          "usage": "$0.02/メッセージ（米国/カナダ）",
+          "description": "ブランド登録とA2P登録が必要"
+        },
+        "smsTollFree": {
+          "name": "SMSフリーダイヤル",
+          "campaignSetup": "$150",
+          "monthly": "$3/番号",
+          "usage": "$0.02/メッセージ（米国/カナダ）",
+          "description": "より高い信頼、より高いスループット"
+        },
+        "smsShortCode": {
+          "name": "SMSショートコード",
+          "setup": "$2,000",
+          "quarterly": "$3,000/コード",
+          "usage": "$0.02/メッセージ（米国/カナダ）",
+          "description": "最高のスループット"
+        },
+        "whatsapp": {
+          "name": "WhatsApp Business Platform",
+          "metaSetup": "$150",
+          "monthly": "$0",
+          "usage": "$0.00/メッセージ（世界中）",
+          "description": "Metaに直接支払います。Seasalt.aiからのマークアップはありません"
+        },
+        "voice": {
+          "name": "音声通話",
+          "setup": "無料",
+          "monthly": "各番号はE911アドレス付きで月額2ドル〜3ドル",
+          "usage": "$0.015/分（米国/カナダ）",
+          "description": "100か国以上"
+        },
+        "voicemail": {
+          "name": "ボイスメールドロップ",
+          "setup": "無料",
+          "monthly": "各番号はE911アドレス付きで月額2ドル〜3ドル",
+          "usage": "ドロップあたり0.05ドル（米国/カナダ）",
+          "description": "100か国以上"
+        },
+        "labels": {
+          "campaignSetup": "キャンペーン設定：",
+          "metaSetup": "Meta設定：",
+          "setup": "設定：",
+          "monthly": "月額：",
+          "quarterly": "四半期ごと：",
+          "usage": "使用量："
+        }
+      },
+      "omniCalculator": {
+        "title": "オムニチャネル価格計算機",
+        "subtitle": "インタラクティブな計算機でSeaXのコストを数秒で見積もります",
+        "billing": {
+          "monthly": "月払い",
+          "yearly": "年払い",
+          "save": "17%節約"
+        },
+        "configureTitle": "設定を構成",
+        "users": {
+          "label": "ユーザー",
+          "pricing": "最初のユーザー{{first}}、追加ユーザー{{additional}}"
+        },
+        "phone": {
+          "label": "電話番号",
+          "local": "ローカル番号（各月額2ドル）",
+          "tollfree": "フリーダイヤル番号（各月額3ドル）"
+        },
+        "whatsapp": {
+          "label": "WhatsApp Business番号",
+          "note": "WhatsApp番号は無料です！送信されたテンプレートメッセージに対してのみ支払います。"
+        },
+        "usageTitle": "月間使用量",
+        "sms": "SMSメッセージ（各0.02ドル）",
+        "calls": "通話時間（各0.015ドル）",
+        "voicemail": "ボイスメールドロップ（各0.05ドル）",
+        "whatsappMessages": "WhatsAppメッセージ（ビジネス主導）",
+        "breakdownTitle": "{{period}}のコスト内訳",
+        "usersBreakdown": "{{count}}ユーザー",
+        "usersDetail": "最初のユーザー1人 + 追加{{additional}}人",
+        "phoneBreakdown": "電話番号",
+        "whatsappBreakdown": "{{count}}個のWhatsApp番号",
+        "whatsappFree": "無料の設定とメンテナンス",
+        "smsBreakdown": "{{count, number}}件のSMSメッセージ",
+        "callsBreakdown": "{{count, number}}分の通話時間",
+        "voicemailBreakdown": "{{count, number}}件のボイスメールドロップ",
+        "whatsappMessagesBreakdown": "{{count, number}}件のWhatsAppメッセージ",
+        "whatsappMessagesFree": "顧客の返信は無料、テンプレートは0.005ドル〜0.02ドル",
+        "total": "合計{{period}}",
+        "savings": {
+          "title": "年間${{amount}}節約できます！",
+          "detail": "月払いと比較して、年払いプランは大幅な節約になります"
+        },
+        "cta": {
+          "start": "無料トライアルを開始",
+          "sales": "営業担当者に相談"
+        }
+      },
+      "roi": {
+        "title": "ROIを計算",
+        "subtitle": "SeaXでどれだけ節約し、稼げるかをご覧ください"
+      },
+      "faq": {
+        "title": "よくある質問",
+        "volume": {
+          "question": "ボリューム価格はどのように機能しますか？",
+          "answer": "当社の価格設定は、使用量に応じて自動的に拡張します。ボリュームが多いほど、メッセージあたりの料金が安くなります。ボリュームに基づいて最適なSMSタイプ（ローカル、フリーダイヤル、またはショートコード）をお勧めします。"
+        },
+        "fees": {
+          "question": "隠れた料金はありますか？",
+          "answer": "隠れた料金は一切ありません。使用した分だけお支払いいただきます。設定料金は明確に記載されており、長期契約やキャンセル料はありません。"
+        },
+        "plans": {
+          "question": "いつでもプランを変更できますか？",
+          "answer": "はい、いつでもプランをアップグレードまたはダウングレードできます。変更はすぐに有効になり、日割り計算された金額が請求されます。"
+        },
+        "international": {
+          "question": "国際メッセージングについてはどうですか？",
+          "answer": "200か国以上へのメッセージングをサポートしています。料金は宛先によって異なりますが、すべての地域に対して透明な価格設定を提供しています。音声通話は100か国以上で利用できます。"
+        }
+      },
+      "cta": {
+        "title": "始める準備はできましたか？",
+        "subtitle": "今すぐ無料トライアルを開始してください - クレジットカードは不要です",
+        "signUp": "今すぐサインアップ",
+        "talkToSales": "営業担当者に相談"
+      },
+      "roiCalculator": {
+        "title": "ROI計算機",
+        "inputs": {
+          "monthlyMessages": "月間メッセージ数",
+          "currentCost": "現在の月額費用（ドル）",
+          "conversionRate": "コンバージョン率（%）",
+          "averageOrderValue": "平均注文額（ドル）"
+        },
+        "placeholders": {
+          "monthlyMessages": "100,000",
+          "currentCost": "5,000",
+          "conversionRate": "2.5",
+          "averageOrderValue": "150"
+        },
+        "results": {
+          "monthlyRoi": "月間ROI",
+          "monthlySavings": "月間節約額",
+          "seaxCost": "SeaX費用",
+          "annualSavings": "年間節約額",
+          "monthlyRevenue": "月間収益"
+        },
+        "payback": {
+          "period": "回収期間",
+          "duration": "{{count}}か月",
+          "breakeven": "損益分岐点",
+          "messages": "{{count, number}}件のメッセージ"
+        }
+      }
+    },
+    "common": {
+      "getStartedToday": "今日から始める",
+      "viewPricing": "価格を見る",
+      "bookDemo": "デモを予約",
+      "signUp": "サインアップ",
+      "learnMore": "詳細を見る",
+      "contactSales": "営業担当者に連絡"
+    },
+    "header": {
+      "backToMain": "メインサイトに戻る",
+      "features": "機能",
+      "pricing": "価格",
+      "howItWorks": "仕組み",
+      "about": "概要",
+      "resources": "リソース",
+      "blog": "ブログ",
+      "contactSales": "営業担当者に連絡",
+      "navigation": {
+        "features": "機能",
+        "channels": "チャネル",
+        "solutions": "ソリューション",
+        "industries": "業界",
+        "pricing": "価格"
+      },
+      "channels": {
+        "smsOverview": "SMSの概要",
+        "localNumber": "ローカル番号（10DLC）",
+        "tollFree": "フリーダイヤル番号",
+        "shortCode": "ショートコード",
+        "whatsappBusiness": "WhatsApp Business Platform",
+        "phoneCallVoice": "電話音声"
+      },
+      "solutions": {
+        "leadGeneration": "リードジェネレーション",
+        "marketingAutomation": "マーケティングオートメーション",
+        "customerEngagement": "顧客エンゲージメント",
+        "appointmentReminders": "予約リマインダー",
+        "emergencyAlerts": "緊急警報"
+      },
+      "industries": {
+        "ecommerceRetail": "eコマース＆小売",
+        "realEstate": "不動産",
+        "politicalCampaigns": "政治キャンペーン",
+        "healthcare": "ヘルスケア",
+        "financialServices": "金融サービス"
+      },
+      "buttons": {
+        "wiki": "Wiki",
+        "signIn": "サインイン",
+        "signUp": "サインアップ"
+      },
+      "mobile": {
+        "backToMainSite": "メインサイトに戻る"
+      }
+    },
+    "footer": {
+      "tagline": "何百万人にも即座にリーチ。何百万ものSMS、WhatsAppメッセージ、自動電話を送信するための究極のプラットフォーム。パイプラインを埋め、収益を上げ、ビジネスを拡大します。",
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "ワシントン州シアトル",
+      "channels": {
+        "title": "チャネル",
+        "smsOverview": "SMSの概要",
+        "localNumber": "ローカル番号（10DLC）",
+        "localNumberCode": "10DLC",
+        "tollFree": "フリーダイヤル番号",
+        "tollFreeCode": "8XX",
+        "shortCode": "ショートコード",
+        "shortCodeNumber": "xxxxx",
+        "whatsappBusiness": "WhatsApp Business Platform",
+        "phoneVoice": "電話音声"
+      },
+      "solutions": {
+        "title": "ソリューション",
+        "leadGeneration": "リードジェネレーション",
+        "marketingAutomation": "マーケティングオートメーション",
+        "customerEngagement": "顧客エンゲージメント",
+        "appointmentReminders": "予約リマインダー",
+        "emergencyAlerts": "緊急警報"
+      },
+      "industries": {
+        "title": "業界",
+        "ecommerce": "eコマース＆小売",
+        "realEstate": "不動産",
+        "political": "政治キャンペーン",
+        "healthcare": "ヘルスケア",
+        "financial": "金融サービス"
+      },
+      "company": {
+        "title": "会社",
+        "productWiki": "製品Wiki",
+        "apiReferences": "APIリファレンス"
+      }
+    },
+    "calculator": {
+      "ranges": {
+        "tenKPlus": "1万+",
+        "fiveKPlus": "5千+",
+        "oneKPlus": "1千+"
+      },
+      "phone": {
+        "localPlus": "ローカル +",
+        "tollFree": "フリーダイヤル"
+      }
+    },
+    "dashboard": {
+      "messagesSent": "送信済みメッセージ",
+      "delivered": "配信済み",
+      "opened": "開封済み",
+      "clicked": "クリック済み",
+      "replied": "返信済み",
+      "bounce": "バウンス",
+      "unsubscribed": "購読解除済み",
+      "liveUpdates": "ライブアップデート",
+      "campaignPerformance": "キャンペーンのパフォーマンス"
+    },
+    "scale": {
+      "traditional": {
+        "title": "従来のアウトリーチ",
+        "calls": "手動通話",
+        "emails": "一斉メール",
+        "limitation": "限定的なリーチ"
+      },
+      "seax": {
+        "title": "SeaXプラットフォーム",
+        "sms": "マスSMS",
+        "whatsapp": "WhatsAppキャンペーン",
+        "voice": "音声自動化",
+        "scale": "無制限のスケール"
+      }
+    },
+    "stats": {
+      "processing": "処理中",
+      "messagesPerSecond": "メッセージ/秒",
+      "delivered": "配信済み",
+      "campaignsActive": "アクティブなキャンペーン",
+      "responseRate": "応答率",
+      "automatedFollowups": "自動フォローアップ",
+      "leadsQualified": "認定リード"
+    },
+    "hero": {
+      "badge": "10,000社以上の企業から信頼されています",
+      "headline": {
+        "reach": "リーチ",
+        "millions": "何百万人にも。",
+        "instantly": "即座に。"
+      },
+      "subtitle": "何百万ものSMS、WhatsAppメッセージ、自動電話を送信するための究極のプラットフォーム。強力なアウトリーチでパイプラインを埋め、収益を上げ、ビジネスを拡大します。",
+      "benefits": {
+        "messages": "毎日1,000万件以上のメッセージ",
+        "calls": "1時間あたり50万件以上の通話",
+        "uptime": "99.9%の稼働率"
+      },
+      "cta": {
+        "bookDemo": "デモを予約",
+        "signUp": "サインアップ"
+      },
+      "liveActivity": "ライブアクティビティ",
+      "stats": {
+        "sent": "送信済みメッセージ",
+        "delivered": "配信済み",
+        "active": "現在アクティブ"
+      },
+      "visual": {
+        "title": "中央マーケティングハブ",
+        "subtitle": "何百万人にもリアルタイムでリーチ"
+      }
+    },
+    "channelTemplate": {
+      "hero": {
+        "getStarted": "始める"
+      },
+      "pricing": {
+        "defaultTitle": "透明な価格設定",
+        "defaultSubtitle": "ビジネスの成長に合わせて拡張する、シンプルで予測可能な価格設定",
+        "labels": {
+          "setup": "設定",
+          "monthly": "月額",
+          "perMessage": "メッセージごと"
+        }
+      },
+      "cta": {
+        "title": "アウトリーチを拡大する準備はできましたか？",
+        "subtitle": "SeaXで何百万もの人々にリーチしている何千もの企業に参加してください",
+        "getStarted": "今日から始める",
+        "viewPricing": "価格を見る"
+      }
+    },
+    "massCommunicationFlow": {
+      "messageTypes": {
+        "sms": "SMS",
+        "whatsapp": "WhatsApp",
+        "voice": "音声",
+        "email": "メール"
+      }
+    },
+    "realTimeDashboard": {
+      "badge": "リアルタイム分析",
+      "title": {
+        "live": "ライブ",
+        "performance": "パフォーマンス",
+        "insights": "インサイト"
+      },
+      "description": "ライブメトリック、エンゲージメント追跡、即時のパフォーマンスインサイトでキャンペーンのパフォーマンスをリアルタイムで確認できます。発生したデータに基づいて意思決定を行います。",
+      "metrics": {
+        "messagesSent": "送信済みメッセージ",
+        "delivered": "配信済み",
+        "engagementRate": "エンゲージメント率",
+        "activeUsers": "アクティブユーザー"
+      },
+      "liveUpdates": {
+        "title": "ライブアップデート",
+        "dataPoints": "データポイントが更新されました"
+      },
+      "dashboard": {
+        "title": "キャンペーン分析",
+        "liveStatus": "ライブ",
+        "chartLabel": "エンゲージメントトレンド",
+        "sent": "送信済み",
+        "delivered": "配信済み",
+        "engagement": "エンゲージメント"
+      },
+      "activity": {
+        "title": "ライブアクティビティ",
+        "types": {
+          "sms": "SMS",
+          "whatsapp": "WhatsApp",
+          "voice": "音声"
+        },
+        "statuses": {
+          "sent": "送信済み",
+          "delivered": "配信済み",
+          "read": "開封済み",
+          "replied": "返信済み"
+        }
+      },
+      "cards": {
+        "deliveryValue": "99.2%",
+        "deliveryRate": "配信率",
+        "hourlyValue": "2.4M",
+        "thisHour": "この時間",
+        "liveUpdates": "ライブアップデート"
+      }
+    },
+    "scaleComparison": {
+      "badge": "スケール分析",
+      "title": {
+        "manual": "手動 vs",
+        "automated": "自動",
+        "outreach": "アウトリーチ"
+      },
+      "description": "SeaXが、手動で時間のかかるプロセスから、何百万人にも即座にリーチする自動化された大規模な運用へと、アウトリーチ機能をどのように変革するかをご覧ください。",
+      "manual": {
+        "title": "手動アウトリーチ",
+        "person": "1人",
+        "stats": {
+          "messagesPerDay": "メッセージ/日",
+          "timeRequired": "所要時間",
+          "peopleReached": "リーチした人数",
+          "efficiency": "効率"
+        },
+        "badge": "限定的なスケール",
+        "timeValue": "8時間"
+      },
+      "vs": "VS",
+      "seax": {
+        "title": "SeaX自動化",
+        "aiPowered": "AI搭載",
+        "stats": {
+          "messagesPerDay": "メッセージ/日",
+          "timeRequired": "所要時間",
+          "peopleReached": "リーチした人数",
+          "efficiency": "効率"
+        },
+        "badge": "無制限のスケール",
+        "timeValue": "5分"
+      },
+      "advantage": {
+        "title": "SeaXの利点",
+        "fasterExecution": "より速い実行",
+        "moreReach": "より多くのリーチ",
+        "higherEfficiency": "より高い効率",
+        "fasterMultiplier": "5000x",
+        "reachMultiplier": "20000x",
+        "efficiencyMultiplier": "280%"
+      }
+    },
+    "pages": {
+      "channelsOverview": {
+        "seo": {
+          "title": "SeaXチャネルの概要 - 近日公開",
+          "description": "SeaXチャネルの概要ページは近日公開予定です。"
+        },
+        "title": "チャネルの概要",
+        "comingSoon": "近日公開",
+        "description": "完全なチャネルの概要エクスペリエンスを構築中です。"
+      },
+      "howItWorks": {
+        "seo": {
+          "title": "SeaXの仕組み - 3つの簡単なステップで何百万人にもキャンペーンを開始",
+          "description": "SeaXを使用して、3つの簡単なステップで何百万人にも大量のSMS、WhatsApp、音声キャンペーンを開始する方法を学びます。"
+        },
+        "hero": {
+          "title": {
+            "line1": "何百万人にもキャンペーンを開始",
+            "line2": "わずか4つの簡単なステップで"
+          },
+          "subtitle": "1,000人でも1,000,000人でも、SeaXはシームレスに処理します。技術的な専門知識は必要ありません。",
+          "features": {
+            "setup": "10分で設定",
+            "noCoding": "コーディング不要",
+            "instantDeploy": "即時展開"
+          }
+        },
+        "steps": {
+          "step1": {
+            "title": "連絡先をアップロード",
+            "description": "CSV、Excelから連絡先リストをインポートするか、CRMを接続します。当社のシステムは数百万の連絡先を簡単に処理します。",
+            "features": {
+              "csvImport": "CSV/Excelインポート",
+              "crmIntegrations": "CRM統合",
+              "dataValidation": "データ検証",
+              "duplicateRemoval": "重複削除",
+              "segmentationTools": "セグメンテーションツール"
+            },
+            "time": "2分"
+          },
+          "step2": {
+            "title": "配信方法を選択",
+            "description": "SMS、WhatsApp、または電話でオーディエンスにリーチする方法を選択します。",
+            "features": {
+              "smsDelivery": "SMS配信",
+              "whatsappMessaging": "WhatsAppメッセージング",
+              "phoneCallIntegration": "電話統合"
+            },
+            "time": "1分"
+          },
+          "step3": {
+            "title": "キャンペーンを構築",
+            "description": "メッセージをデザインし、キャンペーンパラメータを設定します。",
+            "features": {
+              "messageTemplates": "メッセージテンプレート",
+              "abTesting": "A/Bテスト",
+              "schedulingOptions": "スケジューリングオプション",
+              "personalization": "パーソナライズ"
+            },
+            "time": "5分"
+          },
+          "step4": {
+            "title": "起動と分析",
+            "description": "キャンペーンを即座に何百万人にも展開し、詳細な分析でリアルタイムのパフォーマンスを追跡します。",
+            "features": {
+              "instantDeployment": "即時展開",
+              "realTimeTracking": "リアルタイム追跡",
+              "deliveryReports": "配信レポート",
+              "responseAnalytics": "応答分析",
+              "roiMeasurement": "ROI測定"
+            },
+            "time": "ワンクリック"
+          }
+        },
+        "ui": {
+          "timeRequired": "所要時間：{{time}}"
+        },
+        "results": {
+          "title": "結果がすべてを物語っています",
+          "subtitle": "SeaXを使用して大規模に拡張している何千もの企業に参加してください",
+          "stats": {
+            "messagesDaily": "毎日送信されるメッセージ",
+            "openRate": "平均開封率",
+            "roi": "平均ROI"
+          }
+        },
+        "cta": {
+          "title": "最初のキャンペーンを開始する準備はできましたか？",
+          "subtitle": "SeaXを使用して何百万もの人々にリーチしている何千もの企業に参加してください",
+          "signUp": "サインアップ",
+          "bookDemo": "デモを予約"
+        },
+        "illustrations": {
+          "contacts": {
+            "fileName": "contacts.csv",
+            "fileSize": "10,000件の連絡先",
+            "dropFiles": "ここにファイルをドロップ",
+            "browse": "またはファイルを参照",
+            "imported": "件の連絡先がインポートされました"
+          },
+          "channels": {
+            "sms": "SMS",
+            "smsRate": "開封率98%",
+            "whatsapp": "WhatsApp",
+            "whatsappRate": "エンゲージメント率85%",
+            "voice": "音声",
+            "voiceRate": "即時通話"
+          },
+          "campaign": {
+            "draft": "キャンペーンの下書き",
+            "status": {
+              "draft": "下書き"
+            },
+            "messagePreview": "こんにちは、ジョンさん。新製品の発売をチェックしてください...",
+            "preview": "プレビュー",
+            "abTest": "A/Bテスト",
+            "schedule": "スケジュール",
+            "scheduleNow": "今すぐ"
+          },
+          "analytics": {
+            "campaignStatus": "キャンペーンステータス",
+            "status": {
+              "live": "ライブ"
+            },
+            "delivered": "配信済み",
+            "response": "応答",
+            "realTimeAnalytics": "リアルタイム分析"
+          }
+        }
+      }
+    },
+    "industryOverview": {
+      "seo": {
+        "title": "業界向けSeaX - 業界固有のソリューション",
+        "description": "SeaXは、実証済みの結果と業界の専門知識を備えた、業界向けのカスタマイズされたコミュニケーションソリューションを提供します。"
+      },
+      "hero": {
+        "title": {
+          "prefix": "SeaX for",
+          "industries": "業界"
+        },
+        "subtitle": "お客様の業界向けに特別に設計された専門的なコミュニケーションソリューション。",
+        "cta": {
+          "primary": "業界ソリューションを入手",
+          "secondary": "機能を表示"
+        }
+      },
+      "challenges": {
+        "title": "当社が解決する業界の課題",
+        "subtitle": "さまざまな業界における一般的なコミュニケーションの課題",
+        "challenge1": "課題1",
+        "challenge2": "課題2",
+        "challenge3": "課題3",
+        "challenge4": "課題4",
+        "challenge5": "課題5",
+        "challenge6": "課題6",
+        "description": "SeaXがお客様の業界に固有の{challenge}にどのように対処するか。"
+      },
+      "useCases": {
+        "title": "業界のユースケース",
+        "subtitle": "お客様の業界向けの実際のアプリケーション",
+        "useCase1": "ユースケース1",
+        "useCase2": "ユースケース2",
+        "useCase3": "ユースケース3",
+        "useCase4": "ユースケース4",
+        "description": "{useCase}がお客様のビジネスにどのように適用されるかの詳細な説明。",
+        "badge": "業界固有のソリューション"
+      },
+      "stats": {
+        "title": "業界の結果",
+        "subtitle": "企業向けの実証済みの成果",
+        "roi": {
+          "value": "250%",
+          "label": "ROIの向上"
+        },
+        "satisfaction": {
+          "value": "90%",
+          "label": "顧客満足度"
+        },
+        "time": {
+          "value": "60%",
+          "label": "時間の節約"
+        }
+      },
+      "cta": {
+        "title": "ビジネスを変革する準備はできましたか？",
+        "subtitle": "コミュニケーションのニーズでSeaXを信頼している他の業界リーダーに参加してください",
+        "button": "業界ソリューションを入手"
+      }
+    },
+    "solutionsOverview": {
+      "seo": {
+        "title": "SeaXソリューションの概要 - ビジネスを拡大",
+        "description": "SeaXソリューションの概要は、企業がコミュニケーションを拡大し、より良い結果を達成するのに役立ちます。"
+      },
+      "hero": {
+        "title": "ソリューションの概要",
+        "titleHighlight": "ソリューション",
+        "description": "当社の包括的なソリューションポートフォリオでビジネスコミュニケーションを変革します。",
+        "getStarted": "始める"
+      },
+      "features": {
+        "title": "強力な機能",
+        "subtitle": "成功するビジネスソリューションに必要なすべて",
+        "feature1": {
+          "title": "自動コミュニケーション",
+          "description": "AIを活用した自動化とインテリジェントなルーティングでコミュニケーションプロセスを合理化します。"
+        },
+        "feature2": {
+          "title": "マルチチャネルサポート",
+          "description": "SMS、音声、メッセージングプラットフォームなど、複数のチャネルでオーディエンスにリーチします。"
+        },
+        "feature3": {
+          "title": "リアルタイム分析",
+          "description": "包括的なリアルタイム分析でパフォーマンスを追跡し、キャンペーンを最適化します。"
+        },
+        "feature4": {
+          "title": "スケーラブルなインフラストラクチャ",
+          "description": "堅牢なエンタープライズグレードのインフラストラクチャで数百万のメッセージを処理します。"
+        },
+        "feature5": {
+          "title": "高度なパーソナライズ",
+          "description": "動的なコンテンツとスマートなターゲティング機能でパーソナライズされたエクスペリエンスを提供します。"
+        },
+        "feature6": {
+          "title": "統合対応",
+          "description": "包括的なAPIを通じて、既存のシステムやワークフローとシームレスに統合します。"
+        }
+      },
+      "stats": {
+        "title": "実証済みの結果",
+        "improvement": "改善",
+        "successRate": "成功率",
+        "timeSavings": "時間の節約"
+      },
+      "cta": {
+        "title": "ビジネスソリューションを変革する準備はできましたか？",
+        "subtitle": "SeaXでより良い結果を達成している何千もの企業に参加してください",
+        "getStarted": "今日から始める"
+      }
+    },
+    "about": {
+      "seo": {
+        "title": "SeaXについて - 大規模なマスコミュニケーションを強化",
+        "description": "マスコミュニケーションを民主化するというSeaXの使命について学びます。当社のストーリー、価値観、企業が何百万人にもリーチするのを支援するというコミットメントをご覧ください。"
+      },
+      "hero": {
+        "title": "民主化",
+        "titleHighlight": "マスコミュニケーション",
+        "description": "SeaXは、すべての企業が1つのメッセージを送信するのと同じくらい簡単に何百万人もの顧客にリーチできる力を持つべきであるという信念に基づいて構築されました。"
+      },
+      "mission": {
+        "title": "私たちの使命",
+        "description1": "私たちは、あらゆる規模の企業がマスコミュニケーションを利用できるようにするという使命を帯びています。スタートアップから大企業まで、誰もが大規模にオーディエンスにリーチする力を持つに値します。",
+        "description2": "最先端のテクノロジーとシンプルで直感的なデザインを組み合わせることで、かつて大量のコミュニケーションを大企業だけのものにしていた障壁を打ち破っています。",
+        "stats": {
+          "messagesDaily": "毎日のメッセージ",
+          "businessesServed": "サービスを提供した企業"
+        },
+        "features": {
+          "scale": {
+            "title": "無制限に拡張",
+            "description": "1,000から1,000万メッセージまで、お客様とともに拡張します"
+          },
+          "security": {
+            "title": "エンタープライズセキュリティ",
+            "description": "すべての企業に銀行レベルのセキュリティ"
+          },
+          "global": {
+            "title": "グローバルリーチ",
+            "description": "200か国以上の顧客とつながる"
+          }
+        }
+      },
+      "values": {
+        "title": "私たちの価値観",
+        "subtitle": "私たちが行うすべてのことを導く原則",
+        "customerFirst": {
+          "title": "顧客第一",
+          "description": "私たちが行うすべての決定は、お客様の成功を中心に据えています。"
+        },
+        "trust": {
+          "title": "信頼とセキュリティ",
+          "description": "最高水準のセキュリティでお客様のデータとコミュニケーションを保護します。"
+        },
+        "innovation": {
+          "title": "イノベーション",
+          "description": "コミュニケーションで可能なことの限界を常に押し広げています。"
+        },
+        "impact": {
+          "title": "グローバルインパクト",
+          "description": "世界中の企業をつなぐテクノロジーを構築しています。"
+        }
+      },
+      "story": {
+        "title": "私たちの物語",
+        "subtitle": "SeaXがどのようにして生まれたか",
+        "problem": {
+          "title": "問題",
+          "description": "中小企業は、大規模に顧客にリーチするのに苦労していました。既存のソリューションは、高すぎるか、複雑すぎるか、あるいは現代のビジネスの成長に必要な量を処理できませんでした。"
+        },
+        "solution": {
+          "title": "解決策",
+          "description": "私たちは、マスコミュニケーションを1つのメッセージを送信するのと同じくらい簡単にするというシンプルなビジョンでSeaXを構築しました。クラウドインフラストラクチャとAIを活用することで、数千から数百万のメッセージにシームレスに拡張できるプラットフォームを作成しました。"
+        },
+        "growth": {
+          "title": "成長",
+          "description": "1年以内に、何千もの企業のために毎日数百万のメッセージを処理していました。スタートアップからフォーチュン500企業まで、SeaXは大量のコミュニケーションのための頼りになるプラットフォームになりました。"
+        },
+        "future": {
+          "title": "未来",
+          "description": "今日、SeaXは200か国以上で毎日1,000万件以上のメッセージを処理しています。私たちは、世界中の企業のためにマスコミュニケーションを民主化するという使命をまだ始めたばかりです。"
+        }
+      },
+      "cta": {
+        "title": "私たちの使命に参加する準備はできましたか？",
+        "subtitle": "SeaXがビジネスコミュニケーションをどのように変革できるかをご覧ください",
+        "getStarted": "始める"
+      }
+    },
+    "contactSales": {
+      "seo": {
+        "title": "SeaX営業担当者へのお問い合わせ - マスコミュニケーションのカスタム見積もりを取得",
+        "description": "パーソナライズされたデモとカスタム見積もりについては、営業チームにお問い合わせください。今すぐSMS、WhatsApp、音声コミュニケーションの拡張を開始してください。"
+      },
+      "hero": {
+        "title": {
+          "line1": "一緒にあなたの",
+          "line2": "コミュニケーションを拡大しましょう"
+        },
+        "subtitle": "何百万人にもリーチする準備はできましたか？当社の専門家が、お客様のビジネスニーズに最適なソリューションを見つけ、24時間以内にカスタム見積もりを提供します。"
+      },
+      "stats": {
+        "responseTime": {
+          "value": "< 24時間",
+          "label": "応答時間"
+        },
+        "satisfaction": {
+          "value": "95%",
+          "label": "顧客満足度"
+        },
+        "businesses": {
+          "value": "1万社以上",
+          "label": "サービスを提供した企業"
+        }
+      },
+      "contactMethods": {
+        "title": "複数の接続方法",
+        "subtitle": "最適な方法を選択してください",
+        "email": {
+          "title": "メールでお問い合わせ",
+          "description": "メールでお問い合わせください",
+          "action": "sales@seax.com"
+        },
+        "phone": {
+          "title": "お電話ください",
+          "description": "営業担当者と話す",
+          "action": "+1 (555) 123-SEAX"
+        },
+        "demo": {
+          "title": "デモを予約",
+          "description": "ライブデモをスケジュール",
+          "action": "今すぐスケジュール"
+        },
+        "chat": {
+          "title": "ライブチャット",
+          "description": "チームとチャット",
+          "action": "チャットを開始"
+        }
+      },
+      "form": {
+        "title": "カスタム見積もりを取得",
+        "subtitle": "お客様のニーズについてお聞かせください。パーソナライズされたソリューションを作成します",
+        "firstName": {
+          "label": "名 *",
+          "placeholder": "ジョン"
+        },
+        "lastName": {
+          "label": "姓 *",
+          "placeholder": "スミス"
+        },
+        "email": {
+          "label": "ビジネスメール *",
+          "placeholder": "john@company.com"
+        },
+        "company": {
+          "label": "会社 *",
+          "placeholder": "あなたの会社"
+        },
+        "phone": {
+          "label": "電話番号",
+          "placeholder": "+1 (555) 123-4567"
+        },
+        "volume": {
+          "label": "月間メッセージ量 *",
+          "placeholder": "ボリュームを選択",
+          "under10k": "10,000未満",
+          "10k50k": "10,000 - 50,000",
+          "50k200k": "50,000 - 200,000",
+          "200k1m": "200,000 - 1,000,000",
+          "over1m": "1,000,000以上"
+        },
+        "useCase": {
+          "label": "主なユースケース *",
+          "placeholder": "ユースケースを選択",
+          "marketing": "マーケティングキャンペーン",
+          "notifications": "顧客への通知",
+          "reminders": "予約リマインダー",
+          "alerts": "緊急警報",
+          "leadGeneration": "リードジェネレーション",
+          "support": "カスタマーサポート",
+          "other": "その他"
+        },
+        "message": {
+          "label": "要件についてお聞かせください",
+          "placeholder": "具体的なニーズは何ですか？当社のプラットフォームについて質問はありますか？"
+        },
+        "consent": {
+          "label": "SeaXから製品やサービスに関する連絡を受け取ることに同意します。"
+        },
+        "submit": {
+          "submitting": "送信中...",
+          "default": "カスタム見積もりを取得"
+        }
+      },
+      "success": {
+        "title": "ありがとうございます！",
+        "message": "リクエストを受け取りました。24時間以内にご連絡いたします。当社のチームは、お客様のコミュニケーションの拡大を支援できることを楽しみにしています。",
+        "nextSteps": {
+          "title": "次に何が起こりますか？",
+          "step1": "当社のチームがお客様の要件を確認します",
+          "step2": "パーソナライズされたデモをスケジュールします",
+          "step3": "お客様のボリュームに合わせたカスタム見積もりを取得します"
+        },
+        "immediateHelp": "すぐにサポートが必要ですか？お電話ください"
+      },
+      "whyChoose": {
+        "title": "SeaXを選ぶ理由",
+        "subtitle": "コミュニケーションで当社を信頼している何千もの企業に参加してください",
+        "results": {
+          "title": "実証済みの結果",
+          "description": "平均ROI 400%、顧客満足度95%"
+        },
+        "security": {
+          "title": "エンタープライズセキュリティ",
+          "description": "エンタープライズグレードのセキュリティと稼働時間SLAを備えたGDPR準拠"
+        },
+        "support": {
+          "title": "専門家によるサポート",
+          "description": "専任のアカウントマネージャーと24時間年中無休の技術サポート"
+        }
+      }
+    }
+  }
+}

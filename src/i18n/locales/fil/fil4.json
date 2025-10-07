@@ -1,0 +1,1604 @@
+{
+  "seachat": {
+    "integrations": {
+      "crm": {
+        "title": "Mga Pagsasama sa CRM",
+        "subtitle": "Ikonekta ang SeaChat sa iyong CRM upang lumikha ng isang pinag-isang karanasan sa customer. I-sync ang mga contact, subaybayan ang mga lead, at pamahalaan ang mga relasyon nang walang putol.",
+        "connectButton": "Ikonekta ang Iyong CRM",
+        "guideButton": "Tingnan ang Gabay sa Pagsasama",
+        "platformsTitle": "Mga Suportadong Platform ng CRM",
+        "platformsSubtitle": "Pumili mula sa aming malawak na listahan ng mga pagsasama sa CRM, bawat isa ay na-optimize para sa tuluy-tuloy na daloy ng data.",
+        "setupTime": "Oras ng pag-setup",
+        "connectPlatform": "Ikonekta",
+        "whyIntegrateTitle": "Bakit Isama sa Iyong CRM?",
+        "whyIntegrateSubtitle": "Gawing isang malakas na tool sa pagbebenta at pamamahala ng relasyon ang iyong suporta sa customer.",
+        "featuresTitle": "Mga Komprehensibong Tampok sa Pagsasama ng CRM",
+        "featuresSubtitle": "Ang aming mga pagsasama sa CRM ay higit pa sa pangunahing pag-sync ng contact upang magbigay ng isang kumpletong solusyon sa pamamahala ng relasyon sa customer.",
+        "workflowTitle": "Daloy ng Trabaho sa Pagsasama",
+        "ctaTitle": "Handa nang Ikonekta ang Iyong CRM?",
+        "ctaSubtitle": "Simulan ang pag-sync ng iyong data ng customer at gawing mga pagkakataon sa negosyo ang mga pag-uusap sa suporta.",
+        "ctaChooseButton": "Mag-sign Up nang Libre",
+        "ctaGuideButton": "Tingnan ang Gabay sa Pag-setup",
+        "platforms": {
+          "salesforce": {
+            "name": "Salesforce",
+            "description": "Kumpletong pagsasama sa Salesforce CRM para sa mga koponan sa enterprise",
+            "features": {
+              "contacts": "Pag-sync ng contact",
+              "leads": "Pamamahala ng lead",
+              "opportunities": "Pagsubaybay sa pagkakataon",
+              "fields": "Mga pasadyang field"
+            },
+            "setupTime": "15 minuto",
+            "popularity": "Pinakasikat"
+          },
+          "hubspot": {
+            "name": "HubSpot",
+            "description": "Walang putol na pagsasama ng HubSpot para sa pag-align ng marketing at pagbebenta",
+            "features": {
+              "properties": "Mga katangian ng contact",
+              "deals": "Pipeline ng deal",
+              "sequences": "Mga pagkakasunud-sunod ng email",
+              "reporting": "Pag-uulat"
+            },
+            "setupTime": "10 minuto",
+            "popularity": "Inirerekomenda"
+          },
+          "pipedrive": {
+            "name": "Pipedrive",
+            "description": "Simple ngunit malakas na pagsasama ng Pipedrive para sa mga koponan sa pagbebenta",
+            "features": {
+              "pipeline": "Pamamahala ng pipeline",
+              "activity": "Pagsubaybay sa aktibidad",
+              "history": "Kasaysayan ng contact",
+              "automation": "Automation"
+            },
+            "setupTime": "8 minuto",
+            "popularity": "Madaling Pag-setup"
+          },
+          "zoho": {
+            "name": "Zoho CRM",
+            "description": "Komprehensibong pagsasama ng Zoho CRM na may mga advanced na daloy ng trabaho",
+            "features": {
+              "scoring": "Pagmamarka ng lead",
+              "workflow": "Automation ng daloy ng trabaho",
+              "modules": "Mga pasadyang module",
+              "analytics": "Analytics"
+            },
+            "setupTime": "12 minuto",
+            "popularity": "Mayaman sa Tampok"
+          },
+          "dynamics": {
+            "name": "Microsoft Dynamics",
+            "description": "Pagsasama sa antas ng enterprise sa Microsoft Dynamics 365",
+            "features": {
+              "mapping": "Pagmamapa ng entity",
+              "processes": "Mga proseso ng negosyo",
+              "powerbi": "Pagsasama ng Power BI",
+              "security": "Seguridad"
+            },
+            "setupTime": "20 minuto",
+            "popularity": "Enterprise"
+          },
+          "freshworks": {
+            "name": "Freshworks CRM",
+            "description": "Modernong pagsasama ng CRM sa Freshworks suite",
+            "features": {
+              "management": "Pamamahala ng contact",
+              "sequences": "Mga pagkakasunud-sunod ng pagbebenta",
+              "phone": "Pagsasama ng telepono",
+              "insights": "Mga insight sa AI"
+            },
+            "setupTime": "10 minuto",
+            "popularity": "Moderno"
+          }
+        },
+        "benefits": {
+          "data": {
+            "title": "Pinag-isang Data ng Customer",
+            "description": "Awtomatikong i-sync ang impormasyon ng customer sa pagitan ng SeaChat at ng iyong CRM"
+          },
+          "leads": {
+            "title": "Pinabuting Kalidad ng Lead",
+            "description": "Gawing mga kwalipikadong lead ang mga pag-uusap sa suporta"
+          },
+          "sync": {
+            "title": "Real-time na Pag-synchronize",
+            "description": "Panatilihing na-update agad ang data ng customer sa lahat ng mga platform"
+          },
+          "context": {
+            "title": "Mas Mahusay na Konteksto ng Customer",
+            "description": "I-access ang kumpletong kasaysayan ng customer sa panahon ng mga pag-uusap sa suporta"
+          }
+        },
+        "features": [
+          {
+            "title": "Walang putol na Pag-sync ng Data",
+            "description": "Awtomatikong i-sync ang impormasyon sa pakikipag-ugnayan ng customer, kasaysayan ng pag-uusap, at mga talaan ng pakikipag-ugnayan",
+            "icon": "sync"
+          },
+          {
+            "title": "Automation ng Lead",
+            "description": "Awtomatikong i-convert ang mga pag-uusap sa suporta sa mga kwalipikadong lead sa iyong CRM",
+            "icon": "users"
+          },
+          {
+            "title": "Matalinong Pagruruta",
+            "description": "Matalinong i-ruta ang mga customer sa tamang koponan sa pagbebenta o suporta batay sa data ng CRM",
+            "icon": "route"
+          },
+          {
+            "title": "Pinag-isang View ng Customer",
+            "description": "I-access agad ang kumpletong kasaysayan ng customer at mga talaan ng transaksyon sa panahon ng mga pag-uusap sa suporta",
+            "icon": "eye"
+          },
+          {
+            "title": "Mga Trigger ng Aktibidad",
+            "description": "Awtomatikong i-trigger ang mga daloy ng trabaho sa CRM at mga kampanya sa marketing batay sa mga pakikipag-ugnayan ng customer",
+            "icon": "zap"
+          },
+          {
+            "title": "Mga Ulat at Analytics",
+            "description": "Pinag-isang pag-uulat sa mga platform na may malalim na mga insight sa lifecycle ng customer at mga sukatan ng conversion",
+            "icon": "chart"
+          }
+        ],
+        "workflow": {
+          "connect": {
+            "title": "Ikonekta ang Iyong CRM",
+            "description": "Patotohanan at i-configure ang iyong koneksyon sa CRM"
+          },
+          "map": {
+            "title": "I-map ang mga Field ng Data",
+            "description": "I-configure kung paano dumadaloy ang data sa pagitan ng mga system"
+          },
+          "sync": {
+            "title": "Simulan ang Pag-sync",
+            "description": "Masiyahan sa awtomatikong pag-synchronize ng data"
+          }
+        }
+      },
+      "api": {
+        "accessButton": "Kumuha ng Access sa API",
+        "benefits": {
+          "dataFlow": {
+            "description": "Awtomatikong pag-synchronize sa pagitan ng SeaChat at ng iyong mga system",
+            "title": "Walang putol na Daloy ng Data"
+          },
+          "implementation": {
+            "description": "Mabilis na pag-setup na may mga pre-built na template ng pagsasama",
+            "title": "Mas Mabilis na Pagpapatupad"
+          },
+          "insights": {
+            "description": "Pinahusay na pag-uulat na may pinagsamang mga mapagkukunan ng data",
+            "title": "Mas Mahusay na mga Insight"
+          },
+          "manualWork": {
+            "description": "Tanggalin ang mga paulit-ulit na gawain gamit ang matalinong automation",
+            "title": "Nabawasang Manwal na Trabaho"
+          }
+        },
+        "benefitsSubtitle": "Baguhin ang iyong daloy ng trabaho gamit ang malakas na mga pasadyang pagsasama ng Seachat.",
+        "benefitsTitle": "Mga Benepisyo sa Pagsasama",
+        "buildSubtitle": "Sundin ang mga simpleng hakbang na ito upang makapagsimula sa mga pasadyang pagsasama ng API Seachat.",
+        "buildTitle": "Handa nang Buuin ang Iyong Pagsasama?",
+        "capabilitiesSubtitle": "Lahat ng kailangan mo upang bumuo ng matatag, nasusukat na mga pagsasama sa SeaChat.",
+        "capabilitiesTitle": "Malakas na mga Kakayahan sa Pagsasama",
+        "copyCode": "Kopyahin ang Code",
+        "ctaAccessButton": "Kumuha ng Access sa API",
+        "ctaDocsButton": "Tingnan ang Dokumentasyon",
+        "ctaSubtitle": "Kumuha ng access sa API at simulang bumuo ng malakas na mga pasadyang pagsasama na nagbabago sa iyong daloy ng trabaho sa suporta sa customer.",
+        "ctaTitle": "Simulan ang Pagbuo Ngayon",
+        "docsButton": "Tingnan ang Dokumentasyon ng API",
+        "exampleSubtitle": "Magsimula sa aming API sa ilang linya lamang ng code.",
+        "exampleTitle": "Halimbawa ng Mabilis na Pagsisimula ng Code",
+        "features": {
+          "custom": {
+            "description": "Bumuo ng mga pasadyang pagsasama para sa iyong mga partikular na pangangailangan sa negosyo",
+            "title": "Mga Pasadyang Pagsasama"
+          },
+          "restful": {
+            "description": "Malinis, mahusay na dokumentadong REST API para sa tuluy-tuloy na pagsasama",
+            "title": "RESTful API"
+          },
+          "webhooks": {
+            "description": "Mga instant na abiso para sa mga kaganapan at mga update sa pag-uusap",
+            "title": "Real-time na mga Webhook"
+          },
+          "workflow": {
+            "description": "I-automate ang mga kumplikadong daloy ng trabaho sa aming platform ng pagsasama",
+            "title": "Automation ng Daloy ng Trabaho"
+          }
+        },
+        "integrationExample": "Halimbawa ng Pasadyang Pagsasama",
+        "patternsSubtitle": "Galugarin ang mga sikat na sitwasyon sa pagsasama at mga halimbawa ng pagpapatupad.",
+        "patternsTitle": "Mga Karaniwang Pattern ng Pagsasama",
+        "resources": {
+          "community": "Suporta sa komunidad ng developer",
+          "docs": "Komprehensibong dokumentasyon ng API",
+          "examples": "Mga halimbawa ng code sa maraming wika",
+          "explorer": "Interactive na API explorer",
+          "sandbox": "Sandbox na kapaligiran para sa pagsubok",
+          "simulator": "Webhook event simulator"
+        },
+        "resourcesTitle": "Mga Mapagkukunan ng Developer",
+        "steps": {
+          "build": {
+            "description": "Buuin ang iyong pagsasama gamit ang aming sandbox na kapaligiran",
+            "title": "Buuin at Subukan"
+          },
+          "credentials": {
+            "description": "Mag-sign up at bumuo ng iyong API key at webhook secret",
+            "title": "Kumuha ng mga Kredensyal sa API"
+          },
+          "deploy": {
+            "description": "I-deploy ang iyong pagsasama at subaybayan ang pagganap",
+            "title": "I-deploy at Subaybayan"
+          },
+          "docs": {
+            "description": "Galugarin ang aming komprehensibong dokumentasyon at mga halimbawa ng API",
+            "title": "Suriin ang Dokumentasyon"
+          }
+        },
+        "subtitle": "Bumuo ng malakas na mga pasadyang pagsasama sa aming komprehensibong API. Ikonekta ang SeaChat sa anumang system o daloy ng trabaho gamit ang aming mga tool na madaling gamitin sa developer.",
+        "title": "Mga Pasadyang Pagsasama ng API",
+        "types": {
+          "analytics": {
+            "complexity": "Mababa",
+            "description": "Magpadala ng data ng pag-uusap sa iyong mga tool sa analytics",
+            "example": "Subaybayan ang kasiyahan ng customer at mga sukatan ng suporta",
+            "time": "1-2 oras",
+            "title": "Platform ng Analytics"
+          },
+          "crm": {
+            "complexity": "Katamtaman",
+            "description": "I-sync ang data ng customer sa iyong sistema ng CRM",
+            "example": "Awtomatikong lumikha ng mga lead mula sa mga pag-uusap sa suporta",
+            "time": "2-4 oras",
+            "title": "Pagsasama ng CRM"
+          },
+          "ecommerce": {
+            "complexity": "Katamtaman",
+            "description": "Kumonekta sa iyong online na tindahan para sa pamamahala ng order",
+            "example": "Magbigay ng real-time na katayuan ng order at impormasyon sa pagsubaybay",
+            "time": "3-6 oras",
+            "title": "Platform ng E-commerce"
+          },
+          "payment": {
+            "complexity": "Mataas",
+            "description": "Isama sa mga gateway ng pagbabayad para sa suporta sa pagsingil",
+            "example": "Awtomatikong pangasiwaan ang mga refund at mga katanungan sa pagbabayad",
+            "time": "4-8 oras",
+            "title": "Pagproseso ng Pagbabayad"
+          }
+        },
+        "useCaseTitle": "Halimbawa ng Kaso ng Paggamit"
+      },
+      "calendar": {
+        "benefits": {
+          "noShows": {
+            "description": "Binabawasan ng mga awtomatikong paalala at kumpirmasyon ang mga napalampas na appointment",
+            "title": "Nabawasang mga Hindi Pagdating"
+          },
+          "scheduling": {
+            "description": "Hayaan ang mga customer na mag-book ng mga appointment nang direkta mula sa mga pag-uusap sa chat",
+            "title": "Awtomatikong Pag-iiskedyul"
+          },
+          "timeSavings": {
+            "description": "Tanggalin ang pabalik-balik na mga email at tawag sa pag-iiskedyul",
+            "title": "Pagtitipid sa Oras"
+          },
+          "utilization": {
+            "description": "I-optimize ang paggamit ng kalendaryo gamit ang matalinong pag-iiskedyul",
+            "title": "Mas Mahusay na Paggamit"
+          }
+        },
+        "benefitsSubtitle": "I-streamline ang iyong proseso ng pag-iiskedyul at pagbutihin ang karanasan ng customer gamit ang awtomatikong pag-book.",
+        "benefitsTitle": "Mga Benepisyo sa Pagsasama ng Kalendaryo",
+        "connectButton": "Ikonekta ang Kalendaryo",
+        "connectPlatform": "Ikonekta",
+        "ctaConnectButton": "Ikonekta ang Iyong Kalendaryo",
+        "ctaGuideButton": "Tingnan ang Gabay sa Pag-setup",
+        "ctaSubtitle": "Ikonekta ang iyong kalendaryo at hayaan ang mga customer na mag-book ng mga appointment nang walang putol sa pamamagitan ng iyong mga pag-uusap sa suporta.",
+        "ctaTitle": "Handa nang I-automate ang Iyong Pag-iiskedyul?",
+        "customer": "Customer",
+        "customerChoice": "Perpekto ang Martes ng 2 PM!",
+        "demoButton": "Mag-book ng Demo sa Pag-iiskedyul",
+        "exampleTitle": "Halimbawa ng Pag-iiskedyul",
+        "features": [
+          "Real-time na pag-sync ng availability",
+          "Mga awtomatikong kumpirmasyon sa pag-book",
+          "Pagbuo ng imbitasyon sa kalendaryo",
+          "Mga abiso sa paalala",
+          "Suporta sa maraming timezone",
+          "Paghawak sa paulit-ulit na appointment"
+        ],
+        "flow": {
+          "availability": {
+            "description": "Sinusuri ng system ang real-time na availability ng kalendaryo",
+            "example": "Mga available na slot: Tue 2PM, Wed 10AM, Thu 3PM",
+            "title": "Pagsusuri sa Availability"
+          },
+          "confirmation": {
+            "description": "Pinipili ng customer ang oras at awtomatikong nai-book ang appointment",
+            "example": "Naka-book ang pulong para sa Martes 2PM na may ipinadalang imbitasyon sa kalendaryo",
+            "title": "Kumpirmasyon sa Pag-book"
+          },
+          "followup": {
+            "description": "Awtomatikong ipinapadala ang mga paalala at kumpirmasyon",
+            "example": "24hr na paalala + link ng pulong + mga materyales sa paghahanda",
+            "title": "Awtomatikong Pag-follow-up"
+          },
+          "request": {
+            "description": "Humihiling ang customer na mag-iskedyul ng isang pulong o appointment",
+            "example": "\"Gusto kong mag-iskedyul ng isang demo para sa susunod na linggo\"",
+            "title": "Hiling ng Customer"
+          }
+        },
+        "flowSubtitle": "Tingnan kung paano gumagana ang tuluy-tuloy na pag-book ng appointment sa loob ng mga pag-uusap sa customer.",
+        "flowTitle": "Daloy ng Awtomatikong Pag-iiskedyul",
+        "platforms": {
+          "acuity": {
+            "category": "Propesyonal",
+            "description": "Advanced na pag-iiskedyul na may mga tampok sa pamamahala ng kliyente",
+            "features": {
+              "group": "Mga appointment sa grupo",
+              "intake": "Mga form sa pag-intake ng kliyente",
+              "packages": "Pag-iiskedyul ng package",
+              "workflows": "Mga awtomatikong daloy ng trabaho"
+            },
+            "name": "Acuity Scheduling",
+            "setupTime": "12 minuto"
+          },
+          "apple": {
+            "category": "Ekosistema ng Apple",
+            "description": "Pagsasama ng kalendaryo ng iCloud para sa mga gumagamit ng ekosistema ng Apple",
+            "features": {
+              "devices": "Access sa cross-device",
+              "location": "Mga serbisyo sa lokasyon",
+              "sharing": "Pagbabahagi ng kaganapan",
+              "sync": "Pag-sync ng iCloud"
+            },
+            "name": "Apple Calendar",
+            "setupTime": "6 minuto"
+          },
+          "calcom": {
+            "category": "Bukas na Pag-iiskedyul",
+            "description": "Bukas na imprastraktura sa pag-iiskedyul para sa mga koponan at indibidwal",
+            "features": {
+              "api": "API at mga webhook",
+              "booking": "Mga link sa pag-book",
+              "payments": "Pagsasama ng pagbabayad",
+              "workflows": "Mga pasadyang daloy ng trabaho"
+            },
+            "name": "Cal.com",
+            "setupTime": "7 minuto"
+          },
+          "calendly": {
+            "category": "Pag-iiskedyul",
+            "description": "Sikat na tool sa pag-iiskedyul para sa awtomatikong pag-book ng appointment",
+            "features": {
+              "booking": "Mga pahina sa pag-book",
+              "buffer": "Mga oras ng buffer",
+              "payment": "Pagsasama ng pagbabayad",
+              "questions": "Mga pasadyang tanong"
+            },
+            "name": "Calendly",
+            "setupTime": "10 minuto"
+          },
+          "google": {
+            "category": "Google Workspace",
+            "description": "Walang putol na pagsasama sa Google Calendar para sa pag-iiskedyul ng appointment",
+            "features": {
+              "availability": "Pag-sync ng availability",
+              "events": "Paglikha ng kaganapan",
+              "meetings": "Pag-iiskedyul ng pulong",
+              "reminders": "Mga abiso sa paalala"
+            },
+            "name": "Google Calendar",
+            "setupTime": "5 minuto"
+          },
+          "highlevel": {
+            "category": "All-in-One",
+            "description": "All-in-one na pagbebenta, marketing, at automation ng kalendaryo",
+            "features": {
+              "forms": "Mga form sa pag-book",
+              "integration": "Pagsasama ng CRM",
+              "pipelines": "Mga pipeline sa pagbebenta",
+              "reminders": "Mga awtomatikong paalala"
+            },
+            "name": "HighLevel",
+            "setupTime": "9 minuto"
+          },
+          "notion": {
+            "category": "Pagiging Produktibo",
+            "description": "Pamamahala ng kalendaryo at proyekto na may pagsasama ng Notion",
+            "features": {
+              "automation": "Automation ng daloy ng trabaho",
+              "sync": "Pag-sync ng kalendaryo",
+              "tasks": "Pag-iiskedyul ng gawain",
+              "templates": "Mga pasadyang template"
+            },
+            "name": "Notion",
+            "setupTime": "6 minuto"
+          },
+          "outlook": {
+            "category": "Microsoft 365",
+            "description": "Pagsasama ng kalendaryo ng Microsoft Outlook at Office 365",
+            "features": {
+              "exchange": "Pag-sync ng Exchange",
+              "recurring": "Mga paulit-ulit na kaganapan",
+              "rooms": "Mga silid-pulungan",
+              "team": "Mga kalendaryo ng koponan"
+            },
+            "name": "Microsoft Outlook",
+            "setupTime": "8 minuto"
+          },
+          "zoom": {
+            "category": "Video Conferencing",
+            "description": "Pag-iiskedyul ng pulong sa video na may pagsasama ng Zoom",
+            "features": {
+              "meetings": "Mga pulong sa video",
+              "recording": "Pag-setup ng pag-record",
+              "waiting": "Mga silid-hintayan",
+              "webinar": "Pag-iiskedyul ng webinar"
+            },
+            "name": "Zoom Scheduler",
+            "setupTime": "7 minuto"
+          }
+        },
+        "platformsSubtitle": "Kumonekta sa lahat ng mga pangunahing platform ng kalendaryo at pag-iiskedyul para sa tuluy-tuloy na pamamahala ng appointment.",
+        "platformsTitle": "Mga Pagsasama sa Platform ng Kalendaryo ng Seachat",
+        "seachatAI": "SeaChat AI",
+        "slot1": "Martes, Ene 16 - 2:00 PM PST",
+        "slot2": "Miyerkules, Ene 17 - 10:00 AM PST",
+        "slot3": "Huwebes, Ene 18 - 3:00 PM PST",
+        "solutionSubtitle": "Lahat ng kailangan mo upang pamahalaan ang mga appointment, pulong, at kaganapan nang direkta mula sa iyong platform ng suporta sa customer.",
+        "solutionTitle": "Kumpletong Solusyon sa Pag-iiskedyul",
+        "subtitle": "Isama sa mga sikat na platform ng kalendaryo upang paganahin ang tuluy-tuloy na pag-iiskedyul ng appointment nang direkta mula sa mga pag-uusap sa suporta sa customer.",
+        "title": "Kalendaryo at Pag-iiskedyul",
+        "setup": "I-set up"
+      },
+      "communication": {
+        "benefits": {
+          "collaboration": {
+            "description": "Pagbutihin ang panloob na koordinasyon ng koponan at mga oras ng pagtugon",
+            "title": "Pakikipagtulungan ng Koponan"
+          },
+          "efficiency": {
+            "description": "Mas mabilis na paglutas gamit ang pinagsamang mga tool sa komunikasyon",
+            "title": "Kahusayan sa Pagtugon"
+          },
+          "satisfaction": {
+            "description": "Mas mahusay na karanasan sa suporta sa lahat ng channel",
+            "title": "Kasiyahan ng Customer"
+          },
+          "unified": {
+            "description": "Pamahalaan ang lahat ng mga channel ng komunikasyon mula sa isang sentral na hub",
+            "title": "Pinag-isang Komunikasyon"
+          }
+        },
+        "benefitsSubtitle": "Pahusayin ang iyong suporta sa customer at panloob na pakikipagtulungan gamit ang tuluy-tuloy na mga pagsasama ng Seachat.",
+        "benefitsTitle": "Mga Benepisyo ng Pinagsamang Komunikasyon",
+        "connectButton": "Ikonekta ang mga Tool sa Komunikasyon",
+        "connectPlatform": "Kumonekta sa",
+        "cta": {
+          "connectButton": "Magsimula Ngayon",
+          "contactButton": "Makipag-ugnayan sa Sales",
+          "title": "Handa nang I-streamline ang Iyong Komunikasyon?",
+          "subtitle": "Ikonekta ang iyong mga paboritong tool sa komunikasyon at pahusayin ang pagiging produktibo ng iyong koponan at pakikipag-ugnayan sa customer."
+        },
+        "demoButton": "Mag-iskedyul ng Demo sa Pagsasama",
+        "features": {
+          "feature1": {
+            "description": "Makipag-ugnayan agad sa mga customer sa lahat ng pinagsamang platform, na tinitiyak ang napapanahong mga tugon at pinabuting kasiyahan.",
+            "title": "Real-time na Pagmemensahe"
+          },
+          "feature2": {
+            "description": "Mag-set up ng mga awtomatikong tugon at mga panuntunan sa pagruruta upang mahusay na pamahalaan ang mga papasok na mensahe at bawasan ang manu-manong pagsisikap.",
+            "title": "Mga Awtomatikong Daloy ng Trabaho"
+          },
+          "feature3": {
+            "description": "Pamahalaan ang lahat ng mga pag-uusap mula sa isang solong, madaling gamitin na interface, na inaalis ang pangangailangan na lumipat sa pagitan ng iba't ibang mga application.",
+            "title": "Pinag-isang Inbox"
+          },
+          "feature4": {
+            "description": "Makakuha ng mga insight sa dami ng komunikasyon, mga oras ng pagtugon, at pagganap ng ahente na may komprehensibong analytics at pag-uulat.",
+            "title": "Analytics sa Pagganap"
+          }
+        },
+        "featuresSubtitle": "Tuklasin kung paano maaaring baguhin ng aming mga pagsasama sa komunikasyon ng Seachat ang iyong daloy ng trabaho.",
+        "featuresTitle": "Mga Pangunahing Tampok",
+        "platforms": {
+          "discord": {
+            "category": "Komunidad",
+            "description": "Suporta sa komunidad sa pamamagitan ng mga server at channel ng Discord",
+            "features": {
+              "bot": "Mga tampok ng bot",
+              "moderation": "Moderasyon ng komunidad",
+              "server": "Pagsasama ng server",
+              "voice": "Mga channel ng boses"
+            },
+            "name": "Discord",
+            "setupTime": "10 minuto"
+          },
+          "email": {
+            "category": "Email",
+            "description": "Kumonekta sa Gmail, Outlook, at iba pang mga provider ng email",
+            "features": {
+              "attachments": "Paghawak sa attachment",
+              "routing": "Pagruruta ng email",
+              "templates": "Mga tugon sa template",
+              "threading": "Threading"
+            },
+            "name": "Mga Platform ng Email",
+            "setupTime": "7 minuto"
+          },
+          "googlechat": {
+            "category": "Chat ng Koponan",
+            "description": "I-streamline ang komunikasyon ng koponan sa loob ng ekosistema ng Google Workspace.",
+            "features": {
+              "bots": "Mga pagsasama ng bot ng Seachat",
+              "files": "Pagbabahagi ng file",
+              "meetings": "Pagsasama ng Meet",
+              "spaces": "Mga espasyo para sa pakikipagtulungan"
+            },
+            "name": "Google Chat",
+            "setupTime": "8 minuto"
+          },
+          "kakaotalk": {
+            "category": "Pagmemensahe",
+            "description": "Kumonekta sa mga gumagamit sa Timog Korea at higit pa gamit ang KakaoTalk.",
+            "features": {
+              "channels": "Mga Channel ng Plus Friend",
+              "commerce": "Pagsasama ng Kakao Commerce",
+              "messages": "Mga mayamang mensahe",
+              "payments": "Pagsasama ng Kakao Pay"
+            },
+            "name": "KakaoTalk",
+            "setupTime": "12 minuto"
+          },
+          "slack": {
+            "category": "Chat ng Koponan",
+            "description": "Isama sa Slack para sa pakikipagtulungan ng koponan at mga panloob na abiso",
+            "features": {
+              "channels": "Mga abiso sa channel",
+              "commands": "Mga command ng bot",
+              "files": "Pagbabahagi ng file",
+              "messages": "Mga direktang mensahe"
+            },
+            "name": "Slack",
+            "setupTime": "5 minuto"
+          },
+          "teams": {
+            "category": "Enterprise",
+            "description": "Kumonekta sa Microsoft Teams para sa komunikasyon sa enterprise",
+            "features": {
+              "apps": "Pagsasama ng app",
+              "calls": "Mga tawag sa video",
+              "channels": "Mga channel ng koponan",
+              "files": "Pakikipagtulungan sa file"
+            },
+            "name": "Microsoft Teams",
+            "setupTime": "8 minuto"
+          },
+          "telegram": {
+            "category": "Pagmemensahe",
+            "description": "Pagsasama ng Telegram bot para sa suporta sa instant na pagmemensahe",
+            "features": {
+              "api": "Bot API",
+              "channels": "Pag-broadcast ng channel",
+              "files": "Mga paglilipat ng file",
+              "groups": "Mga panggrupong chat"
+            },
+            "name": "Telegram",
+            "setupTime": "15 minuto"
+          },
+          "whatsapp": {
+            "category": "Pagmemensahe",
+            "features": {
+              "automation": "Mga awtomatikong tugon",
+              "businessApi": "Business API",
+              "messaging": "Mayamang pagmemensahe",
+              "templates": "Mga template ng mensahe"
+            },
+            "name": "WhatsApp",
+            "setupTime": "10 minuto",
+            "description": "Makipag-ugnayan sa mga customer nang direkta sa pinakasikat na messaging app sa mundo."
+          },
+          "zalo": {
+            "category": "Pagmemensahe",
+            "description": "Kumonekta sa mga customer sa Vietnam at Timog-silangang Asya sa pamamagitan ng Zalo.",
+            "features": {
+              "messaging": "Mayamang pagmemensahe",
+              "miniApp": "Mga Mini App",
+              "officialAccount": "Mga Opisyal na Account",
+              "payments": "Pagsasama ng Zalo Pay"
+            },
+            "name": "Zalo",
+            "setupTime": "10 minuto"
+          }
+        },
+        "platformsSubtitle": "Kumonekta sa mga tool sa komunikasyon na ginagamit na ng iyong koponan para sa tuluy-tuloy na pagsasama ng daloy ng trabaho.",
+        "platformsTitle": "Mga Sikat na Platform ng Komunikasyon",
+        "subtitle": "Isama sa mga sikat na platform ng komunikasyon tulad ng Slack, Teams, Discord, at higit pa upang i-streamline ang iyong daloy ng trabaho sa suporta at pakikipagtulungan ng koponan.",
+        "title": "Mga Tool sa Komunikasyon",
+        "setup": "Oras ng pag-setup"
+      },
+      "ecommerce": {
+        "benefits": {
+          "cart": {
+            "description": "Bawasan ang pag-abandona sa cart na may maagap na suporta",
+            "title": "Pagbawi ng Cart"
+          },
+          "orders": {
+            "description": "Awtomatikong pangasiwaan ang mga katanungan sa order, pagsubaybay, at mga update",
+            "title": "Pamamahala ng Order"
+          },
+          "payment": {
+            "description": "Tumulong sa mga isyu sa pagbabayad at mga tanong sa pagsingil",
+            "title": "Suporta sa Pagbabayad"
+          },
+          "sales": {
+            "description": "I-convert ang mga pag-uusap sa suporta sa mga karagdagang benta",
+            "title": "Pagtaas ng Benta"
+          }
+        },
+        "benefitsSubtitle": "Gawing isang powerhouse na nag-drive ng benta, nagpapalakas ng pagpapanatili ang iyong suporta sa customer.",
+        "benefitsTitle": "Mga Benepisyo sa Suporta sa E-commerce",
+        "connectPlatform": "Ikonekta",
+        "cta": {
+          "button1": "Ikonekta ang Iyong Tindahan Ngayon",
+          "button2": "Mag-iskedyul ng Demo sa E-commerce"
+        },
+        "ctaSubtitle": "Ikonekta ang iyong online na tindahan at simulang magbigay ng pambihirang suporta sa customer na nag-drive ng mga benta at katapatan.",
+        "ctaTitle": "Handa nang Palakasin ang Iyong mga Benta sa E-commerce?",
+        "customer": "Customer",
+        "hero": {
+          "button1": "Ikonekta ang Iyong Tindahan",
+          "button2": "Mag-iskedyul ng Demo sa E-commerce"
+        },
+        "orderQuestion": "Nasaan ang aking order #12345?",
+        "orderResponse": "Ang iyong order #12345 ay naipadala kahapon at kasalukuyang nasa transit. Inaasahang paghahatid: Bukas ng 6 PM. Subaybayan ito dito: [tracking link]",
+        "platforms": {
+          "bigcommerce": {
+            "description": "Pagsasama ng BigCommerce API para sa mga lumalagong online na tindahan",
+            "features": {
+              "customers": "Mga insight sa customer",
+              "orders": "Pamamahala ng order",
+              "products": "Data ng produkto",
+              "shipping": "Impormasyon sa pagpapadala"
+            },
+            "name": "BigCommerce",
+            "popularity": "Lumalaki",
+            "setupTime": "10 minuto"
+          },
+          "etsy": {
+            "description": "Pagsasama ng marketplace ng Etsy para sa mga malikhaing nagbebenta",
+            "features": {
+              "listings": "Tulong sa listahan",
+              "messages": "Mga mensahe ng customer",
+              "orders": "Suporta sa order",
+              "shop": "Pamamahala ng tindahan"
+            },
+            "name": "Etsy",
+            "popularity": "Malikhain",
+            "setupTime": "12 minuto"
+          },
+          "fourthwall": {
+            "description": "Platform para sa mga tagalikha upang bumuo ng isang libreng website, magbenta ng mga produkto, at pamahalaan ang mga membership",
+            "features": {
+              "community": "Mga tool sa komunidad",
+              "donations": "Mga donasyon",
+              "memberships": "Mga membership",
+              "merch": "Pasadyang merch"
+            },
+            "name": "Fourthwall",
+            "popularity": "Ekonomiya ng Tagalikha",
+            "setupTime": "10 minuto"
+          },
+          "godaddy": {
+            "description": "All-in-one na solusyon para sa mga website, marketing, at mga online na tindahan",
+            "features": {
+              "scheduling": "Pag-iiskedyul ng appointment",
+              "security": "Seguridad ng SSL",
+              "social": "Mga tool sa social media",
+              "website": "Tagabuo ng website"
+            },
+            "name": "GoDaddy",
+            "popularity": "Komprehensibo",
+            "setupTime": "15 minuto"
+          },
+          "hostinger": {
+            "description": "Provider ng web hosting na may pinagsamang tagabuo ng website at mga tampok sa e-commerce",
+            "features": {
+              "builder": "Tagabuo ng website ng AI",
+              "hosting": "Maaasahang hosting",
+              "ssl": "Libreng SSL",
+              "support": "24/7 na suporta"
+            },
+            "name": "Hostinger",
+            "popularity": "Mabisa sa Badyet",
+            "setupTime": "10 minuto"
+          },
+          "magento": {
+            "description": "Pagsasama ng Enterprise Magento para sa malakihang e-commerce",
+            "features": {
+              "catalog": "Pag-sync ng catalog",
+              "multistore": "Suporta sa maraming tindahan",
+              "orders": "Mga advanced na order",
+              "segments": "Mga segment ng customer"
+            },
+            "name": "Magento",
+            "popularity": "Enterprise",
+            "setupTime": "15 minuto"
+          },
+          "opencart": {
+            "description": "Libreng open-source na platform ng e-commerce para sa mga online na tindahan",
+            "features": {
+              "dashboard": "Dashboard ng admin",
+              "extensions": "Mayamang mga extension",
+              "multi_store": "Pag-andar ng maraming tindahan",
+              "themes": "Themable"
+            },
+            "name": "OpenCart",
+            "popularity": "Flexible",
+            "setupTime": "25 minuto"
+          },
+          "prestashop": {
+            "description": "Open-source na solusyon sa e-commerce para sa maliliit hanggang malalaking negosyo",
+            "features": {
+              "analytics": "Advanced na analytics",
+              "customizable": "Lubos na nako-customize",
+              "modules": "Libu-libong mga module",
+              "multilingual": "Suporta sa maraming wika"
+            },
+            "name": "PrestaShop",
+            "popularity": "Open-Source",
+            "setupTime": "30 minuto"
+          },
+          "sellfy": {
+            "description": "Platform ng e-commerce para sa mga tagalikha upang magbenta ng mga digital na produkto, subscription, at pisikal na mga kalakal",
+            "features": {
+              "digital": "Mga benta ng digital na produkto",
+              "marketing": "Built-in na marketing",
+              "print_on_demand": "Print-on-demand",
+              "subscriptions": "Mga serbisyo sa subscription"
+            },
+            "name": "Sellfy",
+            "popularity": "Nakatutok sa Tagalikha",
+            "setupTime": "5 minuto"
+          },
+          "shopify": {
+            "description": "Kumpletong pagsasama ng Shopify sa pamamahala ng order at pag-sync ng customer",
+            "features": {
+              "catalog": "Catalog ng produkto",
+              "customers": "Mga profile ng customer",
+              "inventory": "Pag-sync ng imbentaryo",
+              "orders": "Pagsubaybay sa order"
+            },
+            "name": "Shopify",
+            "popularity": "Pinakasikat",
+            "setupTime": "5 minuto"
+          },
+          "square": {
+            "description": "Mga solusyon sa point-of-sale at e-commerce para sa mga negosyo sa lahat ng laki",
+            "features": {
+              "invoicing": "Pag-invoice",
+              "loyalty": "Mga programa sa katapatan",
+              "pos": "Pinagsamang POS",
+              "reporting": "Pag-uulat sa pagbebenta"
+            },
+            "name": "Square",
+            "popularity": "Tingi",
+            "setupTime": "5 minuto"
+          },
+          "squarespace": {
+            "description": "Tagabuo ng website na kilala sa magagandang template ng disenyo at mga kakayahan sa e-commerce",
+            "features": {
+              "blogging": "Mga tool sa pag-blog",
+              "commerce": "Buong mga tampok sa commerce",
+              "design": "Disenyo na nanalo ng award",
+              "portfolio": "Mga pagpipilian sa portfolio"
+            },
+            "name": "Squarespace",
+            "popularity": "Nakatutok sa Disenyo",
+            "setupTime": "20 minuto"
+          },
+          "weebly": {
+            "description": "Simpleng drag-and-drop na tagabuo ng website na may mga tampok sa e-commerce",
+            "features": {
+              "marketing": "Mga tool sa marketing",
+              "payments": "Pinagsamang mga pagbabayad",
+              "seo": "Pag-optimize ng SEO",
+              "storefront": "Nako-customize na storefront"
+            },
+            "name": "Weebly",
+            "popularity": "Madaling Gamitin",
+            "setupTime": "10 minuto"
+          },
+          "wix": {
+            "description": "Cloud-based na platform sa pag-unlad ng web para sa paglikha ng mga website ng HTML5 at mga mobile site",
+            "features": {
+              "analytics": "Analytics ng site",
+              "apps": "Tindahan ng app",
+              "mobile": "Na-optimize sa mobile",
+              "positioning": "Pasadyang pagpoposisyon"
+            },
+            "name": "Wix",
+            "popularity": "Maraming Gamit",
+            "setupTime": "10 minuto"
+          },
+          "woocommerce": {
+            "description": "WordPress WooCommerce plugin para sa tuluy-tuloy na pagsasama ng tindahan",
+            "features": {
+              "customers": "Kasaysayan ng customer",
+              "orders": "Katayuan ng order",
+              "payments": "Pagsubaybay sa pagbabayad",
+              "products": "Suporta sa produkto"
+            },
+            "name": "WooCommerce",
+            "popularity": "WordPress",
+            "setupTime": "8 minuto"
+          }
+        },
+        "platformsSubtitle": "Isama sa lahat ng mga pangunahing platform ng e-commerce at mga marketplace para sa pinag-isang suporta sa customer.",
+        "platformsTitle": "Mga Suportadong Platform ng E-commerce",
+        "recommendationQuestion": "Mahusay! Maaari ka bang magrekomenda ng mga katulad na produkto?",
+        "recommendationResponse": "Batay sa iyong pagbili, maaaring gusto mo ang mga item na ito: [Produkto A], [Produkto B]. Gusto mo ba ng 10% na diskwento sa iyong susunod na order?",
+        "scenarioTitle": "Sitwasyon sa Suporta sa Customer",
+        "seachatAI": "SeaChat AI",
+        "subtitle": "Ikonekta ang SeaChat sa iyong online na tindahan upang magbigay ng pambihirang suporta sa customer, taasan ang mga benta, at bawasan ang pag-abandona sa cart.",
+        "supportSubtitle": "Lahat ng kailangan mo upang magbigay ng pambihirang suporta sa customer para sa iyong online na tindahan, mula sa pagsubaybay sa order hanggang sa mga rekomendasyon sa produkto.",
+        "supportTitle": "Kumpletong Suite ng Suporta sa E-commerce",
+        "title": "Mga pagsasama sa E-commerce ng Seachat",
+        "setup": "Oras ng pag-setup",
+        "features": [
+          {
+            "title": "Real-Time na Pagsubaybay sa Order",
+            "description": "Awtomatikong i-sync ang katayuan ng order at magbigay ng instant na impormasyon sa pagsubaybay sa mga customer",
+            "icon": "package"
+          },
+          {
+            "title": "Pamamahala ng Imbentaryo",
+            "description": "Panatilihing may kaalaman ang mga customer tungkol sa availability ng produkto at mga abiso sa restock",
+            "icon": "warehouse"
+          },
+          {
+            "title": "Matalinong mga Rekomendasyon sa Produkto",
+            "description": "Mga mungkahi sa produkto na pinapagana ng AI batay sa kasaysayan ng pagbili at mga kagustuhan ng customer",
+            "icon": "target"
+          },
+          {
+            "title": "Pagbawi sa Pag-abandona sa Cart",
+            "description": "Maagap na makipag-ugnayan sa mga customer na nag-iwan ng kanilang mga cart na may mga personalized na mensahe",
+            "icon": "shopping-cart"
+          },
+          {
+            "title": "Paglutas ng Isyu sa Pagbabayad",
+            "description": "Pangasiwaan ang mga pagkabigo sa pagbabayad at mga katanungan sa pagsingil na may instant na access sa data ng transaksyon",
+            "icon": "credit-card"
+          },
+          {
+            "title": "Kasaysayan ng Pagbili ng Customer",
+            "description": "I-access ang kumpletong kasaysayan ng pagbili ng customer para sa mas mahusay na suporta at personalized na serbisyo",
+            "icon": "history"
+          }
+        ]
+      },
+      "marketing": {
+        "automationTitle": "Daloy ng Automation sa Marketing",
+        "benefits": {
+          "campaigns": {
+            "description": "Mas mahusay na mga resulta ng kampanya na may mga insight sa suporta sa customer",
+            "title": "Pagganap ng Kampanya"
+          },
+          "leads": {
+            "description": "I-convert ang mga pag-uusap sa suporta sa mga lead na kwalipikado sa marketing",
+            "title": "Pagbuo ng Lead"
+          },
+          "retention": {
+            "description": "Pagbutihin ang pagpapanatili gamit ang mga personalized na kampanya sa marketing",
+            "title": "Pagpapanatili ng Customer"
+          },
+          "revenue": {
+            "description": "Taasan ang kita sa pamamagitan ng pinagsamang mga pagsisikap sa marketing",
+            "title": "Paglago ng Kita"
+          }
+        },
+        "benefitsSubtitle": "Gawing isang malakas na makina sa marketing at paglago ang suporta sa customer.",
+        "benefitsTitle": "Mga Benepisyo sa Pagsasama ng Marketing",
+        "connectButton": "Ikonekta ang mga Tool sa Marketing",
+        "connectPlatform": "Ikonekta",
+        "ctaConnectButton": "Ikonekta ang mga Tool sa Marketing",
+        "ctaGuideButton": "Tingnan ang Gabay sa Pag-setup",
+        "ctaSubtitle": "Ikonekta ang iyong mga platform sa marketing at gawing isang pagkakataon sa paglago ang bawat pag-uusap sa suporta sa customer.",
+        "ctaTitle": "Handa nang Palakasin ang Iyong Marketing?",
+        "demoButton": "Mag-iskedyul ng Demo sa Marketing",
+        "flow": {
+          "conversation": {
+            "description": "Nagtatanong ang customer tungkol sa mga premium na tampok",
+            "title": "Pag-uusap sa Suporta"
+          },
+          "conversion": {
+            "description": "Nag-upgrade ang customer sa premium na plano",
+            "title": "Conversion"
+          },
+          "tagging": {
+            "description": "Na-tag ang customer bilang \"interesado sa pag-upgrade\"",
+            "title": "Awtomatikong Pag-tag"
+          },
+          "trigger": {
+            "description": "Nagsisimula ang awtomatikong pagkakasunud-sunod ng email",
+            "title": "Trigger ng Kampanya"
+          }
+        },
+        "integrationSubtitle": "Tulayin ang agwat sa pagitan ng suporta sa customer at marketing gamit ang matalinong automation na ginagawang isang pagkakataon sa paglago ang bawat pag-uusap.",
+        "integrationTitle": "Kumpletong Pagsasama ng Marketing",
+        "features": [
+          {
+            "title": "Kwalipikasyon at Pagmamarka ng Lead",
+            "description": "Awtomatikong maging kwalipikado at magmarka ng mga lead mula sa mga pag-uusap sa suporta batay sa pakikipag-ugnayan at layunin",
+            "icon": "target"
+          },
+          {
+            "title": "Automation ng Trigger ng Kampanya",
+            "description": "I-trigger ang mga naka-target na kampanya sa marketing batay sa mga partikular na pakikipag-ugnayan ng customer at mga pattern ng pag-uugali",
+            "icon": "zap"
+          },
+          {
+            "title": "Pagmamapa ng Paglalakbay ng Customer",
+            "description": "Subaybayan at i-optimize ang kumpletong paglalakbay ng customer mula sa unang contact hanggang sa conversion at pagpapanatili",
+            "icon": "map"
+          },
+          {
+            "title": "Paghahatid ng Personalized na Nilalaman",
+            "description": "Maghatid ng personalized na nilalaman at mga alok sa marketing batay sa kasaysayan at mga kagustuhan sa pag-uusap sa suporta",
+            "icon": "heart"
+          },
+          {
+            "title": "Pag-sync ng Kampanya sa Maraming Channel",
+            "description": "I-synchronize ang mga kampanya sa marketing sa email, SMS, WhatsApp, at social media para sa pare-parehong pagmemensahe",
+            "icon": "sync"
+          },
+          {
+            "title": "Analytics sa Pagganap at ROI",
+            "description": "Sukatin ang pagganap ng kampanya at ROI na may detalyadong analytics sa mga rate ng conversion at lifetime value ng customer",
+            "icon": "chart"
+          }
+        ],
+        "platforms": {
+          "activecampaign": {
+            "category": "Automation",
+            "description": "Platform ng automation ng karanasan sa customer",
+            "features": {
+              "automation": "Automation sa marketing",
+              "crm": "Pagsasama ng CRM",
+              "learning": "Pag-aaral ng makina",
+              "sending": "Prediktibong pagpapadala"
+            },
+            "name": "ActiveCampaign",
+            "setupTime": "18 minuto"
+          },
+          "constantcontact": {
+            "category": "Marketing sa Email",
+            "description": "Marketing sa email at automation para sa maliliit na negosyo",
+            "features": {
+              "analytics": "Dashboard ng analytics",
+              "scheduling": "Pag-iiskedyul ng kampanya",
+              "social": "Mga tool sa social media",
+              "templates": "Mga template ng email"
+            },
+            "name": "Constant Contact",
+            "setupTime": "7 minuto"
+          },
+          "convertkit": {
+            "category": "Ekonomiya ng Tagalikha",
+            "description": "Marketing sa email na nakatuon sa tagalikha na may mga pagkakasunud-sunod ng automation",
+            "features": {
+              "integrations": "Mga pagsasama",
+              "landing": "Mga landing page",
+              "sequences": "Mga pagkakasunud-sunod ng email",
+              "tagging": "Pag-tag ng subscriber"
+            },
+            "name": "ConvertKit",
+            "setupTime": "9 minuto"
+          },
+          "engagebay": {
+            "category": "All-in-One",
+            "description": "All-in-one na marketing, pagbebenta, at suporta sa CRM",
+            "features": {
+              "automation": "Automation sa marketing",
+              "crm": "Pagsasama ng CRM",
+              "email": "Marketing sa email",
+              "forms": "Mga form at popup ng lead"
+            },
+            "name": "EngageBay",
+            "setupTime": "11 minuto"
+          },
+          "hubspot": {
+            "category": "Marketing Hub",
+            "description": "Platform ng inbound marketing na may mga kakayahan sa pag-aalaga ng lead",
+            "features": {
+              "automation": "Automation sa marketing",
+              "landing": "Mga landing page",
+              "scoring": "Pagmamarka ng lead",
+              "social": "Social media"
+            },
+            "name": "HubSpot Marketing",
+            "setupTime": "15 minuto"
+          },
+          "klaviyo": {
+            "category": "E-commerce",
+            "description": "Platform ng marketing sa email at SMS na nakatuon sa e-commerce",
+            "features": {
+              "recommendations": "Mga rekomendasyon sa produkto",
+              "revenue": "Pagsubaybay sa kita",
+              "sms": "Mga kampanya sa SMS",
+              "triggers": "Mga trigger sa pag-uugali"
+            },
+            "name": "Klaviyo",
+            "setupTime": "12 minuto"
+          },
+          "mailchimp": {
+            "category": "Marketing sa Email",
+            "description": "Komprehensibong platform ng marketing sa email na may mga insight sa audience",
+            "features": {
+              "builder": "Tagabuo ng kampanya",
+              "reporting": "Pag-uulat",
+              "segmentation": "Pagse-segment ng audience",
+              "testing": "Pagsubok sa A/B"
+            },
+            "name": "Mailchimp",
+            "setupTime": "10 minuto"
+          },
+          "mailerlite": {
+            "category": "Marketing sa Email",
+            "description": "Automation ng marketing sa email na may pagsasama ng suporta sa customer",
+            "features": {
+              "analytics": "Analytics",
+              "automation": "Mga daloy ng trabaho sa automation",
+              "campaigns": "Mga kampanya sa email",
+              "subscribers": "Pamamahala ng subscriber"
+            },
+            "name": "MailerLite",
+            "setupTime": "8 minuto"
+          },
+          "omnisend": {
+            "category": "E-commerce",
+            "description": "Omnichannel na automation sa marketing para sa e-commerce",
+            "features": {
+              "automation": "Mga daloy ng trabaho sa automation",
+              "email": "Mga kampanya sa email at SMS",
+              "reports": "Advanced na pag-uulat",
+              "segmentation": "Pagse-segment ng audience"
+            },
+            "name": "Omnisend",
+            "setupTime": "10 minuto"
+          }
+        },
+        "platformsSubtitle": "Isama sa mga nangungunang platform sa marketing upang lumikha ng tuluy-tuloy na mga karanasan sa customer.",
+        "platformsTitle": "Mga Sikat na Platform sa Marketing",
+        "subtitle": "Ikonekta ang SeaChat sa iyong mga tool sa marketing upang gawing malakas na mga pagkakataon sa marketing at mga personalized na kampanya ang mga pag-uusap sa suporta sa customer.",
+        "title": "Mga Platform sa Marketing",
+        "useCases": {
+          "nurturing": {
+            "description": "Awtomatikong magdagdag ng mga contact sa suporta sa mga kampanya sa pag-aalaga",
+            "example": "Nagtatanong ang customer tungkol sa pagpepresyo → Idinagdag sa pagkakasunud-sunod ng email ng demo ng produkto",
+            "title": "Pag-aalaga ng Lead"
+          },
+          "onboarding": {
+            "description": "Walang putol na karanasan sa onboarding na may automation sa marketing",
+            "example": "Bagong tiket sa suporta sa customer → Serye ng maligayang pagdating na may mga kapaki-pakinabang na mapagkukunan",
+            "title": "Onboarding ng Customer"
+          },
+          "retention": {
+            "description": "Maagap na pagpapanatili batay sa mga pattern ng pakikipag-ugnayan sa suporta",
+            "example": "Maramihang mga tiket sa suporta → Na-trigger na outreach sa tagumpay ng customer",
+            "title": "Mga Kampanya sa Pagpapanatili"
+          },
+          "upselling": {
+            "description": "Tukuyin ang mga pagkakataon sa upselling mula sa mga pag-uusap sa suporta",
+            "example": "Binanggit ng customer ang mga plano sa paglago → Na-trigger na kampanya sa pag-upgrade",
+            "title": "Mga Pagkakataon sa Upselling"
+          }
+        },
+        "useCasesSubtitle": "Tingnan kung paano maaaring mag-trigger ng malakas na mga daloy ng trabaho sa marketing ang mga pag-uusap sa suporta.",
+        "useCasesTitle": "Mga Kaso ng Paggamit sa Automation ng Marketing",
+        "workflowExample": "Halimbawa ng Daloy ng Trabaho",
+        "setup": "I-set up"
+      },
+      "social": {
+        "features": [
+          {
+            "title": "Mga Instant na Tugon sa Customer",
+            "description": "Tumugon sa mga katanungan sa social media sa real-time sa lahat ng platform",
+            "icon": "message-circle"
+          },
+          {
+            "title": "Pinag-isang Social Inbox",
+            "description": "Pamahalaan ang lahat ng mga mensahe sa social media mula sa isang sentralisadong dashboard",
+            "icon": "inbox"
+          },
+          {
+            "title": "Matalinong Auto-Routing",
+            "description": "Awtomatikong i-ruta ang mga mensahe sa social media sa mga tamang miyembro ng koponan",
+            "icon": "route"
+          },
+          {
+            "title": "Pamamahala ng Reputasyon ng Brand",
+            "description": "Subaybayan at tumugon nang mabilis sa mga pagbanggit at komento sa brand",
+            "icon": "shield"
+          },
+          {
+            "title": "Suporta sa Maraming Wika",
+            "description": "Makipag-usap sa mga pandaigdigang customer sa kanilang gustong wika",
+            "icon": "globe"
+          },
+          {
+            "title": "Social Analytics",
+            "description": "Subaybayan ang mga oras ng pagtugon, mga rate ng pakikipag-ugnayan, at kasiyahan ng customer",
+            "icon": "chart"
+          }
+        ],
+        "benefits": {
+          "meet": {
+            "description": "Magbigay ng suporta sa mga platform na ginagamit na ng iyong mga customer araw-araw",
+            "title": "Kilalanin ang mga Customer Kung Nasaan Sila"
+          },
+          "reputation": {
+            "description": "Panatilihin ang positibong imahe ng brand na may mabilis, kapaki-pakinabang na mga tugon",
+            "title": "Reputasyon ng Brand"
+          },
+          "response": {
+            "description": "Tumugon sa mga katanungan sa social media sa real-time",
+            "title": "Mas Mabilis na mga Oras ng Pagtugon"
+          },
+          "unified": {
+            "description": "Pangasiwaan ang lahat ng mga platform sa social mula sa isang dashboard",
+            "title": "Pinag-isang Pamamahala"
+          }
+        },
+        "benefitsSubtitle": "Gawing isang malakas na channel ng suporta sa customer ang iyong presensya sa social media.",
+        "benefitsTitle": "Mga Benepisyo sa Suporta sa Social Media",
+        "brandMentions": "Mga pagbanggit sa brand na nangangailangan ng tugon",
+        "connectButton": "Ikonekta ang mga Platform sa Social",
+        "connectPlatform": "Ikonekta",
+        "ctaConnectButton": "Ikonekta ang mga Platform sa Social",
+        "ctaGuideButton": "Mag-iskedyul ng Demo sa E-commerce",
+        "ctaSubtitle": "Ikonekta ang lahat ng iyong mga platform sa social media at magbigay ng pambihirang suporta sa customer kung saan ginugugol ng iyong mga customer ang kanilang oras.",
+        "ctaTitle": "Handa nang Pag-isahin ang Iyong Suporta sa Social Media?",
+        "dashboardTitle": "Dashboard ng Social Media",
+        "demoButton": "Mag-iskedyul ng Demo sa Social",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "managementSubtitle": "Lahat ng kailangan mo upang pamahalaan ang mga pakikipag-ugnayan ng customer sa lahat ng mga platform sa social media mula sa isang pinag-isang dashboard.",
+        "managementTitle": "Kumpletong Pamamahala sa Social Media",
+        "mentions": "3 mga pagbanggit",
+        "newMessages": "12 bagong mensahe",
+        "pageMessages": "5 mga mensahe sa pahina",
+        "platforms": {
+          "facebook": {
+            "description": "Magbigay ng suporta sa customer sa pamamagitan ng platform ng pagmemensahe ng Facebook",
+            "features": {
+              "cards": "Mga mayamang card",
+              "menu": "Paulit-ulit na menu",
+              "page": "Pagsasama ng pahina",
+              "responses": "Mga awtomatikong tugon"
+            },
+            "name": "Facebook Messenger",
+            "setupTime": "12 minuto",
+            "users": "1.3B+ na mga gumagamit"
+          },
+          "instagram": {
+            "description": "Pamahalaan ang mga DM sa Instagram at mga tugon sa kuwento sa isang pinag-isang inbox",
+            "features": {
+              "dm": "Mga direktang mensahe",
+              "media": "Pagbabahagi ng media",
+              "responses": "Mabilis na mga tugon",
+              "stories": "Mga tugon sa kuwento"
+            },
+            "name": "Instagram",
+            "setupTime": "8 minuto",
+            "users": "1.4B+ na mga gumagamit"
+          },
+          "line": {
+            "description": "Magbigay ng tuluy-tuloy na suporta at pakikipag-ugnayan sa customer sa LINE",
+            "features": {
+              "broadcast": "Mga mensahe sa broadcast",
+              "messaging": "Mayamang pagmemensahe",
+              "payments": "Pagsasama ng LINE Pay",
+              "stickers": "Suporta sa sticker"
+            },
+            "name": "LINE",
+            "setupTime": "10 minuto",
+            "users": "180M+ na mga gumagamit"
+          },
+          "tiktok": {
+            "description": "Makipag-ugnayan sa iyong audience at pamahalaan ang mga pakikipag-ugnayan ng customer sa TikTok",
+            "features": {
+              "ads": "Suporta sa kampanya sa ad",
+              "analytics": "Analytics ng audience",
+              "comments": "Pamamahala ng komento",
+              "dm": "Mga direktang mensahe"
+            },
+            "name": "TikTok",
+            "setupTime": "15 minuto",
+            "users": "1B+ na mga gumagamit"
+          },
+          "twitter": {
+            "description": "Pangasiwaan ang mga katanungan at pagbanggit ng customer sa platform ng Twitter/X",
+            "features": {
+              "dm": "Mga direktang mensahe",
+              "mentions": "Pagsubaybay sa pagbanggit",
+              "responses": "Mga tugon sa tweet",
+              "threads": "Pamamahala ng thread"
+            },
+            "name": "Twitter/X",
+            "setupTime": "15 minuto",
+            "users": "450M+ na mga gumagamit"
+          },
+          "whatsapp": {
+            "description": "Kumonekta sa mga customer sa pinakasikat na platform ng pagmemensahe sa mundo",
+            "features": {
+              "api": "Business API",
+              "groups": "Mga grupo",
+              "media": "Mayamang media",
+              "templates": "Mga template"
+            },
+            "name": "WhatsApp Business",
+            "setupTime": "10 minuto",
+            "users": "2B+ na mga gumagamit"
+          }
+        },
+        "platformsSubtitle": "Isama sa bawat platform sa social na ginagamit ng iyong mga customer para sa komprehensibong suporta sa social media.",
+        "platformsTitle": "Lahat ng mga Pangunahing Platform sa Social",
+        "productComments": "Mga komento sa pinakabagong showcase ng produkto",
+        "productInquiries": "Mga katanungan ng customer tungkol sa availability ng produkto",
+        "setup": "Oras ng pag-setup",
+        "storyReplies": "8 mga tugon sa kuwento",
+        "subtitle": "Ikonekta ang lahat ng iyong mga platform sa social media at magbigay ng tuluy-tuloy na suporta sa customer sa WhatsApp, Instagram, Facebook, Twitter, at higit pa.",
+        "title": "Mga Pagsasama sa Social Media",
+        "twitter": "Twitter/X",
+        "whatsapp": "WhatsApp Business",
+        "worldwide": "sa buong mundo"
+      },
+      "websites": {
+        "code": "Code",
+        "codeButton": "Kumuha ng Widget Code",
+        "copyCode": "Kopyahin ang Code",
+        "ctaCodeButton": "Kumuha ng Widget Code Ngayon",
+        "ctaDocsButton": "Tingnan ang mga Doc sa Pagsasama",
+        "ctaSubtitle": "Kunin ang iyong pasadyang widget code at simulang magbigay ng pambihirang suporta sa customer sa ilang minuto.",
+        "ctaTitle": "Handa nang Idagdag ang SeaChat sa Iyong Website?",
+        "customization": {
+          "colors": {
+            "description": "Itugma ang mga kulay, font, at estilo ng iyong brand",
+            "features": {
+              "css": "Mga override ng CSS",
+              "fonts": "Pag-customize ng font",
+              "logo": "Pagsasama ng logo ng brand",
+              "schemes": "Mga pasadyang scheme ng kulay"
+            },
+            "title": "Mga Kulay at Pagba-brand"
+          },
+          "content": {
+            "description": "I-customize ang lahat ng teksto at pagmemensahe",
+            "features": {
+              "greetings": "Mga pasadyang pagbati",
+              "multilanguage": "Suporta sa maraming wika",
+              "offline": "Mga offline na mensahe",
+              "welcome": "Mga mensahe ng maligayang pagdating"
+            },
+            "title": "Nilalaman at mga Mensahe"
+          },
+          "position": {
+            "description": "Kontrolin kung saan at paano lilitaw ang widget",
+            "features": {
+              "auto": "Mga setting ng awtomatikong pagbubukas",
+              "corner": "Pagpoposisyon sa sulok",
+              "mobile": "Pagiging tumutugon sa mobile",
+              "trigger": "Mga kondisyon sa pag-trigger"
+            },
+            "title": "Posisyon at Pag-uugali"
+          }
+        },
+        "customizationSubtitle": "Gawing perpektong tumugma sa iyong brand ang SeaChat na may malawak na mga pagpipilian sa pag-customize.",
+        "customizationTitle": "Mga Pagpipilian sa Pag-customize",
+        "demoButton": "Mag-iskedyul ng Demo",
+        "getPlatformCode": "Kumuha",
+        "installation": {
+          "step1": {
+            "description": "Kopyahin ang iyong natatanging SeaChat widget code mula sa dashboard",
+            "title": "Kunin ang Iyong Widget Code"
+          },
+          "step2": {
+            "description": "I-paste ang code bago ang pagsasara ng &lt;/body&gt; tag",
+            "title": "Idagdag sa Iyong Website"
+          },
+          "step3": {
+            "description": "Opsyonal: I-customize ang mga kulay, posisyon, at pag-uugali",
+            "title": "I-customize ang Hitsura"
+          }
+        },
+        "installationSubtitle": "Sundin ang mga simpleng hakbang na ito upang idagdag ang SeaChat sa anumang website sa ilang minuto.",
+        "installationTitle": "Gabay sa Universal na Pag-install",
+        "platforms": {
+          "generic": {
+            "description": "Universal na widget na gumagana sa anumang HTML website",
+            "difficulty": "Madali",
+            "features": {
+              "compatibility": "Universal na compatibility",
+              "installation": "Madaling pag-install",
+              "responsive": "Tumutugon na disenyo",
+              "styling": "Pasadyang estilo"
+            },
+            "name": "Generic na Website",
+            "setupTime": "2 minuto"
+          },
+          "shopify": {
+            "description": "Na-optimize sa e-commerce na may pagsasama ng pagsubaybay sa order",
+            "difficulty": "Madali",
+            "features": {
+              "cart": "Pag-abandona sa cart",
+              "customers": "Pag-sync ng data ng customer",
+              "orders": "Pagsasama ng order",
+              "products": "Mga rekomendasyon sa produkto"
+            },
+            "name": "Shopify",
+            "setupTime": "3 minuto"
+          },
+          "squarespace": {
+            "description": "Walang putol na pagsasama sa sistema ng disenyo ng Squarespace",
+            "difficulty": "Katamtaman",
+            "features": {
+              "code": "Pag-iniksyon ng code",
+              "design": "Pagtutugma sa sistema ng disenyo",
+              "style": "Pag-customize ng estilo",
+              "templates": "Compatibility ng template"
+            },
+            "name": "Squarespace",
+            "setupTime": "3 minuto"
+          },
+          "webflow": {
+            "description": "Katutubong pagsasama para sa Webflow CMS at e-commerce",
+            "difficulty": "Madali",
+            "features": {
+              "cms": "Pagsasama ng CMS",
+              "custom": "Pag-iniksyon ng pasadyang code",
+              "design": "Madaling gamitin sa designer",
+              "ecommerce": "Suporta sa e-commerce"
+            },
+            "name": "Webflow",
+            "setupTime": "2 minuto"
+          },
+          "wix": {
+            "description": "Drag-and-drop na pagsasama para sa mga website ng Wix",
+            "difficulty": "Madali",
+            "features": {
+              "app": "Tindahan ng app ng Wix",
+              "editor": "Visual na editor",
+              "mobile": "Na-optimize sa mobile",
+              "positioning": "Pasadyang pagpoposisyon"
+            },
+            "name": "Wix",
+            "setupTime": "2 minuto"
+          },
+          "wordpress": {
+            "description": "Katutubong WordPress plugin na may advanced na pag-customize",
+            "difficulty": "Madali",
+            "features": {
+              "dashboard": "Dashboard ng admin",
+              "plugin": "WordPress plugin",
+              "shortcode": "Suporta sa shortcode",
+              "theme": "Pagsasama ng tema"
+            },
+            "name": "WordPress",
+            "setupTime": "1 minuto"
+          }
+        },
+        "platformsSubtitle": "Piliin ang iyong platform para sa na-optimize na pagsasama at mga tagubilin sa pag-setup.",
+        "platformsTitle": "Mga Suportadong Platform",
+        "subtitle": "I-deploy ang SeaChat sa anumang platform ng website sa ilang minuto. Universal na compatibility na may pasadyang estilo at tumutugon na disenyo.",
+        "title": "Mga Pagsasama sa Website",
+        "viewDocs": "Tingnan ang Dokumentasyon",
+        "setup": "Oras ng pag-setup"
+      }
+    },
+    "heroAnimations": {
+      "agentToAI": {
+        "phases": {
+          "learning": "🧑‍💼 Pag-aaral mula sa Tao",
+          "handoff": "🤝 Makinis na Pag-handoff",
+          "autonomous": "🤖 AI Autonomous"
+        },
+        "humanMessages": {
+          "0": "Salamat sa pakikipag-ugnayan sa suporta! Paano ako makakatulong?",
+          "1": "Naiintindihan ko ang iyong alalahanin. Hayaan mong suriin ko iyan para sa iyo.",
+          "2": "Batay sa aming patakaran, narito ang inirerekomenda ko...",
+          "3": "Mayroon pa ba akong maitutulong sa iyo ngayon?"
+        },
+        "aiMessages": {
+          "0": "Natutunan kong awtomatikong pangasiwaan ang ganitong uri ng katanungan.",
+          "1": "Batay sa mga nakaraang pag-uusap, makakatulong ako dito.",
+          "2": "Naiintindihan ko ang iyong tanong at makakapagbigay ako ng agarang tulong.",
+          "3": "Handa akong pangasiwaan ang mga katulad na kahilingan nang nakapag-iisa."
+        },
+        "learned": "Natutunan",
+        "title": "Paghahatid mula sa Tao patungo sa AI",
+        "subtitle": "Magsimula sa mga tao, palakihin gamit ang matalinong AI"
+      },
+      "conversationLearning": {
+        "documentTypes": {
+          "0": "Manwal ng Produkto.pdf",
+          "1": "Database ng FAQ.csv",
+          "2": "Gabay sa Suporta.doc",
+          "3": "Nilalaman ng Website"
+        },
+        "knowledgeConcepts": {
+          "0": "Mga Tampok ng Produkto",
+          "1": "Mga Plano sa Pagpepresyo",
+          "2": "Mga Patakaran sa Suporta",
+          "3": "Mga Teknikal na Detalye",
+          "4": "Mga Alituntunin ng Gumagamit",
+          "5": "Pag-troubleshoot",
+          "6": "Mga Hakbang sa Pagsasama",
+          "7": "Mga Pinakamahusay na Kasanayan"
+        },
+        "conversationExamples": {
+          "0": {
+            "question": "Paano ko ire-reset ang aking password?",
+            "improvement": "Natutunan ang proseso sa bawat hakbang"
+          },
+          "1": {
+            "question": "Ano ang iyong mga plano sa pagpepresyo?",
+            "improvement": "Nagdagdag ng mga detalyadong paghahambing"
+          },
+          "2": {
+            "question": "Pagsasama sa Slack?",
+            "improvement": "Pinabuting teknikal na gabay"
+          },
+          "3": {
+            "question": "Tanong sa pagsingil",
+            "improvement": "Pinahusay na pag-unawa sa patakaran"
+          }
+        },
+        "phaseLabel": "Yugto",
+        "accuracy": "Katumpakan",
+        "title": "Paglalakbay sa Pag-aaral ng AI",
+        "subtitle": "Panoorin ang AI na nagiging mas matalino mula sa iyong nilalaman"
+      },
+      "interactiveChannels": {
+        "whatsapp": {
+          "messages": {
+            "0": "Hi! Kailangan ng tulong sa aking order 📦",
+            "1": "Ano ang iyong patakaran sa pagbabalik?",
+            "2": "Salamat sa mabilis na tugon! 😊"
+          }
+        },
+        "instagram": {
+          "messages": {
+            "0": "Gustung-gusto ko ang iyong bagong produkto! 💕",
+            "1": "Available ba ito sa asul?",
+            "2": "Maaari ka bang magpadala sa Europa?"
+          }
+        },
+        "website": {
+          "messages": {
+            "0": "Kailangan ko ng teknikal na suporta",
+            "1": "Paano ko ire-reset ang aking password?",
+            "2": "Hindi gumagana ang checkout"
+          }
+        },
+        "email": {
+          "messages": {
+            "0": "Pag-follow up sa aking nakaraang email",
+            "1": "Kahilingan para sa bulk na pagpepresyo",
+            "2": "Salamat sa iyong tulong"
+          }
+        },
+        "agentResponse": "Masaya akong tulungan ka diyan! Hayaan mong suriin ko ang impormasyong iyon para sa iyo.",
+        "channelNames": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "website": "Website",
+          "email": "Email"
+        },
+        "supportSuffix": "Suporta",
+        "online": "Online",
+        "typePlaceholder": "I-type ang iyong mensahe...",
+        "title": "Interactive na Tagapili ng Channel",
+        "subtitle": "Mag-click sa mga channel upang makita ang iba't ibang mga pag-uusap"
+      },
+      "multiChannelFlow": {
+        "channels": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "email": "Email",
+          "website": "Website"
+        },
+        "messageTemplates": {
+          "0": "Kailangan ng tulong sa order",
+          "1": "Tanong sa produkto",
+          "2": "Teknikal na suporta",
+          "3": "Katanungan sa pagsingil",
+          "4": "Pangkalahatang tanong"
+        },
+        "title": "Daloy ng Mensahe sa Maraming Channel",
+        "subtitle": "Mga mensahe na dumadaloy sa pagitan ng mga channel sa real-time"
+      },
+      "phoneVoiceAI": {
+        "callerNames": {
+          "0": "John Smith",
+          "1": "Sarah Johnson",
+          "2": "Mike Chen",
+          "3": "Emma Davis",
+          "4": "David Wilson"
+        },
+        "conversationFlow": {
+          "0": {
+            "caller": "Hi, kailangan ko ng tulong sa katayuan ng aking order",
+            "ai": "Kamusta! Masaya akong tulungan kang suriin ang katayuan ng iyong order. Maaari mo bang ibigay ang iyong numero ng order?"
+          },
+          "1": {
+            "caller": "Oo, ito ay numero ng order 12345",
+            "ai": "Salamat! Hayaan mong hanapin ko iyan para sa iyo. Nakikita ko na naipadala na kahapon ang iyong order at dapat dumating bukas."
+          },
+          "2": {
+            "caller": "Perpekto! Maaari ko bang baguhin ang address ng paghahatid?",
+            "ai": "Matutulungan kita diyan. Ano ang gusto mong maging bagong address ng paghahatid?"
+          }
+        },
+        "status": {
+          "seachatVoiceAI": "SeaChat Voice AI",
+          "connectedWith": "Konektado sa",
+          "listening": "Nakikinig...",
+          "aiSpeaking": "Nagsasalita ang AI...",
+          "processing": "Nagpoproseso...",
+          "liveTranscript": "Live na Transcript:"
+        },
+        "waiting": {
+          "ready": "Handa na ang Voice AI",
+          "subtitle": "Naghihintay ng mga papasok na tawag..."
+        },
+        "stats": {
+          "callsHandled": "Mga Tawag na Nahawakan",
+          "available": "Available"
+        },
+        "incomingCall": "📞 Papasok na Tawag",
+        "features": {
+          "naturalSpeech": {
+            "title": "Natural na Pagsasalita",
+            "description": "Pag-uusap na parang tao"
+          },
+          "smartRecognition": {
+            "title": "Matalinong Pagkilala",
+            "description": "Tumpak na speech-to-text"
+          },
+          "contextAware": {
+            "title": "May Kamalayan sa Konteksto",
+            "description": "Nauunawaan ang layunin"
+          }
+        }
+      },
+      "realtimeDashboard": {
+        "metrics": {
+          "conversations": "Mga Aktibong Chat",
+          "response": "Avg na Tugon",
+          "agents": "Mga Online na Ahente",
+          "satisfaction": "Kasiyahan"
+        },
+        "title": "Live na Dashboard",
+        "status": {
+          "live": "Live"
+        },
+        "timeLabels": {
+          "12hAgo": "12h ang nakalipas",
+          "6hAgo": "6h ang nakalipas",
+          "now": "Ngayon"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1602 @@
+{
+  "seax": {
+    "home": {
+      "seo": {
+        "title": "SeaX - Bulk SMS, WhatsApp & Voice Marketing Platform | Seasalt.ai",
+        "description": "Palakihin ang iyong outreach sa milyun-milyon gamit ang malakas na bulk SMS, WhatsApp messaging, at mga kampanya sa boses ng AI ng SeaX. Mataas na mga rate ng paghahatid, pandaigdigang abot, at advanced na analytics."
+      },
+      "scalingProblem": {
+        "title": "Ang Problema sa Manwal na Outreach",
+        "subtitle": "Kailangan ng iyong negosyo na maabot ang libu-libong mga customer, ngunit hindi nag-i-scale ang manu-manong outreach. Ina-automate ng SeaX ang iyong komunikasyon habang pinapanatili ang personal na ugnayan.",
+        "manualOutreach": {
+          "title": "Manwal na Outreach",
+          "description": "Mga indibidwal na mensahe na nakakaubos ng oras, limitadong abot, hindi pare-parehong follow-up"
+        },
+        "seaxAutomation": {
+          "title": "SeaX Automation",
+          "description": "Milyun-milyong mensahe sa ilang minuto, personalisasyon na pinapagana ng AI, mga awtomatikong kampanya sa follow-up"
+        },
+        "stats": {
+          "messagesSent": {
+            "value": "10M+",
+            "label": "Mga mensahe na ipinadala araw-araw"
+          },
+          "callsPerHour": {
+            "value": "50K+",
+            "label": "Mga tawag bawat oras"
+          },
+          "deliveryRate": {
+            "value": "99.5%",
+            "label": "Rate ng paghahatid"
+          },
+          "roiAverage": {
+            "value": "400%",
+            "label": "Average na ROI"
+          }
+        }
+      },
+      "features": {
+        "title": "Mga Tampok sa Napakalaking Scale",
+        "subtitle": "Lahat ng kailangan mo upang maabot ang milyun-milyong mga customer sa maraming mga channel",
+        "sms": {
+          "title": "Bulk na SMS",
+          "description": "Magpadala ng milyun-milyong mensahe sa SMS na may 99.5% na rate ng paghahatid sa 200+ na mga bansa"
+        },
+        "whatsapp": {
+          "title": "Negosyo sa WhatsApp",
+          "description": "Abutin ang 2+ bilyong mga gumagamit ng WhatsApp na may mga kampanya sa template at mga personalized na mensahe"
+        },
+        "voice": {
+          "title": "Mga Kampanya sa Boses ng AI",
+          "description": "Mga awtomatikong tawag sa telepono na may mga natural na boses ng AI para sa mga survey, paalala, at outreach"
+        },
+        "ai": {
+          "title": "AI Automation",
+          "description": "Matalinong mga follow-up, paghawak sa tugon, at pag-optimize ng kampanya na pinapagana ng AI"
+        }
+      },
+      "leadGeneration": {
+        "title": "I-convert ang mga Prospect sa mga Customer",
+        "subtitle": "Isang kumpletong sistema ng pagbuo at pag-aalaga ng lead na ginagawang mga nagbabayad na customer ang mga prospect",
+        "capture": {
+          "title": "Makuha",
+          "description": "Mang-akit ng mga lead na may mga naka-target na kampanya sa maraming mga channel"
+        },
+        "qualify": {
+          "title": "Maging Kwalipikado",
+          "description": "Pagmamarka at kwalipikasyon ng lead na pinapagana ng AI upang matukoy ang iyong pinakamahusay na mga prospect"
+        },
+        "nurture": {
+          "title": "Alagaan",
+          "description": "Mga awtomatikong pagkakasunud-sunod ng follow-up na nagtatayo ng mga relasyon at nag-drive ng mga conversion"
+        },
+        "close": {
+          "title": "Isara",
+          "description": "Matalinong pag-handoff sa koponan sa pagbebenta na may kumpletong kasaysayan ng pag-uusap at katalinuhan sa lead"
+        }
+      },
+      "howItWorks": {
+        "title": "Paano Ito Gumagana",
+        "subtitle": "Magsimula sa 4 na simpleng hakbang at maabot ang milyun-milyong mga customer sa loob ng ilang oras",
+        "timeRequired": "Kinakailangang oras: ",
+        "step1": {
+          "number": "01",
+          "title": "I-import ang Iyong mga Contact",
+          "description": "I-upload ang iyong mga listahan ng contact mula sa CSV, Excel, o isama sa iyong CRM. Suporta para sa milyun-milyong mga contact na may matalinong deduplication.",
+          "time": "2 minuto",
+          "illustration": {
+            "checkmark": "✓",
+            "fileName": "contacts_list.csv",
+            "contactCount": "25,847 na mga contact",
+            "dropFiles": "I-drop ang iyong mga file dito",
+            "browse": "o mag-browse upang mag-upload",
+            "importedCount": "25,847",
+            "contactsImported": "mga contact na na-import"
+          }
+        },
+        "step2": {
+          "number": "02",
+          "title": "Piliin ang Iyong mga Channel",
+          "description": "Pumili mula sa SMS, WhatsApp, mga tawag sa Boses, o mga kampanya sa maraming channel. Bawat channel ay na-optimize para sa maximum na paghahatid at pakikipag-ugnayan.",
+          "time": "1 minuto",
+          "illustration": {
+            "sms": {
+              "label": "SMS",
+              "rate": "98% na rate ng pagbubukas"
+            },
+            "whatsapp": {
+              "label": "WhatsApp",
+              "rate": "90% na rate ng pagbubukas"
+            },
+            "voice": {
+              "label": "Boses",
+              "rate": "75% na rate ng pagsagot"
+            }
+          }
+        },
+        "step3": {
+          "number": "03",
+          "title": "Lumikha ng Iyong Kampanya",
+          "description": "Idisenyo ang iyong mensahe na may personalisasyon, itakda ang iyong pag-target sa audience, at i-iskedyul ang iyong kampanya. Kasama ang pagsubok sa A/B.",
+          "time": "5 minuto",
+          "illustration": {
+            "campaignDraft": "Draft ng Kampanya",
+            "draftStatus": "Draft",
+            "sampleMessage": "Hi {{name}}, mayroon kaming isang espesyal na alok para lamang sa iyo! Kumuha ng 20% diskwento sa iyong susunod na order. Tumugon ng STOP upang mag-opt out.",
+            "previewButton": "I-preview",
+            "abTestButton": "Pagsubok sa A/B",
+            "schedule": "Iskedyul",
+            "now": "Ipadala Ngayon"
+          }
+        },
+        "step4": {
+          "number": "04",
+          "title": "Subaybayan at I-optimize",
+          "description": "Subaybayan ang pagganap ng kampanya sa real-time na may detalyadong analytics. Tingnan ang mga rate ng paghahatid, mga tugon, mga conversion, at mga sukatan ng ROI.",
+          "time": "Patuloy",
+          "illustration": {
+            "campaignStatus": "Katayuan ng Kampanya",
+            "liveStatus": "Live",
+            "deliveredCount": "847K",
+            "delivered": "Naihatid",
+            "responseRate": "12%",
+            "response": "Rate ng Pagtugon",
+            "totalCount": "1.2M",
+            "totalMessages": "Kabuuang mga Mensahe",
+            "deliveryRate": "99.5%",
+            "deliveryRateLabel": "Rate ng Paghahatid",
+            "analytics": "Real-time na analytics ng pagganap na may pagsubaybay sa conversion"
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Pinagkakatiwalaan ng mga Lumalagong Negosyo",
+        "subtitle": "Tingnan kung paano ginagamit ng mga kumpanya ang SeaX upang i-scale ang kanilang outreach sa customer at mag-drive ng paglago",
+        "testimonial1": {
+          "quote": "Tinulungan kami ng SeaX na maabot ang 500K na mga customer sa isang araw. Ang mga rate ng paghahatid ay hindi kapani-paniwala at ang ROI ay nagsasalita para sa sarili nito.",
+          "author": "Sarah Chen",
+          "role": "Direktor ng Marketing, TechStart"
+        },
+        "testimonial2": {
+          "quote": "Tinaasan namin ang aming rate ng conversion ng 300% gamit ang mga kampanya sa follow-up na pinapagana ng AI ng SeaX. Nagbabago ng laro para sa aming negosyo.",
+          "author": "Mike Rodriguez",
+          "role": "CEO, GrowthCorp"
+        },
+        "testimonial3": {
+          "quote": "Ang pagsasama ng WhatsApp ay walang putol. Maaari na kaming magkaroon ng mga personal na pag-uusap sa sukat sa aming pandaigdigang base ng customer.",
+          "author": "Lisa Park",
+          "role": "Pinuno ng Tagumpay ng Customer, GlobalTech"
+        }
+      },
+      "cta": {
+        "title": "Handa nang Palakihin ang Iyong Outreach sa Milyun-milyon?",
+        "subtitle": "Sumali sa libu-libong kumpanya na gumagamit ng SeaX upang maabot ang mas maraming customer, makabuo ng mas maraming lead, at lumago nang mas mabilis.",
+        "demoButton": "Mag-book ng Demo",
+        "signupButton": "Simulan ang Libreng Pagsubok"
+      }
+    },
+    "features": {
+      "seo": {
+        "title": "Mga Tampok ng SeaX - Malakas na mga Tool para sa Mass Communication",
+        "description": "Galugarin ang malakas na mga tampok ng SeaX: bulk messaging engine, follow-up na pinapagana ng AI, real-time na analytics, at imprastraktura sa antas ng enterprise."
+      },
+      "hero": {
+        "title": "Malakas na mga Tampok para sa",
+        "titleHighlight": "Mass Communication",
+        "description": "Lahat ng kailangan mo upang maabot ang milyun-milyong mga customer sa mga channel ng SMS, WhatsApp, at boses. Binuo para sa sukat, idinisenyo para sa mga resulta.",
+        "stats": {
+          "messages": "10M+ na mensahe araw-araw",
+          "countries": "200+ na mga bansa",
+          "security": "Seguridad sa enterprise"
+        }
+      },
+      "core": {
+        "title": "Mga Pangunahing Tampok",
+        "description": "Ang mahahalagang tool na nagpapagana sa iyong mga kampanya sa mass communication",
+        "bulkMessaging": {
+          "title": "Bulk Messaging Engine",
+          "description": "Magpadala ng milyun-milyong mensahe sa SMS, WhatsApp, at mga tawag sa telepono nang sabay-sabay na may pagiging maaasahan sa antas ng carrier.",
+          "metrics": {
+            "value": "10M+",
+            "label": "Mga mensahe na ipinadala araw-araw"
+          },
+          "benefits": {
+            "0": "Pagiging maihahatid sa antas ng carrier",
+            "1": "Pandaigdigang abot sa 200+ na mga bansa",
+            "2": "Real-time na pagsubaybay sa paghahatid",
+            "3": "Pag-optimize ng matalinong pagruruta"
+          }
+        },
+        "aiFollowup": {
+          "title": "Follow-Up na Pinapagana ng AI",
+          "description": "Mga awtomatikong tugon at matalinong pag-aalaga ng lead upang maging kwalipikado ang mga prospect 24/7.",
+          "metrics": {
+            "value": "85%",
+            "label": "Rate ng kwalipikasyon ng lead"
+          },
+          "benefits": {
+            "0": "Matalinong paghawak sa pag-uusap",
+            "1": "Awtomatikong pagmamarka ng lead",
+            "2": "Matalinong timing ng tugon",
+            "3": "Suporta sa maraming wika"
+          }
+        },
+        "analytics": {
+          "title": "Real-Time na Analytics",
+          "description": "Subaybayan ang mga pagbubukas, mga tugon, at mga conversion sa sukat na may isang komprehensibong live na dashboard.",
+          "metrics": {
+            "value": "99.9%",
+            "label": "Garantiya sa uptime"
+          },
+          "benefits": {
+            "0": "Live na pagsubaybay sa kampanya",
+            "1": "Pagsubaybay sa conversion",
+            "2": "Mga insight sa pagganap",
+            "3": "Pasadyang pag-uulat"
+          }
+        },
+        "compliance": {
+          "title": "Pagsunod at Pagiging Maihahatid",
+          "description": "Pandaigdigang abot na may pagsunod sa carrier at mga pre-approved na template ng mensahe.",
+          "metrics": {
+            "value": "200+",
+            "label": "Mga bansang suportado"
+          },
+          "benefits": {
+            "0": "Sumusunod sa GDPR",
+            "1": "Proseso ng pag-apruba ng carrier",
+            "2": "Proteksyon sa spam",
+            "3": "Pagsunod sa regulasyon"
+          }
+        },
+        "collaboration": {
+          "title": "Pakikipagtulungan ng Koponan",
+          "description": "Access ng maraming gumagamit, mga pahintulot sa kampanya, at mga shared na mapagkukunan para sa mga koponan sa enterprise.",
+          "metrics": {
+            "value": "500K+",
+            "label": "Mga tawag bawat oras"
+          },
+          "benefits": {
+            "0": "Mga pahintulot na batay sa papel",
+            "1": "Mga shared na template ng kampanya",
+            "2": "Pagsubaybay sa pagganap ng koponan",
+            "3": "Mga daloy ng trabaho sa pakikipagtulungan"
+          }
+        },
+        "scale": {
+          "title": "Scale ng Enterprise",
+          "description": "Binuo para sa mga nagpapadala na may pinakamataas na dami na may dedikadong imprastraktura at suporta.",
+          "metrics": {
+            "value": "1M+",
+            "label": "Mga mensahe bawat minuto"
+          },
+          "benefits": {
+            "0": "Nakatuong imprastraktura",
+            "1": "Suporta sa priyoridad",
+            "2": "Mga pasadyang pagsasama",
+            "3": "Mga SLA sa enterprise"
+          }
+        }
+      },
+      "categories": {
+        "title": "Mga Kategorya ng Tampok",
+        "description": "Galugarin ang aming komprehensibong hanay ng tampok ayon sa kategorya",
+        "messaging": {
+          "title": "Mga Channel ng Pagmemensahe",
+          "sms": {
+            "name": "SMS (10DLC, Toll-Free, Short-Code)",
+            "description": "Lahat ng uri ng SMS para sa bawat pangangailangan sa negosyo"
+          },
+          "whatsapp": {
+            "name": "Platform ng Negosyo ng WhatsApp",
+            "description": "Mode ng kampanya para sa mass messaging"
+          },
+          "voice": {
+            "name": "Mga Tawag sa Boses (100+ na mga Bansa)",
+            "description": "Mga tawag na pinapagana ng AI sa pamamagitan ng Twilio"
+          }
+        },
+        "aiAutomation": {
+          "title": "AI at Automation",
+          "followup": {
+            "name": "Follow-Up na Pinapagana ng AI",
+            "description": "Matalinong pag-aalaga ng lead 24/7"
+          },
+          "responses": {
+            "name": "Mga Awtomatikong Tugon",
+            "description": "Matalinong paghawak sa pag-uusap"
+          },
+          "scoring": {
+            "name": "Pagmamarka ng Lead",
+            "description": "Kwalipikasyon ng prospect na hinimok ng AI"
+          }
+        },
+        "analytics": {
+          "title": "Analytics at Mga Insight",
+          "dashboard": {
+            "name": "Real-Time na Dashboard",
+            "description": "Live na pagsubaybay sa kampanya"
+          },
+          "tracking": {
+            "name": "Pagsubaybay sa Conversion",
+            "description": "Mga sukatan ng ROI at pagganap"
+          },
+          "reporting": {
+            "name": "Pasadyang Pag-uulat",
+            "description": "Detalyadong analytics at mga insight"
+          }
+        },
+        "enterprise": {
+          "title": "Enterprise at Seguridad",
+          "gdpr": {
+            "name": "Pagsunod sa GDPR",
+            "description": "Buong pagsunod sa regulasyon"
+          },
+          "team": {
+            "name": "Pakikipagtulungan ng Koponan",
+            "description": "Access at mga pahintulot ng maraming gumagamit"
+          },
+          "sla": {
+            "name": "Mga SLA sa Enterprise",
+            "description": "Nakatuong suporta at uptime"
+          }
+        }
+      },
+      "integrations": {
+        "title": "Binuo para sa Pagsasama",
+        "description": "Ikonekta ang SeaX sa iyong mga umiiral na tool at daloy ng trabaho",
+        "crm": {
+          "title": "Pagsasama ng CRM",
+          "description": "Kumonekta sa Salesforce, HubSpot, at iba pang mga sistema ng CRM para sa tuluy-tuloy na daloy ng data.",
+          "sync": "Pag-sync sa dalawang direksyon",
+          "mapping": "Pagmamapa ng pasadyang field"
+        },
+        "analytics": {
+          "title": "Mga Tool sa Analytics",
+          "description": "I-export ang data sa Google Analytics, Mixpanel, at iba pang mga platform ng analytics.",
+          "exports": "Mga real-time na pag-export",
+          "dashboards": "Mga pasadyang dashboard"
+        },
+        "api": {
+          "title": "Developer API",
+          "description": "Buong REST API para sa mga pasadyang pagsasama at mga awtomatikong daloy ng trabaho.",
+          "endpoints": "Mga endpoint ng RESTful",
+          "webhooks": "Suporta sa webhook"
+        }
+      },
+      "cta": {
+        "title": "Handa nang Damhin ang mga Tampok na Ito?",
+        "description": "Tingnan kung paano maaaring baguhin ng SeaX ang iyong diskarte sa komunikasyon",
+        "button": "Mag-book ng Demo"
+      }
+    },
+    "channels": {
+      "sms": {
+        "hero": {
+          "stats": {
+            "messagesValue": "10M+",
+            "countriesValue": "200+",
+            "uptimeValue": "99.9%",
+            "deliveryValue": "98%",
+            "messagesSent": "Mga Mensahe na Ipinadala",
+            "countries": "Mga Bansa",
+            "uptime": "Uptime",
+            "deliveryRate": "Rate ng Paghahatid"
+          },
+          "preview": {
+            "deliveredValue": "847K",
+            "successValue": "98.2%",
+            "title": "Live na Kampanya sa SMS",
+            "status": "Aktibo",
+            "messageLabel": "Halimbawang Mensahe",
+            "message": "Hi [Pangalan], Huwag palampasin ang aming eksklusibong 50% diskwento na magtatapos ngayon! Mamili na: bit.ly/save50",
+            "delivered": "Naihatid",
+            "successRate": "Rate ng Tagumpay"
+          },
+          "badge": "Channel ng SMS",
+          "title": "Palakihin ang Iyong SMS",
+          "titleHighlight": "sa Milyun-milyon",
+          "description": "Magpadala ng mga personalized na mensahe sa SMS sa milyun-milyong mga customer sa buong mundo na may mga rate ng paghahatid na nangunguna sa industriya at real-time na analytics.",
+          "cta": {
+            "primary": "Simulan ang Pagpapadala ng SMS",
+            "secondary": "Mag-iskedyul ng Demo"
+          }
+        },
+        "seo": {
+          "title": "Platform ng Marketing at Komunikasyon sa SMS - SeaX ng Seasalt.ai",
+          "description": "Magpadala ng mga bulk na mensahe sa SMS sa sukat gamit ang SeaX. Abutin ang mga customer sa buong mundo na may 98% na mga rate ng paghahatid, advanced na analytics, at seguridad sa antas ng enterprise para sa mga kampanya sa marketing at mga komunikasyon."
+        },
+        "features": {
+          "title": "Malakas na mga Tampok sa SMS",
+          "description": "Lahat ng kailangan mo upang lumikha, magpadala, at i-optimize ang mga kampanya sa SMS na nag-drive ng mga resulta.",
+          "globalReach": {
+            "title": "Pandaigdigang Abot",
+            "description": "Magpadala ng SMS sa mahigit 200 na mga bansa na may mga direktang koneksyon sa carrier para sa pinakamainam na mga rate ng paghahatid."
+          },
+          "lightningFast": {
+            "title": "Kasing Bilis ng Kidlat",
+            "description": "Mga mensahe na inihahatid sa loob ng ilang segundo na may mga real-time na update sa katayuan at mga kumpirmasyon sa paghahatid."
+          },
+          "secure": {
+            "title": "Seguridad sa Enterprise",
+            "description": "Pag-encrypt sa antas ng bangko, pagsunod sa GDPR, at secure na paghawak ng data para sa lahat ng iyong mga komunikasyon."
+          },
+          "analytics": {
+            "title": "Advanced na Analytics",
+            "description": "Detalyadong pag-uulat sa mga rate ng paghahatid, mga rate ng pag-click, at mga sukatan ng pagganap ng kampanya."
+          },
+          "bulk": {
+            "title": "Bulk na Pagmemensahe",
+            "description": "Magpadala ng milyun-milyong personalized na mensahe nang sabay-sabay na may matalinong pag-iiskedyul at throttling."
+          },
+          "segmentation": {
+            "title": "Matalinong Pagse-segment",
+            "description": "I-target ang mga partikular na segment ng customer na may personalized na pagmemensahe batay sa pag-uugali at mga kagustuhan."
+          }
+        },
+        "useCases": {
+          "title": "Mga Kaso ng Paggamit sa SMS",
+          "description": "Tuklasin kung paano ginagamit ng mga negosyo ang SMS upang makipag-ugnayan sa mga customer at mag-drive ng paglago.",
+          "marketing": {
+            "title": "Mga Kampanya sa Marketing",
+            "description": "Mag-drive ng mga benta na may mga mensahe sa promosyon, mga flash sale, at mga personalized na alok.",
+            "metrics": "hanggang sa 45% na mga rate ng pagbubukas"
+          },
+          "support": {
+            "title": "Suporta sa Customer",
+            "description": "Magpadala ng mga update sa order, mga abiso sa pagpapadala, at mga mensahe sa suporta.",
+            "metrics": "95% na kasiyahan ng customer"
+          },
+          "appointments": {
+            "title": "Mga Paalala sa Appointment",
+            "description": "Bawasan ang mga hindi pagdating gamit ang mga awtomatikong kumpirmasyon at paalala sa appointment.",
+            "metrics": "60% na pagbawas sa mga hindi pagdating"
+          },
+          "emergency": {
+            "title": "Mga Alerto sa Emergency",
+            "description": "Agad na magpadala ng mga kritikal na abiso at mga komunikasyon sa emergency.",
+            "metrics": "99.9% na pagiging maaasahan sa paghahatid"
+          }
+        },
+        "cta": {
+          "title": "Handa nang Palakihin ang Iyong SMS?",
+          "description": "Sumali sa libu-libong negosyo na gumagamit ng SeaX upang maabot ang milyun-milyong mga customer sa pamamagitan ng SMS.",
+          "primary": "Magsimula nang Libre",
+          "secondary": "Mag-book ng Demo"
+        }
+      },
+      "smsLocal": {
+        "title": "SMS Local (10DLC)",
+        "subtitle": "Propesyonal na pagmemensahe sa SMS na may mga pinagkakatiwalaang lokal na numero",
+        "description": "Magpadala ng mga kampanya sa SMS na may mataas na dami gamit ang mga rehistradong 10DLC na numero na naghahatid ng pambihirang pagiging maaasahan at tiwala sa carrier. Perpekto para sa mga kampanya sa marketing, mga paalala sa appointment, at mga abiso sa customer.",
+        "seo": {
+          "title": "SMS Local (10DLC) - Propesyonal na Pagmemensahe sa Negosyo | SeaX",
+          "description": "Magpadala ng mga propesyonal na kampanya sa SMS na may 10DLC na mga lokal na numero. Mataas na deliverability, tiwala sa carrier, at pagmemensahe na handa sa pagsunod para sa iyong mga komunikasyon sa negosyo."
+        },
+        "hero": {
+          "campaign": {
+            "title": "Dashboard ng Kampanya sa Marketing",
+            "status": "Aktibo",
+            "messagesSentValue": "2,847",
+            "messagesSent": "Mga Mensahe na Ipinadala",
+            "deliveryRateValue": "98.5%",
+            "deliveryRate": "Rate ng Paghahatid"
+          },
+          "recentActivity": {
+            "title": "Kamakailang Aktibidad",
+            "marketing": {
+              "title": "Kampanya sa Flash Sale",
+              "details": "Ipinadala sa 1,523 na mga subscriber • 89% na naihatid"
+            },
+            "appointment": {
+              "title": "Mga Paalala sa Appointment",
+              "details": "247 na mga paalala na ipinadala • 2% na rate ng hindi pagdating"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "98%+",
+          "deliveryRate": "Rate ng Paghahatid",
+          "openRateValue": "96%",
+          "openRate": "Rate ng Pagbubukas",
+          "supportValue": "24/7",
+          "support": "Suporta"
+        },
+        "features": {
+          "title": "Mga Pangunahing Tampok",
+          "subtitle": "Lahat ng kailangan mo para sa propesyonal na marketing sa SMS",
+          "items": {
+            "0": "Mataas na deliverability na may tiwala sa carrier",
+            "1": "10DLC na pagpaparehistro at pag-verify ng brand",
+            "2": "Proseso ng pre-approval ng kampanya",
+            "3": "Suporta sa two-way na pagmemensahe",
+            "4": "Advanced na analytics at pag-uulat",
+            "5": "Awtomatikong pamamahala sa pag-opt-out",
+            "6": "Mga template ng mensahe at personalisasyon",
+            "7": "Iskedyul at mga kampanya sa pagtulo"
+          }
+        },
+        "useCases": {
+          "title": "Perpektong mga Kaso ng Paggamit",
+          "subtitle": "Tamang-tama na mga application para sa 10DLC na pagmemensahe",
+          "items": {
+            "0": "Mga kampanya sa marketing at mga promosyon",
+            "1": "Mga paalala at kumpirmasyon sa appointment",
+            "2": "Katayuan ng order at mga abiso sa pagpapadala",
+            "3": "Serbisyo at suporta sa customer",
+            "4": "Mga abiso at alerto sa kaganapan",
+            "5": "Koleksyon ng survey at feedback",
+            "6": "Mga pagkakasunud-sunod ng pag-aalaga ng lead",
+            "7": "Mga komunikasyon sa emergency at agarang"
+          }
+        },
+        "pricing": {
+          "title": "Simple, Transparent na Pagpepresyo",
+          "subtitle": "Walang mga nakatagong bayarin, mahuhulaan na mga gastos",
+          "setup": {
+            "label": "Pag-setup ng Kampanya",
+            "value": "$150"
+          },
+          "monthly": {
+            "label": "Buwanan",
+            "value": "$2/numero"
+          },
+          "perMessage": {
+            "label": "Bawat Mensahe",
+            "value": "$0.02"
+          },
+          "note": "Ang presyo ay para sa USA at Canada. Kinakailangan ang pagpaparehistro ng brand at pagpaparehistro ng A2P para sa pagsunod sa 10DLC"
+        },
+        "testimonial": {
+          "quote": "Ang 10DLC na pagmemensahe ay ganap na nagbago sa aming pakikipag-ugnayan sa customer. Ang mga rate ng paghahatid ay pambihira, at nagtitiwala ang mga customer sa aming mga lokal na numero.",
+          "author": "Sarah Chen",
+          "company": "Direktor ng Marketing, GrowthTech",
+          "results": "Pinabuting mga rate ng paghahatid ng 35% at tumaas na mga rate ng pagtugon ng customer ng 42%"
+        },
+        "compliance": {
+          "title": "Ginawang Simple ang Pagsunod",
+          "description": "Pinangangasiwaan namin ang lahat ng mga kumplikadong kinakailangan sa 10DLC upang makapag-focus ka sa iyong mga kampanya sa pagmemensahe",
+          "brandRegistration": {
+            "title": "Pagpaparehistro ng Brand",
+            "description": "Kumpletuhin ang proseso ng pag-verify ng brand sa mga network ng carrier para sa maximum na tiwala at deliverability"
+          },
+          "campaignApproval": {
+            "title": "Pre-Approval ng Kampanya",
+            "description": "Maaprubahan ang iyong mga kampanya ng mga carrier bago ilunsad upang matiyak ang pagsunod at pinakamainam na pagganap"
+          },
+          "monitoring": {
+            "title": "Patuloy na Pagsubaybay",
+            "description": "Patuloy na pagsubaybay sa pagganap ng kampanya at mga sukatan ng pagsunod upang mapanatili ang pinakamainam na mga rate ng paghahatid"
+          }
+        }
+      },
+      "smsShortCode": {
+        "seo": {
+          "title": "Serbisyo ng SMS Short Code | Pagmemensahe sa Enterprise na may Mataas na Dami | SeaX",
+          "description": "Magpadala ng milyun-milyong mensahe sa SMS agad na may mga premium na short code. Marketing sa SMS sa antas ng enterprise, mga abiso, at mga mass communication na may 99.9% na mga rate ng paghahatid."
+        },
+        "nav": {
+          "backToChannels": "← Bumalik sa Mga Channel"
+        },
+        "hero": {
+          "title": {
+            "prefix": "Premium na SMS na may",
+            "highlight": "Nakatuong Short Code"
+          },
+          "subtitle": "Maglunsad ng mga kampanya sa SMS na may mataas na dami gamit ang iyong sariling 5-6 na digit na short code. Maximum na deliverability, instant na bilis, at premium na perception ng brand para sa mga seryosong marketer.",
+          "primaryCta": "Kunin ang Iyong Short Code",
+          "secondaryCta": "Tingnan ang Demo",
+          "demo": {
+            "title": "Kampanya sa Short Code",
+            "code": "Mula sa: 12345",
+            "message": "FLASH SALE: 50% diskwento sa lahat! Gamitin ang code na SAVE50. Valid hanggang hatinggabi. Tumugon ng STOP upang mag-opt out.",
+            "delivered": "✅ Naihatid: 99,847",
+            "rate": "99.9% na rate ng paghahatid",
+            "speed": "⚡ Instant na paghahatid"
+          },
+          "campaign": {
+            "title": "Premium na Dashboard ng Kampanya",
+            "status": "Aktibo",
+            "messagesSentValue": "2.4M",
+            "messagesSent": "Mga Mensahe na Ipinadala",
+            "deliveryRateValue": "99.8%",
+            "deliveryRate": "Rate ng Paghahatid"
+          },
+          "recentActivity": {
+            "title": "Kamakailang Aktibidad",
+            "marketing": {
+              "title": "Kampanya sa Marketing #2024-001",
+              "details": "Promosyon sa holiday na ipinadala sa 1.2M na mga subscriber"
+            },
+            "appointment": {
+              "title": "Mga Paalala sa Appointment",
+              "details": "850K na mga paalala na ipinadala na may 95% na rate ng pagbubukas"
+            }
+          }
+        },
+        "features": {
+          "title": "Mga Premium na Tampok",
+          "description": "Damhin ang premium na tier ng marketing sa SMS na may mga dedikadong short code",
+          "highVolume": {
+            "title": "Kapasidad na may Mataas na Dami",
+            "description": "Magpadala ng hanggang 100 mensahe bawat segundo na may dedikadong imprastraktura ng short code"
+          },
+          "instantDelivery": {
+            "title": "Instant na Paghahatid",
+            "description": "Zero na mga pagkaantala na may pinakamataas na priyoridad na pagruruta sa pamamagitan ng mga network ng carrier"
+          },
+          "brandRecognition": {
+            "title": "Pagkilala sa Brand",
+            "description": "Mga di malilimutang 5-6 na digit na numero na kinikilala at pinagkakatiwalaan ng mga customer"
+          },
+          "deliverability": {
+            "title": "Maximum na Deliverability",
+            "description": "99.9% na mga rate ng paghahatid na may mga premium na relasyon sa carrier at dedikadong pagruruta"
+          },
+          "subtitle": "Mga kakayahan sa SMS sa antas ng enterprise para sa pagmemensahe na may mataas na dami",
+          "items": {
+            "ultraHighThroughput": "Ultra-high throughput: 10,000+ mensahe bawat segundo",
+            "premiumDelivery": "Mga premium na ruta ng paghahatid para sa maximum na pagiging maaasahan",
+            "brandRecognition": "Pinahusay na pagkilala sa brand na may mga di malilimutang short code",
+            "carrierApproved": "Pre-approved ng lahat ng mga pangunahing carrier",
+            "dedicatedSupport": "Nakatuong pamamahala ng account at suporta",
+            "complianceReady": "Built-in na pagsunod sa mga regulasyon ng TCPA at CAN-SPAM"
+          }
+        },
+        "comparison": {
+          "title": "Short Code kumpara sa Iba pang mga Pagpipilian sa SMS",
+          "description": "Tingnan kung bakit ang mga dedikadong short code ay ang premium na pagpipilian para sa mga seryosong marketer sa SMS",
+          "shortCode": {
+            "title": "Nakatuong Short Code",
+            "speed": "Instant na paghahatid",
+            "volume": "100 msg/sec na kapasidad",
+            "deliverability": "99.9% na paghahatid",
+            "cost": "$1,000-$1,500/buwan",
+            "setup": "2-3 linggo na pag-setup"
+          },
+          "tollFree": {
+            "title": "Numero na Walang Bayad",
+            "speed": "3-5 segundo na paghahatid",
+            "volume": "25 msg/sec na kapasidad",
+            "deliverability": "98.5% na paghahatid",
+            "cost": "$15-$50/buwan",
+            "setup": "1-2 araw na pag-setup"
+          },
+          "tenDlc": {
+            "title": "10DLC na Lokal na Numero",
+            "speed": "5-10 segundo na paghahatid",
+            "volume": "10 msg/sec na kapasidad",
+            "deliverability": "95-98% na paghahatid",
+            "cost": "$2-$10/buwan",
+            "setup": "5-10 araw na pag-setup"
+          }
+        },
+        "useCases": {
+          "title": "Mga Kaso ng Paggamit",
+          "description": "Mahusay ang mga short code sa mga partikular na sitwasyon na may mataas na dami, sensitibo sa oras",
+          "flashSales": {
+            "title": "Mga Flash Sale at Promosyon",
+            "description": "Mga alok na sensitibo sa oras na nangangailangan ng instant na paghahatid",
+            "example": "FLASH SALE: 50% diskwento ay magtatapos sa loob ng 1 oras!"
+          },
+          "alerts": {
+            "title": "Mga Kritikal na Alerto at Abiso",
+            "description": "Mga update sa emergency at mahahalagang anunsyo",
+            "example": "URGENT: Pagpapanatili ng serbisyo ngayong gabi 11PM-1AM"
+          },
+          "contests": {
+            "title": "Mga Paligsahan at Pagboto",
+            "description": "Mga interactive na kampanya na nangangailangan ng mga agarang tugon",
+            "example": "Bumoto para sa iyong paborito! I-text ang A o B sa 12345"
+          },
+          "events": {
+            "title": "Mga Update sa Kaganapan at Tiket",
+            "description": "Mga real-time na update para sa malalaking kaganapan at mga lugar",
+            "example": "Magsisimula ang kaganapan sa loob ng 30min! Bukas na ngayon ang Gate 5."
+          },
+          "subtitle": "Perpekto para sa mga komunikasyon na may mataas na dami, sensitibo sa oras",
+          "items": {
+            "massMarketing": "Mga kampanya at promosyon sa mass marketing",
+            "emergencyAlerts": "Mga alerto sa emergency at mga kritikal na abiso",
+            "votingPolls": "Pagboto, mga botohan, at pakikipag-ugnayan sa audience",
+            "appointmentReminders": "Mga paalala sa appointment sa malaking sukat",
+            "transactionalSMS": "SMS na transaksyonal na may mataas na dami",
+            "eventNotifications": "Mga abiso at update sa kaganapan"
+          }
+        },
+        "requirements": {
+          "title": "Mga Kinakailangan sa Short Code",
+          "description": "Pag-unawa sa pamumuhunan at proseso para sa mga dedikadong short code",
+          "volume": {
+            "title": "Pangako sa Mataas na Dami",
+            "description": "Minimum na 100K na mensahe bawat buwan upang bigyang-katwiran ang pamumuhunan"
+          },
+          "compliance": {
+            "title": "Mahigpit na Pagsunod",
+            "description": "Pinahusay na mga kinakailangan sa pagsunod at regular na mga audit sa carrier"
+          },
+          "setup": {
+            "title": "Timeline ng Pag-setup",
+            "description": "2-3 linggo para sa pag-apruba ng carrier at pagbibigay ng numero"
+          },
+          "investment": {
+            "title": "Premium na Pamumuhunan",
+            "description": "$1,000-$1,500 buwanang paulit-ulit na gastos para sa dedikadong pagruruta"
+          }
+        },
+        "alternatives": {
+          "title": "Isaalang-alang Muna ang mga Alternatibong Ito",
+          "description": "Para sa karamihan ng mga negosyo, ang mga pagpipiliang ito ay nagbibigay ng mas mahusay na halaga at mas madaling pag-setup",
+          "recommended": {
+            "title": "Inirerekomenda para sa Karamihan ng mga Negosyo",
+            "tollFree": "SMS na Walang Bayad para sa pagkilala sa brand",
+            "tenDlc": "10DLC para sa epektibong marketing sa gastos",
+            "whatsapp": "WhatsApp para sa pandaigdigang abot"
+          },
+          "whenToUpgrade": {
+            "title": "Kailan Mag-upgrade sa Short Code",
+            "volume": "Nagpapadala ng 500K+ na mensahe buwan-buwan",
+            "speed": "Kailangan ng instant na paghahatid para sa mga kampanya na sensitibo sa oras",
+            "brand": "Kritikal ang pagkilala sa brand sa iyong diskarte",
+            "budget": "Mayroong $15K+ na taunang badyet sa marketing sa SMS"
+          }
+        },
+        "cta": {
+          "title": "Handa na para sa Premium na Marketing sa SMS?",
+          "description": "Perpekto ang mga short code para sa mga marketer na may mataas na dami na nangangailangan ng maximum na bilis at deliverability. Talakayin natin kung ito ay tama para sa iyong negosyo.",
+          "primary": "Talakayin ang mga Kinakailangan sa Short Code",
+          "secondary": "Magsimula sa SMS na Walang Bayad",
+          "alternative": "Karamihan sa mga negosyo ay nagsisimula sa aming pagpipilian sa SMS na walang bayad at nag-a-upgrade sa mga short code kapag naabot nila ang mas mataas na mga dami."
+        },
+        "title": "SMS Short Code",
+        "subtitle": "Pagmemensahe sa Enterprise na may Mataas na Dami ng SMS",
+        "description": "Abutin agad ang milyun-milyong mga customer na may premium na pagmemensahe sa SMS ng short code. Perpekto para sa mga kampanya sa marketing, mga abiso, at mga mass communication.",
+        "stats": {
+          "messagesPerSecondValue": "10,000",
+          "messagesPerSecond": "Mga Mensahe/Segundo",
+          "deliveryRateValue": "99.9%",
+          "deliveryRate": "Rate ng Paghahatid",
+          "digitNumbersValue": "5-6 na Digit",
+          "digitNumbers": "Available na mga Numero"
+        },
+        "pricing": {
+          "title": "Pagpepresyo sa Enterprise",
+          "subtitle": "Nasusukat na pagpepresyo para sa mga pangangailangan sa pagmemensahe na may mataas na dami",
+          "setup": {
+            "label": "Bayad sa Pag-setup",
+            "value": "$5,000"
+          },
+          "monthly": {
+            "label": "Buwanang Bayad",
+            "value": "$1,500"
+          },
+          "perMessage": {
+            "label": "Bawat Mensahe",
+            "value": "$0.015"
+          },
+          "note": {
+            "value": "Available ang mga diskwento sa dami para sa 1M+ na mensahe/buwan"
+          }
+        },
+        "testimonial": {
+          "quote": "Binago ng short code SMS ng SeaX ang aming pakikipag-ugnayan sa customer. Naaabot na namin ngayon ang milyun-milyong mga customer agad na may mga rate ng paghahatid na nangunguna sa industriya.",
+          "author": "Michael Rodriguez",
+          "company": "TechCorp Enterprise",
+          "results": "350% na pagtaas sa abot ng kampanya na may 99.8% na mga rate ng paghahatid"
+        },
+        "premiumFeatures": {
+          "title": "Mga Kalamangan ng Premium na Short Code",
+          "description": "Damhin ang kapangyarihan ng mga premium na short code para sa mga komunikasyon sa enterprise",
+          "ultraThroughput": {
+            "title": "Ultra-High Throughput",
+            "description": "Magpadala ng hanggang 10,000 mensahe bawat segundo sa aming premium na imprastraktura at mga pakikipagsosyo sa carrier."
+          },
+          "premiumRoutes": {
+            "title": "Mga Premium na Ruta ng Paghahatid",
+            "description": "Garantisadong priyoridad na paghahatid sa pamamagitan ng mga dedikadong koneksyon sa carrier at premium na pagruruta."
+          },
+          "brandRecognition": {
+            "title": "Pinahusay na Pagkilala sa Brand",
+            "description": "Mga di malilimutang 5-6 na digit na numero na kinikilala at pinagkakatiwalaan ng mga customer para sa iyong mga komunikasyon sa brand."
+          }
+        }
+      },
+      "smsTollFree": {
+        "title": "SMS na Walang Bayad",
+        "subtitle": "Pinagkakatiwalaang SMS sa Negosyo",
+        "description": "Bumuo ng tiwala at pagbutihin ang pakikipag-ugnayan sa mga numero ng SMS na walang bayad. Propesyonal na komunikasyon na kinikilala at tinutugunan ng mga customer.",
+        "seo": {
+          "title": "Mga Numero ng SMS na Walang Bayad | Propesyonal na Pagmemensahe sa Negosyo | SeaX",
+          "description": "Pahusayin ang tiwala ng customer sa mga numero ng SMS na walang bayad. Propesyonal na pagmemensahe sa negosyo na may mas mataas na mga rate ng pagtugon at pinabuting pagkilala sa brand."
+        },
+        "hero": {
+          "title": "Dashboard ng SMS na Walang Bayad",
+          "status": "Aktibo",
+          "phoneNumber": "+1-800-AI-AGENT",
+          "dedicatedNumber": "Ang Iyong Nakatuong Numero na Walang Bayad",
+          "deliveryRateValue": "94.7%",
+          "deliveryRate": "Rate ng Paghahatid",
+          "higherTrustValue": "2.3x",
+          "higherTrust": "Mas Mataas na Rate ng Tiwala",
+          "recentMessages": {
+            "title": "Mga Kamakailang Mensahe",
+            "customerSupport": {
+              "title": "Tugon sa Suporta sa Customer",
+              "details": "Awtomatikong tugon na ipinadala mula sa 1-800-SUPPORT"
+            },
+            "survey": {
+              "title": "Survey sa Kasiyahan ng Customer",
+              "details": "Imbitasyon sa survey na ipinadala na may 78% na rate ng pagtugon"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "94%",
+          "deliveryRate": "Rate ng Paghahatid",
+          "higherTrustValue": "2.3x",
+          "higherTrust": "Mas Mataas na Tiwala",
+          "responseRateValue": "78%",
+          "responseRate": "Rate ng Pagtugon"
+        },
+        "features": {
+          "title": "Mga Kalamangan ng Walang Bayad",
+          "subtitle": "Propesyonal na pagmemensahe na nagtatayo ng tiwala at nag-drive ng pakikipag-ugnayan",
+          "items": {
+            "recognizableNumbers": "Agad na nakikilalang mga numero ng 1-800",
+            "noCharges": "Walang mga singil sa mga tatanggap - libre para sa mga customer",
+            "professionalImage": "Pinahusay na propesyonal na imahe ng brand",
+            "higherTrust": "2.3x na mas mataas na tiwala kumpara sa mga regular na numero",
+            "improvedResponse": "78% na mas mataas na mga rate ng pagtugon",
+            "brandRecognition": "Pinabuting pagkilala at pag-alala sa brand"
+          }
+        },
+        "useCases": {
+          "title": "Perpektong mga Kaso ng Paggamit",
+          "subtitle": "Tamang-tama para sa mga negosyo na nagbibigay-priyoridad sa tiwala at propesyonalismo",
+          "items": {
+            "customerService": "Mga komunikasyon sa serbisyo at suporta sa customer",
+            "appointmentReminders": "Mga paalala at kumpirmasyon sa appointment",
+            "surveys": "Mga survey sa kasiyahan ng customer",
+            "notifications": "Mahalagang mga abiso sa account",
+            "promotions": "Mga propesyonal na kampanya sa promosyon",
+            "alerts": "Mga alerto at update sa serbisyo"
+          }
+        },
+        "pricing": {
+          "title": "Propesyonal na Pagpepresyo",
+          "subtitle": "Transparent na pagpepresyo para sa pagmemensahe sa SMS na walang bayad",
+          "setupLabel": "Bayad sa Pag-setup",
+          "setup": {
+            "label": "Bayad sa Pag-setup",
+            "value": "$99"
+          },
+          "monthlyLabel": "Buwanang Bayad",
+          "monthly": {
+            "label": "Buwanang Bayad",
+            "value": "$29"
+          },
+          "perMessageLabel": "Bawat Mensahe",
+          "perMessage": {
+            "label": "Bawat Mensahe",
+            "value": "$0.04"
+          },
+          "note": "Ang presyo ay para sa USA at Canada. Walang karagdagang mga bayarin sa carrier o mga nakatagong gastos"
+        },
+        "testimonial": {
+          "quote": "Ang tampok na SMS na walang bayad ay makabuluhang nagpabuti sa aming mga rate ng pagtugon ng customer. Mas nagtitiwala ang mga customer sa mga mensahe mula sa aming numero ng 1-800 kaysa sa mga regular na numero.",
+          "author": "Sarah Chen",
+          "company": "HealthCare Plus",
+          "results": "78% na mas mataas na mga rate ng pagtugon at 94% na kasiyahan ng customer"
+        },
+        "trust": {
+          "title": "Bakit Gumagana ang SMS na Walang Bayad",
+          "description": "Bumuo ng tiwala at mag-drive ng pakikipag-ugnayan sa propesyonal na pagmemensahe na walang bayad",
+          "professionalImage": {
+            "title": "Propesyonal na Imahe ng Brand",
+            "description": "Agad na nagpapahiwatig ng propesyonalismo at pagiging lehitimo ang mga numero na walang bayad, na ginagawang mas malamang na makipag-ugnayan ang mga customer sa iyong mga mensahe."
+          },
+          "noCarrierFees": {
+            "title": "Walang Gastos sa mga Customer",
+            "description": "Hindi nagbabayad ang mga customer upang makatanggap ng mga mensahe, na nag-aalis ng isang hadlang sa pakikipag-ugnayan at nagpapabuti ng mga rate ng pagtugon."
+          },
+          "higherResponse": {
+            "title": "Mas Mataas na mga Rate ng Pagtugon",
+            "description": "Ipinapakita ng mga pag-aaral ang 2.3x na mas mataas na tiwala at 78% na mas mahusay na mga rate ng pagtugon kumpara sa mga regular na numero ng telepono."
+          }
+        }
+      },
+      "whatsapp": {
+        "seo": {
+          "title": "Platform API ng Negosyo ng WhatsApp | Solusyon sa Pagmemensahe sa Enterprise | SeaX",
+          "description": "Kumonekta sa 2+ bilyong mga gumagamit ng WhatsApp sa buong mundo. Propesyonal na pagmemensahe sa negosyo na may mayamang media, mga template, at mga awtomatikong daloy ng trabaho para sa pakikipag-ugnayan sa customer."
+        },
+        "hero": {
+          "badge": "Pinakasikat na Channel",
+          "title": {
+            "line1": "Kumonekta sa",
+            "line2": "Platform ng Negosyo ng WhatsApp"
+          },
+          "description": "Abutin ang mahigit 2 bilyong mga gumagamit sa buong mundo gamit ang WhatsApp Business Platform API. Magpadala ng mga mensahe sa mayamang media, i-automate ang suporta sa customer, at bumuo ng mga makabuluhang relasyon sa sukat.",
+          "stats": {
+            "monthlyUsers": "Buwanang mga Gumagamit",
+            "openRate": "Rate ng Pagbubukas",
+            "engagementRate": "Rate ng Pakikipag-ugnayan",
+            "countriesSupported": "Mga Bansang Suportado"
+          },
+          "cta": {
+            "primary": "Simulan ang Libreng Pagsubok",
+            "secondary": "Mag-book ng Demo"
+          },
+          "demo": {
+            "title": "Kampanya sa WhatsApp",
+            "subtitle": "Live na Dashboard ng Pagganap",
+            "templateLabel": "Mensahe ng Template",
+            "message": "Hi! Handa na para sa pickup ang iyong order #12345. Gusto mo bang mag-iskedyul ng isang oras o kailangan ng mga direksyon sa aming tindahan?",
+            "button1": "Mag-iskedyul ng Pickup",
+            "button2": "Kumuha ng mga Direksyon",
+            "openRateValue": "94.8%",
+            "openRateLabel": "Rate ng Pagbubukas",
+            "deliveredValue": "12.3K",
+            "deliveredLabel": "Mga Mensahe na Naihatid"
+          }
+        },
+        "features": {
+          "title": "Bakit Pumili ng Platform ng Negosyo ng WhatsApp?",
+          "subtitle": "Samantalahin ang pinakasikat na platform ng pagmemensahe sa mundo para sa iyong mga komunikasyon sa negosyo",
+          "richMedia": {
+            "title": "Suporta sa Mayamang Media",
+            "description": "Magpadala ng mga imahe, video, dokumento, at mga interactive na pindutan upang lumikha ng mga nakakaengganyong karanasan sa customer."
+          },
+          "globalReach": {
+            "title": "Pandaigdigang Abot",
+            "description": "Kumonekta sa mga customer sa 180+ na mga bansa kung saan bahagi na ng kanilang pang-araw-araw na gawain ang WhatsApp."
+          },
+          "security": {
+            "title": "End-to-End na Seguridad",
+            "description": "Tinitiyak ng built-in na pag-encrypt ang secure na komunikasyon habang pinapanatili ang tiwala ng customer at privacy ng data."
+          },
+          "instantDelivery": {
+            "title": "Instant na Paghahatid",
+            "description": "Agad na inihahatid ang mga mensahe na may mga read receipt at mga kumpirmasyon sa paghahatid para sa mas mahusay na pagsubaybay."
+          },
+          "analytics": {
+            "title": "Advanced na Analytics",
+            "description": "Subaybayan ang pagganap ng mensahe, mga rate ng pakikipag-ugnayan, at mga pakikipag-ugnayan ng customer na may detalyadong mga insight."
+          },
+          "twoWay": {
+            "title": "Two-Way na mga Pag-uusap",
+            "description": "Paganahin ang mga natural na pag-uusap sa mga customer sa pamamagitan ng mga awtomatikong tugon at mga pag-handoff ng ahente ng tao."
+          }
+        },
+        "messageTypes": {
+          "title": "Mga Uri at Kakayahan ng Mensahe",
+          "subtitle": "Pumili mula sa iba't ibang mga format ng mensahe upang epektibong makipag-ugnayan sa mga customer",
+          "template": {
+            "title": "Mga Mensahe ng Template",
+            "description": "Mga pre-approved na template ng mensahe para sa mga abiso, update, at nilalaman sa promosyon.",
+            "feature1": "Mga kumpirmasyon at update sa order",
+            "feature2": "Mga paalala sa appointment",
+            "feature3": "Mga abiso sa pagbabayad",
+            "feature4": "Mga kampanya sa promosyon"
+          },
+          "richMedia": {
+            "title": "Mga Mensahe sa Mayamang Media",
+            "description": "Makipag-ugnayan sa mga customer na may nilalaman ng multimedia kabilang ang mga imahe, video, at dokumento.",
+            "feature1": "Mga imahe at video na may mataas na kalidad",
+            "feature2": "Mga dokumento at catalog ng PDF",
+            "feature3": "Mga mensahe sa audio at mga tala sa boses",
+            "feature4": "Pagbabahagi ng lokasyon"
+          },
+          "interactive": {
+            "title": "Mga Interactive na Mensahe",
+            "description": "Lumikha ng mga nakakaengganyong karanasan na may mga pindutan, listahan, at mabilis na mga tugon para sa mas mahusay na pakikipag-ugnayan sa customer.",
+            "feature1": "Mga pindutan ng mabilis na tugon",
+            "feature2": "Mga pagpipilian sa listahan",
+            "feature3": "Mga pindutan ng call-to-action",
+            "feature4": "Mga catalog ng produkto"
+          }
+        },
+        "useCases": {
+          "title": "Mga Sikat na Kaso ng Paggamit",
+          "subtitle": "Tingnan kung paano ginagamit ng mga negosyo ang WhatsApp upang mag-drive ng paglago at mapabuti ang kasiyahan ng customer",
+          "support": {
+            "title": "Suporta sa Customer",
+            "description": "Magbigay ng instant na suporta sa customer na may mga awtomatikong tugon at tuluy-tuloy na mga pag-handoff ng ahente para sa mga kumplikadong query.",
+            "metrics": "87% na mas mabilis na oras ng paglutas"
+          },
+          "orders": {
+            "title": "Pamamahala ng Order",
+            "description": "Magpadala ng mga kumpirmasyon sa order, mga update sa pagpapadala, at mga abiso sa paghahatid upang mapanatiling may kaalaman ang mga customer sa buong proseso.",
+            "metrics": "95% na rate ng kumpirmasyon sa paghahatid"
+          },
+          "marketing": {
+            "title": "Mga Kampanya sa Marketing",
+            "description": "Maglunsad ng mga naka-target na kampanya sa marketing na may nilalaman ng mayamang media at mga interactive na elemento upang mag-drive ng mga benta at pakikipag-ugnayan.",
+            "metrics": "3.2x na mas mataas na mga rate ng conversion"
+          },
+          "appointments": {
+            "title": "Pag-book ng Appointment",
+            "description": "I-automate ang pag-iiskedyul ng appointment, magpadala ng mga paalala, at pangasiwaan ang mga kahilingan sa pag-reschedule sa pamamagitan ng mga daloy ng pag-uusap.",
+            "metrics": "78% na pagbawas sa mga hindi pagdating"
+          }
+        },
+        "cta": {
+          "title": "Handa nang Kumonekta sa WhatsApp?",
+          "subtitle": "Sumali sa libu-libong negosyo na gumagamit na ng WhatsApp Business Platform API upang palaguin ang kanilang mga relasyon sa customer",
+          "primary": "Simulan ang Libreng Pagsubok",
+          "secondary": "Mag-book ng Demo"
+        }
+      },
+      "voice": {
+        "title": "Mga Kampanya sa Boses ng AI",
+        "subtitle": "Mga Awtomatikong Tawag sa Telepono sa Sukat",
+        "description": "Abutin agad ang mga customer na may mga kampanya sa boses na pinapagana ng AI. Perpekto para sa mga paalala sa appointment, mga survey, mga alerto sa emergency, at personalized na outreach sa customer sa 100+ na mga bansa.",
+        "seoTitle": "Platform ng Automation ng Tawag sa Boses - Mga Kampanya sa Telepono na Pinapagana ng AI | SeaX",
+        "seoDescription": "I-automate ang mga tawag sa telepono sa sukat gamit ang SeaX Voice. Mga kampanya sa boses na pinapagana ng AI, mga paalala sa appointment, mga survey, at outreach sa customer na may mataas na mga rate ng koneksyon sa 100+ na mga bansa.",
+        "hero": {
+          "widget": {
+            "title": "Dashboard ng Boses ng AI",
+            "poweredBy": "Pinapagana ng SeaX",
+            "callsNumber": "24,847",
+            "callsCompletedToday": "mga tawag na nakumpleto ngayon",
+            "connectionRateValue": "87%",
+            "connectionRateLabel": "Rate ng Koneksyon",
+            "countriesValue": "100+",
+            "countriesLabel": "Mga Bansang Suportado",
+            "activeCalls": "Mga Aktibong Tawag",
+            "usPhoneNumber": "+1 (555) 123-4567",
+            "appointmentReminder": "Tawag sa paalala sa appointment",
+            "ukPhoneNumber": "+44 20 7946 0958",
+            "surveyCall": "Survey sa kasiyahan ng customer"
+          }
+        },
+        "stats": {
+          "languagesValue": "25+",
+          "languagesLabel": "Mga Wikang Suportado"
+        },
+        "features": {
+          "title": "Malakas na mga Tampok sa Boses",
+          "subtitle": "Lahat ng kailangan mo para sa matagumpay na mga kampanya sa boses",
+          "items": {
+            "0": "Synthesis ng natural na boses na pinapagana ng AI",
+            "1": "Suporta sa maraming wika (25+ na mga wika)",
+            "2": "Real-time na analytics at pag-uulat ng tawag",
+            "3": "Kakayahan sa interactive na tugon sa boses (IVR)",
+            "4": "Pagtuklas at paghawak ng voicemail",
+            "5": "Pag-record at transkripsyon ng tawag",
+            "6": "Matalinong lohika sa muling pagsubok at pag-iiskedyul",
+            "7": "Pagsunod sa mga regulasyon sa telemarketing",
+            "globalReach": "Pandaigdigang abot na may mga lokal na numero ng telepono sa 180+ na mga bansa",
+            "highQuality": "Malinaw na kristal na kalidad ng boses ng HD na may matalinong pagruruta",
+            "smartDialing": "Matalinong pag-dial na may pinakamainam na timing at pag-iiskedyul ng tawag",
+            "multiLanguage": "Suporta sa maraming wika na may mga boses na parang katutubo",
+            "realTimeAnalytics": "Real-time na analytics ng tawag at pagsubaybay sa pagganap",
+            "complianceReady": "Built-in na pagsunod sa mga regulasyon sa telemarketing"
+          }
+        },
+        "useCases": {
+          "title": "Mga Kaso ng Paggamit sa Kampanya sa Boses",
+          "subtitle": "Mga subok na application para sa automation ng boses",
+          "items": {
+            "0": "Mga paalala at kumpirmasyon sa appointment",
+            "1": "Mga survey sa kasiyahan ng customer",
+            "2": "Mga paalala at koleksyon sa pagbabayad",
+            "3": "Mga alerto at abiso sa emergency",
+            "4": "Mga kumpirmasyon at update sa kaganapan",
+            "5": "Kwalipikasyon at pag-aalaga ng lead",
+            "6": "Pananaliksik sa merkado at pagboto",
+            "7": "Mga abiso sa pagkawala ng serbisyo",
+            "appointmentReminders": "Mga awtomatikong paalala at kumpirmasyon sa appointment",
+            "customerSurveys": "Mga survey sa kasiyahan at feedback ng customer",
+            "salesOutreach": "Outreach sa pagbebenta at mga tawag sa kwalipikasyon ng lead",
+            "paymentReminders": "Mga paalala sa pagbabayad at mga tawag sa koleksyon",
+            "emergencyAlerts": "Mga abiso sa emergency at mga agarang alerto",
+            "eventNotifications": "Mga paalala sa kaganapan at mahahalagang anunsyo"
+          }
+        },
+        "pricing": {
+          "title": "Pagpepresyo ng Kampanya sa Boses",
+          "subtitle": "Pagpepresyo na epektibo sa gastos para sa automation ng boses",
+          "setup": {
+            "label": "Bayad sa Pag-setup",
+            "value": "$199"
+          },
+          "monthly": {
+            "label": "Buwanang Bayad",
+            "value": "$49"
+          },
+          "perMinute": {
+            "label": "Bawat Minuto",
+            "value": "$0.12"
+          },
+          "note": {
+            "value": "Available ang mga diskwento sa dami para sa 10,000+ na tawag/buwan"
+          },
+          "perMessage": {
+            "label": "Bawat Mensahe",
+            "value": "$0.08"
+          }
+        },
+        "testimonial": {
+          "quote": "Binago ng mga kampanya sa boses ng SeaX ang aming mga paalala sa appointment. Nabawasan namin ang mga hindi pagdating ng 70% at makabuluhang napabuti ang kasiyahan ng customer.",
+          "author": "Dr. Emily Rodriguez",
+          "company": "HealthFirst Medical Group",
+          "results": "70% na pagbawas sa mga hindi pagdating at 95% na rate ng kasiyahan ng customer"
+        }
+      }
+    },
+    "solutions": {
+      "leadGeneration": {
+        "seo": {
+          "title": "Solusyon sa Pagbuo ng Lead - SeaX Multi-Channel Outreach",
+          "description": "Bumuo ng mga kwalipikadong lead sa sukat gamit ang solusyon sa pagbuo ng lead sa maraming channel ng SeaX. Mga kampanya sa SMS, WhatsApp, at boses na may mga follow-up na pinapagana ng AI."
+        },
+        "hero": {
+          "title": "Pagbuo ng Lead",
+          "titleHighlight": "sa Sukat",
+          "description": "Bumuo ng mga kwalipikadong lead na may mga kampanya sa maraming channel sa SMS, WhatsApp, at mga tawag sa boses. Tinitiyak ng mga follow-up na pinapagana ng AI na walang pagkakataon na napalampas.",
+          "cta": {
+            "primary": "Simulan ang Pagbuo ng mga Lead",
+            "secondary": "Mag-book ng Demo"
+          }
+        },
+        "features": {
+          "title": "Malakas na mga Tampok sa Pagbuo ng Lead",
+          "subtitle": "Lahat ng kailangan mo upang makuha, maging kwalipikado, at i-convert ang mga lead sa sukat",
+          "targetedOutreach": {
+            "title": "Naka-target na Outreach",
+            "description": "Abutin ang mga tamang prospect na may tumpak na pag-target sa SMS, WhatsApp, at mga tawag sa boses."
+          },
+          "multiChannelCampaigns": {
+            "title": "Mga Kampanya sa Maraming Channel",
+            "description": "Magsagawa ng mga coordinated na kampanya sa SMS, WhatsApp, at boses para sa maximum na epekto."
+          },
+          "aiFollowUps": {
+            "title": "Mga Follow-up na Pinapagana ng AI",
+            "description": "Mga awtomatikong matalinong tugon na nagiging kwalipikado sa mga lead at nag-iiskedyul ng mga pulong 24/7."
+          },
+          "realTimeAnalytics": {
+            "title": "Real-Time na Analytics",
+            "description": "Subaybayan ang pagganap ng kampanya, kalidad ng lead, at mga rate ng conversion sa real-time."
+          },
+          "leadScoring": {
+            "title": "Pagmamarka ng Lead",
+            "description": "Awtomatikong pagmamarka at pag-priyoridad ng lead batay sa pakikipag-ugnayan at mga tugon."
+          },
+          "voiceQualification": {
+            "title": "Kwalipikasyon sa Boses",
+            "description": "Mga tawag sa boses na pinapagana ng AI upang maging kwalipikado ang mga lead at awtomatikong mag-book ng mga appointment."
+          }
+        },
+        "useCases": {
+          "title": "Mga Kaso ng Paggamit sa Pagbuo ng Lead",
+          "subtitle": "Mga subok na diskarte sa mga industriya at uri ng negosyo",
+          "b2bSales": {
+            "title": "Outreach sa Pagbebenta ng B2B",
+            "description": "Bumuo ng mga kwalipikadong lead para sa mga koponan sa pagbebenta ng B2B na may mga naka-target na kampanya sa pagmemensahe.",
+            "stats": "300% na pagtaas sa mga kwalipikadong lead"
+          },
+          "realEstate": {
+            "title": "Pagbuo ng Lead sa Real Estate",
+            "description": "Kumonekta sa mga mamimili at nagbebenta ng ari-arian sa pamamagitan ng mga kampanya sa maraming channel.",
+            "stats": "85% na pagpapabuti sa rate ng pagtugon"
+          },
+          "insurance": {
+            "title": "Kwalipikasyon ng Lead sa Seguro",
+            "description": "Maging kwalipikado ang mga prospect sa seguro na may mga awtomatikong follow-up at pag-book ng appointment.",
+            "stats": "60% na pagbawas sa oras ng kwalipikasyon"
+          },
+          "eventRegistration": {
+            "title": "Pagpaparehistro sa Kaganapan",
+            "description": "Mag-drive ng mga pagpaparehistro sa kaganapan na may mga naka-target na imbitasyon at mga pagkakasunud-sunod ng follow-up.",
+            "stats": "200% na pagtaas sa mga pagpaparehistro"
+          }
+        },
+        "stats": {
+          "title": "Mga Subok na Resulta",
+          "subtitle": "Tingnan kung ano ang nakamit ng aming mga kliyente sa SeaX Lead Generation",
+          "qualifiedLeads": {
+            "value": "5x",
+            "label": "Mas Maraming Kwalipikadong Lead"
+          },
+          "responseRate": {
+            "value": "85%",
+            "label": "Rate ng Pagtugon"
+          },
+          "timeSavings": {
+            "value": "60%",
+            "label": "Pagtitipid sa Oras"
+          },
+          "roiIncrease": {
+            "value": "300%",
+            "label": "Pagtaas ng ROI"
+          }
+        },
+        "cta": {
+          "title": "Handa nang Palakihin ang Iyong Pagbuo ng Lead?",
+          "subtitle": "Sumali sa libu-libong negosyo na bumubuo ng mga kwalipikadong lead sa SeaX",
+          "primary": "Mag-sign Up Ngayon",
+          "secondary": "Mag-book ng Demo"
+        }
+      },
+      "marketingAutomation": {
+        "seo": {
+          "title": "Platform ng Automation ng Marketing - SeaX Multi-Channel Automation",
+          "description": "I-automate ang iyong mga kampanya sa marketing sa SMS, WhatsApp, at mga tawag sa boses. Mga advanced na daloy ng trabaho, pagse-segment ng audience, at analytics ng pagganap."
+        },
+        "hero": {
+          "title": {
+            "main": "Automation ng Marketing",
+            "highlight": "Na Gumagana"
+          },
+          "description": "I-automate ang iyong mga kampanya sa marketing sa SMS, WhatsApp, at mga tawag sa boses. Lumikha ng mga sopistikadong daloy ng trabaho na nag-aalaga sa mga lead at nag-drive ng mga conversion 24/7.",
+          "cta": {
+            "primary": "Simulan ang Pag-automate",
+            "secondary": "Tingnan ang Demo"
+          }
+        },
+        "features": {
+          "title": "Malakas na mga Tampok sa Automation",
+          "subtitle": "Bumuo ng mga sopistikadong kampanya na awtomatikong tumatakbo at naghahatid ng mga resulta",
+          "items[0]": {
+            "title": "Mga Awtomatikong Daloy ng Trabaho",
+            "description": "Lumikha ng mga kumplikadong kampanya sa maraming hakbang na nagti-trigger batay sa pag-uugali at mga tugon ng customer."
+          },
+          "items[1]": {
+            "title": "Matalinong Timing",
+            "description": "Magpadala ng mga mensahe sa pinakamainam na mga oras batay sa timezone ng customer at mga pattern ng pakikipag-ugnayan."
+          },
+          "items[2]": {
+            "title": "Pagse-segment ng Audience",
+            "description": "I-target ang mga partikular na segment ng customer na may personalized na pagmemensahe sa lahat ng channel."
+          },
+          "items[3]": {
+            "title": "Analytics sa Pagganap",
+            "description": "Subaybayan ang mga rate ng pakikipag-ugnayan, mga conversion, at ROI na may detalyadong analytics ng kampanya."
+          },
+          "items[4]": {
+            "title": "Mga Pagkakasunud-sunod sa Maraming Channel",
+            "description": "I-orkestra ang mga kampanya sa SMS, WhatsApp, at mga tawag sa boses para sa maximum na abot."
+          },
+          "items[5]": {
+            "title": "Pagsubok sa A/B",
+            "description": "Subukan ang iba't ibang mga mensahe, timing, at mga channel upang i-optimize ang pagganap ng kampanya."
+          }
+        },
+        "automationTypes": {
+          "title": "Mga Daloy ng Trabaho sa Automation",
+          "subtitle": "Mga pre-built na pagkakasunud-sunod ng automation para sa mga karaniwang sitwasyon sa marketing",
+          "items[0]": {
+            "title": "Serye ng Maligayang Pagdating",
+            "description": "Awtomatikong i-onboard ang mga bagong customer na may mga personalized na pagkakasunud-sunod ng maligayang pagdating.",
+            "example": "Maligayang pagdating sa SMS → Impormasyon sa produkto → Espesyal na alok → Kahilingan sa feedback"
+          },
+          "items[1]": {
+            "title": "Pagbawi ng Inabandunang Cart",
+            "description": "Muling makipag-ugnayan sa mga customer na nag-iwan ng mga item sa kanilang cart na may mga naka-target na paalala.",
+            "example": "Paalala sa cart → Limitadong-oras na diskwento → Mga rekomendasyon sa produkto"
+          },
+          "items[2]": {
+            "title": "Lifecycle ng Customer",
+            "description": "Gabayan ang mga customer sa kanilang paglalakbay na may mga awtomatikong touchpoint.",
+            "example": "Kumpirmasyon sa pagbili → Mga tip sa paggamit → Mga pagkakataon sa upselling → Mga gantimpala sa katapatan"
+          },
+          "items[3]": {
+            "title": "Mga Kampanya sa Muling Pakikipag-ugnayan",
+            "description": "Bawiin ang mga hindi aktibong customer na may nakakahimok na mga pagkakasunud-sunod ng muling pakikipag-ugnayan.",
+            "example": "Mensahe na miss ka na namin → Eksklusibong alok → Mga update sa produkto → Insentibo sa pagbabalik"
+          },
+          "exampleFlowLabel": "Halimbawang Daloy:"
+        },
+        "stats": {
+          "title": "Mga Resulta ng Automation",
+          "subtitle": "Tingnan ang epekto ng automation ng marketing sa iyong negosyo",
+          "items[0]": {
+            "value": "10x",
+            "label": "Mas Mahusay"
+          },
+          "items[1]": {
+            "value": "95%",
+            "label": "Rate ng Pakikipag-ugnayan"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Pagtitipid sa Oras"
+          },
+          "items[3]": {
+            "value": "400%",
+            "label": "Pagtaas ng ROI"
+          }
+        },
+        "cta": {
+          "title": "Handa nang I-automate ang Iyong Marketing?",
+          "description": "Sumali sa libu-libong negosyo na nag-i-scale ng kanilang marketing sa SeaX automation",
+          "primary": "Mag-sign Up Ngayon",
+          "secondary": "Mag-book ng Demo"
+        }
+      },
+      "customerEngagement": {
+        "seo": {
+          "title": "Pakikipag-ugnayan sa Customer - Platform ng Komunikasyon ng SeaX",
+          "description": "Bumuo ng mas matibay na mga relasyon sa customer na may personalized na pakikipag-ugnayan sa maraming channel sa SMS, WhatsApp, at mga tawag sa boses."
+        },
+        "hero": {
+          "title": {
+            "main": "Pakikipag-ugnayan sa Customer",
+            "highlight": "Na Nagtatayo ng Katapatan"
+          },
+          "description": "Bumuo ng mas matibay na mga relasyon sa customer na may personalized na pakikipag-ugnayan sa maraming channel sa SMS, WhatsApp, at mga tawag sa boses. Gawing isang pagkakataon ang bawat pakikipag-ugnayan.",
+          "cta": {
+            "primary": "Makipag-ugnayan sa mga Customer",
+            "secondary": "Mag-book ng Demo"
+          }
+        },
+        "features": {
+          "title": "Mga Tampok sa Pakikipag-ugnayan",
+          "subtitle": "Lahat ng kailangan mo upang bumuo ng mga makabuluhang relasyon sa customer",
+          "items[0]": {
+            "title": "Advanced na Pag-profile ng Customer",
+            "description": "Lumikha ng mga pinayamang profile ng customer para sa mas personalized na pakikipag-ugnayan."
+          },
+          "items[1]": {
+            "title": "Pagmemensahe sa Maraming Channel",
+            "description": "Makipag-ugnayan sa mga customer sa SMS, WhatsApp, at pagmemensahe sa in-app."
+          },
+          "items[2]": {
+            "title": "Pagsusuri ng Sentimyento",
+            "description": "Unawain ang mga sentimyento ng customer at ayusin ang mga komunikasyon nang naaayon."
+          },
+          "items[3]": {
+            "title": "Analytics sa Pag-uugali",
+            "description": "Subaybayan at suriin ang pag-uugali ng customer upang mapabuti ang mga diskarte sa pakikipag-ugnayan."
+          },
+          "items[4]": {
+            "title": "Mga Tool sa Direktang Marketing",
+            "description": "Magpatakbo ng mga naka-target na kampanya nang may katumpakan, batay sa data ng customer."
+          },
+          "items[5]": {
+            "title": "Real-time na Pakikipag-ugnayan",
+            "description": "Makipag-ugnayan sa mga customer kapag ito ay pinakamahalaga, na may mga real-time na trigger at komunikasyon."
+          }
+        },
+        "useCases": {
+          "title": "Mga Kaso ng Paggamit sa Pakikipag-ugnayan",
+          "subtitle": "Mga diskarte sa pakikipag-ugnayan sa customer sa tunay na mundo sa mga industriya",
+          "items[0]": {
+            "title": "Pakikipag-ugnayan sa E-commerce",
+            "description": "Taasan ang paulit-ulit na negosyo at pagpapanatili ng customer sa pamamagitan ng mga personalized na promosyon.",
+            "stats": "20% na pagtaas sa mga paulit-ulit na pagbili"
+          },
+          "items[1]": {
+            "title": "Mga Alerto sa mga Serbisyo sa Pananalapi",
+            "description": "Panatilihing may kaalaman ang mga kliyente sa mga aktibidad sa account na may mga awtomatikong alerto at update.",
+            "stats": "80% na rate ng pakikipag-ugnayan sa mga alerto"
+          },
+          "items[2]": {
+            "title": "Paglalakbay at Pagtanggap ng Bisita",
+            "description": "Pahusayin ang karanasan ng panauhin na may mga update bago dumating at mga personalized na itineraryo.",
+            "stats": "50% na pagbawas sa mga katanungan ng customer"
+          },
+          "items[3]": {
+            "title": "Mga Programa sa Katapatan sa Tingi",
+            "description": "Palakasin ang katapatan na may mga personalized na gantimpala at alok batay sa kasaysayan ng pagbili.",
+            "stats": "25% na pagtaas sa mga miyembro ng programa sa katapatan"
+          }
+        },
+        "stats": {
+          "title": "Mga Resulta ng Pakikipag-ugnayan",
+          "subtitle": "Tingnan ang epekto ng pinahusay na pakikipag-ugnayan sa customer",
+          "items[0]": {
+            "value": "40%",
+            "label": "Mas Mataas na Pakikipag-ugnayan"
+          },
+          "items[1]": {
+            "value": "85%",
+            "label": "Kasiyahan ng Customer"
+          },
+          "items[2]": {
+            "value": "60%",
+            "label": "Rate ng Paulit-ulit na Pagbili"
+          },
+          "items[3]": {
+            "value": "3x",
+            "label": "Lifetime Value ng Customer"
+          }
+        },
+        "cta": {
+          "title": "Handa nang Bumuo ng Mas Matibay na mga Relasyon sa Customer?",
+          "description": "Sumali sa libu-libong negosyo na gumagamit ng SeaX upang makipag-ugnayan sa mga customer at bumuo ng pangmatagalang katapatan",
+          "primary": "Magsimula Ngayon"
+        }
+      },
+      "appointmentReminders": {
+        "seo": {
+          "title": "Mga Paalala sa Appointment - SeaX Automated Scheduling",
+          "description": "Bawasan ang mga hindi pagdating at pagbutihin ang pagdalo sa mga awtomatikong paalala sa appointment sa pamamagitan ng SMS, WhatsApp, at mga tawag sa boses. Matalinong pag-iiskedyul at sistema ng kumpirmasyon."
+        },
+        "hero": {
+          "title": {
+            "main": "Mga Paalala sa Appointment",
+            "highlight": "Na Gumagana"
+          },
+          "description": "Bawasan ang mga hindi pagdating at pagbutihin ang pagdalo sa mga awtomatikong paalala sa appointment sa pamamagitan ng SMS, WhatsApp, at mga tawag sa boses. Matalinong pag-iiskedyul na may two-way na komunikasyon.",
+          "cta": {
+            "primary": "Simulan ang Pagbabawas ng mga Hindi Pagdating",
+            "secondary": "Mag-book ng Demo"
+          }
+        },
+        "features": {
+          "title": "Malakas na mga Tampok sa Paalala",
+          "subtitle": "Lahat ng kailangan mo upang mapanatili ang mga appointment sa track at bawasan ang mga hindi pagdating",
+          "items[0]": {
+            "title": "Matalinong Pag-iiskedyul",
+            "description": "Awtomatikong mag-iskedyul ng mga appointment at magpadala ng mga kumpirmasyon sa SMS, WhatsApp, at mga tawag sa boses."
+          },
+          "items[1]": {
+            "title": "Mga Paalala sa Maraming Yugto",
+            "description": "Magpadala ng mga personalized na paalala sa pinakamainam na mga agwat - 24 na oras, 1 oras, at 15 minuto bago ang mga appointment."
+          },
+          "items[2]": {
+            "title": "Two-Way na Komunikasyon",
+            "description": "Payagan ang mga customer na kumpirmahin, i-reschedule, o kanselahin ang mga appointment nang direkta sa pamamagitan ng SMS o WhatsApp."
+          },
+          "items[3]": {
+            "title": "Mga Abiso sa Kawani",
+            "description": "Panatilihing may kaalaman ang iyong koponan na may mga real-time na update sa mga pagbabago at kumpirmasyon sa appointment."
+          },
+          "items[4]": {
+            "title": "Mga Pasadyang Alerto",
+            "description": "Magtakda ng mga pasadyang iskedyul at mensahe ng paalala para sa iba't ibang uri at tagal ng appointment."
+          },
+          "items[5]": {
+            "title": "Analytics at Mga Insight",
+            "description": "Subaybayan ang mga rate ng hindi pagdating, mga rate ng kumpirmasyon, at i-optimize ang iyong diskarte sa paalala na may detalyadong analytics."
+          }
+        },
+        "useCases": {
+          "title": "Mga Kaso ng Paggamit sa Industriya",
+          "subtitle": "Mga subok na diskarte sa paalala sa appointment sa iba't ibang mga industriya",
+          "items[0]": {
+            "title": "Mga Kasanayan sa Pangangalagang Pangkalusugan",
+            "description": "Bawasan ang mga hindi pagdating para sa mga medikal na appointment na may mga awtomatikong paalala at madaling mga pagpipilian sa pag-reschedule.",
+            "stats": "40% na pagbawas sa mga hindi pagdating"
+          },
+          "items[1]": {
+            "title": "Kagandahan at Kaayusan",
+            "description": "Panatilihin ang mga appointment sa salon at spa sa track na may mga personalized na paalala at mga kahilingan sa kumpirmasyon.",
+            "stats": "85% na rate ng kumpirmasyon"
+          },
+          "items[2]": {
+            "title": "Mga Propesyonal na Serbisyo",
+            "description": "Tiyakin na ang mga konsultasyon at pulong ay nangyayari sa oras na may mga pagkakasunud-sunod ng paalala sa maraming channel.",
+            "stats": "90% na rate ng pagdalo"
+          },
+          "items[3]": {
+            "title": "Mga Serbisyo sa Automotive",
+            "description": "Awtomatikong paalalahanan ang mga customer ng mga appointment sa serbisyo at mga iskedyul ng pagpapanatili.",
+            "stats": "60% na pagtaas sa mga paulit-ulit na pagbisita"
+          }
+        },
+        "stats": {
+          "title": "Mga Subok na Resulta",
+          "subtitle": "Tingnan kung ano ang nakamit ng aming mga kliyente sa SeaX Appointment Reminders",
+          "items[0]": {
+            "value": "40%",
+            "label": "Pagbawas sa mga Hindi Pagdating"
+          },
+          "items[1]": {
+            "value": "90%",
+            "label": "Rate ng Pagdalo"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Pagtitipid sa Oras"
+          },
+          "items[3]": {
+            "value": "95%",
+            "label": "Kasiyahan ng Customer"
+          }
+        },
+        "cta": {
+          "title": "Handa nang Bawasan ang mga Hindi Pagdating at Pagbutihin ang Pagdalo?",
+          "description": "Sumali sa libu-libong negosyo na nagpapabuti ng pagdalo sa appointment sa SeaX",
+          "primary": "Magsimula Ngayon"
+        }
+      },
+      "emergencyAlerts": {
+        "seo": {
+          "title": "Mga Alerto sa Emergency - Sistema ng Abiso ng SeaX",
+          "description": "Magpadala ng mga instant na alerto sa emergency na may real-time na komunikasyon sa SMS, boses, at WhatsApp. Tiyakin ang paghahatid ng mensahe sa mga kritikal na sitwasyon."
+        },
+        "hero": {
+          "title": {
+            "main": "Mga Alerto sa Emergency",
+            "highlight": "Na Nagliligtas ng mga Buhay"
+          },
+          "description": "Magpadala ng mga instant na alerto sa emergency na may real-time na komunikasyon sa SMS, boses, at WhatsApp. Tiyakin ang paghahatid ng mensahe sa mga kritikal na sitwasyon kapag mahalaga ang bawat segundo.",
+          "cta": {
+            "primary": "Simulan ang Pagpapadala ng mga Alerto",
+            "secondary": "Mag-book ng Demo sa Kaligtasan"
+          }
+        },
+        "features": {
+          "title": "Mga Tampok sa Kritikal na Alerto",
+          "subtitle": "Lahat ng kailangan mo para sa epektibo at maaasahang mga komunikasyon sa emergency",
+          "items[0]": {
+            "title": "Mga Instant na Broadcast sa Emergency",
+            "description": "Magpadala ng mga kritikal na alerto sa libu-libong mga tatanggap nang sabay-sabay sa SMS, boses, at WhatsApp."
+          },
+          "items[1]": {
+            "title": "Paghahatid na Sensitibo sa Oras",
+            "description": "Tinitiyak ng priyoridad na paghahatid ng mensahe na agad na nakakarating sa mga tatanggap ang mga komunikasyon sa emergency."
+          },
+          "items[2]": {
+            "title": "Mga Naka-target na Grupo ng Tatanggap",
+            "description": "Lumikha at pamahalaan ang mga partikular na grupo para sa iba't ibang uri ng mga emergency at lokasyon."
+          },
+          "items[3]": {
+            "title": "Maaasahang Imprastraktura",
+            "description": "Binuo sa imprastraktura sa antas ng carrier upang matiyak na nakakarating ang mga mensahe kapag ito ay pinakamahalaga."
+          },
+          "items[4]": {
+            "title": "Mga Alerto sa Maraming Channel",
+            "description": "Abutin ang mga tao sa pamamagitan ng kanilang gustong mga channel ng komunikasyon para sa maximum na mga rate ng pagtugon."
+          },
+          "items[5]": {
+            "title": "Two-Way na Komunikasyon",
+            "description": "Makatanggap ng mga kumpirmasyon at tugon mula sa mga tatanggap upang subaybayan ang pagiging epektibo ng alerto."
+          }
+        },
+        "useCases": {
+          "title": "Mga Kaso ng Paggamit sa Alerto sa Emergency",
+          "subtitle": "Mga application sa tunay na mundo upang matiyak ang kaligtasan at komunikasyon",
+          "items[0]": {
+            "title": "Tugon sa Emergency ng Korporasyon",
+            "description": "Abisuhan ang mga empleyado tungkol sa mga banta sa seguridad, mga paglikas, o mga kritikal na pagkagambala sa negosyo.",
+            "stats": "99.9% na rate ng tagumpay sa paghahatid"
+          },
+          "items[1]": {
+            "title": "Mga Alerto sa Kaligtasan sa Paaralan",
+            "description": "Agad na ipaalam sa mga magulang, mag-aaral, at kawani ang tungkol sa mga pagsasara ng paaralan o mga insidente sa kaligtasan.",
+            "stats": "30-segundong average na oras ng paghahatid"
+          },
+          "items[2]": {
+            "title": "Mga Kritikal na Alerto sa Pangangalagang Pangkalusugan",
+            "description": "Alertuhan ang mga medikal na kawani tungkol sa mga sitwasyon sa code, mga emergency ng pasyente, o mga insidente sa pasilidad.",
+            "stats": "95% na rate ng pagtugon sa loob ng 5 minuto"
+          },
+          "items[3]": {
+            "title": "Mga Abiso sa Pampublikong Kaligtasan",
+            "description": "Babalaan ang mga komunidad tungkol sa mga natural na sakuna, mga mapanganib na kondisyon, o mga banta sa pampublikong kaligtasan.",
+            "stats": "10,000+ na mga tatanggap bawat minuto"
+          }
+        },
+        "stats": {
+          "title": "Mga Subok na Tugon sa Emergency",
+          "subtitle": "Maghatid ng mga mensahe nang maaasahan kapag mahalaga ang bawat segundo",
+          "items[0]": {
+            "value": "99.9%",
+            "label": "Rate ng Tagumpay sa Paghahatid"
+          },
+          "items[1]": {
+            "value": "30 seg",
+            "label": "Avg na Oras ng Paghahatid"
+          },
+          "items[2]": {
+            "value": "95%",
+            "label": "Tugon sa Loob ng 5 min"
+          },
+          "items[3]": {
+            "value": "10,000+",
+            "label": "Mga Mensahe bawat Minuto"
+          }
+        },
+        "cta": {
+          "title": "Handa nang Tiyakin ang Kaligtasan at Komunikasyon?",
+          "description": "Sumali sa libu-libong organisasyon na gumagamit ng SeaX upang matiyak ang kaligtasan at epektibong makipag-usap sa panahon ng mga emergency.",
+          "primary": "Magsimula Ngayon"
+        }
+      }
+    }
+  }
+}

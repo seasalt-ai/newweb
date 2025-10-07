@@ -1,0 +1,1884 @@
+{
+  "seavoice": {
+    "pages": {
+      "solutions": {
+        "inbound": {
+          "ivrReplacement": {
+            "hero": {
+              "title": "Kapalit ng IVR na may Natural na Wika",
+              "subtitle": "Tanggalin ang mga nakakainis na puno ng telepono at pag-navigate sa menu. Hayaan ang mga customer na magsalita nang natural upang ilarawan ang kanilang mga pangangailangan at agad na makakonekta sa tamang lugar.",
+              "cta": "Palitan ang Iyong IVR Ngayon"
+            },
+            "features": {
+              "title": "Mga Tampok ng Modernong Interface ng Boses",
+              "subtitle": "Baguhin ang mga luma na sistema ng telepono na may matalinong pag-uusap",
+              "naturalLanguage": {
+                "title": "Natural na Pag-unawa sa Wika",
+                "description": "Palitan ang mga nakakalitong pagpipilian sa menu ng natural na pag-uusap na nakakaunawa kung ano talaga ang gusto ng mga customer.",
+                "benefit1": "Interface ng pag-uusap",
+                "benefit2": "Pagkilala sa layunin",
+                "benefit3": "Kamalayan sa konteksto"
+              },
+              "instantResolution": {
+                "title": "Instant na Paglutas",
+                "description": "Agad na lutasin ang mga katanungan ng customer nang hindi nagna-navigate sa maraming mga antas ng menu.",
+                "benefit1": "Zero na oras ng paghihintay",
+                "benefit2": "Mga direktang sagot",
+                "benefit3": "Agad na tulong"
+              },
+              "improvedExperience": {
+                "title": "Pinabuting Karanasan",
+                "description": "Baguhin ang mga nakakainis na puno ng telepono sa mga kaaya-aya, mahusay na pakikipag-ugnayan sa customer.",
+                "benefit1": "Mas mataas na kasiyahan",
+                "benefit2": "Nabawasang pag-abandona",
+                "benefit3": "Mas mahusay na accessibility"
+              }
+            },
+            "comparison": {
+              "title": "Tradisyonal na IVR kumpara sa Natural na Wika",
+              "subtitle": "Tingnan ang malaking pagkakaiba sa karanasan ng customer",
+              "customerExperience": {
+                "aspect": "Karanasan ng Customer",
+                "traditional": "Pindutin ang 1 para sa mga benta, 2 para sa suporta...",
+                "modern": "Kailangan ko ng tulong sa aking order —— Agad na nakakonekta",
+                "improvement": "85% na pagtaas sa kasiyahan"
+              },
+              "timeToResolution": {
+                "aspect": "Oras sa Paglutas",
+                "traditional": "3-5 minuto na nagna-navigate sa mga menu",
+                "modern": "30 segundo upang maabot ang tamang departamento",
+                "improvement": "80% na pagbawas sa oras"
+              },
+              "callAbandonment": {
+                "aspect": "Pag-abandona sa Tawag",
+                "traditional": "25% na nag-aabandona sa panahon ng pag-navigate sa menu",
+                "modern": "5% na rate ng pag-abandona",
+                "improvement": "80% na pagbawas"
+              },
+              "accessibility": {
+                "aspect": "Accessibility",
+                "traditional": "Mahirap para sa mga matatanda/may kapansanan na mga gumagamit",
+                "modern": "Natural na pagsasalita para sa lahat ng mga gumagamit",
+                "improvement": "100% na accessibility"
+              },
+              "traditionalIvr": "Tradisyonal na IVR",
+              "naturalLanguage": "Natural na Wika"
+            },
+            "benefits": {
+              "title": "Mga Nasusukat na Pagpapabuti",
+              "subtitle": "Mga tunay na resulta mula sa pagpapalit ng mga tradisyonal na sistema ng IVR",
+              "satisfaction": {
+                "metric": "85%",
+                "description": "Pagtaas sa kasiyahan ng customer"
+              },
+              "abandonment": {
+                "metric": "80%",
+                "description": "Pagbawas sa pag-abandona sa tawag"
+              },
+              "resolution": {
+                "metric": "70%",
+                "description": "Mas mabilis na paglutas ng tawag"
+              },
+              "misdirected": {
+                "metric": "90%",
+                "description": "Pagbawas sa mga maling direksyon na tawag"
+              }
+            },
+            "cta": {
+              "title": "Handa nang I-modernize ang Iyong Sistema ng Telepono?",
+              "subtitle": "Palitan ang mga nakakainis na puno ng telepono ng natural na pag-uusap na gusto ng mga customer",
+              "startTrial": "Simulan ang Libreng Pagsubok",
+              "seeDemo": "Tingnan ang Demo"
+            },
+            "title": "Kapalit ng IVR",
+            "description": "Palitan ang mga luma na menu ng telepono ng natural na pag-unawa sa wika.",
+            "benefit1": "Mga natural na pag-uusap",
+            "benefit2": "Mas mahusay na UX",
+            "benefit3": "Mas mataas na kasiyahan"
+          },
+          "technicalSupport": {
+            "hero": {
+              "title": "Automation ng Teknikal na Suporta",
+              "description": "Magbigay ng instant na teknikal na suporta gamit ang AI na maaaring mag-diagnose ng mga problema, gabayan ang mga customer sa mga solusyon, at i-escalate ang mga kumplikadong isyu sa mga dalubhasa ng tao kapag kinakailangan.",
+              "primaryCta": "I-automate ang Teknikal na Suporta"
+            },
+            "features": {
+              "title": "Matalinong Teknikal na Suporta",
+              "description": "Advanced na AI na nakakaunawa sa mga teknikal na problema at nagbibigay ng mga solusyon",
+              "automatedTroubleshooting": {
+                "title": "Awtomatikong Pag-troubleshoot",
+                "description": "Gabayan ang mga customer sa mga hakbang-hakbang na solusyon para sa mga karaniwang teknikal na isyu.",
+                "benefits": {
+                  "0": "Paglutas ng self-service",
+                  "1": "Mga instant na diagnostic",
+                  "2": "Interactive na gabay"
+                }
+              },
+              "intelligentEscalation": {
+                "title": "Matalinong Pag-escalate",
+                "description": "Awtomatikong i-escalate ang mga kumplikadong isyu sa mga tekniko ng tao na may buong konteksto.",
+                "benefits": {
+                  "0": "Matalinong pagruruta",
+                  "1": "Pagpapanatili ng konteksto",
+                  "2": "Walang putol na pag-handoff"
+                }
+              },
+              "multiPlatformSupport": {
+                "title": "Suporta sa Maraming Platform",
+                "description": "Magbigay ng teknikal na tulong sa iba't ibang mga aparato, software, at platform.",
+                "benefits": {
+                  "0": "Universal na compatibility",
+                  "1": "Kadalubhasaan sa cross-platform",
+                  "2": "Komprehensibong saklaw"
+                }
+              }
+            },
+            "capabilities": {
+              "title": "Komprehensibong Saklaw ng Suporta",
+              "description": "Pangasiwaan ang isang malawak na hanay ng mga teknikal na isyu sa lahat ng mga platform",
+              "hardwareIssues": {
+                "category": "Mga Isyu sa Hardware",
+                "description": "I-diagnose at lutasin ang mga problema na may kaugnayan sa hardware",
+                "examples": {
+                  "0": "Pagkakakonekta ng aparato",
+                  "1": "Mga isyu sa pagganap",
+                  "2": "Pag-setup ng hardware"
+                }
+              },
+              "softwareTroubleshooting": {
+                "category": "Pag-troubleshoot ng Software",
+                "description": "Tulong sa pag-install at pagsasaayos ng software",
+                "examples": {
+                  "0": "Pag-install ng app",
+                  "1": "Pagsasaayos ng mga setting",
+                  "2": "Tulong sa pag-update"
+                }
+              },
+              "networkProblems": {
+                "category": "Mga Problema sa Network",
+                "description": "Lutasin ang mga isyu sa koneksyon sa internet at network",
+                "examples": {
+                  "0": "Pag-setup ng WiFi",
+                  "1": "Mga problema sa koneksyon",
+                  "2": "Pag-optimize ng bilis"
+                }
+              },
+              "accountSecurity": {
+                "category": "Account at Seguridad",
+                "description": "Tumulong sa pag-access sa account at mga alalahanin sa seguridad",
+                "examples": {
+                  "0": "Pag-reset ng password",
+                  "1": "Pagbawi ng account",
+                  "2": "Mga setting ng seguridad"
+                }
+              }
+            },
+            "process": {
+              "title": "Proseso ng Pag-troubleshoot ng AI",
+              "description": "Sistematikong diskarte sa pag-diagnose at paglutas ng mga teknikal na isyu",
+              "steps": {
+                "issueIdentification": {
+                  "title": "Pagtukoy sa Isyu",
+                  "description": "Nakikinig ang AI sa paglalarawan ng problema at nagtatanong ng mga naglilinaw na tanong"
+                },
+                "diagnosticAnalysis": {
+                  "title": "Pagsusuri sa Diagnostic",
+                  "description": "Sinusuri ng system ang mga sintomas at tinutukoy ang mga potensyal na sanhi"
+                },
+                "solutionGuidance": {
+                  "title": "Gabay sa Solusyon",
+                  "description": "Nagbibigay ng mga hakbang-hakbang na tagubilin upang malutas ang isyu"
+                },
+                "verificationFollowup": {
+                  "title": "Pag-verify at Pag-follow-up",
+                  "description": "Kinukumpirma ang paglutas at nag-aalok ng karagdagang tulong kung kinakailangan"
+                }
+              }
+            },
+            "benefits": {
+              "title": "Mga Resulta sa Kahusayan sa Suporta",
+              "description": "Mga nasusukat na pagpapabuti sa mga operasyon sa teknikal na suporta"
+            },
+            "metrics": {
+              "resolution": {
+                "description": "Mga isyu na nalutas nang walang ahente ng tao"
+              },
+              "reductionTime": {
+                "description": "Pagbawas sa average na oras ng paglutas"
+              },
+              "satisfaction": {
+                "description": "Kasiyahan ng customer sa suporta ng AI"
+              },
+              "availability": {
+                "description": "Availability ng teknikal na suporta"
+              }
+            },
+            "cta": {
+              "title": "Handa nang I-automate ang Teknikal na Suporta?",
+              "description": "Magbigay ng instant, matalinong teknikal na tulong na mas mabilis na lumulutas ng mga isyu",
+              "primaryButton": "Simulan ang Libreng Pagsubok",
+              "secondaryButton": "Tingnan ang Demo"
+            },
+            "title": "Teknikal na Suporta",
+            "description": "I-automate ang pag-troubleshoot at gabayan ang mga gumagamit sa mga teknikal na isyu.",
+            "benefit1": "Mga solusyon sa self-service",
+            "benefit2": "Mas mabilis na paglutas",
+            "benefit3": "Pagtitipid sa gastos"
+          },
+          "orderTracking": {
+            "hero": {
+              "title": "Katayuan at Pagsubaybay ng Order",
+              "subtitle": "Hayaan ang mga customer na agad na suriin ang katayuan ng kanilang order, subaybayan ang mga padala, at makakuha ng mga update sa paghahatid sa pamamagitan ng mga natural na pag-uusap sa boses. Bawasan ang mga tawag sa suporta habang pinapabuti ang kasiyahan ng customer.",
+              "cta": "Paganahin ang Pagsubaybay sa Order"
+            },
+            "features": {
+              "title": "Komprehensibong Pagsubaybay sa Order",
+              "subtitle": "Kumpletong visibility sa katayuan ng order at pag-unlad ng paghahatid",
+              "realTimeStatus": {
+                "title": "Real-Time na Katayuan ng Order",
+                "description": "Agad na magbigay sa mga customer ng napapanahong impormasyon tungkol sa kanilang mga order at padala.",
+                "benefits": {
+                  "liveTracking": "Mga live na update sa pagsubaybay",
+                  "deliveryEstimates": "Mga pagtatantya sa paghahatid",
+                  "statusNotifications": "Mga abiso sa katayuan"
+                }
+              },
+              "locationTracking": {
+                "title": "Pagsubaybay sa Lokasyon",
+                "description": "Ibahagi ang tumpak na impormasyon sa lokasyon at pag-unlad ng paghahatid sa mga customer.",
+                "benefits": {
+                  "gpsTracking": "Pagsubaybay sa GPS",
+                  "routeOptimization": "Pag-optimize ng ruta",
+                  "deliveryMapping": "Pagmamapa ng paghahatid"
+                }
+              },
+              "proactiveUpdates": {
+                "title": "Mga Maagap na Update",
+                "description": "Awtomatikong abisuhan ang mga customer ng mga pagkaantala, pagbabago, o mga kumpirmasyon sa paghahatid.",
+                "benefits": {
+                  "delayNotifications": "Mga abiso sa pagkaantala",
+                  "scheduleChanges": "Mga pagbabago sa iskedyul",
+                  "deliveryConfirmations": "Mga kumpirmasyon sa paghahatid"
+                }
+              }
+            },
+            "tracking": {
+              "title": "Kumpletong Paglalakbay sa Paghahatid",
+              "subtitle": "Subaybayan ang bawat yugto mula sa paglalagay ng order hanggang sa huling paghahatid",
+              "stages": {
+                "orderPlaced": {
+                  "title": "Nailagay ang Order",
+                  "description": "Kumpirmasyon ng pagtanggap ng order at pagsisimula ng pagproseso",
+                  "info": {
+                    "orderNumber": "Numero ng order",
+                    "itemsOrdered": "Mga item na inorder",
+                    "processingTimeline": "Timeline ng pagproseso"
+                  }
+                },
+                "inTransit": {
+                  "title": "Nasa Transit",
+                  "description": "Ang package ay papunta na sa destinasyon",
+                  "info": {
+                    "currentLocation": "Kasalukuyang lokasyon",
+                    "expectedDelivery": "Inaasahang paghahatid",
+                    "carrierInformation": "Impormasyon sa carrier"
+                  }
+                },
+                "outForDelivery": {
+                  "title": "Nasa Labas para sa Paghahatid",
+                  "description": "Ang package ay kasama ng driver ng paghahatid para sa huling paghahatid",
+                  "info": {
+                    "deliveryWindow": "Window ng paghahatid",
+                    "driverContact": "Contact ng driver",
+                    "specialInstructions": "Mga espesyal na tagubilin"
+                  }
+                },
+                "delivered": {
+                  "title": "Naihatid",
+                  "description": "Matagumpay na naihatid ang package",
+                  "info": {
+                    "deliveryTime": "Oras ng paghahatid",
+                    "deliveryLocation": "Lokasyon ng paghahatid",
+                    "signatureConfirmation": "Kumpirmasyon ng lagda"
+                  }
+                }
+              }
+            },
+            "integration": {
+              "title": "Universal na Pagsasama ng Carrier",
+              "description": "Kumonekta sa lahat ng mga pangunahing carrier ng pagpapadala at mga provider ng logistik upang magbigay ng komprehensibong impormasyon sa pagsubaybay anuman ang paraan ng pagpapadala ng mga package.",
+              "multiCarrier": {
+                "title": "Suporta sa Maraming Carrier",
+                "description": "Subaybayan ang mga package sa lahat ng mga pangunahing carrier"
+              },
+              "realTimeUpdates": {
+                "title": "Mga Real-Time na Update",
+                "description": "Live na data ng pagsubaybay mula sa mga API ng carrier"
+              },
+              "deliveryAnalytics": {
+                "title": "Analytics sa Paghahatid",
+                "description": "Mga insight sa pagganap at mga sukatan sa paghahatid"
+              },
+              "carriers": {
+                "title": "Mga Suportadong Carrier",
+                "fedex": "FedEx API",
+                "ups": "Pagsubaybay sa UPS",
+                "usps": "Pagsasama ng USPS",
+                "dhl": "Mga Serbisyo ng DHL",
+                "amazon": "Amazon Logistics",
+                "custom": "Mga Pasadyang Carrier"
+              }
+            },
+            "impact": {
+              "title": "Epekto sa Serbisyo sa Customer",
+              "subtitle": "Mga nasusukat na pagpapabuti sa kasiyahan ng customer at kahusayan sa suporta",
+              "callReduction": {
+                "metric": "85%",
+                "description": "Pagbawas sa mga tawag na \"Nasaan ang aking order?\""
+              },
+              "satisfaction": {
+                "metric": "95%",
+                "description": "Kasiyahan ng customer sa impormasyon sa pagsubaybay"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "Availability ng katayuan ng order"
+              },
+              "workloadReduction": {
+                "metric": "60%",
+                "description": "Pagbaba sa workload ng serbisyo sa customer"
+              }
+            },
+            "cta": {
+              "title": "Handa nang I-automate ang Pagsubaybay sa Order?",
+              "subtitle": "Bawasan ang mga tawag sa suporta at pagbutihin ang kasiyahan ng customer na may instant na katayuan ng order",
+              "startTrial": "Simulan ang Libreng Pagsubok",
+              "seeDemo": "Tingnan ang Demo"
+            },
+            "title": "Katayuan at Pagsubaybay ng Order",
+            "description": "Hayaan ang mga customer na agad na suriin ang katayuan ng order at impormasyon sa paghahatid.",
+            "benefit1": "Mga instant na update",
+            "benefit2": "Nabawasang mga tawag",
+            "benefit3": "Mas mahusay na karanasan"
+          },
+          "paymentProcessing": {
+            "hero": {
+              "title": "Secure na Pagproseso ng Pagbabayad",
+              "description": "Paganahin ang secure, sumusunod sa PCI na pagproseso ng pagbabayad sa pamamagitan ng mga pakikipag-ugnayan sa boses. Hayaan ang mga customer na magbayad nang ligtas sa telepono na may advanced na proteksyon sa pandaraya at instant na pagproseso ng transaksyon.",
+              "cta": "Paganahin ang mga Secure na Pagbabayad"
+            },
+            "features": {
+              "title": "Mga Tampok sa Secure na Pagbabayad sa Boses",
+              "description": "Seguridad sa antas ng enterprise na nakakatugon sa tuluy-tuloy na karanasan ng customer",
+              "secure": {
+                "title": "Secure na Pagproseso ng Pagbabayad",
+                "description": "Ligtas na iproseso ang mga pagbabayad sa telepono gamit ang teknolohiya ng boses na sumusunod sa PCI.",
+                "benefits": {
+                  "pciCompliance": "Pagsunod sa PCI DSS",
+                  "encryptedTransactions": "Mga naka-encrypt na transaksyon",
+                  "multiplePaymentMethods": "Maramihang mga paraan ng pagbabayad"
+                }
+              },
+              "fraud": {
+                "title": "Proteksyon sa Pandaraya",
+                "description": "Advanced na pagtuklas at pag-iwas sa pandaraya upang protektahan ang parehong negosyo at mga customer.",
+                "benefits": {
+                  "realtimeFraudDetection": "Real-time na pagtuklas ng pandaraya",
+                  "riskAssessment": "Pagtatasa ng panganib",
+                  "secureAuthentication": "Secure na pagpapatotoo"
+                }
+              },
+              "instant": {
+                "title": "Instant na Pagproseso",
+                "description": "Agad na iproseso ang mga pagbabayad na may real-time na awtorisasyon at kumpirmasyon.",
+                "benefits": {
+                  "realtimeAuthorization": "Real-time na awtorisasyon",
+                  "instantConfirmation": "Instant na kumpirmasyon",
+                  "immediateReceipts": "Agad na mga resibo"
+                }
+              }
+            },
+            "paymentMethods": {
+              "title": "Komprehensibong mga Pagpipilian sa Pagbabayad",
+              "description": "Tanggapin ang lahat ng mga pangunahing paraan ng pagbabayad na may secure na pagproseso ng boses",
+              "creditCards": {
+                "method": "Mga Credit Card",
+                "description": "Tanggapin ang lahat ng mga pangunahing credit card na may secure na pagproseso ng boses",
+                "features": {
+                  "visaMastercardAmex": "Visa, Mastercard, Amex",
+                  "cvvVerification": "Pag-verify ng CVV",
+                  "expiryValidation": "Pagpapatunay ng pag-expire"
+                }
+              },
+              "debitCards": {
+                "method": "Mga Debit Card",
+                "description": "Iproseso ang mga pagbabayad sa debit card na may pag-verify ng PIN",
+                "features": {
+                  "pinEntryVoice": "Pagpasok ng PIN sa pamamagitan ng boses",
+                  "bankVerification": "Pag-verify ng bangko",
+                  "instantDeduction": "Instant na pagbawas"
+                }
+              },
+              "bankTransfers": {
+                "method": "Mga Paglilipat sa Bangko",
+                "description": "Direktang mga paglilipat sa bank account at mga pagbabayad sa ACH",
+                "features": {
+                  "accountVerification": "Pag-verify ng account",
+                  "routingNumberValidation": "Pagpapatunay ng numero ng pagruruta",
+                  "achProcessing": "Pagproseso ng ACH"
+                }
+              },
+              "digitalWallets": {
+                "method": "Mga Digital na Wallet",
+                "description": "Suporta para sa mga sikat na platform ng digital na pagbabayad",
+                "features": {
+                  "applePay": "Apple Pay",
+                  "googlePay": "Google Pay",
+                  "paypalIntegration": "Pagsasama ng PayPal"
+                }
+              }
+            },
+            "security": {
+              "title": "Seguridad sa Antas ng Bangko",
+              "description": "Natutugunan ng aming sistema ng pagproseso ng pagbabayad ang pinakamataas na pamantayan sa seguridad sa industriya, na tinitiyak na ang bawat transaksyon ay protektado ng maraming mga layer ng pag-encrypt at pag-iwas sa pandaraya.",
+              "features": {
+                "title": "Mga Tampok sa Seguridad"
+              },
+              "encryption": {
+                "title": "End-to-End na Pag-encrypt",
+                "description": "Lahat ng data ng pagbabayad ay naka-encrypt sa transit at sa pahinga"
+              },
+              "pciCompliance": {
+                "title": "Pagsunod sa PCI DSS",
+                "description": "Imprastraktura na sertipikado ng Level 1 PCI DSS"
+              },
+              "monitoring": {
+                "title": "Real-Time na Pagsubaybay",
+                "description": "Patuloy na pagtuklas at pag-iwas sa pandaraya"
+              }
+            },
+            "securityFeatures": {
+              "endToEndEncryption": "End-to-end na pag-encrypt",
+              "pciDssCompliance": "Pagsunod sa PCI DSS Level 1",
+              "tokenization": "Tokenization ng data ng card",
+              "multiFactorAuth": "Multi-factor na pagpapatotoo",
+              "fraudMonitoring": "Real-time na pagsubaybay sa pandaraya",
+              "voiceRecognition": "Secure na pagkilala sa boses"
+            },
+            "benefits": {
+              "title": "Pagganap sa Pagproseso ng Pagbabayad",
+              "description": "Pagiging maaasahan at mga sukatan ng seguridad na nangunguna sa industriya",
+              "uptime": "Uptime sa pagproseso ng pagbabayad",
+              "transactionTime": "Average na oras ng transaksyon",
+              "compliance": "Pagsunod sa PCI DSS",
+              "fraudRate": "Rate ng pandaraya na may proteksyon sa AI"
+            },
+            "cta": {
+              "title": "Handa na para sa mga Secure na Pagbabayad sa Boses?",
+              "description": "Paganahin ang pagproseso ng pagbabayad na sumusunod sa PCI na may advanced na proteksyon sa pandaraya",
+              "startProcessing": "Simulan ang Secure na Pagproseso",
+              "securityOverview": "Pangkalahatang-ideya ng Seguridad"
+            },
+            "title": "Pagproseso ng Pagbabayad",
+            "description": "Ligtas na iproseso ang mga pagbabayad at pangasiwaan ang mga katanungan sa pagsingil.",
+            "benefit1": "Mga secure na transaksyon",
+            "benefit2": "Awtomatikong pagsingil",
+            "benefit3": "Pagsunod sa PCI"
+          },
+          "virtualAssistant": {
+            "hero": {
+              "title": "24/7 na Virtual Assistant para sa mga Tawag Pagkatapos ng Oras",
+              "description": "Huwag kailanman palampasin ang isa pang tawag ng customer. Nagbibigay ang aming AI virtual assistant ng matalino, parang tao na suporta sa buong orasan, na tinitiyak na laging nakakatanggap ng agarang tulong ang iyong mga customer kapag kailangan nila ito nang husto.",
+              "primaryCta": "Simulan ang Iyong 24/7 na Katulong"
+            },
+            "features": {
+              "title": "Laging Naka-on na Suporta sa Customer",
+              "description": "Komprehensibong suporta pagkatapos ng oras na nagpapanatili sa kalidad ng iyong serbisyo 24/7",
+              "availability": {
+                "title": "24/7 na Availability",
+                "description": "Huwag kailanman palampasin ang isang tawag muli na may tulong sa AI sa buong orasan na humahawak sa mga katanungan anumang oras.",
+                "benefits": {
+                  "0": "Laging available",
+                  "1": "Walang mga gastos sa overtime",
+                  "2": "Pandaigdigang saklaw ng time zone"
+                }
+              },
+              "callHandling": {
+                "title": "Matalinong Paghawak sa Tawag",
+                "description": "Nauunawaan ng advanced na AI ang layunin ng tumatawag at nagbibigay ng naaangkop na mga tugon o pag-escalate.",
+                "benefits": {
+                  "0": "Mga natural na pag-uusap",
+                  "1": "Kamalayan sa konteksto",
+                  "2": "Matalinong pag-escalate"
+                }
+              },
+              "handoffs": {
+                "title": "Walang putol na mga Handoff",
+                "description": "Makinis na paglipat sa mga ahente ng tao kapag kinakailangan, na may buong pagpapanatili ng konteksto.",
+                "benefits": {
+                  "0": "Pagpapanatili ng konteksto",
+                  "1": "Mga mainit na paglipat",
+                  "2": "Walang paulit-ulit na impormasyon"
+                }
+              }
+            },
+            "benefits": {
+              "title": "Mga Subok na Resulta",
+              "description": "Tingnan ang epekto ng 24/7 na virtual na tulong sa iyong negosyo"
+            },
+            "metrics": {
+              "abandonment": {
+                "description": "Pagbawas sa pag-abandona sa tawag pagkatapos ng oras"
+              },
+              "availability": {
+                "description": "Patuloy na availability ng serbisyo sa customer"
+              },
+              "costSavings": {
+                "description": "Pagtitipid sa gastos kumpara sa mga ahente ng tao"
+              },
+              "satisfaction": {
+                "description": "Kasiyahan ng customer sa mga pakikipag-ugnayan sa AI"
+              }
+            },
+            "useCases": {
+              "title": "Mga Application sa Industriya",
+              "description": "Tingnan kung paano nakikinabang ang iba't ibang mga industriya mula sa 24/7 na virtual na tulong",
+              "healthcare": {
+                "title": "Pangangalagang Pangkalusugan Pagkatapos ng Oras",
+                "description": "Pangasiwaan ang mga katanungan ng pasyente, mga kahilingan sa appointment, at triage sa emergency sa labas ng mga oras ng opisina.",
+                "metrics": {
+                  "0": "60% na pagbawas sa mga napalampas na tawag",
+                  "1": "24/7 na suporta sa pasyente",
+                  "2": "Sumusunod sa HIPAA"
+                }
+              },
+              "ecommerce": {
+                "title": "Suporta sa E-commerce",
+                "description": "Tulungan ang mga customer sa mga katanungan sa order, mga pagbabalik, at impormasyon sa produkto anumang oras.",
+                "metrics": {
+                  "0": "40% na pagtaas sa kasiyahan ng customer",
+                  "1": "Instant na katayuan ng order",
+                  "2": "24/7 na availability"
+                }
+              },
+              "financial": {
+                "title": "Mga Serbisyo sa Pananalapi",
+                "description": "Magbigay ng impormasyon sa account, mga alerto sa pandaraya, at mga pangunahing serbisyo sa pagbabangko pagkatapos ng oras.",
+                "metrics": {
+                  "0": "Secure na pagpapatotoo",
+                  "1": "Pag-iwas sa pandaraya",
+                  "2": "Pagsunod sa regulasyon"
+                }
+              }
+            },
+            "cta": {
+              "title": "Handa na para sa 24/7 na Suporta sa Customer?",
+              "description": "Baguhin ang iyong karanasan sa customer pagkatapos ng oras na may matalinong virtual na tulong",
+              "primaryButton": "Simulan ang Libreng Pagsubok",
+              "secondaryButton": "Mag-iskedyul ng Demo"
+            },
+            "title": "24/7 na Virtual Assistant",
+            "description": "Magbigay ng agarang suporta sa labas ng mga oras ng negosyo na may matalinong paghawak sa tawag.",
+            "benefit1": "24/7 na availability",
+            "benefit2": "Instant na tugon",
+            "benefit3": "Pagbawas sa gastos"
+          },
+          "header": "Mga Solusyon sa Papasok",
+          "description": "Pangasiwaan ang mga papasok na tawag na may matalinong automation at superior na karanasan sa customer",
+          "smartCallTransfer": {
+            "title": "Matalinong Paglipat ng Tawag",
+            "description": "Matalinong i-ruta ang mga tawag sa tamang departamento batay sa layunin ng tumatawag.",
+            "benefit1": "Nabawasang mga oras ng paghihintay",
+            "benefit2": "Mas mahusay na pagruruta",
+            "benefit3": "Pinabuting kahusayan"
+          },
+          "mentalHealth": {
+            "title": "Kasama sa Kalusugan ng Pag-iisip",
+            "description": "Magbigay ng empatikong suporta para sa mga screening at mapagkukunan sa kalusugan ng pag-iisip.",
+            "benefit1": "24/7 na suporta",
+            "benefit2": "Mga empatikong tugon",
+            "benefit3": "Pag-escalate sa krisis"
+          },
+          "scamShield": {
+            "title": "Proteksyon ng Scam Shield",
+            "description": "Tukuyin at i-block ang mga mapanlinlang na tawag upang protektahan ang iyong mga customer.",
+            "benefit1": "Pagtuklas ng pandaraya",
+            "benefit2": "Proteksyon ng customer",
+            "benefit3": "Nabawasang mga tawag sa scam"
+          },
+          "appointmentBooking": {
+            "title": "Pag-book ng Appointment",
+            "description": "Paganahin ang autonomous na pag-iiskedyul at pamamahala ng appointment.",
+            "benefit1": "24/7 na pag-book",
+            "benefit2": "Pag-sync ng kalendaryo",
+            "benefit3": "Mga awtomatikong paalala"
+          }
+        },
+        "outbound": {
+          "customerReactivation": {
+            "hero": {
+              "title": "Mga Kampanya sa Reactivation ng Customer",
+              "subtitle": "Bawiin ang mga hindi aktibong customer na may mga personalized na kampanya sa outreach na pinapagana ng AI. Muling makipag-ugnayan sa mga nakaraang customer na may mga nakakahimok na alok at muling buuin ang mga mahalagang relasyon na nag-drive ng paulit-ulit na kita.",
+              "cta": "Simulan ang Kampanya sa Reactivation"
+            },
+            "features": {
+              "title": "Mga Tampok sa Matalinong Reactivation",
+              "subtitle": "Mga kampanya na pinapagana ng AI na nakakaunawa sa pag-uugali at mga kagustuhan ng customer",
+              "personalizedOutreach": {
+                "title": "Personalized na Outreach",
+                "description": "Mga pag-uusap na pinapagana ng AI na iniakma sa kasaysayan at mga kagustuhan ng bawat customer.",
+                "benefits": {
+                  "customMessaging": "Pasadyang pagmemensahe",
+                  "historicalContext": "Konteksto sa kasaysayan",
+                  "behavioralInsights": "Mga insight sa pag-uugali"
+                }
+              },
+              "winBackCampaigns": {
+                "title": "Mga Kampanya sa Pagbabalik",
+                "description": "Mga estratehikong kampanya na idinisenyo upang muling makipag-ugnayan sa mga hindi aktibong customer na may mga nakakahimok na alok.",
+                "benefits": {
+                  "specialPromotions": "Mga espesyal na promosyon",
+                  "loyaltyRewards": "Mga gantimpala sa katapatan",
+                  "exclusiveAccess": "Eksklusibong access"
+                }
+              },
+              "performanceAnalytics": {
+                "title": "Analytics sa Pagganap",
+                "description": "Subaybayan ang mga rate ng tagumpay sa reactivation at i-optimize ang mga kampanya para sa mas mahusay na mga resulta.",
+                "benefits": {
+                  "conversionTracking": "Pagsubaybay sa conversion",
+                  "abTesting": "Pagsubok sa A/B",
+                  "roiAnalysis": "Pagsusuri sa ROI"
+                }
+              }
+            },
+            "process": {
+              "title": "Proseso ng Reactivation",
+              "subtitle": "Estratehikong diskarte sa pagbabalik ng mga mahalagang customer",
+              "steps": {
+                "customerSegmentation": {
+                  "title": "Pagse-segment ng Customer",
+                  "description": "Tukuyin at ikategorya ang mga hindi aktibong customer batay sa kanilang kasaysayan at halaga",
+                  "outcome": "Naka-target na diskarte: 3x na mas mataas na rate ng pagtugon"
+                },
+                "personalizedOutreach": {
+                  "title": "Personalized na Outreach",
+                  "description": "Gumagawa ang AI ng mga personalized na mensahe batay sa mga kagustuhan at kasaysayan ng customer",
+                  "outcome": "Rate ng pakikipag-ugnayan: 45% kumpara sa 12% na generic"
+                },
+                "offerPresentation": {
+                  "title": "Presentasyon ng Alok",
+                  "description": "Magpakita ng mga nakakahimok na alok sa pagbabalik na iniakma sa halaga at mga interes ng customer",
+                  "outcome": "Rate ng conversion: 25% na may mga personalized na alok"
+                },
+                "followUpNurturing": {
+                  "title": "Pag-follow-up at Pag-aalaga",
+                  "description": "Mga awtomatikong pagkakasunud-sunod ng follow-up upang alagaan ang mga interesadong customer pabalik sa aktibong katayuan",
+                  "outcome": "Rate ng pagpapanatili: 80% ng mga na-reactivate na customer"
+                }
+              }
+            },
+            "campaigns": {
+              "title": "Mga Uri ng Kampanya sa Reactivation",
+              "subtitle": "Maramihang mga diskarte upang muling makipag-ugnayan sa iba't ibang mga segment ng customer",
+              "winBackOffers": {
+                "title": "Mga Alok sa Pagbabalik",
+                "description": "Mga espesyal na diskwento at promosyon upang akitin ang mga customer pabalik",
+                "tactics": {
+                  "exclusiveDiscounts": "Mga eksklusibong diskwento",
+                  "limitedTimeOffers": "Mga alok na may limitadong oras",
+                  "freeTrials": "Mga libreng pagsubok"
+                }
+              },
+              "feedbackCollection": {
+                "title": "Koleksyon ng Feedback",
+                "description": "Unawain kung bakit umalis ang mga customer at tugunan ang kanilang mga alalahanin",
+                "tactics": {
+                  "exitSurveys": "Mga survey sa pag-alis",
+                  "concernResolution": "Paglutas ng alalahanin",
+                  "serviceImprovements": "Mga pagpapabuti sa serbisyo"
+                }
+              },
+              "productUpdates": {
+                "title": "Mga Update sa Produkto",
+                "description": "Ipaalam sa mga customer ang tungkol sa mga bagong tampok o pagpapabuti",
+                "tactics": {
+                  "featureAnnouncements": "Mga anunsyo sa tampok",
+                  "benefitExplanations": "Mga paliwanag sa benepisyo",
+                  "demoInvitations": "Mga imbitasyon sa demo"
+                }
+              },
+              "loyaltyRewards": {
+                "title": "Mga Gantimpala sa Katapatan",
+                "description": "Kilalanin ang nakaraang katapatan at mag-alok ng espesyal na pagtrato",
+                "tactics": {
+                  "vipStatus": "Katayuan ng VIP",
+                  "loyaltyPoints": "Mga puntos sa katapatan",
+                  "exclusiveAccess": "Eksklusibong access"
+                }
+              }
+            },
+            "results": {
+              "title": "Mga Resulta ng Reactivation",
+              "subtitle": "Mga subok na tagumpay sa pagbabalik ng mga mahalagang customer",
+              "reactivationRate": {
+                "metric": "35%",
+                "description": "Rate ng reactivation ng customer"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "Pagbawas sa gastos kumpara sa mga tradisyonal na pamamaraan"
+              },
+              "responseRate": {
+                "metric": "3x",
+                "description": "Mas mataas na rate ng pagtugon kaysa sa mga generic na kampanya"
+              },
+              "retentionRate": {
+                "metric": "80%",
+                "description": "Rate ng pagpapanatili ng mga na-reactivate na customer"
+              }
+            },
+            "cta": {
+              "title": "Handa nang Bawiin ang Iyong mga Customer?",
+              "subtitle": "Simulan ang mga personalized na kampanya sa reactivation na muling nagtatayo ng mga mahalagang relasyon sa customer",
+              "startCampaign": "Simulan ang Kampanya",
+              "viewCaseStudies": "Tingnan ang mga Pag-aaral ng Kaso"
+            }
+          },
+          "fraudAlerts": {
+            "hero": {
+              "title": "Sistema ng Alerto sa Pandaraya",
+              "description": "Protektahan ang iyong mga customer na may mga instant na alerto sa pandaraya. Tinutukoy ng aming sistema na pinapagana ng AI ang mga kahina-hinalang aktibidad at awtomatikong nakikipag-ugnayan sa mga customer upang i-verify ang mga transaksyon."
+            },
+            "features": {
+              "title": "Advanced na Pagtuklas ng Pandaraya",
+              "subtitle": "Real-time na pagsubaybay at matalinong pag-aalerto upang protektahan ang iyong mga customer",
+              "realTimeDetection": {
+                "title": "Real-time na Pagtuklas",
+                "description": "Subaybayan ang mga transaksyon 24/7 at agad na tukuyin ang mga kahina-hinalang pattern gamit ang mga advanced na algorithm ng AI."
+              },
+              "instantAlerts": {
+                "title": "Mga Instant na Alerto",
+                "description": "Awtomatikong tawagan ang mga customer sa loob ng ilang minuto pagkatapos matukoy ang kahina-hinalang aktibidad upang i-verify ang mga transaksyon."
+              },
+              "detailedAnalytics": {
+                "title": "Detalyadong Analytics",
+                "description": "Subaybayan ang mga sukatan sa pag-iwas sa pandaraya at mga rate ng pagtugon ng customer na may komprehensibong pag-uulat."
+              }
+            },
+            "howItWorks": {
+              "title": "Paano Gumagana ang mga Alerto sa Pandaraya",
+              "step1": {
+                "title": "Pagtuklas ng Pandaraya",
+                "description": "Tinutukoy ng system ang mga kahina-hinalang pattern ng transaksyon"
+              },
+              "step2": {
+                "title": "Agad na Alerto",
+                "description": "Tumatawag ang ahente ng AI sa customer sa loob ng 2 minuto"
+              },
+              "step3": {
+                "title": "Pag-verify",
+                "description": "Kinukumpirma o tinatanggihan ng customer ang transaksyon"
+              },
+              "step4": {
+                "title": "Ginawang Aksyon",
+                "description": "Naaprubahan ang transaksyon o na-activate ang mga hakbang sa seguridad"
+              },
+              "sampleCall": {
+                "title": "Halimbawang Tawag sa Alerto",
+                "message": "Kamusta, ito ay isang alerto sa seguridad mula sa [Pangalan ng Bangko]. Nakakita kami ng hindi pangkaraniwang aktibidad sa iyong account. Isang transaksyon na $500 sa Amazon ang sinubukan ngayon lang. Pinahintulutan mo ba ang pagbiling ito? Pindutin ang 1 upang kumpirmahin o 2 kung hindi ikaw ito."
+              }
+            },
+            "benefits": {
+              "title": "Mga Pangunahing Benepisyo",
+              "fraudPrevention": {
+                "title": "Pag-iwas sa Pandaraya",
+                "description": "Bawasan ang mga mapanlinlang na transaksyon ng hanggang 85%"
+              },
+              "instantResponse": {
+                "title": "Instant na Tugon",
+                "description": "Alertuhan ang mga customer sa loob ng 2 minuto pagkatapos matukoy"
+              },
+              "customerTrust": {
+                "title": "Tiwala ng Customer",
+                "description": "Bumuo ng kumpiyansa na may maagap na proteksyon"
+              },
+              "smartAnalytics": {
+                "title": "Matalinong Analytics",
+                "description": "Detalyadong mga insight sa mga pattern at trend ng pandaraya"
+              }
+            },
+            "useCases": {
+              "title": "Mga Karaniwang Kaso ng Paggamit",
+              "banking": {
+                "title": "Pagbabangko at mga Serbisyo sa Pananalapi",
+                "item1": "Pagtuklas ng pandaraya sa credit card",
+                "item2": "Mga alerto sa hindi pangkaraniwang pattern ng paggasta",
+                "item3": "Pag-iwas sa pag-takeover ng account",
+                "item4": "Pag-verify ng malaking transaksyon"
+              },
+              "ecommerce": {
+                "title": "E-commerce at Retail",
+                "item1": "Mga kahina-hinalang pattern ng pagbili",
+                "item2": "Pag-verify ng order na may mataas na halaga",
+                "item3": "Proteksyon sa pagnanakaw ng pagkakakilanlan",
+                "item4": "Mga pagbabago sa paraan ng pagbabayad"
+              }
+            },
+            "cta": {
+              "title": "Protektahan ang Iyong mga Customer Ngayon",
+              "description": "Ipatupad ang advanced na pagtuklas ng pandaraya na may mga awtomatikong alerto sa customer upang bawasan ang mga pagkalugi at bumuo ng tiwala.",
+              "button": "Magsimula sa mga Alerto sa Pandaraya"
+            },
+            "title": "Mga Alerto sa Pandaraya",
+            "description": "Agad na alertuhan ang mga customer sa kahina-hinalang aktibidad sa account.",
+            "benefit1": "Mga real-time na alerto",
+            "benefit2": "Proteksyon ng account",
+            "benefit3": "Pag-iwas sa pandaraya"
+          },
+          "largeScaleCampaigns": {
+            "hero": {
+              "title": "Mga Kampanya sa Papalabas na Malaking Scale",
+              "description": "Magsagawa ng napakalaking mga kampanya sa boses na sabay-sabay na umaabot sa libu-libong mga customer. Mula sa mga paglunsad ng produkto hanggang sa mga abiso sa emergency, maghatid ng mga personalized na mensahe sa walang kapantay na sukat na may kahusayan na pinapagana ng AI.",
+              "cta": "Ilunsad ang Mass Campaign"
+            },
+            "features": {
+              "title": "Mga Tampok sa Kampanya sa Antas ng Enterprise",
+              "subtitle": "Malakas na mga tool para sa pamamahala at pagsasagawa ng malakihang mga kampanya sa boses",
+              "massCommunication": {
+                "title": "Mass Communication",
+                "description": "Abutin ang libu-libong mga customer nang sabay-sabay na may mga personalized na mensahe sa boses.",
+                "benefit1": "Walang limitasyong mga sabay-sabay na tawag",
+                "benefit2": "Personalized na pagmemensahe",
+                "benefit3": "Pandaigdigang abot"
+              },
+              "audienceSegmentation": {
+                "title": "Pagse-segment ng Audience",
+                "description": "I-target ang mga partikular na segment ng customer na may pinasadyang mga mensahe at timing.",
+                "benefit1": "Pag-target sa demograpiko",
+                "benefit2": "Pagse-segment sa pag-uugali",
+                "benefit3": "Mga pasadyang audience"
+              },
+              "realTimeAnalytics": {
+                "title": "Real-Time na Analytics",
+                "description": "Subaybayan ang pagganap ng kampanya at i-optimize sa real-time para sa mas mahusay na mga resulta.",
+                "benefit1": "Mga live na dashboard",
+                "benefit2": "Mga sukatan ng pagganap",
+                "benefit3": "Pagsubok sa A/B"
+              }
+            },
+            "campaignTypes": {
+              "title": "Mga Uri at Application ng Kampanya",
+              "subtitle": "Mga maraming nalalaman na solusyon para sa iba't ibang mga pangangailangan sa komunikasyon sa negosyo",
+              "productAnnouncements": {
+                "type": "Mga Anunsyo sa Produkto",
+                "description": "Maglunsad ng mga bagong produkto o serbisyo na may malawakang mga kampanya sa kamalayan",
+                "example1": "Mga paglabas ng bagong tampok",
+                "example2": "Mga paglunsad ng produkto",
+                "example3": "Mga update sa serbisyo",
+                "metric1": "Abot: 100K+ na mga customer",
+                "metric2": "Kamalayan: 85% na pagtaas",
+                "metric3": "Pakikipag-ugnayan: 45% na tugon"
+              },
+              "emergencyNotifications": {
+                "type": "Mga Abiso sa Emergency",
+                "description": "Mabilis na ipamahagi ang kritikal na impormasyon sa panahon ng mga emergency",
+                "example1": "Mga pagkawala ng serbisyo",
+                "example2": "Mga alerto sa kaligtasan",
+                "example3": "Mga pagbabago sa patakaran",
+                "metric1": "Bilis: 1000 na tawag/minuto",
+                "metric2": "Paghahatid: 99% na tagumpay",
+                "metric3": "Tugon: < 5 minuto"
+              },
+              "marketingCampaigns": {
+                "type": "Mga Kampanya sa Marketing",
+                "description": "Magsagawa ng malakihang mga inisyatibo sa promosyon at marketing",
+                "example1": "Mga promosyon sa panahon",
+                "example2": "Mga kampanya sa brand",
+                "example3": "Mga imbitasyon sa kaganapan",
+                "metric1": "Conversion: 12% average",
+                "metric2": "ROI: 300% karaniwan",
+                "metric3": "Abot: Walang limitasyong sukat"
+              },
+              "surveyResearch": {
+                "type": "Survey at Pananaliksik",
+                "description": "Magsagawa ng pananaliksik sa merkado at mangolekta ng feedback ng customer sa sukat",
+                "example1": "Pananaliksik sa merkado",
+                "example2": "Kasiyahan ng customer",
+                "example3": "Feedback sa produkto",
+                "metric1": "Tugon: 35% na rate",
+                "metric2": "Pagkumpleto: 80%",
+                "metric3": "Mga Insight: Real-time"
+              },
+              "commonExamples": "Mga Karaniwang Halimbawa:",
+              "performanceMetrics": "Mga Sukatan ng Pagganap:"
+            },
+            "scaling": {
+              "title": "Walang limitasyong Scale at Abot",
+              "description": "Ang aming platform ay binuo upang pangasiwaan ang mga kampanya ng anumang laki, mula sa libu-libo hanggang milyun-milyong mga tawag. Sa mga pandaigdigang pakikipagsosyo sa carrier at advanced na imprastraktura, tinitiyak namin ang maaasahang paghahatid sa napakalaking sukat.",
+              "globalInfrastructure": {
+                "title": "Pandaigdigang Imprastraktura",
+                "description": "Pandaigdigang network ng carrier para sa maximum na abot"
+              },
+              "highSpeedExecution": {
+                "title": "Mataas na Bilis na Pagpapatupad",
+                "description": "1000+ na sabay-sabay na tawag bawat minuto"
+              },
+              "realTimeMonitoring": {
+                "title": "Real-Time na Pagsubaybay",
+                "description": "Live na pagsubaybay sa pagganap ng kampanya"
+              },
+              "capabilities": {
+                "title": "Mga Kakayahan sa Pag-scale",
+                "capability1": "Walang limitasyong mga sabay-sabay na tawag",
+                "capability2": "Pandaigdigang network ng carrier",
+                "capability3": "Suporta sa maraming wika",
+                "capability4": "Pag-optimize ng time zone",
+                "capability5": "Pagsunod sa regulasyon",
+                "capability6": "Real-time na pagsubaybay"
+              },
+              "dashboard": {
+                "title": "Dashboard ng Kampanya",
+                "activeCalls": "Mga Aktibong Tawag:",
+                "completionRate": "Rate ng Pagkumpleto:",
+                "responseRate": "Rate ng Pagtugon:"
+              }
+            },
+            "benefits": {
+              "title": "Mga Resulta ng Pagganap ng Kampanya",
+              "subtitle": "Mga subok na pagiging epektibo sa sukat ng enterprise",
+              "metric1": {
+                "value": "10,000+",
+                "description": "Mga sinusuportahang sabay-sabay na tawag"
+              },
+              "metric2": {
+                "value": "99.9%",
+                "description": "Rate ng tagumpay sa paghahatid ng mensahe"
+              },
+              "metric3": {
+                "value": "75%",
+                "description": "Pagbawas sa gastos kumpara sa mga tradisyonal na pamamaraan"
+              },
+              "metric4": {
+                "value": "24/7",
+                "description": "Kakayahang magsagawa ng kampanya"
+              }
+            },
+            "cta": {
+              "title": "Handa nang Palakihin ang Iyong mga Komunikasyon?",
+              "description": "Maglunsad ng napakalaking mga kampanya sa boses na umaabot sa libu-libong mga customer na may mga personalized na mensahe",
+              "primaryButton": "Planuhin ang Iyong Kampanya",
+              "secondaryButton": "Tingnan ang mga Pag-aaral ng Kaso"
+            }
+          },
+          "hero": {
+            "title": "Automation ng Serbisyo sa mga Koleksyon",
+            "description": "I-streamline ang iyong proseso ng pagkolekta ng utang gamit ang pagtawag na pinapagana ng AI na nagpapanatili ng mga relasyon sa customer habang pinapabuti ang mga rate ng koleksyon. Ganap na sumusunod sa mga regulasyon ng FDCPA at TCPA.",
+            "cta": "Pagbutihin ang mga Rate ng Koleksyon"
+          },
+          "features": {
+            "title": "Mga Tampok sa Matalinong Koleksyon",
+            "subtitle": "Propesyonal, sumusunod, at epektibong automation ng pagkolekta ng utang",
+            "paymentReminders": {
+              "title": "Mga Awtomatikong Paalala sa Pagbabayad",
+              "description": "Magiliw, propesyonal na mga paalala na nagpapanatili ng mga relasyon sa customer habang hinihikayat ang pagbabayad.",
+              "benefit1": "Nako-customize na pagmemensahe",
+              "benefit2": "Maramihang mga pagtatangka sa pakikipag-ugnayan",
+              "benefit3": "Mga pagpipilian sa plano ng pagbabayad"
+            },
+            "compliance": {
+              "title": "Pagsunod at Regulasyon",
+              "description": "Built-in na pagsunod sa FDCPA, TCPA, at iba pang mga regulasyon sa pagkolekta ng utang.",
+              "benefit1": "Pagsunod sa regulasyon",
+              "benefit2": "Pag-record ng tawag",
+              "benefit3": "Mga trail ng audit"
+            },
+            "optimalTiming": {
+              "title": "Pinakamainam na Timing",
+              "description": "Tinutukoy ng AI ang pinakamahusay na mga oras upang makipag-ugnayan sa mga customer para sa maximum na mga rate ng pagtugon.",
+              "benefit1": "Kamalayan sa time zone",
+              "benefit2": "Mga pattern ng pag-uugali",
+              "benefit3": "Pag-optimize ng tugon"
+            }
+          },
+          "collectionProcess": {
+            "title": "Progresibong Diskarte sa Koleksyon",
+            "subtitle": "Umuunlad na diskarte na nag-maximize ng koleksyon habang pinapanatili ang mga relasyon",
+            "earlyReminder": {
+              "stage": "Maagang Paalala",
+              "description": "Mga paalala sa pagbabayad na palakaibigan para sa mga kamakailang overdue na account",
+              "approach": "Malambot, kapaki-pakinabang na tono na may mga pagpipilian sa pagbabayad",
+              "success": "65% na rate ng pagbabayad"
+            },
+            "followUp": {
+              "stage": "Pag-follow-up",
+              "description": "Mas direktang komunikasyon para sa mga paulit-ulit na overdue na account",
+              "approach": "Malinaw na mga kahihinatnan, mga alok sa plano ng pagbabayad",
+              "success": "45% na rate ng pagbabayad"
+            },
+            "finalNotice": {
+              "stage": "Huling Abiso",
+              "description": "Huling pagtatangka bago i-escalate sa mga kolektor ng tao",
+              "approach": "Agarang tono, huling deadline ng pagbabayad",
+              "success": "30% na rate ng pagbabayad"
+            },
+            "humanHandoff": {
+              "stage": "Paghahatid sa Tao",
+              "description": "Mga kumplikadong kaso na inilipat sa mga kolektor ng tao na may buong konteksto",
+              "approach": "Detalyadong kasaysayan ng account at mga nakaraang pakikipag-ugnayan",
+              "success": "25% na rate ng paglutas"
+            }
+          },
+          "benefits": {
+            "title": "Mga Subok na Resulta sa Koleksyon",
+            "subtitle": "Tingnan ang epekto ng mga koleksyon na pinapagana ng AI sa iyong mga rate ng pagbawi",
+            "collectionRates": {
+              "metric": "40%",
+              "description": "Pagtaas sa mga rate ng koleksyon"
+            },
+            "costReduction": {
+              "metric": "60%",
+              "description": "Pagbawas sa mga gastos sa koleksyon"
+            },
+            "paymentProcessing": {
+              "metric": "80%",
+              "description": "Mas mabilis na pagproseso ng pagbabayad"
+            },
+            "complianceRate": {
+              "metric": "95%",
+              "description": "Rate ng pagsunod sa regulasyon"
+            }
+          },
+          "complianceSection": {
+            "title": "Built-in na Pagsunod",
+            "description": "Ang aming platform ng mga koleksyon ay idinisenyo na may pagsunod sa core nito, na tinitiyak na ang lahat ng mga pakikipag-ugnayan ay nakakatugon sa mga regulasyon ng pederal at estado habang pinapanatili ang mga propesyonal na pamantayan.",
+            "features": {
+              "fdcpaCompliance": "Pagsunod sa FDCPA",
+              "tcpaCompliance": "Pagsunod sa TCPA",
+              "stateRegulation": "Pagsunod sa Regulasyon ng Estado",
+              "callRecording": "Pag-record at Pagsubaybay sa Tawag",
+              "disputeHandling": "Paghawak sa Hindi Pagkakaunawaan",
+              "ceaseDesist": "Pamamahala sa Cease & Desist"
+            },
+            "subFeatures": {
+              "regulatoryCompliance": {
+                "title": "Pagsunod sa Regulasyon",
+                "description": "Mga regulasyon ng FDCPA, TCPA, at partikular sa estado"
+              },
+              "auditTrail": {
+                "title": "Kumpletong Trail ng Audit",
+                "description": "Detalyadong pag-log ng lahat ng mga pakikipag-ugnayan at mga kinalabasan"
+              },
+              "timingControls": {
+                "title": "Mga Kontrol sa Timing",
+                "description": "Awtomatikong pagsunod sa mga paghihigpit sa oras ng pagtawag"
+              }
+            },
+            "featuresTitle": "Mga Tampok sa Pagsunod"
+          },
+          "cta": {
+            "title": "Handa nang Pagbutihin ang Iyong mga Rate ng Koleksyon?",
+            "subtitle": "Simulang bawiin ang mas maraming utang na may sumusunod, propesyonal na mga koleksyon na pinapagana ng AI",
+            "startFreeTrial": "Simulan ang Libreng Pagsubok",
+            "scheduleDemo": "Mag-iskedyul ng Demo"
+          },
+          "leadGeneration": {
+            "hero": {
+              "title": "Pagbuo at Kwalipikasyon ng Lead",
+              "subtitle": "Baguhin ang iyong pipeline sa pagbebenta gamit ang pagbuo ng lead na pinapagana ng AI na awtomatikong tumutukoy, nagiging kwalipikado, at nag-aalaga sa mga prospect, na naghahatid lamang ng pinakamataas na kalidad na mga lead sa iyong koponan sa pagbebenta.",
+              "cta": "Palakasin ang Iyong Pagbuo ng Lead"
+            },
+            "features": {
+              "title": "Mga Tampok sa Matalinong Pagbuo ng Lead",
+              "subtitle": "Advanced na teknolohiya ng AI na tumutukoy at nagiging kwalipikado sa mga prospect nang may katumpakan",
+              "intelligentQualification": {
+                "title": "Matalinong Kwalipikasyon ng Lead",
+                "description": "Mga pag-uusap na pinapagana ng AI na tumutukoy sa mga prospect na may mataas na kalidad at nangangalap ng mahahalagang impormasyon.",
+                "benefits": {
+                  "automatedScoring": "Awtomatikong pagmamarka",
+                  "intentDetection": "Pagtuklas ng layunin",
+                  "demographicProfiling": "Pag-profile ng demograpiko"
+                }
+              },
+              "personalizedOutreach": {
+                "title": "Personalized na Outreach",
+                "description": "Mga dinamikong pag-uusap na iniakma sa bawat prospect batay sa kanilang profile at mga interes.",
+                "benefits": {
+                  "customMessaging": "Pasadyang pagmemensahe",
+                  "behavioralTriggers": "Mga trigger sa pag-uugali",
+                  "contextualResponses": "Mga tugon sa konteksto"
+                }
+              },
+              "realTimeAnalytics": {
+                "title": "Real-Time na Analytics",
+                "description": "Subaybayan ang pagganap ng kampanya at kalidad ng lead na may komprehensibong pag-uulat.",
+                "benefits": {
+                  "conversionTracking": "Pagsubaybay sa conversion",
+                  "qualityMetrics": "Mga sukatan ng kalidad",
+                  "roiAnalysis": "Pagsusuri sa ROI"
+                }
+              }
+            },
+            "process": {
+              "title": "Proseso ng Kwalipikasyon ng Lead",
+              "subtitle": "Mula sa paunang contact hanggang sa kwalipikadong pag-handoff - tingnan kung paano gumagana ang aming AI",
+              "steps": {
+                "initialContact": {
+                  "title": "Paunang Contact",
+                  "description": "Gumagawa ang ahente ng AI ng mga personalized na papalabas na tawag sa mga prospect",
+                  "outcome": "Rate ng pakikipag-ugnayan: 35%"
+                },
+                "needsAssessment": {
+                  "title": "Pagtatasa ng mga Pangangailangan",
+                  "description": "Matalinong pagtatanong upang maunawaan ang mga kinakailangan ng prospect",
+                  "outcome": "Rate ng kwalipikasyon: 60%"
+                },
+                "interestScoring": {
+                  "title": "Pagmamarka ng Interes",
+                  "description": "Minamarkahan ng AI ang kalidad ng lead batay sa mga tugon at pakikipag-ugnayan",
+                  "outcome": "Rate ng katumpakan: 85%"
+                },
+                "handoffToSales": {
+                  "title": "Paghahatid sa Sales",
+                  "description": "Mga kwalipikadong lead na inilipat sa koponan ng pagbebenta ng tao na may buong konteksto",
+                  "outcome": "Rate ng conversion: 25%"
+                }
+              }
+            },
+            "results": {
+              "title": "Mga Subok na Resulta",
+              "subtitle": "Tingnan ang epekto ng pagbuo ng lead na pinapagana ng AI sa iyong pipeline sa pagbebenta",
+              "qualifiedLeads": {
+                "metric": "300%",
+                "description": "Pagtaas sa mga kwalipikadong lead"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "Pagbawas sa gastos bawat lead"
+              },
+              "accuracy": {
+                "metric": "85%",
+                "description": "Katumpakan ng kwalipikasyon ng lead"
+              },
+              "conversion": {
+                "metric": "25%",
+                "description": "Rate ng conversion mula sa lead patungo sa customer"
+              }
+            },
+            "industries": {
+              "title": "Mga Kuwento ng Tagumpay sa Industriya",
+              "subtitle": "Tingnan kung paano nakikinabang ang iba't ibang mga industriya mula sa pagbuo ng lead ng AI",
+              "realEstate": {
+                "name": "Real Estate",
+                "description": "Maging kwalipikado ang mga mamimili at nagbebenta ng ari-arian, mag-iskedyul ng mga pagtingin",
+                "results": {
+                  "moreLeads": "40% na mas maraming kwalipikadong lead",
+                  "fasterCycle": "50% na mas mabilis na siklo ng pagbebenta"
+                }
+              },
+              "insurance": {
+                "name": "Seguro",
+                "description": "Tukuyin ang mga prospect na nangangailangan ng saklaw, mangalap ng impormasyon sa panganib",
+                "results": {
+                  "increaseSales": "35% na pagtaas sa mga benta ng patakaran",
+                  "costReduction": "60% na pagbawas sa gastos"
+                }
+              },
+              "softwareSaas": {
+                "name": "Software/SaaS",
+                "description": "Maging kwalipikado ang mga prospect sa enterprise, mag-iskedyul ng mga demo ng produkto",
+                "results": {
+                  "demoBookings": "3x na mas maraming booking sa demo",
+                  "closeRate": "45% na mas mataas na rate ng pagsasara"
+                }
+              }
+            },
+            "cta": {
+              "title": "Handa nang Baguhin ang Iyong Pagbuo ng Lead?",
+              "subtitle": "Simulang bumuo at maging kwalipikado ng mas maraming mga lead gamit ang papalabas na pagtawag na pinapagana ng AI",
+              "startTrial": "Simulan ang Libreng Pagsubok",
+              "scheduleDemo": "Mag-iskedyul ng Demo"
+            },
+            "title": "Pagbuo at Kwalipikasyon ng Lead",
+            "description": "Maagap na maging kwalipikado ang mga lead at mag-iskedyul ng mga follow-up para sa mga koponan sa pagbebenta.",
+            "benefit1": "Mas mataas na conversion",
+            "benefit2": "Mga kwalipikadong lead",
+            "benefit3": "Kahusayan sa pagbebenta"
+          },
+          "customerSurveys": {
+            "hero": {
+              "title": "Automation ng Survey sa Customer",
+              "description": "Mangalap ng mahalagang feedback ng customer sa pamamagitan ng mga natural na pag-uusap sa boses. Magsagawa ng mga awtomatikong survey na parang personal at nakakaengganyo, na nakakamit ng mas mataas na mga rate ng pagtugon at mas detalyadong mga insight kaysa sa mga tradisyonal na pamamaraan.",
+              "cta": "Simulan ang Kampanya sa Survey"
+            },
+            "sections": {
+              "features": {
+                "title": "Mga Tampok sa Matalinong Survey",
+                "subtitle": "Advanced na teknolohiya ng AI na ginagawang parang natural na mga pag-uusap ang mga survey"
+              },
+              "surveys": {
+                "title": "Mga Komprehensibong Solusyon sa Survey",
+                "subtitle": "Mga pinasadyang uri ng survey para sa iba't ibang mga layunin at insight sa negosyo"
+              },
+              "sampleQuestions": "Mga Halimbawang Tanong:",
+              "keyMetrics": "Mga Pangunahing Sukatan:",
+              "analytics": {
+                "title": "Advanced na Analytics at Mga Insight",
+                "description": "Hindi lamang nangongolekta ng mga tugon ang aming AI—sinusuri nito ang sentimyento, tinutukoy ang mga trend, at nagbibigay ng mga naaaksyunan na insight na tumutulong sa iyong gumawa ng mga desisyon na batay sa data upang mapabuti ang iyong negosyo."
+              },
+              "analysisFeatures": {
+                "title": "Mga Tampok sa Pagsusuri"
+              },
+              "benefits": {
+                "title": "Mga Resulta sa Pagganap ng Survey",
+                "subtitle": "Mga subok na pagpapabuti sa koleksyon ng feedback at mga insight sa customer"
+              }
+            },
+            "features": {
+              "conversational": {
+                "title": "Mga Survey sa Pag-uusap",
+                "description": "Mga natural na pag-uusap sa boses na parang mga palakaibigang talakayan sa halip na mga pormal na survey.",
+                "benefits": {
+                  "0": "Mas mataas na mga rate ng pagtugon",
+                  "1": "Mga natural na pakikipag-ugnayan",
+                  "2": "Detalyadong feedback"
+                }
+              },
+              "analytics": {
+                "title": "Real-Time na Analytics",
+                "description": "Instant na pagsusuri at pag-uulat ng mga tugon sa survey na may mga naaaksyunan na insight.",
+                "benefits": {
+                  "0": "Mga live na dashboard",
+                  "1": "Pagsusuri ng sentimyento",
+                  "2": "Pagtukoy sa trend"
+                }
+              },
+              "outreach": {
+                "title": "Naka-target na Outreach",
+                "description": "Abutin ang mga partikular na segment ng customer na may mga personalized na karanasan sa survey.",
+                "benefits": {
+                  "0": "Pag-target sa demograpiko",
+                  "1": "Pagse-segment sa pag-uugali",
+                  "2": "Pasadyang timing"
+                }
+              }
+            },
+            "surveyTypes": {
+              "csat": {
+                "title": "Kasiyahan ng Customer (CSAT)",
+                "description": "Sukatin ang pangkalahatang kasiyahan sa mga produkto, serbisyo, o mga pakikipag-ugnayan",
+                "questions": {
+                  "0": "Gaano ka nasiyahan sa aming serbisyo?",
+                  "1": "Ano ang maaari naming pagbutihin?",
+                  "2": "Irerekomenda mo ba kami?"
+                },
+                "metrics": {
+                  "0": "Marka ng CSAT",
+                  "1": "Net Promoter Score",
+                  "2": "Rate ng Pagtugon"
+                }
+              },
+              "postPurchase": {
+                "title": "Feedback Pagkatapos ng Pagbili",
+                "description": "Mangalap ng mga insight agad pagkatapos ng isang pagbili o pakikipag-ugnayan sa serbisyo",
+                "questions": {
+                  "0": "Kumusta ang iyong karanasan sa pagbili?",
+                  "1": "Natugunan ba ng produkto ang mga inaasahan?",
+                  "2": "Mayroon bang anumang mga isyu sa paghahatid?"
+                },
+                "metrics": {
+                  "0": "Kasiyahan sa Pagbili",
+                  "1": "Rating sa Paghahatid",
+                  "2": "Kalidad ng Produkto"
+                }
+              },
+              "productDev": {
+                "title": "Pag-unlad ng Produkto",
+                "description": "Mangolekta ng input para sa mga bagong tampok, produkto, o mga pagpapabuti sa serbisyo",
+                "questions": {
+                  "0": "Anong mga tampok ang gusto mong makita?",
+                  "1": "Paano mo ginagamit ang aming produkto?",
+                  "2": "Anong mga problema ang kailangang malutas?"
+                },
+                "metrics": {
+                  "0": "Mga Kahilingan sa Tampok",
+                  "1": "Mga Pattern ng Paggamit",
+                  "2": "Mga Punto ng Sakit"
+                }
+              },
+              "marketResearch": {
+                "title": "Pananaliksik sa Merkado",
+                "description": "Unawain ang mga trend sa merkado, mga kagustuhan, at landscape ng kumpetisyon",
+                "questions": {
+                  "0": "Anong mga brand ang mas gusto mo?",
+                  "1": "Paano ka gumagawa ng mga desisyon sa pagbili?",
+                  "2": "Ano ang nakakaimpluwensya sa iyong mga pagpipilian?"
+                },
+                "metrics": {
+                  "0": "Kamalayan sa Brand",
+                  "1": "Mga Driver ng Pagbili",
+                  "2": "Mga Trend sa Merkado"
+                }
+              }
+            },
+            "analytics": {
+              "sentimentAnalysis": {
+                "title": "Pagsusuri ng Sentimyento",
+                "description": "Unawain ang emosyonal na tono sa likod ng mga tugon"
+              },
+              "trendIdentification": {
+                "title": "Pagtukoy sa Trend",
+                "description": "Tukuyin nang maaga ang mga pattern at mga umuusbong na isyu"
+              },
+              "actionableReports": {
+                "title": "Mga Ulat na Naaaksyunan",
+                "description": "Kumuha ng mga partikular na rekomendasyon para sa pagpapabuti"
+              }
+            },
+            "analysisFeatures": {
+              "0": "Real-time na pagsusuri ng sentimyento",
+              "1": "Awtomatikong pagkakategorya ng tugon",
+              "2": "Pagtukoy at mga alerto sa trend",
+              "3": "Mga pasadyang dashboard ng pag-uulat",
+              "4": "Mga pagsasama sa mga sistema ng CRM",
+              "5": "Pagbuo ng mga naaaksyunan na insight"
+            },
+            "dashboard": {
+              "title": "Live na Dashboard ng Survey",
+              "responsesToday": "Mga Tugon Ngayon:",
+              "completionRate": "Rate ng Pagkumpleto:",
+              "avgSatisfaction": "Avg. na Kasiyahan:",
+              "sentiment": "Sentimyento:",
+              "responsesTodayValue": "1,847",
+              "completionRateValue": "85.3%",
+              "avgSatisfactionValue": "4.2/5",
+              "sentimentValue": "78% Positibo"
+            },
+            "benefits": {
+              "0": {
+                "metric": "3x",
+                "description": "Mas mataas na rate ng pagtugon kaysa sa mga tradisyonal na survey"
+              },
+              "1": {
+                "metric": "85%",
+                "description": "Rate ng pagkumpleto ng survey"
+              },
+              "2": {
+                "metric": "60%",
+                "description": "Mas detalyadong feedback na nakolekta"
+              },
+              "3": {
+                "metric": "24/7",
+                "description": "Awtomatikong pag-deploy ng survey"
+              }
+            },
+            "cta": {
+              "title": "Handa nang Mangalap ng Mas Mahusay na mga Insight sa Customer?",
+              "subtitle": "Simulang mangolekta ng mahalagang feedback sa mga survey sa pag-uusap na talagang gustong kumpletuhin ng mga customer",
+              "primaryBtn": "Ilunsad ang Kampanya sa Survey",
+              "secondaryBtn": "Tingnan ang Halimbawang Survey"
+            }
+          },
+          "proactiveSupport": {
+            "hero": {
+              "title": "Maagap na Suporta sa Customer",
+              "description": "Manatiling nangunguna sa mga isyu ng customer na may matalinong mga maagap na abiso. Awtomatikong ipaalam sa mga customer ang tungkol sa mga update sa serbisyo, mga pagbabago sa account, at mahalagang impormasyon bago sila kailangang tumawag sa iyo.",
+              "cta": "Paganahin ang Maagap na Suporta"
+            },
+            "features": {
+              "title": "Mga Tampok sa Matalinong Maagap",
+              "subtitle": "Advanced na automation na umaasa sa mga pangangailangan ng customer at pumipigil sa mga isyu",
+              "proactiveNotifications": {
+                "title": "Mga Maagap na Abiso",
+                "description": "Awtomatikong abisuhan ang mga customer tungkol sa mahahalagang update, pagbabago, o mga isyu bago sila maging mga problema.",
+                "benefit1": "Mga alerto sa serbisyo",
+                "benefit2": "Mga update sa account",
+                "benefit3": "Mga abiso sa pag-iwas"
+              },
+              "issuePrevention": {
+                "title": "Pag-iwas sa Isyu",
+                "description": "Tukuyin nang maaga ang mga potensyal na problema at makipag-ugnayan sa mga customer na may mga solusyon.",
+                "benefit1": "Maagang pagtuklas",
+                "benefit2": "Mga hakbang sa pag-iwas",
+                "benefit3": "Paglutas ng problema"
+              },
+              "timelyCommunication": {
+                "title": "Napapanahong Komunikasyon",
+                "description": "Maghatid ng kritikal na impormasyon sa tamang oras upang i-maximize ang kasiyahan ng customer.",
+                "benefit1": "Pinakamainam na timing",
+                "benefit2": "Kamalayan sa pagka-apurahan",
+                "benefit3": "Naka-iskedyul na paghahatid"
+              }
+            },
+            "notificationTypes": {
+              "title": "Mga Komprehensibong Uri ng Abiso",
+              "subtitle": "Saklawin ang lahat ng aspeto ng komunikasyon sa customer na may matalinong automation",
+              "serviceOutages": {
+                "type": "Mga Pagkawala ng Serbisyo",
+                "description": "Ipaalam sa mga customer ang tungkol sa nakaplanong pagpapanatili o hindi inaasahang mga pagkagambala sa serbisyo",
+                "example1": "Mga window ng nakaplanong pagpapanatili",
+                "example2": "Mga hindi inaasahang pagkawala",
+                "example3": "Mga update sa pagpapanumbalik ng serbisyo",
+                "urgency": "Mataas",
+                "timing": "Agad"
+              },
+              "accountChanges": {
+                "type": "Mga Pagbabago sa Account",
+                "description": "Abisuhan ang mga customer tungkol sa mahahalagang pagbabago sa kanilang mga account o serbisyo",
+                "example1": "Mga update sa patakaran",
+                "example2": "Mga pagbabago sa rate",
+                "example3": "Mga pagbabago sa tampok",
+                "urgency": "Katamtaman",
+                "timing": "Paunang abiso"
+              },
+              "securityAlerts": {
+                "type": "Mga Alerto sa Seguridad",
+                "description": "Alertuhan ang mga customer sa mga potensyal na isyu sa seguridad o mga kahina-hinalang aktibidad",
+                "example1": "Mga pagtatangka sa pag-login",
+                "example2": "Mga pagbabago sa password",
+                "example3": "Access sa account",
+                "urgency": "Mataas",
+                "timing": "Real-time"
+              },
+              "productUpdates": {
+                "type": "Mga Update sa Produkto",
+                "description": "Ibahagi ang impormasyon tungkol sa mga bagong tampok, pagpapabuti, o mga pagbabago",
+                "example1": "Mga bagong tampok",
+                "example2": "Mga update sa app",
+                "example3": "Mga pagpapahusay sa serbisyo",
+                "urgency": "Mababa",
+                "timing": "Naka-iskedyul"
+              },
+              "billingNotifications": {
+                "type": "Mga Abiso sa Pagsingil",
+                "description": "Maagap na komunikasyon tungkol sa pagsingil, mga pagbabayad, at katayuan ng account",
+                "example1": "Mga takdang petsa ng pagbabayad",
+                "example2": "Mga nabigong pagbabayad",
+                "example3": "Mga update sa credit",
+                "urgency": "Katamtaman",
+                "timing": "Paunang abiso"
+              },
+              "deliveryUpdates": {
+                "type": "Mga Update sa Paghahatid",
+                "description": "Panatilihing may kaalaman ang mga customer tungkol sa mga pagbabago sa katayuan ng padala at paghahatid",
+                "example1": "Mga pagkaantala sa pagpapadala",
+                "example2": "Mga kumpirmasyon sa paghahatid",
+                "example3": "Mga isyu sa address",
+                "urgency": "Katamtaman",
+                "timing": "Real-time"
+              }
+            },
+            "urgency": {
+              "high": "Mataas",
+              "medium": "Katamtaman",
+              "low": "Mababa"
+            },
+            "labels": {
+              "examples": "Mga Halimbawa",
+              "timing": "Timing"
+            },
+            "automationSection": {
+              "title": "Advanced na Makina ng Automation",
+              "description": "Patuloy na sinusubaybayan ng aming matalinong sistema ng automation ang iyong mga serbisyo at mga account ng customer, na awtomatikong nagti-trigger ng mga naaangkop na abiso batay sa mga paunang natukoy na panuntunan at mga kagustuhan ng customer.",
+              "subFeatures": {
+                "realTimeMonitoring": {
+                  "title": "Real-Time na Pagsubaybay",
+                  "description": "Patuloy na pagsubaybay sa system at account"
+                },
+                "smartPrioritization": {
+                  "title": "Matalinong Pag-priyoridad",
+                  "description": "Matalinong pag-ranggo at paghahatid ng alerto"
+                },
+                "customerPreferences": {
+                  "title": "Mga Kagustuhan ng Customer",
+                  "description": "Igalang ang mga indibidwal na kagustuhan sa komunikasyon"
+                }
+              },
+              "featuresTitle": "Mga Tampok sa Automation",
+              "features": {
+                "realTimeMonitoring": "Real-time na pagsubaybay sa system",
+                "intelligentPrioritization": "Matalinong pag-priyoridad ng alerto",
+                "preferenceManagement": "Pamamahala ng kagustuhan ng customer",
+                "multiChannelDelivery": "Mga pagpipilian sa paghahatid sa maraming channel",
+                "escalationProtocols": "Mga protocol sa pag-escalate",
+                "performanceAnalytics": "Analytics sa pagganap"
+              },
+              "liveMonitoring": {
+                "title": "Live na Pagsubaybay",
+                "activeMonitors": "Mga Aktibong Monitor:",
+                "activeMonitorsValue": "1,247",
+                "notificationsSent": "Mga Abiso na Ipinadala:",
+                "notificationsSentValue": "3,892",
+                "issuesPrevented": "Mga Isyu na Napigilan:",
+                "issuesPreventedValue": "156"
+              }
+            },
+            "benefits": {
+              "title": "Epekto sa Maagap na Suporta",
+              "subtitle": "Mga nasusukat na pagpapabuti sa kasiyahan ng customer at kahusayan sa suporta",
+              "reactiveCalls": {
+                "metric": "70%",
+                "description": "Pagbawas sa mga reaktibong tawag sa suporta"
+              },
+              "customerSatisfaction": {
+                "metric": "85%",
+                "description": "Kasiyahan ng customer sa mga maagap na update"
+              },
+              "customerChurn": {
+                "metric": "50%",
+                "description": "Pagbaba sa churn ng customer"
+              },
+              "automatedMonitoring": {
+                "metric": "24/7",
+                "description": "Awtomatikong pagsubaybay at mga alerto"
+              }
+            },
+            "cta": {
+              "title": "Handa nang Mauna sa mga Isyu ng Customer?",
+              "subtitle": "Baguhin ang iyong suporta sa customer na may matalinong mga maagap na abiso at pag-iwas sa isyu",
+              "startProactiveSupport": "Simulan ang Maagap na Suporta",
+              "seeDemo": "Tingnan ang Demo"
+            },
+            "title": "Maagap na Suporta",
+            "description": "Abisuhan ang mga customer tungkol sa mga update sa serbisyo at mahalagang impormasyon.",
+            "benefit1": "Maagap na komunikasyon",
+            "benefit2": "Pag-iwas sa isyu",
+            "benefit3": "Kasiyahan ng customer"
+          },
+          "seniorCheckCalls": {
+            "hero": {
+              "title": "Mga Tawag sa Pagsusuri at Pagsubaybay sa Kaayusan sa Nakatatanda",
+              "description": "Magbigay ng kapayapaan ng isip para sa mga pamilya na may regular na mga pagsusuri sa kaayusan na pinapagana ng AI para sa mga nakatatanda. Mga mahabaging pag-uusap na sumusubaybay sa kalusugan, nakakatuklas ng mga emergency, at tinitiyak ang kaligtasan habang pinapanatili ang dignidad at kalayaan.",
+              "button": "Simulan ang Pagsubaybay sa Kaayusan"
+            },
+            "features": {
+              "title": "Mahabaging Pangangalaga sa Nakatatanda",
+              "subtitle": "Teknolohiya ng AI na partikular na idinisenyo para sa kaayusan at kaligtasan ng mga nakatatanda",
+              "wellnessMonitoring": {
+                "title": "Pagsubaybay sa Kaayusan",
+                "description": "Regular na mga check-in upang subaybayan ang kalusugan at kapakanan ng mga nakatatanda na may mga mahabaging pag-uusap sa AI.",
+                "benefit1": "Araw-araw/lingguhang mga iskedyul",
+                "benefit2": "Pagsubaybay sa katayuan ng kalusugan",
+                "benefit3": "Mga paalala sa gamot"
+              },
+              "emergencyDetection": {
+                "title": "Pagtuklas ng Emergency",
+                "description": "Kinikilala ng advanced na AI ang mga signal ng pagkabalisa at mga sitwasyon sa emergency para sa agarang tugon.",
+                "benefit1": "Pagkilala sa krisis",
+                "benefit2": "Mga contact sa emergency",
+                "benefit3": "Mga alerto sa unang tumugon"
+              },
+              "flexibleScheduling": {
+                "title": "Flexible na Pag-iiskedyul",
+                "description": "Mga pasadyang iskedyul ng tawag na umaangkop sa mga indibidwal na kagustuhan at pangangailangan.",
+                "benefit1": "Personalized na timing",
+                "benefit2": "Mga pagsasaayos sa holiday",
+                "benefit3": "Koordinasyon ng pamilya"
+              }
+            },
+            "checkTypes": {
+              "title": "Mga Komprehensibong Serbisyo sa Check-In",
+              "subtitle": "Flexible na pagsubaybay sa kaayusan na iniakma sa mga indibidwal na pangangailangan",
+              "dailyWellness": {
+                "type": "Araw-araw na mga Pagsusuri sa Kaayusan",
+                "description": "Maikling araw-araw na mga tawag upang matiyak na ligtas at maayos ang mga nakatatanda",
+                "frequency": "Araw-araw sa gustong oras",
+                "duration": "3-5 minuto",
+                "focus1": "Pangkalahatang kapakanan",
+                "focus2": "Pagsunod sa gamot",
+                "focus3": "Kumpirmasyon sa kaligtasan"
+              },
+              "weeklyHealth": {
+                "type": "Lingguhang mga Pagsusuri sa Kalusugan",
+                "description": "Komprehensibong lingguhang mga pagtatasa ng kalusugan at mga pangangailangan",
+                "frequency": "Lingguhan sa napiling araw",
+                "duration": "10-15 minuto",
+                "focus1": "Mga pagbabago sa kalusugan",
+                "focus2": "Mga paalala sa appointment",
+                "focus3": "Mga update sa pamilya"
+              },
+              "emergencyResponse": {
+                "type": "Tugon sa Emergency",
+                "description": "Agad na tugon sa mga napalampas na tawag o mga signal ng pagkabalisa",
+                "frequency": "Kung kinakailangan",
+                "duration": "Variable",
+                "focus1": "Pag-verify ng kapakanan",
+                "focus2": "Mga serbisyo sa emergency",
+                "focus3": "Abiso sa pamilya"
+              },
+              "socialConnection": {
+                "type": "Koneksyon sa Lipunan",
+                "description": "Mga palakaibigang pag-uusap upang bawasan ang paghihiwalay at kalungkutan",
+                "frequency": "Dalawang beses sa isang linggo o buwanan",
+                "duration": "15-20 minuto",
+                "focus1": "Samahan",
+                "focus2": "Kalusugan ng pag-iisip",
+                "focus3": "Mga mungkahi sa aktibidad"
+              },
+              "labels": {
+                "frequency": "Dalas",
+                "duration": "Tagal",
+                "focusAreas": "Mga Pokus na Lugar:"
+              }
+            },
+            "safetyProtocols": {
+              "title": "Mga Advanced na Protocol sa Kaligtasan",
+              "description": "Kasama sa aming sistema ng tawag sa pagsusuri sa nakatatanda ang mga komprehensibong hakbang sa kaligtasan na idinisenyo upang matukoy ang mga emergency, makipag-coordinate sa mga miyembro ng pamilya, at matiyak ang mabilis na tugon kapag kinakailangan.",
+              "emergencyResponse": {
+                "title": "Tugon sa Emergency",
+                "description": "Agad na pag-escalate para sa mga napalampas na tawag o pagkabalisa"
+              },
+              "familyCoordination": {
+                "title": "Koordinasyon ng Pamilya",
+                "description": "Mga awtomatikong abiso sa pamilya at mga tagapag-alaga"
+              },
+              "healthcareIntegration": {
+                "title": "Pagsasama sa Pangangalagang Pangkalusugan",
+                "description": "Koordinasyon sa mga tagapagbigay ng pangangalagang pangkalusugan at mga serbisyo"
+              },
+              "featuresTitle": "Mga Tampok sa Kaligtasan",
+              "protocols": {
+                "missedCallEscalation": "Mga pamamaraan sa pag-escalate ng napalampas na tawag",
+                "emergencyKeyword": "Pagkilala sa keyword ng emergency",
+                "familyNotifications": "Mga abiso sa pamilya at tagapag-alaga",
+                "healthcareProvider": "Pagsasama ng tagapagbigay ng pangangalagang pangkalusugan",
+                "emergencyServices": "Koordinasyon ng mga lokal na serbisyo sa emergency",
+                "medicalAlert": "Compatibility ng sistema ng alerto sa medikal"
+              }
+            },
+            "benefits": {
+              "title": "Epekto sa Pagsubaybay sa Kaayusan",
+              "subtitle": "Mga nasusukat na pagpapabuti sa kaligtasan ng mga nakatatanda at kapayapaan ng isip ng pamilya",
+              "seniorSatisfaction": {
+                "metric": "95%",
+                "description": "Kasiyahan ng nakatatanda sa kasama sa AI"
+              },
+              "emergencyReduction": {
+                "metric": "40%",
+                "description": "Pagbawas sa mga insidente sa emergency"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "Availability ng tugon sa emergency"
+              },
+              "familyPeace": {
+                "metric": "85%",
+                "description": "Pagpapabuti sa kapayapaan ng isip ng pamilya"
+              }
+            },
+            "cta": {
+              "title": "Handa na Tiyakin ang Kaligtasan ng mga Nakatatanda?",
+              "description": "Magbigay ng kapayapaan ng isip na may mahabaging pagsubaybay sa kaayusan ng AI para sa iyong mga mahal sa buhay",
+              "startButton": "Simulan ang Pagsubaybay",
+              "learnButton": "Matuto Nang Higit Pa"
+            }
+          },
+          "subscriptionRenewals": {
+            "hero": {
+              "title": "Automation ng Pag-renew ng Subscription",
+              "description": "I-maximize ang mga pag-renew ng subscription gamit ang matalinong mga kampanya sa outreach na pinapagana ng AI na nakikipag-ugnayan sa mga customer sa tamang oras na may mga personalized na mensahe, walang putol na nagpoproseso ng mga pagbabayad, at binabawasan ang churn sa pamamagitan ng mga maagap na diskarte sa pagpapanatili.",
+              "cta": "I-automate ang mga Pag-renew"
+            },
+            "features": {
+              "title": "Mga Tampok sa Matalinong Pamamahala ng Pag-renew",
+              "subtitle": "Komprehensibong automation na nag-maximize ng mga pag-renew at binabawasan ang churn",
+              "automatedRenewalReminders": {
+                "title": "Mga Awtomatikong Paalala sa Pag-renew",
+                "description": "Matalinong mga paalala na ipinadala sa pinakamainam na mga oras upang i-maximize ang mga rate ng pag-renew at bawasan ang churn.",
+                "benefit1": "Personalized na timing",
+                "benefit2": "Maramihang mga touchpoint",
+                "benefit3": "Pag-optimize ng pag-renew"
+              },
+              "paymentProcessing": {
+                "title": "Pagproseso ng Pagbabayad",
+                "description": "Walang putol na koleksyon at pagproseso ng pagbabayad para sa mga pag-renew ng subscription sa telepono.",
+                "benefit1": "Mga secure na transaksyon",
+                "benefit2": "Maramihang mga paraan ng pagbabayad",
+                "benefit3": "Pagbawi sa nabigong pagbabayad"
+              },
+              "customerRetention": {
+                "title": "Pagpapanatili ng Customer",
+                "description": "Maagap na pakikipag-ugnayan upang tugunan ang mga alalahanin at panatilihin ang mga mahalagang subscriber.",
+                "benefit1": "Pag-iwas sa churn",
+                "benefit2": "Pagpapatibay ng halaga",
+                "benefit3": "Pagbuo ng katapatan"
+              }
+            },
+            "renewalProcess": {
+              "title": "Estratehikong Timeline ng Pag-renew",
+              "subtitle": "Na-optimize na pagkakasunud-sunod ng touchpoint upang i-maximize ang tagumpay sa pag-renew",
+              "step1": {
+                "title": "Maagang Abiso",
+                "description": "Paunang paalala na ipinadala 30 araw bago ang petsa ng pag-renew",
+                "timing": "30 araw bago",
+                "action": "Kamalayan at paghahanda"
+              },
+              "step2": {
+                "title": "Pagpapatibay ng Halaga",
+                "description": "I-highlight ang mga benepisyo sa subscription at mga istatistika ng paggamit",
+                "timing": "14 na araw bago",
+                "action": "Demonstrasyon ng halaga"
+              },
+              "step3": {
+                "title": "Kumpirmasyon sa Pag-renew",
+                "description": "Direktang kahilingan sa pag-renew na may pagproseso ng pagbabayad",
+                "timing": "7 araw bago",
+                "action": "Pagproseso ng pag-renew"
+              },
+              "step4": {
+                "title": "Huling Pagkakataon na Alok",
+                "description": "Huling paalala na may mga espesyal na alok sa pagpapanatili",
+                "timing": "1 araw bago",
+                "action": "Pagtatangka sa pagpapanatili"
+              }
+            },
+            "subscriptionTypes": {
+              "title": "Mga Diskarte na Partikular sa Industriya",
+              "subtitle": "Mga pinasadyang diskarte sa pag-renew para sa iba't ibang mga modelo ng subscription",
+              "saas": {
+                "type": "Software bilang isang Serbisyo (SaaS)",
+                "description": "Buwanan at taunang mga pag-renew ng subscription sa software",
+                "strategy1": "Mga ulat sa paggamit ng tampok",
+                "strategy2": "Mga demonstrasyon ng ROI",
+                "strategy3": "Mga pagkakataon sa pag-upgrade"
+              },
+              "mediaEntertainment": {
+                "type": "Media at Libangan",
+                "description": "Mga serbisyo sa streaming at mga subscription sa digital na nilalaman",
+                "strategy1": "Mga rekomendasyon sa nilalaman",
+                "strategy2": "Mga istatistika sa panonood",
+                "strategy3": "Mga eksklusibong alok"
+              },
+              "professionalServices": {
+                "type": "Mga Propesyonal na Serbisyo",
+                "description": "Pagkonsulta, pagtuturo, at mga pag-renew ng propesyonal na serbisyo",
+                "strategy1": "Mga sukatan ng tagumpay",
+                "strategy2": "Pagbuo ng relasyon",
+                "strategy3": "Pagpapalawak ng serbisyo"
+              },
+              "ecommerce": {
+                "type": "Mga Subscription sa E-commerce",
+                "description": "Paghahatid ng produkto at mga pag-renew ng membership",
+                "strategy1": "Kaginhawaan sa paghahatid",
+                "strategy2": "Pagtitipid sa gastos",
+                "strategy3": "Iba't ibang produkto"
+              },
+              "renewalStrategies": "Mga Diskarte sa Pag-renew:"
+            },
+            "retention": {
+              "title": "Mga Advanced na Diskarte sa Pagpapanatili",
+              "description": "Sinusuri ng aming AI ang pag-uugali ng customer, mga pattern ng paggamit, at mga antas ng pakikipag-ugnayan upang matukoy ang pinaka-epektibong diskarte sa pagpapanatili para sa bawat subscriber, na nag-maximize ng mga rate ng pag-renew at lifetime value ng customer.",
+              "optimalTiming": {
+                "title": "Pinakamainam na Timing",
+                "description": "Tinutukoy ng AI ang pinakamahusay na mga oras ng pakikipag-ugnayan para sa bawat customer"
+              },
+              "usageAnalytics": {
+                "title": "Analytics sa Paggamit",
+                "description": "Gamitin ang data ng customer para sa mga personalized na diskarte"
+              },
+              "segmentedCampaigns": {
+                "title": "Mga Naka-segment na Kampanya",
+                "description": "Mga pinasadyang mensahe para sa iba't ibang mga segment ng customer"
+              },
+              "tactics": {
+                "title": "Mga Taktika sa Pagpapanatili",
+                "tactic1": "Mga personalized na alok sa pag-renew",
+                "tactic2": "Analytics at mga insight sa paggamit",
+                "tactic3": "Mga gantimpala at diskwento sa katapatan",
+                "tactic4": "Mga pagpipilian sa pag-upgrade ng serbisyo",
+                "tactic5": "Flexibility ng plano ng pagbabayad",
+                "tactic6": "Mga kampanya sa pagbabalik"
+              },
+              "dashboard": {
+                "title": "Dashboard ng Pag-renew",
+                "renewalsThisMonth": "Mga Pag-renew Ngayong Buwan:",
+                "renewalRate": "Rate ng Pag-renew:",
+                "revenueRetained": "Napanatiling Kita:"
+              }
+            },
+            "benefits": {
+              "title": "Mga Resulta sa Pagganap ng Pag-renew",
+              "subtitle": "Mga subok na epekto sa mga sukatan ng negosyo sa subscription",
+              "metric1": {
+                "value": "85%",
+                "description": "Rate ng pag-renew ng subscription"
+              },
+              "metric2": {
+                "value": "40%",
+                "description": "Pagbawas sa hindi sinasadyang churn"
+              },
+              "metric3": {
+                "value": "60%",
+                "description": "Pagbaba sa mga pagkabigo sa pagbabayad"
+              },
+              "metric4": {
+                "value": "25%",
+                "description": "Pagtaas sa lifetime value ng customer"
+              }
+            },
+            "cta": {
+              "title": "Handa nang I-maximize ang mga Pag-renew ng Subscription?",
+              "description": "I-automate ang iyong proseso ng pag-renew at bawasan ang churn gamit ang matalinong mga kampanya na pinapagana ng AI",
+              "primaryButton": "Simulan ang Automation ng Pag-renew",
+              "secondaryButton": "Kalkulahin ang ROI"
+            }
+          },
+          "header": "Mga Solusyon sa Papalabas",
+          "description": "Maagap na makipag-ugnayan sa mga customer na may mga awtomatikong kampanya sa papalabas na pagtawag",
+          "collections": {
+            "title": "Serbisyo sa mga Koleksyon",
+            "description": "I-automate ang mga paalala sa pagbabayad at mga proseso ng koleksyon.",
+            "benefit1": "Mas mabilis na mga koleksyon",
+            "benefit2": "Mga kasunduan sa pagbabayad",
+            "benefit3": "Pagsunod"
+          },
+          "reactivation": {
+            "title": "Reactivation ng Customer",
+            "description": "Muling makipag-ugnayan sa mga hindi aktibong customer na may personalized na outreach.",
+            "benefit1": "Mga kampanya sa pagbabalik",
+            "benefit2": "Mga personalized na alok",
+            "benefit3": "Pagpapanatili ng customer"
+          },
+          "seniorChecks": {
+            "title": "Mga Tawag sa Pagsusuri sa Nakatatanda",
+            "description": "Magbigay ng mga pagsusuri sa kaayusan para sa mga nakatatanda sa regular o on-demand na batayan.",
+            "benefit1": "Pagsubaybay sa kaayusan",
+            "benefit2": "Pag-escalate sa emergency",
+            "benefit3": "Kapayapaan ng isip"
+          },
+          "campaigns": {
+            "title": "Mga Kampanya sa Malaking Scale",
+            "description": "Magsagawa ng mga kampanya sa marketing at impormasyon na may mataas na dami.",
+            "benefit1": "Mass reach",
+            "benefit2": "Mga personalized na mensahe",
+            "benefit3": "Epektibo sa gastos"
+          },
+          "renewals": {
+            "title": "Mga Pag-renew ng Subscription",
+            "description": "I-automate ang mga paalala at pagproseso ng pag-renew ng subscription.",
+            "benefit1": "Mga awtomatikong pag-renew",
+            "benefit2": "Nabawasang churn",
+            "benefit3": "Proteksyon sa kita"
+          },
+          "surveys": {
+            "title": "Mga Survey sa Customer",
+            "description": "Magsagawa ng awtomatikong koleksyon ng feedback pagkatapos ng serbisyo.",
+            "benefit1": "Koleksyon ng feedback",
+            "benefit2": "Mga insight sa kalidad",
+            "benefit3": "Data ng pagpapabuti"
+          }
+        },
+        "hero": {
+          "title": "Mga Solusyon sa Boses ng AI para sa Bawat Pangangailangan sa Negosyo",
+          "description": "Tuklasin ang mga komprehensibong solusyon sa automation ng boses sa papasok at papalabas na idinisenyo upang baguhin ang iyong mga komunikasyon sa customer at mga operasyon sa negosyo."
+        },
+        "cta": {
+          "title": "Handa nang Baguhin ang Iyong mga Komunikasyon sa Negosyo?",
+          "description": "Tuklasin kung paano maaaring i-automate ng aming mga solusyon sa boses ng AI ang iyong mga pakikipag-ugnayan sa customer at mag-drive ng paglago ng negosyo",
+          "button": "Mag-iskedyul ng isang Konsultasyon"
+        },
+        "learnMore": "Matuto Nang Higit Pa"
+      }
+    }
+  }
+}

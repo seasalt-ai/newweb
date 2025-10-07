@@ -1,0 +1,1553 @@
+{
+  "seachat": {
+    "solutions": {
+      "healthcare": {
+        "title": "의료 솔루션",
+        "subtitle": "환자 만족도를 높이고, 운영을 간소화하며, 치료 조정을 강화하는 HIPAA 준수 고객 지원으로 환자 치료를 혁신하세요.",
+        "trialButton": "의료 솔루션 무료 시작",
+        "demoButton": "의료 데모 예약",
+        "featuresTitle": "의료 특화 기능",
+        "featuresSubtitle": "의료 서비스 제공자가 탁월한 환자 치료를 제공할 수 있도록 특별히 제작된 기능입니다.",
+        "features": {
+          "hipaa": {
+            "title": "HIPAA 준수",
+            "description": "암호화된 통신 및 안전한 데이터 처리를 통한 완벽한 HIPAA 준수",
+            "benefits": {
+              "encryption": "종단 간 암호화",
+              "audit": "감사 추적",
+              "access": "액세스 제어",
+              "anonymization": "데이터 익명화"
+            }
+          },
+          "appointments": {
+            "title": "예약 관리",
+            "description": "원활한 예약, 재예약 및 알림 시스템",
+            "benefits": {
+              "availability": "실시간 가용성",
+              "reminders": "자동 알림",
+              "cancellation": "취소 처리",
+              "waitlist": "대기 목록 관리"
+            }
+          },
+          "telehealth": {
+            "title": "원격 의료 지원",
+            "description": "원격 환자 상담을 위한 통합 원격 의료 기능",
+            "benefits": {
+              "video": "화상 상담",
+              "messaging": "보안 메시징",
+              "documents": "문서 공유",
+              "followup": "후속 치료"
+            }
+          },
+          "engagement": {
+            "title": "환자 참여",
+            "description": "연중무휴 지원 및 개인화된 치료로 환자 만족도 향상",
+            "benefits": {
+              "availability": "연중무휴 가용성",
+              "multilanguage": "다국어 지원",
+              "coordination": "치료 조정",
+              "education": "건강 교육"
+            }
+          }
+        },
+        "metricsTitle": "의료 영향 지표",
+        "metricsSubtitle": "SeaChat을 사용하여 환자 지원을 제공하는 의료 서비스 제공자의 실제 결과입니다.",
+        "metrics": {
+          "noshows": {
+            "label": "노쇼 감소",
+            "description": "자동 예약 알림으로",
+            "value": "40%"
+          },
+          "response": {
+            "label": "더 빠른 응답 시간",
+            "description": "환자 문의 및 우려 사항에 대해",
+            "value": "60%"
+          },
+          "satisfaction": {
+            "label": "환자 만족도",
+            "description": "연중무휴 지원 가용성으로",
+            "value": "85%"
+          },
+          "efficiency": {
+            "label": "관리 효율성",
+            "description": "자동화된 워크플로우를 통해",
+            "value": "50%"
+          }
+        },
+        "useCasesTitle": "일반적인 의료 사용 사례",
+        "useCasesSubtitle": "SeaChat이 일반적인 환자 상호 작용 및 관리 작업을 처리하는 방법을 확인하세요.",
+        "useCases": {
+          "appointments": {
+            "title": "예약",
+            "description": "환자는 채팅을 통해 예약, 재예약 또는 취소할 수 있습니다",
+            "example": "다음 주 화요일로 예약을 변경해야 합니다",
+            "outcome": "캘린더 통합 및 확인을 통한 자동 예약"
+          },
+          "prescriptions": {
+            "title": "처방전 문의",
+            "description": "처방전 리필 및 약물 질문을 안전하게 처리",
+            "example": "제 처방전은 언제 받을 수 있나요?",
+            "outcome": "실시간 약국 통합 및 상태 업데이트"
+          },
+          "insurance": {
+            "title": "보험 확인",
+            "description": "보험 적용 범위를 확인하고 환자에게 혜택 설명",
+            "example": "제 시술이 보험 플랜에 포함되나요?",
+            "outcome": "즉각적인 보험 확인 및 적용 범위 설명"
+          },
+          "symptoms": {
+            "title": "증상 사전 심사",
+            "description": "AI 기반 증상 평가 및 분류 권장 사항",
+            "example": "열과 기침이 있는데, 병원에 가야 할까요?",
+            "outcome": "적절한 치료 권장 사항이 포함된 증상 평가"
+          }
+        },
+        "patientRequest": "환자 요청",
+        "seachatResponse": "SeaChat 응답",
+        "hipaaTitle": "HIPAA 준수 및 보안",
+        "hipaaSubtitle": "의료 보안 및 규정 준수를 염두에 두고 처음부터 구축되었습니다. 탁월한 치료 경험을 제공하면서 환자 데이터를 보호하세요.",
+        "compliance": {
+          "complianceFeatures": [
+            "종단 간 암호화",
+            "감사 추적",
+            "액세스 제어",
+            "데이터 익명화",
+            "안전한 데이터 저장",
+            "정기 보안 감사",
+            "직원 교육 및 인증",
+            "사고 대응 절차"
+          ]
+        },
+        "certificationsTitle": "보안 인증",
+        "certifications": {
+          "hipaa": "HIPAA 준수",
+          "soc2": "SOC 2 Type II",
+          "iso": "ISO 27001",
+          "gdpr": "GDPR 준비 완료"
+        },
+        "certified": "인증됨",
+        "compliant": "준수",
+        "ctaTitle": "환자 치료를 혁신할 준비가 되셨습니까?",
+        "ctaSubtitle": "최고의 보안 및 규정 준수 표준을 유지하면서 탁월한 환자 경험을 제공하기 위해 SeaChat을 이미 사용하고 있는 의료 서비스 제공자에 합류하세요.",
+        "ctaTrialButton": "의료 솔루션 무료 시작",
+        "ctaDemoButton": "의료 데모 예약"
+      },
+      "fintech": {
+        "securityFeatures": [
+          "모든 통신에 대한 종단 간 암호화",
+          "다단계 인증 및 신원 확인",
+          "정기 보안 감사 및 침투 테스트",
+          "ISO 27001 인증 인프라",
+          "실시간 사기 모니터링 및 탐지",
+          "속도 제한이 있는 보안 API 엔드포인트"
+        ],
+        "title": "핀테크 솔루션",
+        "subtitle": "금융 서비스를 위한 안전하고 규정을 준수하는 고객 지원. 거래를 처리하고, 투자 지침을 제공하며, 규정 준수를 확신합니다.",
+        "trialButton": "핀테크 솔루션 무료 시작",
+        "demoButton": "금융 데모 예약",
+        "featuresTitle": "금융 서비스 기능",
+        "featuresSubtitle": "금융 기관이 안전하고 규정을 준수하는 고객 지원을 제공할 수 있도록 특별히 제작된 기능입니다.",
+        "features": {
+          "security": {
+            "title": "금융 보안",
+            "description": "PCI DSS 준수 및 사기 방지 기능을 갖춘 은행 수준 보안",
+            "benefits": {
+              "pci": "PCI DSS 준수",
+              "fraud": "사기 탐지",
+              "transactions": "안전한 거래",
+              "identity": "신원 확인"
+            }
+          },
+          "payment": {
+            "title": "결제 지원",
+            "description": "포괄적인 결제 처리 지원 및 분쟁 해결",
+            "benefits": {
+              "tracking": "거래 추적",
+              "dispute": "분쟁 처리",
+              "refund": "환불 처리",
+              "methods": "결제 방법"
+            }
+          },
+          "investment": {
+            "title": "투자 지침",
+            "description": "AI 기반 투자 조언 및 포트폴리오 관리 지원",
+            "benefits": {
+              "insights": "시장 통찰력",
+              "portfolio": "포트폴리오 분석",
+              "risk": "위험 평가",
+              "recommendations": "투자 권장 사항"
+            }
+          },
+          "compliance": {
+            "title": "규정 준수",
+            "description": "금융 규정 및 보고 요구 사항에 대한 내장된 준수",
+            "benefits": {
+              "kyc": "KYC/AML 준수",
+              "reporting": "규제 보고",
+              "audit": "감사 추적",
+              "protection": "데이터 보호"
+            }
+          }
+        },
+        "impactTitle": "금융 서비스 영향",
+        "impactSubtitle": "SeaChat을 사용하여 고객 지원을 제공하는 금융 기관의 실제 결과입니다.",
+        "metrics": {
+          "accuracy": {
+            "label": "거래 정확도",
+            "description": "자동 처리 및 확인으로"
+          },
+          "resolution": {
+            "label": "더 빠른 해결",
+            "description": "금융 문의 및 분쟁에 대해"
+          },
+          "fraud": {
+            "label": "사기 탐지율",
+            "description": "AI 기반 모니터링 시스템으로"
+          },
+          "satisfaction": {
+            "label": "고객 만족도",
+            "description": "금융 지원 상호 작용에 대해"
+          }
+        },
+        "useCasesTitle": "금융 지원 사용 사례",
+        "useCasesSubtitle": "SeaChat이 복잡한 금융 문의 및 거래를 처리하는 방법을 확인하세요.",
+        "useCases": {
+          "account": {
+            "title": "계정 관리",
+            "description": "계정 설정, 확인 및 관리에 대한 고객 지원",
+            "example": "사업 계정 설정에 도움이 필요합니다",
+            "outcome": "문서 확인 및 규정 준수 검사를 통한 안내식 계정 설정"
+          },
+          "transaction": {
+            "title": "거래 문의",
+            "description": "실시간 거래 상태 및 기록 정보 제공",
+            "example": "ABC 회사로의 송금은 어디에 있나요?",
+            "outcome": "자세한 상태 업데이트가 포함된 실시간 거래 추적"
+          },
+          "fraud": {
+            "title": "사기 방지",
+            "description": "AI 모니터링으로 사기 활동 탐지 및 방지",
+            "example": "제 계정에 의심스러운 청구가 있습니다",
+            "outcome": "즉각적인 사기 조사 및 계정 보호 조치"
+          },
+          "investment": {
+            "title": "투자 지침",
+            "description": "AI 기반 투자 조언 및 포트폴리오 관리 지원",
+            "example": "지금 기술주에 투자해야 할까요?",
+            "outcome": "위험 프로필 및 시장 분석을 기반으로 한 개인화된 투자 조언"
+          }
+        },
+        "customerInquiry": "고객 문의",
+        "seachatResponse": "SeaChat 응답",
+        "securityTitle": "은행 수준 보안 및 규정 준수",
+        "securitySubtitle": "금융 서비스 기관을 위한 최고 보안 표준 및 규정 준수 요구 사항을 염두에 두고 구축되었습니다.",
+        "regulatoryTitle": "규정 준수",
+        "regulations": {
+          "pci": {
+            "name": "PCI DSS",
+            "description": "결제 카드 산업 데이터 보안 표준",
+            "status": "준수"
+          },
+          "sox": {
+            "name": "SOX",
+            "description": "사베인즈-옥슬리 법 준수",
+            "status": "준수"
+          },
+          "gdpr": {
+            "name": "GDPR",
+            "description": "일반 데이터 보호 규정",
+            "status": "준수"
+          },
+          "kyc": {
+            "name": "KYC/AML",
+            "description": "고객 알기 / 자금 세탁 방지",
+            "status": "지원됨"
+          },
+          "ccpa": {
+            "name": "CCPA",
+            "description": "캘리포니아 소비자 개인 정보 보호법",
+            "status": "준수"
+          },
+          "finra": {
+            "name": "FINRA",
+            "description": "금융 산업 규제 기관",
+            "status": "지원됨"
+          }
+        },
+        "certified": "인증됨",
+        "compliant": "준수",
+        "ctaTitle": "금융 서비스를 안전하게 보호할 준비가 되셨습니까?",
+        "ctaSubtitle": "신뢰를 구축하고 성장을 촉진하는 안전하고 규정을 준수하는 고객 지원을 제공하기 위해 SeaChat을 이미 사용하고 있는 금융 기관에 합류하세요.",
+        "ctaTrialButton": "핀테크 솔루션 무료 시작",
+        "ctaDemoButton": "금융 데모 예약"
+      },
+      "ecommerce": {
+        "title": "전자상거래 및 소매",
+        "subtitle": "판매를 촉진하고, 장바구니 포기를 줄이며, 충성도 높은 고객을 만드는 지능형 고객 지원으로 온라인 상점을 혁신하세요.",
+        "trialButton": "전자상거래 솔루션 무료 시작",
+        "demoButton": "전자상거래 데모 예약",
+        "featuresTitle": "전자상거래 특화 기능",
+        "featuresSubtitle": "온라인 소매업체가 판매를 극대화하고 고객 만족도를 높일 수 있도록 특별히 제작된 기능입니다.",
+        "features": {
+          "orders": {
+            "title": "주문 관리 통합",
+            "description": "실시간 주문 추적 및 업데이트를 위해 전자상거래 플랫폼과 원활하게 통합하세요.",
+            "benefits": {
+              "status": "실시간 주문 상태",
+              "shipping": "자동 배송 업데이트",
+              "returns": "반품 처리",
+              "inventory": "재고 문의"
+            }
+          },
+          "accounts": {
+            "title": "고객 계정 지원",
+            "description": "계정 문제, 비밀번호 재설정 및 프로필 관리에 대한 고객 지원.",
+            "benefits": {
+              "recovery": "계정 복구",
+              "updates": "프로필 업데이트",
+              "subscriptions": "구독 관리",
+              "billing": "청구 지원"
+            }
+          },
+          "recommendations": {
+            "title": "제품 추천",
+            "description": "고객 선호도 및 검색 기록을 기반으로 한 AI 기반 제품 제안.",
+            "benefits": {
+              "personalized": "개인화된 제안",
+              "cross": "교차 판매 기회",
+              "upselling": "상향 판매 자동화",
+              "inventory": "재고 최적화"
+            }
+          },
+          "assistance": {
+            "title": "연중무휴 쇼핑 지원",
+            "description": "다른 시간대 및 쇼핑 패턴에 걸쳐 고객을 위한 연중무휴 지원.",
+            "benefits": {
+              "global": "글로벌 적용 범위",
+              "peak": "피크 시간 지원",
+              "holiday": "휴일 지원",
+              "mobile": "모바일 쇼핑 도움말"
+            }
+          }
+        },
+        "resultsTitle": "입증된 전자상거래 결과",
+        "resultsSubtitle": "SeaChat을 사용하여 고객 지원을 제공하는 전자상거래 기업의 실제 지표입니다.",
+        "metrics": {
+          "conversion": {
+            "label": "판매 전환 증가",
+            "description": "사전 예방적 고객 지원을 통해"
+          },
+          "abandonment": {
+            "label": "장바구니 포기 감소",
+            "description": "실시간 쇼핑 지원으로"
+          },
+          "resolution": {
+            "label": "더 빠른 주문 해결",
+            "description": "자동 주문 상태 업데이트"
+          },
+          "satisfaction": {
+            "label": "고객 만족도",
+            "description": "전자상거래 지원 상호 작용에 대해"
+          }
+        },
+        "integrationsTitle": "전자상거래 플랫폼 통합",
+        "integrationsSubtitle": "통합 고객 지원을 위해 기존 전자상거래 스택과 원활하게 연결하세요.",
+        "integrations": {
+          "shopify": {
+            "name": "Shopify",
+            "description": "전체 주문 통합 기능을 갖춘 기본 Shopify 앱"
+          },
+          "woocommerce": {
+            "name": "WooCommerce",
+            "description": "WooCommerce 상점을 위한 WordPress 플러그인"
+          },
+          "magento": {
+            "name": "Magento",
+            "description": "엔터프라이즈급 Magento 통합"
+          },
+          "bigcommerce": {
+            "name": "BigCommerce",
+            "description": "완벽한 BigCommerce API 통합"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "결제 처리 및 청구 지원"
+          },
+          "paypal": {
+            "name": "PayPal",
+            "description": "PayPal 거래 및 분쟁 처리"
+          }
+        },
+        "successTitle": "성공 사례: 패션 소매업체",
+        "challenge": "과제",
+        "challengeDescription": "높은 장바구니 포기율과 사이즈 질문 및 제품 가용성 문제로 인한 고객 이탈.",
+        "solution": "솔루션",
+        "solutionDescription": "제품 카탈로그 통합, 사이즈 가이드 및 사전 예방적 장바구니 포기 복구 기능을 갖춘 SeaChat 배포.",
+        "results": "결과",
+        "result1": "전환율 45% 증가",
+        "result2": "장바구니 포기 60% 감소",
+        "result3": "6개월 만에 230만 달러 추가 수익",
+        "chatPreview": "라이브 채팅 미리보기",
+        "customer": "고객",
+        "customerQuestion": "이 드레스는 M 사이즈로 구매할 수 있나요?",
+        "seachatAI": "SeaChat AI",
+        "aiResponse1": "네! 블루 여름 드레스는 M 사이즈로 구매할 수 있습니다. 재고가 3개 있습니다. 장바구니에 추가해 드릴까요?",
+        "customerResponse": "완벽합니다! 네, 추가해 주세요.",
+        "aiResponse2": "장바구니에 추가되었습니다! 🛍️ 무료 배송 대상입니다. 결제하시겠습니까?",
+        "ctaTitle": "전자상거래 판매를 늘릴 준비가 되셨습니까?",
+        "ctaSubtitle": "전환율을 높이고, 장바구니 포기를 줄이며, 탁월한 쇼핑 경험을 만들기 위해 SeaChat을 이미 사용하고 있는 수백 개의 온라인 소매업체에 합류하세요.",
+        "ctaTrialButton": "전자상거래 솔루션 무료 시작",
+        "ctaDemoButton": "전자상거래 데모 예약"
+      },
+      "education": {
+        "title": "교육 솔루션",
+        "subtitle": "학생, 학부모, 교직원을 위한 AI 기반 지원으로 교육 지원을 혁신하세요. 운영을 간소화하고 학습 경험을 향상시키세요.",
+        "trialButton": "교육 솔루션 무료 시작",
+        "demoButton": "교육 데모 예약",
+        "featuresTitle": "교육 특화 기능",
+        "featuresSubtitle": "교육 기관이 학생 성공 및 운영 효율성을 높일 수 있도록 특별히 제작된 기능입니다.",
+        "features": {
+          "student": {
+            "title": "학생 지원 서비스",
+            "description": "학생 문의, 등록 및 학업 지원을 위한 포괄적인 지원",
+            "benefits": {
+              "support": "연중무휴 학생 지원",
+              "enrollment": "등록 지원",
+              "academic": "학업 지도",
+              "technical": "기술 지원"
+            }
+          },
+          "admin": {
+            "title": "관리 자동화",
+            "description": "자동화된 일정 관리 및 알림으로 관리 작업 간소화",
+            "benefits": {
+              "scheduling": "수업 일정 관리",
+              "events": "이벤트 관리",
+              "deadlines": "마감일 알림",
+              "registration": "등록 지원"
+            }
+          },
+          "stakeholder": {
+            "title": "다중 이해 관계자 지원",
+            "description": "맞춤형 경험으로 학생, 학부모, 교직원 지원",
+            "benefits": {
+              "portals": "학생 포털",
+              "parent": "학부모 커뮤니케이션",
+              "faculty": "교직원 지원",
+              "staff": "직원 조정"
+            }
+          },
+          "lms": {
+            "title": "학습 관리 통합",
+            "description": "LMS 플랫폼 및 교육 도구와의 원활한 통합",
+            "benefits": {
+              "connectivity": "LMS 연결성",
+              "grades": "성적 문의",
+              "assignments": "과제 도움말",
+              "courses": "과정 정보"
+            }
+          }
+        },
+        "stakeholdersTitle": "모든 이해 관계자를 위한 지원",
+        "stakeholdersSubtitle": "교육 커뮤니티의 모든 구성원을 위한 맞춤형 경험.",
+        "stakeholders": {
+          "students": {
+            "title": "학생",
+            "description": "학업 지원, 등록 도움말 및 캠퍼스 서비스",
+            "features": {
+              "courses": "과정 정보",
+              "assignments": "과제 마감일",
+              "grades": "성적 문의",
+              "campus": "캠퍼스 내비게이션"
+            }
+          },
+          "parents": {
+            "title": "학부모",
+            "description": "학생 진행 상황 및 기관 업데이트에 대한 정보 유지",
+            "features": {
+              "progress": "진행 상황 업데이트",
+              "payment": "결제 정보",
+              "events": "이벤트 알림",
+              "communication": "교직원과의 커뮤니케이션"
+            }
+          },
+          "faculty": {
+            "title": "교직원",
+            "description": "관리 지원 및 교육 지원",
+            "features": {
+              "management": "수업 관리",
+              "inquiries": "학생 문의",
+              "resources": "리소스 요청",
+              "technical": "기술 지원"
+            }
+          },
+          "staff": {
+            "title": "직원",
+            "description": "운영 효율성 및 관리 자동화",
+            "features": {
+              "automation": "프로세스 자동화",
+              "information": "정보 액세스",
+              "workflow": "워크플로우 관리",
+              "reporting": "보고 도구"
+            }
+          }
+        },
+        "metricsTitle": "교육 영향 지표",
+        "metricsSubtitle": "SeaChat을 사용하여 학생 및 관리 지원을 제공하는 교육 기관의 실제 결과입니다.",
+        "metrics": {
+          "admin": {
+            "label": "관리 업무량 감소",
+            "description": "자동화된 학생 문의를 통해"
+          },
+          "satisfaction": {
+            "label": "학생 만족도",
+            "description": "연중무휴 지원 가용성으로"
+          },
+          "response": {
+            "label": "더 빠른 응답 시간",
+            "description": "학생 및 학부모 문의에 대해"
+          },
+          "enrollment": {
+            "label": "등록 증가",
+            "description": "간소화된 신청 절차로"
+          }
+        },
+        "useCasesTitle": "일반적인 교육 사용 사례",
+        "useCasesSubtitle": "SeaChat이 일반적인 학생 및 관리 상호 작용을 처리하는 방법을 확인하세요.",
+        "useCases": {
+          "enrollment": {
+            "title": "학생 등록",
+            "description": "예비 학생에게 등록 절차 안내",
+            "example": "컴퓨터 과학 프로그램에 지원하고 싶습니다",
+            "outcome": "문서 요구 사항 및 마감일이 포함된 단계별 등록 안내"
+          },
+          "academic": {
+            "title": "학업 지원",
+            "description": "학업 지원 및 과정 정보 제공",
+            "example": "제 역사 과제 마감일은 언제인가요?",
+            "outcome": "과제 마감일 및 제출 지침에 대한 실시간 액세스"
+          },
+          "campus": {
+            "title": "캠퍼스 서비스",
+            "description": "캠퍼스 시설, 식사, 숙소 및 교통편 지원",
+            "example": "도서관에서 스터디룸을 예약하려면 어떻게 해야 하나요?",
+            "outcome": "가용성 및 확인이 포함된 직접 예약 시스템 통합"
+          },
+          "financial": {
+            "title": "재정 지원",
+            "description": "재정 지원 신청 및 장학금 정보 지원",
+            "example": "어떤 장학금을 받을 수 있나요?",
+            "outcome": "학생 프로필을 기반으로 한 개인화된 장학금 추천"
+          }
+        },
+        "studentInquiry": "학생 문의",
+        "seachatResponse": "SeaChat 응답",
+        "integrationsTitle": "교육 플랫폼 통합",
+        "integrationsSubtitle": "인기 있는 교육 도구 및 플랫폼과 원활하게 연결하세요.",
+        "integrations": {
+          "canvas": {
+            "name": "Canvas LMS",
+            "description": "학습 관리 시스템 통합"
+          },
+          "blackboard": {
+            "name": "Blackboard",
+            "description": "과정 관리 및 콘텐츠 제공"
+          },
+          "moodle": {
+            "name": "Moodle",
+            "description": "오픈 소스 학습 플랫폼"
+          },
+          "google": {
+            "name": "Google Classroom",
+            "description": "교육 협업 플랫폼"
+          },
+          "zoom": {
+            "name": "Zoom",
+            "description": "가상 수업을 위한 화상 회의"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "교육 협업 및 커뮤니케이션"
+          },
+          "sis": {
+            "name": "학생 정보 시스템",
+            "description": "학생 기록을 위한 SIS 통합"
+          },
+          "library": {
+            "name": "도서관 시스템",
+            "description": "자원 예약 및 카탈로그 검색"
+          }
+        },
+        "ctaTitle": "교육 지원을 혁신할 준비가 되셨습니까?",
+        "ctaSubtitle": "학생 성공을 높이고 관리 운영을 간소화하기 위해 SeaChat을 이미 사용하고 있는 교육 기관에 합류하세요.",
+        "ctaTrialButton": "교육 솔루션 무료 시작",
+        "ctaDemoButton": "교육 데모 예약"
+      },
+      "realEstate": {
+        "title": "부동산 솔루션",
+        "subtitle": "리드를 확보하고, 쇼잉을 조정하며, 연중무휴 고객 지원을 제공하는 AI 기반 고객 지원으로 부동산 사업을 혁신하세요.",
+        "trialButton": "부동산 솔루션 무료 시작",
+        "demoButton": "부동산 데모 예약",
+        "featuresTitle": "부동산 특화 기능",
+        "featuresSubtitle": "부동산 전문가가 리드를 확보하고 고객에게 더 나은 서비스를 제공할 수 있도록 특별히 제작된 기능입니다.",
+        "features": {
+          "search": {
+            "title": "부동산 검색 지원",
+            "description": "AI 기반 검색 및 추천으로 고객이 완벽한 부동산을 찾도록 지원",
+            "benefits": {
+              "matching": "스마트 부동산 매칭",
+              "insights": "시장 통찰력",
+              "neighborhood": "인근 정보",
+              "analysis": "가격 분석"
+            }
+          },
+          "showing": {
+            "title": "쇼잉 조정",
+            "description": "자동화된 일정 관리 및 조정을 통해 부동산 쇼잉 간소화",
+            "benefits": {
+              "scheduling": "자동 일정 관리",
+              "availability": "가용성 동기화",
+              "reminders": "알림",
+              "route": "경로 최적화"
+            }
+          },
+          "leads": {
+            "title": "리드 관리",
+            "description": "지능형 자격 부여 및 후속 조치로 리드 확보 및 육성",
+            "benefits": {
+              "qualification": "리드 자격 부여",
+              "followup": "자동 후속 조치",
+              "crm": "CRM 통합",
+              "tracking": "전환 추적"
+            }
+          },
+          "communication": {
+            "title": "고객 커뮤니케이션",
+            "description": "문의, 업데이트 및 거래 지원을 위한 연중무휴 고객 지원",
+            "benefits": {
+              "availability": "연중무휴 가용성",
+              "updates": "거래 업데이트",
+              "assistance": "문서 지원",
+              "market": "시장 업데이트"
+            }
+          }
+        },
+        "metricsTitle": "부동산 영향 지표",
+        "metricsSubtitle": "SeaChat을 사용하여 고객 지원 및 리드 생성을 제공하는 부동산 전문가의 실제 결과입니다.",
+        "metrics": {
+          "leads": {
+            "label": "더 많은 자격 있는 리드",
+            "description": "지능형 리드 자격 부여를 통해"
+          },
+          "response": {
+            "label": "더 빠른 응답 시간",
+            "description": "고객 문의 및 요청에 대해"
+          },
+          "showing": {
+            "label": "쇼잉 효율성",
+            "description": "자동화된 일정 조정으로"
+          },
+          "satisfaction": {
+            "label": "고객 만족도",
+            "description": "연중무휴 지원 가용성으로"
+          }
+        },
+        "propertyTypesTitle": "모든 부동산 유형 지원",
+        "propertyTypesSubtitle": "주거용, 상업용 또는 투자용 부동산을 전문으로 하든 상관없이 저희가 도와드립니다.",
+        "propertyTypes": {
+          "residential": {
+            "name": "주거용 판매",
+            "description": "단독 주택, 콘도 및 타운하우스"
+          },
+          "commercial": {
+            "name": "상업용 부동산",
+            "description": "사무실 건물, 소매 공간 및 창고"
+          },
+          "rental": {
+            "name": "임대 부동산",
+            "description": "아파트 단지 및 임대 관리"
+          },
+          "luxury": {
+            "name": "고급 부동산",
+            "description": "고급 주택 및 독점 목록"
+          },
+          "investment": {
+            "name": "투자 부동산",
+            "description": "수리 후 재판매 및 임대 투자"
+          },
+          "new": {
+            "name": "신축",
+            "description": "건설업체 파트너십 및 신규 개발"
+          }
+        },
+        "useCasesTitle": "부동산 사용 사례",
+        "useCasesSubtitle": "SeaChat이 일반적인 부동산 고객 상호 작용 및 리드 생성을 처리하는 방법을 확인하세요.",
+        "useCases": {
+          "property": {
+            "title": "부동산 문의",
+            "description": "부동산 질문을 처리하고 자세한 정보 제공",
+            "example": "Oak Street에 있는 침실 3개짜리 집에 대해 알려주세요",
+            "outcome": "사진, 가격 및 인근 데이터가 포함된 자세한 부동산 정보"
+          },
+          "showing": {
+            "title": "쇼잉 요청",
+            "description": "부동산 방문 일정을 잡고 모든 당사자와 조정",
+            "example": "이번 주말에 쇼잉 일정을 잡고 싶습니다",
+            "outcome": "상담원 가용성 및 확인이 포함된 자동 일정 관리"
+          },
+          "market": {
+            "title": "시장 분석",
+            "description": "시장 통찰력 및 부동산 가치 평가 제공",
+            "example": "오늘날 시장에서 제 집의 가치는 얼마인가요?",
+            "outcome": "최근 판매 및 동향이 포함된 비교 시장 분석"
+          },
+          "transaction": {
+            "title": "거래 지원",
+            "description": "고객이 구매 또는 판매 프로세스를 진행하도록 안내",
+            "example": "클로징에 필요한 서류는 무엇인가요?",
+            "outcome": "마감일 및 지침이 포함된 필수 서류 체크리스트"
+          }
+        },
+        "clientInquiry": "고객 문의",
+        "seachatResponse": "SeaChat 응답",
+        "integrationsTitle": "부동산 플랫폼 통합",
+        "integrationsSubtitle": "부동산 사업을 관리하는 데 이미 사용하고 있는 도구 및 플랫폼과 원활하게 연결하세요.",
+        "leadCaptureTitle": "리드 확보 예시",
+        "websiteVisitor": "웹사이트 방문자",
+        "visitorQuery": "50만 달러 미만의 침실 3개짜리 집을 찾고 있습니다",
+        "seachatAI": "SeaChat AI",
+        "aiResponse": "완벽한 집을 찾는 데 도움을 드리고 싶습니다! 50만 달러 미만의 침실 3개짜리 부동산이 여러 개 있습니다. 옵션을 보내드릴 수 있도록 연락처 정보를 알려주시겠습니까?",
+        "visitorResponse": "네! 제 이메일은 john@email.com입니다",
+        "systemAction": "시스템 작업",
+        "leadCaptured": "리드 확보 및 부동산 선호도와 함께 CRM에 추가됨",
+        "ctaTitle": "부동산 사업을 혁신할 준비가 되셨습니까?",
+        "ctaSubtitle": "더 많은 리드를 확보하고, 쇼잉을 조정하며, 탁월한 고객 서비스를 제공하기 위해 SeaChat을 이미 사용하고 있는 부동산 전문가에 합류하세요.",
+        "ctaTrialButton": "부동산 솔루션 무료 시작",
+        "ctaDemoButton": "부동산 데모 예약",
+        "integrations": [
+          "MLS 통합",
+          "CRM 시스템",
+          "부동산 관리",
+          "리드 생성 도구",
+          "캘린더 및 일정 관리",
+          "이메일 마케팅",
+          "문서 관리",
+          "가상 투어 플랫폼"
+        ]
+      },
+      "saas": {
+        "title": "SaaS 및 기술",
+        "subtitle": "기술 지원, 온보딩 지침 및 사전 예방적 성공 관리를 제공하는 지능형 고객 지원으로 사용자 채택을 가속화하고 이탈을 줄이세요.",
+        "trialButton": "SaaS 솔루션 무료 시작",
+        "demoButton": "SaaS 데모 예약",
+        "featuresTitle": "SaaS 특화 기능",
+        "featuresSubtitle": "SaaS 기업이 사용자 성공 및 비즈니스 성장을 촉진할 수 있도록 특별히 제작된 기능입니다.",
+        "features": {
+          "technical": {
+            "title": "기술 지원",
+            "description": "소프트웨어 문제 및 통합에 대한 전문 기술 지원 제공",
+            "benefits": {
+              "api": "API 문서 도움말",
+              "integration": "통합 지원",
+              "troubleshooting": "문제 해결 가이드",
+              "resources": "개발자 리소스"
+            }
+          },
+          "onboarding": {
+            "title": "사용자 온보딩",
+            "description": "안내식 설정 및 기능 소개로 사용자 온보딩 간소화",
+            "benefits": {
+              "tutorials": "대화형 튜토리얼",
+              "walkthroughs": "기능 둘러보기",
+              "setup": "설정 지원",
+              "practices": "모범 사례"
+            }
+          },
+          "success": {
+            "title": "고객 성공",
+            "description": "사전 예방적 지원으로 제품 채택을 촉진하고 이탈을 줄이세요",
+            "benefits": {
+              "analytics": "사용량 분석",
+              "adoption": "기능 채택",
+              "churn": "이탈 방지",
+              "upselling": "상향 판매 기회"
+            }
+          },
+          "security": {
+            "title": "보안 및 규정 준수",
+            "description": "보안 문제 및 규정 준수 요구 사항 해결",
+            "benefits": {
+              "documentation": "보안 문서",
+              "compliance": "규정 준수 가이드",
+              "protection": "데이터 보호",
+              "audit": "감사 지원"
+            }
+          }
+        },
+        "useCases": {
+          "api": {
+            "title": "API 통합 도움말",
+            "description": "API 구현 및 문제 해결에 대한 개발자 지원",
+            "example": "API로 인증하려면 어떻게 해야 하나요?",
+            "outcome": "코드 예제 및 테스트 도구가 포함된 단계별 인증 가이드"
+          },
+          "feature": {
+            "title": "기능 안내",
+            "description": "사용자가 고급 기능을 발견하고 구현하도록 지원",
+            "example": "자동화된 워크플로우를 설정하려면 어떻게 해야 하나요?",
+            "outcome": "워크플로우 템플릿 및 구성 지원이 포함된 대화형 튜토리얼"
+          },
+          "billing": {
+            "title": "청구 및 구독",
+            "description": "청구 문의 및 구독 관리 처리",
+            "example": "플랜을 업그레이드하고 싶은데, 차이점은 무엇인가요?",
+            "outcome": "가격 세부 정보 및 업그레이드 지원이 포함된 플랜 비교"
+          },
+          "performance": {
+            "title": "성능 최적화",
+            "description": "소프트웨어 성능 최적화에 대한 지침 제공",
+            "example": "제 대시보드가 느리게 로드되는데, 어떻게 해결할 수 있나요?",
+            "outcome": "최적화 권장 사항 및 구현 지원이 포함된 성능 분석"
+          }
+        },
+        "metrics": {
+          "tickets": {
+            "label": "지원 티켓 감소",
+            "description": "셀프 서비스 자동화를 통해"
+          },
+          "onboarding": {
+            "label": "더 빠른 온보딩",
+            "description": "안내식 설정 지원으로"
+          },
+          "adoption": {
+            "label": "더 높은 기능 채택",
+            "description": "사전 예방적 기능 안내를 통해"
+          },
+          "churn": {
+            "label": "이탈률 감소",
+            "description": "사전 예방적 고객 성공으로"
+          }
+        },
+        "types": {
+          "b2b": {
+            "title": "B2B SaaS 플랫폼",
+            "description": "엔터프라이즈 소프트웨어 및 비즈니스 도구",
+            "features": {
+              "tenant": "다중 테넌트 지원",
+              "security": "엔터프라이즈 보안",
+              "api": "API 문서",
+              "assistance": "통합 지원"
+            }
+          },
+          "developer": {
+            "title": "개발자 도구",
+            "description": "API, SDK 및 개발 플랫폼",
+            "features": {
+              "examples": "코드 예제",
+              "documentation": "기술 문서",
+              "debugging": "디버깅 도움말",
+              "community": "커뮤니티 지원"
+            }
+          },
+          "marketing": {
+            "title": "마케팅 소프트웨어",
+            "description": "마케팅 자동화 및 분석 도구",
+            "features": {
+              "campaign": "캠페인 설정",
+              "analytics": "분석 지침",
+              "integration": "통합 도움말",
+              "practices": "모범 사례"
+            }
+          },
+          "productivity": {
+            "title": "생산성 앱",
+            "description": "협업 및 생산성 소프트웨어",
+            "features": {
+              "tutorials": "기능 튜토리얼",
+              "workflow": "워크플로우 최적화",
+              "team": "팀 설정",
+              "usage": "사용량 분석"
+            }
+          },
+          "ecommerce": {
+            "title": "전자상거래 플랫폼",
+            "description": "온라인 상점 및 결제 솔루션",
+            "features": {
+              "store": "상점 설정",
+              "payment": "결제 통합",
+              "theme": "테마 사용자 정의",
+              "performance": "성능 최적화"
+            }
+          },
+          "analytics": {
+            "title": "분석 플랫폼",
+            "description": "데이터 분석 및 비즈니스 인텔리전스",
+            "features": {
+              "dashboard": "대시보드 생성",
+              "data": "데이터 통합",
+              "report": "보고서 생성",
+              "visualization": "시각화 도움말"
+            }
+          }
+        },
+        "typesTitle": "모든 SaaS 카테고리 지원",
+        "typesSubtitle": "엔터프라이즈 플랫폼에서 개발자 도구에 이르기까지 모든 유형의 SaaS 비즈니스를 지원합니다.",
+        "impactTitle": "SaaS 비즈니스 영향",
+        "impactSubtitle": "SeaChat을 사용하여 고객 지원 및 성공을 제공하는 SaaS 기업의 실제 결과입니다.",
+        "useCasesTitle": "SaaS 지원 사용 사례",
+        "useCasesSubtitle": "SeaChat이 일반적인 SaaS 고객 상호 작용 및 기술 지원을 처리하는 방법을 확인하세요.",
+        "userQuestion": "사용자 질문",
+        "seachatResponse": "SeaChat 응답",
+        "integrationsTitle": "SaaS 플랫폼 통합",
+        "integrationsSubtitle": "SaaS 비즈니스를 지원하는 도구 및 플랫폼과 연결하여 통합 고객 성공 운영을 수행하세요.",
+        "successFlowTitle": "고객 성공 흐름",
+        "flow": {
+          "onboarding": {
+            "title": "사용자 온보딩",
+            "description": "안내식 설정 및 기능 소개"
+          },
+          "adoption": {
+            "title": "기능 채택",
+            "description": "사전 예방적 기능 추천"
+          },
+          "monitoring": {
+            "title": "사용량 모니터링",
+            "description": "참여도 추적 및 문제 식별"
+          },
+          "growth": {
+            "title": "성공 및 성장",
+            "description": "상향 판매 및 확장 기회"
+          }
+        },
+        "ctaTitle": "SaaS 성장을 가속화할 준비가 되셨습니까?",
+        "ctaSubtitle": "사용자 채택을 촉진하고, 이탈을 줄이며, 고객 성공을 가속화하기 위해 SeaChat을 이미 사용하고 있는 SaaS 기업에 합류하세요.",
+        "ctaTrialButton": "SaaS 솔루션 무료 시작",
+        "ctaDemoButton": "SaaS 데모 예약",
+        "integrations": [
+          "Slack 통합",
+          "Salesforce CRM",
+          "HubSpot",
+          "Zendesk",
+          "Intercom",
+          "Stripe",
+          "Google Analytics",
+          "Microsoft Teams",
+          "Jira",
+          "GitHub",
+          "Atlassian Suite",
+          "AWS Services"
+        ]
+      },
+      "smallBusiness": {
+        "title": "소기업 솔루션",
+        "subtitle": "소기업을 위한 저렴하고 사용하기 쉬운 고객 지원. 무료로 시작하고 비용을 들이지 않고도 고객에게 더 나은 서비스를 제공하는 데 도움이 되는 기능으로 성장하세요.",
+        "startButton": "오늘 무료로 시작하기",
+        "demoButton": "소기업 데모 보기",
+        "featuresTitle": "소기업 성공을 위해 구축됨",
+        "featuresSubtitle": "소기업이 복잡하거나 비용 없이 전문적인 고객 지원을 제공하는 데 필요한 모든 것.",
+        "features": {
+          "local": {
+            "title": "지역 비즈니스 지원",
+            "description": "지역 상점, 레스토랑 및 서비스 제공업체에 적합",
+            "benefits": {
+              "seo": "지역 SEO 최적화",
+              "google": "Google My Business 통합",
+              "reviews": "리뷰 관리",
+              "customer": "지역 고객 기반"
+            }
+          },
+          "cost": {
+            "title": "비용 효율적인 솔루션",
+            "description": "비즈니스와 함께 성장하는 저렴한 가격",
+            "benefits": {
+              "free": "무료 플랜 사용 가능",
+              "setup": "설정 비용 없음",
+              "pricing": "유연한 가격",
+              "roi": "ROI 추적"
+            }
+          },
+          "setup": {
+            "title": "빠른 설정",
+            "description": "몇 시간 또는 며칠이 아닌 몇 분 안에 시작",
+            "benefits": {
+              "minutes": "5분 설정",
+              "templates": "사전 구축된 템플릿",
+              "integration": "쉬운 통합",
+              "activation": "즉시 활성화"
+            }
+          },
+          "personal": {
+            "title": "개인적인 터치",
+            "description": "효율적으로 확장하면서 개인적인 관계 유지",
+            "benefits": {
+              "history": "고객 기록",
+              "notes": "개인 메모",
+              "relationship": "관계 구축",
+              "community": "지역 사회 집중"
+            }
+          }
+        },
+        "typesTitle": "모든 소기업에 완벽",
+        "typesSubtitle": "소매점에서 전문 서비스에 이르기까지 모든 유형의 소기업을 지원합니다.",
+        "types": {
+          "retail": {
+            "name": "소매점",
+            "description": "의류, 전자 제품, 가정 용품 및 전문점",
+            "features": {
+              "product": "제품 문의",
+              "hours": "영업 시간",
+              "inventory": "재고 확인",
+              "appointment": "예약"
+            }
+          },
+          "restaurants": {
+            "name": "레스토랑 및 카페",
+            "description": "식당 및 식품 서비스 사업",
+            "features": {
+              "menu": "메뉴 질문",
+              "reservations": "예약",
+              "takeout": "테이크아웃 주문",
+              "dietary": "식단 정보"
+            }
+          },
+          "professional": {
+            "name": "전문 서비스",
+            "description": "변호사, 회계사, 컨설턴트 및 에이전시",
+            "features": {
+              "consultation": "상담 예약",
+              "service": "서비스 정보",
+              "documents": "문서 요청",
+              "followup": "후속 일정"
+            }
+          },
+          "health": {
+            "name": "건강 및 웰빙",
+            "description": "체육관, 스파, 클리닉 및 웰빙 센터",
+            "features": {
+              "appointment": "예약",
+              "class": "수업 예약",
+              "membership": "회원 정보",
+              "consultations": "건강 상담"
+            }
+          },
+          "home": {
+            "name": "가정 서비스",
+            "description": "계약자, 청소부, 조경사 및 수리 서비스",
+            "features": {
+              "quotes": "서비스 견적",
+              "scheduling": "일정 관리",
+              "emergency": "긴급 요청",
+              "followup": "후속 지원"
+            }
+          },
+          "creative": {
+            "name": "크리에이티브 서비스",
+            "description": "사진작가, 디자이너, 예술가 및 스튜디오",
+            "features": {
+              "portfolio": "포트폴리오 공유",
+              "quotes": "프로젝트 견적",
+              "booking": "세션 예약",
+              "consultations": "크리에이티브 상담"
+            }
+          }
+        },
+        "affordableTitle": "모든 예산에 맞는 저렴한 가격",
+        "affordableSubtitle": "완전히 무료로 시작하고 성장함에 따라 필요한 만큼만 지불하세요. 숨겨진 비용, 장기 계약, 놀라움 없음.",
+        "pricingTitle": "간단한 가격",
+        "pricing": {
+          "free": {
+            "title": "평생 무료",
+            "period": "월별",
+            "agent": "평생 1명의 인간 상담원",
+            "conversations": "무제한 대화",
+            "widget": "기본 웹사이트 위젯",
+            "support": "이메일 지원"
+          },
+          "starter": {
+            "title": "AI 스타터",
+            "period": "월별",
+            "everything": "무료의 모든 기능",
+            "ai": "AI 자동화",
+            "analytics": "고급 분석",
+            "priority": "우선 지원"
+          }
+        },
+        "resultsTitle": "소기업 결과",
+        "resultsSubtitle": "SeaChat을 사용하여 고객 서비스를 개선하고 비즈니스를 성장시키는 소기업의 실제 결과입니다.",
+        "metrics": {
+          "inquiries": {
+            "label": "더 많은 고객 문의",
+            "description": "연중무휴 가용성으로"
+          },
+          "bookings": {
+            "label": "예약 증가",
+            "description": "자동 일정 관리를 통해"
+          },
+          "time": {
+            "label": "시간 절약",
+            "description": "일상적인 고객 질문에 대해"
+          },
+          "satisfaction": {
+            "label": "고객 만족도",
+            "description": "즉각적인 응답으로"
+          }
+        },
+        "scenariosTitle": "일반적인 소기업 시나리오",
+        "scenariosSubtitle": "SeaChat이 일반적인 소기업 고객 상호 작용을 처리하는 방법을 확인하세요.",
+        "useCases": {
+          "inquiries": {
+            "title": "고객 문의",
+            "description": "제품, 서비스 및 영업 시간에 대한 일반적인 질문 처리",
+            "example": "일요일에도 영업하나요? 몇 시에 문 닫나요?",
+            "outcome": "현재 영업 시간 및 휴일 일정 정보가 포함된 즉각적인 응답"
+          },
+          "booking": {
+            "title": "예약",
+            "description": "고객이 직접 예약 및 서비스를 예약할 수 있도록 허용",
+            "example": "이번 주 금요일 오후에 이발 예약을 해야 합니다",
+            "outcome": "예약 확인 및 알림이 포함된 실시간 가용성 확인"
+          },
+          "product": {
+            "title": "제품 정보",
+            "description": "자세한 제품 정보 및 가용성 제공",
+            "example": "파란색 iPhone 15가 있나요?",
+            "outcome": "가격 및 예약 옵션이 포함된 제품 가용성 확인"
+          },
+          "directions": {
+            "title": "지역 길찾기",
+            "description": "고객이 위치를 찾고 길을 찾도록 지원",
+            "example": "시내에서 매장까지 어떻게 가나요?",
+            "outcome": "길찾기 및 주차 정보가 포함된 대화형 지도"
+          }
+        },
+        "customerQuestion": "고객 질문",
+        "seachatResponse": "SeaChat 응답",
+        "ctaTitle": "소기업을 성장시킬 준비가 되셨습니까?",
+        "ctaSubtitle": "SeaChat을 사용하여 전문적인 고객 지원을 제공하고 대기업 비용 없이 비즈니스를 성장시키는 수천 개의 소기업에 합류하세요.",
+        "ctaStartButton": "소기업 솔루션 무료 시작",
+        "ctaDemoButton": "소기업 데모 예약",
+        "affordableFeatures": [
+          "평생 완전히 무료로 시작",
+          "설정 또는 온보딩 비용 없음",
+          "사용하는 기능에 대해서만 지불",
+          "언제든지 취소, 계약 없음",
+          "성장과 함께 가격 확장",
+          "무료 마이그레이션 지원",
+          "연중무휴 이메일 지원 포함",
+          "30일 환불 보장"
+        ]
+      },
+      "travel": {
+        "bookingFlowTitle": "여행 예약 흐름",
+        "ctaDemoButton": "여행 데모 예약",
+        "ctaSubtitle": "전 세계적으로 탁월한 고객 서비스를 제공하고 예약 프로세스를 간소화하기 위해 SeaChat을 이미 사용하고 있는 여행사에 합류하세요.",
+        "ctaTitle": "여행 경험을 혁신할 준비가 되셨습니까?",
+        "ctaTrialButton": "여행 솔루션 무료 시작",
+        "demoButton": "여행 데모 예약",
+        "features": {
+          "booking": {
+            "benefits": {
+              "availability": "실시간 가용성",
+              "cancellation": "취소 지원",
+              "comparisons": "가격 비교",
+              "modifications": "예약 변경"
+            },
+            "description": "실시간 가용성으로 항공편, 호텔 및 활동 예약에 대한 고객 지원",
+            "title": "예약 지원"
+          },
+          "management": {
+            "benefits": {
+              "documents": "문서 관리",
+              "loyalty": "로열티 프로그램",
+              "reminders": "알림",
+              "tracking": "여행 추적"
+            },
+            "description": "예약부터 여행 후 후속 조치까지 포괄적인 여행 관리",
+            "title": "여행 관리"
+          },
+          "planning": {
+            "benefits": {
+              "insights": "목적지 통찰력",
+              "itinerary": "일정 생성",
+              "recommendations": "지역 추천",
+              "weather": "날씨 업데이트"
+            },
+            "description": "개인화된 여행 추천 및 일정 계획 제공",
+            "title": "여행 계획"
+          },
+          "support": {
+            "benefits": {
+              "emergency": "긴급 지원",
+              "multilanguage": "다국어 지원",
+              "timezone": "글로벌 시간대 지원",
+              "updates": "실시간 업데이트"
+            },
+            "description": "다른 시간대에 걸쳐 여행자를 위한 연중무휴 지원",
+            "title": "연중무휴 여행 지원"
+          }
+        },
+        "featuresSubtitle": "고객 경험을 향상시키기 위해 여행 및 숙박업체를 위해 특별히 제작된 기능입니다.",
+        "featuresTitle": "여행 산업 기능",
+        "flow": {
+          "assistance": {
+            "description": "결제 처리가 포함된 안내식 예약",
+            "title": "예약 지원"
+          },
+          "confirmation": {
+            "description": "지속적인 지원이 포함된 예약 확인",
+            "title": "확인 및 지원"
+          },
+          "inquiry": {
+            "description": "고객이 여행 옵션에 대해 문의",
+            "title": "여행 문의"
+          },
+          "search": {
+            "description": "AI가 여러 시스템에서 검색",
+            "title": "실시간 검색"
+          }
+        },
+        "impactSubtitle": "SeaChat을 사용하여 고객 지원 및 예약 지원을 제공하는 여행사의 실제 결과입니다.",
+        "impactTitle": "여행 산업 영향",
+        "integrationsSubtitle": "통합 운영을 위해 여행 예약 시스템, GDS 플랫폼 및 숙박 관리 도구와 원활하게 연결하세요.",
+        "integrationsTitle": "여행 산업 통합",
+        "metrics": {
+          "booking": {
+            "description": "AI 지원 검색 및 예약으로",
+            "label": "더 빠른 예약 프로세스",
+            "value": "60%"
+          },
+          "call": {
+            "description": "자동 여행 지원을 통해",
+            "label": "통화량 감소",
+            "value": "40%"
+          },
+          "resolution": {
+            "description": "여행 관련 문의에 대해",
+            "label": "문제 해결률",
+            "value": "95%"
+          },
+          "satisfaction": {
+            "label": "고객 만족도",
+            "description": "연중무휴 여행 지원 가용성으로",
+            "value": "85%"
+          }
+        },
+        "seachatResponse": "SeaChat 응답",
+        "services": {
+          "agencies": {
+            "description": "포괄적인 여행 계획 및 예약 서비스",
+            "features": {
+              "deals": "패키지 상품",
+              "groups": "단체 예약",
+              "insurance": "여행 보험",
+              "itineraries": "맞춤형 일정"
+            },
+            "title": "여행사"
+          },
+          "airlines": {
+            "description": "항공편 예약, 체크인 및 여행 업데이트",
+            "features": {
+              "baggage": "수하물 추적",
+              "loyalty": "로열티 프로그램",
+              "seat": "좌석 선택",
+              "status": "항공편 상태"
+            },
+            "title": "항공사"
+          },
+          "car": {
+            "description": "차량 렌탈 지원 및 지원",
+            "features": {
+              "availability": "차량 가용성",
+              "insurance": "보험 옵션",
+              "locations": "픽업 장소",
+              "roadside": "긴급 출동 서비스"
+            },
+            "title": "렌터카"
+          },
+          "cruise": {
+            "description": "크루즈 예약 및 선상 서비스",
+            "features": {
+              "cabin": "객실 선택",
+              "dining": "식사 예약",
+              "entertainment": "엔터테인먼트 예약",
+              "shore": "해안 여행"
+            },
+            "title": "크루즈 라인"
+          },
+          "hotels": {
+            "description": "호텔 예약 및 게스트 서비스",
+            "features": {
+              "amenity": "편의 시설 정보",
+              "booking": "객실 예약",
+              "loyalty": "로열티 보상",
+              "requests": "특별 요청"
+            },
+            "title": "호텔 및 숙박 시설"
+          },
+          "tour": {
+            "description": "가이드 투어 및 활동 예약",
+            "features": {
+              "availability": "투어 가용성",
+              "equipment": "장비 렌탈",
+              "guides": "지역 가이드",
+              "sizes": "그룹 크기"
+            },
+            "title": "투어 운영자"
+          }
+        },
+        "servicesSubtitle": "항공사부터 호텔, 렌터카부터 크루즈 라인까지 - 모든 여행 서비스를 지원합니다.",
+        "servicesTitle": "모든 여행 서비스 포함",
+        "subtitle": "예약을 처리하고, 연중무휴 지원을 제공하며, 고객을 위한 기억에 남는 여행을 만드는 AI 기반 고객 지원으로 여행 경험을 혁신하세요.",
+        "title": "여행 및 숙박",
+        "travelerRequest": "여행자 요청",
+        "trialButton": "여행 솔루션 무료 시작",
+        "useCases": {
+          "destination": {
+            "description": "여행 조언, 지역 통찰력 및 목적지 추천 제공",
+            "example": "파리에서 가장 좋은 레스토랑은 어디인가요?",
+            "outcome": "예약 및 지역 통찰력이 포함된 엄선된 레스토랑 추천",
+            "title": "목적지 정보"
+          },
+          "disruptions": {
+            "description": "항공편 지연, 취소 및 재예약 지원 처리",
+            "example": "제 항공편이 취소되었습니다. 어떤 옵션이 있나요?",
+            "outcome": "대체 항공편 및 보상 정보가 포함된 즉각적인 재예약 지원",
+            "title": "여행 중단"
+          },
+          "documentation": {
+            "description": "비자 요구 사항, 여권 정보 및 여행 서류 지원",
+            "example": "일본 여행에 비자가 필요한가요?",
+            "outcome": "신청 절차 및 타임라인이 포함된 포괄적인 비자 요구 사항",
+            "title": "여행 서류"
+          },
+          "flight": {
+            "description": "항공편 예약, 변경 및 취소 지원",
+            "example": "항공편을 화요일에서 목요일로 변경해야 합니다",
+            "outcome": "재예약 옵션 및 수수료 정보가 포함된 실시간 항공편 가용성 확인",
+            "title": "항공편 예약 및 변경"
+          }
+        },
+        "useCasesSubtitle": "SeaChat이 일반적인 여행 문의 및 예약 지원을 처리하는 방법을 확인하세요.",
+        "useCasesTitle": "여행 지원 사용 사례",
+        "integrations": [
+          "GDS 시스템 (Amadeus, Sabre, Galileo)",
+          "항공사 예약 시스템",
+          "호텔 예약 시스템",
+          "렌터카 플랫폼",
+          "여행 보험 제공업체",
+          "결제 처리 시스템"
+        ]
+      }
+    },
+    "channels": {
+      "title": "모든 고객 채널 연결",
+      "description": "모든 고객 커뮤니케이션을 하나의 플랫폼에 통합하세요. WhatsApp부터 전화 통화, SMS부터 소셜 미디어까지 - 단일 대시보드에서 모든 대화를 관리하세요.",
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "description": "세계에서 가장 인기 있는 메시징 플랫폼에서 고객과 연결"
+      },
+      "voice": {
+        "title": "음성 및 전화 통화",
+        "description": "AI 음성 봇 및 인간 상담원 지원을 갖춘 전문 전화 시스템"
+      },
+      "sms": {
+        "title": "SMS 메시징",
+        "description": "개인화된 SMS 캠페인으로 고객에게 즉시 연락"
+      },
+      "website": {
+        "title": "웹사이트 채팅 위젯",
+        "description": "AI 기반 채팅으로 웹사이트 방문자를 대화로 전환"
+      },
+      "cta": {
+        "exploreAll": "모든 채널 탐색",
+        "subtitle": "9개 채널이 모두 원활하게 작동하는 방법을 확인하세요"
+      }
+    },
+    "comparison": {
+      "title": "성장하는 기업이 다른 대안보다 Seasalt.ai를 선택하는 이유",
+      "description": "다른 솔루션과 비교하여 저희가 어떻게 다른지 확인하세요. 저희는 소기업의 단순함으로 엔터프라이즈 기능을 제공하는 유일한 플랫폼입니다.",
+      "recommended": "추천",
+      "table": {
+        "headers": {
+          "platform": "플랫폼",
+          "startingPrice": "시작 가격",
+          "pricingModel": "가격 모델",
+          "unifiedVoiceDigital": "통합 음성 및 디지털",
+          "aiCapabilities": "AI 기능",
+          "bestFor": "가장 적합한 대상"
+        }
+      },
+      "competitors": {
+        "seasalt": {
+          "startingPrice": "$20/상담원/월",
+          "pricingModel": "간단한 사용자당",
+          "unifiedVoiceDigital": "✅ 예, 기본",
+          "aiCapabilities": "✅ 예, 기본 음성 및 챗봇",
+          "bestFor": "저렴하고 진정한 올인원 플랫폼이 필요한 중소기업."
+        },
+        "aircall": {
+          "startingPrice": "$30/사용자/월",
+          "pricingModel": "사용자당 + 추가 기능",
+          "unifiedVoiceDigital": "⚠️ 음성 + WhatsApp (추가 기능)",
+          "aiCapabilities": "⚠️ AI는 유료 추가 기능",
+          "bestFor": "여러 추가 기능을 감당할 수 있고 최소 3명의 사용자를 충족하는 영업팀."
+        },
+        "ringcentral": {
+          "startingPrice": "$65/상담원/월",
+          "pricingModel": "복잡한 계층",
+          "unifiedVoiceDigital": "❌ 별도 제품",
+          "aiCapabilities": "✅ 예 (AI 기반 CCaaS)",
+          "bestFor": "별도의 CCaaS가 있는 광범위한 UCaaS 플랫폼이 필요한 대기업."
+        },
+        "genesys": {
+          "startingPrice": "$75/사용자/월",
+          "pricingModel": "사용자당 + 높은 최소값",
+          "unifiedVoiceDigital": "✅ 예 (상위 계층에서)",
+          "aiCapabilities": "✅ 예 (복잡한 토큰 시스템)",
+          "bestFor": "전담 컨택 센터 팀과 예산을 가진 대기업."
+        },
+        "five9": {
+          "startingPrice": "$119/사용자/월",
+          "pricingModel": "사용자당 + 번들",
+          "unifiedVoiceDigital": "✅ 예 (프리미엄 계층에서)",
+          "aiCapabilities": "✅ 예 (고급 AI)",
+          "bestFor": "엔터프라이즈급 도구가 필요한 대규모 아웃바운드 중심 컨택 센터."
+        },
+        "googleVoice": {
+          "startingPrice": "$10/사용자/월",
+          "pricingModel": "사용자당 + 워크스페이스 비용",
+          "unifiedVoiceDigital": "❌ 아니요",
+          "aiCapabilities": "❌ 아니요 (음성 메일 전사만)",
+          "bestFor": "기본적인 별도 전화 번호가 필요한 1인 기업가 (미국만 해당)."
+        }
+      },
+      "cta": {
+        "seeAllComparisons": "모든 자세한 비교 보기"
+      }
+    },
+    "footer": {
+      "product": "제품",
+      "company": {
+        "productWiki": "제품 위키",
+        "apiReferences": "API 참조",
+        "careers": "채용",
+        "title": "회사",
+        "about": "회사 소개"
+      },
+      "resources": "리소스",
+      "legal": {
+        "privacyPolicy": "개인 정보 처리 방침",
+        "termsOfService": "서비스 약관"
+      },
+      "getStarted": "시작할 준비가 되셨습니까?",
+      "joinThousands": "탁월한 고객 경험을 제공하기 위해 SeaChat을 이미 사용하고 있는 수천 개의 기업에 합류하세요.",
+      "enterEmail": "이메일 주소 입력",
+      "noCredit": "신용 카드 필요 없음 • 2분 안에 설정 • 언제든지 취소",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. 모든 권리 보유.",
+      "compliance": "🔒 SOC 2 준수",
+      "gdpr": "🛡️ GDPR 준비 완료",
+      "uptime": "⚡ 99.9% 가동 시간",
+      "brand": {
+        "description": "인간 상담원과 AI 자동화의 완벽한 조화로 고객 지원을 혁신하세요. 무료로 시작하고, 스마트하게 확장하고, 더 빠르게 성공하세요."
+      },
+      "contact": {
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "Seattle, WA"
+      },
+      "stats": {
+        "messagesDaily": "일일 500만 개 이상의 메시지",
+        "activeUsers": "10만 명 이상의 활성 사용자",
+        "uptime": "99.9% 가동 시간"
+      },
+      "cta": {
+        "title": "고객 지원을 혁신할 준비가 되셨습니까?",
+        "description": "AI 기반 채팅 지원으로 탁월한 고객 경험을 제공하기 위해 SeaChat을 사용하고 있는 수천 개의 기업에 합류하세요.",
+        "signUpFree": "무료 가입",
+        "scheduleDemo": "데모 예약",
+        "disclaimer": "신용 카드 필요 없음 • 2분 안에 설정 • 언제든지 취소"
+      }
+    },
+    "featureComparison": {
+      "title": "경쟁사보다 SeaChat을 선택하는 이유?",
+      "subtitle": "SeaChat이 여러 도구를 하나의 포괄적인 플랫폼으로 대체하는 방법을 확인하세요. 더 많은 기능을 얻으면서 비용을 절약하세요.",
+      "valueTitle": "얻을 수 있는 가치:",
+      "totalValue": "$331 이상/월",
+      "competitorTotal": "경쟁사로부터의 총 가치",
+      "priceTitle": "지불하는 가격:",
+      "seachatPrice": "$29.99 /월",
+      "seachatAll": "모든 기능 포함",
+      "seeDetailedPricing": "자세한 가격 보기",
+      "ctaTitle": "SeaChat의 이점을 경험할 준비가 되셨습니까?",
+      "ctaSubtitle": "더 스마트하고 저렴한 솔루션을 선택한 수천 개의 기업에 합류하세요.",
+      "startFree": "지금 무료로 시작하기",
+      "bookDemo": "데모 예약",
+      "features": {
+        "chatbotWebsite": "웹사이트용 챗봇",
+        "chatWidget": "라이브 상담원이 있는 채팅 위젯",
+        "whatsappMessenger": "WhatsApp/Messenger/Instagram",
+        "multiCalendar": "다중 캘린더 예약",
+        "phoneCallAI": "수신 전화 AI 상담원",
+        "smsActions": "내장 작업 - SMS",
+        "emailActions": "내장 작업 - 이메일",
+        "phoneNumber": "전화 번호 구매",
+        "agencyMode": "에이전시 모드",
+        "bulkSMS": "대량 발신 SMS, 전화, WhatsApp",
+        "unlimitedContacts": "무제한 연락처",
+        "knowledgeBase": "추가 지식 기반",
+        "extraChatbot": "추가 챗봇"
+      },
+      "table": {
+        "headers": {
+          "features": "기능",
+          "replaces": "대체",
+          "otherTools": "다른 도구",
+          "seachat": "SeaChat"
+        },
+        "total": "총계",
+        "totalPrice": "월 $331 이상",
+        "seachatPrice": "월 $29.99",
+        "explanations": {
+          "valueYouGet": "↑ 얻을 수 있는 가치",
+          "priceYouWouldPay": "↑ 그렇지 않으면 지불할 가격",
+          "priceYouPay": "↑ 지불하는 가격"
+        }
+      },
+      "mobile": {
+        "replaces": "대체:",
+        "otherTools": "다른 도구:",
+        "seachat": "SeaChat:",
+        "otherToolsTotal": "다른 도구 총계:",
+        "seachatTotal": "SeaChat 총계:",
+        "totalPrice": "월 $331+",
+        "seachatTotalPrice": "월 $29.99",
+        "priceYouWouldPay": "↑ 그렇지 않으면 지불할 가격",
+        "priceYouPay": "↑ 지불하는 가격"
+      },
+      "uniqueToSeachat": "SeaChat만의 고유 기능",
+      "pricing": {
+        "chatbotWebsite": "월 $99",
+        "chatWidget": "상담원당 월 $23",
+        "whatsappMessenger": "사용자당 월 $89",
+        "multiCalendar": "좌석당 월 $10",
+        "phoneCallAI": "월 $29",
+        "smsActions": "월 $59",
+        "emailActions": "월 $20",
+        "phoneNumber": "월 $2 ~ $3",
+        "unlimitedContacts": "1만 연락처당 $65",
+        "knowledgeBase": "추가 지식 기반당 $8",
+        "extraChatbot": "추가 챗봇당 $7"
+      },
+      "seachatValues": {
+        "agencyMode": "여러 워크스페이스 - 클라이언트당 하나의 워크스페이스",
+        "bulkSMS": "Seasalt.ai의 SeaX와 통합",
+        "unlimitedContacts": "무제한",
+        "knowledgeBase": "5,000개 문서 또는 5천만 토큰",
+        "extraChatbot": "10개 봇 × 5개 채널 = 50개 채널 봇"
+      },
+      "replaces": {
+        "uniqueToSeachat": "SeaChat만의 고유 기능"
+      }
+    }
+  }
+}

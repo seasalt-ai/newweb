@@ -1,0 +1,922 @@
+{
+  "seachat": {
+    "common": {
+      "getStarted": "Magsimula nang Libre",
+      "signIn": "Mag-sign In",
+      "learnMore": "Matuto Nang Higit Pa",
+      "readMore": "Magbasa Nang Higit Pa",
+      "viewAll": "Tingnan ang Lahat ng Artikulo",
+      "tryNow": "Subukan Ngayon",
+      "contactUs": "Makipag-ugnayan sa Amin",
+      "subscribe": "Mag-subscribe",
+      "search": "Maghanap",
+      "back": "Bumalik"
+    },
+    "header": {
+      "features": "Mga Tampok",
+      "integrations": "Mga Pagsasama",
+      "solutions": "Mga Solusyon",
+      "pricing": "Pagpepresyo",
+      "blog": "Blog",
+      "language": "Wika",
+      "featuresDropdown": {
+        "humanAgents": "Chat ng Ahente ng Tao",
+        "aiAutomation": "AI Automation",
+        "advancedAI": "Mga Advanced na Tampok ng AI",
+        "knowledgeBase": "Knowledge Base",
+        "voiceAgents": "Mga Ahente ng Boses",
+        "analytics": "Analytics at Mga Insight",
+        "omnichannel": "Suporta sa Omnichannel",
+        "api": "API at Mga Tool ng Developer"
+      },
+      "integrationsDropdown": {
+        "websites": "Mga Platform ng Website",
+        "crm": "Mga Sistema ng CRM",
+        "ecommerce": "E-commerce",
+        "socialMedia": "Social Media",
+        "communication": "Mga Tool sa Komunikasyon",
+        "marketing": "Mga Platform sa Marketing",
+        "calendar": "Kalendaryo at Pag-iiskedyul",
+        "api": "Pasadyang API"
+      },
+      "solutionsDropdown": {
+        "ecommerce": "E-commerce at Retail",
+        "healthcare": "Pangangalagang pangkalusugan",
+        "fintech": "Mga Serbisyo sa Pinansyal",
+        "education": "Edukasyon",
+        "realEstate": "Real Estate",
+        "travel": "Paglalakbay at Pagtanggap ng Bisita",
+        "saas": "SaaS at Teknolohiya",
+        "smallBusiness": "Maliit na Negosyo"
+      },
+      "backToMainSite": "Bumalik sa Pangunahing Site",
+      "viewAllIntegrations": "Tingnan ang Lahat ng Pagsasama →",
+      "viewAllSolutions": "Tingnan ang Lahat ng Solusyon →"
+    },
+    "hero": {
+      "title": {
+        "line1": "Tumugon Sa",
+        "line2": "Milyun-milyon 24/7"
+      },
+      "subtitle": "Mga Live na Ahente",
+      "description": "Baguhin ang suporta sa customer gamit ang aming omnichannel platform. Magsimula sa mga ahente ng tao sa zero cost, pagkatapos ay walang putol na isama ang AI automation habang lumalaki ka.",
+      "startFree": "Magsimula nang Libre Ngayon",
+      "exploreAI": "Mag-book ng Demo",
+      "alwaysFree": "Laging Libreng Plano",
+      "integrations": "30+ Pagsasama",
+      "setup": "Pag-setup sa loob ng 2 Minuto",
+      "chat": {
+        "userMessage": "Hi! Kailangan ko ng tulong sa aking order",
+        "botMessage": "Kamusta! Masaya akong tulungan ka sa iyong order. Maaari mo bang ibigay ang iyong numero ng order?",
+        "userMessage2": "Matutulungan kitang kumonekta sa isang ahente ng tao o magbigay ng instant na tulong sa AI. Paano mo gustong magpatuloy?",
+        "typePlaceholder": "I-type ang iyong mensahe...",
+        "online": "Online",
+        "supportTitle": "Suporta sa SeaChat"
+      },
+      "badge": "Magsimula nang Libre sa mga Live na Ahente",
+      "animationSection": {
+        "title": "SeaChat sa Aksyon",
+        "autoMode": "Awtomatiko",
+        "manualMode": "Manwal"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "AI ng Boses ng Telepono",
+          "description": "Mga ahente ng AI na humahawak sa mga pag-uusap sa telepono"
+        },
+        "interactive": {
+          "name": "Mga Interactive na Channel",
+          "description": "Mag-click upang makita ang iba't ibang mga pag-uusap"
+        },
+        "multiChannel": {
+          "name": "Daloy ng Maramihang Channel",
+          "description": "Mga mensahe na dumadaloy sa pagitan ng iba't ibang mga platform"
+        },
+        "agentToAI": {
+          "name": "Paghahatid mula sa Tao patungo sa AI",
+          "description": "Magsimula sa mga tao, palakihin gamit ang AI"
+        },
+        "learning": {
+          "name": "Paglalakbay sa Pag-aaral ng AI",
+          "description": "Panoorin ang AI na nagiging mas matalino mula sa nilalaman"
+        },
+        "dashboard": {
+          "name": "Real-Time na Analytics",
+          "description": "Mga sukatan ng live na pagganap"
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "Bakit Pumili ng SeaChat?",
+      "subtitle": "Damhin ang perpektong timpla ng ugnayan ng tao at kahusayan ng AI. Magsimula nang libre, palakihin nang matalino, magtagumpay nang mas mabilis.",
+      "humanAgents": {
+        "title": "Tunay na Libreng mga Ahente ng Tao 🍺 🎙️",
+        "description": "Magsimula sa 1 ahente ng tao na libre habang-buhay—oo, habang-buhay! Walang mga cap, walang mga limitasyon, walang mga catch.",
+        "badge": "Libre Magpakailanman",
+        "highlights": [
+          "Walang limitasyong mga pag-uusap sa chat",
+          "Walang limitasyong access sa kasaysayan ng chat",
+          "Walang limitasyong mga contact at pagbuo ng network",
+          "Kalayaan na i-export ang lahat ng iyong data"
+        ]
+      },
+      "aiAutomation": {
+        "title": "Walang putol na AI Automation",
+        "description": "Walang kahirap-hirap na palakihin gamit ang matalinong AI na natututo mula sa iyong mga pag-uusap at dokumento.",
+        "highlights": [
+          "Matalinong mga awtomatikong tugon",
+          "Pag-aaral mula sa mga pakikipag-ugnayan",
+          "Mga tugon na may kamalayan sa konteksto"
+        ]
+      },
+      "omnichannel": {
+        "title": "Pagkakakonekta sa Omni-Channel",
+        "description": "Ikonekta ang lahat ng iyong mga channel ng komunikasyon sa isang pinag-isang platform para sa pare-parehong suporta.",
+        "highlights": [
+          "30+ pagsasama",
+          "Pinag-isang inbox",
+          "Pag-sync sa cross-platform"
+        ]
+      },
+      "trulyFree": {
+        "title": "Tunay na Libreng Plano tulad ng sa Libreng 🍺 & 🎙️",
+        "description": "Ipinapakilala ang Human Agent Only Mode ng SeaChat: Ang Iyong Tiket sa Walang Kapantay na Kalayaan sa Komunikasyon! Kami ay nasasabik na ipakita ang 1 ahente ng tao na libre habang-buhay—oo, narinig mo ito nang tama, habang-buhay!",
+        "freeFeatures": {
+          "unlimitedChat": {
+            "title": "Walang limitasyong Chat",
+            "description": "Makipag-ugnayan sa maraming pag-uusap hangga't kailangan mo, nang walang mga cap o paghihigpit."
+          },
+          "unlimitedHistory": {
+            "title": "Walang limitasyong Kasaysayan",
+            "description": "Huwag kailanman mawalan ng isang pag-uusap—i-access ang iyong kumpletong kasaysayan ng chat anumang oras."
+          },
+          "unlimitedContacts": {
+            "title": "Walang limitasyong mga Contact",
+            "description": "Buuin ang iyong network nang walang anumang mga paghihigpit o limitasyon sa contact."
+          },
+          "freedomToExport": {
+            "title": "Kalayaan na Mag-export",
+            "description": "Ang iyong data, ang iyong mga panuntunan—i-export ang lahat ng iyong kasaysayan ng chat nang walang kahirap-hirap."
+          }
+        },
+        "whyChoose": "Bakit Pumili ng SeaChat? Dahil Ito ay Tunay na Libre!",
+        "whatYouGet": "✅ Ano ang Makukuha Mo nang LIBRE Magpakailanman:",
+        "freeForeverFeatures": [
+          "1 Ahente ng Tao para sa Buhay",
+          "Walang limitasyong mga Pag-uusap sa Chat",
+          "Kumpletong Access sa Kasaysayan ng Chat",
+          "Walang limitasyong Pamamahala ng Contact",
+          "Buong mga Karapatan sa Pag-export ng Data"
+        ],
+        "scaleWhenReady": "🚀 Palakihin Kapag Handa:",
+        "scaleFeatures": [
+          "Magdagdag ng AI Automation",
+          "Mga Advanced na Pagsasama",
+          "Mga Tampok ng Ahente ng Boses",
+          "Seguridad sa Enterprise",
+          "Mga Pasadyang Daloy ng Trabaho"
+        ],
+        "startButton": "Simulan ang Iyong Libreng Ahente Ngayon - Walang Kinakailangang Credit Card!"
+      },
+      "statsBar": {
+        "unlimited": "Walang limitasyong mga chat magpakailanman",
+        "fileTypes": "30+ uri ng file na suportado",
+        "setupTime": "2min average na oras ng pag-setup",
+        "availability": "24/7 availability ng AI kapag handa na"
+      }
+    },
+    "featureTabs": {
+      "title": "Malakas na mga Tampok, Simpleng Pag-setup",
+      "subtitle": "Galugarin ang aming komprehensibong hanay ng tampok na idinisenyo upang baguhin ang iyong karanasan sa suporta sa customer.",
+      "tabs": {
+        "humanAgent": "Ahente ng Tao",
+        "agentChat": "Chat ng Ahente",
+        "aiAgent": "Ahente ng AI",
+        "advancedAI": "Advanced na AI",
+        "knowledgeBase": "Knowledge Base",
+        "integrations": "Mga Pagsasama"
+      },
+      "content": {
+        "agentChat": {
+          "title": "Kahusayan ng Ahente ng Tao",
+          "subtitle": "Magsimula sa tunay na suporta ng tao, ganap na libre",
+          "features": [
+            "Walang limitasyong libreng oras ng ahente",
+            "Real-time na pamamahala ng pag-uusap",
+            "Pakikipagtulungan ng maraming ahente",
+            "Advanced na pag-label at pagruruta",
+            "Analytics ng pagganap",
+            "Mga pasadyang daloy ng trabaho"
+          ],
+          "tryFeature": "Subukan ang Tampok na Ito",
+          "watchDemo": "Panoorin ang Demo"
+        },
+        "aiAgent": {
+          "title": "Matalinong AI Automation",
+          "subtitle": "Walang putol na palakihin gamit ang matalinong AI na natututo",
+          "features": [
+            "Mga tugon na may kamalayan sa konteksto",
+            "Pag-aaral mula sa mga pag-uusap",
+            "Walang putol na pag-handoff ng tao",
+            "Suporta sa maraming wika",
+            "Pasadyang pagsasanay sa AI",
+            "Mga kakayahan ng ahente ng boses"
+          ],
+          "tryFeature": "Subukan ang Tampok na Ito",
+          "watchDemo": "Panoorin ang Demo"
+        },
+        "advancedAI": {
+          "title": "Susunod na Henerasyon ng Katalinuhan ng AI",
+          "subtitle": "Mga advanced na tampok ng AI para sa mga personalized na karanasan",
+          "features": [
+            "Retrieval Augmented Generation (RAG)",
+            "Sistema ng pangmatagalang memorya ng gumagamit",
+            "Mga tugon sa konteksto na may kamalayan sa oras",
+            "Matalinong pagkuha ng konteksto",
+            "Mga resulta ng chat na may sanggunian",
+            "Pagpipino ng knowledge base"
+          ],
+          "tryDemo": "Subukan ang Advanced na AI Demo",
+          "watchAI": "Panoorin ang AI sa Aksyon"
+        },
+        "knowledgeBase": {
+          "title": "Komprehensibong Knowledge Hub",
+          "subtitle": "Mag-upload ng 30+ uri ng file para sa mga instant na tugon ng AI",
+          "features": [
+            "Suporta sa PDF, Excel, CSV, Word",
+            "Paglunok ng nilalaman ng website",
+            "Pagproseso ng imahe at video",
+            "Pag-format ng mayamang tugon",
+            "Awtomatikong pag-update ng nilalaman",
+            "Kontrol sa bersyon"
+          ],
+          "tryFeature": "Subukan ang Tampok na Ito",
+          "watchDemo": "Panoorin ang Demo"
+        },
+        "integrations": {
+          "title": "Malakas na mga Pagsasama",
+          "subtitle": "Kumonekta sa iyong mga paboritong tool at platform",
+          "features": [
+            "Mga pagsasama sa CRM (Salesforce, HubSpot)",
+            "Pag-book ng kalendaryo (Google, Outlook)",
+            "Mga platform ng e-commerce",
+            "Mga tool sa marketing",
+            "Pasadyang access sa API",
+            "Suporta sa webhook"
+          ],
+          "tryFeature": "Subukan ang Tampok na Ito",
+          "watchDemo": "Panoorin ang Demo"
+        }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "Retrieval Augmented Generation",
+            "description": "Paghahanap ng Keyword, Vector, at Hybrid para sa tumpak na pagkuha ng impormasyon",
+            "details": {
+              "0": "Paghahanap ng semantikong vector",
+              "1": "Pagtutugma ng keyword",
+              "2": "Mga algorithm sa paghahanap ng hybrid",
+              "3": "Real-time na pag-index ng nilalaman"
+            }
+          },
+          "memory": {
+            "title": "Pangmatagalang Memorya",
+            "description": "Mga personalized na karanasan sa pamamagitan ng paulit-ulit na memorya ng gumagamit",
+            "details": {
+              "0": "Pagsubaybay sa kagustuhan ng gumagamit",
+              "1": "Pagsusuri sa kasaysayan ng pag-uusap",
+              "2": "Pagkilala sa pattern ng pag-uugali",
+              "3": "Pagpapatuloy sa cross-session"
+            }
+          },
+          "timeAware": {
+            "title": "Kamalayan sa Oras",
+            "description": "Mga tugon na may kamalayan sa konteksto batay sa kasalukuyang oras at timezone",
+            "details": {
+              "0": "Real-time na pagsasama ng timestamp",
+              "1": "Pag-iiskedyul na may kamalayan sa timezone",
+              "2": "Mga rekomendasyon na sensitibo sa oras",
+              "3": "Pag-optimize ng mga oras ng negosyo"
+            }
+          },
+          "contextExtraction": {
+            "title": "Pagkuha ng Konteksto",
+            "description": "Matalinong pagmamapa ng field para sa mas mahusay na pag-unawa ng gumagamit",
+            "details": {
+              "0": "Mga kahulugan ng pasadyang field",
+              "1": "Awtomatikong pagkuha ng data",
+              "2": "Mga kagustuhan sa wika ng gumagamit",
+              "3": "Dinamikong pagbuo ng konteksto"
+            }
+          },
+          "referencedResults": {
+            "title": "Mga Resulta na may Sanggunian",
+            "description": "Mga transparent na tugon ng AI na may mga pagsipi sa pinagmulan",
+            "details": {
+              "0": "Pag-link ng dokumento ng pinagmulan",
+              "1": "Pagsubaybay sa pagsipi",
+              "2": "Pagmamarka ng kumpiyansa",
+              "3": "Pag-verify ng katotohanan"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "Pagpipino ng Kaalaman",
+            "description": "Patuloy na pagpapabuti ng katumpakan ng knowledge base",
+            "details": {
+              "0": "Awtomatikong pag-update ng nilalaman",
+              "1": "Pagmamarka ng kalidad",
+              "2": "Pag-optimize ng kaugnayan",
+              "3": "Analytics ng pagganap"
+            }
+          }
+        }
+      }
+    },
+    "omnichannelDemo": {
+      "title": "I-deploy Kahit Saan Nasaan ang Iyong mga Customer",
+      "subtitle": "Walang putol na ikonekta ang lahat ng iyong mga customer touchpoint sa mga website, social media, at mga platform ng komunikasyon. Mag-hover sa bawat channel upang makita ang mga sukatan ng real-time na pagganap.",
+      "messagesPerDay": "Mga mensahe/araw",
+      "responseTime": "Oras ng pagtugon",
+      "keyFeatures": "Mga Pangunahing Tampok",
+      "integrateChannel": "Isama",
+      "channels": {
+        "website": {
+          "name": "Website",
+          "description": "Universal na widget na gumagana sa anumang HTML website"
+        },
+        "whatsapp": {
+          "name": "WhatsApp",
+          "description": "Kumonekta sa mga customer sa pinakasikat na messaging app sa mundo"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "description": "Pamahalaan ang mga DM sa Instagram at mga tugon sa kuwento sa isang pinag-isang inbox"
+        },
+        "facebook": {
+          "name": "Facebook",
+          "description": "Magbigay ng suporta sa customer sa pamamagitan ng platform ng pagmemensahe ng Facebook"
+        },
+        "line": {
+          "name": "LINE",
+          "description": "Kumonekta sa mga customer sa sikat na platform ng pagmemensahe sa Asya"
+        },
+        "phone": {
+          "name": "Tawag sa Telepono",
+          "description": "Pangasiwaan ang suporta sa boses gamit ang mga ahente ng boses ng AI"
+        },
+        "email": {
+          "name": "Email",
+          "description": "Pamahalaan ang mga tiket sa email na may matalinong pagruruta"
+        },
+        "ecommerce": {
+          "name": "E-commerce",
+          "description": "Isama sa mga online na tindahan para sa pamamahala ng order"
+        }
+      },
+      "platformCategories": {
+        "website": {
+          "title": "Pagsasama sa Website",
+          "description": "I-deploy sa anumang platform ng website gamit ang aming universal na widget"
+        },
+        "socialMedia": {
+          "title": "Social Media",
+          "description": "Kumonekta sa mga customer sa kanilang mga paboritong social platform"
+        },
+        "traditional": {
+          "title": "Mga Tradisyonal na Channel",
+          "description": "Panatilihin ang suporta sa pamamagitan ng mga klasikong paraan ng komunikasyon"
+        }
+      },
+      "quickSetup": {
+        "title": "Handa nang I-deploy Kahit Saan?",
+        "subtitle": "Magsimula sa ilang minuto gamit ang aming simpleng proseso ng pagsasama",
+        "steps": [
+          {
+            "title": "Piliin ang Iyong mga Channel",
+            "description": "Pumili mula sa 8+ na mga pagpipilian sa pag-deploy"
+          },
+          {
+            "title": "Kopyahin at I-paste ang Code",
+            "description": "Simpleng pag-install ng widget"
+          },
+          {
+            "title": "Simulan ang Pag-chat",
+            "description": "Simulan agad ang pagsuporta sa mga customer"
+          }
+        ],
+        "button": "Simulan ang Libreng Pag-deploy"
+      }
+    },
+    "pricing": {
+      "title": "Pagpepresyo na Lumalaki Kasama Mo",
+      "subtitle": "Magsimula nang ganap na libre sa mga ahente ng tao, pagkatapos ay magdagdag ng AI kapag handa ka nang palakihin.",
+      "monthly": "Buwanan",
+      "yearly": "Taunan",
+      "save": "Makatipid ng 20%",
+      "customize": "I-customize ang Iyong Plano",
+      "chatVolume": "Buwanang Dami ng Chat",
+      "agents": "Bilang ng mga Ahente",
+      "plans": {
+        "free": {
+          "name": "Tunay na Libre",
+          "tagline": "Damhin ang isang pagsubok ng mga malakas na tampok",
+          "description": "Perpekto para sa pagsisimula sa mga ahente ng tao",
+          "features": {
+            "humanAgent": "1 ahente ng tao",
+            "unlimitedHumanChats": "Walang limitasyong mga chat ng ahente ng tao",
+            "unlimitedContacts": "Walang limitasyong mga contact",
+            "unlimitedHistory": "Walang limitasyong kasaysayan ng chat",
+            "exportHistory": "Kalayaan na i-export ang kasaysayan ng chat",
+            "channels": "Mga Channel: WhatsApp Messenger, chat widget",
+            "integrations": "Mga Pagsasama: Wix, WordPress, Shopify, Make.com, Squarespace",
+            "aiAgent": "Ahente ng AI na may 100 habambuhay na mga tugon ng AI:",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "Kasama sa knowledge base ang 20 dokumento (200KB max) at 250k token",
+            "workspace": "1 workspace"
+          },
+          "buttonText": "Magsimula nang Libre"
+        },
+        "premium": {
+          "name": "Premium",
+          "tagline": "Magdagdag ng higit pang mga Ahente ng AI at mga File ng Kaalaman",
+          "description": "Palakihin ang iyong suporta gamit ang AI automation",
+          "month": "buwan",
+          "year": "taon",
+          "year_description": "Nakatipid ng 2 buwan bawat taon",
+          "features": {
+            "humanAgents": "4 na gumagamit ng tao (karagdagang gumagamit ng tao ay nagkakahalaga ng $10/buwan)",
+            "humanAgentPermission": "Suportahan ang pahintulot ng ahente ng tao",
+            "assignAgent": "Magtalaga ng ahente ng tao sa indibidwal na pag-uusap",
+            "unreadCounter": "Hindi pa nababasang counter ng mensahe para sa bawat ahente ng tao",
+            "transferToHuman": "Live na paglipat mula sa ahente ng AI patungo sa ahente ng tao",
+            "transferToAI": "Live na paglipat mula sa ahente ng tao patungo sa ahente ng AI",
+            "unlimitedHumanChats": "Walang limitasyong mga chat ng ahente ng tao",
+            "unlimitedContacts": "Walang limitasyong mga contact",
+            "unlimitedHistory": "Walang limitasyong kasaysayan ng chat",
+            "exportHistory": "Kalayaan na i-export ang kasaysayan ng chat",
+            "channels": "Mga karagdagang channel: Line, Call, Phone Call",
+            "integrations": "Mga karagdagang pagsasama: Google Calendar upang awtomatikong mag-book ng mga pulong",
+            "aiAgents": "10 mga ahente ng AI, na may bawat ahente na mayroong:",
+            "aiModels": "Mga modelo ng ChatGPT-4o at Mistral",
+            "knowledgeBase": "Kasama sa knowledge base ang hanggang 1000 dokumento (10 MB bawat doc) at 5M token",
+            "chatSummary": "Buod ng chat at abiso sa pamamagitan ng email",
+            "agentPrivacy": "Kontrol sa privacy ng ahente",
+            "contactCapture": "Pagkuha ng contact ng gumagamit sa pamamagitan ng mga pasadyang form",
+            "chatCost": "Nagsisimula ang ahente ng Chat AI sa $0.006 bawat tugon",
+            "voiceCost": "Nagsisimula ang ahente ng Voice AI sa mga tawag sa telepono sa $0.12 bawat minuto",
+            "workspaces": "2 workspace (karagdagang workspace ay nagkakahalaga ng $15/buwan)",
+            "knowledgeBaseFeatures": "Knowledge Base:",
+            "advancedSearch": "Advanced na paghahanap ng dokumento - keyword, vector, hybrid",
+            "fileTypes": "20+ uri ng file na suportado, na may pag-optimize sa mga spreadsheet",
+            "automationFeatures": "Automation:",
+            "autoLabel": "Awtomatikong i-label ang mga pag-uusap na may mga label na tinukoy ng gumagamit",
+            "builtInActions": "Mga built-in na aksyon na na-trigger ng awtomatikong pag-label: SMS, Email",
+            "externalAPI": "Mga panlabas na tawag sa API bilang parehong mga trigger at aksyon",
+            "voiceAgentFeatures": "Mga Ahente ng Boses ng AI:",
+            "voiceMessages": "Suportahan ang mga mensahe ng boses sa Messenger, WhatsApp, Line",
+            "phoneCalls": "Suportahan ang 2-way na mga pag-uusap sa tawag sa telepono",
+            "callDirection": "Suportahan ang parehong papasok at papalabas na tawag",
+            "transferAgent": "Ilipat sa ahente ng tao",
+            "callForwarding": "Suportado ang pagpapasa ng tawag",
+            "sttLanguages": "10+ mga wika sa Speech-To-Text",
+            "ttsLanguages": "10+ mga wika sa Text-To-Speech na may mga boses mula sa Azure, ElevenLabs, OpenAI",
+            "callRecording": "Pag-record at buod ng tawag",
+            "callNotification": "Abiso sa tawag sa pamamagitan ng email",
+            "formTrackers": "Magtakda ng mga tracker ng form mula sa mga pag-uusap",
+            "slotExtractors": "Mga slot extractor mula sa mga pag-uusap",
+            "timezoneFeatures": "Lokal na kamalayan sa oras na may suporta sa timezone, para sa:",
+            "businessHours": "mga oras ng negosyo",
+            "appointmentBooking": "pag-book ng appointment",
+            "humanAgent": "4 na gumagamit ng tao (karagdagang gumagamit ng tao ay nagkakahalaga ng $10/buwan)",
+            "supportHumanAgent": "Suportahan ang pahintulot ng ahente ng tao",
+            "liveTransferToHuman": "Live na paglipat mula sa ahente ng AI patungo sa ahente ng tao",
+            "liveTransferToAI": "Live na paglipat mula sa ahente ng tao patungo sa ahente ng AI",
+            "additionalChannels": "Mga karagdagang channel: Line, Call, Phone Call",
+            "additionalIntegrations": "Mga karagdagang pagsasama: Google Calendar upang awtomatikong mag-book ng mga pulong",
+            "knowledgeBaseTitle": "Knowledge Base:",
+            "automationTitle": "Automation:",
+            "voiceAgentsTitle": "Mga Ahente ng Boses ng AI:",
+            "timezoneTitle": "Lokal na kamalayan sa oras na may suporta sa timezone, para sa:"
+          },
+          "buttonText": "Simulan ang Premium",
+          "badge": "Pinakasikat"
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "tagline": "I-customize ang iyong eksklusibong mga ahente ng AI",
+          "description": "Mga pasadyang solusyon para sa malalaking organisasyon",
+          "features": {
+            "premiumIncluded": "Lahat sa Premium na plano",
+            "customBuild": "Pasadyang pagbuo",
+            "multipleWorkspaces": "Maramihang mga workspace - perpekto para sa mga ahensya",
+            "workspaceAgents": "Ang bawat workspace ay may maraming mga ahente ng AI at mga numero ng telepono",
+            "gpt4oRealtimeAPI": "Access sa GPT-4o Realtime API",
+            "customAPI": "Pasadyang pagsasama ng API",
+            "fineTuning": "Pag-fine-tune sa iyong mga alituntunin at teknikal na suporta"
+          },
+          "buttonText": "Makipag-ugnayan sa Amin"
+        }
+      },
+      "billing": {
+        "monthly": "Buwanan",
+        "yearly": "Taunan",
+        "year": "taon",
+        "month": "buwan",
+        "save": "Makatipid ng 2 buwan kumpara sa buwanang pagsingil"
+      },
+      "calculator": {
+        "title": "Kalkulator ng Paggamit ng Plano at Modelo",
+        "description": "Tantyahin ang iyong mga gastos batay sa iyong mga pattern ng paggamit",
+        "modelSelect": "Piliin ang Modelo ng AI",
+        "priceBreakdown": "Pagkasira ng Gastos",
+        "licenseYearly": "Bayad sa lisensya (makatipid ng 2 buwan):",
+        "licenseFee": "Bayad sa lisensya:",
+        "usageCost": "Gastos sa paggamit:",
+        "usageCostYearly": "Gastos sa paggamit (12 buwan):",
+        "addOnsCost": "Gastos sa mga add-on:",
+        "addOnsCostYearly": "Gastos sa mga add-on (12 buwan):",
+        "totalPerYear": "Kabuuan bawat taon:",
+        "totalPerMonth": "Kabuuan bawat buwan:",
+        "averagePerMonth": "Average bawat buwan:",
+        "aiUsage": "Paggamit ng AI (Magbayad bawat paggamit)",
+        "chatResponses": "Buwanang mga Tugon sa Chat:",
+        "voiceMinutes": "Buwanang mga Minuto ng Boses:",
+        "voiceMinutesNote": "USA/Canada lamang",
+        "chatCost": "Gastos sa Chat",
+        "voiceCost": "Gastos sa Boses",
+        "additionalResources": "Mga Karagdagang Mapagkukunan",
+        "humanAgents": "Mga Ahente ng Tao:",
+        "aiAgents": "Mga Ahente ng AI:",
+        "workspaces": "Mga Workspace:",
+        "included": "Kasama:",
+        "extra": "Dagdag:",
+        "disclaimer": "Ang mga gastos sa paggamit ay kinakalkula batay sa aktwal na pagkonsumo. Kasama sa Premium na plano ang:",
+        "disclaimerDetails": "Bayad sa lisensya + Paggamit ng AI (magbayad bawat paggamit) + Mga karagdagang mapagkukunan na lampas sa mga kasamang limitasyon.",
+        "planIncludes": "Kasama sa Premium na Plano:",
+        "planIncludesHuman": "4 na mga Ahente ng Tao",
+        "planIncludesAI": "10 mga Ahente ng AI",
+        "planIncludesWorkspaces": "2 mga Workspace",
+        "perChatResponse": "bawat tugon sa chat",
+        "perVoiceMinute": "bawat minuto ng boses",
+        "voiceOnly": "Modelo lamang ng boses",
+        "voicePricing": "Pagpepresyo ng boses",
+        "standardVoice": "Karaniwang Boses",
+        "premiumVoice": "Premium na Boses",
+        "placeholderText": "Placeholder"
+      },
+      "note": "Ang mga presyo ay nasa USD. Nag-iiba-iba ang mga presyo ng tawag sa boses ayon sa bansa at ang mga nakalistang presyo ay para sa Estados Unidos at Canada. Para sa ibang mga bansa, mangyaring makipag-ugnayan sa amin.",
+      "comparison": {
+        "title": "Ihambing ang Lahat ng Tampok",
+        "subtitle": "Tingnan kung ano mismo ang kasama sa bawat plano",
+        "featuresTitle": "Mga Tampok",
+        "trulyFree": "Tunay na Libre",
+        "premium": "Premium",
+        "enterprise": "Enterprise",
+        "humanAgents": "Mga Ahente ng Tao",
+        "aiAgents": "Mga Ahente ng AI",
+        "aiModels": "Mga Modelo ng AI",
+        "knowledgeBase": "Knowledge Base",
+        "voiceAI": "Mga Ahente ng Boses ng AI",
+        "phoneCalls": "Mga Tawag sa Telepono",
+        "automation": "Automation",
+        "apiIntegration": "Pagsasama ng API",
+        "workspaces": "Mga Workspace",
+        "support": "Suporta",
+        "features": {
+          "humanAgents": {
+            "free": "1 ahente",
+            "premium": "4 na gumagamit",
+            "enterprise": "Walang limitasyon"
+          },
+          "aiAgents": {
+            "free": "1 ahente (100 mga tugon)",
+            "premium": "10 mga ahente (walang limitasyon)",
+            "enterprise": "Pasadyang pagbuo"
+          },
+          "aiModels": {
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o, Mistral",
+            "enterprise": "Mga advanced na modelo"
+          },
+          "knowledgeBase": {
+            "free": "20 doc (200KB)",
+            "premium": "5000 doc (10MB bawat isa)",
+            "enterprise": "Walang limitasyon"
+          },
+          "voiceAI": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
+          },
+          "phoneCalls": {
+            "free": "❌",
+            "premium": "✅ Papasok/Palabas",
+            "enterprise": "✅"
+          },
+          "automation": {
+            "free": "❌",
+            "premium": "✅ Advanced",
+            "enterprise": "✅ Pasadya"
+          },
+          "apiIntegration": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ Pasadya"
+          },
+          "workspaces": {
+            "free": "1",
+            "premium": "2 ($15 bawat dagdag)",
+            "enterprise": "Maramihan"
+          },
+          "support": {
+            "free": "Komunidad",
+            "premium": "Email + Telepono",
+            "enterprise": "Nakatuong teknikal"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Kailangan ng Isang Bagay na Pasadya?",
+        "description": "Nag-aalok kami ng mga pasadyang solusyon sa enterprise kabilang ang on-premise na pag-deploy, mga advanced na tampok sa seguridad, at mga dedikadong koponan sa suporta.",
+        "contactSales": "Makipag-ugnayan sa Koponan sa Pagbebenta"
+      },
+      "faq": {
+        "title": "Mga Madalas Itanong",
+        "question1": "Talaga bang libre magpakailanman ang libreng plano?",
+        "answer1": "Oo! Kasama sa aming Tunay na Libreng plano ang 1 ahente ng tao habang-buhay na may walang limitasyong mga pag-uusap, kasaysayan ng chat, at mga contact. Dagdag pa, makakakuha ka ng 1 ahente ng AI na may 100 habambuhay na mga tugon ng AI upang subukan ang aming mga tampok sa AI. Walang kinakailangang credit card, walang mga nakatagong bayarin.",
+        "question2": "Ano ang pagkakaiba sa pagitan ng buwanan at taunang pagsingil?",
+        "answer2": "Sa taunang pagsingil, makakatipid ka ng 2 buwan sa Premium na plano ($299/taon kumpara sa $359.88/taon kung babayaran buwan-buwan). Ang siklo ng pagsingil ay nakakaapekto lamang sa Premium na plano - ang Libreng plano ay laging libre at ang Enterprise ay pasadyang pagpepresyo.",
+        "question3": "Maaari ko bang i-upgrade o i-downgrade ang aking plano anumang oras?",
+        "answer3": "Syempre! Maaari mong baguhin ang iyong plano anumang oras. Ang mga pag-upgrade ay agad na magkakabisa, at ang mga pag-downgrade ay magkakabisa sa pagtatapos ng iyong kasalukuyang siklo ng pagsingil.",
+        "question4": "Ano ang mangyayari kung lumampas ako sa aking limitasyon sa tugon ng AI sa Libreng plano?",
+        "answer4": "Kasama sa Libreng plano ang 100 habambuhay na mga tugon ng AI. Kapag naabot mo ang limitasyong ito, kakailanganin mong mag-upgrade sa Premium para sa walang limitasyong mga tugon ng AI. Ang iyong pag-andar ng ahente ng tao ay nananatiling walang limitasyon sa lahat ng mga plano.",
+        "question5": "Paano gumagana ang pagpepresyo ng Premium na plano?",
+        "answer5": "Ang Premium ay may dalawang bahagi: isang bayad sa lisensya ($29.99/buwan o $299/taon) kasama ang pagpepresyo na batay sa paggamit. Kasama sa paggamit ang mga tugon ng AI na nagsisimula sa $0.006 bawat isa (ChatGPT-4o mini) at mga tawag sa boses sa $0.12/minuto. Ang mga karagdagang gumagamit ng tao ay nagkakahalaga ng $10/buwan bawat isa, at ang mga dagdag na workspace ay nagkakahalaga ng $15/buwan bawat isa.",
+        "question6": "Ano ang mangyayari sa aking data kung magkakansela ako?",
+        "answer6": "Pagmamay-ari mo ang iyong data. Maaari mong i-export ang lahat ng iyong kasaysayan ng chat, mga contact, at nilalaman ng knowledge base anumang oras, kahit na sa libreng plano. Naniniwala kami sa kalayaan at transparency ng data.",
+        "question7": "Nag-aalok ba kayo ng pasadyang pagpepresyo para sa malalaking negosyo?",
+        "answer7": "Oo! Nag-aalok ang aming Enterprise na plano ng mga pasadyang pagbuo, maraming mga serbisyo ng AI na perpekto para sa mga ahensya, mga pasadyang pagsasama ng API, at mga propesyonal na alituntunin sa disenyo na may teknikal na suporta. Makipag-ugnayan sa aming koponan sa pagbebenta para sa isang personalized na quote."
+      },
+      "cta": {
+        "title": "Ang Iyong Rebolusyon sa AI Chat",
+        "subtitle": "Nagsisimula Ngayon!",
+        "description": "Sumali sa 100,000+ na mga negosyo na gumagamit na ng SeaChat upang maghatid ng mga pambihirang karanasan sa customer sa lahat ng mga channel ng pagmemensahe",
+        "stats": {
+          "messages": "100K+",
+          "messagesLabel": "Mga Mensahe Araw-araw",
+          "uptime": "99.9%",
+          "uptimeLabel": "Garantiya sa Uptime",
+          "channels": "15+",
+          "channelsLabel": "Mga Channel na Suportado",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "Sumusunod at Ligtas"
+        },
+        "startFree": "SIMULAN ANG TUNAY NA LIBRE MUNA",
+        "bookDemo": "Mag-book ng Live na Demo",
+        "badges": {
+          "noCoding": "Walang Kinakailangang Coding",
+          "freePlan": "Libreng Plano Magpakailanman",
+          "cancelAnytime": "Kanselahin Anumang Oras",
+          "support": "24/7 Suporta"
+        },
+        "urgency": "Limitadong Oras: Kumuha ng 2 buwan na libre sa mga taunang plano + suporta sa priyoridad na onboarding!",
+        "limitedTime": "Limitadong Oras:"
+      }
+    },
+    "knowledgeBase": {
+      "title": "Malakas na Knowledge Base",
+      "subtitle": "Mag-upload ng 30+ uri ng file at hayaan ang AI na magbigay ng mayaman, kontekstwal na mga tugon na may mga card, pindutan, imahe, at video.",
+      "supportedFormats": {
+        "title": "Mga Suportadong Uri ng File",
+        "formats": {
+          "pdf": {
+            "name": "Mga Dokumento ng PDF",
+            "count": "15 mga file"
+          },
+          "excel": {
+            "name": "Mga Sheet ng Excel",
+            "count": "8 mga file"
+          },
+          "word": {
+            "name": "Mga Dokumento ng Word",
+            "count": "12 mga file"
+          },
+          "images": {
+            "name": "Mga Imahe",
+            "count": "25 mga imahe"
+          },
+          "websites": {
+            "name": "Mga Website",
+            "count": "5 mga site"
+          },
+          "videos": {
+            "name": "Mga Video",
+            "count": "3 mga video"
+          }
+        },
+        "richResponse": {
+          "title": "Pag-format ng Mayamang Tugon:",
+          "features": [
+            "Mga Interactive na Card",
+            "Mga Pindutan ng Aksyon",
+            "Mga Naka-embed na Imahe",
+            "Mga Tugon sa Video"
+          ]
+        },
+        "addDocuments": "Idagdag ang Iyong mga Dokumento"
+      },
+      "uploadModal": {
+        "title": "I-upload ang Iyong mga Dokumento",
+        "dropzone": {
+          "title": "I-drop ang iyong mga file dito",
+          "description": "Suporta para sa PDF, Word, Excel, mga imahe, video, at higit pa",
+          "button": "Pumili ng mga File"
+        },
+        "demoFiles": [
+          "sample_manual.pdf",
+          "product_data.xlsx",
+          "brand_guide.jpg"
+        ],
+        "close": "Isara ang Demo"
+      }
+    },
+    "useCases": {
+      "title": "Mga Kuwento ng Tagumpay sa mga Industriya",
+      "subtitle": "Tingnan kung paano binabago ng mga negosyo ang kanilang suporta sa customer gamit ang hybrid na diskarte ng tao-AI ng SeaChat.",
+      "cases": {
+        "ecommerce": {
+          "title": "Rebolusyon sa Suporta sa E-commerce",
+          "industry": "Tingi",
+          "challenge": "Pamamahala ng 500+ araw-araw na mga katanungan ng customer sa maraming mga channel na may limitadong kawani",
+          "solution": "Nag-deploy ng SeaChat na may mga ahente ng AI na humahawak sa 70% ng mga regular na katanungan, mga ahente ng tao para sa mga kumplikadong isyu",
+          "results": [
+            "60% na pagbawas sa oras ng pagtugon",
+            "40% na pagtaas sa kasiyahan ng customer",
+            "75% na pagtitipid sa gastos sa mga operasyon sa suporta"
+          ],
+          "metrics": {
+            "responseTime": "< 30s",
+            "satisfaction": "94%",
+            "cost": "-75%"
+          }
+        },
+        "healthcare": {
+          "title": "Suporta sa Pasyente sa Pangangalagang Pangkalusugan",
+          "industry": "Pangangalagang pangkalusugan",
+          "challenge": "Pagbibigay ng 24/7 na suporta sa pasyente habang pinapanatili ang pagsunod sa HIPAA",
+          "solution": "Pinagsamang mga secure na ahente ng AI na may pag-book ng appointment at pre-screening ng sintomas",
+          "results": [
+            "24/7 na tulong sa pasyente",
+            "50% na pagbawas sa mga hindi pagdating",
+            "100% na pinananatili ang pagsunod sa HIPAA"
+          ],
+          "metrics": {
+            "availability": "24/7",
+            "noShows": "-50%",
+            "compliance": "100%"
+          }
+        },
+        "fintech": {
+          "title": "Kahusayan sa mga Serbisyo sa Pinansyal",
+          "industry": "FinTech",
+          "challenge": "Paghawak ng mga sensitibong katanungan sa pananalapi nang may bilis at seguridad",
+          "solution": "Pasadyang pagsasanay sa AI sa mga regulasyon sa pananalapi na may tuluy-tuloy na pag-escalate ng tao",
+          "results": [
+            "90% na paglutas sa unang contact",
+            "3x na mas mabilis na pagproseso ng query",
+            "Pinahusay na mga protocol sa seguridad"
+          ],
+          "metrics": {
+            "resolution": "90%",
+            "speed": "3x",
+            "security": "Pinahusay"
+          }
+        }
+      },
+      "cta": {
+        "title": "Handa nang Baguhin ang Iyong Suporta?",
+        "description": "Sumali sa daan-daang negosyo na gumagamit na ng SeaChat upang maghatid ng mga pambihirang karanasan sa customer.",
+        "buttons": {
+          "viewCases": "Tingnan ang Lahat ng Pag-aaral ng Kaso",
+          "startStory": "Simulan ang Iyong Kuwento ng Tagumpay"
+        },
+        "signUpFree": "Mag-sign Up Nang Libre",
+        "bookDemo": "Mag-book ng Demo"
+      },
+      "labels": {
+        "challenge": "Hamon:",
+        "solution": "Solusyon:",
+        "resultsAchieved": "Mga Resulta na Nakamit:"
+      },
+      "metrics": {
+        "responseTime": "Oras ng Pagtugon",
+        "satisfaction": "Kasiyahan",
+        "cost": "Gastos",
+        "availability": "Availability",
+        "noShows": "Mga Hindi Pagdating",
+        "compliance": "Pagsunod",
+        "resolution": "Paglutas",
+        "speed": "Bilis",
+        "security": "Seguridad"
+      }
+    },
+    "testimonials": {
+      "title": "Minamahal ng mga Koponan sa Suporta sa Buong Mundo",
+      "subtitle": "Huwag lamang kunin ang aming salita para dito. Narito ang sinasabi ng aming mga customer tungkol sa pagbabago ng kanilang suporta sa SeaChat.",
+      "navigation": {
+        "previous": "Nakaraan",
+        "next": "Susunod"
+      },
+      "trustedBy": "Pinagkakatiwalaan ng mga makabagong kumpanya sa buong mundo",
+      "stats": {
+        "customers": "10,000+ Maligayang mga Customer",
+        "uptime": "99.9% Uptime",
+        "messages": "50M+ na mga Mensahe na Naproseso",
+        "rating": "4.9/5 Rating ng Customer"
+      },
+      "testimonials": {
+        "0": {
+          "name": "Sarah Chen",
+          "title": "Direktor ng Tagumpay ng Customer",
+          "company": "TechFlow Solutions",
+          "quote": "Binago ng SeaChat ang aming mga operasyon sa suporta. Ang pagsisimula sa mga libreng ahente ng tao ay perpekto para sa aming startup, at ang pag-scale sa AI ay naging tuluy-tuloy. Ang aming mga oras ng pagtugon ay bumuti ng 70%.",
+          "metrics": {
+            "improvement": "70%",
+            "feature": "Oras ng Pagtugon"
+          }
+        },
+        "1": {
+          "name": "Marcus Rodriguez",
+          "title": "Tagapamahala ng Operasyon",
+          "company": "EcoCommerce",
+          "quote": "Ang tampok na knowledge base ay hindi kapani-paniwala. In-upload namin ang aming buong catalog ng produkto at mga FAQ, at ngayon ay pinangangasiwaan ng AI ang 80% ng mga query ng customer na may perpektong katumpakan.",
+          "metrics": {
+            "improvement": "80%",
+            "feature": "Paglutas ng Query"
+          }
+        },
+        "2": {
+          "name": "Emily Watson",
+          "title": "Pinuno ng Karanasan sa Customer",
+          "company": "HealthTech Pro",
+          "quote": "Ang pagsasama ng omnichannel ay walang kamali-mali. Maaaring simulan ng aming mga customer ang isang pag-uusap sa WhatsApp at magpatuloy sa aming website nang hindi nawawala ang konteksto. Nagbabago ng laro!",
+          "metrics": {
+            "improvement": "95%",
+            "feature": "Kasiyahan ng Customer"
+          }
+        },
+        "3": {
+          "name": "David Park",
+          "title": "Tagapagtatag at CEO",
+          "company": "StartupFlow",
+          "quote": "Bilang isang bootstrap startup, ang libreng plano ay isang tagapagligtas ng buhay. Nagbigay kami ng propesyonal na suporta mula sa unang araw nang walang anumang paunang gastos. Ngayon ay masaya kaming nagbabayad para sa mga tampok ng AI habang kami ay nag-i-scale.",
+          "metrics": {
+            "improvement": "$0",
+            "feature": "Paunang Gastos"
+          }
+        },
+        "4": {
+          "name": "Lisa Thompson",
+          "title": "Pinuno ng Koponan sa Suporta",
+          "company": "GlobalRetail Inc",
+          "quote": "Ang pag-handoff ng tao-AI ay napakakinis na hindi man lang napapansin ng mga customer kapag sila ay inililipat sa pagitan ng mga ahente ng AI at tao. Ito mismo ang kailangan namin para sa aming mga kumplikadong sitwasyon sa suporta.",
+          "metrics": {
+            "improvement": "100%",
+            "feature": "Walang putol na Handoff"
+          }
+        }
+      }
+    },
+    "blog": {
+      "title": "Pinakabagong mga Insight at Mapagkukunan",
+      "subtitle": "Manatiling nangunguna sa mga pananaw ng dalubhasa sa mga trend sa suporta sa customer, mga diskarte sa pagpapatupad ng AI, at mga tip sa pag-optimize ng platform.",
+      "categories": {
+        "all": "Lahat",
+        "ai": "AI at Automation",
+        "strategy": "Diskarte",
+        "integration": "Pagsasama",
+        "knowledge": "Pamamahala ng Kaalaman",
+        "success": "Tagumpay ng Customer"
+      },
+      "featured": "Itinatampok",
+      "latest": "Mga Kamakailang Post",
+      "readTime": "min na pagbasa",
+      "stayUpdated": "Manatiling Nai-update",
+      "newsletterSubtitle": "Kunin ang pinakabagong mga insight sa suporta sa customer ng AI, mga update sa platform, at mga pinakamahusay na kasanayan sa industriya na inihahatid sa iyong inbox.",
+      "joinProfessionals": "Sumali sa 5,000+ na mga propesyonal sa suporta. Mag-unsubscribe anumang oras.",
+      "loading": "Naglo-load ng mga post sa blog...",
+      "loadingPost": "Naglo-load ng artikulo...",
+      "backToBlog": "Bumalik sa Blog",
+      "share": "Ibahagi",
+      "tags": "Mga Tag",
+      "followLinkedIn": "Sundan sa LinkedIn",
+      "moreArticles": "Higit pang mga Artikulo",
+      "relatedArticles": "Mga Kaugnay na Artikulo",
+      "searchPlaceholder": "Maghanap ng mga artikulo, paksa, o tag...",
+      "articleCount": "artikulo(s) na natagpuan",
+      "noArticles": "Walang nahanap na mga artikulo",
+      "adjustSearch": "Subukang ayusin ang iyong mga termino sa paghahanap o filter ng kategorya."
+    }
+  }
+}

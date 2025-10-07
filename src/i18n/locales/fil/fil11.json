@@ -1,0 +1,1870 @@
+{
+  "seavoice": {
+    "header": {
+      "navigation": {
+        "platform": {
+          "title": "Platform",
+          "overview": "Pangkalahatang-ideya ng Platform",
+          "landlineMobile": "Boses ng Landline at Mobile",
+          "voipSipByoc": "Boses ng VoIP & SIP & BYOC",
+          "lineCallPlus": "Line Call Plus para sa mga Negosyo",
+          "whatsAppVoice": "WhatsApp Voice API para sa mga Negosyo",
+          "speechToText": "Speech To Text",
+          "textToSpeech": "Text To Speech",
+          "endToEndLlms": "End To End LLMs"
+        },
+        "inboundSolutions": {
+          "title": "Mga Solusyon sa Papasok",
+          "virtualAssistant": "24/7 na Virtual Assistant",
+          "callTransfer": "Matalinong Paglipat ng Tawag",
+          "ivrReplacement": "Kapalit ng IVR",
+          "mentalHealth": "Kasama sa Kalusugan ng Pag-iisip",
+          "scamShield": "Proteksyon ng Scam Shield",
+          "technicalSupport": "Teknikal na Suporta",
+          "orderTracking": "Katayuan at Pagsubaybay ng Order",
+          "paymentProcessing": "Pagproseso ng Pagbabayad",
+          "appointmentBooking": "Pag-book ng Appointment"
+        },
+        "outboundSolutions": {
+          "title": "Mga Solusyon sa Papalabas",
+          "leadGeneration": "Pagbuo at Kwalipikasyon ng Lead",
+          "collections": "Serbisyo sa mga Koleksyon",
+          "reactivation": "Reactivation ng Customer",
+          "seniorChecks": "Mga Tawag sa Pagsusuri sa Nakatatanda",
+          "campaigns": "Mga Kampanya sa Malaking Scale",
+          "proactiveSupport": "Maagap na Suporta",
+          "renewals": "Mga Pag-renew ng Subscription",
+          "surveys": "Mga Survey sa Customer",
+          "fraudAlerts": "Mga Alerto sa Pandaraya"
+        },
+        "pricing": "Pagpepresyo"
+      },
+      "auth": {
+        "signIn": "Mag-sign In",
+        "getStarted": "Magsimula"
+      },
+      "backToMainSite": "Bumalik sa Pangunahing Site"
+    },
+    "home": {
+      "hero": {
+        "tagline": "Hindi Natutulog ang Iyong Negosyo",
+        "title": {
+          "line1": "Mga Ahente ng Boses ng AI",
+          "line2": "Pangasiwaan ang mga Tawag 24/7"
+        },
+        "subtitle": {
+          "line1": "Baguhin ang mga pakikipag-ugnayan sa customer gamit ang AI na parang tao na hindi natutulog.",
+          "line2": "I-automate ang suporta, mga booking, at papalabas na tawag sa sukat."
+        },
+        "bookDemo": "Mag-book ng Demo",
+        "signUp": "Mag-sign Up Ngayon"
+      },
+      "voiceDemo": {
+        "title": "Subukan ang Aming Teknolohiya sa Boses",
+        "subtitle": "Makinig sa mga tunay na halimbawa ng SeaVoice sa aksyon at maranasan ang hinaharap ng mga pag-uusap na pinapagana ng AI"
+      },
+      "conversationFlow": {
+        "step1": {
+          "title": "Mga Tawag ng Customer",
+          "description": "Tumatawag ang tumatawag sa numero ng iyong negosyo"
+        },
+        "step2": {
+          "title": "Sumasagot ang Ahente ng AI",
+          "description": "Agad na sumasagot ang SeaVoice AI"
+        },
+        "step3": {
+          "title": "Natural na Pag-uusap",
+          "description": "Pakikipag-ugnayan sa boses na parang tao"
+        },
+        "step4": {
+          "title": "Pagkumpleto ng Gawain",
+          "description": "Pag-book, suporta, o paglipat"
+        }
+      },
+      "conversationExamples": {
+        "appointment": {
+          "customer": "Hi, gusto kong mag-book ng appointment para sa susunod na linggo.",
+          "ai": "Masaya akong tulungan kang mag-iskedyul ng isang appointment! Hayaan mong suriin ko ang aming availability para sa susunod na linggo. Anong uri ng serbisyo ang hinahanap mo?",
+          "scenario": "Pag-book ng appointment"
+        },
+        "support": {
+          "customer": "Nagkakaproblema ako sa aking kamakailang order. Matutulungan mo ba ako?",
+          "ai": "Siyempre! Narito ako upang tumulong sa iyong order. Maaari mo bang ibigay ang iyong numero ng order upang mahanap ko ang mga detalye para sa iyo?",
+          "scenario": "Suporta sa customer"
+        },
+        "inquiry": {
+          "customer": "Ano ang mga oras ng iyong negosyo?",
+          "ai": "Bukas kami mula Lunes hanggang Biyernes mula 9 AM hanggang 6 PM, at Sabado mula 10 AM hanggang 4 PM. Sarado kami tuwing Linggo. Mayroon ka bang partikular na gustong malaman tungkol sa aming mga serbisyo?",
+          "scenario": "Pangkalahatang katanungan"
+        }
+      },
+      "useCases": {
+        "title": {
+          "line1": "Baguhin ang Iyong Negosyo gamit ang",
+          "line2": "Matagumpay na mga Kaso ng Paggamit"
+        },
+        "subtitle": "Tuklasin kung paano ginagamit ng mga pinuno ng industriya ang SeaVoice AI upang baguhin ang mga pakikipag-ugnayan sa customer at mag-drive ng paglago",
+        "badge": "Mga Subok na Kuwento ng Tagumpay",
+        "inbound": {
+          "category": "Mga Solusyon sa Papasok",
+          "appointmentBooking": {
+            "title": "Pag-book at Pamamahala ng Appointment",
+            "description": "I-automate ang pag-iiskedyul ng appointment gamit ang AI na nakakaunawa sa availability, mga kagustuhan, at mga panuntunan sa negosyo."
+          },
+          "technicalSupport": {
+            "title": "Automation ng Teknikal na Suporta",
+            "description": "Magbigay ng instant na teknikal na suporta gamit ang AI na maaaring mag-diagnose ng mga problema at gabayan ang mga customer sa mga solusyon."
+          },
+          "virtualAssistant": {
+            "title": "Virtual Assistant",
+            "description": "Pangasiwaan ang mga pangkalahatang katanungan, magbigay ng impormasyon, at matalinong i-ruta ang mga tawag."
+          },
+          "callTransfer": {
+            "title": "Paglipat at Pagruruta ng Tawag",
+            "description": "Matalinong i-ruta ang mga tawag sa tamang departamento o ahente batay sa mga pangangailangan ng tumatawag."
+          },
+          "orderTracking": {
+            "title": "Pagsubaybay at Suporta sa Order",
+            "description": "Payagan ang mga customer na suriin ang katayuan ng order, subaybayan ang mga padala, at makakuha ng mga update sa paghahatid."
+          },
+          "paymentProcessing": {
+            "title": "Pagproseso ng Pagbabayad",
+            "description": "Ligtas na iproseso ang mga pagbabayad, pangasiwaan ang mga katanungan sa pagsingil, at pamahalaan ang impormasyon sa account."
+          },
+          "ivrReplacement": {
+            "title": "Kapalit ng IVR",
+            "description": "Palitan ang mga tradisyonal na menu ng natural na pag-unawa sa wika para sa isang mas makinis na karanasan."
+          },
+          "mentalHealth": {
+            "title": "Suporta sa Kalusugan ng Pag-iisip",
+            "description": "Magbigay ng empatikong suporta sa kalusugan ng pag-iisip na hinimok ng AI sa buong orasan."
+          },
+          "scamShield": {
+            "title": "Proteksyon ng Scam Shield",
+            "description": "Protektahan ang iyong mga gumagamit mula sa mga scam na may real-time na pagtuklas at pag-block."
+          },
+          "type": "Papasok"
+        },
+        "outbound": {
+          "category": "Mga Solusyon sa Papalabas",
+          "leadGeneration": {
+            "title": "Pagbuo at Kwalipikasyon ng Lead",
+            "description": "Baguhin ang iyong pipeline sa pagbebenta gamit ang pagbuo ng lead na pinapagana ng AI na tumutukoy at nagiging kwalipikado sa mga prospect."
+          },
+          "seniorChecks": {
+            "title": "Mga Tawag sa Pagsusuri at Kaayusan sa Nakatatanda",
+            "description": "Regular na mga pagsusuri sa kaayusan na pinapagana ng AI para sa mga nakatatanda na may mga mahabaging pag-uusap na sumusubaybay sa kalusugan."
+          },
+          "surveys": {
+            "title": "Mga Survey at Feedback sa Customer",
+            "description": "Magsagawa ng mga survey pagkatapos ng pagbili at awtomatikong mangolekta ng mahalagang feedback ng customer."
+          },
+          "collections": {
+            "title": "Mga Koleksyon at Paalala sa Pagbabayad",
+            "description": "Magalang at epektibong mga tawag sa koleksyon na nagpapabuti ng mga rate ng pagbabayad habang pinapanatili ang mga relasyon."
+          },
+          "reactivation": {
+            "title": "Reactivation ng Customer",
+            "description": "Muling makipag-ugnayan sa mga hindi aktibong customer na may mga personalized na kampanya sa outreach."
+          },
+          "fraudAlerts": {
+            "title": "Mga Alerto at Pag-verify sa Pandaraya",
+            "description": "Abisuhan ang mga customer tungkol sa mga kahina-hinalang transaksyon at i-verify ang kanilang pagkakakilanlan para sa seguridad."
+          },
+          "campaigns": {
+            "title": "Mga Kampanya sa Malaking Scale",
+            "description": "Magsagawa ng napakalaking mga kampanya sa boses upang maabot ang libu-libong mga customer sa buong mundo."
+          },
+          "proactiveSupport": {
+            "title": "Maagap na Suporta sa Customer",
+            "description": "Panatilihing may kaalaman ang mga customer nang maagap na may matalinong mga abiso."
+          },
+          "renewals": {
+            "title": "Mga Pag-renew ng Subscription",
+            "description": "I-automate ang mga pag-renew na may mga paalala at tuluy-tuloy na pagproseso ng pagbabayad."
+          },
+          "type": "Papalabas"
+        },
+        "types": {
+          "inbound": "Papasok",
+          "outbound": "Papalabas"
+        }
+      },
+      "howItWorks": {
+        "title": {
+          "prefix": "",
+          "highlight": "Magsimula sa ",
+          "suffix": "5 Madaling Hakbang"
+        },
+        "subtitle": "Mula sa pag-setup hanggang sa go-live sa loob ng 20 minuto. Ang aming streamlined na proseso ay naghahanda sa iyong ahente ng boses ng AI na pangasiwaan agad ang mga tawag.",
+        "badge": "Simpleng Proseso ng Pag-setup",
+        "step1": {
+          "title": "Sanayin ang Iyong Ahente ng Boses",
+          "description": "I-customize ang iyong boses, mga script, at mga tugon sa ilang minuto. Natututo ang aming AI mula sa iyong website at Google Business Profile upang tumpak na kumatawan sa iyong brand."
+        },
+        "step2": {
+          "title": "Ikonekta ang Iyong Sistema ng Telepono",
+          "description": "Walang putol na isama ang SeaVoice sa iyong umiiral na pag-setup ng telepono (SIP/VoIP/PSTN). I-forward ang mga tawag sa SeaVoice nang hindi binabago ang numero ng iyong negosyo."
+        },
+        "step3": {
+          "title": "Magtakda ng mga Panuntunan sa Tawag",
+          "description": "Tukuyin kung paano pinangangasiwaan ng SeaVoice ang iba't ibang uri ng tawag at kung kailan mag-e-escalate sa iyong koponan. Tiyakin na bawat tumatawag ay nakakakuha ng tamang tugon."
+        },
+        "step4": {
+          "title": "Mag-live",
+          "description": "I-activate ang iyong ahente ng boses ng AI at simulang pangasiwaan ang mga tawag. Karaniwang tumatagal ang buong proseso ng wala pang 20 minuto mula simula hanggang katapusan."
+        },
+        "step5": {
+          "title": "24/7 na Suporta at Analytics",
+          "description": "Subaybayan ang mga tawag sa real-time, makatanggap ng mga detalyadong transcript, at gamitin ang mga insight upang mapabuti ang iyong negosyo. Laging available ang aming koponan sa suporta upang tulungan kang i-optimize ang pagganap."
+        },
+        "ctaBadge": "Karamihan sa mga customer ay live sa loob ng 20 minuto",
+        "liveTime": "Karamihan sa mga customer ay live sa loob ng 20 minuto"
+      },
+      "comparison": {
+        "title": "Voice AI kumpara sa Tao kumpara sa mga Serbisyo na In-outsource",
+        "subtitle": "Tingnan kung paano nagkukumpara ang SeaVoice AI sa mga tradisyonal na alternatibo",
+        "seavoiceAi": "SeaVoice AI",
+        "fullTimeHuman": "Full-Time na Tao",
+        "outsourcedService": "Serbisyo na In-outsource",
+        "availability": {
+          "feature": "24/7 na Availability",
+          "seavoice": "Laging naka-on",
+          "human": "9-5 lamang",
+          "outsourced": "Mga dagdag na bayarin"
+        },
+        "callVolume": {
+          "feature": "Paghawak sa Dami ng Tawag",
+          "seavoice": "500+ na sabay-sabay",
+          "human": "1 tawag sa isang pagkakataon",
+          "outsourced": "5-10 na sabay-sabay"
+        },
+        "language": {
+          "feature": "Suporta sa Wika",
+          "seavoice": "30+ na mga wika",
+          "human": "Limitado sa pag-hire",
+          "outsourced": "Dagdag na $/wika"
+        },
+        "emotional": {
+          "feature": "Emosyonal na Katalinuhan",
+          "seavoice": "Pangunahing empatiya",
+          "human": "Mataas",
+          "outsourced": "Nakasalalay sa ahente"
+        },
+        "compliance": {
+          "feature": "Pagsunod",
+          "seavoice": "Mga built-in na tool",
+          "human": "Kinakailangan ang pagsasanay",
+          "outsourced": "Kinakailangan ang pagsasanay"
+        },
+        "implementation": {
+          "feature": "Oras ng Pagpapatupad",
+          "seavoice": "<1 araw",
+          "human": "6-8 linggo na pag-hire",
+          "outsourced": "2-4 na linggo"
+        },
+        "costComparison": "💰 Paghahambing ng Gastos",
+        "cost": {
+          "monthly": {
+            "feature": "Buwanang Gastos",
+            "seavoice": "Nagsisimula sa $30",
+            "human": "$3,397+",
+            "outsourced": "$1,500-$2,500"
+          },
+          "effective": {
+            "feature": "Epektibong Rate",
+            "seavoice": "$0.12/minuto",
+            "human": "$6.79/tawag",
+            "outsourced": "$3.00-$5.00/tawag"
+          },
+          "hidden": {
+            "feature": "Mga Nakatagong Gastos",
+            "seavoice": "Wala",
+            "human": "Mga benepisyo ($800+/buwan)",
+            "outsourced": "Mga bayarin sa pag-setup"
+          }
+        },
+        "savings": {
+          "costVsHuman": "95%",
+          "costVsHumanLabel": "Pagtitipid sa Gastos kumpara sa Tao",
+          "costVsOutsourced": "80%",
+          "costVsOutsourcedLabel": "Pagtitipid kumpara sa In-outsource",
+          "annualSavings": "$40K+",
+          "annualSavingsLabel": "Taunang Pagtitipid"
+        },
+        "cta": {
+          "title": "Handa nang Damhin ang Kalamangan ng SeaVoice AI?",
+          "subtitle": "Sumali sa libu-libong negosyo na nagbago ng kanilang serbisyo sa customer gamit ang AI na gumagana 24/7, humahawak ng walang limitasyong mga tawag, at nag-i-scale sa iyong negosyo.",
+          "bookDemo": "Mag-book ng Demo",
+          "signUp": "Mag-sign Up Ngayon",
+          "description": "Sumali sa libu-libong negosyo na nagbago ng kanilang serbisyo sa customer gamit ang AI na gumagana 24/7, humahawak ng walang limitasyong mga tawag, at nag-i-scale sa iyong negosyo."
+        },
+        "seavoiceAI": "SeaVoice AI",
+        "costDescription": "Tingnan ang malaking pagtitipid sa gastos sa SeaVoice AI",
+        "costSavings": "95%",
+        "costSavingsLabel": "Pagtitipid sa Gastos kumpara sa Tao",
+        "outsourcedSavings": "80%",
+        "outsourcedSavingsLabel": "Pagtitipid kumpara sa In-outsource",
+        "annualSavings": "$40K+",
+        "annualSavingsLabel": "Taunang Pagtitipid",
+        "features": {
+          "availability": "24/7 na Availability",
+          "callVolume": "Paghawak sa Dami ng Tawag",
+          "language": "Suporta sa Wika",
+          "emotional": "Emosyonal na Katalinuhan",
+          "compliance": "Pagsunod",
+          "implementation": "Oras ng Pagpapatupad",
+          "monthlyCost": "Buwanang Gastos",
+          "effectiveRate": "Epektibong Rate",
+          "hiddenCosts": "Mga Nakatagong Gastos"
+        },
+        "seavoice": {
+          "availability": "Laging naka-on",
+          "callVolume": "500+ na sabay-sabay",
+          "language": "30+ na mga wika",
+          "emotional": "Pangunahing empatiya",
+          "compliance": "Mga built-in na tool",
+          "implementation": "<1 araw",
+          "monthlyCost": "Nagsisimula sa $30",
+          "effectiveRate": "$0.12/minuto",
+          "hiddenCosts": "Wala"
+        },
+        "human": {
+          "availability": "9-5 lamang",
+          "callVolume": "1 tawag sa isang pagkakataon",
+          "language": "Limitado sa pag-hire",
+          "emotional": "Mataas",
+          "compliance": "Kinakailangan ang pagsasanay",
+          "implementation": "6-8 linggo na pag-hire",
+          "monthlyCost": "$3,397+",
+          "effectiveRate": "$6.79/tawag",
+          "hiddenCosts": "Mga benepisyo ($800+/buwan)"
+        },
+        "outsourced": {
+          "availability": "Mga dagdag na bayarin",
+          "callVolume": "5-10 na sabay-sabay",
+          "language": "Dagdag na $/wika",
+          "emotional": "Nakasalalay sa ahente",
+          "compliance": "Kinakailangan ang pagsasanay",
+          "implementation": "2-4 na linggo",
+          "monthlyCost": "$1,500-$2,500",
+          "effectiveRate": "$3.00-$5.00/tawag",
+          "hiddenCosts": "Mga bayarin sa pag-setup"
+        }
+      },
+      "seachat": {
+        "title": {
+          "prefix": "Ang mga kakayahan ng SeaVoice ay hatid sa iyo ng ",
+          "highlight": "SeaChat",
+          "suffix": " "
+        },
+        "subtitle": "Isang omni-channel at multi-modal na no-code na platform ng ahente",
+        "teamwork": {
+          "title": "Isang Koponan, Nagtutulungan para sa Iyo"
+        },
+        "chatAgent": {
+          "title": "Ahente ng Chat AI",
+          "description": "Mga instant na tugon sa mga platform sa web, mobile, at pagmemensahe"
+        },
+        "humanAgent": {
+          "title": "Ahente ng Tao",
+          "description": "Walang putol na pag-handoff para sa mga kumplikadong query na nangangailangan ng ugnayan ng tao"
+        },
+        "voiceAgent": {
+          "title": "Ahente ng Boses ng AI",
+          "description": "Mga natural na pag-uusap sa telepono na pinapagana ng advanced na voice AI"
+        },
+        "learnMore": "Matuto nang higit pa tungkol sa SeaChat",
+        "teamTitle": "Isang Koponan, Nagtutulungan para sa Iyo"
+      },
+      "testimonial": {
+        "quote": "Binawasan ng SeaVoice ang oras ng pagsasanay ng aming ahente ng 2 linggo at tinaasan ang kahusayan ng 20%",
+        "author": "Sarah Johnson",
+        "role": "VP ng Tagumpay ng Customer",
+        "company": "TechCorp Inc.",
+        "stat1": "2 linggo",
+        "stat1Label": "Nabawasang oras ng pagsasanay",
+        "stat2": "20%",
+        "stat2Label": "Pagtaas sa kahusayan",
+        "stat3": "94%",
+        "stat3Label": "Kasiyahan ng customer",
+        "stat4": "500+",
+        "stat4Label": "Mga sabay-sabay na tawag"
+      },
+      "faq": {
+        "title": {
+          "line1": "Mga Madalas Itanong",
+          "line2": "na mga Tanong"
+        },
+        "subtitle": "Lahat ng kailangan mong malaman tungkol sa SeaVoice AI at kung paano nito maaaring baguhin ang iyong mga komunikasyon sa negosyo",
+        "badge": "May mga Tanong?",
+        "expandAll": "Palawakin ang Lahat ng mga Tanong",
+        "collapseAll": "I-collapse ang Lahat",
+        "q1": {
+          "question": "Paano naiiba ang SeaVoice sa isang tradisyonal na chatbot?",
+          "answer": "Nagbibigay ang SeaVoice ng mga real-time na pag-uusap sa boses na may advanced na AI na nakakaunawa sa konteksto, humahawak sa mga pagkagambala, at naghahatid ng mga tugon na parang tao sa telepono. Hindi tulad ng mga text-based na chatbot, pinangangasiwaan ng SeaVoice ang mga aktwal na tawag sa boses na may mga natural na pattern ng pagsasalita."
+        },
+        "q2": {
+          "question": "Gaano katagal bago i-set up?",
+          "answer": "Karaniwang tumatagal ang pag-setup ng wala pang 20 minuto. Maaari mong sanayin ang iyong ahente ng boses, ikonekta ang iyong sistema ng telepono, magtakda ng mga panuntunan sa tawag, at mag-live sa isang session."
+        },
+        "q3": {
+          "question": "Maaari bang sabihin ng mga tumatawag na nakikipag-usap sila sa isang AI?",
+          "answer": "Lumilikha ang aming advanced na teknolohiya sa boses ng mga pag-uusap na napaka-parang tao. Bagama't maaaring mapansin ng ilang mga tumatawag, karamihan ay nakakahanap ng karanasan na natural at kapaki-pakinabang. Maaari mo ring i-customize ang AI upang ipakilala ang sarili bilang isang katulong sa AI kung gusto."
+        },
+        "q4": {
+          "question": "Ano ang mangyayari kung hindi masagot ng SeaVoice ang isang tanong?",
+          "answer": "Idinisenyo ang SeaVoice upang pangasiwaan ang mga pag-escalate nang maayos. Maaari itong maglipat ng mga tawag sa mga ahente ng tao, kumuha ng mga mensahe, mag-iskedyul ng mga callback, o idirekta ang mga tumatawag sa mga naaangkop na mapagkukunan batay sa iyong mga naka-configure na panuntunan."
+        },
+        "q5": {
+          "question": "Paano gumagana ang pagpepresyo?",
+          "answer": "Nag-aalok kami ng transparent na pagpepresyo bawat minuto. Kasama sa mga premium na plano ang mga base na minuto na may karagdagang paggamit na sinisingil bawat minuto. Ang mga plano sa enterprise ay na-customize batay sa dami at mga partikular na pangangailangan."
+        },
+        "q6": {
+          "question": "Maaari ko bang i-customize ang boses ng AI?",
+          "answer": "Oo! Maaari kang pumili mula sa maraming mga pagpipilian sa boses, ayusin ang tono at istilo ng pagsasalita, at kahit na i-clone ang mga pasadyang boses para sa mga plano sa Enterprise. Maaaring sanayin ang AI upang tumugma sa istilo ng komunikasyon ng iyong brand."
+        },
+        "q7": {
+          "question": "Maraming wika ba ang SeaVoice?",
+          "answer": "Oo, sinusuportahan ng SeaVoice ang mga pag-uusap sa mahigit 10 wika kabilang ang Ingles, Espanyol, Pranses, Aleman, Italyano, Portuges, Olandes, Ruso, Tsino, at Hapon."
+        },
+        "q8": {
+          "question": "Anong mga industriya ang pinaka-nakikinabang sa SeaVoice?",
+          "answer": "Mahusay na gumagana ang SeaVoice sa mga industriya kabilang ang pangangalagang pangkalusugan, real estate, pagtanggap ng bisita, mga serbisyo sa pananalapi, e-commerce, mga propesyonal na serbisyo, at anumang negosyo na humahawak ng mataas na dami ng tawag o nangangailangan ng 24/7 na availability."
+        },
+        "q9": {
+          "question": "Maaari bang pangasiwaan ng SeaVoice ang mga tawag sa emergency?",
+          "answer": "Bagama't kayang hawakan ng SeaVoice ang mga agarang katanungan at mag-escalate nang naaangkop, inirerekomenda namin ang pagpapanatili ng mga direktang protocol sa emergency. Maaaring i-configure ang SeaVoice upang agad na ilipat ang mga tawag na may kaugnayan sa emergency sa mga operator ng tao."
+        },
+        "q10": {
+          "question": "Maaari bang makita ng SeaVoice ang mga tawag sa spam?",
+          "answer": "Oo, kasama sa SeaVoice ang built-in na pagtuklas ng spam na maaaring matukoy at i-filter ang mga kahina-hinalang tawag, na pinoprotektahan ang iyong negosyo mula sa mga hindi gustong pagkagambala habang tinitiyak na nakakarating ang mga lehitimong tawag."
+        },
+        "q11": {
+          "question": "Paano ako magsisimula?",
+          "answer": "Madali lang magsimula! Mag-book ng isang demo upang makita ang SeaVoice sa aksyon, pagkatapos ay tutulungan ka ng aming koponan na i-set up ang iyong ahente ng boses, isama sa iyong sistema ng telepono, at i-configure ito para sa iyong mga partikular na pangangailangan. Karamihan sa mga customer ay gumagana at tumatakbo sa loob ng isang araw."
+        }
+      },
+      "finalCta": {
+        "title": "Handa nang makita ito sa aksyon?",
+        "subtitle": "Kumuha ng isang personalized na demo at tuklasin kung paano maaaring baguhin ng SeaVoice ang iyong mga komunikasyon sa customer",
+        "bookDemo": "Mag-book ng Demo Ngayon",
+        "signUp": "Mag-sign Up Ngayon"
+      },
+      "dashboard": {
+        "stats": {
+          "totalCalls": "247",
+          "activeCalls": "3",
+          "avgWaitTime": "0:12",
+          "satisfaction": "4.8",
+          "resolutionRate": "92"
+        },
+        "calls": {
+          "sarah": {
+            "customer": "Sarah Johnson",
+            "type": "Pag-book ng Appointment",
+            "status": "nakumpleto",
+            "duration": "3:42",
+            "time": "2 minuto ang nakalipas",
+            "outcome": "Naka-iskedyul ang appointment para sa susunod na Martes ng 2 PM",
+            "tag1": "pag-book",
+            "tag2": "nasiyahan"
+          },
+          "mike": {
+            "customer": "Mike Chen",
+            "type": "Teknikal na Suporta",
+            "status": "inilipat",
+            "duration": "1:28",
+            "time": "5 minuto ang nakalipas",
+            "outcome": "Inilipat sa teknikal na espesyalista - Isyu: Mga problema sa pag-login",
+            "tag1": "suporta",
+            "tag2": "na-escalate"
+          },
+          "emily": {
+            "customer": "Emily Rodriguez",
+            "type": "Katanungan sa Order",
+            "status": "nakumpleto",
+            "duration": "2:15",
+            "time": "8 minuto ang nakalipas",
+            "outcome": "Ibinigay ang katayuan ng order - Darating bukas ang package",
+            "tag1": "katanungan",
+            "tag2": "nalutas"
+          },
+          "david": {
+            "customer": "David Wilson",
+            "type": "Tanong sa Pagsingil",
+            "status": "kasalukuyang ginagawa",
+            "duration": "1:03",
+            "time": "Ngayon lang",
+            "outcome": "Kasalukuyang tinatalakay ang pagkakaiba sa pagsingil",
+            "tag1": "pagsingil",
+            "tag2": "aktibo"
+          }
+        },
+        "mockCalls": {
+          "customer1": "Sarah Johnson",
+          "type1": "Pag-book ng Appointment",
+          "status1": "nakumpleto",
+          "duration1": "3:42",
+          "time1": "2 minuto ang nakalipas",
+          "outcome1": "Naka-iskedyul ang appointment para sa susunod na Martes ng 2 PM",
+          "customer2": "Mike Chen",
+          "type2": "Teknikal na Suporta",
+          "status2": "inilipat",
+          "duration2": "1:28",
+          "time2": "5 minuto ang nakalipas",
+          "outcome2": "Inilipat sa teknikal na espesyalista - Isyu: Mga problema sa pag-login",
+          "customer3": "Emily Rodriguez",
+          "type3": "Katanungan sa Order",
+          "status3": "nakumpleto",
+          "duration3": "2:15",
+          "time3": "8 minuto ang nakalipas",
+          "outcome3": "Ibinigay ang katayuan ng order - Darating bukas ang package",
+          "customer4": "David Wilson",
+          "type4": "Tanong sa Pagsingil",
+          "status4": "kasalukuyang ginagawa",
+          "duration4": "1:03",
+          "time4": "Ngayon lang",
+          "outcome4": "Kasalukuyang tinatalakay ang pagkakaiba sa pagsingil"
+        }
+      },
+      "testimonials": {
+        "metrics": {
+          "trainingTime": "2 linggo",
+          "trainingTimeLabel": "Nabawasang oras ng pagsasanay",
+          "efficiency": "20%",
+          "efficiencyLabel": "Pagtaas sa kahusayan",
+          "satisfaction": "94%",
+          "satisfactionLabel": "Kasiyahan ng customer",
+          "simultaneousCalls": "500+",
+          "simultaneousCallsLabel": "Mga sabay-sabay na tawag"
+        },
+        "quote": "Binawasan ng SeaVoice ang oras ng pagsasanay ng aming ahente ng 2 linggo at tinaasan ang kahusayan ng 20%",
+        "author": "Sarah Johnson",
+        "role": "VP ng Tagumpay ng Customer",
+        "company": "TechCorp Inc."
+      }
+    },
+    "pricing": {
+      "hero": {
+        "title": "Simple, Transparent na Pagpepresyo",
+        "subtitle": "Mga solusyon sa Voice AI na idinisenyo para sa serbisyo sa customer na papasok at mga kampanya sa papalabas. Binuo sa mga pundasyon ng SeaChat Premium ($29.99) at SeaX Omni-channel ($99)."
+      },
+      "plans": {
+        "inboundOnly": {
+          "name": "Papasok Lamang",
+          "tagline": "Perpekto para sa Serbisyo sa Customer",
+          "price": "$29.99",
+          "period": "/buwan",
+          "description": "Tamang-tama para sa mga negosyo na nangangailangan ng isang solusyon sa papasok na tawag na may Voice AI (batay sa plano ng SeaChat Premium)",
+          "features": {
+            "aiCallHandling": "Paghawak ng tawag na batay sa AI (mga papasok na tawag lamang)",
+            "voiceAIPrice": "Nagsisimula ang Voice AI sa $0.12 bawat minuto (modelo ng ChatGPT-4o mini)",
+            "phoneNumber": "Kasama ang numero ng telepono ($2-$3/buwan na may E911 address)",
+            "callRecording": "Pag-record at buod ng tawag",
+            "transferHuman": "Suporta sa paglipat sa ahente ng tao",
+            "multiLanguage": "Suporta sa boses sa maraming wika",
+            "sttLanguages": "10+ na mga wika sa Speech-To-Text",
+            "ttsLanguages": "10+ na mga wika sa Text-To-Speech na may mga boses mula sa Azure, ElevenLabs, OpenAI",
+            "crmIntegrations": "Mga pagsasama sa CRM (Salesforce, HubSpot)",
+            "calendarIntegration": "Pagsasama ng kalendaryo (Google, Outlook)",
+            "callAnalytics": "Analytics at pag-uulat ng tawag",
+            "emailNotifications": "Mga abiso sa email para sa mga tawag"
+          },
+          "limitations": {
+            "noOutbound": "Walang mga kakayahan sa papalabas na pagtawag",
+            "noBulkCampaigns": "Walang mga tampok sa bulk na kampanya"
+          },
+          "cta": "Magsimula sa Papasok Lamang",
+          "poweredBy": "Pinapagana ng SeaChat"
+        },
+        "inboundOutbound": {
+          "name": "Papasok + Papalabas",
+          "tagline": "Palakihin ang Iyong mga Kampanya sa Boses",
+          "price": "$99",
+          "period": "/buwan",
+          "description": "Perpekto para sa malakihang mga kampanya sa boses ng AI (katumbas ng plano ng SeaX Omni-channel para sa unang gumagamit)",
+          "badge": "Pinakasikat",
+          "features": {
+            "everythingInbound": "Lahat sa plano ng Papasok Lamang",
+            "outboundCalling": "Papalabas na pagtawag at mga kampanya",
+            "bulkCampaigns": "Mga kampanya sa boses ng AI sa bulk",
+            "voiceAIPrice": "Nagsisimula ang Voice AI sa $0.12 bawat minuto (modelo ng ChatGPT-4o mini)",
+            "additionalUsers": "Mga karagdagang gumagamit: $49/buwan bawat isa",
+            "multipleNumbers": "Suportado ang maraming mga numero ng telepono",
+            "campaignScheduling": "Pag-iiskedyul at automation ng kampanya",
+            "advancedRouting": "Advanced na pagruruta ng tawag",
+            "customVoiceTraining": "Pasadyang pagsasanay sa boses",
+            "voicemailDrop": "Kakayahang mag-drop ng voicemail ($0.05 bawat pag-drop)",
+            "apiAccess": "Access sa RESTful API",
+            "seachatIntegration": "Pagsasama ng SeaChat para sa suporta sa maraming channel",
+            "advancedAnalytics": "Advanced na dashboard ng analytics",
+            "prioritySupport": "Suporta sa priyoridad"
+          },
+          "cta": "Magsimula sa Papasok + Papalabas",
+          "poweredBy": "Pinapagana ng SeaX + SeaChat"
+        },
+        "custom": {
+          "name": "Pasadyang Plano",
+          "tagline": "Mga Solusyon sa Antas ng Enterprise",
+          "price": "Makipag-ugnayan sa Amin",
+          "period": "",
+          "description": "Mga pasadyang solusyon na iniakma sa mga partikular na pangangailangan sa negosyo (katulad ng mga plano sa Enterprise ng SeaChat/SeaX)",
+          "customPriceMessage": "Bumuo tayo ng isang proyekto",
+          "features": {
+            "everythingInboundOutbound": "Lahat sa plano ng Papasok + Papalabas",
+            "multipleWorkspaces": "Maramihang mga workspace (perpekto para sa mga ahensya)",
+            "workspaceAgents": "Ang bawat workspace ay may maraming mga ahente ng AI at mga numero ng telepono",
+            "customPricing": "Pasadyang pagpepresyo bawat minuto batay sa dami",
+            "accountManager": "Nakatuong tagapamahala ng account",
+            "uptimeSLA": "99.99% na SLA sa uptime",
+            "compliance": "Available ang pagsunod sa HIPAA/PCI",
+            "whiteLabel": "Mga solusyon sa white-label",
+            "customAPI": "Mga pasadyang pagsasama ng API",
+            "advancedSecurity": "Mga advanced na tampok sa seguridad",
+            "voiceCloning": "Pasadyang pag-clone ng boses",
+            "phoneSupport": "Suporta sa telepono sa priyoridad",
+            "technicalSupport": "Mga propesyonal na alituntunin sa disenyo at teknikal na suporta",
+            "onPremise": "Mga pagpipilian sa on-premise na pag-deploy"
+          },
+          "cta": "Makipag-ugnayan sa Amin"
+        }
+      },
+      "productRelationship": {
+        "title": "Paano Kumokonekta ang SeaVoice sa SeaChat at SeaX",
+        "seachatIntegration": {
+          "title": "🔗 Pagsasama ng SeaChat",
+          "description": "Ang SeaVoice Inbound Only ($29.99/buwan) ay binuo sa mga pundasyon ng plano ng SeaChat Premium, na nagbibigay ng mga kakayahan sa voice AI para sa mga papasok na tawag sa $0.12 bawat minuto.",
+          "subtitle": "Perpekto para sa mga negosyo na nais magdagdag ng voice AI sa kanilang umiiral na pag-setup ng SeaChat."
+        },
+        "seaxIntegration": {
+          "title": "📞 Pagsasama ng SeaX",
+          "description": "Sinasalamin ng SeaVoice Inbound + Outbound ($99/buwan) ang pagpepresyo ng SeaX Omni-channel, na nagbibigay-daan sa malakihang mga kampanya sa boses na may paghawak sa callback.",
+          "subtitle": "Tamang-tama para sa mga negosyo na nagpapatakbo ng mga kampanya sa outbound na nangangailangan ng komprehensibong saklaw ng voice AI."
+        },
+        "completePicture": {
+          "title": "✨ Ang Kumpletong Larawan",
+          "description": "Lahat ng mga tawag sa Voice AI sa SeaChat, SeaX, at SeaVoice ay gumagamit ng parehong $0.12 bawat minuto na rate sa modelo ng ChatGPT-4o mini. Kapag tumawag pabalik ang mga contact pagkatapos ng mga kampanya sa outbound, walang putol na pinangangasiwaan ng SeaVoice ang mga papasok na tawag na ito na may parehong katalinuhan sa AI."
+        }
+      },
+      "faq": {
+        "title": "Mga Madalas Itanong",
+        "subtitle": "Lahat ng kailangan mong malaman tungkol sa pagpepresyo at mga tampok ng SeaVoice",
+        "question1": "Paano nauugnay ang pagpepresyo ng SeaVoice sa SeaChat at SeaX?",
+        "answer1": "Ang plano ng SeaVoice Inbound Only ($29.99/buwan) ay batay sa plano ng SeaChat Premium, na nakatuon sa papasok na voice AI. Sinasalamin ng plano ng Inbound + Outbound ($99/buwan) ang pagpepresyo ng SeaX Omni-channel para sa mga komprehensibong kampanya sa boses. Lahat ng mga tawag sa voice AI ay nagsisimula sa $0.12 bawat minuto gamit ang modelo ng ChatGPT-4o mini.",
+        "question2": "Ano ang pagkakaiba sa pagitan ng mga plano na Inbound Only at Inbound + Outbound?",
+        "answer2": "Pinangangasiwaan ng Inbound Only ($29.99/buwan) ang mga papasok na tawag na may AI, perpekto para sa serbisyo sa customer. Nagdaragdag ang Inbound + Outbound ($99/buwan para sa unang gumagamit) ng mga kakayahan sa bulk na kampanya at papalabas na pagtawag, perpekto para sa mga koponan sa pagbebenta at marketing na nagpapatakbo ng malakihang mga kampanya sa boses.",
+        "question3": "Maaari ko bang panatilihin ang aking mga umiiral na numero ng telepono sa negosyo?",
+        "answer3": "Oo, maaari mong panatilihin ang iyong mga umiiral na numero ng negosyo at i-forward ang mga tawag sa SeaVoice, o maaari kaming magbigay ng mga bagong numero. Ang bawat numero ng telepono ay nagkakahalaga ng $2-$3/buwan na may pagpaparehistro ng E911 address.",
+        "question4": "Magkano talaga ang halaga ng mga tawag sa voice AI?",
+        "answer4": "Lahat ng mga tawag sa voice AI ay nagsisimula sa $0.12 bawat minuto gamit ang modelo ng ChatGPT-4o mini. Ito ang parehong rate sa mga plano ng SeaChat Premium at SeaVoice. Ang mga modelo na may mas mataas na tier tulad ng ChatGPT-4o ay nagkakahalaga ng $0.80 bawat minuto at available sa mga pasadyang plano.",
+        "question5": "Ano ang mangyayari kapag tumawag pabalik ang mga contact pagkatapos ng isang kampanya sa outbound?",
+        "answer5": "Sa plano ng Inbound + Outbound, kapag tumawag pabalik ang mga contact pagkatapos makatanggap ng mga tawag sa kampanya, awtomatikong hahawakan ng aming papasok na Voice AI ang mga tawag na ito, na nagbibigay ng tuluy-tuloy na pagpapatuloy sa iyong mga komunikasyon sa customer.",
+        "question6": "Maaari ba akong mag-upgrade mula sa Inbound Only patungo sa Inbound + Outbound?",
+        "answer6": "Syempre! Maaari mong i-upgrade ang iyong plano anumang oras. Agad na magkakabisa ang pag-upgrade, at makakakuha ka ng access sa papalabas na pagtawag, mga tampok sa kampanya, at mga karagdagang upuan ng gumagamit.",
+        "question7": "Nag-aalok ba kayo ng mga diskwento sa dami para sa mga customer na may mataas na paggamit?",
+        "answer7": "Oo, nag-aalok ang aming Pasadyang Plano ng negosasyong pagpepresyo batay sa iyong partikular na dami at mga pattern ng paggamit. Makipag-ugnayan sa aming koponan sa pagbebenta upang talakayin ang pasadyang pagpepresyo na nag-i-scale sa iyong mga pangangailangan sa negosyo."
+      },
+      "cta": {
+        "title": "Handa nang Magsimula?",
+        "subtitle": "Simulan ang iyong libreng pagsubok ngayon at maranasan ang kapangyarihan ng automation ng boses ng AI",
+        "signUpFree": "Mag-sign Up nang Libre",
+        "scheduleDemo": "Mag-iskedyul ng Demo"
+      }
+    },
+    "footer": {
+      "description": "I-automate ang 80% ng mga tawag sa customer gamit ang mga ahente ng boses ng AI na parang tao ang tunog at walang putol na isinasama sa iyong negosyo.",
+      "platform": {
+        "title": "Platform",
+        "overview": "Pangkalahatang-ideya ng Platform",
+        "landlineMobile": "Boses ng Landline at Mobile",
+        "voipSipByoc": "Boses ng VoIP & SIP & BYOC",
+        "lineCallPlus": "Line Call Plus para sa mga Negosyo",
+        "whatsAppVoice": "WhatsApp Voice API para sa mga Negosyo",
+        "speechToText": "Speech To Text",
+        "textToSpeech": "Text To Speech",
+        "endToEndLlms": "End To End LLMs"
+      },
+      "inboundSolutions": {
+        "title": "Mga Solusyon sa Papasok",
+        "virtualAssistant": "24/7 na Virtual Assistant",
+        "callTransfer": "Matalinong Paglipat ng Tawag",
+        "ivrReplacement": "Kapalit ng IVR",
+        "mentalHealth": "Kasama sa Kalusugan ng Pag-iisip",
+        "scamShield": "Proteksyon ng Scam Shield",
+        "technicalSupport": "Teknikal na Suporta",
+        "orderTracking": "Katayuan at Pagsubaybay ng Order",
+        "paymentProcessing": "Pagproseso ng Pagbabayad",
+        "appointmentBooking": "Pag-book ng Appointment"
+      },
+      "outboundSolutions": {
+        "title": "Mga Solusyon sa Papalabas",
+        "leadGeneration": "Pagbuo at Kwalipikasyon ng Lead",
+        "collections": "Serbisyo sa mga Koleksyon",
+        "reactivation": "Reactivation ng Customer",
+        "seniorChecks": "Mga Tawag sa Pagsusuri sa Nakatatanda",
+        "campaigns": "Mga Kampanya sa Malaking Scale",
+        "proactiveSupport": "Maagap na Suporta",
+        "renewals": "Mga Pag-renew ng Subscription",
+        "surveys": "Mga Survey sa Customer",
+        "fraudAlerts": "Mga Alerto sa Pandaraya"
+      },
+      "company": {
+        "title": "Kumpanya",
+        "pricing": "Pagpepresyo",
+        "productWiki": "Wiki ng Produkto",
+        "apiReferences": "Mga Sanggunian ng API"
+      },
+      "legal": {
+        "copyright": "© 2020 - {{year}} Seasalt.ai. Lahat ng karapatan ay nakalaan.",
+        "privacyPolicy": "Patakaran sa Privacy",
+        "termsOfService": "Mga Tuntunin ng Serbisyo"
+      },
+      "stats": {
+        "callsHandled": "1M+ na mga Tawag na Nahawakan",
+        "activeAgents": "50K+ na mga Aktibong Ahente",
+        "uptime": "99.99% Uptime"
+      },
+      "cta": {
+        "title": "Handa nang I-automate ang 80% ng Iyong mga Tawag sa Customer?",
+        "description": "Sumali sa daan-daang negosyo na gumagamit ng mga ahente ng SeaVoice AI upang pangasiwaan ang mga tawag sa customer 24/7, bawasan ang mga gastos, at pagbutihin ang kasiyahan ng customer.",
+        "getStartedFree": "Magsimula nang Libre",
+        "bookDemo": "Mag-book ng Demo"
+      }
+    },
+    "priceCalculator": {
+      "hero": {
+        "title": "Buwanang Kalkulator ng Presyo",
+        "subtitle": "Kalkulahin ang iyong eksaktong buwanang gastos batay sa iyong mga pangangailangan sa paggamit. Lahat ng pagpepresyo ay para sa USA/Canada na may kasamang mga singil sa telepono."
+      },
+      "configure": {
+        "title": "I-configure ang Iyong Plano"
+      },
+      "planType": {
+        "label": "1. Piliin ang Iyong Uri ng Plano",
+        "inbound": {
+          "title": "Papasok Lamang - $29.99/buwan",
+          "description": "Perpekto para sa serbisyo sa customer"
+        },
+        "inboundOutbound": {
+          "title": "Papasok + Papalabas - $99/buwan",
+          "description": "Palakihin ang iyong mga kampanya sa boses"
+        }
+      },
+      "phoneNumbers": {
+        "label": "2. Mga Numero ng Telepono (na may E911 address)",
+        "local": {
+          "label": "Mga Lokal na Numero ($2/buwan bawat isa)"
+        },
+        "tollFree": {
+          "label": "Mga Numero na Walang Bayad ($3/buwan bawat isa)"
+        }
+      },
+      "voiceAI": {
+        "label": "3. Mga Minuto ng Voice AI ($0.12/minuto - ChatGPT-4o mini)",
+        "range": {
+          "min": "0 min",
+          "max": "5,000 min",
+          "current": "mga minuto"
+        }
+      },
+      "humanAgent": {
+        "label": "4. Mga Minuto ng Ahente ng Tao ($0.015/minuto)",
+        "range": {
+          "min": "0 min",
+          "max": "2,000 min",
+          "current": "mga minuto"
+        }
+      },
+      "breakdown": {
+        "title": "Pagkasira ng Buwanang Gastos",
+        "inboundPlan": "Plano na Papasok Lamang",
+        "inboundOutboundPlan": "Plano na Papasok + Papalabas",
+        "phoneNumbersTitle": "Mga Numero ng Telepono",
+        "phoneNumbers": {
+          "local": "lokal",
+          "tollFree": "walang bayad"
+        },
+        "voiceAI": {
+          "title": "Mga Minuto ng Voice AI",
+          "calculation": "min × $0.12"
+        },
+        "humanAgent": {
+          "title": "Mga Minuto ng Ahente ng Tao",
+          "calculation": "min × $0.015"
+        },
+        "total": "Kabuuang Buwanang Gastos"
+      },
+      "features": {
+        "usaCanada": "Kasama ang saklaw ng USA/Canada",
+        "phoneCharges": "Kasama ang lahat ng mga singil sa telepono",
+        "e911": "Kasama ang pagpaparehistro ng E911 address",
+        "recording": "Pag-record at analytics ng tawag",
+        "outboundCampaigns": "Mga kampanya sa papalabas at bulk na pagtawag"
+      },
+      "cta": {
+        "getStartedInbound": "Magsimula sa Papasok Lamang",
+        "getStartedInboundOutbound": "Magsimula sa Papasok + Papalabas",
+        "scheduleDemo": "Mag-iskedyul ng isang Demo"
+      },
+      "notes": {
+        "title": "Mahalagang mga Tala",
+        "usaCanadaOnly": "Ang ipinapakitang pagpepresyo ay para sa USA/Canada lamang",
+        "phoneChargesIncluded": "Kasama sa mga rate na ipinapakita ang lahat ng mga singil sa tawag sa telepono",
+        "voiceAIModel": "Gumagamit ang Voice AI ng modelo ng ChatGPT-4o mini sa $0.12/minuto",
+        "humanAgentMinutes": "Ang mga minuto ng ahente ng tao ay para sa mga paglipat ng tawag at mga direktang tawag"
+      }
+    },
+    "platform": {
+      "hero": {
+        "title": "Ang Kumpletong Platform ng Boses ng AI",
+        "description": "Tuklasin ang teknolohiya na nagpapagana sa mga pakikipag-ugnayan sa boses na parang tao, mga tuluy-tuloy na pagsasama, at mga naaaksyunan na insight para sa iyong negosyo.",
+        "cta": "Galugarin ang mga Kakayahan ng Platform"
+      },
+      "features": {
+        "aiVoice": {
+          "title": "Mga Ahente ng Boses ng AI",
+          "description": "Mga ahente ng boses na parang tao na humahawak sa mga papasok at papalabas na tawag 24/7 na may perpektong pagkakapare-pareho.",
+          "feature1": "24/7 na availability",
+          "feature2": "Mga pag-uusap na parang tao",
+          "feature3": "Mga dinamikong paghinto at pagbabago ng tono",
+          "feature4": "Suporta sa maraming wika"
+        },
+        "conversationalAI": {
+          "title": "Conversational AI",
+          "description": "Advanced na AI na natututo mula sa iyong mga dokumento at naaalala ang mga nakaraang pakikipag-ugnayan para sa personalized na serbisyo.",
+          "feature1": "Teknolohiya ng RAG",
+          "feature2": "Pangmatagalang memorya",
+          "feature3": "Pasadyang knowledge base",
+          "feature4": "Kamalayan sa konteksto"
+        },
+        "analytics": {
+          "title": "Analytics at Mga Insight",
+          "description": "Mga real-time na transcript, pagsusuri ng sentimyento, at mga naaaksyunan na insight mula sa bawat pag-uusap.",
+          "feature1": "Mga real-time na transcript",
+          "feature2": "Pagsusuri ng sentimyento",
+          "feature3": "Mga sukatan ng pagganap",
+          "feature4": "Analytics ng dami ng tawag"
+        },
+        "telephony": {
+          "title": "Teleponya at Pagkakakonekta",
+          "description": "Flexible na pagsasama sa mga pagpipilian sa VoIP, SIP, at BYOC para sa tuluy-tuloy na pagkakakonekta.",
+          "feature1": "Pagsasama ng VoIP",
+          "feature2": "SIP trunking",
+          "feature3": "Suporta sa BYOC",
+          "feature4": "Pandaigdigang saklaw"
+        },
+        "integrations": {
+          "title": "Mga Pagsasama at Channel",
+          "description": "Kumonekta sa iyong mga umiiral na tool at maabot ang mga customer sa maraming mga channel.",
+          "feature1": "Pagsasama ng CRM",
+          "feature2": "WhatsApp Voice API",
+          "feature3": "Mga Tawag sa Negosyo ng LINE",
+          "feature4": "Pag-sync ng kalendaryo"
+        },
+        "speech": {
+          "title": "Mga Teknolohiya sa Pagsasalita",
+          "description": "Pagkilala sa pagsasalita at text-to-speech na nangunguna sa industriya na may mga pasadyang profile ng boses.",
+          "feature1": "Mataas na katumpakan ng STT",
+          "feature2": "Natural na TTS",
+          "feature3": "Pag-clone ng boses",
+          "feature4": "10+ na mga wika"
+        }
+      },
+      "technology": {
+        "title": "Binuo sa Teknolohiya na Nangunguna sa Industriya",
+        "subtitle": "Pinapagana ng kadalubhasaan ng orihinal na koponan ng Kaldi sa pagkilala sa pagsasalita",
+        "speechRecognition": {
+          "title": "Pagkilala sa Pagsasalita",
+          "description": "Advanced na teknolohiya ng STT na may 99%+ na katumpakan, kahit na may ingay sa background at jargon sa industriya.",
+          "metric1": "99%+ na katumpakan",
+          "metric2": "Real-time na pagproseso",
+          "metric3": "Pagbabawas ng ingay"
+        },
+        "nlp": {
+          "title": "Natural na Pagpoproseso ng Wika",
+          "description": "AI na may kamalayan sa konteksto na nakakaunawa sa layunin at nagpapanatili ng natural na daloy ng pag-uusap.",
+          "metric1": "Pagkilala sa layunin",
+          "metric2": "Pagpapanatili ng konteksto",
+          "metric3": "Emosyonal na katalinuhan"
+        },
+        "voiceSynthesis": {
+          "title": "Synthesis ng Boses",
+          "description": "Text-to-speech na parang tao na may mga nako-customize na boses at natural na prosody.",
+          "metric1": "Natural na prosody",
+          "metric2": "Pag-clone ng boses",
+          "metric3": "Kontrol sa emosyon"
+        }
+      },
+      "landlineMobile": {
+        "hero": {
+          "title": "Mga Solusyon sa Boses ng Landline at Mobile",
+          "subtitle": "Baguhin ang iyong mga tradisyonal na sistema ng telepono gamit ang mga ahente ng boses na pinapagana ng AI na gumagana nang walang putol sa mga landline at mga mobile network sa buong mundo.",
+          "cta": "Mag-sign Up nang Libre"
+        },
+        "features": {
+          "0": {
+            "title": "Pagsasama ng Tradisyonal na Landline",
+            "description": "Walang putol na ikonekta ang iyong umiiral na imprastraktura ng landline sa mga kakayahan sa boses ng AI.",
+            "benefits": {
+              "0": "Panatilihin ang iyong mga umiiral na numero ng telepono",
+              "1": "Walang kinakailangang mga pagbabago sa hardware",
+              "2": "Instant na backup ng AI para sa mga abalang linya"
+            }
+          },
+          "1": {
+            "title": "Pagkakakonekta sa Mobile Network",
+            "description": "Direktang pagsasama sa mga mobile carrier para sa mga kampanya sa outbound at pakikipag-ugnayan sa customer.",
+            "benefits": {
+              "0": "Abutin ang mga customer sa kanilang mga mobile device",
+              "1": "Mataas na mga rate ng paghahatid",
+              "2": "Mga pagpipilian sa fallback ng SMS"
+            }
+          },
+          "2": {
+            "title": "Pandaigdigang Saklaw",
+            "description": "Kumonekta sa mga customer sa buong mundo sa pamamagitan ng aming malawak na mga pakikipagsosyo sa network ng carrier.",
+            "benefits": {
+              "0": "200+ na mga bansang suportado",
+              "1": "Presensya ng lokal na numero",
+              "2": "Mapagkumpitensyang mga internasyonal na rate"
+            }
+          },
+          "title": "Universal na Pagkakakonekta sa Boses",
+          "subtitle": "Kumonekta sa anumang sistema ng telepono, saanman sa mundo"
+        },
+        "useCases": {
+          "0": {
+            "title": "Mga Paalala sa Appointment",
+            "description": "Awtomatikong tawagan ang mga pasyente, customer, o kliyente upang kumpirmahin ang mga paparating na appointment.",
+            "metrics": {
+              "0": "40% na pagbawas sa mga hindi pagdating",
+              "1": "95% na rate ng tagumpay sa contact",
+              "2": "24/7 na awtomatikong pagtawag"
+            }
+          },
+          "1": {
+            "title": "Mga Abiso sa Emergency",
+            "description": "Mabilis na abisuhan ang malalaking grupo sa panahon ng mga emergency o mga kritikal na update.",
+            "metrics": {
+              "0": "1000+ na tawag bawat minuto",
+              "1": "Suporta sa maraming wika",
+              "2": "Kumpirmasyon sa paghahatid"
+            }
+          },
+          "2": {
+            "title": "Mga Survey sa Customer",
+            "description": "Magsagawa ng mga survey pagkatapos ng serbisyo upang mangolekta ng mahalagang feedback ng customer.",
+            "metrics": {
+              "0": "3x na mas mataas na mga rate ng pagtugon",
+              "1": "Real-time na pagsusuri ng sentimyento",
+              "2": "Awtomatikong pag-uulat"
+            }
+          },
+          "title": "Mga Sikat na Kaso ng Paggamit",
+          "subtitle": "Tingnan kung paano ginagamit ng mga negosyo ang automation ng boses sa landline at mobile"
+        },
+        "specs": {
+          "title": "Pagiging Maaasahan sa Antas ng Enterprise",
+          "subtitle": "Binuo para sa mga komunikasyon na kritikal sa misyon na may imprastraktura sa antas ng carrier at 99.99% na garantiya sa uptime.",
+          "security": {
+            "title": "Seguridad at Pagsunod",
+            "description": "Imprastraktura na sumusunod sa SOC 2, HIPAA, at PCI"
+          },
+          "monitoring": {
+            "title": "24/7 na Pagsubaybay",
+            "description": "Real-time na pagsubaybay sa system at instant na failover"
+          },
+          "infrastructure": {
+            "title": "Pandaigdigang Imprastraktura",
+            "description": "Mga redundant na data center sa maraming mga rehiyon"
+          },
+          "technical": {
+            "title": "Mga Teknikal na Detalye",
+            "concurrentCalls": {
+              "label": "Mga Sabay-sabay na Tawag",
+              "value": "Walang limitasyon"
+            },
+            "audioQuality": {
+              "label": "Kalidad ng Audio",
+              "value": "HD Voice (G.722)"
+            },
+            "latency": {
+              "label": "Latency",
+              "value": "< 150ms"
+            },
+            "uptimeSLA": {
+              "label": "Uptime SLA",
+              "value": "99.99%"
+            },
+            "globalCoverage": {
+              "label": "Pandaigdigang Saklaw",
+              "value": "200+ na mga Bansa"
+            }
+          }
+        },
+        "cta": {
+          "title": "Handa nang I-modernize ang Iyong Sistema ng Telepono?",
+          "subtitle": "Ikonekta ang iyong imprastraktura ng landline at mobile sa mga ahente ng boses ng AI sa ilang minuto",
+          "button": "Mag-iskedyul ng Tawag sa Pagsasama"
+        }
+      },
+      "endToEndLLMs": {
+        "hero": {
+          "title": "Mga Solusyon sa End-to-End na LLM",
+          "subtitle": "Kumpletong pagsasama ng malaking modelo ng wika mula sa input ng pagsasalita hanggang sa matalinong pagbuo ng tugon. Pinapagana ng advanced na AI na nakakaunawa sa konteksto, nagpapanatili ng mga pag-uusap, at nagsasagawa ng lohika sa negosyo.",
+          "cta": "Galugarin ang mga Kakayahan ng LLM"
+        },
+        "features": {
+          "title": "Kumpletong Pagsasama ng LLM",
+          "subtitle": "Mula sa pag-unawa sa pagsasalita hanggang sa matalinong pagbuo ng tugon",
+          "advancedModels": {
+            "title": "Mga Advanced na Modelo ng Wika",
+            "description": "Mga makabagong malalaking modelo ng wika na na-optimize para sa conversational AI at mga application sa negosyo.",
+            "gpt4Integration": "Pagsasama ng GPT-4",
+            "customFineTuning": "Pasadyang pag-fine-tune",
+            "domainSpecific": "Mga modelo na partikular sa domain",
+            "multiModal": "Suporta sa multi-modal"
+          },
+          "knowledgeIntegration": {
+            "title": "Pagsasama ng Kaalaman",
+            "description": "Walang putol na isama ang iyong knowledge base sa negosyo sa teknolohiya ng RAG (Retrieval-Augmented Generation).",
+            "documentIngestion": "Paglunok ng dokumento",
+            "realTimeUpdates": "Mga real-time na update",
+            "semanticSearch": "Paghahanap ng semantiko",
+            "contextAwareness": "Kamalayan sa konteksto"
+          },
+          "enterpriseSecurity": {
+            "title": "Seguridad sa Enterprise",
+            "description": "Seguridad at pagsunod sa antas ng enterprise para sa mga sensitibong pag-uusap sa negosyo.",
+            "dataEncryption": "Pag-encrypt ng data",
+            "accessControls": "Mga kontrol sa pag-access",
+            "auditLogging": "Pag-log ng audit",
+            "complianceReady": "Handa na sa pagsunod"
+          }
+        },
+        "capabilities": {
+          "title": "Mga Advanced na Kakayahan ng LLM",
+          "subtitle": "Sopistikadong pag-unawa at pagbuo ng wika para sa mga application sa negosyo",
+          "nlu": {
+            "category": "Natural na Pag-unawa sa Wika",
+            "description": "Advanced na pag-unawa sa layunin ng gumagamit, konteksto, at nuanced na komunikasyon.",
+            "intentAccuracy": "Katumpakan ng layunin: 98%",
+            "contextRetention": "Pagpapanatili ng konteksto: 95%",
+            "sentimentAnalysis": "Pagsusuri ng sentimyento: 96%"
+          },
+          "conversationalFlow": {
+            "category": "Daloy ng Pag-uusap",
+            "description": "Panatilihin ang mga natural, magkakaugnay na pag-uusap sa maraming mga pagliko at paksa.",
+            "multiTurnCoherence": "Pagkakaugnay-ugnay sa maraming pagliko: 94%",
+            "topicSwitching": "Paglipat ng paksa: 92%",
+            "contextPreservation": "Pagpapanatili ng konteksto: 97%"
+          },
+          "businessLogic": {
+            "category": "Pagsasama ng Lohika sa Negosyo",
+            "description": "Magsagawa ng mga kumplikadong daloy ng trabaho sa negosyo at mga proseso sa paggawa ng desisyon.",
+            "workflowAccuracy": "Katumpakan ng daloy ng trabaho: 99%",
+            "decisionConsistency": "Pagkakapare-pareho ng desisyon: 98%",
+            "errorHandling": "Paghawak sa error: 95%"
+          },
+          "personalization": {
+            "category": "Personalisasyon",
+            "description": "Iakma ang mga tugon batay sa kasaysayan ng gumagamit, mga kagustuhan, at konteksto ng negosyo.",
+            "personalizationScore": "Marka ng personalisasyon: 93%",
+            "userSatisfaction": "Kasiyahan ng gumagamit: 96%",
+            "engagementRate": "Rate ng pakikipag-ugnayan: 89%"
+          }
+        },
+        "architecture": {
+          "title": "Arkitektura ng End-to-End",
+          "subtitle": "Kumpletong pipeline mula sa input ng pagsasalita hanggang sa matalinong tugon sa boses",
+          "speechInput": {
+            "title": "Pagproseso ng Input ng Pagsasalita",
+            "description": "I-convert ang pagsasalita sa teksto na may katumpakan na nangunguna sa industriya",
+            "kaldiASR": "ASR na batay sa Kaldi",
+            "noiseReduction": "Pagbabawas ng ingay",
+            "speakerDiarization": "Diarization ng tagapagsalita"
+          },
+          "llmProcessing": {
+            "title": "Pagproseso ng Modelo ng Wika",
+            "description": "Advanced na pagproseso ng LLM na may pagsasama ng konteksto sa negosyo",
+            "gpt4Turbo": "GPT-4 Turbo",
+            "customFineTuning": "Pasadyang pag-fine-tune",
+            "ragIntegration": "Pagsasama ng RAG"
+          },
+          "responseGeneration": {
+            "title": "Pagbuo ng Tugon",
+            "description": "Bumuo ng mga tugon na angkop sa konteksto at nakahanay sa negosyo",
+            "templateSystems": "Mga sistema ng template",
+            "dynamicContent": "Dinamikong nilalaman",
+            "complianceChecking": "Pagsusuri sa pagsunod"
+          },
+          "speechOutput": {
+            "title": "Synthesis ng Output ng Pagsasalita",
+            "description": "I-convert ang mga tugon sa teksto sa natural na tunog na pagsasalita",
+            "neuralTTS": "Neural TTS",
+            "voiceCloning": "Pag-clone ng boses",
+            "emotionControl": "Kontrol sa emosyon"
+          }
+        },
+        "useCases": {
+          "title": "Mga Matalinong Kaso ng Paggamit",
+          "subtitle": "Baguhin ang mga operasyon sa negosyo gamit ang mga pag-uusap na pinapagana ng AI",
+          "customerSupport": {
+            "title": "Matalinong Suporta sa Customer",
+            "description": "Pangasiwaan ang mga kumplikadong katanungan ng customer na may pag-unawa at mga kakayahan sa paglutas ng problema na parang tao.",
+            "reducedEscalation": "Nabawasang mga rate ng pag-escalate",
+            "fasterResolution": "Mas mabilis na mga oras ng paglutas",
+            "consistentQuality": "Pare-parehong kalidad ng serbisyo",
+            "availability24x7": "24/7 na availability"
+          },
+          "salesConversations": {
+            "title": "Mga Pag-uusap sa Pagbebenta",
+            "description": "Makipag-ugnayan sa mga prospect na may mga personalized na pag-uusap sa pagbebenta na umaangkop sa mga pangangailangan at kagustuhan ng customer.",
+            "higherConversion": "Mas mataas na mga rate ng conversion",
+            "personalizedRecommendations": "Mga personalized na rekomendasyon",
+            "objectionHandling": "Paghawak sa pagtutol",
+            "leadQualification": "Kwalipikasyon ng lead"
+          },
+          "technicalSupport": {
+            "title": "Teknikal na Suporta",
+            "description": "Magbigay ng teknikal na tulong sa antas ng dalubhasa na may access sa mga komprehensibong knowledge base.",
+            "complexTroubleshooting": "Kumplikadong pag-troubleshoot",
+            "stepByStepGuidance": "Gabay sa bawat hakbang",
+            "documentationAccess": "Access sa dokumentasyon",
+            "escalationIntelligence": "Katalinuhan sa pag-escalate"
+          },
+          "healthcareAssistance": {
+            "title": "Tulong sa Pangangalagang Pangkalusugan",
+            "description": "Suportahan ang mga daloy ng trabaho sa pangangalagang pangkalusugan na may AI na sumusunod sa HIPAA na nakakaunawa sa terminolohiyang medikal.",
+            "medicalKnowledge": "Knowledge base sa medikal",
+            "appointmentScheduling": "Pag-iiskedyul ng appointment",
+            "symptomAssessment": "Pagtatasa ng sintomas",
+            "careCoordination": "Koordinasyon ng pangangalaga"
+          }
+        },
+        "performance": {
+          "title": "Pagganap sa Enterprise",
+          "description": "Naghahatid ang aming end-to-end na solusyon sa LLM ng pagganap sa antas ng enterprise na may real-time na pagproseso, mataas na katumpakan, at maaasahang scalability para sa mga application sa negosyo na kritikal sa misyon.",
+          "realTimeTitle": "Real-Time na Pagproseso",
+          "realTimeDesc": "Mga oras ng pagtugon na wala pang isang segundo para sa mga natural na pag-uusap",
+          "securityTitle": "Seguridad sa Enterprise",
+          "securityDesc": "Imprastraktura na sumusunod sa SOC 2, HIPAA, at PCI",
+          "qualityTitle": "Kalidad ng Pag-uusap",
+          "qualityDesc": "Mga pakikipag-ugnayan na parang tao na may kamalayan sa konteksto",
+          "metricsTitle": "Mga Sukatan ng Pagganap",
+          "responseLatency": "Latency ng Tugon",
+          "responseLatencyValue": "< 500ms",
+          "intentAccuracy": "Katumpakan ng Layunin",
+          "intentAccuracyValue": "98.2%",
+          "contextRetention": "Pagpapanatili ng Konteksto",
+          "contextRetentionValue": "95.8%",
+          "uptimeSLA": "Uptime SLA",
+          "uptimeSLAValue": "99.99%",
+          "concurrentUsers": "Mga Sabay-sabay na Gumagamit",
+          "concurrentUsersValue": "10,000+"
+        },
+        "cta": {
+          "title": "Handa nang I-deploy ang mga Matalinong Pag-uusap?",
+          "subtitle": "Baguhin ang iyong negosyo gamit ang mga end-to-end na solusyon sa LLM na nakakaunawa, nangangatwiran, at tumutugon nang matalino",
+          "scheduleDemoButton": "Mag-iskedyul ng Demo sa LLM",
+          "exploreArchButton": "Galugarin ang Arkitektura"
+        }
+      },
+      "lineCallPlus": {
+        "hero": {
+          "title": "LINE Call Plus para sa mga Negosyo",
+          "description": "Baguhin ang iyong LINE Business account gamit ang pagtawag sa boses na pinapagana ng AI. Kumonekta sa mga customer sa mga merkado ng Asia-Pacific sa pamamagitan ng kanilang gustong platform ng pagmemensahe.",
+          "cta": "Simulan ang Pagsasama ng LINE"
+        },
+        "marketReach": {
+          "title": "Abutin ang Milyun-milyon sa Buong Asia-Pacific",
+          "subtitle": "Nangingibabaw ang LINE sa mga komunikasyon sa negosyo sa mga pangunahing merkado sa Asya",
+          "activeUsers": "Mga Aktibong Gumagamit",
+          "marketPenetration": "Pagpasok sa Merkado"
+        },
+        "features": {
+          "title": "Malakas na mga Tampok sa Negosyo ng LINE",
+          "subtitle": "Lahat ng kailangan mo upang magbigay ng pambihirang mga karanasan sa boses sa LINE",
+          "nativeIntegration": {
+            "title": "Katutubong Pagsasama ng LINE",
+            "description": "Walang putol na isama ang pagtawag sa boses nang direkta sa loob ng platform ng pagmemensahe ng LINE.",
+            "benefit1": "Isang-tap na pagtawag mula sa chat",
+            "benefit2": "Pinag-isang kasaysayan ng pag-uusap",
+            "benefit3": "Suporta sa mayamang media"
+          },
+          "businessAccount": {
+            "title": "Suporta sa Account ng Negosyo",
+            "description": "Buong suporta para sa mga LINE Business account na may mga advanced na tampok at analytics.",
+            "benefit1": "Mga na-verify na profile ng negosyo",
+            "benefit2": "Mga pagpipilian sa pasadyang pagba-brand",
+            "benefit3": "Advanced na pamamahala ng gumagamit"
+          },
+          "asiaPacific": {
+            "title": "Pokus sa Asia-Pacific",
+            "description": "Na-optimize para sa mga pangunahing merkado sa Asya kung saan nangingibabaw ang LINE sa mga komunikasyon sa negosyo.",
+            "benefit1": "Suporta sa lokal na wika",
+            "benefit2": "Pagsunod sa rehiyon",
+            "benefit3": "Pag-customize sa kultura"
+          }
+        },
+        "useCases": {
+          "title": "Baguhin ang mga Pakikipag-ugnayan sa Customer",
+          "subtitle": "Tingnan kung paano ginagamit ng mga negosyo ang LINE Call Plus upang mapahusay ang mga relasyon sa customer",
+          "customerSupport": {
+            "title": "Suporta sa Customer",
+            "description": "Magbigay ng instant na suporta sa boses nang direkta sa loob ng mga pag-uusap sa LINE.",
+            "metric1": "50% na mas mabilis na paglutas",
+            "metric2": "90% na kasiyahan ng customer",
+            "metric3": "24/7 na availability"
+          },
+          "salesConsultations": {
+            "title": "Mga Konsultasyon sa Pagbebenta",
+            "description": "I-convert ang mga katanungan sa chat sa mga tawag sa boses para sa mga personalized na karanasan sa pagbebenta.",
+            "metric1": "3x na mas mataas na conversion",
+            "metric2": "Mga personalized na rekomendasyon",
+            "metric3": "Pagbuo ng tiwala"
+          },
+          "appointmentBooking": {
+            "title": "Pag-book ng Appointment",
+            "description": "Paganahin ang pag-iiskedyul ng appointment na batay sa boses sa loob ng mga LINE Business account.",
+            "metric1": "Mga instant na kumpirmasyon",
+            "metric2": "Pagsasama ng kalendaryo",
+            "metric3": "Mga awtomatikong paalala"
+          }
+        },
+        "integration": {
+          "title": "Simpleng Proseso ng Pagsasama",
+          "subtitle": "Magsimula sa LINE Call Plus sa ilang hakbang lamang",
+          "steps": {
+            "0": {
+              "title": "Ikonekta ang LINE Business",
+              "description": "I-link ang iyong umiiral na LINE Business account o lumikha ng bago sa aming gabay na pag-setup."
+            },
+            "1": {
+              "title": "I-configure ang mga Ahente ng Boses",
+              "description": "I-set up ang iyong mga ahente ng boses ng AI na may mga pasadyang script, boses, at lohika sa negosyo."
+            },
+            "2": {
+              "title": "Mag-live",
+              "description": "Ilunsad ang iyong LINE Business account na pinagana ng boses at simulang makipag-ugnayan sa mga customer."
+            }
+          }
+        },
+        "analytics": {
+          "title": "Komprehensibong Analytics",
+          "description": "Subaybayan ang pagganap, unawain ang pag-uugali ng customer, at i-optimize ang iyong mga pakikipag-ugnayan sa boses sa LINE na may detalyadong analytics at pag-uulat.",
+          "callAnalytics": {
+            "title": "Analytics ng Tawag",
+            "description": "Subaybayan ang dami ng tawag, tagal, at mga rate ng tagumpay"
+          },
+          "userEngagement": {
+            "title": "Pakikipag-ugnayan ng Gumagamit",
+            "description": "Subaybayan ang mga pakikipag-ugnayan ng gumagamit at mga marka ng kasiyahan"
+          },
+          "platformInsights": {
+            "title": "Mga Insight sa Platform",
+            "description": "Mga sukatan at data ng pagganap na partikular sa LINE"
+          },
+          "dashboard": {
+            "title": "Analytics ng Tawag sa LINE",
+            "live": "Live",
+            "activeCalls": "Mga Aktibong Tawag",
+            "responseRate": "Rate ng Pagtugon",
+            "avgCallDuration": "Avg. na Tagal ng Tawag",
+            "customerSatisfaction": "Kasiyahan ng Customer",
+            "sampleResponse": "Ahente ng boses ng Hapon na tumutugon sa customer"
+          }
+        },
+        "cta": {
+          "title": "Handa nang Palawakin sa Asia-Pacific?",
+          "description": "Kumonekta sa milyun-milyong mga gumagamit ng LINE at baguhin ang iyong pakikipag-ugnayan sa customer sa mga pangunahing merkado sa Asya",
+          "button": "Simulan ang Pagsasama ng LINE"
+        }
+      },
+      "speechToText": {
+        "hero": {
+          "title": "Teknolohiya ng Speech-to-Text",
+          "subtitle": "Pagkilala sa pagsasalita na nangunguna sa industriya na may 99%+ na katumpakan. I-convert ang anumang audio sa teksto sa real-time na may suporta para sa 50+ na mga wika at mga dalubhasang bokabularyo sa industriya.",
+          "cta": "Subukan ang Pagkilala sa Pagsasalita"
+        },
+        "features": {
+          "0": {
+            "title": "Real-Time na Pagproseso",
+            "description": "I-convert ang pagsasalita sa teksto sa real-time na may ultra-mababang latency para sa mga live na pag-uusap.",
+            "specs": {
+              "0": "< 100ms na latency",
+              "1": "Pagkilala sa streaming",
+              "2": "Live na transkripsyon"
+            }
+          },
+          "1": {
+            "title": "Suporta sa Maraming Wika",
+            "description": "Suporta para sa 50+ na mga wika at diyalekto na may awtomatikong pagtuklas ng wika.",
+            "specs": {
+              "0": "50+ na mga wika",
+              "1": "Awtomatikong pagtuklas",
+              "2": "Mga rehiyonal na accent"
+            }
+          },
+          "2": {
+            "title": "Katumpakan sa Industriya",
+            "description": "Mga dalubhasang modelo na sinanay para sa iba't ibang mga industriya at mga kaso ng paggamit.",
+            "specs": {
+              "0": "99%+ na katumpakan",
+              "1": "Partikular sa domain",
+              "2": "Mga pasadyang bokabularyo"
+            }
+          },
+          "title": "Advanced na Pagkilala sa Pagsasalita",
+          "subtitle": "Binuo sa orihinal na balangkas ng Kaldi na may mga modernong pagpapahusay sa malalim na pag-aaral"
+        },
+        "accuracy": {
+          "title": "Katumpakan na Nangunguna sa Industriya",
+          "subtitle": "Mga dalubhasang modelo na sinanay para sa iba't ibang mga industriya at mga kaso ng paggamit",
+          "stats": {
+            "0": {
+              "category": "Pangkalahatang Pag-uusap",
+              "accuracy": "99.2%",
+              "improvement": "+15%"
+            },
+            "1": {
+              "category": "Terminolohiyang Medikal",
+              "accuracy": "98.8%",
+              "improvement": "+22%"
+            },
+            "2": {
+              "category": "Mga Serbisyo sa Pananalapi",
+              "accuracy": "99.1%",
+              "improvement": "+18%"
+            },
+            "3": {
+              "category": "Teknikal na Suporta",
+              "accuracy": "98.9%",
+              "improvement": "+20%"
+            }
+          },
+          "improvementSuffix": " kumpara sa average ng industriya"
+        },
+        "languages": {
+          "title": "Pandaigdigang Suporta sa Wika",
+          "subtitle": "Komprehensibong suporta para sa mga pangunahing wika sa mundo na may awtomatikong pagtuklas ng wika at pagkilala sa rehiyonal na accent. Patuloy na sinasanay ang aming mga modelo sa magkakaibang mga dataset upang matiyak ang katumpakan sa iba't ibang mga istilo at kapaligiran sa pagsasalita.",
+          "features": {
+            "0": {
+              "title": "50+ na mga Wika",
+              "description": "Mga pangunahing wika sa mundo at mga rehiyonal na diyalekto"
+            },
+            "1": {
+              "title": "Awtomatikong Pagtuklas",
+              "description": "Awtomatikong pagtukoy at paglipat ng wika"
+            },
+            "2": {
+              "title": "Patuloy na Pag-aaral",
+              "description": "Nagpapabuti ang mga modelo sa paggamit at feedback"
+            }
+          },
+          "supportedTitle": "Mga Suportadong Wika",
+          "supportedLanguages": {
+            "0": "Ingles (US, UK, AU)",
+            "1": "Espanyol (ES, MX, AR)",
+            "2": "Pranses (FR, CA)",
+            "3": "Aleman",
+            "4": "Italyano",
+            "5": "Portuges (BR, PT)",
+            "6": "Hapon",
+            "7": "Koreano",
+            "8": "Mandarin na Tsino",
+            "9": "Cantonese",
+            "10": "Hindi",
+            "11": "Arabe",
+            "12": "Ruso",
+            "13": "Olandes",
+            "14": "Suweko",
+            "15": "Norwegian"
+          },
+          "customNote": "Available ang mga pasadyang modelo ng wika para sa mga dalubhasang bokabularyo at terminolohiya na partikular sa industriya"
+        },
+        "useCases": {
+          "0": {
+            "title": "Transkripsyon ng Call Center",
+            "description": "Real-time na transkripsyon ng mga tawag sa serbisyo sa customer para sa katiyakan ng kalidad at pagsasanay.",
+            "benefits": {
+              "0": "Pagsubaybay sa kalidad",
+              "1": "Pag-record ng pagsunod",
+              "2": "Pagsasanay sa ahente",
+              "3": "Mga insight sa customer"
+            }
+          },
+          "1": {
+            "title": "Dokumentasyon ng Pulong",
+            "description": "Awtomatikong transkripsyon ng mga pulong, kumperensya, at mga talakayan sa negosyo.",
+            "benefits": {
+              "0": "Mga minuto ng pulong",
+              "1": "Pagkuha ng item ng aksyon",
+              "2": "Mga mahahanap na archive",
+              "3": "ID ng maraming tagapagsalita"
+            }
+          },
+          "2": {
+            "title": "Mga Command sa Boses",
+            "description": "I-convert ang mga command sa boses sa teksto para sa mga application at interface na kinokontrol ng boses.",
+            "benefits": {
+              "0": "Operasyon na hands-free",
+              "1": "Mga tampok sa accessibility",
+              "2": "Kontrol sa matalinong bahay",
+              "3": "Mga mobile app"
+            }
+          },
+          "3": {
+            "title": "Paglikha ng Nilalaman",
+            "description": "Baguhin ang nilalaman ng audio sa teksto para sa mga podcast, video, at produksyon ng media.",
+            "benefits": {
+              "0": "Pagbuo ng subtitle",
+              "1": "Pag-index ng nilalaman",
+              "2": "Pag-optimize ng SEO",
+              "3": "Pagsunod sa accessibility"
+            }
+          },
+          "title": "Malakas na mga Kaso ng Paggamit",
+          "subtitle": "Baguhin ang audio sa naaaksyunan na teksto sa mga industriya at application"
+        },
+        "specs": {
+          "title": "Mga Teknikal na Detalye",
+          "subtitle": "Pagganap at pagiging maaasahan sa antas ng enterprise",
+          "performance": {
+            "title": "Pagganap",
+            "latency": {
+              "label": "Latency",
+              "value": "< 100ms"
+            },
+            "accuracy": {
+              "label": "Katumpakan",
+              "value": "99%+"
+            },
+            "throughput": {
+              "label": "Throughput",
+              "value": "1000+ na sabay-sabay"
+            },
+            "uptime": {
+              "label": "Uptime",
+              "value": "99.99%"
+            }
+          },
+          "audioFormats": {
+            "title": "Mga Format ng Audio",
+            "sampleRate": {
+              "label": "Rate ng Sample",
+              "value": "8-48 kHz"
+            },
+            "bitDepth": {
+              "label": "Lalim ng Bit",
+              "value": "16-32 bit"
+            },
+            "formats": {
+              "label": "Mga Format",
+              "value": "WAV, MP3, FLAC"
+            },
+            "streaming": {
+              "label": "Streaming",
+              "value": "Real-time"
+            }
+          },
+          "integration": {
+            "title": "Pagsasama",
+            "api": {
+              "label": "API",
+              "value": "REST & WebSocket"
+            },
+            "sdks": {
+              "label": "Mga SDK",
+              "value": "Python, Node.js, Go"
+            },
+            "webhooks": {
+              "label": "Mga Webhook",
+              "value": "Mga real-time na kaganapan"
+            },
+            "security": {
+              "label": "Seguridad",
+              "value": "TLS 1.3, OAuth 2.0"
+            }
+          }
+        },
+        "cta": {
+          "title": "Handa nang Baguhin ang Audio sa Teksto?",
+          "subtitle": "Damhin ang kapangyarihan ng teknolohiya sa pagkilala sa pagsasalita na nangunguna sa industriya",
+          "primaryButton": "Subukan ang Libreng Demo",
+          "secondaryButton": "Tingnan ang mga Doc sa API"
+        }
+      },
+      "voipSipByoc": {
+        "hero": {
+          "title": "Mga Solusyon sa Boses ng VoIP, SIP & BYOC",
+          "subtitle": "Pagkakakonekta sa boses sa antas ng enterprise na may maximum na flexibility. Pumili mula sa pagsasama ng VoIP, direktang SIP trunking, o dalhin ang iyong sariling carrier para sa kumpletong kontrol.",
+          "cta": "Makipag-usap sa Espesyalista sa Pagkakakonekta"
+        },
+        "connectionTypes": {
+          "title": "Mga Flexible na Pagpipilian sa Pagkakakonekta",
+          "subtitle": "Piliin ang paraan ng koneksyon na pinakamahusay na akma sa iyong imprastraktura at mga kinakailangan",
+          "keyFeatures": "Mga Pangunahing Tampok:",
+          "voip": {
+            "title": "Pagsasama ng VoIP",
+            "description": "Walang putol na ikonekta ang iyong umiiral na imprastraktura ng VoIP sa aming platform ng boses ng AI.",
+            "features": {
+              "sipTrunk": "Compatibility ng SIP trunk",
+              "codecOptimization": "Pag-optimize ng codec",
+              "qos": "Kalidad ng Serbisyo (QoS)",
+              "bandwidthManagement": "Pamamahala ng bandwidth"
+            },
+            "pricing": "Nagsisimula sa $0.08/minuto"
+          },
+          "sip": {
+            "title": "SIP Trunking",
+            "description": "Direktang pagkakakonekta sa SIP para sa maximum na kontrol at pag-customize ng iyong trapiko sa boses.",
+            "features": {
+              "directEndpoints": "Mga direktang endpoint ng SIP",
+              "customRouting": "Mga pasadyang panuntunan sa pagruruta",
+              "failoverProtection": "Proteksyon sa failover",
+              "realTimeMonitoring": "Real-time na pagsubaybay"
+            },
+            "pricing": "Nagsisimula sa $0.06/minuto"
+          },
+          "byoc": {
+            "title": "Dalhin ang Iyong Sariling Carrier (BYOC)",
+            "description": "Gamitin ang iyong gustong mga carrier habang ginagamit ang aming mga kakayahan sa boses ng AI.",
+            "features": {
+              "carrierIndependence": "Kalayaan sa carrier",
+              "costOptimization": "Pag-optimize ng gastos",
+              "globalReach": "Pandaigdigang abot",
+              "vendorFlexibility": "Flexibility ng vendor"
+            },
+            "pricing": "Bayad sa platform + mga rate ng carrier"
+          }
+        },
+        "benefits": {
+          "title": "Mga Benepisyo sa Enterprise",
+          "subtitle": "Bakit pinipili ng mga nangungunang enterprise ang aming mga solusyon sa pagkakakonekta sa boses",
+          "costSavings": {
+            "title": "Pagtitipid sa Gastos",
+            "description": "Bawasan ang mga gastos sa komunikasyon ng hanggang 60% na may na-optimize na pagruruta at pagpili ng carrier.",
+            "metric": "60%"
+          },
+          "reliability": {
+            "title": "Pagiging Maaasahan",
+            "description": "Uptime sa antas ng enterprise na may awtomatikong failover at redundant na imprastraktura.",
+            "metric": "99.99%"
+          },
+          "scalability": {
+            "title": "Scalability",
+            "description": "Pangasiwaan ang libu-libong sabay-sabay na tawag na may mga nababanat na kakayahan sa pag-scale.",
+            "metric": "10,000+"
+          },
+          "globalReach": {
+            "title": "Pandaigdigang Abot",
+            "description": "Kumonekta sa mga customer sa buong mundo na may lokal na presensya sa mga pangunahing merkado.",
+            "metric": "200+"
+          }
+        },
+        "technicalExcellence": {
+          "title": "Teknikal na Kahusayan",
+          "subtitle": "Binuo sa mga protocol na pamantayan sa industriya na may seguridad at pagganap sa antas ng enterprise. Sinusuportahan ng aming platform ang lahat ng mga pangunahing codec at nagbibigay ng real-time na pagsubaybay sa kalidad.",
+          "endToEndEncryption": {
+            "title": "End-to-End na Pag-encrypt",
+            "description": "TLS 1.3 at SRTP para sa secure na paghahatid ng boses"
+          },
+          "lowLatency": {
+            "title": "Mababang Latency",
+            "description": "Wala pang 150ms na latency para sa malinaw na kristal na mga pag-uusap"
+          },
+          "advancedConfiguration": {
+            "title": "Advanced na Pagsasaayos",
+            "description": "Butil-butil na kontrol sa mga setting ng pagruruta at kalidad"
+          }
+        },
+        "technicalSpecs": {
+          "title": "Mga Teknikal na Detalye",
+          "supportedProtocols": {
+            "feature": "Mga Suportadong Protocol",
+            "value": "SIP 2.0, RTP, SRTP"
+          },
+          "audioCodecs": {
+            "feature": "Mga Audio Codec",
+            "value": "G.711, G.722, G.729, Opus"
+          },
+          "encryption": {
+            "feature": "Pag-encrypt",
+            "value": "TLS 1.3, SRTP, AES-256"
+          },
+          "networkRequirements": {
+            "feature": "Mga Kinakailangan sa Network",
+            "value": "100 kbps bawat sabay-sabay na tawag"
+          },
+          "latency": {
+            "feature": "Latency",
+            "value": "< 150ms end-to-end"
+          },
+          "jitterBuffer": {
+            "feature": "Jitter Buffer",
+            "value": "Adaptive, 20-200ms"
+          }
+        },
+        "howItWorks": {
+          "title": "Paano Ito Gumagana",
+          "subtitle": "Simpleng pagsasama sa iyong umiiral na imprastraktura",
+          "yourInfrastructure": {
+            "title": "Ang Iyong Imprastraktura",
+            "description": "Umiiral na PBX, sistema ng VoIP, o carrier"
+          },
+          "seavoicePlatform": {
+            "title": "Platform ng SeaVoice",
+            "description": "Pagproseso at pagruruta ng boses ng AI"
+          },
+          "globalNetwork": {
+            "title": "Pandaigdigang Network",
+            "description": "Mga koneksyon sa carrier sa buong mundo"
+          }
+        },
+        "cta": {
+          "title": "Handa nang I-optimize ang Iyong Imprastraktura ng Boses?",
+          "subtitle": "Makipag-usap sa aming mga espesyalista sa pagkakakonekta upang idisenyo ang perpektong solusyon para sa iyong mga pangangailangan",
+          "scheduleConsultation": "Mag-iskedyul ng Konsultasyon",
+          "signUpForFree": "Mag-sign Up nang Libre"
+        }
+      },
+      "whatsAppVoice": {
+        "hero": {
+          "title": "WhatsApp Voice API para sa mga Negosyo",
+          "subtitle": "Baguhin ang iyong WhatsApp Business account gamit ang pagtawag sa boses na pinapagana ng AI. Abutin ang 2+ bilyong mga gumagamit sa buong mundo na may tuluy-tuloy na mga pakikipag-ugnayan sa boses.",
+          "cta": "Kumuha ng WhatsApp Business Platform API"
+        },
+        "globalStats": {
+          "title": "Abutin ang Pinakamalaking Platform ng Pagmemensahe sa Mundo",
+          "subtitle": "Nangingibabaw ang WhatsApp sa pandaigdigang pagmemensahe na may walang kapantay na abot at pakikipag-ugnayan",
+          "stats": {
+            "0": {
+              "region": "Mga Pandaigdigang Gumagamit",
+              "count": "2.78B+",
+              "growth": "+3.2% YoY"
+            },
+            "1": {
+              "region": "Mga Account sa Negosyo",
+              "count": "200M+",
+              "growth": "+15% YoY"
+            },
+            "2": {
+              "region": "Araw-araw na mga Mensahe",
+              "count": "100B+",
+              "growth": "+8% YoY"
+            },
+            "3": {
+              "region": "Mga Bansa",
+              "count": "180+",
+              "growth": "Buong Saklaw"
+            }
+          }
+        },
+        "features": {
+          "0": {
+            "title": "Platform API ng Negosyo ng WhatsApp",
+            "description": "Opisyal na pagsasama sa WhatsApp Business Platform API para sa mga na-verify na komunikasyon sa negosyo.",
+            "benefits": {
+              "0": "Pag-verify ng berdeng checkmark",
+              "1": "Mga tampok sa profile ng negosyo",
+              "2": "Mga template ng mensahe"
+            }
+          },
+          "1": {
+            "title": "Pandaigdigang Abot",
+            "description": "Kumonekta sa 2+ bilyong mga gumagamit ng WhatsApp sa buong mundo sa pamamagitan ng pagtawag sa boses.",
+            "benefits": {
+              "0": "180+ na mga bansang suportado",
+              "1": "Mga kakayahan sa maraming wika",
+              "2": "Presensya ng lokal na numero"
+            }
+          },
+          "2": {
+            "title": "End-to-End na Seguridad",
+            "description": "Gamitin ang end-to-end na pag-encrypt ng WhatsApp para sa mga secure na komunikasyon sa negosyo.",
+            "benefits": {
+              "0": "Pag-encrypt ng mensahe",
+              "1": "Mga secure na tawag sa boses",
+              "2": "Pagsunod sa privacy"
+            }
+          },
+          "title": "Mga Tampok sa Boses ng Negosyo ng WhatsApp sa Enterprise",
+          "subtitle": "Lahat ng kailangan mo upang magbigay ng pambihirang mga karanasan sa boses sa WhatsApp"
+        },
+        "useCases": {
+          "0": {
+            "title": "Suporta sa Customer",
+            "description": "Magbigay ng instant na suporta sa boses nang direkta sa loob ng mga pag-uusap sa WhatsApp.",
+            "metrics": {
+              "0": "50% na mas mabilis na paglutas",
+              "1": "90% na kasiyahan ng customer",
+              "2": "24/7 na availability"
+            }
+          },
+          "1": {
+            "title": "Mga Pagbebenta at Konsultasyon",
+            "description": "I-convert ang mga katanungan sa chat sa mga tawag sa boses para sa mga personalized na karanasan sa pagbebenta.",
+            "metrics": {
+              "0": "3x na mas mataas na conversion",
+              "1": "Personal na ugnayan",
+              "2": "Pagbuo ng tiwala"
+            }
+          },
+          "2": {
+            "title": "Pag-book ng Appointment",
+            "description": "Paganahin ang pag-iiskedyul ng appointment na batay sa boses sa loob ng mga WhatsApp Business account.",
+            "metrics": {
+              "0": "Mga instant na kumpirmasyon",
+              "1": "Pagsasama ng kalendaryo",
+              "2": "Mga awtomatikong paalala"
+            }
+          },
+          "3": {
+            "title": "Pamamahala ng Order",
+            "description": "Pangasiwaan ang mga katanungan sa order, mga update, at suporta sa pamamagitan ng mga pakikipag-ugnayan sa boses.",
+            "metrics": {
+              "0": "Mga real-time na update",
+              "1": "Pagsubaybay sa order",
+              "2": "Paglutas ng isyu"
+            }
+          },
+          "title": "Baguhin ang mga Pakikipag-ugnayan sa Customer",
+          "subtitle": "Tingnan kung paano ginagamit ng mga negosyo ang WhatsApp Voice API upang mapahusay ang mga relasyon sa customer"
+        },
+        "integration": {
+          "title": "Simpleng Proseso ng Pagsasama",
+          "subtitle": "Magsimula sa WhatsApp Voice API sa ilang hakbang lamang",
+          "steps": {
+            "0": {
+              "title": "Pag-setup ng Negosyo ng WhatsApp",
+              "description": "Ikonekta ang iyong umiiral na WhatsApp Business account o lumikha ng bago sa aming gabay na pag-setup."
+            },
+            "1": {
+              "title": "Pagsasaayos ng Ahente ng Boses",
+              "description": "I-set up ang iyong mga ahente ng boses ng AI na may mga pasadyang script, boses, at lohika sa negosyo."
+            },
+            "2": {
+              "title": "Pagsasama ng API",
+              "description": "Isama sa iyong mga umiiral na system gamit ang aming komprehensibong API at mga webhook."
+            },
+            "3": {
+              "title": "Mag-live",
+              "description": "Ilunsad ang iyong WhatsApp Business na pinagana ng boses at simulang makipag-ugnayan sa mga customer."
+            }
+          }
+        },
+        "demo": {
+          "title": "Tingnan Ito sa Aksyon",
+          "subtitle": "Damhin kung gaano walang putol na isinasama ang pagtawag sa boses sa WhatsApp Business Platform. Kayang hawakan ng aming mga ahente ng AI ang mga kumplikadong pag-uusap habang pinapanatili ang pamilyar na karanasan sa WhatsApp na gusto ng iyong mga customer.",
+          "features": {
+            "0": {
+              "title": "Isang-Tap na Pagtawag",
+              "description": "Maaaring simulan ng mga customer ang mga tawag sa boses nang direkta mula sa chat"
+            },
+            "1": {
+              "title": "Walang putol na Handoff",
+              "description": "Makinis na paglipat sa pagitan ng mga ahente ng AI at tao"
+            },
+            "2": {
+              "title": "Pinag-isang Kasaysayan",
+              "description": "Kumpletong kasaysayan ng pag-uusap sa chat at boses"
+            }
+          },
+          "dashboard": {
+            "title": "Dashboard ng Negosyo ng WhatsApp",
+            "liveStatus": "Live",
+            "stats": {
+              "activeVoiceCalls": {
+                "label": "Mga Aktibong Tawag sa Boses",
+                "value": "89"
+              },
+              "messagesToday": {
+                "label": "Mga Mensahe Ngayon",
+                "value": "2,847"
+              },
+              "responseRate": {
+                "label": "Rate ng Pagtugon",
+                "value": "96%"
+              },
+              "customerSatisfaction": {
+                "label": "Kasiyahan ng Customer",
+                "value": "4.9/5"
+              }
+            }
+          },
+          "aiAssistant": {
+            "name": "Katulong sa AI",
+            "message": "Hi! Narito ako upang tumulong sa iyong order. Gusto mo bang makipag-usap sa akin nang direkta? I-tap lamang ang pindutan ng tawag sa itaas!"
+          }
+        },
+        "cta": {
+          "title": "Handa nang Baguhin ang Negosyo ng WhatsApp?",
+          "subtitle": "Sumali sa libu-libong negosyo na gumagamit ng WhatsApp Voice API upang magbigay ng pambihirang mga karanasan sa customer",
+          "primaryButton": "Magsimula Ngayon",
+          "secondaryButton": "Mag-iskedyul ng Demo"
+        }
+      }
+    },
+    "components": {
+      "interactiveCallDashboard": {
+        "liveDashboard": "Live na Dashboard",
+        "controlCenter": "Sentro ng Kontrol",
+        "realTimeAnalytics": "Real-Time na Analytics",
+        "description": "Panoorin ang aming platform ng boses ng AI na humahawak sa libu-libong sabay-sabay na tawag na may mga pag-uusap na parang tao at real-time na analytics.",
+        "bookDemo": "Mag-book ng Demo",
+        "controlCenterTitle": "Sentro ng Kontrol ng SeaVoice",
+        "live": "Live",
+        "activeCalls": "Mga Aktibong Tawag",
+        "avgQueueTime": "Avg na Oras ng Pila",
+        "resolutionRate": "Rate ng Paglutas",
+        "availability": "Availability",
+        "globalCallActivity": "Pandaigdigang Aktibidad sa Tawag",
+        "recentConversations": "Mga Kamakailang Pag-uusap",
+        "customerInquiryResolved": "Nalutas ang katanungan ng customer",
+        "appointmentScheduled": "Naka-iskedyul ang appointment",
+        "paymentProcessed": "Naproseso ang pagbabayad",
+        "supportTicketCreated": "Nilikha ang tiket sa suporta",
+        "justNow": "Ngayon lang",
+        "concurrentCalls": "Mga Sabay-sabay na Tawag",
+        "uptime": "Uptime",
+        "conversations": {
+          "appointmentRequest": "Hi, gusto kong mag-iskedyul ng isang appointment",
+          "techCorpGreeting": "Salamat sa pagtawag sa suporta ng TechCorp...",
+          "orderTracking": "Matutulungan mo ba akong subaybayan ang aking order?",
+          "availabilityResponse": "Available ako sa Martes ng 2 PM"
+        }
+      },
+      "voiceDemo": {
+        "demos": {
+          "restaurant": {
+            "title": "Pag-book ng reserbasyon sa restaurant",
+            "description": "Pinangangasiwaan ng AI ang mga booking sa mesa, mga pagsusuri sa availability, at mga espesyal na kahilingan"
+          },
+          "insurance": {
+            "title": "Tawag sa pag-verify ng seguro",
+            "description": "Awtomatikong pag-verify ng seguro at pagproseso ng claim"
+          },
+          "techSupport": {
+            "title": "Teknikal na suporta",
+            "description": "Teknikal na pag-troubleshoot at automation ng suporta sa customer"
+          },
+          "salesLead": {
+            "title": "Kwalipikasyon ng lead sa pagbebenta",
+            "description": "Matalinong kwalipikasyon ng lead at pamamahala ng funnel sa pagbebenta"
+          },
+          "realEstate": {
+            "title": "Paghawak sa katanungan sa real estate",
+            "description": "Mga katanungan sa ari-arian, pag-iiskedyul ng mga pagtingin, at pamamahala ng kliyente"
+          },
+          "donation": {
+            "title": "Outreach sa kampanya ng donasyon",
+            "description": "Mga kampanya sa paglikom ng pondo at automation ng pakikipag-ugnayan sa donor"
+          }
+        },
+        "seekTooltip": "Mag-click upang maghanap"
+      }
+    }
+  }
+}

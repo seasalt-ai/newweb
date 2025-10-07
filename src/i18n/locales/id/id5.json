@@ -1,0 +1,658 @@
+{
+  "seachat": {
+    "features": {
+      "advancedAI": {
+        "title": "Fitur AI Tingkat Lanjut",
+        "subtitle": "Kecerdasan AI generasi berikutnya dengan memori, kesadaran konteks, dan kemampuan penalaran canggih untuk pengalaman pelanggan yang benar-benar dipersonalisasi.",
+        "exploreButton": "Jelajahi AI Tingkat Lanjut",
+        "scheduleDemo": "Jadwalkan Demo",
+        "capabilities": {
+          "title": "Kemampuan AI Canggih",
+          "subtitle": "Rasakan masa depan dukungan pelanggan dengan fitur AI canggih kami yang belajar, mengingat, dan beradaptasi."
+        },
+        "rag": {
+          "title": "Generasi Augmented Retrieval (RAG)",
+          "description": "Kemampuan pencarian canggih yang menggabungkan pencarian kata kunci, vektor, dan hibrida untuk pengambilan informasi yang tepat.",
+          "details": {
+            "semantic": "Pencarian vektor semantik untuk pemahaman kontekstual",
+            "keyword": "Pencocokan kata kunci tradisional untuk kueri yang tepat",
+            "hybrid": "Algoritma hibrida yang menggabungkan kedua pendekatan",
+            "indexing": "Pengindeksan dan pembaruan konten real-time"
+          },
+          "sectionTitle": "Generasi Augmented Retrieval",
+          "sectionSubtitle": "Teknologi pencarian canggih yang menggabungkan berbagai pendekatan untuk pengambilan informasi yang paling akurat.",
+          "keyword": "Pencarian Kata Kunci",
+          "keywordDesc": "Pencarian tradisional yang cocok persis untuk kueri yang tepat dan istilah tertentu.",
+          "vector": "Pencarian Vektor",
+          "vectorDesc": "Pemahaman semantik yang menemukan informasi yang relevan secara kontekstual.",
+          "hybrid": "Pencarian Hibrida",
+          "hybridDesc": "Terbaik dari kedua dunia, menggabungkan presisi kata kunci dengan pemahaman semantik."
+        },
+        "memory": {
+          "title": "Sistem Memori Jangka Panjang",
+          "description": "Memori pengguna persisten yang menciptakan pengalaman yang dipersonalisasi di semua interaksi.",
+          "details": {
+            "preferences": "Pelacakan dan penyimpanan preferensi pengguna",
+            "history": "Analisis riwayat percakapan",
+            "patterns": "Pengenalan pola perilaku",
+            "continuity": "Kontinuitas dan konteks lintas sesi"
+          },
+          "sectionTitle": "Memori Jangka Panjang Beraksi",
+          "sectionSubtitle": "Lihat bagaimana AI kami mengingat dan belajar dari setiap interaksi untuk memberikan dukungan yang semakin dipersonalisasi.",
+          "fieldsTitle": "Bidang Ekstraksi Konteks",
+          "fieldsDescription": "AI kami secara otomatis mengidentifikasi dan menyimpan informasi kunci tentang setiap pengguna, menciptakan profil kaya yang meningkatkan setiap interaksi di masa mendatang.",
+          "example": "Contoh",
+          "timeline": "Garis Waktu Memori",
+          "firstInteraction": "Interaksi Pertama",
+          "firstInteractionDesc": "AI mempelajari preferensi dan konteks pengguna",
+          "ongoingConversations": "Percakapan Berlangsung",
+          "ongoingConversationsDesc": "Terus memperbarui profil pengguna",
+          "returnVisits": "Kunjungan Kembali",
+          "returnVisitsDesc": "Memberikan respons yang dipersonalisasi dan peka konteks"
+        },
+        "timeAwareness": {
+          "title": "Integrasi Kesadaran Waktu",
+          "description": "Respons peka konteks berdasarkan waktu saat ini, zona waktu, dan relevansi temporal.",
+          "details": {
+            "timestamp": "Integrasi stempel waktu real-time",
+            "timezone": "Penjadwalan dan respons peka zona waktu",
+            "recommendations": "Rekomendasi peka waktu",
+            "hours": "Optimalisasi jam kerja"
+          }
+        },
+        "context": {
+          "title": "Ekstraksi Konteks Cerdas",
+          "description": "Pemetaan bidang cerdas dan ekstraksi data untuk pemahaman pengguna yang lebih baik.",
+          "details": {
+            "fields": "Definisi dan pemetaan bidang kustom",
+            "extraction": "Ekstraksi data otomatis dari percakapan",
+            "language": "Deteksi preferensi bahasa pengguna",
+            "dynamic": "Pembangunan dan pembaruan konteks dinamis"
+          }
+        },
+        "references": {
+          "title": "Hasil Obrolan yang Direferensikan",
+          "description": "Respons AI transparan dengan kutipan sumber dan penilaian kepercayaan.",
+          "details": {
+            "linking": "Penautan dan kutipan dokumen sumber",
+            "tracking": "Pelacakan dan verifikasi kutipan",
+            "confidence": "Penilaian kepercayaan untuk respons",
+            "verification": "Verifikasi dan validasi fakta"
+          }
+        },
+        "knowledge": {
+          "title": "Penyempurnaan Basis Pengetahuan",
+          "description": "Peningkatan berkelanjutan akurasi dan relevansi basis pengetahuan.",
+          "details": {
+            "updating": "Konten yang diperbarui secara otomatis berdasarkan interaksi",
+            "scoring": "Penilaian kualitas dan peringkat konten",
+            "relevance": "Algoritma optimalisasi relevansi",
+            "analytics": "Analitik kinerja dan wawasan"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "Bahasa_Pengguna",
+            "description": "Mengingat bahasa komunikasi pilihan",
+            "example": "Pelanggan lebih suka respons bahasa Spanyol"
+          },
+          "product": {
+            "field": "Minat_Produk",
+            "description": "Melacak kategori produk yang diminati",
+            "example": "Tertarik pada solusi perangkat lunak premium"
+          },
+          "history": {
+            "field": "Riwayat_Dukungan",
+            "description": "Mempertahankan konteks masalah sebelumnya",
+            "example": "Sebelumnya memiliki pertanyaan penagihan yang diselesaikan"
+          },
+          "style": {
+            "field": "Gaya_Komunikasi",
+            "description": "Beradaptasi dengan gaya interaksi pilihan",
+            "example": "Lebih suka penjelasan teknis yang terperinci"
+          }
+        },
+        "cta": {
+          "title": "Rasakan Masa Depan AI",
+          "subtitle": "Siap mengubah dukungan pelanggan Anda dengan AI canggih yang mengingat, belajar, dan beradaptasi? Mulailah perjalanan Anda dengan teknologi mutakhir kami.",
+          "signUp": "Daftar Gratis",
+          "scheduleDemo": "Jadwalkan Demo"
+        }
+      },
+      "aiAutomation": {
+        "title": "Otomatisasi AI",
+        "subtitle": "Skalakan dukungan pelanggan Anda dengan AI cerdas yang belajar, beradaptasi, dan memberikan respons instan sambil mempertahankan sentuhan manusia saat dibutuhkan.",
+        "tryButton": "Coba Otomatisasi AI",
+        "featuresTitle": "Fitur AI Cerdas",
+        "featuresSubtitle": "Otomatisasi AI kami melampaui chatbot sederhana untuk memberikan dukungan pelanggan yang benar-benar cerdas.",
+        "performanceTitle": "Otomatisasi yang Benar-benar Berfungsi",
+        "performanceSubtitle": "Lihat bagaimana otomatisasi AI kami menangani berbagai jenis pertanyaan pelanggan dengan tingkat akurasi yang mengesankan.",
+        "hybridTitle": "Keseimbangan Sempurna: AI + Manusia",
+        "hybridSubtitle": "Pendekatan hibrida kami menggabungkan kecepatan AI dengan empati agen manusia.",
+        "aiStrengthsTitle": "Kekuatan Otomatisasi AI",
+        "aiStrengths": [
+          "Respons instan untuk pertanyaan umum",
+          "Ketersediaan 24/7 tanpa henti",
+          "Menangani banyak percakapan secara bersamaan",
+          "Kualitas layanan yang konsisten",
+          "Dukungan komunikasi multibahasa",
+          "Akses cepat ke informasi basis pengetahuan"
+        ],
+        "humanStrengthsTitle": "Kekuatan Agen Manusia",
+        "humanStrengths": [
+          "Penyelesaian masalah kompleks dan empati",
+          "Membangun hubungan pribadi dengan pelanggan",
+          "Menangani situasi sensitif atau emosional",
+          "Solusi kreatif dan pemikiran di luar kotak",
+          "Memahami kebutuhan pelanggan yang bernuansa",
+          "Membuat keputusan dalam skenario yang ambigu"
+        ],
+        "ctaTitle": "Siap Skala dengan AI?",
+        "ctaSubtitle": "Mulai dengan agen manusia gratis, lalu tambahkan otomatisasi AI saat Anda siap untuk skala. Pendekatan hibrida yang sempurna untuk bisnis yang berkembang.",
+        "contextAware": {
+          "title": "Respons Peka Konteks",
+          "description": "AI memahami konteks percakapan dan memberikan respons yang relevan dan cerdas."
+        },
+        "learning": {
+          "title": "Belajar dari Percakapan",
+          "description": "Terus meningkat dengan belajar dari setiap interaksi pelanggan."
+        },
+        "handoff": {
+          "title": "Serah Terima Manusia yang Mulus",
+          "description": "Transisi mulus ke agen manusia ketika masalah kompleks muncul."
+        },
+        "availability": {
+          "title": "Ketersediaan 24/7",
+          "description": "Berikan dukungan instan sepanjang waktu, bahkan saat agen offline."
+        },
+        "response": {
+          "title": "Waktu Respons Instan",
+          "description": "Tanggapi pertanyaan pelanggan dalam milidetik, bukan menit."
+        },
+        "multilanguage": {
+          "title": "Dukungan Multi-Bahasa",
+          "description": "Berkomunikasi dengan pelanggan dalam bahasa pilihan mereka secara otomatis."
+        },
+        "types": {
+          "faq": {
+            "title": "Otomatisasi FAQ",
+            "description": "Secara instan menjawab pertanyaan umum dengan informasi yang akurat dan terkini."
+          },
+          "orders": {
+            "title": "Pembaruan Status Pesanan",
+            "description": "Berikan pelacakan pesanan real-time dan informasi pengiriman."
+          },
+          "appointments": {
+            "title": "Penjadwalan Janji Temu",
+            "description": "Pesan janji temu dan kelola kalender secara otomatis."
+          },
+          "recommendations": {
+            "title": "Rekomendasi Produk",
+            "description": "Sarankan produk yang relevan berdasarkan preferensi pelanggan."
+          }
+        },
+        "scheduleDemo": "Jadwalkan Demo",
+        "signUpForFree": "Daftar Gratis"
+      },
+      "api": {
+        "restful": {
+          "title": "API RESTful",
+          "description": "API REST yang bersih dan intuitif dengan dokumentasi komprehensif"
+        },
+        "webhooks": {
+          "title": "Webhook Real-time",
+          "description": "Dapatkan notifikasi instan untuk acara dan pembaruan percakapan"
+        },
+        "security": {
+          "title": "Autentikasi Aman",
+          "description": "Autentikasi OAuth 2.0 dan kunci API dengan pembatasan laju"
+        },
+        "cdn": {
+          "title": "CDN Global",
+          "description": "Akses API latensi rendah dari mana saja di dunia"
+        },
+        "endpoints": {
+          "createConversation": "Buat percakapan baru",
+          "getConversation": "Ambil detail percakapan",
+          "sendMessage": "Kirim pesan dalam percakapan"
+        },
+        "sdks": {
+          "available": "Tersedia",
+          "comingSoon": "Segera Hadir"
+        },
+        "title": "API & Alat Pengembang",
+        "subtitle": "Bangun integrasi kustom dan perluas kemampuan SeaChat dengan API komprehensif kami dan alat ramah pengembang.",
+        "getKeyButton": "Dapatkan Kunci API",
+        "viewDocsButton": "Lihat Dokumentasi",
+        "featuresTitle": "Fitur API yang Kuat",
+        "featuresSubtitle": "Semua yang Anda butuhkan untuk mengintegrasikan SeaChat ke dalam sistem dan alur kerja Anda yang sudah ada.",
+        "endpointsTitle": "Titik Akhir API",
+        "endpointsSubtitle": "Jelajahi API komprehensif kami dengan contoh dan dokumentasi interaktif.",
+        "exampleRequestResponse": "Contoh Permintaan/Respons",
+        "tryItOut": "Coba",
+        "testConsole": "Uji di Konsol",
+        "copyCurl": "Salin cURL",
+        "sdksTitle": "SDK & Pustaka",
+        "sdksSubtitle": "Mulai dengan cepat dengan SDK resmi kami untuk bahasa pemrograman populer.",
+        "exampleTitle": "Contoh Mulai Cepat",
+        "exampleSubtitle": "Mulai dan jalankan dengan API SeaChat hanya dengan beberapa baris kode.",
+        "jsExample": "Contoh JavaScript",
+        "copy": "Salin",
+        "ctaTitle": "Siap Memulai Membangun?",
+        "ctaSubtitle": "Dapatkan kunci API Anda dan mulailah mengintegrasikan SeaChat ke dalam aplikasi Anda hari ini.",
+        "ctaAccessButton": "Dapatkan Akses API",
+        "ctaDocsButton": "Baca Dokumentasi"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "Kepuasan Pelanggan"
+          },
+          "responseTime": {
+            "title": "Waktu Respons Rata-rata"
+          },
+          "resolution": {
+            "title": "Tingkat Resolusi"
+          },
+          "growth": {
+            "title": "Pertumbuhan Bulanan"
+          },
+          "period": "bulan ini"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "Dasbor Real-time",
+              "description": "Pantau kinerja dukungan Anda dengan dasbor langsung yang dapat disesuaikan.",
+              "benefits": {
+                "metrics": "Metrik kinerja langsung",
+                "kpi": "Pelacakan KPI kustom",
+                "team": "Tampilan kinerja tim",
+                "alerts": "Notifikasi peringatan"
+              }
+            },
+            "reporting": {
+              "title": "Pelaporan Tingkat Lanjut",
+              "description": "Hasilkan laporan terperinci dengan wawasan dan tren yang dapat ditindaklanjuti.",
+              "benefits": {
+                "automated": "Pembuatan laporan otomatis",
+                "dates": "Rentang tanggal kustom",
+                "export": "Kemampuan ekspor",
+                "scheduled": "Pengiriman terjadwal"
+              }
+            },
+            "journey": {
+              "title": "Analitik Perjalanan Pelanggan",
+              "description": "Lacak interaksi pelanggan di semua titik kontak dan saluran.",
+              "benefits": {
+                "tracking": "Pelacakan multi-saluran",
+                "visualization": "Visualisasi perjalanan",
+                "conversion": "Analisis konversi",
+                "dropoff": "Identifikasi penurunan"
+              }
+            },
+            "optimization": {
+              "title": "Optimalisasi Kinerja",
+              "description": "Identifikasi hambatan dan optimalkan operasi dukungan Anda.",
+              "benefits": {
+                "bottlenecks": "Deteksi hambatan",
+                "resources": "Alokasi sumber daya",
+                "efficiency": "Rekomendasi efisiensi",
+                "roi": "Analisis ROI"
+              }
+            }
+          }
+        },
+        "title": "Analitik & Wawasan",
+        "subtitle": "Buat keputusan berdasarkan data dengan analitik komprehensif yang mengungkapkan perilaku pelanggan, kinerja agen, dan peluang optimalisasi.",
+        "metricsTitle": "Metrik Kinerja Utama",
+        "metricsSubtitle": "Lacak metrik yang paling penting untuk keberhasilan dukungan pelanggan Anda.",
+        "featuresTitle": "Suite Analitik Komprehensif",
+        "featuresSubtitle": "Semua yang Anda butuhkan untuk memahami, mengukur, dan meningkatkan operasi dukungan pelanggan Anda.",
+        "dashboardTitle": "Pratinjau Dasbor Interaktif",
+        "dashboardSubtitle": "Lihat bagaimana dasbor analitik kami memberikan wawasan yang dapat ditindaklanjuti secara sekilas.",
+        "dashboard": {
+          "overview": "Ikhtisar Kinerja",
+          "months": {
+            "jan": "Jan",
+            "dec": "Des"
+          },
+          "quickStats": "Statistik Cepat",
+          "activeConversations": "Percakapan Aktif",
+          "systemUptime": "Waktu Aktif Sistem",
+          "customerRating": "Peringkat Pelanggan"
+        },
+        "ctaTitle": "Mulai Membuat Keputusan Berdasarkan Data",
+        "ctaSubtitle": "Buka kekuatan analitik untuk mengoptimalkan dukungan pelanggan Anda dan mendorong pertumbuhan bisnis."
+      },
+      "humanAgents": {
+        "title": "Obrolan Agen Manusia",
+        "subtitle": "Mulai dengan agen dukungan manusia nyata, sepenuhnya gratis seumur hidup. Tanpa batas, tanpa jebakan, hanya koneksi manusia sejati dengan pelanggan Anda.",
+        "startButton": "Mulai Gratis Selamanya",
+        "demoButton": "Tonton Demo",
+        "unlimited": {
+          "title": "Jam Agen Tanpa Batas",
+          "description": "Tanpa batas waktu, tanpa batasan jam. Agen manusia Anda bekerja sebanyak yang Anda butuhkan, sepenuhnya gratis."
+        },
+        "realtime": {
+          "title": "Manajemen Obrolan Real-time",
+          "description": "Tangani banyak percakapan secara bersamaan dengan antarmuka obrolan intuitif kami."
+        },
+        "collaboration": {
+          "title": "Kolaborasi Multi-agen",
+          "description": "Skalakan tim Anda dengan serah terima agen-ke-agen yang mulus dan alat kolaborasi."
+        },
+        "security": {
+          "title": "Keamanan Tingkat Lanjut",
+          "description": "Keamanan tingkat perusahaan dengan enkripsi ujung ke ujung dan perlindungan data."
+        },
+        "analytics": {
+          "title": "Analitik Kinerja",
+          "description": "Lacak waktu respons, kepuasan pelanggan, dan metrik kinerja agen."
+        },
+        "workflows": {
+          "title": "Alur Kerja Kustom",
+          "description": "Buat alur kerja yang dipersonalisasi dan aturan otomatisasi untuk proses dukungan Anda."
+        },
+        "benefits": {
+          "personal": {
+            "title": "Sentuhan Pribadi",
+            "description": "Empati dan pemahaman manusia yang tidak dapat ditiru AI"
+          },
+          "complex": {
+            "title": "Penyelesaian Masalah Kompleks",
+            "description": "Tangani situasi bernuansa yang membutuhkan penilaian manusia"
+          },
+          "brand": {
+            "title": "Representasi Merek",
+            "description": "Agen yang benar-benar memahami dan mewakili nilai merek Anda"
+          },
+          "relationships": {
+            "title": "Hubungan Pelanggan",
+            "description": "Bangun hubungan yang langgeng melalui koneksi manusia sejati"
+          }
+        },
+        "freeForever": {
+          "title": "Benar-benar Gratis seperti Gratis 🍺 & 🎙️",
+          "subtitle": "Kami bersungguh-sungguh ketika kami mengatakan gratis. Satu agen manusia seumur hidup, dengan segalanya tanpa batas.",
+          "meaningTitle": "Apa Arti \"Gratis Selamanya\" Sebenarnya",
+          "agent": "1 Agen Manusia Seumur Hidup",
+          "conversations": "Percakapan Obrolan Tanpa Batas",
+          "history": "Riwayat Obrolan Tanpa Batas",
+          "contacts": "Kontak Tanpa Batas",
+          "export": "Kebebasan untuk Mengekspor Semua Data",
+          "noCredit": "Tidak Perlu Kartu Kredit",
+          "unlimited": "Segalanya Tanpa Batas",
+          "noCaps": "Tanpa biaya tersembunyi, tanpa batas waktu, tanpa batasan percakapan. Hanya dukungan manusia murni, tanpa batas.",
+          "forever": "Selamanya"
+        },
+        "featuresTitle": "Fitur Agen Manusia yang Kuat",
+        "featuresSubtitle": "Semua yang Anda butuhkan untuk memberikan dukungan pelanggan bertenaga manusia yang luar biasa.",
+        "whyMatterTitle": "Mengapa Agen Manusia Masih Penting",
+        "whyMatterSubtitle": "Di dunia yang digerakkan AI, koneksi manusia tetap tak tergantikan untuk membangun kepercayaan dan memecahkan masalah kompleks.",
+        "ctaTitle": "Siap Memulai dengan Agen Manusia?",
+        "ctaSubtitle": "Bergabunglah dengan ribuan bisnis yang memberikan dukungan pelanggan yang luar biasa dengan agen manusia gratis kami.",
+        "ctaStartButton": "Mulai Gratis Sekarang",
+        "ctaDemoButton": "Jadwalkan Demo"
+      },
+      "knowledgeBase": {
+        "subtitle": "Berdayakan agen AI Anda dengan manajemen pengetahuan komprehensif. Buat, atur, dan pertahankan repositori informasi terpusat yang memungkinkan respons cerdas dan akurat.",
+        "managementTitle": "Manajemen Pengetahuan Cerdas",
+        "managementSubtitle": "Bangun fondasi pengetahuan yang kuat yang tumbuh bersama bisnis Anda dan meningkatkan setiap interaksi pelanggan.",
+        "smartSearch": {
+          "title": "Pencarian Cerdas",
+          "description": "Kemampuan pencarian semantik canggih yang memahami konteks dan niat, memberikan informasi yang tepat secara instan."
+        },
+        "documentManagement": {
+          "title": "Manajemen Dokumen",
+          "description": "Unggah, atur, dan kontrol versi dokumen, FAQ, kebijakan, dan prosedur di satu lokasi terpusat."
+        },
+        "collaboration": {
+          "title": "Pengeditan Kolaboratif",
+          "description": "Aktifkan kolaborasi tim dengan pengeditan real-time, alur kerja persetujuan, dan kontrol akses berbasis peran."
+        },
+        "autoLearning": {
+          "title": "Pembelajaran Otomatis",
+          "description": "Secara otomatis menangkap dan belajar dari interaksi yang berhasil untuk terus meningkatkan akurasi pengetahuan."
+        },
+        "accessControl": {
+          "title": "Kontrol Akses",
+          "description": "Amankan informasi sensitif dengan izin granular dan pastikan kepatuhan terhadap peraturan perlindungan data."
+        },
+        "multiLanguage": {
+          "title": "Multi-Bahasa",
+          "description": "Mendukung berbagai bahasa dan lokalisasi untuk melayani pelanggan global dengan respons yang sesuai secara budaya."
+        },
+        "demoTitle": "Lihat Basis Pengetahuan Beraksi",
+        "demoSubtitle": "Saksikan bagaimana sistem pengetahuan cerdas kami mendukung respons yang akurat dan kontekstual.",
+        "interfaceTitle": "Antarmuka Basis Pengetahuan",
+        "categories": "Kategori Dokumen",
+        "productDocs": "Dokumentasi Produk",
+        "articles": "artikel",
+        "supportFaqs": "FAQ Dukungan Pelanggan",
+        "policies": "Kebijakan Perusahaan",
+        "recentUpdates": "Pembaruan Terbaru",
+        "refundUpdate": "Kebijakan Pengembalian Dana Diperbarui",
+        "hoursAgo": "jam yang lalu",
+        "returnWindow": "Jendela pengembalian diperbarui dari 14 menjadi 30 hari",
+        "featureGuide": "Panduan Fitur Baru",
+        "dayAgo": "hari yang lalu",
+        "analyticsDoc": "Menambahkan dokumentasi untuk analitik tingkat lanjut",
+        "transformTitle": "Ubah Dukungan Pelanggan Anda",
+        "transformSubtitle": "Basis pengetahuan yang terorganisir dengan baik adalah fondasi layanan pelanggan yang luar biasa dan operasi yang efisien.",
+        "benefitsTitle": "Manfaat Utama",
+        "fasterResponse": {
+          "title": "Waktu Respons Lebih Cepat",
+          "description": "Kurangi waktu respons rata-rata sebesar 60% dengan akses instan ke informasi yang akurat."
+        },
+        "consistency": {
+          "title": "Akurasi yang Konsisten",
+          "description": "Pastikan semua agen memberikan informasi yang konsisten dan terkini di semua saluran."
+        },
+        "training": {
+          "title": "Pelatihan yang Skalabel",
+          "description": "Orientasi agen baru lebih cepat dengan dokumentasi yang komprehensif dan dapat dicari."
+        },
+        "readyTitle": "Siap Memulai?",
+        "readySubtitle": "Bangun basis pengetahuan Anda hari ini dan ubah cara tim Anda memberikan dukungan pelanggan.",
+        "startButton": "Mulai Membangun",
+        "scheduleDemo": "Jadwalkan Demo"
+      },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "Obrolan Situs Web",
+            "description": "Sematkan widget obrolan di platform situs web mana pun",
+            "seachat": {
+              "features": {
+                "compatibility": "Kompatibilitas universal",
+                "styling": "Gaya kustom",
+                "responsive": "Responsif seluler",
+                "sync": "Sinkronisasi real-time"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "WhatsApp Business",
+            "seachat": {
+              "features": {
+                "api": "Integrasi API Bisnis",
+                "media": "Dukungan media kaya",
+                "templates": "Pesan template",
+                "groups": "Pesan grup"
+              }
+            },
+            "description": "Terhubung dengan pelanggan di aplikasi perpesanan paling populer di dunia"
+          },
+          "instagram": {
+            "name": "Instagram Direct",
+            "description": "Kelola DM Instagram dan balasan cerita di satu tempat",
+            "seachat": {
+              "features": {
+                "replies": "Manajemen balasan cerita",
+                "media": "Berbagi media",
+                "responses": "Respons cepat",
+                "greetings": "Salam otomatis"
+              }
+            }
+          },
+          "facebook": {
+            "name": "Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "Integrasi halaman",
+                "responses": "Respons otomatis",
+                "cards": "Kartu kaya",
+                "menu": "Menu persisten"
+              }
+            },
+            "description": "Berikan dukungan melalui platform perpesanan Facebook"
+          },
+          "voice": {
+            "name": "Panggilan Suara",
+            "description": "Tangani dukungan telepon dengan agen suara AI",
+            "seachat": {
+              "features": {
+                "conversations": "Percakapan alami",
+                "routing": "Perutean panggilan",
+                "voicemail": "Transkripsi pesan suara",
+                "conference": "Panggilan konferensi"
+              }
+            }
+          },
+          "email": {
+            "name": "Dukungan Email",
+            "description": "Kelola tiket email dengan perutean cerdas",
+            "seachat": {
+              "features": {
+                "categorization": "Kategorisasi cerdas",
+                "responses": "Respons otomatis",
+                "templates": "Template email",
+                "priority": "Penanganan prioritas"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "Tampilan Pelanggan Terpadu",
+            "description": "Lihat riwayat pelanggan lengkap di semua saluran dalam satu antarmuka"
+          },
+          "handoffs": {
+            "title": "Serah Terima Mulus",
+            "description": "Pelanggan dapat beralih saluran tanpa kehilangan konteks percakapan"
+          },
+          "resolution": {
+            "title": "Resolusi Lebih Cepat",
+            "description": "Kurangi waktu resolusi dengan alur kerja agen terpadu"
+          },
+          "satisfaction": {
+            "title": "Kepuasan Lebih Tinggi",
+            "description": "Pengalaman yang konsisten di semua titik kontak"
+          }
+        },
+        "title": "Dukungan Omnichannel",
+        "subtitle": "Hubungkan semua titik kontak pelanggan Anda dalam satu platform terpadu. Berikan dukungan yang konsisten dan mulus di seluruh situs web, media sosial, telepon, dan email.",
+        "channelsTitle": "Semua Saluran Anda, Satu Platform",
+        "channelsSubtitle": "Hubungkan dan kelola percakapan pelanggan di setiap saluran yang digunakan pelanggan Anda.",
+        "benefitsTitle": "Kekuatan Omnichannel Sejati",
+        "benefitsSubtitle": "Melampaui hanya memiliki banyak saluran. Ciptakan pengalaman terpadu yang menyenangkan pelanggan.",
+        "inboxTitle": "Pengalaman Kotak Masuk Terpadu",
+        "inboxSubtitle": "Lihat bagaimana semua percakapan pelanggan Anda bersatu dalam satu antarmuka cerdas.",
+        "activeConversations": "Percakapan Aktif",
+        "websiteChat": "Obrolan situs web tentang produk seachat.features...",
+        "whatsappInquiry": "Pertanyaan WhatsApp tentang status pesanan...",
+        "instagramDM": "DM Instagram tentang kebijakan pengembalian...",
+        "conversationView": "Tampilan Percakapan",
+        "customerVia": "Pelanggan via Situs Web",
+        "agentResponse": "Respons Agen",
+        "customerViaWhatsapp": "Pelanggan via WhatsApp",
+        "whatsappMessage": "Terima kasih! Bisakah saya melanjutkan percakapan ini di WhatsApp?",
+        "ctaTitle": "Siap Menyatukan Saluran Pelanggan Anda?",
+        "ctaSubtitle": "Hubungkan semua titik kontak pelanggan Anda dan berikan pengalaman dukungan yang mulus yang membuat pelanggan kembali lagi.",
+        "customerMessage": "Hai, saya tertarik dengan fitur otomatisasi AI Anda. Bisakah Anda memberi tahu saya lebih banyak?",
+        "agentMessage": "Saya akan dengan senang hati membantu! Otomatisasi AI kami dapat menangani hingga 80% pertanyaan rutin..."
+      },
+      "voiceAgents": {
+        "title": "Agen Suara",
+        "subtitle": "Ubah dukungan telepon dengan agen suara AI yang terdengar alami, memahami konteks, dan memberikan bantuan instan dalam berbagai bahasa.",
+        "signUpFree": "Daftar Gratis",
+        "scheduleDemo": "Jadwalkan Demo",
+        "natural": {
+          "title": "Percakapan Suara Alami",
+          "description": "Agen suara bertenaga AI yang terdengar alami dan memahami konteks."
+        },
+        "speech": {
+          "title": "Pengenalan Ucapan Tingkat Lanjut",
+          "description": "Konversi ucapan-ke-teks yang akurat dalam berbagai bahasa dan aksen."
+        },
+        "synthesis": {
+          "title": "Sintesis Suara Berkualitas Tinggi",
+          "description": "Output suara yang jernih, seperti manusia dengan kecerdasan emosional."
+        },
+        "support": {
+          "title": "Dukungan Suara 24/7",
+          "description": "Bantuan suara sepanjang waktu untuk dukungan pelanggan global."
+        },
+        "multilanguage": {
+          "title": "Dukungan Multi-Bahasa",
+          "description": "Dukungan untuk 50+ bahasa dengan pengucapan asli."
+        },
+        "routing": {
+          "title": "Perutean Panggilan Cerdas",
+          "description": "Perutean cerdas ke agen manusia ketika masalah kompleks muncul."
+        },
+        "capabilitiesTitle": "Kemampuan Suara Tingkat Lanjut",
+        "capabilitiesSubtitle": "Agen suara kami menggabungkan AI mutakhir dengan pemrosesan bahasa alami untuk percakapan seperti manusia.",
+        "capabilities": {
+          "service": {
+            "title": "Panggilan Layanan Pelanggan",
+            "description": "Tangani pertanyaan rutin, status pesanan, dan pemecahan masalah dasar"
+          },
+          "appointments": {
+            "title": "Penjadwalan Janji Temu",
+            "description": "Pesan, jadwalkan ulang, dan konfirmasi janji temu secara otomatis"
+          },
+          "orders": {
+            "title": "Pemrosesan Pesanan",
+            "description": "Ambil pesanan, proses pembayaran, dan konfirmasi detail"
+          },
+          "support": {
+            "title": "Dukungan Teknis",
+            "description": "Pandu pelanggan melalui langkah-langkah pemecahan masalah dasar"
+          }
+        },
+        "performanceTitle": "Kinerja Agen Suara",
+        "performanceSubtitle": "Lihat bagaimana agen suara kami berkinerja di berbagai jenis interaksi pelanggan.",
+        "accuracyRate": "Tingkat Akurasi",
+        "avgDuration": "Durasi Rata-rata",
+        "experienceTitle": "Rasakan AI Suara Beraksi",
+        "experienceSubtitle": "Dengarkan percakapan nyata antara pelanggan dan agen suara kami.",
+        "sampleTitle": "Contoh Percakapan",
+        "voiceAgent": "Agen Suara",
+        "customer": "Pelanggan",
+        "agentGreeting": "Halo! Terima kasih telah menghubungi dukungan SeaChat. Bagaimana saya bisa membantu Anda hari ini?",
+        "customerQuestion": "Hai, saya perlu memeriksa status pesanan terbaru saya.",
+        "agentResponse": "Saya akan dengan senang hati membantu Anda dengan itu. Bisakah Anda memberikan nomor pesanan Anda atau alamat email yang terkait dengan akun Anda?",
+        "playDemo": "Putar Demo Lengkap",
+        "moreSamples": "Contoh Lainnya",
+        "featuresTitle": "Fitur Agen Suara",
+        "featuresList": {
+          "0": "Pemrosesan ucapan alami",
+          "1": "Dukungan multi-bahasa",
+          "2": "Integrasi sistem telepon",
+          "3": "Analisis sentimen suara",
+          "4": "Perekaman dan analisis panggilan",
+          "5": "Eskalasi manusia cerdas"
+        },
+        "ctaTitle": "Siap Mengubah Dukungan Telepon?",
+        "ctaSubtitle": "Rasakan masa depan dukungan pelanggan suara dengan agen AI yang terdengar dan terasa manusiawi."
+      }
+    },
+    "seo": {
+      "title": "SeaChat - Chatbot AI & Otomatisasi Layanan Pelanggan | Seasalt.ai",
+      "titleSuffix": " - Chatbot AI & Otomatisasi Layanan Pelanggan | Seasalt.ai",
+      "description": "SeaChat adalah platform chatbot bertenaga AI yang membantu bisnis mengotomatiskan layanan pelanggan di berbagai saluran termasuk WhatsApp, situs web, media sosial, dan lainnya."
+    }
+  }
+}

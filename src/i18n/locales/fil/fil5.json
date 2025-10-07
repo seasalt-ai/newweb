@@ -1,0 +1,658 @@
+{
+  "seachat": {
+    "features": {
+      "advancedAI": {
+        "title": "Mga Advanced na Tampok ng AI",
+        "subtitle": "Susunod na henerasyon ng katalinuhan ng AI na may memorya, kamalayan sa konteksto, at mga advanced na kakayahan sa pangangatwiran para sa tunay na personalized na mga karanasan sa customer.",
+        "exploreButton": "Galugarin ang Advanced na AI",
+        "scheduleDemo": "Mag-iskedyul ng Demo",
+        "capabilities": {
+          "title": "Mga Makabagong Kakayahan sa AI",
+          "subtitle": "Damhin ang hinaharap ng suporta sa customer gamit ang aming mga advanced na tampok ng AI na natututo, naaalala, at umaangkop."
+        },
+        "rag": {
+          "title": "Retrieval Augmented Generation (RAG)",
+          "description": "Mga advanced na kakayahan sa paghahanap na pinagsasama ang keyword, vector, at hybrid na paghahanap para sa tumpak na pagkuha ng impormasyon.",
+          "details": {
+            "semantic": "Paghahanap ng semantikong vector para sa pag-unawa sa konteksto",
+            "keyword": "Tradisyonal na pagtutugma ng keyword para sa mga eksaktong query",
+            "hybrid": "Mga hybrid na algorithm na pinagsasama ang parehong mga diskarte",
+            "indexing": "Real-time na pag-index at mga update ng nilalaman"
+          },
+          "sectionTitle": "Retrieval Augmented Generation",
+          "sectionSubtitle": "Advanced na teknolohiya sa paghahanap na pinagsasama ang maraming mga diskarte para sa pinakatumpak na pagkuha ng impormasyon.",
+          "keyword": "Paghahanap ng Keyword",
+          "keywordDesc": "Tradisyonal na paghahanap ng eksaktong tugma para sa mga tumpak na query at partikular na mga termino.",
+          "vector": "Paghahanap ng Vector",
+          "vectorDesc": "Semantikong pag-unawa na nakakahanap ng impormasyon na may kaugnayan sa konteksto.",
+          "hybrid": "Hybrid na Paghahanap",
+          "hybridDesc": "Pinakamahusay sa parehong mundo, pinagsasama ang katumpakan ng keyword sa semantikong pag-unawa."
+        },
+        "memory": {
+          "title": "Sistema ng Pangmatagalang Memorya",
+          "description": "Paulit-ulit na memorya ng gumagamit na lumilikha ng mga personalized na karanasan sa lahat ng mga pakikipag-ugnayan.",
+          "details": {
+            "preferences": "Pagsubaybay at pag-iimbak ng kagustuhan ng gumagamit",
+            "history": "Pagsusuri sa kasaysayan ng pag-uusap",
+            "patterns": "Pagkilala sa pattern ng pag-uugali",
+            "continuity": "Pagpapatuloy at konteksto sa cross-session"
+          },
+          "sectionTitle": "Pangmatagalang Memorya sa Aksyon",
+          "sectionSubtitle": "Tingnan kung paano naaalala at natututo ang aming AI mula sa bawat pakikipag-ugnayan upang magbigay ng lalong personalized na suporta.",
+          "fieldsTitle": "Mga Field ng Pagkuha ng Konteksto",
+          "fieldsDescription": "Awtomatikong kinikilala at iniimbak ng aming AI ang pangunahing impormasyon tungkol sa bawat gumagamit, na lumilikha ng mga mayamang profile na nagpapahusay sa bawat pakikipag-ugnayan sa hinaharap.",
+          "example": "Halimbawa",
+          "timeline": "Timeline ng Memorya",
+          "firstInteraction": "Unang Pakikipag-ugnayan",
+          "firstInteractionDesc": "Natututo ang AI ng mga kagustuhan at konteksto ng gumagamit",
+          "ongoingConversations": "Mga Patuloy na Pag-uusap",
+          "ongoingConversationsDesc": "Patuloy na ina-update ang profile ng gumagamit",
+          "returnVisits": "Mga Bumabalik na Pagbisita",
+          "returnVisitsDesc": "Nagbibigay ng mga personalized, may kamalayan sa konteksto na mga tugon"
+        },
+        "timeAwareness": {
+          "title": "Pagsasama ng Kamalayan sa Oras",
+          "description": "Mga tugon na may kamalayan sa konteksto batay sa kasalukuyang oras, timezone, at temporal na kaugnayan.",
+          "details": {
+            "timestamp": "Real-time na pagsasama ng timestamp",
+            "timezone": "Pag-iiskedyul at mga tugon na may kamalayan sa timezone",
+            "recommendations": "Mga rekomendasyon na sensitibo sa oras",
+            "hours": "Pag-optimize ng mga oras ng negosyo"
+          }
+        },
+        "context": {
+          "title": "Matalinong Pagkuha ng Konteksto",
+          "description": "Matalinong pagmamapa ng field at pagkuha ng data para sa mas mahusay na pag-unawa ng gumagamit.",
+          "details": {
+            "fields": "Mga kahulugan at pagmamapa ng pasadyang field",
+            "extraction": "Awtomatikong pagkuha ng data mula sa mga pag-uusap",
+            "language": "Pagtuklas ng kagustuhan sa wika ng gumagamit",
+            "dynamic": "Dinamikong pagbuo at mga update ng konteksto"
+          }
+        },
+        "references": {
+          "title": "Mga Resulta ng Chat na may Sanggunian",
+          "description": "Mga transparent na tugon ng AI na may mga pagsipi sa pinagmulan at pagmamarka ng kumpiyansa.",
+          "details": {
+            "linking": "Pag-link at mga pagsipi ng dokumento ng pinagmulan",
+            "tracking": "Pagsubaybay at pag-verify ng pagsipi",
+            "confidence": "Pagmamarka ng kumpiyansa para sa mga tugon",
+            "verification": "Pag-verify at pagpapatunay ng katotohanan"
+          }
+        },
+        "knowledge": {
+          "title": "Pagpipino ng Knowledge Base",
+          "description": "Patuloy na pagpapabuti ng katumpakan at kaugnayan ng knowledge base.",
+          "details": {
+            "updating": "Awtomatikong pag-update ng nilalaman batay sa mga pakikipag-ugnayan",
+            "scoring": "Pagmamarka ng kalidad at pag-ranggo ng nilalaman",
+            "relevance": "Mga algorithm sa pag-optimize ng kaugnayan",
+            "analytics": "Analytics at mga insight sa pagganap"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "Wika_ng_Gumagamit",
+            "description": "Naaalala ang gustong wika sa komunikasyon",
+            "example": "Mas gusto ng customer ang mga tugon sa Espanyol"
+          },
+          "product": {
+            "field": "Interes_sa_Produkto",
+            "description": "Sinusubaybayan ang mga kategorya ng produkto na interesado",
+            "example": "Interesado sa mga premium na solusyon sa software"
+          },
+          "history": {
+            "field": "Kasaysayan_ng_Suporta",
+            "description": "Pinapanatili ang konteksto ng mga nakaraang isyu",
+            "example": "Nalutas na dati ang mga tanong sa pagsingil"
+          },
+          "style": {
+            "field": "Estilo_ng_Komunikasyon",
+            "description": "Umaangkop sa gustong istilo ng pakikipag-ugnayan",
+            "example": "Mas gusto ang mga detalyadong teknikal na paliwanag"
+          }
+        },
+        "cta": {
+          "title": "Damhin ang Hinaharap ng AI",
+          "subtitle": "Handa nang baguhin ang iyong suporta sa customer gamit ang advanced na AI na naaalala, natututo, at umaangkop? Simulan ang iyong paglalakbay sa aming makabagong teknolohiya.",
+          "signUp": "Mag-sign Up nang Libre",
+          "scheduleDemo": "Mag-iskedyul ng Demo"
+        }
+      },
+      "aiAutomation": {
+        "title": "AI Automation",
+        "subtitle": "Palakihin ang iyong suporta sa customer gamit ang matalinong AI na natututo, umaangkop, at nagbibigay ng mga instant na tugon habang pinapanatili ang ugnayan ng tao kapag kinakailangan.",
+        "tryButton": "Subukan ang AI Automation",
+        "featuresTitle": "Mga Matalinong Tampok ng AI",
+        "featuresSubtitle": "Ang aming AI automation ay higit pa sa mga simpleng chatbot upang magbigay ng tunay na matalinong suporta sa customer.",
+        "performanceTitle": "Automation na Talagang Gumagana",
+        "performanceSubtitle": "Tingnan kung paano pinangangasiwaan ng aming AI automation ang iba't ibang uri ng mga katanungan ng customer na may kahanga-hangang mga rate ng katumpakan.",
+        "hybridTitle": "Ang Perpektong Balanse: AI + Tao",
+        "hybridSubtitle": "Pinagsasama ng aming hybrid na diskarte ang bilis ng AI sa empatiya ng mga ahente ng tao.",
+        "aiStrengthsTitle": "Ang AI Automation ay Mahusay Sa",
+        "aiStrengths": [
+          "Mga instant na tugon sa mga karaniwang tanong",
+          "24/7 na availability nang walang pahinga",
+          "Paghawak ng maraming pag-uusap nang sabay-sabay",
+          "Pare-parehong kalidad ng serbisyo",
+          "Suporta sa komunikasyon sa maraming wika",
+          "Mabilis na access sa impormasyon sa knowledge base"
+        ],
+        "humanStrengthsTitle": "Ang mga Ahente ng Tao ay Mahusay Sa",
+        "humanStrengths": [
+          "Kumplikadong paglutas ng problema at empatiya",
+          "Pagbuo ng mga personal na relasyon sa mga customer",
+          "Paghawak ng mga sensitibo o emosyonal na sitwasyon",
+          "Mga malikhaing solusyon at pag-iisip sa labas ng kahon",
+          "Pag-unawa sa mga nuanced na pangangailangan ng customer",
+          "Paggawa ng mga paghatol sa mga hindi malinaw na sitwasyon"
+        ],
+        "ctaTitle": "Handa nang Palakihin gamit ang AI?",
+        "ctaSubtitle": "Magsimula sa mga libreng ahente ng tao, pagkatapos ay magdagdag ng AI automation kapag handa ka nang palakihin. Ang perpektong hybrid na diskarte para sa mga lumalagong negosyo.",
+        "contextAware": {
+          "title": "Mga Tugon na may Kamalayan sa Konteksto",
+          "description": "Nauunawaan ng AI ang konteksto ng pag-uusap at nagbibigay ng mga may-katuturan, matalinong tugon."
+        },
+        "learning": {
+          "title": "Pag-aaral mula sa mga Pag-uusap",
+          "description": "Patuloy na nagpapabuti sa pamamagitan ng pag-aaral mula sa bawat pakikipag-ugnayan ng customer."
+        },
+        "handoff": {
+          "title": "Walang putol na Pag-handoff ng Tao",
+          "description": "Makinis na paglipat sa mga ahente ng tao kapag lumitaw ang mga kumplikadong isyu."
+        },
+        "availability": {
+          "title": "24/7 na Availability",
+          "description": "Magbigay ng instant na suporta sa buong orasan, kahit na offline ang mga ahente."
+        },
+        "response": {
+          "title": "Instant na Oras ng Pagtugon",
+          "description": "Tumugon sa mga query ng customer sa milliseconds, hindi minuto."
+        },
+        "multilanguage": {
+          "title": "Suporta sa Maraming Wika",
+          "description": "Awtomatikong makipag-usap sa mga customer sa kanilang gustong wika."
+        },
+        "types": {
+          "faq": {
+            "title": "Automation ng FAQ",
+            "description": "Agad na sagutin ang mga karaniwang tanong na may tumpak, napapanahong impormasyon."
+          },
+          "orders": {
+            "title": "Mga Update sa Katayuan ng Order",
+            "description": "Magbigay ng real-time na pagsubaybay sa order at impormasyon sa pagpapadala."
+          },
+          "appointments": {
+            "title": "Pag-iiskedyul ng Appointment",
+            "description": "Awtomatikong mag-book ng mga appointment at pamahalaan ang mga kalendaryo."
+          },
+          "recommendations": {
+            "title": "Mga Rekomendasyon sa Produkto",
+            "description": "Magmungkahi ng mga may-katuturang produkto batay sa mga kagustuhan ng customer."
+          }
+        },
+        "scheduleDemo": "Mag-iskedyul ng Demo",
+        "signUpForFree": "Mag-sign Up nang Libre"
+      },
+      "api": {
+        "restful": {
+          "title": "RESTful API",
+          "description": "Malinis, madaling gamitin na REST API na may komprehensibong dokumentasyon"
+        },
+        "webhooks": {
+          "title": "Real-time na mga Webhook",
+          "description": "Kumuha ng mga instant na abiso para sa mga kaganapan at mga update sa pag-uusap"
+        },
+        "security": {
+          "title": "Secure na Pagpapatotoo",
+          "description": "OAuth 2.0 at pagpapatotoo ng API key na may rate limiting"
+        },
+        "cdn": {
+          "title": "Pandaigdigang CDN",
+          "description": "Access sa API na may mababang latency mula saanman sa mundo"
+        },
+        "endpoints": {
+          "createConversation": "Lumikha ng isang bagong pag-uusap",
+          "getConversation": "Kunin ang mga detalye ng pag-uusap",
+          "sendMessage": "Magpadala ng isang mensahe sa isang pag-uusap"
+        },
+        "sdks": {
+          "available": "Available",
+          "comingSoon": "Malapit na"
+        },
+        "title": "API at Mga Tool ng Developer",
+        "subtitle": "Bumuo ng mga pasadyang pagsasama at palawakin ang mga kakayahan ng SeaChat sa aming komprehensibong API at mga tool na madaling gamitin sa developer.",
+        "getKeyButton": "Kumuha ng API Key",
+        "viewDocsButton": "Tingnan ang Dokumentasyon",
+        "featuresTitle": "Malakas na mga Tampok ng API",
+        "featuresSubtitle": "Lahat ng kailangan mo upang isama ang SeaChat sa iyong mga umiiral na system at daloy ng trabaho.",
+        "endpointsTitle": "Mga Endpoint ng API",
+        "endpointsSubtitle": "Galugarin ang aming komprehensibong API na may mga halimbawa at interactive na dokumentasyon.",
+        "exampleRequestResponse": "Halimbawa ng Kahilingan/Tugon",
+        "tryItOut": "Subukan ito",
+        "testConsole": "Subukan sa Console",
+        "copyCurl": "Kopyahin ang cURL",
+        "sdksTitle": "Mga SDK at Library",
+        "sdksSubtitle": "Magsimula nang mabilis sa aming mga opisyal na SDK para sa mga sikat na wika sa programming.",
+        "exampleTitle": "Halimbawa ng Mabilis na Pagsisimula",
+        "exampleSubtitle": "Magsimula at tumakbo sa SeaChat API sa ilang linya lamang ng code.",
+        "jsExample": "Halimbawa ng JavaScript",
+        "copy": "Kopyahin",
+        "ctaTitle": "Handa nang Simulan ang Pagbuo?",
+        "ctaSubtitle": "Kunin ang iyong API key at simulang isama ang SeaChat sa iyong mga application ngayon.",
+        "ctaAccessButton": "Kumuha ng Access sa API",
+        "ctaDocsButton": "Basahin ang Dokumentasyon"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "Kasiyahan ng Customer"
+          },
+          "responseTime": {
+            "title": "Average na Oras ng Pagtugon"
+          },
+          "resolution": {
+            "title": "Rate ng Paglutas"
+          },
+          "growth": {
+            "title": "Buwanang Paglago"
+          },
+          "period": "ngayong buwan"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "Mga Real-time na Dashboard",
+              "description": "Subaybayan ang iyong pagganap sa suporta gamit ang mga live, nako-customize na dashboard.",
+              "benefits": {
+                "metrics": "Mga sukatan ng live na pagganap",
+                "kpi": "Pasadyang pagsubaybay sa KPI",
+                "team": "Mga view ng pagganap ng koponan",
+                "alerts": "Mga abiso sa alerto"
+              }
+            },
+            "reporting": {
+              "title": "Advanced na Pag-uulat",
+              "description": "Bumuo ng mga detalyadong ulat na may mga naaaksyunan na insight at trend.",
+              "benefits": {
+                "automated": "Awtomatikong pagbuo ng ulat",
+                "dates": "Mga pasadyang saklaw ng petsa",
+                "export": "Mga kakayahan sa pag-export",
+                "scheduled": "Naka-iskedyul na paghahatid"
+              }
+            },
+            "journey": {
+              "title": "Analytics sa Paglalakbay ng Customer",
+              "description": "Subaybayan ang mga pakikipag-ugnayan ng customer sa lahat ng mga touchpoint at channel.",
+              "benefits": {
+                "tracking": "Pagsubaybay sa maraming channel",
+                "visualization": "Pag-visualize ng paglalakbay",
+                "conversion": "Pagsusuri sa conversion",
+                "dropoff": "Pagtukoy sa drop-off"
+              }
+            },
+            "optimization": {
+              "title": "Pag-optimize ng Pagganap",
+              "description": "Tukuyin ang mga bottleneck at i-optimize ang iyong mga operasyon sa suporta.",
+              "benefits": {
+                "bottlenecks": "Pagtuklas ng bottleneck",
+                "resources": "Paglalaan ng mapagkukunan",
+                "efficiency": "Mga rekomendasyon sa kahusayan",
+                "roi": "Pagsusuri sa ROI"
+              }
+            }
+          }
+        },
+        "title": "Analytics at Mga Insight",
+        "subtitle": "Gumawa ng mga desisyon na batay sa data na may komprehensibong analytics na nagpapakita ng pag-uugali ng customer, pagganap ng ahente, at mga pagkakataon sa pag-optimize.",
+        "metricsTitle": "Mga Pangunahing Sukatan ng Pagganap",
+        "metricsSubtitle": "Subaybayan ang mga sukatan na pinakamahalaga sa tagumpay ng iyong suporta sa customer.",
+        "featuresTitle": "Komprehensibong Suite ng Analytics",
+        "featuresSubtitle": "Lahat ng kailangan mo upang maunawaan, masukat, at mapabuti ang iyong mga operasyon sa suporta sa customer.",
+        "dashboardTitle": "Interactive na Preview ng Dashboard",
+        "dashboardSubtitle": "Tingnan kung paano nagbibigay ang aming analytics dashboard ng mga naaaksyunan na insight sa isang sulyap.",
+        "dashboard": {
+          "overview": "Pangkalahatang-ideya ng Pagganap",
+          "months": {
+            "jan": "Ene",
+            "dec": "Dis"
+          },
+          "quickStats": "Mabilis na mga Istatistika",
+          "activeConversations": "Mga Aktibong Pag-uusap",
+          "systemUptime": "Uptime ng Sistema",
+          "customerRating": "Rating ng Customer"
+        },
+        "ctaTitle": "Simulan ang Paggawa ng mga Desisyon na Batay sa Data",
+        "ctaSubtitle": "I-unlock ang kapangyarihan ng analytics upang i-optimize ang iyong suporta sa customer at mag-drive ng paglago ng negosyo."
+      },
+      "humanAgents": {
+        "title": "Chat ng Ahente ng Tao",
+        "subtitle": "Magsimula sa mga tunay na ahente ng suporta ng tao, ganap na libre habang-buhay. Walang mga limitasyon, walang mga catch, tunay na koneksyon lamang ng tao sa iyong mga customer.",
+        "startButton": "Magsimula nang Libre Magpakailanman",
+        "demoButton": "Panoorin ang Demo",
+        "unlimited": {
+          "title": "Walang limitasyong mga Oras ng Ahente",
+          "description": "Walang mga limitasyon sa oras, walang mga cap sa oras. Gumagana ang iyong ahente ng tao hangga't kailangan mo, ganap na libre."
+        },
+        "realtime": {
+          "title": "Real-time na Pamamahala ng Chat",
+          "description": "Pangasiwaan ang maraming pag-uusap nang sabay-sabay sa aming madaling gamitin na interface ng chat."
+        },
+        "collaboration": {
+          "title": "Pakikipagtulungan ng Maraming Ahente",
+          "description": "Palakihin ang iyong koponan na may tuluy-tuloy na mga pag-handoff mula sa ahente-sa-ahente at mga tool sa pakikipagtulungan."
+        },
+        "security": {
+          "title": "Advanced na Seguridad",
+          "description": "Seguridad sa antas ng enterprise na may end-to-end na pag-encrypt at proteksyon ng data."
+        },
+        "analytics": {
+          "title": "Analytics sa Pagganap",
+          "description": "Subaybayan ang mga oras ng pagtugon, kasiyahan ng customer, at mga sukatan ng pagganap ng ahente."
+        },
+        "workflows": {
+          "title": "Mga Pasadyang Daloy ng Trabaho",
+          "description": "Lumikha ng mga personalized na daloy ng trabaho at mga panuntunan sa automation para sa iyong proseso ng suporta."
+        },
+        "benefits": {
+          "personal": {
+            "title": "Personal na Ugnayan",
+            "description": "Empatiya at pag-unawa ng tao na hindi kayang gayahin ng AI"
+          },
+          "complex": {
+            "title": "Kumplikadong Paglutas ng Problema",
+            "description": "Pangasiwaan ang mga nuanced na sitwasyon na nangangailangan ng paghatol ng tao"
+          },
+          "brand": {
+            "title": "Representasyon ng Brand",
+            "description": "Mga ahente na tunay na nakakaunawa at kumakatawan sa mga halaga ng iyong brand"
+          },
+          "relationships": {
+            "title": "Mga Relasyon sa Customer",
+            "description": "Bumuo ng mga pangmatagalang relasyon sa pamamagitan ng tunay na mga koneksyon ng tao"
+          }
+        },
+        "freeForever": {
+          "title": "Tunay na Libre tulad ng sa Libreng 🍺 & 🎙️",
+          "subtitle": "Seryoso kami kapag sinabi naming libre. Isang ahente ng tao habang-buhay, na may walang limitasyong lahat.",
+          "meaningTitle": "Ano Talaga ang Ibig Sabihin ng \"Libre Magpakailanman\"",
+          "agent": "1 Ahente ng Tao para sa Buhay",
+          "conversations": "Walang limitasyong mga Pag-uusap sa Chat",
+          "history": "Walang limitasyong Kasaysayan ng Chat",
+          "contacts": "Walang limitasyong mga Contact",
+          "export": "Kalayaan na I-export ang Lahat ng Data",
+          "noCredit": "Walang Kinakailangang Credit Card",
+          "unlimited": "Walang limitasyong Lahat",
+          "noCaps": "Walang mga nakatagong bayarin, walang mga limitasyon sa oras, walang mga cap sa pag-uusap. Purong, walang limitasyong suporta ng tao lamang.",
+          "forever": "Magpakailanman"
+        },
+        "featuresTitle": "Malakas na mga Tampok ng Ahente ng Tao",
+        "featuresSubtitle": "Lahat ng kailangan mo upang magbigay ng pambihirang suporta sa customer na pinapagana ng tao.",
+        "whyMatterTitle": "Bakit Mahalaga Pa Rin ang mga Ahente ng Tao",
+        "whyMatterSubtitle": "Sa isang mundong hinimok ng AI, ang koneksyon ng tao ay nananatiling hindi mapapalitan para sa pagbuo ng tiwala at paglutas ng mga kumplikadong problema.",
+        "ctaTitle": "Handa nang Magsimula sa mga Ahente ng Tao?",
+        "ctaSubtitle": "Sumali sa libu-libong negosyo na nagbibigay ng pambihirang suporta sa customer sa aming mga libreng ahente ng tao.",
+        "ctaStartButton": "Magsimula nang Libre Ngayon",
+        "ctaDemoButton": "Mag-iskedyul ng Demo"
+      },
+      "knowledgeBase": {
+        "subtitle": "Bigyan ng kapangyarihan ang iyong mga ahente ng AI na may komprehensibong pamamahala ng kaalaman. Lumikha, ayusin, at panatilihin ang isang sentralisadong repositoryo ng impormasyon na nagbibigay-daan sa mga matalino, tumpak na tugon.",
+        "managementTitle": "Matalinong Pamamahala ng Kaalaman",
+        "managementSubtitle": "Bumuo ng isang malakas na pundasyon ng kaalaman na lumalaki kasama ng iyong negosyo at nagpapahusay sa bawat pakikipag-ugnayan ng customer.",
+        "smartSearch": {
+          "title": "Matalinong Paghahanap",
+          "description": "Mga advanced na kakayahan sa paghahanap ng semantiko na nakakaunawa sa konteksto at layunin, na naghahatid ng tumpak na impormasyon agad."
+        },
+        "documentManagement": {
+          "title": "Pamamahala ng Dokumento",
+          "description": "Mag-upload, ayusin, at i-version control ang mga dokumento, FAQ, patakaran, at pamamaraan sa isang sentralisadong lokasyon."
+        },
+        "collaboration": {
+          "title": "Pakikipagtulungan sa Pag-edit",
+          "description": "Paganahin ang pakikipagtulungan ng koponan na may real-time na pag-edit, mga daloy ng trabaho sa pag-apruba, at mga kontrol sa pag-access na batay sa papel."
+        },
+        "autoLearning": {
+          "title": "Awtomatikong Pag-aaral",
+          "description": "Awtomatikong makuha at matuto mula sa mga matagumpay na pakikipag-ugnayan upang patuloy na mapabuti ang katumpakan ng kaalaman."
+        },
+        "accessControl": {
+          "title": "Kontrol sa Pag-access",
+          "description": "I-secure ang sensitibong impormasyon na may mga butil-butil na pahintulot at tiyakin ang pagsunod sa mga regulasyon sa proteksyon ng data."
+        },
+        "multiLanguage": {
+          "title": "Maraming Wika",
+          "description": "Suportahan ang maraming wika at lokalisasyon upang pagsilbihan ang mga pandaigdigang customer na may mga tugon na angkop sa kultura."
+        },
+        "demoTitle": "Tingnan ang Knowledge Base sa Aksyon",
+        "demoSubtitle": "Panoorin kung paano pinapagana ng aming matalinong sistema ng kaalaman ang mga tumpak, kontekstwal na tugon.",
+        "interfaceTitle": "Interface ng Knowledge Base",
+        "categories": "Mga Kategorya ng Dokumento",
+        "productDocs": "Dokumentasyon ng Produkto",
+        "articles": "mga artikulo",
+        "supportFaqs": "Mga FAQ sa Suporta sa Customer",
+        "policies": "Mga Patakaran ng Kumpanya",
+        "recentUpdates": "Mga Kamakailang Update",
+        "refundUpdate": "Na-update ang Patakaran sa Refund",
+        "hoursAgo": "oras ang nakalipas",
+        "returnWindow": "Na-update ang window ng pagbabalik mula 14 hanggang 30 araw",
+        "featureGuide": "Gabay sa Bagong Tampok",
+        "dayAgo": "araw ang nakalipas",
+        "analyticsDoc": "Nagdagdag ng dokumentasyon para sa advanced na analytics",
+        "transformTitle": "Baguhin ang Iyong Suporta sa Customer",
+        "transformSubtitle": "Ang isang mahusay na organisadong knowledge base ay ang pundasyon ng pambihirang serbisyo sa customer at mahusay na mga operasyon.",
+        "benefitsTitle": "Mga Pangunahing Benepisyo",
+        "fasterResponse": {
+          "title": "Mas Mabilis na mga Oras ng Pagtugon",
+          "description": "Bawasan ang average na oras ng pagtugon ng 60% na may instant na access sa tumpak na impormasyon."
+        },
+        "consistency": {
+          "title": "Pare-parehong Katumpakan",
+          "description": "Tiyakin na lahat ng mga ahente ay nagbibigay ng pare-pareho, napapanahong impormasyon sa lahat ng channel."
+        },
+        "training": {
+          "title": "Nasusukat na Pagsasanay",
+          "description": "Mas mabilis na i-onboard ang mga bagong ahente na may komprehensibo, mahahanap na dokumentasyon."
+        },
+        "readyTitle": "Handa nang Magsimula?",
+        "readySubtitle": "Buuin ang iyong knowledge base ngayon at baguhin kung paano naghahatid ng suporta sa customer ang iyong koponan.",
+        "startButton": "Simulan ang Pagbuo",
+        "scheduleDemo": "Mag-iskedyul ng Demo"
+      },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "Chat sa Website",
+            "description": "I-embed ang mga chat widget sa anumang platform ng website",
+            "seachat": {
+              "features": {
+                "compatibility": "Universal na compatibility",
+                "styling": "Pasadyang estilo",
+                "responsive": "Tumutugon sa mobile",
+                "sync": "Real-time na pag-sync"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "Negosyo sa WhatsApp",
+            "seachat": {
+              "features": {
+                "api": "Pagsasama ng Business API",
+                "media": "Suporta sa mayamang media",
+                "templates": "Mga template ng mensahe",
+                "groups": "Pagmemensahe sa grupo"
+              }
+            },
+            "description": "Kumonekta sa mga customer sa pinakasikat na messaging app sa mundo"
+          },
+          "instagram": {
+            "name": "Instagram Direct",
+            "description": "Pamahalaan ang mga DM sa Instagram at mga tugon sa kuwento sa isang lugar",
+            "seachat": {
+              "features": {
+                "replies": "Pamamahala ng tugon sa kuwento",
+                "media": "Pagbabahagi ng media",
+                "responses": "Mabilis na mga tugon",
+                "greetings": "Mga awtomatikong pagbati"
+              }
+            }
+          },
+          "facebook": {
+            "name": "Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "Pagsasama ng pahina",
+                "responses": "Mga awtomatikong tugon",
+                "cards": "Mga mayamang card",
+                "menu": "Paulit-ulit na menu"
+              }
+            },
+            "description": "Magbigay ng suporta sa pamamagitan ng platform ng pagmemensahe ng Facebook"
+          },
+          "voice": {
+            "name": "Mga Tawag sa Boses",
+            "description": "Pangasiwaan ang suporta sa telepono gamit ang mga ahente ng boses ng AI",
+            "seachat": {
+              "features": {
+                "conversations": "Mga natural na pag-uusap",
+                "routing": "Pagruruta ng tawag",
+                "voicemail": "Transkripsyon ng voicemail",
+                "conference": "Mga tawag sa kumperensya"
+              }
+            }
+          },
+          "email": {
+            "name": "Suporta sa Email",
+            "description": "Pamahalaan ang mga tiket sa email na may matalinong pagruruta",
+            "seachat": {
+              "features": {
+                "categorization": "Matalinong pagkakategorya",
+                "responses": "Mga awtomatikong tugon",
+                "templates": "Mga template ng email",
+                "priority": "Paghawak sa priyoridad"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "Pinag-isang View ng Customer",
+            "description": "Tingnan ang kumpletong kasaysayan ng customer sa lahat ng channel sa isang interface"
+          },
+          "handoffs": {
+            "title": "Walang putol na mga Handoff",
+            "description": "Maaaring lumipat ng mga channel ang mga customer nang hindi nawawala ang konteksto ng pag-uusap"
+          },
+          "resolution": {
+            "title": "Mas Mabilis na Paglutas",
+            "description": "Bawasan ang oras ng paglutas gamit ang pinag-isang mga daloy ng trabaho ng ahente"
+          },
+          "satisfaction": {
+            "title": "Mas Mataas na Kasiyahan",
+            "description": "Pare-parehong karanasan sa lahat ng mga touchpoint"
+          }
+        },
+        "title": "Suporta sa Omnichannel",
+        "subtitle": "Ikonekta ang lahat ng iyong mga customer touchpoint sa isang pinag-isang platform. Magbigay ng pare-pareho, tuluy-tuloy na suporta sa mga website, social media, telepono, at email.",
+        "channelsTitle": "Lahat ng Iyong mga Channel, Isang Platform",
+        "channelsSubtitle": "Ikonekta at pamahalaan ang mga pag-uusap sa customer sa bawat channel na ginagamit ng iyong mga customer.",
+        "benefitsTitle": "Ang Kapangyarihan ng Tunay na Omnichannel",
+        "benefitsSubtitle": "Higit pa sa pagkakaroon lamang ng maraming mga channel. Lumikha ng mga pinag-isang karanasan na nagpapasaya sa mga customer.",
+        "inboxTitle": "Pinag-isang Karanasan sa Inbox",
+        "inboxSubtitle": "Tingnan kung paano nagsasama-sama ang lahat ng iyong mga pag-uusap sa customer sa isang matalinong interface.",
+        "activeConversations": "Mga Aktibong Pag-uusap",
+        "websiteChat": "Chat sa website tungkol sa mga tampok ng produkto...",
+        "whatsappInquiry": "Katanungan sa WhatsApp tungkol sa katayuan ng order...",
+        "instagramDM": "DM sa Instagram tungkol sa patakaran sa pagbabalik...",
+        "conversationView": "View ng Pag-uusap",
+        "customerVia": "Customer sa pamamagitan ng Website",
+        "agentResponse": "Tugon ng Ahente",
+        "customerViaWhatsapp": "Customer sa pamamagitan ng WhatsApp",
+        "whatsappMessage": "Salamat! Maaari ko bang ipagpatuloy ang pag-uusap na ito sa WhatsApp?",
+        "ctaTitle": "Handa nang Pag-isahin ang Iyong mga Channel ng Customer?",
+        "ctaSubtitle": "Ikonekta ang lahat ng iyong mga customer touchpoint at magbigay ng tuluy-tuloy na mga karanasan sa suporta na nagpapanatili sa mga customer na bumalik.",
+        "customerMessage": "Hi, interesado ako sa iyong mga tampok sa AI automation. Maaari mo ba akong sabihan ng higit pa?",
+        "agentMessage": "Masaya akong tumulong! Kayang hawakan ng aming AI automation ang hanggang 80% ng mga regular na katanungan..."
+      },
+      "voiceAgents": {
+        "title": "Mga Ahente ng Boses",
+        "subtitle": "Baguhin ang suporta sa telepono gamit ang mga ahente ng boses ng AI na natural pakinggan, nakakaunawa sa konteksto, at nagbibigay ng instant na tulong sa maraming wika.",
+        "signUpFree": "Mag-sign Up nang Libre",
+        "scheduleDemo": "Mag-iskedyul ng Demo",
+        "natural": {
+          "title": "Mga Natural na Pag-uusap sa Boses",
+          "description": "Mga ahente ng boses na pinapagana ng AI na natural pakinggan at nakakaunawa sa konteksto."
+        },
+        "speech": {
+          "title": "Advanced na Pagkilala sa Pagsasalita",
+          "description": "Tumpak na conversion ng speech-to-text sa maraming wika at accent."
+        },
+        "synthesis": {
+          "title": "Mataas na Kalidad na Synthesis ng Boses",
+          "description": "Malinaw na kristal, parang tao na output ng boses na may emosyonal na katalinuhan."
+        },
+        "support": {
+          "title": "24/7 na Suporta sa Boses",
+          "description": "Tulong sa boses sa buong orasan para sa pandaigdigang suporta sa customer."
+        },
+        "multilanguage": {
+          "title": "Suporta sa Maraming Wika",
+          "description": "Suporta para sa 50+ na mga wika na may katutubong pagbigkas."
+        },
+        "routing": {
+          "title": "Matalinong Pagruruta ng Tawag",
+          "description": "Matalinong pagruruta sa mga ahente ng tao kapag lumitaw ang mga kumplikadong isyu."
+        },
+        "capabilitiesTitle": "Mga Advanced na Kakayahan sa Boses",
+        "capabilitiesSubtitle": "Pinagsasama ng aming mga ahente ng boses ang makabagong AI sa natural na pagpoproseso ng wika para sa mga pag-uusap na parang tao.",
+        "capabilities": {
+          "service": {
+            "title": "Mga Tawag sa Serbisyo sa Customer",
+            "description": "Pangasiwaan ang mga regular na katanungan, katayuan ng order, at pangunahing pag-troubleshoot"
+          },
+          "appointments": {
+            "title": "Pag-iiskedyul ng Appointment",
+            "description": "Awtomatikong mag-book, mag-reschedule, at magkumpirma ng mga appointment"
+          },
+          "orders": {
+            "title": "Pagproseso ng Order",
+            "description": "Kumuha ng mga order, iproseso ang mga pagbabayad, at kumpirmahin ang mga detalye"
+          },
+          "support": {
+            "title": "Teknikal na Suporta",
+            "description": "Gabayan ang mga customer sa mga pangunahing hakbang sa pag-troubleshoot"
+          }
+        },
+        "performanceTitle": "Pagganap ng Ahente ng Boses",
+        "performanceSubtitle": "Tingnan kung paano gumaganap ang aming mga ahente ng boses sa iba't ibang uri ng mga pakikipag-ugnayan ng customer.",
+        "accuracyRate": "Rate ng Katumpakan",
+        "avgDuration": "Avg na Tagal",
+        "experienceTitle": "Damhin ang Voice AI sa Aksyon",
+        "experienceSubtitle": "Makinig sa mga tunay na pag-uusap sa pagitan ng mga customer at ng aming mga ahente ng boses.",
+        "sampleTitle": "Halimbawang Pag-uusap",
+        "voiceAgent": "Ahente ng Boses",
+        "customer": "Customer",
+        "agentGreeting": "Kamusta! Salamat sa pagtawag sa suporta ng SeaChat. Paano kita matutulungan ngayon?",
+        "customerQuestion": "Hi, kailangan kong suriin ang katayuan ng aking kamakailang order.",
+        "agentResponse": "Masaya akong tulungan ka diyan. Maaari mo bang ibigay ang iyong numero ng order o ang email address na nauugnay sa iyong account?",
+        "playDemo": "I-play ang Buong Demo",
+        "moreSamples": "Higit pang mga Halimbawa",
+        "featuresTitle": "Mga Tampok ng Ahente ng Boses",
+        "featuresList": {
+          "0": "Natural na pagpoproseso ng pagsasalita",
+          "1": "Suporta sa maraming wika",
+          "2": "Pagsasama ng sistema ng telepono",
+          "3": "Pagsusuri ng sentimyento ng boses",
+          "4": "Pag-record at pagsusuri ng tawag",
+          "5": "Matalinong pag-escalate ng tao"
+        },
+        "ctaTitle": "Handa nang Baguhin ang Suporta sa Telepono?",
+        "ctaSubtitle": "Damhin ang hinaharap ng suporta sa customer sa boses gamit ang mga ahente ng AI na parang tao ang tunog at pakiramdam."
+      }
+    },
+    "seo": {
+      "title": "SeaChat - AI Chatbot at Automation ng Serbisyo sa Customer | Seasalt.ai",
+      "titleSuffix": " - AI Chatbot at Automation ng Serbisyo sa Customer | Seasalt.ai",
+      "description": "Ang SeaChat ay isang platform ng chatbot na pinapagana ng AI na tumutulong sa mga negosyo na i-automate ang serbisyo sa customer sa maraming mga channel kabilang ang WhatsApp, mga website, social media, at higit pa."
+    }
+  }
+}

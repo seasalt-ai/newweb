@@ -1,0 +1,1889 @@
+{
+  "seavoice": {
+    "pages": {
+      "solutions": {
+        "inbound": {
+          "ivrReplacement": {
+            "hero": {
+              "title": "自然語言 IVR 替代方案",
+              "subtitle": "消除令人沮喪的電話樹狀選單和導航。讓客戶自然說出他們的需求，並立即連接到正確的地方。",
+              "cta": "立即替換您的 IVR"
+            },
+            "features": {
+              "title": "現代語音介面功能",
+              "subtitle": "透過智能對話轉變過時的電話系統",
+              "naturalLanguage": {
+                "title": "自然語言理解",
+                "description": "以理解客戶真正需求的自然對話取代令人困惑的選單選項。",
+                "benefit1": "對話式介面",
+                "benefit2": "意圖識別",
+                "benefit3": "上下文感知"
+              },
+              "instantResolution": {
+                "title": "即時解決",
+                "description": "無需瀏覽多個選單層級即可立即解決客戶查詢。",
+                "benefit1": "零等待時間",
+                "benefit2": "直接答案",
+                "benefit3": "即時協助"
+              },
+              "improvedExperience": {
+                "title": "改善體驗",
+                "description": "將令人沮喪的電話樹狀選單轉變為愉快、高效的客戶互動。",
+                "benefit1": "更高滿意度",
+                "benefit2": "減少放棄通話",
+                "benefit3": "更佳無障礙性"
+              }
+            },
+            "comparison": {
+              "title": "傳統 IVR vs. 自然語言",
+              "subtitle": "見證客戶體驗的巨大差異",
+              "customerExperience": {
+                "aspect": "客戶體驗",
+                "traditional": "按 1 選擇銷售，按 2 選擇支援...",
+                "modern": "我需要訂單協助\" - 立即連接",
+                "improvement": "85% 滿意度提升"
+              },
+              "timeToResolution": {
+                "aspect": "解決時間",
+                "traditional": "3-5 分鐘導航選單",
+                "modern": "30 秒到達正確部門",
+                "improvement": "80% 時間縮短"
+              },
+              "callAbandonment": {
+                "aspect": "通話放棄率",
+                "traditional": "25% 在選單導航期間放棄",
+                "modern": "5% 放棄率",
+                "improvement": "80% 減少"
+              },
+              "accessibility": {
+                "aspect": "無障礙性",
+                "traditional": "對年長者/殘障用戶困難",
+                "modern": "所有用戶的自然語音",
+                "improvement": "100% 無障礙性"
+              },
+              "traditionalIvr": "傳統 IVR",
+              "naturalLanguage": "自然語言"
+            },
+            "benefits": {
+              "title": "可量測的改善",
+              "subtitle": "替換傳統 IVR 系統的實際成果",
+              "satisfaction": {
+                "metric": "85%",
+                "description": "客戶滿意度提升"
+              },
+              "abandonment": {
+                "metric": "80%",
+                "description": "通話放棄率減少"
+              },
+              "resolution": {
+                "metric": "70%",
+                "description": "通話解決速度提升"
+              },
+              "misdirected": {
+                "metric": "90%",
+                "description": "錯誤轉接通話減少"
+              }
+            },
+            "cta": {
+              "title": "準備好現代化您的電話系統了嗎？",
+              "subtitle": "用客戶喜愛的自然對話取代令人沮喪的電話樹狀選單",
+              "startTrial": "開始免費試用",
+              "seeDemo": "查看示範"
+            },
+            "title": "IVR 替代方案",
+            "description": "用自然語言理解取代過時的電話選單。",
+            "benefit1": "自然對話",
+            "benefit2": "更好的使用者體驗",
+            "benefit3": "更高滿意度"
+          },
+          "technicalSupport": {
+            "hero": {
+              "title": "技術支援自動化",
+              "description": "透過人工智慧提供即時技術支援，能夠診斷問題、引導客戶解決方案，並在需要時將複雜問題升級至人類專家。",
+              "primaryCta": "自動化技術支援"
+            },
+            "features": {
+              "title": "智能技術支援",
+              "description": "能理解技術問題並提供解決方案的先進人工智慧",
+              "automatedTroubleshooting": {
+                "title": "自動化故障排除",
+                "description": "引導客戶逐步解決常見技術問題。",
+                "benefits": {
+                  "0": "自助式解決方案",
+                  "1": "即時診斷",
+                  "2": "互動式指導"
+                }
+              },
+              "intelligentEscalation": {
+                "title": "智能升級",
+                "description": "自動將複雜問題升級至人類技術員，同時保留完整上下文。",
+                "benefits": {
+                  "0": "智能路由",
+                  "1": "上下文保留",
+                  "2": "無縫交接"
+                }
+              },
+              "multiPlatformSupport": {
+                "title": "多平台支援",
+                "description": "跨不同設備、軟體和平台提供技術協助。",
+                "benefits": {
+                  "0": "通用兼容性",
+                  "1": "跨平台專業知識",
+                  "2": "全面覆蓋"
+                }
+              }
+            },
+            "capabilities": {
+              "title": "全面支援覆蓋",
+              "description": "處理各種平台的廣泛技術問題",
+              "hardwareIssues": {
+                "category": "硬體問題",
+                "description": "診斷並解決硬體相關問題",
+                "examples": {
+                  "0": "設備連接",
+                  "1": "性能問題",
+                  "2": "硬體設置"
+                }
+              },
+              "softwareTroubleshooting": {
+                "category": "軟體故障排除",
+                "description": "協助軟體安裝和配置",
+                "examples": {
+                  "0": "應用程式安裝",
+                  "1": "設定配置",
+                  "2": "更新協助"
+                }
+              },
+              "networkProblems": {
+                "category": "網路問題",
+                "description": "解決網際網路和網路連接問題",
+                "examples": {
+                  "0": "WiFi 設置",
+                  "1": "連接問題",
+                  "2": "速度優化"
+                }
+              },
+              "accountSecurity": {
+                "category": "帳戶與安全",
+                "description": "協助帳戶存取和安全問題",
+                "examples": {
+                  "0": "密碼重設",
+                  "1": "帳戶恢復",
+                  "2": "安全設定"
+                }
+              }
+            },
+            "process": {
+              "title": "AI 故障排除流程",
+              "description": "系統化的診斷和解決技術問題方法",
+              "steps": {
+                "issueIdentification": {
+                  "title": "問題識別",
+                  "description": "AI 傾聽問題描述並提出澄清問題"
+                },
+                "diagnosticAnalysis": {
+                  "title": "診斷分析",
+                  "description": "系統分析症狀並識別潛在原因"
+                },
+                "solutionGuidance": {
+                  "title": "解決方案指導",
+                  "description": "提供逐步指示來解決問題"
+                },
+                "verificationFollowup": {
+                  "title": "驗證和後續",
+                  "description": "確認解決方案並在需要時提供額外協助"
+                }
+              }
+            },
+            "benefits": {
+              "title": "支援效率結果",
+              "description": "技術支援營運的可衡量改善"
+            },
+            "metrics": {
+              "resolution": {
+                "description": "無需人類代理解決的問題"
+              },
+              "reductionTime": {
+                "description": "平均解決時間縮短"
+              },
+              "satisfaction": {
+                "description": "客戶對 AI 支援的滿意度"
+              },
+              "availability": {
+                "description": "技術支援可用性"
+              }
+            },
+            "cta": {
+              "title": "準備好自動化技術支援了嗎？",
+              "description": "提供即時、智能的技術協助，更快解決問題",
+              "primaryButton": "開始免費試用",
+              "secondaryButton": "觀看示範"
+            },
+            "title": "技術支援",
+            "description": "自動化故障排除並指導用戶解決技術問題。",
+            "benefit1": "自助服務解決方案",
+            "benefit2": "更快解決",
+            "benefit3": "成本節省"
+          },
+          "orderTracking": {
+            "hero": {
+              "title": "訂單狀態與追蹤",
+              "subtitle": "讓客戶透過自然語音對話即時查詢訂單狀態、追蹤出貨情況並獲得配送更新。減少支援電話同時提升客戶滿意度。",
+              "cta": "啟用訂單追蹤"
+            },
+            "features": {
+              "title": "全面的訂單追蹤",
+              "subtitle": "完整掌握訂單狀態和配送進度",
+              "realTimeStatus": {
+                "title": "即時訂單狀態",
+                "description": "立即為客戶提供最新的訂單和出貨資訊。",
+                "benefits": {
+                  "liveTracking": "即時追蹤更新",
+                  "deliveryEstimates": "配送預估",
+                  "statusNotifications": "狀態通知"
+                }
+              },
+              "locationTracking": {
+                "title": "位置追蹤",
+                "description": "與客戶分享精確的位置資訊和配送進度。",
+                "benefits": {
+                  "gpsTracking": "GPS 追蹤",
+                  "routeOptimization": "路線優化",
+                  "deliveryMapping": "配送地圖"
+                }
+              },
+              "proactiveUpdates": {
+                "title": "主動更新",
+                "description": "自動通知客戶延誤、變更或配送確認。",
+                "benefits": {
+                  "delayNotifications": "延誤通知",
+                  "scheduleChanges": "時程變更",
+                  "deliveryConfirmations": "配送確認"
+                }
+              }
+            },
+            "tracking": {
+              "title": "完整配送流程",
+              "subtitle": "追蹤從下訂到最終配送的每個階段",
+              "stages": {
+                "orderPlaced": {
+                  "title": "訂單已下達",
+                  "description": "確認訂單收到並開始處理",
+                  "info": {
+                    "orderNumber": "訂單編號",
+                    "itemsOrdered": "已訂購商品",
+                    "processingTimeline": "處理時程"
+                  }
+                },
+                "inTransit": {
+                  "title": "運送中",
+                  "description": "包裹正在運送至目的地",
+                  "info": {
+                    "currentLocation": "目前位置",
+                    "expectedDelivery": "預計配送時間",
+                    "carrierInformation": "承運商資訊"
+                  }
+                },
+                "outForDelivery": {
+                  "title": "配送中",
+                  "description": "包裹已由配送司機接手進行最終配送",
+                  "info": {
+                    "deliveryWindow": "配送時段",
+                    "driverContact": "司機聯絡方式",
+                    "specialInstructions": "特殊指示"
+                  }
+                },
+                "delivered": {
+                  "title": "已配送",
+                  "description": "包裹已成功配送",
+                  "info": {
+                    "deliveryTime": "配送時間",
+                    "deliveryLocation": "配送地點",
+                    "signatureConfirmation": "簽收確認"
+                  }
+                }
+              }
+            },
+            "integration": {
+              "title": "通用承運商整合",
+              "description": "連接所有主要貨運承運商和物流供應商，無論包裹如何寄送都能提供全面的追蹤資訊。",
+              "multiCarrier": {
+                "title": "多承運商支援",
+                "description": "追蹤所有主要承運商的包裹"
+              },
+              "realTimeUpdates": {
+                "title": "即時更新",
+                "description": "來自承運商 API 的即時追蹤資料"
+              },
+              "deliveryAnalytics": {
+                "title": "配送分析",
+                "description": "效能洞察和配送指標"
+              },
+              "carriers": {
+                "title": "支援的承運商",
+                "fedex": "FedEx API",
+                "ups": "UPS 追蹤",
+                "usps": "USPS 整合",
+                "dhl": "DHL 服務",
+                "amazon": "Amazon 物流",
+                "custom": "自訂承運商"
+              }
+            },
+            "impact": {
+              "title": "客戶服務影響",
+              "subtitle": "客戶滿意度和支援效率的可衡量改善",
+              "callReduction": {
+                "metric": "85%",
+                "description": "減少「我的訂單在哪裡？」電話"
+              },
+              "satisfaction": {
+                "metric": "95%",
+                "description": "客戶對追蹤資訊的滿意度"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "訂單狀態可用性"
+              },
+              "workloadReduction": {
+                "metric": "60%",
+                "description": "客服工作量減少"
+              }
+            },
+            "cta": {
+              "title": "準備自動化訂單追蹤了嗎？",
+              "subtitle": "透過即時訂單狀態減少支援電話並提升客戶滿意度",
+              "startTrial": "開始免費試用",
+              "seeDemo": "觀看示範"
+            },
+            "title": "訂單狀態與追蹤",
+            "description": "讓客戶立即查看訂單狀態和配送資訊。",
+            "benefit1": "即時更新",
+            "benefit2": "減少來電",
+            "benefit3": "更好體驗"
+          },
+          "paymentProcessing": {
+            "hero": {
+              "title": "安全付款處理",
+              "description": "透過語音互動實現安全、符合 PCI 規範的付款處理。讓客戶在電話上安全付款，具備先進的詐欺保護和即時交易處理。",
+              "cta": "啟用安全付款"
+            },
+            "features": {
+              "title": "安全語音付款功能",
+              "description": "企業級安全性滿足無縫客戶體驗",
+              "secure": {
+                "title": "安全付款處理",
+                "description": "透過符合 PCI 規範的語音技術在電話上安全處理付款。",
+                "benefits": {
+                  "pciCompliance": "PCI DSS 合規",
+                  "encryptedTransactions": "加密交易",
+                  "multiplePaymentMethods": "多種付款方式"
+                }
+              },
+              "fraud": {
+                "title": "詐欺保護",
+                "description": "先進的詐欺檢測和預防，保護企業和客戶。",
+                "benefits": {
+                  "realtimeFraudDetection": "即時詐欺檢測",
+                  "riskAssessment": "風險評估",
+                  "secureAuthentication": "安全身份驗證"
+                }
+              },
+              "instant": {
+                "title": "即時處理",
+                "description": "透過即時授權和確認立即處理付款。",
+                "benefits": {
+                  "realtimeAuthorization": "即時授權",
+                  "instantConfirmation": "即時確認",
+                  "immediateReceipts": "立即收據"
+                }
+              }
+            },
+            "paymentMethods": {
+              "title": "全面付款選項",
+              "description": "透過安全語音處理接受所有主要付款方式",
+              "creditCards": {
+                "method": "信用卡",
+                "description": "透過安全語音處理接受所有主要信用卡",
+                "features": {
+                  "visaMastercardAmex": "Visa、萬事達卡、美國運通",
+                  "cvvVerification": "CVV 驗證",
+                  "expiryValidation": "到期驗證"
+                }
+              },
+              "debitCards": {
+                "method": "金融卡",
+                "description": "透過 PIN 驗證處理金融卡付款",
+                "features": {
+                  "pinEntryVoice": "透過語音輸入 PIN",
+                  "bankVerification": "銀行驗證",
+                  "instantDeduction": "即時扣款"
+                }
+              },
+              "bankTransfers": {
+                "method": "銀行轉帳",
+                "description": "直接銀行帳戶轉帳和 ACH 付款",
+                "features": {
+                  "accountVerification": "帳戶驗證",
+                  "routingNumberValidation": "路由號碼驗證",
+                  "achProcessing": "ACH 處理"
+                }
+              },
+              "digitalWallets": {
+                "method": "數位錢包",
+                "description": "支援熱門數位付款平台",
+                "features": {
+                  "applePay": "Apple Pay",
+                  "googlePay": "Google Pay",
+                  "paypalIntegration": "PayPal 整合"
+                }
+              }
+            },
+            "security": {
+              "title": "銀行級安全",
+              "description": "我們的付款處理系統符合業界最高安全標準，確保每筆交易都受到多層加密和詐欺預防保護。",
+              "features": {
+                "title": "安全功能"
+              },
+              "encryption": {
+                "title": "端到端加密",
+                "description": "所有付款數據在傳輸和儲存時都經過加密"
+              },
+              "pciCompliance": {
+                "title": "PCI DSS 合規",
+                "description": "Level 1 PCI DSS 認證基礎設施"
+              },
+              "monitoring": {
+                "title": "即時監控",
+                "description": "持續詐欺檢測和預防"
+              }
+            },
+            "securityFeatures": {
+              "endToEndEncryption": "端到端加密",
+              "pciDssCompliance": "PCI DSS Level 1 合規",
+              "tokenization": "卡片資料代碼化",
+              "multiFactorAuth": "多重身份驗證",
+              "fraudMonitoring": "即時詐欺監控",
+              "voiceRecognition": "安全語音識別"
+            },
+            "benefits": {
+              "title": "付款處理效能",
+              "description": "業界領先的可靠性和安全指標",
+              "uptime": "付款處理正常運行時間",
+              "transactionTime": "平均交易時間",
+              "compliance": "PCI DSS 合規",
+              "fraudRate": "AI 保護下的詐欺率"
+            },
+            "cta": {
+              "title": "準備好進行安全語音付款了嗎？",
+              "description": "啟用符合 PCI 規範的付款處理，具備先進詐欺保護",
+              "startProcessing": "開始安全處理",
+              "securityOverview": "安全概述"
+            },
+            "title": "付款處理",
+            "description": "安全地處理付款並處理帳單查詢。",
+            "benefit1": "安全交易",
+            "benefit2": "自動化帳單",
+            "benefit3": "PCI 合規"
+          },
+          "virtualAssistant": {
+            "hero": {
+              "title": "24/7 虛擬助理處理非營業時間來電",
+              "description": "絕不錯過任何客戶來電。我們的 AI 虛擬助理提供智能、人性化的 24 小時全天候支援，確保您的客戶在最需要時總能獲得即時協助。",
+              "primaryCta": "啟動您的 24/7 助理"
+            },
+            "features": {
+              "title": "不間斷客戶支援",
+              "description": "全面的非營業時間支援，24/7 維持您的服務品質",
+              "availability": {
+                "title": "24/7 全天候可用",
+                "description": "透過全天候 AI 協助，再也不會錯過來電，隨時處理各種查詢。",
+                "benefits": {
+                  "0": "始終可用",
+                  "1": "無加班成本",
+                  "2": "全球時區覆蓋"
+                }
+              },
+              "callHandling": {
+                "title": "智能通話處理",
+                "description": "先進 AI 理解來電者意圖，提供適當回應或升級處理。",
+                "benefits": {
+                  "0": "自然對話",
+                  "1": "上下文感知",
+                  "2": "智能升級"
+                }
+              },
+              "handoffs": {
+                "title": "無縫交接",
+                "description": "需要時順暢轉接至人工客服，完整保留上下文。",
+                "benefits": {
+                  "0": "上下文保留",
+                  "1": "溫暖轉接",
+                  "2": "無重複資訊"
+                }
+              }
+            },
+            "benefits": {
+              "title": "實證成果",
+              "description": "看看 24/7 虛擬助理對您業務的影響"
+            },
+            "metrics": {
+              "abandonment": {
+                "description": "非營業時間放棄通話減少"
+              },
+              "availability": {
+                "description": "連續客戶服務可用性"
+              },
+              "costSavings": {
+                "description": "相較於人工客服的成本節省"
+              },
+              "satisfaction": {
+                "description": "客戶對 AI 互動的滿意度"
+              }
+            },
+            "useCases": {
+              "title": "行業應用",
+              "description": "了解不同行業如何從 24/7 虛擬助理中受益",
+              "healthcare": {
+                "title": "醫療保健非營業時間",
+                "description": "在診療時間外處理患者查詢、預約請求和緊急分流。",
+                "metrics": {
+                  "0": "錯過來電減少 60%",
+                  "1": "24/7 患者支援",
+                  "2": "符合 HIPAA 規範"
+                }
+              },
+              "ecommerce": {
+                "title": "電商支援",
+                "description": "隨時協助客戶處理訂單查詢、退貨和產品資訊。",
+                "metrics": {
+                  "0": "客戶滿意度提升 40%",
+                  "1": "即時訂單狀態",
+                  "2": "24/7 可用性"
+                }
+              },
+              "financial": {
+                "title": "金融服務",
+                "description": "非營業時間提供帳戶資訊、詐騙警報和基本銀行服務。",
+                "metrics": {
+                  "0": "安全認證",
+                  "1": "詐騙預防",
+                  "2": "法規合規"
+                }
+              }
+            },
+            "cta": {
+              "title": "準備好 24/7 客戶支援了嗎？",
+              "description": "透過智能虛擬助理轉型您的非營業時間客戶體驗",
+              "primaryButton": "開始免費試用",
+              "secondaryButton": "安排示範"
+            },
+            "title": "24/7 虛擬助理",
+            "description": "在營業時間外透過智能通話處理提供即時支援。",
+            "benefit1": "24/7 可用性",
+            "benefit2": "即時回應",
+            "benefit3": "成本降低"
+          },
+          "header": "來電解決方案",
+          "description": "透過智能自動化和優越的客戶體驗處理來電",
+          "smartCallTransfer": {
+            "title": "智能通話轉移",
+            "description": "根據來電者意圖智能地將通話路由到正確的部門。",
+            "benefit1": "減少等待時間",
+            "benefit2": "更好的路由",
+            "benefit3": "提升效率"
+          },
+          "mentalHealth": {
+            "title": "心理健康伴侶",
+            "description": "為心理健康篩檢和資源提供同理心支援。",
+            "benefit1": "24/7 支援",
+            "benefit2": "同理心回應",
+            "benefit3": "危機升級處理"
+          },
+          "scamShield": {
+            "title": "詐騙防護盾",
+            "description": "識別並阻止詐騙電話以保護您的客戶。",
+            "benefit1": "詐騙檢測",
+            "benefit2": "客戶保護",
+            "benefit3": "減少詐騙電話"
+          },
+          "appointmentBooking": {
+            "title": "預約預訂",
+            "description": "實現自主預約安排和管理。",
+            "benefit1": "24/7 預訂",
+            "benefit2": "日曆同步",
+            "benefit3": "自動提醒"
+          }
+        },
+        "outbound": {
+          "customerReactivation": {
+            "hero": {
+              "title": "客戶重新激活行銷活動",
+              "subtitle": "通過個人化的 AI 驅動觸達活動重新贏回非活躍客戶。重新吸引過往客戶，提供引人入勝的優惠，重建有價值的關係以推動經常性收入。",
+              "cta": "開始重新激活行銷活動"
+            },
+            "features": {
+              "title": "智慧重新激活功能",
+              "subtitle": "了解客戶行為和偏好的 AI 驅動行銷活動",
+              "personalizedOutreach": {
+                "title": "個人化觸達",
+                "description": "根據每位客戶的歷史記錄和偏好量身定制的 AI 驅動對話。",
+                "benefits": {
+                  "customMessaging": "自訂訊息",
+                  "historicalContext": "歷史背景",
+                  "behavioralInsights": "行為洞察"
+                }
+              },
+              "winBackCampaigns": {
+                "title": "挽回行銷活動",
+                "description": "旨在通過引人注目的優惠重新吸引非活躍客戶的策略性行銷活動。",
+                "benefits": {
+                  "specialPromotions": "特別促銷",
+                  "loyaltyRewards": "忠誠度獎勵",
+                  "exclusiveAccess": "獨家權限"
+                }
+              },
+              "performanceAnalytics": {
+                "title": "績效分析",
+                "description": "追蹤重新激活成功率並優化行銷活動以獲得更好的結果。",
+                "benefits": {
+                  "conversionTracking": "轉換追蹤",
+                  "abTesting": "A/B 測試",
+                  "roiAnalysis": "ROI 分析"
+                }
+              }
+            },
+            "process": {
+              "title": "重新激活流程",
+              "subtitle": "贏回有價值客戶的策略方法",
+              "steps": {
+                "customerSegmentation": {
+                  "title": "客戶分群",
+                  "description": "根據歷史記錄和價值識別並分類非活躍客戶",
+                  "outcome": "目標化方法：回應率高 3 倍"
+                },
+                "personalizedOutreach": {
+                  "title": "個人化觸達",
+                  "description": "AI 根據客戶偏好和歷史記錄製作個人化訊息",
+                  "outcome": "參與率：45% vs 12% 一般化"
+                },
+                "offerPresentation": {
+                  "title": "優惠展示",
+                  "description": "根據客戶價值和興趣量身定制引人注目的挽回優惠",
+                  "outcome": "轉換率：25% 個人化優惠"
+                },
+                "followUpNurturing": {
+                  "title": "追蹤與培養",
+                  "description": "自動化後續序列，培養有興趣的客戶回到活躍狀態",
+                  "outcome": "留存率：重新激活客戶的 80%"
+                }
+              }
+            },
+            "campaigns": {
+              "title": "重新激活行銷活動類型",
+              "subtitle": "重新吸引不同客戶群體的多種策略",
+              "winBackOffers": {
+                "title": "挽回優惠",
+                "description": "特別折扣和促銷活動來吸引客戶回歸",
+                "tactics": {
+                  "exclusiveDiscounts": "獨家折扣",
+                  "limitedTimeOffers": "限時優惠",
+                  "freeTrials": "免費試用"
+                }
+              },
+              "feedbackCollection": {
+                "title": "回饋收集",
+                "description": "了解客戶離開的原因並解決他們的顧慮",
+                "tactics": {
+                  "exitSurveys": "離開調查",
+                  "concernResolution": "顧慮解決",
+                  "serviceImprovements": "服務改善"
+                }
+              },
+              "productUpdates": {
+                "title": "產品更新",
+                "description": "通知客戶新功能或改進",
+                "tactics": {
+                  "featureAnnouncements": "功能公告",
+                  "benefitExplanations": "好處說明",
+                  "demoInvitations": "示範邀請"
+                }
+              },
+              "loyaltyRewards": {
+                "title": "忠誠度獎勵",
+                "description": "認可過往忠誠度並提供特別待遇",
+                "tactics": {
+                  "vipStatus": "VIP 地位",
+                  "loyaltyPoints": "忠誠度積分",
+                  "exclusiveAccess": "獨家權限"
+                }
+              }
+            },
+            "results": {
+              "title": "重新激活成果",
+              "subtitle": "贏回有價值客戶的證實成功",
+              "reactivationRate": {
+                "metric": "35%",
+                "description": "客戶重新激活率"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "相較傳統方法的成本降低"
+              },
+              "responseRate": {
+                "metric": "3 倍",
+                "description": "比一般行銷活動更高的回應率"
+              },
+              "retentionRate": {
+                "metric": "80%",
+                "description": "重新激活客戶的留存率"
+              }
+            },
+            "cta": {
+              "title": "準備重新贏回您的客戶了嗎？",
+              "subtitle": "開始進行個人化的重新激活活動，重建有價值的客戶關係",
+              "startCampaign": "開始活動",
+              "viewCaseStudies": "查看案例研究"
+            },
+            "seo": {
+              "title": "客戶重新激活活動 - SeaVoice AI",
+              "description": "透過個人化的 AI 驅動推廣活動重新贏回不活躍的客戶。重新接觸過去的客戶，提供有吸引力的優惠，重建有價值的關係，帶來經常性收入。",
+              "keywords": "客戶重新激活, 贏回活動, AI推廣, 個人化行銷, 客戶保留, SeaVoice"
+            }
+          },
+          "fraudAlerts": {
+            "hero": {
+              "title": "詐騙警報系統",
+              "description": "透過即時詐騙警報保護您的客戶。我們的 AI 驅動系統可以檢測可疑活動並自動聯繫客戶以驗證交易。"
+            },
+            "features": {
+              "title": "先進詐騙檢測",
+              "subtitle": "即時監控和智能警報以保護您的客戶",
+              "realTimeDetection": {
+                "title": "即時檢測",
+                "description": "全天候監控交易，使用先進 AI 算法即時檢測可疑模式。"
+              },
+              "instantAlerts": {
+                "title": "即時警報",
+                "description": "在檢測到可疑活動後數分鐘內自動致電客戶以驗證交易。"
+              },
+              "detailedAnalytics": {
+                "title": "詳細分析",
+                "description": "透過綜合報告追蹤詐騙預防指標和客戶回應率。"
+              }
+            },
+            "howItWorks": {
+              "title": "詐騙警報運作方式",
+              "step1": {
+                "title": "詐騙檢測",
+                "description": "系統識別可疑交易模式"
+              },
+              "step2": {
+                "title": "立即警報",
+                "description": "AI 代理在 2 分鐘內致電客戶"
+              },
+              "step3": {
+                "title": "驗證",
+                "description": "客戶確認或拒絕該交易"
+              },
+              "step4": {
+                "title": "採取行動",
+                "description": "交易獲得批准或啟動安全措施"
+              },
+              "sampleCall": {
+                "title": "範例警報通話",
+                "message": "您好，這是來自 [銀行名稱] 的安全警報。我們偵測到您帳戶上的異常活動。剛才在 Amazon 嘗試了一筆 500 美元的交易。您授權此次購買了嗎？請按 1 確認或按 2 表示這不是您的操作。"
+              }
+            },
+            "benefits": {
+              "title": "主要優勢",
+              "fraudPrevention": {
+                "title": "詐騙預防",
+                "description": "減少高達 85% 的詐騙交易"
+              },
+              "instantResponse": {
+                "title": "即時回應",
+                "description": "在檢測後 2 分鐘內警報客戶"
+              },
+              "customerTrust": {
+                "title": "客戶信任",
+                "description": "透過主動保護建立信心"
+              },
+              "smartAnalytics": {
+                "title": "智能分析",
+                "description": "關於詐騙模式和趨勢的詳細見解"
+              }
+            },
+            "useCases": {
+              "title": "常見使用案例",
+              "banking": {
+                "title": "銀行與金融服務",
+                "item1": "信用卡詐騙檢測",
+                "item2": "異常消費模式警報",
+                "item3": "帳戶接管預防",
+                "item4": "大額交易驗證"
+              },
+              "ecommerce": {
+                "title": "電子商務與零售",
+                "item1": "可疑購買模式",
+                "item2": "高價值訂單驗證",
+                "item3": "身份盜竊保護",
+                "item4": "付款方式變更"
+              }
+            },
+            "cta": {
+              "title": "立即保護您的客戶",
+              "description": "實施先進詐騙檢測和自動化客戶警報，以減少損失並建立信任。",
+              "button": "開始使用詐騙警報"
+            },
+            "title": "詐騙警報",
+            "description": "立即提醒客戶可疑的帳戶活動。",
+            "benefit1": "即時警報",
+            "benefit2": "帳戶保護",
+            "benefit3": "詐騙預防"
+          },
+          "largeScaleCampaigns": {
+            "hero": {
+              "title": "大規模外撥活動",
+              "description": "執行大規模語音活動，同時觸達數千名客戶。從產品發布到緊急通知，以AI驅動的效率提供前所未有規模的個人化訊息。",
+              "cta": "啟動大規模外撥活動"
+            },
+            "features": {
+              "title": "企業級活動功能",
+              "subtitle": "管理和執行大規模語音活動的強大工具",
+              "massCommunication": {
+                "title": "大量通訊",
+                "description": "同時向數千名客戶發送個人化語音訊息。",
+                "benefit1": "無限並發通話",
+                "benefit2": "個人化訊息",
+                "benefit3": "全球覆蓋"
+              },
+              "audienceSegmentation": {
+                "title": "受眾分群",
+                "description": "針對特定客戶群體投放客製化訊息和時機。",
+                "benefit1": "人口統計定向",
+                "benefit2": "行為分群",
+                "benefit3": "自訂受眾"
+              },
+              "realTimeAnalytics": {
+                "title": "即時分析",
+                "description": "監控活動表現並即時優化以獲得更好的結果。",
+                "benefit1": "即時儀表板",
+                "benefit2": "績效指標",
+                "benefit3": "A/B 測試"
+              }
+            },
+            "campaignTypes": {
+              "title": "活動類型與應用",
+              "subtitle": "針對不同企業溝通需求的多元解決方案",
+              "productAnnouncements": {
+                "type": "產品公告",
+                "description": "透過廣泛的認知活動發布新產品或服務",
+                "example1": "新功能發布",
+                "example2": "產品上市",
+                "example3": "服務更新",
+                "metric1": "觸達：超過10萬客戶",
+                "metric2": "認知度：提升85%",
+                "metric3": "互動：45% 回應率"
+              },
+              "emergencyNotifications": {
+                "type": "緊急通知",
+                "description": "在緊急情況下快速傳播關鍵資訊",
+                "example1": "服務中斷",
+                "example2": "安全警報",
+                "example3": "政策變更",
+                "metric1": "速度：每分鐘1000通通話",
+                "metric2": "傳送：99% 成功率",
+                "metric3": "回應：低於5分鐘"
+              },
+              "marketingCampaigns": {
+                "type": "行銷活動",
+                "description": "執行大規模促銷和行銷倡議",
+                "example1": "季節性促銷",
+                "example2": "品牌活動",
+                "example3": "活動邀請",
+                "metric1": "轉換率：平均12%",
+                "metric2": "投資回報率：典型300%",
+                "metric3": "觸達：無限規模"
+              },
+              "surveyResearch": {
+                "type": "調查研究",
+                "description": "大規模進行市場研究和收集客戶反饋",
+                "example1": "市場研究",
+                "example2": "客戶滿意度",
+                "example3": "產品反饋",
+                "metric1": "回應率：35%",
+                "metric2": "完成率：80%",
+                "metric3": "洞察：即時"
+              },
+              "commonExamples": "常見範例：",
+              "performanceMetrics": "績效指標："
+            },
+            "scaling": {
+              "title": "無限規模與觸達",
+              "description": "我們的平台專為處理任何規模的活動而設計，從數千到數百萬通話。透過全球電信商合作關係和先進基礎設施，我們確保在大規模下的可靠傳送。",
+              "globalInfrastructure": {
+                "title": "全球基礎設施",
+                "description": "全球電信商網絡提供最大觸達"
+              },
+              "highSpeedExecution": {
+                "title": "高速執行",
+                "description": "每分鐘1000+並發通話"
+              },
+              "realTimeMonitoring": {
+                "title": "即時監控",
+                "description": "即時活動績效追蹤"
+              },
+              "capabilities": {
+                "title": "擴展能力",
+                "capability1": "無限並發通話",
+                "capability2": "全球電信商網絡",
+                "capability3": "多語言支援",
+                "capability4": "時區優化",
+                "capability5": "法規合規",
+                "capability6": "即時監控"
+              },
+              "dashboard": {
+                "title": "活動儀表板",
+                "activeCalls": "活躍通話：",
+                "completionRate": "完成率：",
+                "responseRate": "回應率："
+              }
+            },
+            "benefits": {
+              "title": "活動績效成果",
+              "subtitle": "企業規模下的卓越效果",
+              "metric1": {
+                "value": "10,000+",
+                "description": "支援並發通話"
+              },
+              "metric2": {
+                "value": "99.9%",
+                "description": "訊息傳送成功率"
+              },
+              "metric3": {
+                "value": "75%",
+                "description": "相對傳統方法成本降低"
+              },
+              "metric4": {
+                "value": "24/7",
+                "description": "活動執行能力"
+              }
+            },
+            "cta": {
+              "title": "準備好擴展您的溝通了嗎？",
+              "description": "啟動大規模語音活動，向數千名客戶發送個人化訊息",
+              "primaryButton": "規劃您的活動",
+              "secondaryButton": "查看案例研究"
+            }
+          },
+          "hero": {
+            "title": "催收服務自動化",
+            "description": "透過 AI 語音通話簡化您的債務催收流程，在改善催收率的同時維持客戶關係。完全符合 FDCPA 和 TCPA 法規。",
+            "cta": "提升催收率"
+          },
+          "features": {
+            "title": "智能催收功能",
+            "subtitle": "專業、合規且有效的債務催收自動化",
+            "paymentReminders": {
+              "title": "自動付款提醒",
+              "description": "溫和且專業的提醒，在鼓勵付款的同時維持客戶關係。",
+              "benefit1": "可自訂訊息",
+              "benefit2": "多次聯繫嘗試",
+              "benefit3": "付款計劃選項"
+            },
+            "compliance": {
+              "title": "合規與法規",
+              "description": "內建 FDCPA、TCPA 和其他債務催收法規的合規功能。",
+              "benefit1": "法規合規",
+              "benefit2": "通話記錄",
+              "benefit3": "稽核軌跡"
+            },
+            "optimalTiming": {
+              "title": "最佳時機",
+              "description": "AI 決定聯繫客戶的最佳時間，以獲得最大響應率。",
+              "benefit1": "時區感知",
+              "benefit2": "行為模式",
+              "benefit3": "響應優化"
+            }
+          },
+          "collectionProcess": {
+            "title": "漸進式催收策略",
+            "subtitle": "遞增的方法，在保持關係的同時最大化催收效果",
+            "earlyReminder": {
+              "stage": "初期提醒",
+              "description": "針對近期逾期帳戶的友善付款提醒",
+              "approach": "溫和且有幫助的語調，提供付款選項",
+              "success": "65% 付款率"
+            },
+            "followUp": {
+              "stage": "後續追蹤",
+              "description": "針對持續逾期帳戶的更直接溝通",
+              "approach": "明確後果，提供付款計劃",
+              "success": "45% 付款率"
+            },
+            "finalNotice": {
+              "stage": "最終通知",
+              "description": "移交人工催收前的最後嘗試",
+              "approach": "緊急語調，最終付款期限",
+              "success": "30% 付款率"
+            },
+            "humanHandoff": {
+              "stage": "人工移交",
+              "description": "複雜案例連同完整背景移交給人工催收人員",
+              "approach": "詳細的帳戶歷史和先前互動紀錄",
+              "success": "25% 解決率"
+            }
+          },
+          "benefits": {
+            "title": "經證實的催收成果",
+            "subtitle": "查看 AI 驅動催收對您回收率的影響",
+            "collectionRates": {
+              "metric": "40%",
+              "description": "催收率提升"
+            },
+            "costReduction": {
+              "metric": "60%",
+              "description": "催收成本降低"
+            },
+            "paymentProcessing": {
+              "metric": "80%",
+              "description": "付款處理速度提升"
+            },
+            "complianceRate": {
+              "metric": "95%",
+              "description": "法規合規率"
+            }
+          },
+          "complianceSection": {
+            "title": "內建合規功能",
+            "description": "我們的催收平台以合規為核心設計，確保所有互動符合聯邦和州法規，同時維持專業標準。",
+            "features": {
+              "fdcpaCompliance": "FDCPA 合規",
+              "tcpaCompliance": "TCPA 合規",
+              "stateRegulation": "州法規遵循",
+              "callRecording": "通話記錄與監控",
+              "disputeHandling": "爭議處理",
+              "ceaseDesist": "停止催收管理"
+            },
+            "subFeatures": {
+              "regulatoryCompliance": {
+                "title": "法規合規",
+                "description": "FDCPA、TCPA 和州特定法規"
+              },
+              "auditTrail": {
+                "title": "完整稽核軌跡",
+                "description": "所有互動和結果的詳細記錄"
+              },
+              "timingControls": {
+                "title": "時間控制",
+                "description": "自動遵守通話時間限制"
+              }
+            },
+            "featuresTitle": "合規功能"
+          },
+          "cta": {
+            "title": "準備好提升您的催收率了嗎？",
+            "subtitle": "開始使用合規且專業的 AI 驅動催收來回收更多債務",
+            "startFreeTrial": "開始免費試用",
+            "scheduleDemo": "預約演示"
+          },
+          "leadGeneration": {
+            "hero": {
+              "title": "潛在客戶開發與審核",
+              "subtitle": "透過 AI 驅動的潛在客戶開發轉型您的銷售管道，自動識別、審核和培養潛在客戶，只將最高品質的潛在客戶交付給您的銷售團隊。",
+              "cta": "提升您的潛在客戶開發"
+            },
+            "features": {
+              "title": "智能潛在客戶開發功能",
+              "subtitle": "先進的 AI 技術，精準識別和審核潛在客戶",
+              "intelligentQualification": {
+                "title": "智能潛在客戶審核",
+                "description": "AI 驅動的對話，識別高品質潛在客戶並收集重要資訊。",
+                "benefits": {
+                  "automatedScoring": "自動評分",
+                  "intentDetection": "意圖檢測",
+                  "demographicProfiling": "人口統計輪廓"
+                }
+              },
+              "personalizedOutreach": {
+                "title": "個人化觸達",
+                "description": "根據每個潛在客戶的個人檔案和興趣量身定制的動態對話。",
+                "benefits": {
+                  "customMessaging": "客製化訊息",
+                  "behavioralTriggers": "行為觸發器",
+                  "contextualResponses": "情境式回應"
+                }
+              },
+              "realTimeAnalytics": {
+                "title": "即時分析",
+                "description": "透過全面的報告追蹤活動表現和潛在客戶品質。",
+                "benefits": {
+                  "conversionTracking": "轉換追蹤",
+                  "qualityMetrics": "品質指標",
+                  "roiAnalysis": "ROI 分析"
+                }
+              }
+            },
+            "process": {
+              "title": "潛在客戶審核流程",
+              "subtitle": "從初次接觸到合格轉交 - 了解我們的 AI 如何運作",
+              "steps": {
+                "initialContact": {
+                  "title": "初次接觸",
+                  "description": "AI 智能體向潛在客戶進行個人化主動撥號",
+                  "outcome": "參與率：35%"
+                },
+                "needsAssessment": {
+                  "title": "需求評估",
+                  "description": "智能提問以了解潛在客戶需求",
+                  "outcome": "審核率：60%"
+                },
+                "interestScoring": {
+                  "title": "興趣評分",
+                  "description": "AI 根據回應和參與度評估潛在客戶品質",
+                  "outcome": "準確率：85%"
+                },
+                "handoffToSales": {
+                  "title": "轉交給銷售",
+                  "description": "合格潛在客戶連同完整背景資訊轉交給人類銷售團隊",
+                  "outcome": "轉換率：25%"
+                }
+              }
+            },
+            "results": {
+              "title": "經證實的成果",
+              "subtitle": "了解 AI 驅動的潛在客戶開發對您銷售管道的影響",
+              "qualifiedLeads": {
+                "metric": "300%",
+                "description": "合格潛在客戶增加"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "每個潛在客戶成本降低"
+              },
+              "accuracy": {
+                "metric": "85%",
+                "description": "潛在客戶審核準確性"
+              },
+              "conversion": {
+                "metric": "25%",
+                "description": "潛在客戶轉為客戶的轉換率"
+              }
+            },
+            "industries": {
+              "title": "產業成功案例",
+              "subtitle": "了解不同產業如何從 AI 潛在客戶開發中受益",
+              "realEstate": {
+                "name": "房地產",
+                "description": "審核房產買家和賣家，安排看房",
+                "results": {
+                  "moreLeads": "合格潛在客戶增加 40%",
+                  "fasterCycle": "銷售週期縮短 50%"
+                }
+              },
+              "insurance": {
+                "name": "保險",
+                "description": "識別需要保障的潛在客戶，收集風險資訊",
+                "results": {
+                  "increaseSales": "保單銷售增加 35%",
+                  "costReduction": "成本降低 60%"
+                }
+              },
+              "softwareSaas": {
+                "name": "軟體/SaaS",
+                "description": "審核企業潛在客戶，安排產品展示",
+                "results": {
+                  "demoBookings": "展示預約增加 3 倍",
+                  "closeRate": "成交率提高 45%"
+                }
+              }
+            },
+            "cta": {
+              "title": "準備好轉型您的潛在客戶開發了嗎？",
+              "subtitle": "開始使用 AI 驅動的主動撥號產生和審核更多潛在客戶",
+              "startTrial": "開始免費試用",
+              "scheduleDemo": "預約展示"
+            },
+            "title": "潛在客戶開發與資格審查",
+            "description": "主動篩選潛在客戶並為銷售團隊安排後續跟進。",
+            "benefit1": "更高轉換率",
+            "benefit2": "合格潛在客戶",
+            "benefit3": "銷售效率"
+          },
+          "customerSurveys": {
+            "hero": {
+              "title": "客戶調查自動化",
+              "description": "透過自然的語音對話收集寶貴的客戶意見回饋。執行個人化且引人入勝的自動化調查，取得比傳統方法更高的回應率和更詳細的洞察。",
+              "cta": "開始調查活動"
+            },
+            "sections": {
+              "features": {
+                "title": "智慧調查功能",
+                "subtitle": "讓調查感覺像自然對話的進階 AI 技術"
+              },
+              "surveys": {
+                "title": "全方位調查解決方案",
+                "subtitle": "針對不同業務目標和洞察量身打造的調查類型"
+              },
+              "sampleQuestions": "範例問題：",
+              "keyMetrics": "關鍵指標：",
+              "analytics": {
+                "title": "進階分析與洞察",
+                "description": "我們的 AI 不只收集回應，還會分析情感、識別趨勢，並提供可行的洞察，幫助您做出數據驅動的決策來改善業務。"
+              },
+              "analysisFeatures": {
+                "title": "分析功能"
+              },
+              "benefits": {
+                "title": "調查績效成果",
+                "subtitle": "在意見收集和客戶洞察方面的已證實改善"
+              }
+            },
+            "features": {
+              "conversational": {
+                "title": "對話式調查",
+                "description": "自然的語音對話，感覺像是友善的討論而非正式調查。",
+                "benefits": {
+                  "0": "更高回應率",
+                  "1": "自然互動",
+                  "2": "詳細回饋"
+                }
+              },
+              "analytics": {
+                "title": "即時分析",
+                "description": "即時分析和報告調查回應，提供可行的洞察。",
+                "benefits": {
+                  "0": "即時儀表板",
+                  "1": "情感分析",
+                  "2": "趨勢識別"
+                }
+              },
+              "outreach": {
+                "title": "目標拓展",
+                "description": "透過個人化調查體驗接觸特定客戶群體。",
+                "benefits": {
+                  "0": "人口統計定位",
+                  "1": "行為分群",
+                  "2": "自訂時機"
+                }
+              }
+            },
+            "surveyTypes": {
+              "csat": {
+                "title": "客戶滿意度調查 (CSAT)",
+                "description": "衡量對產品、服務或互動的整體滿意度",
+                "questions": {
+                  "0": "您對我們的服務滿意度如何？",
+                  "1": "我們有什麼地方可以改進？",
+                  "2": "您會推薦我們給他人嗎？"
+                },
+                "metrics": {
+                  "0": "CSAT 分數",
+                  "1": "淨推薦值",
+                  "2": "回應率"
+                }
+              },
+              "postPurchase": {
+                "title": "購後回饋",
+                "description": "在購買或服務互動後立即收集洞察",
+                "questions": {
+                  "0": "您的購買體驗如何？",
+                  "1": "產品是否符合期望？",
+                  "2": "有遇到配送問題嗎？"
+                },
+                "metrics": {
+                  "0": "購買滿意度",
+                  "1": "配送評分",
+                  "2": "產品品質"
+                }
+              },
+              "productDev": {
+                "title": "產品開發",
+                "description": "收集新功能、產品或服務改進的意見",
+                "questions": {
+                  "0": "您希望看到什麼功能？",
+                  "1": "您如何使用我們的產品？",
+                  "2": "有什麼問題需要解決？"
+                },
+                "metrics": {
+                  "0": "功能需求",
+                  "1": "使用模式",
+                  "2": "痛點"
+                }
+              },
+              "marketResearch": {
+                "title": "市場調查",
+                "description": "了解市場趨勢、偏好和競爭格局",
+                "questions": {
+                  "0": "您偏好哪些品牌？",
+                  "1": "您如何做購買決策？",
+                  "2": "什麼影響您的選擇？"
+                },
+                "metrics": {
+                  "0": "品牌知名度",
+                  "1": "購買驅動因素",
+                  "2": "市場趨勢"
+                }
+              }
+            },
+            "analytics": {
+              "sentimentAnalysis": {
+                "title": "情感分析",
+                "description": "了解回應背後的情感基調"
+              },
+              "trendIdentification": {
+                "title": "趨勢識別",
+                "description": "及早發現模式和新興問題"
+              },
+              "actionableReports": {
+                "title": "可行報告",
+                "description": "獲得具體的改進建議"
+              }
+            },
+            "analysisFeatures": {
+              "0": "即時情感分析",
+              "1": "自動回應分類",
+              "2": "趨勢識別和警報",
+              "3": "自訂報告儀表板",
+              "4": "與 CRM 系統整合",
+              "5": "可行洞察生成"
+            },
+            "dashboard": {
+              "title": "即時調查儀表板",
+              "responsesToday": "今日回應：",
+              "completionRate": "完成率：",
+              "avgSatisfaction": "平均滿意度：",
+              "sentiment": "情感：",
+              "responsesTodayValue": "1,847",
+              "completionRateValue": "85.3%",
+              "avgSatisfactionValue": "4.2/5",
+              "sentimentValue": "78% 正面"
+            },
+            "benefits": {
+              "0": {
+                "metric": "3倍",
+                "description": "比傳統調查更高的回應率"
+              },
+              "1": {
+                "metric": "85%",
+                "description": "調查完成率"
+              },
+              "2": {
+                "metric": "60%",
+                "description": "收集到更詳細的回饋"
+              },
+              "3": {
+                "metric": "24/7",
+                "description": "自動調查部署"
+              }
+            },
+            "cta": {
+              "title": "準備好收集更好的客戶洞察了嗎？",
+              "subtitle": "開始透過客戶真正願意完成的對話式調查收集寶貴意見",
+              "primaryBtn": "啟動調查活動",
+              "secondaryBtn": "查看調查範例"
+            }
+          },
+          "proactiveSupport": {
+            "hero": {
+              "title": "主動客戶支援",
+              "description": "透過智能主動通知來領先處理客戶問題。在客戶需要致電之前，自動通知他們服務更新、帳戶變更和重要資訊。",
+              "cta": "啟用主動支援"
+            },
+            "features": {
+              "title": "智能主動功能",
+              "subtitle": "預測客戶需求並預防問題的先進自動化技術",
+              "proactiveNotifications": {
+                "title": "主動通知",
+                "description": "在重要更新、變更或問題成為問題之前，自動通知客戶。",
+                "benefit1": "服務警報",
+                "benefit2": "帳戶更新",
+                "benefit3": "預防性通知"
+              },
+              "issuePrevention": {
+                "title": "問題預防",
+                "description": "及早識別潛在問題並主動聯繫客戶提供解決方案。",
+                "benefit1": "早期檢測",
+                "benefit2": "預防措施",
+                "benefit3": "問題解決"
+              },
+              "timelyCommunication": {
+                "title": "及時溝通",
+                "description": "在正確的時間提供重要資訊，以最大化客戶滿意度。",
+                "benefit1": "最佳時機",
+                "benefit2": "緊急度感知",
+                "benefit3": "排程交付"
+              }
+            },
+            "notificationTypes": {
+              "title": "全面的通知類型",
+              "subtitle": "透過智能自動化涵蓋客戶溝通的各個方面",
+              "serviceOutages": {
+                "type": "服務中斷",
+                "description": "通知客戶計劃維護或意外服務中斷",
+                "example1": "計劃維護時段",
+                "example2": "意外中斷",
+                "example3": "服務恢復更新",
+                "urgency": "高",
+                "timing": "立即"
+              },
+              "accountChanges": {
+                "type": "帳戶變更",
+                "description": "通知客戶其帳戶或服務的重要變更",
+                "example1": "政策更新",
+                "example2": "費率變更",
+                "example3": "功能修改",
+                "urgency": "中等",
+                "timing": "提前通知"
+              },
+              "securityAlerts": {
+                "type": "安全警報",
+                "description": "提醒客戶潛在的安全問題或可疑活動",
+                "example1": "登錄嘗試",
+                "example2": "密碼變更",
+                "example3": "帳戶存取",
+                "urgency": "高",
+                "timing": "即時"
+              },
+              "productUpdates": {
+                "type": "產品更新",
+                "description": "分享新功能、改進或變更的資訊",
+                "example1": "新功能",
+                "example2": "應用程式更新",
+                "example3": "服務增強",
+                "urgency": "低",
+                "timing": "排程"
+              },
+              "billingNotifications": {
+                "type": "帳單通知",
+                "description": "關於帳單、付款和帳戶狀態的主動溝通",
+                "example1": "付款到期日",
+                "example2": "付款失敗",
+                "example3": "信用額度更新",
+                "urgency": "中等",
+                "timing": "提前通知"
+              },
+              "deliveryUpdates": {
+                "type": "配送更新",
+                "description": "讓客戶了解貨運和配送狀態變更",
+                "example1": "配送延遲",
+                "example2": "配送確認",
+                "example3": "地址問題",
+                "urgency": "中等",
+                "timing": "即時"
+              }
+            },
+            "urgency": {
+              "high": "高",
+              "medium": "中等",
+              "low": "低"
+            },
+            "labels": {
+              "examples": "範例",
+              "timing": "時機"
+            },
+            "automationSection": {
+              "title": "先進自動化引擎",
+              "description": "我們的智能自動化系統持續監控您的服務和客戶帳戶，根據預定義規則和客戶偏好自動觸發適當的通知。",
+              "subFeatures": {
+                "realTimeMonitoring": {
+                  "title": "即時監控",
+                  "description": "持續的系統和帳戶監控"
+                },
+                "smartPrioritization": {
+                  "title": "智能優先排序",
+                  "description": "智能警報排序和交付"
+                },
+                "customerPreferences": {
+                  "title": "客戶偏好",
+                  "description": "尊重個別溝通偏好"
+                }
+              },
+              "featuresTitle": "自動化功能",
+              "features": {
+                "realTimeMonitoring": "即時系統監控",
+                "intelligentPrioritization": "智能警報優先排序",
+                "preferenceManagement": "客戶偏好管理",
+                "multiChannelDelivery": "多通道交付選項",
+                "escalationProtocols": "升級協議",
+                "performanceAnalytics": "效能分析"
+              },
+              "liveMonitoring": {
+                "title": "即時監控",
+                "activeMonitors": "活動監控器：",
+                "activeMonitorsValue": "1,247",
+                "notificationsSent": "已發送通知：",
+                "notificationsSentValue": "3,892",
+                "issuesPrevented": "預防的問題：",
+                "issuesPreventedValue": "156"
+              }
+            },
+            "benefits": {
+              "title": "主動支援影響",
+              "subtitle": "客戶滿意度和支援效率的可衡量改善",
+              "reactiveCalls": {
+                "metric": "70%",
+                "description": "被動支援通話的減少"
+              },
+              "customerSatisfaction": {
+                "metric": "85%",
+                "description": "客戶對主動更新的滿意度"
+              },
+              "customerChurn": {
+                "metric": "50%",
+                "description": "客戶流失的減少"
+              },
+              "automatedMonitoring": {
+                "metric": "24/7",
+                "description": "自動監控和警報"
+              }
+            },
+            "cta": {
+              "title": "準備好領先處理客戶問題了嗎？",
+              "subtitle": "透過智能主動通知和問題預防來轉變您的客戶支援",
+              "startProactiveSupport": "開始主動支援",
+              "seeDemo": "觀看演示"
+            },
+            "title": "主動支援",
+            "description": "通知客戶服務更新和重要資訊。",
+            "benefit1": "主動溝通",
+            "benefit2": "問題預防",
+            "benefit3": "客戶滿意度"
+          },
+          "seniorCheckCalls": {
+            "hero": {
+              "title": "長者關懷通話與健康監護",
+              "description": "透過定期的 AI 驅動長者健康檢查為家庭提供安心。富有同情心的對話監控健康狀況，檢測緊急情況，並確保安全，同時維護尊嚴和獨立性。",
+              "button": "開始健康監護"
+            },
+            "features": {
+              "title": "關懷長者護理",
+              "subtitle": "專為長者健康和安全設計的 AI 技術",
+              "wellnessMonitoring": {
+                "title": "健康監護",
+                "description": "透過富有同情心的 AI 對話定期檢查監控長者健康和福祉。",
+                "benefit1": "每日/每週時程",
+                "benefit2": "健康狀態追蹤",
+                "benefit3": "服藥提醒"
+              },
+              "emergencyDetection": {
+                "title": "緊急情況偵測",
+                "description": "先進的 AI 識別危險信號和緊急情況以進行即時回應。",
+                "benefit1": "危機識別",
+                "benefit2": "緊急聯絡人",
+                "benefit3": "第一響應者警報"
+              },
+              "flexibleScheduling": {
+                "title": "彈性排程",
+                "description": "可自訂的通話時程，適應個人偏好和需求。",
+                "benefit1": "個人化時間",
+                "benefit2": "假期調整",
+                "benefit3": "家庭協調"
+              }
+            },
+            "checkTypes": {
+              "title": "全面關懷服務",
+              "subtitle": "針對個人需求量身定制的彈性健康監護",
+              "dailyWellness": {
+                "type": "每日健康檢查",
+                "description": "簡短的每日通話確保長者安全和健康",
+                "frequency": "每日於偏好時間",
+                "duration": "3-5 分鐘",
+                "focus1": "一般健康狀況",
+                "focus2": "服藥順從性",
+                "focus3": "安全確認"
+              },
+              "weeklyHealth": {
+                "type": "每週健康評估",
+                "description": "全面的每週健康和需求評估",
+                "frequency": "每週於選定日期",
+                "duration": "10-15 分鐘",
+                "focus1": "健康變化",
+                "focus2": "預約提醒",
+                "focus3": "家庭更新"
+              },
+              "emergencyResponse": {
+                "type": "緊急回應",
+                "description": "對未接來電或危險信號的即時回應",
+                "frequency": "按需求",
+                "duration": "可變",
+                "focus1": "福利驗證",
+                "focus2": "緊急服務",
+                "focus3": "家庭通知"
+              },
+              "socialConnection": {
+                "type": "社交連結",
+                "description": "友善對話減少孤立和孤獨感",
+                "frequency": "雙週或每月",
+                "duration": "15-20 分鐘",
+                "focus1": "陪伴",
+                "focus2": "心理健康",
+                "focus3": "活動建議"
+              },
+              "labels": {
+                "frequency": "頻率",
+                "duration": "持續時間",
+                "focusAreas": "重點領域："
+              }
+            },
+            "safetyProtocols": {
+              "title": "先進安全協議",
+              "description": "我們的長者關懷通話系統包括全面的安全措施，旨在檢測緊急情況、與家庭成員協調，並確保需要時快速回應。",
+              "emergencyResponse": {
+                "title": "緊急回應",
+                "description": "對未接來電或危險信號的即時升級"
+              },
+              "familyCoordination": {
+                "title": "家庭協調",
+                "description": "自動通知家庭和照護者"
+              },
+              "healthcareIntegration": {
+                "title": "醫療保健整合",
+                "description": "與醫療保健提供者和服務的協調"
+              },
+              "featuresTitle": "安全功能",
+              "protocols": {
+                "missedCallEscalation": "未接來電升級程序",
+                "emergencyKeyword": "緊急關鍵字識別",
+                "familyNotifications": "家庭和照護者通知",
+                "healthcareProvider": "醫療保健提供者整合",
+                "emergencyServices": "當地緊急服務協調",
+                "medicalAlert": "醫療警報系統相容性"
+              }
+            },
+            "benefits": {
+              "title": "健康監護影響",
+              "subtitle": "在長者安全和家庭安心方面的可測量改善",
+              "seniorSatisfaction": {
+                "metric": "95%",
+                "description": "長者對 AI 陪伴的滿意度"
+              },
+              "emergencyReduction": {
+                "metric": "40%",
+                "description": "緊急事件減少"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "緊急回應可用性"
+              },
+              "familyPeace": {
+                "metric": "85%",
+                "description": "家庭安心改善"
+              }
+            },
+            "cta": {
+              "title": "準備確保長者安全嗎？",
+              "description": "為您的摯愛提供富有同情心的 AI 健康監護安心",
+              "startButton": "開始監護",
+              "learnButton": "了解更多"
+            }
+          },
+          "subscriptionRenewals": {
+            "hero": {
+              "title": "訂閱續約自動化",
+              "description": "透過智能AI驅動的活動最大化訂閱續約，在合適的時間以個人化訊息與客戶互動，無縫處理付款，並通過主動的保留策略降低客戶流失。",
+              "cta": "自動化續約"
+            },
+            "features": {
+              "title": "智能續約管理",
+              "subtitle": "全面自動化，最大化續約率並降低客戶流失",
+              "automatedRenewalReminders": {
+                "title": "自動化續約提醒",
+                "description": "在最佳時機發送智能提醒，最大化續約率並降低客戶流失。",
+                "benefit1": "個人化時間安排",
+                "benefit2": "多重接觸點",
+                "benefit3": "續約優化"
+              },
+              "paymentProcessing": {
+                "title": "付款處理",
+                "description": "透過電話無縫收取和處理訂閱續約付款。",
+                "benefit1": "安全交易",
+                "benefit2": "多種付款方式",
+                "benefit3": "失敗付款恢復"
+              },
+              "customerRetention": {
+                "title": "客戶保留",
+                "description": "主動互動以解決疑慮並保留有價值的訂閱者。",
+                "benefit1": "流失預防",
+                "benefit2": "價值強化",
+                "benefit3": "忠誠度建立"
+              }
+            },
+            "renewalProcess": {
+              "title": "策略續約時間表",
+              "subtitle": "優化接觸點順序以最大化續約成功率",
+              "step1": {
+                "title": "早期通知",
+                "description": "在續約日期前30天發送初始提醒",
+                "timing": "30天前",
+                "action": "意識和準備"
+              },
+              "step2": {
+                "title": "價值強化",
+                "description": "強調訂閱好處和使用統計數據",
+                "timing": "14天前",
+                "action": "價值展示"
+              },
+              "step3": {
+                "title": "續約確認",
+                "description": "直接續約請求並進行付款處理",
+                "timing": "7天前",
+                "action": "續約處理"
+              },
+              "step4": {
+                "title": "最後機會優惠",
+                "description": "最終提醒並提供特殊保留優惠",
+                "timing": "1天前",
+                "action": "保留嘗試"
+              }
+            },
+            "subscriptionTypes": {
+              "title": "行業專屬策略",
+              "subtitle": "針對不同訂閱模式的客製化續約方法",
+              "saas": {
+                "type": "軟體即服務 (SaaS)",
+                "description": "月度和年度軟體訂閱續約",
+                "strategy1": "功能使用報告",
+                "strategy2": "投資回報率展示",
+                "strategy3": "升級機會"
+              },
+              "mediaEntertainment": {
+                "type": "媒體娛樂",
+                "description": "串流服務和數位內容訂閱",
+                "strategy1": "內容推薦",
+                "strategy2": "觀看統計",
+                "strategy3": "獨家優惠"
+              },
+              "professionalServices": {
+                "type": "專業服務",
+                "description": "諮詢、教練和專業服務續約",
+                "strategy1": "成功指標",
+                "strategy2": "關係建立",
+                "strategy3": "服務擴展"
+              },
+              "ecommerce": {
+                "type": "電商訂閱",
+                "description": "產品配送和會員續約",
+                "strategy1": "配送便利性",
+                "strategy2": "成本節省",
+                "strategy3": "產品多樣性"
+              },
+              "renewalStrategies": "續約策略："
+            },
+            "retention": {
+              "title": "進階保留策略",
+              "description": "我們的AI分析客戶行為、使用模式和參與程度，為每位訂閱者確定最有效的保留方法，最大化續約率和客戶生命週期價值。",
+              "optimalTiming": {
+                "title": "最佳時機",
+                "description": "AI為每位客戶確定最佳聯繫時間"
+              },
+              "usageAnalytics": {
+                "title": "使用分析",
+                "description": "運用客戶數據進行個人化方法"
+              },
+              "segmentedCampaigns": {
+                "title": "分群活動",
+                "description": "針對不同客戶群體的客製化訊息"
+              },
+              "tactics": {
+                "title": "保留策略",
+                "tactic1": "個人化續約優惠",
+                "tactic2": "使用分析和洞察",
+                "tactic3": "忠誠獎勵和折扣",
+                "tactic4": "服務升級選項",
+                "tactic5": "付款計劃彈性",
+                "tactic6": "贏回活動"
+              },
+              "dashboard": {
+                "title": "續約儀表板",
+                "renewalsThisMonth": "本月續約：",
+                "renewalRate": "續約率：",
+                "revenueRetained": "保留收益："
+              }
+            },
+            "benefits": {
+              "title": "續約績效成果",
+              "subtitle": "對訂閱業務指標的卓越影響",
+              "metric1": {
+                "value": "85%",
+                "description": "訂閱續約率"
+              },
+              "metric2": {
+                "value": "40%",
+                "description": "非自願流失減少"
+              },
+              "metric3": {
+                "value": "60%",
+                "description": "付款失敗減少"
+              },
+              "metric4": {
+                "value": "25%",
+                "description": "客戶生命週期價值增加"
+              }
+            },
+            "cta": {
+              "title": "準備好最大化訂閱續約了嗎？",
+              "description": "透過智能AI驅動的活動自動化您的續約流程並降低客戶流失",
+              "primaryButton": "啟動續約自動化",
+              "secondaryButton": "計算投資回報率"
+            }
+          },
+          "header": "去電解決方案",
+          "description": "透過自動化去電通話活動主動吸引客戶",
+          "collections": {
+            "title": "催收服務",
+            "description": "自動化付款提醒和催收流程。",
+            "benefit1": "更快催收",
+            "benefit2": "付款安排",
+            "benefit3": "合規性"
+          },
+          "reactivation": {
+            "title": "客戶重新激活",
+            "description": "透過個人化觸達重新吸引不活躍客戶。",
+            "benefit1": "挽回活動",
+            "benefit2": "個人化優惠",
+            "benefit3": "客戶保留"
+          },
+          "seniorChecks": {
+            "title": "長者關懷電話",
+            "description": "定期或按需為長者提供健康關懷檢查。",
+            "benefit1": "健康監測",
+            "benefit2": "緊急升級處理",
+            "benefit3": "安心保障"
+          },
+          "campaigns": {
+            "title": "大型活動",
+            "description": "執行大容量行銷和資訊活動。",
+            "benefit1": "大眾覆蓋",
+            "benefit2": "個人化訊息",
+            "benefit3": "成本效益"
+          },
+          "renewals": {
+            "title": "訂閱續約",
+            "description": "自動化訂閱續約提醒和處理。",
+            "benefit1": "自動續約",
+            "benefit2": "減少流失",
+            "benefit3": "營收保護"
+          },
+          "surveys": {
+            "title": "客戶調查",
+            "description": "進行自動化服務後反饋收集。",
+            "benefit1": "反饋收集",
+            "benefit2": "品質洞察",
+            "benefit3": "改進數據"
+          }
+        },
+        "hero": {
+          "title": "針對每個業務需求的 AI 語音解決方案",
+          "description": "探索全面的來電和去電語音自動化解決方案，旨在改變您的客戶溝通和業務營運。"
+        },
+        "cta": {
+          "title": "準備好轉變您的業務溝通了嗎？",
+          "description": "探索我們的 AI 語音解決方案如何自動化您的客戶互動並推動業務增長",
+          "button": "安排諮詢"
+        },
+        "learnMore": "了解更多"
+      }
+    }
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "textToSpeech": {
+    "hero": {
+      "title": "テキスト読み上げ技術",
+      "subtitle": "当社の高度なニューラルテキスト読み上げ技術で、テキストから人間のような音声を生成します。カスタム音声を作成し、40以上の言語をサポートし、卓越したオーディオ品質を提供します。",
+      "cta": "音声生成を試す"
+    },
+    "demo": {
+      "title": "当社の音声技術を体験してください",
+      "subtitle": "さまざまな音声を試して、ご自身で品質をお確かめください",
+      "chooseVoice": "音声を選択してください：",
+      "textPrompt": "音声に変換するテキストを入力してください：",
+      "defaultText": "こんにちは！私はSeaVoiceテクノロジーを搭載したAI音声アシスタントです。自然で人間のような声で、カスタマーサービス、セールス、サポートをお手伝いできます。",
+      "placeholderText": "AIに話させたいことを入力してください...",
+      "generateSpeech": "音声を生成",
+      "playing": "再生中..."
+    },
+    "voices": {
+      "sarah": {
+        "name": "Sarah",
+        "gender": "女性",
+        "accent": "アメリカ英語",
+        "description": "プロフェッショナル、温かい"
+      },
+      "tom": {
+        "name": "Tom",
+        "gender": "男性",
+        "accent": "アメリカ英語",
+        "description": "フレンドリー、会話的"
+      },
+      "lissa": {
+        "name": "Lissa",
+        "gender": "女性",
+        "accent": "イギリス英語",
+        "description": "エネルギッシュ、親切"
+      },
+      "alex": {
+        "name": "Alex",
+        "gender": "男性",
+        "accent": "オーストラリア英語",
+        "description": "クリア、自信に満ちた"
+      },
+      "maria": {
+        "name": "Maria",
+        "gender": "女性",
+        "accent": "スペイン語",
+        "description": "表現力豊か、自然"
+      },
+      "hiroshi": {
+        "name": "Hiroshi",
+        "gender": "男性",
+        "accent": "日本語",
+        "description": "丁寧、プロフェッショナル"
+      }
+    },
+    "features": {
+      "title": "高度な音声生成",
+      "subtitle": "最先端のニューラルネットワークが人間のような音声品質を提供します",
+      "customVoiceCloning": {
+        "title": "カスタム音声クローニング",
+        "description": "ブランドの個性や話し方に合った独自の音声プロファイルを作成します。",
+        "capabilities": {
+          "voiceCloning": "サンプルからの音声クローニング",
+          "brandVoice": "ブランドボイスの一貫性",
+          "emotionalExpression": "感情表現",
+          "customPronunciations": "カスタム発音"
+        }
+      },
+      "advancedControls": {
+        "title": "高度な制御",
+        "description": "完璧なオーディオ出力のために、音声生成のあらゆる側面を微調整します。",
+        "capabilities": {
+          "speedAdjustment": "速度調整",
+          "pitchControl": "ピッチ制御",
+          "emphasisPlacement": "強調の配置",
+          "pauseInsertion": "間の一時停止"
+        }
+      },
+      "multiLanguageSupport": {
+        "title": "多言語サポート",
+        "description": "ネイティブの発音で40以上の言語で自然な音声を生成します。",
+        "capabilities": {
+          "fortyPlusLanguages": "40以上の言語",
+          "regionalAccents": "地域アクセント",
+          "codeSwitching": "コードスイッチング",
+          "multilingualVoices": "多言語音声"
+        }
+      }
+    },
+    "qualityMetrics": {
+      "title": "卓越した品質指標",
+      "subtitle": "プロフェッショナルな結果をもたらす測定されたパフォーマンス",
+      "naturalness": {
+        "metric": "自然さスコア",
+        "value": "4.8/5",
+        "description": "人間による評価"
+      },
+      "intelligibility": {
+        "metric": "明瞭度",
+        "value": "99.2%",
+        "description": "単語認識精度"
+      },
+      "latency": {
+        "metric": "遅延",
+        "value": "< 200ms",
+        "description": "テキストからオーディオへの生成"
+      },
+      "audioQuality": {
+        "metric": "オーディオ品質",
+        "value": "48kHz",
+        "description": "高忠実度出力"
+      }
+    },
+    "useCases": {
+      "title": "多用途なアプリケーション",
+      "subtitle": "業界やユースケース全体でテキストを音声に変換",
+      "customerService": {
+        "title": "カスタマーサービス",
+        "description": "顧客とのやり取りに一貫性のあるプロフェッショナルな音声応答を提供します。",
+        "benefits": {
+          "availability": "24時間年中無休の可用性",
+          "consistentQuality": "一貫した品質",
+          "multiLanguageSupport": "多言語サポート",
+          "brandVoiceAlignment": "ブランドボイスの調整"
+        }
+      },
+      "contentCreation": {
+        "title": "コンテンツ作成",
+        "description": "ビデオ、ポッドキャスト、マルチメディアコンテンツのナレーションを生成します。",
+        "benefits": {
+          "costEffectiveProduction": "費用対効果の高い制作",
+          "quickTurnaround": "迅速なターンアラウンド",
+          "multipleVoiceOptions": "複数の音声オプション",
+          "easyRevisions": "簡単な修正"
+        }
+      },
+      "accessibility": {
+        "title": "アクセシビリティ",
+        "description": "視覚障害のあるユーザー向けに高品質のテキスト読み上げでコンテンツをアクセス可能にします。",
+        "benefits": {
+          "screenReaderEnhancement": "スクリーンリーダーの強化",
+          "documentNarration": "ドキュメントのナレーション",
+          "webAccessibility": "ウェブアクセシビリティ",
+          "educationalSupport": "教育支援"
+        }
+      },
+      "interactiveApplications": {
+        "title": "インタラクティブアプリケーション",
+        "description": "アプリ、ゲーム、インタラクティブな体験に音声機能を追加します。",
+        "benefits": {
+          "realTimeGeneration": "リアルタイム生成",
+          "dynamicContent": "動的コンテンツ",
+          "userEngagement": "ユーザーエンゲージメント",
+          "immersiveExperiences": "没入型体験"
+        }
+      }
+    },
+    "voiceCloning": {
+      "title": "カスタム音声クローニング",
+      "subtitle": "ブランドの個性に完全に一致する独自の音声プロファイルを作成します。当社の高度な音声クローニング技術は、わずか数分のサンプル音声で話し方、アクセント、感情表現を複製できます。",
+      "brandVoiceConsistency": {
+        "title": "ブランドボイスの一貫性",
+        "description": "すべてのやり取りで一貫したブランドボイスを維持します"
+      },
+      "fineTunedControl": {
+        "title": "微調整された制御",
+        "description": "トーン、ペース、感情表現を調整します"
+      },
+      "highFidelityOutput": {
+        "title": "高忠実度出力",
+        "description": "あらゆるアプリケーション向けのプロ品質のオーディオ"
+      },
+      "process": {
+        "title": "音声クローニングプロセス",
+        "step1": {
+          "title": "オーディオサンプルをアップロード",
+          "description": "5～10分のクリーンなオーディオ録音を提供します"
+        },
+        "step2": {
+          "title": "AIトレーニング",
+          "description": "当社のニューラルネットワークが独自の音声特性を学習します"
+        },
+        "step3": {
+          "title": "音声生成",
+          "description": "カスタム音声で無制限の音声を生成します"
+        }
+      }
+    },
+    "cta": {
+      "title": "ブランドに声を与える準備はできましたか？",
+      "subtitle": "カスタム音声を作成し、あらゆるアプリケーション向けにプロ品質の音声を生成します",
+      "startVoiceCloning": "音声クローニングを開始",
+      "exploreApi": "APIを探る"
+    }
+  },
+  "components": {
+    "aiVoiceAvatar": {
+      "badge": {
+        "label": "インタラクティブAIアバター"
+      },
+      "hero": {
+        "title": {
+          "line1": "あなたの",
+          "line2": "AI音声エージェントに会う"
+        },
+        "subtitle": "AIコミュニケーションの未来を体験してください。当社のアバターは、感情的知性と複数の個性オプションを備えた人間のような会話を実演します。"
+      },
+      "voices": {
+        "professional": {
+          "name": "プロフェッショナルなサラ",
+          "description": "クリアで権威のあるビジネスボイス"
+        },
+        "friendly": {
+          "name": "フレンドリーなマイク",
+          "description": "温かく、親しみやすいカスタマーサービス"
+        },
+        "empathetic": {
+          "name": "思いやりのあるエマ",
+          "description": "思いやりのあるヘルスケアボイス"
+        }
+      },
+      "languages": {
+        "english": "英語",
+        "spanish": "スペイン語",
+        "french": "フランス語",
+        "german": "ドイツ語",
+        "chinese": "中国語"
+      },
+      "demoScripts": {
+        "professional": "こんにちは、私はAIビジネスアシスタントのサラです。顧客からの問い合わせ、予約のスケジューリング、詳細な製品情報の提供を正確かつ明確に行うことができます。",
+        "friendly": "こんにちは！私はマイクです。あなたの体験を素晴らしいものにするためにここにいます。注文のことで助けが必要な場合でも、簡単な質問がある場合でも、喜んでおしゃべりします！",
+        "empathetic": "こんにちは、私はエマです。ヘルスケアに関する質問はストレスになることがあると理解しています。必要なときにいつでも、思いやりのある正確なサポートを提供するためにここにいます。"
+      },
+      "controls": {
+        "voicePersonality": "音声の個性を選択：",
+        "language": "言語：",
+        "demoVoice": "デモ音声",
+        "tryVoiceInput": "音声入力を試す"
+      },
+      "status": {
+        "listening": "聞き取り中...",
+        "speaking": "話しています...",
+        "ready": "準備完了",
+        "label": "ステータス："
+      },
+      "listeningResponse": "聞こえました！ここで、文脈を理解してあなたの音声入力に応答します。",
+      "avatarMoods": {
+        "neutral": "ニュートラル",
+        "speaking": "話している",
+        "listening": "聞いている",
+        "thinking": "考えている"
+      }
+    }
+  },
+  "voiceConversationFlow": {
+    "steps": {
+      "callConnected": {
+        "title": "通話接続済み",
+        "description": "顧客があなたのビジネスに接続しました"
+      },
+      "listening": {
+        "title": "AIリスニング",
+        "description": "高度な音声認識がすべての単語をキャプチャします"
+      },
+      "processing": {
+        "title": "AI処理中",
+        "description": "ニューラルネットワークが意図とコンテキストを理解します"
+      },
+      "responding": {
+        "title": "AI応答中",
+        "description": "人間のような音声が完璧な応答を提供します"
+      }
+    },
+    "conversationTypes": {
+      "appointmentBooking": "予約",
+      "orderSupport": "注文サポート",
+      "salesInquiry": "販売に関する問い合わせ"
+    },
+    "conversations": {
+      "appointmentBooking": {
+        "customer": "こんにちは、来週火曜日に予約を取りたいのですが。",
+        "ai": "喜んで予約のお手伝いをさせていただきます。来週火曜日の空き状況を確認します。何時がご都合よろしいですか？"
+      },
+      "orderSupport": {
+        "customer": "最近の注文で問題が発生しています。まだ届いていません。",
+        "ai": "ご注文の件、ご心配をおかけしております。すぐにお調べいたします。注文番号を教えていただけますか？"
+      },
+      "salesInquiry": {
+        "customer": "料金プランについて教えていただけますか？",
+        "ai": "もちろんです！さまざまなニーズに合わせていくつかの料金オプションをご用意しております。基本プランは月額29ドルからで、すべてのコア機能が含まれています。違いを説明しましょうか？"
+      }
+    },
+    "ui": {
+      "chooseConversationType": "会話の種類を選択：",
+      "autoProgressing": "シナリオを自動進行中...",
+      "liveConversation": "ライブ会話：",
+      "speaking": "話しています...",
+      "aiSpeaking": "AIが話しています...",
+      "aiThinking": "AIが考えています...",
+      "processingContext": "コンテキストを処理中",
+      "accuracyRate": "精度"
+    }
+  },
+  "// Large Scale Campaigns Page - English key-value pairs": "",
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | 中小企業向けオムニチャネルコンタクトセンター",
+      "description": "アプリの切り替えはもうやめましょう。すべての顧客からの電話、WhatsApp、チャットを1つのシンプルな受信トレイに統合します。中小企業向けに構築されたオールインワンのコンタクトセンター。",
+      "keywords": "オムニチャネルコンタクトセンター, 中小企業コミュニケーション, 統合受信トレイ, カスタマーサービスソフトウェア, WhatsAppビジネス, 音声通話, チャットサポート"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | AIを活用した音声コミュニケーション - Seasalt.ai",
+        "description": "AIで音声コミュニケーションを変革します。SeaVoiceは、インテリジェントなコールルーティング、音声分析、自動応答を提供します。人間のようなAIエージェントで24時間年中無休で顧客からの電話に対応します。",
+        "keywords": "AI音声, コールセンターソフトウェア, 音声分析, SeaVoice, インテリジェントコールルーティング, 自動電話システム, 音声アシスタント, 24時間年中無休のカスタマーサービス"
+      },
+      "virtualAssistant": {
+        "title": "24時間年中無休のバーチャルアシスタント | SeaVoice AI音声ソリューション - Seasalt.ai",
+        "description": "SeaVoice AIバーチャルアシスタントで24時間体制のカスタマーサービスを提供します。インテリジェントな音声エージェントが顧客からの問い合わせ、予約のスケジューリング、サポートリクエストを処理し、満足度を向上させながらコストを削減します。",
+        "keywords": "バーチャルアシスタント, AI音声アシスタント, 24時間年中無休のカスタマーサービス, インテリジェントなカスタマーサービス, SeaVoice, 音声自動化, カスタマーサービス自動化"
+      }
+    }
+  },
+  "// Key structure: seavoice": {
+    "pages": {
+      "solutions": {
+        "outbound": {
+          "largeScaleCampaigns": "",
+          "subscriptionRenewals": ""
+        }
+      }
+    }
+  },
+  "statsCounter": {
+    "section": {
+      "title": "世界中の企業から信頼されています",
+      "subtitle": "当社のプラットフォームは毎日何百万もの会話を支えています"
+    },
+    "stats": {
+      "messages": {
+        "label": "送信済みメッセージ",
+        "suffix": "M+"
+      },
+      "calls": {
+        "label": "発信通話",
+        "suffix": "K+"
+      },
+      "uptime": {
+        "label": "システム稼働率",
+        "suffix": "%"
+      },
+      "countries": {
+        "label": "サービス提供国",
+        "suffix": "+"
+      },
+      "roi": {
+        "label": "ROIの増加",
+        "suffix": "%"
+      }
+    },
+    "dashboard": {
+      "title": "SeaXダッシュボード",
+      "messagesSent": "送信済みメッセージ",
+      "deliveryRate": "配信率",
+      "recentActivity": "最近のアクティビティ",
+      "demo": {
+        "messagesSent": "2.4M",
+        "deliveryRate": "85%"
+      }
+    },
+    "activity": {
+      "flashSale": {
+        "title": "フラッシュセールキャンペーン",
+        "detail": "50,000件のSMSを送信 • 2分前"
+      },
+      "leadFollowup": {
+        "title": "リードフォローアップ",
+        "detail": "12,000件の通話が完了 • 5分前"
+      },
+      "whatsapp": {
+        "title": "WhatsAppキャンペーン",
+        "detail": "25,000件のメッセージがキューに追加されました • 8分前"
+      }
+    },
+    "status": {
+      "liveRunning": "ライブキャンペーン実行中",
+      "liveActivity": "ライブアクティビティ：現在メッセージを送信中"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "1万以上",
+      "callsMax": "5千以上",
+      "voicemailMax": "1千以上",
+      "whatsappMax": "1万以上"
+    },
+    "breakdown": {
+      "localPlus": "ローカル +",
+      "tollFreeMinus": "フリーダイヤル"
+    }
+  }
+}

@@ -1,0 +1,922 @@
+{
+  "seachat": {
+    "common": {
+      "getStarted": "免费开始",
+      "signIn": "登入",
+      "learnMore": "了解更多",
+      "readMore": "阅读更多",
+      "viewAll": "查看所有文章",
+      "tryNow": "立即试用",
+      "contactUs": "联络我们",
+      "subscribe": "订阅",
+      "search": "搜寻",
+      "back": "返回"
+    },
+    "header": {
+      "features": "功能",
+      "integrations": "整合",
+      "solutions": "解决方案",
+      "pricing": "定价",
+      "blog": "部落格",
+      "language": "语言",
+      "featuresDropdown": {
+        "humanAgents": "人工专员聊天",
+        "aiAutomation": "AI 自动化",
+        "advancedAI": "进阶 AI 功能",
+        "knowledgeBase": "知识库",
+        "voiceAgents": "语音智能体",
+        "analytics": "分析与洞察",
+        "omnichannel": "全渠道支援",
+        "api": "API 和开发者工具"
+      },
+      "integrationsDropdown": {
+        "websites": "网站平台",
+        "crm": "CRM 系统",
+        "ecommerce": "电子商务",
+        "socialMedia": "社交媒体",
+        "communication": "通讯工具",
+        "marketing": "行销平台",
+        "calendar": "日历和排程",
+        "api": "自订 API"
+      },
+      "solutionsDropdown": {
+        "ecommerce": "电子商务和零售",
+        "healthcare": "医疗保健",
+        "fintech": "金融服务",
+        "education": "教育",
+        "realEstate": "房地产",
+        "travel": "旅游和饭店业",
+        "saas": "SaaS 和技术",
+        "smallBusiness": "小型企业"
+      },
+      "backToMainSite": "返回主网站",
+      "viewAllIntegrations": "查看所有整合 →",
+      "viewAllSolutions": "查看所有解决方案 →"
+    },
+    "hero": {
+      "title": {
+        "line1": "24小时贴身客服",
+        "line2": "可人工可智慧"
+      },
+      "subtitle": "即时专员",
+      "description": "透过我们的全渠道平台转变客户支援。从零成本的人工专员开始，然后随著您的成长无缝整合 AI 自动化。",
+      "startFree": "立即免费开始",
+      "exploreAI": "预约演示",
+      "alwaysFree": "永久免费方案",
+      "integrations": "30+ 整合",
+      "setup": "2 分钟内完成设定",
+      "chat": {
+        "userMessage": "嗨！我需要订单方面的协助",
+        "botMessage": "您好！我很乐意协助您处理订单。请问您可以提供您的订单号码吗？",
+        "userMessage2": "我可以帮您联系人工专员或提供即时 AI 协助。您希望如何进行？",
+        "typePlaceholder": "输入您的讯息...",
+        "online": "线上",
+        "supportTitle": "SeaChat 支援"
+      },
+      "badge": "免费真人客服开始",
+      "animationSection": {
+        "title": "SeaChat 实战展示",
+        "autoMode": "自动",
+        "manualMode": "手动"
+      },
+      "animations": {
+        "phoneVoice": {
+          "name": "电话语音 AI",
+          "description": "AI 客服处理电话对话"
+        },
+        "interactive": {
+          "name": "互动频道",
+          "description": "点击查看不同对话"
+        },
+        "multiChannel": {
+          "name": "多频道流程",
+          "description": "讯息在不同平台间流动"
+        },
+        "agentToAI": {
+          "name": "人工到 AI 交接",
+          "description": "从人工开始，用 AI 扩展"
+        },
+        "learning": {
+          "name": "AI 学习历程",
+          "description": "观看 AI 从内容中变得更智能"
+        },
+        "dashboard": {
+          "name": "即时分析",
+          "description": "即时绩效指标"
+        }
+      }
+    },
+    "keyFeatures": {
+      "title": "为什么选择 SeaChat？",
+      "subtitle": "体验人情味与 AI 效率的完美结合。免费开始，智慧扩展，更快成功。",
+      "humanAgents": {
+        "title": "真正免费的人工专员 🍺 🎙️",
+        "description": "从 1 位终身免费的人工专员开始——是的，终身！没有上限，没有限制，没有陷阱。",
+        "badge": "永久免费",
+        "highlights": [
+          "无限聊天对话",
+          "无限聊天历史记录存取",
+          "无限联络人和网路建立",
+          "自由汇出所有数据"
+        ]
+      },
+      "aiAutomation": {
+        "title": "无缝 AI 自动化",
+        "description": "透过从您的对话和文件中学习的智慧 AI 轻松扩展。",
+        "highlights": [
+          "智慧自动回应",
+          "从互动中学习",
+          "具备上下文感知的回应"
+        ]
+      },
+      "omnichannel": {
+        "title": "全渠道连接",
+        "description": "在一个统一的平台中连接您所有的通讯渠道，以提供一致的支援。",
+        "highlights": [
+          "30+ 整合",
+          "统一收件匣",
+          "跨平台同步"
+        ]
+      },
+      "trulyFree": {
+        "title": "真正免费的方案，就像免费的 🍺 和 🎙️",
+        "description": "介绍 SeaChat 的仅人工专员模式：您通往无与伦比的沟通自由的门票！我们很高兴地宣布提供 1 位终身免费的人工专员——是的，您没听错，终身！",
+        "freeFeatures": {
+          "unlimitedChat": {
+            "title": "无限聊天",
+            "description": "进行任意数量的对话，没有上限或限制。"
+          },
+          "unlimitedHistory": {
+            "title": "无限历史记录",
+            "description": "永不丢失对话——随时存取您完整的聊天历史记录。"
+          },
+          "unlimitedContacts": {
+            "title": "无限联络人",
+            "description": "建立您的网路，没有任何限制或联络人上限。"
+          },
+          "freedomToExport": {
+            "title": "自由汇出",
+            "description": "您的数据，您的规则——轻松汇出您所有的聊天历史记录。"
+          }
+        },
+        "whyChoose": "为什么选择 SeaChat？因为它真正免费！",
+        "whatYouGet": "✅ 您将永久免费获得：",
+        "freeForeverFeatures": [
+          "1 位终身人工专员",
+          "无限聊天对话",
+          "完整的聊天历史记录存取",
+          "无限联络人管理",
+          "完整的数据汇出权限"
+        ],
+        "scaleWhenReady": "🚀 准备好时扩展：",
+        "scaleFeatures": [
+          "新增 AI 自动化",
+          "进阶整合",
+          "语音智能体功能",
+          "企业级安全",
+          "自订工作流程"
+        ],
+        "startButton": "立即开始您的免费专员 - 无需信用卡！"
+      },
+      "statsBar": {
+        "unlimited": "永久无限聊天",
+        "fileTypes": "支援 30 多种文件类型",
+        "setupTime": "平均设定时间 2 分钟",
+        "availability": "准备就绪后 24/7 AI 可用"
+      }
+    },
+    "featureTabs": {
+      "title": "强大的功能，简单的设定",
+      "subtitle": "探索我们全面的功能集，旨在转变您的客户支援体验。",
+      "tabs": {
+        "humanAgent": "人工专员",
+        "agentChat": "专员聊天",
+        "aiAgent": "AI 智能体",
+        "advancedAI": "进阶 AI",
+        "knowledgeBase": "知识库",
+        "integrations": "整合"
+      },
+      "content": {
+        "agentChat": {
+          "title": "卓越的人工专员",
+          "subtitle": "从完全免费的真人支援开始",
+          "features": [
+            "无限免费专员时数",
+            "即时对话管理",
+            "多专员协作",
+            "进阶标签和路由",
+            "绩效分析",
+            "自订工作流程"
+          ],
+          "tryFeature": "试用此功能",
+          "watchDemo": "观看演示"
+        },
+        "aiAgent": {
+          "title": "智慧 AI 自动化",
+          "subtitle": "透过学习的智慧 AI 无缝扩展",
+          "features": [
+            "具备上下文感知的回应",
+            "从对话中学习",
+            "无缝转接人工",
+            "多语言支援",
+            "自订 AI 训练",
+            "语音智能体功能"
+          ],
+          "tryFeature": "试用此功能",
+          "watchDemo": "观看演示"
+        },
+        "advancedAI": {
+          "title": "下一代 AI 智慧",
+          "subtitle": "用于个人化体验的进阶 AI 功能",
+          "features": [
+            "检索增强生成 (RAG)",
+            "长期使用者记忆系统",
+            "具备时间感知的上下文回应",
+            "智慧上下文提取",
+            "引用的聊天结果",
+            "知识库优化"
+          ],
+          "tryDemo": "试用进阶 AI 演示",
+          "watchAI": "观看 AI 实际操作"
+        },
+        "knowledgeBase": {
+          "title": "全面的知识中心",
+          "subtitle": "上传 30 多种文件类型以获得即时 AI 回应",
+          "features": [
+            "支援 PDF、Excel、CSV、Word",
+            "网站内容撷取",
+            "图像和影片处理",
+            "丰富的回应格式",
+            "自动更新内容",
+            "版本控制"
+          ],
+          "tryFeature": "试用此功能",
+          "watchDemo": "观看演示"
+        },
+        "integrations": {
+          "title": "强大的整合",
+          "subtitle": "与您喜爱的工具和平台连接",
+          "features": [
+            "CRM 整合 (Salesforce, HubSpot)",
+            "日历预约 (Google, Outlook)",
+            "电子商务平台",
+            "行销工具",
+            "自订 API 存取",
+            "Webhook 支援"
+          ],
+          "tryFeature": "试用此功能",
+          "watchDemo": "观看演示"
+        }
+      },
+      "advancedAI": {
+        "features": {
+          "rag": {
+            "title": "检索增强生成",
+            "description": "关键词、向量和混合搜寻，实现精确资讯检索",
+            "details": {
+              "0": "语义向量搜寻",
+              "1": "关键词匹配",
+              "2": "混合搜寻演算法",
+              "3": "即时内容索引"
+            }
+          },
+          "memory": {
+            "title": "长期记忆",
+            "description": "透过持续用户记忆提供个人化体验",
+            "details": {
+              "0": "用户偏好追踪",
+              "1": "对话历史分析",
+              "2": "行为模式识别",
+              "3": "跨会话连续性"
+            }
+          },
+          "timeAware": {
+            "title": "时间感知",
+            "description": "基于当前时间和时区的情境感知回应",
+            "details": {
+              "0": "即时时间戳整合",
+              "1": "时区感知排程",
+              "2": "时间敏感建议",
+              "3": "营业时间优化"
+            }
+          },
+          "contextExtraction": {
+            "title": "情境提取",
+            "description": "智能栏位映射，提升用户理解",
+            "details": {
+              "0": "自订栏位定义",
+              "1": "自动资料提取",
+              "2": "用户语言偏好",
+              "3": "动态情境建构"
+            }
+          },
+          "referencedResults": {
+            "title": "引用结果",
+            "description": "透明的 AI 回应与来源引用",
+            "details": {
+              "0": "来源文件连结",
+              "1": "引用追踪",
+              "2": "信心评分",
+              "3": "事实验证"
+            }
+          },
+          "knowledgeRefinement": {
+            "title": "知识精炼",
+            "description": "持续改善知识库准确性",
+            "details": {
+              "0": "自动更新内容",
+              "1": "品质评分",
+              "2": "相关性优化",
+              "3": "效能分析"
+            }
+          }
+        }
+      }
+    },
+    "omnichannelDemo": {
+      "title": "部署在您客户所在的任何地方",
+      "subtitle": "无缝连接您在网站、社交媒体和通讯平台上的所有客户接触点。将滑鼠悬停在每个渠道上以查看即时绩效指标。",
+      "messagesPerDay": "每日讯息数",
+      "responseTime": "回应时间",
+      "keyFeatures": "主要功能",
+      "integrateChannel": "整合",
+      "channels": {
+        "website": {
+          "name": "网站",
+          "description": "适用于任何 HTML 网站的通用小工具"
+        },
+        "whatsapp": {
+          "name": "WhatsApp",
+          "description": "在全球最受欢迎的讯息应用程式上与客户联系"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "description": "在一个统一的收件匣中管理 Instagram 私讯和限时动态回复"
+        },
+        "facebook": {
+          "name": "Facebook",
+          "description": "透过 Facebook 的讯息平台提供客户支援"
+        },
+        "line": {
+          "name": "LINE",
+          "description": "在热门的亚洲讯息平台上与客户联系"
+        },
+        "phone": {
+          "name": "电话",
+          "description": "使用 AI 语音智能体处理语音支援"
+        },
+        "email": {
+          "name": "电子邮件",
+          "description": "使用智慧路由管理电子邮件工单"
+        },
+        "ecommerce": {
+          "name": "电子商务",
+          "description": "与线上商店整合以进行订单管理"
+        }
+      },
+      "platformCategories": {
+        "website": {
+          "title": "网站整合",
+          "description": "使用我们的通用小工具部署在任何网站平台上"
+        },
+        "socialMedia": {
+          "title": "社交媒体",
+          "description": "在客户喜爱的社交平台上与他们联系"
+        },
+        "traditional": {
+          "title": "传统渠道",
+          "description": "透过经典的通讯方式维持支援"
+        }
+      },
+      "quickSetup": {
+        "title": "准备好部署在任何地方了吗？",
+        "subtitle": "透过我们简单的整合流程，在几分钟内开始",
+        "steps": [
+          {
+            "title": "选择您的渠道",
+            "description": "从 8+ 个部署选项中选择"
+          },
+          {
+            "title": "复制并贴上程式码",
+            "description": "简单的小工具安装"
+          },
+          {
+            "title": "开始聊天",
+            "description": "立即开始支援客户"
+          }
+        ],
+        "button": "开始免费部署"
+      }
+    },
+    "pricing": {
+      "title": "随您成长的定价",
+      "subtitle": "完全免费地从真人客服开始，然后在您准备好时加入 AI 功能进行扩展。",
+      "monthly": "每月",
+      "yearly": "每年",
+      "save": "节省 20%",
+      "customize": "客制化您的方案",
+      "chatVolume": "每月聊天量",
+      "agents": "客服数量",
+      "plans": {
+        "free": {
+          "name": "真正免费",
+          "tagline": "体验强大功能的试用版",
+          "description": "开始使用真人客服的完美选择",
+          "features": {
+            "humanAgent": "1 个真人客服",
+            "unlimitedHumanChats": "无限制真人客服聊天",
+            "unlimitedContacts": "无限制联络人",
+            "unlimitedHistory": "无限制聊天记录",
+            "exportHistory": "自由汇出聊天记录",
+            "channels": "通道：WhatsApp Messenger、聊天小工具",
+            "integrations": "整合：Wix、WordPress、Shopify、Make.com、Squarespace",
+            "aiAgent": "AI 代理具有 100 次终身 AI 回复：",
+            "aiAgentModel": "ChatGPT-3.5-turbo",
+            "knowledgeBase": "知识库包含 20 个文件（最大 200KB）和 250k 令牌",
+            "workspace": "1 个工作空间"
+          },
+          "buttonText": "免费开始"
+        },
+        "premium": {
+          "name": "高级版",
+          "tagline": "新增更多 AI 智能助手与知识档案",
+          "description": "利用 AI 自动化来扩展您的支援服务",
+          "month": "月",
+          "year": "年",
+          "year_description": "每年计费可节省2个月",
+          "features": {
+            "humanAgents": "4 个人类用户（额外的人类用户每月费用 $10）",
+            "humanAgentPermission": "支援真人客服权限",
+            "assignAgent": "为个别对话分配人工助理",
+            "unreadCounter": "为每位人工助理提供未读讯息计数",
+            "transferToHuman": "从 AI 代理即时转接到真人客服",
+            "transferToAI": "从真人客服即时转接到 AI 代理",
+            "unlimitedHumanChats": "无限制人工助理对话",
+            "unlimitedContacts": "无限制联络人",
+            "unlimitedHistory": "无限制对话历史记录",
+            "exportHistory": "自由导出对话历史记录",
+            "channels": "额外通道：Line、Call、Phone Call",
+            "integrations": "额外整合：Google Calendar 自动预约会议",
+            "aiAgents": "10 个 AI 智能助手，每个助手具有：",
+            "aiModels": "ChatGPT-4o 和 Mistral 模型",
+            "knowledgeBase": "知识库包含多达 1000 份文件（每份文件 10 MB）和 500 万个代币",
+            "chatSummary": "透过电子邮件提供对话摘要和通知",
+            "agentPrivacy": "智能助手隐私控制",
+            "contactCapture": "透过客制化表单捕获用户联络资讯",
+            "chatCost": "对话 AI 智能助手每次回应起价 0.006 美元",
+            "voiceCost": "电话语音 AI 智能助手每分钟起价 0.12 美元",
+            "workspaces": "2 个工作区（每个额外工作区月费 15 美元）",
+            "knowledgeBaseFeatures": "知识库：",
+            "advancedSearch": "进阶文件搜寻 - 关键字、向量、混合搜寻",
+            "fileTypes": "支援 20+ 种档案类型，针对试算表进行优化",
+            "automationFeatures": "自动化：",
+            "autoLabel": "使用用户定义标签自动标记对话",
+            "builtInActions": "由自动标记触发的内建动作：简讯、电子邮件",
+            "externalAPI": "外部 API 调用作为触发器和动作",
+            "voiceAgentFeatures": "语音 AI 代理：",
+            "voiceMessages": "在 Messenger、WhatsApp、Line 中支援语音讯息",
+            "phoneCalls": "支援双向电话对话",
+            "callDirection": "支援来电与去电",
+            "transferAgent": "转接至人工助理",
+            "callForwarding": "支援来电转接",
+            "sttLanguages": "10+ 种语音转文字语言",
+            "ttsLanguages": "10+ 种文字转语音语言，语音来自 Azure、ElevenLabs、OpenAI",
+            "callRecording": "通话录音与摘要",
+            "callNotification": "透过电子邮件提供通话通知",
+            "formTrackers": "从对话中设置表单追踪器",
+            "slotExtractors": "从对话中提取资讯槽",
+            "timezoneFeatures": "具有时区支援的本地时间感知，适用于：",
+            "businessHours": "营业时间",
+            "appointmentBooking": "预约预定",
+            "humanAgent": "4 位人工用户（每新增一位人工用户月费 10 美元）",
+            "supportHumanAgent": "支援人工助理权限",
+            "liveTransferToHuman": "从 AI 助理实时转接至人工助理",
+            "liveTransferToAI": "从人工助理实时转接至 AI 助理",
+            "additionalChannels": "额外通道：Line、通话、电话通话",
+            "additionalIntegrations": "额外整合：Google 日历自动预约会议",
+            "knowledgeBaseTitle": "知识库：",
+            "automationTitle": "自动化：",
+            "voiceAgentsTitle": "语音 AI 智能助手：",
+            "timezoneTitle": "具有时区支援的本地时间感知，适用于："
+          },
+          "buttonText": "开始高级版",
+          "badge": "最受欢迎"
+        },
+        "enterprise": {
+          "name": "企业版",
+          "tagline": "客制化您的专属 AI 智能助手",
+          "description": "为大型组织提供客制化解决方案",
+          "features": {
+            "premiumIncluded": "包含高级版的所有功能",
+            "customBuild": "客制化开发",
+            "multipleWorkspaces": "多个工作区 - 完美适合代理商",
+            "workspaceAgents": "每个工作区具有多个 AI 智能助手和电话号码",
+            "customAPI": "客制化 API 整合",
+            "fineTuning": "根据您的指导原则进行微调和技术支援",
+            "gpt4oRealtimeAPI": "存取 GPT-4o Realtime API"
+          },
+          "buttonText": "联络我们"
+        }
+      },
+      "billing": {
+        "monthly": "每月",
+        "yearly": "每年",
+        "year": "年",
+        "month": "月",
+        "save": "与月度计费相比节省 2 个月"
+      },
+      "calculator": {
+        "title": "方案与模型使用量计算器",
+        "description": "根据您的使用模式估算成本",
+        "modelSelect": "选择 AI 模型",
+        "priceBreakdown": "成本明细",
+        "licenseYearly": "授权费（节省 2 个月）：",
+        "licenseFee": "授权费：",
+        "usageCost": "使用成本：",
+        "usageCostYearly": "使用成本（12 个月）：",
+        "addOnsCost": "附加功能成本：",
+        "addOnsCostYearly": "附加功能成本（12 个月）：",
+        "totalPerYear": "每年总计：",
+        "totalPerMonth": "每月总计：",
+        "averagePerMonth": "每月平均：",
+        "aiUsage": "AI 使用量（按使用量付费）",
+        "chatResponses": "每月对话回应数：",
+        "voiceMinutes": "每月语音分钟数：",
+        "voiceMinutesNote": "仅限美国/加拿大",
+        "chatCost": "对话成本",
+        "voiceCost": "语音成本",
+        "additionalResources": "额外资源",
+        "humanAgents": "人工助理：",
+        "aiAgents": "AI 智能助手：",
+        "workspaces": "工作区：",
+        "included": "已包含：",
+        "extra": "额外：",
+        "disclaimer": "使用成本根据实际消费计算。高级版包括：",
+        "disclaimerDetails": "授权费 + AI 使用量（按使用量付费）+ 超出包含限制的额外资源。",
+        "planIncludes": "高级版包括：",
+        "planIncludesHuman": "4 位人工助理",
+        "planIncludesAI": "10 个 AI 智能助手",
+        "planIncludesWorkspaces": "2 个工作区",
+        "perChatResponse": "每次聊天回应",
+        "perVoiceMinute": "每分钟语音",
+        "placeholderText": "占位符",
+        "voiceOnly": "仅语音模型",
+        "voicePricing": "语音定价",
+        "standardVoice": "标准语音",
+        "premiumVoice": "高级语音"
+      },
+      "note": "价格以美元计算。语音价格因国家而异，列出的价格适用于美国。其他国家请联络我们。",
+      "comparison": {
+        "title": "比较所有功能",
+        "subtitle": "查看每个方案包含的确切内容",
+        "featuresTitle": "功能",
+        "trulyFree": "真正免费",
+        "premium": "高级版",
+        "enterprise": "企业版",
+        "humanAgents": "人工助理",
+        "aiAgents": "AI 智能助手",
+        "aiModels": "AI 模型",
+        "knowledgeBase": "知识库",
+        "voiceAI": "语音 AI 智能助手",
+        "phoneCalls": "电话通话",
+        "automation": "自动化",
+        "apiIntegration": "API 整合",
+        "workspaces": "工作区",
+        "support": "支援",
+        "features": {
+          "humanAgents": {
+            "free": "1 位助理",
+            "premium": "4 位用户",
+            "enterprise": "无限制"
+          },
+          "aiAgents": {
+            "free": "1 个助手（100 次回应）",
+            "premium": "10 个助手（无限制）",
+            "enterprise": "客制化开发"
+          },
+          "aiModels": {
+            "free": "ChatGPT-3.5",
+            "premium": "ChatGPT-4o、Mistral",
+            "enterprise": "进阶模型"
+          },
+          "knowledgeBase": {
+            "free": "20 份文件（200KB）",
+            "premium": "5000 份文件（每份 10MB）",
+            "enterprise": "无限制"
+          },
+          "voiceAI": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅"
+          },
+          "phoneCalls": {
+            "free": "❌",
+            "premium": "✅ 来电/去电",
+            "enterprise": "✅"
+          },
+          "automation": {
+            "free": "❌",
+            "premium": "✅ 进阶",
+            "enterprise": "✅ 客制化"
+          },
+          "apiIntegration": {
+            "free": "❌",
+            "premium": "✅",
+            "enterprise": "✅ 客制化"
+          },
+          "workspaces": {
+            "free": "1",
+            "premium": "2（每个额外 15 美元）",
+            "enterprise": "多个"
+          },
+          "support": {
+            "free": "社群",
+            "premium": "电子邮件 + 电话",
+            "enterprise": "专属技术支援"
+          }
+        }
+      },
+      "enterprise": {
+        "title": "需要客制化服务？",
+        "description": "我们提供客制化企业解决方案，包括本地部署、进阶安全功能和专属支援团队。",
+        "contactSales": "联络销售团队"
+      },
+      "faq": {
+        "title": "常见问题",
+        "question1": "免费方案真的永久免费吗？",
+        "answer1": "是的！我们的真正免费方案包括终身 1 位人工助理，拥有无限制对话、对话历史记录和联络人。另外，您还可以获得 1 个 AI 智能助手，拥有 100 次终身 AI 回应来试用我们的 AI 功能。无需信用卡，无隐藏费用。",
+        "question2": "月度与年度计费有什么区别？",
+        "answer2": "使用年度计费，您可以在高级版方案上节省 2 个月（299 美元/年 vs 月付的 359.88 美元/年）。计费周期仅影响高级版方案 - 免费方案永远免费，企业版为客制化定价。",
+        "question3": "我可以随时升级或降级方案吗？",
+        "answer3": "当然可以！您可以随时变更方案。升级立即生效，降级则在当前计费周期结束时生效。",
+        "question4": "如果我超出免费方案的 AI 回应限制会怎样？",
+        "answer4": "免费方案包括 100 次终身 AI 回应。一旦达到此限制，您需要升级到高级版以获得无限制 AI 回应。您的人工助理功能在所有方案中保持无限制。",
+        "question5": "高级版方案的定价如何运作？",
+        "answer5": "高级版有两个组成部分：授权费（29.99 美元/月或 299 美元/年）加上基于使用量的定价。使用量包括 AI 回应每次起价 0.006 美元（ChatGPT-4o mini）和语音通话每分钟 0.12 美元。额外人工用户每人每月 10 美元，额外工作区每个每月 15 美元。",
+        "question6": "如果我取消会发生什么？",
+        "answer6": "您拥有您的数据。您可以随时导出所有对话历史记录、联络人和知识库内容，即使在免费方案中也是如此。我们相信数据自由和透明度。",
+        "question7": "您是否为大型企业提供客制化定价？",
+        "answer7": "是的！我们的企业版方案提供客制化开发、多个 AI 服务（完美适合代理商）、客制化 API 整合，以及专业设计指导和技术支援。请联络我们的销售团队以获得个人化报价。"
+      },
+      "cta": {
+        "title": "您的 AI 对话革命",
+        "subtitle": "现在就开始！",
+        "description": "加入已使用 SeaChat 在所有讯息通道提供卓越客户体验的 100,000+ 家企业",
+        "stats": {
+          "messages": "100K+",
+          "messagesLabel": "每日讯息数",
+          "uptime": "99.9%",
+          "uptimeLabel": "正常运行时间保证",
+          "channels": "15+",
+          "channelsLabel": "支援的通道",
+          "hipaa": "HIPAA",
+          "hipaaLabel": "合规且安全"
+        },
+        "startFree": "首先开始真正免费",
+        "bookDemo": "预约现场演示",
+        "badges": {
+          "noCoding": "无需编程",
+          "freePlan": "永久免费方案",
+          "cancelAnytime": "随时取消",
+          "support": "24/7 支援"
+        },
+        "urgency": "限时优惠：年度方案免费 2 个月 + 优先上线支援！",
+        "limitedTime": "限时优惠："
+      }
+    },
+    "knowledgeBase": {
+      "title": "强大的知识库",
+      "subtitle": "上传 30 多种文件类型，让 AI 提供丰富、具上下文的回应，包含卡片、按钮、图像和影片。",
+      "supportedFormats": {
+        "title": "支援的文件类型",
+        "formats": {
+          "pdf": {
+            "name": "PDF 文件",
+            "count": "15 个文件"
+          },
+          "excel": {
+            "name": "Excel 工作表",
+            "count": "8 个文件"
+          },
+          "word": {
+            "name": "Word 文件",
+            "count": "12 个文件"
+          },
+          "images": {
+            "name": "图像",
+            "count": "25 张图像"
+          },
+          "websites": {
+            "name": "网站",
+            "count": "5 个网站"
+          },
+          "videos": {
+            "name": "影片",
+            "count": "3 个影片"
+          }
+        },
+        "richResponse": {
+          "title": "丰富的回应格式：",
+          "features": [
+            "互动式卡片",
+            "动作按钮",
+            "嵌入式图像",
+            "影片回应"
+          ]
+        },
+        "addDocuments": "新增您的文件"
+      },
+      "uploadModal": {
+        "title": "上传您的文件",
+        "dropzone": {
+          "title": "将您的文件拖放到此处",
+          "description": "支援 PDF、Word、Excel、图像、影片等",
+          "button": "选择文件"
+        },
+        "demoFiles": [
+          "sample_manual.pdf",
+          "product_data.xlsx",
+          "brand_guide.jpg"
+        ],
+        "close": "关闭演示"
+      }
+    },
+    "useCases": {
+      "title": "跨行业的成功案例",
+      "subtitle": "了解企业如何透过 SeaChat 的人机混合方法转变其客户支援。",
+      "cases": {
+        "ecommerce": {
+          "title": "电子商务支援革命",
+          "industry": "零售",
+          "challenge": "以有限的人力管理多个渠道每天 500 多个客户查询",
+          "solution": "部署 SeaChat，由 AI 智能体处理 70% 的常规查询，人工专员处理复杂问题",
+          "results": [
+            "回应时间减少 60%",
+            "客户满意度提高 40%",
+            "支援运营成本节省 75%"
+          ],
+          "metrics": {
+            "responseTime": "< 30 秒",
+            "satisfaction": "94%",
+            "cost": "-75%"
+          }
+        },
+        "healthcare": {
+          "title": "医疗保健病患支援",
+          "industry": "医疗保健",
+          "challenge": "在维持 HIPAA 合规性的同时提供 24/7 病患支援",
+          "solution": "整合安全的 AI 智能体，具备预约和症状预筛选功能",
+          "results": [
+            "24/7 病患协助",
+            "未到诊率减少 50%",
+            "100% 维持 HIPAA 合规性"
+          ],
+          "metrics": {
+            "availability": "24/7",
+            "noShows": "-50%",
+            "compliance": "100%"
+          }
+        },
+        "fintech": {
+          "title": "金融服务卓越",
+          "industry": "金融科技",
+          "challenge": "快速、安全地处理敏感的金融查询",
+          "solution": "针对金融法规进行客制化 AI 训练，并无缝转接人工",
+          "results": [
+            "90% 首次联系解决率",
+            "查询处理速度提高 3 倍",
+            "增强的安全协议"
+          ],
+          "metrics": {
+            "resolution": "90%",
+            "speed": "3 倍",
+            "security": "增强"
+          }
+        }
+      },
+      "cta": {
+        "title": "准备好转变您的支援了吗？",
+        "description": "加入数百家已经在使用 SeaChat 提供卓越客户体验的企业。",
+        "buttons": {
+          "viewCases": "查看所有案例研究",
+          "startStory": "开始您的成功故事"
+        },
+        "signUpFree": "免费注册",
+        "bookDemo": "预约演示"
+      },
+      "labels": {
+        "challenge": "挑战：",
+        "solution": "解决方案：",
+        "resultsAchieved": "达成成果："
+      },
+      "metrics": {
+        "responseTime": "回应时间",
+        "satisfaction": "满意度",
+        "cost": "成本",
+        "availability": "可用性",
+        "noShows": "未到诊率",
+        "compliance": "合规性",
+        "resolution": "解决率",
+        "speed": "速度",
+        "security": "安全性"
+      }
+    },
+    "testimonials": {
+      "title": "受到全球支援团队的喜爱",
+      "subtitle": "不要只听我们说。看看我们的客户如何评价透过 SeaChat 转变他们的支援。",
+      "navigation": {
+        "previous": "上一个",
+        "next": "下一个"
+      },
+      "trustedBy": "受到全球创新公司的信赖",
+      "stats": {
+        "customers": "10,000+ 满意的客户",
+        "uptime": "99.9% 正常运行时间",
+        "messages": "处理了 5000 万+ 则讯息",
+        "rating": "4.9/5 客户评分"
+      },
+      "testimonials": {
+        "0": {
+          "name": "Sarah Chen",
+          "title": "客户成功总监",
+          "company": "TechFlow Solutions",
+          "quote": "SeaChat 转变了我们的支援营运。对于我们的新创公司来说，从免费人工专员开始是完美的，而使用 AI 扩展一直很顺畅。我们的回应时间改善了 70%。",
+          "metrics": {
+            "improvement": "70%",
+            "feature": "回应时间"
+          }
+        },
+        "1": {
+          "name": "Marcus Rodriguez",
+          "title": "营运经理",
+          "company": "EcoCommerce",
+          "quote": "知识库功能太棒了。我们上传了整个产品目录和常见问题，现在 AI 以完美的准确性处理 80% 的客户查询。",
+          "metrics": {
+            "improvement": "80%",
+            "feature": "查询解决"
+          }
+        },
+        "2": {
+          "name": "Emily Watson",
+          "title": "客户体验主管",
+          "company": "HealthTech Pro",
+          "quote": "全渠道整合非常完美。我们的客户可以在 WhatsApp 上开始对话，然后在我们的网站上继续，而不会失去上下文。这改变了游戏规则！",
+          "metrics": {
+            "improvement": "95%",
+            "feature": "客户满意度"
+          }
+        },
+        "3": {
+          "name": "David Park",
+          "title": "创办人兼执行长",
+          "company": "StartupFlow",
+          "quote": "作为一家自力更生的新创公司，免费方案是救命稻草。我们从第一天就提供专业支援，无需任何前期成本。现在随著我们的扩展，我们很乐意为 AI 功能付费。",
+          "metrics": {
+            "improvement": "$0",
+            "feature": "初始成本"
+          }
+        },
+        "4": {
+          "name": "Lisa Thompson",
+          "title": "支援团队负责人",
+          "company": "GlobalRetail Inc",
+          "quote": "人机转接非常顺畅，客户甚至不会注意到他们在 AI 和人工专员之间切换。这正是我们复杂支援场景所需要的。",
+          "metrics": {
+            "improvement": "100%",
+            "feature": "无缝转接"
+          }
+        }
+      }
+    },
+    "blog": {
+      "title": "最新洞察与资源",
+      "subtitle": "透过关于客户支援趋势、AI 实施策略和平台优化技巧的专家洞察，保持领先。",
+      "categories": {
+        "all": "全部",
+        "ai": "AI 与自动化",
+        "strategy": "策略",
+        "integration": "整合",
+        "knowledge": "知识管理",
+        "success": "客户成功"
+      },
+      "featured": "精选",
+      "latest": "最新文章",
+      "readTime": "分钟阅读",
+      "stayUpdated": "保持更新",
+      "newsletterSubtitle": "将有关 AI 客户支援、平台更新和行业最佳实践的最新洞察发送到您的收件匣。",
+      "joinProfessionals": "加入 5,000+ 名支援专业人士。随时取消订阅。",
+      "loading": "正在载入部落格文章...",
+      "loadingPost": "正在载入文章...",
+      "backToBlog": "返回部落格",
+      "share": "分享",
+      "tags": "标签",
+      "followLinkedIn": "在 LinkedIn 上关注",
+      "moreArticles": "更多文章",
+      "relatedArticles": "相关文章",
+      "searchPlaceholder": "搜寻文章、主题或标签...",
+      "articleCount": "找到 {{count}} 篇文章",
+      "noArticles": "找不到文章",
+      "adjustSearch": "尝试调整您的搜寻词或类别筛选器。"
+    }
+  }
+}

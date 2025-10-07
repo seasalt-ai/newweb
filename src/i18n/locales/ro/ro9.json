@@ -1,0 +1,1600 @@
+{
+  "seax": {
+    "home": {
+      "seo": {
+        "title": "SeaX - Platformă de marketing în masă SMS, WhatsApp și voce | Seasalt.ai",
+        "description": "Extindeți-vă acoperirea la milioane cu campaniile puternice de SMS în masă, mesagerie WhatsApp și voce AI de la SeaX. Rate de livrare ridicate, acoperire globală și analize avansate."
+      },
+      "scalingProblem": {
+        "title": "Problema contactării manuale",
+        "subtitle": "Afacerea dvs. trebuie să ajungă la mii de clienți, dar contactarea manuală nu se scalează. SeaX automatizează comunicarea dvs. menținând în același timp o atingere personală.",
+        "manualOutreach": {
+          "title": "Contactare manuală",
+          "description": "Mesaje individuale consumatoare de timp, acoperire limitată, follow-up inconsistent"
+        },
+        "seaxAutomation": {
+          "title": "Automatizare SeaX",
+          "description": "Milioane de mesaje în câteva minute, personalizare alimentată de AI, campanii de follow-up automate"
+        },
+        "stats": {
+          "messagesSent": {
+            "value": "Peste 10 milioane",
+            "label": "Mesaje trimise zilnic"
+          },
+          "callsPerHour": {
+            "value": "Peste 50K",
+            "label": "Apeluri pe oră"
+          },
+          "deliveryRate": {
+            "value": "99,5%",
+            "label": "Rată de livrare"
+          },
+          "roiAverage": {
+            "value": "400%",
+            "label": "ROI mediu"
+          }
+        }
+      },
+      "features": {
+        "title": "Funcționalități la scară masivă",
+        "subtitle": "Tot ce aveți nevoie pentru a ajunge la milioane de clienți pe mai multe canale",
+        "sms": {
+          "title": "SMS în masă",
+          "description": "Trimiteți milioane de mesaje SMS cu o rată de livrare de 99,5% în peste 200 de țări"
+        },
+        "whatsapp": {
+          "title": "WhatsApp Business",
+          "description": "Atingeți peste 2 miliarde de utilizatori WhatsApp cu campanii șablon și mesaje personalizate"
+        },
+        "voice": {
+          "title": "Campanii vocale AI",
+          "description": "Apeluri telefonice automate cu voci AI naturale pentru sondaje, memento-uri și contactare"
+        },
+        "ai": {
+          "title": "Automatizare AI",
+          "description": "Follow-up-uri inteligente, gestionarea răspunsurilor și optimizarea campaniilor alimentate de AI"
+        }
+      },
+      "leadGeneration": {
+        "title": "Transformați prospecții în clienți",
+        "subtitle": "Un sistem complet de generare și cultivare a lead-urilor care transformă prospecții în clienți plătitori",
+        "capture": {
+          "title": "Captură",
+          "description": "Atrageți lead-uri cu campanii țintite pe mai multe canale"
+        },
+        "qualify": {
+          "title": "Calificare",
+          "description": "Scorizare și calificare lead-uri alimentate de AI pentru a identifica cei mai buni prospecți ai dvs."
+        },
+        "nurture": {
+          "title": "Cultivare",
+          "description": "Secvențe de follow-up automate care construiesc relații și stimulează conversiile"
+        },
+        "close": {
+          "title": "Închidere",
+          "description": "Transfer inteligent către echipa de vânzări cu istoric complet al conversațiilor și inteligență lead-uri"
+        }
+      },
+      "howItWorks": {
+        "title": "Cum funcționează",
+        "subtitle": "Începeți în 4 pași simpli și ajungeți la milioane de clienți în câteva ore",
+        "timeRequired": "Timp necesar: ",
+        "step1": {
+          "number": "01",
+          "title": "Importați-vă contactele",
+          "description": "Încărcați listele de contacte din CSV, Excel sau integrați-vă cu CRM-ul dvs. Suport pentru milioane de contacte cu deduplicare inteligentă.",
+          "time": "2 minute",
+          "illustration": {
+            "checkmark": "✓",
+            "fileName": "lista_contacte.csv",
+            "contactCount": "25.847 contacte",
+            "dropFiles": "Trageți fișierele aici",
+            "browse": "sau navigați pentru a încărca",
+            "importedCount": "25.847",
+            "contactsImported": "contacte importate"
+          }
+        },
+        "step2": {
+          "number": "02",
+          "title": "Alegeți-vă canalele",
+          "description": "Selectați din SMS, WhatsApp, apeluri vocale sau campanii multi-canal. Fiecare canal optimizat pentru livrare și angajament maxim.",
+          "time": "1 minut",
+          "illustration": {
+            "sms": {
+              "label": "SMS",
+              "rate": "98% rată de deschidere"
+            },
+            "whatsapp": {
+              "label": "WhatsApp",
+              "rate": "90% rată de deschidere"
+            },
+            "voice": {
+              "label": "Voce",
+              "rate": "75% rată de preluare"
+            }
+          }
+        },
+        "step3": {
+          "number": "03",
+          "title": "Creați-vă campania",
+          "description": "Proiectați-vă mesajul cu personalizare, setați țintirea publicului și programați-vă campania. Testare A/B inclusă.",
+          "time": "5 minute",
+          "illustration": {
+            "campaignDraft": "Ciornă campanie",
+            "draftStatus": "Ciornă",
+            "sampleMessage": "Bună {{name}}, avem o ofertă specială doar pentru dvs.! Obțineți 20% reducere la următoarea comandă. Răspundeți STOP pentru a vă dezabona.",
+            "previewButton": "Previzualizare",
+            "abTestButton": "Test A/B",
+            "schedule": "Programare",
+            "now": "Trimite acum"
+          }
+        },
+        "step4": {
+          "number": "04",
+          "title": "Urmăriți și optimizați",
+          "description": "Monitorizați performanța campaniei în timp real cu analize detaliate. Vedeți ratele de livrare, răspunsurile, conversiile și metricile ROI.",
+          "time": "În desfășurare",
+          "illustration": {
+            "campaignStatus": "Stare campanie",
+            "liveStatus": "Live",
+            "deliveredCount": "847K",
+            "delivered": "Livrate",
+            "responseRate": "12%",
+            "response": "Rată de răspuns",
+            "totalCount": "1,2M",
+            "totalMessages": "Total mesaje",
+            "deliveryRate": "99,5%",
+            "deliveryRateLabel": "Rată de livrare",
+            "analytics": "Analiză performanță în timp real cu urmărire conversii"
+          }
+        }
+      },
+      "testimonials": {
+        "title": "De încredere pentru afacerile în creștere",
+        "subtitle": "Vedeți cum companiile utilizează SeaX pentru a-și extinde contactarea clienților și a stimula creșterea",
+        "testimonial1": {
+          "quote": "SeaX ne-a ajutat să ajungem la 500K clienți într-o singură zi. Ratele de livrare sunt incredibile, iar ROI-ul vorbește de la sine.",
+          "author": "Sarah Chen",
+          "role": "Director de marketing, TechStart"
+        },
+        "testimonial2": {
+          "quote": "Am crescut rata de conversie cu 300% utilizând campaniile de follow-up alimentate de AI de la SeaX. O schimbare de joc pentru afacerea noastră.",
+          "author": "Mike Rodriguez",
+          "role": "CEO, GrowthCorp"
+        },
+        "testimonial3": {
+          "quote": "Integrarea WhatsApp este fără întreruperi. Acum putem avea conversații personale la scară cu baza noastră globală de clienți.",
+          "author": "Lisa Park",
+          "role": "Șef succes clienți, GlobalTech"
+        }
+      },
+      "cta": {
+        "title": "Gata să vă extindeți acoperirea la milioane?",
+        "subtitle": "Alăturați-vă miilor de companii care utilizează SeaX pentru a ajunge la mai mulți clienți, a genera mai multe lead-uri și a crește mai rapid.",
+        "demoButton": "Programați o demonstrație",
+        "signupButton": "Începeți proba gratuită"
+      }
+    },
+    "features": {
+      "seo": {
+        "title": "Funcționalități SeaX - Instrumente puternice pentru comunicare în masă",
+        "description": "Explorați funcționalitățile puternice ale SeaX: motor de mesagerie în masă, follow-up alimentat de AI, analize în timp real și infrastructură la nivel de întreprindere."
+      },
+      "hero": {
+        "title": "Funcționalități puternice pentru",
+        "titleHighlight": "Comunicare în masă",
+        "description": "Tot ce aveți nevoie pentru a ajunge la milioane de clienți pe canale SMS, WhatsApp și voce. Construit pentru scară, conceput pentru rezultate.",
+        "stats": {
+          "messages": "Peste 10 milioane de mesaje zilnic",
+          "countries": "Peste 200 de țări",
+          "security": "Securitate la nivel de întreprindere"
+        }
+      },
+      "core": {
+        "title": "Funcționalități de bază",
+        "description": "Instrumentele esențiale care alimentează campaniile dvs. de comunicare în masă",
+        "bulkMessaging": {
+          "title": "Motor de mesagerie în masă",
+          "description": "Trimiteți milioane de mesaje SMS, WhatsApp și apeluri telefonice simultan cu fiabilitate la nivel de operator.",
+          "metrics": {
+            "value": "Peste 10 milioane",
+            "label": "Mesaje trimise zilnic"
+          },
+          "benefits": {
+            "0": "Livrare la nivel de operator",
+            "1": "Acoperire globală în peste 200 de țări",
+            "2": "Urmărire livrare în timp real",
+            "3": "Optimizare rutare inteligentă"
+          }
+        },
+        "aiFollowup": {
+          "title": "Follow-up alimentat de AI",
+          "description": "Răspunsuri automate și cultivare inteligentă a lead-urilor pentru a califica prospecții 24/7.",
+          "metrics": {
+            "value": "85%",
+            "label": "Rată de calificare a lead-urilor"
+          },
+          "benefits": {
+            "0": "Gestionare inteligentă a conversațiilor",
+            "1": "Scorizare automată a lead-urilor",
+            "2": "Sincronizare inteligentă a răspunsurilor",
+            "3": "Suport multilingv"
+          }
+        },
+        "analytics": {
+          "title": "Analiză în timp real",
+          "description": "Urmăriți deschiderile, răspunsurile și conversiile la scară cu un tablou de bord live complet.",
+          "metrics": {
+            "value": "99,9%",
+            "label": "Garanție timp de funcționare"
+          },
+          "benefits": {
+            "0": "Monitorizare campanie live",
+            "1": "Urmărire conversii",
+            "2": "Insight-uri de performanță",
+            "3": "Raportare personalizată"
+          }
+        },
+        "compliance": {
+          "title": "Conformitate și livrare",
+          "description": "Acoperire globală cu conformitate cu operatorul și șabloane de mesaje pre-aprobate.",
+          "metrics": {
+            "value": "Peste 200",
+            "label": "Țări acceptate"
+          },
+          "benefits": {
+            "0": "Conform GDPR",
+            "1": "Proces de aprobare a operatorului",
+            "2": "Protecție spam",
+            "3": "Conformitate reglementară"
+          }
+        },
+        "collaboration": {
+          "title": "Colaborare în echipă",
+          "description": "Acces multi-utilizator, permisiuni de campanie și resurse partajate pentru echipele enterprise.",
+          "metrics": {
+            "value": "Peste 50K",
+            "label": "Apeluri pe oră"
+          },
+          "benefits": {
+            "0": "Permisiuni bazate pe roluri",
+            "1": "Șabloane de campanie partajate",
+            "2": "Urmărire performanță echipă",
+            "3": "Fluxuri de lucru colaborative"
+          }
+        },
+        "scale": {
+          "title": "Scală enterprise",
+          "description": "Construit pentru expeditorii cu cel mai mare volum, cu infrastructură și suport dedicate.",
+          "metrics": {
+            "value": "Peste 1 milion",
+            "label": "Mesaje pe minut"
+          },
+          "benefits": {
+            "0": "Infrastructură dedicată",
+            "1": "Suport prioritar",
+            "2": "Integrări personalizate",
+            "3": "SLA-uri enterprise"
+          }
+        }
+      },
+      "categories": {
+        "title": "Categorii de funcționalități",
+        "description": "Explorați setul nostru complet de funcționalități pe categorii",
+        "messaging": {
+          "title": "Canale de mesagerie",
+          "sms": {
+            "name": "SMS (10DLC, gratuit, cod scurt)",
+            "description": "Toate tipurile de SMS pentru fiecare nevoie de afaceri"
+          },
+          "whatsapp": {
+            "name": "Platforma WhatsApp Business",
+            "description": "Mod campanie pentru mesagerie în masă"
+          },
+          "voice": {
+            "name": "Apeluri vocale (peste 100 de țări)",
+            "description": "Apeluri alimentate de AI prin Twilio"
+          }
+        },
+        "aiAutomation": {
+          "title": "AI și automatizare",
+          "followup": {
+            "name": "Follow-up alimentat de AI",
+            "description": "Cultivare inteligentă a lead-urilor 24/7"
+          },
+          "responses": {
+            "name": "Răspunsuri automate",
+            "description": "Gestionare inteligentă a conversațiilor"
+          },
+          "scoring": {
+            "name": "Scorizare lead-uri",
+            "description": "Calificare prospecți alimentată de AI"
+          }
+        },
+        "analytics": {
+          "title": "Analiză și insight-uri",
+          "dashboard": {
+            "name": "Tablou de bord în timp real",
+            "description": "Monitorizare campanie live"
+          },
+          "tracking": {
+            "name": "Urmărire conversii",
+            "description": "ROI și metrici de performanță"
+          },
+          "reporting": {
+            "name": "Raportare personalizată",
+            "description": "Analize și insight-uri detaliate"
+          }
+        },
+        "enterprise": {
+          "title": "Enterprise și securitate",
+          "gdpr": {
+            "name": "Conformitate GDPR",
+            "description": "Conformitate reglementară completă"
+          },
+          "team": {
+            "name": "Colaborare în echipă",
+            "description": "Acces multi-utilizator și permisiuni"
+          },
+          "sla": {
+            "name": "SLA-uri enterprise",
+            "description": "Suport și timp de funcționare dedicate"
+          }
+        }
+      },
+      "integrations": {
+        "title": "Construit pentru integrare",
+        "description": "Conectați SeaX cu instrumentele și fluxurile de lucru existente",
+        "crm": {
+          "title": "Integrare CRM",
+          "description": "Conectați-vă cu Salesforce, HubSpot și alte sisteme CRM pentru un flux de date fără întreruperi.",
+          "sync": "Sincronizare bidirecțională",
+          "mapping": "Mapare câmpuri personalizate"
+        },
+        "analytics": {
+          "title": "Instrumente de analiză",
+          "description": "Exportați date către Google Analytics, Mixpanel și alte platforme de analiză.",
+          "exports": "Exporturi în timp real",
+          "dashboards": "Tablouri de bord personalizate"
+        },
+        "api": {
+          "title": "API pentru dezvoltatori",
+          "description": "API REST complet pentru integrări personalizate și fluxuri de lucru automate.",
+          "endpoints": "Puncte finale RESTful",
+          "webhooks": "Suport webhook"
+        }
+      },
+      "cta": {
+        "title": "Gata să experimentați aceste funcționalități?",
+        "description": "Vedeți cum SeaX vă poate transforma strategia de comunicare",
+        "button": "Programați o demonstrație"
+      }
+    }
+  },
+  "channels": {
+    "sms": {
+      "hero": {
+        "stats": {
+          "messagesValue": "Peste 10 milioane",
+          "countriesValue": "Peste 200",
+          "uptimeValue": "99,9%",
+          "deliveryValue": "98%",
+          "messagesSent": "Mesaje trimise",
+          "countries": "Țări",
+          "uptime": "Timp de funcționare",
+          "deliveryRate": "Rată de livrare"
+        },
+        "preview": {
+          "deliveredValue": "847K",
+          "successValue": "98,2%",
+          "title": "Campanie SMS live",
+          "status": "Activă",
+          "messageLabel": "Exemplu de mesaj",
+          "message": "Bună [Nume], nu ratați reducerea noastră exclusivă de 50% care se termină astăzi! Cumpărați acum: bit.ly/save50",
+          "delivered": "Livrat",
+          "successRate": "Rată de succes"
+        },
+        "badge": "Canal SMS",
+        "title": "Scalați-vă SMS-ul",
+        "titleHighlight": "La milioane",
+        "description": "Trimiteți mesaje SMS personalizate la milioane de clienți din întreaga lume cu rate de livrare de top în industrie și analize în timp real.",
+        "cta": {
+          "primary": "Începeți să trimiteți SMS",
+          "secondary": "Programați o demonstrație"
+        }
+      },
+      "seo": {
+        "title": "Platformă de marketing și comunicare SMS - SeaX de Seasalt.ai",
+        "description": "Trimiteți mesaje SMS în masă la scară cu SeaX. Atingeți clienții la nivel global cu rate de livrare de 98%, analize avansate și securitate la nivel de întreprindere pentru campanii de marketing și comunicații."
+      },
+      "features": {
+        "title": "Funcționalități SMS puternice",
+        "description": "Tot ce aveți nevoie pentru a crea, trimite și optimiza campanii SMS care generează rezultate.",
+        "globalReach": {
+          "title": "Acoperire globală",
+          "description": "Trimiteți SMS în peste 200 de țări cu conexiuni directe cu operatorii pentru rate optime de livrare."
+        },
+        "lightningFast": {
+          "title": "Extrem de rapid",
+          "description": "Mesaje livrate în câteva secunde cu actualizări de stare în timp real și confirmări de livrare."
+        },
+        "secure": {
+          "title": "Securitate la nivel de întreprindere",
+          "description": "Criptare la nivel bancar, conformitate GDPR și gestionare sigură a datelor pentru toate comunicațiile dvs."
+        },
+        "analytics": {
+          "title": "Analize avansate",
+          "description": "Raportare detaliată privind ratele de livrare, ratele de clic și metricile de performanță ale campaniei."
+        },
+        "bulk": {
+          "title": "Mesagerie în masă",
+          "description": "Trimiteți milioane de mesaje personalizate simultan cu programare și limitare inteligentă."
+        },
+        "segmentation": {
+          "title": "Segmentare inteligentă",
+          "description": "Țintiți segmente specifice de clienți cu mesagerie personalizată bazată pe comportament și preferințe."
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare SMS",
+        "description": "Descoperiți cum afacerile utilizează SMS-ul pentru a angaja clienții și a stimula creșterea.",
+        "marketing": {
+          "title": "Campanii de marketing",
+          "description": "Stimulați vânzările cu mesaje promoționale, vânzări flash și oferte personalizate.",
+          "metrics": "până la 45% rate de deschidere"
+        },
+        "support": {
+          "title": "Suport clienți",
+          "description": "Trimiteți actualizări de comenzi, notificări de livrare și mesaje de suport.",
+          "metrics": "95% satisfacție clienți"
+        },
+        "appointments": {
+          "title": "Memento-uri programări",
+          "description": "Reduceți absențele cu confirmări și memento-uri automate de programare.",
+          "metrics": "60% reducere a absențelor"
+        },
+        "emergency": {
+          "title": "Alerte de urgență",
+          "description": "Trimiteți notificări critice și comunicații de urgență instantaneu.",
+          "metrics": "99,9% fiabilitate livrare"
+        }
+      },
+      "cta": {
+        "title": "Gata să vă scalați SMS-ul?",
+        "description": "Alăturați-vă miilor de afaceri care utilizează SeaX pentru a ajunge la milioane de clienți prin SMS.",
+        "primary": "Începeți gratuit",
+        "secondary": "Programați o demonstrație"
+      }
+    },
+    "smsLocal": {
+      "title": "SMS local (10DLC)",
+      "subtitle": "Mesagerie SMS profesională cu numere locale de încredere",
+      "description": "Trimiteți campanii SMS de volum mare utilizând numere 10DLC înregistrate care oferă fiabilitate excepțională și încredere operatorului. Perfect pentru campanii de marketing, memento-uri de programare și notificări clienți.",
+      "seo": {
+        "title": "SMS local (10DLC) - Mesagerie de afaceri profesională | SeaX",
+        "description": "Trimiteți campanii SMS profesionale cu numere locale 10DLC. Livrare ridicată, încredere operatorului și mesagerie conformă pentru comunicațiile dvs. de afaceri."
+      },
+      "hero": {
+        "campaign": {
+          "title": "Tablou de bord campanie marketing",
+          "status": "Activă",
+          "messagesSentValue": "2.847",
+          "messagesSent": "Mesaje trimise",
+          "deliveryRateValue": "98,5%",
+          "deliveryRate": "Rată de livrare"
+        },
+        "recentActivity": {
+          "title": "Activitate recentă",
+          "marketing": {
+            "title": "Campanie vânzare flash",
+            "details": "Trimisă la 1.523 de abonați • 89% livrată"
+          },
+          "appointment": {
+            "title": "Memento-uri programări",
+            "details": "247 memento-uri trimise • 2% rată de absență"
+          }
+        }
+      },
+      "stats": {
+        "deliveryRateValue": "Peste 98%",
+        "deliveryRate": "Rată de livrare",
+        "openRateValue": "96%",
+        "openRate": "Rată de deschidere",
+        "supportValue": "24/7",
+        "support": "Suport"
+      },
+      "features": {
+        "title": "Funcționalități cheie",
+        "subtitle": "Tot ce aveți nevoie pentru marketing SMS profesional",
+        "items": {
+          "0": "Livrare ridicată cu încredere operatorului",
+          "1": "Înregistrare 10DLC și verificare brand",
+          "2": "Proces de pre-aprobare a campaniei",
+          "3": "Suport mesagerie bidirecțională",
+          "4": "Analize și raportare avansate",
+          "5": "Gestionare automată a opt-out-ului",
+          "6": "Șabloane de mesaje și personalizare",
+          "7": "Campanii programate și de tip drip"
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare perfecte",
+        "subtitle": "Aplicații ideale pentru mesageria 10DLC",
+        "items": {
+          "0": "Campanii de marketing și promoții",
+          "1": "Memento-uri și confirmări de programare",
+          "2": "Stare comandă și notificări de livrare",
+          "3": "Serviciu clienți și suport",
+          "4": "Notificări și alerte evenimente",
+          "5": "Sondaje și colectare feedback",
+          "6": "Secvențe de cultivare a lead-urilor",
+          "7": "Comunicații de urgență și critice"
+        }
+      },
+      "pricing": {
+        "title": "Prețuri simple, transparente",
+        "subtitle": "Fără taxe ascunse, costuri predictibile",
+        "setup": {
+          "label": "Configurare campanie",
+          "value": "150 USD"
+        },
+        "monthly": {
+          "label": "Lunar",
+          "value": "2 USD/număr"
+        },
+        "perMessage": {
+          "label": "Per mesaj",
+          "value": "0,02 USD"
+        },
+        "note": "Prețul este pentru SUA și Canada. Înregistrarea brandului și înregistrarea A2P sunt necesare pentru conformitatea 10DLC"
+      },
+      "testimonial": {
+        "quote": "Mesageria 10DLC ne-a transformat complet angajamentul cu clienții. Ratele de livrare sunt remarcabile, iar clienții au încredere în numerele noastre locale.",
+        "author": "Sarah Chen",
+        "company": "Director de marketing, GrowthTech",
+        "results": "Rate de livrare îmbunătățite cu 35% și rate de răspuns ale clienților crescute cu 42%"
+      },
+      "compliance": {
+        "title": "Conformitate simplificată",
+        "description": "Gestionăm toate cerințele complexe 10DLC, astfel încât să vă puteți concentra pe campaniile dvs. de mesagerie",
+        "brandRegistration": {
+          "title": "Înregistrare brand",
+          "description": "Proces complet de verificare a brandului cu rețelele operatorilor pentru încredere și livrare maximă"
+        },
+        "campaignApproval": {
+          "title": "Pre-aprobare campanie",
+          "description": "Obțineți aprobarea campaniilor dvs. de către operatori înainte de lansare pentru a asigura conformitatea și performanța optimă"
+        },
+        "monitoring": {
+          "title": "Monitorizare continuă",
+          "description": "Monitorizare continuă a performanței campaniei și a metricilor de conformitate pentru a menține rate optime de livrare"
+        }
+      }
+    },
+    "smsShortCode": {
+      "seo": {
+        "title": "Serviciu SMS cod scurt | Mesagerie enterprise de volum mare | SeaX",
+        "description": "Trimiteți milioane de mesaje SMS instantaneu cu coduri scurte premium. Marketing SMS enterprise, notificări și comunicații în masă cu rate de livrare de 99,9%."
+      },
+      "nav": {
+        "backToChannels": "← Înapoi la Canale"
+      },
+      "hero": {
+        "title": {
+          "prefix": "SMS Premium cu",
+          "highlight": "Cod scurt dedicat"
+        },
+        "subtitle": "Lansați campanii SMS de volum mare cu propriul dvs. cod scurt de 5-6 cifre. Livrare maximă, viteză instantanee și percepție premium a brandului pentru marketerii serioși.",
+        "primaryCta": "Obțineți codul dvs. scurt",
+        "secondaryCta": "Vedeți demonstrația",
+        "demo": {
+          "title": "Campanie cod scurt",
+          "code": "De la: 12345",
+          "message": "VÂNZARE FLASH: 50% reducere la tot! Utilizați codul SAVE50. Valabil până la miezul nopții. Răspundeți STOP pentru a vă dezabona.",
+          "delivered": "✅ Livrat: 99.847",
+          "rate": "99,9% rată de livrare",
+          "speed": "⚡ Livrare instantanee"
+        },
+        "campaign": {
+          "title": "Tablou de bord campanie Premium",
+          "status": "Activă",
+          "messagesSentValue": "2,4M",
+          "messagesSent": "Mesaje trimise",
+          "deliveryRateValue": "99,8%",
+          "deliveryRate": "Rată de livrare"
+        },
+        "recentActivity": {
+          "title": "Activitate recentă",
+          "marketing": {
+            "title": "Campanie de marketing #2024-001",
+            "details": "Promoție de sărbători trimisă la 1,2 milioane de abonați"
+          },
+          "appointment": {
+            "title": "Memento-uri programări",
+            "details": "850K memento-uri trimise cu 95% rată de deschidere"
+          }
+        }
+      },
+      "features": {
+        "title": "Funcționalități Premium",
+        "description": "Experimentați nivelul premium al marketingului SMS cu coduri scurte dedicate",
+        "highVolume": {
+          "title": "Capacitate de volum mare",
+          "description": "Trimiteți până la 100 de mesaje pe secundă cu infrastructură dedicată de cod scurt"
+        },
+        "instantDelivery": {
+          "title": "Livrare instantanee",
+          "description": "Zero întârzieri cu rutare de cea mai înaltă prioritate prin rețelele operatorilor"
+        },
+        "brandRecognition": {
+          "title": "Recunoaștere brand",
+          "description": "Numere memorabile de 5-6 cifre pe care clienții le recunosc și în care au încredere"
+        },
+        "deliverability": {
+          "title": "Livrare maximă",
+          "description": "Rate de livrare de 99,9% cu relații premium cu operatorii și rutare dedicată"
+        },
+        "subtitle": "Capacități SMS la nivel de întreprindere pentru mesagerie de volum mare",
+        "items": {
+          "ultraHighThroughput": "Debit ultra-ridicat: peste 10.000 de mesaje pe secundă",
+          "premiumDelivery": "Rute de livrare premium pentru fiabilitate maximă",
+          "brandRecognition": "Recunoaștere brand îmbunătățită cu coduri scurte memorabile",
+          "carrierApproved": "Pre-aprobat de toți operatorii majori",
+          "dedicatedSupport": "Gestionare cont și suport dedicate",
+          "complianceReady": "Conformitate încorporată cu reglementările TCPA și CAN-SPAM"
+        }
+      },
+      "comparison": {
+        "title": "Cod scurt vs. alte opțiuni SMS",
+        "description": "Vedeți de ce codurile scurte dedicate sunt alegerea premium pentru marketerii SMS serioși",
+        "shortCode": {
+          "title": "Cod scurt dedicat",
+          "speed": "Livrare instantanee",
+          "volume": "Capacitate 100 mesaje/sec",
+          "deliverability": "99,9% livrare",
+          "cost": "1.000-1.500 USD/lună",
+          "setup": "Configurare 2-3 săptămâni"
+        },
+        "tollFree": {
+          "title": "Număr gratuit",
+          "speed": "Livrare 3-5 secunde",
+          "volume": "Capacitate 25 mesaje/sec",
+          "deliverability": "98,5% livrare",
+          "cost": "15-50 USD/lună",
+          "setup": "Configurare 1-2 zile"
+        },
+        "tenDlc": {
+          "title": "Număr local 10DLC",
+          "speed": "Livrare 5-10 secunde",
+          "volume": "Capacitate 10 mesaje/sec",
+          "deliverability": "95-98% livrare",
+          "cost": "2-10 USD/lună",
+          "setup": "Configurare 5-10 zile"
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare",
+        "description": "Codurile scurte excelează în scenarii specifice de volum mare, sensibile la timp",
+        "flashSales": {
+          "title": "Vânzări flash și promoții",
+          "description": "Oferte sensibile la timp care necesită livrare instantanee",
+          "example": "VÂNZARE FLASH: 50% reducere se termină în 1 oră!"
+        },
+        "alerts": {
+          "title": "Alerte și notificări critice",
+          "description": "Actualizări de urgență și anunțuri importante",
+          "example": "URGENT: Mentenanță serviciu în această seară 23:00-01:00"
+        },
+        "contests": {
+          "title": "Concursuri și voturi",
+          "description": "Campanii interactive care necesită răspunsuri imediate",
+          "example": "Votați pentru favoritul dvs.! Trimiteți A sau B la 12345"
+        },
+        "events": {
+          "title": "Actualizări evenimente și bilete",
+          "description": "Actualizări în timp real pentru evenimente mari și locații",
+          "example": "Evenimentul începe în 30 de minute! Poarta 5 este acum deschisă."
+        },
+        "subtitle": "Perfect pentru comunicații de volum mare, sensibile la timp",
+        "items": {
+          "massMarketing": "Campanii de marketing în masă și promoții",
+          "emergencyAlerts": "Alerte de urgență și notificări critice",
+          "votingPolls": "Vot, sondaje și angajament public",
+          "appointmentReminders": "Memento-uri de programare la scară mare",
+          "transactionalSMS": "SMS tranzacțional de volum mare",
+          "eventNotifications": "Notificări și actualizări evenimente"
+        }
+      },
+      "requirements": {
+        "title": "Cerințe cod scurt",
+        "description": "Înțelegerea investiției și a procesului pentru coduri scurte dedicate",
+        "volume": {
+          "title": "Angajament de volum mare",
+          "description": "Minim 100K mesaje pe lună pentru a justifica investiția"
+        },
+        "compliance": {
+          "title": "Conformitate strictă",
+          "description": "Cerințe de conformitate îmbunătățite și audituri regulate ale operatorilor"
+        },
+        "setup": {
+          "title": "Cronologie configurare",
+          "description": "2-3 săptămâni pentru aprobarea operatorului și provisionarea numărului"
+        },
+        "investment": {
+          "title": "Investiție premium",
+          "description": "1.000-1.500 USD cost lunar recurent pentru rutare dedicată"
+        }
+      },
+      "alternatives": {
+        "title": "Luați în considerare aceste alternative mai întâi",
+        "description": "Pentru majoritatea afacerilor, aceste opțiuni oferă o valoare mai bună și o configurare mai ușoară",
+        "recommended": {
+          "title": "Recomandat pentru majoritatea afacerilor",
+          "tollFree": "SMS gratuit pentru recunoașterea brandului",
+          "tenDlc": "10DLC pentru marketing rentabil",
+          "whatsapp": "WhatsApp pentru acoperire internațională"
+        },
+        "whenToUpgrade": {
+          "title": "Când să faceți upgrade la cod scurt",
+          "volume": "Trimiteți peste 500K mesaje lunar",
+          "speed": "Aveți nevoie de livrare instantanee pentru campanii sensibile la timp",
+          "brand": "Recunoașterea brandului este critică pentru strategia dvs.",
+          "budget": "Aveți un buget anual de marketing SMS de peste 15K USD"
+        }
+      },
+      "cta": {
+        "title": "Gata pentru marketing SMS Premium?",
+        "description": "Codurile scurte sunt perfecte pentru marketerii cu volum mare care au nevoie de viteză și livrare maximă. Să discutăm dacă este potrivit pentru afacerea dvs.",
+        "primary": "Discutați cerințele codului scurt",
+        "secondary": "Începeți cu SMS gratuit",
+        "alternative": "Majoritatea afacerilor încep cu opțiunea noastră de SMS gratuit și fac upgrade la coduri scurte atunci când ating volume mai mari."
+      },
+      "title": "Cod scurt SMS",
+      "subtitle": "SMS enterprise de volum mare",
+      "description": "Atingeți milioane de clienți instantaneu cu mesagerie SMS cu cod scurt premium. Perfect pentru campanii de marketing, notificări și comunicații în masă.",
+      "stats": {
+        "messagesPerSecondValue": "10.000",
+        "messagesPerSecond": "Mesaje/Secundă",
+        "deliveryRateValue": "99,9%",
+        "deliveryRate": "Rată de livrare",
+        "digitNumbersValue": "5-6 cifre",
+        "digitNumbers": "Numere disponibile"
+      },
+      "pricing": {
+        "title": "Prețuri enterprise",
+        "subtitle": "Prețuri scalabile pentru nevoile de mesagerie de volum mare",
+        "setup": {
+          "label": "Taxă de configurare",
+          "value": "5.000 USD"
+        },
+        "monthly": {
+          "label": "Taxă lunară",
+          "value": "1.500 USD"
+        },
+        "perMessage": {
+          "label": "Per mesaj",
+          "value": "0,015 USD"
+        },
+        "note": "Reduceri de volum disponibile pentru peste 1 milion de mesaje/lună"
+      },
+      "testimonial": {
+        "quote": "SMS-ul cu cod scurt SeaX ne-a transformat angajamentul cu clienții. Acum ajungem la milioane de clienți instantaneu cu rate de livrare de top în industrie.",
+        "author": "Michael Rodriguez",
+        "company": "TechCorp Enterprise",
+        "results": "Creștere cu 350% a acoperirii campaniei cu rate de livrare de 99,8%"
+      },
+      "premiumFeatures": {
+        "title": "Avantaje cod scurt Premium",
+        "description": "Experimentați puterea codurilor scurte premium pentru comunicațiile enterprise",
+        "ultraThroughput": {
+          "title": "Debit ultra-ridicat",
+          "description": "Trimiteți până la 10.000 de mesaje pe secundă cu infrastructura noastră premium și parteneriatele cu operatorii."
+        },
+        "premiumRoutes": {
+          "title": "Rute de livrare Premium",
+          "description": "Livrare prioritară garantată prin conexiuni dedicate cu operatorii și rutare premium."
+        },
+        "brandRecognition": {
+          "title": "Recunoaștere brand îmbunătățită",
+          "description": "Numere memorabile de 5-6 cifre pe care clienții le recunosc și în care au încredere pentru comunicațiile brandului dvs."
+        }
+      }
+    },
+    "smsTollFree": {
+      "title": "SMS gratuit",
+      "subtitle": "SMS de afaceri de încredere",
+      "description": "Construiți încredere și îmbunătățiți angajamentul cu numere SMS gratuite. Comunicare profesională pe care clienții o recunosc și la care răspund.",
+      "seo": {
+        "title": "Numere SMS gratuite | Mesagerie de afaceri profesională | SeaX",
+        "description": "Îmbunătățiți încrederea clienților cu numere SMS gratuite. Mesagerie de afaceri profesională cu rate de răspuns mai mari și recunoaștere îmbunătățită a brandului."
+      },
+      "hero": {
+        "title": "Tablou de bord SMS gratuit",
+        "status": "Activ",
+        "phoneNumber": "+1-800-AI-AGENT",
+        "dedicatedNumber": "Numărul dvs. gratuit dedicat",
+        "deliveryRateValue": "94,7%",
+        "deliveryRate": "Rată de livrare",
+        "higherTrustValue": "2,3x",
+        "higherTrust": "Rată de încredere mai mare",
+        "recentMessages": {
+          "title": "Mesaje recente",
+          "customerSupport": {
+            "title": "Răspuns suport clienți",
+            "details": "Răspuns automat trimis de la 1-800-SUPPORT"
+          },
+          "survey": {
+            "title": "Sondaj satisfacție clienți",
+            "details": "Invitație la sondaj trimisă cu 78% rată de răspuns"
+          }
+        }
+      },
+      "stats": {
+        "deliveryRateValue": "94%",
+        "deliveryRate": "Rată de livrare",
+        "higherTrustValue": "2,3x",
+        "higherTrust": "Încredere mai mare",
+        "responseRateValue": "78%",
+        "responseRate": "Rată de răspuns"
+      },
+      "features": {
+        "title": "Avantaje număr gratuit",
+        "subtitle": "Mesagerie profesională care construiește încredere și stimulează angajamentul",
+        "items": {
+          "recognizableNumbers": "Numere 1-800 ușor de recunoscut",
+          "noCharges": "Fără taxe pentru destinatari - gratuit pentru clienți",
+          "professionalImage": "Imagine de brand profesională îmbunătățită",
+          "higherTrust": "Încredere de 2,3 ori mai mare comparativ cu numerele obișnuite",
+          "improvedResponse": "Rate de răspuns cu 78% mai mari",
+          "brandRecognition": "Recunoaștere și reamintire îmbunătățită a brandului"
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare perfecte",
+        "subtitle": "Ideal pentru afacerile care prioritizează încrederea și profesionalismul",
+        "items": {
+          "customerService": "Serviciu clienți și comunicații de suport",
+          "appointmentReminders": "Memento-uri și confirmări de programare",
+          "surveys": "Sondaje de satisfacție a clienților",
+          "notifications": "Notificări importante de cont",
+          "promotions": "Campanii promoționale profesionale",
+          "alerts": "Alerte și actualizări de serviciu"
+        }
+      },
+      "pricing": {
+        "title": "Prețuri profesionale",
+        "subtitle": "Prețuri transparente pentru mesageria SMS gratuită",
+        "setupLabel": "Taxă de configurare",
+        "setup": {
+          "label": "Taxă de configurare",
+          "value": "99 USD"
+        },
+        "monthlyLabel": "Taxă lunară",
+        "monthly": {
+          "label": "Taxă lunară",
+          "value": "29 USD"
+        },
+        "perMessageLabel": "Per mesaj",
+        "perMessage": {
+          "label": "Per mesaj",
+          "value": "0,04 USD"
+        },
+        "note": "Prețul este pentru SUA și Canada. Fără taxe suplimentare ale operatorului sau costuri ascunse"
+      },
+      "testimonial": {
+        "quote": "Funcționalitatea SMS gratuit a îmbunătățit semnificativ ratele noastre de răspuns ale clienților. Clienții au mult mai multă încredere în mesajele de la numărul nostru 1-800 decât în numerele obișnuite.",
+        "author": "Sarah Chen",
+        "company": "HealthCare Plus",
+        "results": "Rate de răspuns cu 78% mai mari și 94% satisfacție clienți"
+      },
+      "trust": {
+        "title": "De ce funcționează SMS-ul gratuit",
+        "description": "Construiți încredere și stimulați angajamentul cu mesageria profesională gratuită",
+        "professionalImage": {
+          "title": "Imagine de brand profesională",
+          "description": "Numerele gratuite transmit instantaneu profesionalism și legitimitate, făcând clienții mai predispuși să se angajeze cu mesajele dvs."
+        },
+        "noCarrierFees": {
+          "title": "Fără taxe pentru clienți",
+          "description": "Clienții nu plătesc pentru a primi mesaje, eliminând o barieră în calea angajamentului și îmbunătățind ratele de răspuns."
+        },
+        "higherResponse": {
+          "title": "Rate de răspuns mai mari",
+          "description": "Studiile arată o încredere de 2,3 ori mai mare și rate de răspuns cu 78% mai bune comparativ cu numerele de telefon obișnuite."
+        }
+      }
+    },
+    "whatsapp": {
+      "seo": {
+        "title": "API platformă WhatsApp Business | Soluție de mesagerie enterprise | SeaX",
+        "description": "Conectați-vă cu peste 2 miliarde de utilizatori WhatsApp din întreaga lume. Mesagerie de afaceri profesională cu media bogată, șabloane și fluxuri de lucru automate pentru angajamentul clienților."
+      },
+      "hero": {
+        "badge": "Cel mai popular canal",
+        "title": {
+          "line1": "Conectați-vă cu",
+          "line2": "Platforma WhatsApp Business"
+        },
+        "description": "Atingeți peste 2 miliarde de utilizatori din întreaga lume cu API-ul platformei WhatsApp Business. Trimiteți mesaje media bogate, automatizați suportul clienților și construiți relații semnificative la scară.",
+        "stats": {
+          "monthlyUsers": "Utilizatori lunari",
+          "openRate": "Rată de deschidere",
+          "engagementRate": "Rată de angajament",
+          "countriesSupported": "Țări acceptate"
+        },
+        "cta": {
+          "primary": "Începeți proba gratuită",
+          "secondary": "Programați o demonstrație"
+        },
+        "demo": {
+          "title": "Campanie WhatsApp",
+          "subtitle": "Tablou de bord performanță live",
+          "templateLabel": "Mesaj șablon",
+          "message": "Bună! Comanda dvs. #12345 este gata de ridicare. Doriți să programați o oră sau aveți nevoie de indicații către magazinul nostru?",
+          "button1": "Programați ridicarea",
+          "button2": "Obțineți indicații",
+          "openRateValue": "94,8%",
+          "openRateLabel": "Rată de deschidere",
+          "deliveredValue": "12,3K",
+          "deliveredLabel": "Mesaje livrate"
+        }
+      },
+      "features": {
+        "title": "De ce să alegeți platforma WhatsApp Business?",
+        "subtitle": "Valorificați cea mai populară platformă de mesagerie din lume pentru comunicațiile dvs. de afaceri",
+        "richMedia": {
+          "title": "Suport media bogată",
+          "description": "Trimiteți imagini, videoclipuri, documente și butoane interactive pentru a crea experiențe captivante pentru clienți."
+        },
+        "globalReach": {
+          "title": "Acoperire globală",
+          "description": "Conectați-vă cu clienții din peste 180 de țări unde WhatsApp face deja parte din rutina lor zilnică."
+        },
+        "security": {
+          "title": "Securitate end-to-end",
+          "description": "Criptarea încorporată asigură comunicarea securizată, menținând în același timp încrederea clienților și confidențialitatea datelor."
+        },
+        "instantDelivery": {
+          "title": "Livrare instantanee",
+          "description": "Mesajele sunt livrate instantaneu cu confirmări de citire și confirmări de livrare pentru o urmărire mai bună."
+        },
+        "analytics": {
+          "title": "Analize avansate",
+          "description": "Urmăriți performanța mesajelor, ratele de angajament și interacțiunile cu clienții cu insight-uri detaliate."
+        },
+        "twoWay": {
+          "title": "Conversații bidirecționale",
+          "description": "Permiteți conversații naturale cu clienții prin răspunsuri automate și transferuri de agenți umani."
+        }
+      },
+      "messageTypes": {
+        "title": "Tipuri și capacități de mesaje",
+        "subtitle": "Alegeți din diverse formate de mesaje pentru a angaja eficient clienții",
+        "template": {
+          "title": "Mesaje șablon",
+          "description": "Șabloane de mesaje pre-aprobate pentru notificări, actualizări și conținut promoțional.",
+          "feature1": "Confirmări și actualizări comenzi",
+          "feature2": "Memento-uri programări",
+          "feature3": "Notificări de plată",
+          "feature4": "Campanii promoționale"
+        },
+        "richMedia": {
+          "title": "Mesaje media bogate",
+          "description": "Angajați clienții cu conținut multimedia, inclusiv imagini, videoclipuri și documente.",
+          "feature1": "Imagini și videoclipuri de înaltă calitate",
+          "feature2": "Documente PDF și cataloage",
+          "feature3": "Mesaje audio și note vocale",
+          "feature4": "Partajare locație"
+        },
+        "interactive": {
+          "title": "Mesaje interactive",
+          "description": "Creați experiențe captivante cu butoane, liste și răspunsuri rapide pentru o mai bună interacțiune cu clienții.",
+          "feature1": "Butoane de răspuns rapid",
+          "feature2": "Selecții de listă",
+          "feature3": "Butoane de apel la acțiune",
+          "feature4": "Cataloage de produse"
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare populare",
+        "subtitle": "Vedeți cum afacerile utilizează WhatsApp pentru a stimula creșterea și a îmbunătăți satisfacția clienților",
+        "support": {
+          "title": "Suport clienți",
+          "description": "Oferiți suport clienților instantaneu cu răspunsuri automate și transferuri de agenți fără întreruperi pentru interogări complexe.",
+          "metrics": "Timp de rezolvare cu 87% mai rapid"
+        },
+        "orders": {
+          "title": "Gestionare comenzi",
+          "description": "Trimiteți confirmări de comenzi, actualizări de livrare și notificări de livrare pentru a ține clienții informați pe tot parcursul procesului.",
+          "metrics": "95% rată de confirmare a livrării"
+        },
+        "marketing": {
+          "title": "Campanii de marketing",
+          "description": "Lansați campanii de marketing țintite cu conținut media bogat și elemente interactive pentru a stimula vânzările și angajamentul.",
+          "metrics": "Rate de conversie de 3,2 ori mai mari"
+        },
+        "appointments": {
+          "title": "Programare programări",
+          "description": "Automatizați programarea programărilor, trimiteți memento-uri și gestionați solicitările de reprogramare prin fluxuri conversaționale.",
+          "metrics": "78% reducere a absențelor"
+        }
+      },
+      "cta": {
+        "title": "Gata să vă conectați cu WhatsApp?",
+        "subtitle": "Alăturați-vă miilor de afaceri care utilizează deja API-ul platformei WhatsApp Business pentru a-și crește relațiile cu clienții",
+        "primary": "Începeți proba gratuită",
+        "secondary": "Programați o demonstrație"
+      }
+    },
+    "voice": {
+      "title": "Campanii vocale AI",
+      "subtitle": "Apeluri telefonice automate la scară",
+      "description": "Atingeți clienții instantaneu cu campanii vocale alimentate de AI. Perfect pentru memento-uri de programare, sondaje, alerte de urgență și contactare personalizată a clienților în peste 100 de țări.",
+      "seoTitle": "Platformă de automatizare a apelurilor vocale - Campanii telefonice alimentate de AI | SeaX",
+      "seoDescription": "Automatizați apelurile telefonice la scară cu SeaX Voice. Campanii vocale alimentate de AI, memento-uri de programare, sondaje și contactare a clienților cu rate de conectare ridicate în peste 100 de țări.",
+      "hero": {
+        "widget": {
+          "title": "Tablou de bord voce AI",
+          "poweredBy": "Alimentat de SeaX",
+          "callsNumber": "24.847",
+          "callsCompletedToday": "apeluri finalizate astăzi",
+          "connectionRateValue": "87%",
+          "connectionRateLabel": "Rată de conectare",
+          "countriesValue": "Peste 100",
+          "countriesLabel": "Țări acceptate",
+          "activeCalls": "Apeluri active",
+          "usPhoneNumber": "+1 (555) 123-4567",
+          "appointmentReminder": "Apel memento programare",
+          "ukPhoneNumber": "+44 20 7946 0958",
+          "surveyCall": "Sondaj satisfacție clienți"
+        }
+      },
+      "stats": {
+        "languagesValue": "Peste 25",
+        "languagesLabel": "Limbi acceptate"
+      },
+      "features": {
+        "title": "Funcționalități vocale puternice",
+        "subtitle": "Tot ce aveți nevoie pentru campanii vocale de succes",
+        "items": {
+          "0": "Sinteză vocală naturală alimentată de AI",
+          "1": "Suport multilingv (peste 25 de limbi)",
+          "2": "Analiză și raportare apeluri în timp real",
+          "3": "Capacitate de răspuns vocal interactiv (IVR)",
+          "4": "Detectare și gestionare mesagerie vocală",
+          "5": "Înregistrare și transcriere apeluri",
+          "6": "Logică de reîncercare inteligentă și programare",
+          "7": "Conformitate cu reglementările de telemarketing",
+          "globalReach": "Acoperire globală cu numere de telefon locale în peste 180 de țări",
+          "highQuality": "Calitate vocală HD cristalină cu rutare inteligentă",
+          "smartDialing": "Apelare inteligentă cu sincronizare optimă și programare apeluri",
+          "multiLanguage": "Suport multilingv cu voci cu sunet nativ",
+          "realTimeAnalytics": "Analiză apeluri în timp real și urmărire performanță",
+          "complianceReady": "Conformitate încorporată cu reglementările de telemarketing"
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare campanii vocale",
+        "subtitle": "Aplicații dovedite pentru automatizarea vocală",
+        "items": {
+          "0": "Memento-uri și confirmări de programare",
+          "1": "Sondaje de satisfacție a clienților",
+          "2": "Memento-uri de plată și colectări",
+          "3": "Alerte și notificări de urgență",
+          "4": "Confirmări și actualizări evenimente",
+          "5": "Calificare și cultivare lead-uri",
+          "6": "Cercetare de piață și sondaje",
+          "7": "Notificări de întrerupere a serviciului",
+          "appointmentReminders": "Memento-uri și confirmări automate de programare",
+          "customerSurveys": "Sondaje de satisfacție și feedback clienți",
+          "salesOutreach": "Contactare vânzări și apeluri de calificare lead-uri",
+          "paymentReminders": "Memento-uri de plată și apeluri de colectare",
+          "emergencyAlerts": "Notificări de urgență și alerte critice",
+          "eventNotifications": "Memento-uri evenimente și anunțuri importante"
+        }
+      },
+      "pricing": {
+        "title": "Prețuri campanii vocale",
+        "subtitle": "Prețuri rentabile pentru automatizarea vocală",
+        "setup": {
+          "label": "Taxă de configurare",
+          "value": "199 USD"
+        },
+        "monthly": {
+          "label": "Taxă lunară",
+          "value": "49 USD"
+        },
+        "perMinute": {
+          "label": "Per minut",
+          "value": "0,12 USD"
+        },
+        "note": {
+          "value": "Reduceri de volum disponibile pentru peste 10.000 de apeluri/lună"
+        },
+        "perMessage": {
+          "label": "Per mesaj",
+          "value": "0,08 USD"
+        }
+      },
+      "testimonial": {
+        "quote": "Campaniile vocale SeaX ne-au revoluționat memento-urile de programare. Am redus absențele cu 70% și am îmbunătățit semnificativ satisfacția clienților.",
+        "author": "Dr. Emily Rodriguez",
+        "company": "HealthFirst Medical Group",
+        "results": "Reducere cu 70% a absențelor și 95% rată de satisfacție a clienților"
+      }
+    }
+  },
+  "solutions": {
+    "leadGeneration": {
+      "seo": {
+        "title": "Soluție de generare de lead-uri - Contactare multi-canal SeaX",
+        "description": "Generați lead-uri calificate la scară cu soluția de generare de lead-uri multi-canal SeaX. Campanii SMS, WhatsApp și voce cu follow-up-uri alimentate de AI."
+      },
+      "hero": {
+        "title": "Generare de lead-uri",
+        "titleHighlight": "la scară",
+        "description": "Generați lead-uri calificate cu campanii multi-canal pe SMS, WhatsApp și apeluri vocale. Follow-up-urile alimentate de AI asigură că nicio oportunitate nu este ratată.",
+        "cta": {
+          "primary": "Începeți să generați lead-uri",
+          "secondary": "Programați o demonstrație"
+        }
+      },
+      "features": {
+        "title": "Funcționalități puternice de generare de lead-uri",
+        "subtitle": "Tot ce aveți nevoie pentru a capta, califica și converti lead-uri la scară",
+        "targetedOutreach": {
+          "title": "Contactare țintită",
+          "description": "Atingeți prospecții potriviți cu țintire precisă pe SMS, WhatsApp și apeluri vocale."
+        },
+        "multiChannelCampaigns": {
+          "title": "Campanii multi-canal",
+          "description": "Executați campanii coordonate pe SMS, WhatsApp și voce pentru impact maxim."
+        },
+        "aiFollowUps": {
+          "title": "Follow-up-uri alimentate de AI",
+          "description": "Răspunsuri inteligente automate care califică lead-urile și programează întâlniri 24/7."
+        },
+        "realTimeAnalytics": {
+          "title": "Analiză în timp real",
+          "description": "Urmăriți performanța campaniei, calitatea lead-urilor și ratele de conversie în timp real."
+        },
+        "leadScoring": {
+          "title": "Scor lead-uri",
+          "description": "Scorizare și prioritizare automată a lead-urilor pe baza angajamentului și a răspunsurilor."
+        },
+        "voiceQualification": {
+          "title": "Calificare vocală",
+          "description": "Apeluri vocale alimentate de AI pentru a califica lead-urile și a programa programări automat."
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare generare lead-uri",
+        "subtitle": "Strategii dovedite în diverse industrii și tipuri de afaceri",
+        "b2bSales": {
+          "title": "Contactare vânzări B2B",
+          "description": "Generați lead-uri calificate pentru echipele de vânzări B2B cu campanii de mesagerie țintite.",
+          "stats": "Creștere cu 300% a lead-urilor calificate"
+        },
+        "realEstate": {
+          "title": "Generare lead-uri imobiliare",
+          "description": "Conectați-vă cu cumpărătorii și vânzătorii de proprietăți prin campanii multi-canal.",
+          "stats": "Îmbunătățire cu 85% a ratei de răspuns"
+        },
+        "insurance": {
+          "title": "Calificare lead-uri asigurări",
+          "description": "Calificați prospecții de asigurări cu follow-up-uri automate și programare programări.",
+          "stats": "Reducere cu 60% a timpului de calificare"
+        },
+        "eventRegistration": {
+          "title": "Înregistrare evenimente",
+          "description": "Stimulați înregistrările la evenimente cu invitații țintite și secvențe de follow-up.",
+          "stats": "Creștere cu 200% a înregistrărilor"
+        }
+      },
+      "stats": {
+        "title": "Rezultate dovedite",
+        "subtitle": "Vedeți ce obțin clienții noștri cu generarea de lead-uri SeaX",
+        "qualifiedLeads": {
+          "value": "5x",
+          "label": "Mai multe lead-uri calificate"
+        },
+        "responseRate": {
+          "value": "85%",
+          "label": "Rată de răspuns"
+        },
+        "timeSavings": {
+          "value": "60%",
+          "label": "Economie de timp"
+        },
+        "roiIncrease": {
+          "value": "300%",
+          "label": "Creștere ROI"
+        }
+      },
+      "cta": {
+        "title": "Gata să vă scalați generarea de lead-uri?",
+        "subtitle": "Alăturați-vă miilor de afaceri care generează lead-uri calificate cu SeaX",
+        "primary": "Înregistrați-vă acum",
+        "secondary": "Programați o demonstrație"
+      }
+    },
+    "marketingAutomation": {
+      "seo": {
+        "title": "Platformă de automatizare marketing - Automatizare multi-canal SeaX",
+        "description": "Automatizați-vă campaniile de marketing pe SMS, WhatsApp și apeluri vocale. Fluxuri de lucru avansate, segmentare public și analize de performanță."
+      },
+      "hero": {
+        "title": {
+          "main": "Automatizare marketing",
+          "highlight": "care funcționează"
+        },
+        "description": "Automatizați-vă campaniile de marketing pe SMS, WhatsApp și apeluri vocale. Creați fluxuri de lucru sofisticate care cultivă lead-uri și stimulează conversiile 24/7.",
+        "cta": {
+          "primary": "Începeți automatizarea",
+          "secondary": "Vedeți demonstrația"
+        }
+      },
+      "features": {
+        "title": "Funcționalități puternice de automatizare",
+        "subtitle": "Construiți campanii sofisticate care rulează automat și generează rezultate",
+        "items[0]": {
+          "title": "Fluxuri de lucru automate",
+          "description": "Creați campanii complexe în mai multe etape care se declanșează pe baza comportamentului și a răspunsurilor clienților."
+        },
+        "items[1]": {
+          "title": "Sincronizare inteligentă",
+          "description": "Trimiteți mesaje la ore optime pe baza fusului orar al clientului și a modelelor de angajament."
+        },
+        "items[2]": {
+          "title": "Segmentare public",
+          "description": "Țintiți segmente specifice de clienți cu mesagerie personalizată pe toate canalele."
+        },
+        "items[3]": {
+          "title": "Analiză performanță",
+          "description": "Urmăriți ratele de angajament, conversiile și ROI-ul cu analize detaliate ale campaniei."
+        },
+        "items[4]": {
+          "title": "Secvențe multi-canal",
+          "description": "Orchestrați campanii pe SMS, WhatsApp și apeluri vocale pentru acoperire maximă."
+        },
+        "items[5]": {
+          "title": "Testare A/B",
+          "description": "Testați diferite mesaje, sincronizări și canale pentru a optimiza performanța campaniei."
+        }
+      },
+      "automationTypes": {
+        "title": "Fluxuri de lucru automatizare",
+        "subtitle": "Secvențe de automatizare predefinite pentru scenarii comune de marketing",
+        "items[0]": {
+          "title": "Serie de bun venit",
+          "description": "Integrați automat clienții noi cu secvențe de bun venit personalizate.",
+          "example": "SMS de bun venit → Informații produs → Ofertă specială → Solicitare feedback"
+        },
+        "items[1]": {
+          "title": "Recuperare coș abandonat",
+          "description": "Reangajați clienții care au lăsat articole în coș cu memento-uri țintite.",
+          "example": "Memento coș → Reducere pe termen limitat → Recomandări produse"
+        },
+        "items[2]": {
+          "title": "Ciclul de viață al clientului",
+          "description": "Ghidarea clienților prin călătoria lor cu puncte de contact automate.",
+          "example": "Confirmare achiziție → Sfaturi de utilizare → Oportunități de upselling → Recompense de loialitate"
+        },
+        "items[3]": {
+          "title": "Campanii de reangajare",
+          "description": "Reconectați clienții inactivi cu secvențe de reangajare captivante.",
+          "example": "Mesaj \"Mi-e dor de tine\" → Ofertă exclusivă → Actualizări produse → Stimulent de reconectare"
+        },
+        "exampleFlowLabel": "Exemplu de flux:"
+      },
+      "stats": {
+        "title": "Rezultate automatizare",
+        "subtitle": "Vedeți impactul automatizării marketingului asupra afacerii dvs.",
+        "items[0]": {
+          "value": "10x",
+          "label": "Mai eficient"
+        },
+        "items[1]": {
+          "value": "95%",
+          "label": "Rată de angajament"
+        },
+        "items[2]": {
+          "value": "75%",
+          "label": "Economie de timp"
+        },
+        "items[3]": {
+          "value": "400%",
+          "label": "Creștere ROI"
+        }
+      },
+      "cta": {
+        "title": "Gata să vă automatizați marketingul?",
+        "description": "Alăturați-vă miilor de afaceri care își scalează marketingul cu automatizarea SeaX",
+        "primary": "Înregistrați-vă acum",
+        "secondary": "Programați o demonstrație"
+      }
+    },
+    "customerEngagement": {
+      "seo": {
+        "title": "Angajament clienți - Platforma de comunicare SeaX",
+        "description": "Construiți relații mai puternice cu clienții cu angajament personalizat multi-canal prin SMS, WhatsApp și apeluri vocale."
+      },
+      "hero": {
+        "title": {
+          "main": "Angajament clienți",
+          "highlight": "care construiește loialitate"
+        },
+        "description": "Construiți relații mai puternice cu clienții cu angajament personalizat multi-canal prin SMS, WhatsApp și apeluri vocale. Transformați fiecare interacțiune într-o oportunitate.",
+        "cta": {
+          "primary": "Angajați clienții",
+          "secondary": "Programați o demonstrație"
+        }
+      },
+      "features": {
+        "title": "Funcționalități de angajament",
+        "subtitle": "Tot ce aveți nevoie pentru a construi relații semnificative cu clienții",
+        "items[0]": {
+          "title": "Profilare avansată a clienților",
+          "description": "Creați profiluri îmbogățite ale clienților pentru un angajament mai personalizat."
+        },
+        "items[1]": {
+          "title": "Mesagerie multi-canal",
+          "description": "Angajați clienții prin SMS, WhatsApp și mesagerie în aplicație."
+        },
+        "items[2]": {
+          "title": "Analiza sentimentului",
+          "description": "Înțelegeți sentimentele clienților și ajustați comunicațiile în consecință."
+        },
+        "items[3]": {
+          "title": "Analiză comportamentală",
+          "description": "Urmăriți și analizați comportamentul clienților pentru a îmbunătăți strategiile de angajament."
+        },
+        "items[4]": {
+          "title": "Instrumente de marketing direct",
+          "description": "Derulați campanii țintite cu precizie, pe baza datelor clienților."
+        },
+        "items[5]": {
+          "title": "Interacțiune în timp real",
+          "description": "Angajați clienții atunci când contează cel mai mult, cu declanșatoare și comunicare în timp real."
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare angajament",
+        "subtitle": "Strategii de angajament clienți din lumea reală în diverse industrii",
+        "items[0]": {
+          "title": "Angajament E-commerce",
+          "description": "Creșteți afacerile repetate și retenția clienților prin promoții personalizate.",
+          "stats": "Creștere cu 20% a achizițiilor repetate"
+        },
+        "items[1]": {
+          "title": "Alerte servicii financiare",
+          "description": "Țineți clienții informați despre activitățile contului cu alerte și actualizări automate.",
+          "stats": "80% rată de angajament la alerte"
+        },
+        "items[2]": {
+          "title": "Călătorii și ospitalitate",
+          "description": "Îmbunătățiți experiența oaspeților cu actualizări înainte de sosire și itinerarii personalizate.",
+          "stats": "Reducere cu 50% a interogărilor clienților"
+        },
+        "items[3]": {
+          "title": "Programe de loialitate retail",
+          "description": "Stimulați loialitatea cu recompense și oferte personalizate bazate pe istoricul achizițiilor.",
+          "stats": "Creștere cu 25% a membrilor programului de loialitate"
+        }
+      },
+      "stats": {
+        "title": "Rezultate angajament",
+        "subtitle": "Vedeți impactul angajamentului îmbunătățit al clienților",
+        "items[0]": {
+          "value": "40%",
+          "label": "Angajament mai mare"
+        },
+        "items[1]": {
+          "value": "85%",
+          "label": "Satisfacția clientului"
+        },
+        "items[2]": {
+          "value": "60%",
+          "label": "Rată de achiziții repetate"
+        },
+        "items[3]": {
+          "value": "3x",
+          "label": "Valoare pe durata de viață a clientului"
+        }
+      },
+      "cta": {
+        "title": "Gata să construiți relații mai puternice cu clienții?",
+        "description": "Alăturați-vă miilor de afaceri care utilizează SeaX pentru a angaja clienții și a construi loialitate durabilă",
+        "primary": "Începeți astăzi"
+      }
+    },
+    "appointmentReminders": {
+      "seo": {
+        "title": "Memento-uri programări - Programare automată SeaX",
+        "description": "Reduceți absențele și îmbunătățiți prezența cu memento-uri automate de programare prin SMS, WhatsApp și apeluri vocale. Sistem inteligent de programare și confirmare."
+      },
+      "hero": {
+        "title": {
+          "main": "Memento-uri programări",
+          "highlight": "care funcționează"
+        },
+        "description": "Reduceți absențele și îmbunătățiți prezența cu memento-uri automate de programare prin SMS, WhatsApp și apeluri vocale. Programare inteligentă cu comunicare bidirecțională.",
+        "cta": {
+          "primary": "Începeți să reduceți absențele",
+          "secondary": "Programați o demonstrație"
+        }
+      },
+      "features": {
+        "title": "Funcționalități puternice de memento",
+        "subtitle": "Tot ce aveți nevoie pentru a menține programările pe drumul cel bun și a reduce absențele",
+        "items[0]": {
+          "title": "Programare inteligentă",
+          "description": "Programați automat programări și trimiteți confirmări prin SMS, WhatsApp și apeluri vocale."
+        },
+        "items[1]": {
+          "title": "Memento-uri în mai multe etape",
+          "description": "Trimiteți memento-uri personalizate la intervale optime - cu 24 de ore, 1 oră și 15 minute înainte de programări."
+        },
+        "items[2]": {
+          "title": "Comunicare bidirecțională",
+          "description": "Permiteți clienților să confirme, să reprogrameze sau să anuleze programările direct prin SMS sau WhatsApp."
+        },
+        "items[3]": {
+          "title": "Notificări personal",
+          "description": "Țineți-vă echipa informată cu actualizări în timp real despre modificările și confirmările programărilor."
+        },
+        "items[4]": {
+          "title": "Alerte personalizate",
+          "description": "Configurați programe și mesaje de memento personalizate pentru diferite tipuri și durate de programări."
+        },
+        "items[5]": {
+          "title": "Analiză și insight-uri",
+          "description": "Urmăriți ratele de absență, ratele de confirmare și optimizați-vă strategia de memento cu analize detaliate."
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare memento-uri programări",
+        "subtitle": "Strategii dovedite de memento-uri programări în diverse industrii",
+        "items[0]": {
+          "title": "Practici medicale",
+          "description": "Reduceți absențele la programările medicale cu memento-uri automate și opțiuni ușoare de reprogramare.",
+          "stats": "40% reducere a absențelor"
+        },
+        "items[1]": {
+          "title": "Frumusețe și wellness",
+          "description": "Mențineți programările la salon și spa pe drumul cel bun cu memento-uri personalizate și solicitări de confirmare.",
+          "stats": "85% rată de confirmare"
+        },
+        "items[2]": {
+          "title": "Servicii profesionale",
+          "description": "Asigurați-vă că consultațiile și întâlnirile au loc la timp cu secvențe de memento multi-canal.",
+          "stats": "90% rată de prezență"
+        },
+        "items[3]": {
+          "title": "Servicii auto",
+          "description": "Reamintiți clienților programările de service și programele de întreținere automat.",
+          "stats": "60% creștere a vizitelor repetate"
+        }
+      },
+      "stats": {
+        "title": "Rezultate dovedite",
+        "subtitle": "Vedeți ce obțin clienții noștri cu memento-urile de programare SeaX",
+        "items[0]": {
+          "value": "40%",
+          "label": "Reducere a absențelor"
+        },
+        "items[1]": {
+          "value": "90%",
+          "label": "Rată de prezență"
+        },
+        "items[2]": {
+          "value": "75%",
+          "label": "Economie de timp"
+        },
+        "items[3]": {
+          "value": "95%",
+          "label": "Satisfacția clientului"
+        }
+      },
+      "cta": {
+        "title": "Gata să reduceți absențele și să îmbunătățiți prezența?",
+        "description": "Alăturați-vă miilor de afaceri care își îmbunătățesc prezența la programări cu SeaX",
+        "primary": "Începeți astăzi"
+      }
+    },
+    "emergencyAlerts": {
+      "seo": {
+        "title": "Alerte de urgență - Sistem de notificare SeaX",
+        "description": "Trimiteți alerte de urgență instantanee cu comunicare în timp real prin SMS, voce și WhatsApp. Asigurați livrarea mesajelor în situații critice."
+      },
+      "hero": {
+        "title": {
+          "main": "Alerte de urgență",
+          "highlight": "care salvează vieți"
+        },
+        "description": "Trimiteți alerte de urgență instantanee cu comunicare în timp real prin SMS, voce și WhatsApp. Asigurați livrarea mesajelor în situații critice când fiecare secundă contează.",
+        "cta": {
+          "primary": "Începeți să trimiteți alerte",
+          "secondary": "Programați o demonstrație de siguranță"
+        }
+      },
+      "features": {
+        "title": "Funcționalități de alertă critică",
+        "subtitle": "Tot ce aveți nevoie pentru comunicații de urgență eficiente și fiabile",
+        "items[0]": {
+          "title": "Difuzări de urgență instantanee",
+          "description": "Trimiteți alerte critice la mii de destinatari simultan prin SMS, voce și WhatsApp."
+        },
+        "items[1]": {
+          "title": "Livrare sensibilă la timp",
+          "description": "Livrarea mesajelor prioritizată asigură că comunicațiile de urgență ajung la destinatari imediat."
+        },
+        "items[2]": {
+          "title": "Grupuri de destinatari țintite",
+          "description": "Creați și gestionați grupuri specifice pentru diferite tipuri de urgențe și locații."
+        },
+        "items[3]": {
+          "title": "Infrastructură fiabilă",
+          "description": "Construită pe infrastructură la nivel de operator pentru a asigura că mesajele ajung la destinație atunci când contează cel mai mult."
+        },
+        "items[4]": {
+          "title": "Alerte multi-canal",
+          "description": "Atingeți oamenii prin canalele lor de comunicare preferate pentru rate maxime de răspuns."
+        },
+        "items[5]": {
+          "title": "Comunicare bidirecțională",
+          "description": "Primiți confirmări și răspunsuri de la destinatari pentru a urmări eficacitatea alertei."
+        }
+      },
+      "useCases": {
+        "title": "Cazuri de utilizare alerte de urgență",
+        "subtitle": "Aplicații din lumea reală pentru a asigura siguranța și comunicarea",
+        "items[0]": {
+          "title": "Răspuns la urgențe corporative",
+          "description": "Notificați angajații despre amenințări de securitate, evacuări sau întreruperi critice ale afacerii.",
+          "stats": "99,9% rată de succes a livrării"
+        },
+        "items[1]": {
+          "title": "Alerte de siguranță școlară",
+          "description": "Informați instantaneu părinții, elevii și personalul despre închideri de școli sau incidente de siguranță.",
+          "stats": "Timp mediu de livrare de 30 de secunde"
+        },
+        "items[2]": {
+          "title": "Alerte critice în sănătate",
+          "description": "Alertați personalul medical despre situații de cod, urgențe ale pacienților sau incidente la unitate.",
+          "stats": "95% rată de răspuns în 5 minute"
+        },
+        "items[3]": {
+          "title": "Notificări de siguranță publică",
+          "description": "Avertizați comunitățile despre dezastre naturale, condiții periculoase sau amenințări la siguranța publică.",
+          "stats": "Peste 10.000 de destinatari pe minut"
+        }
+      },
+      "stats": {
+        "title": "Răspuns de urgență dovedit",
+        "subtitle": "Livrați mesaje fiabil atunci când fiecare secundă contează",
+        "items[0]": {
+          "value": "99,9%",
+          "label": "Rată de succes a livrării"
+        },
+        "items[1]": {
+          "value": "30 sec",
+          "label": "Timp mediu de livrare"
+        },
+        "items[2]": {
+          "value": "95%",
+          "label": "Răspuns în 5 minute"
+        },
+        "items[3]": {
+          "value": "Peste 10.000",
+          "label": "Mesaje pe minut"
+        }
+      },
+      "cta": {
+        "title": "Gata să asigurați siguranța și comunicarea?",
+        "description": "Alăturați-vă miilor de organizații care utilizează SeaX pentru a asigura siguranța și a comunica eficient în timpul urgențelor.",
+        "primary": "Începeți astăzi"
+      }
+    }
+  }
+}

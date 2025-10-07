@@ -1,0 +1,1868 @@
+{
+  "seavoice": {
+    "header": {
+      "navigation": {
+        "platform": {
+          "title": "Nền tảng",
+          "overview": "Tổng quan nền tảng",
+          "landlineMobile": "Điện thoại cố định & Di động",
+          "voipSipByoc": "VoIP & SIP & BYOC Voice",
+          "lineCallPlus": "Line Call Plus cho doanh nghiệp",
+          "whatsAppVoice": "API thoại WhatsApp cho doanh nghiệp",
+          "speechToText": "Chuyển giọng nói thành văn bản",
+          "textToSpeech": "Chuyển văn bản thành giọng nói",
+          "endToEndLlms": "LLM đầu cuối"
+        },
+        "inboundSolutions": {
+          "title": "Giải pháp cuộc gọi đến",
+          "virtualAssistant": "Trợ lý ảo 24/7",
+          "callTransfer": "Chuyển cuộc gọi thông minh",
+          "ivrReplacement": "Thay thế IVR",
+          "mentalHealth": "Đồng hành sức khỏe tâm thần",
+          "scamShield": "Bảo vệ chống lừa đảo",
+          "technicalSupport": "Hỗ trợ kỹ thuật",
+          "orderTracking": "Trạng thái & Theo dõi đơn hàng",
+          "paymentProcessing": "Xử lý thanh toán",
+          "appointmentBooking": "Đặt lịch hẹn"
+        },
+        "outboundSolutions": {
+          "title": "Giải pháp cuộc gọi đi",
+          "leadGeneration": "Tạo & Sàng lọc khách hàng tiềm năng",
+          "collections": "Dịch vụ thu nợ",
+          "reactivation": "Kích hoạt lại khách hàng",
+          "seniorChecks": "Kiểm tra cuộc gọi cho người cao tuổi",
+          "campaigns": "Chiến dịch quy mô lớn",
+          "proactiveSupport": "Hỗ trợ chủ động",
+          "renewals": "Gia hạn đăng ký",
+          "surveys": "Khảo sát khách hàng",
+          "fraudAlerts": "Cảnh báo gian lận"
+        },
+        "pricing": "Giá cả"
+      },
+      "auth": {
+        "signIn": "Đăng nhập",
+        "getStarted": "Bắt đầu"
+      },
+      "backToMainSite": "Quay lại trang web chính"
+    },
+    "home": {
+      "hero": {
+        "tagline": "Doanh nghiệp của bạn không bao giờ ngủ",
+        "title": {
+          "line1": "Nhân viên giọng nói AI",
+          "line2": "Xử lý cuộc gọi 24/7"
+        },
+        "subtitle": {
+          "line1": "Chuyển đổi tương tác khách hàng với AI giống con người không bao giờ ngủ.",
+          "line2": "Tự động hóa hỗ trợ, đặt chỗ và cuộc gọi đi với quy mô lớn."
+        },
+        "bookDemo": "Đặt lịch demo",
+        "signUp": "Đăng ký ngay"
+      },
+      "voiceDemo": {
+        "title": "Thử công nghệ giọng nói của chúng tôi",
+        "subtitle": "Nghe các ví dụ thực tế về SeaVoice đang hoạt động và trải nghiệm tương lai của các cuộc trò chuyện do AI hỗ trợ"
+      },
+      "conversationFlow": {
+        "step1": {
+          "title": "Khách hàng gọi",
+          "description": "Người gọi quay số doanh nghiệp của bạn"
+        },
+        "step2": {
+          "title": "Nhân viên AI trả lời",
+          "description": "SeaVoice AI nhấc máy ngay lập tức"
+        },
+        "step3": {
+          "title": "Cuộc trò chuyện tự nhiên",
+          "description": "Tương tác giọng nói giống con người"
+        },
+        "step4": {
+          "title": "Hoàn thành tác vụ",
+          "description": "Đặt chỗ, hỗ trợ hoặc chuyển"
+        }
+      },
+      "conversationExamples": {
+        "appointment": {
+          "customer": "Chào, tôi muốn đặt lịch hẹn vào tuần tới.",
+          "ai": "Tôi rất vui được giúp bạn đặt lịch hẹn! Hãy để tôi kiểm tra tình trạng sẵn có của chúng tôi vào tuần tới. Bạn đang tìm kiếm loại dịch vụ nào?",
+          "scenario": "Đặt lịch hẹn"
+        },
+        "support": {
+          "customer": "Tôi đang gặp sự cố với đơn hàng gần đây của mình. Bạn có thể giúp không?",
+          "ai": "Tất nhiên! Tôi ở đây để giúp bạn với đơn hàng của bạn. Bạn có thể vui lòng cung cấp số đơn hàng của bạn để tôi có thể tra cứu chi tiết cho bạn không?",
+          "scenario": "Hỗ trợ khách hàng"
+        },
+        "inquiry": {
+          "customer": "Giờ làm việc của bạn là gì?",
+          "ai": "Chúng tôi mở cửa từ thứ Hai đến thứ Sáu từ 9 giờ sáng đến 6 giờ chiều, và thứ Bảy từ 10 giờ sáng đến 4 giờ chiều. Chúng tôi đóng cửa vào Chủ Nhật. Bạn có muốn biết điều gì cụ thể về dịch vụ của chúng tôi không?",
+          "scenario": "Yêu cầu chung"
+        }
+      },
+      "useCases": {
+        "title": {
+          "line1": "Chuyển đổi doanh nghiệp của bạn với",
+          "line2": "Các trường hợp sử dụng thành công"
+        },
+        "subtitle": "Khám phá cách các nhà lãnh đạo ngành tận dụng SeaVoice AI để cách mạng hóa tương tác khách hàng và thúc đẩy tăng trưởng",
+        "badge": "Những câu chuyện thành công đã được chứng minh",
+        "inbound": {
+          "category": "Giải pháp cuộc gọi đến",
+          "appointmentBooking": {
+            "title": "Đặt lịch hẹn & Quản lý",
+            "description": "Tự động hóa việc lên lịch hẹn với AI hiểu tình trạng sẵn có, sở thích và quy tắc kinh doanh."
+          },
+          "technicalSupport": {
+            "title": "Tự động hóa hỗ trợ kỹ thuật",
+            "description": "Cung cấp hỗ trợ kỹ thuật tức thì với AI có thể chẩn đoán vấn đề và hướng dẫn khách hàng qua các giải pháp."
+          },
+          "virtualAssistant": {
+            "title": "Trợ lý ảo",
+            "description": "Xử lý các yêu cầu chung, cung cấp thông tin và định tuyến cuộc gọi một cách thông minh."
+          },
+          "callTransfer": {
+            "title": "Chuyển & Định tuyến cuộc gọi",
+            "description": "Định tuyến cuộc gọi một cách thông minh đến bộ phận hoặc nhân viên phù hợp dựa trên nhu cầu của người gọi."
+          },
+          "orderTracking": {
+            "title": "Theo dõi & Hỗ trợ đơn hàng",
+            "description": "Cho phép khách hàng kiểm tra trạng thái đơn hàng, theo dõi lô hàng và nhận cập nhật giao hàng."
+          },
+          "paymentProcessing": {
+            "title": "Xử lý thanh toán",
+            "description": "Xử lý thanh toán an toàn, xử lý các yêu cầu thanh toán và quản lý thông tin tài khoản."
+          },
+          "ivrReplacement": {
+            "title": "Thay thế IVR",
+            "description": "Thay thế các menu truyền thống bằng hiểu biết ngôn ngữ tự nhiên để có trải nghiệm mượt mà hơn."
+          },
+          "mentalHealth": {
+            "title": "Hỗ trợ sức khỏe tâm thần",
+            "description": "Cung cấp hỗ trợ sức khỏe tâm thần do AI điều khiển đầy cảm thông suốt ngày đêm."
+          },
+          "scamShield": {
+            "title": "Bảo vệ chống lừa đảo",
+            "description": "Bảo vệ người dùng của bạn khỏi các vụ lừa đảo bằng cách phát hiện và chặn thời gian thực."
+          },
+          "type": "Cuộc gọi đến"
+        },
+        "outbound": {
+          "category": "Giải pháp cuộc gọi đi",
+          "leadGeneration": {
+            "title": "Tạo & Sàng lọc khách hàng tiềm năng",
+            "description": "Chuyển đổi kênh bán hàng của bạn với việc tạo khách hàng tiềm năng do AI hỗ trợ xác định và sàng lọc khách hàng tiềm năng."
+          },
+          "seniorChecks": {
+            "title": "Kiểm tra cuộc gọi & Sức khỏe cho người cao tuổi",
+            "description": "Kiểm tra sức khỏe định kỳ do AI hỗ trợ cho người cao tuổi với các cuộc trò chuyện đầy cảm thông giám sát sức khỏe."
+          },
+          "surveys": {
+            "title": "Khảo sát & Phản hồi khách hàng",
+            "description": "Thực hiện các cuộc khảo sát sau mua hàng và thu thập phản hồi có giá trị từ khách hàng một cách tự động."
+          },
+          "collections": {
+            "title": "Thu nợ & Nhắc nhở thanh toán",
+            "description": "Các cuộc gọi thu nợ tôn trọng và hiệu quả giúp cải thiện tỷ lệ thanh toán trong khi duy trì mối quan hệ."
+          },
+          "reactivation": {
+            "title": "Kích hoạt lại khách hàng",
+            "description": "Tái tương tác với khách hàng không hoạt động bằng các chiến dịch tiếp cận cá nhân hóa."
+          },
+          "fraudAlerts": {
+            "title": "Cảnh báo & Xác minh gian lận",
+            "description": "Thông báo cho khách hàng về các giao dịch đáng ngờ và xác minh danh tính của họ để bảo mật."
+          },
+          "campaigns": {
+            "title": "Chiến dịch quy mô lớn",
+            "description": "Thực hiện các chiến dịch thoại lớn để tiếp cận hàng ngàn khách hàng trên toàn cầu."
+          },
+          "proactiveSupport": {
+            "title": "Hỗ trợ khách hàng chủ động",
+            "description": "Giữ khách hàng được thông báo chủ động với các thông báo thông minh."
+          },
+          "renewals": {
+            "title": "Gia hạn đăng ký",
+            "description": "Tự động hóa việc gia hạn với các nhắc nhở và xử lý thanh toán liền mạch."
+          },
+          "type": "Cuộc gọi đi"
+        },
+        "types": {
+          "inbound": "Cuộc gọi đến",
+          "outbound": "Cuộc gọi đi"
+        }
+      },
+      "howItWorks": {
+        "title": {
+          "prefix": "",
+          "highlight": "Bắt đầu trong ",
+          "suffix": "5 bước dễ dàng"
+        },
+        "subtitle": "Từ thiết lập đến hoạt động trực tiếp trong vòng chưa đầy 20 phút. Quy trình hợp lý của chúng tôi giúp nhân viên giọng nói AI của bạn sẵn sàng xử lý cuộc gọi ngay lập tức.",
+        "badge": "Quy trình thiết lập đơn giản",
+        "step1": {
+          "title": "Đào tạo nhân viên giọng nói của bạn",
+          "description": "Tùy chỉnh giọng nói, kịch bản và phản hồi của bạn trong vài phút. AI của chúng tôi học hỏi từ trang web và Hồ sơ doanh nghiệp Google của bạn để đại diện chính xác thương hiệu của bạn."
+        },
+        "step2": {
+          "title": "Kết nối hệ thống điện thoại của bạn",
+          "description": "Tích hợp SeaVoice liền mạch với thiết lập điện thoại hiện có của bạn (SIP/VoIP/PSTN). Chuyển tiếp cuộc gọi đến SeaVoice mà không thay đổi số doanh nghiệp của bạn."
+        },
+        "step3": {
+          "title": "Thiết lập quy tắc cuộc gọi",
+          "description": "Xác định cách SeaVoice xử lý các loại cuộc gọi khác nhau và khi nào cần chuyển cho nhóm của bạn. Đảm bảo mọi người gọi nhận được phản hồi đúng."
+        },
+        "step4": {
+          "title": "Hoạt động trực tiếp",
+          "description": "Kích hoạt nhân viên giọng nói AI của bạn và bắt đầu xử lý cuộc gọi. Toàn bộ quá trình thường mất chưa đầy 20 phút từ đầu đến cuối."
+        },
+        "step5": {
+          "title": "Hỗ trợ & Phân tích 24/7",
+          "description": "Giám sát cuộc gọi theo thời gian thực, nhận bản ghi chi tiết và tận dụng thông tin chi tiết để cải thiện doanh nghiệp của bạn. Đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng giúp bạn tối ưu hóa hiệu suất."
+        },
+        "ctaBadge": "Hầu hết khách hàng hoạt động trực tiếp trong vòng 20 phút",
+        "liveTime": "Hầu hết khách hàng hoạt động trực tiếp trong vòng 20 phút"
+      },
+      "comparison": {
+        "title": "AI giọng nói so với con người so với dịch vụ thuê ngoài",
+        "subtitle": "Xem cách SeaVoice AI so sánh với các lựa chọn thay thế truyền thống",
+        "seavoiceAi": "SeaVoice AI",
+        "fullTimeHuman": "Con người toàn thời gian",
+        "outsourcedService": "Dịch vụ thuê ngoài",
+        "availability": {
+          "feature": "Khả dụng 24/7",
+          "seavoice": "Luôn hoạt động",
+          "human": "Chỉ 9-5",
+          "outsourced": "Phí bổ sung"
+        },
+        "callVolume": {
+          "feature": "Xử lý khối lượng cuộc gọi",
+          "seavoice": "Hơn 500 cuộc gọi đồng thời",
+          "human": "1 cuộc gọi mỗi lần",
+          "outsourced": "5-10 cuộc gọi đồng thời"
+        },
+        "language": {
+          "feature": "Hỗ trợ ngôn ngữ",
+          "seavoice": "Hơn 30 ngôn ngữ",
+          "human": "Giới hạn bởi việc thuê",
+          "outsourced": "Thêm $/ngôn ngữ"
+        },
+        "emotional": {
+          "feature": "Trí tuệ cảm xúc",
+          "seavoice": "Đồng cảm cơ bản",
+          "human": "Cao",
+          "outsourced": "Phụ thuộc vào nhân viên"
+        },
+        "compliance": {
+          "feature": "Tuân thủ",
+          "seavoice": "Các công cụ tích hợp",
+          "human": "Yêu cầu đào tạo",
+          "outsourced": "Yêu cầu đào tạo"
+        },
+        "implementation": {
+          "feature": "Thời gian triển khai",
+          "seavoice": "<1 ngày",
+          "human": "Thuê 6-8 tuần",
+          "outsourced": "2-4 tuần"
+        },
+        "costComparison": "💰 So sánh chi phí",
+        "cost": {
+          "monthly": {
+            "feature": "Chi phí hàng tháng",
+            "seavoice": "Bắt đầu từ 30 đô la",
+            "human": "3.397 đô la+",
+            "outsourced": "1.500-2.500 đô la"
+          },
+          "effective": {
+            "feature": "Tỷ lệ hiệu quả",
+            "seavoice": "0,12 đô la/phút",
+            "human": "6,79 đô la/cuộc gọi",
+            "outsourced": "3,00-5,00 đô la/cuộc gọi"
+          },
+          "hidden": {
+            "feature": "Chi phí ẩn",
+            "seavoice": "Không có",
+            "human": "Lợi ích (800 đô la+/tháng)",
+            "outsourced": "Phí thiết lập"
+          }
+        },
+        "savings": {
+          "costVsHuman": "95%",
+          "costVsHumanLabel": "Tiết kiệm chi phí so với con người",
+          "costVsOutsourced": "80%",
+          "costVsOutsourcedLabel": "Tiết kiệm so với thuê ngoài",
+          "annualSavings": "40 nghìn đô la+",
+          "annualSavingsLabel": "Tiết kiệm hàng năm"
+        },
+        "cta": {
+          "title": "Sẵn sàng trải nghiệm lợi thế của SeaVoice AI?",
+          "subtitle": "Tham gia cùng hàng ngàn doanh nghiệp đã chuyển đổi dịch vụ khách hàng của họ với AI hoạt động 24/7, xử lý cuộc gọi không giới hạn và mở rộng quy mô cùng doanh nghiệp của bạn.",
+          "bookDemo": "Đặt lịch demo",
+          "signUp": "Đăng ký ngay",
+          "description": "Tham gia cùng hàng ngàn doanh nghiệp đã chuyển đổi dịch vụ khách hàng của họ với AI hoạt động 24/7, xử lý cuộc gọi không giới hạn và mở rộng quy mô cùng doanh nghiệp của bạn."
+        },
+        "seavoiceAI": "SeaVoice AI",
+        "costDescription": "Xem khoản tiết kiệm chi phí đáng kể với SeaVoice AI",
+        "costSavings": "95%",
+        "costSavingsLabel": "Tiết kiệm chi phí so với con người",
+        "outsourcedSavings": "80%",
+        "outsourcedSavingsLabel": "Tiết kiệm so với thuê ngoài",
+        "annualSavings": "40 nghìn đô la+",
+        "annualSavingsLabel": "Tiết kiệm hàng năm",
+        "features": {
+          "availability": "Khả dụng 24/7",
+          "callVolume": "Xử lý khối lượng cuộc gọi",
+          "language": "Hỗ trợ ngôn ngữ",
+          "emotional": "Trí tuệ cảm xúc",
+          "compliance": "Tuân thủ",
+          "implementation": "Thời gian triển khai",
+          "monthlyCost": "Chi phí hàng tháng",
+          "effectiveRate": "Tỷ lệ hiệu quả",
+          "hiddenCosts": "Chi phí ẩn"
+        },
+        "seavoice": {
+          "availability": "Luôn hoạt động",
+          "callVolume": "Hơn 500 cuộc gọi đồng thời",
+          "language": "Hơn 30 ngôn ngữ",
+          "emotional": "Đồng cảm cơ bản",
+          "compliance": "Các công cụ tích hợp",
+          "implementation": "<1 ngày",
+          "monthlyCost": "Bắt đầu từ 30 đô la",
+          "effectiveRate": "0,12 đô la/phút",
+          "hiddenCosts": "Không có"
+        },
+        "human": {
+          "availability": "Chỉ 9-5",
+          "callVolume": "1 cuộc gọi mỗi lần",
+          "language": "Giới hạn bởi việc thuê",
+          "emotional": "Cao",
+          "compliance": "Yêu cầu đào tạo",
+          "implementation": "Thuê 6-8 tuần",
+          "monthlyCost": "3.397 đô la+",
+          "effectiveRate": "6,79 đô la/cuộc gọi",
+          "hiddenCosts": "Lợi ích (800 đô la+/tháng)"
+        },
+        "outsourced": {
+          "availability": "Phí bổ sung",
+          "callVolume": "5-10 cuộc gọi đồng thời",
+          "language": "Thêm $/ngôn ngữ",
+          "emotional": "Phụ thuộc vào nhân viên",
+          "compliance": "Yêu cầu đào tạo",
+          "implementation": "2-4 tuần",
+          "monthlyCost": "1.500-2.500 đô la",
+          "effectiveRate": "3,00-5,00 đô la/cuộc gọi",
+          "hiddenCosts": "Phí thiết lập"
+        }
+      },
+      "seachat": {
+        "title": {
+          "prefix": "Khả năng của SeaVoice được mang đến cho bạn bởi ",
+          "highlight": "SeaChat",
+          "suffix": " "
+        },
+        "subtitle": "Một nền tảng nhân viên không mã đa kênh và đa phương thức",
+        "teamwork": {
+          "title": "Một đội, cùng nhau làm việc vì bạn"
+        },
+        "chatAgent": {
+          "title": "Nhân viên AI trò chuyện",
+          "description": "Phản hồi tức thì trên các nền tảng web, di động và nhắn tin"
+        },
+        "humanAgent": {
+          "title": "Nhân viên con người",
+          "description": "Chuyển giao liền mạch cho các truy vấn phức tạp cần sự tiếp xúc của con người"
+        },
+        "voiceAgent": {
+          "title": "Nhân viên giọng nói AI",
+          "description": "Các cuộc trò chuyện điện thoại tự nhiên được hỗ trợ bởi AI giọng nói tiên tiến"
+        },
+        "learnMore": "Tìm hiểu thêm về SeaChat",
+        "teamTitle": "Một đội, cùng nhau làm việc vì bạn"
+      },
+      "testimonial": {
+        "quote": "SeaVoice đã giảm thời gian đào tạo nhân viên của chúng tôi 2 tuần và tăng hiệu quả 20%",
+        "author": "Sarah Johnson",
+        "role": "Phó chủ tịch thành công khách hàng",
+        "company": "TechCorp Inc.",
+        "stat1": "2 tuần",
+        "stat1Label": "Giảm thời gian đào tạo",
+        "stat2": "20%",
+        "stat2Label": "Tăng hiệu quả",
+        "stat3": "94%",
+        "stat3Label": "Sự hài lòng của khách hàng",
+        "stat4": "500+",
+        "stat4Label": "Cuộc gọi đồng thời"
+      },
+      "faq": {
+        "title": {
+          "line1": "Các câu hỏi thường gặp",
+          "line2": "Câu hỏi"
+        },
+        "subtitle": "Mọi thứ bạn cần biết về SeaVoice AI và cách nó có thể chuyển đổi giao tiếp kinh doanh của bạn",
+        "badge": "Có câu hỏi?",
+        "expandAll": "Mở rộng tất cả các câu hỏi",
+        "collapseAll": "Thu gọn tất cả",
+        "q1": {
+          "question": "SeaVoice khác với chatbot truyền thống như thế nào?",
+          "answer": "SeaVoice cung cấp các cuộc trò chuyện giọng nói thời gian thực với AI tiên tiến có thể hiểu ngữ cảnh, xử lý gián đoạn và cung cấp các phản hồi giống con người qua điện thoại. Không giống như các chatbot dựa trên văn bản, SeaVoice xử lý các cuộc gọi thoại thực tế với các mẫu giọng nói tự nhiên."
+        },
+        "q2": {
+          "question": "Mất bao lâu để thiết lập?",
+          "answer": "Thiết lập thường mất chưa đầy 20 phút. Bạn có thể đào tạo nhân viên giọng nói của mình, kết nối hệ thống điện thoại của bạn, thiết lập quy tắc cuộc gọi và hoạt động trực tiếp trong một phiên."
+        },
+        "q3": {
+          "question": "Người gọi có thể biết họ đang nói chuyện với AI không?",
+          "answer": "Công nghệ giọng nói tiên tiến của chúng tôi tạo ra các cuộc trò chuyện rất giống con người. Mặc dù một số người gọi có thể nhận thấy, nhưng hầu hết đều thấy trải nghiệm tự nhiên và hữu ích. Bạn cũng có thể tùy chỉnh AI để tự giới thiệu là trợ lý AI nếu muốn."
+        },
+        "q4": {
+          "question": "Điều gì xảy ra nếu SeaVoice không thể trả lời câu hỏi?",
+          "answer": "SeaVoice được thiết kế để xử lý các leo thang một cách duyên dáng. Nó có thể chuyển cuộc gọi cho nhân viên con người, nhận tin nhắn, lên lịch gọi lại hoặc hướng dẫn người gọi đến các tài nguyên phù hợp dựa trên các quy tắc đã cấu hình của bạn."
+        },
+        "q5": {
+          "question": "Giá cả hoạt động như thế nào?",
+          "answer": "Chúng tôi cung cấp giá minh bạch theo phút. Các gói Premium bao gồm số phút cơ bản với mức sử dụng bổ sung được tính theo phút. Các gói Enterprise được tùy chỉnh dựa trên khối lượng và nhu cầu cụ thể."
+        },
+        "q6": {
+          "question": "Tôi có thể tùy chỉnh giọng nói của AI không?",
+          "answer": "Có! Bạn có thể chọn từ nhiều tùy chọn giọng nói, điều chỉnh tông giọng và phong cách nói, và thậm chí nhân bản giọng nói tùy chỉnh cho các gói Enterprise. AI có thể được đào tạo để phù hợp với phong cách giao tiếp của thương hiệu bạn."
+        },
+        "q7": {
+          "question": "SeaVoice có đa ngôn ngữ không?",
+          "answer": "Có, SeaVoice hỗ trợ các cuộc trò chuyện bằng hơn 10 ngôn ngữ bao gồm tiếng Anh, tiếng Tây Ban Nha, tiếng Pháp, tiếng Đức, tiếng Ý, tiếng Bồ Đào Nha, tiếng Hà Lan, tiếng Nga, tiếng Trung và tiếng Nhật."
+        },
+        "q8": {
+          "question": "Những ngành nào được hưởng lợi nhiều nhất từ SeaVoice?",
+          "answer": "SeaVoice hoạt động tốt trên các ngành bao gồm chăm sóc sức khỏe, bất động sản, khách sạn, dịch vụ tài chính, thương mại điện tử, dịch vụ chuyên nghiệp và bất kỳ doanh nghiệp nào xử lý khối lượng cuộc gọi cao hoặc cần khả dụng 24/7."
+        },
+        "q9": {
+          "question": "SeaVoice có thể xử lý các cuộc gọi khẩn cấp không?",
+          "answer": "Mặc dù SeaVoice có thể xử lý các yêu cầu khẩn cấp và leo thang một cách thích hợp, chúng tôi khuyên bạn nên duy trì các giao thức khẩn cấp trực tiếp. SeaVoice có thể được cấu hình để chuyển ngay lập tức các cuộc gọi liên quan đến khẩn cấp cho các nhà điều hành con người."
+        },
+        "q10": {
+          "question": "SeaVoice có thể phát hiện các cuộc gọi rác không?",
+          "answer": "Có, SeaVoice bao gồm tính năng phát hiện thư rác tích hợp có thể xác định và lọc các cuộc gọi đáng ngờ, bảo vệ doanh nghiệp của bạn khỏi các gián đoạn không mong muốn trong khi đảm bảo các cuộc gọi hợp pháp được thông qua."
+        },
+        "q11": {
+          "question": "Làm cách nào để bắt đầu?",
+          "answer": "Bắt đầu thật dễ dàng! Đặt lịch demo để xem SeaVoice hoạt động, sau đó nhóm của chúng tôi sẽ giúp bạn thiết lập nhân viên giọng nói của bạn, tích hợp với hệ thống điện thoại của bạn và cấu hình nó cho các nhu cầu cụ thể của bạn. Hầu hết khách hàng hoạt động trực tiếp trong vòng một ngày."
+        }
+      },
+      "finalCta": {
+        "title": "Sẵn sàng xem nó hoạt động?",
+        "subtitle": "Nhận demo cá nhân hóa và khám phá cách SeaVoice có thể chuyển đổi giao tiếp khách hàng của bạn",
+        "bookDemo": "Đặt lịch demo ngay hôm nay",
+        "signUp": "Đăng ký ngay"
+      },
+      "dashboard": {
+        "stats": {
+          "totalCalls": "247",
+          "activeCalls": "3",
+          "avgWaitTime": "0:12",
+          "satisfaction": "4.8",
+          "resolutionRate": "92"
+        },
+        "calls": {
+          "sarah": {
+            "customer": "Sarah Johnson",
+            "type": "Đặt lịch hẹn",
+            "status": "đã hoàn thành",
+            "duration": "3:42",
+            "time": "2 phút trước",
+            "outcome": "Cuộc hẹn đã được lên lịch vào thứ Ba tuần tới lúc 2 giờ chiều",
+            "tag1": "đặt chỗ",
+            "tag2": "hài lòng"
+          },
+          "mike": {
+            "customer": "Mike Chen",
+            "type": "Hỗ trợ kỹ thuật",
+            "status": "đã chuyển",
+            "duration": "1:28",
+            "time": "5 phút trước",
+            "outcome": "Đã chuyển cho chuyên gia kỹ thuật - Vấn đề: Lỗi đăng nhập",
+            "tag1": "hỗ trợ",
+            "tag2": "đã leo thang"
+          },
+          "emily": {
+            "customer": "Emily Rodriguez",
+            "type": "Yêu cầu đơn hàng",
+            "status": "đã hoàn thành",
+            "duration": "2:15",
+            "time": "8 phút trước",
+            "outcome": "Đã cung cấp trạng thái đơn hàng - Gói hàng sẽ đến vào ngày mai",
+            "tag1": "yêu cầu",
+            "tag2": "đã giải quyết"
+          },
+          "david": {
+            "customer": "David Wilson",
+            "type": "Câu hỏi về thanh toán",
+            "status": "đang tiến hành",
+            "duration": "1:03",
+            "time": "Vừa rồi",
+            "outcome": "Hiện đang thảo luận về sự khác biệt trong thanh toán",
+            "tag1": "thanh toán",
+            "tag2": "đang hoạt động"
+          }
+        },
+        "mockCalls": {
+          "customer1": "Sarah Johnson",
+          "type1": "Đặt lịch hẹn",
+          "status1": "đã hoàn thành",
+          "duration1": "3:42",
+          "time1": "2 phút trước",
+          "outcome1": "Cuộc hẹn đã được lên lịch vào thứ Ba tuần tới lúc 2 giờ chiều",
+          "customer2": "Mike Chen",
+          "type2": "Hỗ trợ kỹ thuật",
+          "status2": "đã chuyển",
+          "duration2": "1:28",
+          "time2": "5 phút trước",
+          "outcome2": "Đã chuyển cho chuyên gia kỹ thuật - Vấn đề: Lỗi đăng nhập",
+          "customer3": "Emily Rodriguez",
+          "type3": "Yêu cầu đơn hàng",
+          "status3": "đã hoàn thành",
+          "duration3": "2:15",
+          "time3": "8 phút trước",
+          "outcome3": "Đã cung cấp trạng thái đơn hàng - Gói hàng sẽ đến vào ngày mai",
+          "customer4": "David Wilson",
+          "type4": "Câu hỏi về thanh toán",
+          "status4": "đang tiến hành",
+          "duration4": "1:03",
+          "time4": "Vừa rồi",
+          "outcome4": "Hiện đang thảo luận về sự khác biệt trong thanh toán"
+        }
+      },
+      "testimonials": {
+        "metrics": {
+          "trainingTime": "2 tuần",
+          "trainingTimeLabel": "Giảm thời gian đào tạo",
+          "efficiency": "20%",
+          "efficiencyLabel": "Tăng hiệu quả",
+          "satisfaction": "94%",
+          "satisfactionLabel": "Sự hài lòng của khách hàng",
+          "simultaneousCalls": "500+",
+          "simultaneousCallsLabel": "Cuộc gọi đồng thời"
+        },
+        "quote": "SeaVoice đã giảm thời gian đào tạo nhân viên của chúng tôi 2 tuần và tăng hiệu quả 20%",
+        "author": "Sarah Johnson",
+        "role": "Phó chủ tịch thành công khách hàng",
+        "company": "TechCorp Inc."
+      }
+    },
+    "pricing": {
+      "hero": {
+        "title": "Giá cả đơn giản, minh bạch",
+        "subtitle": "Các giải pháp AI giọng nói được thiết kế cho dịch vụ khách hàng đến và các chiến dịch đi. Được xây dựng trên nền tảng SeaChat Premium (29,99 đô la) và SeaX Omni-channel (99 đô la)."
+      },
+      "plans": {
+        "inboundOnly": {
+          "name": "Chỉ cuộc gọi đến",
+          "tagline": "Hoàn hảo cho dịch vụ khách hàng",
+          "price": "29,99 đô la",
+          "period": "/tháng",
+          "description": "Lý tưởng cho các doanh nghiệp cần một giải pháp cuộc gọi đến với AI giọng nói (dựa trên gói SeaChat Premium)",
+          "features": {
+            "aiCallHandling": "Xử lý cuộc gọi dựa trên AI (chỉ cuộc gọi đến)",
+            "voiceAIPrice": "AI giọng nói bắt đầu từ 0,12 đô la mỗi phút (mô hình ChatGPT-4o mini)",
+            "phoneNumber": "Bao gồm số điện thoại (2-3 đô la/tháng với địa chỉ E911)",
+            "callRecording": "Ghi âm và tóm tắt cuộc gọi",
+            "transferHuman": "Chuyển cho nhân viên con người hỗ trợ",
+            "multiLanguage": "Hỗ trợ giọng nói đa ngôn ngữ",
+            "sttLanguages": "Hơn 10 ngôn ngữ chuyển giọng nói thành văn bản",
+            "ttsLanguages": "Hơn 10 ngôn ngữ chuyển văn bản thành giọng nói với giọng nói từ Azure, ElevenLabs, OpenAI",
+            "crmIntegrations": "Tích hợp CRM (Salesforce, HubSpot)",
+            "calendarIntegration": "Tích hợp lịch (Google, Outlook)",
+            "callAnalytics": "Phân tích và báo cáo cuộc gọi",
+            "emailNotifications": "Thông báo email cho cuộc gọi"
+          },
+          "limitations": {
+            "noOutbound": "Không có khả năng gọi đi",
+            "noBulkCampaigns": "Không có tính năng chiến dịch hàng loạt"
+          },
+          "cta": "Bắt đầu với chỉ cuộc gọi đến",
+          "poweredBy": "Được hỗ trợ bởi SeaChat"
+        },
+        "inboundOutbound": {
+          "name": "Cuộc gọi đến + Cuộc gọi đi",
+          "tagline": "Mở rộng quy mô chiến dịch giọng nói của bạn",
+          "price": "99 đô la",
+          "period": "/tháng",
+          "description": "Hoàn hảo cho các chiến dịch AI giọng nói quy mô lớn (tương đương với gói SeaX Omni-channel cho người dùng đầu tiên)",
+          "badge": "Phổ biến nhất",
+          "features": {
+            "everythingInbound": "Mọi thứ trong gói Chỉ cuộc gọi đến",
+            "outboundCalling": "Gọi đi và các chiến dịch",
+            "bulkCampaigns": "Các chiến dịch AI giọng nói hàng loạt",
+            "voiceAIPrice": "AI giọng nói bắt đầu từ 0,12 đô la mỗi phút (mô hình ChatGPT-4o mini)",
+            "additionalUsers": "Người dùng bổ sung: 49 đô la/tháng mỗi người",
+            "multipleNumbers": "Hỗ trợ nhiều số điện thoại",
+            "campaignScheduling": "Lên lịch và tự động hóa chiến dịch",
+            "advancedRouting": "Định tuyến cuộc gọi nâng cao",
+            "customVoiceTraining": "Đào tạo giọng nói tùy chỉnh",
+            "voicemailDrop": "Khả năng gửi thư thoại (0,05 đô la mỗi lần gửi)",
+            "apiAccess": "Truy cập API RESTful",
+            "seachatIntegration": "Tích hợp SeaChat để hỗ trợ đa kênh",
+            "advancedAnalytics": "Bảng điều khiển phân tích nâng cao",
+            "prioritySupport": "Hỗ trợ ưu tiên"
+          },
+          "cta": "Bắt đầu với cuộc gọi đến + cuộc gọi đi",
+          "poweredBy": "Được hỗ trợ bởi SeaX + SeaChat"
+        },
+        "custom": {
+          "name": "Gói tùy chỉnh",
+          "tagline": "Giải pháp cấp doanh nghiệp",
+          "price": "Liên hệ chúng tôi",
+          "period": "",
+          "description": "Các giải pháp tùy chỉnh phù hợp với nhu cầu kinh doanh cụ thể (tương tự như các gói SeaChat/SeaX Enterprise)",
+          "customPriceMessage": "Hãy cùng xây dựng một dự án",
+          "features": {
+            "everythingInboundOutbound": "Mọi thứ trong gói Cuộc gọi đến + Cuộc gọi đi",
+            "multipleWorkspaces": "Nhiều không gian làm việc (hoàn hảo cho các đại lý)",
+            "workspaceAgents": "Mỗi không gian làm việc có nhiều nhân viên AI và số điện thoại",
+            "customPricing": "Giá tùy chỉnh mỗi phút dựa trên khối lượng",
+            "accountManager": "Quản lý tài khoản chuyên dụng",
+            "uptimeSLA": "SLA thời gian hoạt động 99,99%",
+            "compliance": "Có sẵn tuân thủ HIPAA/PCI",
+            "whiteLabel": "Giải pháp nhãn trắng",
+            "customAPI": "Tích hợp API tùy chỉnh",
+            "advancedSecurity": "Tính năng bảo mật nâng cao",
+            "voiceCloning": "Nhân bản giọng nói tùy chỉnh",
+            "phoneSupport": "Hỗ trợ điện thoại ưu tiên",
+            "technicalSupport": "Hướng dẫn thiết kế chuyên nghiệp và hỗ trợ kỹ thuật",
+            "onPremise": "Các tùy chọn triển khai tại chỗ"
+          },
+          "cta": "Liên hệ chúng tôi"
+        }
+      },
+      "productRelationship": {
+        "title": "SeaVoice kết nối với SeaChat & SeaX như thế nào",
+        "seachatIntegration": {
+          "title": "🔗 Tích hợp SeaChat",
+          "description": "Gói SeaVoice Chỉ cuộc gọi đến (29,99 đô la/tháng) được xây dựng trên nền tảng gói SeaChat Premium, cung cấp khả năng AI giọng nói cho các cuộc gọi đến với giá 0,12 đô la mỗi phút.",
+          "subtitle": "Hoàn hảo cho các doanh nghiệp muốn thêm AI giọng nói vào thiết lập SeaChat hiện có của họ."
+        },
+        "seaxIntegration": {
+          "title": "📞 Tích hợp SeaX",
+          "description": "Gói SeaVoice Cuộc gọi đến + Cuộc gọi đi (99 đô la/tháng) phản ánh giá SeaX Omni-channel, cho phép các chiến dịch giọng nói quy mô lớn với xử lý gọi lại.",
+          "subtitle": "Lý tưởng cho các doanh nghiệp chạy các chiến dịch đi cần phạm vi phủ sóng AI giọng nói toàn diện."
+        },
+        "completePicture": {
+          "title": "✨ Bức tranh hoàn chỉnh",
+          "description": "Tất cả các cuộc gọi AI giọng nói trên SeaChat, SeaX và SeaVoice đều sử dụng cùng mức giá 0,12 đô la mỗi phút với mô hình ChatGPT-4o mini. Khi các liên hệ gọi lại sau các chiến dịch đi, SeaVoice xử lý liền mạch các cuộc gọi đến này với cùng trí tuệ AI."
+        }
+      },
+      "faq": {
+        "title": "Các câu hỏi thường gặp",
+        "subtitle": "Mọi thứ bạn cần biết về giá cả và tính năng của SeaVoice",
+        "question1": "Giá SeaVoice liên quan đến SeaChat và SeaX như thế nào?",
+        "answer1": "Gói SeaVoice Chỉ cuộc gọi đến (29,99 đô la/tháng) dựa trên gói SeaChat Premium, tập trung vào AI giọng nói đến. Gói Cuộc gọi đến + Cuộc gọi đi (99 đô la/tháng) phản ánh giá SeaX Omni-channel cho các chiến dịch giọng nói toàn diện. Tất cả các cuộc gọi AI giọng nói bắt đầu từ 0,12 đô la mỗi phút bằng cách sử dụng mô hình ChatGPT-4o mini.",
+        "question2": "Sự khác biệt giữa gói Chỉ cuộc gọi đến và Cuộc gọi đến + Cuộc gọi đi là gì?",
+        "answer2": "Gói Chỉ cuộc gọi đến (29,99 đô la/tháng) xử lý các cuộc gọi đến bằng AI, hoàn hảo cho dịch vụ khách hàng. Gói Cuộc gọi đến + Cuộc gọi đi (99 đô la/tháng cho người dùng đầu tiên) bổ sung khả năng chiến dịch hàng loạt và gọi đi, lý tưởng cho các đội ngũ bán hàng và tiếp thị chạy các chiến dịch giọng nói quy mô lớn.",
+        "question3": "Tôi có thể giữ số điện thoại doanh nghiệp hiện có của mình không?",
+        "answer3": "Có, bạn có thể giữ số điện thoại doanh nghiệp hiện có của mình và chuyển tiếp cuộc gọi đến SeaVoice, hoặc chúng tôi có thể cung cấp số mới. Mỗi số điện thoại có giá 2-3 đô la/tháng với đăng ký địa chỉ E911.",
+        "question4": "Các cuộc gọi AI giọng nói thực sự có giá bao nhiêu?",
+        "answer4": "Tất cả các cuộc gọi AI giọng nói bắt đầu từ 0,12 đô la mỗi phút bằng cách sử dụng mô hình ChatGPT-4o mini. Đây là cùng mức giá trên các gói SeaChat Premium và SeaVoice. Các mô hình cấp cao hơn như ChatGPT-4o có giá 0,80 đô la mỗi phút và có sẵn trên các gói tùy chỉnh.",
+        "question5": "Điều gì xảy ra khi các liên hệ gọi lại sau một chiến dịch đi?",
+        "answer5": "Với gói Cuộc gọi đến + Cuộc gọi đi, khi các liên hệ gọi lại sau khi nhận cuộc gọi chiến dịch, AI giọng nói đến của chúng tôi sẽ tự động xử lý các cuộc gọi này, cung cấp sự liên tục liền mạch trong giao tiếp khách hàng của bạn.",
+        "question6": "Tôi có thể nâng cấp từ gói Chỉ cuộc gọi đến lên Cuộc gọi đến + Cuộc gọi đi không?",
+        "answer6": "Tuyệt đối! Bạn có thể nâng cấp gói của mình bất cứ lúc nào. Nâng cấp có hiệu lực ngay lập tức và bạn sẽ có quyền truy cập vào gọi đi, các tính năng chiến dịch và các chỗ ngồi người dùng bổ sung.",
+        "question7": "Bạn có cung cấp giảm giá theo số lượng cho khách hàng sử dụng nhiều không?",
+        "answer7": "Có, Gói tùy chỉnh của chúng tôi cung cấp giá được thương lượng dựa trên khối lượng và mẫu sử dụng cụ thể của bạn. Liên hệ với đội ngũ bán hàng của chúng tôi để thảo luận về giá tùy chỉnh mở rộng quy mô theo nhu cầu kinh doanh của bạn."
+      },
+      "cta": {
+        "title": "Sẵn sàng bắt đầu?",
+        "subtitle": "Bắt đầu dùng thử miễn phí ngay hôm nay và trải nghiệm sức mạnh của tự động hóa giọng nói AI",
+        "signUpFree": "Đăng ký miễn phí",
+        "scheduleDemo": "Lên lịch demo"
+      }
+    },
+    "footer": {
+      "description": "Tự động hóa 80% cuộc gọi của khách hàng với các nhân viên giọng nói AI có giọng nói giống con người và tích hợp liền mạch với doanh nghiệp của bạn.",
+      "platform": {
+        "title": "Nền tảng",
+        "overview": "Tổng quan nền tảng",
+        "landlineMobile": "Điện thoại cố định & Di động",
+        "voipSipByoc": "VoIP & SIP & BYOC Voice",
+        "lineCallPlus": "Line Call Plus cho doanh nghiệp",
+        "whatsAppVoice": "API thoại WhatsApp cho doanh nghiệp",
+        "speechToText": "Chuyển giọng nói thành văn bản",
+        "textToSpeech": "Chuyển văn bản thành giọng nói",
+        "endToEndLlms": "LLM đầu cuối"
+      },
+      "inboundSolutions": {
+        "title": "Giải pháp cuộc gọi đến",
+        "virtualAssistant": "Trợ lý ảo 24/7",
+        "callTransfer": "Chuyển cuộc gọi thông minh",
+        "ivrReplacement": "Thay thế IVR",
+        "mentalHealth": "Đồng hành sức khỏe tâm thần",
+        "scamShield": "Bảo vệ chống lừa đảo",
+        "technicalSupport": "Hỗ trợ kỹ thuật",
+        "orderTracking": "Trạng thái & Theo dõi đơn hàng",
+        "paymentProcessing": "Xử lý thanh toán",
+        "appointmentBooking": "Đặt lịch hẹn"
+      },
+      "outboundSolutions": {
+        "title": "Giải pháp cuộc gọi đi",
+        "leadGeneration": "Tạo & Sàng lọc khách hàng tiềm năng",
+        "collections": "Dịch vụ thu nợ",
+        "reactivation": "Kích hoạt lại khách hàng",
+        "seniorChecks": "Kiểm tra cuộc gọi cho người cao tuổi",
+        "campaigns": "Chiến dịch quy mô lớn",
+        "proactiveSupport": "Hỗ trợ chủ động",
+        "renewals": "Gia hạn đăng ký",
+        "surveys": "Khảo sát khách hàng",
+        "fraudAlerts": "Cảnh báo gian lận"
+      },
+      "company": {
+        "title": "Công ty",
+        "pricing": "Giá cả",
+        "productWiki": "Wiki sản phẩm",
+        "apiReferences": "Tài liệu tham khảo API"
+      },
+      "legal": {
+        "copyright": "© 2020 - {{year}} Seasalt.ai. Mọi quyền được bảo lưu.",
+        "privacyPolicy": "Chính sách bảo mật",
+        "termsOfService": "Điều khoản dịch vụ"
+      },
+      "stats": {
+        "callsHandled": "Hơn 1 triệu cuộc gọi đã xử lý",
+        "activeAgents": "Hơn 50 nghìn nhân viên đang hoạt động",
+        "uptime": "Thời gian hoạt động 99,99%"
+      },
+      "cta": {
+        "title": "Sẵn sàng tự động hóa 80% cuộc gọi của khách hàng?",
+        "description": "Tham gia cùng hàng trăm doanh nghiệp sử dụng nhân viên AI của SeaVoice để xử lý cuộc gọi của khách hàng 24/7, giảm chi phí và cải thiện sự hài lòng của khách hàng.",
+        "getStartedFree": "Bắt đầu miễn phí",
+        "bookDemo": "Đặt lịch demo"
+      }
+    },
+    "priceCalculator": {
+      "hero": {
+        "title": "Công cụ tính toán giá hàng tháng",
+        "subtitle": "Tính toán chi phí hàng tháng chính xác của bạn dựa trên nhu cầu sử dụng của bạn. Tất cả giá đều dành cho Hoa Kỳ/Canada với phí điện thoại đã bao gồm."
+      },
+      "configure": {
+        "title": "Cấu hình gói của bạn"
+      },
+      "planType": {
+        "label": "1. Chọn loại gói của bạn",
+        "inbound": {
+          "title": "Chỉ cuộc gọi đến - 29,99 đô la/tháng",
+          "description": "Hoàn hảo cho dịch vụ khách hàng"
+        },
+        "inboundOutbound": {
+          "title": "Cuộc gọi đến + Cuộc gọi đi - 99 đô la/tháng",
+          "description": "Mở rộng quy mô chiến dịch giọng nói của bạn"
+        }
+      },
+      "phoneNumbers": {
+        "label": "2. Số điện thoại (với địa chỉ E911)",
+        "local": {
+          "label": "Số địa phương (2 đô la/tháng mỗi số)"
+        },
+        "tollFree": {
+          "label": "Số điện thoại miễn phí (3 đô la/tháng mỗi số)"
+        }
+      },
+      "voiceAI": {
+        "label": "3. Số phút AI giọng nói (0,12 đô la/phút - ChatGPT-4o mini)",
+        "range": {
+          "min": "0 phút",
+          "max": "5.000 phút",
+          "current": "phút"
+        }
+      },
+      "humanAgent": {
+        "label": "4. Số phút nhân viên con người (0,015 đô la/phút)",
+        "range": {
+          "min": "0 phút",
+          "max": "2.000 phút",
+          "current": "phút"
+        }
+      },
+      "breakdown": {
+        "title": "Phân tích chi phí hàng tháng",
+        "inboundPlan": "Gói chỉ cuộc gọi đến",
+        "inboundOutboundPlan": "Gói cuộc gọi đến + cuộc gọi đi",
+        "phoneNumbersTitle": "Số điện thoại",
+        "phoneNumbers": {
+          "local": "địa phương",
+          "tollFree": "số điện thoại miễn phí"
+        },
+        "voiceAI": {
+          "title": "Số phút AI giọng nói",
+          "calculation": "phút × 0,12 đô la"
+        },
+        "humanAgent": {
+          "title": "Số phút nhân viên con người",
+          "calculation": "phút × 0,015 đô la"
+        },
+        "total": "Tổng chi phí hàng tháng"
+      },
+      "features": {
+        "usaCanada": "Bao gồm phạm vi phủ sóng Hoa Kỳ/Canada",
+        "phoneCharges": "Bao gồm tất cả các phí điện thoại",
+        "e911": "Bao gồm đăng ký địa chỉ E911",
+        "recording": "Ghi âm và phân tích cuộc gọi",
+        "outboundCampaigns": "Các chiến dịch đi và gọi hàng loạt"
+      },
+      "cta": {
+        "getStartedInbound": "Bắt đầu với chỉ cuộc gọi đến",
+        "getStartedInboundOutbound": "Bắt đầu với cuộc gọi đến + cuộc gọi đi",
+        "scheduleDemo": "Lên lịch demo"
+      },
+      "notes": {
+        "title": "Lưu ý quan trọng",
+        "usaCanadaOnly": "Giá hiển thị chỉ dành cho Hoa Kỳ/Canada",
+        "phoneChargesIncluded": "Tất cả các phí cuộc gọi điện thoại đã bao gồm trong các mức giá hiển thị",
+        "voiceAIModel": "AI giọng nói sử dụng mô hình ChatGPT-4o mini với giá 0,12 đô la/phút",
+        "humanAgentMinutes": "Số phút nhân viên con người dành cho chuyển cuộc gọi và cuộc gọi trực tiếp"
+      }
+    },
+    "platform": {
+      "hero": {
+        "title": "Nền tảng AI giọng nói hoàn chỉnh",
+        "description": "Khám phá công nghệ cung cấp năng lượng cho các tương tác giọng nói giống con người, tích hợp liền mạch và thông tin chi tiết có thể hành động cho doanh nghiệp của bạn.",
+        "cta": "Khám phá khả năng nền tảng"
+      },
+      "features": {
+        "aiVoice": {
+          "title": "Nhân viên giọng nói AI",
+          "description": "Nhân viên giọng nói giống con người xử lý các cuộc gọi đến và đi 24/7 với sự nhất quán hoàn hảo.",
+          "feature1": "Khả dụng 24/7",
+          "feature2": "Các cuộc trò chuyện giống con người",
+          "feature3": "Tạm dừng động và thay đổi tông giọng",
+          "feature4": "Hỗ trợ đa ngôn ngữ"
+        },
+        "conversationalAI": {
+          "title": "AI đàm thoại",
+          "description": "AI tiên tiến học hỏi từ tài liệu của bạn và ghi nhớ các tương tác trước đây để có dịch vụ cá nhân hóa.",
+          "feature1": "Công nghệ RAG",
+          "feature2": "Bộ nhớ dài hạn",
+          "feature3": "Cơ sở kiến thức tùy chỉnh",
+          "feature4": "Nhận thức ngữ cảnh"
+        },
+        "analytics": {
+          "title": "Phân tích & Thông tin chi tiết",
+          "description": "Bản ghi thời gian thực, phân tích cảm xúc và thông tin chi tiết có thể hành động từ mọi cuộc trò chuyện.",
+          "feature1": "Bản ghi thời gian thực",
+          "feature2": "Phân tích cảm xúc",
+          "feature3": "Các chỉ số hiệu suất",
+          "feature4": "Phân tích khối lượng cuộc gọi"
+        },
+        "telephony": {
+          "title": "Điện thoại & Kết nối",
+          "description": "Tích hợp linh hoạt với các tùy chọn VoIP, SIP và BYOC để kết nối liền mạch.",
+          "feature1": "Tích hợp VoIP",
+          "feature2": "SIP trunking",
+          "feature3": "Hỗ trợ BYOC",
+          "feature4": "Phạm vi phủ sóng toàn cầu"
+        },
+        "integrations": {
+          "title": "Tích hợp & Kênh",
+          "description": "Kết nối với các công cụ hiện có của bạn và tiếp cận khách hàng trên nhiều kênh.",
+          "feature1": "Tích hợp CRM",
+          "feature2": "API thoại WhatsApp",
+          "feature3": "Cuộc gọi doanh nghiệp LINE",
+          "feature4": "Đồng bộ hóa lịch"
+        },
+        "speech": {
+          "title": "Công nghệ giọng nói",
+          "description": "Chuyển giọng nói thành văn bản và chuyển văn bản thành giọng nói hàng đầu ngành với các hồ sơ giọng nói tùy chỉnh.",
+          "feature1": "STT độ chính xác cao",
+          "feature2": "TTS tự nhiên",
+          "feature3": "Nhân bản giọng nói",
+          "feature4": "Hơn 10 ngôn ngữ"
+        }
+      },
+      "technology": {
+        "title": "Được xây dựng trên công nghệ hàng đầu ngành",
+        "subtitle": "Được hỗ trợ bởi chuyên môn của đội ngũ Kaldi ban đầu trong nhận dạng giọng nói",
+        "speechRecognition": {
+          "title": "Nhận dạng giọng nói",
+          "description": "Công nghệ STT tiên tiến với độ chính xác hơn 99%, ngay cả với tiếng ồn nền và biệt ngữ ngành.",
+          "metric1": "Độ chính xác hơn 99%",
+          "metric2": "Xử lý thời gian thực",
+          "metric3": "Giảm tiếng ồn"
+        },
+        "nlp": {
+          "title": "Xử lý ngôn ngữ tự nhiên",
+          "description": "AI nhận biết ngữ cảnh hiểu ý định và duy trì luồng trò chuyện tự nhiên.",
+          "metric1": "Nhận dạng ý định",
+          "metric2": "Giữ ngữ cảnh",
+          "metric3": "Trí tuệ cảm xúc"
+        },
+        "voiceSynthesis": {
+          "title": "Tổng hợp giọng nói",
+          "description": "Chuyển văn bản thành giọng nói giống con người với giọng nói có thể tùy chỉnh và ngữ điệu tự nhiên.",
+          "metric1": "Ngữ điệu tự nhiên",
+          "metric2": "Nhân bản giọng nói",
+          "metric3": "Kiểm soát cảm xúc"
+        }
+      },
+      "landlineMobile": {
+        "hero": {
+          "title": "Giải pháp thoại cố định & di động",
+          "subtitle": "Chuyển đổi hệ thống điện thoại truyền thống của bạn với các nhân viên thoại do AI hỗ trợ hoạt động liền mạch với điện thoại cố định và mạng di động trên toàn thế giới.",
+          "cta": "Đăng ký miễn phí"
+        },
+        "features": {
+          "0": {
+            "title": "Tích hợp điện thoại cố định truyền thống",
+            "description": "Kết nối liền mạch cơ sở hạ tầng điện thoại cố định hiện có của bạn với khả năng thoại AI.",
+            "benefits": {
+              "0": "Giữ số điện thoại hiện có của bạn",
+              "1": "Không yêu cầu thay đổi phần cứng",
+              "2": "Sao lưu AI tức thì cho các đường dây bận"
+            }
+          },
+          "1": {
+            "title": "Kết nối mạng di động",
+            "description": "Tích hợp trực tiếp với các nhà mạng di động cho các chiến dịch đi và tương tác khách hàng.",
+            "benefits": {
+              "0": "Tiếp cận khách hàng trên thiết bị di động của họ",
+              "1": "Tỷ lệ gửi cao",
+              "2": "Các tùy chọn dự phòng SMS"
+            }
+          },
+          "2": {
+            "title": "Phạm vi phủ sóng toàn cầu",
+            "description": "Kết nối với khách hàng trên toàn thế giới thông qua các mối quan hệ đối tác mạng nhà mạng rộng khắp của chúng tôi.",
+            "benefits": {
+              "0": "Hỗ trợ hơn 200 quốc gia",
+              "1": "Sự hiện diện số địa phương",
+              "2": "Giá cước quốc tế cạnh tranh"
+            }
+          },
+          "title": "Kết nối thoại phổ quát",
+          "subtitle": "Kết nối với bất kỳ hệ thống điện thoại nào, ở bất cứ đâu trên thế giới"
+        },
+        "useCases": {
+          "0": {
+            "title": "Nhắc nhở cuộc hẹn",
+            "description": "Tự động gọi bệnh nhân, khách hàng hoặc khách hàng để xác nhận các cuộc hẹn sắp tới.",
+            "metrics": {
+              "0": "Giảm 40% số lần không đến",
+              "1": "Tỷ lệ thành công liên hệ 95%",
+              "2": "Gọi tự động 24/7"
+            }
+          },
+          "1": {
+            "title": "Thông báo khẩn cấp",
+            "description": "Thông báo nhanh chóng cho các nhóm lớn trong các trường hợp khẩn cấp hoặc cập nhật quan trọng.",
+            "metrics": {
+              "0": "Hơn 1000 cuộc gọi mỗi phút",
+              "1": "Hỗ trợ đa ngôn ngữ",
+              "2": "Xác nhận gửi"
+            }
+          },
+          "2": {
+            "title": "Khảo sát khách hàng",
+            "description": "Thực hiện các cuộc khảo sát sau dịch vụ để thu thập phản hồi có giá trị từ khách hàng.",
+            "metrics": {
+              "0": "Tỷ lệ phản hồi cao hơn 3 lần",
+              "1": "Phân tích cảm xúc thời gian thực",
+              "2": "Báo cáo tự động"
+            }
+          },
+          "title": "Các trường hợp sử dụng phổ biến",
+          "subtitle": "Xem cách các doanh nghiệp tận dụng tự động hóa thoại cố định và di động"
+        },
+        "specs": {
+          "title": "Độ tin cậy cấp doanh nghiệp",
+          "subtitle": "Được xây dựng cho các giao tiếp quan trọng với cơ sở hạ tầng cấp nhà mạng và đảm bảo thời gian hoạt động 99,99%.",
+          "security": {
+            "title": "Bảo mật & Tuân thủ",
+            "description": "Cơ sở hạ tầng tuân thủ SOC 2, HIPAA và PCI"
+          },
+          "monitoring": {
+            "title": "Giám sát 24/7",
+            "description": "Giám sát hệ thống thời gian thực và chuyển đổi dự phòng tức thì"
+          },
+          "infrastructure": {
+            "title": "Cơ sở hạ tầng toàn cầu",
+            "description": "Các trung tâm dữ liệu dự phòng trên nhiều khu vực"
+          },
+          "technical": {
+            "title": "Thông số kỹ thuật",
+            "concurrentCalls": {
+              "label": "Cuộc gọi đồng thời",
+              "value": "Không giới hạn"
+            },
+            "audioQuality": {
+              "label": "Chất lượng âm thanh",
+              "value": "Thoại HD (G.722)"
+            },
+            "latency": {
+              "label": "Độ trễ",
+              "value": "< 150ms"
+            },
+            "uptimeSLA": {
+              "label": "SLA thời gian hoạt động",
+              "value": "99,99%"
+            },
+            "globalCoverage": {
+              "label": "Phạm vi phủ sóng toàn cầu",
+              "value": "Hơn 200 quốc gia"
+            }
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng hiện đại hóa hệ thống điện thoại của bạn?",
+          "subtitle": "Kết nối cơ sở hạ tầng điện thoại cố định và di động của bạn với các nhân viên thoại AI trong vài phút",
+          "button": "Lên lịch cuộc gọi tích hợp"
+        }
+      },
+      "endToEndLLMs": {
+        "hero": {
+          "title": "Giải pháp LLM đầu cuối",
+          "subtitle": "Tích hợp mô hình ngôn ngữ lớn hoàn chỉnh từ đầu vào giọng nói đến tạo phản hồi thông minh. Được hỗ trợ bởi AI tiên tiến hiểu ngữ cảnh, duy trì cuộc trò chuyện và thực thi logic kinh doanh.",
+          "cta": "Khám phá khả năng LLM"
+        },
+        "features": {
+          "title": "Tích hợp LLM hoàn chỉnh",
+          "subtitle": "Từ hiểu giọng nói đến tạo phản hồi thông minh",
+          "advancedModels": {
+            "title": "Các mô hình ngôn ngữ nâng cao",
+            "description": "Các mô hình ngôn ngữ lớn hiện đại được tối ưu hóa cho AI đàm thoại và các ứng dụng kinh doanh.",
+            "gpt4Integration": "Tích hợp GPT-4",
+            "customFineTuning": "Tinh chỉnh tùy chỉnh",
+            "domainSpecific": "Các mô hình dành riêng cho miền",
+            "multiModal": "Hỗ trợ đa phương thức"
+          },
+          "knowledgeIntegration": {
+            "title": "Tích hợp kiến thức",
+            "description": "Tích hợp liền mạch cơ sở kiến thức kinh doanh của bạn với công nghệ RAG (Tạo sinh tăng cường truy xuất).",
+            "documentIngestion": "Thu nhận tài liệu",
+            "realTimeUpdates": "Cập nhật thời gian thực",
+            "semanticSearch": "Tìm kiếm ngữ nghĩa",
+            "contextAwareness": "Nhận thức ngữ cảnh"
+          },
+          "enterpriseSecurity": {
+            "title": "Bảo mật doanh nghiệp",
+            "description": "Bảo mật và tuân thủ cấp doanh nghiệp cho các cuộc trò chuyện kinh doanh nhạy cảm.",
+            "dataEncryption": "Mã hóa dữ liệu",
+            "accessControls": "Kiểm soát truy cập",
+            "auditLogging": "Ghi nhật ký kiểm toán",
+            "complianceReady": "Sẵn sàng tuân thủ"
+          }
+        },
+        "capabilities": {
+          "title": "Khả năng LLM nâng cao",
+          "subtitle": "Hiểu và tạo ngôn ngữ tinh vi cho các ứng dụng kinh doanh",
+          "nlu": {
+            "category": "Hiểu ngôn ngữ tự nhiên",
+            "description": "Hiểu biết nâng cao về ý định, ngữ cảnh và giao tiếp tinh tế của người dùng.",
+            "intentAccuracy": "Độ chính xác ý định: 98%",
+            "contextRetention": "Giữ ngữ cảnh: 95%",
+            "sentimentAnalysis": "Phân tích cảm xúc: 96%"
+          },
+          "conversationalFlow": {
+            "category": "Luồng đàm thoại",
+            "description": "Duy trì các cuộc trò chuyện tự nhiên, mạch lạc trên nhiều lượt và chủ đề.",
+            "multiTurnCoherence": "Tính mạch lạc đa lượt: 94%",
+            "topicSwitching": "Chuyển đổi chủ đề: 92%",
+            "contextPreservation": "Giữ ngữ cảnh: 97%"
+          },
+          "businessLogic": {
+            "category": "Tích hợp logic kinh doanh",
+            "description": "Thực thi các quy trình làm việc kinh doanh phức tạp và các quy trình ra quyết định.",
+            "workflowAccuracy": "Độ chính xác quy trình làm việc: 99%",
+            "decisionConsistency": "Tính nhất quán của quyết định: 98%",
+            "errorHandling": "Xử lý lỗi: 95%"
+          },
+          "personalization": {
+            "category": "Cá nhân hóa",
+            "description": "Điều chỉnh phản hồi dựa trên lịch sử người dùng, sở thích và ngữ cảnh kinh doanh.",
+            "personalizationScore": "Điểm cá nhân hóa: 93%",
+            "userSatisfaction": "Sự hài lòng của người dùng: 96%",
+            "engagementRate": "Tỷ lệ tương tác: 89%"
+          }
+        },
+        "architecture": {
+          "title": "Kiến trúc đầu cuối",
+          "subtitle": "Quy trình hoàn chỉnh từ đầu vào giọng nói đến phản hồi giọng nói thông minh",
+          "speechInput": {
+            "title": "Xử lý đầu vào giọng nói",
+            "description": "Chuyển giọng nói thành văn bản với độ chính xác hàng đầu ngành",
+            "kaldiASR": "ASR dựa trên Kaldi",
+            "noiseReduction": "Giảm tiếng ồn",
+            "speakerDiarization": "Phân tách người nói"
+          },
+          "llmProcessing": {
+            "title": "Xử lý mô hình ngôn ngữ",
+            "description": "Xử lý LLM nâng cao với tích hợp ngữ cảnh kinh doanh",
+            "gpt4Turbo": "GPT-4 Turbo",
+            "customFineTuning": "Tinh chỉnh tùy chỉnh",
+            "ragIntegration": "Tích hợp RAG"
+          },
+          "responseGeneration": {
+            "title": "Tạo phản hồi",
+            "description": "Tạo các phản hồi phù hợp với ngữ cảnh và phù hợp với kinh doanh",
+            "templateSystems": "Hệ thống mẫu",
+            "dynamicContent": "Nội dung động",
+            "complianceChecking": "Kiểm tra tuân thủ"
+          },
+          "speechOutput": {
+            "title": "Tổng hợp đầu ra giọng nói",
+            "description": "Chuyển các phản hồi văn bản thành giọng nói tự nhiên",
+            "neuralTTS": "TTS thần kinh",
+            "voiceCloning": "Nhân bản giọng nói",
+            "emotionControl": "Kiểm soát cảm xúc"
+          }
+        },
+        "useCases": {
+          "title": "Các trường hợp sử dụng thông minh",
+          "subtitle": "Chuyển đổi hoạt động kinh doanh với các cuộc trò chuyện do AI hỗ trợ",
+          "customerSupport": {
+            "title": "Hỗ trợ khách hàng thông minh",
+            "description": "Xử lý các yêu cầu phức tạp của khách hàng với hiểu biết giống con người và khả năng giải quyết vấn đề.",
+            "reducedEscalation": "Giảm tỷ lệ leo thang",
+            "fasterResolution": "Thời gian giải quyết nhanh hơn",
+            "consistentQuality": "Chất lượng dịch vụ nhất quán",
+            "availability24x7": "Khả dụng 24/7"
+          },
+          "salesConversations": {
+            "title": "Các cuộc trò chuyện bán hàng",
+            "description": "Tương tác với khách hàng tiềm năng bằng các cuộc trò chuyện bán hàng cá nhân hóa thích ứng với nhu cầu và sở thích của khách hàng.",
+            "higherConversion": "Tỷ lệ chuyển đổi cao hơn",
+            "personalizedRecommendations": "Đề xuất cá nhân hóa",
+            "objectionHandling": "Xử lý phản đối",
+            "leadQualification": "Sàng lọc khách hàng tiềm năng"
+          },
+          "technicalSupport": {
+            "title": "Hỗ trợ kỹ thuật",
+            "description": "Cung cấp hỗ trợ kỹ thuật cấp chuyên gia với quyền truy cập vào các cơ sở kiến thức toàn diện.",
+            "complexTroubleshooting": "Khắc phục sự cố phức tạp",
+            "stepByStepGuidance": "Hướng dẫn từng bước",
+            "documentationAccess": "Truy cập tài liệu",
+            "escalationIntelligence": "Trí tuệ leo thang"
+          },
+          "healthcareAssistance": {
+            "title": "Hỗ trợ chăm sóc sức khỏe",
+            "description": "Hỗ trợ các quy trình làm việc chăm sóc sức khỏe với AI tuân thủ HIPAA hiểu thuật ngữ y tế.",
+            "medicalKnowledge": "Cơ sở kiến thức y tế",
+            "appointmentScheduling": "Lên lịch cuộc hẹn",
+            "symptomAssessment": "Đánh giá triệu chứng",
+            "careCoordination": "Phối hợp chăm sóc"
+          }
+        },
+        "performance": {
+          "title": "Hiệu suất doanh nghiệp",
+          "description": "Giải pháp LLM đầu cuối của chúng tôi mang lại hiệu suất cấp doanh nghiệp với xử lý thời gian thực, độ chính xác cao và khả năng mở rộng đáng tin cậy cho các ứng dụng kinh doanh quan trọng.",
+          "realTimeTitle": "Xử lý thời gian thực",
+          "realTimeDesc": "Thời gian phản hồi dưới một giây cho các cuộc trò chuyện tự nhiên",
+          "securityTitle": "Bảo mật doanh nghiệp",
+          "securityDesc": "Cơ sở hạ tầng tuân thủ SOC 2, HIPAA và PCI",
+          "qualityTitle": "Chất lượng cuộc trò chuyện",
+          "qualityDesc": "Tương tác giống con người với nhận thức ngữ cảnh",
+          "metricsTitle": "Các chỉ số hiệu suất",
+          "responseLatency": "Độ trễ phản hồi",
+          "responseLatencyValue": "< 500ms",
+          "intentAccuracy": "Độ chính xác ý định",
+          "intentAccuracyValue": "98.2%",
+          "contextRetention": "Giữ ngữ cảnh",
+          "contextRetentionValue": "95.8%",
+          "uptimeSLA": "SLA thời gian hoạt động",
+          "uptimeSLAValue": "99.99%",
+          "concurrentUsers": "Người dùng đồng thời",
+          "concurrentUsersValue": "10.000+"
+        },
+        "cta": {
+          "title": "Sẵn sàng triển khai các cuộc trò chuyện thông minh?",
+          "subtitle": "Chuyển đổi doanh nghiệp của bạn với các giải pháp LLM đầu cuối hiểu, suy luận và phản hồi thông minh",
+          "scheduleDemoButton": "Lên lịch demo LLM",
+          "exploreArchButton": "Khám phá kiến trúc"
+        }
+      },
+      "lineCallPlus": {
+        "hero": {
+          "title": "LINE Call Plus cho doanh nghiệp",
+          "description": "Chuyển đổi tài khoản LINE Business của bạn với gọi thoại do AI hỗ trợ. Kết nối với khách hàng trên các thị trường Châu Á-Thái Bình Dương thông qua nền tảng nhắn tin ưa thích của họ.",
+          "cta": "Bắt đầu tích hợp LINE"
+        },
+        "marketReach": {
+          "title": "Tiếp cận hàng triệu người trên khắp Châu Á-Thái Bình Dương",
+          "subtitle": "LINE thống trị giao tiếp kinh doanh ở các thị trường châu Á chính",
+          "activeUsers": "Người dùng đang hoạt động",
+          "marketPenetration": "Thâm nhập thị trường"
+        },
+        "features": {
+          "title": "Tính năng LINE Business mạnh mẽ",
+          "subtitle": "Mọi thứ bạn cần để cung cấp trải nghiệm thoại đặc biệt trên LINE",
+          "nativeIntegration": {
+            "title": "Tích hợp LINE gốc",
+            "description": "Tích hợp liền mạch gọi thoại trực tiếp trong nền tảng nhắn tin LINE.",
+            "benefit1": "Gọi một chạm từ trò chuyện",
+            "benefit2": "Lịch sử trò chuyện hợp nhất",
+            "benefit3": "Hỗ trợ đa phương tiện phong phú"
+          },
+          "businessAccount": {
+            "title": "Hỗ trợ tài khoản doanh nghiệp",
+            "description": "Hỗ trợ đầy đủ cho các tài khoản LINE Business với các tính năng và phân tích nâng cao.",
+            "benefit1": "Hồ sơ doanh nghiệp đã xác minh",
+            "benefit2": "Các tùy chọn thương hiệu tùy chỉnh",
+            "benefit3": "Quản lý người dùng nâng cao"
+          },
+          "asiaPacific": {
+            "title": "Tập trung vào Châu Á-Thái Bình Dương",
+            "description": "Được tối ưu hóa cho các thị trường châu Á chính nơi LINE thống trị giao tiếp kinh doanh.",
+            "benefit1": "Hỗ trợ ngôn ngữ địa phương",
+            "benefit2": "Tuân thủ khu vực",
+            "benefit3": "Tùy chỉnh văn hóa"
+          }
+        },
+        "useCases": {
+          "title": "Chuyển đổi tương tác khách hàng",
+          "subtitle": "Xem cách các doanh nghiệp sử dụng LINE Call Plus để nâng cao mối quan hệ khách hàng",
+          "customerSupport": {
+            "title": "Hỗ trợ khách hàng",
+            "description": "Cung cấp hỗ trợ thoại tức thì trực tiếp trong các cuộc trò chuyện LINE.",
+            "metric1": "Giải quyết nhanh hơn 50%",
+            "metric2": "Sự hài lòng của khách hàng 90%",
+            "metric3": "Khả dụng 24/7"
+          },
+          "salesConsultations": {
+            "title": "Tư vấn bán hàng",
+            "description": "Chuyển đổi các yêu cầu trò chuyện thành cuộc gọi thoại để có trải nghiệm bán hàng cá nhân hóa.",
+            "metric1": "Tỷ lệ chuyển đổi cao hơn 3 lần",
+            "metric2": "Đề xuất cá nhân hóa",
+            "metric3": "Xây dựng lòng tin"
+          },
+          "appointmentBooking": {
+            "title": "Đặt lịch hẹn",
+            "description": "Cho phép lên lịch hẹn dựa trên giọng nói trong các tài khoản LINE Business.",
+            "metric1": "Xác nhận tức thì",
+            "metric2": "Tích hợp lịch",
+            "metric3": "Nhắc nhở tự động"
+          }
+        },
+        "integration": {
+          "title": "Quy trình tích hợp đơn giản",
+          "subtitle": "Bắt đầu với LINE Call Plus chỉ trong vài bước",
+          "step1": {
+            "title": "Kết nối LINE Business",
+            "description": "Liên kết tài khoản LINE Business hiện có của bạn hoặc tạo tài khoản mới với thiết lập có hướng dẫn của chúng tôi."
+          },
+          "step2": {
+            "title": "Cấu hình nhân viên giọng nói",
+            "description": "Thiết lập nhân viên giọng nói AI của bạn với các kịch bản, giọng nói và logic kinh doanh tùy chỉnh."
+          },
+          "step3": {
+            "title": "Hoạt động trực tiếp",
+            "description": "Khởi chạy tài khoản LINE Business hỗ trợ giọng nói của bạn và bắt đầu tương tác với khách hàng."
+          }
+        },
+        "analytics": {
+          "title": "Phân tích toàn diện",
+          "description": "Theo dõi hiệu suất, hiểu hành vi khách hàng và tối ưu hóa các tương tác giọng nói LINE của bạn với phân tích và báo cáo chi tiết.",
+          "callAnalytics": {
+            "title": "Phân tích cuộc gọi",
+            "description": "Theo dõi khối lượng cuộc gọi, thời lượng và tỷ lệ thành công"
+          },
+          "userEngagement": {
+            "title": "Tương tác người dùng",
+            "description": "Giám sát các tương tác của người dùng và điểm hài lòng"
+          },
+          "platformInsights": {
+            "title": "Thông tin chi tiết nền tảng",
+            "description": "Các chỉ số và dữ liệu hiệu suất dành riêng cho LINE"
+          },
+          "dashboard": {
+            "title": "Phân tích cuộc gọi LINE",
+            "live": "Trực tiếp",
+            "activeCalls": "Cuộc gọi đang hoạt động",
+            "responseRate": "Tỷ lệ phản hồi",
+            "avgCallDuration": "Thời lượng cuộc gọi trung bình",
+            "customerSatisfaction": "Sự hài lòng của khách hàng",
+            "sampleResponse": "Nhân viên giọng nói Nhật Bản phản hồi khách hàng"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng mở rộng ở Châu Á-Thái Bình Dương?",
+          "description": "Kết nối với hàng triệu người dùng LINE và chuyển đổi tương tác khách hàng của bạn trên các thị trường châu Á chính",
+          "button": "Bắt đầu tích hợp LINE"
+        }
+      },
+      "speechToText": {
+        "hero": {
+          "title": "Công nghệ chuyển giọng nói thành văn bản",
+          "subtitle": "Nhận dạng giọng nói hàng đầu ngành với độ chính xác hơn 99%. Chuyển đổi bất kỳ âm thanh nào thành văn bản theo thời gian thực với hỗ trợ hơn 50 ngôn ngữ và từ vựng chuyên ngành.",
+          "cta": "Thử nhận dạng giọng nói"
+        },
+        "features": {
+          "0": {
+            "title": "Xử lý thời gian thực",
+            "description": "Chuyển giọng nói thành văn bản theo thời gian thực với độ trễ cực thấp cho các cuộc trò chuyện trực tiếp.",
+            "specs": {
+              "0": "Độ trễ < 100ms",
+              "1": "Nhận dạng luồng",
+              "2": "Phiên âm trực tiếp"
+            }
+          },
+          "1": {
+            "title": "Hỗ trợ đa ngôn ngữ",
+            "description": "Hỗ trợ hơn 50 ngôn ngữ và phương ngữ với phát hiện ngôn ngữ tự động.",
+            "specs": {
+              "0": "Hơn 50 ngôn ngữ",
+              "1": "Tự động phát hiện",
+              "2": "Giọng địa phương"
+            }
+          },
+          "2": {
+            "title": "Độ chính xác ngành",
+            "description": "Các mô hình chuyên biệt được đào tạo cho các ngành và trường hợp sử dụng khác nhau.",
+            "specs": {
+              "0": "Độ chính xác hơn 99%",
+              "1": "Chuyên biệt theo miền",
+              "2": "Từ vựng tùy chỉnh"
+            }
+          },
+          "title": "Nhận dạng giọng nói nâng cao",
+          "subtitle": "Được xây dựng trên khung Kaldi gốc với các cải tiến học sâu hiện đại"
+        },
+        "accuracy": {
+          "title": "Độ chính xác hàng đầu ngành",
+          "subtitle": "Các mô hình chuyên biệt được đào tạo cho các ngành và trường hợp sử dụng khác nhau",
+          "stats": {
+            "0": {
+              "category": "Trò chuyện chung",
+              "accuracy": "99.2%",
+              "improvement": "+15%"
+            },
+            "1": {
+              "category": "Thuật ngữ y tế",
+              "accuracy": "98.8%",
+              "improvement": "+22%"
+            },
+            "2": {
+              "category": "Dịch vụ tài chính",
+              "accuracy": "99.1%",
+              "improvement": "+18%"
+            },
+            "3": {
+              "category": "Hỗ trợ kỹ thuật",
+              "accuracy": "98.9%",
+              "improvement": "+20%"
+            }
+          },
+          "improvementSuffix": " so với mức trung bình ngành"
+        },
+        "languages": {
+          "title": "Hỗ trợ ngôn ngữ toàn cầu",
+          "subtitle": "Hỗ trợ toàn diện cho các ngôn ngữ chính trên thế giới với phát hiện ngôn ngữ tự động và nhận dạng giọng địa phương. Các mô hình của chúng tôi liên tục được đào tạo trên các bộ dữ liệu đa dạng để đảm bảo độ chính xác trên các phong cách nói và môi trường khác nhau.",
+          "features": {
+            "0": {
+              "title": "Hơn 50 ngôn ngữ",
+              "description": "Các ngôn ngữ chính trên thế giới và các phương ngữ khu vực"
+            },
+            "1": {
+              "title": "Tự động phát hiện",
+              "description": "Tự động nhận dạng và chuyển đổi ngôn ngữ"
+            },
+            "2": {
+              "title": "Học hỏi liên tục",
+              "description": "Các mô hình cải thiện với việc sử dụng và phản hồi"
+            }
+          },
+          "supportedTitle": "Các ngôn ngữ được hỗ trợ",
+          "supportedLanguages": {
+            "0": "Tiếng Anh (Mỹ, Anh, Úc)",
+            "1": "Tiếng Tây Ban Nha (ES, MX, AR)",
+            "2": "Tiếng Pháp (FR, CA)",
+            "3": "Tiếng Đức",
+            "4": "Tiếng Ý",
+            "5": "Tiếng Bồ Đào Nha (BR, PT)",
+            "6": "Tiếng Nhật",
+            "7": "Tiếng Hàn",
+            "8": "Tiếng Trung Quốc phổ thông",
+            "9": "Tiếng Quảng Đông",
+            "10": "Tiếng Hindi",
+            "11": "Tiếng Ả Rập",
+            "12": "Tiếng Nga",
+            "13": "Tiếng Hà Lan",
+            "14": "Tiếng Thụy Điển",
+            "15": "Tiếng Na Uy"
+          },
+          "customNote": "Các mô hình ngôn ngữ tùy chỉnh có sẵn cho các từ vựng chuyên ngành và thuật ngữ cụ thể của ngành"
+        },
+        "useCases": {
+          "0": {
+            "title": "Phiên âm trung tâm cuộc gọi",
+            "description": "Phiên âm thời gian thực các cuộc gọi dịch vụ khách hàng để đảm bảo chất lượng và đào tạo.",
+            "benefits": {
+              "0": "Giám sát chất lượng",
+              "1": "Ghi âm tuân thủ",
+              "2": "Đào tạo nhân viên",
+              "3": "Thông tin chi tiết khách hàng"
+            }
+          },
+          "1": {
+            "title": "Tài liệu cuộc họp",
+            "description": "Phiên âm tự động các cuộc họp, hội nghị và thảo luận kinh doanh.",
+            "benefits": {
+              "0": "Biên bản cuộc họp",
+              "1": "Trích xuất mục hành động",
+              "2": "Lưu trữ có thể tìm kiếm",
+              "3": "ID đa người nói"
+            }
+          },
+          "2": {
+            "title": "Lệnh thoại",
+            "description": "Chuyển đổi lệnh thoại thành văn bản cho các ứng dụng và giao diện điều khiển bằng giọng nói.",
+            "benefits": {
+              "0": "Hoạt động rảnh tay",
+              "1": "Tính năng trợ năng",
+              "2": "Điều khiển nhà thông minh",
+              "3": "Ứng dụng di động"
+            }
+          },
+          "3": {
+            "title": "Tạo nội dung",
+            "description": "Chuyển đổi nội dung âm thanh thành văn bản cho podcast, video và sản xuất phương tiện.",
+            "benefits": {
+              "0": "Tạo phụ đề",
+              "1": "Lập chỉ mục nội dung",
+              "2": "Tối ưu hóa SEO",
+              "3": "Tuân thủ trợ năng"
+            }
+          },
+          "title": "Các trường hợp sử dụng mạnh mẽ",
+          "subtitle": "Chuyển đổi âm thanh thành văn bản có thể hành động trên các ngành và ứng dụng"
+        },
+        "specs": {
+          "title": "Thông số kỹ thuật",
+          "subtitle": "Hiệu suất và độ tin cậy cấp doanh nghiệp",
+          "performance": {
+            "title": "Hiệu suất",
+            "latency": {
+              "label": "Độ trễ",
+              "value": "< 100ms"
+            },
+            "accuracy": {
+              "label": "Độ chính xác",
+              "value": "99%+"
+            },
+            "throughput": {
+              "label": "Thông lượng",
+              "value": "Hơn 1000 cuộc gọi đồng thời"
+            },
+            "uptime": {
+              "label": "Thời gian hoạt động",
+              "value": "99,99%"
+            }
+          },
+          "audioFormats": {
+            "title": "Định dạng âm thanh",
+            "sampleRate": {
+              "label": "Tốc độ lấy mẫu",
+              "value": "8-48 kHz"
+            },
+            "bitDepth": {
+              "label": "Độ sâu bit",
+              "value": "16-32 bit"
+            },
+            "formats": {
+              "label": "Định dạng",
+              "value": "WAV, MP3, FLAC"
+            },
+            "streaming": {
+              "label": "Truyền trực tuyến",
+              "value": "Thời gian thực"
+            }
+          },
+          "integration": {
+            "title": "Tích hợp",
+            "api": {
+              "label": "API",
+              "value": "REST & WebSocket"
+            },
+            "sdks": {
+              "label": "SDK",
+              "value": "Python, Node.js, Go"
+            },
+            "webhooks": {
+              "label": "Webhook",
+              "value": "Các sự kiện thời gian thực"
+            },
+            "security": {
+              "label": "Bảo mật",
+              "value": "TLS 1.3, OAuth 2.0"
+            }
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng chuyển đổi âm thanh thành văn bản?",
+          "subtitle": "Trải nghiệm sức mạnh của công nghệ nhận dạng giọng nói hàng đầu ngành",
+          "primaryButton": "Thử demo miễn phí",
+          "secondaryButton": "Xem tài liệu API"
+        }
+      },
+      "voipSipByoc": {
+        "hero": {
+          "title": "Giải pháp thoại VoIP, SIP & BYOC",
+          "subtitle": "Kết nối thoại cấp doanh nghiệp với tính linh hoạt tối đa. Chọn từ tích hợp VoIP, SIP trunking trực tiếp hoặc mang theo nhà mạng của riêng bạn để kiểm soát hoàn toàn.",
+          "cta": "Nói chuyện với chuyên gia kết nối"
+        },
+        "connectionTypes": {
+          "title": "Các tùy chọn kết nối linh hoạt",
+          "subtitle": "Chọn phương thức kết nối phù hợp nhất với cơ sở hạ tầng và yêu cầu của bạn",
+          "keyFeatures": "Tính năng chính:",
+          "voip": {
+            "title": "Tích hợp VoIP",
+            "description": "Kết nối liền mạch cơ sở hạ tầng VoIP hiện có của bạn với nền tảng thoại AI của chúng tôi.",
+            "features": {
+              "sipTrunk": "Tương thích SIP trunk",
+              "codecOptimization": "Tối ưu hóa Codec",
+              "qos": "Chất lượng dịch vụ (QoS)",
+              "bandwidthManagement": "Quản lý băng thông"
+            },
+            "pricing": "Bắt đầu từ 0,08 đô la/phút"
+          },
+          "sip": {
+            "title": "SIP Trunking",
+            "description": "Kết nối SIP trực tiếp để kiểm soát và tùy chỉnh lưu lượng thoại của bạn tối đa.",
+            "features": {
+              "directEndpoints": "Các điểm cuối SIP trực tiếp",
+              "customRouting": "Các quy tắc định tuyến tùy chỉnh",
+              "failoverProtection": "Bảo vệ chuyển đổi dự phòng",
+              "realTimeMonitoring": "Giám sát thời gian thực"
+            },
+            "pricing": "Bắt đầu từ 0,06 đô la/phút"
+          },
+          "byoc": {
+            "title": "Mang theo nhà mạng của riêng bạn (BYOC)",
+            "description": "Sử dụng các nhà mạng ưa thích của bạn trong khi tận dụng khả năng thoại AI của chúng tôi.",
+            "features": {
+              "carrierIndependence": "Độc lập nhà mạng",
+              "costOptimization": "Tối ưu hóa chi phí",
+              "globalReach": "Phạm vi toàn cầu",
+              "vendorFlexibility": "Tính linh hoạt của nhà cung cấp"
+            },
+            "pricing": "Phí nền tảng + giá nhà mạng"
+          }
+        },
+        "benefits": {
+          "title": "Lợi ích doanh nghiệp",
+          "subtitle": "Tại sao các doanh nghiệp hàng đầu chọn các giải pháp kết nối thoại của chúng tôi",
+          "costSavings": {
+            "title": "Tiết kiệm chi phí",
+            "description": "Giảm chi phí giao tiếp tới 60% với định tuyến và lựa chọn nhà mạng tối ưu.",
+            "metric": "60%"
+          },
+          "reliability": {
+            "title": "Độ tin cậy",
+            "description": "Thời gian hoạt động cấp doanh nghiệp với chuyển đổi dự phòng tự động và cơ sở hạ tầng dự phòng.",
+            "metric": "99,99%"
+          },
+          "scalability": {
+            "title": "Khả năng mở rộng",
+            "description": "Xử lý hàng ngàn cuộc gọi đồng thời với khả năng mở rộng linh hoạt.",
+            "metric": "10.000+"
+          },
+          "globalReach": {
+            "title": "Phạm vi toàn cầu",
+            "description": "Kết nối với khách hàng trên toàn thế giới với sự hiện diện địa phương ở các thị trường lớn.",
+            "metric": "200+"
+          }
+        },
+        "technicalExcellence": {
+          "title": "Sự xuất sắc về kỹ thuật",
+          "subtitle": "Được xây dựng trên các giao thức tiêu chuẩn ngành với bảo mật và hiệu suất cấp doanh nghiệp. Nền tảng của chúng tôi hỗ trợ tất cả các codec chính và cung cấp giám sát chất lượng thời gian thực.",
+          "endToEndEncryption": {
+            "title": "Mã hóa đầu cuối",
+            "description": "TLS 1.3 và SRTP để truyền thoại an toàn"
+          },
+          "lowLatency": {
+            "title": "Độ trễ thấp",
+            "description": "Độ trễ dưới 150ms cho các cuộc trò chuyện rõ ràng"
+          },
+          "advancedConfiguration": {
+            "title": "Cấu hình nâng cao",
+            "description": "Kiểm soát chi tiết định tuyến và cài đặt chất lượng"
+          }
+        },
+        "technicalSpecs": {
+          "title": "Thông số kỹ thuật",
+          "supportedProtocols": {
+            "feature": "Các giao thức được hỗ trợ",
+            "value": "SIP 2.0, RTP, SRTP"
+          },
+          "audioCodecs": {
+            "feature": "Các codec âm thanh",
+            "value": "G.711, G.722, G.729, Opus"
+          },
+          "encryption": {
+            "feature": "Mã hóa",
+            "value": "TLS 1.3, SRTP, AES-256"
+          },
+          "networkRequirements": {
+            "feature": "Yêu cầu mạng",
+            "value": "100 kbps mỗi cuộc gọi đồng thời"
+          },
+          "latency": {
+            "feature": "Độ trễ",
+            "value": "< 150ms đầu cuối"
+          },
+          "jitterBuffer": {
+            "feature": "Bộ đệm jitter",
+            "value": "Thích ứng, 20-200ms"
+          }
+        },
+        "howItWorks": {
+          "title": "Cách thức hoạt động",
+          "subtitle": "Tích hợp đơn giản với cơ sở hạ tầng hiện có của bạn",
+          "yourInfrastructure": {
+            "title": "Cơ sở hạ tầng của bạn",
+            "description": "PBX, hệ thống VoIP hoặc nhà mạng hiện có"
+          },
+          "seavoicePlatform": {
+            "title": "Nền tảng SeaVoice",
+            "description": "Xử lý và định tuyến thoại AI"
+          },
+          "globalNetwork": {
+            "title": "Mạng toàn cầu",
+            "description": "Kết nối nhà mạng trên toàn thế giới"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng tối ưu hóa cơ sở hạ tầng thoại của bạn?",
+          "subtitle": "Nói chuyện với các chuyên gia kết nối của chúng tôi để thiết kế giải pháp hoàn hảo cho nhu cầu của bạn",
+          "scheduleConsultation": "Lên lịch tư vấn",
+          "signUpForFree": "Đăng ký miễn phí"
+        }
+      },
+      "whatsAppVoice": {
+        "hero": {
+          "title": "API thoại WhatsApp cho doanh nghiệp",
+          "subtitle": "Chuyển đổi tài khoản WhatsApp Business của bạn với gọi thoại do AI hỗ trợ. Tiếp cận hơn 2 tỷ người dùng trên toàn thế giới với các tương tác thoại liền mạch.",
+          "cta": "Lấy API nền tảng WhatsApp Business"
+        },
+        "globalStats": {
+          "title": "Tiếp cận nền tảng nhắn tin lớn nhất thế giới",
+          "subtitle": "WhatsApp thống trị nhắn tin toàn cầu với phạm vi tiếp cận và tương tác chưa từng có",
+          "stats": {
+            "0": {
+              "region": "Người dùng toàn cầu",
+              "count": "2.78B+",
+              "growth": "+3.2% YoY"
+            },
+            "1": {
+              "region": "Tài khoản doanh nghiệp",
+              "count": "200M+",
+              "growth": "+15% YoY"
+            },
+            "2": {
+              "region": "Tin nhắn hàng ngày",
+              "count": "100B+",
+              "growth": "+8% YoY"
+            },
+            "3": {
+              "region": "Quốc gia",
+              "count": "180+",
+              "growth": "Phạm vi phủ sóng đầy đủ"
+            }
+          }
+        },
+        "features": {
+          "0": {
+            "title": "API nền tảng WhatsApp Business",
+            "description": "Tích hợp chính thức với API nền tảng WhatsApp Business cho giao tiếp doanh nghiệp đã xác minh.",
+            "benefits": {
+              "0": "Xác minh dấu tích xanh",
+              "1": "Tính năng hồ sơ doanh nghiệp",
+              "2": "Mẫu tin nhắn"
+            }
+          },
+          "1": {
+            "title": "Phạm vi toàn cầu",
+            "description": "Kết nối với hơn 2 tỷ người dùng WhatsApp trên toàn thế giới thông qua gọi thoại.",
+            "benefits": {
+              "0": "Hỗ trợ hơn 180 quốc gia",
+              "1": "Khả năng đa ngôn ngữ",
+              "2": "Sự hiện diện số địa phương"
+            }
+          },
+          "2": {
+            "title": "Bảo mật đầu cuối",
+            "description": "Tận dụng mã hóa đầu cuối của WhatsApp cho giao tiếp doanh nghiệp an toàn.",
+            "benefits": {
+              "0": "Mã hóa tin nhắn",
+              "1": "Gọi thoại an toàn",
+              "2": "Tuân thủ quyền riêng tư"
+            }
+          },
+          "title": "Tính năng thoại WhatsApp doanh nghiệp",
+          "subtitle": "Mọi thứ bạn cần để cung cấp trải nghiệm thoại đặc biệt trên WhatsApp"
+        },
+        "useCases": {
+          "0": {
+            "title": "Hỗ trợ khách hàng",
+            "description": "Cung cấp hỗ trợ thoại tức thì trực tiếp trong các cuộc trò chuyện WhatsApp.",
+            "metrics": {
+              "0": "Giải quyết nhanh hơn 60%",
+              "1": "Sự hài lòng của khách hàng 95%",
+              "2": "Leo thang liền mạch"
+            }
+          },
+          "1": {
+            "title": "Bán hàng & Tư vấn",
+            "description": "Chuyển đổi các yêu cầu trò chuyện thành cuộc gọi thoại để có trải nghiệm bán hàng cá nhân hóa.",
+            "metrics": {
+              "0": "Tỷ lệ chuyển đổi cao hơn 4 lần",
+              "1": "Sự tiếp xúc cá nhân",
+              "2": "Xây dựng lòng tin"
+            }
+          },
+          "2": {
+            "title": "Đặt lịch hẹn",
+            "description": "Cho phép lên lịch hẹn dựa trên giọng nói trong nền tảng WhatsApp Business.",
+            "metrics": {
+              "0": "Đặt chỗ một chạm",
+              "1": "Đồng bộ hóa lịch",
+              "2": "Xác nhận tự động"
+            }
+          },
+          "3": {
+            "title": "Quản lý đơn hàng",
+            "description": "Xử lý các yêu cầu đơn hàng, cập nhật và hỗ trợ thông qua các tương tác thoại.",
+            "metrics": {
+              "0": "Cập nhật thời gian thực",
+              "1": "Theo dõi đơn hàng",
+              "2": "Giải quyết vấn đề"
+            }
+          },
+          "title": "Chuyển đổi tương tác khách hàng",
+          "subtitle": "Xem cách các doanh nghiệp sử dụng API thoại WhatsApp để nâng cao mối quan hệ khách hàng"
+        },
+        "integration": {
+          "title": "Quy trình tích hợp đơn giản",
+          "subtitle": "Bắt đầu với API thoại WhatsApp chỉ trong bốn bước",
+          "steps": {
+            "0": {
+              "title": "Thiết lập WhatsApp Business",
+              "description": "Kết nối tài khoản WhatsApp Business của bạn hoặc tạo hồ sơ doanh nghiệp đã xác minh mới."
+            },
+            "1": {
+              "title": "Cấu hình nhân viên thoại",
+              "description": "Cấu hình nhân viên thoại AI với logic kinh doanh, kịch bản và giọng nói thương hiệu của bạn."
+            },
+            "2": {
+              "title": "Tích hợp API",
+              "description": "Tích hợp với các hệ thống hiện có của bạn bằng cách sử dụng API và webhook toàn diện của chúng tôi."
+            },
+            "3": {
+              "title": "Hoạt động trực tiếp",
+              "description": "Khởi chạy WhatsApp Business hỗ trợ thoại của bạn và bắt đầu tương tác với khách hàng."
+            }
+          }
+        },
+        "demo": {
+          "title": "Xem nó hoạt động",
+          "subtitle": "Trải nghiệm cách gọi thoại tích hợp liền mạch với nền tảng WhatsApp Business. Các nhân viên AI của chúng tôi có thể xử lý các cuộc trò chuyện phức tạp trong khi vẫn duy trì trải nghiệm WhatsApp quen thuộc mà khách hàng của bạn yêu thích.",
+          "features": {
+            "0": {
+              "title": "Gọi một chạm",
+              "description": "Khách hàng có thể bắt đầu cuộc gọi thoại trực tiếp từ trò chuyện"
+            },
+            "1": {
+              "title": "Chuyển giao liền mạch",
+              "description": "Chuyển đổi mượt mà giữa AI và nhân viên con người"
+            },
+            "2": {
+              "title": "Lịch sử hợp nhất",
+              "description": "Lịch sử trò chuyện hoàn chỉnh trên trò chuyện và thoại"
+            }
+          },
+          "dashboard": {
+            "title": "Bảng điều khiển WhatsApp Business",
+            "liveStatus": "Trực tiếp",
+            "stats": {
+              "activeVoiceCalls": {
+                "label": "Cuộc gọi thoại đang hoạt động",
+                "value": "89"
+              },
+              "messagesToday": {
+                "label": "Tin nhắn hôm nay",
+                "value": "2.847"
+              },
+              "responseRate": {
+                "label": "Tỷ lệ phản hồi",
+                "value": "96%"
+              },
+              "customerSatisfaction": {
+                "label": "Sự hài lòng của khách hàng",
+                "value": "4.9/5"
+              }
+            }
+          },
+          "aiAssistant": {
+            "name": "Trợ lý AI",
+            "message": "Chào! Tôi ở đây để giúp bạn với đơn hàng của bạn. Bạn có muốn nói chuyện trực tiếp với tôi không? Chỉ cần nhấn nút gọi ở trên!"
+          }
+        },
+        "cta": {
+          "title": "Sẵn sàng chuyển đổi WhatsApp Business?",
+          "subtitle": "Tham gia cùng hàng ngàn doanh nghiệp sử dụng API thoại WhatsApp để cung cấp trải nghiệm khách hàng đặc biệt",
+          "primaryButton": "Bắt đầu ngay hôm nay",
+          "secondaryButton": "Lên lịch demo"
+        }
+      }
+    },
+    "components": {
+      "interactiveCallDashboard": {
+        "liveDashboard": "Bảng điều khiển trực tiếp",
+        "controlCenter": "Trung tâm điều khiển",
+        "realTimeAnalytics": "Phân tích thời gian thực",
+        "description": "Xem nền tảng giọng nói AI của chúng tôi xử lý hàng ngàn cuộc gọi đồng thời với các cuộc trò chuyện giống con người và phân tích thời gian thực.",
+        "bookDemo": "Đặt lịch demo",
+        "controlCenterTitle": "Trung tâm điều khiển SeaVoice",
+        "live": "Trực tiếp",
+        "activeCalls": "Cuộc gọi đang hoạt động",
+        "avgQueueTime": "Thời gian chờ trung bình",
+        "resolutionRate": "Tỷ lệ giải quyết",
+        "availability": "Khả dụng",
+        "globalCallActivity": "Hoạt động cuộc gọi toàn cầu",
+        "recentConversations": "Các cuộc trò chuyện gần đây",
+        "customerInquiryResolved": "Yêu cầu của khách hàng đã được giải quyết",
+        "appointmentScheduled": "Cuộc hẹn đã được lên lịch",
+        "paymentProcessed": "Thanh toán đã được xử lý",
+        "supportTicketCreated": "Phiếu hỗ trợ đã được tạo",
+        "justNow": "Vừa rồi",
+        "concurrentCalls": "Cuộc gọi đồng thời",
+        "uptime": "Thời gian hoạt động",
+        "conversations": {
+          "appointmentRequest": "Chào, tôi muốn đặt lịch hẹn",
+          "techCorpGreeting": "Cảm ơn bạn đã gọi TechCorp...",
+          "orderTracking": "Bạn có thể giúp tôi theo dõi đơn hàng của tôi không?",
+          "availabilityResponse": "Tôi có mặt vào thứ Ba lúc 2 giờ chiều"
+        }
+      },
+      "voiceDemo": {
+        "demos": {
+          "restaurant": {
+            "title": "Đặt chỗ nhà hàng",
+            "description": "AI xử lý việc đặt bàn, kiểm tra tình trạng sẵn có và các yêu cầu đặc biệt"
+          },
+          "insurance": {
+            "title": "Cuộc gọi xác minh bảo hiểm",
+            "description": "Xác minh bảo hiểm và xử lý yêu cầu tự động"
+          },
+          "techSupport": {
+            "title": "Hỗ trợ kỹ thuật",
+            "description": "Khắc phục sự cố kỹ thuật và tự động hóa hỗ trợ khách hàng"
+          },
+          "salesLead": {
+            "title": "Sàng lọc khách hàng tiềm năng bán hàng",
+            "description": "Sàng lọc khách hàng tiềm năng thông minh và quản lý kênh bán hàng"
+          },
+          "realEstate": {
+            "title": "Xử lý yêu cầu bất động sản",
+            "description": "Yêu cầu tài sản, lên lịch xem nhà và quản lý khách hàng"
+          },
+          "donation": {
+            "title": "Tiếp cận chiến dịch quyên góp",
+            "description": "Các chiến dịch gây quỹ và tự động hóa tương tác với nhà tài trợ"
+          }
+        },
+        "seekTooltip": "Nhấp để tìm kiếm"
+      }
+    }
+  }
+}

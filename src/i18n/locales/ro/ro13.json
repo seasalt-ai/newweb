@@ -1,0 +1,1879 @@
+{
+  "seavoice": {
+    "pages": {
+      "solutions": {
+        "inbound": {
+          "ivrReplacement": {
+            "hero": {
+              "title": "Înlocuire IVR cu limbaj natural",
+              "subtitle": "Eliminați arborii telefonici frustranți și navigarea prin meniu. Lăsați clienții să vorbească natural pentru a-și descrie nevoile și a fi conectați instantaneu la locul potrivit.",
+            "cta": "Înlocuiți-vă IVR-ul astăzi"
+            },
+            "features": {
+              "title": "Funcționalități moderne de interfață vocală",
+              "subtitle": "Transformați sistemele telefonice învechite cu conversații inteligente",
+              "naturalLanguage": {
+                "title": "Înțelegerea limbajului natural",
+                "description": "Înlocuiți opțiunile de meniu confuze cu conversații naturale care înțeleg ce își doresc cu adevărat clienții.",
+                "benefit1": "Interfață conversațională",
+                "benefit2": "Recunoaștere intenție",
+                "benefit3": "Conștientizare contextuală"
+              },
+              "instantResolution": {
+                "title": "Rezolvare instantanee",
+                "description": "Rezolvați interogările clienților imediat, fără a naviga prin mai multe niveluri de meniu.",
+                "benefit1": "Timp de așteptare zero",
+                "benefit2": "Răspunsuri directe",
+                "benefit3": "Asistență imediată"
+              },
+              "improvedExperience": {
+                "title": "Experiență îmbunătățită",
+                "description": "Transformați arborii telefonici frustranți în interacțiuni plăcute și eficiente cu clienții.",
+                "benefit1": "Satisfacție mai mare",
+                "benefit2": "Abandon redus",
+                "benefit3": "Accesibilitate mai bună"
+              }
+            },
+            "comparison": {
+              "title": "IVR tradițional vs. limbaj natural",
+              "subtitle": "Vedeți diferența dramatică în experiența clienților",
+              "customerExperience": {
+                "aspect": "Experiența clientului",
+                "traditional": "Apăsați 1 pentru vânzări, 2 pentru suport...",
+                "modern": "\"Am nevoie de ajutor cu comanda mea\" - Conectat instantaneu",
+                "improvement": "Creștere cu 85% a satisfacției"
+              },
+              "timeToResolution": {
+                "aspect": "Timp până la rezolvare",
+                "traditional": "3-5 minute navigând prin meniuri",
+                "modern": "30 de secunde pentru a ajunge la departamentul potrivit",
+                "improvement": "Reducere cu 80% a timpului"
+              },
+              "callAbandonment": {
+                "aspect": "Abandon apel",
+                "traditional": "25% abandonează în timpul navigării prin meniu",
+                "modern": "5% rată de abandon",
+                "improvement": "Reducere cu 80%"
+              },
+              "accessibility": {
+                "aspect": "Accesibilitate",
+                "traditional": "Dificil pentru utilizatorii vârstnici/cu dizabilități",
+                "modern": "Vorbire naturală pentru toți utilizatorii",
+                "improvement": "100% accesibilitate"
+              },
+              "traditionalIvr": "IVR tradițional",
+              "naturalLanguage": "Limbaj natural"
+            },
+            "benefits": {
+              "title": "Îmbunătățiri măsurabile",
+              "subtitle": "Rezultate reale din înlocuirea sistemelor IVR tradiționale",
+              "satisfaction": {
+                "metric": "85%",
+                "description": "Creștere a satisfacției clienților"
+              },
+              "abandonment": {
+                "metric": "80%",
+                "description": "Reducerea abandonului apelurilor"
+              },
+              "resolution": {
+                "metric": "70%",
+                "description": "Rezolvare mai rapidă a apelurilor"
+              },
+              "misdirected": {
+                "metric": "90%",
+                "description": "Reducerea apelurilor greșit direcționate"
+              }
+            },
+            "cta": {
+              "title": "Gata să vă modernizați sistemul telefonic?",
+              "subtitle": "Înlocuiți arborii telefonici frustranți cu conversații naturale pe care clienții le adoră",
+              "startTrial": "Începeți proba gratuită",
+              "seeDemo": "Vedeți demonstrația"
+            },
+            "title": "Înlocuire IVR",
+            "description": "Înlocuiți meniurile telefonice învechite cu înțelegerea limbajului natural.",
+            "benefit1": "Conversații naturale",
+            "benefit2": "UX mai bun",
+            "benefit3": "Satisfacție mai mare"
+          },
+          "technicalSupport": {
+            "hero": {
+              "title": "Automatizare suport tehnic",
+              "description": "Oferiți suport tehnic instantaneu cu AI care poate diagnostica probleme, ghida clienții prin soluții și escalada probleme complexe către experți umani atunci când este necesar.",
+              "primaryCta": "Automatizați suportul tehnic"
+            },
+            "features": {
+              "title": "Suport tehnic inteligent",
+              "description": "AI avansată care înțelege problemele tehnice și oferă soluții",
+              "automatedTroubleshooting": {
+                "title": "Depanare automată",
+                "description": "Ghidarea clienților prin soluții pas cu pas pentru probleme tehnice comune.",
+                "benefits": {
+                  "0": "Rezolvare self-service",
+                  "1": "Diagnosticare instantanee",
+                  "2": "Ghidare interactivă"
+                }
+              },
+              "intelligentEscalation": {
+                "title": "Escaladare inteligentă",
+                "description": "Escalați automat probleme complexe către tehnicieni umani cu context complet.",
+                "benefits": {
+                  "0": "Rutare inteligentă",
+                  "1": "Conservare context",
+                  "2": "Transfer fără întreruperi"
+                }
+              },
+              "multiPlatformSupport": {
+                "title": "Suport multi-platformă",
+                "description": "Oferiți asistență tehnică pe diferite dispozitive, software și platforme.",
+                "benefits": {
+                  "0": "Compatibilitate universală",
+                  "1": "Expertiză multi-platformă",
+                  "2": "Acoperire completă"
+                }
+              }
+            },
+            "capabilities": {
+              "title": "Acoperire completă a suportului",
+              "description": "Gestionați o gamă largă de probleme tehnice pe toate platformele",
+              "hardwareIssues": {
+                "category": "Probleme hardware",
+                "description": "Diagnosticați și rezolvați problemele legate de hardware",
+                "examples": {
+                  "0": "Conectivitate dispozitiv",
+                  "1": "Probleme de performanță",
+                  "2": "Configurare hardware"
+                }
+              },
+              "softwareTroubleshooting": {
+                "category": "Depanare software",
+                "description": "Ajutor cu instalarea și configurarea software-ului",
+                "examples": {
+                  "0": "Instalare aplicații",
+                  "1": "Configurare setări",
+                  "2": "Asistență actualizare"
+                }
+              },
+              "networkProblems": {
+                "category": "Probleme de rețea",
+                "description": "Rezolvați problemele de conectivitate la internet și rețea",
+                "examples": {
+                  "0": "Configurare WiFi",
+                  "1": "Probleme de conectare",
+                  "2": "Optimizare viteză"
+                }
+              },
+              "accountSecurity": {
+                "category": "Cont și securitate",
+                "description": "Asistență cu accesul la cont și preocupările de securitate",
+                "examples": {
+                  "0": "Resetare parolă",
+                  "1": "Recuperare cont",
+                  "2": "Setări de securitate"
+                }
+              }
+            },
+            "process": {
+              "title": "Proces de depanare AI",
+              "description": "Abordare sistematică pentru diagnosticarea și rezolvarea problemelor tehnice",
+              "steps": {
+                "issueIdentification": {
+                  "title": "Identificare problemă",
+                  "description": "AI ascultă descrierea problemei și pune întrebări clarificatoare"
+                },
+                "diagnosticAnalysis": {
+                  "title": "Analiză diagnostică",
+                  "description": "Sistemul analizează simptomele și identifică cauzele potențiale"
+                },
+                "solutionGuidance": {
+                  "title": "Ghidare soluție",
+                  "description": "Oferă instrucțiuni pas cu pas pentru a rezolva problema"
+                },
+                "verificationFollowup": {
+                  "title": "Verificare și follow-up",
+                  "description": "Confirmă rezolvarea și oferă asistență suplimentară, dacă este necesar"
+                }
+              }
+            },
+            "benefits": {
+              "title": "Rezultate eficiență suport",
+              "description": "Îmbunătățiri măsurabile în operațiunile de suport tehnic"
+            },
+            "metrics": {
+              "resolution": {
+                "description": "Probleme rezolvate fără agent uman"
+              },
+              "reductionTime": {
+                "description": "Reducerea timpului mediu de rezolvare"
+              },
+              "satisfaction": {
+                "description": "Satisfacția clienților cu suport AI"
+              },
+              "availability": {
+                "description": "Disponibilitate suport tehnic"
+              }
+            },
+            "cta": {
+              "title": "Gata să automatizați suportul tehnic?",
+              "description": "Oferiți asistență tehnică instantanee, inteligentă, care rezolvă problemele mai rapid",
+              "primaryButton": "Începeți proba gratuită",
+              "secondaryButton": "Vedeți demonstrația"
+            },
+            "title": "Suport tehnic",
+            "description": "Automatizați depanarea și ghidați utilizatorii prin probleme tehnice.",
+            "benefit1": "Soluții self-service",
+            "benefit2": "Rezolvare mai rapidă",
+            "benefit3": "Economii de costuri"
+          },
+          "orderTracking": {
+            "hero": {
+              "title": "Stare și urmărire comenzi",
+              "subtitle": "Permiteți clienților să verifice instantaneu starea comenzilor, să urmărească expedierile și să obțină actualizări de livrare prin conversații vocale naturale. Reduceți apelurile de suport, îmbunătățind în același timp satisfacția clienților.",
+            "cta": "Activați urmărirea comenzilor"
+            },
+            "features": {
+              "title": "Urmărire completă a comenzilor",
+              "subtitle": "Vizibilitate completă asupra stării comenzilor și a progresului livrării",
+              "realTimeStatus": {
+                "title": "Stare comandă în timp real",
+                "description": "Oferiți instantaneu clienților informații actualizate despre comenzile și expedierile lor.",
+                "benefits": {
+                  "liveTracking": "Actualizări de urmărire live",
+                  "deliveryEstimates": "Estimări de livrare",
+                  "statusNotifications": "Notificări de stare"
+                }
+              },
+              "locationTracking": {
+                "title": "Urmărire locație",
+                "description": "Partajați informații precise despre locație și progresul livrării cu clienții.",
+                "benefits": {
+                  "gpsTracking": "Urmărire GPS",
+                  "routeOptimization": "Optimizare rută",
+                  "deliveryMapping": "Mapare livrare"
+                }
+              },
+              "proactiveUpdates": {
+                "title": "Actualizări proactive",
+                "description": "Notificați automat clienții despre întârzieri, modificări sau confirmări de livrare.",
+                "benefits": {
+                  "delayNotifications": "Notificări de întârziere",
+                  "scheduleChanges": "Modificări de program",
+                  "deliveryConfirmations": "Confirmări de livrare"
+                }
+              }
+            },
+            "tracking": {
+              "title": "Călătorie completă de livrare",
+              "subtitle": "Urmăriți fiecare etapă de la plasarea comenzii până la livrarea finală",
+              "stages": {
+                "orderPlaced": {
+                  "title": "Comandă plasată",
+                  "description": "Confirmarea primirii comenzii și începerea procesării",
+                  "info": {
+                    "orderNumber": "Număr comandă",
+                    "itemsOrdered": "Articole comandate",
+                    "processingTimeline": "Cronologie procesare"
+                  }
+                },
+                "inTransit": {
+                  "title": "În tranzit",
+                  "description": "Pachetul este în drum spre destinație",
+                  "info": {
+                    "currentLocation": "Locație curentă",
+                    "expectedDelivery": "Livrare estimată",
+                    "carrierInformation": "Informații transportator"
+                  }
+                },
+                "outForDelivery": {
+                  "title": "În curs de livrare",
+                  "description": "Pachetul este la șoferul de livrare pentru livrarea finală",
+                  "info": {
+                    "deliveryWindow": "Fereastră de livrare",
+                    "driverContact": "Contact șofer",
+                    "specialInstructions": "Instrucțiuni speciale"
+                  }
+                },
+                "delivered": {
+                  "title": "Livrat",
+                  "description": "Pachetul a fost livrat cu succes",
+                  "info": {
+                    "deliveryTime": "Ora livrării",
+                    "deliveryLocation": "Locație livrare",
+                    "signatureConfirmation": "Confirmare semnătură"
+                  }
+                }
+              }
+            },
+            "integration": {
+              "title": "Integrare universală cu transportatorii",
+              "description": "Conectați-vă cu toți transportatorii majori și furnizorii de logistică pentru a oferi informații complete de urmărire, indiferent de modul în care sunt expediate pachetele.",
+              "multiCarrier": {
+                "title": "Suport multi-transportator",
+                "description": "Urmăriți pachetele pe toți transportatorii majori"
+              },
+              "realTimeUpdates": {
+                "title": "Actualizări în timp real",
+                "description": "Date de urmărire live de la API-urile transportatorilor"
+              },
+              "deliveryAnalytics": {
+                "title": "Analiză livrare",
+                "description": "Insight-uri de performanță și metrici de livrare"
+              },
+              "carriers": {
+                "title": "Transportatori acceptați",
+                "fedex": "API FedEx",
+                "ups": "Urmărire UPS",
+                "usps": "Integrare USPS",
+                "dhl": "Servicii DHL",
+                "amazon": "Logistica Amazon",
+                "custom": "Transportatori personalizați"
+              }
+            },
+            "impact": {
+              "title": "Impactul asupra serviciului clienți",
+              "subtitle": "Îmbunătățiri măsurabile în satisfacția clienților și eficiența suportului",
+              "callReduction": {
+                "metric": "85%",
+                "description": "Reducerea apelurilor \"Unde este comanda mea?\""
+              },
+              "satisfaction": {
+                "metric": "95%",
+                "description": "Satisfacția clienților cu informațiile de urmărire"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "Disponibilitate stare comandă"
+              },
+              "workloadReduction": {
+                "metric": "60%",
+                "description": "Reducerea volumului de muncă al serviciului clienți"
+              }
+            },
+            "cta": {
+              "title": "Gata să automatizați urmărirea comenzilor?",
+              "subtitle": "Reduceți apelurile de suport și îmbunătățiți satisfacția clienților cu starea instantanee a comenzilor",
+              "startTrial": "Începeți proba gratuită",
+              "seeDemo": "Vedeți demonstrația"
+            },
+            "title": "Stare și urmărire comenzi",
+            "description": "Permiteți clienților să verifice instantaneu starea comenzilor și informațiile de livrare.",
+            "benefit1": "Actualizări instantanee",
+            "benefit2": "Apeluri reduse",
+            "benefit3": "Experiență mai bună"
+          },
+          "paymentProcessing": {
+            "hero": {
+              "title": "Procesare plăți securizată",
+              "description": "Activați procesarea plăților securizată, conformă PCI, prin interacțiuni vocale. Permiteți clienților să efectueze plăți în siguranță prin telefon cu protecție avansată împotriva fraudei și procesare instantanee a tranzacțiilor.",
+            "cta": "Activați plățile securizate"
+            },
+            "features": {
+              "title": "Funcționalități de plată vocală securizată",
+              "description": "Securitatea la nivel de întreprindere se întâlnește cu experiența clientului fără întreruperi",
+              "secure": {
+                "title": "Procesare plăți securizată",
+                "description": "Procesați plățile în siguranță prin telefon cu tehnologie vocală conformă PCI.",
+                "benefits": {
+                  "pciCompliance": "Conformitate PCI DSS",
+                  "encryptedTransactions": "Tranzacții criptate",
+                  "multiplePaymentMethods": "Metode de plată multiple"
+                }
+              },
+              "fraud": {
+                "title": "Protecție împotriva fraudei",
+                "description": "Detectare și prevenire avansată a fraudei pentru a proteja atât afacerea, cât și clienții.",
+                "benefits": {
+                  "realtimeFraudDetection": "Detectare fraudă în timp real",
+                  "riskAssessment": "Evaluare risc",
+                  "secureAuthentication": "Autentificare securizată"
+                }
+              },
+              "instant": {
+                "title": "Procesare instantanee",
+                "description": "Procesați plățile imediat cu autorizare și confirmare în timp real.",
+                "benefits": {
+                  "realtimeAuthorization": "Autorizare în timp real",
+                  "instantConfirmation": "Confirmare instantanee",
+                  "immediateReceipts": "Chitanțe imediate"
+                }
+              }
+            },
+            "paymentMethods": {
+              "title": "Opțiuni complete de plată",
+              "description": "Acceptați toate metodele majore de plată cu procesare vocală securizată",
+              "creditCards": {
+                "method": "Carduri de credit",
+                "description": "Acceptați toate cardurile de credit majore cu procesare vocală securizată",
+                "features": {
+                  "visaMastercardAmex": "Visa, Mastercard, Amex",
+                  "cvvVerification": "Verificare CVV",
+                  "expiryValidation": "Validare expirare"
+                }
+              },
+              "debitCards": {
+                "method": "Carduri de debit",
+                "description": "Procesați plățile cu cardul de debit cu verificare PIN",
+                "features": {
+                  "pinEntryVoice": "Introducere PIN prin voce",
+                  "bankVerification": "Verificare bancară",
+                  "instantDeduction": "Deducere instantanee"
+                }
+              },
+              "bankTransfers": {
+                "method": "Transferuri bancare",
+                "description": "Transferuri bancare directe și plăți ACH",
+                "features": {
+                  "accountVerification": "Verificare cont",
+                  "routingNumberValidation": "Validare număr de rutare",
+                  "achProcessing": "Procesare ACH"
+                }
+              },
+              "digitalWallets": {
+                "method": "Portofele digitale",
+                "description": "Suport pentru platforme populare de plată digitală",
+                "features": {
+                  "applePay": "Apple Pay",
+                  "googlePay": "Google Pay",
+                  "paypalIntegration": "Integrare PayPal"
+                }
+              }
+            },
+            "security": {
+              "title": "Securitate la nivel bancar",
+              "description": "Sistemul nostru de procesare a plăților îndeplinește cele mai înalte standarde de securitate din industrie, asigurând că fiecare tranzacție este protejată cu multiple straturi de criptare și prevenire a fraudei.",
+              "features": {
+                "title": "Funcționalități de securitate"
+              },
+              "encryption": {
+                "title": "Criptare end-to-end",
+                "description": "Toate datele de plată criptate în tranzit și în repaus"
+              },
+              "pciCompliance": {
+                "title": "Conformitate PCI DSS",
+                "description": "Infrastructură certificată PCI DSS Nivel 1"
+              },
+              "monitoring": {
+                "title": "Monitorizare în timp real",
+                "description": "Detectare și prevenire continuă a fraudei"
+              }
+            },
+            "securityFeatures": {
+              "endToEndEncryption": "Criptare end-to-end",
+              "pciDssCompliance": "Conformitate PCI DSS Nivel 1",
+              "tokenization": "Tokenizare date card",
+              "multiFactorAuth": "Autentificare multi-factor",
+              "fraudMonitoring": "Monitorizare fraudă în timp real",
+              "voiceRecognition": "Recunoaștere vocală securizată"
+            },
+            "benefits": {
+              "title": "Performanța procesării plăților",
+              "description": "Metrice de fiabilitate și securitate de top în industrie",
+              "uptime": "Timp de funcționare procesare plăți",
+              "transactionTime": "Timp mediu de tranzacție",
+              "compliance": "Conformitate PCI DSS",
+              "fraudRate": "Rată de fraudă cu protecție AI"
+            },
+            "cta": {
+              "title": "Gata pentru plăți vocale securizate?",
+              "subtitle": "Activați procesarea plăților conformă PCI cu protecție avansată împotriva fraudei",
+              "primaryButton": "Începeți procesarea securizată",
+              "secondaryButton": "Prezentare generală securitate"
+            }
+          },
+          "virtualAssistant": {
+            "hero": {
+              "title": "Asistent virtual 24/7 pentru apeluri după orele de program",
+              "description": "Nu ratați niciodată un alt apel al clientului. Asistentul nostru virtual AI oferă suport inteligent, asemănător cu cel uman, non-stop, asigurând că clienții dvs. primesc întotdeauna asistență imediată atunci când au cea mai mare nevoie.",
+            "primaryCta": "Porniți asistentul dvs. 24/7"
+            },
+            "features": {
+              "title": "Suport clienți întotdeauna activ",
+              "description": "Suport complet după orele de program care menține calitatea serviciilor dvs. 24/7",
+              "availability": {
+                "title": "Disponibilitate 24/7",
+                "description": "Nu ratați niciodată un apel cu asistență AI non-stop care gestionează interogările la orice oră.",
+                "benefits": {
+                  "0": "Întotdeauna disponibil",
+                  "1": "Fără costuri de ore suplimentare",
+                  "2": "Acoperire globală a fusului orar"
+                }
+              },
+              "callHandling": {
+                "title": "Gestionare inteligentă a apelurilor",
+                "description": "AI avansată înțelege intenția apelantului și oferă răspunsuri sau escaladare adecvate.",
+                "benefits": {
+                  "0": "Conversații naturale",
+                  "1": "Conștientizare contextuală",
+                  "2": "Escaladare inteligentă"
+                }
+              },
+              "handoffs": {
+                "title": "Transferuri fără întreruperi",
+                "description": "Tranziție fluidă către agenți umani atunci când este necesar, cu păstrarea completă a contextului.",
+                "benefits": {
+                  "0": "Retenție context",
+                  "1": "Transferuri calde",
+                  "2": "Fără informații repetate"
+                }
+              }
+            },
+            "benefits": {
+              "title": "Rezultate dovedite",
+              "description": "Vedeți impactul asistenței virtuale 24/7 asupra afacerii dvs."
+            },
+            "metrics": {
+              "abandonment": {
+                "description": "Reducerea abandonului apelurilor după orele de program"
+              },
+              "availability": {
+                "description": "Disponibilitate continuă a serviciului clienți"
+              },
+              "costSavings": {
+                "description": "Economii de costuri comparativ cu agenții umani"
+              },
+              "satisfaction": {
+                "description": "Satisfacția clienților cu interacțiunile AI"
+              }
+            },
+            "useCases": {
+              "title": "Aplicații industriale",
+              "description": "Vedeți cum diferite industrii beneficiază de asistență virtuală 24/7",
+              "healthcare": {
+                "title": "Sănătate după orele de program",
+                "description": "Gestionați interogările pacienților, solicitările de programare și triajul de urgență în afara orelor de program.",
+                "metrics": {
+                  "0": "Reducere cu 60% a apelurilor pierdute",
+                  "1": "Suport pacienți 24/7",
+                  "2": "Conform HIPAA"
+                }
+              },
+              "ecommerce": {
+                "title": "Suport E-commerce",
+                "description": "Asistați clienții cu interogări de comenzi, retururi și informații despre produse oricând.",
+                "metrics": {
+                  "0": "Creștere cu 40% a satisfacției clienților",
+                  "1": "Stare comandă instantanee",
+                  "2": "Disponibilitate 24/7"
+                }
+              },
+              "financial": {
+                "title": "Servicii financiare",
+                "description": "Oferiți informații despre cont, alerte de fraudă și servicii bancare de bază după orele de program.",
+                "metrics": {
+                  "0": "Autentificare securizată",
+                  "1": "Prevenirea fraudei",
+                  "2": "Conformitate reglementară"
+                }
+              }
+            },
+            "cta": {
+              "title": "Gata pentru suport clienți 24/7?",
+              "description": "Transformați-vă experiența clienților după orele de program cu asistență virtuală inteligentă",
+              "primaryButton": "Începeți proba gratuită",
+              "secondaryButton": "Programați o demonstrație"
+            },
+            "title": "Asistent virtual 24/7",
+            "description": "Oferiți suport imediat după orele de program cu gestionare inteligentă a apelurilor.",
+            "benefit1": "Disponibilitate 24/7",
+            "benefit2": "Răspuns instantaneu",
+            "benefit3": "Reducerea costurilor"
+          },
+          "header": "Soluții inbound",
+          "description": "Gestionați apelurile primite cu automatizare inteligentă și experiență superioară a clienților",
+          "smartCallTransfer": {
+            "title": "Transfer inteligent de apeluri",
+            "description": "Rutați inteligent apelurile către departamentul potrivit pe baza intenției apelantului.",
+            "benefit1": "Timpi de așteptare reduși",
+            "benefit2": "Rutare mai bună",
+            "benefit3": "Eficiență îmbunătățită"
+          },
+          "mentalHealth": {
+            "title": "Companion pentru sănătate mintală",
+            "description": "Oferiți suport empatic pentru screening-uri și resurse de sănătate mintală.",
+            "benefit1": "Suport 24/7",
+            "benefit2": "Răspunsuri empatice",
+            "benefit3": "Escaladare criză"
+          },
+          "scamShield": {
+            "title": "Protecție împotriva înșelătoriilor",
+            "description": "Identificați și blocați apelurile frauduloase pentru a vă proteja clienții.",
+            "benefit1": "Detectare fraudă",
+            "benefit2": "Protecția clienților",
+            "benefit3": "Apeluri înșelătorii reduse"
+          },
+          "appointmentBooking": {
+            "title": "Programare programări",
+            "description": "Activați programarea și gestionarea autonomă a programărilor.",
+            "benefit1": "Rezervare 24/7",
+            "benefit2": "Sincronizare calendar",
+            "benefit3": "Memento-uri automate"
+          }
+        },
+        "outbound": {
+          "customerReactivation": {
+            "hero": {
+              "title": "Campanii de reactivare a clienților",
+              "subtitle": "Recâștigați clienții inactivi cu campanii de contactare personalizate, alimentate de AI. Re-angajați clienții anteriori cu oferte convingătoare și reconstruiți relații valoroase care stimulează veniturile recurente.",
+            "cta": "Porniți campania de reactivare"
+            },
+            "features": {
+              "title": "Funcționalități inteligente de reactivare",
+              "subtitle": "Campanii alimentate de AI care înțeleg comportamentul și preferințele clienților",
+              "personalizedOutreach": {
+                "title": "Contactare personalizată",
+                "description": "Conversații alimentate de AI adaptate istoricului și preferințelor fiecărui client.",
+                "benefits": {
+                  "customMessaging": "Mesagerie personalizată",
+                  "historicalContext": "Context istoric",
+                  "behavioralInsights": "Insight-uri comportamentale"
+                }
+              },
+              "winBackCampaigns": {
+                "title": "Campanii de recâștigare",
+                "description": "Campanii strategice concepute pentru a re-angaja clienții inactivi cu oferte convingătoare.",
+                "benefits": {
+                  "specialPromotions": "Promoții speciale",
+                  "loyaltyRewards": "Recompense de loialitate",
+                  "exclusiveAccess": "Acces exclusiv"
+                }
+              },
+              "performanceAnalytics": {
+                "title": "Analiză performanță",
+                "description": "Urmăriți ratele de succes ale reactivării și optimizați campaniile pentru rezultate mai bune.",
+                "benefits": {
+                  "conversionTracking": "Urmărire conversii",
+                  "abTesting": "Testare A/B",
+                  "roiAnalysis": "Analiză ROI"
+                }
+              }
+            },
+            "process": {
+              "title": "Proces de reactivare",
+              "subtitle": "Abordare strategică pentru a recâștiga clienții valoroși",
+              "steps": {
+                "customerSegmentation": {
+                  "title": "Segmentare clienți",
+                  "description": "Identificați și clasificați clienții inactivi pe baza istoricului și valorii lor",
+                  "outcome": "Abordare țintită: rată de răspuns de 3 ori mai mare"
+                },
+                "personalizedOutreach": {
+                  "title": "Contactare personalizată",
+                  "description": "AI creează mesaje personalizate pe baza preferințelor și istoricului clientului",
+                  "outcome": "Rată de angajament: 45% vs 12% generic"
+                },
+                "offerPresentation": {
+                  "title": "Prezentare ofertă",
+                  "description": "Prezentați oferte convingătoare de recâștigare adaptate valorii și intereselor clientului",
+                  "outcome": "Rată de conversie: 25% cu oferte personalizate"
+                },
+                "followUpNurturing": {
+                  "title": "Follow-up și cultivare",
+                  "description": "Secvențe automate de follow-up pentru a cultiva clienții interesați înapoi la statutul activ",
+                  "outcome": "Rată de retenție: 80% dintre clienții reactivați"
+                }
+              }
+            },
+            "campaigns": {
+              "title": "Tipuri de campanii de reactivare",
+              "subtitle": "Multiple strategii pentru a re-angaja diferite segmente de clienți",
+              "winBackOffers": {
+                "title": "Oferte de recâștigare",
+                "description": "Reduceri și promoții speciale pentru a atrage clienții înapoi",
+                "tactics": {
+                  "exclusiveDiscounts": "Reduceri exclusive",
+                  "limitedTimeOffers": "Oferte pe termen limitat",
+                  "freeTrials": "Probe gratuite"
+                }
+              },
+              "feedbackCollection": {
+                "title": "Colectare feedback",
+                "description": "Înțelegeți de ce au plecat clienții și abordați-le preocupările",
+                "tactics": {
+                  "exitSurveys": "Sondaje de ieșire",
+                  "concernResolution": "Rezolvare preocupări",
+                  "serviceImprovements": "Îmbunătățiri servicii"
+                }
+              },
+              "productUpdates": {
+                "title": "Actualizări produse",
+                "description": "Informați clienții despre noile funcționalități sau îmbunătățiri",
+                "tactics": {
+                  "featureAnnouncements": "Anunțuri funcționalități",
+                  "benefitExplanations": "Explicații beneficii",
+                  "demoInvitations": "Invitații la demonstrații"
+                }
+              },
+              "loyaltyRewards": {
+                "title": "Recompense de loialitate",
+                "description": "Recunoașteți loialitatea anterioară și oferiți tratament special",
+                "tactics": {
+                  "vipStatus": "Statut VIP",
+                  "loyaltyPoints": "Puncte de loialitate",
+                  "exclusiveAccess": "Acces exclusiv"
+                }
+              }
+            },
+            "results": {
+              "title": "Rezultate reactivare",
+              "subtitle": "Succes dovedit în recâștigarea clienților valoroși",
+              "reactivationRate": {
+                "metric": "35%",
+                "description": "Rată de reactivare a clienților"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "Reducerea costurilor vs. metode tradiționale"
+              },
+              "responseRate": {
+                "metric": "3x",
+                "description": "Rată de răspuns mai mare decât campaniile generice"
+              },
+              "retentionRate": {
+                "metric": "80%",
+                "description": "Rată de retenție a clienților reactivați"
+              }
+            },
+            "cta": {
+              "title": "Gata să vă recâștigați clienții?",
+              "subtitle": "Porniți campanii personalizate de reactivare care reconstruiesc relații valoroase cu clienții",
+              "startCampaign": "Porniți campania",
+              "viewCaseStudies": "Vizualizați studii de caz"
+            }
+          },
+          "fraudAlerts": {
+            "hero": {
+              "title": "Sistem de alertă fraudă",
+              "description": "Protejați-vă clienții cu alerte instantanee de fraudă. Sistemul nostru alimentat de AI detectează activitățile suspecte și contactează automat clienții pentru a verifica tranzacțiile."
+            },
+            "features": {
+              "title": "Detectare avansată a fraudei",
+              "subtitle": "Monitorizare în timp real și alertare inteligentă pentru a vă proteja clienții",
+              "realTimeDetection": {
+                "title": "Detectare în timp real",
+                "description": "Monitorizați tranzacțiile 24/7 și detectați modele suspecte instantaneu utilizând algoritmi AI avansați."
+              },
+              "instantAlerts": {
+                "title": "Alerte instantanee",
+                "description": "Apelați automat clienții în câteva minute de la detectarea activității suspecte pentru a verifica tranzacțiile."
+              },
+              "detailedAnalytics": {
+                "title": "Analiză detaliată",
+                "description": "Urmăriți metricile de prevenire a fraudei și ratele de răspuns ale clienților cu raportare completă."
+              }
+            },
+            "howItWorks": {
+              "title": "Cum funcționează alertele de fraudă",
+              "step1": {
+                "title": "Detectare fraudă",
+                "description": "Sistemul identifică modele de tranzacții suspecte"
+              },
+              "step2": {
+                "title": "Alertă imediată",
+                "description": "Agentul AI apelează clientul în 2 minute"
+              },
+              "step3": {
+                "title": "Verificare",
+                "description": "Clientul confirmă sau neagă tranzacția"
+              },
+              "step4": {
+                "title": "Acțiune întreprinsă",
+                "description": "Tranzacție aprobată sau măsuri de securitate activate"
+              },
+              "sampleCall": {
+                "title": "Exemplu de apel de alertă",
+                "message": "Bună ziua, aceasta este o alertă de securitate de la [Nume bancă]. Am detectat activitate neobișnuită în contul dvs. O tranzacție de 500 USD la Amazon a fost încercată. Ați autorizat această achiziție? Vă rugăm să apăsați 1 pentru a confirma sau 2 dacă nu ați fost dvs."
+              }
+            },
+            "benefits": {
+              "title": "Beneficii cheie",
+              "fraudPrevention": {
+                "title": "Prevenirea fraudei",
+                "description": "Reduceți tranzacțiile frauduloase cu până la 85%"
+              },
+              "instantResponse": {
+                "title": "Răspuns instantaneu",
+                "description": "Alertați clienții în 2 minute de la detectare"
+              },
+              "customerTrust": {
+                "title": "Încrederea clienților",
+                "description": "Construiți încredere cu protecție proactivă"
+              },
+              "smartAnalytics": {
+                "title": "Analiză inteligentă",
+                "description": "Insight-uri detaliate despre modelele și tendințele de fraudă"
+              }
+            },
+            "useCases": {
+              "title": "Cazuri de utilizare comune",
+              "banking": {
+                "title": "Servicii bancare și financiare",
+                "item1": "Detectare fraudă card de credit",
+                "item2": "Alerte model de cheltuieli neobișnuite",
+                "item3": "Prevenirea preluării contului",
+                "item4": "Verificare tranzacții mari"
+              },
+              "ecommerce": {
+                "title": "E-commerce și retail",
+                "item1": "Modele de achiziție suspecte",
+                "item2": "Verificare comenzi de mare valoare",
+                "item3": "Protecție împotriva furtului de identitate",
+                "item4": "Modificări metode de plată"
+              }
+            },
+            "cta": {
+              "title": "Protejați-vă clienții astăzi",
+              "description": "Implementați detectare avansată a fraudei cu alerte automate pentru clienți pentru a reduce pierderile și a construi încredere.",
+              "button": "Începeți cu alerte de fraudă"
+            },
+            "title": "Alerte de fraudă",
+            "description": "Alertați clienții cu privire la activitatea suspectă a contului imediat.",
+            "benefit1": "Alerte în timp real",
+            "benefit2": "Protecția contului",
+            "benefit3": "Prevenirea fraudei"
+          },
+          "largeScaleCampaigns": {
+            "hero": {
+              "title": "Campanii outbound la scară largă",
+              "description": "Executați campanii vocale masive care ajung la mii de clienți simultan. De la lansări de produse la notificări de urgență, livrați mesaje personalizate la o scară fără precedent cu eficiență alimentată de AI.",
+            "cta": "Lansați campania în masă"
+            },
+            "features": {
+              "title": "Funcționalități de campanie la scară enterprise",
+              "subtitle": "Instrumente puternice pentru gestionarea și executarea campaniilor vocale la scară largă",
+              "massCommunication": {
+                "title": "Comunicare în masă",
+                "description": "Atingeți mii de clienți simultan cu mesaje vocale personalizate.",
+                "benefit1": "Apeluri concurente nelimitate",
+                "benefit2": "Mesagerie personalizată",
+                "benefit3": "Acoperire globală"
+              },
+              "audienceSegmentation": {
+                "title": "Segmentare public",
+                "description": "Țintiți segmente specifice de clienți cu mesaje și sincronizare personalizate.",
+                "benefit1": "Țintire demografică",
+                "benefit2": "Segmentare comportamentală",
+                "benefit3": "Audiențe personalizate"
+              },
+              "realTimeAnalytics": {
+                "title": "Analiză în timp real",
+                "description": "Monitorizați performanța campaniei și optimizați în timp real pentru rezultate mai bune.",
+                "benefit1": "Tablouri de bord live",
+                "benefit2": "Metrice de performanță",
+                "benefit3": "Testare A/B"
+              }
+            },
+            "campaignTypes": {
+              "title": "Tipuri și aplicații de campanii",
+              "subtitle": "Soluții versatile pentru diferite nevoi de comunicare de afaceri",
+              "productAnnouncements": {
+                "type": "Anunțuri produse",
+                "description": "Lansați produse sau servicii noi cu campanii de conștientizare la scară largă",
+                "example1": "Lansări de funcționalități noi",
+                "example2": "Lansări de produse",
+                "example3": "Actualizări de servicii",
+                "metric1": "Acoperire: peste 100K clienți",
+                "metric2": "Conștientizare: creștere cu 85%",
+                "metric3": "Angajament: 45% răspuns"
+              },
+              "emergencyNotifications": {
+                "type": "Notificări de urgență",
+                "description": "Diseminați rapid informații critice în timpul urgențelor",
+                "example1": "Întreruperi de serviciu",
+                "example2": "Alerte de siguranță",
+                "example3": "Modificări de politică",
+                "metric1": "Viteză: 1000 apeluri/minut",
+                "metric2": "Livrare: 99% succes",
+                "metric3": "Răspuns: < 5 minute"
+              },
+              "marketingCampaigns": {
+                "type": "Campanii de marketing",
+                "description": "Executați inițiative promoționale și de marketing la scară largă",
+                "example1": "Promoții sezoniere",
+                "example2": "Campanii de brand",
+                "example3": "Invitații la evenimente",
+                "metric1": "Conversie: 12% medie",
+                "metric2": "ROI: 300% tipic",
+                "metric3": "Acoperire: Scală nelimitată"
+              },
+              "surveyResearch": {
+                "type": "Sondaje și cercetare",
+                "description": "Efectuați cercetări de piață și colectați feedback de la clienți la scară",
+                "example1": "Cercetare de piață",
+                "example2": "Satisfacția clienților",
+                "example3": "Feedback produs",
+                "metric1": "Răspuns: 35% rată",
+                "metric2": "Finalizare: 80%",
+                "metric3": "Insight-uri: În timp real"
+              },
+              "commonExamples": "Exemple comune:",
+              "performanceMetrics": "Metrice de performanță:"
+            },
+            "scaling": {
+              "title": "Scală și acoperire nelimitate",
+              "description": "Platforma noastră este construită pentru a gestiona campanii de orice dimensiune, de la mii la milioane de apeluri. Cu parteneriate globale cu operatorii și infrastructură avansată, asigurăm livrare fiabilă la scară masivă.",
+              "globalInfrastructure": {
+                "title": "Infrastructură globală",
+                "description": "Rețea globală de operatori pentru acoperire maximă"
+              },
+              "highSpeedExecution": {
+                "title": "Execuție de mare viteză",
+                "description": "Peste 1000 de apeluri concurente pe minut"
+              },
+              "realTimeMonitoring": {
+                "title": "Monitorizare în timp real",
+                "description": "Urmărire performanță campanie live"
+              },
+              "capabilities": {
+                "title": "Capacități de scalare",
+                "capability1": "Apeluri concurente nelimitate",
+                "capability2": "Rețea globală de operatori",
+                "capability3": "Suport multilingv",
+                "capability4": "Optimizare fus orar",
+                "capability5": "Conformitate reglementară",
+                "capability6": "Monitorizare în timp real"
+              },
+              "dashboard": {
+                "title": "Tablou de bord campanie",
+                "activeCalls": "Apeluri active:",
+                "completionRate": "Rată de finalizare:",
+                "responseRate": "Rată de răspuns:"
+              }
+            },
+            "benefits": {
+              "title": "Rezultate performanță campanie",
+              "subtitle": "Eficacitate dovedită la scară enterprise",
+              "metric1": {
+                "value": "Peste 10.000",
+                "description": "Apeluri concurente acceptate"
+              },
+              "metric2": {
+                "value": "99,9%",
+                "description": "Rată de succes a livrării mesajelor"
+              },
+              "metric3": {
+                "value": "75%",
+                "description": "Reducerea costurilor vs. metode tradiționale"
+              },
+              "metric4": {
+                "value": "24/7",
+                "description": "Capacitate de execuție a campaniei"
+              }
+            },
+            "cta": {
+              "title": "Gata să vă scalați comunicațiile?",
+              "description": "Lansați campanii vocale masive care ajung la mii de clienți cu mesaje personalizate",
+              "primaryButton": "Planificați-vă campania",
+              "secondaryButton": "Vedeți studii de caz"
+            }
+          },
+          "hero": {
+            "title": "Automatizare serviciu de colectare",
+            "description": "Eficientizați procesul de colectare a datoriilor cu apelare alimentată de AI care menține relațiile cu clienții, îmbunătățind în același timp ratele de colectare. Complet conform cu reglementările FDCPA și TCPA.",
+            "cta": "Îmbunătățiți ratele de colectare"
+          },
+          "features": {
+            "title": "Funcționalități inteligente de colectare",
+            "subtitle": "Automatizare profesională, conformă și eficientă a colectării datoriilor",
+            "paymentReminders": {
+              "title": "Memento-uri automate de plată",
+              "description": "Memento-uri blânde, profesionale care mențin relațiile cu clienții, încurajând în același timp plata.",
+              "benefit1": "Mesagerie personalizabilă",
+              "benefit2": "Multiple încercări de contact",
+              "benefit3": "Opțiuni de plan de plată"
+            },
+            "compliance": {
+              "title": "Conformitate și reglementare",
+              "description": "Conformitate încorporată cu FDCPA, TCPA și alte reglementări de colectare a datoriilor.",
+              "benefit1": "Conformitate reglementară",
+              "benefit2": "Înregistrare apeluri",
+              "benefit3": "Jurnale de audit"
+            },
+            "optimalTiming": {
+              "title": "Sincronizare optimă",
+              "description": "AI determină cele mai bune momente pentru a contacta clienții pentru rate maxime de răspuns.",
+              "benefit1": "Conștientizare fus orar",
+              "benefit2": "Modele comportamentale",
+              "benefit3": "Optimizare răspuns"
+            }
+          },
+          "collectionProcess": {
+            "title": "Strategie progresivă de colectare",
+            "subtitle": "Abordare escaladată care maximizează colectarea, păstrând în același timp relațiile",
+            "earlyReminder": {
+              "stage": "Memento timpuriu",
+              "description": "Memento-uri de plată prietenoase pentru conturile recent restante",
+              "approach": "Ton blând, util, cu opțiuni de plată",
+              "success": "65% rată de plată"
+            },
+            "followUp": {
+              "stage": "Follow-up",
+              "description": "Comunicare mai directă pentru conturile restante persistente",
+              "approach": "Consecințe clare, oferte de plan de plată",
+              "success": "45% rată de plată"
+            },
+            "finalNotice": {
+              "stage": "Notificare finală",
+              "description": "Ultima încercare înainte de escaladarea către colectori umani",
+              "approach": "Ton urgent, termen limită final de plată",
+              "success": "30% rată de plată"
+            },
+            "humanHandoff": {
+              "stage": "Transfer uman",
+              "description": "Cazuri complexe transferate către colectori umani cu context complet",
+              "approach": "Istoric detaliat al contului și interacțiuni anterioare",
+              "success": "25% rată de rezolvare"
+            }
+          },
+          "benefits": {
+            "title": "Rezultate dovedite de colectare",
+            "subtitle": "Vedeți impactul colectărilor alimentate de AI asupra ratelor dvs. de recuperare",
+            "collectionRates": {
+              "metric": "40%",
+              "description": "Creștere a ratelor de colectare"
+            },
+            "costReduction": {
+              "metric": "60%",
+              "description": "Reducerea costurilor de colectare"
+            },
+            "paymentProcessing": {
+              "metric": "80%",
+              "description": "Procesare plăți mai rapidă"
+            },
+            "complianceRate": {
+              "metric": "95%",
+              "description": "Rată de conformitate reglementară"
+            }
+          },
+          "complianceSection": {
+            "title": "Conformitate încorporată",
+            "description": "Platforma noastră de colectare este concepută cu conformitatea în centrul său, asigurând că toate interacțiunile respectă reglementările federale și de stat, menținând în același timp standardele profesionale.",
+            "features": {
+              "fdcpaCompliance": "Conformitate FDCPA",
+              "tcpaCompliance": "Conformitate TCPA",
+              "stateRegulation": "Aderare la reglementările de stat",
+              "callRecording": "Înregistrare și monitorizare apeluri",
+              "disputesHandling": "Gestionare dispute",
+              "ceaseDesist": "Gestionare încetare și renunțare"
+            },
+            "subFeatures": {
+              "regulatoryCompliance": {
+                "title": "Conformitate reglementară",
+                "description": "FDCPA, TCPA și reglementări specifice statului"
+              },
+              "auditTrail": {
+                "title": "Jurnal de audit complet",
+                "description": "Înregistrare detaliată a tuturor interacțiunilor și rezultatelor"
+              },
+              "timingControls": {
+                "title": "Controale de sincronizare",
+                "description": "Aderare automată la restricțiile de timp de apelare"
+              }
+            },
+            "featuresTitle": "Funcționalități de conformitate"
+          },
+          "cta": {
+            "title": "Gata să vă îmbunătățiți ratele de colectare?",
+            "subtitle": "Începeți să recuperați mai multe datorii cu colectări alimentate de AI, profesionale și conforme",
+            "startFreeTrial": "Începeți proba gratuită",
+            "scheduleDemo": "Programați o demonstrație"
+          },
+          "leadGeneration": {
+            "hero": {
+              "title": "Generare și calificare lead-uri",
+              "subtitle": "Transformați-vă pipeline-ul de vânzări cu generare de lead-uri alimentată de AI care identifică, califică și cultivă prospecții automat, livrând doar lead-urile de cea mai înaltă calitate echipei dvs. de vânzări.",
+            "cta": "Stimulați-vă generarea de lead-uri"
+            },
+            "features": {
+              "title": "Funcționalități inteligente de generare de lead-uri",
+              "subtitle": "Tehnologie AI avansată care identifică și califică prospecți cu precizie",
+              "intelligentQualification": {
+                "title": "Calificare inteligentă a lead-urilor",
+                "description": "Conversații alimentate de AI care identifică prospecți de înaltă calitate și colectează informații esențiale.",
+                "benefits": {
+                  "automatedScoring": "Scorizare automată",
+                  "intentDetection": "Detectare intenție",
+                  "demographicProfiling": "Profilare demografică"
+                }
+              },
+              "personalizedOutreach": {
+                "title": "Contactare personalizată",
+                "description": "Conversații dinamice adaptate fiecărui prospect pe baza profilului și intereselor sale.",
+                "benefits": {
+                  "customMessaging": "Mesagerie personalizată",
+                  "behavioralTriggers": "Declanșatoare comportamentale",
+                  "contextualResponses": "Răspunsuri contextuale"
+                }
+              },
+              "realTimeAnalytics": {
+                "title": "Analiză în timp real",
+                "description": "Urmăriți performanța campaniei și calitatea lead-urilor cu raportare completă.",
+                "benefits": {
+                  "conversionTracking": "Urmărire conversii",
+                  "qualityMetrics": "Metrice de calitate",
+                  "roiAnalysis": "Analiză ROI"
+                }
+              }
+            },
+            "process": {
+              "title": "Proces de calificare lead-uri",
+              "subtitle": "De la contactul inițial la transferul calificat - vedeți cum funcționează AI-ul nostru",
+              "steps": {
+                "initialContact": {
+                  "title": "Contact inițial",
+                  "description": "Agentul AI efectuează apeluri outbound personalizate către prospecți",
+                  "outcome": "Rată de angajament: 35%"
+                },
+                "needsAssessment": {
+                  "title": "Evaluare nevoi",
+                  "description": "Întrebări inteligente pentru a înțelege cerințele prospectului",
+                  "outcome": "Rată de calificare: 60%"
+                },
+                "interestScoring": {
+                  "title": "Scor interes",
+                  "description": "AI scorizează calitatea lead-ului pe baza răspunsurilor și a angajamentului",
+                  "outcome": "Rată de precizie: 85%"
+                },
+                "handoffToSales": {
+                  "title": "Transfer către vânzări",
+                  "description": "Lead-uri calificate transferate către echipa de vânzări umană cu context complet",
+                  "outcome": "Rată de conversie: 25%"
+                }
+              }
+            },
+            "results": {
+              "title": "Rezultate dovedite",
+              "subtitle": "Vedeți impactul generării de lead-uri alimentate de AI asupra pipeline-ului dvs. de vânzări",
+              "qualifiedLeads": {
+                "metric": "300%",
+                "description": "Creștere a lead-urilor calificate"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "Reducerea costului per lead"
+              },
+              "accuracy": {
+                "metric": "85%",
+                "description": "Precizie calificare lead-uri"
+              },
+              "conversion": {
+                "metric": "25%",
+                "description": "Rată de conversie lead la client"
+              }
+            },
+            "industries": {
+              "title": "Povești de succes din industrie",
+              "subtitle": "Vedeți cum diferite industrii beneficiază de generarea de lead-uri AI",
+              "realEstate": {
+                "name": "Imobiliare",
+                "description": "Calificați cumpărătorii și vânzătorii de proprietăți, programați vizionări",
+                "results": {
+                  "moreLeads": "40% mai multe lead-uri calificate",
+                  "fasterCycle": "Ciclu de vânzări cu 50% mai rapid"
+                }
+              },
+              "insurance": {
+                "name": "Asigurări",
+                "description": "Identificați prospecții care au nevoie de acoperire, colectați informații despre risc",
+                "results": {
+                  "increaseSales": "Creștere cu 35% a vânzărilor de polițe",
+                  "costReduction": "Reducere cu 60% a costurilor"
+                }
+              },
+              "softwareSaas": {
+                "name": "Software/SaaS",
+                "description": "Calificați prospecții enterprise, programați demonstrații de produse",
+                "results": {
+                  "demoBookings": "De 3 ori mai multe rezervări de demonstrații",
+                  "closeRate": "Rată de închidere cu 45% mai mare"
+                }
+              }
+            },
+            "cta": {
+              "title": "Gata să vă transformați generarea de lead-uri?",
+              "subtitle": "Începeți să generați și să calificați mai multe lead-uri cu apelare outbound alimentată de AI",
+              "startTrial": "Începeți proba gratuită",
+              "scheduleDemo": "Programați o demonstrație"
+            },
+            "title": "Generare și calificare lead-uri",
+            "description": "Calificați proactiv lead-urile și programați follow-up-uri pentru echipele de vânzări.",
+            "benefit1": "Conversie mai mare",
+            "benefit2": "Lead-uri calificate",
+            "benefit3": "Eficiență vânzări"
+          },
+          "customerSurveys": {
+            "hero": {
+              "title": "Automatizare sondaje clienți",
+              "description": "Colectați feedback valoros de la clienți prin conversații vocale naturale. Efectuați sondaje automate care se simt personale și captivante, obținând rate de răspuns mai mari și insight-uri mai detaliate decât metodele tradiționale.",
+            "cta": "Porniți campania de sondaj"
+            },
+            "sections": {
+              "features": {
+                "title": "Funcționalități inteligente de sondaj",
+                "subtitle": "Tehnologie AI avansată care face ca sondajele să se simtă ca niște conversații naturale"
+              },
+              "surveys": {
+                "title": "Soluții complete de sondaj",
+                "subtitle": "Tipuri de sondaje personalizate pentru diferite obiective de afaceri și insight-uri"
+              },
+              "sampleQuestions": "Exemple de întrebări:",
+              "keyMetrics": "Metrice cheie:",
+              "analytics": {
+                "title": "Analiză și insight-uri avansate",
+                "description": "AI-ul nostru nu doar colectează răspunsuri – analizează sentimentul, identifică tendințele și oferă insight-uri acționabile care vă ajută să luați decizii bazate pe date pentru a vă îmbunătăți afacerea."
+              },
+              "analysisFeatures": {
+                "title": "Funcționalități de analiză"
+              },
+              "benefits": {
+                "title": "Rezultate performanță sondaj",
+                "subtitle": "Îmbunătățiri dovedite în colectarea feedback-ului și insight-urile clienților"
+              }
+            },
+            "features": {
+              "conversational": {
+                "title": "Sondaje conversaționale",
+                "description": "Conversații vocale naturale care se simt ca discuții prietenoase, mai degrabă decât sondaje formale.",
+                "benefits": {
+                  "0": "Rate de răspuns mai mari",
+                  "1": "Interacțiuni naturale",
+                  "2": "Feedback detaliat"
+                }
+              },
+              "analytics": {
+                "title": "Analiză în timp real",
+                "description": "Analiză și raportare instantanee a răspunsurilor la sondaje cu insight-uri acționabile.",
+                "benefits": {
+                  "0": "Tablouri de bord live",
+                  "1": "Analiza sentimentului",
+                  "2": "Identificare tendințe"
+                }
+              },
+              "outreach": {
+                "title": "Contactare țintită",
+                "description": "Atingeți segmente specifice de clienți cu experiențe de sondaj personalizate.",
+                "benefits": {
+                  "0": "Țintire demografică",
+                  "1": "Segmentare comportamentală",
+                  "2": "Sincronizare personalizată"
+                }
+              }
+            },
+            "surveyTypes": {
+              "csat": {
+                "title": "Satisfacția clienților (CSAT)",
+                "description": "Măsurați satisfacția generală cu produsele, serviciile sau interacțiunile",
+                "questions": {
+                  "0": "Cât de mulțumit sunteți de serviciul nostru?",
+                  "1": "Ce am putea îmbunătăți?",
+                  "2": "Ne-ați recomanda?"
+                },
+                "metrics": {
+                  "0": "Scor CSAT",
+                  "1": "Net Promoter Score",
+                  "2": "Rată de răspuns"
+                }
+              },
+              "postPurchase": {
+                "title": "Feedback post-achiziție",
+                "description": "Colectați insight-uri imediat după o achiziție sau o interacțiune de serviciu",
+                "questions": {
+                  "0": "Cum a fost experiența dvs. de cumpărături?",
+                  "1": "Produsul a îndeplinit așteptările?",
+                  "2": "Probleme de livrare?"
+                },
+                "metrics": {
+                  "0": "Satisfacția achiziției",
+                  "1": "Evaluare livrare",
+                  "2": "Calitate produs"
+                }
+              },
+              "productDev": {
+                "title": "Dezvoltare produs",
+                "description": "Colectați informații pentru noi funcționalități, produse sau îmbunătățiri de servicii",
+                "questions": {
+                  "0": "Ce funcționalități ați dori să vedeți?",
+                  "1": "Cum utilizați produsul nostru?",
+                  "2": "Ce probleme trebuie rezolvate?"
+                },
+                "metrics": {
+                  "0": "Solicitări funcționalități",
+                  "1": "Modele de utilizare",
+                  "2": "Puncte de durere"
+                }
+              },
+              "marketResearch": {
+                "title": "Cercetare de piață",
+                "description": "Înțelegeți tendințele pieței, preferințele și peisajul concurențial",
+                "questions": {
+                  "0": "Ce branduri preferați?",
+                  "1": "Cum luați decizii de cumpărare?",
+                  "2": "Ce vă influențează alegerile?"
+                },
+                "metrics": {
+                  "0": "Conștientizare brand",
+                  "1": "Factori de achiziție",
+                  "2": "Tendințe de piață"
+                }
+              }
+            },
+            "analytics": {
+              "sentimentAnalysis": {
+                "title": "Analiza sentimentului",
+                "description": "Înțelegeți tonul emoțional din spatele răspunsurilor"
+              },
+              "trendIdentification": {
+                "title": "Identificare tendințe",
+                "description": "Identificați modele și probleme emergente devreme"
+              },
+              "actionableReports": {
+                "title": "Rapoarte acționabile",
+                "description": "Obțineți recomandări specifice pentru îmbunătățire"
+              }
+            },
+            "analysisFeatures": {
+              "0": "Analiza sentimentului în timp real",
+              "1": "Categorizare automată a răspunsurilor",
+              "2": "Identificare tendințe și alerte",
+              "3": "Tablouri de bord de raportare personalizate",
+              "4": "Integrare cu sisteme CRM",
+              "5": "Generare insight-uri acționabile"
+            },
+            "dashboard": {
+              "title": "Tablou de bord sondaj live",
+              "responsesToday": "Răspunsuri astăzi:",
+              "completionRate": "Rată de finalizare:",
+              "avgSatisfaction": "Satisfacție medie:",
+              "sentiment": "Sentiment:",
+              "responsesTodayValue": "1.847",
+              "completionRateValue": "85,3%",
+              "avgSatisfactionValue": "4,2/5",
+              "sentimentValue": "78% pozitiv"
+            },
+            "benefits": {
+              "0": {
+                "metric": "3x",
+                "description": "Rată de răspuns mai mare decât sondajele tradiționale"
+              },
+              "1": {
+                "metric": "85%",
+                "description": "Rată de finalizare a sondajului"
+              },
+              "2": {
+                "metric": "60%",
+                "description": "Feedback mai detaliat colectat"
+              },
+              "3": {
+                "metric": "24/7",
+                "description": "Implementare automată a sondajului"
+              }
+            },
+            "cta": {
+              "title": "Gata să colectați insight-uri mai bune despre clienți?",
+              "subtitle": "Începeți să colectați feedback valoros cu sondaje conversaționale pe care clienții chiar doresc să le completeze",
+              "primaryBtn": "Lansați campania de sondaj",
+              "secondaryBtn": "Vedeți exemplul de sondaj"
+            }
+          },
+          "proactiveSupport": {
+            "hero": {
+              "title": "Suport proactiv pentru clienți",
+              "description": "Anticipați problemele clienților cu notificări proactive inteligente. Informați automat clienții despre actualizări de servicii, modificări de cont și informații importante înainte de a fi nevoie să vă apeleze.",
+            "cta": "Activați suportul proactiv"
+            },
+            "features": {
+              "title": "Funcționalități proactive inteligente",
+              "subtitle": "Automatizare avansată care anticipează nevoile clienților și previne problemele",
+              "proactiveNotifications": {
+                "title": "Notificări proactive",
+                "description": "Notificați automat clienții despre actualizări importante, modificări sau probleme înainte de a deveni probleme.",
+                "benefit1": "Alerte de serviciu",
+                "benefit2": "Actualizări cont",
+                "benefit3": "Notificări preventive"
+              },
+              "issuePrevention": {
+                "title": "Prevenirea problemelor",
+                "description": "Identificați probleme potențiale devreme și contactați clienții cu soluții.",
+                "benefit1": "Detectare timpurie",
+                "benefit2": "Măsuri preventive",
+                "benefit3": "Rezolvare probleme"
+              },
+              "timelyCommunication": {
+                "title": "Comunicare în timp util",
+                "description": "Livrați informații critice la momentul potrivit pentru a maximiza satisfacția clienților.",
+                "benefit1": "Sincronizare optimă",
+                "benefit2": "Conștientizare urgență",
+                "benefit3": "Livrare programată"
+              }
+            },
+            "notificationTypes": {
+              "title": "Tipuri complete de notificări",
+              "subtitle": "Acoperiți toate aspectele comunicării cu clienții cu automatizare inteligentă",
+              "serviceOutages": {
+                "type": "Întreruperi de serviciu",
+                "description": "Informați clienții despre mentenanța planificată sau întreruperile neașteptate de serviciu",
+                "example1": "Ferestre de mentenanță planificate",
+                "example2": "Întreruperi neașteptate",
+                "example3": "Actualizări de restaurare a serviciului",
+                "urgency": "Ridicată",
+                "timing": "Imediată"
+              },
+              "accountChanges": {
+                "type": "Modificări cont",
+                "description": "Notificați clienții despre modificări importante ale conturilor sau serviciilor lor",
+                "example1": "Actualizări de politică",
+                "example2": "Modificări de tarife",
+                "example3": "Modificări de funcționalități",
+                "urgency": "Medie",
+                "timing": "Notificare prealabilă"
+              },
+              "securityAlerts": {
+                "type": "Alerte de securitate",
+                "description": "Alertați clienții cu privire la posibile probleme de securitate sau activități suspecte",
+                "example1": "Încercări de autentificare",
+                "example2": "Modificări de parolă",
+                "example3": "Acces la cont",
+                "urgency": "Ridicată",
+                "timing": "Timp real"
+              },
+              "productUpdates": {
+                "type": "Actualizări produse",
+                "description": "Partajați informații despre noi funcționalități, îmbunătățiri sau modificări",
+                "example1": "Noi funcționalități",
+                "example2": "Actualizări aplicații",
+                "example3": "Îmbunătățiri servicii",
+                "urgency": "Scăzută",
+                "timing": "Programată"
+              },
+              "billingNotifications": {
+                "type": "Notificări de facturare",
+                "description": "Comunicare proactivă despre facturare, plăți și starea contului",
+                "example1": "Date scadente de plată",
+                "example2": "Plăți eșuate",
+                "example3": "Actualizări de credit",
+                "urgency": "Medie",
+                "timing": "Notificare prealabilă"
+              },
+              "deliveryUpdates": {
+                "type": "Actualizări de livrare",
+                "description": "Țineți clienții informați despre modificările stării expedierii și livrării",
+                "example1": "Întârzieri de expediere",
+                "example2": "Confirmări de livrare",
+                "example3": "Probleme de adresă",
+                "urgency": "Medie",
+                "timing": "Timp real"
+              }
+            },
+            "urgency": {
+              "high": "Ridicată",
+              "medium": "Medie",
+              "low": "Scăzută"
+            },
+            "labels": {
+              "examples": "Exemple",
+              "timing": "Sincronizare"
+            },
+            "automationSection": {
+              "title": "Motor avansat de automatizare",
+              "description": "Sistemul nostru inteligent de automatizare monitorizează continuu serviciile și conturile clienților dvs., declanșând automat notificări adecvate pe baza regulilor predefinite și a preferințelor clienților.",
+              "subFeatures": {
+                "realTimeMonitoring": {
+                  "title": "Monitorizare în timp real",
+                  "description": "Monitorizare continuă a sistemului și a contului"
+                },
+                "smartPrioritization": {
+                  "title": "Prioritizare inteligentă",
+                  "description": "Clasificare și livrare inteligentă a alertelor"
+                },
+                "customerPreferences": {
+                  "title": "Preferințe clienți",
+                  "description": "Respectați preferințele individuale de comunicare"
+                }
+              },
+              "featuresTitle": "Funcționalități de automatizare",
+              "features": {
+                "realTimeMonitoring": "Monitorizare sistem în timp real",
+                "intelligentPrioritization": "Prioritizare inteligentă a alertelor",
+                "preferenceManagement": "Gestionare preferințe clienți",
+                "multiChannelDelivery": "Opțiuni de livrare multi-canal",
+                "escalationProtocols": "Protocoale de escaladare",
+                "performanceAnalytics": "Analiză performanță"
+              },
+              "liveMonitoring": {
+                "title": "Monitorizare live",
+                "activeMonitors": "Monitoare active:",
+                "activeMonitorsValue": "1.247",
+                "notificationsSent": "Notificări trimise:",
+                "notificationsSentValue": "3.892",
+                "issuesPrevented": "Probleme prevenite:",
+                "issuesPreventedValue": "156"
+              }
+            },
+            "benefits": {
+              "title": "Impact suport proactiv",
+              "subtitle": "Îmbunătățiri măsurabile în satisfacția clienților și eficiența suportului",
+              "reactiveCalls": {
+                "metric": "70%",
+                "description": "Reducerea apelurilor de suport reactive"
+              },
+              "customerSatisfaction": {
+                "metric": "85%",
+                "description": "Satisfacția clienților cu actualizări proactive"
+              },
+              "customerChurn": {
+                "metric": "50%",
+                "description": "Reducerea abandonului clienților"
+              },
+              "automatedMonitoring": {
+                "metric": "24/7",
+                "description": "Monitorizare și alerte automate"
+              }
+            },
+            "cta": {
+              "title": "Gata să anticipați problemele clienților?",
+              "subtitle": "Transformați-vă suportul clienților cu notificări proactive inteligente și prevenirea problemelor",
+              "startProactiveSupport": "Porniți suportul proactiv",
+              "seeDemo": "Vedeți demonstrația"
+            },
+            "title": "Suport proactiv",
+            "description": "Notificați clienții despre actualizări de servicii și informații importante.",
+            "benefit1": "Comunicare proactivă",
+            "benefit2": "Prevenirea problemelor",
+            "benefit3": "Satisfacția clientului"
+          },
+          "seniorCheckCalls": {
+            "hero": {
+              "title": "Apeluri de verificare pentru seniori și monitorizare wellness",
+              "description": "Oferiți liniște sufletească familiilor cu verificări regulate de wellness alimentate de AI pentru seniori. Conversații compasionale care monitorizează sănătatea, detectează urgențele și asigură siguranța, menținând în același timp demnitatea și independența.",
+            "button": "Porniți monitorizarea wellness"
+            },
+            "features": {
+              "title": "Îngrijire compasională pentru seniori",
+              "subtitle": "Tehnologie AI concepută special pentru wellness-ul și siguranța seniorilor",
+              "wellnessMonitoring": {
+                "title": "Monitorizare wellness",
+                "description": "Verificări regulate pentru a monitoriza sănătatea și bunăstarea seniorilor cu conversații AI compasionale.",
+                "benefit1": "Programe zilnice/săptămânale",
+                "benefit2": "Urmărire stare de sănătate",
+                "benefit3": "Memento-uri medicamente"
+              },
+              "emergencyDetection": {
+                "title": "Detectare urgențe",
+                "description": "AI avansată recunoaște semnalele de pericol și situațiile de urgență pentru răspuns imediat.",
+                "benefit1": "Recunoaștere criză",
+                "benefit2": "Contacte de urgență",
+                "benefit3": "Alerte pentru primii respondenți"
+              },
+              "flexibleScheduling": {
+                "title": "Programare flexibilă",
+                "description": "Programe de apeluri personalizabile care se adaptează preferințelor și nevoilor individuale.",
+                "benefit1": "Sincronizare personalizată",
+                "benefit2": "Ajustări de sărbători",
+                "benefit3": "Coordonare familială"
+              }
+            },
+            "checkTypes": {
+              "title": "Servicii complete de verificare",
+              "subtitle": "Monitorizare wellness flexibilă adaptată nevoilor individuale",
+              "dailyWellness": {
+                "type": "Verificări zilnice de wellness",
+                "description": "Apeluri zilnice scurte pentru a asigura că seniorii sunt în siguranță și bine",
+                "frequency": "Zilnic la ora preferată",
+                "duration": "3-5 minute",
+                "focus1": "Bunăstare generală",
+                "focus2": "Conformitate medicamente",
+                "focus3": "Confirmare siguranță"
+              },
+              "weeklyHealth": {
+                "type": "Revizuiri săptămânale de sănătate",
+                "description": "Evaluări săptămânale complete ale sănătății și nevoilor",
+                "frequency": "Săptămânal în ziua aleasă",
+                "duration": "10-15 minute",
+                "focus1": "Modificări de sănătate",
+                "focus2": "Memento-uri programări",
+                "focus3": "Actualizări familiale"
+              },
+              "emergencyResponse": {
+                "type": "Răspuns la urgențe",
+                "description": "Răspuns imediat la apeluri pierdute sau semnale de pericol",
+                "frequency": "La nevoie",
+                "duration": "Variabilă",
+                "focus1": "Verificare bunăstare",
+                "focus2": "Servicii de urgență",
+                "focus3": "Notificare familială"
+              },
+              "socialConnection": {
+                "type": "Conexiune socială",
+                "description": "Conversații prietenoase pentru a reduce izolarea și singurătatea",
+                "frequency": "Bi-săptămânal sau lunar",
+                "duration": "15-20 minute",
+                "focus1": "Companie",
+                "focus2": "Sănătate mintală",
+                "focus3": "Sugestii de activități"
+              },
+              "labels": {
+                "frequency": "Frecvență",
+                "duration": "Durată",
+                "focusAreas": "Zone de focalizare:"
+              }
+            },
+            "safetyProtocols": {
+              "title": "Protocoale avansate de siguranță",
+              "description": "Sistemul nostru de apeluri de verificare pentru seniori include măsuri complete de siguranță concepute pentru a detecta urgențele, a coordona cu membrii familiei și a asigura un răspuns rapid atunci când este necesar.",
+              "emergencyResponse": {
+                "title": "Răspuns la urgențe",
+                "description": "Escaladare imediată pentru apeluri pierdute sau pericol"
+              },
+              "familyCoordination": {
+                "title": "Coordonare familială",
+                "description": "Notificări automate către familie și îngrijitori"
+              },
+              "healthcareIntegration": {
+                "title": "Integrare sănătate",
+                "description": "Coordonare cu furnizorii și serviciile medicale"
+              },
+              "featuresTitle": "Funcționalități de siguranță",
+              "protocols": {
+                "missedCallEscalation": "Proceduri de escaladare a apelurilor pierdute",
+                "emergencyKeyword": "Recunoaștere cuvinte cheie de urgență",
+                "familyNotifications": "Notificări familie și îngrijitori",
+                "healthcareProvider": "Integrare furnizor de servicii medicale",
+                "emergencyServices": "Coordonare servicii de urgență locale",
+                "medicalAlert": "Compatibilitate sistem de alertă medicală"
+              }
+            },
+            "benefits": {
+              "title": "Impact monitorizare wellness",
+              "subtitle": "Îmbunătățiri măsurabile în siguranța seniorilor și liniștea sufletească a familiei",
+              "seniorSatisfaction": {
+                "metric": "95%",
+                "description": "Satisfacția seniorilor cu companionul AI"
+              },
+              "emergencyReduction": {
+                "metric": "40%",
+                "description": "Reducerea incidentelor de urgență"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "Disponibilitate răspuns la urgențe"
+              },
+              "familyPeace": {
+                "metric": "85%",
+                "description": "Îmbunătățirea liniștii sufletești a familiei"
+              }
+            },
+            "cta": {
+              "title": "Gata să asigurați siguranța seniorilor?",
+              "description": "Oferiți liniște sufletească cu monitorizare wellness AI compasională pentru cei dragi",
+              "startButton": "Porniți monitorizarea",
+              "learnButton": "Aflați mai multe"
+            }
+          },
+          "subscriptionRenewals": {
+            "hero": {
+              "title": "Automatizare reînnoire abonamente",
+              "description": "Maximizați reînnoirile abonamentelor cu campanii inteligente alimentate de AI care angajează clienții la momentul potrivit cu mesaje personalizate, procesează plățile fără întreruperi și reduc abandonul prin strategii proactive de retenție.",
+            "cta": "Automatizați reînnoirile"
+            },
+            "features": {
+              "title": "Gestionare inteligentă a reînnoirilor",
+              "subtitle": "Automatizare completă care maximizează reînnoirile și reduce abandonul",
+              "automatedRenewalReminders": {
+                "title": "Memento-uri automate de reînnoire",
+                "description": "Memento-uri inteligente trimise la ore optime pentru a maximiza ratele de reînnoire și a reduce abandonul.",
+                "benefit1": "Sincronizare personalizată",
+                "benefit2": "Puncte de contact multiple",
+                "benefit3": "Optimizare reînnoire"
+              },
+              "paymentProcessing": {
+                "title": "Procesare plăți",
+                "description": "Colectare și procesare plăți fără întreruperi pentru reînnoiri de abonamente prin telefon.",
+                "benefit1": "Tranzacții securizate",
+                "benefit2": "Metode de plată multiple",
+                "benefit3": "Recuperare plată eșuată"
+              },
+              "customerRetention": {
+                "title": "Retenție clienți",
+                "description": "Angajament proactiv pentru a aborda preocupările și a reține abonații valoroși.",
+                "benefit1": "Prevenirea abandonului",
+                "benefit2": "Consolidarea valorii",
+                "benefit3": "Construirea loialității"
+              }
+            },
+            "renewalProcess": {
+              "title": "Cronologie strategică de reînnoire",
+              "subtitle": "Secvență optimizată de puncte de contact pentru a maximiza succesul reînnoirii",
+              "step1": {
+                "title": "Notificare timpurie",
+                "description": "Memento inițial trimis cu 30 de zile înainte de data reînnoirii",
+                "timing": "30 de zile înainte",
+                "action": "Conștientizare și pregătire"
+              },
+              "step2": {
+                "title": "Consolidarea valorii",
+                "description": "Evidențiați beneficiile abonamentului și statisticile de utilizare",
+                "timing": "14 zile înainte",
+                "action": "Demonstrarea valorii"
+              },
+              "step3": {
+                "title": "Confirmare reînnoire",
+                "description": "Solicitare directă de reînnoire cu procesare plăți",
+                "timing": "7 zile înainte",
+                "action": "Procesare reînnoire"
+              },
+              "step4": {
+                "title": "Ofertă de ultimă șansă",
+                "description": "Memento final cu oferte speciale de retenție",
+                "timing": "1 zi înainte",
+                "action": "Încercare de retenție"
+              }
+            },
+            "subscriptionTypes": {
+              "title": "Strategii specifice industriei",
+              "subtitle": "Abordări de reînnoire personalizate pentru diferite modele de abonament",
+              "saas": {
+                "type": "Software ca serviciu (SaaS)",
+                "description": "Reînnoiri de abonamente software lunare și anuale",
+                "strategy1": "Rapoarte de utilizare a funcționalităților",
+                "strategy2": "Demonstrații ROI",
+                "strategy3": "Oportunități de upgrade"
+              },
+              "mediaEntertainment": {
+                "type": "Media și divertisment",
+                "description": "Servicii de streaming și abonamente de conținut digital",
+                "strategy1": "Recomandări de conținut",
+                "strategy2": "Statistici de vizualizare",
+                "strategy3": "Oferte exclusive"
+              },
+              "professionalServices": {
+                "type": "Servicii profesionale",
+                "description": "Consulting, coaching și reînnoiri de servicii profesionale",
+                "strategy1": "Metrice de succes",
+                "strategy2": "Construirea relațiilor",
+                "strategy3": "Extinderea serviciilor"
+              },
+              "ecommerce": {
+                "type": "Abonamente E-commerce",
+                "description": "Livrare produse și reînnoiri de membru",
+                "strategy1": "Comoditate livrare",
+                "strategy2": "Economii de costuri",
+                "strategy3": "Varietate de produse"
+              },
+              "renewalStrategies": "Strategii de reînnoire:"
+            },
+            "retention": {
+              "title": "Strategii avansate de retenție",
+              "description": "AI-ul nostru analizează comportamentul clienților, modelele de utilizare și nivelurile de angajament pentru a determina cea mai eficientă abordare de retenție pentru fiecare abonat, maximizând ratele de reînnoire și valoarea pe durata de viață a clientului.",
+              "optimalTiming": {
+                "title": "Sincronizare optimă",
+                "description": "AI determină cele mai bune momente de contact pentru fiecare client"
+              },
+              "usageAnalytics": {
+                "title": "Analiză utilizare",
+                "description": "Valorificați datele clienților pentru abordări personalizate"
+              },
+              "segmentedCampaigns": {
+                "title": "Campanii segmentate",
+                "description": "Mesaje personalizate pentru diferite segmente de clienți"
+              },
+              "tactics": {
+                "title": "Tactici de retenție",
+                "tactic1": "Oferte personalizate de reînnoire",
+                "tactic2": "Analiză utilizare și insight-uri",
+                "tactic3": "Recompense și reduceri de loialitate",
+                "tactic4": "Opțiuni de upgrade de servicii",
+                "tactic5": "Flexibilitate plan de plată",
+                "tactic6": "Campanii de recâștigare"
+              },
+              "dashboard": {
+                "title": "Tablou de bord reînnoiri",
+                "renewalsThisMonth": "Reînnoiri luna aceasta:",
+                "renewalRate": "Rată de reînnoire:",
+                "revenueRetained": "Venituri reținute:"
+              }
+            },
+            "benefits": {
+              "title": "Rezultate performanță reînnoire",
+              "subtitle": "Impact dovedit asupra metricilor de afaceri de abonament",
+              "metric1": {
+                "value": "85%",
+                "description": "Rată de reînnoire a abonamentului"
+              },
+              "metric2": {
+                "value": "40%",
+                "description": "Reducerea abandonului involuntar"
+              },
+              "metric3": {
+                "value": "60%",
+                "description": "Reducerea eșecurilor de plată"
+              },
+              "metric4": {
+                "value": "25%",
+                "description": "Creștere a valorii pe durata de viață a clientului"
+              }
+            },
+            "cta": {
+              "title": "Gata să maximizați reînnoirile abonamentelor?",
+              "description": "Automatizați procesul de reînnoire și reduceți abandonul cu campanii inteligente alimentate de AI",
+              "primaryButton": "Porniți automatizarea reînnoirilor",
+              "secondaryButton": "Calculați ROI"
+            }
+          },
+          "header": "Soluții outbound",
+          "description": "Angajați proactiv clienții cu campanii automate de apelare outbound",
+          "collections": {
+            "title": "Serviciu de colectare",
+            "description": "Automatizați memento-urile de plată și procesele de colectare.",
+            "benefit1": "Colectări mai rapide",
+            "benefit2": "Aranjamente de plată",
+            "benefit3": "Conformitate"
+          },
+          "reactivation": {
+            "title": "Reactivare clienți",
+            "description": "Re-angajați clienții inactivi cu contactare personalizată.",
+            "benefit1": "Campanii de recâștigare",
+            "benefit2": "Oferte personalizate",
+            "benefit3": "Retenție clienți"
+          },
+          "seniorChecks": {
+            "title": "Apeluri de verificare pentru seniori",
+            "description": "Oferiți verificări de wellness pentru seniori pe bază regulată sau la cerere.",
+            "benefit1": "Monitorizare wellness",
+            "benefit2": "Escaladare urgențe",
+            "benefit3": "Liniște sufletească"
+          },
+          "campaigns": {
+            "title": "Campanii la scară largă",
+            "description": "Executați campanii de marketing și informaționale de volum mare.",
+            "benefit1": "Acoperire în masă",
+            "benefit2": "Mesaje personalizate",
+            "benefit3": "Rentabil"
+          },
+          "renewals": {
+            "title": "Reînnoiri abonamente",
+            "description": "Automatizați memento-urile și procesarea reînnoirilor abonamentelor.",
+            "benefit1": "Reînnoiri automate",
+            "benefit2": "Abandon redus",
+            "benefit3": "Protecția veniturilor"
+          },
+          "surveys": {
+            "title": "Sondaje clienți",
+            "description": "Efectuați colectarea automată a feedback-ului post-serviciu.",
+            "benefit1": "Colectare feedback",
+            "benefit2": "Insight-uri de calitate",
+            "benefit3": "Date de îmbunătățire"
+          }
+        },
+        "hero": {
+          "title": "Soluții voce AI pentru fiecare nevoie de afaceri",
+          "description": "Descoperiți soluții complete de automatizare vocală inbound și outbound concepute pentru a vă transforma comunicațiile cu clienții și operațiunile de afaceri."
+        },
+        "cta": {
+          "title": "Gata să vă transformați comunicațiile de afaceri?",
+          "description": "Descoperiți cum soluțiile noastre vocale AI vă pot automatiza interacțiunile cu clienții și pot stimula creșterea afacerii",
+          "button": "Programați o consultație"
+        },
+        "learnMore": "Aflați mai multe"
+      }
+    }
+  }
+}

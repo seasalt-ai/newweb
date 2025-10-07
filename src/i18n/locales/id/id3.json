@@ -1,0 +1,1551 @@
+{
+  "seachat": {
+    "solutions": {
+      "healthcare": {
+        "title": "Solusi Kesehatan",
+        "subtitle": "Ubah perawatan pasien dengan dukungan pelanggan yang sesuai HIPAA yang meningkatkan kepuasan pasien, menyederhanakan operasi, dan meningkatkan koordinasi perawatan.",
+        "trialButton": "Mulai Kesehatan Gratis",
+        "demoButton": "Jadwalkan Demo Kesehatan",
+        "featuresTitle": "Fitur Khusus Kesehatan",
+        "featuresSubtitle": "Fitur yang dibangun khusus untuk penyedia layanan kesehatan untuk memberikan perawatan pasien yang luar biasa.",
+        "features": {
+          "hipaa": {
+            "title": "Kepatuhan HIPAA",
+            "description": "Kepatuhan HIPAA penuh dengan komunikasi terenkripsi dan penanganan data yang aman",
+            "benefits": {
+              "encryption": "Enkripsi ujung ke ujung",
+              "audit": "Jejak audit",
+              "access": "Kontrol akses",
+              "anonymization": "Anonimisasi data"
+            }
+          },
+          "appointments": {
+            "title": "Manajemen Janji Temu",
+            "description": "Sistem penjadwalan, penjadwalan ulang, dan pengingat janji temu yang mulus",
+            "benefits": {
+              "availability": "Ketersediaan real-time",
+              "reminders": "Pengingat otomatis",
+              "cancellation": "Penanganan pembatalan",
+              "waitlist": "Manajemen daftar tunggu"
+            }
+          },
+          "telehealth": {
+            "title": "Dukungan Telehealth",
+            "description": "Kemampuan telehealth terintegrasi untuk konsultasi pasien jarak jauh",
+            "benefits": {
+              "video": "Konsultasi video",
+              "messaging": "Pesan aman",
+              "documents": "Berbagi dokumen",
+              "followup": "Perawatan tindak lanjut"
+            }
+          },
+          "engagement": {
+            "title": "Keterlibatan Pasien",
+            "description": "Tingkatkan kepuasan pasien dengan dukungan 24/7 dan perawatan yang dipersonalisasi",
+            "benefits": {
+              "availability": "Ketersediaan 24/7",
+              "multilanguage": "Dukungan multi-bahasa",
+              "coordination": "Koordinasi perawatan",
+              "education": "Edukasi kesehatan"
+            }
+          }
+        },
+        "metricsTitle": "Metrik Dampak Kesehatan",
+        "metricsSubtitle": "Hasil nyata dari penyedia layanan kesehatan yang menggunakan SeaChat untuk dukungan pasien.",
+        "metrics": {
+          "noshows": {
+            "label": "Pengurangan Ketidakhadiran",
+            "description": "Dengan pengingat janji temu otomatis",
+            "value": "40%"
+          },
+          "response": {
+            "label": "Waktu Respons Lebih Cepat",
+            "description": "Untuk pertanyaan dan kekhawatiran pasien",
+            "value": "60%"
+          },
+          "satisfaction": {
+            "label": "Kepuasan Pasien",
+            "description": "Dengan ketersediaan dukungan 24/7",
+            "value": "85%"
+          },
+          "efficiency": {
+            "label": "Efisiensi Administratif",
+            "description": "Melalui alur kerja otomatis",
+            "value": "50%"
+          }
+        },
+        "useCasesTitle": "Kasus Penggunaan Kesehatan Umum",
+        "useCasesSubtitle": "Lihat bagaimana SeaChat menangani interaksi pasien dan tugas administratif yang khas.",
+        "useCases": {
+          "appointments": {
+            "title": "Penjadwalan Janji Temu",
+            "description": "Pasien dapat memesan, menjadwal ulang, atau membatalkan janji temu melalui obrolan",
+            "example": "Saya perlu menjadwal ulang janji temu saya untuk Selasa depan",
+            "outcome": "Penjadwalan otomatis dengan integrasi kalender dan konfirmasi"
+          },
+          "prescriptions": {
+            "title": "Pertanyaan Resep",
+            "description": "Tangani pengisian ulang resep dan pertanyaan obat dengan aman",
+            "example": "Kapan resep saya akan siap diambil?",
+            "outcome": "Integrasi farmasi real-time dan pembaruan status"
+          },
+          "insurance": {
+            "title": "Verifikasi Asuransi",
+            "description": "Verifikasi cakupan asuransi dan jelaskan manfaatnya kepada pasien",
+            "example": "Apakah prosedur saya ditanggung oleh rencana asuransi saya?",
+            "outcome": "Verifikasi asuransi instan dan penjelasan cakupan"
+          },
+          "symptoms": {
+            "title": "Pra-penyaringan Gejala",
+            "description": "Penilaian gejala bertenaga AI dan rekomendasi triase",
+            "example": "Saya demam dan batuk, haruskah saya datang?",
+            "outcome": "Penilaian gejala dengan rekomendasi perawatan yang sesuai"
+          }
+        },
+        "patientRequest": "Permintaan Pasien",
+        "seachatResponse": "Respons SeaChat",
+        "hipaaTitle": "Kepatuhan & Keamanan HIPAA",
+        "hipaaSubtitle": "Dibangun dari awal dengan mempertimbangkan keamanan dan kepatuhan layanan kesehatan. Lindungi data pasien sambil memberikan pengalaman perawatan yang luar biasa.",
+        "compliance": {
+          "complianceFeatures": [
+            "Enkripsi ujung ke ujung",
+            "Jejak audit",
+            "Kontrol akses",
+            "Anonimisasi data",
+            "Penyimpanan data yang aman",
+            "Audit keamanan rutin",
+            "Pelatihan dan sertifikasi staf",
+            "Prosedur respons insiden"
+          ]
+        },
+        "certificationsTitle": "Sertifikasi Keamanan",
+        "certifications": {
+          "hipaa": "Sesuai HIPAA",
+          "soc2": "SOC 2 Tipe II",
+          "iso": "ISO 27001",
+          "gdpr": "Siap GDPR"
+        },
+        "certified": "Bersertifikat",
+        "compliant": "Sesuai",
+        "ctaTitle": "Siap Mengubah Perawatan Pasien?",
+        "ctaSubtitle": "Bergabunglah dengan penyedia layanan kesehatan yang sudah menggunakan SeaChat untuk memberikan pengalaman pasien yang luar biasa sambil mempertahankan standar keamanan dan kepatuhan tertinggi.",
+        "ctaTrialButton": "Mulai Kesehatan Gratis",
+        "ctaDemoButton": "Jadwalkan Demo Kesehatan"
+      },
+      "fintech": {
+        "securityFeatures": [
+          "Enkripsi ujung ke ujung untuk semua komunikasi",
+          "Autentikasi multi-faktor dan verifikasi identitas",
+          "Audit keamanan rutin dan pengujian penetrasi",
+          "Infrastruktur bersertifikat ISO 27001",
+          "Pemantauan dan deteksi penipuan real-time",
+          "Titik akhir API yang aman dengan pembatasan laju"
+        ],
+        "title": "Solusi Fintech",
+        "subtitle": "Dukungan pelanggan yang aman dan sesuai untuk layanan keuangan. Tangani transaksi, berikan panduan investasi, dan pastikan kepatuhan regulasi dengan percaya diri.",
+        "trialButton": "Mulai Fintech Gratis",
+        "demoButton": "Jadwalkan Demo Keuangan",
+        "featuresTitle": "Fitur Layanan Keuangan",
+        "featuresSubtitle": "Fitur yang dibangun khusus untuk lembaga keuangan untuk memberikan dukungan pelanggan yang aman dan sesuai.",
+        "features": {
+          "security": {
+            "title": "Keamanan Keuangan",
+            "description": "Keamanan tingkat bank dengan kepatuhan PCI DSS dan perlindungan penipuan",
+            "benefits": {
+              "pci": "Kepatuhan PCI DSS",
+              "fraud": "Deteksi penipuan",
+              "transactions": "Transaksi aman",
+              "identity": "Verifikasi identitas"
+            }
+          },
+          "payment": {
+            "title": "Dukungan Pembayaran",
+            "description": "Dukungan pemrosesan pembayaran komprehensif dan penyelesaian sengketa",
+            "benefits": {
+              "tracking": "Pelacakan transaksi",
+              "dispute": "Penanganan sengketa",
+              "refund": "Pemrosesan pengembalian dana",
+              "methods": "Metode pembayaran"
+            }
+          },
+          "investment": {
+            "title": "Panduan Investasi",
+            "description": "Saran investasi bertenaga AI dan dukungan manajemen portofolio",
+            "benefits": {
+              "insights": "Wawasan pasar",
+              "portfolio": "Analisis portofolio",
+              "risk": "Penilaian risiko",
+              "recommendations": "Rekomendasi investasi"
+            }
+          },
+          "compliance": {
+            "title": "Kepatuhan Regulasi",
+            "description": "Kepatuhan bawaan dengan peraturan keuangan dan persyaratan pelaporan",
+            "benefits": {
+              "kyc": "Kepatuhan KYC/AML",
+              "reporting": "Pelaporan regulasi",
+              "audit": "Jejak audit",
+              "protection": "Perlindungan data"
+            }
+          }
+        },
+        "impactTitle": "Dampak Layanan Keuangan",
+        "impactSubtitle": "Hasil nyata dari lembaga keuangan yang menggunakan SeaChat untuk dukungan pelanggan.",
+        "metrics": {
+          "accuracy": {
+            "label": "Akurasi Transaksi",
+            "description": "Dengan pemrosesan dan verifikasi otomatis"
+          },
+          "resolution": {
+            "label": "Resolusi Lebih Cepat",
+            "description": "Untuk pertanyaan dan sengketa keuangan"
+          },
+          "fraud": {
+            "label": "Tingkat Deteksi Penipuan",
+            "description": "Dengan sistem pemantauan bertenaga AI"
+          },
+          "satisfaction": {
+            "label": "Kepuasan Pelanggan",
+            "description": "Untuk interaksi dukungan keuangan"
+          }
+        },
+        "useCasesTitle": "Kasus Penggunaan Dukungan Keuangan",
+        "useCasesSubtitle": "Lihat bagaimana SeaChat menangani pertanyaan dan transaksi keuangan yang kompleks.",
+        "useCases": {
+          "account": {
+            "title": "Manajemen Akun",
+            "description": "Bantu pelanggan dengan pengaturan akun, verifikasi, dan manajemen",
+            "example": "Saya butuh bantuan menyiapkan akun bisnis saya",
+            "outcome": "Pengaturan akun terpandu dengan verifikasi dokumen dan pemeriksaan kepatuhan"
+          },
+          "transaction": {
+            "title": "Pertanyaan Transaksi",
+            "description": "Berikan status transaksi real-time dan informasi riwayat",
+            "example": "Di mana transfer kawat saya ke Perusahaan ABC?",
+            "outcome": "Pelacakan transaksi real-time dengan pembaruan status terperinci"
+          },
+          "fraud": {
+            "title": "Pencegahan Penipuan",
+            "description": "Deteksi dan cegah aktivitas penipuan dengan pemantauan AI",
+            "example": "Saya melihat tagihan mencurigakan di akun saya",
+            "outcome": "Investigasi penipuan segera dan langkah-langkah perlindungan akun"
+          },
+          "investment": {
+            "title": "Dukungan Investasi",
+            "description": "Berikan panduan investasi dan bantuan manajemen portofolio",
+            "example": "Haruskah saya berinvestasi di saham teknologi sekarang?",
+            "outcome": "Saran investasi yang dipersonalisasi berdasarkan profil risiko dan analisis pasar"
+          }
+        },
+        "customerInquiry": "Pertanyaan Pelanggan",
+        "seachatResponse": "Respons SeaChat",
+        "securityTitle": "Keamanan & Kepatuhan Tingkat Bank",
+        "securitySubtitle": "Dibangun dengan standar keamanan tertinggi dan persyaratan kepatuhan regulasi untuk lembaga layanan keuangan.",
+        "regulatoryTitle": "Kepatuhan Regulasi",
+        "regulations": {
+          "pci": {
+            "name": "PCI DSS",
+            "description": "Standar Keamanan Data Industri Kartu Pembayaran",
+            "status": "Sesuai"
+          },
+          "sox": {
+            "name": "SOX",
+            "description": "Kepatuhan Undang-Undang Sarbanes-Oxley",
+            "status": "Sesuai"
+          },
+          "gdpr": {
+            "name": "GDPR",
+            "description": "Peraturan Perlindungan Data Umum",
+            "status": "Sesuai"
+          },
+          "kyc": {
+            "name": "KYC/AML",
+            "description": "Kenali Pelanggan Anda / Anti Pencucian Uang",
+            "status": "Didukung"
+          },
+          "ccpa": {
+            "name": "CCPA",
+            "description": "Undang-Undang Privasi Konsumen California",
+            "status": "Sesuai"
+          },
+          "finra": {
+            "name": "FINRA",
+            "description": "Otoritas Regulasi Industri Keuangan",
+            "status": "Didukung"
+          }
+        },
+        "ctaTitle": "Siap Mengamankan Layanan Keuangan Anda?",
+        "ctaSubtitle": "Bergabunglah dengan lembaga keuangan yang sudah menggunakan SeaChat untuk memberikan dukungan pelanggan yang aman dan sesuai yang membangun kepercayaan dan mendorong pertumbuhan.",
+        "ctaTrialButton": "Mulai Fintech Gratis",
+        "ctaDemoButton": "Jadwalkan Demo Keuangan"
+      },
+      "ecommerce": {
+        "title": "E-commerce & Ritel",
+        "subtitle": "Ubah toko online Anda dengan dukungan pelanggan cerdas yang mendorong penjualan, mengurangi pengabaian keranjang, dan menciptakan pelanggan setia.",
+        "trialButton": "Mulai E-commerce Gratis",
+        "demoButton": "Jadwalkan Demo E-commerce",
+        "featuresTitle": "Fitur Khusus E-commerce",
+        "featuresSubtitle": "Fitur yang dibangun khusus untuk pengecer online untuk memaksimalkan penjualan dan kepuasan pelanggan.",
+        "features": {
+          "orders": {
+            "title": "Integrasi Manajemen Pesanan",
+            "description": "Integrasikan dengan mulus dengan platform e-commerce Anda untuk pelacakan pesanan dan pembaruan real-time.",
+            "benefits": {
+              "status": "Status pesanan real-time",
+              "shipping": "Pembaruan pengiriman otomatis",
+              "returns": "Pemrosesan pengembalian",
+              "inventory": "Pertanyaan inventaris"
+            }
+          },
+          "accounts": {
+            "title": "Dukungan Akun Pelanggan",
+            "description": "Bantu pelanggan dengan masalah akun, pengaturan ulang kata sandi, dan manajemen profil.",
+            "benefits": {
+              "recovery": "Pemulihan akun",
+              "updates": "Pembaruan profil",
+              "subscriptions": "Manajemen langganan",
+              "billing": "Dukungan penagihan"
+            }
+          },
+          "recommendations": {
+            "title": "Rekomendasi Produk",
+            "description": "Saran produk bertenaga AI berdasarkan preferensi pelanggan dan riwayat penelusuran.",
+            "benefits": {
+              "personalized": "Saran yang dipersonalisasi",
+              "cross": "Peluang penjualan silang",
+              "upselling": "Otomatisasi penjualan ke atas",
+              "inventory": "Optimalisasi inventaris"
+            }
+          },
+          "assistance": {
+            "title": "Bantuan Belanja 24/7",
+            "description": "Dukungan sepanjang waktu untuk pelanggan di berbagai zona waktu dan pola belanja.",
+            "benefits": {
+              "global": "Cakupan global",
+              "peak": "Dukungan jam sibuk",
+              "holiday": "Bantuan liburan",
+              "mobile": "Bantuan belanja seluler"
+            }
+          }
+        },
+        "resultsTitle": "Hasil E-commerce yang Terbukti",
+        "resultsSubtitle": "Metrik nyata dari bisnis e-commerce yang menggunakan SeaChat untuk dukungan pelanggan.",
+        "metrics": {
+          "conversion": {
+            "label": "Peningkatan Konversi Penjualan",
+            "description": "Melalui dukungan pelanggan proaktif"
+          },
+          "abandonment": {
+            "label": "Pengurangan Pengabaian Keranjang",
+            "description": "Dengan bantuan belanja real-time"
+          },
+          "resolution": {
+            "label": "Resolusi Pesanan Lebih Cepat",
+            "description": "Pembaruan status pesanan otomatis"
+          },
+          "satisfaction": {
+            "label": "Tingkat Kepuasan Pelanggan",
+            "description": "Untuk interaksi dukungan e-commerce"
+          }
+        },
+        "integrationsTitle": "Integrasi Platform E-commerce",
+        "integrationsSubtitle": "Terhubung dengan mulus dengan tumpukan e-commerce Anda yang sudah ada untuk dukungan pelanggan terpadu.",
+        "integrations": {
+          "shopify": {
+            "name": "Shopify",
+            "description": "Aplikasi Shopify asli dengan integrasi pesanan penuh"
+          },
+          "woocommerce": {
+            "name": "WooCommerce",
+            "description": "Plugin WordPress untuk toko WooCommerce"
+          },
+          "magento": {
+            "name": "Magento",
+            "description": "Integrasi Magento tingkat perusahaan"
+          },
+          "bigcommerce": {
+            "name": "BigCommerce",
+            "description": "Integrasi API BigCommerce lengkap"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "Pemrosesan pembayaran dan dukungan penagihan"
+          },
+          "paypal": {
+            "name": "PayPal",
+            "description": "Penanganan transaksi dan sengketa PayPal"
+          }
+        },
+        "successTitle": "Kisah Sukses: Pengecer Fashion",
+        "challenge": "Tantangan",
+        "challengeDescription": "Tingkat pengabaian keranjang yang tinggi dan pelanggan pergi karena pertanyaan ukuran dan kekhawatiran ketersediaan produk.",
+        "solution": "Solusi",
+        "solutionDescription": "Menerapkan SeaChat dengan integrasi katalog produk, panduan ukuran, dan pemulihan pengabaian keranjang proaktif.",
+        "results": "Hasil",
+        "result1": "Peningkatan tingkat konversi 45%",
+        "result2": "Pengurangan pengabaian keranjang 60%",
+        "result3": "Pendapatan tambahan $2.3 juta dalam 6 bulan",
+        "chatPreview": "Pratinjau Obrolan Langsung",
+        "customer": "Pelanggan",
+        "customerQuestion": "Apakah gaun ini tersedia dalam ukuran M?",
+        "seachatAI": "SeaChat AI",
+        "aiResponse1": "Ya! Gaun Musim Panas Biru tersedia dalam ukuran M. Kami memiliki 3 stok. Apakah Anda ingin saya menambahkannya ke keranjang Anda?",
+        "customerResponse": "Sempurna! Ya, tolong tambahkan.",
+        "aiResponse2": "Ditambahkan ke keranjang! 🛍️ Anda memenuhi syarat untuk pengiriman gratis. Siap untuk checkout?",
+        "ctaTitle": "Siap Meningkatkan Penjualan E-commerce Anda?",
+        "ctaSubtitle": "Bergabunglah dengan ratusan pengecer online yang menggunakan SeaChat untuk meningkatkan konversi, mengurangi pengabaian keranjang, dan menciptakan pengalaman belanja yang luar biasa.",
+        "ctaTrialButton": "Mulai E-commerce Gratis",
+        "ctaDemoButton": "Jadwalkan Demo E-commerce"
+      },
+      "education": {
+        "title": "Solusi Pendidikan",
+        "subtitle": "Ubah dukungan pendidikan dengan bantuan bertenaga AI untuk siswa, orang tua, fakultas, dan staf. Sederhanakan operasi dan tingkatkan pengalaman belajar.",
+        "trialButton": "Mulai Pendidikan Gratis",
+        "demoButton": "Jadwalkan Demo Pendidikan",
+        "featuresTitle": "Fitur Khusus Pendidikan",
+        "featuresSubtitle": "Fitur yang dibangun khusus untuk lembaga pendidikan untuk meningkatkan keberhasilan siswa dan efisiensi operasional.",
+        "features": {
+          "student": {
+            "title": "Layanan Dukungan Siswa",
+            "description": "Dukungan komprehensif untuk pertanyaan siswa, pendaftaran, dan bantuan akademik",
+            "benefits": {
+              "support": "Dukungan siswa 24/7",
+              "enrollment": "Bantuan pendaftaran",
+              "academic": "Panduan akademik",
+              "technical": "Bantuan teknis"
+            }
+          },
+          "admin": {
+            "title": "Otomatisasi Administratif",
+            "description": "Sederhanakan tugas administratif dengan penjadwalan dan notifikasi otomatis",
+            "benefits": {
+              "scheduling": "Penjadwalan kelas",
+              "events": "Manajemen acara",
+              "deadlines": "Pengingat tenggat waktu",
+              "registration": "Dukungan pendaftaran"
+            }
+          },
+          "stakeholder": {
+            "title": "Dukungan Multi-Pemangku Kepentingan",
+            "description": "Dukung siswa, orang tua, fakultas, dan staf dengan pengalaman yang disesuaikan",
+            "benefits": {
+              "portals": "Portal siswa",
+              "parent": "Komunikasi orang tua",
+              "faculty": "Bantuan fakultas",
+              "staff": "Koordinasi staf"
+            }
+          },
+          "lms": {
+            "title": "Integrasi Manajemen Pembelajaran",
+            "description": "Integrasi mulus dengan platform LMS dan alat pendidikan",
+            "benefits": {
+              "connectivity": "Konektivitas LMS",
+              "grades": "Pertanyaan nilai",
+              "assignments": "Bantuan tugas",
+              "courses": "Informasi kursus"
+            }
+          }
+        },
+        "stakeholdersTitle": "Dukungan untuk Semua Pemangku Kepentingan",
+        "stakeholdersSubtitle": "Pengalaman yang disesuaikan untuk setiap anggota komunitas pendidikan Anda.",
+        "stakeholders": {
+          "students": {
+            "title": "Siswa",
+            "description": "Dukungan akademik, bantuan pendaftaran, dan layanan kampus",
+            "features": {
+              "courses": "Informasi kursus",
+              "assignments": "Tenggat waktu tugas",
+              "grades": "Pertanyaan nilai",
+              "campus": "Navigasi kampus"
+            }
+          },
+          "parents": {
+            "title": "Orang Tua",
+            "description": "Tetap terinformasi tentang kemajuan siswa dan pembaruan institusi",
+            "features": {
+              "progress": "Pembaruan kemajuan",
+              "payment": "Informasi pembayaran",
+              "events": "Notifikasi acara",
+              "communication": "Komunikasi dengan fakultas"
+            }
+          },
+          "faculty": {
+            "title": "Fakultas",
+            "description": "Dukungan administratif dan bantuan pengajaran",
+            "features": {
+              "management": "Manajemen kelas",
+              "inquiries": "Pertanyaan siswa",
+              "resources": "Permintaan sumber daya",
+              "technical": "Dukungan teknis"
+            }
+          },
+          "staff": {
+            "title": "Staf",
+            "description": "Efisiensi operasional dan otomatisasi administratif",
+            "features": {
+              "automation": "Otomatisasi proses",
+              "information": "Akses informasi",
+              "workflow": "Manajemen alur kerja",
+              "reporting": "Alat pelaporan"
+            }
+          }
+        },
+        "metricsTitle": "Metrik Dampak Pendidikan",
+        "metricsSubtitle": "Hasil nyata dari lembaga pendidikan yang menggunakan SeaChat untuk dukungan siswa dan administratif.",
+        "metrics": {
+          "admin": {
+            "label": "Pengurangan Beban Kerja Admin",
+            "description": "Melalui pertanyaan siswa otomatis"
+          },
+          "satisfaction": {
+            "label": "Kepuasan Siswa",
+            "description": "Dengan ketersediaan dukungan 24/7"
+          },
+          "response": {
+            "label": "Waktu Respons Lebih Cepat",
+            "description": "Untuk pertanyaan siswa dan orang tua"
+          },
+          "enrollment": {
+            "label": "Peningkatan Pendaftaran",
+            "description": "Dengan proses aplikasi yang disederhanakan"
+          }
+        },
+        "useCasesTitle": "Kasus Penggunaan Pendidikan Umum",
+        "useCasesSubtitle": "Lihat bagaimana SeaChat menangani interaksi siswa dan administratif yang khas.",
+        "useCases": {
+          "enrollment": {
+            "title": "Pendaftaran Siswa",
+            "description": "Pandu calon siswa melalui proses pendaftaran",
+            "example": "Saya ingin mendaftar untuk program Ilmu Komputer",
+            "outcome": "Panduan pendaftaran langkah demi langkah dengan persyaratan dokumen dan tenggat waktu"
+          },
+          "academic": {
+            "title": "Dukungan Akademik",
+            "description": "Berikan bantuan akademik dan informasi kursus",
+            "example": "Kapan tenggat waktu untuk tugas Sejarah saya?",
+            "outcome": "Akses real-time ke tenggat waktu tugas dan pedoman pengiriman"
+          },
+          "campus": {
+            "title": "Layanan Kampus",
+            "description": "Bantu dengan fasilitas kampus, makan, perumahan, dan transportasi",
+            "example": "Bagaimana cara memesan ruang belajar di perpustakaan?",
+            "outcome": "Integrasi sistem pemesanan langsung dengan ketersediaan dan konfirmasi"
+          },
+          "financial": {
+            "title": "Bantuan Keuangan",
+            "description": "Bantu dengan aplikasi bantuan keuangan dan informasi beasiswa",
+            "example": "Beasiswa apa yang saya penuhi syaratnya?",
+            "outcome": "Rekomendasi beasiswa yang dipersonalisasi berdasarkan profil siswa"
+          }
+        },
+        "studentInquiry": "Pertanyaan Siswa",
+        "seachatResponse": "Respons SeaChat",
+        "integrationsTitle": "Integrasi Platform Pendidikan",
+        "integrationsSubtitle": "Terhubung dengan mulus dengan alat dan platform pendidikan populer.",
+        "integrations": {
+          "canvas": {
+            "name": "Canvas LMS",
+            "description": "Integrasi sistem manajemen pembelajaran"
+          },
+          "blackboard": {
+            "name": "Blackboard",
+            "description": "Manajemen kursus dan pengiriman konten"
+          },
+          "moodle": {
+            "name": "Moodle",
+            "description": "Platform pembelajaran sumber terbuka"
+          },
+          "google": {
+            "name": "Google Classroom",
+            "description": "Platform kolaborasi pendidikan"
+          },
+          "zoom": {
+            "name": "Zoom",
+            "description": "Konferensi video untuk kelas virtual"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Kolaborasi dan komunikasi pendidikan"
+          },
+          "sis": {
+            "name": "Sistem Informasi Siswa",
+            "description": "Integrasi SIS untuk catatan siswa"
+          },
+          "library": {
+            "name": "Sistem Perpustakaan",
+            "description": "Pemesanan sumber daya dan pencarian katalog"
+          }
+        },
+        "ctaTitle": "Siap Mengubah Dukungan Pendidikan?",
+        "ctaSubtitle": "Bergabunglah dengan lembaga pendidikan yang sudah menggunakan SeaChat untuk meningkatkan keberhasilan siswa dan menyederhanakan operasi administratif.",
+        "ctaTrialButton": "Mulai Pendidikan Gratis",
+        "ctaDemoButton": "Jadwalkan Demo Pendidikan"
+      },
+      "realEstate": {
+        "title": "Solusi Real Estat",
+        "subtitle": "Ubah bisnis real estat Anda dengan dukungan pelanggan bertenaga AI yang menangkap prospek, mengoordinasikan penayangan, dan memberikan bantuan klien 24/7.",
+        "trialButton": "Mulai Real Estat Gratis",
+        "demoButton": "Jadwalkan Demo Real Estat",
+        "featuresTitle": "Fitur Khusus Real Estat",
+        "featuresSubtitle": "Fitur yang dibangun khusus untuk profesional real estat untuk menangkap prospek dan melayani klien dengan lebih baik.",
+        "features": {
+          "search": {
+            "title": "Bantuan Pencarian Properti",
+            "description": "Bantu klien menemukan properti sempurna mereka dengan pencarian dan rekomendasi bertenaga AI",
+            "benefits": {
+              "matching": "Pencocokan properti cerdas",
+              "insights": "Wawasan pasar",
+              "neighborhood": "Informasi lingkungan",
+              "analysis": "Analisis harga"
+            }
+          },
+          "showing": {
+            "title": "Koordinasi Penayangan",
+            "description": "Sederhanakan penayangan properti dengan penjadwalan dan koordinasi otomatis",
+            "benefits": {
+              "scheduling": "Penjadwalan otomatis",
+              "availability": "Sinkronisasi ketersediaan",
+              "reminders": "Notifikasi pengingat",
+              "route": "Optimalisasi rute"
+            }
+          },
+          "leads": {
+            "title": "Manajemen Prospek",
+            "description": "Tangkap dan pelihara prospek dengan kualifikasi cerdas dan tindak lanjut",
+            "benefits": {
+              "qualification": "Kualifikasi prospek",
+              "followup": "Tindak lanjut otomatis",
+              "crm": "Integrasi CRM",
+              "tracking": "Pelacakan konversi"
+            }
+          },
+          "communication": {
+            "title": "Komunikasi Klien",
+            "description": "Dukungan klien 24/7 untuk pertanyaan, pembaruan, dan bantuan transaksi",
+            "benefits": {
+              "availability": "Ketersediaan 24/7",
+              "updates": "Pembaruan transaksi",
+              "assistance": "Bantuan dokumen",
+              "market": "Pembaruan pasar"
+            }
+          }
+        },
+        "metricsTitle": "Metrik Dampak Real Estat",
+        "metricsSubtitle": "Hasil nyata dari profesional real estat yang menggunakan SeaChat untuk dukungan klien dan generasi prospek.",
+        "metrics": {
+          "leads": {
+            "label": "Prospek yang Lebih Berkualitas",
+            "description": "Melalui kualifikasi prospek cerdas"
+          },
+          "response": {
+            "label": "Waktu Respons Lebih Cepat",
+            "description": "Untuk pertanyaan dan permintaan klien"
+          },
+          "showing": {
+            "label": "Efisiensi Penayangan",
+            "description": "Dengan koordinasi penjadwalan otomatis"
+          },
+          "satisfaction": {
+            "label": "Kepuasan Klien",
+            "description": "Dengan ketersediaan dukungan 24/7"
+          }
+        },
+        "propertyTypesTitle": "Semua Jenis Properti Didukung",
+        "propertyTypesSubtitle": "Baik Anda berspesialisasi dalam properti residensial, komersial, atau investasi, kami siap membantu Anda.",
+        "propertyTypes": {
+          "residential": {
+            "name": "Penjualan Residensial",
+            "description": "Rumah keluarga tunggal, kondominium, dan rumah kota"
+          },
+          "commercial": {
+            "name": "Real Estat Komersial",
+            "description": "Gedung perkantoran, ruang ritel, dan gudang"
+          },
+          "rental": {
+            "name": "Properti Sewa",
+            "description": "Kompleks apartemen dan manajemen sewa"
+          },
+          "luxury": {
+            "name": "Properti Mewah",
+            "description": "Rumah mewah dan daftar eksklusif"
+          },
+          "investment": {
+            "name": "Properti Investasi",
+            "description": "Investasi perbaikan dan sewa"
+          },
+          "new": {
+            "name": "Konstruksi Baru",
+            "description": "Kemitraan pembangun dan pengembangan baru"
+          }
+        },
+        "useCasesTitle": "Kasus Penggunaan Real Estat",
+        "useCasesSubtitle": "Lihat bagaimana SeaChat menangani interaksi klien real estat dan generasi prospek yang khas.",
+        "useCases": {
+          "property": {
+            "title": "Pertanyaan Properti",
+            "description": "Tangani pertanyaan properti dan berikan informasi terperinci",
+            "example": "Ceritakan tentang rumah 3 kamar tidur di Oak Street",
+            "outcome": "Informasi properti terperinci dengan foto, harga, dan data lingkungan"
+          },
+          "showing": {
+            "title": "Permintaan Penayangan",
+            "description": "Jadwalkan penayangan properti dan koordinasikan dengan semua pihak",
+            "example": "Saya ingin menjadwalkan penayangan untuk akhir pekan ini",
+            "outcome": "Penjadwalan otomatis dengan ketersediaan agen dan konfirmasi"
+          },
+          "market": {
+            "title": "Analisis Pasar",
+            "description": "Berikan wawasan pasar dan penilaian properti",
+            "example": "Berapa nilai rumah saya di pasar saat ini?",
+            "outcome": "Analisis pasar komparatif dengan penjualan dan tren terbaru"
+          },
+          "transaction": {
+            "title": "Dukungan Transaksi",
+            "description": "Pandu klien melalui proses pembelian atau penjualan",
+            "example": "Dokumen apa yang saya butuhkan untuk penutupan?",
+            "outcome": "Daftar periksa dokumen yang diperlukan dengan tenggat waktu dan instruksi"
+          }
+        },
+        "clientInquiry": "Pertanyaan Klien",
+        "seachatResponse": "Respons SeaChat",
+        "integrationsTitle": "Integrasi Platform Real Estat",
+        "integrationsSubtitle": "Terhubung dengan mulus dengan alat dan platform yang sudah Anda gunakan untuk mengelola bisnis real estat Anda.",
+        "leadCaptureTitle": "Contoh Penangkapan Prospek",
+        "websiteVisitor": "Pengunjung Situs Web",
+        "visitorQuery": "Saya mencari rumah 3 kamar tidur di bawah $500 ribu",
+        "seachatAI": "SeaChat AI",
+        "aiResponse": "Saya akan senang membantu Anda menemukan rumah yang sempurna! Saya memiliki beberapa properti 3 kamar tidur di bawah $500 ribu. Bisakah saya mendapatkan informasi kontak Anda untuk mengirimi Anda beberapa pilihan?",
+        "visitorResponse": "Tentu! Email saya john@email.com",
+        "systemAction": "Tindakan Sistem",
+        "leadCaptured": "Prospek ditangkap dan ditambahkan ke CRM dengan preferensi properti",
+        "ctaTitle": "Siap Mengubah Bisnis Real Estat Anda?",
+        "ctaSubtitle": "Bergabunglah dengan profesional real estat yang sudah menggunakan SeaChat untuk menangkap lebih banyak prospek, mengoordinasikan penayangan, dan memberikan layanan klien yang luar biasa.",
+        "ctaTrialButton": "Mulai Real Estat Gratis",
+        "ctaDemoButton": "Jadwalkan Demo Real Estat",
+        "integrations": {
+          "0": "Integrasi MLS",
+          "1": "Sistem CRM",
+          "2": "Manajemen Properti",
+          "3": "Alat Generasi Prospek",
+          "4": "Kalender & Penjadwalan",
+          "5": "Pemasaran Email",
+          "6": "Manajemen Dokumen",
+          "7": "Platform Tur Virtual"
+        }
+      },
+      "saas": {
+        "title": "SaaS & Teknologi",
+        "subtitle": "Percepat adopsi pengguna dan kurangi churn dengan dukungan pelanggan cerdas yang memberikan bantuan teknis, panduan orientasi, dan manajemen keberhasilan proaktif.",
+        "trialButton": "Mulai SaaS Gratis",
+        "demoButton": "Jadwalkan Demo SaaS",
+        "featuresTitle": "Fitur Khusus SaaS",
+        "featuresSubtitle": "Fitur yang dibangun khusus untuk perusahaan SaaS untuk mendorong keberhasilan pengguna dan pertumbuhan bisnis.",
+        "features": {
+          "technical": {
+            "title": "Dukungan Teknis",
+            "description": "Berikan bantuan teknis ahli untuk masalah perangkat lunak dan integrasi",
+            "benefits": {
+              "api": "Bantuan dokumentasi API",
+              "integration": "Dukungan integrasi",
+              "troubleshooting": "Panduan pemecahan masalah",
+              "resources": "Sumber daya pengembang"
+            }
+          },
+          "onboarding": {
+            "title": "Orientasi Pengguna",
+            "description": "Sederhanakan orientasi pengguna dengan pengaturan terpandu dan pengenalan fitur",
+            "benefits": {
+              "tutorials": "Tutorial interaktif",
+              "walkthroughs": "Panduan fitur",
+              "setup": "Bantuan pengaturan",
+              "practices": "Praktik terbaik"
+            }
+          },
+          "success": {
+            "title": "Keberhasilan Pelanggan",
+            "description": "Dorong adopsi produk dan kurangi churn dengan dukungan proaktif",
+            "benefits": {
+              "analytics": "Analitik penggunaan",
+              "adoption": "Adopsi fitur",
+              "churn": "Pencegahan churn",
+              "upselling": "Peluang penjualan ke atas"
+            }
+          },
+          "security": {
+            "title": "Keamanan & Kepatuhan",
+            "description": "Atasi masalah keamanan dan persyaratan kepatuhan",
+            "benefits": {
+              "documentation": "Dokumentasi keamanan",
+              "compliance": "Panduan kepatuhan",
+              "protection": "Perlindungan data",
+              "audit": "Dukungan audit"
+            }
+          }
+        },
+        "useCases": {
+          "api": {
+            "title": "Bantuan Integrasi API",
+            "description": "Bantu pengembang dengan implementasi dan pemecahan masalah API",
+            "example": "Bagaimana cara mengautentikasi dengan API Anda?",
+            "outcome": "Panduan autentikasi langkah demi langkah dengan contoh kode dan alat pengujian"
+          },
+          "feature": {
+            "title": "Panduan Fitur",
+            "description": "Bantu pengguna menemukan dan mengimplementasikan fitur-fitur canggih",
+            "example": "Bagaimana cara mengatur alur kerja otomatis?",
+            "outcome": "Tutorial interaktif dengan template alur kerja dan bantuan konfigurasi"
+          },
+          "billing": {
+            "title": "Penagihan & Langganan",
+            "description": "Tangani pertanyaan penagihan dan manajemen langganan",
+            "example": "Saya ingin meningkatkan paket saya, apa perbedaannya?",
+            "outcome": "Perbandingan paket dengan detail harga dan bantuan peningkatan"
+          },
+          "performance": {
+            "title": "Optimalisasi Kinerja",
+            "description": "Berikan panduan tentang optimalisasi kinerja perangkat lunak",
+            "example": "Dasbor saya memuat lambat, bagaimana cara memperbaikinya?",
+            "outcome": "Analisis kinerja dengan rekomendasi optimalisasi dan bantuan implementasi"
+          }
+        },
+        "metrics": {
+          "tickets": {
+            "label": "Pengurangan Tiket Dukungan",
+            "description": "Melalui otomatisasi swalayan"
+          },
+          "onboarding": {
+            "label": "Orientasi Lebih Cepat",
+            "description": "Dengan bantuan pengaturan terpandu"
+          },
+          "adoption": {
+            "label": "Adopsi Fitur Lebih Tinggi",
+            "description": "Melalui panduan fitur proaktif"
+          },
+          "churn": {
+            "label": "Tingkat Churn Berkurang",
+            "description": "Dengan keberhasilan pelanggan proaktif"
+          }
+        },
+        "types": {
+          "b2b": {
+            "title": "Platform SaaS B2B",
+            "description": "Perangkat lunak perusahaan dan alat bisnis",
+            "features": {
+              "tenant": "Dukungan multi-penyewa",
+              "security": "Keamanan perusahaan",
+              "api": "Dokumentasi API",
+              "assistance": "Bantuan integrasi"
+            }
+          },
+          "developer": {
+            "title": "Alat Pengembang",
+            "description": "API, SDK, dan platform pengembangan",
+            "features": {
+              "examples": "Contoh kode",
+              "documentation": "Dokumentasi teknis",
+              "debugging": "Bantuan debugging",
+              "community": "Dukungan komunitas"
+            }
+          },
+          "marketing": {
+            "title": "Perangkat Lunak Pemasaran",
+            "description": "Otomatisasi pemasaran dan alat analitik",
+            "features": {
+              "campaign": "Pengaturan kampanye",
+              "analytics": "Panduan analitik",
+              "integration": "Bantuan integrasi",
+              "practices": "Praktik terbaik"
+            }
+          },
+          "productivity": {
+            "title": "Aplikasi Produktivitas",
+            "description": "Perangkat lunak kolaborasi dan produktivitas",
+            "features": {
+              "tutorials": "Tutorial fitur",
+              "workflow": "Optimalisasi alur kerja",
+              "team": "Pengaturan tim",
+              "usage": "Analitik penggunaan"
+            }
+          },
+          "ecommerce": {
+            "title": "Platform E-commerce",
+            "description": "Toko online dan solusi pembayaran",
+            "features": {
+              "store": "Pengaturan toko",
+              "payment": "Integrasi pembayaran",
+              "theme": "Kustomisasi tema",
+              "performance": "Optimalisasi kinerja"
+            }
+          },
+          "analytics": {
+            "title": "Platform Analitik",
+            "description": "Analitik data dan intelijen bisnis",
+            "features": {
+              "dashboard": "Pembuatan dasbor",
+              "data": "Integrasi data",
+              "report": "Pembuatan laporan",
+              "visualization": "Bantuan visualisasi"
+            }
+          }
+        },
+        "typesTitle": "Semua Kategori SaaS Didukung",
+        "typesSubtitle": "Dari platform perusahaan hingga alat pengembang, kami mendukung setiap jenis bisnis SaaS.",
+        "impactTitle": "Dampak Bisnis SaaS",
+        "impactSubtitle": "Hasil nyata dari perusahaan SaaS yang menggunakan SeaChat untuk dukungan dan keberhasilan pelanggan.",
+        "useCasesTitle": "Kasus Penggunaan Dukungan SaaS",
+        "useCasesSubtitle": "Lihat bagaimana SeaChat menangani interaksi pelanggan SaaS dan dukungan teknis yang khas.",
+        "userQuestion": "Pertanyaan Pengguna",
+        "seachatResponse": "Respons SeaChat",
+        "integrationsTitle": "Integrasi Platform SaaS",
+        "integrationsSubtitle": "Terhubung dengan alat dan platform yang mendukung bisnis SaaS Anda untuk operasi keberhasilan pelanggan terpadu.",
+        "successFlowTitle": "Alur Keberhasilan Pelanggan",
+        "flow": {
+          "onboarding": {
+            "title": "Orientasi Pengguna",
+            "description": "Pengaturan terpandu dan pengenalan fitur"
+          },
+          "adoption": {
+            "title": "Adopsi Fitur",
+            "description": "Rekomendasi fitur proaktif"
+          },
+          "monitoring": {
+            "title": "Pemantauan Penggunaan",
+            "description": "Lacak keterlibatan dan identifikasi masalah"
+          },
+          "growth": {
+            "title": "Keberhasilan & Pertumbuhan",
+            "description": "Peluang penjualan ke atas dan ekspansi"
+          }
+        },
+        "ctaTitle": "Siap Mempercepat Pertumbuhan SaaS?",
+        "ctaSubtitle": "Bergabunglah dengan perusahaan SaaS yang sudah menggunakan SeaChat untuk mendorong adopsi pengguna, mengurangi churn, dan mempercepat keberhasilan pelanggan.",
+        "ctaTrialButton": "Mulai SaaS Gratis",
+        "ctaDemoButton": "Jadwalkan Demo SaaS",
+        "integrations": {
+          "0": "Integrasi Slack",
+          "1": "Salesforce CRM",
+          "2": "HubSpot",
+          "3": "Zendesk",
+          "4": "Intercom",
+          "5": "Stripe",
+          "6": "Google Analytics",
+          "7": "Microsoft Teams",
+          "8": "Jira",
+          "9": "GitHub",
+          "10": "Atlassian Suite",
+          "11": "Layanan AWS"
+        }
+      },
+      "smallBusiness": {
+        "title": "Solusi Bisnis Kecil",
+        "subtitle": "Dukungan pelanggan yang terjangkau dan mudah digunakan untuk bisnis kecil. Mulai gratis dan berkembang dengan fitur-fitur yang membantu Anda melayani pelanggan dengan lebih baik tanpa menguras kantong.",
+        "startButton": "Mulai Gratis Hari Ini",
+        "demoButton": "Lihat Demo Bisnis Kecil",
+        "featuresTitle": "Dibangun untuk Keberhasilan Bisnis Kecil",
+        "featuresSubtitle": "Semua yang dibutuhkan bisnis kecil untuk memberikan dukungan pelanggan profesional tanpa kerumitan atau biaya.",
+        "features": {
+          "local": {
+            "title": "Dukungan Bisnis Lokal",
+            "description": "Sempurna untuk toko lokal, restoran, dan penyedia layanan",
+            "benefits": {
+              "seo": "Optimalisasi SEO lokal",
+              "google": "Integrasi Google My Business",
+              "reviews": "Manajemen ulasan",
+              "customer": "Basis pelanggan lokal"
+            }
+          },
+          "cost": {
+            "title": "Solusi Hemat Biaya",
+            "description": "Harga terjangkau yang tumbuh bersama bisnis Anda",
+            "benefits": {
+              "free": "Paket gratis tersedia",
+              "setup": "Tanpa biaya pengaturan",
+              "pricing": "Harga fleksibel",
+              "roi": "Pelacakan ROI"
+            }
+          },
+          "setup": {
+            "title": "Pengaturan Cepat",
+            "description": "Mulai dalam hitungan menit, bukan jam atau hari",
+            "benefits": {
+              "minutes": "Pengaturan 5 menit",
+              "templates": "Template siap pakai",
+              "integration": "Integrasi mudah",
+              "activation": "Aktivasi instan"
+            }
+          },
+          "personal": {
+            "title": "Sentuhan Pribadi",
+            "description": "Pertahankan hubungan pribadi sambil menskalakan secara efisien",
+            "benefits": {
+              "history": "Riwayat pelanggan",
+              "notes": "Catatan pribadi",
+              "relationship": "Pembangunan hubungan",
+              "community": "Fokus komunitas lokal"
+            }
+          }
+        },
+        "typesTitle": "Sempurna untuk Setiap Bisnis Kecil",
+        "typesSubtitle": "Dari toko ritel hingga layanan profesional, kami mendukung semua jenis bisnis kecil.",
+        "types": {
+          "retail": {
+            "title": "Toko Ritel",
+            "description": "Pakaian, elektronik, barang rumah tangga, dan toko khusus",
+            "features": {
+              "product": "Pertanyaan produk",
+              "hours": "Jam buka toko",
+              "inventory": "Pemeriksaan inventaris",
+              "appointment": "Pemesanan janji temu"
+            }
+          },
+          "restaurants": {
+            "title": "Restoran & Kafe",
+            "description": "Tempat makan dan bisnis layanan makanan",
+            "features": {
+              "menu": "Pertanyaan menu",
+              "reservations": "Reservasi",
+              "takeout": "Pesanan bawa pulang",
+              "dietary": "Informasi diet"
+            }
+          },
+          "professional": {
+            "title": "Layanan Profesional",
+            "description": "Pengacara, akuntan, konsultan, dan agensi",
+            "features": {
+              "consultation": "Pemesanan konsultasi",
+              "service": "Informasi layanan",
+              "documents": "Permintaan dokumen",
+              "followup": "Penjadwalan tindak lanjut"
+            }
+          },
+          "health": {
+            "title": "Kesehatan & Kesejahteraan",
+            "description": "Pusat kebugaran, spa, klinik, dan pusat kesehatan",
+            "features": {
+              "appointment": "Penjadwalan janji temu",
+              "class": "Pemesanan kelas",
+              "membership": "Info keanggotaan",
+              "consultations": "Konsultasi kesehatan"
+            }
+          },
+          "home": {
+            "title": "Layanan Rumah",
+            "description": "Kontraktor, pembersih, tukang kebun, dan layanan perbaikan",
+            "features": {
+              "quotes": "Penawaran layanan",
+              "scheduling": "Penjadwalan",
+              "emergency": "Permintaan darurat",
+              "followup": "Dukungan tindak lanjut"
+            }
+          },
+          "creative": {
+            "title": "Layanan Kreatif",
+            "description": "Fotografer, desainer, seniman, dan studio",
+            "features": {
+              "portfolio": "Berbagi portofolio",
+              "quotes": "Penawaran proyek",
+              "booking": "Pemesanan sesi",
+              "consultations": "Konsultasi kreatif"
+            }
+          }
+        },
+        "affordableTitle": "Terjangkau untuk Setiap Anggaran",
+        "affordableSubtitle": "Mulai mulai sepenuhnya gratis dan hanya bayar untuk apa yang Anda butuhkan saat Anda berkembang. Tanpa biaya tersembunyi, tanpa kontrak jangka panjang, tanpa kejutan.",
+        "pricingTitle": "Harga Sederhana",
+        "pricing": {
+          "free": {
+            "title": "Gratis Selamanya",
+            "period": "per bulan",
+            "agent": "1 Agen manusia seumur hidup",
+            "conversations": "Percakapan tanpa batas",
+            "widget": "Widget situs web dasar",
+            "support": "Dukungan email"
+          },
+          "starter": {
+            "title": "AI Starter",
+            "period": "per bulan",
+            "everything": "Semua yang ada di Gratis",
+            "ai": "Otomatisasi AI",
+            "analytics": "Analitik tingkat lanjut",
+            "priority": "Dukungan prioritas"
+          }
+        },
+        "resultsTitle": "Hasil Bisnis Kecil",
+        "resultsSubtitle": "Hasil nyata dari bisnis kecil yang menggunakan SeaChat untuk meningkatkan layanan pelanggan dan mengembangkan bisnis mereka.",
+        "metrics": {
+          "inquiries": {
+            "label": "Pertanyaan Pelanggan Lebih Banyak",
+            "description": "Dengan ketersediaan 24/7"
+          },
+          "bookings": {
+            "label": "Peningkatan Pemesanan",
+            "description": "Melalui penjadwalan otomatis"
+          },
+          "time": {
+            "label": "Penghematan Waktu",
+            "description": "Pada pertanyaan pelanggan rutin"
+          },
+          "satisfaction": {
+            "label": "Kepuasan Pelanggan",
+            "description": "Dengan respons instan"
+          }
+        },
+        "scenariosTitle": "Skenario Bisnis Kecil Umum",
+        "scenariosSubtitle": "Lihat bagaimana SeaChat menangani interaksi pelanggan bisnis kecil yang khas.",
+        "useCases": {
+          "inquiries": {
+            "title": "Pertanyaan Pelanggan",
+            "description": "Tangani pertanyaan umum tentang produk, layanan, dan jam kerja",
+            "example": "Apakah Anda buka pada hari Minggu? Jam berapa Anda tutup?",
+            "outcome": "Respons instan dengan jam buka saat ini dan informasi jadwal liburan"
+          },
+          "booking": {
+            "title": "Pemesanan Janji Temu",
+            "description": "Izinkan pelanggan untuk memesan janji temu dan layanan secara langsung",
+            "example": "Saya perlu menjadwalkan potong rambut untuk Jumat sore ini",
+            "outcome": "Pemeriksaan ketersediaan real-time dengan konfirmasi pemesanan dan pengingat"
+          },
+          "product": {
+            "title": "Informasi Produk",
+            "description": "Berikan informasi produk terperinci dan ketersediaan",
+            "example": "Apakah Anda memiliki iPhone 15 warna biru?",
+            "outcome": "Pemeriksaan ketersediaan produk dengan harga dan opsi reservasi"
+          },
+          "directions": {
+            "title": "Petunjuk Arah Lokal",
+            "description": "Bantu pelanggan menemukan lokasi Anda dan mendapatkan petunjuk arah",
+            "example": "Bagaimana cara menuju toko Anda dari pusat kota?",
+            "outcome": "Peta interaktif dengan petunjuk arah dan informasi parkir"
+          }
+        },
+        "customerQuestion": "Pertanyaan Pelanggan",
+        "seachatResponse": "Respons SeaChat",
+        "ctaTitle": "Siap Mengembangkan Bisnis Kecil Anda?",
+        "ctaSubtitle": "Bergabunglah dengan ribuan bisnis kecil yang sudah menggunakan SeaChat untuk memberikan dukungan pelanggan profesional dan mengembangkan bisnis mereka tanpa biaya bisnis besar.",
+        "ctaStartButton": "Mulai Bisnis Kecil Gratis",
+        "ctaDemoButton": "Jadwalkan Demo Bisnis Kecil",
+        "affordableFeatures": [
+          "Mulai sepenuhnya gratis selamanya",
+          "Tanpa biaya pengaturan atau orientasi",
+          "Hanya bayar untuk fitur yang Anda gunakan",
+          "Batalkan kapan saja, tanpa kontrak",
+          "Skalakan harga dengan pertumbuhan Anda",
+          "Bantuan migrasi gratis",
+          "Dukungan email 24/7 disertakan",
+          "Jaminan uang kembali 30 hari"
+        ]
+      },
+      "travel": {
+        "bookingFlowTitle": "Alur Pemesanan Perjalanan",
+        "ctaDemoButton": "Jadwalkan Demo Perjalanan",
+        "ctaSubtitle": "Bergabunglah dengan perusahaan perjalanan yang sudah menggunakan SeaChat untuk memberikan layanan pelanggan yang luar biasa dan menyederhanakan proses pemesanan di seluruh dunia.",
+        "ctaTitle": "Siap Mengubah Pengalaman Perjalanan?",
+        "ctaTrialButton": "Mulai Perjalanan Gratis",
+        "demoButton": "Jadwalkan Demo Perjalanan",
+        "features": {
+          "booking": {
+            "benefits": {
+              "availability": "Ketersediaan real-time",
+              "cancellation": "Dukungan pembatalan",
+              "comparisons": "Perbandingan harga",
+              "modifications": "Modifikasi pemesanan"
+            },
+            "description": "Bantu pelanggan dengan pemesanan penerbangan, hotel, dan aktivitas dengan ketersediaan real-time",
+            "title": "Bantuan Pemesanan"
+          },
+          "management": {
+            "benefits": {
+              "documents": "Manajemen dokumen",
+              "loyalty": "Program loyalitas",
+              "reminders": "Notifikasi pengingat",
+              "tracking": "Pelacakan perjalanan"
+            },
+            "description": "Manajemen perjalanan komprehensif dari pemesanan hingga tindak lanjut pasca-perjalanan",
+            "title": "Manajemen Perjalanan"
+          },
+          "planning": {
+            "benefits": {
+              "insights": "Wawasan tujuan",
+              "itinerary": "Pembuatan rencana perjalanan",
+              "recommendations": "Rekomendasi lokal",
+              "weather": "Pembaruan cuaca"
+            },
+            "description": "Berikan rekomendasi perjalanan yang dipersonalisasi dan perencanaan rencana perjalanan",
+            "title": "Perencanaan Perjalanan"
+          },
+          "support": {
+            "benefits": {
+              "emergency": "Bantuan darurat",
+              "multilanguage": "Bantuan multi-bahasa",
+              "timezone": "Dukungan zona waktu global",
+              "updates": "Pembaruan real-time"
+            },
+            "description": "Bantuan sepanjang waktu untuk pelancong di berbagai zona waktu",
+            "title": "Dukungan Perjalanan 24/7"
+          }
+        },
+        "featuresSubtitle": "Fitur yang dibangun khusus untuk bisnis perjalanan dan perhotelan untuk meningkatkan pengalaman pelanggan.",
+        "featuresTitle": "Fitur Industri Perjalanan",
+        "flow": {
+          "assistance": {
+            "description": "Pemesanan terpandu dengan pemrosesan pembayaran",
+            "title": "Bantuan Pemesanan"
+          },
+          "confirmation": {
+            "description": "Konfirmasi pemesanan dengan dukungan berkelanjutan",
+            "title": "Konfirmasi & Dukungan"
+          },
+          "inquiry": {
+            "description": "Pelanggan bertanya tentang opsi perjalanan",
+            "title": "Pertanyaan Perjalanan"
+          },
+          "search": {
+            "description": "AI mencari di berbagai sistem",
+            "title": "Pencarian Real-time"
+          }
+        },
+        "impactSubtitle": "Hasil nyata dari perusahaan perjalanan yang menggunakan SeaChat untuk dukungan pelanggan dan bantuan pemesanan.",
+        "impactTitle": "Dampak Industri Perjalanan",
+        "integrationsSubtitle": "Terhubung dengan mulus dengan sistem pemesanan perjalanan, platform GDS, dan alat manajemen perhotelan untuk operasi terpadu.",
+        "integrationsTitle": "Integrasi Industri Perjalanan",
+        "metrics": {
+          "booking": {
+            "description": "Dengan pencarian dan pemesanan yang dibantu AI",
+            "label": "Proses Pemesanan Lebih Cepat",
+            "value": "60%"
+          },
+          "call": {
+            "description": "Melalui bantuan perjalanan otomatis",
+            "label": "Volume Panggilan Berkurang",
+            "value": "40%"
+          },
+          "resolution": {
+            "description": "Untuk pertanyaan terkait perjalanan",
+            "label": "Tingkat Resolusi Masalah",
+            "value": "95%"
+          },
+          "satisfaction": {
+            "description": "Dengan ketersediaan dukungan perjalanan 24/7",
+            "label": "Kepuasan Pelanggan",
+            "value": "85%"
+          }
+        },
+        "seachatResponse": "Respons SeaChat",
+        "services": {
+          "agencies": {
+            "description": "Layanan perencanaan dan pemesanan perjalanan komprehensif",
+            "features": {
+              "deals": "Penawaran paket",
+              "groups": "Pemesanan grup",
+              "insurance": "Asuransi perjalanan",
+              "itineraries": "Rencana perjalanan kustom"
+            },
+            "title": "Agen Perjalanan"
+          },
+          "airlines": {
+            "description": "Pemesanan penerbangan, check-in, dan pembaruan perjalanan",
+            "features": {
+              "baggage": "Pelacakan bagasi",
+              "loyalty": "Program loyalitas",
+              "seat": "Pemilihan kursi",
+              "status": "Status penerbangan"
+            },
+            "title": "Maskapai Penerbangan"
+          },
+          "car": {
+            "description": "Bantuan dan dukungan penyewaan kendaraan",
+            "features": {
+              "availability": "Ketersediaan mobil",
+              "insurance": "Opsi asuransi",
+              "locations": "Lokasi penjemputan",
+              "roadside": "Bantuan pinggir jalan"
+            },
+            "title": "Penyewaan Mobil"
+          },
+          "cruise": {
+            "description": "Pemesanan kapal pesiar dan layanan di kapal",
+            "features": {
+              "cabin": "Pemilihan kabin",
+              "dining": "Reservasi makan",
+              "entertainment": "Pemesanan hiburan",
+              "shore": "Wisata pantai"
+            },
+            "title": "Jalur Pelayaran"
+          },
+          "hotels": {
+            "description": "Reservasi hotel dan layanan tamu",
+            "features": {
+              "amenity": "Informasi fasilitas",
+              "booking": "Pemesanan kamar",
+              "loyalty": "Hadiah loyalitas",
+              "requests": "Permintaan khusus"
+            },
+            "title": "Hotel & Akomodasi"
+          },
+          "tour": {
+            "description": "Tur terpandu dan pemesanan aktivitas",
+            "features": {
+              "availability": "Ketersediaan tur",
+              "equipment": "Penyewaan peralatan",
+              "guides": "Pemandu lokal",
+              "sizes": "Ukuran grup"
+            },
+            "title": "Operator Tur"
+          }
+        },
+        "servicesSubtitle": "Dari maskapai penerbangan hingga hotel, penyewaan mobil hingga jalur pelayaran - kami mencakup setiap aspek perjalanan.",
+        "servicesTitle": "Semua Layanan Perjalanan Tercakup",
+        "subtitle": "Ubah pengalaman perjalanan dengan dukungan pelanggan bertenaga AI yang menangani pemesanan, memberikan bantuan 24/7, dan menciptakan perjalanan yang tak terlupakan bagi pelanggan Anda.",
+        "title": "Perjalanan & Perhotelan",
+        "travelerRequest": "Permintaan Pelancong",
+        "trialButton": "Mulai Perjalanan Gratis",
+        "useCases": {
+          "destination": {
+            "description": "Berikan saran perjalanan, wawasan lokal, dan rekomendasi tujuan",
+            "example": "Apa restoran terbaik di Paris?",
+            "outcome": "Rekomendasi restoran yang dikurasi dengan reservasi dan wawasan lokal",
+            "title": "Informasi Tujuan"
+          },
+          "disruptions": {
+            "description": "Tangani penundaan penerbangan, pembatalan, dan bantuan pemesanan ulang",
+            "example": "Penerbangan saya dibatalkan, apa pilihan saya?",
+            "outcome": "Bantuan pemesanan ulang segera dengan penerbangan alternatif dan informasi kompensasi",
+            "title": "Gangguan Perjalanan"
+          },
+          "documentation": {
+            "description": "Bantu dengan persyaratan visa, info paspor, dan dokumen perjalanan",
+            "example": "Apakah saya perlu visa untuk bepergian ke Jepang?",
+            "outcome": "Persyaratan visa komprehensif dengan proses aplikasi dan jadwal waktu",
+            "title": "Dokumentasi Perjalanan"
+          },
+          "flight": {
+            "description": "Bantu dengan reservasi penerbangan, perubahan, dan pembatalan",
+            "example": "Saya perlu mengubah penerbangan saya dari Selasa ke Kamis",
+            "outcome": "Pemeriksaan ketersediaan penerbangan real-time dengan opsi pemesanan ulang dan informasi biaya",
+            "title": "Pemesanan & Perubahan Penerbangan"
+          }
+        },
+        "useCasesSubtitle": "Lihat bagaimana SeaChat menangani pertanyaan perjalanan dan bantuan pemesanan yang khas.",
+        "useCasesTitle": "Kasus Penggunaan Dukungan Perjalanan",
+        "integrations": {
+          "0": "Sistem GDS (Amadeus, Sabre, Galileo)",
+          "1": "Sistem pemesanan maskapai penerbangan",
+          "2": "Sistem reservasi hotel",
+          "3": "Platform penyewaan mobil",
+          "4": "Penyedia asuransi perjalanan",
+          "5": "Sistem pemrosesan pembayaran"
+        }
+      }
+    },
+    "channels": {
+      "title": "Hubungkan Setiap Saluran Pelanggan",
+      "description": "Satukan semua komunikasi pelanggan Anda dalam satu platform. Dari WhatsApp hingga panggilan telepon, SMS hingga media sosial - kelola setiap percakapan dari satu dasbor.",
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "description": "Terhubung dengan pelanggan di platform perpesanan paling populer di dunia"
+      },
+      "voice": {
+        "title": "Panggilan Suara & Telepon",
+        "description": "Sistem telepon profesional dengan voicebot AI dan dukungan agen manusia"
+      },
+      "sms": {
+        "title": "Pesan SMS",
+        "description": "Jangkau pelanggan secara instan dengan kampanye SMS yang dipersonalisasi"
+      },
+      "website": {
+        "title": "Widget Obrolan Situs Web",
+        "description": "Ubah pengunjung situs web menjadi percakapan dengan obrolan bertenaga AI"
+      },
+      "cta": {
+        "exploreAll": "Jelajahi Semua Saluran",
+        "subtitle": "Lihat bagaimana semua 9 saluran bekerja sama dengan mulus"
+      }
+    },
+    "comparison": {
+      "title": "Mengapa Bisnis yang Berkembang Memilih Seasalt.ai daripada Alternatif Lain",
+      "description": "Lihat bagaimana kami dibandingkan dengan solusi lain. Kami adalah satu-satunya platform yang memberikan fitur perusahaan dengan kesederhanaan bisnis kecil.",
+      "recommended": "Direkomendasikan",
+      "table": {
+        "headers": {
+          "platform": "Platform",
+          "startingPrice": "Harga Mulai",
+          "pricingModel": "Model Harga",
+          "unifiedVoiceDigital": "Suara & Digital Terpadu",
+          "aiCapabilities": "Kemampuan AI",
+          "bestFor": "Terbaik Untuk"
+        }
+      },
+      "competitors": {
+        "seasalt": {
+          "startingPrice": "$20/agen/bulan",
+          "pricingModel": "Per-Pengguna Sederhana",
+          "unifiedVoiceDigital": "✅ Ya, Asli",
+          "aiCapabilities": "✅ Ya, Voice & Chatbot Asli",
+          "bestFor": "UKM yang membutuhkan platform all-in-one yang terjangkau dan benar-benar."
+        },
+        "aircall": {
+          "startingPrice": "$30/pengguna/bulan",
+          "pricingModel": "Per-Pengguna + Add-on",
+          "unifiedVoiceDigital": "⚠️ Suara + WhatsApp (Add-on)",
+          "aiCapabilities": "⚠️ AI adalah add-on berbayar",
+          "bestFor": "Tim penjualan yang mampu membeli beberapa add-on dan memenuhi minimum 3 pengguna."
+        },
+        "ringcentral": {
+          "startingPrice": "$65/agen/bulan",
+          "pricingModel": "Tingkat Kompleks",
+          "unifiedVoiceDigital": "❌ Produk Terpisah",
+          "aiCapabilities": "✅ Ya (CCaaS bertenaga AI)",
+          "bestFor": "Perusahaan besar yang membutuhkan platform UCaaS yang luas dengan CCaaS terpisah."
+        },
+        "genesys": {
+          "startingPrice": "$75/pengguna/bulan",
+          "pricingModel": "Per-Pengguna + Minimum Tinggi",
+          "unifiedVoiceDigital": "✅ Ya (di tingkat yang lebih tinggi)",
+          "aiCapabilities": "✅ Ya (Sistem token kompleks)",
+          "bestFor": "Perusahaan besar dengan tim pusat kontak dan anggaran khusus."
+        },
+        "five9": {
+          "startingPrice": "$119/pengguna/bulan",
+          "pricingModel": "Per-Pengguna + Bundel",
+          "unifiedVoiceDigital": "✅ Ya (di tingkat premium)",
+          "aiCapabilities": "✅ Ya (AI Tingkat Lanjut)",
+          "bestFor": "Pusat kontak besar yang banyak keluar yang membutuhkan alat tingkat perusahaan."
+        },
+        "googleVoice": {
+          "startingPrice": "$10/pengguna/bulan",
+          "pricingModel": "Per-Pengguna + Biaya Ruang Kerja",
+          "unifiedVoiceDigital": "❌ Tidak",
+          "aiCapabilities": "❌ Tidak (Hanya transkripsi pesan suara)",
+          "bestFor": "Solopreneur (khusus AS) yang membutuhkan nomor telepon dasar yang terpisah."
+        }
+      },
+      "cta": {
+        "seeAllComparisons": "Lihat Semua Perbandingan Terperinci"
+      }
+    },
+    "footer": {
+      "product": "Produk",
+      "company": {
+        "productWiki": "Wiki Produk",
+        "apiReferences": "Referensi API",
+        "careers": "Karir",
+        "title": "Perusahaan",
+        "about": "Tentang"
+      },
+      "resources": "Sumber Daya",
+      "legal": {
+        "privacyPolicy": "Kebijakan Privasi",
+        "termsOfService": "Ketentuan Layanan"
+      },
+      "getStarted": "Siap Memulai?",
+      "joinThousands": "Bergabunglah dengan ribuan bisnis yang sudah menggunakan SeaChat untuk memberikan pengalaman pelanggan yang luar biasa.",
+      "enterEmail": "Masukkan email Anda",
+      "noCredit": "Tidak perlu kartu kredit • Pengaturan dalam 2 menit • Batalkan kapan saja",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. Semua hak dilindungi undang-undang.",
+      "compliance": "🔒 Sesuai SOC 2",
+      "gdpr": "🛡️ Siap GDPR",
+      "uptime": "⚡ 99.9% Uptime",
+      "brand": {
+        "description": "Ubah dukungan pelanggan Anda dengan perpaduan sempurna antara agen manusia dan otomatisasi AI. Mulai gratis, skalakan dengan cerdas, sukses lebih cepat."
+      },
+      "contact": {
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "Seattle, WA"
+      },
+      "stats": {
+        "messagesDaily": "5 Juta+ Pesan Harian",
+        "activeUsers": "100 Ribu+ Pengguna Aktif",
+        "uptime": "99.9% Uptime"
+      },
+      "cta": {
+        "title": "Siap Mengubah Dukungan Pelanggan Anda?",
+        "description": "Bergabunglah dengan ribuan bisnis yang menggunakan SeaChat untuk memberikan pengalaman pelanggan yang luar biasa dengan dukungan obrolan bertenaga AI.",
+        "signUpFree": "Daftar Gratis",
+        "scheduleDemo": "Jadwalkan Demo",
+        "disclaimer": "Tidak perlu kartu kredit • Pengaturan dalam 2 menit • Batalkan kapan saja"
+      }
+    },
+    "featureComparison": {
+      "title": "Mengapa Memilih SeaChat daripada Pesaing?",
+      "subtitle": "Lihat bagaimana SeaChat menggantikan banyak alat dengan satu platform komprehensif. Hemat uang sambil mendapatkan lebih banyak fitur.",
+      "valueTitle": "Nilai yang Anda Dapatkan:",
+      "totalValue": "$331 atau lebih/bulan",
+      "competitorTotal": "Total nilai dari pesaing",
+      "priceTitle": "Harga yang Anda Bayar:",
+      "seachatPrice": "$29.99 /bulan",
+      "seachatAll": "Semua fitur termasuk",
+      "seeDetailedPricing": "Lihat Harga Terperinci",
+      "ctaTitle": "Siap Merasakan Keunggulan SeaChat?",
+      "ctaSubtitle": "Bergabunglah dengan ribuan bisnis yang memilih solusi yang lebih cerdas dan lebih terjangkau.",
+      "startFree": "Mulai Gratis Sekarang",
+      "bookDemo": "Pesan Demo",
+      "features": {
+        "chatbotWebsite": "Chatbot untuk situs web",
+        "chatWidget": "Widget obrolan dengan agen langsung",
+        "whatsappMessenger": "WhatsApp/Messenger/Instagram",
+        "multiCalendar": "Pemesanan Multi Kalender",
+        "phoneCallAI": "Agen AI panggilan telepon masuk",
+        "smsActions": "Tindakan bawaan - SMS",
+        "emailActions": "Tindakan bawaan - Email",
+        "phoneNumber": "Beli nomor telepon",
+        "agencyMode": "Mode Agensi",
+        "bulkSMS": "SMS massal keluar, Panggilan, WhatsApp",
+        "unlimitedContacts": "Kontak Tanpa Batas",
+        "knowledgeBase": "Basis pengetahuan ekstra",
+        "extraChatbot": "Chatbot ekstra"
+      },
+      "table": {
+        "headers": {
+          "features": "Fitur",
+          "replaces": "Menggantikan",
+          "otherTools": "Alat Lain",
+          "seachat": "SeaChat"
+        },
+        "total": "Total",
+        "totalPrice": "$331 atau lebih per bulan",
+        "seachatPrice": "$29.99 per bulan",
+        "explanations": {
+          "valueYouGet": "↑ Nilai yang Anda Dapatkan",
+          "priceYouWouldPay": "↑ Harga yang Akan Anda Bayar",
+          "priceYouPay": "↑ Harga yang Anda Bayar"
+        }
+      },
+      "mobile": {
+        "replaces": "Menggantikan:",
+        "otherTools": "Alat Lain:",
+        "seachat": "SeaChat:",
+        "otherToolsTotal": "Total Alat Lain:",
+        "seachatTotal": "Total SeaChat:",
+        "totalPrice": "$331+ per bulan",
+        "seachatTotalPrice": "$29.99 per bulan",
+        "priceYouWouldPay": "↑ Harga yang Akan Anda Bayar",
+        "priceYouPay": "↑ Harga yang Anda Bayar"
+      },
+      "uniqueToSeachat": "UNIK",
+      "pricing": {
+        "chatbotWebsite": "$99 per bulan",
+        "chatWidget": "$23 per agen per bulan",
+        "whatsappMessenger": "$89 per pengguna per bulan",
+        "multiCalendar": "$10 per kursi per bulan",
+        "phoneCallAI": "$29 per bulan",
+        "smsActions": "$59 per bulan",
+        "emailActions": "$20 per bulan",
+        "phoneNumber": "$2 hingga $3 per bulan",
+        "unlimitedContacts": "$65 per 10 ribu kontak",
+        "knowledgeBase": "$8 per basis pengetahuan ekstra",
+        "extraChatbot": "$7 per chatbot ekstra"
+      },
+      "seachatValues": {
+        "agencyMode": "Beberapa ruang kerja - satu ruang kerja per klien",
+        "bulkSMS": "Integrasi dengan SeaX dari Seasalt.ai",
+        "unlimitedContacts": "Tidak terbatas",
+        "knowledgeBase": "5.000 dokumen atau 50 juta token",
+        "extraChatbot": "10 bot × 5 saluran = 50 bot saluran"
+      },
+      "replaces": {
+        "uniqueToSeachat": "UNIK untuk SeaChat"
+      }
+    }
+  }
+}

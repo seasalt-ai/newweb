@@ -1,0 +1,1884 @@
+{
+  "seavoice": {
+    "pages": {
+      "solutions": {
+        "inbound": {
+          "ivrReplacement": {
+            "hero": {
+              "title": "Substituição de IVR com Linguagem Natural",
+              "subtitle": "Elimine árvores telefônicas frustrantes e navegação por menu. Deixe os clientes falarem naturalmente para descrever suas necessidades e serem conectados ao lugar certo instantaneamente.",
+              "cta": "Substitua seu IVR hoje"
+            },
+            "features": {
+              "title": "Recursos Modernos de Interface de Voz",
+              "subtitle": "Transforme sistemas telefônicos desatualizados com conversas inteligentes",
+              "naturalLanguage": {
+                "title": "Compreensão de Linguagem Natural",
+                "description": "Substitua opções de menu confusas por conversas naturais que entendem o que os clientes realmente querem.",
+                "benefit1": "Interface conversacional",
+                "benefit2": "Reconhecimento de intenção",
+                "benefit3": "Consciência de contexto"
+              },
+              "instantResolution": {
+                "title": "Resolução Instantânea",
+                "description": "Resolva as dúvidas dos clientes imediatamente, sem navegar por vários níveis de menu.",
+                "benefit1": "Tempo de espera zero",
+                "benefit2": "Respostas diretas",
+                "benefit3": "Assistência imediata"
+              },
+              "improvedExperience": {
+                "title": "Experiência Aprimorada",
+                "description": "Transforme árvores telefônicas frustrantes em interações agradáveis e eficientes com o cliente.",
+                "benefit1": "Maior satisfação",
+                "benefit2": "Abandono reduzido",
+                "benefit3": "Melhor acessibilidade"
+              }
+            },
+            "comparison": {
+              "title": "IVR Tradicional vs. Linguagem Natural",
+              "subtitle": "Veja a diferença dramática na experiência do cliente",
+              "customerExperience": {
+                "aspect": "Experiência do Cliente",
+                "traditional": "Pressione 1 para vendas, 2 para suporte...",
+                "modern": "\"Preciso de ajuda com meu pedido\" - Conectado instantaneamente",
+                "improvement": "Aumento de 85% na satisfação"
+              },
+              "timeToResolution": {
+                "aspect": "Tempo para Resolução",
+                "traditional": "3-5 minutos navegando em menus",
+                "modern": "30 segundos para chegar ao departamento certo",
+                "improvement": "Redução de 80% no tempo"
+              },
+              "callAbandonment": {
+                "aspect": "Abandono de Chamada",
+                "traditional": "25% abandonam durante a navegação no menu",
+                "modern": "5% de taxa de abandono",
+                "improvement": "Redução de 80%"
+              },
+              "accessibility": {
+                "aspect": "Acessibilidade",
+                "traditional": "Difícil para usuários idosos/deficientes",
+                "modern": "Fala natural para todos os usuários",
+                "improvement": "100% de acessibilidade"
+              },
+              "traditionalIvr": "IVR Tradicional",
+              "naturalLanguage": "Linguagem Natural"
+            },
+            "benefits": {
+              "title": "Melhorias Mensuráveis",
+              "subtitle": "Resultados reais da substituição de sistemas IVR tradicionais",
+              "satisfaction": {
+                "metric": "85%",
+                "description": "Aumento na satisfação do cliente"
+              },
+              "abandonment": {
+                "metric": "80%",
+                "description": "Redução no abandono de chamadas"
+              },
+              "resolution": {
+                "metric": "70%",
+                "description": "Resolução de chamadas mais rápida"
+              },
+              "misdirected": {
+                "metric": "90%",
+                "description": "Redução de chamadas mal direcionadas"
+              }
+            },
+            "cta": {
+              "title": "Pronto para Modernizar seu Sistema Telefônico?",
+              "subtitle": "Substitua árvores telefônicas frustrantes por conversas naturais que os clientes adoram",
+              "startTrial": "Iniciar Teste Gratuito",
+              "seeDemo": "Ver Demonstração"
+            },
+            "title": "Substituição de IVR",
+            "description": "Substitua menus telefônicos desatualizados por compreensão de linguagem natural.",
+            "benefit1": "Conversas naturais",
+            "benefit2": "Melhor UX",
+            "benefit3": "Maior satisfação"
+          },
+          "technicalSupport": {
+            "hero": {
+              "title": "Automação de Suporte Técnico",
+              "description": "Forneça suporte técnico instantâneo com IA que pode diagnosticar problemas, guiar os clientes por soluções e escalar problemas complexos para especialistas humanos quando necessário.",
+              "primaryCta": "Automatizar Suporte Técnico"
+            },
+            "features": {
+              "title": "Suporte Técnico Inteligente",
+              "description": "IA avançada que entende problemas técnicos e fornece soluções",
+              "automatedTroubleshooting": {
+                "title": "Solução de Problemas Automatizada",
+                "description": "Guie os clientes por soluções passo a passo para problemas técnicos comuns.",
+                "benefits": {
+                  "0": "Resolução de autoatendimento",
+                  "1": "Diagnóstico instantâneo",
+                  "2": "Orientação interativa"
+                }
+              },
+              "intelligentEscalation": {
+                "title": "Escalonamento Inteligente",
+                "description": "Escalone automaticamente problemas complexos para técnicos humanos com contexto completo.",
+                "benefits": {
+                  "0": "Roteamento inteligente",
+                  "1": "Preservação de contexto",
+                  "2": "Transferência perfeita"
+                }
+              },
+              "multiPlatformSupport": {
+                "title": "Suporte Multiplataforma",
+                "description": "Forneça assistência técnica em diferentes dispositivos, softwares e plataformas.",
+                "benefits": {
+                  "0": "Compatibilidade universal",
+                  "1": "Experiência multiplataforma",
+                  "2": "Cobertura abrangente"
+                }
+              }
+            },
+            "capabilities": {
+              "title": "Cobertura Abrangente de Suporte",
+              "description": "Lide com uma ampla gama de problemas técnicos em todas as plataformas",
+              "hardwareIssues": {
+                "category": "Problemas de Hardware",
+                "description": "Diagnostique e resolva problemas relacionados a hardware",
+                "examples": {
+                  "0": "Conectividade do dispositivo",
+                  "1": "Problemas de desempenho",
+                  "2": "Configuração de hardware"
+                }
+              },
+              "softwareTroubleshooting": {
+                "category": "Solução de Problemas de Software",
+                "description": "Ajuda com instalação e configuração de software",
+                "examples": {
+                  "0": "Instalação de aplicativos",
+                  "1": "Configuração de configurações",
+                  "2": "Assistência de atualização"
+                }
+              },
+              "networkProblems": {
+                "category": "Problemas de Rede",
+                "description": "Resolva problemas de conectividade de internet e rede",
+                "examples": {
+                  "0": "Configuração de WiFi",
+                  "1": "Problemas de conexão",
+                  "2": "Otimização de velocidade"
+                }
+              },
+              "accountSecurity": {
+                "category": "Conta e Segurança",
+                "description": "Auxilie com acesso à conta e preocupações de segurança",
+                "examples": {
+                  "0": "Redefinição de senha",
+                  "1": "Recuperação de conta",
+                  "2": "Configurações de segurança"
+                }
+              }
+            },
+            "process": {
+              "title": "Processo de Solução de Problemas de IA",
+              "description": "Abordagem sistemática para diagnosticar e resolver problemas técnicos",
+              "steps": {
+                "issueIdentification": {
+                  "title": "Identificação de Problemas",
+                  "description": "A IA ouve a descrição do problema e faz perguntas esclarecedoras"
+                },
+                "diagnosticAnalysis": {
+                  "title": "Análise Diagnóstica",
+                  "description": "O sistema analisa os sintomas e identifica as causas potenciais"
+                },
+                "solutionGuidance": {
+                  "title": "Orientação de Solução",
+                  "description": "Fornece instruções passo a passo para resolver o problema"
+                },
+                "verificationFollowup": {
+                  "title": "Verificação e Acompanhamento",
+                  "description": "Confirma a resolução e oferece assistência adicional, se necessário"
+                }
+              }
+            },
+            "benefits": {
+              "title": "Resultados de Eficiência de Suporte",
+              "description": "Melhorias mensuráveis nas operações de suporte técnico"
+            },
+            "metrics": {
+              "resolution": {
+                "description": "Problemas resolvidos sem agente humano"
+              },
+              "reductionTime": {
+                "description": "Redução no tempo médio de resolução"
+              },
+              "satisfaction": {
+                "description": "Satisfação do cliente com suporte de IA"
+              },
+              "availability": {
+                "description": "Disponibilidade de suporte técnico"
+              }
+            },
+            "cta": {
+              "title": "Pronto para Automatizar o Suporte Técnico?",
+              "description": "Forneça assistência técnica instantânea e inteligente que resolve problemas mais rapidamente",
+              "primaryButton": "Iniciar Teste Gratuito",
+              "secondaryButton": "Ver Demonstração"
+            },
+            "title": "Suporte Técnico",
+            "description": "Automatize a solução de problemas e guie os usuários por problemas técnicos.",
+            "benefit1": "Soluções de autoatendimento",
+            "benefit2": "Resolução mais rápida",
+            "benefit3": "Economia de custos"
+          },
+          "orderTracking": {
+            "hero": {
+              "title": "Status e Rastreamento de Pedidos",
+              "subtitle": "Permita que os clientes verifiquem instantaneamente o status de seus pedidos, rastreiem remessas e obtenham atualizações de entrega por meio de conversas de voz naturais. Reduza as chamadas de suporte enquanto melhora a satisfação do cliente.",
+              "cta": "Habilitar Rastreamento de Pedidos"
+            },
+            "features": {
+              "title": "Rastreamento Abrangente de Pedidos",
+              "subtitle": "Visibilidade completa do status do pedido e progresso da entrega",
+              "realTimeStatus": {
+                "title": "Status do Pedido em Tempo Real",
+                "description": "Forneça instantaneamente aos clientes informações atualizadas sobre seus pedidos e remessas.",
+                "benefits": {
+                  "liveTracking": "Atualizações de rastreamento ao vivo",
+                  "deliveryEstimates": "Estimativas de entrega",
+                  "statusNotifications": "Notificações de status"
+                }
+              },
+              "locationTracking": {
+                "title": "Rastreamento de Localização",
+                "description": "Compartilhe informações precisas de localização e progresso de entrega com os clientes.",
+                "benefits": {
+                  "gpsTracking": "Rastreamento GPS",
+                  "routeOptimization": "Otimização de rota",
+                  "deliveryMapping": "Mapeamento de entrega"
+                }
+              },
+              "proactiveUpdates": {
+                "title": "Atualizações Proativas",
+                "description": "Notifique automaticamente os clientes sobre atrasos, alterações ou confirmações de entrega.",
+                "benefits": {
+                  "delayNotifications": "Notificações de atraso",
+                  "scheduleChanges": "Alterações de agendamento",
+                  "deliveryConfirmations": "Confirmações de entrega"
+                }
+              }
+            },
+            "tracking": {
+              "title": "Jornada Completa de Entrega",
+              "subtitle": "Rastreie cada etapa, desde a colocação do pedido até a entrega final",
+              "stages": {
+                "orderPlaced": {
+                  "title": "Pedido Realizado",
+                  "description": "Confirmação do recebimento do pedido e início do processamento",
+                  "info": {
+                    "orderNumber": "Número do pedido",
+                    "itemsOrdered": "Itens pedidos",
+                    "processingTimeline": "Cronograma de processamento"
+                  }
+                },
+                "inTransit": {
+                  "title": "Em Trânsito",
+                  "description": "Pacote está a caminho do destino",
+                  "info": {
+                    "currentLocation": "Localização atual",
+                    "expectedDelivery": "Entrega prevista",
+                    "carrierInformation": "Informações da transportadora"
+                  }
+                },
+                "outForDelivery": {
+                  "title": "Saiu para Entrega",
+                  "description": "Pacote está com o entregador para entrega final",
+                  "info": {
+                    "deliveryWindow": "Janela de entrega",
+                    "driverContact": "Contato do entregador",
+                    "specialInstructions": "Instruções especiais"
+                  }
+                },
+                "delivered": {
+                  "title": "Entregue",
+                  "description": "Pacote foi entregue com sucesso",
+                  "info": {
+                    "deliveryTime": "Hora da entrega",
+                    "deliveryLocation": "Local de entrega",
+                    "signatureConfirmation": "Confirmação de assinatura"
+                  }
+                }
+              }
+            },
+            "integration": {
+              "title": "Integração Universal com Transportadoras",
+              "description": "Conecte-se com todas as principais transportadoras e provedores de logística para fornecer informações abrangentes de rastreamento, independentemente de como os pacotes são enviados.",
+              "multiCarrier": {
+                "title": "Suporte a Várias Transportadoras",
+                "description": "Rastreie pacotes em todas as principais transportadoras"
+              },
+              "realTimeUpdates": {
+                "title": "Atualizações em Tempo Real",
+                "description": "Dados de rastreamento ao vivo das APIs das transportadoras"
+              },
+              "deliveryAnalytics": {
+                "title": "Análise de Entrega",
+                "description": "Insights de desempenho e métricas de entrega"
+              },
+              "carriers": {
+                "title": "Transportadoras Suportadas",
+                "fedex": "API FedEx",
+                "ups": "Rastreamento UPS",
+                "usps": "Integração USPS",
+                "dhl": "Serviços DHL",
+                "amazon": "Logística Amazon",
+                "custom": "Transportadoras Personalizadas"
+              }
+            },
+            "impact": {
+              "title": "Impacto no Atendimento ao Cliente",
+              "subtitle": "Melhorias mensuráveis na satisfação do cliente e eficiência do suporte",
+              "callReduction": {
+                "metric": "85%",
+                "description": "Redução nas chamadas \"Onde está meu pedido?\""
+              },
+              "satisfaction": {
+                "metric": "95%",
+                "description": "Satisfação do cliente com informações de rastreamento"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "Disponibilidade do status do pedido"
+              },
+              "workloadReduction": {
+                "metric": "60%",
+                "description": "Redução na carga de trabalho do atendimento ao cliente"
+              }
+            },
+            "cta": {
+              "title": "Pronto para Automatizar o Rastreamento de Pedidos?",
+              "subtitle": "Reduza as chamadas de suporte e melhore a satisfação do cliente com o status instantâneo do pedido",
+              "startTrial": "Iniciar Teste Gratuito",
+              "seeDemo": "Ver Demonstração"
+            },
+            "title": "Status e Rastreamento de Pedidos",
+            "description": "Permita que os clientes verifiquem o status do pedido e as informações de entrega instantaneamente.",
+            "benefit1": "Atualizações instantâneas",
+            "benefit2": "Chamadas reduzidas",
+            "benefit3": "Melhor experiência"
+          },
+          "paymentProcessing": {
+            "hero": {
+              "title": "Processamento Seguro de Pagamentos",
+              "description": "Habilite o processamento seguro de pagamentos compatível com PCI através de interações de voz. Permita que os clientes façam pagamentos com segurança por telefone com proteção avançada contra fraudes e processamento instantâneo de transações.",
+              "cta": "Habilitar Pagamentos Seguros"
+            },
+            "features": {
+              "title": "Recursos de Pagamento por Voz Seguro",
+              "description": "Segurança de nível empresarial encontra experiência perfeita do cliente",
+              "secure": {
+                "title": "Processamento Seguro de Pagamentos",
+                "description": "Processe pagamentos com segurança por telefone com tecnologia de voz compatível com PCI.",
+                "benefits": {
+                  "pciCompliance": "Conformidade com PCI DSS",
+                  "encryptedTransactions": "Transações criptografadas",
+                  "multiplePaymentMethods": "Vários métodos de pagamento"
+                }
+              },
+              "fraud": {
+                "title": "Proteção contra Fraudes",
+                "description": "Detecção e prevenção avançadas de fraudes para proteger empresas e clientes.",
+                "benefits": {
+                  "realtimeFraudDetection": "Detecção de fraudes em tempo real",
+                  "riskAssessment": "Avaliação de risco",
+                  "secureAuthentication": "Autenticação segura"
+                }
+              },
+              "instant": {
+                "title": "Processamento Instantâneo",
+                "description": "Processe pagamentos imediatamente com autorização e confirmação em tempo real.",
+                "benefits": {
+                  "realtimeAuthorization": "Autorização em tempo real",
+                  "instantConfirmation": "Confirmação instantânea",
+                  "immediateReceipts": "Recibos imediatos"
+                }
+              }
+            },
+            "paymentMethods": {
+              "title": "Opções Abrangentes de Pagamento",
+              "description": "Aceite todos os principais métodos de pagamento com processamento de voz seguro",
+              "creditCards": {
+                "method": "Cartões de Crédito",
+                "description": "Aceite todos os principais cartões de crédito com processamento de voz seguro",
+                "features": {
+                  "visaMastercardAmex": "Visa, Mastercard, Amex",
+                  "cvvVerification": "Verificação de CVV",
+                  "expiryValidation": "Validação de vencimento"
+                }
+              },
+              "debitCards": {
+                "method": "Cartões de Débito",
+                "description": "Processe pagamentos com cartão de débito com verificação de PIN",
+                "features": {
+                  "pinEntryVoice": "Entrada de PIN por voz",
+                  "bankVerification": "Verificação bancária",
+                  "instantDeduction": "Dedução instantânea"
+                }
+              },
+              "bankTransfers": {
+                "method": "Transferências Bancárias",
+                "description": "Transferências bancárias diretas e pagamentos ACH",
+                "features": {
+                  "accountVerification": "Verificação de conta",
+                  "routingNumberValidation": "Validação de número de roteamento",
+                  "achProcessing": "Processamento ACH"
+                }
+              },
+              "digitalWallets": {
+                "method": "Carteiras Digitais",
+                "description": "Suporte para plataformas de pagamento digital populares",
+                "features": {
+                  "applePay": "Apple Pay",
+                  "googlePay": "Google Pay",
+                  "paypalIntegration": "Integração com PayPal"
+                }
+              }
+            },
+            "security": {
+              "title": "Segurança de Nível Bancário",
+              "description": "Nosso sistema de processamento de pagamentos atende aos mais altos padrões de segurança da indústria, garantindo que cada transação seja protegida com várias camadas de criptografia e prevenção de fraudes.",
+              "features": {
+                "title": "Recursos de Segurança"
+              },
+              "encryption": {
+                "title": "Criptografia de Ponta a Ponta",
+                "description": "Todos os dados de pagamento criptografados em trânsito e em repouso"
+              },
+              "pciCompliance": {
+                "title": "Conformidade com PCI DSS",
+                "description": "Infraestrutura certificada Nível 1 PCI DSS"
+              },
+              "monitoring": {
+                "title": "Monitoramento em Tempo Real",
+                "description": "Detecção e prevenção contínuas de fraudes"
+              }
+            },
+            "securityFeatures": {
+              "endToEndEncryption": "Criptografia de ponta a ponta",
+              "pciDssCompliance": "Conformidade com PCI DSS Nível 1",
+              "tokenization": "Tokenização de dados de cartão",
+              "multiFactorAuth": "Autenticação multifator",
+              "fraudMonitoring": "Monitoramento de fraudes em tempo real",
+              "voiceRecognition": "Reconhecimento seguro de voz"
+            },
+            "benefits": {
+              "title": "Desempenho do Processamento de Pagamentos",
+              "description": "Métricas de confiabilidade e segurança líderes do setor",
+              "uptime": "Tempo de atividade do processamento de pagamentos",
+              "transactionTime": "Tempo médio de transação",
+              "compliance": "Conformidade com PCI DSS",
+              "fraudRate": "Taxa de fraude com proteção de IA"
+            },
+            "cta": {
+              "title": "Pronto para Pagamentos por Voz Seguros?",
+              "description": "Habilite o processamento de pagamentos compatível com PCI com proteção avançada contra fraudes",
+              "startProcessing": "Iniciar Processamento Seguro",
+              "securityOverview": "Visão Geral de Segurança"
+            },
+            "title": "Processamento de Pagamentos",
+            "description": "Processe pagamentos com segurança e lide com dúvidas de faturamento.",
+            "benefit1": "Transações seguras",
+            "benefit2": "Faturamento automatizado",
+            "benefit3": "Conformidade com PCI"
+          },
+          "virtualAssistant": {
+            "hero": {
+              "title": "Assistente Virtual 24/7 para Chamadas Fora do Horário Comercial",
+              "description": "Nunca mais perca uma chamada de cliente. Nosso assistente virtual de IA fornece suporte inteligente e semelhante a humanos 24 horas por dia, garantindo que seus clientes sempre recebam assistência imediata quando mais precisam.",
+              "primaryCta": "Iniciar seu Assistente 24/7"
+            },
+            "features": {
+              "title": "Suporte ao Cliente Sempre Ativo",
+              "description": "Suporte abrangente fora do horário comercial que mantém a qualidade do seu serviço 24 horas por dia, 7 dias por semana",
+              "availability": {
+                "title": "Disponibilidade 24/7",
+                "description": "Nunca mais perca uma chamada com assistência de IA 24 horas por dia que lida com consultas a qualquer hora.",
+                "benefits": {
+                  "0": "Sempre disponível",
+                  "1": "Sem custos de horas extras",
+                  "2": "Cobertura global de fuso horário"
+                }
+              },
+              "callHandling": {
+                "title": "Tratamento Inteligente de Chamadas",
+                "description": "IA avançada entende a intenção do chamador e fornece respostas ou escalonamento apropriados.",
+                "benefits": {
+                  "0": "Conversas naturais",
+                  "1": "Consciência de contexto",
+                  "2": "Escalonamento inteligente"
+                }
+              },
+              "handoffs": {
+                "title": "Transferências Perfeitas",
+                "description": "Transição suave para agentes humanos quando necessário, com preservação total do contexto.",
+                "benefits": {
+                  "0": "Retenção de contexto",
+                  "1": "Transferências quentes",
+                  "2": "Sem informações repetidas"
+                }
+              }
+            },
+            "benefits": {
+              "title": "Resultados Comprovados",
+              "description": "Veja o impacto da assistência virtual 24 horas por dia, 7 dias por semana, em seu negócio"
+            },
+            "metrics": {
+              "abandonment": {
+                "description": "Redução no abandono de chamadas fora do horário comercial"
+              },
+              "availability": {
+                "description": "Disponibilidade contínua de atendimento ao cliente"
+              },
+              "costSavings": {
+                "description": "Economia de custos em comparação com agentes humanos"
+              },
+              "satisfaction": {
+                "description": "Satisfação do cliente com interações de IA"
+              }
+            },
+            "useCases": {
+              "title": "Aplicações da Indústria",
+              "description": "Veja como diferentes indústrias se beneficiam da assistência virtual 24 horas por dia, 7 dias por semana",
+              "healthcare": {
+                "title": "Saúde Fora do Horário Comercial",
+                "description": "Lide com consultas de pacientes, solicitações de agendamento e triagem de emergência fora do horário de expediente.",
+                "metrics": {
+                  "0": "60% de redução em chamadas perdidas",
+                  "1": "Suporte ao paciente 24/7",
+                  "2": "Compatível com HIPAA"
+                }
+              },
+              "ecommerce": {
+                "title": "E-commerce Fora do Horário Comercial",
+                "description": "Auxilie os clientes com dúvidas de pedidos, devoluções e informações de produtos a qualquer momento.",
+                "metrics": {
+                  "0": "Aumento de 40% na satisfação do cliente",
+                  "1": "Status instantâneo do pedido",
+                  "2": "Disponibilidade 24/7"
+                }
+              },
+              "financial": {
+                "title": "Serviços Financeiros Fora do Horário Comercial",
+                "description": "Forneça informações de conta, alertas de fraude e serviços bancários básicos fora do horário comercial.",
+                "metrics": {
+                  "0": "Autenticação segura",
+                  "1": "Prevenção de fraudes",
+                  "2": "Conformidade regulatória"
+                }
+              }
+            },
+            "cta": {
+              "title": "Pronto para Suporte ao Cliente 24/7?",
+              "description": "Transforme sua experiência de cliente fora do horário comercial com assistência virtual inteligente",
+              "primaryButton": "Iniciar Teste Gratuito",
+              "secondaryButton": "Agendar Demonstração"
+            },
+            "title": "Assistente Virtual 24/7",
+            "description": "Forneça suporte imediato fora do horário comercial com tratamento inteligente de chamadas.",
+            "benefit1": "Disponibilidade 24/7",
+            "benefit2": "Resposta instantânea",
+            "benefit3": "Redução de custos"
+          },
+          "header": "Soluções de Entrada",
+          "description": "Lide com chamadas de entrada com automação inteligente e experiência superior do cliente",
+          "smartCallTransfer": {
+            "title": "Transferência Inteligente de Chamadas",
+            "description": "Encaminhe chamadas de forma inteligente para o departamento certo com base na intenção do chamador.",
+            "benefit1": "Tempos de espera reduzidos",
+            "benefit2": "Melhor roteamento",
+            "benefit3": "Eficiência aprimorada"
+          },
+          "mentalHealth": {
+            "title": "Companheiro de Saúde Mental",
+            "description": "Forneça suporte empático para triagens e recursos de saúde mental.",
+            "benefit1": "Suporte 24/7",
+            "benefit2": "Respostas empáticas",
+            "benefit3": "Escalonamento de crise"
+          },
+          "scamShield": {
+            "title": "Proteção contra Golpes",
+            "description": "Identifique e bloqueie chamadas fraudulentas para proteger seus clientes.",
+            "benefit1": "Detecção de fraudes",
+            "benefit2": "Proteção ao cliente",
+            "benefit3": "Chamadas de golpe reduzidas"
+          },
+          "appointmentBooking": {
+            "title": "Agendamento de Consultas",
+            "description": "Habilite o agendamento e gerenciamento autônomo de consultas.",
+            "benefit1": "Agendamento 24/7",
+            "benefit2": "Sincronização de calendário",
+            "benefit3": "Lembretes automatizados"
+          }
+        },
+        "outbound": {
+          "customerReactivation": {
+            "hero": {
+              "title": "Campanhas de Reativação de Clientes",
+              "subtitle": "Reconquiste clientes inativos com campanhas de alcance personalizadas alimentadas por IA. Reengaje clientes anteriores com ofertas atraentes e reconstrua relacionamentos valiosos que impulsionam a receita recorrente.",
+              "cta": "Iniciar Campanha de Reativação"
+            },
+            "features": {
+              "title": "Recursos Inteligentes de Reativação",
+              "subtitle": "Campanhas alimentadas por IA que entendem o comportamento e as preferências do cliente",
+              "personalizedOutreach": {
+                "title": "Alcance Personalizado",
+                "description": "Conversas alimentadas por IA adaptadas ao histórico e às preferências de cada cliente.",
+                "benefits": {
+                  "customMessaging": "Mensagens personalizadas",
+                  "historicalContext": "Contexto histórico",
+                  "behavioralInsights": "Insights comportamentais"
+                }
+              },
+              "winBackCampaigns": {
+                "title": "Campanhas de Reconquista",
+                "description": "Campanhas estratégicas projetadas para reengajar clientes inativos com ofertas atraentes.",
+                "benefits": {
+                  "specialPromotions": "Promoções especiais",
+                  "loyaltyRewards": "Recompensas de fidelidade",
+                  "exclusiveAccess": "Acesso exclusivo"
+                }
+              },
+              "performanceAnalytics": {
+                "title": "Análise de Desempenho",
+                "description": "Rastreie as taxas de sucesso de reativação e otimize as campanhas para melhores resultados.",
+                "benefits": {
+                  "conversionTracking": "Rastreamento de conversão",
+                  "abTesting": "Teste A/B",
+                  "roiAnalysis": "Análise de ROI"
+                }
+              }
+            },
+            "process": {
+              "title": "Processo de Reativação",
+              "subtitle": "Abordagem estratégica para reconquistar clientes valiosos",
+              "steps": {
+                "customerSegmentation": {
+                  "title": "Segmentação de Clientes",
+                  "description": "Identifique e categorize clientes inativos com base em seu histórico e valor",
+                  "outcome": "Abordagem direcionada: 3x maior taxa de resposta"
+                },
+                "personalizedOutreach": {
+                  "title": "Alcance Personalizado",
+                  "description": "A IA cria mensagens personalizadas com base nas preferências e histórico do cliente",
+                  "outcome": "Taxa de engajamento: 45% vs 12% genérico"
+                },
+                "offerPresentation": {
+                  "title": "Apresentação de Oferta",
+                  "description": "Apresente ofertas atraentes de reconquista adaptadas ao valor e aos interesses do cliente",
+                  "outcome": "Taxa de conversão: 25% com ofertas personalizadas"
+                },
+                "followUpNurturing": {
+                  "title": "Acompanhamento e Nutrição",
+                  "description": "Sequências de acompanhamento automatizadas para nutrir clientes interessados de volta ao status ativo",
+                  "outcome": "Taxa de retenção: 80% dos clientes reativados"
+                }
+              }
+            },
+            "campaigns": {
+              "title": "Tipos de Campanha de Reativação",
+              "subtitle": "Múltiplas estratégias para reengajar diferentes segmentos de clientes",
+              "winBackOffers": {
+                "title": "Ofertas de Reconquista",
+                "description": "Descontos e promoções especiais para atrair clientes de volta",
+                "tactics": {
+                  "exclusiveDiscounts": "Descontos exclusivos",
+                  "limitedTimeOffers": "Ofertas por tempo limitado",
+                  "freeTrials": "Testes gratuitos"
+                }
+              },
+              "feedbackCollection": {
+                "title": "Coleta de Feedback",
+                "description": "Entenda por que os clientes saíram e resolva suas preocupações",
+                "tactics": {
+                  "exitSurveys": "Pesquisas de saída",
+                  "concernResolution": "Resolução de preocupações",
+                  "serviceImprovements": "Melhorias de serviço"
+                }
+              },
+              "productUpdates": {
+                "title": "Atualizações de Produtos",
+                "description": "Informe os clientes sobre novos recursos ou melhorias",
+                "tactics": {
+                  "featureAnnouncements": "Anúncios de recursos",
+                  "benefitExplanations": "Explicações de benefícios",
+                  "demoInvitations": "Convites para demonstração"
+                }
+              },
+              "loyaltyRewards": {
+                "title": "Recompensas de Fidelidade",
+                "description": "Reconheça a fidelidade passada e ofereça tratamento especial",
+                "tactics": {
+                  "vipStatus": "Status VIP",
+                  "loyaltyPoints": "Pontos de fidelidade",
+                  "exclusiveAccess": "Acesso exclusivo"
+                }
+              }
+            },
+            "results": {
+              "title": "Resultados de Reativação",
+              "subtitle": "Sucesso comprovado na reconquista de clientes valiosos",
+              "reactivationRate": {
+                "metric": "35%",
+                "description": "Taxa de reativação de clientes"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "Redução de custos vs métodos tradicionais"
+              },
+              "responseRate": {
+                "metric": "3x",
+                "description": "Taxa de resposta mais alta do que campanhas genéricas"
+              },
+              "retentionRate": {
+                "metric": "80%",
+                "description": "Taxa de retenção de clientes reativados"
+              }
+            },
+            "cta": {
+              "title": "Pronto para Reconquistar seus Clientes?",
+              "subtitle": "Inicie campanhas de reativação personalizadas que reconstroem relacionamentos valiosos com clientes",
+              "startCampaign": "Iniciar Campanha",
+              "viewCaseStudies": "Ver Casos de Estudo"
+            }
+          },
+          "fraudAlerts": {
+            "hero": {
+              "title": "Sistema de Alerta de Fraude",
+              "description": "Proteja seus clientes com alertas de fraude instantâneos. Nosso sistema alimentado por IA detecta atividades suspeitas e contata automaticamente os clientes para verificar transações."
+            },
+            "features": {
+              "title": "Detecção Avançada de Fraudes",
+              "subtitle": "Monitoramento em tempo real e alertas inteligentes para proteger seus clientes",
+              "realTimeDetection": {
+                "title": "Detecção em Tempo Real",
+                "description": "Monitore transações 24 horas por dia, 7 dias por semana, e detecte padrões suspeitos instantaneamente usando algoritmos avançados de IA."
+              },
+              "instantAlerts": {
+                "title": "Alertas Instantâneos",
+                "description": "Ligue automaticamente para os clientes minutos após detectar atividade suspeita para verificar transações."
+              },
+              "detailedAnalytics": {
+                "title": "Análise Detalhada",
+                "description": "Rastreie métricas de prevenção de fraudes e taxas de resposta do cliente com relatórios abrangentes."
+              }
+            },
+            "howItWorks": {
+              "title": "Como Funcionam os Alertas de Fraude",
+              "step1": {
+                "title": "Detecção de Fraude",
+                "description": "O sistema identifica padrões de transação suspeitos"
+              },
+              "step2": {
+                "title": "Alerta Imediato",
+                "description": "O agente de IA liga para o cliente em 2 minutos"
+              },
+              "step3": {
+                "title": "Verificação",
+                "description": "O cliente confirma ou nega a transação"
+              },
+              "step4": {
+                "title": "Ação Tomada",
+                "description": "Transação aprovada ou medidas de segurança ativadas"
+              },
+              "sampleCall": {
+                "title": "Exemplo de Chamada de Alerta",
+                "message": "Olá, este é um alerta de segurança do [Nome do Banco]. Detectamos atividade incomum em sua conta. Uma transação de $500 na Amazon foi tentada. Você autorizou esta compra? Por favor, pressione 1 para confirmar ou 2 se não foi você."
+              }
+            },
+            "benefits": {
+              "title": "Principais Benefícios",
+              "fraudPrevention": {
+                "title": "Prevenção de Fraudes",
+                "description": "Reduza transações fraudulentas em até 85%"
+              },
+              "instantResponse": {
+                "title": "Resposta Instantânea",
+                "description": "Alerta clientes em 2 minutos após a detecção"
+              },
+              "customerTrust": {
+                "title": "Confiança do Cliente",
+                "description": "Construa confiança com proteção proativa"
+              },
+              "smartAnalytics": {
+                "title": "Análise Inteligente",
+                "description": "Insights detalhados sobre padrões e tendências de fraude"
+              }
+            },
+            "useCases": {
+              "title": "Casos de Uso Comuns",
+              "banking": {
+                "title": "Serviços Bancários e Financeiros",
+                "item1": "Detecção de fraude de cartão de crédito",
+                "item2": "Alertas de padrão de gastos incomuns",
+                "item3": "Prevenção de aquisição de conta",
+                "item4": "Verificação de grandes transações"
+              },
+              "ecommerce": {
+                "title": "E-commerce e Varejo",
+                "item1": "Padrões de compra suspeitos",
+                "item2": "Verificação de pedidos de alto valor",
+                "item3": "Proteção contra roubo de identidade",
+                "item4": "Alterações de método de pagamento"
+              }
+            },
+            "cta": {
+              "title": "Proteja seus Clientes Hoje",
+              "description": "Implemente detecção avançada de fraudes com alertas automatizados para clientes para reduzir perdas e construir confiança.",
+              "button": "Comece com Alertas de Fraude"
+            },
+            "title": "Alertas de Fraude",
+            "description": "Alerta clientes sobre atividades suspeitas na conta imediatamente.",
+            "benefit1": "Alertas em tempo real",
+            "benefit2": "Proteção de conta",
+            "benefit3": "Prevenção de fraudes"
+          },
+          "largeScaleCampaigns": {
+            "hero": {
+              "title": "Campanhas de Saída em Grande Escala",
+              "description": "Execute campanhas de voz massivas que alcançam milhares de clientes simultaneamente. De lançamentos de produtos a notificações de emergência, entregue mensagens personalizadas em escala sem precedentes com eficiência alimentada por IA.",
+              "cta": "Lançar Campanha em Massa"
+            },
+            "features": {
+              "title": "Recursos de Campanha de Nível Empresarial",
+              "subtitle": "Ferramentas poderosas para gerenciar e executar campanhas de voz em grande escala",
+              "massCommunication": {
+                "title": "Comunicação em Massa",
+                "description": "Alcance milhares de clientes simultaneamente com mensagens de voz personalizadas.",
+                "benefit1": "Chamadas simultâneas ilimitadas",
+                "benefit2": "Mensagens personalizadas",
+                "benefit3": "Alcance global"
+              },
+              "audienceSegmentation": {
+                "title": "Segmentação de Público",
+                "description": "Direcione segmentos específicos de clientes com mensagens e tempo personalizados.",
+                "benefit1": "Segmentação demográfica",
+                "benefit2": "Segmentação comportamental",
+                "benefit3": "Públicos personalizados"
+              },
+              "realTimeAnalytics": {
+                "title": "Análise em Tempo Real",
+                "description": "Monitore o desempenho da campanha e otimize em tempo real para melhores resultados.",
+                "benefit1": "Painéis ao vivo",
+                "benefit2": "Métricas de desempenho",
+                "benefit3": "Teste A/B"
+              }
+            },
+            "campaignTypes": {
+              "title": "Tipos e Aplicações de Campanha",
+              "subtitle": "Soluções versáteis para diferentes necessidades de comunicação empresarial",
+              "productAnnouncements": {
+                "type": "Anúncios de Produtos",
+                "description": "Lance novos produtos ou serviços com campanhas de conscientização generalizadas",
+                "example1": "Novos lançamentos de recursos",
+                "example2": "Lançamentos de produtos",
+                "example3": "Atualizações de serviço",
+                "metric1": "Alcance: mais de 100 mil clientes",
+                "metric2": "Conscientização: aumento de 85%",
+                "metric3": "Engajamento: 45% de resposta"
+              },
+              "emergencyNotifications": {
+                "type": "Notificações de Emergência",
+                "description": "Dissemine rapidamente informações críticas durante emergências",
+                "example1": "Interrupções de serviço",
+                "example2": "Alertas de segurança",
+                "example3": "Mudanças de política",
+                "metric1": "Velocidade: 1000 chamadas/minuto",
+                "metric2": "Entrega: 99% de sucesso",
+                "metric3": "Resposta: < 5 minutos"
+              },
+              "marketingCampaigns": {
+                "type": "Campanhas de Marketing",
+                "description": "Execute iniciativas promocionais e de marketing em larga escala",
+                "example1": "Promoções sazonais",
+                "example2": "Campanhas de marca",
+                "example3": "Convites para eventos",
+                "metric1": "Conversão: 12% em média",
+                "metric2": "ROI: 300% típico",
+                "metric3": "Alcance: Escala ilimitada"
+              },
+              "surveyResearch": {
+                "type": "Pesquisa e Estudo",
+                "description": "Conduza pesquisas de mercado e colete feedback de clientes em escala",
+                "example1": "Pesquisa de mercado",
+                "example2": "Satisfação do cliente",
+                "example3": "Feedback do produto",
+                "metric1": "Resposta: 35% de taxa",
+                "metric2": "Conclusão: 80%",
+                "metric3": "Insights: Em tempo real"
+              },
+              "commonExamples": "Exemplos Comuns:",
+              "performanceMetrics": "Métricas de Desempenho:"
+            },
+            "scaling": {
+              "title": "Escala e Alcance Ilimitados",
+              "description": "Nossa plataforma é construída para lidar com campanhas de qualquer tamanho, de milhares a milhões de chamadas. Com parcerias globais com operadoras e infraestrutura avançada, garantimos entrega confiável em escala massiva.",
+              "globalInfrastructure": {
+                "title": "Infraestrutura Global",
+                "description": "Rede mundial de operadoras para máximo alcance"
+              },
+              "highSpeedExecution": {
+                "title": "Execução de Alta Velocidade",
+                "description": "Mais de 1000 chamadas simultâneas por minuto"
+              },
+              "realTimeMonitoring": {
+                "title": "Monitoramento em Tempo Real",
+                "description": "Rastreamento de desempenho de campanha ao vivo"
+              },
+              "capabilities": {
+                "title": "Capacidades de Escalonamento",
+                "capability1": "Chamadas simultâneas ilimitadas",
+                "capability2": "Rede global de operadoras",
+                "capability3": "Suporte multi-idioma",
+                "capability4": "Otimização de fuso horário",
+                "capability5": "Conformidade regulatória",
+                "capability6": "Monitoramento em tempo real"
+              },
+              "dashboard": {
+                "title": "Painel da Campanha",
+                "activeCalls": "Chamadas Ativas:",
+                "completionRate": "Taxa de Conclusão:",
+                "responseRate": "Taxa de Resposta:"
+              }
+            },
+            "benefits": {
+              "title": "Resultados de Desempenho da Campanha",
+              "subtitle": "Eficácia comprovada em escala empresarial",
+              "metric1": {
+                "value": "10.000+",
+                "description": "Chamadas simultâneas suportadas"
+              },
+              "metric2": {
+                "value": "99,9%",
+                "description": "Taxa de sucesso de entrega de mensagens"
+              },
+              "metric3": {
+                "value": "75%",
+                "description": "Redução de custos vs métodos tradicionais"
+              },
+              "metric4": {
+                "value": "24/7",
+                "description": "Capacidade de execução de campanha"
+              }
+            },
+            "cta": {
+              "title": "Pronto para Escalar suas Comunicações?",
+              "description": "Lance campanhas de voz massivas que alcançam milhares de clientes com mensagens personalizadas",
+              "primaryButton": "Planeje sua Campanha",
+              "secondaryButton": "Ver Casos de Estudo"
+            }
+          },
+          "hero": {
+            "title": "Automação de Serviço de Cobrança",
+            "description": "Otimize seu processo de cobrança de dívidas com chamadas alimentadas por IA que mantêm os relacionamentos com os clientes enquanto melhoram as taxas de cobrança. Totalmente compatível com as regulamentações FDCPA e TCPA.",
+            "cta": "Melhore as Taxas de Cobrança"
+          },
+          "features": {
+            "title": "Recursos Inteligentes de Cobrança",
+            "subtitle": "Automação de cobrança de dívidas profissional, compatível e eficaz",
+            "paymentReminders": {
+              "title": "Lembretes de Pagamento Automatizados",
+              "description": "Lembretes gentis e profissionais que mantêm os relacionamentos com os clientes enquanto incentivam o pagamento.",
+              "benefit1": "Mensagens personalizáveis",
+              "benefit2": "Múltiplas tentativas de contato",
+              "benefit3": "Opções de plano de pagamento"
+            },
+            "compliance": {
+              "title": "Conformidade e Regulamentação",
+              "description": "Conformidade integrada com FDCPA, TCPA e outras regulamentações de cobrança de dívidas.",
+              "benefit1": "Conformidade regulatória",
+              "benefit2": "Gravação de chamadas",
+              "benefit3": "Trilhas de auditoria"
+            },
+            "optimalTiming": {
+              "title": "Tempo Ideal",
+              "description": "A IA determina os melhores horários para contatar clientes para taxas de resposta máximas.",
+              "benefit1": "Consciência de fuso horário",
+              "benefit2": "Padrões comportamentais",
+              "benefit3": "Otimização de resposta"
+            }
+          },
+          "collectionProcess": {
+            "title": "Estratégia de Cobrança Progressiva",
+            "subtitle": "Abordagem escalonada que maximiza a cobrança, preservando os relacionamentos",
+            "earlyReminder": {
+              "stage": "Lembrete Inicial",
+              "description": "Lembretes de pagamento amigáveis para contas recentemente em atraso",
+              "approach": "Tom suave e útil com opções de pagamento",
+              "success": "65% de taxa de pagamento"
+            },
+            "followUp": {
+              "stage": "Acompanhamento",
+              "description": "Comunicação mais direta para contas persistentemente em atraso",
+              "approach": "Consequências claras, ofertas de plano de pagamento",
+              "success": "45% de taxa de pagamento"
+            },
+            "finalNotice": {
+              "stage": "Aviso Final",
+              "description": "Última tentativa antes do escalonamento para cobradores humanos",
+              "approach": "Tom urgente, prazo final de pagamento",
+              "success": "30% de taxa de pagamento"
+            },
+            "humanHandoff": {
+              "stage": "Transferência Humana",
+              "description": "Casos complexos transferidos para cobradores humanos com contexto completo",
+              "approach": "Histórico detalhado da conta e interações anteriores",
+              "success": "25% de taxa de resolução"
+            }
+          },
+          "benefits": {
+            "title": "Resultados Comprovados de Cobrança",
+            "subtitle": "Veja o impacto das cobranças alimentadas por IA em suas taxas de recuperação",
+            "collectionRates": {
+              "metric": "40%",
+              "description": "Aumento nas taxas de cobrança"
+            },
+            "costReduction": {
+              "metric": "60%",
+              "description": "Redução nos custos de cobrança"
+            },
+            "paymentProcessing": {
+              "metric": "80%",
+              "description": "Processamento de pagamento mais rápido"
+            },
+            "complianceRate": {
+              "metric": "95%",
+              "description": "Taxa de conformidade regulatória"
+            }
+          },
+          "complianceSection": {
+            "title": "Conformidade Integrada",
+            "description": "Nossa plataforma de cobranças é projetada com a conformidade em sua essência, garantindo que todas as interações atendam às regulamentações federais e estaduais, mantendo os padrões profissionais.",
+            "features": {
+              "fdcpaCompliance": "Conformidade com FDCPA",
+              "tcpaCompliance": "Conformidade com TCPA",
+              "stateRegulation": "Adesão à Regulamentação Estadual",
+              "callRecording": "Gravação e Monitoramento de Chamadas",
+              "disputeHandling": "Tratamento de Disputas",
+              "ceaseDesist": "Gerenciamento de Cessar e Desistir"
+            },
+            "subFeatures": {
+              "regulatoryCompliance": {
+                "title": "Conformidade Regulatória",
+                "description": "FDCPA, TCPA e regulamentações específicas do estado"
+              },
+              "auditTrail": {
+                "title": "Trilha de Auditoria Completa",
+                "description": "Registro detalhado de todas as interações e resultados"
+              },
+              "timingControls": {
+                "title": "Controles de Tempo",
+                "description": "Adesão automática às restrições de tempo de chamada"
+              }
+            },
+            "featuresTitle": "Recursos de Conformidade"
+          },
+          "cta": {
+            "title": "Pronto para Melhorar suas Taxas de Cobrança?",
+            "subtitle": "Comece a recuperar mais dívidas com cobranças alimentadas por IA, profissionais e compatíveis",
+            "startFreeTrial": "Iniciar Teste Gratuito",
+            "scheduleDemo": "Agendar Demonstração"
+          },
+          "leadGeneration": {
+            "hero": {
+              "title": "Geração e Qualificação de Leads",
+              "subtitle": "Transforme seu pipeline de vendas com geração de leads alimentada por IA que identifica, qualifica e nutre prospects automaticamente, entregando apenas os leads de mais alta qualidade para sua equipe de vendas.",
+              "cta": "Aumente sua Geração de Leads"
+            },
+            "features": {
+              "title": "Recursos Inteligentes de Geração de Leads",
+              "subtitle": "Tecnologia de IA avançada que identifica e qualifica prospects com precisão",
+              "intelligentQualification": {
+                "title": "Qualificação Inteligente de Leads",
+                "description": "Conversas alimentadas por IA que identificam prospects de alta qualidade e coletam informações essenciais.",
+                "benefits": {
+                  "automatedScoring": "Pontuação automatizada",
+                  "intentDetection": "Detecção de intenção",
+                  "demographicProfiling": "Criação de perfil demográfico"
+                }
+              },
+              "personalizedOutreach": {
+                "title": "Alcance Personalizado",
+                "description": "Conversas dinâmicas adaptadas a cada prospect com base em seu perfil e interesses.",
+                "benefits": {
+                  "customMessaging": "Mensagens personalizadas",
+                  "behavioralTriggers": "Gatilhos comportamentais",
+                  "contextualResponses": "Respostas contextuais"
+                }
+              },
+              "realTimeAnalytics": {
+                "title": "Análise em Tempo Real",
+                "description": "Rastreie o desempenho da campanha e a qualidade dos leads com relatórios abrangentes.",
+                "benefits": {
+                  "conversionTracking": "Rastreamento de conversão",
+                  "qualityMetrics": "Métricas de qualidade",
+                  "roiAnalysis": "Análise de ROI"
+                }
+              }
+            },
+            "process": {
+              "title": "Processo de Qualificação de Leads",
+              "subtitle": "Do contato inicial à transferência qualificada - veja como nossa IA funciona",
+              "steps": {
+                "initialContact": {
+                  "title": "Contato Inicial",
+                  "description": "Agente de IA faz chamadas de saída personalizadas para prospects",
+                  "outcome": "Taxa de engajamento: 35%"
+                },
+                "needsAssessment": {
+                  "title": "Avaliação de Necessidades",
+                  "description": "Questionamento inteligente para entender os requisitos do prospect",
+                  "outcome": "Taxa de qualificação: 60%"
+                },
+                "interestScoring": {
+                  "title": "Pontuação de Interesse",
+                  "description": "A IA pontua a qualidade do lead com base nas respostas e no engajamento",
+                  "outcome": "Taxa de precisão: 85%"
+                },
+                "handoffToSales": {
+                  "title": "Transferência para Vendas",
+                  "description": "Leads qualificados transferidos para a equipe de vendas humana com contexto completo",
+                  "outcome": "Taxa de conversão: 25%"
+                }
+              }
+            },
+            "results": {
+              "title": "Resultados Comprovados",
+              "subtitle": "Veja o impacto da geração de leads alimentada por IA em seu pipeline de vendas",
+              "qualifiedLeads": {
+                "metric": "300%",
+                "description": "Aumento em leads qualificados"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "Redução no custo por lead"
+              },
+              "accuracy": {
+                "metric": "85%",
+                "description": "Precisão da qualificação de leads"
+              },
+              "conversion": {
+                "metric": "25%",
+                "description": "Taxa de conversão de lead para cliente"
+              }
+            },
+            "industries": {
+              "title": "Histórias de Sucesso da Indústria",
+              "subtitle": "Veja como diferentes indústrias se beneficiam da geração de leads de IA",
+              "realEstate": {
+                "name": "Imobiliário",
+                "description": "Qualifique compradores e vendedores de imóveis, agende visitas",
+                "results": {
+                  "moreLeads": "40% mais leads qualificados",
+                  "fasterCycle": "50% mais rápido ciclo de vendas"
+                }
+              },
+              "insurance": {
+                "name": "Seguros",
+                "description": "Identifique prospects que precisam de cobertura, colete informações de risco",
+                "results": {
+                  "increaseSales": "Aumento de 35% nas vendas de apólices",
+                  "costReduction": "Redução de 60% nos custos"
+                }
+              },
+              "softwareSaas": {
+                "name": "Software/SaaS",
+                "description": "Qualifique prospects empresariais, agende demonstrações de produtos",
+                "results": {
+                  "demoBookings": "3x mais agendamentos de demonstração",
+                  "closeRate": "45% maior taxa de fechamento"
+                }
+              }
+            },
+            "cta": {
+              "title": "Pronto para Transformar sua Geração de Leads?",
+              "subtitle": "Comece a gerar e qualificar mais leads com chamadas de saída alimentadas por IA",
+              "startTrial": "Iniciar Teste Gratuito",
+              "scheduleDemo": "Agendar Demonstração"
+            },
+            "title": "Geração e Qualificação de Leads",
+            "description": "Qualifique leads proativamente e agende acompanhamentos para equipes de vendas.",
+            "benefit1": "Maior conversão",
+            "benefit2": "Leads qualificados",
+            "benefit3": "Eficiência de vendas"
+          },
+          "customerSurveys": {
+            "hero": {
+              "title": "Automação de Pesquisas de Clientes",
+              "description": "Colete feedback valioso de clientes por meio de conversas de voz naturais. Conduza pesquisas automatizadas que parecem pessoais e envolventes, alcançando maiores taxas de resposta e insights mais detalhados do que os métodos tradicionais.",
+              "cta": "Iniciar Campanha de Pesquisa"
+            },
+            "sections": {
+              "features": {
+                "title": "Recursos Inteligentes de Pesquisa",
+                "subtitle": "Tecnologia de IA avançada que faz as pesquisas parecerem conversas naturais"
+              },
+              "surveys": {
+                "title": "Soluções Abrangentes de Pesquisa",
+                "subtitle": "Tipos de pesquisa personalizados para diferentes objetivos de negócios e insights"
+              },
+              "sampleQuestions": "Perguntas de Exemplo:",
+              "keyMetrics": "Métricas Chave:",
+              "analytics": {
+                "title": "Análise e Insights Avançados",
+                "description": "Nossa IA não apenas coleta respostas — ela analisa o sentimento, identifica tendências e fornece insights acionáveis que o ajudam a tomar decisões baseadas em dados para melhorar seu negócio."
+              },
+              "analysisFeatures": {
+                "title": "Recursos de Análise"
+              },
+              "benefits": {
+                "title": "Resultados de Desempenho da Pesquisa",
+                "subtitle": "Melhorias comprovadas na coleta de feedback e insights do cliente"
+              }
+            },
+            "features": {
+              "conversational": {
+                "title": "Pesquisas Conversacionais",
+                "description": "Conversas de voz naturais que parecem discussões amigáveis, em vez de pesquisas formais.",
+                "benefits": {
+                  "0": "Maiores taxas de resposta",
+                  "1": "Interações naturais",
+                  "2": "Feedback detalhado"
+                }
+              },
+              "analytics": {
+                "title": "Análise em Tempo Real",
+                "description": "Análise e relatórios instantâneos de respostas de pesquisa com insights acionáveis.",
+                "benefits": {
+                  "0": "Painéis ao vivo",
+                  "1": "Análise de sentimento",
+                  "2": "Identificação de tendências"
+                }
+              },
+              "outreach": {
+                "title": "Alcance Direcionado",
+                "description": "Alcance segmentos específicos de clientes com experiências de pesquisa personalizadas.",
+                "benefits": {
+                  "0": "Segmentação demográfica",
+                  "1": "Segmentação comportamental",
+                  "2": "Tempo personalizado"
+                }
+              }
+            },
+            "surveyTypes": {
+              "csat": {
+                "title": "Satisfação do Cliente (CSAT)",
+                "description": "Meça a satisfação geral com produtos, serviços ou interações",
+                "questions": {
+                  "0": "Quão satisfeito você está com nosso serviço?",
+                  "1": "O que poderíamos melhorar?",
+                  "2": "Você nos recomendaria?"
+                },
+                "metrics": {
+                  "0": "Pontuação CSAT",
+                  "1": "Net Promoter Score",
+                  "2": "Taxa de Resposta"
+                }
+              },
+              "postPurchase": {
+                "title": "Feedback Pós-Compra",
+                "description": "Colete insights imediatamente após uma compra ou interação de serviço",
+                "questions": {
+                  "0": "Como foi sua experiência de compra?",
+                  "1": "O produto atendeu às expectativas?",
+                  "2": "Algum problema com a entrega?"
+                },
+                "metrics": {
+                  "0": "Satisfação da Compra",
+                  "1": "Avaliação da Entrega",
+                  "2": "Qualidade do Produto"
+                }
+              },
+              "productDev": {
+                "title": "Desenvolvimento de Produto",
+                "description": "Colete informações para novos recursos, produtos ou melhorias de serviço",
+                "questions": {
+                  "0": "Quais recursos você gostaria de ver?",
+                  "1": "Como você usa nosso produto?",
+                  "2": "Quais problemas precisam ser resolvidos?"
+                },
+                "metrics": {
+                  "0": "Solicitações de Recursos",
+                  "1": "Padrões de Uso",
+                  "2": "Pontos de Dor"
+                }
+              },
+              "marketResearch": {
+                "title": "Pesquisa de Mercado",
+                "description": "Entenda as tendências de mercado, preferências e cenário competitivo",
+                "questions": {
+                  "0": "Quais marcas você prefere?",
+                  "1": "Como você toma decisões de compra?",
+                  "2": "O que influencia suas escolhas?"
+                },
+                "metrics": {
+                  "0": "Consciência da Marca",
+                  "1": "Fatores de Compra",
+                  "2": "Tendências de Mercado"
+                }
+              }
+            },
+            "analytics": {
+              "sentimentAnalysis": {
+                "title": "Análise de Sentimento",
+                "description": "Entenda o tom emocional por trás das respostas"
+              },
+              "trendIdentification": {
+                "title": "Identificação de Tendências",
+                "description": "Identifique padrões e problemas emergentes precocemente"
+              },
+              "actionableReports": {
+                "title": "Relatórios Acionáveis",
+                "description": "Obtenha recomendações específicas para melhorias"
+              }
+            },
+            "analysisFeatures": {
+              "0": "Análise de sentimento em tempo real",
+              "1": "Categorização automatizada de respostas",
+              "2": "Identificação de tendências e alertas",
+              "3": "Painéis de relatórios personalizados",
+              "4": "Integração com sistemas CRM",
+              "5": "Geração de insights acionáveis"
+            },
+            "dashboard": {
+              "title": "Painel de Pesquisa ao Vivo",
+              "responsesToday": "Respostas Hoje:",
+              "completionRate": "Taxa de Conclusão:",
+              "avgSatisfaction": "Média de Satisfação:",
+              "sentiment": "Sentimento:",
+              "responsesTodayValue": "1.847",
+              "completionRateValue": "85,3%",
+              "avgSatisfactionValue": "4,2/5",
+              "sentimentValue": "78% Positivo"
+            },
+            "benefits": {
+              "0": {
+                "metric": "3x",
+                "description": "Taxa de resposta mais alta do que pesquisas tradicionais"
+              },
+              "1": {
+                "metric": "85%",
+                "description": "Taxa de conclusão da pesquisa"
+              },
+              "2": {
+                "metric": "60%",
+                "description": "Feedback mais detalhado coletado"
+              },
+              "3": {
+                "metric": "24/7",
+                "description": "Implantação automatizada de pesquisa"
+              }
+            },
+            "cta": {
+              "title": "Pronto para Coletar Melhores Insights de Clientes?",
+              "subtitle": "Comece a coletar feedback valioso com pesquisas conversacionais que os clientes realmente querem preencher",
+              "primaryBtn": "Lançar Campanha de Pesquisa",
+              "secondaryBtn": "Ver Pesquisa de Exemplo"
+            }
+          },
+          "proactiveSupport": {
+            "hero": {
+              "title": "Suporte Proativo ao Cliente",
+              "description": "Antecipe os problemas dos clientes com notificações proativas inteligentes. Informe automaticamente os clientes sobre atualizações de serviço, alterações de conta e informações importantes antes que eles precisem ligar para você.",
+              "cta": "Habilitar Suporte Proativo"
+            },
+            "features": {
+              "title": "Recursos Proativos Inteligentes",
+              "subtitle": "Automação avançada que antecipa as necessidades dos clientes e previne problemas",
+              "proactiveNotifications": {
+                "title": "Notificações Proativas",
+                "description": "Notifique automaticamente os clientes sobre atualizações importantes, alterações ou problemas antes que se tornem problemas.",
+                "benefit1": "Alertas de serviço",
+                "benefit2": "Atualizações de conta",
+                "benefit3": "Notificações preventivas"
+              },
+              "issuePrevention": {
+                "title": "Prevenção de Problemas",
+                "description": "Identifique problemas potenciais precocemente e entre em contato com os clientes com soluções.",
+                "benefit1": "Detecção precoce",
+                "benefit2": "Medidas preventivas",
+                "benefit3": "Resolução de problemas"
+              },
+              "timelyCommunication": {
+                "title": "Comunicação Oportuna",
+                "description": "Entregue informações críticas no momento certo para maximizar a satisfação do cliente.",
+                "benefit1": "Tempo ideal",
+                "benefit2": "Consciência de urgência",
+                "benefit3": "Entrega agendada"
+              }
+            },
+            "notificationTypes": {
+              "title": "Tipos Abrangentes de Notificação",
+              "subtitle": "Cubra todos os aspectos da comunicação com o cliente com automação inteligente",
+              "serviceOutages": {
+                "type": "Interrupções de Serviço",
+                "description": "Informe os clientes sobre manutenção planejada ou interrupções inesperadas de serviço",
+                "example1": "Janelas de manutenção planejadas",
+                "example2": "Interrupções inesperadas",
+                "example3": "Atualizações de restauração de serviço",
+                "urgency": "Alta",
+                "timing": "Imediata"
+              },
+              "accountChanges": {
+                "type": "Alterações de Conta",
+                "description": "Notifique os clientes sobre alterações importantes em suas contas ou serviços",
+                "example1": "Atualizações de política",
+                "example2": "Alterações de taxa",
+                "example3": "Modificações de recursos",
+                "urgency": "Média",
+                "timing": "Aviso prévio"
+              },
+              "securityAlerts": {
+                "type": "Alertas de Segurança",
+                "description": "Alerta os clientes sobre possíveis problemas de segurança ou atividades suspeitas",
+                "example1": "Tentativas de login",
+                "example2": "Alterações de senha",
+                "example3": "Acesso à conta",
+                "urgency": "Alta",
+                "timing": "Tempo real"
+              },
+              "productUpdates": {
+                "type": "Atualizações de Produtos",
+                "description": "Compartilhe informações sobre novos recursos, melhorias ou alterações",
+                "example1": "Novos recursos",
+                "example2": "Atualizações de aplicativos",
+                "example3": "Melhorias de serviço",
+                "urgency": "Baixa",
+                "timing": "Agendada"
+              },
+              "billingNotifications": {
+                "type": "Notificações de Faturamento",
+                "description": "Comunicação proativa sobre faturamento, pagamentos e status da conta",
+                "example1": "Datas de vencimento de pagamento",
+                "example2": "Pagamentos falhos",
+                "example3": "Atualizações de crédito",
+                "urgency": "Média",
+                "timing": "Aviso prévio"
+              },
+              "deliveryUpdates": {
+                "type": "Atualizações de Entrega",
+                "description": "Mantenha os clientes informados sobre as alterações de status de envio e entrega",
+                "example1": "Atrasos de envio",
+                "example2": "Confirmações de entrega",
+                "example3": "Problemas de endereço",
+                "urgency": "Média",
+                "timing": "Tempo real"
+              }
+            },
+            "urgency": {
+              "high": "Alta",
+              "medium": "Média",
+              "low": "Baixa"
+            },
+            "labels": {
+              "examples": "Exemplos",
+              "timing": "Tempo"
+            },
+            "automationSection": {
+              "title": "Motor de Automação Avançado",
+              "description": "Nosso sistema de automação inteligente monitora continuamente seus serviços e contas de clientes, acionando automaticamente notificações apropriadas com base em regras predefinidas e preferências do cliente.",
+              "subFeatures": {
+                "realTimeMonitoring": {
+                  "title": "Monitoramento em Tempo Real",
+                  "description": "Monitoramento contínuo do sistema e da conta"
+                },
+                "smartPrioritization": {
+                  "title": "Priorização Inteligente",
+                  "description": "Classificação e entrega inteligente de alertas"
+                },
+                "customerPreferences": {
+                  "title": "Preferências do Cliente",
+                  "description": "Respeite as preferências de comunicação individuais"
+                }
+              },
+              "featuresTitle": "Recursos de Automação",
+              "features": {
+                "realTimeMonitoring": "Monitoramento do sistema em tempo real",
+                "intelligentPrioritization": "Priorização inteligente de alertas",
+                "preferenceManagement": "Gerenciamento de preferências do cliente",
+                "multiChannelDelivery": "Opções de entrega multi-canal",
+                "escalationProtocols": "Protocolos de escalonamento",
+                "performanceAnalytics": "Análise de desempenho"
+              },
+              "liveMonitoring": {
+                "title": "Monitoramento ao Vivo",
+                "activeMonitors": "Monitores Ativos:",
+                "activeMonitorsValue": "1.247",
+                "notificationsSent": "Notificações Enviadas:",
+                "notificationsSentValue": "3.892",
+                "issuesPrevented": "Problemas Prevenidos:",
+                "issuesPreventedValue": "156"
+              }
+            },
+            "benefits": {
+              "title": "Impacto do Suporte Proativo",
+              "subtitle": "Melhorias mensuráveis na satisfação do cliente e eficiência do suporte",
+              "reactiveCalls": {
+                "metric": "70%",
+                "description": "Redução nas chamadas de suporte reativas"
+              },
+              "customerSatisfaction": {
+                "metric": "85%",
+                "description": "Satisfação do cliente com atualizações proativas"
+              },
+              "customerChurn": {
+                "metric": "50%",
+                "description": "Redução na rotatividade de clientes"
+              },
+              "automatedMonitoring": {
+                "metric": "24/7",
+                "description": "Monitoramento e alertas automatizados"
+              }
+            },
+            "cta": {
+              "title": "Pronto para Antecipar os Problemas dos Clientes?",
+              "subtitle": "Transforme seu suporte ao cliente com notificações proativas inteligentes e prevenção de problemas",
+              "startProactiveSupport": "Iniciar Suporte Proativo",
+              "seeDemo": "Ver Demonstração"
+            },
+            "title": "Suporte Proativo",
+            "description": "Notifique os clientes sobre atualizações de serviço e informações importantes.",
+            "benefit1": "Comunicação proativa",
+            "benefit2": "Prevenção de problemas",
+            "benefit3": "Satisfação do cliente"
+          },
+          "seniorCheckCalls": {
+            "hero": {
+              "title": "Chamadas de Verificação e Monitoramento de Bem-Estar para Idosos",
+              "description": "Proporcione tranquilidade às famílias com verificações regulares de bem-estar alimentadas por IA para idosos. Conversas compassivas que monitoram a saúde, detectam emergências e garantem a segurança, mantendo a dignidade e a independência.",
+              "button": "Iniciar Monitoramento de Bem-Estar"
+            },
+            "features": {
+              "title": "Cuidado Compassivo com Idosos",
+              "subtitle": "Tecnologia de IA projetada especificamente para o bem-estar e segurança de idosos",
+              "wellnessMonitoring": {
+                "title": "Monitoramento de Bem-Estar",
+                "description": "Verificações regulares para monitorar a saúde e o bem-estar de idosos com conversas de IA compassivas.",
+                "benefit1": "Agendamentos diários/semanais",
+                "benefit2": "Rastreamento do estado de saúde",
+                "benefit3": "Lembretes de medicação"
+              },
+              "emergencyDetection": {
+                "title": "Detecção de Emergência",
+                "description": "IA avançada reconhece sinais de perigo e situações de emergência para resposta imediata.",
+                "benefit1": "Reconhecimento de crise",
+                "benefit2": "Contatos de emergência",
+                "benefit3": "Alertas para primeiros socorros"
+              },
+              "flexibleScheduling": {
+                "title": "Agendamento Flexível",
+                "description": "Agendamentos de chamadas personalizáveis que se adaptam às preferências e necessidades individuais.",
+                "benefit1": "Agendamento personalizado",
+                "benefit2": "Ajustes de feriados",
+                "benefit3": "Coordenação familiar"
+              }
+            },
+            "checkTypes": {
+              "title": "Serviços Abrangentes de Verificação",
+              "subtitle": "Monitoramento de bem-estar flexível adaptado às necessidades individuais",
+              "dailyWellness": {
+                "type": "Verificações Diárias de Bem-Estar",
+                "description": "Chamadas diárias breves para garantir que os idosos estejam seguros e bem",
+                "frequency": "Diariamente no horário preferido",
+                "duration": "3-5 minutos",
+                "focus1": "Bem-estar geral",
+                "focus2": "Adesão à medicação",
+                "focus3": "Confirmação de segurança"
+              },
+              "weeklyHealth": {
+                "type": "Revisões Semanais de Saúde",
+                "description": "Avaliações semanais abrangentes de saúde e necessidades",
+                "frequency": "Semanalmente no dia escolhido",
+                "duration": "10-15 minutos",
+                "focus1": "Mudanças na saúde",
+                "focus2": "Lembretes de consultas",
+                "focus3": "Atualizações familiares"
+              },
+              "emergencyResponse": {
+                "type": "Resposta a Emergências",
+                "description": "Resposta imediata a chamadas perdidas ou sinais de perigo",
+                "frequency": "Conforme necessário",
+                "duration": "Variável",
+                "focus1": "Verificação de bem-estar",
+                "focus2": "Serviços de emergência",
+                "focus3": "Notificação familiar"
+              },
+              "socialConnection": {
+                "type": "Conexão Social",
+                "description": "Conversas amigáveis para reduzir o isolamento e a solidão",
+                "frequency": "Quinzenalmente ou mensalmente",
+                "duration": "15-20 minutos",
+                "focus1": "Companhia",
+                "focus2": "Saúde mental",
+                "focus3": "Sugestões de atividades"
+              },
+              "labels": {
+                "frequency": "Frequência",
+                "duration": "Duração",
+                "focusAreas": "Áreas de Foco:"
+              }
+            },
+            "safetyProtocols": {
+              "title": "Protocolos de Segurança Avançados",
+              "description": "Nosso sistema de chamadas de verificação para idosos inclui medidas de segurança abrangentes projetadas para detectar emergências, coordenar com membros da família e garantir resposta rápida quando necessário.",
+              "emergencyResponse": {
+                "title": "Resposta a Emergências",
+                "description": "Escalonamento imediato para chamadas perdidas ou perigo"
+              },
+              "familyCoordination": {
+                "title": "Coordenação Familiar",
+                "description": "Notificações automáticas para família e cuidadores"
+              },
+              "healthcareIntegration": {
+                "title": "Integração com a Saúde",
+                "description": "Coordenação com provedores e serviços de saúde"
+              },
+              "featuresTitle": "Recursos de Segurança",
+              "protocols": {
+                "missedCallEscalation": "Procedimentos de escalonamento de chamadas perdidas",
+                "emergencyKeyword": "Reconhecimento de palavra-chave de emergência",
+                "familyNotifications": "Notificações para família e cuidadores",
+                "healthcareProvider": "Integração com provedor de saúde",
+                "emergencyServices": "Coordenação com serviços de emergência locais",
+                "medicalAlert": "Compatibilidade com sistema de alerta médico"
+              }
+            },
+            "benefits": {
+              "title": "Impacto do Monitoramento de Bem-Estar",
+              "subtitle": "Melhorias mensuráveis na segurança de idosos e tranquilidade familiar",
+              "seniorSatisfaction": {
+                "metric": "95%",
+                "description": "Satisfação de idosos com companheiro de IA"
+              },
+              "emergencyReduction": {
+                "metric": "40%",
+                "description": "Redução de incidentes de emergência"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "Disponibilidade de resposta a emergências"
+              },
+              "familyPeace": {
+                "metric": "85%",
+                "description": "Melhora na tranquilidade familiar"
+              }
+            },
+            "cta": {
+              "title": "Pronto para Garantir a Segurança de Idosos?",
+              "description": "Proporcione tranquilidade com monitoramento de bem-estar de IA compassivo para seus entes queridos",
+              "startButton": "Iniciar Monitoramento",
+              "learnButton": "Saiba Mais"
+            }
+          },
+          "subscriptionRenewals": {
+            "hero": {
+              "title": "Automação de Renovação de Assinaturas",
+              "description": "Maximize as renovações de assinaturas com campanhas inteligentes alimentadas por IA que engajam os clientes no momento certo com mensagens personalizadas, processam pagamentos sem problemas e reduzem a rotatividade por meio de estratégias de retenção proativas.",
+              "cta": "Automatizar Renovações"
+            },
+            "features": {
+              "title": "Gerenciamento Inteligente de Renovações",
+              "subtitle": "Automação abrangente que maximiza as renovações e reduz a rotatividade",
+              "automatedRenewalReminders": {
+                "title": "Lembretes de Renovação Automatizados",
+                "description": "Lembretes inteligentes enviados em horários ideais para maximizar as taxas de renovação e reduzir a rotatividade.",
+                "benefit1": "Tempo personalizado",
+                "benefit2": "Múltiplos pontos de contato",
+                "benefit3": "Otimização de renovação"
+              },
+              "paymentProcessing": {
+                "title": "Processamento de Pagamentos",
+                "description": "Coleta e processamento de pagamentos sem problemas para renovações de assinaturas por telefone.",
+                "benefit1": "Transações seguras",
+                "benefit2": "Vários métodos de pagamento",
+                "benefit3": "Recuperação de pagamento falho"
+              },
+              "customerRetention": {
+                "title": "Retenção de Clientes",
+                "description": "Engajamento proativo para resolver preocupações e reter assinantes valiosos.",
+                "benefit1": "Prevenção de rotatividade",
+                "benefit2": "Reforço de valor",
+                "benefit3": "Construção de lealdade"
+              }
+            },
+            "renewalProcess": {
+              "title": "Cronograma Estratégico de Renovação",
+              "subtitle": "Sequência de pontos de contato otimizada para maximizar o sucesso da renovação",
+              "step1": {
+                "title": "Notificação Antecipada",
+                "description": "Lembrete inicial enviado 30 dias antes da data de renovação",
+                "timing": "30 dias antes",
+                "action": "Conscientização e preparação"
+              },
+              "step2": {
+                "title": "Reforço de Valor",
+                "description": "Destaque os benefícios da assinatura e as estatísticas de uso",
+                "timing": "14 dias antes",
+                "action": "Demonstração de valor"
+              },
+              "step3": {
+                "title": "Confirmação de Renovação",
+                "description": "Solicitação direta de renovação com processamento de pagamento",
+                "timing": "7 dias antes",
+                "action": "Processamento de renovação"
+              },
+              "step4": {
+                "title": "Oferta de Última Chance",
+                "description": "Lembrete final com ofertas especiais de retenção",
+                "timing": "1 dia antes",
+                "action": "Tentativa de retenção"
+              }
+            },
+            "subscriptionTypes": {
+              "title": "Estratégias Específicas da Indústria",
+              "subtitle": "Abordagens de renovação personalizadas para diferentes modelos de assinatura",
+              "saas": {
+                "type": "Software como Serviço (SaaS)",
+                "description": "Renovações de assinatura de software mensais e anuais",
+                "strategy1": "Relatórios de uso de recursos",
+                "strategy2": "Demonstrações de ROI",
+                "strategy3": "Oportunidades de upgrade"
+              },
+              "mediaEntertainment": {
+                "type": "Mídia e Entretenimento",
+                "description": "Serviços de streaming e assinaturas de conteúdo digital",
+                "strategy1": "Recomendações de conteúdo",
+                "strategy2": "Estatísticas de visualização",
+                "strategy3": "Ofertas exclusivas"
+              },
+              "professionalServices": {
+                "type": "Serviços Profissionais",
+                "description": "Consultoria, coaching e renovações de serviços profissionais",
+                "strategy1": "Métricas de sucesso",
+                "strategy2": "Construção de relacionamento",
+                "strategy3": "Expansão de serviço"
+              },
+              "ecommerce": {
+                "type": "Assinaturas de E-commerce",
+                "description": "Entrega de produtos e renovações de associação",
+                "strategy1": "Conveniência de entrega",
+                "strategy2": "Economia de custos",
+                "strategy3": "Variedade de produtos"
+              },
+              "renewalStrategies": "Estratégias de Renovação:"
+            },
+            "retention": {
+              "title": "Estratégias Avançadas de Retenção",
+              "description": "Nossa IA analisa o comportamento do cliente, padrões de uso e níveis de engajamento para determinar a abordagem de retenção mais eficaz para cada assinante, maximizando as taxas de renovação e o valor vitalício do cliente.",
+              "optimalTiming": {
+                "title": "Tempo Ideal",
+                "description": "A IA determina os melhores horários de contato para cada cliente"
+              },
+              "usageAnalytics": {
+                "title": "Análise de Uso",
+                "description": "Aproveite os dados do cliente para abordagens personalizadas"
+              },
+              "segmentedCampaigns": {
+                "title": "Campanhas Segmentadas",
+                "description": "Mensagens personalizadas para diferentes segmentos de clientes"
+              },
+              "tactics": {
+                "title": "Táticas de Retenção",
+                "tactic1": "Ofertas de renovação personalizadas",
+                "tactic2": "Análise de uso e insights",
+                "tactic3": "Recompensas de fidelidade e descontos",
+                "tactic4": "Opções de upgrade de serviço",
+                "tactic5": "Flexibilidade de plano de pagamento",
+                "tactic6": "Campanhas de reconquista"
+              },
+              "dashboard": {
+                "title": "Painel de Renovação",
+                "renewalsThisMonth": "Renovações Este Mês:",
+                "renewalRate": "Taxa de Renovação:",
+                "revenueRetained": "Receita Retida:"
+              }
+            },
+            "benefits": {
+              "title": "Resultados de Desempenho de Renovação",
+              "subtitle": "Impacto comprovado nas métricas de negócios de assinatura",
+              "metric1": {
+                "value": "85%",
+                "description": "Taxa de renovação de assinatura"
+              },
+              "metric2": {
+                "value": "40%",
+                "description": "Redução na rotatividade involuntária"
+              },
+              "metric3": {
+                "value": "60%",
+                "description": "Redução nas falhas de pagamento"
+              },
+              "metric4": {
+                "value": "25%",
+                "description": "Aumento no valor vitalício do cliente"
+              }
+            },
+            "cta": {
+              "title": "Pronto para Maximizar as Renovações de Assinatura?",
+              "description": "Automatize seu processo de renovação e reduza a rotatividade com campanhas inteligentes alimentadas por IA",
+              "primaryButton": "Iniciar Automação de Renovação",
+              "secondaryButton": "Calcular ROI"
+            }
+          },
+          "header": "Soluções de Saída",
+          "description": "Engaje proativamente os clientes com campanhas de chamadas de saída automatizadas",
+          "collections": {
+            "title": "Serviço de Cobrança",
+            "description": "Automatize lembretes de pagamento e processos de cobrança.",
+            "benefit1": "Cobranças mais rápidas",
+            "benefit2": "Acordos de pagamento",
+            "benefit3": "Conformidade"
+          },
+          "reactivation": {
+            "title": "Reativação de Clientes",
+            "description": "Reengaje clientes inativos com alcance personalizado.",
+            "benefit1": "Campanhas de reconquista",
+            "benefit2": "Ofertas personalizadas",
+            "benefit3": "Retenção de clientes"
+          },
+          "seniorChecks": {
+            "title": "Chamadas de Verificação para Idosos",
+            "description": "Forneça verificações de bem-estar para idosos de forma regular ou sob demanda.",
+            "benefit1": "Monitoramento de bem-estar",
+            "benefit2": "Escalonamento de emergência",
+            "benefit3": "Tranquilidade"
+          },
+          "campaigns": {
+            "title": "Campanhas em Grande Escala",
+            "description": "Execute campanhas de marketing e informativas de alto volume.",
+            "benefit1": "Alcance em massa",
+            "benefit2": "Mensagens personalizadas",
+            "benefit3": "Custo-benefício"
+          },
+          "renewals": {
+            "title": "Renovações de Assinatura",
+            "description": "Automatize lembretes e processamento de renovação de assinatura.",
+            "benefit1": "Renovações automatizadas",
+            "benefit2": "Rotatividade reduzida",
+            "benefit3": "Proteção de receita"
+          },
+          "surveys": {
+            "title": "Pesquisas de Clientes",
+            "description": "Conduza a coleta automatizada de feedback pós-serviço.",
+            "benefit1": "Coleta de feedback",
+            "benefit2": "Insights de qualidade",
+            "benefit3": "Dados de melhoria"
+          }
+        },
+        "hero": {
+          "title": "Soluções de Voz de IA para Cada Necessidade de Negócio",
+          "description": "Descubra soluções abrangentes de automação de voz de entrada e saída projetadas para transformar suas comunicações com clientes e operações de negócios."
+        },
+        "cta": {
+          "title": "Pronto para Transformar suas Comunicações de Negócios?",
+          "description": "Descubra como nossas soluções de voz de IA podem automatizar suas interações com clientes e impulsionar o crescimento dos negócios",
+          "button": "Agendar uma Consulta"
+        },
+        "learnMore": "Saiba Mais"
+      }
+    }
+  }
+}

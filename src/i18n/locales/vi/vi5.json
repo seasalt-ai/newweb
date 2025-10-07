@@ -1,0 +1,658 @@
+{
+  "seachat": {
+    "features": {
+      "advancedAI": {
+        "title": "Tính năng AI nâng cao",
+        "subtitle": "Trí tuệ AI thế hệ tiếp theo với khả năng ghi nhớ, nhận thức ngữ cảnh và khả năng suy luận nâng cao để mang lại trải nghiệm khách hàng thực sự cá nhân hóa.",
+        "exploreButton": "Khám phá AI nâng cao",
+        "scheduleDemo": "Lên lịch demo",
+        "capabilities": {
+          "title": "Khả năng AI tiên tiến",
+          "subtitle": "Trải nghiệm tương lai của hỗ trợ khách hàng với các tính năng AI nâng cao của chúng tôi, học hỏi, ghi nhớ và thích ứng."
+        },
+        "rag": {
+          "title": "Tạo sinh tăng cường truy xuất (RAG)",
+          "description": "Khả năng tìm kiếm nâng cao kết hợp tìm kiếm từ khóa, vector và lai để truy xuất thông tin chính xác.",
+          "details": {
+            "semantic": "Tìm kiếm vector ngữ nghĩa để hiểu ngữ cảnh",
+            "keyword": "Đối sánh từ khóa truyền thống cho các truy vấn chính xác và các thuật ngữ cụ thể",
+            "hybrid": "Các thuật toán lai kết hợp cả hai phương pháp",
+            "indexing": "Lập chỉ mục và cập nhật nội dung thời gian thực"
+          },
+          "sectionTitle": "Tạo sinh tăng cường truy xuất",
+          "sectionSubtitle": "Công nghệ tìm kiếm nâng cao kết hợp nhiều phương pháp để truy xuất thông tin chính xác nhất.",
+          "keyword": "Tìm kiếm từ khóa",
+          "keywordDesc": "Tìm kiếm đối sánh chính xác truyền thống cho các truy vấn chính xác và các thuật ngữ cụ thể.",
+          "vector": "Tìm kiếm vector",
+          "vectorDesc": "Hiểu ngữ nghĩa tìm thấy thông tin liên quan theo ngữ cảnh.",
+          "hybrid": "Tìm kiếm lai",
+          "hybridDesc": "Tốt nhất của cả hai thế giới, kết hợp độ chính xác của từ khóa với hiểu ngữ nghĩa."
+        },
+        "memory": {
+          "title": "Hệ thống bộ nhớ dài hạn",
+          "description": "Bộ nhớ người dùng liên tục tạo ra trải nghiệm cá nhân hóa trên tất cả các tương tác.",
+          "details": {
+            "preferences": "Theo dõi và lưu trữ sở thích người dùng",
+            "history": "Phân tích lịch sử trò chuyện",
+            "patterns": "Nhận dạng mẫu hành vi",
+            "continuity": "Tính liên tục và ngữ cảnh giữa các phiên"
+          },
+          "sectionTitle": "Bộ nhớ dài hạn đang hoạt động",
+          "sectionSubtitle": "Xem cách AI của chúng tôi ghi nhớ và học hỏi từ mọi tương tác để cung cấp hỗ trợ ngày càng cá nhân hóa.",
+          "fieldsTitle": "Trường trích xuất ngữ cảnh",
+          "fieldsDescription": "AI của chúng tôi tự động xác định và lưu trữ thông tin chính về mỗi người dùng, tạo ra các hồ sơ phong phú giúp tăng cường mọi tương tác trong tương lai.",
+          "example": "Ví dụ",
+          "timeline": "Dòng thời gian bộ nhớ",
+          "firstInteraction": "Tương tác đầu tiên",
+          "firstInteractionDesc": "AI học sở thích và ngữ cảnh người dùng",
+          "ongoingConversations": "Các cuộc trò chuyện đang diễn ra",
+          "ongoingConversationsDesc": "Cập nhật liên tục hồ sơ người dùng",
+          "returnVisits": "Lượt truy cập trở lại",
+          "returnVisitsDesc": "Cung cấp phản hồi cá nhân hóa, nhận biết ngữ cảnh"
+        },
+        "timeAwareness": {
+          "title": "Tích hợp nhận thức thời gian",
+          "description": "Phản hồi theo ngữ cảnh dựa trên thời gian hiện tại, múi giờ và mức độ liên quan theo thời gian.",
+          "details": {
+            "timestamp": "Tích hợp dấu thời gian thời gian thực",
+            "timezone": "Lên lịch và phản hồi theo múi giờ",
+            "recommendations": "Đề xuất nhạy cảm về thời gian",
+            "hours": "Tối ưu hóa giờ làm việc"
+          }
+        },
+        "context": {
+          "title": "Trích xuất ngữ cảnh thông minh",
+          "description": "Ánh xạ trường thông minh và trích xuất dữ liệu để hiểu người dùng tốt hơn.",
+          "details": {
+            "fields": "Định nghĩa và ánh xạ trường tùy chỉnh",
+            "extraction": "Trích xuất dữ liệu tự động từ các cuộc trò chuyện",
+            "language": "Phát hiện sở thích ngôn ngữ người dùng",
+            "dynamic": "Xây dựng và cập nhật ngữ cảnh động"
+          }
+        },
+        "references": {
+          "title": "Kết quả trò chuyện được tham chiếu",
+          "description": "Phản hồi AI minh bạch với trích dẫn nguồn và chấm điểm độ tin cậy.",
+          "details": {
+            "linking": "Liên kết và trích dẫn tài liệu nguồn",
+            "tracking": "Theo dõi và xác minh trích dẫn",
+            "confidence": "Chấm điểm độ tin cậy cho các phản hồi",
+            "verification": "Xác minh sự thật và xác thực"
+          }
+        },
+        "knowledge": {
+          "title": "Tinh chỉnh cơ sở kiến thức",
+          "description": "Cải thiện liên tục độ chính xác và mức độ liên quan của cơ sở kiến thức.",
+          "details": {
+            "updating": "Nội dung tự động cập nhật dựa trên các tương tác",
+            "scoring": "Chấm điểm chất lượng và xếp hạng nội dung",
+            "relevance": "Thuật toán tối ưu hóa mức độ liên quan",
+            "analytics": "Phân tích hiệu suất và thông tin chi tiết"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "User_Language",
+            "description": "Ghi nhớ ngôn ngữ giao tiếp ưa thích",
+            "example": "Khách hàng thích phản hồi bằng tiếng Tây Ban Nha"
+          },
+          "product": {
+            "field": "Product_Interest",
+            "description": "Theo dõi các danh mục sản phẩm quan tâm",
+            "example": "Quan tâm đến các giải pháp phần mềm cao cấp"
+          },
+          "history": {
+            "field": "Support_History",
+            "description": "Duy trì ngữ cảnh của các vấn đề trước đó",
+            "example": "Trước đây đã giải quyết các câu hỏi về thanh toán"
+          },
+          "style": {
+            "field": "Communication_Style",
+            "description": "Thích ứng với phong cách tương tác ưa thích",
+            "example": "Thích giải thích kỹ thuật chi tiết"
+          }
+        },
+        "cta": {
+          "title": "Trải nghiệm tương lai của AI",
+          "subtitle": "Sẵn sàng chuyển đổi hỗ trợ khách hàng của bạn với AI nâng cao ghi nhớ, học hỏi và thích ứng? Bắt đầu hành trình của bạn với công nghệ tiên tiến của chúng tôi.",
+          "signUp": "Đăng ký miễn phí",
+          "scheduleDemo": "Lên lịch demo"
+        }
+      },
+      "aiAutomation": {
+        "title": "Tự động hóa AI",
+        "subtitle": "Mở rộng quy mô hỗ trợ khách hàng của bạn với AI thông minh học hỏi, thích ứng và cung cấp phản hồi tức thì trong khi vẫn duy trì sự tiếp xúc của con người khi cần.",
+        "tryButton": "Thử tự động hóa AI",
+        "featuresTitle": "Tính năng AI thông minh",
+        "featuresSubtitle": "Tự động hóa AI của chúng tôi vượt xa các chatbot đơn giản để cung cấp hỗ trợ khách hàng thực sự thông minh.",
+        "performanceTitle": "Tự động hóa thực sự hoạt động",
+        "performanceSubtitle": "Xem cách tự động hóa AI của chúng tôi xử lý các loại yêu cầu của khách hàng khác nhau với tỷ lệ chính xác ấn tượng.",
+        "hybridTitle": "Sự cân bằng hoàn hảo: AI + Con người",
+        "hybridSubtitle": "Phương pháp lai của chúng tôi kết hợp tốc độ của AI với sự đồng cảm của nhân viên con người.",
+        "aiStrengthsTitle": "Điểm mạnh của tự động hóa AI",
+        "aiStrengths": [
+          "Phản hồi tức thì cho các câu hỏi thường gặp",
+          "Có sẵn 24/7 không nghỉ",
+          "Xử lý nhiều cuộc trò chuyện cùng lúc",
+          "Chất lượng dịch vụ nhất quán",
+          "Hỗ trợ giao tiếp đa ngôn ngữ",
+          "Truy cập nhanh vào thông tin cơ sở kiến thức"
+        ],
+        "humanStrengthsTitle": "Điểm mạnh của nhân viên con người",
+        "humanStrengths": [
+          "Giải quyết vấn đề phức tạp và sự đồng cảm",
+          "Xây dựng mối quan hệ cá nhân với khách hàng",
+          "Xử lý các tình huống nhạy cảm hoặc cảm xúc",
+          "Giải pháp sáng tạo và tư duy đột phá",
+          "Hiểu nhu cầu khách hàng tinh tế",
+          "Đưa ra phán đoán trong các kịch bản mơ hồ"
+        ],
+        "ctaTitle": "Sẵn sàng mở rộng quy mô với AI?",
+        "ctaSubtitle": "Bắt đầu với nhân viên con người miễn phí, sau đó thêm tự động hóa AI khi bạn sẵn sàng mở rộng quy mô. Phương pháp lai hoàn hảo cho các doanh nghiệp đang phát triển.",
+        "contextAware": {
+          "title": "Phản hồi nhận biết ngữ cảnh",
+          "description": "AI hiểu ngữ cảnh cuộc trò chuyện và cung cấp các phản hồi thông minh, liên quan."
+        },
+        "learning": {
+          "title": "Học hỏi từ các cuộc trò chuyện",
+          "description": "Liên tục cải thiện bằng cách học hỏi từ mọi tương tác của khách hàng."
+        },
+        "handoff": {
+          "title": "Chuyển giao liền mạch cho con người",
+          "description": "Chuyển đổi mượt mà sang nhân viên con người khi các vấn đề phức tạp phát sinh."
+        },
+        "availability": {
+          "title": "Có sẵn 24/7",
+          "description": "Cung cấp hỗ trợ tức thì suốt ngày đêm, ngay cả khi nhân viên ngoại tuyến."
+        },
+        "response": {
+          "title": "Thời gian phản hồi tức thì",
+          "description": "Phản hồi các yêu cầu của khách hàng trong mili giây, không phải phút."
+        },
+        "multilanguage": {
+          "title": "Hỗ trợ đa ngôn ngữ",
+          "description": "Tự động giao tiếp với khách hàng bằng ngôn ngữ ưa thích của họ."
+        },
+        "types": {
+          "faq": {
+            "title": "Tự động hóa Câu hỏi thường gặp",
+            "description": "Trả lời ngay lập tức các câu hỏi thường gặp với thông tin chính xác, cập nhật."
+          },
+          "orders": {
+            "title": "Cập nhật trạng thái đơn hàng",
+            "description": "Cung cấp theo dõi đơn hàng và thông tin vận chuyển thời gian thực."
+          },
+          "appointments": {
+            "title": "Lên lịch cuộc hẹn",
+            "description": "Đặt lịch hẹn và quản lý lịch tự động."
+          },
+          "recommendations": {
+            "title": "Đề xuất sản phẩm",
+            "description": "Đề xuất các sản phẩm liên quan dựa trên sở thích của khách hàng."
+          }
+        },
+        "scheduleDemo": "Lên lịch demo",
+        "signUpForFree": "Đăng ký miễn phí"
+      },
+      "api": {
+        "restful": {
+          "title": "API RESTful",
+          "description": "API REST sạch, trực quan với tài liệu toàn diện"
+        },
+        "webhooks": {
+          "title": "Webhook thời gian thực",
+          "description": "Nhận thông báo tức thì cho các sự kiện và cập nhật cuộc trò chuyện"
+        },
+        "security": {
+          "title": "Xác thực an toàn",
+          "description": "Xác thực OAuth 2.0 và khóa API với giới hạn tốc độ"
+        },
+        "cdn": {
+          "title": "CDN toàn cầu",
+          "description": "Truy cập API độ trễ thấp từ mọi nơi trên thế giới"
+        },
+        "endpoints": {
+          "createConversation": "Tạo cuộc trò chuyện mới",
+          "getConversation": "Truy xuất chi tiết cuộc trò chuyện",
+          "sendMessage": "Gửi tin nhắn trong cuộc trò chuyện"
+        },
+        "sdks": {
+          "available": "Có sẵn",
+          "comingSoon": "Sắp ra mắt"
+        },
+        "title": "API & Công cụ dành cho nhà phát triển",
+        "subtitle": "Xây dựng các tích hợp tùy chỉnh và mở rộng khả năng của SeaChat với API toàn diện và các công cụ thân thiện với nhà phát triển của chúng tôi.",
+        "getKeyButton": "Lấy khóa API",
+        "viewDocsButton": "Xem tài liệu",
+        "featuresTitle": "Tính năng API mạnh mẽ",
+        "featuresSubtitle": "Mọi thứ bạn cần để tích hợp SeaChat vào các hệ thống và quy trình làm việc hiện có của bạn.",
+        "endpointsTitle": "Các điểm cuối API",
+        "endpointsSubtitle": "Khám phá API toàn diện của chúng tôi với các ví dụ và tài liệu tương tác.",
+        "exampleRequestResponse": "Ví dụ yêu cầu/phản hồi",
+        "tryItOut": "Thử nó",
+        "testConsole": "Kiểm tra trong Console",
+        "copyCurl": "Sao chép cURL",
+        "sdksTitle": "SDK & Thư viện",
+        "sdksSubtitle": "Bắt đầu nhanh chóng với các SDK chính thức của chúng tôi cho các ngôn ngữ lập trình phổ biến.",
+        "exampleTitle": "Ví dụ khởi động nhanh",
+        "exampleSubtitle": "Bắt đầu và chạy với API SeaChat chỉ với vài dòng mã.",
+        "jsExample": "Ví dụ JavaScript",
+        "copy": "Sao chép",
+        "ctaTitle": "Sẵn sàng bắt đầu xây dựng?",
+        "ctaSubtitle": "Lấy khóa API của bạn và bắt đầu tích hợp SeaChat vào các ứng dụng của bạn ngay hôm nay.",
+        "ctaAccessButton": "Truy cập API",
+        "ctaDocsButton": "Đọc tài liệu"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "Sự hài lòng của khách hàng"
+          },
+          "responseTime": {
+            "title": "Thời gian phản hồi trung bình"
+          },
+          "resolution": {
+            "title": "Tỷ lệ giải quyết"
+          },
+          "growth": {
+            "title": "Tăng trưởng hàng tháng"
+          },
+          "period": "tháng này"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "Bảng điều khiển thời gian thực",
+              "description": "Giám sát hiệu suất hỗ trợ của bạn với các bảng điều khiển trực tiếp, có thể tùy chỉnh.",
+              "benefits": {
+                "metrics": "Các chỉ số hiệu suất trực tiếp",
+                "kpi": "Theo dõi KPI tùy chỉnh",
+                "team": "Chế độ xem hiệu suất nhóm",
+                "alerts": "Thông báo cảnh báo"
+              }
+            },
+            "reporting": {
+              "title": "Báo cáo nâng cao",
+              "description": "Tạo báo cáo chi tiết với thông tin chi tiết và xu hướng có thể hành động.",
+              "benefits": {
+                "automated": "Tạo báo cáo tự động",
+                "dates": "Phạm vi ngày tùy chỉnh",
+                "export": "Khả năng xuất",
+                "scheduled": "Giao hàng theo lịch trình"
+              }
+            },
+            "journey": {
+              "title": "Phân tích hành trình khách hàng",
+              "description": "Theo dõi các tương tác của khách hàng trên tất cả các điểm tiếp xúc và kênh.",
+              "benefits": {
+                "tracking": "Theo dõi đa kênh",
+                "visualization": "Trực quan hóa hành trình",
+                "conversion": "Phân tích chuyển đổi",
+                "dropoff": "Xác định điểm bỏ cuộc"
+              }
+            },
+            "optimization": {
+              "title": "Tối ưu hóa hiệu suất",
+              "description": "Xác định các nút thắt cổ chai và tối ưu hóa hoạt động hỗ trợ của bạn.",
+              "benefits": {
+                "bottlenecks": "Phát hiện nút thắt cổ chai",
+                "resources": "Phân bổ tài nguyên",
+                "efficiency": "Đề xuất hiệu quả",
+                "roi": "Phân tích ROI"
+              }
+            }
+          }
+        },
+        "title": "Phân tích & Thông tin chi tiết",
+        "subtitle": "Đưa ra các quyết định dựa trên dữ liệu với phân tích toàn diện tiết lộ hành vi khách hàng, hiệu suất nhân viên và các cơ hội tối ưu hóa.",
+        "metricsTitle": "Các chỉ số hiệu suất chính",
+        "metricsSubtitle": "Theo dõi các chỉ số quan trọng nhất đối với thành công hỗ trợ khách hàng của bạn.",
+        "featuresTitle": "Bộ phân tích toàn diện",
+        "featuresSubtitle": "Mọi thứ bạn cần để hiểu, đo lường và cải thiện hoạt động hỗ trợ khách hàng của bạn.",
+        "dashboardTitle": "Xem trước bảng điều khiển tương tác",
+        "dashboardSubtitle": "Xem cách bảng điều khiển phân tích của chúng tôi cung cấp thông tin chi tiết có thể hành động trong nháy mắt.",
+        "dashboard": {
+          "overview": "Tổng quan hiệu suất",
+          "months": {
+            "jan": "Tháng 1",
+            "dec": "Tháng 12"
+          },
+          "quickStats": "Thống kê nhanh",
+          "activeConversations": "Các cuộc trò chuyện đang hoạt động",
+          "systemUptime": "Thời gian hoạt động của hệ thống",
+          "customerRating": "Đánh giá khách hàng"
+        },
+        "ctaTitle": "Bắt đầu đưa ra các quyết định dựa trên dữ liệu",
+        "ctaSubtitle": "Mở khóa sức mạnh của phân tích để tối ưu hóa hỗ trợ khách hàng của bạn và thúc đẩy tăng trưởng kinh doanh."
+      },
+      "humanAgents": {
+        "title": "Trò chuyện với nhân viên con người",
+        "subtitle": "Bắt đầu với các nhân viên hỗ trợ con người thực, hoàn toàn miễn phí trọn đời. Không giới hạn, không có điều kiện, chỉ là kết nối con người thực sự với khách hàng của bạn.",
+        "startButton": "Bắt đầu miễn phí vĩnh viễn",
+        "demoButton": "Xem demo",
+        "unlimited": {
+          "title": "Giờ làm việc của nhân viên không giới hạn",
+          "description": "Không giới hạn thời gian, không giới hạn giờ. Nhân viên con người của bạn làm việc nhiều như bạn cần, hoàn toàn miễn phí."
+        },
+        "realtime": {
+          "title": "Quản lý trò chuyện thời gian thực",
+          "description": "Xử lý nhiều cuộc trò chuyện cùng lúc với giao diện trò chuyện trực quan của chúng tôi."
+        },
+        "collaboration": {
+          "title": "Cộng tác đa nhân viên",
+          "description": "Mở rộng quy mô nhóm của bạn với các chuyển giao nhân viên liền mạch và các công cụ cộng tác."
+        },
+        "security": {
+          "title": "Bảo mật nâng cao",
+          "description": "Bảo mật cấp doanh nghiệp với mã hóa đầu cuối và bảo vệ dữ liệu."
+        },
+        "analytics": {
+          "title": "Phân tích hiệu suất",
+          "description": "Theo dõi thời gian phản hồi, sự hài lòng của khách hàng và các chỉ số hiệu suất của nhân viên."
+        },
+        "workflows": {
+          "title": "Quy trình làm việc tùy chỉnh",
+          "description": "Tạo các quy trình làm việc cá nhân hóa và các quy tắc tự động hóa cho quy trình hỗ trợ của bạn."
+        },
+        "benefits": {
+          "personal": {
+            "title": "Sự tiếp xúc cá nhân",
+            "description": "Sự đồng cảm và hiểu biết của con người mà AI không thể sao chép"
+          },
+          "complex": {
+            "title": "Giải quyết vấn đề phức tạp",
+            "description": "Xử lý các tình huống tinh tế đòi hỏi sự phán đoán của con người"
+          },
+          "brand": {
+            "title": "Đại diện thương hiệu",
+            "description": "Các nhân viên thực sự hiểu và đại diện cho các giá trị thương hiệu của bạn"
+          },
+          "relationships": {
+            "title": "Mối quan hệ khách hàng",
+            "description": "Xây dựng mối quan hệ lâu dài thông qua các kết nối con người thực sự"
+          }
+        },
+        "freeForever": {
+          "title": "Hoàn toàn miễn phí như Miễn phí 🍺 & 🎙️",
+          "subtitle": "Chúng tôi thực sự có ý nghĩa khi nói miễn phí. Một nhân viên con người trọn đời, với mọi thứ không giới hạn.",
+          "meaningTitle": "\"Miễn phí vĩnh viễn\" thực sự có nghĩa là gì",
+          "agent": "1 nhân viên con người trọn đời",
+          "conversations": "Trò chuyện không giới hạn",
+          "history": "Lịch sử trò chuyện không giới hạn",
+          "contacts": "Liên hệ không giới hạn",
+          "export": "Tự do xuất tất cả dữ liệu",
+          "noCredit": "Không cần thẻ tín dụng",
+          "unlimited": "Mọi thứ không giới hạn",
+          "noCaps": "Không có phí ẩn, không giới hạn thời gian, không giới hạn cuộc trò chuyện. Chỉ là hỗ trợ con người thuần túy, không giới hạn.",
+          "forever": "Mãi mãi"
+        },
+        "featuresTitle": "Tính năng nhân viên con người mạnh mẽ",
+        "featuresSubtitle": "Mọi thứ bạn cần để cung cấp hỗ trợ khách hàng do con người cung cấp đặc biệt.",
+        "whyMatterTitle": "Tại sao nhân viên con người vẫn quan trọng",
+        "whyMatterSubtitle": "Trong một thế giới do AI điều khiển, kết nối con người vẫn không thể thay thế để xây dựng lòng tin và giải quyết các vấn đề phức tạp.",
+        "ctaTitle": "Sẵn sàng bắt đầu với nhân viên con người?",
+        "ctaSubtitle": "Tham gia cùng hàng ngàn doanh nghiệp cung cấp hỗ trợ khách hàng đặc biệt với nhân viên con người miễn phí của chúng tôi.",
+        "ctaStartButton": "Bắt đầu miễn phí ngay",
+        "ctaDemoButton": "Lên lịch demo"
+      },
+      "knowledgeBase": {
+        "subtitle": "Trao quyền cho nhân viên AI của bạn với quản lý kiến thức toàn diện. Tạo, tổ chức và duy trì một kho lưu trữ thông tin tập trung cho phép phản hồi thông minh, chính xác.",
+        "managementTitle": "Quản lý kiến thức thông minh",
+        "managementSubtitle": "Xây dựng nền tảng kiến thức mạnh mẽ phát triển cùng doanh nghiệp của bạn và nâng cao mọi tương tác của khách hàng.",
+        "smartSearch": {
+          "title": "Tìm kiếm thông minh",
+          "description": "Khả năng tìm kiếm ngữ nghĩa nâng cao hiểu ngữ cảnh và ý định, cung cấp thông tin chính xác ngay lập tức."
+        },
+        "documentManagement": {
+          "title": "Quản lý tài liệu",
+          "description": "Tải lên, tổ chức và kiểm soát phiên bản tài liệu, Câu hỏi thường gặp, chính sách và quy trình ở một vị trí tập trung."
+        },
+        "collaboration": {
+          "title": "Chỉnh sửa cộng tác",
+          "description": "Cho phép cộng tác nhóm với chỉnh sửa thời gian thực, quy trình làm việc phê duyệt và kiểm soát truy cập dựa trên vai trò."
+        },
+        "autoLearning": {
+          "title": "Tự động học",
+          "description": "Tự động thu thập và học hỏi từ các tương tác thành công để liên tục cải thiện độ chính xác của kiến thức."
+        },
+        "accessControl": {
+          "title": "Kiểm soát truy cập",
+          "description": "Bảo mật thông tin nhạy cảm với quyền chi tiết và đảm bảo tuân thủ các quy định bảo vệ dữ liệu."
+        },
+        "multiLanguage": {
+          "title": "Đa ngôn ngữ",
+          "description": "Hỗ trợ nhiều ngôn ngữ và bản địa hóa để phục vụ khách hàng toàn cầu với các phản hồi phù hợp với văn hóa."
+        },
+        "demoTitle": "Xem cơ sở kiến thức đang hoạt động",
+        "demoSubtitle": "Xem cách hệ thống kiến thức thông minh của chúng tôi cung cấp các phản hồi chính xác, theo ngữ cảnh.",
+        "interfaceTitle": "Giao diện cơ sở kiến thức",
+        "categories": "Danh mục tài liệu",
+        "productDocs": "Tài liệu sản phẩm",
+        "articles": "bài viết",
+        "supportFaqs": "Câu hỏi thường gặp về hỗ trợ khách hàng",
+        "policies": "Chính sách công ty",
+        "recentUpdates": "Cập nhật gần đây",
+        "refundUpdate": "Chính sách hoàn tiền đã cập nhật",
+        "hoursAgo": "giờ trước",
+        "returnWindow": "Đã cập nhật thời gian trả hàng từ 14 lên 30 ngày",
+        "featureGuide": "Hướng dẫn tính năng mới",
+        "dayAgo": "ngày trước",
+        "analyticsDoc": "Đã thêm tài liệu cho phân tích nâng cao",
+        "transformTitle": "Chuyển đổi hỗ trợ khách hàng của bạn",
+        "transformSubtitle": "Một cơ sở kiến thức được tổ chức tốt là nền tảng của dịch vụ khách hàng đặc biệt và hoạt động hiệu quả.",
+        "benefitsTitle": "Lợi ích chính",
+        "fasterResponse": {
+          "title": "Thời gian phản hồi nhanh hơn",
+          "description": "Giảm thời gian phản hồi trung bình 60% với quyền truy cập tức thì vào thông tin chính xác."
+        },
+        "consistency": {
+          "title": "Độ chính xác nhất quán",
+          "description": "Đảm bảo tất cả các nhân viên cung cấp thông tin nhất quán, cập nhật trên tất cả các kênh."
+        },
+        "training": {
+          "title": "Đào tạo có thể mở rộng",
+          "description": "Giới thiệu nhân viên mới nhanh hơn với tài liệu toàn diện, có thể tìm kiếm."
+        },
+        "readyTitle": "Sẵn sàng bắt đầu?",
+        "readySubtitle": "Xây dựng cơ sở kiến thức của bạn ngay hôm nay và chuyển đổi cách nhóm của bạn cung cấp hỗ trợ khách hàng.",
+        "startButton": "Bắt đầu xây dựng",
+        "scheduleDemo": "Lên lịch demo"
+      },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "Trò chuyện trang web",
+            "description": "Nhúng widget trò chuyện trên mọi nền tảng trang web",
+            "seachat": {
+              "features": {
+                "compatibility": "Tương thích phổ quát",
+                "styling": "Tạo kiểu tùy chỉnh",
+                "responsive": "Phản hồi trên thiết bị di động",
+                "sync": "Đồng bộ hóa thời gian thực"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "WhatsApp Business",
+            "seachat": {
+              "features": {
+                "api": "Tích hợp API doanh nghiệp",
+                "media": "Hỗ trợ đa phương tiện phong phú",
+                "templates": "Tin nhắn mẫu",
+                "groups": "Nhắn tin nhóm"
+              }
+            },
+            "description": "Kết nối với khách hàng trên ứng dụng nhắn tin phổ biến nhất thế giới"
+          },
+          "instagram": {
+            "name": "Instagram Direct",
+            "description": "Quản lý tin nhắn trực tiếp và trả lời câu chuyện trên Instagram ở một nơi",
+            "seachat": {
+              "features": {
+                "replies": "Quản lý trả lời câu chuyện",
+                "media": "Chia sẻ phương tiện",
+                "responses": "Phản hồi nhanh",
+                "greetings": "Lời chào tự động"
+              }
+            }
+          },
+          "facebook": {
+            "name": "Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "Tích hợp trang",
+                "responses": "Phản hồi tự động",
+                "cards": "Thẻ phong phú",
+                "menu": "Menu cố định"
+              }
+            },
+            "description": "Cung cấp hỗ trợ thông qua nền tảng nhắn tin của Facebook"
+          },
+          "voice": {
+            "name": "Cuộc gọi thoại",
+            "description": "Xử lý hỗ trợ điện thoại với nhân viên giọng nói AI",
+            "seachat": {
+              "features": {
+                "conversations": "Cuộc trò chuyện tự nhiên",
+                "routing": "Định tuyến cuộc gọi",
+                "voicemail": "Phiên âm thư thoại",
+                "conference": "Cuộc gọi hội nghị"
+              }
+            }
+          },
+          "email": {
+            "name": "Hỗ trợ qua email",
+            "description": "Quản lý phiếu yêu cầu qua email với định tuyến thông minh",
+            "seachat": {
+              "features": {
+                "categorization": "Phân loại thông minh",
+                "responses": "Phản hồi tự động",
+                "templates": "Mẫu email",
+                "priority": "Xử lý ưu tiên"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "Chế độ xem khách hàng hợp nhất",
+            "description": "Xem lịch sử khách hàng hoàn chỉnh trên tất cả các kênh trong một giao diện"
+          },
+          "handoffs": {
+            "title": "Chuyển giao liền mạch",
+            "description": "Khách hàng có thể chuyển kênh mà không mất ngữ cảnh cuộc trò chuyện"
+          },
+          "resolution": {
+            "title": "Giải quyết nhanh hơn",
+            "description": "Giảm thời gian giải quyết với quy trình làm việc của nhân viên hợp nhất"
+          },
+          "satisfaction": {
+            "title": "Sự hài lòng cao hơn",
+            "description": "Trải nghiệm nhất quán trên tất cả các điểm tiếp xúc"
+          }
+        },
+        "title": "Hỗ trợ đa kênh",
+        "subtitle": "Kết nối tất cả các điểm tiếp xúc khách hàng của bạn trong một nền tảng hợp nhất. Cung cấp hỗ trợ nhất quán, liền mạch trên các trang web, mạng xã hội, điện thoại và email.",
+        "channelsTitle": "Tất cả các kênh của bạn, một nền tảng",
+        "channelsSubtitle": "Kết nối và quản lý các cuộc trò chuyện của khách hàng trên mọi kênh mà khách hàng của bạn sử dụng.",
+        "benefitsTitle": "Sức mạnh của đa kênh thực sự",
+        "benefitsSubtitle": "Vượt xa việc chỉ có nhiều kênh. Tạo ra trải nghiệm hợp nhất làm hài lòng khách hàng.",
+        "inboxTitle": "Trải nghiệm hộp thư đến hợp nhất",
+        "inboxSubtitle": "Xem cách tất cả các cuộc trò chuyện của khách hàng của bạn kết hợp với nhau trong một giao diện thông minh.",
+        "activeConversations": "Các cuộc trò chuyện đang hoạt động",
+        "websiteChat": "Trò chuyện trang web về sản phẩm seachat.features...",
+        "whatsappInquiry": "Yêu cầu WhatsApp về trạng thái đơn hàng...",
+        "instagramDM": "Tin nhắn trực tiếp Instagram về chính sách trả hàng...",
+        "conversationView": "Chế độ xem cuộc trò chuyện",
+        "customerVia": "Khách hàng qua trang web",
+        "agentResponse": "Phản hồi của nhân viên",
+        "customerViaWhatsapp": "Khách hàng qua WhatsApp",
+        "whatsappMessage": "Cảm ơn! Tôi có thể tiếp tục cuộc trò chuyện này trên WhatsApp không?",
+        "ctaTitle": "Sẵn sàng hợp nhất các kênh khách hàng của bạn?",
+        "ctaSubtitle": "Kết nối tất cả các điểm tiếp xúc khách hàng của bạn và cung cấp trải nghiệm hỗ trợ liền mạch giúp khách hàng quay lại.",
+        "customerMessage": "Chào, tôi quan tâm đến các tính năng tự động hóa AI của bạn. Bạn có thể cho tôi biết thêm không?",
+        "agentMessage": "Tôi rất vui được giúp đỡ! Tự động hóa AI của chúng tôi có thể xử lý tới 80% các yêu cầu thường xuyên..."
+      },
+      "voiceAgents": {
+        "title": "Nhân viên giọng nói",
+        "subtitle": "Chuyển đổi hỗ trợ điện thoại với nhân viên giọng nói AI có giọng nói tự nhiên, hiểu ngữ cảnh và cung cấp hỗ trợ tức thì bằng nhiều ngôn ngữ.",
+        "signUpFree": "Đăng ký miễn phí",
+        "scheduleDemo": "Lên lịch demo",
+        "natural": {
+          "title": "Cuộc trò chuyện giọng nói tự nhiên",
+          "description": "Nhân viên giọng nói do AI hỗ trợ có giọng nói tự nhiên và hiểu ngữ cảnh."
+        },
+        "speech": {
+          "title": "Nhận dạng giọng nói nâng cao",
+          "description": "Chuyển giọng nói thành văn bản chính xác bằng nhiều ngôn ngữ và giọng điệu."
+        },
+        "synthesis": {
+          "title": "Tổng hợp giọng nói chất lượng cao",
+          "description": "Đầu ra giọng nói rõ ràng, giống con người với trí tuệ cảm xúc."
+        },
+        "support": {
+          "title": "Hỗ trợ giọng nói 24/7",
+          "description": "Hỗ trợ giọng nói suốt ngày đêm cho hỗ trợ khách hàng toàn cầu."
+        },
+        "multilanguage": {
+          "title": "Hỗ trợ đa ngôn ngữ",
+          "description": "Hỗ trợ hơn 50 ngôn ngữ với cách phát âm bản địa."
+        },
+        "routing": {
+          "title": "Định tuyến cuộc gọi thông minh",
+          "description": "Định tuyến thông minh đến nhân viên con người khi các vấn đề phức tạp phát sinh."
+        },
+        "capabilitiesTitle": "Khả năng giọng nói nâng cao",
+        "capabilitiesSubtitle": "Các nhân viên giọng nói của chúng tôi kết hợp AI tiên tiến với xử lý ngôn ngữ tự nhiên để có các cuộc trò chuyện giống con người.",
+        "capabilities": {
+          "service": {
+            "title": "Cuộc gọi dịch vụ khách hàng",
+            "description": "Xử lý các yêu cầu thường xuyên, trạng thái đơn hàng và khắc phục sự cố cơ bản"
+          },
+          "appointments": {
+            "title": "Lên lịch cuộc hẹn",
+            "description": "Đặt, lên lịch lại và xác nhận cuộc hẹn tự động"
+          },
+          "orders": {
+            "title": "Xử lý đơn hàng",
+            "description": "Nhận đơn hàng, xử lý thanh toán và xác nhận chi tiết"
+          },
+          "support": {
+            "title": "Hỗ trợ kỹ thuật",
+            "description": "Hướng dẫn khách hàng qua các bước khắc phục sự cố cơ bản"
+          }
+        },
+        "performanceTitle": "Hiệu suất nhân viên giọng nói",
+        "performanceSubtitle": "Xem cách các nhân viên giọng nói của chúng tôi hoạt động trên các loại tương tác khách hàng khác nhau.",
+        "accuracyRate": "Tỷ lệ chính xác",
+        "avgDuration": "Thời lượng trung bình",
+        "experienceTitle": "Trải nghiệm AI giọng nói đang hoạt động",
+        "experienceSubtitle": "Nghe các cuộc trò chuyện thực tế giữa khách hàng và nhân viên giọng nói của chúng tôi.",
+        "sampleTitle": "Cuộc trò chuyện mẫu",
+        "voiceAgent": "Nhân viên giọng nói",
+        "customer": "Khách hàng",
+        "agentGreeting": "Xin chào! Cảm ơn bạn đã gọi hỗ trợ SeaChat. Tôi có thể giúp gì cho bạn hôm nay?",
+        "customerQuestion": "Chào, tôi cần kiểm tra trạng thái đơn hàng gần đây của tôi.",
+        "agentResponse": "Tôi rất vui được giúp bạn với điều đó. Bạn có thể vui lòng cung cấp số đơn hàng hoặc địa chỉ email liên quan đến tài khoản của bạn không?",
+        "playDemo": "Phát demo đầy đủ",
+        "moreSamples": "Thêm mẫu",
+        "featuresTitle": "Tính năng nhân viên giọng nói",
+        "featuresList": {
+          "0": "Xử lý giọng nói tự nhiên",
+          "1": "Hỗ trợ đa ngôn ngữ",
+          "2": "Tích hợp hệ thống điện thoại",
+          "3": "Phân tích cảm xúc giọng nói",
+          "4": "Ghi âm và phân tích cuộc gọi",
+          "5": "Leo thang thông minh cho con người"
+        },
+        "ctaTitle": "Sẵn sàng chuyển đổi hỗ trợ điện thoại?",
+        "ctaSubtitle": "Trải nghiệm tương lai của hỗ trợ khách hàng bằng giọng nói với các nhân viên AI có giọng nói và cảm nhận giống con người."
+      }
+    },
+    "seo": {
+      "title": "SeaChat - Chatbot AI & Tự động hóa dịch vụ khách hàng | Seasalt.ai",
+      "titleSuffix": " - Chatbot AI & Tự động hóa dịch vụ khách hàng | Seasalt.ai",
+      "description": "SeaChat là một nền tảng chatbot do AI hỗ trợ giúp các doanh nghiệp tự động hóa dịch vụ khách hàng trên nhiều kênh bao gồm WhatsApp, trang web, mạng xã hội và nhiều hơn nữa."
+    }
+  }
+}

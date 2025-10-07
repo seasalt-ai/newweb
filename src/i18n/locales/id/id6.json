@@ -1,0 +1,1394 @@
+{
+  "common": {
+    "tableOfContents": "Daftar Isi",
+    "loading": {
+      "translations": "Memuat terjemahan...",
+      "blogPosts": "Memuat postingan blog..."
+    },
+    "actions": {
+      "signUp": "Daftar",
+      "bookDemo": "Pesan Demo",
+      "clearFilters": "Hapus filter",
+      "signUpForFree": "Daftar Gratis",
+      "scheduleDemo": "Jadwalkan Demo"
+    }
+  },
+  "navigation": {
+    "backToHome": "Kembali ke Beranda",
+    "backToBlog": "Kembali ke Blog"
+  },
+  "blog": {
+    "searchPlaceholder": "Cari postingan blog...",
+    "allCategories": "Semua Kategori",
+    "clearFilters": "Hapus filter",
+    "seo": {
+      "title": "Blog - Seasalt.ai",
+      "description": "Wawasan, tips, dan pembaruan tentang komunikasi pelanggan bertenaga AI, otomatisasi bisnis, dan masa depan pengalaman pelanggan."
+    },
+    "loading": {
+      "text": "Memuat postingan blog..."
+    },
+    "nav": {
+      "backToHome": "Kembali ke Beranda"
+    },
+    "hero": {
+      "title": "Seasalt.ai",
+      "highlight": "Blog",
+      "description": "Wawasan, tips, dan pembaruan tentang komunikasi pelanggan bertenaga AI, otomatisasi bisnis, dan masa depan pengalaman pelanggan."
+    },
+    "search": {
+      "placeholder": "Cari postingan blog..."
+    },
+    "filter": {
+      "allCategories": "Semua Kategori"
+    },
+    "empty": {
+      "noPosts": "Tidak ada postingan blog ditemukan.",
+      "noResults": "Tidak ada postingan yang cocok dengan kriteria pencarian Anda.",
+      "clearFilters": "Hapus filter"
+    },
+    "post": {
+      "readMore": "Baca Selengkapnya →",
+      "updated": "Diperbarui"
+    },
+    "newsletter": {
+      "title": "Tetap Terkini dengan Wawasan Terbaru Kami",
+      "description": "Dapatkan artikel terbaru tentang otomatisasi AI, pengalaman pelanggan, dan pertumbuhan bisnis langsung ke kotak masuk Anda.",
+      "emailPlaceholder": "Masukkan email Anda",
+      "subscribeButton": "Berlangganan"
+    }
+  },
+  "careers": {
+    "seo": {
+      "title": "Karir di Seasalt.ai",
+      "description": "Jelajahi peluang karir di Seasalt.ai. Bergabunglah dengan misi kami untuk mengubah dunia komunikasi bisnis dengan AI."
+    },
+    "hero": {
+      "title": "Karir di Seasalt.ai",
+      "subtitle": "Bergabunglah dengan misi kami untuk mengubah dunia komunikasi bisnis dengan AI. Kami merekrut orang-orang terbaik dan terpintar di dunia untuk membantu mewujudkan transformasi ini."
+    },
+    "mission": {
+      "title": "Misi Seasalt.ai",
+      "content": "Misi Seasalt.ai adalah mengubah dunia bisnis dengan AI. Kami merekrut orang-orang terbaik dan terpintar di dunia untuk membantu mewujudkan transformasi ini."
+    },
+    "vision": {
+      "title": "Visi Seasalt.ai",
+      "content": "Visi Seasalt.ai adalah menciptakan dunia di mana manusia hidup berdampingan dengan AI. Kami memecahkan B2B dengan mempertimbangkan B2C."
+    },
+    "departments": {
+      "business": "Bisnis",
+      "product": "Produk",
+      "engineering": "Teknik"
+    },
+    "positions": {
+      "businessDeveloper": {
+        "title": "Pengembang Bisnis",
+        "location": "Jarak Jauh",
+        "type": "Penuh Waktu"
+      },
+      "fieldMarketingDirectSales": {
+        "title": "Pemasaran Lapangan & Penjualan Langsung",
+        "location": "Jarak Jauh",
+        "type": "Penuh Waktu"
+      },
+      "technicalProductManager": {
+        "title": "Manajer Produk Teknis",
+        "location": "Jarak Jauh",
+        "type": "Penuh Waktu"
+      },
+      "productMarketing": {
+        "title": "Pemasaran Produk",
+        "location": "Jarak Jauh",
+        "type": "Penuh Waktu"
+      },
+      "frontendEngineer": {
+        "title": "Insinyur Frontend",
+        "location": "Jarak Jauh",
+        "type": "Penuh Waktu"
+      },
+      "backendEngineer": {
+        "title": "Insinyur Backend",
+        "location": "Jarak Jauh",
+        "type": "Penuh Waktu"
+      },
+      "devOps": {
+        "title": "Insinyur DevOps",
+        "location": "Jarak Jauh",
+        "type": "Penuh Waktu"
+      },
+      "mlEngineerNLP": {
+        "title": "Insinyur Pembelajaran Mesin (NLP)",
+        "location": "Jarak Jauh",
+        "type": "Penuh Waktu"
+      },
+      "mlEngineerLanguageModeling": {
+        "title": "Insinyur Pembelajaran Mesin (Pemodelan Bahasa)",
+        "location": "Jarak Jauh",
+        "type": "Penuh Waktu"
+      },
+      "mlEngineerSpeechRecognition": {
+        "title": "Insinyur Pembelajaran Mesin (Pengenalan Ucapan)",
+        "location": "Jarak Jauh",
+        "type": "Penuh Waktu"
+      }
+    },
+    "common": {
+      "detail": "Lihat Detail"
+    }
+  },
+  "company": {
+    "seo": {
+      "title": "Tentang Seasalt.ai - Informasi Perusahaan & Kepemimpinan",
+      "description": "Pelajari tentang Seasalt.ai, penyedia terkemuka solusi teknologi AI komunikasi cloud. Didirikan oleh para ahli AI, kami mengubah komunikasi bisnis dengan platform AI omnichannel."
+    },
+    "hero": {
+      "title": "Tentang Seasalt.ai",
+      "description": "Seasalt.ai adalah penyedia terkemuka solusi teknologi AI komunikasi cloud, membangun platform terpadu, multibahasa, dan omnichannel untuk bisnis di seluruh dunia. Didirikan pada tahun 2020 oleh para veteran industri di bidang AI dan teknologi suara, Seasalt.ai memiliki misi untuk membuat AI percakapan tingkat perusahaan dapat diakses, aman, dan skalabel untuk semua orang.",
+      "subtitle": "Dari UKM hingga nirlaba hingga organisasi sektor publik, Seasalt.ai memberdayakan tim untuk mengotomatiskan komunikasi, meningkatkan pengalaman pelanggan, dan membuka saluran baru untuk pertumbuhan."
+    },
+    "mission": {
+      "title": "Misi & Nilai Kami",
+      "heading": "Misi Kami",
+      "text": "Mengubah dunia komunikasi bisnis dengan AI—membangun percakapan yang alami, dapat ditindaklanjuti di mana saja, di saluran apa pun.",
+      "statement": "Kami membangun agen AI yang berbicara, mendengarkan, dan bertindak — di seluruh pesan, suara, dan web — sehingga manusia dapat fokus pada apa yang benar-benar penting.",
+      "future": "Kami percaya masa depan pekerjaan adalah augmented AI, bukan digantikan AI. Teknologi kami membantu orang melakukan pekerjaan mereka dengan lebih baik, lebih cepat, dan lebih bermakna."
+    },
+    "vision": {
+      "heading": "Visi Kami",
+      "text": "Menciptakan dunia di mana manusia dan AI berkolaborasi dengan mulus, memberikan nilai bisnis yang berakar pada kesederhanaan, kepercayaan, dan keunggulan teknologi."
+    },
+    "values": {
+      "title": "🧭 Nilai Inti Kami",
+      "humanFirst": {
+        "title": "Manusia Pertama",
+        "description": "Menempatkan manusia sebagai pusat dari semua solusi AI kami."
+      },
+      "transparency": {
+        "title": "Transparansi",
+        "description": "Komunikasi terbuka dan jujur di seluruh tim kami dan dengan pelanggan."
+      },
+      "speedSafety": {
+        "title": "Kecepatan & Keamanan",
+        "description": "Memberikan solusi cepat sambil mempertahankan standar keamanan tertinggi."
+      },
+      "buildPurpose": {
+        "title": "Membangun dengan Tujuan",
+        "description": "Setiap produk dan fitur melayani tujuan yang bermakna."
+      },
+      "globalEmpathy": {
+        "title": "Empati Global",
+        "description": "Merancang solusi dengan sensitivitas budaya dan dampak di seluruh dunia."
+      }
+    },
+    "leadership": {
+      "0": {
+        "role": "CEO & Co-Founder",
+        "bio": "Sebelumnya ikut mendirikan KITT.AI (didukung oleh Amazon dan Microsoft, diakuisisi oleh Baidu). Pendiri dua kali dan ahli AI yang diakui. PhD dalam Pemrosesan Bahasa Alami dari Johns Hopkins University CLSP.",
+        "homepage": "https://xuchen.github.io/"
+      },
+      "1": {
+        "role": "CTO & Co-Founder",
+        "bio": "Ahli dalam teknologi ucapan, juga salah satu pendiri KITT.AI. Pengalaman mendalam dalam pengenalan ucapan multibahasa dan AI percakapan. PhD dalam Pengenalan Ucapan dari Johns Hopkins University CLSP.",
+        "scholar": "https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao"
+      },
+      "title": "Kepemimpinan & Co-founder",
+      "homepage": "Beranda",
+      "scholar": "Google Scholar"
+    },
+    "offices": {
+      "title": "Lokasi Kantor",
+      "list": [
+        {
+          "title": "Kantor Pusat Global",
+          "location": "Seattle, Washington, AS"
+        },
+        {
+          "title": "Pusat R&D dan Dukungan Asia",
+          "location": "Taipei, Taiwan"
+        }
+      ]
+    },
+    "products": {
+      "title": "Apa yang Kami Bangun",
+      "subtitle": "Portofolio Produk",
+      "downloadPressKit": "Unduh Logo Produk & Kit Pers",
+      "product1": {
+        "name": "SeaChat (AI Respons)",
+        "description": "Layanan pelanggan bertenaga AI, multibahasa, omnichannel (WhatsApp, FB Messenger, Instagram, Line, web, SMS, suara)."
+      },
+      "product2": {
+        "name": "SeaX (AI Jangkauan)",
+        "description": "Keterlibatan keluar, dialpad, kampanye, SMS/WhatsApp/suara massal untuk penjualan dan pemasaran."
+      },
+      "product3": {
+        "name": "SeaMeet (AI Wawasan)",
+        "description": "Kopilot rapat AI: notulen otomatis, ringkasan, analitik semantik, dan AI suara untuk rapat bisnis."
+      },
+      "product4": {
+        "name": "SeaVoice (Autopilot Suara)",
+        "description": "Infrastruktur AI suara canggih yang memungkinkan agen telepon seperti manusia untuk panggilan masuk dan keluar — dibangun dengan LLM dan pengenalan ucapan canggih."
+      }
+    },
+    "funding": {
+      "title": "Pendanaan & Investor",
+      "seedFunding": "Pendanaan Awal",
+      "raised": "$4.2 juta USD terkumpul pada tahun 2024",
+      "investorsTitle": "Investor kami meliputi:",
+      "investorsList": [
+        "Unlock Venture Partners (Investor Utama)",
+        "Z Venture Capital (ZVC, lengan ventura korporat LINE)",
+        "SparkLabs Group (SparkLabs Taiwan)",
+        "Grand Vision Capital Group",
+        "PatientsForce"
+      ]
+    },
+    "partnership": {
+      "title": "Kemitraan Strategis",
+      "description": "Kekuatan platform kami diperkuat oleh kemitraan strategis yang mendalam dengan pemimpin teknologi global:"
+    },
+    "partnerships": {
+      "list": [
+        {
+          "description": "Sebagai Mitra Emas Twilio dan reseller resmi Twilio Flex, kami memiliki hubungan strategis yang diperkuat untuk meningkatkan pengalaman pelanggan dengan AI percakapan. Kunci ekspansi kami di wilayah Asia-Pasifik dan Jepang (APJ).",
+          "type": "Mitra Emas"
+        },
+        {
+          "description": "Integrasi platform resmi dengan Facebook/WhatsApp/Instagram, memungkinkan komunikasi omnichannel yang mulus.",
+          "type": "Integrasi Resmi"
+        },
+        {
+          "description": "Kemitraan memungkinkan kami untuk dengan mulus membangun fitur email dan penjadwalan canggih langsung ke dalam aplikasi kami, meningkatkan kedalaman kontekstual agen AI kami.",
+          "type": "Mitra Strategis"
+        },
+        {
+          "description": "Melalui investor kami ZVC, kami memiliki akses unik ke API panggilan bisnis LINE, penting untuk strategi kami di pasar Asia utama di mana LINE adalah platform komunikasi yang dominan.",
+          "type": "Mitra Strategis dan Investasi"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Perjalanan Kami",
+      "subtitle": "Tonggak penting dalam misi kami untuk mengubah komunikasi bisnis",
+      "list": [
+        {
+          "event": "Seasalt.ai didirikan oleh para veteran industri di bidang AI dan teknologi suara"
+        },
+        {
+          "event": "Bertahan dari Covid19. Tidak ada yang dipecat."
+        },
+        {
+          "event": "Peluncuran platform layanan pelanggan omnichannel SeaChat"
+        },
+        {
+          "event": "Pengenalan AI jangkauan SeaX dan AI wawasan SeaMeet"
+        },
+        {
+          "event": "Peluncuran infrastruktur AI suara SeaVoice"
+        }
+      ]
+    },
+    "careers": {
+      "title": "Karir di Seasalt.ai",
+      "description": "Seasalt.ai beroperasi dengan budaya global, beragam, dan ramah jarak jauh, selalu mencari insinyur, ilmuwan AI, pengembang, dan pembangun bisnis.",
+      "cta": "Lihat posisi terbuka",
+      "bullet1": "Budaya global, beragam, dan ramah jarak jauh",
+      "bullet2": "Bekerja dengan teknologi AI mutakhir",
+      "bullet3": "Membuat dampak nyata dalam komunikasi bisnis",
+      "bullet4": "Berkolaborasi dengan veteran industri"
+    },
+    "contact": {
+      "title": "Kontak & Pers",
+      "press": {
+        "title": "Pers & Media",
+        "email": "press@seasalt.ai"
+      },
+      "investors": {
+        "title": "Investor",
+        "email": "invest@seasalt.ai"
+      },
+      "partnerships": {
+        "title": "Kemitraan",
+        "email": "partnerships@seasalt.ai"
+      },
+      "hotline": {
+        "title": "Hotline 24/7",
+        "number": "+1-(SMB)-AI-AGENT"
+      },
+      "downloadPressKit": "Unduh Logo Produk & Kit Pers",
+      "tagline": "Seasalt.ai—menjembatani inovasi dan dampak dalam komunikasi bisnis, membuat AI cloud dapat diakses oleh tim di seluruh dunia.",
+      "pressKit": {
+        "downloadText": "Unduh Logo Produk & Kit Pers",
+        "description": "Seasalt.ai—menjembatani inovasi dan dampak dalam komunikasi bisnis, membuat AI cloud dapat diakses oleh tim di seluruh dunia."
+      }
+    },
+    "newsletter": {
+      "title": "Daftar ke Buletin Kami",
+      "subtitle": "Satu per minggu, ditulis oleh CEO",
+      "description": "Dapatkan wawasan tentang AI, komunikasi bisnis, dan masa depan pekerjaan langsung dari tim kepemimpinan kami.",
+      "emailPlaceholder": "Masukkan alamat email Anda",
+      "cta": "Berlangganan",
+      "disclaimer": "Tanpa spam, berhenti berlangganan kapan saja. Kami menghormati privasi Anda."
+    },
+    "useCaseCategories": {
+      "smallMediumBusinesses": "Bisnis Kecil & Menengah",
+      "healthcare": "Kesehatan",
+      "education": "Pendidikan",
+      "campaignMessaging": "Pesan Kampanye",
+      "speechAnalysis": "Analisis Ucapan"
+    },
+    "useCaseLinks": {
+      "getTwilioApproval": "Dapatkan persetujuan untuk kampanye SMS Twilio",
+      "bulkSendSms": "Kirim SMS massal",
+      "whatsappCustomers": "WhatsApp pelanggan Anda",
+      "callCustomersBatch": "Panggil pelanggan Anda secara batch",
+      "autoAnswerCalls": "Jawab panggilan otomatis 24/7",
+      "voiceAiSeniors": "Panggilan AI suara untuk memeriksa lansia",
+      "hospitalAnalytics": "Dasbor analitik panggilan telepon untuk rumah sakit",
+      "conversationalGenAi": "GenAI percakapan untuk ruang kelas",
+      "winCampaigns": "Menangkan kampanye dengan teks & panggilan otomatis",
+      "transcribeAudio": "Transkripsikan audio & panggilan untuk menemukan wawasan",
+      "meetingAnalytics": "Analitik rapat untuk tim jarak jauh"
+    }
+  },
+  "solutions": {
+    "salesMarketing": {
+      "seo": {
+        "title": "Solusi Penjualan & Pemasaran - Seasalt.ai",
+        "description": "Tangkap lebih banyak prospek, respons lebih cepat, dan konversi lebih baik dengan otomatisasi cerdas yang berfungsi di setiap saluran. Prospek Anda mendapatkan respons instan sementara Anda fokus pada penutupan kesepakatan."
+      },
+      "navigation": {
+        "backToHome": "Kembali ke Beranda"
+      },
+      "hero": {
+        "title1": "Ubah Setiap Prospek menjadi",
+        "titleGradient": "Peluang Pendapatan",
+        "subtitle": "Otomatisasi Penjualan & Pemasaran Bertenaga AI yang Tidak Pernah Tidur",
+        "description": "Tangkap lebih banyak prospek, respons lebih cepat, dan konversi lebih baik dengan otomatisasi cerdas yang berfungsi di setiap saluran. Prospek Anda mendapatkan respons instan sementara Anda fokus pada penutupan kesepakatan.",
+        "cta": {
+          "primary": "Tingkatkan Konversi Anda",
+          "secondary": "Pesan Demo"
+        },
+        "dashboard": {
+          "title": "Kinerja Penjualan",
+          "leads": "🎯 47 prospek baru ditangkap hari ini",
+          "leadsQualified": "AI mengkualifikasi 23 sebagai prioritas tinggi",
+          "responseTime": "⚡ Waktu respons rata-rata: 12 detik",
+          "responseTimeBenefit": "300% lebih cepat dari rata-rata industri",
+          "demos": "📅 15 demo dipesan secara otomatis",
+          "demosNote": "Saat tim Anda sedang rapat",
+          "pipeline": "💰 $24.500 pipeline ditambahkan minggu ini",
+          "conversion": "Peningkatan tingkat konversi 45%"
+        }
+      },
+      "challenges": {
+        "title": "Tantangan Penjualan & Pemasaran",
+        "description": "Setiap menit Anda tidak menanggapi prospek adalah menit yang mungkin diambil pesaing Anda. Jangan biarkan proses manual merugikan pendapatan Anda.",
+        "leadGeneration": {
+          "title": "Generasi & Kualifikasi Prospek",
+          "description": "Berjuang untuk menangkap prospek di berbagai saluran dan mengkualifikasinya secara efisien"
+        },
+        "conversion": {
+          "title": "Optimalisasi Konversi",
+          "description": "Kehilangan peluang untuk mengubah prospek karena waktu respons yang lambat"
+        },
+        "campaignManagement": {
+          "title": "Manajemen Kampanye",
+          "description": "Kesulitan mengelola kampanye multi-saluran dan melacak efektivitasnya"
+        }
+      },
+      "solutions": {
+        "title": "Mesin Penjualan Bertenaga AI Anda",
+        "description": "Ubah operasi penjualan dan pemasaran Anda dengan otomatisasi cerdas yang menangkap, mengkualifikasi, dan mengubah prospek sepanjang waktu.",
+        "leadCapture": {
+          "title": "Penangkapan & Kualifikasi Prospek Cerdas",
+          "description": "Tangkap prospek dari setiap saluran dan biarkan AI mengkualifikasinya secara instan",
+          "benefit1": "Tangkap prospek dari situs web, media sosial, dan iklan",
+          "benefit2": "AI mengkualifikasi prospek dengan pertanyaan cerdas",
+          "benefit3": "Penilaian dan prioritas prospek otomatis",
+          "benefit4": "Notifikasi instan untuk prospek panas"
+        },
+        "responseTime": {
+          "title": "Waktu Respons Secepat Kilat",
+          "description": "Tanggapi prospek dalam hitungan detik, bukan jam, dengan otomatisasi AI",
+          "benefit1": "Respons instan untuk semua pertanyaan 24/7",
+          "benefit2": "AI memesan demo dan konsultasi secara otomatis",
+          "benefit3": "Urutan tindak lanjut cerdas yang memelihara prospek",
+          "benefit4": "Serah terima mulus ke perwakilan penjualan saat siap"
+        },
+        "omnichannel": {
+          "title": "Manajemen Kampanye Omnichannel",
+          "description": "Luncurkan dan kelola kampanye di seluruh SMS, WhatsApp, email, dan suara",
+          "benefit1": "Manajemen kampanye terpadu di semua saluran",
+          "benefit2": "Pesan yang dipersonalisasi dalam skala besar",
+          "benefit3": "Pelacakan kinerja kampanye real-time",
+          "benefit4": "Pengujian A/B otomatis dan optimalisasi"
+        },
+        "keyBenefits": "Manfaat Utama:"
+      },
+      "useCases": {
+        "title": "Kisah Sukses Tim Penjualan Nyata",
+        "description": "Lihat bagaimana tim penjualan dan pemasaran menggunakan Seasalt.ai untuk mempercepat pertumbuhan mereka",
+        "saas": {
+          "title": "Tim Penjualan SaaS",
+          "challenge": "Menghasilkan dan mengkualifikasi prospek untuk demo perangkat lunak",
+          "solution": "AI menangkap prospek dari situs web, mengkualifikasi tingkat minat, dan memesan demo secara otomatis"
+        },
+        "ecommerce": {
+          "title": "Pemasaran E-commerce",
+          "challenge": "Menjalankan kampanye promosi dan memulihkan keranjang yang ditinggalkan",
+          "solution": "Kampanye SMS dan WhatsApp otomatis dengan penawaran yang dipersonalisasi dan pemulihan keranjang"
+        },
+        "realEstate": {
+          "title": "Agen Real Estat",
+          "challenge": "Menindaklanjuti pertanyaan properti dan menjadwalkan penayangan",
+          "solution": "AI menanggapi pertanyaan properti secara instan dan memesan janji temu penayangan"
+        },
+        "professionalServices": {
+          "title": "Layanan Profesional",
+          "challenge": "Mengubah permintaan konsultasi menjadi janji temu yang dipesan",
+          "solution": "Proses kualifikasi cerdas yang memesan konsultasi dengan anggota tim yang tepat"
+        },
+        "challengeLabel": "TANTANGAN:",
+        "solutionLabel": "SOLUSI SEASALT.AI:"
+      },
+      "metrics": {
+        "title": "Dampak Kinerja Penjualan",
+        "description": "Lihat dampak terukur pada metrik penjualan dan pemasaran Anda",
+        "responseRate": "Peningkatan tingkat respons prospek",
+        "conversionRate": "Tingkat konversi yang lebih tinggi",
+        "availability": "Penangkapan dan kualifikasi prospek",
+        "qualifiedLeads": "Lebih banyak prospek yang berkualitas per bulan"
+      },
+      "cta": {
+        "title": "Siap Meningkatkan Kinerja Penjualan Anda?",
+        "description": "Bergabunglah dengan ratusan tim penjualan yang menggunakan Seasalt.ai untuk menangkap lebih banyak prospek, merespons lebih cepat, dan menutup lebih banyak kesepakatan dengan otomatisasi AI.",
+        "primary": "Daftar",
+        "secondary": "Pesan Demo Penjualan",
+        "disclaimer": "Tidak perlu kartu kredit • Lihat hasil dalam 24 jam • Batalkan kapan saja"
+      }
+    },
+    "customerSupport": {
+      "seo": {
+        "title": "Solusi Dukungan Pelanggan - Seasalt.ai",
+        "description": "Ubah dukungan pelanggan Anda dengan otomatisasi cerdas yang menangani pertanyaan rutin secara instan sambil memberdayakan agen manusia Anda untuk fokus pada interaksi kompleks dan bernilai tinggi."
+      },
+      "navigation": {
+        "backToHome": "Kembali ke Beranda"
+      },
+      "hero": {
+        "title": {
+          "deliver": "Berikan",
+          "exceptionalSupport": "Dukungan Luar Biasa",
+          "atScale": "dalam Skala Besar"
+        },
+        "subtitle": "Dukungan Pelanggan Bertenaga AI yang Tidak Pernah Tidur",
+        "description": "Ubah dukungan pelanggan Anda dengan otomatisasi cerdas yang menangani pertanyaan rutin secara instan sambil memberdayakan agen manusia Anda untuk fokus pada interaksi kompleks dan bernilai tinggi.",
+        "cta": {
+          "primary": "Tingkatkan Dukungan Sekarang",
+          "secondary": "Lihat Demo"
+        },
+        "dashboard": {
+          "title": "Dasbor Dukungan",
+          "aiResolved": "🤖 AI menyelesaikan 156 tiket hari ini",
+          "resolutionTime": "Waktu resolusi rata-rata: 23 detik",
+          "escalated": "👥 12 tiket dialihkan ke manusia",
+          "complexIssues": "Masalah kompleks yang membutuhkan keahlian",
+          "satisfaction": "😊 Kepuasan pelanggan: 96%",
+          "satisfactionUp": "Naik 15% dari bulan lalu",
+          "responseTime": "⏱️ Waktu respons rata-rata: 8 detik",
+          "fasterThanAverage": "98% lebih cepat dari rata-rata industri"
+        }
+      },
+      "challenges": {
+        "title": "Tantangan Dukungan Pelanggan",
+        "description": "Pelanggan modern mengharapkan dukungan instan dan personal. Model dukungan tradisional berjuang untuk memenuhi harapan ini sambil mengendalikan biaya.",
+        "responseTimePressure": {
+          "title": "Tekanan Waktu Respons",
+          "description": "Pelanggan mengharapkan respons instan, tetapi tim Anda tidak dapat tersedia 24/7"
+        },
+        "scalingTeam": {
+          "title": "Penskalaan Tim Dukungan",
+          "description": "Basis pelanggan yang berkembang membutuhkan lebih banyak agen, tetapi perekrutan mahal dan lambat"
+        },
+        "repetitiveInquiries": {
+          "title": "Pertanyaan Berulang",
+          "description": "Agen menghabiskan terlalu banyak waktu untuk pertanyaan rutin daripada masalah kompleks"
+        }
+      },
+      "solutions": {
+        "title": "Solusi Dukungan Bertenaga AI Anda",
+        "description": "Gabungkan efisiensi otomatisasi AI dengan empati agen manusia untuk memberikan pengalaman pelanggan yang luar biasa dalam skala apa pun.",
+        "instantResponse": {
+          "title": "Sistem Respons Instan 24/7",
+          "description": "AI menangani pertanyaan pelanggan segera, kapan saja siang atau malam",
+          "benefit1": "Respons instan untuk pertanyaan umum",
+          "benefit2": "AI menyelesaikan 80% pertanyaan rutin",
+          "benefit3": "Eskalasi mulus ke agen manusia",
+          "benefit4": "Kualitas layanan yang konsisten sepanjang waktu"
+        },
+        "agentProductivity": {
+          "title": "Produktivitas Agen Cerdas",
+          "description": "Berdayakan agen manusia Anda dengan bantuan AI dan konteks pelanggan terpadu",
+          "benefit1": "Riwayat pelanggan lengkap dalam satu tampilan",
+          "benefit2": "AI menyarankan respons dan solusi",
+          "benefit3": "Perutean dan prioritas tiket otomatis",
+          "benefit4": "Analisis sentimen real-time dan peringatan"
+        },
+        "satisfactionOptimization": {
+          "title": "Optimalisasi Kepuasan Pelanggan",
+          "description": "Berikan pengalaman luar biasa yang mengubah pelanggan menjadi advokat",
+          "benefit1": "Resolusi masalah proaktif dan tindak lanjut",
+          "benefit2": "Dukungan yang dipersonalisasi berdasarkan riwayat pelanggan",
+          "benefit3": "Konsistensi multi-saluran di semua titik kontak",
+          "benefit4": "Peningkatan berkelanjutan melalui pembelajaran AI"
+        },
+        "keyBenefitsTitle": "Manfaat Utama:"
+      },
+      "useCases": {
+        "title": "Kisah Sukses Tim Dukungan",
+        "description": "Lihat bagaimana tim dukungan pelanggan menggunakan Seasalt.ai untuk meningkatkan efisiensi dan kepuasan",
+        "ecommerce": {
+          "title": "Dukungan E-commerce",
+          "scenario": "Menangani status pesanan, pengembalian, dan pertanyaan produk dalam skala besar",
+          "solution": "AI secara instan memberikan pembaruan pesanan dan memproses pengembalian, mengalihkan masalah kompleks ke manusia"
+        },
+        "saas": {
+          "title": "Keberhasilan Pelanggan SaaS",
+          "scenario": "Mendukung pengguna dengan pertanyaan teknis dan panduan fitur",
+          "solution": "AI menyediakan artikel bantuan dan tutorial instan, memesan panggilan dukungan teknis saat dibutuhkan"
+        },
+        "healthcare": {
+          "title": "Dukungan Pasien Kesehatan",
+          "scenario": "Mengelola penjadwalan janji temu dan pertanyaan kesehatan dasar",
+          "solution": "AI yang sesuai HIPAA menangani penjadwalan dan pertanyaan dasar, mengarahkan masalah mendesak ke staf"
+        },
+        "financial": {
+          "title": "Layanan Keuangan",
+          "scenario": "Menjawab pertanyaan akun sambil mempertahankan kepatuhan keamanan",
+          "solution": "AI yang aman memverifikasi identitas dan memberikan info akun, mengalihkan masalah sensitif dengan tepat"
+        },
+        "challengeLabel": "TANTANGAN:",
+        "solutionLabel": "SOLUSI SEASALT.AI:"
+      },
+      "metrics": {
+        "title": "Dampak Kinerja Dukungan",
+        "description": "Peningkatan terukur dalam efisiensi, kepuasan, dan manajemen biaya",
+        "responseTimeReduction": "80%",
+        "responseTimeDescription": "Pengurangan waktu respons",
+        "satisfactionScore": "95%",
+        "satisfactionDescription": "Skor kepuasan pelanggan",
+        "costDecrease": "60%",
+        "costDescription": "Penurunan biaya dukungan",
+        "availability": "24/7",
+        "availabilityDescription": "Ketersediaan tanpa lembur"
+      },
+      "cta": {
+        "title": "Siap Mengubah Dukungan Pelanggan Anda?",
+        "description": "Bergabunglah dengan ratusan tim dukungan yang menggunakan Seasalt.ai untuk memberikan pengalaman pelanggan yang lebih cepat, lebih efisien, dan lebih memuaskan.",
+        "primary": "Daftar",
+        "secondary": "Pesan Demo Dukungan",
+        "disclaimer": "Tidak perlu kartu kredit • Tingkatkan kepuasan dalam 24 jam • Batalkan kapan saja"
+      }
+    },
+    "aiAutomation": {
+      "seo": {
+        "title": "Solusi Otomatisasi AI - Seasalt.ai",
+        "description": "Ubah operasi bisnis Anda dengan AI yang tidak hanya mengikuti aturan—ia memahami konteks, membuat keputusan cerdas, dan terus meningkat untuk memberikan hasil yang luar biasa."
+      },
+      "nav": {
+        "backToHome": "Kembali ke Beranda"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Bebaskan Kekuatan",
+          "highlight": "Otomatisasi AI"
+        },
+        "subtitle": "Otomatisasi Cerdas yang Berpikir, Belajar, dan Skala",
+        "description": "Ubah operasi bisnis Anda dengan AI yang tidak hanya mengikuti aturan—ia memahami konteks, membuat keputusan cerdas, dan terus meningkat untuk memberikan hasil yang luar biasa.",
+        "cta": {
+          "primary": "Mulai Otomatisasi",
+          "secondary": "Lihat AI Beraksi"
+        },
+        "dashboard": {
+          "title": "Pusat Otomatisasi AI",
+          "stats": {
+            "tasks": "🧠 AI memproses 342 tugas hari ini",
+            "tasksSaved": "Menghemat 8,5 jam kerja manual",
+            "workflows": "⚡ 23 alur kerja otomatis",
+            "workflowsDescription": "Dari penangkapan prospek hingga orientasi pelanggan",
+            "accuracy": "📈 Tingkat akurasi 97%",
+            "accuracyDescription": "Terus meningkat melalui ML",
+            "savings": "🎯 Penghematan biaya $12.400 bulan ini",
+            "savingsDescription": "Melalui otomatisasi cerdas"
+          }
+        }
+      },
+      "challenges": {
+        "title": "Tantangan Otomatisasi",
+        "description": "Otomatisasi tradisional kaku dan terbatas. Bisnis modern membutuhkan otomatisasi cerdas yang beradaptasi, belajar, dan skala dengan pertumbuhan mereka.",
+        "manualTasks": {
+          "title": "Tugas Berulang Manual",
+          "description": "Tim Anda menghabiskan terlalu banyak waktu untuk tugas rutin yang dapat diotomatisasi"
+        },
+        "scaling": {
+          "title": "Batasan Penskalaan",
+          "description": "Pertumbuhan dibatasi oleh kapasitas manusia daripada peluang pasar"
+        },
+        "inconsistent": {
+          "title": "Pengalaman yang Tidak Konsisten",
+          "description": "Pengalaman pelanggan bervariasi berdasarkan anggota tim mana yang menangani interaksi"
+        }
+      },
+      "solutions": {
+        "title": "Otomatisasi AI Cerdas",
+        "description": "Melampaui otomatisasi berbasis aturan sederhana dengan AI yang memahami konteks, membuat keputusan cerdas, dan terus meningkatkan kinerja.",
+        "voiceChat": {
+          "title": "Otomatisasi Suara & Obrolan Cerdas",
+          "description": "Agen AI yang memahami konteks dan memberikan interaksi seperti manusia",
+          "benefits": {
+            "nlp": "Pemrosesan bahasa alami untuk pertanyaan kompleks",
+            "channels": "Percakapan suara dan teks di semua saluran",
+            "contextAware": "Respons peka konteks berdasarkan riwayat pelanggan",
+            "handoff": "Serah terima mulus ke manusia saat dibutuhkan"
+          }
+        },
+        "workflow": {
+          "title": "Otomatisasi Alur Kerja Cerdas",
+          "description": "Otomatiskan proses bisnis kompleks dengan pengambilan keputusan cerdas",
+          "benefits": {
+            "leadQualification": "Kualifikasi dan perutean prospek otomatis",
+            "scheduling": "Penjadwalan dan manajemen janji temu cerdas",
+            "pricing": "Penetapan harga dinamis dan pembuatan proposal",
+            "followUp": "Urutan tindak lanjut otomatis dan pemeliharaan"
+          }
+        },
+        "learning": {
+          "title": "Pembelajaran & Optimalisasi Berkelanjutan",
+          "description": "AI yang menjadi lebih pintar dari waktu ke waktu, meningkatkan kinerja secara otomatis",
+          "benefits": {
+            "machineLearning": "Pembelajaran mesin dari setiap interaksi pelanggan",
+            "optimization": "Optimalisasi otomatis akurasi respons",
+            "predictive": "Analitik prediktif untuk layanan pelanggan proaktif",
+            "monitoring": "Pemantauan dan penyesuaian kinerja real-time"
+          }
+        },
+        "capabilities": "Kemampuan Utama:"
+      },
+      "automationTypes": {
+        "title": "Otomatisasi di Seluruh Bisnis Anda",
+        "description": "Dari layanan pelanggan hingga penjualan, pemasaran hingga operasi—otomatisasi AI mengubah setiap aspek bisnis Anda.",
+        "customerService": {
+          "title": "Otomatisasi Layanan Pelanggan",
+          "description": "AI menangani pertanyaan rutin, mengalihkan masalah kompleks",
+          "examples": {
+            "orderStatus": "Pembaruan status pesanan",
+            "faq": "Respons FAQ",
+            "troubleshooting": "Pemecahan masalah dasar",
+            "account": "Informasi akun"
+          }
+        },
+        "sales": {
+          "title": "Otomatisasi Proses Penjualan",
+          "description": "Otomatiskan kualifikasi prospek, tindak lanjut, dan penjadwalan",
+          "examples": {
+            "leadScoring": "Penilaian prospek",
+            "demoBooking": "Pemesanan demo",
+            "proposals": "Pembuatan proposal",
+            "followUp": "Urutan tindak lanjut"
+          }
+        },
+        "marketing": {
+          "title": "Otomatisasi Kampanye Pemasaran",
+          "description": "Kampanye cerdas yang beradaptasi berdasarkan perilaku pelanggan",
+          "examples": {
+            "personalized": "Pesan yang dipersonalisasi",
+            "timing": "Waktu pengiriman optimal",
+            "testing": "Pengujian A/B",
+            "optimization": "Optimalisasi kinerja"
+          }
+        },
+        "operational": {
+          "title": "Otomatisasi Operasional",
+          "description": "Sederhanakan proses dan alur kerja internal",
+          "examples": {
+            "dataEntry": "Entri data",
+            "reports": "Pembuatan laporan",
+            "taskAssignment": "Penugasan tugas",
+            "qualityMonitoring": "Pemantauan kualitas"
+          }
+        },
+        "examples": "CONTOH:"
+      },
+      "metrics": {
+        "title": "Dampak Kinerja Otomatisasi",
+        "description": "Peningkatan terukur dalam efisiensi, akurasi, dan kapasitas operasional",
+        "reduction": {
+          "value": "80%",
+          "label": "Pengurangan tugas manual"
+        },
+        "availability": {
+          "value": "24/7",
+          "label": "Operasi otomatis"
+        },
+        "accuracy": {
+          "value": "95%",
+          "label": "Tingkat akurasi"
+        },
+        "speed": {
+          "value": "3x",
+          "label": "Pemrosesan lebih cepat"
+        }
+      },
+      "security": {
+        "title": "AI Aman & Sesuai",
+        "description": "Keamanan dan kepatuhan tingkat perusahaan yang dibangun di setiap otomatisasi AI",
+        "dataProtection": {
+          "title": "Perlindungan Data",
+          "description": "Enkripsi ujung ke ujung dan penanganan data yang aman"
+        },
+        "compliance": {
+          "title": "Siap Kepatuhan",
+          "description": "Kepatuhan HIPAA, GDPR, dan industri spesifik"
+        },
+        "auditTrail": {
+          "title": "Jejak Audit",
+          "description": "Pencatatan dan pemantauan lengkap semua tindakan AI"
+        }
+      },
+      "cta": {
+        "title": "Siap Mengotomatiskan Bisnis Anda dengan AI?",
+        "description": "Bergabunglah dengan ratusan bisnis yang menggunakan Seasalt.ai untuk mengotomatiskan operasi, mengurangi biaya, dan skala secara efisien dengan AI cerdas.",
+        "primary": "Daftar",
+        "secondary": "Pesan Demo AI",
+        "disclaimer": "Tidak perlu kartu kredit • Lihat otomatisasi dalam 24 jam • Batalkan kapan saja"
+      }
+    },
+    "smeOwners": {
+      "seo": {
+        "title": "Solusi Pemilik UKM - Seasalt.ai",
+        "description": "Anda adalah CEO, tim penjualan, departemen pemasaran, dan dukungan pelanggan sekaligus. Seasalt.ai memberi Anda asisten AI yang menangani komunikasi rutin sehingga Anda dapat fokus pada pengembangan bisnis Anda."
+      },
+      "navigation": {
+        "backToHome": "Kembali ke Beranda"
+      },
+      "hero": {
+        "title": {
+          "part1": "Berhenti Menyulap.",
+          "part2": "Mulai Skala."
+        },
+        "subtitle": "Pusat Komunikasi Bertenaga AI untuk Pemilik UKM yang Memiliki Banyak Peran",
+        "description": "Anda adalah CEO, tim penjualan, departemen pemasaran, dan dukungan pelanggan sekaligus. Seasalt.ai memberi Anda asisten AI yang menangani komunikasi rutin sehingga Anda dapat fokus pada pengembangan bisnis Anda.",
+        "cta": {
+          "getAssistant": "Dapatkan Asisten AI Anda",
+          "bookDemo": "Pesan Demo"
+        },
+        "dashboard": {
+          "title": "Dasbor Pemilik UKM",
+          "aiHandledInquiries": "🤖 AI menangani 23 pertanyaan hari ini",
+          "timeSaved": "Menghemat waktu Anda 3,5 jam",
+          "appointmentsBooked": "📅 5 janji temu dipesan secara otomatis",
+          "whileInMeetings": "Saat Anda sedang rapat",
+          "leadsQualified": "💬 12 prospek dikualifikasi dan diprioritaskan",
+          "readyForFollowup": "Siap untuk tindak lanjut pribadi Anda",
+          "smsCampaign": "📱 Kampanye SMS: tingkat buka 89%",
+          "newCustomers": "3 pelanggan baru diperoleh"
+        }
+      },
+      "challenges": {
+        "title": "Dilema Pemilik UKM",
+        "description": "Menjalankan bisnis kecil berarti memiliki banyak peran. Tetapi itu seharusnya tidak berarti tenggelam dalam komunikasi rutin.",
+        "wearingMultipleHats": {
+          "title": "Memiliki Banyak Peran",
+          "description": "Mengelola penjualan, pemasaran, dan dukungan secara bersamaan sambil mencoba mengembangkan bisnis Anda"
+        },
+        "limitedTimeResources": {
+          "title": "Waktu & Sumber Daya Terbatas",
+          "description": "Setiap menit berarti ketika Anda menjalankan bisnis kecil dengan tim yang ramping"
+        },
+        "scalingChallenges": {
+          "title": "Tantangan Penskalaan",
+          "description": "Permintaan pelanggan yang berkembang tanpa peningkatan proporsional dalam ukuran tim atau anggaran"
+        }
+      },
+      "solutions": {
+        "title": "Solusi Bertenaga AI Anda",
+        "description": "Seasalt.ai bertindak sebagai anggota tim virtual Anda, menangani tugas rutin sehingga Anda dapat fokus pada apa yang hanya dapat Anda lakukan - mengembangkan bisnis Anda.",
+        "keyBenefits": "Manfaat Utama:",
+        "aiAutomation": {
+          "title": "Otomatisasi Bertenaga AI",
+          "description": "Biarkan AI menangani pertanyaan rutin, pemesanan janji temu, dan kualifikasi prospek 24/7",
+          "benefits": {
+            "routineQuestions": "Otomatiskan 80% pertanyaan pelanggan rutin",
+            "bookAppointments": "Pesan janji temu saat Anda tidur",
+            "qualifyLeads": "Kualifikasi prospek sebelum mereka mencapai Anda",
+            "instantResponses": "Berikan respons instan di semua saluran"
+          }
+        },
+        "unifiedView": {
+          "title": "Tampilan Pelanggan Terpadu",
+          "description": "Lihat setiap interaksi pelanggan di satu tempat, apakah mereka menelepon, mengirim pesan, atau mengobrol",
+          "benefits": {
+            "singleInbox": "Kotak masuk tunggal untuk semua komunikasi pelanggan",
+            "conversationHistory": "Riwayat percakapan lengkap di seluruh saluran",
+            "neverLoseTrack": "Jangan pernah kehilangan jejak konteks pelanggan",
+            "seamlessHandoffs": "Serah terima mulus antara AI dan manusia"
+          }
+        },
+        "smartMarketing": {
+          "title": "Kampanye Pemasaran Cerdas",
+          "description": "Jalankan kampanye yang ditargetkan di seluruh SMS, WhatsApp, dan email dengan bantuan AI",
+          "benefits": {
+            "automatedFollowup": "Urutan tindak lanjut otomatis",
+            "personalizedMessaging": "Pesan yang dipersonalisasi dalam skala besar",
+            "trackPerformance": "Lacak kinerja kampanye secara real-time",
+            "recoverCarts": "Pulihkan keranjang yang ditinggalkan secara otomatis"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Skenario Pemilik UKM Nyata",
+        "description": "Lihat bagaimana pemilik bisnis lain seperti Anda menggunakan Seasalt.ai untuk menskalakan operasi mereka",
+        "challengeLabel": "TANTANGAN:",
+        "solutionLabel": "SOLUSI SEASALT.AI:",
+        "soloEntrepreneur": {
+          "title": "Pengusaha Tunggal",
+          "scenario": "Menjalankan bisnis konsultasi sambil mengelola semua komunikasi klien",
+          "solution": "AI menangani pertanyaan awal dan memesan konsultasi, membebaskan Anda untuk fokus pada pengiriman"
+        },
+        "smallRetailer": {
+          "title": "Pengecer Kecil",
+          "scenario": "Mengelola pesanan online, dukungan pelanggan, dan kampanye pemasaran",
+          "solution": "Pembaruan pesanan otomatis, respons dukungan instan, dan kampanye pemasaran yang ditargetkan"
+        },
+        "serviceProvider": {
+          "title": "Penyedia Layanan",
+          "scenario": "Menyulap penjadwalan janji temu, pertanyaan pelanggan, dan tindak lanjut",
+          "solution": "AI memesan janji temu, menjawab FAQ, dan mengirim pengingat otomatis"
+        },
+        "growingStartup": {
+          "title": "Startup yang Berkembang",
+          "scenario": "Menskalakan komunikasi pelanggan tanpa merekrut tim dukungan penuh",
+          "solution": "AI menangani pertumbuhan volume sambil mempertahankan sentuhan pribadi dengan serah terima cerdas"
+        }
+      },
+      "roi": {
+        "title": "ROI Pemilik UKM",
+        "description": "Lihat dampak langsung pada operasi bisnis dan pertumbuhan Anda",
+        "timeSaved": {
+          "metric": "5+ Jam",
+          "description": "Hemat per minggu untuk komunikasi rutin"
+        },
+        "responseRate": {
+          "metric": "40%",
+          "description": "Peningkatan tingkat respons prospek"
+        },
+        "availability": {
+          "metric": "24/7",
+          "description": "Layanan pelanggan tanpa mempekerjakan staf malam"
+        },
+        "conversationsHandled": {
+          "metric": "3x",
+          "description": "Lebih banyak percakapan ditangani dengan tim yang sama"
+        }
+      },
+      "cta": {
+        "title": "Siap Berhenti Menyulap dan Mulai Skala?",
+        "description": "Bergabunglah dengan ribuan pemilik UKM yang telah mendapatkan kembali waktu mereka dan menskalakan komunikasi pelanggan mereka dengan otomatisasi AI.",
+        "startTrial": "Mulai Uji Coba Gratis Anda",
+        "scheduleDemo": "Jadwalkan Demo Pribadi",
+        "disclaimer": "Tidak perlu kartu kredit • Pengaturan dalam waktu kurang dari 10 menit • Batalkan kapan saja"
+      }
+    },
+    "seahealth": {
+      "seo": {
+        "title": "SeaHealth - Komunikasi Bertenaga AI untuk Kesehatan",
+        "description": "Tingkatkan komunikasi pasien dan sederhanakan operasi dengan platform SeaHealth yang bertenaga AI dan sesuai HIPAA. Satukan panggilan, teks, dan pesan dalam satu kotak masuk yang aman."
+      },
+      "hero": {
+        "title": "SeaHealth memungkinkan profesional kesehatan –",
+        "subtitle": "Mengubah Interaksi Pasien, dengan:",
+        "features": {
+          "newPatients": "Akuisisi Pasien Baru",
+          "aiReceptionists": "Resepsionis AI Suara Setelah Jam Kerja",
+          "callAnalytics": "Analitik Panggilan Kantor Depan"
+        },
+        "cta": "Pesan Demo Hari Ini!",
+        "description": "Kantor depan bertenaga AI untuk kesehatan. Jangan pernah melewatkan panggilan, keluhan, atau janji temu lagi."
+      },
+      "top4Reasons": {
+        "title": "4 alasan utama rumah sakit dan klinik memilih SeaHealth:",
+        "neverMissCall": "Jangan Pernah Melewatkan Panggilan",
+        "neverMissComplaint": "Jangan Pernah Melewatkan Keluhan Pelanggan",
+        "bookAppointments": "Pesan Janji Temu Pasien Baru Setelah Jam Kerja",
+        "provide247Hotline": "Sediakan Hotline 24/7 untuk Calon Pasien dan Pasien yang Ada"
+      },
+      "frontOfficeChallenges": {
+        "title": "Mengatasi Tantangan Kantor Depan",
+        "unmonitoredCalls": {
+          "title": "Panggilan Telepon Meja Depan yang Tidak Dipantau",
+          "complaint": "Atasi keluhan pelanggan sebelum meningkat.",
+          "risks": "Mitigasi risiko dari kesalahan triase medis awal.",
+          "professionalism": "Tingkatkan profesionalisme dengan nada bicara dan perilaku resepsionis yang lebih baik."
+        },
+        "missedCalls": {
+          "title": "Panggilan Masuk yang Terlewat dari Pasien",
+          "voicemails": "Hilangkan pesan suara setelah jam kerja dengan tindak lanjut aktif.",
+          "scheduling": "Sederhanakan penjadwalan dan penjadwalan ulang janji temu.",
+          "retention": "Pertahankan pasien dengan memastikan telepon Anda dijawab 24/7, mencegah mereka mencari pesaing."
+        },
+        "outboundCalls": {
+          "title": "Panggilan Keluar yang Tidak Ingin Dilakukan Siapa Pun",
+          "followUp": "Pastikan ketelitian dalam panggilan tindak lanjut prosedur.",
+          "insurance": "Sederhanakan percakapan panjang dengan perusahaan asuransi.",
+          "reactivation": "Aktifkan kembali pasien yang tidak aktif dengan promosi efektif untuk mengisi slot kosong."
+        }
+      },
+      "solutions": {
+        "title": "Solusi untuk Setiap Pengaturan Kesehatan",
+        "hospitals": "Rumah Sakit & Klinik",
+        "dental": "Klinik Gigi",
+        "hospice": "Rumah Sakit Perawatan Paliatif",
+        "emergency": "Perawatan Darurat",
+        "adult": "Rumah Keluarga Dewasa",
+        "veterinary": "Rumah Sakit Hewan",
+        "cosmetic": "Bedah Kosmetik"
+      },
+      "mainSolution": {
+        "title": "Solusi Kantor Depan SeaHealth – Mengisi Slot Janji Temu Anda Secara Otomatis.",
+        "description": "Solusi bertenaga AI kami menyederhanakan operasi kantor depan Anda, memungkinkan staf Anda untuk fokus pada hal yang paling penting - perawatan pasien."
+      },
+      "forProviders": {
+        "title": "Untuk Penyedia Layanan Kesehatan",
+        "benefit1": "Kurangi beban administratif",
+        "benefit2": "Tingkatkan kepuasan pasien",
+        "benefit3": "Tingkatkan efisiensi operasional"
+      },
+      "forPatients": {
+        "title": "Untuk Pasien",
+        "benefit1": "Akses 24/7 ke dukungan",
+        "benefit2": "Penjadwalan janji temu cepat",
+        "benefit3": "Komunikasi yang mulus"
+      },
+      "whyChoose": {
+        "title": "Mengapa Memilih SeaHealth?",
+        "reason1": {
+          "title": "Kepatuhan HIPAA",
+          "description": "Kami memprioritaskan privasi dan keamanan data pasien."
+        },
+        "reason2": {
+          "title": "Teknologi Ucapan Alami & Kontekstual",
+          "description": "Libatkan pasien dengan komunikasi seperti manusia."
+        },
+        "reason3": {
+          "title": "Otomatisasi yang Tepat",
+          "description": "Selalu peduli pada pasien dan karyawan Anda sendiri."
+        }
+      },
+      "faqs": {
+        "title": "Pertanyaan yang Sering Diajukan",
+        "faq1": {
+          "question": "Bagaimana analitik panggilan meja depan Anda berfungsi?",
+          "answer": "Kami merekam panggilan masuk dan keluar Anda, lalu mentranskripsikannya untuk analisis lebih lanjut. Ringkasan dan email peringatan dikirim setiap hari."
+        },
+        "faq2": {
+          "question": "Apakah itu memerlukan perekaman panggilan telepon, dan bagaimana caranya?",
+          "answer": "Kami menghubungkan penyedia VoIP Anda untuk mendapatkan rekaman panggilan dan melakukan analisis ucapan pada rekaman tersebut. Jika Anda menggunakan telepon analog, kami menggunakan perangkat perekam telepon yang menghubungkan panggilan Anda dengan jack telepon untuk mendapatkan rekaman."
+        },
+        "faq3": {
+          "question": "Bagaimana cakupan panggilan telepon 24/7 berfungsi?",
+          "answer": "Resepsionis bertenaga AI menangani panggilan sepanjang waktu, memastikan tidak ada peluang yang terlewat. Anda dapat mengangkat panggilan saat berdering, atau mentransfer panggilan ke resepsionis AI selama atau setelah jam kerja."
+        },
+        "faq4": {
+          "question": "Mengapa saya harus menggunakan layanan Anda?",
+          "answer": "SeaHealth meningkatkan efisiensi, meningkatkan kepuasan pasien, dan meningkatkan pendapatan melalui otomatisasi dan solusi bertenaga AI. Ini lebih murah, lebih andal, dan lebih empatik daripada mengalihdayakan pekerjaan resepsionis meja depan Anda."
+        }
+      },
+      "partners": {
+        "title": "Mitra & Integrasi"
+      },
+      "cta": {
+        "title": "Siap mengubah interaksi pasien?",
+        "button": "Pesan Demo Hari Ini!"
+      }
+    }
+  },
+  "pricing": {
+    "seo": {
+      "title": "Harga - Seasalt.ai",
+      "description": "Harga yang sederhana, transparan yang tumbuh bersama Anda. Tanpa biaya tersembunyi. Tanpa add-on yang kompleks. Hanya satu platform yang kuat untuk semua percakapan Anda."
+    },
+    "hero": {
+      "title": "Pilih Paket yang Sesuai dengan Kebutuhan Anda",
+      "description": "Tanpa biaya tersembunyi. Tanpa add-on yang kompleks. Hanya satu platform yang kuat untuk semua percakapan Anda.",
+      "subtitle": "Dari startup hingga perusahaan - harga transparan tanpa biaya tersembunyi. Mulai gratis dan skala saat Anda berkembang."
+    },
+    "audienceSection": {
+      "title": "Pilih Jalur Pertumbuhan Anda",
+      "description": "Dari startup hingga perusahaan, kami memiliki solusi yang tepat untuk setiap tahap perjalanan Anda",
+      "startups": {
+        "title": "Untuk Startup & UKM",
+        "subtitle": "Mulai Kecil, Skala Cerdas",
+        "seachatFree": {
+          "title": "🚀 Mulai Gratis dengan SeaChat",
+          "description": "$0 selamanya - 1 agen manusia, obrolan tanpa batas"
+        },
+        "seavoice": {
+          "title": "📞 Skala dengan SeaVoice",
+          "description": "$29.99/bulan - Tambahkan AI suara untuk panggilan masuk"
+        },
+        "seax": {
+          "title": "🌟 Tumbuh dengan SeaX",
+          "description": "$99/bulan - Platform omnichannel lengkap"
+        },
+        "footer": "Sempurna untuk bisnis dengan 1-50 karyawan"
+      },
+      "enterprise": {
+        "title": "Untuk Perusahaan Menengah hingga Besar",
+        "subtitle": "Solusi Tingkat Perusahaan",
+        "seachatPremium": {
+          "title": "🤖 SeaChat Premium",
+          "description": "$29.99/bulan + penggunaan - AI teks tingkat perusahaan"
+        },
+        "seaxProfessional": {
+          "title": "🏢 SeaX Profesional",
+          "description": "$99/bulan - Platform terpadu dengan AI dan omnichannel"
+        },
+        "customEnterprise": {
+          "title": "⚡ Perusahaan Kustom",
+          "description": "Hubungi kami - Label putih, HIPAA, integrasi kustom"
+        },
+        "footer": "Sempurna untuk bisnis dengan 50+ karyawan"
+      }
+    },
+    "plans": {
+      "title": "Pilih Paket Anda",
+      "description": "Mulai gratis dan skala saat Anda berkembang dengan opsi harga fleksibel kami",
+      "liveAgent": {
+        "name": "Agen Langsung",
+        "price": "$0",
+        "period": "GRATIS SELAMANYA",
+        "tagline": "👤 HANYA MANUSIA",
+        "highlight": "🌟 SEMUA SALURAN + HANYA AGEN MANUSIA",
+        "channels": "WhatsApp • Messenger • Line • Instagram • Obrolan Web",
+        "feature1": "1 agen manusia termasuk",
+        "feature2": "Percakapan manusia tanpa batas",
+        "feature3": "100 balasan AI untuk mencoba fitur",
+        "feature4": "Integrasi Shopify dasar",
+        "cta": "🚀 MULAI GRATIS SEKARANG",
+        "poweredBy": "Didukung oleh SeaChat"
+      },
+      "whatsappOnly": {
+        "name": "Hanya WhatsApp",
+        "price": "$19.99",
+        "period": "PER PENGGUNA/BULAN",
+        "tagline": "💬 HANYA PESAN",
+        "highlight": "📲 SPESIALIS WHATSAPP BUSINESS",
+        "channels": "Kampanye • API • Obrolan 2 Arah",
+        "feature1": "Platform WhatsApp Business",
+        "feature2": "Alat manajemen kampanye",
+        "feature3": "Akses API WhatsApp",
+        "feature4": "Kontak & template tanpa batas",
+        "cta": "📱 MULAI WHATSAPP",
+        "poweredBy": "Didukung oleh SeaX"
+      },
+      "omnichannel": {
+        "name": "Omnichannel",
+        "firstUserPrice": "$99",
+        "firstUserLabel": "PENGGUNA PERTAMA",
+        "additionalUserPrice": "$49",
+        "additionalUserLabel": "SETIAP TAMBAHAN",
+        "period": "PER BULAN",
+        "tagline": "🌐 SATU UI, SEMUA SALURAN",
+        "popular": "🏆 PALING POPULER",
+        "highlight": "🎯 PUSAT KONTAK LENGKAP",
+        "subHighlight": "Lakukan & Terima PANGGILAN TELEPON!",
+        "feature1": "AGEN MELAKUKAN & MENERIMA PANGGILAN",
+        "feature2": "SMS + SUARA + WHATSAPP",
+        "feature3": "Kampanye Suara & SMS",
+        "feature4": "API RESTful + integrasi SeaChat",
+        "cta": "🚀 MULAI PUSAT LENGKAP",
+        "poweredBy": "Didukung oleh SeaX"
+      },
+      "custom": {
+        "name": "Kustom",
+        "price": "Mari kita bangun proyek",
+        "period": "Negosiasikan harga Anda sendiri",
+        "feature1": "Beberapa ruang kerja",
+        "feature2": "Sempurna untuk agensi",
+        "feature3": "Integrasi API kustom",
+        "feature4": "Kepatuhan HIPAA",
+        "feature5": "Opsi label putih",
+        "cta": "Hubungi Kami"
+      },
+      "popularBadge": "Paling Populer",
+      "ctaStyles": {
+        "primary": "Daftar Sekarang"
+      }
+    },
+    "aiAddons": {
+      "title": "⭐ Add-On AI",
+      "description": "Tingkatkan paket apa pun dengan kemampuan AI",
+      "chatAI": {
+        "title": "Obrolan AI dengan SeaChat",
+        "price": "$29.99",
+        "period": "per bulan"
+      },
+      "voiceAI": {
+        "title": "AI Suara dengan SeaVoice",
+        "price": "$29.99",
+        "period": "per bulan"
+      },
+      "combo": {
+        "title": "Kedua Fitur AI",
+        "price": "$29.99",
+        "period": "total per bulan",
+        "benefit": "🎉 Dapatkan Obrolan AI dan AI Suara hanya dengan $29.99/bulan digabungkan!"
+      }
+    },
+    "transparentAI": {
+      "title": "Harga AI Transparan",
+      "description": "Bayar hanya untuk apa yang Anda gunakan dengan harga AI berbasis penggunaan kami yang jelas",
+      "chatAI": {
+        "title": "Obrolan AI",
+        "price": "$0.006",
+        "period": "per respons (ChatGPT-4o mini)",
+        "feature1": "• WhatsApp, Messenger, Obrolan Web",
+        "feature2": "• Respons otomatis 24/7",
+        "feature3": "• Integrasi basis pengetahuan"
+      },
+      "voiceAI": {
+        "title": "AI Suara",
+        "price": "$0.12",
+        "period": "per menit (ChatGPT-4o mini)",
+        "feature1": "• Panggilan masuk & keluar",
+        "feature2": "• Percakapan suara alami",
+        "feature3": "• Perekaman & ringkasan panggilan"
+      },
+      "premiumAI": {
+        "title": "AI Premium",
+        "price": "$0.80",
+        "period": "per menit (ChatGPT-4o)",
+        "feature1": "• Penalaran tingkat lanjut",
+        "feature2": "• Percakapan kompleks",
+        "feature3": "• Fitur perusahaan kustom"
+      }
+    },
+    "transparentCommunication": {
+      "title": "Harga Komunikasi Transparan",
+      "description": "Harga yang jelas dan di muka untuk semua kebutuhan komunikasi Anda",
+      "sms": {
+        "title": "SMS",
+        "price": "$0.02",
+        "period": "per pesan (AS/CA)",
+        "description": "Pesan teks yang andal dengan tarif per pesan yang transparan"
+      },
+      "voiceCalls": {
+        "title": "Panggilan Suara",
+        "price": "$0.015",
+        "period": "per menit (AS/CA)",
+        "description": "Panggilan suara yang jernih di 100+ negara"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "price": "$0.00",
+        "period": "per pesan di seluruh dunia",
+        "description": "Anda membayar langsung ke Meta. Tanpa markup dari Seasalt.ai"
+      },
+      "otherChannels": "📱 Saluran lain seperti Instagram, Facebook Messenger, dan Obrolan Web tidak memiliki markup atau sepenuhnya gratis."
+    },
+    "comparison": {
+      "title": "Lanskap Komunikasi Global: Bagaimana Kami Bersaing",
+      "description": "Lihat bagaimana Seasalt.ai dibandingkan dengan solusi lain di pasar. Kami adalah satu-satunya platform yang memberikan fitur perusahaan dengan kesederhanaan bisnis kecil.",
+      "table": {
+        "competitor": "Pesaing",
+        "startingPrice": "Harga Mulai",
+        "pricingModel": "Model Harga",
+        "unifiedVoiceDigital": "Suara & Digital Terpadu",
+        "aiCapabilities": "Kemampuan AI",
+        "bestFor": "Terbaik Untuk"
+      },
+      "seasalt": {
+        "name": "Seasalt.ai",
+        "startingPrice": "$20/agen/bulan",
+        "pricingModel": "Per-Pengguna Sederhana",
+        "unifiedVoiceDigital": "✅ Ya, Asli",
+        "aiCapabilities": "✅ Ya, Voice & Chatbot Asli",
+        "bestFor": "UKM yang membutuhkan platform all-in-one yang terjangkau dan benar-benar.",
+        "recommended": "Direkomendasikan"
+      },
+      "aircall": {
+        "name": "Aircall",
+        "startingPrice": "$30/pengguna/bulan",
+        "pricingModel": "Per-Pengguna + Add-on",
+        "unifiedVoiceDigital": "⚠️ Suara + WhatsApp (Add-on)",
+        "aiCapabilities": "⚠️ AI adalah add-on berbayar",
+        "bestFor": "Tim penjualan yang mampu membeli beberapa add-on dan memenuhi minimum 3 pengguna."
+      },
+      "ringcentral": {
+        "name": "RingCentral",
+        "startingPrice": "$65/agen/bulan",
+        "pricingModel": "Tingkat Kompleks",
+        "unifiedVoiceDigital": "❌ Produk Terpisah",
+        "aiCapabilities": "✅ Ya (CCaaS bertenaga AI)",
+        "bestFor": "Perusahaan besar yang membutuhkan platform UCaaS yang luas dengan CCaaS terpisah."
+      },
+      "genesys": {
+        "name": "Genesys Cloud CX",
+        "startingPrice": "$75/pengguna/bulan",
+        "pricingModel": "Per-Pengguna + Minimum Tinggi",
+        "unifiedVoiceDigital": "✅ Ya (di tingkat yang lebih tinggi)",
+        "aiCapabilities": "✅ Ya (Sistem token kompleks)",
+        "bestFor": "Perusahaan besar dengan tim pusat kontak dan anggaran khusus."
+      },
+      "five9": {
+        "name": "Five9",
+        "startingPrice": "$119/pengguna/bulan",
+        "pricingModel": "Per-Pengguna + Bundel",
+        "unifiedVoiceDigital": "✅ Ya (di tingkat premium)",
+        "aiCapabilities": "✅ Ya (AI Tingkat Lanjut)",
+        "bestFor": "Pusat kontak besar yang banyak keluar yang membutuhkan alat tingkat perusahaan."
+      },
+      "googleVoice": {
+        "name": "Google Voice",
+        "startingPrice": "$10/pengguna/bulan",
+        "pricingModel": "Per-Pengguna + Biaya Ruang Kerja",
+        "unifiedVoiceDigital": "❌ Tidak",
+        "aiCapabilities": "❌ Tidak (Hanya transkripsi pesan suara)",
+        "bestFor": "Solopreneur (khusus AS) yang membutuhkan nomor telepon dasar yang terpisah."
+      },
+      "respondIo": {
+        "name": "respond.io",
+        "startingPrice": "$79/bulan",
+        "pricingModel": "Kontak Aktif Bulanan",
+        "unifiedVoiceDigital": "⚠️ Digital-first (Suara adalah Beta)",
+        "aiCapabilities": "✅ Ya (Agen AI di tingkat yang lebih tinggi)",
+        "bestFor": "Tim pemasaran/penjualan yang berfokus pada saluran pesan seperti WhatsApp."
+      },
+      "intercom": {
+        "name": "Intercom",
+        "startingPrice": "$39/kursi/bulan",
+        "pricingModel": "Per-Kursi + Add-on + Penggunaan",
+        "unifiedVoiceDigital": "⚠️ Digital-first (Suara adalah bayar sesuai penggunaan)",
+        "aiCapabilities": "✅ Ya (Agen AI Fin adalah per-resolusi)",
+        "bestFor": "Bisnis yang berfokus pada keterlibatan dan dukungan situs web proaktif."
+      }
+    },
+    "faq": {
+      "1": {
+        "question": "Apakah paket gratis benar-benar gratis selamanya?",
+        "answer": "Ya! Paket Agen Langsung kami mencakup 1 agen manusia seumur hidup dengan percakapan, riwayat obrolan, dan kontak tanpa batas. Ditambah, Anda mendapatkan 100 balasan AI seumur hidup untuk mencoba fitur AI kami. Tidak perlu kartu kredit, tanpa biaya tersembunyi."
+      },
+      "2": {
+        "question": "Bagaimana harga AI berfungsi di seluruh SeaChat, SeaX, dan SeaVoice?",
+        "answer": "Semua panggilan AI Suara di seluruh SeaChat, SeaX, dan SeaVoice menggunakan tarif $0.12 per menit yang sama dengan model ChatGPT-4o mini. Respons AI Obrolan mulai dari $0.006 masing-masing. Model tingkat yang lebih tinggi seperti ChatGPT-4o berharga $0.80 per menit dan tersedia di paket premium."
+      },
+      "3": {
+        "question": "Bisakah saya meningkatkan atau menurunkan paket saya kapan saja?",
+        "answer": "Tentu saja! Anda dapat mengubah paket Anda kapan saja. Peningkatan berlaku segera, dan penurunan berlaku pada akhir siklus tagihan Anda saat ini. Kami akan menyesuaikan penagihan secara proporsional."
+      },
+      "4": {
+        "question": "Apa perbedaan antara paket Hanya WhatsApp dan Omnichannel?",
+        "answer": "Hanya WhatsApp ($19.99/bulan) berfokus pada pesan WhatsApp dengan kontak dan template tanpa batas. Omnichannel ($99/bulan untuk pengguna pertama, $49 untuk tambahan) mencakup SMS, panggilan suara, kampanye, akses API, dan integrasi SeaChat untuk pengalaman pusat kontak lengkap."
+      },
+      "5": {
+        "question": "Apakah ada biaya tersembunyi atau biaya pengaturan?",
+        "answer": "Tidak ada biaya tersembunyi! Nomor telepon berharga $2-$3/bulan dengan alamat E911. SMS berharga $0.02/pesan, panggilan suara $0.015/menit (AS/CA). Pesan WhatsApp gratis di seluruh dunia - Anda membayar langsung ke Meta tanpa markup dari kami."
+      },
+      "6": {
+        "question": "Apa yang terjadi pada data saya jika saya membatalkan?",
+        "answer": "Anda memiliki data Anda. Anda dapat mengekspor semua riwayat obrolan, kontak, dan konten basis pengetahuan Anda kapan saja, bahkan di paket gratis. Kami percaya pada kebebasan dan transparansi data."
+      },
+      "7": {
+        "question": "Apakah Anda menawarkan diskon volume untuk perusahaan besar?",
+        "answer": "Ya! Paket Perusahaan Kustom kami menawarkan harga yang dinegosiasikan berdasarkan volume dan pola penggunaan spesifik Anda. Hubungi tim penjualan kami untuk harga kustom, beberapa ruang kerja, kepatuhan HIPAA, dan solusi label putih."
+      },
+      "title": "Pertanyaan yang Sering Diajukan"
+    },
+    "cta": {
+      "title": "Siap Mengubah",
+      "titleGradient": "Komunikasi Pelanggan?",
+      "description": "Bergabunglah dengan ribuan bisnis yang menggunakan Seasalt.ai untuk memberikan pengalaman pelanggan yang luar biasa",
+      "stats": {
+        "customers": "10.000+",
+        "customersLabel": "Pelanggan Bahagia",
+        "uptime": "99.9%",
+        "uptimeLabel": "SLA Uptime",
+        "support": "24/7",
+        "supportLabel": "Dukungan"
+      },
+      "primary": "🚀 DAFTAR SEKARANG",
+      "secondary": "📞 Bicara dengan Penjualan",
+      "trustBadge1": "Tidak Perlu Pengkodean",
+      "trustBadge2": "Pengaturan dalam Waktu Kurang dari 5 Menit",
+      "trustBadge3": "Batalkan Kapan Saja",
+      "trustBadge4": "Paket Gratis Sejati Tersedia",
+      "urgency": "⚡ Waktu Terbatas: Dapatkan 2 bulan gratis pada paket tahunan + dukungan orientasi prioritas!"
+    },
+    "billingToggle": {
+      "monthly": "Ditagih Bulanan",
+      "annually": "Ditagih Tahunan",
+      "save20": "Hemat 20%"
+    },
+    "legacy": {
+      "liveAgent": {
+        "name": "Agen Langsung",
+        "price": "$0",
+        "period": "selamanya",
+        "tagline": "Benar-benar Gratis, Selamanya. Sempurna untuk memulai.",
+        "description": "Sempurna untuk memulai. Satukan kotak masuk Anda dengan 1 agen manusia.",
+        "features": {
+          "0": "1 Agen Manusia",
+          "1": "Obrolan Agen Manusia Tanpa Batas",
+          "2": "WhatsApp/Messenger/LINE/Obrolan Web",
+          "3": "Integrasi Dasar (Shopify, dll.)",
+          "4": "Dukungan email"
+        },
+        "cta": "Daftar"
+      },
+      "professional": {
+        "name": "Profesional",
+        "priceAnnual": "$40",
+        "priceMonthly": "$50",
+        "period": "per bulan",
+        "additionalPriceAnnual": "+ $20/bulan untuk setiap agen tambahan",
+        "additionalPriceMonthly": "+ $25/bulan untuk setiap agen tambahan",
+        "tagline": "Solusi lengkap dan terpadu untuk bisnis yang berkembang.",
+        "description": "Semua yang Anda butuhkan untuk mengotomatiskan dan menskalakan komunikasi pelanggan Anda.",
+        "features": {
+          "0": "Semua yang ada di Agen Langsung",
+          "1": "Otomatisasi AI (Voicebot & Chatbot)",
+          "2": "Semua Saluran Komunikasi (termasuk Panggilan Telepon)",
+          "3": "Kampanye Pemasaran Keluar",
+          "4": "Integrasi CRM (HubSpot, Salesforce)",
+          "5": "Analitik & pelaporan tingkat lanjut",
+          "6": "Dukungan prioritas",
+          "7": "Kepatuhan HIPAA tersedia"
+        },
+        "cta": "Mulai"
+      },
+      "enterprise": {
+        "name": "Perusahaan",
+        "price": "Mari Bicara",
+        "period": "",
+        "tagline": "Untuk tim dengan kebutuhan kustom.",
+        "description": "Untuk tim yang lebih besar dengan kebutuhan spesifik seperti kepatuhan tingkat lanjut atau integrasi kustom.",
+        "features": {
+          "0": "Semua yang ada di Profesional",
+          "1": "Kepatuhan HIPAA",
+          "2": "Integrasi Kustom",
+          "3": "Manajer Akun Khusus",
+          "4": "Pelatihan AI kustom",
+          "5": "Opsi label putih",
+          "6": "Jaminan SLA",
+          "7": "Opsi penyebaran di tempat"
+        },
+        "cta": "Hubungi Penjualan"
+      }
+    },
+    "billing": {
+      "monthly": "Bulanan",
+      "yearly": "Tahunan",
+      "save": "Hemat 2 Bulan"
+    }
+  }
+}

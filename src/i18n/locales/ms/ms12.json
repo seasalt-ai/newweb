@@ -1,0 +1,755 @@
+{
+  "seavoice": {
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "Tempahan & Pengurusan Janji Temu",
+            "description": "Automasi penjadualan janji temu dengan AI yang memahami ketersediaan, pilihan, dan peraturan perniagaan. Kurangkan ketidakhadiran dan selaraskan proses tempahan anda dengan interaksi suara pintar.",
+            "cta": "Automasi Tempahan Janji Temu"
+          },
+          "features": {
+            "title": "Pengurusan Janji Temu Pintar",
+            "subtitle": "Sistem tempahan komprehensif yang mengendalikan senario penjadualan yang kompleks",
+            "intelligentScheduling": {
+              "title": "Penjadualan Pintar",
+              "description": "Tempahan janji temu berkuasa AI yang memahami ketersediaan dan pilihan.",
+              "benefit1": "Ketersediaan masa nyata",
+              "benefit2": "Penyelesaian konflik pintar",
+              "benefit3": "Padanan pilihan"
+            },
+            "automatedReminders": {
+              "title": "Peringatan Automatik",
+              "description": "Kurangkan ketidakhadiran dengan peringatan dan pengesahan janji temu automatik.",
+              "benefit1": "Peringatan SMS & suara",
+              "benefit2": "Masa yang boleh disesuaikan",
+              "benefit3": "Penjejakan pengesahan"
+            },
+            "multiProviderSupport": {
+              "title": "Sokongan Berbilang Penyedia",
+              "description": "Urus janji temu merentasi pelbagai penyedia, lokasi, dan perkhidmatan.",
+              "benefit1": "Ketersediaan penyedia",
+              "benefit2": "Pengurusan lokasi",
+              "benefit3": "Kategorisasi perkhidmatan"
+            }
+          },
+          "capabilities": {
+            "title": "Penyelesaian Tempahan Lengkap",
+            "subtitle": "Kendalikan setiap aspek pengurusan janji temu secara automatik",
+            "appointmentScheduling": {
+              "capability": "Penjadualan Janji Temu",
+              "description": "Tempah janji temu baru berdasarkan ketersediaan dan pilihan",
+              "feature1": "Slot masa yang tersedia",
+              "feature2": "Pemilihan penyedia",
+              "feature3": "Padanan jenis perkhidmatan"
+            },
+            "rescheduling": {
+              "capability": "Penjadualan Semula",
+              "description": "Ubah suai janji temu sedia ada dengan penyelesaian konflik automatik",
+              "feature1": "Pengesanan konflik",
+              "feature2": "Cadangan alternatif",
+              "feature3": "Kemas kini automatik"
+            },
+            "cancellationManagement": {
+              "capability": "Pengurusan Pembatalan",
+              "description": "Kendalikan pembatalan dan pengurusan senarai tunggu dengan cekap",
+              "feature1": "Dasar pembatalan",
+              "feature2": "Automasi senarai tunggu",
+              "feature3": "Pemprosesan bayaran balik"
+            },
+            "reminderSystem": {
+              "capability": "Sistem Peringatan",
+              "description": "Peringatan automatik untuk mengurangkan ketidakhadiran dan meningkatkan kehadiran",
+              "feature1": "Peringatan berbilang saluran",
+              "feature2": "Masa yang boleh disesuaikan",
+              "feature3": "Permintaan pengesahan"
+            }
+          },
+          "industries": {
+            "title": "Aplikasi Industri",
+            "subtitle": "Penyelesaian tempahan yang disesuaikan untuk industri dan kes penggunaan yang berbeza",
+            "healthcare": {
+              "industry": "Penjagaan Kesihatan",
+              "description": "Janji temu perubatan, konsultasi, dan prosedur",
+              "benefit1": "Penjadualan pesakit",
+              "benefit2": "Koordinasi penyedia",
+              "benefit3": "Pengesahan insurans"
+            },
+            "beautyWellness": {
+              "industry": "Kecantikan & Kesejahteraan",
+              "description": "Janji temu salon, perkhidmatan spa, dan sesi kesejahteraan",
+              "benefit1": "Penjejakan tempoh perkhidmatan",
+              "benefit2": "Pilihan stylist",
+              "benefit3": "Tempahan pakej"
+            },
+            "professionalServices": {
+              "industry": "Perkhidmatan Profesional",
+              "description": "Konsultasi, mesyuarat, dan janji temu perkhidmatan",
+              "benefit1": "Tempahan bilik mesyuarat",
+              "benefit2": "Ketersediaan perunding",
+              "benefit3": "Pilihan klien"
+            }
+          },
+          "reminderSection": {
+            "title": "Sistem Peringatan Automatik",
+            "description": "Kurangkan ketidakhadiran secara signifikan dengan kempen peringatan pintar yang menjangkau pelanggan melalui saluran komunikasi pilihan mereka pada waktu optimum.",
+            "multiChannelReminders": {
+              "title": "Peringatan Berbilang Saluran",
+              "description": "Panggilan suara, SMS, dan peringatan e-mel"
+            },
+            "optimalTiming": {
+              "title": "Masa Optimum",
+              "description": "AI menentukan masa terbaik untuk menghantar peringatan"
+            },
+            "performanceTracking": {
+              "title": "Penjejakan Prestasi",
+              "description": "Pantau keberkesanan peringatan dan optimumkan"
+            },
+            "reminderTimeline": {
+              "title": "Garis Masa Peringatan"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "Pengesahan Awal",
+                "description": "Pengesahan dan butiran janji temu"
+              },
+              "dayBefore": {
+                "title": "Peringatan Sehari Sebelum",
+                "description": "Peringatan terakhir dengan arahan persediaan"
+              },
+              "lastMinute": {
+                "title": "Pemeriksaan Minit Terakhir",
+                "description": "Pengesahan terakhir dan arahan"
+              },
+              "sevenDays": "7h",
+              "oneDay": "1h",
+              "twoHours": "2j"
+            }
+          },
+          "benefits": {
+            "title": "Hasil Prestasi Tempahan",
+            "subtitle": "Peningkatan yang boleh diukur dalam kecekapan pengurusan janji temu",
+            "noShowReduction": {
+              "metric": "40%",
+              "description": "Pengurangan kadar ketidakhadiran"
+            },
+            "availabilityWindow": {
+              "metric": "24/7",
+              "description": "Ketersediaan tempahan"
+            },
+            "bookingAccuracy": {
+              "metric": "85%",
+              "description": "Kadar ketepatan tempahan"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "Pengurangan beban kerja pentadbiran"
+            }
+          },
+          "cta": {
+            "title": "Bersedia untuk Mengautomasikan Tempahan Janji Temu?",
+            "description": "Selaraskan penjadualan dan kurangkan ketidakhadiran dengan pengurusan janji temu pintar",
+            "startFreeTrial": "Mula Percubaan Percuma",
+            "scheduleDemo": "Jadualkan Demo"
+          }
+        },
+        "mentalHealth": {
+          "hero": {
+            "title": "Pendamping Suara Kesihatan Mental",
+            "description": "Sediakan sokongan kesihatan mental yang penuh kasih sayang, 24/7 dengan AI yang mendengar, memahami, dan membalas dengan empati. Merapatkan jurang antara krisis dan penjagaan profesional dengan selamat.",
+            "cta": "Ketahui Mengenai AI Kesihatan Mental"
+          },
+          "features": {
+            "title": "Sokongan AI yang Penuh Kasih Sayang",
+            "description": "AI lanjutan yang dilatih dalam sokongan kesihatan mental dan intervensi krisis",
+            "empathetic": {
+              "title": "Pendamping AI yang Empati",
+              "description": "Dilatih untuk menyediakan sokongan yang penuh kasih sayang, tidak menghakimi dengan balasan emosi yang sesuai.",
+              "benefits": {
+                "activeListening": "Mendengar aktif",
+                "emotionalValidation": "Pengesahan emosi",
+                "crisisRecognition": "Pengecaman krisis"
+              }
+            },
+            "safe": {
+              "title": "Selamat & Sulit",
+              "description": "Platform yang mematuhi HIPAA memastikan privasi dan kerahsiaan lengkap untuk semua interaksi.",
+              "benefits": {
+                "hipaaCompliance": "Pematuhan HIPAA",
+                "encryptedConversations": "Perbualan yang disulitkan",
+                "anonymousOptions": "Pilihan tanpa nama"
+              }
+            },
+            "availability": {
+              "title": "Ketersediaan 24/7",
+              "description": "Sentiasa tersedia apabila seseorang perlu bercakap, menyediakan sokongan segera semasa saat krisis.",
+              "benefits": {
+                "roundTheClockAccess": "Akses sepanjang masa",
+                "immediateResponse": "Balasan segera",
+                "noWaitTimes": "Tiada masa menunggu"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "Keupayaan Sokongan Kesihatan Mental",
+            "description": "Sokongan komprehensif merentasi spektrum penjagaan kesihatan mental",
+            "screening": {
+              "title": "Saringan Kesihatan Mental Awal",
+              "description": "Lakukan penilaian awal menggunakan alat saringan yang disahkan",
+              "outcomes": {
+                "earlyIdentification": "Pengenalpastian awal",
+                "riskAssessment": "Penilaian risiko",
+                "appropriateReferrals": "Rujukan yang sesuai"
+              }
+            },
+            "crisis": {
+              "title": "Intervensi Krisis",
+              "description": "Mengenal pasti situasi krisis dan menyediakan sokongan atau eskalasi segera",
+              "outcomes": {
+                "crisisDetection": "Pengesanan krisis",
+                "deEscalationTechniques": "Teknik de-eskalasi",
+                "emergencyProtocols": "Protokol kecemasan"
+              }
+            },
+            "navigation": {
+              "title": "Navigasi Sumber",
+              "description": "Bimbing pengguna ke sumber dan perkhidmatan kesihatan mental yang sesuai",
+              "outcomes": {
+                "serviceMatching": "Padanan perkhidmatan",
+                "appointmentScheduling": "Penjadualan janji temu",
+                "followUpSupport": "Sokongan susulan"
+              }
+            },
+            "emotional": {
+              "title": "Sokongan Emosi",
+              "description": "Sediakan pendengaran yang penuh kasih sayang dan pengesahan emosi",
+              "outcomes": {
+                "reducedIsolation": "Pengurangan pengasingan",
+                "emotionalRelief": "Pelepasan emosi",
+                "copingStrategies": "Strategi mengatasi"
+              }
+            }
+          },
+          "safety": {
+            "title": "Reka Bentuk Mengutamakan Keselamatan",
+            "description": "AI kesihatan mental kami direka dengan keselamatan sebagai keutamaan utama, menampilkan pengesanan krisis lanjutan dan protokol eskalasi segera untuk memastikan pengguna menerima penjagaan profesional yang sesuai apabila diperlukan.",
+            "features": {
+              "title": "Ciri-ciri Keselamatan"
+            },
+            "crisisDetection": {
+              "title": "Pengesanan Krisis",
+              "description": "Algoritma lanjutan mengenal pasti situasi krisis"
+            },
+            "professionalHandoff": {
+              "title": "Penyerahan Profesional",
+              "description": "Pemindahan lancar kepada profesional kesihatan mental manusia"
+            },
+            "emergencyProtocols": {
+              "title": "Protokol Kecemasan",
+              "description": "Sambungan segera ke talian panas krisis apabila diperlukan"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "Pengesanan kata kunci krisis",
+            "suicideRiskAssessment": "Penilaian risiko bunuh diri",
+            "automaticEscalationProtocols": "Protokol eskalasi automatik",
+            "emergencyContactIntegration": "Integrasi kenalan kecemasan",
+            "professionalHandoffProcedures": "Prosedur penyerahan profesional",
+            "followUpScheduling": "Penjadualan susulan"
+          },
+          "benefits": {
+            "title": "Impak Kesihatan Mental",
+            "description": "Peningkatan yang boleh diukur dalam kebolehcapaian sokongan kesihatan mental",
+            "alwaysAvailableSupport": "Sokongan sentiasa tersedia",
+            "crisisEscalationReduction": "Pengurangan eskalasi krisis",
+            "userSatisfactionRate": "Kadar kepuasan pengguna",
+            "helpSeekingBehaviorIncrease": "Peningkatan tingkah laku mencari bantuan"
+          },
+          "cta": {
+            "title": "Bersedia untuk Menyokong Kesihatan Mental?",
+            "description": "Sediakan sokongan kesihatan mental yang penuh kasih sayang, 24/7 dengan AI yang benar-benar peduli",
+            "learnMore": "Ketahui Lebih Lanjut",
+            "contactSpecialists": "Hubungi Pakar"
+          }
+        },
+        "callTransfer": {
+          "hero": {
+            "title": "Pemindahan Panggilan Pintar Semasa Waktu Perniagaan",
+            "description": "Revolusikan penghalaan panggilan anda dengan pemindahan pintar berkuasa AI yang memahami niat pemanggil dan menghubungkan mereka kepada orang yang betul serta-merta, mengurangkan masa menunggu dan meningkatkan kepuasan pelanggan.",
+            "primaryCta": "Optimumkan Penghalaan Panggilan Anda"
+          },
+          "features": {
+            "title": "Ciri-ciri Penghalaan Panggilan Pintar",
+            "description": "Teknologi AI lanjutan yang memahami dan menghala panggilan dengan ketepatan",
+            "intelligentRouting": {
+              "title": "Penghalaan Pintar",
+              "description": "AI menganalisis niat pemanggil dan menghala ke jabatan atau ejen yang paling sesuai.",
+              "benefits": {
+                "0": "Pengecaman niat",
+                "1": "Penghalaan berasaskan kemahiran",
+                "2": "Pengendalian keutamaan"
+              }
+            },
+            "agentOptimization": {
+              "title": "Pengoptimuman Ejen",
+              "description": "Seimbangkan beban kerja merentasi ejen dan pastikan panggilan sampai kepada pakar yang tersedia.",
+              "benefits": {
+                "0": "Pengimbangan beban",
+                "1": "Pemeriksaan ketersediaan",
+                "2": "Padanan kepakaran"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "Pengurangan Masa Menunggu",
+              "description": "Minimumkan masa menunggu pelanggan dengan penghalaan yang cekap dan pengurusan barisan.",
+              "benefits": {
+                "0": "Pengoptimuman barisan",
+                "1": "Pilihan panggilan balik",
+                "2": "Kemas kini masa nyata"
+              }
+            }
+          },
+          "routing": {
+            "title": "Penghalaan Pintar Beraksi",
+            "description": "Lihat bagaimana AI kami mengenal pasti niat dan menghala panggilan untuk hasil yang optimum"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "Pertanyaan Bil",
+              "action": "Hala ke Jabatan Bil",
+              "result": "90% resolusi panggilan pertama"
+            },
+            "technicalSupport": {
+              "trigger": "Sokongan Teknikal",
+              "action": "Hala ke Pasukan Teknikal",
+              "result": "85% resolusi isu"
+            },
+            "salesInterest": {
+              "trigger": "Minat Jualan",
+              "action": "Hala ke Pasukan Jualan",
+              "result": "40% kadar penukaran"
+            },
+            "vipCustomer": {
+              "trigger": "Pelanggan VIP",
+              "action": "Barisan Keutamaan",
+              "result": "< 30 saat masa menunggu"
+            }
+          },
+          "benefits": {
+            "title": "Impak yang Boleh Diukur",
+            "description": "Hasil sebenar daripada pelaksanaan pemindahan panggilan pintar"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "Pengurangan dalam purata masa menunggu"
+            },
+            "resolution": {
+              "description": "Kadar resolusi panggilan pertama"
+            },
+            "efficiency": {
+              "description": "Peningkatan kecekapan ejen"
+            },
+            "accuracy": {
+              "description": "Penghalaan yang tepat ke jabatan yang betul"
+            }
+          },
+          "cta": {
+            "title": "Bersedia untuk Mengoptimumkan Penghalaan Panggilan Anda?",
+            "description": "Kurangkan masa menunggu dan tingkatkan kepuasan pelanggan dengan pemindahan panggilan pintar",
+            "primaryButton": "Mula Percubaan Percuma",
+            "secondaryButton": "Lihat Demo"
+          }
+        },
+        "scamShield": {
+          "hero": {
+            "title": "Perlindungan Scam Shield",
+            "subtitle": "Lindungi pelanggan anda daripada penipuan telefon dan panggilan penipuan dengan pengesanan berkuasa AI yang mengenal pasti dan menyekat ancaman dalam masa nyata, menjaga komuniti anda selamat daripada penipuan kewangan.",
+            "cta": "Aktifkan Perlindungan Scam"
+          },
+          "features": {
+            "title": "Pengesanan Penipuan Lanjutan",
+            "subtitle": "Perlindungan berbilang lapisan terhadap taktik penipuan yang berkembang",
+            "realTimeDetection": {
+              "title": "Pengesanan Penipuan Masa Nyata",
+              "description": "Algoritma AI lanjutan mengenal pasti dan menyekat panggilan penipuan sebelum ia sampai kepada pelanggan anda.",
+              "benefit1": "Pengecaman corak",
+              "benefit2": "Analisis tingkah laku",
+              "benefit3": "Penyekatan segera"
+            },
+            "threatIntelligence": {
+              "title": "Kecerdasan Ancaman",
+              "description": "Pangkalan data yang dikemas kini secara berterusan mengenai corak penipuan yang diketahui dan nombor telefon penipuan.",
+              "benefit1": "Data ancaman global",
+              "benefit2": "Kemas kini masa nyata",
+              "benefit3": "Pembelajaran mesin"
+            },
+            "customerProtection": {
+              "title": "Perlindungan Pelanggan",
+              "description": "Melindungi pelanggan secara proaktif daripada penipuan kewangan dan percubaan kecurian identiti.",
+              "benefit1": "Pencegahan penipuan",
+              "benefit2": "Perlindungan identiti",
+              "benefit3": "Keselamatan kewangan"
+            }
+          },
+          "scamTypes": {
+            "title": "Dilindungi daripada Semua Jenis Penipuan",
+            "subtitle": "Perlindungan komprehensif terhadap taktik penipuan yang paling lazim",
+            "phishing": {
+              "type": "Panggilan Pancingan Data",
+              "description": "Percubaan untuk mencuri maklumat peribadi atau kelayakan log masuk",
+              "detection": "Analisis corak suara dan pengesanan kata kunci",
+              "action": "Penamatan panggilan segera dan makluman pelanggan"
+            },
+            "techSupport": {
+              "type": "Penipuan Sokongan Teknikal",
+              "description": "Sokongan teknikal palsu yang mendakwa masalah komputer",
+              "detection": "Pengecaman corak skrip dan pengesahan ID pemanggil",
+              "action": "Sekat panggilan dan berikan kenalan sokongan yang sah"
+            },
+            "financialFraud": {
+              "type": "Penipuan Kewangan",
+              "description": "Menyamar sebagai bank atau institusi kewangan",
+              "detection": "Pengesahan institusi dan pengesahan suara",
+              "action": "Tamatkan panggilan dan maklumkan institusi kewangan sebenar"
+            },
+            "romance": {
+              "type": "Penipuan Romantik",
+              "description": "Membina hubungan palsu untuk mendapatkan wang",
+              "detection": "Analisis corak perbualan dan pengesanan manipulasi emosi",
+              "action": "Makluman amaran dan penyediaan sumber"
+            },
+            "detectionMethod": "Kaedah Pengesanan:",
+            "protectionAction": "Tindakan Perlindungan:",
+            "detectionMethodLabel": "Kaedah Pengesatan",
+            "protectionActionLabel": "Tindakan Perlindungan"
+          },
+          "protection": {
+            "title": "Sistem Perlindungan Berbilang Lapisan",
+            "subtitle": "Perlindungan penipuan komprehensif kami menggunakan pelbagai kaedah pengesanan yang bekerjasama untuk menyediakan perlindungan maksimum sambil memastikan panggilan yang sah sentiasa masuk.",
+            "realTimeAnalysis": {
+              "title": "Analisis Masa Nyata",
+              "description": "Penilaian segera setiap panggilan masuk"
+            },
+            "continuousLearning": {
+              "title": "Pembelajaran Berterusan",
+              "description": "AI meningkatkan pengesanan dengan setiap penipuan yang disekat"
+            },
+            "zeroFalsePositives": {
+              "title": "Sifar Positif Palsu",
+              "description": "Panggilan yang sah tidak pernah disekat"
+            },
+            "layersTitle": "Lapisan Perlindungan",
+            "layer1": "Pengesahan ID pemanggil",
+            "layer2": "Analisis corak suara",
+            "layer3": "Algoritma pengesanan skrip",
+            "layer4": "Pengesanan anomali tingkah laku",
+            "layer5": "Kecerdasan ancaman masa nyata",
+            "layer6": "Makluman pendidikan pelanggan"
+          },
+          "benefits": {
+            "title": "Hasil Perlindungan",
+            "subtitle": "Keberkesanan yang terbukti dalam menghentikan penipuan dan melindungi pelanggan",
+            "accuracy": {
+              "metric": "95%",
+              "description": "Ketepatan pengesanan panggilan penipuan"
+            },
+            "reduction": {
+              "metric": "80%",
+              "description": "Pengurangan dalam percubaan penipuan yang berjaya"
+            },
+            "coverage": {
+              "metric": "24/7",
+              "description": "Liputan perlindungan berterusan"
+            },
+            "preservation": {
+              "metric": "99.9%",
+              "description": "Kadar pemeliharaan panggilan yang sah"
+            }
+          },
+          "cta": {
+            "title": "Bersedia untuk Melindungi Pelanggan Anda?",
+            "subtitle": "Hentikan penipu dengan pengesanan dan perlindungan penipuan berkuasa AI",
+            "activateProtection": "Aktifkan Perlindungan",
+            "learnMore": "Ketahui Lebih Lanjut",
+            "primaryButton": "Aktifkan Perlindungan",
+            "secondaryButton": "Ketahui Lebih Lanjut"
+          },
+          "protectionSystem": {
+            "title": "Sistem Perlindungan Berbilang Lapisan",
+            "subtitle": "Perlindungan penipuan komprehensif kami menggunakan pelbagai kaedah pengesanan yang bekerjasama untuk menyediakan perlindungan maksimum sambil memastikan panggilan yang sah sentiasa masuk.",
+            "realTimeAnalysis": {
+              "title": "Analisis Masa Nyata",
+              "description": "Penilaian segera setiap panggilan masuk"
+            },
+            "continuousLearning": {
+              "title": "Pembelajaran Berterusan",
+              "description": "AI meningkatkan pengesanan dengan setiap penipuan yang disekat"
+            },
+            "zeroFalsePositives": {
+              "title": "Sifar Positif Palsu",
+              "description": "Panggilan yang sah tidak pernah disekat"
+            }
+          },
+          "results": {
+            "title": "Hasil Perlindungan",
+            "subtitle": "Keberkesanan yang terbukti dalam menghentikan penipuan dan melindungi pelanggan"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "Pemprosesan Pembayaran Selamat",
+            "description": "Membolehkan pemprosesan pembayaran yang selamat dan mematuhi PCI melalui interaksi suara. Benarkan pelanggan membuat pembayaran dengan selamat melalui telefon dengan perlindungan penipuan lanjutan dan pemprosesan transaksi segera.",
+            "cta": "Dayakan Pembayaran Selamat"
+          },
+          "features": {
+            "title": "Ciri-ciri Pembayaran Suara Selamat",
+            "subtitle": "Keselamatan gred perusahaan memenuhi pengalaman pelanggan yang lancar",
+            "securePayment": {
+              "title": "Pemprosesan Pembayaran Selamat",
+              "description": "Proses pembayaran dengan selamat melalui telefon dengan teknologi suara yang mematuhi PCI.",
+              "benefit1": "Pematuhan PCI DSS",
+              "benefit2": "Transaksi yang disulitkan",
+              "benefit3": "Kaedah pembayaran berbilang"
+            },
+            "fraudProtection": {
+              "title": "Perlindungan Penipuan",
+              "description": "Pengesanan dan pencegahan penipuan lanjutan untuk melindungi perniagaan dan pelanggan.",
+              "benefit1": "Pengesanan penipuan masa nyata",
+              "benefit2": "Penilaian risiko",
+              "benefit3": "Pengesahan selamat"
+            },
+            "instantProcessing": {
+              "title": "Pemprosesan Segera",
+              "description": "Proses pembayaran serta-merta dengan kebenaran dan pengesahan masa nyata.",
+              "benefit1": "Kebenaran masa nyata",
+              "benefit2": "Pengesahan segera",
+              "benefit3": "Resit segera"
+            }
+          },
+          "paymentMethods": {
+            "title": "Pilihan Pembayaran Komprehensif",
+            "subtitle": "Terima semua kaedah pembayaran utama dengan pemprosesan suara yang selamat",
+            "creditCards": {
+              "method": "Kad Kredit",
+              "description": "Terima semua kad kredit utama dengan pemprosesan suara yang selamat",
+              "features": {
+                "visaMastercardAmex": "Visa, Mastercard, Amex",
+                "cvvVerification": "Pengesahan CVV",
+                "expiryValidation": "Pengesahan tamat tempoh"
+              }
+            },
+            "debitCards": {
+              "method": "Kad Debit",
+              "description": "Proses pembayaran kad debit dengan pengesahan PIN",
+              "features": {
+                "pinEntryVoice": "Input PIN melalui suara",
+                "bankVerification": "Pengesahan bank",
+                "instantDeduction": "Potongan segera"
+              }
+            },
+            "bankTransfers": {
+              "method": "Pemindahan Bank",
+              "description": "Pemindahan akaun bank langsung dan pembayaran ACH",
+              "features": {
+                "accountVerification": "Pengesahan akaun",
+                "routingNumberValidation": "Pengesahan nombor penghalaan",
+                "achProcessing": "Pemprosesan ACH"
+              }
+            },
+            "digitalWallets": {
+              "method": "Dompet Digital",
+              "description": "Sokongan untuk platform pembayaran digital popular",
+              "features": {
+                "applePay": "Apple Pay",
+                "googlePay": "Google Pay",
+                "paypalIntegration": "Integrasi PayPal"
+              }
+            }
+          },
+          "security": {
+            "title": "Keselamatan Peringkat Bank",
+            "description": "Sistem pemprosesan pembayaran kami memenuhi piawaian keselamatan tertinggi dalam industri, memastikan setiap transaksi dilindungi dengan pelbagai lapisan penyulitan dan pencegahan penipuan.",
+            "features": {
+              "title": "Ciri-ciri Keselamatan"
+            },
+            "encryption": {
+              "title": "Penyulitan Hujung ke Hujung",
+              "description": "Semua data pembayaran disulitkan dalam transit dan semasa rehat"
+            },
+            "pciCompliance": {
+              "title": "Pematuhan PCI DSS",
+              "description": "Infrastruktur yang diperakui PCI DSS Tahap 1"
+            },
+            "monitoring": {
+              "title": "Pemantauan Masa Nyata",
+              "description": "Pengesanan dan pencegahan penipuan berterusan"
+            }
+          },
+          "securityFeatures": {
+            "endToEndEncryption": "Penyulitan hujung ke hujung",
+            "pciDssCompliance": "Pematuhan PCI DSS Tahap 1",
+            "tokenization": "Tokenisasi data kad",
+            "multiFactorAuth": "Pengesahan berbilang faktor",
+            "fraudMonitoring": "Pemantauan penipuan masa nyata",
+            "voiceRecognition": "Pengecaman suara selamat"
+          },
+          "benefits": {
+            "title": "Prestasi Pemprosesan Pembayaran",
+            "subtitle": "Kebolehpercayaan dan metrik keselamatan terkemuka industri",
+            "uptime": {
+              "metric": "99.9%",
+              "description": "Waktu beroperasi pemprosesan pembayaran"
+            },
+            "transactionTime": {
+              "metric": "< 3s",
+              "description": "Purata masa transaksi"
+            },
+            "compliance": {
+              "metric": "100%",
+              "description": "Pematuhan PCI DSS"
+            },
+            "fraudRate": {
+              "metric": "0.1%",
+              "description": "Kadar penipuan dengan perlindungan AI"
+            }
+          },
+          "cta": {
+            "title": "Bersedia untuk Pembayaran Suara Selamat?",
+            "subtitle": "Dayakan pemprosesan pembayaran yang mematuhi PCI dengan perlindungan penipuan lanjutan",
+            "primaryButton": "Mula Pemprosesan Selamat",
+            "secondaryButton": "Gambaran Keseluruhan Keselamatan"
+          }
+        }
+      },
+      "mentalHealth": {
+        "hero": {
+          "title": "Pendamping Suara Kesihatan Mental",
+          "subtitle": "Sediakan sokongan kesihatan mental yang penuh kasih sayang, 24/7 dengan AI yang mendengar, memahami, dan membalas dengan empati. Merapatkan jurang antara krisis dan penjagaan profesional dengan selamat.",
+          "cta": "Ketahui Mengenai AI Kesihatan Mental"
+        },
+        "features": {
+          "title": "Sokongan AI yang Penuh Kasih Sayang",
+          "subtitle": "AI lanjutan yang dilatih dalam sokongan kesihatan mental dan intervensi krisis",
+          "empathetic": {
+            "title": "Pendamping AI yang Empati",
+            "description": "Dilatih untuk menyediakan sokongan yang penuh kasih sayang, tidak menghakimi dengan balasan emosi yang sesuai.",
+            "benefits": {
+              "activeListing": "Mendengar aktif",
+              "emotionalValidation": "Pengesahan emosi",
+              "crisisRecognition": "Pengecaman krisis"
+            }
+          },
+          "safe": {
+            "title": "Selamat & Sulit",
+            "description": "Platform yang mematuhi HIPAA memastikan privasi dan kerahsiaan lengkap untuk semua interaksi.",
+            "benefits": {
+              "hipaaCompliance": "Pematuhan HIPAA",
+              "encryptedConversations": "Perbualan yang disulitkan",
+              "anonymousOptions": "Pilihan tanpa nama"
+            }
+          },
+          "available": {
+            "title": "Ketersediaan 24/7",
+            "description": "Sentiasa tersedia apabila seseorang perlu bercakap, menyediakan sokongan segera semasa saat krisis.",
+            "benefits": {
+              "roundTheClockAccess": "Akses sepanjang masa",
+              "immediateResponse": "Balasan segera",
+              "noWaitTimes": "Tiada masa menunggu"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "Keupayaan Sokongan Kesihatan Mental",
+          "subtitle": "Sokongan komprehensif merentasi spektrum penjagaan kesihatan mental",
+          "screening": {
+            "title": "Saringan Kesihatan Mental Awal",
+            "description": "Lakukan penilaian awal menggunakan alat saringan yang disahkan",
+            "outcomes": {
+              "earlyIdentification": "Pengenalpastian awal",
+              "riskAssessment": "Penilaian risiko",
+              "appropriateReferrals": "Rujukan yang sesuai"
+            }
+          },
+          "crisis": {
+            "title": "Intervensi Krisis",
+            "description": "Mengenal pasti situasi krisis dan menyediakan sokongan atau eskalasi segera",
+            "outcomes": {
+              "crisisDetection": "Pengesanan krisis",
+              "deEscalationTechniques": "Teknik de-eskalasi",
+              "emergencyProtocols": "Protokol kecemasan"
+            }
+          },
+          "navigation": {
+            "title": "Navigasi Sumber",
+            "description": "Bimbing pengguna ke sumber dan perkhidmatan kesihatan mental yang sesuai",
+            "outcomes": {
+              "serviceMatching": "Padanan perkhidmatan",
+              "appointmentScheduling": "Penjadualan janji temu",
+              "followUpSupport": "Sokongan susulan"
+            }
+          },
+          "emotional": {
+            "title": "Sokongan Emosi",
+            "description": "Sediakan pendengaran yang penuh kasih sayang dan pengesahan emosi",
+            "outcomes": {
+              "reducedIsolation": "Pengurangan pengasingan",
+              "emotionalRelief": "Pelepasan emosi",
+              "copingStrategies": "Strategi mengatasi"
+            }
+          }
+        },
+        "safety": {
+          "title": "Reka Bentuk Mengutamakan Keselamatan",
+          "description": "AI kesihatan mental kami direka dengan keselamatan sebagai keutamaan utama, menampilkan pengesanan krisis lanjutan dan protokol eskalasi segera untuk memastikan pengguna menerima penjagaan profesional yang sesuai apabila diperlukan.",
+          "crisisDetection": {
+            "title": "Pengesanan Krisis",
+            "description": "Algoritma lanjutan mengenal pasti situasi krisis"
+          },
+          "professionalHandoff": {
+            "title": "Penyerahan Profesional",
+            "description": "Pemindahan lancar kepada profesional kesihatan mental manusia"
+          },
+          "emergencyProtocols": {
+            "title": "Protokol Kecemasan",
+            "description": "Sambungan segera ke talian panas krisis apabila diperlukan"
+          },
+          "features": {
+            "title": "Ciri-ciri Keselamatan",
+            "crisisKeywordDetection": "Pengesanan kata kunci krisis",
+            "suicideRiskAssessment": "Penilaian risiko bunuh diri",
+            "automaticEscalationProtocols": "Protokol eskalasi automatik",
+            "emergencyContactIntegration": "Integrasi kenalan kecemasan",
+            "professionalHandoffProcedures": "Prosedur penyerahan profesional",
+            "followUpScheduling": "Penjadualan susulan"
+          }
+        },
+        "impact": {
+          "title": "Impak Kesihatan Mental",
+          "subtitle": "Peningkatan yang boleh diukur dalam kebolehcapaian sokongan kesihatan mental",
+          "availability": {
+            "metric": "24/7",
+            "description": "Sokongan sentiasa tersedia"
+          },
+          "crisisReduction": {
+            "metric": "60%",
+            "description": "Pengurangan eskalasi krisis"
+          },
+          "satisfaction": {
+            "metric": "85%",
+            "description": "Kadar kepuasan pengguna"
+          },
+          "helpSeeking": {
+            "metric": "40%",
+            "description": "Peningkatan tingkah laku mencari bantuan"
+          }
+        },
+        "cta": {
+          "title": "Bersedia untuk Menyokong Kesihatan Mental?",
+          "subtitle": "Sediakan sokongan kesihatan mental yang penuh kasih sayang, 24/7 dengan AI yang benar-benar peduli",
+          "learnMore": "Ketahui Lebih Lanjut",
+          "contactSpecialists": "Hubungi Pakar"
+        }
+      }
+    }
+  }
+}

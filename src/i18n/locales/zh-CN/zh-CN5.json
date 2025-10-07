@@ -1,0 +1,658 @@
+{
+  "seachat": {
+    "features": {
+      "advancedAI": {
+        "title": "进阶 AI 功能",
+        "subtitle": "下一代 AI 智能，具备记忆、情境感知和进阶推理能力，提供真正个人化的客户体验。",
+        "exploreButton": "探索进阶 AI",
+        "scheduleDemo": "预约演示",
+        "capabilities": {
+          "title": "尖端 AI 能力",
+          "subtitle": "体验客户支援的未来，我们的进阶 AI 功能能够学习、记忆和适应。"
+        },
+        "rag": {
+          "title": "检索增强生成 (RAG)",
+          "description": "结合关键字、向量和混合搜寻的进阶搜寻能力，实现精准的资讯检索。",
+          "details": {
+            "semantic": "语义向量搜寻，提供情境理解",
+            "keyword": "传统关键字匹配，用于精确查询",
+            "hybrid": "结合两种方法的混合演算法",
+            "indexing": "即时内容索引和更新"
+          },
+          "sectionTitle": "检索增强生成",
+          "sectionSubtitle": "进阶搜寻技术，结合多种方法实现最准确的资讯检索。",
+          "keyword": "关键字搜寻",
+          "keywordDesc": "传统精确匹配搜寻，用于精确查询和特定术语。",
+          "vector": "向量搜寻",
+          "vectorDesc": "语义理解，找到情境相关的资讯。",
+          "hybrid": "混合搜寻",
+          "hybridDesc": "两全其美，结合关键字精确性和语义理解。"
+        },
+        "memory": {
+          "title": "长期记忆系统",
+          "description": "持久的用户记忆，在所有互动中创造个人化体验。",
+          "details": {
+            "preferences": "用户偏好追踪和储存",
+            "history": "对话历史分析",
+            "patterns": "行为模式识别",
+            "continuity": "跨会话连续性和情境"
+          },
+          "sectionTitle": "长期记忆实际运作",
+          "sectionSubtitle": "了解我们的 AI 如何从每次互动中记忆和学习，提供日益个人化的支援。",
+          "fieldsTitle": "情境提取栏位",
+          "fieldsDescription": "我们的 AI 自动识别并储存每个用户的关键资讯，创建丰富的个人档案，增强每次未来的互动。",
+          "example": "范例",
+          "timeline": "记忆时间轴",
+          "firstInteraction": "首次互动",
+          "firstInteractionDesc": "AI 学习用户偏好和情境",
+          "ongoingConversations": "持续对话",
+          "ongoingConversationsDesc": "持续更新用户档案",
+          "returnVisits": "回访",
+          "returnVisitsDesc": "提供个人化、情境感知的回应"
+        },
+        "timeAwareness": {
+          "title": "时间感知整合",
+          "description": "基于当前时间、时区和时间相关性的情境感知回应。",
+          "details": {
+            "timestamp": "即时时间戳整合",
+            "timezone": "时区感知排程和回应",
+            "recommendations": "时间敏感的建议",
+            "hours": "营业时间优化"
+          }
+        },
+        "context": {
+          "title": "智慧情境提取",
+          "description": "智能栏位映射和数据提取，提高用户理解能力。",
+          "details": {
+            "fields": "自订栏位定义和映射",
+            "extraction": "从对话中自动提取数据",
+            "language": "用户语言偏好检测",
+            "dynamic": "动态情境建构和更新"
+          }
+        },
+        "references": {
+          "title": "引用聊天结果",
+          "description": "透明的 AI 回应，包含来源引用和信心评分。",
+          "details": {
+            "linking": "来源文件连结和引用",
+            "tracking": "引用追踪和验证",
+            "confidence": "回应信心评分",
+            "verification": "事实验证和确认"
+          }
+        },
+        "knowledge": {
+          "title": "知识库优化",
+          "description": "持续改善知识库的准确性和相关性。",
+          "details": {
+            "updating": "基于互动自动更新内容",
+            "scoring": "品质评分和内容排名",
+            "relevance": "相关性优化演算法",
+            "analytics": "效能分析和洞察"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "用户语言",
+            "description": "记住偏好的沟通语言",
+            "example": "客户偏好西班牙语回应"
+          },
+          "product": {
+            "field": "产品兴趣",
+            "description": "追踪感兴趣的产品类别",
+            "example": "对高级软体解决方案感兴趣"
+          },
+          "history": {
+            "field": "支援历史",
+            "description": "维护之前问题的情境",
+            "example": "之前的帐单问题已解决"
+          },
+          "style": {
+            "field": "沟通风格",
+            "description": "适应偏好的互动风格",
+            "example": "偏好详细的技术说明"
+          }
+        },
+        "cta": {
+          "title": "体验 AI 的未来",
+          "subtitle": "准备好用能够记忆、学习和适应的进阶 AI 转变您的客户支援吗？用我们的尖端技术开始您的旅程。",
+          "signUp": "免费注册",
+          "scheduleDemo": "预约演示"
+        }
+      },
+      "aiAutomation": {
+        "title": "AI 自动化",
+        "subtitle": "透过智慧型 AI 扩展您的客户支援，AI 能够学习、适应并提供即时回应，同时在需要时保持人性化的触感。",
+        "tryButton": "试用 AI 自动化",
+        "featuresTitle": "智慧型 AI 功能",
+        "featuresSubtitle": "我们的 AI 自动化超越了简单的聊天机器人，提供真正智慧的客户支援。",
+        "performanceTitle": "真正有效的自动化",
+        "performanceSubtitle": "了解我们的 AI 自动化如何以惊人的准确率处理不同类型的客户查询。",
+        "hybridTitle": "完美平衡：AI + 人工",
+        "hybridSubtitle": "我们的混合方式结合了 AI 的速度和人工客服的同理心。",
+        "aiStrengthsTitle": "AI 自动化的优势",
+        "aiStrengths": [
+          "对常见问题的即时回应",
+          "全年无休 24/7 的可用性",
+          "同时处理多个对话",
+          "一致的服务品质",
+          "多语言沟通支援",
+          "快速存取知识库资讯"
+        ],
+        "humanStrengthsTitle": "人工客服的优势",
+        "humanStrengths": [
+          "复杂的问题解决和同理心",
+          "与客户建立个人关系",
+          "处理敏感或情绪化的情况",
+          "创意解决方案和跳脱思维",
+          "了解客户的细致需求",
+          "在模糊情况下做出判断决定"
+        ],
+        "ctaTitle": "准备好使用 AI 扩展了吗？",
+        "ctaSubtitle": "从免费的人工客服开始，然后在您准备好扩展时添加 AI 自动化。成长型企业的完美混合方式。",
+        "contextAware": {
+          "title": "上下文感知回应",
+          "description": "AI 理解对话上下文并提供相关的智慧回应。"
+        },
+        "learning": {
+          "title": "从对话中学习",
+          "description": "透过每次客户互动持续改进。"
+        },
+        "handoff": {
+          "title": "无缝人工转接",
+          "description": "当出现复杂问题时，顺畅转接至人工客服。"
+        },
+        "availability": {
+          "title": "24/7 全天候可用",
+          "description": "即使在客服离线时，也能提供全天候即时支援。"
+        },
+        "response": {
+          "title": "即时回应时间",
+          "description": "在毫秒内回应客户查询，而非分钟。"
+        },
+        "multilanguage": {
+          "title": "多语言支援",
+          "description": "自动以客户偏好的语言进行沟通。"
+        },
+        "types": {
+          "faq": {
+            "title": "FAQ 自动化",
+            "description": "以准确、最新的资讯即时回答常见问题。"
+          },
+          "orders": {
+            "title": "订单状态更新",
+            "description": "提供即时订单追踪和物流资讯。"
+          },
+          "appointments": {
+            "title": "预约排程",
+            "description": "自动预约和管理日程安排。"
+          },
+          "recommendations": {
+            "title": "产品推荐",
+            "description": "根据客户偏好建议相关产品。"
+          }
+        },
+        "scheduleDemo": "预约演示",
+        "signUpForFree": "免费注册"
+      },
+      "api": {
+        "restful": {
+          "title": "RESTful API",
+          "description": "简洁直观的 REST API，配备完整文档"
+        },
+        "webhooks": {
+          "title": "即时 Webhooks",
+          "description": "即时接收事件和对话更新通知"
+        },
+        "security": {
+          "title": "安全认证",
+          "description": "OAuth 2.0 和 API 金钥认证，具备速率限制"
+        },
+        "cdn": {
+          "title": "全球 CDN",
+          "description": "全球低延迟 API 存取"
+        },
+        "endpoints": {
+          "createConversation": "建立新对话",
+          "getConversation": "取得对话详细资讯",
+          "sendMessage": "在对话中传送讯息"
+        },
+        "sdks": {
+          "available": "可用",
+          "comingSoon": "即将推出"
+        },
+        "title": "API 和开发者工具",
+        "subtitle": "使用我们全面的 API 和开发者友善的工具，建立客制化整合并扩展 SeaChat 的功能。",
+        "getKeyButton": "取得 API 金钥",
+        "viewDocsButton": "查看文档",
+        "featuresTitle": "强大的 API 功能",
+        "featuresSubtitle": "将 SeaChat 整合到您现有系统和工作流程所需的一切。",
+        "endpointsTitle": "API 端点",
+        "endpointsSubtitle": "探索我们全面的 API，包含范例和互动式文档。",
+        "exampleRequestResponse": "请求/回应范例",
+        "tryItOut": "立即试用",
+        "testConsole": "在控制台测试",
+        "copyCurl": "复制 cURL",
+        "sdksTitle": "SDK 和函式库",
+        "sdksSubtitle": "使用我们为热门程式语言提供的官方 SDK 快速开始。",
+        "exampleTitle": "快速开始范例",
+        "exampleSubtitle": "只需几行程式码即可启动并执行 SeaChat API。",
+        "jsExample": "JavaScript 范例",
+        "copy": "复制",
+        "ctaTitle": "准备开始建置了吗？",
+        "ctaSubtitle": "立即取得您的 API 金钥，开始将 SeaChat 整合到您的应用程式中。",
+        "ctaAccessButton": "取得 API 存取权",
+        "ctaDocsButton": "阅读文档"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "客户满意度"
+          },
+          "responseTime": {
+            "title": "平均响应时间"
+          },
+          "resolution": {
+            "title": "解决率"
+          },
+          "growth": {
+            "title": "月度增长"
+          },
+          "period": "本月"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "即时仪表板",
+              "description": "透过即时、可自定义的仪表板监控您的支援绩效。",
+              "benefits": {
+                "metrics": "即时绩效指标",
+                "kpi": "自定义关键绩效指标追踪",
+                "team": "团队绩效视图",
+                "alerts": "警报通知"
+              }
+            },
+            "reporting": {
+              "title": "进阶报告",
+              "description": "产生具有可行见解和趋势的详细报告。",
+              "benefits": {
+                "automated": "自动报告生成",
+                "dates": "自定义日期范围",
+                "export": "汇出功能",
+                "scheduled": "定时传送"
+              }
+            },
+            "journey": {
+              "title": "客户旅程分析",
+              "description": "追踪客户在所有接触点和管道中的互动。",
+              "benefits": {
+                "tracking": "多管道追踪",
+                "visualization": "旅程视觉化",
+                "conversion": "转换分析",
+                "dropoff": "流失识别"
+              }
+            },
+            "optimization": {
+              "title": "绩效优化",
+              "description": "识别瓶颈并优化您的支援营运。",
+              "benefits": {
+                "bottlenecks": "瓶颈检测",
+                "resources": "资源配置",
+                "efficiency": "效率建议",
+                "roi": "投资报酬率分析"
+              }
+            }
+          }
+        },
+        "title": "分析与洞察",
+        "subtitle": "透过全面的分析做出数据驱动的决策，揭示客户行为、专员绩效和优化机会。",
+        "metricsTitle": "关键绩效指标",
+        "metricsSubtitle": "追踪对您客户支援成功最重要的指标。",
+        "featuresTitle": "全面分析套件",
+        "featuresSubtitle": "您需要的一切来理解、测量和改进您的客户支援营运。",
+        "dashboardTitle": "互动式仪表板预览",
+        "dashboardSubtitle": "看看我们的分析仪表板如何一目了然地提供可行的见解。",
+        "dashboard": {
+          "overview": "绩效概览",
+          "months": {
+            "jan": "一月",
+            "dec": "十二月"
+          },
+          "quickStats": "快速统计",
+          "activeConversations": "活跃对话",
+          "systemUptime": "系统正常运行时间",
+          "customerRating": "客户评分"
+        },
+        "ctaTitle": "开始做出数据驱动的决策",
+        "ctaSubtitle": "释放分析的力量，优化您的客户支援并推动业务增长。"
+      },
+      "humanAgents": {
+        "title": "真人客服聊天室",
+        "subtitle": "立即享受终身免费的真人客服支援。无限制、无隐藏费用，为您的顾客带来真诚的人性化互动。",
+        "startButton": "立即免费开始",
+        "demoButton": "观看示范",
+        "unlimited": {
+          "title": "无限客服时数",
+          "description": "无时间限制、无工时上限。您的真人客服会尽您所需提供服务，完全免费。"
+        },
+        "realtime": {
+          "title": "即时聊天管理",
+          "description": "透过直观的聊天介面，同时处理多个对话。"
+        },
+        "collaboration": {
+          "title": "多人协作模式",
+          "description": "透过无缝的客服人员转接和协作工具，轻松扩展您的团队。"
+        },
+        "security": {
+          "title": "进阶安全防护",
+          "description": "企业级安全防护，具备端到端加密和资料保护。"
+        },
+        "analytics": {
+          "title": "效能分析报告",
+          "description": "追踪回应时间、顾客满意度和客服人员绩效指标。"
+        },
+        "workflows": {
+          "title": "客制化工作流程",
+          "description": "为您的客服流程建立个人化工作流程和自动化规则。"
+        },
+        "benefits": {
+          "personal": {
+            "title": "人性化服务",
+            "description": "提供AI无法复制的人类同理心和理解力"
+          },
+          "complex": {
+            "title": "复杂问题解决",
+            "description": "处理需要人类判断力的复杂情况"
+          },
+          "brand": {
+            "title": "品牌形象代表",
+            "description": "真正理解并代表您品牌价值的客服人员"
+          },
+          "relationships": {
+            "title": "顾客关系建立",
+            "description": "透过真实的人际互动建立持久的顾客关系"
+          }
+        },
+        "freeForever": {
+          "title": "真正的终身免费 🍺 & 🎙️",
+          "subtitle": "我们说免费就是真正的免费。终身拥有一位真人客服，无限功能全包。",
+          "meaningTitle": "「终身免费」的真正意义",
+          "agent": "终身拥有 1 位真人客服",
+          "conversations": "无限聊天对话",
+          "history": "无限聊天记录",
+          "contacts": "无限联络人",
+          "export": "自由汇出所有资料",
+          "noCredit": "无需信用卡",
+          "unlimited": "一切无限制",
+          "noCaps": "无隐藏费用、无时间限制、无对话上限。纯粹无限的真人客服支援。",
+          "forever": "永远"
+        },
+        "featuresTitle": "强大的真人客服功能",
+        "featuresSubtitle": "提供卓越人性化客服支援所需的一切功能。",
+        "whyMatterTitle": "为什么真人客服依然重要",
+        "whyMatterSubtitle": "在AI驱动的世界中，人际连结在建立信任和解决复杂问题方面仍然不可取代。",
+        "ctaTitle": "准备好开始使用真人客服了吗？",
+        "ctaSubtitle": "加入数千家企业的行列，透过我们免费的真人客服提供卓越的顾客支援。",
+        "ctaStartButton": "立即免费开始",
+        "ctaDemoButton": "安排示范"
+      },
+      "knowledgeBase": {
+        "subtitle": "透过全面的知识管理赋能您的 AI 智能体。创建、组织和维护集中式资讯储存库，提供智能、准确的回应。",
+        "managementTitle": "智能知识管理",
+        "managementSubtitle": "建立强大的知识基础，与您的业务共同成长，并增强每次客户互动。",
+        "smartSearch": {
+          "title": "智能搜索",
+          "description": "先进的语义搜索功能，理解上下文和意图，即时提供精确资讯。"
+        },
+        "documentManagement": {
+          "title": "文件管理",
+          "description": "在一个集中位置上传、组织和版本控制文件、常见问题、政策和程序。"
+        },
+        "collaboration": {
+          "title": "协作编辑",
+          "description": "通过即时编辑、审批工作流程和基于角色的存取控制实现团队协作。"
+        },
+        "autoLearning": {
+          "title": "自动学习",
+          "description": "自动捕获和学习成功的互动，持续提高知识准确性。"
+        },
+        "accessControl": {
+          "title": "存取控制",
+          "description": "透过细致的权限保护敏感资讯，并确保符合资料保护法规。"
+        },
+        "multiLanguage": {
+          "title": "多语言",
+          "description": "支援多种语言和在地化，为全球客户提供文化适宜的回应。"
+        },
+        "demoTitle": "看看知识库的实际应用",
+        "demoSubtitle": "观看我们的智能知识系统如何提供准确、符合情境的回应。",
+        "interfaceTitle": "知识库介面",
+        "categories": "文件类别",
+        "productDocs": "产品文件",
+        "articles": "篇文章",
+        "supportFaqs": "客户支援常见问题",
+        "policies": "公司政策",
+        "recentUpdates": "最近更新",
+        "refundUpdate": "退款政策已更新",
+        "hoursAgo": "小时前",
+        "returnWindow": "退货期限从 14 天更新为 30 天",
+        "featureGuide": "新功能指南",
+        "dayAgo": "天前",
+        "analyticsDoc": "新增进阶分析文件",
+        "transformTitle": "转变您的客户支援",
+        "transformSubtitle": "井然有序的知识库是卓越客户服务和高效运营的基础。",
+        "benefitsTitle": "主要优势",
+        "fasterResponse": {
+          "title": "更快的回应时间",
+          "description": "透过即时存取准确资讯，将平均回应时间缩短 60%。"
+        },
+        "consistency": {
+          "title": "一致的准确性",
+          "description": "确保所有客服人员在所有通道中提供一致、最新的资讯。"
+        },
+        "training": {
+          "title": "可扩展的培训",
+          "description": "透过全面、可搜索的文件更快地培训新客服人员。"
+        },
+        "readyTitle": "准备好开始了吗？",
+        "readySubtitle": "立即建立您的知识库，转变您的团队提供客户支援的方式。",
+        "startButton": "开始建立",
+        "scheduleDemo": "预约演示"
+      },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "网站聊天",
+            "description": "在任何网站平台上嵌入聊天小工具",
+            "seachat": {
+              "features": {
+                "compatibility": "通用相容性",
+                "styling": "自订样式",
+                "responsive": "移动响应式",
+                "sync": "即时同步"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "WhatsApp 商业版",
+            "seachat": {
+              "features": {
+                "api": "商业 API 整合",
+                "media": "丰富媒体支援",
+                "templates": "范本讯息",
+                "groups": "群组讯息"
+              }
+            },
+            "description": "在世界上最受欢迎的即时通讯应用程式上与客户互动"
+          },
+          "instagram": {
+            "name": "Instagram Direct",
+            "description": "在一个地方管理 Instagram 私讯和限时动态回复",
+            "seachat": {
+              "features": {
+                "replies": "限时动态回复管理",
+                "media": "媒体分享",
+                "responses": "快速回应",
+                "greetings": "自动问候语"
+              }
+            }
+          },
+          "facebook": {
+            "name": "Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "页面整合",
+                "responses": "自动回应",
+                "cards": "丰富卡片",
+                "menu": "持久选单"
+              }
+            },
+            "description": "透过 Facebook 的讯息平台提供支援"
+          },
+          "voice": {
+            "name": "语音通话",
+            "description": "使用 AI 语音专员处理电话支援",
+            "seachat": {
+              "features": {
+                "conversations": "自然对话",
+                "routing": "通话路由",
+                "voicemail": "语音信箱转录",
+                "conference": "会议通话"
+              }
+            }
+          },
+          "email": {
+            "name": "电子邮件支援",
+            "description": "使用智慧路由管理电子邮件工单",
+            "seachat": {
+              "features": {
+                "categorization": "智慧分类",
+                "responses": "自动回应",
+                "templates": "电子邮件范本",
+                "priority": "优先级处理"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "统一客户视图",
+            "description": "在一个介面中查看所有管道的完整客户历史记录"
+          },
+          "handoffs": {
+            "title": "无缝交接",
+            "description": "客户可以在不失去对话上下文的情况下切换管道"
+          },
+          "resolution": {
+            "title": "更快解决",
+            "description": "通过统一的专员工作流程缩短解决时间"
+          },
+          "satisfaction": {
+            "title": "更高满意度",
+            "description": "在所有接触点提供一致的体验"
+          }
+        },
+        "title": "全通路支援",
+        "subtitle": "在一个统一平台中连接所有客户接触点。在网站、社交媒体、电话和电子邮件上提供一致、无缝的支援。",
+        "channelsTitle": "所有管道，一个平台",
+        "channelsSubtitle": "连接并管理客户在每个管道上使用的客户对话。",
+        "benefitsTitle": "真正全通路的力量",
+        "benefitsSubtitle": "不仅仅是拥有多个管道。创造让客户满意的统一体验。",
+        "inboxTitle": "统一收件匣体验",
+        "inboxSubtitle": "了解所有客户对话如何在一个智慧介面中汇聚。",
+        "activeConversations": "活跃对话",
+        "websiteChat": "关于产品功能的网站聊天...",
+        "whatsappInquiry": "关于订单状态的 WhatsApp 询问...",
+        "instagramDM": "关于退货政策的 Instagram 私讯...",
+        "conversationView": "对话视图",
+        "customerVia": "客户透过网站",
+        "agentResponse": "专员回应",
+        "customerViaWhatsapp": "客户透过 WhatsApp",
+        "whatsappMessage": "谢谢！我能在 WhatsApp 上继续这个对话吗？",
+        "ctaTitle": "准备好统一您的客户管道了吗？",
+        "ctaSubtitle": "连接所有客户接触点，提供让客户回流的无缝支援体验。",
+        "customerMessage": "您好，我对您的 AI 自动化功能感兴趣。您能告诉我更多资讯吗？",
+        "agentMessage": "我很乐意帮助您！我们的 AI 自动化可以处理高达 80% 的日常询问..."
+      },
+      "voiceAgents": {
+        "title": "语音智能客服",
+        "subtitle": "透过听起来自然、理解上下文并能提供多语言即时协助的AI语音智能客服，转化您的电话支援。",
+        "signUpFree": "免费注册",
+        "scheduleDemo": "安排示范",
+        "natural": {
+          "title": "自然语音对话",
+          "description": "AI驱动的语音智能客服，听起来自然且理解上下文。"
+        },
+        "speech": {
+          "title": "先进语音识别",
+          "description": "多语言和腔调的精确语音转文字转换。"
+        },
+        "synthesis": {
+          "title": "高品质语音合成",
+          "description": "水晶般清晰、人性化的语音输出，具备情感智慧。"
+        },
+        "support": {
+          "title": "24/7语音支援",
+          "description": "为全球客户支援提供全天候语音协助。"
+        },
+        "multilanguage": {
+          "title": "多语言支援",
+          "description": "支援50+种语言，具备原生发音。"
+        },
+        "routing": {
+          "title": "智能通话路由",
+          "description": "当出现复杂问题时，智慧路由至人工专员。"
+        },
+        "capabilitiesTitle": "先进语音功能",
+        "capabilitiesSubtitle": "我们的语音智能客服结合尖端AI与自然语言处理，实现人性化对话。",
+        "capabilities": {
+          "service": {
+            "title": "客户服务通话",
+            "description": "处理日常查询、订单状态和基本故障排除"
+          },
+          "appointments": {
+            "title": "预约排程",
+            "description": "自动预约、重新安排和确认约会"
+          },
+          "orders": {
+            "title": "订单处理",
+            "description": "接受订单、处理付款和确认详细资料"
+          },
+          "support": {
+            "title": "技术支援",
+            "description": "引导客户完成基本故障排除步骤"
+          }
+        },
+        "performanceTitle": "语音智能客服效能",
+        "performanceSubtitle": "了解我们的语音智能客服在不同类型的客户互动中的表现。",
+        "accuracyRate": "准确率",
+        "avgDuration": "平均时长",
+        "experienceTitle": "体验语音AI的实际运作",
+        "experienceSubtitle": "聆听客户与我们语音智能客服之间的真实对话。",
+        "sampleTitle": "对话范例",
+        "voiceAgent": "语音智能客服",
+        "customer": "客户",
+        "agentGreeting": "您好！感谢您致电SeaChat客服。请问有什么可以为您服务的吗？",
+        "customerQuestion": "你好，我需要查看我最近订单的状态。",
+        "agentResponse": "我很乐意为您协助。请您提供订单号码或您帐户的电子邮件地址好吗？",
+        "playDemo": "播放完整示范",
+        "moreSamples": "更多范例",
+        "featuresTitle": "语音智能客服功能",
+        "featuresList": {
+          "0": "自然语音处理",
+          "1": "多语言支援",
+          "2": "电话系统整合",
+          "3": "语音情感分析",
+          "4": "通话录音和分析",
+          "5": "智能人工升级"
+        },
+        "ctaTitle": "准备转化电话支援了吗？",
+        "ctaSubtitle": "体验语音客户支援的未来，AI智能客服听起来和感觉都像真人。"
+      }
+    },
+    "seo": {
+      "title": "SeaChat - AI 聊天机器人与客服自动化 | Seasalt.ai",
+      "titleSuffix": " - AI 聊天机器人与客服自动化 | Seasalt.ai",
+      "description": "SeaChat 是一个 AI 驱动的聊天机器人平台，帮助企业在多个管道上自动化客户服务，包括 WhatsApp、网站、社群媒体等。"
+    }
+  }
+}

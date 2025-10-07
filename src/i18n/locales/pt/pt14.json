@@ -1,0 +1,403 @@
+{
+  "textToSpeech": {
+    "hero": {
+      "title": "Tecnologia de Texto para Fala",
+      "subtitle": "Gere fala semelhante à humana a partir de texto com nossa avançada tecnologia neural de texto para fala. Crie vozes personalizadas, suporte mais de 40 idiomas e entregue qualidade de áudio excepcional.",
+      "cta": "Experimente a Geração de Voz"
+    },
+    "demo": {
+      "title": "Experimente Nossa Tecnologia de Voz",
+      "subtitle": "Experimente diferentes vozes e ouça a qualidade por si mesmo",
+      "chooseVoice": "Escolha uma voz:",
+      "textPrompt": "Digite o texto para converter em fala:",
+      "defaultText": "Olá! Sou um assistente de voz de IA alimentado pela tecnologia SeaVoice. Posso ajudá-lo com atendimento ao cliente, vendas e suporte com uma voz natural e semelhante à humana.",
+      "placeholderText": "Digite algo para nossa IA dizer...",
+      "generateSpeech": "Gerar Fala",
+      "playing": "Reproduzindo..."
+    },
+    "voices": {
+      "sarah": {
+        "name": "Sarah",
+        "gender": "Feminino",
+        "accent": "Inglês (EUA)",
+        "description": "Profissional, calorosa"
+      },
+      "tom": {
+        "name": "Tom",
+        "gender": "Masculino",
+        "accent": "Inglês (EUA)",
+        "description": "Amigável, conversacional"
+      },
+      "lissa": {
+        "name": "Lissa",
+        "gender": "Feminino",
+        "accent": "Inglês (Reino Unido)",
+        "description": "Energética, prestativa"
+      },
+      "alex": {
+        "name": "Alex",
+        "gender": "Masculino",
+        "accent": "Australiano",
+        "description": "Claro, confiante"
+      },
+      "maria": {
+        "name": "Maria",
+        "gender": "Feminino",
+        "accent": "Espanhol",
+        "description": "Expressiva, natural"
+      },
+      "hiroshi": {
+        "name": "Hiroshi",
+        "gender": "Masculino",
+        "accent": "Japonês",
+        "description": "Educado, profissional"
+      }
+    },
+    "features": {
+      "title": "Geração Avançada de Voz",
+      "subtitle": "Redes neurais de ponta entregam qualidade de fala semelhante à humana",
+      "customVoiceCloning": {
+        "title": "Clonagem de Voz Personalizada",
+        "description": "Crie perfis de voz exclusivos que correspondam à personalidade da sua marca e estilo de fala.",
+        "capabilities": {
+          "voiceCloning": "Clonagem de voz a partir de amostras",
+          "brandVoice": "Consistência da voz da marca",
+          "emotionalExpression": "Expressão emocional",
+          "customPronunciations": "Pronúncias personalizadas"
+        }
+      },
+      "advancedControls": {
+        "title": "Controles Avançados",
+        "description": "Ajuste cada aspecto da geração de fala para uma saída de áudio perfeita.",
+        "capabilities": {
+          "speedAdjustment": "Ajuste de velocidade",
+          "pitchControl": "Controle de tom",
+          "emphasisPlacement": "Posicionamento de ênfase",
+          "pauseInsertion": "Inserção de pausa"
+        }
+      },
+      "multiLanguageSupport": {
+        "title": "Suporte Multi-idioma",
+        "description": "Gere fala natural em mais de 40 idiomas com pronúncia nativa.",
+        "capabilities": {
+          "fortyPlusLanguages": "Mais de 40 idiomas",
+          "regionalAccents": "Sotaques regionais",
+          "codeSwitching": "Troca de código",
+          "multilingualVoices": "Vozes multilíngues"
+        }
+      }
+    },
+    "qualityMetrics": {
+      "title": "Métricas de Qualidade Excepcionais",
+      "subtitle": "Desempenho medido que oferece resultados profissionais",
+      "naturalness": {
+        "metric": "Pontuação de Naturalidade",
+        "value": "4.8/5",
+        "description": "Classificação de avaliação humana"
+      },
+      "intelligibility": {
+        "metric": "Inteligibilidade",
+        "value": "99.2%",
+        "description": "Precisão do reconhecimento de palavras"
+      },
+      "latency": {
+        "metric": "Latência",
+        "value": "< 200ms",
+        "description": "Geração de texto para áudio"
+      },
+      "audioQuality": {
+        "metric": "Qualidade de Áudio",
+        "value": "48kHz",
+        "description": "Saída de alta fidelidade"
+      }
+    },
+    "useCases": {
+      "title": "Aplicações Versáteis",
+      "subtitle": "Transforme texto em fala em todas as indústrias e casos de uso",
+      "customerService": {
+        "title": "Atendimento ao Cliente",
+        "description": "Forneça respostas de voz consistentes e profissionais para interações com clientes.",
+        "benefits": {
+          "availability": "Disponibilidade 24/7",
+          "consistentQuality": "Qualidade consistente",
+          "multiLanguageSupport": "Suporte multi-idioma",
+          "brandVoiceAlignment": "Alinhamento da voz da marca"
+        }
+      },
+      "contentCreation": {
+        "title": "Criação de Conteúdo",
+        "description": "Gere narrações para vídeos, podcasts e conteúdo multimídia.",
+        "benefits": {
+          "costEffectiveProduction": "Produção econômica",
+          "quickTurnaround": "Tempo de resposta rápido",
+          "multipleVoiceOptions": "Várias opções de voz",
+          "easyRevisions": "Revisões fáceis"
+        }
+      },
+      "accessibility": {
+        "title": "Acessibilidade",
+        "description": "Torne o conteúdo acessível com texto para fala de alta qualidade para usuários com deficiência visual.",
+        "benefits": {
+          "screenReaderEnhancement": "Aprimoramento do leitor de tela",
+          "documentNarration": "Narração de documentos",
+          "webAccessibility": "Acessibilidade web",
+          "educationalSupport": "Suporte educacional"
+        }
+      },
+      "interactiveApplications": {
+        "title": "Aplicações Interativas",
+        "description": "Adicione recursos de voz a aplicativos, jogos e experiências interativas.",
+        "benefits": {
+          "realTimeGeneration": "Geração em tempo real",
+          "dynamicContent": "Conteúdo dinâmico",
+          "userEngagement": "Engajamento do usuário",
+          "immersiveExperiences": "Experiências imersivas"
+        }
+      }
+    },
+    "voiceCloning": {
+      "title": "Clonagem de Voz Personalizada",
+      "subtitle": "Crie perfis de voz exclusivos que correspondam perfeitamente à personalidade da sua marca. Nossa avançada tecnologia de clonagem de voz pode replicar estilos de fala, sotaques e expressões emocionais com apenas alguns minutos de áudio de amostra.",
+      "brandVoiceConsistency": {
+        "title": "Consistência da Voz da Marca",
+        "description": "Mantenha uma voz de marca consistente em todas as interações"
+      },
+      "fineTunedControl": {
+        "title": "Controle Refinado",
+        "description": "Ajuste o tom, o ritmo e a expressão emocional"
+      },
+      "highFidelityOutput": {
+        "title": "Saída de Alta Fidelidade",
+        "description": "Áudio de qualidade profissional para qualquer aplicação"
+      },
+      "process": {
+        "title": "Processo de Clonagem de Voz",
+        "step1": {
+          "title": "Carregar Amostras de Áudio",
+          "description": "Forneça de 5 a 10 minutos de gravações de áudio limpas"
+        },
+        "step2": {
+          "title": "Treinamento de IA",
+          "description": "Nossas redes neurais aprendem suas características de voz exclusivas"
+        },
+        "step3": {
+          "title": "Geração de Voz",
+          "description": "Gere fala ilimitada com sua voz personalizada"
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto para Dar Voz à Sua Marca?",
+      "subtitle": "Crie vozes personalizadas e gere fala de qualidade profissional para qualquer aplicação",
+      "startVoiceCloning": "Iniciar Clonagem de Voz",
+      "exploreApi": "Explorar API"
+    }
+  },
+  "components": {
+    "aiVoiceAvatar": {
+      "badge": {
+        "label": "Avatar de IA Interativo"
+      },
+      "hero": {
+        "title": {
+          "line1": "Conheça seu",
+          "line2": "Agente de Voz de IA"
+        },
+        "subtitle": "Experimente o futuro da comunicação de IA. Nossos avatares demonstram conversas semelhantes à humanas com inteligência emocional e várias opções de personalidade."
+      },
+      "voices": {
+        "professional": {
+          "name": "Sarah Profissional",
+          "description": "Voz de negócios clara e autoritária"
+        },
+        "friendly": {
+          "name": "Mike Amigável",
+          "description": "Atendimento ao cliente caloroso e acessível"
+        },
+        "empathetic": {
+          "name": "Emma Carinhosa",
+          "description": "Voz compassiva de saúde"
+        }
+      },
+      "languages": {
+        "english": "Inglês",
+        "spanish": "Espanhol",
+        "french": "Francês",
+        "german": "Alemão",
+        "chinese": "Chinês"
+      },
+      "demoScripts": {
+        "professional": "Olá, sou Sarah, sua assistente de negócios de IA. Posso lidar com consultas de clientes, agendar compromissos e fornecer informações detalhadas sobre produtos com precisão e clareza.",
+        "friendly": "Oi! Sou Mike, e estou aqui para tornar sua experiência incrível. Se você precisa de ajuda com um pedido ou apenas tem uma pergunta rápida, ficarei feliz em conversar!",
+        "empathetic": "Olá, sou Emma. Entendo que perguntas sobre saúde podem ser estressantes, e estou aqui para fornecer suporte atencioso e preciso sempre que você precisar."
+      },
+      "controls": {
+        "voicePersonality": "Escolha a Personalidade da Voz:",
+        "language": "Idioma:",
+        "demoVoice": "Voz de Demonstração",
+        "tryVoiceInput": "Experimentar Entrada de Voz"
+      },
+      "status": {
+        "listening": "Ouvindo...",
+        "speaking": "Falando...",
+        "ready": "Pronto",
+        "label": "Status:"
+      },
+      "listeningResponse": "Eu ouvi você! É aqui que eu responderia à sua entrada de voz com compreensão contextual.",
+      "avatarMoods": {
+        "neutral": "neutro",
+        "speaking": "falando",
+        "listening": "ouvindo",
+        "thinking": "pensando"
+      }
+    }
+  },
+  "voiceConversationFlow": {
+    "steps": {
+      "callConnected": {
+        "title": "Chamada Conectada",
+        "description": "Cliente conectado com seu negócio"
+      },
+      "listening": {
+        "title": "IA Ouvindo",
+        "description": "Reconhecimento avançado de fala captura cada palavra"
+      },
+      "processing": {
+        "title": "IA Processando",
+        "description": "Redes neurais entendem intenção e contexto"
+      },
+      "responding": {
+        "title": "IA Respondendo",
+        "description": "Voz semelhante à humana entrega resposta perfeita"
+      }
+    },
+    "conversationTypes": {
+      "appointmentBooking": "Agendamento de Consultas",
+      "orderSupport": "Suporte a Pedidos",
+      "salesInquiry": "Consulta de Vendas"
+    },
+    "conversations": {
+      "appointmentBooking": {
+        "customer": "Olá, gostaria de agendar uma consulta para a próxima terça-feira.",
+        "ai": "Ficarei feliz em ajudá-lo a agendar uma consulta. Deixe-me verificar nossa disponibilidade para a próxima terça-feira. Qual horário seria melhor para você?"
+      },
+      "orderSupport": {
+        "customer": "Estou com problemas com meu pedido recente. Ele ainda não chegou.",
+        "ai": "Entendo sua preocupação com seu pedido. Deixe-me verificar isso para você imediatamente. Você poderia fornecer o número do seu pedido?"
+      },
+      "salesInquiry": {
+        "customer": "Você pode me falar sobre seus planos de preços?",
+        "ai": "Com certeza! Temos várias opções de preços para atender a diferentes necessidades. Nosso plano básico começa em $29/mês e inclui todos os recursos principais. Gostaria que eu explicasse as diferenças?"
+      }
+    },
+    "ui": {
+      "chooseConversationType": "Escolha o Tipo de Conversa:",
+      "autoProgressing": "Progredindo automaticamente pelos cenários...",
+      "liveConversation": "Conversa ao Vivo:",
+      "speaking": "Falando...",
+      "aiSpeaking": "IA Falando...",
+      "aiThinking": "IA Pensando...",
+      "processingContext": "Processando contexto",
+      "accuracyRate": "Taxa de Precisão"
+    }
+  },
+  "// Large Scale Campaigns Page - English key-value pairs": "",
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | Contact Center Omni-Channel para Pequenas Empresas",
+      "description": "Pare de fazer malabarismos com aplicativos. Unifique todas as chamadas de clientes, WhatsApp e chat em uma única caixa de entrada. O contact center tudo-em-um construído para pequenas empresas.",
+      "keywords": "contact center omni-channel, comunicação para pequenas empresas, caixa de entrada unificada, software de atendimento ao cliente, WhatsApp business, chamadas de voz, suporte por chat"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | Comunicação por Voz Alimentada por IA - Seasalt.ai",
+        "description": "Transforme suas comunicações por voz com IA. O SeaVoice oferece roteamento inteligente de chamadas, análise de voz e respostas automatizadas. Lide com chamadas de clientes 24 horas por dia, 7 dias por semana, com agentes de IA semelhantes a humanos.",
+        "keywords": "voz de IA, software de call center, análise de voz, SeaVoice, roteamento inteligente de chamadas, sistema telefônico automatizado, assistente de voz, atendimento ao cliente 24/7"
+      },
+      "virtualAssistant": {
+        "title": "Assistente Virtual 24/7 | Soluções de Voz de IA SeaVoice - Seasalt.ai",
+        "description": "Forneça atendimento ao cliente 24 horas por dia com o Assistente Virtual de IA SeaVoice. Agentes de voz inteligentes lidam com consultas de clientes, agendamento de compromissos e solicitações de suporte, melhorando a satisfação e reduzindo custos.",
+        "keywords": "assistente virtual, assistente de voz de IA, atendimento ao cliente 24/7, atendimento ao cliente inteligente, SeaVoice, automação de voz, automação de atendimento ao cliente"
+      }
+    }
+  },
+  "// Key structure: seavoice": {
+    "pages": {
+      "solutions": {
+        "outbound": {
+          "largeScaleCampaigns": "",
+          "subscriptionRenewals": ""
+        }
+      }
+    }
+  },
+  "statsCounter": {
+    "section": {
+      "title": "Confiado por empresas em todo o mundo",
+      "subtitle": "Nossa plataforma impulsiona milhões de conversas todos os dias"
+    },
+    "stats": {
+      "messages": {
+        "label": "Mensagens Enviadas",
+        "suffix": "M+"
+      },
+      "calls": {
+        "label": "Chamadas Feitas",
+        "suffix": "K+"
+      },
+      "uptime": {
+        "label": "Tempo de Atividade do Sistema",
+        "suffix": "%"
+      },
+      "countries": {
+        "label": "Países Atendidos",
+        "suffix": "+"
+      },
+      "roi": {
+        "label": "Aumento de ROI",
+        "suffix": "%"
+      }
+    },
+    "dashboard": {
+      "title": "Painel SeaX",
+      "messagesSent": "Mensagens Enviadas",
+      "deliveryRate": "Taxa de Entrega",
+      "recentActivity": "Atividade Recente",
+      "demo": {
+        "messagesSent": "2,4M",
+        "deliveryRate": "85%"
+      }
+    },
+    "activity": {
+      "flashSale": {
+        "title": "Campanha de Venda Flash",
+        "detail": "50.000 SMS enviados • 2 min atrás"
+      },
+      "leadFollowup": {
+        "title": "Acompanhamento de Leads",
+        "detail": "12.000 chamadas concluídas • 5 min atrás"
+      },
+      "whatsapp": {
+        "title": "Campanha WhatsApp",
+        "detail": "25.000 mensagens na fila • 8 min atrás"
+      }
+    },
+    "status": {
+      "liveRunning": "Campanhas ao vivo em execução",
+      "liveActivity": "Atividade ao vivo: Mensagens sendo enviadas agora"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "10k+",
+      "callsMax": "5k+",
+      "voicemailMax": "1k+",
+      "whatsappMax": "10k+"
+    },
+    "breakdown": {
+      "localPlus": "local +",
+      "tollFreeMinus": "ligação gratuita"
+    }
+  }
+}

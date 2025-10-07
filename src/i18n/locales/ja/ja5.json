@@ -1,0 +1,658 @@
+{
+  "seachat": {
+    "features": {
+      "advancedAI": {
+        "title": "高度なAI機能",
+        "subtitle": "真にパーソナライズされた顧客体験のためのメモリ、コンテキスト認識、および高度な推論機能を備えた次世代AIインテリジェンス。",
+        "exploreButton": "高度なAIを探索します",
+        "scheduleDemo": "デモをスケジュールします",
+        "capabilities": {
+          "title": "最先端のAI機能",
+          "subtitle": "学習、覚え、適応する高度なAI機能で、カスタマーサポートの未来を体験してください。"
+        },
+        "rag": {
+          "title": "検索拡張生成（RAG）",
+          "description": "キーワード、ベクトル、およびハイブリッド検索を組み合わせた高度な検索機能正確な情報検索のハイブリッド検索。",
+          "details": {
+            "semantic": "コンテキストの理解のセマンティックベクトル検索",
+            "keyword": "正確なクエリの従来のキーワードマッチング",
+            "hybrid": "両方のアプローチを組み合わせたハイブリッドアルゴリズム",
+            "indexing": "リアルタイムコンテンツのインデックス作成と更新"
+          },
+          "sectionTitle": "検索拡張生成",
+          "sectionSubtitle": "最も正確な情報検索のために複数のアプローチを組み合わせた高度な検索テクノロジー。",
+          "keyword": "キーワード検索",
+          "keywordDesc": "正確なクエリと特定の用語を検索する従来の正確な試験。",
+          "vector": "ベクトル検索",
+          "vectorDesc": "コンテキストに関連する情報を見つけるセマンティック理解。",
+          "hybrid": "ハイブリッド検索",
+          "hybridDesc": "キーワードの精度とセマンティック理解を組み合わせた両方の世界のベスト。"
+        },
+        "memory": {
+          "title": "長期メモリシステム",
+          "description": "すべてのインタラクションにわたってパーソナライズされたエクスペリエンスを作成する永続的なユーザーメモリ。",
+          "details": {
+            "preferences": "ユーザーの好みの追跡とストレージ",
+            "history": "会話履歴分析",
+            "patterns": "行動パターン認識",
+            "continuity": "クロスセッションの連続性とコンテキスト"
+          },
+          "sectionTitle": "活動中の長期記憶",
+          "sectionSubtitle": "私たちのAIがすべての相互作用からどのように覚えて学習し、ますますパーソナライズされたサポートを提供するかをご覧ください。",
+          "fieldsTitle": "コンテキスト抽出フィールド",
+          "fieldsDescription": "AIは、各ユーザーに関する重要な情報を自動的に識別および保存し、すべての将来の相互作用を強化するリッチプロファイルを作成します。",
+          "example": "例",
+          "timeline": "メモリタイムライン",
+          "firstInteraction": "最初の相互作用",
+          "firstInteractionDesc": "AIはユーザーの好みとコンテキストを学習します",
+          "ongoingConversations": "進行中の会話",
+          "ongoingConversationsDesc": "ユーザープロファイルを継続的に更新します",
+          "returnVisits": "訪問を返します",
+          "returnVisitsDesc": "パーソナライズされたコンテキストを意識した応答を提供します"
+        },
+        "timeAwareness": {
+          "title": "時間認識統合",
+          "description": "現在の時間、タイムゾーン、および時間的関連性に基づくコンテキスト認識応答。",
+          "details": {
+            "timestamp": "リアルタイムのタイムスタンプ統合",
+            "timezone": "タイムゾーン認識のスケジューリングと応答",
+            "recommendations": "時間に敏感な推奨事項",
+            "hours": "営業時間の最適化"
+          }
+        },
+        "context": {
+          "title": "スマートコンテキスト抽出",
+          "description": "より良いユーザー理解のためのインテリジェントなフィールドマッピングとデータ抽出。",
+          "details": {
+            "fields": "カスタムフィールド定義とマッピング",
+            "extraction": "会話からの自動データ抽出",
+            "language": "ユーザー言語選好の検出",
+            "dynamic": "動的コンテキストの構築と更新"
+          }
+        },
+        "references": {
+          "title": "参照されたチャット結果",
+          "description": "ソースの引用と信頼性のスコアリングによる透明なAI応答。",
+          "details": {
+            "linking": "ソースドキュメントのリンクと引用",
+            "tracking": "引用追跡と検証",
+            "confidence": "応答の自信の得点",
+            "verification": "事実検証と検証"
+          }
+        },
+        "knowledge": {
+          "title": "知識ベースの洗練",
+          "description": "知識ベースの精度と関連性の継続的な改善。",
+          "details": {
+            "updating": "相互作用に基づいた自動更新コンテンツ",
+            "scoring": "品質のスコアリングとコンテンツのランキング",
+            "relevance": "関連性最適化アルゴリズム",
+            "analytics": "パフォーマンス分析と洞察"
+          }
+        },
+        "memoryExamples": {
+          "language": {
+            "field": "user_language",
+            "description": "好みのコミュニケーション言語を覚えています",
+            "example": "顧客はスペイン語の回答を好みます"
+          },
+          "product": {
+            "field": "Product_Interest",
+            "description": "関心のある製品カテゴリを追跡します",
+            "example": "プレミアムソフトウェアソリューションに興味があります"
+          },
+          "history": {
+            "field": "support_history",
+            "description": "以前の問題のコンテキストを維持します",
+            "example": "以前は請求の質問が解決しました"
+          },
+          "style": {
+            "field": "communication_style",
+            "description": "好ましいインタラクションスタイルに適応します",
+            "example": "詳細な技術的説明を好む"
+          }
+        },
+        "cta": {
+          "title": "AIの未来を体験してください",
+          "subtitle": "カスタマーサポートを覚え、学び、適応する高度なAIでカスタマーサポートを変換する準備はできていますか？私たちの最先端のテクノロジーであなたの旅を始めましょう。",
+          "signUp": "無料でサインアップしてください",
+          "scheduleDemo": "デモをスケジュールします"
+        }
+      },
+      "aiAutomation": {
+        "title": "AIオートメーション",
+        "subtitle": "必要に応じて人間のタッチを維持しながら、インスタント応答を学び、適応させ、提供するインテリジェントAIでカスタマーサポートを拡張します。",
+        "tryButton": "AIオートメーションをお試しください",
+        "featuresTitle": "インテリジェントAI機能",
+        "featuresSubtitle": "当社のAIオートメーションは、単純なチャットボットを超えて、真にインテリジェントなカスタマーサポートを提供します。",
+        "performanceTitle": "実際に機能する自動化",
+        "performanceSubtitle": "AIオートメーションは、印象的な精度率でさまざまな種類の顧客問い合わせをどのように処理するかをご覧ください。",
+        "hybridTitle": "完璧なバランス：AI + Human",
+        "hybridSubtitle": "私たちのハイブリッドアプローチは、AIの速度と人間のエージェントの共感を組み合わせています。",
+        "aiStrengthsTitle": "AIオートメーションはで優れています",
+        "aiStrengths": [
+          "一般的な質問に対する即時回答",
+          "24時間年中無休で休憩なし",
+          "複数の会話を同時に処理します",
+          "一貫したサービス品質",
+          "多言語通信サポート",
+          "ナレッジベース情報への迅速なアクセス"
+        ],
+        "humanStrengthsTitle": "人間のエージェントは卓越しています",
+        "humanStrengths": [
+          "複雑な問題解決と共感",
+          "顧客との個人的な関係の構築",
+          "敏感または感情的な状況の処理",
+          "創造的なソリューションとボックス外の思考",
+          "微妙な顧客のニーズを理解する",
+          "あいまいなシナリオで判断を下す"
+        ],
+        "ctaTitle": "AIでスケーリングする準備はできましたか？",
+        "ctaSubtitle": "無料の人間エージェントから始めて、拡張の準備ができたらAIオートメーションを追加します。成長するビジネスのための完璧なハイブリッドアプローチ。",
+        "contextAware": {
+          "title": "コンテキスト認識応答",
+          "description": "AIは会話のコンテキストを理解し、関連するインテリジェントな応答を提供します。"
+        },
+        "learning": {
+          "title": "会話から学ぶ",
+          "description": "すべての顧客の相互作用から学習することにより、継続的に改善されます。"
+        },
+        "handoff": {
+          "title": "シームレスな人間のハンドオフ",
+          "description": "複雑な問題が発生した場合、人間のエージェントへのスムーズな移行。"
+        },
+        "availability": {
+          "title": "24/7の可用性",
+          "description": "エージェントがオフラインであっても、24時間周りのインスタントサポートを提供します。"
+        },
+        "response": {
+          "title": "インスタント応答時間",
+          "description": "議事録ではなく、ミリ秒単位で顧客クエリに応答します。"
+        },
+        "multilanguage": {
+          "title": "多言語サポート",
+          "description": "好みの言語で顧客と自動的に通信します。"
+        },
+        "types": {
+          "faq": {
+            "title": "FAQオートメーション",
+            "description": "正確で最新の情報で一般的な質問にすぐに答えます。"
+          },
+          "orders": {
+            "title": "ステータスの更新を注文します",
+            "description": "リアルタイムの注文追跡と配送情報を提供します。"
+          },
+          "appointments": {
+            "title": "予約スケジューリング",
+            "description": "予約を予約し、カレンダーを自動的に管理します。"
+          },
+          "recommendations": {
+            "title": "製品の推奨事項",
+            "description": "顧客の好みに基づいて関連する製品を提案します。"
+          }
+        },
+        "scheduleDemo": "デモをスケジュールします",
+        "signUpForFree": "無料でサインアップしてください"
+      },
+      "api": {
+        "restful": {
+          "title": "RESTFUL API",
+          "description": "包括的なドキュメントを備えた清潔で直感的な休憩API"
+        },
+        "webhooks": {
+          "title": "リアルタイムWebhooks",
+          "description": "イベントや会話の更新のインスタント通知を取得します"
+        },
+        "security": {
+          "title": "安全な認証",
+          "description": "OAUTH 2.0およびレート制限付きAPIキー認証"
+        },
+        "cdn": {
+          "title": "グローバルCDN",
+          "description": "世界のどこからでも低遅延のAPIアクセス"
+        },
+        "endpoints": {
+          "createConversation": "新しい会話を作成します",
+          "getConversation": "会話の詳細を取得します",
+          "sendMessage": "会話でメッセージを送信します"
+        },
+        "sdks": {
+          "available": "利用可能",
+          "comingSoon": "近日公開"
+        },
+        "title": "APIおよび開発者ツール",
+        "subtitle": "カスタム統合を構築し、包括的なAPIおよび開発者に優しいツールでSeachatの機能を拡張します。",
+        "getKeyButton": "APIキーを取得します",
+        "viewDocsButton": "ドキュメントを表示します",
+        "featuresTitle": "強力なAPI機能",
+        "featuresSubtitle": "Seachatを既存のシステムとワークフローに統合するために必要なすべて。",
+        "endpointsTitle": "APIエンドポイント",
+        "endpointsSubtitle": "例とインタラクティブなドキュメントを使用して、包括的なAPIを調べてください。",
+        "exampleRequestResponse": "例リクエスト/応答",
+        "tryItOut": "試してみてください",
+        "testConsole": "コンソールでテストします",
+        "copyCurl": "カールをコピーします",
+        "sdksTitle": "SDKとライブラリ",
+        "sdksSubtitle": "一般的なプログラミング言語用の公式のSDKからすぐに始めましょう。",
+        "exampleTitle": "クイックスタートの例",
+        "exampleSubtitle": "わずか数行のコードでSeachat APIを使用して起きて実行します。",
+        "jsExample": "JavaScriptの例",
+        "copy": "コピー",
+        "ctaTitle": "建物を始める準備はできましたか？",
+        "ctaSubtitle": "APIキーを取得し、Seachatのアプリケーションへの統合を今すぐ統合してください。",
+        "ctaAccessButton": "APIアクセスを取得します",
+        "ctaDocsButton": "ドキュメントを読んでください"
+      },
+      "analytics": {
+        "metrics": {
+          "satisfaction": {
+            "title": "顧客満足度"
+          },
+          "responseTime": {
+            "title": "平均応答時間"
+          },
+          "resolution": {
+            "title": "解像度率"
+          },
+          "growth": {
+            "title": "毎月の成長"
+          },
+          "period": "今月"
+        },
+        "seachat": {
+          "features": {
+            "dashboards": {
+              "title": "リアルタイムダッシュボード",
+              "description": "ライブ、カスタマイズ可能なダッシュボードでサポートパフォーマンスを監視します。",
+              "benefits": {
+                "metrics": "ライブパフォーマンスメトリック",
+                "kpi": "カスタムKPIトラッキング",
+                "team": "チームのパフォーマンスビュー",
+                "alerts": "アラート通知"
+              }
+            },
+            "reporting": {
+              "title": "高度なレポート",
+              "description": "実用的な洞察とトレンドで詳細なレポートを生成します。",
+              "benefits": {
+                "automated": "自動レポート生成",
+                "dates": "カスタム日付の範囲",
+                "export": "エクスポート機能",
+                "scheduled": "スケジュールされた配達"
+              }
+            },
+            "journey": {
+              "title": "カスタマージャーニー分析",
+              "description": "すべてのタッチポイントとチャネルにわたる顧客の対話を追跡します。",
+              "benefits": {
+                "tracking": "マルチチャネル追跡",
+                "visualization": "旅の視覚化",
+                "conversion": "変換分析",
+                "dropoff": "ドロップオフ識別"
+              }
+            },
+            "optimization": {
+              "title": "パフォーマンスの最適化",
+              "description": "ボトルネックを特定し、サポート操作を最適化します。",
+              "benefits": {
+                "bottlenecks": "ボトルネックの検出",
+                "resources": "リソース割り当て",
+                "efficiency": "効率の推奨事項",
+                "roi": "分析フロー"
+              }
+            }
+          }
+        },
+        "title": "分析と洞察",
+        "subtitle": "顧客の行動、エージェントのパフォーマンス、最適化の機会を明らかにする包括的な分析でデータ駆動型の決定を下します。",
+        "metricsTitle": "キーパフォーマンスメトリック",
+        "metricsSubtitle": "カスタマーサポートの成功に最も重要なメトリックを追跡します。",
+        "featuresTitle": "包括的な分析スイート",
+        "featuresSubtitle": "カスタマーサポート業務を理解し、測定し、改善するために必要なすべて。",
+        "dashboardTitle": "インタラクティブなダッシュボードプレビュー",
+        "dashboardSubtitle": "Analytics Dashboardがどのように実用的な洞察を提供しているかをご覧ください。",
+        "dashboard": {
+          "overview": "パフォーマンスの概要",
+          "months": {
+            "jan": "1月",
+            "dec": "12月"
+          },
+          "quickStats": "クイック統計",
+          "activeConversations": "アクティブな会話",
+          "systemUptime": "システムアップタイム",
+          "customerRating": "顧客評価"
+        },
+        "ctaTitle": "データ駆動型の決定を開始します",
+        "ctaSubtitle": "カスタマーサポートを最適化し、ビジネスの成長を促進するために、分析の力のロックを解除します。"
+      },
+      "humanAgents": {
+        "title": "人間のエージェントチャット",
+        "subtitle": "完全に自由に一生、本物の人間のサポートエージェントから始めてください。制限、漁獲、顧客との真の人間的なつながりはありません。",
+        "startButton": "永遠に無料で開始します",
+        "demoButton": "デモを見る",
+        "unlimited": {
+          "title": "無制限のエージェント時間",
+          "description": "時間制限はありません、時間給はありません。あなたの人間のエージェントはあなたが必要とするだけで、完全に無料で動作します。"
+        },
+        "realtime": {
+          "title": "リアルタイムのチャット管理",
+          "description": "直感的なチャットインターフェイスと同時に複数の会話を処理します。"
+        },
+        "collaboration": {
+          "title": "マルチエージェントコラボレーション",
+          "description": "シームレスなエージェントからエージェントへのハンドオフとコラボレーションツールでチームをスケーリングします。"
+        },
+        "security": {
+          "title": "高度なセキュリティ",
+          "description": "エンドツーエンドの暗号化とデータ保護を備えたエンタープライズグレードのセキュリティ。"
+        },
+        "analytics": {
+          "title": "パフォーマンス分析",
+          "description": "応答時間、顧客満足度、エージェントパフォーマンスメトリックを追跡します。"
+        },
+        "workflows": {
+          "title": "カスタムワークフロー",
+          "description": "サポートプロセスのためのパーソナライズされたワークフローと自動化ルールを作成します。"
+        },
+        "benefits": {
+          "personal": {
+            "title": "個人的なタッチ",
+            "description": "AIが再現できないという人間の共感と理解"
+          },
+          "complex": {
+            "title": "複雑な問題解決",
+            "description": "人間の判断を必要とする微妙な状況を処理します"
+          },
+          "brand": {
+            "title": "ブランド表現",
+            "description": "あなたのブランドの価値を本当に理解し、表現するエージェント"
+          },
+          "relationships": {
+            "title": "顧客関係",
+            "description": "本物の人間のつながりを通して永続的な関係を構築します"
+          }
+        },
+        "freeForever": {
+          "title": "無料のように本当に無料の🍺＆🎙🎙です",
+          "subtitle": "私たちは自由と言うときそれを意味します。無制限のすべてを伴う一人の人間のエージェント。",
+          "meaningTitle": "「Free Forever」は本当に意味があります",
+          "agent": "1寿命の人間のエージェント",
+          "conversations": "無制限のチャット会話",
+          "history": "無制限のチャット履歴",
+          "contacts": "無制限の連絡先",
+          "export": "すべてのデータをエクスポートする自由",
+          "noCredit": "クレジットカードは必要ありません",
+          "unlimited": "すべてを無制限に",
+          "noCaps": "隠れた料金、時間制限、会話上限はありません。純粋で無制限の人間のサポート。",
+          "forever": "永遠に"
+        },
+        "featuresTitle": "強力な人間のエージェント機能",
+        "featuresSubtitle": "並外れた人間に搭載されたカスタマーサポートを提供するために必要なすべて。",
+        "whyMatterTitle": "なぜ人間のエージェントがまだ重要なのか",
+        "whyMatterSubtitle": "AI主導の世界では、人間のつながりは、信頼を築き、複雑な問題を解決するためにかけがえのないままです。",
+        "ctaTitle": "人間のエージェントから始める準備はできましたか？",
+        "ctaSubtitle": "無料の人間エージェントと卓越したカスタマーサポートを提供する何千もの企業に参加してください。",
+        "ctaStartButton": "今すぐ無料で開始してください",
+        "ctaDemoButton": "デモをスケジュールします"
+      },
+      "knowledgeBase": {
+        "subtitle": "AIエージェントに包括的な知識管理を強化します。インテリジェントで正確な応答を可能にする情報の集中型リポジトリを作成、整理、および維持します。",
+        "managementTitle": "インテリジェントなナレッジマネジメント",
+        "managementSubtitle": "あなたのビジネスとともに成長し、あらゆる顧客の相互作用を強化する強力な知識基盤を構築します。",
+        "smartSearch": {
+          "title": "スマート検索",
+          "description": "コンテキストと意図を理解する高度なセマンティック検索機能、正確な情報を即座に配信します。"
+        },
+        "documentManagement": {
+          "title": "ドキュメント管理",
+          "description": "文書、編成、およびバージョンのドキュメント、FAQ、ポリシー、および手順を1つの集中型の場所にアップロードし、編成し、バージョンします。"
+        },
+        "collaboration": {
+          "title": "共同編集",
+          "description": "リアルタイムの編集、承認ワークフロー、およびロールベースのアクセスコントロールとのチームコラボレーションを有効にします。"
+        },
+        "autoLearning": {
+          "title": "自動学習",
+          "description": "成功した相互作用から自動的にキャプチャして学習し、知識の精度を継続的に改善します。"
+        },
+        "accessControl": {
+          "title": "アクセス制御",
+          "description": "粒状の許可を使用して機密情報を保護し、データ保護規制の順守を確保します。"
+        },
+        "multiLanguage": {
+          "title": "多言語",
+          "description": "複数の言語とローカリゼーションをサポートして、文化的に適切な対応をもたらすグローバルな顧客にサービスを提供します。"
+        },
+        "demoTitle": "アクション中の知識ベースを参照してください",
+        "demoSubtitle": "私たちのインテリジェントナレッジシステムが正確でコンテキストの応答をどのように駆り立てるかを見てください。",
+        "interfaceTitle": "ナレッジベースインターフェイス",
+        "categories": "ドキュメントカテゴリ",
+        "productDocs": "製品ドキュメント",
+        "articles": "articles",
+        "supportFaqs": "Customer Support FAQs",
+        "policies": "Company Policies",
+        "recentUpdates": "Recent Updates",
+        "refundUpdate": "Refund Policy Updated",
+        "hoursAgo": "hours ago",
+        "returnWindow": "Updated return window from 14 to 30 days",
+        "featureGuide": "New Feature Guide",
+        "dayAgo": "day ago",
+        "analyticsDoc": "Added documentation for advanced analytics",
+        "transformTitle": "Transform Your Customer Support",
+        "transformSubtitle": "A well-organized knowledge base is the foundation of exceptional customer service and efficient operations.",
+        "benefitsTitle": "Key Benefits",
+        "fasterResponse": {
+          "title": "Faster Response Times",
+          "description": "Reduce average response time by 60% with instant access to accurate information."
+        },
+        "consistency": {
+          "title": "Consistent Accuracy",
+          "description": "Ensure all agents provide consistent, up-to-date information across all channels."
+        },
+        "training": {
+          "title": "Scalable Training",
+          "description": "Onboard new agents faster with comprehensive, searchable documentation."
+        },
+        "readyTitle": "Ready to Get Started?",
+        "readySubtitle": "Build your knowledge base today and transform how your team delivers customer support.",
+        "startButton": "Start Building",
+        "scheduleDemo": "Schedule Demo"
+      },
+      "omnichannel": {
+        "channels": {
+          "website": {
+            "name": "Website Chat",
+            "description": "Embed chat widgets on any website platform",
+            "seachat": {
+              "features": {
+                "compatibility": "Universal compatibility",
+                "styling": "Custom styling",
+                "responsive": "Mobile responsive",
+                "sync": "Real-time sync"
+              }
+            }
+          },
+          "whatsapp": {
+            "name": "WhatsApp Business",
+            "seachat": {
+              "features": {
+                "api": "Business API integration",
+                "media": "Rich media support",
+                "templates": "Template messages",
+                "groups": "Group messaging"
+              }
+            },
+            "description": "Connect with customers on the world's most popular messaging app"
+          },
+          "instagram": {
+            "name": "Instagram Direct",
+            "description": "Manage Instagram DMs and story replies in one place",
+            "seachat": {
+              "features": {
+                "replies": "Story reply management",
+                "media": "Media sharing",
+                "responses": "Quick responses",
+                "greetings": "Automated greetings"
+              }
+            }
+          },
+          "facebook": {
+            "name": "Facebook Messenger",
+            "seachat": {
+              "features": {
+                "integration": "Page integration",
+                "responses": "Automated responses",
+                "cards": "Rich cards",
+                "menu": "Persistent menu"
+              }
+            },
+            "description": "Provide support through Facebook's messaging platform"
+          },
+          "voice": {
+            "name": "Voice Calls",
+            "description": "Handle phone support with AI voice agents",
+            "seachat": {
+              "features": {
+                "conversations": "Natural conversations",
+                "routing": "Call routing",
+                "voicemail": "Voicemail transcription",
+                "conference": "Conference calls"
+              }
+            }
+          },
+          "email": {
+            "name": "Email Support",
+            "description": "Manage email tickets with intelligent routing",
+            "seachat": {
+              "features": {
+                "categorization": "Smart categorization",
+                "responses": "Auto-responses",
+                "templates": "Email templates",
+                "priority": "Priority handling"
+              }
+            }
+          }
+        },
+        "benefits": {
+          "unifiedView": {
+            "title": "Unified Customer View",
+            "description": "See complete customer history across all channels in one interface"
+          },
+          "handoffs": {
+            "title": "Seamless Handoffs",
+            "description": "Customers can switch channels without losing conversation context"
+          },
+          "resolution": {
+            "title": "Faster Resolution",
+            "description": "Reduce resolution time with unified agent workflows"
+          },
+          "satisfaction": {
+            "title": "Higher Satisfaction",
+            "description": "Consistent experience across all touchpoints"
+          }
+        },
+        "title": "Omnichannel Support",
+        "subtitle": "Connect all your customer touchpoints in one unified platform. Provide consistent, seamless support across websites, social media, phone, and email.",
+        "channelsTitle": "All Your Channels, One Platform",
+        "channelsSubtitle": "Connect and manage customer conversations across every channel your customers use.",
+        "benefitsTitle": "The Power of True Omnichannel",
+        "benefitsSubtitle": "Go beyond just having multiple channels. Create unified experiences that delight customers.",
+        "inboxTitle": "Unified Inbox Experience",
+        "inboxSubtitle": "See how all your customer conversations come together in one intelligent interface.",
+        "activeConversations": "Active Conversations",
+        "websiteChat": "Website chat about product seachat.features...",
+        "whatsappInquiry": "WhatsApp inquiry about order status...",
+        "instagramDM": "Instagram DM about return policy...",
+        "conversationView": "Conversation View",
+        "customerVia": "Customer via Website",
+        "agentResponse": "Agent Response",
+        "customerViaWhatsapp": "Customer via WhatsApp",
+        "whatsappMessage": "Thanks! Can I continue this conversation on WhatsApp?",
+        "ctaTitle": "Ready to Unify Your Customer Channels?",
+        "ctaSubtitle": "Connect all your customer touchpoints and provide seamless support experiences that keep customers coming back.",
+        "customerMessage": "Hi, I'm interested in your AI automation features. Can you tell me more?",
+        "agentMessage": "I'd be happy to help! Our AI automation can handle up to 80% of routine inquiries..."
+      },
+      "voiceAgents": {
+        "title": "Voice Agents",
+        "subtitle": "Transform phone support with AI voice agents that sound natural, understand context, and provide instant assistance in multiple languages.",
+        "signUpFree": "Sign Up For Free",
+        "scheduleDemo": "Schedule Demo",
+        "natural": {
+          "title": "Natural Voice Conversations",
+          "description": "AI-powered voice agents that sound natural and understand context."
+        },
+        "speech": {
+          "title": "Advanced Speech Recognition",
+          "description": "Accurate speech-to-text conversion in multiple languages and accents."
+        },
+        "synthesis": {
+          "title": "High-Quality Voice Synthesis",
+          "description": "Crystal-clear, human-like voice output with emotional intelligence."
+        },
+        "support": {
+          "title": "24/7 Voice Support",
+          "description": "Round-the-clock voice assistance for global customer support."
+        },
+        "multilanguage": {
+          "title": "Multi-Language Support",
+          "description": "Support for 50+ languages with native pronunciation."
+        },
+        "routing": {
+          "title": "Intelligent Call Routing",
+          "description": "Smart routing to human agents when complex issues arise."
+        },
+        "capabilitiesTitle": "Advanced Voice Capabilities",
+        "capabilitiesSubtitle": "Our voice agents combine cutting-edge AI with natural language processing for human-like conversations.",
+        "capabilities": {
+          "service": {
+            "title": "Customer Service Calls",
+            "description": "Handle routine inquiries, order status, and basic troubleshooting"
+          },
+          "appointments": {
+            "title": "Appointment Scheduling",
+            "description": "Book, reschedule, and confirm appointments automatically"
+          },
+          "orders": {
+            "title": "Order Processing",
+            "description": "Take orders, process payments, and confirm details"
+          },
+          "support": {
+            "title": "Technical Support",
+            "description": "Guide customers through basic troubleshooting steps"
+          }
+        },
+        "performanceTitle": "Voice Agent Performance",
+        "performanceSubtitle": "See how our voice agents perform across different types of customer interactions.",
+        "accuracyRate": "Accuracy Rate",
+        "avgDuration": "Avg Duration",
+        "experienceTitle": "Experience Voice AI in Action",
+        "experienceSubtitle": "Listen to real conversations between customers and our voice agents.",
+        "sampleTitle": "Sample Conversation",
+        "voiceAgent": "Voice Agent",
+        "customer": "Customer",
+        "agentGreeting": "Hello! Thank you for calling SeaChat support. How can I help you today?",
+        "customerQuestion": "Hi, I need to check the status of my recent order.",
+        "agentResponse": "I'd be happy to help you with that. Could you please provide your order number or the email address associated with your account?",
+        "playDemo": "Play Full Demo",
+        "moreSamples": "More Samples",
+        "featuresTitle": "Voice Agent Features",
+        "featuresList": {
+          "0": "Natural speech processing",
+          "1": "Multi-language support",
+          "2": "Phone system integration",
+          "3": "Voice sentiment analysis",
+          "4": "Call recording and analysis",
+          "5": "Intelligent human escalation"
+        },
+        "ctaTitle": "Ready to Transform Phone Support?",
+        "ctaSubtitle": "Experience the future of voice customer support with AI agents that sound and feel human."
+      }
+    },
+    "seo": {
+      "title": "SeaChat - AI Chatbot & Customer Service Automation | Seasalt.ai",
+      "titleSuffix": " - AI Chatbot & Customer Service Automation | Seasalt.ai",
+      "description": "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more."
+    }
+  }
+}

@@ -1,0 +1,1565 @@
+{
+  "seax": {
+    "industries": {
+      "ecommerceRetail": {
+        "seo": {
+          "title": "SEAX für E -Commerce & Retail - Steigern Sie den Umsatz mit Smart Messaging",
+          "description": "Verwandeln Sie Ihr E-Commerce-Geschäft mit der intelligenten Messaging-Plattform von SEAX. Steigern Sie verlassene Karren, erhöhen Sie die Kundenbindung und steigern Sie den Umsatz mit einer personalisierten Kommunikation."
+        },
+        "hero": {
+          "title": {
+            "main": "Seax für",
+            "highlight": "E-Commerce & Einzelhandel"
+          },
+          "description": "Verwandeln Sie Ihre E-Commerce-Erfahrung mit intelligenten Nachrichten, die den Umsatz treiben, die Verlassenheit des Wagens reduzieren und die Kundenbindung aufbauen.",
+          "cta": {
+            "primary": "Branchenlösung erhalten",
+            "secondary": "Funktionen anzeigen"
+          }
+        },
+        "challenges": {
+          "title": "E-Commerce-Herausforderungen, die wir lösen",
+          "subtitle": "Gemeinsame Kommunikationsherausforderungen in der E-Commerce- und Einzelhandelsbranche",
+          "items[0]": {
+            "title": "Hohe Verlassenheitsrate mit hoher Karren",
+            "description": "Kunden gehen, ohne Einkäufe zu erledigen, weil es an rechtzeitigem Follow-up und personalisiertem Engagement mangelt."
+          },
+          "items[1]": {
+            "title": "Niedrige Kundenbindung",
+            "description": "Schwierigkeiten bei der Aufrechterhaltung langfristiger Beziehungen zu Kunden ohne effektive Aufbewahrungsstrategien."
+          },
+          "items[2]": {
+            "title": "Inkonsistente Kommunikation",
+            "description": "Fragmentierte Messaging über mehrere Kanäle hinweg führt zu schlechtem Kundenerlebnis."
+          },
+          "items[3]": {
+            "title": "Begrenzte Personalisierung",
+            "description": "Generische Marketingmeldungen, die nicht mit individuellen Kundenpräferenzen und Verhaltensweisen in Anspruch nehmen."
+          },
+          "items[4]": {
+            "title": "Schlechte Auftragsaktualisierungen",
+            "description": "Kunden ließen im Dunkeln den Bestellstatus, die Versandaktualisierungen und Lieferbenachrichtigungen."
+          },
+          "items[5]": {
+            "title": "Ineffektive Wiedereinnahme",
+            "description": "Mühe, inaktive Kunden wiederzugewinnen und wiederholte Einkäufe zu fördern."
+          }
+        },
+        "useCases": {
+          "title": "E-Commerce-Anwendungsfälle",
+          "subtitle": "Reale Bewerbungen für E-Commerce- und Einzelhandelsunternehmen",
+          "items[0]": {
+            "title": "Verlassene Wagenwiederherstellung",
+            "description": "Automatisieren Sie personalisierte SMS- und Messaging-Kampagnen, um verlorene Verkäufe wiederzugewinnen und Kunden wieder zu engagieren, die Artikel in ihrem Warenkorb verlassen haben.",
+            "benefits[0]": "30% Anstieg der Wagenwiederherstellung",
+            "benefits[1]": "Personalisierte Produktempfehlungen",
+            "benefits[2]": "Automatisierte Zeitverbindungsoptimierung"
+          },
+          "items[1]": {
+            "title": "Bestellstatus- und Versandaktualisierungen",
+            "description": "Halten Sie die Kunden während ihrer gesamten Kaufreise mit Updates und Lieferbenachrichtigungen in Echtzeit auf dem Laufenden.",
+            "benefits[0]": "Reduzierte Kundendienstanfragen",
+            "benefits[1]": "Verbesserte Kundenzufriedenheit",
+            "benefits[2]": "Proaktive Kommunikation"
+          },
+          "items[2]": {
+            "title": "Kundenbindungsprogramme",
+            "description": "Erstellen Sie gezielte Kampagnen für Stammkunden mit exklusiven Angeboten, Belohnungen und personalisierten Einkaufserlebnissen.",
+            "benefits[0]": "20% Erhöhung der Wiederholungskäufe",
+            "benefits[1]": "Höherer Kundenlebensdauerwert",
+            "benefits[2]": "Automatisierte Belohnungsverteilung"
+          },
+          "items[3]": {
+            "title": "Werbekampagnen",
+            "description": "Starten Sie gezielte Marketingkampagnen auf SMS, Messaging und sozialen Plattformen, um den Umsatz und das Engagement voranzutreiben.",
+            "benefits[0]": "Höhere Konversionsraten",
+            "benefits[1]": "Besserer ROI für Marketingausgaben",
+            "benefits[2]": "Segmentiertes Zielgruppenziel"
+          }
+        },
+        "stats": {
+          "title": "E-Commerce-Ergebnisse mit Seax",
+          "subtitle": "Nachgewiesene Ergebnisse für E-Commerce- und Einzelhandelsunternehmen",
+          "items[0]": {
+            "value": "30%",
+            "label": "Erhöhung der Umsatzumwandlung",
+            "description": "Durchschnittliche Verbesserung der Wagenwiederherstellung"
+          },
+          "items[1]": {
+            "value": "20%",
+            "label": "Erhöhung der Kundenbindung",
+            "description": "Höhere Wiederholungskaufpreise"
+          },
+          "items[2]": {
+            "value": "15%",
+            "label": "Verringerung der Verlassenheit des Karrens",
+            "description": "Durch zeitnahe personalisierte Nachrichten"
+          }
+        },
+        "features": {
+          "title": "Warum E-Commerce-Unternehmen SEAX wählen",
+          "subtitle": "Umfassende Funktionen, die speziell für den Online -Einzelhandelserfolg entwickelt wurden",
+          "items[0]": {
+            "title": "Omnichannel Messaging",
+            "description": "Erreichen Sie Kunden über SMS, WhatsApp und soziale Plattformen von einem einheitlichen Dashboard."
+          },
+          "items[1]": {
+            "title": "Intelligente Segmentierung",
+            "description": "Segmentieren Sie Kunden automatisch auf der Grundlage von Verhalten, Kaufhistorie und Vorlieben."
+          },
+          "items[2]": {
+            "title": "Echtzeitanalytik",
+            "description": "Verfolgen Sie die Kampagnenleistung, das Kundenbindung und den ROI mit detaillierten Erkenntnissen."
+          }
+        },
+        "cta": {
+          "title": "Sind Sie bereit, Ihr E-Commerce-Geschäft zu verändern?",
+          "description": "Schließen Sie sich Tausenden von E-Commerce-Unternehmen an, die SEAX nutzen, um den Umsatz zu steigern, die Verlassenheit des Karrens zu verringern und dauerhafte Kundenbeziehungen aufzubauen.",
+          "primary": "Fangen Sie noch heute an",
+          "secondary": "Preisgestaltung anzeigen"
+        }
+      },
+      "realEstate": {
+        "seo": {
+          "title": "Seax für Immobilien - sofortige Lead -Antwort und Kundenkommunikation",
+          "description": "Verwandeln Sie Ihr Immobiliengeschäft mit der automatisierten Messaging -Plattform von SEAX. Reagieren Sie sofort auf Leads, planen Sie automatisch die Vorführungen und halten Sie die Kunden während der gesamten Transaktionen auf dem Laufenden."
+        },
+        "hero": {
+          "title": {
+            "main": "Seax für",
+            "highlight": "Immobilie"
+          },
+          "description": "Verpassen Sie nie wieder einen Vorsprung. Automatisieren Sie Ihre Kundenkommunikation, planen Sie sofort Zeitpläne und schließen Sie mehr Angebote mit intelligenten Nachrichten ab.",
+          "cta": {
+            "primary": "Branchenlösung erhalten",
+            "secondary": "Funktionen anzeigen"
+          }
+        },
+        "challenges": {
+          "title": "Immobilienherausforderungen, die wir lösen",
+          "subtitle": "Gemeinsame Kommunikationsherausforderungen für Immobilienfachleute",
+          "items[0]": {
+            "title": "Lead -Reaktionszeit",
+            "description": "Immobilienleitungen werden schnell kalt. Jede Minute zählt, wenn ein potenzieller Käufer oder Verkäufer die Rufe verpassen oder zu spät reagieren."
+          },
+          "items[1]": {
+            "title": "Terminplanung",
+            "description": "Die Koordinierung von Eigentumsvorstellungen, -besprechungen und Schließungen in mehreren Parteien führt zu Planung von Konflikten und verpassten Möglichkeiten."
+          },
+          "items[2]": {
+            "title": "Kundenkommunikation",
+            "description": "Die laufende Kommunikation mit Käufern, Verkäufern, Kreditgebern und anderen Agenten über mehrere Immobilien hinweg wird überwältigend."
+          },
+          "items[3]": {
+            "title": "Verfügbarkeit nach Stunden",
+            "description": "Immobilien hört nicht um 17 Uhr auf. Kunden erwarten Antwortenabende und Wochenenden, aber auch Agenten brauchen persönliche Zeit."
+          },
+          "items[4]": {
+            "title": "Follow-up-Konsistenz",
+            "description": "Die Aufrechterhaltung einer konsequenten Follow-up mit Leads und früheren Kunden für Empfehlungen erfordert eine systematische Kommunikation, die schwer manuell zu verwalten ist."
+          },
+          "items[5]": {
+            "title": "Immobilienaktualisierungen",
+            "description": "Interessierte Käufer auf dem Laufenden über Preisänderungen, neue Einträge und Marktaktualisierungen erfordert ständige manuelle Anstrengungen."
+          }
+        },
+        "useCases": {
+          "title": "Immobiliennutzungsfälle",
+          "subtitle": "Wie Immobilienfachleute Seax nutzen, um ihr Geschäft auszubauen",
+          "items[0]": {
+            "title": "Sofortige Leitreaktion",
+            "description": "Reagieren Sie automatisch auf neue Leads innerhalb von Sekunden über SMS und wecken ihr Interesse, während es heiß ist, und qualifiziert sie für eine sofortige Follow-up.",
+            "benefits[0]": "5x schnellere Reaktionszeit",
+            "benefits[1]": "Automatisierte Leitqualifikation",
+            "benefits[2]": "Verpassen Sie nie wieder einen Vorsprung"
+          },
+          "items[1]": {
+            "title": "Automatisierte Terminplanung",
+            "description": "Lassen Sie Kunden Immobilienvorstellungen und -beratungen direkt über SMS mit automatischen Kalenderintegration und Erinnerungsbenachrichtigungen buchen.",
+            "benefits[0]": "Reduzierte Planungskonflikte",
+            "benefits[1]": "Automatische Erinnerungen",
+            "benefits[2]": "Kalenderintegration"
+          },
+          "items[2]": {
+            "title": "Transaktionsaktualisierungen",
+            "description": "Halten Sie alle Parteien während des gesamten Kauf-/Verkaufsprozesses mit automatisierten Aktualisierungen über Inspektionen, Finanzierung und Abschlussfortschritt auf dem Laufenden.",
+            "benefits[0]": "Reduzierte Angst vor Kunden",
+            "benefits[1]": "Weniger Statusanrufe",
+            "benefits[2]": "Glattere Transaktionen"
+          },
+          "items[3]": {
+            "title": "Marktaktualisierungen & Pflege",
+            "description": "Bleiben Sie mit früheren Kunden mit automatisierten Marktberichten, neuen Auflistungswarnungen und personalisierten Immobilienempfehlungen.",
+            "benefits[0]": "Erhöhte Überweisungen",
+            "benefits[1]": "Weitere Wiederholungsgeschäfte",
+            "benefits[2]": "Konsistente Marktpräsenz"
+          }
+        },
+        "stats": {
+          "title": "Immobilienergebnisse mit Seax",
+          "subtitle": "Nachgewiesene Ergebnisse für Immobilienfachleute",
+          "items[0]": {
+            "value": "5x",
+            "label": "Schnellere Lead -Reaktion",
+            "description": "Von Stunden bis Sekunden"
+          },
+          "items[1]": {
+            "value": "40%",
+            "label": "Weitere Termine gebucht",
+            "description": "Durch automatisierte Planung"
+          },
+          "items[2]": {
+            "value": "25%",
+            "label": "Erhöhung der Überweisungen",
+            "description": "Bessere Kundenbeziehungen"
+          }
+        },
+        "cta": {
+          "title": "Bereit, Ihr Immobiliengeschäft zu verändern?",
+          "description": "Schließen Sie sich Tausenden von Immobilienfachleuten an, die Seax verwenden, um schneller zu reagieren, weitere Termine zu buchen und mehr Geschäfte abzuschließen.",
+          "primary": "Fangen Sie noch heute an",
+          "secondary": "Preisgestaltung anzeigen"
+        }
+      },
+      "politicalCampaigns": {
+        "seo": {
+          "title": "Seax für politische Kampagnen - Wähler mobilisieren und Wahlen gewinnen",
+          "description": "Verwandeln Sie Ihre politische Kampagne mit der leistungsstarken Messaging -Plattform von Seax. Erreichen Sie mehr Wähler, sammeln Sie mehr Geld und mobilisieren Anhänger, um am Wahltag zu gewinnen."
+        },
+        "hero": {
+          "title": {
+            "main": "Seax für",
+            "highlight": "Politische Kampagnen"
+          },
+          "description": "Erreichen Sie jeden Wähler, mobilisieren Sie Ihre Anhänger und gewinnen Sie Ihre Wahl mit der ultimativen Messaging -Plattform für politische Kampagnen.",
+          "cta": {
+            "primary": "Kampagnenlösung erhalten",
+            "secondary": "Funktionen anzeigen"
+          }
+        },
+        "challenges": {
+          "title": "Wir lösen die politischen Kampagnenherausforderungen",
+          "subtitle": "Gemeinsame Kommunikationsherausforderungen für moderne politische Kampagnen",
+          "items[0]": {
+            "title": "Wähler Öffentlichkeitsarbeit",
+            "description": "Das Erreichen und Mobilisieren einer vielfältigen Wählerbasis über mehrere Kanäle hinweg ist eine bedeutende Herausforderung für moderne Kampagnen."
+          },
+          "items[1]": {
+            "title": "Freiwilligenkoordination",
+            "description": "Die Organisation und Kommunikation mit Freiwilligen für Veranstaltungen, Werbung und Telefonbanking erfordert ständige Anstrengungen."
+          },
+          "items[2]": {
+            "title": "Personalisierte Nachrichten",
+            "description": "Es ist entscheidend, aber schwierig, personalisierte Nachrichten an die Wähler auf der Grundlage ihrer Interessen, des Standorts und der Plattform eines Kandidaten zu liefern."
+          },
+          "items[3]": {
+            "title": "Fundraising",
+            "description": "Das Sammeln von Geldern aus einer großen Anzahl kleiner Dollarsspender erfordert kontinuierliches Engagement und einen einfachen Spendenprozess."
+          },
+          "items[4]": {
+            "title": "Holen Sie sich die Abstimmung (GOTV)",
+            "description": "Die Anhänger erinnern und mobilisieren wir effektiv, um am Wahltag abzustimmen, ist eine große logistische Herausforderung."
+          },
+          "items[5]": {
+            "title": "Spenden-Follow-up",
+            "description": "Die danken Spender umgehend zu danken und sie nach ihrem Beitrag zu engagieren, ist für den zukünftigen Erfolg von Spendenaktionen von wesentlicher Bedeutung."
+          }
+        },
+        "useCases": {
+          "title": "Anwendungsfälle für politische Kampagnen",
+          "subtitle": "Wie politische Kampagnen Seax nutzen, um Wahlen zu gewinnen",
+          "items[0]": {
+            "title": "Wählerregistrierung",
+            "description": "Verwenden Sie SMS, um Links zu den Wählerregistrierung zu senden, Fragen zu beantworten und die Wähler durch den Registrierungsprozess zu führen.",
+            "benefits[0]": "Erhöhte Wählerregistrierung",
+            "benefits[1]": "Automatisierte Follow-up",
+            "benefits[2]": "Reduzierte Verwaltungsarbeit"
+          },
+          "items[1]": {
+            "title": "Ereignis -RSVPs & Erinnerungen",
+            "description": "Verwalten Sie RSVPs für Kampagnenkundgebungen, Rathäuser und andere Veranstaltungen mit automatisierten SMS -Erinnerungen, um die Teilnahme zu maximieren.",
+            "benefits[0]": "Höhere Veranstaltungsbesuch",
+            "benefits[1]": "Automatisierte Erinnerungen",
+            "benefits[2]": "Einfaches RSVP -Management"
+          },
+          "items[2]": {
+            "title": "Fundraising Appeals",
+            "description": "Senden Sie gezielte Spendenaktionen über SMS mit einem direkten Link zum Spenden, sodass die Unterstützer den Beitrag leisten können.",
+            "benefits[0]": "Erhöhte Spenden",
+            "benefits[1]": "Höhere Konversionsraten",
+            "benefits[2]": "Vereinfachter Spendenprozess"
+          },
+          "items[3]": {
+            "title": "GOTV & Election Day Erinnerungen",
+            "description": "Senden Sie am Wahltag personalisierte Erinnerungen an die Anhänger mit ihrem Wahllokal und Stunden, um die Wahlbeteiligung zu maximieren.",
+            "benefits[0]": "Höhere Wahlbeteiligung",
+            "benefits[1]": "Personalisierte Erinnerungen",
+            "benefits[2]": "Reduzierte Kosten für die Stimmen"
+          }
+        },
+        "stats": {
+          "title": "Kampagnenergebnisse mit Seax",
+          "subtitle": "Nachgewiesene Ergebnisse für politische Kampagnen",
+          "items[0]": {
+            "value": "15%",
+            "label": "Zunahme der Wahlbeteiligung",
+            "description": "Durch gezielte GOTV -Nachrichten"
+          },
+          "items[1]": {
+            "value": "25%",
+            "label": "Weitere Spenden",
+            "description": "Aus vereinfachten Spendenaktionen"
+          },
+          "items[2]": {
+            "value": "50%",
+            "label": "Weitere Freiwillige",
+            "description": "Durch bessere Koordination"
+          }
+        },
+        "cta": {
+          "title": "Bereit, Ihre Wahl zu gewinnen?",
+          "description": "Schließen Sie sich Hunderte von Kampagnen an, die Seax verwenden, um die Wähler zu mobilisieren, Geld zu sammeln und am Wahltag zu gewinnen.",
+          "primary": "Fangen Sie noch heute an",
+          "secondary": "Preisgestaltung anzeigen"
+        }
+      },
+      "healthcare": {
+        "seo": {
+          "title": "Seax für die Gesundheitsversorgung - Verbesserung des Patienten mit dem Patienten und der Pflegeversorgung",
+          "description": "Verbessern Sie Ihre Gesundheitsdienste mit der innovativen Messaging -Plattform von SEAX. Verbessern Sie das Engagement des Patienten, rationalisieren Sie die Versorgungskoordination und liefern Sie bessere Gesundheitsergebnisse."
+        },
+        "hero": {
+          "title": {
+            "main": "Seax für",
+            "highlight": "Gesundheitspflege"
+          },
+          "description": "Erhöhen Sie das Engagement der Patienten und verbessern Sie die Versorgungsergebnisse mit automatisierten Messaging -Lösungen, die auf Gesundheitsdienstleister zugeschnitten sind.",
+          "cta": {
+            "primary": "Branchenlösung erhalten",
+            "secondary": "Funktionen anzeigen"
+          }
+        },
+        "challenges": {
+          "title": "Herausforderungen im Gesundheitswesen, die wir lösen",
+          "subtitle": "Überwindung gemeinsamer Hindernisse bei der Bereitstellung von Gesundheitsversorgung durch fortschrittliche Kommunikationsmethoden",
+          "items": {
+            "0": {
+              "title": "Patienten-Follow-up",
+              "description": "Gewährleistung der rechtzeitigen Follow-up bei Patienten nach der Entlassung oder nach Ernennung zur Verhinderung von Rückübernahmen und zur Verbesserung der Versorgungsergebnisse."
+            },
+            "1": {
+              "title": "Terminplanung",
+              "description": "Die effiziente Verwaltung von Terminbuchungen bei gleichzeitiger Reduzierung der No-Show-Raten, der Optimierung der Zeitpläne der Ärzte und der Verbesserung der Patientenzufriedenheit."
+            },
+            "2": {
+              "title": "Chronisches Versorgungsmanagement",
+              "description": "Patienten mit chronischen Erkrankungen in ihren Pflegeplänen durch konsistente Kommunikation und Bildung einhalten."
+            },
+            "3": {
+              "title": "Notalarme",
+              "description": "Patienten, Personal und Stakeholder rasch kritische Gesundheitswarnungen und Notfallinformationen miteinander weiterverweisen."
+            },
+            "4": {
+              "title": "Patientenerziehung",
+              "description": "Die Bereitstellung von Patienten und Betreuern mit aktuellen Informationen und Anleitungen für ein besseres Gesundheitsmanagement und Entscheidungsfindung."
+            },
+            "5": {
+              "title": "Medikamentenerinnerungen",
+              "description": "Patienten fehlen Medikamente aufgrund mangelnder rechtzeitiger, personalisierter Erinnerungssysteme."
+            }
+          }
+        },
+        "useCases": {
+          "title": "Gesundheitsverbrauchsfälle",
+          "subtitle": "Beispiele in der realen Welt, wie Seax die Gesundheitsversorgung verändert",
+          "items": {
+            "0": {
+              "title": "Patientenerinnerung",
+              "description": "Senden Sie automatisch personalisierte SMS -Erinnerungen für bevorstehende Termine, Medikamentenpläne und vorbeugende Vorführungen.",
+              "benefits": {
+                "0": "Reduzierte No-Shows",
+                "1": "Verbesserte Medikamentenhaftung",
+                "2": "Bessere Gesundheitsergebnisse"
+              }
+            },
+            "1": {
+              "title": "Überwachung der chronischen Erkrankung",
+              "description": "Beteiligen Sie chronische Versorgung Patienten mit fortlaufender Kommunikation, Bildungsressourcen und Fortschrittsverfolgung, um ihre Lebensqualität zu verbessern.",
+              "benefits": {
+                "0": "Verbesserte Patientenzufriedenheit",
+                "1": "Verringerte Rückübernahmequoten",
+                "2": "Verbesserte Pflegekoordination"
+              }
+            },
+            "2": {
+              "title": "Krisenwarnungen",
+              "description": "Verteilen Sie dringende Warnungen und Aktualisierungen an Patienten und Gesundheitsteams bei Notfällen oder Naturkatastrophen der öffentlichen Gesundheit.",
+              "benefits": {
+                "0": "Schnellere Informationen Verbreitung",
+                "1": "Größeres Patientenvertrauen",
+                "2": "Effektives Krisenmanagement"
+              }
+            },
+            "3": {
+              "title": "TELEHEACK -Terminanlage",
+              "description": "Führen Sie die Patienten durch Telegehealth -Setup und bieten technische Unterstützung, um erfolgreiche virtuelle Termine zu gewährleisten.",
+              "benefits": {
+                "0": "Erweiterter Zugang zur Pflege",
+                "1": "Höhere Patientenbindung",
+                "2": "Reduzierte Reisebarrieren"
+              }
+            }
+          }
+        },
+        "stats": {
+          "title": "Mit Seax erzielte Gesundheitsergebnisse im Gesundheitswesen",
+          "subtitle": "Nachgewiesene Auswirkungen für Gesundheitsdienstleister",
+          "items": {
+            "0": {
+              "value": "40%",
+              "label": "Verringerung der No-Shows",
+              "description": "Mit rechtzeitigen Terminerinnerungen"
+            },
+            "1": {
+              "value": "35%",
+              "label": "Erhöhung des Patientenbetriebs",
+              "description": "Durch personalisierte Kommunikationsstrategien"
+            },
+            "2": {
+              "value": "60%",
+              "label": "Schnellere Krisenreaktion",
+              "description": "In Notfällen und Benachrichtigungen im Bereich der öffentlichen Gesundheit"
+            }
+          }
+        },
+        "features": {
+          "title": "Warum Gesundheitsdienstleister SEAX wählen",
+          "subtitle": "Umfassende Funktionen für den Erfolg des Gesundheitswesens",
+          "items": {
+            "0": {
+              "title": "HIPAA Compliance",
+              "description": "End-to-End-Verschlüsselung und sichere Datenbehandlung, die allen HIPAA-Anforderungen entspricht."
+            },
+            "1": {
+              "title": "Messaging mit mehreren Channel",
+              "description": "Erreichen Sie die Patienten durch SMS, Sprachanrufe und sichern Messaging -Plattformen von einem Dashboard."
+            },
+            "2": {
+              "title": "Smart Planing",
+              "description": "Intelligenter Termin erinnert an automatische Umplanungs- und Bestätigungsfunktionen."
+            }
+          }
+        },
+        "cta": {
+          "title": "Sind Sie bereit, Ihre Gesundheitsdienste zu verändern?",
+          "description": "Partner mit Seax, um die Erfahrung der Patientenerfahrung und zur Pflege zu revolutionieren",
+          "primary": "Fangen Sie noch heute an",
+          "secondary": "Preisgestaltung anzeigen"
+        }
+      },
+      "financialServices": {
+        "seo": {
+          "title": "Seax für Finanzdienstleistungen - sichere Kommunikation und Kundenbindung",
+          "description": "Verbessern Sie Ihre Finanzdienstleistungen mit der sicheren Messaging -Plattform von SEAX. Verbessern Sie die Kundenkommunikation, rationalisieren Sie Darlehensprozesse und steigern Sie das Engagement für automatisierte Lösungen."
+        },
+        "hero": {
+          "title": {
+            "main": "Seax für",
+            "highlight": "Finanzdienstleistungen"
+          },
+          "description": "Bauen Sie stärkere Kundenbeziehungen auf und rationalisieren Sie die Finanzgeschäfte mit sicheren, automatisierten Messaging -Lösungen für die Finanzbranche.",
+          "cta": {
+            "primary": "Branchenlösung erhalten",
+            "secondary": "Funktionen anzeigen"
+          }
+        },
+        "challenges": {
+          "title": "Förderdienstleistungen, die wir lösen",
+          "subtitle": "Gemeinsame Kommunikationsherausforderungen in der Finanzdienstleistungsbranche",
+          "items": {
+            "0": {
+              "title": "Aktualisierungen des Kreditantrags",
+              "description": "Halten Sie die Bewerber während des gesamten komplexen Kreditgenehmigungsverfahrens auf dem Laufenden, während sie eindeutige Kommunikation aufrechterhalten und Vertrauen aufbauen."
+            },
+            "1": {
+              "title": "Betrugswarnungen",
+              "description": "Die Kunden schnell über verdächtige Kontoaktivitäten informieren und sichere Kanäle zur Überprüfung und Lösung bereitstellen."
+            },
+            "2": {
+              "title": "Investitionsaktualisierungen",
+              "description": "Bereitstellung zeitnaher Marktaktualisierungen, Portfolioleistung und Investitionsmöglichkeiten für Kunden auf personalisierte Weise."
+            },
+            "3": {
+              "title": "Zahlungserinnerungen",
+              "description": "Senden von automatisierten Zahlungsemachern und überfälligen Benachrichtigungen bei der Aufrechterhaltung beruflicher Beziehungen zu Kunden."
+            },
+            "4": {
+              "title": "Kunde Onboarding",
+              "description": "Neue Kunden durch Kontoeinrichtung, Überprüfungsprozesse und Erstdienstaktivierung reibungslos führen."
+            },
+            "5": {
+              "title": "Kontobenachrichtigungen",
+              "description": "Bereitstellung von Echtzeit-Updates für Kontostand, Transaktionen und wichtige Kontoänderungen, um die Kundenerfahrung zu verbessern."
+            }
+          }
+        },
+        "useCases": {
+          "title": "Nutzungsfälle für Finanzdienstleistungen",
+          "subtitle": "Wie Finanzinstitute Seax nutzen, um die Kundendienste zu verbessern",
+          "items": {
+            "0": {
+              "title": "Kreditstatus -Updates",
+              "description": "Benachrichtigen Sie den Antragstellern automatisch über den Fortschritt des Kreditantrags, die erforderlichen Dokumentation und den Genehmigungsstatus mit personalisierten Nachrichten.",
+              "benefits": {
+                "0": "Reduzierte Kundenangst",
+                "1": "Schnellere Einreichung von Dokumenten",
+                "2": "Verbesserte Zulassungsraten"
+              }
+            },
+            "1": {
+              "title": "Betrugsverhütung",
+              "description": "Warten Sie die Kunden sofort auf verdächtige Aktivitäten über SMS mit sicheren Überprüfungsverbindungen, um Konten zu schützen und Betrugsverluste zu reduzieren.",
+              "benefits": {
+                "0": "Schnellere Betrugserkennung",
+                "1": "Reduzierte finanzielle Verluste",
+                "2": "Verbessertes Kundenvertrauen"
+              }
+            },
+            "2": {
+              "title": "Investitionswarnungen",
+              "description": "Senden Sie zeitnahe Marktaktualisierungen, Portfolio -Leistungsberichte und Investitionsmöglichkeiten, die auf die Vorlieben jedes Kunden zugeschnitten sind.",
+              "benefits": {
+                "0": "Erhöhtes Kundenbindung",
+                "1": "Bessere Investitionsentscheidungen",
+                "2": "Höhere Portfolioleistung"
+              }
+            },
+            "3": {
+              "title": "Zahlungssammlungen",
+              "description": "Automatisieren Sie Zahlungserinnerungen und überfällige Benachrichtigungen mit personalisierten Nachrichten, die positive Kundenbeziehungen aufrechterhalten.",
+              "benefits": {
+                "0": "Verbesserte Sammelraten",
+                "1": "Reduzierte Krankheiten",
+                "2": "Bessere Kundenbindung"
+              }
+            }
+          }
+        },
+        "stats": {
+          "title": "Finanzdienstleistungsergebnisse mit SEAX",
+          "subtitle": "Nachgewiesene Ergebnisse für Finanzinstitute",
+          "items": {
+            "0": {
+              "value": "45%",
+              "label": "Schnellere Darlehensbearbeitung",
+              "description": "Über automatisierte Statusaktualisierungen"
+            },
+            "1": {
+              "value": "30%",
+              "label": "Verringerung der Betrugsverluste",
+              "description": "Mit Echtzeitwarnungen"
+            },
+            "2": {
+              "value": "60%",
+              "label": "Verbesserte Sammelraten",
+              "description": "Durch rechtzeitige Zahlungserinnerungen"
+            }
+          }
+        },
+        "cta": {
+          "title": "Bereit, Ihre Finanzdienstleistungen zu verändern?",
+          "description": "Schließen Sie sich führenden Finanzinstituten an, um SEAX zu verbessern, um die Kundenkommunikation zu verbessern, die betriebliche Effizienz zu verbessern und das Geschäftswachstum zu fördern.",
+          "primary": "Fangen Sie noch heute an",
+          "secondary": "Preisgestaltung anzeigen"
+        }
+      }
+    },
+    "pricing": {
+      "seo": {
+        "title": "Seax -Preisgestaltung - transparent, skalierbar, wertgetrieben",
+        "description": "Einfache, transparente Preisgestaltung für Massen -SMS, WhatsApp und Sprachkommunikation. Skalieren Sie von Tausenden bis Millionen Nachrichten mit vorhersehbaren Kosten."
+      },
+      "hero": {
+        "title": {
+          "main": "Einfach, transparent",
+          "highlight": "Preisgestaltung, die skaliert werden"
+        },
+        "description": "Fangen Sie klein an oder gehen Sie groß - unsere Preisgestaltung wächst mit Ihrem Geschäft. Keine versteckten Gebühren, keine Überraschungen, nur vorhersehbare Kosten, die Ergebnisse liefern."
+      },
+      "plans": {
+        "title": "Wählen Sie Ihren Plan",
+        "billing": {
+          "monthly": "Monatlich",
+          "yearly": "Jährlich",
+          "savings": "(Spart 2 Monate)"
+        },
+        "whatsapp": {
+          "name": "Nur WhatsApp",
+          "subheader": "Bester Preis auf dem Markt",
+          "price": {
+            "monthly": "$ 19.99",
+            "yearly": "$ 199"
+          },
+          "period": {
+            "monthly": "/Monat",
+            "yearly": "/Jahr"
+          },
+          "description": "Pro Benutzer",
+          "features": {
+            "0": "Whatsapp senden/empfangen",
+            "1": "WhatsApp Business Platform Support",
+            "2": "Unbegrenzte Kontakte",
+            "3": "Vorlagen",
+            "4": "1 Arbeitsbereich"
+          },
+          "cta": "Melden Sie sich jetzt an"
+        },
+        "omnichannel": {
+          "name": "Omni-Channel",
+          "subheader": "Vollwertiges Kontaktzentrum",
+          "price": {
+            "monthly": "$ 99",
+            "yearly": "$ 999"
+          },
+          "additionalPrice": {
+            "monthly": "$ 49",
+            "yearly": "$ 499"
+          },
+          "period": {
+            "monthly": "/Monat",
+            "yearly": "/Jahr"
+          },
+          "description": "Erster Benutzer",
+          "additionalDescription": "Zusätzlicher Benutzer",
+          "features": {
+            "0": "Senden/Empfangen Sie SMS",
+            "1": "Inbound/Outbound -Anrufe",
+            "2": "SMS -Kampagne",
+            "3": "RESTful -API -Zugang",
+            "4": "Anrufkampagne",
+            "5": "SEACHAT -Integration",
+            "6": "1 Arbeitsbereich",
+            "7": "(Zusätzlicher Arbeitsbereich kostet 49 USD/Monat oder 499 USD/Jahr)",
+            "8": "Kommunikation:",
+            "9": "$ 0,02/SMS, $ 0,04/mm,,",
+            "10": "$ 0,05/Voicemail -Drop",
+            "11": "Voice AI -Agenten über Telefonanrufe beginnen bei 0,12 USD pro Minute"
+          },
+          "cta": "Starten Sie Omni-Channel"
+        },
+        "custom": {
+          "name": "Brauch",
+          "subheader": "Verhandeln Sie Ihren eigenen Preis",
+          "price": "Kontaktieren Sie uns",
+          "description": "Benutzerdefinierte Build",
+          "features": {
+            "0": "Mehrere Arbeitsbereiche - perfekt für Agenturen",
+            "1": "Jeder Arbeitsbereich verfügt über mehrere KI -Agenten und Telefonnummern",
+            "2": "Professionelle Entwurfsrichtlinien und technische Support, verkauft zusammen mit dem Startunterstützungsplan"
+          },
+          "cta": "Kontaktieren Sie uns"
+        },
+        "disclaimer": "* Die Preise variieren je nach Land. Die aufgeführten Preise sind für die Vereinigten Staaten. Für andere Länder kontaktieren Sie uns bitte."
+      },
+      "channels": {
+        "title": "Preisgestaltung pro Kanal",
+        "subtitle": "Transparente Preisgestaltung für jeden Kommunikationskanal",
+        "smsLocal": {
+          "name": "SMS Local (10DLC)",
+          "campaignSetup": "$ 150",
+          "monthly": "$ 2/Nummer",
+          "usage": "$ 0.02/Nachricht (USA/CA)",
+          "description": "Markenregistrierung und A2P -Registrierung erforderlich"
+        },
+        "smsTollFree": {
+          "name": "SMS gebührenfrei",
+          "campaignSetup": "$ 150",
+          "monthly": "$ 3/Nummer",
+          "usage": "$ 0.02/Nachricht (USA/CA)",
+          "description": "Höheres Vertrauen, höherer Durchsatz"
+        },
+        "smsShortCode": {
+          "name": "SMS-Kurzcode",
+          "setup": "2.000 Dollar",
+          "quarterly": "3.000 USD/Code",
+          "usage": "$ 0.02/Nachricht (USA/CA)",
+          "description": "Höchster Durchsatz"
+        },
+        "whatsapp": {
+          "name": "WhatsApp -Geschäftsplattform",
+          "metaSetup": "$ 150",
+          "monthly": "$ 0",
+          "usage": "$ 0,00/Nachricht (weltweit)",
+          "description": "Sie bezahlen Meta direkt. Kein Aufschlag von Seasalt.ai"
+        },
+        "voice": {
+          "name": "Sprachanrufe",
+          "setup": "Frei",
+          "monthly": "Jede Nummer kostet 2 bis 3 USD/Monat mit E911-Adresse",
+          "usage": "$ 0,015/Minuten (Tür/CA)",
+          "description": "Über 100 Länder"
+        },
+        "voicemail": {
+          "name": "Voicemail -Drop",
+          "setup": "Frei",
+          "monthly": "Jede Nummer kostet 2 bis 3 USD/Monat mit E911-Adresse",
+          "usage": "$ 0,05 für Drop (USA/CA)",
+          "description": "Über 100 Länder"
+        },
+        "labels": {
+          "campaignSetup": "Kampagnenaufbau:",
+          "metaSetup": "Meta -Setup:",
+          "setup": "Aufstellen:",
+          "monthly": "Monatlich:",
+          "quarterly": "Vierteljährlich:",
+          "usage": "Verwendung:"
+        }
+      },
+      "omniCalculator": {
+        "title": "Omni-Channel-Preisrechner",
+        "subtitle": "Schätzen Sie Ihre Seax -Kosten in Sekunden lang mit unserem interaktiven Taschenrechner ab",
+        "billing": {
+          "monthly": "Monatlich",
+          "yearly": "Jährlich",
+          "save": "17% sparen"
+        },
+        "configureTitle": "Konfigurieren Sie Ihr Setup",
+        "users": {
+          "label": "Benutzer",
+          "pricing": "Erster Benutzer __PlaPHOPPER__, zusätzliche Benutzer __PlaceHolder__"
+        },
+        "phone": {
+          "label": "Telefonnummern",
+          "local": "Lokale Nummern (jeweils $ 2/Monat)",
+          "tollfree": "Gebührenfreie Zahlen (jeweils 3 USD/Monat)"
+        },
+        "whatsapp": {
+          "label": "WhatsApp -Geschäftszahlen",
+          "note": "WhatsApp -Nummern sind kostenlos! Zahlen Sie nur für die gesendeten Vorlagennachrichten."
+        },
+        "usageTitle": "Monatliche Nutzung",
+        "sms": "SMS -Nachrichten (jeweils $ 0,02)",
+        "calls": "Rufen Sie Minuten an (jeweils $ 0,015)",
+        "voicemail": "Voicemail sinkt (jeweils 0,05 USD)",
+        "whatsappMessages": "WhatsApp-Nachrichten (Business-initiierte)",
+        "breakdownTitle": "__PLACEHOLTER__ COST BREIT",
+        "usersBreakdown": "__PLACEHOLTER__ UNSER__PLACEHOLTER__}",
+        "usersDetail": "1 Erster Benutzer + __PlaceHolder__ zusätzlich",
+        "phoneBreakdown": "Telefonnummern",
+        "whatsappBreakdown": "__PLACEHOLTER__ WHHETAPP NUMPER__",
+        "whatsappFree": "KOSTENLOSES SETUP & WARTUNG",
+        "smsBreakdown": "__PLACEHOLTER__ SMS -Nachrichten",
+        "callsBreakdown": "__PLACEHOLTER__ AN Rufen Sie Minuten an",
+        "voicemailBreakdown": "__PLACEHOLTER__ Voicemail fällt",
+        "whatsappMessagesBreakdown": "__PLACEHOLTER__ WHHETAPP -Nachrichten",
+        "whatsappMessagesFree": "Kostenlos für Kundenantworten, $ 0,005-0.02 für Vorlagen",
+        "total": "Gesamt __PlaceHolder__",
+        "savings": {
+          "title": "Sie sparen $ __ Platzhalter __ pro Jahr!",
+          "detail": "Im Vergleich zum monatlichen Bezahlen bietet der jährliche Plan erhebliche Einsparungen"
+        },
+        "cta": {
+          "start": "Kostenlose Testversion beginnen",
+          "sales": "Sprechen Sie mit Verkäufen"
+        }
+      },
+      "roi": {
+        "title": "Berechnen Sie Ihren ROI",
+        "subtitle": "Sehen Sie, wie viel Sie sparen und mit Seax verdienen können"
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "volume": {
+          "question": "Wie funktioniert die Volumenpreise?",
+          "answer": "Unsere Preise skalieren automatisch mit Ihrer Verwendung. Höhere Volumina werden eine bessere Pro-Message-Raten. Wir werden den besten SMS-Typ (lokal, gebührenfrei oder kurzer Code) basierend auf Ihrem Volumen empfehlen."
+        },
+        "fees": {
+          "question": "Gibt es versteckte Gebühren?",
+          "answer": "Keine versteckten Gebühren. Sie bezahlen nur für das, was Sie verwenden. Die Einrichtungsgebühren werden klar angegeben, und es gibt keine langfristigen Verträge oder Stornierungsgebühren."
+        },
+        "plans": {
+          "question": "Kann ich die Pläne jederzeit ändern?",
+          "answer": "Ja, Sie können Ihren Plan jederzeit aktualisieren oder herabstufen. Änderungen werden sofort wirksam, und Ihnen werden angerufene Beträge aufgeladen."
+        },
+        "international": {
+          "question": "Was ist mit internationalem Nachrichten?",
+          "answer": "Wir unterstützen Nachrichten in über 200 Ländern. Die Raten variieren je nach Ziel, aber wir bieten transparente Preisgestaltung für alle Regionen. Sprachanrufe sind in mehr als 100 Ländern verfügbar."
+        }
+      },
+      "cta": {
+        "title": "Bereit, loszulegen?",
+        "subtitle": "Starten Sie noch heute Ihre kostenlose Testversion - keine Kreditkarte erforderlich",
+        "signUp": "Melden Sie sich jetzt an",
+        "talkToSales": "Sprechen Sie mit Verkäufen"
+      },
+      "roiCalculator": {
+        "title": "ROI -Rechner",
+        "inputs": {
+          "monthlyMessages": "Monatliche Nachrichten",
+          "currentCost": "Aktuelle monatliche Kosten ($)",
+          "conversionRate": "Konversionsrate (%)",
+          "averageOrderValue": "Durchschnittlicher Bestellwert ($)"
+        },
+        "placeholders": {
+          "monthlyMessages": "100.000",
+          "currentCost": "5.000",
+          "conversionRate": "2.5",
+          "averageOrderValue": "150"
+        },
+        "results": {
+          "monthlyRoi": "Monatlicher ROI",
+          "monthlySavings": "Monatliche Einsparungen",
+          "seaxCost": "Seaxkosten",
+          "annualSavings": "Jährliche Einsparungen",
+          "monthlyRevenue": "Monatliche Einnahmen"
+        },
+        "payback": {
+          "period": "Rückzahlungsperiode",
+          "duration": "__PLACEHOLTER__ MONTAL__PLACTHOLDER__}",
+          "breakeven": "Die Gewinnzone erreichen",
+          "messages": "__PLACEHOLTER__ MONDALTEN"
+        }
+      }
+    },
+    "common": {
+      "getStartedToday": "Fangen Sie noch heute an",
+      "viewPricing": "Preisgestaltung anzeigen",
+      "bookDemo": "Buchen Sie eine Demo",
+      "signUp": "Melden Sie sich an",
+      "learnMore": "Erfahren Sie mehr",
+      "contactSales": "Wenden Sie sich an den Verkauf"
+    },
+    "header": {
+      "backToMain": "Zurück zur Hauptseite",
+      "features": "Merkmale",
+      "pricing": "Preisgestaltung",
+      "howItWorks": "Wie es funktioniert",
+      "about": "Um",
+      "resources": "Ressourcen",
+      "blog": "Blog",
+      "contactSales": "Wenden Sie sich an den Verkauf",
+      "navigation": {
+        "features": "Merkmale",
+        "channels": "Kanäle",
+        "solutions": "Lösungen",
+        "industries": "Branchen",
+        "pricing": "Preisgestaltung"
+      },
+      "channels": {
+        "smsOverview": "SMS -Übersicht",
+        "localNumber": "Lokalnummer (10DLC)",
+        "tollFree": "Gebührenfreie Nummer",
+        "shortCode": "Kurzer Code",
+        "whatsappBusiness": "WhatsApp -Geschäftsplattform",
+        "phoneCallVoice": "Telefonanruf Stimme"
+      },
+      "solutions": {
+        "leadGeneration": "Lead -Generierung",
+        "marketingAutomation": "Marketing -Automatisierung",
+        "customerEngagement": "Kundenbindung",
+        "appointmentReminders": "Terminerinnerung",
+        "emergencyAlerts": "Notalarme"
+      },
+      "industries": {
+        "ecommerceRetail": "E-Commerce & Einzelhandel",
+        "realEstate": "Immobilie",
+        "politicalCampaigns": "Politische Kampagnen",
+        "healthcare": "Gesundheitspflege",
+        "financialServices": "Finanzdienstleistungen"
+      },
+      "buttons": {
+        "wiki": "Wiki",
+        "signIn": "Anmelden",
+        "signUp": "Melden Sie sich an"
+      },
+      "mobile": {
+        "backToMainSite": "Zurück zur Hauptseite"
+      }
+    },
+    "footer": {
+      "tagline": "Erreichen Sie sofort Millionen. Die ultimative Plattform zum Senden von Millionen von SMS, WhatsApp -Nachrichten und automatisierten Telefonanrufen. Füllen Sie Ihre Pipeline, steigen Sie den Umsatz und skalieren Sie Ihr Geschäft.",
+      "phone": "+1 (smb) -ai-Agent",
+      "email": "info@seasalt.ai",
+      "location": "Seattle, WA",
+      "channels": {
+        "title": "Kanäle",
+        "smsOverview": "SMS -Übersicht",
+        "localNumber": "Lokalnummer (10DLC)",
+        "localNumberCode": "10dlc",
+        "tollFree": "Gebührenfreie Nummer",
+        "tollFreeCode": "8xx",
+        "shortCode": "Kurzer Code",
+        "shortCodeNumber": "xxxxx",
+        "whatsappBusiness": "WhatsApp -Geschäftsplattform",
+        "phoneVoice": "Telefonanruf Stimme"
+      },
+      "solutions": {
+        "title": "Lösungen",
+        "leadGeneration": "Lead -Generierung",
+        "marketingAutomation": "Marketing -Automatisierung",
+        "customerEngagement": "Kundenbindung",
+        "appointmentReminders": "Terminerinnerung",
+        "emergencyAlerts": "Notalarme"
+      },
+      "industries": {
+        "title": "Branchen",
+        "ecommerce": "E-Commerce & Einzelhandel",
+        "realEstate": "Immobilie",
+        "political": "Politische Kampagnen",
+        "healthcare": "Gesundheitspflege",
+        "financial": "Finanzdienstleistungen"
+      },
+      "company": {
+        "title": "Company",
+        "productWiki": "Produkt Wiki",
+        "apiReferences": "API References"
+      }
+    },
+    "calculator": {
+      "ranges": {
+        "tenKPlus": "10k+",
+        "fiveKPlus": "5k+",
+        "oneKPlus": "1k+"
+      },
+      "phone": {
+        "localPlus": "local +",
+        "tollFree": "toll-free"
+      }
+    },
+    "dashboard": {
+      "messagesSent": "Messages Sent",
+      "delivered": "Delivered",
+      "opened": "Opened",
+      "clicked": "Clicked",
+      "replied": "Replied",
+      "bounce": "Bounce",
+      "unsubscribed": "Unsubscribed",
+      "liveUpdates": "Live Updates",
+      "campaignPerformance": "Campaign Performance"
+    },
+    "scale": {
+      "traditional": {
+        "title": "Traditional Outreach",
+        "calls": "Manual Calls",
+        "emails": "Email Blasts",
+        "limitation": "Limited Reach"
+      },
+      "seax": {
+        "title": "SeaX Platform",
+        "sms": "Mass SMS",
+        "whatsapp": "WhatsApp Campaigns",
+        "voice": "Voice Automation",
+        "scale": "Unlimited Scale"
+      }
+    },
+    "stats": {
+      "processing": "Processing",
+      "messagesPerSecond": "messages per second",
+      "delivered": "delivered",
+      "campaignsActive": "campaigns active",
+      "responseRate": "response rate",
+      "automatedFollowups": "automated follow-ups",
+      "leadsQualified": "leads qualified"
+    },
+    "hero": {
+      "badge": "Trusted by 10,000+ businesses",
+      "headline": {
+        "reach": "Reach",
+        "millions": "Millions.",
+        "instantly": "Instantly."
+      },
+      "subtitle": "The ultimate platform for sending millions of SMS, WhatsApp messages, and automated phone calls. Fill your pipeline, drive revenue, and scale your business with powerful outreach.",
+      "benefits": {
+        "messages": "10M+ Messages Daily",
+        "calls": "500K+ Calls Per Hour",
+        "uptime": "99.9% Uptime"
+      },
+      "cta": {
+        "bookDemo": "Book a Demo",
+        "signUp": "Sign Up"
+      },
+      "liveActivity": "Live Activity",
+      "stats": {
+        "sent": "Messages Sent",
+        "delivered": "Delivered",
+        "active": "Active Now"
+      },
+      "visual": {
+        "title": "Central Marketing Hub",
+        "subtitle": "Real-time reach to millions"
+      }
+    },
+    "channelTemplate": {
+      "hero": {
+        "getStarted": "Get Started"
+      },
+      "pricing": {
+        "defaultTitle": "Transparent Pricing",
+        "defaultSubtitle": "Simple, predictable pricing that scales with your business",
+        "labels": {
+          "setup": "Setup",
+          "monthly": "Monthly",
+          "perMessage": "Per Message"
+        }
+      },
+      "cta": {
+        "title": "Ready to Scale Your Outreach?",
+        "subtitle": "Join thousands of businesses reaching millions with SeaX",
+        "getStarted": "Get Started Today",
+        "viewPricing": "View Pricing"
+      }
+    },
+    "massCommunicationFlow": {
+      "messageTypes": {
+        "sms": "SMS",
+        "whatsapp": "WhatsApp",
+        "voice": "Voice",
+        "email": "Email"
+      }
+    },
+    "realTimeDashboard": {
+      "badge": "Real-Time Analytics",
+      "title": {
+        "live": "Live",
+        "performance": "Performance",
+        "insights": "Insights"
+      },
+      "description": "Watch your campaigns perform in real-time with live metrics, engagement tracking, and instant performance insights. Make data-driven decisions as they happen.",
+      "metrics": {
+        "messagesSent": "Messages Sent",
+        "delivered": "Delivered",
+        "engagementRate": "Engagement Rate",
+        "activeUsers": "Active Users"
+      },
+      "liveUpdates": {
+        "title": "Live Updates",
+        "dataPoints": "data points refreshed"
+      },
+      "dashboard": {
+        "title": "Campaign Analytics",
+        "liveStatus": "Live",
+        "chartLabel": "Engagement Trend",
+        "sent": "Sent",
+        "delivered": "Delivered",
+        "engagement": "Engagement"
+      },
+      "activity": {
+        "title": "Live Activity",
+        "types": {
+          "sms": "SMS",
+          "whatsapp": "WhatsApp",
+          "voice": "Voice"
+        },
+        "statuses": {
+          "sent": "sent",
+          "delivered": "delivered",
+          "read": "read",
+          "replied": "replied"
+        }
+      },
+      "cards": {
+        "deliveryValue": "99.2%",
+        "deliveryRate": "Delivery Rate",
+        "hourlyValue": "2.4M",
+        "thisHour": "This Hour",
+        "liveUpdates": "Live Updates"
+      }
+    },
+    "scaleComparison": {
+      "badge": "Scale Analysis",
+      "title": {
+        "manual": "Manual vs",
+        "automated": "Automated",
+        "outreach": "Outreach"
+      },
+      "description": "See how SeaX transforms your outreach capabilities from manual, time-consuming processes to automated, high-scale operations that reach millions instantly.",
+      "manual": {
+        "title": "Manual Outreach",
+        "person": "1 Person",
+        "stats": {
+          "messagesPerDay": "Messages/Day",
+          "timeRequired": "Time Required",
+          "peopleReached": "People Reached",
+          "efficiency": "Efficiency"
+        },
+        "badge": "Limited Scale",
+        "timeValue": "8 hours"
+      },
+      "vs": "VS",
+      "seax": {
+        "title": "SeaX Automated",
+        "aiPowered": "AI Powered",
+        "stats": {
+          "messagesPerDay": "Messages/Day",
+          "timeRequired": "Time Required",
+          "peopleReached": "People Reached",
+          "efficiency": "Efficiency"
+        },
+        "badge": "Unlimited Scale",
+        "timeValue": "5 minutes"
+      },
+      "advantage": {
+        "title": "The SeaX Advantage",
+        "fasterExecution": "Faster Execution",
+        "moreReach": "More Reach",
+        "higherEfficiency": "Higher Efficiency",
+        "fasterMultiplier": "5000x",
+        "reachMultiplier": "20000x",
+        "efficiencyMultiplier": "280%"
+      }
+    },
+    "pages": {
+      "channelsOverview": {
+        "seo": {
+          "title": "SeaX ChannelsOverview - Coming Soon",
+          "description": "SeaX ChannelsOverview page is coming soon."
+        },
+        "title": "ChannelsOverview",
+        "comingSoon": "Coming Soon",
+        "description": "We're building out the complete ChannelsOverview experience."
+      },
+      "howItWorks": {
+        "seo": {
+          "title": "How SeaX Works - Launch Campaigns to Millions in 3 Simple Steps",
+          "description": "Learn how to launch mass SMS, WhatsApp, and voice campaigns to millions in 3 simple steps with SeaX."
+        },
+        "hero": {
+          "title": {
+            "line1": "Launch campaigns to millions",
+            "line2": "in just 4 simple steps"
+          },
+          "subtitle": "Whether you need to reach 1,000 or 1,000,000 people, SeaX handles it seamlessly. No technical expertise required.",
+          "features": {
+            "setup": "Setup in 10 minutes",
+            "noCoding": "No coding required",
+            "instantDeploy": "Instant deployment"
+          }
+        },
+        "steps": {
+          "step1": {
+            "title": "Upload Your Contacts",
+            "description": "Import your contact list from CSV, Excel, or connect your CRM. Our system easily handles millions of contacts.",
+            "features": {
+              "csvImport": "CSV/Excel Import",
+              "crmIntegrations": "CRM Integrations",
+              "dataValidation": "Data Validation",
+              "duplicateRemoval": "Duplicate Removal",
+              "segmentationTools": "Segmentation Tools"
+            },
+            "time": "2 minutes"
+          },
+          "step2": {
+            "title": "Choose Delivery Method",
+            "description": "Select how you want to reach your audience via SMS, WhatsApp, or phone calls.",
+            "features": {
+              "smsDelivery": "SMS Delivery",
+              "whatsappMessaging": "WhatsApp Messaging",
+              "phoneCallIntegration": "Phone Call Integration"
+            },
+            "time": "1 minute"
+          },
+          "step3": {
+            "title": "Build Your Campaign",
+            "description": "Design your message and configure campaign parameters.",
+            "features": {
+              "messageTemplates": "Message Templates",
+              "abTesting": "A/B Testing",
+              "schedulingOptions": "Scheduling Options",
+              "personalization": "Personalization"
+            },
+            "time": "5 minutes"
+          },
+          "step4": {
+            "title": "Launch & Analyze",
+            "description": "Deploy your campaign to millions instantly and track real-time performance with detailed analytics.",
+            "features": {
+              "instantDeployment": "Instant Deployment",
+              "realTimeTracking": "Real-Time Tracking",
+              "deliveryReports": "Delivery Reports",
+              "responseAnalytics": "Response Analytics",
+              "roiMeasurement": "ROI Measurement"
+            },
+            "time": "One click"
+          }
+        },
+        "ui": {
+          "timeRequired": "Time required: {{time}}"
+        },
+        "results": {
+          "title": "The results speak for themselves",
+          "subtitle": "Join thousands of companies using SeaX to scale massively",
+          "stats": {
+            "messagesDaily": "Messages sent daily",
+            "openRate": "Average open rate",
+            "roi": "Average ROI"
+          }
+        },
+        "cta": {
+          "title": "Ready to launch your first campaign?",
+          "subtitle": "Join thousands of companies using SeaX to reach millions",
+          "signUp": "Sign Up",
+          "bookDemo": "Book Demo"
+        },
+        "illustrations": {
+          "contacts": {
+            "fileName": "contacts.csv",
+            "fileSize": "10,000 contacts",
+            "dropFiles": "Drop files here",
+            "browse": "or browse files",
+            "imported": "contacts imported"
+          },
+          "channels": {
+            "sms": "SMS",
+            "smsRate": "98% open rate",
+            "whatsapp": "WhatsApp",
+            "whatsappRate": "85% engagement",
+            "voice": "Voice",
+            "voiceRate": "Instant calls"
+          },
+          "campaign": {
+            "draft": "Campaign Draft",
+            "status": {
+              "draft": "Draft"
+            },
+            "messagePreview": "Hi John, check out our new product launch...",
+            "preview": "Preview",
+            "abTest": "A/B Test",
+            "schedule": "Schedule",
+            "scheduleNow": "Now"
+          },
+          "analytics": {
+            "campaignStatus": "Campaign Status",
+            "status": {
+              "live": "Live"
+            },
+            "delivered": "Delivered",
+            "response": "Response",
+            "realTimeAnalytics": "Real-time Analytics"
+          }
+        }
+      }
+    },
+    "industryOverview": {
+      "seo": {
+        "title": "SeaX for Industries - Industry-Specific Solutions",
+        "description": "SeaX provides tailored communication solutions for industries with proven results and industry expertise."
+      },
+      "hero": {
+        "title": {
+          "prefix": "SeaX for",
+          "industries": "Industries"
+        },
+        "subtitle": "Specialized communication solutions designed specifically for your industry.",
+        "cta": {
+          "primary": "Get Industry Solution",
+          "secondary": "View Features"
+        }
+      },
+      "challenges": {
+        "title": "Industry Challenges We Solve",
+        "subtitle": "Common communication challenges in various industries",
+        "challenge1": "Challenge 1",
+        "challenge2": "Challenge 2",
+        "challenge3": "Challenge 3",
+        "challenge4": "Challenge 4",
+        "challenge5": "Challenge 5",
+        "challenge6": "Challenge 6",
+        "description": "How SeaX addresses {challenge} specific to your industry."
+      },
+      "useCases": {
+        "title": "Industry Use Cases",
+        "subtitle": "Real-world applications for your industry",
+        "useCase1": "Use Case 1",
+        "useCase2": "Use Case 2",
+        "useCase3": "Use Case 3",
+        "useCase4": "Use Case 4",
+        "description": "Detailed description of how {useCase} applies to your business.",
+        "badge": "Industry-specific solution"
+      },
+      "stats": {
+        "title": "Industry Results",
+        "subtitle": "Proven outcomes for businesses",
+        "roi": {
+          "value": "250%",
+          "label": "ROI Increase"
+        },
+        "satisfaction": {
+          "value": "90%",
+          "label": "Customer Satisfaction"
+        },
+        "time": {
+          "value": "60%",
+          "label": "Time Savings"
+        }
+      },
+      "cta": {
+        "title": "Ready to Transform Your Business?",
+        "subtitle": "Join other industry leaders who trust SeaX for their communication needs",
+        "button": "Get Industry Solution"
+      }
+    },
+    "solutionsOverview": {
+      "seo": {
+        "title": "SeaX Solutions Overview - Scale Your Business",
+        "description": "SeaX Solutions Overview helps businesses scale their communication and achieve better results."
+      },
+      "hero": {
+        "title": "Solutions Overview",
+        "titleHighlight": "Solutions",
+        "description": "Transform your business communication with our comprehensive solutions portfolio.",
+        "getStarted": "Get Started"
+      },
+      "features": {
+        "title": "Powerful Features",
+        "subtitle": "Everything you need for successful business solutions",
+        "feature1": {
+          "title": "Automated Communication",
+          "description": "Streamline your communication processes with AI-powered automation and intelligent routing."
+        },
+        "feature2": {
+          "title": "Multi-Channel Support",
+          "description": "Reach your audience across multiple channels including SMS, voice, and messaging platforms."
+        },
+        "feature3": {
+          "title": "Real-Time Analytics",
+          "description": "Track performance and optimize your campaigns with comprehensive real-time analytics."
+        },
+        "feature4": {
+          "title": "Scalable Infrastructure",
+          "description": "Handle millions of messages with our robust, enterprise-grade infrastructure."
+        },
+        "feature5": {
+          "title": "Advanced Personalization",
+          "description": "Deliver personalized experiences with dynamic content and smart targeting capabilities."
+        },
+        "feature6": {
+          "title": "Integration Ready",
+          "description": "Seamlessly integrate with your existing systems and workflows through our comprehensive APIs."
+        }
+      },
+      "stats": {
+        "title": "Proven Results",
+        "improvement": "Improvement",
+        "successRate": "Success Rate",
+        "timeSavings": "Time Savings"
+      },
+      "cta": {
+        "title": "Ready to Transform Your Business Solutions?",
+        "subtitle": "Join thousands of businesses achieving better results with SeaX",
+        "getStarted": "Get Started Today"
+      }
+    },
+    "about": {
+      "seo": {
+        "title": "About SeaX - Powering Mass Communication at Scale",
+        "description": "Learn about SeaX's mission to democratize mass communication. Discover our story, values, and commitment to helping businesses reach millions."
+      },
+      "hero": {
+        "title": "Democratizing",
+        "titleHighlight": "Mass Communication",
+        "description": "SeaX was built on the belief that every business should have the power to reach millions of customers with the same ease as sending a single message."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description1": "We're on a mission to make mass communication accessible to businesses of all sizes. From startups to enterprises, everyone deserves the power to reach their audience at scale.",
+        "description2": "By combining cutting-edge technology with simple, intuitive design, we're breaking down the barriers that once made high-volume communication the exclusive domain of large corporations.",
+        "stats": {
+          "messagesDaily": "Messages Daily",
+          "businessesServed": "Businesses Served"
+        },
+        "features": {
+          "scale": {
+            "title": "Scale Without Limits",
+            "description": "From 1,000 to 10 million messages, we scale with you"
+          },
+          "security": {
+            "title": "Enterprise Security",
+            "description": "Bank-level security for every business"
+          },
+          "global": {
+            "title": "Global Reach",
+            "description": "Connect with customers in 200+ countries"
+          }
+        }
+      },
+      "values": {
+        "title": "Our Values",
+        "subtitle": "The principles that guide everything we do",
+        "customerFirst": {
+          "title": "Customer First",
+          "description": "Every decision we make puts our customers' success at the center."
+        },
+        "trust": {
+          "title": "Trust & Security",
+          "description": "We protect your data and communications with the highest security standards."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "We constantly push the boundaries of what's possible in communication."
+        },
+        "impact": {
+          "title": "Global Impact",
+          "description": "We're building technology that connects businesses worldwide."
+        }
+      },
+      "story": {
+        "title": "Our Story",
+        "subtitle": "How SeaX came to be",
+        "problem": {
+          "title": "The Problem",
+          "description": "Small businesses were struggling to reach their customers at scale. Existing solutions were either too expensive, too complex, or simply couldn't handle the volume needed for modern business growth."
+        },
+        "solution": {
+          "title": "The Solution",
+          "description": "We built SeaX with a simple vision: make mass communication as easy as sending a single message. By leveraging cloud infrastructure and AI, we created a platform that could scale from thousands to millions of messages seamlessly."
+        },
+        "growth": {
+          "title": "The Growth",
+          "description": "Within a year, we were processing millions of messages daily for thousands of businesses. From startups to Fortune 500 companies, SeaX became the go-to platform for high-volume communication."
+        },
+        "future": {
+          "title": "The Future",
+          "description": "Today, SeaX powers over 10 million messages daily across 200+ countries. We're just getting started on our mission to democratize mass communication for businesses everywhere."
+        }
+      },
+      "cta": {
+        "title": "Ready to Join Our Mission?",
+        "subtitle": "Discover how SeaX can transform your business communication",
+        "getStarted": "Get Started"
+      }
+    },
+    "contactSales": {
+      "seo": {
+        "title": "Contact SeaX Sales - Get a Custom Quote for Mass Communication",
+        "description": "Get in touch with our sales team for a personalized demo and custom quote. Start scaling your SMS, WhatsApp, and voice communication today."
+      },
+      "hero": {
+        "title": {
+          "line1": "Let's Scale Your",
+          "line2": "Communication Together"
+        },
+        "subtitle": "Ready to reach millions? Our experts will help you find the perfect solution for your business needs and provide a custom quote within 24 hours."
+      },
+      "stats": {
+        "responseTime": {
+          "value": "< 24h",
+          "label": "Response Time"
+        },
+        "satisfaction": {
+          "value": "95%",
+          "label": "Customer Satisfaction"
+        },
+        "businesses": {
+          "value": "10K+",
+          "label": "Businesses Served"
+        }
+      },
+      "contactMethods": {
+        "title": "Multiple Ways to Connect",
+        "subtitle": "Choose the method that works best for you",
+        "email": {
+          "title": "Email Us",
+          "description": "Get in touch via email",
+          "action": "sales@seax.com"
+        },
+        "phone": {
+          "title": "Call Us",
+          "description": "Speak with a sales expert",
+          "action": "+1 (555) 123-SEAX"
+        },
+        "demo": {
+          "title": "Book a Demo",
+          "description": "Schedule a live demo",
+          "action": "Schedule Now"
+        },
+        "chat": {
+          "title": "Live Chat",
+          "description": "Chat with our team",
+          "action": "Start Chat"
+        }
+      },
+      "form": {
+        "title": "Get a Custom Quote",
+        "subtitle": "Tell us about your needs and we'll create a personalized solution",
+        "firstName": {
+          "label": "First Name *",
+          "placeholder": "John"
+        },
+        "lastName": {
+          "label": "Last Name *",
+          "placeholder": "Smith"
+        },
+        "email": {
+          "label": "Business Email *",
+          "placeholder": "john@company.com"
+        },
+        "company": {
+          "label": "Company *",
+          "placeholder": "Your Company"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "+1 (555) 123-4567"
+        },
+        "volume": {
+          "label": "Monthly Message Volume *",
+          "placeholder": "Select volume",
+          "under10k": "Under 10,000",
+          "10k50k": "10,000 - 50,000",
+          "50k200k": "50,000 - 200,000",
+          "200k1m": "200,000 - 1,000,000",
+          "over1m": "Over 1,000,000"
+        },
+        "useCase": {
+          "label": "Primary Use Case *",
+          "placeholder": "Select use case",
+          "marketing": "Marketing Campaigns",
+          "notifications": "Customer Notifications",
+          "reminders": "Appointment Reminders",
+          "alerts": "Emergency Alerts",
+          "leadGeneration": "Lead Generation",
+          "support": "Customer Support",
+          "other": "Other"
+        },
+        "message": {
+          "label": "Tell us about your requirements",
+          "placeholder": "What are your specific needs? Any questions about our platform?"
+        },
+        "consent": {
+          "label": "I agree to receive communications from SeaX about products and services."
+        },
+        "submit": {
+          "submitting": "Submitting...",
+          "default": "Get My Custom Quote"
+        }
+      },
+      "success": {
+        "title": "Thank You!",
+        "message": "We've received your request and will get back to you within 24 hours. Our team is excited to help you scale your communication.",
+        "nextSteps": {
+          "title": "What happens next?",
+          "step1": "Our team reviews your requirements",
+          "step2": "We'll schedule a personalized demo",
+          "step3": "Get a custom quote for your volume"
+        },
+        "immediateHelp": "Need immediate assistance? Call us at"
+      },
+      "whyChoose": {
+        "title": "Why Choose SeaX?",
+        "subtitle": "Join thousands of businesses that trust us with their communication",
+        "results": {
+          "title": "Proven Results",
+          "description": "400% average ROI and 95% customer satisfaction rate"
+        },
+        "security": {
+          "title": "Enterprise Security",
+          "description": "GDPR compliant with enterprise-grade security and uptime SLAs"
+        },
+        "support": {
+          "title": "Expert Support",
+          "description": "Dedicated account managers and 24/7 technical support"
+        }
+      }
+    }
+  }
+}

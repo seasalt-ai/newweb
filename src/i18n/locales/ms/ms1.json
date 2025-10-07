@@ -1,0 +1,1720 @@
+{
+  "header": {
+    "products": "Produk",
+    "solutions": "Penyelesaian",
+    "industries": "Industri",
+    "channels": "Saluran",
+    "pricing": "Harga",
+    "compareUs": "Bandingkan Kami",
+    "blog": "Blog",
+    "login": "Log Masuk",
+    "startForFree": "Daftar",
+    "backToChannels": "Kembali ke Saluran",
+    "allChannelsOverview": "Gambaran Keseluruhan Semua Saluran",
+    "solutionsDropdown": {
+      "seahealth": "SeaHealth - Penjagaan Kesihatan Dioptimumkan",
+      "useCases": "Kes Penggunaan"
+    },
+    "useCasesDropdown": {
+      "salesMarketing": "Untuk Jualan & Pemasaran",
+      "customerSupport": "Untuk Sokongan Pelanggan",
+      "aiAutomation": "AI & Automasi",
+      "smeOwners": "Untuk Pemilik PKS"
+    },
+    "channelsDropdown": {
+      "whatsapp": "WhatsApp",
+      "phoneCalls": "Panggilan Telefon",
+      "sms": "SMS",
+      "websiteChat": "Sembang Laman Web",
+      "instagram": "Instagram",
+      "facebookMessenger": "Facebook Messenger",
+      "contactForms": "Borang Hubungan",
+      "line": "Line",
+      "websiteWidget": "Widget Laman Web"
+    },
+    "comparisonsDropdown": {
+      "title": "Perbandingan",
+      "allComparisonsOverview": "Gambaran Keseluruhan Semua Perbandingan"
+    },
+    "compareDropdown": {
+      "allComparisonsOverview": "Gambaran Keseluruhan Semua Perbandingan"
+    },
+    "signIn": "Log Masuk"
+  },
+  "footer": {
+    "company": {
+      "title": "Syarikat",
+      "contact": "Hubungi Kami",
+      "about": "Tentang Kami",
+      "careers": "Kerjaya"
+    },
+    "copyright": "© 2020 - {{year}} Seasalt.ai. Hak cipta terpelihara.",
+    "privacyPolicy": "Dasar Privasi",
+    "termsOfService": "Syarat Perkhidmatan",
+    "security": "Keselamatan",
+    "compliance": {
+      "soc2": "Mematuhi SOC 2",
+      "hipaa": "HIPAA Tersedia",
+      "uptime": "99.9% Waktu Beroperasi"
+    },
+    "cta": {
+      "title": "Bersedia untuk Meningkatkan Jangkauan Anda kepada Jutaan?",
+      "startFreeTrial": "Daftar Percuma",
+      "scheduleDemo": "Jadualkan Demo",
+      "subtitle": "Sertai ribuan syarikat yang menggunakan SeaX untuk menjangkau lebih ramai pelanggan, menjana lebih banyak petunjuk, dan berkembang lebih cepat.",
+      "signUpNow": "Daftar Sekarang"
+    },
+    "tagline": "Pusat hubungan semua-dalam-satu yang dibina untuk perniagaan kecil. Automasi sokongan, tangkap setiap petunjuk, dan satukan semua perbualan pelanggan anda.",
+    "seahealth": "SeaHealth - Penjagaan Kesihatan Dioptimumkan",
+    "productWiki": "Wiki Produk",
+    "apiReferences": "Rujukan API",
+    "madeWith": {
+      "text": "Dibuat dengan",
+      "inCityOf": "di bandar"
+    },
+    "inCityOf": "di",
+    "description": {
+      "company": "Jangkau jutaan serta-merta. Platform muktamad untuk menghantar jutaan SMS, mesej WhatsApp, dan panggilan telefon automatik. Isi saluran paip anda, jana pendapatan, dan kembangkan perniagaan anda."
+    },
+    "section": {
+      "channels": "Saluran",
+      "solutions": "Penyelesaian",
+      "industries": "Industri"
+    },
+    "links": {
+      "channels": {
+        "smsOverview": "Gambaran Keseluruhan SMS",
+        "smsLocal": "Nombor Tempatan (10DLC)",
+        "smsTollFree": "Nombor Bebas Tol",
+        "smsShortCode": "Kod Pendek",
+        "whatsapp": "Platform Perniagaan WhatsApp",
+        "voice": "Suara Panggilan Telefon"
+      },
+      "solutions": {
+        "leadGeneration": "Penjanaan Petunjuk",
+        "marketingAutomation": "Automasi Pemasaran",
+        "customerEngagement": "Penglibatan Pelanggan",
+        "appointmentReminders": "Peringatan Janji Temu",
+        "emergencyAlerts": "Makluman Kecemasan"
+      },
+      "industries": {
+        "ecommerceRetail": "E-dagang & Runcit",
+        "realEstate": "Hartanah",
+        "politicalCampaigns": "Kempen Politik",
+        "healthcare": "Penjagaan Kesihatan",
+        "financialServices": "Perkhidmatan Kewangan"
+      },
+      "company": {
+        "features": "Ciri-ciri",
+        "pricing": "Harga",
+        "productWiki": "Wiki Produk",
+        "apiReferences": "Rujukan API",
+        "careers": "Kerjaya"
+      }
+    },
+    "stats": {
+      "messagesDaily": "10 Juta+ Mesej Harian",
+      "activeUsers": "500 Ribu+ Pengguna Aktif",
+      "uptime": "99.9% Waktu Beroperasi"
+    },
+    "legal": {
+      "privacyPolicy": "Dasar Privasi",
+      "termsOfService": "Syarat Perkhidmatan"
+    },
+    "contact": {
+      "phone": "+1 (SMB)-AI-AGENT",
+      "email": "info@seasalt.ai",
+      "location": "Seattle, WA"
+    },
+    "logo": {
+      "alt": "SeaX"
+    },
+    "technical": {
+      "tenDlc": "10DLC",
+      "tollFree": "8XX",
+      "sms": "SMS",
+      "shortCode": "xxxxx"
+    }
+  },
+  "hero": {
+    "title": {
+      "line1": "Berhenti Menguruskan Aplikasi",
+      "line2": "Satukan Setiap Pelanggan",
+      "line3": "Panggilan, WhatsApp, dan Sembang",
+      "line4": "dalam Satu Peti Masuk Mudah."
+    },
+    "titleWithGradient": "Berhenti Menguruskan Aplikasi. <1>Satukan Setiap Pelanggan</1> Panggilan, Teks, WhatsApp, dan Sembang dalam Satu Peti Masuk Mudah.",
+    "description": "Seasalt.ai ialah pusat hubungan semua-dalam-satu yang dibina untuk perniagaan kecil. Automasi sokongan, tangkap setiap petunjuk, dan uruskan semua perbualan anda dari satu skrin.",
+    "signUp": "Daftar",
+    "seeDemo": "Jadualkan Demo",
+    "trustedBy": "Dipercayai oleh perniagaan yang berkembang di seluruh dunia",
+    "developerMessage": "Seasalt.ai membawakan pembangun alat komunikasi ejen untuk <1>penggunaan alat</1> berikut:",
+    "developerTools": {
+      "phoneUse": "penggunaan telefon",
+      "messageUse": "penggunaan mesej",
+      "emailUse": "penggunaan e-mel",
+      "meetingUse": "penggunaan mesyuarat"
+    },
+    "unifiedInbox": "Peti Masuk Bersepadu",
+    "appNames": {
+      "whatsapp": "WhatsApp",
+      "sms": "SMS",
+      "phone": "Telefon",
+      "chat": "Sembang"
+    }
+  },
+  "features": {
+    "mainTitle": "Pusat Hubungan Berpandu Omni-Saluran untuk PKS",
+    "mainDescription": "Gabungkan automasi AI dengan kepakaran manusia merentasi semua saluran dengan lancar. Perkasakan pasukan anda untuk menyampaikan perkhidmatan yang luar biasa dan memacu pertumbuhan.",
+    "omniChannel": {
+      "title": "Peti Masuk Omni-Saluran Bersepadu",
+      "description": "Jangan terlepas petunjuk. Lihat setiap interaksi pelanggan dari setiap saluran dalam satu paparan bersepadu, membolehkan kerjasama manusia-AI yang lancar dan menjimatkan pasukan anda 5+ jam seminggu."
+    },
+    "aiVoicebot": {
+      "title": "AI Voicebot & Chatbot",
+      "description": "Pekerja digital pertama anda bekerja 24/7. Automasi sehingga 80% pertanyaan rutin, tempah 5+ janji temu setiap hari, dan serahkan kepada ejen manusia apabila diperlukan."
+    },
+    "voiceWhatsapp": {
+      "title": "Integrasi Suara & WhatsApp Asli",
+      "description": "Layani setiap pelanggan di saluran pilihan mereka, dengan lancar. Lihat sejarah sembang WhatsApp serta-merta apabila mereka menelefon."
+    },
+    "outboundMarketing": {
+      "title": "Kempen Pemasaran Keluar",
+      "description": "Cipta perjalanan pelanggan gelung tertutup yang lancar. Lancarkan kempen yang disasarkan dan uruskan semua balasan di platform yang sama."
+    },
+    "enterpriseSecurity": {
+      "title": "Keselamatan Gred Perusahaan",
+      "description": "Penyelesaian yang mematuhi HIPAA dengan penyulitan peringkat bank. Percayai data pelanggan anda sentiasa dilindungi."
+    },
+    "predictablePricing": {
+      "title": "Harga Mudah, Boleh Diramal",
+      "description": "Bajet dengan yakin. Harga telus bermakna anda tahu dengan tepat apa yang akan anda bayar setiap bulan."
+    },
+    "testimonial": {
+      "quote": "Saya mengesyorkan Seasalt.ai untuk sistem pangkalan pengetahuan yang berkuasa dan sokongan omni-saluran!",
+      "author": "— Ulasan Arkitek Penyelesaian"
+    },
+    "knowledgeBase": {
+      "title": "Pangkalan Pengetahuan"
+    }
+  },
+  "howItWorks": {
+    "title": "Mula dalam 3 Langkah Mudah",
+    "description1": "Ubah komunikasi pelanggan anda dalam beberapa minit, bukan bulan.",
+    "description2": "Tiada persediaan yang rumit atau pengetahuan teknikal diperlukan.",
+    "connectYourChannels": {
+      "title": "Sambungkan Saluran Anda",
+      "description": "Pautkan telefon, WhatsApp, SMS, sembang laman web, dan media sosial anda dalam beberapa minit. Tiada kepakaran teknikal diperlukan."
+    },
+    "automateRoutineWork": {
+      "title": "Automasi Kerja Rutin",
+      "description": "Sediakan AI untuk mengendalikan soalan lazim seperti \"Di mana pesanan saya?\" dan tempah janji temu secara automatik."
+    },
+    "unifyYourTeam": {
+      "title": "Satukan Pasukan Anda",
+      "description": "Pasukan anda melihat sejarah perbualan lengkap apabila pelanggan beralih dari sembang ke panggilan telefon."
+    },
+    "signUpNow": "Daftar Sekarang",
+    "setupTime": "Persediaan dalam masa kurang 5 minit"
+  },
+  "useCases": {
+    "title": "Kes Penggunaan Berkuasa untuk Setiap Keperluan Perniagaan",
+    "description": "Dari pusat hubungan hingga kempen pemasaran, lihat bagaimana Seasalt.ai menyesuaikan diri dengan keperluan perniagaan khusus anda dengan ciri-ciri gred perusahaan dalam platform yang mudah dan bersepadu.",
+    "keyFeatures": "Ciri-ciri Utama",
+    "contactCenter": {
+      "title": "Operasi Pusat Hubungan",
+      "headline": "Pusat Hubungan Profesional dengan Pengurusan Panggilan Penuh",
+      "description": "Ubah perniagaan anda menjadi pusat hubungan profesional dengan ciri-ciri gred perusahaan.",
+      "features": {
+        "ivr": "Sistem IVR lanjutan untuk penghalaan panggilan",
+        "recording": "Rakaman & transkripsi panggilan automatik",
+        "voicemail": "Mel suara pintar dengan pemberitahuan",
+        "analytics": "Analitik & pelaporan panggilan masa nyata",
+        "dashboards": "Papan pemuka prestasi ejen",
+        "queueManagement": "Pengurusan barisan panggilan"
+      }
+    },
+    "virtualReceptionist": {
+      "title": "Penyambut Tetamu Maya 24/7",
+      "headline": "Jangan Terlepas Panggilan Lagi dengan Penerimaan Berkuasa AI",
+      "description": "Gunakan voicebot pintar yang berfungsi sepanjang masa untuk menangkap panggilan masuk dan melayakkan petunjuk.",
+      "features": {
+        "aiVoicebot": "Voicebot AI menjawab panggilan 24/7",
+        "appointments": "Tempahan & penjadualan janji temu",
+        "leadQualification": "Kelayakan & penghalaan petunjuk",
+        "customGreeting": "Ucapan & balasan tersuai",
+        "handoff": "Penyerahan lancar kepada ejen manusia",
+        "multiLanguage": "Sokongan berbilang bahasa"
+      }
+    },
+    "smsManagement": {
+      "title": "Pengurusan SMS Bersepadu",
+      "headline": "Urus Berbilang Talian Telefon & SMS Dua Hala dalam Satu Platform",
+      "description": "Satukan semua talian telefon perniagaan dan komunikasi SMS anda ke dalam satu platform yang berkuasa.",
+      "features": {
+        "multipleLines": "Berbilang talian telefon dalam satu papan pemuka",
+        "twoWaySms": "Perbualan SMS dua hala",
+        "unifiedHistory": "Sejarah SMS & panggilan bersepadu",
+        "teamCollaboration": "Kerjasama pasukan dalam mesej",
+        "automatedResponses": "Balasan SMS automatik",
+        "numberSupport": "Sokongan nombor tempatan & bebas tol"
+      }
+    },
+    "smsMarketing": {
+      "title": "Kempen Pemasaran SMS",
+      "headline": "Lancarkan Kempen SMS A2P Berkuasa dengan 10DLC & Bebas Tol",
+      "description": "Laksanakan kempen pemasaran SMS profesional dengan kebolehhantaran dan pematuhan yang tinggi.",
+      "features": {
+        "tenDlc": "Kempen berdaftar 10DLC",
+        "tollFree": "Sokongan bebas tol & kod pendek",
+        "highVolume": "Penghantaran mesej volum tinggi",
+        "analytics": "Analitik prestasi kempen",
+        "compliance": "Pematuhan & pengurusan keluar",
+        "dripCampaigns": "Kempen titisan automatik"
+      }
+    },
+    "whatsappBusiness": {
+      "title": "Kempen Perniagaan WhatsApp",
+      "headline": "Jangkau Pelanggan Global dengan Platform Perniagaan WhatsApp",
+      "description": "Lancarkan kempen WhatsApp yang disasarkan menggunakan Platform Perniagaan WhatsApp rasmi.",
+      "features": {
+        "apiIntegration": "Integrasi API Perniagaan WhatsApp",
+        "templateMessages": "Kempen mesej templat",
+        "automatedChatbot": "Balasan chatbot automatik",
+        "richMedia": "Sokongan mesej media kaya",
+        "globalReach": "Jangkauan pelanggan global",
+        "analytics": "Analitik perbualan"
+      }
+    },
+    "aiSupport": {
+      "title": "Sokongan AI Chatbot dan Voicebot Pintar",
+      "headline": "Sokongan Pelanggan Berkuasa AI yang Tidak Pernah Tidur",
+      "description": "Gunakan chatbot pintar merentasi semua saluran komunikasi anda untuk mengendalikan pertanyaan pelanggan 24/7.",
+      "features": {
+        "automated24x7": "Sokongan pelanggan automatik 24/7",
+        "multiChannel": "Penggunaan chatbot berbilang saluran",
+        "instantResponse": "Balasan segera kepada pertanyaan lazim",
+        "humanHandoff": "Penyerahan ejen manusia yang lancar",
+        "continuousLearning": "Pembelajaran & peningkatan berterusan",
+        "knowledgeBase": "Integrasi pangkalan pengetahuan tersuai"
+      }
+    },
+    "cta": {
+      "title": "Bersedia untuk Mengubah Komunikasi Perniagaan Anda?",
+      "description": "Pilih kes penggunaan yang sesuai dengan keperluan perniagaan anda. Mulakan dengan pelan percuma kami dan tingkatkan apabila anda berkembang.",
+      "signUp": "Daftar",
+      "bookDemo": "Jadualkan Demo"
+    }
+  },
+  "phoneBanner": {
+    "callText": "Panggil",
+    "phoneNumber": "+1 (SMB)-AI-AGENT",
+    "bookingText": "untuk menempah mesyuarat dengan ejen AI SeaVoice.",
+    "availability": "Tersedia 24/7"
+  },
+  "problemSolution": {
+    "title": "Kehilangan Petunjuk dalam Labirin Aplikasi dan Peti Masuk?",
+    "description": "Pelanggan anda cuba menghubungi anda di mana-mana. Mesej yang terlepas adalah jualan yang terlepas. Seasalt.ai membawa semua komunikasi anda ke satu tempat, jadi anda tidak akan terlepas peluang.",
+    "problems": {
+      "fragmented": {
+        "title": "Perbualan Terpecah-pecah",
+        "description": "Melompat antara WhatsApp, log telefon, dan sembang web mencipta kekacauan dan membazirkan masa."
+      },
+      "lostRevenue": {
+        "title": "Pendapatan Hilang",
+        "description": "Mesej yang terlepas selepas waktu bekerja dan balasan yang lambat bermakna petunjuk yang hilang dan pelanggan yang kecewa."
+      },
+      "operational": {
+        "title": "Beban Operasi Berlebihan",
+        "description": "Pasukan anda terlalu sibuk menguruskan terlalu banyak alat daripada menumpukan perhatian kepada pelanggan."
+      }
+    },
+    "solution": {
+      "title": "Seasalt.ai: Penyelesaian Berpandu Omni-Saluran Anda",
+      "hubTitle": "Hab Omni-Saluran Bersepadu",
+      "subtitle": "Ejen AI & Manusia, 24/7",
+      "tabs": {
+        "support": "Sokongan",
+        "marketing": "Pemasaran"
+      },
+      "features": {
+        "marketing": {
+          "title": "Pandu Bersama Kempen Pemasaran Anda",
+          "description": "Dapatkan lebih ramai pelanggan dengan kempen keluar berkuasa AI dan pemeliharaan petunjuk pintar."
+        },
+        "support": {
+          "title": "Automasi Sokongan Pelanggan Anda",
+          "description": "Kurangkan kos sokongan dengan ejen AI 24/7 yang mengendalikan pertanyaan rutin dan penyerahan manusia yang lancar."
+        },
+        "human": {
+          "title": "Jangan Sesekali Kehilangan Sentuhan Manusia",
+          "description": "Pilih tahap automasi anda: Hanya manusia, AI Copilot, atau Autopilot Penuh berdasarkan keperluan anda."
+        }
+      },
+      "cta": "Gunakan Seasalt.ai untuk Menyelesaikan Ini"
+    },
+    "mockData": {
+      "supportTickets": {
+        "sarah": {
+          "name": "Sarah Johnson",
+          "description": "Panggilan telefon mengenai status pesanan",
+          "timeAgo": "2m lalu"
+        },
+        "mike": {
+          "name": "Mike Chen",
+          "description": "WhatsApp: Soalan penghantaran",
+          "timeAgo": "5m lalu"
+        },
+        "lisa": {
+          "name": "Lisa Park",
+          "description": "Sembang laman web: Pertanyaan produk",
+          "timeAgo": "8m lalu"
+        },
+        "david": {
+          "name": "David Kim",
+          "description": "Panggilan sokongan: Isu teknikal",
+          "timeAgo": "12m lalu"
+        }
+      },
+      "campaigns": {
+        "blackFriday": {
+          "name": "Kempen Black Friday",
+          "description": "SMS: 2,847 dihantar • 312 balasan",
+          "result": "+47 petunjuk"
+        },
+        "whatsappLaunch": {
+          "name": "Pelancaran Produk WhatsApp",
+          "description": "1,523 mesej • 89 perbualan",
+          "result": "+23 jualan"
+        },
+        "cartRecovery": {
+          "name": "Pemulihan Keranjang Terbengkalai",
+          "description": "E-mel + SMS: 156 dipulihkan",
+          "result": "+2k"
+        },
+        "followUp": {
+          "name": "Kempen Panggilan Susulan",
+          "description": "AI Voicebot: 89 panggilan • 34 janji temu",
+          "result": "+34 janji temu"
+        }
+      }
+    }
+  },
+  "supportPlan": {
+    "title": "Pelan Sokongan",
+    "priceNote": "*Semua harga dalam dolar AS",
+    "trial": {
+      "title": "Percubaan",
+      "price": "$0",
+      "features": {
+        "diy": "DIY dengan wiki produk",
+        "email": "E-mel (info@seasalt.ai)",
+        "chat": "atau sembang dengan sokongan pelanggan (di halaman ini)"
+      }
+    },
+    "launch": {
+      "title": "Pelancaran",
+      "startsAt": "Bermula pada",
+      "minPrice": "$500",
+      "upTo": "sehingga",
+      "maxPrice": "$10,000",
+      "duration": "sebulan selama 3 bulan",
+      "description": "Dengan Pelan Sokongan Pelancaran, pasukan kami komited untuk menyediakan panduan profesional dalam bidang berikut:",
+      "features": {
+        "meetings": {
+          "title": "Mesyuarat 1-lawan-1 Tanpa Had:",
+          "description": "Sesi peribadi dengan pasukan SeaChat."
+        },
+        "promptTuning": {
+          "title": "Penalaan Prompt:",
+          "description": "Penyesuaian untuk aplikasi sembang dan suara."
+        },
+        "guidance": {
+          "title": "Panduan Reka Bentuk dan Teknikal:",
+          "description": "Nasihat pakar mengenai aspek reka bentuk dan teknikal."
+        },
+        "launchSupport": {
+          "title": "Sokongan Pelancaran Ejen AI:",
+          "description": "Bantuan komprehensif sepanjang proses pelancaran."
+        },
+        "marketStrategy": {
+          "title": "Strategi Pemasaran:",
+          "description": "Perancangan strategik untuk kemasukan pasaran."
+        },
+        "successfulLaunch": {
+          "title": "Pelancaran Ejen AI yang Berjaya:",
+          "description": "Capai pelancaran yang berjaya dalam masa 4-6 minggu."
+        },
+        "postLaunch": {
+          "title": "Iterasi dan Peningkatan Pasca-Pelancaran:",
+          "description": "Peningkatan berterusan berdasarkan penggunaan dan maklum balas."
+        },
+        "operational": {
+          "title": "Kestabilan Operasi:",
+          "description": "Wujudkan prosedur operasi standard untuk operasi jangka panjang ejen AI."
+        }
+      }
+    }
+  },
+  "productDropdown": {
+    "mainSite": {
+      "title": "Laman Utama Seasalt.ai",
+      "description": "Semua produk dan penyelesaian"
+    },
+    "productsLabel": "Produk"
+  },
+  "industries": {
+    "title": "Berkhidmat kepada Setiap Industri dengan Keyakinan",
+    "description": "Dari penjagaan kesihatan hingga fintech, platform kami menyesuaikan diri dengan keperluan unik industri anda dengan ciri-ciri khusus dan piawaian pematuhan.",
+    "cta": {
+      "title": "Bersedia untuk Merevolusikan Industri Anda?",
+      "description": "Sertai pemimpin industri yang mempercayai Seasalt.ai untuk menyampaikan pengalaman pelanggan yang luar biasa sambil memenuhi keperluan kawal selia dan operasi tertentu.",
+      "signUp": "Daftar",
+      "bookDemo": "Jadualkan Demo"
+    },
+    "template": {
+      "nav": {
+        "backToHome": "← Kembali ke Laman Utama"
+      },
+      "hero": {
+        "title": "Penyelesaian AI untuk",
+        "signUp": "Daftar Percuma",
+        "seeDemo": "Lihat Demo",
+        "hipaaOffering": "Juga tersedia: Mematuhi HIPAA"
+      },
+      "seo": {
+        "titleSuffix": "Penyelesaian - Seasalt.ai",
+        "descriptionPrefix": "Lihat bagaimana Seasalt.ai membantu",
+        "descriptionSuffix": "perniagaan meningkatkan komunikasi pelanggan dan memacu pertumbuhan."
+      },
+      "ui": {
+        "seahealthAlt": "SeaHealth",
+        "testimonialsPrefix": "Apa"
+      },
+      "benefits": {
+        "title": "Mengapa Memilih Seasalt.ai untuk",
+        "description": "Platform berkuasa AI kami menyelaraskan komunikasi dan mengautomasikan aliran kerja untuk"
+      },
+      "useCases": {
+        "title": "Kes Penggunaan Lazim",
+        "description": {
+          "start": "Temui bagaimana platform kami mengubah",
+          "end": "operasi dengan automasi pintar"
+        },
+        "customerSupport": {
+          "title": "Sokongan Pelanggan 24/7",
+          "description": "Berikan balasan segera kepada pertanyaan pelanggan merentasi semua saluran"
+        },
+        "leadGeneration": {
+          "title": "Penjanaan Petunjuk",
+          "description": "Tangkap dan layakkan petunjuk secara automatik dengan perbualan berkuasa AI"
+        },
+        "analytics": {
+          "title": "Analitik & Wawasan",
+          "description": "Jejaki prestasi dan dapatkan wawasan tentang interaksi pelanggan"
+        },
+        "subtitle": "Temui bagaimana platform kami menyokong setiap aspek pengurusan pendidikan",
+        "case1": {
+          "title": "Sistem Maklumat Pelajar",
+          "description": "Pusatkan rekod pelajar, gred, dan penjejakan kemajuan akademik"
+        },
+        "case2": {
+          "title": "Pengurusan Pembelajaran",
+          "description": "Sampaikan kursus, jejak kemajuan, dan uruskan kandungan pendidikan"
+        },
+        "case3": {
+          "title": "Alat Pentadbiran",
+          "description": "Menyelaraskan pendaftaran, penjadualan, dan operasi institusi"
+        }
+      },
+      "testimonials": {
+        "title": "Syarikat Berkata",
+        "quote1": "Seasalt.ai telah mengubah operasi perkhidmatan pelanggan kami. Masa balasan menurun 80% dan kepuasan berada pada tahap tertinggi sepanjang masa.",
+        "author1": "Sarah Chen",
+        "company1": "Pengurus Kejayaan Pelanggan",
+        "quote2": "Automasi AI telah menjimatkan kami berjam-jam. Kami boleh menumpukan perhatian untuk mengembangkan perniagaan kami daripada menguruskan tugas berulang.",
+        "author2": "Michael Rodriguez",
+        "company2": "Pengarah Operasi",
+        "subtitle": "Lihat bagaimana institusi mengubah operasi mereka",
+        "testimonial1": {
+          "quote": "Platform ini telah merevolusikan cara kami menguruskan operasi sekolah kami. Data pelajar kini berpusat dan boleh diakses.",
+          "author": "Dr. Sarah Johnson",
+          "position": "Pengetua, Sekolah Rendah Lincoln"
+        },
+        "testimonial2": {
+          "quote": "Ciri-ciri pengurusan pembelajaran telah menjadikan pembelajaran jarak jauh dan hibrid lancar untuk pelajar dan fakulti kami.",
+          "author": "Prof. Michael Chen",
+          "position": "Dekan Teknologi, Universiti Negeri"
+        },
+        "testimonial3": {
+          "quote": "Kecekapan pentadbiran kami telah meningkat secara mendadak. Segala-galanya dari pendaftaran hingga pelaporan kini diselaraskan.",
+          "author": "Maria Rodriguez",
+          "position": "Pentadbir, Daerah Kolej Komuniti"
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Mengubah Perniagaan Anda?",
+        "description": "Sertai ribuan syarikat yang mempercayai Seasalt.ai untuk menguruskan komunikasi pelanggan mereka dengan cekap dan selamat.",
+        "signUp": "Mula Percubaan Percuma",
+        "scheduleDemo": "Jadualkan Demo",
+        "seahealthLink": "Terokai Penyelesaian Penjagaan Kesihatan Mematuhi HIPAA",
+        "buttons": {
+          "primary": "Mula Percubaan Percuma",
+          "secondary": "Jadualkan Demo",
+          "contact": "Hubungi Jualan"
+        }
+      },
+      "solutions": {
+        "title": "Penyelesaian"
+      }
+    }
+  },
+  "channels": {
+    "title": "Sambungkan Setiap Saluran Pelanggan",
+    "description": "Satukan semua komunikasi pelanggan anda dalam satu platform. Dari WhatsApp hingga panggilan telefon, SMS hingga media sosial - uruskan setiap perbualan dari satu papan pemuka.",
+    "whatsapp": {
+      "title": "Perniagaan WhatsApp",
+      "description": "Berhubung dengan pelanggan di platform pemesejan paling popular di dunia",
+      "seo": {
+        "title": "Integrasi Perniagaan WhatsApp - Seasalt.ai",
+        "description": "Sambungkan akaun Perniagaan WhatsApp anda ke Seasalt.ai untuk perbualan berkuasa AI, kempen pukal, dan sokongan ejen manusia yang lancar. Jangkau 2+ bilion pengguna di seluruh dunia."
+      },
+      "nav": {
+        "backToChannels": "Kembali ke Saluran"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Ubah WhatsApp menjadi Pusat",
+          "highlight": "Perintah Perniagaan Anda"
+        },
+        "description": "Sambungkan akaun Perniagaan WhatsApp anda ke Seasalt.ai untuk perbualan berkuasa AI, kempen pukal, dan sokongan ejen manusia yang lancar. Jangkau 2+ bilion pengguna di seluruh dunia.",
+        "primaryCta": "Sambungkan WhatsApp dalam 10 Minit",
+        "secondaryCta": "Lihat Demo",
+        "demoTitle": "Perniagaan WhatsApp",
+        "demoMessages": {
+          "customer1": "Pelanggan: \"Di mana pesanan saya #12345?\"",
+          "bot1": "Bot AI: \"Pesanan anda sedang dalam penghantaran dan akan tiba hari ini sebelum jam 6 petang. Jejaki di sini: [pautan]",
+          "customer2": "Pelanggan: \"Bolehkah saya menukar alamat penghantaran?\"",
+          "bot2": "Bot AI: \"Benarkan saya menghubungkan anda dengan ejen manusia untuk perubahan alamat..."
+        }
+      },
+      "features": {
+        "title": "Ciri-ciri Utama",
+        "description": "Semua yang anda perlukan untuk menjadikan WhatsApp platform komunikasi perniagaan yang berkuasa",
+        "aiResponses": {
+          "title": "Balasan Berkuasa AI",
+          "description": "Perkhidmatan pelanggan automatik dengan pemprosesan bahasa semula jadi yang memahami konteks dan niat"
+        },
+        "bulkCampaigns": {
+          "title": "Pengurusan Kempen Pukal",
+          "description": "Hantar mesej templat kepada ribuan kenalan dengan penargetan dan penjadualan lanjutan"
+        },
+        "humanHandoff": {
+          "title": "Penyerahan Ejen Manusia",
+          "description": "Peralihan lancar dari bot ke ejen langsung dengan arahan /live_agent dan sejarah perbualan penuh"
+        },
+        "metaIntegration": {
+          "title": "Integrasi Perniagaan Meta",
+          "description": "Akses penuh kepada ciri-ciri Platform Perniagaan WhatsApp dengan keselamatan gred perusahaan"
+        }
+      },
+      "setup": {
+        "title": "Visualisasi Proses Persediaan",
+        "description": "Panduan langkah demi langkah untuk menyambungkan akaun Perniagaan WhatsApp anda dengan keselamatan gred perusahaan",
+        "steps": {
+          "0": "Cipta Akaun Pembangun Meta",
+          "1": "Konfigurasi API Perniagaan WhatsApp",
+          "2": "Sediakan titik akhir webhook",
+          "3": "Jana token akses",
+          "4": "Uji penghantaran mesej",
+          "5": "Lancarkan kempen pertama anda"
+        },
+        "security": {
+          "title": "Keselamatan Gred Perusahaan",
+          "description": "Integrasi WhatsApp anda termasuk penyulitan hujung ke hujung, pengurusan token selamat, dan pematuhan dengan dasar perniagaan Meta. Semua data dilindungi dengan keselamatan peringkat bank."
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Menyambungkan WhatsApp?",
+        "description": "Sertai ribuan perniagaan yang menggunakan WhatsApp untuk menyediakan perkhidmatan pelanggan yang lebih baik dan memacu lebih banyak jualan.",
+        "button": "Mula Integrasi"
+      }
+    },
+    "voice": {
+      "title": "Suara & Panggilan Telefon",
+      "description": "Sistem telefon profesional dengan voicebot AI dan sokongan ejen manusia"
+    },
+    "sms": {
+      "title": "Pemesejan SMS",
+      "description": "Jangkau pelanggan serta-merta dengan kempen SMS yang diperibadikan",
+      "seo": {
+        "title": "Platform Pemasaran SMS - Seasalt.ai",
+        "description": "Jangkau pelanggan serta-merta dengan kempen SMS yang diperibadikan dan balasan automatik. 98% kadar buka dan penghantaran global ke 200+ negara. Mulakan pemasaran SMS anda hari ini."
+      },
+      "nav": {
+        "backToChannels": "Kembali ke Saluran"
+      },
+      "hero": {
+        "title": "Pemasaran SMS yang",
+        "description": "Jangkau pelanggan serta-merta dengan kempen SMS yang diperibadikan dan balasan automatik. 98% kadar buka dan penghantaran global ke 200+ negara.",
+        "primaryCta": "Mula Kempen SMS",
+        "secondaryCta": "Lihat Demo",
+        "campaign": {
+          "title": "Kempen SMS",
+          "flashSale": {
+            "title": "📱 Kempen: Jualan Kilat",
+            "sent": "2,847 mesej dihantar"
+          },
+          "delivered": {
+            "title": "✅ Dihantar: 2,834",
+            "rate": "99.5% kadar penghantaran"
+          },
+          "replies": {
+            "title": "💬 Balasan: 312",
+            "rate": "11% kadar balasan"
+          },
+          "conversions": {
+            "title": "🛒 Penukaran: 47",
+            "revenue": "$12,400 pendapatan"
+          }
+        },
+        "titleHighlight": "Sebenarnya Menukar",
+        "cta": {
+          "primary": "Mula Kempen SMS",
+          "secondary": "Lihat Demo"
+        },
+        "dashboard": {
+          "title": "Kempen SMS",
+          "campaign": "📱 Kempen: Jualan Kilat",
+          "campaignSent": "2,847 mesej dihantar",
+          "delivered": "✅ Dihantar: 2,834",
+          "deliveryRate": "99.5% kadar penghantaran",
+          "replies": "💬 Balasan: 312",
+          "responseRate": "11% kadar balasan",
+          "conversions": "🛒 Penukaran: 47",
+          "revenue": "$12,400 pendapatan"
+        }
+      },
+      "features": {
+        "title": "Pematuhan & Penghantaran",
+        "description": "Platform SMS gred perusahaan dengan jangkauan global dan pengurusan pematuhan automatik",
+        "globalReach": {
+          "title": "Jangkauan Global",
+          "description": "Penghantaran SMS ke 200+ negara dengan sokongan nombor tempatan dan pengoptimuman pembawa"
+        },
+        "compliance": {
+          "title": "Alat Pematuhan",
+          "description": "Ciri-ciri pematuhan TCPA dan GDPR dengan pengurusan keluar automatik"
+        },
+        "analytics": {
+          "title": "Analitik Penghantaran",
+          "description": "Penjejakan penghantaran masa nyata, kadar balasan, dan metrik prestasi kempen"
+        },
+        "scheduling": {
+          "title": "Penjadualan Pintar",
+          "description": "Penghantaran peka zon waktu dengan masa optimum berdasarkan tingkah laku penerima"
+        }
+      },
+      "useCases": {
+        "title": "Kes Penggunaan Terbukti",
+        "description": "Lihat bagaimana perniagaan menggunakan SMS untuk memacu penglibatan dan pendapatan",
+        "marketing": {
+          "title": "Kempen Pemasaran",
+          "description": "Mesej promosi dengan kadar buka yang tinggi",
+          "stats": "98% kadar buka"
+        },
+        "appointments": {
+          "title": "Peringatan Janji Temu",
+          "description": "Kurangkan ketidakhadiran dengan peringatan automatik",
+          "stats": "25% kurang ketidakhadiran"
+        },
+        "orders": {
+          "title": "Kemas Kini Pesanan",
+          "description": "Berikan maklumat kepada pelanggan tentang pesanan mereka",
+          "stats": "90% kepuasan"
+        },
+        "support": {
+          "title": "Sokongan Pelanggan",
+          "description": "Perbualan dua hala untuk sokongan pantas",
+          "stats": "Resolusi 5x lebih cepat"
+        }
+      },
+      "builder": {
+        "title": "Pembina Kempen Lanjutan",
+        "description": "Cipta kempen SMS yang canggih dengan automasi seret dan lepas dan penargetan pintar",
+        "segmentation": {
+          "title": "Segmentasi Pintar",
+          "description": "Sasarkan pelanggan berdasarkan tingkah laku, lokasi, dan pilihan"
+        },
+        "timing": {
+          "title": "Masa yang Sempurna",
+          "description": "Pengoptimuman masa penghantaran berkuasa AI untuk penglibatan maksimum"
+        },
+        "analytics": {
+          "title": "Analitik Masa Nyata",
+          "description": "Jejaki penghantaran, buka, klik, dan penukaran dalam masa nyata"
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Melancarkan Kempen SMS Anda?",
+        "description": "Sertai ribuan perniagaan yang menggunakan SMS untuk memacu penglibatan dan pendapatan yang lebih tinggi. Mulakan dengan percubaan percuma kami.",
+        "button": "Daftar"
+      },
+      "backToChannels": "Kembali ke Saluran"
+    },
+    "website": {
+      "title": "Widget Sembang Laman Web",
+      "description": "Ubah pelawat laman web menjadi perbualan dengan sembang berkuasa AI"
+    },
+    "cta": {
+      "exploreAll": "Terokai Semua Saluran",
+      "subtitle": "Lihat bagaimana semua 9 saluran berfungsi bersama dengan lancar"
+    },
+    "phoneCalls": {
+      "seo": {
+        "title": "Sistem Telefon Profesional - Seasalt.ai",
+        "description": "Perkasakan ejen anda dengan dialpad berasaskan awan untuk panggilan masuk dan keluar, dikuasakan oleh Twilio Gold Partnership dan automasi suara AI. Tingkatkan komunikasi perniagaan anda."
+      },
+      "nav": {
+        "backToChannels": "Kembali ke Saluran"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Sistem Telefon Profesional yang",
+          "highlight": "Berkembang dengan Perniagaan Anda"
+        },
+        "description": "Perkasakan ejen anda dengan dialpad berasaskan awan untuk membuat dan menerima panggilan, dikuasakan oleh Twilio Gold Partnership kami dan automasi suara AI.",
+        "primaryCta": "Mula Membuat Panggilan Hari Ini",
+        "secondaryCta": "Lihat Demo",
+        "dialpad": {
+          "title": "Dialpad Ejen",
+          "callButton": "Panggil",
+          "endCallButton": "Tamatkan Panggilan"
+        }
+      },
+      "features": {
+        "title": "Ciri-ciri Utama",
+        "description": "Semua yang diperlukan oleh pasukan anda untuk komunikasi telefon profesional",
+        "humanDialpad": {
+          "title": "Dialpad Ejen Manusia",
+          "description": "Dialpad awan berciri penuh untuk membuat dan menerima panggilan dengan pengurusan kenalan"
+        },
+        "aiVoiceBot": {
+          "title": "Integrasi Bot Suara AI",
+          "description": "Pengendalian panggilan automatik dengan penyerahan semula jadi kepada ejen manusia apabila diperlukan"
+        },
+        "multiAgent": {
+          "title": "Sokongan Berbilang Ejen",
+          "description": "Sistem round robin mengagihkan panggilan kepada ejen yang tersedia secara automatik"
+        },
+        "analytics": {
+          "title": "Analitik Panggilan",
+          "description": "Pelaporan komprehensif mengenai prestasi panggilan, hasil, dan produktiviti ejen"
+        }
+      },
+      "partnership": {
+        "title": "Manfaat Kerjasama Twilio",
+        "description": "Dibina di atas platform komunikasi paling dipercayai di dunia",
+        "goldPartner": {
+          "title": "Status Rakan Kongsi Emas",
+          "benefit1": "Status Rakan Kongsi Emas dengan akses terus Twilio Flex",
+          "benefit2": "Kebolehpercayaan Gred Perusahaan pada infrastruktur yang terbukti",
+          "benefit3": "Jangkauan Global - buat panggilan di 200+ negara",
+          "benefit4": "Penggunaan Pantas - ejen membuat panggilan dalam masa kurang 10 hari"
+        },
+        "global": {
+          "title": "Keupayaan Global",
+          "countries": {
+            "title": "200+ Negara",
+            "description": "Buat dan terima panggilan di seluruh dunia"
+          },
+          "uptime": {
+            "title": "99.95% Waktu Beroperasi",
+            "description": "Kebolehpercayaan gred perusahaan"
+          },
+          "setup": {
+            "title": "Persediaan 10 Hari",
+            "description": "Penggunaan pantas untuk pasukan anda"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Kes Penggunaan",
+        "description": "Lihat bagaimana pasukan yang berbeza menggunakan sistem telefon kami untuk memacu hasil",
+        "sales": {
+          "title": "Pasukan Jualan",
+          "description": "Prospek keluar dengan kecekapan auto dialer"
+        },
+        "support": {
+          "title": "Sokongan Pelanggan",
+          "description": "Pengendalian panggilan masuk dengan saringan AI"
+        },
+        "appointments": {
+          "title": "Penetapan Janji Temu",
+          "description": "Panggilan automatik dengan pengesahan manusia"
+        },
+        "followup": {
+          "title": "Kempen Susulan",
+          "description": "Panggilan besar-besaran dengan perbualan ejen yang diperibadikan"
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Meningkatkan Sistem Telefon Anda?",
+        "description": "Sediakan pasukan anda untuk membuat panggilan dalam masa kurang 10 hari dengan kebolehpercayaan gred perusahaan dan automasi berkuasa AI.",
+        "button": "Mula Persediaan"
+      }
+    },
+    "websiteChat": {
+      "navigation": {
+        "backToChannels": "Kembali ke Saluran"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Ubah Pelawat Laman Web menjadi",
+          "highlight": "Perbualan"
+        },
+        "description": "Tambah widget sembang AI yang berkuasa ke laman web anda dalam masa kurang 5 minit. Tangkap petunjuk, berikan sokongan segera, dan jangan terlepas peluang.",
+        "cta": {
+          "primary": "Dapatkan Widget Percuma Anda",
+          "secondary": "Jadualkan Demo"
+        },
+        "widget": {
+          "title": "Widget Sembang Laman Web",
+          "welcome": {
+            "greeting": "👋 Selamat Datang!",
+            "question": "Bagaimana kami boleh membantu anda hari ini?"
+          },
+          "visitor": {
+            "message": "Pelawat: \"Adakah anda menawarkan penghantaran percuma?\""
+          },
+          "ai": {
+            "response": "AI: \"Ya! Penghantaran percuma untuk pesanan melebihi $50. Adakah anda ingin melihat promosi semasa kami?\""
+          },
+          "button": {
+            "yes": "Ya, tunjukkan saya",
+            "no": "Tidak, terima kasih"
+          }
+        }
+      },
+      "features": {
+        "title": "Ciri-ciri Utama",
+        "subtitle": "Semua yang anda perlukan untuk melibatkan pelawat laman web dan menukar mereka menjadi pelanggan",
+        "noCodeSetup": {
+          "title": "Persediaan Tanpa Kod",
+          "description": "Tambah ke mana-mana laman web dalam masa kurang 5 minit tanpa pengetahuan teknikal diperlukan"
+        },
+        "customBranding": {
+          "title": "Penjenamaan Tersuai",
+          "description": "Padankan jenama anda dengan warna, fon, dan gaya pemesejan tersuai"
+        },
+        "leadCapture": {
+          "title": "Penangkapan Petunjuk",
+          "description": "Kumpul maklumat pelawat secara automatik dan layakkan petunjuk dalam masa nyata"
+        },
+        "instantResponses": {
+          "title": "Balasan Segera",
+          "description": "Balasan berkuasa AI memberikan bantuan segera kepada pelawat laman web 24/7"
+        }
+      },
+      "platforms": {
+        "title": "Berfungsi dengan Setiap Platform",
+        "subtitle": "Integrasi mudah dengan semua pembina laman web dan platform utama"
+      },
+      "customization": {
+        "title": "Pameran Penyesuaian",
+        "subtitle": "Jadikan widget benar-benar milik anda dengan pilihan penyesuaian yang luas",
+        "positionSize": {
+          "title": "Kedudukan & Saiz",
+          "description": "Pilih penempatan sudut, saiz, dan tetapan keterlihatan"
+        },
+        "colorsFonts": {
+          "title": "Warna & Fon",
+          "description": "Padankan warna jenama dan tipografi anda dengan sempurna"
+        },
+        "welcomeMessages": {
+          "title": "Mesej Selamat Datang",
+          "description": "Sesuaikan mesej ucapan dan permulaan perbualan"
+        },
+        "triggerRules": {
+          "title": "Peraturan Pencetus",
+          "description": "Tetapkan bila dan di mana widget muncul kepada pelawat"
+        },
+        "realTimePreview": {
+          "title": "Pratonton Masa Nyata",
+          "description": "Lihat perubahan anda serta-merta dengan ciri pratonton langsung kami. Sesuaikan warna, kedudukan, dan mesej sambil melihat dengan tepat bagaimana ia akan kelihatan di laman web anda."
+        }
+      },
+      "analytics": {
+        "title": "Analitik Berkuasa",
+        "subtitle": "Jejaki penglibatan pelawat, kadar penukaran, dan prestasi sembang dengan analitik terperinci",
+        "conversations": "Perbualan",
+        "conversionRate": "Kadar Penukaran",
+        "responseTime": "Masa Balasan",
+        "satisfaction": "Kepuasan"
+      },
+      "cta": {
+        "title": "Bersedia untuk Menambah Sembang ke Laman Web Anda?",
+        "description": "Dapatkan widget sembang tersuai anda dalam beberapa minit. Tiada kod diperlukan, penyesuaian penuh tersedia.",
+        "button": "Dapatkan Kod Widget"
+      }
+    },
+    "instagram": {
+      "navigation": {
+        "backToChannels": "Kembali ke Saluran"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Tingkatkan",
+          "highlight": "Perkhidmatan Pelanggan Instagram Anda"
+        },
+        "subtitle": "Kendalikan ribuan DM Instagram dengan automasi AI sambil mengekalkan sentuhan peribadi. Sesuai untuk jenama, pengaruh, dan perniagaan yang membina komuniti.",
+        "cta": {
+          "primary": "Automasi DM Instagram",
+          "secondary": "Lihat Demo"
+        },
+        "demo": {
+          "title": "DM Instagram",
+          "user1": {
+            "handle": "@sarah_style",
+            "message": "Suka gaun ini! Saiz apa yang anda ada?"
+          },
+          "ai1": {
+            "response": "AI: \"Hai Sarah! 😍 Gaun itu tersedia dalam XS-XL. Adakah anda ingin saya menyemak stok dalam saiz anda?\""
+          },
+          "user2": {
+            "handle": "@mike_fitness",
+            "message": "Bolehkah anda membantu saya dengan pesanan saya?"
+          },
+          "ai2": {
+            "response": "AI: \"Tentu! Benarkan saya menghubungkan anda dengan pasukan sokongan kami..."
+          }
+        }
+      },
+      "visualFirst": {
+        "title": "Pendekatan Visual-Pertama",
+        "subtitle": "Instagram adalah mengenai visual. AI kami memahami imej dan memberikan balasan kontekstual"
+      },
+      "features": {
+        "imageRecognition": {
+          "title": "Pengecaman Imej",
+          "description": "Pemahaman AI mengenai imej produk dalam DM untuk balasan dan cadangan pintar"
+        },
+        "storyIntegration": {
+          "title": "Integrasi Cerita",
+          "description": "Balasan automatik kepada interaksi cerita, tinjauan, dan soalan daripada penonton anda"
+        },
+        "influencerSupport": {
+          "title": "Sokongan Pengaruh",
+          "description": "Alat untuk menguruskan perbualan DM volum tinggi dan kerjasama jenama"
+        },
+        "smartAutomation": {
+          "title": "Automasi Pintar",
+          "description": "Balasan berkuasa AI yang mengekalkan suara dan personaliti jenama anda"
+        }
+      },
+      "useCases": {
+        "title": "Sesuai untuk Setiap Perniagaan Instagram",
+        "subtitle": "Dari perniagaan kecil hingga pengaruh utama, lihat bagaimana automasi Instagram memacu hasil",
+        "ecommerce": {
+          "title": "Jenama E-dagang",
+          "description": "Pertanyaan produk dan sokongan pesanan",
+          "metric": "Balasan 40% lebih cepat"
+        },
+        "influencers": {
+          "title": "Pengaruh",
+          "description": "Penglibatan peminat dan permintaan kerjasama",
+          "metric": "10x lebih banyak perbualan"
+        },
+        "localBusiness": {
+          "title": "Perniagaan Tempatan",
+          "description": "Tempahan janji temu dan perkhidmatan pelanggan",
+          "metric": "60% lebih banyak tempahan"
+        },
+        "contentCreators": {
+          "title": "Pencipta Kandungan",
+          "description": "Pengurusan komuniti dan maklum balas",
+          "metric": "95% kadar kepuasan"
+        }
+      },
+      "businessIntegration": {
+        "title": "Integrasi Perniagaan Instagram",
+        "subtitle": "Integrasi penuh dengan akaun Perniagaan Instagram untuk perkhidmatan pelanggan profesional",
+        "analyticsIntegration": {
+          "title": "Integrasi Analitik",
+          "description": "Sambungkan dengan Instagram Insights untuk penjejakan prestasi lengkap"
+        },
+        "audienceInsights": {
+          "title": "Wawasan Penonton",
+          "description": "Fahami penonton anda dengan lebih baik dengan data demografi bersepadu"
+        },
+        "engagementTracking": {
+          "title": "Penjejakan Penglibatan",
+          "description": "Pantau interaksi cerita, penglibatan siaran, dan prestasi DM"
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Meningkatkan Kehadiran Instagram Anda?",
+        "subtitle": "Sertai ribuan jenama dan pengaruh yang menggunakan AI untuk menyediakan perkhidmatan pelanggan yang lebih baik dan membina komuniti yang lebih kuat di Instagram.",
+        "primary": "Mula Automasi",
+        "secondary": "Lihat Demo"
+      }
+    },
+    "facebookMessenger": {
+      "navigation": {
+        "backToChannels": "Kembali ke Saluran"
+      },
+      "hero": {
+        "title": "Ubah Facebook Messenger menjadi",
+        "titleHighlight": "Mesin Jualan",
+        "subtitle": "Libatkan penonton Facebook anda dengan perbualan berkuasa AI yang menukar pengikut menjadi pelanggan. Berintegrasi dengan Kedai Facebook untuk perdagangan sosial yang lancar.",
+        "cta": {
+          "primary": "Sambungkan Messenger Sekarang",
+          "secondary": "Lihat Demo"
+        },
+        "demo": {
+          "title": "Facebook Messenger",
+          "customerQuery": "Pelanggan: \"Adakah anda mempunyai ini dalam saiz M?\"",
+          "aiResponse1": "AI: \"Ya! Saiz M tersedia. Berikut adalah pautan produk dengan harga semasa 👇",
+          "productName": "Gaun Musim Panas - Saiz M",
+          "productPrice": "$49.99 • Penghantaran percuma",
+          "customerQuery2": "Pelanggan: \"Sempurna! Bolehkah saya mendapat diskaun 20%?\"",
+          "aiResponse2": "AI: \"Saya boleh menawarkan anda diskaun 15% dengan kod MESSENGER15! Adakah anda ingin menyelesaikan pesanan anda?\""
+        }
+      },
+      "features": {
+        "title": "Ciri-ciri Perdagangan Sosial",
+        "subtitle": "Jadikan kehadiran Facebook anda saluran jualan yang berkuasa dengan ciri-ciri perdagangan bersepadu",
+        "shopIntegration": {
+          "title": "Integrasi Kedai Facebook",
+          "description": "Cadangan produk langsung dalam sembang dengan pengalaman membeli-belah yang lancar"
+        },
+        "leadGeneration": {
+          "title": "Penjanaan Petunjuk",
+          "description": "Penangkapan petunjuk automatik dari perbualan Messenger dengan penyegerakan CRM"
+        },
+        "socialProof": {
+          "title": "Bukti Sosial",
+          "description": "Integrasi testimoni dan ulasan pelanggan untuk membina kepercayaan"
+        },
+        "instantResponses": {
+          "title": "Balasan Segera",
+          "description": "Balasan berkuasa AI yang melibatkan penonton Facebook anda 24/7"
+        }
+      },
+      "socialCommerce": {
+        "title": "Penyelesaian Perdagangan Sosial Lengkap",
+        "subtitle": "Semua yang anda perlukan untuk menjual terus melalui Facebook Messenger",
+        "productCatalog": {
+          "title": "Penyegerakan Katalog Produk",
+          "description": "Segerakkan produk Kedai Facebook anda secara automatik untuk cadangan segera"
+        },
+        "cartRecovery": {
+          "title": "Pemulihan Keranjang",
+          "description": "Libatkan semula pelanggan yang meninggalkan barang di keranjang mereka dengan mesej yang diperibadikan"
+        },
+        "orderTracking": {
+          "title": "Penjejakan Pesanan",
+          "description": "Berikan kemas kini pesanan masa nyata dan maklumat penghantaran melalui Messenger"
+        },
+        "customerReviews": {
+          "title": "Ulasan Pelanggan",
+          "description": "Kumpul dan pamerkan ulasan pelanggan untuk membina kepercayaan dan bukti sosial"
+        }
+      },
+      "businessEcosystem": {
+        "title": "Integrasi Ekosistem Perniagaan Facebook",
+        "subtitle": "Sambungkan dengan lancar dengan keseluruhan kehadiran perniagaan Facebook anda",
+        "shop": {
+          "title": "Kedai Facebook",
+          "description": "Integrasi langsung dengan Kedai Facebook anda untuk cadangan produk segera"
+        },
+        "ads": {
+          "title": "Iklan Facebook",
+          "description": "Sambungkan kempen iklan dengan Messenger untuk perjalanan pelanggan yang lancar"
+        },
+        "pages": {
+          "title": "Halaman Facebook",
+          "description": "Pengurusan bersepadu mesej halaman dan interaksi pelanggan"
+        }
+      },
+      "results": {
+        "title": "Hasil Terbukti",
+        "subtitle": "Lihat bagaimana perniagaan memacu hasil sebenar dengan automasi Facebook Messenger",
+        "engagement": {
+          "value": "85%",
+          "description": "Penglibatan lebih tinggi daripada e-mel"
+        },
+        "conversion": {
+          "value": "3x",
+          "description": "Kadar penukaran yang lebih baik"
+        },
+        "costReduction": {
+          "value": "60%",
+          "description": "Pengurangan kos sokongan"
+        },
+        "availability": {
+          "value": "24/7",
+          "description": "Perkhidmatan pelanggan automatik"
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Mengubah Kehadiran Facebook Anda?",
+        "subtitle": "Sambungkan Facebook Messenger ke Seasalt.ai dan mula menukar pengikut media sosial anda menjadi pelanggan berbayar.",
+        "primary": "Sambungkan Messenger",
+        "secondary": "Jadualkan Demo"
+      }
+    },
+    "contactForms": {
+      "seo": {
+        "title": "Integrasi Borang Hubungan - Seasalt.ai",
+        "description": "Ubah borang hubungan anda menjadi perbualan dengan AI. Berintegrasi dengan lancar dengan MailerLite, HubSpot, Mailchimp dan banyak lagi untuk penglibatan petunjuk segera."
+      },
+      "nav": {
+        "backToChannels": "Kembali ke Saluran"
+      },
+      "hero": {
+        "title": {
+          "part1": "Ubah Borang Hubungan menjadi",
+          "part2": "Perbualan"
+        },
+        "subtitle": "Tangkap petunjuk secara automatik dari borang pemasaran e-mel anda dan libatkan mereka serta-merta dengan perbualan berkuasa AI. Berfungsi dengan MailerLite, HubSpot, Mailchimp, dan banyak lagi.",
+        "ctaPrimary": "Sambungkan Borang Anda",
+        "ctaSecondary": "Lihat Demo",
+        "demo": {
+          "title": "Integrasi Borang",
+          "submission": "📝 Penyerahan Borang Baru",
+          "submitter": "Sarah Johnson • sarah@email.com",
+          "aiGreeting": "AI: \"Hai Sarah! Terima kasih atas minat anda. Saya boleh membantu anda bermula serta-merta. Apakah matlamat utama anda?\"",
+          "userResponse": "Sarah: \"Saya ingin meningkatkan pemasaran e-mel saya\"",
+          "aiSchedule": "AI: \"Sempurna! Saya boleh menjadualkan panggilan strategi 15 minit dengan pakar kami. Adakah anda bebas esok jam 2 petang?\"",
+          "meetingConfirmed": "✅ Mesyuarat dijadualkan secara automatik"
+        }
+      },
+      "platforms": {
+        "title": "Platform yang Disokong",
+        "subtitle": "Integrasi lancar dengan semua platform pemasaran e-mel dan pembina borang utama",
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "Penyegerakan petunjuk lancar dari borang hubungan MailerLite"
+        },
+        "mailchimp": {
+          "name": "Mailchimp",
+          "description": "Integrasi langsung dengan borang pendaftaran Mailchimp"
+        },
+        "constantContact": {
+          "name": "Constant Contact",
+          "description": "Penangkapan petunjuk dari borang Constant Contact"
+        },
+        "hubspot": {
+          "name": "HubSpot",
+          "description": "Integrasi borang lanjutan dengan pemasaran HubSpot"
+        },
+        "customForms": {
+          "name": "Borang Tersuai",
+          "description": "Sokongan untuk mana-mana borang hubungan laman web melalui API"
+        },
+        "wordpress": {
+          "name": "WordPress",
+          "description": "Integrasi asli dengan borang hubungan WordPress"
+        }
+      },
+      "features": {
+        "title": "Ciri-ciri Pengurusan Petunjuk",
+        "subtitle": "Ubah penyerahan borang menjadi petunjuk yang layak dengan automasi pintar",
+        "instantEngagement": {
+          "title": "Penglibatan Segera",
+          "description": "Ejen AI membalas penyerahan borang serta-merta, semasa petunjuk masih panas"
+        },
+        "leadQualification": {
+          "title": "Kelayakan Petunjuk",
+          "description": "Soalan susulan automatik untuk melayakkan prospek sebelum penyerahan manusia"
+        },
+        "multiChannel": {
+          "title": "Susulan Berbilang Saluran",
+          "description": "Teruskan perbualan melalui WhatsApp, SMS, atau telefon dengan lancar"
+        },
+        "conversionTracking": {
+          "title": "Penjejakan Penukaran",
+          "description": "Pantau kadar penukaran borang ke pelanggan dan optimumkan prestasi"
+        }
+      },
+      "useCases": {
+        "title": "Kes Penggunaan",
+        "subtitle": "Lihat bagaimana pelbagai jenis borang boleh dipertingkatkan dengan perbualan AI",
+        "newsletter": {
+          "title": "Pendaftaran Buletin",
+          "description": "Libatkan pelanggan baru dengan perbualan selamat datang",
+          "example": "Terima kasih kerana melanggan! Topik apa yang paling menarik minat anda?"
+        },
+        "demoRequests": {
+          "title": "Permintaan Demo",
+          "description": "Layakkan dan jadualkan demonstrasi produk serta-merta",
+          "example": "Saya boleh menjadualkan demo anda sekarang. Masa apa yang paling sesuai untuk anda?"
+        },
+        "contactInquiries": {
+          "title": "Pertanyaan Hubungan",
+          "description": "Berikan balasan segera kepada pertanyaan umum",
+          "example": "Saya di sini untuk membantu! Maklumat khusus apa yang anda perlukan?"
+        },
+        "leadMagnets": {
+          "title": "Magnet Petunjuk",
+          "description": "Susulan muat turun kandungan dengan jangkauan yang diperibadikan",
+          "example": "Adakah panduan itu membantu? Saya boleh menjawab sebarang soalan!"
+        }
+      },
+      "benefits": {
+        "title": "Manfaat Integrasi",
+        "subtitle": "Lihat kesan serta-merta menyambungkan borang anda ke AI perbualan",
+        "responseRates": "Kadar balasan yang lebih tinggi",
+        "qualification": "Kelayakan petunjuk yang lebih cepat",
+        "meetings": "Mesyuarat yang lebih layak",
+        "engagement": "Penglibatan petunjuk"
+      },
+      "cta": {
+        "title": "Bersedia untuk Meningkatkan Borang Anda?",
+        "subtitle": "Sambungkan borang hubungan anda ke Seasalt.ai dan mula menukar lebih banyak petunjuk dengan perbualan berkuasa AI segera.",
+        "action": "Sambungkan Borang Sekarang"
+      }
+    },
+    "line": {
+      "seo": {
+        "title": "Integrasi LINE - Penyelesaian Seasalt.ai",
+        "description": "Lihat bagaimana Seasalt.ai membantu perniagaan meningkatkan komunikasi pelanggan dan memacu pertumbuhan melalui integrasi LINE untuk pasaran Asia."
+      },
+      "navigation": {
+        "backToChannels": "Kembali ke Saluran"
+      },
+      "hero": {
+        "title": "Dominasi Pasaran Asia dengan Integrasi LINE",
+        "subtitle": "Berhubung dengan lebih 200 juta pengguna LINE di seluruh Asia dengan perbualan berkuasa AI dan pemesejan perniagaan. Sesuai untuk perniagaan yang menyasarkan pasaran Jepun, Taiwan, Thailand, dan Korea.",
+        "cta": {
+          "startIntegration": "Mula Integrasi LINE",
+          "seeDemo": "Lihat Demo"
+        },
+        "demo": {
+          "title": "Perniagaan LINE",
+          "customer": "商品について質問があります",
+          "customerTranslation": "(Saya ada soalan tentang produk)",
+          "ai1": "こんにちは！喜んでお手伝いします。どの商品についてですか？",
+          "ai1Translation": "(Helo! Saya gembira dapat membantu. Produk yang mana?)",
+          "stickerMessage": "Pelekat: Terima kasih!",
+          "ai2": "どういたしまして！他にご質問はありますか？",
+          "ai2Translation": "(Sama-sama! Ada soalan lain?)"
+        }
+      },
+      "marketFocus": {
+        "title": "Fokus Pasaran",
+        "subtitle": "Dominasi LINE di pasaran Asia utama menjadikannya penting untuk perniagaan yang menyasarkan wilayah ini",
+        "activeUsers": "Pengguna Aktif",
+        "marketPenetration": "Penembusan Pasaran"
+      },
+      "markets": {
+        "JP": {
+          "country": "Jepun",
+          "users": "95M",
+          "penetration": "75%"
+        },
+        "TW": {
+          "country": "Taiwan",
+          "users": "21M",
+          "penetration": "90%"
+        },
+        "TH": {
+          "country": "Thailand",
+          "users": "53M",
+          "penetration": "76%"
+        },
+        "KR": {
+          "country": "Korea Selatan",
+          "users": "35M",
+          "penetration": "68%"
+        }
+      },
+      "features": {
+        "title": "Ciri-ciri Perniagaan LINE",
+        "subtitle": "Manfaatkan ciri-ciri unik LINE untuk komunikasi perniagaan dan penglibatan pelanggan",
+        "regionalDominance": {
+          "title": "Dominasi Serantau",
+          "description": "Akses kepada lebih 200 juta pengguna LINE merentasi pasaran Asia utama"
+        },
+        "officialAccount": {
+          "title": "Akaun Rasmi LINE",
+          "description": "Integrasi penuh dengan Akaun Rasmi LINE untuk pemesejan perniagaan"
+        },
+        "richMessaging": {
+          "title": "Pemesejan Kaya",
+          "description": "Sokongan untuk pelekat, menu kaya, dan format mesej interaktif"
+        },
+        "culturalAdaptation": {
+          "title": "Penyesuaian Budaya",
+          "description": "Ciri-ciri pemesejan setempat yang dioptimumkan untuk pasaran Asia yang berbeza"
+        }
+      },
+      "businessMessaging": {
+        "title": "Pemesejan Perniagaan Lanjutan",
+        "subtitle": "Manfaatkan ciri-ciri pemesejan kaya LINE untuk pengalaman pelanggan yang dipertingkatkan"
+      },
+      "businessFeatures": {
+        "payIntegration": {
+          "title": "Integrasi LINE Pay",
+          "description": "Terima pembayaran terus melalui LINE untuk transaksi yang lancar"
+        },
+        "richMenu": {
+          "title": "Reka Bentuk Menu Kaya",
+          "description": "Cipta menu interaktif untuk navigasi pelanggan yang mudah"
+        },
+        "broadcast": {
+          "title": "Pemesejan Siaran",
+          "description": "Hantar mesej yang disasarkan kepada pengikut LINE anda"
+        },
+        "chatbot": {
+          "title": "Pembina Chatbot",
+          "description": "Pembina chatbot visual yang dioptimumkan untuk interaksi LINE"
+        }
+      },
+      "culturalAdaptationSection": {
+        "title": "Penyesuaian Budaya",
+        "subtitle": "AI kami memahami nuansa budaya dan gaya komunikasi merentasi pasaran Asia yang berbeza"
+      },
+      "culturalFeatures": {
+        "localized": {
+          "title": "Balasan Setempat",
+          "description": "Balasan AI disesuaikan untuk gaya komunikasi tempatan dan pilihan budaya"
+        },
+        "multiLanguage": {
+          "title": "Sokongan Berbilang Bahasa",
+          "description": "Sokongan asli untuk bahasa Jepun, Cina, Thai, Korea, dan Inggeris"
+        },
+        "sticker": {
+          "title": "Integrasi Pelekat",
+          "description": "Penggunaan pintar pelekat dan emoji LINE untuk perbualan semula jadi"
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Memasuki Pasaran Asia?",
+        "subtitle": "Berhubung dengan jutaan pengguna LINE yang berpotensi di seluruh Asia melalui platform pemesejan dominan LINE.",
+        "startIntegration": "Mula Integrasi LINE"
+      }
+    },
+    "websiteWidget": {
+      "navigation": {
+        "backToChannels": "Kembali ke Saluran"
+      },
+      "seo": {
+        "title": "Widget Laman Web - Penyelesaian Omnisaluran",
+        "description": "Gunakan widget omnisaluran kami di WordPress, Shopify, Squarespace, Wix, MailerLite, dan mana-mana laman web. Berikan pilihan kepada pelanggan dengan sembang, suara, dan pemesejan bersepadu."
+      },
+      "hero": {
+        "title": "Satu Widget,",
+        "titleHighlight": "Setiap Platform",
+        "subtitle": "Gunakan widget omnisaluran kami di WordPress, Shopify, Squarespace, Wix, MailerLite, dan mana-mana laman web. Berikan pilihan kepada pelanggan dengan sembang, suara, dan pemesejan bersepadu.",
+        "cta": {
+          "deploy": "Gunakan Widget Sekarang",
+          "demo": "Jadualkan Demo"
+        },
+        "widget": {
+          "title": "Widget Universal",
+          "chat": {
+            "label": "💬 Sembang",
+            "description": "Sokongan pemesejan segera"
+          },
+          "voice": {
+            "label": "📞 Suara",
+            "description": "Panggilan suara satu klik"
+          },
+          "whatsapp": {
+            "label": "📱 WhatsApp",
+            "description": "Sambungan WhatsApp langsung"
+          },
+          "email": {
+            "label": "📧 E-mel",
+            "description": "Integrasi borang hubungan"
+          }
+        }
+      },
+      "platforms": {
+        "title": "Berfungsi dengan Setiap Platform",
+        "subtitle": "Tidak kira platform apa yang anda gunakan, widget kami berintegrasi dengan lancar dengan laman web anda yang sedia ada",
+        "wordpress": {
+          "name": "WordPress",
+          "description": "Pemasangan plugin mudah untuk laman WordPress"
+        },
+        "shopify": {
+          "name": "Shopify",
+          "description": "Integrasi asli dengan kedai Shopify"
+        },
+        "squarespace": {
+          "name": "Squarespace",
+          "description": "Kod benam mudah untuk laman Squarespace"
+        },
+        "wix": {
+          "name": "Wix",
+          "description": "Widget seret dan lepas untuk laman Wix"
+        },
+        "mailerlite": {
+          "name": "MailerLite",
+          "description": "Integrasi langsung dengan halaman pendaratan MailerLite"
+        },
+        "custom": {
+          "name": "HTML Tersuai",
+          "description": "Kod benam universal untuk mana-mana laman web"
+        }
+      },
+      "features": {
+        "title": "Ciri-ciri Lanjutan",
+        "subtitle": "Lebih daripada sekadar widget sembang - platform penglibatan pelanggan yang lengkap",
+        "design": {
+          "title": "Reka Bentuk Boleh Disesuaikan",
+          "description": "Padankan jenama anda dengan warna, fon, dan pilihan kedudukan tersuai"
+        },
+        "mobile": {
+          "title": "Responsif Mudah Alih",
+          "description": "Pengalaman sempurna merentasi semua peranti dan saiz skrin"
+        },
+        "nocode": {
+          "title": "Persediaan Tanpa Kod",
+          "description": "Tambah ke mana-mana laman web dalam masa kurang 5 minit tanpa pengetahuan teknikal"
+        },
+        "analytics": {
+          "title": "Analitik Lanjutan",
+          "description": "Jejaki penglibatan pelawat, kadar penukaran, dan prestasi sembang"
+        }
+      },
+      "styles": {
+        "title": "Pilih Gaya Anda",
+        "subtitle": "Pelbagai gaya widget untuk memadankan reka bentuk laman web anda dan matlamat pengalaman pengguna",
+        "chatBubble": {
+          "name": "Gelembung Sembang",
+          "description": "Gelembung sembang terapung klasik di sudut bawah"
+        },
+        "slidePanel": {
+          "name": "Panel Slaid Masuk",
+          "description": "Panel slaid masuk yang elegan dari sisi"
+        },
+        "embeddedForm": {
+          "name": "Borang Terbenam",
+          "description": "Borang hubungan sebaris dalam kandungan halaman"
+        },
+        "fullModal": {
+          "name": "Modal Skrin Penuh",
+          "description": "Tindanan skrin penuh yang menarik perhatian"
+        }
+      },
+      "benefits": {
+        "title": "Mengapa Memilih Widget Kami?",
+        "switching": {
+          "title": "Penukaran Saluran",
+          "description": "Peralihan lancar antara sembang, suara, dan pemesejan tanpa kehilangan konteks"
+        },
+        "queue": {
+          "title": "Pengurusan Barisan",
+          "description": "Penghalaan pintar berdasarkan ketersediaan ejen dan keutamaan pelanggan"
+        },
+        "global": {
+          "title": "Sokongan Global",
+          "description": "Sokongan berbilang bahasa dan penghalaan peka zon waktu untuk pelanggan antarabangsa"
+        }
+      },
+      "cta": {
+        "title": "Bersedia untuk Menggunakan Widget Anda?",
+        "subtitle": "Tambah komunikasi omnisaluran yang berkuasa ke laman web anda dalam masa kurang 5 minit. Tiada kod diperlukan.",
+        "getWidget": "Dapatkan Kod Widget"
+      }
+    }
+  },
+  "comparison": {
+    "title": "Mengapa Perniagaan yang Berkembang Memilih Seasalt.ai Berbanding Alternatif Lain",
+    "description": "Lihat bagaimana kami membandingkan dengan penyelesaian lain. Kami adalah satu-satunya platform yang menyampaikan ciri-ciri gred perusahaan dengan kesederhanaan yang diperlukan oleh perniagaan kecil.",
+    "recommended": "Disyorkan",
+    "table": {
+      "headers": {
+        "platform": "Platform",
+        "startingPrice": "Harga Permulaan",
+        "pricingModel": "Model Harga",
+        "unifiedVoiceDigital": "Suara dan Digital Bersepadu",
+        "aiCapabilities": "Keupayaan AI",
+        "bestFor": "Terbaik Untuk"
+      }
+    },
+    "competitors": {
+      "seasalt": {
+        "startingPrice": "$20/ejen/bulan",
+        "pricingModel": "Harga per pengguna mudah",
+        "unifiedVoiceDigital": "✅ Ya, sokongan asli",
+        "aiCapabilities": "✅ Ya, suara dan chatbot asli",
+        "bestFor": "PKS yang memerlukan platform semua-dalam-satu yang berpatutan."
+      },
+      "aircall": {
+        "startingPrice": "$30/pengguna/bulan",
+        "pricingModel": "Per pengguna + tambahan",
+        "unifiedVoiceDigital": "⚠️ Suara + WhatsApp (tambahan)",
+        "aiCapabilities": "⚠️ AI adalah tambahan berbayar",
+        "bestFor": "Pasukan jualan yang mampu membeli pelbagai tambahan dan memenuhi minimum 3 pengguna."
+      },
+      "ringcentral": {
+        "startingPrice": "$65/ejen/bulan",
+        "pricingModel": "Peringkat kompleks",
+        "unifiedVoiceDigital": "❌ Produk berasingan",
+        "aiCapabilities": "✅ Ya (CCaaS berkuasa AI)",
+        "bestFor": "Syarikat besar yang memerlukan platform UCaaS yang luas dengan CCaaS berasingan."
+      },
+      "genesys": {
+        "startingPrice": "$75/pengguna/bulan",
+        "pricingModel": "Per pengguna + minimum tinggi",
+        "unifiedVoiceDigital": "✅ Ya (dalam pelan premium)",
+        "aiCapabilities": "✅ Ya (sistem token kompleks)",
+        "bestFor": "Perusahaan dengan pasukan pusat hubungan dan bajet khusus."
+      },
+      "five9": {
+        "startingPrice": "$119/pengguna/bulan",
+        "pricingModel": "Per pengguna + pakej",
+        "unifiedVoiceDigital": "✅ Ya (dalam pelan premium)",
+        "aiCapabilities": "✅ Ya (AI lanjutan)",
+        "bestFor": "Pusat hubungan berfokus keluar yang besar yang memerlukan alat peringkat perusahaan."
+      },
+      "googleVoice": {
+        "startingPrice": "$10/pengguna/bulan",
+        "pricingModel": "Per pengguna + yuran Ruang Kerja",
+        "unifiedVoiceDigital": "❌ Tidak",
+        "aiCapabilities": "❌ Tidak (transkripsi mel suara sahaja)",
+        "bestFor": "Usahawan solo yang memerlukan nombor telefon asas yang berasingan (AS sahaja)."
+      }
+    },
+    "cta": {
+      "seeAllComparisons": "Lihat semua perbandingan terperinci"
+    }
+  },
+  "industriesData": {
+    "ecommerce": {
+      "title": "E-dagang",
+      "headline": "Pulihkan Keranjang Terbengkalai & Jawab Soalan Pesanan 24/7",
+      "benefits": [
+        "Kemas kini status pesanan automatik melalui WhatsApp & SMS",
+        "AI mengendalikan pertanyaan \"Di mana pakej saya?\" serta-merta",
+        "Pulihkan 15%+ keranjang terbengkalai dengan susulan pintar",
+        "Integrasi Shopify & Squarespace termasuk"
+      ]
+    },
+    "healthcare": {
+      "title": "Penjagaan Kesihatan",
+      "headline": "Tempah Janji Temu Pesakit & Hantar Peringatan Secara Automatik",
+      "benefits": [
+        "Pemesejan mematuhi HIPAA merentasi semua saluran",
+        "Pengesahan & peringatan janji temu automatik",
+        "AI menyaring pertanyaan pesakit sebelum penghalaan",
+        "Kurangkan ketidakhadiran sebanyak 25% dengan pemberitahuan pintar"
+      ]
+    },
+    "realEstate": {
+      "title": "Hartanah",
+      "headline": "Jangan Terlepas Petunjuk & Jadualkan Pameran melalui Teks, Sembang, atau Telefon",
+      "benefits": [
+        "Balasan segera kepada pertanyaan hartanah 24/7",
+        "Janji temu pameran automatik melalui AI",
+        "Kelayakan petunjuk sebelum penyerahan manusia",
+        "Lawatan maya WhatsApp dan foto hartanah"
+      ]
+    },
+    "restaurants": {
+      "title": "Restoran & Hospitaliti",
+      "headline": "Ambil Tempahan & Kendalikan Pesanan Merentasi Semua Saluran",
+      "benefits": [
+        "Tempahan automatik melalui telefon & sembang",
+        "Soalan menu dijawab serta-merta oleh AI",
+        "Pengesahan pesanan dihantar melalui SMS & WhatsApp",
+        "Kendalikan pertanyaan penghantaran tanpa gangguan kakitangan"
+      ]
+    },
+    "education": {
+      "title": "Pendidikan & Latihan",
+      "headline": "Menyelaraskan Komunikasi Pelajar & Pertanyaan Kursus",
+      "benefits": [
+        "Pendaftaran dan penjadualan kursus automatik",
+        "AI mengendalikan soalan pelajar lazim 24/7",
+        "Komunikasi ibu bapa-guru melalui WhatsApp",
+        "Pemberitahuan acara dan peringatan melalui SMS"
+      ]
+    },
+    "automotive": {
+      "title": "Automotif & Perkhidmatan",
+      "headline": "Tempah Janji Temu Perkhidmatan & Kendalikan Pertanyaan Pelanggan",
+      "benefits": [
+        "Tempahan janji temu perkhidmatan automatik",
+        "Peringatan penyelenggaraan kenderaan melalui SMS",
+        "AI mengendalikan soalan ketersediaan alat ganti",
+        "Pemberitahuan penyelesaian perkhidmatan dengan foto"
+      ]
+    },
+    "professional": {
+      "title": "Perkhidmatan Profesional",
+      "headline": "Urus Komunikasi Klien & Tempahan Konsultasi",
+      "benefits": [
+        "Penjadualan konsultasi automatik",
+        "Borang pengambilan klien melalui sembang",
+        "Perkongsian dokumen melalui saluran selamat",
+        "Peringatan susulan untuk janji temu"
+      ]
+    },
+    "financial": {
+      "title": "Perkhidmatan Kewangan",
+      "headline": "Komunikasi Klien Selamat & Pengurusan Janji Temu",
+      "benefits": [
+        "Pemesejan dan rakaman mematuhi FINRA",
+        "Pengesahan janji temu automatik",
+        "Pengumpulan dokumen selamat melalui sembang",
+        "Automasi aliran kerja pengambilan klien"
+      ]
+    },
+    "educationTraining": {
+      "title": "Pendidikan & Latihan",
+      "headline": "Menyelaraskan Institusi Pendidikan Anda dengan Penyelesaian Pengurusan Komprehensif",
+      "benefits": [
+        "Pendaftaran dan penjadualan kursus automatik",
+        "AI mengendalikan soalan pelajar lazim 24/7",
+        "Komunikasi ibu bapa-guru melalui WhatsApp",
+        "Pemberitahuan acara dan peringatan melalui SMS"
+      ],
+      "benefits[0]": "Pendaftaran pelajar dan pengurusan rekod yang dipermudahkan",
+      "benefits[1]": "Penjadualan automatik dan pengurusan kelas",
+      "benefits[2]": "Alat komunikasi ibu bapa-guru yang dipertingkatkan",
+      "benefits[3]": "Pelaporan dan analitik komprehensif"
+    }
+  },
+  "productsData": {
+    "seachat": {
+      "title": "SeaChat",
+      "description": "Balas pelanggan 24/7"
+    },
+    "seax": {
+      "title": "SeaX",
+      "description": "Jangkauan kepada pelanggan secara pukal"
+    },
+    "seameet": {
+      "title": "SeaMeet",
+      "description": "Copilot untuk mesyuarat & panggilan"
+    },
+    "seavoice": {
+      "title": "SeaVoice",
+      "description": "Ejen suara AI untuk panggilan",
+      "subProducts": {
+        "tts": "Teks ke Ucapan",
+        "stt": "Ucapan ke Teks",
+        "discord": "Bot STT Discord"
+      }
+    }
+  },
+  "solutionsData": {
+    "salesMarketing": {
+      "title": "Untuk Jualan & Pemasaran"
+    },
+    "customerSupport": {
+      "title": "Untuk Sokongan Pelanggan"
+    },
+    "aiAutomation": {
+      "title": "AI & Automasi"
+    },
+    "smeOwners": {
+      "title": "Untuk Pemilik PKS"
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "textToSpeech": {
+    "hero": {
+      "title": "文字轉語音技術",
+      "subtitle": "使用我們先進的神經文字轉語音技術從文字生成類似人聲的語音。創建自訂語音，支援 40 多種語言，提供卓越的音頻品質。",
+      "cta": "試用語音生成"
+    },
+    "demo": {
+      "title": "體驗我們的語音技術",
+      "subtitle": "試用不同的語音並親自體驗品質",
+      "chooseVoice": "選擇語音：",
+      "textPrompt": "輸入要轉換為語音的文字：",
+      "defaultText": "您好！我是由 SeaVoice 技術驅動的 AI 語音助理。我可以協助您處理客戶服務、銷售和支援，以自然、類似人聲的方式。",
+      "placeholderText": "輸入一些內容供我們的 AI 朗讀...",
+      "generateSpeech": "生成語音",
+      "playing": "播放中..."
+    },
+    "voices": {
+      "sarah": {
+        "name": "Sarah",
+        "gender": "女性",
+        "accent": "美式英語",
+        "description": "專業、溫暖"
+      },
+      "tom": {
+        "name": "Tom",
+        "gender": "男性",
+        "accent": "美式英語",
+        "description": "友善、健談"
+      },
+      "lissa": {
+        "name": "Lissa",
+        "gender": "女性",
+        "accent": "英式英語",
+        "description": "充滿活力、樂於助人"
+      },
+      "alex": {
+        "name": "Alex",
+        "gender": "男性",
+        "accent": "澳洲口音",
+        "description": "清晰、自信"
+      },
+      "maria": {
+        "name": "Maria",
+        "gender": "女性",
+        "accent": "西班牙語",
+        "description": "富有表現力、自然"
+      },
+      "hiroshi": {
+        "name": "Hiroshi",
+        "gender": "男性",
+        "accent": "日語",
+        "description": "禮貌、專業"
+      }
+    },
+    "features": {
+      "title": "先進語音生成",
+      "subtitle": "尖端神經網路提供類似人聲的語音品質",
+      "customVoiceCloning": {
+        "title": "自訂語音複製",
+        "description": "創建符合您品牌個性和說話風格的獨特語音檔案。",
+        "capabilities": {
+          "voiceCloning": "從樣本複製語音",
+          "brandVoice": "品牌語音一致性",
+          "emotionalExpression": "情感表達",
+          "customPronunciations": "自訂發音"
+        }
+      },
+      "advancedControls": {
+        "title": "進階控制",
+        "description": "微調語音生成的每個方面，以獲得完美的音頻輸出。",
+        "capabilities": {
+          "speedAdjustment": "速度調整",
+          "pitchControl": "音調控制",
+          "emphasisPlacement": "重點放置",
+          "pauseInsertion": "停頓插入"
+        }
+      },
+      "multiLanguageSupport": {
+        "title": "多語言支援",
+        "description": "以原生發音生成 40 多種語言的自然語音。",
+        "capabilities": {
+          "fortyPlusLanguages": "40 多種語言",
+          "regionalAccents": "地區口音",
+          "codeSwitching": "程式碼切換",
+          "multilingualVoices": "多語言語音"
+        }
+      }
+    },
+    "qualityMetrics": {
+      "title": "卓越品質指標",
+      "subtitle": "經過測量的性能，提供專業效果",
+      "naturalness": {
+        "metric": "自然度評分",
+        "value": "4.8/5",
+        "description": "人工評估評級"
+      },
+      "intelligibility": {
+        "metric": "可理解性",
+        "value": "99.2%",
+        "description": "單詞識別準確度"
+      },
+      "latency": {
+        "metric": "延遲時間",
+        "value": "< 200ms",
+        "description": "文字轉音頻生成"
+      },
+      "audioQuality": {
+        "metric": "音頻品質",
+        "value": "48kHz",
+        "description": "高保真輸出"
+      }
+    },
+    "useCases": {
+      "title": "多樣化應用",
+      "subtitle": "跨行業和使用案例將文字轉換為語音",
+      "customerService": {
+        "title": "客戶服務",
+        "description": "為客戶互動提供一致、專業的語音回應。",
+        "benefits": {
+          "availability": "24/7 全天候服務",
+          "consistentQuality": "一致的品質",
+          "multiLanguageSupport": "多語言支援",
+          "brandVoiceAlignment": "品牌語音一致性"
+        }
+      },
+      "contentCreation": {
+        "title": "內容創作",
+        "description": "為視頻、播客和多媒體內容生成配音。",
+        "benefits": {
+          "costEffectiveProduction": "經濟高效的製作",
+          "quickTurnaround": "快速週轉",
+          "multipleVoiceOptions": "多種語音選項",
+          "easyRevisions": "輕鬆修改"
+        }
+      },
+      "accessibility": {
+        "title": "無障礙功能",
+        "description": "為視障使用者提供高品質的文字轉語音，使內容更易於使用。",
+        "benefits": {
+          "screenReaderEnhancement": "螢幕閱讀器增強",
+          "documentNarration": "文檔朗讀",
+          "webAccessibility": "網站無障礙",
+          "educationalSupport": "教育支援"
+        }
+      },
+      "interactiveApplications": {
+        "title": "互動應用程式",
+        "description": "為應用程式、遊戲和互動體驗添加語音功能。",
+        "benefits": {
+          "realTimeGeneration": "即時生成",
+          "dynamicContent": "動態內容",
+          "userEngagement": "使用者參與",
+          "immersiveExperiences": "沉浸式體驗"
+        }
+      }
+    },
+    "voiceCloning": {
+      "title": "自訂語音複製",
+      "subtitle": "創建完美符合您品牌個性的獨特語音檔案。我們的先進語音複製技術只需幾分鐘的樣本音頻，就能複製說話風格、口音和情感表達。",
+      "brandVoiceConsistency": {
+        "title": "品牌語音一致性",
+        "description": "在所有互動中保持一致的品牌語音"
+      },
+      "fineTunedControl": {
+        "title": "精細調節控制",
+        "description": "調整音調、節奏和情感表達"
+      },
+      "highFidelityOutput": {
+        "title": "高保真輸出",
+        "description": "適用於任何應用的專業品質音頻"
+      },
+      "process": {
+        "title": "語音複製流程",
+        "step1": {
+          "title": "上傳音頻樣本",
+          "description": "提供 5-10 分鐘的清晰音頻錄音"
+        },
+        "step2": {
+          "title": "AI 訓練",
+          "description": "我們的神經網路學習您獨特的語音特徵"
+        },
+        "step3": {
+          "title": "語音生成",
+          "description": "使用您的自訂語音生成無限語音"
+        }
+      }
+    },
+    "cta": {
+      "title": "準備好為您的品牌賦予語音了嗎？",
+      "subtitle": "創建自訂語音並為任何應用生成專業品質的語音",
+      "startVoiceCloning": "開始語音複製",
+      "exploreApi": "探索 API"
+    }
+  },
+  "components": {
+    "aiVoiceAvatar": {
+      "badge": {
+        "label": "互動式 AI 虛擬化身"
+      },
+      "hero": {
+        "title": {
+          "line1": "遇見您的",
+          "line2": "AI 語音助理"
+        },
+        "subtitle": "體驗 AI 通訊的未來。我們的虛擬化身展現人性化對話，具備情感智能和多重個性選項。"
+      },
+      "voices": {
+        "professional": {
+          "name": "專業莎拉",
+          "description": "清晰、權威的商業語音"
+        },
+        "friendly": {
+          "name": "友善麥克",
+          "description": "溫暖、親和的客戶服務"
+        },
+        "empathetic": {
+          "name": "關懷艾瑪",
+          "description": "富有同情心的醫療保健語音"
+        }
+      },
+      "languages": {
+        "english": "英文",
+        "spanish": "西班牙文",
+        "french": "法文",
+        "german": "德文",
+        "chinese": "中文"
+      },
+      "demoScripts": {
+        "professional": "您好，我是莎拉，您的 AI 商業助理。我可以處理客戶查詢、安排預約，並精準清晰地提供詳細產品資訊。",
+        "friendly": "嗨！我是麥克，我在這裡讓您擁有絕佳體驗。無論您需要訂單協助還是只是有個簡單問題，我都很樂意為您服務！",
+        "empathetic": "您好，我是艾瑪。我理解醫療保健問題可能令人感到壓力，我在這裡隨時提供關懷、準確的支援。"
+      },
+      "controls": {
+        "voicePersonality": "選擇語音個性：",
+        "language": "語言：",
+        "demoVoice": "語音示範",
+        "tryVoiceInput": "嘗試語音輸入"
+      },
+      "status": {
+        "listening": "聆聽中...",
+        "speaking": "說話中...",
+        "ready": "就緒",
+        "label": "狀態："
+      },
+      "listeningResponse": "我聽到了！這裡將會根據您的語音輸入提供contextual understanding回應。",
+      "avatarMoods": {
+        "neutral": "中性",
+        "speaking": "說話中",
+        "listening": "聆聽中",
+        "thinking": "思考中"
+      }
+    }
+  },
+  "voiceConversationFlow": {
+    "steps": {
+      "callConnected": {
+        "title": "來電已接通",
+        "description": "客戶已與您的企業連線"
+      },
+      "listening": {
+        "title": "AI 聆聽中",
+        "description": "先進語音識別捕捉每一個字"
+      },
+      "processing": {
+        "title": "AI 處理中",
+        "description": "神經網路理解意圖和上下文"
+      },
+      "responding": {
+        "title": "AI 回應中",
+        "description": "人性化語音提供完美回應"
+      }
+    },
+    "conversationTypes": {
+      "appointmentBooking": "預約預訂",
+      "orderSupport": "訂單支援",
+      "salesInquiry": "銷售諮詢"
+    },
+    "conversations": {
+      "appointmentBooking": {
+        "customer": "您好，我想預約下週二的時間。",
+        "ai": "我很樂意幫助您預約。讓我查看一下下週二的可用時段。什麼時間對您最方便呢？"
+      },
+      "orderSupport": {
+        "customer": "我最近的訂單有問題。還沒有收到貨。",
+        "ai": "我理解您對訂單的擔心。讓我立即為您查詢。請您提供訂單號碼好嗎？"
+      },
+      "salesInquiry": {
+        "customer": "能告訴我您的價格方案嗎？",
+        "ai": "當然可以！我們有多種價格方案以滿足不同需求。我們的基本方案每月 29 美元起，包含所有核心功能。您希望我詳細說明差異嗎？"
+      }
+    },
+    "ui": {
+      "chooseConversationType": "選擇對話類型：",
+      "autoProgressing": "自動進行場景切換中...",
+      "liveConversation": "即時對話：",
+      "speaking": "說話中...",
+      "aiSpeaking": "AI 說話中...",
+      "aiThinking": "AI 思考中...",
+      "processingContext": "處理上下文",
+      "accuracyRate": "準確率"
+    }
+  },
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | 小型企業全通路聯絡中心",
+      "description": "停止切換多個應用程式。統一每一通電話、WhatsApp 和聊天於單一簡潔收件箱。專為小型企業量身打造的全方位聯絡中心。",
+      "keywords": "全通路聯絡中心, 小型企業溝通, 統一收件箱, 客服軟體, WhatsApp 商業, 語音通話, 聊天支援"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | AI 語音通訊平台 - Seasalt.ai",
+        "description": "運用 AI 技術轉變您的語音通訊。SeaVoice 提供智慧通話路由、語音分析與自動回應功能。以類人 AI 客服代理 24/7 處理客戶來電。",
+        "keywords": "AI 語音, 客服中心軟體, 語音分析, SeaVoice, 智慧通話路由, 自動電話系統, 語音助理, 24/7 客戶服務"
+      },
+      "virtualAssistant": {
+        "title": "24/7 虛擬助理 | SeaVoice AI 語音解決方案 - Seasalt.ai",
+        "description": "運用 SeaVoice AI 虛擬助理提供全天候客戶服務。智慧語音客服代理處理客戶查詢、預約安排與支援請求，提升滿意度並降低成本。",
+        "keywords": "虛擬助理, AI 語音助理, 24/7 客戶服務, 智慧客服, SeaVoice, 語音自動化, 客戶服務自動化"
+      }
+    }
+  }
+}

@@ -1,0 +1,1883 @@
+{
+  "seavoice": {
+    "pages": {
+      "solutions": {
+        "inbound": {
+          "ivrReplacement": {
+            "hero": {
+              "title": "Thay thế IVR bằng ngôn ngữ tự nhiên",
+              "subtitle": "Loại bỏ cây điện thoại và điều hướng menu gây khó chịu. Hãy để khách hàng nói chuyện tự nhiên để mô tả nhu cầu của họ và được kết nối đến đúng nơi ngay lập tức.",
+              "cta": "Thay thế IVR của bạn ngay hôm nay"
+            },
+            "features": {
+              "title": "Tính năng giao diện giọng nói hiện đại",
+              "subtitle": "Chuyển đổi hệ thống điện thoại lỗi thời bằng cuộc trò chuyện thông minh",
+              "naturalLanguage": {
+                "title": "Hiểu ngôn ngữ tự nhiên",
+                "description": "Thay thế các tùy chọn menu gây nhầm lẫn bằng cuộc trò chuyện tự nhiên hiểu những gì khách hàng thực sự muốn.",
+                "benefit1": "Giao diện đàm thoại",
+                "benefit2": "Nhận dạng ý định",
+                "benefit3": "Nhận thức ngữ cảnh"
+              },
+              "instantResolution": {
+                "title": "Giải quyết tức thì",
+                "description": "Giải quyết các yêu cầu của khách hàng ngay lập tức mà không cần điều hướng qua nhiều cấp độ menu.",
+                "benefit1": "Không có thời gian chờ",
+                "benefit2": "Trả lời trực tiếp",
+                "benefit3": "Hỗ trợ tức thì"
+              },
+              "improvedExperience": {
+                "title": "Trải nghiệm được cải thiện",
+                "description": "Chuyển đổi cây điện thoại gây khó chịu thành các tương tác khách hàng dễ chịu, hiệu quả.",
+                "benefit1": "Sự hài lòng cao hơn",
+                "benefit2": "Giảm bỏ cuộc",
+                "benefit3": "Khả năng tiếp cận tốt hơn"
+              }
+            },
+            "comparison": {
+              "title": "IVR truyền thống so với ngôn ngữ tự nhiên",
+              "subtitle": "Xem sự khác biệt đáng kể trong trải nghiệm khách hàng",
+              "customerExperience": {
+                "aspect": "Trải nghiệm khách hàng",
+                "traditional": "Nhấn 1 để bán hàng, 2 để hỗ trợ...",
+                "modern": "Tôi cần giúp đỡ với đơn hàng của tôi - Kết nối ngay lập tức",
+                "improvement": "Tăng 85% sự hài lòng"
+              },
+              "timeToResolution": {
+                "aspect": "Thời gian giải quyết",
+                "traditional": "3-5 phút điều hướng menu",
+                "modern": "30 giây để đến đúng bộ phận",
+                "improvement": "Giảm 80% thời gian"
+              },
+              "callAbandonment": {
+                "aspect": "Bỏ cuộc gọi",
+                "traditional": "25% bỏ cuộc trong quá trình điều hướng menu",
+                "modern": "Tỷ lệ bỏ cuộc 5%",
+                "improvement": "Giảm 80%"
+              },
+              "accessibility": {
+                "aspect": "Khả năng tiếp cận",
+                "traditional": "Khó khăn cho người dùng lớn tuổi/khuyết tật",
+                "modern": "Giọng nói tự nhiên cho tất cả người dùng",
+                "improvement": "Khả năng tiếp cận 100%"
+              },
+              "traditionalIvr": "IVR truyền thống",
+              "naturalLanguage": "Ngôn ngữ tự nhiên"
+            },
+            "benefits": {
+              "title": "Những cải thiện có thể đo lường được",
+              "subtitle": "Kết quả thực tế từ việc thay thế các hệ thống IVR truyền thống",
+              "satisfaction": {
+                "metric": "85%",
+                "description": "Tăng sự hài lòng của khách hàng"
+              },
+              "abandonment": {
+                "metric": "80%",
+                "description": "Giảm bỏ cuộc gọi"
+              },
+              "resolution": {
+                "metric": "70%",
+                "description": "Giải quyết cuộc gọi nhanh hơn"
+              },
+              "misdirected": {
+                "metric": "90%",
+                "description": "Giảm các cuộc gọi bị định tuyến sai"
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng hiện đại hóa hệ thống điện thoại của bạn?",
+              "subtitle": "Thay thế cây điện thoại gây khó chịu bằng cuộc trò chuyện tự nhiên mà khách hàng yêu thích",
+              "startTrial": "Bắt đầu dùng thử miễn phí",
+              "seeDemo": "Xem demo"
+            },
+            "title": "Thay thế IVR",
+            "description": "Thay thế các menu điện thoại lỗi thời bằng hiểu ngôn ngữ tự nhiên.",
+            "benefit1": "Cuộc trò chuyện tự nhiên",
+            "benefit2": "Trải nghiệm người dùng tốt hơn",
+            "benefit3": "Sự hài lòng cao hơn"
+          },
+          "technicalSupport": {
+            "hero": {
+              "title": "Tự động hóa hỗ trợ kỹ thuật",
+              "description": "Cung cấp hỗ trợ kỹ thuật tức thì với AI có thể chẩn đoán vấn đề, hướng dẫn khách hàng qua các giải pháp và leo thang các vấn đề phức tạp cho các chuyên gia con người khi cần.",
+              "primaryCta": "Tự động hóa hỗ trợ kỹ thuật"
+            },
+            "features": {
+              "title": "Hỗ trợ kỹ thuật thông minh",
+              "description": "AI tiên tiến hiểu các vấn đề kỹ thuật và cung cấp giải pháp",
+              "automatedTroubleshooting": {
+                "title": "Khắc phục sự cố tự động",
+                "description": "Hướng dẫn khách hàng qua các giải pháp từng bước cho các vấn đề kỹ thuật phổ biến.",
+                "benefits": {
+                  "0": "Giải quyết tự phục vụ",
+                  "1": "Chẩn đoán tức thì",
+                  "2": "Hướng dẫn tương tác"
+                }
+              },
+              "intelligentEscalation": {
+                "title": "Leo thang thông minh",
+                "description": "Tự động leo thang các vấn đề phức tạp cho các kỹ thuật viên con người với đầy đủ ngữ cảnh.",
+                "benefits": {
+                  "0": "Định tuyến thông minh",
+                  "1": "Giữ ngữ cảnh",
+                  "2": "Chuyển giao liền mạch"
+                }
+              },
+              "multiPlatformSupport": {
+                "title": "Hỗ trợ đa nền tảng",
+                "description": "Cung cấp hỗ trợ kỹ thuật trên các thiết bị, phần mềm và nền tảng khác nhau.",
+                "benefits": {
+                  "0": "Tương thích phổ quát",
+                  "1": "Chuyên môn đa nền tảng",
+                  "2": "Phạm vi phủ sóng toàn diện"
+                }
+              }
+            },
+            "capabilities": {
+              "title": "Phạm vi phủ sóng hỗ trợ toàn diện",
+              "description": "Xử lý nhiều vấn đề kỹ thuật trên tất cả các nền tảng",
+              "hardwareIssues": {
+                "category": "Các vấn đề phần cứng",
+                "description": "Chẩn đoán và giải quyết các vấn đề liên quan đến phần cứng",
+                "examples": {
+                  "0": "Kết nối thiết bị",
+                  "1": "Các vấn đề hiệu suất",
+                  "2": "Thiết lập phần cứng"
+                }
+              },
+              "softwareTroubleshooting": {
+                "category": "Khắc phục sự cố phần mềm",
+                "description": "Giúp đỡ cài đặt và cấu hình phần mềm",
+                "examples": {
+                  "0": "Cài đặt ứng dụng",
+                  "1": "Cấu hình cài đặt",
+                  "2": "Hỗ trợ cập nhật"
+                }
+              },
+              "networkProblems": {
+                "category": "Các vấn đề mạng",
+                "description": "Giải quyết các vấn đề kết nối internet và mạng",
+                "examples": {
+                  "0": "Thiết lập WiFi",
+                  "1": "Các vấn đề kết nối",
+                  "2": "Tối ưu hóa tốc độ"
+                }
+              },
+              "accountSecurity": {
+                "category": "Tài khoản & Bảo mật",
+                "description": "Hỗ trợ truy cập tài khoản và các mối quan tâm về bảo mật",
+                "examples": {
+                  "0": "Đặt lại mật khẩu",
+                  "1": "Khôi phục tài khoản",
+                  "2": "Cài đặt bảo mật"
+                }
+              }
+            },
+            "process": {
+              "title": "Quy trình khắc phục sự cố AI",
+              "description": "Cách tiếp cận có hệ thống để chẩn đoán và giải quyết các vấn đề kỹ thuật",
+              "steps": {
+                "issueIdentification": {
+                  "title": "Xác định vấn đề",
+                  "description": "AI lắng nghe mô tả vấn đề và đặt câu hỏi làm rõ"
+                },
+                "diagnosticAnalysis": {
+                  "title": "Phân tích chẩn đoán",
+                  "description": "Hệ thống phân tích các triệu chứng và xác định các nguyên nhân tiềm ẩn"
+                },
+                "solutionGuidance": {
+                  "title": "Hướng dẫn giải pháp",
+                  "description": "Cung cấp hướng dẫn từng bước để giải quyết vấn đề"
+                },
+                "verificationFollowup": {
+                  "title": "Xác minh & Theo dõi",
+                  "description": "Xác nhận giải quyết và cung cấp hỗ trợ bổ sung nếu cần"
+                }
+              }
+            },
+            "benefits": {
+              "title": "Kết quả hiệu quả hỗ trợ",
+              "description": "Những cải thiện có thể đo lường được trong hoạt động hỗ trợ kỹ thuật"
+            },
+            "metrics": {
+              "resolution": {
+                "description": "Các vấn đề được giải quyết mà không cần nhân viên con người"
+              },
+              "reductionTime": {
+                "description": "Giảm thời gian giải quyết trung bình"
+              },
+              "satisfaction": {
+                "description": "Sự hài lòng của khách hàng với hỗ trợ AI"
+              },
+              "availability": {
+                "description": "Khả dụng hỗ trợ kỹ thuật"
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng tự động hóa hỗ trợ kỹ thuật?",
+              "description": "Cung cấp hỗ trợ kỹ thuật tức thì, thông minh giúp giải quyết vấn đề nhanh hơn",
+              "primaryButton": "Bắt đầu dùng thử miễn phí",
+              "secondaryButton": "Xem demo"
+            },
+            "title": "Hỗ trợ kỹ thuật",
+            "description": "Tự động hóa khắc phục sự cố và hướng dẫn người dùng qua các vấn đề kỹ thuật.",
+            "benefit1": "Giải pháp tự phục vụ",
+            "benefit2": "Giải quyết nhanh hơn",
+            "benefit3": "Tiết kiệm chi phí"
+          },
+          "orderTracking": {
+            "hero": {
+              "title": "Trạng thái & Theo dõi đơn hàng",
+              "subtitle": "Cho phép khách hàng kiểm tra trạng thái đơn hàng, theo dõi lô hàng và nhận cập nhật giao hàng ngay lập tức thông qua các cuộc trò chuyện giọng nói tự nhiên. Giảm các cuộc gọi hỗ trợ trong khi cải thiện sự hài lòng của khách hàng.",
+              "cta": "Kích hoạt theo dõi đơn hàng"
+            },
+            "features": {
+              "title": "Theo dõi đơn hàng toàn diện",
+              "subtitle": "Khả năng hiển thị hoàn chỉnh về trạng thái đơn hàng và tiến độ giao hàng",
+              "realTimeStatus": {
+                "title": "Trạng thái đơn hàng thời gian thực",
+                "description": "Cung cấp ngay lập tức cho khách hàng thông tin cập nhật về đơn hàng và lô hàng của họ.",
+                "benefits": {
+                  "liveTracking": "Cập nhật theo dõi trực tiếp",
+                  "deliveryEstimates": "Ước tính giao hàng",
+                  "statusNotifications": "Thông báo trạng thái"
+                }
+              },
+              "locationTracking": {
+                "title": "Theo dõi vị trí",
+                "description": "Chia sẻ thông tin vị trí chính xác và tiến độ giao hàng với khách hàng.",
+                "benefits": {
+                  "gpsTracking": "Theo dõi GPS",
+                  "routeOptimization": "Tối ưu hóa tuyến đường",
+                  "deliveryMapping": "Ánh xạ giao hàng"
+                }
+              },
+              "proactiveUpdates": {
+                "title": "Cập nhật chủ động",
+                "description": "Tự động thông báo cho khách hàng về sự chậm trễ, thay đổi hoặc xác nhận giao hàng.",
+                "benefits": {
+                  "delayNotifications": "Thông báo chậm trễ",
+                  "scheduleChanges": "Thay đổi lịch trình",
+                  "deliveryConfirmations": "Xác nhận giao hàng"
+                }
+              }
+            },
+            "tracking": {
+              "title": "Hành trình giao hàng hoàn chỉnh",
+              "subtitle": "Theo dõi mọi giai đoạn từ đặt hàng đến giao hàng cuối cùng",
+              "stages": {
+                "orderPlaced": {
+                  "title": "Đơn hàng đã đặt",
+                  "description": "Xác nhận nhận đơn hàng và bắt đầu xử lý",
+                  "info": {
+                    "orderNumber": "Số đơn hàng",
+                    "itemsOrdered": "Các mặt hàng đã đặt",
+                    "processingTimeline": "Dòng thời gian xử lý"
+                  }
+                },
+                "inTransit": {
+                  "title": "Đang vận chuyển",
+                  "description": "Gói hàng đang trên đường đến đích",
+                  "info": {
+                    "currentLocation": "Vị trí hiện tại",
+                    "expectedDelivery": "Dự kiến giao hàng",
+                    "carrierInformation": "Thông tin nhà vận chuyển"
+                  }
+                },
+                "outForDelivery": {
+                  "title": "Đang giao hàng",
+                  "description": "Gói hàng đang được tài xế giao hàng để giao hàng cuối cùng",
+                  "info": {
+                    "deliveryWindow": "Khoảng thời gian giao hàng",
+                    "driverContact": "Liên hệ tài xế",
+                    "specialInstructions": "Hướng dẫn đặc biệt"
+                  }
+                },
+                "delivered": {
+                  "title": "Đã giao hàng",
+                  "description": "Gói hàng đã được giao thành công",
+                  "info": {
+                    "deliveryTime": "Thời gian giao hàng",
+                    "deliveryLocation": "Địa điểm giao hàng",
+                    "signatureConfirmation": "Xác nhận chữ ký"
+                  }
+                }
+              }
+            },
+            "integration": {
+              "title": "Tích hợp nhà vận chuyển phổ quát",
+              "description": "Kết nối với tất cả các nhà vận chuyển và nhà cung cấp dịch vụ hậu cần chính để cung cấp thông tin theo dõi toàn diện bất kể gói hàng được vận chuyển như thế nào.",
+              "multiCarrier": {
+                "title": "Hỗ trợ đa nhà vận chuyển",
+                "description": "Theo dõi gói hàng trên tất cả các nhà vận chuyển chính"
+              },
+              "realTimeUpdates": {
+                "title": "Cập nhật thời gian thực",
+                "description": "Dữ liệu theo dõi trực tiếp từ API của nhà vận chuyển"
+              },
+              "deliveryAnalytics": {
+                "title": "Phân tích giao hàng",
+                "description": "Thông tin chi tiết hiệu suất và các chỉ số giao hàng"
+              },
+              "carriers": {
+                "title": "Các nhà vận chuyển được hỗ trợ",
+                "fedex": "API FedEx",
+                "ups": "Theo dõi UPS",
+                "usps": "Tích hợp USPS",
+                "dhl": "Dịch vụ DHL",
+                "amazon": "Amazon Logistics",
+                "custom": "Các nhà vận chuyển tùy chỉnh"
+              }
+            },
+            "impact": {
+              "title": "Tác động dịch vụ khách hàng",
+              "subtitle": "Những cải thiện có thể đo lường được về sự hài lòng của khách hàng và hiệu quả hỗ trợ",
+              "callReduction": {
+                "metric": "85%",
+                "description": "Giảm các cuộc gọi \"Đơn hàng của tôi ở đâu?\""
+              },
+              "satisfaction": {
+                "metric": "95%",
+                "description": "Sự hài lòng của khách hàng với thông tin theo dõi"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "Khả dụng trạng thái đơn hàng"
+              },
+              "workloadReduction": {
+                "metric": "60%",
+                "description": "Giảm khối lượng công việc dịch vụ khách hàng"
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng tự động hóa theo dõi đơn hàng?",
+              "subtitle": "Giảm các cuộc gọi hỗ trợ và cải thiện sự hài lòng của khách hàng với trạng thái đơn hàng tức thì",
+              "startTrial": "Bắt đầu dùng thử miễn phí",
+              "seeDemo": "Xem demo"
+            },
+            "title": "Trạng thái & Theo dõi đơn hàng",
+            "description": "Cho phép khách hàng kiểm tra trạng thái đơn hàng và thông tin giao hàng ngay lập tức.",
+            "benefit1": "Cập nhật tức thì",
+            "benefit2": "Giảm cuộc gọi",
+            "benefit3": "Trải nghiệm tốt hơn"
+          },
+          "paymentProcessing": {
+            "hero": {
+              "title": "Xử lý thanh toán an toàn",
+              "description": "Cho phép xử lý thanh toán an toàn, tuân thủ PCI thông qua các tương tác thoại. Cho phép khách hàng thanh toán an toàn qua điện thoại với bảo vệ gian lận nâng cao và xử lý giao dịch tức thì.",
+              "cta": "Kích hoạt thanh toán an toàn"
+            },
+            "features": {
+              "title": "Tính năng thanh toán bằng giọng nói an toàn",
+              "description": "Bảo mật cấp doanh nghiệp đáp ứng trải nghiệm khách hàng liền mạch",
+              "secure": {
+                "title": "Xử lý thanh toán an toàn",
+                "description": "Xử lý thanh toán an toàn qua điện thoại với công nghệ thoại tuân thủ PCI.",
+                "benefits": {
+                  "pciCompliance": "Tuân thủ PCI DSS",
+                  "encryptedTransactions": "Giao dịch được mã hóa",
+                  "multiplePaymentMethods": "Nhiều phương thức thanh toán"
+                }
+              },
+              "fraud": {
+                "title": "Bảo vệ gian lận",
+                "description": "Phát hiện và ngăn chặn gian lận nâng cao để bảo vệ cả doanh nghiệp và khách hàng.",
+                "benefits": {
+                  "realtimeFraudDetection": "Phát hiện gian lận thời gian thực",
+                  "riskAssessment": "Đánh giá rủi ro",
+                  "secureAuthentication": "Xác thực an toàn"
+                }
+              },
+              "instant": {
+                "title": "Xử lý tức thì",
+                "description": "Xử lý thanh toán ngay lập tức với ủy quyền và xác nhận thời gian thực.",
+                "benefits": {
+                  "realtimeAuthorization": "Ủy quyền thời gian thực",
+                  "instantConfirmation": "Xác nhận tức thì",
+                  "immediateReceipts": "Biên nhận tức thì"
+                }
+              }
+            },
+            "paymentMethods": {
+              "title": "Các tùy chọn thanh toán toàn diện",
+              "description": "Chấp nhận tất cả các phương thức thanh toán chính với xử lý thoại an toàn",
+              "creditCards": {
+                "method": "Thẻ tín dụng",
+                "description": "Chấp nhận tất cả các thẻ tín dụng chính với xử lý thoại an toàn",
+                "features": {
+                  "visaMastercardAmex": "Visa, Mastercard, Amex",
+                  "cvvVerification": "Xác minh CVV",
+                  "expiryValidation": "Xác thực ngày hết hạn"
+                }
+              },
+              "debitCards": {
+                "method": "Thẻ ghi nợ",
+                "description": "Xử lý thanh toán bằng thẻ ghi nợ với xác minh PIN",
+                "features": {
+                  "pinEntryVoice": "Nhập PIN qua giọng nói",
+                  "bankVerification": "Xác minh ngân hàng",
+                  "instantDeduction": "Khấu trừ tức thì"
+                }
+              },
+              "bankTransfers": {
+                "method": "Chuyển khoản ngân hàng",
+                "description": "Chuyển khoản ngân hàng trực tiếp và thanh toán ACH",
+                "features": {
+                  "accountVerification": "Xác minh tài khoản",
+                  "routingNumberValidation": "Xác thực số định tuyến",
+                  "achProcessing": "Xử lý ACH"
+                }
+              },
+              "digitalWallets": {
+                "method": "Ví điện tử",
+                "description": "Hỗ trợ các nền tảng thanh toán kỹ thuật số phổ biến",
+                "features": {
+                  "applePay": "Apple Pay",
+                  "googlePay": "Google Pay",
+                  "paypalIntegration": "Tích hợp PayPal"
+                }
+              }
+            },
+            "security": {
+              "title": "Bảo mật cấp ngân hàng",
+              "description": "Hệ thống xử lý thanh toán của chúng tôi đáp ứng các tiêu chuẩn bảo mật cao nhất trong ngành, đảm bảo mọi giao dịch được bảo vệ bằng nhiều lớp mã hóa và phòng chống gian lận.",
+              "features": {
+                "title": "Tính năng bảo mật"
+              },
+              "encryption": {
+                "title": "Mã hóa đầu cuối",
+                "description": "Tất cả dữ liệu thanh toán được mã hóa trong quá trình truyền và khi không hoạt động"
+              },
+              "pciCompliance": {
+                "title": "Tuân thủ PCI DSS",
+                "description": "Cơ sở hạ tầng được chứng nhận PCI DSS cấp 1"
+              },
+              "monitoring": {
+                "title": "Giám sát thời gian thực",
+                "description": "Phát hiện và ngăn chặn gian lận liên tục"
+              }
+            },
+            "securityFeatures": {
+              "endToEndEncryption": "Mã hóa đầu cuối",
+              "pciDssCompliance": "Tuân thủ PCI DSS cấp 1",
+              "tokenization": "Mã hóa dữ liệu thẻ",
+              "multiFactorAuth": "Xác thực đa yếu tố",
+              "fraudMonitoring": "Giám sát gian lận thời gian thực",
+              "voiceRecognition": "Nhận dạng giọng nói an toàn"
+            },
+            "benefits": {
+              "title": "Hiệu suất xử lý thanh toán",
+              "description": "Độ tin cậy và các chỉ số bảo mật hàng đầu ngành",
+              "uptime": "Thời gian hoạt động xử lý thanh toán",
+              "transactionTime": "Thời gian giao dịch trung bình",
+              "compliance": "Tuân thủ PCI DSS",
+              "fraudRate": "Tỷ lệ gian lận với bảo vệ AI"
+            },
+            "cta": {
+              "title": "Sẵn sàng cho thanh toán bằng giọng nói an toàn?",
+              "subtitle": "Cho phép xử lý thanh toán tuân thủ PCI với bảo vệ gian lận nâng cao",
+              "primaryButton": "Bắt đầu xử lý an toàn",
+              "secondaryButton": "Tổng quan bảo mật"
+            },
+            "title": "Xử lý thanh toán",
+            "description": "Xử lý thanh toán an toàn và xử lý các yêu cầu thanh toán.",
+            "benefit1": "Giao dịch an toàn",
+            "benefit2": "Thanh toán tự động",
+            "benefit3": "Tuân thủ PCI"
+          },
+          "virtualAssistant": {
+            "hero": {
+              "title": "Trợ lý ảo 24/7 cho các cuộc gọi sau giờ làm việc",
+              "description": "Không bao giờ bỏ lỡ một cuộc gọi khách hàng nào nữa. Trợ lý ảo AI của chúng tôi cung cấp hỗ trợ thông minh, giống con người suốt ngày đêm, đảm bảo khách hàng của bạn luôn nhận được hỗ trợ tức thì khi họ cần nhất.",
+              "primaryCta": "Bắt đầu trợ lý 24/7 của bạn"
+            },
+            "features": {
+              "title": "Hỗ trợ khách hàng luôn hoạt động",
+              "description": "Hỗ trợ sau giờ làm việc toàn diện duy trì chất lượng dịch vụ của bạn 24/7",
+              "availability": {
+                "title": "Khả dụng 24/7",
+                "description": "Không bao giờ bỏ lỡ cuộc gọi nào nữa với hỗ trợ AI suốt ngày đêm xử lý các yêu cầu bất cứ lúc nào.",
+                "benefits": {
+                  "0": "Luôn có sẵn",
+                  "1": "Không có chi phí làm thêm giờ",
+                  "2": "Phạm vi phủ sóng múi giờ toàn cầu"
+                }
+              },
+              "callHandling": {
+                "title": "Xử lý cuộc gọi thông minh",
+                "description": "AI tiên tiến hiểu ý định của người gọi và cung cấp các phản hồi hoặc leo thang phù hợp.",
+                "benefits": {
+                  "0": "Cuộc trò chuyện tự nhiên",
+                  "1": "Nhận thức ngữ cảnh",
+                  "2": "Leo thang thông minh"
+                }
+              },
+              "handoffs": {
+                "title": "Chuyển giao liền mạch",
+                "description": "Chuyển đổi mượt mà sang nhân viên con người khi cần, với giữ ngữ cảnh hoàn chỉnh.",
+                "benefits": {
+                  "0": "Giữ ngữ cảnh",
+                  "1": "Chuyển giao ấm",
+                  "2": "Không lặp lại thông tin"
+                }
+              }
+            },
+            "benefits": {
+              "title": "Kết quả đã được chứng minh",
+              "description": "Xem tác động của hỗ trợ ảo 24/7 đối với doanh nghiệp của bạn"
+            },
+            "metrics": {
+              "abandonment": {
+                "description": "Giảm bỏ cuộc gọi sau giờ làm việc"
+              },
+              "availability": {
+                "description": "Khả dụng dịch vụ khách hàng liên tục"
+              },
+              "costSavings": {
+                "description": "Tiết kiệm chi phí so với nhân viên con người"
+              },
+              "satisfaction": {
+                "description": "Sự hài lòng của khách hàng với các tương tác AI"
+              }
+            },
+            "useCases": {
+              "title": "Ứng dụng ngành",
+              "description": "Xem cách các ngành khác nhau hưởng lợi từ hỗ trợ ảo 24/7",
+              "healthcare": {
+                "title": "Chăm sóc sức khỏe sau giờ làm việc",
+                "description": "Xử lý các yêu cầu của bệnh nhân, yêu cầu cuộc hẹn và phân loại khẩn cấp ngoài giờ làm việc.",
+                "metrics": {
+                  "0": "Giảm 60% cuộc gọi bị bỏ lỡ",
+                  "1": "Hỗ trợ bệnh nhân 24/7",
+                  "2": "Tuân thủ HIPAA"
+                }
+              },
+              "ecommerce": {
+                "title": "Hỗ trợ thương mại điện tử",
+                "description": "Hỗ trợ khách hàng với các yêu cầu đơn hàng, trả hàng và thông tin sản phẩm bất cứ lúc nào.",
+                "metrics": {
+                  "0": "Tăng 40% sự hài lòng của khách hàng",
+                  "1": "Trạng thái đơn hàng tức thì",
+                  "2": "Khả dụng 24/7"
+                }
+              },
+              "financial": {
+                "title": "Dịch vụ tài chính",
+                "description": "Cung cấp thông tin tài khoản, cảnh báo gian lận và các dịch vụ ngân hàng cơ bản sau giờ làm việc.",
+                "metrics": {
+                  "0": "Xác thực an toàn",
+                  "1": "Phòng chống gian lận",
+                  "2": "Tuân thủ quy định"
+                }
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng cho hỗ trợ khách hàng 24/7?",
+              "description": "Chuyển đổi trải nghiệm khách hàng sau giờ làm việc của bạn với hỗ trợ ảo thông minh",
+              "primaryButton": "Bắt đầu dùng thử miễn phí",
+              "secondaryButton": "Lên lịch demo"
+            },
+            "title": "Trợ lý ảo 24/7",
+            "description": "Cung cấp hỗ trợ tức thì ngoài giờ làm việc với xử lý cuộc gọi thông minh.",
+            "benefit1": "Khả dụng 24/7",
+            "benefit2": "Phản hồi tức thì",
+            "benefit3": "Giảm chi phí"
+          },
+          "header": "Giải pháp cuộc gọi đến",
+          "description": "Xử lý các cuộc gọi đến với tự động hóa thông minh và trải nghiệm khách hàng vượt trội",
+          "smartCallTransfer": {
+            "title": "Chuyển cuộc gọi thông minh",
+            "description": "Định tuyến cuộc gọi thông minh đến đúng bộ phận dựa trên ý định của người gọi.",
+            "benefit1": "Giảm thời gian chờ",
+            "benefit2": "Định tuyến tốt hơn",
+            "benefit3": "Hiệu quả được cải thiện"
+          },
+          "mentalHealth": {
+            "title": "Đồng hành sức khỏe tâm thần",
+            "description": "Cung cấp hỗ trợ đầy cảm thông cho sàng lọc và tài nguyên sức khỏe tâm thần.",
+            "benefit1": "Hỗ trợ 24/7",
+            "benefit2": "Phản hồi đầy cảm thông",
+            "benefit3": "Leo thang khủng hoảng"
+          },
+          "scamShield": {
+            "title": "Bảo vệ chống lừa đảo",
+            "description": "Xác định và chặn các cuộc gọi gian lận để bảo vệ khách hàng của bạn.",
+            "benefit1": "Phát hiện gian lận",
+            "benefit2": "Bảo vệ khách hàng",
+            "benefit3": "Giảm cuộc gọi lừa đảo"
+          },
+          "appointmentBooking": {
+            "title": "Đặt lịch hẹn",
+            "description": "Cho phép lên lịch và quản lý cuộc hẹn tự động.",
+            "benefit1": "Đặt chỗ 24/7",
+            "benefit2": "Đồng bộ hóa lịch",
+            "benefit3": "Nhắc nhở tự động"
+          }
+        },
+        "outbound": {
+          "customerReactivation": {
+            "hero": {
+              "title": "Các chiến dịch kích hoạt lại khách hàng",
+              "subtitle": "Giành lại khách hàng không hoạt động bằng các chiến dịch tiếp cận cá nhân hóa do AI hỗ trợ. Tái tương tác với khách hàng cũ bằng các ưu đãi hấp dẫn và xây dựng lại các mối quan hệ có giá trị thúc đẩy doanh thu định kỳ.",
+              "cta": "Bắt đầu chiến dịch kích hoạt lại"
+            },
+            "features": {
+              "title": "Tính năng kích hoạt lại thông minh",
+              "subtitle": "Các chiến dịch do AI hỗ trợ hiểu hành vi và sở thích của khách hàng",
+              "personalizedOutreach": {
+                "title": "Tiếp cận cá nhân hóa",
+                "description": "Các cuộc trò chuyện do AI hỗ trợ được điều chỉnh theo lịch sử và sở thích của từng khách hàng.",
+                "benefits": {
+                  "customMessaging": "Nhắn tin tùy chỉnh",
+                  "historicalContext": "Ngữ cảnh lịch sử",
+                  "behavioralInsights": "Thông tin chi tiết hành vi"
+                }
+              },
+              "winBackCampaigns": {
+                "title": "Các chiến dịch giành lại",
+                "description": "Các chiến dịch chiến lược được thiết kế để tái tương tác với khách hàng không hoạt động bằng các ưu đãi hấp dẫn.",
+                "benefits": {
+                  "specialPromotions": "Các chương trình khuyến mãi đặc biệt",
+                  "loyaltyRewards": "Phần thưởng khách hàng thân thiết",
+                  "exclusiveAccess": "Truy cập độc quyền"
+                }
+              },
+              "performanceAnalytics": {
+                "title": "Phân tích hiệu suất",
+                "description": "Theo dõi tỷ lệ thành công kích hoạt lại và tối ưu hóa các chiến dịch để có kết quả tốt hơn.",
+                "benefits": {
+                  "conversionTracking": "Theo dõi chuyển đổi",
+                  "abTesting": "Kiểm tra A/B",
+                  "roiAnalysis": "Phân tích ROI"
+                }
+              }
+            },
+            "process": {
+              "title": "Quy trình kích hoạt lại",
+              "subtitle": "Cách tiếp cận chiến lược để giành lại khách hàng có giá trị",
+              "steps": {
+                "customerSegmentation": {
+                  "title": "Phân khúc khách hàng",
+                  "description": "Xác định và phân loại khách hàng không hoạt động dựa trên lịch sử và giá trị của họ",
+                  "outcome": "Cách tiếp cận được nhắm mục tiêu: Tỷ lệ phản hồi cao hơn 3 lần"
+                },
+                "personalizedOutreach": {
+                  "title": "Tiếp cận cá nhân hóa",
+                  "description": "AI tạo ra các tin nhắn cá nhân hóa dựa trên sở thích và lịch sử của khách hàng",
+                  "outcome": "Tỷ lệ tương tác: 45% so với 12% chung chung"
+                },
+                "offerPresentation": {
+                  "title": "Trình bày ưu đãi",
+                  "description": "Trình bày các ưu đãi giành lại hấp dẫn được điều chỉnh theo giá trị và sở thích của khách hàng",
+                  "outcome": "Tỷ lệ chuyển đổi: 25% với các ưu đãi cá nhân hóa"
+                },
+                "followUpNurturing": {
+                  "title": "Theo dõi & Nuôi dưỡng",
+                  "description": "Các chuỗi theo dõi tự động để nuôi dưỡng khách hàng quan tâm trở lại trạng thái hoạt động",
+                  "outcome": "Tỷ lệ giữ chân: 80% khách hàng đã kích hoạt lại"
+                }
+              }
+            },
+            "campaigns": {
+              "title": "Các loại chiến dịch kích hoạt lại",
+              "subtitle": "Nhiều chiến lược để tái tương tác với các phân khúc khách hàng khác nhau",
+              "winBackOffers": {
+                "title": "Các ưu đãi giành lại",
+                "description": "Các chương trình giảm giá và khuyến mãi đặc biệt để thu hút khách hàng quay lại",
+                "tactics": {
+                  "exclusiveDiscounts": "Giảm giá độc quyền",
+                  "limitedTimeOffers": "Ưu đãi có thời hạn",
+                  "freeTrials": "Dùng thử miễn phí"
+                }
+              },
+              "feedbackCollection": {
+                "title": "Thu thập phản hồi",
+                "description": "Hiểu lý do khách hàng rời đi và giải quyết các mối quan tâm của họ",
+                "tactics": {
+                  "exitSurveys": "Khảo sát rời đi",
+                  "concernResolution": "Giải quyết mối quan tâm",
+                  "serviceImprovements": "Cải thiện dịch vụ"
+                }
+              },
+              "productUpdates": {
+                "title": "Cập nhật sản phẩm",
+                "description": "Thông báo cho khách hàng về các tính năng hoặc cải tiến mới",
+                "tactics": {
+                  "featureAnnouncements": "Thông báo tính năng",
+                  "benefitExplanations": "Giải thích lợi ích",
+                  "demoInvitations": "Lời mời demo"
+                }
+              },
+              "loyaltyRewards": {
+                "title": "Phần thưởng khách hàng thân thiết",
+                "description": "Ghi nhận lòng trung thành trong quá khứ và cung cấp ưu đãi đặc biệt",
+                "tactics": {
+                  "vipStatus": "Trạng thái VIP",
+                  "loyaltyPoints": "Điểm khách hàng thân thiết",
+                  "exclusiveAccess": "Truy cập độc quyền"
+                }
+              }
+            },
+            "results": {
+              "title": "Kết quả kích hoạt lại",
+              "subtitle": "Thành công đã được chứng minh trong việc giành lại khách hàng có giá trị",
+              "reactivationRate": {
+                "metric": "35%",
+                "description": "Tỷ lệ kích hoạt lại khách hàng"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "Giảm chi phí so với các phương pháp truyền thống"
+              },
+              "responseRate": {
+                "metric": "3x",
+                "description": "Tỷ lệ phản hồi cao hơn các chiến dịch chung chung"
+              },
+              "retentionRate": {
+                "metric": "80%",
+                "description": "Tỷ lệ giữ chân khách hàng đã kích hoạt lại"
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng giành lại khách hàng của bạn?",
+              "subtitle": "Bắt đầu các chiến dịch kích hoạt lại cá nhân hóa xây dựng lại mối quan hệ khách hàng có giá trị",
+              "startCampaign": "Bắt đầu chiến dịch",
+              "viewCaseStudies": "Xem các trường hợp nghiên cứu"
+            }
+          },
+          "fraudAlerts": {
+            "hero": {
+              "title": "Hệ thống cảnh báo gian lận",
+              "description": "Bảo vệ khách hàng của bạn bằng cảnh báo gian lận tức thì. Hệ thống do AI hỗ trợ của chúng tôi phát hiện các hoạt động đáng ngờ và tự động liên hệ với khách hàng để xác minh giao dịch."
+            },
+            "features": {
+              "title": "Phát hiện gian lận nâng cao",
+              "subtitle": "Giám sát thời gian thực và cảnh báo thông minh để bảo vệ khách hàng của bạn",
+              "realTimeDetection": {
+                "title": "Phát hiện gian lận thời gian thực",
+                "description": "Các thuật toán AI tiên tiến xác định và chặn các cuộc gọi gian lận trước khi chúng đến khách hàng của bạn."
+              },
+              "instantAlerts": {
+                "title": "Cảnh báo tức thì",
+                "description": "Tự động gọi khách hàng trong vòng vài phút sau khi phát hiện hoạt động đáng ngờ để xác minh giao dịch."
+              },
+              "detailedAnalytics": {
+                "title": "Phân tích chi tiết",
+                "description": "Theo dõi các chỉ số phòng chống gian lận và tỷ lệ phản hồi của khách hàng với báo cáo toàn diện."
+              }
+            },
+            "howItWorks": {
+              "title": "Cách cảnh báo gian lận hoạt động",
+              "step1": {
+                "title": "Phát hiện gian lận",
+                "description": "Hệ thống xác định các mẫu giao dịch đáng ngờ"
+              },
+              "step2": {
+                "title": "Cảnh báo tức thì",
+                "description": "Nhân viên AI gọi khách hàng trong vòng 2 phút"
+              },
+              "step3": {
+                "title": "Xác minh",
+                "description": "Khách hàng xác nhận hoặc từ chối giao dịch"
+              },
+              "step4": {
+                "title": "Hành động đã thực hiện",
+                "description": "Giao dịch được phê duyệt hoặc các biện pháp bảo mật được kích hoạt"
+              },
+              "sampleCall": {
+                "title": "Cuộc gọi cảnh báo mẫu",
+                "message": "Xin chào, đây là cảnh báo bảo mật từ [Tên ngân hàng]. Chúng tôi đã phát hiện hoạt động bất thường trên tài khoản của bạn. Một giao dịch 500 đô la tại Amazon vừa được thực hiện. Bạn có ủy quyền giao dịch mua này không? Vui lòng nhấn 1 để xác nhận hoặc 2 nếu không phải bạn."
+              }
+            },
+            "benefits": {
+              "title": "Lợi ích chính",
+              "fraudPrevention": {
+                "title": "Phòng chống gian lận",
+                "description": "Giảm các giao dịch gian lận tới 85%"
+              },
+              "instantResponse": {
+                "title": "Phản hồi tức thì",
+                "description": "Cảnh báo khách hàng trong vòng 2 phút sau khi phát hiện"
+              },
+              "customerTrust": {
+                "title": "Lòng tin của khách hàng",
+                "description": "Xây dựng lòng tin với bảo vệ chủ động"
+              },
+              "smartAnalytics": {
+                "title": "Phân tích thông minh",
+                "description": "Thông tin chi tiết chi tiết về các mẫu và xu hướng gian lận"
+              }
+            },
+            "useCases": {
+              "title": "Các trường hợp sử dụng phổ biến",
+              "banking": {
+                "title": "Ngân hàng & Dịch vụ tài chính",
+                "item1": "Phát hiện gian lận thẻ tín dụng",
+                "item2": "Cảnh báo mẫu chi tiêu bất thường",
+                "item3": "Phòng chống chiếm đoạt tài khoản",
+                "item4": "Xác minh giao dịch lớn"
+              },
+              "ecommerce": {
+                "title": "Thương mại điện tử & Bán lẻ",
+                "item1": "Các mẫu mua hàng đáng ngờ",
+                "item2": "Xác minh đơn hàng giá trị cao",
+                "item3": "Bảo vệ chống đánh cắp danh tính",
+                "item4": "Thay đổi phương thức thanh toán"
+              }
+            },
+            "cta": {
+              "title": "Bảo vệ khách hàng của bạn ngay hôm nay",
+              "description": "Triển khai phát hiện gian lận nâng cao với cảnh báo khách hàng tự động để giảm tổn thất và xây dựng lòng tin.",
+              "button": "Bắt đầu với cảnh báo gian lận"
+            },
+            "title": "Cảnh báo gian lận",
+            "description": "Cảnh báo khách hàng về hoạt động tài khoản đáng ngờ ngay lập tức.",
+            "benefit1": "Cảnh báo thời gian thực",
+            "benefit2": "Bảo vệ tài khoản",
+            "benefit3": "Phòng chống gian lận"
+          },
+          "largeScaleCampaigns": {
+            "hero": {
+              "title": "Các chiến dịch đi quy mô lớn",
+              "description": "Thực hiện các chiến dịch thoại lớn tiếp cận hàng ngàn khách hàng cùng lúc. Từ ra mắt sản phẩm đến thông báo khẩn cấp, gửi tin nhắn cá nhân hóa ở quy mô chưa từng có với hiệu quả do AI hỗ trợ.",
+              "cta": "Khởi chạy chiến dịch hàng loạt"
+            },
+            "features": {
+              "title": "Tính năng chiến dịch cấp doanh nghiệp",
+              "subtitle": "Các công cụ mạnh mẽ để quản lý và thực hiện các chiến dịch thoại quy mô lớn",
+              "massCommunication": {
+                "title": "Giao tiếp hàng loạt",
+                "description": "Tiếp cận hàng ngàn khách hàng cùng lúc với các tin nhắn thoại cá nhân hóa.",
+                "benefit1": "Cuộc gọi đồng thời không giới hạn",
+                "benefit2": "Nhắn tin cá nhân hóa",
+                "benefit3": "Phạm vi toàn cầu"
+              },
+              "audienceSegmentation": {
+                "title": "Phân khúc đối tượng",
+                "description": "Nhắm mục tiêu các phân khúc khách hàng cụ thể với các tin nhắn và thời gian được điều chỉnh.",
+                "benefit1": "Nhắm mục tiêu theo nhân khẩu học",
+                "benefit2": "Phân khúc hành vi",
+                "benefit3": "Đối tượng tùy chỉnh"
+              },
+              "realTimeAnalytics": {
+                "title": "Phân tích thời gian thực",
+                "description": "Giám sát hiệu suất chiến dịch và tối ưu hóa theo thời gian thực để có kết quả tốt hơn.",
+                "benefit1": "Bảng điều khiển trực tiếp",
+                "benefit2": "Các chỉ số hiệu suất",
+                "benefit3": "Kiểm tra A/B"
+              }
+            },
+            "campaignTypes": {
+              "title": "Các loại chiến dịch & Ứng dụng",
+              "subtitle": "Các giải pháp đa năng cho các nhu cầu giao tiếp kinh doanh khác nhau",
+              "productAnnouncements": {
+                "type": "Thông báo sản phẩm",
+                "description": "Ra mắt sản phẩm hoặc dịch vụ mới với các chiến dịch nhận thức rộng rãi",
+                "example1": "Phát hành tính năng mới",
+                "example2": "Ra mắt sản phẩm",
+                "example3": "Cập nhật dịch vụ",
+                "metric1": "Phạm vi tiếp cận: Hơn 100 nghìn khách hàng",
+                "metric2": "Nhận thức: Tăng 85%",
+                "metric3": "Tương tác: Phản hồi 45%"
+              },
+              "emergencyNotifications": {
+                "type": "Thông báo khẩn cấp",
+                "description": "Phổ biến thông tin quan trọng nhanh chóng trong các trường hợp khẩn cấp",
+                "example1": "Sự cố dịch vụ",
+                "example2": "Cảnh báo an toàn",
+                "example3": "Thay đổi chính sách",
+                "urgency": "Cao",
+                "timing": "1000 cuộc gọi/phút"
+              },
+              "marketingCampaigns": {
+                "type": "Chiến dịch tiếp thị",
+                "description": "Thực hiện các sáng kiến khuyến mãi và tiếp thị quy mô lớn",
+                "example1": "Các chương trình khuyến mãi theo mùa",
+                "example2": "Các chiến dịch thương hiệu",
+                "example3": "Lời mời sự kiện",
+                "metric1": "Chuyển đổi: Trung bình 12%",
+                "metric2": "ROI: Điển hình 300%",
+                "metric3": "Phạm vi tiếp cận: Quy mô không giới hạn"
+              },
+              "surveyResearch": {
+                "type": "Khảo sát & Nghiên cứu",
+                "description": "Thực hiện nghiên cứu thị trường và thu thập phản hồi khách hàng ở quy mô lớn",
+                "example1": "Nghiên cứu thị trường",
+                "example2": "Sự hài lòng của khách hàng",
+                "example3": "Phản hồi sản phẩm",
+                "metric1": "Phản hồi: Tỷ lệ 35%",
+                "metric2": "Hoàn thành: 80%",
+                "metric3": "Thông tin chi tiết: Thời gian thực"
+              },
+              "commonExamples": "Các ví dụ phổ biến:",
+              "performanceMetrics": "Các chỉ số hiệu suất:"
+            },
+            "scaling": {
+              "title": "Quy mô & Phạm vi tiếp cận không giới hạn",
+              "description": "Nền tảng của chúng tôi được xây dựng để xử lý các chiến dịch thuộc mọi quy mô, từ hàng ngàn đến hàng triệu cuộc gọi. Với các mối quan hệ đối tác nhà mạng toàn cầu và cơ sở hạ tầng tiên tiến, chúng tôi đảm bảo gửi đáng tin cậy ở quy mô lớn.",
+              "globalInfrastructure": {
+                "title": "Cơ sở hạ tầng toàn cầu",
+                "description": "Mạng nhà mạng toàn cầu để có phạm vi tiếp cận tối đa"
+              },
+              "highSpeedExecution": {
+                "title": "Thực hiện tốc độ cao",
+                "description": "Hơn 1000 cuộc gọi đồng thời mỗi phút"
+              },
+              "realTimeMonitoring": {
+                "title": "Giám sát thời gian thực",
+                "description": "Theo dõi hiệu suất chiến dịch trực tiếp"
+              },
+              "capabilities": {
+                "title": "Khả năng mở rộng",
+                "capability1": "Cuộc gọi đồng thời không giới hạn",
+                "capability2": "Mạng nhà mạng toàn cầu",
+                "capability3": "Hỗ trợ đa ngôn ngữ",
+                "capability4": "Tối ưu hóa múi giờ",
+                "capability5": "Tuân thủ quy định",
+                "capability6": "Giám sát thời gian thực"
+              },
+              "dashboard": {
+                "title": "Bảng điều khiển chiến dịch",
+                "activeCalls": "Cuộc gọi đang hoạt động:",
+                "completionRate": "Tỷ lệ hoàn thành:",
+                "responseRate": "Tỷ lệ phản hồi:"
+              }
+            },
+            "benefits": {
+              "title": "Kết quả hiệu suất chiến dịch",
+              "subtitle": "Hiệu quả đã được chứng minh ở quy mô doanh nghiệp",
+              "metric1": {
+                "value": "10.000+",
+                "description": "Cuộc gọi đồng thời được hỗ trợ"
+              },
+              "metric2": {
+                "value": "99.9%",
+                "description": "Tỷ lệ thành công gửi tin nhắn"
+              },
+              "metric3": {
+                "value": "75%",
+                "description": "Giảm chi phí so với các phương pháp truyền thống"
+              },
+              "metric4": {
+                "value": "24/7",
+                "description": "Khả năng thực hiện chiến dịch"
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng mở rộng quy mô giao tiếp của bạn?",
+              "description": "Khởi chạy các chiến dịch thoại lớn tiếp cận hàng ngàn khách hàng với các tin nhắn cá nhân hóa",
+              "primaryButton": "Lập kế hoạch chiến dịch của bạn",
+              "secondaryButton": "Xem các trường hợp nghiên cứu"
+            }
+          },
+          "hero": {
+            "title": "Tự động hóa dịch vụ thu nợ",
+            "description": "Hợp lý hóa quy trình thu nợ của bạn với gọi điện do AI hỗ trợ duy trì mối quan hệ khách hàng trong khi cải thiện tỷ lệ thu nợ. Hoàn toàn tuân thủ các quy định FDCPA và TCPA.",
+            "cta": "Cải thiện tỷ lệ thu nợ"
+          },
+          "features": {
+            "title": "Tính năng thu nợ thông minh",
+            "subtitle": "Tự động hóa thu nợ chuyên nghiệp, tuân thủ và hiệu quả",
+            "paymentReminders": {
+              "title": "Nhắc nhở thanh toán tự động",
+              "description": "Nhắc nhở nhẹ nhàng, chuyên nghiệp duy trì mối quan hệ khách hàng trong khi khuyến khích thanh toán.",
+              "benefit1": "Nhắn tin có thể tùy chỉnh",
+              "benefit2": "Nhiều lần liên hệ",
+              "benefit3": "Các tùy chọn kế hoạch thanh toán"
+            },
+            "compliance": {
+              "title": "Tuân thủ & Quy định",
+              "description": "Tuân thủ tích hợp với FDCPA, TCPA và các quy định thu nợ khác.",
+              "benefit1": "Tuân thủ quy định",
+              "benefit2": "Ghi âm cuộc gọi",
+              "benefit3": "Nhật ký kiểm toán"
+            },
+            "optimalTiming": {
+              "title": "Thời gian tối ưu",
+              "description": "AI xác định thời điểm tốt nhất để liên hệ với khách hàng để có tỷ lệ phản hồi tối đa.",
+              "benefit1": "Nhận thức múi giờ",
+              "benefit2": "Các mẫu hành vi",
+              "benefit3": "Tối ưu hóa phản hồi"
+            }
+          },
+          "collectionProcess": {
+            "title": "Chiến lược thu nợ lũy tiến",
+            "subtitle": "Cách tiếp cận leo thang tối đa hóa thu nợ trong khi bảo toàn mối quan hệ",
+            "earlyReminder": {
+              "stage": "Nhắc nhở sớm",
+              "description": "Nhắc nhở thanh toán thân thiện cho các tài khoản quá hạn gần đây",
+              "approach": "Tông giọng nhẹ nhàng, hữu ích với các tùy chọn thanh toán",
+              "success": "Tỷ lệ thanh toán 65%"
+            },
+            "followUp": {
+              "stage": "Theo dõi",
+              "description": "Giao tiếp trực tiếp hơn cho các tài khoản quá hạn dai dẳng",
+              "approach": "Hậu quả rõ ràng, ưu đãi kế hoạch thanh toán",
+              "success": "Tỷ lệ thanh toán 45%"
+            },
+            "finalNotice": {
+              "stage": "Thông báo cuối cùng",
+              "description": "Nỗ lực cuối cùng trước khi leo thang cho các nhà thu nợ con người",
+              "approach": "Tông giọng khẩn cấp, thời hạn thanh toán cuối cùng",
+              "success": "Tỷ lệ thanh toán 30%"
+            },
+            "humanHandoff": {
+              "stage": "Chuyển giao cho con người",
+              "description": "Các trường hợp phức tạp được chuyển cho các nhà thu nợ con người với đầy đủ ngữ cảnh",
+              "approach": "Lịch sử tài khoản chi tiết và các tương tác trước đó",
+              "success": "Tỷ lệ giải quyết 25%"
+            }
+          },
+          "benefits": {
+            "title": "Kết quả thu nợ đã được chứng minh",
+            "subtitle": "Xem tác động của thu nợ do AI hỗ trợ đối với tỷ lệ thu hồi của bạn",
+            "collectionRates": {
+              "metric": "40%",
+              "description": "Tăng tỷ lệ thu nợ"
+            },
+            "costReduction": {
+              "metric": "60%",
+              "description": "Giảm chi phí thu nợ"
+            },
+            "paymentProcessing": {
+              "metric": "80%",
+              "description": "Xử lý thanh toán nhanh hơn"
+            },
+            "complianceRate": {
+              "metric": "95%",
+              "description": "Tỷ lệ tuân thủ quy định"
+            }
+          },
+          "complianceSection": {
+            "title": "Tuân thủ tích hợp",
+            "description": "Nền tảng thu nợ của chúng tôi được thiết kế với tuân thủ là cốt lõi, đảm bảo tất cả các tương tác đáp ứng các quy định của liên bang và tiểu bang trong khi duy trì các tiêu chuẩn chuyên nghiệp.",
+            "features": {
+              "fdcpaCompliance": "Tuân thủ FDCPA",
+              "tcpaCompliance": "Tuân thủ TCPA",
+              "stateRegulation": "Tuân thủ quy định của tiểu bang",
+              "callRecording": "Ghi âm & Giám sát cuộc gọi",
+              "disputeHandling": "Xử lý tranh chấp",
+              "ceaseDesist": "Quản lý ngừng & chấm dứt"
+            },
+            "subFeatures": {
+              "regulatoryCompliance": {
+                "title": "Tuân thủ quy định",
+                "description": "FDCPA, TCPA và các quy định cụ thể của tiểu bang"
+              },
+              "auditTrail": {
+                "title": "Nhật ký kiểm toán hoàn chỉnh",
+                "description": "Ghi nhật ký chi tiết tất cả các tương tác và kết quả"
+              },
+              "timingControls": {
+                "title": "Kiểm soát thời gian",
+                "description": "Tuân thủ tự động các hạn chế thời gian gọi"
+              }
+            },
+            "featuresTitle": "Tính năng tuân thủ"
+          },
+          "cta": {
+            "title": "Sẵn sàng cải thiện tỷ lệ thu nợ của bạn?",
+            "subtitle": "Bắt đầu thu hồi nhiều nợ hơn với thu nợ do AI hỗ trợ, chuyên nghiệp, tuân thủ",
+            "startFreeTrial": "Bắt đầu dùng thử miễn phí",
+            "scheduleDemo": "Đặt lịch demo"
+          },
+          "leadGeneration": {
+            "hero": {
+              "title": "Tạo & Sàng lọc khách hàng tiềm năng",
+              "subtitle": "Chuyển đổi kênh bán hàng của bạn với việc tạo khách hàng tiềm năng do AI hỗ trợ xác định, sàng lọc và nuôi dưỡng khách hàng tiềm năng tự động, chỉ cung cấp các khách hàng tiềm năng chất lượng cao nhất cho đội ngũ bán hàng của bạn.",
+              "cta": "Tăng cường tạo khách hàng tiềm năng của bạn"
+            },
+            "features": {
+              "title": "Tính năng tạo khách hàng tiềm năng thông minh",
+              "subtitle": "Công nghệ AI tiên tiến xác định và sàng lọc khách hàng tiềm năng với độ chính xác",
+              "intelligentQualification": {
+                "title": "Sàng lọc khách hàng tiềm năng thông minh",
+                "description": "Các cuộc trò chuyện do AI hỗ trợ xác định các khách hàng tiềm năng chất lượng cao và thu thập thông tin cần thiết.",
+                "benefits": {
+                  "automatedScoring": "Chấm điểm tự động",
+                  "intentDetection": "Phát hiện ý định",
+                  "demographicProfiling": "Hồ sơ nhân khẩu học"
+                }
+              },
+              "personalizedOutreach": {
+                "title": "Tiếp cận cá nhân hóa",
+                "description": "Các cuộc trò chuyện động được điều chỉnh cho từng khách hàng tiềm năng dựa trên hồ sơ và sở thích của họ.",
+                "benefits": {
+                  "customMessaging": "Nhắn tin tùy chỉnh",
+                  "behavioralTriggers": "Các kích hoạt hành vi",
+                  "contextualResponses": "Phản hồi theo ngữ cảnh"
+                }
+              },
+              "realTimeAnalytics": {
+                "title": "Phân tích thời gian thực",
+                "description": "Theo dõi hiệu suất chiến dịch và chất lượng khách hàng tiềm năng với báo cáo toàn diện.",
+                "benefits": {
+                  "conversionTracking": "Theo dõi chuyển đổi",
+                  "qualityMetrics": "Các chỉ số chất lượng",
+                  "roiAnalysis": "Phân tích ROI"
+                }
+              }
+            },
+            "process": {
+              "title": "Quy trình sàng lọc khách hàng tiềm năng",
+              "subtitle": "Từ liên hệ ban đầu đến chuyển giao đủ điều kiện - xem cách AI của chúng tôi hoạt động",
+              "steps": {
+                "initialContact": {
+                  "title": "Liên hệ ban đầu",
+                  "description": "Nhân viên AI thực hiện các cuộc gọi đi cá nhân hóa cho khách hàng tiềm năng",
+                  "outcome": "Tỷ lệ tương tác: 35%"
+                },
+                "needsAssessment": {
+                  "title": "Đánh giá nhu cầu",
+                  "description": "Đặt câu hỏi thông minh để hiểu yêu cầu của khách hàng tiềm năng",
+                  "outcome": "Tỷ lệ sàng lọc: 60%"
+                },
+                "interestScoring": {
+                  "title": "Chấm điểm sự quan tâm",
+                  "description": "AI chấm điểm chất lượng khách hàng tiềm năng dựa trên phản hồi và tương tác",
+                  "outcome": "Tỷ lệ chính xác: 85%"
+                },
+                "handoffToSales": {
+                  "title": "Chuyển giao cho bán hàng",
+                  "description": "Khách hàng tiềm năng đủ điều kiện được chuyển cho đội ngũ bán hàng con người với đầy đủ ngữ cảnh",
+                  "outcome": "Tỷ lệ chuyển đổi: 25%"
+                }
+              }
+            },
+            "results": {
+              "title": "Kết quả đã được chứng minh",
+              "subtitle": "Xem tác động của việc tạo khách hàng tiềm năng do AI hỗ trợ đối với kênh bán hàng của bạn",
+              "qualifiedLeads": {
+                "metric": "300%",
+                "description": "Tăng khách hàng tiềm năng đủ điều kiện"
+              },
+              "costReduction": {
+                "metric": "60%",
+                "description": "Giảm chi phí mỗi khách hàng tiềm năng"
+              },
+              "accuracy": {
+                "metric": "85%",
+                "description": "Độ chính xác sàng lọc khách hàng tiềm năng"
+              },
+              "conversion": {
+                "metric": "25%",
+                "description": "Tỷ lệ chuyển đổi khách hàng tiềm năng thành khách hàng"
+              }
+            },
+            "industries": {
+              "title": "Những câu chuyện thành công trong ngành",
+              "subtitle": "Xem cách các ngành khác nhau hưởng lợi từ việc tạo khách hàng tiềm năng AI",
+              "realEstate": {
+                "name": "Bất động sản",
+                "description": "Sàng lọc người mua và người bán tài sản, lên lịch xem nhà",
+                "results": {
+                  "moreLeads": "Tăng 40% khách hàng tiềm năng đủ điều kiện",
+                  "fasterCycle": "Chu kỳ bán hàng nhanh hơn 50%"
+                }
+              },
+              "insurance": {
+                "name": "Bảo hiểm",
+                "description": "Xác định khách hàng tiềm năng cần bảo hiểm, thu thập thông tin rủi ro",
+                "results": {
+                  "increaseSales": "Tăng 35% doanh số bảo hiểm",
+                  "costReduction": "Giảm 60% chi phí"
+                }
+              },
+              "softwareSaas": {
+                "name": "Phần mềm/SaaS",
+                "description": "Sàng lọc khách hàng tiềm năng doanh nghiệp, lên lịch demo sản phẩm",
+                "results": {
+                  "demoBookings": "Tăng 3 lần số lượt đặt demo",
+                  "closeRate": "Tỷ lệ chốt cao hơn 45%"
+                }
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng chuyển đổi việc tạo khách hàng tiềm năng của bạn?",
+              "subtitle": "Bắt đầu tạo và sàng lọc nhiều khách hàng tiềm năng hơn với gọi đi do AI hỗ trợ",
+              "startTrial": "Bắt đầu dùng thử miễn phí",
+              "scheduleDemo": "Đặt lịch demo"
+            },
+            "title": "Tạo & Sàng lọc khách hàng tiềm năng",
+            "description": "Chủ động sàng lọc khách hàng tiềm năng và lên lịch theo dõi cho đội ngũ bán hàng.",
+            "benefit1": "Chuyển đổi cao hơn",
+            "benefit2": "Khách hàng tiềm năng đủ điều kiện",
+            "benefit3": "Hiệu quả bán hàng"
+          },
+          "customerSurveys": {
+            "hero": {
+              "title": "Tự động hóa khảo sát khách hàng",
+              "description": "Thu thập phản hồi có giá trị từ khách hàng thông qua các cuộc trò chuyện giọng nói tự nhiên. Thực hiện các cuộc khảo sát tự động mang lại cảm giác cá nhân và hấp dẫn, đạt được tỷ lệ phản hồi cao hơn và thông tin chi tiết chi tiết hơn so với các phương pháp truyền thống.",
+              "cta": "Bắt đầu chiến dịch khảo sát"
+            },
+            "sections": {
+              "features": {
+                "title": "Tính năng khảo sát thông minh",
+                "subtitle": "Công nghệ AI tiên tiến làm cho các cuộc khảo sát giống như các cuộc trò chuyện tự nhiên"
+              },
+              "surveys": {
+                "title": "Giải pháp khảo sát toàn diện",
+                "subtitle": "Các loại khảo sát được điều chỉnh cho các mục tiêu và thông tin chi tiết kinh doanh khác nhau"
+              },
+              "sampleQuestions": "Câu hỏi mẫu:",
+              "keyMetrics": "Các chỉ số chính:",
+              "analytics": {
+                "title": "Phân tích & Thông tin chi tiết nâng cao",
+                "description": "AI của chúng tôi không chỉ thu thập phản hồi—nó phân tích cảm xúc, xác định xu hướng và cung cấp thông tin chi tiết có thể hành động giúp bạn đưa ra các quyết định dựa trên dữ liệu để cải thiện doanh nghiệp của bạn."
+              },
+              "analysisFeatures": {
+                "title": "Tính năng phân tích"
+              },
+              "benefits": {
+                "title": "Kết quả hiệu suất khảo sát",
+                "subtitle": "Những cải thiện đã được chứng minh trong việc thu thập phản hồi và thông tin chi tiết của khách hàng"
+              }
+            },
+            "features": {
+              "conversational": {
+                "title": "Khảo sát đàm thoại",
+                "description": "Các cuộc trò chuyện giọng nói tự nhiên mang lại cảm giác như các cuộc thảo luận thân thiện hơn là các cuộc khảo sát chính thức.",
+                "benefits": {
+                  "0": "Tỷ lệ phản hồi cao hơn",
+                  "1": "Tương tác tự nhiên",
+                  "2": "Phản hồi chi tiết"
+                }
+              },
+              "analytics": {
+                "title": "Phân tích thời gian thực",
+                "description": "Phân tích và báo cáo tức thì các phản hồi khảo sát với thông tin chi tiết có thể hành động.",
+                "benefits": {
+                  "0": "Bảng điều khiển trực tiếp",
+                  "1": "Phân tích cảm xúc",
+                  "2": "Xác định xu hướng"
+                }
+              },
+              "outreach": {
+                "title": "Tiếp cận được nhắm mục tiêu",
+                "description": "Tiếp cận các phân khúc khách hàng cụ thể với trải nghiệm khảo sát cá nhân hóa.",
+                "benefits": {
+                  "0": "Nhắm mục tiêu theo nhân khẩu học",
+                  "1": "Phân khúc hành vi",
+                  "2": "Thời gian tùy chỉnh"
+                }
+              }
+            },
+            "surveyTypes": {
+              "csat": {
+                "title": "Sự hài lòng của khách hàng (CSAT)",
+                "description": "Đo lường sự hài lòng tổng thể với sản phẩm, dịch vụ hoặc tương tác",
+                "questions": {
+                  "0": "Bạn hài lòng với dịch vụ của chúng tôi đến mức nào?",
+                  "1": "Chúng tôi có thể cải thiện điều gì?",
+                  "2": "Bạn có giới thiệu chúng tôi không?"
+                },
+                "metrics": {
+                  "0": "Điểm CSAT",
+                  "1": "Điểm Net Promoter",
+                  "2": "Tỷ lệ phản hồi"
+                }
+              },
+              "postPurchase": {
+                "title": "Phản hồi sau mua hàng",
+                "description": "Thu thập thông tin chi tiết ngay sau khi mua hàng hoặc tương tác dịch vụ",
+                "questions": {
+                  "0": "Trải nghiệm mua hàng của bạn như thế nào?",
+                  "1": "Sản phẩm có đáp ứng mong đợi không?",
+                  "2": "Có bất kỳ vấn đề giao hàng nào không?"
+                },
+                "metrics": {
+                  "0": "Sự hài lòng khi mua hàng",
+                  "1": "Đánh giá giao hàng",
+                  "2": "Chất lượng sản phẩm"
+                }
+              },
+              "productDev": {
+                "title": "Phát triển sản phẩm",
+                "description": "Thu thập ý kiến đóng góp cho các tính năng, sản phẩm hoặc cải tiến dịch vụ mới",
+                "questions": {
+                  "0": "Bạn muốn thấy những tính năng nào?",
+                  "1": "Bạn sử dụng sản phẩm của chúng tôi như thế nào?",
+                  "2": "Những vấn đề nào cần giải quyết?"
+                },
+                "metrics": {
+                  "0": "Yêu cầu tính năng",
+                  "1": "Các mẫu sử dụng",
+                  "2": "Điểm đau"
+                }
+              },
+              "marketResearch": {
+                "title": "Nghiên cứu thị trường",
+                "description": "Hiểu xu hướng thị trường, sở thích và bối cảnh cạnh tranh",
+                "questions": {
+                  "0": "Bạn thích thương hiệu nào?",
+                  "1": "Bạn đưa ra quyết định mua hàng như thế nào?",
+                  "2": "Điều gì ảnh hưởng đến lựa chọn của bạn?"
+                },
+                "metrics": {
+                  "0": "Nhận thức thương hiệu",
+                  "1": "Các yếu tố thúc đẩy mua hàng",
+                  "2": "Xu hướng thị trường"
+                }
+              }
+            },
+            "analytics": {
+              "sentimentAnalysis": {
+                "title": "Phân tích cảm xúc",
+                "description": "Hiểu tông giọng cảm xúc đằng sau các phản hồi"
+              },
+              "trendIdentification": {
+                "title": "Xác định xu hướng",
+                "description": "Phát hiện các mẫu và các vấn đề mới nổi sớm"
+              },
+              "actionableReports": {
+                "title": "Báo cáo có thể hành động",
+                "description": "Nhận các đề xuất cụ thể để cải thiện"
+              }
+            },
+            "analysisFeatures": {
+              "0": "Phân tích cảm xúc thời gian thực",
+              "1": "Phân loại phản hồi tự động",
+              "2": "Xác định xu hướng và cảnh báo",
+              "3": "Bảng điều khiển báo cáo tùy chỉnh",
+              "4": "Tích hợp với hệ thống CRM",
+              "5": "Tạo thông tin chi tiết có thể hành động"
+            },
+            "dashboard": {
+              "title": "Bảng điều khiển khảo sát trực tiếp",
+              "responsesToday": "Phản hồi hôm nay:",
+              "completionRate": "Tỷ lệ hoàn thành:",
+              "avgSatisfaction": "Sự hài lòng trung bình:",
+              "sentiment": "Cảm xúc:",
+              "responsesTodayValue": "1.847",
+              "completionRateValue": "85.3%",
+              "avgSatisfactionValue": "4.2/5",
+              "sentimentValue": "78% Tích cực"
+            },
+            "benefits": {
+              "0": {
+                "metric": "3x",
+                "description": "Tỷ lệ phản hồi cao hơn các cuộc khảo sát truyền thống"
+              },
+              "1": {
+                "metric": "85%",
+                "description": "Tỷ lệ hoàn thành khảo sát"
+              },
+              "2": {
+                "metric": "60%",
+                "description": "Thu thập phản hồi chi tiết hơn"
+              },
+              "3": {
+                "metric": "24/7",
+                "description": "Triển khai khảo sát tự động"
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng thu thập thông tin chi tiết khách hàng tốt hơn?",
+              "subtitle": "Bắt đầu thu thập phản hồi có giá trị với các cuộc khảo sát đàm thoại mà khách hàng thực sự muốn hoàn thành",
+              "primaryBtn": "Khởi chạy chiến dịch khảo sát",
+              "secondaryBtn": "Xem khảo sát mẫu"
+            }
+          },
+          "proactiveSupport": {
+            "hero": {
+              "title": "Hỗ trợ khách hàng chủ động",
+              "description": "Luôn đi trước các vấn đề của khách hàng với các thông báo chủ động thông minh. Tự động thông báo cho khách hàng về các cập nhật dịch vụ, thay đổi tài khoản và thông tin quan trọng trước khi họ cần gọi cho bạn.",
+              "cta": "Kích hoạt hỗ trợ chủ động"
+            },
+            "features": {
+              "title": "Tính năng chủ động thông minh",
+              "subtitle": "Tự động hóa nâng cao dự đoán nhu cầu của khách hàng và ngăn ngừa vấn đề",
+              "proactiveNotifications": {
+                "title": "Thông báo chủ động",
+                "description": "Tự động thông báo cho khách hàng về các cập nhật quan trọng, thay đổi hoặc vấn đề trước khi chúng trở thành vấn đề.",
+                "benefit1": "Cảnh báo dịch vụ",
+                "benefit2": "Cập nhật tài khoản",
+                "benefit3": "Thông báo phòng ngừa"
+              },
+              "issuePrevention": {
+                "title": "Phòng ngừa vấn đề",
+                "description": "Xác định các vấn đề tiềm ẩn sớm và tiếp cận khách hàng với các giải pháp.",
+                "benefit1": "Phát hiện sớm",
+                "benefit2": "Các biện pháp phòng ngừa",
+                "benefit3": "Giải quyết vấn đề"
+              },
+              "timelyCommunication": {
+                "title": "Giao tiếp kịp thời",
+                "description": "Cung cấp thông tin quan trọng vào đúng thời điểm để tối đa hóa sự hài lòng của khách hàng.",
+                "benefit1": "Thời gian tối ưu",
+                "benefit2": "Nhận thức khẩn cấp",
+                "benefit3": "Gửi theo lịch trình"
+              }
+            },
+            "notificationTypes": {
+              "title": "Các loại thông báo toàn diện",
+              "subtitle": "Bao gồm tất cả các khía cạnh của giao tiếp khách hàng với tự động hóa thông minh",
+              "serviceOutages": {
+                "type": "Sự cố dịch vụ",
+                "description": "Thông báo cho khách hàng về bảo trì theo kế hoạch hoặc gián đoạn dịch vụ không mong muốn",
+                "example1": "Các khung thời gian bảo trì theo kế hoạch",
+                "example2": "Sự cố không mong muốn",
+                "example3": "Cập nhật khôi phục dịch vụ",
+                "urgency": "Cao",
+                "timing": "Ngay lập tức"
+              },
+              "accountChanges": {
+                "type": "Thay đổi tài khoản",
+                "description": "Thông báo cho khách hàng về các thay đổi quan trọng đối với tài khoản hoặc dịch vụ của họ",
+                "example1": "Cập nhật chính sách",
+                "example2": "Thay đổi tỷ lệ",
+                "example3": "Sửa đổi tính năng",
+                "urgency": "Trung bình",
+                "timing": "Thông báo trước"
+              },
+              "securityAlerts": {
+                "type": "Cảnh báo bảo mật",
+                "description": "Cảnh báo khách hàng về các vấn đề bảo mật tiềm ẩn hoặc hoạt động đáng ngờ",
+                "example1": "Các lần đăng nhập",
+                "example2": "Thay đổi mật khẩu",
+                "example3": "Truy cập tài khoản",
+                "urgency": "Cao",
+                "timing": "Thời gian thực"
+              },
+              "productUpdates": {
+                "type": "Cập nhật sản phẩm",
+                "description": "Chia sẻ thông tin về các tính năng, cải tiến hoặc thay đổi mới",
+                "example1": "Các tính năng mới",
+                "example2": "Cập nhật ứng dụng",
+                "example3": "Cải tiến dịch vụ",
+                "urgency": "Thấp",
+                "timing": "Theo lịch trình"
+              },
+              "billingNotifications": {
+                "type": "Thông báo thanh toán",
+                "description": "Giao tiếp chủ động về thanh toán, các khoản thanh toán và trạng thái tài khoản",
+                "example1": "Ngày đến hạn thanh toán",
+                "example2": "Thanh toán không thành công",
+                "example3": "Cập nhật tín dụng",
+                "urgency": "Trung bình",
+                "timing": "Thông báo trước"
+              },
+              "deliveryUpdates": {
+                "type": "Cập nhật giao hàng",
+                "description": "Giữ khách hàng được thông báo về các thay đổi trạng thái vận chuyển và giao hàng",
+                "example1": "Chậm trễ vận chuyển",
+                "example2": "Xác nhận giao hàng",
+                "example3": "Các vấn đề địa chỉ",
+                "urgency": "Trung bình",
+                "timing": "Thời gian thực"
+              }
+            },
+            "urgency": {
+              "high": "Cao",
+              "medium": "Trung bình",
+              "low": "Thấp"
+            },
+            "labels": {
+              "examples": "Ví dụ",
+              "timing": "Thời gian"
+            },
+            "automationSection": {
+              "title": "Công cụ tự động hóa nâng cao",
+              "description": "Hệ thống tự động hóa thông minh của chúng tôi liên tục giám sát các dịch vụ và tài khoản khách hàng của bạn, tự động kích hoạt các thông báo phù hợp dựa trên các quy tắc được xác định trước và sở thích của khách hàng.",
+              "subFeatures": {
+                "realTimeMonitoring": {
+                  "title": "Giám sát thời gian thực",
+                  "description": "Giám sát hệ thống và tài khoản liên tục"
+                },
+                "smartPrioritization": {
+                  "title": "Ưu tiên thông minh",
+                  "description": "Xếp hạng và gửi cảnh báo thông minh"
+                },
+                "customerPreferences": {
+                  "title": "Sở thích của khách hàng",
+                  "description": "Tôn trọng sở thích giao tiếp cá nhân"
+                }
+              },
+              "featuresTitle": "Tính năng tự động hóa",
+              "features": {
+                "realTimeMonitoring": "Giám sát hệ thống thời gian thực",
+                "intelligentPrioritization": "Ưu tiên cảnh báo thông minh",
+                "preferenceManagement": "Quản lý sở thích khách hàng",
+                "multiChannelDelivery": "Các tùy chọn gửi đa kênh",
+                "escalationProtocols": "Các giao thức leo thang",
+                "performanceAnalytics": "Phân tích hiệu suất"
+              },
+              "liveMonitoring": {
+                "title": "Giám sát trực tiếp",
+                "activeMonitors": "Màn hình đang hoạt động:",
+                "activeMonitorsValue": "1.247",
+                "notificationsSent": "Thông báo đã gửi:",
+                "notificationsSentValue": "3.892",
+                "issuesPrevented": "Các vấn đề đã ngăn chặn:",
+                "issuesPreventedValue": "156"
+              }
+            },
+            "benefits": {
+              "title": "Tác động hỗ trợ chủ động",
+              "subtitle": "Những cải thiện có thể đo lường được về sự hài lòng của khách hàng và hiệu quả hỗ trợ",
+              "reactiveCalls": {
+                "metric": "70%",
+                "description": "Giảm các cuộc gọi hỗ trợ phản ứng"
+              },
+              "customerSatisfaction": {
+                "metric": "85%",
+                "description": "Sự hài lòng của khách hàng với các cập nhật chủ động"
+              },
+              "customerChurn": {
+                "metric": "50%",
+                "description": "Giảm tỷ lệ rời bỏ khách hàng"
+              },
+              "automatedMonitoring": {
+                "metric": "24/7",
+                "description": "Giám sát và cảnh báo tự động"
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng đi trước các vấn đề của khách hàng?",
+              "subtitle": "Chuyển đổi hỗ trợ khách hàng của bạn với các thông báo chủ động thông minh và phòng ngừa vấn đề",
+              "startProactiveSupport": "Bắt đầu hỗ trợ chủ động",
+              "seeDemo": "Xem demo"
+            },
+            "title": "Hỗ trợ chủ động",
+            "description": "Thông báo cho khách hàng về các cập nhật dịch vụ và thông tin quan trọng.",
+            "benefit1": "Giao tiếp chủ động",
+            "benefit2": "Phòng ngừa vấn đề",
+            "benefit3": "Sự hài lòng của khách hàng"
+          },
+          "seniorCheckCalls": {
+            "hero": {
+              "title": "Kiểm tra cuộc gọi & Giám sát sức khỏe cho người cao tuổi",
+              "description": "Mang lại sự an tâm cho các gia đình với các cuộc kiểm tra sức khỏe định kỳ do AI hỗ trợ cho người cao tuổi. Các cuộc trò chuyện đầy cảm thông giám sát sức khỏe, phát hiện các trường hợp khẩn cấp và đảm bảo an toàn trong khi vẫn duy trì phẩm giá và sự độc lập.",
+              "button": "Bắt đầu giám sát sức khỏe"
+            },
+            "features": {
+              "title": "Chăm sóc người cao tuổi đầy cảm thông",
+              "subtitle": "Công nghệ AI được thiết kế đặc biệt cho sức khỏe và an toàn của người cao tuổi",
+              "wellnessMonitoring": {
+                "title": "Giám sát sức khỏe",
+                "description": "Kiểm tra định kỳ để giám sát sức khỏe và hạnh phúc của người cao tuổi bằng các cuộc trò chuyện AI đầy cảm thông.",
+                "benefit1": "Lịch trình hàng ngày/hàng tuần",
+                "benefit2": "Theo dõi trạng thái sức khỏe",
+                "benefit3": "Nhắc nhở thuốc"
+              },
+              "emergencyDetection": {
+                "title": "Phát hiện khẩn cấp",
+                "description": "AI tiên tiến nhận dạng các tín hiệu đau khổ và các tình huống khẩn cấp để phản ứng ngay lập tức.",
+                "benefit1": "Nhận dạng khủng hoảng",
+                "benefit2": "Liên hệ khẩn cấp",
+                "benefit3": "Cảnh báo người phản ứng đầu tiên"
+              },
+              "flexibleScheduling": {
+                "title": "Lên lịch linh hoạt",
+                "description": "Lịch trình cuộc gọi có thể tùy chỉnh thích ứng với sở thích và nhu cầu cá nhân.",
+                "benefit1": "Thời gian cá nhân hóa",
+                "benefit2": "Điều chỉnh ngày lễ",
+                "benefit3": "Phối hợp gia đình"
+              }
+            },
+            "checkTypes": {
+              "title": "Dịch vụ kiểm tra toàn diện",
+              "subtitle": "Giám sát sức khỏe linh hoạt được điều chỉnh theo nhu cầu cá nhân",
+              "dailyWellness": {
+                "type": "Kiểm tra sức khỏe hàng ngày",
+                "description": "Các cuộc gọi ngắn hàng ngày để đảm bảo người cao tuổi an toàn và khỏe mạnh",
+                "frequency": "Hàng ngày vào thời gian ưa thích",
+                "duration": "3-5 phút",
+                "focus1": "Sức khỏe chung",
+                "focus2": "Tuân thủ thuốc",
+                "focus3": "Xác nhận an toàn"
+              },
+              "weeklyHealth": {
+                "type": "Đánh giá sức khỏe hàng tuần",
+                "description": "Đánh giá sức khỏe và nhu cầu toàn diện hàng tuần",
+                "frequency": "Hàng tuần vào ngày đã chọn",
+                "duration": "10-15 phút",
+                "focus1": "Thay đổi sức khỏe",
+                "focus2": "Nhắc nhở cuộc hẹn",
+                "focus3": "Cập nhật gia đình"
+              },
+              "emergencyResponse": {
+                "type": "Phản ứng khẩn cấp",
+                "description": "Phản ứng tức thì đối với các cuộc gọi nhỡ hoặc tín hiệu đau khổ",
+                "frequency": "Khi cần",
+                "duration": "Thay đổi",
+                "focus1": "Xác minh phúc lợi",
+                "focus2": "Dịch vụ khẩn cấp",
+                "focus3": "Thông báo gia đình"
+              },
+              "socialConnection": {
+                "type": "Kết nối xã hội",
+                "description": "Các cuộc trò chuyện thân thiện để giảm cô lập và cô đơn",
+                "frequency": "Hai tuần một lần hoặc hàng tháng",
+                "duration": "15-20 phút",
+                "focus1": "Đồng hành",
+                "focus2": "Sức khỏe tâm thần",
+                "focus3": "Đề xuất hoạt động"
+              },
+              "labels": {
+                "frequency": "Tần suất",
+                "duration": "Thời lượng",
+                "focusAreas": "Các lĩnh vực trọng tâm:"
+              }
+            },
+            "safetyProtocols": {
+              "title": "Các giao thức an toàn nâng cao",
+              "description": "Hệ thống kiểm tra cuộc gọi cho người cao tuổi của chúng tôi bao gồm các biện pháp an toàn toàn diện được thiết kế để phát hiện các trường hợp khẩn cấp, phối hợp với các thành viên gia đình và đảm bảo phản ứng nhanh chóng khi cần.",
+              "emergencyResponse": {
+                "title": "Phản ứng khẩn cấp",
+                "description": "Leo thang ngay lập tức cho các cuộc gọi nhỡ hoặc đau khổ"
+              },
+              "familyCoordination": {
+                "title": "Phối hợp gia đình",
+                "description": "Thông báo tự động cho gia đình và người chăm sóc"
+              },
+              "healthcareIntegration": {
+                "title": "Tích hợp chăm sóc sức khỏe",
+                "description": "Phối hợp với các nhà cung cấp dịch vụ chăm sóc sức khỏe và dịch vụ"
+              },
+              "featuresTitle": "Tính năng an toàn",
+              "protocols": {
+                "missedCallEscalation": "Các quy trình leo thang cuộc gọi nhỡ",
+                "emergencyKeyword": "Nhận dạng từ khóa khẩn cấp",
+                "familyNotifications": "Thông báo gia đình và người chăm sóc",
+                "healthcareProvider": "Tích hợp nhà cung cấp dịch vụ chăm sóc sức khỏe",
+                "emergencyServices": "Phối hợp dịch vụ khẩn cấp địa phương",
+                "medicalAlert": "Tương thích hệ thống cảnh báo y tế"
+              }
+            },
+            "benefits": {
+              "title": "Tác động giám sát sức khỏe",
+              "subtitle": "Những cải thiện có thể đo lường được về an toàn của người cao tuổi và sự an tâm của gia đình",
+              "seniorSatisfaction": {
+                "metric": "95%",
+                "description": "Sự hài lòng của người cao tuổi với đồng hành AI"
+              },
+              "emergencyReduction": {
+                "metric": "40%",
+                "description": "Giảm các sự cố khẩn cấp"
+              },
+              "availability": {
+                "metric": "24/7",
+                "description": "Khả dụng phản ứng khẩn cấp"
+              },
+              "familyPeace": {
+                "metric": "85%",
+                "description": "Cải thiện sự an tâm của gia đình"
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng đảm bảo an toàn cho người cao tuổi?",
+              "description": "Mang lại sự an tâm với giám sát sức khỏe AI đầy cảm thông cho những người thân yêu của bạn",
+              "startButton": "Bắt đầu giám sát",
+              "learnButton": "Tìm hiểu thêm"
+            }
+          },
+          "subscriptionRenewals": {
+            "hero": {
+              "title": "Tự động hóa gia hạn đăng ký",
+              "description": "Tối đa hóa gia hạn đăng ký với các chiến dịch do AI hỗ trợ thông minh tương tác với khách hàng vào đúng thời điểm bằng các tin nhắn cá nhân hóa, xử lý thanh toán liền mạch và giảm tỷ lệ rời bỏ thông qua các chiến lược giữ chân chủ động.",
+              "cta": "Tự động hóa gia hạn"
+            },
+            "features": {
+              "title": "Quản lý gia hạn thông minh",
+              "subtitle": "Tự động hóa toàn diện tối đa hóa gia hạn và giảm tỷ lệ rời bỏ",
+              "automatedRenewalReminders": {
+                "title": "Nhắc nhở gia hạn tự động",
+                "description": "Nhắc nhở thông minh được gửi vào thời điểm tối ưu để tối đa hóa tỷ lệ gia hạn và giảm tỷ lệ rời bỏ.",
+                "benefit1": "Thời gian cá nhân hóa",
+                "benefit2": "Nhiều điểm tiếp xúc",
+                "benefit3": "Tối ưu hóa gia hạn"
+              },
+              "paymentProcessing": {
+                "title": "Xử lý thanh toán",
+                "description": "Thu thập và xử lý thanh toán liền mạch cho gia hạn đăng ký qua điện thoại.",
+                "benefit1": "Giao dịch an toàn",
+                "benefit2": "Nhiều phương thức thanh toán",
+                "benefit3": "Khôi phục thanh toán không thành công"
+              },
+              "customerRetention": {
+                "title": "Giữ chân khách hàng",
+                "description": "Tương tác chủ động để giải quyết các mối quan tâm và giữ chân những người đăng ký có giá trị.",
+                "benefit1": "Phòng chống rời bỏ",
+                "benefit2": "Tăng cường giá trị",
+                "benefit3": "Xây dựng lòng trung thành"
+              }
+            },
+            "renewalProcess": {
+              "title": "Dòng thời gian gia hạn chiến lược",
+              "subtitle": "Chuỗi điểm tiếp xúc được tối ưu hóa để tối đa hóa thành công gia hạn",
+              "step1": {
+                "title": "Thông báo sớm",
+                "description": "Nhắc nhở ban đầu được gửi 30 ngày trước ngày gia hạn",
+                "timing": "30 ngày trước",
+                "action": "Nhận thức và chuẩn bị"
+              },
+              "step2": {
+                "title": "Tăng cường giá trị",
+                "description": "Nhấn mạnh lợi ích đăng ký và thống kê sử dụng",
+                "timing": "14 ngày trước",
+                "action": "Minh họa giá trị"
+              },
+              "step3": {
+                "title": "Xác nhận gia hạn",
+                "description": "Yêu cầu gia hạn trực tiếp với xử lý thanh toán",
+                "timing": "7 ngày trước",
+                "action": "Xử lý gia hạn"
+              },
+              "step4": {
+                "title": "Ưu đãi cơ hội cuối cùng",
+                "description": "Nhắc nhở cuối cùng với các ưu đãi giữ chân đặc biệt",
+                "timing": "1 ngày trước",
+                "action": "Nỗ lực giữ chân"
+              }
+            },
+            "subscriptionTypes": {
+              "title": "Các chiến lược dành riêng cho ngành",
+              "subtitle": "Các phương pháp gia hạn được điều chỉnh cho các mô hình đăng ký khác nhau",
+              "saas": {
+                "type": "Phần mềm dưới dạng dịch vụ (SaaS)",
+                "description": "Gia hạn đăng ký phần mềm hàng tháng và hàng năm",
+                "strategy1": "Báo cáo sử dụng tính năng",
+                "strategy2": "Minh họa ROI",
+                "strategy3": "Cơ hội nâng cấp"
+              },
+              "mediaEntertainment": {
+                "type": "Truyền thông & Giải trí",
+                "description": "Dịch vụ phát trực tuyến và đăng ký nội dung kỹ thuật số",
+                "strategy1": "Đề xuất nội dung",
+                "strategy2": "Thống kê xem",
+                "strategy3": "Ưu đãi độc quyền"
+              },
+              "professionalServices": {
+                "type": "Dịch vụ chuyên nghiệp",
+                "description": "Gia hạn tư vấn, huấn luyện và dịch vụ chuyên nghiệp",
+                "strategy1": "Các chỉ số thành công",
+                "strategy2": "Xây dựng mối quan hệ",
+                "strategy3": "Mở rộng dịch vụ"
+              },
+              "ecommerce": {
+                "type": "Đăng ký thương mại điện tử",
+                "description": "Giao hàng sản phẩm và gia hạn thành viên",
+                "strategy1": "Tiện lợi giao hàng",
+                "strategy2": "Tiết kiệm chi phí",
+                "strategy3": "Đa dạng sản phẩm"
+              },
+              "renewalStrategies": "Các chiến lược gia hạn:"
+            },
+            "retention": {
+              "title": "Các chiến lược giữ chân nâng cao",
+              "description": "AI của chúng tôi phân tích hành vi khách hàng, mẫu sử dụng và mức độ tương tác để xác định phương pháp giữ chân hiệu quả nhất cho mỗi người đăng ký, tối đa hóa tỷ lệ gia hạn và giá trị trọn đời của khách hàng.",
+              "optimalTiming": {
+                "title": "Thời gian tối ưu",
+                "description": "AI xác định thời gian liên hệ tốt nhất cho mỗi khách hàng"
+              },
+              "usageAnalytics": {
+                "title": "Phân tích sử dụng",
+                "description": "Tận dụng dữ liệu khách hàng cho các phương pháp cá nhân hóa"
+              },
+              "segmentedCampaigns": {
+                "title": "Các chiến dịch phân khúc",
+                "description": "Các tin nhắn được điều chỉnh cho các phân khúc khách hàng khác nhau"
+              },
+              "tactics": {
+                "title": "Các chiến thuật giữ chân",
+                "tactic1": "Các ưu đãi gia hạn cá nhân hóa",
+                "tactic2": "Phân tích và thông tin chi tiết sử dụng",
+                "tactic3": "Phần thưởng và giảm giá khách hàng thân thiết",
+                "tactic4": "Các tùy chọn nâng cấp dịch vụ",
+                "tactic5": "Tính linh hoạt của kế hoạch thanh toán",
+                "tactic6": "Các chiến dịch giành lại"
+              },
+              "dashboard": {
+                "title": "Bảng điều khiển gia hạn",
+                "renewalsThisMonth": "Gia hạn tháng này:",
+                "renewalRate": "Tỷ lệ gia hạn:",
+                "revenueRetained": "Doanh thu giữ lại:"
+              }
+            },
+            "benefits": {
+              "title": "Kết quả hiệu suất gia hạn",
+              "subtitle": "Tác động đã được chứng minh đối với các chỉ số kinh doanh đăng ký",
+              "metric1": {
+                "value": "85%",
+                "description": "Tỷ lệ gia hạn đăng ký"
+              },
+              "metric2": {
+                "value": "40%",
+                "description": "Giảm tỷ lệ rời bỏ không tự nguyện"
+              },
+              "metric3": {
+                "value": "60%",
+                "description": "Giảm lỗi thanh toán"
+              },
+              "metric4": {
+                "value": "25%",
+                "description": "Tăng giá trị trọn đời của khách hàng"
+              }
+            },
+            "cta": {
+              "title": "Sẵn sàng tối đa hóa gia hạn đăng ký?",
+              "description": "Tự động hóa quy trình gia hạn của bạn và giảm tỷ lệ rời bỏ với các chiến dịch do AI hỗ trợ thông minh",
+              "primaryButton": "Bắt đầu tự động hóa gia hạn",
+              "secondaryButton": "Tính toán ROI"
+            }
+          },
+          "header": "Giải pháp cuộc gọi đi",
+          "description": "Chủ động tương tác với khách hàng bằng các chiến dịch gọi đi tự động",
+          "collections": {
+            "title": "Dịch vụ thu nợ",
+            "description": "Tự động hóa nhắc nhở thanh toán và quy trình thu nợ.",
+            "benefit1": "Thu nợ nhanh hơn",
+            "benefit2": "Thỏa thuận thanh toán",
+            "benefit3": "Tuân thủ"
+          },
+          "reactivation": {
+            "title": "Kích hoạt lại khách hàng",
+            "description": "Tái tương tác với khách hàng không hoạt động bằng tiếp cận cá nhân hóa.",
+            "benefit1": "Các chiến dịch giành lại",
+            "benefit2": "Ưu đãi cá nhân hóa",
+            "benefit3": "Giữ chân khách hàng"
+          },
+          "seniorChecks": {
+            "title": "Kiểm tra cuộc gọi cho người cao tuổi",
+            "description": "Cung cấp kiểm tra sức khỏe cho người cao tuổi định kỳ hoặc theo yêu cầu.",
+            "benefit1": "Giám sát sức khỏe",
+            "benefit2": "Leo thang khẩn cấp",
+            "benefit3": "An tâm"
+          },
+          "campaigns": {
+            "title": "Các chiến dịch quy mô lớn",
+            "description": "Thực hiện các chiến dịch tiếp thị và thông tin khối lượng lớn.",
+            "benefit1": "Phạm vi tiếp cận lớn",
+            "benefit2": "Tin nhắn cá nhân hóa",
+            "benefit3": "Hiệu quả về chi phí"
+          },
+          "renewals": {
+            "title": "Gia hạn đăng ký",
+            "description": "Tự động hóa nhắc nhở và xử lý gia hạn đăng ký.",
+            "benefit1": "Gia hạn tự động",
+            "benefit2": "Giảm tỷ lệ rời bỏ",
+            "benefit3": "Bảo vệ doanh thu"
+          },
+          "surveys": {
+            "title": "Khảo sát khách hàng",
+            "description": "Thực hiện thu thập phản hồi sau dịch vụ tự động.",
+            "benefit1": "Thu thập phản hồi",
+            "benefit2": "Thông tin chi tiết chất lượng",
+            "benefit3": "Dữ liệu cải thiện"
+          }
+        },
+        "hero": {
+          "title": "Giải pháp thoại AI cho mọi nhu cầu kinh doanh",
+          "description": "Khám phá các giải pháp tự động hóa thoại đến và đi toàn diện được thiết kế để chuyển đổi giao tiếp khách hàng và hoạt động kinh doanh của bạn."
+        },
+        "cta": {
+          "title": "Sẵn sàng chuyển đổi giao tiếp kinh doanh của bạn?",
+          "description": "Khám phá cách các giải pháp thoại AI của chúng tôi có thể tự động hóa các tương tác khách hàng của bạn và thúc đẩy tăng trưởng kinh doanh",
+          "button": "Lên lịch tư vấn"
+        },
+        "learnMore": "Tìm hiểu thêm"
+      }
+    }
+  }
+}

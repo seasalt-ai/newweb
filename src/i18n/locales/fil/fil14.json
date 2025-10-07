@@ -1,0 +1,403 @@
+{
+  "textToSpeech": {
+    "hero": {
+      "title": "Teknolohiya ng Text-to-Speech",
+      "subtitle": "Bumuo ng pagsasalita na parang tao mula sa teksto gamit ang aming advanced na neural text-to-speech na teknolohiya. Lumikha ng mga pasadyang boses, suportahan ang 40+ na mga wika, at maghatid ng pambihirang kalidad ng audio.",
+      "cta": "Subukan ang Pagbuo ng Boses"
+    },
+    "demo": {
+      "title": "Damhin ang Aming Teknolohiya sa Boses",
+      "subtitle": "Subukan ang iba't ibang mga boses at pakinggan ang kalidad para sa iyong sarili",
+      "chooseVoice": "Pumili ng isang boses:",
+      "textPrompt": "Ipasok ang teksto upang i-convert sa pagsasalita:",
+      "defaultText": "Kamusta! Ako ay isang katulong sa boses ng AI na pinapagana ng teknolohiya ng SeaVoice. Matutulungan kita sa serbisyo sa customer, pagbebenta, at suporta sa isang natural, parang tao na boses.",
+      "placeholderText": "Mag-type ng isang bagay para sabihin ng aming AI...",
+      "generateSpeech": "Bumuo ng Pagsasalita",
+      "playing": "Nagpe-play..."
+    },
+    "voices": {
+      "sarah": {
+        "name": "Sarah",
+        "gender": "Babae",
+        "accent": "US English",
+        "description": "Propesyonal, mainit"
+      },
+      "tom": {
+        "name": "Tom",
+        "gender": "Lalaki",
+        "accent": "US English",
+        "description": "Palakaibigan, nakikipag-usap"
+      },
+      "lissa": {
+        "name": "Lissa",
+        "gender": "Babae",
+        "accent": "UK English",
+        "description": "Masigla, matulungin"
+      },
+      "alex": {
+        "name": "Alex",
+        "gender": "Lalaki",
+        "accent": "Australian",
+        "description": "Malinaw, may tiwala"
+      },
+      "maria": {
+        "name": "Maria",
+        "gender": "Babae",
+        "accent": "Espanyol",
+        "description": "Nagpapahayag, natural"
+      },
+      "hiroshi": {
+        "name": "Hiroshi",
+        "gender": "Lalaki",
+        "accent": "Hapon",
+        "description": "Magalang, propesyonal"
+      }
+    },
+    "features": {
+      "title": "Advanced na Pagbuo ng Boses",
+      "subtitle": "Naghahatid ang mga makabagong neural network ng kalidad ng pagsasalita na parang tao",
+      "customVoiceCloning": {
+        "title": "Pasadyang Pag-clone ng Boses",
+        "description": "Lumikha ng mga natatanging profile ng boses na tumutugma sa personalidad at istilo ng pagsasalita ng iyong brand.",
+        "capabilities": {
+          "voiceCloning": "Pag-clone ng boses mula sa mga sample",
+          "brandVoice": "Pagkakapare-pareho ng boses ng brand",
+          "emotionalExpression": "Emosyonal na pagpapahayag",
+          "customPronunciations": "Mga pasadyang pagbigkas"
+        }
+      },
+      "advancedControls": {
+        "title": "Mga Advanced na Kontrol",
+        "description": "I-fine-tune ang bawat aspeto ng pagbuo ng pagsasalita para sa perpektong output ng audio.",
+        "capabilities": {
+          "speedAdjustment": "Pagsasaayos ng bilis",
+          "pitchControl": "Kontrol sa pitch",
+          "emphasisPlacement": "Paglalagay ng diin",
+          "pauseInsertion": "Pagpasok ng paghinto"
+        }
+      },
+      "multiLanguageSupport": {
+        "title": "Suporta sa Maraming Wika",
+        "description": "Bumuo ng natural na pagsasalita sa 40+ na mga wika na may katutubong pagbigkas.",
+        "capabilities": {
+          "fortyPlusLanguages": "40+ na mga wika",
+          "regionalAccents": "Mga rehiyonal na accent",
+          "codeSwitching": "Paglipat ng code",
+          "multilingualVoices": "Mga boses sa maraming wika"
+        }
+      }
+    },
+    "qualityMetrics": {
+      "title": "Mga Pambihirang Sukatan ng Kalidad",
+      "subtitle": "Nasusukat na pagganap na naghahatid ng mga propesyonal na resulta",
+      "naturalness": {
+        "metric": "Marka ng Pagiging Natural",
+        "value": "4.8/5",
+        "description": "Rating sa pagsusuri ng tao"
+      },
+      "intelligibility": {
+        "metric": "Pagiging Malinaw",
+        "value": "99.2%",
+        "description": "Katumpakan sa pagkilala ng salita"
+      },
+      "latency": {
+        "metric": "Latency",
+        "value": "< 200ms",
+        "description": "Pagbuo ng teksto sa audio"
+      },
+      "audioQuality": {
+        "metric": "Kalidad ng Audio",
+        "value": "48kHz",
+        "description": "Output na may mataas na katapatan"
+      }
+    },
+    "useCases": {
+      "title": "Mga Maraming Gamit na Application",
+      "subtitle": "Baguhin ang teksto sa pagsasalita sa mga industriya at mga kaso ng paggamit",
+      "customerService": {
+        "title": "Serbisyo sa Customer",
+        "description": "Magbigay ng pare-pareho, propesyonal na mga tugon sa boses para sa mga pakikipag-ugnayan sa customer.",
+        "benefits": {
+          "availability": "24/7 na availability",
+          "consistentQuality": "Pare-parehong kalidad",
+          "multiLanguageSupport": "Suporta sa maraming wika",
+          "brandVoiceAlignment": "Pag-align ng boses ng brand"
+        }
+      },
+      "contentCreation": {
+        "title": "Paglikha ng Nilalaman",
+        "description": "Bumuo ng mga voiceover para sa mga video, podcast, at nilalaman ng multimedia.",
+        "benefits": {
+          "costEffectiveProduction": "Produksyon na epektibo sa gastos",
+          "quickTurnaround": "Mabilis na turnaround",
+          "multipleVoiceOptions": "Maramihang mga pagpipilian sa boses",
+          "easyRevisions": "Madaling mga rebisyon"
+        }
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "Gawing naa-access ang nilalaman na may mataas na kalidad na text-to-speech para sa mga gumagamit na may kapansanan sa paningin.",
+        "benefits": {
+          "screenReaderEnhancement": "Pagpapahusay ng screen reader",
+          "documentNarration": "Pagsasalaysay ng dokumento",
+          "webAccessibility": "Accessibility sa web",
+          "educationalSupport": "Suporta sa edukasyon"
+        }
+      },
+      "interactiveApplications": {
+        "title": "Mga Interactive na Application",
+        "description": "Magdagdag ng mga kakayahan sa boses sa mga app, laro, at mga interactive na karanasan.",
+        "benefits": {
+          "realTimeGeneration": "Real-time na pagbuo",
+          "dynamicContent": "Dinamikong nilalaman",
+          "userEngagement": "Pakikipag-ugnayan ng gumagamit",
+          "immersiveExperiences": "Mga nakaka-engganyong karanasan"
+        }
+      }
+    },
+    "voiceCloning": {
+      "title": "Pasadyang Pag-clone ng Boses",
+      "subtitle": "Lumikha ng mga natatanging profile ng boses na perpektong tumutugma sa personalidad ng iyong brand. Kayang gayahin ng aming advanced na teknolohiya sa pag-clone ng boses ang mga istilo ng pagsasalita, mga accent, at mga emosyonal na pagpapahayag sa ilang minuto lamang ng sample na audio.",
+      "brandVoiceConsistency": {
+        "title": "Pagkakapare-pareho ng Boses ng Brand",
+        "description": "Panatilihin ang pare-parehong boses ng brand sa lahat ng mga pakikipag-ugnayan"
+      },
+      "fineTunedControl": {
+        "title": "Kontrol na Fine-Tuned",
+        "description": "Ayusin ang tono, bilis, at emosyonal na pagpapahayag"
+      },
+      "highFidelityOutput": {
+        "title": "Output na may Mataas na Katapatan",
+        "description": "Propesyonal na kalidad ng audio para sa anumang application"
+      },
+      "process": {
+        "title": "Proseso ng Pag-clone ng Boses",
+        "step1": {
+          "title": "Mag-upload ng mga Sample ng Audio",
+          "description": "Magbigay ng 5-10 minuto ng malinis na mga recording ng audio"
+        },
+        "step2": {
+          "title": "Pagsasanay sa AI",
+          "description": "Natututo ang aming mga neural network ng iyong mga natatanging katangian ng boses"
+        },
+        "step3": {
+          "title": "Pagbuo ng Boses",
+          "description": "Bumuo ng walang limitasyong pagsasalita gamit ang iyong pasadyang boses"
+        }
+      }
+    },
+    "cta": {
+      "title": "Handa nang Bigyan ng Boses ang Iyong Brand?",
+      "subtitle": "Lumikha ng mga pasadyang boses at bumuo ng propesyonal na kalidad na pagsasalita para sa anumang application",
+      "startVoiceCloning": "Simulan ang Pag-clone ng Boses",
+      "exploreApi": "Galugarin ang API"
+    }
+  },
+  "components": {
+    "aiVoiceAvatar": {
+      "badge": {
+        "label": "Interactive na AI Avatar"
+      },
+      "hero": {
+        "title": {
+          "line1": "Kilalanin ang Iyong",
+          "line2": "Ahente ng Boses ng AI"
+        },
+        "subtitle": "Damhin ang hinaharap ng komunikasyon sa AI. Ipinapakita ng aming mga avatar ang mga pag-uusap na parang tao na may emosyonal na katalinuhan at maraming mga pagpipilian sa personalidad."
+      },
+      "voices": {
+        "professional": {
+          "name": "Propesyonal na Sarah",
+          "description": "Malinaw, may awtoridad na boses sa negosyo"
+        },
+        "friendly": {
+          "name": "Palakaibigang Mike",
+          "description": "Mainit, madaling lapitan na serbisyo sa customer"
+        },
+        "empathetic": {
+          "name": "Nagmamalasakit na Emma",
+          "description": "Mahabaging boses sa pangangalagang pangkalusugan"
+        }
+      },
+      "languages": {
+        "english": "Ingles",
+        "spanish": "Espanyol",
+        "french": "Pranses",
+        "german": "Aleman",
+        "chinese": "Tsino"
+      },
+      "demoScripts": {
+        "professional": "Kamusta, ako si Sarah, ang iyong katulong sa negosyo ng AI. Kayang kong pangasiwaan ang mga katanungan ng customer, mag-iskedyul ng mga appointment, at magbigay ng detalyadong impormasyon sa produkto nang may katumpakan at kalinawan.",
+        "friendly": "Hi doon! Ako si Mike, at narito ako upang gawing kamangha-mangha ang iyong karanasan. Kailangan mo man ng tulong sa isang order o mayroon ka lamang isang mabilis na tanong, masaya akong makipag-chat!",
+        "empathetic": "Kamusta, ako si Emma. Naiintindihan ko na ang mga tanong sa pangangalagang pangkalusugan ay maaaring maging nakaka-stress, at narito ako upang magbigay ng mapagmalasakit, tumpak na suporta anumang oras na kailangan mo ito."
+      },
+      "controls": {
+        "voicePersonality": "Pumili ng Personalidad ng Boses:",
+        "language": "Wika:",
+        "demoVoice": "Demo ng Boses",
+        "tryVoiceInput": "Subukan ang Input ng Boses"
+      },
+      "status": {
+        "listening": "Nakikinig...",
+        "speaking": "Nagsasalita...",
+        "ready": "Handa na",
+        "label": "Katayuan:"
+      },
+      "listeningResponse": "Narinig kita! Dito ako tutugon sa iyong input ng boses na may pag-unawa sa konteksto.",
+      "avatarMoods": {
+        "neutral": "neutral",
+        "speaking": "nagsasalita",
+        "listening": "nakikinig",
+        "thinking": "nag-iisip"
+      }
+    }
+  },
+  "voiceConversationFlow": {
+    "steps": {
+      "callConnected": {
+        "title": "Nakakonekta ang Tawag",
+        "description": "Nakakonekta ang customer sa iyong negosyo"
+      },
+      "listening": {
+        "title": "Nakikinig ang AI",
+        "description": "Kinukuha ng advanced na pagkilala sa pagsasalita ang bawat salita"
+      },
+      "processing": {
+        "title": "Nagpoproseso ang AI",
+        "description": "Nauunawaan ng mga neural network ang layunin at konteksto"
+      },
+      "responding": {
+        "title": "Tumutugon ang AI",
+        "description": "Naghahatid ng perpektong tugon ang boses na parang tao"
+      }
+    },
+    "conversationTypes": {
+      "appointmentBooking": "Pag-book ng Appointment",
+      "orderSupport": "Suporta sa Order",
+      "salesInquiry": "Katanungan sa Pagbebenta"
+    },
+    "conversations": {
+      "appointmentBooking": {
+        "customer": "Hi, gusto kong mag-iskedyul ng isang appointment para sa susunod na Martes.",
+        "ai": "Masaya akong tulungan kang mag-iskedyul ng isang appointment. Hayaan mong suriin ko ang aming availability para sa susunod na Martes. Anong oras ang pinakamahusay para sa iyo?"
+      },
+      "orderSupport": {
+        "customer": "Nagkakaproblema ako sa aking kamakailang order. Hindi pa ito dumarating.",
+        "ai": "Naiintindihan ko ang iyong alalahanin tungkol sa iyong order. Hayaan mong hanapin ko iyan para sa iyo kaagad. Maaari mo bang ibigay ang iyong numero ng order?"
+      },
+      "salesInquiry": {
+        "customer": "Maaari mo ba akong sabihan tungkol sa iyong mga plano sa pagpepresyo?",
+        "ai": "Syempre! Mayroon kaming ilang mga pagpipilian sa pagpepresyo upang umangkop sa iba't ibang mga pangangailangan. Nagsisimula ang aming pangunahing plano sa $29/buwan at kasama ang lahat ng mga pangunahing tampok. Gusto mo bang ipaliwanag ko ang mga pagkakaiba?"
+      }
+    },
+    "ui": {
+      "chooseConversationType": "Pumili ng Uri ng Pag-uusap:",
+      "autoProgressing": "Awtomatikong umuunlad sa mga sitwasyon...",
+      "liveConversation": "Live na Pag-uusap:",
+      "speaking": "Nagsasalita...",
+      "aiSpeaking": "Nagsasalita ang AI...",
+      "aiThinking": "Nag-iisip ang AI...",
+      "processingContext": "Nagpoproseso ng konteksto",
+      "accuracyRate": "Rate ng Katumpakan"
+    }
+  },
+  "// Large Scale Campaigns Page - English key-value pairs": "",
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | Omni-Channel Contact Center para sa Maliliit na Negosyo",
+      "description": "Itigil ang pag-juggling ng mga app. Pag-isahin ang bawat tawag ng customer, WhatsApp, at chat sa isang simpleng inbox. Ang all-in-one na contact center na binuo para sa maliliit na negosyo.",
+      "keywords": "omni-channel contact center, komunikasyon sa maliit na negosyo, pinag-isang inbox, software sa serbisyo sa customer, negosyo sa WhatsApp, mga tawag sa boses, suporta sa chat"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | Komunikasyon sa Boses na Pinapagana ng AI - Seasalt.ai",
+        "description": "Baguhin ang iyong mga komunikasyon sa boses gamit ang AI. Nag-aalok ang SeaVoice ng matalinong pagruruta ng tawag, analytics ng boses, at mga awtomatikong tugon. Pangasiwaan ang mga tawag sa customer 24/7 na may mga ahente ng AI na parang tao.",
+        "keywords": "AI voice, software ng call center, analytics ng boses, SeaVoice, matalinong pagruruta ng tawag, awtomatikong sistema ng telepono, katulong sa boses, 24/7 na serbisyo sa customer"
+      },
+      "virtualAssistant": {
+        "title": "24/7 na Virtual Assistant | Mga Solusyon sa Boses ng SeaVoice AI - Seasalt.ai",
+        "description": "Magbigay ng serbisyo sa customer sa buong orasan gamit ang SeaVoice AI Virtual Assistant. Pinangangasiwaan ng mga matalinong ahente ng boses ang mga katanungan ng customer, pag-iiskedyul ng appointment, at mga kahilingan sa suporta, na nagpapabuti ng kasiyahan habang binabawasan ang mga gastos.",
+        "keywords": "virtual assistant, katulong sa boses ng AI, 24/7 na serbisyo sa customer, matalinong serbisyo sa customer, SeaVoice, automation ng boses, automation ng serbisyo sa customer"
+      }
+    }
+  },
+  "// Key structure: seavoice": {
+    "pages": {
+      "solutions": {
+        "outbound": {
+          "largeScaleCampaigns": "",
+          "subscriptionRenewals": ""
+        }
+      }
+    }
+  },
+  "statsCounter": {
+    "section": {
+      "title": "Pinagkakatiwalaan ng mga negosyo sa buong mundo",
+      "subtitle": "Pinapagana ng aming platform ang milyun-milyong pag-uusap araw-araw"
+    },
+    "stats": {
+      "messages": {
+        "label": "Mga Mensahe na Ipinadala",
+        "suffix": "M+"
+      },
+      "calls": {
+        "label": "Mga Tawag na Ginawa",
+        "suffix": "K+"
+      },
+      "uptime": {
+        "label": "Uptime ng Sistema",
+        "suffix": "%"
+      },
+      "countries": {
+        "label": "Mga Bansang Pinagsilbihan",
+        "suffix": "+"
+      },
+      "roi": {
+        "label": "Pagtaas ng ROI",
+        "suffix": "%"
+      }
+    },
+    "dashboard": {
+      "title": "Dashboard ng SeaX",
+      "messagesSent": "Mga Mensahe na Ipinadala",
+      "deliveryRate": "Rate ng Paghahatid",
+      "recentActivity": "Kamakailang Aktibidad",
+      "demo": {
+        "messagesSent": "2.4M",
+        "deliveryRate": "85%"
+      }
+    },
+    "activity": {
+      "flashSale": {
+        "title": "Kampanya sa Flash Sale",
+        "detail": "50,000 SMS na ipinadala • 2 min ang nakalipas"
+      },
+      "leadFollowup": {
+        "title": "Pag-follow-up sa Lead",
+        "detail": "12,000 na tawag na nakumpleto • 5 min ang nakalipas"
+      },
+      "whatsapp": {
+        "title": "Kampanya sa WhatsApp",
+        "detail": "25,000 na mensahe na naka-pila • 8 min ang nakalipas"
+      }
+    },
+    "status": {
+      "liveRunning": "Tumatakbo ang mga live na kampanya",
+      "liveActivity": "Live na aktibidad: Ipinapadala ngayon ang mga mensahe"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "10k+",
+      "callsMax": "5k+",
+      "voicemailMax": "1k+",
+      "whatsappMax": "10k+"
+    },
+    "breakdown": {
+      "localPlus": "lokal +",
+      "tollFreeMinus": "walang bayad"
+    }
+  }
+}

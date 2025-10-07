@@ -1,0 +1,743 @@
+{
+  "seavoice": {
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "预约预订与管理",
+            "description": "透过理解可用性、偏好和业务规则的 AI 自动化预约排程。透过智慧语音互动减少爽约并简化您的预订流程。",
+            "cta": "自动化预约预订"
+          },
+          "features": {
+            "title": "智慧预约管理",
+            "subtitle": "处理复杂排程情境的综合预订系统",
+            "intelligentScheduling": {
+              "title": "智慧排程",
+              "description": "理解可用性和偏好的 AI 驱动预约预订。",
+              "benefit1": "即时可用性",
+              "benefit2": "智慧冲突解决",
+              "benefit3": "偏好匹配"
+            },
+            "automatedReminders": {
+              "title": "自动提醒",
+              "description": "透过自动化预约提醒和确认减少爽约。",
+              "benefit1": "简讯和语音提醒",
+              "benefit2": "可自订时间",
+              "benefit3": "确认追踪"
+            },
+            "multiProviderSupport": {
+              "title": "多提供者支援",
+              "description": "管理多个提供者、地点和服务的预约。",
+              "benefit1": "提供者可用性",
+              "benefit2": "地点管理",
+              "benefit3": "服务分类"
+            }
+          },
+          "capabilities": {
+            "title": "完整预订解决方案",
+            "subtitle": "自动处理预约管理的各个方面",
+            "appointmentScheduling": {
+              "capability": "预约排程",
+              "description": "基于可用性和偏好预订新预约",
+              "feature1": "可用时间段",
+              "feature2": "提供者选择",
+              "feature3": "服务类型匹配"
+            },
+            "rescheduling": {
+              "capability": "重新排程",
+              "description": "透过自动冲突解决修改现有预约",
+              "feature1": "冲突检测",
+              "feature2": "替代建议",
+              "feature3": "自动更新"
+            },
+            "cancellationManagement": {
+              "capability": "取消管理",
+              "description": "高效处理取消和候补名单管理",
+              "feature1": "取消政策",
+              "feature2": "候补名单自动化",
+              "feature3": "退款处理"
+            },
+            "reminderSystem": {
+              "capability": "提醒系统",
+              "description": "自动提醒以减少爽约并提升出席率",
+              "feature1": "多渠道提醒",
+              "feature2": "可自订时间",
+              "feature3": "确认请求"
+            }
+          },
+          "industries": {
+            "title": "产业应用",
+            "subtitle": "针对不同产业和使用案例的客制化预订解决方案",
+            "healthcare": {
+              "industry": "医疗保健",
+              "description": "医疗预约、咨询和手术",
+              "benefit1": "患者排程",
+              "benefit2": "提供者协调",
+              "benefit3": "保险验证"
+            },
+            "beautyWellness": {
+              "industry": "美容与健康",
+              "description": "美发沙龙预约、SPA 服务和健康疗程",
+              "benefit1": "服务持续时间追踪",
+              "benefit2": "造型师偏好",
+              "benefit3": "套餐预订"
+            },
+            "professionalServices": {
+              "industry": "专业服务",
+              "description": "咨询、会议和服务预约",
+              "benefit1": "会议室预订",
+              "benefit2": "顾问可用性",
+              "benefit3": "客户偏好"
+            }
+          },
+          "reminderSection": {
+            "title": "自动提醒系统",
+            "description": "透过智慧提醒活动大幅减少爽约，在最佳时间透过客户偏好的沟通渠道与他们联系。",
+            "multiChannelReminders": {
+              "title": "多渠道提醒",
+              "description": "语音通话、简讯和电子邮件提醒"
+            },
+            "optimalTiming": {
+              "title": "最佳时机",
+              "description": "AI 判断发送提醒的最佳时间"
+            },
+            "performanceTracking": {
+              "title": "效果追踪",
+              "description": "监控提醒效果并优化"
+            },
+            "reminderTimeline": {
+              "title": "提醒时间线"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "初始确认",
+                "description": "预约确认和详细资讯"
+              },
+              "dayBefore": {
+                "title": "前一天提醒",
+                "description": "最终提醒与准备说明"
+              },
+              "lastMinute": {
+                "title": "最后确认",
+                "description": "最终确认和路线指引"
+              },
+              "sevenDays": "7天",
+              "oneDay": "1天",
+              "twoHours": "2小时"
+            }
+          },
+          "benefits": {
+            "title": "预订绩效结果",
+            "subtitle": "预约管理效率的可量化改善",
+            "noShowReduction": {
+              "metric": "40%",
+              "description": "爽约率减少"
+            },
+            "availabilityWindow": {
+              "metric": "24/7",
+              "description": "预订可用性"
+            },
+            "bookingAccuracy": {
+              "metric": "85%",
+              "description": "预订准确率"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "管理工作负担减少"
+            }
+          },
+          "cta": {
+            "title": "准备好自动化预约预订了吗？",
+            "description": "透过智慧预约管理简化排程并减少爽约",
+            "startFreeTrial": "开始免费试用",
+            "scheduleDemo": "预约演示"
+          }
+        },
+        "mentalHealth": {
+          "hero": {
+            "title": "心理健康语音伴侣",
+            "description": "提供充满同理心的 24/7 心理健康支援，AI 会倾听、理解并以同理心回应。安全地衔接危机处理与专业护理之间的差距。",
+            "cta": "了解心理健康 AI"
+          },
+          "features": {
+            "title": "充满同理心的 AI 支援",
+            "description": "在心理健康支援和危机干预方面受过训练的先进 AI",
+            "empathetic": {
+              "title": "富同理心的 AI 伴侣",
+              "description": "经过训练，提供富有同情心、不具批判性的支援，并给出适当的情绪回应。",
+              "benefits": {
+                "activeListening": "积极倾听",
+                "emotionalValidation": "情绪验证",
+                "crisisRecognition": "危机识别"
+              }
+            },
+            "safe": {
+              "title": "安全可靠",
+              "description": "符合 HIPAA 规范的平台，确保所有互动的完全隐私和机密性。",
+              "benefits": {
+                "hipaaCompliance": "符合 HIPAA 规范",
+                "encryptedConversations": "加密对话",
+                "anonymousOptions": "匿名选项"
+              }
+            },
+            "availability": {
+              "title": "24/7 可用性",
+              "description": "当有人需要谈话时随时可用，在危机时刻提供立即支援。",
+              "benefits": {
+                "roundTheClockAccess": "全天候存取",
+                "immediateResponse": "立即回应",
+                "noWaitTimes": "无需等待时间"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "心理健康支援能力",
+            "description": "在心理健康照护范围内提供全面支援",
+            "screening": {
+              "title": "初步心理健康筛检",
+              "description": "使用经过验证的筛检工具进行初步评估",
+              "outcomes": {
+                "earlyIdentification": "早期识别",
+                "riskAssessment": "风险评估",
+                "appropriateReferrals": "适当转介"
+              }
+            },
+            "crisis": {
+              "title": "危机干预",
+              "description": "识别危机情况并提供即时支援或升级处理",
+              "outcomes": {
+                "crisisDetection": "危机侦测",
+                "deEscalationTechniques": "缓解技术",
+                "emergencyProtocols": "紧急协议"
+              }
+            },
+            "navigation": {
+              "title": "资源导航",
+              "description": "引导使用者使用适当的心理健康资源和服务",
+              "outcomes": {
+                "serviceMatching": "服务匹配",
+                "appointmentScheduling": "预约安排",
+                "followUpSupport": "后续支援"
+              }
+            },
+            "emotional": {
+              "title": "情绪支援",
+              "description": "提供富有同情心的倾听和情绪验证",
+              "outcomes": {
+                "reducedIsolation": "减少孤立感",
+                "emotionalRelief": "情绪缓解",
+                "copingStrategies": "应对策略"
+              }
+            }
+          },
+          "safety": {
+            "title": "安全至上设计",
+            "description": "我们的心理健康 AI 以安全为最优先考量进行设计，具备先进的危机侦测和即时升级协议，确保使用者在需要时获得适当的专业护理。",
+            "features": {
+              "title": "安全功能"
+            },
+            "crisisDetection": {
+              "title": "危机侦测",
+              "description": "先进演算法识别危机情况"
+            },
+            "professionalHandoff": {
+              "title": "专业交接",
+              "description": "无缝转移至人工心理健康专业人员"
+            },
+            "emergencyProtocols": {
+              "title": "紧急协议",
+              "description": "需要时立即连接到危机热线"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "危机关键词侦测",
+            "suicideRiskAssessment": "自杀风险评估",
+            "automaticEscalationProtocols": "自动升级协议",
+            "emergencyContactIntegration": "紧急联络人整合",
+            "professionalHandoffProcedures": "专业交接程序",
+            "followUpScheduling": "后续预约安排"
+          },
+          "benefits": {
+            "title": "心理健康影响",
+            "description": "在心理健康支援可及性方面的可衡量改善",
+            "alwaysAvailableSupport": "随时可用的支援",
+            "crisisEscalationReduction": "危机升级减少",
+            "userSatisfactionRate": "使用者满意度",
+            "helpSeekingBehaviorIncrease": "寻求帮助行为增加"
+          },
+          "cta": {
+            "title": "准备好支援心理健康了吗？",
+            "description": "透过真正关怀的 AI 提供富有同情心的 24/7 心理健康支援",
+            "learnMore": "了解更多",
+            "contactSpecialists": "联络专家"
+          }
+        },
+        "callTransfer": {
+          "hero": {
+            "title": "营业时间内的智慧来电转接",
+            "description": "通过 AI 驱动的智慧转接技术彻底改变您的来电路由系统，能够理解来电者意图并立即将其转接至正确的人员，减少等待时间并提升客户满意度。",
+            "primaryCta": "优化您的来电路由"
+          },
+          "features": {
+            "title": "智慧来电路由功能",
+            "description": "先进的 AI 技术，能够准确理解并路由来电",
+            "intelligentRouting": {
+              "title": "智慧路由",
+              "description": "AI 分析来电者意图并路由至最适合的部门或专员。",
+              "benefits": {
+                "0": "意图识别",
+                "1": "技能型路由",
+                "2": "优先级处理"
+              }
+            },
+            "agentOptimization": {
+              "title": "专员优化",
+              "description": "平衡专员间的工作负荷，确保来电能接通到可用的专业人员。",
+              "benefits": {
+                "0": "负载平衡",
+                "1": "可用性检查",
+                "2": "专业领域匹配"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "缩短等待时间",
+              "description": "通过高效路由和队列管理将客户等待时间降至最低。",
+              "benefits": {
+                "0": "队列优化",
+                "1": "回电选项",
+                "2": "即时更新"
+              }
+            }
+          },
+          "routing": {
+            "title": "智慧路由实际应用",
+            "description": "了解我们的 AI 如何识别意图并路由来电以获得最佳结果"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "帐单查询",
+              "action": "路由至帐务部门",
+              "result": "90% 首次通话解决率"
+            },
+            "technicalSupport": {
+              "trigger": "技术支援",
+              "action": "路由至技术团队",
+              "result": "85% 问题解决率"
+            },
+            "salesInterest": {
+              "trigger": "销售咨询",
+              "action": "路由至销售团队",
+              "result": "40% 转换率"
+            },
+            "vipCustomer": {
+              "trigger": "VIP 客户",
+              "action": "优先队列",
+              "result": "< 30 秒等待时间"
+            }
+          },
+          "benefits": {
+            "title": "可衡量的成效",
+            "description": "实施智慧来电转接的实际成果"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "平均等待时间减少"
+            },
+            "resolution": {
+              "description": "首次通话解决率"
+            },
+            "efficiency": {
+              "description": "专员效率提升"
+            },
+            "accuracy": {
+              "description": "正确部门路由准确率"
+            }
+          },
+          "cta": {
+            "title": "准备好优化您的来电路由了吗？",
+            "description": "通过智慧来电转接减少等待时间并提升客户满意度",
+            "primaryButton": "开始免费试用",
+            "secondaryButton": "观看演示"
+          }
+        },
+        "scamShield": {
+          "hero": {
+            "title": "诈骗防护盾",
+            "subtitle": "透过 AI 驱动的侦测技术保护您的客户免受电话诈骗和欺诈来电侵害，即时识别并阻挡威胁，确保您的社群免受金融诈骗。",
+            "cta": "启用诈骗防护"
+          },
+          "features": {
+            "title": "进阶诈骗侦测",
+            "subtitle": "针对不断演变的诈骗手法提供多层防护",
+            "realTimeDetection": {
+              "title": "即时诈骗侦测",
+              "description": "先进的 AI 演算法在诈骗电话到达客户之前识别并阻挡这些电话。",
+              "benefit1": "模式识别",
+              "benefit2": "行为分析",
+              "benefit3": "即时阻挡"
+            },
+            "threatIntelligence": {
+              "title": "威胁情报",
+              "description": "持续更新已知诈骗模式和诈骗电话号码的资料库。",
+              "benefit1": "全球威胁资料",
+              "benefit2": "即时更新",
+              "benefit3": "机器学习"
+            },
+            "customerProtection": {
+              "title": "客户保护",
+              "description": "主动保护客户免受金融诈骗和身份盗窃企图。",
+              "benefit1": "诈骗预防",
+              "benefit2": "身份保护",
+              "benefit3": "金融安全"
+            }
+          },
+          "scamTypes": {
+            "title": "全面防护所有诈骗类型",
+            "subtitle": "针对最常见诈骗手法的全面保护",
+            "phishing": {
+              "type": "钓鱼电话",
+              "description": "企图窃取个人资讯或登录凭证",
+              "detection": "语音模式分析和关键字侦测",
+              "action": "立即终止通话并向客户发出警报"
+            },
+            "techSupport": {
+              "type": "技术支援诈骗",
+              "description": "假冒技术支援声称电脑有问题",
+              "detection": "脚本模式识别和来电显示验证",
+              "action": "阻挡通话并提供合法支援联络方式"
+            },
+            "financialFraud": {
+              "type": "金融诈骗",
+              "description": "冒充银行或金融机构",
+              "detection": "机构验证和语音认证",
+              "action": "终止通话并通知真正的金融机构"
+            },
+            "romance": {
+              "type": "浪漫诈骗",
+              "description": "建立虚假关系以骗取金钱",
+              "detection": "对话模式分析和情感操控侦测",
+              "action": "警告提醒和资源提供"
+            },
+            "detectionMethod": "侦测方法：",
+            "protectionAction": "防护行动：",
+            "detectionMethodLabel": "检测方法",
+            "protectionActionLabel": "保护措施"
+          },
+          "protection": {
+            "title": "多层防护系统",
+            "subtitle": "我们的综合诈骗防护盾使用多种侦测方法协同工作，提供最大程度的保护，同时确保合法通话始终能够接通。",
+            "realTimeAnalysis": {
+              "title": "即时分析",
+              "description": "对每通来电进行即时评估"
+            },
+            "continuousLearning": {
+              "title": "持续学习",
+              "description": "AI 随著每次阻挡的诈骗而改善侦测能力"
+            },
+            "zeroFalsePositives": {
+              "title": "零误报",
+              "description": "合法通话绝不会被阻挡"
+            },
+            "layersTitle": "防护层级",
+            "layer1": "来电显示验证",
+            "layer2": "语音模式分析",
+            "layer3": "脚本侦测演算法",
+            "layer4": "行为异常侦测",
+            "layer5": "即时威胁情报",
+            "layer6": "客户教育警报"
+          },
+          "benefits": {
+            "title": "防护成果",
+            "subtitle": "阻止诈骗和保护客户的实证有效性",
+            "accuracy": {
+              "metric": "95%",
+              "description": "诈骗电话侦测准确率"
+            },
+            "reduction": {
+              "metric": "80%",
+              "description": "成功诈骗企图减少率"
+            },
+            "coverage": {
+              "metric": "24/7",
+              "description": "持续防护覆盖"
+            },
+            "preservation": {
+              "metric": "99.9%",
+              "description": "合法通话保留率"
+            }
+          },
+          "cta": {
+            "title": "准备好保护您的客户了吗？",
+            "subtitle": "使用AI驱动的诈骗检测和防护来阻止诈骗份子",
+            "activateProtection": "启用防护",
+            "learnMore": "了解更多",
+            "primaryButton": "启用防护",
+            "secondaryButton": "了解更多"
+          },
+          "protectionSystem": {
+            "title": "多层防护系统",
+            "subtitle": "我们全面的诈骗防护系统使用多种检测方法协同工作，在确保合法来电始终顺利接通的同时提供最大程度的保护。",
+            "realTimeAnalysis": {
+              "title": "即时分析",
+              "description": "即时评估每个来电"
+            },
+            "continuousLearning": {
+              "title": "持续学习",
+              "description": "AI随著每次拦截诈骗而改进检测能力"
+            },
+            "zeroFalsePositives": {
+              "title": "零误报",
+              "description": "合法来电绝不会被误拦"
+            }
+          },
+          "results": {
+            "title": "防护成果",
+            "subtitle": "在阻止诈骗和保护客户方面的经验证有效性"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "安全付款处理",
+            "description": "透过语音互动启用安全、符合 PCI 标准的付款处理。让客户透过电话安全付款，具备先进诈骗防护和即时交易处理功能。",
+            "cta": "启用安全付款"
+          },
+          "features": {
+            "title": "安全语音付款功能",
+            "subtitle": "企业级安全性与无缝客户体验的完美结合",
+            "securePayment": {
+              "title": "安全付款处理",
+              "description": "使用符合 PCI 标准的语音技术，透过电话安全处理付款。",
+              "benefit1": "PCI DSS 合规性",
+              "benefit2": "加密交易",
+              "benefit3": "多种付款方式"
+            },
+            "fraudProtection": {
+              "title": "诈骗防护",
+              "description": "先进的诈骗检测和预防功能，保护企业和客户。",
+              "benefit1": "即时诈骗检测",
+              "benefit2": "风险评估",
+              "benefit3": "安全身份验证"
+            },
+            "instantProcessing": {
+              "title": "即时处理",
+              "description": "透过即时授权和确认立即处理付款。",
+              "benefit1": "即时授权",
+              "benefit2": "即时确认",
+              "benefit3": "立即收据"
+            }
+          },
+          "paymentMethods": {
+            "title": "全方位付款选项",
+            "subtitle": "透过安全语音处理接受所有主要付款方式",
+            "creditCards": {
+              "method": "信用卡",
+              "description": "透过安全语音处理接受所有主要信用卡",
+              "feature1": "Visa、Mastercard、美国运通",
+              "feature2": "CVV 验证",
+              "feature3": "到期日验证"
+            },
+            "debitCards": {
+              "method": "签帐金融卡",
+              "description": "透过 PIN 码验证处理签帐金融卡付款",
+              "feature1": "语音 PIN 码输入",
+              "feature2": "银行验证",
+              "feature3": "即时扣款"
+            },
+            "bankTransfers": {
+              "method": "银行转帐",
+              "description": "直接银行帐户转帐和 ACH 付款",
+              "feature1": "帐户验证",
+              "feature2": "银行代码验证",
+              "feature3": "ACH 处理"
+            },
+            "digitalWallets": {
+              "method": "数位钱包",
+              "description": "支援热门数位付款平台",
+              "feature1": "Apple Pay",
+              "feature2": "Google Pay",
+              "feature3": "PayPal 整合"
+            }
+          },
+          "security": {
+            "title": "银行级安全性",
+            "description": "我们的付款处理系统符合业界最高安全标准，确保每笔交易都受到多层加密和诈骗防护的保护。",
+            "endToEndEncryption": {
+              "title": "端对端加密",
+              "description": "所有付款资料在传输和储存过程中均加密"
+            },
+            "pciCompliance": {
+              "title": "PCI DSS 合规性",
+              "description": "Level 1 PCI DSS 认证基础设施"
+            },
+            "realTimeMonitoring": {
+              "title": "即时监控",
+              "description": "持续诈骗检测和预防"
+            },
+            "featuresTitle": "安全功能",
+            "feature1": "端对端加密",
+            "feature2": "PCI DSS Level 1 合规性",
+            "feature3": "卡片资料代币化",
+            "feature4": "多重身份验证",
+            "feature5": "即时诈骗监控",
+            "feature6": "安全语音辨识"
+          },
+          "benefits": {
+            "title": "付款处理效能",
+            "subtitle": "业界领先的可靠性和安全性指标",
+            "uptime": {
+              "metric": "99.9%",
+              "description": "付款处理正常运作时间"
+            },
+            "transactionTime": {
+              "metric": "< 3秒",
+              "description": "平均交易时间"
+            },
+            "compliance": {
+              "metric": "100%",
+              "description": "PCI DSS 合规性"
+            },
+            "fraudRate": {
+              "metric": "0.1%",
+              "description": "AI 防护的诈骗率"
+            }
+          },
+          "cta": {
+            "title": "准备好使用安全语音付款了吗？",
+            "subtitle": "启用符合 PCI 标准的付款处理和先进诈骗防护",
+            "primaryButton": "开始安全处理",
+            "secondaryButton": "安全概览"
+          }
+        }
+      },
+      "mentalHealth": {
+        "hero": {
+          "title": "心理健康语音助手",
+          "subtitle": "提供富有同理心的 24/7 心理健康支援，AI 能够聆听、理解并以同理心回应。安全地填补危机与专业照护之间的空白。",
+          "cta": "了解心理健康 AI"
+        },
+        "features": {
+          "title": "富有同情心的 AI 支援",
+          "subtitle": "在心理健康支援和危机干预方面受过进阶 AI 训练",
+          "empathetic": {
+            "title": "同理心 AI 伙伴",
+            "description": "经过训练，能够提供富有同情心、不带批判的支援，并给予适当的情感回应。",
+            "benefits": {
+              "activeListing": "主动聆听",
+              "emotionalValidation": "情感验证",
+              "crisisRecognition": "危机识别"
+            }
+          },
+          "safe": {
+            "title": "安全且保密",
+            "description": "符合 HIPAA 规范的平台，确保所有互动的完整隐私和保密性。",
+            "benefits": {
+              "hipaaCompliance": "HIPAA 合规",
+              "encryptedConversations": "加密对话",
+              "anonymousOptions": "匿名选项"
+            }
+          },
+          "available": {
+            "title": "24/7 全天候可用",
+            "description": "当有人需要交谈时始终可用，在危机时刻提供即时支援。",
+            "benefits": {
+              "roundTheClockAccess": "全天候存取",
+              "immediateResponse": "即时回应",
+              "noWaitTimes": "无等待时间"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "心理健康支援能力",
+          "subtitle": "在心理保健范围内提供全面支援",
+          "screening": {
+            "title": "初步心理健康筛检",
+            "description": "使用经验证的筛检工具进行初步评估",
+            "outcomes": {
+              "earlyIdentification": "早期识别",
+              "riskAssessment": "风险评估",
+              "appropriateReferrals": "适当转介"
+            }
+          },
+          "crisis": {
+            "title": "危机干预",
+            "description": "识别危机情况并提供即时支援或升级处理",
+            "outcomes": {
+              "crisisDetection": "危机检测",
+              "deEscalationTechniques": "缓解技术",
+              "emergencyProtocols": "紧急协议"
+            }
+          },
+          "navigation": {
+            "title": "资源导航",
+            "description": "引导使用者获得适当的心理健康资源和服务",
+            "outcomes": {
+              "serviceMatching": "服务配对",
+              "appointmentScheduling": "预约安排",
+              "followUpSupport": "后续支援"
+            }
+          },
+          "emotional": {
+            "title": "情感支援",
+            "description": "提供富有同情心的聆听和情感验证",
+            "outcomes": {
+              "reducedIsolation": "减少孤立感",
+              "emotionalRelief": "情感纾解",
+              "copingStrategies": "应对策略"
+            }
+          }
+        },
+        "safety": {
+          "title": "安全第一设计",
+          "description": "我们的心理健康 AI 以安全为首要考量设计，具有进阶危机检测和即时升级协议，确保使用者在需要时获得适当的专业照护。",
+          "crisisDetection": {
+            "title": "危机检测",
+            "description": "进阶演算法识别危机情况"
+          },
+          "professionalHandoff": {
+            "title": "专业转接",
+            "description": "无缝转接至人类心理健康专业人员"
+          },
+          "emergencyProtocols": {
+            "title": "紧急协议",
+            "description": "需要时即时连接危机热线"
+          },
+          "features": {
+            "title": "安全功能",
+            "crisisKeywordDetection": "危机关键字检测",
+            "suicideRiskAssessment": "自杀风险评估",
+            "automaticEscalationProtocols": "自动升级协议",
+            "emergencyContactIntegration": "紧急联络整合",
+            "professionalHandoffProcedures": "专业转接程序",
+            "followUpScheduling": "后续安排"
+          }
+        },
+        "impact": {
+          "title": "心理健康影响",
+          "subtitle": "心理健康支援可及性的可衡量改善",
+          "availability": {
+            "metric": "24/7",
+            "description": "随时可用的支援"
+          },
+          "crisisReduction": {
+            "metric": "60%",
+            "description": "危机升级的减少"
+          },
+          "satisfaction": {
+            "metric": "85%",
+            "description": "使用者满意度"
+          },
+          "helpSeeking": {
+            "metric": "40%",
+            "description": "求助行为的增加"
+          }
+        },
+        "cta": {
+          "title": "准备支援心理健康了吗？",
+          "subtitle": "提供富有同情心的 24/7 心理健康支援，AI 真正关心",
+          "learnMore": "了解更多",
+          "contactSpecialists": "联络专家"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1868 @@
+{
+  "seavoice": {
+    "header": {
+      "navigation": {
+        "platform": {
+          "title": "平台",
+          "overview": "平台概述",
+          "landlineMobile": "市话与行动语音",
+          "voipSipByoc": "VoIP、SIP 与 BYOC 语音",
+          "lineCallPlus": "企业版 Line Call Plus",
+          "whatsAppVoice": "企业版 WhatsApp 语音 API",
+          "speechToText": "语音转文字",
+          "textToSpeech": "文字转语音",
+          "endToEndLlms": "端到端大型语言模型"
+        },
+        "inboundSolutions": {
+          "title": "来电解决方案",
+          "virtualAssistant": "24/7 虚拟助理",
+          "callTransfer": "智慧转接",
+          "ivrReplacement": "IVR 替代方案",
+          "mentalHealth": "心理健康陪伴",
+          "scamShield": "诈骗防护",
+          "technicalSupport": "技术支援",
+          "orderTracking": "订单状态与追踪",
+          "paymentProcessing": "付款处理",
+          "appointmentBooking": "预约排程"
+        },
+        "outboundSolutions": {
+          "title": "去电解决方案",
+          "leadGeneration": "潜在客户开发与筛选",
+          "collections": "催收服务",
+          "reactivation": "客户重启",
+          "seniorChecks": "长者关怀电话",
+          "campaigns": "大规模外拨活动",
+          "proactiveSupport": "主动支援",
+          "renewals": "订阅续约",
+          "surveys": "客户调查",
+          "fraudAlerts": "诈骗警示"
+        },
+        "pricing": "价格方案"
+      },
+      "auth": {
+        "signIn": "登入",
+        "getStarted": "立即开始"
+      },
+      "backToMainSite": "回到主站"
+    },
+    "home": {
+      "hero": {
+        "tagline": "您的企业永不打烊",
+        "title": {
+          "line1": "AI 语音智慧助理",
+          "line2": "24小时处理来电"
+        },
+        "subtitle": {
+          "line1": "用永不休息的人性化 AI 转变客户互动体验",
+          "line2": "大规模自动化支援、预约和外拨服务"
+        },
+        "bookDemo": "预约示范",
+        "signUp": "立即注册"
+      },
+      "voiceDemo": {
+        "title": "试用我们的语音技术",
+        "subtitle": "聆听 SeaVoice 实际运作的真实例子，体验 AI 驱动对话的未来"
+      },
+      "conversationFlow": {
+        "step1": {
+          "title": "客户来电",
+          "description": "来电者拨打您的商务号码"
+        },
+        "step2": {
+          "title": "AI 客服接听",
+          "description": "SeaVoice AI 立即接听"
+        },
+        "step3": {
+          "title": "自然对话",
+          "description": "类似真人的语音互动"
+        },
+        "step4": {
+          "title": "完成任务",
+          "description": "预约、支援或转接"
+        }
+      },
+      "conversationExamples": {
+        "appointment": {
+          "customer": "您好，我想预约下周的约会。",
+          "ai": "我很乐意协助您安排约会！让我查看下周的空档时间。您需要什么类型的服务？",
+          "scenario": "预约预订"
+        },
+        "support": {
+          "customer": "我的最近订单有问题，您可以帮忙吗？",
+          "ai": "当然可以！我在这里协助您处理订单。请您提供订单号码，我来为您查询详细资料？",
+          "scenario": "客户支援"
+        },
+        "inquiry": {
+          "customer": "您们的营业时间是什么？",
+          "ai": "我们周一至周五上午 9 点到下午 6 点营业，周六上午 10 点到下午 4 点。周日休息。关于我们的服务，您还有什么特别想了解的吗？",
+          "scenario": "一般询问"
+        }
+      },
+      "useCases": {
+        "title": {
+          "line1": "透过成功案例",
+          "line2": "转变您的企业"
+        },
+        "subtitle": "了解业界领导者如何运用 SeaVoice AI 革命客户互动并推动业务成长",
+        "badge": "经过验证的成功案例",
+        "inbound": {
+          "category": "来电解决方案",
+          "appointmentBooking": {
+            "title": "预约排程与管理",
+            "description": "使用能理解可用性、偏好和商业规则的 AI 自动化预约排程。"
+          },
+          "technicalSupport": {
+            "title": "技术支援自动化",
+            "description": "提供能诊断问题并引导客户解决方案的 AI 即时技术支援。"
+          },
+          "virtualAssistant": {
+            "title": "虚拟助理",
+            "description": "处理一般询问，提供资讯，并智慧路由来电。"
+          },
+          "callTransfer": {
+            "title": "来电转接与路由",
+            "description": "根据来电者需求智慧路由至正确部门或客服人员。"
+          },
+          "orderTracking": {
+            "title": "订单追踪与支援",
+            "description": "让客户查询订单状态、追踪货物并取得配送更新。"
+          },
+          "paymentProcessing": {
+            "title": "付款处理",
+            "description": "安全处理付款、处理帐单询问并管理帐户资讯。"
+          },
+          "ivrReplacement": {
+            "title": "IVR 替代方案",
+            "description": "以自然语言理解取代传统选单，提供更顺畅的体验。"
+          },
+          "mentalHealth": {
+            "title": "心理健康支援",
+            "description": "全天候提供具同理心的 AI 驱动心理健康支援。"
+          },
+          "scamShield": {
+            "title": "诈骗盾牌防护",
+            "description": "透过即时检测和封锁保护您的用户免受诈骗。"
+          },
+          "type": "来电"
+        },
+        "outbound": {
+          "category": "去电解决方案",
+          "leadGeneration": {
+            "title": "潜在客户开发与筛选",
+            "description": "使用能识别和筛选潜在客户的 AI 驱动潜在客户开发，转变您的销售管道。"
+          },
+          "seniorChecks": {
+            "title": "长者关怀电话与健康管理",
+            "description": "透过具同情心的对话监测健康状况，为长者提供定期 AI 驱动健康检查。"
+          },
+          "surveys": {
+            "title": "客户调查与回馈",
+            "description": "自动进行购后调查并收集宝贵的客户回馈。"
+          },
+          "collections": {
+            "title": "催收与付款提醒",
+            "description": "尊重且有效的催收电话，提高付款率的同时维持关系。"
+          },
+          "reactivation": {
+            "title": "客户重新激活",
+            "description": "透过个人化触达活动重新吸引沉睡客户。"
+          },
+          "fraudAlerts": {
+            "title": "诈骗警报与验证",
+            "description": "通知客户可疑交易并验证身份以确保安全。"
+          },
+          "campaigns": {
+            "title": "大规模外拨活动",
+            "description": "执行大规模语音活动，触达全球数千客户。"
+          },
+          "proactiveSupport": {
+            "title": "主动客户支援",
+            "description": "透过智慧通知主动为客户提供资讯。"
+          },
+          "renewals": {
+            "title": "订阅续约",
+            "description": "透过提醒和无缝付款处理自动化续约。"
+          },
+          "type": "去电"
+        },
+        "types": {
+          "inbound": "来电",
+          "outbound": "去电"
+        }
+      },
+      "howItWorks": {
+        "title": {
+          "prefix": "轻松",
+          "highlight": "5步骤",
+          "suffix": "开始使用"
+        },
+        "subtitle": "从设置到上线只需不到20分钟。我们的流程化设置让您的AI语音助理立即准备好接听电话。",
+        "badge": "简单设置流程",
+        "step1": {
+          "title": "训练您的语音助理",
+          "description": "几分钟内自定义语音、脚本和回应。我们的AI从您的网站和Google商家档案学习，准确地代表您的品牌。"
+        },
+        "step2": {
+          "title": "连接您的电话系统",
+          "description": "与您现有的电话设备（SIP/VoIP/PSTN）无缝整合。将电话转接到SeaVoice，无需更改您的商务号码。"
+        },
+        "step3": {
+          "title": "设置通话规则",
+          "description": "定义SeaVoice如何处理不同类型的来电以及何时转接给您的团队。确保每位来电者都能得到正确的回应。"
+        },
+        "step4": {
+          "title": "正式上线",
+          "description": "启动您的AI语音助理并开始处理来电。整个过程通常从开始到完成不到20分钟。"
+        },
+        "step5": {
+          "title": "24/7 支援与分析",
+          "description": "即时监控来电，接收详细的通话记录，并利用洞察来改进您的业务。我们的支援团队随时为您优化表现。"
+        },
+        "ctaBadge": "大多数客户在20分钟内上线",
+        "liveTime": "大多数客户在20分钟内上线"
+      },
+      "comparison": {
+        "title": "语音 AI vs 人工客服 vs 外包服务",
+        "subtitle": "了解 SeaVoice AI 与传统替代方案的差异",
+        "seavoiceAi": "SeaVoice AI",
+        "fullTimeHuman": "全职人工客服",
+        "outsourcedService": "外包服务",
+        "availability": {
+          "feature": "24/7 可用性",
+          "seavoice": "全天候运行",
+          "human": "仅朝九晚五",
+          "outsourced": "需额外费用"
+        },
+        "callVolume": {
+          "feature": "通话处理量",
+          "seavoice": "500+ 同时进行",
+          "human": "一次一通电话",
+          "outsourced": "5-10 同时进行"
+        },
+        "language": {
+          "feature": "语言支援",
+          "seavoice": "30+ 语言",
+          "human": "受雇用限制",
+          "outsourced": "每语言需额外费用"
+        },
+        "emotional": {
+          "feature": "情绪智能",
+          "seavoice": "基本同理心",
+          "human": "高",
+          "outsourced": "依座席而定"
+        },
+        "compliance": {
+          "feature": "合规性",
+          "seavoice": "内建工具",
+          "human": "需要培训",
+          "outsourced": "需要培训"
+        },
+        "implementation": {
+          "feature": "实施时间",
+          "seavoice": "<1 天",
+          "human": "6-8 周招聘",
+          "outsourced": "2-4 周"
+        },
+        "costComparison": "💰 成本比较",
+        "cost": {
+          "monthly": {
+            "feature": "月费成本",
+            "seavoice": "起价 $30",
+            "human": "$3,397+",
+            "outsourced": "$1,500-$2,500"
+          },
+          "effective": {
+            "feature": "有效费率",
+            "seavoice": "每分钟 $0.12",
+            "human": "每通话 $6.79",
+            "outsourced": "每通话 $3.00-$5.00"
+          },
+          "hidden": {
+            "feature": "隐藏成本",
+            "seavoice": "无",
+            "human": "福利 (每月 $800+)",
+            "outsourced": "设置费"
+          }
+        },
+        "savings": {
+          "costVsHuman": "95%",
+          "costVsHumanLabel": "相较人工客服的成本节省",
+          "costVsOutsourced": "80%",
+          "costVsOutsourcedLabel": "相较外包服务的节省",
+          "annualSavings": "$40K+",
+          "annualSavingsLabel": "年度节省"
+        },
+        "cta": {
+          "title": "准备体验 SeaVoice AI 优势了吗？",
+          "subtitle": "加入数千家已透过 24/7 运作、处理无限通话并与业务同步扩展的 AI 转变客户服务的企业行列。",
+          "bookDemo": "预约示范",
+          "signUp": "立即注册",
+          "description": "加入数千家已透过 24/7 运作、处理无限通话并与业务同步扩展的 AI 转变客户服务的企业行列。"
+        },
+        "seavoiceAI": "SeaVoice AI",
+        "costDescription": "看看 SeaVoice AI 带来的显著成本节省",
+        "costSavings": "95%",
+        "costSavingsLabel": "相较人工客服的成本节省",
+        "outsourcedSavings": "80%",
+        "outsourcedSavingsLabel": "相较外包服务的节省",
+        "annualSavings": "$40K+",
+        "annualSavingsLabel": "年度节省",
+        "features": {
+          "availability": "24/7 可用性",
+          "callVolume": "通话处理量",
+          "language": "语言支援",
+          "emotional": "情绪智能",
+          "compliance": "合规性",
+          "implementation": "实施时间",
+          "monthlyCost": "月费成本",
+          "effectiveRate": "有效费率",
+          "hiddenCosts": "隐藏成本"
+        },
+        "seavoice": {
+          "availability": "全天候运行",
+          "callVolume": "500+ 同时进行",
+          "language": "30+ 语言",
+          "emotional": "基本同理心",
+          "compliance": "内建工具",
+          "implementation": "<1 天",
+          "monthlyCost": "起价 $30",
+          "effectiveRate": "每分钟 $0.12",
+          "hiddenCosts": "无"
+        },
+        "human": {
+          "availability": "仅朝九晚五",
+          "callVolume": "一次一通电话",
+          "language": "受雇用限制",
+          "emotional": "高",
+          "compliance": "需要培训",
+          "implementation": "6-8 周招聘",
+          "monthlyCost": "$3,397+",
+          "effectiveRate": "每通话 $6.79",
+          "hiddenCosts": "福利 (每月 $800+)"
+        },
+        "outsourced": {
+          "availability": "需额外费用",
+          "callVolume": "5-10 同时进行",
+          "language": "每语言需额外费用",
+          "emotional": "依座席而定",
+          "compliance": "需要培训",
+          "implementation": "2-4 周",
+          "monthlyCost": "$1,500-$2,500",
+          "effectiveRate": "每通话 $3.00-$5.00",
+          "hiddenCosts": "设置费"
+        }
+      },
+      "seachat": {
+        "title": {
+          "prefix": "SeaVoice 的功能由 ",
+          "highlight": "SeaChat",
+          "suffix": " 为您提供"
+        },
+        "subtitle": "全通路和多模态的无程式码代理平台",
+        "teamwork": {
+          "title": "一个团队，为您协作"
+        },
+        "chatAgent": {
+          "title": "聊天 AI 代理",
+          "description": "跨网页、行动装置和讯息平台的即时回应"
+        },
+        "humanAgent": {
+          "title": "人工座席",
+          "description": "针对需要人性化处理的复杂查询进行无缝转接"
+        },
+        "voiceAgent": {
+          "title": "语音 AI 代理",
+          "description": "由先进语音 AI 驱动的自然电话对话"
+        },
+        "learnMore": "了解更多关于 SeaChat",
+        "teamTitle": "一个团队，为您协作"
+      },
+      "testimonial": {
+        "quote": "SeaVoice 为我们缩短了 2 周的座席培训时间，并提高了 20% 的效率",
+        "author": "Sarah Johnson",
+        "role": "客户成功副总裁",
+        "company": "TechCorp Inc.",
+        "stat1": "2 周",
+        "stat1Label": "缩短培训时间",
+        "stat2": "20%",
+        "stat2Label": "效率提升",
+        "stat3": "94%",
+        "stat3Label": "客户满意度",
+        "stat4": "500+",
+        "stat4Label": "同时通话"
+      },
+      "faq": {
+        "title": {
+          "line1": "常见",
+          "line2": "问题"
+        },
+        "subtitle": "关于 SeaVoice AI 及其如何转变您业务沟通的所有必知资讯",
+        "badge": "有问题？",
+        "expandAll": "展开所有问题",
+        "collapseAll": "收起所有问题",
+        "q1": {
+          "question": "SeaVoice 与传统聊天机器人有何不同？",
+          "answer": "SeaVoice 提供具先进 AI 的即时语音对话，能理解语境、处理中断，并透过电话提供类人回应。与文字聊天机器人不同，SeaVoice 处理真正的语音通话，具有自然的语言模式。"
+        },
+        "q2": {
+          "question": "设置需要多长时间？",
+          "answer": "设置通常不到 20 分钟。您可以训练您的语音代理、连接电话系统、设置通话规则，并在一次会议中上线。"
+        },
+        "q3": {
+          "question": "来电者能否分辨出他们正在与 AI 对话？",
+          "answer": "我们的先进语音技术创造非常类人的对话。虽然某些来电者可能会注意到，但大多数人会觉得这种体验自然且有帮助。您也可以客制化 AI ，让它介绍自己为 AI 助手（如果喜欢）。"
+        },
+        "q4": {
+          "question": "如果 SeaVoice 无法回答问题会发生什么？",
+          "answer": "SeaVoice 旨在优雅地处理上升情况。它可以将通话转接给人工座席、留言、安排回电，或根据您配置的规则将来电者导向适当的资源。"
+        },
+        "q5": {
+          "question": "定价是如何运作的？",
+          "answer": "我们提供透明的按分钟定价。高级方案包括基础分钟数，额外使用按分钟计费。企业方案根据使用量和具体需求客制化。"
+        },
+        "q6": {
+          "question": "我可以客制化 AI 的声音吗？",
+          "answer": "可以！您可以从多个语音选项中选择，调整语调和说话风格，甚至为企业方案克隆客制语音。AI 可以被训练以符合您品牌的沟通风格。"
+        },
+        "q7": {
+          "question": "SeaVoice 支援多语言吗？",
+          "answer": "是的，SeaVoice 支援超过 10 种语言的对话，包括英语、西班牙语、法语、德语、意大利语、葡萄牙语、荷兰语、俄语、中文和日语。"
+        },
+        "q8": {
+          "question": "哪些行业最适合使用 SeaVoice？",
+          "answer": "SeaVoice 适用于各个行业，包括医疗保健、房地产、酒店业、金融服务、电子商务、专业服务，以及任何处理大量通话或需要 24/7 可用性的业务。"
+        },
+        "q9": {
+          "question": "SeaVoice 能处理紧急通话吗？",
+          "answer": "虽然 SeaVoice 可以处理紧急查询并适当上升，但我们建议维持直接紧急协议。SeaVoice 可以配置为立即将紧急相关通话转接给人工操作员。"
+        },
+        "q10": {
+          "question": "SeaVoice 能检测垃圾通话吗？",
+          "answer": "是的，SeaVoice 包括内建垃圾检测功能，能识别和过滤可疑通话，保护您的业务免受不必要的干扰，同时确保合法通话能通过。"
+        },
+        "q11": {
+          "question": "我该如何开始？",
+          "answer": "开始很简单！预约一个示范来看看 SeaVoice 的实际运作，然后我们的团队将帮助您设置语音代理、整合电话系统，并根据您的具体需求进行配置。大多数客户在一天内就能上线运行。"
+        }
+      },
+      "finalCta": {
+        "title": "准备好看看实际效果了吗？",
+        "subtitle": "获取个人化示范，发现 SeaVoice 如何转变您的客户沟通",
+        "bookDemo": "今天就预约示范",
+        "signUp": "立即注册"
+      },
+      "dashboard": {
+        "stats": {
+          "totalCalls": "247",
+          "activeCalls": "3",
+          "avgWaitTime": "0:12",
+          "satisfaction": "4.8",
+          "resolutionRate": "92"
+        },
+        "calls": {
+          "sarah": {
+            "customer": "王雅莲",
+            "type": "预约排程",
+            "status": "已完成",
+            "duration": "3:42",
+            "time": "2 分钟前",
+            "outcome": "已安排下周二下午 2 点的预约",
+            "tag1": "预约",
+            "tag2": "满意"
+          },
+          "mike": {
+            "customer": "陈德明",
+            "type": "技术支援",
+            "status": "已转接",
+            "duration": "1:28",
+            "time": "5 分钟前",
+            "outcome": "已转接给技术专家 - 问题：登入问题",
+            "tag1": "支援",
+            "tag2": "上升"
+          },
+          "emily": {
+            "customer": "李嘉慧",
+            "type": "订单查询",
+            "status": "已完成",
+            "duration": "2:15",
+            "time": "8 分钟前",
+            "outcome": "已提供订单状态 - 包裹明天到达",
+            "tag1": "查询",
+            "tag2": "已解决"
+          },
+          "david": {
+            "customer": "黄志明",
+            "type": "帐单问题",
+            "status": "进行中",
+            "duration": "1:03",
+            "time": "刚刚",
+            "outcome": "目前正在讨论帐单不符问题",
+            "tag1": "帐单",
+            "tag2": "活跃"
+          }
+        },
+        "mockCalls": {
+          "customer1": "王雅莲",
+          "type1": "预约排程",
+          "status1": "已完成",
+          "duration1": "3:42",
+          "time1": "2 分钟前",
+          "outcome1": "已安排下周二下午 2 点的预约",
+          "customer2": "陈德明",
+          "type2": "技术支援",
+          "status2": "已转接",
+          "duration2": "1:28",
+          "time2": "5 分钟前",
+          "outcome2": "已转接给技术专家 - 问题：登入问题",
+          "customer3": "李嘉慧",
+          "type3": "订单查询",
+          "status3": "已完成",
+          "duration3": "2:15",
+          "time3": "8 分钟前",
+          "outcome3": "已提供订单状态 - 包裹明天到达",
+          "customer4": "黄志明",
+          "type4": "帐单问题",
+          "status4": "进行中",
+          "duration4": "1:03",
+          "time4": "刚刚",
+          "outcome4": "目前正在讨论帐单不符问题"
+        }
+      },
+      "testimonials": {
+        "metrics": {
+          "trainingTime": "2 周",
+          "trainingTimeLabel": "缩短培训时间",
+          "efficiency": "20%",
+          "efficiencyLabel": "效率提升",
+          "satisfaction": "94%",
+          "satisfactionLabel": "客户满意度",
+          "simultaneousCalls": "500+",
+          "simultaneousCallsLabel": "同时通话"
+        },
+        "quote": "SeaVoice 为我们缩短了 2 周的座席培训时间，并提高了 20% 的效率",
+        "author": "Sarah Johnson",
+        "role": "客户成功副总裁",
+        "company": "TechCorp Inc."
+      }
+    },
+    "pricing": {
+      "hero": {
+        "title": "简单透明的定价",
+        "subtitle": "专为进线客服和出线行销设计的语音AI解决方案。基于 SeaChat Premium ($29.99) 和 SeaX 全通路 ($99) 方案架构。"
+      },
+      "plans": {
+        "inboundOnly": {
+          "name": "仅进线",
+          "tagline": "专为客户服务而设",
+          "price": "$29.99",
+          "period": "/月",
+          "description": "适合需要使用语音AI处理进线电话的企业（基于 SeaChat Premium 方案）",
+          "features": {
+            "aiCallHandling": "AI语音通话处理（仅限进线电话）",
+            "voiceAIPrice": "语音AI起价每分钟 $0.12（ChatGPT-4o mini 模型）",
+            "phoneNumber": "包含电话号码（包含E911地址每月 $2-$3）",
+            "callRecording": "通话录音和摘要",
+            "transferHuman": "转接人工客服支援",
+            "multiLanguage": "多语言语音支援",
+            "sttLanguages": "10种以上语音转文字语言",
+            "ttsLanguages": "10种以上文字转语音语言，支援 Azure、ElevenLabs、OpenAI 语音",
+            "crmIntegrations": "CRM整合（Salesforce、HubSpot）",
+            "calendarIntegration": "行事历整合（Google、Outlook）",
+            "callAnalytics": "通话分析和报告",
+            "emailNotifications": "通话邮件通知"
+          },
+          "limitations": {
+            "noOutbound": "无出线通话功能",
+            "noBulkCampaigns": "无批量行销功能"
+          },
+          "cta": "开始使用仅进线方案",
+          "poweredBy": "由 SeaChat 提供支援"
+        },
+        "inboundOutbound": {
+          "name": "进线+出线",
+          "tagline": "扩展您的语音行销",
+          "price": "$99",
+          "period": "/月",
+          "description": "适合大规模语音AI行销（相当于 SeaX 全通路方案第一用户）",
+          "badge": "最受欢迎",
+          "features": {
+            "everythingInbound": "包含仅进线方案的所有功能",
+            "outboundCalling": "出线通话和行销",
+            "bulkCampaigns": "批量语音AI行销",
+            "voiceAIPrice": "语音AI起价每分钟 $0.12（ChatGPT-4o mini 模型）",
+            "additionalUsers": "额外用户：每人每月 $49",
+            "multipleNumbers": "支援多个电话号码",
+            "campaignScheduling": "行销排程和自动化",
+            "advancedRouting": "进阶来电路由",
+            "customVoiceTraining": "客制化语音训练",
+            "voicemailDrop": "语音信箱投递功能（每次 $0.05）",
+            "apiAccess": "RESTful API 存取",
+            "seachatIntegration": "SeaChat 整合以支援多通路",
+            "advancedAnalytics": "进阶分析仪表板",
+            "prioritySupport": "优先支援"
+          },
+          "cta": "开始使用进线+出线方案",
+          "poweredBy": "由 SeaX + SeaChat 提供支援"
+        },
+        "custom": {
+          "name": "自订方案",
+          "tagline": "企业级解决方案",
+          "price": "联络我们",
+          "period": "",
+          "description": "为特定业务需求量身订制的解决方案（类似 SeaChat/SeaX 企业方案）",
+          "customPriceMessage": "让我们建立一个专案",
+          "features": {
+            "everythingInboundOutbound": "包含进线+出线方案的所有功能",
+            "multipleWorkspaces": "多个工作区（完美适合代理商）",
+            "workspaceAgents": "每个工作区都有多个AI代理和电话号码",
+            "customPricing": "基于使用量的客制化分钟价格",
+            "accountManager": "专属客户经理",
+            "uptimeSLA": "99.99% 上线时间 SLA",
+            "compliance": "可选 HIPAA/PCI 合规性",
+            "whiteLabel": "白标解决方案",
+            "customAPI": "自订API整合",
+            "advancedSecurity": "进阶安全功能",
+            "voiceCloning": "自订语音克隆",
+            "phoneSupport": "优先电话支援",
+            "technicalSupport": "专业设计指导和技术支援",
+            "onPremise": "内部部署选项"
+          },
+          "cta": "联络我们"
+        }
+      },
+      "productRelationship": {
+        "title": "SeaVoice 如何与 SeaChat 和 SeaX 连接",
+        "seachatIntegration": {
+          "title": "🔗 SeaChat 整合",
+          "description": "SeaVoice 仅进线（$29.99/月）建立在 SeaChat Premium 方案基础上，以每分钟 $0.12 的价格为进线电话提供语音AI功能。",
+          "subtitle": "适合想要在现有 SeaChat 设定中添加语音AI的企业。"
+        },
+        "seaxIntegration": {
+          "title": "📞 SeaX 整合",
+          "description": "SeaVoice 进线+出线（$99/月）与 SeaX 全通路定价相符，实现大规模语音行销和回电处理。",
+          "subtitle": "适合需要全面语音AI覆盖的出线行销企业。"
+        },
+        "completePicture": {
+          "title": "✨ 完整蓝图",
+          "description": "SeaChat、SeaX 和 SeaVoice 的所有语音AI通话都使用相同的 ChatGPT-4o mini 模型，每分钟 $0.12 的费率。当联络人在出线行销后回电时，SeaVoice 会无缝处理这些进线电话，具有相同的AI智能。"
+        }
+      },
+      "faq": {
+        "title": "常见问题",
+        "subtitle": "关于 SeaVoice 定价和功能的所有必知资讯",
+        "question1": "SeaVoice 定价与 SeaChat 和 SeaX 的关系如何？",
+        "answer1": "SeaVoice 仅进线方案（$29.99/月）基于 SeaChat Premium 方案，专注于进线语音AI。进线+出线方案（$99/月）与 SeaX 全通路定价相符，提供全面的语音行销。所有语音AI通话都使用 ChatGPT-4o mini 模型，起价每分钟 $0.12。",
+        "question2": "仅进线方案和进线+出线方案有什么差别？",
+        "answer2": "仅进线（$29.99/月）用AI处理来电，适合客户服务。进线+出线（第一用户 $99/月）增加批量行销功能和出线通话，适合进行大规模语音行销的销售和行销团队。",
+        "question3": "我可以保留现有的商用电话号码吗？",
+        "answer3": "是的，您可以保留现有的商用号码并将来电转接到 SeaVoice，或者我们可以提供新号码。每个电话号码包含 E911 地址注册，费用为每月 $2-$3。",
+        "question4": "语音AI通话实际费用是多少？",
+        "answer4": "所有语音AI通话都使用 ChatGPT-4o mini 模型，起价每分钟 $0.12。这是 SeaChat Premium 和 SeaVoice 方案的相同费率。ChatGPT-4o 等高阶模型每分钟 $0.80，在自订方案中可用。",
+        "question5": "出线行销后联络人回电会发生什么？",
+        "answer5": "使用进线+出线方案，当联络人在接到行销电话后回电时，我们的进线语音AI会自动处理这些电话，在客户沟通中提供无缝连续性。",
+        "question6": "我可以从仅进线升级到进线+出线吗？",
+        "answer6": "当然可以！您可以随时升级方案。升级立即生效，您将获得出线通话、行销功能和额外用户席位的存取权限。",
+        "question7": "您为大量使用的客户提供批量折扣吗？",
+        "answer7": "是的，我们的自订方案提供基于您特定使用量和使用模式的协商定价。联络我们的销售团队讨论随您业务需求扩展的自订定价。"
+      },
+      "cta": {
+        "title": "准备开始了吗？",
+        "subtitle": "立即开始免费试用，体验AI语音自动化的威力",
+        "signUpFree": "免费注册",
+        "scheduleDemo": "安排示范"
+      }
+    },
+    "footer": {
+      "description": "透过如人类般自然且与您业务无缝整合的 AI 语音代理，自动化 80% 的客户通话。",
+      "platform": {
+        "title": "平台",
+        "overview": "平台概述",
+        "landlineMobile": "市话与行动语音",
+        "voipSipByoc": "VoIP、SIP 与 BYOC 语音",
+        "lineCallPlus": "企业版 Line Call Plus",
+        "whatsAppVoice": "企业版 WhatsApp 语音 API",
+        "speechToText": "语音转文字",
+        "textToSpeech": "文字转语音",
+        "endToEndLlms": "端到端大型语言模型"
+      },
+      "inboundSolutions": {
+        "title": "来电解决方案",
+        "virtualAssistant": "24/7 虚拟助理",
+        "callTransfer": "智慧转接",
+        "ivrReplacement": "IVR 替代方案",
+        "mentalHealth": "心理健康陪伴",
+        "scamShield": "诈骗防护",
+        "technicalSupport": "技术支援",
+        "orderTracking": "订单状态与追踪",
+        "paymentProcessing": "付款处理",
+        "appointmentBooking": "预约排程"
+      },
+      "outboundSolutions": {
+        "title": "去电解决方案",
+        "leadGeneration": "潜在客户开发与筛选",
+        "collections": "催收服务",
+        "reactivation": "客户重启",
+        "seniorChecks": "长者关怀电话",
+        "campaigns": "大规模外拨活动",
+        "proactiveSupport": "主动支援",
+        "renewals": "订阅续约",
+        "surveys": "客户调查",
+        "fraudAlerts": "诈骗警示"
+      },
+      "company": {
+        "title": "公司",
+        "pricing": "价格方案",
+        "productWiki": "产品百科",
+        "apiReferences": "API 参考文件"
+      },
+      "legal": {
+        "copyright": "© 2020 - {{year}} Seasalt.ai. 版权所有。",
+        "privacyPolicy": "隐私政策",
+        "termsOfService": "服务条款"
+      },
+      "stats": {
+        "callsHandled": "处理超过 100 万通电话",
+        "activeAgents": "超过 5 万个活跃代理",
+        "uptime": "99.99% 正常运行时间"
+      },
+      "cta": {
+        "title": "准备好自动化 80% 的客户电话了吗？",
+        "description": "加入数百家企业，使用 SeaVoice AI 代理 24/7 处理客户电话，降低成本并提升客户满意度。",
+        "getStartedFree": "免费开始使用",
+        "bookDemo": "预约展示"
+      }
+    },
+    "priceCalculator": {
+      "hero": {
+        "title": "月费价格计算器",
+        "subtitle": "根据您的使用需求计算确切的月费成本。所有定价适用于美国/加拿大，包含通话费用。"
+      },
+      "configure": {
+        "title": "配置您的方案"
+      },
+      "planType": {
+        "label": "1. 选择您的方案类型",
+        "inbound": {
+          "title": "仅来电 - $29.99/月",
+          "description": "完美适合客户服务"
+        },
+        "inboundOutbound": {
+          "title": "来电 + 去电 - $99/月",
+          "description": "扩展您的语音活动"
+        }
+      },
+      "phoneNumbers": {
+        "label": "2. 电话号码（含E911地址）",
+        "local": {
+          "label": "本地号码（每个$2/月）"
+        },
+        "tollFree": {
+          "label": "免费号码（每个$3/月）"
+        }
+      },
+      "voiceAI": {
+        "label": "3. 语音AI分钟数（$0.12/分钟 - ChatGPT-4o mini）",
+        "range": {
+          "min": "0 分钟",
+          "max": "5,000 分钟",
+          "current": "分钟"
+        }
+      },
+      "humanAgent": {
+        "label": "4. 人工座席分钟数（$0.015/分钟）",
+        "range": {
+          "min": "0 分钟",
+          "max": "2,000 分钟",
+          "current": "分钟"
+        }
+      },
+      "breakdown": {
+        "title": "月费成本明细",
+        "inboundPlan": "仅来电方案",
+        "inboundOutboundPlan": "来电 + 去电方案",
+        "phoneNumbersTitle": "电话号码",
+        "phoneNumbers": {
+          "local": "本地",
+          "tollFree": "免费"
+        },
+        "voiceAI": {
+          "title": "语音AI分钟数",
+          "calculation": "分钟 × $0.12"
+        },
+        "humanAgent": {
+          "title": "人工座席分钟数",
+          "calculation": "分钟 × $0.015"
+        },
+        "total": "月费总计"
+      },
+      "features": {
+        "usaCanada": "包含美国/加拿大覆盖",
+        "phoneCharges": "包含所有通话费用",
+        "e911": "包含E911地址注册",
+        "recording": "通话录音和分析",
+        "outboundCampaigns": "去电活动和批量通话"
+      },
+      "cta": {
+        "getStartedInbound": "开始使用仅来电方案",
+        "getStartedInboundOutbound": "开始使用来电 + 去电方案",
+        "scheduleDemo": "预约演示"
+      },
+      "notes": {
+        "title": "重要说明",
+        "usaCanadaOnly": "显示的定价仅适用于美国/加拿大",
+        "phoneChargesIncluded": "所有通话费用都包含在显示的费率中",
+        "voiceAIModel": "语音AI使用ChatGPT-4o mini模型，费用为$0.12/分钟",
+        "humanAgentMinutes": "人工座席分钟数用于通话转接和直接通话"
+      }
+    },
+    "platform": {
+      "hero": {
+        "title": "完整的AI语音平台",
+        "description": "探索驱动人性化语音互动、无缝整合和可操作业务洞察的技术。",
+        "cta": "探索平台功能"
+      },
+      "features": {
+        "aiVoice": {
+          "title": "AI语音助理",
+          "description": "类人语音助理24/7处理来电和拨出电话，保持完美的一致性。",
+          "feature1": "24/7全天候服务",
+          "feature2": "类人对话",
+          "feature3": "动态停顿和语调变化",
+          "feature4": "多语言支援"
+        },
+        "conversationalAI": {
+          "title": "对话式AI",
+          "description": "先进的AI从您的文件中学习，记住过往互动，提供个性化服务。",
+          "feature1": "RAG技术",
+          "feature2": "长期记忆",
+          "feature3": "客制化知识库",
+          "feature4": "语境感知"
+        },
+        "analytics": {
+          "title": "分析与洞察",
+          "description": "即时文本记录、情感分析，以及每次对话的可操作洞察。",
+          "feature1": "即时文本记录",
+          "feature2": "情感分析",
+          "feature3": "性能指标",
+          "feature4": "通话量分析"
+        },
+        "telephony": {
+          "title": "电话与连接",
+          "description": "灵活整合VoIP、SIP和BYOC选项，实现无缝连接。",
+          "feature1": "VoIP整合",
+          "feature2": "SIP中继",
+          "feature3": "BYOC支援",
+          "feature4": "全球覆盖"
+        },
+        "integrations": {
+          "title": "整合与频道",
+          "description": "连接您现有的工具，跨多个频道触达客户。",
+          "feature1": "CRM整合",
+          "feature2": "WhatsApp语音API",
+          "feature3": "LINE商业通话",
+          "feature4": "行事历同步"
+        },
+        "speech": {
+          "title": "语音技术",
+          "description": "业界领先的语音转文字和文字转语音技术，配备客制化语音档案。",
+          "feature1": "高准确度STT",
+          "feature2": "自然TTS",
+          "feature3": "声音复制",
+          "feature4": "10+种语言"
+        }
+      },
+      "endToEndLLMs": {
+        "hero": {
+          "title": "端到端大型语言模型解决方案",
+          "subtitle": "完整的大型语言模型整合，从语音输入到智能响应生成。由先进AI驱动，理解语境、维持对话并执行业务逻辑。",
+          "cta": "探索LLM功能"
+        },
+        "features": {
+          "title": "完整LLM整合",
+          "subtitle": "从语音理解到智能响应生成",
+          "advancedModels": {
+            "title": "先进语言模型",
+            "description": "针对对话AI和商业应用优化的最先进大型语言模型。",
+            "gpt4Integration": "GPT-4整合",
+            "customFineTuning": "客制化微调",
+            "domainSpecific": "领域专用模型",
+            "multiModal": "多模态支援"
+          },
+          "knowledgeIntegration": {
+            "title": "知识整合",
+            "description": "使用RAG（检索增强生成）技术无缝整合您的商业知识库。",
+            "documentIngestion": "文件摄取",
+            "realTimeUpdates": "即时更新",
+            "semanticSearch": "语意搜寻",
+            "contextAwareness": "语境感知"
+          },
+          "enterpriseSecurity": {
+            "title": "企业安全",
+            "description": "针对敏感商业对话的企业级安全和合规性。",
+            "dataEncryption": "资料加密",
+            "accessControls": "存取控制",
+            "auditLogging": "审计日志",
+            "complianceReady": "合规就绪"
+          }
+        },
+        "capabilities": {
+          "title": "先进LLM功能",
+          "subtitle": "针对商业应用的精密语言理解和生成",
+          "nlu": {
+            "category": "自然语言理解",
+            "description": "先进的用户意图、语境和细致沟通理解。",
+            "intentAccuracy": "意图准确度：98%",
+            "contextRetention": "语境保持：95%",
+            "sentimentAnalysis": "情感分析：96%"
+          },
+          "conversationalFlow": {
+            "category": "对话流程",
+            "description": "在多轮对话和话题间维持自然、连贯的对话。",
+            "multiTurnCoherence": "多轮连贯性：94%",
+            "topicSwitching": "话题切换：92%",
+            "contextPreservation": "语境保存：97%"
+          },
+          "businessLogic": {
+            "category": "商业逻辑整合",
+            "description": "执行复杂的商业工作流程和决策过程。",
+            "workflowAccuracy": "工作流程准确度：99%",
+            "decisionConsistency": "决策一致性：98%",
+            "errorHandling": "错误处理：95%"
+          },
+          "personalization": {
+            "category": "个人化",
+            "description": "基于用户历史、偏好和商业语境调整响应。",
+            "personalizationScore": "个人化评分：93%",
+            "userSatisfaction": "用户满意度：96%",
+            "engagementRate": "参与率：89%"
+          }
+        },
+        "architecture": {
+          "title": "端到端架构",
+          "subtitle": "从语音输入到智能语音响应的完整管道",
+          "speechInput": {
+            "title": "语音输入处理",
+            "description": "以业界领先的准确度将语音转换为文字",
+            "kaldiASR": "基于Kaldi的ASR",
+            "noiseReduction": "降噪技术",
+            "speakerDiarization": "说话人分离"
+          },
+          "llmProcessing": {
+            "title": "语言模型处理",
+            "description": "具有商业语境整合的先进LLM处理",
+            "gpt4Turbo": "GPT-4 Turbo",
+            "customFineTuning": "客制化微调",
+            "ragIntegration": "RAG整合"
+          },
+          "responseGeneration": {
+            "title": "响应生成",
+            "description": "生成语境适当且符合商业需求的响应",
+            "templateSystems": "模板系统",
+            "dynamicContent": "动态内容",
+            "complianceChecking": "合规检查"
+          },
+          "speechOutput": {
+            "title": "语音输出合成",
+            "description": "将文字响应转换为自然语音",
+            "neuralTTS": "神经TTS",
+            "voiceCloning": "声音复制",
+            "emotionControl": "情感控制"
+          }
+        },
+        "useCases": {
+          "title": "智能使用案例",
+          "subtitle": "以AI驱动的对话转型商业运营",
+          "customerSupport": {
+            "title": "智能客户支援",
+            "description": "以类人理解和问题解决能力处理复杂的客户询问。",
+            "reducedEscalation": "降低升级率",
+            "fasterResolution": "更快解决时间",
+            "consistentQuality": "一致的服务品质",
+            "availability24x7": "24/7可用性"
+          },
+          "salesConversations": {
+            "title": "销售对话",
+            "description": "以适应客户需求和偏好的个人化销售对话吸引潜在客户。",
+            "higherConversion": "更高转换率",
+            "personalizedRecommendations": "个人化推荐",
+            "objectionHandling": "异议处理",
+            "leadQualification": "潜在客户资格认定"
+          },
+          "technicalSupport": {
+            "title": "技术支援",
+            "description": "透过存取全面知识库提供专家级技术协助。",
+            "complexTroubleshooting": "复杂故障排除",
+            "stepByStepGuidance": "逐步指导",
+            "documentationAccess": "文件存取",
+            "escalationIntelligence": "升级智能"
+          },
+          "healthcareAssistance": {
+            "title": "医疗保健协助",
+            "description": "以理解医疗术语的HIPAA合规AI支援医疗保健工作流程。",
+            "medicalKnowledge": "医疗知识库",
+            "appointmentScheduling": "预约排程",
+            "symptomAssessment": "症状评估",
+            "careCoordination": "照护协调"
+          }
+        },
+        "performance": {
+          "title": "企业性能",
+          "description": "我们的端到端LLM解决方案提供企业级性能，具有即时处理、高准确度和可靠的扩展性，适用于关键商业应用。",
+          "realTimeTitle": "即时处理",
+          "realTimeDesc": "亚秒级响应时间，实现自然对话",
+          "securityTitle": "企业安全",
+          "securityDesc": "SOC 2、HIPAA和PCI合规基础设施",
+          "qualityTitle": "对话品质",
+          "qualityDesc": "具有语境感知的类人互动",
+          "metricsTitle": "性能指标",
+          "responseLatency": "响应延迟",
+          "responseLatencyValue": "< 500ms",
+          "intentAccuracy": "意图准确度",
+          "intentAccuracyValue": "98.2%",
+          "contextRetention": "语境保持",
+          "contextRetentionValue": "95.8%",
+          "uptimeSLA": "正常运行时间SLA",
+          "uptimeSLAValue": "99.99%",
+          "concurrentUsers": "同时用户",
+          "concurrentUsersValue": "10,000+"
+        },
+        "cta": {
+          "title": "准备部署智能对话了吗？",
+          "subtitle": "以能够理解、推理并智能响应的端到端LLM解决方案转型您的业务",
+          "scheduleDemoButton": "预约LLM演示",
+          "exploreArchButton": "探索架构"
+        }
+      },
+      "technology": {
+        "title": "建立在业界领先的技术之上",
+        "subtitle": "由原Kaldi团队的语音识别专业技术驱动",
+        "speechRecognition": {
+          "title": "语音识别",
+          "description": "先进的STT技术，准确度超过99%，即使在背景噪音和行业术语环境下也能准确识别。",
+          "metric1": "99%+准确度",
+          "metric2": "即时处理",
+          "metric3": "降噪技术"
+        },
+        "nlp": {
+          "title": "自然语言处理",
+          "description": "语境感知AI，理解意图并维持自然对话流程。",
+          "metric1": "意图识别",
+          "metric2": "语境保持",
+          "metric3": "情感智慧"
+        },
+        "voiceSynthesis": {
+          "title": "语音合成",
+          "description": "类人文字转语音技术，配备可客制化语音和自然韵律。",
+          "metric1": "自然韵律",
+          "metric2": "声音复制",
+          "metric3": "情感控制"
+        }
+      },
+      "landlineMobile": {
+        "hero": {
+          "title": "固定电话与行动语音解决方案",
+          "subtitle": "以AI驱动的语音代理转换您的传统电话系统，与固定电话和行动网路完美整合，服务全球客户。",
+          "cta": "免费注册"
+        },
+        "features": {
+          "0": {
+            "title": "传统固定电话整合",
+            "description": "将您现有的固定电话基础设施与AI语音功能无缝连接。",
+            "benefits": {
+              "0": "保留现有电话号码",
+              "1": "无需更换硬体设备",
+              "2": "忙线时提供即时AI备援"
+            }
+          },
+          "1": {
+            "title": "行动网路连接",
+            "description": "直接整合行动电信业者，用于外拨活动和客户互动。",
+            "benefits": {
+              "0": "触达客户的行动装置",
+              "1": "高通达率",
+              "2": "SMS备援选项"
+            }
+          },
+          "2": {
+            "title": "全球覆盖",
+            "description": "透过我们广泛的电信业者网路合作伙伴，与全球客户连接。",
+            "benefits": {
+              "0": "支援200多个国家",
+              "1": "本地号码呈现",
+              "2": "竞争力的国际费率"
+            }
+          },
+          "title": "通用语音连接",
+          "subtitle": "与世界各地的任何电话系统连接"
+        },
+        "useCases": {
+          "0": {
+            "title": "预约提醒",
+            "description": "自动致电病患、客户或客户端，确认即将到来的预约。",
+            "metrics": {
+              "0": "减少40%的缺席率",
+              "1": "95%的联系成功率",
+              "2": "24/7自动化拨号"
+            }
+          },
+          "1": {
+            "title": "紧急通知",
+            "description": "在紧急情况或重要更新时快速通知大量群组。",
+            "metrics": {
+              "0": "每分钟1000+通电话",
+              "1": "多语言支援",
+              "2": "传送确认"
+            }
+          },
+          "2": {
+            "title": "客户调查",
+            "description": "进行售后服务调查，收集宝贵的客户回馈。",
+            "metrics": {
+              "0": "提高3倍的回应率",
+              "1": "即时情感分析",
+              "2": "自动化报告"
+            }
+          },
+          "title": "热门使用案例",
+          "subtitle": "了解企业如何运用固定电话和行动语音自动化"
+        },
+        "specs": {
+          "title": "企业级可靠性",
+          "subtitle": "为关键任务通讯而建置，具备电信级基础设施和99.99%正常运行时间保证。",
+          "security": {
+            "title": "安全性与合规性",
+            "description": "SOC 2、HIPAA和PCI合规基础设施"
+          },
+          "monitoring": {
+            "title": "24/7监控",
+            "description": "即时系统监控和即时故障转移"
+          },
+          "infrastructure": {
+            "title": "全球基础设施",
+            "description": "跨多个地区的冗余资料中心"
+          },
+          "technical": {
+            "title": "技术规格",
+            "concurrentCalls": {
+              "label": "并行通话",
+              "value": "无限制"
+            },
+            "audioQuality": {
+              "label": "音讯品质",
+              "value": "HD语音 (G.722)"
+            },
+            "latency": {
+              "label": "延迟",
+              "value": "< 150毫秒"
+            },
+            "uptimeSLA": {
+              "label": "正常运行时间SLA",
+              "value": "99.99%"
+            },
+            "globalCoverage": {
+              "label": "全球覆盖",
+              "value": "200多个国家"
+            }
+          }
+        },
+        "cta": {
+          "title": "准备现代化您的电话系统？",
+          "subtitle": "几分钟内将您的固定电话和行动基础设施与AI语音代理连接",
+          "button": "安排整合通话"
+        }
+      },
+      "speechToText": {
+        "hero": {
+          "title": "语音转文字技术",
+          "subtitle": "业界领先的语音识别技术，准确率达99%以上。实时将任何音频转换为文字，支援50多种语言及专业行业词汇。",
+          "cta": "试用语音识别"
+        },
+        "features": {
+          "0": {
+            "title": "实时处理",
+            "description": "以超低延迟实时将语音转换为文字，适用于即时对话。",
+            "specs": {
+              "0": "< 100毫秒延迟",
+              "1": "串流识别",
+              "2": "实时转录"
+            }
+          },
+          "1": {
+            "title": "多语言支援",
+            "description": "支援50多种语言和方言，具备自动语言检测功能。",
+            "specs": {
+              "0": "50多种语言",
+              "1": "自动检测",
+              "2": "地区口音"
+            }
+          },
+          "2": {
+            "title": "行业级准确性",
+            "description": "针对不同行业和使用场景训练的专业模型。",
+            "specs": {
+              "0": "99%以上准确率",
+              "1": "领域专用",
+              "2": "客制化词汇"
+            }
+          },
+          "title": "先进语音识别技术",
+          "subtitle": "基于原始Kaldi框架，结合现代深度学习增强技术"
+        },
+        "accuracy": {
+          "title": "业界领先准确率",
+          "subtitle": "针对不同行业和使用场景训练的专业模型",
+          "stats": {
+            "0": {
+              "category": "一般对话",
+              "accuracy": "99.2%",
+              "improvement": "+15%"
+            },
+            "1": {
+              "category": "医疗术语",
+              "accuracy": "98.8%",
+              "improvement": "+22%"
+            },
+            "2": {
+              "category": "金融服务",
+              "accuracy": "99.1%",
+              "improvement": "+18%"
+            },
+            "3": {
+              "category": "技术支援",
+              "accuracy": "98.9%",
+              "improvement": "+20%"
+            }
+          },
+          "improvementSuffix": " 超越行业平均"
+        },
+        "languages": {
+          "title": "全球语言支援",
+          "subtitle": "全面支援主要世界语言，具备自动语言检测和地区口音识别功能。我们的模型持续在多样化数据集上训练，确保在不同语音风格和环境下的准确性。",
+          "features": {
+            "0": {
+              "title": "50多种语言",
+              "description": "主要世界语言和地区方言"
+            },
+            "1": {
+              "title": "自动检测",
+              "description": "自动语言识别和切换"
+            },
+            "2": {
+              "title": "持续学习",
+              "description": "模型随使用和回馈而改进"
+            }
+          },
+          "supportedTitle": "支援语言",
+          "supportedLanguages": {
+            "0": "英语（美国、英国、澳洲）",
+            "1": "西班牙语（西班牙、墨西哥、阿根廷）",
+            "2": "法语（法国、加拿大）",
+            "3": "德语",
+            "4": "义大利语",
+            "5": "葡萄牙语（巴西、葡萄牙）",
+            "6": "日语",
+            "7": "韩语",
+            "8": "中文普通话",
+            "9": "中文粤语",
+            "10": "印地语",
+            "11": "阿拉伯语",
+            "12": "俄语",
+            "13": "荷兰语",
+            "14": "瑞典语",
+            "15": "挪威语"
+          },
+          "customNote": "可提供专业词汇和行业特定术语的客制化语言模型"
+        },
+        "useCases": {
+          "0": {
+            "title": "客服中心转录",
+            "description": "实时转录客服通话，用于品质保证和培训。",
+            "benefits": {
+              "0": "品质监控",
+              "1": "合规记录",
+              "2": "客服培训",
+              "3": "客户洞察"
+            }
+          },
+          "1": {
+            "title": "会议文档",
+            "description": "自动转录会议、会议和商业讨论。",
+            "benefits": {
+              "0": "会议记录",
+              "1": "行动项目提取",
+              "2": "可搜寻档案",
+              "3": "多说话者识别"
+            }
+          },
+          "2": {
+            "title": "语音指令",
+            "description": "将语音指令转换为文字，用于语音控制应用和介面。",
+            "benefits": {
+              "0": "免手操作",
+              "1": "无障碍功能",
+              "2": "智能家居控制",
+              "3": "行动应用"
+            }
+          },
+          "3": {
+            "title": "内容创作",
+            "description": "将音频内容转换为文字，用于播客、视频和媒体制作。",
+            "benefits": {
+              "0": "字幕生成",
+              "1": "内容索引",
+              "2": "SEO优化",
+              "3": "无障碍合规"
+            }
+          },
+          "title": "强大应用场景",
+          "subtitle": "跨行业和应用将音频转换为可操作的文字"
+        },
+        "specs": {
+          "title": "技术规格",
+          "subtitle": "企业级性能和可靠性",
+          "performance": {
+            "title": "性能",
+            "latency": {
+              "label": "延迟",
+              "value": "< 100毫秒"
+            },
+            "accuracy": {
+              "label": "准确率",
+              "value": "99%以上"
+            },
+            "throughput": {
+              "label": "吞吐量",
+              "value": "1000多个并发"
+            },
+            "uptime": {
+              "label": "正常运行时间",
+              "value": "99.99%"
+            }
+          },
+          "audioFormats": {
+            "title": "音频格式",
+            "sampleRate": {
+              "label": "采样率",
+              "value": "8-48 kHz"
+            },
+            "bitDepth": {
+              "label": "位元深度",
+              "value": "16-32位元"
+            },
+            "formats": {
+              "label": "格式",
+              "value": "WAV、MP3、FLAC"
+            },
+            "streaming": {
+              "label": "串流",
+              "value": "实时"
+            }
+          },
+          "integration": {
+            "title": "整合",
+            "api": {
+              "label": "API",
+              "value": "REST与WebSocket"
+            },
+            "sdks": {
+              "label": "SDK",
+              "value": "Python、Node.js、Go"
+            },
+            "webhooks": {
+              "label": "Webhooks",
+              "value": "实时事件"
+            },
+            "security": {
+              "label": "安全性",
+              "value": "TLS 1.3、OAuth 2.0"
+            }
+          }
+        },
+        "cta": {
+          "title": "准备好将音频转换为文字了吗？",
+          "subtitle": "体验业界领先语音识别技术的强大功能",
+          "primaryButton": "免费试用",
+          "secondaryButton": "查看API文档"
+        }
+      },
+      "lineCallPlus": {
+        "hero": {
+          "title": "商用LINE通话增强版",
+          "description": "运用AI驱动的语音通话功能转型您的LINE商业帐号。透过客户偏爱的通讯平台与亚太市场客户建立连结。",
+          "cta": "开始LINE整合"
+        },
+        "marketReach": {
+          "title": "触达亚太地区数百万用户",
+          "subtitle": "LINE主导亚洲主要市场的商业通讯",
+          "activeUsers": "活跃用户",
+          "marketPenetration": "市场渗透率"
+        },
+        "features": {
+          "title": "强大的LINE商业功能",
+          "subtitle": "在LINE上提供卓越语音体验所需的一切功能",
+          "nativeIntegration": {
+            "title": "原生LINE整合",
+            "description": "在LINE通讯平台内无缝整合语音通话功能。",
+            "benefit1": "聊天中一键通话",
+            "benefit2": "统一对话纪录",
+            "benefit3": "丰富媒体支援"
+          },
+          "businessAccount": {
+            "title": "商业帐号支援",
+            "description": "全面支援LINE商业帐号的进阶功能和分析。",
+            "benefit1": "验证商业档案",
+            "benefit2": "客制化品牌选项",
+            "benefit3": "进阶使用者管理"
+          },
+          "asiaPacific": {
+            "title": "亚太地区专注",
+            "description": "专为LINE主导商业通讯的亚洲主要市场优化。",
+            "benefit1": "当地语言支援",
+            "benefit2": "区域合规",
+            "benefit3": "文化客制化"
+          }
+        },
+        "useCases": {
+          "title": "转型客户互动",
+          "subtitle": "了解企业如何使用LINE通话增强版来提升客户关系",
+          "customerSupport": {
+            "title": "客户支援",
+            "description": "在LINE对话中直接提供即时语音支援。",
+            "metric1": "解决速度提升50%",
+            "metric2": "90%客户满意度",
+            "metric3": "24/7全天候服务"
+          },
+          "salesConsultations": {
+            "title": "销售咨询",
+            "description": "将聊天询问转换为语音通话，提供个性化销售体验。",
+            "metric1": "转换率提升3倍",
+            "metric2": "个性化建议",
+            "metric3": "建立信任"
+          },
+          "appointmentBooking": {
+            "title": "预约排程",
+            "description": "在LINE商业帐号内启用基于语音的预约排程。",
+            "metric1": "即时确认",
+            "metric2": "行事历整合",
+            "metric3": "自动提醒"
+          }
+        },
+        "integration": {
+          "title": "简单整合流程",
+          "subtitle": "只需几个步骤即可开始使用LINE通话增强版",
+          "step1": {
+            "title": "连接LINE商业帐号",
+            "description": "连结您现有的LINE商业帐号或透过我们的引导设定创建新帐号。"
+          },
+          "step2": {
+            "title": "配置语音助理",
+            "description": "使用客制化脚本、语音和商业逻辑设定您的AI语音助理。"
+          },
+          "step3": {
+            "title": "上线运作",
+            "description": "启动您的语音功能LINE商业帐号并开始与客户互动。"
+          }
+        },
+        "analytics": {
+          "title": "全面分析",
+          "description": "透过详细的分析和报告追踪效能、了解客户行为并优化您的LINE语音互动。",
+          "callAnalytics": {
+            "title": "通话分析",
+            "description": "追踪通话量、持续时间和成功率"
+          },
+          "userEngagement": {
+            "title": "使用者参与",
+            "description": "监控使用者互动和满意度评分"
+          },
+          "platformInsights": {
+            "title": "平台洞察",
+            "description": "LINE特定指标和效能数据"
+          },
+          "dashboard": {
+            "title": "LINE通话分析",
+            "live": "即时",
+            "activeCalls": "活跃通话",
+            "responseRate": "回应率",
+            "avgCallDuration": "平均通话时间",
+            "customerSatisfaction": "客户满意度",
+            "sampleResponse": "日语语音助理回应客户"
+          }
+        },
+        "cta": {
+          "title": "准备好在亚太地区扩展？",
+          "description": "与数百万LINE用户建立连结，在亚洲主要市场转型您的客户参与",
+          "button": "开始LINE整合"
+        }
+      },
+      "voipSipByoc": {
+        "hero": {
+          "title": "VoIP、SIP 与 BYOC 语音解决方案",
+          "subtitle": "企业级语音连接，具有最大灵活性。从 VoIP 整合、直接 SIP 中继或自带电信商中选择，完全控制。",
+          "cta": "与连接专家对话"
+        },
+        "connectionTypes": {
+          "title": "灵活的连接选项",
+          "subtitle": "选择最适合您基础设施和需求的连接方式",
+          "keyFeatures": "主要功能：",
+          "voip": {
+            "title": "VoIP 整合",
+            "description": "将您现有的 VoIP 基础设施与我们的 AI 语音平台无缝连接。",
+            "features": {
+              "sipTrunk": "SIP 中继相容性",
+              "codecOptimization": "编解码器优化",
+              "qos": "服务品质 (QoS)",
+              "bandwidthManagement": "频宽管理"
+            },
+            "pricing": "起价 $0.08/分钟"
+          },
+          "sip": {
+            "title": "SIP 中继",
+            "description": "直接 SIP 连接，最大化控制和自订您的语音流量。",
+            "features": {
+              "directEndpoints": "直接 SIP 端点",
+              "customRouting": "自订路由规则",
+              "failoverProtection": "故障切换保护",
+              "realTimeMonitoring": "即时监控"
+            },
+            "pricing": "起价 $0.06/分钟"
+          },
+          "byoc": {
+            "title": "自带电信商 (BYOC)",
+            "description": "使用您偏好的电信商，同时利用我们的 AI 语音功能。",
+            "features": {
+              "carrierIndependence": "电信商独立性",
+              "costOptimization": "成本优化",
+              "globalReach": "全球覆盖",
+              "vendorFlexibility": "供应商灵活性"
+            },
+            "pricing": "平台费用 + 电信商费率"
+          }
+        },
+        "benefits": {
+          "title": "企业优势",
+          "subtitle": "为什么领先企业选择我们的语音连接解决方案",
+          "costSavings": {
+            "title": "成本节约",
+            "description": "通过优化路由和电信商选择，最多可减少 60% 的通讯成本。",
+            "metric": "60%"
+          },
+          "reliability": {
+            "title": "可靠性",
+            "description": "企业级正常运行时间，具有自动故障切换和冗余基础设施。",
+            "metric": "99.99%"
+          },
+          "scalability": {
+            "title": "可扩展性",
+            "description": "通过弹性扩展功能处理数千个并发通话。",
+            "metric": "10,000+"
+          },
+          "globalReach": {
+            "title": "全球覆盖",
+            "description": "通过主要市场的本地覆盖连接全球客户。",
+            "metric": "200+"
+          }
+        },
+        "technicalExcellence": {
+          "title": "技术卓越",
+          "subtitle": "基于行业标准协议构建，具有企业级安全和性能。我们的平台支援所有主要编解码器并提供即时品质监控。",
+          "endToEndEncryption": {
+            "title": "端到端加密",
+            "description": "TLS 1.3 和 SRTP 保护语音传输安全"
+          },
+          "lowLatency": {
+            "title": "低延迟",
+            "description": "低于 150ms 延迟，提供清晰通话"
+          },
+          "advancedConfiguration": {
+            "title": "进阶配置",
+            "description": "对路由和品质设定的精细控制"
+          }
+        },
+        "technicalSpecs": {
+          "title": "技术规格",
+          "supportedProtocols": {
+            "feature": "支援协议",
+            "value": "SIP 2.0、RTP、SRTP"
+          },
+          "audioCodecs": {
+            "feature": "音频编解码器",
+            "value": "G.711、G.722、G.729、Opus"
+          },
+          "encryption": {
+            "feature": "加密",
+            "value": "TLS 1.3、SRTP、AES-256"
+          },
+          "networkRequirements": {
+            "feature": "网路需求",
+            "value": "每个并发通话 100 kbps"
+          },
+          "latency": {
+            "feature": "延迟",
+            "value": "< 150ms 端到端"
+          },
+          "jitterBuffer": {
+            "feature": "抖动缓冲区",
+            "value": "自适应，20-200ms"
+          }
+        },
+        "howItWorks": {
+          "title": "工作原理",
+          "subtitle": "与您现有基础设施的简单整合",
+          "yourInfrastructure": {
+            "title": "您的基础设施",
+            "description": "现有 PBX、VoIP 系统或电信商"
+          },
+          "seavoicePlatform": {
+            "title": "SeaVoice 平台",
+            "description": "AI 语音处理和路由"
+          },
+          "globalNetwork": {
+            "title": "全球网路",
+            "description": "全球电信商连接"
+          }
+        },
+        "cta": {
+          "title": "准备好优化您的语音基础设施了吗？",
+          "subtitle": "与我们的连接专家交谈，为您的需求设计完美解决方案",
+          "scheduleConsultation": "安排咨询",
+          "signUpForFree": "免费注册"
+        }
+      },
+      "whatsAppVoice": {
+        "hero": {
+          "title": "企业 WhatsApp 语音 API",
+          "subtitle": "使用AI驱动的语音通话功能改造您的WhatsApp商业帐户。透过无缝语音互动触达全球20多亿用户。",
+          "cta": "获取 WhatsApp Business Platform API"
+        },
+        "globalStats": {
+          "title": "触达全球最大的讯息平台",
+          "subtitle": "WhatsApp以前所未有的触达率和参与度主导全球讯息市场",
+          "stats": {
+            "0": {
+              "region": "全球用户",
+              "count": "27.8亿+",
+              "growth": "年增+3.2%"
+            },
+            "1": {
+              "region": "商业帐户",
+              "count": "2亿+",
+              "growth": "年增+15%"
+            },
+            "2": {
+              "region": "每日讯息",
+              "count": "1000亿+",
+              "growth": "年增+8%"
+            },
+            "3": {
+              "region": "国家",
+              "count": "180+",
+              "growth": "全面覆盖"
+            }
+          }
+        },
+        "features": {
+          "0": {
+            "title": "WhatsApp Business Platform API",
+            "description": "与WhatsApp Business Platform API的官方整合，用于经认证的企业通讯。",
+            "benefits": {
+              "0": "绿色勾选认证",
+              "1": "商业档案功能",
+              "2": "讯息范本"
+            }
+          },
+          "1": {
+            "title": "全球触达",
+            "description": "透过语音通话与全球20多亿WhatsApp用户建立联系。",
+            "benefits": {
+              "0": "支援180多个国家",
+              "1": "多语言功能",
+              "2": "本地号码显示"
+            }
+          },
+          "2": {
+            "title": "端到端安全",
+            "description": "利用WhatsApp的端到端加密技术进行安全的商业通讯。",
+            "benefits": {
+              "0": "讯息加密",
+              "1": "安全语音通话",
+              "2": "隐私合规"
+            }
+          },
+          "title": "企业级 WhatsApp 语音功能",
+          "subtitle": "在WhatsApp上提供卓越语音体验所需的一切"
+        },
+        "useCases": {
+          "0": {
+            "title": "客户支援",
+            "description": "直接在WhatsApp对话中提供即时语音支援。",
+            "metrics": {
+              "0": "解决速度快60%",
+              "1": "客户满意度95%",
+              "2": "无缝升级"
+            }
+          },
+          "1": {
+            "title": "销售与咨询",
+            "description": "将聊天询问转换为语音通话，提供个人化销售体验。",
+            "metrics": {
+              "0": "转换率高4倍",
+              "1": "个人化服务",
+              "2": "建立信任"
+            }
+          },
+          "2": {
+            "title": "预约预订",
+            "description": "在WhatsApp Business中启用基于语音的预约安排。",
+            "metrics": {
+              "0": "一键预订",
+              "1": "日历同步",
+              "2": "自动确认"
+            }
+          },
+          "3": {
+            "title": "订单管理",
+            "description": "透过语音互动处理订单查询、更新和支援。",
+            "metrics": {
+              "0": "即时更新",
+              "1": "订单追踪",
+              "2": "问题解决"
+            }
+          },
+          "title": "转变客户互动",
+          "subtitle": "看看企业如何使用WhatsApp语音API来增强客户关系"
+        },
+        "integration": {
+          "title": "简易整合流程",
+          "subtitle": "只需四个步骤即可开始使用WhatsApp语音API",
+          "steps": {
+            "0": {
+              "title": "WhatsApp商业设定",
+              "description": "连接您的WhatsApp商业帐户或创建新的认证商业档案。"
+            },
+            "1": {
+              "title": "语音代理配置",
+              "description": "使用您的业务逻辑、脚本和品牌声音配置AI语音代理。"
+            },
+            "2": {
+              "title": "API整合",
+              "description": "使用我们全面的API和webhooks与您现有的系统整合。"
+            },
+            "3": {
+              "title": "正式上线",
+              "description": "启动您的语音功能WhatsApp Business并开始与客户互动。"
+            }
+          }
+        },
+        "demo": {
+          "title": "实际体验",
+          "subtitle": "体验语音通话如何与WhatsApp Business无缝整合。我们的AI代理能够处理复杂对话，同时保持您客户喜爱的熟悉WhatsApp体验。",
+          "features": {
+            "0": {
+              "title": "一键通话",
+              "description": "客户可以直接从聊天发起语音通话"
+            },
+            "1": {
+              "title": "无缝转接",
+              "description": "AI和人工代理之间的顺畅转换"
+            },
+            "2": {
+              "title": "统一历史记录",
+              "description": "跨聊天和语音的完整对话历史记录"
+            }
+          },
+          "dashboard": {
+            "title": "WhatsApp Business 仪表板",
+            "liveStatus": "即时",
+            "stats": {
+              "activeVoiceCalls": {
+                "label": "活跃语音通话",
+                "value": "89"
+              },
+              "messagesToday": {
+                "label": "今日讯息",
+                "value": "2,847"
+              },
+              "responseRate": {
+                "label": "回应率",
+                "value": "96%"
+              },
+              "customerSatisfaction": {
+                "label": "客户满意度",
+                "value": "4.9/5"
+              }
+            }
+          },
+          "aiAssistant": {
+            "name": "AI助理",
+            "message": "嗨！我是来帮助您处理订单的。您愿意直接与我通话吗？只需点击上方的通话按钮即可！"
+          }
+        },
+        "cta": {
+          "title": "准备好转型WhatsApp Business了吗？",
+          "subtitle": "加入数千家使用WhatsApp语音API提供卓越客户体验的企业",
+          "primaryButton": "立即开始",
+          "secondaryButton": "安排演示"
+        }
+      }
+    },
+    "components": {
+      "interactiveCallDashboard": {
+        "liveDashboard": "即时仪表板",
+        "controlCenter": "控制中心",
+        "realTimeAnalytics": "即时分析",
+        "description": "观看我们的AI语音平台如何处理成千上万的同时通话，并提供类人对话和即时分析。",
+        "bookDemo": "预约演示",
+        "controlCenterTitle": "SeaVoice控制中心",
+        "live": "即时",
+        "activeCalls": "活跃通话",
+        "avgQueueTime": "平均等待时间",
+        "resolutionRate": "解决率",
+        "availability": "可用性",
+        "globalCallActivity": "全球通话活动",
+        "recentConversations": "最近对话",
+        "customerInquiryResolved": "客户查询已解决",
+        "appointmentScheduled": "预约已安排",
+        "paymentProcessed": "付款已处理",
+        "supportTicketCreated": "支援工单已建立",
+        "justNow": "刚刚",
+        "concurrentCalls": "并行通话",
+        "uptime": "正常运行时间",
+        "conversations": {
+          "appointmentRequest": "您好，我想预约时间",
+          "techCorpGreeting": "感谢您致电TechCorp...",
+          "orderTracking": "您能帮我追踪订单吗？",
+          "availabilityResponse": "我周二下午2点有空"
+        }
+      },
+      "voiceDemo": {
+        "demos": {
+          "restaurant": {
+            "title": "餐厅订位预订",
+            "description": "AI处理桌位预订、可用性检查和特殊要求"
+          },
+          "insurance": {
+            "title": "保险验证电话",
+            "description": "自动保险验证和理赔处理"
+          },
+          "techSupport": {
+            "title": "技术支援",
+            "description": "技术故障排除和客户支援自动化"
+          },
+          "salesLead": {
+            "title": "销售潜在客户筛选",
+            "description": "智能潜在客户筛选和销售漏斗管理"
+          },
+          "realEstate": {
+            "title": "房地产询问处理",
+            "description": "房产询问、安排看房和客户管理"
+          },
+          "donation": {
+            "title": "捐款活动推广",
+            "description": "募资活动和捐赠者参与自动化"
+          }
+        },
+        "seekTooltip": "点击以寻找位置"
+      }
+    }
+  }
+}

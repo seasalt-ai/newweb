@@ -1,0 +1,1551 @@
+{
+  "seachat": {
+    "solutions": {
+      "healthcare": {
+        "title": "ヘルスケアソリューション",
+        "subtitle": "患者の満足度を向上させ、運用を合理化し、ケアの調整を強化するHIPAA準拠のカスタマーサポートで患者ケアを変換します。",
+        "trialButton": "ヘルスケアを無料で開始します",
+        "demoButton": "ヘルスケアのデモをスケジュールします",
+        "featuresTitle": "ヘルスケア固有の機能",
+        "featuresSubtitle": "並外れた患者ケアを提供するための医療提供者向けの専用の機能。",
+        "features": {
+          "hipaa": {
+            "title": "HIPAAコンプライアンス",
+            "description": "暗号化された通信と安全なデータ処理への完全なHIPAAコンプライアンス",
+            "benefits": {
+              "encryption": "エンドツーエンド暗号化",
+              "audit": "監査証跡",
+              "access": "アクセスコントロール",
+              "anonymization": "データ匿名化"
+            }
+          },
+          "appointments": {
+            "title": "予約管理",
+            "description": "シームレスなアポイントメントスケジューリング、再スケジュール、およびリマインダーシステム",
+            "benefits": {
+              "availability": "リアルタイムの可用性",
+              "reminders": "自動リマインダー",
+              "cancellation": "キャンセル処理",
+              "waitlist": "ウェイトリスト管理"
+            }
+          },
+          "telehealth": {
+            "title": "テレヘルスサポート",
+            "description": "リモート患者の相談のための統合されたテレヘルス機能",
+            "benefits": {
+              "video": "ビデオ相談",
+              "messaging": "セキュアなメッセージング",
+              "documents": "ドキュメント共有",
+              "followup": "フォローアップケア"
+            }
+          },
+          "engagement": {
+            "title": "患者の関与",
+            "description": "24時間年中無休のサポートとパーソナライズされたケアで患者の満足度を向上させます",
+            "benefits": {
+              "availability": "24/7の可用性",
+              "multilanguage": "多言語サポート",
+              "coordination": "ケアの調整",
+              "education": "健康教育"
+            }
+          }
+        },
+        "metricsTitle": "ヘルスケアインパクトメトリック",
+        "metricsSubtitle": "患者サポートのためにSeachatを使用している医療提供者の実際の結果。",
+        "metrics": {
+          "noshows": {
+            "label": "ノーショーの削減",
+            "description": "自動予約リマインダー",
+            "value": "40％"
+          },
+          "response": {
+            "label": "応答時間の短縮",
+            "description": "患者の問い合わせや懸念について",
+            "value": "60％"
+          },
+          "satisfaction": {
+            "label": "患者の満足度",
+            "description": "24時間年中無休のサポートの可用性",
+            "value": "85％"
+          },
+          "efficiency": {
+            "label": "管理効率",
+            "description": "自動化されたワークフローを介して",
+            "value": "50％"
+          }
+        },
+        "useCasesTitle": "一般的なヘルスケアユースケース",
+        "useCasesSubtitle": "Seachatが典型的な患者の相互作用と管理タスクをどのように処理するかを参照してください。",
+        "useCases": {
+          "appointments": {
+            "title": "予約スケジューリング",
+            "description": "患者は、チャットを通じて予約、再スケジュール、またはキャンセルをキャンセルできます",
+            "example": "来週の火曜日の予約を再スケジュールする必要があります",
+            "outcome": "カレンダーの統合と確認による自動スケジューリング"
+          },
+          "prescriptions": {
+            "title": "処方の問い合わせ",
+            "description": "処方の補充と薬の質問をしっかりと扱います",
+            "example": "私の処方箋はいつピックアップの準備ができていますか？",
+            "outcome": "リアルタイムの薬局の統合とステータスの更新"
+          },
+          "insurance": {
+            "title": "保険の確認",
+            "description": "保険の補償を確認し、患者へのメリットを説明します",
+            "example": "私の手順は私の保険プランでカバーされていますか？",
+            "outcome": "インスタント保険の検証と補償説明"
+          },
+          "symptoms": {
+            "title": "症状の事前スクリーニング",
+            "description": "AI搭載の症状の評価とトリアージの推奨",
+            "example": "私は発熱と咳をしています、私は入るべきですか？",
+            "outcome": "適切なケアの推奨事項による症状評価"
+          }
+        },
+        "patientRequest": "患者のリクエスト",
+        "seachatResponse": "シーアット応答",
+        "hipaaTitle": "HIPAAコンプライアンスとセキュリティ",
+        "hipaaSubtitle": "ヘルスケアのセキュリティとコンプライアンスを念頭に置いてゼロから構築されています。例外的なケアエクスペリエンスを提供しながら、患者データを保護します。",
+        "compliance": {
+          "complianceFeatures": [
+            "エンドツーエンド暗号化",
+            "監査証跡",
+            "アクセスコントロール",
+            "データ匿名化",
+            "安全なデータストレージ",
+            "定期的なセキュリティ監査",
+            "スタッフのトレーニングと認定",
+            "インシデント応答手順"
+          ]
+        },
+        "certificationsTitle": "セキュリティ認証",
+        "certifications": {
+          "hipaa": "HIPAA準拠",
+          "soc2": "SOC 2タイプII",
+          "iso": "ISO 27001",
+          "gdpr": "GDPR準備"
+        },
+        "certified": "認定",
+        "compliant": "準拠",
+        "ctaTitle": "患者のケアを変える準備はできましたか？",
+        "ctaSubtitle": "既にSeachatを使用しているヘルスケアプロバイダーに参加して、最高のセキュリティおよびコンプライアンス基準を維持しながら、並外れた患者の経験を提供します。",
+        "ctaTrialButton": "ヘルスケアを無料で開始します",
+        "ctaDemoButton": "ヘルスケアのデモをスケジュールします"
+      },
+      "fintech": {
+        "securityFeatures": [
+          "すべての通信のエンドツーエンド暗号化",
+          "多要因認証と身元確認",
+          "定期的なセキュリティ監査と浸透テスト",
+          "ISO 27001認定インフラストラクチャ",
+          "リアルタイムの詐欺の監視と検出",
+          "レート制限付きのAPIエンドポイントを保護します"
+        ],
+        "title": "フィンテックソリューション",
+        "subtitle": "金融サービスの安全で準拠した顧客サポート。取引を処理し、投資ガイダンスを提供し、自信を持って規制の遵守を確保します。",
+        "trialButton": "FinTechを無料で開始します",
+        "demoButton": "財務デモをスケジュールします",
+        "featuresTitle": "金融サービス機能",
+        "featuresSubtitle": "安全で準拠した顧客サポートを提供するための金融機関向けの専用機能。",
+        "features": {
+          "security": {
+            "title": "金融セキュリティ",
+            "description": "PCI DSSコンプライアンスと詐欺保護を備えた銀行グレードのセキュリティ",
+            "benefits": {
+              "pci": "PCI DSSコンプライアンス",
+              "fraud": "詐欺検出",
+              "transactions": "安全なトランザクション",
+              "identity": "ID検証"
+            }
+          },
+          "payment": {
+            "title": "支払いサポート",
+            "description": "包括的な支払い処理サポートと紛争解決",
+            "benefits": {
+              "tracking": "トランザクション追跡",
+              "dispute": "紛争処理",
+              "refund": "払い戻し処理",
+              "methods": "支払い方法"
+            }
+          },
+          "investment": {
+            "title": "投資ガイダンス",
+            "description": "AI搭載の投資アドバイスとポートフォリオ管理サポート",
+            "benefits": {
+              "insights": "市場の洞察",
+              "portfolio": "ポートフォリオ分析",
+              "risk": "リスクアセスメント",
+              "recommendations": "投資の推奨事項"
+            }
+          },
+          "compliance": {
+            "title": "規制のコンプライアンス",
+            "description": "財務規制と報告要件に組み込まれたコンプライアンス",
+            "benefits": {
+              "kyc": "KYC/AMLコンプライアンス",
+              "reporting": "規制報告",
+              "audit": "監査証跡",
+              "protection": "データ保護"
+            }
+          }
+        },
+        "impactTitle": "金融サービスの影響",
+        "impactSubtitle": "カスタマーサポートのためにSeachatを使用する金融機関の実際の結果。",
+        "metrics": {
+          "accuracy": {
+            "label": "トランザクションの精度",
+            "description": "自動処理と検証により"
+          },
+          "resolution": {
+            "label": "より速い解像度",
+            "description": "財政的な問い合わせと紛争のため"
+          },
+          "fraud": {
+            "label": "詐欺検出率",
+            "description": "AI搭載の監視システムを使用"
+          },
+          "satisfaction": {
+            "label": "顧客満足度",
+            "description": "財政的支援の相互作用のため"
+          }
+        },
+        "useCasesTitle": "財政的支援ユースケース",
+        "useCasesSubtitle": "Seachatが複雑な財務的な問い合わせと取引をどのように処理するかをご覧ください。",
+        "useCases": {
+          "account": {
+            "title": "アカウント管理",
+            "description": "アカウントのセットアップ、検証、および管理を備えた顧客を支援します",
+            "example": "ビジネスアカウントのセットアップをサポートする必要があります",
+            "outcome": "ドキュメントの検証とコンプライアンスチェックを備えたガイド付きアカウントのセットアップ"
+          },
+          "transaction": {
+            "title": "トランザクションの問い合わせ",
+            "description": "リアルタイムのトランザクションステータスと履歴情報を提供します",
+            "example": "ABC Companyへの電信送金はどこにありますか？",
+            "outcome": "詳細なステータス更新を備えたリアルタイムトランザクション追跡"
+          },
+          "fraud": {
+            "title": "詐欺防止",
+            "description": "AIモニタリングを使用した不正活動を検出および防止します",
+            "example": "アカウントに疑わしい料金が表示されます",
+            "outcome": "即時の詐欺調査とアカウント保護対策"
+          },
+          "investment": {
+            "title": "投資サポート",
+            "description": "投資ガイダンスとポートフォリオ管理支援を提供します",
+            "example": "今すぐハイテク株に投資する必要がありますか？",
+            "outcome": "リスクプロファイルと市場分析に基づくパーソナライズされた投資アドバイス"
+          }
+        },
+        "customerInquiry": "顧客の問い合わせ",
+        "seachatResponse": "シーアット応答",
+        "securityTitle": "銀行グレードのセキュリティとコンプライアンス",
+        "securitySubtitle": "金融サービス機関の最高のセキュリティ基準と規制コンプライアンス要件を備えた構築。",
+        "regulatoryTitle": "規制のコンプライアンス",
+        "regulations": {
+          "pci": {
+            "name": "PCI DSS",
+            "description": "支払いカード業界のデータセキュリティ基準",
+            "status": "準拠"
+          },
+          "sox": {
+            "name": "ソックス",
+            "description": "Sarbanes-Oxley Act Compliance",
+            "status": "準拠"
+          },
+          "gdpr": {
+            "name": "GDPR",
+            "description": "一般的なデータ保護規則",
+            "status": "準拠"
+          },
+          "kyc": {
+            "name": "KYC/AML",
+            "description": "顧客 /マネーロンダリングを知ってください",
+            "status": "サポート"
+          },
+          "ccpa": {
+            "name": "CCPA",
+            "description": "カリフォルニア消費者プライバシー法",
+            "status": "準拠"
+          },
+          "finra": {
+            "name": "finra",
+            "description": "金融業界の規制当局",
+            "status": "サポート"
+          }
+        },
+        "ctaTitle": "あなたの金融サービスを確保する準備はできましたか？",
+        "ctaSubtitle": "既にSeachatを使用して金融機関に参加して、信頼を築き、成長を促進する安全で準拠したカスタマーサポートを提供します。",
+        "ctaTrialButton": "FinTechを無料で開始します",
+        "ctaDemoButton": "財務デモをスケジュールします"
+      },
+      "ecommerce": {
+        "title": "eコマース＆小売",
+        "subtitle": "オンラインストアを販売を促進し、カートの放棄を減らし、忠実な顧客を作成するインテリジェントなカスタマーサポートで変換します。",
+        "trialButton": "eコマースを無料で開始します",
+        "demoButton": "eコマースデモをスケジュールします",
+        "featuresTitle": "eコマース専門的な機能",
+        "featuresSubtitle": "販売と顧客満足度を最大化するためのオンライン小売業者向けの専用機能。",
+        "features": {
+          "orders": {
+            "title": "注文管理統合",
+            "description": "eコマースプラットフォームとシームレスに統合して、リアルタイムの注文追跡と更新を行います。",
+            "benefits": {
+              "status": "リアルタイム注文ステータス",
+              "shipping": "自動配送の更新",
+              "returns": "処理を返す",
+              "inventory": "在庫の問い合わせ"
+            }
+          },
+          "accounts": {
+            "title": "カスタマーアカウントサポート",
+            "description": "アカウントの問題、パスワードリセット、プロファイル管理を備えた顧客を支援します。",
+            "benefits": {
+              "recovery": "アカウントの回復",
+              "updates": "プロファイルの更新",
+              "subscriptions": "サブスクリプション管理",
+              "billing": "請求サポート"
+            }
+          },
+          "recommendations": {
+            "title": "製品の推奨事項",
+            "description": "顧客の好みと閲覧履歴に基づいたAI搭載の製品提案。",
+            "benefits": {
+              "personalized": "パーソナライズされた提案",
+              "cross": "クロスセラーの機会",
+              "upselling": "自動化のアップセリング",
+              "inventory": "在庫の最適化"
+            }
+          },
+          "assistance": {
+            "title": "24時間年中無休のショッピング支援",
+            "description": "さまざまなタイムゾーンやショッピングパターンにわたる顧客の24時間サポート。",
+            "benefits": {
+              "global": "グローバルなカバレッジ",
+              "peak": "ピークアワーサポート",
+              "holiday": "ホリデーアシスタンス",
+              "mobile": "モバイルショッピングヘルプ"
+            }
+          }
+        },
+        "resultsTitle": "実証済みのeコマース結果",
+        "resultsSubtitle": "顧客サポートにSeachatを使用しているeコマースビジネスの実際のメトリック。",
+        "metrics": {
+          "conversion": {
+            "label": "売上変換の増加",
+            "description": "積極的なカスタマーサポートを通じて"
+          },
+          "abandonment": {
+            "label": "カートの放棄の減少",
+            "description": "リアルタイムのショッピングアシスタンスを備えています"
+          },
+          "resolution": {
+            "label": "より速い注文解像度",
+            "description": "自動注文ステータスの更新"
+          },
+          "satisfaction": {
+            "label": "顧客満足度",
+            "description": "eコマースの場合、相互作用をサポートします"
+          }
+        },
+        "integrationsTitle": "eコマースプラットフォームの統合",
+        "integrationsSubtitle": "統一されたカスタマーサポートのために、既存のeコマーススタックとシームレスに接続します。",
+        "integrations": {
+          "shopify": {
+            "name": "Shopify",
+            "description": "フルオーダー統合を備えたネイティブShopifyアプリ"
+          },
+          "woocommerce": {
+            "name": "woocommerce",
+            "description": "WooCommerceストア用のWordPressプラグイン"
+          },
+          "magento": {
+            "name": "マゼント",
+            "description": "エンタープライズグレードのマゼント統合"
+          },
+          "bigcommerce": {
+            "name": "BigCommerce",
+            "description": "完全なBigCommerce API統合"
+          },
+          "stripe": {
+            "name": "ストライプ",
+            "description": "支払い処理と請求サポート"
+          },
+          "paypal": {
+            "name": "PayPal",
+            "description": "PayPalの取引と紛争処理"
+          }
+        },
+        "successTitle": "サクセスストーリー：ファッション小売業者",
+        "challenge": "チャレンジ",
+        "challengeDescription": "高いカートの放棄率と、サイジングの質問と製品の可用性の懸念により去る顧客。",
+        "solution": "解決",
+        "solutionDescription": "製品カタログの統合、サイジングガイド、積極的なカート放棄回復を備えたSeachatを展開しました。",
+        "results": "結果",
+        "result1": "変換率の45％の増加",
+        "result2": "カートの放棄の60％の削減",
+        "result3": "6か月で230万ドルの追加収益",
+        "chatPreview": "ライブチャットプレビュー",
+        "customer": "お客様",
+        "customerQuestion": "このドレスはサイズmで入手できますか？",
+        "seachatAI": "熟達ai",
+        "aiResponse1": "はい！青い夏のドレスはサイズMで利用できます。3つの在庫があります。カートに追加してくれませんか？",
+        "customerResponse": "完璧！はい、追加してください。",
+        "aiResponse2": "カートに追加！🛍§あなたは送料無料の資格があります。チェックアウトの準備はできましたか？",
+        "ctaTitle": "eコマースの販売を促進する準備はできましたか？",
+        "ctaSubtitle": "Seachatを使用して何百ものオンライン小売業者に参加して、コンバージョンを増やし、カートの放棄を減らし、並外れたショッピングエクスペリエンスを作成します。",
+        "ctaTrialButton": "eコマースを無料で開始します",
+        "ctaDemoButton": "eコマースデモをスケジュールします"
+      },
+      "education": {
+        "title": "教育ソリューション",
+        "subtitle": "学生、保護者、教員、スタッフのためのAIを駆動する支援を受けて、教育サポートを変革します。操作を合理化し、学習体験を強化します。",
+        "trialButton": "無料で教育を開始します",
+        "demoButton": "教育デモをスケジュールします",
+        "featuresTitle": "教育固有の機能",
+        "featuresSubtitle": "学生の成功と運用効率を高めるための教育機関向けの専用機能。",
+        "features": {
+          "student": {
+            "title": "学生サポートサービス",
+            "description": "学生の問い合わせ、登録、学術支援に対する包括的なサポート",
+            "benefits": {
+              "support": "24時間年中無休の学生サポート",
+              "enrollment": "登録支援",
+              "academic": "アカデミックガイダンス",
+              "technical": "技術的なヘルプ"
+            }
+          },
+          "admin": {
+            "title": "管理自動化",
+            "description": "自動スケジューリングと通知を使用して、管理タスクを合理化します",
+            "benefits": {
+              "scheduling": "クラスのスケジューリング",
+              "events": "イベント管理",
+              "deadlines": "締め切りリマインダー",
+              "registration": "登録サポート"
+            }
+          },
+          "stakeholder": {
+            "title": "マルチステークホルダーサポート",
+            "description": "テーラードエクスペリエンスを持つ学生、保護者、教員、スタッフをサポートします",
+            "benefits": {
+              "portals": "学生ポータル",
+              "parent": "親コミュニケーション",
+              "faculty": "教員支援",
+              "staff": "スタッフの調整"
+            }
+          },
+          "lms": {
+            "title": "学習管理統合",
+            "description": "LMSプラットフォームと教育ツールとのシームレスな統合",
+            "benefits": {
+              "connectivity": "LMS接続",
+              "grades": "グレードの問い合わせ",
+              "assignments": "割り当てヘルプ",
+              "courses": "コース情報"
+            }
+          }
+        },
+        "stakeholdersTitle": "すべての利害関係者へのサポート",
+        "stakeholdersSubtitle": "あなたの教育コミュニティのすべてのメンバーのためのカスタマイズエクスペリエンス。",
+        "stakeholders": {
+          "students": {
+            "title": "学生",
+            "description": "アカデミックサポート、登録ヘルプ、およびキャンパスサービス",
+            "features": {
+              "courses": "コース情報",
+              "assignments": "割り当て期限",
+              "grades": "グレードの問い合わせ",
+              "campus": "キャンパスナビゲーション"
+            }
+          },
+          "parents": {
+            "title": "両親",
+            "description": "学生の進捗状況と機関の更新について情報を提供してください",
+            "features": {
+              "progress": "進捗状況の更新",
+              "payment": "支払い情報",
+              "events": "イベント通知",
+              "communication": "教員とのコミュニケーション"
+            }
+          },
+          "faculty": {
+            "title": "学部",
+            "description": "管理サポートと教育支援",
+            "features": {
+              "management": "クラス管理",
+              "inquiries": "学生の問い合わせ",
+              "resources": "リソースリクエスト",
+              "technical": "テクニカルサポート"
+            }
+          },
+          "staff": {
+            "title": "スタッフ",
+            "description": "運用効率と管理自動化",
+            "features": {
+              "automation": "プロセス自動化",
+              "information": "情報アクセス",
+              "workflow": "ワークフロー管理",
+              "reporting": "レポートツール"
+            }
+          }
+        },
+        "metricsTitle": "教育的影響指標",
+        "metricsSubtitle": "学生と管理サポートのためにSeachatを使用する教育機関の実際の結果。",
+        "metrics": {
+          "admin": {
+            "label": "管理者ワークロードの削減",
+            "description": "自動化された学生の問い合わせを通じて"
+          },
+          "satisfaction": {
+            "label": "学生の満足",
+            "description": "24時間年中無休のサポートの可用性"
+          },
+          "response": {
+            "label": "応答時間の短縮",
+            "description": "学生と親の問い合わせのため"
+          },
+          "enrollment": {
+            "label": "登録の増加",
+            "description": "合理化されたアプリケーションプロセス"
+          }
+        },
+        "useCasesTitle": "一般的な教育ユースケース",
+        "useCasesSubtitle": "Seachatが典型的な学生と管理の対話をどのように処理するかを参照してください。",
+        "useCases": {
+          "enrollment": {
+            "title": "学生の登録",
+            "description": "登録プロセスを通じて将来の学生をガイドします",
+            "example": "コンピューターサイエンスプログラムに応募したいと思います",
+            "outcome": "ドキュメントの要件と期限を備えた段階的な登録ガイダンス"
+          },
+          "academic": {
+            "title": "アカデミックサポート",
+            "description": "学術支援とコース情報を提供します",
+            "example": "私の歴史の割り当ての期限はいつですか？",
+            "outcome": "割り当ての締め切りと提出ガイドラインへのリアルタイムアクセス"
+          },
+          "campus": {
+            "title": "キャンパスサービス",
+            "description": "キャンパス施設、食事、住宅、交通機関を手伝ってください",
+            "example": "図書館に留学室を予約するにはどうすればよいですか？",
+            "outcome": "可用性と確認を伴う直接予約システムの統合"
+          },
+          "financial": {
+            "title": "財政援助",
+            "description": "財政援助の申請と奨学金情報を支援します",
+            "example": "どの奨学金が資格がありますか？",
+            "outcome": "学生のプロフィールに基づくパーソナライズされた奨学金の推奨事項"
+          }
+        },
+        "studentInquiry": "学生の問い合わせ",
+        "seachatResponse": "シーアット応答",
+        "integrationsTitle": "教育プラットフォームの統合",
+        "integrationsSubtitle": "人気のある教育ツールやプラットフォームとシームレスに接続します。",
+        "integrations": {
+          "canvas": {
+            "name": "キャンバスLMS",
+            "description": "学習管理システムの統合"
+          },
+          "blackboard": {
+            "name": "黒板",
+            "description": "コース管理とコンテンツ配信"
+          },
+          "moodle": {
+            "name": "ムードル",
+            "description": "オープンソース学習プラットフォーム"
+          },
+          "google": {
+            "name": "Google Classroom",
+            "description": "教育コラボレーションプラットフォーム"
+          },
+          "zoom": {
+            "name": "ズーム",
+            "description": "仮想クラスのビデオ会議"
+          },
+          "teams": {
+            "name": "マイクロソフトチーム",
+            "description": "教育的コラボレーションとコミュニケーション"
+          },
+          "sis": {
+            "name": "学生情報システム",
+            "description": "学生記録のSIS統合"
+          },
+          "library": {
+            "name": "ライブラリシステム",
+            "description": "リソース予約とカタログ検索"
+          }
+        },
+        "ctaTitle": "教育サポートを変革する準備はできていますか？",
+        "ctaSubtitle": "すでにSeachatを使用して教育機関に参加して、学生の成功を強化し、管理事業を合理化します。",
+        "ctaTrialButton": "無料で教育を開始します",
+        "ctaDemoButton": "教育デモをスケジュールします"
+      },
+      "realEstate": {
+        "title": "不動産ソリューション",
+        "subtitle": "不動産ビジネスを、リードを捉え、見せを調整し、24時間年中無休のクライアント支援を提供するAIを搭載したカスタマーサポートで変換します。",
+        "trialButton": "不動産を無料で開始します",
+        "demoButton": "不動産デモをスケジュールします",
+        "featuresTitle": "不動産専用の機能",
+        "featuresSubtitle": "不動産の専​​門家がリードを獲得し、クライアントをより良くサービスするための専用の機能。",
+        "features": {
+          "search": {
+            "title": "プロパティ検索支援",
+            "description": "クライアントがAIを搭載した検索と推奨事項で完璧なプロパティを見つけるのを支援する",
+            "benefits": {
+              "matching": "スマートプロパティマッチング",
+              "insights": "市場の洞察",
+              "neighborhood": "近所の情報",
+              "analysis": "価格分析"
+            }
+          },
+          "showing": {
+            "title": "調整を示します",
+            "description": "自動スケジューリングと調整により、プロパティショーを合理化します",
+            "benefits": {
+              "scheduling": "自動スケジューリング",
+              "availability": "可用性同期",
+              "reminders": "リマインダー通知",
+              "route": "ルート最適化"
+            }
+          },
+          "leads": {
+            "title": "リード管理",
+            "description": "インテリジェントな資格とフォローアップでリードを捕らえて育てます",
+            "benefits": {
+              "qualification": "リード資格",
+              "followup": "自動化されたフォローアップ",
+              "crm": "CRM統合",
+              "tracking": "変換追跡"
+            }
+          },
+          "communication": {
+            "title": "クライアントコミュニケーション",
+            "description": "24時間年中無休の問い合わせ、更新、および取引支援に対するクライアントサポート",
+            "benefits": {
+              "availability": "24/7の可用性",
+              "updates": "トランザクションの更新",
+              "assistance": "文書支援",
+              "market": "市場の更新"
+            }
+          }
+        },
+        "metricsTitle": "不動産インパクトメトリック",
+        "metricsSubtitle": "クライアントサポートとリード生成のためにSeachatを使用する不動産の専​​門家からの実際の結果。",
+        "metrics": {
+          "leads": {
+            "label": "より資格のあるリード",
+            "description": "インテリジェントリードの資格を通じて"
+          },
+          "response": {
+            "label": "応答時間の短縮",
+            "description": "クライアントの問い合わせとリクエスト用"
+          },
+          "showing": {
+            "label": "効率を示します",
+            "description": "自動スケジューリング調整により"
+          },
+          "satisfaction": {
+            "label": "クライアントの満足度",
+            "description": "24時間年中無休のサポートの可用性"
+          }
+        },
+        "propertyTypesTitle": "すべてのプロパティタイプがサポートされています",
+        "propertyTypesSubtitle": "住宅、商業、または投資の不動産を専門とするかどうかにかかわらず、私たちはあなたをカバーしています。",
+        "propertyTypes": {
+          "residential": {
+            "name": "住宅販売",
+            "description": "一戸建て住宅、コンドミニアム、タウンハウス"
+          },
+          "commercial": {
+            "name": "商業用不動産",
+            "description": "オフィスビル、小売スペース、倉庫"
+          },
+          "rental": {
+            "name": "レンタルプロパティ",
+            "description": "アパートとレンタル管理"
+          },
+          "luxury": {
+            "name": "豪華なプロパティ",
+            "description": "ハイエンドの家と排他的なリスト"
+          },
+          "investment": {
+            "name": "投資不動産",
+            "description": "修正とフリップとレンタル投資"
+          },
+          "new": {
+            "name": "新しい建設",
+            "description": "ビルダーのパートナーシップと新しい開発"
+          }
+        },
+        "useCasesTitle": "不動産ユースケース",
+        "useCasesSubtitle": "Seachatが典型的な不動産クライアントの相互作用とリード生成をどのように処理するかを参照してください。",
+        "useCases": {
+          "property": {
+            "title": "不動産照会",
+            "description": "プロパティの質問を処理し、詳細情報を提供します",
+            "example": "オークストリートの3ベッドルームの家について教えてください",
+            "outcome": "写真、価格設定、近隣データを備えた詳細なプロパティ情報"
+          },
+          "showing": {
+            "title": "リクエストを表示します",
+            "description": "プロパティの表示をスケジュールし、すべての関係者と調整します",
+            "example": "今週末のショーをスケジュールしたいのですが",
+            "outcome": "エージェントの可用性と確認による自動スケジューリング"
+          },
+          "market": {
+            "title": "市場分析",
+            "description": "市場の洞察と不動産評価を提供します",
+            "example": "今日の市場で私の家の価値は何ですか？",
+            "outcome": "最近の販売と傾向を伴う比較市場分析"
+          },
+          "transaction": {
+            "title": "トランザクションサポート",
+            "description": "売買プロセスを通じてクライアントをガイドします",
+            "example": "閉鎖にはどのような文書が必要ですか？",
+            "outcome": "締め切りと指示を含む必要なドキュメントのチェックリスト"
+          }
+        },
+        "clientInquiry": "クライアントの問い合わせ",
+        "seachatResponse": "シーアット応答",
+        "integrationsTitle": "不動産プラットフォームの統合",
+        "integrationsSubtitle": "不動産ビジネスを管理するために既に使用しているツールやプラットフォームとシームレスに接続します。",
+        "leadCaptureTitle": "リードキャプチャの例",
+        "websiteVisitor": "ウェブサイト訪問者",
+        "visitorQuery": "50万ドル未満の3ベッドルームの家を探しています",
+        "seachatAI": "熟達ai",
+        "aiResponse": "私はあなたが完璧な家を見つけるのを手伝いたいです！50万ドル未満の3ベッドルームのプロパティがいくつかあります。いくつかのオプションを送信するために連絡先情報を取得できますか？",
+        "visitorResponse": "もちろん！私のメールはjohn@email.comです",
+        "systemAction": "システムアクション",
+        "leadCaptured": "リードはキャプチャされ、プロパティ設定でCRMに追加されました",
+        "ctaTitle": "不動産ビジネスを変革する準備はできましたか？",
+        "ctaSubtitle": "すでにSeachatを使用して不動産の専​​門家に参加して、より多くのリードを獲得し、展示を調整し、並外れたクライアントサービスを提供します。",
+        "ctaTrialButton": "不動産を無料で開始します",
+        "ctaDemoButton": "不動産デモをスケジュールします",
+        "integrations": {
+          "0": "MLS統合",
+          "1": "CRMシステム",
+          "2": "プロパティ管理",
+          "3": "リード生成ツール",
+          "4": "カレンダーとスケジューリング",
+          "5": "メールマーケティング",
+          "6": "ドキュメント管理",
+          "7": "仮想ツアープラットフォーム"
+        }
+      },
+      "saas": {
+        "title": "SaaS＆Technology",
+        "subtitle": "ユーザーの採用を加速し、技術支援、オンボーディングガイダンス、積極的な成功管理を提供するインテリジェントなカスタマーサポートで解約を減らします。",
+        "trialButton": "SaaSを無料で開始します",
+        "demoButton": "SaaSデモをスケジュールします",
+        "featuresTitle": "SAAS固有の機能",
+        "featuresSubtitle": "ユーザーの成功とビジネスの成長を促進するためのSaaS企業向けの専用の機能。",
+        "features": {
+          "technical": {
+            "title": "テクニカルサポート",
+            "description": "ソフトウェアの問題と統合に関する専門家の技術支援を提供します",
+            "benefits": {
+              "api": "APIドキュメントヘルプ",
+              "integration": "統合サポート",
+              "troubleshooting": "ガイドのトラブルシューティング",
+              "resources": "開発者リソース"
+            }
+          },
+          "onboarding": {
+            "title": "ユーザーオンボーディング",
+            "description": "ガイド付きセットアップと機能の紹介でユーザーのオンボーディングを合理化します",
+            "benefits": {
+              "tutorials": "インタラクティブなチュートリアル",
+              "walkthroughs": "機能ウォークスルー",
+              "setup": "セットアップ支援",
+              "practices": "ベストプラクティス"
+            }
+          },
+          "success": {
+            "title": "顧客の成功",
+            "description": "製品の採用を促進し、積極的なサポートで解約を減らします",
+            "benefits": {
+              "analytics": "使用分析",
+              "adoption": "機能の採用",
+              "churn": "解約予防",
+              "upselling": "アップセリングの機会"
+            }
+          },
+          "security": {
+            "title": "セキュリティとコンプライアンス",
+            "description": "セキュリティの懸念とコンプライアンス要件に対処します",
+            "benefits": {
+              "documentation": "セキュリティドキュメント",
+              "compliance": "コンプライアンスガイド",
+              "protection": "データ保護",
+              "audit": "監査サポート"
+            }
+          }
+        },
+        "useCases": {
+          "api": {
+            "title": "API統合ヘルプ",
+            "description": "APIの実装とトラブルシューティングで開発者を支援します",
+            "example": "APIで認証するにはどうすればよいですか？",
+            "outcome": "コードの例とテストツールを備えた段階的な認証ガイド"
+          },
+          "feature": {
+            "title": "機能ガイダンス",
+            "description": "ユーザーが高度な機能を発見して実装するのに役立ちます",
+            "example": "自動化されたワークフローをセットアップするにはどうすればよいですか？",
+            "outcome": "ワークフローテンプレートと構成支援を備えたインタラクティブなチュートリアル"
+          },
+          "billing": {
+            "title": "請求とサブスクリプション",
+            "description": "請求の問い合わせとサブスクリプション管理を処理します",
+            "example": "計画をアップグレードしたいのですが、違いは何ですか？",
+            "outcome": "価格設定の詳細とアップグレードサポートとの比較を計画します"
+          },
+          "performance": {
+            "title": "パフォーマンスの最適化",
+            "description": "ソフトウェアのパフォーマンスの最適化に関するガイダンスを提供します",
+            "example": "私のダッシュボードはゆっくりと読み込まれています、どうすればこれを修正できますか？",
+            "outcome": "最適化の推奨事項と実装ヘルプを備えたパフォーマンス分析"
+          }
+        },
+        "metrics": {
+          "tickets": {
+            "label": "サポートチケットの削減",
+            "description": "セルフサービスの自動化を通じて"
+          },
+          "onboarding": {
+            "label": "より速いオンボーディング",
+            "description": "ガイド付きセットアップサポート"
+          },
+          "adoption": {
+            "label": "より高い機能の採用",
+            "description": "プロアクティブな機能ガイダンスを通じて"
+          },
+          "churn": {
+            "label": "解約率の低下",
+            "description": "積極的に顧客の成功を収めます"
+          }
+        },
+        "types": {
+          "b2b": {
+            "title": "B2B SaaSプラットフォーム",
+            "description": "エンタープライズソフトウェアおよびビジネスツール",
+            "features": {
+              "tenant": "マルチテナントサポート",
+              "security": "エンタープライズセキュリティ",
+              "api": "APIドキュメント",
+              "assistance": "統合支援"
+            }
+          },
+          "developer": {
+            "title": "開発者ツール",
+            "description": "API、SDK、および開発プラットフォーム",
+            "features": {
+              "examples": "コードの例",
+              "documentation": "技術文書",
+              "debugging": "デバッグヘルプ",
+              "community": "コミュニティサポート"
+            }
+          },
+          "marketing": {
+            "title": "マーケティングソフトウェア",
+            "description": "マーケティングオートメーションおよび分析ツール",
+            "features": {
+              "campaign": "キャンペーンのセットアップ",
+              "analytics": "分析ガイダンス",
+              "integration": "統合ヘルプ",
+              "practices": "ベストプラクティス"
+            }
+          },
+          "productivity": {
+            "title": "生産性アプリ",
+            "description": "コラボレーションと生産性ソフトウェア",
+            "features": {
+              "tutorials": "機能チュートリアル",
+              "workflow": "ワークフローの最適化",
+              "team": "チームのセットアップ",
+              "usage": "使用分析"
+            }
+          },
+          "ecommerce": {
+            "title": "eコマースプラットフォーム",
+            "description": "オンラインストアおよび支払いソリューション",
+            "features": {
+              "store": "セットアップを保存します",
+              "payment": "支払い統合",
+              "theme": "テーマのカスタマイズ",
+              "performance": "パフォーマンスの最適化"
+            }
+          },
+          "analytics": {
+            "title": "分析プラットフォーム",
+            "description": "データ分析とビジネスインテリジェンス",
+            "features": {
+              "dashboard": "ダッシュボードの作成",
+              "data": "データ統合",
+              "report": "レポート生成",
+              "visualization": "視覚化のヘルプ"
+            }
+          }
+        },
+        "typesTitle": "すべてのSAASカテゴリがサポートされています",
+        "typesSubtitle": "エンタープライズプラットフォームから開発者ツールまで、あらゆる種類のSaaSビジネスをサポートしています。",
+        "impactTitle": "SaaSビジネスへの影響",
+        "impactSubtitle": "顧客サポートと成功のためにSeachatを使用しているSaaS企業の実際の結果。",
+        "useCasesTitle": "SaaSはユースケースをサポートします",
+        "useCasesSubtitle": "Seachatが典型的なSaaSの顧客のやり取りと技術サポートをどのように処理するかを参照してください。",
+        "userQuestion": "ユーザーの質問",
+        "seachatResponse": "シーアット応答",
+        "integrationsTitle": "SaaSプラットフォーム統合",
+        "integrationsSubtitle": "統一された顧客成功運用のためにSaaSビジネスを強化するツールやプラットフォームに接続します。",
+        "successFlowTitle": "顧客の成功フロー",
+        "flow": {
+          "onboarding": {
+            "title": "ユーザーオンボーディング",
+            "description": "ガイド付きセットアップと機能の紹介"
+          },
+          "adoption": {
+            "title": "機能の採用",
+            "description": "プロアクティブな機能の推奨"
+          },
+          "monitoring": {
+            "title": "使用監視",
+            "description": "エンゲージメントを追跡し、問題を特定します"
+          },
+          "growth": {
+            "title": "成功と成長",
+            "description": "アップセリングと拡大の機会"
+          }
+        },
+        "ctaTitle": "SaaSの成長を加速する準備はできましたか？",
+        "ctaSubtitle": "すでにSeachatを使用しているSaaS企業に参加して、ユーザーの採用を推進し、解約を減らし、顧客の成功を加速します。",
+        "ctaTrialButton": "SaaSを無料で開始します",
+        "ctaDemoButton": "SaaSデモをスケジュールします",
+        "integrations": {
+          "0": "スラック統合",
+          "1": "Salesforce CRM",
+          "2": "hubspot",
+          "3": "Zendesk",
+          "4": "インターホン",
+          "5": "ストライプ",
+          "6": "Googleアナリティクス",
+          "7": "マイクロソフトチーム",
+          "8": "存在する",
+          "9": "ギルブ",
+          "10": "アトラシアンスイート",
+          "11": "AWSサービス"
+        }
+      },
+      "smallBusiness": {
+        "title": "中小企業ソリューション",
+        "subtitle": "中小企業向けの手頃な価格の使いやすいカスタマーサポート。自由に始めて、銀行を壊すことなく顧客によくサービスを提供するのに役立つ機能を備えています。",
+        "startButton": "今日は無料で始めましょう",
+        "demoButton": "中小企業のデモを表示します",
+        "featuresTitle": "中小企業の成功のために構築されています",
+        "featuresSubtitle": "中小企業は、複雑さやコストなしで専門的なカスタマーサポートを提供するために必要なものすべてです。",
+        "features": {
+          "local": {
+            "title": "地元のビジネスサポート",
+            "description": "地元のショップ、レストラン、サービスプロバイダーに最適です",
+            "benefits": {
+              "seo": "ローカルSEO最適化",
+              "google": "私のビジネス統合をグーグルします",
+              "reviews": "レビュー管理",
+              "customer": "地元の顧客ベース"
+            }
+          },
+          "cost": {
+            "title": "費用対効果の高いソリューション",
+            "description": "あなたのビジネスとともに成長する手頃な価格",
+            "benefits": {
+              "free": "利用可能な無料プラン",
+              "setup": "セットアップ料金はありません",
+              "pricing": "柔軟な価格設定",
+              "roi": "ROIトラッキング"
+            }
+          },
+          "setup": {
+            "title": "クイックセットアップ",
+            "description": "数時間や日ではなく、数分で始めましょう",
+            "benefits": {
+              "minutes": "5分間のセットアップ",
+              "templates": "事前に構築されたテンプレート",
+              "integration": "簡単な統合",
+              "activation": "インスタント活性化"
+            }
+          },
+          "personal": {
+            "title": "個人的なタッチ",
+            "description": "効率的にスケーリングしながら、個人的な関係を維持します",
+            "benefits": {
+              "history": "顧客履歴",
+              "notes": "個人的なメモ",
+              "relationship": "関係の構築",
+              "community": "地域コミュニティの焦点"
+            }
+          }
+        },
+        "typesTitle": "すべての中小企業に最適です",
+        "typesSubtitle": "小売店からプロフェッショナルサービスまで、あらゆる種類の中小企業をサポートしています。",
+        "types": {
+          "retail": {
+            "title": "小売店",
+            "description": "衣料品、電子機器、家庭用品、専門店",
+            "features": {
+              "product": "製品の問い合わせ",
+              "hours": "営業時間",
+              "inventory": "在庫チェック",
+              "appointment": "予約予約"
+            }
+          },
+          "restaurants": {
+            "title": "レストランとカフェ",
+            "description": "食事施設とフードサービスビジネス",
+            "features": {
+              "menu": "メニューの質問",
+              "reservations": "予約",
+              "takeout": "テイクアウト注文",
+              "dietary": "食事情報"
+            }
+          },
+          "professional": {
+            "title": "プロフェッショナルサービス",
+            "description": "弁護士、会計士、コンサルタント、および機関",
+            "features": {
+              "consultation": "相談予約",
+              "service": "サービス情報",
+              "documents": "ドキュメントリクエスト",
+              "followup": "フォローアップスケジューリング"
+            }
+          },
+          "health": {
+            "title": "健康とウェルネス",
+            "description": "ジム、スパ、クリニック、ウェルネスセンター",
+            "features": {
+              "appointment": "予約スケジューリング",
+              "class": "クラスの予約",
+              "membership": "メンバーシップ情報",
+              "consultations": "健康相談"
+            }
+          },
+          "home": {
+            "title": "ホームサービス",
+            "description": "請負業者、クリーナー、造園家、修理サービス",
+            "features": {
+              "quotes": "サービスの見積もり",
+              "scheduling": "スケジューリング",
+              "emergency": "緊急要求",
+              "followup": "フォローアップサポート"
+            }
+          },
+          "creative": {
+            "title": "クリエイティブサービス",
+            "description": "写真家、デザイナー、アーティスト、スタジオ",
+            "features": {
+              "portfolio": "ポートフォリオ共有",
+              "quotes": "プロジェクトの引用",
+              "booking": "予約セッション",
+              "consultations": "創造的な相談"
+            }
+          }
+        },
+        "affordableTitle": "すべての予算に対して手頃な価格",
+        "affordableSubtitle": "完全に無料で開始し、成長したときに必要なもののみを支払います。隠れた手数料、長期契約、驚きはありません。",
+        "pricingTitle": "簡単な価格設定",
+        "pricing": {
+          "free": {
+            "title": "永遠に無料",
+            "period": "月あたり",
+            "agent": "1寿命の人間のエージェント",
+            "conversations": "無制限の会話",
+            "widget": "基本的なウェブサイトウィジェット",
+            "support": "メールサポート"
+          },
+          "starter": {
+            "title": "あなたにはスターターがいます",
+            "period": "月あたり",
+            "everything": "すべてが無料",
+            "ai": "AIオートメーション",
+            "analytics": "高度な分析",
+            "priority": "優先サポート"
+          }
+        },
+        "resultsTitle": "中小企業の結果",
+        "resultsSubtitle": "Seachatを使用して顧客サービスを改善し、ビジネスを成長させる中小企業の実際の結果。",
+        "metrics": {
+          "inquiries": {
+            "label": "より多くの顧客からの問い合わせ",
+            "description": "24時間年中無休で可用性"
+          },
+          "bookings": {
+            "label": "予約の増加",
+            "description": "自動スケジューリングを通じて"
+          },
+          "time": {
+            "label": "時間の節約",
+            "description": "日常的な顧客の質問について"
+          },
+          "satisfaction": {
+            "label": "顧客満足度",
+            "description": "インスタント応答があります"
+          }
+        },
+        "scenariosTitle": "一般的な中小企業シナリオ",
+        "scenariosSubtitle": "Seachatが典型的な中小企業の顧客のやり取りをどのように処理するかをご覧ください。",
+        "useCases": {
+          "inquiries": {
+            "title": "顧客の問い合わせ",
+            "description": "製品、サービス、営業時間に関する一般的な質問を処理します",
+            "example": "日曜日にも営業していますか？何時に閉じますか？",
+            "outcome": "現在の時間と休日のスケジュール情報を含むインスタント応答"
+          },
+          "booking": {
+            "title": "予約予約",
+            "description": "顧客が予定とサービスを直接予約できるようにします",
+            "example": "今週の金曜日の午後にヘアカットをスケジュールする必要があります",
+            "outcome": "リアルタイムの可用性予約確認とリマインダーを確認します"
+          },
+          "product": {
+            "title": "製品情報",
+            "description": "詳細な製品情報と可用性を提供します",
+            "example": "青色のiPhone 15はありますか？",
+            "outcome": "製品の可用性価格設定と予約オプションを確認します"
+          },
+          "directions": {
+            "title": "地元の方向",
+            "description": "顧客があなたの場所を見つけて道順を取得するのを助けます",
+            "example": "ダウンタウンから店に行くにはどうすればよいですか？",
+            "outcome": "道順と駐車情報を備えたインタラクティブマップ"
+          }
+        },
+        "customerQuestion": "顧客の質問",
+        "seachatResponse": "シーアット応答",
+        "ctaTitle": "中小企業を育てる準備はできましたか？",
+        "ctaSubtitle": "すでにSeachatを使用している数千の中小企業に参加して、専門的な顧客サポートを提供し、大きなビジネスコストなしでビジネスを成長させます。",
+        "ctaStartButton": "無料で中小企業を始めましょう",
+        "ctaDemoButton": "中小企業のデモをスケジュールします",
+        "affordableFeatures": [
+          "永遠に完全に無料で開始します",
+          "セットアップやオンボーディング料金はありません",
+          "使用する機能のみを支払います",
+          "いつでもキャンセル、契約なし",
+          "あなたの成長に伴うスケール価格",
+          "無料移民支援",
+          "24時間年中無休の電子メールサポートが含まれています",
+          "30日間の返金保証"
+        ]
+      },
+      "travel": {
+        "bookingFlowTitle": "旅行予約フロー",
+        "ctaDemoButton": "旅行デモをスケジュールします",
+        "ctaSubtitle": "既にSeachatを使用して旅行会社に参加して、並外れた顧客サービスを提供し、世界中の予約プロセスを合理化します。",
+        "ctaTitle": "旅行体験を変える準備はできましたか？",
+        "ctaTrialButton": "無料で旅行を開始します",
+        "demoButton": "旅行デモをスケジュールします",
+        "features": {
+          "booking": {
+            "benefits": {
+              "availability": "リアルタイムの可用性",
+              "cancellation": "キャンセルサポート",
+              "comparisons": "価格比較",
+              "modifications": "予約の変更"
+            },
+            "description": "フライト、ホテル、アクティビティの予約をリアルタイムで入手できるお客様を支援します",
+            "title": "予約支援"
+          },
+          "management": {
+            "benefits": {
+              "documents": "ドキュメント管理",
+              "loyalty": "ロイヤルティプログラム",
+              "reminders": "リマインダー通知",
+              "tracking": "トリップトラッキング"
+            },
+            "description": "予約から旅行後のフォローアップまでの包括的な旅行管理",
+            "title": "旅行管理"
+          },
+          "planning": {
+            "benefits": {
+              "insights": "目的地の洞察",
+              "itinerary": "旅程の作成",
+              "recommendations": "ローカルの推奨事項",
+              "weather": "天気の更新"
+            },
+            "description": "パーソナライズされた旅行の推奨事項と旅程計画を提供します",
+            "title": "旅行計画"
+          },
+          "support": {
+            "benefits": {
+              "emergency": "緊急支援",
+              "multilanguage": "多言語ヘルプ",
+              "timezone": "グローバルタイムゾーンサポート",
+              "updates": "リアルタイムの更新"
+            },
+            "description": "さまざまなタイムゾーンにわたる旅行者のための24時間支援",
+            "title": "24時間年中無休の旅行サポート"
+          }
+        },
+        "featuresSubtitle": "顧客体験を強化するための旅行およびホスピタリティビジネス向けの専用の機能。",
+        "featuresTitle": "旅行業界の機能",
+        "flow": {
+          "assistance": {
+            "description": "支払い処理によるガイド付き予約",
+            "title": "予約支援"
+          },
+          "confirmation": {
+            "description": "継続的なサポートを伴う予約確認",
+            "title": "確認とサポート"
+          },
+          "inquiry": {
+            "description": "顧客は旅行オプションについて尋ねます",
+            "title": "旅行の問い合わせ"
+          },
+          "search": {
+            "description": "AIは複数のシステムで検索します",
+            "title": "リアルタイム検索"
+          }
+        },
+        "impactSubtitle": "カスタマーサポートと予約支援のためにSeachatを使用している旅行会社の実際の結果。",
+        "impactTitle": "旅行業界の影響",
+        "integrationsSubtitle": "統一された運用のための旅行予約システム、GDSプラットフォーム、ホスピタリティ管理ツールとシームレスに接続します。",
+        "integrationsTitle": "旅行業界の統合",
+        "metrics": {
+          "booking": {
+            "description": "AIアシストの検索と予約付き",
+            "label": "より速い予約プロセス",
+            "value": "60％"
+          },
+          "call": {
+            "description": "自動旅行支援を通じて",
+            "label": "コールボリュームの削減",
+            "value": "40％"
+          },
+          "resolution": {
+            "description": "旅行関連の問い合わせのため",
+            "label": "問題解決率",
+            "value": "95％"
+          },
+          "satisfaction": {
+            "description": "24時間年中無休の旅行サポートの可用性",
+            "label": "顧客満足度",
+            "value": "85％"
+          }
+        },
+        "seachatResponse": "シーアット応答",
+        "services": {
+          "agencies": {
+            "description": "包括的な旅行計画と予約サービス",
+            "features": {
+              "deals": "パッケージ取引",
+              "groups": "グループ予約",
+              "insurance": "旅行保険",
+              "itineraries": "カスタムの旅程"
+            },
+            "title": "旅行代理店"
+          },
+          "airlines": {
+            "description": "フライトの予約、チェックイン、および旅行の更新",
+            "features": {
+              "baggage": "手荷物追跡",
+              "loyalty": "ロイヤルティプログラム",
+              "seat": "シート選択",
+              "status": "飛行ステータス"
+            },
+            "title": "航空会社"
+          },
+          "car": {
+            "description": "車両のレンタル支援とサポート",
+            "features": {
+              "availability": "車の可用性",
+              "insurance": "保険オプション",
+              "locations": "ピックアップの場所",
+              "roadside": "道端の支援"
+            },
+            "title": "レンタカー"
+          },
+          "cruise": {
+            "description": "クルーズ予約とオンボードサービス",
+            "features": {
+              "cabin": "キャビンの選択",
+              "dining": "食事の予約",
+              "entertainment": "エンターテインメント予約",
+              "shore": "海岸の遠足"
+            },
+            "title": "クルーズライン"
+          },
+          "hotels": {
+            "description": "ホテルの予約とゲストサービス",
+            "features": {
+              "amenity": "アメニティ情報",
+              "booking": "客室予約",
+              "loyalty": "忠誠心の報酬",
+              "requests": "特別なリクエスト"
+            },
+            "title": "ホテルと宿泊施設"
+          },
+          "tour": {
+            "description": "ガイド付きツアーとアクティビティの予約",
+            "features": {
+              "availability": "ツアーの可用性",
+              "equipment": "機器レンタル",
+              "guides": "地元のガイド",
+              "sizes": "グループサイズ"
+            },
+            "title": "ツアーオペレーター"
+          }
+        },
+        "servicesSubtitle": "航空会社からホテル、レンタカー、クルーズラインまで、旅行のあらゆる側面をサポートしています。",
+        "servicesTitle": "カバーされているすべての旅行サービス",
+        "subtitle": "予約を処理し、24時間年中無休の支援を提供し、顧客に思い出に残る旅を作成するAI搭載のカスタマーサポートでの旅行エクスペリエンスを変革します。",
+        "title": "旅行とおもてなし",
+        "travelerRequest": "旅行者のリクエスト",
+        "trialButton": "無料で旅行を開始します",
+        "useCases": {
+          "destination": {
+            "description": "旅行のアドバイス、地元の洞察、および目的地の推奨事項を提供します",
+            "example": "パリで最高のレストランは何ですか？",
+            "outcome": "予約と地元の洞察を備えたキュレーションレストランの推奨事項",
+            "title": "宛先情報"
+          },
+          "disruptions": {
+            "description": "フライトの遅延、キャンセル、および再予約支援を処理します",
+            "example": "私のフライトはキャンセルされました、私の選択肢は何ですか？",
+            "outcome": "代替フライトと補償情報に関する即時の再予約支援",
+            "title": "旅行の混乱"
+          },
+          "documentation": {
+            "description": "ビザの要件、パスポート情報、旅行文書を支援します",
+            "example": "日本への旅行にビザが必要ですか？",
+            "outcome": "申請プロセスとタイムラインを備えた包括的なビザ要件",
+            "title": "旅行文書"
+          },
+          "flight": {
+            "description": "フライトの予約、変更、キャンセルを支援します",
+            "example": "フライトを火曜日から木曜日に変更する必要があります",
+            "outcome": "リアルタイムのフライトの可用性再予約オプションと料金情報でチェック",
+            "title": "フライト予約と変更"
+          }
+        },
+        "useCasesSubtitle": "Seachatが典型的な旅行の問い合わせと予約支援をどのように処理するかをご覧ください。",
+        "useCasesTitle": "旅行サポートユースケース",
+        "integrations": {
+          "0": "GDSシステム（アマデウス、セイバー、ガリレオ）",
+          "1": "航空会社の予約システム",
+          "2": "ホテル予約システム",
+          "3": "レンタカープラットフォーム",
+          "4": "旅行保険プロバイダー",
+          "5": "支払い処理システム"
+        }
+      }
+    },
+    "channels": {
+      "title": "すべての顧客チャネルを接続します",
+      "description": "すべての顧客コミュニケーションを1つのプラットフォームで統合します。WhatsAppから電話まで、SMSはソーシャルメディアまで -  1つのダッシュボードからすべての会話を管理します。",
+      "whatsapp": {
+        "title": "whatsappビジネス",
+        "description": "世界で最も人気のあるメッセージングプラットフォームで顧客とつながる"
+      },
+      "voice": {
+        "title": "音声と電話",
+        "description": "AI VoiceBotと人間のエージェントサポートを備えたプロの電話システム"
+      },
+      "sms": {
+        "title": "SMSメッセージング",
+        "description": "パーソナライズされたSMSキャンペーンで即座に顧客にリーチします"
+      },
+      "website": {
+        "title": "ウェブサイトチャットウィジェット",
+        "description": "ウェブサイトの訪問者をAIを搭載したチャットでの会話に変えます"
+      },
+      "cta": {
+        "exploreAll": "すべてのチャネルを探索します",
+        "subtitle": "9チャンネルすべてがシームレスにどのように連携するかを確認してください"
+      }
+    },
+    "comparison": {
+      "title": "成長するビジネスが代替案よりもseasalt.aiを選択する理由",
+      "description": "他のソリューションと比較する方法をご覧ください。私たちは、中小企業のシンプルさを備えたエンタープライズ機能を提供する唯一のプラットフォームです。",
+      "recommended": "推奨",
+      "table": {
+        "headers": {
+          "platform": "プラットフォーム",
+          "startingPrice": "開始価格",
+          "pricingModel": "価格モデル",
+          "unifiedVoiceDigital": "統一された音声とデジタル",
+          "aiCapabilities": "AI機能",
+          "bestFor": "に最適です"
+        }
+      },
+      "competitors": {
+        "seasalt": {
+          "startingPrice": "20ドル/エージェント/月",
+          "pricingModel": "シンプルなユーザー",
+          "unifiedVoiceDigital": "✅ネイティブです",
+          "aiCapabilities": "はい、ネイティブの音声とチャットボット",
+          "bestFor": "手頃な価格の、真にオールインワンプラットフォームが必要な中小企業。"
+        },
+        "aircall": {
+          "startingPrice": "30ドル/ユーザー/月",
+          "pricingModel": "ユーザーごと +アドオン",
+          "unifiedVoiceDigital": "⚠§Voice + WhatsApp（アドオン）",
+          "aiCapabilities": "AIは有料アドオンです",
+          "bestFor": "複数のアドオンを購入でき、3ユーザーの最小を満たすことができる営業チーム。"
+        },
+        "ringcentral": {
+          "startingPrice": "$ 65/エージェント/MO",
+          "pricingModel": "複雑な層",
+          "unifiedVoiceDigital": "❌製品別の製品",
+          "aiCapabilities": "✅はい（AI搭載のCCAAS）",
+          "bestFor": "独立したCCAAを備えた広範なUCAASプラットフォームを必要とする大企業。"
+        },
+        "genesys": {
+          "startingPrice": "75ドル/ユーザー/MO",
+          "pricingModel": "ユーザーごと +高い最小値",
+          "unifiedVoiceDigital": "✅はい（高層層）",
+          "aiCapabilities": "✅はい（複雑なトークンシステム）",
+          "bestFor": "専用のコンタクトセンターチームと予算を持つ大企業。"
+        },
+        "five9": {
+          "startingPrice": "$ 119/user/mo",
+          "pricingModel": "ユーザーごと +バンドル",
+          "unifiedVoiceDigital": "✅はい（プレミアム層で）",
+          "aiCapabilities": "✅はい（高度なAI）",
+          "bestFor": "エンタープライズグレードのツールを必要とする大規模なアウトバウンドが多いコンタクトセンター。"
+        },
+        "googleVoice": {
+          "startingPrice": "$ 10/user/mo",
+          "pricingModel": "ユーザーごと +ワークスペース料金",
+          "unifiedVoiceDigital": "❌NO",
+          "aiCapabilities": "❌NO（ボイスメール転写のみ）",
+          "bestFor": "基本的な別個の電話番号を必要とするソロプレナー（米国のみ）。"
+        }
+      },
+      "cta": {
+        "seeAllComparisons": "すべての詳細な比較を参照してください"
+      }
+    },
+    "footer": {
+      "product": "製品",
+      "company": {
+        "productWiki": "製品wiki",
+        "apiReferences": "API参照",
+        "careers": "キャリア",
+        "title": "会社",
+        "about": "について"
+      },
+      "resources": "リソース",
+      "legal": {
+        "privacyPolicy": "プライバシーポリシー",
+        "termsOfService": "利用規約"
+      },
+      "getStarted": "始める準備はできましたか？",
+      "joinThousands": "既にSeachatを使用して、並外れた顧客体験を提供する数千の企業に参加してください。",
+      "enterEmail": "メールを入力してください",
+      "noCredit": "クレジットカードは不要です•2分でセットアップ•いつでもキャンセル",
+      "copyright": "©2020-{{year}}seasalt.ai。無断転載を禁じます。",
+      "compliance": "soc 2準拠",
+      "gdpr": "GDPRの準備ができました",
+      "uptime": "⚡99.9％の稼働時間",
+      "brand": {
+        "description": "人間のエージェントとAIオートメーションの完璧なブレンドでカスタマーサポートを変換します。無料でスケールスマートに始め、より速く成功します。"
+      },
+      "contact": {
+        "email": "info@seasalt.ai",
+        "phone": "+1（SMB）-ai-agent",
+        "location": "ワシントン州シアトル"
+      },
+      "stats": {
+        "messagesDaily": "毎日5m+メッセージ",
+        "activeUsers": "100K以上のアクティブユーザー",
+        "uptime": "99.9％の稼働時間"
+      },
+      "cta": {
+        "title": "カスタマーサポートを変革する準備はできましたか？",
+        "description": "Seachatを使用して何千もの企業に参加して、AIを搭載したチャットサポートで優れた顧客体験を提供します。",
+        "signUpFree": "無料でサインアップしてください",
+        "scheduleDemo": "デモをスケジュールします",
+        "disclaimer": "クレジットカードは不要です•2分でセットアップ•いつでもキャンセル"
+      }
+    },
+    "featureComparison": {
+      "title": "なぜ競争でseachatを選ぶのですか？",
+      "subtitle": "Seachatが複数のツールを1つの包括的なプラットフォームに置き換える方法をご覧ください。より多くの機能を取得しながらお金を節約します。",
+      "valueTitle": "あなたが得る価値：",
+      "totalValue": "331ドル以上/月",
+      "competitorTotal": "競合他社からの合計価値",
+      "priceTitle": "あなたが支払う価格：",
+      "seachatPrice": "月額29.99ドル",
+      "seachatAll": "すべての機能が含まれています",
+      "seeDetailedPricing": "詳細な価格設定を参照してください",
+      "ctaTitle": "Seachatのアドバンテージを体験する準備はできましたか？",
+      "ctaSubtitle": "よりスマートで手頃な価格のソリューションを選択した何千もの企業に参加してください。",
+      "startFree": "今すぐ無料で開始してください",
+      "bookDemo": "デモを予約してください",
+      "features": {
+        "chatbotWebsite": "ウェブサイトのチャットボット",
+        "chatWidget": "ライブエージェントとのチャットウィジェット",
+        "whatsappMessenger": "whatsapp/messenger/instagram",
+        "multiCalendar": "マルチカレンダーの予約",
+        "phoneCallAI": "インバウンド電話AIエージェント",
+        "smsActions": "組み込みアクション-SMS",
+        "emailActions": "組み込みアクション - 電子メール",
+        "phoneNumber": "電話番号を購入します",
+        "agencyMode": "エージェンシーモード",
+        "bulkSMS": "バルクアウトバウンドSMS、コール、WhatsApp",
+        "unlimitedContacts": "無制限の連絡先",
+        "knowledgeBase": "余分な知識ベース",
+        "extraChatbot": "余分なチャットボット"
+      },
+      "table": {
+        "headers": {
+          "features": "特徴",
+          "replaces": "交換",
+          "otherTools": "他のツール",
+          "seachat": "SeaChat"
+        },
+        "total": "合計",
+        "totalPrice": "月額331ドル以上",
+        "seachatPrice": "月額29.99ドル",
+        "explanations": {
+          "valueYouGet": "↑あなたが得る値",
+          "priceYouWouldPay": "↑それ以外の場合は支払う価格",
+          "priceYouPay": "↑あなたが支払う価格"
+        }
+      },
+      "mobile": {
+        "replaces": "交代：",
+        "otherTools": "その他のツール：",
+        "seachat": "提唱する：",
+        "otherToolsTotal": "他のツール合計：",
+        "seachatTotal": "seachat合計：",
+        "totalPrice": "月額331ドル以上",
+        "seachatTotalPrice": "月額29.99ドル",
+        "priceYouWouldPay": "↑それ以外の場合は支払う価格",
+        "priceYouPay": "↑あなたが支払う価格"
+      },
+      "uniqueToSeachat": "個性的",
+      "pricing": {
+        "chatbotWebsite": "月額99ドル",
+        "chatWidget": "1か月あたり23ドル",
+        "whatsappMessenger": "1か月あたりユーザーあたり89ドル",
+        "multiCalendar": "1か月あたり10ドル",
+        "phoneCallAI": "月額29ドル",
+        "smsActions": "月額59ドル",
+        "emailActions": "月額20ドル",
+        "phoneNumber": "月額2〜3ドル",
+        "unlimitedContacts": "10k連絡先あたり65ドル",
+        "knowledgeBase": "追加の知識ベースごとに8ドル",
+        "extraChatbot": "追加のチャットボットごとに7ドル"
+      },
+      "seachatValues": {
+        "agencyMode": "複数のワークスペース - クライアントごとに1つのワークスペース",
+        "bulkSMS": "Seasalt.aiのSeaxと統合します",
+        "unlimitedContacts": "無制限",
+        "knowledgeBase": "5,000のドキュメントまたは50mトークン",
+        "extraChatbot": "10 bots × 5 channels = 50 channel-bots"
+      },
+      "replaces": {
+        "uniqueToSeachat": "Seachatに固有"
+      }
+    }
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "textToSpeech": {
+    "hero": {
+      "title": "Công nghệ chuyển văn bản thành giọng nói",
+      "subtitle": "Tạo giọng nói giống con người từ văn bản với công nghệ chuyển văn bản thành giọng nói thần kinh tiên tiến của chúng tôi. Tạo giọng nói tùy chỉnh, hỗ trợ hơn 40 ngôn ngữ và mang lại chất lượng âm thanh đặc biệt.",
+      "cta": "Thử tạo giọng nói"
+    },
+    "demo": {
+      "title": "Trải nghiệm công nghệ giọng nói của chúng tôi",
+      "subtitle": "Hãy thử các giọng nói khác nhau và tự mình nghe chất lượng",
+      "chooseVoice": "Chọn một giọng nói:",
+      "textPrompt": "Nhập văn bản để chuyển thành giọng nói:",
+      "defaultText": "Xin chào! Tôi là trợ lý giọng nói AI được hỗ trợ bởi công nghệ SeaVoice. Tôi có thể giúp bạn với dịch vụ khách hàng, bán hàng và hỗ trợ bằng giọng nói tự nhiên, giống con người.",
+      "placeholderText": "Nhập nội dung để AI của chúng tôi nói...",
+      "generateSpeech": "Tạo giọng nói",
+      "playing": "Đang phát..."
+    },
+    "voices": {
+      "sarah": {
+        "name": "Sarah",
+        "gender": "Nữ",
+        "accent": "Tiếng Anh Mỹ",
+        "description": "Chuyên nghiệp, ấm áp"
+      },
+      "tom": {
+        "name": "Tom",
+        "gender": "Nam",
+        "accent": "Tiếng Anh Mỹ",
+        "description": "Thân thiện, đàm thoại"
+      },
+      "lissa": {
+        "name": "Lissa",
+        "gender": "Nữ",
+        "accent": "Tiếng Anh Anh",
+        "description": "Năng động, hữu ích"
+      },
+      "alex": {
+        "name": "Alex",
+        "gender": "Nam",
+        "accent": "Úc",
+        "description": "Rõ ràng, tự tin"
+      },
+      "maria": {
+        "name": "Maria",
+        "gender": "Nữ",
+        "accent": "Tây Ban Nha",
+        "description": "Biểu cảm, tự nhiên"
+      },
+      "hiroshi": {
+        "name": "Hiroshi",
+        "gender": "Nam",
+        "accent": "Nhật Bản",
+        "description": "Lịch sự, chuyên nghiệp"
+      }
+    },
+    "features": {
+      "title": "Tạo giọng nói nâng cao",
+      "subtitle": "Mạng lưới thần kinh tiên tiến mang lại chất lượng giọng nói giống con người",
+      "customVoiceCloning": {
+        "title": "Nhân bản giọng nói tùy chỉnh",
+        "description": "Tạo hồ sơ giọng nói độc đáo phù hợp với cá tính thương hiệu và phong cách nói của bạn.",
+        "capabilities": {
+          "voiceCloning": "Nhân bản giọng nói từ các mẫu",
+          "brandVoice": "Tính nhất quán của giọng nói thương hiệu",
+          "emotionalExpression": "Biểu cảm cảm xúc",
+          "customPronunciations": "Phát âm tùy chỉnh"
+        }
+      },
+      "advancedControls": {
+        "title": "Điều khiển nâng cao",
+        "description": "Tinh chỉnh mọi khía cạnh của việc tạo giọng nói để có đầu ra âm thanh hoàn hảo.",
+        "capabilities": {
+          "speedAdjustment": "Điều chỉnh tốc độ",
+          "pitchControl": "Điều khiển cao độ",
+          "emphasisPlacement": "Đặt trọng âm",
+          "pauseInsertion": "Chèn tạm dừng"
+        }
+      },
+      "multiLanguageSupport": {
+        "title": "Hỗ trợ đa ngôn ngữ",
+        "description": "Tạo giọng nói tự nhiên bằng hơn 40 ngôn ngữ với cách phát âm bản địa.",
+        "capabilities": {
+          "fortyPlusLanguages": "Hơn 40 ngôn ngữ",
+          "regionalAccents": "Giọng địa phương",
+          "codeSwitching": "Chuyển đổi mã",
+          "multilingualVoices": "Giọng nói đa ngôn ngữ"
+        }
+      }
+    },
+    "qualityMetrics": {
+      "title": "Các chỉ số chất lượng đặc biệt",
+      "subtitle": "Hiệu suất được đo lường mang lại kết quả chuyên nghiệp",
+      "naturalness": {
+        "metric": "Điểm tự nhiên",
+        "value": "4.8/5",
+        "description": "Đánh giá của con người"
+      },
+      "intelligibility": {
+        "metric": "Khả năng hiểu",
+        "value": "99.2%",
+        "description": "Độ chính xác nhận dạng từ"
+      },
+      "latency": {
+        "metric": "Độ trễ",
+        "value": "< 200ms",
+        "description": "Tạo văn bản thành âm thanh"
+      },
+      "audioQuality": {
+        "metric": "Chất lượng âm thanh",
+        "value": "48kHz",
+        "description": "Đầu ra độ trung thực cao"
+      }
+    },
+    "useCases": {
+      "title": "Ứng dụng đa năng",
+      "subtitle": "Chuyển đổi văn bản thành giọng nói trên các ngành và trường hợp sử dụng",
+      "customerService": {
+        "title": "Dịch vụ khách hàng",
+        "description": "Cung cấp phản hồi giọng nói nhất quán, chuyên nghiệp cho các tương tác với khách hàng.",
+        "benefits": {
+          "availability": "Có sẵn 24/7",
+          "consistentQuality": "Chất lượng nhất quán",
+          "multiLanguageSupport": "Hỗ trợ đa ngôn ngữ",
+          "brandVoiceAlignment": "Căn chỉnh giọng nói thương hiệu"
+        }
+      },
+      "contentCreation": {
+        "title": "Tạo nội dung",
+        "description": "Tạo lồng tiếng cho video, podcast và nội dung đa phương tiện.",
+        "benefits": {
+          "costEffectiveProduction": "Sản xuất hiệu quả về chi phí",
+          "quickTurnaround": "Thời gian quay vòng nhanh",
+          "multipleVoiceOptions": "Nhiều tùy chọn giọng nói",
+          "easyRevisions": "Dễ dàng sửa đổi"
+        }
+      },
+      "accessibility": {
+        "title": "Khả năng tiếp cận",
+        "description": "Giúp nội dung dễ tiếp cận với công nghệ chuyển văn bản thành giọng nói chất lượng cao cho người dùng khiếm thị.",
+        "benefits": {
+          "screenReaderEnhancement": "Cải thiện trình đọc màn hình",
+          "documentNarration": "Tường thuật tài liệu",
+          "webAccessibility": "Khả năng tiếp cận web",
+          "educationalSupport": "Hỗ trợ giáo dục"
+        }
+      },
+      "interactiveApplications": {
+        "title": "Ứng dụng tương tác",
+        "description": "Thêm khả năng giọng nói vào ứng dụng, trò chơi và trải nghiệm tương tác.",
+        "benefits": {
+          "realTimeGeneration": "Tạo thời gian thực",
+          "dynamicContent": "Nội dung động",
+          "userEngagement": "Tương tác người dùng",
+          "immersiveExperiences": "Trải nghiệm nhập vai"
+        }
+      }
+    },
+    "voiceCloning": {
+      "title": "Nhân bản giọng nói tùy chỉnh",
+      "subtitle": "Tạo hồ sơ giọng nói độc đáo phù hợp hoàn hảo với cá tính thương hiệu của bạn. Công nghệ nhân bản giọng nói tiên tiến của chúng tôi có thể sao chép phong cách nói, giọng điệu và biểu cảm cảm xúc chỉ với vài phút âm thanh mẫu.",
+      "brandVoiceConsistency": {
+        "title": "Tính nhất quán của giọng nói thương hiệu",
+        "description": "Duy trì giọng nói thương hiệu nhất quán trên tất cả các tương tác"
+      },
+      "fineTunedControl": {
+        "title": "Kiểm soát tinh chỉnh",
+        "description": "Điều chỉnh tông giọng, tốc độ và biểu cảm cảm xúc"
+      },
+      "highFidelityOutput": {
+        "title": "Đầu ra độ trung thực cao",
+        "description": "Âm thanh chất lượng chuyên nghiệp cho mọi ứng dụng"
+      },
+      "process": {
+        "title": "Quy trình nhân bản giọng nói",
+        "step1": {
+          "title": "Tải lên mẫu âm thanh",
+          "description": "Cung cấp 5-10 phút ghi âm sạch"
+        },
+        "step2": {
+          "title": "Đào tạo AI",
+          "description": "Mạng lưới thần kinh của chúng tôi học các đặc điểm giọng nói độc đáo của bạn"
+        },
+        "step3": {
+          "title": "Tạo giọng nói",
+          "description": "Tạo giọng nói không giới hạn với giọng nói tùy chỉnh của bạn"
+        }
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng mang lại tiếng nói cho thương hiệu của bạn?",
+      "subtitle": "Tạo giọng nói tùy chỉnh và tạo giọng nói chất lượng chuyên nghiệp cho mọi ứng dụng",
+      "startVoiceCloning": "Bắt đầu nhân bản giọng nói",
+      "exploreApi": "Khám phá API"
+    }
+  },
+  "components": {
+    "aiVoiceAvatar": {
+      "badge": {
+        "label": "Avatar AI tương tác"
+      },
+      "hero": {
+        "title": {
+          "line1": "Gặp gỡ",
+          "line2": "Nhân viên giọng nói AI của bạn"
+        },
+        "subtitle": "Trải nghiệm tương lai của giao tiếp AI. Các avatar của chúng tôi thể hiện các cuộc trò chuyện giống con người với trí tuệ cảm xúc và nhiều tùy chọn cá tính."
+      },
+      "voices": {
+        "professional": {
+          "name": "Sarah chuyên nghiệp",
+          "description": "Giọng nói kinh doanh rõ ràng, có thẩm quyền"
+        },
+        "friendly": {
+          "name": "Mike thân thiện",
+          "description": "Dịch vụ khách hàng ấm áp, dễ gần"
+        },
+        "empathetic": {
+          "name": "Emma nhân ái",
+          "description": "Giọng nói chăm sóc sức khỏe nhân ái"
+        }
+      },
+      "languages": {
+        "english": "Tiếng Anh",
+        "spanish": "Tiếng Tây Ban Nha",
+        "french": "Tiếng Pháp",
+        "german": "Tiếng Đức",
+        "chinese": "Tiếng Trung"
+      },
+      "demoScripts": {
+        "professional": "Xin chào, tôi là Sarah, trợ lý kinh doanh AI của bạn. Tôi có thể xử lý các yêu cầu của khách hàng, lên lịch cuộc hẹn và cung cấp thông tin sản phẩm chi tiết với độ chính xác và rõ ràng.",
+        "friendly": "Chào bạn! Tôi là Mike, và tôi ở đây để làm cho trải nghiệm của bạn tuyệt vời. Cho dù bạn cần giúp đỡ với đơn hàng hay chỉ có một câu hỏi nhanh, tôi rất vui được trò chuyện!",
+        "empathetic": "Xin chào, tôi là Emma. Tôi hiểu rằng các câu hỏi về chăm sóc sức khỏe có thể gây căng thẳng, và tôi ở đây để cung cấp hỗ trợ tận tình, chính xác bất cứ khi nào bạn cần."
+      },
+      "controls": {
+        "voicePersonality": "Chọn cá tính giọng nói:",
+        "language": "Ngôn ngữ:",
+        "demoVoice": "Giọng nói demo",
+        "tryVoiceInput": "Thử nhập giọng nói"
+      },
+      "status": {
+        "listening": "Đang nghe...",
+        "speaking": "Đang nói...",
+        "ready": "Sẵn sàng",
+        "label": "Trạng thái:"
+      },
+      "listeningResponse": "Tôi đã nghe bạn! Đây là nơi tôi sẽ phản hồi đầu vào giọng nói của bạn với sự hiểu biết theo ngữ cảnh.",
+      "avatarMoods": {
+        "neutral": "trung tính",
+        "speaking": "đang nói",
+        "listening": "đang nghe",
+        "thinking": "đang suy nghĩ"
+      }
+    }
+  },
+  "voiceConversationFlow": {
+    "steps": {
+      "callConnected": {
+        "title": "Cuộc gọi đã kết nối",
+        "description": "Khách hàng đã kết nối với doanh nghiệp của bạn"
+      },
+      "listening": {
+        "title": "AI đang nghe",
+        "description": "Nhận dạng giọng nói nâng cao ghi lại mọi từ"
+      },
+      "processing": {
+        "title": "AI đang xử lý",
+        "description": "Mạng lưới thần kinh hiểu ý định và ngữ cảnh"
+      },
+      "responding": {
+        "title": "AI đang phản hồi",
+        "description": "Giọng nói giống con người đưa ra phản hồi hoàn hảo"
+      }
+    },
+    "conversationTypes": {
+      "appointmentBooking": "Đặt lịch hẹn",
+      "orderSupport": "Hỗ trợ đơn hàng",
+      "salesInquiry": "Yêu cầu bán hàng"
+    },
+    "conversations": {
+      "appointmentBooking": {
+        "customer": "Xin chào, tôi muốn đặt lịch hẹn vào thứ Ba tuần tới.",
+        "ai": "Tôi rất vui được giúp bạn đặt lịch hẹn. Hãy để tôi kiểm tra tình trạng sẵn có của chúng tôi vào thứ Ba tuần tới. Bạn đang tìm kiếm loại dịch vụ nào?"
+      },
+      "orderSupport": {
+        "customer": "Tôi đang gặp sự cố với đơn hàng gần đây của mình. Nó vẫn chưa đến.",
+        "ai": "Tôi hiểu mối quan tâm của bạn về đơn hàng của bạn. Hãy để tôi tra cứu ngay cho bạn. Bạn có thể vui lòng cung cấp số đơn hàng của bạn không?"
+      },
+      "salesInquiry": {
+        "customer": "Bạn có thể cho tôi biết về các gói giá của bạn không?",
+        "ai": "Tuyệt đối! Chúng tôi có một số tùy chọn giá để phù hợp với các nhu cầu khác nhau. Gói cơ bản của chúng tôi bắt đầu từ 29 đô la/tháng và bao gồm tất cả các tính năng cốt lõi. Bạn có muốn tôi giải thích sự khác biệt không?"
+      }
+    },
+    "ui": {
+      "chooseConversationType": "Chọn loại cuộc trò chuyện:",
+      "autoProgressing": "Tự động tiến hành qua các kịch bản...",
+      "liveConversation": "Cuộc trò chuyện trực tiếp:",
+      "speaking": "Đang nói...",
+      "aiSpeaking": "AI đang nói...",
+      "aiThinking": "AI đang suy nghĩ...",
+      "processingContext": "Đang xử lý ngữ cảnh",
+      "accuracyRate": "Tỷ lệ chính xác"
+    }
+  },
+  "// Trang chiến dịch quy mô lớn - cặp khóa-giá trị tiếng Anh": "",
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | Trung tâm liên hệ đa kênh cho doanh nghiệp nhỏ",
+      "description": "Ngừng chuyển đổi ứng dụng. Hợp nhất mọi cuộc gọi của khách hàng, WhatsApp và trò chuyện trong một hộp thư đến đơn giản. Trung tâm liên hệ tất cả trong một được xây dựng cho các doanh nghiệp nhỏ.",
+      "keywords": "trung tâm liên hệ đa kênh, giao tiếp doanh nghiệp nhỏ, hộp thư đến hợp nhất, phần mềm dịch vụ khách hàng, WhatsApp business, cuộc gọi thoại, hỗ trợ trò chuyện"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | Giao tiếp thoại do AI hỗ trợ - Seasalt.ai",
+        "description": "Chuyển đổi giao tiếp thoại của bạn bằng AI. SeaVoice cung cấp định tuyến cuộc gọi thông minh, phân tích giọng nói và phản hồi tự động. Xử lý các cuộc gọi của khách hàng 24/7 với nhân viên AI giống con người.",
+        "keywords": "giọng nói AI, phần mềm trung tâm cuộc gọi, phân tích giọng nói, SeaVoice, định tuyến cuộc gọi thông minh, hệ thống điện thoại tự động, trợ lý giọng nói, dịch vụ khách hàng 24/7"
+      },
+      "virtualAssistant": {
+        "title": "Trợ lý ảo 24/7 | Giải pháp giọng nói AI của SeaVoice - Seasalt.ai",
+        "description": "Cung cấp dịch vụ khách hàng suốt ngày đêm với Trợ lý ảo AI của SeaVoice. Nhân viên giọng nói thông minh xử lý các yêu cầu của khách hàng, lên lịch cuộc hẹn và yêu cầu hỗ trợ, cải thiện sự hài lòng đồng thời giảm chi phí.",
+        "keywords": "trợ lý ảo, trợ lý giọng nói AI, dịch vụ khách hàng 24/7, dịch vụ khách hàng thông minh, SeaVoice, tự động hóa giọng nói, tự động hóa dịch vụ khách hàng"
+      }
+    }
+  },
+  "// Cấu trúc khóa: seavoice": {
+    "pages": {
+      "solutions": {
+        "outbound": {
+          "largeScaleCampaigns": "",
+          "subscriptionRenewals": ""
+        }
+      }
+    }
+  },
+  "statsCounter": {
+    "section": {
+      "title": "Được các doanh nghiệp trên toàn thế giới tin cậy",
+      "subtitle": "Nền tảng của chúng tôi cung cấp hàng triệu cuộc trò chuyện mỗi ngày"
+    },
+    "stats": {
+      "messages": {
+        "label": "Tin nhắn đã gửi",
+        "suffix": "M+"
+      },
+      "calls": {
+        "label": "Cuộc gọi đã thực hiện",
+        "suffix": "K+"
+      },
+      "uptime": {
+        "label": "Thời gian hoạt động của hệ thống",
+        "suffix": "%"
+      },
+      "countries": {
+        "label": "Các quốc gia được phục vụ",
+        "suffix": "+"
+      },
+      "roi": {
+        "label": "Tăng ROI",
+        "suffix": "%"
+      }
+    },
+    "dashboard": {
+      "title": "Bảng điều khiển SeaX",
+      "messagesSent": "Tin nhắn đã gửi",
+      "deliveryRate": "Tỷ lệ gửi",
+      "recentActivity": "Hoạt động gần đây",
+      "demo": {
+        "messagesSent": "2.4M",
+        "deliveryRate": "85%"
+      }
+    },
+    "activity": {
+      "flashSale": {
+        "title": "Chiến dịch Flash Sale",
+        "detail": "Đã gửi 50.000 SMS • 2 phút trước"
+      },
+      "leadFollowup": {
+        "title": "Theo dõi khách hàng tiềm năng",
+        "detail": "Đã hoàn thành 12.000 cuộc gọi • 5 phút trước"
+      },
+      "whatsapp": {
+        "title": "Chiến dịch WhatsApp",
+        "detail": "25.000 tin nhắn đang chờ • 8 phút trước"
+      }
+    },
+    "status": {
+      "liveRunning": "Các chiến dịch trực tiếp đang chạy",
+      "liveActivity": "Hoạt động trực tiếp: Tin nhắn đang được gửi ngay bây giờ"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "10k+",
+      "callsMax": "5k+",
+      "voicemailMax": "1k+",
+      "whatsappMax": "10k+"
+    },
+    "breakdown": {
+      "localPlus": "địa phương +",
+      "tollFreeMinus": "miễn phí"
+    }
+  }
+}

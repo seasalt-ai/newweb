@@ -1,0 +1,1605 @@
+{
+  "seachat": {
+    "integrations": {
+      "crm": {
+        "title": "Tích hợp CRM",
+        "subtitle": "Kết nối SeaChat với CRM của bạn để tạo trải nghiệm khách hàng thống nhất. Đồng bộ hóa danh bạ, theo dõi khách hàng tiềm năng và quản lý mối quan hệ một cách liền mạch.",
+        "connectButton": "Kết nối CRM của bạn",
+        "guideButton": "Xem hướng dẫn tích hợp",
+        "platformsTitle": "Các nền tảng CRM được hỗ trợ",
+        "platformsSubtitle": "Chọn từ danh sách rộng lớn các tích hợp CRM của chúng tôi, mỗi tích hợp được tối ưu hóa để luân chuyển dữ liệu liền mạch.",
+        "setupTime": "Thời gian thiết lập",
+        "connectPlatform": "Kết nối",
+        "whyIntegrateTitle": "Tại sao nên tích hợp với CRM của bạn?",
+        "whyIntegrateSubtitle": "Biến hỗ trợ khách hàng của bạn thành một công cụ quản lý bán hàng và mối quan hệ mạnh mẽ.",
+        "featuresTitle": "Tính năng tích hợp CRM toàn diện",
+        "featuresSubtitle": "Các tích hợp CRM của chúng tôi vượt xa việc đồng bộ hóa danh bạ cơ bản để cung cấp một giải pháp quản lý quan hệ khách hàng hoàn chỉnh.",
+        "workflowTitle": "Quy trình tích hợp",
+        "ctaTitle": "Sẵn sàng kết nối CRM của bạn?",
+        "ctaSubtitle": "Bắt đầu đồng bộ hóa dữ liệu khách hàng của bạn và biến các cuộc trò chuyện hỗ trợ thành cơ hội kinh doanh.",
+        "ctaChooseButton": "Đăng ký miễn phí",
+        "ctaGuideButton": "Xem hướng dẫn thiết lập",
+        "platforms": {
+          "salesforce": {
+            "name": "Salesforce",
+            "description": "Tích hợp hoàn chỉnh với Salesforce CRM cho các nhóm doanh nghiệp",
+            "features": {
+              "contacts": "Đồng bộ hóa danh bạ",
+              "leads": "Quản lý khách hàng tiềm năng",
+              "opportunities": "Theo dõi cơ hội",
+              "fields": "Trường tùy chỉnh"
+            },
+            "setupTime": "15 phút",
+            "popularity": "Phổ biến nhất"
+          },
+          "hubspot": {
+            "name": "HubSpot",
+            "description": "Tích hợp HubSpot liền mạch để căn chỉnh tiếp thị và bán hàng",
+            "features": {
+              "properties": "Thuộc tính liên hệ",
+              "deals": "Đường ống giao dịch",
+              "sequences": "Chuỗi email",
+              "reporting": "Báo cáo"
+            },
+            "setupTime": "10 phút",
+            "popularity": "Được đề xuất"
+          },
+          "pipedrive": {
+            "name": "Pipedrive",
+            "description": "Tích hợp Pipedrive đơn giản nhưng mạnh mẽ cho các nhóm bán hàng",
+            "features": {
+              "pipeline": "Quản lý đường ống",
+              "activity": "Theo dõi hoạt động",
+              "history": "Lịch sử liên hệ",
+              "automation": "Tự động hóa"
+            },
+            "setupTime": "8 phút",
+            "popularity": "Thiết lập dễ dàng"
+          },
+          "zoho": {
+            "name": "Zoho CRM",
+            "description": "Tích hợp Zoho CRM toàn diện với các quy trình làm việc nâng cao",
+            "features": {
+              "scoring": "Chấm điểm khách hàng tiềm năng",
+              "workflow": "Tự động hóa quy trình làm việc",
+              "modules": "Mô-đun tùy chỉnh",
+              "analytics": "Phân tích"
+            },
+            "setupTime": "12 phút",
+            "popularity": "Giàu tính năng"
+          },
+          "dynamics": {
+            "name": "Microsoft Dynamics",
+            "description": "Tích hợp cấp doanh nghiệp với Microsoft Dynamics 365",
+            "features": {
+              "mapping": "Ánh xạ thực thể",
+              "processes": "Quy trình kinh doanh",
+              "powerbi": "Tích hợp Power BI",
+              "security": "Bảo mật"
+            },
+            "setupTime": "20 phút",
+            "popularity": "Doanh nghiệp"
+          },
+          "freshworks": {
+            "name": "Freshworks CRM",
+            "description": "Tích hợp CRM hiện đại với bộ Freshworks",
+            "features": {
+              "management": "Quản lý liên hệ",
+              "sequences": "Chuỗi bán hàng",
+              "phone": "Tích hợp điện thoại",
+              "insights": "Thông tin chi tiết AI"
+            },
+            "setupTime": "10 phút",
+            "popularity": "Hiện đại"
+          }
+        },
+        "benefits": {
+          "data": {
+            "title": "Dữ liệu khách hàng hợp nhất",
+            "description": "Đồng bộ hóa thông tin khách hàng tự động giữa SeaChat và CRM của bạn"
+          },
+          "leads": {
+            "title": "Chất lượng khách hàng tiềm năng được cải thiện",
+            "description": "Chuyển đổi các cuộc trò chuyện hỗ trợ thành khách hàng tiềm năng đủ điều kiện"
+          },
+          "sync": {
+            "title": "Đồng bộ hóa thời gian thực",
+            "description": "Giữ dữ liệu khách hàng được cập nhật trên tất cả các nền tảng ngay lập tức"
+          },
+          "context": {
+            "title": "Ngữ cảnh khách hàng tốt hơn",
+            "description": "Truy cập lịch sử khách hàng hoàn chỉnh trong các cuộc trò chuyện hỗ trợ"
+          }
+        },
+        "features": [
+          {
+            "title": "Đồng bộ hóa dữ liệu liền mạch",
+            "description": "Tự động đồng bộ hóa thông tin liên hệ khách hàng, lịch sử trò chuyện và hồ sơ tương tác",
+            "icon": "sync"
+          },
+          {
+            "title": "Tự động hóa khách hàng tiềm năng",
+            "description": "Tự động chuyển đổi các cuộc trò chuyện hỗ trợ thành khách hàng tiềm năng đủ điều kiện trong CRM của bạn",
+            "icon": "users"
+          },
+          {
+            "title": "Định tuyến thông minh",
+            "description": "Định tuyến khách hàng một cách thông minh đến đội ngũ bán hàng hoặc hỗ trợ phù hợp dựa trên dữ liệu CRM",
+            "icon": "route"
+          },
+          {
+            "title": "Chế độ xem khách hàng hợp nhất",
+            "description": "Truy cập lịch sử khách hàng hoàn chỉnh và hồ sơ giao dịch ngay lập tức trong các cuộc trò chuyện hỗ trợ",
+            "icon": "eye"
+          },
+          {
+            "title": "Kích hoạt hoạt động",
+            "description": "Tự động kích hoạt các quy trình làm việc CRM và các chiến dịch tiếp thị dựa trên các tương tác của khách hàng",
+            "icon": "zap"
+          },
+          {
+            "title": "Báo cáo & Phân tích",
+            "description": "Báo cáo hợp nhất trên các nền tảng với thông tin chi tiết sâu sắc về vòng đời khách hàng và các chỉ số chuyển đổi",
+            "icon": "chart"
+          }
+        ],
+        "workflow": {
+          "connect": {
+            "title": "Kết nối CRM của bạn",
+            "description": "Xác thực và cấu hình kết nối CRM của bạn"
+          },
+          "map": {
+            "title": "Ánh xạ trường dữ liệu",
+            "description": "Cấu hình cách dữ liệu luân chuyển giữa các hệ thống"
+          },
+          "sync": {
+            "title": "Bắt đầu đồng bộ hóa",
+            "description": "Tận hưởng đồng bộ hóa dữ liệu tự động"
+          }
+        }
+      },
+      "api": {
+        "accessButton": "Truy cập API",
+        "benefits": {
+          "dataFlow": {
+            "description": "Đồng bộ hóa tự động giữa SeaChat và các hệ thống của bạn",
+            "title": "Luân chuyển dữ liệu liền mạch"
+          },
+          "implementation": {
+            "description": "Thiết lập nhanh chóng với các mẫu tích hợp có sẵn",
+            "title": "Triển khai nhanh hơn"
+          },
+          "insights": {
+            "description": "Báo cáo nâng cao với các nguồn dữ liệu tích hợp",
+            "title": "Thông tin chi tiết tốt hơn"
+          },
+          "manualWork": {
+            "description": "Loại bỏ các tác vụ lặp đi lặp lại với tự động hóa thông minh",
+            "title": "Giảm công việc thủ công"
+          }
+        },
+        "benefitsSubtitle": "Chuyển đổi quy trình làm việc của bạn với các tích hợp SeaChat tùy chỉnh mạnh mẽ.",
+        "benefitsTitle": "Lợi ích tích hợp",
+        "buildSubtitle": "Thực hiện các bước đơn giản sau để bắt đầu với các tích hợp API SeaChat tùy chỉnh.",
+        "buildTitle": "Sẵn sàng xây dựng tích hợp của bạn?",
+        "capabilitiesSubtitle": "Mọi thứ bạn cần để xây dựng các tích hợp mạnh mẽ, có khả năng mở rộng với SeaChat.",
+        "capabilitiesTitle": "Khả năng tích hợp mạnh mẽ",
+        "copyCode": "Sao chép mã",
+        "ctaAccessButton": "Truy cập API",
+        "ctaDocsButton": "Xem tài liệu",
+        "ctaSubtitle": "Truy cập API và bắt đầu xây dựng các tích hợp tùy chỉnh mạnh mẽ giúp chuyển đổi quy trình làm việc hỗ trợ khách hàng của bạn.",
+        "ctaTitle": "Bắt đầu xây dựng ngay hôm nay",
+        "docsButton": "Xem tài liệu API",
+        "exampleSubtitle": "Bắt đầu với API của chúng tôi chỉ với vài dòng mã.",
+        "exampleTitle": "Ví dụ mã khởi động nhanh",
+        "features": {
+          "custom": {
+            "description": "Xây dựng các tích hợp tùy chỉnh cho các nhu cầu kinh doanh cụ thể của bạn",
+            "title": "Tích hợp tùy chỉnh"
+          },
+          "restful": {
+            "description": "API REST sạch, được tài liệu hóa tốt để tích hợp liền mạch",
+            "title": "API RESTful"
+          },
+          "webhooks": {
+            "description": "Thông báo tức thì cho các sự kiện và cập nhật cuộc trò chuyện",
+            "title": "Webhook thời gian thực"
+          },
+          "workflow": {
+            "description": "Tự động hóa các quy trình làm việc phức tạp với nền tảng tích hợp của chúng tôi",
+            "title": "Tự động hóa quy trình làm việc"
+          }
+        },
+        "integrationExample": "Ví dụ tích hợp tùy chỉnh",
+        "patternsSubtitle": "Khám phá các kịch bản tích hợp phổ biến và các ví dụ triển khai.",
+        "patternsTitle": "Các mẫu tích hợp phổ biến",
+        "resources": {
+          "community": "Hỗ trợ cộng đồng nhà phát triển",
+          "docs": "Tài liệu API toàn diện",
+          "examples": "Ví dụ mã bằng nhiều ngôn ngữ",
+          "explorer": "Trình khám phá API tương tác",
+          "sandbox": "Môi trường sandbox để thử nghiệm",
+          "simulator": "Trình mô phỏng sự kiện Webhook"
+        },
+        "resourcesTitle": "Tài nguyên dành cho nhà phát triển",
+        "steps": {
+          "build": {
+            "description": "Phát triển tích hợp của bạn bằng cách sử dụng môi trường sandbox của chúng tôi",
+            "title": "Xây dựng & Kiểm tra"
+          },
+          "credentials": {
+            "description": "Đăng ký và tạo khóa API và bí mật webhook của bạn",
+            "title": "Lấy thông tin đăng nhập API"
+          },
+          "deploy": {
+            "description": "Khởi chạy tích hợp của bạn và giám sát hiệu suất",
+            "title": "Triển khai & Giám sát"
+          },
+          "docs": {
+            "description": "Khám phá tài liệu và ví dụ API toàn diện của chúng tôi",
+            "title": "Xem lại tài liệu"
+          }
+        },
+        "subtitle": "Xây dựng các tích hợp tùy chỉnh mạnh mẽ với API toàn diện của chúng tôi. Kết nối SeaChat với bất kỳ hệ thống hoặc quy trình làm việc nào với các công cụ thân thiện với nhà phát triển của chúng tôi.",
+        "title": "Tích hợp API tùy chỉnh",
+        "types": {
+          "analytics": {
+            "complexity": "Thấp",
+            "description": "Gửi dữ liệu cuộc trò chuyện đến các công cụ phân tích của bạn",
+            "example": "Theo dõi sự hài lòng của khách hàng và các chỉ số hỗ trợ",
+            "time": "1-2 giờ",
+            "title": "Nền tảng phân tích"
+          },
+          "crm": {
+            "complexity": "Trung bình",
+            "description": "Đồng bộ hóa dữ liệu khách hàng với hệ thống CRM của bạn",
+            "example": "Tự động tạo khách hàng tiềm năng từ các cuộc trò chuyện hỗ trợ",
+            "time": "2-4 giờ",
+            "title": "Tích hợp CRM"
+          },
+          "ecommerce": {
+            "complexity": "Trung bình",
+            "description": "Kết nối với cửa hàng trực tuyến của bạn để quản lý đơn hàng",
+            "example": "Cung cấp trạng thái đơn hàng và thông tin theo dõi thời gian thực",
+            "time": "3-6 giờ",
+            "title": "Nền tảng thương mại điện tử"
+          },
+          "payment": {
+            "complexity": "Cao",
+            "description": "Tích hợp với các cổng thanh toán để hỗ trợ thanh toán",
+            "example": "Xử lý hoàn tiền và các yêu cầu thanh toán tự động",
+            "time": "4-8 giờ",
+            "title": "Xử lý thanh toán"
+          }
+        },
+        "useCaseTitle": "Tiêu đề trường hợp sử dụng"
+      },
+      "calendar": {
+        "benefits": {
+          "noShows": {
+            "description": "Nhắc nhở và xác nhận tự động giảm số lần không đến",
+            "title": "Giảm số lần không đến"
+          },
+          "scheduling": {
+            "description": "Cho phép khách hàng đặt lịch hẹn trực tiếp từ các cuộc trò chuyện",
+            "title": "Lên lịch tự động"
+          },
+          "timeSavings": {
+            "description": "Loại bỏ các email và cuộc gọi lên lịch qua lại",
+            "title": "Tiết kiệm thời gian"
+          },
+          "utilization": {
+            "description": "Tối ưu hóa việc sử dụng lịch với lên lịch thông minh",
+            "title": "Sử dụng tốt hơn"
+          }
+        },
+        "benefitsSubtitle": "Hợp lý hóa quy trình lên lịch của bạn và cải thiện trải nghiệm khách hàng với đặt chỗ tự động.",
+        "benefitsTitle": "Lợi ích tích hợp lịch",
+        "connectButton": "Kết nối lịch",
+        "connectPlatform": "Kết nối",
+        "ctaConnectButton": "Kết nối lịch của bạn",
+        "ctaGuideButton": "Xem hướng dẫn thiết lập",
+        "ctaSubtitle": "Kết nối lịch của bạn và cho phép khách hàng đặt lịch hẹn liền mạch thông qua các cuộc trò chuyện hỗ trợ của bạn.",
+        "ctaTitle": "Sẵn sàng tự động hóa lên lịch của bạn?",
+        "customer": "Khách hàng",
+        "customerChoice": "Thứ Ba lúc 2 giờ chiều là hoàn hảo!",
+        "demoButton": "Đặt lịch demo",
+        "exampleTitle": "Ví dụ lên lịch",
+        "features": [
+          "Đồng bộ hóa khả dụng thời gian thực",
+          "Xác nhận đặt chỗ tự động",
+          "Tạo lời mời lịch",
+          "Thông báo nhắc nhở",
+          "Hỗ trợ đa múi giờ",
+          "Xử lý cuộc hẹn định kỳ"
+        ],
+        "flow": {
+          "availability": {
+            "description": "Hệ thống kiểm tra tình trạng sẵn có của lịch thời gian thực",
+            "example": "Các khung giờ có sẵn: Thứ Ba 2 giờ chiều, Thứ Tư 10 giờ sáng, Thứ Năm 3 giờ chiều",
+            "title": "Kiểm tra khả dụng"
+          },
+          "confirmation": {
+            "description": "Khách hàng chọn thời gian và cuộc hẹn được tự động đặt",
+            "example": "Cuộc họp đã được đặt vào thứ Ba lúc 2 giờ chiều với lời mời lịch đã gửi",
+            "title": "Xác nhận đặt chỗ"
+          },
+          "followup": {
+            "description": "Nhắc nhở và xác nhận được gửi tự động",
+            "example": "Nhắc nhở 24 giờ + liên kết cuộc họp + tài liệu chuẩn bị",
+            "title": "Theo dõi tự động"
+          },
+          "request": {
+            "description": "Khách hàng yêu cầu lên lịch cuộc họp hoặc cuộc hẹn",
+            "example": "\"Tôi muốn lên lịch demo vào tuần tới\"",
+            "title": "Yêu cầu của khách hàng"
+          }
+        },
+        "flowSubtitle": "Xem cách đặt lịch hẹn liền mạch hoạt động trong các cuộc trò chuyện với khách hàng.",
+        "flowTitle": "Luồng lên lịch tự động",
+        "platforms": {
+          "acuity": {
+            "category": "Chuyên nghiệp",
+            "description": "Lên lịch nâng cao với các tính năng quản lý khách hàng",
+            "features": {
+              "group": "Cuộc hẹn nhóm",
+              "intake": "Biểu mẫu tiếp nhận khách hàng",
+              "packages": "Lên lịch gói",
+              "workflows": "Quy trình làm việc tự động"
+            },
+            "name": "Acuity Scheduling",
+            "setupTime": "12 phút"
+          },
+          "apple": {
+            "category": "Hệ sinh thái Apple",
+            "description": "Tích hợp lịch iCloud cho người dùng hệ sinh thái Apple",
+            "features": {
+              "devices": "Truy cập đa thiết bị",
+              "location": "Dịch vụ định vị",
+              "sharing": "Chia sẻ sự kiện",
+              "sync": "Đồng bộ hóa iCloud"
+            },
+            "name": "Lịch Apple",
+            "setupTime": "6 phút"
+          },
+          "calcom": {
+            "category": "Lên lịch mở",
+            "description": "Cơ sở hạ tầng lên lịch mở cho các nhóm và cá nhân",
+            "features": {
+              "api": "API & webhook",
+              "booking": "Liên kết đặt chỗ",
+              "payments": "Tích hợp thanh toán",
+              "workflows": "Quy trình làm việc tùy chỉnh"
+            },
+            "name": "Cal.com",
+            "setupTime": "7 phút"
+          },
+          "calendly": {
+            "category": "Lên lịch",
+            "description": "Công cụ lên lịch phổ biến để đặt lịch hẹn tự động",
+            "features": {
+              "booking": "Trang đặt chỗ",
+              "buffer": "Thời gian đệm",
+              "payment": "Tích hợp thanh toán",
+              "questions": "Câu hỏi tùy chỉnh"
+            },
+            "name": "Calendly",
+            "setupTime": "10 phút"
+          },
+          "google": {
+            "category": "Google Workspace",
+            "description": "Tích hợp liền mạch với Lịch Google để lên lịch hẹn",
+            "features": {
+              "availability": "Đồng bộ hóa khả dụng",
+              "events": "Tạo sự kiện",
+              "meetings": "Lên lịch cuộc họp",
+              "reminders": "Thông báo nhắc nhở"
+            },
+            "name": "Lịch Google",
+            "setupTime": "5 phút"
+          },
+          "highlevel": {
+            "category": "Tất cả trong một",
+            "description": "Giải pháp tất cả trong một cho bán hàng, tiếp thị và tự động hóa lịch",
+            "features": {
+              "forms": "Biểu mẫu đặt chỗ",
+              "integration": "Tích hợp CRM",
+              "pipelines": "Đường ống bán hàng",
+              "reminders": "Nhắc nhở tự động"
+            },
+            "name": "HighLevel",
+            "setupTime": "9 phút"
+          },
+          "notion": {
+            "category": "Năng suất",
+            "description": "Quản lý lịch và dự án với tích hợp Notion",
+            "features": {
+              "automation": "Tự động hóa quy trình làm việc",
+              "sync": "Đồng bộ hóa lịch",
+              "tasks": "Lên lịch tác vụ",
+              "templates": "Mẫu tùy chỉnh"
+            },
+            "name": "Notion",
+            "setupTime": "6 phút"
+          },
+          "outlook": {
+            "category": "Microsoft 365",
+            "description": "Tích hợp lịch Microsoft Outlook và Office 365",
+            "features": {
+              "exchange": "Đồng bộ hóa Exchange",
+              "recurring": "Sự kiện định kỳ",
+              "rooms": "Phòng họp",
+              "team": "Lịch nhóm"
+            },
+            "name": "Microsoft Outlook",
+            "setupTime": "8 phút"
+          },
+          "zoom": {
+            "category": "Hội nghị truyền hình",
+            "description": "Lên lịch cuộc họp video với tích hợp Zoom",
+            "features": {
+              "meetings": "Cuộc họp video",
+              "recording": "Thiết lập ghi âm",
+              "waiting": "Phòng chờ",
+              "webinar": "Lên lịch hội thảo trên web"
+            },
+            "name": "Zoom Scheduler",
+            "setupTime": "7 phút"
+          }
+        },
+        "platformsSubtitle": "Kết nối với tất cả các nền tảng lịch và lên lịch chính để quản lý cuộc hẹn liền mạch.",
+        "platformsTitle": "Tích hợp SeaChat nền tảng lịch",
+        "seachatAI": "SeaChat AI",
+        "slot1": "Thứ Ba, ngày 16 tháng 1 - 2:00 chiều PST",
+        "slot2": "Thứ Tư, ngày 17 tháng 1 - 10:00 sáng PST",
+        "slot3": "Thứ Năm, ngày 18 tháng 1 - 3:00 chiều PST",
+        "solutionSubtitle": "Mọi thứ bạn cần để quản lý các cuộc hẹn, cuộc họp và sự kiện trực tiếp từ nền tảng hỗ trợ khách hàng của bạn.",
+        "solutionTitle": "Giải pháp lên lịch hoàn chỉnh",
+        "subtitle": "Tích hợp với các nền tảng lịch phổ biến để cho phép lên lịch hẹn liền mạch trực tiếp từ các cuộc trò chuyện hỗ trợ khách hàng.",
+        "title": "Lịch & Lên lịch",
+        "setup": "Thiết lập"
+      },
+      "communication": {
+        "benefits": {
+          "collaboration": {
+            "description": "Cải thiện phối hợp nhóm nội bộ và thời gian phản hồi",
+            "title": "Cộng tác nhóm"
+          },
+          "efficiency": {
+            "description": "Giải quyết nhanh hơn với các công cụ giao tiếp tích hợp",
+            "title": "Hiệu quả phản hồi"
+          },
+          "satisfaction": {
+            "description": "Trải nghiệm hỗ trợ tốt hơn trên tất cả các kênh",
+            "title": "Sự hài lòng của khách hàng"
+          },
+          "unified": {
+            "description": "Quản lý tất cả các kênh giao tiếp từ một trung tâm duy nhất",
+            "title": "Giao tiếp hợp nhất"
+          }
+        },
+        "benefitsSubtitle": "Nâng cao hỗ trợ khách hàng và cộng tác nội bộ của bạn với các tích hợp SeaChat liền mạch.",
+        "benefitsTitle": "Lợi ích của giao tiếp tích hợp",
+        "connectButton": "Kết nối công cụ giao tiếp",
+        "connectPlatform": "Kết nối với",
+        "cta": {
+          "connectButton": "Bắt đầu ngay",
+          "contactButton": "Liên hệ bán hàng",
+          "title": "Sẵn sàng hợp lý hóa giao tiếp của bạn?",
+          "subtitle": "Kết nối các công cụ giao tiếp yêu thích của bạn và nâng cao năng suất của nhóm và tương tác với khách hàng."
+        },
+        "demoButton": "Lên lịch demo tích hợp",
+        "features": {
+          "feature1": {
+            "description": "Tương tác với khách hàng ngay lập tức trên tất cả các nền tảng tích hợp, đảm bảo phản hồi kịp thời và cải thiện sự hài lòng.",
+            "title": "Nhắn tin thời gian thực"
+          },
+          "feature2": {
+            "description": "Thiết lập các phản hồi tự động và quy tắc định tuyến để quản lý hiệu quả các tin nhắn đến và giảm công sức thủ công.",
+            "title": "Quy trình làm việc tự động"
+          },
+          "feature3": {
+            "description": "Quản lý tất cả các cuộc trò chuyện từ một giao diện duy nhất, trực quan, loại bỏ nhu cầu chuyển đổi giữa các ứng dụng khác nhau.",
+            "title": "Hộp thư đến hợp nhất"
+          },
+          "feature4": {
+            "description": "Thu thập thông tin chi tiết về khối lượng giao tiếp, thời gian phản hồi và hiệu suất của nhân viên với phân tích và báo cáo toàn diện.",
+            "title": "Phân tích hiệu suất"
+          }
+        },
+        "featuresSubtitle": "Khám phá cách các tích hợp SeaChat giao tiếp của chúng tôi có thể chuyển đổi quy trình làm việc của bạn.",
+        "featuresTitle": "Các tính năng chính",
+        "platforms": {
+          "discord": {
+            "category": "Cộng đồng",
+            "description": "Hỗ trợ cộng đồng thông qua các máy chủ và kênh Discord",
+            "features": {
+              "bot": "Tính năng bot",
+              "moderation": "Kiểm duyệt cộng đồng",
+              "server": "Tích hợp máy chủ",
+              "voice": "Kênh thoại"
+            },
+            "name": "Discord",
+            "setupTime": "10 phút"
+          },
+          "email": {
+            "category": "Email",
+            "description": "Kết nối với Gmail, Outlook và các nhà cung cấp email khác",
+            "features": {
+              "attachments": "Xử lý tệp đính kèm",
+              "routing": "Định tuyến email",
+              "templates": "Phản hồi mẫu",
+              "threading": "Luồng"
+            },
+            "name": "Nền tảng email",
+            "setupTime": "7 phút"
+          },
+          "googlechat": {
+            "category": "Trò chuyện nhóm",
+            "description": "Hợp lý hóa giao tiếp nhóm trong hệ sinh thái Google Workspace.",
+            "features": {
+              "bots": "Tích hợp bot SeaChat",
+              "files": "Chia sẻ tệp",
+              "meetings": "Tích hợp Meet",
+              "spaces": "Không gian để cộng tác"
+            },
+            "name": "Google Chat",
+            "setupTime": "8 phút"
+          },
+          "kakaotalk": {
+            "category": "Nhắn tin",
+            "description": "Kết nối với người dùng ở Hàn Quốc và hơn thế nữa với KakaoTalk.",
+            "features": {
+              "channels": "Kênh Plus Friend",
+              "commerce": "Tích hợp Kakao Commerce",
+              "messages": "Tin nhắn phong phú",
+              "payments": "Tích hợp Kakao Pay"
+            },
+            "name": "KakaoTalk",
+            "setupTime": "12 phút"
+          },
+          "slack": {
+            "category": "Trò chuyện nhóm",
+            "description": "Tích hợp với Slack để cộng tác nhóm và thông báo nội bộ",
+            "features": {
+              "channels": "Thông báo kênh",
+              "commands": "Lệnh bot",
+              "files": "Chia sẻ tệp",
+              "messages": "Tin nhắn trực tiếp"
+            },
+            "name": "Slack",
+            "setupTime": "5 phút"
+          },
+          "teams": {
+            "category": "Doanh nghiệp",
+            "description": "Kết nối với Microsoft Teams để giao tiếp doanh nghiệp",
+            "features": {
+              "apps": "Tích hợp ứng dụng",
+              "calls": "Cuộc gọi video",
+              "channels": "Kênh nhóm",
+              "files": "Cộng tác tệp"
+            },
+            "name": "Microsoft Teams",
+            "setupTime": "8 phút"
+          },
+          "telegram": {
+            "category": "Nhắn tin",
+            "description": "Tích hợp bot Telegram để hỗ trợ nhắn tin tức thì",
+            "features": {
+              "api": "API bot",
+              "channels": "Phát sóng kênh",
+              "files": "Chuyển tệp",
+              "groups": "Trò chuyện nhóm"
+            },
+            "name": "Telegram",
+            "setupTime": "15 phút"
+          },
+          "whatsapp": {
+            "category": "Nhắn tin",
+            "features": {
+              "automation": "Phản hồi tự động",
+              "businessApi": "API doanh nghiệp",
+              "messaging": "Nhắn tin phong phú",
+              "templates": "Mẫu tin nhắn"
+            },
+            "name": "WhatsApp",
+            "setupTime": "10 phút",
+            "description": "Tương tác với khách hàng trực tiếp trên ứng dụng nhắn tin phổ biến nhất thế giới."
+          },
+          "zalo": {
+            "category": "Nhắn tin",
+            "description": "Kết nối với khách hàng tại Việt Nam và Đông Nam Á qua Zalo.",
+            "features": {
+              "messaging": "Nhắn tin phong phú",
+              "miniApp": "Ứng dụng mini",
+              "officialAccount": "Tài khoản chính thức",
+              "payments": "Tích hợp Zalo Pay"
+            },
+            "name": "Zalo",
+            "setupTime": "10 phút"
+          }
+        },
+        "platformsSubtitle": "Kết nối với các công cụ giao tiếp mà nhóm của bạn đã sử dụng để tích hợp quy trình làm việc liền mạch.",
+        "platformsTitle": "Các nền tảng giao tiếp phổ biến",
+        "subtitle": "Tích hợp SeaChat với các nền tảng giao tiếp phổ biến như Slack, Teams, Discord và nhiều hơn nữa để hợp lý hóa quy trình hỗ trợ và cộng tác nhóm của bạn.",
+        "title": "Công cụ giao tiếp",
+        "setup": "Thời gian thiết lập"
+      },
+      "ecommerce": {
+        "benefits": {
+          "cart": {
+            "description": "Giảm bỏ giỏ hàng với hỗ trợ chủ động",
+            "title": "Khôi phục giỏ hàng"
+          },
+          "orders": {
+            "description": "Xử lý các yêu cầu đơn hàng, theo dõi và cập nhật tự động",
+            "title": "Quản lý đơn hàng"
+          },
+          "payment": {
+            "description": "Hỗ trợ các vấn đề thanh toán và các câu hỏi về thanh toán",
+            "title": "Hỗ trợ thanh toán"
+          },
+          "sales": {
+            "description": "Chuyển đổi các cuộc trò chuyện hỗ trợ thành doanh số bổ sung",
+            "title": "Tăng doanh số"
+          }
+        },
+        "benefitsSubtitle": "Biến hỗ trợ khách hàng của bạn thành một động lực thúc đẩy bán hàng, tăng cường giữ chân khách hàng mạnh mẽ.",
+        "benefitsTitle": "Lợi ích hỗ trợ thương mại điện tử",
+        "connectPlatform": "Kết nối",
+        "cta": {
+          "button1": "Kết nối cửa hàng của bạn ngay",
+          "button2": "Lên lịch demo thương mại điện tử"
+        },
+        "ctaSubtitle": "Kết nối cửa hàng trực tuyến của bạn và bắt đầu cung cấp hỗ trợ khách hàng đặc biệt giúp thúc đẩy doanh số và lòng trung thành.",
+        "ctaTitle": "Sẵn sàng thúc đẩy doanh số thương mại điện tử của bạn?",
+        "customer": "Khách hàng",
+        "hero": {
+          "button1": "Kết nối cửa hàng của bạn",
+          "button2": "Lên lịch demo thương mại điện tử"
+        },
+        "orderQuestion": "Đơn hàng #12345 của tôi ở đâu?",
+        "orderResponse": "Đơn hàng #12345 của bạn đã được vận chuyển hôm qua và hiện đang trên đường. Dự kiến giao hàng: Ngày mai trước 6 giờ chiều. Theo dõi tại đây: [liên kết theo dõi]",
+        "platforms": {
+          "bigcommerce": {
+            "description": "Tích hợp API BigCommerce cho các cửa hàng trực tuyến đang phát triển",
+            "features": {
+              "customers": "Thông tin chi tiết khách hàng",
+              "orders": "Quản lý đơn hàng",
+              "products": "Dữ liệu sản phẩm",
+              "shipping": "Thông tin vận chuyển"
+            },
+            "name": "BigCommerce",
+            "popularity": "Đang phát triển",
+            "setupTime": "10 phút"
+          },
+          "etsy": {
+            "description": "Tích hợp thị trường Etsy cho người bán sáng tạo",
+            "features": {
+              "listings": "Trợ giúp danh sách",
+              "messages": "Tin nhắn khách hàng",
+              "orders": "Hỗ trợ đơn hàng",
+              "shop": "Quản lý cửa hàng"
+            },
+            "name": "Etsy",
+            "popularity": "Sáng tạo",
+            "setupTime": "12 phút"
+          },
+          "fourthwall": {
+            "description": "Nền tảng dành cho người sáng tạo để xây dựng trang web miễn phí, bán sản phẩm và quản lý thành viên",
+            "features": {
+              "community": "Công cụ cộng đồng",
+              "donations": "Quyên góp",
+              "memberships": "Thành viên",
+              "merch": "Hàng hóa tùy chỉnh"
+            },
+            "name": "Fourthwall",
+            "popularity": "Kinh tế sáng tạo",
+            "setupTime": "10 phút"
+          },
+          "godaddy": {
+            "description": "Giải pháp tất cả trong một cho trang web, tiếp thị và cửa hàng trực tuyến",
+            "features": {
+              "scheduling": "Lên lịch hẹn",
+              "security": "Bảo mật SSL",
+              "social": "Công cụ mạng xã hội",
+              "website": "Trình tạo trang web"
+            },
+            "name": "GoDaddy",
+            "popularity": "Toàn diện",
+            "setupTime": "15 phút"
+          },
+          "hostinger": {
+            "description": "Nhà cung cấp dịch vụ lưu trữ web với trình tạo trang web tích hợp và các tính năng thương mại điện tử",
+            "features": {
+              "builder": "Trình tạo trang web AI",
+              "hosting": "Lưu trữ đáng tin cậy",
+              "ssl": "SSL miễn phí",
+              "support": "Hỗ trợ 24/7"
+            },
+            "name": "Hostinger",
+            "popularity": "Giá cả phải chăng",
+            "setupTime": "10 phút"
+          },
+          "magento": {
+            "description": "Tích hợp Magento cấp doanh nghiệp cho thương mại điện tử quy mô lớn",
+            "features": {
+              "catalog": "Đồng bộ hóa danh mục",
+              "multistore": "Hỗ trợ đa cửa hàng",
+              "orders": "Đơn hàng nâng cao",
+              "segments": "Phân khúc khách hàng"
+            },
+            "name": "Magento",
+            "popularity": "Doanh nghiệp",
+            "setupTime": "15 phút"
+          },
+          "opencart": {
+            "description": "Nền tảng thương mại điện tử mã nguồn mở miễn phí cho các cửa hàng trực tuyến",
+            "features": {
+              "dashboard": "Bảng điều khiển quản trị",
+              "extensions": "Tiện ích mở rộng phong phú",
+              "multi_store": "Chức năng đa cửa hàng",
+              "themes": "Có thể thay đổi giao diện"
+            },
+            "name": "OpenCart",
+            "popularity": "Linh hoạt",
+            "setupTime": "25 phút"
+          },
+          "prestashop": {
+            "description": "Giải pháp thương mại điện tử mã nguồn mở cho các doanh nghiệp nhỏ đến lớn",
+            "features": {
+              "analytics": "Phân tích nâng cao",
+              "customizable": "Có thể tùy chỉnh cao",
+              "modules": "Hàng ngàn mô-đun",
+              "multilingual": "Hỗ trợ đa ngôn ngữ"
+            },
+            "name": "PrestaShop",
+            "popularity": "Mã nguồn mở",
+            "setupTime": "30 phút"
+          },
+          "sellfy": {
+            "description": "Nền tảng thương mại điện tử dành cho người sáng tạo để bán sản phẩm kỹ thuật số, đăng ký và hàng hóa vật chất",
+            "features": {
+              "digital": "Bán sản phẩm kỹ thuật số",
+              "marketing": "Tiếp thị tích hợp",
+              "print_on_demand": "In theo yêu cầu",
+              "subscriptions": "Dịch vụ đăng ký"
+            },
+            "name": "Sellfy",
+            "popularity": "Tập trung vào người sáng tạo",
+            "setupTime": "5 phút"
+          },
+          "shopify": {
+            "description": "Tích hợp Shopify hoàn chỉnh với quản lý đơn hàng và đồng bộ hóa khách hàng",
+            "features": {
+              "catalog": "Danh mục sản phẩm",
+              "customers": "Hồ sơ khách hàng",
+              "inventory": "Đồng bộ hóa hàng tồn kho",
+              "orders": "Theo dõi đơn hàng"
+            },
+            "name": "Shopify",
+            "popularity": "Phổ biến nhất",
+            "setupTime": "5 phút"
+          },
+          "square": {
+            "description": "Giải pháp điểm bán hàng và thương mại điện tử cho các doanh nghiệp thuộc mọi quy mô",
+            "features": {
+              "invoicing": "Lập hóa đơn",
+              "loyalty": "Chương trình khách hàng thân thiết",
+              "pos": "POS tích hợp",
+              "reporting": "Báo cáo bán hàng"
+            },
+            "name": "Square",
+            "popularity": "Bán lẻ",
+            "setupTime": "5 phút"
+          },
+          "squarespace": {
+            "description": "Trình tạo trang web nổi tiếng với các mẫu thiết kế đẹp mắt và khả năng thương mại điện tử",
+            "features": {
+              "blogging": "Công cụ viết blog",
+              "commerce": "Các tính năng thương mại đầy đủ",
+              "design": "Thiết kế đoạt giải thưởng",
+              "portfolio": "Các tùy chọn danh mục đầu tư"
+            },
+            "name": "Squarespace",
+            "popularity": "Tập trung vào thiết kế",
+            "setupTime": "20 phút"
+          },
+          "weebly": {
+            "description": "Trình tạo trang web kéo và thả đơn giản với các tính năng thương mại điện tử",
+            "features": {
+              "marketing": "Công cụ tiếp thị",
+              "payments": "Thanh toán tích hợp",
+              "seo": "Tối ưu hóa SEO",
+              "storefront": "Mặt tiền cửa hàng có thể tùy chỉnh"
+            },
+            "name": "Weebly",
+            "popularity": "Thân thiện với người dùng",
+            "setupTime": "10 phút"
+          },
+          "wix": {
+            "description": "Nền tảng phát triển web dựa trên đám mây để tạo trang web HTML5 và trang web di động",
+            "features": {
+              "analytics": "Phân tích trang web",
+              "apps": "Thị trường ứng dụng",
+              "mobile": "Tối ưu hóa cho thiết bị di động",
+              "templates": "Mẫu thiết kế"
+            },
+            "name": "Wix",
+            "popularity": "Đa năng",
+            "setupTime": "10 phút"
+          },
+          "woocommerce": {
+            "description": "Plugin WordPress WooCommerce để tích hợp cửa hàng liền mạch",
+            "features": {
+              "customers": "Lịch sử khách hàng",
+              "orders": "Trạng thái đơn hàng",
+              "payments": "Theo dõi thanh toán",
+              "products": "Hỗ trợ sản phẩm"
+            },
+            "name": "WooCommerce",
+            "popularity": "WordPress",
+            "setupTime": "8 phút"
+          }
+        },
+        "platformsSubtitle": "Tích hợp với tất cả các nền tảng thương mại điện tử và thị trường chính để hỗ trợ khách hàng hợp nhất.",
+        "platformsTitle": "Các nền tảng thương mại điện tử được hỗ trợ",
+        "recommendationQuestion": "Tuyệt vời! Bạn có thể giới thiệu các sản phẩm tương tự không?",
+        "recommendationResponse": "Dựa trên giao dịch mua của bạn, bạn có thể thích các mặt hàng này: [Sản phẩm A], [Sản phẩm B]. Bạn có muốn giảm giá 10% cho đơn hàng tiếp theo không?",
+        "scenarioTitle": "Kịch bản hỗ trợ khách hàng",
+        "seachatAI": "SeaChat AI",
+        "subtitle": "Kết nối SeaChat với cửa hàng trực tuyến của bạn để cung cấp hỗ trợ khách hàng đặc biệt, tăng doanh số và giảm bỏ giỏ hàng.",
+        "supportSubtitle": "Mọi thứ bạn cần để cung cấp hỗ trợ khách hàng đặc biệt cho cửa hàng trực tuyến của bạn, từ theo dõi đơn hàng đến đề xuất sản phẩm.",
+        "supportTitle": "Bộ hỗ trợ thương mại điện tử hoàn chỉnh",
+        "title": "Tích hợp SeaChat thương mại điện tử",
+        "setup": "Thời gian thiết lập",
+        "features": [
+          {
+            "title": "Theo dõi đơn hàng thời gian thực",
+            "description": "Tự động đồng bộ hóa trạng thái đơn hàng và cung cấp thông tin theo dõi tức thì cho khách hàng",
+            "icon": "package"
+          },
+          {
+            "title": "Quản lý hàng tồn kho",
+            "description": "Giữ khách hàng được thông báo về tình trạng sản phẩm và thông báo bổ sung hàng",
+            "icon": "warehouse"
+          },
+          {
+            "title": "Đề xuất sản phẩm thông minh",
+            "description": "Đề xuất sản phẩm do AI hỗ trợ dựa trên lịch sử mua hàng và sở thích của khách hàng",
+            "icon": "target"
+          },
+          {
+            "title": "Khôi phục giỏ hàng bị bỏ quên",
+            "description": "Chủ động tiếp cận khách hàng đã bỏ giỏ hàng của họ với các tin nhắn cá nhân hóa",
+            "icon": "shopping-cart"
+          },
+          {
+            "title": "Giải quyết vấn đề thanh toán",
+            "description": "Xử lý các lỗi thanh toán và các yêu cầu thanh toán với quyền truy cập tức thì vào dữ liệu giao dịch",
+            "icon": "credit-card"
+          },
+          {
+            "title": "Lịch sử mua hàng của khách hàng",
+            "description": "Truy cập lịch sử mua hàng hoàn chỉnh của khách hàng để hỗ trợ tốt hơn và dịch vụ cá nhân hóa",
+            "icon": "history"
+          }
+        ]
+      },
+      "marketing": {
+        "automationTitle": "Luồng tự động hóa tiếp thị",
+        "benefits": {
+          "campaigns": {
+            "description": "Kết quả chiến dịch tốt hơn với thông tin chi tiết hỗ trợ khách hàng",
+            "title": "Hiệu suất chiến dịch"
+          },
+          "leads": {
+            "description": "Chuyển đổi các cuộc trò chuyện hỗ trợ thành khách hàng tiềm năng đủ điều kiện tiếp thị",
+            "title": "Tạo khách hàng tiềm năng"
+          },
+          "retention": {
+            "description": "Cải thiện giữ chân khách hàng với các chiến dịch tiếp thị cá nhân hóa",
+            "title": "Giữ chân khách hàng"
+          },
+          "revenue": {
+            "description": "Tăng doanh thu thông qua các nỗ lực tiếp thị tích hợp",
+            "title": "Tăng trưởng doanh thu"
+          }
+        },
+        "benefitsSubtitle": "Biến hỗ trợ khách hàng thành một công cụ tiếp thị và tăng trưởng mạnh mẽ.",
+        "benefitsTitle": "Lợi ích tích hợp tiếp thị",
+        "connectButton": "Kết nối công cụ tiếp thị",
+        "connectPlatform": "Kết nối",
+        "ctaConnectButton": "Kết nối công cụ tiếp thị",
+        "ctaGuideButton": "Xem hướng dẫn thiết lập",
+        "ctaSubtitle": "Kết nối các nền tảng tiếp thị của bạn và biến mọi cuộc trò chuyện hỗ trợ khách hàng thành cơ hội tăng trưởng.",
+        "ctaTitle": "Sẵn sàng tăng cường tiếp thị của bạn?",
+        "demoButton": "Lên lịch demo tiếp thị",
+        "flow": {
+          "conversation": {
+            "description": "Khách hàng hỏi về các tính năng cao cấp",
+            "title": "Cuộc trò chuyện hỗ trợ"
+          },
+          "conversion": {
+            "description": "Khách hàng nâng cấp lên gói cao cấp",
+            "title": "Chuyển đổi"
+          },
+          "tagging": {
+            "description": "Khách hàng được gắn thẻ là \"quan tâm đến nâng cấp\"",
+            "title": "Gắn thẻ tự động"
+          },
+          "trigger": {
+            "description": "Chuỗi email tự động bắt đầu",
+            "title": "Kích hoạt chiến dịch"
+          }
+        },
+        "integrationSubtitle": "Thu hẹp khoảng cách giữa hỗ trợ khách hàng và tiếp thị với tự động hóa thông minh biến mọi cuộc trò chuyện thành cơ hội tăng trưởng.",
+        "integrationTitle": "Tích hợp tiếp thị hoàn chỉnh",
+        "features": [
+          {
+            "title": "Sàng lọc & Chấm điểm khách hàng tiềm năng",
+            "description": "Tự động sàng lọc và chấm điểm khách hàng tiềm năng từ các cuộc trò chuyện hỗ trợ dựa trên tương tác và ý định",
+            "icon": "target"
+          },
+          {
+            "title": "Tự động kích hoạt chiến dịch",
+            "description": "Kích hoạt các chiến dịch tiếp thị được nhắm mục tiêu dựa trên các tương tác và mẫu hành vi cụ thể của khách hàng",
+            "icon": "zap"
+          },
+          {
+            "title": "Ánh xạ hành trình khách hàng",
+            "description": "Theo dõi và tối ưu hóa toàn bộ hành trình khách hàng từ lần tiếp xúc đầu tiên đến chuyển đổi và giữ chân",
+            "icon": "map"
+          },
+          {
+            "title": "Phân phối nội dung cá nhân hóa",
+            "description": "Phân phối nội dung và ưu đãi tiếp thị cá nhân hóa dựa trên lịch sử trò chuyện hỗ trợ và sở thích",
+            "icon": "heart"
+          },
+          {
+            "title": "Đồng bộ hóa chiến dịch đa kênh",
+            "description": "Đồng bộ hóa các chiến dịch tiếp thị trên email, SMS, WhatsApp và mạng xã hội để có thông điệp nhất quán",
+            "icon": "sync"
+          },
+          {
+            "title": "Phân tích hiệu suất & ROI",
+            "description": "Đo lường hiệu suất chiến dịch và ROI với phân tích chi tiết về tỷ lệ chuyển đổi và giá trị trọn đời của khách hàng",
+            "icon": "chart"
+          }
+        ],
+        "platforms": {
+          "activecampaign": {
+            "category": "Tự động hóa",
+            "description": "Nền tảng tự động hóa trải nghiệm khách hàng",
+            "features": {
+              "automation": "Tự động hóa tiếp thị",
+              "crm": "Tích hợp CRM",
+              "learning": "Học máy",
+              "sending": "Gửi dự đoán"
+            },
+            "name": "ActiveCampaign",
+            "setupTime": "18 phút"
+          },
+          "constantcontact": {
+            "category": "Tiếp thị qua email",
+            "description": "Tiếp thị qua email và tự động hóa cho các doanh nghiệp nhỏ",
+            "features": {
+              "analytics": "Bảng điều khiển phân tích",
+              "scheduling": "Lên lịch chiến dịch",
+              "social": "Công cụ mạng xã hội",
+              "templates": "Mẫu email"
+            },
+            "name": "Constant Contact",
+            "setupTime": "7 phút"
+          },
+          "convertkit": {
+            "category": "Kinh tế sáng tạo",
+            "description": "Tiếp thị qua email tập trung vào người sáng tạo với các chuỗi tự động hóa",
+            "features": {
+              "integrations": "Tích hợp",
+              "landing": "Trang đích",
+              "sequences": "Chuỗi email",
+              "tagging": "Gắn thẻ người đăng ký"
+            },
+            "name": "ConvertKit",
+            "setupTime": "9 phút"
+          },
+          "engagebay": {
+            "category": "Tất cả trong một",
+            "description": "CRM tất cả trong một cho tiếp thị, bán hàng và hỗ trợ",
+            "features": {
+              "automation": "Tự động hóa tiếp thị",
+              "crm": "Tích hợp CRM",
+              "email": "Tiếp thị qua email",
+              "forms": "Biểu mẫu khách hàng tiềm năng & cửa sổ bật lên"
+            },
+            "name": "EngageBay",
+            "setupTime": "11 phút"
+          },
+          "hubspot": {
+            "category": "Trung tâm tiếp thị",
+            "description": "Nền tảng tiếp thị inbound với khả năng nuôi dưỡng khách hàng tiềm năng",
+            "features": {
+              "automation": "Tự động hóa tiếp thị",
+              "landing": "Trang đích",
+              "scoring": "Chấm điểm khách hàng tiềm năng",
+              "social": "Mạng xã hội"
+            },
+            "name": "HubSpot Marketing",
+            "setupTime": "15 phút"
+          },
+          "klaviyo": {
+            "category": "Thương mại điện tử",
+            "description": "Nền tảng tiếp thị qua email và SMS tập trung vào thương mại điện tử",
+            "features": {
+              "recommendations": "Đề xuất sản phẩm",
+              "revenue": "Theo dõi doanh thu",
+              "sms": "Chiến dịch SMS",
+              "triggers": "Kích hoạt hành vi"
+            },
+            "name": "Klaviyo",
+            "setupTime": "12 phút"
+          },
+          "mailchimp": {
+            "category": "Tiếp thị qua email",
+            "description": "Nền tảng tiếp thị qua email toàn diện với thông tin chi tiết về đối tượng",
+            "features": {
+              "builder": "Trình tạo chiến dịch",
+              "reporting": "Báo cáo",
+              "segmentation": "Phân khúc đối tượng",
+              "testing": "Kiểm tra A/B"
+            },
+            "name": "Mailchimp",
+            "setupTime": "10 phút"
+          },
+          "mailerlite": {
+            "category": "Tiếp thị qua email",
+            "description": "Tự động hóa tiếp thị qua email với tích hợp hỗ trợ khách hàng",
+            "features": {
+              "analytics": "Phân tích",
+              "automation": "Quy trình làm việc tự động",
+              "campaigns": "Chiến dịch email",
+              "subscribers": "Quản lý người đăng ký"
+            },
+            "name": "MailerLite",
+            "setupTime": "8 phút"
+          },
+          "omnisend": {
+            "category": "Thương mại điện tử",
+            "description": "Tự động hóa tiếp thị đa kênh cho thương mại điện tử",
+            "features": {
+              "automation": "Quy trình làm việc tự động",
+              "email": "Chiến dịch email & SMS",
+              "reports": "Báo cáo nâng cao",
+              "segmentation": "Phân khúc đối tượng"
+            },
+            "name": "Omnisend",
+            "setupTime": "10 phút"
+          }
+        },
+        "platformsSubtitle": "Tích hợp với các nền tảng tiếp thị hàng đầu để tạo ra trải nghiệm khách hàng liền mạch.",
+        "platformsTitle": "Các nền tảng tiếp thị phổ biến",
+        "subtitle": "Kết nối SeaChat với các công cụ tiếp thị của bạn để biến các cuộc trò chuyện hỗ trợ khách hàng thành các cơ hội tiếp thị mạnh mẽ và các chiến dịch cá nhân hóa.",
+        "title": "Nền tảng tiếp thị",
+        "useCases": {
+          "nurturing": {
+            "description": "Tự động thêm các liên hệ hỗ trợ vào các chiến dịch nuôi dưỡng",
+            "example": "Khách hàng hỏi về giá → Được thêm vào chuỗi email demo sản phẩm",
+            "title": "Nuôi dưỡng khách hàng tiềm năng"
+          },
+          "onboarding": {
+            "description": "Trải nghiệm giới thiệu liền mạch với tự động hóa tiếp thị",
+            "example": "Phiếu hỗ trợ khách hàng mới → Chuỗi chào mừng với các tài nguyên hữu ích",
+            "title": "Giới thiệu khách hàng"
+          },
+          "retention": {
+            "description": "Giữ chân khách hàng chủ động dựa trên các mẫu tương tác hỗ trợ",
+            "example": "Nhiều phiếu hỗ trợ → Kích hoạt tiếp cận thành công khách hàng",
+            "title": "Chiến dịch giữ chân khách hàng"
+          },
+          "upselling": {
+            "description": "Xác định cơ hội bán thêm từ các cuộc trò chuyện hỗ trợ",
+            "example": "Khách hàng đề cập đến kế hoạch tăng trưởng → Kích hoạt chiến dịch nâng cấp",
+            "title": "Cơ hội bán thêm"
+          }
+        },
+        "useCasesSubtitle": "Xem cách các cuộc trò chuyện hỗ trợ có thể kích hoạt các quy trình làm việc tiếp thị mạnh mẽ.",
+        "useCasesTitle": "Các trường hợp sử dụng tự động hóa tiếp thị",
+        "workflowExample": "Ví dụ quy trình làm việc",
+        "setup": "Thiết lập"
+      },
+      "social": {
+        "features": [
+          {
+            "title": "Phản hồi khách hàng tức thì",
+            "description": "Trả lời các yêu cầu trên mạng xã hội theo thời gian thực trên tất cả các nền tảng",
+            "icon": "message-circle"
+          },
+          {
+            "title": "Hộp thư đến xã hội hợp nhất",
+            "description": "Quản lý tất cả các tin nhắn mạng xã hội từ một bảng điều khiển tập trung",
+            "icon": "inbox"
+          },
+          {
+            "title": "Định tuyến tự động thông minh",
+            "description": "Tự động định tuyến các tin nhắn mạng xã hội đến các thành viên nhóm phù hợp",
+            "icon": "route"
+          },
+          {
+            "title": "Quản lý danh tiếng thương hiệu",
+            "description": "Giám sát và phản hồi các đề cập và bình luận về thương hiệu một cách nhanh chóng",
+            "icon": "shield"
+          },
+          {
+            "title": "Hỗ trợ đa ngôn ngữ",
+            "description": "Giao tiếp với khách hàng toàn cầu bằng ngôn ngữ ưa thích của họ",
+            "icon": "globe"
+          },
+          {
+            "title": "Phân tích mạng xã hội",
+            "description": "Theo dõi thời gian phản hồi, tỷ lệ tương tác và sự hài lòng của khách hàng",
+            "icon": "chart"
+          }
+        ],
+        "benefits": {
+          "meet": {
+            "description": "Cung cấp hỗ trợ trên các nền tảng mà khách hàng của bạn đã sử dụng hàng ngày",
+            "title": "Gặp gỡ khách hàng ở nơi họ đang ở"
+          },
+          "reputation": {
+            "description": "Duy trì hình ảnh thương hiệu tích cực với các phản hồi nhanh chóng, hữu ích",
+            "title": "Danh tiếng thương hiệu"
+          },
+          "response": {
+            "description": "Phản hồi các yêu cầu trên mạng xã hội theo thời gian thực",
+            "title": "Thời gian phản hồi nhanh hơn"
+          },
+          "unified": {
+            "description": "Quản lý tất cả các nền tảng mạng xã hội từ một bảng điều khiển",
+            "title": "Quản lý hợp nhất"
+          }
+        },
+        "benefitsSubtitle": "Biến sự hiện diện trên mạng xã hội của bạn thành một kênh hỗ trợ khách hàng mạnh mẽ.",
+        "benefitsTitle": "Lợi ích hỗ trợ mạng xã hội",
+        "brandMentions": "Các đề cập thương hiệu cần phản hồi",
+        "connectButton": "Kết nối nền tảng mạng xã hội",
+        "connectPlatform": "Kết nối",
+        "ctaConnectButton": "Kết nối nền tảng mạng xã hội",
+        "ctaGuideButton": "Lên lịch demo thương mại điện tử",
+        "ctaSubtitle": "Kết nối tất cả các nền tảng mạng xã hội của bạn và cung cấp hỗ trợ khách hàng đặc biệt ở nơi khách hàng của bạn dành thời gian.",
+        "ctaTitle": "Sẵn sàng hợp nhất hỗ trợ mạng xã hội của bạn?",
+        "dashboardTitle": "Bảng điều khiển mạng xã hội",
+        "demoButton": "Lên lịch demo mạng xã hội",
+        "facebook": "Facebook",
+        "instagram": "Instagram",
+        "managementSubtitle": "Mọi thứ bạn cần để quản lý các tương tác của khách hàng trên tất cả các nền tảng mạng xã hội từ một bảng điều khiển hợp nhất.",
+        "managementTitle": "Quản lý mạng xã hội hoàn chỉnh",
+        "mentions": "3 đề cập",
+        "newMessages": "12 tin nhắn mới",
+        "pageMessages": "5 tin nhắn trang",
+        "platforms": {
+          "facebook": {
+            "description": "Cung cấp hỗ trợ khách hàng thông qua nền tảng nhắn tin của Facebook",
+            "features": {
+              "cards": "Thẻ phong phú",
+              "menu": "Menu cố định",
+              "page": "Tích hợp trang",
+              "responses": "Phản hồi tự động"
+            },
+            "name": "Facebook Messenger",
+            "setupTime": "12 phút",
+            "users": "Hơn 1,3 tỷ người dùng"
+          },
+          "instagram": {
+            "description": "Quản lý tin nhắn trực tiếp và trả lời câu chuyện trên Instagram trong một hộp thư đến hợp nhất",
+            "features": {
+              "dm": "Tin nhắn trực tiếp",
+              "media": "Chia sẻ phương tiện",
+              "responses": "Phản hồi nhanh",
+              "stories": "Trả lời câu chuyện"
+            },
+            "name": "Instagram",
+            "setupTime": "8 phút",
+            "users": "Hơn 1,4 tỷ người dùng"
+          },
+          "line": {
+            "description": "Cung cấp hỗ trợ khách hàng và tương tác liền mạch trên LINE",
+            "features": {
+              "broadcast": "Tin nhắn phát sóng",
+              "messaging": "Nhắn tin phong phú",
+              "payments": "Tích hợp LINE Pay",
+              "stickers": "Hỗ trợ nhãn dán"
+            },
+            "name": "LINE",
+            "setupTime": "10 phút",
+            "users": "Hơn 180 triệu người dùng"
+          },
+          "tiktok": {
+            "description": "Tương tác với khán giả của bạn và quản lý các tương tác của khách hàng trên TikTok",
+            "features": {
+              "ads": "Hỗ trợ chiến dịch quảng cáo",
+              "analytics": "Phân tích đối tượng",
+              "comments": "Quản lý bình luận",
+              "dm": "Tin nhắn trực tiếp"
+            },
+            "name": "TikTok",
+            "setupTime": "15 phút",
+            "users": "Hơn 1 tỷ người dùng"
+          },
+          "twitter": {
+            "description": "Xử lý các yêu cầu và đề cập của khách hàng trên nền tảng Twitter/X",
+            "features": {
+              "dm": "Tin nhắn trực tiếp",
+              "mentions": "Theo dõi đề cập",
+              "responses": "Phản hồi tweet",
+              "threads": "Quản lý luồng"
+            },
+            "name": "Twitter/X",
+            "setupTime": "15 phút",
+            "users": "Hơn 450 triệu người dùng"
+          },
+          "whatsapp": {
+            "description": "Kết nối với khách hàng trên nền tảng nhắn tin phổ biến nhất thế giới",
+            "features": {
+              "api": "API doanh nghiệp",
+              "groups": "Nhóm",
+              "media": "Phương tiện phong phú",
+              "templates": "Mẫu"
+            },
+            "name": "WhatsApp Business",
+            "setupTime": "10 phút",
+            "users": "Hơn 2 tỷ người dùng"
+          }
+        },
+        "platformsSubtitle": "Tích hợp với mọi nền tảng mạng xã hội mà khách hàng của bạn sử dụng để hỗ trợ mạng xã hội toàn diện.",
+        "platformsTitle": "Tất cả các nền tảng mạng xã hội chính",
+        "productComments": "Bình luận về sản phẩm mới nhất",
+        "productInquiries": "Yêu cầu của khách hàng về tình trạng sản phẩm",
+        "setup": "Thời gian thiết lập",
+        "storyReplies": "8 trả lời câu chuyện",
+        "subtitle": "Kết nối tất cả các nền tảng mạng xã hội của bạn và cung cấp hỗ trợ khách hàng liền mạch trên WhatsApp, Instagram, Facebook, Twitter và nhiều hơn nữa.",
+        "supportRequests": "Yêu cầu hỗ trợ và các yêu cầu chung",
+        "title": "Tích hợp mạng xã hội",
+        "twitter": "Twitter/X",
+        "whatsapp": "WhatsApp Business",
+        "worldwide": "toàn cầu"
+      },
+      "websites": {
+        "code": "Mã",
+        "codeButton": "Lấy mã widget",
+        "copyCode": "Sao chép mã",
+        "ctaCodeButton": "Lấy mã widget ngay",
+        "ctaDocsButton": "Xem tài liệu tích hợp",
+        "ctaSubtitle": "Lấy mã widget tùy chỉnh của bạn và bắt đầu cung cấp hỗ trợ khách hàng đặc biệt trong vài phút.",
+        "ctaTitle": "Sẵn sàng thêm SeaChat vào trang web của bạn?",
+        "customization": {
+          "colors": {
+            "description": "Phù hợp với màu sắc, phông chữ và kiểu dáng thương hiệu của bạn",
+            "features": {
+              "css": "Ghi đè CSS",
+              "fonts": "Tùy chỉnh phông chữ",
+              "logo": "Tích hợp logo thương hiệu",
+              "schemes": "Sơ đồ màu tùy chỉnh"
+            },
+            "title": "Màu sắc & Thương hiệu"
+          },
+          "content": {
+            "description": "Tùy chỉnh tất cả văn bản và tin nhắn",
+            "features": {
+              "greetings": "Lời chào tùy chỉnh",
+              "multilanguage": "Hỗ trợ đa ngôn ngữ",
+              "offline": "Tin nhắn ngoại tuyến",
+              "welcome": "Tin nhắn chào mừng"
+            },
+            "title": "Nội dung & Tin nhắn"
+          },
+          "position": {
+            "description": "Kiểm soát vị trí và cách widget xuất hiện",
+            "features": {
+              "auto": "Cài đặt tự động mở",
+              "corner": "Định vị góc",
+              "mobile": "Phản hồi trên thiết bị di động",
+              "trigger": "Điều kiện kích hoạt"
+            },
+            "title": "Vị trí & Hành vi"
+          }
+        },
+        "customizationSubtitle": "Làm cho SeaChat phù hợp hoàn hảo với thương hiệu của bạn với các tùy chọn tùy chỉnh mở rộng.",
+        "customizationTitle": "Tùy chọn tùy chỉnh",
+        "demoButton": "Lên lịch demo",
+        "getPlatformCode": "Lấy",
+        "installation": {
+          "step1": {
+            "description": "Sao chép mã widget SeaChat độc đáo của bạn từ bảng điều khiển",
+            "title": "Lấy mã widget của bạn"
+          },
+          "step2": {
+            "description": "Dán mã trước thẻ &lt;/body&gt; đóng",
+            "title": "Thêm vào trang web của bạn"
+          },
+          "step3": {
+            "description": "Tùy chọn: Tùy chỉnh màu sắc, vị trí và hành vi",
+            "title": "Tùy chỉnh giao diện"
+          }
+        },
+        "installationSubtitle": "Thực hiện các bước đơn giản sau để thêm SeaChat vào bất kỳ trang web nào trong vài phút.",
+        "installationTitle": "Hướng dẫn cài đặt phổ quát",
+        "platforms": {
+          "generic": {
+            "description": "Widget phổ quát hoạt động trên mọi trang web HTML",
+            "difficulty": "Dễ",
+            "features": {
+              "compatibility": "Tương thích phổ quát",
+              "installation": "Cài đặt dễ dàng",
+              "responsive": "Thiết kế đáp ứng",
+              "styling": "Tạo kiểu tùy chỉnh"
+            },
+            "name": "Trang web chung",
+            "setupTime": "2 phút"
+          },
+          "shopify": {
+            "description": "Tối ưu hóa thương mại điện tử với tích hợp theo dõi đơn hàng",
+            "difficulty": "Dễ",
+            "features": {
+              "cart": "Bỏ giỏ hàng",
+              "customers": "Đồng bộ hóa dữ liệu khách hàng",
+              "orders": "Tích hợp đơn hàng",
+              "products": "Đề xuất sản phẩm"
+            },
+            "name": "Shopify",
+            "setupTime": "3 phút"
+          },
+          "squarespace": {
+            "description": "Tích hợp liền mạch với hệ thống thiết kế Squarespace",
+            "difficulty": "Trung bình",
+            "features": {
+              "code": "Chèn mã",
+              "design": "Đối sánh hệ thống thiết kế",
+              "style": "Tùy chỉnh kiểu dáng",
+              "templates": "Tương thích mẫu"
+            },
+            "name": "Squarespace",
+            "setupTime": "3 phút"
+          },
+          "webflow": {
+            "description": "Tích hợp gốc cho Webflow CMS và thương mại điện tử",
+            "difficulty": "Dễ",
+            "features": {
+              "cms": "Tích hợp CMS",
+              "custom": "Chèn mã tùy chỉnh",
+              "design": "Thân thiện với nhà thiết kế",
+              "ecommerce": "Hỗ trợ thương mại điện tử"
+            },
+            "name": "Webflow",
+            "setupTime": "2 phút"
+          },
+          "wix": {
+            "description": "Tích hợp kéo và thả cho các trang web Wix",
+            "difficulty": "Dễ",
+            "features": {
+              "app": "Cửa hàng ứng dụng Wix",
+              "editor": "Trình chỉnh sửa trực quan",
+              "mobile": "Tối ưu hóa cho thiết bị di động",
+              "positioning": "Định vị tùy chỉnh"
+            },
+            "name": "Wix",
+            "setupTime": "2 phút"
+          },
+          "wordpress": {
+            "description": "Plugin WordPress gốc với tùy chỉnh nâng cao",
+            "difficulty": "Dễ",
+            "features": {
+              "dashboard": "Bảng điều khiển quản trị",
+              "plugin": "Plugin WordPress",
+              "shortcode": "Hỗ trợ mã ngắn",
+              "theme": "Tích hợp giao diện"
+            },
+            "name": "WordPress",
+            "setupTime": "1 phút"
+          }
+        },
+        "platformsSubtitle": "Chọn nền tảng của bạn để tích hợp tối ưu và hướng dẫn thiết lập.",
+        "platformsTitle": "Các nền tảng được hỗ trợ",
+        "subtitle": "Triển khai SeaChat trên mọi nền tảng trang web trong vài phút. Tương thích phổ quát với kiểu dáng tùy chỉnh và thiết kế đáp ứng.",
+        "title": "Tích hợp trang web",
+        "viewDocs": "Xem tài liệu",
+        "setup": "Thời gian thiết lập"
+      }
+    },
+    "heroAnimations": {
+      "agentToAI": {
+        "phases": {
+          "learning": "🧑‍💼 Học hỏi từ con người",
+          "handoff": "🤝 Chuyển giao mượt mà",
+          "autonomous": "🤖 AI tự động"
+        },
+        "humanMessages": {
+          "0": "Cảm ơn bạn đã liên hệ hỗ trợ! Tôi có thể giúp gì?",
+          "1": "Tôi hiểu mối quan tâm của bạn. Hãy để tôi kiểm tra cho bạn.",
+          "2": "Dựa trên chính sách của chúng tôi, đây là những gì tôi đề xuất...",
+          "3": "Tôi có thể giúp gì khác cho bạn hôm nay không?"
+        },
+        "aiMessages": {
+          "0": "Tôi đã học cách xử lý loại yêu cầu này một cách tự động.",
+          "1": "Dựa trên các cuộc trò chuyện trước đây, tôi có thể giúp với điều này.",
+          "2": "Tôi hiểu câu hỏi của bạn và có thể cung cấp hỗ trợ tức thì.",
+          "3": "Tôi sẵn sàng xử lý các yêu cầu tương tự một cách độc lập."
+        },
+        "learned": "Đã học",
+        "title": "Chuyển giao từ con người sang AI",
+        "subtitle": "Bắt đầu với con người, mở rộng quy mô với AI thông minh"
+      },
+      "conversationLearning": {
+        "documentTypes": {
+          "0": "Sổ tay sản phẩm.pdf",
+          "1": "Cơ sở dữ liệu Câu hỏi thường gặp.csv",
+          "2": "Hướng dẫn hỗ trợ.doc",
+          "3": "Nội dung trang web"
+        },
+        "knowledgeConcepts": {
+          "0": "Tính năng sản phẩm",
+          "1": "Gói giá",
+          "2": "Chính sách hỗ trợ",
+          "3": "Thông số kỹ thuật",
+          "4": "Hướng dẫn sử dụng",
+          "5": "Khắc phục sự cố",
+          "6": "Các bước tích hợp",
+          "7": "Các phương pháp hay nhất"
+        },
+        "conversationExamples": {
+          "0": {
+            "question": "Làm cách nào để đặt lại mật khẩu của tôi?",
+            "improvement": "Đã học quy trình từng bước"
+          },
+          "1": {
+            "question": "Các gói giá của bạn là gì?",
+            "improvement": "Đã thêm so sánh chi tiết"
+          },
+          "2": {
+            "question": "Tích hợp với Slack?",
+            "improvement": "Hướng dẫn kỹ thuật được cải thiện"
+          },
+          "3": {
+            "question": "Câu hỏi về thanh toán",
+            "improvement": "Hiểu chính sách nâng cao"
+          }
+        },
+        "phaseLabel": "Giai đoạn",
+        "accuracy": "Độ chính xác",
+        "title": "Hành trình học tập của AI",
+        "subtitle": "Xem AI trở nên thông minh hơn từ nội dung của bạn"
+      },
+      "interactiveChannels": {
+        "whatsapp": {
+          "messages": {
+            "0": "Chào! Cần giúp đỡ với đơn hàng của tôi 📦",
+            "1": "Chính sách trả hàng của bạn là gì?",
+            "2": "Cảm ơn vì phản hồi nhanh! 😊"
+          }
+        },
+        "instagram": {
+          "messages": {
+            "0": "Yêu sản phẩm mới của bạn! 💕",
+            "1": "Cái này có màu xanh không?",
+            "2": "Bạn có thể vận chuyển đến châu Âu không?"
+          }
+        },
+        "website": {
+          "messages": {
+            "0": "Tôi cần hỗ trợ kỹ thuật",
+            "1": "Làm cách nào để đặt lại mật khẩu của tôi?",
+            "2": "Thanh toán không hoạt động"
+          }
+        },
+        "email": {
+          "messages": {
+            "0": "Theo dõi email trước của tôi",
+            "1": "Yêu cầu báo giá số lượng lớn",
+            "2": "Cảm ơn sự hỗ trợ của bạn"
+          }
+        },
+        "agentResponse": "Tôi rất vui được giúp bạn với điều đó! Hãy để tôi kiểm tra thông tin đó cho bạn.",
+        "channelNames": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "website": "Trang web",
+          "email": "Email"
+        },
+        "supportSuffix": "Hỗ trợ",
+        "online": "Trực tuyến",
+        "typePlaceholder": "Nhập tin nhắn của bạn...",
+        "title": "Bộ chọn kênh tương tác",
+        "subtitle": "Nhấp vào các kênh để xem các cuộc trò chuyện khác nhau"
+      },
+      "multiChannelFlow": {
+        "channels": {
+          "whatsapp": "WhatsApp",
+          "instagram": "Instagram",
+          "facebook": "Facebook",
+          "email": "Email",
+          "website": "Trang web"
+        },
+        "messageTemplates": {
+          "0": "Cần giúp đỡ với đơn hàng",
+          "1": "Câu hỏi về sản phẩm",
+          "2": "Hỗ trợ kỹ thuật",
+          "3": "Yêu cầu thanh toán",
+          "4": "Câu hỏi chung"
+        },
+        "title": "Luồng tin nhắn đa kênh",
+        "subtitle": "Tin nhắn luân chuyển giữa các kênh theo thời gian thực"
+      },
+      "phoneVoiceAI": {
+        "callerNames": {
+          "0": "John Smith",
+          "1": "Sarah Johnson",
+          "2": "Mike Chen",
+          "3": "Emma Davis",
+          "4": "David Wilson"
+        },
+        "conversationFlow": {
+          "0": {
+            "caller": "Chào, tôi cần giúp đỡ với trạng thái đơn hàng của tôi",
+            "ai": "Chào bạn! Tôi rất vui được giúp bạn kiểm tra trạng thái đơn hàng của bạn. Bạn có thể vui lòng cung cấp số đơn hàng của bạn không?"
+          },
+          "1": {
+            "caller": "Vâng, đó là số đơn hàng 12345",
+            "ai": "Cảm ơn bạn! Hãy để tôi tra cứu cho bạn. Tôi có thể thấy đơn hàng của bạn đã được vận chuyển hôm qua và sẽ đến vào ngày mai."
+          },
+          "2": {
+            "caller": "Hoàn hảo! Tôi có thể thay đổi địa chỉ giao hàng không?",
+            "ai": "Tôi có thể giúp bạn với điều đó. Bạn muốn địa chỉ giao hàng mới là gì?"
+          }
+        },
+        "status": {
+          "seachatVoiceAI": "SeaChat Voice AI",
+          "connectedWith": "Đã kết nối với",
+          "listening": "Đang nghe...",
+          "aiSpeaking": "AI đang nói...",
+          "processing": "Đang xử lý...",
+          "liveTranscript": "Bản ghi trực tiếp:"
+        },
+        "waiting": {
+          "ready": "AI giọng nói sẵn sàng",
+          "subtitle": "Đang chờ cuộc gọi đến..."
+        },
+        "stats": {
+          "callsHandled": "Cuộc gọi đã xử lý",
+          "available": "Có sẵn"
+        },
+        "incomingCall": "📞 Cuộc gọi đến",
+        "features": {
+          "naturalSpeech": {
+            "title": "Giọng nói tự nhiên",
+            "description": "Cuộc trò chuyện giống con người"
+          },
+          "smartRecognition": {
+            "title": "Nhận dạng thông minh",
+            "description": "Chuyển giọng nói thành văn bản chính xác"
+          },
+          "contextAware": {
+            "title": "Nhận thức ngữ cảnh",
+            "description": "Hiểu ý định"
+          }
+        }
+      },
+      "realtimeDashboard": {
+        "metrics": {
+          "conversations": "Trò chuyện đang hoạt động",
+          "response": "Phản hồi trung bình",
+          "agents": "Nhân viên trực tuyến",
+          "satisfaction": "Sự hài lòng"
+        },
+        "title": "Bảng điều khiển trực tiếp",
+        "status": {
+          "live": "Trực tiếp"
+        },
+        "timeLabels": {
+          "12hAgo": "12 giờ trước",
+          "6hAgo": "6 giờ trước",
+          "now": "Bây giờ"
+        }
+      }
+    }
+  }
+}

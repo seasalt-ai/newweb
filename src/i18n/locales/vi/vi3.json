@@ -1,0 +1,1551 @@
+{
+  "seachat": {
+    "solutions": {
+      "healthcare": {
+        "title": "Giải pháp chăm sóc sức khỏe",
+        "subtitle": "Chuyển đổi dịch vụ chăm sóc bệnh nhân với hỗ trợ khách hàng tuân thủ HIPAA giúp cải thiện sự hài lòng của bệnh nhân, hợp lý hóa hoạt động và tăng cường phối hợp chăm sóc.",
+        "trialButton": "Bắt đầu chăm sóc sức khỏe miễn phí",
+        "demoButton": "Lên lịch demo chăm sóc sức khỏe",
+        "featuresTitle": "Tính năng dành riêng cho chăm sóc sức khỏe",
+        "featuresSubtitle": "Các tính năng được xây dựng có mục đích dành cho các nhà cung cấp dịch vụ chăm sóc sức khỏe để cung cấp dịch vụ chăm sóc bệnh nhân đặc biệt.",
+        "features": {
+          "hipaa": {
+            "title": "Tuân thủ HIPAA",
+            "description": "Tuân thủ HIPAA đầy đủ với giao tiếp được mã hóa và xử lý dữ liệu an toàn",
+            "benefits": {
+              "encryption": "Mã hóa đầu cuối",
+              "audit": "Nhật ký kiểm toán",
+              "access": "Kiểm soát truy cập",
+              "anonymization": "Ẩn danh dữ liệu"
+            }
+          },
+          "appointments": {
+            "title": "Quản lý cuộc hẹn",
+            "description": "Hệ thống lên lịch, lên lịch lại và nhắc nhở cuộc hẹn liền mạch",
+            "benefits": {
+              "availability": "Khả dụng thời gian thực",
+              "reminders": "Nhắc nhở tự động",
+              "cancellation": "Xử lý hủy bỏ",
+              "waitlist": "Quản lý danh sách chờ"
+            }
+          },
+          "telehealth": {
+            "title": "Hỗ trợ Telehealth",
+            "description": "Khả năng telehealth tích hợp để tư vấn bệnh nhân từ xa",
+            "benefits": {
+              "video": "Tư vấn video",
+              "messaging": "Nhắn tin an toàn",
+              "documents": "Chia sẻ tài liệu",
+              "followup": "Chăm sóc theo dõi"
+            }
+          },
+          "engagement": {
+            "title": "Tương tác với bệnh nhân",
+            "description": "Cải thiện sự hài lòng của bệnh nhân với hỗ trợ 24/7 và chăm sóc cá nhân hóa",
+            "benefits": {
+              "availability": "Khả dụng 24/7",
+              "multilanguage": "Hỗ trợ đa ngôn ngữ",
+              "coordination": "Phối hợp chăm sóc",
+              "education": "Giáo dục sức khỏe"
+            }
+          }
+        },
+        "metricsTitle": "Các chỉ số tác động đến chăm sóc sức khỏe",
+        "metricsSubtitle": "Kết quả thực tế từ các nhà cung cấp dịch vụ chăm sóc sức khỏe sử dụng SeaChat để hỗ trợ bệnh nhân.",
+        "metrics": {
+          "noshows": {
+            "label": "Giảm số lần không đến",
+            "description": "Với nhắc nhở cuộc hẹn tự động",
+            "value": "40%"
+          },
+          "response": {
+            "label": "Thời gian phản hồi nhanh hơn",
+            "description": "Đối với các yêu cầu và mối quan tâm của bệnh nhân",
+            "value": "60%"
+          },
+          "satisfaction": {
+            "label": "Sự hài lòng của bệnh nhân",
+            "description": "Với hỗ trợ 24/7",
+            "value": "85%"
+          },
+          "efficiency": {
+            "label": "Hiệu quả hành chính",
+            "description": "Thông qua các quy trình làm việc tự động",
+            "value": "50%"
+          }
+        },
+        "useCasesTitle": "Các trường hợp sử dụng chăm sóc sức khỏe phổ biến",
+        "useCasesSubtitle": "Xem cách SeaChat xử lý các tương tác bệnh nhân và các tác vụ hành chính điển hình.",
+        "useCases": {
+          "appointments": {
+            "title": "Lên lịch cuộc hẹn",
+            "description": "Bệnh nhân có thể đặt, lên lịch lại hoặc hủy cuộc hẹn thông qua trò chuyện",
+            "example": "Tôi cần lên lịch lại cuộc hẹn vào thứ Ba tuần tới",
+            "outcome": "Lên lịch tự động với tích hợp lịch và xác nhận"
+          },
+          "prescriptions": {
+            "title": "Yêu cầu thuốc",
+            "description": "Xử lý việc nạp lại thuốc và các câu hỏi về thuốc một cách an toàn",
+            "example": "Khi nào đơn thuốc của tôi sẽ sẵn sàng để lấy?",
+            "outcome": "Tích hợp nhà thuốc thời gian thực và cập nhật trạng thái"
+          },
+          "insurance": {
+            "title": "Xác minh bảo hiểm",
+            "description": "Xác minh bảo hiểm và giải thích quyền lợi cho bệnh nhân",
+            "example": "Thủ tục của tôi có được bảo hiểm chi trả không?",
+            "outcome": "Xác minh bảo hiểm tức thì và giải thích quyền lợi"
+          },
+          "symptoms": {
+            "title": "Sàng lọc triệu chứng trước",
+            "description": "Đánh giá triệu chứng do AI hỗ trợ và đề xuất phân loại",
+            "example": "Tôi bị sốt và ho, tôi có nên đến không?",
+            "outcome": "Đánh giá triệu chứng với các đề xuất chăm sóc phù hợp"
+          }
+        },
+        "patientRequest": "Yêu cầu của bệnh nhân",
+        "seachatResponse": "Phản hồi của SeaChat",
+        "hipaaTitle": "Tuân thủ & Bảo mật HIPAA",
+        "hipaaSubtitle": "Được xây dựng từ đầu với bảo mật và tuân thủ chăm sóc sức khỏe. Bảo vệ dữ liệu bệnh nhân trong khi cung cấp trải nghiệm chăm sóc đặc biệt.",
+        "compliance": {
+          "complianceFeatures": [
+            "Mã hóa đầu cuối",
+            "Nhật ký kiểm toán",
+            "Kiểm soát truy cập",
+            "Ẩn danh dữ liệu",
+            "Lưu trữ dữ liệu an toàn",
+            "Kiểm toán bảo mật thường xuyên",
+            "Đào tạo và chứng nhận nhân viên",
+            "Quy trình phản ứng sự cố"
+          ]
+        },
+        "certificationsTitle": "Chứng nhận bảo mật",
+        "certifications": {
+          "hipaa": "Tuân thủ HIPAA",
+          "soc2": "SOC 2 Loại II",
+          "iso": "ISO 27001",
+          "gdpr": "Sẵn sàng GDPR"
+        },
+        "certified": "Được chứng nhận",
+        "compliant": "Tuân thủ",
+        "ctaTitle": "Sẵn sàng chuyển đổi dịch vụ chăm sóc bệnh nhân?",
+        "ctaSubtitle": "Tham gia cùng các nhà cung cấp dịch vụ chăm sóc sức khỏe đã sử dụng SeaChat để cung cấp trải nghiệm bệnh nhân đặc biệt trong khi vẫn duy trì các tiêu chuẩn bảo mật và tuân thủ cao nhất.",
+        "ctaTrialButton": "Bắt đầu chăm sóc sức khỏe miễn phí",
+        "ctaDemoButton": "Lên lịch demo chăm sóc sức khỏe"
+      },
+      "fintech": {
+        "securityFeatures": [
+          "Mã hóa đầu cuối cho tất cả các giao tiếp",
+          "Xác thực đa yếu tố và xác minh danh tính",
+          "Kiểm toán bảo mật thường xuyên và kiểm tra thâm nhập",
+          "Cơ sở hạ tầng được chứng nhận ISO 27001",
+          "Giám sát và phát hiện gian lận thời gian thực",
+          "Các điểm cuối API an toàn với giới hạn tốc độ"
+        ],
+        "title": "Giải pháp Fintech",
+        "subtitle": "Hỗ trợ khách hàng an toàn, tuân thủ cho các dịch vụ tài chính. Xử lý giao dịch, cung cấp hướng dẫn đầu tư và đảm bảo tuân thủ quy định một cách tự tin.",
+        "trialButton": "Bắt đầu Fintech miễn phí",
+        "demoButton": "Lên lịch demo tài chính",
+        "featuresTitle": "Tính năng dịch vụ tài chính",
+        "featuresSubtitle": "Các tính năng được xây dựng có mục đích dành cho các tổ chức tài chính để cung cấp hỗ trợ khách hàng an toàn, tuân thủ.",
+        "features": {
+          "security": {
+            "title": "Bảo mật tài chính",
+            "description": "Bảo mật cấp ngân hàng với tuân thủ PCI DSS và bảo vệ gian lận",
+            "benefits": {
+              "pci": "Tuân thủ PCI DSS",
+              "fraud": "Phát hiện gian lận",
+              "transactions": "Giao dịch an toàn",
+              "identity": "Xác minh danh tính"
+            }
+          },
+          "payment": {
+            "title": "Hỗ trợ thanh toán",
+            "description": "Hỗ trợ xử lý thanh toán toàn diện và giải quyết tranh chấp",
+            "benefits": {
+              "tracking": "Theo dõi giao dịch",
+              "dispute": "Xử lý tranh chấp",
+              "refund": "Xử lý hoàn tiền",
+              "methods": "Phương thức thanh toán"
+            }
+          },
+          "investment": {
+            "title": "Hướng dẫn đầu tư",
+            "description": "Tư vấn đầu tư do AI hỗ trợ và hỗ trợ quản lý danh mục đầu tư",
+            "benefits": {
+              "insights": "Thông tin chi tiết thị trường",
+              "portfolio": "Phân tích danh mục đầu tư",
+              "risk": "Đánh giá rủi ro",
+              "recommendations": "Đề xuất đầu tư"
+            }
+          },
+          "compliance": {
+            "title": "Tuân thủ quy định",
+            "description": "Tuân thủ quy định tài chính và yêu cầu báo cáo tích hợp",
+            "benefits": {
+              "kyc": "Tuân thủ KYC/AML",
+              "reporting": "Báo cáo quy định",
+              "audit": "Nhật ký kiểm toán",
+              "protection": "Bảo vệ dữ liệu"
+            }
+          }
+        },
+        "impactTitle": "Tác động của dịch vụ tài chính",
+        "impactSubtitle": "Kết quả thực tế từ các tổ chức tài chính sử dụng SeaChat để hỗ trợ khách hàng.",
+        "metrics": {
+          "accuracy": {
+            "label": "Độ chính xác giao dịch",
+            "description": "Với xử lý và xác minh tự động"
+          },
+          "resolution": {
+            "label": "Giải quyết nhanh hơn",
+            "description": "Đối với các yêu cầu và tranh chấp tài chính"
+          },
+          "fraud": {
+            "label": "Tỷ lệ phát hiện gian lận",
+            "description": "Với hệ thống giám sát do AI hỗ trợ"
+          },
+          "satisfaction": {
+            "label": "Sự hài lòng của khách hàng",
+            "description": "Đối với các tương tác hỗ trợ tài chính"
+          }
+        },
+        "useCasesTitle": "Các trường hợp sử dụng hỗ trợ tài chính",
+        "useCasesSubtitle": "Xem cách SeaChat xử lý các yêu cầu và giao dịch tài chính phức tạp.",
+        "useCases": {
+          "account": {
+            "title": "Quản lý tài khoản",
+            "description": "Giúp khách hàng thiết lập, xác minh và quản lý tài khoản",
+            "example": "Tôi cần giúp đỡ thiết lập tài khoản doanh nghiệp của mình",
+            "outcome": "Thiết lập tài khoản có hướng dẫn với xác minh tài liệu và kiểm tra tuân thủ"
+          },
+          "transaction": {
+            "title": "Yêu cầu giao dịch",
+            "description": "Cung cấp trạng thái giao dịch và thông tin lịch sử thời gian thực",
+            "example": "Chuyển khoản của tôi đến Công ty ABC ở đâu?",
+            "outcome": "Theo dõi giao dịch thời gian thực với cập nhật trạng thái chi tiết"
+          },
+          "fraud": {
+            "title": "Phòng chống gian lận",
+            "description": "Phát hiện và ngăn chặn các hoạt động gian lận với giám sát AI",
+            "example": "Tôi thấy một khoản phí đáng ngờ trên tài khoản của mình",
+            "outcome": "Điều tra gian lận tức thì và các biện pháp bảo vệ tài khoản"
+          },
+          "investment": {
+            "title": "Hỗ trợ đầu tư",
+            "description": "Cung cấp hướng dẫn đầu tư và hỗ trợ quản lý danh mục đầu tư",
+            "example": "Tôi có nên đầu tư vào cổ phiếu công nghệ ngay bây giờ không?",
+            "outcome": "Tư vấn đầu tư cá nhân hóa dựa trên hồ sơ rủi ro và phân tích thị trường"
+          }
+        },
+        "customerInquiry": "Yêu cầu của khách hàng",
+        "seachatResponse": "Phản hồi của SeaChat",
+        "securityTitle": "Bảo mật & Tuân thủ cấp ngân hàng",
+        "securitySubtitle": "Được xây dựng với các tiêu chuẩn bảo mật cao nhất và các yêu cầu tuân thủ quy định cho các tổ chức dịch vụ tài chính.",
+        "regulatoryTitle": "Tuân thủ quy định",
+        "regulations": {
+          "pci": {
+            "name": "PCI DSS",
+            "description": "Tiêu chuẩn bảo mật dữ liệu ngành thẻ thanh toán",
+            "status": "Tuân thủ"
+          },
+          "sox": {
+            "name": "SOX",
+            "description": "Tuân thủ Đạo luật Sarbanes-Oxley",
+            "status": "Tuân thủ"
+          },
+          "gdpr": {
+            "name": "GDPR",
+            "description": "Quy định chung về bảo vệ dữ liệu",
+            "status": "Tuân thủ"
+          },
+          "kyc": {
+            "name": "KYC/AML",
+            "description": "Biết khách hàng của bạn / Chống rửa tiền",
+            "status": "Được hỗ trợ"
+          },
+          "ccpa": {
+            "name": "CCPA",
+            "description": "Đạo luật quyền riêng tư của người tiêu dùng California",
+            "status": "Tuân thủ"
+          },
+          "finra": {
+            "name": "FINRA",
+            "description": "Cơ quan quản lý ngành tài chính",
+            "status": "Được hỗ trợ"
+          }
+        },
+        "ctaTitle": "Sẵn sàng bảo mật dịch vụ tài chính của bạn?",
+        "ctaSubtitle": "Tham gia cùng các tổ chức tài chính đã sử dụng SeaChat để cung cấp hỗ trợ khách hàng an toàn, tuân thủ giúp xây dựng lòng tin và thúc đẩy tăng trưởng.",
+        "ctaTrialButton": "Bắt đầu Fintech miễn phí",
+        "ctaDemoButton": "Lên lịch demo tài chính"
+      },
+      "ecommerce": {
+        "title": "Thương mại điện tử & Bán lẻ",
+        "subtitle": "Chuyển đổi cửa hàng trực tuyến của bạn với hỗ trợ khách hàng thông minh giúp thúc đẩy doanh số, giảm bỏ giỏ hàng và tạo ra khách hàng trung thành.",
+        "trialButton": "Bắt đầu thương mại điện tử miễn phí",
+        "demoButton": "Lên lịch demo thương mại điện tử",
+        "featuresTitle": "Tính năng chuyên biệt cho thương mại điện tử",
+        "featuresSubtitle": "Các tính năng được xây dựng có mục đích dành cho các nhà bán lẻ trực tuyến để tối đa hóa doanh số và sự hài lòng của khách hàng.",
+        "features": {
+          "orders": {
+            "title": "Tích hợp quản lý đơn hàng",
+            "description": "Tích hợp liền mạch với nền tảng thương mại điện tử của bạn để theo dõi đơn hàng và cập nhật thời gian thực.",
+            "benefits": {
+              "status": "Trạng thái đơn hàng thời gian thực",
+              "shipping": "Cập nhật vận chuyển tự động",
+              "returns": "Xử lý trả hàng",
+              "inventory": "Yêu cầu hàng tồn kho"
+            }
+          },
+          "accounts": {
+            "title": "Hỗ trợ tài khoản khách hàng",
+            "description": "Giúp khách hàng với các vấn đề tài khoản, đặt lại mật khẩu và quản lý hồ sơ.",
+            "benefits": {
+              "recovery": "Khôi phục tài khoản",
+              "updates": "Cập nhật hồ sơ",
+              "subscriptions": "Quản lý đăng ký",
+              "billing": "Hỗ trợ thanh toán"
+            }
+          },
+          "recommendations": {
+            "title": "Đề xuất sản phẩm",
+            "description": "Đề xuất sản phẩm do AI hỗ trợ dựa trên sở thích và lịch sử duyệt web của khách hàng.",
+            "benefits": {
+              "personalized": "Đề xuất cá nhân hóa",
+              "cross": "Cơ hội bán chéo",
+              "upselling": "Tự động hóa bán thêm",
+              "inventory": "Tối ưu hóa hàng tồn kho"
+            }
+          },
+          "assistance": {
+            "title": "Hỗ trợ mua sắm 24/7",
+            "description": "Hỗ trợ suốt ngày đêm cho khách hàng trên các múi giờ và mẫu mua sắm khác nhau.",
+            "benefits": {
+              "global": "Phạm vi toàn cầu",
+              "peak": "Hỗ trợ giờ cao điểm",
+              "holiday": "Hỗ trợ ngày lễ",
+              "mobile": "Trợ giúp mua sắm trên thiết bị di động"
+            }
+          }
+        },
+        "resultsTitle": "Kết quả thương mại điện tử đã được chứng minh",
+        "resultsSubtitle": "Các chỉ số thực tế từ các doanh nghiệp thương mại điện tử sử dụng SeaChat để hỗ trợ khách hàng.",
+        "metrics": {
+          "conversion": {
+            "label": "Tăng chuyển đổi bán hàng",
+            "description": "Thông qua hỗ trợ khách hàng chủ động"
+          },
+          "abandonment": {
+            "label": "Giảm bỏ giỏ hàng",
+            "description": "Với hỗ trợ mua sắm thời gian thực"
+          },
+          "resolution": {
+            "label": "Giải quyết đơn hàng nhanh hơn",
+            "description": "Cập nhật trạng thái đơn hàng tự động"
+          },
+          "satisfaction": {
+            "label": "Tỷ lệ hài lòng của khách hàng",
+            "description": "Đối với các tương tác hỗ trợ thương mại điện tử"
+          }
+        },
+        "integrationsTitle": "Tích hợp nền tảng thương mại điện tử",
+        "integrationsSubtitle": "Kết nối liền mạch với hệ thống thương mại điện tử hiện có của bạn để hỗ trợ khách hàng hợp nhất.",
+        "integrations": {
+          "shopify": {
+            "name": "Shopify",
+            "description": "Ứng dụng Shopify gốc với tích hợp đơn hàng đầy đủ"
+          },
+          "woocommerce": {
+            "name": "WooCommerce",
+            "description": "Plugin WordPress cho các cửa hàng WooCommerce"
+          },
+          "magento": {
+            "name": "Magento",
+            "description": "Tích hợp Magento cấp doanh nghiệp"
+          },
+          "bigcommerce": {
+            "name": "BigCommerce",
+            "description": "Tích hợp API BigCommerce hoàn chỉnh"
+          },
+          "stripe": {
+            "name": "Stripe",
+            "description": "Xử lý thanh toán và hỗ trợ thanh toán"
+          },
+          "paypal": {
+            "name": "PayPal",
+            "description": "Xử lý giao dịch và tranh chấp PayPal"
+          }
+        },
+        "successTitle": "Câu chuyện thành công: Nhà bán lẻ thời trang",
+        "challenge": "Thử thách",
+        "challengeDescription": "Tỷ lệ bỏ giỏ hàng cao và khách hàng rời đi do các câu hỏi về kích thước và mối quan tâm về tình trạng sản phẩm.",
+        "solution": "Giải pháp",
+        "solutionDescription": "Triển khai SeaChat với tích hợp danh mục sản phẩm, hướng dẫn kích thước và khôi phục giỏ hàng bị bỏ quên chủ động.",
+        "results": "Kết quả",
+        "result1": "Tăng 45% tỷ lệ chuyển đổi",
+        "result2": "Giảm 60% bỏ giỏ hàng",
+        "result3": "2,3 triệu đô la doanh thu bổ sung trong 6 tháng",
+        "chatPreview": "Xem trước trò chuyện trực tiếp",
+        "customer": "Khách hàng",
+        "customerQuestion": "Chiếc váy này có size M không?",
+        "seachatAI": "SeaChat AI",
+        "aiResponse1": "Có! Chiếc váy mùa hè màu xanh có size M. Chúng tôi có 3 chiếc trong kho. Bạn có muốn tôi thêm nó vào giỏ hàng của bạn không?",
+        "customerResponse": "Tuyệt vời! Vâng, vui lòng thêm vào.",
+        "aiResponse2": "Đã thêm vào giỏ hàng! 🛍️ Bạn đủ điều kiện nhận miễn phí vận chuyển. Sẵn sàng thanh toán chưa?",
+        "ctaTitle": "Sẵn sàng thúc đẩy doanh số thương mại điện tử của bạn?",
+        "ctaSubtitle": "Tham gia cùng hàng trăm nhà bán lẻ trực tuyến sử dụng SeaChat để tăng chuyển đổi, giảm bỏ giỏ hàng và tạo ra trải nghiệm mua sắm đặc biệt.",
+        "ctaTrialButton": "Bắt đầu thương mại điện tử miễn phí",
+        "ctaDemoButton": "Lên lịch demo thương mại điện tử"
+      },
+      "education": {
+        "title": "Giải pháp giáo dục",
+        "subtitle": "Chuyển đổi hỗ trợ giáo dục với hỗ trợ do AI hỗ trợ cho học sinh, phụ huynh, giảng viên và nhân viên. Hợp lý hóa hoạt động và nâng cao trải nghiệm học tập.",
+        "trialButton": "Bắt đầu giáo dục miễn phí",
+        "demoButton": "Lên lịch demo giáo dục",
+        "featuresTitle": "Tính năng dành riêng cho giáo dục",
+        "featuresSubtitle": "Các tính năng được xây dựng có mục đích dành cho các tổ chức giáo dục để nâng cao thành công của học sinh và hiệu quả hoạt động.",
+        "features": {
+          "student": {
+            "title": "Dịch vụ hỗ trợ học sinh",
+            "description": "Hỗ trợ toàn diện cho các yêu cầu của học sinh, đăng ký và hỗ trợ học tập",
+            "benefits": {
+              "support": "Hỗ trợ học sinh 24/7",
+              "enrollment": "Hỗ trợ đăng ký",
+              "academic": "Hướng dẫn học tập",
+              "technical": "Trợ giúp kỹ thuật"
+            }
+          },
+          "admin": {
+            "title": "Tự động hóa hành chính",
+            "description": "Hợp lý hóa các tác vụ hành chính với lên lịch và thông báo tự động",
+            "benefits": {
+              "scheduling": "Lên lịch lớp học",
+              "events": "Quản lý sự kiện",
+              "deadlines": "Nhắc nhở thời hạn",
+              "registration": "Hỗ trợ đăng ký"
+            }
+          },
+          "stakeholder": {
+            "title": "Hỗ trợ đa bên liên quan",
+            "description": "Hỗ trợ học sinh, phụ huynh, giảng viên và nhân viên với trải nghiệm tùy chỉnh",
+            "benefits": {
+              "portals": "Cổng thông tin học sinh",
+              "parent": "Giao tiếp với phụ huynh",
+              "faculty": "Hỗ trợ giảng viên",
+              "staff": "Phối hợp nhân viên"
+            }
+          },
+          "lms": {
+            "title": "Tích hợp quản lý học tập",
+            "description": "Tích hợp liền mạch với các nền tảng LMS và công cụ giáo dục",
+            "benefits": {
+              "connectivity": "Kết nối LMS",
+              "grades": "Yêu cầu điểm",
+              "assignments": "Trợ giúp bài tập",
+              "courses": "Thông tin khóa học"
+            }
+          }
+        },
+        "stakeholdersTitle": "Hỗ trợ cho tất cả các bên liên quan",
+        "stakeholdersSubtitle": "Trải nghiệm tùy chỉnh cho mọi thành viên trong cộng đồng giáo dục của bạn.",
+        "stakeholders": {
+          "students": {
+            "title": "Học sinh",
+            "description": "Hỗ trợ học tập, trợ giúp đăng ký và dịch vụ trong khuôn viên trường",
+            "features": {
+              "courses": "Thông tin khóa học",
+              "assignments": "Thời hạn bài tập",
+              "grades": "Yêu cầu điểm",
+              "campus": "Điều hướng trong khuôn viên trường"
+            }
+          },
+          "parents": {
+            "title": "Phụ huynh",
+            "description": "Luôn được thông báo về tiến độ học tập của học sinh và cập nhật của tổ chức",
+            "features": {
+              "progress": "Cập nhật tiến độ",
+              "payment": "Thông tin thanh toán",
+              "events": "Thông báo sự kiện",
+              "communication": "Giao tiếp với giảng viên"
+            }
+          },
+          "faculty": {
+            "title": "Giảng viên",
+            "description": "Hỗ trợ hành chính và trợ giúp giảng dạy",
+            "features": {
+              "management": "Quản lý lớp học",
+              "inquiries": "Yêu cầu của học sinh",
+              "resources": "Yêu cầu tài nguyên",
+              "technical": "Hỗ trợ kỹ thuật"
+            }
+          },
+          "staff": {
+            "title": "Nhân viên",
+            "description": "Hiệu quả hoạt động và tự động hóa hành chính",
+            "features": {
+              "automation": "Tự động hóa quy trình",
+              "information": "Truy cập thông tin",
+              "workflow": "Quản lý quy trình làm việc",
+              "reporting": "Công cụ báo cáo"
+            }
+          }
+        },
+        "metricsTitle": "Các chỉ số tác động giáo dục",
+        "metricsSubtitle": "Kết quả thực tế từ các tổ chức giáo dục sử dụng SeaChat để hỗ trợ học sinh và hành chính.",
+        "metrics": {
+          "admin": {
+            "label": "Giảm khối lượng công việc hành chính",
+            "description": "Thông qua các yêu cầu của học sinh tự động"
+          },
+          "satisfaction": {
+            "label": "Sự hài lòng của học sinh",
+            "description": "Với hỗ trợ 24/7"
+          },
+          "response": {
+            "label": "Thời gian phản hồi nhanh hơn",
+            "description": "Đối với các yêu cầu của học sinh và phụ huynh"
+          },
+          "enrollment": {
+            "label": "Tăng số lượng đăng ký",
+            "description": "Với quy trình đăng ký hợp lý"
+          }
+        },
+        "useCasesTitle": "Các trường hợp sử dụng giáo dục phổ biến",
+        "useCasesSubtitle": "Xem cách SeaChat xử lý các tương tác học sinh và hành chính điển hình.",
+        "useCases": {
+          "enrollment": {
+            "title": "Đăng ký học sinh",
+            "description": "Hướng dẫn học sinh tiềm năng qua quy trình đăng ký",
+            "example": "Tôi muốn đăng ký chương trình Khoa học máy tính",
+            "outcome": "Hướng dẫn đăng ký từng bước với các yêu cầu tài liệu và thời hạn"
+          },
+          "academic": {
+            "title": "Hỗ trợ học tập",
+            "description": "Cung cấp hỗ trợ học tập và thông tin khóa học",
+            "example": "Khi nào là thời hạn nộp bài tập Lịch sử của tôi?",
+            "outcome": "Truy cập thời hạn bài tập và hướng dẫn nộp bài thời gian thực"
+          },
+          "campus": {
+            "title": "Dịch vụ trong khuôn viên trường",
+            "description": "Giúp đỡ với các cơ sở vật chất trong khuôn viên trường, ăn uống, nhà ở và giao thông",
+            "example": "Làm cách nào để đặt phòng học trong thư viện?",
+            "outcome": "Tích hợp hệ thống đặt chỗ trực tiếp với tình trạng sẵn có và xác nhận"
+          },
+          "financial": {
+            "title": "Hỗ trợ tài chính",
+            "description": "Hỗ trợ với các đơn xin hỗ trợ tài chính và thông tin học bổng",
+            "example": "Tôi đủ điều kiện nhận học bổng nào?",
+            "outcome": "Đề xuất học bổng cá nhân hóa dựa trên hồ sơ học sinh"
+          }
+        },
+        "studentInquiry": "Yêu cầu của học sinh",
+        "seachatResponse": "Phản hồi của SeaChat",
+        "integrationsTitle": "Tích hợp nền tảng giáo dục",
+        "integrationsSubtitle": "Kết nối liền mạch với các công cụ và nền tảng giáo dục phổ biến.",
+        "integrations": {
+          "canvas": {
+            "name": "Canvas LMS",
+            "description": "Tích hợp hệ thống quản lý học tập"
+          },
+          "blackboard": {
+            "name": "Blackboard",
+            "description": "Quản lý khóa học và phân phối nội dung"
+          },
+          "moodle": {
+            "name": "Moodle",
+            "description": "Nền tảng học tập mã nguồn mở"
+          },
+          "google": {
+            "name": "Google Classroom",
+            "description": "Nền tảng cộng tác giáo dục"
+          },
+          "zoom": {
+            "name": "Zoom",
+            "description": "Hội nghị truyền hình cho các lớp học ảo"
+          },
+          "teams": {
+            "name": "Microsoft Teams",
+            "description": "Cộng tác và giao tiếp giáo dục"
+          },
+          "sis": {
+            "name": "Hệ thống thông tin học sinh",
+            "description": "Tích hợp SIS cho hồ sơ học sinh"
+          },
+          "library": {
+            "name": "Hệ thống thư viện",
+            "description": "Đặt tài nguyên và tìm kiếm danh mục"
+          }
+        },
+        "ctaTitle": "Sẵn sàng chuyển đổi hỗ trợ giáo dục?",
+        "ctaSubtitle": "Tham gia cùng các tổ chức giáo dục đã sử dụng SeaChat để nâng cao thành công của học sinh và hợp lý hóa hoạt động hành chính.",
+        "ctaTrialButton": "Bắt đầu giáo dục miễn phí",
+        "ctaDemoButton": "Lên lịch demo giáo dục"
+      },
+      "realEstate": {
+        "title": "Giải pháp bất động sản",
+        "subtitle": "Chuyển đổi doanh nghiệp bất động sản của bạn với hỗ trợ khách hàng do AI hỗ trợ giúp thu hút khách hàng tiềm năng, phối hợp các buổi xem nhà và cung cấp hỗ trợ khách hàng 24/7.",
+        "trialButton": "Bắt đầu bất động sản miễn phí",
+        "demoButton": "Lên lịch demo bất động sản",
+        "featuresTitle": "Tính năng chuyên biệt cho bất động sản",
+        "featuresSubtitle": "Các tính năng được xây dựng có mục đích dành cho các chuyên gia bất động sản để thu hút khách hàng tiềm năng và phục vụ khách hàng tốt hơn.",
+        "features": {
+          "search": {
+            "title": "Hỗ trợ tìm kiếm tài sản",
+            "description": "Giúp khách hàng tìm thấy tài sản hoàn hảo của họ với tìm kiếm và đề xuất do AI hỗ trợ",
+            "benefits": {
+              "matching": "Đối sánh tài sản thông minh",
+              "insights": "Thông tin chi tiết thị trường",
+              "neighborhood": "Thông tin khu vực lân cận",
+              "analysis": "Phân tích giá"
+            }
+          },
+          "showing": {
+            "title": "Phối hợp xem nhà",
+            "description": "Hợp lý hóa các buổi xem nhà với lên lịch và phối hợp tự động",
+            "benefits": {
+              "scheduling": "Lên lịch tự động",
+              "availability": "Đồng bộ hóa khả dụng",
+              "reminders": "Thông báo nhắc nhở",
+              "route": "Tối ưu hóa tuyến đường"
+            }
+          },
+          "leads": {
+            "title": "Quản lý khách hàng tiềm năng",
+            "description": "Thu hút và nuôi dưỡng khách hàng tiềm năng với sàng lọc và theo dõi thông minh",
+            "benefits": {
+              "qualification": "Sàng lọc khách hàng tiềm năng",
+              "followup": "Theo dõi tự động",
+              "crm": "Tích hợp CRM",
+              "tracking": "Theo dõi chuyển đổi"
+            }
+          },
+          "communication": {
+            "title": "Giao tiếp với khách hàng",
+            "description": "Hỗ trợ khách hàng 24/7 cho các yêu cầu, cập nhật và hỗ trợ giao dịch",
+            "benefits": {
+              "availability": "Khả dụng 24/7",
+              "updates": "Cập nhật giao dịch",
+              "assistance": "Hỗ trợ tài liệu",
+              "market": "Cập nhật thị trường"
+            }
+          }
+        },
+        "metricsTitle": "Các chỉ số tác động đến bất động sản",
+        "metricsSubtitle": "Kết quả thực tế từ các chuyên gia bất động sản sử dụng SeaChat để hỗ trợ khách hàng và tạo khách hàng tiềm năng.",
+        "metrics": {
+          "leads": {
+            "label": "Nhiều khách hàng tiềm năng đủ điều kiện hơn",
+            "description": "Thông qua sàng lọc khách hàng tiềm năng thông minh"
+          },
+          "response": {
+            "label": "Thời gian phản hồi nhanh hơn",
+            "description": "Đối với các yêu cầu và yêu cầu của khách hàng"
+          },
+          "showing": {
+            "label": "Hiệu quả xem nhà",
+            "description": "Với phối hợp lên lịch tự động"
+          },
+          "satisfaction": {
+            "label": "Sự hài lòng của khách hàng",
+            "description": "Với hỗ trợ 24/7"
+          }
+        },
+        "propertyTypesTitle": "Tất cả các loại tài sản được hỗ trợ",
+        "propertyTypesSubtitle": "Cho dù bạn chuyên về bất động sản dân cư, thương mại hay đầu tư, chúng tôi đều có thể hỗ trợ bạn.",
+        "propertyTypes": {
+          "residential": {
+            "name": "Bán nhà ở",
+            "description": "Nhà ở một gia đình, căn hộ và nhà phố"
+          },
+          "commercial": {
+            "name": "Bất động sản thương mại",
+            "description": "Tòa nhà văn phòng, không gian bán lẻ và nhà kho"
+          },
+          "rental": {
+            "name": "Tài sản cho thuê",
+            "description": "Khu căn hộ và quản lý cho thuê"
+          },
+          "luxury": {
+            "name": "Tài sản cao cấp",
+            "description": "Nhà ở cao cấp và danh sách độc quyền"
+          },
+          "investment": {
+            "name": "Tài sản đầu tư",
+            "description": "Đầu tư sửa chữa và bán lại và cho thuê"
+          },
+          "new": {
+            "name": "Xây dựng mới",
+            "description": "Hợp tác với nhà xây dựng và các dự án phát triển mới"
+          }
+        },
+        "useCasesTitle": "Các trường hợp sử dụng bất động sản",
+        "useCasesSubtitle": "Xem cách SeaChat xử lý các tương tác khách hàng bất động sản điển hình và tạo khách hàng tiềm năng.",
+        "useCases": {
+          "property": {
+            "title": "Yêu cầu tài sản",
+            "description": "Xử lý các câu hỏi về tài sản và cung cấp thông tin chi tiết",
+            "example": "Hãy cho tôi biết về ngôi nhà 3 phòng ngủ trên phố Oak",
+            "outcome": "Thông tin tài sản chi tiết với hình ảnh, giá cả và dữ liệu khu vực lân cận"
+          },
+          "showing": {
+            "title": "Yêu cầu xem nhà",
+            "description": "Lên lịch xem nhà và phối hợp với tất cả các bên",
+            "example": "Tôi muốn lên lịch xem nhà vào cuối tuần này",
+            "outcome": "Lên lịch tự động với tình trạng sẵn có của nhân viên và xác nhận"
+          },
+          "market": {
+            "title": "Phân tích thị trường",
+            "description": "Cung cấp thông tin chi tiết thị trường và định giá tài sản",
+            "example": "Giá trị ngôi nhà của tôi trên thị trường hiện nay là bao nhiêu?",
+            "outcome": "Phân tích thị trường so sánh với doanh số và xu hướng gần đây"
+          },
+          "transaction": {
+            "title": "Hỗ trợ giao dịch",
+            "description": "Hướng dẫn khách hàng qua quy trình mua hoặc bán",
+            "example": "Tôi cần những tài liệu nào để hoàn tất giao dịch?",
+            "outcome": "Danh sách kiểm tra các tài liệu cần thiết với thời hạn và hướng dẫn"
+          }
+        },
+        "clientInquiry": "Yêu cầu của khách hàng",
+        "seachatResponse": "Phản hồi của SeaChat",
+        "integrationsTitle": "Tích hợp nền tảng bất động sản",
+        "integrationsSubtitle": "Kết nối liền mạch với các công cụ và nền tảng bạn đã sử dụng để quản lý doanh nghiệp bất động sản của mình.",
+        "leadCaptureTitle": "Ví dụ thu hút khách hàng tiềm năng",
+        "websiteVisitor": "Khách truy cập trang web",
+        "visitorQuery": "Tôi đang tìm một ngôi nhà 3 phòng ngủ dưới 500 nghìn đô la",
+        "seachatAI": "SeaChat AI",
+        "aiResponse": "Tôi rất vui được giúp bạn tìm được ngôi nhà hoàn hảo! Tôi có một số tài sản 3 phòng ngủ dưới 500 nghìn đô la. Tôi có thể lấy thông tin liên hệ của bạn để gửi cho bạn một số lựa chọn không?",
+        "visitorResponse": "Chắc chắn rồi! Email của tôi là john@email.com",
+        "systemAction": "Hành động hệ thống",
+        "leadCaptured": "Khách hàng tiềm năng đã được thu hút và thêm vào CRM với các tùy chọn tài sản",
+        "ctaTitle": "Sẵn sàng chuyển đổi doanh nghiệp bất động sản của bạn?",
+        "ctaSubtitle": "Tham gia cùng các chuyên gia bất động sản đã sử dụng SeaChat để thu hút nhiều khách hàng tiềm năng hơn, phối hợp các buổi xem nhà và cung cấp dịch vụ khách hàng đặc biệt.",
+        "ctaTrialButton": "Bắt đầu bất động sản miễn phí",
+        "ctaDemoButton": "Lên lịch demo bất động sản",
+        "integrations": {
+          "0": "Tích hợp MLS",
+          "1": "Hệ thống CRM",
+          "2": "Quản lý tài sản",
+          "3": "Công cụ tạo khách hàng tiềm năng",
+          "4": "Lịch & Lên lịch",
+          "5": "Tiếp thị qua email",
+          "6": "Quản lý tài liệu",
+          "7": "Nền tảng tham quan ảo"
+        }
+      },
+      "saas": {
+        "title": "SaaS & Công nghệ",
+        "subtitle": "Đẩy nhanh việc chấp nhận người dùng và giảm tỷ lệ rời bỏ với hỗ trợ khách hàng thông minh cung cấp hỗ trợ kỹ thuật, hướng dẫn giới thiệu và quản lý thành công chủ động.",
+        "trialButton": "Bắt đầu SaaS miễn phí",
+        "demoButton": "Lên lịch demo SaaS",
+        "featuresTitle": "Tính năng dành riêng cho SaaS",
+        "featuresSubtitle": "Các tính năng được xây dựng có mục đích dành cho các công ty SaaS để thúc đẩy thành công của người dùng và tăng trưởng kinh doanh.",
+        "features": {
+          "technical": {
+            "title": "Hỗ trợ kỹ thuật",
+            "description": "Cung cấp hỗ trợ kỹ thuật chuyên nghiệp cho các vấn đề phần mềm và tích hợp",
+            "benefits": {
+              "api": "Trợ giúp tài liệu API",
+              "integration": "Hỗ trợ tích hợp",
+              "troubleshooting": "Hướng dẫn khắc phục sự cố",
+              "resources": "Tài nguyên dành cho nhà phát triển"
+            }
+          },
+          "onboarding": {
+            "title": "Giới thiệu người dùng",
+            "description": "Hợp lý hóa việc giới thiệu người dùng với thiết lập có hướng dẫn và giới thiệu tính năng",
+            "benefits": {
+              "tutorials": "Hướng dẫn tương tác",
+              "walkthroughs": "Hướng dẫn tính năng",
+              "setup": "Hỗ trợ thiết lập",
+              "practices": "Các phương pháp hay nhất"
+            }
+          },
+          "success": {
+            "title": "Thành công của khách hàng",
+            "description": "Thúc đẩy việc chấp nhận sản phẩm và giảm tỷ lệ rời bỏ với hỗ trợ chủ động",
+            "benefits": {
+              "analytics": "Phân tích sử dụng",
+              "adoption": "Chấp nhận tính năng",
+              "churn": "Ngăn chặn tỷ lệ rời bỏ",
+              "upselling": "Cơ hội bán thêm"
+            }
+          },
+          "security": {
+            "title": "Bảo mật & Tuân thủ",
+            "description": "Giải quyết các mối quan tâm về bảo mật và yêu cầu tuân thủ",
+            "benefits": {
+              "documentation": "Tài liệu bảo mật",
+              "compliance": "Hướng dẫn tuân thủ",
+              "protection": "Bảo vệ dữ liệu",
+              "audit": "Hỗ trợ kiểm toán"
+            }
+          }
+        },
+        "useCases": {
+          "api": {
+            "title": "Trợ giúp tích hợp API",
+            "description": "Hỗ trợ nhà phát triển với triển khai và khắc phục sự cố API",
+            "example": "Làm cách nào để xác thực với API của bạn?",
+            "outcome": "Hướng dẫn xác thực từng bước với các ví dụ mã và công cụ kiểm tra"
+          },
+          "feature": {
+            "title": "Hướng dẫn tính năng",
+            "description": "Giúp người dùng khám phá và triển khai các tính năng nâng cao",
+            "example": "Làm cách nào để thiết lập quy trình làm việc tự động?",
+            "outcome": "Hướng dẫn tương tác với các mẫu quy trình làm việc và hỗ trợ cấu hình"
+          },
+          "billing": {
+            "title": "Thanh toán & Đăng ký",
+            "description": "Xử lý các yêu cầu thanh toán và quản lý đăng ký",
+            "example": "Tôi muốn nâng cấp gói của mình, sự khác biệt là gì?",
+            "outcome": "So sánh gói với chi tiết giá và hỗ trợ nâng cấp"
+          },
+          "performance": {
+            "title": "Tối ưu hóa hiệu suất",
+            "description": "Cung cấp hướng dẫn về tối ưu hóa hiệu suất phần mềm",
+            "example": "Bảng điều khiển của tôi đang tải chậm, làm cách nào để khắc phục điều này?",
+            "outcome": "Phân tích hiệu suất với các đề xuất tối ưu hóa và trợ giúp triển khai"
+          }
+        },
+        "metrics": {
+          "tickets": {
+            "label": "Giảm số lượng phiếu hỗ trợ",
+            "description": "Thông qua tự động hóa tự phục vụ"
+          },
+          "onboarding": {
+            "label": "Giới thiệu nhanh hơn",
+            "description": "Với hỗ trợ thiết lập có hướng dẫn"
+          },
+          "adoption": {
+            "label": "Chấp nhận tính năng cao hơn",
+            "description": "Thông qua hướng dẫn tính năng chủ động"
+          },
+          "churn": {
+            "label": "Giảm tỷ lệ rời bỏ",
+            "description": "Với thành công khách hàng chủ động"
+          }
+        },
+        "types": {
+          "b2b": {
+            "title": "Nền tảng SaaS B2B",
+            "description": "Phần mềm doanh nghiệp và công cụ kinh doanh",
+            "features": {
+              "tenant": "Hỗ trợ đa người thuê",
+              "security": "Bảo mật doanh nghiệp",
+              "api": "Tài liệu API",
+              "assistance": "Hỗ trợ tích hợp"
+            }
+          },
+          "developer": {
+            "title": "Công cụ dành cho nhà phát triển",
+            "description": "API, SDK và nền tảng phát triển",
+            "features": {
+              "examples": "Ví dụ mã",
+              "documentation": "Tài liệu kỹ thuật",
+              "debugging": "Trợ giúp gỡ lỗi",
+              "community": "Hỗ trợ cộng đồng"
+            }
+          },
+          "marketing": {
+            "title": "Phần mềm tiếp thị",
+            "description": "Tự động hóa tiếp thị và công cụ phân tích",
+            "features": {
+              "campaign": "Thiết lập chiến dịch",
+              "analytics": "Hướng dẫn phân tích",
+              "integration": "Trợ giúp tích hợp",
+              "practices": "Các phương pháp hay nhất"
+            }
+          },
+          "productivity": {
+            "title": "Ứng dụng năng suất",
+            "description": "Phần mềm cộng tác và năng suất",
+            "features": {
+              "tutorials": "Hướng dẫn tính năng",
+              "workflow": "Tối ưu hóa quy trình làm việc",
+              "team": "Thiết lập nhóm",
+              "usage": "Phân tích sử dụng"
+            }
+          },
+          "ecommerce": {
+            "title": "Nền tảng thương mại điện tử",
+            "description": "Cửa hàng trực tuyến và giải pháp thanh toán",
+            "features": {
+              "store": "Thiết lập cửa hàng",
+              "payment": "Tích hợp thanh toán",
+              "theme": "Tùy chỉnh giao diện",
+              "performance": "Tối ưu hóa hiệu suất"
+            }
+          },
+          "analytics": {
+            "title": "Nền tảng phân tích",
+            "description": "Phân tích dữ liệu và thông tin kinh doanh",
+            "features": {
+              "dashboard": "Tạo bảng điều khiển",
+              "data": "Tích hợp dữ liệu",
+              "report": "Tạo báo cáo",
+              "visualization": "Trợ giúp trực quan hóa"
+            }
+          }
+        },
+        "typesTitle": "Tất cả các danh mục SaaS được hỗ trợ",
+        "typesSubtitle": "Từ các nền tảng doanh nghiệp đến các công cụ dành cho nhà phát triển, chúng tôi hỗ trợ mọi loại hình kinh doanh SaaS.",
+        "impactTitle": "Tác động kinh doanh SaaS",
+        "impactSubtitle": "Kết quả thực tế từ các công ty SaaS sử dụng SeaChat để hỗ trợ khách hàng và thành công.",
+        "useCasesTitle": "Các trường hợp sử dụng hỗ trợ SaaS",
+        "useCasesSubtitle": "Xem cách SeaChat xử lý các tương tác khách hàng SaaS điển hình và hỗ trợ kỹ thuật.",
+        "userQuestion": "Câu hỏi của người dùng",
+        "seachatResponse": "Phản hồi của SeaChat",
+        "integrationsTitle": "Tích hợp nền tảng SaaS",
+        "integrationsSubtitle": "Kết nối với các công cụ và nền tảng cung cấp năng lượng cho doanh nghiệp SaaS của bạn để hoạt động thành công khách hàng hợp nhất.",
+        "successFlowTitle": "Luồng thành công của khách hàng",
+        "flow": {
+          "onboarding": {
+            "title": "Giới thiệu người dùng",
+            "description": "Thiết lập có hướng dẫn và giới thiệu tính năng"
+          },
+          "adoption": {
+            "title": "Chấp nhận tính năng",
+            "description": "Đề xuất tính năng chủ động"
+          },
+          "monitoring": {
+            "title": "Giám sát sử dụng",
+            "description": "Theo dõi tương tác và xác định vấn đề"
+          },
+          "growth": {
+            "title": "Thành công & Tăng trưởng",
+            "description": "Cơ hội bán thêm và mở rộng"
+          }
+        },
+        "ctaTitle": "Sẵn sàng tăng tốc tăng trưởng SaaS?",
+        "ctaSubtitle": "Tham gia cùng các công ty SaaS đã sử dụng SeaChat để thúc đẩy việc chấp nhận người dùng, giảm tỷ lệ rời bỏ và tăng tốc thành công của khách hàng.",
+        "ctaTrialButton": "Bắt đầu SaaS miễn phí",
+        "ctaDemoButton": "Lên lịch demo SaaS",
+        "integrations": {
+          "0": "Tích hợp Slack",
+          "1": "Salesforce CRM",
+          "2": "HubSpot",
+          "3": "Zendesk",
+          "4": "Intercom",
+          "5": "Stripe",
+          "6": "Google Analytics",
+          "7": "Microsoft Teams",
+          "8": "Jira",
+          "9": "GitHub",
+          "10": "Atlassian Suite",
+          "11": "Dịch vụ AWS"
+        }
+      },
+      "smallBusiness": {
+        "title": "Giải pháp cho doanh nghiệp nhỏ",
+        "subtitle": "Hỗ trợ khách hàng giá cả phải chăng, dễ sử dụng cho các doanh nghiệp nhỏ. Bắt đầu miễn phí và phát triển với các tính năng giúp bạn phục vụ khách hàng tốt hơn mà không tốn kém.",
+        "startButton": "Bắt đầu miễn phí ngay hôm nay",
+        "demoButton": "Xem demo doanh nghiệp nhỏ",
+        "featuresTitle": "Được xây dựng cho thành công của doanh nghiệp nhỏ",
+        "featuresSubtitle": "Mọi thứ mà các doanh nghiệp nhỏ cần để cung cấp hỗ trợ khách hàng chuyên nghiệp mà không phức tạp hoặc tốn kém.",
+        "features": {
+          "local": {
+            "title": "Hỗ trợ doanh nghiệp địa phương",
+            "description": "Hoàn hảo cho các cửa hàng địa phương, nhà hàng và nhà cung cấp dịch vụ",
+            "benefits": {
+              "seo": "Tối ưu hóa SEO địa phương",
+              "google": "Tích hợp Google My Business",
+              "reviews": "Quản lý đánh giá",
+              "customer": "Cơ sở khách hàng địa phương"
+            }
+          },
+          "cost": {
+            "title": "Giải pháp hiệu quả về chi phí",
+            "description": "Giá cả phải chăng phát triển cùng doanh nghiệp của bạn",
+            "benefits": {
+              "free": "Có gói miễn phí",
+              "setup": "Không phí thiết lập",
+              "pricing": "Giá cả linh hoạt",
+              "roi": "Theo dõi ROI"
+            }
+          },
+          "setup": {
+            "title": "Thiết lập nhanh chóng",
+            "description": "Bắt đầu trong vài phút, không phải vài giờ hoặc vài ngày",
+            "benefits": {
+              "minutes": "Thiết lập 5 phút",
+              "templates": "Mẫu có sẵn",
+              "integration": "Tích hợp dễ dàng",
+              "activation": "Kích hoạt tức thì"
+            }
+          },
+          "personal": {
+            "title": "Sự tiếp xúc cá nhân",
+            "description": "Duy trì mối quan hệ cá nhân trong khi mở rộng quy mô hiệu quả",
+            "benefits": {
+              "history": "Lịch sử khách hàng",
+              "notes": "Ghi chú cá nhân",
+              "relationship": "Xây dựng mối quan hệ",
+              "community": "Tập trung vào cộng đồng địa phương"
+            }
+          }
+        },
+        "typesTitle": "Hoàn hảo cho mọi doanh nghiệp nhỏ",
+        "typesSubtitle": "Từ các cửa hàng bán lẻ đến các dịch vụ chuyên nghiệp, chúng tôi hỗ trợ tất cả các loại hình doanh nghiệp nhỏ.",
+        "types": {
+          "retail": {
+            "title": "Cửa hàng bán lẻ",
+            "description": "Quần áo, điện tử, đồ gia dụng và cửa hàng chuyên biệt",
+            "features": {
+              "product": "Yêu cầu sản phẩm",
+              "hours": "Giờ mở cửa",
+              "inventory": "Kiểm tra hàng tồn kho",
+              "appointment": "Đặt lịch hẹn"
+            }
+          },
+          "restaurants": {
+            "title": "Nhà hàng & Quán cà phê",
+            "description": "Các cơ sở ăn uống và doanh nghiệp dịch vụ ăn uống",
+            "features": {
+              "menu": "Câu hỏi về thực đơn",
+              "reservations": "Đặt chỗ",
+              "takeout": "Đơn hàng mang đi",
+              "dietary": "Thông tin chế độ ăn uống"
+            }
+          },
+          "professional": {
+            "title": "Dịch vụ chuyên nghiệp",
+            "description": "Luật sư, kế toán, tư vấn viên và các đại lý",
+            "features": {
+              "consultation": "Đặt lịch tư vấn",
+              "service": "Thông tin dịch vụ",
+              "documents": "Yêu cầu tài liệu",
+              "followup": "Lên lịch theo dõi"
+            }
+          },
+          "health": {
+            "title": "Sức khỏe & Sức khỏe",
+            "description": "Phòng tập gym, spa, phòng khám và trung tâm chăm sóc sức khỏe",
+            "features": {
+              "appointment": "Lên lịch hẹn",
+              "class": "Đặt lớp học",
+              "membership": "Thông tin thành viên",
+              "consultations": "Tư vấn sức khỏe"
+            }
+          },
+          "home": {
+            "title": "Dịch vụ tại nhà",
+            "description": "Nhà thầu, người dọn dẹp, người làm vườn và dịch vụ sửa chữa",
+            "features": {
+              "quotes": "Báo giá dịch vụ",
+              "scheduling": "Lên lịch",
+              "emergency": "Yêu cầu khẩn cấp",
+              "followup": "Hỗ trợ theo dõi"
+            }
+          },
+          "creative": {
+            "title": "Dịch vụ sáng tạo",
+            "description": "Nhiếp ảnh gia, nhà thiết kế, nghệ sĩ và studio",
+            "features": {
+              "portfolio": "Chia sẻ danh mục đầu tư",
+              "quotes": "Báo giá dự án",
+              "booking": "Đặt lịch phiên",
+              "consultations": "Tư vấn sáng tạo"
+            }
+          }
+        },
+        "affordableTitle": "Giá cả phải chăng cho mọi ngân sách",
+        "affordableSubtitle": "Bắt đầu hoàn toàn miễn phí và chỉ trả tiền cho những gì bạn cần khi bạn phát triển. Không có phí ẩn, không có hợp đồng dài hạn, không có bất ngờ.",
+        "pricingTitle": "Giá cả đơn giản",
+        "pricing": {
+          "free": {
+            "title": "Miễn phí vĩnh viễn",
+            "period": "mỗi tháng",
+            "agent": "1 nhân viên con người trọn đời",
+            "conversations": "Cuộc trò chuyện không giới hạn",
+            "widget": "Widget trang web cơ bản",
+            "support": "Hỗ trợ qua email"
+          },
+          "starter": {
+            "title": "AI Starter",
+            "period": "mỗi tháng",
+            "everything": "Mọi thứ trong gói miễn phí",
+            "ai": "Tự động hóa AI",
+            "analytics": "Phân tích nâng cao",
+            "priority": "Hỗ trợ ưu tiên"
+          }
+        },
+        "resultsTitle": "Kết quả doanh nghiệp nhỏ",
+        "resultsSubtitle": "Kết quả thực tế từ các doanh nghiệp nhỏ sử dụng SeaChat để cải thiện dịch vụ khách hàng và phát triển doanh nghiệp của họ.",
+        "metrics": {
+          "inquiries": {
+            "label": "Nhiều yêu cầu của khách hàng hơn",
+            "description": "Với khả dụng 24/7"
+          },
+          "bookings": {
+            "label": "Tăng số lượng đặt chỗ",
+            "description": "Thông qua lên lịch tự động"
+          },
+          "time": {
+            "label": "Tiết kiệm thời gian",
+            "description": "Đối với các câu hỏi khách hàng thường xuyên"
+          },
+          "satisfaction": {
+            "label": "Sự hài lòng của khách hàng",
+            "description": "Với phản hồi tức thì"
+          }
+        },
+        "scenariosTitle": "Các kịch bản doanh nghiệp nhỏ phổ biến",
+        "scenariosSubtitle": "Xem cách SeaChat xử lý các tương tác khách hàng doanh nghiệp nhỏ điển hình.",
+        "useCases": {
+          "inquiries": {
+            "title": "Yêu cầu của khách hàng",
+            "description": "Xử lý các câu hỏi thường gặp về sản phẩm, dịch vụ và giờ làm việc",
+            "example": "Bạn có mở cửa vào Chủ nhật không? Mấy giờ bạn đóng cửa?",
+            "outcome": "Phản hồi tức thì với giờ hiện tại và thông tin lịch nghỉ lễ"
+          },
+          "booking": {
+            "title": "Đặt lịch hẹn",
+            "description": "Cho phép khách hàng đặt lịch hẹn và dịch vụ trực tiếp",
+            "example": "Tôi cần đặt lịch cắt tóc vào chiều thứ Sáu này",
+            "outcome": "Kiểm tra tình trạng sẵn có thời gian thực với xác nhận đặt chỗ và nhắc nhở"
+          },
+          "product": {
+            "title": "Thông tin sản phẩm",
+            "description": "Cung cấp thông tin sản phẩm chi tiết và tình trạng sẵn có",
+            "example": "Bạn có iPhone 15 màu xanh không?",
+            "outcome": "Kiểm tra tình trạng sẵn có của sản phẩm với giá cả và các tùy chọn đặt trước"
+          },
+          "directions": {
+            "title": "Chỉ đường địa phương",
+            "description": "Giúp khách hàng tìm địa điểm của bạn và nhận chỉ đường",
+            "example": "Làm cách nào để đến cửa hàng của bạn từ trung tâm thành phố?",
+            "outcome": "Bản đồ tương tác với chỉ đường và thông tin đỗ xe"
+          }
+        },
+        "customerQuestion": "Câu hỏi của khách hàng",
+        "seachatResponse": "Phản hồi của SeaChat",
+        "ctaTitle": "Sẵn sàng phát triển doanh nghiệp nhỏ của bạn?",
+        "ctaSubtitle": "Tham gia cùng hàng ngàn doanh nghiệp nhỏ đã sử dụng SeaChat để cung cấp hỗ trợ khách hàng chuyên nghiệp và phát triển doanh nghiệp của họ mà không tốn kém chi phí lớn.",
+        "ctaStartButton": "Bắt đầu doanh nghiệp nhỏ miễn phí",
+        "ctaDemoButton": "Lên lịch demo doanh nghiệp nhỏ",
+        "affordableFeatures": [
+          "Bắt đầu hoàn toàn miễn phí mãi mãi",
+          "Không phí thiết lập hoặc giới thiệu",
+          "Chỉ trả tiền cho các tính năng bạn sử dụng",
+          "Hủy bất cứ lúc nào, không hợp đồng",
+          "Mở rộng quy mô giá cả theo sự phát triển của bạn",
+          "Hỗ trợ di chuyển miễn phí",
+          "Hỗ trợ qua email 24/7",
+          "Đảm bảo hoàn tiền trong 30 ngày"
+        ]
+      },
+      "travel": {
+        "bookingFlowTitle": "Luồng đặt chỗ du lịch",
+        "ctaDemoButton": "Lên lịch demo du lịch",
+        "ctaSubtitle": "Tham gia cùng các công ty du lịch đã sử dụng SeaChat để cung cấp dịch vụ khách hàng đặc biệt và hợp lý hóa quy trình đặt chỗ trên toàn thế giới.",
+        "ctaTitle": "Sẵn sàng chuyển đổi trải nghiệm du lịch?",
+        "ctaTrialButton": "Bắt đầu du lịch miễn phí",
+        "demoButton": "Lên lịch demo du lịch",
+        "features": {
+          "booking": {
+            "benefits": {
+              "availability": "Khả dụng thời gian thực",
+              "cancellation": "Hỗ trợ hủy bỏ",
+              "comparisons": "So sánh giá",
+              "modifications": "Sửa đổi đặt chỗ"
+            },
+            "description": "Giúp khách hàng đặt vé máy bay, khách sạn và hoạt động với tình trạng sẵn có thời gian thực",
+            "title": "Hỗ trợ đặt chỗ"
+          },
+          "management": {
+            "benefits": {
+              "documents": "Quản lý tài liệu",
+              "loyalty": "Chương trình khách hàng thân thiết",
+              "reminders": "Thông báo nhắc nhở",
+              "tracking": "Theo dõi chuyến đi"
+            },
+            "description": "Quản lý chuyến đi toàn diện từ đặt chỗ đến theo dõi sau chuyến đi",
+            "title": "Quản lý chuyến đi"
+          },
+          "planning": {
+            "benefits": {
+              "insights": "Thông tin chi tiết điểm đến",
+              "itinerary": "Tạo hành trình",
+              "recommendations": "Đề xuất địa phương",
+              "weather": "Cập nhật thời tiết"
+            },
+            "description": "Cung cấp đề xuất du lịch cá nhân hóa và lên kế hoạch hành trình",
+            "title": "Lên kế hoạch du lịch"
+          },
+          "support": {
+            "benefits": {
+              "emergency": "Hỗ trợ khẩn cấp",
+              "multilanguage": "Trợ giúp đa ngôn ngữ",
+              "timezone": "Hỗ trợ múi giờ toàn cầu",
+              "updates": "Cập nhật thời gian thực"
+            },
+            "description": "Hỗ trợ suốt ngày đêm cho du khách trên các múi giờ khác nhau",
+            "title": "Hỗ trợ du lịch 24/7"
+          }
+        },
+        "featuresSubtitle": "Các tính năng được xây dựng có mục đích dành cho các doanh nghiệp du lịch và khách sạn để nâng cao trải nghiệm khách hàng.",
+        "featuresTitle": "Tính năng ngành du lịch",
+        "flow": {
+          "assistance": {
+            "description": "Đặt chỗ có hướng dẫn với xử lý thanh toán",
+            "title": "Hỗ trợ đặt chỗ"
+          },
+          "confirmation": {
+            "description": "Xác nhận đặt chỗ với hỗ trợ liên tục",
+            "title": "Xác nhận & Hỗ trợ"
+          },
+          "inquiry": {
+            "description": "Khách hàng hỏi về các tùy chọn du lịch",
+            "title": "Yêu cầu du lịch"
+          },
+          "search": {
+            "description": "AI tìm kiếm trên nhiều hệ thống",
+            "title": "Tìm kiếm thời gian thực"
+          }
+        },
+        "impactSubtitle": "Kết quả thực tế từ các công ty du lịch sử dụng SeaChat để hỗ trợ khách hàng và đặt chỗ.",
+        "impactTitle": "Tác động của ngành du lịch",
+        "integrationsSubtitle": "Kết nối liền mạch với các hệ thống đặt chỗ du lịch, nền tảng GDS và các công cụ quản lý khách sạn để hoạt động hợp nhất.",
+        "integrationsTitle": "Tích hợp ngành du lịch",
+        "metrics": {
+          "booking": {
+            "description": "Với tìm kiếm và đặt chỗ được hỗ trợ bởi AI",
+            "label": "Quy trình đặt chỗ nhanh hơn",
+            "value": "60%"
+          },
+          "call": {
+            "description": "Thông qua hỗ trợ du lịch tự động",
+            "label": "Giảm số lượng cuộc gọi",
+            "value": "40%"
+          },
+          "resolution": {
+            "description": "Đối với các yêu cầu liên quan đến du lịch",
+            "label": "Tỷ lệ giải quyết vấn đề",
+            "value": "95%"
+          },
+          "satisfaction": {
+            "label": "Sự hài lòng của khách hàng",
+            "description": "Với hỗ trợ du lịch 24/7",
+            "value": "85%"
+          }
+        },
+        "seachatResponse": "Phản hồi của SeaChat",
+        "services": {
+          "agencies": {
+            "description": "Dịch vụ lên kế hoạch và đặt chỗ du lịch toàn diện",
+            "features": {
+              "deals": "Ưu đãi gói",
+              "groups": "Đặt chỗ theo nhóm",
+              "insurance": "Bảo hiểm du lịch",
+              "itineraries": "Hành trình tùy chỉnh"
+            },
+            "title": "Đại lý du lịch"
+          },
+          "airlines": {
+            "description": "Đặt vé máy bay, làm thủ tục và cập nhật chuyến đi",
+            "features": {
+              "baggage": "Theo dõi hành lý",
+              "loyalty": "Chương trình khách hàng thân thiết",
+              "seat": "Chọn chỗ ngồi",
+              "status": "Trạng thái chuyến bay"
+            },
+            "title": "Hãng hàng không"
+          },
+          "car": {
+            "description": "Hỗ trợ và trợ giúp thuê xe",
+            "features": {
+              "availability": "Tình trạng xe",
+              "insurance": "Tùy chọn bảo hiểm",
+              "locations": "Địa điểm đón",
+              "roadside": "Hỗ trợ bên đường"
+            },
+            "title": "Thuê xe"
+          },
+          "cruise": {
+            "description": "Đặt chỗ du thuyền và dịch vụ trên tàu",
+            "features": {
+              "cabin": "Chọn cabin",
+              "dining": "Đặt chỗ ăn uống",
+              "entertainment": "Đặt chỗ giải trí",
+              "shore": "Các chuyến tham quan bờ biển"
+            },
+            "title": "Các hãng du thuyền"
+          },
+          "hotels": {
+            "description": "Đặt phòng khách sạn và dịch vụ khách hàng",
+            "features": {
+              "amenity": "Thông tin tiện nghi",
+              "booking": "Đặt phòng",
+              "loyalty": "Phần thưởng khách hàng thân thiết",
+              "requests": "Yêu cầu đặc biệt"
+            },
+            "title": "Khách sạn & Chỗ ở"
+          },
+          "tour": {
+            "description": "Các chuyến tham quan có hướng dẫn và đặt chỗ hoạt động",
+            "features": {
+              "availability": "Tình trạng tour",
+              "equipment": "Thuê thiết bị",
+              "guides": "Hướng dẫn viên địa phương",
+              "sizes": "Kích thước nhóm"
+            },
+            "title": "Các nhà điều hành tour"
+          }
+        },
+        "servicesSubtitle": "Từ các hãng hàng không đến khách sạn, thuê xe đến các hãng du thuyền - chúng tôi hỗ trợ mọi khía cạnh của du lịch.",
+        "servicesTitle": "Tất cả các dịch vụ du lịch được bảo hiểm",
+        "subtitle": "Chuyển đổi trải nghiệm du lịch với hỗ trợ khách hàng do AI hỗ trợ xử lý đặt chỗ, cung cấp hỗ trợ 24/7 và tạo ra những hành trình đáng nhớ cho khách hàng của bạn.",
+        "title": "Du lịch & Khách sạn",
+        "travelerRequest": "Yêu cầu của du khách",
+        "trialButton": "Bắt đầu du lịch miễn phí",
+        "useCases": {
+          "destination": {
+            "description": "Cung cấp lời khuyên du lịch, thông tin chi tiết địa phương và đề xuất điểm đến",
+            "example": "Những nhà hàng tốt nhất ở Paris là gì?",
+            "outcome": "Đề xuất nhà hàng được tuyển chọn với đặt chỗ và thông tin chi tiết địa phương",
+            "title": "Thông tin điểm đến"
+          },
+          "disruptions": {
+            "description": "Xử lý các chuyến bay bị hoãn, hủy và hỗ trợ đặt lại",
+            "example": "Chuyến bay của tôi bị hủy, tôi có những lựa chọn nào?",
+            "outcome": "Hỗ trợ đặt lại ngay lập tức với các chuyến bay thay thế và thông tin bồi thường",
+            "title": "Gián đoạn du lịch"
+          },
+          "documentation": {
+            "description": "Giúp đỡ với các yêu cầu visa, thông tin hộ chiếu và tài liệu du lịch",
+            "example": "Tôi có cần visa để đi Nhật Bản không?",
+            "outcome": "Các yêu cầu visa toàn diện với quy trình nộp đơn và thời gian",
+            "title": "Tài liệu du lịch"
+          },
+          "flight": {
+            "description": "Hỗ trợ đặt vé máy bay, thay đổi và hủy bỏ",
+            "example": "Tôi cần thay đổi chuyến bay từ thứ Ba sang thứ Năm",
+            "outcome": "Kiểm tra tình trạng sẵn có của chuyến bay thời gian thực với các tùy chọn đặt lại và thông tin phí",
+            "title": "Đặt vé máy bay & Thay đổi"
+          }
+        },
+        "useCasesSubtitle": "Xem cách SeaChat xử lý các yêu cầu du lịch điển hình và hỗ trợ đặt chỗ.",
+        "useCasesTitle": "Các trường hợp sử dụng hỗ trợ du lịch",
+        "integrations": {
+          "0": "Hệ thống GDS (Amadeus, Sabre, Galileo)",
+          "1": "Hệ thống đặt vé máy bay",
+          "2": "Hệ thống đặt phòng khách sạn",
+          "3": "Nền tảng thuê xe",
+          "4": "Các nhà cung cấp bảo hiểm du lịch",
+          "5": "Hệ thống xử lý thanh toán"
+        }
+      }
+    },
+    "channels": {
+      "title": "Kết nối mọi kênh khách hàng",
+      "description": "Hợp nhất tất cả các giao tiếp khách hàng của bạn trong một nền tảng. Từ WhatsApp đến cuộc gọi điện thoại, SMS đến mạng xã hội - quản lý mọi cuộc trò chuyện từ một bảng điều khiển duy nhất.",
+      "whatsapp": {
+        "title": "WhatsApp Business",
+        "description": "Kết nối với khách hàng trên nền tảng nhắn tin phổ biến nhất thế giới"
+      },
+      "voice": {
+        "title": "Thoại & Cuộc gọi điện thoại",
+        "description": "Hệ thống điện thoại chuyên nghiệp với voicebot AI và hỗ trợ nhân viên con người"
+      },
+      "sms": {
+        "title": "Nhắn tin SMS",
+        "description": "Tiếp cận khách hàng ngay lập tức với các chiến dịch SMS cá nhân hóa"
+      },
+      "website": {
+        "title": "Widget trò chuyện trang web",
+        "description": "Biến khách truy cập trang web thành các cuộc trò chuyện với trò chuyện do AI hỗ trợ"
+      },
+      "cta": {
+        "exploreAll": "Khám phá tất cả các kênh",
+        "subtitle": "Xem cách tất cả 9 kênh hoạt động liền mạch với nhau"
+      }
+    },
+    "comparison": {
+      "title": "Tại sao các doanh nghiệp đang phát triển chọn Seasalt.ai thay vì các lựa chọn thay thế",
+      "description": "Xem cách chúng tôi so sánh với các giải pháp khác. Chúng tôi là nền tảng duy nhất cung cấp các tính năng doanh nghiệp với sự đơn giản của doanh nghiệp nhỏ.",
+      "recommended": "Được đề xuất",
+      "table": {
+        "headers": {
+          "platform": "Nền tảng",
+          "startingPrice": "Giá khởi điểm",
+          "pricingModel": "Mô hình định giá",
+          "unifiedVoiceDigital": "Thoại & Kỹ thuật số hợp nhất",
+          "aiCapabilities": "Khả năng AI",
+          "bestFor": "Tốt nhất cho"
+        }
+      },
+      "competitors": {
+        "seasalt": {
+          "startingPrice": "20 đô la/nhân viên/tháng",
+          "pricingModel": "Đơn giản theo người dùng",
+          "unifiedVoiceDigital": "✅ Có, Bản địa",
+          "aiCapabilities": "✅ Có, Voice & Chatbot bản địa",
+          "bestFor": "Các SME cần một nền tảng tất cả trong một giá cả phải chăng, thực sự."
+        },
+        "aircall": {
+          "startingPrice": "30 đô la/người dùng/tháng",
+          "pricingModel": "Theo người dùng + Tiện ích bổ sung",
+          "unifiedVoiceDigital": "⚠️ Thoại + WhatsApp (Tiện ích bổ sung)",
+          "aiCapabilities": "⚠️ AI là tiện ích bổ sung trả phí",
+          "bestFor": "Các đội ngũ bán hàng có thể chi trả nhiều tiện ích bổ sung và đáp ứng tối thiểu 3 người dùng."
+        },
+        "ringcentral": {
+          "startingPrice": "65 đô la/nhân viên/tháng",
+          "pricingModel": "Các cấp độ phức tạp",
+          "unifiedVoiceDigital": "❌ Sản phẩm riêng biệt",
+          "aiCapabilities": "✅ Có (CCaaS do AI hỗ trợ)",
+          "bestFor": "Các công ty lớn cần một nền tảng UCaaS rộng lớn với một CCaaS riêng biệt."
+        },
+        "genesys": {
+          "startingPrice": "75 đô la/người dùng/tháng",
+          "pricingModel": "Theo người dùng + Mức tối thiểu cao",
+          "unifiedVoiceDigital": "✅ Có (ở các cấp cao hơn)",
+          "aiCapabilities": "✅ Có (Hệ thống token phức tạp)",
+          "bestFor": "Các doanh nghiệp lớn với đội ngũ và ngân sách trung tâm liên hệ chuyên dụng."
+        },
+        "five9": {
+          "startingPrice": "119 đô la/người dùng/tháng",
+          "pricingModel": "Theo người dùng + Gói",
+          "unifiedVoiceDigital": "✅ Có (ở các cấp cao cấp)",
+          "aiCapabilities": "✅ Có (AI nâng cao)",
+          "bestFor": "Các trung tâm liên hệ lớn, tập trung vào cuộc gọi đi cần các công cụ cấp doanh nghiệp."
+        },
+        "googleVoice": {
+          "startingPrice": "10 đô la/người dùng/tháng",
+          "pricingModel": "Theo người dùng + Phí không gian làm việc",
+          "unifiedVoiceDigital": "❌ Không",
+          "aiCapabilities": "❌ Không (Chỉ phiên âm thư thoại)",
+          "bestFor": "Các doanh nhân độc lập (chỉ ở Hoa Kỳ) cần một số điện thoại cơ bản, riêng biệt."
+        }
+      },
+      "cta": {
+        "seeAllComparisons": "Xem tất cả các so sánh chi tiết"
+      }
+    },
+    "footer": {
+      "product": "Sản phẩm",
+      "company": {
+        "productWiki": "Wiki sản phẩm",
+        "apiReferences": "Tài liệu tham khảo API",
+        "careers": "Tuyển dụng",
+        "title": "Công ty",
+        "about": "Về chúng tôi"
+      },
+      "resources": "Tài nguyên",
+      "legal": {
+        "privacyPolicy": "Chính sách bảo mật",
+        "termsOfService": "Điều khoản dịch vụ"
+      },
+      "getStarted": "Sẵn sàng bắt đầu?",
+      "joinThousands": "Tham gia cùng hàng ngàn doanh nghiệp đã sử dụng SeaChat để mang lại trải nghiệm khách hàng đặc biệt.",
+      "enterEmail": "Nhập email của bạn",
+      "noCredit": "Không cần thẻ tín dụng • Thiết lập trong 2 phút • Hủy bất cứ lúc nào",
+      "copyright": "© 2020 - {{year}} Seasalt.ai. Mọi quyền được bảo lưu.",
+      "compliance": "🔒 Tuân thủ SOC 2",
+      "gdpr": "🛡️ Sẵn sàng GDPR",
+      "uptime": "⚡ Thời gian hoạt động 99,9%",
+      "brand": {
+        "description": "Chuyển đổi hỗ trợ khách hàng của bạn với sự kết hợp hoàn hảo giữa nhân viên con người và tự động hóa AI. Bắt đầu miễn phí, mở rộng quy mô thông minh, thành công nhanh hơn."
+      },
+      "contact": {
+        "email": "info@seasalt.ai",
+        "phone": "+1 (SMB)-AI-AGENT",
+        "location": "Seattle, WA"
+      },
+      "stats": {
+        "messagesDaily": "Hơn 5 triệu tin nhắn mỗi ngày",
+        "activeUsers": "Hơn 100 nghìn người dùng",
+        "uptime": "Thời gian hoạt động 99,9%"
+      },
+      "cta": {
+        "title": "Sẵn sàng chuyển đổi hỗ trợ khách hàng của bạn?",
+        "description": "Tham gia cùng hàng ngàn doanh nghiệp sử dụng SeaChat để mang lại trải nghiệm khách hàng đặc biệt với hỗ trợ trò chuyện do AI hỗ trợ.",
+        "signUpFree": "Đăng ký miễn phí",
+        "scheduleDemo": "Lên lịch demo",
+        "disclaimer": "Không cần thẻ tín dụng • Thiết lập trong 2 phút • Hủy bất cứ lúc nào"
+      }
+    },
+    "featureComparison": {
+      "title": "Tại sao chọn SeaChat thay vì đối thủ cạnh tranh?",
+      "subtitle": "Xem cách SeaChat thay thế nhiều công cụ bằng một nền tảng toàn diện. Tiết kiệm tiền trong khi có được nhiều tính năng hơn.",
+      "valueTitle": "Giá trị bạn nhận được:",
+      "totalValue": "331 đô la trở lên/tháng",
+      "competitorTotal": "Tổng giá trị từ các đối thủ cạnh tranh",
+      "priceTitle": "Giá bạn phải trả:",
+      "seachatPrice": "29,99 đô la/tháng",
+      "seachatAll": "Tất cả các tính năng được bao gồm",
+      "seeDetailedPricing": "Xem giá chi tiết",
+      "ctaTitle": "Sẵn sàng trải nghiệm lợi thế của SeaChat?",
+      "ctaSubtitle": "Tham gia cùng hàng ngàn doanh nghiệp đã chọn giải pháp thông minh hơn, giá cả phải chăng hơn.",
+      "startFree": "Bắt đầu miễn phí ngay",
+      "bookDemo": "Đặt lịch demo",
+      "features": {
+        "chatbotWebsite": "Chatbot cho trang web",
+        "chatWidget": "Widget trò chuyện với nhân viên trực tiếp",
+        "whatsappMessenger": "WhatsApp/Messenger/Instagram",
+        "multiCalendar": "Đặt chỗ đa lịch",
+        "phoneCallAI": "Nhân viên AI cuộc gọi đến",
+        "smsActions": "Các hành động tích hợp - SMS",
+        "emailActions": "Các hành động tích hợp - Email",
+        "phoneNumber": "Mua số điện thoại",
+        "agencyMode": "Chế độ đại lý",
+        "bulkSMS": "SMS, Cuộc gọi, WhatsApp hàng loạt đi",
+        "unlimitedContacts": "Liên hệ không giới hạn",
+        "knowledgeBase": "Cơ sở kiến thức bổ sung",
+        "extraChatbot": "Chatbot bổ sung"
+      },
+      "table": {
+        "headers": {
+          "features": "Tính năng",
+          "replaces": "Thay thế",
+          "otherTools": "Các công cụ khác",
+          "seachat": "SeaChat"
+        },
+        "total": "Tổng cộng",
+        "totalPrice": "331 đô la trở lên mỗi tháng",
+        "seachatPrice": "29,99 đô la mỗi tháng",
+        "explanations": {
+          "valueYouGet": "↑ Giá trị bạn nhận được",
+          "priceYouWouldPay": "↑ Giá bạn phải trả nếu không",
+          "priceYouPay": "↑ Giá bạn phải trả"
+        }
+      },
+      "mobile": {
+        "replaces": "Thay thế:",
+        "otherTools": "Các công cụ khác:",
+        "seachat": "SeaChat:",
+        "otherToolsTotal": "Tổng cộng các công cụ khác:",
+        "seachatTotal": "Tổng cộng SeaChat:",
+        "totalPrice": "331 đô la+ mỗi tháng",
+        "seachatTotalPrice": "29,99 đô la mỗi tháng",
+        "priceYouWouldPay": "↑ Giá bạn phải trả nếu không",
+        "priceYouPay": "↑ Giá bạn phải trả"
+      },
+      "uniqueToSeachat": "ĐỘC ĐÁO",
+      "pricing": {
+        "chatbotWebsite": "99 đô la mỗi tháng",
+        "chatWidget": "23 đô la mỗi nhân viên mỗi tháng",
+        "whatsappMessenger": "89 đô la mỗi người dùng mỗi tháng",
+        "multiCalendar": "10 đô la mỗi chỗ ngồi mỗi tháng",
+        "phoneCallAI": "29 đô la mỗi tháng",
+        "smsActions": "59 đô la mỗi tháng",
+        "emailActions": "20 đô la mỗi tháng",
+        "phoneNumber": "2 đến 3 đô la mỗi tháng",
+        "unlimitedContacts": "65 đô la mỗi 10 nghìn liên hệ",
+        "knowledgeBase": "8 đô la mỗi cơ sở kiến thức bổ sung",
+        "extraChatbot": "7 đô la mỗi chatbot bổ sung"
+      },
+      "seachatValues": {
+        "agencyMode": "Nhiều không gian làm việc - một không gian làm việc cho mỗi khách hàng",
+        "bulkSMS": "Tích hợp với SeaX từ Seasalt.ai",
+        "unlimitedContacts": "Không giới hạn",
+        "knowledgeBase": "5.000 tài liệu hoặc 50 triệu token",
+        "extraChatbot": "10 bot × 5 kênh = 50 bot kênh"
+      },
+      "replaces": {
+        "uniqueToSeachat": "ĐỘC ĐÁO của SeaChat"
+      }
+    }
+  }
+}

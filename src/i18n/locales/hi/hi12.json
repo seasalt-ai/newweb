@@ -1,0 +1,743 @@
+{
+  "seavoice": {
+    "solutions": {
+      "inbound": {
+        "appointmentBooking": {
+          "hero": {
+            "title": "नियुक्ति बुकिंग और प्रबंधन",
+            "description": "AI के साथ स्वचालित नियुक्ति शेड्यूलिंग जो उपलब्धता, वरीयताओं और व्यावसायिक नियमों को समझता है। नो-शो को कम करें और बुद्धिमान आवाज इंटरैक्शन के साथ अपनी बुकिंग प्रक्रिया को सुव्यवस्थित करें।",
+            "cta": "स्वचालित नियुक्ति बुकिंग"
+          },
+          "features": {
+            "title": "स्मार्ट नियुक्ति प्रबंधन",
+            "subtitle": "व्यापक बुकिंग प्रणाली जो जटिल शेड्यूलिंग परिदृश्यों को संभालती है",
+            "intelligentScheduling": {
+              "title": "Intelligent Scheduling",
+              "description": "AI- संचालित नियुक्ति बुकिंग जो उपलब्धता और वरीयताओं को समझती है।",
+              "benefit1": "वास्तविक समय उपलब्धता",
+              "benefit2": "स्मार्ट संघर्ष संकल्प",
+              "benefit3": "वरीयता मिलान"
+            },
+            "automatedReminders": {
+              "title": "Automated Reminders",
+              "description": "स्वचालित नियुक्ति अनुस्मारक और पुष्टि के साथ नो-शो कम करें।",
+              "benefit1": "एसएमएस और आवाज अनुस्मारक",
+              "benefit2": "अनुकूलन योग्य समय",
+              "benefit3": "पुष्टिकरण ट्रैकिंग"
+            },
+            "multiProviderSupport": {
+              "title": "बहु-प्रदाता समर्थन",
+              "description": "कई प्रदाताओं, स्थानों और सेवाओं में नियुक्तियों का प्रबंधन करें।",
+              "benefit1": "प्रदाता उपलब्धता",
+              "benefit2": "स्थान प्रबंधन",
+              "benefit3": "सेवा वर्गीकरण"
+            }
+          },
+          "capabilities": {
+            "title": "पूर्ण बुकिंग समाधान",
+            "subtitle": "नियुक्ति प्रबंधन के हर पहलू को स्वचालित रूप से संभालें",
+            "appointmentScheduling": {
+              "capability": "Appointment Scheduling",
+              "description": "उपलब्धता और वरीयताओं के आधार पर नई नियुक्तियां बुक करें",
+              "feature1": "उपलब्ध समय स्लॉट",
+              "feature2": "प्रदाता चयन",
+              "feature3": "सेवा प्रकार मिलान"
+            },
+            "rescheduling": {
+              "capability": "शेड्यूलिंग",
+              "description": "स्वचालित संघर्ष समाधान के साथ मौजूदा नियुक्तियों को संशोधित करें",
+              "feature1": "संघर्ष का पता लगाना",
+              "feature2": "वैकल्पिक सुझाव",
+              "feature3": "स्वत: अद्यतन"
+            },
+            "cancellationManagement": {
+              "capability": "Cancellation Management",
+              "description": "कुशलता से रद्द करने और वेटलिस्ट प्रबंधन को संभालें",
+              "feature1": "रद्दीकरण नीतियां",
+              "feature2": "प्रतीक्षा सूची स्वचालन",
+              "feature3": "वापसी -प्रक्रमण"
+            },
+            "reminderSystem": {
+              "capability": "Reminder System",
+              "description": "नो-शो को कम करने और उपस्थिति में सुधार करने के लिए स्वचालित अनुस्मारक",
+              "feature1": "बहु-चैनल अनुस्मारक",
+              "feature2": "अनुकूलन योग्य समय",
+              "feature3": "पुष्टिकरण अनुरोध"
+            }
+          },
+          "industries": {
+            "title": "Industry Applications",
+            "subtitle": "विभिन्न उद्योगों और उपयोग के मामलों के लिए सुसंगत बुकिंग समाधान",
+            "healthcare": {
+              "industry": "स्वास्थ्य देखभाल",
+              "description": "चिकित्सा नियुक्तियाँ, परामर्श और प्रक्रियाएँ",
+              "benefit1": "रोगी अनुसूचन",
+              "benefit2": "प्रदाता समन्वय",
+              "benefit3": "बीमा सत्यापन"
+            },
+            "beautyWellness": {
+              "industry": "सौंदर्य और कल्याण",
+              "description": "सैलून अपॉइंटमेंट्स, एसपीए सर्विसेज और वेलनेस सेशन",
+              "benefit1": "सेवा अवधि ट्रैकिंग",
+              "benefit2": "स्टाइलिस्ट वरीयताएँ",
+              "benefit3": "पैकेज बुकिंग"
+            },
+            "professionalServices": {
+              "industry": "Professional Services",
+              "description": "परामर्श, बैठकें और सेवा नियुक्तियां",
+              "benefit1": "बैठक कक्ष बुकिंग",
+              "benefit2": "सलाहकार उपलब्धता",
+              "benefit3": "ग्राहक प्राथमिकताएँ"
+            }
+          },
+          "reminderSection": {
+            "title": "स्वचालित अनुस्मारक तंत्र",
+            "description": "महत्वपूर्ण रूप से बुद्धिमान अनुस्मारक अभियानों के साथ नो-शो को कम करें जो इष्टतम समय पर अपने पसंदीदा संचार चैनलों के माध्यम से ग्राहकों तक पहुंचते हैं।",
+            "multiChannelReminders": {
+              "title": "बहु-चैनल अनुस्मारक",
+              "description": "वॉयस कॉल, एसएमएस और ईमेल रिमाइंडर"
+            },
+            "optimalTiming": {
+              "title": "Optimal Timing",
+              "description": "AI अनुस्मारक भेजने के लिए सबसे अच्छा समय निर्धारित करता है"
+            },
+            "performanceTracking": {
+              "title": "Performance Tracking",
+              "description": "रिमाइंडर प्रभावशीलता की निगरानी करें और अनुकूलन करें"
+            },
+            "reminderTimeline": {
+              "title": "Reminder Timeline"
+            },
+            "timeline": {
+              "initialConfirmation": {
+                "title": "Initial Confirmation",
+                "description": "नियुक्ति की पुष्टि और विवरण"
+              },
+              "dayBefore": {
+                "title": "अनुस्मारक से पहले दिन",
+                "description": "तैयारी निर्देशों के साथ अंतिम अनुस्मारक"
+              },
+              "lastMinute": {
+                "title": "अंतिम मिनट की जाँच करें",
+                "description": "अंतिम पुष्टि और निर्देश"
+              },
+              "sevenDays": "7 दिन",
+              "oneDay": "-1 डी",
+              "twoHours": "2 एच"
+            }
+          },
+          "benefits": {
+            "title": "बुकिंग प्रदर्शन परिणाम",
+            "subtitle": "नियुक्ति प्रबंधन दक्षता में औसत दर्जे का सुधार",
+            "noShowReduction": {
+              "metric": "40%",
+              "description": "नो-शो दरों में कमी"
+            },
+            "availabilityWindow": {
+              "metric": "24/7",
+              "description": "बुकिंग उपलब्धता"
+            },
+            "bookingAccuracy": {
+              "metric": "85%",
+              "description": "बुकिंग सटीकता दर"
+            },
+            "workloadReduction": {
+              "metric": "60%",
+              "description": "व्यवस्थापक कार्यभार में कमी"
+            }
+          },
+          "cta": {
+            "title": "नियुक्ति बुकिंग को स्वचालित करने के लिए तैयार हैं?",
+            "description": "स्ट्रीमलाइन शेड्यूलिंग और इंटेलिजेंट अपॉइंटमेंट मैनेजमेंट के साथ नो-शो को कम करें",
+            "startFreeTrial": "निशुल्क आजमाइश शुरु करें",
+            "scheduleDemo": "Schedule Demo"
+          }
+        },
+        "mentalHealth": {
+          "hero": {
+            "title": "मानसिक स्वास्थ्य आवाज साथी",
+            "description": "AI के साथ 24/7 मानसिक स्वास्थ्य सहायता प्रदान करें जो सहानुभूति के साथ सुनता है, समझता है, और प्रतिक्रिया करता है। सुरक्षित रूप से संकट और पेशेवर देखभाल के बीच की खाई को पाटते हैं।",
+            "cta": "मानसिक स्वास्थ्य एआई के बारे में जानें"
+          },
+          "features": {
+            "title": "दयालु एआई समर्थन",
+            "description": "उन्नत एआई मानसिक स्वास्थ्य सहायता और संकट हस्तक्षेप में प्रशिक्षित",
+            "empathetic": {
+              "title": "सशक्त एआई साथी",
+              "description": "उपयुक्त भावनात्मक प्रतिक्रियाओं के साथ दयालु, गैर-न्यायिक समर्थन प्रदान करने के लिए प्रशिक्षित।",
+              "benefits": {
+                "activeListening": "स्फूर्ति से ध्यान देना",
+                "emotionalValidation": "भावनात्मक सत्यापन",
+                "crisisRecognition": "संकट की मान्यता"
+              }
+            },
+            "safe": {
+              "title": "सुरक्षित और गोपनीय",
+              "description": "HIPAA-COMPLIANT प्लेटफॉर्म सभी इंटरैक्शन के लिए पूर्ण गोपनीयता और गोपनीयता सुनिश्चित करता है।",
+              "benefits": {
+                "hipaaCompliance": "HIPAA अनुपालन",
+                "encryptedConversations": "एन्क्रिप्टेड वार्तालाप",
+                "anonymousOptions": "अनाम विकल्प"
+              }
+            },
+            "availability": {
+              "title": "24/7 उपलब्धता",
+              "description": "हमेशा उपलब्ध जब किसी को बात करने की आवश्यकता होती है, संकट के क्षणों के दौरान तत्काल सहायता प्रदान करता है।",
+              "benefits": {
+                "roundTheClockAccess": "राउंड-द-क्लॉक एक्सेस",
+                "immediateResponse": "तुरंत प्रतिसाद",
+                "noWaitTimes": "कोई प्रतीक्षा समय नहीं"
+              }
+            }
+          },
+          "capabilities": {
+            "title": "मानसिक स्वास्थ्य सहायता क्षमता",
+            "description": "मानसिक स्वास्थ्य देखभाल स्पेक्ट्रम में व्यापक समर्थन",
+            "screening": {
+              "title": "प्रारंभिक मानसिक स्वास्थ्य स्क्रीनिंग",
+              "description": "मान्य स्क्रीनिंग टूल का उपयोग करके प्रारंभिक मूल्यांकन का संचालन करें",
+              "outcomes": {
+                "earlyIdentification": "प्रारंभिक पहचान",
+                "riskAssessment": "जोखिम आकलन",
+                "appropriateReferrals": "उचित रेफरल"
+              }
+            },
+            "crisis": {
+              "title": "Crisis Intervention",
+              "description": "संकट की स्थितियों को पहचानें और तत्काल सहायता या वृद्धि प्रदान करें",
+              "outcomes": {
+                "crisisDetection": "संकट का पता लगाना",
+                "deEscalationTechniques": "डी-एस्केलेशन तकनीक",
+                "emergencyProtocols": "आपात -प्रोटोकॉल"
+              }
+            },
+            "navigation": {
+              "title": "Resource Navigation",
+              "description": "उपयोगकर्ताओं को उचित मानसिक स्वास्थ्य संसाधनों और सेवाओं के लिए मार्गदर्शन करें",
+              "outcomes": {
+                "serviceMatching": "सेवा मिलान",
+                "appointmentScheduling": "नियुक्ति अनुसूचक",
+                "followUpSupport": "अनुवर्ती समर्थन"
+              }
+            },
+            "emotional": {
+              "title": "Emotional Support",
+              "description": "दयालु सुनने और भावनात्मक सत्यापन प्रदान करें",
+              "outcomes": {
+                "reducedIsolation": "कम अलगाव",
+                "emotionalRelief": "भावनात्मक राहत",
+                "copingStrategies": "निपटने की रणनीतियां"
+              }
+            }
+          },
+          "safety": {
+            "title": "सुरक्षा-प्रथम डिजाइन",
+            "description": "हमारे मानसिक स्वास्थ्य एआई को सर्वोच्च प्राथमिकता के रूप में सुरक्षा के साथ डिज़ाइन किया गया है, जिसमें उन्नत संकट का पता लगाने और तत्काल वृद्धि प्रोटोकॉल की विशेषता है ताकि उपयोगकर्ताओं को आवश्यकता पड़ने पर उचित पेशेवर देखभाल प्राप्त हो सके।",
+            "features": {
+              "title": "Safety Features"
+            },
+            "crisisDetection": {
+              "title": "Crisis Detection",
+              "description": "उन्नत एल्गोरिदम संकट की स्थितियों की पहचान करते हैं"
+            },
+            "professionalHandoff": {
+              "title": "Professional Handoff",
+              "description": "मानवीय मानसिक स्वास्थ्य पेशेवरों के लिए निर्बाध हस्तांतरण"
+            },
+            "emergencyProtocols": {
+              "title": "Emergency Protocols",
+              "description": "जरूरत पड़ने पर संकट हॉटलाइन से तत्काल संबंध"
+            }
+          },
+          "safetyFeatures": {
+            "crisisKeywordDetection": "संकट कीवर्ड का पता लगाना",
+            "suicideRiskAssessment": "आत्मघाती जोखिम मूल्यांकन",
+            "automaticEscalationProtocols": "स्वत: वृद्धि प्रोटोकॉल",
+            "emergencyContactIntegration": "आपातक संपर्क एकीकरण",
+            "professionalHandoffProcedures": "पेशेवर हैंडऑफ प्रक्रिया",
+            "followUpScheduling": "अनुवर्ती निर्धारण"
+          },
+          "benefits": {
+            "title": "मानसिक स्वास्थ्य प्रभाव",
+            "description": "मानसिक स्वास्थ्य सहायता पहुंच में औसत दर्जे का सुधार",
+            "alwaysAvailableSupport": "हमेशा उपलब्ध समर्थन",
+            "crisisEscalationReduction": "संकट वृद्धि में कमी",
+            "userSatisfactionRate": "उपयोगकर्ता संतुष्टि दर",
+            "helpSeekingBehaviorIncrease": "मदद लेने वाले व्यवहार में वृद्धि"
+          },
+          "cta": {
+            "title": "मानसिक स्वास्थ्य का समर्थन करने के लिए तैयार हैं?",
+            "description": "AI के साथ 24/7 मानसिक स्वास्थ्य सहायता प्रदान करें जो वास्तव में परवाह करता है",
+            "learnMore": "Learn More",
+            "contactSpecialists": "Contact Specialists"
+          }
+        },
+        "callTransfer": {
+          "hero": {
+            "title": "व्यावसायिक घंटों के दौरान स्मार्ट कॉल ट्रांसफर",
+            "description": "एआई-संचालित बुद्धिमान हस्तांतरण के साथ अपने कॉल रूटिंग में क्रांति लाएं जो कॉलर के इरादे को समझता है और उन्हें सही व्यक्ति से तुरंत जोड़ता है, प्रतीक्षा समय को कम करता है और ग्राहकों की संतुष्टि में सुधार करता है।",
+            "primaryCta": "अपने कॉल रूटिंग का अनुकूलन करें"
+          },
+          "features": {
+            "title": "बुद्धिमान कॉल रूटिंग सुविधाएँ",
+            "description": "उन्नत एआई तकनीक जो समझती है और मार्गों को सटीकता के साथ कॉल करती है",
+            "intelligentRouting": {
+              "title": "Intelligent Routing",
+              "description": "AI सबसे उपयुक्त विभाग या एजेंट के लिए कॉलर के इरादे और मार्गों का विश्लेषण करता है।",
+              "benefits": {
+                "0": "इरादे मान्यता",
+                "1": "कौशल-आधारित मार्ग",
+                "2": "प्राथमिकता संभालना"
+              }
+            },
+            "agentOptimization": {
+              "title": "Agent Optimization",
+              "description": "एजेंटों में कार्यभार को संतुलित करें और सुनिश्चित करें कि कॉल उपलब्ध विशेषज्ञों तक पहुंचें।",
+              "benefits": {
+                "0": "भार का संतुलन",
+                "1": "उपलब्धता जाँच",
+                "2": "विशेषज्ञता मिलान"
+              }
+            },
+            "reducedWaitTimes": {
+              "title": "प्रतीक्षा समय कम कर दिया",
+              "description": "कुशल रूटिंग और कतार प्रबंधन के साथ ग्राहक प्रतीक्षा समय को कम करें।",
+              "benefits": {
+                "0": "कतार अनुकूलन",
+                "1": "कॉलबैक विकल्प",
+                "2": "वास्तविक समय अद्यतन"
+              }
+            }
+          },
+          "routing": {
+            "title": "कार्रवाई में स्मार्ट रूटिंग",
+            "description": "देखें कि हमारा एआई इष्टतम परिणामों के लिए इरादे और मार्गों की पहचान कैसे करता है"
+          },
+          "routingRules": {
+            "billingInquiry": {
+              "trigger": "Billing Inquiry",
+              "action": "बिलिंग विभाग का मार्ग",
+              "result": "90% प्रथम-कॉल संकल्प"
+            },
+            "technicalSupport": {
+              "trigger": "Technical Support",
+              "action": "तकनीकी टीम का मार्ग",
+              "result": "85% मुद्दा संकल्प"
+            },
+            "salesInterest": {
+              "trigger": "Sales Interest",
+              "action": "बिक्री दल का मार्ग",
+              "result": "40% रूपांतरण दर"
+            },
+            "vipCustomer": {
+              "trigger": "वीआईपी ग्राहक",
+              "action": "Priority Queue",
+              "result": "<30 सेकंड वेट टाइम"
+            }
+          },
+          "benefits": {
+            "title": "Measurable Impact",
+            "description": "बुद्धिमान कॉल ट्रांसफर को लागू करने से वास्तविक परिणाम"
+          },
+          "metrics": {
+            "waitTime": {
+              "description": "औसत प्रतीक्षा समय में कमी"
+            },
+            "resolution": {
+              "description": "प्रथम-कॉल संकल्प दर"
+            },
+            "efficiency": {
+              "description": "एजेंट दक्षता में सुधार"
+            },
+            "accuracy": {
+              "description": "सही विभाग के लिए सटीक मार्ग"
+            }
+          },
+          "cta": {
+            "title": "अपने कॉल रूटिंग को अनुकूलित करने के लिए तैयार हैं?",
+            "description": "प्रतीक्षा समय कम करें और बुद्धिमान कॉल ट्रांसफर के साथ ग्राहकों की संतुष्टि में सुधार करें",
+            "primaryButton": "निशुल्क आजमाइश शुरु करें",
+            "secondaryButton": "See Demo"
+          }
+        },
+        "scamShield": {
+          "hero": {
+            "title": "घोटाला ढाल संरक्षण",
+            "subtitle": "अपने ग्राहकों को फोन घोटालों और फर्जी कॉल से एआई-संचालित पता लगाने से बचाएं जो आपके समुदाय को वित्तीय धोखाधड़ी से सुरक्षित रखते हुए वास्तविक समय में खतरों की पहचान और अवरुद्ध करता है।",
+            "cta": "घोटाले की सुरक्षा को सक्रिय करें"
+          },
+          "features": {
+            "title": "उन्नत घोटाले का पता लगाना",
+            "subtitle": "विकसित धोखाधड़ी रणनीति के खिलाफ बहुस्तरीय सुरक्षा",
+            "realTimeDetection": {
+              "title": "वास्तविक समय घोटाला पता लगाना",
+              "description": "उन्नत एआई एल्गोरिदम आपके ग्राहकों तक पहुंचने से पहले धोखाधड़ी कॉल को पहचानते हैं और ब्लॉक करते हैं।",
+              "benefit1": "पैटर्न मान्यता",
+              "benefit2": "व्यवहार संबंधी विश्लेषण",
+              "benefit3": "त्वरित अवरोधक"
+            },
+            "threatIntelligence": {
+              "title": "Threat Intelligence",
+              "description": "ज्ञात घोटाले पैटर्न और धोखाधड़ी वाले फोन नंबर के लगातार अद्यतन डेटाबेस।",
+              "benefit1": "वैश्विक खतरा आंकड़ा",
+              "benefit2": "वास्तविक समय अद्यतन",
+              "benefit3": "यंत्र अधिगम"
+            },
+            "customerProtection": {
+              "title": "Customer Protection",
+              "description": "ग्राहकों को वित्तीय धोखाधड़ी और पहचान की चोरी के प्रयासों से सुरक्षित रूप से सुरक्षित रखें।",
+              "benefit1": "धोखाधड़ी रोकथाम",
+              "benefit2": "पहचान संरक्षण",
+              "benefit3": "वित्तीय सुरक्षा"
+            }
+          },
+          "scamTypes": {
+            "title": "सभी घोटाले प्रकारों के खिलाफ संरक्षित",
+            "subtitle": "सबसे आम धोखाधड़ी रणनीति के खिलाफ व्यापक सुरक्षा",
+            "phishing": {
+              "type": "Phishing Calls",
+              "description": "व्यक्तिगत जानकारी चुराने या क्रेडेंशियल्स को लॉगिन करने का प्रयास",
+              "detection": "आवाज पैटर्न विश्लेषण और कीवर्ड का पता लगाना",
+              "action": "तत्काल कॉल समाप्ति और ग्राहक चेतावनी"
+            },
+            "techSupport": {
+              "type": "तकनीकी सहायता घोटाले",
+              "description": "कंप्यूटर समस्याओं का दावा करने वाले नकली तकनीकी सहायता",
+              "detection": "स्क्रिप्ट पैटर्न मान्यता और कॉलर आईडी सत्यापन",
+              "action": "ब्लॉक कॉल करें और वैध समर्थन संपर्क प्रदान करें"
+            },
+            "financialFraud": {
+              "type": "Financial Fraud",
+              "description": "बैंकों या वित्तीय संस्थानों को लागू करना",
+              "detection": "संस्था सत्यापन और आवाज प्रमाणीकरण",
+              "action": "कॉल को समाप्त करें और वास्तविक वित्तीय संस्थान को सूचित करें"
+            },
+            "romance": {
+              "type": "Romance Scams",
+              "description": "पैसे निकालने के लिए नकली संबंधों का निर्माण",
+              "detection": "वार्तालाप पैटर्न विश्लेषण और भावनात्मक हेरफेर का पता लगाना",
+              "action": "चेतावनी अलर्ट और संसाधन प्रावधान"
+            },
+            "detectionMethod": "पता लगाने की विधि:",
+            "protectionAction": "संरक्षण कार्रवाई:",
+            "detectionMethodLabel": "Detection Method",
+            "protectionActionLabel": "Protection Action"
+          },
+          "protection": {
+            "title": "बहु-परत संरक्षण तंत्र",
+            "subtitle": "हमारे व्यापक घोटाले शील्ड कई पहचान विधियों का उपयोग करते हैं जो एक साथ काम करने के लिए अधिकतम सुरक्षा प्रदान करते हैं, जबकि वैध कॉल हमेशा के माध्यम से प्राप्त करते हैं।",
+            "realTimeAnalysis": {
+              "title": "वास्तविक समय विश्लेषण",
+              "description": "हर आने वाली कॉल का त्वरित मूल्यांकन"
+            },
+            "continuousLearning": {
+              "title": "Continuous Learning",
+              "description": "AI हर अवरुद्ध घोटाले के साथ पता लगाने में सुधार करता है"
+            },
+            "zeroFalsePositives": {
+              "title": "शून्य झूठी सकारात्मक",
+              "description": "वैध कॉल कभी अवरुद्ध नहीं होते हैं"
+            },
+            "layersTitle": "Protection Layers",
+            "layer1": "कॉलर आईडी सत्यापन",
+            "layer2": "आवाज पैटर्न विश्लेषण",
+            "layer3": "स्क्रिप्ट का पता लगाना एल्गोरिदम",
+            "layer4": "व्यवहार संबंधी विसंगति का पता लगाना",
+            "layer5": "वास्तविक समय के खतरे की बुद्धि",
+            "layer6": "ग्राहक शिक्षा अलर्ट"
+          },
+          "benefits": {
+            "title": "Protection Results",
+            "subtitle": "धोखाधड़ी को रोकने और ग्राहकों की सुरक्षा में प्रभावशीलता साबित हुई",
+            "accuracy": {
+              "metric": "95%",
+              "description": "घोटाले का पता लगाने की सटीकता"
+            },
+            "reduction": {
+              "metric": "80%",
+              "description": "सफल धोखाधड़ी के प्रयासों में कमी"
+            },
+            "coverage": {
+              "metric": "24/7",
+              "description": "निरंतर सुरक्षा कवरेज"
+            },
+            "preservation": {
+              "metric": "99.9%",
+              "description": "वैध कॉल संरक्षण दर"
+            }
+          },
+          "cta": {
+            "title": "अपने ग्राहकों की सुरक्षा के लिए तैयार हैं?",
+            "subtitle": "एआई-संचालित धोखाधड़ी का पता लगाने और सुरक्षा के साथ उनके ट्रैक में स्कैमर्स को रोकें",
+            "activateProtection": "Activate Protection",
+            "learnMore": "Learn More",
+            "primaryButton": "Activate Protection",
+            "secondaryButton": "Learn More"
+          },
+          "protectionSystem": {
+            "title": "बहु-परत संरक्षण तंत्र",
+            "subtitle": "हमारे व्यापक घोटाले शील्ड कई पहचान विधियों का उपयोग करते हैं जो एक साथ काम करने के लिए अधिकतम सुरक्षा प्रदान करते हैं, जबकि वैध कॉल हमेशा के माध्यम से प्राप्त करते हैं।",
+            "realTimeAnalysis": {
+              "title": "वास्तविक समय विश्लेषण",
+              "description": "हर आने वाली कॉल का त्वरित मूल्यांकन"
+            },
+            "continuousLearning": {
+              "title": "Continuous Learning",
+              "description": "AI हर अवरुद्ध घोटाले के साथ पता लगाने में सुधार करता है"
+            },
+            "zeroFalsePositives": {
+              "title": "शून्य झूठी सकारात्मक",
+              "description": "वैध कॉल कभी अवरुद्ध नहीं होते हैं"
+            }
+          },
+          "results": {
+            "title": "Protection Results",
+            "subtitle": "धोखाधड़ी को रोकने और ग्राहकों की सुरक्षा में प्रभावशीलता साबित हुई"
+          }
+        },
+        "paymentProcessing": {
+          "hero": {
+            "title": "सुरक्षित भुगतान प्रसंस्करण",
+            "description": "वॉयस इंटरैक्शन के माध्यम से सुरक्षित, पीसीआई-अनुपालन भुगतान प्रसंस्करण सक्षम करें। ग्राहकों को उन्नत धोखाधड़ी संरक्षण और तत्काल लेनदेन प्रसंस्करण के साथ फोन पर सुरक्षित रूप से भुगतान करें।",
+            "cta": "सुरक्षित भुगतान सक्षम करें"
+          },
+          "features": {
+            "title": "सुरक्षित आवाज भुगतान सुविधाएँ",
+            "subtitle": "एंटरप्राइज-ग्रेड सुरक्षा निर्बाध ग्राहक अनुभव को पूरा करती है",
+            "securePayment": {
+              "title": "सुरक्षित भुगतान प्रसंस्करण",
+              "description": "PCI-Compliant वॉयस तकनीक के साथ फोन पर सुरक्षित रूप से भुगतान भुगतान करें।",
+              "benefit1": "PCI DSS अनुपालन",
+              "benefit2": "एन्क्रिप्टेड लेनदेन",
+              "benefit3": "एकाधिक भुगतान विधियाँ"
+            },
+            "fraudProtection": {
+              "title": "Fraud Protection",
+              "description": "उन्नत धोखाधड़ी का पता लगाने और व्यवसाय और ग्राहकों दोनों की सुरक्षा के लिए रोकथाम।",
+              "benefit1": "वास्तविक समय धोखाधड़ी का पता लगाना",
+              "benefit2": "जोखिम आकलन",
+              "benefit3": "सुरक्षित प्रमाणीकरण"
+            },
+            "instantProcessing": {
+              "title": "Instant Processing",
+              "description": "वास्तविक समय प्राधिकरण और पुष्टि के साथ तुरंत भुगतान भुगतान।",
+              "benefit1": "वास्तविक समय प्राधिकरण",
+              "benefit2": "त्वरित पुष्टि",
+              "benefit3": "तत्काल प्राप्तियां"
+            }
+          },
+          "paymentMethods": {
+            "title": "व्यापक भुगतान विकल्प",
+            "subtitle": "सुरक्षित आवाज प्रसंस्करण के साथ सभी प्रमुख भुगतान विधियों को स्वीकार करें",
+            "creditCards": {
+              "method": "Credit Cards",
+              "description": "सुरक्षित आवाज प्रसंस्करण के साथ सभी प्रमुख क्रेडिट कार्ड स्वीकार करें",
+              "feature1": "वीजा, मास्टरकार्ड, एमेक्स",
+              "feature2": "सीवीवी सत्यापन",
+              "feature3": "समाप्ति सत्यापन"
+            },
+            "debitCards": {
+              "method": "Debit Cards",
+              "description": "पिन सत्यापन के साथ डेबिट कार्ड भुगतान प्रक्रिया",
+              "feature1": "आवाज के माध्यम से पिन प्रविष्टि",
+              "feature2": "बैंक सत्यापन",
+              "feature3": "त्वरित कटौती"
+            },
+            "bankTransfers": {
+              "method": "Bank Transfers",
+              "description": "प्रत्यक्ष बैंक खाता स्थानान्तरण और ACH भुगतान",
+              "feature1": "लेखा सत्यापन",
+              "feature2": "रूटिंग संख्या सत्यापन",
+              "feature3": "ACH प्रसंस्करण"
+            },
+            "digitalWallets": {
+              "method": "Digital Wallets",
+              "description": "लोकप्रिय डिजिटल भुगतान प्लेटफार्मों के लिए समर्थन",
+              "feature1": "Apple Pay",
+              "feature2": "Google Pay",
+              "feature3": "पेपैल एकीकरण"
+            }
+          },
+          "security": {
+            "title": "बैंक-स्तरीय सुरक्षा",
+            "description": "हमारी भुगतान प्रसंस्करण प्रणाली उद्योग में उच्चतम सुरक्षा मानकों को पूरा करती है, यह सुनिश्चित करती है कि प्रत्येक लेनदेन एन्क्रिप्शन और धोखाधड़ी की रोकथाम की कई परतों के साथ संरक्षित है।",
+            "endToEndEncryption": {
+              "title": "अंत-से-अंत एन्क्रिप्शन",
+              "description": "सभी भुगतान डेटा पारगमन और आराम में एन्क्रिप्ट किए गए"
+            },
+            "pciCompliance": {
+              "title": "PCI DSS अनुपालन",
+              "description": "स्तर 1 पीसीआई डीएसएस प्रमाणित इन्फ्रास्ट्रक्चर"
+            },
+            "realTimeMonitoring": {
+              "title": "वास्तविक समय में निगरानी",
+              "description": "निरंतर धोखाधड़ी का पता लगाना और रोकथाम"
+            },
+            "featuresTitle": "Security Features",
+            "feature1": "अंत-से-अंत एन्क्रिप्शन",
+            "feature2": "PCI DSS स्तर 1 अनुपालन",
+            "feature3": "कार्ड डेटा का टोकन",
+            "feature4": "बहु-कारक प्रमाणीकरण",
+            "feature5": "वास्तविक समय धोखाधड़ी निगरानी",
+            "feature6": "सुरक्षित आवाज मान्यता"
+          },
+          "benefits": {
+            "title": "भुगतान संसाधन प्रदर्शन",
+            "subtitle": "उद्योग-अग्रणी विश्वसनीयता और सुरक्षा मेट्रिक्स",
+            "uptime": {
+              "metric": "99.9%",
+              "description": "भुगतान प्रसंस्करण अपटाइम"
+            },
+            "transactionTime": {
+              "metric": "<3s",
+              "description": "औसत लेनदेन काल"
+            },
+            "compliance": {
+              "metric": "100%",
+              "description": "PCI DSS अनुपालन"
+            },
+            "fraudRate": {
+              "metric": "0.1%",
+              "description": "एआई संरक्षण के साथ धोखाधड़ी दर"
+            }
+          },
+          "cta": {
+            "title": "सुरक्षित आवाज भुगतान के लिए तैयार हैं?",
+            "subtitle": "उन्नत धोखाधड़ी संरक्षण के साथ PCI- अनुरूप भुगतान प्रसंस्करण सक्षम करें",
+            "primaryButton": "सुरक्षित प्रसंस्करण शुरू करें",
+            "secondaryButton": "Security Overview"
+          }
+        }
+      },
+      "mentalHealth": {
+        "hero": {
+          "title": "मानसिक स्वास्थ्य आवाज साथी",
+          "subtitle": "AI के साथ 24/7 मानसिक स्वास्थ्य सहायता प्रदान करें जो सहानुभूति के साथ सुनता है, समझता है, और प्रतिक्रिया करता है। सुरक्षित रूप से संकट और पेशेवर देखभाल के बीच की खाई को पाटते हैं।",
+          "cta": "मानसिक स्वास्थ्य एआई के बारे में जानें"
+        },
+        "features": {
+          "title": "दयालु एआई समर्थन",
+          "subtitle": "उन्नत एआई मानसिक स्वास्थ्य सहायता और संकट हस्तक्षेप में प्रशिक्षित",
+          "empathetic": {
+            "title": "सशक्त एआई साथी",
+            "description": "उपयुक्त भावनात्मक प्रतिक्रियाओं के साथ दयालु, गैर-न्यायिक समर्थन प्रदान करने के लिए प्रशिक्षित।",
+            "benefits": {
+              "activeListing": "स्फूर्ति से ध्यान देना",
+              "emotionalValidation": "भावनात्मक सत्यापन",
+              "crisisRecognition": "संकट की मान्यता"
+            }
+          },
+          "safe": {
+            "title": "सुरक्षित और गोपनीय",
+            "description": "HIPAA-COMPLIANT प्लेटफॉर्म सभी इंटरैक्शन के लिए पूर्ण गोपनीयता और गोपनीयता सुनिश्चित करता है।",
+            "benefits": {
+              "hipaaCompliance": "HIPAA अनुपालन",
+              "encryptedConversations": "एन्क्रिप्टेड वार्तालाप",
+              "anonymousOptions": "अनाम विकल्प"
+            }
+          },
+          "available": {
+            "title": "24/7 उपलब्धता",
+            "description": "हमेशा उपलब्ध जब किसी को बात करने की आवश्यकता होती है, संकट के क्षणों के दौरान तत्काल सहायता प्रदान करता है।",
+            "benefits": {
+              "roundTheClockAccess": "राउंड-द-क्लॉक एक्सेस",
+              "immediateResponse": "तुरंत प्रतिसाद",
+              "noWaitTimes": "कोई प्रतीक्षा समय नहीं"
+            }
+          }
+        },
+        "capabilities": {
+          "title": "मानसिक स्वास्थ्य सहायता क्षमता",
+          "subtitle": "मानसिक स्वास्थ्य देखभाल स्पेक्ट्रम में व्यापक समर्थन",
+          "screening": {
+            "title": "प्रारंभिक मानसिक स्वास्थ्य स्क्रीनिंग",
+            "description": "मान्य स्क्रीनिंग टूल का उपयोग करके प्रारंभिक मूल्यांकन का संचालन करें",
+            "outcomes": {
+              "earlyIdentification": "प्रारंभिक पहचान",
+              "riskAssessment": "जोखिम आकलन",
+              "appropriateReferrals": "उचित रेफरल"
+            }
+          },
+          "crisis": {
+            "title": "Crisis Intervention",
+            "description": "संकट की स्थितियों को पहचानें और तत्काल सहायता या वृद्धि प्रदान करें",
+            "outcomes": {
+              "crisisDetection": "संकट का पता लगाना",
+              "deEscalationTechniques": "डी-एस्केलेशन तकनीक",
+              "emergencyProtocols": "आपात -प्रोटोकॉल"
+            }
+          },
+          "navigation": {
+            "title": "Resource Navigation",
+            "description": "उपयोगकर्ताओं को उचित मानसिक स्वास्थ्य संसाधनों और सेवाओं के लिए मार्गदर्शन करें",
+            "outcomes": {
+              "serviceMatching": "सेवा मिलान",
+              "appointmentScheduling": "नियुक्ति अनुसूचक",
+              "followUpSupport": "अनुवर्ती समर्थन"
+            }
+          },
+          "emotional": {
+            "title": "Emotional Support",
+            "description": "दयालु सुनने और भावनात्मक सत्यापन प्रदान करें",
+            "outcomes": {
+              "reducedIsolation": "कम अलगाव",
+              "emotionalRelief": "भावनात्मक राहत",
+              "copingStrategies": "निपटने की रणनीतियां"
+            }
+          }
+        },
+        "safety": {
+          "title": "सुरक्षा-प्रथम डिजाइन",
+          "description": "हमारे मानसिक स्वास्थ्य एआई को सर्वोच्च प्राथमिकता के रूप में सुरक्षा के साथ डिज़ाइन किया गया है, जिसमें उन्नत संकट का पता लगाने और तत्काल वृद्धि प्रोटोकॉल की विशेषता है ताकि उपयोगकर्ताओं को आवश्यकता पड़ने पर उचित पेशेवर देखभाल प्राप्त हो सके।",
+          "crisisDetection": {
+            "title": "Crisis Detection",
+            "description": "उन्नत एल्गोरिदम संकट की स्थितियों की पहचान करते हैं"
+          },
+          "professionalHandoff": {
+            "title": "Professional Handoff",
+            "description": "मानवीय मानसिक स्वास्थ्य पेशेवरों के लिए निर्बाध हस्तांतरण"
+          },
+          "emergencyProtocols": {
+            "title": "Emergency Protocols",
+            "description": "जरूरत पड़ने पर संकट हॉटलाइन से तत्काल संबंध"
+          },
+          "features": {
+            "title": "Safety Features",
+            "crisisKeywordDetection": "संकट कीवर्ड का पता लगाना",
+            "suicideRiskAssessment": "आत्मघाती जोखिम मूल्यांकन",
+            "automaticEscalationProtocols": "स्वत: वृद्धि प्रोटोकॉल",
+            "emergencyContactIntegration": "आपातक संपर्क एकीकरण",
+            "professionalHandoffProcedures": "पेशेवर हैंडऑफ प्रक्रिया",
+            "followUpScheduling": "अनुवर्ती निर्धारण"
+          }
+        },
+        "impact": {
+          "title": "मानसिक स्वास्थ्य प्रभाव",
+          "subtitle": "मानसिक स्वास्थ्य सहायता पहुंच में औसत दर्जे का सुधार",
+          "availability": {
+            "metric": "24/7",
+            "description": "हमेशा उपलब्ध समर्थन"
+          },
+          "crisisReduction": {
+            "metric": "60%",
+            "description": "संकट वृद्धि में कमी"
+          },
+          "satisfaction": {
+            "metric": "85%",
+            "description": "उपयोगकर्ता संतुष्टि दर"
+          },
+          "helpSeeking": {
+            "metric": "40%",
+            "description": "मदद लेने वाले व्यवहार में वृद्धि"
+          }
+        },
+        "cta": {
+          "title": "मानसिक स्वास्थ्य का समर्थन करने के लिए तैयार हैं?",
+          "subtitle": "AI के साथ 24/7 मानसिक स्वास्थ्य सहायता प्रदान करें जो वास्तव में परवाह करता है",
+          "learnMore": "Learn More",
+          "contactSpecialists": "Contact Specialists"
+        }
+      }
+    }
+  }
+}

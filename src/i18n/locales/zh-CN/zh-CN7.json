@@ -1,0 +1,1938 @@
+{
+  "compare": {
+    "aircallAlternative": {
+      "seo": {
+        "title": "Aircall 替代方案 - Seasalt.ai 统一通讯平台",
+        "description": "摆脱 Aircall 的附加费用和用户最低要求。了解为什么成长中的团队选择 Seasalt.ai 透明定价的一体化通讯平台。"
+      },
+      "nav": {
+        "backToOverview": "返回比较概览"
+      },
+      "hero": {
+        "title": {
+          "part1": "厌倦了附加费用和用户最低要求？",
+          "part2": "了解为什么成长中的团队选择 Seasalt.ai 而非 Aircall"
+        },
+        "subtitle": "Aircall 以其友善的使用者介面著称，但却以强制性的 3 用户最低要求将小团队逼入困境，其定价模式将 AI、进阶分析，甚至 WhatsApp 整合等关键功能隐藏在昂贵的月费附加服务之后。Seasalt.ai 提供真正的一体化平台，价格透明。"
+      },
+      "comparison": {
+        "title": "功能逐项比较",
+        "subtitle": "了解 Seasalt.ai 如何提供您所需的所有功能，无需附加费用和复杂性",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "aircall": "Aircall"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "定价模式",
+            "seasalt": "简单的按用户收费",
+            "competitor": "按授权收费 + 多项必需附加服务"
+          },
+          "userMinimum": {
+            "name": "用户最低要求",
+            "seasalt": "1",
+            "competitor": "3"
+          },
+          "unifiedComm": {
+            "name": "统一语音和 WhatsApp",
+            "seasalt": "是，原生包含",
+            "competitor": "否，需要 $10/月 附加服务"
+          },
+          "aiVoiceAgent": {
+            "name": "AI 语音代理",
+            "seasalt": "是，已包含（按用量计费）",
+            "competitor": "否，需要 $0.99/分钟 附加服务"
+          },
+          "aiCallSummaries": {
+            "name": "AI 通话摘要",
+            "seasalt": "是，已包含",
+            "competitor": "否，需要 $9/月 附加服务"
+          },
+          "advancedAnalytics": {
+            "name": "进阶分析",
+            "seasalt": "是，已包含",
+            "competitor": "否，需要 $15/月 附加服务"
+          },
+          "callQuality": {
+            "name": "通话品质反馈",
+            "seasalt": "高品质语音",
+            "competitor": "用户反映品质不稳定且经常断线"
+          },
+          "bestFor": {
+            "name": "最适合",
+            "seasalt": "需要负担得起的真正一体化解决方案的中小企业",
+            "competitor": "能满足用户最低要求且负担得起多项附加服务的销售/支援团队"
+          }
+        }
+      },
+      "costComparison": {
+        "title": "真实成本比较",
+        "subtitle": "了解 Aircall 的附加费用如何快速累积，相较于 Seasalt.ai 的透明定价",
+        "aircall": {
+          "title": "Aircall 现实检查",
+          "basePlan": "基本方案（每用户）",
+          "basePlanCost": "$30/月",
+          "aiVoiceAddon": "AI 语音附加服务",
+          "aiVoiceAddonCost": "+$9/月",
+          "whatsappIntegration": "WhatsApp 整合",
+          "whatsappIntegrationCost": "+$10/月",
+          "advancedAnalytics": "进阶分析",
+          "advancedAnalyticsCost": "+$15/月",
+          "totalPerUser": "每用户总计",
+          "totalPerUserCost": "$64/月",
+          "minimumNote": "加上 3 用户最低要求 = 每月最低 $192"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "admin": "管理员（首位用户）",
+          "adminCost": "$50/月",
+          "additionalAgents": "额外代理人",
+          "additionalAgentsCost": "每位 $25/月",
+          "aiVoiceIncluded": "AI 语音 + 聊天已包含",
+          "aiVoiceIncludedCost": "$0",
+          "allChannelsIncluded": "所有通道已包含",
+          "allChannelsIncludedCost": "$0",
+          "analyticsIncluded": "分析功能已包含",
+          "analyticsIncludedCost": "$0",
+          "total": "总计（3 位用户）",
+          "totalCost": "$100/月",
+          "savings": "相较于 Aircall 每月节省 $92"
+        }
+      },
+      "cta": {
+        "title": "准备摆脱附加费用？",
+        "subtitle": "加入数千家从 Aircall 转换的成长企业，获得所需的所有功能，无需复杂性和隐藏成本。",
+        "signUp": "注册",
+        "bookDemo": "预约演示"
+      }
+    },
+    "ringcentral": {
+      "seo": {
+        "title": "RingCentral 替代方案 - 统一联络中心 vs 分散式解决方案 | Seasalt.ai",
+        "description": "探索为什么 Seasalt.ai 真正统一的联络中心优于 RingCentral 分散的 UCaaS 和 CCaaS 方法。比较价格、功能和架构。",
+        "canonicalPath": "/compare/ringcentral-alternative"
+      },
+      "navigation": {
+        "backToOverview": "返回比较总览"
+      },
+      "hero": {
+        "title": {
+          "part1": "寻找真正的一体化联络中心？",
+          "part2": "看看 RingCentral 的「统一」平台为何不足"
+        },
+        "subtitle": "RingCentral 是通信领域的巨头，但其解决方案是分散的。他们的主要产品是商务电话系统 (UCaaS)，而他们的联络中心 (RingCX) 是一个独立的高级产品，起价为每位座席每月 65 美元。这造成了复杂性和资讯孤岛。Seasalt.ai 从零开始构建为单一的统一联络中心。"
+      },
+      "comparison": {
+        "title": "统一 vs 分散架构",
+        "subtitle": "了解为什么真正统一的平台胜过拼凑的独立产品",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "ringcentral": "RingCentral"
+          }
+        },
+        "features": {
+          "platformArchitecture": {
+            "name": "平台架构",
+            "seasalt": "真正统一的联络中心",
+            "ringcentral": "独立的 UCaaS 和 CCaaS 产品"
+          },
+          "startingPrice": {
+            "name": "起价（联络中心）",
+            "seasalt": "$25/座席/月",
+            "ringcentral": "$65/座席/月 (RingCX)"
+          },
+          "unifiedVoiceDigital": {
+            "name": "统一语音与数位",
+            "seasalt": "是，原生包含",
+            "ringcentral": "否，未在一个收件箱中原生统一"
+          },
+          "integrationQuality": {
+            "name": "整合品质",
+            "seasalt": "可靠的现代化整合",
+            "ringcentral": "用户反映整合有问题和记录问题"
+          },
+          "easeOfUse": {
+            "name": "易用性",
+            "seasalt": "对小型团队直观",
+            "ringcentral": "用户反映设置可能「令人困惑」"
+          },
+          "bestFor": {
+            "name": "最适合",
+            "seasalt": "希望拥有简单、强大且真正统一联络中心的中小企业",
+            "ringcentral": "需要广泛 UCaaS 平台且愿意为独立联络中心解决方案支付额外费用的大公司"
+          }
+        }
+      },
+      "architecture": {
+        "title": "架构很重要",
+        "subtitle": "为什么统一在客户沟通方面胜过分散",
+        "seasalt": {
+          "title": "Seasalt.ai：统一平台",
+          "features": {
+            "singleLogin": "所有通道单一登入",
+            "unifiedHistory": "统一对话记录",
+            "seamlessSwitching": "无缝通道切换",
+            "oneBilling": "一个帐单，一个支援联系人",
+            "builtInIntegrations": "内建可用整合"
+          }
+        },
+        "ringcentral": {
+          "title": "RingCentral：独立产品",
+          "issues": {
+            "multipleLogins": "多重登入和介面",
+            "fragmentedData": "分散的对话资料",
+            "complexIntegration": "复杂的整合要求",
+            "separateBilling": "UCaaS 和 CCaaS 分别计费",
+            "buggyIntegrations": "用户反映整合有问题"
+          }
+        }
+      },
+      "cta": {
+        "title": "准备好真正的统一了吗？",
+        "subtitle": "停止操作独立系统。获得从第一天起就无缝运作的真正统一联络中心。",
+        "signUp": "注册",
+        "bookDemo": "预约示范"
+      }
+    },
+    "genesysAlternative": {
+      "seo": {
+        "title": "Genesys 替代方案 - 专为中小企业设计的联络中心解决方案",
+        "description": "企业级功能，无需企业级复杂性。为中小企业比较 Seasalt.ai 与 Genesys Cloud CX。"
+      },
+      "nav": {
+        "backToOverview": "返回比较总览"
+      },
+      "hero": {
+        "title1": "企业级功能，",
+        "title2": "无需企业级价格与复杂性",
+        "subtitle": "Genesys 是一个为拥有专业 IT 团队和雄厚资金的大型企业设计的强大企业级平台。其定价模式反映了这一点，具有高昂的每用户成本、显著的最低月度承诺（约 2,000 美元/月最低承诺）以及复杂的基于代币的 AI 功能计费。对中小企业而言，这不仅负担不起，而且难以管理。"
+      },
+      "comparison": {
+        "title": "专注中小企业 vs. 仅限企业",
+        "subtitle": "了解为什么 Seasalt.ai 能提供您所需的功能，却没有不必要的复杂性"
+      },
+      "table": {
+        "headers": {
+          "feature": "功能",
+          "seasalt": "Seasalt.ai",
+          "genesys": "Genesys Cloud CX"
+        }
+      },
+      "features": {
+        "targetCustomer": {
+          "name": "目标客户",
+          "seasalt": "中小企业",
+          "competitor": "大型企业"
+        },
+        "startingPrice": {
+          "name": "起始价格",
+          "seasalt": "$25/代理/月",
+          "competitor": "$75/用户/月"
+        },
+        "minimumCommitment": {
+          "name": "最低承诺",
+          "seasalt": "无",
+          "competitor": "高额（约 $2,000/月最低承诺）"
+        },
+        "pricingComplexity": {
+          "name": "定价复杂性",
+          "seasalt": "简单透明",
+          "competitor": "极其复杂。分层计划、使用代币、附加功能、基于报价"
+        },
+        "easeOfSetup": {
+          "name": "设置难易程度",
+          "seasalt": "几分钟内上线",
+          "competitor": "需要大量实施资源"
+        },
+        "bestFor": {
+          "name": "最适合",
+          "seasalt": "需要强大功能且简单实惠的中小企业",
+          "competitor": "拥有数百名代理和专业管理团队的全球企业"
+        }
+      },
+      "costReality": {
+        "title": "企业解决方案的真实成本",
+        "subtitle": "为什么企业定价对成长中的企业来说不合理"
+      },
+      "seasaltBenefits": {
+        "title": "Seasalt.ai：专为中小企业打造",
+        "noMinimum": {
+          "title": "无最低承诺",
+          "description": "从 1 个用户开始，随著成长扩展"
+        },
+        "simplePricing": {
+          "title": "简单定价",
+          "description": "$25/代理/月，包含所有功能"
+        },
+        "quickSetup": {
+          "title": "快速设置",
+          "description": "几分钟内上线，而非数月"
+        },
+        "selfService": {
+          "title": "自助服务",
+          "description": "无需实施团队"
+        }
+      },
+      "genesysLimitations": {
+        "title": "Genesys：企业焦点",
+        "highMinimums": {
+          "title": "高额最低承诺",
+          "description": "约 $2,000/月最低承诺"
+        },
+        "complexPricing": {
+          "title": "复杂定价",
+          "description": "分层计划、使用代币、基于报价"
+        },
+        "longImplementation": {
+          "title": "漫长实施",
+          "description": "需要专门的实施资源"
+        },
+        "enterpriseSales": {
+          "title": "企业销售",
+          "description": "必须联系销售获取定价"
+        }
+      },
+      "cta": {
+        "title": "以中小企业价格获得企业功能",
+        "subtitle": "为什么要支付企业价格，当您可以以一小部分成本获得所需功能？",
+        "signUp": "注册",
+        "bookDemo": "预约演示"
+      }
+    },
+    "five9Alternative": {
+      "seo": {
+        "title": "Five9 替代方案 - 平价联络中心解决方案 | Seasalt.ai",
+        "description": "寻找 Five9 替代方案？Seasalt.ai 提供强大的全通路联络中心功能，每名专员每月仅需 $25，而 Five9 需 $119/用户/月。最适合中小企业。"
+      },
+      "navigation": {
+        "backLink": "回到比较概览"
+      },
+      "hero": {
+        "title": {
+          "part1": "强大外拨功能无需",
+          "part2": "企业级价格标签"
+        },
+        "subtitle": "Five9 是为大型、以外拨为主的联络中心设计的强大平台，企业预算起价为每用户每月 $119。虽然对大型呼叫中心来说很出色，但对大多数成长中的企业而言过于复杂且昂贵。Seasalt.ai 以极具竞争力的价格提供中小企业所需的全通路和 AI 功能，具备平衡的来电/外拨功能。"
+      },
+      "comparison": {
+        "title": "企业级 vs. 中小企业导向解决方案",
+        "subtitle": "了解为什么您不需要企业级复杂性也能获得强大效果",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "five9": "Five9"
+          }
+        },
+        "features": {
+          "targetCustomer": {
+            "name": "目标客户",
+            "seasalt": "中小型企业 (SME)",
+            "competitor": "大型企业"
+          },
+          "startingPrice": {
+            "name": "起始价格",
+            "seasalt": "$25/专员/月",
+            "competitor": "$119/用户/月"
+          },
+          "pricingModel": {
+            "name": "定价模式",
+            "seasalt": "简单且透明",
+            "competitor": "按用户 + 套件 + 复杂等级"
+          },
+          "setupComplexity": {
+            "name": "设置复杂度",
+            "seasalt": "自助服务，几分钟内部署",
+            "competitor": "需要专业服务和实施团队"
+          },
+          "outboundFocus": {
+            "name": "外拨焦点",
+            "seasalt": "平衡来电/外拨与 AI 自动化",
+            "competitor": "重点外拨与高级拨号功能"
+          },
+          "bestFor": {
+            "name": "最适合",
+            "seasalt": "需要平价全通路与 AI 自动化的中小企业",
+            "competitor": "大型、以外拨为主的联络中心与专属团队"
+          }
+        }
+      },
+      "cost": {
+        "title": "成本现实",
+        "subtitle": "了解 Five9 的企业定价与 Seasalt.ai 的中小企业导向方式比较",
+        "agents5": {
+          "title": "5 名专员",
+          "seasalt": {
+            "price": "$175/月",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "$595/月",
+            "label": "Five9"
+          },
+          "savings": "节省 $420/月"
+        },
+        "agents10": {
+          "title": "10 名专员",
+          "seasalt": {
+            "price": "$275/月",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "$1,190/月",
+            "label": "Five9"
+          },
+          "savings": "节省 $915/月"
+        },
+        "agents20": {
+          "title": "20 名专员",
+          "seasalt": {
+            "price": "$525/月",
+            "label": "Seasalt.ai"
+          },
+          "five9": {
+            "price": "$2,380/月",
+            "label": "Five9"
+          },
+          "savings": "节省 $1,855/月"
+        }
+      },
+      "features": {
+        "title": "平衡方式 vs. 重点外拨",
+        "subtitle": "大多数企业需要来电和外拨功能，而不仅仅是重点外拨",
+        "seasalt": {
+          "title": "Seasalt.ai：平衡全通路",
+          "feature1": "跨所有通道的来电客户支援",
+          "feature2": "外拨行销活动（SMS、WhatsApp、语音）",
+          "feature3": "来电和外拨的 AI 自动化",
+          "feature4": "所有客户互动的统一收件匣",
+          "feature5": "适合成长中的企业"
+        },
+        "five9": {
+          "title": "Five9：重点外拨",
+          "feature1": "高级预测拨号功能",
+          "feature2": "复杂的活动管理工具",
+          "feature3": "企业级合规功能",
+          "feature4": "为高容量呼叫中心设计",
+          "feature5": "需要专属管理团队"
+        }
+      },
+      "cta": {
+        "title": "获得强大功能无需企业级复杂性",
+        "subtitle": "为什么为不需要的功能多付 5 倍？获得与您业务共同成长的平衡全通路解决方案。",
+        "signUp": "注册",
+        "bookDemo": "预约示范"
+      }
+    },
+    "avayaAlternative": {
+      "seo": {
+        "title": "现代云原生 vs. 传统基础架构 - Avaya 替代方案 | Seasalt.ai",
+        "description": "比较 Seasalt.ai 现代云原生架构与 Avaya 传统基础架构。了解为何云优先解决方案胜过适应传统系统的成长型企业。"
+      },
+      "navigation": {
+        "backToCompare": "返回产品比较概览"
+      },
+      "hero": {
+        "title": {
+          "main": "现代云原生 vs.",
+          "highlight": "传统基础架构"
+        },
+        "description": "Avaya 数十年来一直是电信巨头，但其传统架构和复杂的企业导向使其不适合现代成长型企业。虽然他们正在转向云端解决方案，但其定价仍以企业为导向，需要复杂的授权和专业服务要求。Seasalt.ai 从第一天就为现代企业构建云原生架构。"
+      },
+      "comparison": {
+        "title": "云原生 vs. 传统迁移",
+        "subtitle": "了解为何从现代架构开始胜过适应传统系统",
+        "tableHeaders": {
+          "feature": "功能",
+          "seasalt": "Seasalt.ai",
+          "avaya": "Avaya"
+        },
+        "features": {
+          "platformType": {
+            "name": "平台类型",
+            "seasalt": "云原生统一通信",
+            "competitor": "传统本地部署与云端迁移"
+          },
+          "startingPrice": {
+            "name": "起始价格",
+            "seasalt": "$25/座席/月",
+            "competitor": "报价制（通常 $50-100+/用户/月）"
+          },
+          "setupComplexity": {
+            "name": "设置复杂度",
+            "seasalt": "自助服务，几分钟即可部署",
+            "competitor": "需要专业服务和实施"
+          },
+          "modernArchitecture": {
+            "name": "现代架构",
+            "seasalt": "为云优先、API 驱动而构建",
+            "competitor": "传统架构与云端适配"
+          },
+          "aiIntegration": {
+            "name": "AI 整合",
+            "seasalt": "内建原生 AI 语音和聊天机器人",
+            "competitor": "通过合作伙伴和附加元件提供 AI 功能"
+          },
+          "targetMarket": {
+            "name": "目标市场",
+            "seasalt": "中小企业和成长型企业",
+            "competitor": "拥有现有 Avaya 基础架构的大型企业"
+          }
+        }
+      },
+      "architecture": {
+        "title": "现代 vs. 传统架构",
+        "subtitle": "为何云原生架构对成长型企业很重要",
+        "seasalt": {
+          "title": "Seasalt.ai：云原生",
+          "feature1": "从第一天就为云端而构建",
+          "feature2": "API 优先架构",
+          "feature3": "自动更新和扩展",
+          "feature4": "现代整合",
+          "feature5": "自助部署"
+        },
+        "avaya": {
+          "title": "Avaya：传统迁移",
+          "feature1": "传统本地部署根源",
+          "feature2": "复杂授权模式",
+          "feature3": "需要专业服务",
+          "feature4": "整合复杂度",
+          "feature5": "企业销售流程"
+        }
+      },
+      "businessImpact": {
+        "title": "商业影响",
+        "subtitle": "架构选择如何影响您的商业营运",
+        "timeToValue": {
+          "title": "价值实现时间",
+          "seasalt": {
+            "value": "分钟",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "月",
+            "label": "Avaya"
+          }
+        },
+        "setupComplexity": {
+          "title": "设置复杂度",
+          "seasalt": {
+            "value": "自助服务",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "专业服务",
+            "label": "Avaya"
+          }
+        },
+        "ongoingMaintenance": {
+          "title": "持续维护",
+          "seasalt": {
+            "value": "自动",
+            "label": "Seasalt.ai"
+          },
+          "avaya": {
+            "value": "手动",
+            "label": "Avaya"
+          }
+        }
+      },
+      "cta": {
+        "title": "选择现代而非传统",
+        "subtitle": "为何要与传统架构抗争，当您可以拥有专为当今企业构建的现代云原生解决方案？",
+        "signUp": "注册",
+        "bookDemo": "预约示范"
+      }
+    },
+    "googleVoiceAlternative": {
+      "seo": {
+        "title": "从 Google Voice 毕业？这里是您需要的专业解决方案 - Seasalt.ai",
+        "description": "了解为什么成长中的企业需要的不只是 Google Voice 的基本 VoIP 服务。比较功能并发现 Seasalt.ai 的专业通讯平台。"
+      },
+      "nav": {
+        "backToOverview": "返回比较概览"
+      },
+      "hero": {
+        "title": {
+          "line1": "从 Google Voice 毕业？",
+          "line2": "这里是您需要的专业解决方案"
+        },
+        "subtitle": "Google Voice 是个人使用或个体经营者的绝佳工具，但它并不是真正的企业电话系统。一旦您雇用团队，您就会遇到瓶颈。它缺乏关键的企业功能，如共享团队收件匣、通话排队、免费电话号码和分析功能。最重要的是，它没有公开 API，这意味著它无法与您的 CRM 或其他重要的企业软体整合。"
+      },
+      "comparison": {
+        "title": "专业企业系统 vs. 个人 VoIP",
+        "subtitle": "了解为什么成长中的企业需要的不只是基本电话服务",
+        "table": {
+          "feature": "功能",
+          "seasalt": "Seasalt.ai",
+          "competitor": "Google Voice"
+        },
+        "features": {
+          "systemType": {
+            "feature": "系统类型",
+            "seasalt": "专业全通路客服中心",
+            "competitor": "基本 VoIP 服务（不是真正的电话系统）"
+          },
+          "teamCollaboration": {
+            "feature": "团队协作",
+            "seasalt": "共享收件匣、团队管理",
+            "competitor": "没有共享收件匣。专为个人而非团队设计"
+          },
+          "crmIntegrations": {
+            "feature": "CRM 和第三方整合",
+            "seasalt": "是的，广泛的整合功能",
+            "competitor": "否。仅与 Google Workspace 应用程式整合"
+          },
+          "supportedChannels": {
+            "feature": "支援的通路",
+            "seasalt": "语音、简讯、WhatsApp、Messenger、Instagram、LINE、网路聊天",
+            "competitor": "语音、简讯（仅限美国）"
+          },
+          "automation": {
+            "feature": "自动化（机器人/IVR）",
+            "seasalt": "AI 语音机器人、聊天机器人、进阶 IVR",
+            "competitor": "仅有基本自动总机。没有其他自动化功能"
+          },
+          "tollFree": {
+            "feature": "免费电话号码",
+            "seasalt": "是",
+            "competitor": "否"
+          },
+          "callAnalytics": {
+            "feature": "通话分析",
+            "seasalt": "是的，详细报告",
+            "competitor": "否。仅有基本使用记录"
+          },
+          "bestFor": {
+            "feature": "最适合",
+            "seasalt": "需要专业、可扩展通讯平台的成长中企业",
+            "competitor": "需要简单、独立电话号码的美国个体经营者或自由工作者"
+          }
+        }
+      },
+      "growthLimitations": {
+        "title": "当您超越 Google Voice 时",
+        "subtitle": "该升级到专业企业通讯平台的迹象",
+        "firstEmployee": {
+          "title": "您雇用了第一个员工",
+          "description": "Google Voice 不支援共享收件匣或团队协作。每个人都需要自己的号码。"
+        },
+        "crmIntegration": {
+          "title": "您需要 CRM 整合",
+          "description": "没有 API 意味著无法与 Salesforce、HubSpot 或任何其他企业工具整合。"
+        },
+        "professionalFeatures": {
+          "title": "您想要专业功能",
+          "description": "没有通话排队、进阶 IVR、通话分析或免费电话号码。"
+        },
+        "multipleChannels": {
+          "title": "您需要多通路",
+          "description": "仅支援语音和简讯。没有 WhatsApp、网路聊天或社群媒体整合。"
+        },
+        "automation": {
+          "title": "您想要自动化",
+          "description": "没有 AI 聊天机器人、语音机器人或进阶自动化功能。"
+        },
+        "internationalSupport": {
+          "title": "您需要国际支援",
+          "description": "与企业平台相比，国际通话和简讯支援有限。"
+        }
+      },
+      "benefits": {
+        "title": "使用 Seasalt.ai 获得的优势",
+        "subtitle": "您成长中企业所需的专业功能",
+        "teamCollaboration": {
+          "title": "团队协作",
+          "feature1": "所有通讯的共享团队收件匣",
+          "feature2": "轮循通话分配",
+          "feature3": "团队表现分析",
+          "feature4": "客服人员间的对话交接"
+        },
+        "professionalFeatures": {
+          "title": "专业功能",
+          "feature1": "进阶 IVR 和通话路由",
+          "feature2": "提供免费电话号码",
+          "feature3": "详细的通话分析和报告",
+          "feature4": "CRM 和企业工具整合"
+        }
+      },
+      "cta": {
+        "title": "准备升级到专业通讯？",
+        "subtitle": "从 Google Voice 切换到为成长中企业打造的平台。保留您现有的号码并获得强大的新功能。",
+        "signUp": "注册",
+        "bookDemo": "预约示范"
+      }
+    },
+    "respondIoAlternative": {
+      "seo": {
+        "title": "Respond.io 替代方案 - Seasalt.ai",
+        "description": "比较 Seasalt.ai 与 Respond.io。获得真正的全通道平台，内建语音通话而非测试功能。可预测的代理人定价模式，取代复杂的活跃联络人计费。"
+      },
+      "navigation": {
+        "backLink": "返回比较概览"
+      },
+      "hero": {
+        "title": {
+          "main": "不要满足于仅有数位化。",
+          "highlight": "获得真正的全通道平台，整合原生语音与讯息功能"
+        },
+        "description": "Respond.io 是一个专注于 WhatsApp 等讯息通道的强大平台。然而，其定价基于月活跃联络人 (MACs)，可能变得不可预测，而关键的语音通道仍处于测试阶段。此外，WhatsApp 使用费用需要单独计费，增加了成本复杂性。Seasalt.ai 提供真正统一的平台，将语音作为核心原生功能。"
+      },
+      "comparison": {
+        "title": "统一全通道 vs. 数位优先",
+        "subtitle": "了解为什么原生语音整合对于完整的客户沟通至关重要",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "competitor": "respond.io"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "定价模式",
+            "seasalt": "简单且可预测的代理人费用",
+            "competitor": "月活跃联络人 (MACs) + 使用者"
+          },
+          "startingPrice": {
+            "name": "起始价格",
+            "seasalt": "$25/代理人/月",
+            "competitor": "$79/月（包含 5 位使用者）"
+          },
+          "voiceCalling": {
+            "name": "语音通话",
+            "seasalt": "是，原生且完全支援",
+            "competitor": "测试功能"
+          },
+          "whatsappFees": {
+            "name": "WhatsApp 费用",
+            "seasalt": "包含在使用量中",
+            "competitor": "由 Meta 单独计费"
+          },
+          "aiAgent": {
+            "name": "AI 代理人",
+            "seasalt": "是，所有方案都包含",
+            "competitor": "需要成长方案（$159/月+）"
+          },
+          "coreFocus": {
+            "name": "核心重点",
+            "seasalt": "真正的全通道（语音 + 数位）",
+            "competitor": "数位优先讯息"
+          },
+          "bestFor": {
+            "name": "最适合",
+            "seasalt": "需要统一平台处理所有客户对话（包括电话）的中小企业",
+            "competitor": "主要透过聊天专注於潜在客户开发的行销和销售团队"
+          }
+        }
+      },
+      "pricing": {
+        "title": "可预测 vs. 变动定价",
+        "subtitle": "为什么简单的代理人定价胜过复杂的联络人计费模式",
+        "seasalt": {
+          "title": "Seasalt.ai：简单且可预测",
+          "perAgent": {
+            "title": "代理人定价",
+            "description": "$25/代理人/月 - 易于预算和扩展"
+          },
+          "allChannels": {
+            "title": "包含所有通道",
+            "description": "语音、SMS、WhatsApp、聊天 - 无额外费用"
+          },
+          "usageIncluded": {
+            "title": "包含使用量",
+            "description": "WhatsApp 和 SMS 使用量包含在方案中"
+          },
+          "noSurprises": {
+            "title": "无意外费用",
+            "description": "可预测的月度成本，易于预测"
+          }
+        },
+        "competitor": {
+          "title": "respond.io：复杂变数",
+          "monthlyContacts": {
+            "title": "月活跃联络人",
+            "description": "定价根据联络人活动而变化"
+          },
+          "separateFees": {
+            "title": "单独 WhatsApp 费用",
+            "description": "Meta 费用单独计费"
+          },
+          "voiceBeta": {
+            "title": "语音测试版",
+            "description": "核心功能仍在开发中"
+          },
+          "unpredictableCosts": {
+            "title": "不可预测成本",
+            "description": "月度帐单可能大幅变动"
+          }
+        }
+      },
+      "voice": {
+        "title": "原生语音 vs. 测试功能",
+        "subtitle": "为什么语音应该是核心功能，而非后加功能",
+        "seasalt": {
+          "title": "Seasalt.ai：语音优先设计",
+          "nativeVoice": "平台内建原生语音通话",
+          "aiVoicebot": "AI 语音机器人与人工转接",
+          "unifiedHistory": "语音与数位通道的统一对话历史",
+          "phoneFeatures": "专业电话系统功能",
+          "productionReady": "生产就绪且完全支援"
+        },
+        "competitor": {
+          "title": "respond.io：语音作为测试版",
+          "betaTesting": "语音通话仍在测试中",
+          "limitedFeatures": "有限的语音功能和可靠性",
+          "potentialBugs": "可能出现错误和不稳定",
+          "uncertainRoadmap": "不确定的路线图和时程",
+          "notRecommended": "不建议用于生产环境"
+        }
+      },
+      "cta": {
+        "title": "准备好体验真正的全通道了吗？",
+        "description": "停止等待测试功能。获得一个语音与数位通道从第一天就完美协作的平台。",
+        "signUp": "立即注册",
+        "bookDemo": "预约演示"
+      }
+    },
+    "intercomAlternative": {
+      "seo": {
+        "title": "Intercom 替代方案 - 完整客户沟通平台 - Seasalt.ai",
+        "description": "比较 Seasalt.ai vs Intercom：超越网站小工具的统一联络中心。透明定价 vs 按解决次数收费。包含语音、简讯、WhatsApp。"
+      },
+      "navigation": {
+        "backText": "返回比较我们概览"
+      },
+      "hero": {
+        "title": {
+          "prefix": "超越网站小工具。",
+          "highlight": "获得完整的客户沟通平台"
+        },
+        "subtitle": "Intercom 在主动网站互动方面表现出色，拥有一流的即时聊天和 AI 聊天机器人 Fin。然而，其定价模式复杂且昂贵，按座位、按 AI 解决次数（每次 $0.99）和附加功能分别收费。语音和简讯只是按使用付费的附加功能。Seasalt.ai 是作为真正的联络中心而建，语音是主要渠道。"
+      },
+      "comparison": {
+        "title": "完整平台 vs. 专注网站的工具",
+        "subtitle": "了解为什么统一联络中心胜过专业的网站互动工具",
+        "table": {
+          "feature": "功能",
+          "seasalt": "Seasalt.ai",
+          "competitor": "Intercom"
+        },
+        "features": {
+          "pricingModel": {
+            "name": "定价模式",
+            "seasalt": "简单且可预测的按代理人收费",
+            "competitor": "按座位 + 按解决次数 + 附加功能"
+          },
+          "startingPrice": {
+            "name": "起始价格",
+            "seasalt": "$25/代理人/月",
+            "competitor": "$29-$39/座位/月"
+          },
+          "aiAgentCost": {
+            "name": "AI 代理成本",
+            "seasalt": "包含在内（基于使用量）",
+            "competitor": "$0.99 每次解决"
+          },
+          "voiceCalling": {
+            "name": "语音通话",
+            "seasalt": "是，原生且完全支援",
+            "competitor": "按使用付费的附加功能"
+          },
+          "coreFocus": {
+            "name": "核心专注",
+            "seasalt": "统一联络中心",
+            "competitor": "网站互动与支援"
+          },
+          "bestFor": {
+            "name": "最适合",
+            "seasalt": "需要完整沟通中心的中小企业",
+            "competitor": "专注于在网站上转换和支援用户的 SaaS 和网路企业"
+          }
+        }
+      },
+      "pricing": {
+        "title": "简单 vs. 复杂定价",
+        "subtitle": "为什么透明定价胜过按解决次数收费和使用费",
+        "seasalt": {
+          "title": "Seasalt.ai：透明定价",
+          "perAgent": {
+            "title": "$25/代理人/月",
+            "description": "包含一切，没有意外"
+          },
+          "aiIncluded": {
+            "title": "包含 AI",
+            "description": "计划中包含语音和聊天机器人"
+          },
+          "allChannels": {
+            "title": "所有渠道",
+            "description": "语音、简讯、WhatsApp、聊天 - 无额外费用"
+          },
+          "predictable": {
+            "title": "可预测成本",
+            "description": "容易预算和预测"
+          }
+        },
+        "intercom": {
+          "title": "Intercom：复杂计费",
+          "basePrice": {
+            "title": "$39/座位/月",
+            "description": "附加功能前的基础价格"
+          },
+          "aiResolution": {
+            "title": "$0.99 每次 AI 解决",
+            "description": "每次 AI 互动收费"
+          },
+          "payPerUse": {
+            "title": "按使用付费语音",
+            "description": "语音通话单独收费"
+          },
+          "unpredictable": {
+            "title": "不可预测帐单",
+            "description": "成本基于使用量变化"
+          }
+        }
+      },
+      "scenarios": {
+        "title": "真实世界成本情境",
+        "subtitle": "了解 Intercom 的按解决次数定价如何快速累积",
+        "light": {
+          "title": "轻度使用",
+          "description": "3 个代理人，100 次 AI 解决/月",
+          "seasalt": {
+            "price": "$75/月",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "$216/月",
+            "label": "Intercom",
+            "breakdown": "（$117 基础 + $99 AI）"
+          }
+        },
+        "medium": {
+          "title": "中度使用",
+          "description": "5 个代理人，300 次 AI 解决/月",
+          "seasalt": {
+            "price": "$150/月",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "$492/月",
+            "label": "Intercom",
+            "breakdown": "（$195 基础 + $297 AI）"
+          }
+        },
+        "heavy": {
+          "title": "重度使用",
+          "description": "10 个代理人，1000 次 AI 解决/月",
+          "seasalt": {
+            "price": "$275/月",
+            "label": "Seasalt.ai"
+          },
+          "intercom": {
+            "price": "$1,380/月",
+            "label": "Intercom",
+            "breakdown": "（$390 基础 + $990 AI）"
+          }
+        }
+      },
+      "channels": {
+        "title": "完整渠道覆盖 vs. 专注网站",
+        "subtitle": "为什么企业需要的不仅仅是网站互动",
+        "seasalt": {
+          "title": "Seasalt.ai：完整覆盖",
+          "voice": "原生语音通话和电话系统",
+          "whatsapp": "WhatsApp Business Platform 整合",
+          "sms": "简讯行销和支援",
+          "social": "社群媒体讯息（Instagram、Facebook）",
+          "website": "网站聊天和联络表单",
+          "unified": "所有渠道的统一收件匣"
+        },
+        "intercom": {
+          "title": "Intercom：专注网站",
+          "websiteChat": "优秀的网站聊天和互动",
+          "proactive": "主动讯息和目标定位",
+          "voiceAddon": "语音通话作为按使用付费附加功能",
+          "smsLimited": "有限的简讯功能",
+          "noWhatsapp": "无原生 WhatsApp Business Platform 整合",
+          "noSocial": "无社群媒体讯息支援"
+        }
+      },
+      "cta": {
+        "title": "准备好进行完整的客户沟通了吗？",
+        "subtitle": "停止按解决次数付费，获得一个以可预测价格涵盖所有客户沟通需求的完整平台。",
+        "signUp": "注册",
+        "bookDemo": "预约演示"
+      }
+    },
+    "kustomerAlternative": {
+      "seo": {
+        "title": "Kustomer 替代方案 | Seasalt.ai 与 Kustomer 比较",
+        "description": "比较 Seasalt.ai 与 Kustomer 客户支援平台。了解为什么中小企业选择我们经济实惠的全通道解决方案，而非企业级昂贵平台。"
+      },
+      "nav": {
+        "backLink": "返回比较总览"
+      },
+      "hero": {
+        "title": "企业级功能，中小企业价格。",
+        "highlight": "为什么您只需要 2 个席位却要付 8 个席位的钱？",
+        "description": "Kustomer 是一个强大的真正全通道平台，提供客户历程的统一视图。然而，其强大功能伴随著企业级价格。按席位计费方案起价为每月 89 美元，且强制要求最少 8 个席位，使大多数中小企业无法负担。关键的 AI 功能也是昂贵的附加服务。Seasalt.ai 提供中小企业所需的核心全通道功能和 AI 自动化。"
+      },
+      "comparison": {
+        "title": "中小企业可负担 vs. 仅限企业",
+        "subtitle": "了解为什么强大功能不应该需要企业级最低要求",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "kustomer": "Kustomer"
+          }
+        },
+        "features": {
+          "pricingModel": {
+            "name": "定价模式",
+            "seasalt": "简单且可预测的按代理收费",
+            "kustomer": "按席位或按对话收费"
+          },
+          "startingPrice": {
+            "name": "起始价格",
+            "seasalt": "$25/代理/月",
+            "kustomer": "$89/席位/月"
+          },
+          "minimumCommitment": {
+            "name": "最低承诺",
+            "seasalt": "1 个用户",
+            "kustomer": "8 个席位（按席位计费方案）"
+          },
+          "aiCapabilities": {
+            "name": "AI 功能",
+            "seasalt": "包含在内（基于使用量）",
+            "kustomer": "付费附加服务（$40/用户/月或$0.60/对话）"
+          },
+          "omnichannelTimeline": {
+            "name": "全通道时间轴",
+            "seasalt": "是",
+            "kustomer": "是，非常强大"
+          },
+          "coreFocus": {
+            "name": "核心重点",
+            "seasalt": "为中小企业提供经济实惠的统一通信",
+            "kustomer": "企业级、资料驱动的客户服务"
+          },
+          "bestFor": {
+            "name": "最适合",
+            "seasalt": "需要强大但经济实惠的全通道解决方案的成长型企业",
+            "kustomer": "能满足席位最低要求且需要深度资料整合的大型支援团队"
+          }
+        }
+      },
+      "costBarrier": {
+        "title": "8 席位最低限制障碍",
+        "subtitle": "了解 Kustomer 的最低承诺如何让成长型企业望而却步",
+        "scenarios": {
+          "twoAgents": {
+            "title": "2 个代理",
+            "seasaltPrice": "$75/月",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "$712/月",
+            "kustomerLabel": "Kustomer（8 席位最低）",
+            "savings": "节省 $637/月"
+          },
+          "fiveAgents": {
+            "title": "5 个代理",
+            "seasaltPrice": "$175/月",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "$712/月",
+            "kustomerLabel": "Kustomer（8 席位最低）",
+            "savings": "节省 $537/月"
+          },
+          "eightAgents": {
+            "title": "8 个代理",
+            "seasaltPrice": "$225/月",
+            "seasaltLabel": "Seasalt.ai",
+            "kustomerPrice": "$712/月",
+            "kustomerLabel": "Kustomer",
+            "savings": "节省 $487/月"
+          }
+        },
+        "problem": {
+          "title": "中小企业可及性问题",
+          "description": "Kustomer 的 8 席位最低要求意味著即使是 2 人团队也要为 6 个未使用的席位付费。这造成了人为障碍，阻止成长型企业在达到企业规模之前获得强大的全通道功能。"
+        }
+      },
+      "aiCosts": {
+        "title": "内含 AI vs. 昂贵附加服务",
+        "subtitle": "了解当 AI 被视为高级功能时成本如何累积",
+        "seasalt": {
+          "title": "Seasalt.ai：内含 AI",
+          "voiceAi": {
+            "title": "语音 AI",
+            "description": "包含在基本方案中"
+          },
+          "chatAi": {
+            "title": "聊天 AI",
+            "description": "包含在基本方案中"
+          },
+          "smartRouting": {
+            "title": "智能路由",
+            "description": "包含在基本方案中"
+          },
+          "totalCost": {
+            "title": "AI 总成本",
+            "amount": "$0 额外费用"
+          }
+        },
+        "kustomer": {
+          "title": "Kustomer：AI 作为附加服务",
+          "perUser": {
+            "title": "KIQ AI（按用户）",
+            "description": "每用户每月额外 $40"
+          },
+          "perConversation": {
+            "title": "KIQ AI（按对话）",
+            "description": "每对话 $0.60"
+          },
+          "example": {
+            "title": "范例：8 个用户",
+            "calculation": "8 × $40 = 每月额外 $320"
+          },
+          "totalCost": {
+            "title": "AI 总成本",
+            "amount": "$320+ 额外费用"
+          }
+        }
+      },
+      "features": {
+        "title": "您获得的 vs. 您付出的",
+        "subtitle": "两个平台都提供强大的全通道功能，但价格截然不同",
+        "shared": {
+          "title": "两者都提供的功能",
+          "unifiedInbox": "统一全通道收件箱",
+          "conversationHistory": "客户对话记录",
+          "teamCollaboration": "团队协作工具",
+          "analytics": "分析和报告",
+          "crmIntegrations": "CRM 整合"
+        },
+        "advantages": {
+          "title": "Seasalt.ai 优势",
+          "noMinimum": "无最低席位要求",
+          "aiIncluded": "基本价格包含 AI",
+          "nativeVoice": "原生语音通话平台",
+          "selfService": "自助设置和管理",
+          "smeFocused": "专注中小企业的定价和功能"
+        }
+      },
+      "cta": {
+        "title": "获得企业功能，无需企业最低要求",
+        "subtitle": "为什么您只需要 2 个席位却要付 8 个席位的钱？获得强大的全通道功能，根据您的实际团队规模扩展。",
+        "signUp": "注册",
+        "bookDemo": "预约演示"
+      }
+    },
+    "threeCXAlternative": {
+      "seo": {
+        "title": "Seasalt.ai 与 3CX 替代方案比较 - 云端托管 vs 自行架设",
+        "description": "比较 Seasalt.ai 完全托管的云端解决方案与 3CX 的自行架设 PBX。了解 3CX「平价」定价背后的真实成本与复杂性。"
+      },
+      "nav": {
+        "backLink": "返回比较概览"
+      },
+      "hero": {
+        "title": "选择简单和云端力量。",
+        "highlight": "停止管理伺服器，开始与客户对话",
+        "description": "3CX 提供基于同时通话数而非用户数的独特定价模式的开放平台 PBX，对某些企业来说可能具有成本效益。然而，这伴随著显著的隐藏复杂性和成本。您需要负责主机、SSL 凭证和技术支援（每张工单从 75 美元起）。它本质上是电话系统，而非原生的全通路平台。Seasalt.ai 是完全托管的云原生解决方案。"
+      },
+      "comparison": {
+        "title": "托管云端 vs. 自行架设复杂性",
+        "subtitle": "了解为什么对于成长中的企业，完全托管优于自己动手",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "threeCX": "3CX"
+          }
+        },
+        "features": {
+          "platformType": {
+            "name": "平台类型",
+            "seasalt": "云原生统一通信",
+            "threeCX": "自行架设或托管 IP PBX"
+          },
+          "pricingModel": {
+            "name": "定价模式",
+            "seasalt": "简单的每座席费用",
+            "threeCX": "按同时通话数 + 主机 + 支援"
+          },
+          "managementOverhead": {
+            "name": "管理负担",
+            "seasalt": "无（由 Seasalt.ai 完全托管）",
+            "threeCX": "高（需要技术专业知识进行设置和维护）"
+          },
+          "omnichannelInbox": {
+            "name": "全通路收件匣",
+            "seasalt": "是，原生支援",
+            "threeCX": "否，主要是电话系统"
+          },
+          "aiCapabilities": {
+            "name": "AI 功能",
+            "seasalt": "是，原生语音和聊天机器人",
+            "threeCX": "「即将推出」附加元件"
+          },
+          "bestFor": {
+            "name": "最适合",
+            "seasalt": "希望拥有强大、易用、一体化解决方案的企业",
+            "threeCX": "希望完全控制其 PBX 的技术型组织"
+          }
+        }
+      },
+      "hiddenCosts": {
+        "title": "「平价」3CX 的隐藏成本",
+        "subtitle": "看看 3CX 广告定价中未包含的项目",
+        "seasalt": {
+          "title": "Seasalt.ai：全包式",
+          "pricing": "$25/座席/月",
+          "pricingDescription": "包含所有功能",
+          "cloudHosting": {
+            "title": "云端主机",
+            "description": "包含 - 无需伺服器管理"
+          },
+          "support": {
+            "title": "支援",
+            "description": "包含 - 无限制支援"
+          },
+          "updates": {
+            "title": "更新和维护",
+            "description": "包含 - 自动更新"
+          },
+          "ssl": {
+            "title": "SSL 凭证",
+            "description": "包含 - 自动管理"
+          }
+        },
+        "threeCX": {
+          "title": "3CX：隐藏成本",
+          "baseLicense": {
+            "price": "~$25/月（4 通通话）",
+            "description": "仅基础授权"
+          },
+          "hostingCosts": {
+            "title": "主机成本",
+            "description": "VPS/云端主机每月 $20-100+"
+          },
+          "supportTickets": {
+            "title": "支援工单",
+            "description": "每张支援工单 $75+"
+          },
+          "itManagement": {
+            "title": "IT 管理",
+            "description": "您的时间或顾问费用"
+          },
+          "sslCerts": {
+            "title": "SSL 凭证",
+            "description": "凭证每年 $50-200+"
+          }
+        },
+        "realCost": {
+          "title": "真实的总拥有成本",
+          "description": "3CX 的广告定价不包括主机、支援、维护，或您花费在管理上的时间。对大多数企业来说，总成本很快就超过完全托管解决方案。",
+          "calculation": "3CX「真实」成本：$25 授权 + $50 主机 + $75 支援工单 + 您的时间 = 每月 $150+"
+        }
+      },
+      "technicalComplexity": {
+        "title": "专注于业务，而非 IT 管理",
+        "subtitle": "了解您使用 3CX 需要管理什么 vs. Seasalt.ai 为您处理什么",
+        "threeCX": {
+          "title": "使用 3CX 您需要管理的项目",
+          "serverProvisioning": "伺服器配置和设定",
+          "osUpdates": "作业系统更新和安全修补",
+          "sslInstallation": "SSL 凭证安装和更新",
+          "firewallConfig": "防火墙设定和安全",
+          "backupRecovery": "备份和灾难恢复",
+          "troubleshooting": "故障排除和支援工单",
+          "capacityPlanning": "容量规划和扩展"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai 处理的项目",
+          "infrastructure": "完整的基础设施管理",
+          "securityUpdates": "自动安全更新",
+          "sslManagement": "SSL 凭证自动管理",
+          "enterpriseSecurity": "内建企业级安全",
+          "backups": "自动备份和冗余",
+          "monitoring": "24/7 监控和支援",
+          "scaling": "自动扩展和最佳化"
+        }
+      },
+      "cta": {
+        "title": "专注于业务成长，而非管理伺服器",
+        "subtitle": "为什么要把时间花在 IT 管理上，而不是与客户对话？获得一个真正有效的完全托管解决方案。",
+        "signUp": "注册",
+        "bookDemo": "预约演示"
+      }
+    },
+    "dialpadAlternative": {
+      "seo": {
+        "title": "Dialpad 替代方案：统一联络中心 vs 昂贵升级 | Seasalt.ai",
+        "description": "别被 Dialpad 的升级费用困住！从一开始就获得统一的联络中心解决方案，Seasalt.ai 完整功能每位客服 $25/月，而非 Dialpad 联络中心层级的 $80+/月。"
+      },
+      "nav": {
+        "backLink": "回到比较总览"
+      },
+      "hero": {
+        "title": "不要为「联络中心」功能额外付费",
+        "highlight": "从一开始就获得统一平台",
+        "description": "Dialpad 以每位使用者 $15/月 的有吸引力价格提供强大的 UCaaS 平台，具备出色的语音智能（AI 转录和摘要）。然而，这并非他们的联络中心解决方案。真正的联络中心功能，包括全通道路由和进阶分析，需要升级到更昂贵的方案，如 Dialpad Support，起价为 $80/使用者/月。Seasalt.ai 从根本上就是统一的联络中心。"
+      },
+      "comparison": {
+        "title": "统一联络中心 vs. 分离产品",
+        "subtitle": "了解为什么从统一平台开始胜过升级到昂贵的联络中心层级",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "dialpad": "Dialpad"
+          }
+        },
+        "features": {
+          "platformArchitecture": {
+            "name": "平台架构",
+            "seasalt": "真正的统一联络中心",
+            "dialpad": "分离的 UCaaS 和 CCaaS 产品"
+          },
+          "startingPrice": {
+            "name": "起始价格 (UCaaS)",
+            "seasalt": "$25/客服/月",
+            "dialpad": "$15/使用者/月"
+          },
+          "contactCenterPrice": {
+            "name": "联络中心价格",
+            "seasalt": "$25/客服/月",
+            "dialpad": "$80+/使用者/月"
+          },
+          "unifiedVoiceDigital": {
+            "name": "统一语音与数位通道",
+            "seasalt": "是，原生包含",
+            "dialpad": "否，需要昂贵的 CCaaS 方案"
+          },
+          "voiceAI": {
+            "name": "语音 AI",
+            "seasalt": "是，语音机器人与转录",
+            "dialpad": "是，强大的转录与摘要"
+          },
+          "globalSMS": {
+            "name": "全球简讯",
+            "seasalt": "是",
+            "dialpad": "需要 Pro 方案（$25/月+）"
+          },
+          "bestFor": {
+            "name": "最适合",
+            "seasalt": "想要简单、强大且真正统一联络中心的中小企业",
+            "dialpad": "优先考虑语音通话 AI 但不需要统一数位收件匣的企业"
+          }
+        }
+      },
+      "pricingTiers": {
+        "title": "联络中心升级陷阱",
+        "subtitle": "了解 Dialpad 有吸引力的入门价格如何导致联络中心功能的昂贵升级",
+        "dialpadStandard": {
+          "title": "Dialpad Standard",
+          "price": "$15",
+          "period": "/使用者/月",
+          "features": {
+            "basicCalling": "基本通话",
+            "voiceIntelligence": "语音智能",
+            "noOmnichannel": "无全通道",
+            "noContactCenter": "无联络中心功能"
+          },
+          "goodFor": "适合：基本商务电话"
+        },
+        "dialpadSupport": {
+          "title": "Dialpad Support",
+          "price": "$80+",
+          "period": "/使用者/月",
+          "features": {
+            "contactCenterFeatures": "联络中心功能",
+            "omnichannelRouting": "全通道路由",
+            "advancedAnalytics": "进阶分析",
+            "digitalChannels": "数位通道"
+          },
+          "requiredFor": "必需用于：联络中心需求"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "price": "$25",
+          "period": "/客服/月",
+          "features": {
+            "fullContactCenter": "完整联络中心",
+            "allChannelsIncluded": "包含所有通道",
+            "aiVoiceChat": "AI 语音与聊天",
+            "noUpgradeRequired": "无需升级"
+          },
+          "perfectFor": "完美适用：完整解决方案"
+        }
+      },
+      "costAnalysis": {
+        "title": "联络中心功能的真实成本",
+        "subtitle": "了解 Dialpad 的升级成本如何与 Seasalt.ai 的统一定价比较",
+        "agents5": {
+          "title": "5 位客服",
+          "seasalt": {
+            "price": "$125/月",
+            "label": "Seasalt.ai（完整版）"
+          },
+          "dialpadBasic": {
+            "price": "$75/月",
+            "label": "Dialpad（仅基本版）"
+          },
+          "dialpadCC": {
+            "price": "$400/月",
+            "label": "Dialpad（联络中心）"
+          }
+        },
+        "agents10": {
+          "title": "10 位客服",
+          "seasalt": {
+            "price": "$275/月",
+            "label": "Seasalt.ai（完整版）"
+          },
+          "dialpadBasic": {
+            "price": "$150/月",
+            "label": "Dialpad（仅基本版）"
+          },
+          "dialpadCC": {
+            "price": "$800/月",
+            "label": "Dialpad（联络中心）"
+          }
+        },
+        "agents20": {
+          "title": "20 位客服",
+          "seasalt": {
+            "price": "$525/月",
+            "label": "Seasalt.ai（完整版）"
+          },
+          "dialpadBasic": {
+            "price": "$300/月",
+            "label": "Dialpad（仅基本版）"
+          },
+          "dialpadCC": {
+            "price": "$1,600/月",
+            "label": "Dialpad（联络中心）"
+          }
+        }
+      },
+      "voiceAI": {
+        "title": "语音 AI：两个平台都表现出色",
+        "subtitle": "两个平台都提供强大的语音 AI 功能，但在不同的应用环境下",
+        "seasalt": {
+          "title": "Seasalt.ai：完整 AI 套件",
+          "features": {
+            "voicebotHandling": "自动通话处理的 AI 语音机器人",
+            "realtimeTranscription": "即时转录和摘要",
+            "aiChatbots": "数位通道的 AI 聊天机器人",
+            "unifiedAI": "跨所有通道的统一 AI",
+            "includedPricing": "包含在基本定价中"
+          }
+        },
+        "dialpad": {
+          "title": "Dialpad：专注语音的 AI",
+          "features": {
+            "excellentTranscription": "出色的即时转录",
+            "aiSummaries": "AI 驱动的通话摘要",
+            "sentimentAnalysis": "情感分析",
+            "limitedVoiceOnly": "仅限于语音通道",
+            "noAutomatedHandling": "无自动通话处理"
+          }
+        }
+      },
+      "cta": {
+        "title": "跳过昂贵的升级路径",
+        "description": "为什么要从基本功能开始，然后为联络中心功能支付 3 倍的费用？从第一天开始就以一小部分成本获得所需的一切功能。",
+        "buttons": {
+          "signUp": "注册",
+          "bookDemo": "预约演示"
+        }
+      }
+    },
+    "eightXEightAlternative": {
+      "seo": {
+        "title": "8x8 替代方案：企业功能无需企业定价 | Seasalt.ai",
+        "description": "以中小企业友善的定价获得所需的企业级全通道功能。透明、简单且经济实惠的复杂 8x8 企业解决方案替代方案。"
+      },
+      "nav": {
+        "backLink": "回到比较总览"
+      },
+      "hero": {
+        "title": "获得您需要的企业功能，",
+        "highlight": "无需您不需要的企业定价",
+        "description": "8x8 是一个全面的企业级解决方案，提供完整的 UCaaS 和 CCaaS 功能套件，包括真正的全通道路由和进阶分析。虽然功能强大，但其定价不透明（基于报价）且历史上昂贵，针对大型组织。对于中小企业而言，复杂性和成本往往令人望而却步。Seasalt.ai 提供为成长中企业带来价值的关键全通道和 AI 功能。"
+      },
+      "comparison": {
+        "title": "中小企业导向 vs. 企业复杂",
+        "subtitle": "了解为什么简单透明胜过复杂不透明的成长中企业",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "eightXEight": "8x8"
+          }
+        },
+        "features": {
+          "targetCustomer": {
+            "name": "目标客户",
+            "seasalt": "中小型企业 (SMEs)",
+            "eightXEight": "中型市场到企业"
+          },
+          "pricingModel": {
+            "name": "定价模式",
+            "seasalt": "简单且可预测的每位客服费用",
+            "eightXEight": "基于报价（历史上昂贵的层级）"
+          },
+          "startingPrice": {
+            "name": "起始价格",
+            "seasalt": "$25/客服/月",
+            "eightXEight": "未公开列出（之前基本 UCaaS 从 $24/月 开始）"
+          },
+          "omnichannelRouting": {
+            "name": "全通道路由",
+            "seasalt": "是",
+            "eightXEight": "是，进阶版"
+          },
+          "workforceManagement": {
+            "name": "员工管理",
+            "seasalt": "基本版",
+            "eightXEight": "是，进阶版"
+          },
+          "easeOfSetup": {
+            "name": "设置简易度",
+            "seasalt": "简单，自助服务",
+            "eightXEight": "复杂，必须联系销售"
+          },
+          "bestFor": {
+            "name": "最适合",
+            "seasalt": "需要强大但经济实惠且易于使用平台的中小企业",
+            "eightXEight": "需要完整进阶通讯和管理工具套件的大型企业"
+          }
+        }
+      },
+      "pricingTransparency": {
+        "title": "透明 vs. 隐藏定价",
+        "subtitle": "为什么基于报价的定价会为成长中的企业创造障碍",
+        "seasalt": {
+          "title": "Seasalt.ai：透明定价",
+          "pricing": {
+            "title": "$25/客服/月",
+            "description": "清晰、公开的定价"
+          },
+          "selfService": {
+            "title": "自助注册",
+            "description": "立即开始，无需销售通话"
+          },
+          "noMinimums": {
+            "title": "无最低限制",
+            "description": "从 1 位使用者开始，根据需要扩展"
+          },
+          "predictableCosts": {
+            "title": "可预测成本",
+            "description": "轻松预算和预测"
+          }
+        },
+        "eightXEight": {
+          "title": "8x8：基于报价的复杂性",
+          "hiddenPricing": {
+            "title": "隐藏定价",
+            "description": "必须联系销售获取定价"
+          },
+          "salesProcess": {
+            "title": "销售流程",
+            "description": "冗长的销售周期和谈判"
+          },
+          "enterpriseFocus": {
+            "title": "企业导向",
+            "description": "为大型组织优化的定价"
+          },
+          "complexContracts": {
+            "title": "复杂合约",
+            "description": "多年承诺和复杂条款"
+          }
+        },
+        "quoteBasedProblem": {
+          "title": "基于报价定价的问题",
+          "description": "当定价不透明时，通常意味著它很昂贵。基于报价的定价为需要预算和快速决策的中小企业创造障碍。它是为拥有专门采购团队和大型预算的企业买家而设计的。"
+        }
+      },
+      "featureComparison": {
+        "title": "精要 vs. 过度工程",
+        "subtitle": "了解 Seasalt.ai 如何专注于中小企业实际需要的功能 vs. 企业复杂性",
+        "seasalt": {
+          "title": "Seasalt.ai：中小企业导向",
+          "features": {
+            "essentialOmnichannel": "精要全通道功能",
+            "aiAutomation": "包含 AI 自动化",
+            "simpleSetup": "简单设置和管理",
+            "intuitiveUI": "直观的使用者介面",
+            "affordableScaling": "经济实惠的扩展",
+            "fastTimeToValue": "快速实现价值"
+          }
+        },
+        "eightXEight": {
+          "title": "8x8：企业复杂",
+          "features": {
+            "advancedWorkforce": "进阶员工管理",
+            "comprehensiveAnalytics": "全面分析套件",
+            "complexImplementation": "需要复杂实施",
+            "steepLearning": "陡峭的学习曲线",
+            "highTotalCost": "高总体拥有成本",
+            "longDeployment": "冗长的部署时间"
+          }
+        }
+      },
+      "businessImpact": {
+        "title": "商业影响比较",
+        "subtitle": "平台选择如何影响您的业务营运和成长",
+        "timeToDeploy": {
+          "title": "部署时间",
+          "seasalt": {
+            "value": "分钟",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "月份",
+            "label": "8x8"
+          }
+        },
+        "learningCurve": {
+          "title": "学习曲线",
+          "seasalt": {
+            "value": "低",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "高",
+            "label": "8x8"
+          }
+        },
+        "totalCost": {
+          "title": "总成本",
+          "seasalt": {
+            "value": "可预测",
+            "label": "Seasalt.ai"
+          },
+          "eightXEight": {
+            "value": "可变",
+            "label": "8x8"
+          }
+        }
+      },
+      "cta": {
+        "title": "获得企业级功能与中小企业简易性",
+        "description": "为什么要应对企业复杂性，当您可以在专为成长中企业设计的简单、经济实惠套件中获得所需功能？",
+        "buttons": {
+          "signUp": "注册",
+          "bookDemo": "预约演示"
+        }
+      }
+    },
+    "openPhoneAlternative": {
+      "seo": {
+        "title": "OpenPhone 替代方案：超越电话与简讯的全通道解决方案 | Seasalt.ai",
+        "description": "从 OpenPhone 的语音/简讯限制升级到完整的全通道平台。以 $25/客服获得 WhatsApp、网站聊天、AI 自动化和进阶路由功能。"
+      },
+      "nav": {
+        "backLink": "回到比较总览"
+      },
+      "hero": {
+        "title": "您的业务需要的不只是一个电话号码。",
+        "highlight": "升级到真正的通讯平台",
+        "description": "OpenPhone 是一个出色、现代且经济实惠的商务电话系统，非常适合需要共享号码进行通话和简讯的团队。然而，它并非全通道客服中心。它缺乏网站聊天和社群媒体等关键通道，其自动化和 AI 功能仅限于附加元件或基本整合。Seasalt.ai 是已经超越简单电话解决方案的企业的合理下一步。"
+      },
+      "comparison": {
+        "title": "电话系统 vs. 完整通讯平台",
+        "subtitle": "了解为什么成长中的企业需要的不仅仅是语音和简讯",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "seasalt": "Seasalt.ai",
+            "openPhone": "OpenPhone"
+          }
+        },
+        "features": {
+          "platformType": {
+            "name": "平台类型",
+            "seasalt": "全通道客服中心",
+            "openPhone": "商务电话系统 (VoIP)"
+          },
+          "supportedChannels": {
+            "name": "支援通道",
+            "seasalt": "语音、简讯、WhatsApp、网站聊天、社群媒体",
+            "openPhone": "仅语音与简讯/MMS"
+          },
+          "unifiedInbox": {
+            "name": "统一收件匣",
+            "seasalt": "是，适用所有通道",
+            "openPhone": "是，但仅限通话与简讯"
+          },
+          "aiFeatures": {
+            "name": "AI 语音/聊天机器人",
+            "seasalt": "是，原生且包含",
+            "openPhone": "AI 是付费附加元件 ($49/月)"
+          },
+          "advancedRouting": {
+            "name": "进阶路由",
+            "seasalt": "是，技能型与 IVR",
+            "openPhone": "商务方案基本 IVR ($23/月+)"
+          },
+          "crmIntegrations": {
+            "name": "CRM 整合",
+            "seasalt": "是",
+            "openPhone": "仅商务方案提供 HubSpot/Salesforce"
+          },
+          "bestFor": {
+            "name": "最适合",
+            "seasalt": "需要在一处管理所有客户沟通通道的企业",
+            "openPhone": "需要简单、经济实惠共享电话号码的小型团队和新创公司"
+          }
+        }
+      },
+      "growthLimitations": {
+        "title": "当您超越简单电话系统",
+        "subtitle": "是时候从 OpenPhone 升级到完整通讯平台的迹象",
+        "customerChat": {
+          "title": "客户想要聊天",
+          "description": "您的客户要求网站聊天、WhatsApp 支援或 OpenPhone 无法提供的社群媒体讯息功能。"
+        },
+        "automation": {
+          "title": "您需要自动化",
+          "description": "您希望 AI 处理例行问题、预约会议，或提供超越基本自动回复的 24/7 支援。"
+        },
+        "complexRouting": {
+          "title": "复杂通话路由",
+          "description": "您需要超越 OpenPhone 基本功能的进阶 IVR、技能型路由或伫列管理。"
+        },
+        "marketingCampaigns": {
+          "title": "行销活动",
+          "description": "您想要执行外拨简讯活动、WhatsApp 行销或多通道客户推广。"
+        },
+        "unifiedCustomerView": {
+          "title": "统一客户检视",
+          "description": "您需要查看所有通道的客户互动，不仅仅是电话通话和简讯。"
+        },
+        "advancedAnalytics": {
+          "title": "进阶分析",
+          "description": "您希望获得客户互动、客服表现和业务指标的详细报告。"
+        }
+      },
+      "featureExpansion": {
+        "title": "使用 Seasalt.ai 您将获得什么",
+        "subtitle": "保留您喜爱的 OpenPhone 所有功能并增加强大的全通道能力",
+        "keepWorks": {
+          "title": "保留有用功能",
+          "sharedNumber": "共享商务电话号码",
+          "teamSMS": "团队简讯和 MMS 讯息",
+          "simpleInterface": "简单直观的介面",
+          "mobileApp": "随身移动应用程式",
+          "affordablePricing": "经济实惠的定价"
+        },
+        "addCapabilities": {
+          "title": "新增新功能",
+          "whatsapp": "WhatsApp Business Platform 整合",
+          "webchat": "网站聊天小工具",
+          "socialMedia": "社群媒体讯息",
+          "aiVoicebots": "AI 语音机器人和聊天机器人",
+          "analytics": "进阶分析和报告"
+        }
+      },
+      "pricingComparison": {
+        "title": "定价比较",
+        "subtitle": "了解 Seasalt.ai 的完整平台与 OpenPhone 加附加元件的比较",
+        "openPhoneStarter": {
+          "title": "OpenPhone 入门版",
+          "price": "$15",
+          "period": "/使用者/月",
+          "voiceOnly": "仅语音与简讯",
+          "noAI": "无 AI 功能",
+          "noChannels": "无其他通道"
+        },
+        "openPhoneAddons": {
+          "title": "OpenPhone + 附加元件",
+          "price": "$72",
+          "period": "/使用者/月",
+          "businessPlan": "商务方案 ($23)",
+          "aiFeatures": "AI 功能 ($49)",
+          "stillLimited": "仍仅限语音与简讯"
+        },
+        "seasalt": {
+          "title": "Seasalt.ai",
+          "price": "$25",
+          "period": "/客服/月",
+          "allChannels": "包含所有通道",
+          "aiIncluded": "包含 AI",
+          "completePlatform": "完整平台"
+        }
+      },
+      "migrationPath": {
+        "title": "简单迁移路径",
+        "subtitle": "无缝从 OpenPhone 转换到 Seasalt.ai，不会丢失您的号码或中断服务",
+        "keepNumber": {
+          "title": "保留您的号码",
+          "description": "将您现有的商务号码转移到 Seasalt.ai"
+        },
+        "addChannels": {
+          "title": "新增新通道",
+          "description": "连接 WhatsApp、网站聊天和社群媒体"
+        },
+        "enableAI": {
+          "title": "启用 AI",
+          "description": "设定自动回应和语音机器人"
+        },
+        "trainTeam": {
+          "title": "培训您的团队",
+          "description": "快速上手新功能和能力"
+        }
+      },
+      "cta": {
+        "title": "准备升级您的通讯平台吗？",
+        "description": "保留您喜爱的 OpenPhone 所有功能，并新增强大的全通道能力来帮助您的业务成长。",
+        "buttons": {
+          "signUp": "注册",
+          "bookDemo": "预约演示"
+        }
+      }
+    }
+  },
+  "channelsOverview": {
+    "seo": {
+      "title": "通讯渠道 - Seasalt.ai",
+      "description": "在单一仪表板中连接 WhatsApp、电话通话、简讯、联络表单和社交媒体。从一个强大的平台管理每个客户对话。"
+    },
+    "hero": {
+      "backToHome": "返回首页",
+      "title": "每个客户渠道，",
+      "titleHighlight": "一个统一平台",
+      "subtitle": "在单一仪表板中连接 WhatsApp、电话通话、简讯、联络表单和社交媒体。从一个强大的平台管理每个客户对话。",
+      "hubTitle": "Seasalt.ai 中心",
+      "hubSubtitle": "所有渠道统一"
+    },
+    "channelsSection": {
+      "title": "选择您的渠道",
+      "subtitle": "从客户最常使用的渠道开始，随著成长而扩展。每个整合只需几分钟，而不是几个月。"
+    },
+    "channels": {
+      "whatsappBusiness": {
+        "name": "WhatsApp Business Platform",
+        "capabilities": {
+          "0": "AI 驱动的对话机器人回应",
+          "1": "大量讯息活动",
+          "2": "语音讯息支援",
+          "3": "Meta Cloud API 整合"
+        }
+      },
+      "voicePhoneCalls": {
+        "name": "语音与电话通话",
+        "capabilities": {
+          "0": "AI 语音机器人与人工转接",
+          "1": "自动拨号活动",
+          "2": "多专员轮循",
+          "3": "Twilio Flex 整合"
+        }
+      },
+      "smsMessaging": {
+        "name": "简讯通讯",
+        "capabilities": {
+          "0": "大量简讯活动",
+          "1": "双向对话",
+          "2": "全球传送（200+ 个国家）",
+          "3": "TCPA 合规工具"
+        }
+      },
+      "websiteChatWidget": {
+        "name": "网站聊天小工具",
+        "capabilities": {
+          "0": "可嵌入的聊天小工具",
+          "1": "可自订设计",
+          "2": "潜在客户撷取表单",
+          "3": "WordPress、Shopify 整合"
+        }
+      },
+      "instagramDMs": {
+        "name": "Instagram 直接讯息",
+        "capabilities": {
+          "0": "自动化直接讯息回应",
+          "1": "限时动态互动处理",
+          "2": "图像识别 AI",
+          "3": "商业帐户整合"
+        }
+      },
+      "facebookMessenger": {
+        "name": "Facebook Messenger",
+        "capabilities": {
+          "0": "Facebook 商业整合",
+          "1": "商店整合",
+          "2": "潜在客户生成工具",
+          "3": "社会证明功能"
+        }
+      },
+      "contactForms": {
+        "name": "联络表单",
+        "capabilities": {
+          "0": "MailerLite 整合",
+          "1": "HubSpot 表单同步",
+          "2": "即时潜在客户参与",
+          "3": "CRM 同步化"
+        }
+      },
+      "lineBusiness": {
+        "name": "LINE Business",
+        "capabilities": {
+          "0": "LINE 官方帐号",
+          "1": "亚洲市场专注",
+          "2": "商业讯息",
+          "3": "文化在地化"
+        }
+      },
+      "websiteWidget": {
+        "name": "网站小工具",
+        "capabilities": {
+          "0": "全渠道小工具",
+          "1": "WordPress、Shopify、Wix 支援",
+          "2": "MailerLite 整合",
+          "3": "进阶分析"
+        }
+      }
+    },
+    "labels": {
+      "difficulty": {
+        "easy": "简单",
+        "medium": "中等"
+      },
+      "learnMore": "了解更多"
+    },
+    "benefitsSection": {
+      "title": "整合效益",
+      "subtitle": "当所有渠道共同运作时，魔法就会发生。了解为什么统一通讯是客户参与的未来。"
+    },
+    "benefits": {
+      "unifiedCustomerView": {
+        "title": "统一客户视图",
+        "description": "跨所有渠道的单一对话历史记录，具完整语境"
+      },
+      "consistentAITraining": {
+        "title": "一致的 AI 训练",
+        "description": "一个知识库为所有通讯平台的回应提供支援"
+      },
+      "seamlessHandoffs": {
+        "title": "无缝转接",
+        "description": "在渠道之间转移对话而不失去语境或历史记录"
+      }
+    },
+    "cta": {
+      "title": "准备好统一您的客户渠道了吗？",
+      "subtitle": "从我们的免费方案开始，在几分钟内连接您的第一个渠道。随著业务成长而扩展。",
+      "signUp": "注册",
+      "bookDemo": "预约演示"
+    }
+  }
+}

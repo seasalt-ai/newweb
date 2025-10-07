@@ -1,0 +1,1600 @@
+{
+  "seax": {
+    "home": {
+      "seo": {
+        "title": "SeaX - Platform Pemasaran SMS Massal, WhatsApp & Suara | Seasalt.ai",
+        "description": "Skalakan jangkauan Anda ke jutaan dengan SMS massal SeaX yang kuat, pesan WhatsApp, dan kampanye suara AI. Tingkat pengiriman tinggi, jangkauan global, dan analitik canggih."
+      },
+      "scalingProblem": {
+        "title": "Masalah Jangkauan Manual",
+        "subtitle": "Bisnis Anda perlu menjangkau ribuan pelanggan, tetapi jangkauan manual tidak skalabel. SeaX mengotomatiskan komunikasi Anda sambil mempertahankan sentuhan pribadi.",
+        "manualOutreach": {
+          "title": "Jangkauan Manual",
+          "description": "Pesan individual yang memakan waktu, jangkauan terbatas, tindak lanjut yang tidak konsisten"
+        },
+        "seaxAutomation": {
+          "title": "Otomatisasi SeaX",
+          "description": "Jutaan pesan dalam hitungan menit, personalisasi bertenaga AI, kampanye tindak lanjut otomatis"
+        },
+        "stats": {
+          "messagesSent": {
+            "value": "10 Juta+",
+            "label": "Pesan dikirim setiap hari"
+          },
+          "callsPerHour": {
+            "value": "50 Ribu+",
+            "label": "Panggilan per jam"
+          },
+          "deliveryRate": {
+            "value": "99.5%",
+            "label": "Tingkat pengiriman"
+          },
+          "roiAverage": {
+            "value": "400%",
+            "label": "ROI rata-rata"
+          }
+        }
+      },
+      "features": {
+        "title": "Fitur Skala Besar",
+        "subtitle": "Semua yang Anda butuhkan untuk menjangkau jutaan pelanggan di berbagai saluran",
+        "sms": {
+          "title": "SMS Massal",
+          "description": "Kirim jutaan pesan SMS dengan tingkat pengiriman 99.5% ke 200+ negara"
+        },
+        "whatsapp": {
+          "title": "WhatsApp Business",
+          "description": "Jangkau 2+ miliar pengguna WhatsApp dengan kampanye template dan pesan yang dipersonalisasi"
+        },
+        "voice": {
+          "title": "Kampanye Suara AI",
+          "description": "Panggilan telepon otomatis dengan suara AI alami untuk survei, pengingat, dan jangkauan"
+        },
+        "ai": {
+          "title": "Otomatisasi AI",
+          "description": "Tindak lanjut cerdas, penanganan respons, dan optimalisasi kampanye yang didukung oleh AI"
+        }
+      },
+      "leadGeneration": {
+        "title": "Ubah Prospek menjadi Pelanggan",
+        "subtitle": "Sistem generasi dan pemeliharaan prospek lengkap yang mengubah prospek menjadi pelanggan berbayar",
+        "capture": {
+          "title": "Tangkap",
+          "description": "Tarik prospek dengan kampanye yang ditargetkan di berbagai saluran"
+        },
+        "qualify": {
+          "title": "Kualifikasi",
+          "description": "Penilaian dan kualifikasi prospek bertenaga AI untuk mengidentifikasi prospek terbaik Anda"
+        },
+        "nurture": {
+          "title": "Pelihara",
+          "description": "Urutan tindak lanjut otomatis yang membangun hubungan dan mendorong konversi"
+        },
+        "close": {
+          "title": "Tutup",
+          "description": "Serah terima cerdas ke tim penjualan dengan riwayat percakapan lengkap dan intelijen prospek"
+        }
+      },
+      "howItWorks": {
+        "title": "Cara Kerjanya",
+        "subtitle": "Mulai dalam 4 langkah sederhana dan jangkau jutaan pelanggan dalam hitungan jam",
+        "timeRequired": "Waktu yang dibutuhkan: ",
+        "step1": {
+          "number": "01",
+          "title": "Impor Kontak Anda",
+          "description": "Unggah daftar kontak Anda dari CSV, Excel, atau integrasikan dengan CRM Anda. Dukungan untuk jutaan kontak dengan deduplikasi cerdas.",
+          "time": "2 menit",
+          "illustration": {
+            "checkmark": "✓",
+            "fileName": "daftar_kontak.csv",
+            "contactCount": "25.847 kontak",
+            "dropFiles": "Jatuhkan file Anda di sini",
+            "browse": "atau telusuri untuk mengunggah",
+            "importedCount": "25.847",
+            "contactsImported": "kontak diimpor"
+          }
+        },
+        "step2": {
+          "number": "02",
+          "title": "Pilih Saluran Anda",
+          "description": "Pilih dari SMS, WhatsApp, panggilan Suara, atau kampanye multi-saluran. Setiap saluran dioptimalkan untuk pengiriman dan keterlibatan maksimum.",
+          "time": "1 menit",
+          "illustration": {
+            "sms": {
+              "label": "SMS",
+              "rate": "Tingkat buka 98%"
+            },
+            "whatsapp": {
+              "label": "WhatsApp",
+              "rate": "Tingkat buka 90%"
+            },
+            "voice": {
+              "label": "Suara",
+              "rate": "Tingkat angkat 75%"
+            }
+          }
+        },
+        "step3": {
+          "number": "03",
+          "title": "Buat Kampanye Anda",
+          "description": "Rancang pesan Anda dengan personalisasi, atur penargetan audiens Anda, dan jadwalkan kampanye Anda. Pengujian A/B termasuk.",
+          "time": "5 menit",
+          "illustration": {
+            "campaignDraft": "Draf Kampanye",
+            "draftStatus": "Draf",
+            "sampleMessage": "Hai {{nama}}, kami punya penawaran spesial hanya untuk Anda! Dapatkan diskon 20% untuk pesanan Anda berikutnya. Balas STOP untuk berhenti berlangganan.",
+            "previewButton": "Pratinjau",
+            "abTestButton": "Uji A/B",
+            "schedule": "Jadwalkan",
+            "now": "Kirim Sekarang"
+          }
+        },
+        "step4": {
+          "number": "04",
+          "title": "Lacak & Optimalkan",
+          "description": "Pantau kinerja kampanye secara real-time dengan analitik terperinci. Lihat tingkat pengiriman, respons, konversi, dan metrik ROI.",
+          "time": "Berlangsung",
+          "illustration": {
+            "campaignStatus": "Status Kampanye",
+            "liveStatus": "Langsung",
+            "deliveredCount": "847 Ribu",
+            "delivered": "Terkirim",
+            "responseRate": "12%",
+            "response": "Tingkat Respons",
+            "totalCount": "1.2 Juta",
+            "totalMessages": "Total Pesan",
+            "deliveryRate": "99.5%",
+            "deliveryRateLabel": "Tingkat Pengiriman",
+            "analytics": "Analitik kinerja real-time dengan pelacakan konversi"
+          }
+        }
+      },
+      "testimonials": {
+        "title": "Dipercaya oleh Bisnis yang Berkembang",
+        "subtitle": "Lihat bagaimana perusahaan menggunakan SeaX untuk menskalakan jangkauan pelanggan mereka dan mendorong pertumbuhan",
+        "testimonial1": {
+          "quote": "SeaX membantu kami menjangkau 500 ribu pelanggan dalam satu hari. Tingkat pengirimannya luar biasa dan ROI berbicara dengan sendirinya.",
+          "author": "Sarah Chen",
+          "role": "Direktur Pemasaran, TechStart"
+        },
+        "testimonial2": {
+          "quote": "Kami meningkatkan tingkat konversi kami sebesar 300% menggunakan kampanye tindak lanjut bertenaga AI SeaX. Pengubah permainan untuk bisnis kami.",
+          "author": "Mike Rodriguez",
+          "role": "CEO, GrowthCorp"
+        },
+        "testimonial3": {
+          "quote": "Integrasi WhatsApp mulus. Kami sekarang dapat melakukan percakapan pribadi dalam skala besar dengan basis pelanggan global kami.",
+          "author": "Lisa Park",
+          "role": "Kepala Keberhasilan Pelanggan, GlobalTech"
+        }
+      },
+      "cta": {
+        "title": "Siap Menskalakan Jangkauan Anda ke Jutaan?",
+        "subtitle": "Bergabunglah dengan ribuan perusahaan yang menggunakan SeaX untuk menjangkau lebih banyak pelanggan, menghasilkan lebih banyak prospek, dan tumbuh lebih cepat.",
+        "demoButton": "Pesan Demo",
+        "signupButton": "Mulai Uji Coba Gratis"
+      }
+    },
+    "features": {
+      "seo": {
+        "title": "Fitur SeaX - Alat Canggih untuk Komunikasi Massal",
+        "description": "Jelajahi fitur canggih SeaX: mesin pesan massal, tindak lanjut bertenaga AI, analitik real-time, dan infrastruktur tingkat perusahaan."
+      },
+      "hero": {
+        "title": "Fitur Canggih untuk",
+        "titleHighlight": "Komunikasi Massal",
+        "description": "Semua yang Anda butuhkan untuk menjangkau jutaan pelanggan di seluruh saluran SMS, WhatsApp, dan suara. Dibangun untuk skala, dirancang untuk hasil.",
+        "stats": {
+          "messages": "10 Juta+ pesan setiap hari",
+          "countries": "200+ negara",
+          "security": "Keamanan perusahaan"
+        }
+      },
+      "core": {
+        "title": "Fitur Inti",
+        "description": "Alat penting yang mendukung kampanye komunikasi massal Anda",
+        "bulkMessaging": {
+          "title": "Mesin Pesan Massal",
+          "description": "Kirim jutaan pesan SMS, WhatsApp, dan panggilan telepon secara bersamaan dengan keandalan tingkat operator.",
+          "metrics": {
+            "value": "10 Juta+",
+            "label": "Pesan dikirim setiap hari"
+          },
+          "benefits": {
+            "0": "Pengiriman tingkat operator",
+            "1": "Jangkauan global di 200+ negara",
+            "2": "Pelacakan pengiriman real-time",
+            "3": "Optimalisasi perutean cerdas"
+          }
+        },
+        "aiFollowup": {
+          "title": "Tindak Lanjut Bertenaga AI",
+          "description": "Respons otomatis dan pemeliharaan prospek cerdas untuk mengkualifikasi prospek 24/7.",
+          "metrics": {
+            "value": "85%",
+            "label": "Tingkat kualifikasi prospek"
+          },
+          "benefits": {
+            "0": "Penanganan percakapan cerdas",
+            "1": "Penilaian prospek otomatis",
+            "2": "Waktu respons cerdas",
+            "3": "Dukungan multibahasa"
+          }
+        },
+        "analytics": {
+          "title": "Analitik Real-Time",
+          "description": "Lacak pembukaan, balasan, dan konversi dalam skala besar dengan dasbor langsung yang komprehensif.",
+          "metrics": {
+            "value": "99.9%",
+            "label": "Jaminan uptime"
+          },
+          "benefits": {
+            "0": "Pemantauan kampanye langsung",
+            "1": "Pelacakan konversi",
+            "2": "Wawasan kinerja",
+            "3": "Pelaporan kustom"
+          }
+        },
+        "compliance": {
+          "title": "Kepatuhan & Pengiriman",
+          "description": "Jangkauan global dengan kepatuhan operator dan template pesan yang telah disetujui.",
+          "metrics": {
+            "value": "200+",
+            "label": "Negara yang didukung"
+          },
+          "benefits": {
+            "0": "Sesuai GDPR",
+            "1": "Proses persetujuan operator",
+            "2": "Perlindungan spam",
+            "3": "Kepatuhan regulasi"
+          }
+        },
+        "collaboration": {
+          "title": "Kolaborasi Tim",
+          "description": "Akses multi-pengguna, izin kampanye, dan sumber daya bersama untuk tim perusahaan.",
+          "metrics": {
+            "value": "500 Ribu+",
+            "label": "Panggilan per jam"
+          },
+          "benefits": {
+            "0": "Izin berbasis peran",
+            "1": "Template kampanye bersama",
+            "2": "Pelacakan kinerja tim",
+            "3": "Alur kerja kolaboratif"
+          }
+        },
+        "scale": {
+          "title": "Skala Perusahaan",
+          "description": "Dibangun untuk pengirim bervolume tertinggi dengan infrastruktur dan dukungan khusus.",
+          "metrics": {
+            "value": "1 Juta+",
+            "label": "Pesan per menit"
+          },
+          "benefits": {
+            "0": "Infrastruktur khusus",
+            "1": "Dukungan prioritas",
+            "2": "Integrasi kustom",
+            "3": "SLA perusahaan"
+          }
+        }
+      },
+      "categories": {
+        "title": "Kategori Fitur",
+        "description": "Jelajahi rangkaian fitur komprehensif kami berdasarkan kategori",
+        "messaging": {
+          "title": "Saluran Pesan",
+          "sms": {
+            "name": "SMS (10DLC, Bebas Pulsa, Kode Pendek)",
+            "description": "Semua jenis SMS untuk setiap kebutuhan bisnis"
+          },
+          "whatsapp": {
+            "name": "Platform WhatsApp Business",
+            "description": "Mode kampanye untuk pesan massal"
+          },
+          "voice": {
+            "name": "Panggilan Suara (100+ Negara)",
+            "description": "Panggilan bertenaga AI melalui Twilio"
+          }
+        },
+        "aiAutomation": {
+          "title": "AI & Otomatisasi",
+          "followup": {
+            "name": "Tindak Lanjut Bertenaga AI",
+            "description": "Pemeliharaan prospek cerdas 24/7"
+          },
+          "responses": {
+            "name": "Respons Otomatis",
+            "description": "Penanganan percakapan cerdas"
+          },
+          "scoring": {
+            "name": "Penilaian Prospek",
+            "description": "Kualifikasi prospek berbasis AI"
+          }
+        },
+        "analytics": {
+          "title": "Analitik & Wawasan",
+          "dashboard": {
+            "name": "Dasbor Real-Time",
+            "description": "Pemantauan kampanye langsung"
+          },
+          "tracking": {
+            "name": "Pelacakan Konversi",
+            "description": "ROI dan metrik kinerja"
+          },
+          "reporting": {
+            "name": "Pelaporan Kustom",
+            "description": "Analitik dan wawasan terperinci"
+          }
+        },
+        "enterprise": {
+          "title": "Perusahaan & Keamanan",
+          "gdpr": {
+            "name": "Kepatuhan GDPR",
+            "description": "Kepatuhan regulasi penuh"
+          },
+          "team": {
+            "name": "Kolaborasi Tim",
+            "description": "Akses dan izin multi-pengguna"
+          },
+          "sla": {
+            "name": "SLA Perusahaan",
+            "description": "Dukungan khusus dan uptime"
+          }
+        }
+      },
+      "integrations": {
+        "title": "Dibangun untuk Integrasi",
+        "description": "Hubungkan SeaX dengan alat dan alur kerja Anda yang sudah ada",
+        "crm": {
+          "title": "Integrasi CRM",
+          "description": "Terhubung dengan Salesforce, HubSpot, dan sistem CRM lainnya untuk aliran data yang mulus.",
+          "sync": "Sinkronisasi dua arah",
+          "mapping": "Pemetaan bidang kustom"
+        },
+        "analytics": {
+          "title": "Alat Analitik",
+          "description": "Ekspor data ke Google Analytics, Mixpanel, dan platform analitik lainnya.",
+          "exports": "Ekspor real-time",
+          "dashboards": "Dasbor kustom"
+        },
+        "api": {
+          "title": "API Pengembang",
+          "description": "API REST lengkap untuk integrasi kustom dan alur kerja otomatis.",
+          "endpoints": "Titik akhir RESTful",
+          "webhooks": "Dukungan webhook"
+        }
+      },
+      "cta": {
+        "title": "Siap Merasakan Fitur-fitur Ini?",
+        "description": "Lihat bagaimana SeaX dapat mengubah strategi komunikasi Anda",
+        "button": "Pesan Demo"
+      }
+    },
+    "channels": {
+      "sms": {
+        "hero": {
+          "stats": {
+            "messagesValue": "10 Juta+",
+            "countriesValue": "200+",
+            "uptimeValue": "99.9%",
+            "deliveryValue": "98%",
+            "messagesSent": "Pesan Terkirim",
+            "countries": "Negara",
+            "uptime": "Waktu Aktif",
+            "deliveryRate": "Tingkat Pengiriman"
+          },
+          "preview": {
+            "deliveredValue": "847 Ribu",
+            "successValue": "98.2%",
+            "title": "Kampanye SMS Langsung",
+            "status": "Aktif",
+            "messageLabel": "Contoh Pesan",
+            "message": "Hai [Nama], Jangan lewatkan diskon eksklusif 50% kami yang berakhir hari ini! Belanja sekarang: bit.ly/save50. Balas STOP untuk berhenti berlangganan.",
+            "delivered": "Terkirim",
+            "successRate": "Tingkat Keberhasilan"
+          },
+          "badge": "Saluran SMS",
+          "title": "Skalakan SMS Anda",
+          "titleHighlight": "ke Jutaan",
+          "description": "Kirim pesan SMS yang dipersonalisasi ke jutaan pelanggan di seluruh dunia dengan tingkat pengiriman terkemuka di industri dan analitik real-time.",
+          "cta": {
+            "primary": "Mulai Mengirim SMS",
+            "secondary": "Jadwalkan Demo"
+          }
+        },
+        "seo": {
+          "title": "Platform Pemasaran & Komunikasi SMS - SeaX oleh Seasalt.ai",
+          "description": "Kirim pesan SMS massal dalam skala besar dengan SeaX. Jangkau pelanggan secara global dengan tingkat pengiriman 98%, analitik canggih, dan keamanan tingkat perusahaan untuk kampanye pemasaran dan komunikasi."
+        },
+        "features": {
+          "title": "Fitur SMS yang Kuat",
+          "description": "Semua yang Anda butuhkan untuk membuat, mengirim, dan mengoptimalkan kampanye SMS yang mendorong hasil.",
+          "globalReach": {
+            "title": "Jangkauan Global",
+            "description": "Kirim SMS ke lebih dari 200 negara dengan koneksi operator langsung untuk tingkat pengiriman optimal."
+          },
+          "lightningFast": {
+            "title": "Sangat Cepat",
+            "description": "Pesan dikirim dalam hitungan detik dengan pembaruan status real-time dan konfirmasi pengiriman."
+          },
+          "secure": {
+            "title": "Keamanan Perusahaan",
+            "description": "Enkripsi tingkat bank, kepatuhan GDPR, dan penanganan data yang aman untuk semua komunikasi Anda."
+          },
+          "analytics": {
+            "title": "Analitik Tingkat Lanjut",
+            "description": "Pelaporan terperinci tentang tingkat pengiriman, tingkat klik-tayang, dan metrik kinerja kampanye."
+          },
+          "bulk": {
+            "title": "Pesan Massal",
+            "description": "Kirim jutaan pesan yang dipersonalisasi secara bersamaan dengan penjadwalan dan pembatasan cerdas."
+          },
+          "segmentation": {
+            "title": "Segmentasi Cerdas",
+            "description": "Targetkan segmen pelanggan tertentu dengan pesan yang dipersonalisasi berdasarkan perilaku dan preferensi."
+          }
+        },
+        "useCases": {
+          "title": "Kasus Penggunaan SMS",
+          "description": "Temukan bagaimana bisnis menggunakan SMS untuk melibatkan pelanggan dan mendorong pertumbuhan.",
+          "marketing": {
+            "title": "Kampanye Pemasaran",
+            "description": "Dorong penjualan dengan pesan promosi, penjualan kilat, dan penawaran yang dipersonalisasi.",
+            "metrics": "hingga 45% tingkat buka"
+          },
+          "support": {
+            "title": "Dukungan Pelanggan",
+            "description": "Kirim pembaruan pesanan, notifikasi pengiriman, dan pesan dukungan.",
+            "metrics": "95% kepuasan pelanggan"
+          },
+          "appointments": {
+            "title": "Pengingat Janji Temu",
+            "description": "Kurangi ketidakhadiran dengan konfirmasi dan pengingat janji temu otomatis.",
+            "metrics": "Pengurangan 60% dalam ketidakhadiran"
+          },
+          "emergency": {
+            "title": "Peringatan Darurat",
+            "description": "Kirim notifikasi penting dan komunikasi darurat secara instan.",
+            "metrics": "Keandalan pengiriman 99.9%"
+          }
+        },
+        "cta": {
+          "title": "Siap Menskalakan SMS Anda?",
+          "description": "Bergabunglah dengan ribuan bisnis yang menggunakan SeaX untuk menjangkau jutaan pelanggan melalui SMS.",
+          "primary": "Mulai Gratis",
+          "secondary": "Pesan Demo"
+        }
+      },
+      "smsLocal": {
+        "title": "SMS Lokal (10DLC)",
+        "subtitle": "Pesan SMS Profesional dengan nomor lokal terpercaya",
+        "description": "Kirim kampanye SMS bervolume tinggi menggunakan nomor 10DLC terdaftar yang memberikan keandalan luar biasa dan kepercayaan operator. Sempurna untuk kampanye pemasaran, pengingat janji temu, dan notifikasi pelanggan.",
+        "seo": {
+          "title": "SMS Lokal (10DLC) - Pesan Bisnis Profesional | SeaX",
+          "description": "Kirim kampanye SMS profesional dengan nomor lokal 10DLC. Pengiriman tinggi, kepercayaan operator, dan pesan siap kepatuhan untuk komunikasi bisnis Anda."
+        },
+        "hero": {
+          "campaign": {
+            "title": "Dasbor Kampanye Pemasaran",
+            "status": "Aktif",
+            "messagesSentValue": "2.847",
+            "messagesSent": "Pesan Terkirim",
+            "deliveryRateValue": "98.5%",
+            "deliveryRate": "Tingkat Pengiriman"
+          },
+          "recentActivity": {
+            "title": "Aktivitas Terbaru",
+            "marketing": {
+              "title": "Kampanye Penjualan Kilat",
+              "details": "Dikirim ke 1.523 pelanggan • 89% terkirim"
+            },
+            "appointment": {
+              "title": "Pengingat Janji Temu",
+              "details": "247 pengingat dikirim • 2% tingkat ketidakhadiran"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "98%+",
+          "deliveryRate": "Tingkat Pengiriman",
+          "openRateValue": "96%",
+          "openRate": "Tingkat Buka",
+          "supportValue": "24/7",
+          "support": "Dukungan"
+        },
+        "features": {
+          "title": "Fitur Utama",
+          "subtitle": "Semua yang Anda butuhkan untuk pemasaran SMS profesional",
+          "items": {
+            "0": "Pengiriman tinggi dengan kepercayaan operator",
+            "1": "Pendaftaran 10DLC dan verifikasi merek",
+            "2": "Proses pra-persetujuan kampanye",
+            "3": "Dukungan pesan dua arah",
+            "4": "Analitik dan pelaporan tingkat lanjut",
+            "5": "Manajemen opt-out otomatis",
+            "6": "Template pesan dan personalisasi",
+            "7": "Jadwalkan dan kampanye tetes"
+          }
+        },
+        "useCases": {
+          "title": "Kasus Penggunaan Sempurna",
+          "subtitle": "Aplikasi ideal untuk pesan 10DLC",
+          "items": {
+            "0": "Kampanye pemasaran dan promosi",
+            "1": "Pengingat dan konfirmasi janji temu",
+            "2": "Status pesanan dan notifikasi pengiriman",
+            "3": "Layanan pelanggan dan dukungan",
+            "4": "Notifikasi dan peringatan acara",
+            "5": "Pengumpulan survei dan umpan balik",
+            "6": "Urutan pemeliharaan prospek",
+            "7": "Komunikasi darurat dan mendesak"
+          }
+        },
+        "pricing": {
+          "title": "Harga Sederhana, Transparan",
+          "subtitle": "Tanpa biaya tersembunyi, biaya yang dapat diprediksi",
+          "setup": {
+            "label": "Pengaturan Kampanye",
+            "value": "$150"
+          },
+          "monthly": {
+            "label": "Bulanan",
+            "value": "$2/nomor"
+          },
+          "perMessage": {
+            "label": "Per Pesan",
+            "value": "$0.02"
+          },
+          "note": "Harga untuk AS dan Kanada. Pendaftaran merek dan pendaftaran A2P diperlukan untuk kepatuhan 10DLC"
+        },
+        "testimonial": {
+          "quote": "Pesan 10DLC telah sepenuhnya mengubah keterlibatan pelanggan kami. Tingkat pengirimannya luar biasa, dan pelanggan mempercayai nomor lokal kami.",
+          "author": "Sarah Chen",
+          "company": "Direktur Pemasaran, GrowthTech",
+          "results": "Meningkatkan tingkat pengiriman sebesar 35% dan meningkatkan tingkat respons pelanggan sebesar 42%"
+        },
+        "compliance": {
+          "title": "Kepatuhan Dibuat Sederhana",
+          "description": "Kami menangani semua persyaratan 10DLC yang kompleks sehingga Anda dapat fokus pada kampanye pesan Anda",
+          "brandRegistration": {
+            "title": "Pendaftaran Merek",
+            "description": "Proses verifikasi merek lengkap dengan jaringan operator untuk kepercayaan dan pengiriman maksimum"
+          },
+          "campaignApproval": {
+            "title": "Pra-Persetujuan Kampanye",
+            "description": "Dapatkan kampanye Anda disetujui oleh operator sebelum diluncurkan untuk memastikan kepatuhan dan kinerja optimal"
+          },
+          "monitoring": {
+            "title": "Pemantauan Berkelanjutan",
+            "description": "Pemantauan berkelanjutan kinerja kampanye dan metrik kepatuhan untuk mempertahankan tingkat pengiriman optimal"
+          }
+        }
+      },
+      "smsShortCode": {
+        "seo": {
+          "title": "Layanan Kode Pendek SMS | Pesan Perusahaan Bervolume Tinggi | SeaX",
+          "description": "Kirim jutaan pesan SMS secara instan dengan kode pendek premium. Pemasaran SMS tingkat perusahaan, notifikasi, dan komunikasi massal dengan tingkat pengiriman 99.9%."
+        },
+        "nav": {
+          "backToChannels": "← Kembali ke Saluran"
+        },
+        "hero": {
+          "title": {
+            "prefix": "SMS Premium dengan",
+            "highlight": "Kode Pendek Khusus"
+          },
+          "subtitle": "Luncurkan kampanye SMS bervolume tinggi dengan kode pendek 5-6 digit Anda sendiri. Pengiriman maksimum, kecepatan instan, dan persepsi merek premium untuk pemasar serius.",
+          "primaryCta": "Dapatkan Kode Pendek Anda",
+          "secondaryCta": "Lihat Demo",
+          "demo": {
+            "title": "Kampanye Kode Pendek",
+            "code": "Dari: 12345",
+            "message": "PENJUALAN KILAT: Diskon 50% untuk semua! Gunakan kode SAVE50. Berlaku hingga tengah malam. Balas STOP untuk berhenti berlangganan.",
+            "delivered": "✅ Terkirim: 99.847",
+            "rate": "Tingkat pengiriman 99.9%",
+            "speed": "⚡ Pengiriman instan"
+          },
+          "campaign": {
+            "title": "Dasbor Kampanye Premium",
+            "status": "Aktif",
+            "messagesSentValue": "2.4 Juta",
+            "messagesSent": "Pesan Terkirim",
+            "deliveryRateValue": "99.8%",
+            "deliveryRate": "Tingkat Pengiriman"
+          },
+          "recentActivity": {
+            "title": "Aktivitas Terbaru",
+            "marketing": {
+              "title": "Kampanye Pemasaran #2024-001",
+              "details": "Promosi liburan dikirim ke 1.2 Juta pelanggan"
+            },
+            "appointment": {
+              "title": "Pengingat Janji Temu",
+              "details": "850 Ribu pengingat dikirim dengan tingkat buka 95%"
+            }
+          }
+        },
+        "features": {
+          "title": "Fitur Premium",
+          "description": "Rasakan tingkat premium pemasaran SMS dengan kode pendek khusus",
+          "highVolume": {
+            "title": "Kapasitas Volume Tinggi",
+            "description": "Kirim hingga 100 pesan per detik dengan infrastruktur kode pendek khusus"
+          },
+          "instantDelivery": {
+            "title": "Pengiriman Instan",
+            "description": "Tanpa penundaan dengan perutean prioritas tertinggi melalui jaringan operator"
+          },
+          "brandRecognition": {
+            "title": "Pengenalan Merek",
+            "description": "Nomor 5-6 digit yang mudah diingat yang dikenali dan dipercaya pelanggan"
+          },
+          "deliverability": {
+            "title": "Pengiriman Maksimum",
+            "description": "Tingkat pengiriman 99.9% dengan hubungan operator premium dan perutean khusus"
+          },
+          "subtitle": "Kemampuan SMS tingkat perusahaan untuk pesan bervolume tinggi",
+          "items": {
+            "ultraHighThroughput": "Throughput ultra-tinggi: 10.000+ pesan per detik",
+            "premiumDelivery": "Rute pengiriman premium untuk keandalan maksimum",
+            "brandRecognition": "Pengenalan merek yang ditingkatkan dengan kode pendek yang mudah diingat",
+            "carrierApproved": "Pra-disetujui oleh semua operator utama",
+            "dedicatedSupport": "Manajemen akun dan dukungan khusus",
+            "complianceReady": "Kepatuhan bawaan dengan peraturan TCPA dan CAN-SPAM"
+          }
+        },
+        "comparison": {
+          "title": "Kode Pendek vs Opsi SMS Lainnya",
+          "description": "Lihat mengapa kode pendek khusus adalah pilihan premium untuk pemasar SMS serius",
+          "shortCode": {
+            "title": "Kode Pendek Khusus",
+            "speed": "Pengiriman instan",
+            "volume": "Kapasitas 100 pesan/detik",
+            "deliverability": "Pengiriman 99.9%",
+            "cost": "$1.000-$1.500/bulan",
+            "setup": "Pengaturan 2-3 minggu"
+          },
+          "tollFree": {
+            "title": "Nomor Bebas Pulsa",
+            "speed": "Pengiriman 3-5 detik",
+            "volume": "Kapasitas 25 pesan/detik",
+            "deliverability": "Pengiriman 98.5%",
+            "cost": "$15-$50/bulan",
+            "setup": "Pengaturan 1-2 hari"
+          },
+          "tenDlc": {
+            "title": "Nomor Lokal 10DLC",
+            "speed": "Pengiriman 5-10 detik",
+            "volume": "Kapasitas 10 pesan/detik",
+            "deliverability": "Pengiriman 95-98%",
+            "cost": "$2-$10/bulan",
+            "setup": "Pengaturan 5-10 hari"
+          }
+        },
+        "useCases": {
+          "title": "Kasus Penggunaan",
+          "description": "Kode pendek unggul dalam skenario bervolume tinggi dan sensitif waktu tertentu",
+          "flashSales": {
+            "title": "Penjualan Kilat & Promosi",
+            "description": "Penawaran sensitif waktu yang membutuhkan pengiriman instan",
+            "example": "PENJUALAN KILAT: Diskon 50% berakhir dalam 1 jam!"
+          },
+          "alerts": {
+            "title": "Peringatan & Notifikasi Kritis",
+            "description": "Pembaruan darurat dan pengumuman penting",
+            "example": "URGENT: Pemeliharaan layanan malam ini 23:00-01:00"
+          },
+          "contests": {
+            "title": "Kontes & Pemungutan Suara",
+            "description": "Kampanye interaktif yang membutuhkan respons segera",
+            "example": "Pilih favorit Anda! Kirim teks A atau B ke 12345"
+          },
+          "events": {
+            "title": "Pembaruan Acara & Tiket",
+            "description": "Pembaruan real-time untuk acara dan tempat besar",
+            "example": "Acara dimulai dalam 30 menit! Gerbang 5 sekarang dibuka."
+          },
+          "subtitle": "Sempurna untuk komunikasi bervolume tinggi, sensitif waktu",
+          "items": {
+            "massMarketing": "Kampanye pemasaran massal dan promosi",
+            "emergencyAlerts": "Peringatan darurat dan notifikasi kritis",
+            "votingPolls": "Pemungutan suara, jajak pendapat, dan keterlibatan audiens",
+            "appointmentReminders": "Pengingat janji temu skala besar",
+            "transactionalSMS": "SMS transaksional bervolume tinggi",
+            "eventNotifications": "Notifikasi dan pembaruan acara"
+          }
+        },
+        "requirements": {
+          "title": "Persyaratan Kode Pendek",
+          "description": "Memahami investasi dan proses untuk kode pendek khusus",
+          "volume": {
+            "title": "Komitmen Volume Tinggi",
+            "description": "Minimum 100 ribu pesan per bulan untuk membenarkan investasi"
+          },
+          "compliance": {
+            "title": "Kepatuhan Ketat",
+            "description": "Persyaratan kepatuhan yang ditingkatkan dan audit operator rutin"
+          },
+          "setup": {
+            "title": "Jangka Waktu Pengaturan",
+            "description": "2-3 minggu untuk persetujuan operator dan penyediaan nomor"
+          },
+          "investment": {
+            "title": "Investasi Premium",
+            "description": "Biaya berulang bulanan $1.000-$1.500 untuk perutean khusus"
+          }
+        },
+        "alternatives": {
+          "title": "Pertimbangkan Alternatif Ini Terlebih Dahulu",
+          "description": "Untuk sebagian besar bisnis, opsi ini memberikan nilai yang lebih baik dan pengaturan yang lebih mudah",
+          "recommended": {
+            "title": "Direkomendasikan untuk Sebagian Besar Bisnis",
+            "tollFree": "SMS Bebas Pulsa untuk pengenalan merek",
+            "tenDlc": "10DLC untuk pemasaran hemat biaya",
+            "whatsapp": "WhatsApp untuk jangkauan internasional"
+          },
+          "whenToUpgrade": {
+            "title": "Kapan Harus Meningkatkan ke Kode Pendek",
+            "volume": "Mengirim 500 ribu+ pesan setiap bulan",
+            "speed": "Membutuhkan pengiriman instan untuk kampanye sensitif waktu",
+            "brand": "Pengenalan merek sangat penting untuk strategi Anda",
+            "budget": "Memiliki anggaran pemasaran SMS tahunan $15 ribu+"
+          }
+        },
+        "cta": {
+          "title": "Siap untuk Pemasaran SMS Premium?",
+          "description": "Kode pendek sempurna untuk pemasar bervolume tinggi yang membutuhkan kecepatan dan pengiriman maksimum. Mari kita diskusikan apakah itu tepat untuk bisnis Anda.",
+          "primary": "Diskusikan Persyaratan Kode Pendek",
+          "secondary": "Mulai dengan SMS Bebas Pulsa",
+          "alternative": "Sebagian besar bisnis memulai dengan opsi SMS bebas pulsa kami dan meningkatkan ke kode pendek ketika mereka mencapai volume yang lebih tinggi."
+        },
+        "title": "Kode Pendek SMS",
+        "subtitle": "SMS Perusahaan Bervolume Tinggi",
+        "description": "Jangkau jutaan pelanggan secara instan dengan pesan SMS kode pendek premium. Sempurna untuk kampanye pemasaran, notifikasi, dan komunikasi massal.",
+        "stats": {
+          "messagesPerSecondValue": "10.000",
+          "messagesPerSecond": "Pesan/Detik",
+          "deliveryRateValue": "99.9%",
+          "deliveryRate": "Tingkat Pengiriman",
+          "digitNumbersValue": "5-6 Digit",
+          "digitNumbers": "Nomor Tersedia"
+        },
+        "pricing": {
+          "title": "Harga Perusahaan",
+          "subtitle": "Harga skalabel untuk kebutuhan pesan bervolume tinggi",
+          "setup": {
+            "label": "Biaya Pengaturan",
+            "value": "$5.000"
+          },
+          "monthly": {
+            "label": "Biaya Bulanan",
+            "value": "$1.500"
+          },
+          "perMessage": {
+            "label": "Per Pesan",
+            "value": "$0.015"
+          },
+          "note": "Diskon volume tersedia untuk 1 Juta+ pesan/bulan"
+        },
+        "testimonial": {
+          "quote": "SMS kode pendek SeaX telah mengubah keterlibatan pelanggan kami. Kami sekarang menjangkau jutaan pelanggan secara instan dengan tingkat pengiriman terkemuka di industri.",
+          "author": "Michael Rodriguez",
+          "company": "TechCorp Enterprise",
+          "results": "Peningkatan 350% dalam jangkauan kampanye dengan tingkat pengiriman 99.8%"
+        },
+        "premiumFeatures": {
+          "title": "Keunggulan Kode Pendek Premium",
+          "description": "Rasakan kekuatan kode pendek premium untuk komunikasi perusahaan",
+          "ultraThroughput": {
+            "title": "Throughput Ultra-Tinggi",
+            "description": "Kirim hingga 10.000 pesan per detik dengan infrastruktur premium kami dan kemitraan operator."
+          },
+          "premiumRoutes": {
+            "title": "Rute Pengiriman Premium",
+            "description": "Pengiriman prioritas terjamin melalui koneksi operator khusus dan perutean premium."
+          },
+          "brandRecognition": {
+            "title": "Pengenalan Merek yang Ditingkatkan",
+            "description": "Nomor 5-6 digit yang mudah diingat yang dikenali dan dipercaya pelanggan untuk komunikasi merek Anda."
+          }
+        }
+      },
+      "smsTollFree": {
+        "title": "SMS Bebas Pulsa",
+        "subtitle": "SMS Bisnis Terpercaya",
+        "description": "Bangun kepercayaan dan tingkatkan keterlibatan dengan nomor SMS bebas pulsa. Komunikasi profesional yang dikenali dan ditanggapi pelanggan.",
+        "seo": {
+          "title": "Nomor Bebas Pulsa SMS | Pesan Bisnis Profesional | SeaX",
+          "description": "Tingkatkan kepercayaan pelanggan dengan nomor bebas pulsa SMS. Pesan bisnis profesional dengan tingkat respons yang lebih tinggi dan pengenalan merek yang lebih baik."
+        },
+        "hero": {
+          "title": "Dasbor SMS Bebas Pulsa",
+          "status": "Aktif",
+          "phoneNumber": "+1-800-AI-AGENT",
+          "dedicatedNumber": "Nomor Bebas Pulsa Khusus Anda",
+          "deliveryRateValue": "94.7%",
+          "deliveryRate": "Tingkat Pengiriman",
+          "higherTrustValue": "2.3x",
+          "higherTrust": "Tingkat Kepercayaan Lebih Tinggi",
+          "recentMessages": {
+            "title": "Pesan Terbaru",
+            "customerSupport": {
+              "title": "Respons Dukungan Pelanggan",
+              "details": "Respons otomatis dikirim dari 1-800-SUPPORT"
+            },
+            "survey": {
+              "title": "Survei Kepuasan Pelanggan",
+              "details": "Undangan survei dikirim dengan tingkat respons 78%"
+            }
+          }
+        },
+        "stats": {
+          "deliveryRateValue": "94%",
+          "deliveryRate": "Tingkat Pengiriman",
+          "higherTrustValue": "2.3x",
+          "higherTrust": "Tingkat Kepercayaan Lebih Tinggi",
+          "responseRateValue": "78%",
+          "responseRate": "Tingkat Respons"
+        },
+        "features": {
+          "title": "Keunggulan Bebas Pulsa",
+          "subtitle": "Pesan profesional yang membangun kepercayaan dan mendorong keterlibatan",
+          "items": {
+            "recognizableNumbers": "Nomor 1-800 yang langsung dikenali",
+            "noCharges": "Tidak ada biaya untuk penerima - gratis untuk pelanggan",
+            "professionalImage": "Citra merek profesional yang ditingkatkan",
+            "higherTrust": "Kepercayaan 2.3x lebih tinggi dibandingkan nomor biasa",
+            "improvedResponse": "Tingkat respons 78% lebih tinggi",
+            "brandRecognition": "Pengenalan dan ingatan merek yang ditingkatkan"
+          }
+        },
+        "useCases": {
+          "title": "Kasus Penggunaan Sempurna",
+          "subtitle": "Ideal untuk bisnis yang memprioritaskan kepercayaan dan profesionalisme",
+          "items": {
+            "customerService": "Layanan pelanggan dan komunikasi dukungan",
+            "appointmentReminders": "Pengingat dan konfirmasi janji temu",
+            "surveys": "Survei kepuasan pelanggan",
+            "notifications": "Notifikasi akun penting",
+            "promotions": "Kampanye promosi profesional",
+            "alerts": "Peringatan dan pembaruan layanan"
+          }
+        },
+        "pricing": {
+          "title": "Harga Profesional",
+          "subtitle": "Harga transparan untuk pesan SMS bebas pulsa",
+          "setupLabel": "Biaya Pengaturan",
+          "setup": {
+            "label": "Biaya Pengaturan",
+            "value": "$99"
+          },
+          "monthlyLabel": "Biaya Bulanan",
+          "monthly": {
+            "label": "Biaya Bulanan",
+            "value": "$29"
+          },
+          "perMessageLabel": "Per Pesan",
+          "perMessage": {
+            "label": "Per Pesan",
+            "value": "$0.04"
+          },
+          "note": "Harga untuk AS dan Kanada. Tanpa biaya operator tambahan atau biaya tersembunyi"
+        },
+        "testimonial": {
+          "quote": "Fitur SMS bebas pulsa telah secara signifikan meningkatkan tingkat respons pelanggan kami. Pelanggan lebih mempercayai pesan dari nomor 1-800 kami daripada nomor biasa.",
+          "author": "Sarah Chen",
+          "company": "HealthCare Plus",
+          "results": "Tingkat respons 78% lebih tinggi dan kepuasan pelanggan 94%"
+        },
+        "trust": {
+          "title": "Mengapa SMS Bebas Pulsa Berfungsi",
+          "description": "Bangun kepercayaan dan dorong keterlibatan dengan pesan bebas pulsa profesional",
+          "professionalImage": {
+            "title": "Citra Merek Profesional",
+            "description": "Nomor bebas pulsa secara instan menyampaikan profesionalisme dan legitimasi, membuat pelanggan lebih mungkin untuk terlibat dengan pesan Anda."
+          },
+          "noCarrierFees": {
+            "title": "Tidak Ada Biaya untuk Pelanggan",
+            "description": "Pelanggan tidak membayar untuk menerima pesan, menghilangkan hambatan untuk keterlibatan dan meningkatkan tingkat respons."
+          },
+          "higherResponse": {
+            "title": "Tingkat Respons Lebih Tinggi",
+            "description": "Studi menunjukkan kepercayaan 2.3x lebih tinggi dan tingkat respons 78% lebih baik dibandingkan nomor telepon biasa."
+          }
+        }
+      },
+      "whatsapp": {
+        "seo": {
+          "title": "API Platform WhatsApp Business | Solusi Pesan Perusahaan | SeaX",
+          "description": "Terhubung dengan 2+ miliar pengguna WhatsApp di seluruh dunia. Pesan bisnis profesional dengan media kaya, template, dan alur kerja otomatis untuk keterlibatan pelanggan."
+        },
+        "hero": {
+          "badge": "Saluran Paling Populer",
+          "title": {
+            "line1": "Terhubung dengan",
+            "line2": "Platform WhatsApp Business"
+          },
+          "description": "Jangkau lebih dari 2 miliar pengguna di seluruh dunia dengan API Platform WhatsApp Business. Kirim pesan media kaya, otomatiskan dukungan pelanggan, dan bangun hubungan yang bermakna dalam skala besar.",
+          "stats": {
+            "monthlyUsers": "Pengguna Bulanan",
+            "openRate": "Tingkat Buka",
+            "engagementRate": "Tingkat Keterlibatan",
+            "countriesSupported": "Negara yang Didukung"
+          },
+          "cta": {
+            "primary": "Mulai Uji Coba Gratis",
+            "secondary": "Pesan Demo"
+          },
+          "demo": {
+            "title": "Kampanye WhatsApp",
+            "subtitle": "Dasbor Kinerja Langsung",
+            "templateLabel": "Pesan Template",
+            "message": "Hai! Pesanan Anda #12345 siap diambil. Apakah Anda ingin menjadwalkan waktu atau membutuhkan petunjuk arah ke toko kami?",
+            "button1": "Jadwalkan Pengambilan",
+            "button2": "Dapatkan Petunjuk Arah",
+            "openRateValue": "94.8%",
+            "openRateLabel": "Tingkat Buka",
+            "deliveredValue": "12.3 Ribu",
+            "deliveredLabel": "Pesan Terkirim"
+          }
+        },
+        "features": {
+          "title": "Mengapa Memilih Platform WhatsApp Business?",
+          "subtitle": "Manfaatkan platform pesan paling populer di dunia untuk komunikasi bisnis Anda",
+          "richMedia": {
+            "title": "Dukungan Media Kaya",
+            "description": "Kirim gambar, video, dokumen, dan tombol interaktif untuk menciptakan pengalaman pelanggan yang menarik."
+          },
+          "globalReach": {
+            "title": "Jangkauan Global",
+            "description": "Terhubung dengan pelanggan di 180+ negara di mana WhatsApp sudah menjadi bagian dari rutinitas harian mereka."
+          },
+          "security": {
+            "title": "Keamanan Ujung ke Ujung",
+            "description": "Enkripsi bawaan memastikan komunikasi yang aman sambil menjaga kepercayaan pelanggan dan privasi data."
+          },
+          "instantDelivery": {
+            "title": "Pengiriman Instan",
+            "description": "Pesan dikirim secara instan dengan tanda terima baca dan konfirmasi pengiriman untuk pelacakan yang lebih baik."
+          },
+          "analytics": {
+            "title": "Analitik Tingkat Lanjut",
+            "description": "Lacak kinerja pesan, tingkat keterlibatan, dan interaksi pelanggan dengan wawasan terperinci."
+          },
+          "twoWay": {
+            "title": "Percakapan Dua Arah",
+            "description": "Aktifkan percakapan alami dengan pelanggan melalui respons otomatis dan serah terima agen manusia."
+          }
+        },
+        "messageTypes": {
+          "title": "Jenis & Kemampuan Pesan",
+          "subtitle": "Pilih dari berbagai format pesan untuk melibatkan pelanggan secara efektif",
+          "template": {
+            "title": "Pesan Template",
+            "description": "Template pesan yang telah disetujui untuk notifikasi, pembaruan, dan konten promosi.",
+            "feature1": "Konfirmasi dan pembaruan pesanan",
+            "feature2": "Pengingat janji temu",
+            "feature3": "Notifikasi pembayaran",
+            "feature4": "Kampanye promosi"
+          },
+          "richMedia": {
+            "title": "Pesan Media Kaya",
+            "description": "Libatkan pelanggan dengan konten multimedia termasuk gambar, video, dan dokumen.",
+            "feature1": "Gambar dan video berkualitas tinggi",
+            "feature2": "Dokumen dan katalog PDF",
+            "feature3": "Pesan audio dan catatan suara",
+            "feature4": "Berbagi lokasi"
+          },
+          "interactive": {
+            "title": "Pesan Interaktif",
+            "description": "Ciptakan pengalaman menarik dengan tombol, daftar, dan balasan cepat untuk interaksi pelanggan yang lebih baik.",
+            "feature1": "Tombol balasan cepat",
+            "feature2": "Pilihan daftar",
+            "feature3": "Tombol ajakan bertindak",
+            "feature4": "Katalog produk"
+          }
+        },
+        "useCases": {
+          "title": "Kasus Penggunaan Populer",
+          "subtitle": "Lihat bagaimana bisnis menggunakan WhatsApp untuk mendorong pertumbuhan dan meningkatkan kepuasan pelanggan",
+          "support": {
+            "title": "Dukungan Pelanggan",
+            "description": "Berikan dukungan pelanggan instan dengan respons otomatis dan serah terima agen yang mulus untuk pertanyaan kompleks.",
+            "metrics": "Waktu resolusi 87% lebih cepat"
+          },
+          "orders": {
+            "title": "Manajemen Pesanan",
+            "description": "Kirim konfirmasi pesanan, pembaruan pengiriman, dan notifikasi pengiriman untuk menjaga pelanggan tetap terinformasi selama proses.",
+            "metrics": "Tingkat konfirmasi pengiriman 95%"
+          },
+          "marketing": {
+            "title": "Kampanye Pemasaran",
+            "description": "Luncurkan kampanye pemasaran yang ditargetkan dengan konten media kaya dan elemen interaktif untuk mendorong penjualan dan keterlibatan.",
+            "metrics": "Tingkat konversi 3.2x lebih tinggi"
+          },
+          "appointments": {
+            "title": "Pemesanan Janji Temu",
+            "description": "Otomatiskan penjadwalan janji temu, kirim pengingat, dan tangani permintaan penjadwalan ulang melalui alur percakapan.",
+            "metrics": "Pengurangan 78% dalam ketidakhadiran"
+          }
+        },
+        "cta": {
+          "title": "Siap Terhubung dengan WhatsApp?",
+          "subtitle": "Bergabunglah dengan ribuan bisnis yang sudah menggunakan API Platform WhatsApp Business untuk mengembangkan hubungan pelanggan mereka",
+          "primary": "Mulai Uji Coba Gratis",
+          "secondary": "Pesan Demo"
+        }
+      },
+      "voice": {
+        "title": "Kampanye Suara AI",
+        "subtitle": "Panggilan Telepon Otomatis dalam Skala Besar",
+        "description": "Jangkau pelanggan secara instan dengan kampanye suara bertenaga AI. Sempurna untuk pengingat janji temu, survei, peringatan darurat, dan jangkauan pelanggan yang dipersonalisasi di 100+ negara.",
+        "seoTitle": "Platform Otomatisasi Panggilan Suara - Kampanye Telepon Bertenaga AI | SeaX",
+        "seoDescription": "Otomatiskan panggilan telepon dalam skala besar dengan SeaX Voice. Kampanye suara bertenaga AI, pengingat janji temu, survei, dan jangkauan pelanggan dengan tingkat koneksi tinggi di 100+ negara.",
+        "hero": {
+          "widget": {
+            "title": "Dasbor Suara AI",
+            "poweredBy": "Didukung oleh SeaX",
+            "callsNumber": "24.847",
+            "callsCompletedToday": "panggilan selesai hari ini",
+            "connectionRateValue": "87%",
+            "connectionRateLabel": "Tingkat Koneksi",
+            "countriesValue": "100+",
+            "countriesLabel": "Negara yang Didukung",
+            "activeCalls": "Panggilan Aktif",
+            "usPhoneNumber": "+1 (555) 123-4567",
+            "appointmentReminder": "Panggilan pengingat janji temu",
+            "ukPhoneNumber": "+44 20 7946 0958",
+            "surveyCall": "Survei kepuasan pelanggan"
+          }
+        },
+        "stats": {
+          "languagesValue": "25+",
+          "languagesLabel": "Bahasa yang Didukung"
+        },
+        "features": {
+          "title": "Fitur Suara yang Kuat",
+          "subtitle": "Semua yang Anda butuhkan untuk kampanye suara yang sukses",
+          "items": {
+            "0": "Sintesis suara alami bertenaga AI",
+            "1": "Dukungan multibahasa (25+ bahasa)",
+            "2": "Analitik dan pelaporan panggilan real-time",
+            "3": "Kemampuan respons suara interaktif (IVR)",
+            "4": "Deteksi dan penanganan pesan suara",
+            "5": "Perekaman dan transkripsi panggilan",
+            "6": "Logika coba lagi cerdas dan penjadwalan",
+            "7": "Kepatuhan terhadap peraturan telemarketing",
+            "globalReach": "Jangkauan global dengan nomor telepon lokal di 180+ negara",
+            "highQuality": "Kualitas suara HD yang jernih dengan perutean cerdas",
+            "smartDialing": "Panggilan cerdas dengan waktu optimal dan penjadwalan panggilan",
+            "multiLanguage": "Dukungan multibahasa dengan suara yang terdengar asli",
+            "realTimeAnalytics": "Analitik panggilan real-time dan pelacakan kinerja",
+            "complianceReady": "Kepatuhan bawaan dengan peraturan telemarketing"
+          }
+        },
+        "useCases": {
+          "title": "Kasus Penggunaan Kampanye Suara",
+          "subtitle": "Aplikasi yang terbukti untuk otomatisasi suara",
+          "items": {
+            "0": "Pengingat dan konfirmasi janji temu",
+            "1": "Survei kepuasan pelanggan",
+            "2": "Pengingat dan penagihan pembayaran",
+            "3": "Peringatan dan notifikasi darurat",
+            "4": "Konfirmasi dan pembaruan acara",
+            "5": "Kualifikasi dan pemeliharaan prospek",
+            "6": "Riset pasar dan jajak pendapat",
+            "7": "Notifikasi pemadaman layanan",
+            "appointmentReminders": "Pengingat dan konfirmasi janji temu otomatis",
+            "customerSurveys": "Survei kepuasan dan umpan balik pelanggan",
+            "salesOutreach": "Jangkauan penjualan dan panggilan kualifikasi prospek",
+            "paymentReminders": "Pengingat pembayaran dan panggilan penagihan",
+            "emergencyAlerts": "Notifikasi darurat dan peringatan mendesak",
+            "eventNotifications": "Pengingat acara dan pengumuman penting"
+          }
+        },
+        "pricing": {
+          "title": "Harga Kampanye Suara",
+          "subtitle": "Harga hemat biaya untuk otomatisasi suara",
+          "setup": {
+            "label": "Biaya Pengaturan",
+            "value": "$199"
+          },
+          "monthly": {
+            "label": "Biaya Bulanan",
+            "value": "$49"
+          },
+          "perMinute": {
+            "label": "Per Menit",
+            "value": "$0.12"
+          },
+          "note": {
+            "value": "Diskon volume tersedia untuk 10.000+ panggilan/bulan"
+          },
+          "perMessage": {
+            "label": "Per Pesan",
+            "value": "$0.08"
+          }
+        },
+        "testimonial": {
+          "quote": "Kampanye suara SeaX telah merevolusi pengingat janji temu kami. Kami telah mengurangi ketidakhadiran sebesar 70% dan meningkatkan kepuasan pelanggan secara signifikan.",
+          "author": "Dr. Emily Rodriguez",
+          "company": "Grup Medis HealthFirst",
+          "results": "Pengurangan 70% dalam ketidakhadiran dan tingkat kepuasan pelanggan 95%"
+        }
+      }
+    },
+    "solutions": {
+      "leadGeneration": {
+        "seo": {
+          "title": "Solusi Generasi Prospek - Jangkauan Multi-Saluran SeaX",
+          "description": "Hasilkan prospek yang berkualitas dalam skala besar dengan solusi generasi prospek multi-saluran SeaX. Kampanye SMS, WhatsApp, dan suara dengan tindak lanjut bertenaga AI."
+        },
+        "hero": {
+          "title": "Generasi Prospek",
+          "titleHighlight": "dalam Skala Besar",
+          "description": "Hasilkan prospek yang berkualitas dengan kampanye multi-saluran di seluruh SMS, WhatsApp, dan panggilan suara. Tindak lanjut bertenaga AI memastikan tidak ada peluang yang terlewat.",
+          "cta": {
+            "primary": "Mulai Menghasilkan Prospek",
+            "secondary": "Pesan Demo"
+          }
+        },
+        "features": {
+          "title": "Fitur Generasi Prospek yang Kuat",
+          "subtitle": "Semua yang Anda butuhkan untuk menangkap, mengkualifikasi, dan mengubah prospek dalam skala besar",
+          "targetedOutreach": {
+            "title": "Jangkauan yang Ditargetkan",
+            "description": "Jangkau prospek yang tepat dengan penargetan presisi di seluruh SMS, WhatsApp, dan panggilan suara."
+          },
+          "multiChannelCampaigns": {
+            "title": "Kampanye Multi-Saluran",
+            "description": "Jalankan kampanye terkoordinasi di seluruh SMS, WhatsApp, dan suara untuk dampak maksimum."
+          },
+          "aiFollowUps": {
+            "title": "Tindak Lanjut Bertenaga AI",
+            "description": "Respons cerdas otomatis yang mengkualifikasi prospek dan menjadwalkan rapat 24/7."
+          },
+          "realTimeAnalytics": {
+            "title": "Analitik Real-Time",
+            "description": "Lacak kinerja kampanye, kualitas prospek, dan tingkat konversi secara real-time."
+          },
+          "leadScoring": {
+            "title": "Penilaian Prospek",
+            "description": "Penilaian dan prioritas prospek otomatis berdasarkan keterlibatan dan respons."
+          },
+          "voiceQualification": {
+            "title": "Kualifikasi Suara",
+            "description": "Panggilan suara bertenaga AI untuk mengkualifikasi prospek dan memesan janji temu secara otomatis."
+          }
+        },
+        "useCases": {
+          "title": "Kasus Penggunaan Generasi Prospek",
+          "subtitle": "Strategi yang terbukti di seluruh industri dan jenis bisnis",
+          "b2bSales": {
+            "title": "Jangkauan Penjualan B2B",
+            "description": "Hasilkan prospek yang berkualitas untuk tim penjualan B2B dengan kampanye pesan yang ditargetkan.",
+            "stats": "Peningkatan 300% dalam prospek yang berkualitas"
+          },
+          "realEstate": {
+            "title": "Generasi Prospek Real Estat",
+            "description": "Terhubung dengan pembeli dan penjual properti melalui kampanye multi-saluran.",
+            "stats": "Peningkatan tingkat respons 85%"
+          },
+          "insurance": {
+            "title": "Kualifikasi Prospek Asuransi",
+            "description": "Kualifikasi prospek asuransi dengan tindak lanjut otomatis dan pemesanan janji temu.",
+            "stats": "Pengurangan 60% dalam waktu kualifikasi"
+          },
+          "eventRegistration": {
+            "title": "Pendaftaran Acara",
+            "description": "Dorong pendaftaran acara dengan undangan yang ditargetkan dan urutan tindak lanjut.",
+            "stats": "Peningkatan 200% dalam pendaftaran"
+          }
+        },
+        "stats": {
+          "title": "Hasil yang Terbukti",
+          "subtitle": "Lihat apa yang dicapai klien kami dengan Generasi Prospek SeaX",
+          "qualifiedLeads": {
+            "value": "5x",
+            "label": "Prospek yang Lebih Berkualitas"
+          },
+          "responseRate": {
+            "value": "85%",
+            "label": "Tingkat Respons"
+          },
+          "timeSavings": {
+            "value": "60%",
+            "label": "Penghematan Waktu"
+          },
+          "roiIncrease": {
+            "value": "300%",
+            "label": "Peningkatan ROI"
+          }
+        },
+        "cta": {
+          "title": "Siap Menskalakan Generasi Prospek Anda?",
+          "subtitle": "Bergabunglah dengan ribuan bisnis yang menghasilkan prospek yang berkualitas dengan SeaX",
+          "primary": "Daftar Sekarang",
+          "secondary": "Pesan Demo"
+        }
+      },
+      "marketingAutomation": {
+        "seo": {
+          "title": "Platform Otomatisasi Pemasaran - Otomatisasi Multi-Saluran SeaX",
+          "description": "Otomatiskan kampanye pemasaran Anda di seluruh SMS, WhatsApp, dan panggilan suara. Alur kerja canggih, segmentasi audiens, dan analitik kinerja."
+        },
+        "hero": {
+          "title": {
+            "main": "Otomatisasi Pemasaran",
+            "highlight": "yang Berfungsi"
+          },
+          "description": "Otomatiskan kampanye pemasaran Anda di seluruh SMS, WhatsApp, dan panggilan suara. Buat alur kerja canggih yang memelihara prospek dan mendorong konversi 24/7.",
+          "cta": {
+            "primary": "Mulai Otomatisasi",
+            "secondary": "Lihat Demo"
+          }
+        },
+        "features": {
+          "title": "Fitur Otomatisasi yang Kuat",
+          "subtitle": "Bangun kampanye canggih yang berjalan secara otomatis dan memberikan hasil",
+          "items[0]": {
+            "title": "Alur Kerja Otomatis",
+            "description": "Buat kampanye multi-langkah yang kompleks yang memicu berdasarkan perilaku dan respons pelanggan."
+          },
+          "items[1]": {
+            "title": "Waktu Cerdas",
+            "description": "Kirim pesan pada waktu optimal berdasarkan zona waktu pelanggan dan pola keterlibatan."
+          },
+          "items[2]": {
+            "title": "Segmentasi Audiens",
+            "description": "Targetkan segmen pelanggan tertentu dengan pesan yang dipersonalisasi di semua saluran."
+          },
+          "items[3]": {
+            "title": "Analitik Kinerja",
+            "description": "Lacak tingkat keterlibatan, konversi, dan ROI dengan analitik kampanye terperinci."
+          },
+          "items[4]": {
+            "title": "Urutan Multi-Saluran",
+            "description": "Orkestrasikan kampanye di seluruh SMS, WhatsApp, dan panggilan suara untuk jangkauan maksimum."
+          },
+          "items[5]": {
+            "title": "Pengujian A/B",
+            "description": "Uji pesan, waktu, dan saluran yang berbeda untuk mengoptimalkan kinerja kampanye."
+          }
+        },
+        "automationTypes": {
+          "title": "Alur Kerja Otomatisasi",
+          "subtitle": "Urutan otomatisasi yang telah dibangun sebelumnya untuk skenario pemasaran umum",
+          "items[0]": {
+            "title": "Seri Selamat Datang",
+            "description": "Secara otomatis mengorientasi pelanggan baru dengan urutan selamat datang yang dipersonalisasi.",
+            "example": "SMS Selamat Datang → Info produk → Penawaran khusus → Permintaan umpan balik"
+          },
+          "items[1]": {
+            "title": "Pemulihan Keranjang yang Ditinggalkan",
+            "description": "Libatkan kembali pelanggan yang meninggalkan item di keranjang mereka dengan pengingat yang ditargetkan.",
+            "example": "Pengingat keranjang → Diskon waktu terbatas → Rekomendasi produk"
+          },
+          "items[2]": {
+            "title": "Siklus Hidup Pelanggan",
+            "description": "Pandu pelanggan melalui perjalanan mereka dengan titik sentuh otomatis.",
+            "example": "Konfirmasi pembelian → Tips penggunaan → Peluang penjualan ke atas → Hadiah loyalitas"
+          },
+          "items[3]": {
+            "title": "Kampanye Keterlibatan Kembali",
+            "description": "Dapatkan kembali pelanggan yang tidak aktif dengan urutan keterlibatan kembali yang menarik.",
+            "example": "Pesan rindu → Penawaran eksklusif → Pembaruan produk → Insentif untuk kembali"
+          },
+          "exampleFlowLabel": "Contoh Alur:"
+        },
+        "stats": {
+          "title": "Hasil Otomatisasi",
+          "subtitle": "Lihat dampak otomatisasi pemasaran pada bisnis Anda",
+          "items[0]": {
+            "value": "10x",
+            "label": "Lebih Efisien"
+          },
+          "items[1]": {
+            "value": "95%",
+            "label": "Tingkat Keterlibatan"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Penghematan Waktu"
+          },
+          "items[3]": {
+            "value": "400%",
+            "label": "Peningkatan ROI"
+          }
+        },
+        "cta": {
+          "title": "Siap Mengotomatiskan Pemasaran Anda?",
+          "description": "Bergabunglah dengan ribuan bisnis yang menskalakan pemasaran mereka dengan otomatisasi SeaX",
+          "primary": "Daftar Sekarang",
+          "secondary": "Pesan Demo"
+        }
+      },
+      "customerEngagement": {
+        "seo": {
+          "title": "Keterlibatan Pelanggan - Platform Komunikasi SeaX",
+          "description": "Bangun hubungan pelanggan yang lebih kuat dengan keterlibatan multi-saluran yang dipersonalisasi di seluruh SMS, WhatsApp, dan panggilan suara."
+        },
+        "hero": {
+          "title": {
+            "main": "Keterlibatan Pelanggan",
+            "highlight": "yang Membangun Loyalitas"
+          },
+          "description": "Bangun hubungan pelanggan yang lebih kuat dengan keterlibatan multi-saluran yang dipersonalisasi di seluruh SMS, WhatsApp, dan panggilan suara. Ubah setiap interaksi menjadi peluang.",
+          "cta": {
+            "primary": "Libatkan Pelanggan",
+            "secondary": "Pesan Demo"
+          }
+        },
+        "features": {
+          "title": "Fitur Keterlibatan",
+          "subtitle": "Semua yang Anda butuhkan untuk membangun hubungan pelanggan yang bermakna",
+          "items[0]": {
+            "title": "Pembuatan Profil Pelanggan Tingkat Lanjut",
+            "description": "Buat profil pelanggan yang diperkaya untuk keterlibatan yang lebih personal."
+          },
+          "items[1]": {
+            "title": "Pesan Multisaluran",
+            "description": "Libatkan pelanggan di seluruh SMS, WhatsApp, dan pesan dalam aplikasi."
+          },
+          "items[2]": {
+            "title": "Analisis Sentimen",
+            "description": "Pahami sentimen pelanggan dan sesuaikan komunikasi."
+          },
+          "items[3]": {
+            "title": "Analisis Perilaku",
+            "description": "Lacak dan analisis perilaku pelanggan untuk meningkatkan strategi keterlibatan."
+          },
+          "items[4]": {
+            "title": "Alat Pemasaran Langsung",
+            "description": "Jalankan kampanye yang ditargetkan dengan presisi, berdasarkan data pelanggan."
+          },
+          "items[5]": {
+            "title": "Interaksi Real-time",
+            "description": "Libatkan pelanggan saat yang paling penting, dengan pemicu dan komunikasi real-time."
+          }
+        },
+        "useCases": {
+          "title": "Kasus Penggunaan Keterlibatan",
+          "subtitle": "Strategi keterlibatan pelanggan dunia nyata di seluruh industri",
+          "items[0]": {
+            "title": "Keterlibatan E-commerce",
+            "description": "Tingkatkan bisnis berulang dan retensi pelanggan melalui promosi yang dipersonalisasi.",
+            "stats": "Peningkatan 20% dalam pembelian berulang"
+          },
+          "items[1]": {
+            "title": "Peringatan Layanan Keuangan",
+            "description": "Berikan informasi kepada klien tentang aktivitas akun dengan peringatan dan pembaruan otomatis.",
+            "stats": "Tingkat keterlibatan 80% pada peringatan"
+          },
+          "items[2]": {
+            "title": "Perjalanan dan Perhotelan",
+            "description": "Tingkatkan pengalaman tamu dengan pembaruan pra-kedatangan dan rencana perjalanan yang dipersonalisasi.",
+            "stats": "Pengurangan 50% dalam pertanyaan pelanggan"
+          },
+          "items[3]": {
+            "title": "Program Loyalitas Ritel",
+            "description": "Tingkatkan loyalitas dengan hadiah dan penawaran yang dipersonalisasi berdasarkan riwayat pembelian.",
+            "stats": "Peningkatan 25% dalam anggota program loyalitas"
+          }
+        },
+        "stats": {
+          "title": "Hasil Keterlibatan",
+          "subtitle": "Lihat dampak peningkatan keterlibatan pelanggan",
+          "items[0]": {
+            "value": "40%",
+            "label": "Keterlibatan Lebih Tinggi"
+          },
+          "items[1]": {
+            "value": "85%",
+            "label": "Kepuasan Pelanggan"
+          },
+          "items[2]": {
+            "value": "60%",
+            "label": "Tingkat Pembelian Berulang"
+          },
+          "items[3]": {
+            "value": "3x",
+            "label": "Nilai Seumur Hidup Pelanggan"
+          }
+        },
+        "cta": {
+          "title": "Siap Membangun Hubungan Pelanggan yang Lebih Kuat?",
+          "description": "Bergabunglah dengan ribuan bisnis yang menggunakan SeaX untuk melibatkan pelanggan dan membangun loyalitas yang langgeng",
+          "primary": "Mulai Hari Ini"
+        }
+      },
+      "appointmentReminders": {
+        "seo": {
+          "title": "Pengingat Janji Temu - Penjadwalan Otomatis SeaX",
+          "description": "Kurangi ketidakhadiran dan tingkatkan kehadiran dengan pengingat janji temu otomatis melalui SMS, WhatsApp, dan panggilan suara. Sistem penjadwalan dan konfirmasi cerdas."
+        },
+        "hero": {
+          "title": {
+            "main": "Pengingat Janji Temu",
+            "highlight": "yang Berfungsi"
+          },
+          "description": "Kurangi ketidakhadiran dan tingkatkan kehadiran dengan pengingat janji temu otomatis melalui SMS, WhatsApp, dan panggilan suara. Penjadwalan cerdas dengan komunikasi dua arah.",
+          "cta": {
+            "primary": "Mulai Mengurangi Ketidakhadiran",
+            "secondary": "Pesan Demo"
+          }
+        },
+        "features": {
+          "title": "Fitur Pengingat yang Kuat",
+          "subtitle": "Semua yang Anda butuhkan untuk menjaga janji temu tetap pada jalurnya dan mengurangi ketidakhadiran",
+          "items[0]": {
+            "title": "Penjadwalan Cerdas",
+            "description": "Secara otomatis menjadwalkan janji temu dan mengirim konfirmasi di seluruh SMS, WhatsApp, dan panggilan suara."
+          },
+          "items[1]": {
+            "title": "Pengingat Multi-Tahap",
+            "description": "Kirim pengingat yang dipersonalisasi pada interval optimal - 24 jam, 1 jam, dan 15 menit sebelum janji temu."
+          },
+          "items[2]": {
+            "title": "Komunikasi Dua Arah",
+            "description": "Izinkan pelanggan untuk mengkonfirmasi, menjadwal ulang, atau membatalkan janji temu langsung melalui SMS atau WhatsApp."
+          },
+          "items[3]": {
+            "title": "Notifikasi Staf",
+            "description": "Berikan informasi kepada tim Anda dengan pembaruan real-time tentang perubahan dan konfirmasi janji temu."
+          },
+          "items[4]": {
+            "title": "Peringatan Kustom",
+            "description": "Siapkan jadwal pengingat kustom dan pesan untuk berbagai jenis dan durasi janji temu."
+          },
+          "items[5]": {
+            "title": "Analitik & Wawasan",
+            "description": "Lacak tingkat ketidakhadiran, tingkat konfirmasi, dan optimalkan strategi pengingat Anda dengan analitik terperinci."
+          }
+        },
+        "useCases": {
+          "title": "Kasus Penggunaan Industri",
+          "subtitle": "Strategi pengingat janji temu yang terbukti di berbagai industri",
+          "items[0]": {
+            "title": "Praktik Kesehatan",
+            "description": "Kurangi ketidakhadiran untuk janji temu medis dengan pengingat otomatis dan opsi penjadwalan ulang yang mudah.",
+            "stats": "Pengurangan 40% dalam ketidakhadiran"
+          },
+          "items[1]": {
+            "title": "Kecantikan & Kesejahteraan",
+            "description": "Jaga janji temu salon dan spa tetap pada jalurnya dengan pengingat yang dipersonalisasi dan permintaan konfirmasi.",
+            "stats": "Tingkat konfirmasi 85%"
+          },
+          "items[2]": {
+            "title": "Layanan Profesional",
+            "description": "Pastikan konsultasi dan rapat terjadi tepat waktu dengan urutan pengingat multi-saluran.",
+            "stats": "Tingkat kehadiran 90%"
+          },
+          "items[3]": {
+            "title": "Layanan Otomotif",
+            "description": "Ingatkan pelanggan tentang janji temu layanan dan jadwal pemeliharaan secara otomatis.",
+            "stats": "Peningkatan 60% dalam kunjungan berulang"
+          }
+        },
+        "stats": {
+          "title": "Hasil yang Terbukti",
+          "subtitle": "Lihat apa yang dicapai klien kami dengan Pengingat Janji Temu SeaX",
+          "items[0]": {
+            "value": "40%",
+            "label": "Pengurangan Ketidakhadiran"
+          },
+          "items[1]": {
+            "value": "90%",
+            "label": "Tingkat Kehadiran"
+          },
+          "items[2]": {
+            "value": "75%",
+            "label": "Penghematan Waktu"
+          },
+          "items[3]": {
+            "value": "95%",
+            "label": "Kepuasan Pelanggan"
+          }
+        },
+        "cta": {
+          "title": "Siap Mengurangi Ketidakhadiran dan Meningkatkan Kehadiran?",
+          "description": "Bergabunglah dengan ribuan bisnis yang meningkatkan kehadiran janji temu dengan SeaX",
+          "primary": "Mulai Hari Ini"
+        }
+      },
+      "emergencyAlerts": {
+        "seo": {
+          "title": "Peringatan Darurat - Sistem Notifikasi SeaX",
+          "description": "Kirim peringatan darurat instan dengan komunikasi real-time di seluruh SMS, suara, dan WhatsApp. Pastikan pengiriman pesan dalam situasi kritis."
+        },
+        "hero": {
+          "title": {
+            "main": "Peringatan Darurat",
+            "highlight": "yang Menyelamatkan Nyawa"
+          },
+          "description": "Kirim peringatan darurat instan dengan komunikasi real-time di seluruh SMS, suara, dan WhatsApp. Pastikan pengiriman pesan dalam situasi kritis ketika setiap detik berarti.",
+          "cta": {
+            "primary": "Mulai Mengirim Peringatan",
+            "secondary": "Pesan Demo Keamanan"
+          }
+        },
+        "features": {
+          "title": "Fitur Peringatan Kritis",
+          "subtitle": "Semua yang Anda butuhkan untuk komunikasi darurat yang efektif dan andal",
+          "items[0]": {
+            "title": "Siaran Darurat Instan",
+            "description": "Kirim peringatan kritis ke ribuan penerima secara bersamaan di seluruh SMS, suara, dan WhatsApp."
+          },
+          "items[1]": {
+            "title": "Pengiriman Sensitif Waktu",
+            "description": "Pengiriman pesan yang diprioritaskan memastikan komunikasi darurat mencapai penerima segera."
+          },
+          "items[2]": {
+            "title": "Grup Penerima yang Ditargetkan",
+            "description": "Buat dan kelola grup tertentu untuk berbagai jenis keadaan darurat dan lokasi."
+          },
+          "items[3]": {
+            "title": "Infrastruktur yang Andal",
+            "description": "Dibangun di atas infrastruktur tingkat operator untuk memastikan pesan sampai ketika yang paling penting."
+          },
+          "items[4]": {
+            "title": "Peringatan Multi-Saluran",
+            "description": "Jangkau orang melalui saluran komunikasi pilihan mereka untuk tingkat respons maksimum."
+          },
+          "items[5]": {
+            "title": "Komunikasi Dua Arah",
+            "description": "Terima konfirmasi dan respons dari penerima untuk melacak efektivitas peringatan."
+          }
+        },
+        "useCases": {
+          "title": "Kasus Penggunaan Peringatan Darurat",
+          "subtitle": "Aplikasi dunia nyata untuk memastikan keamanan dan komunikasi",
+          "items[0]": {
+            "title": "Respons Darurat Perusahaan",
+            "description": "Beritahu karyawan tentang ancaman keamanan, evakuasi, atau gangguan bisnis kritis.",
+            "stats": "Tingkat keberhasilan pengiriman 99.9%"
+          },
+          "items[1]": {
+            "title": "Peringatan Keamanan Sekolah",
+            "description": "Secara instan informasikan orang tua, siswa, dan staf tentang penutupan sekolah atau insiden keamanan.",
+            "stats": "Waktu pengiriman rata-rata 30 detik"
+          },
+          "items[2]": {
+            "title": "Peringatan Kritis Kesehatan",
+            "description": "Beritahu staf medis tentang situasi kode, keadaan darurat pasien, atau insiden fasilitas.",
+            "stats": "Tingkat respons 95% dalam 5 menit"
+          },
+          "items[3]": {
+            "title": "Notifikasi Keamanan Publik",
+            "description": "Peringatkan komunitas tentang bencana alam, kondisi berbahaya, atau ancaman keamanan publik.",
+            "stats": "10.000+ penerima per menit"
+          }
+        },
+        "stats": {
+          "title": "Respons Darurat yang Terbukti",
+          "subtitle": "Kirim pesan dengan andal ketika setiap detik berarti",
+          "items[0]": {
+            "value": "99.9%",
+            "label": "Tingkat Keberhasilan Pengiriman"
+          },
+          "items[1]": {
+            "value": "30 detik",
+            "label": "Waktu Pengiriman Rata-rata"
+          },
+          "items[2]": {
+            "value": "95%",
+            "label": "Respons dalam 5 menit"
+          },
+          "items[3]": {
+            "value": "10.000+",
+            "label": "Pesan per Menit"
+          }
+        },
+        "cta": {
+          "title": "Siap Memastikan Keamanan dan Komunikasi?",
+          "description": "Bergabunglah dengan ribuan organisasi yang menggunakan SeaX untuk memastikan keamanan dan berkomunikasi secara efektif selama keadaan darurat.",
+          "primary": "Mulai Hari Ini"
+        }
+      }
+    }
+  }
+}

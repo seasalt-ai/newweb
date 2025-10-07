@@ -1,0 +1,403 @@
+{
+  "textToSpeech": {
+    "hero": {
+      "title": "Technologia zamiany tekstu na mowę",
+      "subtitle": "Generuj ludzką mowę z tekstu dzięki naszej zaawansowanej technologii neuronowej zamiany tekstu na mowę. Twórz niestandardowe głosy, obsługuj ponad 40 języków i dostarczaj wyjątkową jakość dźwięku.",
+      "cta": "Wypróbuj generowanie głosu"
+    },
+    "demo": {
+      "title": "Doświadcz naszej technologii głosowej",
+      "subtitle": "Wypróbuj różne głosy i sam usłysz jakość",
+      "chooseVoice": "Wybierz głos:",
+      "textPrompt": "Wprowadź tekst do konwersji na mowę:",
+      "defaultText": "Witaj! Jestem asystentem głosowym AI zasilanym technologią SeaVoice. Mogę pomóc Ci w obsłudze klienta, sprzedaży i wsparciu w naturalnym, ludzkim głosie.",
+      "placeholderText": "Wpisz coś, co nasza AI ma powiedzieć...",
+      "generateSpeech": "Generuj mowę",
+      "playing": "Odtwarzanie..."
+    },
+    "voices": {
+      "sarah": {
+        "name": "Sarah",
+        "gender": "Kobieta",    
+        "accent": "Angielski (USA)",
+        "description": "Profesjonalny, ciepły"
+      },
+      "tom": {
+        "name": "Tom",
+        "gender": "Mężczyzna",
+        "accent": "Angielski (USA)",
+        "description": "Przyjazny, konwersacyjny"
+      },
+      "lissa": {
+        "name": "Lissa",
+        "gender": "Kobieta",
+        "accent": "Angielski (Wielka Brytania)",
+        "description": "Energiczny, pomocny"
+      },
+      "alex": {
+        "name": "Alex",
+        "gender": "Mężczyzna",
+        "accent": "Australijski",
+        "description": "Wyraźny, pewny siebie"
+      },
+      "maria": {
+        "name": "Maria",
+        "gender": "Kobieta",
+        "accent": "Hiszpański",
+        "description": "Ekspresyjny, naturalny"
+      },
+      "hiroshi": {
+        "name": "Hiroshi",
+        "gender": "Mężczyzna",
+        "accent": "Japoński",
+        "description": "Uprzejmy, profesjonalny"
+      }
+    },
+    "features": {
+      "title": "Zaawansowane generowanie głosu",
+      "subtitle": "Najnowocześniejsze sieci neuronowe zapewniają jakość mowy podobną do ludzkiej",
+      "customVoiceCloning": {
+        "title": "Niestandardowe klonowanie głosu",
+        "description": "Twórz unikalne profile głosowe, które pasują do osobowości Twojej marki i stylu mówienia.",
+        "capabilities": {
+          "voiceCloning": "Klonowanie głosu z próbek",
+          "brandVoice": "Spójność głosu marki",
+          "emotionalExpression": "Ekspresja emocjonalna",
+          "customPronunciations": "Niestandardowe wymowy"
+        }
+      },
+      "advancedControls": {
+        "title": "Zaawansowane sterowanie",
+        "description": "Dostosuj każdy aspekt generowania mowy, aby uzyskać doskonały dźwięk.",
+        "capabilities": {
+          "speedAdjustment": "Regulacja prędkości",
+          "pitchControl": "Kontrola wysokości tonu",
+          "emphasisPlacement": "Umieszczanie akcentów",
+          "pauseInsertion": "Wstawianie pauz"
+        }
+      },
+      "multiLanguageSupport": {
+        "title": "Obsługa wielu języków",
+        "description": "Generuj naturalną mowę w ponad 40 językach z natywną wymową.",
+        "capabilities": {
+          "fortyPlusLanguages": "Ponad 40 języków",
+          "regionalAccents": "Akcenty regionalne",
+          "codeSwitching": "Przełączanie kodów",
+          "multilingualVoices": "Głosy wielojęzyczne"
+        }
+      }
+    },
+    "qualityMetrics": {
+      "title": "Wyjątkowe metryki jakości",
+      "subtitle": "Mierzona wydajność, która zapewnia profesjonalne rezultaty",
+      "naturalness": {
+        "metric": "Wynik naturalności",
+        "value": "4,8/5",
+        "description": "Ocena ludzka"
+      },
+      "intelligibility": {
+        "metric": "Zrozumiałość",
+        "value": "99,2%",
+        "description": "Dokładność rozpoznawania słów"
+      },
+      "latency": {
+        "metric": "Opóźnienie",
+        "value": "< 200ms",
+        "description": "Generowanie tekstu na dźwięk"
+      },
+      "audioQuality": {
+        "metric": "Jakość dźwięku",
+        "value": "48kHz",
+        "description": "Wyjście wysokiej wierności"
+      }
+    },
+    "useCases": {
+      "title": "Wszechstronne zastosowania",
+      "subtitle": "Przekształć tekst w mowę w różnych branżach i przypadkach użycia",
+      "customerService": {
+        "title": "Obsługa klienta",
+        "description": "Zapewnij spójne, profesjonalne odpowiedzi głosowe dla interakcji z klientami.",
+        "benefits": {
+          "availability": "Dostępność 24/7",
+          "consistentQuality": "Spójna jakość",
+          "multiLanguageSupport": "Obsługa wielu języków",
+          "brandVoiceAlignment": "Dopasowanie głosu marki"
+        }
+      },
+      "contentCreation": {
+        "title": "Tworzenie treści",
+        "description": "Generuj lektury do filmów, podcastów i treści multimedialnych.",
+        "benefits": {
+          "costEffectiveProduction": "Opłacalna produkcja",
+          "quickTurnaround": "Szybki czas realizacji",
+          "multipleVoiceOptions": "Wiele opcji głosowych",
+          "easyRevisions": "Łatwe poprawki"
+        }
+      },
+      "accessibility": {
+        "title": "Dostępność",
+        "description": "Udostępnij treści za pomocą wysokiej jakości zamiany tekstu na mowę dla użytkowników niedowidzących.",
+        "benefits": {
+          "screenReaderEnhancement": "Ulepszenie czytnika ekranu",
+          "documentNarration": "Narracja dokumentów",
+          "webAccessibility": "Dostępność internetowa",
+          "educationalSupport": "Wsparcie edukacyjne"
+        }
+      },
+      "interactiveApplications": {
+        "title": "Aplikacje interaktywne",
+        "description": "Dodaj możliwości głosowe do aplikacji, gier i interaktywnych doświadczeń.",
+        "benefits": {
+          "realTimeGeneration": "Generowanie w czasie rzeczywistym",
+          "dynamicContent": "Dynamiczna treść",
+          "userEngagement": "Zaangażowanie użytkowników",
+          "immersiveExperiences": "Wciągające doświadczenia"
+        }
+      }
+    },
+    "voiceCloning": {
+      "title": "Niestandardowe klonowanie głosu",
+      "subtitle": "Twórz unikalne profile głosowe, które idealnie pasują do osobowości Twojej marki. Nasza zaawansowana technologia klonowania głosu może replikować style mówienia, akcenty i ekspresje emocjonalne za pomocą zaledwie kilku minut próbki audio.",
+      "brandVoiceConsistency": {
+        "title": "Spójność głosu marki",
+        "description": "Utrzymuj spójny głos marki we wszystkich interakcjach"
+      },
+      "fineTunedControl": {
+        "title": "Precyzyjna kontrola",
+        "description": "Dostosuj ton, tempo i ekspresję emocjonalną"
+      },
+      "highFidelityOutput": {
+        "title": "Wyjście wysokiej wierności",
+        "description": "Profesjonalna jakość dźwięku dla każdej aplikacji"
+      },
+      "process": {
+        "title": "Proces klonowania głosu",
+        "step1": {
+          "title": "Prześlij próbki audio",
+          "description": "Dostarcz 5-10 minut czystych nagrań audio"
+        },
+        "step2": {
+          "title": "Szkolenie AI",
+          "description": "Nasze sieci neuronowe uczą się Twoich unikalnych cech głosu"
+        },
+        "step3": {
+          "title": "Generowanie głosu",
+          "description": "Generuj nieograniczoną mowę swoim niestandardowym głosem"
+        }
+      }
+    },
+    "cta": {
+      "title": "Gotowy, aby nadać swojej marce głos?",
+      "subtitle": "Twórz niestandardowe głosy i generuj mowę o profesjonalnej jakości dla każdej aplikacji",
+      "startVoiceCloning": "Rozpocznij klonowanie głosu",
+      "exploreApi": "Poznaj API"
+    }
+  },
+  "components": {
+    "aiVoiceAvatar": {
+      "badge": {
+        "label": "Interaktywny awatar AI"
+      },
+      "hero": {
+        "title": {
+          "line1": "Poznaj swojego",
+          "line2": "Agenta głosowego AI"
+        },
+        "subtitle": "Doświadcz przyszłości komunikacji AI. Nasze awatary demonstrują ludzkie rozmowy z inteligencją emocjonalną i wieloma opcjami osobowości."
+      },
+      "voices": {
+        "professional": {
+          "name": "Profesjonalna Sarah",
+          "description": "Wyraźny, autorytatywny głos biznesowy"
+        },
+        "friendly": {
+          "name": "Przyjazny Mike",
+          "description": "Ciepła, przystępna obsługa klienta"
+        },
+        "empathetic": {
+          "name": "Troskliwa Emma",
+          "description": "Współczujący głos opieki zdrowotnej"
+        }
+      },
+      "languages": {
+        "english": "Angielski",
+        "spanish": "Hiszpański",
+        "french": "Francuski",
+        "german": "Niemiecki",
+        "chinese": "Chiński"
+      },
+      "demoScripts": {
+        "professional": "Witaj, jestem Sarah, Twoim asystentem biznesowym AI. Mogę obsługiwać zapytania klientów, planować spotkania i dostarczać szczegółowe informacje o produktach z precyzją i klarownością.",
+        "friendly": "Cześć! Jestem Mike i jestem tutaj, aby Twoje doświadczenie było niesamowite. Niezależnie od tego, czy potrzebujesz pomocy z zamówieniem, czy masz szybkie pytanie, chętnie porozmawiam!",
+        "empathetic": "Witaj, jestem Emma. Rozumiem, że pytania dotyczące opieki zdrowotnej mogą być stresujące, i jestem tutaj, aby zapewnić troskliwe, dokładne wsparcie, kiedy tylko tego potrzebujesz."
+      },
+      "controls": {
+        "voicePersonality": "Wybierz osobowość głosu:",
+        "language": "Język:",
+        "demoVoice": "Głos demo",
+        "tryVoiceInput": "Wypróbuj wprowadzanie głosowe"
+      },
+      "status": {
+        "listening": "Słucham...",
+        "speaking": "Mówię...",
+        "ready": "Gotowy",
+        "label": "Status:"
+      },
+      "listeningResponse": "Usłyszałem Cię! Tutaj odpowiadałbym na Twój głosowy wpis z kontekstowym zrozumieniem.",
+      "avatarMoods": {
+        "neutral": "neutralny",
+        "speaking": "mówiący",
+        "listening": "słuchający",
+        "thinking": "myślący"
+      }
+    }
+  },
+  "voiceConversationFlow": {
+    "steps": {
+      "callConnected": {
+        "title": "Połączenie nawiązane",
+        "description": "Klient połączony z Twoją firmą"
+      },
+      "listening": {
+        "title": "AI słucha",
+        "description": "Zaawansowane rozpoznawanie mowy rejestruje każde słowo"
+      },
+      "processing": {
+        "title": "AI przetwarza",
+        "description": "Sieci neuronowe rozumieją intencje i kontekst"
+      },
+      "responding": {
+        "title": "AI odpowiada",
+        "description": "Głos podobny do ludzkiego dostarcza doskonałą odpowiedź"
+      }
+    },
+    "conversationTypes": {
+      "appointmentBooking": "Rezerwacja spotkań",
+      "orderSupport": "Wsparcie zamówień",
+      "salesInquiry": "Zapytanie sprzedażowe"
+    },
+    "conversations": {
+      "appointmentBooking": {
+        "customer": "Cześć, chciałbym umówić się na wizytę w przyszły wtorek.",
+        "ai": "Chętnie pomogę Ci umówić wizytę. Pozwól, że sprawdzę naszą dostępność na przyszły wtorek. Jaki czas byłby dla Ciebie najlepszy?"
+      },
+      "orderSupport": {
+        "customer": "Mam problem z moim ostatnim zamówieniem. Jeszcze nie dotarło.",
+        "ai": "Rozumiem Twoje obawy dotyczące zamówienia. Pozwól, że natychmiast to sprawdzę. Czy możesz podać numer zamówienia?"
+      },
+      "salesInquiry": {
+        "customer": "Czy możesz mi opowiedzieć o swoich planach cenowych?",
+        "ai": "Oczywiście! Mamy kilka opcji cenowych, aby dopasować się do różnych potrzeb. Nasz podstawowy plan zaczyna się od 29 USD/miesiąc i obejmuje wszystkie podstawowe funkcje. Czy chciałbyś, abym wyjaśnił różnice?"
+      }
+    },
+    "ui": {
+      "chooseConversationType": "Wybierz typ rozmowy:",
+      "autoProgressing": "Automatyczne przechodzenie przez scenariusze...",
+      "liveConversation": "Rozmowa na żywo:",
+      "speaking": "Mówię...",
+      "aiSpeaking": "AI mówi...",
+      "aiThinking": "AI myśli...",
+      "processingContext": "Przetwarzanie kontekstu",
+      "accuracyRate": "Wskaźnik dokładności"
+    }
+  },
+  "// Large Scale Campaigns Page - English key-value pairs": "",
+  "seo": {
+    "homepage": {
+      "title": "Seasalt.ai | Wielokanałowe centrum kontaktowe dla małych firm",
+      "description": "Przestań żonglować aplikacjami. Ujednolicaj każde połączenie z klientem, WhatsApp i czat w jednej prostej skrzynce odbiorczej. Kompleksowe centrum kontaktowe zbudowane dla małych firm.",
+      "keywords": "wielokanałowe centrum kontaktowe, komunikacja dla małych firm, ujednolicona skrzynka odbiorcza, oprogramowanie do obsługi klienta, WhatsApp biznes, połączenia głosowe, wsparcie czatu"
+    },
+    "seavoice": {
+      "homepage": {
+        "title": "SeaVoice | Komunikacja głosowa oparta na AI - Seasalt.ai",
+        "description": "Przekształć swoją komunikację głosową za pomocą AI. SeaVoice oferuje inteligentne routingowanie połączeń, analitykę głosu i zautomatyzowane odpowiedzi. Obsługuj połączenia klientów 24/7 za pomocą agentów AI podobnych do ludzi.",
+        "keywords": "głos AI, oprogramowanie call center, analityka głosu, SeaVoice, inteligentne routingowanie połączeń, zautomatyzowany system telefoniczny, asystent głosowy, obsługa klienta 24/7"
+      },
+      "virtualAssistant": {
+        "title": "Wirtualny asystent 24/7 | Rozwiązania głosowe AI SeaVoice - Seasalt.ai",
+        "description": "Zapewnij całodobową obsługę klienta za pomocą wirtualnego asystenta AI SeaVoice. Inteligentni agenci głosowi obsługują zapytania klientów, planowanie spotkań i prośby o wsparcie, poprawiając satysfakcję, jednocześnie zmniejszając koszty.",
+        "keywords": "wirtualny asystent, asystent głosowy AI, całodobowa obsługa klienta, inteligentna obsługa klienta, SeaVoice, automatyzacja głosu, automatyzacja obsługi klienta"
+      }
+    }
+  },
+  "// Key structure: seavoice": {
+    "pages": {
+      "solutions": {
+        "outbound": {
+          "largeScaleCampaigns": "",
+          "subscriptionRenewals": ""
+        }
+      }
+    }
+  },
+  "statsCounter": {
+    "section": {
+      "title": "Zaufane przez firmy na całym świecie",
+      "subtitle": "Nasza platforma obsługuje miliony rozmów każdego dnia"
+    },
+    "stats": {
+      "messages": {
+        "label": "Wysłane wiadomości",
+        "suffix": "M+"
+      },
+      "calls": {
+        "label": "Wykonane połączenia",
+        "suffix": "K+"
+      },
+      "uptime": {
+        "label": "Dostępność systemu",
+        "suffix": "%"
+      },
+      "countries": {
+        "label": "Obsługiwane kraje",
+        "suffix": "+"
+      },
+      "roi": {
+        "label": "Wzrost ROI",
+        "suffix": "%"
+      }
+    },
+    "dashboard": {
+      "title": "Panel SeaX",
+      "messagesSent": "Wysłane wiadomości",
+      "deliveryRate": "Wskaźnik dostarczalności",
+      "recentActivity": "Ostatnia aktywność",
+      "demo": {
+        "messagesSent": "2,4 mln",
+        "deliveryRate": "85%"
+      }
+    },
+    "activity": {
+      "flashSale": {
+        "title": "Kampania błyskawicznej wyprzedaży",
+        "detail": "50 000 SMS wysłanych • 2 min temu"
+      },
+      "leadFollowup": {
+        "title": "Follow-up leada",
+        "detail": "12 000 połączeń zakończonych • 5 min temu"
+      },
+      "whatsapp": {
+        "title": "Kampania WhatsApp",
+        "detail": "25 000 wiadomości w kolejce • 8 min temu"
+      }
+    },
+    "status": {
+      "liveRunning": "Aktywne kampanie na żywo",
+      "liveActivity": "Aktywność na żywo: Wiadomości są wysyłane właśnie teraz"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "10 tys.+",
+      "callsMax": "5 tys.+",
+      "voicemailMax": "1 tys.+",
+      "whatsappMax": "10 tys.+"
+    },
+    "breakdown": {
+      "localPlus": "lokalny +",
+      "tollFreeMinus": "bezpłatny"
+    }
+  }
+}

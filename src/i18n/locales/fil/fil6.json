@@ -1,0 +1,1394 @@
+{
+  "common": {
+    "tableOfContents": "Talaan ng mga Nilalaman",
+    "loading": {
+      "translations": "Naglo-load ng mga pagsasalin...",
+      "blogPosts": "Naglo-load ng mga post sa blog..."
+    },
+    "actions": {
+      "signUp": "Mag-sign Up",
+      "bookDemo": "Mag-book ng Demo",
+      "clearFilters": "I-clear ang mga filter",
+      "signUpForFree": "Mag-sign Up nang Libre",
+      "scheduleDemo": "Mag-iskedyul ng Demo"
+    }
+  },
+  "navigation": {
+    "backToHome": "Bumalik sa Home",
+    "backToBlog": "Bumalik sa Blog"
+  },
+  "blog": {
+    "searchPlaceholder": "Maghanap ng mga post sa blog...",
+    "allCategories": "Lahat ng mga Kategorya",
+    "clearFilters": "I-clear ang mga filter",
+    "seo": {
+      "title": "Blog - Seasalt.ai",
+      "description": "Mga insight, tip, at update sa mga komunikasyon sa customer na pinapagana ng AI, automation ng negosyo, at ang hinaharap ng karanasan sa customer."
+    },
+    "loading": {
+      "text": "Naglo-load ng mga post sa blog..."
+    },
+    "nav": {
+      "backToHome": "Bumalik sa Home"
+    },
+    "hero": {
+      "title": "Seasalt.ai",
+      "highlight": "Blog",
+      "description": "Mga insight, tip, at update sa mga komunikasyon sa customer na pinapagana ng AI, automation ng negosyo, at ang hinaharap ng karanasan sa customer."
+    },
+    "search": {
+      "placeholder": "Maghanap ng mga post sa blog..."
+    },
+    "filter": {
+      "allCategories": "Lahat ng mga Kategorya"
+    },
+    "empty": {
+      "noPosts": "Walang nahanap na mga post sa blog.",
+      "noResults": "Walang mga post na tumutugma sa iyong pamantayan sa paghahanap.",
+      "clearFilters": "I-clear ang mga filter"
+    },
+    "post": {
+      "readMore": "Magbasa Nang Higit Pa →",
+      "updated": "Na-update"
+    },
+    "newsletter": {
+      "title": "Manatiling Nai-update sa Aming mga Pinakabagong Insight",
+      "description": "Kunin ang pinakabagong mga artikulo sa AI automation, karanasan sa customer, at paglago ng negosyo na inihahatid nang direkta sa iyong inbox.",
+      "emailPlaceholder": "Ipasok ang iyong email",
+      "subscribeButton": "Mag-subscribe"
+    }
+  },
+  "careers": {
+    "seo": {
+      "title": "Mga Karera sa Seasalt.ai",
+      "description": "Galugarin ang mga pagkakataon sa karera sa Seasalt.ai. Sumali sa aming misyon na baguhin ang mundo ng komunikasyon sa negosyo gamit ang AI."
+    },
+    "hero": {
+      "title": "Mga Karera sa Seasalt.ai",
+      "subtitle": "Sumali sa aming misyon na baguhin ang mundo ng komunikasyon sa negosyo gamit ang AI. Kinukuha namin ang pinakamahusay at pinakamaliwanag na mga tao sa mundo upang makatulong na gawing isang katotohanan ang pagbabagong ito."
+    },
+    "mission": {
+      "title": "Misyon ng Seasalt.ai",
+      "content": "Ang misyon ng Seasalt.ai ay baguhin ang mundo ng mga negosyo gamit ang AI. Kinukuha namin ang pinakamahusay at pinakamaliwanag na mga tao sa mundo upang makatulong na gawing isang katotohanan ang pagbabagong ito."
+    },
+    "vision": {
+      "title": "Pananaw ng Seasalt.ai",
+      "content": "Ang pananaw ng Seasalt.ai ay lumikha ng isang mundo kung saan ang mga tao ay nabubuhay kasama ng AI. Nilulutas namin ang B2B na may nasa isip na B2C."
+    },
+    "departments": {
+      "business": "Negosyo",
+      "product": "Produkto",
+      "engineering": "Inhinyeriya"
+    },
+    "positions": {
+      "businessDeveloper": {
+        "title": "Developer ng Negosyo",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "fieldMarketingDirectSales": {
+        "title": "Field Marketing at Direktang Pagbebenta",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "technicalProductManager": {
+        "title": "Teknikal na Tagapamahala ng Produkto",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "productMarketing": {
+        "title": "Marketing ng Produkto",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "frontendEngineer": {
+        "title": "Frontend Engineer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "backendEngineer": {
+        "title": "Backend Engineer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "devOps": {
+        "title": "DevOps Engineer",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "mlEngineerNLP": {
+        "title": "Machine Learning Engineer (NLP)",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "mlEngineerLanguageModeling": {
+        "title": "Machine Learning Engineer (Pagmomodelo ng Wika)",
+        "location": "Remote",
+        "type": "Full-time"
+      },
+      "mlEngineerSpeechRecognition": {
+        "title": "Machine Learning Engineer (Pagkilala sa Pagsasalita)",
+        "location": "Remote",
+        "type": "Full-time"
+      }
+    },
+    "common": {
+      "detail": "Tingnan ang mga Detalye"
+    }
+  },
+  "company": {
+    "seo": {
+      "title": "Tungkol sa Seasalt.ai - Impormasyon at Pamumuno ng Kumpanya",
+      "description": "Alamin ang tungkol sa Seasalt.ai, isang nangungunang provider ng mga solusyon sa teknolohiya ng AI sa komunikasyon sa cloud. Itinatag ng mga dalubhasa sa AI, binabago namin ang mga komunikasyon sa negosyo gamit ang mga omnichannel na platform ng AI."
+    },
+    "hero": {
+      "title": "Tungkol sa Seasalt.ai",
+      "description": "Ang Seasalt.ai ay isang nangungunang provider ng mga solusyon sa teknolohiya ng AI sa komunikasyon sa cloud, na nagtatayo ng mga pinag-isa, maraming wika, at omnichannel na platform para sa mga negosyo sa buong mundo. Itinatag noong 2020 ng mga beterano sa industriya sa mga teknolohiya ng AI at boses, ang Seasalt.ai ay nasa isang misyon na gawing naa-access, secure, at nasusukat para sa lahat ang conversational AI sa antas ng enterprise.",
+      "subtitle": "Mula sa mga SME hanggang sa mga non-profit hanggang sa mga organisasyon sa pampublikong sektor, binibigyan ng kapangyarihan ng Seasalt.ai ang mga koponan na i-automate ang komunikasyon, itaas ang mga karanasan sa customer, at i-unlock ang mga bagong channel para sa paglago."
+    },
+    "mission": {
+      "title": "Ang Aming Misyon at mga Halaga",
+      "heading": "Ang Aming Misyon",
+      "text": "Baguhin ang mundo ng komunikasyon sa negosyo gamit ang AI—pagbuo ng mga natural, naaaksyunan na pag-uusap kahit saan, sa anumang channel.",
+      "statement": "Nagtatayo kami ng mga ahente ng AI na nagsasalita, nakikinig, at kumikilos — sa pagmemensahe, boses, at web — upang ang mga tao ay makapag-focus sa kung ano ang tunay na mahalaga.",
+      "future": "Naniniwala kami na ang hinaharap ng trabaho ay pinalaki ng AI, hindi pinalitan ng AI. Tinutulungan ng aming teknolohiya ang mga tao na gawin ang kanilang mga trabaho nang mas mahusay, mas mabilis, at mas makabuluhan."
+    },
+    "vision": {
+      "heading": "Ang Aming Pananaw",
+      "text": "Lumikha ng isang mundo kung saan ang mga tao at AI ay walang putol na nakikipagtulungan, na naghahatid ng halaga sa negosyo na nakaugat sa pagiging simple, tiwala, at kahusayan sa teknolohiya."
+    },
+    "values": {
+      "title": "🧭 Ang Aming mga Pangunahing Halaga",
+      "humanFirst": {
+        "title": "Una ang Tao",
+        "description": "Paglalagay ng mga tao sa sentro ng lahat ng aming mga solusyon sa AI."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Bukas at tapat na komunikasyon sa aming koponan at sa mga customer."
+      },
+      "speedSafety": {
+        "title": "Bilis at Kaligtasan",
+        "description": "Paghahatid ng mabilis na mga solusyon habang pinapanatili ang pinakamataas na pamantayan sa kaligtasan."
+      },
+      "buildPurpose": {
+        "title": "Bumuo nang may Layunin",
+        "description": "Ang bawat produkto at tampok ay nagsisilbi sa isang makabuluhang layunin."
+      },
+      "globalEmpathy": {
+        "title": "Pandaigdigang Empatiya",
+        "description": "Pagdidisenyo ng mga solusyon na may pagiging sensitibo sa kultura at pandaigdigang epekto."
+      }
+    },
+    "leadership": {
+      "0": {
+        "role": "CEO at Co-Founder",
+        "bio": "Dating co-founder ng KITT.AI (sinuportahan ng Amazon at Microsoft, nakuha ng Baidu). Dalawang beses na founder at kinikilalang dalubhasa sa AI. PhD sa Natural Language Processing mula sa Johns Hopkins University CLSP.",
+        "homepage": "https://xuchen.github.io/"
+      },
+      "1": {
+        "role": "CTO at Co-Founder",
+        "bio": "Dalubhasa sa teknolohiya ng pagsasalita, co-founder din ng KITT.AI. Malalim na karanasan sa pagkilala sa pagsasalita sa maraming wika at conversational AI. PhD sa Pagkilala sa Pagsasalita mula sa Johns Hopkins University CLSP.",
+        "scholar": "https://scholar.google.com/citations?user=iDALeq4AAAAJ&hl=en&oi=ao"
+      },
+      "title": "Pamumuno at mga Co-founder",
+      "homepage": "Homepage",
+      "scholar": "Google Scholar"
+    },
+    "offices": {
+      "title": "Mga Lokasyon ng Opisina",
+      "list": [
+        {
+          "title": "Pandaigdigang Punong-himpilan",
+          "location": "Seattle, Washington, USA"
+        },
+        {
+          "title": "Sentro ng R&D at Suporta sa Asya",
+          "location": "Taipei, Taiwan"
+        }
+      ]
+    },
+    "products": {
+      "title": "Ano ang Aming Binuo",
+      "subtitle": "Portfolio ng Produkto",
+      "downloadPressKit": "I-download ang Logo ng Produkto at Press Kit",
+      "product1": {
+        "name": "SeaChat (Response AI)",
+        "description": "Serbisyo sa customer na pinapagana ng AI, maraming wika, omnichannel (WhatsApp, FB Messenger, Instagram, Line, web, SMS, boses)."
+      },
+      "product2": {
+        "name": "SeaX (Outreach AI)",
+        "description": "Outbound na pakikipag-ugnayan, dialpad, mga kampanya, bulk na SMS/WhatsApp/boses para sa pagbebenta at marketing."
+      },
+      "product3": {
+        "name": "SeaMeet (Insights AI)",
+        "description": "AI meeting copilot: awtomatikong mga minuto, mga buod, semantikong analytics, at voice AI para sa mga pulong sa negosyo."
+      },
+      "product4": {
+        "name": "SeaVoice (Voice Autopilot)",
+        "description": "Advanced na imprastraktura ng voice AI na nagbibigay-daan sa mga ahente ng telepono na parang tao para sa mga papasok at papalabas na tawag — binuo gamit ang mga makabagong LLM at pagkilala sa pagsasalita."
+      }
+    },
+    "funding": {
+      "title": "Pagpopondo at mga Mamumuhunan",
+      "seedFunding": "Pagpopondo sa Binhi",
+      "raised": "$4.2 milyon USD na nakalap noong 2024",
+      "investorsTitle": "Kasama sa aming mga mamumuhunan ang:",
+      "investorsList": [
+        "Unlock Venture Partners (Lead Investor)",
+        "Z Venture Capital (ZVC, ang corporate venture arm ng LINE)",
+        "SparkLabs Group (SparkLabs Taiwan)",
+        "Grand Vision Capital Group",
+        "PatientsForce"
+      ]
+    },
+    "partnership": {
+      "title": "Mga Estratehikong Pakikipagsosyo",
+      "description": "Ang kapangyarihan ng aming platform ay pinalalakas ng malalim, estratehikong pakikipagsosyo sa mga pandaigdigang pinuno sa teknolohiya:"
+    },
+    "partnerships": {
+      "list": [
+        {
+          "description": "Bilang isang Twilio Gold Partner at awtorisadong reseller ng Twilio Flex, mayroon kaming pinalakas na estratehikong relasyon upang mapahusay ang karanasan ng customer sa conversational AI. Susi sa aming pagpapalawak sa rehiyon ng Asia-Pacific at Japan (APJ).",
+          "type": "Gold Partner"
+        },
+        {
+          "description": "Mga opisyal na pagsasama ng platform sa Facebook/WhatsApp/Instagram, na nagbibigay-daan sa tuluy-tuloy na mga komunikasyon sa omnichannel.",
+          "type": "Opisyal na Pagsasama"
+        },
+        {
+          "description": "Pinapayagan kami ng pakikipagsosyo na walang putol na bumuo ng mga advanced na tampok sa email at pag-iiskedyul nang direkta sa aming mga application, na nagpapahusay sa lalim ng konteksto ng aming mga ahente ng AI.",
+          "type": "Estratehikong Kasosyo"
+        },
+        {
+          "description": "Sa pamamagitan ng aming mamumuhunan na ZVC, mayroon kaming natatanging access sa mga API ng tawag sa negosyo ng LINE, na kritikal para sa aming diskarte sa mga pangunahing merkado sa Asya kung saan ang LINE ang nangingibabaw na platform ng komunikasyon.",
+          "type": "Estratehikong Kasosyo at Pamumuhunan"
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Ang Aming Paglalakbay",
+      "subtitle": "Mga pangunahing milestone sa aming misyon na baguhin ang mga komunikasyon sa negosyo",
+      "list": [
+        {
+          "event": "Itinatag ang Seasalt.ai ng mga beterano sa industriya sa mga teknolohiya ng AI at boses"
+        },
+        {
+          "event": "Nakaligtas sa Covid19. Walang sinuman ang pinakawalan."
+        },
+        {
+          "event": "Paglunsad ng SeaChat omnichannel customer service platform"
+        },
+        {
+          "event": "Pagpapakilala ng SeaX outreach AI at SeaMeet insights AI"
+        },
+        {
+          "event": "Paglunsad ng SeaVoice advanced voice AI infrastructure"
+        }
+      ]
+    },
+    "careers": {
+      "title": "Mga Karera sa Seasalt.ai",
+      "description": "Ang Seasalt.ai ay nagpapatakbo na may isang pandaigdigan, magkakaibang, at remote-friendly na kultura, na laging naghahanap ng mga inhinyero, siyentipiko ng AI, developer, at mga tagabuo ng negosyo.",
+      "cta": "Tingnan ang mga bukas na posisyon",
+      "bullet1": "Pandaigdigan, magkakaibang, at remote-friendly na kultura",
+      "bullet2": "Magtrabaho sa makabagong teknolohiya ng AI",
+      "bullet3": "Gumawa ng tunay na epekto sa mga komunikasyon sa negosyo",
+      "bullet4": "Makipagtulungan sa mga beterano sa industriya"
+    },
+    "contact": {
+      "title": "Contact at Press",
+      "press": {
+        "title": "Press at Media",
+        "email": "press@seasalt.ai"
+      },
+      "investors": {
+        "title": "Mga Mamumuhunan",
+        "email": "invest@seasalt.ai"
+      },
+      "partnerships": {
+        "title": "Mga Pakikipagsosyo",
+        "email": "partnerships@seasalt.ai"
+      },
+      "hotline": {
+        "title": "24/7 Hotline",
+        "number": "+1-(SMB)-AI-AGENT"
+      },
+      "downloadPressKit": "I-download ang Logo ng Produkto at Press Kit",
+      "tagline": "Seasalt.ai—tinutulay ang pagbabago at epekto sa komunikasyon sa negosyo, na ginagawang naa-access ang cloud AI para sa mga koponan sa buong mundo.",
+      "pressKit": {
+        "downloadText": "I-download ang Logo ng Produkto at Press Kit",
+        "description": "Seasalt.ai—tinutulay ang pagbabago at epekto sa komunikasyon sa negosyo, na ginagawang naa-access ang cloud AI para sa mga koponan sa buong mundo."
+      }
+    },
+    "newsletter": {
+      "title": "Mag-sign Up sa Aming Newsletter",
+      "subtitle": "Isang beses sa isang linggo, isinulat ng CEO",
+      "description": "Kumuha ng mga insight sa AI, mga komunikasyon sa negosyo, at ang hinaharap ng trabaho nang direkta mula sa aming koponan sa pamumuno.",
+      "emailPlaceholder": "Ipasok ang iyong email address",
+      "cta": "Mag-subscribe",
+      "disclaimer": "Walang spam, mag-unsubscribe anumang oras. Iginagalang namin ang iyong privacy."
+    },
+    "useCaseCategories": {
+      "smallMediumBusinesses": "Maliit at Katamtamang mga Negosyo",
+      "healthcare": "Pangangalagang pangkalusugan",
+      "education": "Edukasyon",
+      "campaignMessaging": "Pagmemensahe sa Kampanya",
+      "speechAnalysis": "Pagsusuri sa Pagsasalita"
+    },
+    "useCaseLinks": {
+      "getTwilioApproval": "Maaprubahan para sa mga kampanya sa Twilio SMS",
+      "bulkSendSms": "Bulk na magpadala ng SMS",
+      "whatsappCustomers": "I-WhatsApp ang iyong mga customer",
+      "callCustomersBatch": "Tawagan ang iyong mga customer sa batch",
+      "autoAnswerCalls": "Awtomatikong sagutin ang mga tawag 24/7",
+      "voiceAiSeniors": "Mga tawag sa Voice AI upang suriin ang mga nakatatanda",
+      "hospitalAnalytics": "Dashboard ng analytics ng tawag sa telepono para sa mga ospital",
+      "conversationalGenAi": "Conversational GenAI para sa mga silid-aralan",
+      "winCampaigns": "Manalo ng mga kampanya na may mga awtomatikong teksto at tawag",
+      "transcribeAudio": "I-transcribe ang audio at mga tawag upang matuklasan ang mga insight",
+      "meetingAnalytics": "Analytics ng pulong para sa mga remote na koponan"
+    }
+  },
+  "solutions": {
+    "salesMarketing": {
+      "seo": {
+        "title": "Mga Solusyon sa Pagbebenta at Marketing - Seasalt.ai",
+        "description": "Makuha ang mas maraming mga lead, tumugon nang mas mabilis, at mag-convert nang mas mahusay gamit ang matalinong automation na gumagana sa bawat channel. Nakakakuha ng mga instant na tugon ang iyong mga prospect habang nakatuon ka sa pagsasara ng mga deal."
+      },
+      "navigation": {
+        "backToHome": "Bumalik sa Home"
+      },
+      "hero": {
+        "title1": "Gawing",
+        "titleGradient": "Pagkakataon sa Kita ang Bawat Lead",
+        "subtitle": "AI-Powered na Pagbebenta at Marketing Automation na Hindi Natutulog",
+        "description": "Makuha ang mas maraming mga lead, tumugon nang mas mabilis, at mag-convert nang mas mahusay gamit ang matalinong automation na gumagana sa bawat channel. Nakakakuha ng mga instant na tugon ang iyong mga prospect habang nakatuon ka sa pagsasara ng mga deal.",
+        "cta": {
+          "primary": "Palakasin ang Iyong mga Conversion",
+          "secondary": "Mag-book ng Demo"
+        },
+        "dashboard": {
+          "title": "Pagganap sa Pagbebenta",
+          "leads": "🎯 47 bagong lead na nakuha ngayon",
+          "leadsQualified": "Na-qualify ng AI ang 23 bilang mataas na priyoridad",
+          "responseTime": "⚡ Average na oras ng pagtugon: 12 segundo",
+          "responseTimeBenefit": "300% na mas mabilis kaysa sa average ng industriya",
+          "demos": "📅 15 demo na awtomatikong nai-book",
+          "demosNote": "Habang nasa mga pulong ang iyong koponan",
+          "pipeline": "💰 $24,500 pipeline na idinagdag ngayong linggo",
+          "conversion": "45% na pagpapabuti sa rate ng conversion"
+        }
+      },
+      "challenges": {
+        "title": "Mga Hamon sa Pagbebenta at Marketing",
+        "description": "Bawat minuto na hindi ka tumutugon sa isang lead ay isang minuto na maaaring ang iyong kakumpitensya. Huwag hayaang magdulot sa iyo ng kita ang mga manu-manong proseso.",
+        "leadGeneration": {
+          "title": "Pagbuo at Kwalipikasyon ng Lead",
+          "description": "Nahihirapan na makuha ang mga lead sa maraming mga channel at mahusay na maging kwalipikado ang mga ito"
+        },
+        "conversion": {
+          "title": "Pag-optimize ng Conversion",
+          "description": "Nawawalang mga pagkakataon na i-convert ang mga prospect dahil sa mabagal na mga oras ng pagtugon"
+        },
+        "campaignManagement": {
+          "title": "Pamamahala ng Kampanya",
+          "description": "Hirap sa pamamahala ng mga kampanya sa maraming channel at pagsubaybay sa kanilang pagiging epektibo"
+        }
+      },
+      "solutions": {
+        "title": "Ang Iyong AI-Powered na Makina sa Pagbebenta",
+        "description": "Baguhin ang iyong mga operasyon sa pagbebenta at marketing gamit ang matalinong automation na kumukuha, nagiging kwalipikado, at nagko-convert ng mga lead sa buong orasan.",
+        "leadCapture": {
+          "title": "Matalinong Pagkuha at Kwalipikasyon ng Lead",
+          "description": "Makuha ang mga lead mula sa bawat channel at hayaan ang AI na maging kwalipikado ang mga ito agad",
+          "benefit1": "Makuha ang mga lead mula sa website, social media, at mga ad",
+          "benefit2": "Nagiging kwalipikado ng AI ang mga lead na may matalinong pagtatanong",
+          "benefit3": "Awtomatikong pagmamarka at pag-priyoridad ng lead",
+          "benefit4": "Mga instant na abiso para sa mga mainit na prospect"
+        },
+        "responseTime": {
+          "title": "Mga Oras ng Pagtugon na Kasing Bilis ng Kidlat",
+          "description": "Tumugon sa mga prospect sa loob ng ilang segundo, hindi oras, gamit ang AI automation",
+          "benefit1": "Mga instant na tugon sa lahat ng mga katanungan 24/7",
+          "benefit2": "Awtomatikong nagbu-book ng mga demo at konsultasyon ang AI",
+          "benefit3": "Matalinong mga pagkakasunud-sunod ng follow-up na nag-aalaga sa mga lead",
+          "benefit4": "Walang putol na pag-handoff sa mga sales rep kapag handa na"
+        },
+        "omnichannel": {
+          "title": "Pamamahala ng Kampanya sa Omnichannel",
+          "description": "Maglunsad at pamahalaan ang mga kampanya sa SMS, WhatsApp, email, at boses",
+          "benefit1": "Pinag-isang pamamahala ng kampanya sa lahat ng channel",
+          "benefit2": "Personalized na pagmemensahe sa sukat",
+          "benefit3": "Real-time na pagsubaybay sa pagganap ng kampanya",
+          "benefit4": "Awtomatikong pagsubok at pag-optimize ng A/B"
+        },
+        "keyBenefits": "Mga Pangunahing Benepisyo:"
+      },
+      "useCases": {
+        "title": "Mga Tunay na Kuwento ng Tagumpay ng Koponan sa Pagbebenta",
+        "description": "Tingnan kung paano ginagamit ng mga koponan sa pagbebenta at marketing ang Seasalt.ai upang pabilisin ang kanilang paglago",
+        "saas": {
+          "title": "Koponan sa Pagbebenta ng SaaS",
+          "challenge": "Pagbuo at pagiging kwalipikado ng mga lead para sa mga demo ng software",
+          "solution": "Kinukuha ng AI ang mga lead mula sa website, nagiging kwalipikado ang antas ng interes, at awtomatikong nagbu-book ng mga demo"
+        },
+        "ecommerce": {
+          "title": "Marketing sa E-commerce",
+          "challenge": "Pagpapatakbo ng mga kampanya sa promosyon at pagbawi ng mga inabandunang cart",
+          "solution": "Mga awtomatikong kampanya sa SMS at WhatsApp na may mga personalized na alok at pagbawi sa cart"
+        },
+        "realEstate": {
+          "title": "Mga Ahente ng Real Estate",
+          "challenge": "Pag-follow up sa mga katanungan sa ari-arian at pag-iiskedyul ng mga pagpapakita",
+          "solution": "Agad na tumutugon ang AI sa mga tanong sa ari-arian at nagbu-book ng mga appointment sa pagpapakita"
+        },
+        "professionalServices": {
+          "title": "Mga Propesyonal na Serbisyo",
+          "challenge": "Pag-convert ng mga kahilingan sa konsultasyon sa mga naka-book na appointment",
+          "solution": "Matalinong proseso ng kwalipikasyon na nagbu-book ng mga konsultasyon sa tamang miyembro ng koponan"
+        },
+        "challengeLabel": "HAMON:",
+        "solutionLabel": "SOLUSYON NG SEASALT.AI:"
+      },
+      "metrics": {
+        "title": "Epekto sa Pagganap sa Pagbebenta",
+        "description": "Tingnan ang nasusukat na epekto sa iyong mga sukatan sa pagbebenta at marketing",
+        "responseRate": "Pagtaas sa rate ng pagtugon sa lead",
+        "conversionRate": "Mas mataas na mga rate ng conversion",
+        "availability": "Pagkuha at kwalipikasyon ng lead",
+        "qualifiedLeads": "Mas maraming kwalipikadong lead bawat buwan"
+      },
+      "cta": {
+        "title": "Handa nang Palakasin ang Iyong Pagganap sa Pagbebenta?",
+        "description": "Sumali sa daan-daang mga koponan sa pagbebenta na gumagamit ng Seasalt.ai upang makuha ang mas maraming mga lead, tumugon nang mas mabilis, at magsara ng mas maraming mga deal gamit ang AI automation.",
+        "primary": "Mag-sign Up",
+        "secondary": "Mag-book ng Demo sa Pagbebenta",
+        "disclaimer": "Walang kinakailangang credit card • Tingnan ang mga resulta sa loob ng 24 na oras • Kanselahin anumang oras"
+      }
+    },
+    "customerSupport": {
+      "seo": {
+        "title": "Mga Solusyon sa Suporta sa Customer - Seasalt.ai",
+        "description": "Baguhin ang iyong suporta sa customer gamit ang matalinong automation na agad na humahawak sa mga regular na katanungan habang binibigyan ng kapangyarihan ang iyong mga ahente ng tao na tumuon sa mga kumplikado, mataas na halaga na pakikipag-ugnayan."
+      },
+      "navigation": {
+        "backToHome": "Bumalik sa Home"
+      },
+      "hero": {
+        "title": {
+          "deliver": "Maghatid ng",
+          "exceptionalSupport": "Pambihirang Suporta",
+          "atScale": "sa Sukat"
+        },
+        "subtitle": "Suporta sa Customer na Pinapagana ng AI na Hindi Natutulog",
+        "description": "Baguhin ang iyong suporta sa customer gamit ang matalinong automation na agad na humahawak sa mga regular na katanungan habang binibigyan ng kapangyarihan ang iyong mga ahente ng tao na tumuon sa mga kumplikado, mataas na halaga na pakikipag-ugnayan.",
+        "cta": {
+          "primary": "Pagbutihin ang Suporta Ngayon",
+          "secondary": "Tingnan ang Demo"
+        },
+        "dashboard": {
+          "title": "Dashboard ng Suporta",
+          "aiResolved": "🤖 Nalutas ng AI ang 156 na tiket ngayon",
+          "resolutionTime": "Average na oras ng paglutas: 23 segundo",
+          "escalated": "👥 12 tiket na na-escalate sa mga tao",
+          "complexIssues": "Mga kumplikadong isyu na nangangailangan ng kadalubhasaan",
+          "satisfaction": "😊 Kasiyahan ng customer: 96%",
+          "satisfactionUp": "Tumaas ng 15% mula noong nakaraang buwan",
+          "responseTime": "⏱️ Average na oras ng pagtugon: 8 segundo",
+          "fasterThanAverage": "98% na mas mabilis kaysa sa average ng industriya"
+        }
+      },
+      "challenges": {
+        "title": "Mga Hamon sa Suporta sa Customer",
+        "description": "Inaasahan ng mga modernong customer ang instant, personalized na suporta. Nahihirapan ang mga tradisyonal na modelo ng suporta na matugunan ang mga inaasahan na ito habang kinokontrol ang mga gastos.",
+        "responseTimePressure": {
+          "title": "Presyon sa Oras ng Pagtugon",
+          "description": "Inaasahan ng mga customer ang mga instant na tugon, ngunit hindi maaaring maging available ang iyong koponan 24/7"
+        },
+        "scalingTeam": {
+          "title": "Pag-scale ng Koponan sa Suporta",
+          "description": "Ang lumalaking base ng customer ay nangangailangan ng mas maraming mga ahente, ngunit mahal at mabagal ang pag-hire"
+        },
+        "repetitiveInquiries": {
+          "title": "Mga Paulit-ulit na Katanungan",
+          "description": "Masyadong maraming oras ang ginugugol ng mga ahente sa mga regular na tanong sa halip na mga kumplikadong isyu"
+        }
+      },
+      "solutions": {
+        "title": "Ang Iyong Solusyon sa Suporta na Pinapagana ng AI",
+        "description": "Pagsamahin ang kahusayan ng AI automation sa empatiya ng mga ahente ng tao upang maghatid ng mga pambihirang karanasan sa customer sa anumang sukat.",
+        "instantResponse": {
+          "title": "24/7 na Sistema ng Instant na Tugon",
+          "description": "Agad na pinangangasiwaan ng AI ang mga katanungan ng customer, anumang oras ng araw o gabi",
+          "benefit1": "Mga instant na tugon sa mga karaniwang tanong",
+          "benefit2": "Nalulutas ng AI ang 80% ng mga regular na katanungan",
+          "benefit3": "Walang putol na pag-escalate sa mga ahente ng tao",
+          "benefit4": "Pare-parehong kalidad ng serbisyo sa buong orasan"
+        },
+        "agentProductivity": {
+          "title": "Matalinong Pagiging Produktibo ng Ahente",
+          "description": "Bigyan ng kapangyarihan ang iyong mga ahente ng tao na may tulong sa AI at pinag-isang konteksto ng customer",
+          "benefit1": "Kumpletong kasaysayan ng customer sa isang view",
+          "benefit2": "Nag mumungkahi ang AI ng mga tugon at solusyon",
+          "benefit3": "Awtomatikong pagruruta at pag-priyoridad ng tiket",
+          "benefit4": "Real-time na pagsusuri ng sentimyento at mga alerto"
+        },
+        "satisfactionOptimization": {
+          "title": "Pag-optimize ng Kasiyahan ng Customer",
+          "description": "Maghatid ng mga pambihirang karanasan na ginagawang mga tagapagtaguyod ang mga customer",
+          "benefit1": "Maagap na paglutas ng isyu at pag-follow-up",
+          "benefit2": "Personalized na suporta batay sa kasaysayan ng customer",
+          "benefit3": "Pagkakapare-pareho sa maraming channel sa lahat ng mga touchpoint",
+          "benefit4": "Patuloy na pagpapabuti sa pamamagitan ng pag-aaral ng AI"
+        },
+        "keyBenefitsTitle": "Mga Pangunahing Benepisyo:"
+      },
+      "useCases": {
+        "title": "Mga Kuwento ng Tagumpay ng Koponan sa Suporta",
+        "description": "Tingnan kung paano ginagamit ng mga koponan sa suporta sa customer ang Seasalt.ai upang mapabuti ang kahusayan at kasiyahan",
+        "ecommerce": {
+          "title": "Suporta sa E-commerce",
+          "scenario": "Paghawak ng katayuan ng order, mga pagbabalik, at mga tanong sa produkto sa sukat",
+          "solution": "Agad na nagbibigay ang AI ng mga update sa order at nagpoproseso ng mga pagbabalik, na nag-e-escalate ng mga kumplikadong isyu sa mga tao"
+        },
+        "saas": {
+          "title": "Tagumpay ng Customer sa SaaS",
+          "scenario": "Pagsuporta sa mga gumagamit na may mga teknikal na tanong at gabay sa tampok",
+          "solution": "Agad na nagbibigay ang AI ng mga artikulo ng tulong at mga tutorial, nagbu-book ng mga tawag sa teknikal na suporta kapag kinakailangan"
+        },
+        "healthcare": {
+          "title": "Suporta sa Pasyente sa Pangangalagang Pangkalusugan",
+          "scenario": "Pamamahala ng pag-iiskedyul ng appointment at mga pangunahing katanungan sa kalusugan",
+          "solution": "Pinangangasiwaan ng AI na sumusunod sa HIPAA ang pag-iiskedyul at mga pangunahing tanong, nagruruta ng mga agarang usapin sa mga kawani"
+        },
+        "financial": {
+          "title": "Mga Serbisyo sa Pinansyal",
+          "scenario": "Pagsagot sa mga tanong sa account habang pinapanatili ang pagsunod sa seguridad",
+          "solution": "Vini-verify ng secure na AI ang pagkakakilanlan at nagbibigay ng impormasyon sa account, na nag-e-escalate ng mga sensitibong usapin nang naaangkop"
+        },
+        "challengeLabel": "HAMON:",
+        "solutionLabel": "SOLUSYON NG SEASALT.AI:"
+      },
+      "metrics": {
+        "title": "Epekto sa Pagganap ng Suporta",
+        "description": "Nasusukat na mga pagpapabuti sa kahusayan, kasiyahan, at pamamahala sa gastos",
+        "responseTimeReduction": "80%",
+        "responseTimeDescription": "Pagbawas sa oras ng pagtugon",
+        "satisfactionScore": "95%",
+        "satisfactionDescription": "Marka ng kasiyahan ng customer",
+        "costDecrease": "60%",
+        "costDescription": "Pagbaba sa mga gastos sa suporta",
+        "availability": "24/7",
+        "availabilityDescription": "Availability nang walang overtime"
+      },
+      "cta": {
+        "title": "Handa nang Baguhin ang Iyong Suporta sa Customer?",
+        "description": "Sumali sa daan-daang mga koponan sa suporta na gumagamit ng Seasalt.ai upang maghatid ng mas mabilis, mas mahusay, at mas kasiya-siyang mga karanasan sa customer.",
+        "primary": "Mag-sign Up",
+        "secondary": "Mag-book ng Demo sa Suporta",
+        "disclaimer": "Walang kinakailangang credit card • Pagbutihin ang kasiyahan sa loob ng 24 na oras • Kanselahin anumang oras"
+      }
+    },
+    "aiAutomation": {
+      "seo": {
+        "title": "Mga Solusyon sa AI Automation - Seasalt.ai",
+        "description": "Baguhin ang iyong mga operasyon sa negosyo gamit ang AI na hindi lamang sumusunod sa mga panuntunan—nauunawaan nito ang konteksto, gumagawa ng mga matalinong desisyon, at patuloy na nagpapabuti upang maghatid ng mga pambihirang resulta."
+      },
+      "nav": {
+        "backToHome": "Bumalik sa Home"
+      },
+      "hero": {
+        "title": {
+          "prefix": "Ilabas ang Kapangyarihan ng",
+          "highlight": "AI Automation"
+        },
+        "subtitle": "Matalinong Automation na Nag-iisip, Natututo, at Nag-i-scale",
+        "description": "Baguhin ang iyong mga operasyon sa negosyo gamit ang AI na hindi lamang sumusunod sa mga panuntunan—nauunawaan nito ang konteksto, gumagawa ng mga matalinong desisyon, at patuloy na nagpapabuti upang maghatid ng mga pambihirang resulta.",
+        "cta": {
+          "primary": "Simulan ang Pag-automate",
+          "secondary": "Tingnan ang AI sa Aksyon"
+        },
+        "dashboard": {
+          "title": "Sentro ng AI Automation",
+          "stats": {
+            "tasks": "🧠 Pinroseso ng AI ang 342 na gawain ngayon",
+            "tasksSaved": "Nakatipid ng 8.5 oras ng manu-manong trabaho",
+            "workflows": "⚡ 23 daloy ng trabaho na na-automate",
+            "workflowsDescription": "Mula sa pagkuha ng lead hanggang sa onboarding ng customer",
+            "accuracy": "📈 97% na rate ng katumpakan",
+            "accuracyDescription": "Patuloy na nagpapabuti sa pamamagitan ng ML",
+            "savings": "🎯 $12,400 na pagtitipid sa gastos ngayong buwan",
+            "savingsDescription": "Sa pamamagitan ng matalinong automation"
+          }
+        }
+      },
+      "challenges": {
+        "title": "Mga Hamon sa Automation",
+        "description": "Ang tradisyonal na automation ay mahigpit at limitado. Kailangan ng mga modernong negosyo ang matalinong automation na umaangkop, natututo, at nag-i-scale sa kanilang paglago.",
+        "manualTasks": {
+          "title": "Mga Manwal na Paulit-ulit na Gawain",
+          "description": "Masyadong maraming oras ang ginugugol ng iyong koponan sa mga regular na gawain na maaaring i-automate"
+        },
+        "scaling": {
+          "title": "Mga Limitasyon sa Pag-scale",
+          "description": "Ang paglago ay limitado sa kapasidad ng tao sa halip na pagkakataon sa merkado"
+        },
+        "inconsistent": {
+          "title": "Mga Hindi Pare-parehong Karanasan",
+          "description": "Nag-iiba-iba ang karanasan ng customer batay sa kung aling miyembro ng koponan ang humahawak sa pakikipag-ugnayan"
+        }
+      },
+      "solutions": {
+        "title": "Matalinong AI Automation",
+        "description": "Higit pa sa simpleng automation na batay sa panuntunan gamit ang AI na nakakaunawa sa konteksto, gumagawa ng mga matalinong desisyon, at patuloy na nagpapabuti ng pagganap.",
+        "voiceChat": {
+          "title": "Matalinong Automation ng Boses at Chat",
+          "description": "Mga ahente ng AI na nakakaunawa sa konteksto at nagbibigay ng mga pakikipag-ugnayan na parang tao",
+          "benefits": {
+            "nlp": "Natural na pagpoproseso ng wika para sa mga kumplikadong query",
+            "channels": "Mga pag-uusap sa boses at teksto sa lahat ng channel",
+            "contextAware": "Mga tugon na may kamalayan sa konteksto batay sa kasaysayan ng customer",
+            "handoff": "Walang putol na pag-handoff sa mga tao kapag kinakailangan"
+          }
+        },
+        "workflow": {
+          "title": "Matalinong Automation ng Daloy ng Trabaho",
+          "description": "I-automate ang mga kumplikadong proseso ng negosyo na may matalinong paggawa ng desisyon",
+          "benefits": {
+            "leadQualification": "Awtomatikong kwalipikasyon at pagruruta ng lead",
+            "scheduling": "Matalinong pag-iiskedyul at pamamahala ng appointment",
+            "pricing": "Dinamikong pagpepresyo at pagbuo ng panukala",
+            "followUp": "Mga awtomatikong pagkakasunud-sunod ng follow-up at pag-aalaga"
+          }
+        },
+        "learning": {
+          "title": "Patuloy na Pag-aaral at Pag-optimize",
+          "description": "AI na nagiging mas matalino sa paglipas ng panahon, na awtomatikong nagpapabuti ng pagganap",
+          "benefits": {
+            "machineLearning": "Pag-aaral ng makina mula sa bawat pakikipag-ugnayan ng customer",
+            "optimization": "Awtomatikong pag-optimize ng katumpakan ng tugon",
+            "predictive": "Prediktibong analytics para sa maagap na serbisyo sa customer",
+            "monitoring": "Real-time na pagsubaybay at pagsasaayos ng pagganap"
+          }
+        },
+        "capabilities": "Mga Pangunahing Kakayahan:"
+      },
+      "automationTypes": {
+        "title": "Automation sa Iyong Negosyo",
+        "description": "Mula sa serbisyo sa customer hanggang sa pagbebenta, marketing hanggang sa mga operasyon—binabago ng AI automation ang bawat aspeto ng iyong negosyo.",
+        "customerService": {
+          "title": "Automation ng Serbisyo sa Customer",
+          "description": "Pinangangasiwaan ng AI ang mga regular na katanungan, nag-e-escalate ng mga kumplikadong isyu",
+          "examples": {
+            "orderStatus": "Mga update sa katayuan ng order",
+            "faq": "Mga tugon sa FAQ",
+            "troubleshooting": "Pangunahing pag-troubleshoot",
+            "account": "Impormasyon sa account"
+          }
+        },
+        "sales": {
+          "title": "Automation ng Proseso ng Pagbebenta",
+          "description": "I-automate ang kwalipikasyon ng lead, mga follow-up, at pag-iiskedyul",
+          "examples": {
+            "leadScoring": "Pagmamarka ng lead",
+            "demoBooking": "Pag-book ng demo",
+            "proposals": "Pagbuo ng panukala",
+            "followUp": "Mga pagkakasunud-sunod ng follow-up"
+          }
+        },
+        "marketing": {
+          "title": "Automation ng Kampanya sa Marketing",
+          "description": "Matalinong mga kampanya na umaangkop batay sa pag-uugali ng customer",
+          "examples": {
+            "personalized": "Personalized na pagmemensahe",
+            "timing": "Pinakamainam na mga oras ng pagpapadala",
+            "testing": "Pagsubok sa A/B",
+            "optimization": "Pag-optimize ng pagganap"
+          }
+        },
+        "operational": {
+          "title": "Automation sa Pagpapatakbo",
+          "description": "I-streamline ang mga panloob na proseso at daloy ng trabaho",
+          "examples": {
+            "dataEntry": "Pagpasok ng data",
+            "reports": "Pagbuo ng ulat",
+            "taskAssignment": "Pagtatalaga ng gawain",
+            "qualityMonitoring": "Pagsubaybay sa kalidad"
+          }
+        },
+        "examples": "MGA HALIMBAWA:"
+      },
+      "metrics": {
+        "title": "Epekto sa Pagganap ng Automation",
+        "description": "Nasusukat na mga pagpapabuti sa kahusayan, katumpakan, at kapasidad sa pagpapatakbo",
+        "reduction": {
+          "value": "80%",
+          "label": "Pagbawas sa mga manu-manong gawain"
+        },
+        "availability": {
+          "value": "24/7",
+          "label": "Mga awtomatikong operasyon"
+        },
+        "accuracy": {
+          "value": "95%",
+          "label": "Rate ng katumpakan"
+        },
+        "speed": {
+          "value": "3x",
+          "label": "Mas mabilis na pagproseso"
+        }
+      },
+      "security": {
+        "title": "Ligtas at Sumusunod na AI",
+        "description": "Seguridad at pagsunod sa antas ng enterprise na binuo sa bawat AI automation",
+        "dataProtection": {
+          "title": "Proteksyon ng Data",
+          "description": "End-to-end na pag-encrypt at secure na paghawak ng data"
+        },
+        "compliance": {
+          "title": "Handa na sa Pagsunod",
+          "description": "HIPAA, GDPR, at pagsunod na partikular sa industriya"
+        },
+        "auditTrail": {
+          "title": "Trail ng Audit",
+          "description": "Kumpletong pag-log at pagsubaybay sa lahat ng mga aksyon ng AI"
+        }
+      },
+      "cta": {
+        "title": "Handa nang I-automate ang Iyong Negosyo gamit ang AI?",
+        "description": "Sumali sa daan-daang negosyo na gumagamit ng Seasalt.ai upang i-automate ang mga operasyon, bawasan ang mga gastos, at mahusay na mag-scale gamit ang matalinong AI.",
+        "primary": "Mag-sign Up",
+        "secondary": "Mag-book ng Demo sa AI",
+        "disclaimer": "Walang kinakailangang credit card • Tingnan ang automation sa loob ng 24 na oras • Kanselahin anumang oras"
+      }
+    },
+    "smeOwners": {
+      "seo": {
+        "title": "Mga Solusyon sa May-ari ng SME - Seasalt.ai",
+        "description": "Ikaw ang CEO, koponan sa pagbebenta, departamento ng marketing, at suporta sa customer lahat sa isa. Binibigyan ka ng Seasalt.ai ng isang katulong sa AI na humahawak sa mga regular na komunikasyon upang makapag-focus ka sa pagpapalago ng iyong negosyo."
+      },
+      "navigation": {
+        "backToHome": "Bumalik sa Home"
+      },
+      "hero": {
+        "title": {
+          "part1": "Itigil ang Pag-juggling.",
+          "part2": "Simulan ang Pag-scale."
+        },
+        "subtitle": "Ang Hub ng Komunikasyon na Pinapagana ng AI para sa mga May-ari ng SME na Nagsusuot ng Maraming Sumbrero",
+        "description": "Ikaw ang CEO, koponan sa pagbebenta, departamento ng marketing, at suporta sa customer lahat sa isa. Binibigyan ka ng Seasalt.ai ng isang katulong sa AI na humahawak sa mga regular na komunikasyon upang makapag-focus ka sa pagpapalago ng iyong negosyo.",
+        "cta": {
+          "getAssistant": "Kunin ang Iyong Katulong sa AI",
+          "bookDemo": "Mag-book ng Demo"
+        },
+        "dashboard": {
+          "title": "Dashboard ng May-ari ng SME",
+          "aiHandledInquiries": "🤖 Pinangasiwaan ng AI ang 23 katanungan ngayon",
+          "timeSaved": "Nakatipid sa iyo ng 3.5 oras",
+          "appointmentsBooked": "📅 5 appointment na awtomatikong nai-book",
+          "whileInMeetings": "Habang nasa mga pulong ka",
+          "leadsQualified": "💬 12 lead na na-qualify at na-prioritize",
+          "readyForFollowup": "Handa para sa iyong personal na follow-up",
+          "smsCampaign": "📱 Kampanya sa SMS: 89% na rate ng pagbubukas",
+          "newCustomers": "3 bagong customer na nakuha"
+        }
+      },
+      "challenges": {
+        "title": "Ang Dilema ng May-ari ng SME",
+        "description": "Ang pagpapatakbo ng isang maliit na negosyo ay nangangahulugang pagsusuot ng maraming sumbrero. Ngunit hindi iyon dapat mangahulugan ng pagkalunod sa mga regular na komunikasyon.",
+        "wearingMultipleHats": {
+          "title": "Pagsusuot ng Maraming Sumbrero",
+          "description": "Pamamahala ng pagbebenta, marketing, at suporta nang sabay-sabay habang sinusubukang palaguin ang iyong negosyo"
+        },
+        "limitedTimeResources": {
+          "title": "Limitadong Oras at mga Mapagkukunan",
+          "description": "Bawat minuto ay mahalaga kapag nagpapatakbo ka ng isang maliit na negosyo na may isang payat na koponan"
+        },
+        "scalingChallenges": {
+          "title": "Mga Hamon sa Pag-scale",
+          "description": "Lumalagong mga kahilingan ng customer nang walang proporsyonal na pagtaas sa laki ng koponan o badyet"
+        }
+      },
+      "solutions": {
+        "title": "Ang Iyong Solusyon na Pinapagana ng AI",
+        "description": "Gumaganap ang Seasalt.ai bilang iyong virtual na miyembro ng koponan, na humahawak sa mga regular na gawain upang makapag-focus ka sa kung ano lamang ang magagawa mo - pagpapalago ng iyong negosyo.",
+        "keyBenefits": "Mga Pangunahing Benepisyo:",
+        "aiAutomation": {
+          "title": "Automation na Pinapagana ng AI",
+          "description": "Hayaan ang AI na pangasiwaan ang mga regular na katanungan, pag-book ng appointment, at kwalipikasyon ng lead 24/7",
+          "benefits": {
+            "routineQuestions": "I-automate ang 80% ng mga regular na tanong ng customer",
+            "bookAppointments": "Mag-book ng mga appointment habang natutulog ka",
+            "qualifyLeads": "Maging kwalipikado ang mga lead bago sila makarating sa iyo",
+            "instantResponses": "Magbigay ng mga instant na tugon sa lahat ng channel"
+          }
+        },
+        "unifiedView": {
+          "title": "Pinag-isang View ng Customer",
+          "description": "Tingnan ang bawat pakikipag-ugnayan ng customer sa isang lugar, tumawag man sila, mag-text, o makipag-chat",
+          "benefits": {
+            "singleInbox": "Isang inbox para sa lahat ng mga komunikasyon sa customer",
+            "conversationHistory": "Kumpletong kasaysayan ng pag-uusap sa mga channel",
+            "neverLoseTrack": "Huwag kailanman mawalan ng track ng konteksto ng customer",
+            "seamlessHandoffs": "Walang putol na mga pag-handoff sa pagitan ng AI at tao"
+          }
+        },
+        "smartMarketing": {
+          "title": "Matalinong mga Kampanya sa Marketing",
+          "description": "Magpatakbo ng mga naka-target na kampanya sa SMS, WhatsApp, at email na may tulong sa AI",
+          "benefits": {
+            "automatedFollowup": "Mga awtomatikong pagkakasunud-sunod ng follow-up",
+            "personalizedMessaging": "Personalized na pagmemensahe sa sukat",
+            "trackPerformance": "Subaybayan ang pagganap ng kampanya sa real-time",
+            "recoverCarts": "Awtomatikong bawiin ang mga inabandunang cart"
+          }
+        }
+      },
+      "useCases": {
+        "title": "Mga Tunay na Sitwasyon ng May-ari ng SME",
+        "description": "Tingnan kung paano ginagamit ng ibang mga may-ari ng negosyo na tulad mo ang Seasalt.ai upang i-scale ang kanilang mga operasyon",
+        "challengeLabel": "HAMON:",
+        "solutionLabel": "SOLUSYON NG SEASALT.AI:",
+        "soloEntrepreneur": {
+          "title": "Ang Solo na Negosyante",
+          "scenario": "Pagpapatakbo ng isang negosyo sa pagkonsulta habang pinamamahalaan ang lahat ng mga komunikasyon sa kliyente",
+          "solution": "Pinangangasiwaan ng AI ang mga paunang katanungan at nagbu-book ng mga konsultasyon, na nagpapalaya sa iyo na tumuon sa paghahatid"
+        },
+        "smallRetailer": {
+          "title": "Ang Maliit na Retailer",
+          "scenario": "Pamamahala ng mga online na order, suporta sa customer, at mga kampanya sa marketing",
+          "solution": "Mga awtomatikong update sa order, mga instant na tugon sa suporta, at mga naka-target na kampanya sa marketing"
+        },
+        "serviceProvider": {
+          "title": "Ang Tagapagbigay ng Serbisyo",
+          "scenario": "Pag-juggling ng pag-iiskedyul ng appointment, mga tanong ng customer, at mga follow-up",
+          "solution": "Nagbu-book ng mga appointment ang AI, sumasagot sa mga FAQ, at nagpapadala ng mga awtomatikong paalala"
+        },
+        "growingStartup": {
+          "title": "Ang Lumalagong Startup",
+          "scenario": "Pag-scale ng mga komunikasyon sa customer nang hindi nag-hire ng isang buong koponan sa suporta",
+          "solution": "Pinangangasiwaan ng AI ang paglago ng dami habang pinapanatili ang personal na ugnayan na may matalinong mga pag-handoff"
+        }
+      },
+      "roi": {
+        "title": "Ang ROI ng May-ari ng SME",
+        "description": "Tingnan ang agarang epekto sa iyong mga operasyon sa negosyo at paglago",
+        "timeSaved": {
+          "metric": "5+ Oras",
+          "description": "Nakatipid bawat linggo sa mga regular na komunikasyon"
+        },
+        "responseRate": {
+          "metric": "40%",
+          "description": "Pagtaas sa rate ng pagtugon sa lead"
+        },
+        "availability": {
+          "metric": "24/7",
+          "description": "Serbisyo sa customer nang hindi nag-hire ng mga kawani sa gabi"
+        },
+        "conversationsHandled": {
+          "metric": "3x",
+          "description": "Mas maraming pag-uusap na nahawakan sa parehong koponan"
+        }
+      },
+      "cta": {
+        "title": "Handa nang Itigil ang Pag-juggling at Simulan ang Pag-scale?",
+        "description": "Sumali sa libu-libong mga may-ari ng SME na nabawi ang kanilang oras at na-scale ang kanilang mga komunikasyon sa customer gamit ang AI automation.",
+        "startTrial": "Simulan ang Iyong Libreng Pagsubok",
+        "scheduleDemo": "Mag-iskedyul ng Personal na Demo",
+        "disclaimer": "Walang kinakailangang credit card • Pag-setup sa loob ng 10 minuto • Kanselahin anumang oras"
+      }
+    },
+    "seahealth": {
+      "seo": {
+        "title": "SeaHealth - Komunikasyon na Pinapagana ng AI para sa Pangangalagang Pangkalusugan",
+        "description": "Itaas ang komunikasyon sa pasyente at i-streamline ang mga operasyon gamit ang platform na pinapagana ng AI, sumusunod sa HIPAA ng SeaHealth. Pag-isahin ang mga tawag, teksto, at pagmemensahe sa isang secure na inbox."
+      },
+      "hero": {
+        "title": "Hinahayaan ng SeaHealth ang mga propesyonal sa pangangalagang pangkalusugan –",
+        "subtitle": "Baguhin ang mga Pakikipag-ugnayan sa mga Pasyente, gamit ang:",
+        "features": {
+          "newPatients": "Pagkuha ng mga Bagong Pasyente",
+          "aiReceptionists": "Mga Receptionist ng Voice AI pagkatapos ng oras",
+          "callAnalytics": "Analytics ng Tawag sa Front Office"
+        },
+        "cta": "Mag-book ng Demo Ngayon!",
+        "description": "Front office na pinapagana ng AI para sa pangangalagang pangkalusugan. Huwag kailanman palampasin ang isang tawag, reklamo, o appointment muli."
+      },
+      "top4Reasons": {
+        "title": "Nangungunang 4 na dahilan kung bakit pinipili ng mga ospital at klinika ang SeaHealth:",
+        "neverMissCall": "Huwag Kailanman Palampasin ang Isang Tawag",
+        "neverMissComplaint": "Huwag Kailanman Palampasin ang Isang Reklamo ng Customer",
+        "bookAppointments": "Mag-book ng mga Appointment ng Bagong Pasyente Pagkatapos ng mga Oras ng Negosyo",
+        "provide247Hotline": "Magbigay ng 24/7 na Hotline sa mga Prospective at Umiiral na mga Pasyente"
+      },
+      "frontOfficeChallenges": {
+        "title": "Pagtugon sa mga Hamon sa Front Office",
+        "unmonitoredCalls": {
+          "title": "Hindi Sinusubaybayang Tawag sa Telepono sa Front Desk",
+          "complaint": "Tugunan ang mga reklamo ng customer bago sila lumala.",
+          "risks": "Bawasan ang mga panganib mula sa mga paunang pagkakamali sa medikal na triage.",
+          "professionalism": "Pahusayin ang propesyonalismo na may pinabuting tono sa pagsasalita at pag-uugali ng receptionist."
+        },
+        "missedCalls": {
+          "title": "Mga Napalampas na Papasok na Tawag mula sa mga Pasyente",
+          "voicemails": "Tanggalin ang mga voicemail pagkatapos ng oras na may mga aktibong follow-up.",
+          "scheduling": "Pasimplehin ang pag-iiskedyul at pag-reschedule ng appointment.",
+          "retention": "Panatilihin ang mga pasyente sa pamamagitan ng pagtiyak na sinasagot ang iyong mga telepono 24/7, na pumipigil sa kanila na maghanap ng mga kakumpitensya."
+        },
+        "outboundCalls": {
+          "title": "Mga Papalabas na Tawag na Walang Nais Gumawa",
+          "followUp": "Tiyakin ang pagiging masinsinan sa mga tawag sa pag-follow-up sa pamamaraan.",
+          "insurance": "Pasimplehin ang mahahabang pag-uusap sa mga kumpanya ng seguro.",
+          "reactivation": "I-reactivate ang mga lumipas na pasyente na may epektibong mga promosyon upang punan ang mga bakanteng slot."
+        }
+      },
+      "solutions": {
+        "title": "Mga Solusyon para sa Bawat Setting ng Pangangalagang Pangkalusugan",
+        "hospitals": "Mga Ospital at Klinika",
+        "dental": "Mga Klinika sa Ngipin",
+        "hospice": "Mga Tahanan ng Hospice",
+        "emergency": "Pang-emergency na Pangangalaga",
+        "adult": "Mga Tahanan ng Matatanda",
+        "veterinary": "Mga Ospital ng Beterinaryo",
+        "cosmetic": "Kosmetikong Pag-opera"
+      },
+      "mainSolution": {
+        "title": "Ang Solusyon sa Front Office ng SeaHealth – Awtomatikong Pinupuno ang Iyong mga Slot ng Appointment.",
+        "description": "Ang aming solusyon na pinapagana ng AI ay nag-streamline ng iyong mga operasyon sa front office, na nagpapahintulot sa iyong mga kawani na tumuon sa kung ano ang pinakamahalaga - pangangalaga sa pasyente."
+      },
+      "forProviders": {
+        "title": "Para sa mga Tagapagbigay ng Pangangalagang Pangkalusugan",
+        "benefit1": "Bawasan ang pasanin sa administratibo",
+        "benefit2": "Pagbutihin ang kasiyahan ng pasyente",
+        "benefit3": "Taasan ang kahusayan sa pagpapatakbo"
+      },
+      "forPatients": {
+        "title": "Para sa mga Pasyente",
+        "benefit1": "24/7 na access sa suporta",
+        "benefit2": "Mabilis na pag-iiskedyul ng appointment",
+        "benefit3": "Walang putol na komunikasyon"
+      },
+      "whyChoose": {
+        "title": "Bakit Pumili ng SeaHealth?",
+        "reason1": {
+          "title": "Pagsunod sa HIPAA",
+          "description": "Pinahahalagahan namin ang privacy at seguridad ng data ng pasyente."
+        },
+        "reason2": {
+          "title": "Mga Natural at Kontekstwal na Teknolohiya sa Pagsasalita",
+          "description": "Makipag-ugnayan sa mga pasyente na may komunikasyon na parang tao."
+        },
+        "reason3": {
+          "title": "Automation na Ginawa nang Tama",
+          "description": "Laging nagmamalasakit sa mga pasyente at sa iyong sariling mga empleyado."
+        }
+      },
+      "faqs": {
+        "title": "Mga Madalas Itanong",
+        "faq1": {
+          "question": "Paano gumagana ang iyong analytics ng tawag sa front desk?",
+          "answer": "Nire-record namin ang iyong mga papasok at papalabas na tawag sa telepono, pagkatapos ay i-transcribe ang mga ito para sa karagdagang pagsusuri. Ang mga buod at alerto sa email ay ipinapadala araw-araw."
+        },
+        "faq2": {
+          "question": "Nangangailangan ba ito ng pag-record ng mga tawag sa telepono, at paano?",
+          "answer": "Ikinokonekta namin ang iyong provider ng VoIP upang makuha ang mga recording ng tawag at gumawa ng pagsusuri sa pagsasalita sa mga recording. Kung gumagamit ka ng mga analog na telepono, gumagamit kami ng isang aparato sa pag-record ng telepono na nagkokonekta sa iyong tawag sa mga phone jack upang makuha ang mga recording."
+        },
+        "faq3": {
+          "question": "Paano gumagana ang 24/7 na saklaw ng tawag sa telepono?",
+          "answer": "Pinangangasiwaan ng mga receptionist na pinapagana ng AI ang mga tawag sa buong orasan, na tinitiyak na walang napalampas na mga pagkakataon. Maaari mong kunin ang tawag kapag nag-ring sila, o ilipat ang tawag sa mga receptionist ng AI sa panahon o pagkatapos ng mga oras ng negosyo."
+        },
+        "faq4": {
+          "question": "Bakit ko dapat gamitin ang iyong serbisyo?",
+          "answer": "Pinapabuti ng SeaHealth ang kahusayan, pinapahusay ang kasiyahan ng pasyente, at pinatataas ang kita sa pamamagitan ng automation at mga solusyon na pinapagana ng AI. Ito ay mas mura, mas maaasahan, at mas may empatiya kaysa sa pag-outsource ng iyong trabaho sa receptionist sa front desk."
+        }
+      },
+      "partners": {
+        "title": "Mga Kasosyo at Pagsasama"
+      },
+      "cta": {
+        "title": "Handa nang baguhin ang mga pakikipag-ugnayan sa pasyente?",
+        "button": "Mag-book ng Demo Ngayon!"
+      }
+    }
+  },
+  "pricing": {
+    "seo": {
+      "title": "Pagpepresyo - Seasalt.ai",
+      "description": "Simple, transparent na pagpepresyo na lumalaki kasama mo. Walang mga nakatagong bayarin. Walang mga kumplikadong add-on. Isang malakas na platform lamang para sa lahat ng iyong mga pag-uusap."
+    },
+    "hero": {
+      "title": "Piliin ang Plano na Akma sa Iyong mga Pangangailangan",
+      "description": "Walang mga nakatagong bayarin. Walang mga kumplikadong add-on. Isang malakas na platform lamang para sa lahat ng iyong mga pag-uusap.",
+      "subtitle": "Mula sa mga startup hanggang sa enterprise - transparent na pagpepresyo na walang mga nakatagong bayarin. Magsimula nang libre at palakihin habang lumalaki ka."
+    },
+    "audienceSection": {
+      "title": "Piliin ang Iyong Landas sa Paglago",
+      "description": "Mula sa mga startup hanggang sa mga enterprise, mayroon kaming tamang solusyon para sa bawat yugto ng iyong paglalakbay",
+      "startups": {
+        "title": "Para sa mga Startup at SME",
+        "subtitle": "Magsimula nang Maliit, Palakihin nang Matalino",
+        "seachatFree": {
+          "title": "🚀 Magsimula nang Libre sa SeaChat",
+          "description": "$0 magpakailanman - 1 ahente ng tao, walang limitasyong mga chat"
+        },
+        "seavoice": {
+          "title": "📞 Palakihin gamit ang SeaVoice",
+          "description": "$29.99/buwan - Magdagdag ng voice AI para sa mga papasok na tawag"
+        },
+        "seax": {
+          "title": "🌟 Lumago gamit ang SeaX",
+          "description": "$99/buwan - Kumpletong omnichannel platform"
+        },
+        "footer": "Perpekto para sa mga negosyo na may 1-50 empleyado"
+      },
+      "enterprise": {
+        "title": "Para sa mga Katamtaman hanggang Malalaking Enterprise",
+        "subtitle": "Mga Solusyon sa Antas ng Enterprise",
+        "seachatPremium": {
+          "title": "🤖 SeaChat Premium",
+          "description": "$29.99/buwan + paggamit - AI ng teksto sa antas ng enterprise"
+        },
+        "seaxProfessional": {
+          "title": "🏢 SeaX Professional",
+          "description": "$99/buwan - Pinag-isang platform na may AI at omnichannel"
+        },
+        "customEnterprise": {
+          "title": "⚡ Pasadyang Enterprise",
+          "description": "Makipag-ugnayan sa amin - White-label, HIPAA, mga pasadyang pagsasama"
+        },
+        "footer": "Perpekto para sa mga negosyo na may 50+ empleyado"
+      }
+    },
+    "plans": {
+      "title": "Piliin ang Iyong Plano",
+      "description": "Magsimula nang libre at palakihin habang lumalaki ka sa aming mga flexible na pagpipilian sa pagpepresyo",
+      "liveAgent": {
+        "name": "Live na Ahente",
+        "price": "$0",
+        "period": "LIBRE MAGPAKAILANMAN",
+        "tagline": "👤 TAO LAMANG",
+        "highlight": "🌟 LAHAT NG CHANNEL + MGA AHENTE NG TAO LAMANG",
+        "channels": "WhatsApp • Messenger • Line • Instagram • Web Chat",
+        "feature1": "1 ahente ng tao kasama",
+        "feature2": "Walang limitasyong mga pag-uusap ng tao",
+        "feature3": "100 mga tugon ng AI upang subukan ang mga tampok",
+        "feature4": "Pangunahing mga pagsasama sa Shopify",
+        "cta": "🚀 SIMULAN ANG LIBRE NGAYON",
+        "poweredBy": "Pinapagana ng SeaChat"
+      },
+      "whatsappOnly": {
+        "name": "WhatsApp Lamang",
+        "price": "$19.99",
+        "period": "BAWAT GUMAGAMIT/BUWAN",
+        "tagline": "💬 PAGMEMENSAHE LAMANG",
+        "highlight": "📲 ESPESYALISTA SA NEGOSYO NG WHATSAPP",
+        "channels": "Mga Kampanya • API • 2-Way na Chat",
+        "feature1": "Platform ng Negosyo ng WhatsApp",
+        "feature2": "Mga tool sa pamamahala ng kampanya",
+        "feature3": "Access sa WhatsApp API",
+        "feature4": "Walang limitasyong mga contact at template",
+        "cta": "📱 SIMULAN ANG WHATSAPP",
+        "poweredBy": "Pinapagana ng SeaX"
+      },
+      "omnichannel": {
+        "name": "Omnichannel",
+        "firstUserPrice": "$99",
+        "firstUserLabel": "UNANG GUMAGAMIT",
+        "additionalUserPrice": "$49",
+        "additionalUserLabel": "BAWAT DAGDAG",
+        "period": "BAWAT BUWAN",
+        "tagline": "🌐 ISANG UI, LAHAT NG CHANNEL",
+        "popular": "🏆 PINAKASIKAT",
+        "highlight": "🎯 KUMpletong CONTACT CENTER",
+        "subHighlight": "Gumawa at Tumanggap ng mga TAWAG SA TELEPONO!",
+        "feature1": "GUMAGAWA AT TUMATANGGAP NG MGA TAWAG ANG MGA AHENTE",
+        "feature2": "SMS + BOSES + WHATSAPP",
+        "feature3": "Mga kampanya sa boses at SMS",
+        "feature4": "RESTful API + pagsasama ng SeaChat",
+        "cta": "🚀 SIMULAN ANG BUONG SENTRO",
+        "poweredBy": "Pinapagana ng SeaX"
+      },
+      "custom": {
+        "name": "Pasadya",
+        "price": "Mag-usap tayo",
+        "period": "Makipag-ayos sa iyong sariling presyo",
+        "feature1": "Maramihang mga workspace",
+        "feature2": "Perpekto para sa mga ahensya",
+        "feature3": "Mga pasadyang pagsasama ng API",
+        "feature4": "Pagsunod sa HIPAA",
+        "feature5": "Mga pagpipilian sa white-label",
+        "cta": "Makipag-ugnayan sa Amin"
+      },
+      "popularBadge": "Pinakasikat",
+      "ctaStyles": {
+        "primary": "Mag-sign Up Ngayon"
+      }
+    },
+    "aiAddons": {
+      "title": "⭐ Mga Add-On ng AI",
+      "description": "Pahusayin ang anumang plano na may mga kakayahan sa AI",
+      "chatAI": {
+        "title": "Chat AI sa SeaChat",
+        "price": "$29.99",
+        "period": "bawat buwan"
+      },
+      "voiceAI": {
+        "title": "Voice AI sa SeaVoice",
+        "price": "$29.99",
+        "period": "bawat buwan"
+      },
+      "combo": {
+        "title": "Parehong mga Tampok ng AI",
+        "price": "$29.99",
+        "period": "bawat buwan kabuuan",
+        "benefit": "🎉 Kunin ang parehong Chat AI at Voice AI sa halagang $29.99/buwan lamang na pinagsama!"
+      }
+    },
+    "transparentAI": {
+      "title": "Transparent na Pagpepresyo ng AI",
+      "description": "Magbayad lamang para sa kung ano ang iyong ginagamit sa aming malinaw, batay sa paggamit na pagpepresyo ng AI",
+      "chatAI": {
+        "title": "Chat AI",
+        "price": "$0.006",
+        "period": "bawat tugon (ChatGPT-4o mini)",
+        "feature1": "• WhatsApp, Messenger, Web chat",
+        "feature2": "• 24/7 na mga awtomatikong tugon",
+        "feature3": "• Pagsasama ng knowledge base"
+      },
+      "voiceAI": {
+        "title": "Voice AI",
+        "price": "$0.12",
+        "period": "bawat minuto (ChatGPT-4o mini)",
+        "feature1": "• Mga papasok at papalabas na tawag",
+        "feature2": "• Mga natural na pag-uusap sa boses",
+        "feature3": "• Pag-record at mga buod ng tawag"
+      },
+      "premiumAI": {
+        "title": "Premium na AI",
+        "price": "$0.80",
+        "period": "bawat minuto (ChatGPT-4o)",
+        "feature1": "• Advanced na pangangatwiran",
+        "feature2": "• Mga kumplikadong pag-uusap",
+        "feature3": "• Mga pasadyang tampok sa enterprise"
+      }
+    },
+    "transparentCommunication": {
+      "title": "Transparent na Pagpepresyo ng Komunikasyon",
+      "description": "Malinaw, paunang pagpepresyo para sa lahat ng iyong mga pangangailangan sa komunikasyon",
+      "sms": {
+        "title": "SMS",
+        "price": "$0.02",
+        "period": "bawat mensahe (USA/CA)",
+        "description": "Maaasahang pagmemensahe sa teksto na may transparent na mga rate bawat mensahe"
+      },
+      "voiceCalls": {
+        "title": "Mga Tawag sa Boses",
+        "price": "$0.015",
+        "period": "bawat minuto (USA/CA)",
+        "description": "Malinaw na kristal na mga tawag sa boses sa 100+ na mga bansa"
+      },
+      "whatsapp": {
+        "title": "Negosyo sa WhatsApp",
+        "price": "$0.00",
+        "period": "bawat mensahe sa buong mundo",
+        "description": "Direkta kang nagbabayad sa Meta. Walang markup mula sa Seasalt.ai"
+      },
+      "otherChannels": "📱 Ang iba pang mga channel tulad ng Instagram, Facebook Messenger, at Webchat ay walang markup o ganap na libre."
+    },
+    "comparison": {
+      "title": "Ang Pandaigdigang Landscape ng Komunikasyon: Paano Kami Nagkukumpara",
+      "description": "Tingnan kung paano nagkukumpara ang Seasalt.ai sa iba pang mga solusyon sa merkado. Kami lamang ang platform na naghahatid ng mga tampok sa enterprise na may simple ng maliit na negosyo.",
+      "table": {
+        "competitor": "Kakumpitensya",
+        "startingPrice": "Panimulang Presyo",
+        "pricingModel": "Modelo ng Pagpepresyo",
+        "unifiedVoiceDigital": "Pinag-isang Boses at Digital",
+        "aiCapabilities": "Mga Kakayahan sa AI",
+        "bestFor": "Pinakamahusay Para sa"
+      },
+      "seasalt": {
+        "name": "Seasalt.ai",
+        "startingPrice": "$20/ahente/buwan",
+        "pricingModel": "Simple Bawat-Gumagamit",
+        "unifiedVoiceDigital": "✅ Oo, Katutubo",
+        "aiCapabilities": "✅ Oo, Katutubong Boses at mga Chatbot",
+        "bestFor": "Mga SME na nangangailangan ng isang abot-kayang, tunay na all-in-one na platform.",
+        "recommended": "Inirerekomenda"
+      },
+      "aircall": {
+        "name": "Aircall",
+        "startingPrice": "$30/gumagamit/buwan",
+        "pricingModel": "Bawat-Gumagamit + mga Add-on",
+        "unifiedVoiceDigital": "⚠️ Boses + WhatsApp (Add-on)",
+        "aiCapabilities": "⚠️ Ang AI ay isang bayad na add-on",
+        "bestFor": "Mga koponan sa pagbebenta na kayang bayaran ang maraming mga add-on at matugunan ang 3-gumagamit na minimum."
+      },
+      "ringcentral": {
+        "name": "RingCentral",
+        "startingPrice": "$65/ahente/buwan",
+        "pricingModel": "Mga Kumplikadong Tier",
+        "unifiedVoiceDigital": "❌ Paghiwalayin ang mga Produkto",
+        "aiCapabilities": "✅ Oo (CCaaS na pinapagana ng AI)",
+        "bestFor": "Malalaking kumpanya na nangangailangan ng isang malawak na platform ng UCaaS na may hiwalay na CCaaS."
+      },
+      "genesys": {
+        "name": "Genesys Cloud CX",
+        "startingPrice": "$75/gumagamit/buwan",
+        "pricingModel": "Bawat-Gumagamit + Mataas na mga Minimum",
+        "unifiedVoiceDigital": "✅ Oo (sa mas mataas na mga tier)",
+        "aiCapabilities": "✅ Oo (Kumplikadong sistema ng token)",
+        "bestFor": "Malalaking negosyo na may dedikadong mga koponan at badyet sa contact center."
+      },
+      "five9": {
+        "name": "Five9",
+        "startingPrice": "$119/gumagamit/buwan",
+        "pricingModel": "Bawat-Gumagamit + mga Bundle",
+        "unifiedVoiceDigital": "✅ Oo (sa mga premium na tier)",
+        "aiCapabilities": "✅ Oo (Advanced na AI)",
+        "bestFor": "Malalaki, outbound-heavy na mga contact center na nangangailangan ng mga tool sa antas ng enterprise."
+      },
+      "googleVoice": {
+        "name": "Google Voice",
+        "startingPrice": "$10/gumagamit/buwan",
+        "pricingModel": "Bawat-Gumagamit + Bayad sa Workspace",
+        "unifiedVoiceDigital": "❌ Hindi",
+        "aiCapabilities": "❌ Hindi (Transkripsyon lamang ng voicemail)",
+        "bestFor": "Mga Solopreneur (US-lamang) na nangangailangan ng isang pangunahing, hiwalay na numero ng telepono."
+      },
+      "respondIo": {
+        "name": "respond.io",
+        "startingPrice": "$79/buwan",
+        "pricingModel": "Buwanang Aktibong mga Contact",
+        "unifiedVoiceDigital": "⚠️ Digital-first (Ang Boses ay Beta)",
+        "aiCapabilities": "✅ Oo (AI Agent sa mas mataas na mga tier)",
+        "bestFor": "Mga koponan sa marketing/pagbebenta na nakatuon sa mga channel ng pagmemensahe tulad ng WhatsApp."
+      },
+      "intercom": {
+        "name": "Intercom",
+        "startingPrice": "$39/upuan/buwan",
+        "pricingModel": "Bawat-Upuan + mga Add-on + Paggamit",
+        "unifiedVoiceDigital": "⚠️ Digital-first (Ang Boses ay pay-as-you-go)",
+        "aiCapabilities": "✅ Oo (Ang Fin AI Agent ay bawat-resolusyon)",
+        "bestFor": "Mga negosyo na nakatuon sa maagap na pakikipag-ugnayan at suporta sa website."
+      }
+    },
+    "faq": {
+      "1": {
+        "question": "Talaga bang libre magpakailanman ang libreng plano?",
+        "answer": "Oo! Kasama sa aming Live Agent na plano ang 1 ahente ng tao habang-buhay na may walang limitasyong mga pag-uusap, kasaysayan ng chat, at mga contact. Dagdag pa, makakakuha ka ng 100 habambuhay na mga tugon ng AI upang subukan ang aming mga tampok sa AI. Walang kinakailangang credit card, walang mga nakatagong bayarin."
+      },
+      "2": {
+        "question": "Paano gumagana ang pagpepresyo ng AI sa SeaChat, SeaX, at SeaVoice?",
+        "answer": "Lahat ng mga tawag sa Voice AI sa SeaChat, SeaX, at SeaVoice ay gumagamit ng parehong $0.12 bawat minuto na rate sa modelo ng ChatGPT-4o mini. Nagsisimula ang mga tugon sa Chat AI sa $0.006 bawat isa. Ang mga modelo na may mas mataas na tier tulad ng ChatGPT-4o ay nagkakahalaga ng $0.80 bawat minuto at available sa mga premium na plano."
+      },
+      "3": {
+        "question": "Maaari ko bang i-upgrade o i-downgrade ang aking plano anumang oras?",
+        "answer": "Syempre! Maaari mong baguhin ang iyong plano anumang oras. Ang mga pag-upgrade ay agad na magkakabisa, at ang mga pag-downgrade ay magkakabisa sa pagtatapos ng iyong kasalukuyang siklo ng pagsingil. Ipo-prorate namin ang anumang mga pagsasaayos sa pagsingil."
+      },
+      "4": {
+        "question": "Ano ang pagkakaiba sa pagitan ng mga plano na WhatsApp Lamang at Omnichannel?",
+        "answer": "Ang WhatsApp Lamang ($19.99/buwan) ay nakatuon sa pagmemensahe sa WhatsApp na may walang limitasyong mga contact at template. Kasama sa Omnichannel ($99/buwan para sa unang gumagamit, $49 para sa karagdagang) ang SMS, mga tawag sa boses, mga kampanya, access sa API, at pagsasama ng SeaChat para sa isang kumpletong karanasan sa contact center."
+      },
+      "5": {
+        "question": "Mayroon bang anumang mga nakatagong bayarin o mga gastos sa pag-setup?",
+        "answer": "Walang mga nakatagong bayarin kailanman! Ang mga numero ng telepono ay nagkakahalaga ng $2-$3/buwan na may E911 address. Ang SMS ay nagkakahalaga ng $0.02/mensahe, mga tawag sa boses $0.015/minuto (USA/CA). Ang mga mensahe sa WhatsApp ay libre sa buong mundo - direkta kang nagbabayad sa Meta nang walang markup mula sa amin."
+      },
+      "6": {
+        "question": "Ano ang mangyayari sa aking data kung magkakansela ako?",
+        "answer": "Pagmamay-ari mo ang iyong data. Maaari mong i-export ang lahat ng iyong kasaysayan ng chat, mga contact, at nilalaman ng knowledge base anumang oras, kahit na sa libreng plano. Naniniwala kami sa kalayaan at transparency ng data."
+      },
+      "7": {
+        "question": "Nag-aalok ba kayo ng mga diskwento sa dami para sa malalaking negosyo?",
+        "answer": "Oo! Nag-aalok ang aming Pasadyang Enterprise na plano ng negosasyong pagpepresyo batay sa iyong partikular na dami at mga pattern ng paggamit. Makipag-ugnayan sa aming koponan sa pagbebenta para sa pasadyang pagpepresyo, maraming mga workspace, pagsunod sa HIPAA, at mga solusyon sa white-label."
+      },
+      "title": "Mga Madalas Itanong"
+    },
+    "cta": {
+      "title": "Handa nang Baguhin ang Iyong",
+      "titleGradient": "Mga Komunikasyon sa Customer?",
+      "description": "Sumali sa libu-libong negosyo na gumagamit ng Seasalt.ai upang maghatid ng mga pambihirang karanasan sa customer",
+      "stats": {
+        "customers": "10,000+",
+        "customersLabel": "Maligayang mga Customer",
+        "uptime": "99.9%",
+        "uptimeLabel": "Garantiya sa Uptime",
+        "support": "24/7",
+        "supportLabel": "Suporta"
+      },
+      "primary": "🚀 MAG-SIGN UP NGAYON",
+      "secondary": "📞 Makipag-usap sa Sales",
+      "trustBadge1": "Walang Kinakailangang Coding",
+      "trustBadge2": "Pag-setup sa Loob ng 5 Minuto",
+      "trustBadge3": "Kanselahin Anumang Oras",
+      "trustBadge4": "Available ang Tunay na Libreng Plano",
+      "urgency": "⚡ Limitadong Oras: Kumuha ng 2 buwan na libre sa mga taunang plano + suporta sa priyoridad na onboarding!"
+    },
+    "billingToggle": {
+      "monthly": "Siningil Buwan-buwan",
+      "annually": "Siningil Taun-taon",
+      "save20": "Makatipid ng 20%"
+    },
+    "legacy": {
+      "liveAgent": {
+        "name": "Live na Ahente",
+        "price": "$0",
+        "period": "magpakailanman",
+        "tagline": "Tunay na Libre, Magpakailanman. Perpekto para sa pagsisimula.",
+        "description": "Perpekto para sa pagsisimula. Pag-isahin ang iyong inbox sa 1 ahente ng tao.",
+        "features": {
+          "0": "1 Ahente ng Tao",
+          "1": "Walang limitasyong mga Chat ng Ahente ng Tao",
+          "2": "WhatsApp/Messenger/LINE/Webchat",
+          "3": "Pangunahing mga Pagsasama (Shopify, atbp.)",
+          "4": "Suporta sa email"
+        },
+        "cta": "Mag-sign Up"
+      },
+      "professional": {
+        "name": "Propesyonal",
+        "priceAnnual": "$40",
+        "priceMonthly": "$50",
+        "period": "bawat buwan",
+        "additionalPriceAnnual": "+ $20/buwan para sa bawat karagdagang ahente",
+        "additionalPriceMonthly": "+ $25/buwan para sa bawat karagdagang ahente",
+        "tagline": "Ang kumpleto, pinag-isang solusyon para sa mga lumalagong negosyo.",
+        "description": "Lahat ng kailangan mo upang i-automate at i-scale ang iyong mga komunikasyon sa customer.",
+        "features": {
+          "0": "Lahat sa Live na Ahente",
+          "1": "AI Automation (Voicebot at Chatbot)",
+          "2": "Lahat ng mga Channel ng Komunikasyon (kabilang ang mga Tawag sa Telepono)",
+          "3": "Mga Kampanya sa Outbound Marketing",
+          "4": "Mga Pagsasama sa CRM (HubSpot, Salesforce)",
+          "5": "Advanced na analytics at pag-uulat",
+          "6": "Suporta sa priyoridad",
+          "7": "Available ang pagsunod sa HIPAA"
+        },
+        "cta": "Magsimula"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Mag-usap Tayo",
+        "period": "",
+        "tagline": "Para sa mga koponan na may mga pasadyang pangangailangan.",
+        "description": "Para sa mas malalaking koponan na may mga partikular na pangangailangan tulad ng advanced na pagsunod o mga pasadyang pagsasama.",
+        "features": {
+          "0": "Lahat sa Propesyonal",
+          "1": "Pagsunod sa HIPAA",
+          "2": "Mga Pasadyang Pagsasama",
+          "3": "Nakatuong Tagapamahala ng Account",
+          "4": "Pasadyang pagsasanay sa AI",
+          "5": "Mga pagpipilian sa white-label",
+          "6": "Mga garantiya sa SLA",
+          "7": "Mga pagpipilian sa on-premise na pag-deploy"
+        },
+        "cta": "Makipag-ugnayan sa Sales"
+      }
+    },
+    "billing": {
+      "monthly": "Buwanan",
+      "yearly": "Taunan",
+      "save": "Makatipid ng 2 Buwan"
+    }
+  }
+}

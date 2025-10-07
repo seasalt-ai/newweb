@@ -1,0 +1,71 @@
+{
+  "statsCounter": {
+    "section": {
+      "title": "深受全球企業信賴",
+      "subtitle": "我們的平台每天支援數百萬次對話"
+    },
+    "stats": {
+      "messages": {
+        "label": "已傳送訊息",
+        "suffix": "M+"
+      },
+      "calls": {
+        "label": "已撥打電話",
+        "suffix": "K+"
+      },
+      "uptime": {
+        "label": "系統正常運行時間",
+        "suffix": "%"
+      },
+      "countries": {
+        "label": "服務國家數",
+        "suffix": "+"
+      },
+      "roi": {
+        "label": "投資報酬率提升",
+        "suffix": "%"
+      }
+    },
+    "dashboard": {
+      "title": "SeaX 控制台",
+      "messagesSent": "已發送訊息",
+      "deliveryRate": "送達率",
+      "recentActivity": "近期活動",
+      "demo": {
+        "messagesSent": "240萬",
+        "deliveryRate": "85%"
+      }
+    },
+    "activity": {
+      "flashSale": {
+        "title": "限時促銷活動",
+        "detail": "已發送 50,000 則簡訊 • 2 分鐘前"
+      },
+      "leadFollowup": {
+        "title": "客戶跟進",
+        "detail": "已完成 12,000 通電話 • 5 分鐘前"
+      },
+      "whatsapp": {
+        "title": "WhatsApp 活動",
+        "detail": "25,000 則訊息已排隊 • 8 分鐘前"
+      }
+    },
+    "status": {
+      "liveRunning": "即時活動運行中",
+      "liveActivity": "即時活動：訊息正在發送中"
+    }
+  },
+  "omniCalculator": {
+    "ranges": {
+      "zero": "0",
+      "smsMax": "1萬+",
+      "callsMax": "5千+",
+      "voicemailMax": "1千+",
+      "whatsappMax": "1萬+"
+    },
+    "breakdown": {
+      "localPlus": "本地 +",
+      "tollFreeMinus": "免費電話"
+    }
+  }
+}

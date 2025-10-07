@@ -1,0 +1,1870 @@
+{
+  "seavoice": {
+    "header": {
+      "navigation": {
+        "platform": {
+          "title": "Plateforme",
+          "overview": "Aperçu de la plateforme",
+          "landlineMobile": "Voix fixe et mobile",
+          "voipSipByoc": "Voix VoIP & SIP & BYOC",
+          "lineCallPlus": "Line Call Plus pour les entreprises",
+          "whatsAppVoice": "API vocale WhatsApp pour les entreprises",
+          "speechToText": "Reconnaissance vocale",
+          "textToSpeech": "Synthèse vocale",
+          "endToEndLlms": "LLM de bout en bout"
+        },
+        "inboundSolutions": {
+          "title": "Solutions entrantes",
+          "virtualAssistant": "Assistant virtuel 24/7",
+          "callTransfer": "Transfert d'appel intelligent",
+          "ivrReplacement": "Remplacement du SVI",
+          "mentalHealth": "Compagnon de santé mentale",
+          "scamShield": "Protection Scam Shield",
+          "technicalSupport": "Support technique",
+          "orderTracking": "État et suivi des commandes",
+          "paymentProcessing": "Traitement des paiements",
+          "appointmentBooking": "Prise de rendez-vous"
+        },
+        "outboundSolutions": {
+          "title": "Solutions sortantes",
+          "leadGeneration": "Génération et qualification de prospects",
+          "collections": "Service de recouvrement",
+          "reactivation": "Réactivation des clients",
+          "seniorChecks": "Appels de contrôle aux personnes âgées",
+          "campaigns": "Campagnes à grande échelle",
+          "proactiveSupport": "Support proactif",
+          "renewals": "Renouvellements d'abonnement",
+          "surveys": "Enquêtes clients",
+          "fraudAlerts": "Alertes de fraude"
+        },
+        "pricing": "Tarifs"
+      },
+      "auth": {
+        "signIn": "Se connecter",
+        "getStarted": "Commencer"
+      },
+      "backToMainSite": "Retour au site principal"
+    },
+    "home": {
+      "hero": {
+        "tagline": "Votre entreprise ne dort jamais",
+        "title": {
+          "line1": "Agents vocaux IA",
+          "line2": "Gérez les appels 24/7"
+        },
+        "subtitle": {
+          "line1": "Transformez les interactions client avec une IA de type humain qui ne dort jamais.",
+          "line2": "Automatisez le support, les réservations et les appels sortants à grande échelle."
+        },
+        "bookDemo": "Réserver une démo",
+        "signUp": "Inscrivez-vous maintenant"
+      },
+      "voiceDemo": {
+        "title": "Essayez notre technologie vocale",
+        "subtitle": "Écoutez de vrais exemples de SeaVoice en action et découvrez l'avenir des conversations alimentées par l'IA"
+      },
+      "conversationFlow": {
+        "step1": {
+          "title": "Appels des clients",
+          "description": "L'appelant compose le numéro de votre entreprise"
+        },
+        "step2": {
+          "title": "L'agent IA répond",
+          "description": "SeaVoice AI décroche instantanément"
+        },
+        "step3": {
+          "title": "Conversation naturelle",
+          "description": "Interaction vocale de type humain"
+        },
+        "step4": {
+          "title": "Achèvement de la tâche",
+          "description": "Réservation, support ou transfert"
+        }
+      },
+      "conversationExamples": {
+        "appointment": {
+          "customer": "Bonjour, j'aimerais prendre rendez-vous pour la semaine prochaine.",
+          "ai": "Je serais heureux de vous aider à planifier un rendez-vous! Laissez-moi vérifier nos disponibilités pour la semaine prochaine. Quel type de service recherchez-vous?",
+          "scenario": "Prise de rendez-vous"
+        },
+        "support": {
+          "customer": "J'ai un problème avec ma commande récente. Pouvez-vous m'aider?",
+          "ai": "Bien sûr! Je suis là pour vous aider avec votre commande. Pouvez-vous s'il vous plaît fournir votre numéro de commande afin que je puisse consulter les détails pour vous?",
+          "scenario": "Support client"
+        },
+        "inquiry": {
+          "customer": "Quelles sont vos heures d'ouverture?",
+          "ai": "Nous sommes ouverts du lundi au vendredi de 9h à 18h et le samedi de 10h à 16h. Nous sommes fermés le dimanche. Y a-t-il quelque chose de spécifique que vous aimeriez savoir sur nos services?",
+          "scenario": "Demande générale"
+        }
+      },
+      "useCases": {
+        "title": {
+          "line1": "Transformez votre entreprise avec",
+          "line2": "des cas d'utilisation réussis"
+        },
+        "subtitle": "Découvrez comment les leaders de l'industrie tirent parti de SeaVoice AI pour révolutionner les interactions client et stimuler la croissance",
+        "badge": "Histoires de réussite éprouvées",
+        "inbound": {
+          "category": "Solutions entrantes",
+          "appointmentBooking": {
+            "title": "Prise et gestion de rendez-vous",
+            "description": "Automatisez la planification des rendez-vous avec une IA qui comprend la disponibilité, les préférences et les règles de l'entreprise."
+          },
+          "technicalSupport": {
+            "title": "Automatisation du support technique",
+            "description": "Fournissez un support technique instantané avec une IA capable de diagnostiquer les problèmes et de guider les clients vers des solutions."
+          },
+          "virtualAssistant": {
+            "title": "Assistant virtuel",
+            "description": "Gérez les demandes de renseignements générales, fournissez des informations et acheminez les appels intelligemment."
+          },
+          "callTransfer": {
+            "title": "Transfert et routage d'appels",
+            "description": "Acheminez intelligemment les appels vers le bon service ou agent en fonction des besoins de l'appelant."
+          },
+          "orderTracking": {
+            "title": "Suivi et support des commandes",
+            "description": "Permettez aux clients de vérifier l'état de leur commande, de suivre les expéditions et d'obtenir des mises à jour de livraison."
+          },
+          "paymentProcessing": {
+            "title": "Traitement des paiements",
+            "description": "Traitez les paiements en toute sécurité, gérez les demandes de renseignements sur la facturation et gérez les informations de compte."
+          },
+          "ivrReplacement": {
+            "title": "Remplacement du SVI",
+            "description": "Remplacez les menus traditionnels par une compréhension du langage naturel pour une expérience plus fluide."
+          },
+          "mentalHealth": {
+            "title": "Support en santé mentale",
+            "description": "Fournissez un support en santé mentale empathique et piloté par l'IA 24 heures sur 24."
+          },
+          "scamShield": {
+            "title": "Protection Scam Shield",
+            "description": "Protégez vos utilisateurs contre les escroqueries grâce à une détection et un blocage en temps réel."
+          },
+          "type": "Entrant"
+        },
+        "outbound": {
+          "category": "Solutions sortantes",
+          "leadGeneration": {
+            "title": "Génération et qualification de prospects",
+            "description": "Transformez votre pipeline de ventes avec une génération de prospects alimentée par l'IA qui identifie et qualifie les prospects."
+          },
+          "seniorChecks": {
+            "title": "Appels de contrôle et de bien-être aux personnes âgées",
+            "description": "Contrôles de bien-être réguliers alimentés par l'IA pour les personnes âgées avec des conversations compatissantes qui surveillent la santé."
+          },
+          "surveys": {
+            "title": "Enquêtes et commentaires des clients",
+            "description": "Menez des enquêtes post-achat et collectez automatiquement de précieux commentaires clients."
+          },
+          "collections": {
+            "title": "Recouvrements et rappels de paiement",
+            "description": "Appels de recouvrement respectueux et efficaces qui améliorent les taux de paiement tout en maintenant les relations."
+          },
+          "reactivation": {
+            "title": "Réactivation des clients",
+            "description": "Réengagez les clients dormants avec des campagnes de sensibilisation personnalisées."
+          },
+          "fraudAlerts": {
+            "title": "Alertes et vérification de la fraude",
+            "description": "Avertissez les clients des transactions suspectes et vérifiez leur identité pour des raisons de sécurité."
+          },
+          "campaigns": {
+            "title": "Campagnes à grande échelle",
+            "description": "Exécutez des campagnes vocales massives pour atteindre des milliers de clients dans le monde."
+          },
+          "proactiveSupport": {
+            "title": "Support client proactif",
+            "description": "Tenez les clients informés de manière proactive avec des notifications intelligentes."
+          },
+          "renewals": {
+            "title": "Renouvellements d'abonnement",
+            "description": "Automatisez les renouvellements avec des rappels et un traitement des paiements transparent."
+          },
+          "type": "Sortant"
+        },
+        "types": {
+          "inbound": "Entrant",
+          "outbound": "Sortant"
+        }
+      },
+      "howItWorks": {
+        "title": {
+          "prefix": "",
+          "highlight": "Commencez en ",
+          "suffix": "5 étapes faciles"
+        },
+        "subtitle": "De la configuration à la mise en service en moins de 20 minutes. Notre processus rationalisé prépare votre agent vocal IA à gérer les appels immédiatement.",
+        "badge": "Processus de configuration simple",
+        "step1": {
+          "title": "Entraînez votre agent vocal",
+          "description": "Personnalisez votre voix, vos scripts et vos réponses en quelques minutes. Notre IA apprend de votre site Web et de votre profil Google Business pour représenter fidèlement votre marque."
+        },
+        "step2": {
+          "title": "Connectez votre système téléphonique",
+          "description": "Intégrez de manière transparente SeaVoice à votre configuration téléphonique existante (SIP/VoIP/PSTN). Transférez les appels vers SeaVoice sans changer votre numéro d'entreprise."
+        },
+        "step3": {
+          "title": "Définir les règles d'appel",
+          "description": "Définissez comment SeaVoice gère les différents types d'appels et quand les transmettre à votre équipe. Assurez-vous que chaque appelant obtient la bonne réponse."
+        },
+        "step4": {
+          "title": "Mise en service",
+          "description": "Activez votre agent vocal IA et commencez à gérer les appels. L'ensemble du processus prend généralement moins de 20 minutes du début à la fin."
+        },
+        "step5": {
+          "title": "Support et analyses 24/7",
+          "description": "Surveillez les appels en temps réel, recevez des transcriptions détaillées et exploitez les informations pour améliorer votre entreprise. Notre équipe de support est toujours disponible pour vous aider à optimiser les performances."
+        },
+        "ctaBadge": "La plupart des clients sont en direct en moins de 20 minutes",
+        "liveTime": "La plupart des clients sont en direct en moins de 20 minutes"
+      },
+      "comparison": {
+        "title": "IA vocale vs humain vs services externalisés",
+        "subtitle": "Découvrez comment SeaVoice AI se compare aux alternatives traditionnelles",
+        "seavoiceAi": "SeaVoice AI",
+        "fullTimeHuman": "Humain à temps plein",
+        "outsourcedService": "Service externalisé",
+        "availability": {
+          "feature": "Disponibilité 24/7",
+          "seavoice": "Toujours allumé",
+          "human": "9-5 uniquement",
+          "outsourced": "Frais supplémentaires"
+        },
+        "callVolume": {
+          "feature": "Gestion du volume d'appels",
+          "seavoice": "Plus de 500 simultanés",
+          "human": "1 appel à la fois",
+          "outsourced": "5-10 simultanés"
+        },
+        "language": {
+          "feature": "Support linguistique",
+          "seavoice": "Plus de 30 langues",
+          "human": "Limité par l'embauche",
+          "outsourced": "Supplément $/langue"
+        },
+        "emotional": {
+          "feature": "Intelligence émotionnelle",
+          "seavoice": "Empathie de base",
+          "human": "Élevée",
+          "outsourced": "Dépend de l'agent"
+        },
+        "compliance": {
+          "feature": "Conformité",
+          "seavoice": "Outils intégrés",
+          "human": "Formation requise",
+          "outsourced": "Formation requise"
+        },
+        "implementation": {
+          "feature": "Temps de mise en œuvre",
+          "seavoice": "<1 jour",
+          "human": "6-8 semaines d'embauche",
+          "outsourced": "2-4 semaines"
+        },
+        "costComparison": "💰 Comparaison des coûts",
+        "cost": {
+          "monthly": {
+            "feature": "Coût mensuel",
+            "seavoice": "À partir de 30 $",
+            "human": "3 397 $+",
+            "outsourced": "1 500-2 500 $"
+          },
+          "effective": {
+            "feature": "Taux effectif",
+            "seavoice": "0,12 $/minute",
+            "human": "6,79 $/appel",
+            "outsourced": "3,00-5,00 $/appel"
+          },
+          "hidden": {
+            "feature": "Coûts cachés",
+            "seavoice": "Aucun",
+            "human": "Avantages (800 $+/mois)",
+            "outsourced": "Frais de configuration"
+          }
+        },
+        "savings": {
+          "costVsHuman": "95%",
+          "costVsHumanLabel": "Économies de coûts par rapport à l'humain",
+          "costVsOutsourced": "80%",
+          "costVsOutsourcedLabel": "Économies par rapport à l'externalisation",
+          "annualSavings": "Plus de 40 000 $",
+          "annualSavingsLabel": "Économies annuelles"
+        },
+        "cta": {
+          "title": "Prêt à découvrir l'avantage de SeaVoice AI?",
+          "subtitle": "Rejoignez des milliers d'entreprises qui ont transformé leur service client avec une IA qui fonctionne 24/7, gère un nombre illimité d'appels et évolue avec votre entreprise.",
+          "bookDemo": "Réserver une démo",
+          "signUp": "Inscrivez-vous maintenant",
+          "description": "Rejoignez des milliers d'entreprises qui ont transformé leur service client avec une IA qui fonctionne 24/7, gère un nombre illimité d'appels et évolue avec votre entreprise."
+        },
+        "seavoiceAI": "SeaVoice AI",
+        "costDescription": "Découvrez les économies de coûts spectaculaires avec SeaVoice AI",
+        "costSavings": "95%",
+        "costSavingsLabel": "Économies de coûts par rapport à l'humain",
+        "outsourcedSavings": "80%",
+        "outsourcedSavingsLabel": "Économies par rapport à l'externalisation",
+        "annualSavings": "Plus de 40 000 $",
+        "annualSavingsLabel": "Économies annuelles",
+        "features": {
+          "availability": "Disponibilité 24/7",
+          "callVolume": "Gestion du volume d'appels",
+          "language": "Support linguistique",
+          "emotional": "Intelligence émotionnelle",
+          "compliance": "Conformité",
+          "implementation": "Temps de mise en œuvre",
+          "monthlyCost": "Coût mensuel",
+          "effectiveRate": "Taux effectif",
+          "hiddenCosts": "Coûts cachés"
+        },
+        "seavoice": {
+          "availability": "Toujours allumé",
+          "callVolume": "Plus de 500 simultanés",
+          "language": "Plus de 30 langues",
+          "emotional": "Empathie de base",
+          "compliance": "Outils intégrés",
+          "implementation": "<1 jour",
+          "monthlyCost": "À partir de 30 $",
+          "effectiveRate": "0,12 $/minute",
+          "hiddenCosts": "Aucun"
+        },
+        "human": {
+          "availability": "9-5 uniquement",
+          "callVolume": "1 appel à la fois",
+          "language": "Limité par l'embauche",
+          "emotional": "Élevée",
+          "compliance": "Formation requise",
+          "implementation": "6-8 semaines d'embauche",
+          "monthlyCost": "3 397 $+",
+          "effectiveRate": "6,79 $/appel",
+          "hiddenCosts": "Avantages (800 $+/mois)"
+        },
+        "outsourced": {
+          "availability": "Frais supplémentaires",
+          "callVolume": "5-10 simultanés",
+          "language": "Supplément $/langue",
+          "emotional": "Dépend de l'agent",
+          "compliance": "Formation requise",
+          "implementation": "2-4 semaines",
+          "monthlyCost": "1 500-2 500 $",
+          "effectiveRate": "3,00-5,00 $/appel",
+          "hiddenCosts": "Frais de configuration"
+        }
+      },
+      "seachat": {
+        "title": {
+          "prefix": "Les capacités de SeaVoice vous sont proposées par ",
+          "highlight": "SeaChat",
+          "suffix": " "
+        },
+        "subtitle": "Une plateforme d'agent omnicanal et multimodale sans code",
+        "teamwork": {
+          "title": "Une équipe, travaillant ensemble pour vous"
+        },
+        "chatAgent": {
+          "title": "Agent de chat IA",
+          "description": "Réponses instantanées sur les plateformes Web, mobiles et de messagerie"
+        },
+        "humanAgent": {
+          "title": "Agent humain",
+          "description": "Transfert transparent pour les requêtes complexes qui nécessitent une touche humaine"
+        },
+        "voiceAgent": {
+          "title": "Agent vocal IA",
+          "description": "Conversations téléphoniques naturelles alimentées par une IA vocale avancée"
+        },
+        "learnMore": "En savoir plus sur SeaChat",
+        "teamTitle": "Une équipe, travaillant ensemble pour vous"
+      },
+      "testimonial": {
+        "quote": "SeaVoice a réduit le temps de formation de nos agents de 2 semaines et a augmenté l'efficacité de 20%",
+        "author": "Sarah Johnson",
+        "role": "VP du succès client",
+        "company": "TechCorp Inc.",
+        "stat1": "2 semaines",
+        "stat1Label": "Temps de formation réduit",
+        "stat2": "20%",
+        "stat2Label": "Gain d'efficacité",
+        "stat3": "94%",
+        "stat3Label": "Satisfaction client",
+        "stat4": "500+",
+        "stat4Label": "Appels simultanés"
+      },
+      "faq": {
+        "title": {
+          "line1": "Questions fréquemment",
+          "line2": "posées"
+        },
+        "subtitle": "Tout ce que vous devez savoir sur SeaVoice AI et comment il peut transformer vos communications d'entreprise",
+        "badge": "Vous avez des questions?",
+        "expandAll": "Développer toutes les questions",
+        "collapseAll": "Réduire tout",
+        "q1": {
+          "question": "En quoi SeaVoice diffère-t-il d'un chatbot traditionnel?",
+          "answer": "SeaVoice fournit des conversations vocales en temps réel avec une IA avancée qui peut comprendre le contexte, gérer les interruptions et fournir des réponses de type humain au téléphone. Contrairement aux chatbots textuels, SeaVoice gère les appels vocaux réels avec des modèles de parole naturels."
+        },
+        "q2": {
+          "question": "Combien de temps faut-il pour le configurer?",
+          "answer": "La configuration prend généralement moins de 20 minutes. Vous pouvez former votre agent vocal, connecter votre système téléphonique, configurer les règles d'appel et être opérationnel en une seule session."
+        },
+        "q3": {
+          "question": "Les appelants peuvent-ils savoir qu'ils parlent à une IA?",
+          "answer": "Notre technologie vocale avancée crée des conversations très humaines. Bien que certains appelants puissent le remarquer, la plupart trouvent l'expérience naturelle et utile. Vous pouvez également personnaliser l'IA pour qu'elle se présente comme un assistant IA si vous le souhaitez."
+        },
+        "q4": {
+          "question": "Que se passe-t-il si SeaVoice ne peut pas répondre à une question?",
+          "answer": "SeaVoice est conçu pour gérer les escalades avec élégance. Il peut transférer les appels à des agents humains, prendre des messages, planifier des rappels ou diriger les appelants vers des ressources appropriées en fonction de vos règles configurées."
+        },
+        "q5": {
+          "question": "Comment fonctionne la tarification?",
+          "answer": "Nous proposons une tarification transparente à la minute. Les forfaits Premium incluent des minutes de base avec une utilisation supplémentaire facturée à la minute. Les forfaits Entreprise sont personnalisés en fonction du volume et des besoins spécifiques."
+        },
+        "q6": {
+          "question": "Puis-je personnaliser la voix de l'IA?",
+          "answer": "Oui! Vous pouvez choisir parmi plusieurs options de voix, ajuster le ton et le style de parole, et même cloner des voix personnalisées pour les forfaits Entreprise. L'IA peut être entraînée pour correspondre au style de communication de votre marque."
+        },
+        "q7": {
+          "question": "SeaVoice est-il multilingue?",
+          "answer": "Oui, SeaVoice prend en charge les conversations dans plus de 10 langues, dont l'anglais, l'espagnol, le français, l'allemand, l'italien, le portugais, le néerlandais, le russe, le chinois et le japonais."
+        },
+        "q8": {
+          "question": "Quels secteurs bénéficient le plus de SeaVoice?",
+          "answer": "SeaVoice fonctionne bien dans tous les secteurs, y compris les soins de santé, l'immobilier, l'hôtellerie, les services financiers, le commerce électronique, les services professionnels et toute entreprise qui gère des volumes d'appels élevés ou qui a besoin d'une disponibilité 24/7."
+        },
+        "q9": {
+          "question": "SeaVoice peut-il gérer les appels d'urgence?",
+          "answer": "Bien que SeaVoice puisse gérer les demandes urgentes et les transmettre de manière appropriée, nous vous recommandons de maintenir des protocoles d'urgence directs. SeaVoice peut être configuré pour transférer immédiatement les appels liés à une urgence à des opérateurs humains."
+        },
+        "q10": {
+          "question": "SeaVoice peut-il détecter les appels indésirables?",
+          "answer": "Oui, SeaVoice comprend une détection de spam intégrée qui peut identifier et filtrer les appels suspects, protégeant ainsi votre entreprise des interruptions indésirables tout en garantissant que les appels légitimes passent."
+        },
+        "q11": {
+          "question": "Comment puis-je commencer?",
+          "answer": "C'est facile de commencer! Réservez une démo pour voir SeaVoice en action, puis notre équipe vous aidera à configurer votre agent vocal, à l'intégrer à votre système téléphonique et à le configurer pour vos besoins spécifiques. La plupart des clients sont opérationnels en moins d'une journée."
+        }
+      },
+      "finalCta": {
+        "title": "Prêt à le voir en action?",
+        "subtitle": "Obtenez une démo personnalisée et découvrez comment SeaVoice peut transformer vos communications client",
+        "bookDemo": "Réservez une démo dès aujourd'hui",
+        "signUp": "Inscrivez-vous maintenant"
+      },
+      "dashboard": {
+        "stats": {
+          "totalCalls": "247",
+          "activeCalls": "3",
+          "avgWaitTime": "0:12",
+          "satisfaction": "4,8",
+          "resolutionRate": "92"
+        },
+        "calls": {
+          "sarah": {
+            "customer": "Sarah Johnson",
+            "type": "Prise de rendez-vous",
+            "status": "terminé",
+            "duration": "3:42",
+            "time": "il y a 2 minutes",
+            "outcome": "Rendez-vous prévu pour mardi prochain à 14h",
+            "tag1": "réservation",
+            "tag2": "satisfait"
+          },
+          "mike": {
+            "customer": "Mike Chen",
+            "type": "Support technique",
+            "status": "transféré",
+            "duration": "1:28",
+            "time": "il y a 5 minutes",
+            "outcome": "Transféré à un spécialiste technique - Problème: Problèmes de connexion",
+            "tag1": "support",
+            "tag2": "escaladé"
+          },
+          "emily": {
+            "customer": "Emily Rodriguez",
+            "type": "Demande de renseignements sur la commande",
+            "status": "terminé",
+            "duration": "2:15",
+            "time": "il y a 8 minutes",
+            "outcome": "État de la commande fourni - Le colis arrivera demain",
+            "tag1": "demande de renseignements",
+            "tag2": "résolu"
+          },
+          "david": {
+            "customer": "David Wilson",
+            "type": "Question sur la facturation",
+            "status": "en cours",
+            "duration": "1:03",
+            "time": "À l'instant",
+            "outcome": "Discussion en cours sur l'écart de facturation",
+            "tag1": "facturation",
+            "tag2": "actif"
+          }
+        },
+        "mockCalls": {
+          "customer1": "Sarah Johnson",
+          "type1": "Prise de rendez-vous",
+          "status1": "terminé",
+          "duration1": "3:42",
+          "time1": "il y a 2 minutes",
+          "outcome1": "Rendez-vous prévu pour mardi prochain à 14h",
+          "customer2": "Mike Chen",
+          "type2": "Support technique",
+          "status2": "transféré",
+          "duration2": "1:28",
+          "time2": "il y a 5 minutes",
+          "outcome2": "Transféré à un spécialiste technique - Problème: Problèmes de connexion",
+          "customer3": "Emily Rodriguez",
+          "type3": "Demande de renseignements sur la commande",
+          "status3": "terminé",
+          "duration3": "2:15",
+          "time3": "il y a 8 minutes",
+          "outcome3": "État de la commande fourni - Le colis arrivera demain",
+          "customer4": "David Wilson",
+          "type4": "Question sur la facturation",
+          "status4": "en cours",
+          "duration4": "1:03",
+          "time4": "À l'instant",
+          "outcome4": "Discussion en cours sur l'écart de facturation"
+        }
+      },
+      "testimonials": {
+        "metrics": {
+          "trainingTime": "2 semaines",
+          "trainingTimeLabel": "Temps de formation réduit",
+          "efficiency": "20%",
+          "efficiencyLabel": "Gain d'efficacité",
+          "satisfaction": "94%",
+          "satisfactionLabel": "Satisfaction client",
+          "simultaneousCalls": "500+",
+          "simultaneousCallsLabel": "Appels simultanés"
+        },
+        "quote": "SeaVoice a réduit le temps de formation de nos agents de 2 semaines et a augmenté l'efficacité de 20%",
+        "author": "Sarah Johnson",
+        "role": "VP du succès client",
+        "company": "TechCorp Inc."
+      }
+    },
+    "pricing": {
+      "hero": {
+        "title": "Tarification simple et transparente",
+        "subtitle": "Solutions d'IA vocale conçues pour le service client entrant et les campagnes sortantes. Basées sur les fondations des forfaits SeaChat Premium (29,99 $) et SeaX Omni-channel (99 $)."
+      },
+      "plans": {
+        "inboundOnly": {
+          "name": "Entrant uniquement",
+          "tagline": "Parfait pour le service client",
+          "price": "29,99 $",
+          "period": "/mois",
+          "description": "Idéal pour les entreprises qui ont besoin d'une solution d'appel entrant avec Voice AI (basée sur le forfait SeaChat Premium)",
+          "features": {
+            "aiCallHandling": "Gestion des appels basée sur l'IA (appels entrants uniquement)",
+            "voiceAIPrice": "La voix IA commence à 0,12 $ par minute (modèle ChatGPT-4o mini)",
+            "phoneNumber": "Numéro de téléphone inclus (2-3 $/mois avec adresse E911)",
+            "callRecording": "Enregistrement et résumé des appels",
+            "transferHuman": "Support de transfert à un agent humain",
+            "multiLanguage": "Support vocal multilingue",
+            "sttLanguages": "Plus de 10 langues de reconnaissance vocale",
+            "ttsLanguages": "Plus de 10 langues de synthèse vocale avec des voix d'Azure, ElevenLabs, OpenAI",
+            "crmIntegrations": "Intégrations CRM (Salesforce, HubSpot)",
+            "calendarIntegration": "Intégration du calendrier (Google, Outlook)",
+            "callAnalytics": "Analyse et rapports d'appels",
+            "emailNotifications": "Notifications par e-mail pour les appels"
+          },
+          "limitations": {
+            "noOutbound": "Pas de capacités d'appels sortants",
+            "noBulkCampaigns": "Pas de fonctionnalités de campagne en masse"
+          },
+          "cta": "Commencer avec Entrant uniquement",
+          "poweredBy": "Propulsé par SeaChat"
+        },
+        "inboundOutbound": {
+          "name": "Entrant + Sortant",
+          "tagline": "Développez vos campagnes vocales",
+          "price": "99 $",
+          "period": "/mois",
+          "description": "Parfait pour les campagnes vocales IA à grande échelle (équivalent au forfait SeaX Omni-channel pour le premier utilisateur)",
+          "badge": "Le plus populaire",
+          "features": {
+            "everythingInbound": "Tout dans le forfait Entrant uniquement",
+            "outboundCalling": "Appels et campagnes sortants",
+            "bulkCampaigns": "Campagnes vocales IA en masse",
+            "voiceAIPrice": "La voix IA commence à 0,12 $ par minute (modèle ChatGPT-4o mini)",
+            "additionalUsers": "Utilisateurs supplémentaires: 49 $/mois chacun",
+            "multipleNumbers": "Prise en charge de plusieurs numéros de téléphone",
+            "campaignScheduling": "Planification et automatisation des campagnes",
+            "advancedRouting": "Routage avancé des appels",
+            "customVoiceTraining": "Formation vocale personnalisée",
+            "voicemailDrop": "Capacité de dépôt de messagerie vocale (0,05 $ par dépôt)",
+            "apiAccess": "Accès à l'API RESTful",
+            "seachatIntegration": "Intégration SeaChat pour un support multicanal",
+            "advancedAnalytics": "Tableau de bord d'analyse avancé",
+            "prioritySupport": "Support prioritaire"
+          },
+          "cta": "Commencer avec Entrant + Sortant",
+          "poweredBy": "Propulsé par SeaX + SeaChat"
+        },
+        "custom": {
+          "name": "Plan personnalisé",
+          "tagline": "Solutions de niveau entreprise",
+          "price": "Nous contacter",
+          "period": "",
+          "description": "Solutions sur mesure adaptées aux besoins spécifiques de l'entreprise (similaires aux forfaits SeaChat/SeaX Enterprise)",
+          "customPriceMessage": "Construisons un projet",
+          "features": {
+            "everythingInboundOutbound": "Tout dans le forfait Entrant + Sortant",
+            "multipleWorkspaces": "Plusieurs espaces de travail (parfaits pour les agences)",
+            "workspaceAgents": "Chaque espace de travail dispose de plusieurs agents IA et numéros de téléphone",
+            "customPricing": "Tarification personnalisée par minute en fonction du volume",
+            "accountManager": "Gestionnaire de compte dédié",
+            "uptimeSLA": "SLA de disponibilité de 99,99%",
+            "compliance": "Conformité HIPAA/PCI disponible",
+            "whiteLabel": "Solutions en marque blanche",
+            "customAPI": "Intégrations d'API personnalisées",
+            "advancedSecurity": "Fonctionnalités de sécurité avancées",
+            "voiceCloning": "Clonage de voix personnalisé",
+            "phoneSupport": "Support téléphonique prioritaire",
+            "technicalSupport": "Directives de conception professionnelles et support technique",
+            "onPremise": "Options de déploiement sur site"
+          },
+          "cta": "Nous contacter"
+        }
+      },
+      "productRelationship": {
+        "title": "Comment SeaVoice se connecte à SeaChat et SeaX",
+        "seachatIntegration": {
+          "title": "🔗 Intégration SeaChat",
+          "description": "Le forfait SeaVoice Inbound Only (29,99 $/mois) est basé sur les fondations du forfait SeaChat Premium, offrant des capacités d'IA vocale pour les appels entrants à 0,12 $ par minute.",
+          "subtitle": "Parfait pour les entreprises qui souhaitent ajouter l'IA vocale à leur configuration SeaChat existante."
+        },
+        "seaxIntegration": {
+          "title": "📞 Intégration SeaX",
+          "description": "Le forfait SeaVoice Inbound + Outbound (99 $/mois) reflète la tarification de SeaX Omni-channel, permettant des campagnes vocales à grande échelle avec gestion des rappels.",
+          "subtitle": "Idéal pour les entreprises qui mènent des campagnes sortantes et qui ont besoin d'une couverture complète de l'IA vocale."
+        },
+        "completePicture": {
+          "title": "✨ L'image complète",
+          "description": "Tous les appels vocaux IA sur SeaChat, SeaX et SeaVoice utilisent le même tarif de 0,12 $ par minute avec le modèle ChatGPT-4o mini. Lorsque les contacts rappellent après des campagnes sortantes, SeaVoice gère de manière transparente ces appels entrants avec la même intelligence IA."
+        }
+      },
+      "faq": {
+        "title": "Questions fréquemment posées",
+        "subtitle": "Tout ce que vous devez savoir sur la tarification et les fonctionnalités de SeaVoice",
+        "question1": "Comment la tarification de SeaVoice est-elle liée à SeaChat et SeaX?",
+        "answer1": "Le forfait SeaVoice Inbound Only (29,99 $/mois) est basé sur le forfait SeaChat Premium, axé sur l'IA vocale entrante. Le forfait Inbound + Outbound (99 $/mois) reflète la tarification de SeaX Omni-channel pour des campagnes vocales complètes. Tous les appels vocaux IA commencent à 0,12 $ par minute en utilisant le modèle ChatGPT-4o mini.",
+        "question2": "Quelle est la différence entre les forfaits Inbound Only et Inbound + Outbound?",
+        "answer2": "Inbound Only (29,99 $/mois) gère les appels entrants avec l'IA, parfait pour le service client. Inbound + Outbound (99 $/mois pour le premier utilisateur) ajoute des capacités de campagne en masse et d'appels sortants, idéal pour les équipes de vente et de marketing qui mènent des campagnes vocales à grande échelle.",
+        "question3": "Puis-je conserver mes numéros de téléphone professionnels existants?",
+        "answer3": "Oui, vous pouvez conserver vos numéros de téléphone professionnels existants et transférer les appels vers SeaVoice, ou nous pouvons vous fournir de nouveaux numéros. Chaque numéro de téléphone coûte 2-3 $/mois avec l'enregistrement de l'adresse E911.",
+        "question4": "Combien coûtent réellement les appels vocaux IA?",
+        "answer4": "Tous les appels vocaux IA commencent à 0,12 $ par minute en utilisant le modèle ChatGPT-4o mini. C'est le same tarif pour les forfaits SeaChat Premium et SeaVoice. Les modèles de niveau supérieur comme ChatGPT-4o coûtent 0,80 $ par minute et sont disponibles sur les forfaits personnalisés.",
+        "question5": "Que se passe-t-il lorsque les contacts rappellent après une campagne sortante?",
+        "answer5": "Avec le forfait Inbound + Outbound, lorsque les contacts rappellent après avoir reçu des appels de campagne, notre IA vocale entrante gérera automatiquement ces appels, assurant une continuité transparente dans vos communications client.",
+        "question6": "Puis-je passer du forfait Inbound Only au forfait Inbound + Outbound?",
+        "answer6": "Absolument! Vous pouvez modifier votre forfait à tout moment. La mise à niveau prend effet immédiatement et vous aurez accès aux appels sortants, aux fonctionnalités de campagne et à des sièges d'utilisateurs supplémentaires.",
+        "question7": "Proposez-vous des remises sur volume pour les clients à forte utilisation?",
+        "answer7": "Oui, notre forfait personnalisé propose une tarification négociée en fonction de votre volume et de vos habitudes d'utilisation spécifiques. Contactez notre équipe commerciale pour discuter d'une tarification personnalisée qui évolue avec les besoins de votre entreprise."
+      },
+      "cta": {
+        "title": "Prêt à commencer?",
+        "subtitle": "Commencez votre essai gratuit dès aujourd'hui et découvrez la puissance de l'automatisation vocale par l'IA",
+        "signUpFree": "Inscrivez-vous gratuitement",
+        "scheduleDemo": "Planifier une démo"
+      }
+    },
+    "footer": {
+      "description": "Automatisez 80% des appels clients avec des agents vocaux IA qui semblent humains et s'intègrent de manière transparente à votre entreprise.",
+      "platform": {
+        "title": "Plateforme",
+        "overview": "Aperçu de la plateforme",
+        "landlineMobile": "Voix fixe et mobile",
+        "voipSipByoc": "Voix VoIP & SIP & BYOC",
+        "lineCallPlus": "Line Call Plus pour les entreprises",
+        "whatsAppVoice": "API vocale WhatsApp pour les entreprises",
+        "speechToText": "Reconnaissance vocale",
+        "textToSpeech": "Synthèse vocale",
+        "endToEndLlms": "LLM de bout en bout"
+      },
+      "inboundSolutions": {
+        "title": "Solutions entrantes",
+        "virtualAssistant": "Assistant virtuel 24/7",
+        "callTransfer": "Transfert d'appel intelligent",
+        "ivrReplacement": "Remplacement du SVI",
+        "mentalHealth": "Compagnon de santé mentale",
+        "scamShield": "Protection Scam Shield",
+        "technicalSupport": "Support technique",
+        "orderTracking": "État et suivi des commandes",
+        "paymentProcessing": "Traitement des paiements",
+        "appointmentBooking": "Prise de rendez-vous"
+      },
+      "outboundSolutions": {
+        "title": "Solutions sortantes",
+        "leadGeneration": "Génération et qualification de prospects",
+        "collections": "Service de recouvrement",
+        "reactivation": "Réactivation des clients",
+        "seniorChecks": "Appels de contrôle aux personnes âgées",
+        "campaigns": "Campagnes à grande échelle",
+        "proactiveSupport": "Support proactif",
+        "renewals": "Renouvellements d'abonnement",
+        "surveys": "Enquêtes clients",
+        "fraudAlerts": "Alertes de fraude"
+      },
+      "company": {
+        "title": "Entreprise",
+        "pricing": "Tarifs",
+        "productWiki": "Wiki du produit",
+        "apiReferences": "Références API"
+      },
+      "legal": {
+        "copyright": "© 2020 - {{year}} Seasalt.ai. Tous droits réservés.",
+        "privacyPolicy": "Politique de confidentialité",
+        "termsOfService": "Conditions d'utilisation"
+      },
+      "stats": {
+        "callsHandled": "Plus d'un million d'appels traités",
+        "activeAgents": "Plus de 50 000 agents actifs",
+        "uptime": "99,99% de disponibilité"
+      },
+      "cta": {
+        "title": "Prêt à automatiser 80% de vos appels clients?",
+        "description": "Rejoignez des centaines d'entreprises qui utilisent les agents SeaVoice AI pour gérer les appels clients 24/7, réduire les coûts et améliorer la satisfaction client.",
+        "getStartedFree": "Commencez gratuitement",
+        "bookDemo": "Réserver une démo"
+      }
+    },
+    "priceCalculator": {
+      "hero": {
+        "title": "Calculateur de prix mensuel",
+        "subtitle": "Calculez votre coût mensuel exact en fonction de vos besoins d'utilisation. Tous les prix sont pour les États-Unis/Canada avec les frais de téléphone inclus."
+      },
+      "configure": {
+        "title": "Configurez votre plan"
+      },
+      "planType": {
+        "label": "1. Choisissez votre type de plan",
+        "inbound": {
+          "title": "Entrant uniquement - 29,99 $/mois",
+          "description": "Parfait pour le service client"
+        },
+        "inboundOutbound": {
+          "title": "Entrant + Sortant - 99 $/mois",
+          "description": "Développez vos campagnes vocales"
+        }
+      },
+      "phoneNumbers": {
+        "label": "2. Numéros de téléphone (avec adresse E911)",
+        "local": {
+          "label": "Numéros locaux (2 $/mois chacun)"
+        },
+        "tollFree": {
+          "label": "Numéros sans frais (3 $/mois chacun)"
+        }
+      },
+      "voiceAI": {
+        "label": "3. Minutes de l'IA vocale (0,12 $/minute - ChatGPT-4o mini)",
+        "range": {
+          "min": "0 min",
+          "max": "5 000 min",
+          "current": "minutes"
+        }
+      },
+      "humanAgent": {
+        "label": "4. Minutes de l'agent humain (0,015 $/minute)",
+        "range": {
+          "min": "0 min",
+          "max": "2 000 min",
+          "current": "minutes"
+        }
+      },
+      "breakdown": {
+        "title": "Répartition des coûts mensuels",
+        "inboundPlan": "Forfait Entrant uniquement",
+        "inboundOutboundPlan": "Forfait Entrant + Sortant",
+        "phoneNumbersTitle": "Numéros de téléphone",
+        "phoneNumbers": {
+          "local": "local",
+          "tollFree": "sans frais"
+        },
+        "voiceAI": {
+          "title": "Minutes de l'IA vocale",
+          "calculation": "min × 0,12 $"
+        },
+        "humanAgent": {
+          "title": "Minutes de l'agent humain",
+          "calculation": "min × 0,015 $"
+        },
+        "total": "Coût mensuel total"
+      },
+      "features": {
+        "usaCanada": "Couverture États-Unis/Canada incluse",
+        "phoneCharges": "Tous les frais de téléphone inclus",
+        "e911": "Enregistrement de l'adresse E911 inclus",
+        "recording": "Enregistrement et analyse des appels",
+        "outboundCampaigns": "Campagnes sortantes et appels en masse"
+      },
+      "cta": {
+        "getStartedInbound": "Commencer avec Entrant uniquement",
+        "getStartedInboundOutbound": "Commencer avec Entrant + Sortant",
+        "scheduleDemo": "Planifier une démo"
+      },
+      "notes": {
+        "title": "Notes importantes",
+        "usaCanadaOnly": "La tarification indiquée est pour les États-Unis/Canada uniquement",
+        "phoneChargesIncluded": "Tous les frais d'appel téléphonique sont inclus dans les tarifs indiqués",
+        "voiceAIModel": "L'IA vocale utilise le modèle ChatGPT-4o mini à 0,12 $/minute",
+        "humanAgentMinutes": "Les minutes de l'agent humain sont pour les transferts d'appels et les appels directs"
+      }
+    },
+    "platform": {
+      "hero": {
+        "title": "La plateforme vocale IA complète",
+        "description": "Découvrez la technologie qui alimente les interactions vocales de type humain, les intégrations transparentes et les informations exploitables pour votre entreprise.",
+        "cta": "Explorer les capacités de la plateforme"
+      },
+      "features": {
+        "aiVoice": {
+          "title": "Agents vocaux IA",
+          "description": "Agents vocaux de type humain qui gèrent les appels entrants et sortants 24/7 avec une cohérence parfaite.",
+          "feature1": "Disponibilité 24/7",
+          "feature2": "Conversations de type humain",
+          "feature3": "Pauses dynamiques et changements de ton",
+          "feature4": "Support multilingue"
+        },
+        "conversationalAI": {
+          "title": "IA conversationnelle",
+          "description": "IA avancée qui apprend de vos documents et se souvient des interactions passées pour un service personnalisé.",
+          "feature1": "Technologie RAG",
+          "feature2": "Mémoire à long terme",
+          "feature3": "Base de connaissances personnalisée",
+          "feature4": "Conscience du contexte"
+        },
+        "analytics": {
+          "title": "Analyse et informations",
+          "description": "Transcriptions en temps réel, analyse des sentiments et informations exploitables de chaque conversation.",
+          "feature1": "Transcriptions en temps réel",
+          "feature2": "Analyse des sentiments",
+          "feature3": "Mesures de performance",
+          "feature4": "Analyse du volume d'appels"
+        },
+        "telephony": {
+          "title": "Téléphonie et connectivité",
+          "description": "Intégration flexible avec les options VoIP, SIP et BYOC pour une connectivité transparente.",
+          "feature1": "Intégration VoIP",
+          "feature2": "Liaison SIP",
+          "feature3": "Support BYOC",
+          "feature4": "Couverture mondiale"
+        },
+        "integrations": {
+          "title": "Intégrations et canaux",
+          "description": "Connectez-vous à vos outils existants et atteignez les clients sur plusieurs canaux.",
+          "feature1": "Intégration CRM",
+          "feature2": "API vocale WhatsApp",
+          "feature3": "Appels professionnels LINE",
+          "feature4": "Synchronisation du calendrier"
+        },
+        "speech": {
+          "title": "Technologies vocales",
+          "description": "Reconnaissance vocale et synthèse vocale de pointe avec des profils vocaux personnalisés.",
+          "feature1": "STT de haute précision",
+          "feature2": "TTS naturel",
+          "feature3": "Clonage de voix",
+          "feature4": "Plus de 10 langues"
+        }
+      },
+      "technology": {
+        "title": "Construit sur une technologie de pointe",
+        "subtitle": "Propulsé par l'expertise de l'équipe Kaldi d'origine en reconnaissance vocale",
+        "speechRecognition": {
+          "title": "Reconnaissance vocale",
+          "description": "Technologie STT avancée avec une précision de plus de 99%, même avec un bruit de fond et un jargon industriel.",
+          "metric1": "Précision de plus de 99%",
+          "metric2": "Traitement en temps réel",
+          "metric3": "Réduction du bruit"
+        },
+        "nlp": {
+          "title": "Traitement du langage naturel",
+          "description": "IA contextuelle qui comprend l'intention et maintient un flux de conversation naturel.",
+          "metric1": "Reconnaissance d'intention",
+          "metric2": "Rétention du contexte",
+          "metric3": "Intelligence émotionnelle"
+        },
+        "voiceSynthesis": {
+          "title": "Synthèse vocale",
+          "description": "Synthèse vocale de type humain avec des voix personnalisables et une prosodie naturelle.",
+          "metric1": "Prosodie naturelle",
+          "metric2": "Clonage de voix",
+          "metric3": "Contrôle des émotions"
+        }
+      },
+      "landlineMobile": {
+        "hero": {
+          "title": "Solutions vocales fixes et mobiles",
+          "subtitle": "Transformez vos systèmes téléphoniques traditionnels avec des agents vocaux alimentés par l'IA qui fonctionnent de manière transparente avec les lignes fixes et les réseaux mobiles du monde entier.",
+          "cta": "Inscrivez-vous gratuitement"
+        },
+        "features": {
+          "0": {
+            "title": "Intégration de la ligne fixe traditionnelle",
+            "description": "Connectez de manière transparente votre infrastructure de ligne fixe existante aux capacités vocales de l'IA.",
+            "benefits": {
+              "0": "Conservez vos numéros de téléphone existants",
+              "1": "Aucune modification matérielle requise",
+              "2": "Sauvegarde instantanée de l'IA pour les lignes occupées"
+            }
+          },
+          "1": {
+            "title": "Connectivité du réseau mobile",
+            "description": "Intégration directe avec les opérateurs mobiles pour les campagnes sortantes et l'engagement client.",
+            "benefits": {
+              "0": "Atteignez les clients sur leurs appareils mobiles",
+              "1": "Taux de livraison élevés",
+              "2": "Options de secours SMS"
+            }
+          },
+          "2": {
+            "title": "Couverture mondiale",
+            "description": "Connectez-vous avec des clients du monde entier grâce à nos vastes partenariats de réseau d'opérateurs.",
+            "benefits": {
+              "0": "Plus de 200 pays pris en charge",
+              "1": "Présence de numéros locaux",
+              "2": "Tarifs internationaux compétitifs"
+            }
+          },
+          "title": "Connectivité vocale universelle",
+          "subtitle": "Connectez-vous à n'importe quel système téléphonique, n'importe où dans le monde"
+        },
+        "useCases": {
+          "0": {
+            "title": "Rappels de rendez-vous",
+            "description": "Appelez automatiquement les patients, les clients ou les clients pour confirmer les rendez-vous à venir.",
+            "metrics": {
+              "0": "Réduction de 40% des absences",
+              "1": "Taux de réussite des contacts de 95%",
+              "2": "Appels automatisés 24/7"
+            }
+          },
+          "1": {
+            "title": "Notifications d'urgence",
+            "description": "Avertissez rapidement de grands groupes en cas d'urgence ou de mises à jour critiques.",
+            "metrics": {
+              "0": "Plus de 1000 appels par minute",
+              "1": "Support multilingue",
+              "2": "Confirmation de livraison"
+            }
+          },
+          "2": {
+            "title": "Enquêtes clients",
+            "description": "Menez des enquêtes post-service pour recueillir de précieux commentaires clients.",
+            "metrics": {
+              "0": "Taux de réponse 3 fois plus élevés",
+              "1": "Analyse des sentiments en temps réel",
+              "2": "Rapports automatisés"
+            }
+          },
+          "title": "Cas d'utilisation populaires",
+          "subtitle": "Découvrez comment les entreprises tirent parti de l'automatisation vocale fixe et mobile"
+        },
+        "specs": {
+          "title": "Fiabilité de niveau entreprise",
+          "subtitle": "Conçu pour les communications critiques avec une infrastructure de niveau opérateur et une garantie de disponibilité de 99,99%.",
+          "security": {
+            "title": "Sécurité et conformité",
+            "description": "Infrastructure conforme SOC 2, HIPAA et PCI"
+          },
+          "monitoring": {
+            "title": "Surveillance 24/7",
+            "description": "Surveillance du système en temps réel et basculement instantané"
+          },
+          "infrastructure": {
+            "title": "Infrastructure mondiale",
+            "description": "Centres de données redondants dans plusieurs régions"
+          },
+          "technical": {
+            "title": "Spécifications techniques",
+            "concurrentCalls": {
+              "label": "Appels simultanés",
+              "value": "Illimité"
+            },
+            "audioQuality": {
+              "label": "Qualité audio",
+              "value": "Voix HD (G.722)"
+            },
+            "latency": {
+              "label": "Latence",
+              "value": "< 150 ms"
+            },
+            "uptimeSLA": {
+              "label": "SLA de disponibilité",
+              "value": "99,99%"
+            },
+            "globalCoverage": {
+              "label": "Couverture mondiale",
+              "value": "Plus de 200 pays"
+            }
+          }
+        },
+        "cta": {
+          "title": "Prêt à moderniser votre système téléphonique?",
+          "subtitle": "Connectez votre infrastructure fixe et mobile avec des agents vocaux IA en quelques minutes",
+          "button": "Planifier un appel d'intégration"
+        }
+      },
+      "endToEndLLMs": {
+        "hero": {
+          "title": "Solutions LLM de bout en bout",
+          "subtitle": "Intégration complète du grand modèle de langage, de l'entrée vocale à la génération de réponses intelligentes. Propulsé par une IA avancée qui comprend le contexte, maintient les conversations et exécute la logique métier.",
+          "cta": "Explorer les capacités LLM"
+        },
+        "features": {
+          "title": "Intégration complète du LLM",
+          "subtitle": "De la compréhension de la parole à la génération de réponses intelligentes",
+          "advancedModels": {
+            "title": "Modèles de langage avancés",
+            "description": "Grands modèles de langage de pointe optimisés pour l'IA conversationnelle et les applications professionnelles.",
+            "gpt4Integration": "Intégration GPT-4",
+            "customFineTuning": "Réglage fin personnalisé",
+            "domainSpecific": "Modèles spécifiques au domaine",
+            "multiModal": "Support multimodal"
+          },
+          "knowledgeIntegration": {
+            "title": "Intégration des connaissances",
+            "description": "Intégrez de manière transparente votre base de connaissances métier à la technologie RAG (Retrieval-Augmented Generation).",
+            "documentIngestion": "Ingestion de documents",
+            "realTimeUpdates": "Mises à jour en temps réel",
+            "semanticSearch": "Recherche sémantique",
+            "contextAwareness": "Conscience du contexte"
+          },
+          "enterpriseSecurity": {
+            "title": "Sécurité d'entreprise",
+            "description": "Sécurité et conformité de niveau entreprise pour les conversations professionnelles sensibles.",
+            "dataEncryption": "Cryptage des données",
+            "accessControls": "Contrôles d'accès",
+            "auditLogging": "Journalisation d'audit",
+            "complianceReady": "Prêt pour la conformité"
+          }
+        },
+        "capabilities": {
+          "title": "Capacités LLM avancées",
+          "subtitle": "Compréhension et génération de langage sophistiquées pour les applications professionnelles",
+          "nlu": {
+            "category": "Compréhension du langage naturel",
+            "description": "Compréhension avancée de l'intention de l'utilisateur, du contexte et de la communication nuancée.",
+            "intentAccuracy": "Précision de l'intention: 98%",
+            "contextRetention": "Rétention du contexte: 95%",
+            "sentimentAnalysis": "Analyse des sentiments: 96%"
+          },
+          "conversationalFlow": {
+            "category": "Flux de conversation",
+            "description": "Maintenez des conversations naturelles et cohérentes sur plusieurs tours et sujets.",
+            "multiTurnCoherence": "Cohérence multi-tours: 94%",
+            "topicSwitching": "Changement de sujet: 92%",
+            "contextPreservation": "Préservation du contexte: 97%"
+          },
+          "businessLogic": {
+            "category": "Intégration de la logique métier",
+            "description": "Exécutez des flux de travail métier complexes et des processus de prise de décision.",
+            "workflowAccuracy": "Précision du flux de travail: 99%",
+            "decisionConsistency": "Cohérence des décisions: 98%",
+            "errorHandling": "Gestion des erreurs: 95%"
+          },
+          "personalization": {
+            "category": "Personnalisation",
+            "description": "Adaptez les réponses en fonction de l'historique de l'utilisateur, de ses préférences et du contexte de l'entreprise.",
+            "personalizationScore": "Score de personnalisation: 93%",
+            "userSatisfaction": "Satisfaction de l'utilisateur: 96%",
+            "engagementRate": "Taux d'engagement: 89%"
+          }
+        },
+        "architecture": {
+          "title": "Architecture de bout en bout",
+          "subtitle": "Pipeline complet de l'entrée vocale à la réponse vocale intelligente",
+          "speechInput": {
+            "title": "Traitement de l'entrée vocale",
+            "description": "Convertissez la parole en texte avec une précision de pointe",
+            "kaldiASR": "ASR basé sur Kaldi",
+            "noiseReduction": "Réduction du bruit",
+            "speakerDiarization": "Diarisation du locuteur"
+          },
+          "llmProcessing": {
+            "title": "Traitement du modèle de langage",
+            "description": "Traitement LLM avancé avec intégration du contexte métier",
+            "gpt4Turbo": "GPT-4 Turbo",
+            "customFineTuning": "Réglage fin personnalisé",
+            "ragIntegration": "Intégration RAG"
+          },
+          "responseGeneration": {
+            "title": "Génération de réponses",
+            "description": "Générez des réponses contextuellement appropriées et alignées sur l'entreprise",
+            "templateSystems": "Systèmes de modèles",
+            "dynamicContent": "Contenu dynamique",
+            "complianceChecking": "Vérification de la conformité"
+          },
+          "speechOutput": {
+            "title": "Synthèse de la sortie vocale",
+            "description": "Convertissez les réponses textuelles en parole au son naturel",
+            "neuralTTS": "TTS neuronal",
+            "voiceCloning": "Clonage de voix",
+            "emotionControl": "Contrôle des émotions"
+          }
+        },
+        "useCases": {
+          "title": "Cas d'utilisation intelligents",
+          "subtitle": "Transformez les opérations commerciales avec des conversations alimentées par l'IA",
+          "customerSupport": {
+            "title": "Support client intelligent",
+            "description": "Gérez les demandes de renseignements complexes des clients avec une compréhension et des capacités de résolution de problèmes de type humain.",
+            "reducedEscalation": "Taux d'escalade réduits",
+            "fasterResolution": "Temps de résolution plus rapides",
+            "consistentQuality": "Qualité de service constante",
+            "availability24x7": "Disponibilité 24/7"
+          },
+          "salesConversations": {
+            "title": "Conversations de vente",
+            "description": "Engagez les prospects avec des conversations de vente personnalisées qui s'adaptent aux besoins et aux préférences des clients.",
+            "higherConversion": "Taux de conversion plus élevés",
+            "personalizedRecommendations": "Recommandations personnalisées",
+            "objectionHandling": "Gestion des objections",
+            "leadQualification": "Qualification des prospects"
+          },
+          "technicalSupport": {
+            "title": "Support technique",
+            "description": "Fournissez une assistance technique de niveau expert avec un accès à des bases de connaissances complètes.",
+            "complexTroubleshooting": "Dépannage complexe",
+            "stepByStepGuidance": "Conseils étape par étape",
+            "documentationAccess": "Accès à la documentation",
+            "escalationIntelligence": "Intelligence d'escalade"
+          },
+          "healthcareAssistance": {
+            "title": "Assistance aux soins de santé",
+            "description": "Soutenez les flux de travail des soins de santé avec une IA conforme à la loi HIPAA qui comprend la terminologie médicale.",
+            "medicalKnowledge": "Base de connaissances médicales",
+            "appointmentScheduling": "Planification de rendez-vous",
+            "symptomAssessment": "Évaluation des symptômes",
+            "careCoordination": "Coordination des soins"
+          }
+        },
+        "performance": {
+          "title": "Performances d'entreprise",
+          "description": "Notre solution LLM de bout en bout offre des performances de niveau entreprise avec un traitement en temps réel, une grande précision et une évolutivité fiable pour les applications métier critiques.",
+          "realTimeTitle": "Traitement en temps réel",
+          "realTimeDesc": "Temps de réponse inférieurs à la seconde pour des conversations naturelles",
+          "securityTitle": "Sécurité d'entreprise",
+          "securityDesc": "Infrastructure conforme SOC 2, HIPAA et PCI",
+          "qualityTitle": "Qualité de la conversation",
+          "qualityDesc": "Interactions de type humain avec conscience du contexte",
+          "metricsTitle": "Mesures de performance",
+          "responseLatency": "Latence de réponse",
+          "responseLatencyValue": "< 500 ms",
+          "intentAccuracy": "Précision de l'intention",
+          "intentAccuracyValue": "98,2%",
+          "contextRetention": "Rétention du contexte",
+          "contextRetentionValue": "95,8%",
+          "uptimeSLA": "SLA de disponibilité",
+          "uptimeSLAValue": "99,99%",
+          "concurrentUsers": "Utilisateurs simultanés",
+          "concurrentUsersValue": "10 000+"
+        },
+        "cta": {
+          "title": "Prêt à déployer des conversations intelligentes?",
+          "subtitle": "Transformez votre entreprise avec des solutions LLM de bout en bout qui comprennent, raisonnent et répondent intelligemment",
+          "scheduleDemoButton": "Planifier une démo LLM",
+          "exploreArchButton": "Explorer l'architecture"
+        }
+      },
+      "lineCallPlus": {
+        "hero": {
+          "title": "LINE Call Plus pour les entreprises",
+          "description": "Transformez votre compte LINE Business avec des appels vocaux alimentés par l'IA. Connectez-vous avec les clients des marchés de l'Asie-Pacifique via leur plateforme de messagerie préférée.",
+          "cta": "Démarrer l'intégration LINE"
+        },
+        "marketReach": {
+          "title": "Atteignez des millions de personnes en Asie-Pacifique",
+          "subtitle": "LINE domine les communications d'entreprise sur les principaux marchés asiatiques",
+          "activeUsers": "Utilisateurs actifs",
+          "marketPenetration": "Pénétration du marché"
+        },
+        "features": {
+          "title": "Fonctionnalités puissantes de LINE Business",
+          "subtitle": "Tout ce dont vous avez besoin pour offrir des expériences vocales exceptionnelles sur LINE",
+          "nativeIntegration": {
+            "title": "Intégration native de LINE",
+            "description": "Intégrez de manière transparente les appels vocaux directement dans la plateforme de messagerie LINE.",
+            "benefit1": "Appels en un clic depuis le chat",
+            "benefit2": "Historique de conversation unifié",
+            "benefit3": "Support de médias riches"
+          },
+          "businessAccount": {
+            "title": "Support de compte professionnel",
+            "description": "Support complet pour les comptes LINE Business avec des fonctionnalités et des analyses avancées.",
+            "benefit1": "Profils d'entreprise vérifiés",
+            "benefit2": "Options de personnalisation de la marque",
+            "benefit3": "Gestion avancée des utilisateurs"
+          },
+          "asiaPacific": {
+            "title": "Focus sur l'Asie-Pacifique",
+            "description": "Optimisé pour les principaux marchés asiatiques où LINE domine les communications d'entreprise.",
+            "benefit1": "Support linguistique local",
+            "benefit2": "Conformité régionale",
+            "benefit3": "Personnalisation culturelle"
+          }
+        },
+        "useCases": {
+          "title": "Transformez les interactions client",
+          "subtitle": "Découvrez comment les entreprises utilisent LINE Call Plus pour améliorer les relations clients",
+          "customerSupport": {
+            "title": "Support client",
+            "description": "Fournissez un support vocal instantané directement dans les conversations LINE.",
+            "metric1": "Résolution 50% plus rapide",
+            "metric2": "Satisfaction client de 90%",
+            "metric3": "Disponibilité 24/7"
+          },
+          "salesConsultations": {
+            "title": "Consultations commerciales",
+            "description": "Convertissez les demandes de renseignements par chat en appels vocaux pour des expériences de vente personnalisées.",
+            "metric1": "Conversion 3 fois plus élevée",
+            "metric2": "Recommandations personnalisées",
+            "metric3": "Création de confiance"
+          },
+          "appointmentBooking": {
+            "title": "Prise de rendez-vous",
+            "description": "Activez la planification de rendez-vous par la voix dans les comptes LINE Business.",
+            "metric1": "Confirmations instantanées",
+            "metric2": "Intégration du calendrier",
+            "metric3": "Rappels automatisés"
+          }
+        },
+        "integration": {
+          "title": "Processus d'intégration simple",
+          "subtitle": "Commencez avec LINE Call Plus en quelques étapes seulement",
+          "steps": {
+            "0": {
+              "title": "Connecter LINE Business",
+              "description": "Liez votre compte LINE Business existant ou créez-en un nouveau avec notre configuration guidée."
+            },
+            "1": {
+              "title": "Configurer les agents vocaux",
+              "description": "Configurez vos agents vocaux IA avec des scripts, des voix et une logique métier personnalisés."
+            },
+            "2": {
+              "title": "Mise en service",
+              "description": "Lancez votre compte LINE Business à commande vocale et commencez à interagir avec les clients."
+            }
+          }
+        },
+        "analytics": {
+          "title": "Analyse complète",
+          "description": "Suivez les performances, comprenez le comportement des clients et optimisez vos interactions vocales LINE avec une analyse et des rapports détaillés.",
+          "callAnalytics": {
+            "title": "Analyse des appels",
+            "description": "Suivez le volume, la durée et les taux de réussite des appels"
+          },
+          "userEngagement": {
+            "title": "Engagement des utilisateurs",
+            "description": "Surveillez les interactions des utilisateurs et les scores de satisfaction"
+          },
+          "platformInsights": {
+            "title": "Informations sur la plateforme",
+            "description": "Mesures et données de performance spécifiques à LINE"
+          },
+          "dashboard": {
+            "title": "Analyse des appels LINE",
+            "live": "En direct",
+            "activeCalls": "Appels actifs",
+            "responseRate": "Taux de réponse",
+            "avgCallDuration": "Durée moyenne des appels",
+            "customerSatisfaction": "Satisfaction client",
+            "sampleResponse": "Agent vocal japonais répondant au client"
+          }
+        },
+        "cta": {
+          "title": "Prêt à vous développer en Asie-Pacifique?",
+          "description": "Connectez-vous avec des millions d'utilisateurs LINE et transformez votre engagement client sur les principaux marchés asiatiques",
+          "button": "Démarrer l'intégration LINE"
+        }
+      },
+      "speechToText": {
+        "hero": {
+          "title": "Technologie de reconnaissance vocale",
+          "subtitle": "Reconnaissance vocale de pointe avec une précision de plus de 99%. Convertissez n'importe quel audio en texte en temps réel avec la prise en charge de plus de 50 langues et de vocabulaires industriels spécialisés.",
+          "cta": "Essayez la reconnaissance vocale"
+        },
+        "features": {
+          "0": {
+            "title": "Traitement en temps réel",
+            "description": "Convertissez la parole en texte en temps réel avec une latence ultra-faible pour les conversations en direct.",
+            "specs": {
+              "0": "Latence < 100 ms",
+              "1": "Reconnaissance en continu",
+              "2": "Transcription en direct"
+            }
+          },
+          "1": {
+            "title": "Support multilingue",
+            "description": "Prise en charge de plus de 50 langues et dialectes avec détection automatique de la langue.",
+            "specs": {
+              "0": "Plus de 50 langues",
+              "1": "Détection automatique",
+              "2": "Accents régionaux"
+            }
+          },
+          "2": {
+            "title": "Précision de l'industrie",
+            "description": "Modèles spécialisés formés pour différentes industries et cas d'utilisation.",
+            "specs": {
+              "0": "Précision de plus de 99%",
+              "1": "Spécifique au domaine",
+              "2": "Vocabulaires personnalisés"
+            }
+          },
+          "title": "Reconnaissance vocale avancée",
+          "subtitle": "Construit sur le framework Kaldi d'origine avec des améliorations modernes de l'apprentissage en profondeur"
+        },
+        "accuracy": {
+          "title": "Précision de pointe",
+          "subtitle": "Modèles spécialisés formés pour différentes industries et cas d'utilisation",
+          "stats": {
+            "0": {
+              "category": "Conversation générale",
+              "accuracy": "99,2%",
+              "improvement": "+15%"
+            },
+            "1": {
+              "category": "Terminologie médicale",
+              "accuracy": "98,8%",
+              "improvement": "+22%"
+            },
+            "2": {
+              "category": "Services financiers",
+              "accuracy": "99,1%",
+              "improvement": "+18%"
+            },
+            "3": {
+              "category": "Support technique",
+              "accuracy": "98,9%",
+              "improvement": "+20%"
+            }
+          },
+          "improvementSuffix": " par rapport à la moyenne de l'industrie"
+        },
+        "languages": {
+          "title": "Support linguistique mondial",
+          "subtitle": "Support complet pour les principales langues du monde avec détection automatique de la langue et reconnaissance de l'accent régional. Nos modèles sont continuellement formés sur des ensembles de données diversifiés pour garantir la précision dans différents styles et environnements de parole.",
+          "features": {
+            "0": {
+              "title": "Plus de 50 langues",
+              "description": "Principales langues du monde et dialectes régionaux"
+            },
+            "1": {
+              "title": "Détection automatique",
+              "description": "Identification et changement de langue automatiques"
+            },
+            "2": {
+              "title": "Apprentissage continu",
+              "description": "Les modèles s'améliorent avec l'utilisation et les commentaires"
+            }
+          },
+          "supportedTitle": "Langues prises en charge",
+          "supportedLanguages": {
+            "0": "Anglais (États-Unis, Royaume-Uni, UA)",
+            "1": "Espagnol (ES, MX, AR)",
+            "2": "Français (FR, CA)",
+            "3": "Allemand",
+            "4": "Italien",
+            "5": "Portugais (BR, PT)",
+            "6": "Japonais",
+            "7": "Coréen",
+            "8": "Chinois mandarin",
+            "9": "Cantonais",
+            "10": "Hindi",
+            "11": "Arabe",
+            "12": "Russe",
+            "13": "Néerlandais",
+            "14": "Suédois",
+            "15": "Norvégien"
+          },
+          "customNote": "Modèles linguistiques personnalisés disponibles pour les vocabulaires spécialisés et la terminologie spécifique à l'industrie"
+        },
+        "useCases": {
+          "0": {
+            "title": "Transcription de centre d'appels",
+            "description": "Transcription en temps réel des appels du service client pour l'assurance qualité et la formation.",
+            "benefits": {
+              "0": "Surveillance de la qualité",
+              "1": "Enregistrement de la conformité",
+              "2": "Formation des agents",
+              "3": "Informations sur les clients"
+            }
+          },
+          "1": {
+            "title": "Documentation de réunion",
+            "description": "Transcription automatique des réunions, des conférences et des discussions professionnelles.",
+            "benefits": {
+              "0": "Procès-verbaux de réunion",
+              "1": "Extraction des points d'action",
+              "2": "Archives consultables",
+              "3": "ID multi-locuteurs"
+            }
+          },
+          "2": {
+            "title": "Commandes vocales",
+            "description": "Convertissez les commandes vocales en texte pour les applications et les interfaces à commande vocale.",
+            "benefits": {
+              "0": "Fonctionnement mains libres",
+              "1": "Fonctionnalités d'accessibilité",
+              "2": "Contrôle de la maison intelligente",
+              "3": "Applications mobiles"
+            }
+          },
+          "3": {
+            "title": "Création de contenu",
+            "description": "Transformez le contenu audio en texte pour les podcasts, les vidéos et la production multimédia.",
+            "benefits": {
+              "0": "Génération de sous-titres",
+              "1": "Indexation du contenu",
+              "2": "Optimisation du référencement",
+              "3": "Conformité en matière d'accessibilité"
+            }
+          },
+          "title": "Cas d'utilisation puissants",
+          "subtitle": "Transformez l'audio en texte exploitable dans tous les secteurs et toutes les applications"
+        },
+        "specs": {
+          "title": "Spécifications techniques",
+          "subtitle": "Performances et fiabilité de niveau entreprise",
+          "performance": {
+            "title": "Performance",
+            "latency": {
+              "label": "Latence",
+              "value": "< 100 ms"
+            },
+            "accuracy": {
+              "label": "Précision",
+              "value": "99%+"
+            },
+            "throughput": {
+              "label": "Débit",
+              "value": "Plus de 1000 simultanés"
+            },
+            "uptime": {
+              "label": "Disponibilité",
+              "value": "99,99%"
+            }
+          },
+          "audioFormats": {
+            "title": "Formats audio",
+            "sampleRate": {
+              "label": "Taux d'échantillonnage",
+              "value": "8-48 kHz"
+            },
+            "bitDepth": {
+              "label": "Profondeur de bits",
+              "value": "16-32 bits"
+            },
+            "formats": {
+              "label": "Formats",
+              "value": "WAV, MP3, FLAC"
+            },
+            "streaming": {
+              "label": "Streaming",
+              "value": "Temps réel"
+            }
+          },
+          "integration": {
+            "title": "Intégration",
+            "api": {
+              "label": "API",
+              "value": "REST & WebSocket"
+            },
+            "sdks": {
+              "label": "SDK",
+              "value": "Python, Node.js, Go"
+            },
+            "webhooks": {
+              "label": "Webhooks",
+              "value": "Événements en temps réel"
+            },
+            "security": {
+              "label": "Sécurité",
+              "value": "TLS 1.3, OAuth 2.0"
+            }
+          }
+        },
+        "cta": {
+          "title": "Prêt à transformer l'audio en texte?",
+          "subtitle": "Découvrez la puissance de la technologie de reconnaissance vocale de pointe",
+          "primaryButton": "Essayez la démo gratuite",
+          "secondaryButton": "Voir la documentation de l'API"
+        }
+      },
+      "voipSipByoc": {
+        "hero": {
+          "title": "Solutions vocales VoIP, SIP et BYOC",
+          "subtitle": "Connectivité vocale de niveau entreprise avec une flexibilité maximale. Choisissez parmi l'intégration VoIP, la liaison SIP directe ou apportez votre propre opérateur pour un contrôle total.",
+          "cta": "Parler à un spécialiste de la connectivité"
+        },
+        "connectionTypes": {
+          "title": "Options de connectivité flexibles",
+          "subtitle": "Choisissez la méthode de connexion qui correspond le mieux à votre infrastructure et à vos exigences",
+          "keyFeatures": "Caractéristiques principales:",
+          "voip": {
+            "title": "Intégration VoIP",
+            "description": "Connectez de manière transparente votre infrastructure VoIP existante à notre plateforme vocale IA.",
+            "features": {
+              "sipTrunk": "Compatibilité de la liaison SIP",
+              "codecOptimization": "Optimisation du codec",
+              "qos": "Qualité de service (QoS)",
+              "bandwidthManagement": "Gestion de la bande passante"
+            },
+            "pricing": "À partir de 0,08 $/minute"
+          },
+          "sip": {
+            "title": "Liaison SIP",
+            "description": "Connectivité SIP directe pour un contrôle et une personnalisation maximum de votre trafic vocal.",
+            "features": {
+              "directEndpoints": "Points de terminaison SIP directs",
+              "customRouting": "Règles de routage personnalisées",
+              "failoverProtection": "Protection contre les pannes",
+              "realTimeMonitoring": "Surveillance en temps réel"
+            },
+            "pricing": "À partir de 0,06 $/minute"
+          },
+          "byoc": {
+            "title": "Apportez votre propre opérateur (BYOC)",
+            "description": "Utilisez vos opérateurs préférés tout en tirant parti de nos capacités vocales IA.",
+            "features": {
+              "carrierIndependence": "Indépendance de l'opérateur",
+              "costOptimization": "Optimisation des coûts",
+              "globalReach": "Portée mondiale",
+              "vendorFlexibility": "Flexibilité du fournisseur"
+            },
+            "pricing": "Frais de plateforme + tarifs de l'opérateur"
+          }
+        },
+        "benefits": {
+          "title": "Avantages pour l'entreprise",
+          "subtitle": "Pourquoi les grandes entreprises choisissent nos solutions de connectivité vocale",
+          "costSavings": {
+            "title": "Économies de coûts",
+            "description": "Réduisez les coûts de communication jusqu'à 60% avec un routage et une sélection d'opérateurs optimisés.",
+            "metric": "60%"
+          },
+          "reliability": {
+            "title": "Fiabilité",
+            "description": "Disponibilité de niveau entreprise avec basculement automatique et infrastructure redondante.",
+            "metric": "99,99%"
+          },
+          "scalability": {
+            "title": "Évolutivité",
+            "description": "Gérez des milliers d'appels simultanés avec des capacités de mise à l'échelle élastiques.",
+            "metric": "10 000+"
+          },
+          "globalReach": {
+            "title": "Portée mondiale",
+            "description": "Connectez-vous à des clients du monde entier avec une présence locale sur les principaux marchés.",
+            "metric": "200+"
+          }
+        },
+        "technicalExcellence": {
+          "title": "Excellence technique",
+          "subtitle": "Construit sur des protocoles standard de l'industrie avec une sécurité et des performances de niveau entreprise. Notre plateforme prend en charge tous les principaux codecs et fournit une surveillance de la qualité en temps réel.",
+          "endToEndEncryption": {
+            "title": "Cryptage de bout en bout",
+            "description": "TLS 1.3 et SRTP pour une transmission vocale sécurisée"
+          },
+          "lowLatency": {
+            "title": "Faible latence",
+            "description": "Latence inférieure à 150 ms pour des conversations cristallines"
+          },
+          "advancedConfiguration": {
+            "title": "Configuration avancée",
+            "description": "Contrôle granulaire des paramètres de routage et de qualité"
+          }
+        },
+        "technicalSpecs": {
+          "title": "Spécifications techniques",
+          "supportedProtocols": {
+            "feature": "Protocoles pris en charge",
+            "value": "SIP 2.0, RTP, SRTP"
+          },
+          "audioCodecs": {
+            "feature": "Codecs audio",
+            "value": "G.711, G.722, G.729, Opus"
+          },
+          "encryption": {
+            "feature": "Cryptage",
+            "value": "TLS 1.3, SRTP, AES-256"
+          },
+          "networkRequirements": {
+            "feature": "Exigences réseau",
+            "value": "100 kbps par appel simultané"
+          },
+          "latency": {
+            "feature": "Latence",
+            "value": "< 150 ms de bout en bout"
+          },
+          "jitterBuffer": {
+            "feature": "Tampon de gigue",
+            "value": "Adaptatif, 20-200 ms"
+          }
+        },
+        "howItWorks": {
+          "title": "Comment ça marche",
+          "subtitle": "Intégration simple avec votre infrastructure existante",
+          "yourInfrastructure": {
+            "title": "Votre infrastructure",
+            "description": "PBX, système VoIP ou opérateur existant"
+          },
+          "seavoicePlatform": {
+            "title": "Plateforme SeaVoice",
+            "description": "Traitement et routage vocal par IA"
+          },
+          "globalNetwork": {
+            "title": "Réseau mondial",
+            "description": "Connexions d'opérateurs dans le monde entier"
+          }
+        },
+        "cta": {
+          "title": "Prêt à optimiser votre infrastructure vocale?",
+          "subtitle": "Parlez à nos spécialistes de la connectivité pour concevoir la solution parfaite pour vos besoins",
+          "scheduleConsultation": "Planifier une consultation",
+          "signUpForFree": "Inscrivez-vous gratuitement"
+        }
+      },
+      "whatsAppVoice": {
+        "hero": {
+          "title": "API vocale WhatsApp pour les entreprises",
+          "subtitle": "Transformez votre compte WhatsApp Business avec des appels vocaux alimentés par l'IA. Atteignez plus de 2 milliards d'utilisateurs dans le monde avec des interactions vocales transparentes.",
+          "cta": "Obtenir l'API de la plateforme WhatsApp Business"
+        },
+        "globalStats": {
+          "title": "Atteignez la plus grande plateforme de messagerie au monde",
+          "subtitle": "WhatsApp domine la messagerie mondiale avec une portée et un engagement sans précédent",
+          "stats": {
+            "0": {
+              "region": "Utilisateurs mondiaux",
+              "count": "2,78 G+",
+              "growth": "+3,2% en glissement annuel"
+            },
+            "1": {
+              "region": "Comptes professionnels",
+              "count": "200 M+",
+              "growth": "+15% en glissement annuel"
+            },
+            "2": {
+              "region": "Messages quotidiens",
+              "count": "100 G+",
+              "growth": "+8% en glissement annuel"
+            },
+            "3": {
+              "region": "Pays",
+              "count": "180+",
+              "growth": "Couverture complète"
+            }
+          }
+        },
+        "features": {
+          "0": {
+            "title": "API de la plateforme WhatsApp Business",
+            "description": "Intégration officielle avec l'API de la plateforme WhatsApp Business pour des communications professionnelles vérifiées.",
+            "benefits": {
+              "0": "Vérification par coche verte",
+              "1": "Fonctionnalités du profil professionnel",
+              "2": "Modèles de messages"
+            }
+          },
+          "1": {
+            "title": "Portée mondiale",
+            "description": "Connectez-vous avec plus de 2 milliards d'utilisateurs de WhatsApp dans le monde via des appels vocaux.",
+            "benefits": {
+              "0": "Plus de 180 pays pris en charge",
+              "1": "Capacités multilingues",
+              "2": "Présence de numéros locaux"
+            }
+          },
+          "2": {
+            "title": "Sécurité de bout en bout",
+            "description": "Tirez parti du cryptage de bout en bout de WhatsApp pour des communications professionnelles sécurisées.",
+            "benefits": {
+              "0": "Cryptage des messages",
+              "1": "Appels vocaux sécurisés",
+              "2": "Conformité en matière de confidentialité"
+            }
+          },
+          "title": "Fonctionnalités vocales de WhatsApp Business pour l'entreprise",
+          "subtitle": "Tout ce dont vous avez besoin pour offrir des expériences vocales exceptionnelles sur WhatsApp"
+        },
+        "useCases": {
+          "0": {
+            "title": "Support client",
+            "description": "Fournissez un support vocal instantané directement dans les conversations WhatsApp.",
+            "metrics": {
+              "0": "Résolution 50% plus rapide",
+              "1": "Satisfaction client de 90%",
+              "2": "Disponibilité 24/7"
+            }
+          },
+          "1": {
+            "title": "Ventes et consultations",
+            "description": "Convertissez les demandes de renseignements par chat en appels vocaux pour des expériences de vente personnalisées.",
+            "metrics": {
+              "0": "Conversion 3 fois plus élevée",
+              "1": "Touche personnelle",
+              "2": "Création de confiance"
+            }
+          },
+          "2": {
+            "title": "Prise de rendez-vous",
+            "description": "Activez la planification de rendez-vous par la voix dans les comptes WhatsApp Business.",
+            "metrics": {
+              "0": "Confirmations instantanées",
+              "1": "Intégration du calendrier",
+              "2": "Rappels automatisés"
+            }
+          },
+          "3": {
+            "title": "Gestion des commandes",
+            "description": "Gérez les demandes de renseignements, les mises à jour et le support des commandes via des interactions vocales.",
+            "metrics": {
+              "0": "Mises à jour en temps réel",
+              "1": "Suivi des commandes",
+              "2": "Résolution des problèmes"
+            }
+          },
+          "title": "Transformez les interactions client",
+          "subtitle": "Découvrez comment les entreprises utilisent l'API vocale de WhatsApp pour améliorer les relations clients"
+        },
+        "integration": {
+          "title": "Processus d'intégration simple",
+          "subtitle": "Commencez avec l'API vocale de WhatsApp en quelques étapes seulement",
+          "steps": {
+            "0": {
+              "title": "Configuration de WhatsApp Business",
+              "description": "Connectez votre compte WhatsApp Business existant ou créez-en un nouveau avec notre configuration guidée."
+            },
+            "1": {
+              "title": "Configuration de l'agent vocal",
+              "description": "Configurez vos agents vocaux IA avec des scripts, des voix et une logique métier personnalisés."
+            },
+            "2": {
+              "title": "Intégration de l'API",
+              "description": "Intégrez-vous à vos systèmes existants à l'aide de notre API complète et de nos webhooks."
+            },
+            "3": {
+              "title": "Mise en service",
+              "description": "Lancez votre compte WhatsApp Business à commande vocale et commencez à interagir avec les clients."
+            }
+          }
+        },
+        "demo": {
+          "title": "Voyez-le en action",
+          "subtitle": "Découvrez à quel point les appels vocaux s'intègrent de manière transparente à la plateforme WhatsApp Business. Nos agents IA peuvent gérer des conversations complexes tout en conservant l'expérience WhatsApp familière que vos clients adorent.",
+          "features": {
+            "0": {
+              "title": "Appels en un clic",
+              "description": "Les clients peuvent lancer des appels vocaux directement depuis le chat"
+            },
+            "1": {
+              "title": "Transfert transparent",
+              "description": "Transition en douceur entre les agents IA et humains"
+            },
+            "2": {
+              "title": "Historique unifié",
+              "description": "Historique complet des conversations sur le chat et la voix"
+            }
+          },
+          "dashboard": {
+            "title": "Tableau de bord de WhatsApp Business",
+            "liveStatus": "En direct",
+            "stats": {
+              "activeVoiceCalls": {
+                "label": "Appels vocaux actifs",
+                "value": "89"
+              },
+              "messagesToday": {
+                "label": "Messages aujourd'hui",
+                "value": "2 847"
+              },
+              "responseRate": {
+                "label": "Taux de réponse",
+                "value": "96%"
+              },
+              "customerSatisfaction": {
+                "label": "Satisfaction client",
+                "value": "4,9/5"
+              }
+            }
+          },
+          "aiAssistant": {
+            "name": "Assistant IA",
+            "message": "Bonjour! Je suis là pour vous aider avec votre commande. Souhaitez-vous me parler directement? Appuyez simplement sur le bouton d'appel ci-dessus!"
+          }
+        },
+        "cta": {
+          "title": "Prêt à transformer WhatsApp Business?",
+          "subtitle": "Rejoignez des milliers d'entreprises qui utilisent déjà l'API vocale de WhatsApp pour offrir des expériences client exceptionnelles",
+          "primaryButton": "Commencez dès aujourd'hui",
+          "secondaryButton": "Planifier une démo"
+        }
+      }
+    },
+    "components": {
+      "interactiveCallDashboard": {
+        "liveDashboard": "Tableau de bord en direct",
+        "controlCenter": "Centre de contrôle",
+        "realTimeAnalytics": "Analyse en temps réel",
+        "description": "Regardez notre plateforme vocale IA gérer des milliers d'appels simultanés avec des conversations de type humain et une analyse en temps réel.",
+        "bookDemo": "Réserver une démo",
+        "controlCenterTitle": "Centre de contrôle SeaVoice",
+        "live": "En direct",
+        "activeCalls": "Appels actifs",
+        "avgQueueTime": "Temps d'attente moyen",
+        "resolutionRate": "Taux de résolution",
+        "availability": "Disponibilité",
+        "globalCallActivity": "Activité d'appel mondiale",
+        "recentConversations": "Conversations récentes",
+        "customerInquiryResolved": "Demande du client résolue",
+        "appointmentScheduled": "Rendez-vous programmé",
+        "paymentProcessed": "Paiement traité",
+        "supportTicketCreated": "Ticket de support créé",
+        "justNow": "À l'instant",
+        "concurrentCalls": "Appels simultanés",
+        "uptime": "Disponibilité",
+        "conversations": {
+          "appointmentRequest": "Bonjour, j'aimerais prendre rendez-vous",
+          "techCorpGreeting": "Merci d'avoir appelé le support de TechCorp...",
+          "orderTracking": "Pouvez-vous m'aider à suivre ma commande?",
+          "availabilityResponse": "Je suis disponible mardi à 14h"
+        }
+      },
+      "voiceDemo": {
+        "demos": {
+          "restaurant": {
+            "title": "Réservation de restaurant",
+            "description": "L'IA gère les réservations de table, les vérifications de disponibilité et les demandes spéciales"
+          },
+          "insurance": {
+            "title": "Appel de vérification d'assurance",
+            "description": "Vérification automatisée de l'assurance et traitement des réclamations"
+          },
+          "techSupport": {
+            "title": "Support technique",
+            "description": "Dépannage technique et automatisation du support client"
+          },
+          "salesLead": {
+            "title": "Qualification de prospect commercial",
+            "description": "Qualification intelligente des prospects et gestion de l'entonnoir de vente"
+          },
+          "realEstate": {
+            "title": "Gestion des demandes immobilières",
+            "description": "Demandes de renseignements sur les propriétés, planification des visites et gestion des clients"
+          },
+          "donation": {
+            "title": "Sensibilisation à la campagne de dons",
+            "description": "Campagnes de collecte de fonds et automatisation de l'engagement des donateurs"
+          }
+        },
+        "seekTooltip": "Cliquez pour rechercher"
+      }
+    }
+  }
+}
