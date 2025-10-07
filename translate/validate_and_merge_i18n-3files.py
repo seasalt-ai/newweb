@@ -219,7 +219,7 @@ def main():
     
     # Define paths
     project_root = Path(__file__).parent.parent
-    i18n_path = project_root / 'src' / 'i18n' / 'locales'
+    i18n_path = Path(args.i18n_dir).resolve()
     
     print(f"Processing language: {lang}")
     print(f"Base i18n path: {i18n_path}")
