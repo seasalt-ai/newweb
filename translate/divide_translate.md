@@ -18,7 +18,7 @@ cd translate/
 python split_json.py en
 
 # 或指定每个文件的最大行数
-python split_json.py en 1500
+python split_json.py en --max-lines 1500
 ```
 
 📁 **脚本行为说明：**
