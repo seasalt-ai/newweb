@@ -27,12 +27,11 @@ The script will:
 """
 
 import json
-import os
 import sys
 import argparse
 import copy
 from pathlib import Path
-from typing import Dict, Any, List, Tuple
+from typing import Dict, Any, List
 
 
 def count_json_lines(data: Dict[Any, Any]) -> int:
