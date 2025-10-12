@@ -62,18 +62,18 @@ sync_files_incrementally() {
     # Create temp directory for analysis
     mkdir -p "$TEMP_DIFF_DIR"
     
-    # Use rsync to analyze changes without actually copying
+    # Use rsync with --itemize-changes for robust change detection
     local rsync_output="$TEMP_DIFF_DIR/rsync-changes.log"
     
-    # Run rsync in dry-run mode to see what would change
-    rsync -avh --delete --dry-run \
+    # Run rsync in dry-run mode with itemized changes to get structured output
+    rsync -avh --delete --dry-run --itemize-changes \
         --exclude='.git' \
         --exclude='deployment-info.txt' \
         --exclude='CNAME' \
         --exclude='.nojekyll' \
         "$source_dir/" "$target_dir/" > "$rsync_output" 2>&1 || true
     
-    # Parse rsync output to categorize changes
+    # Parse rsync itemized output to categorize changes
     local added_files=()
     local modified_files=()
     local deleted_files=()
@@ -81,19 +81,62 @@ sync_files_incrementally() {
     # Count different types of changes
     local total_changes=0
     
-    # Parse rsync dry-run output
+    # Parse rsync itemized output - much more reliable than string matching
+    # Format: XYZcdefghijkl filename
+    # Where X = file type, Y = checksum, Z = size, etc.
+    # Key patterns:
+    #   *deleting   = file deletion
+    #   >f+++++++++ = new file (all + means new)
+    #   >f.st...... = modified file (. means unchanged, letters mean changed)
+    #   cd+++++++++ = new directory
     while IFS= read -r line; do
-        if [[ "$line" =~ ^deleting ]]; then
-            deleted_files+=("${line#deleting }")
-            ((total_changes++))
-        elif [[ "$line" =~ ^[^d].*[^/]$ ]] && [[ ! "$line" =~ ^(sent|total|receiving|created) ]]; then
-            # This is a file (not directory, not summary line)
-            if [[ -f "$target_dir/$line" ]]; then
-                modified_files+=("$line")
-            else
-                added_files+=("$line")
-            fi
-            ((total_changes++))
+        # Skip empty lines and summary lines
+        [[ -z "$line" ]] && continue
+        [[ "$line" =~ ^(sent|total|receiving|created|delta-transmission) ]] && continue
+        
+        # Extract the itemize code (first 11 characters) and filename
+        if [[ ${#line} -gt 11 ]]; then
+            local itemize_code="${line:0:11}"
+            local filename="${line:12}"
+            
+            # Skip directories (they don't count as content changes)
+            [[ "$filename" =~ /$ ]] && continue
+            
+            # Parse the itemize code for reliable change detection
+            case "$itemize_code" in
+                "*deleting "*)
+                    # File deletion - starts with *deleting
+                    deleted_files+=("$filename")
+                    ((total_changes++))
+                    ;;
+                ">f+++++++++")
+                    # New file - >f followed by all + symbols (means completely new)
+                    added_files+=("$filename")
+                    ((total_changes++))
+                    ;;
+                ">f"*)
+                    # Modified file - >f followed by change indicators
+                    # Position meanings: >fYcstpoguax where:
+                    #   Y = type (f=file), c = checksum, s = size, t = timestamp, 
+                    #   p = permissions, o = owner, g = group, u = unknown, a = ACL, x = extended
+                    # Any non-dot character after >f indicates a modification
+                    if [[ "$itemize_code" =~ \>f.*[^.] ]]; then
+                        modified_files+=("$filename")
+                        ((total_changes++))
+                    fi
+                    ;;
+                "cd+++++++++")
+                    # New directory - ignore for counting purposes (directories don't count as content changes)
+                    ;;
+                ".d"*)
+                    # Directory with only timestamp/permission changes - ignore for counting
+                    ;;
+                *) 
+                    # Unknown pattern - for debugging purposes, could log this
+                    # Uncomment the next line if you want to debug unknown patterns:
+                    # echo "DEBUG: Unknown rsync itemize pattern: '$itemize_code' for file: '$filename'" >&2
+                    ;;
+            esac
         fi
     done < "$rsync_output"
     
@@ -146,6 +189,8 @@ sync_files_incrementally() {
     # Actually perform the sync
     print_info "Syncing $total_changes changed files..."
     
+    # Use the same rsync options as the dry-run for consistency
+    # Note: We don't need --itemize-changes for the actual sync, just for analysis
     if rsync -avh --delete \
         --exclude='.git' \
         --exclude='deployment-info.txt' \
