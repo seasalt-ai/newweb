@@ -43,6 +43,7 @@ const channels = [
   { title: t('header.channelsDropdown.facebookMessenger'), path: '/channels/facebook-messenger', icon: 'Facebook' },
   { title: t('header.channelsDropdown.contactForms'), path: '/channels/contact-forms', icon: 'Mail' },
   { title: t('header.channelsDropdown.line'), path: '/channels/line', icon: 'MessageSquare' },
+  { title: 'Line Call Plus', path: '/channels/line-call-plus', icon: 'MessageSquare', isLineCallPlus: true },
   { title: t('header.channelsDropdown.websiteWidget'), path: '/channels/website-widget', icon: 'Monitor' }
 ];
 
@@ -70,7 +71,8 @@ const channelLogoMap: Record<string, { url: string; alt: string }> = {
   '/channels/whatsapp': { url: 'https://cdn.simpleicons.org/whatsapp/25D366', alt: 'WhatsApp' },
   '/channels/instagram': { url: 'https://cdn.simpleicons.org/instagram/E4405F', alt: 'Instagram' },
   '/channels/facebook-messenger': { url: 'https://cdn.simpleicons.org/messenger/00B2FF', alt: 'Facebook Messenger' },
-  '/channels/line': { url: 'https://cdn.simpleicons.org/line/00C300', alt: 'LINE' }
+  '/channels/line': { url: 'https://cdn.simpleicons.org/line/00C300', alt: 'LINE' },
+  '/channels/line-call-plus': { url: 'https://cdn.simpleicons.org/line/00C300', alt: 'LINE Call Plus' }
 };
 
 // Emoji mapping for non-brand channels
@@ -304,9 +306,22 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
 {channels.map((channel) => {
               const brand = channelLogoMap[channel.path];
               const emoji = nonBrandEmoji[channel.path];
+              
+              // Handle language-specific URLs for LINE Call Plus
+              let channelUrl;
+              if (channel.isLineCallPlus) {
+                if (lang === 'zh-TW' || lang === 'zh-CN') {
+                  channelUrl = `/zh-TW/channels/line-call-plus`;
+                } else {
+                  channelUrl = `/${lang}/seavoice/platform/line-call-plus`;
+                }
+              } else {
+                channelUrl = `/${lang}${channel.path}`;
+              }
+              
               return (
                 <a 
-                  href={`/${lang}${channel.path}`}
+                  href={channelUrl}
                   class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                 >
                   {brand ? (

@@ -30,6 +30,7 @@
       "facebookMessenger": "페이스 북 메신저",
       "contactForms": "연락 양식",
       "line": "선",
+      "lineCallPlus": "LINE Call Plus",
       "websiteWidget": "웹 사이트 위젯"
     },
     "comparisonsDropdown": {
@@ -10091,8 +10092,14 @@
             "3": "다국어 지원"
           }
         },
+        "demo": {
+          "title": "LINE Call Plus 실제 동작 보기",
+          "subtitle": "기업들이 LINE Call Plus를 사용하여 고객 상호작용을 향상시키는 방법을 확인하세요",
+          "videoTitle": "LINE Call Plus 데모",
+          "videoDescription": "AI 기반 음성 통화를 LINE 비즈니스 계정에 통합하는 방법을 알아보세요"
+        },
         "analytics": {
-          "title": "실시간 분석",
+          "title": "종합 분석",
           "description": "포괄적인 라이브 대시보드로 대규모 오픈, 회신 및 전환을 추적합니다.",
           "metrics": {
             "value": "99.9%",
