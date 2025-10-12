@@ -240,6 +240,9 @@ function generateAllRoutes() {
     allRoutes.push(route);
   });
 
+  // Add special zh-TW LINE Call Plus route (Taiwan-specific landing page)
+  allRoutes.push('/zh-TW/channels/line-call-plus');
+
   console.log(`📄 Generated ${allRoutes.length} total routes`);
   console.log(`🌐 Base routes: ${baseRoutes.length} × ${SUPPORTED_LANGUAGES.length} languages = ${baseRoutes.length * SUPPORTED_LANGUAGES.length}`);
   console.log(`📚 Blog routes: ${blogRoutes.length}`);
