@@ -52,6 +52,9 @@ REQUIRED_BRANCH="main"                                   # Must deploy from this
 CHANGES_LOG="$HOME/.deployment-cache/last-deployment-changes.log"
 TEMP_DIFF_DIR="$HOME/.deployment-cache/temp-diff"
 
+# Ensure temp directory is cleaned up on exit
+trap 'rm -rf "$TEMP_DIFF_DIR"' EXIT
+
 # Function to compare and sync files incrementally
 sync_files_incrementally() {
     local source_dir="$1"
