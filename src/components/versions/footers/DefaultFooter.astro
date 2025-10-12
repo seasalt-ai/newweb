@@ -286,7 +286,7 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
                 <span aria-hidden="true">📞</span>
               </a>
               <a href={`/${lang}/channels/sms`} class="text-purple-600 hover:text-purple-500 transition-colors duration-200 flex justify-center">
-                <span aria-hidden="true">💬</span>
+                <span aria-hidden="true">📱</span>
               </a>
               <a href={`/${lang}/channels/website-chat`} class="text-indigo-600 hover:text-indigo-500 transition-colors duration-200 flex justify-center">
                 <span aria-hidden="true">💬</span>
@@ -302,6 +302,9 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
               </a>
               <a href={`/${lang}/channels/line`} class="text-green-500 hover:text-green-400 transition-colors duration-200 flex justify-center">
                 <img src="https://cdn.simpleicons.org/line/ffffff" alt="LINE" class="h-5 w-5" />
+              </a>
+              <a href={lang === 'zh-TW' || lang === 'zh-CN' ? '/zh-TW/channels/line-call-plus' : `/${lang}/seavoice/platform/line-call-plus`} class="text-green-500 hover:text-green-400 transition-colors duration-200 flex justify-center">
+                <img src="https://cdn.simpleicons.org/line/ffffff" alt="Line Call Plus" class="h-5 w-5" />
               </a>
               <a href={`/${lang}/channels/website-widget`} class="text-orange-600 hover:text-orange-500 transition-colors duration-200 flex justify-center">
                 <span aria-hidden="true">🧩</span>
