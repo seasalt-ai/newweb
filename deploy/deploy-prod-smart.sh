@@ -107,21 +107,80 @@ analyze_build_changes() {
         fi
     fi
     
-    # Sample a few key HTML files to see if content changed
-    local sample_html_changes=0
-    for html_file in index.html en/index.html zh-TW/index.html; do
-        if [[ -f "$source_dir/$html_file" && -f "$target_dir/$html_file" ]]; then
-            # Remove script src references (which change due to hashing) and compare content
-            sed 's/src="[^"]*_astro\/[^"]*\.js"/src="SCRIPT_PLACEHOLDER"/g' "$source_dir/$html_file" > "$temp_dir/source_$html_file.clean"
-            sed 's/src="[^"]*_astro\/[^"]*\.js"/src="SCRIPT_PLACEHOLDER"/g' "$target_dir/$html_file" > "$temp_dir/target_$html_file.clean"
-            
-            if ! cmp -s "$temp_dir/source_$html_file.clean" "$temp_dir/target_$html_file.clean"; then
-                echo "  ✏️  Content changed in $html_file"
-                ((sample_html_changes++))
-                ((content_changes++))
-            fi
+    # Comprehensive HTML content analysis
+    print_info "🔍 Analyzing HTML content changes comprehensively..."
+    local html_changes=0
+    
+    # Create lists of all HTML files in both directories
+    find "$source_dir" -name "*.html" -type f | sed "s|^$source_dir/||" | sort > "$temp_dir/source_html_list.txt"
+    find "$target_dir" -name "*.html" -type f | sed "s|^$target_dir/||" | sort > "$temp_dir/target_html_list.txt"
+    
+    # Find added HTML files
+    local added_html=$(comm -23 "$temp_dir/source_html_list.txt" "$temp_dir/target_html_list.txt")
+    if [[ -n "$added_html" ]]; then
+        local added_count=$(echo "$added_html" | wc -l)
+        echo "  📁 New HTML pages: $added_count"
+        echo "$added_html" | head -5 | sed 's/^/    + /'
+        [[ $added_count -gt 5 ]] && echo "    ... and $((added_count - 5)) more"
+        ((content_changes += added_count))
+    fi
+    
+    # Find deleted HTML files
+    local deleted_html=$(comm -13 "$temp_dir/source_html_list.txt" "$temp_dir/target_html_list.txt")
+    if [[ -n "$deleted_html" ]]; then
+        local deleted_count=$(echo "$deleted_html" | wc -l)
+        echo "  🗑️  Deleted HTML pages: $deleted_count"
+        echo "$deleted_html" | head -5 | sed 's/^/    - /'
+        [[ $deleted_count -gt 5 ]] && echo "    ... and $((deleted_count - 5)) more"
+        ((content_changes += deleted_count))
+    fi
+    
+    # Find common HTML files and check for content changes
+    local common_html=$(comm -12 "$temp_dir/source_html_list.txt" "$temp_dir/target_html_list.txt")
+    local modified_html_count=0
+    local sample_limit=10
+    local checked_count=0
+    
+    echo "  🔍 Checking existing HTML pages for content changes..."
+    while IFS= read -r html_file && [[ $checked_count -lt $sample_limit ]]; do
+        [[ -z "$html_file" ]] && continue
+        
+        # Create directory structure for clean files
+        local clean_source_file="$temp_dir/source_$(echo "$html_file" | tr '/' '_').clean"
+        local clean_target_file="$temp_dir/target_$(echo "$html_file" | tr '/' '_').clean"
+        
+        # Remove script src references (which change due to hashing) and compare content
+        sed 's/src="[^"]*_astro\/[^"]*\.js"/src="SCRIPT_PLACEHOLDER"/g' "$source_dir/$html_file" > "$clean_source_file"
+        sed 's/src="[^"]*_astro\/[^"]*\.js"/src="SCRIPT_PLACEHOLDER"/g' "$target_dir/$html_file" > "$clean_target_file"
+        
+        if ! cmp -s "$clean_source_file" "$clean_target_file"; then
+            echo "    ✏️  $html_file"
+            ((modified_html_count++))
+        fi
+        
+        ((checked_count++))
+    done <<< "$common_html"
+    
+    if [[ $modified_html_count -gt 0 ]]; then
+        echo "  📝 Modified HTML pages: $modified_html_count (sampled $checked_count files)"
+        ((content_changes += modified_html_count))
+    fi
+    
+    # Quick check for other content files (CSS, images, etc.)
+    local other_content_changes=0
+    for ext in css png jpg jpeg gif svg ico; do
+        local source_count=$(find "$source_dir" -name "*.$ext" -type f | wc -l)
+        local target_count=$(find "$target_dir" -name "*.$ext" -type f -not -path '*/.git/*' | wc -l)
+        if [[ $source_count -ne $target_count ]]; then
+            echo "  ✏️  $ext files count changed: $target_count → $source_count"
+            ((other_content_changes++))
         fi
     done
+    
+    if [[ $other_content_changes -gt 0 ]]; then
+        echo "  📸 Other content files changed: $other_content_changes types"
+        ((content_changes += other_content_changes))
+    fi
     
     # Step 4: Make smart decision
     echo ""
@@ -212,12 +271,13 @@ main() {
     # Skip branch check - allow deployment from any branch for flexibility
     check_clean_working_tree
     
-    # Build the project
-    build_project
+    # Build the project (DISABLED FOR TESTING)
+    print_info "⚠️  Build step DISABLED for testing - using existing dist/ folder"
+    # build_project
     
-    # Run SEO updates
-    print_info "Updating SEO files..."
-    npm run seo-update || print_warning "SEO update failed, continuing anyway"
+    # Run SEO updates (DISABLED FOR TESTING)
+    print_info "⚠️  SEO update DISABLED for testing"
+    # npm run seo-update || print_warning "SEO update failed, continuing anyway"
     
     verify_build_dir "$BUILD_DIR"
     get_build_info "$BUILD_DIR"
