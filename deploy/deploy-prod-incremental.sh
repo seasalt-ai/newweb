@@ -90,6 +90,9 @@ sync_files_incrementally() {
         --exclude='.nojekyll' \
         "$source_dir/" "$target_dir/" > "$rsync_output" 2>&1 || true
     
+    print_warning "DEBUG: Top 20 lines of rsync change log:"
+    head -n 20 "$rsync_output"
+    
     # Parse rsync itemized output to categorize changes
     local added_files=()
     local modified_files=()
