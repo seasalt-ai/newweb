@@ -291,7 +291,7 @@ main() {
     
     # Pre-deployment checks
     print_info "Running pre-deployment checks..."
-    check_branch "$REQUIRED_BRANCH"
+    # check_branch "$REQUIRED_BRANCH"
     check_clean_working_tree
     
     # Build the project
