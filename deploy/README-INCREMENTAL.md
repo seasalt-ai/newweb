@@ -1,18 +1,31 @@
-# Incremental Production Deployment
+# Smart Production Deployment
 
 ## Overview
 
-This repository now supports **incremental deployments** that only deploy changed files instead of all 5000+ files. This dramatically reduces deployment time from minutes to seconds for typical changes.
+This repository now supports **smart deployment** that automatically chooses the best deployment method based on what actually changed. This solves the problem where Astro's content hashing makes "incremental" deployment detect thousands of unchanged files.
+
+## The Problem with Astro Builds
+
+Astro uses **content-based hashing** for JavaScript files (`ApiPageComponents.2webKHQW.js`), which means:
+- File names change every build, even if content is identical
+- All HTML files referencing these scripts also "change"
+- Traditional incremental deployment detects 3000+ "changed" files
+- You lose the benefits of incremental deployment
 
 ## Scripts
 
-### `deploy-prod-incremental.sh` (NEW - Recommended)
-- **Purpose**: Deploy only changed files to production
-- **Speed**: Very fast (seconds vs minutes)
-- **Use case**: Regular deployments when you've changed a few pages/files
-- **Safety**: Same backup and rollback features as full deployment
+### `deploy-prod-smart.sh` (NEW - **RECOMMENDED**)
+- **Purpose**: Intelligently chooses incremental vs full deployment
+- **Speed**: Optimal for each situation
+- **Use case**: **Use this for all deployments**
+- **Intelligence**: Analyzes actual content changes vs build artifact changes
 
-### `deploy-prod.sh` (Original)
+### `deploy-prod-incremental.sh` (Manual Incremental)
+- **Purpose**: Force incremental deployment
+- **Speed**: Fast when it works, but often detects too many changes with Astro
+- **Use case**: When you know only a few files truly changed
+
+### `deploy-prod.sh` (Full Deployment)
 - **Purpose**: Deploy ALL files to production  
 - **Speed**: Slower (deploys all ~5000 files)
 - **Use case**: Major updates, first deployment, or when you want a clean slate
@@ -28,46 +41,77 @@ This repository now supports **incremental deployments** that only deploy change
 
 ## Usage
 
-### Quick Start (Recommended)
+### Smart Deployment (Recommended for All Cases)
 ```bash
-# For regular deployments - much faster!
-./deploy/deploy-prod-incremental.sh
+# Let the script decide the best deployment method
+./deploy/deploy-prod-smart.sh
 ```
 
-### Full Deployment (when needed)
+**What it does:**
+1. **Analyzes** your build to detect real content changes vs Astro hash changes
+2. **Recommends** incremental or full deployment based on actual changes
+3. **Asks** for your preference with clear explanations
+4. **Executes** the chosen deployment method
+
+### Manual Deployment Methods
 ```bash
-# For major updates or clean deployments
+# Force incremental (may detect many false changes with Astro)
+./deploy/deploy-prod-incremental.sh --checksum
+
+# Force full deployment 
 ./deploy/deploy-prod.sh
-
-# Or force full deployment
-./deploy/deploy-prod-incremental.sh --force-full
 ```
 
-## Example Output
+## Example: Smart Deployment Output
 
+### Scenario 1: Content Changes (Recommends Incremental)
 ```
-➤ Analyzing file changes...
+🧠 Analyzing build changes intelligently...
 
-📊 Change Summary:
-  📁 Files to add: 2
-  ✏️  Files to modify: 3
-  🗑️  Files to delete: 1
-  📈 Total changes: 6
+📊 File counts:
+  Source (new build): 5247 files
+  Target (production): 5245 files
 
-📁 New files:
-  + en/blog/new-post/index.html
-  + assets/images/new-feature.png
+🔍 Analyzing content vs filename changes...
+📈 Content analysis:
+  Unique source content: 4891
+  Unique target content: 4889
+  Common content: 4887
 
-✏️  Modified files:
-  ~ en/index.html
-  ~ zh-TW/pricing/index.html
-  ~ sitemap.xml
+📝 Analyzing file type changes...
+  ✏️  Sitemap changed (indicates content updates)
+  ✏️  Content changed in en/index.html
+  ✅ Robots.txt unchanged
 
-🗑️  Deleted files:
-  - old-page.html
+🤖 Smart deployment decision:
+✅ Small content changes detected - perfect for incremental
+  - Only 2 content files changed
+  - Most changes are just JavaScript hash updates
+  - Recommendation: Use incremental deployment
 
-➤ Syncing 6 changed files...
-✔ File sync completed successfully
+🤔 Multiple deployment options available:
+1. 🚀 Incremental deployment (fast - only changed files)
+2. 🔄 Full deployment (thorough - all files)
+3. ❌ Skip deployment (no changes needed)
+
+Choose deployment type [1/2/3]: 1
+🚀 Proceeding with incremental deployment...
+```
+
+### Scenario 2: Build-Only Changes (Recommends Skip/Full)
+```
+🧠 Analyzing build changes intelligently...
+
+📝 Analyzing file type changes...
+  ✅ Sitemap unchanged
+  ✅ Robots.txt unchanged
+  ✅ All sample HTML content unchanged
+
+🤖 Smart deployment decision:
+🔄 Build-only changes detected (no content changes)
+  - This appears to be a rebuild with no actual content changes
+  - Only JavaScript hashes and references changed
+  - Recommendation: Skip deployment or use full deployment to reset
 ```
 
 ## Performance Comparison
