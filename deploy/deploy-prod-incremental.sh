@@ -55,12 +55,43 @@ TEMP_DIFF_DIR="$HOME/.deployment-cache/temp-diff"
 # Ensure temp directory is cleaned up on exit
 trap 'rm -rf "$TEMP_DIFF_DIR"' EXIT
 
+# Function to get recently changed source files using git
+get_recently_changed_files() {
+    local days_back="${1:-7}"  # Default to 7 days
+    
+    print_info "Getting recently changed source files (last $days_back days)..."
+    
+    # Get files changed in the last N days, excluding build artifacts
+    local changed_files=$(git log --since="$days_back days ago" --name-only --pretty=format: | \
+        grep -E '\.(astro|tsx?|jsx?|md|json|css|scss|svg|png|jpg|jpeg|webp)$' | \
+        sort -u | \
+        grep -v '^dist/' | \
+        grep -v '^node_modules/' | \
+        head -50)  # Limit to 50 files to avoid too many
+    
+    if [[ -n "$changed_files" ]]; then
+        print_info "Recently changed source files:"
+        echo "$changed_files" | sed 's/^/  - /'
+        echo "$changed_files"
+    else
+        echo ""
+    fi
+}
+
 # Function to compare and sync files incrementally
 sync_files_incrementally() {
     local source_dir="$1"
     local target_dir="$2"
     
     print_info "Analyzing file changes..."
+    
+    # First, get context of what source files changed recently
+    local recent_source_changes=$(get_recently_changed_files 7)
+    if [[ -n "$recent_source_changes" ]]; then
+        echo ""
+        print_info "This can help explain why certain built files changed."
+        echo ""
+    fi
     
     # Create temp directory for analysis
     mkdir -p "$TEMP_DIFF_DIR"
@@ -202,11 +233,39 @@ sync_files_incrementally() {
     
     echo ""
     
-    # Confirm incremental deployment
-    if [[ $total_changes -gt 100 ]]; then
+    # Smart threshold check based on recent git activity
+    local recent_source_count=$(echo "$recent_source_changes" | grep -c .)
+    local expected_build_multiplier=10  # Rough estimate: 1 source file = ~10 built files
+    local expected_changes=$((recent_source_count * expected_build_multiplier))
+    
+    # Set reasonable thresholds
+    local warning_threshold=50
+    local suspicious_threshold=200
+    
+    # Adjust thresholds based on recent activity
+    if [[ $recent_source_count -gt 0 ]]; then
+        warning_threshold=$((expected_changes + 20))
+        suspicious_threshold=$((expected_changes * 3))
+    fi
+    
+    # Confirm incremental deployment with intelligent thresholds
+    if [[ $total_changes -gt $suspicious_threshold ]]; then
+        print_warning "🚨 VERY LARGE number of changes detected ($total_changes files)"
+        echo "Expected ~$expected_changes files based on $recent_source_count recent source changes."
+        echo "This suggests either:"
+        echo "  1. A major rebuild occurred (all files regenerated)"
+        echo "  2. Configuration/build system changes affected many files"
+        echo "  3. You should use full deployment instead"
+        echo ""
+        confirm_action "Continue with incremental deployment of $total_changes files anyway?"
+    elif [[ $total_changes -gt $warning_threshold ]]; then
         print_warning "⚠️  Large number of changes detected ($total_changes files)"
-        echo "Consider using full deployment if this seems unexpected."
+        echo "Expected ~$expected_changes files based on $recent_source_count recent source changes."
         confirm_action "Continue with incremental deployment of $total_changes files?"
+    elif [[ "$QUICK_MODE" == "true" && $total_changes -le 10 ]]; then
+        print_success "Quick mode: Auto-proceeding with $total_changes files (≤ 10)"
+    elif [[ $total_changes -le 5 ]]; then
+        print_success "Small change set detected ($total_changes files) - proceeding automatically"
     fi
     
     # Actually perform the sync
@@ -291,12 +350,22 @@ main() {
     # check_branch "$REQUIRED_BRANCH"
     check_clean_working_tree
     
-    # Build the project
-    build_project
-    
-    # Run SEO updates (generate sitemap and robots.txt)
-    print_info "Updating SEO files (sitemap and robots.txt)..."
-    npm run seo-update || print_warning "SEO update failed, continuing anyway"
+    # Build the project (unless skipping)
+    if [[ "$SKIP_BUILD" == "true" ]]; then
+        print_info "Skipping build - using existing dist/ folder"
+        if [[ ! -d "$BUILD_DIR" ]]; then
+            print_error "Build directory '$BUILD_DIR' not found! Cannot skip build."
+            print_info "Either run a build first, or remove --skip-build flag."
+            exit 1
+        fi
+        print_success "Using existing build in $BUILD_DIR"
+    else
+        build_project
+        
+        # Run SEO updates (generate sitemap and robots.txt)
+        print_info "Updating SEO files (sitemap and robots.txt)..."
+        npm run seo-update || print_warning "SEO update failed, continuing anyway"
+    fi
     
     verify_build_dir "$BUILD_DIR"
     
@@ -430,14 +499,26 @@ main() {
 }
 
 # Configuration for comparison method
-RSYNC_COMPARISON_METHOD="size-only"  # Options: checksum, size-only, timestamp
+RSYNC_COMPARISON_METHOD="checksum"  # Options: checksum, size-only, timestamp
 
 # Check for command line arguments
-if [[ $# -gt 0 ]]; then
+QUICK_MODE=false
+SKIP_BUILD=false
+
+# Parse all command line arguments
+while [[ $# -gt 0 ]]; do
     case "$1" in
         --force-full)
             print_warning "Force full deployment requested - use deploy-prod.sh instead"
             exec "$SCRIPT_DIR/deploy-prod.sh"
+            ;;
+        --quick)
+            QUICK_MODE=true
+            print_info "Quick mode enabled - will auto-proceed if changes < 10 files"
+            ;;
+        --skip-build)
+            SKIP_BUILD=true
+            print_info "Skip build mode - using existing dist/ folder"
             ;;
         --checksum)
             RSYNC_COMPARISON_METHOD="checksum"
@@ -452,16 +533,23 @@ if [[ $# -gt 0 ]]; then
             print_info "Using timestamp-based comparison (fastest, least accurate)"
             ;;
         --help|-h)
-            echo "Usage: $0 [--force-full|--checksum|--size-only|--timestamp]"
+            echo "Usage: $0 [--quick] [--skip-build] [--checksum|--size-only|--timestamp] [--force-full]"
             echo ""
             echo "Incremental production deployment - only deploys changed files"
             echo ""
             echo "Options:"
+            echo "  --quick         Auto-proceed if ≤10 files changed (good for small updates)"
+            echo "  --skip-build    Use existing dist/ folder (skip npm run build)"
             echo "  --force-full    Use full deployment instead (runs deploy-prod.sh)"
             echo "  --checksum      Compare files by content checksum (default, most accurate)"
             echo "  --size-only     Compare files by size only (faster, less accurate)"
             echo "  --timestamp     Compare files by timestamp (fastest, least accurate)"
             echo "  --help, -h      Show this help message"
+            echo ""
+            echo "Examples:"
+            echo "  $0 --quick --skip-build    # Fast deployment for small changes"
+            echo "  $0 --skip-build            # Use existing build"
+            echo "  $0 --checksum              # Most accurate change detection"
             echo ""
             echo "This script is optimized for large sites with many files."
             echo "It only copies files that have actually changed, making deployments much faster."
@@ -475,7 +563,8 @@ if [[ $# -gt 0 ]]; then
             exit 1
             ;;
     esac
-fi
+    shift  # Move to next argument
+done
 
 # Run main function
 main "$@"
