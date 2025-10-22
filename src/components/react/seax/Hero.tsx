@@ -3,9 +3,10 @@ import { motion } from "framer-motion";
 import { Play, ArrowRight, MessageCircle, Phone, Mail } from "lucide-react";
 import MassCommunicationFlow from "./MassCommunicationFlow";
 import { getMeetingUrl } from "../../../constants/urls";
+import type { SupportedLanguage } from "../../../i18n/helpers";
 
 interface HeroProps {
-  lang: string;
+  lang: SupportedLanguage;
   translations_obj?: any;
   translations: {
     badge: string;

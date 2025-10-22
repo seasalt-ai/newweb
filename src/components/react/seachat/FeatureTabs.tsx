@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Users, Bot, BookOpen, Zap, Check, Brain, Clock, Search, Database, FileText, Target } from 'lucide-react';
 import { useTranslation, type SupportedLanguage } from '../../../i18n/helpers';
+import { useTranslationUtils } from '../../../i18n/translationUtils';
 
 // Define interfaces for type safety
 interface AdvancedFeature {
@@ -20,49 +21,8 @@ const FeatureTabs: React.FC<FeatureTabsProps> = ({ lang, translations }) => {
     { t: null, isLoading: false } : 
     useTranslation(lang);
 
-  const getText = (key: string, fallback: string = key): string => {
-    if (translations) {
-      const keys = key.split('.');
-      let result: any = translations;
-      
-      for (const k of keys) {
-        if (result && typeof result === 'object' && k in result) {
-          result = result[k];
-        } else {
-          console.warn(`Missing translation key: "${key}" in locale "${lang}"`);
-          return fallback;
-        }
-      }
-      
-      return typeof result === 'string' ? result : fallback;
-    }
-    
-    return hookT ? hookT(key) : fallback;
-  };
-
-  const getTextArray = (key: string, fallback: string[] = []): string[] => {
-    if (translations) {
-      const keys = key.split('.');
-      let result: any = translations;
-      
-      for (const k of keys) {
-        if (result && typeof result === 'object' && k in result) {
-          result = result[k];
-        } else {
-          return fallback;
-        }
-      }
-      
-      return Array.isArray(result) ? result : fallback;
-    }
-    
-    if (hookT) {
-      const result = hookT(key, { returnObjects: true });
-      return Array.isArray(result) ? result : fallback;
-    }
-    
-    return fallback;
-  };
+  // Use unified translation utils
+  const { getText } = useTranslationUtils(lang, translations, hookT, isLoading);
 
   const [activeTab, setActiveTab] = useState('agent-chat');
 
@@ -100,7 +60,7 @@ const FeatureTabs: React.FC<FeatureTabsProps> = ({ lang, translations }) => {
     'agent-chat': {
       title: getText('seachat.featureTabs.content.agentChat.title', 'Human Agent Excellence'),
       subtitle: getText('seachat.featureTabs.content.agentChat.subtitle', 'Start with real human support, completely free'),
-      features: getTextArray('seachat.featureTabs.content.agentChat.features', [
+      features: getText('seachat.featureTabs.content.agentChat.features', [
         'Unlimited free agent hours',
         'Real-time conversation management',
         'Multi-agent collaboration',
@@ -113,7 +73,7 @@ const FeatureTabs: React.FC<FeatureTabsProps> = ({ lang, translations }) => {
     'ai-agent': {
       title: getText('seachat.featureTabs.content.aiAgent.title', 'Intelligent AI Automation'),
       subtitle: getText('seachat.featureTabs.content.aiAgent.subtitle', 'Scale seamlessly with smart AI that learns'),
-      features: getTextArray('seachat.featureTabs.content.aiAgent.features', [
+      features: getText('seachat.featureTabs.content.aiAgent.features', [
         'Context-aware responses',
         'Learning from conversations',
         'Seamless human handoff',
@@ -126,7 +86,7 @@ const FeatureTabs: React.FC<FeatureTabsProps> = ({ lang, translations }) => {
     'advanced-ai': {
       title: getText('seachat.featureTabs.content.advancedAI.title', 'Next-Generation AI Intelligence'),
       subtitle: getText('seachat.featureTabs.content.advancedAI.subtitle', 'Advanced AI features for personalized experiences'),
-      features: getTextArray('seachat.featureTabs.content.advancedAI.features', [
+      features: getText('seachat.featureTabs.content.advancedAI.features', [
         'Retrieval Augmented Generation (RAG)',
         'Long-term user memory system',
         'Time-aware contextual responses',
@@ -207,7 +167,7 @@ const FeatureTabs: React.FC<FeatureTabsProps> = ({ lang, translations }) => {
     'knowledge-base': {
       title: getText('seachat.featureTabs.content.knowledgeBase.title', 'Comprehensive Knowledge Hub'),
       subtitle: getText('seachat.featureTabs.content.knowledgeBase.subtitle', 'Upload 30+ file types for instant AI responses'),
-      features: getTextArray('seachat.featureTabs.content.knowledgeBase.features', [
+      features: getText('seachat.featureTabs.content.knowledgeBase.features', [
         'PDF, Excel, CSV, Word support',
         'Website content ingestion',
         'Image and video processing',
@@ -220,7 +180,7 @@ const FeatureTabs: React.FC<FeatureTabsProps> = ({ lang, translations }) => {
     'integrations': {
       title: getText('seachat.featureTabs.content.integrations.title', 'Powerful Integrations'),
       subtitle: getText('seachat.featureTabs.content.integrations.subtitle', 'Connect with your favorite tools and platforms'),
-      features: getTextArray('seachat.featureTabs.content.integrations.features', [
+      features: getText('seachat.featureTabs.content.integrations.features', [
         'CRM integrations (Salesforce, HubSpot)',
         'Calendar booking (Google, Outlook)',
         'E-commerce platforms',
@@ -230,7 +190,7 @@ const FeatureTabs: React.FC<FeatureTabsProps> = ({ lang, translations }) => {
       ]),
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop'
     }
-  }), [getText, getTextArray]);
+  }), [getText]);
 
   const currentContent = tabContent[activeTab as keyof typeof tabContent];
 

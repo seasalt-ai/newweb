@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send } from 'lucide-react';
 import { useTranslation, type SupportedLanguage } from '../../i18n/helpers';
+import { useTranslationUtils } from '../../i18n/translationUtils';
 
 interface CompanyNewsletterProps {
   lang: SupportedLanguage;
@@ -11,18 +12,8 @@ interface CompanyNewsletterProps {
 const CompanyNewsletter: React.FC<CompanyNewsletterProps> = ({ lang, translations }) => {
   const { t, isLoading } = useTranslation(lang);
   
-  // Use passed translations or fall back to hook
-  const getText = (key: string, fallback: string) => {
-    if (translations) {
-      const keys = key.split('.');
-      let value = translations;
-      for (const k of keys) {
-        value = value?.[k];
-      }
-      return value || fallback;
-    }
-    return t?.(key) || fallback;
-  };
+  // Use unified translation utils
+  const { getText } = useTranslationUtils(lang, translations, t, isLoading);
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
