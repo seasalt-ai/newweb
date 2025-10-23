@@ -5610,7 +5610,9 @@
         },
         "learned": "Learned",
         "title": "Human-to-AI Handoff",
-        "subtitle": "Start with humans, scale with intelligent AI"
+        "subtitle": "Start with humans, scale with intelligent AI",
+        "aiAgent": "एआई एजेंट",
+        "humanAgent": "मानव एजेंट"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -5781,7 +5783,9 @@
           "12hAgo": "12h ago",
           "6hAgo": "6h ago",
           "now": "Now"
-        }
+        },
+        "description": "संपूर्ण विश्लेषण के साथ सभी चैनलों में बातचीत, प्रतिक्रिया समय, और प्रदर्शन मेट्रिक्स को ट्रैक करें।",
+        "subtitle": "अपने व्यवसाय की वास्तविक समय में निगरानी करें"
       }
     },
     "features": {
@@ -6315,6 +6319,22 @@
                 "priority": "Priority handling"
               }
             }
+          },
+          "ecommerce": {
+            "features": {
+              "0": "शॉपिंग कार्ट परित्याग पुनर्प्राप्ति",
+              "1": "उत्पाद सिफारिशें और अपसेलिंग",
+              "2": "आदेश स्थिति और शिपिंग अपडेट",
+              "3": "वापसी और रिफंड के लिए ग्राहक सहायता"
+            }
+          },
+          "line": {
+            "features": {
+              "0": "नेटिव LINE आधिकारिक खाता एकीकरण",
+              "1": "स्टिकर और मेनू के साथ समृद्ध संदेश भेजना",
+              "2": "एशियाई बाजारों के लिए बहुभाषी समर्थन",
+              "3": "LINE पे भुगतान एकीकरण"
+            }
           }
         },
         "benefits": {
@@ -6436,7 +6456,8 @@
     "seo": {
       "title": "SeaChat - AI Chatbot & Customer Service Automation | Seasalt.ai",
       "titleSuffix": " - AI Chatbot & Customer Service Automation | Seasalt.ai",
-      "description": "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more."
+      "description": "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more.",
+      "keywords": "एआई चैटबॉट, ग्राहक सेवा स्वचालन, ओमनीचैनल समर्थन, व्हाट्सएप बिजनेस, लाइव चैट, वॉइस एजेंट, SeaChat"
     }
   },
   "common": {
@@ -6451,6 +6472,9 @@
       "clearFilters": "Clear filters",
       "signUpForFree": "Sign Up For Free",
       "scheduleDemo": "Schedule Demo"
+    },
+    "disclaimer": {
+      "priceComparison": "दिखाए गए मूल्य सार्वजनिक रूप से उपलब्ध जानकारी पर आधारित हैं और भिन्न हो सकते हैं। कृपया प्रत्येक विक्रेता से वर्तमान मूल्य की पुष्टि करें।"
     }
   },
   "navigation": {

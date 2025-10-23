@@ -5612,7 +5612,9 @@
         },
         "learned": "Learned",
         "title": "Human-to-AI Handoff",
-        "subtitle": "Start with humans, scale with intelligent AI"
+        "subtitle": "Start with humans, scale with intelligent AI",
+        "humanAgent": "人間エージェント",
+        "aiAgent": "AI エージェント"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -5783,7 +5785,9 @@
           "12hAgo": "12h ago",
           "6hAgo": "6h ago",
           "now": "Now"
-        }
+        },
+        "subtitle": "ビジネスをリアルタイムで監視",
+        "description": "包括的な分析により、すべてのチャネルでの会話、応答時間、パフォーマンス指標を追跡します。"
       }
     },
     "features": {
@@ -6317,6 +6321,22 @@
                 "priority": "Priority handling"
               }
             }
+          },
+          "line": {
+            "features": {
+              "0": "ネイティブ LINE公式アカウント連携",
+              "1": "スタンプとメニューによるリッチメッセージ",
+              "2": "アジア市場向け多言語対応",
+              "3": "LINE Pay決済連携"
+            }
+          },
+          "ecommerce": {
+            "features": {
+              "0": "カート放棄回復",
+              "1": "商品レコメンドとアップセル",
+              "2": "注文状況と配送更新",
+              "3": "返品・返金カスタマーサポート"
+            }
           }
         },
         "benefits": {
@@ -6438,7 +6458,8 @@
     "seo": {
       "title": "SeaChat - AI Chatbot & Customer Service Automation | Seasalt.ai",
       "titleSuffix": " - AI Chatbot & Customer Service Automation | Seasalt.ai",
-      "description": "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more."
+      "description": "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more.",
+      "keywords": "AIチャットボット、カスタマーサービス自動化、オムニチャネルサポート、WhatsAppビジネス、ライブチャット、音声エージェント、SeaChat"
     }
   },
   "common": {
@@ -6453,6 +6474,9 @@
       "clearFilters": "フィルターをクリアします",
       "signUpForFree": "無料でサインアップしてください",
       "scheduleDemo": "デモをスケジュールします"
+    },
+    "disclaimer": {
+      "priceComparison": "表示されている価格は公開情報に基づいており、変更される場合があります。最新の価格については各ベンダーにご確認ください。"
     }
   },
   "navigation": {

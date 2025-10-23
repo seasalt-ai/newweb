@@ -5616,7 +5616,9 @@
         },
         "learned": "Đã học",
         "title": "Chuyển giao từ con người sang AI",
-        "subtitle": "Bắt đầu với con người, mở rộng quy mô với AI thông minh"
+        "subtitle": "Bắt đầu với con người, mở rộng quy mô với AI thông minh",
+        "aiAgent": "Nhân viên AI",
+        "humanAgent": "Nhân viên con người"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -5787,7 +5789,9 @@
           "12hAgo": "12 giờ trước",
           "6hAgo": "6 giờ trước",
           "now": "Bây giờ"
-        }
+        },
+        "description": "Theo dõi các cuộc trò chuyện, thời gian phản hồi và các chỉ số hiệu suất trên tất cả các kênh với phân tích toàn diện.",
+        "subtitle": "Giám sát doanh nghiệp của bạn theo thời gian thực"
       }
     },
     "features": {
@@ -6321,6 +6325,22 @@
                 "priority": "Xử lý ưu tiên"
               }
             }
+          },
+          "ecommerce": {
+            "features": {
+              "0": "Phục hồi giỏ hàng bị bỏ rơi",
+              "1": "Gợi ý sản phẩm và bán thêm",
+              "2": "Cập nhật trạng thái đơn hàng và vận chuyển",
+              "3": "Hỗ trợ khách hàng cho việc trả hàng và hoàn tiền"
+            }
+          },
+          "line": {
+            "features": {
+              "0": "Tích hợp tài khoản chính thức LINE gốc",
+              "1": "Nhắn tin phong phú với nhãn dán và menu",
+              "2": "Hỗ trợ đa ngôn ngữ cho thị trường châu Á",
+              "3": "Tích hợp thanh toán LINE Pay"
+            }
           }
         },
         "benefits": {
@@ -6442,7 +6462,8 @@
     "seo": {
       "title": "SeaChat - Chatbot AI & Tự động hóa dịch vụ khách hàng | Seasalt.ai",
       "titleSuffix": " - Chatbot AI & Tự động hóa dịch vụ khách hàng | Seasalt.ai",
-      "description": "SeaChat là một nền tảng chatbot do AI hỗ trợ giúp các doanh nghiệp tự động hóa dịch vụ khách hàng trên nhiều kênh bao gồm WhatsApp, trang web, mạng xã hội và nhiều hơn nữa."
+      "description": "SeaChat là một nền tảng chatbot do AI hỗ trợ giúp các doanh nghiệp tự động hóa dịch vụ khách hàng trên nhiều kênh bao gồm WhatsApp, trang web, mạng xã hội và nhiều hơn nữa.",
+      "keywords": "chatbot AI, tự động hóa dịch vụ khách hàng, hỗ trợ đa kênh, WhatsApp doanh nghiệp, trò chuyện trực tiếp, đại lý giọng nói, SeaChat"
     }
   },
   "common": {
@@ -6457,6 +6478,9 @@
       "clearFilters": "Xóa bộ lọc",
       "signUpForFree": "Đăng ký miễn phí",
       "scheduleDemo": "Lên lịch demo"
+    },
+    "disclaimer": {
+      "priceComparison": "Giá hiển thị dựa trên thông tin công khai và có thể thay đổi. Vui lòng xác minh giá hiện tại với từng nhà cung cấp."
     }
   },
   "navigation": {

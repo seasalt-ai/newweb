@@ -87,8 +87,8 @@ function createTranslationFunction(translations: any, lang?: SupportedLanguage, 
     
     // 先嘗試在目前語言中找到翻譯
     for (const k of keys) {
-      if (result && typeof result === 'object' && k in result) {
-        result = result[k];
+      if (result !== null && typeof result === 'object' && k in result) {
+        result = (result as any)[k];
       } else {
         result = null;
         break;
@@ -123,8 +123,8 @@ function createTranslationFunction(translations: any, lang?: SupportedLanguage, 
       let fallbackResult: any = fallbackTranslations;
       
       for (const k of keys) {
-        if (fallbackResult && typeof fallbackResult === 'object' && k in fallbackResult) {
-          fallbackResult = fallbackResult[k];
+        if (fallbackResult !== null && typeof fallbackResult === 'object' && k in fallbackResult) {
+          fallbackResult = (fallbackResult as any)[k];
         } else {
           fallbackResult = null;
           break;

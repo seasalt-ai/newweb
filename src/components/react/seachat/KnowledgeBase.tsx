@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FileText, Upload, Image, FileSpreadsheet, Globe, Video, Plus, X } from 'lucide-react';
 import { useTranslation, type SupportedLanguage } from '../../../i18n/helpers';
+import { useTranslationUtils } from '../../../i18n/translationUtils';
 
 interface KnowledgeBaseProps {
   lang: SupportedLanguage;
@@ -13,46 +14,8 @@ const KnowledgeBase = ({ lang, translations }: KnowledgeBaseProps) => {
     { t: null, isLoading: false } : 
     useTranslation(lang);
     
-  // 統一的翻譯獲取函數
-  const getText = (key: string, fallback: string = key): string => {
-    if (translations) {
-      const keys = key.split('.');
-      let result: any = translations;
-      
-      for (const k of keys) {
-        if (result && typeof result === 'object' && k in result) {
-          result = result[k];
-        } else {
-          console.warn(`Missing translation key: "${key}" in locale "${lang}"`);
-          return fallback;
-        }
-      }
-      
-      return typeof result === 'string' ? result : fallback;
-    }
-    
-    return hookT ? hookT(key) : fallback;
-  };
-  
-  // 處理陣列型翻譯
-  const getTextArray = (key: string, fallback: string[] = []): string[] => {
-    if (translations) {
-      const keys = key.split('.');
-      let result: any = translations;
-      
-      for (const k of keys) {
-        if (result && typeof result === 'object' && k in result) {
-          result = result[k];
-        } else {
-          return fallback;
-        }
-      }
-      
-      return Array.isArray(result) ? result : fallback;
-    }
-    
-    return hookT ? (hookT(key, { returnObjects: true }) as string[]) || fallback : fallback;
-  };
+  // 使用新的統一翻譯工具函數
+  const { getText } = useTranslationUtils(lang, translations, hookT, isLoading);
   
   const [showUploadModal, setShowUploadModal] = useState(false);
   const [uploadedFiles, setUploadedFiles] = useState<string[]>([]);
@@ -121,14 +84,14 @@ const KnowledgeBase = ({ lang, translations }: KnowledgeBaseProps) => {
     setUploadedFiles([...uploadedFiles, fileName]);
   };
 
-  const richResponseFeatures = getTextArray('seachat.knowledgeBase.supportedFormats.richResponse.features', [
+  const richResponseFeatures = getText('seachat.knowledgeBase.supportedFormats.richResponse.features', [
     'Image generation',
     'Charts & graphs',
     'Table formatting',
     'Code snippets'
   ]);
 
-  const demoFiles = getTextArray('seachat.knowledgeBase.uploadModal.demoFiles', [
+  const demoFiles = getText('seachat.knowledgeBase.uploadModal.demoFiles', [
     'sample.pdf',
     'data.xlsx',
     'guide.docx'

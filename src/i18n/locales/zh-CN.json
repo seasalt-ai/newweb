@@ -5616,7 +5616,9 @@
         },
         "learned": "已学习",
         "title": "人工到 AI 交接",
-        "subtitle": "从人工开始，用智能 AI 扩展"
+        "subtitle": "从人工开始，用智能 AI 扩展",
+        "humanAgent": "人工客服",
+        "aiAgent": "AI 智能客服"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -5787,7 +5789,9 @@
           "12hAgo": "12小时前",
           "6hAgo": "6小时前",
           "now": "现在"
-        }
+        },
+        "subtitle": "实时监控您的业务表现",
+        "description": "通过全渠道的综合分析，追踪对话、响应时间和绩效指标。"
       }
     },
     "features": {
@@ -6321,6 +6325,22 @@
                 "priority": "优先级处理"
               }
             }
+          },
+          "line": {
+            "features": {
+              "0": "原生 LINE 官方账号集成",
+              "1": "支持贴纸和菜单的丰富消息",
+              "2": "亚洲市场多语言支持",
+              "3": "LINE Pay 支付集成"
+            }
+          },
+          "ecommerce": {
+            "features": {
+              "0": "购物车弃置恢复",
+              "1": "商品推荐和追加销售",
+              "2": "订单状态和物流更新",
+              "3": "退货和退款客户支持"
+            }
           }
         },
         "benefits": {
@@ -6442,7 +6462,8 @@
     "seo": {
       "title": "SeaChat - AI 聊天机器人与客服自动化 | Seasalt.ai",
       "titleSuffix": " - AI 聊天机器人与客服自动化 | Seasalt.ai",
-      "description": "SeaChat 是一个 AI 驱动的聊天机器人平台，帮助企业在多个管道上自动化客户服务，包括 WhatsApp、网站、社群媒体等。"
+      "description": "SeaChat 是一个 AI 驱动的聊天机器人平台，帮助企业在多个管道上自动化客户服务，包括 WhatsApp、网站、社群媒体等。",
+      "keywords": "AI 聊天机器人，客户服务自动化，全渠道支持，WhatsApp 商业，即时聊天，语音智能，SeaChat"
     }
   },
   "common": {
@@ -6457,6 +6478,9 @@
       "clearFilters": "清除筛选条件",
       "signUpForFree": "免费注册",
       "scheduleDemo": "安排演示"
+    },
+    "disclaimer": {
+      "priceComparison": "所显示价格基于公开信息，可能会有所不同。请向各供应商确认最新价格。"
     }
   },
   "navigation": {

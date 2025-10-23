@@ -5626,7 +5626,9 @@
         },
         "learned": "Learned",
         "title": "Human-to-AI Handoff",
-        "subtitle": "Start with humans, scale with intelligent AI"
+        "subtitle": "Start with humans, scale with intelligent AI",
+        "humanAgent": "Human Agent",
+        "aiAgent": "AI Agent"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -5790,6 +5792,8 @@
           "satisfaction": "Satisfaction"
         },
         "title": "Live Dashboard",
+        "subtitle": "Monitor your business in real-time",
+        "description": "Track conversations, response times, and performance metrics across all channels with comprehensive analytics.",
         "status": {
           "live": "Live"
         },
@@ -6331,6 +6335,26 @@
                 "priority": "Priority handling"
               }
             }
+          },
+          "line": {
+            "name": "LINE Business",
+            "description": "Connect with Asian markets through LINE's messaging platform",
+            "features": {
+              "0": "Native LINE Official Account integration",
+              "1": "Rich messaging with stickers and menus",
+              "2": "Multi-language support for Asian markets",
+              "3": "LINE Pay payment integration"
+            }
+          },
+          "ecommerce": {
+            "name": "E-commerce Support",
+            "description": "Specialized features for online retail businesses",
+            "features": {
+              "0": "Shopping cart abandonment recovery",
+              "1": "Product recommendations and upselling",
+              "2": "Order status and shipping updates",
+              "3": "Customer support for returns and refunds"
+            }
           }
         },
         "benefits": {
@@ -6452,7 +6476,8 @@
     "seo": {
       "title": "SeaChat - AI Chatbot & Customer Service Automation | Seasalt.ai",
       "titleSuffix": " - AI Chatbot & Customer Service Automation | Seasalt.ai",
-      "description": "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more."
+      "description": "SeaChat is an AI-powered chatbot platform that helps businesses automate customer service across multiple channels including WhatsApp, websites, social media, and more.",
+      "keywords": "AI chatbot, customer service automation, omnichannel support, WhatsApp business, live chat, voice agents, SeaChat"
     }
   },
   "common": {
@@ -6467,6 +6492,9 @@
       "clearFilters": "Clear filters",
       "signUpForFree": "Sign Up For Free",
       "scheduleDemo": "Schedule Demo"
+    },
+    "disclaimer": {
+      "priceComparison": "Prices shown are based on publicly available information and may vary. Please verify current pricing with each vendor."
     }
   },
   "navigation": {

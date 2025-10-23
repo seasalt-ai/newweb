@@ -5613,7 +5613,9 @@
         },
         "learned": "학습됨",
         "title": "인간-AI 핸드오프",
-        "subtitle": "인간으로 시작하여 지능형 AI로 확장"
+        "subtitle": "인간으로 시작하여 지능형 AI로 확장",
+        "humanAgent": "휴먼 에이전트",
+        "aiAgent": "AI 에이전트"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -5784,7 +5786,9 @@
           "12hAgo": "12시간 전",
           "6hAgo": "6시간 전",
           "now": "지금"
-        }
+        },
+        "subtitle": "비즈니스를 실시간으로 모니터링",
+        "description": "모든 채널에서의 대화, 응답 시간 및 성과 지표를 종합적인 분석으로 추적합니다."
       }
     },
     "features": {
@@ -6318,6 +6322,22 @@
                 "priority": "우선 처리"
               }
             }
+          },
+          "line": {
+            "features": {
+              "0": "네이티브 LINE 공식 계정 통합",
+              "1": "스티커와 메뉴가 포함된 리치 메시징",
+              "2": "아시아 시장 다국어 지원",
+              "3": "LINE Pay 결제 통합"
+            }
+          },
+          "ecommerce": {
+            "features": {
+              "0": "장바구니 이탈 복구",
+              "1": "상품 추천 및 업셀링",
+              "2": "주문 상태 및 배송 업데이트",
+              "3": "반품 및 환불 고객 지원"
+            }
           }
         },
         "benefits": {
@@ -6439,7 +6459,8 @@
     "seo": {
       "title": "SeaChat - AI 챗봇 및 고객 서비스 자동화 | Seasalt.ai",
       "titleSuffix": " - AI 챗봇 및 고객 서비스 자동화 | Seasalt.ai",
-      "description": "SeaChat은 WhatsApp, 웹사이트, 소셜 미디어 등 여러 채널에서 고객 서비스를 자동화하는 데 도움이 되는 AI 기반 챗봇 플랫폼입니다."
+      "description": "SeaChat은 WhatsApp, 웹사이트, 소셜 미디어 등 여러 채널에서 고객 서비스를 자동화하는 데 도움이 되는 AI 기반 챗봇 플랫폼입니다.",
+      "keywords": "AI 챗봇, 고객 서비스 자동화, 옴니채널 지원, WhatsApp 비즈니스, 라이브 채팅, 음성 에이전트, SeaChat"
     }
   },
   "common": {
@@ -6454,6 +6475,9 @@
       "clearFilters": "필터 지우기",
       "signUpForFree": "무료로 가입",
       "scheduleDemo": "데모 예약"
+    },
+    "disclaimer": {
+      "priceComparison": "표시된 가격은 공개 정보를 기반으로 하며 변경될 수 있습니다. 최신 가격은 각 공급업체에 확인해 주세요."
     }
   },
   "navigation": {

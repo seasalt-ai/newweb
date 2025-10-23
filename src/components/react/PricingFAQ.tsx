@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { useTranslation, type SupportedLanguage } from '../../i18n/helpers';
+import { useTranslationUtils } from '../../i18n/translationUtils';
 
 interface PricingFAQProps {
   lang: SupportedLanguage;
@@ -11,18 +12,8 @@ export default function PricingFAQ({ lang, translations }: PricingFAQProps) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const { t, isLoading } = useTranslation(lang);
   
-  // Use passed translations or fall back to hook
-  const getText = (key: string, fallback: string) => {
-    if (translations) {
-      const keys = key.split('.');
-      let value = translations;
-      for (const k of keys) {
-        value = value?.[k];
-      }
-      return value || fallback;
-    }
-    return t?.(key) || fallback;
-  };
+  // Use new unified translation utils
+  const { getText } = useTranslationUtils(lang, translations, t, isLoading);
 
   // 如果翻譯還在載入，顯示載入狀態
   if (isLoading && !translations) {

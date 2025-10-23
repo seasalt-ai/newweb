@@ -5610,7 +5610,9 @@
         },
         "learned": "Learned",
         "title": "Human-to-AI Handoff",
-        "subtitle": "Start with humans, scale with intelligent AI"
+        "subtitle": "Start with humans, scale with intelligent AI",
+        "humanAgent": "Menschlicher Agent",
+        "aiAgent": "KI-Agent"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -5781,7 +5783,9 @@
           "12hAgo": "12h ago",
           "6hAgo": "6h ago",
           "now": "Now"
-        }
+        },
+        "subtitle": "Überwachen Sie Ihr Unternehmen in Echtzeit",
+        "description": "Verfolgen Sie Gespräche, Antwortzeiten und Leistungsmetriken über alle Kanäle mit umfassenden Analysen."
       }
     },
     "features": {
@@ -6315,6 +6319,22 @@
                 "priority": "Prioritätsbeschaffung"
               }
             }
+          },
+          "line": {
+            "features": {
+              "0": "Native LINE Official Account Integration",
+              "1": "Rich Messaging mit Stickern und Menüs",
+              "2": "Mehrsprachige Unterstützung für asiatische Märkte",
+              "3": "LINE Pay Zahlungsintegration"
+            }
+          },
+          "ecommerce": {
+            "features": {
+              "0": "Wiederherstellung verlassener Warenkörbe",
+              "1": "Produktempfehlungen und Upselling",
+              "2": "Bestellstatus und Versandaktualisierungen",
+              "3": "Kundensupport für Rücksendungen und Rückerstattungen"
+            }
           }
         },
         "benefits": {
@@ -6436,7 +6456,8 @@
     "seo": {
       "title": "SEACHAT - AI Chatbot & Kundendienst Automatisierung | Seasalt.ai",
       "titleSuffix": "- AI Chatbot & Kundendienstautomatisierung | Seasalt.ai",
-      "description": "SEACHAT ist eine KI-gestützte Chatbot-Plattform, mit der Unternehmen den Kundenservice über mehrere Kanäle hinweg automatisieren können, einschließlich WhatsApp, Websites, sozialen Medien und vielem mehr."
+      "description": "SEACHAT ist eine KI-gestützte Chatbot-Plattform, mit der Unternehmen den Kundenservice über mehrere Kanäle hinweg automatisieren können, einschließlich WhatsApp, Websites, sozialen Medien und vielem mehr.",
+      "keywords": "KI-Chatbot, Kundenservice-Automatisierung, Omnichannel-Support, WhatsApp Business, Live-Chat, Sprach-Agenten, SeaChat"
     }
   },
   "common": {
@@ -6451,6 +6472,9 @@
       "clearFilters": "Klare Filter",
       "signUpForFree": "Melden Sie sich kostenlos an",
       "scheduleDemo": "Planen Sie Demo"
+    },
+    "disclaimer": {
+      "priceComparison": "Die angezeigten Preise basieren auf öffentlich verfügbaren Informationen und können variieren. Bitte überprüfen Sie aktuelle Preise bei jedem Anbieter."
     }
   },
   "navigation": {
