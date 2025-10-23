@@ -5610,7 +5610,9 @@
         },
         "learned": "Learned",
         "title": "Human-to-AI Handoff",
-        "subtitle": "Start with humans, scale with intelligent AI"
+        "subtitle": "Start with humans, scale with intelligent AI",
+        "humanAgent": "Human Agent",
+        "aiAgent": "AI Agent"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -5781,7 +5783,9 @@
           "12hAgo": "12h ago",
           "6hAgo": "6h ago",
           "now": "Now"
-        }
+        },
+        "subtitle": "Monitor your business in real-time",
+        "description": "Track conversations, response times, and performance metrics across all channels with comprehensive analytics."
       }
     },
     "features": {
@@ -6315,6 +6319,22 @@
                 "priority": "Penanganan prioritas"
               }
             }
+          },
+          "line": {
+            "features": {
+              "0": "Native LINE Official Account integration",
+              "1": "Rich messaging with stickers and menus",
+              "2": "Multi-language support for Asian markets",
+              "3": "LINE Pay payment integration"
+            }
+          },
+          "ecommerce": {
+            "features": {
+              "0": "Shopping cart abandonment recovery",
+              "1": "Product recommendations and upselling",
+              "2": "Order status and shipping updates",
+              "3": "Customer support for returns and refunds"
+            }
           }
         },
         "benefits": {
@@ -6436,7 +6456,8 @@
     "seo": {
       "title": "SeaChat - Chatbot AI & Otomatisasi Layanan Pelanggan | Seasalt.ai",
       "titleSuffix": " - Chatbot AI & Otomatisasi Layanan Pelanggan | Seasalt.ai",
-      "description": "SeaChat adalah platform chatbot bertenaga AI yang membantu bisnis mengotomatiskan layanan pelanggan di berbagai saluran termasuk WhatsApp, situs web, media sosial, dan lainnya."
+      "description": "SeaChat adalah platform chatbot bertenaga AI yang membantu bisnis mengotomatiskan layanan pelanggan di berbagai saluran termasuk WhatsApp, situs web, media sosial, dan lainnya.",
+      "keywords": "AI chatbot, customer service automation, omnichannel support, WhatsApp business, live chat, voice agents, SeaChat"
     }
   },
   "common": {
@@ -6451,6 +6472,9 @@
       "clearFilters": "Hapus filter",
       "signUpForFree": "Daftar Gratis",
       "scheduleDemo": "Jadwalkan Demo"
+    },
+    "disclaimer": {
+      "priceComparison": "Prices shown are based on publicly available information and may vary. Please verify current pricing with each vendor."
     }
   },
   "navigation": {

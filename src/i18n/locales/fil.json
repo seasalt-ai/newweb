@@ -5610,7 +5610,9 @@
         },
         "learned": "Learned",
         "title": "Human-to-AI Handoff",
-        "subtitle": "Start with humans, scale with intelligent AI"
+        "subtitle": "Start with humans, scale with intelligent AI",
+        "aiAgent": "AI na Ahente",
+        "humanAgent": "Tao na Ahente"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -5781,7 +5783,9 @@
           "12hAgo": "12h ago",
           "6hAgo": "6h ago",
           "now": "Now"
-        }
+        },
+        "description": "Subaybayan ang mga pag-uusap, oras ng pagtugon, at mga sukatan ng pagganap sa lahat ng mga channel gamit ang komprehensibong analytics.",
+        "subtitle": "Subaybayan ang iyong negosyo nang real-time"
       }
     },
     "features": {
@@ -6315,6 +6319,22 @@
                 "priority": "Paghawak sa priyoridad"
               }
             }
+          },
+          "ecommerce": {
+            "features": {
+              "0": "Pagbawi sa mga iniwang shopping cart",
+              "1": "Mga rekomendasyon ng produkto at upselling",
+              "2": "Status ng order at mga update sa pagpapadala",
+              "3": "Suporta sa customer para sa mga return at refund"
+            }
+          },
+          "line": {
+            "features": {
+              "0": "Native na integrasyon ng LINE Official Account",
+              "1": "Mayamang pagmemensahe gamit ang mga sticker at menu",
+              "2": "Suporta sa maraming wika para sa mga pamilihang Asyano",
+              "3": "Integrasyon ng LINE Pay na pagbabayad"
+            }
           }
         },
         "benefits": {
@@ -6436,7 +6456,8 @@
     "seo": {
       "title": "SeaChat - AI Chatbot at Automation ng Serbisyo sa Customer | Seasalt.ai",
       "titleSuffix": " - AI Chatbot at Automation ng Serbisyo sa Customer | Seasalt.ai",
-      "description": "Ang SeaChat ay isang platform ng chatbot na pinapagana ng AI na tumutulong sa mga negosyo na i-automate ang serbisyo sa customer sa maraming mga channel kabilang ang WhatsApp, mga website, social media, at higit pa."
+      "description": "Ang SeaChat ay isang platform ng chatbot na pinapagana ng AI na tumutulong sa mga negosyo na i-automate ang serbisyo sa customer sa maraming mga channel kabilang ang WhatsApp, mga website, social media, at higit pa.",
+      "keywords": "AI chatbot, awtomasyon ng serbisyo sa customer, omnichannel na suporta, WhatsApp business, live chat, mga voice agent, SeaChat"
     }
   },
   "common": {
@@ -6451,6 +6472,9 @@
       "clearFilters": "I-clear ang mga filter",
       "signUpForFree": "Mag-sign Up nang Libre",
       "scheduleDemo": "Mag-iskedyul ng Demo"
+    },
+    "disclaimer": {
+      "priceComparison": "Ang mga ipinakitang presyo ay batay sa pampublikong magagamit na impormasyon at maaaring magbago. Mangyaring beripikahin ang kasalukuyang presyo sa bawat vendor."
     }
   },
   "navigation": {

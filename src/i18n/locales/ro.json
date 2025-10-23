@@ -6049,7 +6049,9 @@
         },
         "learned": "Învățat",
         "title": "Transfer de la om la AI",
-        "subtitle": "Începeți cu oameni, scalați cu AI inteligentă"
+        "subtitle": "Începeți cu oameni, scalați cu AI inteligentă",
+        "aiAgent": "Agent AI",
+        "humanAgent": "Agent uman"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -6220,7 +6222,9 @@
           "12hAgo": "acum 12h",
           "6hAgo": "acum 6h",
           "now": "Acum"
-        }
+        },
+        "description": "Urmărește conversațiile, timpii de răspuns și metricile de performanță pe toate canalele cu analize cuprinzătoare.",
+        "subtitle": "Monitorizează-ți afacerea în timp real"
       }
     },
     "features": {
@@ -6754,6 +6758,22 @@
                 "priority": "Gestionare priorități"
               }
             }
+          },
+          "ecommerce": {
+            "features": {
+              "0": "Recuperare coș de cumpărături abandonat",
+              "1": "Recomandări de produse și upselling",
+              "2": "Actualizări privind starea comenzii și livrarea",
+              "3": "Suport clienți pentru retururi și rambursări"
+            }
+          },
+          "line": {
+            "features": {
+              "0": "Integrare nativă cu contul oficial LINE",
+              "1": "Mesagerie bogată cu stickere și meniuri",
+              "2": "Suport multilingv pentru piețele asiatice",
+              "3": "Integrare plată LINE Pay"
+            }
           }
         },
         "benefits": {
@@ -6875,7 +6895,8 @@
     "seo": {
       "title": "SeaChat - Chatbot AI și automatizare asistență clienți | Seasalt.ai",
       "titleSuffix": " - Chatbot AI și automatizare asistență clienți | Seasalt.ai",
-      "description": "SeaChat este o platformă chatbot alimentată de AI care ajută afacerile să automatizeze serviciul clienți pe mai multe canale, inclusiv WhatsApp, site-uri web, rețele sociale și multe altele."
+      "description": "SeaChat este o platformă chatbot alimentată de AI care ajută afacerile să automatizeze serviciul clienți pe mai multe canale, inclusiv WhatsApp, site-uri web, rețele sociale și multe altele.",
+      "keywords": "chatbot AI, automatizare servicii clienți, suport omnichannel, WhatsApp business, chat live, agenți vocali, SeaChat"
     }
   },
   "common": {
@@ -6890,6 +6911,9 @@
       "clearFilters": "Ștergeți filtrele",
       "signUpForFree": "Înregistrați-vă gratuit",
       "scheduleDemo": "Programați o demonstrație"
+    },
+    "disclaimer": {
+      "priceComparison": "Prețurile afișate se bazează pe informații publice și pot varia. Vă rugăm să verificați prețurile actuale cu fiecare furnizor."
     }
   },
   "navigation": {

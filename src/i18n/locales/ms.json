@@ -5610,7 +5610,9 @@
         },
         "learned": "Dipelajaran",
         "title": "Penyerahan Manusia ke AI",
-        "subtitle": "Mulakan dengan manusia, tingkatkan dengan AI pintar"
+        "subtitle": "Mulakan dengan manusia, tingkatkan dengan AI pintar",
+        "aiAgent": "Ejen AI",
+        "humanAgent": "Ejen Manusia"
       },
       "conversationLearning": {
         "documentTypes": {
@@ -5781,7 +5783,9 @@
           "12hAgo": "12j lalu",
           "6hAgo": "6j lalu",
           "now": "Sekarang"
-        }
+        },
+        "description": "Jejaki perbualan, masa tindak balas, dan metrik prestasi merentasi semua saluran dengan analitik menyeluruh.",
+        "subtitle": "Pantau perniagaan anda secara masa nyata"
       }
     },
     "features": {
@@ -6315,6 +6319,22 @@
                 "priority": "Pengendalian keutamaan"
               }
             }
+          },
+          "ecommerce": {
+            "features": {
+              "0": "Pemulihan troli beli-belah yang ditinggalkan",
+              "1": "Cadangan produk dan penjualan tambahan",
+              "2": "Status pesanan dan kemas kini penghantaran",
+              "3": "Sokongan pelanggan untuk pemulangan dan bayaran balik"
+            }
+          },
+          "line": {
+            "features": {
+              "0": "Integrasi Akaun Rasmi LINE asli",
+              "1": "Mesej kaya dengan pelekat dan menu",
+              "2": "Sokongan pelbagai bahasa untuk pasaran Asia",
+              "3": "Integrasi pembayaran LINE Pay"
+            }
           }
         },
         "benefits": {
@@ -6436,7 +6456,8 @@
     "seo": {
       "title": "SeaChat - Chatbot AI & Automasi Perkhidmatan Pelanggan | Seasalt.ai",
       "titleSuffix": " - Chatbot AI & Automasi Perkhidmatan Pelanggan | Seasalt.ai",
-      "description": "SeaChat ialah platform chatbot berkuasa AI yang membantu perniagaan mengautomasikan perkhidmatan pelanggan merentasi pelbagai saluran termasuk WhatsApp, laman web, media sosial, dan banyak lagi."
+      "description": "SeaChat ialah platform chatbot berkuasa AI yang membantu perniagaan mengautomasikan perkhidmatan pelanggan merentasi pelbagai saluran termasuk WhatsApp, laman web, media sosial, dan banyak lagi.",
+      "keywords": "chatbot AI, automasi perkhidmatan pelanggan, sokongan omnichannel, perniagaan WhatsApp, sembang langsung, ejen suara, SeaChat"
     }
   },
   "common": {
@@ -6451,6 +6472,9 @@
       "clearFilters": "Kosongkan penapis",
       "signUpForFree": "Daftar Percuma",
       "scheduleDemo": "Jadualkan Demo"
+    },
+    "disclaimer": {
+      "priceComparison": "Harga yang dipaparkan adalah berdasarkan maklumat yang tersedia secara umum dan mungkin berbeza. Sila sahkan harga terkini dengan setiap vendor."
     }
   },
   "navigation": {
