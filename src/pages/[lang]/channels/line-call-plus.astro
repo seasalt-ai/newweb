@@ -472,35 +472,54 @@ const coreFeatures = [
   <!-- LINE Call Plus x Seasalt.ai Section -->
   <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid md:grid-cols-2 gap-8 items-center mb-10">
-        <div>
-          <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
-            LINE Call Plus x Seasalt.ai
-          </h2>
-          <p class="text-lg text-gray-600">
-            企業級雲端整合，零硬體上線；以 SeaVoice + SeaChat 打通 LINE 網路通話的 AI 客服全流程
-          </p>
+      <div class="text-center mb-10">
+        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
+          LINE Call Plus x Seasalt.ai
+        </h2>
+        <p class="text-lg text-gray-600 max-w-4xl mx-auto">
+          企業級雲端整合，零硬體上線；以 SeaVoice + SeaChat 打通 LINE 網路通話的 AI 客服全流程
+        </p>
+      </div>
+
+      <div class="flex justify-center items-center gap-12 mb-10">
+        <div class="relative group">
           <img
             src="/products/line-call-plus-api-logo.jpeg"
             alt="LINE Call Plus 標誌"
-            class="h-36 md:h-44 w-auto mt-4 block mx-auto"
+            class="h-36 md:h-44 w-auto transition-all duration-300 group-hover:scale-105 cursor-pointer"
             loading="lazy"
           />
-          <img
-            src="/products/line-messaging-api.png"
-            alt="LINE Messaging API"
-            class="h-32 md:h-36 w-auto mt-3 block mx-auto"
-            loading="lazy"
-          />
-        </div>
-        <div class="flex justify-center md:justify-end">
-          <div class="rounded-2xl border border-gray-200 shadow-md overflow-hidden bg-white">
+          <div class="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg pointer-events-none">
+            <p class="text-white text-center font-semibold text-sm bg-black/50 px-2 py-1 rounded">預覽</p>
+          </div>
+          <div class="absolute hidden group-hover:block top-1/2 left-[110%] z-10 p-2 bg-white rounded-xl shadow-2xl border w-[400px] pointer-events-none">
             <img
               src="/products/line-call-plus-on-seasalt-ai.jpeg"
               alt="LINE Call Plus 在 Seasalt.ai 的操作示意"
-              class="w-auto h-[520px] md:h-[620px] object-contain"
+              class="w-full h-auto object-contain rounded-lg"
               loading="lazy"
             />
+             <p class="text-center text-xs text-gray-600 mt-2">LINE Call Plus 操作示意</p>
+          </div>
+        </div>
+        <div class="relative group">
+          <img
+            src="/products/line-messaging-api.png"
+            alt="LINE Messaging API"
+            class="h-32 md:h-36 w-auto transition-all duration-300 group-hover:scale-105 cursor-pointer"
+            loading="lazy"
+          />
+          <div class="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg pointer-events-none">
+            <p class="text-white text-center font-semibold text-sm bg-black/50 px-2 py-1 rounded">預覽</p>
+          </div>
+          <div class="absolute hidden group-hover:block top-1/2 left-[110%] z-10 p-2 bg-white rounded-xl shadow-2xl border w-[400px] pointer-events-none">
+            <img
+              src="/products/line-messaging-api.png"
+              alt="LINE Messaging API"
+              class="w-full h-auto object-contain rounded-lg"
+              loading="lazy"
+            />
+             <p class="text-center text-xs text-gray-600 mt-2">LINE Messaging API</p>
           </div>
         </div>
       </div>
