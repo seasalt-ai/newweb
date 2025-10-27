@@ -203,6 +203,7 @@ interface Props {
   googleAnalytics?: string;
   googleTagManager?: string;
   facebookPixel?: string;
+  mautic?: boolean;
   
   // RSS and Feeds
   rssFeeds?: Array<{
@@ -263,8 +264,9 @@ const {
   yandexVerification,
   pinterestVerification,
   googleAnalytics,
-  googleTagManager,
+  googleTagManager="GTM-N26SF8T",
   facebookPixel,
+  mautic=true,
   rssFeeds = [],
   contentSecurityPolicy,
   themeColor = '#0EA5E9',
@@ -875,4 +877,16 @@ if (customJsonLd && customJsonLd.length > 0) {
     fbq('track', 'PageView');
   `} />
   <noscript><img height="1" width="1" style="display:none" src={`https://www.facebook.com/tr?id=${facebookPixel}&ev=PageView&noscript=1`} /></noscript>
+)}
+
+<!-- Mautic Tracking Script -->
+{mautic && (
+		<script set:html={`
+			(function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+				w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+				m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://m.seasalt.ai/mtc.js','mt');
+
+			mt('send', 'pageview');
+		`} />
 )}
