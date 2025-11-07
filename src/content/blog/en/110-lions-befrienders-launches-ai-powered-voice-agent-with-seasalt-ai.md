@@ -42,9 +42,23 @@ The development of this feature has been a close-knit collaboration between Lion
 
 “SeaVoice system was engineered not merely as a voice interface, but as a conduit for human empathy at scale,” said Xuchen, CEO of SeaSalt.AI. “Our collaboration with Lion Befrienders exemplifies how deeply tuned, real-time conversational AI—infused with native dialects and emotional intelligence—can elevate care delivery without compromising its soul. We are proud to co-create a system that augments human connection, not replaces it.”The initial roll-out, Phase 2A, began this October 2025, following successful trials with 100 seniors at the centres. Lion Befrienders aims for a full launch of the integrated feature by March 2026.
 
-[AI 'Voice Guardian': The Future of Empathetic Senior Care](https://youtu.be/omCqHqPxsf0)
-
-SeaVoice system demonstration, by Seasalt.ai
+<div style="display: flex; justify-content: center; margin: 2rem 0;">
+  <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-width: 100%; width: fit-content;">
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/omCqHqPxsf0" 
+      title="AI 'Voice Guardian': The Future of Empathetic Senior Care" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen
+      style="border-radius: 12px; display: block;">
+    </iframe>
+    <p style="text-align: center; margin: 1rem 0 0 0; color: #666; font-style: italic; font-size: 0.9rem;">
+      SeaVoice system demonstration, by Seasalt.ai
+    </p>
+  </div>
+</div>
 
 ## Building a Community of Support
 
