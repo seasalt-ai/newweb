@@ -1,7 +1,7 @@
 ---
 title: Die einzigen 2 wirklich kostenlosen Web-Chat-Widgets, die wir für Websites
   gefunden haben
-description: '"" # 需要确认'
+description: ''
 publishDate: '2024-11-17'
 updatedDate: '2025-07-27'
 author: Xuchen Yao | Jun Mao

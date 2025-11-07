@@ -1,7 +1,7 @@
 ---
 title: Singurele 2 widgeturi de chat web cu adevărat gratuite pe care le-am găsit
   pentru site-uri web
-description: '"" # 需要确认'
+description: ''
 publishDate: '2024-11-17'
 author: Xuchen Yao | Jun Mao
 image:

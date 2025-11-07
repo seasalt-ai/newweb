@@ -333,14 +333,17 @@ const breadcrumbs = [
 
       <!-- 文章內容 -->
       <section class="py-8 sm:py-12 bg-white relative">
-        <!-- 目錄 -->
-        <div id="table-of-contents" class="fixed top-1/2 right-4 transform -translate-y-1/2 z-10 bg-white p-4 rounded-lg shadow-lg border border-gray-200 max-w-xs hidden lg:block">
-          <h3 class="font-semibold text-sm text-gray-900 mb-3">{t('blog.details.tableOfContents') || 'Table of Contents'}</h3>
-          <nav id="toc-nav" class="text-sm"></nav>
-        </div>
-        
         <div class="max-w-none mx-auto">
-          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <!-- TOC Container with proper spacing -->
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <!-- 目錄 -->
+            <div id="table-of-contents" class="fixed top-1/2 transform -translate-y-1/2 z-10 bg-white p-4 rounded-lg shadow-lg border border-gray-200 max-w-xs hidden xl:block" style="left: calc(50% + 420px); max-height: 70vh; overflow-y: auto;">
+              <h3 class="font-semibold text-sm text-gray-900 mb-3">{t('blog.details.tableOfContents') || 'Table of Contents'}</h3>
+              <nav id="toc-nav" class="text-sm"></nav>
+            </div>
+            
+            <!-- Content with proper margin for TOC -->
+            <div class="max-w-4xl mx-auto xl:mr-80">
             <article class="prose prose-lg prose-blue max-w-none
               prose-headings:text-gray-900 prose-headings:font-bold prose-headings:tracking-tight
               prose-h1:text-4xl prose-h1:mb-8 prose-h1:mt-12 prose-h1:font-extrabold prose-h1:leading-tight
@@ -367,6 +370,7 @@ const breadcrumbs = [
             >
               <Content />
             </article>
+            </div>
           </div>
         </div>
       </section>

@@ -1,6 +1,6 @@
 ---
 title: تنها 2 ویجت چت وب واقعاً رایگان که برای وب سایت ها پیدا کردیم
-description: '"" # 需要确认'
+description: ''
 publishDate: '2024-11-17'
 updatedDate: '2025-07-27'
 author: Xuchen Yao | Jun Mao

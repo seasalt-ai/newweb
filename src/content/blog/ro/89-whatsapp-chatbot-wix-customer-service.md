@@ -1,6 +1,6 @@
 ---
 title: Integrarea Chatbot-ului AI SeaChat cu WhatsApp și Wix pentru Serviciul Clienți
-description: '"" # 需要确认'
+description: ''
 publishDate: '2023-10-26'
 updatedDate: '2024-07-29'
 author: SeaChat

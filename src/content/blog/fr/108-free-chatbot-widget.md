@@ -1,7 +1,7 @@
 ---
 title: Les 2 seuls widgets de chat web vraiment gratuits que nous avons trouvés pour
   les sites web
-description: '"" # 需要确认'
+description: ''
 publishDate: '2024-11-17'
 updatedDate: '2025-07-27'
 author: Xuchen Yao | Jun Mao

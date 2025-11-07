@@ -1,7 +1,7 @@
 ---
 title: 2 widget trò chuyện web miễn phí duy nhất chúng tôi tìm thấy cho các trang
   web
-description: '"" # 需要确认'
+description: ''
 publishDate: '2024-11-17'
 updatedDate: '2025-07-27'
 author: Xuchen Yao | Jun Mao
