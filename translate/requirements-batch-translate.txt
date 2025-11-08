@@ -1,0 +1,5 @@
+# Requirements for batch blog translation script
+openai>=1.54.0
+pyyaml>=6.0
+python-frontmatter>=1.1.0
+colorama>=0.4.6

@@ -4,7 +4,7 @@ description: Lion Befrienders partners with Seasalt.ai to launch an AI voice age
 publishDate: '2025-11-09'
 author: Xuchen Yao
 image:
-  url: /images/blog/110-seachat-featured-smooth-rentals/seachat-smoothrentals-feature.jpeg
+  url: /images/blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai.png
   alt: 'SeaVoice Featured: Voice AI agents for senior care with Lions Befrienders'
 tags:
 - SeaVoice
@@ -16,6 +16,7 @@ tags:
 - Automated Check-in Calls
 lang: en
 draft: false
+url: /blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai
 ---
 
 # With Seasalt.ai, Lion Befrienders Launches AI-Powered Voice Agent to Deepen Care and Combat Manpower Burnout
@@ -25,6 +26,12 @@ Singapore – \[November 9, 2025\] – Lion Befrienders Service Association (Lio
 The move addresses two critical needs within the social service sector: combating staff manpower burnout and ensuring regular, consistent contact with vulnerable seniors.
 
 "Our mission has always been to provide holistic care and build a supportive community for our seniors," said Karen Wee, Executive Director of Lions Befrienders "The collaboration with Seasalt.ai marks a crucial step in fulfilling that mission in the digital age. This AI voice agent is not replacing the human touch; it is multiplying its impact. By automating routine check-in calls, we free up our dedicated staff to provide deeper, more personalized support for seniors who need it most, ensuring no one is left behind."
+
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/images/blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai-vertical.png" alt="Lions Befrienders and Seasalt.ai collaboration for senior care" style="max-width: 40%; height: auto;">
+</div>
+
+
 
 ## How the Technology Works to Enhance Care
 
@@ -38,7 +45,7 @@ The AI voice agent automates routine communication, allowing Lion Befrienders st
 
 ## A Collaborative and Tested Approach
 
-The development of this feature has been a close-knit collaboration between Lion Befrienders staff, Seasalt.ai’s [SeaVoice system](https://seasalt.ai/en/seavoice), and the seniors themselves since 2023\. Phase 1 testing yielded highly encouraging results, with strong acceptance from the seniors.
+The development of this feature has been a close-knit collaboration between Lion Befrienders staff, Seasalt.ai’s [SeaVoice system](https://seasalt.ai/seavoice), and the seniors themselves since 2023\. Phase 1 testing yielded highly encouraging results, with strong acceptance from the seniors.
 
 “SeaVoice system was engineered not merely as a voice interface, but as a conduit for human empathy at scale,” said Xuchen, CEO of SeaSalt.AI. “Our collaboration with Lion Befrienders exemplifies how deeply tuned, real-time conversational AI—infused with native dialects and emotional intelligence—can elevate care delivery without compromising its soul. We are proud to co-create a system that augments human connection, not replaces it.”The initial roll-out, Phase 2A, began this October 2025, following successful trials with 100 seniors at the centres. Lion Befrienders aims for a full launch of the integrated feature by March 2026.
 
@@ -81,4 +88,4 @@ Established in 1995, Lions Befrienders Service Association (Singapore) (LBSA) is
 
 Seasalt.ai is transforming the world of business communication by building natural, actionable AI conversations anywhere, on any channel. The company operates on the core philosophy that the future of work is AI-augmented, not AI-replaced, designing technology that empowers human potential and allows people to focus on what truly matters. 
 
-Seasalt.ai’s comprehensive platform of AI-powered solutions includes: [**SeaVoice**](https://seasalt.ai/en/seavoice), an advanced voice AI for human-like inbound and outbound calls; [**SeaChat**](https://seasalt.ai/en/seachat), an omnichannel customer service solution for messaging and web; [**SeaX**](https://seasalt.ai/en/seax), an outreach AI for sales and marketing engagement; and [**SeaMeet**](https://seameet.ai), an AI copilot for business meeting insights. This integrated suite enables organizations to seamlessly blend AI automation with human expertise, delivering exceptional service and driving growth through smarter, more meaningful communication.
+Seasalt.ai’s comprehensive platform of AI-powered solutions includes: [**SeaVoice**](https://seasalt.ai/seavoice), an advanced voice AI for human-like inbound and outbound calls; [**SeaChat**](https://seasalt.ai/seachat), an omnichannel customer service solution for messaging and web; [**SeaX**](https://seasalt.ai/seax), an outreach AI for sales and marketing engagement; and [**SeaMeet**](https://seameet.ai), an AI copilot for business meeting insights. This integrated suite enables organizations to seamlessly blend AI automation with human expertise, delivering exceptional service and driving growth through smarter, more meaningful communication.
