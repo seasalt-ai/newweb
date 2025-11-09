@@ -1,6 +1,6 @@
 ---
 title: The Only 2 Truly Free Web Chat Widgets We Found For Websites
-description: '"" # 需要确认'
+description: ''
 publishDate: '2024-11-17'
 author: Xuchen Yao | Jun Mao
 image:

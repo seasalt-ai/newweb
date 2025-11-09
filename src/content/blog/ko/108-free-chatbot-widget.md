@@ -1,6 +1,6 @@
 ---
 title: 웹사이트를 위해 찾은 유일한 2가지 진정한 무료 웹 채팅 위젯
-description: '"" # 需要确认'
+description: ''
 publishDate: '2024-11-17'
 updatedDate: '2025-07-27'
 author: Xuchen Yao | Jun Mao

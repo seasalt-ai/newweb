@@ -1,6 +1,6 @@
 ---
 title: 我们为网站找到的仅有的 2 个真正免费的网页聊天小部件
-description: '"" # 需要确认'
+description: ''
 publishDate: '2024-11-17'
 updatedDate: '2025-07-27'
 author: Xuchen Yao | Jun Mao

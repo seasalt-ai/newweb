@@ -1,0 +1,491 @@
+name: Blog Translation PR Handler
+
+# SSH DEBUGGING INSTRUCTIONS:
+# Method 1 - Manual Trigger:
+#   1. Go to Actions tab in GitHub
+#   2. Find "Blog Translation PR Handler" workflow
+#   3. Click "Run workflow"
+#   4. Check "Enable SSH debugging" checkbox
+#   5. Click "Run workflow"
+# Method 2 - PR Label:
+#   1. Add label "debug-ssh" to any PR
+#   2. Workflow will auto-detect and start SSH session
+# 
+# When debugging is active, look for tmate session info in logs:
+#   Web shell: https://tmate.io/t/xxxxx
+#   SSH: ssh xxxxx@xxx.tmate.io
+# 
+# Session features:
+#   - 30-minute timeout
+#   - Access restricted to workflow trigger user
+#   - Starts early in workflow for full debugging
+#   - Detached mode (workflow continues while you debug)
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+  # manually trigger this workflow under Actions on GitHub
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: 'Enable SSH debugging (tmate session)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check-blog-translation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Setup tmate session for debugging
+      if: ${{ github.event.inputs.debug == 'true' || contains(github.event.pull_request.labels.*.name, 'debug-ssh') }}
+      uses: mxschmitt/action-tmate@v3
+      with:
+        limit-access-to-actor: true
+        detached: true
+      timeout-minutes: 30
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Install Gemini CLI
+      run: npm install -g @google/gemini-cli
+      
+    - name: Setup Gemini credentials
+      run: |
+        mkdir -p ~/.gemini
+        echo '${{ secrets.GEMINI_GOOGLE_ACCOUNTS }}' > ~/.gemini/google_accounts.json
+        echo '${{ secrets.GEMINI_INSTALLATION_ID }}' > ~/.gemini/installation_id
+        echo '${{ secrets.GEMINI_OAUTH_CREDS }}' > ~/.gemini/oauth_creds.json
+        echo '${{ secrets.GEMINI_SETTINGS }}' > ~/.gemini/settings.json
+        echo '${{ secrets.GEMINI_USER_ID }}' > ~/.gemini/user_id
+        
+    - name: Verify Gemini CLI installation
+      run: |
+        echo "Testing Gemini CLI installation..."
+        USE_FLASH_MODEL=false
+        
+        echo "=== Testing default model ==="
+        DEFAULT_OUTPUT=$(gemini -y -p "what is 2+2?" 2>&1)
+        DEFAULT_EXIT_CODE=$?
+        echo "Exit code: $DEFAULT_EXIT_CODE"
+        echo "Output: $DEFAULT_OUTPUT"
+        
+        # Check if output contains error indicators or if exit code failed
+        ERROR_COUNT=$(echo "$DEFAULT_OUTPUT" | grep -i "error\|failed\|exception" | wc -l)
+        echo "Error keyword count: $ERROR_COUNT"
+        
+        if [ $DEFAULT_EXIT_CODE -eq 0 ] && [ $ERROR_COUNT -le 2 ]; then
+          echo "✅ Gemini CLI is working correctly with default model"
+        else
+          echo "⚠️ Default model failed (exit code: $DEFAULT_EXIT_CODE, error count: $ERROR_COUNT), trying with gemini-2.5-flash..."
+          
+          echo "=== Testing flash model ==="
+          FLASH_OUTPUT=$(gemini -y -m gemini-2.5-flash -p "what is 2+2?" 2>&1)
+          FLASH_EXIT_CODE=$?
+          echo "Exit code: $FLASH_EXIT_CODE"
+          echo "Output: $FLASH_OUTPUT"
+          
+          FLASH_ERROR_COUNT=$(echo "$FLASH_OUTPUT" | grep -i "error\|failed\|exception" | wc -l)
+          echo "Error keyword count: $FLASH_ERROR_COUNT"
+          
+          if [ $FLASH_EXIT_CODE -eq 0 ] && [ $FLASH_ERROR_COUNT -le 2 ]; then
+            echo "✅ Gemini CLI is working correctly with flash model"
+            USE_FLASH_MODEL=true
+          else
+            echo "❌ Both models failed"
+            echo "Default model - exit code: $DEFAULT_EXIT_CODE, error count: $ERROR_COUNT"
+            echo "Flash model - exit code: $FLASH_EXIT_CODE, error count: $FLASH_ERROR_COUNT"
+            echo "Checking Gemini CLI version..."
+            gemini --version || echo "Could not get version"
+            echo "Checking Node.js version..."
+            node --version
+            echo "Checking npm version..."
+            npm --version
+            exit 1
+          fi
+        fi
+        
+        # Store the model preference for later steps
+        echo "USE_FLASH_MODEL=$USE_FLASH_MODEL" >> $GITHUB_ENV
+        
+    - name: Get PR details
+      id: pr-details
+      env:
+        PR_BODY: ${{ github.event.pull_request.body }}
+      run: |
+        # Store PR body using environment variable to avoid shell escaping issues
+        echo "PR_BODY<<DELIMITER_${{ github.run_id }}" >> $GITHUB_OUTPUT
+        echo "$PR_BODY" >> $GITHUB_OUTPUT
+        echo "DELIMITER_${{ github.run_id }}" >> $GITHUB_OUTPUT
+        
+        # Check for blog-translation marker
+        if echo "$PR_BODY" | grep -q "<!-- blog-translation -->"; then
+          echo "has-blog-marker=true" >> $GITHUB_OUTPUT
+          echo "✅ Found blog-translation marker"
+        else
+          echo "has-blog-marker=false" >> $GITHUB_OUTPUT
+          echo "❌ Missing blog-translation marker"
+        fi
+        
+        # Check if criteria are met (only blog-translation marker needed)
+        if echo "$PR_BODY" | grep -q "<!-- blog-translation -->"; then
+          echo "meets-description-criteria=true" >> $GITHUB_OUTPUT
+          echo "✅ PR description meets criteria"
+        else
+          echo "meets-description-criteria=false" >> $GITHUB_OUTPUT
+          echo "❌ PR description does not meet criteria"
+        fi
+          
+    - name: Get changed files
+      id: changed-files
+      if: steps.pr-details.outputs.meets-description-criteria == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const { data: files } = await github.rest.pulls.listFiles({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            pull_number: context.issue.number
+          });
+          
+          console.log('All changed files:', files.map(f => f.filename));
+          
+          // Check specifically for blog.md file
+          const blogMdFile = files.find(file => 
+            file.filename === 'blog.md' && 
+            (file.status === 'added' || file.status === 'modified')
+          );
+          
+          const hasBlogMd = !!blogMdFile;
+          console.log('Has blog.md file:', hasBlogMd);
+          
+          core.setOutput('has-blog-md', hasBlogMd);
+          core.setOutput('md-file-name', hasBlogMd ? 'blog.md' : '');
+          core.setOutput('meets-file-criteria', hasBlogMd);
+          
+    - name: Process blog post
+      if: steps.pr-details.outputs.meets-description-criteria == 'true' && steps.changed-files.outputs.meets-file-criteria == 'true'
+      run: |
+        echo "=== BLOG TRANSLATION PR DETECTED ==="
+        echo ""
+        echo "Modified File: ${{ steps.changed-files.outputs.md-file-name }}"
+        echo ""
+        
+        # Store the original file path
+        ORIG_MD="${{ steps.changed-files.outputs.md-file-name }}"
+        echo "ORIG_MD_PATH=$ORIG_MD" >> $GITHUB_ENV
+        
+        echo "=== ORIGINAL FILE CONTENT ==="
+        echo ""
+        cat "$ORIG_MD"
+        echo ""
+        echo "=== END OF ORIGINAL FILE CONTENT ==="
+        echo ""
+        
+        # Get today's date in YYYY-MM-DD format
+        TODAY_DATE=$(date +%Y-%m-%d)
+        echo "Processing date: $TODAY_DATE"
+        
+        echo "=== CONVERTING $ORIG_MD TO BLOG POST FORMAT ==="
+        echo ""
+        
+        # Use Gemini to convert the file to proper blog post format
+        echo "=== CONVERTING TO BLOG POST FORMAT ==="
+        echo "Using flash model: $USE_FLASH_MODEL (determined from initial test)"
+        
+        GEMINI_PROMPT="Read the content of $ORIG_MD and convert it into a properly formatted blog post. Add YAML frontmatter with these exact fields: title, meta_description, author: SeaMeet Copilot, date: $TODAY_DATE, modified_date: $TODAY_DATE, url: /blog/convert-title-to-url-slug, category, tags: as-array-format. Write the complete result to a new file called blog-gemini.md. Do not just describe what you would do - actually create the file with the full content."
+        
+        if [ "$USE_FLASH_MODEL" = true ]; then
+          GEMINI_CMD="gemini -y -m gemini-2.5-flash -p \"$GEMINI_PROMPT\""
+          echo "Running command (flash model): $GEMINI_CMD"
+        else
+          GEMINI_CMD="gemini -y -p \"$GEMINI_PROMPT\""
+          echo "Running command (default model): $GEMINI_CMD"
+        fi
+        
+        BLOG_OUTPUT=$(eval "$GEMINI_CMD" 2>&1)
+        BLOG_EXIT_CODE=$?
+        BLOG_ERROR_COUNT=$(echo "$BLOG_OUTPUT" | grep -i "error\|failed\|exception" | wc -l)
+        
+        echo "Blog generation - Exit code: $BLOG_EXIT_CODE, Error count: $BLOG_ERROR_COUNT"
+        
+        if [ $BLOG_EXIT_CODE -ne 0 ] || [ $BLOG_ERROR_COUNT -gt 5 ]; then
+          if [ "$USE_FLASH_MODEL" = false ]; then
+            echo "⚠️ Default model failed, switching to gemini-2.5-flash for all subsequent commands"
+            USE_FLASH_MODEL=true
+            echo "USE_FLASH_MODEL=true" >> $GITHUB_ENV
+            GEMINI_CMD="gemini -y -m gemini-2.5-flash -p \"$GEMINI_PROMPT\""
+            echo "Retrying with: $GEMINI_CMD"
+            
+            BLOG_RETRY_OUTPUT=$(eval "$GEMINI_CMD" 2>&1)
+            BLOG_RETRY_EXIT_CODE=$?
+            BLOG_RETRY_ERROR_COUNT=$(echo "$BLOG_RETRY_OUTPUT" | grep -i "error\|failed\|exception" | wc -l)
+            
+            echo "Blog retry - Exit code: $BLOG_RETRY_EXIT_CODE, Error count: $BLOG_RETRY_ERROR_COUNT"
+            
+            if [ $BLOG_RETRY_EXIT_CODE -ne 0 ] || [ $BLOG_RETRY_ERROR_COUNT -gt 5 ]; then
+              echo "❌ Flash model also failed for blog post generation"
+              exit 1
+            fi
+          else
+            echo "❌ Flash model failed for blog post generation"
+            exit 1
+          fi
+        fi
+        
+        echo ""
+        echo "=== GENERATED BLOG POST ==="
+        cat blog-gemini.md
+        echo ""
+        
+        # Check if conversion worked
+        if [ -f "blog-gemini.md" ] && [ -s "blog-gemini.md" ]; then
+          echo "✅ Blog post generated successfully:"
+          cat blog-gemini.md
+          echo ""
+          echo "=== TRANSLATING TO ALL LANGUAGES ==="
+          
+          # Define supported languages
+          LANGUAGES="en zh-CN zh-TW ja ko ar de es fa fil fr hi id ms pl pt ru ta th vi"
+          # for quick test:
+          # LANGUAGES="en zh-CN"
+          
+          # Create directories if they don't exist
+          for lang in $LANGUAGES; do
+            mkdir -p "src/content/blog/$lang"
+          done
+          
+          # Translate to each language
+          SUCCESSFUL_TRANSLATIONS=0
+          FAILED_TRANSLATIONS=0
+          
+          for lang in $LANGUAGES; do
+            echo "🌍 Translating to $lang..."
+            
+            # Count files before translation
+            FILES_BEFORE=$(find "src/content/blog/$lang" -name "*.md" -type f 2>/dev/null | wc -l)
+            
+            TRANSLATE_PROMPT="translate blog-gemini.md and put it under the src/content/blog/$lang/ folder with a proper name by the url field in the yaml frontmatter. Do NOT name it blog-gemini.md. If the file is already in $lang, then just copy it to the folder with a file name from the url key in the yaml frontmatter. Do not name it blog-gemini.md. Do not delete blog-gemini.md either. If the destination file already exists, then you can skip and end the task."
+            
+            # Use appropriate model based on previous failures
+            if [ "$USE_FLASH_MODEL" = true ]; then
+              TRANSLATE_CMD="gemini -y -m gemini-2.5-flash -p \"$TRANSLATE_PROMPT\""
+              echo "Running (flash model): $TRANSLATE_CMD"
+            else
+              TRANSLATE_CMD="gemini -y -p \"$TRANSLATE_PROMPT\""
+              echo "Running (default model): $TRANSLATE_CMD"
+            fi
+            
+            TRANSLATE_OUTPUT=$(eval "$TRANSLATE_CMD" 2>&1)
+            TRANSLATE_EXIT_CODE=$?
+            TRANSLATE_ERROR_COUNT=$(echo "$TRANSLATE_OUTPUT" | grep -i "error\|failed\|exception" | wc -l)
+            
+            echo "Translation output for $lang - Exit code: $TRANSLATE_EXIT_CODE, Error count: $TRANSLATE_ERROR_COUNT"
+            echo "$TRANSLATE_OUTPUT"
+            
+            if [ $TRANSLATE_EXIT_CODE -ne 0 ] || [ $TRANSLATE_ERROR_COUNT -gt 5 ]; then
+              if [ "$USE_FLASH_MODEL" = false ]; then
+                echo "⚠️ Default model failed for $lang, switching to gemini-2.5-flash for all remaining translations"
+                USE_FLASH_MODEL=true
+                TRANSLATE_CMD="gemini -y -m gemini-2.5-flash -p \"$TRANSLATE_PROMPT\""
+                echo "Retrying with flash model: $TRANSLATE_CMD"
+                
+                TRANSLATE_RETRY_OUTPUT=$(eval "$TRANSLATE_CMD" 2>&1)
+                TRANSLATE_RETRY_EXIT_CODE=$?
+                TRANSLATE_RETRY_ERROR_COUNT=$(echo "$TRANSLATE_RETRY_OUTPUT" | grep -i "error\|failed\|exception" | wc -l)
+                
+                echo "Translation retry for $lang - Exit code: $TRANSLATE_RETRY_EXIT_CODE, Error count: $TRANSLATE_RETRY_ERROR_COUNT"
+                echo "$TRANSLATE_RETRY_OUTPUT"
+                
+                if [ $TRANSLATE_RETRY_EXIT_CODE -ne 0 ] || [ $TRANSLATE_RETRY_ERROR_COUNT -gt 5 ]; then
+                  echo "❌ Flash model also failed for $lang - stopping translation process"
+                  FAILED_TRANSLATIONS=$((FAILED_TRANSLATIONS + 1))
+                  break
+                else
+                  echo "✅ Flash model retry successful for $lang"
+                fi
+              else
+                echo "❌ Flash model failed for $lang - stopping translation process"
+                FAILED_TRANSLATIONS=$((FAILED_TRANSLATIONS + 1))
+                break
+              fi
+            fi
+            
+            # Count files after translation
+            FILES_AFTER=$(find "src/content/blog/$lang" -name "*.md" -type f 2>/dev/null | wc -l)
+            FILES_ADDED=$((FILES_AFTER - FILES_BEFORE))
+            
+            if [ $FILES_ADDED -eq 1 ]; then
+              echo "✅ Translation to $lang successful (added $FILES_ADDED file)"
+              SUCCESSFUL_TRANSLATIONS=$((SUCCESSFUL_TRANSLATIONS + 1))
+            else
+              echo "❌ Translation to $lang failed (added $FILES_ADDED files, expected 1)"
+              FAILED_TRANSLATIONS=$((FAILED_TRANSLATIONS + 1))
+            fi
+            
+            # Small delay to avoid overwhelming the API
+            sleep 2
+          done
+          
+          echo ""
+          echo "=== TRANSLATION SUMMARY ==="
+          echo "✅ Successful translations: $SUCCESSFUL_TRANSLATIONS/20"
+          echo "❌ Failed translations: $FAILED_TRANSLATIONS/20"
+          echo ""
+          echo "File counts per language:"
+          for lang in $LANGUAGES; do
+            FILE_COUNT=$(find "src/content/blog/$lang" -name "*.md" -type f 2>/dev/null | wc -l)
+            echo "$lang: $FILE_COUNT files"
+          done
+          
+          echo ""
+          echo "=== CLEANING UP TEMPORARY FILES ==="
+          echo "Deleting temporary file: blog-gemini.md (keeping original: $ORIG_MD)"
+          rm -f blog-gemini.md
+          
+          echo ""
+          echo "=== COMMITTING CHANGES ==="
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Get the current branch name from the PR
+          BRANCH_NAME="${{ github.head_ref }}"
+          echo "Target branch: $BRANCH_NAME"
+          
+          # Checkout the actual branch instead of detached HEAD
+          git fetch origin "$BRANCH_NAME"
+          git checkout "$BRANCH_NAME"
+          
+          git add src/content/blog/
+          git add -u  # Add deletions
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "feat: add translated blog posts for all languages
+            
+            - Translated blog post to 20 languages: $LANGUAGES
+            - Generated from: $ORIG_MD
+            - Auto-generated by blog translation workflow"
+            
+            git push origin "$BRANCH_NAME"
+            echo "✅ Changes committed and pushed successfully"
+            
+            # Add comprehensive PR comment with results
+            echo ""
+            echo "=== ADDING PR COMMENT ==="
+            
+            # Build comment content safely
+            echo "## 🌍 Blog Translation Workflow Results" > pr_comment.md
+            echo "" >> pr_comment.md
+            echo "### ✅ Translation Summary" >> pr_comment.md
+            echo "- **Original File**: \`$ORIG_MD\`" >> pr_comment.md
+            echo "- **Generated Blog Post**: \`blog-gemini.md\`" >> pr_comment.md
+            echo "- **Successful Translations**: $SUCCESSFUL_TRANSLATIONS/20 languages" >> pr_comment.md
+            echo "- **Failed Translations**: $FAILED_TRANSLATIONS/20 languages" >> pr_comment.md
+            echo "" >> pr_comment.md
+            
+            echo "### 🎯 Gemini Model Used" >> pr_comment.md
+            if [ "$USE_FLASH_MODEL" = true ]; then
+              echo "- **Model Selection**: gemini-2.5-flash (switched due to default model issues)" >> pr_comment.md
+            else
+              echo "- **Model Selection**: Default model (worked throughout)" >> pr_comment.md
+            fi
+            echo "" >> pr_comment.md
+            
+            echo "### 📊 Translation Results by Language" >> pr_comment.md
+            for lang in $LANGUAGES; do
+              # Count only newly added files for this language
+              NEW_FILE_COUNT=$(git diff --name-only --diff-filter=A HEAD~1 HEAD | grep "src/content/blog/$lang/.*\.md$" | wc -l)
+              
+              # Fallback to git status if git diff doesn't work
+              if [ $NEW_FILE_COUNT -eq 0 ]; then
+                NEW_FILE_COUNT=$(git status --porcelain | grep "^A.*src/content/blog/$lang/.*\.md$" | wc -l)
+              fi
+              
+              if [ $NEW_FILE_COUNT -gt 0 ]; then
+                echo "- ✅ **$lang**: $NEW_FILE_COUNT new files" >> pr_comment.md
+              else
+                echo "- ❌ **$lang**: No new files created" >> pr_comment.md
+              fi
+            done
+            echo "" >> pr_comment.md
+            
+            echo "### 📁 Files Created" >> pr_comment.md
+            # Get only the newly added files from git status
+            git diff --name-only --diff-filter=A HEAD~1 HEAD | grep "src/content/blog/.*\.md$" | sort | while read file; do
+              echo "- \`$file\`" >> pr_comment.md
+            done
+            
+            # If no files found with git diff, try git status for staged files
+            if [ ! -s pr_comment.md ] || [ $(grep -c "src/content/blog/" pr_comment.md) -eq 0 ]; then
+              git status --porcelain | grep "^A.*src/content/blog/.*\.md$" | cut -c4- | sort | while read file; do
+                echo "- \`$file\`" >> pr_comment.md
+              done
+            fi
+            
+            # If still no files, show a message
+            if [ $(grep -c "src/content/blog/" pr_comment.md) -eq 0 ]; then
+              echo "- No new blog files detected" >> pr_comment.md
+            fi
+            echo "" >> pr_comment.md
+            
+            echo "### 🧹 Cleanup Actions" >> pr_comment.md
+            echo "- ✅ Kept original file: \`$ORIG_MD\`" >> pr_comment.md
+            echo "- ✅ Deleted temporary file: \`blog-gemini.md\`" >> pr_comment.md
+            echo "- ✅ Committed all changes to branch: \`$BRANCH_NAME\`" >> pr_comment.md
+            echo "" >> pr_comment.md
+            
+            echo "### 🔧 Workflow Details" >> pr_comment.md
+            echo "- **Workflow Run**: [View Details](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> pr_comment.md
+            echo "- **Commit Hash**: \`$(git rev-parse HEAD)\`" >> pr_comment.md
+            echo "- **Processing Date**: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> pr_comment.md
+            echo "" >> pr_comment.md
+            echo "---" >> pr_comment.md
+            echo "*🤖 This comment was automatically generated by the Blog Translation Workflow*" >> pr_comment.md
+            
+            # Post the comment using GitHub API
+            curl -X POST \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              "${{ github.api_url }}/repos/${{ github.repository }}/issues/${{ github.event.number }}/comments" \
+              -d "{\"body\": $(cat pr_comment.md | jq -Rs .)}"
+            
+            echo "✅ PR comment added successfully"
+          fi
+          
+        else
+          echo "❌ Failed to generate blog post"
+          echo "Checking file status:"
+          ls -la blog-gemini* 2>/dev/null || echo "No blog-gemini files found"
+          echo ""
+          echo "Testing file creation permissions:"
+          echo "Test content" > test-file.md
+          ls -la test-file.md
+        fi
+        echo ""
+        echo "=== END OF BLOG TRANSLATION PROCESS ==="
+        
+    - name: Log validation failure
+      if: steps.pr-details.outputs.meets-description-criteria != 'true' || steps.changed-files.outputs.meets-file-criteria != 'true'
+      run: |
+        echo "=== BLOG TRANSLATION PR VALIDATION FAILED ==="
+        echo ""
+        echo "Has blog-translation marker: ${{ steps.pr-details.outputs.has-blog-marker }}"
+        echo "Has blog.md file: ${{ steps.changed-files.outputs.has-blog-md }}"
+        echo "MD file name: ${{ steps.changed-files.outputs.md-file-name }}"
+        echo ""
+        echo "This PR does not meet the blog translation criteria."
