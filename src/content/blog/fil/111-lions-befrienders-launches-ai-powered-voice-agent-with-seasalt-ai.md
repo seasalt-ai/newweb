@@ -1,6 +1,6 @@
 ---
 author: Xuchen Yao
-description: Ang Lion Befrienders ay nakipagsosyo sa Seasalt.ai upang ilunsad ang
+description: Ang Lions Befrienders ay nakipagsosyo sa Seasalt.ai upang ilunsad ang
   isang AI voice agent para sa pangangalaga sa mga matatanda. Ito ay nag-a-automate
   ng mga check-in call, nagpaprioridad ng mga kagyat na pangangailangan, at nilalabanan
   ang pagkapagod ng mga kawani.
@@ -18,13 +18,13 @@ tags:
 - Pagkapagod ng Mga Kawani
 - Pangangalaga sa Mga Matatanda
 - Automatikong Check-in Call
-title: Kasama ang Seasalt.ai, Inilunsad ng Lion Befrienders ang AI-Powered Voice Agent
+title: Kasama ang Seasalt.ai, Inilunsad ng Lions Befrienders ang AI-Powered Voice Agent
   para Palalimin ang Pangangalaga at Labanan ang Manpower Burnout
 url: /blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai
 ---
-# Sa Pamamagitan ng Seasalt.ai, Inilunsad ng Lion Befrienders ang AI-Powered Voice Agent para Palakasin ang Paggagabay at Labanan ang Manpower Burnout
+# Sa Pamamagitan ng Seasalt.ai, Inilunsad ng Lions Befrienders ang AI-Powered Voice Agent para Palakasin ang Paggagabay at Labanan ang Manpower Burnout
 
-Singapore – [Nobyembre 9, 2025] – Ang Lion Befrienders Service Association (Lion Befrienders) ay inihayag ngayon ang paglulunsad ng kanyang makabagong AI-powered voice agent, isang state-of-the-art na teknolohikal na solusyon na binuo sa pakikipagtulungan sa Seasalt.ai. Ang bagong tampok na ito ay inilaan upang baguhin ang paraan ng pagsuporta ng Lion Befrienders sa mga benepisyaryo nito, na nagpapahintulot sa mga kawani na makabuluhang taasan ang outreach at ituon ang kanilang kadalubhasaan sa paghahatid ng mataas na kalidad, makabuluhang pag-aalaga.
+Singapore – [Nobyembre 9, 2025] – Ang Lions Befrienders Service Association (Lions Befrienders) ay inihayag ngayon ang paglulunsad ng kanyang makabagong AI-powered voice agent, isang state-of-the-art na teknolohikal na solusyon na binuo sa pakikipagtulungan sa Seasalt.ai. Ang bagong tampok na ito ay inilaan upang baguhin ang paraan ng pagsuporta ng Lions Befrienders sa mga benepisyaryo nito, na nagpapahintulot sa mga kawani na makabuluhang taasan ang outreach at ituon ang kanilang kadalubhasaan sa paghahatid ng mataas na kalidad, makabuluhang pag-aalaga.
 
 Ang hakbang na ito ay tumutugon sa dalawang kritikal na pangangailangan sa loob ng sektor ng serbisyong panlipunan: ang paglaban sa burnout ng mga kawani at ang pagsiguro ng regular, pare-parehong ugnayan sa mga mahihinang senior citizens.
 
@@ -38,19 +38,19 @@ Ang hakbang na ito ay tumutugon sa dalawang kritikal na pangangailangan sa loob 
 
 ## Paano Gumagana ang Teknolohiya para Palakasin ang Paggagabay
 
-Ang AI voice agent ay nag-a-automate ng mga regular na komunikasyon, na nagpapahintulot sa mga kawani ng Lion Befrienders na gumawa ng mas maraming tawag sa isang araw. Ang sistema ay inangkop gamit ang lokal na lingo at isang natural, empathetic na tono upang tiyakin ang isang komportable at pamilyar na karanasan para sa mga senior.
+Ang AI voice agent ay nag-a-automate ng mga regular na komunikasyon, na nagpapahintulot sa mga kawani ng Lions Befrienders na gumawa ng mas maraming tawag sa isang araw. Ang sistema ay inangkop gamit ang lokal na lingo at isang natural, empathetic na tono upang tiyakin ang isang komportable at pamilyar na karanasan para sa mga senior.
 
 * Mas Maraming Interaksyon: Ang automation ay makabuluhang nagpapataas ng bilang ng mga senior na maaaring maabot araw-araw, nagpapalakas ng pangkalahatang interaksyon at binabawasan ang social isolation.
 
-* Pagsasauna ng Kailangang Emerhensya: Isang kritikal na tampok sa kaligtasan ay ang kakayahan ng sistema na i-tier ang mga sitwasyon gamit ang konsepto ng "traffic light". Anumang sitwasyon na "red light"—na nagpapahiwatig ng isang kagyat o hindi inaasahang problema—ay agad na inuuna, na nag-uudyok sa mga kawani ng Lion Befrienders na magbigay ng mabilis, pinamumunuan ng tao na interbensyon.
+* Pagsasauna ng Kailangang Emerhensya: Isang kritikal na tampok sa kaligtasan ay ang kakayahan ng sistema na i-tier ang mga sitwasyon gamit ang konsepto ng "traffic light". Anumang sitwasyon na "red light"—na nagpapahiwatig ng isang kagyat o hindi inaasahang problema—ay agad na inuuna, na nag-uudyok sa mga kawani ng Lions Befrienders na magbigay ng mabilis, pinamumunuan ng tao na interbensyon.
 
 * Pagpapalakas ng Mga Kawani: Sa pamamagitan ng pagtanggap ng mga administrative at high-volume na gawain, ang AI ay nagliligtas ng oras ng tao. Maaaring gamitin ng mga kawani ang oras na ito para sa kinakailangang follow-up administration o, mas mahalaga, upang ituon ang pansin sa mga kaso na nangangailangan ng mas masinsin, de-kalidad na suporta. Ang pinahusay na workflow na ito ay mahalaga sa pagbabawas ng workload ng mga kawani at burnout.
 
 ## Isang Kolaboratibo at Napatunayang Pamamaraan
 
-Ang pagpapaunlad ng tampok na ito ay isang malapit na kolaborasyon sa pagitan ng mga kawani ng Lion Befrienders, ang [SeaVoice system](https://seasalt.ai/seavoice) ng Seasalt.ai, at ang mga senior mismo mula noong 2023. Ang pagsubok sa Phase 1 ay nagbunga ng lubos na nakapagpapasigla na mga resulta, na may malakas na pagtanggap mula sa mga senior.
+Ang pagpapaunlad ng tampok na ito ay isang malapit na kolaborasyon sa pagitan ng mga kawani ng Lions Befrienders, ang [SeaVoice system](https://seasalt.ai/seavoice) ng Seasalt.ai, at ang mga senior mismo mula noong 2023. Ang pagsubok sa Phase 1 ay nagbunga ng lubos na nakapagpapasigla na mga resulta, na may malakas na pagtanggap mula sa mga senior.
 
-“Ang SeaVoice system ay inihanda hindi lamang bilang isang voice interface, kundi bilang isang conduit para sa human empathy sa lawak,” ani Xuchen, CEO ng SeaSalt.AI. “Ang aming pakikipagtulungan sa Lion Befrienders ay nagpapakita ng kung paano ang malalim na na-tune, real-time na conversational AI—na pinagsama ng mga katutubong wika at emotional intelligence—ay maaaring taasan ang paghahatid ng pag-aalaga nang hindi binabago ang kanyang kaluluwa. Ipinagmamalaki namin na makipag-kaisa sa paglikha ng isang sistema na nagpapalakas ng human connection, hindi pinapalitan ito.”Ang unang paglulunsad, Phase 2A, ay nagsimula noong Oktubre 2025, kasunod ng matagumpay na pagsubok sa 100 mga senior sa mga sentro. Ang Lion Befrienders ay naglalayong magkaroon ng ganap na paglulunsad ng integrated na tampok pagsapit ng Marso 2026.
+“Ang SeaVoice system ay inihanda hindi lamang bilang isang voice interface, kundi bilang isang conduit para sa human empathy sa lawak,” ani Xuchen, CEO ng SeaSalt.AI. “Ang aming pakikipagtulungan sa Lions Befrienders ay nagpapakita ng kung paano ang malalim na na-tune, real-time na conversational AI—na pinagsama ng mga katutubong wika at emotional intelligence—ay maaaring taasan ang paghahatid ng pag-aalaga nang hindi binabago ang kanyang kaluluwa. Ipinagmamalaki namin na makipag-kaisa sa paglikha ng isang sistema na nagpapalakas ng human connection, hindi pinapalitan ito.”Ang unang paglulunsad, Phase 2A, ay nagsimula noong Oktubre 2025, kasunod ng matagumpay na pagsubok sa 100 mga senior sa mga sentro. Ang Lions Befrienders ay naglalayong magkaroon ng ganap na paglulunsad ng integrated na tampok pagsapit ng Marso 2026.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-width: 100%; width: fit-content;">
@@ -72,7 +72,7 @@ Ang pagpapaunlad ng tampok na ito ay isang malapit na kolaborasyon sa pagitan ng
 
 ## Pagbuo ng Isang Komunidad ng Suporta
 
-Tinuturing ng Lion Befrienders ang AI innovation na ito bilang isang modelo para sa buong sektor ng serbisyong panlipunan, na may isang pangmatagalang pananaw na ang teknolohiya ay ganap na magamit at tanggapin ng ibang mga ahensya ng serbisyong panlipunan. Sa pamamagitan ng epektibong paggamit ng teknolohiya, ang Lion Befrienders ay hindi lamang nagpapahusay ng sarili nitong kalidad ng serbisyo kundi pati na rin ang pagbuo ng isang komunidad ng suporta na mas epektibo, matatag, at mas handa na harapin ang nagbabagong mga pangangailangan ng populasyon ng mga matatanda.
+Tinuturing ng Lions Befrienders ang AI innovation na ito bilang isang modelo para sa buong sektor ng serbisyong panlipunan, na may isang pangmatagalang pananaw na ang teknolohiya ay ganap na magamit at tanggapin ng ibang mga ahensya ng serbisyong panlipunan. Sa pamamagitan ng epektibong paggamit ng teknolohiya, ang Lions Befrienders ay hindi lamang nagpapahusay ng sarili nitong kalidad ng serbisyo kundi pati na rin ang pagbuo ng isang komunidad ng suporta na mas epektibo, matatag, at mas handa na harapin ang nagbabagong mga pangangailangan ng populasyon ng mga matatanda.
 
 ### Kontak sa Media: 
 
@@ -83,7 +83,7 @@ Yeo Hui Hui
 Ehekutibo, Brand & Strategic Communications  
 [press@lb.org.sg](mailto:press@lb.org.sg)
 
-#### Tungkol sa Lion Befrienders Service Association
+#### Tungkol sa Lions Befrienders Service Association
 
 Itinatag noong 1995, ang Lions Befrienders Service Association (Singapore) (LBSA) ay isang ahensya ng serbisyong panlipunan na nakatuon sa pagbibigay ng komprehensibong pangangalaga at suporta upang tulungan ang mga matatanda na magkaroon ng malusog na pagtanda sa kanilang tahanan kasama ang pakikilahok sa komunidad, na nagbibigay-daan sa kanila na magkaroon ng makabuluhan at may layunin na buhay. Sa pamamagitan ng aktibong paglahok ng humigit-kumulang 1,000 regular na boluntaryo, ang LBSA ay nakikipag-ugnayan sa halos 13,000 na matatanda sa pamamagitan ng isang hanay ng pinagsama-samang serbisyo para sa mga matatanda na tumutugon sa kanilang mga pangangailangang panlipunan, emosyonal, isipan, pisikal, at espiritwal. Ang LBSA ay kasalukuyang nagpapatakbo ng 10 Active Ageing Centres, dalawang rehiyon ng Community Case Management Services (Silangan at Kanluran), mga serbisyo ng Home Personal Care (HPC) at pinahusay na Home Personal Care (HPC+) [Queenstown, Clementi & Tampines], pati na rin ang isang sangay ng Pakikipagkaibigan na umaabot sa mga matatandang socially isolated.
 

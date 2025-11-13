@@ -1,6 +1,6 @@
 ---
 author: Xuchen Yao
-description: Lion Befrienders se asocia con Seasalt.ai para lanzar un agente de voz
+description: Lions Befrienders se asocia con Seasalt.ai para lanzar un agente de voz
   de IA para el cuidado de personas mayores. Automatiza las llamadas de seguimiento,
   prioriza las necesidades urgentes y combate el agotamiento del personal.
 draft: false
@@ -17,13 +17,13 @@ tags:
 - Agotamiento del personal
 - Cuidado de ancianos
 - Llamadas de seguimiento automatizadas
-title: Con Seasalt.ai, Lion Befrienders lanza un agente de voz impulsado por IA para
+title: Con Seasalt.ai, Lions Befrienders lanza un agente de voz impulsado por IA para
   profundizar el cuidado y combatir el agotamiento del personal
 url: /blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai
 ---
-# Con Seasalt.ai, Lion Befrienders lanza un agente de voz impulsado por IA para profundizar el cuidado y combatir el agotamiento del personal  
+# Con Seasalt.ai, Lions Befrienders lanza un agente de voz impulsado por IA para profundizar el cuidado y combatir el agotamiento del personal  
 
-Singapur – \[9 de noviembre de 2025\] – Lion Befrienders Service Association (Lion Befrienders) anunció hoy el lanzamiento de su innovador agente de voz impulsado por IA, una solución tecnológica de vanguardia desarrollada en colaboración con Seasalt.ai. Esta nueva función está destinada a revolucionar la forma en que Lion Befrienders apoya a sus beneficiarios, permitiendo a personal aumentar significativamente su alcance y centrar su experiencia en brindar un cuidado de calidad y significativo.  
+Singapur – \[9 de noviembre de 2025\] – Lions Befrienders Service Association (Lions Befrienders) anunció hoy el lanzamiento de su innovador agente de voz impulsado por IA, una solución tecnológica de vanguardia desarrollada en colaboración con Seasalt.ai. Esta nueva función está destinada a revolucionar la forma en que Lions Befrienders apoya a sus beneficiarios, permitiendo a personal aumentar significativamente su alcance y centrar su experiencia en brindar un cuidado de calidad y significativo.  
 
 Este movimiento aborda dos necesidades críticas dentro del sector de servicios sociales: combatir el agotamiento del personal y garantizar un contacto regular y constante con los ancianos vulnerables.  
 
@@ -36,20 +36,20 @@ Este movimiento aborda dos necesidades críticas dentro del sector de servicios 
 
 ## Cómo funciona la tecnología para mejorar el cuidado  
 
-El agente de voz de IA automatiza la comunicación rutinaria, lo que permite al personal de Lion Befrienders realizar más llamadas en un día. El sistema ha sido personalizado con jerga local y un tono natural y empático para garantizar una experiencia cómoda y familiar para los ancianos.  
+El agente de voz de IA automatiza la comunicación rutinaria, lo que permite al personal de Lions Befrienders realizar más llamadas en un día. El sistema ha sido personalizado con jerga local y un tono natural y empático para garantizar una experiencia cómoda y familiar para los ancianos.  
 
 * Interacciones aumentadas: La automatización aumenta significativamente la cantidad de ancianos que se pueden contactar diariamente, impulsando la interacción general y reduciendo el aislamiento social.  
 
-* Priorizando necesidades urgentes: Una característica de seguridad crítica es la capacidad del sistema de clasificar situaciones usando un concepto de "luz de tráfico". Cualquier situación de "luz roja" (que indica un problema urgente o imprevisto) se escala de inmediato, lo que impulsa al personal de Lion Befrienders a proporcionar una intervención rápida y dirigida por humanos.  
+* Priorizando necesidades urgentes: Una característica de seguridad crítica es la capacidad del sistema de clasificar situaciones usando un concepto de "luz de tráfico". Cualquier situación de "luz roja" (que indica un problema urgente o imprevisto) se escala de inmediato, lo que impulsa al personal de Lions Befrienders a proporcionar una intervención rápida y dirigida por humanos.  
 
 * Empoderando al personal: Al asumir tareas administrativas y de alto volumen, la IA ahorra horas-hombre. El personal puede luego usar este tiempo para la administración de seguimiento necesaria o, lo que es más importante, para centrarse en casos que requieren un apoyo más intensivo y de calidad. Este flujo de trabajo mejorado es vital para reducir la carga de trabajo y el agotamiento del personal.  
 
 
 ## Un enfoque colaborativo y probado  
 
-El desarrollo de esta función ha sido una colaboración cercana entre el personal de Lion Befrienders, el [sistema SeaVoice](https://seasalt.ai/seavoice) de Seasalt.ai y los propios ancianos desde 2023. Las pruebas de la Fase 1 arrojaron resultados muy alentadores, con una fuerte aceptación por parte de los ancianos.  
+El desarrollo de esta función ha sido una colaboración cercana entre el personal de Lions Befrienders, el [sistema SeaVoice](https://seasalt.ai/seavoice) de Seasalt.ai y los propios ancianos desde 2023. Las pruebas de la Fase 1 arrojaron resultados muy alentadores, con una fuerte aceptación por parte de los ancianos.  
 
-"El sistema SeaVoice no fue diseñado meramente como una interfaz de voz, sino como un conducto para la empatía humana a escala", dijo Xuchen, CEO de SeaSalt.AI. "Nuestra colaboración con Lion Befrienders ejemplifica cómo la IA conversacional en tiempo real, profundamente ajustada e infundida con dialectos nativos y inteligencia emocional, puede elevar la prestación de cuidados sin comprometer su esencia. Estamos orgullosos de co-crear un sistema que amplía la conexión humana, no la reemplaza". El lanzamiento inicial, Fase 2A, comenzó en octubre de 2025, después de ensayos exitosos con 100 ancianos en los centros. Lion Befrienders tiene como objetivo un lanzamiento completo de la función integrada para marzo de 2026.  
+"El sistema SeaVoice no fue diseñado meramente como una interfaz de voz, sino como un conducto para la empatía humana a escala", dijo Xuchen, CEO de SeaSalt.AI. "Nuestra colaboración con Lions Befrienders ejemplifica cómo la IA conversacional en tiempo real, profundamente ajustada e infundida con dialectos nativos y inteligencia emocional, puede elevar la prestación de cuidados sin comprometer su esencia. Estamos orgullosos de co-crear un sistema que amplía la conexión humana, no la reemplaza". El lanzamiento inicial, Fase 2A, comenzó en octubre de 2025, después de ensayos exitosos con 100 ancianos en los centros. Lions Befrienders tiene como objetivo un lanzamiento completo de la función integrada para marzo de 2026.  
 
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
@@ -73,7 +73,7 @@ El desarrollo de esta función ha sido una colaboración cercana entre el person
 
 ## Construyendo una comunidad de apoyo  
 
-Lion Befrienders ve esta innovación de IA como un modelo para todo el sector de servicios sociales, con una visión a largo plazo de que la tecnología sea totalmente utilizada y aceptada por otras agencias de servicios sociales. Al aprovechar eficazmente la tecnología, Lion Befrienders no solo está mejorando la calidad de sus propios servicios, sino también construyendo una comunidad de apoyo más eficiente, resiliente y mejor equipada para satisfacer las necesidades evolutivas de la población anciana.  
+Lions Befrienders ve esta innovación de IA como un modelo para todo el sector de servicios sociales, con una visión a largo plazo de que la tecnología sea totalmente utilizada y aceptada por otras agencias de servicios sociales. Al aprovechar eficazmente la tecnología, Lions Befrienders no solo está mejorando la calidad de sus propios servicios, sino también construyendo una comunidad de apoyo más eficiente, resiliente y mejor equipada para satisfacer las necesidades evolutivas de la población anciana.  
 
 
 ### Contacto de prensa:  
@@ -88,7 +88,7 @@ Yeo Hui Hui
 Ejecutiva, Comunicación de Marca y Estratégica  
 [press@lb.org.sg](mailto:press@lb.org.sg)
 
-#### Acerca de Lion Befrienders Service Association  
+#### Acerca de Lions Befrienders Service Association  
 
 Fundada en 1995, Lions Befrienders Service Association (Singapur) (LBSA) es una agencia de servicios sociales dedicada a brindar atención y apoyo integral para ayudar a los adultos mayores a envejecer de manera saludable en su entorno con participación comunitaria, permitiéndoles disfrutar de vidas con propósito y significado. A través de la participación activa de alrededor de 1.000 voluntarios regulares, LBSA se relaciona con cerca de 13.000 adultos mayores a través de una gama de servicios integrados de cuidado de ancianos que satisfacen sus necesidades sociales, emocionales, mentales, físicas y espirituales. Actualmente, LBSA opera 10 Centros de Envejecimiento Activo, dos regiones de Servicios de Gestión de Casos Comunitarios (Este y Oeste), servicios de Cuidado Personal en el Hogar (HPC) y Cuidado Personal en el Hogar mejorado (HPC+) [Queenstown, Clementi y Tampines], así como un brazo de Amistad que se dirige a adultos mayores socialmente aislados.  
 
