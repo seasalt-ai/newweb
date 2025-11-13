@@ -1,6 +1,6 @@
 ---
 author: Xuchen Yao
-description: Lion Befrienders与Seasalt.ai合作推出一款用于老年护理的人工智能语音代理。它可自动进行签到呼叫，优先处理紧急需求，并缓解员工倦怠。
+description: Lions Befrienders与Seasalt.ai合作推出一款用于老年护理的人工智能语音代理。它可自动进行签到呼叫，优先处理紧急需求，并缓解员工倦怠。
 draft: false
 image:
   alt: 'SeaVoice Featured: Voice AI agents for senior care with Lions Befrienders'

@@ -1,6 +1,6 @@
 ---
-title: 'With Seasalt.ai, Lion Befrienders Launches AI-Powered Voice Agent to Deepen Care and Combat Manpower Burnout'
-description: Lion Befrienders partners with Seasalt.ai to launch an AI voice agent for senior care. It automates check-in calls, prioritizes urgent needs, and combats staff burnout.
+title: 'With Seasalt.ai, Lions Befrienders Launches AI-Powered Voice Agent to Deepen Care and Combat Manpower Burnout'
+description: Lions Befrienders partners with Seasalt.ai to launch an AI voice agent for senior care. It automates check-in calls, prioritizes urgent needs, and combats staff burnout.
 publishDate: '2025-11-09'
 author: Xuchen Yao
 image:
@@ -19,9 +19,9 @@ draft: false
 url: /blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai
 ---
 
-# With Seasalt.ai, Lion Befrienders Launches AI-Powered Voice Agent to Deepen Care and Combat Manpower Burnout
+# With Seasalt.ai, Lions Befrienders Launches AI-Powered Voice Agent to Deepen Care and Combat Manpower Burnout
 
-Singapore – \[November 9, 2025\] – Lion Befrienders Service Association (Lion Befrienders) today announced the launch of its innovative AI-powered voice agent, a cutting-edge technological solution developed in partnership with Seasalt.ai. This new feature is set to revolutionize how Lion Befrienders supports its beneficiaries, allowing staff to significantly increase outreach and focus their expertise on delivering high-quality, meaningful care.
+Singapore – \[November 9, 2025\] – Lions Befrienders Service Association (Lions Befrienders) today announced the launch of its innovative AI-powered voice agent, a cutting-edge technological solution developed in partnership with Seasalt.ai. This new feature is set to revolutionize how Lions Befrienders supports its beneficiaries, allowing staff to significantly increase outreach and focus their expertise on delivering high-quality, meaningful care.
 
 The move addresses two critical needs within the social service sector: combating staff manpower burnout and ensuring regular, consistent contact with vulnerable seniors.
 
@@ -35,19 +35,19 @@ The move addresses two critical needs within the social service sector: combatin
 
 ## How the Technology Works to Enhance Care
 
-The AI voice agent automates routine communication, allowing Lion Befrienders staff to make more calls in a day. The system has been customized with local lingo and a natural, empathetic tone to ensure a comfortable and familiar experience for the seniors.
+The AI voice agent automates routine communication, allowing Lions Befrienders staff to make more calls in a day. The system has been customized with local lingo and a natural, empathetic tone to ensure a comfortable and familiar experience for the seniors.
 
 * Increased Interactions: The automation significantly increases the number of seniors who can be reached daily, boosting overall interaction and reducing social isolation.
 
-* Prioritizing Urgent Needs: A critical safety feature is the system's ability to tier situations using a "traffic light" concept. Any "red light" situation—indicating an urgent or unforeseen problem—is immediately escalated, prompting Lion Befrienders staff to provide swift, human-led intervention.
+* Prioritizing Urgent Needs: A critical safety feature is the system's ability to tier situations using a "traffic light" concept. Any "red light" situation—indicating an urgent or unforeseen problem—is immediately escalated, prompting Lions Befrienders staff to provide swift, human-led intervention.
 
 * Empowering Staff: By taking on administrative and high-volume tasks, the AI saves man-hours. Staff can then use this time for necessary follow-up administration or, more importantly, to focus on cases requiring more intensive, quality support. This improved workflow is vital in reducing staff workload and burnout.
 
 ## A Collaborative and Tested Approach
 
-The development of this feature has been a close-knit collaboration between Lion Befrienders staff, Seasalt.ai’s [SeaVoice system](https://seasalt.ai/seavoice), and the seniors themselves since 2023\. Phase 1 testing yielded highly encouraging results, with strong acceptance from the seniors.
+The development of this feature has been a close-knit collaboration between Lions Befrienders staff, Seasalt.ai’s [SeaVoice system](https://seasalt.ai/seavoice), and the seniors themselves since 2023\. Phase 1 testing yielded highly encouraging results, with strong acceptance from the seniors.
 
-“SeaVoice system was engineered not merely as a voice interface, but as a conduit for human empathy at scale,” said Xuchen, CEO of SeaSalt.AI. “Our collaboration with Lion Befrienders exemplifies how deeply tuned, real-time conversational AI—infused with native dialects and emotional intelligence—can elevate care delivery without compromising its soul. We are proud to co-create a system that augments human connection, not replaces it.”The initial roll-out, Phase 2A, began this October 2025, following successful trials with 100 seniors at the centres. Lion Befrienders aims for a full launch of the integrated feature by March 2026.
+“SeaVoice system was engineered not merely as a voice interface, but as a conduit for human empathy at scale,” said Xuchen, CEO of SeaSalt.AI. “Our collaboration with Lions Befrienders exemplifies how deeply tuned, real-time conversational AI—infused with native dialects and emotional intelligence—can elevate care delivery without compromising its soul. We are proud to co-create a system that augments human connection, not replaces it.”The initial roll-out, Phase 2A, began this October 2025, following successful trials with 100 seniors at the centres. Lions Befrienders aims for a full launch of the integrated feature by March 2026.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
   <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); max-width: 100%; width: fit-content;">
@@ -69,7 +69,7 @@ The development of this feature has been a close-knit collaboration between Lion
 
 ## Building a Community of Support
 
-Lion Befrienders views this AI innovation as a model for the entire social service sector, with a long-term vision for the technology to be fully utilized and accepted by other social service agencies. By effectively leveraging technology, Lion Befrienders is not only enhancing its own service quality but also building a community of support that is more efficient, resilient, and better equipped to meet the evolving needs of the elderly population.
+Lions Befrienders views this AI innovation as a model for the entire social service sector, with a long-term vision for the technology to be fully utilized and accepted by other social service agencies. By effectively leveraging technology, Lions Befrienders is not only enhancing its own service quality but also building a community of support that is more efficient, resilient, and better equipped to meet the evolving needs of the elderly population.
 
 ### Media Contact: 
 
@@ -80,7 +80,7 @@ Yeo Hui Hui
 Executive, Brand & Strategic Communications  
 [press@lb.org.sg](mailto:press@lb.org.sg)
 
-#### About Lion Befrienders Service Association
+#### About Lions Befrienders Service Association
 
 Established in 1995, Lions Befrienders Service Association (Singapore) (LBSA) is a social service agency dedicated to providing holistic care and support to help seniors age healthily in place with community participation, enabling them to enjoy purposeful and meaningful lives. Through the active involvement of about 1,000 regular volunteers, LBSA engages close to 13,000 seniors via a spectrum of integrated eldercare services catering to their social, emotional, mental, physical and spiritual needs. LBSA currently operates 10 Active Ageing Centres, two Community Case Management Services regions (East & West), Home Personal Care (HPC) and enhanced Home Personal Care (HPC+) \[Queenstown, Clementi & Tampines\] services, as well as a Befriending arm that reaches out to socially isolated seniors.
 
