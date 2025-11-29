@@ -61,8 +61,29 @@ async function loadTranslations(lang: SupportedLanguage) {
   }
 
   try {
+    // Load main translations
     const translations = await import(`./locales/${langKey}.json`);
     const data = translations.default || translations;
+    
+    // Try to load integrations translations and merge
+    try {
+      const integrationsTranslations = await import(`./locales/${langKey}-integrations.json`);
+      const integrationsData = integrationsTranslations.default || integrationsTranslations;
+      // Merge integrations into main translations
+      Object.assign(data, integrationsData);
+    } catch (integrationsError) {
+      // If integrations file doesn't exist for this language, fallback to English integrations
+      if (lang !== 'en') {
+        try {
+          const enIntegrationsTranslations = await import(`./locales/en-integrations.json`);
+          const enIntegrationsData = enIntegrationsTranslations.default || enIntegrationsTranslations;
+          Object.assign(data, enIntegrationsData);
+        } catch {
+          // Silently fail if even English integrations don't exist
+        }
+      }
+    }
+    
     translationCache.set(langKey, data);
     return data;
   } catch (error) {

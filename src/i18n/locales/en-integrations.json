@@ -1,0 +1,146 @@
+{
+  "integrations": {
+    "breadcrumb": {
+      "home": "Home",
+      "integrations": "Integrations"
+    },
+    "hub": {
+      "metaTitle": "{appName} Integration with Seasalt.ai Agentic Send | Automate {category}",
+      "metaDescription": "{description} Automate SMS, WhatsApp, and phone calls from {appName} with AI-powered Agentic Send by Seasalt.ai.",
+      "keywords": "{appName} integration, {appName} automation, {category}, Zapier {appName}, Agentic Send, AI automation, SMS automation, WhatsApp automation",
+      "headline": "Automate {appName} with AI-Powered Agentic Send",
+      "subheadline": "{description} Transform your {appName} workflows into intelligent SMS, WhatsApp, and phone call campaigns with just 2 simple steps.",
+      "cta": {
+        "primary": "Start Free on Zapier",
+        "secondary": "Talk to Sales"
+      },
+      "agenticSend": {
+        "title": "What is Agentic Send?",
+        "description": "Agentic Send is Seasalt.ai's revolutionary AI-powered automation that collapses complex multi-step Zapier workflows into a single action. Instead of manually configuring 5-17 steps, you simply tell the AI what you want to do.",
+        "traditional": {
+          "title": "Traditional Workflow",
+          "steps": "Fragile 5-Step Process:",
+          "step1": "Event trigger",
+          "step2": "Extract data with formatter",
+          "step3": "Check if data exists (Path)",
+          "step4": "Validate data format (Path)",
+          "step5": "Send message"
+        },
+        "agentic": {
+          "title": "Agentic Send Workflow",
+          "steps": "Simple 2-Step Process:",
+          "step1": "Event trigger",
+          "step2": "Agentic Send (AI handles everything)"
+        }
+      },
+      "channels": {
+        "title": "Choose Your Channel for {appName}",
+        "learnMore": "Learn more"
+      },
+      "useCases": {
+        "title": "Popular Use Cases with {appName}"
+      },
+      "howItWorks": {
+        "title": "How It Works"
+      },
+      "step1": {
+        "title": "Connect {appName}",
+        "description": "Set up your {appName} trigger in Zapier (works with any of 8,000+ apps)"
+      },
+      "step2": {
+        "title": "Add Agentic Send",
+        "description": "Select Seasalt.ai's Agentic Send as your action"
+      },
+      "step3": {
+        "title": "Write Your Prompt",
+        "description": "Simply describe what you want to do in plain English"
+      },
+      "step4": {
+        "title": "Let AI Handle the Rest",
+        "description": "AI extracts data, validates formats, and sends messages automatically"
+      },
+      "triggers": {
+        "title": "Popular {appName} Triggers"
+      },
+      "finalCta": {
+        "title": "Ready to Automate {appName}?",
+        "description": "Join thousands of businesses using Agentic Send to simplify their workflows",
+        "zapier": "Get Started on Zapier",
+        "contact": "Contact Sales"
+      },
+      "howToTitle": "How to Automate {appName} with Agentic Send",
+      "howToDescription": "Step-by-step guide to setting up automated communications from {appName} using Seasalt.ai's AI-powered Agentic Send"
+    },
+    "spoke": {
+      "metaTitle": "{appName} to {actionName} Integration | Automated {actionName} from {appName}",
+      "metaDescription": "Automatically send {actionName} messages from {appName} with AI automation. {actionDescription} Set up in minutes with Seasalt.ai's Agentic Send.",
+      "keywords": "{appName} {actionName}, {appName} to {actionName}, automate {actionName}, {category} {actionName}, Zapier {appName} {actionName}",
+      "headline": "Send {actionName} Automatically from {appName}",
+      "subheadline": "{actionDescription} Automate your {appName} workflows and send intelligent {actionName} messages with AI-powered Agentic Send.",
+      "cta": {
+        "primary": "Build This Zap Now",
+        "secondary": "Contact Sales"
+      },
+      "benefits": {
+        "title": "Why Use {actionName} with Agentic Send?"
+      },
+      "useCases": {
+        "title": "Use {appName} + {actionName} For",
+        "via": "via {actionName}"
+      },
+      "setup": {
+        "title": "5-Minute Setup Guide"
+      },
+      "setupStep1": {
+        "title": "Set Up Your {appName} Trigger",
+        "description": "In Zapier, select {appName} as your trigger app and choose the event that should start the automation"
+      },
+      "setupStep2": {
+        "title": "Write Your System Prompt",
+        "description": "Tell the AI what you want to do in plain English. The AI will handle all data extraction and validation.",
+        "example": "Example: 'Send a reminder to the event participant about the upcoming meeting'"
+      },
+      "setupStep3": {
+        "title": "Select {actionName} as the Action",
+        "description": "Choose Seasalt.ai's Agentic Send and select {actionName} as your communication channel"
+      },
+      "setupStep4": {
+        "title": "Input the Data Payload",
+        "description": "Simply paste the entire JSON output from your trigger. The AI will figure out what to do with it."
+      },
+      "setupStep5": {
+        "title": "Test and Activate",
+        "description": "Test your Zap to make sure everything works, then turn it on. You're done!"
+      },
+      "features": {
+        "title": "Key Features of Agentic Send",
+        "aiPowered": {
+          "title": "AI-Powered Intelligence",
+          "description": "Large language model reads and processes raw data based on your simple prompt"
+        },
+        "autoValidation": {
+          "title": "Automatic Validation",
+          "description": "AI automatically validates and formats phone numbers to e.164 standard"
+        },
+        "simplicity": {
+          "title": "Radical Simplicity",
+          "description": "Collapse 5-17 step workflows into just 2 steps: trigger and action"
+        }
+      },
+      "triggers": {
+        "title": "Compatible {appName} Triggers"
+      },
+      "otherChannels": {
+        "title": "Other Ways to Use {appName}"
+      },
+      "finalCta": {
+        "title": "Start Sending {actionName} from {appName} Today",
+        "description": "Join thousands of businesses automating their communications with Seasalt.ai",
+        "zapier": "Build on Zapier",
+        "viewAll": "View All Seasalt.ai Integrations"
+      },
+      "howToTitle": "How to Send {actionName} from {appName}",
+      "howToDescription": "Complete guide to automating {actionName} messages from {appName} using Seasalt.ai's Agentic Send on Zapier"
+    }
+  }
+}

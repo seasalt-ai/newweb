@@ -1,14 +1,15 @@
 ---
 import Layout from '../../../../layouts/Layout.astro';
 import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../../i18n/helpers';
-import curatedApps from '../../../../../zapier/data/curated-apps.json';
-import actions from '../../../../../zapier/data/actions.json';
+import curatedAppsData from '../../../../../zapier/data/curated-apps.json';
+import actionsData from '../../../../../zapier/data/actions.json';
 
 export async function getStaticPaths() {
   const paths = [];
+  const apps = (curatedAppsData as any).apps;
   
   for (const lang of supportedLocales) {
-    for (const app of curatedApps.apps) {
+    for (const app of apps) {
       paths.push({
         params: { 
           lang, 
@@ -104,6 +105,7 @@ const howToSchema = {
 };
 
 const customJsonLd = [productSchema, howToSchema];
+const actionsList = (actionsData as any).actions;
 ---
 
 <Layout 
@@ -181,7 +183,7 @@ const customJsonLd = [productSchema, howToSchema];
         {t('integrations.hub.channels.title').replace('{appName}', app.name)}
       </h2>
       <div class="grid md:grid-cols-3 gap-8">
-        {actions.actions.map((action: any) => (
+        {actionsList.map((action: any) => (
           <a 
             href={`/${currentLang}/integrations/${app.slug}/${action.slug}/`}
             class="block bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group"

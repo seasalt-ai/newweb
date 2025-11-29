@@ -318,52 +318,28 @@ def generate_trigger_examples(app_name: str, category: str) -> List[str]:
     
     return ["New item", "Item updated", "Status changed"]
 
-def curate_apps(apps: List[Dict], max_apps: int = 50) -> List[Dict]:
+def curate_apps(apps: List[Dict]) -> List[Dict]:
     """
-    Curate apps based on relevance and category distribution.
+    Curate all apps with relevance scores.
     
     Args:
         apps: All apps
-        max_apps: Maximum number of apps to return
         
     Returns:
-        list: Curated apps
+        list: Curated apps with relevance scores
     """
-    # Filter out apps without triggers
-    apps_with_triggers = [app for app in apps if has_manual_triggers(app)]
-    print(f"Apps with trigger capabilities: {len(apps_with_triggers)}")
+    # Process all apps (no filtering)
+    curated = []
+    for app in apps:
+        curated_app = create_curated_app(app)
+        curated.append(curated_app)
     
-    # Calculate relevance scores
-    scored_apps = []
-    for app in apps_with_triggers:
-        score = calculate_relevance_score(app)
-        if score > 20:  # Minimum relevance threshold
-            scored_apps.append((score, app))
+    # Sort by relevance score (highest first), then by name
+    curated.sort(key=lambda x: (-x["relevance_score"], x["name"]))
     
-    # Sort by score
-    scored_apps.sort(reverse=True, key=lambda x: x[0])
+    print(f"Curated {len(curated)} apps")
     
-    # Select top apps with category diversity
-    selected = []
-    categories_count = defaultdict(int)
-    max_per_category = 8
-    
-    for score, app in scored_apps:
-        if len(selected) >= max_apps:
-            break
-        
-        categories = app.get("categories", [])
-        category_slug = categories[0].get("slug", "other") if categories else "other"
-        
-        # Ensure category diversity
-        if categories_count[category_slug] < max_per_category:
-            selected.append(create_curated_app(app))
-            categories_count[category_slug] += 1
-    
-    # Sort final list by name for consistency
-    selected.sort(key=lambda x: x["name"])
-    
-    return selected
+    return curated
 
 def save_curated_apps(apps: List[Dict]):
     """
@@ -426,8 +402,8 @@ def main():
     print(f"Loaded {len(apps)} apps from {INPUT_FILE}\n")
     
     # Curate apps
-    print("Curating apps based on relevance and category...")
-    curated = curate_apps(apps, max_apps=50)
+    print("Curating all apps...")
+    curated = curate_apps(apps)
     
     # Save curated apps
     save_curated_apps(curated)

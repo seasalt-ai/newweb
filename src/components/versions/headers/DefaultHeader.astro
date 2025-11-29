@@ -4,6 +4,8 @@ import { getTranslationHelpers } from '../../../i18n/helpers';
 import type { VersionConfig } from '../config';
 import ProductLogoDropdown from '../shared/ProductLogoDropdown.astro';
 import PhoneBanner from '../shared/PhoneBanner.astro';
+import curatedAppsData from '../../../../zapier/data/curated-apps.json';
+import actionsData from '../../../../zapier/data/actions.json';
 
 // Header component props
 export interface Props {
@@ -14,6 +16,40 @@ export interface Props {
 
 const { currentPath = '/', lang = 'en', versionConfig } = Astro.props;
 const { t } = await getTranslationHelpers(lang);
+
+// Load integration data
+const curatedApps = curatedAppsData as { apps: any[] };
+const actionsJson = actionsData as { actions: any[] };
+
+// Group apps by category
+const appsByCategory = curatedApps.apps.reduce((acc: any, app: any) => {
+  if (!acc[app.category]) {
+    acc[app.category] = [];
+  }
+  acc[app.category].push(app);
+  return acc;
+}, {});
+
+// Define priority order for categories (categories not in this list will appear after, alphabetically)
+const priorityCategories = [
+  'Ads Conversion',
+  'Calendar',
+  'Forms',
+  'Spreadsheets',
+  'Crm',
+  'Contacts',
+  'Ecommerce',
+  'Project Management',
+  'Scheduling'
+];
+
+// Sort categories: priority first, then alphabetical
+const allCategories = Object.keys(appsByCategory);
+const prioritizedCategories = priorityCategories.filter(cat => allCategories.includes(cat));
+const remainingCategories = allCategories
+  .filter(cat => !priorityCategories.includes(cat))
+  .sort();
+const sortedCategories = [...prioritizedCategories, ...remainingCategories];
 
 // Navigation data using translations
 const solutions = [
@@ -337,6 +373,85 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
                 </a>
               );
             })}
+          </div>
+        </div>
+
+        <!-- Integrations Dropdown (Mega Menu) -->
+        <div class="relative">
+          <button
+            class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
+            data-dropdown="integrations"
+          >
+            Integrations
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          
+          <!-- Full-width Mega Menu -->
+          <div 
+            class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[95vw] max-w-7xl bg-white rounded-lg shadow-2xl border border-gray-200 z-50 hidden dropdown-menu"
+            data-dropdown-menu="integrations"
+          >
+            <div class="p-6 max-h-[85vh] overflow-y-auto">
+              <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                {sortedCategories.map((category: string) => (
+                  <div class="space-y-2">
+                    <!-- Category Header -->
+                    <div class="font-semibold text-sm text-gray-900 uppercase tracking-wide border-b-2 border-blue-500 pb-2 mb-3">
+                      {category}
+                      <span class="text-xs text-gray-500 ml-1">({appsByCategory[category].length})</span>
+                    </div>
+                    
+                    <!-- Apps in this category -->
+                    <div class="space-y-1">
+                      {appsByCategory[category].map((app: any, appIndex: number) => {
+                        const isNearBottom = appIndex >= appsByCategory[category].length - 2;
+                        return (
+                        <div class="group/app relative">
+                          <!-- App name with hover for actions -->
+                          <div class="flex items-center gap-2 px-2 py-1.5 rounded hover:bg-blue-50 cursor-pointer text-sm">
+                            <img src={app.images.url_32x32} alt={app.name} class="w-4 h-4 rounded flex-shrink-0" />
+                            <span class="text-gray-700 group-hover/app:text-blue-600 truncate">{app.name}</span>
+                          </div>
+                          
+                          <!-- Actions popup on hover - appears below, or above if near bottom -->
+                          <div class={`absolute left-0 ${isNearBottom ? 'bottom-full mb-1' : 'top-full mt-1'} w-72 bg-white rounded-lg shadow-xl border-2 border-blue-500 hidden group-hover/app:block z-50`}>
+                            <div class="py-1">
+                              <!-- Hub page link -->
+                              <a
+                                href={`/${lang}/integrations/${app.slug}/`}
+                                class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 font-medium border-b border-gray-200"
+                              >
+                                <span class="text-lg">🏠</span>
+                                <span>All {app.name} Integrations</span>
+                              </a>
+                              
+                              <!-- Action links -->
+                              {actionsJson.actions.map((action: any) => (
+                                <a
+                                  href={`/${lang}/integrations/${app.slug}/${action.slug}/`}
+                                  class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-blue-50"
+                                >
+                                  <span class="text-lg">{action.icon}</span>
+                                  <span>{app.name} + {action.name}</span>
+                                </a>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      );
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+              
+              <!-- Footer hint -->
+              <div class="mt-6 pt-4 border-t border-gray-200 text-center">
+                <p class="text-xs text-gray-500">Hover over any app to see available actions (SMS, WhatsApp, Phone Call)</p>
+              </div>
+            </div>
           </div>
         </div>
 
