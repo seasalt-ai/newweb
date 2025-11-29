@@ -1,0 +1,1301 @@
+{
+  "apps": [
+    {
+      "name": "Airtable",
+      "slug": "airtable",
+      "category": "Databases",
+      "description": "Organize anything with Airtable, a modern database created for everyone. Airtable is a fast and flexible way to create tables to keep track of anything, from sales leads to vacation planning to invent",
+      "useCases": [
+        "Automated notifications from Airtable",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer/c6c8c5e300ef0da0e47b3084e5522f20.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer/c6c8c5e300ef0da0e47b3084e5522f20.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer/c6c8c5e300ef0da0e47b3084e5522f20.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer/c6c8c5e300ef0da0e47b3084e5522f20.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Airtable.png",
+      "hex_color": "FF505D",
+      "api_id": "74c198db-1478-4923-9290-9c8f47bd61be",
+      "relevance_score": 71.0
+    },
+    {
+      "name": "Apollo",
+      "slug": "apollo",
+      "category": "Sales Crm",
+      "description": "Apollo is a unified engagement platform that is the foundation for your entire end-to-end sales strategy. Teams get access to a database of over 200 million contacts, as well as a host of different en",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/f182ae680fb17b2ec9047a6e4014a99f.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/f182ae680fb17b2ec9047a6e4014a99f.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/f182ae680fb17b2ec9047a6e4014a99f.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/f182ae680fb17b2ec9047a6e4014a99f.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Apollo.png",
+      "hex_color": "242D3E",
+      "api_id": "eac53c8b-4163-47ad-bfe1-e96119427adc",
+      "relevance_score": 31.0
+    },
+    {
+      "name": "Apptoto",
+      "slug": "apptoto",
+      "category": "Calendar",
+      "description": "For appointment-based businesses, Apptoto offers automated SMS text, email or voice reminders and online scheduling",
+      "useCases": [
+        "Meeting reminders 15 minutes before Apptoto events",
+        "Event confirmations to attendees",
+        "Schedule change notifications"
+      ],
+      "triggerExamples": [
+        "Event starts",
+        "New event created",
+        "Event updated"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/79d7692883e1c15949ca14a814416751.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/79d7692883e1c15949ca14a814416751.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/79d7692883e1c15949ca14a814416751.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/79d7692883e1c15949ca14a814416751.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Apptoto.png",
+      "hex_color": "78b857",
+      "api_id": "ec5854e2-ea0a-4d13-8896-ca6355677a74",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "Bark",
+      "slug": "bark",
+      "category": "Crm",
+      "description": "Bark is a world-leading services marketplace with over 5m customers in 6 countries across the globe.",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/eefc733cd2dd7904704207bf09d6a64a.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/eefc733cd2dd7904704207bf09d6a64a.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/eefc733cd2dd7904704207bf09d6a64a.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/eefc733cd2dd7904704207bf09d6a64a.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Bark.png",
+      "hex_color": "2D7AF1",
+      "api_id": "6362cb8b-dc24-4164-bba7-796ef3c73c99",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "Bigin by Zoho CRM",
+      "slug": "bigin-by-zoho-crm",
+      "category": "Crm",
+      "description": "Bigin is a sales pipeline management software that lets you manage deals, track activities and keep all the interactions with your contacts at one place.",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/7e36d3e56c05a109fc4fba67bad4d3ce_2.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/7e36d3e56c05a109fc4fba67bad4d3ce_2.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/7e36d3e56c05a109fc4fba67bad4d3ce_2.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/7e36d3e56c05a109fc4fba67bad4d3ce_2.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Bigin-by-Zoho-CRM.png",
+      "hex_color": "23ae73",
+      "api_id": "44729a0e-3fce-4ce3-b6fd-7d1f52a5f10e",
+      "relevance_score": 81.0
+    },
+    {
+      "name": "Birdeye",
+      "slug": "birdeye",
+      "category": "Reviews",
+      "description": "Birdeye is an all-in-one customer experience platform. Over 80,000 businesses use Birdeye every day to attract new leads with Listings, Reviews and Referrals, convert them into customers with Webchat ",
+      "useCases": [
+        "Automated notifications from Birdeye",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/f023cbd94eb42e7ef5f363ad5faa4cf1.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/f023cbd94eb42e7ef5f363ad5faa4cf1.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/f023cbd94eb42e7ef5f363ad5faa4cf1.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/f023cbd94eb42e7ef5f363ad5faa4cf1.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Birdeye.png",
+      "hex_color": "1976D2",
+      "api_id": "e1df528e-f4c9-46f0-ad16-76c798552e2a",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "CalGet",
+      "slug": "calget",
+      "category": "Calendar",
+      "description": "CalGet is an 'Add to Calendar' link generator with RSVP options. Create shareable event links for popular calendar apps.",
+      "useCases": [
+        "Meeting reminders 15 minutes before CalGet events",
+        "Event confirmations to attendees",
+        "Schedule change notifications"
+      ],
+      "triggerExamples": [
+        "Event starts",
+        "New event created",
+        "Event updated"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/bbe4c6b2108614e58675b23c609b2047.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/bbe4c6b2108614e58675b23c609b2047.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/bbe4c6b2108614e58675b23c609b2047.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/bbe4c6b2108614e58675b23c609b2047.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/CalGet.png",
+      "hex_color": "000000",
+      "api_id": "8455a848-05b0-43ab-a8d3-0471e3ae2c94",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "CalendarLink",
+      "slug": "calendarlink",
+      "category": "Calendar",
+      "description": "CalendarLink creates add-to-calendar links to any calendar service and make sure your users don't forget about important events.",
+      "useCases": [
+        "Meeting reminders 15 minutes before CalendarLink events",
+        "Event confirmations to attendees",
+        "Schedule change notifications"
+      ],
+      "triggerExamples": [
+        "Event starts",
+        "New event created",
+        "Event updated"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/fecbb6381ae50e6121a569f042cc0aa8.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/fecbb6381ae50e6121a569f042cc0aa8.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/fecbb6381ae50e6121a569f042cc0aa8.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/fecbb6381ae50e6121a569f042cc0aa8.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/CalendarLink.png",
+      "hex_color": "2b75e4",
+      "api_id": "cd5b6471-aa0b-4847-bc90-adf7c3160a1a",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "Calendly",
+      "slug": "calendly",
+      "category": "Scheduling",
+      "description": "Calendly is an elegant and simple scheduling tool for businesses that eliminates email back and forth. It helps save time so that businesses can provide great service and increase sales.",
+      "useCases": [
+        "Automated notifications from Calendly",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/33464c48a26a29dd29977ffb16bcca53.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/33464c48a26a29dd29977ffb16bcca53.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/33464c48a26a29dd29977ffb16bcca53.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/33464c48a26a29dd29977ffb16bcca53.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Calendly.png",
+      "hex_color": "666A73",
+      "api_id": "e07458d5-5988-479c-a85e-a716d67adcfa",
+      "relevance_score": 67.0
+    },
+    {
+      "name": "Clay",
+      "slug": "clay",
+      "category": "Spreadsheets",
+      "description": "Clay is a simple spreadsheet interface, yet powerful automation platform that allows you to build internal tooling and automations to streamline your marketing, sales, and recruiting.",
+      "useCases": [
+        "Order confirmation messages",
+        "Lead follow-up notifications",
+        "Inventory alerts"
+      ],
+      "triggerExamples": [
+        "New row",
+        "Row updated",
+        "Spreadsheet modified"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/4c637763114b939554ce93b81a779590_3.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/4c637763114b939554ce93b81a779590_3.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/4c637763114b939554ce93b81a779590_3.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/4c637763114b939554ce93b81a779590_3.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Clay.png",
+      "hex_color": "65b6f9",
+      "api_id": "2c22f06c-d74d-4739-b8ee-d40e6503bb59",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "ClickUp",
+      "slug": "clickup",
+      "category": "Project Management",
+      "description": "ClickUp is an all-in-one app to plan, track, and manage your work in a beautifully intuitive environment.",
+      "useCases": [
+        "Task assignment notifications",
+        "Deadline reminders",
+        "Project update alerts"
+      ],
+      "triggerExamples": [
+        "Task created",
+        "Task completed",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/9573b6cf53211f38caf78b2d5977709f.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/9573b6cf53211f38caf78b2d5977709f.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/9573b6cf53211f38caf78b2d5977709f.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/9573b6cf53211f38caf78b2d5977709f.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/ClickUp.png",
+      "hex_color": "A681F7",
+      "api_id": "c58915c2-ba56-4566-8abe-2361e79d2a6d",
+      "relevance_score": 65.0
+    },
+    {
+      "name": "Close",
+      "slug": "close",
+      "category": "Crm",
+      "description": "Close is a sales productivity platform built to help you close more deals. With built-in calling, SMS, and email—your team can communicate with prospects and customers all in one place. It’s an \"all-i",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/c6b117ade34ecbe4d456de798445b299.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/c6b117ade34ecbe4d456de798445b299.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/c6b117ade34ecbe4d456de798445b299.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/c6b117ade34ecbe4d456de798445b299.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Close.png",
+      "hex_color": "2B6190",
+      "api_id": "d45dd955-5e95-48dc-9d73-c7739f89dce3",
+      "relevance_score": 33.0
+    },
+    {
+      "name": "Copilot CRM",
+      "slug": "copilot-crm",
+      "category": "Sales Crm",
+      "description": "Copilot CRM automates business processes and workflows by scheduling, routing, automatic invoicing, payment processing, and online booking.",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/20dbe663012ed09c984321c79829e6d5.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/20dbe663012ed09c984321c79829e6d5.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/20dbe663012ed09c984321c79829e6d5.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/20dbe663012ed09c984321c79829e6d5.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Copilot-CRM.png",
+      "hex_color": "3a69b3",
+      "api_id": "8bc7ba5c-484a-46b3-b201-4771079a890a",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "Gmail",
+      "slug": "gmail",
+      "category": "Email",
+      "description": "One of the most popular email services, Gmail keeps track of all your emails with threaded conversations, tags, and Google-powered search to find any message you need.",
+      "useCases": [
+        "Automated notifications from Gmail",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/1afcb319c029ec5da10efb593b7159c8.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/1afcb319c029ec5da10efb593b7159c8.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/1afcb319c029ec5da10efb593b7159c8.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/1afcb319c029ec5da10efb593b7159c8.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Gmail.png",
+      "hex_color": "db4437",
+      "api_id": "e6e814c3-04c6-4329-828a-9184e44d623a",
+      "relevance_score": 69.0
+    },
+    {
+      "name": "Google Forms",
+      "slug": "google-forms",
+      "category": "Forms",
+      "description": "Google Forms is an easy way to collect data from the web with a simple UI and powerful editor. Works hand-in-hand with Google Sheets!",
+      "useCases": [
+        "Instant lead response after form submission",
+        "Survey completion confirmations",
+        "Registration confirmations"
+      ],
+      "triggerExamples": [
+        "New submission",
+        "Form completed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/82ee79efa898e62c2c8b71187e09fb91.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/82ee79efa898e62c2c8b71187e09fb91.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/82ee79efa898e62c2c8b71187e09fb91.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/82ee79efa898e62c2c8b71187e09fb91.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Google-Forms.png",
+      "hex_color": "673AB1",
+      "api_id": "fbd01cba-597f-4700-b83b-072ccbd2b701",
+      "relevance_score": 77.0
+    },
+    {
+      "name": "Google Forms (Legacy)",
+      "slug": "google-forms-(legacy)",
+      "category": "Forms",
+      "description": "Google Forms is an easy way to collect data from the web with a simple UI and powerful editor. Works hand-in-hand with Google Sheets!",
+      "useCases": [
+        "Instant lead response after form submission",
+        "Survey completion confirmations",
+        "Registration confirmations"
+      ],
+      "triggerExamples": [
+        "New submission",
+        "Form completed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/2554f3f9544cf8375a46f68b18de0e7d.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/2554f3f9544cf8375a46f68b18de0e7d.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/2554f3f9544cf8375a46f68b18de0e7d.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/2554f3f9544cf8375a46f68b18de0e7d.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Google-Forms-(Legacy).png",
+      "hex_color": "673AB1",
+      "api_id": "bfc9f220-daae-4da9-bea3-b9f82bea87ee",
+      "relevance_score": 77.0
+    },
+    {
+      "name": "Google Sheets",
+      "slug": "google-sheets",
+      "category": "Google",
+      "description": "Create, edit, and share spreadsheets wherever you are with Google Sheets, and get automated insights from your data.",
+      "useCases": [
+        "Automated notifications from Google Sheets",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/8913a06feb7556d01285c052e4ad59d0.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/8913a06feb7556d01285c052e4ad59d0.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/8913a06feb7556d01285c052e4ad59d0.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/8913a06feb7556d01285c052e4ad59d0.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Google-Sheets.png",
+      "hex_color": "00a256",
+      "api_id": "0d71fb90-f233-4ce0-bdb1-3a2c887dfadf",
+      "relevance_score": 77.0
+    },
+    {
+      "name": "Grist",
+      "slug": "grist",
+      "category": "Spreadsheets",
+      "description": "Grist combines the flexibility of a spreadsheet with the robustness of a database to organize your data, your way.",
+      "useCases": [
+        "Order confirmation messages",
+        "Lead follow-up notifications",
+        "Inventory alerts"
+      ],
+      "triggerExamples": [
+        "New row",
+        "Row updated",
+        "Spreadsheet modified"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/ec443922f428e4cbe85396b441b89c68.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/ec443922f428e4cbe85396b441b89c68.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/ec443922f428e4cbe85396b441b89c68.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/ec443922f428e4cbe85396b441b89c68.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Grist.png",
+      "hex_color": "16B378",
+      "api_id": "d17a4500-db36-442a-ac20-642d4e0d59a1",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "HoneyBook",
+      "slug": "honeybook",
+      "category": "Crm",
+      "description": "HoneyBook is the leading client-flow platform independent businesses use to showcase services, book clients, manage projects, and get paid.",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/418ebc876c0525700cf7b3b186ba4944.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/418ebc876c0525700cf7b3b186ba4944.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/418ebc876c0525700cf7b3b186ba4944.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/418ebc876c0525700cf7b3b186ba4944.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/HoneyBook.png",
+      "hex_color": "FFD552",
+      "api_id": "80fadb0e-6084-4fdd-924c-eba631d5f90c",
+      "relevance_score": 31.0
+    },
+    {
+      "name": "HubSpot",
+      "slug": "hubspot",
+      "category": "Marketing Automation",
+      "description": "HubSpot is your all-in-one stop for all of your marketing software needs.",
+      "useCases": [
+        "Automated notifications from HubSpot",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer/cde9764aa8d19fdd6d591455dbe5a78d.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/HubSpot.png",
+      "hex_color": "f7761f",
+      "api_id": "1e4fcbf4-d80b-4ec3-b33b-c085f1ecbbaa",
+      "relevance_score": 65.0
+    },
+    {
+      "name": "Implifie",
+      "slug": "implifie",
+      "category": "Spreadsheets",
+      "description": "Implifie is a no-code customer engagement platform that helps businesses send broadcasts, build chatbot flows, and automate conversations to boost sales.",
+      "useCases": [
+        "Order confirmation messages",
+        "Lead follow-up notifications",
+        "Inventory alerts"
+      ],
+      "triggerExamples": [
+        "New row",
+        "Row updated",
+        "Spreadsheet modified"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/3101c621b11bf44d6074163f8735964f.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/3101c621b11bf44d6074163f8735964f.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/3101c621b11bf44d6074163f8735964f.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/3101c621b11bf44d6074163f8735964f.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Implifie.png",
+      "hex_color": "504f4f",
+      "api_id": "847d1ec3-8476-48a0-81d1-bf16af4f1919",
+      "relevance_score": 31.0
+    },
+    {
+      "name": "Kommo",
+      "slug": "kommo",
+      "category": "Crm",
+      "description": "Kommo is a messaging-powered CRM that helps you engage with your customers on a whole new level. It's a versatile, cloud-based sales automation tool that enables you to manage leads and monitor your s",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/9a8072bcfad2a9e4f21bba493f13e7d7.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/9a8072bcfad2a9e4f21bba493f13e7d7.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/9a8072bcfad2a9e4f21bba493f13e7d7.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/9a8072bcfad2a9e4f21bba493f13e7d7.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Kommo.png",
+      "hex_color": "121329",
+      "api_id": "4e41c937-ed47-4778-be33-6592a3150e7a",
+      "relevance_score": 31.0
+    },
+    {
+      "name": "Mailchimp",
+      "slug": "mailchimp",
+      "category": "Marketing Automation",
+      "description": "Mailchimp is an email and marketing automation platform built for growing businesses. Turn email and SMS into revenue.",
+      "useCases": [
+        "Automated notifications from Mailchimp",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/d4a87a6bccbd4490512fb02638086f9b.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/d4a87a6bccbd4490512fb02638086f9b.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/d4a87a6bccbd4490512fb02638086f9b.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/d4a87a6bccbd4490512fb02638086f9b.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Mailchimp.png",
+      "hex_color": "FFE01B",
+      "api_id": "1db199f1-6e48-47c6-a4e6-2a2c2b7a1b1c",
+      "relevance_score": 69.0
+    },
+    {
+      "name": "Microsoft Excel",
+      "slug": "microsoft-excel",
+      "category": "Microsoft",
+      "description": "Microsoft's Excel is a spreadsheet application used by millions of users across the world. It is part of the Office ecosystem and is considered the industry standard for spreadsheets. \r\n\r\nOnly files o",
+      "useCases": [
+        "Automated notifications from Microsoft Excel",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/14c14cc1f134a43c0931a7373b9d6a12.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/14c14cc1f134a43c0931a7373b9d6a12.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/14c14cc1f134a43c0931a7373b9d6a12.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/14c14cc1f134a43c0931a7373b9d6a12.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Microsoft-Excel.png",
+      "hex_color": "0E4F30",
+      "api_id": "609390d8-8cff-4426-9c2e-293bd6b89a0b",
+      "relevance_score": 77.0
+    },
+    {
+      "name": "Microsoft Outlook",
+      "slug": "microsoft-outlook",
+      "category": "Calendar",
+      "description": "Microsoft Outlook is a web-based suite of webmail, contacts, tasks, and calendaring services.",
+      "useCases": [
+        "Meeting reminders 15 minutes before Microsoft Outlook events",
+        "Event confirmations to attendees",
+        "Schedule change notifications"
+      ],
+      "triggerExamples": [
+        "Event starts",
+        "New event created",
+        "Event updated"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/0d35f3ae7308fd6f9d6e7e4675ce9660.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/0d35f3ae7308fd6f9d6e7e4675ce9660.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/0d35f3ae7308fd6f9d6e7e4675ce9660.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/0d35f3ae7308fd6f9d6e7e4675ce9660.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Microsoft-Outlook.png",
+      "hex_color": "2C47CD",
+      "api_id": "8b7ff7c2-61e9-46bc-a2a4-2ac42ab67fb2",
+      "relevance_score": 81.0
+    },
+    {
+      "name": "Microsoft Teams",
+      "slug": "microsoft-teams",
+      "category": "Microsoft",
+      "description": "Microsoft Teams is the hub for teamwork in Office 365 that integrates all the people, content, and tools your team needs to be more engaged and effective.",
+      "useCases": [
+        "Automated notifications from Microsoft Teams",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/8309b6e5867f4e7cb48b1ec4037c2125.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/8309b6e5867f4e7cb48b1ec4037c2125.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/8309b6e5867f4e7cb48b1ec4037c2125.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/8309b6e5867f4e7cb48b1ec4037c2125.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Microsoft-Teams.png",
+      "hex_color": "3021A7",
+      "api_id": "017e504c-21c6-489d-bb5b-c8662f64ce53",
+      "relevance_score": 65.0
+    },
+    {
+      "name": "Microsoft Teams Events",
+      "slug": "microsoft-teams-events",
+      "category": "Microsoft",
+      "description": "Microsoft Teams is the hub for teamwork in Office 365 that integrates all the people, content, and tools your team needs to be more engaged and effective. Requires tenant admin consent.",
+      "useCases": [
+        "Automated notifications from Microsoft Teams Events",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/8309b6e5867f4e7cb48b1ec4037c2125_2.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/8309b6e5867f4e7cb48b1ec4037c2125_2.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/8309b6e5867f4e7cb48b1ec4037c2125_2.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/8309b6e5867f4e7cb48b1ec4037c2125_2.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Microsoft-Teams-Events.png",
+      "hex_color": "2B1EA0",
+      "api_id": "7e267829-d3a1-4a0b-941d-1ba50aa9c1aa",
+      "relevance_score": 67.0
+    },
+    {
+      "name": "POWR Form Builder",
+      "slug": "powr-form-builder",
+      "category": "Ecommerce",
+      "description": "POWR Form Builder is an easy way to collect information, grow your email list, and take payments online on all devices and platforms.",
+      "useCases": [
+        "Order confirmations",
+        "Shipping updates",
+        "Abandoned cart reminders"
+      ],
+      "triggerExamples": [
+        "New order",
+        "Order fulfilled",
+        "Payment received"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer/67779093d53bb6e56ebe86f394f45c90.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer/67779093d53bb6e56ebe86f394f45c90.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer/67779093d53bb6e56ebe86f394f45c90.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer/67779093d53bb6e56ebe86f394f45c90.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/POWR-Form-Builder.png",
+      "hex_color": "5287DF",
+      "api_id": "ccc13d38-5b8b-4592-8472-bc083236e484",
+      "relevance_score": 31.0
+    },
+    {
+      "name": "Pipedrive",
+      "slug": "pipedrive",
+      "category": "Crm",
+      "description": "Pipedrive is sales pipeline and CRM software for deal makers. Get super-organized. Close deals in less time. iOS and Android apps let you take your pipeline with you anywhere.",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/d657ba4f3441a30ced367a4aa7cacacb.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/d657ba4f3441a30ced367a4aa7cacacb.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/d657ba4f3441a30ced367a4aa7cacacb.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/d657ba4f3441a30ced367a4aa7cacacb.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Pipedrive.png",
+      "hex_color": "017737",
+      "api_id": "9970f5f7-b4d3-448c-94f7-bd1aa639c17c",
+      "relevance_score": 79.0
+    },
+    {
+      "name": "Roofr",
+      "slug": "roofr",
+      "category": "Sales Crm",
+      "description": "Roofr: spend less time on admin and more time growing your roofing business. Manage reports, proposals, invoicing, payments, and more, on our easy-to-use platform.",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/68822cae1ac9daed1e49e37e082b15f0.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/68822cae1ac9daed1e49e37e082b15f0.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/68822cae1ac9daed1e49e37e082b15f0.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/68822cae1ac9daed1e49e37e082b15f0.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Roofr.png",
+      "hex_color": "1373E3",
+      "api_id": "9e70c690-0113-4645-a37e-051b3a629dfb",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "Salesforce",
+      "slug": "salesforce",
+      "category": "Crm",
+      "description": "Salesforce is a leading enterprise customer relationship manager (CRM) application.",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/1a4435539b4764e6ded3d368cabab387.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/1a4435539b4764e6ded3d368cabab387.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/1a4435539b4764e6ded3d368cabab387.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/1a4435539b4764e6ded3d368cabab387.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Salesforce.png",
+      "hex_color": "1798c1",
+      "api_id": "dbd17b2a-8bb7-40ed-8c6a-c2319d140592",
+      "relevance_score": 81.0
+    },
+    {
+      "name": "ShipStation",
+      "slug": "shipstation",
+      "category": "Ecommerce",
+      "description": "ShipStation helps eCommerce retailers organize, process, and fulfill their orders from all the most popular marketplaces and shopping carts using the top shipping carriers.",
+      "useCases": [
+        "Order confirmations",
+        "Shipping updates",
+        "Abandoned cart reminders"
+      ],
+      "triggerExamples": [
+        "New order",
+        "Order fulfilled",
+        "Payment received"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer/9e81a64085ba208588750f9568906eb7.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer/9e81a64085ba208588750f9568906eb7.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer/9e81a64085ba208588750f9568906eb7.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer/9e81a64085ba208588750f9568906eb7.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/ShipStation.png",
+      "hex_color": "92C43F",
+      "api_id": "da3f9cce-733a-46b6-bf4e-d35ba852dc66",
+      "relevance_score": 31.0
+    },
+    {
+      "name": "Shopify",
+      "slug": "shopify",
+      "category": "Ecommerce",
+      "description": "Shopify is a simple way to create an online store to list products, collect credit card payments, and ship your goods.",
+      "useCases": [
+        "Order confirmations",
+        "Shipping updates",
+        "Abandoned cart reminders"
+      ],
+      "triggerExamples": [
+        "New order",
+        "Order fulfilled",
+        "Payment received"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/4da9d3e3f93cd522f85e1b0695341f89.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/4da9d3e3f93cd522f85e1b0695341f89.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/4da9d3e3f93cd522f85e1b0695341f89.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/4da9d3e3f93cd522f85e1b0695341f89.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Shopify.png",
+      "hex_color": "96bf48",
+      "api_id": "eadaf91b-254f-469f-ab15-91dca84b5bf2",
+      "relevance_score": 77.0
+    },
+    {
+      "name": "Slack",
+      "slug": "slack",
+      "category": "Team Chat",
+      "description": "Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go. Offering instant messaging, document sharing and knowledge search for modern teams",
+      "useCases": [
+        "Automated notifications from Slack",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/6cf3f5a461feadfba7abc93c4c395b33_2.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/6cf3f5a461feadfba7abc93c4c395b33_2.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/6cf3f5a461feadfba7abc93c4c395b33_2.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/6cf3f5a461feadfba7abc93c4c395b33_2.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Slack.png",
+      "hex_color": "510f4d",
+      "api_id": "ca83afc5-ee9a-470d-b577-e7f8fd555b67",
+      "relevance_score": 67.0
+    },
+    {
+      "name": "Smartsheet",
+      "slug": "smartsheet",
+      "category": "Spreadsheets",
+      "description": "Smartsheet is a leading cloud-based platform for work execution, enabling teams and organizations to plan, capture, manage, automate, and report on work at scale, resulting in more efficient processes",
+      "useCases": [
+        "Order confirmation messages",
+        "Lead follow-up notifications",
+        "Inventory alerts"
+      ],
+      "triggerExamples": [
+        "New row",
+        "Row updated",
+        "Spreadsheet modified"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/7e69c8271314e34232bff582b5bdc08c.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/7e69c8271314e34232bff582b5bdc08c.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/7e69c8271314e34232bff582b5bdc08c.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/7e69c8271314e34232bff582b5bdc08c.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Smartsheet.png",
+      "hex_color": "2a5077",
+      "api_id": "d75c6064-afd7-4917-a6ed-d54eacc3154f",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "Stripe",
+      "slug": "stripe",
+      "category": "Payment Processing",
+      "description": "Stripe is a developer-friendly way to accept payments online and in mobile apps. Stripe's suite of APIs powers commerce for thousands of companies of all sizes, processing billions of dollars for busi",
+      "useCases": [
+        "Automated notifications from Stripe",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/58576265fb574acf48e65da92b12d764.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/58576265fb574acf48e65da92b12d764.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/58576265fb574acf48e65da92b12d764.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/58576265fb574acf48e65da92b12d764.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Stripe.png",
+      "hex_color": "635BFF",
+      "api_id": "5539d92f-56d6-4bc1-a74d-00e08499b05e",
+      "relevance_score": 67.0
+    },
+    {
+      "name": "TimeRex",
+      "slug": "timerex",
+      "category": "Calendar",
+      "description": "TimeRex is a schedule automation tool that saves you from the hassle of figuring out schedules, arranging meetings and keeping your calendar updated.",
+      "useCases": [
+        "Meeting reminders 15 minutes before TimeRex events",
+        "Event confirmations to attendees",
+        "Schedule change notifications"
+      ],
+      "triggerExamples": [
+        "Event starts",
+        "New event created",
+        "Event updated"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/c9c2e971a5d8e3d36f8132f00835dca7_3.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/c9c2e971a5d8e3d36f8132f00835dca7_3.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/c9c2e971a5d8e3d36f8132f00835dca7_3.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/c9c2e971a5d8e3d36f8132f00835dca7_3.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/TimeRex.png",
+      "hex_color": "1DA39A",
+      "api_id": "beabb90e-a300-4c69-bfc8-d4af0c3ee617",
+      "relevance_score": 31.0
+    },
+    {
+      "name": "Trello",
+      "slug": "trello",
+      "category": "Project Management",
+      "description": "Trello is a team collaboration tool that lets you organize anything and everything to keep your projects on task.",
+      "useCases": [
+        "Task assignment notifications",
+        "Deadline reminders",
+        "Project update alerts"
+      ],
+      "triggerExamples": [
+        "Task created",
+        "Task completed",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/640f1b5420d6bf7c43c267cc24456581.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/640f1b5420d6bf7c43c267cc24456581.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/640f1b5420d6bf7c43c267cc24456581.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/640f1b5420d6bf7c43c267cc24456581.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Trello.png",
+      "hex_color": "1458BD",
+      "api_id": "b9df4eff-f311-44f9-ac54-2901f952c6ac",
+      "relevance_score": 69.0
+    },
+    {
+      "name": "Vendasta",
+      "slug": "vendasta",
+      "category": "Sales Crm",
+      "description": "Vendasta provides a single place for your sales teams to view key information about your customers.",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/1dc685f47afc1d82aeed9b30d06a3f11_3.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/1dc685f47afc1d82aeed9b30d06a3f11_3.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/1dc685f47afc1d82aeed9b30d06a3f11_3.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/1dc685f47afc1d82aeed9b30d06a3f11_3.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Vendasta.png",
+      "hex_color": "008000",
+      "api_id": "08e1434d-9292-4738-a44b-c6f9c89ce763",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "WPForms",
+      "slug": "wpforms",
+      "category": "Forms",
+      "description": "WPForms is a drag and drop online form builder for WordPress that allows you to easily create contact forms, email subscription forms, billing forms, donation forms, online order forms, and more.",
+      "useCases": [
+        "Instant lead response after form submission",
+        "Survey completion confirmations",
+        "Registration confirmations"
+      ],
+      "triggerExamples": [
+        "New submission",
+        "Form completed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer/b0904faae8a75c3ca219f9bf92635922.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer/b0904faae8a75c3ca219f9bf92635922.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer/b0904faae8a75c3ca219f9bf92635922.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer/b0904faae8a75c3ca219f9bf92635922.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/WPForms.png",
+      "hex_color": "e27730",
+      "api_id": "62fb8992-e6df-4c75-a12e-d40b32754f83",
+      "relevance_score": 33.0
+    },
+    {
+      "name": "Webhooks by Zapier",
+      "slug": "webhooks-by-zapier",
+      "category": "Developer Tools",
+      "description": "Webhooks simply POST data (or JSON) to a specific URL every time we see something new. Webhooks can also accept data (or JSON) to kick off a workflow in Zapier.",
+      "useCases": [
+        "Automated notifications from Webhooks by Zapier",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/6aafbb717d42f8b42f5be2e4e89e1a15.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/6aafbb717d42f8b42f5be2e4e89e1a15.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/6aafbb717d42f8b42f5be2e4e89e1a15.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/6aafbb717d42f8b42f5be2e4e89e1a15.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Webhooks-by-Zapier.png",
+      "hex_color": "ffc43e",
+      "api_id": "282abca7-73d4-4f0a-86e2-64f10541f900",
+      "relevance_score": 65.0
+    },
+    {
+      "name": "WooCommerce",
+      "slug": "woocommerce",
+      "category": "Ecommerce",
+      "description": "WooCommerce is the eCommerce platform for WordPress. This connection requires a paid extension.",
+      "useCases": [
+        "Order confirmations",
+        "Shipping updates",
+        "Abandoned cart reminders"
+      ],
+      "triggerExamples": [
+        "New order",
+        "Order fulfilled",
+        "Payment received"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/319f11f5b4dd83f3830e14b0577b6d5d.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/319f11f5b4dd83f3830e14b0577b6d5d.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/319f11f5b4dd83f3830e14b0577b6d5d.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/319f11f5b4dd83f3830e14b0577b6d5d.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/WooCommerce.png",
+      "hex_color": "873EFF",
+      "api_id": "9028249c-fda9-49a8-a16b-9538303944d8",
+      "relevance_score": 79.0
+    },
+    {
+      "name": "Zapier Interfaces",
+      "slug": "zapier-interfaces",
+      "category": "App Builder",
+      "description": "Instantly build dynamic interfaces that connect to Zaps and a data source (like Tables). Interfaces gives you a drag-and-drop way to build visual workflows for any business process, without writing co",
+      "useCases": [
+        "Automated notifications from Zapier Interfaces",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/c7ed9691c53b602419408c5eba12dd58.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/c7ed9691c53b602419408c5eba12dd58.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/c7ed9691c53b602419408c5eba12dd58.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/c7ed9691c53b602419408c5eba12dd58.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Zapier-Interfaces.png",
+      "hex_color": "FF4F00",
+      "api_id": "1129b0d3-c561-48ad-98ca-dc9e2e69fb8d",
+      "relevance_score": 37.0
+    },
+    {
+      "name": "Zapier Tables",
+      "slug": "zapier-tables",
+      "category": "Databases",
+      "description": "Zapier Tables is a no-code database built for automation.",
+      "useCases": [
+        "Automated notifications from Zapier Tables",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/7d0496cd732e88a28ef405d75c2fea5a.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/7d0496cd732e88a28ef405d75c2fea5a.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/7d0496cd732e88a28ef405d75c2fea5a.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/7d0496cd732e88a28ef405d75c2fea5a.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Zapier-Tables.png",
+      "hex_color": "ff4f01",
+      "api_id": "742f1360-3775-41fd-9c7c-c82f106a0af1",
+      "relevance_score": 29.0
+    },
+    {
+      "name": "Zoho CRM",
+      "slug": "zoho-crm",
+      "category": "Crm",
+      "description": "Zoho CRM is an AI-powered sales CRM that empowers teams to work together better and close more deals.",
+      "useCases": [
+        "New lead notifications",
+        "Deal stage change alerts",
+        "Contact engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New contact",
+        "Deal updated",
+        "Lead created"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/8b222e5e2d52e0b827a02ba8c3162de1.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/8b222e5e2d52e0b827a02ba8c3162de1.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/8b222e5e2d52e0b827a02ba8c3162de1.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/8b222e5e2d52e0b827a02ba8c3162de1.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Zoho-CRM.png",
+      "hex_color": "ef463e",
+      "api_id": "5c3f9c40-5335-4611-9ccf-5495c274884d",
+      "relevance_score": 79.0
+    },
+    {
+      "name": "Zoho Calendar",
+      "slug": "zoho-calendar",
+      "category": "Calendar",
+      "description": "Zoho Calendar is an online personal and business calendar app that helps you plan your schedule, track daily agenda, and manage team events.",
+      "useCases": [
+        "Meeting reminders 15 minutes before Zoho Calendar events",
+        "Event confirmations to attendees",
+        "Schedule change notifications"
+      ],
+      "triggerExamples": [
+        "Event starts",
+        "New event created",
+        "Event updated"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/786ee931ff5bc778c46d8cdf2bc611b7_2.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/786ee931ff5bc778c46d8cdf2bc611b7_2.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/786ee931ff5bc778c46d8cdf2bc611b7_2.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/786ee931ff5bc778c46d8cdf2bc611b7_2.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Zoho-Calendar.png",
+      "hex_color": "256FB2",
+      "api_id": "84f0c790-2808-4ee7-8527-f82b5ce13ced",
+      "relevance_score": 31.0
+    },
+    {
+      "name": "Zoom",
+      "slug": "zoom",
+      "category": "Video Calls",
+      "description": "Zoom brings teams together to get more done in a frictionless environment. Zoom's reliable, video-first unified communications platform provides video meetings, voice, webinars, and chat across deskto",
+      "useCases": [
+        "Automated notifications from Zoom",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/b1b88ab90da5053fe893ef3d4a11c147.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/b1b88ab90da5053fe893ef3d4a11c147.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/b1b88ab90da5053fe893ef3d4a11c147.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/b1b88ab90da5053fe893ef3d4a11c147.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Zoom.png",
+      "hex_color": "348FFB",
+      "api_id": "caf30516-4d1a-4a77-aa3e-bdb37ebccfc9",
+      "relevance_score": 71.0
+    },
+    {
+      "name": "Zoom Team Chat",
+      "slug": "zoom-team-chat",
+      "category": "Team Chat",
+      "description": "Streamline communications with triggers for new channels, messages, mentions, and create actions to send messages, update presence, and more to Zoom Team Chat.",
+      "useCases": [
+        "Automated notifications from Zoom Team Chat",
+        "Event-triggered messages",
+        "Customer engagement campaigns"
+      ],
+      "triggerExamples": [
+        "New item",
+        "Item updated",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer_cli/928716fc0f6209e6f06cf73e1c126aac.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer_cli/928716fc0f6209e6f06cf73e1c126aac.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer_cli/928716fc0f6209e6f06cf73e1c126aac.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer_cli/928716fc0f6209e6f06cf73e1c126aac.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/Zoom-Team-Chat.png",
+      "hex_color": "0B5CFF",
+      "api_id": "a189c6de-182b-49e4-b833-f241acb8a812",
+      "relevance_score": 69.0
+    },
+    {
+      "name": "imeetify",
+      "slug": "imeetify",
+      "category": "Calendar",
+      "description": "imeetify is a online appointment scheduling and event hosting platform",
+      "useCases": [
+        "Meeting reminders 15 minutes before imeetify events",
+        "Event confirmations to attendees",
+        "Schedule change notifications"
+      ],
+      "triggerExamples": [
+        "Event starts",
+        "New event created",
+        "Event updated"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/services/05ff4466b577db476818643980913373.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/services/05ff4466b577db476818643980913373.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/services/05ff4466b577db476818643980913373.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/services/05ff4466b577db476818643980913373.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/imeetify.png",
+      "hex_color": "377DFF",
+      "api_id": "e22a175d-489b-44d2-9a7a-ca46b3568f72",
+      "relevance_score": 31.0
+    },
+    {
+      "name": "monday.com",
+      "slug": "mondaycom",
+      "category": "Project Management",
+      "description": "monday.com helps you move projects forward fast, letting everyone know what's been done on a task—and what needs finished right now.",
+      "useCases": [
+        "Task assignment notifications",
+        "Deadline reminders",
+        "Project update alerts"
+      ],
+      "triggerExamples": [
+        "Task created",
+        "Task completed",
+        "Status changed"
+      ],
+      "images": {
+        "url_16x16": "https://zapier-images.imgix.net/storage/developer/2663f19cb1a591e113356c9ba376a567.png?auto=format%2Ccompress&fit=crop&h=16&ixlib=python-3.0.0&q=50&w=16",
+        "url_32x32": "https://zapier-images.imgix.net/storage/developer/2663f19cb1a591e113356c9ba376a567.png?auto=format%2Ccompress&fit=crop&h=32&ixlib=python-3.0.0&q=50&w=32",
+        "url_64x64": "https://zapier-images.imgix.net/storage/developer/2663f19cb1a591e113356c9ba376a567.png?auto=format%2Ccompress&fit=crop&h=64&ixlib=python-3.0.0&q=50&w=64",
+        "url_128x128": "https://zapier-images.imgix.net/storage/developer/2663f19cb1a591e113356c9ba376a567.png?auto=format%2Ccompress&fit=crop&h=128&ixlib=python-3.0.0&q=50&w=128"
+      },
+      "image": "./app_images/monday.com.png",
+      "hex_color": "FAB715",
+      "api_id": "15d3f0f7-11b1-4ed0-8bb3-31a1700817d1",
+      "relevance_score": 69.0
+    }
+  ]
+}

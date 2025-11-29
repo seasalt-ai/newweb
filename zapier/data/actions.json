@@ -1,0 +1,43 @@
+{
+  "actions": [
+    {
+      "id": "sms",
+      "name": "SMS",
+      "slug": "sms",
+      "description": "Send automated SMS messages with AI-powered content generation",
+      "icon": "💬",
+      "benefits": [
+        "Instant delivery to mobile phones worldwide",
+        "High open rates (98% within 3 minutes)",
+        "No app installation required",
+        "Perfect for time-sensitive notifications"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "slug": "whatsapp",
+      "description": "Send WhatsApp messages using Meta-approved templates with AI automation",
+      "icon": "📱",
+      "benefits": [
+        "Rich media support (images, documents, buttons)",
+        "Global reach with 2+ billion users",
+        "Higher engagement than traditional SMS",
+        "Business-verified messaging"
+      ]
+    },
+    {
+      "id": "phone-call",
+      "name": "Phone Call",
+      "slug": "phone-call",
+      "description": "Initiate automated phone calls with voice AI",
+      "icon": "📞",
+      "benefits": [
+        "Direct voice communication",
+        "Highest urgency and attention",
+        "Perfect for critical alerts",
+        "AI-powered natural voice synthesis"
+      ]
+    }
+  ]
+}

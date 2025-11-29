@@ -1,0 +1,351 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../../i18n/helpers';
+import curatedApps from '../../../../../zapier/data/curated-apps.json';
+import actions from '../../../../../zapier/data/actions.json';
+
+export async function getStaticPaths() {
+  const paths = [];
+  
+  for (const lang of supportedLocales) {
+    for (const app of curatedApps.apps) {
+      for (const action of actions.actions) {
+        paths.push({
+          params: { 
+            lang, 
+            app: app.slug,
+            action: action.slug
+          },
+          props: { 
+            app,
+            action
+          }
+        });
+      }
+    }
+  }
+  
+  return paths;
+}
+
+const { app, action } = Astro.props;
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO metadata
+const title = t('integrations.spoke.metaTitle')
+  .replace('{appName}', app.name)
+  .replace('{actionName}', action.name);
+const description = t('integrations.spoke.metaDescription')
+  .replace('{appName}', app.name)
+  .replace('{actionName}', action.name)
+  .replace('{actionDescription}', action.description);
+const keywords = t('integrations.spoke.keywords')
+  .replace('{appName}', app.name)
+  .replace('{actionName}', action.name)
+  .replace('{category}', app.category);
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: t('integrations.breadcrumb.home'), url: `/${currentLang}/` },
+  { name: t('integrations.breadcrumb.integrations'), url: `/${currentLang}/integrations/` },
+  { name: app.name, url: `/${currentLang}/integrations/${app.slug}/` },
+  { name: action.name, url: `/${currentLang}/integrations/${app.slug}/${action.slug}/` }
+];
+
+// JSON-LD HowTo Schema
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": t('integrations.spoke.howToTitle').replace('{appName}', app.name).replace('{actionName}', action.name),
+  "description": t('integrations.spoke.howToDescription').replace('{appName}', app.name).replace('{actionName}', action.name),
+  "totalTime": "PT10M",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Zapier Account"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Seasalt.ai Account"
+    },
+    {
+      "@type": "HowToTool",
+      "name": app.name
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": t('integrations.spoke.setupStep1.title'),
+      "text": t('integrations.spoke.setupStep1.description').replace('{appName}', app.name)
+    },
+    {
+      "@type": "HowToStep",
+      "name": t('integrations.spoke.setupStep2.title'),
+      "text": t('integrations.spoke.setupStep2.description')
+    },
+    {
+      "@type": "HowToStep",
+      "name": t('integrations.spoke.setupStep3.title'),
+      "text": t('integrations.spoke.setupStep3.description').replace('{actionName}', action.name)
+    },
+    {
+      "@type": "HowToStep",
+      "name": t('integrations.spoke.setupStep4.title'),
+      "text": t('integrations.spoke.setupStep4.description')
+    },
+    {
+      "@type": "HowToStep",
+      "name": t('integrations.spoke.setupStep5.title'),
+      "text": t('integrations.spoke.setupStep5.description')
+    }
+  ]
+};
+
+// Product Schema
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": `${app.name} to ${action.name} Integration`,
+  "applicationCategory": "BusinessApplication",
+  "description": `Automatically send ${action.name} messages when ${app.name} triggers occur using Seasalt.ai's Agentic Send`,
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+};
+
+const customJsonLd = [howToSchema, productSchema];
+
+// Get other actions for cross-linking
+const otherActions = actions.actions.filter((a: any) => a.slug !== action.slug);
+---
+
+<Layout 
+  title={title}
+  description={description}
+  lang={currentLang}
+  keywords={keywords}
+  type="software"
+  breadcrumbs={breadcrumbs}
+  customJsonLd={customJsonLd}
+  headerVersion="default"
+  footerVersion="default"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Hero Section -->
+    <div class="text-center mb-16">
+      <div class="flex items-center justify-center gap-4 mb-6">
+        <div class="text-6xl">{action.icon}</div>
+      </div>
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        {t('integrations.spoke.headline').replace('{appName}', app.name).replace('{actionName}', action.name)}
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t('integrations.spoke.subheadline').replace('{appName}', app.name).replace('{actionName}', action.name).replace('{actionDescription}', action.description)}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a 
+          href="https://zapier.com/apps/seasaltai/integrations"
+          class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t('integrations.spoke.cta.primary')}
+        </a>
+        <a 
+          href={`/${currentLang}/contact`}
+          class="inline-flex items-center justify-center px-8 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition"
+        >
+          {t('integrations.spoke.cta.secondary')}
+        </a>
+      </div>
+    </div>
+
+    <!-- Benefits Grid -->
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+        {t('integrations.spoke.benefits.title').replace('{actionName}', action.name)}
+      </h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        {action.benefits.map((benefit: string) => (
+          <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-6 flex items-start">
+            <span class="text-green-500 text-2xl mr-4">✓</span>
+            <span class="text-lg text-gray-700">{benefit}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Use Cases Specific to This Combo -->
+    <div class="mb-16 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">
+        {t('integrations.spoke.useCases.title').replace('{appName}', app.name).replace('{actionName}', action.name)}
+      </h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        {app.useCases.map((useCase: string, index: number) => (
+          <div class="bg-white rounded-lg p-6 shadow-sm">
+            <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-blue-600 font-bold">
+              {index + 1}
+            </div>
+            <h3 class="font-semibold text-gray-900 mb-2">{useCase}</h3>
+            <p class="text-sm text-gray-600">
+              {t('integrations.spoke.useCases.via').replace('{actionName}', action.name)}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- Step-by-Step Setup -->
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+        {t('integrations.spoke.setup.title')}
+      </h2>
+      <div class="max-w-3xl mx-auto space-y-6">
+        <div class="bg-white border-l-4 border-blue-600 p-6 shadow-md">
+          <div class="flex items-start">
+            <div class="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 flex-shrink-0">1</div>
+            <div>
+              <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.spoke.setupStep1.title')}</h3>
+              <p class="text-gray-600">{t('integrations.spoke.setupStep1.description').replace('{appName}', app.name)}</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white border-l-4 border-blue-600 p-6 shadow-md">
+          <div class="flex items-start">
+            <div class="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 flex-shrink-0">2</div>
+            <div>
+              <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.spoke.setupStep2.title')}</h3>
+              <p class="text-gray-600">{t('integrations.spoke.setupStep2.description')}</p>
+              <div class="mt-3 bg-gray-50 rounded p-3">
+                <p class="text-sm font-mono text-gray-700">{t('integrations.spoke.setupStep2.example').replace('{appName}', app.name)}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white border-l-4 border-blue-600 p-6 shadow-md">
+          <div class="flex items-start">
+            <div class="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 flex-shrink-0">3</div>
+            <div>
+              <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.spoke.setupStep3.title')}</h3>
+              <p class="text-gray-600">{t('integrations.spoke.setupStep3.description').replace('{actionName}', action.name)}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white border-l-4 border-blue-600 p-6 shadow-md">
+          <div class="flex items-start">
+            <div class="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold mr-4 flex-shrink-0">4</div>
+            <div>
+              <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.spoke.setupStep4.title')}</h3>
+              <p class="text-gray-600">{t('integrations.spoke.setupStep4.description')}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white border-l-4 border-green-600 p-6 shadow-md">
+          <div class="flex items-start">
+            <div class="w-10 h-10 bg-green-600 text-white rounded-full flex items-center justify-center font-bold mr-4 flex-shrink-0">5</div>
+            <div>
+              <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.spoke.setupStep5.title')}</h3>
+              <p class="text-gray-600">{t('integrations.spoke.setupStep5.description')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Key Features -->
+    <div class="mb-16 bg-gray-50 rounded-2xl p-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">
+        {t('integrations.spoke.features.title')}
+      </h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="font-semibold text-gray-900 mb-3">🤖 {t('integrations.spoke.features.aiPowered.title')}</h3>
+          <p class="text-gray-600">{t('integrations.spoke.features.aiPowered.description')}</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="font-semibold text-gray-900 mb-3">⚡ {t('integrations.spoke.features.autoValidation.title')}</h3>
+          <p class="text-gray-600">{t('integrations.spoke.features.autoValidation.description')}</p>
+        </div>
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="font-semibold text-gray-900 mb-3">🎯 {t('integrations.spoke.features.simplicity.title')}</h3>
+          <p class="text-gray-600">{t('integrations.spoke.features.simplicity.description')}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Example Triggers -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold text-gray-900 mb-6">
+        {t('integrations.spoke.triggers.title').replace('{appName}', app.name)}
+      </h2>
+      <div class="flex flex-wrap gap-3">
+        {app.triggerExamples.map((trigger: string) => (
+          <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-blue-50 text-blue-700 border border-blue-200">
+            {trigger}
+          </span>
+        ))}
+      </div>
+    </div>
+
+    <!-- Other Action Options -->
+    {otherActions.length > 0 && (
+      <div class="mb-16">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">
+          {t('integrations.spoke.otherChannels.title').replace('{appName}', app.name)}
+        </h2>
+        <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {otherActions.map((otherAction: any) => (
+            <a 
+              href={`/${currentLang}/integrations/${app.slug}/${otherAction.slug}/`}
+              class="block bg-white rounded-lg shadow-md hover:shadow-xl transition p-6 group"
+            >
+              <div class="flex items-center mb-3">
+                <span class="text-3xl mr-3">{otherAction.icon}</span>
+                <h3 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition">
+                  {app.name} + {otherAction.name}
+                </h3>
+              </div>
+              <p class="text-gray-600 text-sm">{otherAction.description}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Final CTA -->
+    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-12 text-center text-white">
+      <h2 class="text-3xl font-bold mb-4">
+        {t('integrations.spoke.finalCta.title').replace('{appName}', app.name).replace('{actionName}', action.name)}
+      </h2>
+      <p class="text-xl mb-8 opacity-90">
+        {t('integrations.spoke.finalCta.description')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a 
+          href="https://zapier.com/apps/seasaltai/integrations"
+          class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50 transition"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t('integrations.spoke.finalCta.zapier')}
+        </a>
+        <a 
+          href={`/${currentLang}/integrations/${app.slug}/`}
+          class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-blue-600 transition"
+        >
+          {t('integrations.spoke.finalCta.viewAll').replace('{appName}', app.name)}
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
