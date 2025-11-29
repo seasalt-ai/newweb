@@ -77,6 +77,58 @@
       "keywords": "{appName} {actionName}, {appName} to {actionName}, automate {actionName}, {category} {actionName}, Zapier {appName} {actionName}",
       "headline": "Send {actionName} Automatically from {appName}",
       "subheadline": "{actionDescription} Automate your {appName} workflows and send intelligent {actionName} messages with AI-powered Agentic Send.",
+      "hero": {
+        "headline": "Turn {appName} into Intelligent {actionName} Conversations",
+        "subheadline": "Stop building complex Zaps. Let Seasalt.ai's Agentic AI validate, format, and send your messages or calls instantly.",
+        "cta_primary": "Build This Zap Now",
+        "cta_secondary": "See It In Action",
+        "messy_input_label": "Raw {appName} Data",
+        "ai_node_label": "Agentic AI Node",
+        "clean_output_label": "Formatted Message"
+      },
+      "bento": {
+        "simplicity_title": "Radical Simplicity",
+        "simplicity_old": "10-step Old Way",
+        "simplicity_new": "1-Step Agentic Way",
+        "simplicity_done": "Done",
+        "ai_cleaning_title": "AI Data Cleaning",
+        "ai_cleaning_desc": "AI fixes a bad number instantly.",
+        "open_rates_title": "98% Open Rates",
+        "open_rates_desc": "Ticking stat counter in your positives.",
+        "global_reach_title": "Global Reach",
+        "global_reach_desc": "Send to customers worldwide, instantly."
+      },
+      "how_it_works": {
+        "title": "How it Works",
+        "step1_title": "Connect",
+        "step1_desc": "Select {appName}",
+        "step2_title": "Prompt",
+        "step2_desc": "Tell the AI what to do in plain English",
+        "step3_title": "Activate",
+        "step3_desc": "The AI handles the data extraction and sending"
+      },
+      "use_cases": {
+        "title": "Real-World Use Cases",
+        "real_estate": "Real Estate",
+        "real_estate_title": "Open House Reminder",
+        "real_estate_body": "Hi John, thanks for registering for the open house at 123 Main St tomorrow at 2pm. See you there!",
+        "ecommerce": "E-commerce",
+        "ecommerce_title": "Order Confirmation",
+        "ecommerce_body": "Your order #1234 is confirmed! Track your shipment at seasalt.ai/track. Estimated delivery: 3-5 days.",
+        "events": "Events",
+        "events_title": "Event Ticket",
+        "events_body": "Here is your ticket QR code for the webinar tomorrow. Check-in starts at 9am. See you soon!"
+      },
+      "trust": {
+        "heading": "Trusted by modern teams at:",
+        "stat_prefix": "Over ",
+        "stat_number": "1 Million",
+        "stat_suffix": " messages optimized by Agentic AI"
+      },
+      "sticky_cta": {
+        "text": "Ready to automate your outreach?",
+        "button": "Start Free with Zapier"
+      },
       "cta": {
         "primary": "Build This Zap Now",
         "secondary": "Contact Sales"

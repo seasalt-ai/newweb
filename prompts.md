@@ -28,6 +28,7 @@ where {trigger_app} is all popular zapier apps, and {actions} are specific seasa
 Seasalt.ai's zapier page is at https://zapier.com/apps/seasaltai/integrations 
 
 Requirements:
+0. put all your scripts, plans, etc under the ./zapier folder (alreay exist)
 1. enumerate all zapier categories
 2. find the 20 most popular apps under each category
 3. only keep the ones that make sense to pair with specifically {actions}
