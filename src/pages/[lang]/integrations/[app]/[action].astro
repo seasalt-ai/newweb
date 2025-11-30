@@ -41,18 +41,18 @@ const { lang } = Astro.params;
 const currentLang = (lang as SupportedLanguage) || 'en';
 const { t } = await getTranslationHelpers(currentLang);
 
-// SEO metadata
+// SEO metadata - Replace all occurrences of placeholders
 const title = t('integrations.spoke.metaTitle')
-  .replace('{appName}', app.name)
-  .replace('{actionName}', action.name);
+  .replaceAll('{appName}', app.name)
+  .replaceAll('{actionName}', action.name);
 const description = t('integrations.spoke.metaDescription')
-  .replace('{appName}', app.name)
-  .replace('{actionName}', action.name)
-  .replace('{actionDescription}', action.description);
+  .replaceAll('{appName}', app.name)
+  .replaceAll('{actionName}', action.name)
+  .replaceAll('{actionDescription}', action.description);
 const keywords = t('integrations.spoke.keywords')
-  .replace('{appName}', app.name)
-  .replace('{actionName}', action.name)
-  .replace('{category}', app.category);
+  .replaceAll('{appName}', app.name)
+  .replaceAll('{actionName}', action.name)
+  .replaceAll('{category}', app.category);
 
 // Breadcrumbs
 const breadcrumbs = [
@@ -62,13 +62,40 @@ const breadcrumbs = [
   { name: action.name, url: `/${currentLang}/integrations/${app.slug}/${action.slug}/` }
 ];
 
-// JSON-LD HowTo Schema
+// Base URL for schema.org structured data
+const siteUrl = "https://seasalt.ai";
+const currentUrl = `${siteUrl}/${currentLang}/integrations/${app.slug}/${action.slug}`;
+
+// 1. SoftwareApplication Schema - represents the integration itself
+const integrationSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": `${app.name} to ${action.name} Integration | Automated ${action.name} from ${app.name}`,
+  "operatingSystem": "Cloud",
+  "applicationCategory": "BusinessApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "USD",
+    "description": "Free trial available"
+  },
+  "description": `Enterprise-grade messaging platform for ${action.name}, SMS, and Voice automation.`,
+  "featureList": `Integration with ${app.name} via Zapier to send ${action.name}.`,
+  "url": currentUrl,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "500"
+  }
+};
+
+// 2. HowTo Schema (With specific naming format and image support)
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": t('integrations.spoke.howToTitle').replace('{appName}', app.name).replace('{actionName}', action.name),
-  "description": t('integrations.spoke.howToDescription').replace('{appName}', app.name).replace('{actionName}', action.name),
-  "totalTime": "PT10M",
+  "name": `How to connect ${app.name} to ${action.name} using Seasalt.ai`,
+  "description": `A step-by-step guide to automatically send ${action.name} messages via Seasalt.ai whenever a specific event happens in ${app.name}.`,
+  "totalTime": "PT5M",
   "tool": [
     {
       "@type": "HowToTool",
@@ -86,48 +113,35 @@ const howToSchema = {
   "step": [
     {
       "@type": "HowToStep",
-      "name": t('integrations.spoke.setupStep1.title'),
-      "text": t('integrations.spoke.setupStep1.description').replace('{appName}', app.name)
+      "name": "Select the Trigger",
+      "text": `Choose ${app.name} as your trigger app in Zapier and select the specific event (e.g., 'New Lead' or 'New Event').`,
+      "image": app.image ? `${siteUrl}${app.image.replace('./', '/')}` : `${siteUrl}/seasalt-ai-icon.png`,
+      "url": `${currentUrl}#step1`
     },
     {
       "@type": "HowToStep",
-      "name": t('integrations.spoke.setupStep2.title'),
-      "text": t('integrations.spoke.setupStep2.description')
+      "name": "Select Seasalt.ai Action",
+      "text": `Choose Seasalt.ai as your action app and select '${action.name}' (e.g., Send ${action.name} Message).`,
+      "image": `${siteUrl}/seasalt-ai-icon.png`,
+      "url": `${currentUrl}#step2`
     },
     {
       "@type": "HowToStep",
-      "name": t('integrations.spoke.setupStep3.title'),
-      "text": t('integrations.spoke.setupStep3.description').replace('{actionName}', action.name)
+      "name": "Map the Data",
+      "text": `Map the phone number and message content fields from ${app.name} into the Seasalt.ai action block.`,
+      "url": `${currentUrl}#step3`
     },
     {
       "@type": "HowToStep",
-      "name": t('integrations.spoke.setupStep4.title'),
-      "text": t('integrations.spoke.setupStep4.description')
-    },
-    {
-      "@type": "HowToStep",
-      "name": t('integrations.spoke.setupStep5.title'),
-      "text": t('integrations.spoke.setupStep5.description')
+      "name": "Activate Workflow",
+      "text": `Test the step to ensure the ${action.name} is delivered, then turn on your Zap.`,
+      "url": `${currentUrl}#step4`
     }
   ]
 };
 
-// Product Schema
-const productSchema = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": `${app.name} to ${action.name} Integration`,
-  "applicationCategory": "BusinessApplication",
-  "description": `Automatically send ${action.name} messages when ${app.name} triggers occur using Seasalt.ai's Agentic Send`,
-  "operatingSystem": "Web",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
-};
-
-const customJsonLd = [howToSchema, productSchema];
+// Note: Breadcrumb schema is automatically generated by the SEO component from the breadcrumbs prop
+const customJsonLd = [integrationSchema, howToSchema];
 
 // Get other actions for cross-linking
 const actionsList = (actionsData as any).actions;
@@ -136,7 +150,7 @@ const otherActions = actionsList.filter((a: any) => a.slug !== action.slug);
 // Prepare translations object for React components
 const translations = {
   hero: {
-    headline: t('integrations.spoke.hero.headline').replace('{appName}', app.name).replace('{actionName}', action.name),
+    headline: t('integrations.spoke.hero.headline').replaceAll('{appName}', app.name).replaceAll('{actionName}', action.name),
     subheadline: t('integrations.spoke.hero.subheadline'),
     cta_primary: t('integrations.spoke.hero.cta_primary'),
     cta_secondary: t('integrations.spoke.hero.cta_secondary'),
@@ -153,7 +167,7 @@ const translations = {
   how_it_works: {
     title: t('integrations.spoke.how_it_works.title'),
     step1_title: t('integrations.spoke.how_it_works.step1_title'),
-    step1_desc: t('integrations.spoke.how_it_works.step1_desc').replace('{appName}', app.name),
+    step1_desc: t('integrations.spoke.how_it_works.step1_desc').replaceAll('{appName}', app.name),
     step2_title: t('integrations.spoke.how_it_works.step2_title'),
     step2_desc: t('integrations.spoke.how_it_works.step2_desc'),
     step3_title: t('integrations.spoke.how_it_works.step3_title'),
@@ -275,7 +289,7 @@ const cleanOutputMessage = useCases.length > 0
         <AnimatedFlow 
           lang={currentLang}
           appName={app.name}
-          appLogo={app.images.url_128x128}
+          appLogo={app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png'}
           actionName={action.name}
           actionLogo={action.logo}
           actionType={action.slug}
@@ -331,7 +345,7 @@ const cleanOutputMessage = useCases.length > 0
       {otherActions.length > 0 && (
         <div class="mb-24">
           <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
-            {t('integrations.spoke.otherChannels.title').replace('{appName}', app.name)}
+            {t('integrations.spoke.otherChannels.title').replaceAll('{appName}', app.name)}
           </h2>
           <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {otherActions.map((otherAction: any) => (
@@ -341,7 +355,7 @@ const cleanOutputMessage = useCases.length > 0
               >
                 <div class="flex items-center gap-4 mb-3">
                   <!-- App Icon -->
-                  <img src={app.images.url_64x64} alt={app.name} class="w-12 h-12 rounded-lg" />
+                  <img src={app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png'} alt={app.name} class="w-12 h-12 rounded-lg" />
                   
                   <!-- Plus sign -->
                   <span class="text-2xl text-gray-300 font-light">+</span>
@@ -360,13 +374,67 @@ const cleanOutputMessage = useCases.length > 0
       )}
 
       <!-- Final CTA Banner -->
-      <div class="bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-600 rounded-3xl p-12 md:p-16 text-center text-white shadow-2xl">
-        <h2 class="text-3xl md:text-4xl font-bold mb-6">
-          {t('integrations.spoke.finalCta.title').replace('{appName}', app.name).replace('{actionName}', action.name)}
+      <div class="bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-600 rounded-3xl p-12 md:p-16 text-white shadow-2xl">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">
+          {t('integrations.spoke.finalCta.title').replaceAll('{appName}', app.name).replaceAll('{actionName}', action.name)}
         </h2>
-        <p class="text-xl mb-10 opacity-95 max-w-2xl mx-auto">
+        
+        <!-- Zapier Flow Diagram -->
+        <div class="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-8 mb-12 max-w-5xl mx-auto">
+          {/* Trigger */}
+          <div class="flex flex-col items-center gap-3">
+            <div class="bg-white p-6 rounded-2xl shadow-lg flex items-center justify-center min-h-[140px]">
+              <img src={app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png'} alt={app.name} class="w-24 h-24 object-contain" />
+            </div>
+            <div class="text-center">
+              <div class="text-sm font-semibold opacity-80">Trigger</div>
+              <div class="text-base font-bold">{app.name}</div>
+            </div>
+          </div>
+
+          {/* Arrow */}
+          <div class="flex-shrink-0">
+            <svg class="w-10 h-10 text-white/60 rotate-90 lg:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+
+          {/* Seasalt.ai */}
+          <div class="flex flex-col items-center gap-3">
+            <div class="relative bg-white p-6 rounded-2xl shadow-lg flex items-center justify-center min-h-[140px]">
+              {/* Glow effect */}
+              <div class="absolute inset-0 -m-2 bg-gradient-to-r from-blue-400 to-purple-400 rounded-2xl blur-lg opacity-50"></div>
+              <img src="/seasalt-ai-icon.png" alt="Seasalt.ai" class="w-24 h-24 object-contain relative z-10" />
+            </div>
+            <div class="text-center">
+              <div class="text-base font-bold bg-gradient-to-r from-blue-200 to-purple-200 text-transparent bg-clip-text">Agentic Send</div>
+              <div class="text-sm font-semibold">Seasalt.ai</div>
+            </div>
+          </div>
+
+          {/* Arrow */}
+          <div class="flex-shrink-0">
+            <svg class="w-10 h-10 text-white/60 rotate-90 lg:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+
+          {/* Action */}
+          <div class="flex flex-col items-center gap-3">
+            <div class="bg-white p-6 rounded-2xl shadow-lg flex items-center justify-center min-h-[140px]">
+              <img src={action.logo} alt={action.name} class="w-24 h-24 object-contain" />
+            </div>
+            <div class="text-center">
+              <div class="text-sm font-semibold opacity-80">Action</div>
+              <div class="text-base font-bold">{action.name}</div>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-xl mb-8 opacity-95 max-w-2xl mx-auto text-center">
           {t('integrations.spoke.finalCta.description')}
         </p>
+        
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
             href={`https://zapier.com/apps/${app.slug}/integrations/seasaltai`}

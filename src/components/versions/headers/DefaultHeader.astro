@@ -412,7 +412,7 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
                         <div class="group/app relative">
                           <!-- App name with hover for actions -->
                           <div class="flex items-center gap-2 px-2 py-1.5 rounded hover:bg-blue-50 cursor-pointer text-sm">
-                            <img src={app.images.url_32x32} alt={app.name} class="w-4 h-4 rounded flex-shrink-0" />
+                            <img src={app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png'} alt={app.name} class="w-4 h-4 rounded flex-shrink-0" />
                             <span class="text-gray-700 group-hover/app:text-blue-600 truncate">{app.name}</span>
                           </div>
                           
