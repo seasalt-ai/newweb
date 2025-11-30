@@ -1,0 +1,467 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../../i18n/helpers';
+import curatedAppsData from '../../../../../zapier/data/curated-apps.json';
+import actionsData from '../../../../../zapier/data/actions.json';
+import AnimatedFlow from '../../../../components/integrations/AnimatedFlow';
+import BentoGrid from '../../../../components/integrations/BentoGrid';
+import HowItWorks from '../../../../components/integrations/HowItWorks';
+import UseCaseCarousel from '../../../../components/integrations/UseCaseCarousel';
+import TrustBar from '../../../../components/integrations/TrustBar';
+import StickyFooter from '../../../../components/integrations/StickyFooter';
+
+export async function getStaticPaths() {
+  const paths = [];
+  const apps = (curatedAppsData as any).apps;
+  const actionsList = (actionsData as any).actions;
+  
+  for (const lang of supportedLocales) {
+    for (const app of apps) {
+      for (const action of actionsList) {
+        paths.push({
+          params: { 
+            lang, 
+            app: app.slug,
+            action: action.slug
+          },
+          props: { 
+            app,
+            action
+          }
+        });
+      }
+    }
+  }
+  
+  return paths;
+}
+
+const { app, action } = Astro.props;
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO metadata - Replace all occurrences of placeholders
+const title = t('integrations.spoke.metaTitle')
+  .replaceAll('{appName}', app.name)
+  .replaceAll('{actionName}', action.name);
+const description = t('integrations.spoke.metaDescription')
+  .replaceAll('{appName}', app.name)
+  .replaceAll('{actionName}', action.name)
+  .replaceAll('{actionDescription}', action.description);
+const keywords = t('integrations.spoke.keywords')
+  .replaceAll('{appName}', app.name)
+  .replaceAll('{actionName}', action.name)
+  .replaceAll('{category}', app.category);
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: t('integrations.breadcrumb.home'), url: `/${currentLang}/` },
+  { name: t('integrations.breadcrumb.integrations'), url: `/${currentLang}/integrations/` },
+  { name: app.name, url: `/${currentLang}/integrations/${app.slug}/` },
+  { name: action.name, url: `/${currentLang}/integrations/${app.slug}/${action.slug}/` }
+];
+
+// Base URL for schema.org structured data
+const siteUrl = "https://seasalt.ai";
+const currentUrl = `${siteUrl}/${currentLang}/integrations/${app.slug}/${action.slug}`;
+
+// 1. SoftwareApplication Schema - represents the integration itself
+const integrationSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": `${app.name} to ${action.name} Integration | Automated ${action.name} from ${app.name}`,
+  "operatingSystem": "Cloud",
+  "applicationCategory": "BusinessApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "USD",
+    "description": "Free trial available"
+  },
+  "description": `Enterprise-grade messaging platform for ${action.name}, SMS, and Voice automation.`,
+  "featureList": `Integration with ${app.name} via Zapier to send ${action.name}.`,
+  "url": currentUrl,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "500"
+  }
+};
+
+// 2. HowTo Schema (With specific naming format and image support)
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": `How to connect ${app.name} to ${action.name} using Seasalt.ai`,
+  "description": `A step-by-step guide to automatically send ${action.name} messages via Seasalt.ai whenever a specific event happens in ${app.name}.`,
+  "totalTime": "PT5M",
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Zapier Account"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Seasalt.ai Account"
+    },
+    {
+      "@type": "HowToTool",
+      "name": app.name
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Select the Trigger",
+      "text": `Choose ${app.name} as your trigger app in Zapier and select the specific event (e.g., 'New Lead' or 'New Event').`,
+      "image": app.image ? `${siteUrl}${app.image.replace('./', '/')}` : `${siteUrl}/seasalt-ai-icon.png`,
+      "url": `${currentUrl}#step1`
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Select Seasalt.ai Action",
+      "text": `Choose Seasalt.ai as your action app and select '${action.name}' (e.g., Send ${action.name} Message).`,
+      "image": `${siteUrl}/seasalt-ai-icon.png`,
+      "url": `${currentUrl}#step2`
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Map the Data",
+      "text": `Map the phone number and message content fields from ${app.name} into the Seasalt.ai action block.`,
+      "url": `${currentUrl}#step3`
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Activate Workflow",
+      "text": `Test the step to ensure the ${action.name} is delivered, then turn on your Zap.`,
+      "url": `${currentUrl}#step4`
+    }
+  ]
+};
+
+// Note: Breadcrumb schema is automatically generated by the SEO component from the breadcrumbs prop
+const customJsonLd = [integrationSchema, howToSchema];
+
+// Get other actions for cross-linking
+const actionsList = (actionsData as any).actions;
+const otherActions = actionsList.filter((a: any) => a.slug !== action.slug);
+
+// Prepare translations object for React components
+const translations = {
+  hero: {
+    headline: t('integrations.spoke.hero.headline').replaceAll('{appName}', app.name).replaceAll('{actionName}', action.name),
+    subheadline: t('integrations.spoke.hero.subheadline'),
+    cta_primary: t('integrations.spoke.hero.cta_primary'),
+    cta_secondary: t('integrations.spoke.hero.cta_secondary'),
+  },
+  bento: {
+    simplicity_title: t('integrations.spoke.bento.simplicity_title'),
+    simplicity_old: t('integrations.spoke.bento.simplicity_old'),
+    simplicity_new: t('integrations.spoke.bento.simplicity_new'),
+    ai_cleaning_title: t('integrations.spoke.bento.ai_cleaning_title'),
+    ai_cleaning_desc: t('integrations.spoke.bento.ai_cleaning_desc'),
+    open_rates_title: t('integrations.spoke.bento.open_rates_title'),
+    global_reach_title: t('integrations.spoke.bento.global_reach_title'),
+  },
+  how_it_works: {
+    title: t('integrations.spoke.how_it_works.title'),
+    step1_title: t('integrations.spoke.how_it_works.step1_title'),
+    step1_desc: t('integrations.spoke.how_it_works.step1_desc').replaceAll('{appName}', app.name),
+    step2_title: t('integrations.spoke.how_it_works.step2_title'),
+    step2_desc: t('integrations.spoke.how_it_works.step2_desc'),
+    step3_title: t('integrations.spoke.how_it_works.step3_title'),
+    step3_desc: t('integrations.spoke.how_it_works.step3_desc'),
+  },
+  trust: {
+    heading: t('integrations.spoke.trust.heading'),
+    stat_prefix: t('integrations.spoke.trust.stat_prefix'),
+    stat_number: t('integrations.spoke.trust.stat_number'),
+    stat_suffix: t('integrations.spoke.trust.stat_suffix'),
+  },
+  sticky_cta: {
+    text: t('integrations.spoke.sticky_cta.text'),
+    button: t('integrations.spoke.sticky_cta.button'),
+  },
+};
+
+// Prepare use cases for carousel from app data
+const appUseCases = app.useCases || [];
+const appTriggerExamples = app.triggerExamples || [];
+
+// Combine useCases and triggerExamples to create realistic scenarios
+const useCases = appUseCases.map((useCase: string, index: number) => {
+  const trigger = appTriggerExamples[index] || appTriggerExamples[0] || 'Event triggered';
+  return {
+    industry: useCase,
+    messageTitle: `${app.name} - ${trigger}`,
+    messageBody: `${useCase}: Your ${app.name} has a new update. ${trigger}. Click to view details.`,
+  };
+});
+
+// Fallback to generic use cases if no app-specific data
+if (useCases.length === 0) {
+  useCases.push(
+    {
+      industry: t('integrations.spoke.use_cases.real_estate'),
+      messageTitle: t('integrations.spoke.use_cases.real_estate_title'),
+      messageBody: t('integrations.spoke.use_cases.real_estate_body'),
+    },
+    {
+      industry: t('integrations.spoke.use_cases.ecommerce'),
+      messageTitle: t('integrations.spoke.use_cases.ecommerce_title'),
+      messageBody: t('integrations.spoke.use_cases.ecommerce_body'),
+    },
+    {
+      industry: t('integrations.spoke.use_cases.events'),
+      messageTitle: t('integrations.spoke.use_cases.events_title'),
+      messageBody: t('integrations.spoke.use_cases.events_body'),
+    }
+  );
+}
+
+// Prepare messy input example
+const messyInputExample = {
+  field1: 'john',
+  field2: '555-010 2399',
+};
+
+// Prepare clean output example - use first use case if available
+const cleanOutputMessage = useCases.length > 0 
+  ? {
+      title: useCases[0].messageTitle,
+      body: useCases[0].messageBody.substring(0, 100) + '...',
+    }
+  : {
+      title: t('integrations.spoke.use_cases.real_estate_title'),
+      body: t('integrations.spoke.use_cases.real_estate_body').substring(0, 80) + '...',
+    };
+---
+
+<Layout 
+  title={title}
+  description={description}
+  lang={currentLang}
+  keywords={keywords}
+  type="software"
+  breadcrumbs={breadcrumbs}
+  customJsonLd={customJsonLd}
+  headerVersion="default"
+  footerVersion="default"
+>
+  <div class="bg-gradient-to-b from-blue-50 via-white to-gray-50 min-h-screen">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <!-- Hero Section with AnimatedFlow -->
+      <div class="mb-24">
+        <!-- Headline -->
+        <div class="text-center mb-12">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6">
+            <span class="text-gray-900">Turn </span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">{app.name}</span>
+            <span class="text-gray-900"> into Intelligent </span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500">{action.name}</span>
+            <span class="text-gray-900"> Conversations</span>
+          </h1>
+          <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
+            {translations.hero.subheadline}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+            <a 
+              href={`https://zapier.com/apps/${app.slug}/integrations/seasaltai`}
+              class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-full text-white bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 transition shadow-lg hover:shadow-xl transform hover:scale-105"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {translations.hero.cta_primary}
+            </a>
+            <a 
+              href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+              class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-full text-blue-600 bg-white hover:bg-gray-50 transition shadow-md border-2 border-blue-200"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {translations.hero.cta_secondary}
+            </a>
+          </div>
+        </div>
+        
+        <!-- AnimatedFlow Component -->
+        <AnimatedFlow 
+          lang={currentLang}
+          appName={app.name}
+          appLogo={app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png'}
+          actionName={action.name}
+          actionLogo={action.logo}
+          actionType={action.slug}
+          messyInputExample={messyInputExample}
+          cleanOutputMessage={cleanOutputMessage}
+          client:load
+        />
+      </div>
+
+      <!-- Bento Grid Section -->
+      <div class="mb-24">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-center">
+          Why Agentic Send?
+        </h2>
+        <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
+          Transform your {app.name} workflows into intelligent {action.name} conversations with zero complexity
+        </p>
+        <BentoGrid 
+          lang={currentLang}
+          translations={translations}
+          actionType={action.slug}
+          client:load
+        />
+      </div>
+
+      <!-- How It Works Section -->
+      <div class="mb-24">
+        <HowItWorks 
+          lang={currentLang}
+          translations={translations}
+          appName={app.name}
+          client:load
+        />
+      </div>
+
+      <!-- Use Cases Carousel -->
+      <div class="mb-24 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-3xl p-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
+          {t('integrations.spoke.use_cases.title')}
+        </h2>
+        <UseCaseCarousel 
+          lang={currentLang}
+          translations={translations}
+          useCases={useCases}
+          actionType={action.slug}
+          actionLogo={action.logo}
+          client:load
+        />
+      </div>
+
+
+      <!-- Other Action Options -->
+      {otherActions.length > 0 && (
+        <div class="mb-24">
+          <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+            {t('integrations.spoke.otherChannels.title').replaceAll('{appName}', app.name)}
+          </h2>
+          <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {otherActions.map((otherAction: any) => (
+              <a 
+                href={`/${currentLang}/integrations/${app.slug}/${otherAction.slug}/`}
+                class="block bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-6 group border border-gray-100 hover:border-blue-200"
+              >
+                <div class="flex items-center gap-4 mb-3">
+                  <!-- App Icon -->
+                  <img src={app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png'} alt={app.name} class="w-12 h-12 rounded-lg" />
+                  
+                  <!-- Plus sign -->
+                  <span class="text-2xl text-gray-300 font-light">+</span>
+                  
+                  <!-- Action Logo -->
+                  <img src={otherAction.logo} alt={otherAction.name} class="w-12 h-12" />
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition mb-2">
+                  {app.name} + {otherAction.name}
+                </h3>
+                <p class="text-gray-600 text-sm">{otherAction.description}</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <!-- Final CTA Banner -->
+      <div class="bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-600 rounded-3xl p-12 md:p-16 text-white shadow-2xl">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">
+          {t('integrations.spoke.finalCta.title').replaceAll('{appName}', app.name).replaceAll('{actionName}', action.name)}
+        </h2>
+        
+        <!-- Zapier Flow Diagram -->
+        <div class="flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-8 mb-12 max-w-5xl mx-auto">
+          {/* Trigger */}
+          <div class="flex flex-col items-center gap-3">
+            <div class="bg-white p-6 rounded-2xl shadow-lg flex items-center justify-center min-h-[140px]">
+              <img src={app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png'} alt={app.name} class="w-24 h-24 object-contain" />
+            </div>
+            <div class="text-center">
+              <div class="text-sm font-semibold opacity-80">Trigger</div>
+              <div class="text-base font-bold">{app.name}</div>
+            </div>
+          </div>
+
+          {/* Arrow */}
+          <div class="flex-shrink-0">
+            <svg class="w-10 h-10 text-white/60 rotate-90 lg:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+
+          {/* Seasalt.ai */}
+          <div class="flex flex-col items-center gap-3">
+            <div class="relative bg-white p-6 rounded-2xl shadow-lg flex items-center justify-center min-h-[140px]">
+              {/* Glow effect */}
+              <div class="absolute inset-0 -m-2 bg-gradient-to-r from-blue-400 to-purple-400 rounded-2xl blur-lg opacity-50"></div>
+              <img src="/seasalt-ai-icon.png" alt="Seasalt.ai" class="w-24 h-24 object-contain relative z-10" />
+            </div>
+            <div class="text-center">
+              <div class="text-base font-bold bg-gradient-to-r from-blue-200 to-purple-200 text-transparent bg-clip-text">Agentic Send</div>
+              <div class="text-sm font-semibold">Seasalt.ai</div>
+            </div>
+          </div>
+
+          {/* Arrow */}
+          <div class="flex-shrink-0">
+            <svg class="w-10 h-10 text-white/60 rotate-90 lg:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </div>
+
+          {/* Action */}
+          <div class="flex flex-col items-center gap-3">
+            <div class="bg-white p-6 rounded-2xl shadow-lg flex items-center justify-center min-h-[140px]">
+              <img src={action.logo} alt={action.name} class="w-24 h-24 object-contain" />
+            </div>
+            <div class="text-center">
+              <div class="text-sm font-semibold opacity-80">Action</div>
+              <div class="text-base font-bold">{action.name}</div>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-xl mb-8 opacity-95 max-w-2xl mx-auto text-center">
+          {t('integrations.spoke.finalCta.description')}
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a 
+            href={`https://zapier.com/apps/${app.slug}/integrations/seasaltai`}
+            class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-full text-blue-600 bg-white hover:bg-gray-50 transition transform hover:scale-105 shadow-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('integrations.spoke.finalCta.zapier')}
+          </a>
+          <a 
+            href="https://zapier.com/apps/seasaltai/integrations"
+            class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-full text-white border-2 border-white hover:bg-white hover:text-blue-600 transition transform hover:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('integrations.spoke.finalCta.viewAll')}
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sticky Footer CTA -->
+    <StickyFooter 
+      lang={currentLang}
+      translations={translations}
+      zapierUrl={`https://zapier.com/apps/${app.slug}/integrations/seasaltai`}
+      client:load
+    />
+  </div>
+</Layout>

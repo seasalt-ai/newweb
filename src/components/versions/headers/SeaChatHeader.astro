@@ -278,7 +278,8 @@ const isActiveSection = (section: string) => {
 
         <!-- Integrations Dropdown -->
         <div class="relative">
-          <button
+          <a
+            href={`/${lang}/integrations/`}
             class="flex items-center text-gray-700 hover:text-teal-600 transition-colors duration-200 dropdown-trigger"
             data-dropdown="integrations"
           >
@@ -286,7 +287,7 @@ const isActiveSection = (section: string) => {
             <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
-          </button>
+          </a>
           <div 
             class="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 hidden dropdown-menu"
             data-dropdown-menu="integrations"

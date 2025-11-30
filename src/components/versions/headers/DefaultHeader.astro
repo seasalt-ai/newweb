@@ -4,6 +4,8 @@ import { getTranslationHelpers } from '../../../i18n/helpers';
 import type { VersionConfig } from '../config';
 import ProductLogoDropdown from '../shared/ProductLogoDropdown.astro';
 import PhoneBanner from '../shared/PhoneBanner.astro';
+import curatedAppsData from '../../../../zapier/data/curated-apps.json';
+import actionsData from '../../../../zapier/data/actions.json';
 
 // Header component props
 export interface Props {
@@ -14,6 +16,40 @@ export interface Props {
 
 const { currentPath = '/', lang = 'en', versionConfig } = Astro.props;
 const { t } = await getTranslationHelpers(lang);
+
+// Load integration data
+const curatedApps = curatedAppsData as { apps: any[] };
+const actionsJson = actionsData as { actions: any[] };
+
+// Group apps by category
+const appsByCategory = curatedApps.apps.reduce((acc: any, app: any) => {
+  if (!acc[app.category]) {
+    acc[app.category] = [];
+  }
+  acc[app.category].push(app);
+  return acc;
+}, {});
+
+// Define priority order for categories (categories not in this list will appear after, alphabetically)
+const priorityCategories = [
+  'Ads Conversion',
+  'Calendar',
+  'Forms',
+  'Spreadsheets',
+  'Crm',
+  'Contacts',
+  'Ecommerce',
+  'Project Management',
+  'Scheduling'
+];
+
+// Sort categories: priority first, then alphabetical
+const allCategories = Object.keys(appsByCategory);
+const prioritizedCategories = priorityCategories.filter(cat => allCategories.includes(cat));
+const remainingCategories = allCategories
+  .filter(cat => !priorityCategories.includes(cat))
+  .sort();
+const sortedCategories = [...prioritizedCategories, ...remainingCategories];
 
 // Navigation data using translations
 const solutions = [
@@ -98,6 +134,29 @@ const competitors = [
   { title: 'vs. Dialpad', path: '/compare/dialpad-alternative' },
   { title: 'vs. 8x8', path: '/compare/8x8-alternative' },
   { title: 'vs. OpenPhone', path: '/compare/openphone-alternative' }
+];
+
+const products = [
+  { 
+    title: t('productsData.seachat.title') || 'SeaChat', 
+    href: '/seachat',
+    logo: '/seachat-icon.png',
+  },
+  { 
+    title: t('productsData.seax.title') || 'SeaX', 
+    href: '/seax',
+    logo: '/seax-icon.png',
+  },
+  { 
+    title: t('productsData.seameet.title') || 'SeaMeet', 
+    href: 'https://seameet.ai/',
+    logo: '/seameet-icon.png',
+  },
+  {
+    title: t('productsData.seavoice.title') || 'SeaVoice', 
+    href: '/seavoice',
+    logo: '/seavoice-icon.png',
+  }
 ];
 
 
@@ -340,6 +399,86 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
           </div>
         </div>
 
+        <!-- Integrations Dropdown (Mega Menu) -->
+        <div class="relative">
+          <a
+            href={`/${lang}/integrations/`}
+            class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
+            data-dropdown="integrations"
+          >
+            {t('seachat.header.integrations')}
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </a>
+          
+          <!-- Full-width Mega Menu -->
+          <div 
+            class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[95vw] max-w-7xl bg-white rounded-lg shadow-2xl border border-gray-200 z-50 hidden dropdown-menu"
+            data-dropdown-menu="integrations"
+          >
+            <div class="p-6 max-h-[85vh] overflow-y-auto">
+              <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                {sortedCategories.map((category: string) => (
+                  <div class="space-y-2">
+                    <!-- Category Header -->
+                    <div class="font-semibold text-sm text-gray-900 uppercase tracking-wide border-b-2 border-blue-500 pb-2 mb-3">
+                      {category}
+                      <span class="text-xs text-gray-500 ml-1">({appsByCategory[category].length})</span>
+                    </div>
+                    
+                    <!-- Apps in this category -->
+                    <div class="space-y-1">
+                      {appsByCategory[category].map((app: any, appIndex: number) => {
+                        const isNearBottom = appIndex >= appsByCategory[category].length - 2;
+                        return (
+                        <div class="group/app relative">
+                          <!-- App name with hover for actions -->
+                          <div class="flex items-center gap-2 px-2 py-1.5 rounded hover:bg-blue-50 cursor-pointer text-sm">
+                            <img src={app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png'} alt={app.name} class="w-4 h-4 rounded flex-shrink-0" />
+                            <span class="text-gray-700 group-hover/app:text-blue-600 truncate">{app.name}</span>
+                          </div>
+                          
+                          <!-- Actions popup on hover - appears below, or above if near bottom -->
+                          <div class={`absolute left-0 ${isNearBottom ? 'bottom-full mb-1' : 'top-full mt-1'} w-72 bg-white rounded-lg shadow-xl border-2 border-blue-500 hidden group-hover/app:block z-50`}>
+                            <div class="py-1">
+                              <!-- Hub page link -->
+                              <a
+                                href={`/${lang}/integrations/${app.slug}/`}
+                                class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 font-medium border-b border-gray-200"
+                              >
+                                <span class="text-lg">🏠</span>
+                                <span>All {app.name} Integrations</span>
+                              </a>
+                              
+                              <!-- Action links -->
+                              {actionsJson.actions.map((action: any) => (
+                                <a
+                                  href={`/${lang}/integrations/${app.slug}/${action.slug}/`}
+                                  class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-blue-50"
+                                >
+                                  <span class="text-lg">{action.icon}</span>
+                                  <span>{app.name} + {action.name}</span>
+                                </a>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      );
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+              
+              <!-- Footer hint -->
+              <div class="mt-6 pt-4 border-t border-gray-200 text-center">
+                <p class="text-xs text-gray-500">Hover over any app to see available actions (SMS, WhatsApp, Phone Call)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Compare Dropdown -->
         <div class="relative">
           <button
@@ -421,32 +560,182 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
 
     <!-- Mobile menu -->
     <div class="lg:hidden hidden mobile-menu">
-      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        {solutions.map((solution) => (
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 max-h-[80vh] overflow-y-auto">
+        
+        <!-- Products Section -->
+        <div class="border-b border-gray-200">
+          <button class="w-full flex justify-between items-center px-3 py-3 text-left text-gray-700 hover:bg-gray-50 mobile-accordion-trigger">
+            <span class="text-base font-medium">{t('header.products')}</span>
+            <svg class="h-5 w-5 transform transition-transform duration-200 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="pl-3 pb-2 hidden mobile-accordion-content">
+            {products.map((product) => {
+              const updatedHref = product.href.startsWith('/')
+                ? `/${lang}${product.href}`
+                : product.href;
+              return (
+                <a
+                  href={updatedHref}
+                  target={product.href.startsWith('/') ? '_self' : '_blank'}
+                  rel={product.href.startsWith('/') ? '' : 'noopener noreferrer'}
+                  class="flex items-center gap-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+                >
+                  <img src={product.logo} alt={product.title} class="w-5 h-5 flex-shrink-0" />
+                  <span>{product.title}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+
+        <!-- Solutions Section -->
+        <div class="border-b border-gray-200">
+          <button class="w-full flex justify-between items-center px-3 py-3 text-left text-gray-700 hover:bg-gray-50 mobile-accordion-trigger">
+            <span class="text-base font-medium">{t('header.solutions')}</span>
+            <svg class="h-5 w-5 transform transition-transform duration-200 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="pl-3 pb-2 hidden mobile-accordion-content">
+            {solutions.map((solution) => (
+              <a
+                href={`/${lang}${solution.path}`}
+                class="flex items-center gap-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+              >
+                <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="solution-icon">{solutionEmoji[solution.icon] || '✨'}</span>
+                <span>{solution.title}</span>
+              </a>
+            ))}
+            <a
+              href={`/${lang}/seahealth`}
+              class="flex items-center gap-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+            >
+              <Fragment set:html={getIcon('Heart', 'h-5 w-5 text-red-500')} />
+              <span>{t('header.solutionsDropdown.seahealth')}</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Integrations Link -->
+        <div class="border-b border-gray-200">
           <a
-            href={`/${lang}${solution.path}`}
-            class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
+            href={`/${lang}/integrations/`}
+            class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-3 rounded-md text-base font-medium"
           >
-            {solution.title}
+            {t('seachat.header.integrations')}
           </a>
-        ))}
+        </div>
+
+        <!-- Channels Section -->
+        <div class="border-b border-gray-200">
+          <button class="w-full flex justify-between items-center px-3 py-3 text-left text-gray-700 hover:bg-gray-50 mobile-accordion-trigger">
+            <span class="text-base font-medium">{t('header.channels')}</span>
+            <svg class="h-5 w-5 transform transition-transform duration-200 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="pl-3 pb-2 hidden mobile-accordion-content">
+            {channels.map((channel) => {
+              const brand = channelLogoMap[channel.path];
+              const emoji = nonBrandEmoji[channel.path];
+              
+              let channelUrl;
+              if (channel.isLineCallPlus) {
+                if (lang === 'zh-TW' || lang === 'zh-CN') {
+                  channelUrl = `/zh-TW/channels/line-call-plus`;
+                } else {
+                  channelUrl = `/${lang}/seavoice/platform/line-call-plus`;
+                }
+              } else {
+                channelUrl = `/${lang}${channel.path}`;
+              }
+
+              return (
+                <a
+                  href={channelUrl}
+                  class="flex items-center gap-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+                >
+                  {brand ? (
+                    <img src={brand.url} alt={brand.alt} class="h-5 w-5" loading="lazy" />
+                  ) : emoji ? (
+                    <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="channel-emoji">{emoji}</span>
+                  ) : (
+                    <Fragment set:html={getIcon(channel.icon, 'h-5 w-5 text-gray-400')} />
+                  )}
+                  <span>{channel.title}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+
+        <!-- Industries Section -->
+        <div class="border-b border-gray-200">
+          <button class="w-full flex justify-between items-center px-3 py-3 text-left text-gray-700 hover:bg-gray-50 mobile-accordion-trigger">
+            <span class="text-base font-medium">{t('header.industries')}</span>
+            <svg class="h-5 w-5 transform transition-transform duration-200 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="pl-3 pb-2 hidden mobile-accordion-content">
+            {industries.map((industry) => (
+              <a
+                href={`/${lang}/industries/${industry.slug}`}
+                class="flex items-center gap-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+              >
+                <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="industry-icon">{industryEmoji[industry.icon] || '⭐'}</span>
+                <span>{industry.title}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- Compare Us Section -->
+        <div class="border-b border-gray-200">
+          <button class="w-full flex justify-between items-center px-3 py-3 text-left text-gray-700 hover:bg-gray-50 mobile-accordion-trigger">
+            <span class="text-base font-medium">{t('header.compareUs')}</span>
+            <svg class="h-5 w-5 transform transition-transform duration-200 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="pl-3 pb-2 hidden mobile-accordion-content">
+            {competitors.map((competitor) => (
+              <a
+                href={`/${lang}${competitor.path}`}
+                class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+              >
+                {competitor.title}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- Other Links -->
+        <div class="border-b border-gray-200">
+          <a
+            href={`/${lang}/pricing`}
+            class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-3 rounded-md text-base font-medium"
+          >
+            {t('header.pricing')}
+          </a>
+        </div>
         
-        <a
-          href={`/${lang}/pricing`}
-          class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
-        >
-          {t('header.pricing')}
-        </a>
+        <div class="border-b border-gray-200">
+          <a
+            href={`/${lang}/blog`}
+            class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-3 rounded-md text-base font-medium"
+          >
+            {t('header.blog')}
+          </a>
+        </div>
         
-        <a
-          href={`/${lang}/blog`}
-          class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
-        >
-          {t('header.blog')}
-        </a>
-        
-        <!-- Login/Signup buttons for mobile -->
-        <div class="border-t border-gray-200 pt-4 mt-4">
+        <!-- Login/Signup and Language controls for mobile -->
+        <div class="pt-4 px-3">
+            <div class="pb-4">
+                <LanguageSwitcher lang={lang} />
+            </div>
           <a 
             href="https://seax.seasalt.ai/signin" 
             class="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors mb-3"
@@ -466,13 +755,30 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
 </header>
 
 <script>
-  // Header dropdown functionality
+  // Header functionality
   document.addEventListener('DOMContentLoaded', function() {
+    // --- Desktop Dropdowns ---
     const dropdownTriggers = document.querySelectorAll('.dropdown-trigger');
     const dropdownMenus = document.querySelectorAll('.dropdown-menu');
     
     dropdownTriggers.forEach(trigger => {
       trigger.addEventListener('mouseenter', function() {
+        const dropdownId = this.getAttribute('data-dropdown');
+        const menu = document.querySelector(`[data-dropdown-menu="${dropdownId}"]`);
+        if (menu) {
+          // Hide all menus first
+          dropdownMenus.forEach(m => {
+            if (m !== menu) {
+              m.classList.add('hidden');
+            }
+          });
+          // Then show the target menu
+          menu.classList.remove('hidden');
+        }
+      });
+
+      // Also handle focus for accessibility
+      trigger.addEventListener('focus', function() {
         const dropdownId = this.getAttribute('data-dropdown');
         const menu = document.querySelector(`[data-dropdown-menu="${dropdownId}"]`);
         if (menu) {
@@ -482,29 +788,45 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
       });
     });
 
-    dropdownMenus.forEach(menu => {
-      menu.addEventListener('mouseleave', function() {
-        this.classList.add('hidden');
+    const header = document.querySelector('header');
+    if (header) {
+      header.addEventListener('mouseleave', function() {
+        dropdownMenus.forEach(menu => menu.classList.add('hidden'));
       });
-    });
+    }
 
     // Close dropdowns when clicking outside
     document.addEventListener('click', function(event) {
-      if (!event.target.closest('.dropdown-trigger') && !event.target.closest('.dropdown-menu')) {
+      if (!event.target.closest('.relative')) {
         dropdownMenus.forEach(menu => menu.classList.add('hidden'));
       }
     });
 
-    // Mobile menu toggle
+    // --- Mobile Menu Toggle ---
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const mobileMenu = document.querySelector('.mobile-menu');
     
     if (mobileMenuToggle && mobileMenu) {
       mobileMenuToggle.addEventListener('click', function() {
-        mobileMenu.classList.toggle('hidden');
-        const expanded = mobileMenu.classList.contains('hidden') ? 'false' : 'true';
-        this.setAttribute('aria-expanded', expanded);
+        const isHidden = mobileMenu.classList.toggle('hidden');
+        this.setAttribute('aria-expanded', !isHidden);
       });
     }
+
+    // --- Mobile Accordion ---
+    const accordionTriggers = document.querySelectorAll('.mobile-accordion-trigger');
+    accordionTriggers.forEach(trigger => {
+      trigger.addEventListener('click', function() {
+        const content = this.nextElementSibling;
+        const icon = this.querySelector('svg');
+
+        if (content && content.classList.contains('mobile-accordion-content')) {
+          content.classList.toggle('hidden');
+          if (icon) {
+            icon.classList.toggle('rotate-180');
+          }
+        }
+      });
+    });
   });
 </script>

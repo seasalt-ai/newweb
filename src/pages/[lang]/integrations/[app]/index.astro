@@ -1,0 +1,297 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../../i18n/helpers';
+import curatedAppsData from '../../../../../zapier/data/curated-apps.json';
+import actionsData from '../../../../../zapier/data/actions.json';
+
+export async function getStaticPaths() {
+  const paths = [];
+  const apps = (curatedAppsData as any).apps;
+  
+  for (const lang of supportedLocales) {
+    for (const app of apps) {
+      paths.push({
+        params: { 
+          lang, 
+          app: app.slug 
+        },
+        props: { 
+          app 
+        }
+      });
+    }
+  }
+  
+  return paths;
+}
+
+const { app } = Astro.props;
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO metadata
+const title = t('integrations.hub.metaTitle')
+  .replace('{appName}', app.name)
+  .replace('{category}', app.category);
+const description = t('integrations.hub.metaDescription')
+  .replace('{appName}', app.name)
+  .replace('{description}', app.description);
+const keywords = t('integrations.hub.keywords')
+  .replace('{appName}', app.name)
+  .replace('{category}', app.category);
+
+// Breadcrumbs
+const breadcrumbs = [
+  { name: t('integrations.breadcrumb.home'), url: `/${currentLang}/` },
+  { name: t('integrations.breadcrumb.integrations'), url: `/${currentLang}/integrations/` },
+  { name: app.name, url: `/${currentLang}/integrations/${app.slug}/` }
+];
+
+// JSON-LD Product Schema for Agentic Send
+const productSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": `Seasalt.ai ${app.name} Integration`,
+  "applicationCategory": "BusinessApplication",
+  "description": `Automate ${app.name} workflows with Seasalt.ai's AI-powered Agentic Send. Send SMS, WhatsApp messages, and phone calls automatically.`,
+  "operatingSystem": "Web",
+  "provider": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "127"
+  }
+};
+
+// HowTo Schema
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": t('integrations.hub.howToTitle').replace('{appName}', app.name),
+  "description": t('integrations.hub.howToDescription').replace('{appName}', app.name),
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": t('integrations.hub.step1.title'),
+      "text": t('integrations.hub.step1.description').replace('{appName}', app.name)
+    },
+    {
+      "@type": "HowToStep",
+      "name": t('integrations.hub.step2.title'),
+      "text": t('integrations.hub.step2.description')
+    },
+    {
+      "@type": "HowToStep",
+      "name": t('integrations.hub.step3.title'),
+      "text": t('integrations.hub.step3.description')
+    },
+    {
+      "@type": "HowToStep",
+      "name": t('integrations.hub.step4.title'),
+      "text": t('integrations.hub.step4.description')
+    }
+  ]
+};
+
+const customJsonLd = [productSchema, howToSchema];
+const actionsList = (actionsData as any).actions;
+---
+
+<Layout 
+  title={title}
+  description={description}
+  lang={currentLang}
+  keywords={keywords}
+  type="software"
+  breadcrumbs={breadcrumbs}
+  customJsonLd={customJsonLd}
+  headerVersion="default"
+  footerVersion="default"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Hero Section -->
+    <div class="text-center mb-16">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        {t('integrations.hub.headline').replace('{appName}', app.name)}
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        {t('integrations.hub.subheadline').replace('{appName}', app.name).replace('{description}', app.description)}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a 
+          href={`https://zapier.com/apps/seasaltai/integrations`}
+          class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t('integrations.hub.cta.primary')}
+        </a>
+        <a 
+          href={`/${currentLang}/contact`}
+          class="inline-flex items-center justify-center px-8 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition"
+        >
+          {t('integrations.hub.cta.secondary')}
+        </a>
+      </div>
+    </div>
+
+    <!-- What is Agentic Send -->
+    <div class="mb-16 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">
+        {t('integrations.hub.agenticSend.title')}
+      </h2>
+      <p class="text-lg text-gray-700 mb-6">
+        {t('integrations.hub.agenticSend.description')}
+      </p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-lg p-6 shadow-sm">
+          <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.hub.agenticSend.traditional.title')}</h3>
+          <p class="text-gray-600 mb-3">{t('integrations.hub.agenticSend.traditional.steps')}</p>
+          <ul class="space-y-2 text-sm text-gray-600">
+            <li>• {t('integrations.hub.agenticSend.traditional.step1')}</li>
+            <li>• {t('integrations.hub.agenticSend.traditional.step2')}</li>
+            <li>• {t('integrations.hub.agenticSend.traditional.step3')}</li>
+            <li>• {t('integrations.hub.agenticSend.traditional.step4')}</li>
+            <li>• {t('integrations.hub.agenticSend.traditional.step5')}</li>
+          </ul>
+        </div>
+        <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg p-6 shadow-sm border-2 border-green-300">
+          <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.hub.agenticSend.agentic.title')} ✨</h3>
+          <p class="text-gray-600 mb-3">{t('integrations.hub.agenticSend.agentic.steps')}</p>
+          <ul class="space-y-2 text-sm text-gray-700 font-medium">
+            <li>• {t('integrations.hub.agenticSend.agentic.step1')}</li>
+            <li>• {t('integrations.hub.agenticSend.agentic.step2')}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Choose Your Channel -->
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+        {t('integrations.hub.channels.title').replace('{appName}', app.name)}
+      </h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        {actionsList.map((action: any) => (
+          <a 
+            href={`/${currentLang}/integrations/${app.slug}/${action.slug}/`}
+            class="block bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group"
+          >
+            <div class="p-8">
+              <div class="text-5xl mb-4">{action.icon}</div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition">
+                {app.name} + {action.name}
+              </h3>
+              <p class="text-gray-600 mb-4">{action.description}</p>
+              <ul class="space-y-2 mb-6">
+                {action.benefits.map((benefit: string) => (
+                  <li class="text-sm text-gray-600 flex items-start">
+                    <span class="text-green-500 mr-2">✓</span>
+                    <span>{benefit}</span>
+                  </li>
+                ))}
+              </ul>
+              <div class="text-blue-600 font-medium group-hover:underline">
+                {t('integrations.hub.channels.learnMore')} →
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- Use Cases -->
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8">
+        {t('integrations.hub.useCases.title').replace('{appName}', app.name)}
+      </h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        {app.useCases.map((useCase: string) => (
+          <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-6">
+            <h3 class="font-semibold text-gray-900 mb-2">{useCase}</h3>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- How It Works -->
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
+        {t('integrations.hub.howItWorks.title')}
+      </h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">1</div>
+          <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.hub.step1.title')}</h3>
+          <p class="text-sm text-gray-600">{t('integrations.hub.step1.description').replace('{appName}', app.name)}</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">2</div>
+          <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.hub.step2.title')}</h3>
+          <p class="text-sm text-gray-600">{t('integrations.hub.step2.description')}</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">3</div>
+          <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.hub.step3.title')}</h3>
+          <p class="text-sm text-gray-600">{t('integrations.hub.step3.description')}</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">4</div>
+          <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.hub.step4.title')}</h3>
+          <p class="text-sm text-gray-600">{t('integrations.hub.step4.description')}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Example Triggers -->
+    <div class="mb-16 bg-gray-50 rounded-2xl p-8">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">
+        {t('integrations.hub.triggers.title').replace('{appName}', app.name)}
+      </h2>
+      <div class="flex flex-wrap gap-3">
+        {app.triggerExamples.map((trigger: string) => (
+          <span class="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium bg-white text-gray-700 shadow-sm">
+            {trigger}
+          </span>
+        ))}
+      </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-12 text-center text-white">
+      <h2 class="text-3xl font-bold mb-4">
+        {t('integrations.hub.finalCta.title').replace('{appName}', app.name)}
+      </h2>
+      <p class="text-xl mb-8 opacity-90">
+        {t('integrations.hub.finalCta.description')}
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a 
+          href="https://zapier.com/apps/seasaltai/integrations"
+          class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50 transition"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t('integrations.hub.finalCta.zapier')}
+        </a>
+        <a 
+          href={`/${currentLang}/contact`}
+          class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-blue-600 transition"
+        >
+          {t('integrations.hub.finalCta.contact')}
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
