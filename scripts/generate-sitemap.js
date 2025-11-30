@@ -401,6 +401,93 @@ function generateHreflangSitemap() {
 }
 
 /**
+ * Generate Zapier integrations sitemap
+ */
+function generateZapierSitemap() {
+  console.log('\n📱 Generating Zapier integrations sitemap...');
+  
+  const now = new Date().toISOString().split('T')[0];
+  const zapierDataPath = path.join(__dirname, '../zapier/data/curated-apps.json');
+  const actionsDataPath = path.join(__dirname, '../zapier/data/actions.json');
+  
+  // Load Zapier data
+  let apps = [];
+  let actions = [];
+  
+  try {
+    const zapierData = JSON.parse(fs.readFileSync(zapierDataPath, 'utf8'));
+    apps = zapierData.apps || [];
+    
+    const actionsData = JSON.parse(fs.readFileSync(actionsDataPath, 'utf8'));
+    actions = actionsData.actions || [];
+    
+    console.log(`   Found ${apps.length} apps and ${actions.length} actions`);
+  } catch (error) {
+    console.error('   ⚠️  Could not load Zapier data:', error.message);
+    return 0;
+  }
+  
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  
+  const urls = [];
+  
+  // Add main integrations index page (English only)
+  urls.push({
+    loc: `${SITE_URL}/en/integrations`,
+    lastmod: now,
+    changefreq: 'weekly',
+    priority: 0.9
+  });
+  
+  // Add hub pages for each app (English only)
+  apps.forEach(app => {
+    urls.push({
+      loc: `${SITE_URL}/en/integrations/${app.slug}`,
+      lastmod: now,
+      changefreq: 'weekly',
+      priority: 0.8
+    });
+    
+    // Add spoke pages for each app-action combination
+    actions.forEach(action => {
+      urls.push({
+        loc: `${SITE_URL}/en/integrations/${app.slug}/${action.slug}`,
+        lastmod: now,
+        changefreq: 'weekly',
+        priority: 0.7
+      });
+    });
+  });
+  
+  // Add all URLs to sitemap
+  urls.forEach(({ loc, lastmod, changefreq, priority }) => {
+    xml += `  <url>\n`;
+    xml += `    <loc>${loc}</loc>\n`;
+    xml += `    <lastmod>${lastmod}</lastmod>\n`;
+    xml += `    <changefreq>${changefreq}</changefreq>\n`;
+    xml += `    <priority>${priority}</priority>\n`;
+    xml += `  </url>\n`;
+  });
+  
+  xml += `</urlset>`;
+  
+  const outputPath = writeToAllLocations('sitemap-zapier.xml', xml);
+  
+  console.log(`   ✅ Zapier sitemap generated with ${urls.length} URLs`);
+  console.log(`   📍 Main index: 1 URL`);
+  console.log(`   📍 Hub pages: ${apps.length} URLs`);
+  console.log(`   📍 Spoke pages: ${apps.length * actions.length} URLs`);
+  console.log(`   💾 Saved to ${outputPath}`);
+  
+  if (DEV_OUTPUT) {
+    console.log(`   💾 Also copied to ${path.join(DEV_OUTPUT, 'sitemap-zapier.xml')} for development`);
+  }
+  
+  return urls.length;
+}
+
+/**
  * Generate the sitemap index file
  */
 function generateSitemapIndex() {
@@ -418,6 +505,12 @@ function generateSitemapIndex() {
   // Hreflang sitemap
   xml += `  <sitemap>\n`;
   xml += `    <loc>${SITE_URL}/sitemap-hreflang.xml</loc>\n`;
+  xml += `    <lastmod>${now}</lastmod>\n`;
+  xml += `  </sitemap>\n`;
+  
+  // Zapier integrations sitemap
+  xml += `  <sitemap>\n`;
+  xml += `    <loc>${SITE_URL}/sitemap-zapier.xml</loc>\n`;
   xml += `    <lastmod>${now}</lastmod>\n`;
   xml += `  </sitemap>\n`;
   
@@ -441,12 +534,14 @@ function main() {
   // Generate sitemaps
   const totalUrls = generateMainSitemap();
   const uniquePages = generateHreflangSitemap();
+  const zapierUrls = generateZapierSitemap();
   generateSitemapIndex();
   
   console.log('\n🎉 Sitemap Generation Complete!');
   console.log('===============================================');
   console.log(`📊 Total URLs: ${totalUrls}`);
   console.log(`📋 Unique pages: ${uniquePages}`);
+  console.log(`📱 Zapier integration URLs: ${zapierUrls}`);
   console.log(`🌍 Languages: ${SUPPORTED_LANGUAGES.length}`);
   
   console.log('\n📌 Next Steps:');
@@ -461,4 +556,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   main();
 }
 
-export { generateAllRoutes, generateMainSitemap, generateHreflangSitemap, generateSitemapIndex };
+export { generateAllRoutes, generateMainSitemap, generateHreflangSitemap, generateZapierSitemap, generateSitemapIndex };
