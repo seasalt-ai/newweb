@@ -136,6 +136,29 @@ const competitors = [
   { title: 'vs. OpenPhone', path: '/compare/openphone-alternative' }
 ];
 
+const products = [
+  { 
+    title: t('productsData.seachat.title') || 'SeaChat', 
+    href: '/seachat',
+    logo: '/seachat-icon.png',
+  },
+  { 
+    title: t('productsData.seax.title') || 'SeaX', 
+    href: '/seax',
+    logo: '/seax-icon.png',
+  },
+  { 
+    title: t('productsData.seameet.title') || 'SeaMeet', 
+    href: 'https://seameet.ai/',
+    logo: '/seameet-icon.png',
+  },
+  {
+    title: t('productsData.seavoice.title') || 'SeaVoice', 
+    href: '/seavoice',
+    logo: '/seavoice-icon.png',
+  }
+];
+
 
 // Helper function to render SVG icons
 const getIcon = (iconName: string, className = 'w-4 h-4') => {
@@ -537,32 +560,182 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
 
     <!-- Mobile menu -->
     <div class="lg:hidden hidden mobile-menu">
-      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-        {solutions.map((solution) => (
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 max-h-[80vh] overflow-y-auto">
+        
+        <!-- Products Section -->
+        <div class="border-b border-gray-200">
+          <button class="w-full flex justify-between items-center px-3 py-3 text-left text-gray-700 hover:bg-gray-50 mobile-accordion-trigger">
+            <span class="text-base font-medium">{t('header.products')}</span>
+            <svg class="h-5 w-5 transform transition-transform duration-200 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="pl-3 pb-2 hidden mobile-accordion-content">
+            {products.map((product) => {
+              const updatedHref = product.href.startsWith('/')
+                ? `/${lang}${product.href}`
+                : product.href;
+              return (
+                <a
+                  href={updatedHref}
+                  target={product.href.startsWith('/') ? '_self' : '_blank'}
+                  rel={product.href.startsWith('/') ? '' : 'noopener noreferrer'}
+                  class="flex items-center gap-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+                >
+                  <img src={product.logo} alt={product.title} class="w-5 h-5 flex-shrink-0" />
+                  <span>{product.title}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+
+        <!-- Solutions Section -->
+        <div class="border-b border-gray-200">
+          <button class="w-full flex justify-between items-center px-3 py-3 text-left text-gray-700 hover:bg-gray-50 mobile-accordion-trigger">
+            <span class="text-base font-medium">{t('header.solutions')}</span>
+            <svg class="h-5 w-5 transform transition-transform duration-200 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="pl-3 pb-2 hidden mobile-accordion-content">
+            {solutions.map((solution) => (
+              <a
+                href={`/${lang}${solution.path}`}
+                class="flex items-center gap-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+              >
+                <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="solution-icon">{solutionEmoji[solution.icon] || '✨'}</span>
+                <span>{solution.title}</span>
+              </a>
+            ))}
+            <a
+              href={`/${lang}/seahealth`}
+              class="flex items-center gap-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+            >
+              <Fragment set:html={getIcon('Heart', 'h-5 w-5 text-red-500')} />
+              <span>{t('header.solutionsDropdown.seahealth')}</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Integrations Link -->
+        <div class="border-b border-gray-200">
           <a
-            href={`/${lang}${solution.path}`}
-            class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
+            href={`/${lang}/integrations/`}
+            class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-3 rounded-md text-base font-medium"
           >
-            {solution.title}
+            {t('seachat.header.integrations')}
           </a>
-        ))}
+        </div>
+
+        <!-- Channels Section -->
+        <div class="border-b border-gray-200">
+          <button class="w-full flex justify-between items-center px-3 py-3 text-left text-gray-700 hover:bg-gray-50 mobile-accordion-trigger">
+            <span class="text-base font-medium">{t('header.channels')}</span>
+            <svg class="h-5 w-5 transform transition-transform duration-200 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="pl-3 pb-2 hidden mobile-accordion-content">
+            {channels.map((channel) => {
+              const brand = channelLogoMap[channel.path];
+              const emoji = nonBrandEmoji[channel.path];
+              
+              let channelUrl;
+              if (channel.isLineCallPlus) {
+                if (lang === 'zh-TW' || lang === 'zh-CN') {
+                  channelUrl = `/zh-TW/channels/line-call-plus`;
+                } else {
+                  channelUrl = `/${lang}/seavoice/platform/line-call-plus`;
+                }
+              } else {
+                channelUrl = `/${lang}${channel.path}`;
+              }
+
+              return (
+                <a
+                  href={channelUrl}
+                  class="flex items-center gap-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+                >
+                  {brand ? (
+                    <img src={brand.url} alt={brand.alt} class="h-5 w-5" loading="lazy" />
+                  ) : emoji ? (
+                    <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="channel-emoji">{emoji}</span>
+                  ) : (
+                    <Fragment set:html={getIcon(channel.icon, 'h-5 w-5 text-gray-400')} />
+                  )}
+                  <span>{channel.title}</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+
+        <!-- Industries Section -->
+        <div class="border-b border-gray-200">
+          <button class="w-full flex justify-between items-center px-3 py-3 text-left text-gray-700 hover:bg-gray-50 mobile-accordion-trigger">
+            <span class="text-base font-medium">{t('header.industries')}</span>
+            <svg class="h-5 w-5 transform transition-transform duration-200 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="pl-3 pb-2 hidden mobile-accordion-content">
+            {industries.map((industry) => (
+              <a
+                href={`/${lang}/industries/${industry.slug}`}
+                class="flex items-center gap-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+              >
+                <span class="h-5 w-5 flex items-center justify-center text-base" role="img" aria-label="industry-icon">{industryEmoji[industry.icon] || '⭐'}</span>
+                <span>{industry.title}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- Compare Us Section -->
+        <div class="border-b border-gray-200">
+          <button class="w-full flex justify-between items-center px-3 py-3 text-left text-gray-700 hover:bg-gray-50 mobile-accordion-trigger">
+            <span class="text-base font-medium">{t('header.compareUs')}</span>
+            <svg class="h-5 w-5 transform transition-transform duration-200 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div class="pl-3 pb-2 hidden mobile-accordion-content">
+            {competitors.map((competitor) => (
+              <a
+                href={`/${lang}${competitor.path}`}
+                class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-sm"
+              >
+                {competitor.title}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <!-- Other Links -->
+        <div class="border-b border-gray-200">
+          <a
+            href={`/${lang}/pricing`}
+            class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-3 rounded-md text-base font-medium"
+          >
+            {t('header.pricing')}
+          </a>
+        </div>
         
-        <a
-          href={`/${lang}/pricing`}
-          class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
-        >
-          {t('header.pricing')}
-        </a>
+        <div class="border-b border-gray-200">
+          <a
+            href={`/${lang}/blog`}
+            class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-3 rounded-md text-base font-medium"
+          >
+            {t('header.blog')}
+          </a>
+        </div>
         
-        <a
-          href={`/${lang}/blog`}
-          class="text-gray-700 hover:bg-gray-50 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
-        >
-          {t('header.blog')}
-        </a>
-        
-        <!-- Login/Signup buttons for mobile -->
-        <div class="border-t border-gray-200 pt-4 mt-4">
+        <!-- Login/Signup and Language controls for mobile -->
+        <div class="pt-4 px-3">
+            <div class="pb-4">
+                <LanguageSwitcher lang={lang} />
+            </div>
           <a 
             href="https://seax.seasalt.ai/signin" 
             class="block w-full text-center text-gray-700 hover:text-blue-600 font-medium py-2 border border-gray-300 rounded-lg transition-colors mb-3"
@@ -582,13 +755,30 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
 </header>
 
 <script>
-  // Header dropdown functionality
+  // Header functionality
   document.addEventListener('DOMContentLoaded', function() {
+    // --- Desktop Dropdowns ---
     const dropdownTriggers = document.querySelectorAll('.dropdown-trigger');
     const dropdownMenus = document.querySelectorAll('.dropdown-menu');
     
     dropdownTriggers.forEach(trigger => {
       trigger.addEventListener('mouseenter', function() {
+        const dropdownId = this.getAttribute('data-dropdown');
+        const menu = document.querySelector(`[data-dropdown-menu="${dropdownId}"]`);
+        if (menu) {
+          // Hide all menus first
+          dropdownMenus.forEach(m => {
+            if (m !== menu) {
+              m.classList.add('hidden');
+            }
+          });
+          // Then show the target menu
+          menu.classList.remove('hidden');
+        }
+      });
+
+      // Also handle focus for accessibility
+      trigger.addEventListener('focus', function() {
         const dropdownId = this.getAttribute('data-dropdown');
         const menu = document.querySelector(`[data-dropdown-menu="${dropdownId}"]`);
         if (menu) {
@@ -598,29 +788,45 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
       });
     });
 
-    dropdownMenus.forEach(menu => {
-      menu.addEventListener('mouseleave', function() {
-        this.classList.add('hidden');
+    const header = document.querySelector('header');
+    if (header) {
+      header.addEventListener('mouseleave', function() {
+        dropdownMenus.forEach(menu => menu.classList.add('hidden'));
       });
-    });
+    }
 
     // Close dropdowns when clicking outside
     document.addEventListener('click', function(event) {
-      if (!event.target.closest('.dropdown-trigger') && !event.target.closest('.dropdown-menu')) {
+      if (!event.target.closest('.relative')) {
         dropdownMenus.forEach(menu => menu.classList.add('hidden'));
       }
     });
 
-    // Mobile menu toggle
+    // --- Mobile Menu Toggle ---
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const mobileMenu = document.querySelector('.mobile-menu');
     
     if (mobileMenuToggle && mobileMenu) {
       mobileMenuToggle.addEventListener('click', function() {
-        mobileMenu.classList.toggle('hidden');
-        const expanded = mobileMenu.classList.contains('hidden') ? 'false' : 'true';
-        this.setAttribute('aria-expanded', expanded);
+        const isHidden = mobileMenu.classList.toggle('hidden');
+        this.setAttribute('aria-expanded', !isHidden);
       });
     }
+
+    // --- Mobile Accordion ---
+    const accordionTriggers = document.querySelectorAll('.mobile-accordion-trigger');
+    accordionTriggers.forEach(trigger => {
+      trigger.addEventListener('click', function() {
+        const content = this.nextElementSibling;
+        const icon = this.querySelector('svg');
+
+        if (content && content.classList.contains('mobile-accordion-content')) {
+          content.classList.toggle('hidden');
+          if (icon) {
+            icon.classList.toggle('rotate-180');
+          }
+        }
+      });
+    });
   });
 </script>
