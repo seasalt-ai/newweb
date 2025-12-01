@@ -236,7 +236,7 @@ export function getLocalizedPath(path: string, targetLang: SupportedLanguage): s
   
   // Special handling: integrations are English-only
   // Always use 'en' for integration pages regardless of targetLang
-  if (cleanPath.includes('/integrations/')) {
+  if (cleanPath.startsWith('/integrations')) {
     return `/en${cleanPath}`;
   }
   
