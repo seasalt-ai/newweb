@@ -236,7 +236,8 @@ export function getLocalizedPath(path: string, targetLang: SupportedLanguage): s
   
   // Special handling: integrations are English-only
   // Always use 'en' for integration pages regardless of targetLang
-  if (cleanPath.startsWith('/integrations')) {
+  // Use regex to ensure integrations is the first segment
+  if (/^\/integrations(\/|$)/.test(cleanPath)) {
     return `/en${cleanPath}`;
   }
   
