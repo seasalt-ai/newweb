@@ -172,8 +172,9 @@
           }
 
           // Special handling: integrations are English-only
+          // Use regex to check if path starts with /integrations (no language prefix)
           var pathOnly = (p.split("?")[0] || "").split("#")[0] || "";
-          if (pathOnly.startsWith('/integrations')) {
+          if (/^\/integrations/.test(pathOnly)) {
             var target = "/en" + p;
             console.log("[redirect] integrations page, forcing English:", target);
             window.location.replace(target);
