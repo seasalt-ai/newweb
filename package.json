@@ -11,6 +11,7 @@
     "seo-update": "node scripts/generate-sitemap.js",
     "build:full": "npm run build && npm run build:sitemap",
     "preview": "astro preview",
+    "check": "node scripts/check-slugs.mjs && astro check",
     "astro": "astro"
   },
   "dependencies": {
