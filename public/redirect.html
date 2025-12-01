@@ -171,6 +171,15 @@
             return;
           }
 
+          // Special handling: integrations are English-only
+          var pathOnly = (p.split("?")[0] || "").split("#")[0] || "";
+          if (pathOnly.indexOf("/integrations/") !== -1 || pathOnly.indexOf("/integrations") !== -1) {
+            var target = "/en" + p;
+            console.log("[redirect] integrations page, forcing English:", target);
+            window.location.replace(target);
+            return;
+          }
+
           var preferred = detectPreferredLang();
           console.log("[redirect] preferred lang =", preferred);
           try {

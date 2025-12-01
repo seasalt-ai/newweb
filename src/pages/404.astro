@@ -57,6 +57,18 @@
             supported.indexOf(first) !== -1
           );
           if (supported.indexOf(first) !== -1) {
+            // Check if this is a non-English integrations page
+            // Integrations are English-only, so redirect to /en/integrations/
+            if (first !== "en" && (pathOnly.indexOf("/integrations/") !== -1 || pathOnly.indexOf("/integrations") !== -1)) {
+              var enPath = fullPath.replace("/" + first + "/integrations", "/en/integrations");
+              console.log(
+                "[404] Non-English integrations page, redirecting to:",
+                enPath
+              );
+              window.location.replace(enPath);
+              return;
+            }
+            
             // Already localized path; show 404 content as-is
             console.log(
               "[404] Already localized, staying on 404 page for",

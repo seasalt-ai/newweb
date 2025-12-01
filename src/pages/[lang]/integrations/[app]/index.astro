@@ -8,18 +8,17 @@ export async function getStaticPaths() {
   const paths = [];
   const apps = (curatedAppsData as any).apps;
   
-  for (const lang of supportedLocales) {
-    for (const app of apps) {
-      paths.push({
-        params: { 
-          lang, 
-          app: app.slug 
-        },
-        props: { 
-          app 
-        }
-      });
-    }
+  // Only build English version - integrations are English-only
+  for (const app of apps) {
+    paths.push({
+      params: { 
+        lang: 'en', 
+        app: app.slug 
+      },
+      props: { 
+        app 
+      }
+    });
   }
   
   return paths;

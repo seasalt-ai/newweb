@@ -1,2 +1,24 @@
 /zh-tw/* /zh-TW/:splat 301!
 /zh-cn/* /zh-CN/:splat 301!
+
+# Redirect non-English integrations to English (integrations are English-only)
+/es/integrations/* /en/integrations/:splat 301!
+/zh-TW/integrations/* /en/integrations/:splat 301!
+/zh-CN/integrations/* /en/integrations/:splat 301!
+/ja/integrations/* /en/integrations/:splat 301!
+/ko/integrations/* /en/integrations/:splat 301!
+/fr/integrations/* /en/integrations/:splat 301!
+/de/integrations/* /en/integrations/:splat 301!
+/ar/integrations/* /en/integrations/:splat 301!
+/fa/integrations/* /en/integrations/:splat 301!
+/fil/integrations/* /en/integrations/:splat 301!
+/hi/integrations/* /en/integrations/:splat 301!
+/id/integrations/* /en/integrations/:splat 301!
+/ms/integrations/* /en/integrations/:splat 301!
+/pl/integrations/* /en/integrations/:splat 301!
+/pt/integrations/* /en/integrations/:splat 301!
+/ro/integrations/* /en/integrations/:splat 301!
+/ru/integrations/* /en/integrations/:splat 301!
+/ta/integrations/* /en/integrations/:splat 301!
+/th/integrations/* /en/integrations/:splat 301!
+/vi/integrations/* /en/integrations/:splat 301!
