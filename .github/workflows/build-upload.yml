@@ -1,0 +1,160 @@
+name: Web Build & Upload
+
+on:
+  push:
+    # branches: [main]
+  workflow_dispatch:
+    inputs:
+      run_astro_check:
+        description: "Run astro check (non-blocking)"
+        type: boolean
+        default: true
+      gasUrl:
+        description: "可選：GAS Web App URL（GET 取得 SA JSON）"
+        type: string
+        required: false
+      gasToken:
+        description: "可選：GAS 驗證 token（以 querystring 形式附加）"
+        type: string
+        required: false
+
+concurrency:
+  group: web-build-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    env:
+      NODE_VERSION: "20"
+      # Drive 相關設定（非 Secrets）
+      GDRIVE_FOLDER_PATH: website-builds/newweb
+      # 與 seax-mobile 一致的 Shared Drive ID，若不同可自行修改
+      GDRIVE_TEAM_DRIVE_ID: 0AFiuOtG4iEXJUk9PVA
+      # 預設的 GAS URL（與 seax-mobile 相同）
+      GAS_URL_DEFAULT: https://script.google.com/macros/s/AKfycby2i184Xn7F_a0K1O6LsqWis4a3XA-ZlIM6x4HDVfLdTvacxOneyTIU5t3o1QCP0MxYrw/exec
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+      - name: Slug guard (required)
+        run: node scripts/check-slugs.mjs
+
+      - name: Astro typecheck (non-blocking)
+        if: ${{ inputs.run_astro_check }}
+        continue-on-error: true
+        run: npx astro check
+
+      - name: Build site
+        run: npm run build
+
+      - name: Archive dist
+        shell: bash
+        run: |
+          set -euo pipefail
+          ZIP_NAME="website-dist-${GITHUB_SHA}.zip"
+          (cd dist && zip -r9 "../${ZIP_NAME}" .)
+          echo "zip_name=${ZIP_NAME}" >> $GITHUB_OUTPUT
+        id: zip
+
+      - name: 準備 Google Drive 憑證（純 GAS 流程）
+        if: ${{ success() }}
+        env:
+          GAS_URL_INPUT: ${{ github.event.inputs.gasUrl }}
+          GAS_TOKEN: ${{ github.event.inputs.gasToken }}
+          GAS_URL_DEFAULT: ${{ env.GAS_URL_DEFAULT }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -y && sudo apt-get install -y jq curl
+
+          GAS_URL_BASE="${GAS_URL_INPUT:-${GAS_URL_DEFAULT:-}}"
+          if [ -n "${GAS_TOKEN:-}" ]; then
+            GAS_URL="${GAS_URL_BASE}?token=$(printf '%s' "$GAS_TOKEN" | jq -s -R -r @uri)"
+          else
+            GAS_URL="$GAS_URL_BASE"
+          fi
+
+          if [ -z "$GAS_URL" ]; then
+            echo "未提供 GAS URL：請在 workflow_dispatch 傳入 gasUrl（可搭配 gasToken），或設定預設 GAS_URL_DEFAULT。" >&2
+            exit 1
+          fi
+
+          echo "從 GAS 端點（GET）下載 Service Account JSON：$GAS_URL" >&2
+          HTTP_CODE=$(curl -sS -L -o "$RUNNER_TEMP/sa.json" -w "%{http_code}" -X GET "$GAS_URL")
+          if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+            echo "GAS 回應 HTTP $HTTP_CODE" >&2
+            echo "Response snippet:" >&2; head -c 200 "$RUNNER_TEMP/sa.json" >&2 || true
+            exit 1
+          fi
+          chmod 600 "$RUNNER_TEMP/sa.json"
+          if ! jq -e '.type == "service_account"' < "$RUNNER_TEMP/sa.json" >/dev/null 2>&1; then
+            echo "下載的憑證不是有效的 service_account JSON" >&2
+            echo "Response snippet:" >&2; head -c 200 "$RUNNER_TEMP/sa.json" >&2 || true
+            exit 1
+          fi
+
+      - name: Install rclone
+        if: ${{ success() }}
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash
+          rclone version
+
+      - name: Upload ZIP to Google Drive (latest + history)
+        if: ${{ success() }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # rclone remote config (supports Shared Drive if provided)
+          cat > $RUNNER_TEMP/rclone.conf <<RC
+          [gdrive]
+          type = drive
+          scope = drive
+          service_account_file = $RUNNER_TEMP/sa.json
+          team_drive = ${GDRIVE_TEAM_DRIVE_ID:-}
+          RC
+
+          APP_NAME=$(node -p "require('./package.json').name")
+          APP_VER=$(node -p "require('./package.json').version")
+          SHORT_SHA=${GITHUB_SHA:0:7}
+          TS=$(date -u +%Y%m%dT%H%M%SZ)
+
+          ZIP_PATH="${{ steps.zip.outputs.zip_name }}"
+          DEST_BASE="${GDRIVE_FOLDER_PATH:-website-builds/newweb}"
+
+          LATEST_NAME="${APP_NAME}-dist-latest.zip"
+          HIST_NAME="${APP_NAME}-${APP_VER}-${SHORT_SHA}-${TS}.zip"
+
+          echo "Uploading latest to gdrive:${DEST_BASE}/${LATEST_NAME}"
+          rclone --config $RUNNER_TEMP/rclone.conf copyto "$ZIP_PATH" "gdrive:${DEST_BASE}/${LATEST_NAME}" \
+            --transfers 1 --checkers 4 --progress
+
+          echo "Uploading history to gdrive:${DEST_BASE}/history/${HIST_NAME}"
+          rclone --config $RUNNER_TEMP/rclone.conf copyto "$ZIP_PATH" "gdrive:${DEST_BASE}/history/${HIST_NAME}" \
+            --transfers 1 --checkers 4 --progress
+
+      - name: Summary
+        shell: bash
+        run: |
+          APP_NAME=$(node -p "require('./package.json').name")
+          echo "## Build summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "- App: ${APP_NAME}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Zip: ${{ steps.zip.outputs.zip_name }}" >> "$GITHUB_STEP_SUMMARY"
