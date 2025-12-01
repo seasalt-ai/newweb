@@ -68,7 +68,7 @@ const after = currentRedirects.substring(endOfSection);
 const newContent = before + '\n' + redirectRules + after;
 
 // Write back
-writeFileSync(redirectsPath, newContent, 'utf-8');
+writeFileSync(redirectsPath, newContent.trimEnd() + '\n', 'utf-8');
 
 console.log('✅ Successfully updated _redirects file with integration redirects');
 console.log(`   Generated ${langCodes.length} redirect rules`);
