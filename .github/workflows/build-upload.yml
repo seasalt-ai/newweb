@@ -40,18 +40,35 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Free disk space (pre-build)
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Disk before cleanup:"; df -h /
+          sudo rm -rf /usr/local/lib/android || true
+          sudo rm -rf /opt/ghc || true
+          sudo rm -rf /usr/local/.ghcup || true
+          sudo rm -rf /opt/hostedtoolcache/CodeQL || true
+          sudo docker system prune -af || true
+          sudo apt-get clean || true
+          sudo rm -rf /var/lib/apt/lists/* || true
+          echo "Disk after cleanup:"; df -h /
+
       - name: Use Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: "npm"
+
+      - name: Configure npm cache to temp
+        run: |
+          npm config set cache "$RUNNER_TEMP/.npm" --global
 
       - name: Install dependencies
         run: |
           if [ -f package-lock.json ]; then
-            npm ci
+            npm ci --no-audit --no-fund
           else
-            npm install
+            npm install --no-audit --no-fund
           fi
 
       - name: Slug guard (required)
@@ -63,6 +80,8 @@ jobs:
         run: npx astro check
 
       - name: Build site
+        env:
+          NODE_OPTIONS: "--max_old_space_size=4096"
         run: npm run build
 
       - name: Archive dist
