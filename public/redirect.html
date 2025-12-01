@@ -173,7 +173,7 @@
 
           // Special handling: integrations are English-only
           var pathOnly = (p.split("?")[0] || "").split("#")[0] || "";
-          if (pathOnly.indexOf("/integrations/") !== -1 || pathOnly.indexOf("/integrations") !== -1) {
+          if (pathOnly.startsWith('/integrations')) {
             var target = "/en" + p;
             console.log("[redirect] integrations page, forcing English:", target);
             window.location.replace(target);
