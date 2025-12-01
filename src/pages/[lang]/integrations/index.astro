@@ -4,11 +4,12 @@ import { getSupportedLanguages, getTranslationHelpers, type SupportedLanguage } 
 import curatedApps from '../../../../zapier/data/curated-apps.json';
 
 export async function getStaticPaths() {
-  // getSupportedLanguages returns array of objects: { code, name, englishName, shortCode }
-  const languages = getSupportedLanguages();
-  return languages.map((langObj) => ({
-    params: { lang: langObj.code },
-  }));
+  // Only build English version - integrations are English-only
+  return [
+    {
+      params: { lang: 'en' },
+    }
+  ];
 }
 
 const { lang } = Astro.params;

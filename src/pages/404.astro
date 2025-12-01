@@ -26,8 +26,8 @@
           var supported = [
             "en",
             "es",
-            "zh-TW",
-            "zh-CN",
+            "zh-tw",
+            "zh-cn",
             "ja",
             "ko",
             "fr",
@@ -57,6 +57,20 @@
             supported.indexOf(first) !== -1
           );
           if (supported.indexOf(first) !== -1) {
+            // Check if this is a non-English integrations page
+            // Integrations are English-only, so redirect to /en/integrations/
+            // Use regex to ensure integrations is the second segment (not a substring elsewhere)
+            if (first !== "en" && /^\/[^/]+\/integrations/.test(pathOnly)) {
+              // Replace only the language segment at the beginning of the path
+              var enPath = '/en' + fullPath.substring(fullPath.indexOf('/', 1));
+              console.log(
+                "[404] Non-English integrations page, redirecting to:",
+                enPath
+              );
+              window.location.replace(enPath);
+              return;
+            }
+            
             // Already localized path; show 404 content as-is
             console.log(
               "[404] Already localized, staying on 404 page for",
