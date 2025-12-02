@@ -60,6 +60,8 @@ TEMP_DIFF_DIR="/Volumes/WD_BLACK/Projects/deployment-cache/temp-diff"
 # Default Drive URL (can be overridden by --from-drive or env DEPLOY_FROM_DRIVE_URL)
 GDRIVE_URL_DEFAULT="https://drive.google.com/file/d/1uO2h1oQO28fgsjTV1HJT5Ad87yLw3LiY/view?usp=drive_link"
 GDRIVE_URL="${DEPLOY_FROM_DRIVE_URL:-}"
+# rclone remote path, e.g. gdrive:website-builds/newweb/seasalt-ai-website-dist-latest.zip
+RCLONE_REMOTE_PATH="${DEPLOY_FROM_RCLONE:-}"
 ARTIFACT_ZIP=""
 DOWNLOAD_DIR="/Volumes/WD_BLACK/Projects/deployment-cache/newweb-artifacts"
 mkdir -p "$DOWNLOAD_DIR"
@@ -524,13 +526,36 @@ main() {
     
 # Acquire build output
     # If not explicitly set, fall back to default URL
-    if [[ -z "$GDRIVE_URL" && -n "${GDRIVE_URL_DEFAULT:-}" ]]; then
+    if [[ -z "$GDRIVE_URL" && -z "$RCLONE_REMOTE_PATH" && -n "${GDRIVE_URL_DEFAULT:-}" ]]; then
         GDRIVE_URL="$GDRIVE_URL_DEFAULT"
         SKIP_BUILD=true
         print_info "Using default Google Drive URL for artifact. Build will be skipped."
     fi
 
-    if [[ -n "$GDRIVE_URL" ]]; then
+    if [[ -n "$RCLONE_REMOTE_PATH" ]]; then
+        # rclone mode
+        if ! command -v rclone >/dev/null 2>&1; then
+            print_error "rclone not found. Please install rclone and configure the remote, or use --from-drive."
+            exit 1
+        fi
+        print_info "Downloading build artifact via rclone: $RCLONE_REMOTE_PATH"
+        ts=$(date -u +%Y%m%dT%H%M%SZ)
+        ARTIFACT_ZIP="$DOWNLOAD_DIR/website-dist-${ts}.zip"
+        if rclone copyto "$RCLONE_REMOTE_PATH" "$ARTIFACT_ZIP" --transfers 1 --checkers 4; then
+            print_success "Downloaded: $ARTIFACT_ZIP"
+        else
+            print_error "rclone copy failed. Check remote/path and permissions."
+            exit 1
+        fi
+        # Prepare BUILD_DIR
+        rm -rf "$BUILD_DIR" && mkdir -p "$BUILD_DIR"
+        print_info "Unzipping artifact into $BUILD_DIR ..."
+        unzip -q "$ARTIFACT_ZIP" -d "$BUILD_DIR" || { print_error "Failed to unzip artifact"; exit 1; }
+        if [[ -d "$BUILD_DIR/dist" ]]; then
+            shopt -s dotglob; mv "$BUILD_DIR/dist"/* "$BUILD_DIR/" || true; rmdir "$BUILD_DIR/dist" || true; shopt -u dotglob
+        fi
+        print_success "Artifact ready at $BUILD_DIR"
+    elif [[ -n "$GDRIVE_URL" ]]; then
         print_info "Downloading build artifact from Google Drive..."
         ts=$(date -u +%Y%m%dT%H%M%SZ)
         ARTIFACT_ZIP="$DOWNLOAD_DIR/website-dist-${ts}.zip"
@@ -541,26 +566,18 @@ main() {
             exit 1
         fi
         # Prepare BUILD_DIR
-        rm -rf "$BUILD_DIR"
-        mkdir -p "$BUILD_DIR"
+        rm -rf "$BUILD_DIR" && mkdir -p "$BUILD_DIR"
         print_info "Unzipping artifact into $BUILD_DIR ..."
-        unzip -q "$ARTIFACT_ZIP" -d "$BUILD_DIR" || {
-            print_error "Failed to unzip artifact"
-            exit 1
-        }
-        # If the zip contains a top-level 'dist', move its contents up
+        unzip -q "$ARTIFACT_ZIP" -d "$BUILD_DIR" || { print_error "Failed to unzip artifact"; exit 1; }
         if [[ -d "$BUILD_DIR/dist" ]]; then
-            shopt -s dotglob
-            mv "$BUILD_DIR/dist"/* "$BUILD_DIR/" || true
-            rmdir "$BUILD_DIR/dist" || true
-            shopt -u dotglob
+            shopt -s dotglob; mv "$BUILD_DIR/dist"/* "$BUILD_DIR/" || true; rmdir "$BUILD_DIR/dist" || true; shopt -u dotglob
         fi
         print_success "Artifact ready at $BUILD_DIR"
     elif [[ "$SKIP_BUILD" == "true" ]]; then
         print_info "Skipping build - using existing dist/ folder"
         if [[ ! -d "$BUILD_DIR" ]]; then
             print_error "Build directory '$BUILD_DIR' not found! Cannot skip build."
-            print_info "Either provide --from-drive URL, or run a build first."
+            print_info "Either provide --from-drive URL or --from-rclone <remote:path>, or run a build first."
             exit 1
         fi
         print_success "Using existing build in $BUILD_DIR"
@@ -750,6 +767,16 @@ while [[ $# -gt 0 ]]; do
             RSYNC_COMPARISON_METHOD="timestamp"
             print_info "Using timestamp-based comparison (fastest, least accurate)"
             ;;
+        --from-rclone)
+            shift
+            RCLONE_REMOTE_PATH="${1:-}"
+            if [[ -z "$RCLONE_REMOTE_PATH" ]]; then
+                print_error "--from-rclone requires a remote:path"
+                exit 1
+            fi
+            SKIP_BUILD=true
+            print_info "Will download build artifact via rclone"
+            ;;
         --from-drive)
             shift
             GDRIVE_URL="${1:-}"
@@ -769,9 +796,10 @@ while [[ $# -gt 0 ]]; do
             echo "Incremental production deployment - only deploys changed files"
             echo ""
             echo "Options:"
-            echo "  --from-drive URL    直接使用 Google Drive 共享連結下載 CI 產出的 ZIP 並部署"
-            echo "  --use-drive-default 使用腳本內建的預設 Drive 連結（或環境變數 DEPLOY_FROM_DRIVE_URL）"
-            echo "  --quick             Auto-proceed if ≤10 files changed (good for small updates)"
+            echo "  --from-rclone REMOTE:PATH  以 rclone 下載（需先設好 remote），例如 gdrive:website-builds/newweb/seasalt-ai-website-dist-latest.zip"
+            echo "  --from-drive URL            使用 Google Drive 分享連結下載 ZIP 並部署（需公開可下載）"
+            echo "  --use-drive-default         使用腳本內建的預設 Drive 連結（或環境變數 DEPLOY_FROM_DRIVE_URL）"
+            echo "  --quick                     Auto-proceed if ≤10 files changed (good for small updates)"
             echo "  --skip-build        Use existing dist/ folder (skip npm run build)"
             echo "  --force-sync    Bypass large change warnings (use when confident)"
             echo "  --force-full    Use full deployment instead (runs deploy-prod.sh)"
@@ -781,6 +809,7 @@ while [[ $# -gt 0 ]]; do
             echo "  --help, -h      Show this help message"
             echo ""
             echo "Examples:"
+            echo "  $0 --from-rclone 'gdrive:website-builds/newweb/seasalt-ai-website-dist-latest.zip' --force-sync"
             echo "  $0 --from-drive 'https://drive.google.com/file/d/FILE_ID/view?usp=share_link' --force-sync"
             echo "  DEPLOY_FROM_DRIVE_URL='https://drive.google.com/file/d/FILE_ID/view?usp=share_link' $0 --use-drive-default --force-sync"
             echo "  $0 --quick --skip-build --force-sync    # Fast deployment, bypass warnings"
