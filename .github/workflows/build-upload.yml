@@ -176,6 +176,12 @@ jobs:
           rclone --config $RUNNER_TEMP/rclone.conf copyto "$ZIP_PATH" "gdrive:${DEST_BASE}/history/${HIST_NAME}" \
             --transfers 1 --checkers 4 --progress
 
+          # Verify by downloading back and testing ZIP integrity
+          echo "Verifying uploaded ZIP integrity (latest)..."
+          DL_ZIP="$RUNNER_TEMP/verify-${LATEST_NAME}"
+          rclone --config $RUNNER_TEMP/rclone.conf copyto "gdrive:${DEST_BASE}/${LATEST_NAME}" "$DL_ZIP" --transfers 1 --checkers 4
+          unzip -t "$DL_ZIP"
+
       - name: Summary
         shell: bash
         run: |
