@@ -98,16 +98,29 @@ download_from_gdrive() {
     local page
     page=$(curl -sSL -c "$cookie" "$base") || return 1
 
-    local confirm
-    # Extract confirm token using sed to avoid bash regex quoting pitfalls
-    confirm=$(printf '%s' "$page" | sed -n 's/.*confirm=\([A-Za-z0-9._-]*\).*/\1/p' | head -n1)
+    # Try to extract the confirm download link from the HTML
+    local rel
+    rel=$(printf '%s' "$page" | sed -n 's/.*href=\"\(\/uc?export=download[^\"]*\)\".*/\1/p' | head -n1)
 
-    local final_url="$base"
-    if [[ -n "$confirm" && -n "$id" ]]; then
-        final_url="https://drive.google.com/uc?export=download&confirm=${confirm}&id=${id}"
+    local final_url
+    if [[ -n "$rel" ]]; then
+        final_url="https://drive.google.com${rel}"
+    else
+        # Fallback: try to extract token and craft URL
+        local confirm
+        confirm=$(printf '%s' "$page" | sed -n 's/.*confirm=\([A-Za-z0-9._-]*\).*/\1/p' | head -n1)
+        if [[ -n "$confirm" && -n "$id" ]]; then
+            final_url="https://drive.google.com/uc?export=download&confirm=${confirm}&id=${id}"
+        else
+            final_url="$base"
+        fi
     fi
 
     curl -SL -b "$cookie" -o "$out" "$final_url"
+    # If the result looks too small (likely HTML), try usercontent domain as a last resort
+    if [[ -s "$out" && $(wc -c <"$out") -lt 16384 && -n "$id" ]]; then
+        curl -sSL -b "$cookie" -o "$out" "https://drive.usercontent.google.com/uc?export=download&id=${id}"
+    fi
 }
 
 # Function to get recently changed source files using git
