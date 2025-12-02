@@ -56,6 +56,14 @@ GITHUB_RATE_LIMIT_DELAY=10                              # Seconds to wait betwee
 CHANGES_LOG="/Volumes/WD_BLACK/Projects/deployment-cache/last-deployment-changes.log"
 TEMP_DIFF_DIR="/Volumes/WD_BLACK/Projects/deployment-cache/temp-diff"
 
+# Input for remote artifact (Google Drive)
+# Default Drive URL (can be overridden by --from-drive or env DEPLOY_FROM_DRIVE_URL)
+GDRIVE_URL_DEFAULT="https://drive.google.com/file/d/1uO2h1oQO28fgsjTV1HJT5Ad87yLw3LiY/view?usp=drive_link"
+GDRIVE_URL="${DEPLOY_FROM_DRIVE_URL:-}"
+ARTIFACT_ZIP=""
+DOWNLOAD_DIR="/Volumes/WD_BLACK/Projects/deployment-cache/newweb-artifacts"
+mkdir -p "$DOWNLOAD_DIR"
+
 # Ensure temp directory is cleaned up on exit
 trap 'rm -rf "$TEMP_DIFF_DIR"' EXIT
 
@@ -458,19 +466,50 @@ main() {
     # check_branch "$REQUIRED_BRANCH"
     check_clean_working_tree
     
-    # Build the project (unless skipping)
-    if [[ "$SKIP_BUILD" == "true" ]]; then
+# Acquire build output
+    # If not explicitly set, fall back to default URL
+    if [[ -z "$GDRIVE_URL" && -n "${GDRIVE_URL_DEFAULT:-}" ]]; then
+        GDRIVE_URL="$GDRIVE_URL_DEFAULT"
+        SKIP_BUILD=true
+        print_info "Using default Google Drive URL for artifact. Build will be skipped."
+    fi
+
+    if [[ -n "$GDRIVE_URL" ]]; then
+        print_info "Downloading build artifact from Google Drive..."
+        ts=$(date -u +%Y%m%dT%H%M%SZ)
+        ARTIFACT_ZIP="$DOWNLOAD_DIR/website-dist-${ts}.zip"
+        if download_from_gdrive "$GDRIVE_URL" "$ARTIFACT_ZIP"; then
+            print_success "Downloaded: $ARTIFACT_ZIP"
+        else
+            print_error "Failed to download from Google Drive. Check the share link."
+            exit 1
+        fi
+        # Prepare BUILD_DIR
+        rm -rf "$BUILD_DIR"
+        mkdir -p "$BUILD_DIR"
+        print_info "Unzipping artifact into $BUILD_DIR ..."
+        unzip -q "$ARTIFACT_ZIP" -d "$BUILD_DIR" || {
+            print_error "Failed to unzip artifact"
+            exit 1
+        }
+        # If the zip contains a top-level 'dist', move its contents up
+        if [[ -d "$BUILD_DIR/dist" ]]; then
+            shopt -s dotglob
+            mv "$BUILD_DIR/dist"/* "$BUILD_DIR/" || true
+            rmdir "$BUILD_DIR/dist" || true
+            shopt -u dotglob
+        fi
+        print_success "Artifact ready at $BUILD_DIR"
+    elif [[ "$SKIP_BUILD" == "true" ]]; then
         print_info "Skipping build - using existing dist/ folder"
         if [[ ! -d "$BUILD_DIR" ]]; then
             print_error "Build directory '$BUILD_DIR' not found! Cannot skip build."
-            print_info "Either run a build first, or remove --skip-build flag."
+            print_info "Either provide --from-drive URL, or run a build first."
             exit 1
         fi
         print_success "Using existing build in $BUILD_DIR"
     else
         build_project
-        
-        # Run SEO updates (generate sitemap and robots.txt)
         print_info "Updating SEO files (sitemap and robots.txt)..."
         npm run seo-update || print_warning "SEO update failed, continuing anyway"
     fi
@@ -655,14 +694,29 @@ while [[ $# -gt 0 ]]; do
             RSYNC_COMPARISON_METHOD="timestamp"
             print_info "Using timestamp-based comparison (fastest, least accurate)"
             ;;
+        --from-drive)
+            shift
+            GDRIVE_URL="${1:-}"
+            if [[ -z "$GDRIVE_URL" ]]; then
+                print_error "--from-drive requires a URL"
+                exit 1
+            fi
+            print_info "Will download build artifact from Google Drive"
+            ;;
+        --use-drive-default)
+            GDRIVE_URL="$GDRIVE_URL_DEFAULT"
+            print_info "Will use default Google Drive URL for artifact"
+            ;;
         --help|-h)
-            echo "Usage: $0 [--quick] [--skip-build] [--force-sync] [--checksum|--size-only|--timestamp] [--force-full]"
+            echo "Usage: $0 [--from-drive <share_url>] [--use-drive-default] [--quick] [--skip-build] [--force-sync] [--checksum|--size-only|--timestamp] [--force-full]"
             echo ""
             echo "Incremental production deployment - only deploys changed files"
             echo ""
             echo "Options:"
-            echo "  --quick         Auto-proceed if ≤10 files changed (good for small updates)"
-            echo "  --skip-build    Use existing dist/ folder (skip npm run build)"
+            echo "  --from-drive URL    直接使用 Google Drive 共享連結下載 CI 產出的 ZIP 並部署"
+            echo "  --use-drive-default 使用腳本內建的預設 Drive 連結（或環境變數 DEPLOY_FROM_DRIVE_URL）"
+            echo "  --quick             Auto-proceed if ≤10 files changed (good for small updates)"
+            echo "  --skip-build        Use existing dist/ folder (skip npm run build)"
             echo "  --force-sync    Bypass large change warnings (use when confident)"
             echo "  --force-full    Use full deployment instead (runs deploy-prod.sh)"
             echo "  --checksum      Compare files by content checksum (default, most accurate)"
@@ -671,6 +725,8 @@ while [[ $# -gt 0 ]]; do
             echo "  --help, -h      Show this help message"
             echo ""
             echo "Examples:"
+            echo "  $0 --from-drive 'https://drive.google.com/file/d/FILE_ID/view?usp=share_link' --force-sync"
+            echo "  DEPLOY_FROM_DRIVE_URL='https://drive.google.com/file/d/FILE_ID/view?usp=share_link' $0 --use-drive-default --force-sync"
             echo "  $0 --quick --skip-build --force-sync    # Fast deployment, bypass warnings"
             echo "  $0 --skip-build --force-sync            # Use existing build, bypass warnings"
             echo "  $0 --skip-build                         # Use existing build"
