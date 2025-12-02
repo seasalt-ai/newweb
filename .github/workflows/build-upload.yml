@@ -27,7 +27,7 @@ permissions:
 
 jobs:
   build-and-upload:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, web-runner]
     env:
       NODE_VERSION: "20"
       # Drive 相關設定（非 Secrets）
@@ -40,28 +40,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Free disk space (pre-build)
-        shell: bash
-        run: |
-          set -euo pipefail
-          echo "Disk before cleanup:"; df -h /
-          sudo rm -rf /usr/local/lib/android || true
-          sudo rm -rf /opt/ghc || true
-          sudo rm -rf /usr/local/.ghcup || true
-          sudo rm -rf /opt/hostedtoolcache/CodeQL || true
-          sudo docker system prune -af || true
-          sudo apt-get clean || true
-          sudo rm -rf /var/lib/apt/lists/* || true
-          echo "Disk after cleanup:"; df -h /
-
       - name: Use Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      - name: Configure npm cache to temp
+      - name: Configure npm cache to temp (optional)
         run: |
-          npm config set cache "$RUNNER_TEMP/.npm" --global
+          npm config set cache "$RUNNER_TEMP/.npm" --global || true
 
       - name: Install dependencies
         run: |
@@ -102,7 +88,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          sudo apt-get update -y && sudo apt-get install -y jq curl
+          if ! command -v jq >/dev/null 2>&1; then
+            echo "jq not found, attempting to install via brew/apt..."
+            if command -v brew >/dev/null 2>&1; then brew install jq || true; fi
+            if command -v apt-get >/dev/null 2>&1; then sudo apt-get update -y && sudo apt-get install -y jq || true; fi
+          fi
+          if ! command -v curl >/dev/null 2>&1; then
+            echo "curl is required" >&2; exit 1; fi
 
           GAS_URL_BASE="${GAS_URL_INPUT:-${GAS_URL_DEFAULT:-}}"
           if [ -n "${GAS_TOKEN:-}" ]; then
@@ -130,11 +122,25 @@ jobs:
             exit 1
           fi
 
-      - name: Install rclone
+      - name: Ensure rclone
         if: ${{ success() }}
+        shell: bash
         run: |
-          curl -fsSL https://rclone.org/install.sh | sudo bash
-          rclone version
+          set -euo pipefail
+          if command -v rclone >/dev/null 2>&1; then
+            rclone version
+          else
+            echo "rclone not found, attempting install..."
+            if command -v brew >/dev/null 2>&1; then
+              brew install rclone || true
+            elif command -v apt-get >/dev/null 2>&1; then
+              sudo apt-get update -y && sudo apt-get install -y rclone || true
+            else
+              curl -fsSL https://rclone.org/install.sh | sudo bash || true
+            fi
+            command -v rclone >/dev/null 2>&1 || { echo "rclone install failed" >&2; exit 1; }
+            rclone version
+          fi
 
       - name: Upload ZIP to Google Drive (latest + history)
         if: ${{ success() }}
