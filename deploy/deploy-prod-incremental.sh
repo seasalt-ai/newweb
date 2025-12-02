@@ -67,6 +67,49 @@ mkdir -p "$DOWNLOAD_DIR"
 # Ensure temp directory is cleaned up on exit
 trap 'rm -rf "$TEMP_DIFF_DIR"' EXIT
 
+# Helper: download Google Drive shared file robustly (handles confirm token)
+download_from_gdrive() {
+    local url="$1"; shift
+    local out="$1"; shift
+
+    if ! command -v curl >/dev/null 2>&1; then
+        print_error "curl is required"
+        return 1
+    fi
+
+    # Try to extract file id from common share URLs; if fails, use the URL as-is
+    local id=""
+    if [[ "$url" =~ /d/([^/]+)/view ]]; then
+        id="${BASH_REMATCH[1]}"
+    elif [[ "$url" =~ id=([^&]+) ]]; then
+        id="${BASH_REMATCH[1]}"
+    fi
+
+    local base
+    if [[ -n "$id" ]]; then
+        base="https://drive.google.com/uc?export=download&id=${id}"
+    else
+        base="$url"
+    fi
+
+    local cookie="/tmp/gg-cookie.txt"
+
+    # First request to get confirm token if needed
+    local page
+    page=$(curl -sSL -c "$cookie" "$base") || return 1
+
+    local confirm
+    # Extract confirm token using sed to avoid bash regex quoting pitfalls
+    confirm=$(printf '%s' "$page" | sed -n 's/.*confirm=\([A-Za-z0-9._-]*\).*/\1/p' | head -n1)
+
+    local final_url="$base"
+    if [[ -n "$confirm" && -n "$id" ]]; then
+        final_url="https://drive.google.com/uc?export=download&confirm=${confirm}&id=${id}"
+    fi
+
+    curl -SL -b "$cookie" -o "$out" "$final_url"
+}
+
 # Function to get recently changed source files using git
 get_recently_changed_files() {
     local days_back="${1:-7}"  # Default to 7 days
