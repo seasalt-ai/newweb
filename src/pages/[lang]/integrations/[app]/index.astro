@@ -3,6 +3,9 @@ import Layout from '../../../../layouts/Layout.astro';
 import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../../i18n/helpers';
 import curatedAppsData from '../../../../../zapier/data/curated-apps.json';
 import actionsData from '../../../../../zapier/data/actions.json';
+import BentoGrid from '../../../../components/integrations/BentoGrid';
+import HowItWorks from '../../../../components/integrations/HowItWorks';
+import TrustBar from '../../../../components/integrations/TrustBar';
 
 export async function getStaticPaths() {
   const paths = [];
@@ -31,14 +34,14 @@ const { t } = await getTranslationHelpers(currentLang);
 
 // SEO metadata
 const title = t('integrations.hub.metaTitle')
-  .replace('{appName}', app.name)
-  .replace('{category}', app.category);
+  .replaceAll('{appName}', app.name)
+  .replaceAll('{category}', app.category);
 const description = t('integrations.hub.metaDescription')
-  .replace('{appName}', app.name)
-  .replace('{description}', app.description);
+  .replaceAll('{appName}', app.name)
+  .replaceAll('{description}', app.description);
 const keywords = t('integrations.hub.keywords')
-  .replace('{appName}', app.name)
-  .replace('{category}', app.category);
+  .replaceAll('{appName}', app.name)
+  .replaceAll('{category}', app.category);
 
 // Breadcrumbs
 const breadcrumbs = [
@@ -105,6 +108,34 @@ const howToSchema = {
 
 const customJsonLd = [productSchema, howToSchema];
 const actionsList = (actionsData as any).actions;
+
+// Prepare translations object for React components
+const translations = {
+  bento: {
+    simplicity_title: t('integrations.spoke.bento.simplicity_title'),
+    simplicity_old: t('integrations.spoke.bento.simplicity_old'),
+    simplicity_new: t('integrations.spoke.bento.simplicity_new'),
+    ai_cleaning_title: t('integrations.spoke.bento.ai_cleaning_title'),
+    ai_cleaning_desc: t('integrations.spoke.bento.ai_cleaning_desc'),
+    open_rates_title: t('integrations.spoke.bento.open_rates_title'),
+    global_reach_title: t('integrations.spoke.bento.global_reach_title'),
+  },
+  how_it_works: {
+    title: t('integrations.spoke.how_it_works.title'),
+    step1_title: t('integrations.spoke.how_it_works.step1_title'),
+    step1_desc: t('integrations.spoke.how_it_works.step1_desc').replaceAll('{appName}', app.name),
+    step2_title: t('integrations.spoke.how_it_works.step2_title'),
+    step2_desc: t('integrations.spoke.how_it_works.step2_desc'),
+    step3_title: t('integrations.spoke.how_it_works.step3_title'),
+    step3_desc: t('integrations.spoke.how_it_works.step3_desc'),
+  },
+  trust: {
+    heading: t('integrations.spoke.trust.heading'),
+    stat_prefix: t('integrations.spoke.trust.stat_prefix'),
+    stat_number: t('integrations.spoke.trust.stat_number'),
+    stat_suffix: t('integrations.spoke.trust.stat_suffix'),
+  },
+};
 ---
 
 <Layout 
@@ -118,32 +149,37 @@ const actionsList = (actionsData as any).actions;
   headerVersion="default"
   footerVersion="default"
 >
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    <!-- Hero Section -->
-    <div class="text-center mb-16">
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-        {t('integrations.hub.headline').replace('{appName}', app.name)}
-      </h1>
-      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-        {t('integrations.hub.subheadline').replace('{appName}', app.name).replace('{description}', app.description)}
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a 
-          href={`https://zapier.com/apps/seasaltai/integrations`}
-          class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {t('integrations.hub.cta.primary')}
-        </a>
-        <a 
-          href={`/${currentLang}/contact`}
-          class="inline-flex items-center justify-center px-8 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition"
-        >
-          {t('integrations.hub.cta.secondary')}
-        </a>
+  <div class="bg-gradient-to-b from-blue-50 via-white to-gray-50 min-h-screen">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <!-- Hero Section -->
+      <div class="text-center mb-16">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">
+          <span class="text-gray-900">Automate </span>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">{app.name}</span>
+          <span class="text-gray-900"> with Intelligent Messaging & Calling</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
+          {t('integrations.hub.subheadline').replaceAll('{appName}', app.name).replaceAll('{description}', app.description)}
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a 
+            href={`https://zapier.com/apps/${app.slug}/integrations/seasaltai`}
+            class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-full text-white bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 transition shadow-lg hover:shadow-xl transform hover:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('integrations.hub.cta.primary')}
+          </a>
+          <a 
+            href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+            class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-full text-blue-600 bg-white hover:bg-gray-50 transition shadow-md border-2 border-blue-200"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('integrations.hub.cta.secondary')}
+          </a>
+        </div>
       </div>
-    </div>
 
     <!-- What is Agentic Send -->
     <div class="mb-16 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8">
@@ -177,43 +213,65 @@ const actionsList = (actionsData as any).actions;
     </div>
 
     <!-- Choose Your Channel -->
-    <div class="mb-16">
+    <div class="mb-24">
       <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
-        {t('integrations.hub.channels.title').replace('{appName}', app.name)}
+        Ways to Use {app.name}
       </h2>
-      <div class="grid md:grid-cols-3 gap-8">
+      <div class="grid md:grid-cols-3 gap-6">
         {actionsList.map((action: any) => (
           <a 
             href={`/${currentLang}/integrations/${app.slug}/${action.slug}/`}
-            class="block bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group"
+            class="block bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-6 group border border-gray-100 hover:border-blue-200"
           >
-            <div class="p-8">
-              <div class="text-5xl mb-4">{action.icon}</div>
-              <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition">
-                {app.name} + {action.name}
-              </h3>
-              <p class="text-gray-600 mb-4">{action.description}</p>
-              <ul class="space-y-2 mb-6">
-                {action.benefits.map((benefit: string) => (
-                  <li class="text-sm text-gray-600 flex items-start">
-                    <span class="text-green-500 mr-2">✓</span>
-                    <span>{benefit}</span>
-                  </li>
-                ))}
-              </ul>
-              <div class="text-blue-600 font-medium group-hover:underline">
-                {t('integrations.hub.channels.learnMore')} →
-              </div>
+            <div class="flex items-center gap-4 mb-3">
+              <!-- App Icon -->
+              <img src={app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png'} alt={app.name} class="w-12 h-12 rounded-lg" />
+              
+              <!-- Plus sign -->
+              <span class="text-2xl text-gray-300 font-light">+</span>
+              
+              <!-- Action Logo -->
+              <img src={action.logo} alt={action.name} class="w-12 h-12" />
             </div>
+            <h3 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition mb-2">
+              {app.name} + {action.name}
+            </h3>
+            <p class="text-gray-600 text-sm">{action.description}</p>
           </a>
         ))}
       </div>
     </div>
 
+    <!-- Bento Grid Section -->
+    <div class="mb-24">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-center">
+        Why Agentic Send?
+      </h2>
+      <p class="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
+        Transform your {app.name} workflows into intelligent messaging with zero complexity
+      </p>
+      <BentoGrid 
+        lang={currentLang}
+        translations={translations}
+        actionType="sms"
+        client:load
+      />
+    </div>
+
+    <!-- How It Works Section -->
+    <div class="mb-24">
+      <HowItWorks 
+        lang={currentLang}
+        translations={translations}
+        appName={app.name}
+        client:load
+      />
+    </div>
+
     <!-- Use Cases -->
-    <div class="mb-16">
+    <div class="mb-24">
       <h2 class="text-3xl font-bold text-gray-900 mb-8">
-        {t('integrations.hub.useCases.title').replace('{appName}', app.name)}
+        {t('integrations.hub.useCases.title').replaceAll('{appName}', app.name)}
       </h2>
       <div class="grid md:grid-cols-3 gap-6">
         {app.useCases.map((useCase: string) => (
@@ -224,39 +282,10 @@ const actionsList = (actionsData as any).actions;
       </div>
     </div>
 
-    <!-- How It Works -->
-    <div class="mb-16">
-      <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">
-        {t('integrations.hub.howItWorks.title')}
-      </h2>
-      <div class="grid md:grid-cols-4 gap-8">
-        <div class="text-center">
-          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">1</div>
-          <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.hub.step1.title')}</h3>
-          <p class="text-sm text-gray-600">{t('integrations.hub.step1.description').replace('{appName}', app.name)}</p>
-        </div>
-        <div class="text-center">
-          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">2</div>
-          <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.hub.step2.title')}</h3>
-          <p class="text-sm text-gray-600">{t('integrations.hub.step2.description')}</p>
-        </div>
-        <div class="text-center">
-          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">3</div>
-          <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.hub.step3.title')}</h3>
-          <p class="text-sm text-gray-600">{t('integrations.hub.step3.description')}</p>
-        </div>
-        <div class="text-center">
-          <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-blue-600">4</div>
-          <h3 class="font-semibold text-gray-900 mb-2">{t('integrations.hub.step4.title')}</h3>
-          <p class="text-sm text-gray-600">{t('integrations.hub.step4.description')}</p>
-        </div>
-      </div>
-    </div>
-
     <!-- Example Triggers -->
-    <div class="mb-16 bg-gray-50 rounded-2xl p-8">
+    <div class="mb-24 bg-gray-50 rounded-2xl p-8">
       <h2 class="text-2xl font-bold text-gray-900 mb-4">
-        {t('integrations.hub.triggers.title').replace('{appName}', app.name)}
+        {t('integrations.hub.triggers.title').replaceAll('{appName}', app.name)}
       </h2>
       <div class="flex flex-wrap gap-3">
         {app.triggerExamples.map((trigger: string) => (
@@ -268,29 +297,32 @@ const actionsList = (actionsData as any).actions;
     </div>
 
     <!-- CTA Section -->
-    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-12 text-center text-white">
-      <h2 class="text-3xl font-bold mb-4">
-        {t('integrations.hub.finalCta.title').replace('{appName}', app.name)}
+    <div class="bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-600 rounded-3xl p-12 md:p-16 text-white shadow-2xl text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">
+        {t('integrations.hub.finalCta.title').replaceAll('{appName}', app.name)}
       </h2>
       <p class="text-xl mb-8 opacity-90">
         {t('integrations.hub.finalCta.description')}
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a 
-          href="https://zapier.com/apps/seasaltai/integrations"
-          class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-gray-50 transition"
+          href={`https://zapier.com/apps/${app.slug}/integrations/seasaltai`}
+          class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-full text-blue-600 bg-white hover:bg-gray-50 transition shadow-lg hover:shadow-xl transform hover:scale-105"
           target="_blank"
           rel="noopener noreferrer"
         >
           {t('integrations.hub.finalCta.zapier')}
         </a>
         <a 
-          href={`/${currentLang}/contact`}
-          class="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-blue-600 transition"
+          href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+          class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold rounded-full text-white hover:bg-white hover:text-blue-600 transition border-2 border-white"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {t('integrations.hub.finalCta.contact')}
         </a>
       </div>
+    </div>
     </div>
   </div>
 </Layout>

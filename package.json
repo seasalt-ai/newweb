@@ -35,5 +35,8 @@
     "react-icons": "^5.5.0",
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@astrojs/netlify": "^6.6.3"
   }
 }

@@ -33,8 +33,8 @@ from threading import Lock
 load_dotenv()
 
 # Configuration
-INPUT_FILE = "../data/zapier-apps.json"
-OUTPUT_DIR = "../data/app_images"
+INPUT_FILE = Path(__file__).parent.parent / "data" / "zapier-apps.json"
+OUTPUT_DIR = Path(__file__).parent.parent / "data" / "app_images"
 MAX_WORKERS = 10  # Number of parallel download threads
 
 # Request headers
@@ -128,7 +128,7 @@ def load_apps() -> list:
     Returns:
         list: List of app dictionaries
     """
-    if not os.path.exists(INPUT_FILE):
+    if not INPUT_FILE.exists():
         print(f"Error: Input file not found: {INPUT_FILE}")
         sys.exit(1)
     
@@ -138,7 +138,7 @@ def load_apps() -> list:
     return data.get("apps", [])
 
 
-def download_app_image(app: dict, output_dir: str, stats: dict, stats_lock: Lock, index: int, total: int) -> tuple:
+def download_app_image(app: dict, output_dir: Path, stats: dict, stats_lock: Lock, index: int, total: int) -> tuple:
     """
     Download image for a single app.
     
@@ -166,10 +166,19 @@ def download_app_image(app: dict, output_dir: str, stats: dict, stats_lock: Lock
     safe_title = sanitize_filename(app_title)
     file_ext = get_file_extension(image_url)
     filename = f"{safe_title}{file_ext}"
-    output_path = os.path.join(output_dir, filename)
+    output_path = output_dir / filename
     
-    # Skip if already downloaded
-    if os.path.exists(output_path):
+    # Check if image already exists with any common extension
+    common_extensions = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp']
+    for ext in common_extensions:
+        check_path = output_dir / f"{safe_title}{ext}"
+        if check_path.exists():
+            with stats_lock:
+                stats["skipped"] += 1
+            return ("skipped", f"[{index}/{total}] {app_title} - Already exists ({ext})")
+    
+    # Skip if exact file already downloaded
+    if output_path.exists():
         with stats_lock:
             stats["skipped"] += 1
         return ("skipped", f"[{index}/{total}] {app_title} - Already exists")
@@ -196,7 +205,7 @@ def main():
     print()
     
     # Create output directory
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     print(f"Output directory: {OUTPUT_DIR}")
     print(f"Max parallel workers: {MAX_WORKERS}")
     print()

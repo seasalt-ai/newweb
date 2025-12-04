@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# Note: HTTP headers are configured in public/_headers
+# This file is read by both Netlify and Cloudflare Pages
+# to maintain a single source of truth for header configuration
