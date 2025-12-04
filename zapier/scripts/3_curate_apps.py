@@ -131,16 +131,22 @@ def has_manual_triggers(app: Dict) -> bool:
     action_types = app.get("action_types", [])
     return "READ" in action_types or "SEARCH" in action_types
 
-def generate_slug(app_name: str) -> str:
+def generate_slug(app_name: str, existing_slug: str = None) -> str:
     """
-    Generate URL-friendly slug from app name.
+    Generate URL-friendly slug from app name, or use existing slug if available.
     
     Args:
         app_name: App name
+        existing_slug: Existing slug from API (if available)
         
     Returns:
         str: URL slug
     """
+    # If we have an existing slug from the API (v1), use it
+    if existing_slug:
+        return existing_slug
+    
+    # Otherwise, generate from app name (fallback for v2 or missing slugs)
     return app_name.lower().replace(" ", "-").replace(".", "").replace("'", "")
 
 def sanitize_filename(title: str) -> str:
@@ -169,6 +175,8 @@ def get_image_path(app_name: str, image_url: str = None) -> str:
     """
     Get relative path to app image file.
     
+    Searches for the actual downloaded image file with any common extension.
+    
     Args:
         app_name: App name
         image_url: Original image URL (to determine extension)
@@ -178,8 +186,8 @@ def get_image_path(app_name: str, image_url: str = None) -> str:
     """
     safe_name = sanitize_filename(app_name)
     
-    # Try to find the file with common extensions
-    extensions = ['.png', '.jpg', '.jpeg', '.gif', '.svg']
+    # Try to find the file with common extensions (order by most common first)
+    extensions = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.ico', '.webp']
     
     # If we have the URL, try to get the extension from it
     if image_url:
@@ -189,14 +197,15 @@ def get_image_path(app_name: str, image_url: str = None) -> str:
         if ext.lower() in extensions:
             extensions.insert(0, ext.lower())  # Try this extension first
     
-    # Check which file exists
+    # Check which file exists in the data directory
     for ext in extensions:
         filepath = IMAGE_DIR / f"{safe_name}{ext}"
         if filepath.exists():
             # Return relative path from curated-apps.json location
             return f"./app_images/{safe_name}{ext}"
     
-    # If no file found, return expected path with .png
+    # If no file found, log warning and return expected path with .png
+    print(f"  Warning: Image not found for '{app_name}' (tried {safe_name}.[png|jpg|jpeg|...])")
     return f"./app_images/{safe_name}.png"
 
 def create_curated_app(app: Dict) -> Dict:
@@ -214,6 +223,9 @@ def create_curated_app(app: Dict) -> Dict:
     categories = app.get("categories", [])
     primary_category = categories[0].get("slug", "other") if categories else "other"
     
+    # Get existing slug from API (v1 uses "slug", v2 might not have it)
+    existing_slug = app.get("slug")
+    
     # Generate use cases based on category
     use_cases = generate_use_cases(name, primary_category)
     trigger_examples = generate_trigger_examples(name, primary_category)
@@ -224,7 +236,7 @@ def create_curated_app(app: Dict) -> Dict:
     
     return {
         "name": name,
-        "slug": generate_slug(name),
+        "slug": generate_slug(name, existing_slug),
         "category": primary_category.replace("-", " ").title(),
         "description": description[:200],  # Truncate long descriptions
         "useCases": use_cases,
@@ -232,7 +244,7 @@ def create_curated_app(app: Dict) -> Dict:
         "images": app.get("images", {}),
         "image": local_image_path,  # Add local image path
         "hex_color": app.get("hex_color", "000000"),
-        "api_id": app.get("id"),
+        "api_id": app.get("uuid") or app.get("id"),  # v1 uses "uuid", v2 uses "id"
         "relevance_score": calculate_relevance_score(app)
     }
 

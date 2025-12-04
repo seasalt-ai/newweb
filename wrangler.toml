@@ -1,0 +1,9 @@
+# Cloudflare Pages configuration
+# For Pages projects, most settings are configured in the Cloudflare dashboard
+# This minimal config is for Wrangler CLI deployments
+
+name = "seasalt-ai-website"
+compatibility_date = "2024-01-01"
+
+# Required: Specify the output directory for Pages
+pages_build_output_dir = "dist"
