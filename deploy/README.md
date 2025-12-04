@@ -5,7 +5,11 @@ This directory contains the deployment scripts for the Seasalt.ai website.
 Quick commands:
 
    npm run build
-   ./deploy/deploy-netlify.sh --skip-build --prod
+   ./deploy/deploy-netlify.sh --skip-build --prod # Works
+   ./deploy/deploy-cloudflare.sh --skip-build --prod # Works
+
+   # not working: ./deploy/deploy-cloudflare.sh --skip-build --prod
+   # but ./deploy/deploy-cloudflare.sh --prod should work
 
 CANNOT build with automatic runners for github:  Uploaded artifact size of 1542881534 bytes exceeds the allowed size of 1 GB. Deployment might fail. 
 
@@ -40,6 +44,17 @@ CANNOT build with Netlify's default runner:
    3:29:04 PM: Execution timed out after 18m0.086512608s
    3:29:04 PM: Failing build: Failed to build site
    3:29:08 PM: Finished processing build request in 18m32.983s
+
+   Need to manually request build time limit increase on the forum
+
+For  ./deploy/deploy-cloudflare.sh --skip-build --prod:
+
+The logic for handling the --skip-build flag is not implemented correctly for either production or preview deployments. The script calls vercel --yes or vercel --prod --yes regardless of the flag, which always triggers a remote build on Vercel's servers and ignores the local dist/ folder.
+
+To deploy a pre-built site to Vercel, you must use the --prebuilt flag. This is more complex as it requires the content to be in a specific .vercel/output directory structure.
+
+As it stands, the --skip-build flag is misleading and non-functional. I recommend either fully implementing the --prebuilt logic or removing the --skip-build option from this script to avoid confusion.
+
 
 
 ## Overview
@@ -815,7 +830,7 @@ Each platform uses specific configuration files in the project root:
 - **`netlify.toml`** - Netlify configuration (build, redirects, headers, plugins)
 - **`wrangler.toml`** - Cloudflare Pages configuration (minimal - most config in dashboard)
 - **`public/_headers`** - HTTP headers (used by Netlify & Cloudflare Pages)
-- **`public/_redirects`** - Redirect rules (used by all platforms)
+- **`public/_redirects`** - Redirect rules (used by Netlify & Cloudflare Pages, Vercel uses the redirects key within vercel.json for handling redirects and does not use the _redirects file by default.)
 
 These files are pre-configured with:
 - ✅ Security headers (X-Frame-Options, X-XSS-Protection, CSP, etc.)

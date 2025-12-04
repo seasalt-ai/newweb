@@ -4,17 +4,45 @@ set -euo pipefail
 # Vercel Deployment Script for Seasalt AI Website
 # This script deploys the website to Vercel
 #
+# ⚠️  IMPORTANT WARNING ABOUT --skip-build FLAG:
+# ================================================
+# The --skip-build flag in this script is MISLEADING and does NOT work as expected!
+# 
+# Current behavior with --skip-build:
+#   ✓ Skips local "npm run build" 
+#   ✗ Vercel STILL BUILDS on their servers (reads vercel.json buildCommand)
+#   ✗ Your local dist/ folder is IGNORED
+#
+# Why this happens:
+#   - Vercel deploys from project root (not just dist/)
+#   - Vercel reads vercel.json which specifies buildCommand: "npm run build"
+#   - Vercel always builds unless you use --prebuilt flag with .vercel/output structure
+#
+# To truly deploy pre-built files without any build:
+#   - Use Netlify: ./deploy/deploy-netlify.sh --skip-build --prod
+#   - Use Cloudflare: ./deploy/deploy-cloudflare.sh --skip-build --prod
+#
+# Implementing --prebuilt for Vercel requires:
+#   1. Creating .vercel/output/ directory structure
+#   2. Moving dist/ contents to .vercel/output/static/
+#   3. Creating .vercel/output/config.json with routing rules
+#   This is complex and not currently implemented.
+#
+# RECOMMENDATION: Don't use --skip-build with Vercel. Let Vercel build from source.
+# ================================================
+#
 # Prerequisites:
 # 1. Install Vercel CLI: npm install -g vercel
 # 2. Login to Vercel: vercel login
 # 3. Link project: vercel link (run once in project root)
 #
 # Usage:
-#   ./deploy/deploy-vercel.sh [--prod|--preview]
+#   ./deploy/deploy-vercel.sh [--prod|--preview] [--skip-build]
 #
 # Options:
 #   --prod      Deploy to production
 #   --preview   Deploy to preview (default)
+#   --skip-build    Skip local build (WARNING: Vercel will still build on their servers!)
 
 source "$(dirname "$0")/deploy-utils.sh"
 
@@ -122,12 +150,24 @@ main() {
   
   # Build the site or check for existing build
   if [ "$SKIP_BUILD" = true ]; then
-    print_info "Skipping build, using existing dist/ folder..."
+    print_info "⚠️  WARNING: --skip-build flag is enabled"
+    echo ""
+    echo "⚠️  IMPORTANT: Vercel will still BUILD on their servers!"
+    echo "   - Your local dist/ folder will be IGNORED"
+    echo "   - Vercel reads vercel.json and runs: npm run build"
+    echo "   - This only skips the LOCAL build, not the remote build"
+    echo ""
+    echo "   To truly skip builds, use Netlify or Cloudflare Pages instead."
+    echo "   Press Ctrl+C to cancel, or wait 5 seconds to continue..."
+    echo ""
+    sleep 5
+    
+    print_info "Skipping local build (but Vercel will still build remotely)..."
     if [ ! -d "dist" ]; then
-      print_error "dist/ folder not found. Please run 'npm run build' first or remove --skip-build flag."
-      exit 1
+      print_info "Note: dist/ folder not found locally, but Vercel will create it during remote build."
+    else
+      print_info "Note: Local dist/ folder found but will be ignored by Vercel."
     fi
-    print_success "Found existing dist/ folder"
   else
     print_info "Building the website..."
     if ! npm run build; then
@@ -139,6 +179,10 @@ main() {
   
   # Deploy to Vercel
   print_info "Deploying to Vercel (${DEPLOYMENT_TYPE})..."
+  
+  if [ "$SKIP_BUILD" = true ]; then
+    print_info "⚠️  Note: Vercel will run 'npm run build' on their servers despite --skip-build flag"
+  fi
   
   if [ "$DEPLOYMENT_TYPE" = "production" ]; then
     print_info "⚠️  Deploying to PRODUCTION..."

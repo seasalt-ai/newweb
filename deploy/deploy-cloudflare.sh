@@ -130,6 +130,10 @@ main() {
   check_wrangler_cli
   check_wrangler_auth
   
+  # Check for clean working tree to ensure reproducibility
+  print_info "Checking Git working tree..."
+  check_clean_working_tree
+  
   # Build the site or check for existing build
   if [ "$SKIP_BUILD" = true ]; then
     print_info "Skipping build, using existing dist/ folder..."
@@ -154,7 +158,7 @@ main() {
   
   if [ "$DEPLOYMENT_TYPE" = "production" ]; then
     print_info "⚠️  Deploying to PRODUCTION..."
-    if wrangler pages deploy dist --project-name="$PROJECT_NAME" --branch="$BRANCH_NAME" --commit-dirty=true; then
+    if wrangler pages deploy dist --project-name="$PROJECT_NAME" --branch="$BRANCH_NAME"; then
       print_success "Deployment to production successful!"
       echo ""
       print_info "Your site will be live at: https://${PROJECT_NAME}.pages.dev"
@@ -168,7 +172,7 @@ main() {
   else
     print_info "Deploying to preview environment..."
     PREVIEW_BRANCH="preview-$(date +%s)"
-    if wrangler pages deploy dist --project-name="$PROJECT_NAME" --branch="$PREVIEW_BRANCH" --commit-dirty=true; then
+    if wrangler pages deploy dist --project-name="$PROJECT_NAME" --branch="$PREVIEW_BRANCH"; then
       print_success "Preview deployment successful!"
       echo ""
       print_info "Preview URL: https://${PREVIEW_BRANCH}.${PROJECT_NAME}.pages.dev"
