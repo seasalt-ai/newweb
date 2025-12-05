@@ -402,6 +402,7 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
         <!-- Integrations Dropdown (Mega Menu) -->
         <div class="relative">
           <a
+            id="integrations-trigger"
             href={`/${lang}/integrations/`}
             class="flex items-center text-gray-700 hover:text-blue-600 transition-colors duration-200 dropdown-trigger"
             data-dropdown="integrations"
@@ -412,66 +413,15 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
             </svg>
           </a>
           
-          <!-- Full-width Mega Menu -->
+          <!-- Lightweight Mega Menu Container -->
           <div 
-            class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[95vw] max-w-7xl bg-white rounded-lg shadow-2xl border border-gray-200 z-50 hidden dropdown-menu"
-            data-dropdown-menu="integrations"
+            id="integrations-mega-menu"
+            class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[95vw] max-w-7xl bg-white rounded-lg shadow-2xl border border-gray-200 z-50 hidden"
           >
             <div class="p-6 max-h-[85vh] overflow-y-auto">
-              <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-                {sortedCategories.map((category: string) => (
-                  <div class="space-y-2">
-                    <!-- Category Header -->
-                    <div class="font-semibold text-sm text-gray-900 uppercase tracking-wide border-b-2 border-blue-500 pb-2 mb-3">
-                      {category}
-                      <span class="text-xs text-gray-500 ml-1">({appsByCategory[category].length})</span>
-                    </div>
-                    
-                    <!-- Apps in this category -->
-                    <div class="space-y-1">
-                      {appsByCategory[category].map((app: any, appIndex: number) => {
-                        const isNearBottom = appIndex >= appsByCategory[category].length - 2;
-                        return (
-                        <div class="group/app relative">
-                          <!-- App name with hover for actions -->
-                          <div class="flex items-center gap-2 px-2 py-1.5 rounded hover:bg-blue-50 cursor-pointer text-sm">
-                            <img src={app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png'} alt={app.name} class="w-4 h-4 rounded flex-shrink-0" />
-                            <span class="text-gray-700 group-hover/app:text-blue-600 truncate">{app.name}</span>
-                          </div>
-                          
-                          <!-- Actions popup on hover - appears below, or above if near bottom -->
-                          <div class={`absolute left-0 ${isNearBottom ? 'bottom-full mb-1' : 'top-full mt-1'} w-72 bg-white rounded-lg shadow-xl border-2 border-blue-500 hidden group-hover/app:block z-50`}>
-                            <div class="py-1">
-                              <!-- Hub page link -->
-                              <a
-                                href={`/${lang}/integrations/${app.slug}/`}
-                                class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 font-medium border-b border-gray-200"
-                              >
-                                <span class="text-lg">🏠</span>
-                                <span>All {app.name} Integrations</span>
-                              </a>
-                              
-                              <!-- Action links -->
-                              {actionsJson.actions.map((action: any) => (
-                                <a
-                                  href={`/${lang}/integrations/${app.slug}/${action.slug}/`}
-                                  class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-blue-50"
-                                >
-                                  <span class="text-lg">{action.icon}</span>
-                                  <span>{app.name} + {action.name}</span>
-                                </a>
-                              ))}
-                            </div>
-                          </div>
-                        </div>
-                      );
-                      })}
-                    </div>
-                  </div>
-                ))}
+              <div id="integrations-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                <!-- Content will be injected by JavaScript on hover -->
               </div>
-              
-              <!-- Footer hint -->
               <div class="mt-6 pt-4 border-t border-gray-200 text-center">
                 <p class="text-xs text-gray-500">Hover over any app to see available actions (SMS, WhatsApp, Phone Call)</p>
               </div>
@@ -829,4 +779,101 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
       });
     });
   });
+</script>
+
+<!-- Lazy-load integrations menu from external JSON -->
+<script is:inline define:vars={{ currentLang: lang, actionsData: actionsJson.actions }}>
+  (function() {
+    const trigger = document.getElementById('integrations-trigger');
+    const menu = document.getElementById('integrations-mega-menu');
+    const grid = document.getElementById('integrations-grid');
+    let isLoaded = false;
+    let isRendered = false;
+    let appsData = null;
+
+    async function loadIntegrationsData() {
+      if (isLoaded) return;
+      
+      try {
+        const response = await fetch('/curated-apps.json');
+        const data = await response.json();
+        appsData = data.apps;
+        isLoaded = true;
+      } catch (error) {
+        console.error('Failed to load integrations:', error);
+        grid.innerHTML = '<div class="col-span-full text-center text-gray-500 py-8">Failed to load integrations</div>';
+      }
+    }
+
+    function renderIntegrationsMenu() {
+      if (isRendered || !appsData) return;
+
+      // Group apps by category
+      const appsByCategory = {};
+      appsData.forEach(app => {
+        const category = app.category || 'Other';
+        if (!appsByCategory[category]) {
+          appsByCategory[category] = [];
+        }
+        appsByCategory[category].push(app);
+      });
+
+      const categories = Object.keys(appsByCategory).sort();
+      const html = categories.map(category => {
+        const apps = appsByCategory[category];
+        return `
+          <div class="space-y-2">
+            <div class="font-semibold text-sm text-gray-900 uppercase tracking-wide border-b-2 border-blue-500 pb-2 mb-3">
+              ${category}
+              <span class="text-xs text-gray-500 ml-1">(${apps.length})</span>
+            </div>
+            <div class="space-y-1">
+              ${apps.map((app, appIndex) => {
+                const isNearBottom = appIndex >= apps.length - 2;
+                const imgSrc = app.image ? app.image.replace('./app_images/', '/app_images/') : '/seasalt-ai-icon.png';
+                return `
+                  <div class="group/app relative">
+                    <div class="flex items-center gap-2 px-2 py-1.5 rounded hover:bg-blue-50 cursor-pointer text-sm">
+                      <img src="${imgSrc}" alt="${app.name}" class="w-4 h-4 rounded flex-shrink-0" loading="lazy">
+                      <span class="text-gray-700 group-hover/app:text-blue-600 truncate">${app.name}</span>
+                    </div>
+                    <div class="absolute left-0 ${isNearBottom ? 'bottom-full mb-1' : 'top-full mt-1'} w-72 bg-white rounded-lg shadow-xl border-2 border-blue-500 hidden group-hover/app:block z-50">
+                      <div class="py-1">
+                        <a href="/${currentLang}/integrations/${app.slug}/" class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 font-medium border-b border-gray-200">
+                          <span class="text-lg">🏠</span>
+                          <span>All ${app.name} Integrations</span>
+                        </a>
+                        ${actionsData.map(action => `
+                          <a href="/${currentLang}/integrations/${app.slug}/${action.slug}/" class="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 hover:bg-blue-50">
+                            <span class="text-lg">${action.icon}</span>
+                            <span>${app.name} + ${action.name}</span>
+                          </a>
+                        `).join('')}
+                      </div>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      grid.innerHTML = html;
+      isRendered = true;
+    }
+
+    trigger?.addEventListener('mouseenter', async () => {
+      if (!isLoaded) {
+        grid.innerHTML = '<div class="col-span-full text-center text-gray-500 py-8">Loading integrations...</div>';
+        await loadIntegrationsData();
+      }
+      renderIntegrationsMenu();
+      menu?.classList.remove('hidden');
+    });
+
+    menu?.addEventListener('mouseleave', () => {
+      menu?.classList.add('hidden');
+    });
+  })();
 </script>
