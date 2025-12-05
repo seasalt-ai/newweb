@@ -4,7 +4,6 @@ import { getTranslationHelpers } from '../../../i18n/helpers';
 import type { VersionConfig } from '../config';
 import ProductLogoDropdown from '../shared/ProductLogoDropdown.astro';
 import PhoneBanner from '../shared/PhoneBanner.astro';
-import curatedAppsData from '../../../../zapier/data/curated-apps.json';
 import actionsData from '../../../../zapier/data/actions.json';
 
 // Header component props
@@ -18,38 +17,7 @@ const { currentPath = '/', lang = 'en', versionConfig } = Astro.props;
 const { t } = await getTranslationHelpers(lang);
 
 // Load integration data
-const curatedApps = curatedAppsData as { apps: any[] };
 const actionsJson = actionsData as { actions: any[] };
-
-// Group apps by category
-const appsByCategory = curatedApps.apps.reduce((acc: any, app: any) => {
-  if (!acc[app.category]) {
-    acc[app.category] = [];
-  }
-  acc[app.category].push(app);
-  return acc;
-}, {});
-
-// Define priority order for categories (categories not in this list will appear after, alphabetically)
-const priorityCategories = [
-  'Ads Conversion',
-  'Calendar',
-  'Forms',
-  'Spreadsheets',
-  'Crm',
-  'Contacts',
-  'Ecommerce',
-  'Project Management',
-  'Scheduling'
-];
-
-// Sort categories: priority first, then alphabetical
-const allCategories = Object.keys(appsByCategory);
-const prioritizedCategories = priorityCategories.filter(cat => allCategories.includes(cat));
-const remainingCategories = allCategories
-  .filter(cat => !priorityCategories.includes(cat))
-  .sort();
-const sortedCategories = [...prioritizedCategories, ...remainingCategories];
 
 // Navigation data using translations
 const solutions = [
