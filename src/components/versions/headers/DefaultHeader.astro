@@ -871,14 +871,17 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
       isRendered = true;
     }
 
-    trigger?.addEventListener('mouseenter', async () => {
+    const handleTrigger = async () => {
       if (!isLoaded) {
         grid.innerHTML = '<div class="col-span-full text-center text-gray-500 py-8">Loading integrations...</div>';
         await loadIntegrationsData();
       }
       renderIntegrationsMenu();
       menu?.classList.remove('hidden');
-    });
+    };
+
+    trigger?.addEventListener('mouseenter', handleTrigger);
+    trigger?.addEventListener('focus', handleTrigger);
 
 
   })();
