@@ -2,6 +2,24 @@
 
 This directory contains the deployment scripts for the Seasalt.ai website.
 
+Final verdict: after slimming down the files, I was able to deploy to both Cloudflare pages (about 11K files) and github pages.
+
+I'll set it up for Github pages for now.
+
+For namecheap DNS setup:
+
+For CloudFlare Pages: 
+
+   CNAME @ seasalt-ai-website.pages.dev
+   CNAME www seasalt-ai-website.pages.dev
+
+For Github Pages:
+   CNAME www seasalt-ai.github.io
+   A Record @ 185.199.108.153
+   A Record @ 185.199.109.153
+   A Record @ 185.199.110.153
+   A Record @ 185.199.111.153
+
 Quick commands:
 
    npm run build

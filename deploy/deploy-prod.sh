@@ -24,6 +24,7 @@ set -euo pipefail
 # - SSH key with push access to seasalt-ai/seasalt-ai.github.io repo
 # - Node.js and npm installed for building the project
 # - Must be on 'main' branch with clean working tree
+# - If using --skip-build, ensure dist/ directory exists and is populated
 
 # Get the directory where this script is located
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -39,6 +40,23 @@ PROD_REPO_DIR="$HOME/.deployment-cache/$PROD_REPO_NAME"  # Local cache location 
 PROD_BRANCH="master"                                     # Production branch (GitHub Pages default)
 BACKUP_TAG_PREFIX="prod-backup"                          # Prefix for backup tags
 REQUIRED_BRANCH="main"                                   # Must deploy from this branch
+
+# Parse command line arguments
+SKIP_BUILD=false
+for arg in "$@"; do
+  case $arg in
+    --skip-build)
+      SKIP_BUILD=true
+      shift
+      ;;
+    *)
+      # Unknown option
+      echo "Unknown option: $arg" >&2
+      echo "Usage: $0 [--skip-build]" >&2
+      exit 1
+      ;;
+  esac
+done
 
 # Main deployment process
 main() {
@@ -59,14 +77,29 @@ main() {
     echo ""
     confirm_action "Are you SURE you want to deploy to PRODUCTION?"
     
-    # Build the project
-    build_project
-    
-    # Run SEO updates (generate sitemap and robots.txt)
-    print_info "Updating SEO files (sitemap and robots.txt)..."
-    npm run seo-update || print_warning "SEO update failed, continuing anyway"
-    
-    verify_build_dir "$BUILD_DIR"
+    # Build the project unless --skip-build was specified
+    if [[ "$SKIP_BUILD" == "true" ]]; then
+        print_info "Skipping build step (--skip-build flag specified)"
+        print_info "Verifying that build directory exists: $BUILD_DIR"
+        if [[ ! -d "$BUILD_DIR" ]]; then
+            print_error "Build directory does not exist: $BUILD_DIR"
+            print_error "Please ensure the dist/ directory exists and is populated before using --skip-build"
+            exit 1
+        fi
+        verify_build_dir "$BUILD_DIR"
+    else
+        build_project
+
+        verify_build_dir "$BUILD_DIR"
+    fi
+
+    # Run SEO updates (generate sitemap and robots.txt) unless --skip-build was specified
+    if [[ "$SKIP_BUILD" != "true" ]]; then
+        print_info "Updating SEO files (sitemap and robots.txt)..."
+        npm run seo-update || print_warning "SEO update failed, continuing anyway"
+    else
+        print_info "Skipping SEO update (use pre-built files in dist/)"
+    fi
     
     # Show build info
     get_build_info "$BUILD_DIR"
