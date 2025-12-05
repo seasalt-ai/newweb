@@ -7,7 +7,7 @@ const raw = fs.readFileSync(dataPath, 'utf8');
 const json = JSON.parse(raw);
 
 const invalid = [];
-const SAFE = /^[a-z0-9\-()+.&]+$/; // allow dashes and a few punctuation seen in data (no slashes, no spaces)
+const SAFE = /^[a-zA-Z0-9\-()+.&]+$/; // allow dashes and a few punctuation seen in data (no slashes, no spaces)
 for (const app of json.apps || []) {
   const slug = String(app.slug || '');
   if (!SAFE.test(slug)) {

@@ -154,9 +154,12 @@ const totalCategories = sortedCategories.length;
                         class="w-12 h-12 object-contain flex-shrink-0"
                       />
                       <div class="flex-1 min-w-0">
-                        <div class="font-semibold text-gray-900 text-sm truncate">
+                        <a 
+                          href={`/${currentLang}/integrations/${app.slug}/`}
+                          class="font-semibold text-gray-900 text-sm truncate hover:text-blue-600 hover:underline transition-colors block"
+                        >
                           {app.name}
-                        </div>
+                        </a>
                         <div class="text-xs text-gray-500 truncate">
                           {app.category}
                         </div>
