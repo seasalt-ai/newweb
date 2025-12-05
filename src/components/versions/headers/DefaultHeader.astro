@@ -416,7 +416,8 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
           <!-- Lightweight Mega Menu Container -->
           <div 
             id="integrations-mega-menu"
-            class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[95vw] max-w-7xl bg-white rounded-lg shadow-2xl border border-gray-200 z-50 hidden"
+            class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[95vw] max-w-7xl bg-white rounded-lg shadow-2xl border border-gray-200 z-50 hidden dropdown-menu"
+            data-dropdown-menu="integrations"
           >
             <div class="p-6 max-h-[85vh] overflow-y-auto">
               <div id="integrations-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
@@ -818,7 +819,14 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
         appsByCategory[category].push(app);
       });
 
-      const categories = Object.keys(appsByCategory).sort();
+      const priorityCategories = [
+        'Ads Conversion', 'Calendar', 'Forms', 'Spreadsheets', 'Crm', 
+        'Contacts', 'Ecommerce', 'Project Management', 'Scheduling'
+      ];
+      const allCategories = Object.keys(appsByCategory);
+      const prioritized = priorityCategories.filter(cat => allCategories.includes(cat));
+      const remaining = allCategories.filter(cat => !priorityCategories.includes(cat)).sort();
+      const categories = [...prioritized, ...remaining];
       const html = categories.map(category => {
         const apps = appsByCategory[category];
         return `
@@ -872,8 +880,6 @@ const logoSrc = versionConfig?.logo || '/seasalt-ai-logo.png';
       menu?.classList.remove('hidden');
     });
 
-    menu?.addEventListener('mouseleave', () => {
-      menu?.classList.add('hidden');
-    });
+
   })();
 </script>
