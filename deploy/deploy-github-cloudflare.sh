@@ -49,8 +49,8 @@ main() {
     if "$SCRIPT_DIR/deploy-github-prod.sh" --skip-build --accept-yes; then
         print_success "GitHub Pages deployment completed"
     else
-        print_error "GitHub Pages deployment failed!"
-        print_warning "Continuing with Cloudflare deployment anyway..."
+        print_error "GitHub Pages deployment failed! Aborting dual deployment."
+        exit 1
     fi
     
     echo ""
