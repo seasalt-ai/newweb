@@ -103,7 +103,7 @@ const totalCategories = sortedCategories.length;
   </section>
 
   <!-- Video Section -->
-  <section class="video-section">
+  <section class="video-section agentic-send-section">
     <div class="container-agentic">
       <span class="section-label">See It In Action</span>
       <h2 class="section-title">Watch How It Works</h2>
@@ -114,15 +114,15 @@ const totalCategories = sortedCategories.length;
   </section>
 
   <!-- Hero Section: The End of the Multi-Step Zap -->
-  <section class="hero-agentic">
+  <section class="hero-agentic agentic-send-section">
     <div class="container-agentic">
       <div class="hero-content-agentic">
         <div class="hero-diagram">
-          <img src="/agentic-send-images/5-step-to-agentic-node.jpg" alt="Fragile 5-Step Maze to Agentic Node comparison" />
+          <img src="/agentic-send-images/5-step-to-agentic-node.jpg" alt="Fragile 5-Step Maze to Agentic Node comparison" loading="lazy"/>
         </div>
 
         <div class="hero-text">
-          <h1>The End of the Multi-Step Zap</h1>
+          <h2>The End of the Multi-Step Zap</h2>
           <p>Replace brittle 5-Step workflows with One Intelligent Action. Connect Google Calendar, Forms, or 8,000+ apps to SMS instantly.</p>
           <div class="cta-group">
             <a href="https://seax.seasalt.ai/signup" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Try Agentic Send on Seasalt.ai</a>
@@ -133,7 +133,7 @@ const totalCategories = sortedCategories.length;
   </section>
 
   <!-- Reality Check Section -->
-  <section class="reality-check">
+  <section class="reality-check agentic-send-section">
     <div class="container-agentic">
       <span class="section-label">Reality Check</span>
       <h2 class="section-title">Why Your Simple Reminder is Actually a Nightmare</h2>
@@ -141,7 +141,7 @@ const totalCategories = sortedCategories.length;
       <div class="comparison-grid">
         <div class="comparison-item">
           <div class="flow-diagram">
-            <img src="/agentic-send-images/brittle-error-prune-zaps.png" alt="Brittle and Error-Prone workflow diagram" />
+            <img src="/agentic-send-images/brittle-error-prune-zaps.png" alt="Brittle and Error-Prone workflow diagram" loading="lazy"/>
           </div>
         </div>
 
@@ -175,7 +175,7 @@ const totalCategories = sortedCategories.length;
   </section>
 
   <!-- Solution Section -->
-  <section class="solution">
+  <section class="solution agentic-send-section">
     <div class="container-agentic">
       <span class="section-label">The Solution</span>
       <h2 class="section-title">One Trigger. One Action. Zero Mapping.</h2>
@@ -184,32 +184,30 @@ const totalCategories = sortedCategories.length;
       </p>
 
       <div class="solution-diagram">
-        <img src="/agentic-send-images/data-flow-diagram.png" alt="Data flow: Raw JSON to AI Brain to SMS" />
+        <img src="/agentic-send-images/data-flow-diagram.png" alt="Data flow: Raw JSON to AI Brain to SMS" loading="lazy"/>
       </div>
     </div>
   </section>
 
   <!-- Interface Section -->
-  <section class="interface">
+  <section class="interface agentic-send-section">
     <div class="container-agentic">
       <span class="section-label">The Interface</span>
       
       <div class="interface-preview">
-        <img src="/agentic-send-images/agentic-send-interface.jpeg" alt="Agentic Send Interface" class="interface-screenshot" />
+        <img src="/agentic-send-images/agentic-send-interface.jpeg" alt="Agentic Send Interface" class="interface-screenshot" loading="lazy"/>
         
         <div class="interface-text">
           <h2>You Configure with Sentences, Not Clicks</h2>
-          <p>
-            You are no longer a programmer.<br/>
-            You are a strategic director.
-          </p>
+          <p>You are no longer a programmer.</p>
+          <p>You are a strategic director.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Ecosystem Section -->
-  <section class="ecosystem">
+  <section class="ecosystem agentic-send-section">
     <div class="container-agentic">
       <span class="section-label">The Ecosystem</span>
       
@@ -219,12 +217,12 @@ const totalCategories = sortedCategories.length;
           <p>One sentence. One Action. Connects seamlessly into the 8,000+ apps within that Zapier Ecosystem.</p>
           
           <div class="use-cases">
-            <img src="/agentic-send-images/3-use-cases-with-agentic-send.png" alt="Three use cases with Agentic Send" />
+            <img src="/agentic-send-images/3-use-cases-with-agentic-send.png" alt="Three use cases with Agentic Send" loading="lazy"/>
           </div>
         </div>
 
         <div class="ecosystem-diagram">
-          <img src="/agentic-send-images/agentic-send-integrations-diagram.png" alt="Agentic Send Integrations Ecosystem" />
+          <img src="/agentic-send-images/agentic-send-integrations-diagram.png" alt="Agentic Send Integrations Ecosystem" loading="lazy"/>
         </div>
       </div>
     </div>
@@ -357,7 +355,8 @@ const totalCategories = sortedCategories.length;
 
   <!-- Agentic Send Styles -->
   <style>
-    :root {
+    /* Scoped CSS variables for Agentic Send sections */
+    .agentic-send-section {
       --color-bg: #faf8f5;
       --color-text: #1a1a1a;
       --color-text-secondary: #666;
@@ -413,7 +412,7 @@ const totalCategories = sortedCategories.length;
       text-align: left;
     }
 
-    .hero-text h1 {
+    .hero-text h2 {
       font-size: 3rem;
       font-weight: 800;
       line-height: 1.2;
@@ -639,6 +638,11 @@ const totalCategories = sortedCategories.length;
       font-size: 1.1rem;
       color: var(--color-text-secondary);
       line-height: 1.7;
+      margin-bottom: 0.5rem;
+    }
+
+    .interface-text p:last-of-type {
+      margin-bottom: 0;
     }
 
     .interface-screenshot {
@@ -698,7 +702,7 @@ const totalCategories = sortedCategories.length;
 
     /* Responsive */
     @media (max-width: 768px) {
-      .hero-text h1 {
+      .hero-text h2 {
         font-size: 2.25rem;
       }
 
