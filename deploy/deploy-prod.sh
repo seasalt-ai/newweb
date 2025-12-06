@@ -196,8 +196,8 @@ EOF
     fi
     
     # Show what's being deployed
-    print_info "Changes to be deployed:"
-    git diff --cached --stat
+    # print_info "Changes to be deployed:"
+    # git diff --cached --stat
     
     # Final confirmation before push
     echo ""
