@@ -25,7 +25,7 @@ Astro uses **content-based hashing** for JavaScript files (`ApiPageComponents.2w
 - **Speed**: Fast when it works, but often detects too many changes with Astro
 - **Use case**: When you know only a few files truly changed
 
-### `deploy-prod.sh` (Full Deployment)
+### `deploy-github-prod.sh` (Full Deployment)
 - **Purpose**: Deploy ALL files to production  
 - **Speed**: Slower (deploys all ~5000 files)
 - **Use case**: Major updates, first deployment, or when you want a clean slate
@@ -59,7 +59,7 @@ Astro uses **content-based hashing** for JavaScript files (`ApiPageComponents.2w
 ./deploy/deploy-prod-incremental.sh --checksum
 
 # Force full deployment 
-./deploy/deploy-prod.sh
+./deploy/deploy-github-prod.sh
 ```
 
 ## Example: Smart Deployment Output
@@ -131,7 +131,7 @@ Choose deployment type [1/2/3]: 1
 - ✅ Regular development workflow
 - ✅ Any time you changed < 100 files
 
-### Use Full (`deploy-prod.sh`)
+### Use Full (`deploy-github-prod.sh`)
 - 🔄 Major site restructure
 - 🔄 First-time deployment
 - 🔄 Build system changes
@@ -152,7 +152,7 @@ Both deployment methods include:
 ### If incremental deployment seems wrong:
 ```bash
 # Use full deployment to reset everything
-./deploy/deploy-prod.sh
+./deploy/deploy-github-prod.sh
 ```
 
 ### If you want to see what would change without deploying:
@@ -186,7 +186,7 @@ git log --oneline -10
   
 # Fallback to full deployment
 - name: Deploy to Production (Full)
-  run: ./deploy/deploy-prod.sh
+  run: ./deploy/deploy-github-prod.sh
   if: failure()
 ```
 

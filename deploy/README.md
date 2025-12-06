@@ -121,11 +121,11 @@ This deployment system works with **two separate GitHub repositories**:
 
 ```
 deploy/
-├── deploy-dev.sh       # Deploy to DEV environment (gh-pages)
-├── deploy-prod.sh      # Deploy to Production (seasalt-ai.github.io)
-├── rollback-prod.sh    # Rollback Production to a previous version
-├── deploy-utils.sh     # Shared utility functions
-└── README.md          # This file
+├── deploy-github-dev.sh       # Deploy to DEV environment (gh-pages)
+├── deploy-github-prod.sh      # Deploy to Production (seasalt-ai.github.io)
+├── rollback-prod.sh           # Rollback Production to a previous version
+├── deploy-utils.sh            # Shared utility functions
+└── README.md                  # This file
 ```
 
 ## Prerequisites
@@ -145,7 +145,7 @@ Deploy your current branch to the DEV environment for testing:
 
 ```bash
 # Deploy current branch to DEV
-./deploy/deploy-dev.sh
+./deploy/deploy-github-dev.sh
 ```
 
 **Details:**
@@ -165,7 +165,7 @@ git checkout main
 git pull origin main
 
 # Deploy to production
-./deploy/deploy-prod.sh
+./deploy/deploy-github-prod.sh
 ```
 
 **Details:**
@@ -262,7 +262,7 @@ If something goes wrong in production, quickly rollback:
 
 2. **Test in DEV environment**
    ```bash
-   ./deploy/deploy-dev.sh
+   ./deploy/deploy-github-dev.sh
    # Check https://newweb.seasalt.ai
    ```
 
@@ -276,7 +276,7 @@ If something goes wrong in production, quickly rollback:
 
 4. **Deploy to Production**
    ```bash
-   ./deploy/deploy-prod.sh
+   ./deploy/deploy-github-prod.sh
    # Check https://seasalt.ai
    ```
 
@@ -308,12 +308,12 @@ git tag -l "prod-backup-*" --sort=-creatordate | head -10
 
 Key configurations in the scripts:
 
-### deploy-dev.sh
+### deploy-github-dev.sh
 - Target branch: `gh-pages`
 - Domain: `newweb.seasalt.ai`
 - Build directory: `dist`
 
-### deploy-prod.sh
+### deploy-github-prod.sh
 - Repository: `seasalt-ai/seasalt-ai.github.io`
 - Target branch: `master`
 - Domain: `seasalt.ai`
@@ -371,7 +371,7 @@ All deployment scripts automatically:
 ```bash
 # Clear the cache and try again
 rm -rf ~/.deployment-cache/seasalt-ai.github.io
-./deploy/deploy-prod.sh
+./deploy/deploy-github-prod.sh
 ```
 
 #### Verify production repo state manually
@@ -990,7 +990,7 @@ wrangler login
 ./deploy/deploy-cloudflare.sh --skip-build --prod --project-name seasalt-ai-website
 
 # === GitHub Pages (legacy) ===
-./deploy/deploy-prod.sh
+./deploy/deploy-github-prod.sh
 ./deploy/rollback-prod.sh
 ```
 
