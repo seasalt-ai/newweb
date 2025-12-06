@@ -13,12 +13,12 @@ set -euo pipefail
 # 5. Deploys minimal changes to production
 #
 # USAGE:
-# ./deploy/deploy-blog-only.sh [commit-range]
+# ./deploy/deploy-github-blog-only.sh [commit-range]
 # 
 # Examples:
-# ./deploy/deploy-blog-only.sh              # Compare with HEAD~1
-# ./deploy/deploy-blog-only.sh HEAD~5       # Compare with 5 commits ago
-# ./deploy/deploy-blog-only.sh main         # Compare with main branch
+# ./deploy/deploy-github-blog-only.sh              # Compare with HEAD~1
+# ./deploy/deploy-github-blog-only.sh HEAD~5       # Compare with 5 commits ago
+# ./deploy/deploy-github-blog-only.sh main         # Compare with main branch
 
 # Get the directory where this script is located
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

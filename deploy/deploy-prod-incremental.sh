@@ -625,8 +625,8 @@ FORCE_SYNC=false
 while [[ $# -gt 0 ]]; do
     case "$1" in
         --force-full)
-            print_warning "Force full deployment requested - use deploy-prod.sh instead"
-            exec "$SCRIPT_DIR/deploy-prod.sh"
+            print_warning "Force full deployment requested - use deploy-github-prod.sh instead"
+            exec "$SCRIPT_DIR/deploy-github-prod.sh"
             ;;
         --quick)
             QUICK_MODE=true
@@ -661,7 +661,7 @@ while [[ $# -gt 0 ]]; do
             echo "  --quick         Auto-proceed if ≤10 files changed (good for small updates)"
             echo "  --skip-build    Use existing dist/ folder (skip npm run build)"
             echo "  --force-sync    Bypass large change warnings (use when confident)"
-            echo "  --force-full    Use full deployment instead (runs deploy-prod.sh)"
+            echo "  --force-full    Use full deployment instead (runs deploy-github-prod.sh)"
             echo "  --checksum      Compare files by content checksum (default, most accurate)"
             echo "  --size-only     Compare files by size only (faster, less accurate)"
             echo "  --timestamp     Compare files by timestamp (fastest, least accurate)"

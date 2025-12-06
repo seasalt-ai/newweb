@@ -43,16 +43,21 @@ REQUIRED_BRANCH="main"                                   # Must deploy from this
 
 # Parse command line arguments
 SKIP_BUILD=false
+ACCEPT_YES=false
 for arg in "$@"; do
   case $arg in
     --skip-build)
       SKIP_BUILD=true
       shift
       ;;
+    --accept-yes|-y)
+      ACCEPT_YES=true
+      shift
+      ;;
     *)
       # Unknown option
       echo "Unknown option: $arg" >&2
-      echo "Usage: $0 [--skip-build]" >&2
+      echo "Usage: $0 [--skip-build] [--accept-yes|-y]" >&2
       exit 1
       ;;
   esac
@@ -70,12 +75,16 @@ main() {
     check_clean_working_tree
     
     # Get confirmation for production deployment
-    echo ""
-    print_warning "⚠️  PRODUCTION DEPLOYMENT WARNING ⚠️"
-    echo "You are about to deploy to the PRODUCTION website (seasalt.ai)"
-    echo "This will affect the live website that customers are using!"
-    echo ""
-    confirm_action "Are you SURE you want to deploy to PRODUCTION?"
+    if [[ "$ACCEPT_YES" != "true" ]]; then
+        echo ""
+        print_warning "⚠️  PRODUCTION DEPLOYMENT WARNING ⚠️"
+        echo "You are about to deploy to the PRODUCTION website (seasalt.ai)"
+        echo "This will affect the live website that customers are using!"
+        echo ""
+        confirm_action "Are you SURE you want to deploy to PRODUCTION?"
+    else
+        print_info "Skipping confirmation (--accept-yes flag specified)"
+    fi
     
     # Build the project unless --skip-build was specified
     if [[ "$SKIP_BUILD" == "true" ]]; then
@@ -201,10 +210,14 @@ EOF
     # git diff --cached --stat
     
     # Final confirmation before push
-    echo ""
-    print_warning "Final confirmation before pushing to PRODUCTION"
-    echo "This will update the LIVE website at seasalt.ai"
-    confirm_action "Deploy these changes to PRODUCTION?"
+    if [[ "$ACCEPT_YES" != "true" ]]; then
+        echo ""
+        print_warning "Final confirmation before pushing to PRODUCTION"
+        echo "This will update the LIVE website at seasalt.ai"
+        confirm_action "Deploy these changes to PRODUCTION?"
+    else
+        print_info "Skipping final confirmation (--accept-yes flag specified)"
+    fi
     
     # Commit changes
     COMMIT_MSG="deploy(prod): from new-website $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
