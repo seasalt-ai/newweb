@@ -158,9 +158,10 @@ main() {
     # Now we're working in the production repo directory
     pushd "$PROD_REPO_DIR" > /dev/null
     
-    # IMPORTANT: Remove all existing files except .git directory
+    # IMPORTANT: Remove all existing files except .git and .github directories
     # This ensures a clean deployment without old/stale files
-    find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+    # .github is preserved to keep workflows (e.g., static.yml for GitHub Pages)
+    find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name '.github' -exec rm -rf {} +
     
     # Copy the newly built website files from the source repo's dist/ folder
     # Note: We're copying FROM the source repo's build output TO the production repo
