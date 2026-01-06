@@ -389,7 +389,7 @@ def generate_use_cases(app_name: str, category: str) -> List[str]:
         "ads-conversion": [f"Ad conversion from {app_name}", "Campaign performance", "Conversion notifications"],
         "new": [f"New features from {app_name}", "Latest updates", "New service notifications"],
         "beta": [f"Beta feature updates from {app_name}", "Early access notifications", "Beta feedback requests"],
-        "premium": [f"Premium updates from {app_name}", "Exclusive notifications", "Premium feature alerts"],
+        "omnichannel": [f"Premium updates from {app_name}", "Exclusive notifications", "Premium feature alerts"],
         "upcoming": [f"Coming soon from {app_name}", "Future feature alerts", "Preview notifications"],
         
         # Zapier-Specific
@@ -551,7 +551,7 @@ def generate_trigger_examples(app_name: str, category: str) -> List[str]:
         "ads-conversion": ["Ad clicked", "Conversion tracked", "Campaign updated"],
         "new": ["Feature added", "App launched", "Update released"],
         "beta": ["Beta access granted", "Feature tested", "Feedback submitted"],
-        "premium": ["Subscription upgraded", "Feature unlocked", "Plan changed"],
+        "omnichannel": ["Subscription upgraded", "Feature unlocked", "Plan changed"],
         "upcoming": ["Feature announced", "Preview available", "Launch scheduled"],
         
         # Zapier-Specific

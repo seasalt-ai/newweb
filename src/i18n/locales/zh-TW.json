@@ -2144,7 +2144,7 @@
       "chatVolume": "每月聊天量",
       "agents": "客服數量",
       "plans": {
-        "free": {
+        "webchat": {
           "name": "真正免費",
           "tagline": "體驗強大功能的試用版",
           "description": "開始使用真人客服的完美選擇",
@@ -2163,7 +2163,7 @@
           },
           "buttonText": "免費開始"
         },
-        "premium": {
+        "omnichannel": {
           "name": "高級版",
           "tagline": "新增更多 AI 智能助手與知識檔案",
           "description": "利用 AI 自動化來擴展您的支援服務",
@@ -2297,7 +2297,7 @@
         "subtitle": "查看每個方案包含的確切內容",
         "featuresTitle": "功能",
         "trulyFree": "真正免費",
-        "premium": "高級版",
+        "omnichannel": "高級版",
         "enterprise": "企業版",
         "humanAgents": "人工助理",
         "aiAgents": "AI 智能助手",
@@ -2311,53 +2311,53 @@
         "support": "支援",
         "features": {
           "humanAgents": {
-            "free": "1 位助理",
-            "premium": "4 位用戶",
+            "webchat": "1 位助理",
+            "omnichannel": "4 位用戶",
             "enterprise": "無限制"
           },
           "aiAgents": {
-            "free": "1 個助手（100 次回應）",
-            "premium": "10 個助手（無限制）",
+            "webchat": "1 個助手（100 次回應）",
+            "omnichannel": "10 個助手（無限制）",
             "enterprise": "客製化開發"
           },
           "aiModels": {
-            "free": "ChatGPT-4o mini",
-            "premium": "ChatGPT-4o, ChatGPT-4o mini, ChatGPT-4.1 mini, ChatGPT-5 mini, Mistral",
+            "webchat": "ChatGPT-4o mini",
+            "omnichannel": "ChatGPT-4o, ChatGPT-4o mini, ChatGPT-4.1 mini, ChatGPT-5 mini, Mistral",
             "enterprise": "進階模型"
           },
           "knowledgeBase": {
-            "free": "20 份文件（200KB）",
-            "premium": "5000 份文件（每份 10MB）",
+            "webchat": "20 份文件（200KB）",
+            "omnichannel": "5000 份文件（每份 10MB）",
             "enterprise": "無限制"
           },
           "voiceAI": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅"
           },
           "phoneCalls": {
-            "free": "❌",
-            "premium": "✅ 來電/去電",
+            "webchat": "❌",
+            "omnichannel": "✅ 來電/去電",
             "enterprise": "✅"
           },
           "automation": {
-            "free": "❌",
-            "premium": "✅ 進階",
+            "webchat": "❌",
+            "omnichannel": "✅ 進階",
             "enterprise": "✅ 客製化"
           },
           "apiIntegration": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅ 客製化"
           },
           "workspaces": {
-            "free": "1",
-            "premium": "2（每個額外 15 美元）",
+            "webchat": "1",
+            "omnichannel": "2（每個額外 15 美元）",
             "enterprise": "多個"
           },
           "support": {
-            "free": "社群",
-            "premium": "電子郵件 + 電話",
+            "webchat": "社群",
+            "omnichannel": "電子郵件 + 電話",
             "enterprise": "專屬技術支援"
           }
         }
@@ -3597,7 +3597,7 @@
             "title": "成本效益解決方案",
             "description": "隨著您的業務成長的實惠定價",
             "benefits": {
-              "free": "提供免費方案",
+              "webchat": "提供免費方案",
               "setup": "無設置費用",
               "pricing": "彈性定價",
               "roi": "ROI 追蹤"
@@ -3692,7 +3692,7 @@
         "affordableSubtitle": "完全免費開始，隨著您的成長只為您需要的功能付費。無隱藏費用，無長期合約，無意外。",
         "pricingTitle": "簡單定價",
         "pricing": {
-          "free": {
+          "webchat": {
             "title": "永久免費",
             "period": "每月",
             "agent": "終身 1 位人工專員",
@@ -12103,7 +12103,7 @@
           "yearly": "年付",
           "savings": "(節省 2 個月)"
         },
-        "free": {
+        "webchat": {
           "name": "Webchat",
           "tagline": "免費開始使用 Webchat",
           "price": {
@@ -12123,7 +12123,7 @@
           },
           "cta": "免費註冊"
         },
-        "pro": {
+        "whatsapp": {
           "name": "WhatsApp",
           "mostPopular": "最受歡迎",
           "tagline": "適合成長團隊的 WhatsApp + Webchat",
@@ -12143,7 +12143,7 @@
           },
           "cta": "選擇此方案"
         },
-        "premium": {
+        "omnichannel": {
           "name": "Omnichannel",
           "tagline": "所有通路整合在同一平台",
           "price": {

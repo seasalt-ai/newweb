@@ -2136,7 +2136,7 @@
       "chatVolume": "Jumlah Sembang Bulanan",
       "agents": "Bilangan Ejen",
       "plans": {
-        "free": {
+        "webchat": {
           "name": "Benar-benar Percuma",
           "tagline": "Alami percubaan ciri-ciri berkuasa",
           "description": "Sesuai untuk bermula dengan ejen manusia",
@@ -2155,8 +2155,8 @@
           },
           "buttonText": "Mula Percuma"
         },
-        "premium": {
-          "name": "Premium",
+        "omnichannel": {
+          "name": "Omnichannel",
           "tagline": "Tambah Lebih Banyak Ejen AI dan Fail Pengetahuan",
           "description": "Tingkatkan sokongan anda dengan automasi AI",
           "month": "bulan",
@@ -2289,7 +2289,7 @@
         "subtitle": "Lihat dengan tepat apa yang termasuk dalam setiap pelan",
         "featuresTitle": "Ciri-ciri",
         "trulyFree": "Benar-benar Percuma",
-        "premium": "Premium",
+        "omnichannel": "Omnichannel",
         "enterprise": "Perusahaan",
         "humanAgents": "Ejen Manusia",
         "aiAgents": "Ejen AI",
@@ -2303,53 +2303,53 @@
         "support": "Sokongan",
         "features": {
           "humanAgents": {
-            "free": "1 ejen",
-            "premium": "4 pengguna",
+            "webchat": "1 ejen",
+            "omnichannel": "4 pengguna",
             "enterprise": "Tanpa had"
           },
           "aiAgents": {
-            "free": "1 ejen (100 balasan)",
-            "premium": "10 ejen (tanpa had)",
+            "webchat": "1 ejen (100 balasan)",
+            "omnichannel": "10 ejen (tanpa had)",
             "enterprise": "Binaan tersuai"
           },
           "aiModels": {
-            "free": "ChatGPT-3.5",
-            "premium": "ChatGPT-4o, Mistral",
+            "webchat": "ChatGPT-3.5",
+            "omnichannel": "ChatGPT-4o, Mistral",
             "enterprise": "Model lanjutan"
           },
           "knowledgeBase": {
-            "free": "20 dokumen (200KB)",
-            "premium": "5000 dokumen (10MB setiap satu)",
+            "webchat": "20 dokumen (200KB)",
+            "omnichannel": "5000 dokumen (10MB setiap satu)",
             "enterprise": "Tanpa had"
           },
           "voiceAI": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅"
           },
           "phoneCalls": {
-            "free": "❌",
-            "premium": "✅ Masuk/Keluar",
+            "webchat": "❌",
+            "omnichannel": "✅ Masuk/Keluar",
             "enterprise": "✅"
           },
           "automation": {
-            "free": "❌",
-            "premium": "✅ Lanjutan",
+            "webchat": "❌",
+            "omnichannel": "✅ Lanjutan",
             "enterprise": "✅ Tersuai"
           },
           "apiIntegration": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅ Tersuai"
           },
           "workspaces": {
-            "free": "1",
-            "premium": "2 ($15 setiap tambahan)",
+            "webchat": "1",
+            "omnichannel": "2 ($15 setiap tambahan)",
             "enterprise": "Berbilang"
           },
           "support": {
-            "free": "Komuniti",
-            "premium": "E-mel + Telefon",
+            "webchat": "Komuniti",
+            "omnichannel": "E-mel + Telefon",
             "enterprise": "Teknikal khusus"
           }
         }
@@ -3594,7 +3594,7 @@
             "title": "Penyelesaian Kos Efektif",
             "description": "Harga yang berpatutan yang berkembang bersama perniagaan anda",
             "benefits": {
-              "free": "Pelan percuma tersedia",
+              "webchat": "Pelan percuma tersedia",
               "setup": "Tiada yuran persediaan",
               "pricing": "Harga fleksibel",
               "roi": "Penjejakan ROI"
@@ -3689,7 +3689,7 @@
         "affordableSubtitle": "Mulakan sepenuhnya percuma dan hanya bayar untuk apa yang anda perlukan apabila anda berkembang. Tiada yuran tersembunyi, tiada kontrak jangka panjang, tiada kejutan.",
         "pricingTitle": "Harga Mudah",
         "pricing": {
-          "free": {
+          "webchat": {
             "title": "Percuma Selamanya",
             "period": "sebulan",
             "agent": "1 Ejen Manusia seumur hidup",
@@ -12146,6 +12146,20 @@
             "2": "Garis panduan reka bentuk profesional dan sokongan teknikal, dijual bersama dengan pelan sokongan Pelancaran"
           },
           "cta": "Hubungi Kami"
+        },
+        "omnichannel": {
+          "features": {
+            "0": "Semua dalam pelan WhatsApp",
+            "1": "3 ejen manusia, 1 ejen AI, 1 ruang kerja",
+            "2": "Saluran: WhatsApp, SMS, WebChat, panggilan telefon",
+            "3": "Messenger, Instagram, LINE, LINE Call Plus",
+            "4": "Hantar kempen pukal: SMS, WhatsApp, panggilan telefon",
+            "5": "Pemesejan dua hala",
+            "6": "Panggilan masuk/keluar",
+            "7": "Sedia untuk chatbot dan voicebot",
+            "8": "RESTful API",
+            "9": "Lebih 8000 integrasi aplikasi melalui Zapier, Make dan n8n"
+          }
         },
         "disclaimer": "* Harga berbeza mengikut negara. Harga yang disenaraikan adalah untuk Amerika Syarikat. Untuk negara lain, sila hubungi kami."
       },

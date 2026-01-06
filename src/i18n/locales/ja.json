@@ -2138,7 +2138,7 @@
       "chatVolume": "月間チャット量",
       "agents": "エージェント数",
       "plans": {
-        "free": {
+        "webchat": {
           "name": "本当に無料",
           "tagline": "強力な機能のトライアルを体験",
           "description": "人間エージェントで始めるのに最適",
@@ -2157,7 +2157,7 @@
           },
           "buttonText": "無料で始める"
         },
-        "premium": {
+        "omnichannel": {
           "name": "プレミアム",
           "tagline": "AIエージェントとナレッジファイルをさらに追加",
           "description": "AI自動化でサポートを拡大",
@@ -2291,7 +2291,7 @@
         "subtitle": "各プランに含まれるものを正確に確認",
         "featuresTitle": "機能",
         "trulyFree": "本当に無料",
-        "premium": "プレミアム",
+        "omnichannel": "プレミアム",
         "enterprise": "エンタープライズ",
         "humanAgents": "人間エージェント",
         "aiAgents": "AIエージェント",
@@ -2305,53 +2305,53 @@
         "support": "サポート",
         "features": {
           "humanAgents": {
-            "free": "エージェント1名",
-            "premium": "ユーザー4名",
+            "webchat": "エージェント1名",
+            "omnichannel": "ユーザー4名",
             "enterprise": "無制限"
           },
           "aiAgents": {
-            "free": "エージェント1名 (応答100回)",
-            "premium": "エージェント10名 (無制限)",
+            "webchat": "エージェント1名 (応答100回)",
+            "omnichannel": "エージェント10名 (無制限)",
             "enterprise": "カスタムビルド"
           },
           "aiModels": {
-            "free": "ChatGPT-3.5",
-            "premium": "ChatGPT-4o、Mistral",
+            "webchat": "ChatGPT-3.5",
+            "omnichannel": "ChatGPT-4o、Mistral",
             "enterprise": "高度なモデル"
           },
           "knowledgeBase": {
-            "free": "ドキュメント20件 (200KB)",
-            "premium": "ドキュメント5000件 (各10MB)",
+            "webchat": "ドキュメント20件 (200KB)",
+            "omnichannel": "ドキュメント5000件 (各10MB)",
             "enterprise": "無制限"
           },
           "voiceAI": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅"
           },
           "phoneCalls": {
-            "free": "❌",
-            "premium": "✅ インバウンド/アウトバウンド",
+            "webchat": "❌",
+            "omnichannel": "✅ インバウンド/アウトバウンド",
             "enterprise": "✅"
           },
           "automation": {
-            "free": "❌",
-            "premium": "✅ 高度",
+            "webchat": "❌",
+            "omnichannel": "✅ 高度",
             "enterprise": "✅ カスタム"
           },
           "apiIntegration": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅ カスタム"
           },
           "workspaces": {
-            "free": "1",
-            "premium": "2 (追加は各$15)",
+            "webchat": "1",
+            "omnichannel": "2 (追加は各$15)",
             "enterprise": "複数"
           },
           "support": {
-            "free": "コミュニティ",
-            "premium": "メール + 電話",
+            "webchat": "コミュニティ",
+            "omnichannel": "メール + 電話",
             "enterprise": "専用技術サポート"
           }
         }
@@ -3596,7 +3596,7 @@
             "title": "費用対効果の高いソリューション",
             "description": "あなたのビジネスとともに成長する手頃な価格",
             "benefits": {
-              "free": "利用可能な無料プラン",
+              "webchat": "利用可能な無料プラン",
               "setup": "セットアップ料金はありません",
               "pricing": "柔軟な価格設定",
               "roi": "ROIトラッキング"
@@ -3691,7 +3691,7 @@
         "affordableSubtitle": "完全に無料で開始し、成長したときに必要なもののみを支払います。隠れた手数料、長期契約、驚きはありません。",
         "pricingTitle": "簡単な価格設定",
         "pricing": {
-          "free": {
+          "webchat": {
             "title": "永遠に無料",
             "period": "月あたり",
             "agent": "1寿命の人間のエージェント",
@@ -12149,6 +12149,20 @@
             "2": "プロフェッショナルな設計ガイドラインと技術サポート、ローンチサポートプランとセットで販売"
           },
           "cta": "お問い合わせ"
+        },
+        "omnichannel": {
+          "features": {
+            "0": "WhatsAppプランのすべての機能",
+            "1": "有人エージェント3人、AIエージェント1体、ワークスペース1つ",
+            "2": "チャネル：WhatsApp、SMS、WebChat、電話",
+            "3": "Messenger、Instagram、LINE、LINE Call Plus",
+            "4": "一括配信キャンペーン：SMS、WhatsApp、電話",
+            "5": "双方向メッセージング",
+            "6": "着信/発信通話",
+            "7": "チャットボット・ボイスボット対応",
+            "8": "RESTful API",
+            "9": "Zapier、Make、n8n経由の8000以上のアプリ連携"
+          }
         },
         "disclaimer": "* 価格は国によって異なります。記載されている価格は米国向けです。その他の国については、お問い合わせください。"
       },
