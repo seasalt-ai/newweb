@@ -1845,20 +1845,12 @@
       "aiAutomation": {
         "title": "无缝 AI 自动化",
         "description": "透过从您的对话和文件中学习的智慧 AI 轻松扩展。",
-        "highlights": [
-          "智慧自动回应",
-          "从互动中学习",
-          "具备上下文感知的回应"
-        ]
+        "highlights": ["智慧自动回应", "从互动中学习", "具备上下文感知的回应"]
       },
       "omnichannel": {
         "title": "全渠道连接",
         "description": "在一个统一的平台中连接您所有的通讯渠道，以提供一致的支援。",
-        "highlights": [
-          "30+ 整合",
-          "统一收件匣",
-          "跨平台同步"
-        ]
+        "highlights": ["30+ 整合", "统一收件匣", "跨平台同步"]
       },
       "trulyFree": {
         "title": "真正免费的方案，就像免费的 🍺 和 🎙️",
@@ -2140,7 +2132,7 @@
       "chatVolume": "每月聊天量",
       "agents": "客服数量",
       "plans": {
-        "free": {
+        "webchat": {
           "name": "真正免费",
           "tagline": "体验强大功能的试用版",
           "description": "开始使用真人客服的完美选择",
@@ -2159,7 +2151,7 @@
           },
           "buttonText": "免费开始"
         },
-        "premium": {
+        "omnichannel": {
           "name": "高级版",
           "tagline": "新增更多 AI 智能助手与知识档案",
           "description": "利用 AI 自动化来扩展您的支援服务",
@@ -2293,7 +2285,7 @@
         "subtitle": "查看每个方案包含的确切内容",
         "featuresTitle": "功能",
         "trulyFree": "真正免费",
-        "premium": "高级版",
+        "omnichannel": "高级版",
         "enterprise": "企业版",
         "humanAgents": "人工助理",
         "aiAgents": "AI 智能助手",
@@ -2307,53 +2299,53 @@
         "support": "支援",
         "features": {
           "humanAgents": {
-            "free": "1 位助理",
-            "premium": "4 位用户",
+            "webchat": "1 位助理",
+            "omnichannel": "4 位用户",
             "enterprise": "无限制"
           },
           "aiAgents": {
-            "free": "1 个助手（100 次回应）",
-            "premium": "10 个助手（无限制）",
+            "webchat": "1 个助手（100 次回应）",
+            "omnichannel": "10 个助手（无限制）",
             "enterprise": "客制化开发"
           },
           "aiModels": {
-            "free": "ChatGPT-3.5",
-            "premium": "ChatGPT-4o、Mistral",
+            "webchat": "ChatGPT-3.5",
+            "omnichannel": "ChatGPT-4o、Mistral",
             "enterprise": "进阶模型"
           },
           "knowledgeBase": {
-            "free": "20 份文件（200KB）",
-            "premium": "5000 份文件（每份 10MB）",
+            "webchat": "20 份文件（200KB）",
+            "omnichannel": "5000 份文件（每份 10MB）",
             "enterprise": "无限制"
           },
           "voiceAI": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅"
           },
           "phoneCalls": {
-            "free": "❌",
-            "premium": "✅ 来电/去电",
+            "webchat": "❌",
+            "omnichannel": "✅ 来电/去电",
             "enterprise": "✅"
           },
           "automation": {
-            "free": "❌",
-            "premium": "✅ 进阶",
+            "webchat": "❌",
+            "omnichannel": "✅ 进阶",
             "enterprise": "✅ 客制化"
           },
           "apiIntegration": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅ 客制化"
           },
           "workspaces": {
-            "free": "1",
-            "premium": "2（每个额外 15 美元）",
+            "webchat": "1",
+            "omnichannel": "2（每个额外 15 美元）",
             "enterprise": "多个"
           },
           "support": {
-            "free": "社群",
-            "premium": "电子邮件 + 电话",
+            "webchat": "社群",
+            "omnichannel": "电子邮件 + 电话",
             "enterprise": "专属技术支援"
           }
         }
@@ -2439,12 +2431,7 @@
         },
         "richResponse": {
           "title": "丰富的回应格式：",
-          "features": [
-            "互动式卡片",
-            "动作按钮",
-            "嵌入式图像",
-            "影片回应"
-          ]
+          "features": ["互动式卡片", "动作按钮", "嵌入式图像", "影片回应"]
         },
         "addDocuments": "新增您的文件"
       },
@@ -3598,7 +3585,7 @@
             "title": "成本效益解决方案",
             "description": "随著您的业务成长的实惠定价",
             "benefits": {
-              "free": "提供免费方案",
+              "webchat": "提供免费方案",
               "setup": "无设置费用",
               "pricing": "弹性定价",
               "roi": "ROI 追踪"
@@ -3693,7 +3680,7 @@
         "affordableSubtitle": "完全免费开始，随著您的成长只为您需要的功能付费。无隐藏费用，无长期合约，无意外。",
         "pricingTitle": "简单定价",
         "pricing": {
-          "free": {
+          "webchat": {
             "title": "永久免费",
             "period": "每月",
             "agent": "终身 1 位人工专员",
@@ -12087,73 +12074,73 @@
           "yearly": "年付",
           "savings": "(节省 2 个月)"
         },
+        "webchat": {
+          "name": "Webchat",
+          "tagline": "免费开始使用 Webchat",
+          "price": {
+            "monthly": "$0",
+            "yearly": "$0"
+          },
+          "priceSuffix": "/月",
+          "features": {
+            "0": "1 位真人客服",
+            "1": "1 位 AI 智能客服",
+            "2": "1 个工作区",
+            "3": "100 终身点数",
+            "4": "联系人不限",
+            "5": "聊天记录不限",
+            "6": "通道：仅 Webchat",
+            "7": "Webchat 集成：支持 Wix、WordPress、Shopify、MailerLite、Squarespace 等网站"
+          },
+          "cta": "免费注册"
+        },
         "whatsapp": {
-          "name": "仅限 WhatsApp",
-          "subheader": "市场最优价格",
+          "name": "WhatsApp",
+          "mostPopular": "最受欢迎",
+          "tagline": "适合成长团队的 WhatsApp + Webchat",
           "price": {
             "monthly": "$19.99",
             "yearly": "$199"
           },
-          "period": {
-            "monthly": "/月",
-            "yearly": "/年"
-          },
-          "description": "每位用户",
+          "priceSuffix": "/月",
           "features": {
-            "0": "发送/接收 WhatsApp",
-            "1": "WhatsApp 商业应用支援",
-            "2": "无限联络人",
-            "3": "范本功能",
-            "4": "1 个工作区"
+            "0": "包含 Webchat 方案的所有功能",
+            "1": "不限使用者数量；未验证的 WhatsApp Business App 仅能绑定 4 台设备",
+            "2": "通道：WhatsApp、Webchat",
+            "3": "批量发送 WhatsApp 营销活动",
+            "4": "双向 WhatsApp 消息",
+            "5": "可指派真人客服处理 WhatsApp 对话",
+            "6": "支持 WhatsApp Business Platform"
           },
-          "cta": "立即注册"
+          "cta": "选择此方案"
         },
         "omnichannel": {
-          "name": "全通路",
-          "subheader": "完整的客服中心",
+          "name": "Omnichannel",
+          "tagline": "所有通道整合在同一平台",
           "price": {
-            "monthly": "$99",
-            "yearly": "$999"
-          },
-          "additionalPrice": {
-            "monthly": "$49",
+            "monthly": "$49.99",
             "yearly": "$499"
           },
-          "period": {
-            "monthly": "/月",
-            "yearly": "/年"
-          },
-          "description": "首位用户",
-          "additionalDescription": "额外用户",
+          "priceSuffix": "/月",
           "features": {
-            "0": "发送/接收简讯",
-            "1": "来电/拨出电话",
-            "2": "简讯行销活动",
-            "3": "RESTful API 存取",
-            "4": "电话行销活动",
-            "5": "SeaChat 整合",
-            "6": "1 个工作区",
-            "7": "(额外工作区费用 $49/月 或 $499/年)",
-            "8": "通讯费用：",
-            "9": "$0.02/简讯, $0.04/多媒体简讯,",
-            "10": "$0.05/语音信箱投递",
-            "11": "语音 AI 代理电话通话从每分钟 $0.12 开始"
+            "0": "包含 WhatsApp 方案的所有功能",
+            "1": "3 位真人客服、1 位 AI 智能客服、1 个工作区",
+            "2": "通道：WhatsApp、SMS 短信、WebChat、电话",
+            "3": "支持 Messenger、Instagram、LINE、LINE Call Plus",
+            "4": "批量发送活动：SMS、WhatsApp、电话",
+            "5": "双向消息沟通",
+            "6": "支持呼入与呼出",
+            "7": "chatbot 与 voicebot 就绪",
+            "8": "RESTFul API",
+            "9": "通过 Zapier、Make、n8n 集成 8000+ 款应用"
           },
-          "cta": "开始全通路"
+          "cta": "选择此方案"
         },
-        "custom": {
-          "name": "客制化",
-          "subheader": "协商您的专属价格",
-          "price": "联络我们",
-          "description": "客制化建置",
-          "features": {
-            "0": "多个工作区 — 完美适合代理商",
-            "1": "每个工作区拥有多个 AI 代理和电话号码",
-            "2": "专业设计指南和技术支援，与启动支援方案一起销售"
-          },
-          "cta": "联络我们"
+        "billingNotes": {
+          "monthly": "按月计费，总金额 {{amount}}",
+          "yearly": "按年计费，总金额 {{amount}}"
         },
-        "disclaimer": "价格为美元。简讯、电话价格因国家而异，在此列出的价格适用于美国与加拿大。其他国家请联络我们。"
+        "disclaimer": "* 价格以美元计价。短信、WhatsApp 与语音通话等通道可能另外产生使用费。"
       },
       "channels": {
         "title": "各通道定价",

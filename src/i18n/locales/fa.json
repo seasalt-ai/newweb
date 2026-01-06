@@ -2136,7 +2136,7 @@
       "chatVolume": "حجم چت ماهانه",
       "agents": "تعداد نمایندگان",
       "plans": {
-        "free": {
+        "webchat": {
           "name": "واقعاً رایگان",
           "tagline": "آزمایشی از ویژگی های قدرتمند را تجربه کنید",
           "description": "ایده آل برای شروع با عوامل انسانی",
@@ -2155,7 +2155,7 @@
           },
           "buttonText": "شروع رایگان"
         },
-        "premium": {
+        "omnichannel": {
           "name": "حق بیمه",
           "tagline": "عوامل هوش مصنوعی و فایل های دانش بیشتری اضافه کنید",
           "description": "پشتیبانی خود را با اتوماسیون هوش مصنوعی مقیاس بندی کنید",
@@ -2289,7 +2289,7 @@
         "subtitle": "دقیقاً ببینید چه چیزی در هر طرح گنجانده شده است",
         "featuresTitle": "امکانات",
         "trulyFree": "واقعاً رایگان",
-        "premium": "حق بیمه",
+        "omnichannel": "حق بیمه",
         "enterprise": "سازمانی",
         "humanAgents": "عوامل انسانی",
         "aiAgents": "عوامل هوش مصنوعی",
@@ -2303,53 +2303,53 @@
         "support": "پشتیبانی",
         "features": {
           "humanAgents": {
-            "free": "1 عامل",
-            "premium": "4 کاربر",
+            "webchat": "1 عامل",
+            "omnichannel": "4 کاربر",
             "enterprise": "نامحدود"
           },
           "aiAgents": {
-            "free": "1 عامل (100 پاسخ)",
-            "premium": "10 عامل (نامحدود)",
+            "webchat": "1 عامل (100 پاسخ)",
+            "omnichannel": "10 عامل (نامحدود)",
             "enterprise": "ساخت سفارشی"
           },
           "aiModels": {
-            "free": "ChatGPT-3.5",
-            "premium": "ChatGPT-4o، Mistral",
+            "webchat": "ChatGPT-3.5",
+            "omnichannel": "ChatGPT-4o، Mistral",
             "enterprise": "مدل های پیشرفته"
           },
           "knowledgeBase": {
-            "free": "20 سند (200 کیلوبایت)",
-            "premium": "5000 سند (هر کدام 10 مگابایت)",
+            "webchat": "20 سند (200 کیلوبایت)",
+            "omnichannel": "5000 سند (هر کدام 10 مگابایت)",
             "enterprise": "نامحدود"
           },
           "voiceAI": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅"
           },
           "phoneCalls": {
-            "free": "❌",
-            "premium": "✅ ورودی/خروجی",
+            "webchat": "❌",
+            "omnichannel": "✅ ورودی/خروجی",
             "enterprise": "✅"
           },
           "automation": {
-            "free": "❌",
-            "premium": "✅ پیشرفته",
+            "webchat": "❌",
+            "omnichannel": "✅ پیشرفته",
             "enterprise": "✅ سفارشی"
           },
           "apiIntegration": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅ سفارشی"
           },
           "workspaces": {
-            "free": "1",
-            "premium": "2 (هر کدام 15 دلار اضافی)",
+            "webchat": "1",
+            "omnichannel": "2 (هر کدام 15 دلار اضافی)",
             "enterprise": "چندین"
           },
           "support": {
-            "free": "انجمن",
-            "premium": "ایمیل + تلفن",
+            "webchat": "انجمن",
+            "omnichannel": "ایمیل + تلفن",
             "enterprise": "فنی اختصاصی"
           }
         }
@@ -3594,7 +3594,7 @@
             "title": "راه حل مقرون به صرفه",
             "description": "قیمت‌گذاری مقرون به صرفه که با کسب‌وکار شما رشد می‌کند",
             "benefits": {
-              "free": "طرح رایگان موجود است",
+              "webchat": "طرح رایگان موجود است",
               "setup": "بدون هزینه راه‌اندازی",
               "pricing": "قیمت‌گذاری انعطاف‌پذیر",
               "roi": "ردیابی بازگشت سرمایه"
@@ -3689,7 +3689,7 @@
         "affordableSubtitle": "کاملاً رایگان شروع کنید و فقط برای آنچه نیاز دارید با رشد خود پرداخت کنید. بدون هزینه پنهان، بدون قرارداد بلندمدت، بدون شگفتی.",
         "pricingTitle": "قیمت‌گذاری ساده",
         "pricing": {
-          "free": {
+          "webchat": {
             "title": "برای همیشه رایگان",
             "period": "در ماه",
             "agent": "۱ نماینده انسانی برای همیشه",
@@ -12146,6 +12146,20 @@
             "2": "دستورالعمل های طراحی حرفه ای و پشتیبانی فنی، همراه با طرح پشتیبانی راه اندازی فروخته می شود"
           },
           "cta": "تماس با ما"
+        },
+        "omnichannel": {
+          "features": {
+            "0": "همه چیز در طرح WhatsApp",
+            "1": "3 نماینده انسانی، 1 نماینده هوش مصنوعی، 1 فضای کاری",
+            "2": "کانال‌ها: WhatsApp، SMS، WebChat، تماس تلفنی",
+            "3": "Messenger، Instagram، LINE، LINE Call Plus",
+            "4": "ارسال کمپین‌های انبوه: SMS، WhatsApp، تماس تلفنی",
+            "5": "پیام‌رسانی دوطرفه",
+            "6": "تماس‌های ورودی/خروجی",
+            "7": "آماده برای چت‌بات و ویس‌بات",
+            "8": "RESTful API",
+            "9": "بیش از 8000 یکپارچه‌سازی با برنامه‌ها از طریق Zapier، Make و n8n"
+          }
         },
         "disclaimer": "* قیمت ها بر اساس کشور متفاوت است. قیمت های ذکر شده برای ایالات متحده است. برای سایر کشورها، لطفاً با ما تماس بگیرید."
       },

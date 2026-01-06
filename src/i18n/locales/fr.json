@@ -2136,7 +2136,7 @@
       "chatVolume": "Volume de chat mensuel",
       "agents": "Nombre d'agents",
       "plans": {
-        "free": {
+        "webchat": {
           "name": "Vraiment gratuit",
           "tagline": "Découvrez un essai de fonctionnalités puissantes",
           "description": "Parfait pour commencer avec des agents humains",
@@ -2155,8 +2155,8 @@
           },
           "buttonText": "Commencez gratuitement"
         },
-        "premium": {
-          "name": "Premium",
+        "omnichannel": {
+          "name": "Omnichannel",
           "tagline": "Ajoutez plus d'agents IA et de fichiers de connaissances",
           "description": "Développez votre support avec l'automatisation de l'IA",
           "month": "mois",
@@ -2289,7 +2289,7 @@
         "subtitle": "Voyez exactly ce qui est inclus dans chaque plan",
         "featuresTitle": "Caractéristiques",
         "trulyFree": "Vraiment gratuit",
-        "premium": "Premium",
+        "omnichannel": "Omnichannel",
         "enterprise": "Entreprise",
         "humanAgents": "Agents humains",
         "aiAgents": "Agents IA",
@@ -2303,53 +2303,53 @@
         "support": "Support",
         "features": {
           "humanAgents": {
-            "free": "1 agent",
-            "premium": "4 utilisateurs",
+            "webchat": "1 agent",
+            "omnichannel": "4 utilisateurs",
             "enterprise": "Illimité"
           },
           "aiAgents": {
-            "free": "1 agent (100 réponses)",
-            "premium": "10 agents (illimité)",
+            "webchat": "1 agent (100 réponses)",
+            "omnichannel": "10 agents (illimité)",
             "enterprise": "Construction personnalisée"
           },
           "aiModels": {
-            "free": "ChatGPT-3.5",
-            "premium": "ChatGPT-4o, Mistral",
+            "webchat": "ChatGPT-3.5",
+            "omnichannel": "ChatGPT-4o, Mistral",
             "enterprise": "Modèles avancés"
           },
           "knowledgeBase": {
-            "free": "20 documents (200 Ko)",
-            "premium": "5000 documents (10 Mo chacun)",
+            "webchat": "20 documents (200 Ko)",
+            "omnichannel": "5000 documents (10 Mo chacun)",
             "enterprise": "Illimité"
           },
           "voiceAI": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅"
           },
           "phoneCalls": {
-            "free": "❌",
-            "premium": "✅ Entrant/Sortant",
+            "webchat": "❌",
+            "omnichannel": "✅ Entrant/Sortant",
             "enterprise": "✅"
           },
           "automation": {
-            "free": "❌",
-            "premium": "✅ Avancé",
+            "webchat": "❌",
+            "omnichannel": "✅ Avancé",
             "enterprise": "✅ Personnalisé"
           },
           "apiIntegration": {
-            "free": "❌",
-            "premium": "✅",
+            "webchat": "❌",
+            "omnichannel": "✅",
             "enterprise": "✅ Personnalisé"
           },
           "workspaces": {
-            "free": "1",
-            "premium": "2 (15 $ chacun en plus)",
+            "webchat": "1",
+            "omnichannel": "2 (15 $ chacun en plus)",
             "enterprise": "Multiple"
           },
           "support": {
-            "free": "Communauté",
-            "premium": "E-mail + Téléphone",
+            "webchat": "Communauté",
+            "omnichannel": "E-mail + Téléphone",
             "enterprise": "Technique dédié"
           }
         }
@@ -3594,7 +3594,7 @@
             "title": "Solution rentable",
             "description": "Une tarification abordable qui évolue avec votre entreprise",
             "benefits": {
-              "free": "Plan gratuit disponible",
+              "webchat": "Plan gratuit disponible",
               "setup": "Pas de frais de configuration",
               "pricing": "Tarification flexible",
               "roi": "Suivi du retour sur investissement"
@@ -3689,7 +3689,7 @@
         "affordableSubtitle": "Commencez entièrement gratuitement et ne payez que ce dont vous avez besoin à mesure que vous vous développez. Pas de frais cachés, pas de contrats à long terme, pas de surprises.",
         "pricingTitle": "Tarification simple",
         "pricing": {
-          "free": {
+          "webchat": {
             "title": "Gratuit pour toujours",
             "period": "par mois",
             "agent": "1 agent humain à vie",
@@ -12145,6 +12145,20 @@
             "2": "Directives de conception professionnelles et support technique, vendus avec le plan de support de lancement"
           },
           "cta": "Nous contacter"
+        },
+        "omnichannel": {
+          "features": {
+            "0": "Tout ce qui est inclus dans l’offre WhatsApp",
+            "1": "3 agents humains, 1 agent IA, 1 espace de travail",
+            "2": "Canaux : WhatsApp, SMS, WebChat, appel téléphonique",
+            "3": "Messenger, Instagram, LINE, LINE Call Plus",
+            "4": "Campagnes d’envoi en masse : SMS, WhatsApp, appels téléphoniques",
+            "5": "Messagerie bidirectionnelle",
+            "6": "Appels entrants/sortants",
+            "7": "Prêt pour les chatbots et voicebots",
+            "8": "API RESTful",
+            "9": "Plus de 8000 intégrations d’applications via Zapier, Make et n8n"
+          }
         },
         "disclaimer": "* Les prix varient selon les pays. Les prix indiqués sont pour les États-Unis. Pour les autres pays, veuillez nous contacter."
       },

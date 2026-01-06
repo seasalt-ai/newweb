@@ -2136,7 +2136,7 @@
       "chatVolume": "حجم الدردشة الشهري",
       "agents": "عدد الوكلاء",
       "plans": {
-        "free": {
+        "webchat": {
           "name": "حقا مجانية",
           "tagline": "تجربة تجربة للميزات القوية",
           "description": "مثالي للبدء مع الوكلاء البشريين",
@@ -2155,7 +2155,7 @@
           },
           "buttonText": "ابدأ مجانًا"
         },
-        "premium": {
+        "omnichannel": {
           "name": "غالي",
           "tagline": "أضف المزيد من وكلاء الذكاء الاصطناعي وملفات المعرفة",
           "description": "قم بتوسيع دعمكم بأتمتة الذكاء الاصطناعي",
@@ -2289,7 +2289,7 @@
         "subtitle": "انظر بالضبط ما هو مدرج في كل خطة",
         "featuresTitle": "سمات",
         "trulyFree": "حقا مجانية",
-        "premium": "غالي",
+        "omnichannel": "غالي",
         "enterprise": "مَشرُوع",
         "humanAgents": "العوامل البشرية",
         "aiAgents": "وكلاء الذكاء الاصطناعي",
@@ -2303,53 +2303,53 @@
         "support": "يدعم",
         "features": {
           "humanAgents": {
-            "free": "1 وكيل",
-            "premium": "4 مستخدمين",
+            "webchat": "1 وكيل",
+            "omnichannel": "4 مستخدمين",
             "enterprise": "غير محدود"
           },
           "aiAgents": {
-            "free": "1 وكيل (100 رد)",
-            "premium": "10 وكلاء (غير محدود)",
+            "webchat": "1 وكيل (100 رد)",
+            "omnichannel": "10 وكلاء (غير محدود)",
             "enterprise": "بناء مخصص"
           },
           "aiModels": {
-            "free": "chatgpt-3.5",
-            "premium": "ChatGPT-4O ، Mistral",
+            "webchat": "chatgpt-3.5",
+            "omnichannel": "ChatGPT-4O ، Mistral",
             "enterprise": "نماذج متقدمة"
           },
           "knowledgeBase": {
-            "free": "20 مستندات (200 كيلو بايت)",
-            "premium": "5000 مستند (10 ميغابايت لكل منهما)",
+            "webchat": "20 مستندات (200 كيلو بايت)",
+            "omnichannel": "5000 مستند (10 ميغابايت لكل منهما)",
             "enterprise": "غير محدود"
           },
           "voiceAI": {
-            "free": null,
-            "premium": null,
+            "webchat": null,
+            "omnichannel": null,
             "enterprise": null
           },
           "phoneCalls": {
-            "free": null,
-            "premium": "✅ داخلي/صادر",
+            "webchat": null,
+            "omnichannel": "✅ داخلي/صادر",
             "enterprise": null
           },
           "automation": {
-            "free": null,
-            "premium": "✅ متقدم",
+            "webchat": null,
+            "omnichannel": "✅ متقدم",
             "enterprise": "✅ مخصص"
           },
           "apiIntegration": {
-            "free": null,
-            "premium": null,
+            "webchat": null,
+            "omnichannel": null,
             "enterprise": "✅ مخصص"
           },
           "workspaces": {
-            "free": "1",
-            "premium": "2 (15 دولارًا إضافيًا)",
+            "webchat": "1",
+            "omnichannel": "2 (15 دولارًا إضافيًا)",
             "enterprise": "عديد"
           },
           "support": {
-            "free": "مجتمع",
-            "premium": "البريد الإلكتروني + الهاتف",
+            "webchat": "مجتمع",
+            "omnichannel": "البريد الإلكتروني + الهاتف",
             "enterprise": "فنية مخصصة"
           }
         }
@@ -3594,7 +3594,7 @@
             "title": "حل فعال من حيث التكلفة",
             "description": "الأسعار المعقولة التي تنمو مع عملك",
             "benefits": {
-              "free": "خطة مجانية متاحة",
+              "webchat": "خطة مجانية متاحة",
               "setup": "لا توجد رسوم الإعداد",
               "pricing": "تسعير مرن",
               "roi": "تتبع العائد على الاستثمار"
@@ -3689,7 +3689,7 @@
         "affordableSubtitle": "ابدأ مجانًا تمامًا وادفع فقط مقابل ما تحتاجه أثناء نموك. لا رسوم خفية ، لا عقود طويلة الأجل ، لا مفاجآت.",
         "pricingTitle": "تسعير بسيط",
         "pricing": {
-          "free": {
+          "webchat": {
             "title": "حرة إلى الأبد",
             "period": "كل شهر",
             "agent": "1 عميل بشري للحياة",
@@ -12146,6 +12146,20 @@
             "2": "إرشادات التصميم المهني والدعم الفني ، تباع مع خطة دعم الإطلاق"
           },
           "cta": "اتصل بنا"
+        },
+        "omnichannel": {
+          "features": {
+            "0": "كل ما في خطة WhatsApp",
+            "1": "3 وكلاء بشريين، 1 وكيل ذكاء اصطناعي، 1 مساحة عمل",
+            "2": "القنوات: WhatsApp، الرسائل القصيرة SMS، WebChat، المكالمات الهاتفية",
+            "3": "Messenger، Instagram، LINE، LINE Call Plus",
+            "4": "إرسال حملات مجمعة: SMS، WhatsApp، المكالمات الهاتفية",
+            "5": "مراسلة ثنائية الاتجاه",
+            "6": "المكالمات الواردة والصادرة",
+            "7": "جاهز لروبوتات الدردشة والصوت",
+            "8": "RESTful API",
+            "9": "+8000 عملية تكامل للتطبيقات عبر Zapier وMake وn8n"
+          }
         },
         "disclaimer": "* الأسعار تختلف حسب البلد. الأسعار المدرجة للولايات المتحدة. لبلدان أخرى ، يرجى الاتصال بنا."
       },
