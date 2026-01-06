@@ -274,7 +274,7 @@ const SeaChatPricingCalculator: React.FC<PricingCalculatorProps> = ({
                         </div>
                         <div className="ml-2 space-y-0.5">
                           <div>
-                            ${model.per_voice_minute.standard.toFixed(2)}{" "}
+                            ${model.per_voice_minute.whatsapp.toFixed(2)}{" "}
                             {getText(
                               "seachat.pricing.calculator.perVoiceMinute",
                               "per voice minute"
@@ -287,7 +287,7 @@ const SeaChatPricingCalculator: React.FC<PricingCalculatorProps> = ({
                             )
                           </div>
                           <div>
-                            ${model.per_voice_minute.premium.toFixed(2)}{" "}
+                            ${model.per_voice_minute.omnichannel.toFixed(2)}{" "}
                             {getText(
                               "seachat.pricing.calculator.perVoiceMinute",
                               "per voice minute"

@@ -389,7 +389,7 @@ def generate_use_cases(app_name: str, category: str) -> List[str]:
         "ads-conversion": [f"Ad conversion from {app_name}", "Campaign performance", "Conversion notifications"],
         "new": [f"New features from {app_name}", "Latest updates", "New service notifications"],
         "beta": [f"Beta feature updates from {app_name}", "Early access notifications", "Beta feedback requests"],
-        "omnichannel": [f"Premium updates from {app_name}", "Exclusive notifications", "Premium feature alerts"],
+        "omnichannel": [f"Omnichannel updates from {app_name}", "Exclusive notifications", "Omnichannel feature alerts"],
         "upcoming": [f"Coming soon from {app_name}", "Future feature alerts", "Preview notifications"],
         
         # Zapier-Specific

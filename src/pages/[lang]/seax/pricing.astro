@@ -156,7 +156,7 @@ export async function getStaticPaths() {
               data-billing-note
               data-plan="webchat"
               data-monthly-note={t('seax.pricing.plans.billingNotes.monthly', { amount: t('seax.pricing.plans.webchat.price.monthly') })}
-              data-yearly-note={t('seax.pricing.plans.webchat.price.yearly')}
+              data-yearly-note={t('seax.pricing.plans.billingNotes.yearly', { amount: t('seax.pricing.plans.webchat.price.yearly') })}
               style="visibility: hidden;"
             >
               {t('seax.pricing.plans.billingNotes.monthly', { amount: t('seax.pricing.plans.webchat.price.monthly') })}

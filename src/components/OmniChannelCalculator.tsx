@@ -652,11 +652,7 @@ const OmniChannelCalculator = ({ lang, translations }: Props) => {
                   </p>
                 </div>
                 <span className="text-lg font-semibold">
-                  $
-                  {(billingPeriod === "monthly"
-                    ? currentCosts.phoneNumberCost
-                    : currentCosts.phoneNumberCost
-                  ).toLocaleString()}
+                  ${currentCosts.phoneNumberCost.toLocaleString()}
                 </span>
               </div>
             )}
