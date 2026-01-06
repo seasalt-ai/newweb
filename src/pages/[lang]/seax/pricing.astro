@@ -126,9 +126,6 @@ export async function getStaticPaths() {
               {t('seax.pricing.plans.billing.yearly')}
             </div>
           </div>
-          <span class="ml-3 text-gray-500 text-sm">
-            <span class="text-green-600 font-semibold">{t('seax.pricing.plans.billing.savings')}</span>
-          </span>
         </div>
       </div>
       
@@ -157,8 +154,10 @@ export async function getStaticPaths() {
             <div
               class="text-xs text-gray-500 mt-1"
               data-billing-note
+              data-plan="free"
               data-monthly-note={t('seax.pricing.plans.billingNotes.monthly', { amount: t('seax.pricing.plans.free.price.monthly') })}
-              data-yearly-note={t('seax.pricing.plans.billingNotes.yearly', { amount: t('seax.pricing.plans.free.price.yearly') })}
+              data-yearly-note={t('seax.pricing.plans.free.price.yearly')}
+              style="visibility: hidden;"
             >
               {t('seax.pricing.plans.billingNotes.monthly', { amount: t('seax.pricing.plans.free.price.monthly') })}
             </div>
@@ -167,13 +166,7 @@ export async function getStaticPaths() {
             <div class="space-y-3">
               {Array.from({ length: 8 }, (_, i) => (
                 <div class="flex items-start space-x-3" key={i}>
-                  <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
+                  <span class="text-green-500 text-lg flex-shrink-0 mt-0.5">✓</span>
                   <span class="text-sm text-gray-700">
                     {t(`seax.pricing.plans.free.features.${i}`)}
                   </span>
@@ -193,8 +186,11 @@ export async function getStaticPaths() {
 
         <!-- Pro Plan (Most Popular) -->
         <div class="relative bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col border-2 border-indigo-500">
-          <div class="absolute -top-3 left-1/2 -translate-x-1/2">
-            <span class="px-3 py-1 rounded-full bg-indigo-600 text-white text-xs font-semibold uppercase tracking-wide shadow">
+          <div class="absolute -top-4 left-1/2 -translate-x-1/2">
+            <span
+              class="inline-flex items-center rounded-full bg-indigo-600 px-3 py-1 text-xs font-semibold text-white shadow"
+              style="visibility: hidden;"
+            >
               {t('seax.pricing.plans.pro.mostPopular')}
             </span>
           </div>
@@ -220,8 +216,10 @@ export async function getStaticPaths() {
             <div
               class="text-xs text-gray-500 mt-1"
               data-billing-note
+              data-plan="pro"
               data-monthly-note={t('seax.pricing.plans.billingNotes.monthly', { amount: t('seax.pricing.plans.pro.price.monthly') })}
               data-yearly-note={t('seax.pricing.plans.billingNotes.yearly', { amount: t('seax.pricing.plans.pro.price.yearly') })}
+              style="visibility: hidden;"
             >
               {t('seax.pricing.plans.billingNotes.monthly', { amount: t('seax.pricing.plans.pro.price.monthly') })}
             </div>
@@ -230,13 +228,7 @@ export async function getStaticPaths() {
             <div class="space-y-3">
               {Array.from({ length: 7 }, (_, i) => (
                 <div class="flex items-start space-x-3" key={i}>
-                  <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
+                  <span class="text-green-500 text-lg flex-shrink-0 mt-0.5">✓</span>
                   <span class="text-sm text-gray-700">
                     {t(`seax.pricing.plans.pro.features.${i}`)}
                   </span>
@@ -278,23 +270,19 @@ export async function getStaticPaths() {
             <div
               class="text-xs text-gray-500 mt-1"
               data-billing-note
+              data-plan="premium"
               data-monthly-note={t('seax.pricing.plans.billingNotes.monthly', { amount: t('seax.pricing.plans.premium.price.monthly') })}
               data-yearly-note={t('seax.pricing.plans.billingNotes.yearly', { amount: t('seax.pricing.plans.premium.price.yearly') })}
+              style="visibility: hidden;"
             >
               {t('seax.pricing.plans.billingNotes.monthly', { amount: t('seax.pricing.plans.premium.price.monthly') })}
             </div>
           </div>
           <div class="px-8 pb-6 flex-grow">
             <div class="space-y-3">
-              {Array.from({ length: 14 }, (_, i) => (
+              {Array.from({ length: 10 }, (_, i) => (
                 <div class="flex items-start space-x-3" key={i}>
-                  <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
+                  <span class="text-green-500 text-lg flex-shrink-0 mt-0.5">✓</span>
                   <span class="text-sm text-gray-700">
                     {t(`seax.pricing.plans.premium.features.${i}`)}
                   </span>
@@ -690,7 +678,16 @@ export async function getStaticPaths() {
         noteElements.forEach(element => {
           const monthlyNote = element.getAttribute('data-monthly-note') || '';
           const yearlyNote = element.getAttribute('data-yearly-note') || '';
-          element.textContent = isYearly ? yearlyNote : monthlyNote;
+
+          if (isYearly) {
+            // 年方案：三個方案都顯示帳單說明文字
+            element.textContent = yearlyNote;
+            element.style.visibility = 'visible';
+          } else {
+            // 月方案：保留文字但用 visibility 隱藏，避免高度改變
+            element.textContent = monthlyNote;
+            element.style.visibility = 'hidden';
+          }
         });
 
         // Update additional pricing (for omnichannel)

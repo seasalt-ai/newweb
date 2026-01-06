@@ -1857,20 +1857,12 @@
       "aiAutomation": {
         "title": "無縫 AI 自動化",
         "description": "透過從您的對話和文件中學習的智慧 AI 輕鬆擴展。",
-        "highlights": [
-          "智慧自動回應",
-          "從互動中學習",
-          "具備上下文感知的回應"
-        ]
+        "highlights": ["智慧自動回應", "從互動中學習", "具備上下文感知的回應"]
       },
       "omnichannel": {
         "title": "全渠道連接",
         "description": "在一個統一的平台中連接您所有的通訊渠道，以提供一致的支援。",
-        "highlights": [
-          "30+ 整合",
-          "統一收件匣",
-          "跨平台同步"
-        ]
+        "highlights": ["30+ 整合", "統一收件匣", "跨平台同步"]
       },
       "trulyFree": {
         "title": "真正免費的方案，就像免費的 🍺 和 🎙️",
@@ -2451,12 +2443,7 @@
         },
         "richResponse": {
           "title": "豐富的回應格式：",
-          "features": [
-            "互動式卡片",
-            "動作按鈕",
-            "嵌入式圖像",
-            "影片回應"
-          ]
+          "features": ["互動式卡片", "動作按鈕", "嵌入式圖像", "影片回應"]
         },
         "addDocuments": "新增您的文件"
       },
@@ -12121,7 +12108,7 @@
           "tagline": "免費開始使用 Webchat",
           "price": {
             "monthly": "$0",
-            "yearly": "N/A"
+            "yearly": "$0"
           },
           "priceSuffix": "/月",
           "features": {
@@ -12166,19 +12153,15 @@
           "priceSuffix": "/月",
           "features": {
             "0": "包含 WhatsApp 方案的所有功能",
-            "1": "3 位真人客服",
-            "2": "1 位 AI 智能客服",
-            "3": "1 個工作區",
-            "4": "100 終身點數",
-            "5": "聯絡人不限",
-            "6": "聊天紀錄不限",
-            "7": "包含所有通路：WhatsApp、SMS 簡訊、Messenger、Instagram、LINE、LINE Call Plus、Webchat、電話通話",
-            "8": "大量發送 SMS、WhatsApp 與電話行銷活動",
-            "9": "雙向訊息溝通",
-            "10": "支援來電與去電電話",
-            "11": "支援 chatbot 與 voicebot",
-            "12": "提供 RESTful API",
-            "13": "透過 Zapier、Make、n8n 串接超過 8000 種應用程式"
+            "1": "3 位真人客服、1 位 AI 智能客服、1 個工作區",
+            "2": "通路：WhatsApp、SMS 簡訊、WebChat、電話",
+            "3": "支援 Messenger、Instagram、LINE、LINE Call Plus",
+            "4": "大量發送活動：SMS、WhatsApp、電話",
+            "5": "雙向訊息溝通",
+            "6": "支援來電與去電",
+            "7": "chatbot 與 voicebot 就緒",
+            "8": "RESTFul API",
+            "9": "透過 Zapier、Make、n8n 串接 8000+ 個應用程式"
           },
           "cta": "選擇此方案"
         },
