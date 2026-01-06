@@ -38,8 +38,8 @@ const SeaChatPricingCalculator: React.FC<PricingCalculatorProps> = ({
   const [selectedModel, setSelectedModel] = useState("ChatGPT-4o mini");
   const [chatResponses, setChatResponses] = useState(1000);
   const [voiceMinutes, setVoiceMinutes] = useState(100);
-  const [voiceQuality, setVoiceQuality] = useState<"standard" | "premium">(
-    "standard"
+  const [voiceQuality, setVoiceQuality] = useState<"whatsapp" | "omnichannel">(
+    "whatsapp"
   );
   const [humanAgents, setHumanAgents] = useState(4);
   const [aiAgents, setAiAgents] = useState(10);
@@ -508,11 +508,11 @@ const SeaChatPricingCalculator: React.FC<PricingCalculatorProps> = ({
                         <input
                           type="radio"
                           name="voiceQuality"
-                          value="standard"
-                          checked={voiceQuality === "standard"}
+                          value="whatsapp"
+                          checked={voiceQuality === "whatsapp"}
                           onChange={(e) =>
                             setVoiceQuality(
-                              e.target.value as "standard" | "premium"
+                              e.target.value as "whatsapp" | "omnichannel"
                             )
                           }
                           className="mr-2 text-orange-600 focus:ring-orange-500"
@@ -529,10 +529,10 @@ const SeaChatPricingCalculator: React.FC<PricingCalculatorProps> = ({
                           type="radio"
                           name="voiceQuality"
                           value="omnichannel"
-                          checked={voiceQuality === "premium"}
+                          checked={voiceQuality === "omnichannel"}
                           onChange={(e) =>
                             setVoiceQuality(
-                              e.target.value as "standard" | "premium"
+                              e.target.value as "whatsapp" | "omnichannel"
                             )
                           }
                           className="mr-2 text-orange-600 focus:ring-orange-500"
