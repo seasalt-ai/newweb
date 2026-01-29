@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
-meta_description: اكتشف التحولات الحاسمة الخمسة لعام 2026 في WhatsApp Business، بما
+description: اكتشف التحولات الحاسمة الخمسة لعام 2026 في WhatsApp Business، بما
   في ذلك التماثل، التسعير القائم على السوق، الذكاء الاصطناعي القائم على النية، تغييرات
   التحقق، واختيار الأساس الصحيح للنمو.
-modified_date: '2026-01-29'
+publishDate: '2026-01-28'
+updatedDate: '2026-01-28'
 tags:
 - WhatsApp Business
 - اتجاهات 2026

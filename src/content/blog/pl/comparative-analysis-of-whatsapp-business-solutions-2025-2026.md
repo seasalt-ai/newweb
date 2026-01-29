@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: Narzędzia biznesowe
-date: 2026-01-29
+date: 2026-01-28
 meta_description: Odkryj ewolucję rozwiązań WhatsApp Business w 2026 roku — porównaj
   warstwy App, Premium i API, zmiany w cenie oraz nowe funkcje, takie jak Coexistence,
   zapewniające płynne przejścia.
-modified_date: 2026-01-29
+modified_date: 2026-01-28
 tags:
 - WhatsApp Business
 - API

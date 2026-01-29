@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Odkryj 5 kluczowych zmian w WhatsApp Business w 2026 roku, w tym
   Coexistence, ceny oparte na rynku, AI oparte na intencji, zmiany w weryfikacji oraz
   wybór odpowiedniej podstawy do rozwoju.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - Trendy 2026

@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
-meta_description: اكتشف سبب أن عملك يصطدم بحدود مع تطبيق واتساب بيزنس. تعلم 3 أسباب
+description: اكتشف سبب أن عملك يصطدم بحدود مع تطبيق واتساب بيزنس. تعلم 3 أسباب
   أساسية لترقية إلى API السحابي من أجل التوسع، والتأتمت، والشهرة المهنية، والنمو في
   عام 2026.
-modified_date: '2026-01-29'
+publishDate: '2026-01-28'
+updatedDate: '2026-01-28'
 tags:
 - WhatsApp Business
 - API السحابي

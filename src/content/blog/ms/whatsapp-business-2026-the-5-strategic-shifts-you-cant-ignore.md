@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Perniagaan
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Jelajahi 5 perubahan kritikal 2026 dalam WhatsApp Perniagaan, termasuk
   Koeksistensi, penetapan harga berasaskan pasaran, AI berasaskan niat, perubahan
   verifikasi, dan memilih asas yang tepat untuk pertumbuhan.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Perniagaan
 - Tren 2026

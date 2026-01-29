@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Bisnis
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Temukan mengapa bisnis Anda mengalami hambatan dengan Aplikasi WhatsApp
   Bisnis. Pelajari 3 alasan utama untuk meningkatkan ke Cloud API guna skalabilitas,
   otomatisasi, kredibilitas profesional, dan pertumbuhan pada tahun 2026.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Bisnis
 - Cloud API

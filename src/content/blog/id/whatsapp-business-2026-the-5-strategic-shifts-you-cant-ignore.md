@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Bisnis
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Jelajahi 5 perubahan kritis tahun 2026 di WhatsApp Bisnis, termasuk
   Koeksistensi, penetapan harga berbasis pasar, AI berbasis niat, perubahan verifikasi,
   dan memilih fondasi yang tepat untuk pertumbuhan.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Bisnis
 - Tren 2026

@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: Mga Kagamitan sa Negosyo
-date: 2026-01-29
+date: 2026-01-28
 meta_description: Tuklasin ang ebolusyon ng mga solusyon sa WhatsApp Business noong
   2026—ihambing ang App, Premium, at API tiers, mga pagbabago sa presyo, at mga bagong
   tampok tulad ng Coexistence para sa walang putol na transisyon.
-modified_date: 2026-01-29
+modified_date: 2026-01-28
 tags:
 - WhatsApp Business
 - API

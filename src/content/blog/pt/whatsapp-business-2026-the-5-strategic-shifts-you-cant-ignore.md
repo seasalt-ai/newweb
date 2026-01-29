@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Empresas
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Explore as 5 mudanças críticas de 2026 no WhatsApp Empresas, incluindo
   Coexistência, preços baseados no mercado, IA baseada em intenção, mudanças na verificação
   e escolha da base certa para crescimento.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Empresas
 - Tendências 2026

@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: WhatsApp Business में 2026 के 5 महत्वपूर्ण बदलावों का अन्वेषण करें,
   जिनमें सह-अस्तित्व, बाजार-आधारित मूल्य निर्धारण, इंटेंट-आधारित AI, सत्यापन परिवर्तन,
   और विकास के लिए सही आधार चुनना शामिल है।
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - 2026 के रुझान

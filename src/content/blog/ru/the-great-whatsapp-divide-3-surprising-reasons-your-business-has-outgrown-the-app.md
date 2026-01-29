@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Узнайте, почему ваш бизнес стал сталкиваться с препятствиями в приложении
   WhatsApp Business. Изучите 3 ключевые причины для перехода на Cloud API, чтобы обеспечить
   масштабируемость, автоматизацию, профессиональную репутацию и рост в 2026 году.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - Облачный API

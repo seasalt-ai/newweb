@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
-meta_description: Discover why your business is hitting a wall with WhatsApp Business
+publishDate: '2026-01-28'
+description: Discover why your business is hitting a wall with WhatsApp Business
   App. Learn 3 key reasons to upgrade to the Cloud API for scalability, automation,
   professional credibility, and growth in 2026.
-modified_date: '2026-01-29'
+updatedDate: '2026-01-28'
 tags:
 - WhatsApp Business
 - Cloud API

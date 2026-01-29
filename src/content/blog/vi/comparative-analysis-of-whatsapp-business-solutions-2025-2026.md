@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: Công cụ Kinh doanh
-date: 2026-01-29
+date: 2026-01-28
 meta_description: Khám phá quá trình phát triển của giải pháp WhatsApp Business vào
   năm 2026—so sánh các gói App, Premium và API, thay đổi giá cả, và các tính năng
   mới như Coexistence để thực hiện chuyển đổi liền mạch.
-modified_date: 2026-01-29
+modified_date: 2026-01-28
 tags:
 - WhatsApp Business
 - API

@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: WhatsApp பிசினஸில் 2026 ஆம் ஆண்டின் 5 முக்கிய மாற்றங்களை ஆராயுங்கள்,
   இதில் சហவாழ்வு, சந்தை அடிப்படையிலான விலை நிர்ணயம், நோக்கம் அடிப்படையிலான AI, சரிபார்ப்பு
   மாற்றங்கள் மற்றும் வளர்ச்சிக்கான சரியான அடித்தளத்தை தேர்ந்தெடுப்பது ஆகியவை அடங்கும்.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - 2026 போக்குகள்

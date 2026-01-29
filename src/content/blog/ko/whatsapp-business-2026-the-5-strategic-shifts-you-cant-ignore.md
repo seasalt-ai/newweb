@@ -1,10 +1,10 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: WhatsApp Business의 2026년 5가지 중요한 변화를 탐구합니다. 공존, 시장 기반 가격 정책, 의도
   기반 AI, 인증 변경, 그리고 성장을 위한 올바른 기반 선택이 포함됩니다.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - 2026 트렌드

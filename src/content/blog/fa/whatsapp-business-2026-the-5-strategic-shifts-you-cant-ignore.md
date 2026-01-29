@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: بررسی 5 تغییر حیاتی 2026 در WhatsApp Business، از جمله همزیستی،
   قیمت گذاری مبتنی بر بازار، AI مبتنی بر قصد، تغییرات تایید هویت و انتخاب بنیاد مناسب
   برای رشد.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - روندهای 2026

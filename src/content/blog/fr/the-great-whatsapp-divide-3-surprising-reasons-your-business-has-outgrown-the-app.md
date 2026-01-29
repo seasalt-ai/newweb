@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Découvrez pourquoi votre entreprise se heurte à un mur avec l'application
   WhatsApp Business. Apprenez 3 raisons clés de passer à l'API Cloud pour une scalabilité,
   une automatisation, une crédibilité professionnelle et une croissance en 2026.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - API Cloud

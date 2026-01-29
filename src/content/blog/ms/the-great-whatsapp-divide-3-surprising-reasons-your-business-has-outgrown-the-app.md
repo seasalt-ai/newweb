@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Perniagaan
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Ketahui mengapa perniagaan anda tersekat dengan Aplikasi WhatsApp
   Business. Pelajari 3 sebab utama untuk menaik taraf ke Cloud API untuk skalabiliti,
   automasi, kredibiliti profesional, dan pertumbuhan pada tahun 2026.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Perniagaan
 - Cloud API

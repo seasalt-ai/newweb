@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Descoperiți de ce afacerea dvs. întâlnește bariere cu Aplicația
   WhatsApp Business. Aflați 3 motive cheie pentru a trece la Cloud API pentru scalabilitate,
   automatizare, credibilitate profesională și creștere în 2026.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - Cloud API

@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Explore the 5 critical 2026 shifts in WhatsApp Business, including
   Coexistence, market-based pricing, intent-based AI, verification changes, and choosing
   the right foundation for growth.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - 2026 Trends

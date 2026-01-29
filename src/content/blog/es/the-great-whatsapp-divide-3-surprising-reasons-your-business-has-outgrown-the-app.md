@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Empresas
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Descubre por qué tu negocio se está topando con un muro con la App
   de WhatsApp Empresas. Aprende 3 razones clave para actualizar a la Cloud API para
   escalabilidad, automatización, credibilidad profesional y crecimiento en 2026.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Empresas
 - Cloud API

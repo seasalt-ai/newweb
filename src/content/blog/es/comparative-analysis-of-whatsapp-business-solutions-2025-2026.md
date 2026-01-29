@@ -1,5 +1,5 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: "Herramientas de Negocios  \n\n(Note: Depending on context, \"Business Tools\"\
   \ can also be translated as \"Herramientas Empresariales\", but following the requirement\
   \ to translate every word directly, \"Herramientas de Negocios\" is more literal.\
@@ -36,11 +36,11 @@ category: "Herramientas de Negocios  \n\n(Note: Depending on context, \"Business
   . Both are correct, but \"Herramientas de Negocios\" translates each word directly.\
   \ So the final translated text is:  \n\nHerramientas de Negocios  \n\n\nI think\
   \ that's it. Let's go with that.</think>Herramientas de Negocios"
-date: 2026-01-29
+date: 2026-01-28
 meta_description: 'Explore la evolución de 2026 de las soluciones de WhatsApp Business:
   compare las capas de App, Premium y API, los cambios en los precios y las nuevas
   funciones como Coexistence para transiciones sin fisuras.'
-modified_date: 2026-01-29
+modified_date: 2026-01-28
 tags:
 - WhatsApp Empresarial
 - API

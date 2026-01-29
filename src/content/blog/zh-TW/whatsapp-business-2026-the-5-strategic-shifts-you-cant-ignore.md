@@ -1,9 +1,9 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: 探索2026年WhatsApp Business的5個關鍵轉變，包括共存、基於市場的定價、基於意圖的AI、驗證變更以及選擇正確的增長基礎。
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - 2026趨勢

@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: பிசினஸ் கருவிகள்
-date: 2026-01-29
+date: 2026-01-28
 meta_description: WhatsApp பிசினஸ் தீர்வுகளின் 2026 பரிணாமத்தை ஆராயுங்கள்—ஆப், பிரீமியம்
   மற்றும் API டயர்கள், விலை மாற்றங்கள் மற்றும் இணையற்ற மாற்றங்களுக்கு கோเக்ஸிஸ்டென்ஸ்
   போன்ற புதிய அம்சங்களை ஒப்பிடுங்கள்.
-modified_date: 2026-01-29
+modified_date: 2026-01-28
 tags:
 - WhatsApp Business
 - API

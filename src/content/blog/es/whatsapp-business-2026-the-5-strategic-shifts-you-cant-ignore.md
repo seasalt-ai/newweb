@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Empresarial
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Descubre las 5 transformaciones críticas de 2026 en WhatsApp Empresarial,
   que incluyen Coexistencia, precios basados en el mercado, IA basada en intenciones,
   cambios en la verificación y la elección de la base adecuada para el crecimiento.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Empresarial
 - Tendencias 2026

@@ -1,11 +1,11 @@
 ---
-author: SeaMeet Copilot
+author: Seasalt.ai Team
 category: WhatsApp Business
-date: '2026-01-29'
+date: '2026-01-28'
 meta_description: Explorează cele 5 schimbări critice din 2026 în WhatsApp Business,
   inclusiv Coexistence, prețuri bazate pe piață, AI bazat pe intenție, schimbări de
   verificare și alegerea bazei corecte pentru creștere.
-modified_date: '2026-01-29'
+modified_date: '2026-01-28'
 tags:
 - WhatsApp Business
 - Tendințe 2026
