@@ -386,17 +386,22 @@ const { lang } = Astro.props;
 </section>
 
 <script>
-  // Accordion toggle for mobile
-  document.querySelectorAll('details').forEach(detail => {
-    detail.addEventListener('toggle', () => {
-      const icon = detail.querySelector('svg');
-      if (detail.open) {
-        icon.style.transform = 'rotate(90deg)';
-      } else {
-        icon.style.transform = 'rotate(0deg)';
-      }
+  // Accordion toggle for mobile - scoped to component root
+  const root = document.getElementById('comparison');
+  if (root) {
+    root.querySelectorAll('details').forEach(detail => {
+      detail.addEventListener('toggle', () => {
+        const icon = detail.querySelector('summary svg');
+        if (icon) {
+          if (detail.open) {
+            icon.style.transform = 'rotate(90deg)';
+          } else {
+            icon.style.transform = 'rotate(0deg)';
+          }
+        }
+      });
     });
-  });
+  }
 </script>
 
 <style>

@@ -342,35 +342,38 @@ const { lang } = Astro.props;
 </section>
 
 <script>
-  // Tab switching logic
-  const tabs = document.querySelectorAll('.industry-tab');
-  const panels = document.querySelectorAll('.industry-panel');
+  // Tab switching logic - scoped to component root
+  const root = document.getElementById('use-cases');
+  if (root) {
+    const tabs = root.querySelectorAll('.industry-tab');
+    const panels = root.querySelectorAll('.industry-panel');
 
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      const industry = tab.dataset.industry;
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const industry = tab.dataset.industry;
 
-      // Update tab styles
-      tabs.forEach(t => {
-        t.classList.remove('active', 'bg-green-600', 'text-white');
-        t.classList.add('bg-gray-100', 'text-gray-700');
+        // Update tab styles
+        tabs.forEach(t => {
+          t.classList.remove('active', 'bg-green-600', 'text-white');
+          t.classList.add('bg-gray-100', 'text-gray-700');
+        });
+        tab.classList.add('active', 'bg-green-600', 'text-white');
+        tab.classList.remove('bg-gray-100', 'text-gray-700');
+
+        // Update panel visibility
+        panels.forEach(panel => {
+          panel.classList.add('hidden');
+          panel.classList.remove('active');
+        });
+
+        const activePanel = root.querySelector(`#panel-${industry}`);
+        if (activePanel) {
+          activePanel.classList.remove('hidden');
+          activePanel.classList.add('active');
+        }
       });
-      tab.classList.add('active', 'bg-green-600', 'text-white');
-      tab.classList.remove('bg-gray-100', 'text-gray-700');
-
-      // Update panel visibility
-      panels.forEach(panel => {
-        panel.classList.add('hidden');
-        panel.classList.remove('active');
-      });
-
-      const activePanel = document.getElementById(`panel-${industry}`);
-      if (activePanel) {
-        activePanel.classList.remove('hidden');
-        activePanel.classList.add('active');
-      }
     });
-  });
+  }
 </script>
 
 <style>

@@ -150,29 +150,29 @@ const { lang } = Astro.props;
 
                     <!-- connection visualization - below icons -->
                     <div class="relative h-12 flex items-center justify-center">
-                      <svg class="w-full max-w-[200px] h-full" viewbox="0 0 200 40">
+                      <svg class="w-full max-w-[200px] h-full" viewBox="0 0 200 40">
                         <!-- left connection (phone to hub) -->
                         <line x1="20" y1="20" x2="80" y2="20" stroke="#fde047" stroke-width="2" opacity="0.6">
-                          <animate attributename="stroke-dasharray" values="4 4;8 8;4 4" dur="2s" repeatcount="indefinite" />
+                          <animate attributeName="stroke-dasharray" values="4 4;8 8;4 4" dur="2s" repeatCount="indefinite" />
                         </line>
                         
                         <!-- right connection (hub to field) -->
                         <line x1="120" y1="20" x2="180" y2="20" stroke="#fde047" stroke-width="2" opacity="0.6">
-                          <animate attributename="stroke-dasharray" values="4 4;8 8;4 4" dur="2s" begin="0.5s" repeatcount="indefinite" />
+                          <animate attributeName="stroke-dasharray" values="4 4;8 8;4 4" dur="2s" begin="0.5s" repeatCount="indefinite" />
                         </line>
                         
                         <!-- animated dots -->
                         <circle cx="50" cy="20" r="3" fill="#fde047">
-                          <animate attributename="opacity" values="0.2;1;0.2" dur="1.5s" repeatcount="indefinite" />
+                          <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite" />
                         </circle>
                         <circle cx="150" cy="20" r="3" fill="#fde047">
-                          <animate attributename="opacity" values="0.2;1;0.2" dur="1.5s" begin="0.5s" repeatcount="indefinite" />
+                          <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" begin="0.5s" repeatCount="indefinite" />
                         </circle>
                         
                         <!-- center hub glow -->
                         <circle cx="100" cy="20" r="6" fill="#fde047" opacity="0.8">
-                          <animate attributename="r" values="4;7;4" dur="2s" repeatcount="indefinite" />
-                          <animate attributename="opacity" values="0.8;0.4;0.8" dur="2s" repeatcount="indefinite" />
+                          <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite" />
+                          <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite" />
                         </circle>
                       </svg>
                       
@@ -190,13 +190,13 @@ const { lang } = Astro.props;
                       <span class="text-green-100">live</span>
                     </div>
                     <div class="flex items-center gap-1.5">
-                      <svg class="w-3 h-3 text-yellow-300" fill="none" stroke="currentcolor" viewbox="0 0 24 24">
+                      <svg class="w-3 h-3 text-yellow-300" fill="none" stroke="currentcolor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                       </svg>
                       <span class="text-green-100">&lt;100ms</span>
                     </div>
                     <div class="flex items-center gap-1.5">
-                      <svg class="w-3 h-3 text-yellow-300" fill="none" stroke="currentcolor" viewbox="0 0 24 24">
+                      <svg class="w-3 h-3 text-yellow-300" fill="none" stroke="currentcolor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 4v5h.582m15.356 2a8.001 8.001 0 004.582 9m0 0h9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2h15"/>
                       </svg>
                       <span class="text-green-100">real-time</span>
@@ -206,11 +206,11 @@ const { lang } = Astro.props;
                 <!-- stats -->
                   <div class="grid grid-cols-3 gap-4 mt-6 pt-6 border-t border-white/20">
                     <div class="text-center">
-                      <p class="text-3xl font-bold text-yellow-300">unlimited</p>
+                      <p class="text-3xl font-bold text-yellow-300">Unlimited</p>
                       <p class="text-sm text-green-100">synced devides</p>
                     </div>
                     <div class="text-center">
-                      <p class="text-3xl font-bold text-yellow-300">unlimited</p>
+                      <p class="text-3xl font-bold text-yellow-300">Unlimited</p>
                       <p class="text-sm text-green-100">human users</p>
                     </div>
                     <div class="text-center">
@@ -235,9 +235,13 @@ const { lang } = Astro.props;
     });
   }, { threshold: 0.1 });
 
-  document.querySelectorAll('.animate-on-scroll').forEach(el => {
-    observer.observe(el);
-  });
+  // Scope query to component root to avoid affecting other elements
+  const heroRoot = document.querySelector('.relative.overflow-hidden');
+  if (heroRoot) {
+    heroRoot.querySelectorAll('.animate-on-scroll').forEach(el => {
+      observer.observe(el);
+    });
+  }
 </script>
 
 <style>

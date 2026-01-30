@@ -193,25 +193,31 @@ const { lang } = Astro.props;
 </section>
 
 <script>
-  // FAQ accordion behavior
-  document.querySelectorAll('details').forEach(detail => {
-    detail.addEventListener('toggle', () => {
-      const icon = detail.querySelector('svg');
-      if (detail.open) {
-        icon.style.transform = 'rotate(180deg)';
-      } else {
-        icon.style.transform = 'rotate(0deg)';
-      }
+  // Scope all queries to component root
+  const root = document.getElementById('resources');
+  if (root) {
+    // FAQ accordion behavior
+    root.querySelectorAll('details').forEach(detail => {
+      detail.addEventListener('toggle', () => {
+        const icon = detail.querySelector('summary svg');
+        if (icon) {
+          if (detail.open) {
+            icon.style.transform = 'rotate(180deg)';
+          } else {
+            icon.style.transform = 'rotate(0deg)';
+          }
+        }
+      });
     });
-  });
 
-  // Smooth scroll to resources section
-  document.querySelectorAll('a[href="#resources"]').forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.preventDefault();
-      document.getElementById('resources')?.scrollIntoView({ behavior: 'smooth' });
+    // Smooth scroll to resources section
+    document.querySelectorAll('a[href="#use-cases"]').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        document.getElementById('use-cases')?.scrollIntoView({ behavior: 'smooth' });
+      });
     });
-  });
+  }
 </script>
 
 <style>

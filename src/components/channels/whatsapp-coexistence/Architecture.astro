@@ -260,9 +260,13 @@ const { lang } = Astro.props;
     });
   }, { threshold: 0.1 });
 
-  document.querySelectorAll('.bg-white, .bg-gradient-to-r').forEach(el => {
-    observer.observe(el);
-  });
+  // Scope query to component root to avoid affecting other elements on the page
+  const root = document.getElementById('architecture');
+  if (root) {
+    root.querySelectorAll('.bg-white, .bg-gradient-to-r').forEach(el => {
+      observer.observe(el);
+    });
+  }
 </script>
 
 <style>
