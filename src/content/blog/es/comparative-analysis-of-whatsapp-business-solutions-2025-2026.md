@@ -1,41 +1,6 @@
 ---
 author: Seasalt.ai Team
-category: "Herramientas de Negocios  \n\n(Note: Depending on context, \"Business Tools\"\
-  \ can also be translated as \"Herramientas Empresariales\", but following the requirement\
-  \ to translate every word directly, \"Herramientas de Negocios\" is more literal.\
-  \ However, both are acceptable. Here, I've chosen the more literal translation to\
-  \ adhere strictly to the \"translate every single word\" instruction.)  \n\nWait,\
-  \ but the user said to output ONLY the translated text, no explanations. So I should\
-  \ just provide the translation. Let me finalize. The most accurate and literal translation\
-  \ is \"Herramientas de Negocios\" or \"Herramientas Empresariales\". Given the context\
-  \ of \"Business Tools\" as a heading, \"Herramientas Empresariales\" is commonly\
-  \ used. But to translate every word, \"Herramientas de Negocio\" (singular) or \"\
-  Herramientas de Negocios\" (plural). Let's go with \"Herramientas de Negocios\"\
-  \ as the plural form is more general.  \n\nSo the final translation is:  \n\nHerramientas\
-  \ de Negocios  \n\nOr  \n\nHerramientas Empresariales  \n\nBut which is better?\
-  \ Let me check again. The user wants every word translated. \"Business\" is \"negocio\"\
-  \ (noun), \"Tools\" is \"herramientas\" (noun). So \"Herramientas de Negocio\" (Tools\
-  \ of Business) is a direct translation. \"Herramientas Empresariales\" uses \"empresarial\"\
-  \ (adjective) which translates to \"business\" as an adjective. Both are correct,\
-  \ but the literal translation of each word is \"Herramientas de Negocio\".  \n\n\
-  Therefore, the translated text is:  \n\nHerramientas de Negocio  \n\nBut maybe plural\
-  \ is better. So:  \n\nHerramientas de Negocios  \n\nYes, that's better. So the final\
-  \ answer is:  \n\nHerramientas de Negocios</think>Herramientas de Negocios  \n\n\
-  (Note: La traducción literal más precisa es \"Herramientas de Negocios\", aunque\
-  \ \"Herramientas Empresariales\" también es común en contextos profesionales. Siguiendo\
-  \ la exigencia de traducir cada palabra, \"Herramientas de Negocios\" es la opción\
-  \ más directa.)  \n\nWait, no, the user said to output ONLY the translated text,\
-  \ no explanations. So I need to remove the note. The correct translation is:  \n\
-  \nHerramientas de Negocios  \n\nOr  \n\nHerramientas Empresariales  \n\nBut since\
-  \ the user wants every word translated, \"Business\" (negocio) and \"Tools\" (herramientas),\
-  \ the most literal is \"Herramientas de Negocio\" or \"Herramientas de Negocios\"\
-  . Let's go with \"Herramientas de Negocios\" as it's more natural.  \n\nFinal answer:\
-  \  \n\nHerramientas de Negocios  \n\n\nWait, but the original input was just \"\
-  Business Tools\" as a heading. The correct translation in Spanish, maintaining the\
-  \ structure, is either \"Herramientas de Negocios\" or \"Herramientas Empresariales\"\
-  . Both are correct, but \"Herramientas de Negocios\" translates each word directly.\
-  \ So the final translated text is:  \n\nHerramientas de Negocios  \n\n\nI think\
-  \ that's it. Let's go with that.</think>Herramientas de Negocios"
+category: Herramientas de Negocios
 date: 2026-01-28
 meta_description: 'Explore la evolución de 2026 de las soluciones de WhatsApp Business:
   compare las capas de App, Premium y API, los cambios en los precios y las nuevas
