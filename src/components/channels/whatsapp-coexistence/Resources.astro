@@ -6,9 +6,10 @@ export interface Props {
 }
 
 const { lang } = Astro.props;
+const uniqueId = `resources-${crypto.randomUUID()}`;
 ---
 
-<section id="resources" class="py-20 bg-white">
+<section id={uniqueId} class="py-20 bg-white">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
       <!-- Section Header -->
@@ -192,9 +193,9 @@ const { lang } = Astro.props;
   </div>
 </section>
 
-<script>
+<script define:vars={{ uniqueId }}>
   // Scope all queries to component root
-  const root = document.getElementById('resources');
+  const root = document.getElementById(uniqueId);
   if (root) {
     // FAQ accordion behavior
     root.querySelectorAll('details').forEach(detail => {

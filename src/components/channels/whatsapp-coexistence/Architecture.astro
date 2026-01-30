@@ -6,9 +6,10 @@ export interface Props {
 }
 
 const { lang } = Astro.props;
+const uniqueId = `architecture-${crypto.randomUUID()}`;
 ---
 
-<section id="architecture" class="py-20 bg-gray-50">
+<section id={uniqueId} class="py-20 bg-gray-50">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
       <!-- Section Header -->
@@ -250,7 +251,7 @@ const { lang } = Astro.props;
   </div>
 </section>
 
-<script>
+<script define:vars={{ uniqueId }}>
   // Add intersection observer for animations
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -261,7 +262,7 @@ const { lang } = Astro.props;
   }, { threshold: 0.1 });
 
   // Scope query to component root to avoid affecting other elements on the page
-  const root = document.getElementById('architecture');
+  const root = document.getElementById(uniqueId);
   if (root) {
     root.querySelectorAll('.bg-white, .bg-gradient-to-r').forEach(el => {
       observer.observe(el);

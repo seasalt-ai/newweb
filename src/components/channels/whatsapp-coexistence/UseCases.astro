@@ -6,9 +6,10 @@ export interface Props {
 }
 
 const { lang } = Astro.props;
+const uniqueId = `use-cases-${crypto.randomUUID()}`;
 ---
 
-<section id="use-cases" class="py-20 bg-white">
+<section id={uniqueId} class="py-20 bg-white">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
       <!-- Section Header -->
@@ -341,9 +342,9 @@ const { lang } = Astro.props;
   </div>
 </section>
 
-<script>
+<script define:vars={{ uniqueId }}>
   // Tab switching logic - scoped to component root
-  const root = document.getElementById('use-cases');
+  const root = document.getElementById(uniqueId);
   if (root) {
     const tabs = root.querySelectorAll('.industry-tab');
     const panels = root.querySelectorAll('.industry-panel');

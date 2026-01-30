@@ -6,10 +6,11 @@ export interface Props {
 }
 
 const { lang } = Astro.props;
+const uniqueId = `hero-${crypto.randomUUID()}`;
 
 ---
 
-<section class="relative overflow-hidden bg-gradient-to-br from-green-500 via-green-600 to-blue-600 text-white">
+<section id={uniqueId} class="relative overflow-hidden bg-gradient-to-br from-green-500 via-green-600 to-blue-600 text-white">
   <!-- Background Pattern -->
   <div class="absolute inset-0 opacity-10">
     <div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 32px 32px;"></div>
@@ -225,7 +226,7 @@ const { lang } = Astro.props;
   </div>
 </section>
 
-<script>
+<script define:vars={{ uniqueId }}>
   // Add scroll animation
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -236,7 +237,7 @@ const { lang } = Astro.props;
   }, { threshold: 0.1 });
 
   // Scope query to component root to avoid affecting other elements
-  const heroRoot = document.querySelector('.relative.overflow-hidden');
+  const heroRoot = document.getElementById(uniqueId);
   if (heroRoot) {
     heroRoot.querySelectorAll('.animate-on-scroll').forEach(el => {
       observer.observe(el);
