@@ -1,11 +1,13 @@
 ---
 import { Check, X, ChevronRight } from 'lucide-react';
+import { getTranslationHelpers } from '../../../i18n/helpers';
 
 export interface Props {
   lang: string;
 }
 
 const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
 const uniqueId = `comparison-${crypto.randomUUID()}`;
 ---
 
@@ -15,10 +17,10 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
       <!-- Section Header -->
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold text-gray-900 mb-4">
-          Compare WhatsApp Solutions
+          {t('whatsappCoexistence.comparison.title')}
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          See how WhatsApp Coexistence stacks up against alternatives
+          {t('whatsappCoexistence.comparison.subtitle')}
         </p>
       </div>
 
@@ -28,24 +30,24 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
           <thead>
             <tr class="bg-gradient-to-r from-green-500 to-green-600 text-white">
               <th class="px-6 py-4 text-left font-semibold">
-                Feature
+                {t('whatsappCoexistence.comparison.table.feature')}
               </th>
               <th class="px-6 py-4 text-center font-semibold">
                 <div class="flex flex-col items-center gap-2">
                   <img src="/logos/WhatsApp-Business-App.jpg" alt="WhatsApp Business App" class="w-8 h-8 rounded-lg shadow-sm"/>
-                  <span>Business App</span>
+                  <span>{t('whatsappCoexistence.comparison.table.businessApp')}</span>
                 </div>
               </th>
               <th class="px-6 py-4 text-center font-semibold">
                 <div class="flex flex-col items-center gap-2">
                   <img src="/logos/WhatsApp-Business-App.jpg" alt="WhatsApp Business Premium" class="w-8 h-8 rounded-lg shadow-sm"/>
-                  <span>Premium</span>
+                  <span>{t('whatsappCoexistence.comparison.table.premium')}</span>
                 </div>
               </th>
               <th class="px-6 py-4 text-center font-semibold">
                 <div class="flex flex-col items-center gap-2">
                   <img src="/logos/WhatsApp-Business-Platform.jpg" alt="WhatsApp Cloud API" class="w-8 h-8 rounded-lg shadow-sm"/>
-                  <span>Cloud API</span>
+                  <span>{t('whatsappCoexistence.comparison.table.cloudAPI')}</span>
                 </div>
               </th>
               <th class="px-6 py-4 text-center font-semibold bg-gradient-to-b from-yellow-300 to-yellow-500 text-green-900 border-4 border-yellow-300 shadow-lg transform scale-105">
@@ -55,8 +57,8 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
                     <span class="text-lg">+</span>
                     <img src="/logos/WhatsApp-Business-Platform.jpg" alt="" class="w-5 h-5 rounded"/>
                   </div>
-                  <span>Coexistence</span>
-                  <span class="inline-block bg-green-600 text-white text-[10px] px-2 py-0.5 rounded-full font-bold">RECOMMENDED</span>
+                  <span>{t('whatsappCoexistence.comparison.table.coexistence')}</span>
+                  <span class="inline-block bg-green-600 text-white text-[10px] px-2 py-0.5 rounded-full font-bold">{t('whatsappCoexistence.comparison.table.recommended')}</span>
                 </div>
               </th>
             </tr>
@@ -65,26 +67,26 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
             <!-- Row 1: Pricing -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Cost
+                {t('whatsappCoexistence.comparison.features.cost.name')}
               </td>
               <td class="px-6 py-4 text-center text-green-600 font-semibold">
-                Free
+                {t('whatsappCoexistence.comparison.features.cost.free')}
               </td>
               <td class="px-6 py-4 text-center text-gray-600">
-                $15-$350/month
+                {t('whatsappCoexistence.comparison.features.cost.premiumRange')}
               </td>
               <td class="px-6 py-4 text-center text-gray-600">
-                Per message
+                {t('whatsappCoexistence.comparison.features.cost.perMessage')}
               </td>
               <td class="px-6 py-4 text-center bg-green-50 font-semibold text-green-700">
-                Hybrid model
+                {t('whatsappCoexistence.comparison.features.cost.hybrid')}
               </td>
             </tr>
 
             <!-- Row 2: Phone Number -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Same Number
+                {t('whatsappCoexistence.comparison.features.sameNumber')}
               </td>
               <td class="px-6 py-4 text-center">
                 <Check class="w-6 h-6 text-green-600 mx-auto" />
@@ -103,7 +105,7 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
             <!-- Row 3: Chat History -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Chat History
+                {t('whatsappCoexistence.comparison.features.chatHistory')}
               </td>
               <td class="px-6 py-4 text-center">
                 <Check class="w-6 h-6 text-green-600 mx-auto" />
@@ -116,77 +118,77 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
               </td>
               <td class="px-6 py-4 text-center bg-green-50">
                 <Check class="w-6 h-6 text-green-700 mx-auto" />
-                <span class="block text-xs text-green-600">180 days</span>
+                <span class="block text-xs text-green-600">{t('whatsappCoexistence.comparison.days180')}</span>
               </td>
             </tr>
 
             <!-- Row 4: Multi-User Support -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Multi-User
+                {t('whatsappCoexistence.comparison.features.multiUser.name')}
               </td>
               <td class="px-6 py-4 text-center text-gray-500 text-sm">
-                5 devices
+                {t('whatsappCoexistence.comparison.features.multiUser.fiveDevices')}
               </td>
               <td class="px-6 py-4 text-center">
-                10 devices
+                {t('whatsappCoexistence.comparison.features.multiUser.tenDevices')}
               </td>
               <td class="px-6 py-4 text-center">
                 <Check class="w-6 h-6 text-green-600 mx-auto" />
-                <span class="block text-xs text-gray-500">Unlimited</span>
+                <span class="block text-xs text-gray-500">{t('whatsappCoexistence.comparison.features.multiUser.unlimited')}</span>
               </td>
               <td class="px-6 py-4 text-center bg-green-50">
                 <Check class="w-6 h-6 text-green-700 mx-auto" />
-                <span class="block text-xs text-green-600">Unlimited</span>
+                <span class="block text-xs text-green-600">{t('whatsappCoexistence.comparison.features.multiUser.unlimited')}</span>
               </td>
             </tr>
 
             <!-- Row 5: Automation -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Automation
+                {t('whatsappCoexistence.comparison.features.automation.name')}
               </td>
               <td class="px-6 py-4 text-center text-gray-500 text-sm">
-                Basic
+                {t('whatsappCoexistence.comparison.features.automation.basic')}
               </td>
               <td class="px-6 py-4 text-center text-gray-500 text-sm">
-                Basic
+                {t('whatsappCoexistence.comparison.features.automation.basic')}
               </td>
               <td class="px-6 py-4 text-center">
                 <Check class="w-6 h-6 text-green-600 mx-auto" />
-                <span class="block text-xs text-gray-500">Advanced AI</span>
+                <span class="block text-xs text-gray-500">{t('whatsappCoexistence.comparison.features.automation.advancedAI')}</span>
               </td>
               <td class="px-6 py-4 text-center bg-green-50">
                 <Check class="w-6 h-6 text-green-700 mx-auto" />
-                <span class="block text-xs text-green-600">AI + Human</span>
+                <span class="block text-xs text-green-600">{t('whatsappCoexistence.comparison.features.automation.aiHuman')}</span>
               </td>
             </tr>
 
             <!-- Row 6: Broadcast Limit -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Broadcast Limit
+                {t('whatsappCoexistence.comparison.features.broadcastLimit.name')}
               </td>
               <td class="px-6 py-4 text-center text-gray-500 text-sm">
-                256 contacts
+                {t('whatsappCoexistence.comparison.features.broadcastLimit.contacts256')}
               </td>
               <td class="px-6 py-4 text-center text-gray-500 text-sm">
-                256 contacts
+                {t('whatsappCoexistence.comparison.features.broadcastLimit.contacts256')}
               </td>
               <td class="px-6 py-4 text-center">
                 <Check class="w-6 h-6 text-green-600 mx-auto" />
-                <span class="block text-xs text-gray-500">Unlimited</span>
+                <span class="block text-xs text-gray-500">{t('whatsappCoexistence.comparison.features.broadcastLimit.unlimited')}</span>
               </td>
               <td class="px-6 py-4 text-center bg-green-50">
                 <Check class="w-6 h-6 text-green-700 mx-auto" />
-                <span class="block text-xs text-green-600">Unlimited</span>
+                <span class="block text-xs text-green-600">{t('whatsappCoexistence.comparison.features.broadcastLimit.unlimited')}</span>
               </td>
             </tr>
 
             <!-- Row 7: CRM Integration -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                CRM Integration
+                {t('whatsappCoexistence.comparison.features.crmIntegration')}
               </td>
               <td class="px-6 py-4 text-center">
                 <X class="w-6 h-6 text-red-500 mx-auto" />
@@ -205,7 +207,7 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
             <!-- Row 8: Verification Badge -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Verification
+                {t('whatsappCoexistence.comparison.features.verification')}
               </td>
               <td class="px-6 py-4 text-center">
                 <X class="w-6 h-6 text-red-500 mx-auto" />
@@ -224,7 +226,7 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
             <!-- Row 9: Group Chats -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Group Chats
+                {t('whatsappCoexistence.comparison.features.groupChats.name')}
               </td>
               <td class="px-6 py-4 text-center">
                 <Check class="w-6 h-6 text-green-600 mx-auto" />
@@ -237,17 +239,17 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
               </td>
               <td class="px-6 py-4 text-center bg-green-50">
                 <Check class="w-6 h-6 text-green-700 mx-auto" />
-                <span class="block text-xs text-green-600">App only</span>
+                <span class="block text-xs text-green-600">{t('whatsappCoexistence.comparison.features.groupChats.appOnly')}</span>
               </td>
             </tr>
 
             <!-- Row 10: Analytics -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Analytics
+                {t('whatsappCoexistence.comparison.features.analytics.name')}
               </td>
               <td class="px-6 py-4 text-center text-gray-500 text-sm">
-                Basic
+                {t('whatsappCoexistence.comparison.features.analytics.basic')}
               </td>
               <td class="px-6 py-4 text-center">
                 <Check class="w-6 h-6 text-green-600 mx-auto" />
@@ -263,40 +265,40 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
             <!-- Row 11: Throughput -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Max Throughput
+                {t('whatsappCoexistence.comparison.features.maxThroughput.name')}
               </td>
               <td class="px-6 py-4 text-center text-gray-500 text-sm">
-                Manual
+                {t('whatsappCoexistence.comparison.features.maxThroughput.manual')}
               </td>
               <td class="px-6 py-4 text-center text-gray-500 text-sm">
-                Manual
+                {t('whatsappCoexistence.comparison.features.maxThroughput.manual')}
               </td>
               <td class="px-6 py-4 text-center">
                 <Check class="w-6 h-6 text-green-600 mx-auto" />
-                <span class="block text-xs text-gray-500">80+ MPS</span>
+                <span class="block text-xs text-gray-500">{t('whatsappCoexistence.comparison.features.maxThroughput.mps80')}</span>
               </td>
               <td class="px-6 py-4 text-center bg-green-50">
                 <Check class="w-6 h-6 text-green-700 mx-auto" />
-                <span class="block text-xs text-green-600">20 MPS</span>
+                <span class="block text-xs text-green-600">{t('whatsappCoexistence.comparison.features.maxThroughput.mps20')}</span>
               </td>
             </tr>
 
             <!-- Row 12: Migration -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
-                Migration
+                {t('whatsappCoexistence.comparison.features.migration.name')}
               </td>
               <td class="px-6 py-4 text-center">
-                <span class="text-gray-400 text-sm">N/A</span>
+                <span class="text-gray-400 text-sm">{t('whatsappCoexistence.comparison.features.migration.na')}</span>
               </td>
               <td class="px-6 py-4 text-center">
-                <span class="text-gray-400 text-sm">N/A</span>
+                <span class="text-gray-400 text-sm">{t('whatsappCoexistence.comparison.features.migration.na')}</span>
               </td>
               <td class="px-6 py-4 text-center text-red-600 text-sm font-medium">
-                Disruptive
+                {t('whatsappCoexistence.comparison.features.migration.disruptive')}
               </td>
               <td class="px-6 py-4 text-center bg-green-50 text-green-700 font-semibold">
-                Seamless
+                {t('whatsappCoexistence.comparison.features.migration.seamless')}
               </td>
             </tr>
           </tbody>
@@ -310,61 +312,61 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
           <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between">
             <div class="flex items-center gap-3">
               <img src="/logos/WhatsApp-Business-App.jpg" alt="WhatsApp Business App" class="w-8 h-8 rounded-lg shadow-sm"/>
-              <span>WhatsApp Business App</span>
+              <span>{t('whatsappCoexistence.comparison.mobile.businessAppTitle')}</span>
             </div>
             <ChevronRight class="w-5 h-5 text-gray-500 transition-transform" />
           </summary>
           <div class="px-6 pb-4 text-gray-600 space-y-2">
-            <p><strong>Cost:</strong> Free</p>
-            <p><strong>Multi-User:</strong> 5 devices</p>
-            <p><strong>Automation:</strong> Basic</p>
-            <p><strong>Limit:</strong> 256 broadcast contacts</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.cost.name')}:</strong> {t('whatsappCoexistence.comparison.features.cost.free')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.multiUser.name')}:</strong> {t('whatsappCoexistence.comparison.features.multiUser.fiveDevices')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.automation.name')}:</strong> {t('whatsappCoexistence.comparison.features.automation.basic')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.broadcastLimit.name')}:</strong> {t('whatsappCoexistence.comparison.features.broadcastLimit.contacts256')}</p>
           </div>
         </details>
 
         <!-- Premium -->
         <details class="bg-gray-50 rounded-xl">
           <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between">
-            WhatsApp Business Premium
+            {t('whatsappCoexistence.comparison.mobile.premiumTitle')}
             <ChevronRight class="w-5 h-5 text-gray-500 transition-transform" />
           </summary>
           <div class="px-6 pb-4 text-gray-600 space-y-2">
-            <p><strong>Cost:</strong> $15-$350/month</p>
-            <p><strong>Multi-User:</strong> 10 devices</p>
-            <p><strong>Automation:</strong> Basic</p>
-            <p><strong>Limit:</strong> 256 broadcast contacts</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.cost.name')}:</strong> {t('whatsappCoexistence.comparison.features.cost.premiumRange')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.multiUser.name')}:</strong> {t('whatsappCoexistence.comparison.features.multiUser.tenDevices')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.automation.name')}:</strong> {t('whatsappCoexistence.comparison.features.automation.basic')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.broadcastLimit.name')}:</strong> {t('whatsappCoexistence.comparison.features.broadcastLimit.contacts256')}</p>
           </div>
         </details>
 
         <!-- API -->
         <details class="bg-gray-50 rounded-xl">
           <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between">
-            WhatsApp Business API
+            {t('whatsappCoexistence.comparison.mobile.apiTitle')}
             <ChevronRight class="w-5 h-5 text-gray-500 transition-transform" />
           </summary>
           <div class="px-6 pb-4 text-gray-600 space-y-2">
-            <p><strong>Cost:</strong> Per message</p>
-            <p><strong>Multi-User:</strong> Unlimited agents</p>
-            <p><strong>Automation:</strong> Advanced AI</p>
-            <p><strong>Throughput:</strong> 80+ MPS</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.cost.name')}:</strong> {t('whatsappCoexistence.comparison.features.cost.perMessage')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.multiUser.name')}:</strong> {t('whatsappCoexistence.comparison.features.multiUser.unlimited')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.automation.name')}:</strong> {t('whatsappCoexistence.comparison.features.automation.advancedAI')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.maxThroughput.name')}:</strong> {t('whatsappCoexistence.comparison.features.maxThroughput.mps80')}</p>
           </div>
         </details>
 
         <!-- Coexistence -->
         <details class="bg-green-50 rounded-xl border-2 border-green-300">
           <summary class="px-6 py-4 font-semibold text-green-900 cursor-pointer flex items-center justify-between">
-            WhatsApp Coexistence
+            {t('whatsappCoexistence.comparison.mobile.coexistenceTitle')}
             <span class="bg-yellow-400 px-3 py-1 rounded-full text-xs font-semibold text-green-900 ml-2">
-              Recommended
+              {t('whatsappCoexistence.comparison.table.recommended')}
             </span>
             <ChevronRight class="w-5 h-5 text-green-600 transition-transform" />
           </summary>
           <div class="px-6 pb-4 text-green-800 space-y-2">
-            <p><strong>Cost:</strong> Hybrid model (free app + paid API)</p>
-            <p><strong>Multi-User:</strong> Unlimited agents + mobile app</p>
-            <p><strong>Automation:</strong> AI + Human-in-the-loop</p>
-            <p><strong>Throughput:</strong> 20 MPS</p>
-            <p><strong>Migration:</strong> Seamless, 180-day history sync</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.cost.name')}:</strong> {t('whatsappCoexistence.comparison.features.cost.hybrid')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.multiUser.name')}:</strong> {t('whatsappCoexistence.comparison.features.multiUser.unlimited')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.automation.name')}:</strong> {t('whatsappCoexistence.comparison.features.automation.aiHuman')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.maxThroughput.name')}:</strong> {t('whatsappCoexistence.comparison.features.maxThroughput.mps20')}</p>
+            <p><strong>{t('whatsappCoexistence.comparison.features.migration.name')}:</strong> {t('whatsappCoexistence.comparison.features.migration.seamless')}, {t('whatsappCoexistence.comparison.days180')} {t('whatsappCoexistence.hero.stats.chatHistory.label')}</p>
           </div>
         </details>
       </div>
@@ -372,13 +374,13 @@ const uniqueId = `comparison-${crypto.randomUUID()}`;
       <!-- Bottom CTA -->
       <div class="mt-16 text-center">
         <p class="text-lg text-gray-600 mb-6">
-          Ready to upgrade to WhatsApp Coexistence?
+          {t('whatsappCoexistence.comparison.cta.title')}
         </p>
         <a
           href="https://seax.seasalt.ai/signup"
           class="inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
         >
-          Sign Up Now
+          {t('whatsappCoexistence.comparison.cta.button')}
           <ChevronRight class="ml-2 w-5 h-5" />
         </a>
       </div>

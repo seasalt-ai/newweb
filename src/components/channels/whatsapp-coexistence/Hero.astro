@@ -1,11 +1,13 @@
 ---
 import { MessageSquare, Smartphone, Zap, ArrowRight } from 'lucide-react';
+import { getTranslationHelpers } from '../../../i18n/helpers';
 
 export interface Props {
   lang: string;
 }
 
 const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
 const uniqueId = `hero-${crypto.randomUUID()}`;
 
 ---
@@ -34,15 +36,15 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
           <div class="space-y-8">
             <div class="inline-flex items-center px-4 py-2 bg-white/20 rounded-full text-sm font-medium backdrop-blur-sm">
               <Zap class="w-4 h-4 mr-2" />
-              <span>New for 2026</span>
+              <span>{t('whatsappCoexistence.hero.badge')}</span>
             </div>
 
             <h1 class="text-5xl lg:text-6xl font-bold leading-tight">
-              Keep Your WhatsApp Business App <span class="block text-yellow-300">AND Scale with WhatsApp Cloud API</span>
+              {t('whatsappCoexistence.hero.title')} <span class="block text-yellow-300">{t('whatsappCoexistence.hero.titleHighlight')}</span>
             </h1>
 
             <p class="text-xl lg:text-2xl text-green-100 leading-relaxed max-w-xl">
-              The end of the impossible choice. Use both simultaneously. No more trading personal touch for enterprise power.
+              {t('whatsappCoexistence.hero.subtitle')}
             </p>
 
             <!-- Key Benefits -->
@@ -52,8 +54,8 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                     <span class="text-green-900 font-bold">✓</span>
                   </div>
                   <div>
-                    <h3 class="font-semibold text-lg">Same Number</h3>
-                    <p class="text-green-100 text-sm">Keep your trusted business number</p>
+                    <h3 class="font-semibold text-lg">{t('whatsappCoexistence.hero.benefits.sameNumber.title')}</h3>
+                    <p class="text-green-100 text-sm">{t('whatsappCoexistence.hero.benefits.sameNumber.description')}</p>
                   </div>
                 </div>
 
@@ -62,8 +64,8 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                     <span class="text-green-900 font-bold">✓</span>
                   </div>
                   <div>
-                    <h3 class="font-semibold text-lg">No Data Loss</h3>
-                    <p class="text-green-100 text-sm">Sync 180 days of chat history</p>
+                    <h3 class="font-semibold text-lg">{t('whatsappCoexistence.hero.benefits.noDataLoss.title')}</h3>
+                    <p class="text-green-100 text-sm">{t('whatsappCoexistence.hero.benefits.noDataLoss.description')}</p>
                   </div>
                 </div>
 
@@ -72,8 +74,8 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                     <span class="text-green-900 font-bold">✓</span>
                   </div>
                   <div>
-                    <h3 class="font-semibold text-lg">Hybrid AI + Human</h3>
-                    <p class="text-green-100 text-sm">Scale automation, stay personal</p>
+                    <h3 class="font-semibold text-lg">{t('whatsappCoexistence.hero.benefits.hybridAI.title')}</h3>
+                    <p class="text-green-100 text-sm">{t('whatsappCoexistence.hero.benefits.hybridAI.description')}</p>
                   </div>
                 </div>
 
@@ -82,8 +84,8 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                     <span class="text-green-900 font-bold">✓</span>
                   </div>
                   <div>
-                    <h3 class="font-semibold text-lg">Zero Disruption</h3>
-                    <p class="text-green-100 text-sm">Seamless QR-code migration</p>
+                    <h3 class="font-semibold text-lg">{t('whatsappCoexistence.hero.benefits.zeroDisruption.title')}</h3>
+                    <p class="text-green-100 text-sm">{t('whatsappCoexistence.hero.benefits.zeroDisruption.description')}</p>
                   </div>
                 </div>
               </div>
@@ -94,14 +96,14 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                   href={`https://seasalt.ai/${lang}/signup`}
                   class="inline-flex items-center justify-center px-8 py-4 bg-yellow-400 hover:bg-yellow-300 text-green-900 font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
                 >
-                  Get Started Free
+                  {t('whatsappCoexistence.hero.cta.primary')}
                   <ArrowRight class="ml-2 w-5 h-5" />
                 </a>
                 <a
                   href={`https://wiki.seasalt.ai/${lang}/seax/seax-omni/whatsapp-coexistence/`}
                   class="inline-flex items-center justify-center px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg text-lg transition-all border-2 border-white/30 hover:border-white/50 backdrop-blur-sm"
                 >
-                  Learn How It Works
+                  {t('whatsappCoexistence.hero.cta.secondary')}
                 </a>
               </div>
           </div>
@@ -111,8 +113,8 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
             <!-- Main Visualization -->
               <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20 shadow-2xl">
                 <div class="text-center mb-6">
-                  <h3 class="text-2xl font-bold mb-2">The Tri-Sync System</h3>
-                  <p class="text-green-100">Real-time synchronization across three touchpoints</p>
+                  <h3 class="text-2xl font-bold mb-2">{t('whatsappCoexistence.hero.triSync.title')}</h3>
+                  <p class="text-green-100">{t('whatsappCoexistence.hero.triSync.subtitle')}</p>
                 </div>
 
                 <!-- Three Device Icons with Connection Lines -->
@@ -124,8 +126,8 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                           <img src="/logos/WhatsApp-Business-App.jpg" alt="WhatsApp Business App" class="w-full h-full object-cover"/>
                           <div class="absolute -inset-1 rounded-2xl border-2 border-yellow-300/50 animate-pulse"></div>
                         </div>
-                        <p class="font-semibold text-sm">Your Phone</p>
-                        <p class="text-xs text-green-100">WhatsApp Business App</p>
+                        <p class="font-semibold text-sm">{t('whatsappCoexistence.hero.triSync.phone.title')}</p>
+                        <p class="text-xs text-green-100">{t('whatsappCoexistence.hero.triSync.phone.subtitle')}</p>
                       </div>
 
                       <!-- dashboard (center - hub) -->
@@ -134,8 +136,8 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                           <img src="/seasalt-ai-icon.png" alt="whatsapp cloud api" class="w-full h-full object-cover"/>
                           <div class="absolute -inset-2 rounded-3xl bg-yellow-300/10 animate-ping"></div>
                         </div>
-                        <p class="font-semibold text-sm">seasalt.ai dashboard</p>
-                        <p class="text-xs text-green-100">central hub</p>
+                        <p class="font-semibold text-sm">{t('whatsappCoexistence.hero.triSync.dashboard.title')}</p>
+                        <p class="text-xs text-green-100">{t('whatsappCoexistence.hero.triSync.dashboard.subtitle')}</p>
                       </div>
 
                       <!-- field app -->
@@ -144,8 +146,8 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                           <img src="/seax-icon.png" alt="seasalt.ai" class="w-full h-full object-cover"/>
                           <div class="absolute -inset-1 rounded-2xl border-2 border-yellow-300/50 animate-pulse" style="animation-delay: 0.5s;"></div>
                         </div>
-                        <p class="font-semibold text-sm">field teams</p>
-                        <p class="text-xs text-green-100">mobile app</p>
+                        <p class="font-semibold text-sm">{t('whatsappCoexistence.hero.triSync.fieldTeams.title')}</p>
+                        <p class="text-xs text-green-100">{t('whatsappCoexistence.hero.triSync.fieldTeams.subtitle')}</p>
                       </div>
                     </div>
 
@@ -179,7 +181,7 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                       
                       <!-- sync label -->
                       <div class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 whitespace-nowrap">
-                        <span class="text-xs text-yellow-300 font-medium bg-green-700/50 px-2 py-0.5 rounded-full">real-time sync</span>
+                        <span class="text-xs text-yellow-300 font-medium bg-green-700/50 px-2 py-0.5 rounded-full">{t('whatsappCoexistence.hero.triSync.syncLabel')}</span>
                       </div>
                     </div>
                   </div>
@@ -188,35 +190,35 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                   <div class="flex items-center justify-center gap-4 text-xs">
                     <div class="flex items-center gap-1.5">
                       <span class="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></span>
-                      <span class="text-green-100">live</span>
+                      <span class="text-green-100">{t('whatsappCoexistence.hero.triSync.stats.live')}</span>
                     </div>
                     <div class="flex items-center gap-1.5">
                       <svg class="w-3 h-3 text-yellow-300" fill="none" stroke="currentcolor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                       </svg>
-                      <span class="text-green-100">&lt;100ms</span>
+                      <span class="text-green-100">{t('whatsappCoexistence.hero.triSync.stats.latency')}</span>
                     </div>
                     <div class="flex items-center gap-1.5">
                       <svg class="w-3 h-3 text-yellow-300" fill="none" stroke="currentcolor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m4 4v5h.582m15.356 2a8.001 8.001 0 004.582 9m0 0h9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2h15"/>
                       </svg>
-                      <span class="text-green-100">real-time</span>
+                      <span class="text-green-100">{t('whatsappCoexistence.hero.triSync.stats.realtime')}</span>
                     </div>
                   </div>
 
                 <!-- stats -->
                   <div class="grid grid-cols-3 gap-4 mt-6 pt-6 border-t border-white/20">
                     <div class="text-center">
-                      <p class="text-3xl font-bold text-yellow-300">Unlimited</p>
-                      <p class="text-sm text-green-100">synced devices</p>
+                      <p class="text-3xl font-bold text-yellow-300">{t('whatsappCoexistence.hero.stats.syncedDevices.value')}</p>
+                      <p class="text-sm text-green-100">{t('whatsappCoexistence.hero.stats.syncedDevices.label')}</p>
                     </div>
                     <div class="text-center">
-                      <p class="text-3xl font-bold text-yellow-300">Unlimited</p>
-                      <p class="text-sm text-green-100">human users</p>
+                      <p class="text-3xl font-bold text-yellow-300">{t('whatsappCoexistence.hero.stats.humanUsers.value')}</p>
+                      <p class="text-sm text-green-100">{t('whatsappCoexistence.hero.stats.humanUsers.label')}</p>
                     </div>
                     <div class="text-center">
-                      <p class="text-3xl font-bold text-yellow-300">180 Days</p>
-                      <p class="text-sm text-green-100">Chat History Sync</p>
+                      <p class="text-3xl font-bold text-yellow-300">{t('whatsappCoexistence.hero.stats.chatHistory.value')}</p>
+                      <p class="text-sm text-green-100">{t('whatsappCoexistence.hero.stats.chatHistory.label')}</p>
                     </div>
                   </div>
               </div>

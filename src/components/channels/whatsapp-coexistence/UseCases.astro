@@ -1,11 +1,13 @@
 ---
 import { Building2, ShoppingBag, Stethoscope, Package, ArrowRight, CheckCircle } from 'lucide-react';
+import { getTranslationHelpers } from '../../../i18n/helpers';
 
 export interface Props {
   lang: string;
 }
 
 const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
 const uniqueId = `use-cases-${crypto.randomUUID()}`;
 ---
 
@@ -15,10 +17,10 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
       <!-- Section Header -->
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold text-gray-900 mb-4">
-          Real-World Use Cases
+          {t('whatsappCoexistence.useCases.title')}
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          See how businesses across industries transform their customer experience with WhatsApp Coexistence
+          {t('whatsappCoexistence.useCases.subtitle')}
         </p>
       </div>
 
@@ -29,28 +31,28 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
           class="industry-tab active px-6 py-3 rounded-lg font-semibold transition-all bg-green-600 text-white"
           data-industry="banking"
         >
-          Banking
+          {t('whatsappCoexistence.useCases.tabs.banking')}
         </button>
         <button
           id="tab-retail"
           class="industry-tab px-6 py-3 rounded-lg font-semibold transition-all bg-gray-100 text-gray-700 hover:bg-gray-200"
           data-industry="retail"
         >
-          Retail
+          {t('whatsappCoexistence.useCases.tabs.retail')}
         </button>
         <button
           id="tab-healthcare"
           class="industry-tab px-6 py-3 rounded-lg font-semibold transition-all bg-gray-100 text-gray-700 hover:bg-gray-200"
           data-industry="healthcare"
         >
-          Healthcare
+          {t('whatsappCoexistence.useCases.tabs.healthcare')}
         </button>
         <button
           id="tab-ecommerce"
           class="industry-tab px-6 py-3 rounded-lg font-semibold transition-all bg-gray-100 text-gray-700 hover:bg-gray-200"
           data-industry="ecommerce"
         >
-          E-commerce
+          {t('whatsappCoexistence.useCases.tabs.ecommerce')}
         </button>
       </div>
 
@@ -65,8 +67,8 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <Building2 class="w-6 h-6 text-green-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">24/7 Customer Support</h3>
-                  <p class="text-gray-600">Automate mortgage and loan inquiries with AI. Complex cases routed to human agents instantly.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.banking.support247.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.banking.support247.description')}</p>
                 </div>
               </div>
 
@@ -75,8 +77,8 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <CheckCircle class="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Zero Abandonment Rate</h3>
-                  <p class="text-gray-600">AI handles 80% of repetitive queries. Customers never wait on hold.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.banking.zeroAbandonment.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.banking.zeroAbandonment.description')}</p>
                 </div>
               </div>
 
@@ -85,38 +87,38 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <Stethoscope class="w-6 h-6 text-yellow-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Compliance Ready</h3>
-                  <p class="text-gray-600">Full audit trails and archiving for regulatory requirements (GDPR, FINRA).</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.banking.compliance.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.banking.compliance.description')}</p>
                 </div>
               </div>
 
               <!-- Case Study -->
               <div class="bg-green-50 rounded-2xl p-6 border-2 border-green-200">
-                <p class="text-sm font-semibold text-green-800 mb-2">CASE STUDY: Bankia S.A.</p>
+                <p class="text-sm font-semibold text-green-800 mb-2">{t('whatsappCoexistence.useCases.banking.caseStudy.title')}</p>
                 <ul class="space-y-2 text-gray-700">
-                  <li>✓ 24/7 support achieved</li>
-                  <li>✓ Agent idle time reduced by 45%</li>
-                  <li>✓ Customer satisfaction: 9.1/10</li>
-                  <li>✓ Zero abandonment rate</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.banking.caseStudy.points.0')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.banking.caseStudy.points.1')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.banking.caseStudy.points.2')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.banking.caseStudy.points.3')}</li>
                 </ul>
               </div>
             </div>
 
             <!-- Stats Visual -->
             <div class="bg-gradient-to-br from-green-500 to-green-600 rounded-3xl p-8 text-white">
-              <h3 class="text-3xl font-bold mb-6">Results</h3>
+              <h3 class="text-3xl font-bold mb-6">{t('whatsappCoexistence.useCases.banking.results.title')}</h3>
               <div class="space-y-4">
                 <div class="flex justify-between items-center border-b border-white/30 pb-4">
-                  <span class="text-green-100">FAQ Resolution</span>
-                  <span class="text-4xl font-bold">80%</span>
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.banking.results.faqResolution.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.banking.results.faqResolution.value')}</span>
                 </div>
                 <div class="flex justify-between items-center border-b border-white/30 pb-4">
-                  <span class="text-green-100">Avg Response Time</span>
-                  <span class="text-4xl font-bold">&lt;30s</span>
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.banking.results.responseTime.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.banking.results.responseTime.value')}</span>
                 </div>
                 <div class="flex justify-between items-center">
-                  <span class="text-green-100">Cost Reduction</span>
-                  <span class="text-4xl font-bold">60%</span>
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.banking.results.costReduction.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.banking.results.costReduction.value')}</span>
                 </div>
               </div>
             </div>
@@ -132,8 +134,8 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <ShoppingBag class="w-6 h-6 text-purple-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">VIP Customer Handling</h3>
-                  <p class="text-gray-600">High-value customers get personal attention via mobile app. Routine queries automated.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.retail.vipHandling.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.retail.vipHandling.description')}</p>
                 </div>
               </div>
 
@@ -142,8 +144,8 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <Package class="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Order Management</h3>
-                  <p class="text-gray-600">Automated shipping updates and delivery notifications via API.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.retail.orderManagement.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.retail.orderManagement.description')}</p>
                 </div>
               </div>
 
@@ -152,38 +154,38 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <CheckCircle class="w-6 h-6 text-yellow-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Increased Conversions</h3>
-                  <p class="text-gray-600">Faster response times and personalized follow-ups drive sales.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.retail.conversions.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.retail.conversions.description')}</p>
                 </div>
               </div>
 
               <!-- Case Study -->
               <div class="bg-purple-50 rounded-2xl p-6 border-2 border-purple-200">
-                <p class="text-sm font-semibold text-purple-800 mb-2">CASE STUDY: D2C Beauty Brand</p>
+                <p class="text-sm font-semibold text-purple-800 mb-2">{t('whatsappCoexistence.useCases.retail.caseStudy.title')}</p>
                 <ul class="space-y-2 text-gray-700">
-                  <li>✓ First response time: 2h → 4 min</li>
-                  <li>✓ Conversion rate increase: 32%</li>
-                  <li>✓ Multi-agent collaboration enabled</li>
-                  <li>✓ CRM integration completed</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.retail.caseStudy.points.0')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.retail.caseStudy.points.1')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.retail.caseStudy.points.2')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.retail.caseStudy.points.3')}</li>
                 </ul>
               </div>
             </div>
 
             <!-- Stats Visual -->
             <div class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-3xl p-8 text-white">
-              <h3 class="text-3xl font-bold mb-6">Results</h3>
+              <h3 class="text-3xl font-bold mb-6">{t('whatsappCoexistence.useCases.retail.results.title')}</h3>
               <div class="space-y-4">
                 <div class="flex justify-between items-center border-b border-white/30 pb-4">
-                  <span class="text-purple-100">Response Time</span>
-                  <span class="text-4xl font-bold">97%</span>
+                  <span class="text-purple-100">{t('whatsappCoexistence.useCases.retail.results.responseTime.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.retail.results.responseTime.value')}</span>
                 </div>
                 <div class="flex justify-between items-center border-b border-white/30 pb-4">
-                  <span class="text-purple-100">Conversion Increase</span>
-                  <span class="text-4xl font-bold">32%</span>
+                  <span class="text-purple-100">{t('whatsappCoexistence.useCases.retail.results.conversion.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.retail.results.conversion.value')}</span>
                 </div>
                 <div class="flex justify-between items-center">
-                  <span class="text-purple-100">Team Efficiency</span>
-                  <span class="text-4xl font-bold">+50%</span>
+                  <span class="text-purple-100">{t('whatsappCoexistence.useCases.retail.results.efficiency.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.retail.results.efficiency.value')}</span>
                 </div>
               </div>
             </div>
@@ -199,8 +201,8 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <Stethoscope class="w-6 h-6 text-green-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Appointment Reminders</h3>
-                  <p class="text-gray-600">Automated reminders reduce no-shows by 60%. Patients confirm via WhatsApp.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.healthcare.appointments.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.healthcare.appointments.description')}</p>
                 </div>
               </div>
 
@@ -209,8 +211,8 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <CheckCircle class="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Secure Lab Results</h3>
-                  <p class="text-gray-600">HIPAA-compliant delivery of test results with end-to-end encryption.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.healthcare.labResults.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.healthcare.labResults.description')}</p>
                 </div>
               </div>
 
@@ -219,38 +221,38 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <Package class="w-6 h-6 text-yellow-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Patient Follow-ups</h3>
-                  <p class="text-gray-600">AI checks in after appointments. Escalates concerns to medical staff.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.healthcare.followups.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.healthcare.followups.description')}</p>
                 </div>
               </div>
 
               <!-- Case Study -->
               <div class="bg-green-50 rounded-2xl p-6 border-2 border-green-200">
-                <p class="text-sm font-semibold text-green-800 mb-2">CASE STUDY: AWS Connect + WhatsApp</p>
+                <p class="text-sm font-semibold text-green-800 mb-2">{t('whatsappCoexistence.useCases.healthcare.caseStudy.title')}</p>
                 <ul class="space-y-2 text-gray-700">
-                  <li>✓ HIPAA compliant messaging</li>
-                  <li>✓ 60% reduction in no-shows</li>
-                  <li>✓ Patient satisfaction: 4.8/5</li>
-                  <li>✓ Full audit trail maintained</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.healthcare.caseStudy.points.0')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.healthcare.caseStudy.points.1')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.healthcare.caseStudy.points.2')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.healthcare.caseStudy.points.3')}</li>
                 </ul>
               </div>
             </div>
 
             <!-- Stats Visual -->
             <div class="bg-gradient-to-br from-green-500 to-teal-600 rounded-3xl p-8 text-white">
-              <h3 class="text-3xl font-bold mb-6">Results</h3>
+              <h3 class="text-3xl font-bold mb-6">{t('whatsappCoexistence.useCases.healthcare.results.title')}</h3>
               <div class="space-y-4">
                 <div class="flex justify-between items-center border-b border-white/30 pb-4">
-                  <span class="text-green-100">No-Show Reduction</span>
-                  <span class="text-4xl font-bold">60%</span>
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.healthcare.results.noShow.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.healthcare.results.noShow.value')}</span>
                 </div>
                 <div class="flex justify-between items-center border-b border-white/30 pb-4">
-                  <span class="text-green-100">Patient Engagement</span>
-                  <span class="text-4xl font-bold">4.8/5</span>
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.healthcare.results.engagement.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.healthcare.results.engagement.value')}</span>
                 </div>
                 <div class="flex justify-between items-center">
-                  <span class="text-green-100">Compliance Score</span>
-                  <span class="text-4xl font-bold">100%</span>
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.healthcare.results.compliance.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.healthcare.results.compliance.value')}</span>
                 </div>
               </div>
             </div>
@@ -266,8 +268,8 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <ShoppingBag class="w-6 h-6 text-orange-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Abandoned Cart Recovery</h3>
-                  <p class="text-gray-600">Automated reminders recover 30% of abandoned carts.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.ecommerce.cartRecovery.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.ecommerce.cartRecovery.description')}</p>
                 </div>
               </div>
 
@@ -276,8 +278,8 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <Package class="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Shipping Updates</h3>
-                  <p class="text-gray-600">Real-time tracking notifications keep customers informed.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.ecommerce.shipping.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.ecommerce.shipping.description')}</p>
                 </div>
               </div>
 
@@ -286,38 +288,38 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
                   <CheckCircle class="w-6 h-6 text-yellow-600" />
                 </div>
                 <div>
-                  <h3 class="text-2xl font-bold text-gray-900 mb-2">VIP Support</h3>
-                  <p class="text-gray-600">High-value customers get human attention from mobile app.</p>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.ecommerce.vipSupport.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.ecommerce.vipSupport.description')}</p>
                 </div>
               </div>
 
               <!-- Case Study -->
               <div class="bg-orange-50 rounded-2xl p-6 border-2 border-orange-200">
-                <p class="text-sm font-semibold text-orange-800 mb-2">CASE STUDY: E-commerce Store</p>
+                <p class="text-sm font-semibold text-orange-800 mb-2">{t('whatsappCoexistence.useCases.ecommerce.caseStudy.title')}</p>
                 <ul class="space-y-2 text-gray-700">
-                  <li>✓ Cart recovery: 30% increase</li>
-                  <li>✓ Shipping queries: 85% automated</li>
-                  <li>✓ Response time: &lt;5 minutes</li>
-                  <li>✓ Customer satisfaction: 4.6/5</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.ecommerce.caseStudy.points.0')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.ecommerce.caseStudy.points.1')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.ecommerce.caseStudy.points.2')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.ecommerce.caseStudy.points.3')}</li>
                 </ul>
               </div>
             </div>
 
             <!-- Stats Visual -->
             <div class="bg-gradient-to-br from-orange-500 to-orange-600 rounded-3xl p-8 text-white">
-              <h3 class="text-3xl font-bold mb-6">Results</h3>
+              <h3 class="text-3xl font-bold mb-6">{t('whatsappCoexistence.useCases.ecommerce.results.title')}</h3>
               <div class="space-y-4">
                 <div class="flex justify-between items-center border-b border-white/30 pb-4">
-                  <span class="text-orange-100">Cart Recovery</span>
-                  <span class="text-4xl font-bold">30%</span>
+                  <span class="text-orange-100">{t('whatsappCoexistence.useCases.ecommerce.results.cartRecovery.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.ecommerce.results.cartRecovery.value')}</span>
                 </div>
                 <div class="flex justify-between items-center border-b border-white/30 pb-4">
-                  <span class="text-orange-100">Automation Rate</span>
-                  <span class="text-4xl font-bold">85%</span>
+                  <span class="text-orange-100">{t('whatsappCoexistence.useCases.ecommerce.results.automation.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.ecommerce.results.automation.value')}</span>
                 </div>
                 <div class="flex justify-between items-center">
-                  <span class="text-orange-100">Customer Satisfaction</span>
-                  <span class="text-4xl font-bold">4.6/5</span>
+                  <span class="text-orange-100">{t('whatsappCoexistence.useCases.ecommerce.results.satisfaction.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.ecommerce.results.satisfaction.value')}</span>
                 </div>
               </div>
             </div>
@@ -328,13 +330,13 @@ const uniqueId = `use-cases-${crypto.randomUUID()}`;
       <!-- Bottom CTA -->
       <div class="mt-16 text-center">
         <p class="text-lg text-gray-600 mb-6">
-          Transform your industry with WhatsApp Coexistence
+          {t('whatsappCoexistence.useCases.cta.title')}
         </p>
         <a
           href="https://seax.seasalt.ai/signup"
           class="inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
         >
-          Sign Up Now
+          {t('whatsappCoexistence.useCases.cta.button')}
           <ArrowRight class="ml-2 w-5 h-5" />
         </a>
       </div>

@@ -1,11 +1,13 @@
 ---
 import { Book, Code, FileText, ChevronRight, ChevronDown, ExternalLink, ArrowRight } from 'lucide-react';
+import { getTranslationHelpers } from '../../../i18n/helpers';
 
 export interface Props {
   lang: string;
 }
 
 const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
 const uniqueId = `resources-${crypto.randomUUID()}`;
 ---
 
@@ -15,10 +17,10 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
       <!-- Section Header -->
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold text-gray-900 mb-4">
-          Resources & Documentation
+          {t('whatsappCoexistence.resources.title')}
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Everything you need to implement WhatsApp Coexistence
+          {t('whatsappCoexistence.resources.subtitle')}
         </p>
       </div>
 
@@ -32,12 +34,12 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
           <div class="w-14 h-14 bg-green-500 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-green-600 transition-colors">
             <Book class="w-8 h-8 text-white" />
           </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">Official Wiki Guide</h3>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.resources.cards.wiki.title')}</h3>
           <p class="text-gray-600 mb-4">
-            Complete technical documentation on WhatsApp Coexistence implementation, best practices, and troubleshooting.
+            {t('whatsappCoexistence.resources.cards.wiki.description')}
           </p>
           <div class="flex items-center text-green-600 font-semibold group-hover:text-green-700">
-            Read Documentation
+            {t('whatsappCoexistence.resources.cards.wiki.cta')}
             <ChevronRight class="w-5 h-5 ml-2" />
           </div>
         </a>
@@ -50,12 +52,12 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
           <div class="w-14 h-14 bg-blue-500 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
             <Code class="w-8 h-8 text-white" />
           </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">Meta Developer Docs</h3>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.resources.cards.developer.title')}</h3>
           <p class="text-gray-600 mb-4">
-            Official Meta documentation for embedded signup, webhooks, and API integration.
+            {t('whatsappCoexistence.resources.cards.developer.description')}
           </p>
           <div class="flex items-center text-blue-600 font-semibold group-hover:text-blue-700">
-            View API Reference
+            {t('whatsappCoexistence.resources.cards.developer.cta')}
             <ChevronRight class="w-5 h-5 ml-2" />
           </div>
         </a>
@@ -68,12 +70,12 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
           <div class="w-14 h-14 bg-purple-500 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-purple-600 transition-colors">
             <FileText class="w-8 h-8 text-white" />
           </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">Case Studies</h3>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.resources.cards.caseStudies.title')}</h3>
           <p class="text-gray-600 mb-4">
-            Real-world implementations from banking, retail, healthcare, and e-commerce industries.
+            {t('whatsappCoexistence.resources.cards.caseStudies.description')}
           </p>
           <div class="flex items-center text-purple-600 font-semibold group-hover:text-purple-700">
-            View Use Cases
+            {t('whatsappCoexistence.resources.cards.caseStudies.cta')}
             <ChevronRight class="w-5 h-5 ml-2" />
           </div>
         </a>
@@ -82,95 +84,95 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
       <!-- FAQ Section -->
       <div class="max-w-4xl mx-auto">
         <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">
-          Frequently Asked Questions
+          {t('whatsappCoexistence.resources.faq.title')}
         </h3>
 
         <div class="space-y-4">
           <!-- FAQ 1 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
             <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              What is WhatsApp Coexistence?
+              {t('whatsappCoexistence.resources.faq.questions.q1.question')}
               <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              WhatsApp Coexistence is a feature that allows businesses to use both WhatsApp Business App and WhatsApp Cloud API on the same phone number, simultaneously. Messages are synced in real-time between both platforms, enabling you to keep the personal touch of the mobile app while leveraging the automation and scale of the API.
+              {t('whatsappCoexistence.resources.faq.questions.q1.answer')}
             </div>
           </details>
 
           <!-- FAQ 2 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
             <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              Do I need to change my phone number?
+              {t('whatsappCoexistence.resources.faq.questions.q2.question')}
               <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              No! One of the key benefits of WhatsApp Coexistence is that you keep your existing phone number. You don't need to get a new number or change your existing one. The QR-code based onboarding process links your current WhatsApp Business App number to the Cloud API.
+              {t('whatsappCoexistence.resources.faq.questions.q2.answer')}
             </div>
           </details>
 
           <!-- FAQ 3 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
             <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              Will I lose my chat history?
+              {t('whatsappCoexistence.resources.faq.questions.q3.question')}
               <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              No, you can preserve up to 180 days of chat history during onboarding. When you link your WhatsApp Business App to the Cloud API via the embedded signup process, you have the option to import your last six months of conversation history and contacts. However, this must be done within 24 hours of completing the onboarding process.
+              {t('whatsappCoexistence.resources.faq.questions.q3.answer')}
             </div>
           </details>
 
           <!-- FAQ 4 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
             <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              How does the pricing work?
+              {t('whatsappCoexistence.resources.faq.questions.q4.question')}
               <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              WhatsApp Coexistence enables a hybrid pricing model. Messages sent manually from the WhatsApp Business App remain 100% free. Messages sent via the Cloud API (including automated messages, templates, and broadcasts) follow Meta's conversation-based pricing model. This allows you to optimize costs by using free app messaging for personal 1:1 conversations and API messaging for scale and automation.
+              {t('whatsappCoexistence.resources.faq.questions.q4.answer')}
             </div>
           </details>
 
           <!-- FAQ 5 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
             <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              What are the technical limitations?
+              {t('whatsappCoexistence.resources.faq.questions.q5.question')}
               <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              The main technical limitations are: 1) Throughput is capped at 20 messages per second (MPS) for coexistence accounts, compared to higher limits for standalone API accounts; 2) You must open the WhatsApp Business App at least once every 13-14 days to maintain the sync connection; 3) Some app features are disabled, including group chats syncing, disappearing messages, view-once media, and message editing/revoking.
+              {t('whatsappCoexistence.resources.faq.questions.q5.answer')}
             </div>
           </details>
 
           <!-- FAQ 6 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
             <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              Is it available in all countries?
+              {t('whatsappCoexistence.resources.faq.questions.q6.question')}
               <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              No, WhatsApp Coexistence is currently in a phased rollout. As of January 2026, it's not available in certain regions including Nigeria and South Africa. Businesses with phone numbers from these countries are currently ineligible and will need to choose between standalone App or standalone API.
+              {t('whatsappCoexistence.resources.faq.questions.q6.answer')}
             </div>
           </details>
 
           <!-- FAQ 7 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
             <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              How long does migration take?
+              {t('whatsappCoexistence.resources.faq.questions.q7.question')}
               <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              The migration process is designed to be quick and seamless. The QR-code based embedded signup flow typically takes 5-10 minutes to complete. If you choose to import chat history, this will happen in the background. The entire process can be completed in under 15 minutes with no disruption to your ongoing WhatsApp operations.
+              {t('whatsappCoexistence.resources.faq.questions.q7.answer')}
             </div>
           </details>
 
           <!-- FAQ 8 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
             <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              What happens if I stop using it?
+              {t('whatsappCoexistence.resources.faq.questions.q8.question')}
               <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              You can discontinue using the Cloud API at any time. Your WhatsApp Business App will continue to work normally with your number. However, you'll lose access to the automation, multi-agent features, and CRM integration that the API provided. You won't be able to reactivate coexistence for that number until you contact Meta support and complete a new onboarding process.
+              {t('whatsappCoexistence.resources.faq.questions.q8.answer')}
             </div>
           </details>
         </div>
@@ -179,13 +181,13 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
       <!-- Bottom CTA -->
       <div class="mt-16 text-center">
         <p class="text-lg text-gray-600 mb-6">
-          Still have questions about WhatsApp Coexistence?
+          {t('whatsappCoexistence.resources.cta.title')}
         </p>
         <a
           href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
           class="inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
         >
-          Book A Demo Meeting
+          {t('whatsappCoexistence.resources.cta.button')}
           <ArrowRight class="ml-2 w-5 h-5" />
         </a>
       </div>

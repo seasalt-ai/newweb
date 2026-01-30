@@ -1,9 +1,12 @@
 ---
+import { getTranslationHelpers } from '../../../i18n/helpers';
+
 export interface Props {
   lang: string;
 }
 
 const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
 ---
 
 <!-- Walkthrough Section -->
@@ -11,13 +14,13 @@ const { lang } = Astro.props;
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
       <h2 class="text-base font-bold text-green-600 tracking-wide uppercase">
-        The Setup Walkthrough
+        {t('whatsappCoexistence.walkthrough.overline')}
       </h2>
       <h3 class="text-3xl font-bold text-gray-900 mt-4">
-        Get Started in Minutes
+        {t('whatsappCoexistence.walkthrough.title')}
       </h3>
       <p class="text-gray-500 mt-2">
-        No coding required. Just scan and sync.
+        {t('whatsappCoexistence.walkthrough.subtitle')}
       </p>
     </div>
 
@@ -28,8 +31,8 @@ const { lang } = Astro.props;
       <!-- Step 1 -->
       <div class="flex flex-col md:flex-row items-center justify-between mb-16 relative">
         <div class="md:w-5/12 text-right md:text-right order-1 md:order-1 pr-0 md:pr-12">
-          <h4 class="text-2xl font-bold text-gray-900 mb-2">1. Add New Channel</h4>
-          <p class="text-gray-600">Navigate to <strong>Seasalt.ai Workspace</strong>. Select "Channels" and choose new "WhatsApp Coexistence" option.</p>
+          <h4 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.walkthrough.steps.step1.title')}</h4>
+          <p class="text-gray-600" set:html={t('whatsappCoexistence.walkthrough.steps.step1.description')}></p>
         </div>
         <div class="absolute left-1/2 transform -translate-x-1/2 w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold z-10 border-4 border-white order-2">1</div>
         <div class="md:w-5/12 pl-0 md:pl-12 order-3 md:order-3 mt-6 md:mt-0">
@@ -41,10 +44,10 @@ const { lang } = Astro.props;
               </svg>
               <div>
                 <div class="font-bold text-sm text-gray-800">WhatsApp Coexistence</div>
-                <div class="text-xs text-green-600">Best Offering</div>
+                <div class="text-xs text-green-600">{t('whatsappCoexistence.walkthrough.ui.bestOffering')}</div>
               </div>
               <button class="ml-auto bg-green-600 hover:bg-green-700 text-white text-xs px-4 py-2 rounded transition-colors font-semibold">
-                Connect
+                {t('whatsappCoexistence.walkthrough.ui.connect')}
               </button>
             </div>
           </div>
@@ -54,10 +57,8 @@ const { lang } = Astro.props;
       <!-- Step 2 -->
       <div class="flex flex-col md:flex-row items-center justify-between mb-16 relative">
         <div class="md:w-5/12 text-right md:text-left order-1 md:order-3 pl-0 md:pl-12">
-          <h4 class="text-2xl font-bold text-gray-900 mb-2">2. Link Meta Account</h4>
-          <p class="text-gray-600">
-            Log in with your Facebook account. Select your business portfolio. Crucially, choose option <strong>"Connect a WhatsApp Business App"</strong>.
-          </p>
+          <h4 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.walkthrough.steps.step2.title')}</h4>
+          <p class="text-gray-600" set:html={t('whatsappCoexistence.walkthrough.steps.step2.description')}></p>
         </div>
         <div class="absolute left-1/2 transform -translate-x-1/2 w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold z-10 border-4 border-white order-2">2</div>
         <div class="md:w-5/12 pr-0 md:pr-12 order-1 md:order-1 mt-6 md:mt-0">
@@ -67,11 +68,11 @@ const { lang } = Astro.props;
               <div class="bg-green-50 border-2 border-green-300 rounded-lg p-4">
                 <div class="text-center mb-2">
                   <p class="text-sm font-medium text-green-800">
-                    Connect a WhatsApp Business App
+                    {t('whatsappCoexistence.walkthrough.steps.step2.description').split('"')[1]}
                   </p>
                 </div>
               </div>
-              <div class="text-center text-xs text-gray-500">Create new WABA Account</div>
+              <div class="text-center text-xs text-gray-500">{t('whatsappCoexistence.walkthrough.ui.createWABA')}</div>
             </div>
           </div>
         </div>
@@ -80,10 +81,8 @@ const { lang } = Astro.props;
       <!-- Step 3 -->
       <div class="flex flex-col md:flex-row items-center justify-between relative">
         <div class="md:w-5/12 text-right md:text-right order-1 md:order-1 pr-0 md:pr-12">
-          <h4 class="text-2xl font-bold text-gray-900 mb-2">3. Scan & Sync</h4>
-          <p class="text-gray-600">
-            A QR code will appear. Open <strong>Linked Devices</strong> on your phone and scan it. We instantly begin syncing up to <span class="text-green-600 font-bold">6 months</span> of chat history.
-          </p>
+          <h4 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.walkthrough.steps.step3.title')}</h4>
+          <p class="text-gray-600" set:html={t('whatsappCoexistence.walkthrough.steps.step3.description')}></p>
         </div>
         <div class="absolute left-1/2 transform -translate-x-1/2 w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold z-10 border-4 border-white order-2">3</div>
         <div class="md:w-5/12 pl-0 md:pl-12 order-3 md:order-3 mt-6 md:mt-0">
@@ -177,7 +176,7 @@ const { lang } = Astro.props;
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7V5a2 2 0 012-2h2m0 18H5a2 2 0 01-2-2v-2m18 0v2a2 2 0 01-2 2h-2m0-18h2a2 2 0 012 2v2"/>
                 </svg>
-                Scan with your phone
+                {t('whatsappCoexistence.walkthrough.ui.scanInstruction')}
               </p>
             </div>
             
@@ -189,7 +188,7 @@ const { lang } = Astro.props;
                     <circle class="opacity-25" cx="12" cy="12" r="10" stroke-width="4"/>
                     <path class="opacity-75" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"/>
                   </svg>
-                  Syncing history...
+                  {t('whatsappCoexistence.walkthrough.ui.syncing')}
                 </span>
                 <span>75%</span>
               </div>
@@ -197,7 +196,7 @@ const { lang } = Astro.props;
                 <div class="bg-green-500 h-2 rounded-full transition-all duration-1000" style="width: 75%"></div>
               </div>
               <p class="text-center text-green-400 text-xs mt-2 font-medium">
-                180 days of chat history
+                {t('whatsappCoexistence.walkthrough.ui.historyLabel')}
               </p>
             </div>
           </div>

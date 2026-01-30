@@ -1,11 +1,13 @@
 ---
 import { ArrowRight, Smartphone, Users, Zap, Clock, Inbox } from 'lucide-react';
+import { getTranslationHelpers } from '../../../i18n/helpers';
 
 export interface Props {
   lang: string;
 }
 
 const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
 ---
 
 <!-- Features Section -->
@@ -13,10 +15,10 @@ const { lang } = Astro.props;
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
-        A Unified Omni-Channel Engine
+        {t('whatsappCoexistence.features.title')}
       </h2>
       <p class="text-gray-600 mt-4 max-w-3xl mx-auto">
-        It's not just about syncing; it's about upgrading your entire customer support infrastructure.
+        {t('whatsappCoexistence.features.subtitle')}
       </p>
     </div>
 
@@ -29,10 +31,10 @@ const { lang } = Astro.props;
           </span>
         </div>
         <h3 class="text-xl font-bold mb-3">
-          3-Way Synchronization
+          {t('whatsappCoexistence.features.items.sync.title')}
         </h3>
         <p class="text-gray-600 leading-relaxed">
-          Messages sync instantly between your Phone, Seasalt Web Dashboard, and Seasalt Mobile App. Send from anywhere, see it everywhere.
+          {t('whatsappCoexistence.features.items.sync.description')}
         </p>
       </div>
 
@@ -42,10 +44,10 @@ const { lang } = Astro.props;
           <Users class="w-6 h-6" />
         </div>
         <h3 class="text-xl font-bold mb-3">
-          Unlimited Agents
+          {t('whatsappCoexistence.features.items.agents.title')}
         </h3>
         <p class="text-gray-600 leading-relaxed">
-          Break the 4-device limit. Add 10, 50, or 100 agents to the same WhatsApp number. Assign conversations to human agents or AI bots seamlessly.
+          {t('whatsappCoexistence.features.items.agents.description')}
         </p>
       </div>
 
@@ -55,10 +57,10 @@ const { lang } = Astro.props;
           <Zap class="w-6 h-6" />
         </div>
         <h3 class="text-xl font-bold mb-3">
-          AI Agent Handoff
+          {t('whatsappCoexistence.features.items.aiHandoff.title')}
         </h3>
         <p class="text-gray-600 leading-relaxed">
-          Enable AI Agents to handle off-hours inquiries on the platform, while you monitor results directly on your personal phone.
+          {t('whatsappCoexistence.features.items.aiHandoff.description')}
         </p>
       </div>
 
@@ -68,10 +70,10 @@ const { lang } = Astro.props;
           <Clock class="w-6 h-6" />
         </div>
         <h3 class="text-xl font-bold mb-3">
-          6-Month History Import
+          {t('whatsappCoexistence.features.items.history.title')}
         </h3>
         <p class="text-gray-600 leading-relaxed">
-          Don't start from scratch. We automatically pull in the last 6 months of chat history so your team has full context immediately.
+          {t('whatsappCoexistence.features.items.history.description')}
         </p>
       </div>
 
@@ -81,10 +83,10 @@ const { lang } = Astro.props;
           <Smartphone class="w-6 h-6" />
         </div>
         <h3 class="text-xl font-bold mb-3">
-          Seasalt Mobile App
+          {t('whatsappCoexistence.features.items.mobileApp.title')}
         </h3>
         <p class="text-gray-600 leading-relaxed">
-          Employees don't need access to your physical phone. They can use Seasalt.ai App on their own devices to reply to customers on the go.
+          {t('whatsappCoexistence.features.items.mobileApp.description')}
         </p>
       </div>
 
@@ -94,10 +96,10 @@ const { lang } = Astro.props;
           <Inbox class="w-6 h-6" />
         </div>
         <h3 class="text-xl font-bold mb-3">
-          Unified Inbox
+          {t('whatsappCoexistence.features.items.unifiedInbox.title')}
         </h3>
         <p class="text-gray-600 leading-relaxed">
-          Combine WhatsApp with SMS, Messenger, LINE, and Instagram in one single view. Stop tab-switching and start solving.
+          {t('whatsappCoexistence.features.items.unifiedInbox.description')}
         </p>
       </div>
     </div>
@@ -108,7 +110,7 @@ const { lang } = Astro.props;
         href="https://seax.seasalt.ai/signup"
         class="inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl"
       >
-        Start Using WhatsApp Coexistence
+        {t('whatsappCoexistence.features.cta')}
         <ArrowRight class="ml-2 w-5 h-5" />
       </a>
     </div>

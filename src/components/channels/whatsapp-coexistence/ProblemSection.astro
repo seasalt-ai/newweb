@@ -1,0 +1,217 @@
+---
+import { getTranslationHelpers } from '../../../i18n/helpers';
+
+export interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+---
+
+<section id="problem" class="py-20 bg-slate-50">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Pain Point Header -->
+    <div class="text-center mb-8">
+      <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+        {t('whatsappCoexistence.problem.title')} <span class="text-red-600">{t('whatsappCoexistence.problem.impossibleChoice')}</span>:
+      </h2>
+      <h3 class="text-2xl md:text-3xl font-semibold text-gray-700">
+        {t('whatsappCoexistence.problem.subtitlePart1')} <span class="text-gray-400">{t('whatsappCoexistence.problem.or')}</span> {t('whatsappCoexistence.problem.subtitlePart2')}
+      </h3>
+      <p class="text-xl text-gray-600 leading-relaxed">
+        <span class="text-red-600 font-semibold shadow-md">{t('whatsappCoexistence.problem.untilNow')}</span>
+      </p>
+    </div>
+
+    
+    <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto relative">
+      <!-- VS Divider for Mobile -->
+      <div class="md:hidden absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+        <div class="bg-slate-200 text-slate-600 text-sm font-bold px-3 py-1 rounded-full shadow-sm">
+          {t('whatsappCoexistence.problem.vs')}
+        </div>
+      </div>
+      <!-- WhatsApp Business App Card - The Trap -->
+      <div class="relative">
+        <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm z-10">
+          {t('whatsappCoexistence.problem.businessApp.badge')}
+        </div>
+        <div class="p-10 rounded-2xl bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-200 shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-14 h-14 rounded-xl overflow-hidden shadow-md">
+              <img src="/logos/WhatsApp-Business-App.jpg" alt="WhatsApp Business App" class="w-full h-full object-cover"/>
+            </div>
+            <div>
+              <h4 class="text-xl font-bold text-gray-800">{t('whatsappCoexistence.problem.businessApp.title')}</h4>
+              <p class="text-sm text-gray-500">{t('whatsappCoexistence.problem.businessApp.subtitle')}</p>
+            </div>
+          </div>
+          
+          <div class="space-y-4">
+            <div class="bg-white/60 rounded-lg p-3">
+              <p class="text-green-700 font-medium text-sm mb-2">{t('whatsappCoexistence.problem.whatYouGet')}</p>
+              <ul class="text-sm text-gray-600 space-y-1">
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                  {t('whatsappCoexistence.problem.businessApp.pros.mobile')}
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                  {t('whatsappCoexistence.problem.businessApp.pros.free')}
+                </li>
+              </ul>
+            </div>
+            
+            <div class="bg-red-50 rounded-lg p-3 border border-red-100">
+              <p class="text-red-700 font-medium text-sm mb-2">{t('whatsappCoexistence.problem.dealbreaker')}</p>
+              
+              <!-- 4 Devices Limit Visualization -->
+              <div class="mb-3 bg-white rounded-lg p-3 border border-red-100">
+                <div class="flex items-center justify-center gap-1 mb-2">
+                  <!-- 4 Connected Devices -->
+                  <div class="flex -space-x-2">
+                    <div class="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center border-2 border-green-300">
+                      <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <rect x="6" y="4" width="12" height="16" rx="2" stroke-width="2"/>
+                      </svg>
+                    </div>
+                    <div class="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center border-2 border-green-300">
+                      <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <rect x="6" y="4" width="12" height="16" rx="2" stroke-width="2"/>
+                      </svg>
+                    </div>
+                    <div class="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center border-2 border-green-300">
+                      <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <rect x="6" y="4" width="12" height="16" rx="2" stroke-width="2"/>
+                      </svg>
+                    </div>
+                    <div class="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center border-2 border-green-300">
+                      <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <rect x="6" y="4" width="12" height="16" rx="2" stroke-width="2"/>
+                      </svg>
+                    </div>
+                  </div>
+                  <!-- Locked Icon -->
+                  <div class="ml-2 w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center border-2 border-red-300">
+                    <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                    </svg>
+                  </div>
+                </div>
+                <p class="text-xs text-center text-red-600 font-semibold">{t('whatsappCoexistence.problem.businessApp.cons.devices')}</p>
+                <p class="text-xs text-center text-gray-500 mt-1">{t('whatsappCoexistence.problem.businessApp.cons.fifthMember')}</p>
+              </div>
+              
+              <ul class="text-sm text-gray-700 space-y-1">
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                  <strong>{t('whatsappCoexistence.problem.businessApp.cons.fourDevices')}</strong>
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                  {t('whatsappCoexistence.problem.businessApp.cons.cannotAdd')}
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                  {t('whatsappCoexistence.problem.businessApp.cons.noAutomation')}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cloud API Card - The Other Trap -->
+      <div class="relative">
+        <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm z-10">
+          {t('whatsappCoexistence.problem.cloudAPI.badge')}
+        </div>
+        <div class="p-10 rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-100 border-2 border-blue-200 shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-14 h-14 rounded-xl overflow-hidden shadow-md">
+              <img src="/logos/WhatsApp-Business-Platform.jpg" alt="WhatsApp Cloud API" class="w-full h-full object-cover"/>
+            </div>
+            <div>
+              <h4 class="text-xl font-bold text-gray-800">{t('whatsappCoexistence.problem.cloudAPI.title')}</h4>
+              <p class="text-sm text-gray-500">{t('whatsappCoexistence.problem.cloudAPI.subtitle')}</p>
+            </div>
+          </div>
+          
+          <div class="space-y-4">
+            <div class="bg-white/80 rounded-lg p-3 border border-blue-100">
+              <p class="text-green-600 font-medium text-sm mb-2">{t('whatsappCoexistence.problem.whatYouGet')}</p>
+              <ul class="text-sm text-gray-600 space-y-1">
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                  {t('whatsappCoexistence.problem.cloudAPI.pros.unlimited')}
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                  {t('whatsappCoexistence.problem.cloudAPI.pros.automation')}
+                </li>
+              </ul>
+            </div>
+            
+            <div class="bg-red-50 rounded-lg p-3 border border-red-200">
+              <p class="text-red-600 font-medium text-sm mb-2">{t('whatsappCoexistence.problem.dealbreaker')}</p>
+              
+              <!-- No Mobile Access Visualization -->
+              <div class="mb-3 bg-white rounded-lg p-3 border border-red-100">
+                <div class="flex items-center justify-center gap-2 mb-2">
+                  <div class="relative">
+                    <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <rect x="6" y="3" width="12" height="18" rx="2" stroke-width="2"/>
+                      <line x1="10" y1="18" x2="14" y2="18" stroke-width="2"/>
+                    </svg>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                      <div class="w-12 h-12 border-4 border-red-500 rounded-full flex items-center justify-center">
+                        <svg class="w-8 h-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <svg class="w-8 h-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"/>
+                  </svg>
+                </div>
+                <p class="text-xs text-center text-red-600 font-semibold">{t('whatsappCoexistence.problem.cloudAPI.cons.lockedOut')}</p>
+                <p class="text-xs text-center text-gray-500 mt-1">{t('whatsappCoexistence.problem.cloudAPI.cons.noMobile')}</p>
+              </div>
+              
+              <ul class="text-sm text-gray-700 space-y-1">
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                  <strong>{t('whatsappCoexistence.problem.cloudAPI.cons.noApp')}</strong>
+                </li>
+                <li class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                  {t('whatsappCoexistence.problem.cloudAPI.cons.desktopOnly')}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pain Point Summary -->
+    <div class="mt-12 text-center max-w-2xl mx-auto">
+      <div class="bg-red-50 border-2 border-red-200 rounded-xl p-6">
+        <p class="text-lg text-gray-800 font-medium mb-2">
+          {t('whatsappCoexistence.problem.summary.part1')}
+        </p>
+        <p class="text-lg text-gray-800 font-medium mb-4">
+          {t('whatsappCoexistence.problem.summary.part2')}
+        </p>
+        <div class="flex items-center justify-center gap-2 text-red-700 font-bold text-xl">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+          {t('whatsappCoexistence.problem.summary.dilemma')}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
