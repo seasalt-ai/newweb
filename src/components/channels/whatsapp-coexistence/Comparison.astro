@@ -60,7 +60,7 @@ const { lang } = Astro.props;
               </th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-gray-200">
+          <tbody class="divide-y divide-gray-200" style="vertical-align: middle;">
             <!-- Row 1: Pricing -->
             <tr class="hover:bg-gray-50 transition-colors">
               <td class="px-6 py-4 font-medium text-gray-900">
@@ -70,7 +70,7 @@ const { lang } = Astro.props;
                 Free
               </td>
               <td class="px-6 py-4 text-center text-gray-600">
-                €5-10/month
+                $15-$350/month
               </td>
               <td class="px-6 py-4 text-center text-gray-600">
                 Per message
@@ -402,5 +402,29 @@ const { lang } = Astro.props;
 <style>
   details[open] summary svg {
     transform: rotate(90deg);
+  }
+
+  /* Ensure table cells are vertically centered */
+  tbody td {
+    vertical-align: middle;
+  }
+  
+  /* Center-align all content in text-center cells */
+  tbody td.text-center {
+    text-align: center;
+  }
+  
+  /* Ensure inline elements and block elements are centered */
+  tbody td.text-center svg,
+  tbody td.text-center span,
+  tbody td.text-center div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* For block elements like spans, also ensure text is centered */
+  tbody td.text-center span {
+    display: block;
+    text-align: center;
   }
 </style>
