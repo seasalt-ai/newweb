@@ -16,6 +16,9 @@ tags:
 title: 'WhatsApp Coexistence: الهيكلية التقنية، الاستخدام المؤسسي، ومستقبل الرسائل
   الهجينة'
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # التعاون في واتساب: الهندسة التقنية، الاستخدام في الشركات، ومستقبل المراسلة الهجينة
 

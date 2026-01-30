@@ -14,6 +14,9 @@ tags:
 title: 'Sự Chia Tách Lớn Của WhatsApp: 3 Lý Do Ngạc Nhiên Doanh Nghiệp Của Bạn Đã
   Vượt Qua Ứng Dụng'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **Sự Chia Cách Lớn Của WhatsApp: 3 Lý Do Ngạc Ngẩn Tại Sao Doanh Nghiệp Của Bạn Đã Vượt Qua Ứng Dụng**
 

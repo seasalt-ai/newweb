@@ -13,6 +13,9 @@ tags:
 - การค้าของการสนทนา
 title: 'ความแตกต่างที่สำคัญของ WhatsApp: 3 เหตุผลที่น่าประหลาดใจที่ธุรกิจของคุณได้เกินขีดจำกัดของแอป'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **ความแตกต่างที่ยิ่งใหญ่ของ WhatsApp: 3 เหตุผลที่น่าประหลาดใจที่ธุรกิจของคุณได้เกินขีดจำกัดของแอป**
 

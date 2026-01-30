@@ -14,6 +14,9 @@ tags:
 title: În sfârșit! Păstrează aplicația ta WhatsApp Business ȘI scalează cu Cloud API
   (Nu mai trebuie să alegeți!)
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # În sfârșit! Păstrați aplicația dvs. WhatsApp Business ȘI scalează cu Cloud API (Nu mai trebuie să alegeți!)
 

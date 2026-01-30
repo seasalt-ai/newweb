@@ -16,6 +16,9 @@ tags:
 title: 'WhatsApp Coexistence: Arhitectură Tehnică, Utilizarea în Întreprinderi și
   Viitorul Mesageriei Hibride'
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # Coexistența WhatsApp: Arhitectură tehnică, utilizare în întreprindere și viitorul mesageriei hibride
 

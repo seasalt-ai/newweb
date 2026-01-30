@@ -14,6 +14,9 @@ tags:
 - 고객 참여
 title: 'WhatsApp Coexistence: 기술 아키텍처, 기업 사용 및 하이브리드 메시징의 미래'
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # WhatsApp 공존: 기술 아키텍처, 기업 사용 및 하이브리드 메시징의 미래
 

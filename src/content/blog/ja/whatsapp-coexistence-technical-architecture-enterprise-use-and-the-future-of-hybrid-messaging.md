@@ -13,6 +13,9 @@ tags:
 - カスタマーエンゲージメント
 title: 'WhatsApp Coexistence: 技術アーキテクチャ、企業向け利用、ハイブリッドメッセージングの未来'
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # WhatsApp Coexistence: 技術的アーキテクチャ、エンタープライズ利用、およびハイブリッドメッセージングの未来
 

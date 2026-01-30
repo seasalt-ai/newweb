@@ -12,6 +12,9 @@ tags:
 - 对话式商务
 title: WhatsApp 的巨大分歧：您的企业已超越该应用的 3 个令人惊讶的原因
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **WhatsApp 的巨大分歧：企业超越该应用的 3 个令人惊讶的原因**  
 

@@ -14,6 +14,9 @@ tags:
 - 디지털 마케팅
 title: WhatsApp 비즈니스 솔루션 비교 분석 (2025-2026)
 url: comparative-analysis-of-whatsapp-business-solutions-2025-2026
+image:
+  url: /images/blog/comparative-analysis-of-whatsapp-business-solutions-2025-2026.jpg
+  alt: "Comparative Analysis of WhatsApp Business Solutions (2025-2026)"
 ---
 # WhatsApp 비즈니스 솔루션 비교 분석 (2025-2026)**
 

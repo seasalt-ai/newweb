@@ -12,6 +12,9 @@ tags:
 - การตลาดผ่าน WhatsApp
 title: ในที่สุดแล้ว! รักษาแอป WhatsApp Business ของคุณและขยายขนาดด้วย Cloud API (ไม่ต้องเลือกอีกต่อไป!)
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # สุดท้ายแล้ว! รักษาแอป WhatsApp Business ของคุณและขยายขนาดกับ Cloud API (ไม่ต้องเลือกอีกต่อไป!)
 

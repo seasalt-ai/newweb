@@ -16,6 +16,9 @@ tags:
 - Kolaborasi AI
 title: 'Teori Terpadu Besar WhatsApp Coexistence: Manifesto Seasalt.ai untuk Era Hibrida'
 url: /blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era
+image:
+  url: /images/blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era.jpg
+  alt: "The Grand Unified Theory of WhatsApp Coexistence: A Seasalt.ai Manifesto for the Hybrid Era"
 ---
 # **Teori Terpadu Besar tentang Koeksistensi WhatsApp: Manifesto Seasalt.ai untuk Era Hibrida**
 

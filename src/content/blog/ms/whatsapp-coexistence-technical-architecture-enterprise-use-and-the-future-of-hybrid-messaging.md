@@ -16,6 +16,9 @@ tags:
 title: 'WhatsApp Coexistence: Arsitektur Teknikal, Penggunaan Perusahaan, dan Masa
   Depan Pesan Hibrid'
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # Kehidupan Bersama WhatsApp: Arkitektur Teknikal, Penggunaan Perusahaan, dan Masa Depan Pesanan Hibrid
 

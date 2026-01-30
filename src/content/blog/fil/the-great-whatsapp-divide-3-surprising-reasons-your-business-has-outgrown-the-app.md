@@ -14,6 +14,9 @@ tags:
 title: 'Ang Malaking Pagkakahati ng WhatsApp: 3 Nakakagulat na Dahilan kung Bakit
   Lumampas na ng App ang Iyong Negosyo'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **Ang Dakilang Pagkakahati sa WhatsApp: 3 Nakakagulat na Dahilan kung Bakit Ang Iyong Negosyo ay Lumampas na sa App**  
 

@@ -15,6 +15,9 @@ tags:
 title: இறுதியாக! உங்கள் WhatsApp வணிக பயன்பாட்டை வைத்திருங்கள் மற்றும் கிளவுட API
   மூலம் அளவிடுங்கள் (மேலும் தேர்வு செய்ய வேண்டாம்!)
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # இறுதியாக! உங்கள் WhatsApp பிசினஸ் பயன்பாட்டை வைத்திருங்கள் மற்றும் கிளவுட் API மூலம் அளவை அதிகரிக்கவும் (மேலும் தேர்வு செய்ய வேண்டியதில்லை!)
 

@@ -16,6 +16,9 @@ tags:
 - همکاری AI
 title: 'نظریه یکپارچه بزرگ WhatsApp Coexistence: маниفست Seasalt.ai برای عصر هیبرید'
 url: /blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era
+image:
+  url: /images/blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era.jpg
+  alt: "The Grand Unified Theory of WhatsApp Coexistence: A Seasalt.ai Manifesto for the Hybrid Era"
 ---
 # **نظریه یکپارچه بزرگ همزیستی واتساپ: مانیفست Seasalt.ai برای دوره هیبریدی**
 

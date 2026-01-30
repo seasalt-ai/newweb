@@ -15,6 +15,9 @@ tags:
 title: Sa wakas! Panatilihin ang iyong WhatsApp Business App AT Mag-scale gamit ang
   Cloud API (Hindi na kailangang pumili!)
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # Sa wakas! Panatilihin ang Iyong WhatsApp Business App AT Palakihin gamit ang Cloud API (Hindi Na Kailangang Pumili!)
 

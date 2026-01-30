@@ -14,6 +14,9 @@ tags:
 title: 'Pemisahan WhatsApp yang Besar: 3 Sebab Menakjubkan Mengapa Perniagaan Anda
   Telah Melebihi Aplikasi Ini'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **Pembahagian WhatsApp yang Besar: 3 Sebab Menakjubkan Mengapa Perniagaan Anda Telah Melebihi Aplikasi Ini**  
 

@@ -17,6 +17,9 @@ tags:
 title: 'A Grande Teoria Unificada do WhatsApp Coexistence: Um Manifesto da Seasalt.ai
   para a Era Híbrida'
 url: /blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era
+image:
+  url: /images/blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era.jpg
+  alt: "The Grand Unified Theory of WhatsApp Coexistence: A Seasalt.ai Manifesto for the Hybrid Era"
 ---
 # **A Teoria Grandemente Unificada da Coexistência no WhatsApp: Um Manifesto da Seasalt.ai para a Era Híbrida**
 

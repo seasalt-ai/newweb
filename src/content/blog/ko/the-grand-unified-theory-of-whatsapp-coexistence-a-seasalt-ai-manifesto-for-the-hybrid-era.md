@@ -15,6 +15,9 @@ tags:
 - AI 협업
 title: 'WhatsApp 공존의 위대한 통합 이론: 하이브리드 시대를 위한 Seasalt.ai 선언문'
 url: /blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era
+image:
+  url: /images/blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era.jpg
+  alt: "The Grand Unified Theory of WhatsApp Coexistence: A Seasalt.ai Manifesto for the Hybrid Era"
 ---
 # **WhatsApp 공존의 통합 이론: 하이브리드 시대를 위한 Seasalt.ai 선언문**
 

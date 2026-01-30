@@ -14,6 +14,9 @@ tags:
 title: 'Великое разрыв WhatsApp: 3 неожиданные причины, по которым ваш бизнес вырос
   за рамки приложения'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **Большой раскол в WhatsApp: 3 неожиданные причины, по которым ваше предприятие выросло из приложения**  
 

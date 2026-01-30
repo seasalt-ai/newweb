@@ -14,6 +14,9 @@ tags:
 title: Наконец! Сохраните свое приложение WhatsApp Business И масштабируйте с помощью
   Cloud API (Больше не нужно выбирать!)
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # Наконец! Сохраните приложение WhatsApp Business и масштабируйтесь с Cloud API (Больше не нужно выбирать!)
 

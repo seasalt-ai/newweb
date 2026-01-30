@@ -14,6 +14,9 @@ tags:
 - 인증
 title: 'WhatsApp Business 2026: 당신이 무시할 수 없는 5가지 전략적 변화'
 url: /blog/whatsapp-business-2026-the-5-strategic-shifts-you-cant-ignore
+image:
+  url: /images/blog/whatsapp-business-2026-the-5-strategic-shifts-you-cant-ignore.jpg
+  alt: "WhatsApp Business 2026: The 5 Strategic Shifts You Can’t Ignore"
 ---
 # **WhatsApp Business 2026: 무시할 수 없는 5가지 전략적 변화**  
 

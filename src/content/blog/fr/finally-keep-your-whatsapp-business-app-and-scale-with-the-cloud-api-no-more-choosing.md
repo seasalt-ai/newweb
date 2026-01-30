@@ -14,6 +14,9 @@ tags:
 title: Enfin ! Gardez votre application WhatsApp Business ET développez avec l'API
   Cloud (Plus besoin de choisir !)
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # Enfin ! Gardez votre application WhatsApp Business ET développez avec l'API Cloud (Plus besoin de choisir !)
 

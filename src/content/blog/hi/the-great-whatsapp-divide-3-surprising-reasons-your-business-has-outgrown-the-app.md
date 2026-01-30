@@ -14,6 +14,9 @@ tags:
 title: 'द ग्रेट व्हाट्सएप डिवाइड: 3 आश्चर्यजनक कारण जो आपके व्यवसाय ने ऐप को पीछे
   छोड़ दिया है'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **द ग्रेट व्हाट्सएप डिवाइड: 3 आश्चर्यजनक कारण जो बताते हैं कि आपका व्यवसाय ऐप से आगे निकल चुका है**
 

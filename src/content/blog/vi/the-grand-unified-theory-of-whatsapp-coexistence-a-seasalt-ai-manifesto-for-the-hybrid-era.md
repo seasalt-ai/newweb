@@ -17,6 +17,9 @@ tags:
 title: 'Lý thuyết Toàn diện Đơn nhất của WhatsApp Coexistence: Tuyên ngôn của Seasalt.ai
   cho Thời đại Hỗn hợp'
 url: /blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era
+image:
+  url: /images/blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era.jpg
+  alt: "The Grand Unified Theory of WhatsApp Coexistence: A Seasalt.ai Manifesto for the Hybrid Era"
 ---
 # **Lý thuyết thống nhất lớn về Sự đồng tồn của WhatsApp: Tuyên ngôn Seasalt.ai cho Thời đại hỗn hợp**
 

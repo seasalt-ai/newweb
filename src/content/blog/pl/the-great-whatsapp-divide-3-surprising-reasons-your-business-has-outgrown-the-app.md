@@ -15,6 +15,9 @@ tags:
 title: 'Wielki rozłam WhatsApp: 3 zaskakujące przyczyny, dla których Twoje przedsięwzięcie
   wyrosło z aplikacji'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **Wielka rozdzielczość WhatsApp: 3 zaskakujące powody, dla których Twoje przedsięwzięcie wyrosło z aplikacji**
 

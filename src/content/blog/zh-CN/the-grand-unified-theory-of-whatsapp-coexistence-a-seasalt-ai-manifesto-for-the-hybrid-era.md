@@ -14,6 +14,9 @@ tags:
 - AI 协作
 title: WhatsApp 共存的大一统理论：Seasalt.ai 混合时代宣言
 url: /blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era
+image:
+  url: /images/blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era.jpg
+  alt: "The Grand Unified Theory of WhatsApp Coexistence: A Seasalt.ai Manifesto for the Hybrid Era"
 ---
 # **WhatsApp共存的大一统理论：Seasalt.ai混合时代宣言**
 

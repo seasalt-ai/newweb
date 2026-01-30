@@ -16,6 +16,9 @@ tags:
 title: 'WhatsApp Coexistence: Kiến trúc Kỹ thuật, Ứng dụng Doanh nghiệp và Tương lai
   của Tin nhắn Hỗn hợp'
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # Sự Cùng Tồn Tại của WhatsApp: Kiến Trúc Kỹ Thuật, Sử Dụng Doanh Nghiệp, và Tương Lai của Giao Tiếp Hỗn Hợp
 

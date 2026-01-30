@@ -14,6 +14,9 @@ tags:
 title: 'பெரிய WhatsApp பிரிவு: உங்கள் வணிகம் பயன்பாட்டை விட அதிக வளர்ந்துள்ள 3 ஆச்சரியமான
   காரணங்கள்'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **பெரிய WhatsApp பிளவு: உங்கள் வணிகம் பயன்பாட்டை விட அதிக வளர்ந்துள்ளதன் 3 ஆச்சரிய காரணங்கள்**
 

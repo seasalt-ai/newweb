@@ -17,6 +17,9 @@ tags:
 title: 'Ang Dakilang Pinag-isang Teorya ng WhatsApp Pagkakasama: Isang Manifesto ng
   Seasalt.ai para sa Hibridong Panahon'
 url: /blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era
+image:
+  url: /images/blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era.jpg
+  alt: "The Grand Unified Theory of WhatsApp Coexistence: A Seasalt.ai Manifesto for the Hybrid Era"
 ---
 # **Ang Pambansang Pinag-isang Teorya ng Pagkakasama-sama ng WhatsApp: Isang Manifesto ng Seasalt.ai para sa Hybrid na Panahon**
 

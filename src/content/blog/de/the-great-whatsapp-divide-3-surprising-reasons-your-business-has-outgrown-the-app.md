@@ -15,6 +15,9 @@ tags:
 title: 'Die Große WhatsApp-Trennung: 3 überraschende Gründe, warum Ihr Unternehmen
   die App überwuchert hat'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **Die große WhatsApp-Kluft: 3 überraschende Gründe, warum Ihr Unternehmen die App überwunden hat**  
 

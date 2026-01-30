@@ -14,6 +14,9 @@ tags:
 - การเชื่อมต่อกับลูกค้า
 title: 'WhatsApp Coexistence: สถาปัตยกรรมเทคนิค, การใช้งานในองค์กร, และอนาคตของการส่งข้อความไฮบริด'
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # การร่วมอยู่ของ WhatsApp: สถาปัตยกรรมเทคนิค, ใช้งานในองค์กร, และอนาคตของการส่งข้อความแบบไฮบริด
 

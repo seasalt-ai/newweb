@@ -15,6 +15,9 @@ tags:
 - برقراری ارتباط با مشتری
 title: 'WhatsApp Coexistence: معماری فنی، استفاده سازمانی، و آینده پیام‌رسانی هیبریدی'
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # همزیستی واتساپ: معماری فنی، استفاده در سازمان‌ها و آینده پیام‌رسانی هیبریدی
 

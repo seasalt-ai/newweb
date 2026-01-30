@@ -13,6 +13,9 @@ tags:
 - 客户互动
 title: WhatsApp Coexistence：技术架构、企业应用及混合消息传递的未来
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # WhatsApp 共存：技术架构、企业应用及混合消息的未来
 

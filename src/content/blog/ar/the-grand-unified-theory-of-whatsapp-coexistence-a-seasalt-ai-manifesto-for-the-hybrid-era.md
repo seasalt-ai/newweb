@@ -16,6 +16,9 @@ tags:
 - تعاون الذكاء الاصطناعي
 title: 'نظرية التوحيد العظمى لِمتعايش WhatsApp: بيان Seasalt.ai للعصر الهجين'
 url: /blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era
+image:
+  url: /images/blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era.jpg
+  alt: "The Grand Unified Theory of WhatsApp Coexistence: A Seasalt.ai Manifesto for the Hybrid Era"
 ---
 # **النظرية الموحدة العظمى لوجود واتساب معًا: بيان Seasalt.ai للعصر الهجين**
 

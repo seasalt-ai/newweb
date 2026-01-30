@@ -17,6 +17,9 @@ tags:
 title: 'WhatsApp Coexistence: Teknikal na Arkitektura, Paggamit ng Enterprise, at
   ang Hinaharap ng Hybrid na Mensahe'
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # Pakikipag-ugnayan ng WhatsApp: Teknikal na Arkitektura, Paggamit sa Enterprise, at Hinaharap ng Hybrid Messaging
 

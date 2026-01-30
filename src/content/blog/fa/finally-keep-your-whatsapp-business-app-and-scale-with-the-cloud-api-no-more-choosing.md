@@ -14,6 +14,9 @@ tags:
 title: بالاخره! اپلیکیشن کسب و کار واتساپ خود را حفظ کنید و با API ابری مقیاس بندی
   کنید (دیگر نیاز به انتخاب ندارید!)
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # آخرًا! اپلیکیشن واتساپ بیزینس خود را نگه دارید و با API ابری مقیاس بندی کنید (دیگر نیاز به انتخاب ندارید!)
 

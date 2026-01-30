@@ -14,6 +14,9 @@ tags:
 title: Akhirnya! Pertahankan Aplikasi Bisnis WhatsApp Anda DAN Skala dengan Cloud
   API (Tidak Perlu Memilih Lagi!)
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # Akhirnya! Pertahankan Aplikasi WhatsApp Business Anda DAN Skala dengan Cloud API (Tidak Perlu Memilih Lagi!)
 

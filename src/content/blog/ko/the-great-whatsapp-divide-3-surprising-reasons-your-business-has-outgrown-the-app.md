@@ -12,6 +12,9 @@ tags:
 - 대화형 전자상거래
 title: '큰 WhatsApp 격차: 귀하의 비즈니스가 앱을 초과한 3가지 놀라운 이유'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **위대한 WhatsApp 분열: 기업이 이 앱을 넘어선 3가지 놀라운 이유**  
 

@@ -14,6 +14,9 @@ tags:
 title: 'Marea Divizare WhatsApp: 3 Motive Surprinzătoare pentru Care Afacerea Dvs.
   a Depășit Aplicația'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **Divizarea mare a WhatsApp: 3 motive surprinzătoare pentru care afacerea ta a depășit aplicația**  
 

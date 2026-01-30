@@ -11,6 +11,9 @@ tags:
 - WhatsApp 营销
 title: 终于！保留您的WhatsApp Business应用程序并通过云API进行扩展（无需再做选择！）
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # 终于！保留您的 WhatsApp 商业应用程序并通过云 API 扩展（无需再做选择！）
 

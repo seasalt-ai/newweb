@@ -13,6 +13,9 @@ tags:
 - التجارة المحادثة
 title: 'الانقسام العظيم في واتساب: 3 أسباب مفاجئة لأن عملك قد تجاوز التطبيق'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **فجوة واتساب العظيمة: 3 أسباب مدهشة لكيف أنتجت عملك التطبيق**  
 

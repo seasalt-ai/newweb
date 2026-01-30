@@ -11,6 +11,9 @@ tags:
 - WhatsAppマーケティング
 title: ついに！WhatsApp Business Appを保持しながらCloud APIでスケールアップ（もう選ぶ必要はありません！）
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # ついに！WhatsApp Business Appを維持しながらクラウドAPIでスケールアップ（もう選ぶ必要なし！）
 

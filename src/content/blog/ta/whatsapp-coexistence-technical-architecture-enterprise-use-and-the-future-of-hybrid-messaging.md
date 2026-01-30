@@ -17,6 +17,9 @@ tags:
 title: 'WhatsApp ஒன்றிணைந்து இருப்பு: தொழில்நுட்ப கட்டமைப்பு, எண்டர்பிரைஸ் பயன்பாடு
   மற்றும் ஹைப்ரிட் மெசேஜிங்கின் எதிர்காலம்'
 url: /blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging
+image:
+  url: /images/blog/whatsapp-coexistence-technical-architecture-enterprise-use-and-the-future-of-hybrid-messaging.jpg
+  alt: "WhatsApp Coexistence: Technical Architecture, Enterprise Use, and the Future of Hybrid Messaging"
 ---
 # வாட்ஸ்அப் இணக்கம்: தொழில்நுட்ப கட்டமைப்பு, நிறுவன பயன்பாடு மற்றும் ஹைப்ரிட் செய்தித்தொடர்புகளின் எதிர்காலம்
 

@@ -17,6 +17,9 @@ tags:
 title: 'WhatsApp இணக்கத்தின் பெரும் ஒருங்கிணைந்த கோட்பாடு: ஹைப்ரிட் யுகத்திற்கான Seasalt.ai
   மேனிஃபெஸ்டோ'
 url: /blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era
+image:
+  url: /images/blog/the-grand-unified-theory-of-whatsapp-coexistence-a-seasalt-ai-manifesto-for-the-hybrid-era.jpg
+  alt: "The Grand Unified Theory of WhatsApp Coexistence: A Seasalt.ai Manifesto for the Hybrid Era"
 ---
 # **வாட்ஸ்அப் இணக்கம் பற்றிய மாபெரும் ஒருங்கிணைந்த கோட்பாடு: ஹைப்ரிட் யுகத்திற்கான Seasalt.ai மேனிஃபெஸ்டோ**
 

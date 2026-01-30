@@ -12,6 +12,9 @@ tags:
 - WhatsApp 마케팅
 title: 드디어! WhatsApp 비즈니스 앱을 유지하면서 클라우드 API로 확장할 수 있습니다 (더 이상 선택할 필요 없어요!)
 url: /blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing
+image:
+  url: /images/blog/finally-keep-your-whatsapp-business-app-and-scale-with-the-cloud-api-no-more-choosing.jpg
+  alt: "Finally! Keep Your WhatsApp Business App AND Scale with the Cloud API (No More Choosing!)"
 ---
 # 마침내! WhatsApp 비즈니스 앱을 유지하면서 클라우드 API로 확장하세요 (더 이상 선택할 필요 없어요!)
 
