@@ -14,6 +14,9 @@ tags:
 title: 'The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown
   the App'
 url: /blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app
+image:
+  url: /images/blog/the-great-whatsapp-divide-3-surprising-reasons-your-business-has-outgrown-the-app.jpg
+  alt: "The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App"
 ---
 # **The Great WhatsApp Divide: 3 Surprising Reasons Your Business Has Outgrown the App**
 
