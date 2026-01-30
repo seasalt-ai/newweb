@@ -5,7 +5,7 @@ description: مراحل ساخت چت‌بات هوشمند AI برای کسب�
 publishDate: '2024-02-28'
 author: Xuchen Yao
 image:
-  url: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
+  url: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
   alt: چگونه یک چت‌بات هوشمند AI برای کسب‌وکار خود بسازیم
 tags:
 - چت‌بات AI

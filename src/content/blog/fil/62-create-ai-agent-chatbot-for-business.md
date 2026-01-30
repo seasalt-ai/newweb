@@ -5,7 +5,7 @@ description: Alamin kung paano gumawa ng AI agent chatbot para sa iyong negosyo,
 publishDate: '2024-02-28'
 author: Xuchen Yao
 image:
-  url: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
+  url: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
   alt: Paano Gumawa ng AI Agent Chatbot para sa Iyong Negosyo
 tags:
 - AI Chatbot

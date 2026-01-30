@@ -64,7 +64,7 @@ author: Xuchen Yao
 description: "了解如何為您的企業打造 AI 智能代理聊天機器人，從平台選擇到與業務系統整合的每一步。"
 weight: 1
 tags: ["AI 聊天機器人", "企業", "自動化", "智能代理"]
-image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
+image: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
 canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
 url: "/blog/create-ai-agent-chatbot-for-business/"
 ---

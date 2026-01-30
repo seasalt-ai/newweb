@@ -67,7 +67,7 @@ author: Xuchen Yao
 description: "เรียนรู้วิธีสร้าง AI Intelligent Agent Chatbot สำหรับธุรกิจของคุณ ตั้งแต่การเลือกแพลตฟอร์มไปจนถึงการรวมกับระบบธุรกิจ"
 weight: 1
 tags: ["AI Chatbot", "ธุรกิจ", "อัตโนมัติ", "Intelligent Agent"]
-image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
+image: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
 canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
 url: "/blog/create-ai-agent-chatbot-for-business/"
 ---

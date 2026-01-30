@@ -9,7 +9,7 @@ publishDate: '2023-10-26'
 updatedDate: '2024-07-30'
 author: Seasalt.ai
 image:
-  url: /images/blog/senior-hotline-directory.jpg
+  url: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
   alt: 'Справочник горячих линий для пожилых людей: Ресурсы по уходу за пожилыми людьми
     на Тайване'
 tags:

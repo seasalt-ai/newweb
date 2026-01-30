@@ -67,7 +67,7 @@ author: Xuchen Yao
 description: "உங்கள் வணிகத்திற்கு AI ஏஜென்ட் சாட்பாட் உருவாக்கும் படிகள், தள தேர்வு முதல் வணிக அமைப்புகளுடன் இணைக்கும் வரை அறியுங்கள்."
 weight: 1
 tags: ["AI சாட்பாட்", "வணிகம்", "தானியக்கம்", "AI ஏஜென்ட்"]
-image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
+image: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
 canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
 url: "/blog/create-ai-agent-chatbot-for-business/"
 ---
