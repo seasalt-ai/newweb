@@ -208,7 +208,7 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
                   <div class="grid grid-cols-3 gap-4 mt-6 pt-6 border-t border-white/20">
                     <div class="text-center">
                       <p class="text-3xl font-bold text-yellow-300">Unlimited</p>
-                      <p class="text-sm text-green-100">synced devides</p>
+                      <p class="text-sm text-green-100">synced devices</p>
                     </div>
                     <div class="text-center">
                       <p class="text-3xl font-bold text-yellow-300">Unlimited</p>
@@ -226,31 +226,7 @@ const uniqueId = `hero-${crypto.randomUUID()}`;
   </div>
 </section>
 
-<script define:vars={{ uniqueId }}>
-  // Add scroll animation
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate-in');
-      }
-    });
-  }, { threshold: 0.1 });
-
-  // Scope query to component root to avoid affecting other elements
-  const heroRoot = document.getElementById(uniqueId);
-  if (heroRoot) {
-    heroRoot.querySelectorAll('.animate-on-scroll').forEach(el => {
-      observer.observe(el);
-    });
-  }
-</script>
-
 <style>
-  .animate-in {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
   @keyframes ping {
     75%, 100% {
       transform: scale(2);
