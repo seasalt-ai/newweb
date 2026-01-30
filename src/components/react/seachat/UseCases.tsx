@@ -221,7 +221,7 @@ const UseCases: React.FC<UseCasesProps> = ({ lang, translations }) => {
                 rel="noopener noreferrer"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-colors text-center"
               >
-                {getText('seachat.useCases.cta.signUpFree', 'Start Free Trial')}
+                {getText('seachat.useCases.cta.signUpFree', 'Sign Up Now')}
               </a>
               <a
                 href={getMeetingUrl(currentLanguage)}

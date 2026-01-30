@@ -1,0 +1,391 @@
+---
+import { Building2, ShoppingBag, Stethoscope, Package, ArrowRight, CheckCircle } from 'lucide-react';
+
+export interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+---
+
+<section id="use-cases" class="py-20 bg-white">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">
+          Real-World Use Cases
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          See how businesses across industries transform their customer experience with WhatsApp Coexistence
+        </p>
+      </div>
+
+      <!-- Industry Tabs -->
+      <div class="flex flex-wrap justify-center gap-2 mb-12">
+        <button
+          id="tab-banking"
+          class="industry-tab active px-6 py-3 rounded-lg font-semibold transition-all bg-green-600 text-white"
+          data-industry="banking"
+        >
+          Banking
+        </button>
+        <button
+          id="tab-retail"
+          class="industry-tab px-6 py-3 rounded-lg font-semibold transition-all bg-gray-100 text-gray-700 hover:bg-gray-200"
+          data-industry="retail"
+        >
+          Retail
+        </button>
+        <button
+          id="tab-healthcare"
+          class="industry-tab px-6 py-3 rounded-lg font-semibold transition-all bg-gray-100 text-gray-700 hover:bg-gray-200"
+          data-industry="healthcare"
+        >
+          Healthcare
+        </button>
+        <button
+          id="tab-ecommerce"
+          class="industry-tab px-6 py-3 rounded-lg font-semibold transition-all bg-gray-100 text-gray-700 hover:bg-gray-200"
+          data-industry="ecommerce"
+        >
+          E-commerce
+        </button>
+      </div>
+
+      <!-- Industry Content Panels -->
+      <div class="relative">
+        <!-- Banking Panel -->
+        <div id="panel-banking" class="industry-panel active">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Building2 class="w-6 h-6 text-green-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">24/7 Customer Support</h3>
+                  <p class="text-gray-600">Automate mortgage and loan inquiries with AI. Complex cases routed to human agents instantly.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <CheckCircle class="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Zero Abandonment Rate</h3>
+                  <p class="text-gray-600">AI handles 80% of repetitive queries. Customers never wait on hold.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Stethoscope class="w-6 h-6 text-yellow-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Compliance Ready</h3>
+                  <p class="text-gray-600">Full audit trails and archiving for regulatory requirements (GDPR, FINRA).</p>
+                </div>
+              </div>
+
+              <!-- Case Study -->
+              <div class="bg-green-50 rounded-2xl p-6 border-2 border-green-200">
+                <p class="text-sm font-semibold text-green-800 mb-2">CASE STUDY: Bankia S.A.</p>
+                <ul class="space-y-2 text-gray-700">
+                  <li>✓ 24/7 support achieved</li>
+                  <li>✓ Agent idle time reduced by 45%</li>
+                  <li>✓ Customer satisfaction: 9.1/10</li>
+                  <li>✓ Zero abandonment rate</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Stats Visual -->
+            <div class="bg-gradient-to-br from-green-500 to-green-600 rounded-3xl p-8 text-white">
+              <h3 class="text-3xl font-bold mb-6">Results</h3>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-green-100">FAQ Resolution</span>
+                  <span class="text-4xl font-bold">80%</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-green-100">Avg Response Time</span>
+                  <span class="text-4xl font-bold">&lt;30s</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-green-100">Cost Reduction</span>
+                  <span class="text-4xl font-bold">60%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Retail Panel -->
+        <div id="panel-retail" class="industry-panel hidden">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <ShoppingBag class="w-6 h-6 text-purple-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">VIP Customer Handling</h3>
+                  <p class="text-gray-600">High-value customers get personal attention via mobile app. Routine queries automated.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Package class="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Order Management</h3>
+                  <p class="text-gray-600">Automated shipping updates and delivery notifications via API.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <CheckCircle class="w-6 h-6 text-yellow-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Increased Conversions</h3>
+                  <p class="text-gray-600">Faster response times and personalized follow-ups drive sales.</p>
+                </div>
+              </div>
+
+              <!-- Case Study -->
+              <div class="bg-purple-50 rounded-2xl p-6 border-2 border-purple-200">
+                <p class="text-sm font-semibold text-purple-800 mb-2">CASE STUDY: D2C Beauty Brand</p>
+                <ul class="space-y-2 text-gray-700">
+                  <li>✓ First response time: 2h → 4 min</li>
+                  <li>✓ Conversion rate increase: 32%</li>
+                  <li>✓ Multi-agent collaboration enabled</li>
+                  <li>✓ CRM integration completed</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Stats Visual -->
+            <div class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-3xl p-8 text-white">
+              <h3 class="text-3xl font-bold mb-6">Results</h3>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-purple-100">Response Time</span>
+                  <span class="text-4xl font-bold">97%</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-purple-100">Conversion Increase</span>
+                  <span class="text-4xl font-bold">32%</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-purple-100">Team Efficiency</span>
+                  <span class="text-4xl font-bold">+50%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Healthcare Panel -->
+        <div id="panel-healthcare" class="industry-panel hidden">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Stethoscope class="w-6 h-6 text-green-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Appointment Reminders</h3>
+                  <p class="text-gray-600">Automated reminders reduce no-shows by 60%. Patients confirm via WhatsApp.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <CheckCircle class="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Secure Lab Results</h3>
+                  <p class="text-gray-600">HIPAA-compliant delivery of test results with end-to-end encryption.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Package class="w-6 h-6 text-yellow-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Patient Follow-ups</h3>
+                  <p class="text-gray-600">AI checks in after appointments. Escalates concerns to medical staff.</p>
+                </div>
+              </div>
+
+              <!-- Case Study -->
+              <div class="bg-green-50 rounded-2xl p-6 border-2 border-green-200">
+                <p class="text-sm font-semibold text-green-800 mb-2">CASE STUDY: AWS Connect + WhatsApp</p>
+                <ul class="space-y-2 text-gray-700">
+                  <li>✓ HIPAA compliant messaging</li>
+                  <li>✓ 60% reduction in no-shows</li>
+                  <li>✓ Patient satisfaction: 4.8/5</li>
+                  <li>✓ Full audit trail maintained</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Stats Visual -->
+            <div class="bg-gradient-to-br from-green-500 to-teal-600 rounded-3xl p-8 text-white">
+              <h3 class="text-3xl font-bold mb-6">Results</h3>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-green-100">No-Show Reduction</span>
+                  <span class="text-4xl font-bold">60%</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-green-100">Patient Engagement</span>
+                  <span class="text-4xl font-bold">4.8/5</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-green-100">Compliance Score</span>
+                  <span class="text-4xl font-bold">100%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- E-commerce Panel -->
+        <div id="panel-ecommerce" class="industry-panel hidden">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <ShoppingBag class="w-6 h-6 text-orange-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Abandoned Cart Recovery</h3>
+                  <p class="text-gray-600">Automated reminders recover 30% of abandoned carts.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Package class="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">Shipping Updates</h3>
+                  <p class="text-gray-600">Real-time tracking notifications keep customers informed.</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <CheckCircle class="w-6 h-6 text-yellow-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">VIP Support</h3>
+                  <p class="text-gray-600">High-value customers get human attention from mobile app.</p>
+                </div>
+              </div>
+
+              <!-- Case Study -->
+              <div class="bg-orange-50 rounded-2xl p-6 border-2 border-orange-200">
+                <p class="text-sm font-semibold text-orange-800 mb-2">CASE STUDY: E-commerce Store</p>
+                <ul class="space-y-2 text-gray-700">
+                  <li>✓ Cart recovery: 30% increase</li>
+                  <li>✓ Shipping queries: 85% automated</li>
+                  <li>✓ Response time: &lt;5 minutes</li>
+                  <li>✓ Customer satisfaction: 4.6/5</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Stats Visual -->
+            <div class="bg-gradient-to-br from-orange-500 to-orange-600 rounded-3xl p-8 text-white">
+              <h3 class="text-3xl font-bold mb-6">Results</h3>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-orange-100">Cart Recovery</span>
+                  <span class="text-4xl font-bold">30%</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-orange-100">Automation Rate</span>
+                  <span class="text-4xl font-bold">85%</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-orange-100">Customer Satisfaction</span>
+                  <span class="text-4xl font-bold">4.6/5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom CTA -->
+      <div class="mt-16 text-center">
+        <p class="text-lg text-gray-600 mb-6">
+          Transform your industry with WhatsApp Coexistence
+        </p>
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+        >
+          Sign Up Now
+          <ArrowRight class="ml-2 w-5 h-5" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Tab switching logic
+  const tabs = document.querySelectorAll('.industry-tab');
+  const panels = document.querySelectorAll('.industry-panel');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const industry = tab.dataset.industry;
+
+      // Update tab styles
+      tabs.forEach(t => {
+        t.classList.remove('active', 'bg-green-600', 'text-white');
+        t.classList.add('bg-gray-100', 'text-gray-700');
+      });
+      tab.classList.add('active', 'bg-green-600', 'text-white');
+      tab.classList.remove('bg-gray-100', 'text-gray-700');
+
+      // Update panel visibility
+      panels.forEach(panel => {
+        panel.classList.add('hidden');
+        panel.classList.remove('active');
+      });
+
+      const activePanel = document.getElementById(`panel-${industry}`);
+      if (activePanel) {
+        activePanel.classList.remove('hidden');
+        activePanel.classList.add('active');
+      }
+    });
+  });
+</script>
+
+<style>
+  .industry-panel {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>

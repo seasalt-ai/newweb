@@ -580,7 +580,7 @@ const OmniChannelCalculator = ({ lang, translations }: Props) => {
               href="https://seax.seasalt.ai/signup"
               className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto"
             >
-              {getText('seax.pricing.omniCalculator.cta.start', 'Start Free Trial')}
+              {getText('seax.pricing.omniCalculator.cta.start', 'Sign Up Now')}
             </a>
             <a
               href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"

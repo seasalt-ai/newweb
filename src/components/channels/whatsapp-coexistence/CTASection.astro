@@ -1,0 +1,102 @@
+---
+import { Smartphone, Zap, ArrowRight } from 'lucide-react';
+
+export interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+---
+
+<section class="bg-gradient-to-br from-green-600 via-blue-700 to-purple-800 text-white">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto py-20">
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+          Ready to Transform Your WhatsApp Operations?
+        </h2>
+        <p class="text-xl lg:text-2xl text-green-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+          Join thousands of businesses using WhatsApp Coexistence to scale while staying personal
+        </p>
+      </div>
+
+      <!-- Key Benefits -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+          <Smartphone class="w-10 h-10 mx-auto mb-3 text-yellow-300" />
+          <h3 class="font-bold text-lg mb-1">Keep Your Number</h3>
+          <p class="text-green-100 text-sm">No changes needed</p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+          <Zap class="w-10 h-10 mx-auto mb-3 text-yellow-300" />
+          <h3 class="font-bold text-lg mb-1">Zero Disruption</h3>
+          <p class="text-green-100 text-sm">Seamless migration</p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+          <Smartphone class="w-10 h-10 mx-auto mb-3 text-yellow-300" />
+          <h3 class="font-bold text-lg mb-1">AI + Human</h3>
+          <p class="text-green-100 text-sm">Hybrid workflows</p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+          <Zap class="w-10 h-10 mx-auto mb-3 text-yellow-300" />
+          <h3 class="font-bold text-lg mb-1">Save Money</h3>
+          <p class="text-green-100 text-sm">Free app messaging</p>
+        </div>
+      </div>
+
+      <!-- Primary CTA -->
+      <div class="text-center mb-8">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="inline-flex items-center justify-center px-10 py-5 bg-yellow-400 hover:bg-yellow-300 text-green-900 font-bold rounded-xl text-xl transition-all transform hover:scale-105 shadow-2xl hover:shadow-3xl"
+        >
+          Sign Up Now to WhatsApp Coexistence
+          <ArrowRight class="ml-3 w-6 h-6" />
+        </a>
+      </div>
+
+      <!-- Trust Indicators -->
+      <div class="flex flex-wrap justify-center gap-8 text-center text-green-100">
+        <div class="flex items-center">
+          <span class="text-2xl mr-2">🔒</span>
+          <span class="font-semibold">End-to-End Encryption</span>
+        </div>
+        <div class="flex items-center">
+          <span class="text-2xl mr-2">✓</span>
+          <span class="font-semibold">HIPAA Compliant</span>
+        </div>
+        <div class="flex items-center">
+          <span class="text-2xl mr-2">🚀</span>
+          <span class="font-semibold">Meta Verified</span>
+        </div>
+      </div>
+
+      <!-- Secondary CTAs -->
+      <div class="grid sm:grid-cols-2 gap-4 mt-8">
+        <a
+          href="https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-coexistence/"
+          class="inline-flex items-center justify-center px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg transition-all border-2 border-white/30 hover:border-white/50"
+        >
+          Read Documentation
+        </a>
+        <a
+          href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+          class="inline-flex items-center justify-center px-6 py-3 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg transition-all border-2 border-white/30 hover:border-white/50"
+        >
+          Schedule Demo
+        </a>
+      </div>
+
+      <!-- Bottom Text -->
+      <div class="mt-12 text-center">
+        <p class="text-green-200 text-sm max-w-2xl mx-auto">
+          Join 10,000+ businesses already using Seasalt.ai to transform their customer communications
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

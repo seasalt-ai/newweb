@@ -7,8 +7,8 @@ This script implements the exact logic from the original Gemini prompt:
 - Uses proper filename from the 'url' field in YAML frontmatter (NOT the input filename)
 - For English (en), just copies the file to the folder with proper filename
 - Skips translation if destination file already exists
-- Translates specific frontmatter fields: title, meta_description, category, tags
-- Keeps unchanged: author, date, modified_date, url
+- Translates specific frontmatter fields: title, description (was meta_description), category, tags
+- Keeps unchanged: author, publishDate (was date), updatedDate (was modified_date), url
 - Translates the entire content body to target language
 - Validates and fixes YAML frontmatter format issues
 
@@ -20,24 +20,27 @@ Key Features:
 ✅ Special handling for English language (copy vs translate)
 ✅ Array-aware tag translation
 ✅ Preserves original URL structure as specified
+✅ Support for both OpenAI (GPT-4o-mini) and BytePlus models
+✅ Command-line parameter to select model with fallback logic
 
 Usage:
-    python scripts/translate.py input_file.md target_language
-    
+    python scripts/translate.py input_file.md target_language [--model chatgpt|byteplus]
+
 Examples:
-    python scripts/translate.py blog-converted.md zh-CN    # Translates to Chinese
-    python scripts/translate.py blog-converted.md en      # Copies with proper filename
-    python scripts/translate.py blog-converted.md es      # Translates to Spanish
+    python scripts/translate.py blog-converted.md zh-CN              # Translates to Chinese using OpenAI (default)
+    python scripts/translate.py blog-converted.md zh-CN --model chatgpt  # Explicitly use OpenAI
+    python scripts/translate.py blog-converted.md zh-CN --model byteplus # Use BytePlus model
+    python scripts/translate.py blog-converted.md en               # Copies with proper filename
 
 Original Gemini Prompt Logic Implemented:
-"translate blog-gemini.md and put it under the src/content/blog/$lang/ folder with a proper 
-name by the url field in the yaml frontmatter. Do NOT name it blog-gemini.md. If the 
-file is already in $lang, then just copy it to the folder with a file name from the url 
-key in the yaml frontmatter. Do not name it blog-gemini.md. Do not delete blog-gemini.md 
+"translate blog-gemini.md and put it under the src/content/blog/$lang/ folder with a proper
+name by the url field in the yaml frontmatter. Do NOT name it blog-gemini.md. If the
+file is already in $lang, then just copy it to the folder with a file name from the url
+key in the yaml frontmatter. Do not name it blog-gemini.md. Do not delete blog-gemini.md
 either. If the destination file already exists, then you can skip and end the task.
-During translation, make sure to translate the following fields in yaml frontmatter too: 
-title, meta_description, category, tags. Keep author, date, modified_date, url as is. 
-Also translate the entire content body to $lang. Finally double check the yaml 
+During translation, make sure to translate the following fields in yaml frontmatter too:
+title, description, category, tags. Keep author, publishDate, updatedDate, url as is.
+Also translate the entire content body to $lang. Finally double check the yaml
 frontmatter's format and fix any errors."
 
 Model List and Pricing:
@@ -54,7 +57,7 @@ import time
 from pathlib import Path
 from openai import OpenAI
 
-# Use OpenAI SDK with generic mdoels:
+# Model configurations
 byteplus_model = "seed-1-6-250615"
 # byteplus_model = "seed-1-6-flash-250615"
 # byteplus_model = "deepseek-v3-1-250821"
@@ -62,6 +65,8 @@ byteplus_model = "seed-1-6-250615"
 # Translation specific model does not use OpenAI SDK directly:
 # https://console.byteplus.com/ark/region:ark+ap-southeast-1/model/detail?Id=seed-translation
 # byteplus_model = "seed-translation-250915"
+
+openai_model = "gpt-4.1-nano"  # Default to gpt-4.1-nano as requested
 
 def parse_frontmatter(content):
     """Parse YAML frontmatter from markdown content."""
@@ -118,7 +123,7 @@ def parse_frontmatter(content):
             print(f"Failed to fix YAML: {e2}")
             return {}, content
 
-def translate_text_chunk(client, text, target_language, source_language="en"):
+def translate_text_chunk(client, text, target_language, source_language="en", model=None):
     """Translate a single chunk of text."""
     prompt = f"""You are a professional translator. Translate the ENTIRE text from {source_language} to {target_language}.
 
@@ -135,7 +140,7 @@ User will input Text to translate (TRANSLATE EVERYTHING) now. Just output the tr
 """
 
     completion = client.chat.completions.create(
-        model=byteplus_model,
+        model=model,
         messages=[
             {"role": "system", "content": prompt},
             {"role": "user", "content": text}
@@ -143,22 +148,22 @@ User will input Text to translate (TRANSLATE EVERYTHING) now. Just output the tr
         temperature=0.1,
         max_tokens=30000
     )
-    
+
     return completion.choices[0].message.content
 
-def translate_text_chunked(client, text, target_language, source_language="en"):
+def translate_text_chunked(client, text, target_language, source_language="en", model=None):
     """Translate very long text by splitting into chunks to prevent LLM laziness."""
-    
+
     # Split text into logical chunks (by paragraphs, preserving structure)
     paragraphs = text.split('\n\n')
     chunks = []
     current_chunk = []
     current_length = 0
     max_chunk_length = 5000  # Conservative chunk size
-    
+
     for paragraph in paragraphs:
         paragraph_length = len(paragraph)
-        
+
         # If adding this paragraph would exceed limit, save current chunk
         if current_length + paragraph_length > max_chunk_length and current_chunk:
             chunks.append('\n\n'.join(current_chunk))
@@ -167,48 +172,48 @@ def translate_text_chunked(client, text, target_language, source_language="en"):
         else:
             current_chunk.append(paragraph)
             current_length += paragraph_length + 2  # +2 for \n\n
-    
+
     # Add the last chunk
     if current_chunk:
         chunks.append('\n\n'.join(current_chunk))
-    
+
     print(f"📝 Split content into {len(chunks)} chunks for translation")
-    
+
     # Translate each chunk
     translated_chunks = []
     for i, chunk in enumerate(chunks):
         print(f"🔄 Translating chunk {i+1}/{len(chunks)} ({len(chunk)} chars)...")
-        
+
         try:
-            translated_chunk = translate_text_chunk(client, chunk, target_language, source_language)
+            translated_chunk = translate_text_chunk(client, chunk, target_language, source_language, model)
             translated_chunks.append(translated_chunk)
             print(f"✅ Chunk {i+1} translated successfully")
         except Exception as e:
             print(f"❌ Error translating chunk {i+1}: {e}")
             # Use original chunk if translation fails
             translated_chunks.append(chunk)
-        
+
         # Small delay between chunks
         if i < len(chunks) - 1:  # Don't sleep after last chunk
             time.sleep(0.5)
-    
+
     # Combine translated chunks
     final_translation = '\n\n'.join(translated_chunks)
     print(f"✅ Chunked translation completed: {len(final_translation)} chars")
-    
+
     return final_translation
 
-def translate_text(client, text, target_language, source_language="en", max_retries=2):
+def translate_text(client, text, target_language, source_language="en", max_retries=2, model=None):
     """Translate text using OpenAI API with anti-laziness measures."""
-    
+
     # Check if text is very long and might cause laziness
     text_length = len(text)
     is_very_long = text_length > 5000  # Very long content needs chunking
     is_long_content = text_length > 3000
-    
+
     if is_very_long:
         print(f"⚠️  Very long content detected ({text_length} chars). Using chunked translation...")
-        return translate_text_chunked(client, text, target_language, source_language)
+        return translate_text_chunked(client, text, target_language, source_language, model)
     elif is_long_content:
         print(f"⚠️  Long content detected ({text_length} chars). Using anti-laziness measures...")
     
@@ -234,7 +239,7 @@ User will input Text to translate (TRANSLATE EVERYTHING) now. Just output the tr
                 print(f"🔄 Retry attempt {attempt}/{max_retries} for translation...")
             
             completion = client.chat.completions.create(
-                model=byteplus_model,
+                model=model,
                 messages=[
                     {"role": "system", "content": prompt},
                     {"role": "user", "content": text}
@@ -277,7 +282,7 @@ User will input Text to translate (TRANSLATE EVERYTHING) now. Just output the tr
     
     return text
 
-def translate_frontmatter(client, frontmatter, target_language, source_language="en"):
+def translate_frontmatter(client, frontmatter, target_language, source_language="en", model=None):
     """Translate frontmatter as a whole with LLM instructions and field validation."""
     print(f"📝 Translating frontmatter as a whole to {target_language}...")
     
@@ -288,8 +293,8 @@ def translate_frontmatter(client, frontmatter, target_language, source_language=
     prompt = f"""You are a professional translator. Translate the YAML frontmatter from {source_language} to {target_language}.
 
 CRITICAL TRANSLATION RULES:
-1. TRANSLATE ONLY these fields: title, meta_description, category, tags
-2. KEEP UNCHANGED these fields: author, date, modified_date, url
+1. TRANSLATE ONLY these fields: title, description, category, tags
+2. KEEP UNCHANGED these fields: author, publishDate, updatedDate, url
 3. Maintain exact YAML structure and formatting
 4. For 'tags' field: translate each tag individually but keep as array
 5. Keep product names unchanged: SeaMeet, SeaChat, SeaX, Seasalt.ai, Twilio, PBX, read.ai, otter.ai, etc.
@@ -303,7 +308,7 @@ Translate this YAML frontmatter:
     try:
         # Get translation from LLM
         completion = client.chat.completions.create(
-            model=byteplus_model,
+            model=model,
             messages=[
                 {"role": "system", "content": prompt},
                 {"role": "user", "content": frontmatter_yaml}
@@ -363,31 +368,31 @@ Translate this YAML frontmatter:
     except Exception as e:
         print(f"❌ Error in whole frontmatter translation: {e}")
         print(f"🔄 Falling back to field-by-field translation...")
-        return translate_frontmatter_fallback(client, frontmatter, target_language, source_language)
+        return translate_frontmatter_fallback(client, frontmatter, target_language, source_language, model)
 
-def translate_frontmatter_fallback(client, frontmatter, target_language, source_language="en"):
+def translate_frontmatter_fallback(client, frontmatter, target_language, source_language="en", model=None):
     """Fallback method: translate frontmatter field by field (original implementation)."""
     print(f"📝 Using fallback field-by-field translation to {target_language}...")
     translated = frontmatter.copy()
-    
+
     # Fields to translate (as specified in original prompt)
     translatable_fields = ['title', 'meta_description', 'category', 'tags']
-    
+
     for field in translatable_fields:
         if field in translated:
             if field == 'tags' and isinstance(translated[field], list):
                 print(f"   🏷️  Translating {len(translated[field])} tags...")
                 # Translate each tag in the array
-                translated[field] = [translate_text(client, tag, target_language, source_language) for tag in translated[field]]
+                translated[field] = [translate_text(client, tag, target_language, source_language, model=model) for tag in translated[field]]
             else:
                 print(f"   📄 Translating {field}...")
-                translated[field] = translate_text(client, translated[field], target_language, source_language)
-    
+                translated[field] = translate_text(client, translated[field], target_language, source_language, model=model)
+
     print(f"✅ Fallback frontmatter translation completed")
-    
+
     # Keep author, date, modified_date, url as is (as specified in original prompt)
     # Do NOT modify the URL - keep it exactly the same
-    
+
     return translated
 
 def get_filename_from_url(url):
@@ -413,14 +418,50 @@ def main():
     parser.add_argument('target_language', help='Target language code (e.g., es, fr, de)')
     parser.add_argument('--source-language', default='en', help='Source language code (default: en)')
     parser.add_argument('--output-base-dir', default='src/content/blog', help='Base output directory (default: src/content/blog)')
-    
+    parser.add_argument('--model', choices=['chatgpt', 'byteplus'], default='chatgpt',
+                       help='Model to use for translation (default: chatgpt)')
+
     args = parser.parse_args()
     
-    # Initialize OpenAI client
-    client = OpenAI(
-        api_key=os.environ.get("ARK_API_KEY"), 
-        base_url="https://ark.ap-southeast.bytepluses.com/api/v3",
-    )
+    # Determine which model to use based on arguments and available keys
+    selected_model = None
+    client = None
+
+    # If user specified byteplus, try that first
+    if args.model == 'byteplus':
+        ark_api_key = os.environ.get("ARK_API_KEY")
+        if ark_api_key:
+            client = OpenAI(
+                api_key=ark_api_key,
+                base_url="https://ark.ap-southeast.bytepluses.com/api/v3",
+            )
+            selected_model = byteplus_model
+            print(f"Using BytePlus model: {selected_model}")
+        else:
+            print("ARK_API_KEY not found, cannot use BytePlus model")
+            sys.exit(1)
+    else:  # Default or chatgpt option
+        # First try OpenAI
+        openai_api_key = os.environ.get("OPENAI_API_KEY")
+        if openai_api_key:
+            client = OpenAI(api_key=openai_api_key)
+            selected_model = openai_model
+            print(f"Using OpenAI model: {selected_model}")
+        else:
+            # Fallback to BytePlus if OpenAI key not found
+            print("OPENAI_API_KEY not found, trying BytePlus as fallback...")
+            ark_api_key = os.environ.get("ARK_API_KEY")
+            if ark_api_key:
+                client = OpenAI(
+                    api_key=ark_api_key,
+                    base_url="https://ark.ap-southeast.bytepluses.com/api/v3",
+                )
+                selected_model = byteplus_model
+                print(f"Fallback to BytePlus model: {selected_model}")
+            else:
+                print("Neither OPENAI_API_KEY nor ARK_API_KEY found. Cannot proceed.")
+                sys.exit(1)
+
     
     # Read input file
     input_path = Path(args.input_file)
@@ -447,7 +488,7 @@ def main():
     # First, get the URL from frontmatter to determine output filename
     # This allows us to check file existence BEFORE doing expensive translation work
     print(f"🔍 Step 1: Checking frontmatter and destination...")
-    temp_translated_frontmatter = translate_frontmatter(client, frontmatter, args.target_language, args.source_language)
+    temp_translated_frontmatter = translate_frontmatter(client, frontmatter, args.target_language, args.source_language, model=selected_model)
     
     # Create output directory
     output_dir = Path(args.output_base_dir) / args.target_language
@@ -471,7 +512,7 @@ def main():
     
     # Translate body content (this is the expensive part)
     print(f"\n📖 Step 2: Translating blog content ({len(body)} characters)...")
-    translated_body = translate_text(client, body, args.target_language, args.source_language)
+    translated_body = translate_text(client, body, args.target_language, args.source_language, model=selected_model)
     
     print(f"\n💾 Step 3: Saving translated content...")
     

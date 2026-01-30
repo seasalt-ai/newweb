@@ -1,0 +1,283 @@
+---
+import { Smartphone, MessageSquare, Server, ArrowRight, ArrowLeft, ArrowDown, ArrowUp, Zap, Shield, Clock } from 'lucide-react';
+
+export interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+---
+
+<section id="architecture" class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">
+          Technical Architecture
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Understand how WhatsApp Coexistence works under the hood
+        </p>
+      </div>
+
+      <!-- Interactive Diagram -->
+      <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-200">
+        <!-- Top: Customer -->
+        <div class="text-center mb-8">
+          <div class="inline-flex items-center justify-center w-32 h-32 bg-blue-100 rounded-full">
+            <MessageSquare class="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 class="mt-4 text-xl font-bold text-gray-900">Customer</h3>
+          <p class="text-gray-500 text-sm">Messages from any device</p>
+        </div>
+
+        <!-- Middle: WhatsApp Infrastructure -->
+        <div class="grid md:grid-cols-2 gap-8 mb-8">
+          <!-- Left: WhatsApp Business App -->
+          <div class="relative bg-green-50 rounded-2xl p-6 border-2 border-green-200">
+            <div class="text-center mb-4">
+              <div class="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-md overflow-hidden">
+                <img src="/logos/WhatsApp-Business-App.jpg" alt="WhatsApp Business App" class="w-full h-full object-cover"/>
+              </div>
+              <h3 class="mt-3 text-lg font-bold text-gray-900">WhatsApp Business App</h3>
+              <p class="text-gray-600 text-sm">Mobile device</p>
+            </div>
+
+            <ul class="space-y-3 text-gray-700">
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✓</span>
+                Native mobile interface
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✓</span>
+                Manual 1:1 conversations
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✓</span>
+                Group chats support
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✓</span>
+                Voice/video calls
+              </li>
+            </ul>
+
+            <!-- Arrow to API -->
+            <div class="hidden md:block absolute -right-4 top-1/2 transform -translate-y-1/2">
+              <ArrowRight class="w-8 h-8 text-green-400" />
+            </div>
+          </div>
+
+          <!-- Right: Cloud API -->
+          <div class="relative bg-blue-50 rounded-2xl p-6 border-2 border-blue-200">
+            <div class="text-center mb-4">
+              <div class="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-md overflow-hidden">
+                <img src="/logos/WhatsApp-Business-Platform.jpg" alt="WhatsApp Business Platform" class="w-full h-full object-cover"/>
+              </div>
+              <h3 class="mt-3 text-lg font-bold text-gray-900">WhatsApp Cloud API</h3>
+              <p class="text-gray-600 text-sm">Server-side automation</p>
+            </div>
+
+            <ul class="space-y-3 text-gray-700">
+              <li class="flex items-start">
+                <span class="text-blue-600 mr-2">✓</span>
+                Unlimited agents
+              </li>
+              <li class="flex items-start">
+                <span class="text-blue-600 mr-2">✓</span>
+                AI chatbots
+              </li>
+              <li class="flex items-start">
+                <span class="text-blue-600 mr-2">✓</span>
+                CRM integration
+              </li>
+              <li class="flex items-start">
+                <span class="text-blue-600 mr-2">✓</span>
+                Advanced analytics
+              </li>
+            </ul>
+
+            <!-- Arrow to App -->
+            <div class="hidden md:block absolute -left-4 top-1/2 transform -translate-y-1/2">
+              <ArrowLeft class="w-8 h-8 text-blue-400" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom: Seasalt.ai Platform -->
+        <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
+          <div class="text-center mb-6">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full">
+              <Shield class="w-8 h-8 text-white" />
+            </div>
+            <h3 class="mt-3 text-lg font-bold">Seasalt.ai Platform</h3>
+            <p class="text-blue-100 text-sm">Unified inbox & orchestration</p>
+          </div>
+
+          <div class="grid sm:grid-cols-3 gap-4">
+            <div class="bg-white/10 rounded-xl p-4">
+              <Zap class="w-6 h-6 text-yellow-300 mb-2" />
+              <h4 class="font-semibold mb-1">Message Mirroring</h4>
+              <p class="text-sm text-blue-100">Real-time sync across all channels</p>
+            </div>
+
+            <div class="bg-white/10 rounded-xl p-4">
+              <Clock class="w-6 h-6 text-yellow-300 mb-2" />
+              <h4 class="font-semibold mb-1">Echo Events</h4>
+              <p class="text-sm text-blue-100">Track manual app replies</p>
+            </div>
+
+            <div class="bg-white/10 rounded-xl p-4">
+              <Zap class="w-6 h-6 text-yellow-300 mb-2" />
+              <h4 class="font-semibold mb-1">Webhook Routing</h4>
+              <p class="text-sm text-blue-100">Intelligent message routing</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Flow Indicators -->
+        <div class="relative mt-8 pt-8 border-t border-gray-200">
+          <div class="grid md:grid-cols-3 gap-8">
+            <!-- Inbound Flow -->
+            <div class="text-center">
+              <div class="inline-flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-2">
+                <ArrowDown class="w-5 h-5 text-blue-600" />
+              </div>
+              <p class="text-sm font-semibold text-gray-900 mb-1">Inbound Mirroring</p>
+              <p class="text-gray-600 text-xs">Customer → App + API simultaneously</p>
+            </div>
+
+            <!-- Outbound from App -->
+            <div class="text-center">
+              <div class="inline-flex items-center justify-center w-10 h-10 bg-green-100 rounded-full mb-2">
+                <ArrowRight class="w-5 h-5 text-green-600" />
+              </div>
+              <p class="text-sm font-semibold text-gray-900 mb-1">App Echoes</p>
+              <p class="text-gray-600 text-xs">Manual reply → API notification</p>
+            </div>
+
+            <!-- Outbound from API -->
+            <div class="text-center">
+              <div class="inline-flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-2">
+                <ArrowUp class="w-5 h-5 text-blue-600" />
+              </div>
+              <p class="text-sm font-semibold text-gray-900 mb-1">API Echoes</p>
+              <p class="text-gray-600 text-xs">Bot reply → App notification</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Technical Specs -->
+      <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+          <div class="flex items-center mb-3">
+            <Clock class="w-6 h-6 text-orange-500 mr-2" />
+            <h3 class="font-bold text-gray-900">20 MPS</h3>
+          </div>
+          <p class="text-gray-600 text-sm">Max message throughput for coexistence accounts</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+          <div class="flex items-center mb-3">
+            <Clock class="w-6 h-6 text-blue-500 mr-2" />
+            <h3 class="font-bold text-gray-900">24 Hours</h3>
+          </div>
+          <p class="text-gray-600 text-sm">Sync window for importing chat history</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+          <div class="flex items-center mb-3">
+            <Zap class="w-6 h-6 text-green-500 mr-2" />
+            <h3 class="font-bold text-gray-900">180 Days</h3>
+          </div>
+          <p class="text-gray-600 text-sm">Chat history retention period</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+          <div class="flex items-center mb-3">
+            <Shield class="w-6 h-6 text-purple-500 mr-2" />
+            <h3 class="font-bold text-gray-900">E2EE</h3>
+          </div>
+          <p class="text-gray-600 text-sm">End-to-end encryption for all messages</p>
+        </div>
+      </div>
+
+      <!-- Key Features List -->
+      <div class="mt-12 grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+            <span class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-3">✓</span>
+            Webhook Events
+          </h3>
+          <ul class="space-y-2 text-gray-600">
+            <li><strong>messages</strong> - Incoming customer messages</li>
+            <li><strong>smb_message_echoes</strong> - Manual app replies</li>
+            <li><strong>smb_app_state_sync</strong> - Contact updates</li>
+            <li><strong>history</strong> - 6-month chat import</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+            <span class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-3">✓</span>
+            Security & Compliance
+          </h3>
+          <ul class="space-y-2 text-gray-600">
+            <li><strong>End-to-End Encryption</strong> - All messages protected</li>
+            <li><strong>Compliant</strong> - Full audit trails</li>
+            <li><strong>HIPAA Ready</strong> - Healthcare certified</li>
+            <li><strong>PCI DSS</strong> - Payment card security</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-12 text-center">
+        <p class="text-lg text-gray-600 mb-6">
+          Ready to implement WhatsApp Coexistence?
+        </p>
+        <a
+          href="https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-coexistence/"
+          class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+        >
+          Read Full Tutorial
+          <ArrowRight class="ml-2 w-5 h-5" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Add intersection observer for animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-in');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.bg-white, .bg-gradient-to-r').forEach(el => {
+    observer.observe(el);
+  });
+</script>
+
+<style>
+  .animate-in {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>

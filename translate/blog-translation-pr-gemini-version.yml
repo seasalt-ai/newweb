@@ -206,7 +206,7 @@ jobs:
         echo "=== CONVERTING TO BLOG POST FORMAT ==="
         echo "Using flash model: $USE_FLASH_MODEL (determined from initial test)"
         
-        GEMINI_PROMPT="Read the content of $ORIG_MD and convert it into a properly formatted blog post. Add YAML frontmatter with these exact fields: title, meta_description, author: SeaMeet Copilot, date: $TODAY_DATE, modified_date: $TODAY_DATE, url: /blog/convert-title-to-url-slug, category, tags: as-array-format. Write the complete result to a new file called blog-gemini.md. Do not just describe what you would do - actually create the file with the full content."
+        GEMINI_PROMPT="Read the content of $ORIG_MD and convert it into a properly formatted blog post. Add YAML frontmatter with these exact fields: title, meta_description, author: Seasalt.ai Team, date: $TODAY_DATE, modified_date: $TODAY_DATE, url: /blog/convert-title-to-url-slug, category, tags: as-array-format. Write the complete result to a new file called blog-gemini.md. Do not just describe what you would do - actually create the file with the full content."
         
         if [ "$USE_FLASH_MODEL" = true ]; then
           GEMINI_CMD="gemini -y -m gemini-2.5-flash -p \"$GEMINI_PROMPT\""

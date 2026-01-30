@@ -1,0 +1,604 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Hero from '../../../components/channels/whatsapp-coexistence/Hero.astro';
+import Walkthrough from '../../../components/channels/whatsapp-coexistence/Walkthrough.astro';
+import UseCases from '../../../components/channels/whatsapp-coexistence/UseCases.astro';
+import Architecture from '../../../components/channels/whatsapp-coexistence/Architecture.astro';
+import Comparison from '../../../components/channels/whatsapp-coexistence/Comparison.astro';
+import Pricing from '../../../components/channels/whatsapp-coexistence/Pricing.tsx';
+import Resources from '../../../components/channels/whatsapp-coexistence/Resources.astro';
+import CTASection from '../../../components/channels/whatsapp-coexistence/CTASection.astro';
+import { supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// SEO Configuration (hardcoded English)
+const title = 'WhatsApp Coexistence | Keep Your App & Scale with Cloud API | Seasalt.ai';
+const description = 'Discover WhatsApp Coexistence by Seasalt.ai. Keep your WhatsApp Business App while unlocking Cloud API power. No data loss, same number, hybrid human-AI workflows.';
+const keywords = 'WhatsApp Coexistence, WhatsApp Business API, WhatsApp Business App, hybrid messaging, AI chatbot, customer support automation';
+const canonical = `${import.meta.env.SITE_URL}/${currentLang}/channels/whatsapp-coexistence`;
+
+// Schema.org JSON-LD
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": canonical,
+  "inLanguage": currentLang,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Seasalt.ai",
+    "url": "https://seasalt.ai",
+    "logo": "https://seasalt.ai/seasalt-ai-logo.png"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": `https://seasalt.ai/${currentLang}/`
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Channels",
+        "item": `https://seasalt.ai/${currentLang}/channels/`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "WhatsApp Coexistence"
+      }
+    ]
+  },
+  "mainEntity": {
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": {
+      "@type": "Organization",
+      "name": "Seasalt.ai Team"
+    },
+    "datePublished": "2025-01-28",
+    "dateModified": new Date().toISOString(),
+    "publisher": {
+      "@type": "Organization",
+      "name": "Seasalt.ai"
+    }
+  }
+};
+---
+
+<!doctype html>
+<html lang={currentLang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
+    <link rel="canonical" href={canonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content="https://seasalt.ai/og-whatsapp-coexistence.jpg" />
+    <meta property="og:site_name" content="Seasalt.ai" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="https://seasalt.ai/og-whatsapp-coexistence.jpg" />
+
+    <title>{title}</title>
+
+    <script type="application/ld+json" set:html={JSON.stringify(schema)}></script>
+  </head>
+  <body>
+    <Layout>
+      <main class="min-h-screen">
+        <!-- Hero Section -->
+        <Hero lang={currentLang} />
+
+        <!-- The Problem Section -->
+        <section id="problem" class="py-20 bg-gradient-to-b from-gray-50 to-white">
+          <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Pain Point Header -->
+            <div class="text-center mb-8">
+              <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+                The <span class="text-red-600">Impossible Choice</span>:
+              </h2>
+              <h3 class="text-2xl md:text-3xl font-semibold text-gray-700">
+                Keep Your Phone App <span class="text-gray-400">OR</span> Scale with Enterprise Tools?
+              </h3>
+              <p class="text-xl text-gray-600 leading-relaxed">
+                <span class="text-red-600 font-semibold">Until now, you had to sacrifice one for the other.</span>
+              </p>
+            </div>
+
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <!-- WhatsApp Business App Card - The Trap -->
+              <div class="relative">
+                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full shadow-sm z-10">
+                  Stay Small
+                </div>
+                <div class="p-8 rounded-2xl bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-200 shadow-md h-full">
+                  <div class="flex items-center gap-3 mb-6">
+                    <div class="w-14 h-14 rounded-xl overflow-hidden shadow-md">
+                      <img src="/logos/WhatsApp-Business-App.jpg" alt="WhatsApp Business App" class="w-full h-full object-cover"/>
+                    </div>
+                    <div>
+                      <h4 class="text-xl font-bold text-gray-800">WhatsApp Business App</h4>
+                      <p class="text-sm text-gray-500">The Mobile-Only Trap</p>
+                    </div>
+                  </div>
+                  
+                  <div class="space-y-4">
+                    <div class="bg-white/60 rounded-lg p-3">
+                      <p class="text-green-700 font-medium text-sm mb-2">✓ What You Get</p>
+                      <ul class="text-sm text-gray-600 space-y-1">
+                        <li class="flex items-center gap-2">
+                          <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                          Native mobile experience
+                        </li>
+                        <li class="flex items-center gap-2">
+                          <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                          Free messaging
+                        </li>
+                      </ul>
+                    </div>
+                    
+                    <div class="bg-red-50 rounded-lg p-3 border border-red-100">
+                      <p class="text-red-700 font-medium text-sm mb-2">✗ The Dealbreaker</p>
+                      
+                      <!-- 4 Devices Limit Visualization -->
+                      <div class="mb-3 bg-white rounded-lg p-3 border border-red-100">
+                        <div class="flex items-center justify-center gap-1 mb-2">
+                          <!-- 4 Connected Devices -->
+                          <div class="flex -space-x-2">
+                            <div class="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center border-2 border-green-300">
+                              <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <rect x="6" y="4" width="12" height="16" rx="2" stroke-width="2"/>
+                              </svg>
+                            </div>
+                            <div class="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center border-2 border-green-300">
+                              <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <rect x="6" y="4" width="12" height="16" rx="2" stroke-width="2"/>
+                              </svg>
+                            </div>
+                            <div class="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center border-2 border-green-300">
+                              <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <rect x="6" y="4" width="12" height="16" rx="2" stroke-width="2"/>
+                              </svg>
+                            </div>
+                            <div class="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center border-2 border-green-300">
+                              <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <rect x="6" y="4" width="12" height="16" rx="2" stroke-width="2"/>
+                              </svg>
+                            </div>
+                          </div>
+                          <!-- Locked Icon -->
+                          <div class="ml-2 w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center border-2 border-red-300">
+                            <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                            </svg>
+                          </div>
+                        </div>
+                        <p class="text-xs text-center text-red-600 font-semibold">Maximum 4 linked devices</p>
+                        <p class="text-xs text-center text-gray-500 mt-1">5th team member? Not possible.</p>
+                      </div>
+                      
+                      <ul class="text-sm text-gray-700 space-y-1">
+                        <li class="flex items-center gap-2">
+                          <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                          <strong>Only 4 devices max</strong>
+                        </li>
+                        <li class="flex items-center gap-2">
+                          <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                          Cannot add agents as you grow
+                        </li>
+                        <li class="flex items-center gap-2">
+                          <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                          No automation or CRM
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Cloud API Card - The Other Trap -->
+              <div class="relative">
+                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm z-10">
+                  Lose Mobility
+                </div>
+                <div class="p-8 rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-100 border-2 border-blue-200 shadow-md h-full">
+                  <div class="flex items-center gap-3 mb-6">
+                    <div class="w-14 h-14 rounded-xl overflow-hidden shadow-md">
+                      <img src="/logos/WhatsApp-Business-Platform.jpg" alt="WhatsApp Cloud API" class="w-full h-full object-cover"/>
+                    </div>
+                    <div>
+                      <h4 class="text-xl font-bold text-gray-800">Cloud API</h4>
+                      <p class="text-sm text-gray-500">The Desktop-Only Trap</p>
+                    </div>
+                  </div>
+                  
+                  <div class="space-y-4">
+                    <div class="bg-white/80 rounded-lg p-3 border border-blue-100">
+                      <p class="text-green-600 font-medium text-sm mb-2">✓ What You Get</p>
+                      <ul class="text-sm text-gray-600 space-y-1">
+                        <li class="flex items-center gap-2">
+                          <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                          Unlimited agents
+                        </li>
+                        <li class="flex items-center gap-2">
+                          <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                          AI automation & CRM
+                        </li>
+                      </ul>
+                    </div>
+                    
+                    <div class="bg-red-50 rounded-lg p-3 border border-red-200">
+                      <p class="text-red-600 font-medium text-sm mb-2">✗ The Dealbreaker</p>
+                      
+                      <!-- No Mobile Access Visualization -->
+                      <div class="mb-3 bg-white rounded-lg p-3 border border-red-100">
+                        <div class="flex items-center justify-center gap-2 mb-2">
+                          <div class="relative">
+                            <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <rect x="6" y="3" width="12" height="18" rx="2" stroke-width="2"/>
+                              <line x1="10" y1="18" x2="14" y2="18" stroke-width="2"/>
+                            </svg>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                              <div class="w-12 h-12 border-4 border-red-500 rounded-full flex items-center justify-center">
+                                <svg class="w-8 h-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                          <svg class="w-8 h-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"/>
+                          </svg>
+                        </div>
+                        <p class="text-xs text-center text-red-600 font-semibold">Your phone is locked out</p>
+                        <p class="text-xs text-center text-gray-500 mt-1">No mobile access whatsoever</p>
+                      </div>
+                      
+                      <ul class="text-sm text-gray-700 space-y-1">
+                        <li class="flex items-center gap-2">
+                          <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                          <strong>No mobile app on your phone</strong>
+                        </li>
+                        <li class="flex items-center gap-2">
+                          <svg class="w-4 h-4 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                          Stuck with desktop/dashboard only
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pain Point Summary -->
+            <div class="mt-12 text-center max-w-2xl mx-auto">
+              <div class="bg-red-50 border-2 border-red-200 rounded-xl p-6">
+                <p class="text-lg text-gray-800 font-medium mb-2">
+                  Either you stay stuck with limited team capacity,
+                </p>
+                <p class="text-lg text-gray-800 font-medium mb-4">
+                  or you lose the flexibility your business depends on.
+                </p>
+                <div class="flex items-center justify-center gap-2 text-red-700 font-bold text-xl">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                  </svg>
+                  This is the dilemma every growing business faces.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- The Solution - WhatsApp Coexistence -->
+        <section id="solution" class="py-20 bg-gradient-to-b from-gray-50 to-white">
+          <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-5xl mx-auto">
+              <!-- Header -->
+              <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+                  Now, <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-500">Worry No More.</span>
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                  Introducing <strong class="text-gray-900">Meta  WhatsApp Coexistence</strong> with Seasalt.ai. The only solution that bridges the gap, giving you the scalability of the API without giving up your phone.
+                </p>
+              </div>
+
+              <!-- WhatsApp Coexistence Visual -->
+              <div class="bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-12 mb-12">
+                <!-- Section Header -->
+                <div class="text-center mb-10">
+                  <div class="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-3 rounded-full shadow-lg mb-4">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+                    </svg>
+                    <span class="text-xl font-bold">WhatsApp Coexistence</span>
+                  </div>
+                  <p class="text-gray-600">Two platforms. One phone number. Zero compromises.</p>
+                </div>
+                
+                <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+                  <!-- WhatsApp Business App -->
+                  <div class="flex flex-col items-center text-center">
+                    <div class="w-24 h-24 md:w-32 md:h-32 rounded-2xl overflow-hidden shadow-lg mb-4 border-4 border-green-100">
+                      <img src="/logos/WhatsApp-Business-App.jpg" alt="WhatsApp Business App" class="w-full h-full object-cover"/>
+                    </div>
+                    <h3 class="font-bold text-gray-900 text-lg">WhatsApp Business App</h3>
+                    <p class="text-sm text-gray-500">Mobile Experience</p>
+                  </div>
+
+                  <!-- Plus Sign -->
+                  <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gradient-to-br from-yellow-300 to-yellow-500 flex items-center justify-center shadow-lg">
+                      <svg class="w-6 h-6 md:w-8 md:h-8 text-green-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M12 4v16m8-8H4"/>
+                      </svg>
+                    </div>
+                  </div>
+
+                  <!-- WhatsApp Cloud API -->
+                  <div class="flex flex-col items-center text-center">
+                    <div class="w-24 h-24 md:w-32 md:h-32 rounded-2xl overflow-hidden shadow-lg mb-4 border-4 border-blue-100">
+                      <img src="/logos/WhatsApp-Business-Platform.jpg" alt="WhatsApp Cloud API" class="w-full h-full object-cover"/>
+                    </div>
+                    <h3 class="font-bold text-gray-900 text-lg">WhatsApp Cloud API</h3>
+                    <p class="text-sm text-gray-500">Enterprise Scale</p>
+                  </div>
+
+                  <!-- Equals Sign -->
+                  <div class="hidden md:flex flex-col items-center">
+                    <div class="text-4xl font-bold text-gray-400">=</div>
+                  </div>
+
+                  <!-- Coexistence Result -->
+                  <div class="flex flex-col items-center text-center md:ml-4">
+                    <div class="relative">
+                      <div class="w-32 h-32 md:w-40 md:h-40 rounded-2xl bg-gradient-to-br from-green-400 to-emerald-500 shadow-xl p-3 flex items-center justify-center">
+                        <!-- Coexistence Visual: Both Logos in Diagonal -->
+                        <div class="relative w-full h-full">
+                          <!-- Cloud API Logo - Top Right Position -->
+                          <div class="absolute top-1 right-1 w-12 h-12 md:w-14 md:h-14 rounded-xl overflow-hidden shadow-lg border-2 border-white z-10">
+                            <img src="/logos/WhatsApp-Business-Platform.jpg" alt="Cloud API" class="w-full h-full object-cover"/>
+                          </div>
+                          
+                          <!-- Diagonal Connection Line -->
+                          <svg class="absolute inset-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <line x1="75" y1="25" x2="25" y2="75" stroke="white" stroke-width="2" stroke-dasharray="4 2" opacity="0.6"/>
+                          </svg>
+                          
+                          <!-- Business App Logo - Bottom Left Position -->
+                          <div class="absolute bottom-1 left-1 w-12 h-12 md:w-14 md:h-14 rounded-xl overflow-hidden shadow-lg border-2 border-white z-10">
+                            <img src="/logos/WhatsApp-Business-App.jpg" alt="Business App" class="w-full h-full object-cover"/>
+                          </div>
+                          
+                          <!-- Sync indicator in Center -->
+                          <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-7 h-7 bg-yellow-400 rounded-full flex items-center justify-center shadow-md z-20">
+                            <svg class="w-4 h-4 text-green-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="absolute -top-2 -right-2 bg-yellow-400 text-green-900 text-xs font-bold px-2 py-1 rounded-full shadow-md">
+                        BEST
+                      </div>
+                    </div>
+                    <h3 class="font-bold text-gray-900 text-lg mt-4">Coexistence</h3>
+                    <p class="text-sm text-gray-500">Best of Both Worlds</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- What is WhatsApp Coexistence Section -->
+        <section id="what-is-coexistence" class="py-20 bg-white">
+          <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-6xl mx-auto">
+              <!-- Section Header -->
+              <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What is WhatsApp Coexistence?</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                  WhatsApp Coexistence is a revolutionary feature that allows businesses to use both WhatsApp Business App and WhatsApp Cloud API on the same phone number, <span class="text-green-600 font-semibold">simultaneously</span>.
+                </p>
+              </div>
+
+              <!-- Before/After Comparison -->
+              <div class="grid md:grid-cols-2 gap-6 mb-16">
+                <div class="bg-gray-50 rounded-xl p-6 border-2 border-gray-200">
+                  <h4 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center mr-3 text-sm">✗</span>
+                    Before Coexistence
+                  </h4>
+                  <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-start">
+                      <span class="text-red-500 mr-2">•</span>
+                      Lose chat history when migrating to API
+                    </li>
+                    <li class="flex items-start">
+                      <span class="text-red-500 mr-2">•</span>
+                      Change phone number or get a new one
+                    </li>
+                    <li class="flex items-start">
+                      <span class="text-red-500 mr-2">•</span>
+                      Choose between personal app or enterprise automation
+                    </li>
+                    <li class="flex items-start">
+                      <span class="text-red-500 mr-2">•</span>
+                      Disrupt customer relationships during transition
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="bg-green-50 rounded-xl p-6 border-2 border-green-300">
+                  <h4 class="text-xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center mr-3 text-sm">✓</span>
+                    After Coexistence
+                  </h4>
+                  <ul class="space-y-3 text-gray-600">
+                    <li class="flex items-start">
+                      <span class="text-green-500 mr-2">✓</span>
+                      Keep same phone number
+                    </li>
+                    <li class="flex items-start">
+                      <span class="text-green-500 mr-2">✓</span>
+                      Sync 180 days of chat history
+                    </li>
+                    <li class="flex items-start">
+                      <span class="text-green-500 mr-2">✓</span>
+                      Use app and API simultaneously
+                    </li>
+                    <li class="flex items-start">
+                      <span class="text-green-500 mr-2">✓</span>
+                      Zero-disruption migration
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- A Unified Omni-Channel Engine Subsection -->
+              <div class="border-t border-gray-200 pt-16">
+                <div class="text-center mb-12">
+                  <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-3">A Unified Omni-Channel Engine</h3>
+                  <p class="text-gray-600 max-w-3xl mx-auto">
+                    It's not just about syncing; it's about upgrading your entire customer support infrastructure.
+                  </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                  <!-- Feature 1: 3-Way Synchronization -->
+                  <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-all">
+                    <div class="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center text-white mb-4">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                      </svg>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">3-Way Synchronization</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                      Messages sync instantly between your Phone, Seasalt Web Dashboard, and Seasalt Mobile App. Send from anywhere, see it everywhere.
+                    </p>
+                  </div>
+
+                  <!-- Feature 2: Unlimited Agents -->
+                  <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-all">
+                    <div class="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center text-white mb-4">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                      </svg>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Unlimited Agents</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                      Break the 4-device limit. Add 10, 50, or 100 agents to the same WhatsApp number. Assign conversations to human agents or AI bots seamlessly.
+                    </p>
+                  </div>
+
+                  <!-- Feature 3: AI Agent Handoff -->
+                  <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-all">
+                    <div class="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center text-white mb-4">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                      </svg>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">AI Agent Handoff</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                      Enable AI Agents to handle off-hours inquiries on the platform, while you monitor results directly on your personal phone.
+                    </p>
+                  </div>
+
+                  <!-- Feature 4: 6-Month History Import -->
+                  <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-all">
+                    <div class="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center text-white mb-4">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                      </svg>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">6-Month History Import</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                      Don't start from scratch. We automatically pull in the last 6 months of chat history so your team has full context immediately.
+                    </p>
+                  </div>
+
+                  <!-- Feature 5: Seasalt Mobile App -->
+                  <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-all">
+                    <div class="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center text-white mb-4">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <rect x="6" y="3" width="12" height="18" rx="2" stroke-width="2"/>
+                        <line x1="10" y1="18" x2="14" y2="18" stroke-width="2"/>
+                      </svg>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Seasalt Mobile App</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                      Employees don't need access to your physical phone. They can use Seasalt.ai App on their own devices to reply to customers on the go.
+                    </p>
+                  </div>
+
+                  <!-- Feature 6: Unified Inbox -->
+                  <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-all">
+                    <div class="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center text-white mb-4">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/>
+                      </svg>
+                    </div>
+                    <h4 class="text-lg font-bold mb-2">Unified Inbox</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">
+                      Combine WhatsApp with SMS, Messenger, LINE, and Instagram in one single view. Stop tab-switching and start solving.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+ 
+        <!-- Walkthrough Section -->
+        <Walkthrough lang={currentLang} />
+
+
+        <!-- Use Cases Section -->
+        <UseCases lang={currentLang} />
+
+        <!-- Architecture Section -->
+        <Architecture lang={currentLang} />
+
+        <!-- Comparison Section -->
+        <Comparison lang={currentLang} />
+
+        <!-- Pricing Section -->
+        <Pricing lang={currentLang} />
+
+        <!-- Resources Section -->
+        <Resources lang={currentLang} />
+
+        <!-- CTA Section -->
+        <CTASection lang={currentLang} />
+      </main>
+    </Layout>
+  </body>
+</html>
