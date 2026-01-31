@@ -53,17 +53,20 @@ const keywords = t('integrations.spoke.keywords')
   .replaceAll('{actionName}', action.name)
   .replaceAll('{category}', app.category);
 
+// Canonical path for this page (with trailing slash for consistency)
+const canonicalPath = `/${currentLang}/integrations/${app.slug}/${action.slug}/`;
+
 // Breadcrumbs
 const breadcrumbs = [
   { name: t('integrations.breadcrumb.home'), url: `/${currentLang}/` },
   { name: t('integrations.breadcrumb.integrations'), url: `/${currentLang}/integrations/` },
   { name: app.name, url: `/${currentLang}/integrations/${app.slug}/` },
-  { name: action.name, url: `/${currentLang}/integrations/${app.slug}/${action.slug}/` }
+  { name: action.name, url: canonicalPath }
 ];
 
 // Base URL for schema.org structured data
 const siteUrl = "https://seasalt.ai";
-const currentUrl = `${siteUrl}/${currentLang}/integrations/${app.slug}/${action.slug}`;
+const currentUrl = `${siteUrl}${canonicalPath}`;
 
 // 1. SoftwareApplication Schema - represents the integration itself
 const integrationSchema = {
@@ -247,6 +250,7 @@ const cleanOutputMessage = useCases.length > 0
   customJsonLd={customJsonLd}
   headerVersion="default"
   footerVersion="default"
+  alternateUrls={{ [currentLang]: canonicalPath }}
 >
   <div class="bg-gradient-to-b from-blue-50 via-white to-gray-50 min-h-screen">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

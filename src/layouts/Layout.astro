@@ -76,6 +76,7 @@ export interface Props {
 	noindex?: boolean;
 	nofollow?: boolean;
 	customJsonLd?: Record<string, any>[];
+	alternateUrls?: Record<string, string>;
 	// Version management props
 	headerVersion?: 'default' | 'seachat' | 'seax' | 'seavoice';
 	footerVersion?: 'default' | 'seachat' | 'seax' | 'seavoice';
@@ -98,7 +99,8 @@ const {
 	nofollow = false,
 	customJsonLd,
 	headerVersion,
-	footerVersion
+	footerVersion,
+	alternateUrls
 } = Astro.props;
 ---
 
@@ -121,6 +123,7 @@ const {
 			noindex={noindex}
 			nofollow={nofollow}
 			customJsonLd={customJsonLd}
+			alternateUrls={alternateUrls}
 		/>
 		<meta name="generator" content={Astro.generator} />
 	</head>

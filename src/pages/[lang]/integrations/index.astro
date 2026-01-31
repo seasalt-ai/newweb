@@ -31,12 +31,16 @@ const sortedCategories = Object.keys(appsByCategory).sort();
 
 const totalApps = curatedApps.apps.length;
 const totalCategories = sortedCategories.length;
+
+// Canonical path for this page (with trailing slash for consistency)
+const canonicalPath = `/${currentLang}/integrations/`;
 ---
 
 <Layout 
   title={`Integrations - Connect with 8000+ Apps | Seasalt.ai`}
   description={`Connect Seasalt.ai with ${totalApps}+ apps across ${totalCategories} categories. Automate your workflows with SMS, WhatsApp, and Phone Call integrations.`}
   lang={currentLang}
+  alternateUrls={{ [currentLang]: canonicalPath }}
 >
   <!-- Hero Section -->
   <section class="relative bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 py-20 md:py-32 overflow-hidden">
