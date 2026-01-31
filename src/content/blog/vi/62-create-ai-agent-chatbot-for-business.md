@@ -67,7 +67,7 @@ author: Xuchen Yao
 description: "Tìm hiểu cách tạo chatbot AI agent thông minh cho doanh nghiệp của bạn, từ việc chọn nền tảng đến tích hợp với hệ thống kinh doanh từng bước."
 weight: 1
 tags: ["AI chatbot", "Doanh nghiệp", "Tự động hóa", "Agent thông minh"]
-image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
+image: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
 canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
 url: "/blog/create-ai-agent-chatbot-for-business/"
 ---

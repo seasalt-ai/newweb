@@ -2,7 +2,8 @@
 export const MEETING_URL =
   "https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/";
 export const HUBSPOT_DEMO_ZH_TW =
-  "https://meetings.hubspot.com/seasalt-ai/seasalt-meeting-taiwan";
+  "https://calendar.app.google/3w9kgPpkjHKqgJsN7";
+  // "https://meetings.hubspot.com/seasalt-ai/seasalt-meeting-taiwan";
 
 // Helper function to get the appropriate meeting URL based on language
 export const getMeetingUrl = (language: string): string => {

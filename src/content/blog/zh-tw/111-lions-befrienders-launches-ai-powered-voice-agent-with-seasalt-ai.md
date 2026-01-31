@@ -1,6 +1,6 @@
 ---
 author: Xuchen Yao
-description: Lions Befrienders 與 Seasalt.ai 合作推出用於長者照護的 AI 語音代理。它可自動化問候電話、優先處理緊急需求，並減輕員工倦怠。
+description: Lions Befrienders 與 Seasalt.ai 合作推出用於長者照護的 AI 語音Agent。它可自動化問候電話、優先處理緊急需求，並減輕員工倦怠。
 draft: false
 image:
   alt: 'SeaVoice Featured: Voice AI agents for senior care with Lions Befrienders'
@@ -9,22 +9,22 @@ lang: zh-tw
 publishDate: '2025-11-09'
 tags:
 - SeaVoice
-- 語音 AI 代理
+- 語音 AI Agent
 - 長者照護
 - 社會服務
 - 員工倦怠
 - 老人照護
 - 自動化問候電話
-title: 透過 Seasalt.ai，Lions Befrienders 推出 AI 驅動語音代理以深化照護並對抗人力倦怠
+title: 透過 Seasalt.ai，Lions Befrienders 推出 AI 驅動語音Agent以深化照護並對抗人力倦怠
 url: /blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai
 ---
-# 透過 Seasalt.ai，Lions Befrienders 推出 AI 驅動的語音代理以深化護理並對抗人力倦怠
+# 透過 Seasalt.ai，Lions Befrienders 推出 AI 驅動的語音Agent以深化護理並對抗人力倦怠
 
-新加坡 – \[2025 年 11 月 9 日\] – Lions Befrienders Service Association（Lions Befrienders）今日宣布推出其創新的 AI 驅動語音代理，這是一項與 Seasalt.ai 合作開發的尖端技術解決方案。這項新功能將徹底改變 Lions Befrienders 支持其受益人的方式，使員工能夠顯著增加外展服務，並將其專業知識專注於提供高質量、有意義的護理。
+新加坡 – \[2025 年 11 月 9 日\] – Lions Befrienders Service Association（Lions Befrienders）今日宣布推出其創新的 AI 驅動語音Agent，這是一項與 Seasalt.ai 合作開發的尖端技術解決方案。這項新功能將徹底改變 Lions Befrienders 支持其受益人的方式，使員工能夠顯著增加外展服務，並將其專業知識專注於提供高質量、有意義的護理。
 
 這項舉措解決了社會服務領域的兩項關鍵需求：對抗員工人力倦怠，以及確保與弱勢長者的定期、持續聯繫。
 
-「我們的使命一直是為長者提供全面護理並建立一個支持性社區，」Lions Befrienders 執行董事 Karen Wee 表示，「與 Seasalt.ai 的合作標誌著在數字時代實現這一使命的關鍵一步。這個 AI 語音代理並非取代人與人之間的接觸，而是擴大其影響力。通過自動化日常的問候電話，我們釋放專職員工的時間，為最需要幫助的長者提供更深入、更個性化的支持，確保沒有人被遺忘。」
+「我們的使命一直是為長者提供全面護理並建立一個支持性社區，」Lions Befrienders 執行董事 Karen Wee 表示，「與 Seasalt.ai 的合作標誌著在數字時代實現這一使命的關鍵一步。這個 AI 語音Agent並非取代人與人之間的接觸，而是擴大其影響力。通過自動化日常的問候電話，我們釋放專職員工的時間，為最需要幫助的長者提供更深入、更個性化的支持，確保沒有人被遺忘。」
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="/images/blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai-vertical.png" alt="Lions Befrienders 與 Seasalt.ai 合作推動長者護理" style="max-width: 40%; height: auto;">
@@ -33,7 +33,7 @@ url: /blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai
 
 ## 該技術如何提升護理質量
 
-AI 語音代理自動化日常溝通，使 Lions Befrienders 的員工能夠在一天內撥打更多電話。該系統採用當地用語和自然、富有同理心的語調進行定制，以確保長者獲得舒適且熟悉的體驗。
+AI 語音Agent自動化日常溝通，使 Lions Befrienders 的員工能夠在一天內撥打更多電話。該系統採用當地用語和自然、富有同理心的語調進行定制，以確保長者獲得舒適且熟悉的體驗。
 
 * 增加互動：自動化顯著增加了每天可聯繫到的長者數量，提升了整體互動並減少了社會孤立。
 * 優先處理緊急需求：一項關鍵的安全功能是系統使用「交通燈」概念對情況進行分級的能力。任何「紅燈」情況（表示緊急或意外問題）都會立即升級，促使 Lions Befrienders 的員工進行迅速的人工干預。

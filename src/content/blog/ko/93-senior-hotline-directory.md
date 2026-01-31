@@ -6,7 +6,7 @@ publishDate: '2023-10-26'
 updatedDate: '2024-07-30'
 author: Seasalt.ai
 image:
-  url: /images/blog/senior-hotline-directory.jpg
+  url: /images/blog/93-senior-hotline-directory/93-senior-hotline-directory.jpg
   alt: '노인 핫라인 디렉토리: 대만의 노인 돌봄 자원'
 tags:
 - 노인 돌봄

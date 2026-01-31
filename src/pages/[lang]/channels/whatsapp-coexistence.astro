@@ -1,0 +1,159 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Hero from '../../../components/channels/whatsapp-coexistence/Hero.astro';
+import ProblemSection from '../../../components/channels/whatsapp-coexistence/ProblemSection.astro';
+import SolutionSection from '../../../components/channels/whatsapp-coexistence/SolutionSection.astro';
+import WhatIsCoexistence from '../../../components/channels/whatsapp-coexistence/WhatIsCoexistence.astro';
+import Walkthrough from '../../../components/channels/whatsapp-coexistence/Walkthrough.astro';
+import UseCases from '../../../components/channels/whatsapp-coexistence/UseCases.astro';
+import Architecture from '../../../components/channels/whatsapp-coexistence/Architecture.astro';
+import Comparison from '../../../components/channels/whatsapp-coexistence/Comparison.astro';
+import Resources from '../../../components/channels/whatsapp-coexistence/Resources.astro';
+import CTASection from '../../../components/channels/whatsapp-coexistence/CTASection.astro';
+import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../../i18n/helpers';
+
+// Generate static paths for all supported languages
+export async function getStaticPaths() {
+  return supportedLocales.map((lang) => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+const currentLang = (lang as SupportedLanguage) || 'en';
+
+// Get translations for SEO
+const { t } = await getTranslationHelpers(currentLang);
+
+// SEO Configuration - using translations
+const title = t('whatsappCoexistence.seo.title');
+const description = t('whatsappCoexistence.seo.description');
+const keywords = t('whatsappCoexistence.seo.keywords');
+// Use Astro.site instead of import.meta.env.SITE_URL to ensure proper URL in dev and production
+const canonical = new URL(`/${currentLang}/channels/whatsapp-coexistence`, Astro.site || 'https://seasalt.ai').href;
+
+// Breadcrumb translations
+const homeName = t('whatsappCoexistence.seo.breadcrumb.home');
+const channelsName = t('whatsappCoexistence.seo.breadcrumb.channels');
+const currentPageName = t('whatsappCoexistence.seo.breadcrumb.current');
+
+// Breadcrumbs for structured data
+const breadcrumbs = [
+  { name: homeName, url: `https://seasalt.ai/${currentLang}/` },
+  { name: channelsName, url: `https://seasalt.ai/${currentLang}/channels/` },
+  { name: currentPageName }
+];
+
+// FAQ data for structured data
+const faqs = [
+  {
+    question: t('whatsappCoexistence.resources.faq.questions.q1.question'),
+    answer: t('whatsappCoexistence.resources.faq.questions.q1.answer')
+  },
+  {
+    question: t('whatsappCoexistence.resources.faq.questions.q2.question'),
+    answer: t('whatsappCoexistence.resources.faq.questions.q2.answer')
+  },
+  {
+    question: t('whatsappCoexistence.resources.faq.questions.q3.question'),
+    answer: t('whatsappCoexistence.resources.faq.questions.q3.answer')
+  },
+  {
+    question: t('whatsappCoexistence.resources.faq.questions.q4.question'),
+    answer: t('whatsappCoexistence.resources.faq.questions.q4.answer')
+  },
+  {
+    question: t('whatsappCoexistence.resources.faq.questions.q5.question'),
+    answer: t('whatsappCoexistence.resources.faq.questions.q5.answer')
+  },
+  {
+    question: t('whatsappCoexistence.resources.faq.questions.q6.question'),
+    answer: t('whatsappCoexistence.resources.faq.questions.q6.answer')
+  },
+  {
+    question: t('whatsappCoexistence.resources.faq.questions.q7.question'),
+    answer: t('whatsappCoexistence.resources.faq.questions.q7.answer')
+  },
+  {
+    question: t('whatsappCoexistence.resources.faq.questions.q8.question'),
+    answer: t('whatsappCoexistence.resources.faq.questions.q8.answer')
+  }
+];
+
+// Custom JSON-LD for this page
+const customJsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "author": {
+      "@type": "Organization",
+      "name": "Seasalt.ai Team"
+    },
+    "datePublished": "2025-01-28",
+    "dateModified": new Date().toISOString(),
+    "publisher": {
+      "@type": "Organization",
+      "name": "Seasalt.ai",
+      "url": "https://seasalt.ai",
+      "logo": "https://seasalt.ai/seasalt-ai-logo.png"
+    }
+  }
+];
+---
+
+<Layout 
+  title={title}
+  description={description}
+  lang={currentLang}
+  keywords={keywords}
+  canonical={canonical}
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
+  customJsonLd={customJsonLd}
+  headerVersion="default"
+  footerVersion="default"
+>
+  <main class="min-h-screen">
+    <!-- Hero Section -->
+    <Hero lang={currentLang} />
+
+    <!-- The Problem Section -->
+    <ProblemSection lang={currentLang} />
+
+    <!-- The Solution - WhatsApp Coexistence -->
+    <SolutionSection lang={currentLang} />
+
+    <!-- What is WhatsApp Coexistence Section -->
+    <WhatIsCoexistence lang={currentLang} />
+
+    <!-- Walkthrough Section -->
+    <div class="bg-slate-50">
+      <Walkthrough lang={currentLang} />
+    </div>
+
+    <!-- Use Cases Section -->
+    <div class="bg-white">
+      <UseCases lang={currentLang} />
+    </div>
+
+    <!-- Architecture Section -->
+    <div class="bg-slate-50">
+      <Architecture lang={currentLang} />
+    </div>
+
+    <!-- Comparison Section -->
+    <div class="bg-white">
+      <Comparison lang={currentLang} />
+    </div>
+
+    <!-- Resources Section -->
+    <div class="bg-slate-50">
+      <Resources lang={currentLang} />
+    </div>
+
+    <!-- CTA Section -->
+    <CTASection lang={currentLang} />
+  </main>
+</Layout>

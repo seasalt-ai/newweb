@@ -1,0 +1,290 @@
+---
+import { Smartphone, MessageSquare, Server, ArrowRight, ArrowLeft, ArrowDown, ArrowUp, Zap, Shield, Clock } from 'lucide-react';
+import { getTranslationHelpers } from '../../../i18n/helpers';
+
+export interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+const uniqueId = `architecture-${crypto.randomUUID()}`;
+---
+
+<section id={uniqueId} class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">
+          {t('whatsappCoexistence.architecture.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('whatsappCoexistence.architecture.subtitle')}
+        </p>
+      </div>
+
+      <!-- Interactive Diagram -->
+      <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-200">
+        <!-- Top: Customer -->
+        <div class="text-center mb-8">
+          <div class="inline-flex items-center justify-center w-32 h-32 bg-blue-100 rounded-full">
+            <MessageSquare class="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 class="mt-4 text-xl font-bold text-gray-900">{t('whatsappCoexistence.architecture.customer.title')}</h3>
+          <p class="text-gray-500 text-sm">{t('whatsappCoexistence.architecture.customer.subtitle')}</p>
+        </div>
+
+        <!-- Middle: WhatsApp Infrastructure -->
+        <div class="grid md:grid-cols-2 gap-8 mb-8">
+          <!-- Left: WhatsApp Business App -->
+          <div class="relative bg-green-50 rounded-2xl p-6 border-2 border-green-200">
+            <div class="text-center mb-4">
+              <div class="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-md overflow-hidden">
+                <img src="/logos/WhatsApp-Business-App.jpg" alt="WhatsApp Business App" class="w-full h-full object-cover"/>
+              </div>
+              <h3 class="mt-3 text-lg font-bold text-gray-900">{t('whatsappCoexistence.architecture.businessApp.title')}</h3>
+              <p class="text-gray-600 text-sm">{t('whatsappCoexistence.architecture.businessApp.subtitle')}</p>
+            </div>
+
+            <ul class="space-y-3 text-gray-700">
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✓</span>
+                {t('whatsappCoexistence.architecture.businessApp.features.0')}
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✓</span>
+                {t('whatsappCoexistence.architecture.businessApp.features.1')}
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✓</span>
+                {t('whatsappCoexistence.architecture.businessApp.features.2')}
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✓</span>
+                {t('whatsappCoexistence.architecture.businessApp.features.3')}
+              </li>
+            </ul>
+
+            <!-- Arrow to API -->
+            <div class="hidden md:block absolute -right-4 top-1/2 transform -translate-y-1/2">
+              <ArrowRight class="w-8 h-8 text-green-400" />
+            </div>
+          </div>
+
+          <!-- Right: Cloud API -->
+          <div class="relative bg-blue-50 rounded-2xl p-6 border-2 border-blue-200">
+            <div class="text-center mb-4">
+              <div class="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-md overflow-hidden">
+                <img src="/logos/WhatsApp-Business-Platform.jpg" alt="WhatsApp Business Platform" class="w-full h-full object-cover"/>
+              </div>
+              <h3 class="mt-3 text-lg font-bold text-gray-900">{t('whatsappCoexistence.architecture.cloudAPI.title')}</h3>
+              <p class="text-gray-600 text-sm">{t('whatsappCoexistence.architecture.cloudAPI.subtitle')}</p>
+            </div>
+
+            <ul class="space-y-3 text-gray-700">
+              <li class="flex items-start">
+                <span class="text-blue-600 mr-2">✓</span>
+                {t('whatsappCoexistence.architecture.cloudAPI.features.0')}
+              </li>
+              <li class="flex items-start">
+                <span class="text-blue-600 mr-2">✓</span>
+                {t('whatsappCoexistence.architecture.cloudAPI.features.1')}
+              </li>
+              <li class="flex items-start">
+                <span class="text-blue-600 mr-2">✓</span>
+                {t('whatsappCoexistence.architecture.cloudAPI.features.2')}
+              </li>
+              <li class="flex items-start">
+                <span class="text-blue-600 mr-2">✓</span>
+                {t('whatsappCoexistence.architecture.cloudAPI.features.3')}
+              </li>
+            </ul>
+
+            <!-- Arrow to App -->
+            <div class="hidden md:block absolute -left-4 top-1/2 transform -translate-y-1/2">
+              <ArrowLeft class="w-8 h-8 text-blue-400" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom: Seasalt.ai Platform -->
+        <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white">
+          <div class="text-center mb-6">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full overflow-hidden shadow-lg">
+              <img src="/seax-icon.png" alt="Seasalt.ai Platform" class="w-full h-full object-cover"/>
+            </div>
+            <h3 class="mt-3 text-lg font-bold">{t('whatsappCoexistence.architecture.platform.title')}</h3>
+            <p class="text-blue-100 text-sm">{t('whatsappCoexistence.architecture.platform.subtitle')}</p>
+          </div>
+
+          <div class="grid sm:grid-cols-3 gap-4">
+            <div class="bg-white/10 rounded-xl p-4">
+              <Zap class="w-6 h-6 text-yellow-300 mb-2" />
+              <h4 class="font-semibold mb-1">{t('whatsappCoexistence.architecture.platform.features.mirroring.title')}</h4>
+              <p class="text-sm text-blue-100">{t('whatsappCoexistence.architecture.platform.features.mirroring.description')}</p>
+            </div>
+
+            <div class="bg-white/10 rounded-xl p-4">
+              <Clock class="w-6 h-6 text-yellow-300 mb-2" />
+              <h4 class="font-semibold mb-1">{t('whatsappCoexistence.architecture.platform.features.echoes.title')}</h4>
+              <p class="text-sm text-blue-100">{t('whatsappCoexistence.architecture.platform.features.echoes.description')}</p>
+            </div>
+
+            <div class="bg-white/10 rounded-xl p-4">
+              <Zap class="w-6 h-6 text-yellow-300 mb-2" />
+              <h4 class="font-semibold mb-1">{t('whatsappCoexistence.architecture.platform.features.webhooks.title')}</h4>
+              <p class="text-sm text-blue-100">{t('whatsappCoexistence.architecture.platform.features.webhooks.description')}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Flow Indicators -->
+        <div class="relative mt-8 pt-8 border-t border-gray-200">
+          <div class="grid md:grid-cols-3 gap-8">
+            <!-- Inbound Flow -->
+            <div class="text-center">
+              <div class="inline-flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-2">
+                <ArrowDown class="w-5 h-5 text-blue-600" />
+              </div>
+              <p class="text-sm font-semibold text-gray-900 mb-1">{t('whatsappCoexistence.architecture.flows.inbound.title')}</p>
+              <p class="text-gray-600 text-xs">{t('whatsappCoexistence.architecture.flows.inbound.description')}</p>
+            </div>
+
+            <!-- Outbound from App -->
+            <div class="text-center">
+              <div class="inline-flex items-center justify-center w-10 h-10 bg-green-100 rounded-full mb-2">
+                <ArrowRight class="w-5 h-5 text-green-600" />
+              </div>
+              <p class="text-sm font-semibold text-gray-900 mb-1">{t('whatsappCoexistence.architecture.flows.appEchoes.title')}</p>
+              <p class="text-gray-600 text-xs">{t('whatsappCoexistence.architecture.flows.appEchoes.description')}</p>
+            </div>
+
+            <!-- Outbound from API -->
+            <div class="text-center">
+              <div class="inline-flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mb-2">
+                <ArrowUp class="w-5 h-5 text-blue-600" />
+              </div>
+              <p class="text-sm font-semibold text-gray-900 mb-1">{t('whatsappCoexistence.architecture.flows.apiEchoes.title')}</p>
+              <p class="text-gray-600 text-xs">{t('whatsappCoexistence.architecture.flows.apiEchoes.description')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Technical Specs -->
+      <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+          <div class="flex items-center mb-3">
+            <Clock class="w-6 h-6 text-orange-500 mr-2" />
+            <h3 class="font-bold text-gray-900">{t('whatsappCoexistence.architecture.specs.mps20.title')}</h3>
+          </div>
+          <p class="text-gray-600 text-sm">{t('whatsappCoexistence.architecture.specs.mps20.description')}</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+          <div class="flex items-center mb-3">
+            <Clock class="w-6 h-6 text-blue-500 mr-2" />
+            <h3 class="font-bold text-gray-900">{t('whatsappCoexistence.architecture.specs.hours24.title')}</h3>
+          </div>
+          <p class="text-gray-600 text-sm">{t('whatsappCoexistence.architecture.specs.hours24.description')}</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+          <div class="flex items-center mb-3">
+            <Zap class="w-6 h-6 text-green-500 mr-2" />
+            <h3 class="font-bold text-gray-900">{t('whatsappCoexistence.architecture.specs.days180.title')}</h3>
+          </div>
+          <p class="text-gray-600 text-sm">{t('whatsappCoexistence.architecture.specs.days180.description')}</p>
+        </div>
+
+        <div class="bg-white rounded-xl p-6 shadow-md border border-gray-100">
+          <div class="flex items-center mb-3">
+            <Shield class="w-6 h-6 text-purple-500 mr-2" />
+            <h3 class="font-bold text-gray-900">{t('whatsappCoexistence.architecture.specs.e2ee.title')}</h3>
+          </div>
+          <p class="text-gray-600 text-sm">{t('whatsappCoexistence.architecture.specs.e2ee.description')}</p>
+        </div>
+      </div>
+
+      <!-- Key Features List -->
+      <div class="mt-12 grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+            <span class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-3">✓</span>
+            {t('whatsappCoexistence.architecture.webhooks.title')}
+          </h3>
+          <ul class="space-y-2 text-gray-600">
+            <li><strong>{t('whatsappCoexistence.architecture.webhooks.events.0.name')}</strong> - {t('whatsappCoexistence.architecture.webhooks.events.0.description')}</li>
+            <li><strong>{t('whatsappCoexistence.architecture.webhooks.events.1.name')}</strong> - {t('whatsappCoexistence.architecture.webhooks.events.1.description')}</li>
+            <li><strong>{t('whatsappCoexistence.architecture.webhooks.events.2.name')}</strong> - {t('whatsappCoexistence.architecture.webhooks.events.2.description')}</li>
+            <li><strong>{t('whatsappCoexistence.architecture.webhooks.events.3.name')}</strong> - {t('whatsappCoexistence.architecture.webhooks.events.3.description')}</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+            <span class="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-3">✓</span>
+            {t('whatsappCoexistence.architecture.security.title')}
+          </h3>
+          <ul class="space-y-2 text-gray-600">
+            <li><strong>{t('whatsappCoexistence.architecture.security.features.0.name')}</strong> - {t('whatsappCoexistence.architecture.security.features.0.description')}</li>
+            <li><strong>{t('whatsappCoexistence.architecture.security.features.1.name')}</strong> - {t('whatsappCoexistence.architecture.security.features.1.description')}</li>
+            <li><strong>{t('whatsappCoexistence.architecture.security.features.2.name')}</strong> - {t('whatsappCoexistence.architecture.security.features.2.description')}</li>
+            <li><strong>{t('whatsappCoexistence.architecture.security.features.3.name')}</strong> - {t('whatsappCoexistence.architecture.security.features.3.description')}</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-12 text-center">
+        <p class="text-lg text-gray-600 mb-6">
+          {t('whatsappCoexistence.architecture.cta.title')}
+        </p>
+        <a
+          href="https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-coexistence/"
+          class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+        >
+          {t('whatsappCoexistence.architecture.cta.button')}
+          <ArrowRight class="ml-2 w-5 h-5" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script define:vars={{ uniqueId }}>
+  // Add intersection observer for animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-in');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  // Scope query to component root to avoid affecting other elements on the page
+  const root = document.getElementById(uniqueId);
+  if (root) {
+    root.querySelectorAll('.bg-white, .bg-gradient-to-r').forEach(el => {
+      observer.observe(el);
+    });
+  }
+</script>
+
+<style>
+  .animate-in {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>

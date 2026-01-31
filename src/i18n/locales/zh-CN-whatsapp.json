@@ -1,0 +1,556 @@
+{
+  "whatsappCoexistence": {
+    "hero": {
+      "badge": "2026年新功能",
+      "title": "保留您的WhatsApp商业应用",
+      "titleHighlight": "同时扩展使用WhatsApp云API",
+      "subtitle": "结束两难选择。同时使用两者。不再需要在个人化服务和规模化能力之间做取舍。",
+      "benefits": {
+        "sameNumber": {
+          "title": "同一号码",
+          "description": "保留您信任的商业号码"
+        },
+        "noDataLoss": {
+          "title": "无数据丢失",
+          "description": "同步180天聊天记录"
+        },
+        "hybridAI": {
+          "title": "混合AI+人工",
+          "description": "规模化自动化，保持个性化服务"
+        },
+        "zeroDisruption": {
+          "title": "零中断",
+          "description": "无缝二维码迁移"
+        }
+      },
+      "cta": {
+        "primary": "免费开始使用",
+        "secondary": "了解工作原理"
+      },
+      "triSync": {
+        "title": "三向同步系统",
+        "subtitle": "三个触点的实时同步",
+        "phone": {
+          "title": "您的手机",
+          "subtitle": "WhatsApp商业应用"
+        },
+        "dashboard": {
+          "title": "seasalt.ai仪表板",
+          "subtitle": "中央枢纽"
+        },
+        "fieldTeams": {
+          "title": "外勤团队",
+          "subtitle": "移动应用"
+        },
+        "syncLabel": "实时同步",
+        "stats": {
+          "live": "实时",
+          "latency": "<100毫秒",
+          "realtime": "实时"
+        }
+      },
+      "stats": {
+        "syncedDevices": {
+          "value": "无限",
+          "label": "同步设备"
+        },
+        "humanUsers": {
+          "value": "无限",
+          "label": "人工用户"
+        },
+        "chatHistory": {
+          "value": "180天",
+          "label": "聊天记录同步"
+        }
+      }
+    },
+    "comparison": {
+      "title": "对比WhatsApp解决方案",
+      "subtitle": "看看WhatsApp共存方案如何与其他替代方案对比",
+      "table": {
+        "feature": "功能",
+        "businessApp": "商业应用",
+        "premium": "高级版",
+        "cloudAPI": "云API",
+        "coexistence": "共存方案",
+        "recommended": "推荐"
+      },
+      "features": {
+        "cost": {
+          "name": "费用",
+          "free": "免费",
+          "premiumRange": "$15-$350/月",
+          "perMessage": "按消息计费",
+          "hybrid": "混合模式"
+        },
+        "sameNumber": "同一号码",
+        "chatHistory": "聊天记录",
+        "multiUser": {
+          "name": "多用户",
+          "fiveDevices": "5台设备",
+          "tenDevices": "10台设备",
+          "unlimited": "无限"
+        },
+        "automation": {
+          "name": "自动化",
+          "basic": "基础",
+          "advancedAI": "高级AI",
+          "aiHuman": "AI+人工"
+        },
+        "broadcastLimit": {
+          "name": "广播限制",
+          "contacts256": "256个联系人",
+          "unlimited": "无限"
+        },
+        "crmIntegration": "CRM集成",
+        "verification": "验证认证",
+        "groupChats": {
+          "name": "群聊",
+          "appOnly": "仅应用"
+        },
+        "analytics": {
+          "name": "分析",
+          "basic": "基础"
+        },
+        "maxThroughput": {
+          "name": "最大吞吐量",
+          "manual": "手动",
+          "mps80": "80+ MPS",
+          "mps20": "20 MPS"
+        },
+        "migration": {
+          "name": "迁移",
+          "na": "不适用",
+          "disruptive": "破坏性",
+          "seamless": "无缝"
+        }
+      },
+      "days180": "180天",
+      "mobile": {
+        "businessAppTitle": "WhatsApp商业应用",
+        "premiumTitle": "WhatsApp商业高级版",
+        "apiTitle": "WhatsApp商业API",
+        "coexistenceTitle": "WhatsApp共存方案"
+      },
+      "cta": {
+        "title": "准备好升级到WhatsApp共存方案了吗？",
+        "button": "立即注册"
+      }
+    },
+    "resources": {
+      "title": "资源与文档",
+      "subtitle": "实施WhatsApp共存方案所需的一切",
+      "cards": {
+        "wiki": {
+          "title": "官方维基指南",
+          "description": "关于WhatsApp共存方案实施、最佳实践和故障排除的完整技术文档。",
+          "cta": "阅读文档"
+        },
+        "developer": {
+          "title": "Meta开发者文档",
+          "description": "关于嵌入式注册、Webhook和API集成的官方Meta文档。",
+          "cta": "查看API参考"
+        },
+        "caseStudies": {
+          "title": "案例研究",
+          "description": "来自银行、零售、医疗和电子商务行业的真实实施案例。",
+          "cta": "查看使用案例"
+        }
+      },
+      "faq": {
+        "title": "常见问题",
+        "questions": {
+          "q1": {
+            "question": "什么是WhatsApp共存方案？",
+            "answer": "WhatsApp共存方案是一项功能，允许企业在同一电话号码上同时使用WhatsApp商业应用和WhatsApp云API。消息在两个平台之间实时同步，让您在利用API的自动化和规模化能力的同时，保持移动应用的个性化服务。"
+          },
+          "q2": {
+            "question": "我需要更改电话号码吗？",
+            "answer": "不需要！WhatsApp共存方案的一个主要优势是您保留现有的电话号码。您不需要获取新号码或更改现有号码。基于二维码的注册流程将您当前的WhatsApp商业应用号码链接到云API。"
+          },
+          "q3": {
+            "question": "我会丢失聊天记录吗？",
+            "answer": "不会，您可以在注册过程中保留最多180天的聊天记录。当您通过嵌入式注册流程将WhatsApp商业应用链接到云API时，您可以选择导入过去六个月的对话历史和联系人。但是，这必须在完成注册流程后的24小时内完成。"
+          },
+          "q4": {
+            "question": "定价是如何计算的？",
+            "answer": "WhatsApp共存方案采用混合定价模式。从WhatsApp商业应用手动发送的消息100%免费。通过云API发送的消息（包括自动消息、模板和广播）遵循Meta的基于对话的定价模式。这使您能够通过将免费的应用消息用于个人1对1对话，将API消息用于规模和自动化，从而优化成本。"
+          },
+          "q5": {
+            "question": "有哪些技术限制？",
+            "answer": "主要的技术限制是：1）共存账户的吞吐量上限为每秒20条消息（MPS），而独立API账户的上限更高；2）您必须至少每13-14天打开一次WhatsApp商业应用以保持同步连接；3）某些应用功能被禁用，包括群聊同步、消失消息、一次性查看媒体和消息编辑/撤销。"
+          },
+          "q6": {
+            "question": "所有国家都可以使用吗？",
+            "answer": "不是，WhatsApp共存方案目前正在逐步推出。截至2026年1月，某些地区（包括尼日利亚和南非）尚不可用。来自这些国家的企业目前不符合资格，需要在独立应用或独立API之间选择。"
+          },
+          "q7": {
+            "question": "迁移需要多长时间？",
+            "answer": "迁移流程设计为快速且无缝。基于二维码的嵌入式注册流程通常需要5-10分钟完成。如果您选择导入聊天记录，这将在后台进行。整个流程可以在15分钟内完成，不会中断您正在进行的WhatsApp操作。"
+          },
+          "q8": {
+            "question": "如果我停止使用会怎样？",
+            "answer": "您可以随时停止使用云API。您的WhatsApp商业应用将正常使用您的号码继续运行。但是，您将失去API提供的自动化、多Agent功能和CRM集成。在联系Meta支持并完成新的注册流程之前，您将无法重新激活该号码的共存功能。"
+          }
+        }
+      },
+      "cta": {
+        "title": "对WhatsApp共存方案还有其他问题？",
+        "button": "预约演示会议"
+      }
+    },
+    "useCases": {
+      "title": "真实世界使用案例",
+      "subtitle": "看看跨行业企业如何通过WhatsApp共存方案转变客户体验",
+      "tabs": {
+        "banking": "银行业",
+        "retail": "零售业",
+        "healthcare": "医疗保健",
+        "ecommerce": "电子商务"
+      },
+      "banking": {
+        "support247": {
+          "title": "24/7客户支持",
+          "description": "使用AI自动化抵押贷款和贷款咨询。复杂案例即时转接人工Agent。"
+        },
+        "zeroAbandonment": {
+          "title": "零放弃率",
+          "description": "AI处理80%的重复性查询。客户无需等待。"
+        },
+        "compliance": {
+          "title": "合规就绪",
+          "description": "完整的审计跟踪和归档，满足监管要求（GDPR、FINRA）。"
+        },
+        "caseStudy": {
+          "title": "案例研究：Bankia S.A.",
+          "points": [
+            "实现24/7支持",
+            "Agent空闲时间减少45%",
+            "客户满意度：9.1/10",
+            "零放弃率"
+          ]
+        },
+        "results": {
+          "title": "成果",
+          "faqResolution": {
+            "label": "FAQ解决率",
+            "value": "80%"
+          },
+          "responseTime": {
+            "label": "平均响应时间",
+            "value": "<30秒"
+          },
+          "costReduction": {
+            "label": "成本降低",
+            "value": "60%"
+          }
+        }
+      },
+      "retail": {
+        "vipHandling": {
+          "title": "VIP客户处理",
+          "description": "高价值客户通过移动应用获得个性化关注。常规查询自动化处理。"
+        },
+        "orderManagement": {
+          "title": "订单管理",
+          "description": "通过API自动发送发货更新和配送通知。"
+        },
+        "conversions": {
+          "title": "转化率提升",
+          "description": "更快的响应时间和个性化跟进促进销售。"
+        },
+        "caseStudy": {
+          "title": "案例研究：D2C美妆品牌",
+          "points": [
+            "首次响应时间：2小时→4分钟",
+            "转化率提升：32%",
+            "启用多Agent协作",
+            "完成CRM集成"
+          ]
+        },
+        "results": {
+          "title": "成果",
+          "responseTime": {
+            "label": "响应时间",
+            "value": "97%"
+          },
+          "conversion": {
+            "label": "转化率提升",
+            "value": "32%"
+          },
+          "efficiency": {
+            "label": "团队效率",
+            "value": "+50%"
+          }
+        }
+      },
+      "healthcare": {
+        "appointments": {
+          "title": "预约提醒",
+          "description": "自动提醒将爽约率降低60%。患者通过WhatsApp确认。"
+        },
+        "labResults": {
+          "title": "安全实验室结果",
+          "description": "符合HIPAA标准的测试结果传输，端到端加密。"
+        },
+        "followups": {
+          "title": "患者跟进",
+          "description": "AI在预约后进行检查。将关注点升级给医疗人员。"
+        },
+        "caseStudy": {
+          "title": "案例研究：AWS Connect + WhatsApp",
+          "points": [
+            "符合HIPAA标准的消息传递",
+            "爽约率降低60%",
+            "患者满意度：4.8/5",
+            "保持完整的审计跟踪"
+          ]
+        },
+        "results": {
+          "title": "成果",
+          "noShow": {
+            "label": "爽约率降低",
+            "value": "60%"
+          },
+          "engagement": {
+            "label": "患者参与度",
+            "value": "4.8/5"
+          },
+          "compliance": {
+            "label": "合规评分",
+            "value": "100%"
+          }
+        }
+      },
+      "ecommerce": {
+        "cartRecovery": {
+          "title": "放弃购物车挽回",
+          "description": "自动提醒挽回30%的放弃购物车。"
+        },
+        "shipping": {
+          "title": "发货更新",
+          "description": "实时跟踪通知让客户随时了解情况。"
+        },
+        "vipSupport": {
+          "title": "VIP支持",
+          "description": "高价值客户从移动应用获得人工关注。"
+        },
+        "caseStudy": {
+          "title": "案例研究：电子商务商店",
+          "points": [
+            "购物车挽回：提升30%",
+            "发货查询：85%自动化",
+            "响应时间：<5分钟",
+            "客户满意度：4.6/5"
+          ]
+        },
+        "results": {
+          "title": "成果",
+          "cartRecovery": {
+            "label": "购物车挽回",
+            "value": "30%"
+          },
+          "automation": {
+            "label": "自动化率",
+            "value": "85%"
+          },
+          "satisfaction": {
+            "label": "客户满意度",
+            "value": "4.6/5"
+          }
+        }
+      },
+      "cta": {
+        "title": "用WhatsApp共存方案转变您的行业",
+        "button": "立即注册"
+      }
+    },
+    "architecture": {
+      "title": "技术架构",
+      "subtitle": "了解WhatsApp共存方案的底层工作原理",
+      "customer": {
+        "title": "客户",
+        "subtitle": "来自任何设备的消息"
+      },
+      "businessApp": {
+        "title": "WhatsApp商业应用",
+        "subtitle": "移动设备",
+        "features": [
+          "原生移动界面",
+          "手动1对1对话",
+          "群聊支持",
+          "语音/视频通话"
+        ]
+      },
+      "cloudAPI": {
+        "title": "WhatsApp云API",
+        "subtitle": "服务器端自动化",
+        "features": [
+          "无限Agent",
+          "AI聊天机器人",
+          "CRM集成",
+          "高级分析"
+        ]
+      },
+      "platform": {
+        "title": "Seasalt.ai平台",
+        "subtitle": "统一收件箱与编排",
+        "features": {
+          "mirroring": {
+            "title": "消息镜像",
+            "description": "所有渠道实时同步"
+          },
+          "echoes": {
+            "title": "回显事件",
+            "description": "跟踪手动应用回复"
+          },
+          "webhooks": {
+            "title": "Webhook路由",
+            "description": "智能消息路由"
+          }
+        }
+      },
+      "flows": {
+        "inbound": {
+          "title": "入站镜像",
+          "description": "客户→应用+API同时接收"
+        },
+        "appEchoes": {
+          "title": "应用回显",
+          "description": "手动回复→API通知"
+        },
+        "apiEchoes": {
+          "title": "API回显",
+          "description": "机器人回复→应用通知"
+        }
+      },
+      "specs": {
+        "mps20": {
+          "title": "20 MPS",
+          "description": "共存账户的最大消息吞吐量"
+        },
+        "hours24": {
+          "title": "24小时",
+          "description": "导入聊天记录的同步窗口"
+        },
+        "days180": {
+          "title": "180天",
+          "description": "聊天记录保留期"
+        },
+        "e2ee": {
+          "title": "E2EE",
+          "description": "所有消息的端到端加密"
+        }
+      },
+      "webhooks": {
+        "title": "Webhook事件",
+        "events": [
+          { "name": "消息", "description": "传入的客户消息" },
+          { "name": "SMB消息回显", "description": "手动应用回复" },
+          { "name": "SMB应用状态同步", "description": "联系人更新" },
+          { "name": "历史记录", "description": "6个月聊天记录导入" }
+        ]
+      },
+      "security": {
+        "title": "安全与合规",
+        "features": [
+          { "name": "端到端加密", "description": "所有消息均受保护" },
+          { "name": "合规", "description": "完整的审计跟踪" },
+          { "name": "HIPAA就绪", "description": "医疗保健认证" },
+          { "name": "PCI DSS", "description": "支付卡安全" }
+        ]
+      },
+      "cta": {
+        "title": "准备好实施WhatsApp共存方案了吗？",
+        "button": "阅读完整教程"
+      }
+    },
+    "ctaSection": {
+      "title": "准备好转变您的WhatsApp运营了吗？",
+      "subtitle": "加入数千家使用WhatsApp共存方案在保持个性化的同时实现规模化的企业",
+      "benefits": {
+        "keepNumber": {
+          "title": "保留您的号码",
+          "description": "无需更改"
+        },
+        "zeroDisruption": {
+          "title": "零中断",
+          "description": "无缝迁移"
+        },
+        "aiHuman": {
+          "title": "AI+人工",
+          "description": "混合工作流"
+        },
+        "saveMoney": {
+          "title": "节省费用",
+          "description": "免费应用消息"
+        }
+      },
+      "primaryCTA": "立即注册WhatsApp共存方案",
+      "trust": {
+        "encryption": "端到端加密",
+        "hipaa": "符合HIPAA标准",
+        "verified": "Meta认证"
+      },
+      "footer": "加入10,000+已经使用Seasalt.ai转变客户沟通的企业"
+    },
+    "features": {
+      "title": "统一的全渠道引擎",
+      "subtitle": "这不仅仅是同步；这是升级您的整个客户支持基础设施。",
+      "items": {
+        "sync": {
+          "title": "三向同步",
+          "description": "消息在您的手机、Seasalt Web仪表板和Seasalt移动应用之间即时同步。从任何地方发送，在任何地方查看。"
+        },
+        "agents": {
+          "title": "无限Agent",
+          "description": "突破4台设备限制。将10、50或100个Agent添加到同一个WhatsApp号码。将对话无缝分配给人工Agent或AI机器人。"
+        },
+        "aiHandoff": {
+          "title": "AIAgent交接",
+          "description": "启用AIAgent在非工作时间处理平台上的咨询，同时在您的个人手机上监控结果。"
+        },
+        "history": {
+          "title": "6个月历史导入",
+          "description": "不要从头开始。我们会自动拉取最近6个月的聊天记录，让您的团队立即获得完整上下文。"
+        },
+        "mobileApp": {
+          "title": "Seasalt移动应用",
+          "description": "员工不需要访问您的实体手机。他们可以在自己的设备上使用Seasalt.ai应用，随时随地回复客户。"
+        },
+        "unifiedInbox": {
+          "title": "统一收件箱",
+          "description": "在一个视图中结合WhatsApp与SMS、Messenger、LINE和Instagram。停止切换标签页，开始解决问题。"
+        }
+      },
+      "cta": "开始使用WhatsApp共存方案"
+    },
+    "walkthrough": {
+      "overline": "设置演练",
+      "title": "几分钟内开始使用",
+      "subtitle": "无需编码。只需扫描和同步。",
+      "steps": {
+        "step1": {
+          "title": "1. 添加新渠道",
+          "description": "导航到<strong>Seasalt.ai工作区</strong>。选择\"渠道\"并选择新的\"WhatsApp共存方案\"选项。"
+        },
+        "step2": {
+          "title": "2. 链接Meta账户",
+          "description": "使用您的Facebook账户登录。选择您的商业组合。重要的是，选择<strong>\"连接WhatsApp商业应用\"</strong>选项。"
+        },
+        "step3": {
+          "title": "3. 扫描并同步",
+          "description": "将出现一个二维码。在您的手机上打开<strong>关联设备</strong>并扫描它。我们立即开始同步最多<span class=\"text-green-600 font-bold\">6个月</span>的聊天记录。"
+        }
+      },
+      "ui": {
+        "bestOffering": "最佳产品",
+        "connect": "连接",
+        "createWABA": "创建新的WABA账户",
+        "scanInstruction": "用手机扫描",
+        "syncing": "正在同步历史记录...",
+        "historyLabel": "180天聊天记录"
+      }
+    }
+  }
+}

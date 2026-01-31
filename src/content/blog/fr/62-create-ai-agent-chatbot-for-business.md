@@ -68,7 +68,7 @@ author: Xuchen Yao
 description: "Découvrez les étapes pour créer un chatbot agent IA pour votre entreprise, du choix de la plateforme à l'intégration avec vos systèmes métier."
 weight: 1
 tags: ["Chatbot IA", "Entreprise", "Automatisation", "Agent IA"]
-image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
+image: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
 canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
 url: "/blog/create-ai-agent-chatbot-for-business/"
 ---

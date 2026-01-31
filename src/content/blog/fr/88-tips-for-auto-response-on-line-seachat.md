@@ -6,8 +6,8 @@ publishDate: '2024-04-04'
 updatedDate: '2024-12-19'
 author: Yuga Chen
 image:
-  url: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-respo...
-  alt: 'Conseils d''Automatisation LINE : Intégration Pa...'
+  url: /images/blog/88-tips-for-auto-response-on-line-seachat/88-tips-for-auto-response-on-line-seachat.png
+  alt: 88 conseils pour la réponse automatique sur LINE - SeaChat
 tags: []
 lang: fr
 draft: false

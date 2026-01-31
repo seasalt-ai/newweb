@@ -1,0 +1,122 @@
+{
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "",
+      "impossibleChoice": "不可能的選擇",
+      "subtitlePart1": "保留您的手機應用程式",
+      "or": "或",
+      "subtitlePart2": "使用企業工具擴展規模？",
+      "untilNow": "直到現在，你必須犧牲其中一個。",
+      "vs": "對比",
+      "whatYouGet": "✓ 你得到什麼",
+      "dealbreaker": "✗ 致命缺點",
+      "businessApp": {
+        "badge": "保持小型",
+        "title": "WhatsApp Business 應用程式",
+        "subtitle": "僅限手機陷阱",
+        "pros": {
+          "mobile": "原生手機體驗",
+          "free": "免費訊息"
+        },
+        "cons": {
+          "devices": "最多 4 個連接設備",
+          "fifthMember": "第 5 名團隊成員？不可能。",
+          "fourDevices": "僅限 4 個設備最多",
+          "cannotAdd": "成長時無法添加Agent",
+          "noAutomation": "沒有自動化或 CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "失去移動性",
+        "title": "雲端 API",
+        "subtitle": "僅限桌面陷阱",
+        "pros": {
+          "unlimited": "無限Agent",
+          "automation": "AI 自動化和 CRM"
+        },
+        "cons": {
+          "lockedOut": "你的手機被鎖定",
+          "noMobile": "完全沒有手機存取",
+          "noApp": "手機上沒有手機應用程式",
+          "desktopOnly": "僅限桌面/儀表板"
+        }
+      },
+      "summary": {
+        "part1": "要麼你被困在有限的團隊容量中，",
+        "part2": "要麼你失去業務所依賴的靈活性。",
+        "dilemma": "這是每個成長中的企業都面臨的困境。"
+      }
+    },
+    "solution": {
+      "title": "現在，",
+      "worryNoMore": "不再擔心。",
+      "subtitle1": "介紹",
+      "metaCoexistence": "Meta WhatsApp 共存",
+      "subtitle2": "與 Seasalt.ai。唯一能彌合差距的解決方案，讓你享有 API 的可擴展性而不必放棄你的手機。",
+      "coexistenceTitle": "WhatsApp 共存",
+      "tagline": "兩個平台。一個電話號碼。零妥協。",
+      "businessApp": {
+        "title": "WhatsApp Business 應用程式",
+        "subtitle": "手機體驗"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "企業規模"
+      },
+      "bestBadge": "最佳",
+      "result": {
+        "title": "共存",
+        "subtitle": "兩全其美"
+      }
+    },
+    "whatIs": {
+      "title": "什麼是 WhatsApp 共存？",
+      "description": "WhatsApp 共存是一項革命性功能，允許企業在同一個電話號碼上同時使用 WhatsApp Business 應用程式和 WhatsApp Cloud API，",
+      "simultaneously": "同時",
+      "before": {
+        "title": "共存之前",
+        "point1": "遷移到 API 時失去聊天記錄",
+        "point2": "更改電話號碼或取得新號碼",
+        "point3": "在個人應用程式或企業自動化之間選擇",
+        "point4": "過渡期間中斷客戶關係"
+      },
+      "after": {
+        "title": "共存之後",
+        "point1": "保持相同電話號碼",
+        "point2": "同步 180 天的聊天記錄",
+        "point3": "同時使用應用程式和 API",
+        "point4": "零中斷遷移"
+      },
+      "omnichannel": {
+        "title": "統一的全方位渠道引擎",
+        "subtitle": "不僅僅是同步；而是升級你的整個客戶支援基礎設施。"
+      },
+      "features": {
+        "sync": {
+          "title": "三方同步",
+          "description": "訊息在你的手機、Seasalt 網頁儀表板和 Seasalt 行動應用程式之間即時同步。從任何地方發送，在任何地方查看。"
+        },
+        "agents": {
+          "title": "無限Agent",
+          "description": "打破 4 台設備限制。將 10、50 或 100 個Agent新增到同一個 WhatsApp 號碼。無縫地將對話分配給人類Agent或 AI 機器人。"
+        },
+        "aiHandoff": {
+          "title": "AI Agent轉接",
+          "description": "啟用 AI Agent在平台上處理下班時間的查詢，同時你在個人手機上直接監控結果。"
+        },
+        "history": {
+          "title": "6 個月歷史匯入",
+          "description": "不要從零開始。我們自動提取最近 6 個月的聊天記錄，讓你的團隊立即擁有完整脈絡。"
+        },
+        "mobileApp": {
+          "title": "Seasalt 行動應用程式",
+          "description": "員工不需要存取你的實體手機。他們可以在自己的設備上使用 Seasalt.ai 應用程式，在路上回覆客戶。"
+        },
+        "unifiedInbox": {
+          "title": "統一收件匣",
+          "description": "將 WhatsApp 與簡訊、Messenger、LINE 和 Instagram 結合在單一視圖中。停止切換標籤，開始解決問題。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+---
+import { Smartphone, Zap, ArrowRight } from 'lucide-react';
+import { getTranslationHelpers } from '../../../i18n/helpers';
+
+export interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+---
+
+<section class="bg-gradient-to-br from-green-600 via-blue-700 to-purple-800 text-white">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto py-20">
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <h2 class="text-4xl lg:text-5xl font-bold mb-6">
+          {t('whatsappCoexistence.ctaSection.title')}
+        </h2>
+        <p class="text-xl lg:text-2xl text-green-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+          {t('whatsappCoexistence.ctaSection.subtitle')}
+        </p>
+      </div>
+
+      <!-- Key Benefits -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+          <Smartphone class="w-10 h-10 mx-auto mb-3 text-yellow-300" />
+          <h3 class="font-bold text-lg mb-1">{t('whatsappCoexistence.ctaSection.benefits.keepNumber.title')}</h3>
+          <p class="text-green-100 text-sm">{t('whatsappCoexistence.ctaSection.benefits.keepNumber.description')}</p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+          <Zap class="w-10 h-10 mx-auto mb-3 text-yellow-300" />
+          <h3 class="font-bold text-lg mb-1">{t('whatsappCoexistence.ctaSection.benefits.zeroDisruption.title')}</h3>
+          <p class="text-green-100 text-sm">{t('whatsappCoexistence.ctaSection.benefits.zeroDisruption.description')}</p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+          <Smartphone class="w-10 h-10 mx-auto mb-3 text-yellow-300" />
+          <h3 class="font-bold text-lg mb-1">{t('whatsappCoexistence.ctaSection.benefits.aiHuman.title')}</h3>
+          <p class="text-green-100 text-sm">{t('whatsappCoexistence.ctaSection.benefits.aiHuman.description')}</p>
+        </div>
+
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+          <Zap class="w-10 h-10 mx-auto mb-3 text-yellow-300" />
+          <h3 class="font-bold text-lg mb-1">{t('whatsappCoexistence.ctaSection.benefits.saveMoney.title')}</h3>
+          <p class="text-green-100 text-sm">{t('whatsappCoexistence.ctaSection.benefits.saveMoney.description')}</p>
+        </div>
+      </div>
+
+      <!-- Primary CTA -->
+      <div class="text-center mb-8">
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="inline-flex items-center justify-center px-10 py-5 bg-yellow-400 hover:bg-yellow-300 text-green-900 font-bold rounded-xl text-xl transition-all transform hover:scale-105 shadow-2xl hover:shadow-3xl"
+        >
+          {t('whatsappCoexistence.ctaSection.primaryCTA')}
+          <ArrowRight class="ml-3 w-6 h-6" />
+        </a>
+      </div>
+
+      <!-- Trust Indicators -->
+      <div class="flex flex-wrap justify-center gap-8 text-center text-green-100">
+        <div class="flex items-center">
+          <span class="text-2xl mr-2">🔒</span>
+          <span class="font-semibold">{t('whatsappCoexistence.ctaSection.trust.encryption')}</span>
+        </div>
+        <div class="flex items-center">
+          <span class="text-2xl mr-2">✓</span>
+          <span class="font-semibold">{t('whatsappCoexistence.ctaSection.trust.hipaa')}</span>
+        </div>
+        <div class="flex items-center">
+          <span class="text-2xl mr-2">🚀</span>
+          <span class="font-semibold">{t('whatsappCoexistence.ctaSection.trust.verified')}</span>
+        </div>
+      </div>
+
+      <!-- Bottom Text -->
+      <div class="mt-12 text-center">
+        <p class="text-green-200 text-sm max-w-2xl mx-auto">
+          {t('whatsappCoexistence.ctaSection.footer')}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

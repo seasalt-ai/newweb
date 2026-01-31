@@ -59,7 +59,8 @@ CONTENT_BLOG_DIR = Path("../src/content/blog")
 SCRIPTS_DIR = Path("./")
 
 class BlogTranslator:
-    def __init__(self):
+    def __init__(self, model='chatgpt'):
+        self.model = model
         self.session_stats = {
             "total_blogs": 0,
             "processed_blogs": 0,
@@ -245,35 +246,36 @@ class BlogTranslator:
     
     def translate_blog(self, converted_file, language, temp_dir, source_language="en"):
         """Translate blog to specific language using translate.py
-        
+
         Args:
             converted_file: Path to the converted blog file
             language: Target language code
             temp_dir: Temporary directory path
             source_language: Source language code (default: "en")
-        
+
         Returns:
             str: 'created' if new file was created, 'skipped' if file already exists, 'failed' if error
         """
         try:
             env = os.environ.copy()
             env["ARK_API_KEY"] = os.environ["ARK_API_KEY"]
-            
+
             cmd = [
                 get_python_command(), str(SCRIPTS_DIR / "translate.py"),
                 str(converted_file), language,
                 "--source-language", source_language,
-                "--output-base-dir", str(CONTENT_BLOG_DIR)
+                "--output-base-dir", str(CONTENT_BLOG_DIR),
+                "--model", self.model
             ]
             print(f"{Fore.BLUE}    🚀 Command: {' '.join(cmd)}")
-            
+
             result = subprocess.run(cmd, env=env, check=True, capture_output=True, text=True)
-            
+
             # Check if file was skipped by parsing output
             if result.stdout and "File already exists - skipping" in result.stdout:
                 print(f"{Fore.YELLOW}    ⏭️  Skipped (file exists)")
                 return "skipped"
-            
+
             # Show success output and extract file path
             if result.stdout:
                 stdout_lines = result.stdout.strip().split('\n')
@@ -287,9 +289,9 @@ class BlogTranslator:
                         print(f"{Fore.GREEN}    ✅ Translation completed successfully")
                     elif line.strip():  # Show other non-empty lines
                         print(f"{Fore.GREEN}    📄 {line.strip()}")
-            
+
             return "created"
-            
+
         except subprocess.CalledProcessError as e:
             print(f"{Fore.RED}  ❌ Translation to {language} failed (exit code {e.returncode})")
             if e.stdout:
@@ -600,11 +602,16 @@ def main():
         epilog="""
 Environment Variables:
     ARK_API_KEY    Required API key for translation service
+    OPENAI_API_KEY Optional API key for OpenAI (fallback if ARK_API_KEY not found)
 
 Examples:
-    # Basic usage
+    # Basic usage (defaults to chatgpt)
     python batch_translate_blogs.py
-    
+
+    # Use specific model
+    python batch_translate_blogs.py --model chatgpt
+    python batch_translate_blogs.py --model byteplus
+
     # Set API key and run
     export ARK_API_KEY=your_api_key_here
     python batch_translate_blogs.py
@@ -616,10 +623,12 @@ Notes:
     - Process can be safely interrupted (progress is preserved)
         """
     )
-    
+    parser.add_argument('--model', choices=['chatgpt', 'byteplus'], default='chatgpt',
+                       help='Model to use for translation (default: chatgpt)')
+
     args = parser.parse_args()
     
-    translator = BlogTranslator()
+    translator = BlogTranslator(model=args.model)
     translator.run()
 
 if __name__ == "__main__":

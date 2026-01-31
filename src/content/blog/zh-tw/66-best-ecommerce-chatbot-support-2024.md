@@ -31,7 +31,7 @@ draft: false
 ## Shopify：輕鬆開始
 Shopify繼續成為領先的電商平台，以其用戶友好的介面和豐富的應用程式生態系統而聞名。透過整合聊天機器人支援，Shopify商家可以利用AI驅動的機器人與客戶互動、提供產品推薦並協助查詢。Shopify的應用程式商店提供多種聊天機器人解決方案，讓商家選擇最適合其需求的方案。此外，Shopify強大的分析工具讓商家能夠追蹤聊天機器人表現並相應地優化其策略。
 
-聊天機器人選項：[您可以將SeaChat AI代理帶到您的Shopify商店](https://wiki.seasalt.ai/seachat/seachat-integrations/01-seachat-shopify-integration/)。Shopify的應用程式商店提供豐富的聊天機器人選擇，如Shopify Inbox、Gobot和Chatra。
+聊天機器人選項：[您可以將SeaChat AIAgent帶到您的Shopify商店](https://wiki.seasalt.ai/seachat/seachat-integrations/01-seachat-shopify-integration/)。Shopify的應用程式商店提供豐富的聊天機器人選擇，如Shopify Inbox、Gobot和Chatra。
 
 ### 優點
 - 初學者友好的設置。
@@ -47,7 +47,7 @@ Shopify繼續成為領先的電商平台，以其用戶友好的介面和豐富�
 
 Squarespace以其時尚現代的網站設計而聞名，使其成為注重美學的電商企業的有吸引力的選擇。雖然Squarespace不提供內建聊天機器人支援，但可以利用第三方整合來添加此功能。透過整合來自Chatfuel或Botsify等平台的聊天機器人，Squarespace用戶可以增強客戶參與度並簡化購物體驗。然而，缺乏原生聊天機器人支援可能需要額外的設置和配置。
 
-聊天機器人選項：[您可以將SeaChat AI代理帶到您的Squarespace商店](https://wiki.seasalt.ai/seachat/seachat-integrations/02-seachat-squarespace-integration/)。Squarespace與外部聊天機器人領導者如Tidio和ChatBot無縫整合。
+聊天機器人選項：[您可以將SeaChat AIAgent帶到您的Squarespace商店](https://wiki.seasalt.ai/seachat/seachat-integrations/02-seachat-squarespace-integration/)。Squarespace與外部聊天機器人領導者如Tidio和ChatBot無縫整合。
 
 ### 優點
 - 以美麗的設計和美學而聞名。
@@ -62,7 +62,7 @@ Squarespace以其時尚現代的網站設計而聞名，使其成為注重美學
 ## Wix：用戶友好且多功能
 Wix讓用戶能夠透過其拖放介面和可自訂模板創建令人驚嘆的網站。與Squarespace類似，Wix不提供原生聊天機器人支援，但提供與ManyChat和Botsify等流行聊天機器人平台的整合。透過將聊天機器人整合到其Wix商店中，商家可以自動化客戶互動、回答常見問題並推動銷售。Wix廣泛的應用程式市場為用戶提供了靈活性，讓他們選擇與其業務目標一致的聊天機器人解決方案。
 
-聊天機器人選項：您可以將SeaChat AI代理帶到您的Wix商店。Wix有自己的Wix Chat以及與外部聊天機器人解決方案的整合選項。
+聊天機器人選項：您可以將SeaChat AIAgent帶到您的Wix商店。Wix有自己的Wix Chat以及與外部聊天機器人解決方案的整合選項。
 
 ### 優點：
 - 直觀的網站建構工具，視覺上吸引人。
@@ -77,7 +77,7 @@ Wix讓用戶能夠透過其拖放介面和可自訂模板創建令人驚嘆的�
 ## WooCommerce (WordPress)：為您的WordPress網站賦能
 作為WordPress的插件，WooCommerce高度靈活且可自訂，使其成為許多電商企業的首選。雖然WooCommerce本身不提供內建聊天機器人支援，但WordPress用戶可以輕鬆整合聊天機器人插件，如WP-Chatbot或ChatGPT。這些插件讓商家能夠在其WooCommerce商店中部署聊天機器人，為客戶提供即時協助並提高轉換率。憑藉WordPress強大的CMS功能，商家可以自訂其聊天機器人體驗以符合其品牌身份和客戶偏好。
 
-聊天機器人選項：您可以將SeaChat AI代理帶到您的WooCommerce商店。WordPress龐大的插件庫確保了無數聊天機器人解決方案，其中許多專為WooCommerce量身定制，如Chatra和Tidio。
+聊天機器人選項：您可以將SeaChat AIAgent帶到您的WooCommerce商店。WordPress龐大的插件庫確保了無數聊天機器人解決方案，其中許多專為WooCommerce量身定制，如Chatra和Tidio。
 
 ### 優點
 - 極其靈活的電商平台
@@ -93,7 +93,7 @@ Wix讓用戶能夠透過其拖放介面和可自訂模板創建令人驚嘆的�
 ## WordPress (獨立版)：自訂的力量
 WordPress為網際網路的很大一部分提供動力，其靈活性透過WooCommerce等插件延伸到電商。雖然WordPress本身不提供原生聊天機器人支援，但WordPress儲存庫和第三方市場中有許多聊天機器人插件可用。這些插件可以無縫整合到WordPress網站中，讓商家能夠吸引訪客、獲取潛在客戶並透過自動化對話推動銷售。憑藉WordPress廣泛的插件生態系統，商家可以獲得各種聊天機器人解決方案來增強其線上商店。
 
-聊天機器人選項：您可以將SeaChat AI代理帶到您的WordPress網站。與WooCommerce類似，有大量聊天機器人插件可用，如Chatra和Tidio。
+聊天機器人選項：您可以將SeaChat AIAgent帶到您的WordPress網站。與WooCommerce類似，有大量聊天機器人插件可用，如Chatra和Tidio。
 
 ### 優點
 - 龐大的社群和開源資源。
@@ -107,7 +107,7 @@ WordPress為網際網路的很大一部分提供動力，其靈活性透過WooCo
 ## Ecwid：預算友好的電商
 Ecwid是一個以其簡單性和易用性而聞名的流行電商平台。雖然Ecwid不原生支援聊天機器人，但它提供與Tidio和Chatra等各種第三方聊天機器人提供商的整合。透過將聊天機器人整合到其Ecwid商店中，商家可以為客戶提供個人化協助、推薦產品並即時處理查詢。Ecwid與聊天機器人平台的無縫整合確保了順暢的實施過程，讓商家專注於發展其業務。
 
-聊天機器人選項：您可以將SeaChat AI代理帶到您的Ecwid商店。Ecwid還提供原生聊天機器人建構器以及與Tidio等外部服務的整合。
+聊天機器人選項：您可以將SeaChat AIAgent帶到您的Ecwid商店。Ecwid還提供原生聊天機器人建構器以及與Tidio等外部服務的整合。
 
 ### 優點
 - 免費計劃開始線上商店。
@@ -129,7 +129,7 @@ Ecwid是一個以其簡單性和易用性而聞名的流行電商平台。雖然
 
 在決定最佳電商平台時考慮這些因素：
 
-- 聊天機器人功能：您需要簡單的FAQ處理還是複雜的潛在客戶生成？您是否希望為多個管道使用相同的聊天代理？開始可能很容易，但良好的規劃可以為您節省很多後續的操作麻煩。如果您想談論網上商店的聊天機器人規劃，[我們很樂意幫助](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+- 聊天機器人功能：您需要簡單的FAQ處理還是複雜的潛在客戶生成？您是否希望為多個管道使用相同的聊天Agent？開始可能很容易，但良好的規劃可以為您節省很多後續的操作麻煩。如果您想談論網上商店的聊天機器人規劃，[我們很樂意幫助](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
 - 預算：考慮應用程式成本和交易費用。擴展是一個重要因素。許多電商建構工具開始時便宜甚至免費，但交易費用和套餐升級可能會隨著時間推移顯著增加您的成本。在開始之前進行徹底研究以避免意外。
 - 易用性：如果您自己建構商店，您需要對工具感到舒適。每個人的舒適度和對技術工具的偏好都不同，所以在鎖定解決方案之前一定要測試工具。
 
@@ -143,4 +143,4 @@ Ecwid是一個以其簡單性和易用性而聞名的流行電商平台。雖然
 
 ## 您可以用SeaChat做更多事情
 
-無論您最終為線上業務選擇什麼，[SeaChat](https://chat.seasalt.ai/?utm_source=blog)都與大多數電商網站建構工具整合良好。在10分鐘內建構並啟動AI聊天代理。多語言支援。即時代理轉移。與網頁聊天、簡訊、Line、CRM、Shopify、日曆、Twilio、ZenDesk和電話通話整合。發送電子郵件至[seachat@seasalt.ai](mailto:seameet@seasalt.ai)獲取更多詳細資訊，或[預約演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+無論您最終為線上業務選擇什麼，[SeaChat](https://chat.seasalt.ai/?utm_source=blog)都與大多數電商網站建構工具整合良好。在10分鐘內建構並啟動AI聊天Agent。多語言支援。即時Agent轉移。與網頁聊天、簡訊、Line、CRM、Shopify、日曆、Twilio、ZenDesk和電話通話整合。發送電子郵件至[seachat@seasalt.ai](mailto:seameet@seasalt.ai)獲取更多詳細資訊，或[預約演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。

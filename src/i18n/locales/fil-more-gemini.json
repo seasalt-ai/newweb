@@ -1,0 +1,123 @@
+
+{
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "Ang",
+      "impossibleChoice": "Imposibleng Pagpipilian",
+      "subtitlePart1": "Panatilihin ang Iyong Phone App",
+      "or": "O",
+      "subtitlePart2": "Mag-scale gamit ang mga Enterprise Tool?",
+      "untilNow": "Hanggang ngayon, kailangan mong isakripisyo ang isa para sa isa.",
+      "vs": "VS",
+      "whatYouGet": "✓ Ano ang Makukuha Mo",
+      "dealbreaker": "✗ Ang Dealbreaker",
+      "businessApp": {
+        "badge": "Manatiling Maliit",
+        "title": "WhatsApp Business App",
+        "subtitle": "Ang Mobile-Only Trap",
+        "pros": {
+          "mobile": "Katutubong karanasan sa mobile",
+          "free": "Libreng pagmemensahe"
+        },
+        "cons": {
+          "devices": "Pinakamataas na 4 na naka-link na device",
+          "fifthMember": "Ika-5 miyembro ng koponan? Hindi posible.",
+          "fourDevices": "4 na device lang ang maximum",
+          "cannotAdd": "Hindi makapagdagdag ng mga ahente habang lumalaki ka",
+          "noAutomation": "Walang automation o CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "Mawalan ng Mobility",
+        "title": "Cloud API",
+        "subtitle": "Ang Desktop-Only Trap",
+        "pros": {
+          "unlimited": "Walang limitasyong mga ahente",
+          "automation": "AI automation at CRM"
+        },
+        "cons": {
+          "lockedOut": "Naka-lock out ang iyong telepono",
+          "noMobile": "Walang mobile access kahit ano pa man",
+          "noApp": "Walang mobile app sa iyong telepono",
+          "desktopOnly": "Natigil sa desktop/dashboard lang"
+        }
+      },
+      "summary": {
+        "part1": "Maaaring manatili kang natigil sa limitadong kapasidad ng koponan,",
+        "part2": "o mawawala sa iyo ang flexibility na kinakailangan ng iyong negosyo.",
+        "dilemma": "Ito ang dilemma na kinakaharap ng bawat lumalagong negosyo."
+      }
+    },
+    "solution": {
+      "title": "Ngayon,",
+      "worryNoMore": "Huwag Nang Mag-alala.",
+      "subtitle1": "Ipinapakilala",
+      "metaCoexistence": "Meta WhatsApp Coexistence",
+      "subtitle2": "kasama ang Seasalt.ai. Ang tanging solusyon na nagtutulay sa agwat, na nagbibigay sa iyo ng scalability ng API nang hindi isinusuko ang iyong telepono.",
+      "coexistenceTitle": "WhatsApp Coexistence",
+      "tagline": "Dalawang platform. Isang numero ng telepono. Zero kompromiso.",
+      "businessApp": {
+        "title": "WhatsApp Business App",
+        "subtitle": "Karanasan sa Mobile"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "Sukat ng Enterprise"
+      },
+      "bestBadge": "PINAKAMAHUSAY",
+      "result": {
+        "title": "Coexistence",
+        "subtitle": "Pinakamahusay sa Parehong Mundo"
+      }
+    },
+    "whatIs": {
+      "title": "Ano ang WhatsApp Coexistence?",
+      "description": "Ang WhatsApp Coexistence ay isang rebolusyonaryong tampok na nagpapahintulot sa mga negosyo na gamitin ang parehong WhatsApp Business App at WhatsApp Cloud API sa parehong numero ng telepono,",
+      "simultaneously": "nang sabay-sabay",
+      "before": {
+        "title": "Bago ang Coexistence",
+        "point1": "Mawalan ng kasaysayan ng chat kapag lumilipat sa API",
+        "point2": "Baguhin ang numero ng telepono o kumuha ng bago",
+        "point3": "Pumili sa pagitan ng personal na app o enterprise automation",
+        "point4": "Gulohin ang mga relasyon sa customer sa panahon ng paglipat"
+      },
+      "after": {
+        "title": "Pagkatapos ng Coexistence",
+        "point1": "Panatilihin ang parehong numero ng telepono",
+        "point2": "I-sync ang 180 araw ng kasaysayan ng chat",
+        "point3": "Gamitin ang app at API nang sabay-sabay",
+        "point4": "Paglipat na walang abala"
+      },
+      "omnichannel": {
+        "title": "Isang Pinag-isang Omni-Channel Engine",
+        "subtitle": "Hindi lang ito tungkol sa pag-sync; ito ay tungkol sa pag-upgrade ng iyong buong imprastraktura ng suporta sa customer."
+      },
+      "features": {
+        "sync": {
+          "title": "3-Way na Pag-synchronize",
+          "description": "Ang mga mensahe ay agad na nagsi-sync sa pagitan ng iyong Telepono, Seasalt Web Dashboard, at Seasalt Mobile App. Magpadala mula sa kahit saan, makita ito kahit saan."
+        },
+        "agents": {
+          "title": "Walang limitasyong mga Ahente",
+          "description": "Basagin ang limitasyon ng 4 na aparato. Magdagdag ng 10, 50, o 100 ahente sa parehong numero ng WhatsApp. Magtalaga ng mga pag-uusap sa mga ahente ng tao o mga AI bot nang walang putol."
+        },
+        "aiHandoff": {
+          "title": "Paghahatid ng Ahente ng AI",
+          "description": "Paganahin ang mga Ahente ng AI na pangasiwaan ang mga katanungan sa labas ng oras sa platform, habang sinusubaybayan mo ang mga resulta nang direkta sa iyong personal na telepono."
+        },
+        "history": {
+          "title": "Pag-import ng Kasaysayan ng 6 na Buwan",
+          "description": "Huwag magsimula sa simula. Awtomatiko naming kinukuha ang huling 6 na buwan ng kasaysayan ng chat upang ang iyong koponan ay may buong konteksto kaagad."
+        },
+        "mobileApp": {
+          "title": "Seasalt Mobile App",
+          "description": "Ang mga empleyado ay hindi nangangailangan ng access sa iyong pisikal na telepono. Maaari nilang gamitin ang Seasalt.ai App sa kanilang sariling mga aparato upang tumugon sa mga customer on the go."
+        },
+        "unifiedInbox": {
+          "title": "Pinag-isang Inbox",
+          "description": "Pagsamahin ang WhatsApp sa SMS, Messenger, LINE, at Instagram sa isang solong view. Itigil ang paglipat ng tab at simulan ang paglutas."
+        }
+      }
+    }
+  }
+}

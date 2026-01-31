@@ -1,6 +1,6 @@
 ---
 author: Xuchen Yao
-description: Lions Befrienders与Seasalt.ai合作推出一款用于老年护理的人工智能语音代理。它可自动进行签到呼叫，优先处理紧急需求，并缓解员工倦怠。
+description: Lions Befrienders与Seasalt.ai合作推出一款用于老年护理的人工智能语音Agent。它可自动进行签到呼叫，优先处理紧急需求，并缓解员工倦怠。
 draft: false
 image:
   alt: 'SeaVoice Featured: Voice AI agents for senior care with Lions Befrienders'
@@ -9,22 +9,22 @@ lang: zh-cn
 publishDate: '2025-11-09'
 tags:
 - SeaVoice
-- 语音AI代理
+- 语音AIAgent
 - 老年护理
 - 社会服务
 - 员工倦怠
 - 老年关怀
 - 自动签到呼叫
-title: 与Seasalt.ai合作，狮子之友推出人工智能语音代理以深化护理并缓解人力倦怠
+title: 与Seasalt.ai合作，狮子之友推出人工智能语音Agent以深化护理并缓解人力倦怠
 url: /blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai
 ---
-# 借助Seasalt.ai，狮子乐龄之友推出人工智能语音代理，深化关怀并缓解人力倦怠  
+# 借助Seasalt.ai，狮子乐龄之友推出人工智能语音Agent，深化关怀并缓解人力倦怠  
 
-新加坡 – [2025年11月9日] – 狮子乐龄之友服务协会（狮子乐龄之友）今日宣布推出其创新的人工智能语音代理，这是与Seasalt.ai合作开发的一项尖端技术解决方案。这一新功能将彻底改变狮子乐龄之友支持受益人的方式，使工作人员能够大幅扩大外展服务范围，并将其专业知识集中于提供高质量、有意义的关怀。  
+新加坡 – [2025年11月9日] – 狮子乐龄之友服务协会（狮子乐龄之友）今日宣布推出其创新的人工智能语音Agent，这是与Seasalt.ai合作开发的一项尖端技术解决方案。这一新功能将彻底改变狮子乐龄之友支持受益人的方式，使工作人员能够大幅扩大外展服务范围，并将其专业知识集中于提供高质量、有意义的关怀。  
 
 此举旨在解决社会服务领域的两个关键需求：缓解工作人员的人力倦怠，以及确保与弱势老年人的定期、持续联系。  
 
-“我们的使命一直是为老年人提供全面关怀并建立一个支持性社区，”狮子乐龄之友执行董事Karen Wee表示，“与Seasalt.ai的合作标志着在数字时代实现这一使命的关键一步。这个人工智能语音代理并不是要取代人情味；而是要扩大其影响。通过自动化例行的签到电话，我们可以让敬业的工作人员腾出时间，为最需要帮助的老年人提供更深入、更个性化的支持，确保没有人被落下。”  
+“我们的使命一直是为老年人提供全面关怀并建立一个支持性社区，”狮子乐龄之友执行董事Karen Wee表示，“与Seasalt.ai的合作标志着在数字时代实现这一使命的关键一步。这个人工智能语音Agent并不是要取代人情味；而是要扩大其影响。通过自动化例行的签到电话，我们可以让敬业的工作人员腾出时间，为最需要帮助的老年人提供更深入、更个性化的支持，确保没有人被落下。”  
 
 <div style="text-align: center; margin: 2rem 0;">
   <img src="/images/blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai-vertical.png" alt="狮子乐龄之友与Seasalt.ai合作开展老年关怀" style="max-width: 40%; height: auto;">
@@ -33,7 +33,7 @@ url: /blog/111-lions-befrienders-launches-ai-powered-voice-agent-with-seasalt-ai
 
 ## 该技术如何提升关怀质量  
 
-人工智能语音代理可自动处理例行沟通，使狮子乐龄之友的工作人员每天能够拨打更多电话。该系统采用当地俚语进行定制，并具有自然、富有同理心的语气，以确保为老年人提供舒适且熟悉的体验。  
+人工智能语音Agent可自动处理例行沟通，使狮子乐龄之友的工作人员每天能够拨打更多电话。该系统采用当地俚语进行定制，并具有自然、富有同理心的语气，以确保为老年人提供舒适且熟悉的体验。  
 
 * 增加互动：自动化显著增加了每天可联系到的老年人数量，提高了整体互动率并减少了社会孤立。  
 

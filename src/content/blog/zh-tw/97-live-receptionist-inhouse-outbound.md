@@ -29,7 +29,7 @@ draft: false
 
 2. (本文) [外包與內部即時接待員](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/): 什麼是即時接待員？您應該外包還是內部聘用？
 
-3. [自動化電話接聽系統（互動式語音應答 IVR 與語音 AI 代理）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什麼是自動化接聽服務？您應該使用機器人 IVR 還是語音 AI 代理？
+3. [自動化電話接聽系統（互動式語音應答 IVR 與語音 AI Agent）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什麼是自動化接聽服務？您應該使用機器人 IVR 還是語音 AI Agent？
 
 4. [決策：我的小型企業應該使用即時接待員還是自動化接聽服務？](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/): 您已經從我們的系列文章中了解了所有關於接聽服務的資訊。現在是時候決定哪種服務最適合您的業務了。
 
@@ -190,7 +190,7 @@ draft: false
 供應商：
 - *[Nexa](https://www.nexa.com/plans)* (自訂價格 – 聯繫銷售獲取報價)
 - *[AnswerForce](https://www.answerforce.com/)* (起價 349 美元/月，包含 200 分鐘，另加設置費)
-- *[Stealth Agent](https://stealthagents.com/pricing/)* (起價 10 - 15 美元/小時 / 全職代理)
+- *[Stealth Agent](https://stealthagents.com/pricing/)* (起價 10 - 15 美元/小時 / 全職Agent)
 - *[AnswerConnect](https://www.answerconnect.com/plans)* (起價 350 美元/月，包含 200 分鐘，另加 49.99 美元設置費)
 ---
 
@@ -326,8 +326,8 @@ draft: false
 
 - (本文) [外包與內部即時接待員](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/): 什麼是即時接待員？您應該外包還是內部聘用？
 
-- [自動化電話接聽系統（互動式語音應答 IVR 與語音 AI 代理）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什麼是自動化接聽服務？您應該使用機器人 IVR 還是語音 AI 代理？
+- [自動化電話接聽系統（互動式語音應答 IVR 與語音 AI Agent）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什麼是自動化接聽服務？您應該使用機器人 IVR 還是語音 AI Agent？
 
 - [決策：我的小型企業應該使用即時接待員還是自動化接聽服務？](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/): 您已經從我們的系列文章中了解了所有關於接聽服務的資訊。現在是時候決定哪種服務最適合您的業務了。
 
-- [OpenAI 與人類與語音 AI：成本比較](https://seasalt.ai/blog/101-openai-realtime-technical-breakdown/): OpenAI 的最新語音 AI 技術是一個很棒的語音 AI 代理。實際成本是多少？
+- [OpenAI 與人類與語音 AI：成本比較](https://seasalt.ai/blog/101-openai-realtime-technical-breakdown/): OpenAI 的最新語音 AI 技術是一個很棒的語音 AI Agent。實際成本是多少？

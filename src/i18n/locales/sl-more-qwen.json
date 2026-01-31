@@ -1,0 +1,122 @@
+{
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "Nemogožna",
+      "impossibleChoice": "izbira",
+      "subtitlePart1": "Ohranite svojo telefonsko aplikacijo",
+      "or": "ALI",
+      "subtitlePart2": "Razširitev s podjetniškimi orodji?",
+      "untilNow": "Dosedaj ste morali žrtvovati eno za drugo.",
+      "vs": "VS",
+      "whatYouGet": "✓ Kaj dobite",
+      "dealbreaker": "✗ Faktor, ki prekine pogajanja",
+      "businessApp": {
+        "badge": "Ostanite majhni",
+        "title": "WhatsApp Business aplikacija",
+        "subtitle": "Mobilna past",
+        "pros": {
+          "mobile": "Lastno mobilno izkušnjo",
+          "free": "Brezplačna sporočila"
+        },
+        "cons": {
+          "devices": "Največ 4 povezane naprave",
+          "fifthMember": "5. član ekipe? Ni mogoče.",
+          "fourDevices": "Samo 4 naprave največ",
+          "cannotAdd": "Ne morete dodajati agentov ob rasti",
+          "noAutomation": "Brez avtomatizacije ali CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "Izguba mobilnosti",
+        "title": "Cloud API",
+        "subtitle": "Namizna past",
+        "pros": {
+          "unlimited": "Neomejeni agenti",
+          "automation": "AI avtomatizacija & CRM"
+        },
+        "cons": {
+          "lockedOut": "Vaš telefon je zaklenjen",
+          "noMobile": "Sploh ni mobilnega dostopa",
+          "noApp": "Ni mobilne aplikacije na vašem telefonu",
+          "desktopOnly": "Zaklenjeno samo z namizjem/nadzorno ploščo"
+        }
+      },
+      "summary": {
+        "part1": "Ali ste ujeta z omejenimi zmogljivostmi ekipe,",
+        "part2": "ali izgubite prožnost, od katere je odvisno vaše podjetje.",
+        "dilemma": "To je dilema, s katero se sooča vsako rastoče podjetje."
+      }
+    },
+    "solution": {
+      "title": "Zdaj,",
+      "worryNoMore": "Brez skrbi.",
+      "subtitle1": "Predstavitev",
+      "metaCoexistence": "Meta WhatsApp Coexistence",
+      "subtitle2": "z Seasalt.ai. Edina rešitev, ki zapolni vrzel, vam omogoča skalabilnost API-ja, ne da bi morali opustiti svoj telefon.",
+      "coexistenceTitle": "WhatsApp Coexistence",
+      "tagline": "Dve platformi. Ena telefonska številka. Ni kompromisov.",
+      "businessApp": {
+        "title": "WhatsApp Business aplikacija",
+        "subtitle": "Mobilna izkušnja"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "Podjetniški obseg"
+      },
+      "bestBadge": "NAJBOLJŠI",
+      "result": {
+        "title": "Soprožitje",
+        "subtitle": "Najboljše iz dveh svetov"
+      }
+    },
+    "whatIs": {
+      "title": "Kaj je WhatsApp Coexistence?",
+      "description": "WhatsApp Coexistence je revolucionarna funkcija, ki podjetjem omogoča uporabo tako aplikacije WhatsApp Business kot tudi WhatsApp Cloud API na isti telefonski številki,",
+      "simultaneously": "hkrati",
+      "before": {
+        "title": "Pred soprožitjem",
+        "point1": "Izguba zgodovine klepeta pri migraciji na API",
+        "point2": "Sprememba telefonske številke ali pridobitev nove",
+        "point3": "Izbira med osebno aplikacijo ali podjetniško avtomatizacijo",
+        "point4": "Motnja odnosov s strankami med prehodom"
+      },
+      "after": {
+        "title": "Po soprožitju",
+        "point1": "Ohranitev iste telefonske številke",
+        "point2": "Sinhronizacija 180 dni zgodovine klepeta",
+        "point3": "Uporaba aplikacije in API-ja hkrati",
+        "point4": "Migracija brez prekinitev"
+      },
+      "omnichannel": {
+        "title": "Enotni sistem Omni-Channel",
+        "subtitle": "Gre ne le za sinhronizacijo; gre za nadgradnjo celotne infrastrukture za podporo strankam."
+      },
+      "features": {
+        "sync": {
+          "title": "Trosmerna sinhronizacija",
+          "description": "Sporočila se takoj sinhronizirajo med vašim telefonom, spletno nadzorno ploščo Seasalt in mobilno aplikacijo Seasalt. Pošiljajte kjerkoli, poglejte kjerkoli."
+        },
+        "agents": {
+          "title": "Neomejeni agenti",
+          "description": "Prekiniti omejitev 4 naprav. Dodajte 10, 50 ali 100 agentov na isto številko WhatsApp. Dodeljujte pogovore človeškim agentom ali AI botom brezhibno."
+        },
+        "aiHandoff": {
+          "title": "Prenos agentu AI",
+          "description": "Omogočite agentom AI, da obravnavajo poizvedbe zunaj delovnega časa na platformi, medtem ko vi spremljate rezultate neposredno na svojem osebnem telefonu."
+        },
+        "history": {
+          "title": "Uvoz 6-mesečne zgodovine",
+          "description": "Ne začnite od nič. Samodejno pridobimo zadnjih 6 mesecev zgodovine klepeta, tako da ima vaša ekipa takojšnji celoten kontekst."
+        },
+        "mobileApp": {
+          "title": "Mobilna aplikacija Seasalt",
+          "description": "Zaposleni nimajo potrebe po dostopu do vašega fizičnega telefona. Lahko uporabljajo aplikacijo Seasalt.ai na svojih lastnih napravah za odgovarjanje strankam med premikom."
+        },
+        "unifiedInbox": {
+          "title": "Združeni predal",
+          "description": "Kombinirajte WhatsApp s SMS, Messengerjem, LINE in Instagramom v enem pogledu. Ne preklapljajte več med zavihki in začnite reševati."
+        }
+      }
+    }
+  }
+}

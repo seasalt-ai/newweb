@@ -29,7 +29,7 @@ draft: false
 
 1. [为什么小型企业需要外呼/电话营销服务](https://seasalt.ai/blog/why-outbound-call-sm-business/)：了解外呼服务的重要性和优势。
 
-2. [电话营销外呼的内部与外包](https://seasalt.ai/blog/live-outbound-inhouse-outsourced/)：什么是实时外呼代理？您应该外包还是内部招聘？
+2. [电话营销外呼的内部与外包](https://seasalt.ai/blog/live-outbound-inhouse-outsourced/)：什么是实时外呼Agent？您应该外包还是内部招聘？
 
 3. [外呼自动拨号器](https://seasalt.ai/blog/auto-dialer-outbound/)：什么是自动拨号器？Power Dialer、Progressive Dialer 和 Predictive Dialer 之间有什么区别？哪种服务适合您的业务？
 

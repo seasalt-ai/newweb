@@ -898,9 +898,9 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     'zh-TW': {
       name: 'SeaVoice',
       description: 'SeaVoice：Seasalt AI 推出的 AI 語音通訊平台，提供智能通話路由、語音分析、自動回應，並與 CRM 系統無縫整合，提供 24/7 語音支援。',
-      keywords: 'AI 語音代理, 通話自動化, 語音分析, 智能路由, 語音轉文字, 文字轉語音, 語音 AI',
+      keywords: 'AI 語音Agent, 通話自動化, 語音分析, 智能路由, 語音轉文字, 文字轉語音, 語音 AI',
       featureList: [
-        'AI語音代理',
+        'AI語音Agent',
         '智能通話路由',
         '語音分析',
         '語音轉文字',
@@ -914,9 +914,9 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     'zh-CN': {
       name: 'SeaVoice',
       description: 'SeaVoice：Seasalt AI 推出的 AI 语音通信平台，提供智能通话路由、语音分析、自动响应，并与 CRM 系统无缝整合，提供 24/7 语音支持。',
-      keywords: 'AI 语音代理, 通话自动化, 语音分析, 智能路由, 语音转文字, 文字转语音, 语音 AI',
+      keywords: 'AI 语音Agent, 通话自动化, 语音分析, 智能路由, 语音转文字, 文字转语音, 语音 AI',
       featureList: [
-        'AI语音代理',
+        'AI语音Agent',
         '智能通话路由',
         '语音分析',
         '语音转文字',
@@ -1224,7 +1224,7 @@ export const LOCALIZED_FAQ_SCHEMAS = {
     },
     {
       question: "Seasalt.ai 提供哪些產品？",
-      answer: "Seasalt.ai 提供三個主要產品：SeaChat 用於 AI 聊天機器人和客戶服務自動化，SeaX 用於全通路溝通活動，SeaVoice 用於 AI 語音代理和通話自動化。"
+      answer: "Seasalt.ai 提供三個主要產品：SeaChat 用於 AI 聊天機器人和客戶服務自動化，SeaX 用於全通路溝通活動，SeaVoice 用於 AI 語音Agent和通話自動化。"
     },
     {
       question: "Seasalt.ai 如何幫助企業？",
@@ -1238,7 +1238,7 @@ export const LOCALIZED_FAQ_SCHEMAS = {
     },
     {
       question: "Seasalt.ai 提供哪些产品？",
-      answer: "Seasalt.ai 提供三个主要产品：SeaChat 用于 AI 聊天机器人和客户服务自动化，SeaX 用于全渠道沟通活动，SeaVoice 用于 AI 语音代理和通话自动化。"
+      answer: "Seasalt.ai 提供三个主要产品：SeaChat 用于 AI 聊天机器人和客户服务自动化，SeaX 用于全渠道沟通活动，SeaVoice 用于 AI 语音Agent和通话自动化。"
     },
     {
       question: "Seasalt.ai 如何帮助企业？",
@@ -2019,7 +2019,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         'CRM integration'
       ],
       'zh-TW': [
-        'AI語音代理',
+        'AI語音Agent',
         '智能通話路由',
         '語音分析',
         '語音轉文字',
@@ -2029,7 +2029,7 @@ export function getLocalizedProductFeatures(productKey: ProductKey, language: st
         'CRM整合'
       ],
       'zh-CN': [
-        'AI语音代理',
+        'AI语音Agent',
         '智能通话路由',
         '语音分析',
         '语音转文字',

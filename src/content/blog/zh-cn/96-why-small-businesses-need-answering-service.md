@@ -29,7 +29,7 @@ draft: false
 
 2. [外包与内部实时接线员](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/): 什么是实时接线员？您应该外包还是内部招聘？
 
-3. [自动化电话应答系统（交互式语音应答 IVR 与 Voice AI 代理）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什么是自动化应答服务？您应该使用交互式语音应答还是 Voice AI 代理？
+3. [自动化电话应答系统（交互式语音应答 IVR 与 Voice AI Agent）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什么是自动化应答服务？您应该使用交互式语音应答还是 Voice AI Agent？
 
 4. [决策：我的小型企业应该使用实时接线员还是自动化应答服务？](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/): 您已经从我们的系列文章中了解了所有关于应答服务的信息。现在是时候决定哪种类型的服务最适合您的业务了。
 
@@ -59,7 +59,7 @@ draft: false
 
 - **可定制脚本**：确保与客户进行一致的品牌沟通。
 
-电话应答服务有多种形式：实时应答服务、自动化系统和 AI 驱动的语音代理，所有这些都根据您的业务需求量身定制。
+电话应答服务有多种形式：实时应答服务、自动化系统和 AI 驱动的语音Agent，所有这些都根据您的业务需求量身定制。
 
 # 为什么小型企业需要电话应答服务？
 
@@ -101,8 +101,8 @@ draft: false
 - 成本估算：每月低至 10 美元。
 - 优势：24/7 运行，无需人工协助即可高效管理高呼叫量。
 
-# AI 语音代理
-AI 语音代理，如 Voice 和 SeaChat，通过与客户进行自然、类似人类的对话来提供高级呼叫处理。基于训练有素的知识库，这些代理可以回答问题、预约，甚至解决复杂的客户问题。
+# AI 语音Agent
+AI 语音Agent，如 Voice 和 SeaChat，通过与客户进行自然、类似人类的对话来提供高级呼叫处理。基于训练有素的知识库，这些Agent可以回答问题、预约，甚至解决复杂的客户问题。
 - 成本估算：SeaChat 起价每月 30 美元。
 - 优势：个性化的客户体验和可扩展的解决方案，用于处理日常或复杂的查询。
 
@@ -113,7 +113,7 @@ AI 语音代理，如 Voice 和 SeaChat，通过与客户进行自然、类似�
 - **呼入呼叫中心**：200 - 2,000 美元/月
 - **虚拟接待员/助理**：3 - 15 美元/小时
 - **自动化系统**：10 - 100 美元/月
-- **AI 语音代理**：起价 30 美元/月
+- **AI 语音Agent**：起价 30 美元/月
 
 虽然使用电话应答服务会产生费用，但通过改善客户服务、潜在客户捕获和运营效率而获得的潜在投资回报使这些服务值得考虑。
 
@@ -221,7 +221,7 @@ AI 语音代理，如 Voice 和 SeaChat，通过与客户进行自然、类似�
 在决定合适的电话应答服务时，首先评估您业务的独特需求。考虑以下几点：
 
 - ****呼叫量****：估算您每天处理的电话数量以及这些电话是否在特定时间达到高峰。这将有助于确定您是需要 24/7 全天候覆盖，还是只需要在繁忙时段提供帮助。
-- ****服务类型****：决定实时应答服务、自动化系统还是 AI 语音代理最适合您的需求。每种服务都具有不同的交互级别、可扩展性和成本。
+- ****服务类型****：决定实时应答服务、自动化系统还是 AI 语音Agent最适合您的需求。每种服务都具有不同的交互级别、可扩展性和成本。
 - ****行业特定需求****：如果您在医疗保健、法律或物业管理领域运营，请考虑该服务是否可以处理专业请求，例如预约安排、法律咨询或紧急维护。
 - ****预算****：确保您选择的解决方案符合您的预算。成本可能从每月 10 美元的 AI 服务到数千美元的全呼叫中心覆盖不等。将成本与您期望获得的价值进行比较，例如减少错失的机会和提高客户满意度。
 
@@ -234,7 +234,7 @@ AI 语音代理，如 Voice 和 SeaChat，通过与客户进行自然、类似�
 
 以下是针对不同需求的一些提供商示例：
 
-- **SeaChat**：AI 语音代理，每月 10 美元起，非常适合寻求低成本自动化解决方案的企业。 [了解更多](https://chat.seasalt.ai/?utm_source=seasalt-blog&utm_medium=referral&utm_campaign=96-why-small-businesses-need-answering-service)。
+- **SeaChat**：AI 语音Agent，每月 10 美元起，非常适合寻求低成本自动化解决方案的企业。 [了解更多](https://chat.seasalt.ai/?utm_source=seasalt-blog&utm_medium=referral&utm_campaign=96-why-small-businesses-need-answering-service)。
 - **AnswerConnect**：虚拟接待员，提供 24/7 人工操作员，非常适合律师事务所或医疗机构。 [了解更多](https://www.answerconnect.com/)。
 - **CMS**：呼入呼叫中心服务，旨在处理大量客户咨询，非常适合高流量企业。
 
@@ -258,8 +258,8 @@ AI 语音代理，如 Voice 和 SeaChat，通过与客户进行自然、类似�
 
 - [外包与内部实时接线员](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/): 什么是实时接线员？您应该外包还是内部招聘？
 
-- [自动化电话应答系统（交互式语音应答 IVR 与 Voice AI 代理）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什么是自动化应答服务？您应该使用机器人 IVR 还是 Voice AI 代理？
+- [自动化电话应答系统（交互式语音应答 IVR 与 Voice AI Agent）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什么是自动化应答服务？您应该使用机器人 IVR 还是 Voice AI Agent？
 
 - [决策：我的小型企业应该使用实时接线员还是自动化应答服务？](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/): 您已经从我们的系列文章中了解了所有关于应答服务的信息。现在是时候决定哪种类型的服务最适合您的业务了。
 
-- [OpenAI 与人类与 Voice AI：成本比较](https://seasalt.ai/blog/101-openai-realtime-technical-breakdown/): OpenAI 最新的 Voice AI 技术是一个很棒的 Voice AI 代理。实际成本是多少？
+- [OpenAI 与人类与 Voice AI：成本比较](https://seasalt.ai/blog/101-openai-realtime-technical-breakdown/): OpenAI 最新的 Voice AI 技术是一个很棒的 Voice AI Agent。实际成本是多少？

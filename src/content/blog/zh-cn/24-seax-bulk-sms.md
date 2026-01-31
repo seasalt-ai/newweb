@@ -1,6 +1,6 @@
 ---
 title: 'SeaX Bulk SMS: 更快、更有效地接触客户'
-description: 在这篇博客中，我们将展示 SeaX 的批量短信功能如何让代理主动通过短信发送外发消息。
+description: 在这篇博客中，我们将展示 SeaX 的批量短信功能如何让Agent主动通过短信发送外发消息。
 publishDate: '2022-09-09'
 updatedDate: '2025-07-28'
 author: Amy Chen, Kim Dodds, Sarah Reid
@@ -14,7 +14,7 @@ draft: false
 ---
 
 
-*在我们之前的博客文章中，我们介绍了 SeaX 的一些关键功能（包括 [语音智能](https://seasalt.ai/blog/21-seax-voice-intelligence/)、[知识库](https://seasalt.ai/blog/22-seax-knowledge-base/) 和 [案例管理](https://seasalt.ai/blog/23-seax-case-management/)），这些功能有助于代理更好地处理来电和消息。在这篇博客中，我们将展示 SeaX 的批量短信功能如何让代理主动通过短信发送外发消息，事实证明，收件人打开短信的速度和一致性都比传统的电子邮件通信更高。*
+*在我们之前的博客文章中，我们介绍了 SeaX 的一些关键功能（包括 [语音智能](https://seasalt.ai/blog/21-seax-voice-intelligence/)、[知识库](https://seasalt.ai/blog/22-seax-knowledge-base/) 和 [案例管理](https://seasalt.ai/blog/23-seax-case-management/)），这些功能有助于Agent更好地处理来电和消息。在这篇博客中，我们将展示 SeaX 的批量短信功能如何让Agent主动通过短信发送外发消息，事实证明，收件人打开短信的速度和一致性都比传统的电子邮件通信更高。*
 
 # 目录
 - [短信与电子邮件](#sms-vs-email)
@@ -114,8 +114,8 @@ SeaX 的批量短信服务使您能够轻松上传联系人/潜在客户，批�
 *处理批量短信活动的传入回复。*
 </center>
 
-就像所有 SeaX 功能一样，我们努力使代理或活动经理能够处理传入的请求/问题——批量短信也允许 SeaX 处理外发营销工作。启动活动后，您可以在下面显示的聊天窗口中管理所有传入的回复。
+就像所有 SeaX 功能一样，我们努力使Agent或活动经理能够处理传入的请求/问题——批量短信也允许 SeaX 处理外发营销工作。启动活动后，您可以在下面显示的聊天窗口中管理所有传入的回复。
 
 # 结束语
 
-感谢您花时间阅读 SeaX 批量短信系统如何使代理能够发送外发通信以及处理传入消息请求。请继续关注我们博客系列的下一部分，其中将介绍 SeaX 平台中内置的一些管理和分析工具。如果您有兴趣立即了解更多信息，请填写我们的[预订演示表单](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)，以亲身体验 SeaX 平台。
+感谢您花时间阅读 SeaX 批量短信系统如何使Agent能够发送外发通信以及处理传入消息请求。请继续关注我们博客系列的下一部分，其中将介绍 SeaX 平台中内置的一些管理和分析工具。如果您有兴趣立即了解更多信息，请填写我们的[预订演示表单](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)，以亲身体验 SeaX 平台。

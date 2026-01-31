@@ -1,4 +1,9 @@
 {
+  "banner": {
+    "new": "新機能",
+    "whatsappCoexistence": "WhatsApp Coexistence",
+    "description": "WhatsApp Business Appを保持したまま、Cloud APIでスケールアップ"
+  },
   "header": {
     "products": "製品",
     "solutions": "ソリューション",
@@ -3878,7 +3883,7 @@
               "insurance": "旅行保険",
               "itineraries": "カスタムの旅程"
             },
-            "title": "旅行代理店"
+            "title": "旅行Agent店"
           },
           "airlines": {
             "description": "フライトの予約、チェックイン、および旅行の更新",
@@ -12144,7 +12149,7 @@
           "price": "お問い合わせ",
           "description": "カスタムビルド",
           "features": {
-            "0": "複数のワークスペース — 代理店に最適",
+            "0": "複数のワークスペース — Agent店に最適",
             "1": "各ワークスペースには複数のAIエージェントと電話番号があります",
             "2": "プロフェッショナルな設計ガイドラインと技術サポート、ローンチサポートプランとセットで販売"
           },
@@ -13667,7 +13672,7 @@
           "customPriceMessage": "プロジェクトを構築しましょう",
           "features": {
             "everythingInboundOutbound": "インバウンド+アウトバウンドプランのすべて",
-            "multipleWorkspaces": "複数のワークスペース（代理店に最適）",
+            "multipleWorkspaces": "複数のワークスペース（Agent店に最適）",
             "workspaceAgents": "各ワークスペースには複数のAIエージェントと電話番号があります",
             "customPricing": "ボリュームに基づく分単位のカスタム価格",
             "accountManager": "専任のアカウントマネージャー",
@@ -16237,7 +16242,7 @@
             "cta": {
               "title": "Ready for 24/7 Customer Support?",
               "description": "Transform your after-hours customer experience with intelligent virtual assistance",
-              "primaryButton": "Start Free Trial",
+              "primaryButton": "Sign Up Now",
               "secondaryButton": "Schedule Demo"
             },
             "title": "24/7 Virtual Assistant",
@@ -16742,7 +16747,7 @@
           "cta": {
             "title": "Ready to Improve Your Collection Rates?",
             "subtitle": "Start recovering more debt with compliant, professional AI-powered collections",
-            "startFreeTrial": "Start Free Trial",
+            "startFreeTrial": "Sign Up Now",
             "scheduleDemo": "Schedule Demo"
           },
           "leadGeneration": {
@@ -16859,7 +16864,7 @@
             "cta": {
               "title": "Ready to Transform Your Lead Generation?",
               "subtitle": "Start generating and qualifying more leads with AI-powered outbound calling",
-              "startTrial": "Start Free Trial",
+              "startTrial": "Sign Up Now",
               "scheduleDemo": "Schedule Demo"
             },
             "title": "Lead Generation & Qualification",
@@ -17943,6 +17948,702 @@
     "breakdown": {
       "localPlus": "ローカル +",
       "tollFreeMinus": "フリーダイヤル"
+    }
+  },
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "",
+      "impossibleChoice": "不可能な選択",
+      "subtitlePart1": "あなたの電話アプリを維持",
+      "or": "または",
+      "subtitlePart2": "エンタープライズツールでスケールアップ？",
+      "untilNow": "これまで、どちらか一方を犠牲にする必要がありました。",
+      "vs": "対",
+      "whatYouGet": "✓ 得られるもの",
+      "dealbreaker": "✗ 断念の理由",
+      "businessApp": {
+        "badge": "小規模のままで",
+        "title": "WhatsApp Business App",
+        "subtitle": "モバイル限定の罠",
+        "pros": {
+          "mobile": "ネイティブなモバイル体験",
+          "free": "無料メッセージ"
+        },
+        "cons": {
+          "devices": "最大4台の連携デバイス",
+          "fifthMember": "5人目のチームメンバー？不可能です。",
+          "fourDevices": "最大4台のデバイスのみ",
+          "cannotAdd": "成長してもエージェントを追加できない",
+          "noAutomation": "自動化やCRMがない"
+        }
+      },
+      "cloudAPI": {
+        "badge": "モビリティを失う",
+        "title": "クラウドAPI",
+        "subtitle": "デスクトップ限定の罠",
+        "pros": {
+          "unlimited": "無制限のエージェント",
+          "automation": "AI自動化 & CRM"
+        },
+        "cons": {
+          "lockedOut": "あなたの電話はロックアウトされます",
+          "noMobile": "モバイルアクセスがまったくない",
+          "noApp": "電話にモバイルアプリがない",
+          "desktopOnly": "デスクトップ/ダッシュボードのみに固定"
+        }
+      },
+      "summary": {
+        "part1": "チーム容量が限られたまま留まるか、",
+        "part2": "あなたのビジネスが依存する柔軟性を失うことになります。",
+        "dilemma": "これが成長するすべての企業が直面するジレンマです。"
+      }
+    },
+    "solution": {
+      "title": "今、",
+      "worryNoMore": "心配はいりません。",
+      "subtitle1": "ご紹介",
+      "metaCoexistence": "Meta WhatsApp Coexistence",
+      "subtitle2": "Seasalt.aiとともに。APIのスケーラビリティを享受しつつ電話を手放さずに済む、唯一の解決策。",
+      "coexistenceTitle": "WhatsApp Coexistence",
+      "tagline": "2つのプラットフォーム。1つの電話番号。ゼロ妥協。",
+      "businessApp": {
+        "title": "WhatsApp Business App",
+        "subtitle": "モバイル体験"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "エンタープライズスケール"
+      },
+      "bestBadge": "最高",
+      "result": {
+        "title": "共存",
+        "subtitle": "両世界の良いところ取り"
+      }
+    },
+    "whatIs": {
+      "title": "WhatsApp Coexistenceとは？",
+      "description": "WhatsApp Coexistenceは、企業が同じ電話番号でWhatsApp Business AppとWhatsApp Cloud APIの両方を使用できるようにする画期的な機能です。",
+      "simultaneously": "同時に",
+      "before": {
+        "title": "共存前",
+        "point1": "APIへの移行時にチャット履歴が失われる",
+        "point2": "電話番号の変更または新しい番号の取得",
+        "point3": "パーソナルアプリかエンタープライズ自動化の選択",
+        "point4": "移行中に顧客関係が中断される"
+      },
+      "after": {
+        "title": "共存後",
+        "point1": "同じ電話番号を維持",
+        "point2": "180日間のチャット履歴を同期",
+        "point3": "アプリとAPIを同時に使用",
+        "point4": "ゼロ障害の移行"
+      },
+      "omnichannel": {
+        "title": "統合オムニチャネルエンジン",
+        "subtitle": "単なる同期ではなく、顧客サポートインフラ全体をアップグレードすることです。"
+      },
+      "features": {
+        "sync": {
+          "title": "3方向同期",
+          "description": "メッセージは電話、Seasaltウェブダッシュボード、Seasaltモバイルアプリの間で即座に同期されます。どこからでも送信し、どこでも確認できます。"
+        },
+        "agents": {
+          "title": "無制限エージェント",
+          "description": "4台デバイス制限を突破。同じWhatsApp番号に10、50、または100人のエージェントを追加。人間のエージェントやAIボットにシームレスに会話を割り当てられます。"
+        },
+        "aiHandoff": {
+          "title": "AIエージェント引継ぎ",
+          "description": "AIエージェントがプラットフォーム上でオフタイムの照会を処理できるようにし、結果を個人携帯電話で直接監視できます。"
+        },
+        "history": {
+          "title": "6か月履歴インポート",
+          "description": "ゼロから始める必要はありません。直近6か月のチャット履歴を自動的にプルし、チームが即座に完全なコンテキストを得られます。"
+        },
+        "mobileApp": {
+          "title": "Seasaltモバイルアプリ",
+          "description": "従業員が物理的な電話にアクセスする必要はありません。自分のデバイスでSeasalt.aiアプリを使用して外出先でも顧客に返信できます。"
+        },
+        "unifiedInbox": {
+          "title": "統合受信箱",
+          "description": "WhatsAppをSMS、Messenger、LINE、Instagramと1つのビューに統合。タブ切り替えをやめて解決に集中。"
+        }
+      }
+    },
+    "hero": {
+      "badge": "2026年向けの新機能",
+      "title": "あなたのWhatsApp Business Appを維持してください",
+      "titleHighlight": "そしてWhatsApp Cloud APIでスケールアップ",
+      "subtitle": "究極の選択の終わり。両方を同時に使用できます。パーソナルタッチとエンタープライズパワーのトレードオフはもうありません。",
+      "benefits": {
+        "sameNumber": {
+          "title": "同じ番号",
+          "description": "信頼できるビジネス番号を維持"
+        },
+        "noDataLoss": {
+          "title": "データ損失なし",
+          "description": "180日間のチャット履歴を同期"
+        },
+        "hybridAI": {
+          "title": "ハイブリッドAI + ヒューマン",
+          "description": "自動化をスケールアップし、パーソナルな対応を維持"
+        },
+        "zeroDisruption": {
+          "title": "ゼロ障害",
+          "description": "QRコードによるシームレスな移行"
+        }
+      },
+      "cta": {
+        "primary": "無料で始める",
+        "secondary": "仕組みを見る"
+      },
+      "triSync": {
+        "title": "トライ・シンクシステム",
+        "subtitle": "3つのタッチポイント間でのリアルタイム同期",
+        "phone": {
+          "title": "あなたの電話",
+          "subtitle": "WhatsApp Business App"
+        },
+        "dashboard": {
+          "title": "seasalt.aiダッシュボード",
+          "subtitle": "中央ハブ"
+        },
+        "fieldTeams": {
+          "title": "現場チーム",
+          "subtitle": "モバイルアプリ"
+        },
+        "syncLabel": "リアルタイム同期",
+        "stats": {
+          "live": "ライブ",
+          "latency": "<100ミリ秒",
+          "realtime": "リアルタイム"
+        }
+      },
+      "stats": {
+        "syncedDevices": {
+          "value": "無制限",
+          "label": "同期されたデバイス"
+        },
+        "humanUsers": {
+          "value": "無制限",
+          "label": "ヒューマンユーザー"
+        },
+        "chatHistory": {
+          "value": "180日",
+          "label": "チャット履歴同期"
+        }
+      }
+    },
+    "comparison": {
+      "title": "WhatsAppソリューション比較",
+      "subtitle": "WhatsApp Coexistenceが代替案とどのように比較されるかをご覧ください",
+      "table": {
+        "feature": "機能",
+        "businessApp": "ビジネスアプリ",
+        "premium": "プレミアム",
+        "cloudAPI": "クラウドAPI",
+        "coexistence": "共存",
+        "recommended": "推奨"
+      },
+      "features": {
+        "cost": {
+          "name": "コスト",
+          "free": "無料",
+          "premiumRange": "月額$15-$350",
+          "perMessage": "メッセージごと",
+          "hybrid": "ハイブリッドモデル"
+        },
+        "sameNumber": "同じ番号",
+        "chatHistory": "チャット履歴",
+        "multiUser": {
+          "name": "マルチユーザー",
+          "fiveDevices": "5台のデバイス",
+          "tenDevices": "10台のデバイス",
+          "unlimited": "無制限"
+        },
+        "automation": {
+          "name": "自動化",
+          "basic": "基本",
+          "advancedAI": "高度なAI",
+          "aiHuman": "AI + ヒューマン"
+        },
+        "broadcastLimit": {
+          "name": "配信制限",
+          "contacts256": "256連絡先",
+          "unlimited": "無制限"
+        },
+        "crmIntegration": "CRM統合",
+        "verification": "認証",
+        "groupChats": {
+          "name": "グループチャット",
+          "appOnly": "アプリのみ"
+        },
+        "analytics": {
+          "name": "分析",
+          "basic": "基本"
+        },
+        "maxThroughput": {
+          "name": "最大スループット",
+          "manual": "手動",
+          "mps80": "80+ MPS",
+          "mps20": "20 MPS"
+        },
+        "migration": {
+          "name": "移行",
+          "na": "該当なし",
+          "disruptive": "破壊的",
+          "seamless": "シームレス"
+        }
+      },
+      "days180": "180日",
+      "mobile": {
+        "businessAppTitle": "WhatsApp Business App",
+        "premiumTitle": "WhatsApp Business Premium",
+        "apiTitle": "WhatsApp Business API",
+        "coexistenceTitle": "WhatsApp Coexistence"
+      },
+      "cta": {
+        "title": "WhatsApp Coexistenceへのアップグレードの準備はできていますか？",
+        "button": "今すぐ登録"
+      }
+    },
+    "resources": {
+      "title": "リソースとドキュメント",
+      "subtitle": "WhatsApp Coexistenceを実装するために必要なすべて",
+      "cards": {
+        "wiki": {
+          "title": "公式Wikiガイド",
+          "description": "WhatsApp Coexistenceの実装、ベストプラクティス、トラブルシューティングに関する完全な技術ドキュメント。",
+          "cta": "ドキュメントを読む"
+        },
+        "developer": {
+          "title": "Meta開発者ドキュメント",
+          "description": "埋め込みサインアップ、ウェブフック、およびAPI統合のための公式Metaドキュメント。",
+          "cta": "APIリファレンスを表示"
+        },
+        "caseStudies": {
+          "title": "ケーススタディ",
+          "description": "銀行、小売、医療、EC業界からの現実世界の実装例。",
+          "cta": "ユースケースを見る"
+        }
+      },
+      "faq": {
+        "title": "よくある質問",
+        "questions": {
+          "q1": {
+            "question": "WhatsApp Coexistenceとは何ですか？",
+            "answer": "WhatsApp Coexistenceは、企業が同じ電話番号でWhatsApp Business AppとWhatsApp Cloud APIを同時に使用できるようにする機能です。メッセージは両方のプラットフォーム間でリアルタイムに同期され、モバイルアプリのパーソナルタッチを維持しながらAPIの自動化とスケーラビリティを活用できます。"
+          },
+          "q2": {
+            "question": "電話番号を変更する必要がありますか？",
+            "answer": "いいえ！WhatsApp Coexistenceの主な利点の1つは、既存の電話番号を維持できることです。新しい番号を取得したり、既存の番号を変更したりする必要はありません。QRコードベースのオンボーディングプロセスにより、現在のWhatsApp Business App番号がCloud APIにリンクされます。"
+          },
+          "q3": {
+            "question": "チャット履歴を失いますか？",
+            "answer": "いいえ、オンボーディング中に最大180日間のチャット履歴を保存できます。埋め込みサインアッププロセスを通じてWhatsApp Business AppをCloud APIにリンクすると、過去6か月間の会話履歴と連絡先をインポートするオプションがあります。ただし、これはオンボーディングプロセス完了後24時間以内に行う必要があります。"
+          },
+          "q4": {
+            "question": "料金体系はどのようになっていますか？",
+            "answer": "WhatsApp Coexistenceではハイブリッド料金モデルが可能になります。WhatsApp Business Appから手動で送信されるメッセージは100％無料です。Cloud API経由で送信されるメッセージ（自動メッセージ、テンプレート、配信など）はMetaの会話ベースの料金モデルに従います。これにより、パーソナルな1対1の会話には無料のアプリメッセージを使用し、スケールと自動化にはAPIメッセージを使用してコストを最適化できます。"
+          },
+          "q5": {
+            "question": "技術的な制限は何ですか？",
+            "answer": "主な技術的制限は以下の通りです：1）共存アカウントのスループットは20メッセージ/秒（MPS）に制限されており、独立したAPIアカウントの上限より低くなっています；2）同期接続を維持するには、13〜14日に1回はWhatsApp Business Appを開く必要があります；3）グループチャットの同期、消えるメッセージ、一度だけ表示されるメディア、メッセージの編集/取り消しなどの一部のアプリ機能は無効になっています。"
+          },
+          "q6": {
+            "question": "すべての国で利用できますか？",
+            "answer": "いいえ、WhatsApp Coexistenceは段階的な展開中です。2026年1月時点では、ナイジェリアや南アフリカなどの特定の地域では利用できません。これらの国からの電話番号を持つ企業は現在資格がなく、独立したアプリまたは独立したAPIのいずれかを選択する必要があります。"
+          },
+          "q7": {
+            "question": "移行にはどれくらい時間がかかりますか？",
+            "answer": "移行プロセスは迅速かつシームレスになるように設計されています。QRコードベースの埋め込みサインアップフローは通常5〜10分で完了します。チャット履歴のインポートを選択した場合、これはバックグラウンドで行われます。プロセス全体は15分以内に完了し、進行中のWhatsApp運用に一切の中断はありません。"
+          },
+          "q8": {
+            "question": "使用を停止した場合どうなりますか？",
+            "answer": "いつでもCloud APIの使用を中止できます。WhatsApp Business Appは番号で引き続き正常に動作します。ただし、APIが提供していた自動化、マルチエージェント機能、CRM統合へのアクセスを失います。Metaサポートに連絡して新しいオンボーディングプロセスを完了するまで、その番号に対する共存機能を再アクティブ化することはできません。"
+          }
+        }
+      },
+      "cta": {
+        "title": "WhatsApp Coexistenceについてまだ質問がありますか？",
+        "button": "デモミーティングを予約"
+      }
+    },
+    "useCases": {
+      "title": "現実世界のユースケース",
+      "subtitle": "業界を越えて企業がWhatsApp Coexistenceで顧客体験をどのように変革しているかをご覧ください",
+      "tabs": {
+        "banking": "銀行",
+        "retail": "小売",
+        "healthcare": "医療",
+        "ecommerce": "EC"
+      },
+      "banking": {
+        "support247": {
+          "title": "24時間365日カスタマーサポート",
+          "description": "AIで住宅ローンや融資の照会を自動化。複雑な案件は即座に人間の担当者にルーティング。"
+        },
+        "zeroAbandonment": {
+          "title": "放棄率ゼロ",
+          "description": "AIが繰り返しの照会の80％に対応。顧客が待機状態になることはありません。"
+        },
+        "compliance": {
+          "title": "コンプライアンス対応",
+          "description": "監査証跡と規制要件（GDPR、FINRA）のためのアーカイブ。"
+        },
+        "caseStudy": {
+          "title": "ケーススタディ：Bankia S.A.",
+          "points": [
+            "24時間365日サポートを実現",
+            "担当者のアイドルタイムを45％削減",
+            "顧客満足度：9.1/10",
+            "放棄率ゼロ"
+          ]
+        },
+        "results": {
+          "title": "結果",
+          "faqResolution": {
+            "label": "FAQ解決率",
+            "value": "80%"
+          },
+          "responseTime": {
+            "label": "平均応答時間",
+            "value": "<30秒"
+          },
+          "costReduction": {
+            "label": "コスト削減",
+            "value": "60%"
+          }
+        }
+      },
+      "retail": {
+        "vipHandling": {
+          "title": "VIP顧客対応",
+          "description": "高価値顧客はモバイルアプリでパーソナルな対応を受ける。ルーチン照会は自動化。"
+        },
+        "orderManagement": {
+          "title": "注文管理",
+          "description": "API経由での自動出荷更新と配信通知。"
+        },
+        "conversions": {
+          "title": "コンバージョン増加",
+          "description": "迅速な応答とパーソナライズされたフォローアップで売上促進。"
+        },
+        "caseStudy": {
+          "title": "ケーススタディ：D2C美容ブランド",
+          "points": [
+            "初回応答時間：2時間→4分",
+            "コンバージョン率増加：32%",
+            "マルチエージェントコラボレーション有効化",
+            "CRM統合完了"
+          ]
+        },
+        "results": {
+          "title": "結果",
+          "responseTime": {
+            "label": "応答時間",
+            "value": "97%"
+          },
+          "conversion": {
+            "label": "コンバージョン増加",
+            "value": "32%"
+          },
+          "efficiency": {
+            "label": "チーム効率",
+            "value": "+50%"
+          }
+        }
+      },
+      "healthcare": {
+        "appointments": {
+          "title": "予約リマインダー",
+          "description": "自動リマインダーでノーショーを60％削減。患者はWhatsAppで確認。"
+        },
+        "labResults": {
+          "title": "安全な検査結果",
+          "description": "HIPAA準拠のエンドツーエンド暗号化による検査結果の配信。"
+        },
+        "followups": {
+          "title": "患者フォローアップ",
+          "description": "AIが予約後に確認。懸念事項を医療スタッフにエスカレート。"
+        },
+        "caseStudy": {
+          "title": "ケーススタディ：AWS Connect + WhatsApp",
+          "points": [
+            "HIPAA準拠のメッセージング",
+            "ノーショー60％削減",
+            "患者満足度：4.8/5",
+            "完全な監査証跡を維持"
+          ]
+        },
+        "results": {
+          "title": "結果",
+          "noShow": {
+            "label": "ノーショー削減",
+            "value": "60%"
+          },
+          "engagement": {
+            "label": "患者エンゲージメント",
+            "value": "4.8/5"
+          },
+          "compliance": {
+            "label": "コンプライアンススコア",
+            "value": "100%"
+          }
+        }
+      },
+      "ecommerce": {
+        "cartRecovery": {
+          "title": "カート放棄回収",
+          "description": "自動リマインダーで放棄カートの30％を回収。"
+        },
+        "shipping": {
+          "title": "出荷更新",
+          "description": "リアルタイム追跡通知で顧客を最新情報に保つ。"
+        },
+        "vipSupport": {
+          "title": "VIPサポート",
+          "description": "高価値顧客はモバイルアプリで人的対応を受ける。"
+        },
+        "caseStudy": {
+          "title": "ケーススタディ：ECストア",
+          "points": [
+            "カート回収：30％増加",
+            "出荷照会：85％自動化",
+            "応答時間：<5分",
+            "顧客満足度：4.6/5"
+          ]
+        },
+        "results": {
+          "title": "結果",
+          "cartRecovery": {
+            "label": "カート回収",
+            "value": "30%"
+          },
+          "automation": {
+            "label": "自動化率",
+            "value": "85%"
+          },
+          "satisfaction": {
+            "label": "顧客満足度",
+            "value": "4.6/5"
+          }
+        }
+      },
+      "cta": {
+        "title": "WhatsApp Coexistenceで業界を変革",
+        "button": "今すぐ登録"
+      }
+    },
+    "architecture": {
+      "title": "技術アーキテクチャ",
+      "subtitle": "WhatsApp Coexistenceが内部でどのように機能するかを理解",
+      "customer": {
+        "title": "顧客",
+        "subtitle": "あらゆるデバイスからのメッセージ"
+      },
+      "businessApp": {
+        "title": "WhatsApp Business App",
+        "subtitle": "モバイルデバイス",
+        "features": [
+          "ネイティブモバイルインターフェース",
+          "手動1対1会話",
+          "グループチャット対応",
+          "音声/ビデオ通話"
+        ]
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "サーバーサイド自動化",
+        "features": [
+          "無制限エージェント",
+          "AIチャットボット",
+          "CRM統合",
+          "高度な分析"
+        ]
+      },
+      "platform": {
+        "title": "Seasalt.aiプラットフォーム",
+        "subtitle": "統合受信箱＆オーケストレーション",
+        "features": {
+          "mirroring": {
+            "title": "メッセージミラーリング",
+            "description": "すべてのチャネル間でのリアルタイム同期"
+          },
+          "echoes": {
+            "title": "エコーイベント",
+            "description": "手動アプリ返信の追跡"
+          },
+          "webhooks": {
+            "title": "ウェブフックルーティング",
+            "description": "インテリジェントメッセージルーティング"
+          }
+        }
+      },
+      "flows": {
+        "inbound": {
+          "title": "インバウンドミラーリング",
+          "description": "顧客→アプリ+API同時受信"
+        },
+        "appEchoes": {
+          "title": "アプリエコー",
+          "description": "手動返信→API通知"
+        },
+        "apiEchoes": {
+          "title": "APIエコー",
+          "description": "ボット返信→アプリ通知"
+        }
+      },
+      "specs": {
+        "mps20": {
+          "title": "20 MPS",
+          "description": "共存アカウントの最大メッセージスループット"
+        },
+        "hours24": {
+          "title": "24時間",
+          "description": "チャット履歴インポートの同期ウィンドウ"
+        },
+        "days180": {
+          "title": "180日",
+          "description": "チャット履歴保持期間"
+        },
+        "e2ee": {
+          "title": "E2E暗号化",
+          "description": "すべてのメッセージのエンドツーエンド暗号化"
+        }
+      },
+      "webhooks": {
+        "title": "ウェブフックイベント",
+        "events": [
+          {
+            "name": "messages",
+            "description": "顧客からの受信メッセージ"
+          },
+          {
+            "name": "smb_message_echoes",
+            "description": "手動アプリ返信"
+          },
+          {
+            "name": "smb_app_state_sync",
+            "description": "連絡先更新"
+          },
+          {
+            "name": "history",
+            "description": "6か月チャット履歴インポート"
+          }
+        ]
+      },
+      "security": {
+        "title": "セキュリティ＆コンプライアンス",
+        "features": [
+          {
+            "name": "エンドツーエンド暗号化",
+            "description": "すべてのメッセージ保護"
+          },
+          {
+            "name": "準拠",
+            "description": "完全な監査証跡"
+          },
+          {
+            "name": "HIPAA対応",
+            "description": "医療機関認定"
+          },
+          {
+            "name": "PCI DSS",
+            "description": "支払いカードセキュリティ"
+          }
+        ]
+      },
+      "cta": {
+        "title": "WhatsApp Coexistenceの実装の準備はできていますか？",
+        "button": "完全チュートリアルを読む"
+      }
+    },
+    "ctaSection": {
+      "title": "WhatsApp運用を変革する準備はできていますか？",
+      "subtitle": "WhatsApp Coexistenceを使用してスケールアップしながらパーソナルな対応を維持する数千の企業に参加",
+      "benefits": {
+        "keepNumber": {
+          "title": "番号を維持",
+          "description": "変更不要"
+        },
+        "zeroDisruption": {
+          "title": "ゼロ障害",
+          "description": "シームレスな移行"
+        },
+        "aiHuman": {
+          "title": "AI + ヒューマン",
+          "description": "ハイブリッドワークフロー"
+        },
+        "saveMoney": {
+          "title": "コスト削減",
+          "description": "無料アプリメッセージ"
+        }
+      },
+      "primaryCTA": "WhatsApp Coexistenceに今すぐ登録",
+      "trust": {
+        "encryption": "エンドツーエンド暗号化",
+        "hipaa": "HIPAA準拠",
+        "verified": "Meta認証済み"
+      },
+      "footer": "顧客コミュニケーションを変革するために既にSeasalt.aiを使用している10,000社以上の企業に参加"
+    },
+    "features": {
+      "title": "統合オムニチャネルエンジン",
+      "subtitle": "同期だけでなく、顧客サポートインフラ全体をアップグレードすることです。",
+      "items": {
+        "sync": {
+          "title": "3方向同期",
+          "description": "メッセージは電話、Seasalt Webダッシュボード、Seasaltモバイルアプリ間で即座に同期されます。どこからでも送信し、どこでも表示できます。"
+        },
+        "agents": {
+          "title": "無制限エージェント",
+          "description": "4台デバイス制限を突破。同じWhatsApp番号に10、50、または100人のエージェントを追加。人間のエージェントやAIボットにシームレスに会話を割り当てられます。"
+        },
+        "aiHandoff": {
+          "title": "AIエージェント引継ぎ",
+          "description": "AIエージェントがプラットフォーム上でオフタイムの照会を処理できるようにし、結果を個人携帯電話で直接監視できます。"
+        },
+        "history": {
+          "title": "6か月履歴インポート",
+          "description": "ゼロから始める必要はありません。直近6か月のチャット履歴を自動的にプルし、チームが即座に完全なコンテキストを得られます。"
+        },
+        "mobileApp": {
+          "title": "Seasaltモバイルアプリ",
+          "description": "従業員が物理的な電話にアクセスする必要はありません。自分のデバイスでSeasalt.aiアプリを使用して外出先でも顧客に返信できます。"
+        },
+        "unifiedInbox": {
+          "title": "統合受信箱",
+          "description": "WhatsAppをSMS、Messenger、LINE、Instagramと1つのビューに統合。タブ切り替えをやめて解決に集中。"
+        }
+      },
+      "cta": "WhatsApp Coexistenceの使用を開始"
+    },
+    "walkthrough": {
+      "overline": "セットアップ手順",
+      "title": "数分で開始",
+      "subtitle": "コーディング不要。スキャンして同期するだけ。",
+      "steps": {
+        "step1": {
+          "title": "1. 新しいチャネルを追加",
+          "description": "<strong>Seasalt.aiワークスペース</strong>に移動します。「チャネル」を選択し、「WhatsApp Coexistence」の新規オプションを選択します。"
+        },
+        "step2": {
+          "title": "2. Metaアカウントをリンク",
+          "description": "Facebookアカウントでログインします。ビジネスポートフォリオを選択します。重要なのは<strong>「WhatsApp Business Appを接続」</strong>オプションを選択することです。"
+        },
+        "step3": {
+          "title": "3. スキャン＆同期",
+          "description": "QRコードが表示されます。電話で<strong>「リンクされたデバイス」</strong>を開き、それをスキャンします。<span class=\"text-green-600 font-bold\">6か月間</span>のチャット履歴の同期を即座に開始します。"
+        }
+      },
+      "ui": {
+        "bestOffering": "最高のオファー",
+        "connect": "接続",
+        "createWABA": "新しいWABAアカウントを作成",
+        "scanInstruction": "電話でスキャン",
+        "syncing": "履歴を同期中...",
+        "historyLabel": "180日間のチャット履歴"
+      }
     }
   }
 }

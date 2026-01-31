@@ -68,7 +68,7 @@ author: Xuchen Yao
 description: "Pelajari langkah-langkah membuat chatbot agen AI untuk bisnis Anda, mulai dari pemilihan platform hingga integrasi dengan sistem bisnis."
 weight: 1
 tags: ["AI Chatbot", "Bisnis", "Automasi", "Agen AI"]
-image: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
+image: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
 canonicalURL: "/blog/create-ai-agent-chatbot-for-business/"
 url: "/blog/create-ai-agent-chatbot-for-business/"
 ---

@@ -217,7 +217,7 @@ Google Business Messages は、反復的な問い合わせに回答し、顧客�
 
 上記で見たように、Google Business Messages の一般的な実装には2つの主な制限があります。 
 
-まず第一に、[優れた仮想エージェントを作成し維持することは簡単な作業ではありません](https://developers.google.com/business-communications/business-messages/guides/how-it-works)。会話型 AI の高度な知識とかなりの開発時間が必要です。Google Business Messages を利用する企業は、ゼロから完全にカスタマイズされたエクスペリエンスを作成するために、専門のコンサルティング会社に費用を支払う必要があります。これらは通常高価で、数ヶ月かかる場合があります。Levi’s、Walmart、Albertsons Companies などの大企業は、このような特別なサービスを利用できる企業です。コンサルティング会社は通常、製品の開発と維持管理も完全に管理しています。変更を加える必要がある場合は、代理店を介して行う必要があり、これには余分な時間がかかります。 
+まず第一に、[優れた仮想エージェントを作成し維持することは簡単な作業ではありません](https://developers.google.com/business-communications/business-messages/guides/how-it-works)。会話型 AI の高度な知識とかなりの開発時間が必要です。Google Business Messages を利用する企業は、ゼロから完全にカスタマイズされたエクスペリエンスを作成するために、専門のコンサルティング会社に費用を支払う必要があります。これらは通常高価で、数ヶ月かかる場合があります。Levi’s、Walmart、Albertsons Companies などの大企業は、このような特別なサービスを利用できる企業です。コンサルティング会社は通常、製品の開発と維持管理も完全に管理しています。変更を加える必要がある場合は、Agent店を介して行う必要があり、これには余分な時間がかかります。 
 
 第二に、Google Business Messages は、Google Business Profile に組み込まれているメッセージング機能の代替です。ビジネスオーナーとして、Google Business Profile でチャット ボタンを有効にし、いつでも返信することができます。ただし、Google Business Messages を実装すると、受信メッセージはライブエージェントにルーティングされ、Google Business Profile 内または Google マイビジネス アプリを使用して顧客と直接チャットする機能が失われます。 
 
@@ -337,7 +337,7 @@ Near Me Messaging を始めるには、Near Me Messaging で仮想エージェ�
 
 ### ステップ1. Near Me Messaging のウェブサイトにアクセスし、Google Business Profile で使用しているアカウントでサインインします。
 
-Near Me Messaging のウェブサイトにアクセスし、*「サインイン」* ボタンをクリックします。Google Business Profile で使用しているアカウントでサインインしたら、利用可能なすべてのチェックボックスをオンにし、Seasalt AI に仮想エージェントを起動する許可を与えていることを確認してください。Seasalt.ai は[Google の公式パートナー](https://developers.google.com/business-communications/business-messages/partners)であるため、これらの許可を責任を持って使用することを保証します。**これらの許可は2つの機能に使用しています。1つ目は、仮想エージェントが正確な応答を提供できるように、Google Business Profile から情報にアクセスするため、2つ目は、お客様のビジネスの Google マップ ページにエージェントを代理で起動できるようにするためです。** 
+Near Me Messaging のウェブサイトにアクセスし、*「サインイン」* ボタンをクリックします。Google Business Profile で使用しているアカウントでサインインしたら、利用可能なすべてのチェックボックスをオンにし、Seasalt AI に仮想エージェントを起動する許可を与えていることを確認してください。Seasalt.ai は[Google の公式パートナー](https://developers.google.com/business-communications/business-messages/partners)であるため、これらの許可を責任を持って使用することを保証します。**これらの許可は2つの機能に使用しています。1つ目は、仮想エージェントが正確な応答を提供できるように、Google Business Profile から情報にアクセスするため、2つ目は、お客様のビジネスの Google マップ ページにエージェントをAgentで起動できるようにするためです。** 
 
 これらの許可をビジネス プロフィールを編集または削除するために使用することはありません。Google は *「表示」*、*「編集」*、*「削除」* の個別の許可を提供していないため、すべてに許可を与える必要があります。*「表示」* の許可のみを使用します。
 
@@ -350,7 +350,7 @@ Near Me Messaging のウェブサイトにアクセスし、*「サインイン�
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Seasalt AI に許可を与えることで、お客様のブランドの仮想エージェントを Google マップ ページに代理で公開する機能が与えられます。*
+*Seasalt AI に許可を与えることで、お客様のブランドの仮想エージェントを Google マップ ページにAgentで公開する機能が与えられます。*
 </center>
 
 

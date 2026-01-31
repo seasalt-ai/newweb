@@ -26,9 +26,9 @@ draft: false
 
 # 什么是全渠道通信？
 
-首先，"全渠道"到底是什么意思？分解来看，"omni"是一个前缀，意思是"所有"，而"渠道"是您可以与客户互动的各种平台。因此，简单地说，"全渠道通信"意味着能够通过任何和所有可用渠道进行通信。不仅如此，全渠道通信还意味着渠道之间的体验是无缝的。在代理方面，来自所有渠道的通信都呈现在一个统一的界面中。对于客户来说，他们的互动数据在各个渠道之间是持久的。
+首先，"全渠道"到底是什么意思？分解来看，"omni"是一个前缀，意思是"所有"，而"渠道"是您可以与客户互动的各种平台。因此，简单地说，"全渠道通信"意味着能够通过任何和所有可用渠道进行通信。不仅如此，全渠道通信还意味着渠道之间的体验是无缝的。在Agent方面，来自所有渠道的通信都呈现在一个统一的界面中。对于客户来说，他们的互动数据在各个渠道之间是持久的。
 
-传统的呼叫中心通常只支持电话呼叫。通过多个渠道（例如电子邮件、网络聊天和电话）与客户联系的更高级的联络中心拥有多渠道联络中心。然而，仅仅因为联络中心利用多个渠道并不意味着他们的体验是无缝的。在多渠道联络中心，不同的渠道可能通过单独的平台访问，和/或客户数据可能无法跨渠道链接。相比之下，全渠道联络中心让代理可以随时随地追踪客户对话，而不会被锁定在一个渠道或分散在数十个平台上。
+传统的呼叫中心通常只支持电话呼叫。通过多个渠道（例如电子邮件、网络聊天和电话）与客户联系的更高级的联络中心拥有多渠道联络中心。然而，仅仅因为联络中心利用多个渠道并不意味着他们的体验是无缝的。在多渠道联络中心，不同的渠道可能通过单独的平台访问，和/或客户数据可能无法跨渠道链接。相比之下，全渠道联络中心让Agent可以随时随地追踪客户对话，而不会被锁定在一个渠道或分散在数十个平台上。
 
 <center>
 <img src="/images/blog/19-seax-omnichannel-communication/1-contact-center-comparison.png" alt="功能比较：传统呼叫中心与联络中心；多渠道与全渠道。"/>
@@ -38,13 +38,13 @@ draft: false
 
 SeaX 能够与几乎任何渠道集成，默认包括：文本、电话、网络聊天、Facebook 等。所有消息和呼叫都显示在一个统一的平台上，并且所有渠道的用户数据都随时可用。
 
-如果您想直接观看演示，请观看我们演示 SeaX 全渠道通信的短视频。在本博客的其余部分，我们将逐步介绍消息和呼叫如何从各种渠道路由到 SeaX 中的代理。我们还将分享开箱即用的支持渠道，并讨论如何扩展 SeaX 以覆盖新渠道。
+如果您想直接观看演示，请观看我们演示 SeaX 全渠道通信的短视频。在本博客的其余部分，我们将逐步介绍消息和呼叫如何从各种渠道路由到 SeaX 中的Agent。我们还将分享开箱即用的支持渠道，并讨论如何扩展 SeaX 以覆盖新渠道。
 
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/usb-RK7sHlA" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
 # 消息生命周期
 
-SeaX 建立在 [Twilio Flex](https://www.twilio.com/flex) 之上，这是一个基于云端的联络中心，利用 Twilio 的云端通信平台。Twilio 为 SeaX 提供了基本的构建块，例如电信基础设施、消息和任务路由以及基本的联络中心 UI。现在让我们追踪传入用户消息的生命周期，看看 SeaX 如何使用基本的 Twilio 架构结合自定义组件将消息路由到 SeaX 平台上的实时代理。
+SeaX 建立在 [Twilio Flex](https://www.twilio.com/flex) 之上，这是一个基于云端的联络中心，利用 Twilio 的云端通信平台。Twilio 为 SeaX 提供了基本的构建块，例如电信基础设施、消息和任务路由以及基本的联络中心 UI。现在让我们追踪传入用户消息的生命周期，看看 SeaX 如何使用基本的 Twilio 架构结合自定义组件将消息路由到 SeaX 平台上的实时Agent。
 
 ## 渠道
 
@@ -61,14 +61,14 @@ SeaX 建立在 [Twilio Flex](https://www.twilio.com/flex) 之上，这是一个�
 ## 消息路由
 
 <center>
-<img src="/images/blog/19-seax-omnichannel-communication/3-studio-flow.png" alt="一个简单的 Studio Flow，可将消息路由到聊天机器人或实时代理。"/>
+<img src="/images/blog/19-seax-omnichannel-communication/3-studio-flow.png" alt="一个简单的 Studio Flow，可将消息路由到聊天机器人或实时Agent。"/>
 
-*一个简单的 Studio Flow，可将消息路由到聊天机器人或实时代理。*
+*一个简单的 Studio Flow，可将消息路由到聊天机器人或实时Agent。*
 </center>
 
-消息被 Twilio 接收后，需要将其路由到正确的位置。为此，我们使用 [Twilio Studio Flows](https://www.twilio.com/studio) 来确定是提供自动回复、将消息转发到聊天机器人、将用户与实时代理联系还是执行其他操作。
+消息被 Twilio 接收后，需要将其路由到正确的位置。为此，我们使用 [Twilio Studio Flows](https://www.twilio.com/studio) 来确定是提供自动回复、将消息转发到聊天机器人、将用户与实时Agent联系还是执行其他操作。
 
-在上面提供的简单示例中，所有传入的消息都将转发到聊天机器人，除非它们包含"实时代理"一词，在这种情况下，用户将被转移到 SeaX 平台上的实时代理。
+在上面提供的简单示例中，所有传入的消息都将转发到聊天机器人，除非它们包含"实时Agent"一词，在这种情况下，用户将被转移到 SeaX 平台上的实时Agent。
 
 ## TaskRouter
 
@@ -78,7 +78,7 @@ SeaX 建立在 [Twilio Flex](https://www.twilio.com/flex) 之上，这是一个�
 *TaskRouter 架构图。[来源](https://twilio-cms-prod.s3.amazonaws.com/images/taskrouter-diagram.width-800.png)。*
 </center>
 
-消息传输到 SeaX 后，下一步是决定哪个代理将接收它。[Twilio 的 TaskRouter](https://www.twilio.com/taskrouter) 将消息和电话呼叫等任务分配给 SeaX 中最能处理它们的代理。可以为 SeaX 中的每个代理分配技能，例如他们会说哪种语言、他们在哪个部门工作、他们是否应该处理 VIP 客户等。TaskRouter 将检查有关用户和消息的已知信息，然后选择最合适的员工来处理问题。上一步中的 Studio Flow 可以自定义以获取其他信息（例如首选语言），并且客户信息可以在对话和渠道之间保留，以确保他们的体验是无缝的。
+消息传输到 SeaX 后，下一步是决定哪个Agent将接收它。[Twilio 的 TaskRouter](https://www.twilio.com/taskrouter) 将消息和电话呼叫等任务分配给 SeaX 中最能处理它们的Agent。可以为 SeaX 中的每个Agent分配技能，例如他们会说哪种语言、他们在哪个部门工作、他们是否应该处理 VIP 客户等。TaskRouter 将检查有关用户和消息的已知信息，然后选择最合适的员工来处理问题。上一步中的 Studio Flow 可以自定义以获取其他信息（例如首选语言），并且客户信息可以在对话和渠道之间保留，以确保他们的体验是无缝的。
 
 ## SeaX 平台
 
@@ -88,11 +88,11 @@ SeaX 建立在 [Twilio Flex](https://www.twilio.com/flex) 之上，这是一个�
 *传入的呼叫和消息显示在 SeaX 平台上。*
 </center>
 
-最后，传入的消息将显示给 SeaX 平台上相应的代理。代理可以同时处理来自多个渠道的多个任务。在上图中，一个代理有来电、Facebook 消息和网络聊天消息。代理可以接受任务或拒绝任务，以将其传递给下一个可用的代理。
+最后，传入的消息将显示给 SeaX 平台上相应的Agent。Agent可以同时处理来自多个渠道的多个任务。在上图中，一个Agent有来电、Facebook 消息和网络聊天消息。Agent可以接受任务或拒绝任务，以将其传递给下一个可用的Agent。
 
 # 支持的渠道
 
-希望现在更清楚什么是全渠道通信，以及它如何增强用户和代理的体验。最后一个问题是：开箱即用支持哪些渠道？
+希望现在更清楚什么是全渠道通信，以及它如何增强用户和Agent的体验。最后一个问题是：开箱即用支持哪些渠道？
 
 <center>
 <img src="/images/blog/19-seax-omnichannel-communication/6-channel-comparison.png" alt="传统呼叫中心、基本 Twilio Flex 和 SeaX 之间支持的渠道比较。"/>
@@ -106,4 +106,4 @@ Twilio Flex，另一方面，为出色的全渠道联络中心奠定了基础。
 
 SeaX 建立在 Flex 之上，为一些最常请求的渠道添加了内置支持：例如 Google Business Messages、Discord、Line 和 Instagram。此外，Seasalt.ai 始终与客户合作，将新渠道引入 SeaX 产品线。SeaX 高度可自定义且易于扩展——这意味着我们可以与您的公司合作，集成您最想要的任何渠道。
 
-感谢您花时间阅读 SeaX 云端联络中心如何利用全渠道通信提供无缝的客户和代理体验。请继续关注我们的下一篇博客文章，该文章将探讨成为"分布式联络中心"意味着什么。如果您有兴趣立即了解更多信息，请填写我们的 [预约演示表单](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) 以亲身体验 SeaX 平台。
+感谢您花时间阅读 SeaX 云端联络中心如何利用全渠道通信提供无缝的客户和Agent体验。请继续关注我们的下一篇博客文章，该文章将探讨成为"分布式联络中心"意味着什么。如果您有兴趣立即了解更多信息，请填写我们的 [预约演示表单](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) 以亲身体验 SeaX 平台。

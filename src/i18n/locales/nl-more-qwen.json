@@ -1,0 +1,122 @@
+{
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "De",
+      "impossibleChoice": "Onmogelijke keuze",
+      "subtitlePart1": "Behoud uw telefoonapp",
+      "or": "OF",
+      "subtitlePart2": "Schaal met enterprise-tools?",
+      "untilNow": "Tot nu toe moest u één ding opofferen voor het andere.",
+      "vs": "VS",
+      "whatYouGet": "✓ Wat u krijgt",
+      "dealbreaker": "✗ Het dealbreaker",
+      "businessApp": {
+        "badge": "Blijf klein",
+        "title": "WhatsApp Business App",
+        "subtitle": "De mobiele-only val",
+        "pros": {
+          "mobile": "Native mobiele ervaring",
+          "free": "Gratis berichten"
+        },
+        "cons": {
+          "devices": "Maximaal 4 gekoppelde apparaten",
+          "fifthMember": "5e teamlid? Niet mogelijk.",
+          "fourDevices": "Slechts 4 apparaten max",
+          "cannotAdd": "Kan geen agenten toevoegen bij groei",
+          "noAutomation": "Geen automatisering of CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "Mobielheid verliezen",
+        "title": "Cloud API",
+        "subtitle": "De bureaublad-only val",
+        "pros": {
+          "unlimited": "Onbeperkte agenten",
+          "automation": "AI-automatisering & CRM"
+        },
+        "cons": {
+          "lockedOut": "Uw telefoon is buitengesloten",
+          "noMobile": "Geen mobiele toegang whatsoever",
+          "noApp": "Geen mobiele app op uw telefoon",
+          "desktopOnly": "Vast aan bureaublad/dashboard alleen"
+        }
+      },
+      "summary": {
+        "part1": "Of je zit vast met beperkte teamcapaciteit,",
+        "part2": "of je verliest de flexibiliteit waar je bedrijf op vertrouwt.",
+        "dilemma": "Dit is het dilemma waarmee elk groeiend bedrijf wordt geconfronteerd."
+      }
+    },
+    "solution": {
+      "title": "Nu,",
+      "worryNoMore": "Geen zorgen meer.",
+      "subtitle1": "Introductie van",
+      "metaCoexistence": "Meta WhatsApp Coexistence",
+      "subtitle2": "met Seasalt.ai. De enige oplossing die de kloof overbrugt, u de schaalbaarheid van de API biedt zonder uw telefoon op te geven.",
+      "coexistenceTitle": "WhatsApp Coexistence",
+      "tagline": "Twee platforms. Eén telefoonnummer. Nul compromissen.",
+      "businessApp": {
+        "title": "WhatsApp Business App",
+        "subtitle": "Mobiele ervaring"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "Enterprise-schaal"
+      },
+      "bestBadge": "BESTE",
+      "result": {
+        "title": "Coexistensie",
+        "subtitle": "Het beste van twee werelden"
+      }
+    },
+    "whatIs": {
+      "title": "Wat is WhatsApp Coexistence?",
+      "description": "WhatsApp Coexistence is een revolutionaire functie die bedrijven toestaat om zowel de WhatsApp Business App als de WhatsApp Cloud API op hetzelfde telefoonnummer te gebruiken,",
+      "simultaneously": "tegelijkertijd",
+      "before": {
+        "title": "Voor Coexistensie",
+        "point1": "Chatgeschiedenis verliezen bij migratie naar API",
+        "point2": "Telefoonnummer wijzigen of nieuwe verkrijgen",
+        "point3": "Kiezen tussen persoonlijke app of enterprise-automatisering",
+        "point4": "Klantrelaties verstoren tijdens overgang"
+      },
+      "after": {
+        "title": "Na Coexistensie",
+        "point1": "Behoud hetzelfde telefoonnummer",
+        "point2": "Synchroniseer 180 dagen chatgeschiedenis",
+        "point3": "Gebruik app en API tegelijkertijd",
+        "point4": "Migratie zonder onderbreking"
+      },
+      "omnichannel": {
+        "title": "Een unified Omni-Channel engine",
+        "subtitle": "Het gaat niet alleen om synchronisatie; het gaat om het upgraden van uw volledige klantenservice-infrastructuur."
+      },
+      "features": {
+        "sync": {
+          "title": "3-wegsynchronisatie",
+          "description": "Berichten worden onmiddellijk gesynchroniseerd tussen uw Telefoon, Seasalt Web Dashboard en Seasalt Mobile App. Verzend vanaf waar dan ook, bekijk overal."
+        },
+        "agents": {
+          "title": "Onbeperkte agenten",
+          "description": "Doorbreek de 4-apparaatlimiet. Voeg 10, 50 of 100 agenten toe aan hetzelfde WhatsApp-nummer. Wijs gesprekken naadloos toe aan menselijke agenten of AI-bots."
+        },
+        "aiHandoff": {
+          "title": "AI-agent overdracht",
+          "description": "Schakel AI-agenten in om off-hours vragen op het platform af te handelen, terwijl u de resultaten rechtstreeks op uw persoonlijke telefoon bewaakt."
+        },
+        "history": {
+          "title": "6-maanden geschiedenis import",
+          "description": "Begin niet vanaf nul. We halen automatisch de laatste 6 maanden chatgeschiedenis op zodat uw team direct volledig overzicht heeft."
+        },
+        "mobileApp": {
+          "title": "Seasalt Mobile App",
+          "description": "Werknemers hoeven geen toegang te hebben tot uw fysieke telefoon. Ze kunnen de Seasalt.ai-app op hun eigen apparaten gebruiken om onderweg klanten te beantwoorden."
+        },
+        "unifiedInbox": {
+          "title": "Unified Inbox",
+          "description": "Combineer WhatsApp met SMS, Messenger, LINE en Instagram in één overzicht. Stop met tabbladen wisselen en begin met oplossen."
+        }
+      }
+    }
+  }
+}

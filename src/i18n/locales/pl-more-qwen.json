@@ -1,0 +1,122 @@
+{
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "Niemożliwy",
+      "impossibleChoice": "Wybór",
+      "subtitlePart1": "Zachowaj swoją aplikację telefoniczną",
+      "or": "LUB",
+      "subtitlePart2": "Skaluj z narzędziami korporacyjnymi?",
+      "untilNow": "Dotychczas musiałeś poświęcić jedno dla drugiego.",
+      "vs": "VS",
+      "whatYouGet": "✓ To, co dostajesz",
+      "dealbreaker": "✗ Faktor wyłączający",
+      "businessApp": {
+        "badge": "Zostań małym",
+        "title": "Aplikacja WhatsApp Business",
+        "subtitle": "Pułapka tylko mobilna",
+        "pros": {
+          "mobile": "Natywny doświadczenie mobilne",
+          "free": "Bezpłatne wiadomości"
+        },
+        "cons": {
+          "devices": "Maksymalnie 4 połączone urządzenia",
+          "fifthMember": "5. członek zespołu? Niemożliwe.",
+          "fourDevices": "Tylko 4 urządzenia maks.",
+          "cannotAdd": "Nie można dodawać agentów wraz ze wzrostem",
+          "noAutomation": "Brak automatyzacji lub CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "Utrata mobilności",
+        "title": "API Chmury",
+        "subtitle": "Pułapka tylko stacjonarna",
+        "pros": {
+          "unlimited": "Nieograniczeni agenci",
+          "automation": "Automatyzacja AI i CRM"
+        },
+        "cons": {
+          "lockedOut": "Twój telefon jest zablokowany",
+          "noMobile": "Brak dostępu mobilnego w ogóle",
+          "noApp": "Brak aplikacji mobilnej na twoim telefonie",
+          "desktopOnly": "Ugrzęziony tylko w komputerze/pulpicie"
+        }
+      },
+      "summary": {
+        "part1": "Albo utknąłeś z ograniczoną pojemnością zespołu,",
+        "part2": "albo tracisz elastyczność, od której zależy Twój biznes.",
+        "dilemma": "To jest dylemat, przed którym staje każdy rosnący biznes."
+      }
+    },
+    "solution": {
+      "title": "Teraz,",
+      "worryNoMore": "Nie musisz się już martwić.",
+      "subtitle1": "Przedstawiamy",
+      "metaCoexistence": "Meta WhatsApp Coexistence",
+      "subtitle2": "z Seasalt.ai. Jedynym rozwiązaniem, które likwiduje lukę, dając Ci skalowalność API bez rezygnacji z telefonu.",
+      "coexistenceTitle": "WhatsApp Coexistence",
+      "tagline": "Dwie platformy. Jeden numer telefonu. Zero kompromisów.",
+      "businessApp": {
+        "title": "Aplikacja WhatsApp Business",
+        "subtitle": "Doświadczenie mobilne"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "Skala korporacyjna"
+      },
+      "bestBadge": "NAJLEPSZY",
+      "result": {
+        "title": "Współistnienie",
+        "subtitle": "Najlepsze z dwóch światów"
+      }
+    },
+    "whatIs": {
+      "title": "Czym jest WhatsApp Coexistence?",
+      "description": "WhatsApp Coexistence to rewolucyjna funkcja, która pozwala firmom używać zarówno aplikacji WhatsApp Business, jak i WhatsApp Cloud API na tym samym numerze telefonu,",
+      "simultaneously": "jednocześnie",
+      "before": {
+        "title": "Przed współistnieniem",
+        "point1": "Utrata historii czatu przy migracji do API",
+        "point2": "Zmiana numeru telefonu lub uzyskanie nowego",
+        "point3": "Wybór między aplikacją osobistą a automatyzacją korporacyjną",
+        "point4": "Przerwanie relacji z klientami podczas przejścia"
+      },
+      "after": {
+        "title": "Po współistnieniu",
+        "point1": "Zachowanie tego samego numeru telefonu",
+        "point2": "Synchronizacja 180 dni historii czatu",
+        "point3": "Używanie aplikacji i API jednocześnie",
+        "point4": "Migracja bez zakłóceń"
+      },
+      "omnichannel": {
+        "title": "Zintegrowany silnik Omni-Channel",
+        "subtitle": "Nie chodzi tylko o synchronizację; chodzi o ulepszenie całej infrastruktury wsparcia dla klientów."
+      },
+      "features": {
+        "sync": {
+          "title": "Synchronizacja trójstronna",
+          "description": "Wiadomości synchronizują się natychmiastowo między Twoim telefonem, Pulpitem Web Seasalt i Aplikacją Mobilną Seasalt. Wysyłaj z dowolnego miejsca, widzisz wszędzie."
+        },
+        "agents": {
+          "title": "Nieograniczeni agenci",
+          "description": "Rozbij limit 4 urządzeń. Dodaj 10, 50 lub 100 agentów do tego samego numeru WhatsApp. Przypisuj rozmowy do ludzkich agentów lub botów AI bez przeszkód."
+        },
+        "aiHandoff": {
+          "title": "Przekazanie agentowi AI",
+          "description": "Włącz agentów AI do obsługi zapytań po godzinach na platformie, podczas gdy monitorujesz wyniki bezpośrednio na swoim telefonie osobistym."
+        },
+        "history": {
+          "title": "Import 6-miesięcznej historii",
+          "description": "Nie zaczynaj od zera. Automatycznie pobieramy ostatnie 6 miesięcy historii czatu, aby Twój zespół od razu miał pełny kontekst."
+        },
+        "mobileApp": {
+          "title": "Aplikacja mobilna Seasalt",
+          "description": "Pracownicy nie muszą mieć dostępu do Twojego fizycznego telefonu. Mogą korzystać z aplikacji Seasalt.ai na własnych urządzeniach, aby odpowiadać klientom w ruchu."
+        },
+        "unifiedInbox": {
+          "title": "Zintegrowana skrzynka odbiorcza",
+          "description": "Łącz WhatsApp z SMS, Messenger, LINE i Instagram w jednym widoku. Przestań przełączać karty i zacznij rozwiązywać problemy."
+        }
+      }
+    }
+  }
+}

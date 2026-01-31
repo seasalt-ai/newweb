@@ -1,0 +1,397 @@
+---
+import { Building2, ShoppingBag, Stethoscope, Package, ArrowRight, CheckCircle } from 'lucide-react';
+import { getTranslationHelpers } from '../../../i18n/helpers';
+
+export interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const { t } = await getTranslationHelpers(lang);
+const uniqueId = `use-cases-${crypto.randomUUID()}`;
+---
+
+<section id={uniqueId} class="py-20 bg-white">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-gray-900 mb-4">
+          {t('whatsappCoexistence.useCases.title')}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t('whatsappCoexistence.useCases.subtitle')}
+        </p>
+      </div>
+
+      <!-- Industry Tabs -->
+      <div class="flex flex-wrap justify-center gap-2 mb-12">
+        <button
+          id="tab-banking"
+          class="industry-tab active px-6 py-3 rounded-lg font-semibold transition-all bg-green-600 text-white"
+          data-industry="banking"
+        >
+          {t('whatsappCoexistence.useCases.tabs.banking')}
+        </button>
+        <button
+          id="tab-retail"
+          class="industry-tab px-6 py-3 rounded-lg font-semibold transition-all bg-gray-100 text-gray-700 hover:bg-gray-200"
+          data-industry="retail"
+        >
+          {t('whatsappCoexistence.useCases.tabs.retail')}
+        </button>
+        <button
+          id="tab-healthcare"
+          class="industry-tab px-6 py-3 rounded-lg font-semibold transition-all bg-gray-100 text-gray-700 hover:bg-gray-200"
+          data-industry="healthcare"
+        >
+          {t('whatsappCoexistence.useCases.tabs.healthcare')}
+        </button>
+        <button
+          id="tab-ecommerce"
+          class="industry-tab px-6 py-3 rounded-lg font-semibold transition-all bg-gray-100 text-gray-700 hover:bg-gray-200"
+          data-industry="ecommerce"
+        >
+          {t('whatsappCoexistence.useCases.tabs.ecommerce')}
+        </button>
+      </div>
+
+      <!-- Industry Content Panels -->
+      <div class="relative">
+        <!-- Banking Panel -->
+        <div id="panel-banking" class="industry-panel active">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Building2 class="w-6 h-6 text-green-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.banking.support247.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.banking.support247.description')}</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <CheckCircle class="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.banking.zeroAbandonment.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.banking.zeroAbandonment.description')}</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Stethoscope class="w-6 h-6 text-yellow-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.banking.compliance.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.banking.compliance.description')}</p>
+                </div>
+              </div>
+
+              <!-- Case Study -->
+              <div class="bg-green-50 rounded-2xl p-6 border-2 border-green-200">
+                <p class="text-sm font-semibold text-green-800 mb-2">{t('whatsappCoexistence.useCases.banking.caseStudy.title')}</p>
+                <ul class="space-y-2 text-gray-700">
+                  <li>✓ {t('whatsappCoexistence.useCases.banking.caseStudy.points.0')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.banking.caseStudy.points.1')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.banking.caseStudy.points.2')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.banking.caseStudy.points.3')}</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Stats Visual -->
+            <div class="bg-gradient-to-br from-green-500 to-green-600 rounded-3xl p-8 text-white">
+              <h3 class="text-3xl font-bold mb-6">{t('whatsappCoexistence.useCases.banking.results.title')}</h3>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.banking.results.faqResolution.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.banking.results.faqResolution.value')}</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.banking.results.responseTime.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.banking.results.responseTime.value')}</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.banking.results.costReduction.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.banking.results.costReduction.value')}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Retail Panel -->
+        <div id="panel-retail" class="industry-panel hidden">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <ShoppingBag class="w-6 h-6 text-purple-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.retail.vipHandling.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.retail.vipHandling.description')}</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Package class="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.retail.orderManagement.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.retail.orderManagement.description')}</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <CheckCircle class="w-6 h-6 text-yellow-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.retail.conversions.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.retail.conversions.description')}</p>
+                </div>
+              </div>
+
+              <!-- Case Study -->
+              <div class="bg-purple-50 rounded-2xl p-6 border-2 border-purple-200">
+                <p class="text-sm font-semibold text-purple-800 mb-2">{t('whatsappCoexistence.useCases.retail.caseStudy.title')}</p>
+                <ul class="space-y-2 text-gray-700">
+                  <li>✓ {t('whatsappCoexistence.useCases.retail.caseStudy.points.0')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.retail.caseStudy.points.1')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.retail.caseStudy.points.2')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.retail.caseStudy.points.3')}</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Stats Visual -->
+            <div class="bg-gradient-to-br from-purple-500 to-purple-600 rounded-3xl p-8 text-white">
+              <h3 class="text-3xl font-bold mb-6">{t('whatsappCoexistence.useCases.retail.results.title')}</h3>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-purple-100">{t('whatsappCoexistence.useCases.retail.results.responseTime.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.retail.results.responseTime.value')}</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-purple-100">{t('whatsappCoexistence.useCases.retail.results.conversion.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.retail.results.conversion.value')}</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-purple-100">{t('whatsappCoexistence.useCases.retail.results.efficiency.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.retail.results.efficiency.value')}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Healthcare Panel -->
+        <div id="panel-healthcare" class="industry-panel hidden">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Stethoscope class="w-6 h-6 text-green-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.healthcare.appointments.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.healthcare.appointments.description')}</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <CheckCircle class="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.healthcare.labResults.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.healthcare.labResults.description')}</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Package class="w-6 h-6 text-yellow-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.healthcare.followups.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.healthcare.followups.description')}</p>
+                </div>
+              </div>
+
+              <!-- Case Study -->
+              <div class="bg-green-50 rounded-2xl p-6 border-2 border-green-200">
+                <p class="text-sm font-semibold text-green-800 mb-2">{t('whatsappCoexistence.useCases.healthcare.caseStudy.title')}</p>
+                <ul class="space-y-2 text-gray-700">
+                  <li>✓ {t('whatsappCoexistence.useCases.healthcare.caseStudy.points.0')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.healthcare.caseStudy.points.1')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.healthcare.caseStudy.points.2')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.healthcare.caseStudy.points.3')}</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Stats Visual -->
+            <div class="bg-gradient-to-br from-green-500 to-teal-600 rounded-3xl p-8 text-white">
+              <h3 class="text-3xl font-bold mb-6">{t('whatsappCoexistence.useCases.healthcare.results.title')}</h3>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.healthcare.results.noShow.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.healthcare.results.noShow.value')}</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.healthcare.results.engagement.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.healthcare.results.engagement.value')}</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-green-100">{t('whatsappCoexistence.useCases.healthcare.results.compliance.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.healthcare.results.compliance.value')}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- E-commerce Panel -->
+        <div id="panel-ecommerce" class="industry-panel hidden">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <ShoppingBag class="w-6 h-6 text-orange-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.ecommerce.cartRecovery.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.ecommerce.cartRecovery.description')}</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Package class="w-6 h-6 text-blue-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.ecommerce.shipping.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.ecommerce.shipping.description')}</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <CheckCircle class="w-6 h-6 text-yellow-600" />
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.useCases.ecommerce.vipSupport.title')}</h3>
+                  <p class="text-gray-600">{t('whatsappCoexistence.useCases.ecommerce.vipSupport.description')}</p>
+                </div>
+              </div>
+
+              <!-- Case Study -->
+              <div class="bg-orange-50 rounded-2xl p-6 border-2 border-orange-200">
+                <p class="text-sm font-semibold text-orange-800 mb-2">{t('whatsappCoexistence.useCases.ecommerce.caseStudy.title')}</p>
+                <ul class="space-y-2 text-gray-700">
+                  <li>✓ {t('whatsappCoexistence.useCases.ecommerce.caseStudy.points.0')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.ecommerce.caseStudy.points.1')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.ecommerce.caseStudy.points.2')}</li>
+                  <li>✓ {t('whatsappCoexistence.useCases.ecommerce.caseStudy.points.3')}</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Stats Visual -->
+            <div class="bg-gradient-to-br from-orange-500 to-orange-600 rounded-3xl p-8 text-white">
+              <h3 class="text-3xl font-bold mb-6">{t('whatsappCoexistence.useCases.ecommerce.results.title')}</h3>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-orange-100">{t('whatsappCoexistence.useCases.ecommerce.results.cartRecovery.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.ecommerce.results.cartRecovery.value')}</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-white/30 pb-4">
+                  <span class="text-orange-100">{t('whatsappCoexistence.useCases.ecommerce.results.automation.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.ecommerce.results.automation.value')}</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-orange-100">{t('whatsappCoexistence.useCases.ecommerce.results.satisfaction.label')}</span>
+                  <span class="text-4xl font-bold">{t('whatsappCoexistence.useCases.ecommerce.results.satisfaction.value')}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom CTA -->
+      <div class="mt-16 text-center">
+        <p class="text-lg text-gray-600 mb-6">
+          {t('whatsappCoexistence.useCases.cta.title')}
+        </p>
+        <a
+          href="https://seax.seasalt.ai/signup"
+          class="inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+        >
+          {t('whatsappCoexistence.useCases.cta.button')}
+          <ArrowRight class="ml-2 w-5 h-5" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script define:vars={{ uniqueId }}>
+  // Tab switching logic - scoped to component root
+  const root = document.getElementById(uniqueId);
+  if (root) {
+    const tabs = root.querySelectorAll('.industry-tab');
+    const panels = root.querySelectorAll('.industry-panel');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const industry = tab.dataset.industry;
+
+        // Update tab styles
+        tabs.forEach(t => {
+          t.classList.remove('active', 'bg-green-600', 'text-white');
+          t.classList.add('bg-gray-100', 'text-gray-700');
+        });
+        tab.classList.add('active', 'bg-green-600', 'text-white');
+        tab.classList.remove('bg-gray-100', 'text-gray-700');
+
+        // Update panel visibility
+        panels.forEach(panel => {
+          panel.classList.add('hidden');
+          panel.classList.remove('active');
+        });
+
+        const activePanel = root.querySelector(`#panel-${industry}`);
+        if (activePanel) {
+          activePanel.classList.remove('hidden');
+          activePanel.classList.add('active');
+        }
+      });
+    });
+  }
+</script>
+
+<style>
+  .industry-panel {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>

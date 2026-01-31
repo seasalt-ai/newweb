@@ -30,14 +30,14 @@ Meta AI 刚刚发布了 Llama 3，现在您可以直接从 Instagram、Facebook�
 
 ## 以用例为中心
 
-在 Seasalt.ai，我们专注于构建能够解决实际业务痛点的对话式 AI 产品。无论您是想构建能够根据公司政策回答问题的 [AI 客户服务代理](https://chat.seasalt.ai/?utm_source=blog)，还是构建一个公司内部知识库，为回答重复性问题的员工节省时间，或者拥有一个 [可靠的会议记录员](https://seameet.ai/?utm_source=blog)，它不仅能及时出现在您的所有会议中，还能在会议结束后立即转录和总结会议。这些都是我们客户喜爱的实用用例。Meta、Google 或 OpenAI 提供的现成 AI 模型很智能，但它们并不专注于您的痛点和用例。
+在 Seasalt.ai，我们专注于构建能够解决实际业务痛点的对话式 AI 产品。无论您是想构建能够根据公司政策回答问题的 [AI 客户服务Agent](https://chat.seasalt.ai/?utm_source=blog)，还是构建一个公司内部知识库，为回答重复性问题的员工节省时间，或者拥有一个 [可靠的会议记录员](https://seameet.ai/?utm_source=blog)，它不仅能及时出现在您的所有会议中，还能在会议结束后立即转录和总结会议。这些都是我们客户喜爱的实用用例。Meta、Google 或 OpenAI 提供的现成 AI 模型很智能，但它们并不专注于您的痛点和用例。
 
 ## 定制
 如果没有大量的开发和定制，您无法根据自己的需求定制现成的 AI 模型。在 Seasalt.ai，我们让定制变得极其简单。您可以带上您公司的所有文档，并在 [10 分钟内构建一个根据您的文档回答问题的聊天机器人](https://chat.seasalt.ai/?utm_source=blog)。收集所有会议转录并定制会议笔记模板将花费您大量时间。我们通过在 [每次会议后提供基于主题的摘要](https://seameet.ai/?utm_source=blog) 来简化这一过程。您唯一需要做的就是参加会议并专注于沟通。Meta、Google 或 OpenAI 提供的现成 AI 模型很智能，但它们并不专注于您的定制需求。
 
 ## 通信渠道
 
-您可能与 ChatGPT 或 Meta AI 有很多零散的对话，但您无法轻松管理这些对话。您真正需要的是在客户首选的渠道上提供您自己的 AI 助手，然后您就可以 [在一个中心位置管理所有对话](https://chat.seasalt.ai/?utm_source=blog)。SeaChat 现在集成了 **WhatsApp、Meta Facebook Messenger、LINE、网络聊天**（包括您自己的网站、Shopify、Squarespace、Wix 网站）。我们为您提供一个中心位置，以便您可以通过各种渠道（无论是通过 AI 代理还是人工代理）与客户互动。因此，您可以专注于提供最佳客户体验。Meta AI 以及其他科技巨头无法也可能永远不会为您提供全渠道通信功能，因为它们本质上只希望人们留在自己的通信渠道上。
+您可能与 ChatGPT 或 Meta AI 有很多零散的对话，但您无法轻松管理这些对话。您真正需要的是在客户首选的渠道上提供您自己的 AI 助手，然后您就可以 [在一个中心位置管理所有对话](https://chat.seasalt.ai/?utm_source=blog)。SeaChat 现在集成了 **WhatsApp、Meta Facebook Messenger、LINE、网络聊天**（包括您自己的网站、Shopify、Squarespace、Wix 网站）。我们为您提供一个中心位置，以便您可以通过各种渠道（无论是通过 AI Agent还是人工Agent）与客户互动。因此，您可以专注于提供最佳客户体验。Meta AI 以及其他科技巨头无法也可能永远不会为您提供全渠道通信功能，因为它们本质上只希望人们留在自己的通信渠道上。
 
 
 感谢您的阅读。欢迎随时与我们 [安排演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)，了解更多关于您可以使用对话式 AI 做些什么。

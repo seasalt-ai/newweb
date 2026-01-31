@@ -4,7 +4,7 @@ description: 비즈니스를 위한 AI 에이전트 챗봇을 만드는 단계�
 publishDate: '2024-02-28'
 author: Xuchen Yao
 image:
-  url: /images/blog/62-create-ai-agent-chatbot-for-business/blog-banner.png
+  url: /images/blog/62-how-to-create-ai-agent-chatbot-for-your-business/62-how-to-create-ai-agent-chatbot-for-your-business.png
   alt: 비즈니스를 위한 AI 에이전트 챗봇 만들기
 tags:
 - AI 챗봇

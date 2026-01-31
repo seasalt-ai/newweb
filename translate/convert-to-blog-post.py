@@ -21,10 +21,10 @@ def generate_frontmatter_with_llm(client, content, date_str, slug=None, max_retr
     
     prompt = f"""Read the following blog post content and generate YAML frontmatter with these exact fields:
 - title: (extract or create an engaging title)
-- meta_description: (create a compelling 150-character description, should be the same language as the blog language)
-- author: SeaMeet Copilot
-- date: {date_str}
-- modified_date: {date_str}
+- description: (create a compelling 150-character description, should be the same language as the blog language)
+- author: Seasalt.ai Team
+- publishDate: {date_str}
+- updatedDate: {date_str}
 {url_instruction}
 - category: (determine appropriate category based on content, should be the same language as the blog language)
 - tags: (as array format, relevant tags based on content, should be the same language as the blog language)
