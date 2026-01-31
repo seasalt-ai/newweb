@@ -1,0 +1,122 @@
+{
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "",
+      "impossibleChoice": "两难选择",
+      "subtitlePart1": "保留手机应用",
+      "or": "或",
+      "subtitlePart2": "使用企业工具扩展？",
+      "untilNow": "直到现在，您必须在两者之间做出取舍。",
+      "vs": "对比",
+      "whatYouGet": "✓ 您将获得",
+      "dealbreaker": "✗ 致命缺陷",
+      "businessApp": {
+        "badge": "保持小规模",
+        "title": "WhatsApp商业应用",
+        "subtitle": "仅限移动端的陷阱",
+        "pros": {
+          "mobile": "原生移动体验",
+          "free": "免费消息"
+        },
+        "cons": {
+          "devices": "最多4个关联设备",
+          "fifthMember": "第5个团队成员？不可能。",
+          "fourDevices": "最多仅4台设备",
+          "cannotAdd": "无法随增长添加Agent",
+          "noAutomation": "无自动化或CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "失去移动性",
+        "title": "云API",
+        "subtitle": "仅限桌面的陷阱",
+        "pros": {
+          "unlimited": "无限Agent",
+          "automation": "AI自动化与CRM"
+        },
+        "cons": {
+          "lockedOut": "您的手机被锁定",
+          "noMobile": "完全无法移动访问",
+          "noApp": "手机上无应用",
+          "desktopOnly": "只能使用桌面/仪表板"
+        }
+      },
+      "summary": {
+        "part1": "要么您被困在有限的团队容量中，",
+        "part2": "要么失去业务依赖的灵活性。",
+        "dilemma": "这是每个成长中的企业都面临的困境。"
+      }
+    },
+    "solution": {
+      "title": "现在，",
+      "worryNoMore": "无需再担心。",
+      "subtitle1": "介绍",
+      "metaCoexistence": "Meta WhatsApp共存方案",
+      "subtitle2": "与Seasalt.ai合作。唯一一个弥合差距的解决方案，让您在不放弃手机的情况下获得API的可扩展性。",
+      "coexistenceTitle": "WhatsApp共存方案",
+      "tagline": "两个平台。一个电话号码。零妥协。",
+      "businessApp": {
+        "title": "WhatsApp商业应用",
+        "subtitle": "移动体验"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp云API",
+        "subtitle": "企业级规模"
+      },
+      "bestBadge": "最佳",
+      "result": {
+        "title": "共存方案",
+        "subtitle": "两全其美"
+      }
+    },
+    "whatIs": {
+      "title": "什么是WhatsApp共存方案？",
+      "description": "WhatsApp共存方案是一项革命性功能，允许企业在同一电话号码上同时使用WhatsApp商业应用和WhatsApp云API，",
+      "simultaneously": "同时",
+      "before": {
+        "title": "共存之前",
+        "point1": "迁移到API时丢失聊天记录",
+        "point2": "更换电话号码或获取新号码",
+        "point3": "在个人应用和企业自动化之间选择",
+        "point4": "在过渡期间破坏客户关系"
+      },
+      "after": {
+        "title": "共存之后",
+        "point1": "保留相同的电话号码",
+        "point2": "同步180天聊天记录",
+        "point3": "同时使用应用和API",
+        "point4": "零中断迁移"
+      },
+      "omnichannel": {
+        "title": "统一的全渠道引擎",
+        "subtitle": "这不仅仅是同步；这是升级您的整个客户支持基础设施。"
+      },
+      "features": {
+        "sync": {
+          "title": "三向同步",
+          "description": "消息在您的手机、Seasalt Web仪表板和Seasalt移动应用之间即时同步。从任何地方发送，在任何地方查看。"
+        },
+        "agents": {
+          "title": "无限Agent",
+          "description": "突破4台设备限制。将10、50或100个Agent添加到同一个WhatsApp号码。将对话无缝分配给人工Agent或AI机器人。"
+        },
+        "aiHandoff": {
+          "title": "AIAgent交接",
+          "description": "启用AIAgent在非工作时间处理平台上的咨询，同时在您的个人手机上监控结果。"
+        },
+        "history": {
+          "title": "6个月历史导入",
+          "description": "不要从头开始。我们会自动拉取最近6个月的聊天记录，让您的团队立即获得完整上下文。"
+        },
+        "mobileApp": {
+          "title": "Seasalt移动应用",
+          "description": "员工不需要访问您的实体手机。他们可以在自己的设备上使用Seasalt.ai应用，随时随地回复客户。"
+        },
+        "unifiedInbox": {
+          "title": "统一收件箱",
+          "description": "在一个视图中结合WhatsApp与SMS、Messenger、LINE和Instagram。停止切换标签页，开始解决问题。"
+        }
+      }
+    }
+  }
+}

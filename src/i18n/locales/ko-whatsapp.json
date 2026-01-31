@@ -1,0 +1,556 @@
+{
+  "whatsappCoexistence": {
+    "hero": {
+      "badge": "2026년 신규",
+      "title": "WhatsApp Business 앱 유지",
+      "titleHighlight": "및 WhatsApp Cloud API로 확장",
+      "subtitle": "불가능한 선택의 끝. 둘 다 동시에 사용하십시오. 더 이상 엔터프라이즈 파워를 위해 개인적인 손길을 희생하지 마십시오.",
+      "benefits": {
+        "sameNumber": {
+          "title": "동일 번호",
+          "description": "신뢰할 수 있는 비즈니스 번호 유지"
+        },
+        "noDataLoss": {
+          "title": "데이터 손실 없음",
+          "description": "180일 채팅 기록 동기화"
+        },
+        "hybridAI": {
+          "title": "하이브리드 AI + 인간",
+          "description": "자동화 확장, 개인화 유지"
+        },
+        "zeroDisruption": {
+          "title": "중단 없음",
+          "description": "원활한 QR 코드 마이그레이션"
+        }
+      },
+      "cta": {
+        "primary": "무료로 시작",
+        "secondary": "작동 방식 알아보기"
+      },
+      "triSync": {
+        "title": "트라이싱크 시스템",
+        "subtitle": "세 가지 터치포인트에서 실시간 동기화",
+        "phone": {
+          "title": "내 휴대폰",
+          "subtitle": "WhatsApp Business 앱"
+        },
+        "dashboard": {
+          "title": "Seasalt.ai 대시보드",
+          "subtitle": "중앙 허브"
+        },
+        "fieldTeams": {
+          "title": "현장 팀",
+          "subtitle": "모바일 앱"
+        },
+        "syncLabel": "실시간 동기화",
+        "stats": {
+          "live": "라이브",
+          "latency": "<100ms",
+          "realtime": "실시간"
+        }
+      },
+      "stats": {
+        "syncedDevices": {
+          "value": "무제한",
+          "label": "동기화된 장치"
+        },
+        "humanUsers": {
+          "value": "무제한",
+          "label": "인간 사용자"
+        },
+        "chatHistory": {
+          "value": "180일",
+          "label": "채팅 기록 동기화"
+        }
+      }
+    },
+    "comparison": {
+      "title": "WhatsApp 솔루션 비교",
+      "subtitle": "WhatsApp Coexistence가 대안과 어떻게 비교되는지 확인하십시오.",
+      "table": {
+        "feature": "특징",
+        "businessApp": "비즈니스 앱",
+        "premium": "프리미엄",
+        "cloudAPI": "클라우드 API",
+        "coexistence": "공존",
+        "recommended": "추천"
+      },
+      "features": {
+        "cost": {
+          "name": "비용",
+          "free": "무료",
+          "premiumRange": "월 $15-$350",
+          "perMessage": "메시지당",
+          "hybrid": "하이브리드 모델"
+        },
+        "sameNumber": "동일 번호",
+        "chatHistory": "채팅 기록",
+        "multiUser": {
+          "name": "다중 사용자",
+          "fiveDevices": "5개 장치",
+          "tenDevices": "10개 장치",
+          "unlimited": "무제한"
+        },
+        "automation": {
+          "name": "자동화",
+          "basic": "기본",
+          "advancedAI": "고급 AI",
+          "aiHuman": "AI + 인간"
+        },
+        "broadcastLimit": {
+          "name": "브로드캐스트 한도",
+          "contacts256": "256개 연락처",
+          "unlimited": "무제한"
+        },
+        "crmIntegration": "CRM 통합",
+        "verification": "인증",
+        "groupChats": {
+          "name": "그룹 채팅",
+          "appOnly": "앱 전용"
+        },
+        "analytics": {
+          "name": "분석",
+          "basic": "기본"
+        },
+        "maxThroughput": {
+          "name": "최대 처리량",
+          "manual": "수동",
+          "mps80": "80+ MPS",
+          "mps20": "20 MPS"
+        },
+        "migration": {
+          "name": "마이그레이션",
+          "na": "해당 없음",
+          "disruptive": "파괴적",
+          "seamless": "원활함"
+        }
+      },
+      "days180": "180일",
+      "mobile": {
+        "businessAppTitle": "WhatsApp Business 앱",
+        "premiumTitle": "WhatsApp Business 프리미엄",
+        "apiTitle": "WhatsApp Business API",
+        "coexistenceTitle": "WhatsApp 공존"
+      },
+      "cta": {
+        "title": "WhatsApp 공존으로 업그레이드할 준비가 되셨습니까?",
+        "button": "지금 가입"
+      }
+    },
+    "resources": {
+      "title": "리소스 및 설명서",
+      "subtitle": "WhatsApp 공존을 구현하는 데 필요한 모든 것",
+      "cards": {
+        "wiki": {
+          "title": "공식 Wiki 가이드",
+          "description": "WhatsApp 공존 구현, 모범 사례 및 문제 해결에 대한 전체 기술 설명서입니다.",
+          "cta": "설명서 읽기"
+        },
+        "developer": {
+          "title": "Meta 개발자 문서",
+          "description": "임베디드 가입, 웹훅 및 API 통합을 위한 공식 Meta 설명서입니다.",
+          "cta": "API 참조 보기"
+        },
+        "caseStudies": {
+          "title": "사례 연구",
+          "description": "은행, 소매, 의료 및 전자 상거래 산업의 실제 구현입니다.",
+          "cta": "사용 사례 보기"
+        }
+      },
+      "faq": {
+        "title": "자주 묻는 질문",
+        "questions": {
+          "q1": {
+            "question": "WhatsApp 공존이란 무엇입니까?",
+            "answer": "WhatsApp 공존은 기업이 동일한 전화번호에서 WhatsApp Business 앱과 WhatsApp Cloud API를 동시에 사용할 수 있도록 하는 기능입니다. 메시지는 두 플랫폼 간에 실시간으로 동기화되므로 API의 자동화 및 규모를 활용하면서 모바일 앱의 개인적인 터치를 유지할 수 있습니다."
+          },
+          "q2": {
+            "question": "전화번호를 변경해야 합니까?",
+            "answer": "아니요! WhatsApp 공존의 주요 이점 중 하나는 기존 전화번호를 유지한다는 것입니다. 새 번호를 얻거나 기존 번호를 변경할 필요가 없습니다. QR 코드 기반 온보딩 프로세스는 현재 WhatsApp Business 앱 번호를 Cloud API에 연결합니다."
+          },
+          "q3": {
+            "question": "채팅 기록이 손실됩니까?",
+            "answer": "아니요, 온보딩 중에 최대 180일의 채팅 기록을 보존할 수 있습니다. 임베디드 가입 프로세스를 통해 WhatsApp Business 앱을 Cloud API에 연결하면 지난 6개월간의 대화 기록과 연락처를 가져올 수 있습니다. 그러나 온보딩 프로세스를 완료한 후 24시간 이내에 수행해야 합니다."
+          },
+          "q4": {
+            "question": "가격은 어떻게 책정됩니까?",
+            "answer": "WhatsApp 공존은 하이브리드 가격 모델을 가능하게 합니다. WhatsApp Business 앱에서 수동으로 보낸 메시지는 100% 무료로 유지됩니다. Cloud API를 통해 보낸 메시지(자동 메시지, 템플릿 및 브로드캐스트 포함)는 Meta의 대화 기반 가격 모델을 따릅니다. 이를 통해 개인적인 1:1 대화에는 무료 앱 메시징을 사용하고 규모 및 자동화에는 API 메시징을 사용하여 비용을 최적화할 수 있습니다."
+          },
+          "q5": {
+            "question": "기술적인 제한 사항은 무엇입니까?",
+            "answer": "주요 기술적 제한 사항은 다음과 같습니다. 1) 공존 계정의 처리량은 독립형 API 계정의 더 높은 제한과 비교하여 초당 20개 메시지(MPS)로 제한됩니다. 2) 동기화 연결을 유지하려면 최소 13-14일마다 한 번 WhatsApp Business 앱을 열어야 합니다. 3) 그룹 채팅 동기화, 사라지는 메시지, 한 번 보기 미디어, 메시지 편집/취소 등 일부 앱 기능이 비활성화됩니다."
+          },
+          "q6": {
+            "question": "모든 국가에서 사용할 수 있습니까?",
+            "answer": "아니요, WhatsApp 공존은 현재 단계적으로 출시되고 있습니다. 2026년 1월 현재 나이지리아와 남아프리카를 포함한 특정 지역에서는 사용할 수 없습니다. 이들 국가의 전화번호를 가진 기업은 현재 자격이 없으며 독립형 앱 또는 독립형 API 중에서 선택해야 합니다."
+          },
+          "q7": {
+            "question": "마이그레이션하는 데 얼마나 걸립니까?",
+            "answer": "마이그레이션 프로세스는 빠르고 원활하게 설계되었습니다. QR 코드 기반 임베디드 가입 흐름은 일반적으로 완료하는 데 5-10분이 걸립니다. 채팅 기록을 가져오도록 선택하면 백그라운드에서 발생합니다. 전체 프로세스는 진행 중인 WhatsApp 운영을 중단하지 않고 15분 이내에 완료할 수 있습니다."
+          },
+          "q8": {
+            "question": "사용을 중단하면 어떻게 됩니까?",
+            "answer": "언제든지 Cloud API 사용을 중단할 수 있습니다. WhatsApp Business 앱은 번호와 함께 정상적으로 계속 작동합니다. 그러나 API가 제공하는 자동화, 다중 에이전트 기능 및 CRM 통합에 대한 액세스 권한을 잃게 됩니다. Meta 지원팀에 연락하여 새 온보딩 프로세스를 완료할 때까지 해당 번호에 대한 공존을 다시 활성화할 수 없습니다."
+          }
+        }
+      },
+      "cta": {
+        "title": "WhatsApp 공존에 대해 여전히 질문이 있으십니까?",
+        "button": "데모 회의 예약"
+      }
+    },
+    "useCases": {
+      "title": "실제 사용 사례",
+      "subtitle": "업계 전반의 기업이 WhatsApp 공존으로 고객 경험을 어떻게 변화시키는지 확인하십시오.",
+      "tabs": {
+        "banking": "은행업",
+        "retail": "소매업",
+        "healthcare": "보건 의료",
+        "ecommerce": "전자상거래"
+      },
+      "banking": {
+        "support247": {
+          "title": "연중무휴 고객 지원",
+          "description": "AI로 모기지 및 대출 문의를 자동화합니다. 복잡한 사례는 즉시 인간 상담원에게 라우팅됩니다."
+        },
+        "zeroAbandonment": {
+          "title": "포기율 제로",
+          "description": "AI가 반복적인 쿼리의 80%를 처리합니다. 고객은 절대 기다리지 않습니다."
+        },
+        "compliance": {
+          "title": "규정 준수 준비",
+          "description": "규제 요건(GDPR, FINRA)을 위한 전체 감사 추적 및 보관."
+        },
+        "caseStudy": {
+          "title": "사례 연구: Bankia S.A.",
+          "points": [
+            "연중무휴 지원 달성",
+            "상담원 유휴 시간 45% 감소",
+            "고객 만족도: 9.1/10",
+            "포기율 제로"
+          ]
+        },
+        "results": {
+          "title": "결과",
+          "faqResolution": {
+            "label": "FAQ 해결",
+            "value": "80%"
+          },
+          "responseTime": {
+            "label": "평균 응답 시간",
+            "value": "<30초"
+          },
+          "costReduction": {
+            "label": "비용 절감",
+            "value": "60%"
+          }
+        }
+      },
+      "retail": {
+        "vipHandling": {
+          "title": "VIP 고객 처리",
+          "description": "고가치 고객은 모바일 앱을 통해 개인적인 관심을 받습니다. 일상적인 쿼리는 자동화됩니다."
+        },
+        "orderManagement": {
+          "title": "주문 관리",
+          "description": "API를 통한 자동 배송 업데이트 및 배송 알림."
+        },
+        "conversions": {
+          "title": "전환율 증가",
+          "description": "더 빠른 응답 시간과 개인화된 후속 조치가 판매를 촉진합니다."
+        },
+        "caseStudy": {
+          "title": "사례 연구: D2C 뷰티 브랜드",
+          "points": [
+            "최초 응답 시간: 2시간 → 4분",
+            "전환율 증가: 32%",
+            "다중 상담원 협업 활성화",
+            "CRM 통합 완료"
+          ]
+        },
+        "results": {
+          "title": "결과",
+          "responseTime": {
+            "label": "응답 시간",
+            "value": "97%"
+          },
+          "conversion": {
+            "label": "전환율 증가",
+            "value": "32%"
+          },
+          "efficiency": {
+            "label": "팀 효율성",
+            "value": "+50%"
+          }
+        }
+      },
+      "healthcare": {
+        "appointments": {
+          "title": "약속 알림",
+          "description": "자동 알림으로 예약 불이행이 60% 감소합니다. 환자는 WhatsApp을 통해 확인합니다."
+        },
+        "labResults": {
+          "title": "안전한 실험실 결과",
+          "description": "종단 간 암호화로 HIPAA 준수 테스트 결과 제공."
+        },
+        "followups": {
+          "title": "환자 후속 조치",
+          "description": "AI가 약속 후 확인합니다. 의료진에게 우려 사항을 에스컬레이션합니다."
+        },
+        "caseStudy": {
+          "title": "사례 연구: AWS Connect + WhatsApp",
+          "points": [
+            "HIPAA 준수 메시징",
+            "예약 불이행 60% 감소",
+            "환자 만족도: 4.8/5",
+            "전체 감사 추적 유지"
+          ]
+        },
+        "results": {
+          "title": "결과",
+          "noShow": {
+            "label": "예약 불이행 감소",
+            "value": "60%"
+          },
+          "engagement": {
+            "label": "환자 참여",
+            "value": "4.8/5"
+          },
+          "compliance": {
+            "label": "규정 준수 점수",
+            "value": "100%"
+          }
+        }
+      },
+      "ecommerce": {
+        "cartRecovery": {
+          "title": "버려진 장바구니 복구",
+          "description": "자동 알림으로 버려진 장바구니의 30%를 복구합니다."
+        },
+        "shipping": {
+          "title": "배송 업데이트",
+          "description": "실시간 추적 알림으로 고객에게 정보를 제공합니다."
+        },
+        "vipSupport": {
+          "title": "VIP 지원",
+          "description": "고가치 고객은 모바일 앱에서 인간적인 관심을 받습니다."
+        },
+        "caseStudy": {
+          "title": "사례 연구: 전자 상거래 스토어",
+          "points": [
+            "장바구니 복구: 30% 증가",
+            "배송 문의: 85% 자동화",
+            "응답 시간: <5분",
+            "고객 만족도: 4.6/5"
+          ]
+        },
+        "results": {
+          "title": "결과",
+          "cartRecovery": {
+            "label": "장바구니 복구",
+            "value": "30%"
+          },
+          "automation": {
+            "label": "자동화율",
+            "value": "85%"
+          },
+          "satisfaction": {
+            "label": "고객 만족도",
+            "value": "4.6/5"
+          }
+        }
+      },
+      "cta": {
+        "title": "WhatsApp 공존으로 업계를 혁신하십시오.",
+        "button": "지금 가입"
+      }
+    },
+    "architecture": {
+      "title": "기술 아키텍처",
+      "subtitle": "WhatsApp 공존이 내부적으로 어떻게 작동하는지 이해하십시오.",
+      "customer": {
+        "title": "고객",
+        "subtitle": "모든 장치에서 메시지"
+      },
+      "businessApp": {
+        "title": "WhatsApp Business 앱",
+        "subtitle": "모바일 장치",
+        "features": [
+          "기본 모바일 인터페이스",
+          "수동 1:1 대화",
+          "그룹 채팅 지원",
+          "음성/영상 통화"
+        ]
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "서버 측 자동화",
+        "features": [
+          "무제한 상담원",
+          "AI 챗봇",
+          "CRM 통합",
+          "고급 분석"
+        ]
+      },
+      "platform": {
+        "title": "Seasalt.ai 플랫폼",
+        "subtitle": "통합된 받은 편지함 및 오케스트레이션",
+        "features": {
+          "mirroring": {
+            "title": "메시지 미러링",
+            "description": "모든 채널에서 실시간 동기화"
+          },
+          "echoes": {
+            "title": "에코 이벤트",
+            "description": "수동 앱 응답 추적"
+          },
+          "webhooks": {
+            "title": "웹훅 라우팅",
+            "description": "지능형 메시지 라우팅"
+          }
+        }
+      },
+      "flows": {
+        "inbound": {
+          "title": "인바운드 미러링",
+          "description": "고객 → 앱 + API 동시"
+        },
+        "appEchoes": {
+          "title": "앱 에코",
+          "description": "수동 응답 → API 알림"
+        },
+        "apiEchoes": {
+          "title": "API 에코",
+          "description": "봇 응답 → 앱 알림"
+        }
+      },
+      "specs": {
+        "mps20": {
+          "title": "20 MPS",
+          "description": "공존 계정의 최대 메시지 처리량"
+        },
+        "hours24": {
+          "title": "24시간",
+          "description": "채팅 기록 가져오기를 위한 동기화 창"
+        },
+        "days180": {
+          "title": "180일",
+          "description": "채팅 기록 보존 기간"
+        },
+        "e2ee": {
+          "title": "E2EE",
+          "description": "모든 메시지에 대한 종단 간 암호화"
+        }
+      },
+      "webhooks": {
+        "title": "웹훅 이벤트",
+        "events": [
+          { "name": "messages", "description": "수신 고객 메시지" },
+          { "name": "smb_message_echoes", "description": "수동 앱 응답" },
+          { "name": "smb_app_state_sync", "description": "연락처 업데이트" },
+          { "name": "history", "description": "6개월 채팅 가져오기" }
+        ]
+      },
+      "security": {
+        "title": "보안 및 규정 준수",
+        "features": [
+          { "name": "종단 간 암호화", "description": "모든 메시지 보호" },
+          { "name": "규정 준수", "description": "전체 감사 추적" },
+          { "name": "HIPAA 준비", "description": "의료 인증" },
+          { "name": "PCI DSS", "description": "결제 카드 보안" }
+        ]
+      },
+      "cta": {
+        "title": "WhatsApp 공존을 구현할 준비가 되셨습니까?",
+        "button": "전체 튜토리얼 읽기"
+      }
+    },
+    "ctaSection": {
+      "title": "WhatsApp 운영을 혁신할 준비가 되셨습니까?",
+      "subtitle": "개인적인 관계를 유지하면서 확장하기 위해 WhatsApp 공존을 사용하는 수천 개의 기업에 합류하십시오.",
+      "benefits": {
+        "keepNumber": {
+          "title": "번호 유지",
+          "description": "변경 불필요"
+        },
+        "zeroDisruption": {
+          "title": "중단 없음",
+          "description": "원활한 마이그레이션"
+        },
+        "aiHuman": {
+          "title": "AI + 인간",
+          "description": "하이브리드 워크플로"
+        },
+        "saveMoney": {
+          "title": "비용 절감",
+          "description": "무료 앱 메시징"
+        }
+      },
+      "primaryCTA": "지금 WhatsApp 공존에 가입하십시오.",
+      "trust": {
+        "encryption": "종단 간 암호화",
+        "hipaa": "HIPAA 준수",
+        "verified": "Meta 인증"
+      },
+      "footer": "이미 Seasalt.ai를 사용하여 고객 커뮤니케이션을 혁신하고 있는 10,000개 이상의 기업에 합류하십시오."
+    },
+    "features": {
+      "title": "통합된 옴니채널 엔진",
+      "subtitle": "동기화에 관한 것만이 아닙니다. 전체 고객 지원 인프라를 업그레이드하는 것입니다.",
+      "items": {
+        "sync": {
+          "title": "3방향 동기화",
+          "description": "메시지는 휴대폰, Seasalt 웹 대시보드 및 Seasalt 모바일 앱 간에 즉시 동기화됩니다. 어디서나 보내고 어디서나 볼 수 있습니다."
+        },
+        "agents": {
+          "title": "무제한 상담원",
+          "description": "4개 장치 제한을 깨십시오. 동일한 WhatsApp 번호에 10, 50 또는 100명의 상담원을 추가하십시오. 인간 상담원 또는 AI 봇에게 대화를 원활하게 할당하십시오."
+        },
+        "aiHandoff": {
+          "title": "AI 상담원 핸드오프",
+          "description": "AI 상담원이 플랫폼에서 업무 시간 외 문의를 처리하도록 하고 개인 휴대폰에서 직접 결과를 모니터링합니다."
+        },
+        "history": {
+          "title": "6개월 기록 가져오기",
+          "description": "처음부터 시작하지 마십시오. 지난 6개월간의 채팅 기록을 자동으로 가져와 팀이 즉시 전체 컨텍스트를 파악할 수 있도록 합니다."
+        },
+        "mobileApp": {
+          "title": "Seasalt 모바일 앱",
+          "description": "직원은 실제 휴대폰에 액세스할 필요가 없습니다. 자신의 장치에서 Seasalt.ai 앱을 사용하여 이동 중에 고객에게 응답할 수 있습니다."
+        },
+        "unifiedInbox": {
+          "title": "통합된 받은 편지함",
+          "description": "WhatsApp을 SMS, 메신저, 라인 및 인스타그램과 단일 보기에서 결합하십시오. 탭 전환을 중단하고 해결을 시작하십시오."
+        }
+      },
+      "cta": "WhatsApp 공존 사용 시작"
+    },
+    "walkthrough": {
+      "overline": "설정 둘러보기",
+      "title": "몇 분 만에 시작",
+      "subtitle": "코딩이 필요하지 않습니다. 스캔하고 동기화하기만 하면 됩니다.",
+      "steps": {
+        "step1": {
+          "title": "1. 새 채널 추가",
+          "description": "<strong>Seasalt.ai 작업 공간</strong>으로 이동합니다. \"채널\"을 선택하고 새 \"WhatsApp 공존\" 옵션을 선택합니다."
+        },
+        "step2": {
+          "title": "2. Meta 계정 연결",
+          "description": "Facebook 계정으로 로그인합니다. 비즈니스 포트폴리오를 선택합니다. 결정적으로 <strong>\"WhatsApp Business 앱 연결\"</strong> 옵션을 선택합니다."
+        },
+        "step3": {
+          "title": "3. 스캔 및 동기화",
+          "description": "QR 코드가 나타납니다. 휴대폰에서 <strong>연결된 장치</strong>를 열고 스캔합니다. 최대 <span class=\"text-green-600 font-bold\">6개월</span>의 채팅 기록을 즉시 동기화하기 시작합니다."
+        }
+      },
+      "ui": {
+        "bestOffering": "최고의 제안",
+        "connect": "연결",
+        "createWABA": "새 WABA 계정 만들기",
+        "scanInstruction": "휴대폰으로 스캔",
+        "syncing": "기록 동기화 중...",
+        "historyLabel": "180일 채팅 기록"
+      }
+    }
+  }
+}

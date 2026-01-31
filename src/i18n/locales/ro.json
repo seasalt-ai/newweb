@@ -17625,5 +17625,701 @@
       "localPlus": "local +",
       "tollFreeMinus": "gratuit"
     }
+  },
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "Alegerea",
+      "impossibleChoice": "Imposibilă",
+      "subtitlePart1": "Păstrează-ți aplicația de telefon",
+      "or": "SAU",
+      "subtitlePart2": "Scalează cu instrumente enterprise?",
+      "untilNow": "Până acum, trebuia să sacrifici unul pentru celălalt.",
+      "vs": "VS",
+      "whatYouGet": "✓ Ce obții",
+      "dealbreaker": "✗ Factorul decisiv",
+      "businessApp": {
+        "badge": "Rămâi mic",
+        "title": "Aplicația WhatsApp Business",
+        "subtitle": "Capcana doar pentru mobil",
+        "pros": {
+          "mobile": "Experiență mobilă nativă",
+          "free": "Mesagerie gratuită"
+        },
+        "cons": {
+          "devices": "Maximum 4 dispozitive conectate",
+          "fifthMember": "Al 5-lea membru al echipei? Imposibil.",
+          "fourDevices": "Doar 4 dispozitive max",
+          "cannotAdd": "Nu se pot adăuga agenți pe măsură ce crești",
+          "noAutomation": "Fără automatizare sau CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "Pierderea mobilității",
+        "title": "API Cloud",
+        "subtitle": "Capcana doar pentru desktop",
+        "pros": {
+          "unlimited": "Agenți nelimitați",
+          "automation": "Automatizare AI & CRM"
+        },
+        "cons": {
+          "lockedOut": "Telefonul tău este blocat",
+          "noMobile": "Deloc acces mobil",
+          "noApp": "Fără aplicație mobilă pe telefonul tău",
+          "desktopOnly": "Blocat doar cu desktop/panou de control"
+        }
+      },
+      "summary": {
+        "part1": "Fie ești blocat cu capacitate limitată a echipei,",
+        "part2": "fie pierzi flexibilitatea de care depinde afacerea ta.",
+        "dilemma": "Acesta este dilema cu care se confruntă fiecare afacere în creștere."
+      }
+    },
+    "solution": {
+      "title": "Acum,",
+      "worryNoMore": "Nu mai trebuie să te îngrijorezi.",
+      "subtitle1": "Prezentare",
+      "metaCoexistence": "Meta WhatsApp Coexistence",
+      "subtitle2": "cu Seasalt.ai. Singura soluție care acoperă decalajul, oferindu-ți scalabilitatea API fără să renunți la telefonul tău.",
+      "coexistenceTitle": "WhatsApp Coexistence",
+      "tagline": "Două platforme. Un număr de telefon. Zero compromisuri.",
+      "businessApp": {
+        "title": "Aplicația WhatsApp Business",
+        "subtitle": "Experiență mobilă"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "Scală enterprise"
+      },
+      "bestBadge": "CEL MAI BUN",
+      "result": {
+        "title": "Coexistență",
+        "subtitle": "Cel mai bun din ambele lumi"
+      }
+    },
+    "whatIs": {
+      "title": "Ce este WhatsApp Coexistence?",
+      "description": "WhatsApp Coexistence este o funcție revoluționară care permite afacerilor să folosească atât aplicația WhatsApp Business cât și WhatsApp Cloud API pe același număr de telefon,",
+      "simultaneously": "simultan",
+      "before": {
+        "title": "Înainte de Coexistență",
+        "point1": "Pierderea istoricului de chat la migrarea către API",
+        "point2": "Schimbarea numărului de telefon sau obținerea unuia nou",
+        "point3": "Alegerea între aplicația personală sau automatizarea enterprise",
+        "point4": "Întreruperea relațiilor cu clienții în timpul tranziției"
+      },
+      "after": {
+        "title": "După Coexistență",
+        "point1": "Păstrarea aceluiași număr de telefon",
+        "point2": "Sincronizarea a 180 de zile de istoric de chat",
+        "point3": "Utilizarea aplicației și API simultan",
+        "point4": "Migrare fără întreruperi"
+      },
+      "omnichannel": {
+        "title": "Un motor Omni-Channel unificat",
+        "subtitle": "Nu este doar despre sincronizare; este despre actualizarea întregii infrastructuri de suport pentru clienți."
+      },
+      "features": {
+        "sync": {
+          "title": "Sincronizare triplă",
+          "description": "Mesajele se sincronizează instantaneu între Telefonul, Tabloul de bord web Seasalt și Aplicația mobilă Seasalt. Trimite de oriunde, vezi oriunde."
+        },
+        "agents": {
+          "title": "Agenți nelimitați",
+          "description": "Sparge limita de 4 dispozitive. Adaugă 10, 50 sau 100 de agenți la același număr WhatsApp. Alocă conversațiile agenților umani sau roboților AI fără întreruperi."
+        },
+        "aiHandoff": {
+          "title": "Predare către agentul AI",
+          "description": "Activează agenții AI pentru a gestiona solicitările în afara orelor de program pe platformă, în timp ce monitorizezi rezultatele direct pe telefonul tău personal."
+        },
+        "history": {
+          "title": "Importul istoricului de 6 luni",
+          "description": "Nu începe de la zero. Extragem automat ultimele 6 luni de istoric de chat astfel încât echipa ta să aibă imediat contextul complet."
+        },
+        "mobileApp": {
+          "title": "Aplicația mobilă Seasalt",
+          "description": "Angajații nu au nevoie de acces la telefonul fizic. Pot folosi aplicația Seasalt.ai pe propriile dispozitive pentru a răspunde clienților în mișcare."
+        },
+        "unifiedInbox": {
+          "title": "Inbox unificat",
+          "description": "Combină WhatsApp cu SMS, Messenger, LINE și Instagram într-o singură vedere. Renunță la comutarea între file și începe să rezolvi."
+        }
+      }
+    },
+    "hero": {
+      "badge": "Nou pentru 2026",
+      "title": "Păstrați aplicația dvs. WhatsApp Business",
+      "titleHighlight": "ȘI Scalați cu WhatsApp Cloud API",
+      "subtitle": "Sfârșitul alegerii imposibile. Utilizați ambele simultan. Nu mai este nevoie să faceți compromisuri între atingerea personală și puterea corporatistă.",
+      "benefits": {
+        "sameNumber": {
+          "title": "Același număr",
+          "description": "Păstrați numărul dvs. de afaceri de încredere"
+        },
+        "noDataLoss": {
+          "title": "Fără pierderi de date",
+          "description": "Sincronizați 180 de zile de istoric al conversațiilor"
+        },
+        "hybridAI": {
+          "title": "AI hibrid + Om",
+          "description": "Scalați automatizarea, rămâneți personal"
+        },
+        "zeroDisruption": {
+          "title": "Fără întreruperi",
+          "description": "Migrare fără întreruperi prin cod QR"
+        }
+      },
+      "cta": {
+        "primary": "Începeți gratuit",
+        "secondary": "Aflați cum funcționează"
+      },
+      "triSync": {
+        "title": "Sistemul Tri-Sync",
+        "subtitle": "Sincronizare în timp real pe trei puncte de contact",
+        "phone": {
+          "title": "Telefonul dvs.",
+          "subtitle": "Aplicația WhatsApp Business"
+        },
+        "dashboard": {
+          "title": "Panoul de control seasalt.ai",
+          "subtitle": "hub central"
+        },
+        "fieldTeams": {
+          "title": "Echipele din teren",
+          "subtitle": "aplicație mobilă"
+        },
+        "syncLabel": "sincronizare în timp real",
+        "stats": {
+          "live": "live",
+          "latency": "<100ms",
+          "realtime": "timp real"
+        }
+      },
+      "stats": {
+        "syncedDevices": {
+          "value": "Nelimitat",
+          "label": "dispozitive sincronizate"
+        },
+        "humanUsers": {
+          "value": "Nelimitat",
+          "label": "utilizatori umani"
+        },
+        "chatHistory": {
+          "value": "180 Zile",
+          "label": "Sincronizare Istoric Conversații"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Comparați soluțiile WhatsApp",
+      "subtitle": "Vedeți cum se compară WhatsApp Coexistence cu alternativele",
+      "table": {
+        "feature": "Caracteristică",
+        "businessApp": "Aplicație Business",
+        "premium": "Premium",
+        "cloudAPI": "API Cloud",
+        "coexistence": "Coexistență",
+        "recommended": "RECOMANDAT"
+      },
+      "features": {
+        "cost": {
+          "name": "Cost",
+          "free": "Gratuit",
+          "premiumRange": "15-350$/lună",
+          "perMessage": "Pe mesaj",
+          "hybrid": "Model hibrid"
+        },
+        "sameNumber": "Același număr",
+        "chatHistory": "Istoric conversații",
+        "multiUser": {
+          "name": "Multi-utilizator",
+          "fiveDevices": "5 dispozitive",
+          "tenDevices": "10 dispozitive",
+          "unlimited": "Nelimitat"
+        },
+        "automation": {
+          "name": "Automatizare",
+          "basic": "De bază",
+          "advancedAI": "AI avansat",
+          "aiHuman": "AI + Om"
+        },
+        "broadcastLimit": {
+          "name": "Limită difuzare",
+          "contacts256": "256 contacte",
+          "unlimited": "Nelimitat"
+        },
+        "crmIntegration": "Integrare CRM",
+        "verification": "Verificare",
+        "groupChats": {
+          "name": "Conversații de grup",
+          "appOnly": "Doar aplicație"
+        },
+        "analytics": {
+          "name": "Analitică",
+          "basic": "De bază"
+        },
+        "maxThroughput": {
+          "name": "Capacitate maximă",
+          "manual": "Manual",
+          "mps80": "80+ MPS",
+          "mps20": "20 MPS"
+        },
+        "migration": {
+          "name": "Migrare",
+          "na": "N/A",
+          "disruptive": "Perturbatoare",
+          "seamless": "Fără întreruperi"
+        }
+      },
+      "days180": "180 zile",
+      "mobile": {
+        "businessAppTitle": "Aplicația WhatsApp Business",
+        "premiumTitle": "WhatsApp Business Premium",
+        "apiTitle": "API-ul WhatsApp Business",
+        "coexistenceTitle": "WhatsApp Coexistence"
+      },
+      "cta": {
+        "title": "Gata să faceți upgrade la WhatsApp Coexistence?",
+        "button": "Înscrieți-vă acum"
+      }
+    },
+    "resources": {
+      "title": "Resurse și documentație",
+      "subtitle": "Tot ce aveți nevoie pentru a implementa WhatsApp Coexistence",
+      "cards": {
+        "wiki": {
+          "title": "Ghidul oficial Wiki",
+          "description": "Documentație tehnică completă despre implementarea WhatsApp Coexistence, cele mai bune practici și remedierea problemelor.",
+          "cta": "Citiți documentația"
+        },
+        "developer": {
+          "title": "Documente dezvoltator Meta",
+          "description": "Documentația oficială Meta pentru înscrierea încorporată, webhook-uri și integrarea API.",
+          "cta": "Vizualizați referințele API"
+        },
+        "caseStudies": {
+          "title": "Studii de caz",
+          "description": "Implementări din lumea reală din banking, retail, îngrijire medicală și e-commerce.",
+          "cta": "Vizualizați cazurile de utilizare"
+        }
+      },
+      "faq": {
+        "title": "Întrebări frecvente",
+        "questions": {
+          "q1": {
+            "question": "Ce este WhatsApp Coexistence?",
+            "answer": "WhatsApp Coexistence este o funcție care permite companiilor să utilizeze atât aplicația WhatsApp Business, cât și WhatsApp Cloud API pe același număr de telefon, simultan. Mesajele sunt sincronizate în timp real între ambele platforme, permițându-vă să păstrați atingerea personală a aplicației mobile în timp ce profitați de automatizare și scalabilitatea API-ului."
+          },
+          "q2": {
+            "question": "Trebuie să-mi schimb numărul de telefon?",
+            "answer": "Nu! Unul dintre beneficiile cheie ale WhatsApp Coexistence este că păstrați numărul de telefon existent. Nu trebuie să obțineți un număr nou sau să schimbați cel actual. Procesul de onboardare bazat pe cod QR conectează numărul dvs. actual de WhatsApp Business App la Cloud API."
+          },
+          "q3": {
+            "question": "Îmi voi pierde istoricul conversațiilor?",
+            "answer": "Nu, puteți păstra până la 180 de zile de istoric al conversațiilor în timpul onboardării. Când conectați aplicația dvs. WhatsApp Business la Cloud API prin procesul de înscriere încorporat, aveți opțiunea de a importa ultimele șase luni de istoric al conversațiilor și contacte. Cu toate acestea, acest lucru trebuie făcut în decurs de 24 de ore de la finalizarea procesului de onboardare."
+          },
+          "q4": {
+            "question": "Cum funcționează stabilirea prețurilor?",
+            "answer": "WhatsApp Coexistence permite un model hibrid de stabilire a prețurilor. Mesajele trimise manual din aplicația WhatsApp Business rămân 100% gratuite. Mesajele trimise prin Cloud API (inclusiv mesaje automate, șabloane și difuzări) urmează modelul de stabilire a prețurilor bazat pe conversații al Meta. Acest lucru vă permite să optimizați costurile utilizând mesageria gratuită a aplicației pentru conversațiile personale 1:1 și mesageria API pentru scalabilitate și automatizare."
+          },
+          "q5": {
+            "question": "Care sunt limitările tehnice?",
+            "answer": "Principalele limitări tehnice sunt: 1) Capacitatea este limitată la 20 de mesaje pe secundă (MPS) pentru conturile de coexistență, comparativ cu limite mai mari pentru conturile API independente; 2) Trebuie să deschideți aplicația WhatsApp Business cel puțin o dată la 13-14 zile pentru a menține conexiunea de sincronizare; 3) Unele funcții ale aplicației sunt dezactivate, inclusiv sincronizarea conversațiilor de grup, mesajele care dispar, media cu vizionare unică și editarea/revocarea mesajelor."
+          },
+          "q6": {
+            "question": "Este disponibil în toate țările?",
+            "answer": "Nu, WhatsApp Coexistence este în curs de lansare treptată. Începând cu ianuarie 2026, nu este disponibil în anumite regiuni, inclusiv Nigeria și Africa de Sud. Companiile cu numere de telefon din aceste țări nu sunt eligibile momentan și vor trebui să aleagă între aplicația independentă sau API-ul independent."
+          },
+          "q7": {
+            "question": "Cât durează migrarea?",
+            "answer": "Procesul de migrare este conceput pentru a fi rapid și fără întreruperi. Fluxul de înscriere încorporat bazat pe cod QR durează de obicei 5-10 minute pentru a fi finalizat. Dacă alegeți să importați istoricul conversațiilor, acest lucru se va întâmpla în fundal. Întregul proces poate fi finalizat în mai puțin de 15 minute fără nicio întrerupere a operațiunilor dvs. curente de WhatsApp."
+          },
+          "q8": {
+            "question": "Ce se întâmplă dacă renunț la utilizarea acestuia?",
+            "answer": "Puteți renunța oricând la utilizarea Cloud API. Aplicația dvs. WhatsApp Business va continua să funcționeze în mod normal cu numărul dvs. Cu toate acestea, veți pierde accesul la automatizare, funcțiile multi-agent și integrarea CRM pe care le furnizează API-ul. Nu veți putea reactiva coexistența pentru acel număr până când nu contactați asistența Meta și nu finalizați un nou proces de onboardare."
+          }
+        }
+      },
+      "cta": {
+        "title": "Mai aveți întrebări despre WhatsApp Coexistence?",
+        "button": "Programați o întâlnire demonstrativă"
+      }
+    },
+    "useCases": {
+      "title": "Cazuri de utilizare din lumea reală",
+      "subtitle": "Vedeți cum își transformă companiile din diverse industrii experiența clienților cu WhatsApp Coexistence",
+      "tabs": {
+        "banking": "Banking",
+        "retail": "Retail",
+        "healthcare": "Îngrijire medicală",
+        "ecommerce": "E-commerce"
+      },
+      "banking": {
+        "support247": {
+          "title": "Asistență client 24/7",
+          "description": "Automatizați solicitările privind ipotecile și împrumuturile cu ajutorul AI. Cazurile complexe sunt redirecționate instant către agenți umani."
+        },
+        "zeroAbandonment": {
+          "title": "Rată zero de abandon",
+          "description": "AI gestionează 80% dintre solicitările repetitive. Clienții nu așteaptă niciodată în coadă."
+        },
+        "compliance": {
+          "title": "Pregătit pentru conformitate",
+          "description": "Jurnale de audit complete și arhivare pentru cerințele reglementare (GDPR, FINRA)."
+        },
+        "caseStudy": {
+          "title": "STUDIU DE CAZ: Bankia S.A.",
+          "points": [
+            "Asistență 24/7 realizată",
+            "Timpul de inactivitate al agentului redus cu 45%",
+            "Satisfacția clienților: 9,1/10",
+            "Rată zero de abandon"
+          ]
+        },
+        "results": {
+          "title": "Rezultate",
+          "faqResolution": {
+            "label": "Rezolvarea întrebărilor frecvente",
+            "value": "80%"
+          },
+          "responseTime": {
+            "label": "Timp mediu de răspuns",
+            "value": "<30s"
+          },
+          "costReduction": {
+            "label": "Reducerea costurilor",
+            "value": "60%"
+          }
+        }
+      },
+      "retail": {
+        "vipHandling": {
+          "title": "Gestionarea clienților VIP",
+          "description": "Clienții cu valoare mare primesc atenție personală prin aplicația mobilă. Solicitările obișnuite sunt automatizate."
+        },
+        "orderManagement": {
+          "title": "Gestionarea comenzilor",
+          "description": "Actualizări automate privind expedierea și notificări privind livrarea prin API."
+        },
+        "conversions": {
+          "title": "Creșterea conversiilor",
+          "description": "Timpuri de răspuns mai rapide și urmărirea personalizată stimulează vânzările."
+        },
+        "caseStudy": {
+          "title": "STUDIU DE CAZ: Brand de frumusețe D2C",
+          "points": [
+            "Timpul primului răspuns: 2h → 4 min",
+            "Creșterea ratei de conversie: 32%",
+            "Colaborarea multi-agent activată",
+            "Integrarea CRM finalizată"
+          ]
+        },
+        "results": {
+          "title": "Rezultate",
+          "responseTime": {
+            "label": "Timp de răspuns",
+            "value": "97%"
+          },
+          "conversion": {
+            "label": "Creșterea conversiilor",
+            "value": "32%"
+          },
+          "efficiency": {
+            "label": "Eficiența echipei",
+            "value": "+50%"
+          }
+        }
+      },
+      "healthcare": {
+        "appointments": {
+          "title": "Memento-uri pentru programări",
+          "description": "Memento-urile automate reduc absentismul cu 60%. Pacienții confirmă prin WhatsApp."
+        },
+        "labResults": {
+          "title": "Rezultate de laborator sigure",
+          "description": "Livrarea rezultatelor analizelor conforme HIPAA cu criptare cap la cap."
+        },
+        "followups": {
+          "title": "Urmărirea pacienților",
+          "description": "AI verifică după programări. Ridică problemele către personalul medical."
+        },
+        "caseStudy": {
+          "title": "STUDIU DE CAZ: AWS Connect + WhatsApp",
+          "points": [
+            "Mesagerie conformă HIPAA",
+            "Reducere de 60% a absentismului",
+            "Satisfacția pacienților: 4,8/5",
+            "Jurnal de audit complet păstrat"
+          ]
+        },
+        "results": {
+          "title": "Rezultate",
+          "noShow": {
+            "label": "Reducerea absentismului",
+            "value": "60%"
+          },
+          "engagement": {
+            "label": "Implicarea pacienților",
+            "value": "4,8/5"
+          },
+          "compliance": {
+            "label": "Scorul de conformitate",
+            "value": "100%"
+          }
+        }
+      },
+      "ecommerce": {
+        "cartRecovery": {
+          "title": "Recuperarea coșurilor de cumpărături abandonate",
+          "description": "Memento-urile automate recuperează 30% dintre coșurile de cumpărături abandonate."
+        },
+        "shipping": {
+          "title": "Actualizări privind expedierea",
+          "description": "Notificările de urmărire în timp real țin clienții informați."
+        },
+        "vipSupport": {
+          "title": "Asistență VIP",
+          "description": "Clienții cu valoare mare primesc atenție umană din aplicația mobilă."
+        },
+        "caseStudy": {
+          "title": "STUDIU DE CAZ: Magazin e-commerce",
+          "points": [
+            "Recuperarea coșurilor: creștere de 30%",
+            "Solicitări privind expedierea: 85% automatizate",
+            "Timp de răspuns: <5 minute",
+            "Satisfacția clienților: 4,6/5"
+          ]
+        },
+        "results": {
+          "title": "Rezultate",
+          "cartRecovery": {
+            "label": "Recuperarea coșurilor",
+            "value": "30%"
+          },
+          "automation": {
+            "label": "Rata de automatizare",
+            "value": "85%"
+          },
+          "satisfaction": {
+            "label": "Satisfacția clienților",
+            "value": "4,6/5"
+          }
+        }
+      },
+      "cta": {
+        "title": "Transformați-vă industria cu WhatsApp Coexistence",
+        "button": "Înscrieți-vă acum"
+      }
+    },
+    "architecture": {
+      "title": "Arhitectură tehnică",
+      "subtitle": "Înțelegeți cum funcționează WhatsApp Coexistence în interior",
+      "customer": {
+        "title": "Client",
+        "subtitle": "Mesaje de pe orice dispozitiv"
+      },
+      "businessApp": {
+        "title": "Aplicația WhatsApp Business",
+        "subtitle": "Dispozitiv mobil",
+        "features": [
+          "Interfață mobilă nativă",
+          "Conversații 1:1 manuale",
+          "Suport pentru conversații de grup",
+          "Apeluri vocale/video"
+        ]
+      },
+      "cloudAPI": {
+        "title": "API-ul WhatsApp Cloud",
+        "subtitle": "Automatizare pe partea de server",
+        "features": [
+          "Agenți nelimitați",
+          "Roboți de chat AI",
+          "Integrare CRM",
+          "Analitică avansată"
+        ]
+      },
+      "platform": {
+        "title": "Platforma Seasalt.ai",
+        "subtitle": "Inbox unificat & orchestrare",
+        "features": {
+          "mirroring": {
+            "title": "Reflecția mesajelor",
+            "description": "Sincronizare în timp real pe toate canalele"
+          },
+          "echoes": {
+            "title": "Evenimente de ecou",
+            "description": "Urmărirea răspunsurilor manuale ale aplicației"
+          },
+          "webhooks": {
+            "title": "Rutarea webhook-urilor",
+            "description": "Rutarea inteligentă a mesajelor"
+          }
+        }
+      },
+      "flows": {
+        "inbound": {
+          "title": "Reflecția intrărilor",
+          "description": "Client → Aplicație + API simultan"
+        },
+        "appEchoes": {
+          "title": "Ecouri ale aplicației",
+          "description": "Răspuns manual → Notificare API"
+        },
+        "apiEchoes": {
+          "title": "Ecouri API",
+          "description": "Răspuns robot → Notificare aplicație"
+        }
+      },
+      "specs": {
+        "mps20": {
+          "title": "20 MPS",
+          "description": "Capacitatea maximă de mesaje pentru conturile de coexistență"
+        },
+        "hours24": {
+          "title": "24 de ore",
+          "description": "Fereastra de sincronizare pentru importul istoricului conversațiilor"
+        },
+        "days180": {
+          "title": "180 de zile",
+          "description": "Perioada de păstrare a istoricului conversațiilor"
+        },
+        "e2ee": {
+          "title": "E2EE",
+          "description": "Criptare cap la cap pentru toate mesajele"
+        }
+      },
+      "webhooks": {
+        "title": "Evenimente webhook",
+        "events": [
+          {
+            "name": "messages",
+            "description": "Mesaje primite de la clienți"
+          },
+          {
+            "name": "smb_message_echoes",
+            "description": "Răspunsuri manuale ale aplicației"
+          },
+          {
+            "name": "smb_app_state_sync",
+            "description": "Actualizări ale contactelor"
+          },
+          {
+            "name": "history",
+            "description": "Importul conversațiilor de 6 luni"
+          }
+        ]
+      },
+      "security": {
+        "title": "Securitate & Conformitate",
+        "features": [
+          {
+            "name": "Criptare cap la cap",
+            "description": "Toate mesajele sunt protejate"
+          },
+          {
+            "name": "Conformă",
+            "description": "Jurnale de audit complete"
+          },
+          {
+            "name": "Pregătit pentru HIPAA",
+            "description": "Certificat pentru îngrijire medicală"
+          },
+          {
+            "name": "PCI DSS",
+            "description": "Securitatea cardurilor de plată"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Gata să implementați WhatsApp Coexistence?",
+        "button": "Citiți ghidul complet"
+      }
+    },
+    "ctaSection": {
+      "title": "Gata să transformați operațiunile dvs. WhatsApp?",
+      "subtitle": "Alăturați-vă miilor de companii care folosesc WhatsApp Coexistence pentru a scala în timp ce rămân personale",
+      "benefits": {
+        "keepNumber": {
+          "title": "Păstrați-vă numărul",
+          "description": "Nu sunt necesare modificări"
+        },
+        "zeroDisruption": {
+          "title": "Fără întreruperi",
+          "description": "Migrare fără întreruperi"
+        },
+        "aiHuman": {
+          "title": "AI + Om",
+          "description": "Fluxuri de lucru hibride"
+        },
+        "saveMoney": {
+          "title": "Economisiți bani",
+          "description": "Mesagerie gratuită în aplicație"
+        }
+      },
+      "primaryCTA": "Înscrieți-vă acum la WhatsApp Coexistence",
+      "trust": {
+        "encryption": "Criptare cap la cap",
+        "hipaa": "Conform cu HIPAA",
+        "verified": "Verificat de Meta"
+      },
+      "footer": "Alăturați-vă celor peste 10.000 de companii care folosesc deja Seasalt.ai pentru a transforma comunicarea cu clienții"
+    },
+    "features": {
+      "title": "Un motor Omni-Channel unificat",
+      "subtitle": "Nu este doar despre sincronizare; este despre actualizarea întregii infrastructuri de suport pentru clienți.",
+      "items": {
+        "sync": {
+          "title": "Sincronizare triplă",
+          "description": "Mesajele se sincronizează instantaneu între Telefonul dvs., Panoul Web Seasalt și Aplicația Mobilă Seasalt. Trimiteți de oriunde, vedeți peste tot."
+        },
+        "agents": {
+          "title": "Agenți nelimitați",
+          "description": "Spargeți limita de 4 dispozitive. Adăugați 10, 50 sau 100 de agenți la același număr de WhatsApp. Atribuiți conversații agenților umani sau roboților AI fără întreruperi."
+        },
+        "aiHandoff": {
+          "title": "Predare către agentul AI",
+          "description": "Activați agenții AI pentru a gestiona solicitările în afara orelor de program pe platformă, în timp ce monitorizați rezultatele direct pe telefonul dvs. personal."
+        },
+        "history": {
+          "title": "Importul istoricului de 6 luni",
+          "description": "Nu începeți de la zero. Extragem automat ultimele 6 luni de istoric al conversațiilor pentru ca echipa dvs. să aibă imediat contextul complet."
+        },
+        "mobileApp": {
+          "title": "Aplicația mobilă Seasalt",
+          "description": "Angajații nu au nevoie de acces la telefonul fizic al dvs. Pot folosi aplicația Seasalt.ai pe propriile dispozitive pentru a răspunde clienților în mișcare."
+        },
+        "unifiedInbox": {
+          "title": "Inbox unificat",
+          "description": "Combinați WhatsApp cu SMS, Messenger, LINE și Instagram într-o singură vizualizare. Renunțați la comutarea între file și începeți să rezolvați."
+        }
+      },
+      "cta": "Începeți să folosiți WhatsApp Coexistence"
+    },
+    "walkthrough": {
+      "overline": "Ghidul de configurare",
+      "title": "Începeți în câteva minute",
+      "subtitle": "Nu este nevoie de codare. Doar scanați și sincronizați.",
+      "steps": {
+        "step1": {
+          "title": "1. Adăugați un nou canal",
+          "description": "Navigați la <strong>Spațiul de lucru Seasalt.ai</strong>. Selectați \"Canale\" și alegeți noua opțiune \"WhatsApp Coexistence\"."
+        },
+        "step2": {
+          "title": "2. Conectați contul Meta",
+          "description": "Conectați-vă cu contul dvs. Facebook. Selectați portofoliul dvs. de afaceri. Important, alegeți opțiunea <strong>\"Conectați o aplicație WhatsApp Business\"</strong>."
+        },
+        "step3": {
+          "title": "3. Scanați & Sincronizați",
+          "description": "Va apărea un cod QR. Deschideți <strong>Dispozitivele conectate</strong> pe telefonul dvs. și scanați-l. Începem imediat să sincronizăm până la <span class=\"text-green-600 font-bold\">6 luni</span> de istoric al conversațiilor."
+        }
+      },
+      "ui": {
+        "bestOffering": "Cea mai bună ofertă",
+        "connect": "Conectați",
+        "createWABA": "Creați un cont WABA nou",
+        "scanInstruction": "Scanați cu telefonul dvs.",
+        "syncing": "Sincronizare istoric...",
+        "historyLabel": "180 de zile de istoric al conversațiilor"
+      }
+    }
   }
 }

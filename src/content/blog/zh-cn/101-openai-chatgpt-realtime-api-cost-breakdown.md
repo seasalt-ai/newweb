@@ -1,6 +1,6 @@
 ---
 title: OpenAI 与人类与语音 AI：成本比较 (5/5)
-description: OpenAI Realtime API 与人类接待员和语音 AI 代理的详细成本分析。
+description: OpenAI Realtime API 与人类接待员和语音 AI Agent的详细成本分析。
 publishDate: '2024-10-12'
 updatedDate: '2025-07-26'
 author: Xuchen Yao
@@ -30,7 +30,7 @@ draft: false
 
 2. [外包与内部实时接待员](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/)：什么是实时接待员？您应该外包还是内部招聘？
 
-3. [自动电话应答系统（交互式语音应答 IVR 与语音 AI 代理）](https://seasalt.ai/blog/98-inbound-answering-automated-system/)：什么是自动应答服务？您应该使用交互式语音应答还是语音 AI 代理？
+3. [自动电话应答系统（交互式语音应答 IVR 与语音 AI Agent）](https://seasalt.ai/blog/98-inbound-answering-automated-system/)：什么是自动应答服务？您应该使用交互式语音应答还是语音 AI Agent？
 
 4. [决策：我的小型企业应该使用实时接待员还是自动应答服务？](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/)：您已经从我们的系列中了解了所有关于应答服务的信息。现在是时候决定哪种类型的服务最适合您的业务了。
 
@@ -41,11 +41,11 @@ draft: false
 ## TLDR:
 
 1. OpenAI 和人类都可能**昂贵**：
-   1. OpenAI 的 Realtime API 可以实现语音代理 (AI) 体验，大约**每分钟 1 美元**。
+   1. OpenAI 的 Realtime API 可以实现语音Agent (AI) 体验，大约**每分钟 1 美元**。
    2. 按需虚拟接待员（人类）的价格也约为**每分钟 1 美元**。
 2. 但也有**平衡**的选择，但有注意事项：
-   1. 长期雇佣时，英语流利的人工代理**每小时**可低至 5 美元（每分钟 0.08 美元）。
-   2. 初创公司提供的语音 AI 代理**每小时**可低至 7.2 美元（每分钟 0.12 美元）。
+   1. 长期雇佣时，英语流利的人工Agent**每小时**可低至 5 美元（每分钟 0.08 美元）。
+   2. 初创公司提供的语音 AI Agent**每小时**可低至 7.2 美元（每分钟 0.12 美元）。
 
 *如果您更喜欢收听本文的音频版本，请观看此视频：*
 
@@ -101,15 +101,15 @@ OpenAI 声称音频输入每分钟约 0.06 美元，音频输出每分钟 0.24 �
 
 在我们进行的另一次测试中，一次简单的 10 分钟对话花费了大约 10 美元。
 
-哎呀，这太贵了。它实际上比 [Seasalt.ai 自己的语音代理贵约 10 倍](https://chat.seasalt.ai/en-us#pricing?utm_source=blog/)。
+哎呀，这太贵了。它实际上比 [Seasalt.ai 自己的语音Agent贵约 10 倍](https://chat.seasalt.ai/en-us#pricing?utm_source=blog/)。
 
-如果一些开发人员只是在测试 API，并试图投入一些有意义的精力来训练一个真正能做事的语音 AI 代理，他们一天之内就可以轻松花费数百美元！
+如果一些开发人员只是在测试 API，并试图投入一些有意义的精力来训练一个真正能做事的语音 AI Agent，他们一天之内就可以轻松花费数百美元！
 
-## ChatGPT-4o 实时 API 与人工代理 – 哪个更实惠？
+## ChatGPT-4o 实时 API 与人工Agent – 哪个更实惠？
 
-因此，如果有人使用 ChatGPT-4o 的实时 API 构建语音 AI 代理，则每分钟大约需要 1 美元，即**每小时 60 美元**。
+因此，如果有人使用 ChatGPT-4o 的实时 API 构建语音 AI Agent，则每分钟大约需要 1 美元，即**每小时 60 美元**。
 
-### 人工代理的成本是多少？
+### 人工Agent的成本是多少？
 
 如果您使用内部人员，例如前台接待员，他们的工资可能在最低工资（联邦 7.25 美元到加利福尼亚 16 美元）到每小时 20 到 30 美元之间。
 
@@ -124,22 +124,22 @@ OpenAI 声称音频输入每分钟约 0.06 美元，音频输出每分钟 0.24 �
 *Seasalt.ai 的实时接待员供应商摘要*
 </center>
 
-## ChatGPT-4o 实时 API 与其他语音 AI 代理 – 有何区别？
+## ChatGPT-4o 实时 API 与其他语音 AI Agent – 有何区别？
 
-ChatGPT-4o 的实时 API 代表了语音 AI 技术的重大进步，与其他语音 AI 代理相比，它具有几个关键区别：
+ChatGPT-4o 的实时 API 代表了语音 AI 技术的重大进步，与其他语音 AI Agent相比，它具有几个关键区别：
 
 - **响应速度**：它提供近乎实时的交互，平均响应时间为 2 到 3 秒
 - **鲁棒性**：API 允许在对话期间中断和重定向，从而实现更自然的对话流程
 - **端到端**：API 不需要将不同的组件（例如语音转文本（Azure、Deepgram 等）和文本转语音（Azure、Eleven labs））拼凑在一起。
 
-但这里的注意事项是成本：ChatGPT-4o 的实时 API 每分钟大约需要 1 美元，而其他[语音 AI 代理每分钟只需 0.12 美元](https://seasalt.ai/blog/98-inbound-answering-automated-system/?utm_source=crossblog)。
+但这里的注意事项是成本：ChatGPT-4o 的实时 API 每分钟大约需要 1 美元，而其他[语音 AI Agent每分钟只需 0.12 美元](https://seasalt.ai/blog/98-inbound-answering-automated-system/?utm_source=crossblog)。
 
 <br/>
 
 <center>
-<img height="100%" width="100%" src="/images/blog/98-inbound-answering-automated-system/ai-product-comparison.png"  alt="语音 AI 代理的 Seasalt.ai 与 Bland AI 与 Smith.ai。Synthflow.ai 与 Retell AI 与 Slang AI 与 Gridspace">
+<img height="100%" width="100%" src="/images/blog/98-inbound-answering-automated-system/ai-product-comparison.png"  alt="语音 AI Agent的 Seasalt.ai 与 Bland AI 与 Smith.ai。Synthflow.ai 与 Retell AI 与 Slang AI 与 Gridspace">
 
-*Seasalt.ai 的语音 AI 代理产品比较*
+*Seasalt.ai 的语音 AI Agent产品比较*
 </center>
 
 
@@ -149,17 +149,17 @@ ChatGPT-4o 的实时 API 代表了语音 AI 技术的重大进步，与其他语
 
 对于企业主来说，基本上有 4 种选择：
 
-1. **内部人工代理**
+1. **内部人工Agent**
 2. **外包给其他公司**，无论是境内还是境外
-3. **使用经济实惠的语音 AI 代理**
+3. **使用经济实惠的语音 AI Agent**
 4. **使用最先进/昂贵的 OpenAI 实时 API 进行构建**
 
 我总结了以下不同选项的各种优缺点：
 
 * **OpenAI 实时 API** 提供最快、最自然的体验，但需要技术专业知识且价格昂贵。
-* **境内按需人工代理** 擅长用流利的英语处理基本任务，但集成有限。
-* **境外长期人工代理** 最经济实惠，但由于基础设施问题和高人员流动率可能不可靠。
-* **集成语音 AI 代理** 在成本、功能和易用性之间取得了平衡，但响应速度可能稍慢，并且存在一些集成问题。
+* **境内按需人工Agent** 擅长用流利的英语处理基本任务，但集成有限。
+* **境外长期人工Agent** 最经济实惠，但由于基础设施问题和高人员流动率可能不可靠。
+* **集成语音 AI Agent** 在成本、功能和易用性之间取得了平衡，但响应速度可能稍慢，并且存在一些集成问题。
 
 <br/>
 
@@ -171,8 +171,8 @@ ChatGPT-4o 的实时 API 代表了语音 AI 技术的重大进步，与其他语
 
 作为语音识别和自然语言处理领域的从业者，我的两点看法是：
 
-1. 使用市场上集成的语音 AI 代理，例如[我与 SeaChat 自豪地构建的代理](https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/?utm_source=blog/)。它们成熟且价格实惠。
-2. 再给 OpenAI 实时 API 一年时间，让小白鼠们测试一下，希望价格能降到更实惠的 10 美元/小时，那么**它将变得真正令人惊叹**。小心了，人工代理！
+1. 使用市场上集成的语音 AI Agent，例如[我与 SeaChat 自豪地构建的Agent](https://wiki.seasalt.ai/seachat/inbound-voice-agent/tutorial/?utm_source=blog/)。它们成熟且价格实惠。
+2. 再给 OpenAI 实时 API 一年时间，让小白鼠们测试一下，希望价格能降到更实惠的 10 美元/小时，那么**它将变得真正令人惊叹**。小心了，人工Agent！
 
 
 ## 了解更多
@@ -187,8 +187,8 @@ ChatGPT-4o 的实时 API 代表了语音 AI 技术的重大进步，与其他语
 
 - [外包与内部实时接待员](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/)：什么是实时接待员？您应该外包还是内部招聘？
 
-- [自动电话应答系统（交互式语音应答 IVR 与语音 AI 代理）](https://seasalt.ai/blog/98-inbound-answering-automated-system/)：什么是自动应答服务？您应该使用机器人 IVR 还是语音 AI 代理？
+- [自动电话应答系统（交互式语音应答 IVR 与语音 AI Agent）](https://seasalt.ai/blog/98-inbound-answering-automated-system/)：什么是自动应答服务？您应该使用机器人 IVR 还是语音 AI Agent？
 
 - [决策：我的小型企业应该使用实时接待员还是自动应答服务？](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/)：您已经从我们的系列中了解了所有关于应答服务的信息。现在是时候决定哪种类型的服务最适合您的业务了。
 
-- （本文）[OpenAI 与人类与语音 AI：成本比较](https://seasalt.ai/blog/101-openai-chatgpt-realtime-api-cost-breakdown/)：OpenAI 最新的语音 AI 技术是一个很棒的语音 AI 代理。实际成本是多少？
+- （本文）[OpenAI 与人类与语音 AI：成本比较](https://seasalt.ai/blog/101-openai-chatgpt-realtime-api-cost-breakdown/)：OpenAI 最新的语音 AI 技术是一个很棒的语音 AI Agent。实际成本是多少？

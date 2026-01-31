@@ -1,0 +1,556 @@
+{
+  "whatsappCoexistence": {
+    "hero": {
+      "badge": "Mới cho năm 2026",
+      "title": "Giữ ứng dụng WhatsApp Business của bạn",
+      "titleHighlight": "VÀ Mở rộng quy mô với API WhatsApp Cloud",
+      "subtitle": "Sự kết thúc của sự lựa chọn bất khả thi. Sử dụng cả hai cùng một lúc. Không còn phải đánh đổi sự tiếp xúc cá nhân để lấy sức mạnh của doanh nghiệp.",
+      "benefits": {
+        "sameNumber": {
+          "title": "Cùng một số",
+          "description": "Giữ số doanh nghiệp đáng tin cậy của bạn"
+        },
+        "noDataLoss": {
+          "title": "Không mất dữ liệu",
+          "description": "Đồng bộ hóa 180 ngày lịch sử trò chuyện"
+        },
+        "hybridAI": {
+          "title": "AI lai + Con người",
+          "description": "Mở rộng quy mô tự động hóa, duy trì tính cá nhân"
+        },
+        "zeroDisruption": {
+          "title": "Không gián đoạn",
+          "description": "Di chuyển mã QR liền mạch"
+        }
+      },
+      "cta": {
+        "primary": "Bắt đầu miễn phí",
+        "secondary": "Tìm hiểu cách hoạt động"
+      },
+      "triSync": {
+        "title": "Hệ thống đồng bộ ba",
+        "subtitle": "Đồng bộ hóa thời gian thực trên ba điểm tiếp xúc",
+        "phone": {
+          "title": "Điện thoại của bạn",
+          "subtitle": "Ứng dụng WhatsApp Business"
+        },
+        "dashboard": {
+          "title": "Bảng điều khiển Seasalt.ai",
+          "subtitle": "trung tâm"
+        },
+        "fieldTeams": {
+          "title": "đội ngũ hiện trường",
+          "subtitle": "ứng dụng di động"
+        },
+        "syncLabel": "đồng bộ hóa thời gian thực",
+        "stats": {
+          "live": "trực tiếp",
+          "latency": "<100ms",
+          "realtime": "thời gian thực"
+        }
+      },
+      "stats": {
+        "syncedDevices": {
+          "value": "Không giới hạn",
+          "label": "thiết bị được đồng bộ hóa"
+        },
+        "humanUsers": {
+          "value": "Không giới hạn",
+          "label": "người dùng"
+        },
+        "chatHistory": {
+          "value": "180 ngày",
+          "label": "Đồng bộ hóa lịch sử trò chuyện"
+        }
+      }
+    },
+    "comparison": {
+      "title": "So sánh các giải pháp WhatsApp",
+      "subtitle": "Xem cách WhatsApp Coexistence so với các lựa chọn thay thế",
+      "table": {
+        "feature": "Tính năng",
+        "businessApp": "Ứng dụng kinh doanh",
+        "premium": "Phí bảo hiểm",
+        "cloudAPI": "API đám mây",
+        "coexistence": "Cùng tồn tại",
+        "recommended": "KHUYẾN NGHỊ"
+      },
+      "features": {
+        "cost": {
+          "name": "Trị giá",
+          "free": "Miễn phí",
+          "premiumRange": "$15-$350/tháng",
+          "perMessage": "Mỗi tin nhắn",
+          "hybrid": "Mô hình kết hợp"
+        },
+        "sameNumber": "Cùng một số",
+        "chatHistory": "Lịch sử trò chuyện",
+        "multiUser": {
+          "name": "Nhiều người dùng",
+          "fiveDevices": "5 thiết bị",
+          "tenDevices": "10 thiết bị",
+          "unlimited": "Không giới hạn"
+        },
+        "automation": {
+          "name": "Tự động hóa",
+          "basic": "Căn bản",
+          "advancedAI": "AI nâng cao",
+          "aiHuman": "AI + Con người"
+        },
+        "broadcastLimit": {
+          "name": "Giới hạn phát sóng",
+          "contacts256": "256 địa chỉ liên hệ",
+          "unlimited": "Không giới hạn"
+        },
+        "crmIntegration": "Tích hợp CRM",
+        "verification": "xác minh",
+        "groupChats": {
+          "name": "Trò chuyện nhóm",
+          "appOnly": "Chỉ ứng dụng"
+        },
+        "analytics": {
+          "name": "Phân tích",
+          "basic": "Căn bản"
+        },
+        "maxThroughput": {
+          "name": "Thông lượng tối đa",
+          "manual": "Thủ công",
+          "mps80": "80+ MPS",
+          "mps20": "20 MPS"
+        },
+        "migration": {
+          "name": "Di cư",
+          "na": "Không áp dụng",
+          "disruptive": "Gây rối",
+          "seamless": "liền mạch"
+        }
+      },
+      "days180": "180 ngày",
+      "mobile": {
+        "businessAppTitle": "Ứng dụng WhatsApp Business",
+        "premiumTitle": "WhatsApp Business Premium",
+        "apiTitle": "API Doanh nghiệp WhatsApp",
+        "coexistenceTitle": "Cùng tồn tại WhatsApp"
+      },
+      "cta": {
+        "title": "Sẵn sàng nâng cấp lên WhatsApp Coexistence?",
+        "button": "Đăng ký ngay"
+      }
+    },
+    "resources": {
+      "title": "Tài nguyên & Tài liệu",
+      "subtitle": "Mọi thứ bạn cần để triển khai WhatsApp Coexistence",
+      "cards": {
+        "wiki": {
+          "title": "Hướng dẫn Wiki chính thức",
+          "description": "Tài liệu kỹ thuật đầy đủ về triển khai, các phương pháp hay nhất và khắc phục sự cố WhatsApp Coexistence.",
+          "cta": "Đọc tài liệu"
+        },
+        "developer": {
+          "title": "Tài liệu dành cho nhà phát triển Meta",
+          "description": "Tài liệu Meta chính thức để đăng ký nhúng, webhook và tích hợp API.",
+          "cta": "Xem tham chiếu API"
+        },
+        "caseStudies": {
+          "title": "Nghiên cứu điển hình",
+          "description": "Các triển khai trong thế giới thực từ các ngành ngân hàng, bán lẻ, chăm sóc sức khỏe và thương mại điện tử.",
+          "cta": "Xem các trường hợp sử dụng"
+        }
+      },
+      "faq": {
+        "title": "Các câu hỏi thường gặp",
+        "questions": {
+          "q1": {
+            "question": "WhatsApp Coexistence là gì?",
+            "answer": "WhatsApp Coexistence là một tính năng cho phép các doanh nghiệp sử dụng cả Ứng dụng WhatsApp Business và API WhatsApp Cloud trên cùng một số điện thoại, đồng thời. Tin nhắn được đồng bộ hóa theo thời gian thực giữa cả hai nền tảng, cho phép bạn giữ được nét cá nhân của ứng dụng di động trong khi tận dụng khả năng tự động hóa và quy mô của API."
+          },
+          "q2": {
+            "question": "Tôi có cần thay đổi số điện thoại của mình không?",
+            "answer": "Không! Một trong những lợi ích chính của WhatsApp Coexistence là bạn giữ lại số điện thoại hiện tại của mình. Bạn không cần lấy số mới hoặc thay đổi số hiện có. Quá trình giới thiệu dựa trên mã QR sẽ liên kết số Ứng dụng WhatsApp Business hiện tại của bạn với API Cloud."
+          },
+          "q3": {
+            "question": "Tôi có bị mất lịch sử trò chuyện không?",
+            "answer": "Không, bạn có thể giữ lại tối đa 180 ngày lịch sử trò chuyện trong quá trình giới thiệu. Khi bạn liên kết Ứng dụng WhatsApp Business của mình với API Cloud thông qua quy trình đăng ký nhúng, bạn có tùy chọn nhập lịch sử cuộc trò chuyện và danh bạ trong sáu tháng qua. Tuy nhiên, việc này phải được thực hiện trong vòng 24 giờ sau khi hoàn tất quá trình giới thiệu."
+          },
+          "q4": {
+            "question": "Giá cả hoạt động như thế nào?",
+            "answer": "WhatsApp Coexistence cho phép mô hình định giá kết hợp. Tin nhắn được gửi thủ công từ Ứng dụng WhatsApp Business vẫn miễn phí 100%. Tin nhắn được gửi qua API Cloud (bao gồm tin nhắn tự động, mẫu và chương trình phát sóng) tuân theo mô hình định giá dựa trên cuộc trò chuyện của Meta. Điều này cho phép bạn tối ưu hóa chi phí bằng cách sử dụng tin nhắn ứng dụng miễn phí cho các cuộc trò chuyện 1:1 cá nhân và tin nhắn API cho quy mô và tự động hóa."
+          },
+          "q5": {
+            "question": "Những hạn chế kỹ thuật là gì?",
+            "answer": "Những hạn chế kỹ thuật chính là: 1) thông lượng được giới hạn ở 20 tin nhắn mỗi giây (MPS) đối với các tài khoản cùng tồn tại, so với giới hạn cao hơn đối với các tài khoản API độc lập; 2) bạn phải mở Ứng dụng WhatsApp Business ít nhất một lần sau mỗi 13-14 ngày để duy trì kết nối đồng bộ; 3) một số tính năng của ứng dụng bị tắt, bao gồm đồng bộ hóa trò chuyện nhóm, tin nhắn biến mất, phương tiện xem một lần và chỉnh sửa/thu hồi tin nhắn."
+          },
+          "q6": {
+            "question": "Nó có sẵn ở tất cả các quốc gia không?",
+            "answer": "Không, WhatsApp Coexistence hiện đang được triển khai theo từng giai đoạn. Kể từ tháng 1 năm 2026, nó không có sẵn ở một số khu vực nhất định bao gồm Nigeria và Nam Phi. Các doanh nghiệp có số điện thoại từ các quốc gia này hiện không đủ điều kiện và sẽ cần chọn giữa Ứng dụng độc lập hoặc API độc lập."
+          },
+          "q7": {
+            "question": "Quá trình di chuyển mất bao lâu?",
+            "answer": "Quá trình di chuyển được thiết kế để nhanh chóng và liền mạch. Luồng đăng ký nhúng dựa trên mã QR thường mất 5-10 phút để hoàn thành. Nếu bạn chọn nhập lịch sử trò chuyện, điều này sẽ diễn ra trong nền. Toàn bộ quá trình có thể được hoàn thành trong vòng chưa đầy 15 phút mà không làm gián đoạn các hoạt động WhatsApp đang diễn ra của bạn."
+          },
+          "q8": {
+            "question": "Điều gì xảy ra nếu tôi ngừng sử dụng nó?",
+            "answer": "Bạn có thể ngừng sử dụng API Cloud bất kỳ lúc nào. Ứng dụng WhatsApp Business của bạn sẽ tiếp tục hoạt động bình thường với số của bạn. Tuy nhiên, bạn sẽ mất quyền truy cập vào tự động hóa, các tính năng đa tác nhân và tích hợp CRM mà API cung cấp. Bạn sẽ không thể kích hoạt lại chế độ cùng tồn tại cho số đó cho đến khi bạn liên hệ với bộ phận hỗ trợ của Meta và hoàn tất quy trình giới thiệu mới."
+          }
+        }
+      },
+      "cta": {
+        "title": "Vẫn còn câu hỏi về WhatsApp Coexistence?",
+        "button": "Đặt một cuộc họp demo"
+      }
+    },
+    "useCases": {
+      "title": "Các trường hợp sử dụng trong thế giới thực",
+      "subtitle": "Xem cách các doanh nghiệp trong các ngành chuyển đổi trải nghiệm khách hàng của họ với WhatsApp Coexistence",
+      "tabs": {
+        "banking": "Ngân hàng",
+        "retail": "Bán lẻ",
+        "healthcare": "Chăm sóc sức khỏe",
+        "ecommerce": "Thương mại điện tử"
+      },
+      "banking": {
+        "support247": {
+          "title": "Hỗ trợ khách hàng 24/7",
+          "description": "Tự động hóa các yêu cầu về thế chấp và cho vay bằng AI. Các trường hợp phức tạp được chuyển đến các đại lý con người ngay lập tức."
+        },
+        "zeroAbandonment": {
+          "title": "Tỷ lệ bỏ qua bằng không",
+          "description": "AI xử lý 80% các truy vấn lặp đi lặp lại. Khách hàng không bao giờ phải chờ đợi."
+        },
+        "compliance": {
+          "title": "Sẵn sàng tuân thủ",
+          "description": "Hoàn thành các dấu vết kiểm toán và lưu trữ cho các yêu cầu quy định (GDPR, FINRA)."
+        },
+        "caseStudy": {
+          "title": "NGHIÊN CỨU TRƯỜNG HỢP: Bankia S.A.",
+          "points": [
+            "Đã đạt được hỗ trợ 24/7",
+            "Thời gian nhàn rỗi của đại lý giảm 45%",
+            "Sự hài lòng của khách hàng: 9.1/10",
+            "Tỷ lệ bỏ qua bằng không"
+          ]
+        },
+        "results": {
+          "title": "Kết quả",
+          "faqResolution": {
+            "label": "Giải quyết Câu hỏi thường gặp",
+            "value": "80%"
+          },
+          "responseTime": {
+            "label": "Thời gian phản hồi trung bình",
+            "value": "<30 giây"
+          },
+          "costReduction": {
+            "label": "Giảm chi phí",
+            "value": "60%"
+          }
+        }
+      },
+      "retail": {
+        "vipHandling": {
+          "title": "Xử lý khách hàng VIP",
+          "description": "Khách hàng có giá trị cao được quan tâm cá nhân qua ứng dụng di động. Các truy vấn thông thường được tự động hóa."
+        },
+        "orderManagement": {
+          "title": "Quản lý đơn hàng",
+          "description": "Cập nhật vận chuyển tự động và thông báo giao hàng qua API."
+        },
+        "conversions": {
+          "title": "Tăng chuyển đổi",
+          "description": "Thời gian phản hồi nhanh hơn và các cuộc theo dõi được cá nhân hóa thúc đẩy doanh số bán hàng."
+        },
+        "caseStudy": {
+          "title": "NGHIÊN CỨU TRƯỜNG HỢP: Thương hiệu làm đẹp D2C",
+          "points": [
+            "Thời gian phản hồi đầu tiên: 2 giờ → 4 phút",
+            "Tăng tỷ lệ chuyển đổi: 32%",
+            "Đã bật cộng tác đa tác nhân",
+            "Đã hoàn thành tích hợp CRM"
+          ]
+        },
+        "results": {
+          "title": "Kết quả",
+          "responseTime": {
+            "label": "Thời gian phản hồi",
+            "value": "97%"
+          },
+          "conversion": {
+            "label": "Tăng chuyển đổi",
+            "value": "32%"
+          },
+          "efficiency": {
+            "label": "Hiệu quả của nhóm",
+            "value": "+50%"
+          }
+        }
+      },
+      "healthcare": {
+        "appointments": {
+          "title": "Nhắc nhở cuộc hẹn",
+          "description": "Nhắc nhở tự động giảm 60% số lần vắng mặt. Bệnh nhân xác nhận qua WhatsApp."
+        },
+        "labResults": {
+          "title": "Kết quả phòng thí nghiệm an toàn",
+          "description": "Cung cấp kết quả xét nghiệm tuân thủ HIPAA với mã hóa đầu cuối."
+        },
+        "followups": {
+          "title": "Theo dõi bệnh nhân",
+          "description": "AI kiểm tra sau các cuộc hẹn. Chuyển các mối quan tâm đến nhân viên y tế."
+        },
+        "caseStudy": {
+          "title": "NGHIÊN CỨU TRƯỜNG HỢP: AWS Connect + WhatsApp",
+          "points": [
+            "Nhắn tin tuân thủ HIPAA",
+            "Giảm 60% số lần vắng mặt",
+            "Sự hài lòng của bệnh nhân: 4.8/5",
+            "Duy trì dấu vết kiểm toán đầy đủ"
+          ]
+        },
+        "results": {
+          "title": "Kết quả",
+          "noShow": {
+            "label": "Giảm vắng mặt",
+            "value": "60%"
+          },
+          "engagement": {
+            "label": "Sự tham gia của bệnh nhân",
+            "value": "4.8/5"
+          },
+          "compliance": {
+            "label": "Điểm tuân thủ",
+            "value": "100%"
+          }
+        }
+      },
+      "ecommerce": {
+        "cartRecovery": {
+          "title": "Phục hồi giỏ hàng bị bỏ rơi",
+          "description": "Nhắc nhở tự động phục hồi 30% giỏ hàng bị bỏ rơi."
+        },
+        "shipping": {
+          "title": "Cập nhật vận chuyển",
+          "description": "Thông báo theo dõi thời gian thực giúp khách hàng được thông báo."
+        },
+        "vipSupport": {
+          "title": "Hỗ trợ VIP",
+          "description": "Khách hàng có giá trị cao được con người chú ý từ ứng dụng di động."
+        },
+        "caseStudy": {
+          "title": "NGHIÊN CỨU TRƯỜNG HỢP: Cửa hàng thương mại điện tử",
+          "points": [
+            "Phục hồi giỏ hàng: tăng 30%",
+            "Truy vấn vận chuyển: 85% tự động",
+            "Thời gian phản hồi: <5 phút",
+            "Sự hài lòng của khách hàng: 4.6/5"
+          ]
+        },
+        "results": {
+          "title": "Kết quả",
+          "cartRecovery": {
+            "label": "Phục hồi giỏ hàng",
+            "value": "30%"
+          },
+          "automation": {
+            "label": "Tỷ lệ tự động hóa",
+            "value": "85%"
+          },
+          "satisfaction": {
+            "label": "Sự hài lòng của khách hàng",
+            "value": "4.6/5"
+          }
+        }
+      },
+      "cta": {
+        "title": "Chuyển đổi ngành của bạn với WhatsApp Coexistence",
+        "button": "Đăng ký ngay"
+      }
+    },
+    "architecture": {
+      "title": "Kiến trúc kỹ thuật",
+      "subtitle": "Hiểu cách WhatsApp Coexistence hoạt động ngầm",
+      "customer": {
+        "title": "khách hàng",
+        "subtitle": "Tin nhắn từ bất kỳ thiết bị nào"
+      },
+      "businessApp": {
+        "title": "Ứng dụng WhatsApp Business",
+        "subtitle": "Thiết bị di động",
+        "features": [
+          "Giao diện di động gốc",
+          "Cuộc trò chuyện 1:1 thủ công",
+          "Hỗ trợ trò chuyện nhóm",
+          "Cuộc gọi thoại/video"
+        ]
+      },
+      "cloudAPI": {
+        "title": "API đám mây WhatsApp",
+        "subtitle": "Tự động hóa phía máy chủ",
+        "features": [
+          "Đại lý không giới hạn",
+          "Chatbot AI",
+          "Tích hợp CRM",
+          "Phân tích nâng cao"
+        ]
+      },
+      "platform": {
+        "title": "Nền tảng Seasalt.ai",
+        "subtitle": "Hộp thư đến hợp nhất & điều phối",
+        "features": {
+          "mirroring": {
+            "title": "Phản chiếu tin nhắn",
+            "description": "Đồng bộ hóa thời gian thực trên tất cả các kênh"
+          },
+          "echoes": {
+            "title": "Sự kiện tiếng vang",
+            "description": "Theo dõi các câu trả lời ứng dụng thủ công"
+          },
+          "webhooks": {
+            "title": "Định tuyến Webhook",
+            "description": "Định tuyến tin nhắn thông minh"
+          }
+        }
+      },
+      "flows": {
+        "inbound": {
+          "title": "Phản chiếu trong nước",
+          "description": "Khách hàng → Ứng dụng + API đồng thời"
+        },
+        "appEchoes": {
+          "title": "Tiếng vang ứng dụng",
+          "description": "Trả lời thủ công → Thông báo API"
+        },
+        "apiEchoes": {
+          "title": "Tiếng vang API",
+          "description": "Trả lời bot → Thông báo ứng dụng"
+        }
+      },
+      "specs": {
+        "mps20": {
+          "title": "20 MPS",
+          "description": "Thông lượng tin nhắn tối đa cho các tài khoản cùng tồn tại"
+        },
+        "hours24": {
+          "title": "24 tiếng",
+          "description": "Cửa sổ đồng bộ hóa để nhập lịch sử trò chuyện"
+        },
+        "days180": {
+          "title": "180 ngày",
+          "description": "Thời gian lưu giữ lịch sử trò chuyện"
+        },
+        "e2ee": {
+          "title": "E2EE",
+          "description": "Mã hóa đầu cuối cho tất cả các tin nhắn"
+        }
+      },
+      "webhooks": {
+        "title": "Sự kiện Webhook",
+        "events": [
+          { "name": "messages", "description": "Tin nhắn khách hàng đến" },
+          { "name": "smb_message_echoes", "description": "Trả lời ứng dụng thủ công" },
+          { "name": "smb_app_state_sync", "description": "Cập nhật liên hệ" },
+          { "name": "history", "description": "Nhập trò chuyện 6 tháng" }
+        ]
+      },
+      "security": {
+        "title": "Bảo mật & Tuân thủ",
+        "features": [
+          { "name": "Mã hóa đầu cuối", "description": "Tất cả các tin nhắn được bảo vệ" },
+          { "name": "Tuân thủ", "description": "Dấu vết kiểm toán đầy đủ" },
+          { "name": "Sẵn sàng HIPAA", "description": "Được chứng nhận về chăm sóc sức khỏe" },
+          { "name": "PCI DSS", "description": "Bảo mật thẻ thanh toán" }
+        ]
+      },
+      "cta": {
+        "title": "Sẵn sàng triển khai WhatsApp Coexistence?",
+        "button": "Đọc hướng dẫn đầy đủ"
+      }
+    },
+    "ctaSection": {
+      "title": "Sẵn sàng chuyển đổi hoạt động WhatsApp của bạn?",
+      "subtitle": "Tham gia cùng hàng nghìn doanh nghiệp sử dụng WhatsApp Coexistence để mở rộng quy mô trong khi vẫn duy trì tính cá nhân",
+      "benefits": {
+        "keepNumber": {
+          "title": "Giữ số của bạn",
+          "description": "Không cần thay đổi"
+        },
+        "zeroDisruption": {
+          "title": "Không gián đoạn",
+          "description": "Di chuyển liền mạch"
+        },
+        "aiHuman": {
+          "title": "AI + Con người",
+          "description": "Quy trình làm việc kết hợp"
+        },
+        "saveMoney": {
+          "title": "Tiết kiệm tiền",
+          "description": "Tin nhắn ứng dụng miễn phí"
+        }
+      },
+      "primaryCTA": "Đăng ký WhatsApp Coexistence ngay bây giờ",
+      "trust": {
+        "encryption": "Mã hóa đầu cuối",
+        "hipaa": "Tuân thủ HIPAA",
+        "verified": "Đã xác minh meta"
+      },
+      "footer": "Tham gia cùng hơn 10.000 doanh nghiệp đã sử dụng Seasalt.ai để chuyển đổi hoạt động giao tiếp với khách hàng của họ"
+    },
+    "features": {
+      "title": "Một công cụ đa kênh hợp nhất",
+      "subtitle": "Không chỉ là đồng bộ hóa; đó là về việc nâng cấp toàn bộ cơ sở hạ tầng hỗ trợ khách hàng của bạn.",
+      "items": {
+        "sync": {
+          "title": "Đồng bộ hóa 3 chiều",
+          "description": "Tin nhắn đồng bộ hóa ngay lập tức giữa Điện thoại, Bảng điều khiển web Seasalt và Ứng dụng di động Seasalt của bạn. Gửi từ mọi nơi, xem ở mọi nơi."
+        },
+        "agents": {
+          "title": "Đại lý không giới hạn",
+          "description": "Phá vỡ giới hạn 4 thiết bị. Thêm 10, 50 hoặc 100 đại lý vào cùng một số WhatsApp. Giao cuộc trò chuyện cho các đại lý con người hoặc bot AI một cách liền mạch."
+        },
+        "aiHandoff": {
+          "title": "Bàn giao đại lý AI",
+          "description": "Cho phép các Đại lý AI xử lý các yêu cầu ngoài giờ trên nền tảng, trong khi bạn giám sát kết quả trực tiếp trên điện thoại cá nhân của mình."
+        },
+        "history": {
+          "title": "Nhập lịch sử 6 tháng",
+          "description": "Đừng bắt đầu lại từ đầu. Chúng tôi tự động lấy lịch sử trò chuyện trong 6 tháng qua để nhóm của bạn có ngay bối cảnh đầy đủ."
+        },
+        "mobileApp": {
+          "title": "Ứng dụng di động Seasalt",
+          "description": "Nhân viên không cần truy cập vào điện thoại thực của bạn. Họ có thể sử dụng Ứng dụng Seasalt.ai trên thiết bị của riêng mình để trả lời khách hàng khi đang di chuyển."
+        },
+        "unifiedInbox": {
+          "title": "Hộp thư đến hợp nhất",
+          "description": "Kết hợp WhatsApp với SMS, Messenger, LINE và Instagram trong một chế độ xem duy nhất. Ngừng chuyển đổi tab và bắt đầu giải quyết."
+        }
+      },
+      "cta": "Bắt đầu sử dụng WhatsApp Coexistence"
+    },
+    "walkthrough": {
+      "overline": "Hướng dẫn cài đặt",
+      "title": "Bắt đầu sau vài phút",
+      "subtitle": "Không cần mã hóa. Chỉ cần quét và đồng bộ hóa.",
+      "steps": {
+        "step1": {
+          "title": "1. Thêm kênh mới",
+          "description": "Điều hướng đến <strong>Không gian làm việc Seasalt.ai</strong>. Chọn \"Kênh\" và chọn tùy chọn \"Cùng tồn tại WhatsApp\" mới."
+        },
+        "step2": {
+          "title": "2. Liên kết tài khoản Meta",
+          "description": "Đăng nhập bằng tài khoản Facebook của bạn. Chọn danh mục đầu tư kinh doanh của bạn. Quan trọng là, hãy chọn tùy chọn <strong>\"Kết nối ứng dụng WhatsApp Business\"</strong>."
+        },
+        "step3": {
+          "title": "3. Quét & Đồng bộ hóa",
+          "description": "Một mã QR sẽ xuất hiện. Mở <strong>Thiết bị được liên kết</strong> trên điện thoại của bạn và quét nó. Chúng tôi ngay lập tức bắt đầu đồng bộ hóa tối đa <span class=\"text-green-600 font-bold\">6 tháng</span> lịch sử trò chuyện."
+        }
+      },
+      "ui": {
+        "bestOffering": "Ưu đãi tốt nhất",
+        "connect": "Kết nối",
+        "createWABA": "Tạo tài khoản WABA mới",
+        "scanInstruction": "Quét bằng điện thoại của bạn",
+        "syncing": "Đang đồng bộ hóa lịch sử...",
+        "historyLabel": "180 ngày lịch sử trò chuyện"
+      }
+    }
+  }
+}

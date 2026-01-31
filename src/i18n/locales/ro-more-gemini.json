@@ -1,0 +1,123 @@
+
+{
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "Alegerea",
+      "impossibleChoice": "imposibilă",
+      "subtitlePart1": "Păstrați-vă aplicația de telefon",
+      "or": "SAU",
+      "subtitlePart2": "Scalați cu instrumente de întreprindere?",
+      "untilNow": "Până acum, trebuia să sacrifici una pentru cealaltă.",
+      "vs": "VS",
+      "whatYouGet": "✓ Ce obțineți",
+      "dealbreaker": "✗ Obstacolul",
+      "businessApp": {
+        "badge": "Rămâneți mic",
+        "title": "Aplicația WhatsApp Business",
+        "subtitle": "Capcana doar pentru mobil",
+        "pros": {
+          "mobile": "Experiență mobilă nativă",
+          "free": "Mesagerie gratuită"
+        },
+        "cons": {
+          "devices": "Maximum 4 dispozitive conectate",
+          "fifthMember": "Al 5-lea membru al echipei? Imposibil.",
+          "fourDevices": "Doar 4 dispozitive maximum",
+          "cannotAdd": "Nu se pot adăuga agenți pe măsură ce creșteți",
+          "noAutomation": "Fără automatizare sau CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "Pierdeți mobilitatea",
+        "title": "API în cloud",
+        "subtitle": "Capcana doar pentru desktop",
+        "pros": {
+          "unlimited": "Agenți nelimitați",
+          "automation": "Automatizare AI și CRM"
+        },
+        "cons": {
+          "lockedOut": "Telefonul dvs. este blocat",
+          "noMobile": "Fără acces mobil",
+          "noApp": "Fără aplicație mobilă pe telefon",
+          "desktopOnly": "Blocat doar cu desktop/tablou de bord"
+        }
+      },
+      "summary": {
+        "part1": "Fie rămâneți blocat cu o capacitate limitată a echipei,",
+        "part2": "fie pierdeți flexibilitatea de care depinde afacerea dvs.",
+        "dilemma": "Aceasta este dilema cu care se confruntă fiecare afacere în creștere."
+      }
+    },
+    "solution": {
+      "title": "Acum,",
+      "worryNoMore": "Nu vă mai faceți griji.",
+      "subtitle1": "Vă prezentăm",
+      "metaCoexistence": "Coexistența Meta WhatsApp",
+      "subtitle2": "cu Seasalt.ai. Singura soluție care face legătura, oferindu-vă scalabilitatea API-ului fără a renunța la telefon.",
+      "coexistenceTitle": "Coexistența WhatsApp",
+      "tagline": "Două platforme. Un număr de telefon. Zero compromisuri.",
+      "businessApp": {
+        "title": "Aplicația WhatsApp Business",
+        "subtitle": "Experiență mobilă"
+      },
+      "cloudAPI": {
+        "title": "API-ul WhatsApp Cloud",
+        "subtitle": "Scară de întreprindere"
+      },
+      "bestBadge": "CEL MAI BUN",
+      "result": {
+        "title": "Coexistență",
+        "subtitle": "Cel mai bun din ambele lumi"
+      }
+    },
+    "whatIs": {
+      "title": "Ce este coexistența WhatsApp?",
+      "description": "Coexistența WhatsApp este o caracteristică revoluționară care permite companiilor să utilizeze atât aplicația WhatsApp Business, cât și API-ul WhatsApp Cloud pe același număr de telefon,",
+      "simultaneously": "simultan",
+      "before": {
+        "title": "Înainte de coexistență",
+        "point1": "Pierderea istoricului de chat la migrarea la API",
+        "point2": "Schimbarea numărului de telefon sau obținerea unuia nou",
+        "point3": "Alegerea între aplicația personală sau automatizarea întreprinderii",
+        "point4": "Întreruperea relațiilor cu clienții în timpul tranziției"
+      },
+      "after": {
+        "title": "După coexistență",
+        "point1": "Păstrarea aceluiași număr de telefon",
+        "point2": "Sincronizarea a 180 de zile de istoric de chat",
+        "point3": "Utilizarea simultană a aplicației și a API-ului",
+        "point4": "Migrare fără întreruperi"
+      },
+      "omnichannel": {
+        "title": "Un motor omnicanal unificat",
+        "subtitle": "Nu este vorba doar de sincronizare, ci de modernizarea întregii infrastructuri de asistență pentru clienți."
+      },
+      "features": {
+        "sync": {
+          "title": "Sincronizare pe 3 căi",
+          "description": "Mesajele se sincronizează instantaneu între telefonul dvs., tabloul de bord web Seasalt și aplicația mobilă Seasalt. Trimiteți de oriunde, vedeți peste tot."
+        },
+        "agents": {
+          "title": "Agenți nelimitați",
+          "description": "Depășiți limita de 4 dispozitive. Adăugați 10, 50 sau 100 de agenți la același număr de WhatsApp. Atribuiți fără probleme conversații agenților umani sau boților AI."
+        },
+        "aiHandoff": {
+          "title": "Predarea agentului AI",
+          "description": "Permiteți agenților AI să gestioneze întrebările în afara orelor de program pe platformă, în timp ce monitorizați rezultatele direct pe telefonul dvs. personal."
+        },
+        "history": {
+          "title": "Import de istoric de 6 luni",
+          "description": "Nu începeți de la zero. Prelucrăm automat ultimele 6 luni de istoric de chat, astfel încât echipa dvs. să aibă imediat context complet."
+        },
+        "mobileApp": {
+          "title": "Aplicația mobilă Seasalt",
+          "description": "Angajații nu au nevoie de acces la telefonul dvs. fizic. Ei pot folosi aplicația Seasalt.ai pe propriile dispozitive pentru a răspunde clienților din mers."
+        },
+        "unifiedInbox": {
+          "title": "Inbox unificat",
+          "description": "Combinați WhatsApp cu SMS, Messenger, LINE și Instagram într-o singură vizualizare. Nu mai comutați între file și începeți să rezolvați."
+        }
+      }
+    }
+  }
+}

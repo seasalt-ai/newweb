@@ -1,0 +1,556 @@
+{
+  "whatsappCoexistence": {
+    "hero": {
+      "badge": "2026年新增",
+      "title": "保留您的 WhatsApp Business App",
+      "titleHighlight": "並透過 WhatsApp Cloud API 進行擴展",
+      "subtitle": "終結不可能的選擇。兩者同時使用。不再需要為了企業實力而犧牲個人化服務。",
+      "benefits": {
+        "sameNumber": {
+          "title": "相同號碼",
+          "description": "保留您信任的商業號碼"
+        },
+        "noDataLoss": {
+          "title": "無資料遺失",
+          "description": "同步180天的聊天記錄"
+        },
+        "hybridAI": {
+          "title": "混合式 AI + 真人",
+          "description": "擴展自動化，保持個人化"
+        },
+        "zeroDisruption": {
+          "title": "零中斷",
+          "description": "無縫 QR-code 遷移"
+        }
+      },
+      "cta": {
+        "primary": "免費開始",
+        "secondary": "了解運作方式"
+      },
+      "triSync": {
+        "title": "三向同步系統",
+        "subtitle": "三個接觸點之間的即時同步",
+        "phone": {
+          "title": "您的手機",
+          "subtitle": "WhatsApp Business App"
+        },
+        "dashboard": {
+          "title": "Seasalt.ai 儀表板",
+          "subtitle": "中央樞紐"
+        },
+        "fieldTeams": {
+          "title": "現場團隊",
+          "subtitle": "行動應用程式"
+        },
+        "syncLabel": "即時同步",
+        "stats": {
+          "live": "即時",
+          "latency": "<100毫秒",
+          "realtime": "即時"
+        }
+      },
+      "stats": {
+        "syncedDevices": {
+          "value": "無限",
+          "label": "同步裝置"
+        },
+        "humanUsers": {
+          "value": "無限",
+          "label": "真人使用者"
+        },
+        "chatHistory": {
+          "value": "180天",
+          "label": "聊天記錄同步"
+        }
+      }
+    },
+    "comparison": {
+      "title": "比較 WhatsApp 解決方案",
+      "subtitle": "了解 WhatsApp Coexistence 與其他方案的比較",
+      "table": {
+        "feature": "功能",
+        "businessApp": "Business App",
+        "premium": "Premium",
+        "cloudAPI": "Cloud API",
+        "coexistence": "Coexistence",
+        "recommended": "推薦"
+      },
+      "features": {
+        "cost": {
+          "name": "成本",
+          "free": "免費",
+          "premiumRange": "每月15-350美元",
+          "perMessage": "按訊息計費",
+          "hybrid": "混合模式"
+        },
+        "sameNumber": "相同號碼",
+        "chatHistory": "聊天記錄",
+        "multiUser": {
+          "name": "多使用者",
+          "fiveDevices": "5個裝置",
+          "tenDevices": "10個裝置",
+          "unlimited": "無限"
+        },
+        "automation": {
+          "name": "自動化",
+          "basic": "基本",
+          "advancedAI": "進階 AI",
+          "aiHuman": "AI + 真人"
+        },
+        "broadcastLimit": {
+          "name": "廣播限制",
+          "contacts256": "256個聯絡人",
+          "unlimited": "無限"
+        },
+        "crmIntegration": "CRM 整合",
+        "verification": "驗證",
+        "groupChats": {
+          "name": "群組聊天",
+          "appOnly": "僅限應用程式"
+        },
+        "analytics": {
+          "name": "分析",
+          "basic": "基本"
+        },
+        "maxThroughput": {
+          "name": "最大吞吐量",
+          "manual": "手動",
+          "mps80": "80+ MPS",
+          "mps20": "20 MPS"
+        },
+        "migration": {
+          "name": "遷移",
+          "na": "不適用",
+          "disruptive": "中斷式",
+          "seamless": "無縫"
+        }
+      },
+      "days180": "180天",
+      "mobile": {
+        "businessAppTitle": "WhatsApp Business App",
+        "premiumTitle": "WhatsApp Business Premium",
+        "apiTitle": "WhatsApp Business API",
+        "coexistenceTitle": "WhatsApp Coexistence"
+      },
+      "cta": {
+        "title": "準備好升級到 WhatsApp Coexistence 嗎？",
+        "button": "立即註冊"
+      }
+    },
+    "resources": {
+      "title": "資源與文件",
+      "subtitle": "實施 WhatsApp Coexistence 所需的一切",
+      "cards": {
+        "wiki": {
+          "title": "官方 Wiki 指南",
+          "description": "關於 WhatsApp Coexistence 實施、最佳實踐和故障排除的完整技術文件。",
+          "cta": "閱讀文件"
+        },
+        "developer": {
+          "title": "Meta 開發者文件",
+          "description": "關於嵌入式註冊、webhooks 和 API 整合的官方 Meta 文件。",
+          "cta": "查看 API 參考"
+        },
+        "caseStudies": {
+          "title": "案例研究",
+          "description": "來自銀行、零售、醫療保健和電子商務行業的真實世界實施案例。",
+          "cta": "查看使用案例"
+        }
+      },
+      "faq": {
+        "title": "常見問題",
+        "questions": {
+          "q1": {
+            "question": "什麼是 WhatsApp Coexistence？",
+            "answer": "WhatsApp Coexistence 是一項功能，允許企業在同一個電話號碼上同時使用 WhatsApp Business App 和 WhatsApp Cloud API。訊息在兩個平台之間即時同步，讓您在利用 API 的自動化和規模的同時，仍能保持行動應用程式的個人化風格。"
+          },
+          "q2": {
+            "question": "我需要更換我的電話號碼嗎？",
+            "answer": "不需要！WhatsApp Coexistence 的一個主要好處是您可以保留現有的電話號碼。您不需要取得新號碼或更換現有號碼。基於 QR-code 的入門流程會將您目前的 WhatsApp Business App 號碼連結到 Cloud API。"
+          },
+          "q3": {
+            "question": "我會失去我的聊天記錄嗎？",
+            "answer": "不會，您可以在入門過程中保留最多180天的聊天記錄。當您透過嵌入式註冊流程將 WhatsApp Business App 連結到 Cloud API 時，您可以選擇匯入過去六個月的對話記錄和聯絡人。但是，這必須在完成入門流程後的24小時內完成。"
+          },
+          "q4": {
+            "question": "價格如何計算？",
+            "answer": "WhatsApp Coexistence 採用混合定價模式。從 WhatsApp Business App 手動發送的訊息保持100%免費。透過 Cloud API 發送的訊息（包括自動化訊息、範本和廣播）則遵循 Meta 的基於對話的定價模式。這讓您可以透過使用免費的應用程式訊息進行個人化的一對一對話，並使用 API 訊息來擴展規模和自動化，從而優化成本。"
+          },
+          "q5": {
+            "question": "有哪些技術限制？",
+            "answer": "主要技術限制包括：1) 共存帳戶的吞吐量上限為每秒20則訊息（MPS），而獨立 API 帳戶的限制更高；2) 您必須至少每13-14天打開一次 WhatsApp Business App 以維持同步連線；3) 某些應用程式功能被禁用，包括群組聊天同步、閱後即焚訊息、單次檢視媒體以及訊息編輯/撤銷。"
+          },
+          "q6": {
+            "question": "這個功能在所有國家都可用嗎？",
+            "answer": "不是，WhatsApp Coexistence 目前正在分階段推出。截至2026年1月，它在包括奈及利亞和南非在內的某些地區尚不可用。來自這些國家的電話號碼的企業目前不符合資格，將需要在獨立的應用程式或獨立的 API 之間做出選擇。"
+          },
+          "q7": {
+            "question": "遷移需要多長時間？",
+            "answer": "遷移過程設計得快速無縫。基於 QR-code 的嵌入式註冊流程通常需要5-10分鐘完成。如果您選擇匯入聊天記錄，這將在背景進行。整個過程可以在15分鐘內完成，不會中斷您正在進行的 WhatsApp 操作。"
+          },
+          "q8": {
+            "question": "如果我停止使用會怎麼樣？",
+            "answer": "您可以隨時停止使用 Cloud API。您的 WhatsApp Business App 將繼續正常使用您的號碼。但是，您將失去 API 提供的自動化、多Agent功能和 CRM 整合。您將無法為該號碼重新啟用共存，直到您聯繫 Meta 客戶支援並完成新的入門流程。"
+          }
+        }
+      },
+      "cta": {
+        "title": "對 WhatsApp Coexistence 仍有疑問？",
+        "button": "預約示範會議"
+      }
+    },
+    "useCases": {
+      "title": "真實世界使用案例",
+      "subtitle": "了解各行各業的企業如何透過 WhatsApp Coexistence 轉變其客戶體驗",
+      "tabs": {
+        "banking": "銀行業",
+        "retail": "零售業",
+        "healthcare": "醫療保健",
+        "ecommerce": "電子商務"
+      },
+      "banking": {
+        "support247": {
+          "title": "24/7 客戶支援",
+          "description": "利用 AI 自動化處理抵押和貸款查詢。複雜案件立即轉接給真人專員。"
+        },
+        "zeroAbandonment": {
+          "title": "零放棄率",
+          "description": "AI 處理80%的重複性查詢。客戶無需等待。"
+        },
+        "compliance": {
+          "title": "合規就緒",
+          "description": "完整的稽核軌跡和存檔，滿足監管要求（GDPR、FINRA）。"
+        },
+        "caseStudy": {
+          "title": "案例研究：Bankia S.A.",
+          "points": [
+            "實現24/7支援",
+            "專員閒置時間減少45%",
+            "客戶滿意度：9.1/10",
+            "零放棄率"
+          ]
+        },
+        "results": {
+          "title": "成果",
+          "faqResolution": {
+            "label": "常見問題解決率",
+            "value": "80%"
+          },
+          "responseTime": {
+            "label": "平均回應時間",
+            "value": "<30秒"
+          },
+          "costReduction": {
+            "label": "成本降低",
+            "value": "60%"
+          }
+        }
+      },
+      "retail": {
+        "vipHandling": {
+          "title": "VIP 客戶處理",
+          "description": "高價值客戶透過行動應用程式獲得個人化關注。例行查詢自動化。"
+        },
+        "orderManagement": {
+          "title": "訂單管理",
+          "description": "透過 API 自動化運送更新和派送通知。"
+        },
+        "conversions": {
+          "title": "提高轉換率",
+          "description": "更快的應答時間和個人化追蹤促進銷售。"
+        },
+        "caseStudy": {
+          "title": "案例研究：D2C 美妝品牌",
+          "points": [
+            "首次回應時間：2小時 → 4分鐘",
+            "轉換率提升：32%",
+            "啟用多專員協作",
+            "完成 CRM 整合"
+          ]
+        },
+        "results": {
+          "title": "成果",
+          "responseTime": {
+            "label": "回應時間",
+            "value": "97%"
+          },
+          "conversion": {
+            "label": "轉換率提升",
+            "value": "32%"
+          },
+          "efficiency": {
+            "label": "團隊效率",
+            "value": "+50%"
+          }
+        }
+      },
+      "healthcare": {
+        "appointments": {
+          "title": "預約提醒",
+          "description": "自動化提醒使未到診率降低60%。病患透過 WhatsApp 確認。"
+        },
+        "labResults": {
+          "title": "安全的實驗室結果",
+          "description": "符合 HIPAA 規範的測試結果傳送，具備端到端加密。"
+        },
+        "followups": {
+          "title": "病患追蹤",
+          "description": "AI 在預約後進行追蹤。將問題升級給醫療人員。"
+        },
+        "caseStudy": {
+          "title": "案例研究：AWS Connect + WhatsApp",
+          "points": [
+            "符合 HIPAA 的訊息傳遞",
+            "未到診率降低60%",
+            "病患滿意度：4.8/5",
+            "維持完整的稽核軌跡"
+          ]
+        },
+        "results": {
+          "title": "成果",
+          "noShow": {
+            "label": "未到診率降低",
+            "value": "60%"
+          },
+          "engagement": {
+            "label": "病患參與度",
+            "value": "4.8/5"
+          },
+          "compliance": {
+            "label": "合規分數",
+            "value": "100%"
+          }
+        }
+      },
+      "ecommerce": {
+        "cartRecovery": {
+          "title": "放棄的購物車回收",
+          "description": "自動化提醒回收30%的放棄購物車。"
+        },
+        "shipping": {
+          "title": "運送更新",
+          "description": "即時追蹤通知讓客戶隨時了解情況。"
+        },
+        "vipSupport": {
+          "title": "VIP 支援",
+          "description": "高價值客戶從行動應用程式獲得真人關注。"
+        },
+        "caseStudy": {
+          "title": "案例研究：電子商務商店",
+          "points": [
+            "購物車回收率：提升30%",
+            "運送查詢：85%自動化",
+            "回應時間：<5分鐘",
+            "客戶滿意度：4.6/5"
+          ]
+        },
+        "results": {
+          "title": "成果",
+          "cartRecovery": {
+            "label": "購物車回收率",
+            "value": "30%"
+          },
+          "automation": {
+            "label": "自動化率",
+            "value": "85%"
+          },
+          "satisfaction": {
+            "label": "客戶滿意度",
+            "value": "4.6/5"
+          }
+        }
+      },
+      "cta": {
+        "title": "透過 WhatsApp Coexistence 轉變您的產業",
+        "button": "立即註冊"
+      }
+    },
+    "architecture": {
+      "title": "技術架構",
+      "subtitle": "了解 WhatsApp Coexistence 的內部運作原理",
+      "customer": {
+        "title": "客戶",
+        "subtitle": "來自任何裝置的訊息"
+      },
+      "businessApp": {
+        "title": "WhatsApp Business App",
+        "subtitle": "行動裝置",
+        "features": [
+          "原生行動介面",
+          "手動一對一對話",
+          "支援群組聊天",
+          "語音/視訊通話"
+        ]
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "伺服器端自動化",
+        "features": [
+          "無限專員",
+          "AI 聊天機器人",
+          "CRM 整合",
+          "進階分析"
+        ]
+      },
+      "platform": {
+        "title": "Seasalt.ai Platform",
+        "subtitle": "統一收件匣與協調",
+        "features": {
+          "mirroring": {
+            "title": "訊息鏡像",
+            "description": "所有通道間的即時同步"
+          },
+          "echoes": {
+            "title": "回聲事件",
+            "description": "追蹤手動應用程式回覆"
+          },
+          "webhooks": {
+            "title": "Webhook 路由",
+            "description": "智慧訊息路由"
+          }
+        }
+      },
+      "flows": {
+        "inbound": {
+          "title": "傳入鏡像",
+          "description": "客戶 → 應用程式 + API 同時"
+        },
+        "appEchoes": {
+          "title": "應用程式回聲",
+          "description": "手動回覆 → API 通知"
+        },
+        "apiEchoes": {
+          "title": "API 回聲",
+          "description": "機器人回覆 → 應用程式通知"
+        }
+      },
+      "specs": {
+        "mps20": {
+          "title": "20 MPS",
+          "description": "共存帳戶的最大訊息吞吐量"
+        },
+        "hours24": {
+          "title": "24小時",
+          "description": "匯入聊天記錄的同步視窗"
+        },
+        "days180": {
+          "title": "180天",
+          "description": "聊天記錄保留期限"
+        },
+        "e2ee": {
+          "title": "E2EE",
+          "description": "所有訊息的端到端加密"
+        }
+      },
+      "webhooks": {
+        "title": "Webhook 事件",
+        "events": [
+          { "name": "messages", "description": "傳入的客戶訊息" },
+          { "name": "smb_message_echoes", "description": "手動應用程式回覆" },
+          { "name": "smb_app_state_sync", "description": "聯絡人更新" },
+          { "name": "history", "description": "6個月聊天記錄匯入" }
+        ]
+      },
+      "security": {
+        "title": "安全性與合規性",
+        "features": [
+          { "name": "端到端加密", "description": "所有訊息均受保護" },
+          { "name": "合規", "description": "完整的稽核軌跡" },
+          { "name": "符合 HIPAA", "description": "醫療保健認證" },
+          { "name": "PCI DSS", "description": "支付卡安全性" }
+        ]
+      },
+      "cta": {
+        "title": "準備好實施 WhatsApp Coexistence 嗎？",
+        "button": "閱讀完整教學"
+      }
+    },
+    "ctaSection": {
+      "title": "準備好轉變您的 WhatsApp 營運了嗎？",
+      "subtitle": "加入成千上萬使用 WhatsApp Coexistence 的企業，在擴展的同時保持個人化",
+      "benefits": {
+        "keepNumber": {
+          "title": "保留您的號碼",
+          "description": "無需更改"
+        },
+        "zeroDisruption": {
+          "title": "零中斷",
+          "description": "無縫遷移"
+        },
+        "aiHuman": {
+          "title": "AI + 真人",
+          "description": "混合工作流程"
+        },
+        "saveMoney": {
+          "title": "節省金錢",
+          "description": "免費應用程式訊息"
+        }
+      },
+      "primaryCTA": "立即註冊 WhatsApp Coexistence",
+      "trust": {
+        "encryption": "端到端加密",
+        "hipaa": "符合 HIPAA",
+        "verified": "Meta 驗證"
+      },
+      "footer": "加入超過10,000家企業，使用 Seasalt.ai 來轉變他們的客戶溝通"
+    },
+    "features": {
+      "title": "統一的全通路引擎",
+      "subtitle": "這不僅僅是同步；這是升級您的整個客戶支援基礎設施。",
+      "items": {
+        "sync": {
+          "title": "三向同步",
+          "description": "訊息在您的手機、Seasalt 網頁儀表板和 Seasalt 行動應用程式之間即時同步。隨處發送，隨處可見。"
+        },
+        "agents": {
+          "title": "無限專員",
+          "description": "打破4個裝置的限制。將10、50或100個專員加入同一個 WhatsApp 號碼。無縫地將對話分配給真人專員或 AI 機器人。"
+        },
+        "aiHandoff": {
+          "title": "AI 專員交接",
+          "description": "讓 AI 專員在非工作時間處理查詢，同時您可以直接在個人手機上監控結果。"
+        },
+        "history": {
+          "title": "6個月歷史記錄匯入",
+          "description": "不用從頭開始。我們會自動匯入過去6個月的聊天記錄，讓您的團隊立即擁有完整的上下文。"
+        },
+        "mobileApp": {
+          "title": "Seasalt 行動應用程式",
+          "description": "員工無需存取您的實體手機。他們可以在自己的裝置上使用 Seasalt.ai App 回覆客戶。"
+        },
+        "unifiedInbox": {
+          "title": "統一收件匣",
+          "description": "將 WhatsApp 與 SMS、Messenger、LINE 和 Instagram 整合在單一視圖中。停止切換分頁，開始解決問題。"
+        }
+      },
+      "cta": "開始使用 WhatsApp Coexistence"
+    },
+    "walkthrough": {
+      "overline": "設定教學",
+      "title": "幾分鐘內開始",
+      "subtitle": "無需編碼。只需掃描和同步。",
+      "steps": {
+        "step1": {
+          "title": "1. 新增通道",
+          "description": "導覽至 <strong>Seasalt.ai Workspace</strong>。選擇「通道」並選擇新的「WhatsApp Coexistence」選項。"
+        },
+        "step2": {
+          "title": "2. 連結 Meta 帳戶",
+          "description": "使用您的 Facebook 帳戶登入。選擇您的企業組合。關鍵是，選擇選項 <strong>「連接 WhatsApp Business App」</strong>。"
+        },
+        "step3": {
+          "title": "3. 掃描與同步",
+          "description": "將會出現一個 QR code。在您的手機上打開<strong>已連結裝置</strong>並掃描它。我們會立即開始同步最多<span class="text-green-600 font-bold">6個月</span>的聊天記錄。"
+        }
+      },
+      "ui": {
+        "bestOffering": "最佳選擇",
+        "connect": "連接",
+        "createWABA": "建立新的 WABA 帳戶",
+        "scanInstruction": "用您的手機掃描",
+        "syncing": "正在同步歷史記錄...",
+        "historyLabel": "180天的聊天記錄"
+      }
+    }
+  }
+}

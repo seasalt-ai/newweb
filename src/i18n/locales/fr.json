@@ -17946,5 +17946,701 @@
       "localPlus": "local +",
       "tollFreeMinus": "toll-free"
     }
+  },
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "Le",
+      "impossibleChoice": "Choix impossible",
+      "subtitlePart1": "Gardez votre application téléphonique",
+      "or": "OU",
+      "subtitlePart2": "Évoluez avec les outils d'entreprise ?",
+      "untilNow": "Jusqu'à présent, vous deviez sacrifier l'un pour l'autre.",
+      "vs": "VS",
+      "whatYouGet": "✓ Ce que vous obtenez",
+      "dealbreaker": "✗ Le facteur bloquant",
+      "businessApp": {
+        "badge": "Restez petit",
+        "title": "WhatsApp Business App",
+        "subtitle": "Le piège mobile uniquement",
+        "pros": {
+          "mobile": "Expérience mobile native",
+          "free": "Messagerie gratuite"
+        },
+        "cons": {
+          "devices": "Maximum 4 appareils liés",
+          "fifthMember": "5ème membre de l'équipe ? Impossible.",
+          "fourDevices": "Seulement 4 appareils max",
+          "cannotAdd": "Impossible d'ajouter des agents en grandissant",
+          "noAutomation": "Pas d'automatisation ou de CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "Perdre la mobilité",
+        "title": "API Cloud",
+        "subtitle": "Le piège bureau uniquement",
+        "pros": {
+          "unlimited": "Agents illimités",
+          "automation": "Automatisation IA & CRM"
+        },
+        "cons": {
+          "lockedOut": "Votre téléphone est verrouillé",
+          "noMobile": "Aucun accès mobile du tout",
+          "noApp": "Pas d'application mobile sur votre téléphone",
+          "desktopOnly": "Bloqué avec bureau/tableau de bord uniquement"
+        }
+      },
+      "summary": {
+        "part1": "Soit vous restez coincé avec une capacité d'équipe limitée,",
+        "part2": "soit vous perdez la flexibilité dont votre entreprise dépend.",
+        "dilemma": "Tel est le dilemme auquel est confronté chaque entreprise en croissance."
+      }
+    },
+    "solution": {
+      "title": "Maintenant,",
+      "worryNoMore": "Plus besoin de s'inquiéter.",
+      "subtitle1": "Présentation de",
+      "metaCoexistence": "Meta WhatsApp Coexistence",
+      "subtitle2": "avec Seasalt.ai. La seule solution qui comble le fossé, vous offrant l'évolutivité de l'API sans renoncer à votre téléphone.",
+      "coexistenceTitle": "WhatsApp Coexistence",
+      "tagline": "Deux plateformes. Un numéro de téléphone. Zéro compromis.",
+      "businessApp": {
+        "title": "WhatsApp Business App",
+        "subtitle": "Expérience mobile"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "Évolutivité d'entreprise"
+      },
+      "bestBadge": "MEILLEUR",
+      "result": {
+        "title": "Coexistence",
+        "subtitle": "Le meilleur des deux mondes"
+      }
+    },
+    "whatIs": {
+      "title": "Qu'est-ce que WhatsApp Coexistence ?",
+      "description": "WhatsApp Coexistence est une fonction révolutionnaire qui permet aux entreprises d'utiliser à la fois WhatsApp Business App et WhatsApp Cloud API sur le même numéro de téléphone,",
+      "simultaneously": "simultanément",
+      "before": {
+        "title": "Avant la coexistence",
+        "point1": "Perte de l'historique des discussions lors de la migration vers l'API",
+        "point2": "Changer de numéro de téléphone ou en obtenir un nouveau",
+        "point3": "Choisir entre application personnelle ou automatisation d'entreprise",
+        "point4": "Interrompre les relations avec les clients pendant la transition"
+      },
+      "after": {
+        "title": "Après la coexistence",
+        "point1": "Garder le même numéro de téléphone",
+        "point2": "Synchroniser 180 jours d'historique des discussions",
+        "point3": "Utiliser l'application et l'API simultanément",
+        "point4": "Migration sans interruption"
+      },
+      "omnichannel": {
+        "title": "Un moteur Omni-Channel unifié",
+        "subtitle": "Il ne s'agit pas seulement de synchronisation; il s'agit de mettre à niveau toute votre infrastructure de support client."
+      },
+      "features": {
+        "sync": {
+          "title": "Synchronisation à 3 voies",
+          "description": "Les messages se synchronisent instantanément entre votre téléphone, le tableau de bord web Seasalt et l'application mobile Seasalt. Envoyez de n'importe où, voyez-le partout."
+        },
+        "agents": {
+          "title": "Agents illimités",
+          "description": "Brisez la limite de 4 appareils. Ajoutez 10, 50 ou 100 agents au même numéro WhatsApp. Attribuez des conversations à des agents humains ou des robots IA sans heurts."
+        },
+        "aiHandoff": {
+          "title": "Transmission d'agent IA",
+          "description": "Activez les agents IA pour traiter les demandes en dehors des heures ouvrables sur la plateforme, tandis que vous surveillez les résultats directement sur votre téléphone personnel."
+        },
+        "history": {
+          "title": "Importation d'historique de 6 mois",
+          "description": "Ne commencez pas à zéro. Nous récupérons automatiquement les 6 derniers mois d'historique des discussions afin que votre équipe dispose immédiatement de tout le contexte."
+        },
+        "mobileApp": {
+          "title": "Application mobile Seasalt",
+          "description": "Les employés n'ont pas besoin d'accéder à votre téléphone physique. Ils peuvent utiliser l'application Seasalt.ai sur leurs propres appareils pour répondre aux clients en déplacement."
+        },
+        "unifiedInbox": {
+          "title": "Boîte de réception unifiée",
+          "description": "Combinez WhatsApp avec SMS, Messenger, LINE et Instagram en une seule vue. Arrêtez de basculer entre les onglets et commencez à résoudre."
+        }
+      }
+    },
+    "hero": {
+      "badge": "Nouveau pour 2026",
+      "title": "Gardez votre application WhatsApp Business",
+      "titleHighlight": "ET Évoluez avec l'API Cloud WhatsApp",
+      "subtitle": "La fin du choix impossible. Utilisez les deux simultanément. Plus besoin de sacrifier le contact humain à la puissance d'entreprise.",
+      "benefits": {
+        "sameNumber": {
+          "title": "Même numéro",
+          "description": "Gardez votre numéro d'entreprise de confiance"
+        },
+        "noDataLoss": {
+          "title": "Aucune perte de données",
+          "description": "Synchronisez 180 jours d'historique de discussion"
+        },
+        "hybridAI": {
+          "title": "IA Hybride + Humain",
+          "description": "Évoluez en automatisation, restez personnel"
+        },
+        "zeroDisruption": {
+          "title": "Zéro interruption",
+          "description": "Migration sans heurt par code QR"
+        }
+      },
+      "cta": {
+        "primary": "Commencer gratuitement",
+        "secondary": "Découvrez comment cela fonctionne"
+      },
+      "triSync": {
+        "title": "Le système Tri-Sync",
+        "subtitle": "Synchronisation en temps réel sur trois points de contact",
+        "phone": {
+          "title": "Votre téléphone",
+          "subtitle": "Application WhatsApp Business"
+        },
+        "dashboard": {
+          "title": "Tableau de bord seasalt.ai",
+          "subtitle": "hub central"
+        },
+        "fieldTeams": {
+          "title": "Équipes terrain",
+          "subtitle": "application mobile"
+        },
+        "syncLabel": "synchronisation en temps réel",
+        "stats": {
+          "live": "en direct",
+          "latency": "<100ms",
+          "realtime": "temps réel"
+        }
+      },
+      "stats": {
+        "syncedDevices": {
+          "value": "Illimité",
+          "label": "appareils synchronisés"
+        },
+        "humanUsers": {
+          "value": "Illimité",
+          "label": "utilisateurs humains"
+        },
+        "chatHistory": {
+          "value": "180 Jours",
+          "label": "Synchronisation de l'historique des discussions"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Comparer les solutions WhatsApp",
+      "subtitle": "Voyez comment WhatsApp Coexistence se compare aux alternatives",
+      "table": {
+        "feature": "Fonctionnalité",
+        "businessApp": "Application Business",
+        "premium": "Premium",
+        "cloudAPI": "API Cloud",
+        "coexistence": "Coexistence",
+        "recommended": "RECOMMANDÉ"
+      },
+      "features": {
+        "cost": {
+          "name": "Coût",
+          "free": "Gratuit",
+          "premiumRange": "15-350$/mois",
+          "perMessage": "Par message",
+          "hybrid": "Modèle hybride"
+        },
+        "sameNumber": "Même numéro",
+        "chatHistory": "Historique des discussions",
+        "multiUser": {
+          "name": "Multi-utilisateur",
+          "fiveDevices": "5 appareils",
+          "tenDevices": "10 appareils",
+          "unlimited": "Illimité"
+        },
+        "automation": {
+          "name": "Automatisation",
+          "basic": "Basique",
+          "advancedAI": "IA avancée",
+          "aiHuman": "IA + Humain"
+        },
+        "broadcastLimit": {
+          "name": "Limite de diffusion",
+          "contacts256": "256 contacts",
+          "unlimited": "Illimité"
+        },
+        "crmIntegration": "Intégration CRM",
+        "verification": "Vérification",
+        "groupChats": {
+          "name": "Discussions de groupe",
+          "appOnly": "Application uniquement"
+        },
+        "analytics": {
+          "name": "Analytique",
+          "basic": "Basique"
+        },
+        "maxThroughput": {
+          "name": "Débit maximal",
+          "manual": "Manuel",
+          "mps80": "80+ MPS",
+          "mps20": "20 MPS"
+        },
+        "migration": {
+          "name": "Migration",
+          "na": "N/A",
+          "disruptive": "Disruptive",
+          "seamless": "Sans heurt"
+        }
+      },
+      "days180": "180 jours",
+      "mobile": {
+        "businessAppTitle": "Application WhatsApp Business",
+        "premiumTitle": "WhatsApp Business Premium",
+        "apiTitle": "API WhatsApp Business",
+        "coexistenceTitle": "WhatsApp Coexistence"
+      },
+      "cta": {
+        "title": "Prêt à passer à WhatsApp Coexistence ?",
+        "button": "S'inscrire maintenant"
+      }
+    },
+    "resources": {
+      "title": "Ressources et documentation",
+      "subtitle": "Tout ce dont vous avez besoin pour implémenter WhatsApp Coexistence",
+      "cards": {
+        "wiki": {
+          "title": "Guide officiel du wiki",
+          "description": "Documentation technique complète sur l'implémentation de WhatsApp Coexistence, les meilleures pratiques et le dépannage.",
+          "cta": "Lire la documentation"
+        },
+        "developer": {
+          "title": "Documents développeur Meta",
+          "description": "Documentation officielle Meta pour l'inscription intégrée, les webhooks et l'intégration API.",
+          "cta": "Voir la référence API"
+        },
+        "caseStudies": {
+          "title": "Études de cas",
+          "description": "Implémentations du monde réel dans les secteurs bancaire, de détail, médical et e-commerce.",
+          "cta": "Voir les cas d'utilisation"
+        }
+      },
+      "faq": {
+        "title": "Questions fréquentes",
+        "questions": {
+          "q1": {
+            "question": "Qu'est-ce que WhatsApp Coexistence ?",
+            "answer": "WhatsApp Coexistence est une fonctionnalité qui permet aux entreprises d'utiliser à la fois l'application WhatsApp Business et l'API Cloud WhatsApp sur le même numéro de téléphone, simultanément. Les messages sont synchronisés en temps réel entre les deux plateformes, vous permettant de conserver le côté personnalisé de l'application mobile tout en profitant de l'automatisation et de l'évolutivité de l'API."
+          },
+          "q2": {
+            "question": "Dois-je changer mon numéro de téléphone ?",
+            "answer": "Non ! L'un des principaux avantages de WhatsApp Coexistence est que vous conservez votre numéro de téléphone existant. Vous n'avez pas besoin d'obtenir un nouveau numéro ou de modifier votre numéro actuel. Le processus d'intégration basé sur un code QR lie votre numéro WhatsApp Business actuel à l'API Cloud."
+          },
+          "q3": {
+            "question": "Vais-je perdre mon historique de discussion ?",
+            "answer": "Non, vous pouvez conserver jusqu'à 180 jours d'historique de discussion pendant l'intégration. Lorsque vous liez votre application WhatsApp Business à l'API Cloud via le processus d'inscription intégré, vous avez la possibilité d'importer vos six derniers mois d'historique de conversation et de contacts. Cependant, cela doit être fait dans les 24 heures suivant la finalisation du processus d'intégration."
+          },
+          "q4": {
+            "question": "Comment fonctionne la tarification ?",
+            "answer": "WhatsApp Coexistence permet un modèle de tarification hybride. Les messages envoyés manuellement depuis l'application WhatsApp Business restent 100 % gratuits. Les messages envoyés via l'API Cloud (y compris les messages automatisés, les modèles et les diffusions) suivent le modèle de tarification basé sur les conversations de Meta. Cela vous permet d'optimiser les coûts en utilisant la messagerie gratuite de l'application pour les conversations personnelles 1:1 et la messagerie API pour l'évolutivité et l'automatisation."
+          },
+          "q5": {
+            "question": "Quelles sont les limitations techniques ?",
+            "answer": "Les principales limitations techniques sont : 1) Le débit est limité à 20 messages par seconde (MPS) pour les comptes de coexistence, comparé à des limites plus élevées pour les comptes API autonomes ; 2) Vous devez ouvrir l'application WhatsApp Business au moins une fois tous les 13-14 jours pour maintenir la connexion de synchronisation ; 3) Certaines fonctions de l'application sont désactivées, notamment la synchronisation des discussions de groupe, les messages éphémères, les médias à visionnage unique et l'édition/révocation des messages."
+          },
+          "q6": {
+            "question": "Est-ce disponible dans tous les pays ?",
+            "answer": "Non, WhatsApp Coexistence est actuellement en déploiement progressif. En janvier 2026, il n'est pas disponible dans certaines régions, notamment le Nigeria et l'Afrique du Sud. Les entreprises disposant de numéros de téléphone provenant de ces pays ne sont actuellement pas éligibles et devront choisir entre une application autonome ou une API autonome."
+          },
+          "q7": {
+            "question": "Combien de temps prend la migration ?",
+            "answer": "Le processus de migration est conçu pour être rapide et transparent. Le flux d'inscription intégré basé sur un code QR prend généralement 5 à 10 minutes pour être terminé. Si vous choisissez d'importer l'historique des discussions, cela se fera en arrière-plan. L'ensemble du processus peut être terminé en moins de 15 minutes sans interruption de vos opérations WhatsApp en cours."
+          },
+          "q8": {
+            "question": "Que se passe-t-il si j'arrête de l'utiliser ?",
+            "answer": "Vous pouvez arrêter d'utiliser l'API Cloud à tout moment. Votre application WhatsApp Business continuera à fonctionner normalement avec votre numéro. Cependant, vous perdrez l'accès à l'automatisation, aux fonctionnalités multi-agents et à l'intégration CRM que l'API fournissait. Vous ne pourrez pas réactiver la coexistence pour ce numéro tant que vous n'aurez pas contacté le support Meta et effectué un nouveau processus d'intégration."
+          }
+        }
+      },
+      "cta": {
+        "title": "Vous avez encore des questions sur WhatsApp Coexistence ?",
+        "button": "Réservez une démonstration"
+      }
+    },
+    "useCases": {
+      "title": "Cas d'utilisation du monde réel",
+      "subtitle": "Voyez comment les entreprises dans divers secteurs transforment leur expérience client avec WhatsApp Coexistence",
+      "tabs": {
+        "banking": "Banque",
+        "retail": "Détail",
+        "healthcare": "Santé",
+        "ecommerce": "E-commerce"
+      },
+      "banking": {
+        "support247": {
+          "title": "Support client 24/7",
+          "description": "Automatisez les demandes de prêts hypothécaires et de crédit avec l'IA. Les cas complexes sont immédiatement transmis à des agents humains."
+        },
+        "zeroAbandonment": {
+          "title": "Taux d'abandon nul",
+          "description": "L'IA gère 80 % des questions répétitives. Les clients n'attendent jamais en ligne."
+        },
+        "compliance": {
+          "title": "Prêt à la conformité",
+          "description": "Archives complètes et traces d'audit pour les exigences réglementaires (RGPD, FINRA)."
+        },
+        "caseStudy": {
+          "title": "ÉTUDE DE CAS : Bankia S.A.",
+          "points": [
+            "Support 24/7 atteint",
+            "Temps d'inactivité des agents réduit de 45 %",
+            "Satisfaction client : 9,1/10",
+            "Taux d'abandon nul"
+          ]
+        },
+        "results": {
+          "title": "Résultats",
+          "faqResolution": {
+            "label": "Résolution FAQ",
+            "value": "80 %"
+          },
+          "responseTime": {
+            "label": "Délai moyen de réponse",
+            "value": "<30s"
+          },
+          "costReduction": {
+            "label": "Réduction des coûts",
+            "value": "60 %"
+          }
+        }
+      },
+      "retail": {
+        "vipHandling": {
+          "title": "Gestion des clients VIP",
+          "description": "Les clients à forte valeur reçoivent une attention personnalisée via l'application mobile. Les demandes routinières sont automatisées."
+        },
+        "orderManagement": {
+          "title": "Gestion des commandes",
+          "description": "Mises à jour automatiques des expéditions et notifications de livraison via l'API."
+        },
+        "conversions": {
+          "title": "Augmentation des conversions",
+          "description": "Des temps de réponse plus rapides et des relances personnalisées stimulent les ventes."
+        },
+        "caseStudy": {
+          "title": "ÉTUDE DE CAS : Marque beauté D2C",
+          "points": [
+            "Premier délai de réponse : 2h → 4 min",
+            "Augmentation du taux de conversion : 32 %",
+            "Collaboration multi-agent activée",
+            "Intégration CRM terminée"
+          ]
+        },
+        "results": {
+          "title": "Résultats",
+          "responseTime": {
+            "label": "Délai de réponse",
+            "value": "97 %"
+          },
+          "conversion": {
+            "label": "Augmentation des conversions",
+            "value": "32 %"
+          },
+          "efficiency": {
+            "label": "Efficacité de l'équipe",
+            "value": "+50 %"
+          }
+        }
+      },
+      "healthcare": {
+        "appointments": {
+          "title": "Rappels de rendez-vous",
+          "description": "Des rappels automatisés réduisent les absences de 60 %. Les patients confirment via WhatsApp."
+        },
+        "labResults": {
+          "title": "Résultats d'analyses sécurisés",
+          "description": "Livraison conforme à la norme HIPAA des résultats d'analyses avec chiffrement de bout en bout."
+        },
+        "followups": {
+          "title": "Suivi des patients",
+          "description": "L'IA vérifie après les rendez-vous. Transmet les préoccupations au personnel médical."
+        },
+        "caseStudy": {
+          "title": "ÉTUDE DE CAS : AWS Connect + WhatsApp",
+          "points": [
+            "Messagerie conforme à la norme HIPAA",
+            "60 % de réduction des absences",
+            "Satisfaction des patients : 4,8/5",
+            "Trace d'audit complète maintenue"
+          ]
+        },
+        "results": {
+          "title": "Résultats",
+          "noShow": {
+            "label": "Réduction des absences",
+            "value": "60 %"
+          },
+          "engagement": {
+            "label": "Engagement des patients",
+            "value": "4,8/5"
+          },
+          "compliance": {
+            "label": "Score de conformité",
+            "value": "100 %"
+          }
+        }
+      },
+      "ecommerce": {
+        "cartRecovery": {
+          "title": "Récupération des paniers abandonnés",
+          "description": "Des rappels automatisés récupèrent 30 % des paniers abandonnés."
+        },
+        "shipping": {
+          "title": "Mises à jour d'expédition",
+          "description": "Notifications de suivi en temps réel tiennent les clients informés."
+        },
+        "vipSupport": {
+          "title": "Support VIP",
+          "description": "Les clients à forte valeur reçoivent une attention humaine depuis l'application mobile."
+        },
+        "caseStudy": {
+          "title": "ÉTUDE DE CAS : Boutique e-commerce",
+          "points": [
+            "Récupération de panier : augmentation de 30 %",
+            "Demandes d'expédition : 85 % automatisées",
+            "Délai de réponse : <5 minutes",
+            "Satisfaction client : 4,6/5"
+          ]
+        },
+        "results": {
+          "title": "Résultats",
+          "cartRecovery": {
+            "label": "Récupération de panier",
+            "value": "30 %"
+          },
+          "automation": {
+            "label": "Taux d'automatisation",
+            "value": "85 %"
+          },
+          "satisfaction": {
+            "label": "Satisfaction client",
+            "value": "4,6/5"
+          }
+        }
+      },
+      "cta": {
+        "title": "Transformez votre secteur avec WhatsApp Coexistence",
+        "button": "S'inscrire maintenant"
+      }
+    },
+    "architecture": {
+      "title": "Architecture technique",
+      "subtitle": "Comprenez comment WhatsApp Coexistence fonctionne sous le capot",
+      "customer": {
+        "title": "Client",
+        "subtitle": "Messages de n'importe quel appareil"
+      },
+      "businessApp": {
+        "title": "Application WhatsApp Business",
+        "subtitle": "Appareil mobile",
+        "features": [
+          "Interface mobile native",
+          "Conversations 1:1 manuelles",
+          "Support des discussions de groupe",
+          "Appels vocaux/vidéo"
+        ]
+      },
+      "cloudAPI": {
+        "title": "API Cloud WhatsApp",
+        "subtitle": "Automatisation côté serveur",
+        "features": [
+          "Agents illimités",
+          "Chatbots IA",
+          "Intégration CRM",
+          "Analytique avancée"
+        ]
+      },
+      "platform": {
+        "title": "Plateforme Seasalt.ai",
+        "subtitle": "Boîte de réception unifiée & orchestration",
+        "features": {
+          "mirroring": {
+            "title": "Miroir de messages",
+            "description": "Synchronisation en temps réel sur tous les canaux"
+          },
+          "echoes": {
+            "title": "Événements écho",
+            "description": "Suivi des réponses manuelles de l'application"
+          },
+          "webhooks": {
+            "title": "Routage des webhooks",
+            "description": "Routage intelligent des messages"
+          }
+        }
+      },
+      "flows": {
+        "inbound": {
+          "title": "Miroir entrant",
+          "description": "Client → Application + API simultanément"
+        },
+        "appEchoes": {
+          "title": "Échos de l'application",
+          "description": "Réponse manuelle → Notification API"
+        },
+        "apiEchoes": {
+          "title": "Échos API",
+          "description": "Réponse bot → Notification application"
+        }
+      },
+      "specs": {
+        "mps20": {
+          "title": "20 MPS",
+          "description": "Débit maximal de messages pour les comptes de coexistence"
+        },
+        "hours24": {
+          "title": "24 Heures",
+          "description": "Fenêtre de synchronisation pour l'importation de l'historique des discussions"
+        },
+        "days180": {
+          "title": "180 Jours",
+          "description": "Période de conservation de l'historique des discussions"
+        },
+        "e2ee": {
+          "title": "E2E",
+          "description": "Chiffrement de bout en bout pour tous les messages"
+        }
+      },
+      "webhooks": {
+        "title": "Événements webhook",
+        "events": [
+          {
+            "name": "messages",
+            "description": "Messages clients entrants"
+          },
+          {
+            "name": "smb_message_echoes",
+            "description": "Réponses manuelles de l'application"
+          },
+          {
+            "name": "smb_app_state_sync",
+            "description": "Mises à jour des contacts"
+          },
+          {
+            "name": "history",
+            "description": "Importation de discussion sur 6 mois"
+          }
+        ]
+      },
+      "security": {
+        "title": "Sécurité & Conformité",
+        "features": [
+          {
+            "name": "Chiffrement de bout en bout",
+            "description": "Tous les messages protégés"
+          },
+          {
+            "name": "Conforme",
+            "description": "Traces d'audit complètes"
+          },
+          {
+            "name": "Prêt pour HIPAA",
+            "description": "Certifié santé"
+          },
+          {
+            "name": "PCI DSS",
+            "description": "Sécurité des cartes de paiement"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Prêt à implémenter WhatsApp Coexistence ?",
+        "button": "Lire le tutoriel complet"
+      }
+    },
+    "ctaSection": {
+      "title": "Prêt à transformer vos opérations WhatsApp ?",
+      "subtitle": "Rejoignez des milliers d'entreprises utilisant WhatsApp Coexistence pour évoluer tout en restant personnel",
+      "benefits": {
+        "keepNumber": {
+          "title": "Gardez votre numéro",
+          "description": "Aucun changement nécessaire"
+        },
+        "zeroDisruption": {
+          "title": "Zéro interruption",
+          "description": "Migration sans heurt"
+        },
+        "aiHuman": {
+          "title": "IA + Humain",
+          "description": "Flux de travail hybrides"
+        },
+        "saveMoney": {
+          "title": "Économisez de l'argent",
+          "description": "Messagerie d'application gratuite"
+        }
+      },
+      "primaryCTA": "S'inscrire maintenant à WhatsApp Coexistence",
+      "trust": {
+        "encryption": "Chiffrement de bout en bout",
+        "hipaa": "Conforme à HIPAA",
+        "verified": "Vérifié par Meta"
+      },
+      "footer": "Rejoignez plus de 10 000 entreprises utilisant déjà Seasalt.ai pour transformer leurs communications clients"
+    },
+    "features": {
+      "title": "Un moteur Omni-Channel unifié",
+      "subtitle": "Il ne s'agit pas seulement de synchronisation ; il s'agit de mettre à niveau toute votre infrastructure de support client.",
+      "items": {
+        "sync": {
+          "title": "Synchronisation à 3 voies",
+          "description": "Les messages sont synchronisés instantanément entre votre Téléphone, le Tableau de bord Web Seasalt et l'Application Mobile Seasalt. Envoyez de n'importe où, voyez-le partout."
+        },
+        "agents": {
+          "title": "Agents illimités",
+          "description": "Brisez la limite de 4 appareils. Ajoutez 10, 50 ou 100 agents au même numéro WhatsApp. Assignez des conversations à des agents humains ou des bots IA sans heurt."
+        },
+        "aiHandoff": {
+          "title": "Transmission d'agent IA",
+          "description": "Activez les agents IA pour traiter les demandes en dehors des heures d'ouverture sur la plateforme, tout en surveillant les résultats directement sur votre téléphone personnel."
+        },
+        "history": {
+          "title": "Importation d'historique sur 6 mois",
+          "description": "Ne commencez pas à zéro. Nous extrayons automatiquement les 6 derniers mois d'historique de discussion pour que votre équipe dispose immédiatement de tout le contexte."
+        },
+        "mobileApp": {
+          "title": "Application mobile Seasalt",
+          "description": "Les employés n'ont pas besoin d'accéder à votre téléphone physique. Ils peuvent utiliser l'application Seasalt.ai sur leurs propres appareils pour répondre aux clients en déplacement."
+        },
+        "unifiedInbox": {
+          "title": "Boîte de réception unifiée",
+          "description": "Combinez WhatsApp avec SMS, Messenger, LINE et Instagram en une seule vue. Arrêtez de naviguer entre les onglets et commencez à résoudre."
+        }
+      },
+      "cta": "Commencer à utiliser WhatsApp Coexistence"
+    },
+    "walkthrough": {
+      "overline": "La procédure de configuration",
+      "title": "Commencez en quelques minutes",
+      "subtitle": "Aucun codage requis. Il suffit de scanner et synchroniser.",
+      "steps": {
+        "step1": {
+          "title": "1. Ajouter un nouveau canal",
+          "description": "Accédez à <strong>Espace de travail Seasalt.ai</strong>. Sélectionnez \"Canaux\" et choisissez la nouvelle option \"WhatsApp Coexistence\"."
+        },
+        "step2": {
+          "title": "2. Lier le compte Meta",
+          "description": "Connectez-vous avec votre compte Facebook. Sélectionnez votre portefeuille d'entreprise. Choisissez crucialement l'option <strong>\"Connecter une application WhatsApp Business\"</strong>."
+        },
+        "step3": {
+          "title": "3. Scanner & Synchroniser",
+          "description": "Un code QR apparaîtra. Ouvrez <strong>Appareils connectés</strong> sur votre téléphone et scannez-le. Nous commençons instantanément à synchroniser jusqu'à <span class=\"text-green-600 font-bold\">6 mois</span> d'historique de discussion."
+        }
+      },
+      "ui": {
+        "bestOffering": "Meilleure offre",
+        "connect": "Connecter",
+        "createWABA": "Créer un nouveau compte WABA",
+        "scanInstruction": "Scanner avec votre téléphone",
+        "syncing": "Synchronisation de l'historique...",
+        "historyLabel": "180 jours d'historique de discussion"
+      }
+    }
   }
 }

@@ -180,7 +180,7 @@ const newChineseKeys = {
         devices: "最多4个关联设备",
         fifthMember: "第5个团队成员？不可能。",
         fourDevices: "最多仅4台设备",
-        cannotAdd: "无法随增长添加代理",
+        cannotAdd: "无法随增长添加Agent",
         noAutomation: "无自动化或CRM"
       }
     },
@@ -189,7 +189,7 @@ const newChineseKeys = {
       title: "云API",
       subtitle: "仅限桌面的陷阱",
       pros: {
-        unlimited: "无限代理",
+        unlimited: "无限Agent",
         automation: "AI自动化与CRM"
       },
       cons: {
@@ -255,12 +255,12 @@ const newChineseKeys = {
         description: "消息在您的手机、Seasalt Web仪表板和Seasalt移动应用之间即时同步。从任何地方发送，在任何地方查看。"
       },
       agents: {
-        title: "无限代理",
-        description: "突破4台设备限制。将10、50或100个代理添加到同一个WhatsApp号码。将对话无缝分配给人工代理或AI机器人。"
+        title: "无限Agent",
+        description: "突破4台设备限制。将10、50或100个Agent添加到同一个WhatsApp号码。将对话无缝分配给人工Agent或AI机器人。"
       },
       aiHandoff: {
-        title: "AI代理交接",
-        description: "启用AI代理在非工作时间处理平台上的咨询，同时在您的个人手机上监控结果。"
+        title: "AIAgent交接",
+        description: "启用AIAgent在非工作时间处理平台上的咨询，同时在您的个人手机上监控结果。"
       },
       history: {
         title: "6个月历史导入",

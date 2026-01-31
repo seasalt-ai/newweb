@@ -94,6 +94,6 @@ draft: false
 
 ## 使用 SeaChat 您可以做更多事情
 
-无论您最终选择哪种电子邮件营销服务，[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 都能与大多数电子邮件营销平台良好集成。您可以从 SeaChat AI 代理收集电子邮件和潜在客户，并直接同步到您的电子邮件营销列表。
+无论您最终选择哪种电子邮件营销服务，[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 都能与大多数电子邮件营销平台良好集成。您可以从 SeaChat AI Agent收集电子邮件和潜在客户，并直接同步到您的电子邮件营销列表。
 
-在 10 分钟内构建并启动 AI 聊天代理。多语言支持。实时代理转移。与网页聊天、短信、Line、CRM、Shopify、日历、Twilio、ZenDesk 和电话集成。如需更多详细信息，请发送电子邮件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 或[预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+在 10 分钟内构建并启动 AI 聊天Agent。多语言支持。实时Agent转移。与网页聊天、短信、Line、CRM、Shopify、日历、Twilio、ZenDesk 和电话集成。如需更多详细信息，请发送电子邮件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 或[预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。

@@ -29,7 +29,7 @@ draft: false
 
 1. [為什麼小型企業需要外撥/電話行銷服務](https://seasalt.ai/blog/why-outbound-call-sm-business/)：了解外撥服務的重要性和優勢。
 
-2. [電話行銷外撥的內部與外包](https://seasalt.ai/blog/live-outbound-inhouse-outsourced/)：什麼是即時外撥代理？您應該外包還是內部招聘？
+2. [電話行銷外撥的內部與外包](https://seasalt.ai/blog/live-outbound-inhouse-outsourced/)：什麼是即時外撥Agent？您應該外包還是內部招聘？
 
 3. （本文）[外撥自動撥號器](https://seasalt.ai/blog/auto-dialer-outbound/)：什麼是自動撥號器？Power Dialer、Progressive Dialer 和 Predictive Dialer 之間有什麼區別？哪種服務適合您的業務？
 
@@ -41,7 +41,7 @@ draft: false
 
 在當今快節奏的商業世界中，高效且可擴展的外撥策略至關重要，特別是對於醫療保健、金融、零售和不動產等行業。即時座席傳統上被認為是提供個人化客戶體驗的黃金標準，但他們面臨著巨大的挑戰，例如高昂的人力成本和高需求期間有限的可擴展性。
 
-另一方面，完全自動化的系統，例如語音 AI 代理和自動呼叫服務，提供了更高的效率和可擴展性，但它們缺乏人工代理所提供的細緻入微的理解和同理心。這導致企業尋求一種中間解決方案：半自動化模型。
+另一方面，完全自動化的系統，例如語音 AI Agent和自動呼叫服務，提供了更高的效率和可擴展性，但它們缺乏人工Agent所提供的細緻入微的理解和同理心。這導致企業尋求一種中間解決方案：半自動化模型。
 
 半自動化模型將自動化的力量與人情味相結合，創造了一種平衡，可以優化成本和客戶體驗。該模型利用 Power Dialer、Progressive Dialer 和 Predictive Dialer 等自動撥號器。
 這些自動撥號器中的每一個都提供獨特的優勢，使其適用於根據業務需求和目標的不同用例。

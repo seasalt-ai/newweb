@@ -1,0 +1,122 @@
+{
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "",
+      "impossibleChoice": "不可能な選択",
+      "subtitlePart1": "あなたの電話アプリを維持",
+      "or": "または",
+      "subtitlePart2": "エンタープライズツールでスケールアップ？",
+      "untilNow": "これまで、どちらか一方を犠牲にする必要がありました。",
+      "vs": "対",
+      "whatYouGet": "✓ 得られるもの",
+      "dealbreaker": "✗ 断念の理由",
+      "businessApp": {
+        "badge": "小規模のままで",
+        "title": "WhatsApp Business App",
+        "subtitle": "モバイル限定の罠",
+        "pros": {
+          "mobile": "ネイティブなモバイル体験",
+          "free": "無料メッセージ"
+        },
+        "cons": {
+          "devices": "最大4台の連携デバイス",
+          "fifthMember": "5人目のチームメンバー？不可能です。",
+          "fourDevices": "最大4台のデバイスのみ",
+          "cannotAdd": "成長してもエージェントを追加できない",
+          "noAutomation": "自動化やCRMがない"
+        }
+      },
+      "cloudAPI": {
+        "badge": "モビリティを失う",
+        "title": "クラウドAPI",
+        "subtitle": "デスクトップ限定の罠",
+        "pros": {
+          "unlimited": "無制限のエージェント",
+          "automation": "AI自動化 & CRM"
+        },
+        "cons": {
+          "lockedOut": "あなたの電話はロックアウトされます",
+          "noMobile": "モバイルアクセスがまったくない",
+          "noApp": "電話にモバイルアプリがない",
+          "desktopOnly": "デスクトップ/ダッシュボードのみに固定"
+        }
+      },
+      "summary": {
+        "part1": "チーム容量が限られたまま留まるか、",
+        "part2": "あなたのビジネスが依存する柔軟性を失うことになります。",
+        "dilemma": "これが成長するすべての企業が直面するジレンマです。"
+      }
+    },
+    "solution": {
+      "title": "今、",
+      "worryNoMore": "心配はいりません。",
+      "subtitle1": "ご紹介",
+      "metaCoexistence": "Meta WhatsApp Coexistence",
+      "subtitle2": "Seasalt.aiとともに。APIのスケーラビリティを享受しつつ電話を手放さずに済む、唯一の解決策。",
+      "coexistenceTitle": "WhatsApp Coexistence",
+      "tagline": "2つのプラットフォーム。1つの電話番号。ゼロ妥協。",
+      "businessApp": {
+        "title": "WhatsApp Business App",
+        "subtitle": "モバイル体験"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "エンタープライズスケール"
+      },
+      "bestBadge": "最高",
+      "result": {
+        "title": "共存",
+        "subtitle": "両世界の良いところ取り"
+      }
+    },
+    "whatIs": {
+      "title": "WhatsApp Coexistenceとは？",
+      "description": "WhatsApp Coexistenceは、企業が同じ電話番号でWhatsApp Business AppとWhatsApp Cloud APIの両方を使用できるようにする画期的な機能です。",
+      "simultaneously": "同時に",
+      "before": {
+        "title": "共存前",
+        "point1": "APIへの移行時にチャット履歴が失われる",
+        "point2": "電話番号の変更または新しい番号の取得",
+        "point3": "パーソナルアプリかエンタープライズ自動化の選択",
+        "point4": "移行中に顧客関係が中断される"
+      },
+      "after": {
+        "title": "共存後",
+        "point1": "同じ電話番号を維持",
+        "point2": "180日間のチャット履歴を同期",
+        "point3": "アプリとAPIを同時に使用",
+        "point4": "ゼロ障害の移行"
+      },
+      "omnichannel": {
+        "title": "統合オムニチャネルエンジン",
+        "subtitle": "単なる同期ではなく、顧客サポートインフラ全体をアップグレードすることです。"
+      },
+      "features": {
+        "sync": {
+          "title": "3方向同期",
+          "description": "メッセージは電話、Seasaltウェブダッシュボード、Seasaltモバイルアプリの間で即座に同期されます。どこからでも送信し、どこでも確認できます。"
+        },
+        "agents": {
+          "title": "無制限エージェント",
+          "description": "4台デバイス制限を突破。同じWhatsApp番号に10、50、または100人のエージェントを追加。人間のエージェントやAIボットにシームレスに会話を割り当てられます。"
+        },
+        "aiHandoff": {
+          "title": "AIエージェント引継ぎ",
+          "description": "AIエージェントがプラットフォーム上でオフタイムの照会を処理できるようにし、結果を個人携帯電話で直接監視できます。"
+        },
+        "history": {
+          "title": "6か月履歴インポート",
+          "description": "ゼロから始める必要はありません。直近6か月のチャット履歴を自動的にプルし、チームが即座に完全なコンテキストを得られます。"
+        },
+        "mobileApp": {
+          "title": "Seasaltモバイルアプリ",
+          "description": "従業員が物理的な電話にアクセスする必要はありません。自分のデバイスでSeasalt.aiアプリを使用して外出先でも顧客に返信できます。"
+        },
+        "unifiedInbox": {
+          "title": "統合受信箱",
+          "description": "WhatsAppをSMS、Messenger、LINE、Instagramと1つのビューに統合。タブ切り替えをやめて解決に集中。"
+        }
+      }
+    }
+  }
+}

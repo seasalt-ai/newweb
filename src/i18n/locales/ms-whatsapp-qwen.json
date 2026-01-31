@@ -1,0 +1,556 @@
+{
+  "whatsappCoexistence": {
+    "hero": {
+      "badge": "Baharu untuk 2026",
+      "title": "Kekalkan Aplikasi WhatsApp Business anda",
+      "titleHighlight": "DAN Skala dengan WhatsApp Cloud API",
+      "subtitle": "Penghujung pilihan yang mustahil. Gunakan kedua-duanya serentak. Tiada lagi pertukaran antara sentuhan peribadi dan kuasa perusahaan.",
+      "benefits": {
+        "sameNumber": {
+          "title": "Nombor yang Sama",
+          "description": "Kekalkan nombor perniagaan yang dipercayai anda"
+        },
+        "noDataLoss": {
+          "title": "Tiada Kehilangan Data",
+          "description": "Segerakkan 180 hari sejarah sembang"
+        },
+        "hybridAI": {
+          "title": "AI Hibrid + Manusia",
+          "description": "Skala automatik, kekalkan sentuhan peribadi"
+        },
+        "zeroDisruption": {
+          "title": "Tiada Gangguan",
+          "description": "Pemindahan tanpa gangguan dengan kod QR"
+        }
+      },
+      "cta": {
+        "primary": "Mulakan Secara Percuma",
+        "secondary": "Ketahui cara ia berfungsi"
+      },
+      "triSync": {
+        "title": "Sistem Tri-Sync",
+        "subtitle": "Penyegerakan masa nyata merentasi tiga titik sentuh",
+        "phone": {
+          "title": "Telefon anda",
+          "subtitle": "Aplikasi WhatsApp Business"
+        },
+        "dashboard": {
+          "title": "Papan pemuka seasalt.ai",
+          "subtitle": "pusat utama"
+        },
+        "fieldTeams": {
+          "title": "Pasukan medan",
+          "subtitle": "aplikasi mudah alih"
+        },
+        "syncLabel": "segerak masa nyata",
+        "stats": {
+          "live": "langsung",
+          "latency": "<100ms",
+          "realtime": "masa nyata"
+        }
+      },
+      "stats": {
+        "syncedDevices": {
+          "value": "Tidak terhad",
+          "label": "peranti yang disegerakkan"
+        },
+        "humanUsers": {
+          "value": "Tidak terhad",
+          "label": "pengguna manusia"
+        },
+        "chatHistory": {
+          "value": "180 Hari",
+          "label": "Penyegerakan Sejarah Sembang"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Bandingkan Penyelesaian WhatsApp",
+      "subtitle": "Lihat bagaimana WhatsApp Coexistence berbanding dengan alternatif",
+      "table": {
+        "feature": "Ciri",
+        "businessApp": "Aplikasi Perniagaan",
+        "premium": "Premium",
+        "cloudAPI": "API Awan",
+        "coexistence": "Koeksistensi",
+        "recommended": "DICADANGKAN"
+      },
+      "features": {
+        "cost": {
+          "name": "Kos",
+          "free": "Percuma",
+          "premiumRange": "$15-$350/sebulan",
+          "perMessage": "Setiap mesej",
+          "hybrid": "Model hibrid"
+        },
+        "sameNumber": "Nombor yang Sama",
+        "chatHistory": "Sejarah sembang",
+        "multiUser": {
+          "name": "Pelbagai Pengguna",
+          "fiveDevices": "5 peranti",
+          "tenDevices": "10 peranti",
+          "unlimited": "Tidak terhad"
+        },
+        "automation": {
+          "name": "Automasi",
+          "basic": "Asas",
+          "advancedAI": "AI Lanjutan",
+          "aiHuman": "AI + Manusia"
+        },
+        "broadcastLimit": {
+          "name": "Had Siaran",
+          "contacts256": "256 kenalan",
+          "unlimited": "Tidak terhad"
+        },
+        "crmIntegration": "Integrasi CRM",
+        "verification": "Pengesahan",
+        "groupChats": {
+          "name": "Sembang Kumpulan",
+          "appOnly": "Aplikasi sahaja"
+        },
+        "analytics": {
+          "name": "Analisis",
+          "basic": "Asas"
+        },
+        "maxThroughput": {
+          "name": "Kapasiti Maksimum",
+          "manual": "Manual",
+          "mps80": "80+ MPS",
+          "mps20": "20 MPS"
+        },
+        "migration": {
+          "name": "Pemindahan",
+          "na": "Tiada",
+          "disruptive": "Mengganggu",
+          "seamless": "Tanpa gangguan"
+        }
+      },
+      "days180": "180 hari",
+      "mobile": {
+        "businessAppTitle": "Aplikasi WhatsApp Business",
+        "premiumTitle": "WhatsApp Business Premium",
+        "apiTitle": "API WhatsApp Business",
+        "coexistenceTitle": "WhatsApp Coexistence"
+      },
+      "cta": {
+        "title": "Sedia untuk menaik taraf ke WhatsApp Coexistence?",
+        "button": "Daftar sekarang"
+      }
+    },
+    "resources": {
+      "title": "Sumber & Dokumentasi",
+      "subtitle": "Segala-galanya yang anda perlukan untuk melaksanakan WhatsApp Coexistence",
+      "cards": {
+        "wiki": {
+          "title": "Panduan Wiki Rasmi",
+          "description": "Dokumentasi teknikal lengkap tentang pelaksanaan WhatsApp Coexistence, amalan terbaik, dan penyelesaian masalah.",
+          "cta": "Baca dokumentasi"
+        },
+        "developer": {
+          "title": "Dokumen Pembangun Meta",
+          "description": "Dokumentasi rasmi Meta untuk pendaftaran terbenam, cangkuk web, dan integrasi API.",
+          "cta": "Lihat rujukan API"
+        },
+        "caseStudies": {
+          "title": "Kajian Kes",
+          "description": "Pelaksanaan dunia sebenar dari perbankan, peruncitan, kesihatan, dan e-dagang.",
+          "cta": "Lihat kes penggunaan"
+        }
+      },
+      "faq": {
+        "title": "Soalan Lazim",
+        "questions": {
+          "q1": {
+            "question": "Apakah WhatsApp Coexistence?",
+            "answer": "WhatsApp Coexistence adalah ciri yang membolehkan perniagaan menggunakan kedua-dua Aplikasi WhatsApp Business dan WhatsApp Cloud API pada nombor telefon yang sama, serentak. Mesej disegerakkan secara masa nyata antara kedua-dua platform, membolehkan anda mengekalkan sentuhan peribadi aplikasi mudah alih sambil memanfaatkan automatik dan penskalaan API."
+          },
+          "q2": {
+            "question": "Adakah saya perlu menukar nombor telefon saya?",
+            "answer": "Tidak! Salah satu faedah utama WhatsApp Coexistence adalah anda mengekalkan nombor telefon sedia ada anda. Anda tidak perlu mendapatkan nombor baharu atau menukar nombor sedia ada. Proses orientasi berasaskan kod QR menghubungkan nombor Aplikasi WhatsApp Business semasa anda ke API Awan."
+          },
+          "q3": {
+            "question": "Adakah saya akan kehilangan sejarah sembang saya?",
+            "answer": "Tidak, anda boleh mengekalkan sehingga 180 hari sejarah sembang semasa orientasi. Apabila anda menghubungkan Aplikasi WhatsApp Business anda ke API Awan melalui proses pendaftaran terbenam, anda mempunyai pilihan untuk mengimport enam bulan terakhir sejarah perbualan dan kenalan anda. Walau bagaimanapun, ini mesti dilakukan dalam tempoh 24 jam selepas menyelesaikan proses orientasi."
+          },
+          "q4": {
+            "question": "Bagaimanakah penetapan harga berfungsi?",
+            "answer": "WhatsApp Coexistence membolehkan model penetapan harga hibrid. Mesej yang dihantar secara manual dari Aplikasi WhatsApp Business kekal 100% percuma. Mesej yang dihantar melalui API Awan (termasuk mesej automatik, templat, dan siaran) mengikuti model penetapan harga berasaskan perbualan Meta. Ini membolehkan anda mengoptimumkan kos dengan menggunakan mesej aplikasi percuma untuk perbualan 1:1 peribadi dan mesej API untuk penskalaan dan automatik."
+          },
+          "q5": {
+            "question": "Apakah had teknikalnya?",
+            "answer": "Had teknikal utama adalah: 1) Kapasiti terhad kepada 20 mesej sesaat (MPS) untuk akaun koeksistensi, berbanding had yang lebih tinggi untuk akaun API berdiri sendiri; 2) Anda mesti membuka Aplikasi WhatsApp Business sekurang-kurangnya sekali setiap 13-14 hari untuk mengekalkan sambungan segerak; 3) Beberapa ciri aplikasi dilumpuhkan, termasuk penyegerakan sembang kumpulan, mesej hilang, media paparan-sekali, dan penyuntingan/membatalkan mesej."
+          },
+          "q6": {
+            "question": "Adakah ia tersedia di semua negara?",
+            "answer": "Tidak, WhatsApp Coexistence sedang dalam pelancaran berperingkat. Mulai Januari 2026, ia tidak tersedia di sesetengah kawasan termasuk Nigeria dan Afrika Selatan. Perniagaan dengan nombor telefon dari negara-negara ini buat masa ini tidak layak dan perlu memilih antara aplikasi berdiri sendiri atau API berdiri sendiri."
+          },
+          "q7": {
+            "question": "Berapa lama tempoh pemindahan?",
+            "answer": "Proses pemindahan direka untuk cepat dan tanpa gangguan. Aliran pendaftaran terbenam berasaskan kod QR biasanya mengambil masa 5-10 minit untuk diselesaikan. Jika anda memilih untuk mengimport sejarah sembang, ini akan berlaku di latar belakang. Keseluruhan proses boleh diselesaikan dalam masa kurang dari 15 minit tanpa gangguan terhadap operasi WhatsApp semasa anda."
+          },
+          "q8": {
+            "question": "Apakah yang berlaku jika saya berhenti menggunakannya?",
+            "answer": "Anda boleh berhenti menggunakan API Awan pada bila-bila masa. Aplikasi WhatsApp Business anda akan terus berfungsi secara normal dengan nombor anda. Walau bagaimanapun, anda akan kehilangan akses ke automatik, ciri-ciri ejen berbilang, dan integrasi CRM yang disediakan oleh API. Anda tidak akan dapat mengaktifkan semula koeksistensi untuk nombor tersebut sehingga anda menghubungi sokongan Meta dan menyelesaikan proses orientasi baharu."
+          }
+        }
+      },
+      "cta": {
+        "title": "Masih ada soalan tentang WhatsApp Coexistence?",
+        "button": "Tempah temujanji demonstrasi"
+      }
+    },
+    "useCases": {
+      "title": "Kes Penggunaan Dunia Sebenar",
+      "subtitle": "Lihat bagaimana perniagaan merentasi pelbagai industri mengubah pengalaman pelanggan mereka dengan WhatsApp Coexistence",
+      "tabs": {
+        "banking": "Perbankan",
+        "retail": "Peruncitan",
+        "healthcare": "Kesihatan",
+        "ecommerce": "E-dagang"
+      },
+      "banking": {
+        "support247": {
+          "title": "Sokongan Pelanggan 24/7",
+          "description": "Automatikkan pertanyaan pinjaman rumah dan pinjaman dengan AI. Kes kompleks dihantar serta-merta kepada ejen manusia."
+        },
+        "zeroAbandonment": {
+          "title": "Kadar Pembatalan Sifar",
+          "description": "AI mengendalikan 80% pertanyaan berulang. Pelanggan tidak pernah menunggu."
+        },
+        "compliance": {
+          "title": "Sedia Pematuhan",
+          "description": "Jejak audit lengkap dan pengarkiban untuk keperluan peraturan (GDPR, FINRA)."
+        },
+        "caseStudy": {
+          "title": "KAJIAN KES: Bankia S.A.",
+          "points": [
+            "Sokongan 24/7 dicapai",
+            "Masa legam ejen dikurangkan sebanyak 45%",
+            "Kepuasan pelanggan: 9.1/10",
+            "Kadar pembatalan sifar"
+          ]
+        },
+        "results": {
+          "title": "Keputusan",
+          "faqResolution": {
+            "label": "Penyelesaian FAQ",
+            "value": "80%"
+          },
+          "responseTime": {
+            "label": "Masa Respons Purata",
+            "value": "<30s"
+          },
+          "costReduction": {
+            "label": "Pengurangan Kos",
+            "value": "60%"
+          }
+        }
+      },
+      "retail": {
+        "vipHandling": {
+          "title": "Pengendalian Pelanggan VIP",
+          "description": "Pelanggan bernilai tinggi mendapat perhatian peribadi melalui aplikasi mudah alih. Pertanyaan rutin diotomatikkan."
+        },
+        "orderManagement": {
+          "title": "Pengurusan Pesanan",
+          "description": "Kemas kini penghantaran automatik dan pemberitahuan penghantaran melalui API."
+        },
+        "conversions": {
+          "title": "Peningkatan Penukaran",
+          "description": "Masa respons yang lebih cepat dan tindakan susulan peribadi meningkatkan jualan."
+        },
+        "caseStudy": {
+          "title": "KAJIAN KES: Jenama Kecantikan D2C",
+          "points": [
+            "Masa respons pertama: 2j → 4 min",
+            "Peningkatan kadar penukaran: 32%",
+            "Kolaborasi ejen berbilang dibenarkan",
+            "Integrasi CRM selesai"
+          ]
+        },
+        "results": {
+          "title": "Keputusan",
+          "responseTime": {
+            "label": "Masa Respons",
+            "value": "97%"
+          },
+          "conversion": {
+            "label": "Peningkatan Penukaran",
+            "value": "32%"
+          },
+          "efficiency": {
+            "label": "Kecekapan Pasukan",
+            "value": "+50%"
+          }
+        }
+      },
+      "healthcare": {
+        "appointments": {
+          "title": "Peringatan Temujanji",
+          "description": "Peringatan automatik mengurangkan ketidakhadiran sebanyak 60%. Pesakit mengesahkan melalui WhatsApp."
+        },
+        "labResults": {
+          "title": "Keputusan Makmal Selamat",
+          "description": "Penghantaran keputusan ujian yang mematuhi HIPAA dengan penyulitan hujung-ke-hujung."
+        },
+        "followups": {
+          "title": "Tindakan Susulan Pesakit",
+          "description": "AI menyemak selepas temujanji. Menaik taraf kebimbangan kepada kakitangan perubatan."
+        },
+        "caseStudy": {
+          "title": "KAJIAN KES: AWS Connect + WhatsApp",
+          "points": [
+            "Pemesejan yang mematuhi HIPAA",
+            "Pengurangan 60% dalam ketidakhadiran",
+            "Kepuasan pesakit: 4.8/5",
+            "Jejak audit lengkap dikekalkan"
+          ]
+        },
+        "results": {
+          "title": "Keputusan",
+          "noShow": {
+            "label": "Pengurangan Ketidakhadiran",
+            "value": "60%"
+          },
+          "engagement": {
+            "label": "Keterlibatan Pesakit",
+            "value": "4.8/5"
+          },
+          "compliance": {
+            "label": "Skor Pematuhan",
+            "value": "100%"
+          }
+        }
+      },
+      "ecommerce": {
+        "cartRecovery": {
+          "title": "Pemulihan Troli yang Ditinggalkan",
+          "description": "Peringatan automatik memulihkan 30% troli yang ditinggalkan."
+        },
+        "shipping": {
+          "title": "Kemas Kini Penghantaran",
+          "description": "Pemberitahuan penjejakan masa nyata mengekalkan pelanggan yang dikemaskini."
+        },
+        "vipSupport": {
+          "title": "Sokongan VIP",
+          "description": "Pelanggan bernilai tinggi mendapat perhatian manusia dari aplikasi mudah alih."
+        },
+        "caseStudy": {
+          "title": "KAJIAN KES: Kedai E-dagang",
+          "points": [
+            "Pemulihan troli: peningkatan 30%",
+            "Pertanyaan penghantaran: 85% diotomatikkan",
+            "Masa respons: <5 minit",
+            "Kepuasan pelanggan: 4.6/5"
+          ]
+        },
+        "results": {
+          "title": "Keputusan",
+          "cartRecovery": {
+            "label": "Pemulihan Troli",
+            "value": "30%"
+          },
+          "automation": {
+            "label": "Kadar Automasi",
+            "value": "85%"
+          },
+          "satisfaction": {
+            "label": "Kepuasan Pelanggan",
+            "value": "4.6/5"
+          }
+        }
+      },
+      "cta": {
+        "title": "Ubah industri anda dengan WhatsApp Coexistence",
+        "button": "Daftar sekarang"
+      }
+    },
+    "architecture": {
+      "title": "Seni Bina Teknikal",
+      "subtitle": "Fahami bagaimana WhatsApp Coexistence berfungsi di sebalik tabir",
+      "customer": {
+        "title": "Pelanggan",
+        "subtitle": "Mesej dari mana-mana peranti"
+      },
+      "businessApp": {
+        "title": "Aplikasi WhatsApp Business",
+        "subtitle": "Peranti Mudah Alih",
+        "features": [
+          "Antara muka mudah alih asli",
+          "Perbualan 1:1 manual",
+          "Sokongan sembang kumpulan",
+          "Panggilan suara/video"
+        ]
+      },
+      "cloudAPI": {
+        "title": "API Awan WhatsApp",
+        "subtitle": "Automasi pihak pelayan",
+        "features": [
+          "Ejen tidak terhad",
+          "Bot sembang AI",
+          "Integrasi CRM",
+          "Analisis lanjutan"
+        ]
+      },
+      "platform": {
+        "title": "Platform Seasalt.ai",
+        "subtitle": "Peti masuk terpadu & orkestrasi",
+        "features": {
+          "mirroring": {
+            "title": "Pencerminan Mesej",
+            "description": "Penyegerakan masa nyata merentasi semua saluran"
+          },
+          "echoes": {
+            "title": "Acara Gema",
+            "description": "Jejak jawapan aplikasi manual"
+          },
+          "webhooks": {
+            "title": "Penghalaan Cangkuk Web",
+            "description": "Penghalaan mesej pintar"
+          }
+        }
+      },
+      "flows": {
+        "inbound": {
+          "title": "Pencerminan Masuk",
+          "description": "Pelanggan → Aplikasi + API serentak"
+        },
+        "appEchoes": {
+          "title": "Gema Aplikasi",
+          "description": "Jawapan manual → Pemberitahuan API"
+        },
+        "apiEchoes": {
+          "title": "Gema API",
+          "description": "Jawapan bot → Pemberitahuan aplikasi"
+        }
+      },
+      "specs": {
+        "mps20": {
+          "title": "20 MPS",
+          "description": "Kapasiti mesej maksimum untuk akaun koeksistensi"
+        },
+        "hours24": {
+          "title": "24 Jam",
+          "description": "Tetingkap segerak untuk mengimport sejarah sembang"
+        },
+        "days180": {
+          "title": "180 Hari",
+          "description": "Tempoh pengekalan sejarah sembang"
+        },
+        "e2ee": {
+          "title": "E2EE",
+          "description": "Penyulitan hujung-ke-hujung untuk semua mesej"
+        }
+      },
+      "webhooks": {
+        "title": "Acara Cangkuk Web",
+        "events": [
+          { "name": "messages", "description": "Mesej pelanggan masuk" },
+          { "name": "smb_message_echoes", "description": "Jawapan aplikasi manual" },
+          { "name": "smb_app_state_sync", "description": "Kemas kini kenalan" },
+          { "name": "history", "description": "Import sembang 6 bulan" }
+        ]
+      },
+      "security": {
+        "title": "Keselamatan & Pematuhan",
+        "features": [
+          { "name": "Penyulitan Hujung-ke-Hujung", "description": "Semua mesej dilindungi" },
+          { "name": "Mematuhi", "description": "Jejak audit lengkap" },
+          { "name": "Sedia HIPAA", "description": "Bersertifikasi kesihatan" },
+          { "name": "PCI DSS", "description": "Keselamatan kad pembayaran" }
+        ]
+      },
+      "cta": {
+        "title": "Sedia untuk melaksanakan WhatsApp Coexistence?",
+        "button": "Baca Panduan Lengkap"
+      }
+    },
+    "ctaSection": {
+      "title": "Sedia untuk mengubah Operasi WhatsApp anda?",
+      "subtitle": "Sertai beribu-ribu perniagaan yang menggunakan WhatsApp Coexistence untuk mengekalkan skala sambil kekal peribadi",
+      "benefits": {
+        "keepNumber": {
+          "title": "Kekalkan Nombor Anda",
+          "description": "Tiada perubahan diperlukan"
+        },
+        "zeroDisruption": {
+          "title": "Tiada Gangguan",
+          "description": "Pemindahan tanpa gangguan"
+        },
+        "aiHuman": {
+          "title": "AI + Manusia",
+          "description": "Aliran kerja hibrid"
+        },
+        "saveMoney": {
+          "title": "Jimat Wang",
+          "description": "Pemesejan aplikasi percuma"
+        }
+      },
+      "primaryCTA": "Daftar sekarang untuk WhatsApp Coexistence",
+      "trust": {
+        "encryption": "Penyulitan Hujung-ke-Hujung",
+        "hipaa": "Mematuhi HIPAA",
+        "verified": "Disahkan oleh Meta"
+      },
+      "footer": "Sertai lebih 10,000 perniagaan yang sudah menggunakan Seasalt.ai untuk mengubah komunikasi pelanggan mereka"
+    },
+    "features": {
+      "title": "Enjin Omni-Channel Terpadu",
+      "subtitle": "Bukan sahaja tentang penyegerakan; ia tentang menaik taraf keseluruhan infrastruktur sokongan pelanggan anda.",
+      "items": {
+        "sync": {
+          "title": "Penyegerakan 3 Arah",
+          "description": "Mesej disegerakkan serta-merta antara Telefon, Papan Pemuka Web Seasalt, dan Aplikasi Mudah Alih Seasalt anda. Hantar dari mana-mana, lihat di mana-mana."
+        },
+        "agents": {
+          "title": "Ejen Tidak Terhad",
+          "description": "Pecahkan had 4 peranti. Tambah 10, 50, atau 100 ejen ke nombor WhatsApp yang sama. Tetapkan perbualan kepada ejen manusia atau bot AI secara lancar."
+        },
+        "aiHandoff": {
+          "title": "Serahan Ejen AI",
+          "description": "Dayakan Ejen AI untuk mengendalikan pertanyaan di luar waktu pejabat di platform, sambil anda memantau keputusan secara langsung di telefon peribadi anda."
+        },
+        "history": {
+          "title": "Import Sejarah 6 Bulan",
+          "description": "Jangan mula dari sifar. Kami secara automatik menarik 6 bulan terakhir sejarah sembang supaya pasukan anda mempunyai konteks lengkap serta-merta."
+        },
+        "mobileApp": {
+          "title": "Aplikasi Mudah Alih Seasalt",
+          "description": "Pekerja tidak perlu mengakses telefon fizikal anda. Mereka boleh menggunakan Aplikasi Seasalt.ai pada peranti mereka sendiri untuk membalas pelanggan semasa dalam perjalanan."
+        },
+        "unifiedInbox": {
+          "title": "Peti Masuk Terpadu",
+          "description": "Gabungkan WhatsApp dengan SMS, Messenger, LINE, dan Instagram dalam satu paparan. Berhenti menukar-tab dan mula menyelesaikan."
+        }
+      },
+      "cta": "Mula menggunakan WhatsApp Coexistence"
+    },
+    "walkthrough": {
+      "overline": "Panduan Persediaan",
+      "title": "Mulakan dalam beberapa minit",
+      "subtitle": "Tiada pengekodan diperlukan. Hanya imbas dan segerak.",
+      "steps": {
+        "step1": {
+          "title": "1. Tambah Saluran Baharu",
+          "description": "Navigasi ke <strong>Ruang Kerja Seasalt.ai</strong>. Pilih \"Saluran\" dan pilih pilihan \"WhatsApp Coexistence\" baharu."
+        },
+        "step2": {
+          "title": "2. Pautkan Akaun Meta",
+          "description": "Log masuk dengan akaun Facebook anda. Pilih portfolio perniagaan anda. Penting, pilih pilihan <strong>\"Sambungkan Aplikasi WhatsApp Business\"</strong>."
+        },
+        "step3": {
+          "title": "3. Imbas & Segerak",
+          "description": "Kod QR akan muncul. Buka <strong>Peranti Dipautkan</strong> pada telefon anda dan imbasnya. Kami terus mula menyegerakkan sehingga <span class=\"text-green-600 font-bold\">6 bulan</span> sejarah sembang."
+        }
+      },
+      "ui": {
+        "bestOffering": "Tawaran Terbaik",
+        "connect": "Sambung",
+        "createWABA": "Cipta Akaun WABA Baharu",
+        "scanInstruction": "Imbas dengan telefon anda",
+        "syncing": "Menyegerakkan sejarah...",
+        "historyLabel": "180 hari sejarah sembang"
+      }
+    }
+  }
+}

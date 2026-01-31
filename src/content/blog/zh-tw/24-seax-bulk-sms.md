@@ -1,6 +1,6 @@
 ---
 title: SeaX 大量簡訊：更快、更有效的客戶拓展
-description: 在這篇部落格中，我們將展示 SeaX 的大量簡訊功能如何讓代理商主動透過文字發送外發訊息。
+description: 在這篇部落格中，我們將展示 SeaX 的大量簡訊功能如何讓Agent商主動透過文字發送外發訊息。
 publishDate: '2022-09-09'
 author: Amy Chen, Kim Dodds, Sarah Reid
 image:
@@ -13,7 +13,7 @@ draft: false
 ---
 
 
-*在我們之前的部落格文章中，我們介紹了 SeaX 的一些主要功能（包括 [語音智慧](https://seasalt.ai/blog/21-seax-voice-intelligence/)、[知識庫](https://seasalt.ai/blog/22-seax-knowledge-base/) 和 [案例管理](https://seasalt.ai/blog/23-seax-case-management/)），這些功能有助於代理商更好地處理來電和訊息。在這篇部落格中，我們將展示 SeaX 的大量簡訊功能如何讓代理商主動透過文字發送外發訊息，而這些訊息的收件人被證明比傳統電子郵件通訊更快、更一致地打開。*
+*在我們之前的部落格文章中，我們介紹了 SeaX 的一些主要功能（包括 [語音智慧](https://seasalt.ai/blog/21-seax-voice-intelligence/)、[知識庫](https://seasalt.ai/blog/22-seax-knowledge-base/) 和 [案例管理](https://seasalt.ai/blog/23-seax-case-management/)），這些功能有助於Agent商更好地處理來電和訊息。在這篇部落格中，我們將展示 SeaX 的大量簡訊功能如何讓Agent商主動透過文字發送外發訊息，而這些訊息的收件人被證明比傳統電子郵件通訊更快、更一致地打開。*
 
 # 目錄
 - [簡訊與電子郵件](#sms-vs-email)
@@ -115,8 +115,8 @@ SeaX 的大量簡訊服務讓您輕鬆上傳聯絡人/潛在客戶，大量發�
 *使用 SeaX 處理大量簡訊活動的來訊回覆。*
 </center>
 
-就像所有 SeaX 功能一樣，我們努力賦予代理商或活動經理處理來電請求/問題的能力——大量簡訊也允許 SeaX 處理外發行銷工作。啟動活動後，您可以在下方所示的聊天視窗中管理所有來電回覆。
+就像所有 SeaX 功能一樣，我們努力賦予Agent商或活動經理處理來電請求/問題的能力——大量簡訊也允許 SeaX 處理外發行銷工作。啟動活動後，您可以在下方所示的聊天視窗中管理所有來電回覆。
 
 # 結語
 
-感謝您花時間閱讀 SeaX 大量簡訊系統如何賦予代理商發送外發通訊以及處理來電訊息請求的能力。請繼續關注我們部落格系列的下一部分，其中將涵蓋 SeaX 平台內建的一些管理和分析工具。如果您有興趣立即了解更多資訊，請填寫我們的 [預約示範表單](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)，以親身體驗 SeaX 平台。
+感謝您花時間閱讀 SeaX 大量簡訊系統如何賦予Agent商發送外發通訊以及處理來電訊息請求的能力。請繼續關注我們部落格系列的下一部分，其中將涵蓋 SeaX 平台內建的一些管理和分析工具。如果您有興趣立即了解更多資訊，請填寫我們的 [預約示範表單](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)，以親身體驗 SeaX 平台。

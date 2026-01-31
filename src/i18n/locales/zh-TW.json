@@ -440,7 +440,7 @@
           "description": "設計和技術方面的專家建議。"
         },
         "launchSupport": {
-          "title": "AI 代理啟動支援：",
+          "title": "AI Agent啟動支援：",
           "description": "在整個啟動過程中提供全面協助。"
         },
         "marketStrategy": {
@@ -448,7 +448,7 @@
           "description": "市場進入的戰略規劃。"
         },
         "successfulLaunch": {
-          "title": "成功的 AI 代理啟動：",
+          "title": "成功的 AI Agent啟動：",
           "description": "在 4-6 週內實現成功啟動。"
         },
         "postLaunch": {
@@ -457,7 +457,7 @@
         },
         "operational": {
           "title": "營運穩定性：",
-          "description": "建立 AI 代理長期營運的標準作業程序。"
+          "description": "建立 AI Agent長期營運的標準作業程序。"
         }
       }
     }
@@ -1244,7 +1244,7 @@
         "subtitle": "透過智慧自動化將表單提交轉化為合格潛在客戶",
         "instantEngagement": {
           "title": "即時互動",
-          "description": "AI 代理立即回應表單提交，趁潛在客戶熱度最高時互動"
+          "description": "AI Agent立即回應表單提交，趁潛在客戶熱度最高時互動"
         },
         "leadQualification": {
           "title": "潛在客戶資格評估",
@@ -1529,7 +1529,7 @@
         },
         "queue": {
           "title": "佇列管理",
-          "description": "基於代理可用性和客戶優先級的智能路由"
+          "description": "基於Agent可用性和客戶優先級的智能路由"
         },
         "global": {
           "title": "全球支援",
@@ -2169,7 +2169,7 @@
             "exportHistory": "自由匯出聊天記錄",
             "channels": "通道：WhatsApp Messenger、聊天小工具",
             "integrations": "整合：Wix、WordPress、Shopify、Make.com、Squarespace",
-            "aiAgent": "AI 代理具有 100 次終身 AI 回覆：",
+            "aiAgent": "AI Agent具有 100 次終身 AI 回覆：",
             "aiAgentModel": "ChatGPT-4o mini",
             "knowledgeBase": "知識庫包含 20 個文件（最大 200KB）和 250k 令牌",
             "workspace": "1 個工作空間"
@@ -2188,8 +2188,8 @@
             "humanAgentPermission": "支援真人客服權限",
             "assignAgent": "為個別對話分配人工助理",
             "unreadCounter": "為每位人工助理提供未讀訊息計數",
-            "transferToHuman": "從 AI 代理即時轉接到真人客服",
-            "transferToAI": "從真人客服即時轉接到 AI 代理",
+            "transferToHuman": "從 AI Agent即時轉接到真人客服",
+            "transferToAI": "從真人客服即時轉接到 AI Agent",
             "unlimitedHumanChats": "無限制人工助理對話",
             "unlimitedContacts": "無限制聯絡人",
             "unlimitedHistory": "無限制對話歷史記錄",
@@ -2212,7 +2212,7 @@
             "autoLabel": "使用用戶定義標籤自動標記對話",
             "builtInActions": "由自動標記觸發的內建動作：簡訊、電子郵件",
             "externalAPI": "外部 API 調用作為觸發器和動作",
-            "voiceAgentFeatures": "語音 AI 代理：",
+            "voiceAgentFeatures": "語音 AI Agent：",
             "voiceMessages": "在 Messenger、WhatsApp、Line 中支援語音訊息",
             "phoneCalls": "支援雙向電話對話",
             "callDirection": "支援來電與去電",
@@ -2248,7 +2248,7 @@
           "features": {
             "premiumIncluded": "包含高級版的所有功能",
             "customBuild": "客製化開發",
-            "multipleWorkspaces": "多個工作區 - 完美適合代理商",
+            "multipleWorkspaces": "多個工作區 - 完美適合Agent商",
             "workspaceAgents": "每個工作區具有多個 AI 智能助手和電話號碼",
             "gpt4oRealtimeAPI": "存取 GPT-4o Realtime API",
             "customAPI": "客製化 API 整合",
@@ -2395,7 +2395,7 @@
         "question6": "如果我取消會發生什麼？",
         "answer6": "您擁有您的數據。您可以隨時導出所有對話歷史記錄、聯絡人和知識庫內容，即使在免費方案中也是如此。我們相信數據自由和透明度。",
         "question7": "您是否為大型企業提供客製化定價？",
-        "answer7": "是的！我們的企業版方案提供客製化開發、多個 AI 服務（完美適合代理商）、客製化 API 整合，以及專業設計指導和技術支援。請聯絡我們的銷售團隊以獲得個人化報價。"
+        "answer7": "是的！我們的企業版方案提供客製化開發、多個 AI 服務（完美適合Agent商）、客製化 API 整合，以及專業設計指導和技術支援。請聯絡我們的銷售團隊以獲得個人化報價。"
       },
       "cta": {
         "title": "您的 AI 對話革命",
@@ -3667,7 +3667,7 @@
           },
           "professional": {
             "title": "專業服務",
-            "description": "律師、會計師、顧問和代理商",
+            "description": "律師、會計師、顧問和Agent商",
             "features": {
               "consultation": "諮詢預訂",
               "service": "服務資訊",
@@ -4146,7 +4146,7 @@
         "smsActions": "內建操作 - 簡訊",
         "emailActions": "內建操作 - 電子郵件",
         "phoneNumber": "購買電話號碼",
-        "agencyMode": "代理模式",
+        "agencyMode": "Agent模式",
         "bulkSMS": "批量外撥簡訊、電話、WhatsApp",
         "unlimitedContacts": "無限聯絡人",
         "knowledgeBase": "額外知識庫",
@@ -6723,7 +6723,7 @@
       },
       "product4": {
         "name": "SeaVoice（語音自動駕駛）",
-        "description": "先進語音 AI 基礎架構，打造擬人化電話代理，支援進/出線通話，基於最先進 LLM 與語音識別技術。"
+        "description": "先進語音 AI 基礎架構，打造擬人化電話Agent，支援進/出線通話，基於最先進 LLM 與語音識別技術。"
       }
     },
     "funding": {
@@ -6936,7 +6936,7 @@
           "solution": "自動化SMS和WhatsApp活動，提供個人化優惠和購物車挽回"
         },
         "realEstate": {
-          "title": "房地產代理商",
+          "title": "房地產Agent商",
           "challenge": "跟進房產詢問和安排看房",
           "solution": "AI立即回應房產問題並預約看房約會"
         },
@@ -7141,7 +7141,7 @@
         "description": "超越簡單的基於規則的自動化，採用能理解上下文、做出智慧決策並持續改進效能的 AI。",
         "voiceChat": {
           "title": "智能語音和聊天自動化",
-          "description": "理解上下文並提供類人互動的 AI 代理",
+          "description": "理解上下文並提供類人互動的 AI Agent",
           "benefits": {
             "nlp": "複雜查詢的自然語言處理",
             "channels": "跨所有通道的語音和文字對話",
@@ -7611,7 +7611,7 @@
         "price": "讓我們建立專案",
         "period": "協商您自己的價格",
         "feature1": "多個工作空間",
-        "feature2": "適合代理商",
+        "feature2": "適合Agent商",
         "feature3": "客製化 API 整合",
         "feature4": "HIPAA 合規",
         "feature5": "白標選項",
@@ -7758,7 +7758,7 @@
         "startingPrice": "$79/月",
         "pricingModel": "每月活躍聯絡人",
         "unifiedVoiceDigital": "⚠️ 數位優先（語音為測試版）",
-        "aiCapabilities": "✅ 是（高級方案的 AI 代理）",
+        "aiCapabilities": "✅ 是（高級方案的 AI Agent）",
         "bestFor": "專注於 WhatsApp 等訊息通道的行銷/銷售團隊"
       },
       "intercom": {
@@ -7766,7 +7766,7 @@
         "startingPrice": "$39/席位/月",
         "pricingModel": "每席位 + 附加功能 + 使用量",
         "unifiedVoiceDigital": "⚠️ 數位優先（語音按使用付費）",
-        "aiCapabilities": "✅ 是（Fin AI 代理按解決方案計費）",
+        "aiCapabilities": "✅ 是（Fin AI Agent按解決方案計費）",
         "bestFor": "專注於主動網站互動和支援的企業"
       }
     },
@@ -7931,7 +7931,7 @@
             "competitor": "否，需要 $10/月 附加服務"
           },
           "aiVoiceAgent": {
-            "name": "AI 語音代理",
+            "name": "AI 語音Agent",
             "seasalt": "是，已包含（按用量計費）",
             "competitor": "否，需要 $0.99/分鐘 附加服務"
           },
@@ -7978,7 +7978,7 @@
           "title": "Seasalt.ai",
           "admin": "管理員（首位用戶）",
           "adminCost": "$50/月",
-          "additionalAgents": "額外代理人",
+          "additionalAgents": "額外Agent人",
           "additionalAgentsCost": "每位 $25/月",
           "aiVoiceIncluded": "AI 語音 + 聊天已包含",
           "aiVoiceIncludedCost": "$0",
@@ -8127,7 +8127,7 @@
         },
         "startingPrice": {
           "name": "起始價格",
-          "seasalt": "$25/代理/月",
+          "seasalt": "$25/Agent/月",
           "competitor": "$75/用戶/月"
         },
         "minimumCommitment": {
@@ -8148,7 +8148,7 @@
         "bestFor": {
           "name": "最適合",
           "seasalt": "需要強大功能且簡單實惠的中小企業",
-          "competitor": "擁有數百名代理和專業管理團隊的全球企業"
+          "competitor": "擁有數百名Agent和專業管理團隊的全球企業"
         }
       },
       "costReality": {
@@ -8163,7 +8163,7 @@
         },
         "simplePricing": {
           "title": "簡單定價",
-          "description": "$25/代理/月，包含所有功能"
+          "description": "$25/Agent/月，包含所有功能"
         },
         "quickSetup": {
           "title": "快速設置",
@@ -8567,7 +8567,7 @@
     "respondIoAlternative": {
       "seo": {
         "title": "Respond.io 替代方案 - Seasalt.ai",
-        "description": "比較 Seasalt.ai 與 Respond.io。獲得真正的全通道平台，內建語音通話而非測試功能。可預測的代理人定價模式，取代複雜的活躍聯絡人計費。"
+        "description": "比較 Seasalt.ai 與 Respond.io。獲得真正的全通道平台，內建語音通話而非測試功能。可預測的Agent人定價模式，取代複雜的活躍聯絡人計費。"
       },
       "navigation": {
         "backLink": "返回比較概覽"
@@ -8592,12 +8592,12 @@
         "features": {
           "pricingModel": {
             "name": "定價模式",
-            "seasalt": "簡單且可預測的代理人費用",
+            "seasalt": "簡單且可預測的Agent人費用",
             "competitor": "月活躍聯絡人 (MACs) + 使用者"
           },
           "startingPrice": {
             "name": "起始價格",
-            "seasalt": "$25/代理人/月",
+            "seasalt": "$25/Agent人/月",
             "competitor": "$79/月（包含 5 位使用者）"
           },
           "voiceCalling": {
@@ -8611,7 +8611,7 @@
             "competitor": "由 Meta 單獨計費"
           },
           "aiAgent": {
-            "name": "AI 代理人",
+            "name": "AI Agent人",
             "seasalt": "是，所有方案都包含",
             "competitor": "需要成長方案（$159/月+）"
           },
@@ -8629,12 +8629,12 @@
       },
       "pricing": {
         "title": "可預測 vs. 變動定價",
-        "subtitle": "為什麼簡單的代理人定價勝過複雜的聯絡人計費模式",
+        "subtitle": "為什麼簡單的Agent人定價勝過複雜的聯絡人計費模式",
         "seasalt": {
           "title": "Seasalt.ai：簡單且可預測",
           "perAgent": {
-            "title": "代理人定價",
-            "description": "$25/代理人/月 - 易於預算和擴展"
+            "title": "Agent人定價",
+            "description": "$25/Agent人/月 - 易於預算和擴展"
           },
           "allChannels": {
             "title": "包含所有通道",
@@ -8722,16 +8722,16 @@
         "features": {
           "pricingModel": {
             "name": "定價模式",
-            "seasalt": "簡單且可預測的按代理人收費",
+            "seasalt": "簡單且可預測的按Agent人收費",
             "competitor": "按座位 + 按解決次數 + 附加功能"
           },
           "startingPrice": {
             "name": "起始價格",
-            "seasalt": "$25/代理人/月",
+            "seasalt": "$25/Agent人/月",
             "competitor": "$29-$39/座位/月"
           },
           "aiAgentCost": {
-            "name": "AI 代理成本",
+            "name": "AI Agent成本",
             "seasalt": "包含在內（基於使用量）",
             "competitor": "$0.99 每次解決"
           },
@@ -8758,7 +8758,7 @@
         "seasalt": {
           "title": "Seasalt.ai：透明定價",
           "perAgent": {
-            "title": "$25/代理人/月",
+            "title": "$25/Agent人/月",
             "description": "包含一切，沒有意外"
           },
           "aiIncluded": {
@@ -8799,7 +8799,7 @@
         "subtitle": "了解 Intercom 的按解決次數定價如何快速累積",
         "light": {
           "title": "輕度使用",
-          "description": "3 個代理人，100 次 AI 解決/月",
+          "description": "3 個Agent人，100 次 AI 解決/月",
           "seasalt": {
             "price": "$75/月",
             "label": "Seasalt.ai"
@@ -8812,7 +8812,7 @@
         },
         "medium": {
           "title": "中度使用",
-          "description": "5 個代理人，300 次 AI 解決/月",
+          "description": "5 個Agent人，300 次 AI 解決/月",
           "seasalt": {
             "price": "$150/月",
             "label": "Seasalt.ai"
@@ -8825,7 +8825,7 @@
         },
         "heavy": {
           "title": "重度使用",
-          "description": "10 個代理人，1000 次 AI 解決/月",
+          "description": "10 個Agent人，1000 次 AI 解決/月",
           "seasalt": {
             "price": "$275/月",
             "label": "Seasalt.ai"
@@ -8892,12 +8892,12 @@
         "features": {
           "pricingModel": {
             "name": "定價模式",
-            "seasalt": "簡單且可預測的按代理收費",
+            "seasalt": "簡單且可預測的按Agent收費",
             "kustomer": "按席位或按對話收費"
           },
           "startingPrice": {
             "name": "起始價格",
-            "seasalt": "$25/代理/月",
+            "seasalt": "$25/Agent/月",
             "kustomer": "$89/席位/月"
           },
           "minimumCommitment": {
@@ -8932,7 +8932,7 @@
         "subtitle": "了解 Kustomer 的最低承諾如何讓成長型企業望而卻步",
         "scenarios": {
           "twoAgents": {
-            "title": "2 個代理",
+            "title": "2 個Agent",
             "seasaltPrice": "$75/月",
             "seasaltLabel": "Seasalt.ai",
             "kustomerPrice": "$712/月",
@@ -8940,7 +8940,7 @@
             "savings": "節省 $637/月"
           },
           "fiveAgents": {
-            "title": "5 個代理",
+            "title": "5 個Agent",
             "seasaltPrice": "$175/月",
             "seasaltLabel": "Seasalt.ai",
             "kustomerPrice": "$712/月",
@@ -8948,7 +8948,7 @@
             "savings": "節省 $537/月"
           },
           "eightAgents": {
-            "title": "8 個代理",
+            "title": "8 個Agent",
             "seasaltPrice": "$225/月",
             "seasaltLabel": "Seasalt.ai",
             "kustomerPrice": "$712/月",
@@ -9844,7 +9844,7 @@
     },
     "stats": {
       "competitorsAnalyzed": "分析的競爭對手",
-      "startingPrice": "起始價格/每位代理",
+      "startingPrice": "起始價格/每位Agent",
       "channelsIncluded": "包含的通道",
       "unifiedPlatform": "統一平台"
     },
@@ -12171,7 +12171,7 @@
             "8": "通訊費用：",
             "9": "$0.02/簡訊, $0.04/多媒體簡訊,",
             "10": "$0.05/語音信箱投遞",
-            "11": "語音 AI 代理電話通話從每分鐘 $0.12 開始"
+            "11": "語音 AI Agent電話通話從每分鐘 $0.12 開始"
           },
           "cta": "開始全通路"
         },
@@ -12181,8 +12181,8 @@
           "price": "聯絡我們",
           "description": "客製化建置",
           "features": {
-            "0": "多個工作區 — 完美適合代理商",
-            "1": "每個工作區擁有多個 AI 代理和電話號碼",
+            "0": "多個工作區 — 完美適合Agent商",
+            "1": "每個工作區擁有多個 AI Agent和電話號碼",
             "2": "專業設計指南和技術支援，與啟動支援方案一起銷售"
           },
           "cta": "聯絡我們"
@@ -13449,12 +13449,12 @@
           "highlight": "SeaChat",
           "suffix": " 為您提供"
         },
-        "subtitle": "全通路和多模態的無程式碼代理平台",
+        "subtitle": "全通路和多模態的無程式碼Agent平台",
         "teamwork": {
           "title": "一個團隊，為您協作"
         },
         "chatAgent": {
-          "title": "聊天 AI 代理",
+          "title": "聊天 AI Agent",
           "description": "跨網頁、行動裝置和訊息平台的即時回應"
         },
         "humanAgent": {
@@ -13462,7 +13462,7 @@
           "description": "針對需要人性化處理的複雜查詢進行無縫轉接"
         },
         "voiceAgent": {
-          "title": "語音 AI 代理",
+          "title": "語音 AI Agent",
           "description": "由先進語音 AI 驅動的自然電話對話"
         },
         "learnMore": "了解更多關於 SeaChat",
@@ -13497,7 +13497,7 @@
         },
         "q2": {
           "question": "設置需要多長時間？",
-          "answer": "設置通常不到 20 分鐘。您可以訓練您的語音代理、連接電話系統、設置通話規則，並在一次会議中上線。"
+          "answer": "設置通常不到 20 分鐘。您可以訓練您的語音Agent、連接電話系統、設置通話規則，並在一次会議中上線。"
         },
         "q3": {
           "question": "來電者能否分辨出他們正在與 AI 對話？",
@@ -13533,7 +13533,7 @@
         },
         "q11": {
           "question": "我該如何開始？",
-          "answer": "開始很簡單！預約一個示範來看看 SeaVoice 的實際運作，然後我們的團隊將幫助您設置語音代理、整合電話系統，並根據您的具體需求進行配置。大多數客戶在一天內就能上線運行。"
+          "answer": "開始很簡單！預約一個示範來看看 SeaVoice 的實際運作，然後我們的團隊將幫助您設置語音Agent、整合電話系統，並根據您的具體需求進行配置。大多數客戶在一天內就能上線運行。"
         }
       },
       "finalCta": {
@@ -13704,8 +13704,8 @@
           "customPriceMessage": "讓我們建立一個專案",
           "features": {
             "everythingInboundOutbound": "包含進線+出線方案的所有功能",
-            "multipleWorkspaces": "多個工作區（完美適合代理商）",
-            "workspaceAgents": "每個工作區都有多個AI代理和電話號碼",
+            "multipleWorkspaces": "多個工作區（完美適合Agent商）",
+            "workspaceAgents": "每個工作區都有多個AIAgent和電話號碼",
             "customPricing": "基於使用量的客製化分鐘價格",
             "accountManager": "專屬客戶經理",
             "uptimeSLA": "99.99% 上線時間 SLA",
@@ -13764,7 +13764,7 @@
       }
     },
     "footer": {
-      "description": "透過如人類般自然且與您業務無縫整合的 AI 語音代理，自動化 80% 的客戶通話。",
+      "description": "透過如人類般自然且與您業務無縫整合的 AI 語音Agent，自動化 80% 的客戶通話。",
       "platform": {
         "title": "平台",
         "overview": "平台概述",
@@ -13813,12 +13813,12 @@
       },
       "stats": {
         "callsHandled": "處理超過 100 萬通電話",
-        "activeAgents": "超過 5 萬個活躍代理",
+        "activeAgents": "超過 5 萬個活躍Agent",
         "uptime": "99.99% 正常運行時間"
       },
       "cta": {
         "title": "準備好自動化 80% 的客戶電話了嗎？",
-        "description": "加入數百家企業，使用 SeaVoice AI 代理 24/7 處理客戶電話，降低成本並提升客戶滿意度。",
+        "description": "加入數百家企業，使用 SeaVoice AI Agent 24/7 處理客戶電話，降低成本並提升客戶滿意度。",
         "getStartedFree": "免費開始使用",
         "bookDemo": "預約展示"
       }
@@ -13990,7 +13990,7 @@
       "landlineMobile": {
         "hero": {
           "title": "固定電話與行動語音解決方案",
-          "subtitle": "以AI驅動的語音代理轉換您的傳統電話系統，與固定電話和行動網路完美整合，服務全球客戶。",
+          "subtitle": "以AI驅動的語音Agent轉換您的傳統電話系統，與固定電話和行動網路完美整合，服務全球客戶。",
           "cta": "免費註冊"
         },
         "features": {
@@ -14096,7 +14096,7 @@
         },
         "cta": {
           "title": "準備現代化您的電話系統？",
-          "subtitle": "幾分鐘內將您的固定電話和行動基礎設施與AI語音代理連接",
+          "subtitle": "幾分鐘內將您的固定電話和行動基礎設施與AI語音Agent連接",
           "button": "安排整合通話"
         }
       },
@@ -14837,8 +14837,8 @@
               "description": "連接您的WhatsApp商業帳戶或創建新的認證商業檔案。"
             },
             "1": {
-              "title": "語音代理配置",
-              "description": "使用您的業務邏輯、腳本和品牌聲音配置AI語音代理。"
+              "title": "語音Agent配置",
+              "description": "使用您的業務邏輯、腳本和品牌聲音配置AI語音Agent。"
             },
             "2": {
               "title": "API整合",
@@ -14852,7 +14852,7 @@
         },
         "demo": {
           "title": "實際體驗",
-          "subtitle": "體驗語音通話如何與WhatsApp Business無縫整合。我們的AI代理能夠處理複雜對話，同時保持您客戶喜愛的熟悉WhatsApp體驗。",
+          "subtitle": "體驗語音通話如何與WhatsApp Business無縫整合。我們的AIAgent能夠處理複雜對話，同時保持您客戶喜愛的熟悉WhatsApp體驗。",
           "features": {
             "0": {
               "title": "一鍵通話",
@@ -14860,7 +14860,7 @@
             },
             "1": {
               "title": "無縫轉接",
-              "description": "AI和人工代理之間的順暢轉換"
+              "description": "AI和人工Agent之間的順暢轉換"
             },
             "2": {
               "title": "統一歷史記錄",
@@ -15901,7 +15901,7 @@
             },
             "metrics": {
               "resolution": {
-                "description": "無需人類代理解決的問題"
+                "description": "無需人類Agent解決的問題"
               },
               "reductionTime": {
                 "description": "平均解決時間縮短"
@@ -16474,7 +16474,7 @@
               },
               "step2": {
                 "title": "立即警報",
-                "description": "AI 代理在 2 分鐘內致電客戶"
+                "description": "AI Agent在 2 分鐘內致電客戶"
               },
               "step3": {
                 "title": "驗證",
@@ -17893,12 +17893,12 @@
     "seavoice": {
       "homepage": {
         "title": "SeaVoice | AI 語音通訊平台 - Seasalt.ai",
-        "description": "運用 AI 技術轉變您的語音通訊。SeaVoice 提供智慧通話路由、語音分析與自動回應功能。以類人 AI 客服代理 24/7 處理客戶來電。",
+        "description": "運用 AI 技術轉變您的語音通訊。SeaVoice 提供智慧通話路由、語音分析與自動回應功能。以類人 AI 客服Agent 24/7 處理客戶來電。",
         "keywords": "AI 語音, 客服中心軟體, 語音分析, SeaVoice, 智慧通話路由, 自動電話系統, 語音助理, 24/7 客戶服務"
       },
       "virtualAssistant": {
         "title": "24/7 虛擬助理 | SeaVoice AI 語音解決方案 - Seasalt.ai",
-        "description": "運用 SeaVoice AI 虛擬助理提供全天候客戶服務。智慧語音客服代理處理客戶查詢、預約安排與支援請求，提升滿意度並降低成本。",
+        "description": "運用 SeaVoice AI 虛擬助理提供全天候客戶服務。智慧語音客服Agent處理客戶查詢、預約安排與支援請求，提升滿意度並降低成本。",
         "keywords": "虛擬助理, AI 語音助理, 24/7 客戶服務, 智慧客服, SeaVoice, 語音自動化, 客戶服務自動化"
       },
       "ivrReplacement": {
@@ -18010,5 +18010,701 @@
   "nav": {
     "home": "Home",
     "blog": "Blog"
+  },
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "",
+      "impossibleChoice": "不可能的選擇",
+      "subtitlePart1": "保留您的手機應用程式",
+      "or": "或",
+      "subtitlePart2": "使用企業工具擴展規模？",
+      "untilNow": "直到現在，你必須犧牲其中一個。",
+      "vs": "對比",
+      "whatYouGet": "✓ 你得到什麼",
+      "dealbreaker": "✗ 致命缺點",
+      "businessApp": {
+        "badge": "保持小型",
+        "title": "WhatsApp Business 應用程式",
+        "subtitle": "僅限手機陷阱",
+        "pros": {
+          "mobile": "原生手機體驗",
+          "free": "免費訊息"
+        },
+        "cons": {
+          "devices": "最多 4 個連接設備",
+          "fifthMember": "第 5 名團隊成員？不可能。",
+          "fourDevices": "僅限 4 個設備最多",
+          "cannotAdd": "成長時無法添加Agent",
+          "noAutomation": "沒有自動化或 CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "失去移動性",
+        "title": "雲端 API",
+        "subtitle": "僅限桌面陷阱",
+        "pros": {
+          "unlimited": "無限Agent",
+          "automation": "AI 自動化和 CRM"
+        },
+        "cons": {
+          "lockedOut": "你的手機被鎖定",
+          "noMobile": "完全沒有手機存取",
+          "noApp": "手機上沒有手機應用程式",
+          "desktopOnly": "僅限桌面/儀表板"
+        }
+      },
+      "summary": {
+        "part1": "要麼你被困在有限的團隊容量中，",
+        "part2": "要麼你失去業務所依賴的靈活性。",
+        "dilemma": "這是每個成長中的企業都面臨的困境。"
+      }
+    },
+    "solution": {
+      "title": "現在，",
+      "worryNoMore": "不再擔心。",
+      "subtitle1": "介紹",
+      "metaCoexistence": "Meta WhatsApp 共存",
+      "subtitle2": "與 Seasalt.ai。唯一能彌合差距的解決方案，讓你享有 API 的可擴展性而不必放棄你的手機。",
+      "coexistenceTitle": "WhatsApp 共存",
+      "tagline": "兩個平台。一個電話號碼。零妥協。",
+      "businessApp": {
+        "title": "WhatsApp Business 應用程式",
+        "subtitle": "手機體驗"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "企業規模"
+      },
+      "bestBadge": "最佳",
+      "result": {
+        "title": "共存",
+        "subtitle": "兩全其美"
+      }
+    },
+    "whatIs": {
+      "title": "什麼是 WhatsApp 共存？",
+      "description": "WhatsApp 共存是一項革命性功能，允許企業在同一個電話號碼上同時使用 WhatsApp Business 應用程式和 WhatsApp Cloud API，",
+      "simultaneously": "同時",
+      "before": {
+        "title": "共存之前",
+        "point1": "遷移到 API 時失去聊天記錄",
+        "point2": "更改電話號碼或取得新號碼",
+        "point3": "在個人應用程式或企業自動化之間選擇",
+        "point4": "過渡期間中斷客戶關係"
+      },
+      "after": {
+        "title": "共存之後",
+        "point1": "保持相同電話號碼",
+        "point2": "同步 180 天的聊天記錄",
+        "point3": "同時使用應用程式和 API",
+        "point4": "零中斷遷移"
+      },
+      "omnichannel": {
+        "title": "統一的全方位渠道引擎",
+        "subtitle": "不僅僅是同步；而是升級你的整個客戶支援基礎設施。"
+      },
+      "features": {
+        "sync": {
+          "title": "三方同步",
+          "description": "訊息在你的手機、Seasalt 網頁儀表板和 Seasalt 行動應用程式之間即時同步。從任何地方發送，在任何地方查看。"
+        },
+        "agents": {
+          "title": "無限Agent",
+          "description": "打破 4 台設備限制。將 10、50 或 100 個Agent新增到同一個 WhatsApp 號碼。無縫地將對話分配給人類Agent或 AI 機器人。"
+        },
+        "aiHandoff": {
+          "title": "AI Agent轉接",
+          "description": "啟用 AI Agent在平台上處理下班時間的查詢，同時你在個人手機上直接監控結果。"
+        },
+        "history": {
+          "title": "6 個月歷史匯入",
+          "description": "不要從零開始。我們自動提取最近 6 個月的聊天記錄，讓你的團隊立即擁有完整脈絡。"
+        },
+        "mobileApp": {
+          "title": "Seasalt 行動應用程式",
+          "description": "員工不需要存取你的實體手機。他們可以在自己的設備上使用 Seasalt.ai 應用程式，在路上回覆客戶。"
+        },
+        "unifiedInbox": {
+          "title": "統一收件匣",
+          "description": "將 WhatsApp 與簡訊、Messenger、LINE 和 Instagram 結合在單一視圖中。停止切換標籤，開始解決問題。"
+        }
+      }
+    },
+    "hero": {
+      "badge": "2026年新功能",
+      "title": "保留您的 WhatsApp Business App",
+      "titleHighlight": "並透過 WhatsApp Cloud API 擴展規模",
+      "subtitle": "結束不可能的選擇。同時使用兩者。不再需要在個人化服務與企業力量之間做取捨。",
+      "benefits": {
+        "sameNumber": {
+          "title": "相同號碼",
+          "description": "保留您信任的商業號碼"
+        },
+        "noDataLoss": {
+          "title": "無資料遺失",
+          "description": "同步 180 天聊天記錄"
+        },
+        "hybridAI": {
+          "title": "混合 AI + 人工",
+          "description": "擴展自動化，保持個人化"
+        },
+        "zeroDisruption": {
+          "title": "零中斷",
+          "description": "無縫 QR 碼遷移"
+        }
+      },
+      "cta": {
+        "primary": "免費開始",
+        "secondary": "了解運作方式"
+      },
+      "triSync": {
+        "title": "三向同步系統",
+        "subtitle": "三個接觸點的即時同步",
+        "phone": {
+          "title": "您的手機",
+          "subtitle": "WhatsApp Business App"
+        },
+        "dashboard": {
+          "title": "seasalt.ai 儀表板",
+          "subtitle": "中央樞紐"
+        },
+        "fieldTeams": {
+          "title": "現場團隊",
+          "subtitle": "行動應用程式"
+        },
+        "syncLabel": "即時同步",
+        "stats": {
+          "live": "即時",
+          "latency": "<100毫秒",
+          "realtime": "即時"
+        }
+      },
+      "stats": {
+        "syncedDevices": {
+          "value": "無限",
+          "label": "同步裝置"
+        },
+        "humanUsers": {
+          "value": "無限",
+          "label": "人工使用者"
+        },
+        "chatHistory": {
+          "value": "180 天",
+          "label": "聊天記錄同步"
+        }
+      }
+    },
+    "comparison": {
+      "title": "比較 WhatsApp 解決方案",
+      "subtitle": "看看 WhatsApp Coexistence 如何與替代方案比較",
+      "table": {
+        "feature": "功能",
+        "businessApp": "商務應用程式",
+        "premium": "進階版",
+        "cloudAPI": "雲端 API",
+        "coexistence": "共存",
+        "recommended": "推薦"
+      },
+      "features": {
+        "cost": {
+          "name": "費用",
+          "free": "免費",
+          "premiumRange": "$15-$350/月",
+          "perMessage": "按訊息計費",
+          "hybrid": "混合模式"
+        },
+        "sameNumber": "相同號碼",
+        "chatHistory": "聊天記錄",
+        "multiUser": {
+          "name": "多使用者",
+          "fiveDevices": "5 台裝置",
+          "tenDevices": "10 台裝置",
+          "unlimited": "無限"
+        },
+        "automation": {
+          "name": "自動化",
+          "basic": "基礎",
+          "advancedAI": "進階 AI",
+          "aiHuman": "AI + 人工"
+        },
+        "broadcastLimit": {
+          "name": "廣播限制",
+          "contacts256": "256 個聯絡人",
+          "unlimited": "無限"
+        },
+        "crmIntegration": "CRM 整合",
+        "verification": "驗證",
+        "groupChats": {
+          "name": "群組聊天",
+          "appOnly": "僅應用程式"
+        },
+        "analytics": {
+          "name": "分析",
+          "basic": "基礎"
+        },
+        "maxThroughput": {
+          "name": "最大傳輸量",
+          "manual": "手動",
+          "mps80": "80+ MPS",
+          "mps20": "20 MPS"
+        },
+        "migration": {
+          "name": "遷移",
+          "na": "不適用",
+          "disruptive": "破壞性",
+          "seamless": "無縫"
+        }
+      },
+      "days180": "180 天",
+      "mobile": {
+        "businessAppTitle": "WhatsApp Business App",
+        "premiumTitle": "WhatsApp Business Premium",
+        "apiTitle": "WhatsApp Business API",
+        "coexistenceTitle": "WhatsApp Coexistence"
+      },
+      "cta": {
+        "title": "準備升級到 WhatsApp Coexistence？",
+        "button": "立即註冊"
+      }
+    },
+    "resources": {
+      "title": "資源與文件",
+      "subtitle": "實施 WhatsApp Coexistence 所需的一切",
+      "cards": {
+        "wiki": {
+          "title": "官方 Wiki 指南",
+          "description": "關於 WhatsApp Coexistence 實施、最佳實務和疑難排解的完整技術文件。",
+          "cta": "閱讀文件"
+        },
+        "developer": {
+          "title": "Meta 開發者文件",
+          "description": "用於內嵌註冊、webhooks 和 API 整合的官方 Meta 文件。",
+          "cta": "檢視 API 參考"
+        },
+        "caseStudies": {
+          "title": "案例研究",
+          "description": "來自銀行、零售、醫療保健和電子商務行業的真實實施。",
+          "cta": "檢視使用案例"
+        }
+      },
+      "faq": {
+        "title": "常見問題",
+        "questions": {
+          "q1": {
+            "question": "什麼是 WhatsApp Coexistence？",
+            "answer": "WhatsApp Coexistence 是一項功能，可讓企業在同一個電話號碼上同時使用 WhatsApp Business App 和 WhatsApp Cloud API。訊息會在兩個平台之間即時同步，讓您在利用 API 的自動化和規模的同時，保持行動應用程式的個人化服務。"
+          },
+          "q2": {
+            "question": "我需要變更我的電話號碼嗎？",
+            "answer": "不用！WhatsApp Coexistence 的關鍵優勢之一是您可以保留現有的電話號碼。您不需要取得新號碼或變更現有號碼。QR 碼為基礎的導入程序會將您目前的 WhatsApp Business App 號碼連結到 Cloud API。"
+          },
+          "q3": {
+            "question": "我會遺失聊天記錄嗎？",
+            "answer": "不會，您可以在導入期間保留最多 180 天的聊天記錄。當您在內嵌註冊程序中將 WhatsApp Business App 連結到 Cloud API 時，您可以選擇匯入過去六個月的對話記錄和聯絡人。但這必須在完成導入程序後的 24 小時內完成。"
+          },
+          "q4": {
+            "question": "定價如何運作？",
+            "answer": "WhatsApp Coexistence 啟用混合定價模式。從 WhatsApp Business App 手動傳送的訊息完全免費。透過 Cloud API 傳送的訊息（包括自動訊息、範本和廣播）遵循 Meta 的對話為基礎定價模式。這讓您可以透過使用免費的應用程式訊息進行個人一對一對話，以及使用 API 訊息進行規模和自動化來優化成本。"
+          },
+          "q5": {
+            "question": "技術限制是什麼？",
+            "answer": "主要技術限制是：1）共存帳戶的傳輸量限制為每秒 20 訊息（MPS），相較於獨立 API 帳戶的更高限制；2）您必須至少每 13-14 天打開一次 WhatsApp Business App 以維持同步連線；3）某些應用程式功能已停用，包括群組聊天同步、消失訊息、一次性檢視媒體和訊息編輯/撤銷。"
+          },
+          "q6": {
+            "question": "在所有國家都可用嗎？",
+            "answer": "不，WhatsApp Coexistence 正在分階段推出。截至 2026 年 1 月，某些地區（包括奈及利亞和南非）無法使用。這些國家的企業目前不符合資格，需要在獨立應用程式或獨立 API 之間選擇。"
+          },
+          "q7": {
+            "question": "遷移需要多長時間？",
+            "answer": "遷移程序旨在快速且無縫。QR 碼為基礎的內嵌註冊流程通常需要 5-10 分鐘才能完成。如果您選擇匯入聊天記錄，這將在背景進行。整個過程可以在 15 分鐘內完成，不會中斷您目前的 WhatsApp 運營。"
+          },
+          "q8": {
+            "question": "如果我停止使用會怎樣？",
+            "answer": "您可以隨時停止使用 Cloud API。您的 WhatsApp Business App 將繼續正常使用您的號碼。但是，您將失去對 API 提供的自動化、多Agent功能和 CRM 整合的存取權。在聯繫 Meta 支援並完成新的導入程序之前，您將無法重新啟用該號碼的共存功能。"
+          }
+        }
+      },
+      "cta": {
+        "title": "對 WhatsApp Coexistence 還有疑問嗎？",
+        "button": "預約示範會議"
+      }
+    },
+    "useCases": {
+      "title": "真實世界的使用案例",
+      "subtitle": "看看各行各業的企業如何透過 WhatsApp Coexistence 轉型客戶體驗",
+      "tabs": {
+        "banking": "銀行業",
+        "retail": "零售業",
+        "healthcare": "醫療保健",
+        "ecommerce": "電子商務"
+      },
+      "banking": {
+        "support247": {
+          "title": "24/7 客戶支援",
+          "description": "使用 AI 自動處理房貸和貸款查詢。複雜案例即時轉介給人工Agent。"
+        },
+        "zeroAbandonment": {
+          "title": "零放棄率",
+          "description": "AI 處理 80% 的重複查詢。客戶永遠不用等待。"
+        },
+        "compliance": {
+          "title": "合規就緒",
+          "description": "完整的審計軌跡和歸檔以滿足監管要求（GDPR、FINRA）。"
+        },
+        "caseStudy": {
+          "title": "案例研究：Bankia S.A.",
+          "points": [
+            "實現 24/7 支援",
+            "Agent閒置時間減少 45%",
+            "客戶滿意度：9.1/10",
+            "零放棄率"
+          ]
+        },
+        "results": {
+          "title": "結果",
+          "faqResolution": {
+            "label": "FAQ 解決率",
+            "value": "80%"
+          },
+          "responseTime": {
+            "label": "平均回應時間",
+            "value": "<30秒"
+          },
+          "costReduction": {
+            "label": "成本降低",
+            "value": "60%"
+          }
+        }
+      },
+      "retail": {
+        "vipHandling": {
+          "title": "VIP 客戶處理",
+          "description": "高價值客戶透過行動應用程式獲得個人化關注。例行查詢自動化。"
+        },
+        "orderManagement": {
+          "title": "訂單管理",
+          "description": "透過 API 自動發貨更新和交貨通知。"
+        },
+        "conversions": {
+          "title": "轉換率提升",
+          "description": "更快的回應時間和個人化跟進推動銷售。"
+        },
+        "caseStudy": {
+          "title": "案例研究：D2C 美妝品牌",
+          "points": [
+            "首次回應時間：2小時 → 4 分鐘",
+            "轉換率增加：32%",
+            "啟用多Agent協作",
+            "完成 CRM 整合"
+          ]
+        },
+        "results": {
+          "title": "結果",
+          "responseTime": {
+            "label": "回應時間",
+            "value": "97%"
+          },
+          "conversion": {
+            "label": "轉換率提升",
+            "value": "32%"
+          },
+          "efficiency": {
+            "label": "團隊效率",
+            "value": "+50%"
+          }
+        }
+      },
+      "healthcare": {
+        "appointments": {
+          "title": "預約提醒",
+          "description": "自動提醒將未到診率降低 60%。患者透過 WhatsApp 確認。"
+        },
+        "labResults": {
+          "title": "安全的檢驗結果",
+          "description": "符合 HIPAA 標準的測試結果傳遞，具有端到端加密。"
+        },
+        "followups": {
+          "title": "患者後續追蹤",
+          "description": "AI 在預約後進行檢查。將關注重點升級給醫護人員。"
+        },
+        "caseStudy": {
+          "title": "案例研究：AWS Connect + WhatsApp",
+          "points": [
+            "符合 HIPAA 標準的訊息傳遞",
+            "未到診率降低 60%",
+            "患者滿意度：4.8/5",
+            "保持完整的審計軌跡"
+          ]
+        },
+        "results": {
+          "title": "結果",
+          "noShow": {
+            "label": "未到診率降低",
+            "value": "60%"
+          },
+          "engagement": {
+            "label": "患者參與度",
+            "value": "4.8/5"
+          },
+          "compliance": {
+            "label": "合規評分",
+            "value": "100%"
+          }
+        }
+      },
+      "ecommerce": {
+        "cartRecovery": {
+          "title": "放棄購物車恢復",
+          "description": "自動提醒恢復 30% 的放棄購物車。"
+        },
+        "shipping": {
+          "title": "發貨更新",
+          "description": "即時追蹤通知讓客戶隨時掌握情況。"
+        },
+        "vipSupport": {
+          "title": "VIP 支援",
+          "description": "高價值客戶從行動應用程式獲得人工關注。"
+        },
+        "caseStudy": {
+          "title": "案例研究：電子商務商店",
+          "points": [
+            "購物車恢復：增加 30%",
+            "發貨查詢：85% 自動化",
+            "回應時間：<5 分鐘",
+            "客戶滿意度：4.6/5"
+          ]
+        },
+        "results": {
+          "title": "結果",
+          "cartRecovery": {
+            "label": "購物車恢復",
+            "value": "30%"
+          },
+          "automation": {
+            "label": "自動化率",
+            "value": "85%"
+          },
+          "satisfaction": {
+            "label": "客戶滿意度",
+            "value": "4.6/5"
+          }
+        }
+      },
+      "cta": {
+        "title": "透過 WhatsApp Coexistence 轉型您的產業",
+        "button": "立即註冊"
+      }
+    },
+    "architecture": {
+      "title": "技術架構",
+      "subtitle": "了解 WhatsApp Coexistence 的內部運作方式",
+      "customer": {
+        "title": "客戶",
+        "subtitle": "來自任何裝置的訊息"
+      },
+      "businessApp": {
+        "title": "WhatsApp Business App",
+        "subtitle": "行動裝置",
+        "features": [
+          "原生行動介面",
+          "手動一對一對話",
+          "群組聊天支援",
+          "語音/視訊通話"
+        ]
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "伺服器端自動化",
+        "features": [
+          "無限Agent",
+          "AI 聊天機器人",
+          "CRM 整合",
+          "進階分析"
+        ]
+      },
+      "platform": {
+        "title": "Seasalt.ai 平台",
+        "subtitle": "統一收件匣和協調",
+        "features": {
+          "mirroring": {
+            "title": "訊息鏡像",
+            "description": "所有頻道的即時同步"
+          },
+          "echoes": {
+            "title": "回聲事件",
+            "description": "追蹤手動應用程式回覆"
+          },
+          "webhooks": {
+            "title": "Webhook 路由",
+            "description": "智慧訊息路由"
+          }
+        }
+      },
+      "flows": {
+        "inbound": {
+          "title": "傳入鏡像",
+          "description": "客戶 → 應用程式 + API 同時"
+        },
+        "appEchoes": {
+          "title": "應用程式回聲",
+          "description": "手動回覆 → API 通知"
+        },
+        "apiEchoes": {
+          "title": "API 回聲",
+          "description": "機器人回覆 → 應用程式通知"
+        }
+      },
+      "specs": {
+        "mps20": {
+          "title": "20 MPS",
+          "description": "共存帳戶的最大訊息傳輸量"
+        },
+        "hours24": {
+          "title": "24 小時",
+          "description": "匯入聊天記錄的同步視窗"
+        },
+        "days180": {
+          "title": "180 天",
+          "description": "聊天記錄保留期限"
+        },
+        "e2ee": {
+          "title": "E2EE",
+          "description": "所有訊息的端到端加密"
+        }
+      },
+      "webhooks": {
+        "title": "Webhook 事件",
+        "events": [
+          {
+            "name": "messages",
+            "description": "傳入的客戶訊息"
+          },
+          {
+            "name": "smb_message_echoes",
+            "description": "手動應用程式回覆"
+          },
+          {
+            "name": "smb_app_state_sync",
+            "description": "聯絡人更新"
+          },
+          {
+            "name": "history",
+            "description": "6 個月聊天匯入"
+          }
+        ]
+      },
+      "security": {
+        "title": "安全性與合規",
+        "features": [
+          {
+            "name": "端到端加密",
+            "description": "所有訊息受到保護"
+          },
+          {
+            "name": "合規",
+            "description": "完整的審計軌跡"
+          },
+          {
+            "name": "HIPAA 就緒",
+            "description": "醫療保健認證"
+          },
+          {
+            "name": "PCI DSS",
+            "description": "付款卡安全"
+          }
+        ]
+      },
+      "cta": {
+        "title": "準備實施 WhatsApp Coexistence？",
+        "button": "閱讀完整教學"
+      }
+    },
+    "ctaSection": {
+      "title": "準備轉型您的 WhatsApp 運營？",
+      "subtitle": "加入數千家使用 WhatsApp Coexistence 進行擴展同時保持個人化的企業",
+      "benefits": {
+        "keepNumber": {
+          "title": "保留您的號碼",
+          "description": "無需變更"
+        },
+        "zeroDisruption": {
+          "title": "零中斷",
+          "description": "無縫遷移"
+        },
+        "aiHuman": {
+          "title": "AI + 人工",
+          "description": "混合工作流程"
+        },
+        "saveMoney": {
+          "title": "節省資金",
+          "description": "免費應用程式訊息"
+        }
+      },
+      "primaryCTA": "立即註冊 WhatsApp Coexistence",
+      "trust": {
+        "encryption": "端到端加密",
+        "hipaa": "符合 HIPAA 標準",
+        "verified": "Meta 驗證"
+      },
+      "footer": "加入 10,000 多家已經使用 Seasalt.ai 轉型其客戶通訊的企業"
+    },
+    "features": {
+      "title": "統一的全通道路由引擎",
+      "subtitle": "不僅僅是同步；而是升級您的整個客戶支援基礎設施。",
+      "items": {
+        "sync": {
+          "title": "三向同步",
+          "description": "訊息在您的手機、Seasalt 網頁儀表板和 Seasalt 行動應用程式之間即時同步。從任何地方發送，在任何地方查看。"
+        },
+        "agents": {
+          "title": "無限Agent",
+          "description": "打破 4 台裝置限制。將 10、50 或 100 個Agent新增到同一個 WhatsApp 號碼。無縫地將對話分配給人工Agent或 AI 機器人。"
+        },
+        "aiHandoff": {
+          "title": "AI Agent轉接",
+          "description": "啟用 AI Agent在平台上處理下班時間的查詢，同時您直接在個人手機上監控結果。"
+        },
+        "history": {
+          "title": "6 個月歷史匯入",
+          "description": "不要從零開始。我們自動提取過去 6 個月的聊天記錄，讓您的團隊立即擁有完整脈絡。"
+        },
+        "mobileApp": {
+          "title": "Seasalt 行動應用程式",
+          "description": "員工不需要存取您的實體手機。他們可以使用自己設備上的 Seasalt.ai 應用程式在外出時回覆客戶。"
+        },
+        "unifiedInbox": {
+          "title": "統一收件匣",
+          "description": "將 WhatsApp 與簡訊、Messenger、LINE 和 Instagram 結合在一個檢視中。停止切換標籤，開始解決問題。"
+        }
+      },
+      "cta": "開始使用 WhatsApp Coexistence"
+    },
+    "walkthrough": {
+      "overline": "設定逐步指南",
+      "title": "在幾分鐘內開始",
+      "subtitle": "無需編碼。只需掃描和同步。",
+      "steps": {
+        "step1": {
+          "title": "1. 新增新頻道",
+          "description": "瀏覽至 <strong>Seasalt.ai 工作區</strong>。選擇「頻道」並選擇新的「WhatsApp Coexistence」選項。"
+        },
+        "step2": {
+          "title": "2. 連結 Meta 帳戶",
+          "description": "使用您的 Facebook 帳戶登入。選擇您的商務組合。重要的是，選擇 <strong>「連結 WhatsApp Business App」</strong> 選項。"
+        },
+        "step3": {
+          "title": "3. 掃描和同步",
+          "description": "將出現 QR 碼。在您的手機上開啟 <strong>連結的裝置</strong> 並掃描它。我們立即開始同步最多 <span class=\"text-green-600 font-bold\">6 個月</span> 的聊天記錄。"
+        }
+      },
+      "ui": {
+        "bestOffering": "最佳方案",
+        "connect": "連結",
+        "createWABA": "建立新的 WABA 帳戶",
+        "scanInstruction": "用手機掃描",
+        "syncing": "同步記錄中...",
+        "historyLabel": "180 天聊天記錄"
+      }
+    }
   }
 }

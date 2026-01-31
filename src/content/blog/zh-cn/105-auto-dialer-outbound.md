@@ -29,7 +29,7 @@ draft: false
 
 1. [为什么小型企业需要外呼/电话营销服务](https://seasalt.ai/blog/why-outbound-call-sm-business/)：了解外呼服务的重要性和优势。
 
-2. [电话营销外呼的内部与外包](https://seasalt.ai/blog/live-outbound-inhouse-outsourced/)：什么是实时外呼代理？您应该外包还是内部招聘？
+2. [电话营销外呼的内部与外包](https://seasalt.ai/blog/live-outbound-inhouse-outsourced/)：什么是实时外呼Agent？您应该外包还是内部招聘？
 
 3. （本文）[外呼自动拨号器](https://seasalt.ai/blog/auto-dialer-outbound/)：什么是自动拨号器？Power Dialer、Progressive Dialer 和 Predictive Dialer 之间有什么区别？哪种服务适合您的业务？
 
@@ -41,7 +41,7 @@ draft: false
 
 在当今快节奏的商业世界中，高效且可扩展的外呼策略至关重要，特别是对于医疗保健、金融、零售和房地产等行业。实时座席传统上被认为是提供个性化客户体验的黄金标准，但他们面临着巨大的挑战，例如高昂的人力成本和高需求期间有限的可扩展性。
 
-另一方面，完全自动化的系统，例如语音 AI 代理和自动呼叫服务，提供了更高的效率和可扩展性，但它们缺乏人工代理所提供的细致入微的理解和同理心。这导致企业寻求一种中间解决方案：半自动化模型。
+另一方面，完全自动化的系统，例如语音 AI Agent和自动呼叫服务，提供了更高的效率和可扩展性，但它们缺乏人工Agent所提供的细致入微的理解和同理心。这导致企业寻求一种中间解决方案：半自动化模型。
 
 半自动化模型将自动化的力量与人情味相结合，创造了一种平衡，可以优化成本和客户体验。该模型利用 Power Dialer、Progressive Dialer 和 Predictive Dialer 等自动拨号器。
 这些自动拨号器中的每一个都提供独特的优势，使其适用于根据业务需求和目标的不同用例。

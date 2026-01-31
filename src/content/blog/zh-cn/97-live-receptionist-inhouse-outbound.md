@@ -29,7 +29,7 @@ draft: false
 
 2. (本文) [外包与内部实时接待员](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/): 什么是实时接待员？您应该外包还是内部招聘？
 
-3. [自动化电话接听系统（交互式语音应答 IVR 与语音 AI 代理）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什么是自动化接听服务？您应该使用交互式语音应答还是语音 AI 代理？
+3. [自动化电话接听系统（交互式语音应答 IVR 与语音 AI Agent）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什么是自动化接听服务？您应该使用交互式语音应答还是语音 AI Agent？
 
 4. [决策：我的小型企业应该使用实时接待员还是自动化接听服务？](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/): 您已经从我们的系列文章中了解了所有关于接听服务的信息。现在是时候决定哪种类型的服务最适合您的业务了。
 
@@ -190,7 +190,7 @@ draft: false
 供应商：
 - *[Nexa](https://www.nexa.com/plans)* (定制价格 – 联系销售获取报价)
 - *[AnswerForce](https://www.answerforce.com/)* (起价349美元/月，包含200分钟，另加设置费)
-- *[Stealth Agent](https://stealthagents.com/pricing/)* (起价10 - 15美元/小时 / 全职代理)
+- *[Stealth Agent](https://stealthagents.com/pricing/)* (起价10 - 15美元/小时 / 全职Agent)
 - *[AnswerConnect](https://www.answerconnect.com/plans)* (起价350美元/月，包含200分钟，另加49.99美元设置费)
 ---
 
@@ -326,8 +326,8 @@ draft: false
 
 - (本文) [外包与内部实时接待员](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/): 什么是实时接待员？您应该外包还是内部招聘？
 
-- [自动化电话接听系统（交互式语音应答 IVR 与语音 AI 代理）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什么是自动化接听服务？您应该使用机器人 IVR 还是语音 AI 代理？
+- [自动化电话接听系统（交互式语音应答 IVR 与语音 AI Agent）](https://seasalt.ai/blog/98-inbound-answering-automated-system/): 什么是自动化接听服务？您应该使用机器人 IVR 还是语音 AI Agent？
 
 - [决策：我的小型企业应该使用实时接待员还是自动化接听服务？](https://seasalt.ai/blog/99-inbound-answering-live-vs-automated/): 您已经从我们的系列文章中了解了所有关于接听服务的信息。现在是时候决定哪种类型的服务最适合您的业务了。
 
-- [OpenAI 与人类与语音 AI：成本比较](https://seasalt.ai/blog/101-openai-realtime-technical-breakdown/): OpenAI 的最新语音 AI 技术是一个很棒的语音 AI 代理。实际成本是多少？
+- [OpenAI 与人类与语音 AI：成本比较](https://seasalt.ai/blog/101-openai-realtime-technical-breakdown/): OpenAI 的最新语音 AI 技术是一个很棒的语音 AI Agent。实际成本是多少？

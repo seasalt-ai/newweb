@@ -23,9 +23,9 @@ draft: false
 - [SeaX](#seax)
 - [演示服務器](#demo-server)
   - [一對多幫助：官方頻道](#1-to-many-help-official-channels)
-  - [一對一幫助：客戶服務代理](#1-to-1-help-customer-service-agent)
+  - [一對一幫助：客戶服務Agent](#1-to-1-help-customer-service-agent)
     - [知識庫](#knowledge-base)
-    - [實時代理轉接](#live-agent-transfer)
+    - [實時Agent轉接](#live-agent-transfer)
   - [案例管理](#case-management)
 - [技術深入探討](#technical-deep-dive)
   - [定義 Flex 流程](#define-the-flex-flow)
@@ -44,10 +44,10 @@ draft: false
 我們的目標是演示如何將 Discord 集成到現有客戶服務軟件（在本例中為 [Twilio Flex](https://flex.twilio.com/)）中，以增加品牌官方服務器的附加價值。請繼續閱讀，以更深入地了解我們的實施。
 
 # Twilio Flex
-Twilio 是一家成熟的通信公司，提供用於管理短信、電話、電子郵件、聊天消息等的 API。Flex 是 Twilio 的旗艦產品之一：一個可擴展的基於雲的聯絡中心，可將來自任何來源的消息和呼叫路由到虛擬和實時代理。我們選擇 Flex 作為聯絡中心集成的基礎，因為它已經對各種渠道（如 Facebook、短信和 WhatsApp）提供了出色的支持。
+Twilio 是一家成熟的通信公司，提供用於管理短信、電話、電子郵件、聊天消息等的 API。Flex 是 Twilio 的旗艦產品之一：一個可擴展的基於雲的聯絡中心，可將來自任何來源的消息和呼叫路由到虛擬和實時Agent。我們選擇 Flex 作為聯絡中心集成的基礎，因為它已經對各種渠道（如 Facebook、短信和 WhatsApp）提供了出色的支持。
 
 # SeaX
-SeaX 是一個雲聯絡中心，與先進的 AI 功能深度集成，有助於提高生產力和客戶滿意度。SeaX 是 Seasalt.ai 的旗艦產品之一，已在 150 多個國家/地區的客戶中推出。SeaX 聯絡中心平台建立在 Twilio Flex 之上，並包含各種附加功能，使實時代理能夠更好地協助客戶。一些最有用的功能包括內部文本轉語音和語音轉文本、AI 驅動的知識庫和集成案例管理系統。有關 SeaX 平台所有功能的更多信息，請訪問 [SeaX 主頁](https://seax.seasalt.ai/?utm_source=blog/)。
+SeaX 是一個雲聯絡中心，與先進的 AI 功能深度集成，有助於提高生產力和客戶滿意度。SeaX 是 Seasalt.ai 的旗艦產品之一，已在 150 多個國家/地區的客戶中推出。SeaX 聯絡中心平台建立在 Twilio Flex 之上，並包含各種附加功能，使實時Agent能夠更好地協助客戶。一些最有用的功能包括內部文本轉語音和語音轉文本、AI 驅動的知識庫和集成案例管理系統。有關 SeaX 平台所有功能的更多信息，請訪問 [SeaX 主頁](https://seax.seasalt.ai/?utm_source=blog/)。
 
 # 演示服務器
 現在我們將介紹如何設置我們的 Discord 服務器。為了演示目的，我們設想了一個場景，其中我們的服務器被用作 Pokémon Go! 等遊戲的社區。下表概述了我們 Discord 服務器中演示的一些功能。
@@ -84,11 +84,11 @@ SeaX 是一個雲聯絡中心，與先進的 AI 功能深度集成，有助於�
 *演示 Discord 服務器上的 #feature-request 頻道，其中包含用戶執行斜杠命令。*
 </center>
 
-## 一對一幫助：客戶服務代理
+## 一對一幫助：客戶服務Agent
 
-玩家可以使用 `/helpme` 斜杠命令觸發與代理的直接消息。客戶服務代理可以是自動化的（虛擬代理）或由實時代理操作。
+玩家可以使用 `/helpme` 斜杠命令觸發與Agent的直接消息。客戶服務Agent可以是自動化的（虛擬Agent）或由實時Agent操作。
 
-對於我們的演示，我們設置了一個簡單的 FAQ 機器人，它查詢公司知識庫以向用戶提供相關的文章建議。用戶還可以請求實時代理，並將在同一聊天中轉接到 SeaX 上的實時代理。
+對於我們的演示，我們設置了一個簡單的 FAQ 機器人，它查詢公司知識庫以向用戶提供相關的文章建議。用戶還可以請求實時Agent，並將在同一聊天中轉接到 SeaX 上的實時Agent。
 
 <center>
 <img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-customer-service-channel.jpg" alt="Discord 服務器上的客戶服務頻道，其中包含用戶觸發 DM。"/>
@@ -97,27 +97,27 @@ SeaX 是一個雲聯絡中心，與先進的 AI 功能深度集成，有助於�
 </center>
 
 ### 知識庫
-當用戶向虛擬服務代理提交查詢時，代理可以將用戶轉介到知識庫中的相關文章。
+當用戶向虛擬服務Agent提交查詢時，Agent可以將用戶轉介到知識庫中的相關文章。
 
-### 實時代理轉接
-一旦用戶與機器人進行直接消息，他們就可以請求實時代理。他們將立即收到通知，告知已為他們創建了一個案例，並且他們正在被轉接到實時代理。當實時代理加入聊天時，他們也會收到通知。
+### 實時Agent轉接
+一旦用戶與機器人進行直接消息，他們就可以請求實時Agent。他們將立即收到通知，告知已為他們創建了一個案例，並且他們正在被轉接到實時Agent。當實時Agent加入聊天時，他們也會收到通知。
 
 <center>
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-customer-service-dm.jpg" alt="與客戶服務的直接消息，其中包含知識庫文章建議、實時代理轉接和案例管理。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-demo-customer-service-dm.jpg" alt="與客戶服務的直接消息，其中包含知識庫文章建議、實時Agent轉接和案例管理。"/>
 
-*與客戶服務的直接消息，其中包含知識庫文章建議、實時代理轉接和案例管理。*
+*與客戶服務的直接消息，其中包含知識庫文章建議、實時Agent轉接和案例管理。*
 </center>
 
-在後端，實時代理可以通過一個平台處理來自所有渠道（短信、Facebook、Discord、語音通話等）的來電和聊天消息。在這種情況下，後端平台是 SeaX。
+在後端，實時Agent可以通過一個平台處理來自所有渠道（短信、Facebook、Discord、語音通話等）的來電和聊天消息。在這種情況下，後端平台是 SeaX。
 
 <center>
-<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-channel.jpg" alt="SeaX 界面顯示實時代理與 Discord 用戶對話的視圖。"/>
+<img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/flex-discord-channel.jpg" alt="SeaX 界面顯示實時Agent與 Discord 用戶對話的視圖。"/>
 
-*SeaX 界面顯示實時代理與 Discord 用戶對話的視圖。*
+*SeaX 界面顯示實時Agent與 Discord 用戶對話的視圖。*
 </center>
 
 ## 案例管理
-我們想在此演示中強調的一個功能是案例管理。Seasalt.ai 的 Discord 解決方案與 SeaX 案例管理系統集成，以正確跟踪用戶的各種案例。當用戶與 Discord 機器人交互時（例如請求實時代理或報告錯誤），我們可以自動打開一個新案例並記錄有關用戶和他們遇到的問題的所有重要信息。這使得實時代理可以輕鬆訪問所有報告的問題，並確保他們跟踪用戶直到案例解決。
+我們想在此演示中強調的一個功能是案例管理。Seasalt.ai 的 Discord 解決方案與 SeaX 案例管理系統集成，以正確跟踪用戶的各種案例。當用戶與 Discord 機器人交互時（例如請求實時Agent或報告錯誤），我們可以自動打開一個新案例並記錄有關用戶和他們遇到的問題的所有重要信息。這使得實時Agent可以輕鬆訪問所有報告的問題，並確保他們跟踪用戶直到案例解決。
 
 <center>
 <img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-new-case.png" alt="在 SeaX 案例管理系統中創建新案例。"/>
@@ -132,14 +132,14 @@ SeaX 是一個雲聯絡中心，與先進的 AI 功能深度集成，有助於�
 
 # 技術深入探討
 
-現在我們已經看到了最終產品以及服務器成員和協助他們的實時代理可用的所有功能。但是整個事情是如何實際實現的呢？在我們上一篇博客文章“[如何為您的品牌創建 Discord 社區和機器人](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)”中，我們介紹了如何為您的品牌創建 Discord 服務器以及如何集成 Discord 機器人來管理它。為了支持這個更高級的演示，我們還使用了 [SeaChat，Seasalt.ai 的對話式 AI 引擎](https://chat.seasalt.ai)，來構建一個簡單的聊天機器人，允許我們的 Discord 機器人處理用戶的自然語言查詢。
+現在我們已經看到了最終產品以及服務器成員和協助他們的實時Agent可用的所有功能。但是整個事情是如何實際實現的呢？在我們上一篇博客文章“[如何為您的品牌創建 Discord 社區和機器人](https://seasalt.ai/blog/16-discord-how-to-create-a-discord-community-and-bot-for-your-brand/)”中，我們介紹了如何為您的品牌創建 Discord 服務器以及如何集成 Discord 機器人來管理它。為了支持這個更高級的演示，我們還使用了 [SeaChat，Seasalt.ai 的對話式 AI 引擎](https://chat.seasalt.ai)，來構建一個簡單的聊天機器人，允許我們的 Discord 機器人處理用戶的自然語言查詢。
 
 在 SeaX 方面，我們的團隊與 Twilio 密切合作，創建了一個基於 Twilio Flex 的功能豐富的聯絡中心解決方案。有關 Twilio Flex 以及設置過程如何工作的更多信息，您可以閱讀 [Twilio Flex 快速入門指南](https://www.twilio.com/docs/flex/quickstart)。
 
-準備好 Discord 服務器、Discord 機器人、聊天機器人並確保我們有一個正常運行的 SeaX 實例後，最大的挑戰是如何正確地將消息路由到用戶、機器人以及 SeaX 上的實時代理之間。Twilio 在處理消息路由方面非常出色，因此我們的目標是處理 Discord 機器人服務器中的所有斜杠命令，然後將所有其他消息（例如發送給聊天機器人或實時代理的直接消息）轉發到 Twilio。
+準備好 Discord 服務器、Discord 機器人、聊天機器人並確保我們有一個正常運行的 SeaX 實例後，最大的挑戰是如何正確地將消息路由到用戶、機器人以及 SeaX 上的實時Agent之間。Twilio 在處理消息路由方面非常出色，因此我們的目標是處理 Discord 機器人服務器中的所有斜杠命令，然後將所有其他消息（例如發送給聊天機器人或實時Agent的直接消息）轉發到 Twilio。
 
 ## 定義 Flex 流程
-第一步是確保我們發送到 Twilio 的任何消息都將路由到正確的位置。我們設置了一個簡單的 Twilio 流程，它首先檢查用戶是否請求了實時代理，如果是，則將以下消息轉發到 SeaX。如果用戶沒有請求實時代理，則我們將消息轉發到聊天機器人以獲取響應。有關如何設置流程的更多信息，請參閱 [Twilio Studio Flow 文檔](https://www.twilio.com/docs/studio)。
+第一步是確保我們發送到 Twilio 的任何消息都將路由到正確的位置。我們設置了一個簡單的 Twilio 流程，它首先檢查用戶是否請求了實時Agent，如果是，則將以下消息轉發到 SeaX。如果用戶沒有請求實時Agent，則我們將消息轉發到聊天機器人以獲取響應。有關如何設置流程的更多信息，請參閱 [Twilio Studio Flow 文檔](https://www.twilio.com/docs/studio)。
 
 <center>
 <img src="/images/blog/17-discord-and-twilio-flex-bringing-flex-contact-center-into-uncharted-territory/discord-flex-flow.png" alt="一個簡單的 Flex Studio 流程，將傳入消息路由到聊天機器人或 SeaX。"/>
@@ -287,5 +287,5 @@ async def receive_discord_message(request: Request, response: Response):
 </center>
 
 # 總結
-總而言之，在本博客系列中，我們討論了 Discord 的日益普及以及它作為品牌與客戶互動的新平台所帶來的機會。我們介紹了 Discord 的一些基本功能，以展示品牌如何建立自己的在線社區，以及更高級的功能，這些功能允許品牌使用 Discord 機器人自動化其服務器上的審核和客戶支持。最後，我們分享了我們如何將 Discord 與我們的客戶服務平台 SeaX 集成，從而為 Discord 社區帶來高級功能，例如實時代理轉接、案例管理和 AI 驅動的知識庫搜索。
+總而言之，在本博客系列中，我們討論了 Discord 的日益普及以及它作為品牌與客戶互動的新平台所帶來的機會。我們介紹了 Discord 的一些基本功能，以展示品牌如何建立自己的在線社區，以及更高級的功能，這些功能允許品牌使用 Discord 機器人自動化其服務器上的審核和客戶支持。最後，我們分享了我們如何將 Discord 與我們的客戶服務平台 SeaX 集成，從而為 Discord 社區帶來高級功能，例如實時Agent轉接、案例管理和 AI 驅動的知識庫搜索。
 如需個人演示，或了解 Seasalt.ai 如何幫助滿足您的特定業務需求，請填寫我們的“[預訂演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)”表格。有關 Flex/Discord 集成的更多信息或聯繫我們，請訪問 [Seasalt.ai 的 Twilio 合作夥伴列表](https://showcase.twilio.com/partner-listing/a8E8Z000000PDCQUA4)。

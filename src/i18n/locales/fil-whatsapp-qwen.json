@@ -1,0 +1,556 @@
+{
+  "whatsappCoexistence": {
+    "hero": {
+      "badge": "Bago para sa 2026",
+      "title": "Panatilihin ang iyong WhatsApp Business App",
+      "titleHighlight": "AT Palawakin gamit ang WhatsApp Cloud API",
+      "subtitle": "Wakas na sa imposible na pagpipilian. Gamitin pareho nang sabay. Hindi na kailangang mag-trade-off sa personal touch at enterprise power.",
+      "benefits": {
+        "sameNumber": {
+          "title": "Parehong numero",
+          "description": "Panatilihin ang iyong pinagkakatiwalaang business number"
+        },
+        "noDataLoss": {
+          "title": "Walang nawawalang data",
+          "description": "I-sync ang 180 araw na chat history"
+        },
+        "hybridAI": {
+          "title": "Hybrid AI + Tao",
+          "description": "Palawakin ang automation, manatiling personal"
+        },
+        "zeroDisruption": {
+          "title": "Walang pagharang",
+          "description": "Walang putol na paglipat gamit ang QR code"
+        }
+      },
+      "cta": {
+        "primary": "Simulan nang libre",
+        "secondary": "Alamin kung paano ito gumagana"
+      },
+      "triSync": {
+        "title": "Ang Tri-Sync System",
+        "subtitle": "Real-time na pag-sync sa tatlong punto ng pakikipag-ugnayan",
+        "phone": {
+          "title": "Iyong telepono",
+          "subtitle": "WhatsApp Business App"
+        },
+        "dashboard": {
+          "title": "seasalt.ai dashboard",
+          "subtitle": "pangunahing hub"
+        },
+        "fieldTeams": {
+          "title": "Field teams",
+          "subtitle": "mobile app"
+        },
+        "syncLabel": "real-time sync",
+        "stats": {
+          "live": "live",
+          "latency": "<100ms",
+          "realtime": "real-time"
+        }
+      },
+      "stats": {
+        "syncedDevices": {
+          "value": "Walang limitasyon",
+          "label": "naka-sync na device"
+        },
+        "humanUsers": {
+          "value": "Walang limitasyon",
+          "label": "mga user na tao"
+        },
+        "chatHistory": {
+          "value": "180 Araw",
+          "label": "Pag-sync ng Chat History"
+        }
+      }
+    },
+    "comparison": {
+      "title": "Ikumpara ang mga solusyon ng WhatsApp",
+      "subtitle": "Tingnan kung paano nakikita ang WhatsApp Coexistence laban sa mga alternatibo",
+      "table": {
+        "feature": "Tampok",
+        "businessApp": "Business App",
+        "premium": "Premium",
+        "cloudAPI": "Cloud API",
+        "coexistence": "Coexistence",
+        "recommended": "INIREREKOMENDA"
+      },
+      "features": {
+        "cost": {
+          "name": "Gastos",
+          "free": "Libre",
+          "premiumRange": "$15-$350/buwan",
+          "perMessage": "Kada mensahe",
+          "hybrid": "Hybrid model"
+        },
+        "sameNumber": "Parehong numero",
+        "chatHistory": "Chat history",
+        "multiUser": {
+          "name": "Multi-User",
+          "fiveDevices": "5 device",
+          "tenDevices": "10 device",
+          "unlimited": "Walang limitasyon"
+        },
+        "automation": {
+          "name": "Automation",
+          "basic": "Pangunahin",
+          "advancedAI": "Advanced na AI",
+          "aiHuman": "AI + Tao"
+        },
+        "broadcastLimit": {
+          "name": "Limitasyon ng Broadcast",
+          "contacts256": "256 contact",
+          "unlimited": "Walang limitasyon"
+        },
+        "crmIntegration": "CRM Integration",
+        "verification": "Verification",
+        "groupChats": {
+          "name": "Group Chats",
+          "appOnly": "App lang"
+        },
+        "analytics": {
+          "name": "Analytics",
+          "basic": "Pangunahin"
+        },
+        "maxThroughput": {
+          "name": "Max na Throughput",
+          "manual": "Manual",
+          "mps80": "80+ MPS",
+          "mps20": "20 MPS"
+        },
+        "migration": {
+          "name": "Migration",
+          "na": "N/A",
+          "disruptive": "Nakakagulo",
+          "seamless": "Walang putol"
+        }
+      },
+      "days180": "180 araw",
+      "mobile": {
+        "businessAppTitle": "WhatsApp Business App",
+        "premiumTitle": "WhatsApp Business Premium",
+        "apiTitle": "WhatsApp Business API",
+        "coexistenceTitle": "WhatsApp Coexistence"
+      },
+      "cta": {
+        "title": "Handa nang mag-upgrade sa WhatsApp Coexistence?",
+        "button": "Mag-sign up ngayon"
+      }
+    },
+    "resources": {
+      "title": "Mga Resources at Dokumentasyon",
+      "subtitle": "Lahat ng kailangan mo para ipatupad ang WhatsApp Coexistence",
+      "cards": {
+        "wiki": {
+          "title": "Opisyales na Wiki Guide",
+          "description": "Kumpletong teknikal na dokumentasyon tungkol sa pagpapatupad ng WhatsApp Coexistence, pinakamahusay na kasanayan, at pag-troubleshoot.",
+          "cta": "Basahin ang dokumentasyon"
+        },
+        "developer": {
+          "title": "Mga Dokumento ng Developer ng Meta",
+          "description": "Opisyales na dokumentasyon ng Meta para sa embedded signup, webhooks, at API integration.",
+          "cta": "Tingnan ang API reference"
+        },
+        "caseStudies": {
+          "title": "Mga Case Study",
+          "description": "Mga tunay na implementasyon mula sa banking, retail, healthcare, at e-commerce.",
+          "cta": "Tingnan ang mga use case"
+        }
+      },
+      "faq": {
+        "title": "Mga Madalas Itanong",
+        "questions": {
+          "q1": {
+            "question": "Ano ang WhatsApp Coexistence?",
+            "answer": "Ang WhatsApp Coexistence ay isang tampok na nagbibigay-daan sa mga negosyo na gamitin parehong WhatsApp Business App at WhatsApp Cloud API sa parehong phone number, sabay. Ang mga mensahe ay naka-sync sa real-time sa pagitan ng parehong plataporma, na nagpapahintulot sa iyo na panatilihin ang personal touch ng mobile app habang ginagamit ang automation at scale ng API."
+          },
+          "q2": {
+            "question": "Kailangan ko bang palitan ang aking phone number?",
+            "answer": "Hindi! Isa sa mga pangunahing benepisyo ng WhatsApp Coexistence ay pinapanatili mo ang iyong kasalukuyang phone number. Hindi mo kailangang kumuha ng bagong number o palitan ang kasalukuyan. Ang QR-code na onboarding process ay konektado sa iyong kasalukuyang WhatsApp Business App number patungo sa Cloud API."
+          },
+          "q3": {
+            "question": "Mawawala ba ang aking chat history?",
+            "answer": "Hindi, maaari mong mapanatili ang hanggang 180 araw na chat history sa onboarding. Kapag ikaw ay kumonekta sa iyong WhatsApp Business App sa Cloud API sa pamamagitan ng embedded signup process, mayroon kang opsyon na i-import ang huling anim na buwan ng chat history at mga contact. Gayunpaman, ito ay dapat gawin sa loob ng 24 oras matapos makumpleto ang onboarding process."
+          },
+          "q4": {
+            "question": "Paano gumagana ang pagpepresyo?",
+            "answer": "Binibigyang-daan ng WhatsApp Coexistence ang hybrid na modelo ng pagpepresyo. Ang mga mensahe na manual na ipinapadala mula sa WhatsApp Business App ay mananatiling 100% libre. Ang mga mensahe na ipinapadala sa pamamagitan ng Cloud API (kabilang ang automated messages, templates, at broadcasts) ay sumusunod sa modelo ng pagpepresyo batay sa conversation ng Meta. Pinapayagan ka nitong i-optimize ang mga gastos sa pamamagitan ng paggamit ng libreng app messaging para sa personal na 1:1 na pakikipag-usap at API messaging para sa scale at automation."
+          },
+          "q5": {
+            "question": "Ano ang mga teknikal na limitasyon?",
+            "answer": "Ang pangunahing mga limitasyon ay: 1) Ang throughput ay limitado sa 20 mensahe kada segundo (MPS) para sa mga coexistence account, kung ihahambing sa mas mataas na limitasyon para sa mga standalone API account; 2) Kailangan mong buksan ang WhatsApp Business App kada 13-14 araw upang mapanatili ang koneksyon ng sync; 3) May ilang mga tampok ng app na hindi pinagana, kabilang ang group chat sync, disappearing messages, one-time viewing media, at message editing/revoking."
+          },
+          "q6": {
+            "question": "Available ba ito sa lahat ng bansa?",
+            "answer": "Hindi, ang WhatsApp Coexistence ay nasa phased rollout. Simula Enero 2026, hindi ito available sa ilang rehiyon kabilang ang Nigeria at South Africa. Ang mga negosyo na may phone number mula sa mga bansang ito ay kasalukuyang hindi kwalipikado at pipiliin nila ang standalone app o standalone API."
+          },
+          "q7": {
+            "question": "Gaano katagal ang migration?",
+            "answer": "Ang proseso ng migration ay dinisenyo upang mabilis at walang putol. Ang QR-code na embedded signup flow ay karaniwang tumatagal ng 5-10 minuto para makumpleto. Kung pipiliin mong i-import ang chat history, mangyayari ito sa background. Ang buong proseso ay maaaring kumpletuhin sa loob ng 15 minuto nang walang anumang pagharang sa iyong kasalukuyang WhatsApp operations."
+          },
+          "q8": {
+            "question": "Ano ang mangyayari kapag itigil ko ang paggamit nito?",
+            "answer": "Maaari mong itigil anumang oras ang paggamit ng Cloud API. Magpapatuloy ang iyong WhatsApp Business App na gumana nang maayos gamit ang iyong numero. Gayunpaman, mawawalan ka ng access sa automation, mga tampok ng multi-agent, at CRM integration na binibigay ng API. Hindi mo maaaring i-reactivate ang coexistence para sa numerong iyon hanggang makipag-ugnayan ka sa Meta support at makumpleto ang bagong onboarding process."
+          }
+        }
+      },
+      "cta": {
+        "title": "Mayroon pa bang mga katanungan tungkol sa WhatsApp Coexistence?",
+        "button": "Mag-book ng demo meeting"
+      }
+    },
+    "useCases": {
+      "title": "Mga Tunay na Use Case",
+      "subtitle": "Tingnan kung paano binabago ng mga negosyo sa iba't ibang industriya ang kanilang customer experience gamit ang WhatsApp Coexistence",
+      "tabs": {
+        "banking": "Banking",
+        "retail": "Retail",
+        "healthcare": "Healthcare",
+        "ecommerce": "E-commerce"
+      },
+      "banking": {
+        "support247": {
+          "title": "24/7 Customer Support",
+          "description": "I-automate ang mortgage at loan inquiries gamit ang AI. Ang mga kumplikadong kaso ay direktang inirerekomenda sa mga tao na ahente."
+        },
+        "zeroAbandonment": {
+          "title": "Zero Abandonment Rate",
+          "description": "Ang AI ay humahawak ng 80% ng paulit-ulit na mga inquiry. Hindi kailanman naghihintay ang mga customer."
+        },
+        "compliance": {
+          "title": "Handa na para sa Compliance",
+          "description": "Kumpletong audit trails at pag-archive para sa mga kinakailangan ng regulasyon (GDPR, FINRA)."
+        },
+        "caseStudy": {
+          "title": "CASE STUDY: Bankia S.A.",
+          "points": [
+            "Nakamit ang 24/7 support",
+            "Bumaba ang idle time ng ahente ng 45%",
+            "Customer satisfaction: 9.1/10",
+            "Zero abandonment rate"
+          ]
+        },
+        "results": {
+          "title": "Mga Resulta",
+          "faqResolution": {
+            "label": "FAQ Resolution",
+            "value": "80%"
+          },
+          "responseTime": {
+            "label": "Average Response Time",
+            "value": "<30s"
+          },
+          "costReduction": {
+            "label": "Cost Reduction",
+            "value": "60%"
+          }
+        }
+      },
+      "retail": {
+        "vipHandling": {
+          "title": "VIP Customer Handling",
+          "description": "Ang mga high-value customer ay nakakakuha ng personal na atensyon sa mobile app. Ang mga routine inquiry ay naka-automate."
+        },
+        "orderManagement": {
+          "title": "Order Management",
+          "description": "Automated shipping updates at delivery notifications sa pamamagitan ng API."
+        },
+        "conversions": {
+          "title": "Nadaragdagan ang Conversions",
+          "description": "Mas mabilis na response time at personalized follow-ups ay nagpapataas ng sales."
+        },
+        "caseStudy": {
+          "title": "CASE STUDY: D2C Beauty Brand",
+          "points": [
+            "First response time: 2hrs → 4 mins",
+            "Conversion rate increase: 32%",
+            "Multi-agent collaboration enabled",
+            "CRM integration completed"
+          ]
+        },
+        "results": {
+          "title": "Mga Resulta",
+          "responseTime": {
+            "label": "Response Time",
+            "value": "97%"
+          },
+          "conversion": {
+            "label": "Conversion Increase",
+            "value": "32%"
+          },
+          "efficiency": {
+            "label": "Team Efficiency",
+            "value": "+50%"
+          }
+        }
+      },
+      "healthcare": {
+        "appointments": {
+          "title": "Appointment Reminders",
+          "description": "Ang automated reminders ay binabawasan ang no-show ng 60%. Ang mga pasyente ay kumokonpirma sa pamamagitan ng WhatsApp."
+        },
+        "labResults": {
+          "title": "Secure Lab Results",
+          "description": "HIPAA-compliant na paghahatid ng test results na may end-to-end encryption."
+        },
+        "followups": {
+          "title": "Patient Follow-ups",
+          "description": "Ang AI ay nagsusuri pagkatapos ng appointment. I-escalate ang mga alalahanin sa medical staff."
+        },
+        "caseStudy": {
+          "title": "CASE STUDY: AWS Connect + WhatsApp",
+          "points": [
+            "HIPAA-compliant messaging",
+            "60% reduction in no-shows",
+            "Patient satisfaction: 4.8/5",
+            "Kumpletong audit trail ay nanatili"
+          ]
+        },
+        "results": {
+          "title": "Mga Resulta",
+          "noShow": {
+            "label": "No-Show Reduction",
+            "value": "60%"
+          },
+          "engagement": {
+            "label": "Patient Engagement",
+            "value": "4.8/5"
+          },
+          "compliance": {
+            "label": "Compliance Score",
+            "value": "100%"
+          }
+        }
+      },
+      "ecommerce": {
+        "cartRecovery": {
+          "title": "Abandoned Cart Recovery",
+          "description": "Ang automated reminders ay nakakabawi ng 30% ng mga abandoned cart."
+        },
+        "shipping": {
+          "title": "Shipping Updates",
+          "description": "Real-time tracking notifications ay pinapanatili ang mga customer na updated."
+        },
+        "vipSupport": {
+          "title": "VIP Support",
+          "description": "Ang mga high-value customer ay nakakakuha ng tao na atensyon mula sa mobile app."
+        },
+        "caseStudy": {
+          "title": "CASE STUDY: E-commerce Store",
+          "points": [
+            "Cart recovery: 30% increase",
+            "Shipping inquiries: 85% automated",
+            "Response time: <5 minutes",
+            "Customer satisfaction: 4.6/5"
+          ]
+        },
+        "results": {
+          "title": "Mga Resulta",
+          "cartRecovery": {
+            "label": "Cart Recovery",
+            "value": "30%"
+          },
+          "automation": {
+            "label": "Automation Rate",
+            "value": "85%"
+          },
+          "satisfaction": {
+            "label": "Customer Satisfaction",
+            "value": "4.6/5"
+          }
+        }
+      },
+      "cta": {
+        "title": "Baguhin ang iyong industriya gamit ang WhatsApp Coexistence",
+        "button": "Mag-sign up ngayon"
+      }
+    },
+    "architecture": {
+      "title": "Teknikal na Arkitektura",
+      "subtitle": "Alamin kung paano gumagana ang WhatsApp Coexistence sa ilalim",
+      "customer": {
+        "title": "Customer",
+        "subtitle": "Mga mensahe mula sa anumang device"
+      },
+      "businessApp": {
+        "title": "WhatsApp Business App",
+        "subtitle": "Mobile device",
+        "features": [
+          "Native mobile interface",
+          "Manual 1:1 conversations",
+          "Group chats support",
+          "Voice/video calls"
+        ]
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "Server-side automation",
+        "features": [
+          "Walang limitasyong mga ahente",
+          "AI chatbots",
+          "CRM integration",
+          "Advanced analytics"
+        ]
+      },
+      "platform": {
+        "title": "Seasalt.ai Platform",
+        "subtitle": "Unified inbox & orchestration",
+        "features": {
+          "mirroring": {
+            "title": "Message Mirroring",
+            "description": "Real-time sync sa lahat ng channel"
+          },
+          "echoes": {
+            "title": "Echo Events",
+            "description": "Track manual app replies"
+          },
+          "webhooks": {
+            "title": "Webhook Routing",
+            "description": "Intelligent message routing"
+          }
+        }
+      },
+      "flows": {
+        "inbound": {
+          "title": "Inbound Mirroring",
+          "description": "Customer → App + API sabay"
+        },
+        "appEchoes": {
+          "title": "App Echoes",
+          "description": "Manual reply → API notification"
+        },
+        "apiEchoes": {
+          "title": "API Echoes",
+          "description": "Bot reply → App notification"
+        }
+      },
+      "specs": {
+        "mps20": {
+          "title": "20 MPS",
+          "description": "Max message throughput para sa mga coexistence account"
+        },
+        "hours24": {
+          "title": "24 Oras",
+          "description": "Sync window para sa pag-import ng chat history"
+        },
+        "days180": {
+          "title": "180 Araw",
+          "description": "Chat history retention period"
+        },
+        "e2ee": {
+          "title": "E2EE",
+          "description": "End-to-end encryption para sa lahat ng mensahe"
+        }
+      },
+      "webhooks": {
+        "title": "Webhook Events",
+        "events": [
+          { "name": "messages", "description": "Incoming customer messages" },
+          { "name": "smb_message_echoes", "description": "Manual app replies" },
+          { "name": "smb_app_state_sync", "description": "Contact updates" },
+          { "name": "history", "description": "6-month chat import" }
+        ]
+      },
+      "security": {
+        "title": "Security & Compliance",
+        "features": [
+          { "name": "End-to-End Encryption", "description": "Lahat ng mensahe ay protektado" },
+          { "name": "Compliant", "description": "Kumpletong audit trails" },
+          { "name": "HIPAA Ready", "description": "Healthcare certified" },
+          { "name": "PCI DSS", "description": "Payment card security" }
+        ]
+      },
+      "cta": {
+        "title": "Handa nang ipatupad ang WhatsApp Coexistence?",
+        "button": "Basahin ang Kumpletong Tutorial"
+      }
+    },
+    "ctaSection": {
+      "title": "Handa nang baguhin ang iyong WhatsApp Operations?",
+      "subtitle": "Sumali sa libu-libong negosyo na gumagamit ng WhatsApp Coexistence para mag-scale habang manatiling personal",
+      "benefits": {
+        "keepNumber": {
+          "title": "Panatilihin ang Iyong Numero",
+          "description": "Walang kailangang pagbabago"
+        },
+        "zeroDisruption": {
+          "title": "Walang Pagharang",
+          "description": "Walang putol na migration"
+        },
+        "aiHuman": {
+          "title": "AI + Tao",
+          "description": "Hybrid workflows"
+        },
+        "saveMoney": {
+          "title": "I-save ang Pera",
+          "description": "Libreng app messaging"
+        }
+      },
+      "primaryCTA": "Mag-sign up ngayon sa WhatsApp Coexistence",
+      "trust": {
+        "encryption": "End-to-End Encryption",
+        "hipaa": "HIPAA Compliant",
+        "verified": "Meta Verified"
+      },
+      "footer": "Sumali sa mahigit 10,000 negosyo na gumagamit na ng Seasalt.ai para baguhin ang kanilang customer communications"
+    },
+    "features": {
+      "title": "Isang Unified Omni-Channel Engine",
+      "subtitle": "Hindi lang ito tungkol sa pag-sync; ito ay tungkol sa pag-upgrade ng iyong buong customer support infrastructure.",
+      "items": {
+        "sync": {
+          "title": "3-Way Synchronization",
+          "description": "Nag-uupdate agad ang mga mensahe sa pagitan ng iyong Telepono, Seasalt Web Dashboard, at Seasalt Mobile App. I-send mula sa kahit saan, tingnan sa kahit saan."
+        },
+        "agents": {
+          "title": "Walang limitasyong mga Ahente",
+          "description": "Sirain ang 4-device limit. Magdagdag ng 10, 50, o 100 ahente sa parehong WhatsApp number. Magtalaga ng mga conversation sa tao o AI bot nang walang putol."
+        },
+        "aiHandoff": {
+          "title": "AI Agent Handoff",
+          "description": "Bigyan ng kapangyarihan ang AI Agents na hawakan ang mga inquiry sa labas ng oras sa plataporma, habang sinusubaybayan mo ang mga resulta nang direkta sa iyong personal na telepono."
+        },
+        "history": {
+          "title": "6-Month History Import",
+          "description": "Huwag magsimula sa zero. Awtomatikong ina-import namin ang huling 6 na buwan ng chat history para agad na may ganap na konteksto ang iyong team."
+        },
+        "mobileApp": {
+          "title": "Seasalt Mobile App",
+          "description": "Hindi kailangan ng mga empleyado na i-access ang pisikal mong telepono. Maaari nilang gamitin ang Seasalt.ai App sa kanilang sariling device para tumugon sa mga customer kahit nasaan man sila."
+        },
+        "unifiedInbox": {
+          "title": "Unified Inbox",
+          "description": "Pagsamahin ang WhatsApp sa SMS, Messenger, LINE, at Instagram sa isang view. Tumigil sa pagpalit ng tab at simulan na ang paglutas."
+        }
+      },
+      "cta": "Simulan ang paggamit ng WhatsApp Coexistence"
+    },
+    "walkthrough": {
+      "overline": "Ang Setup Walkthrough",
+      "title": "Simulan sa ilang minuto",
+      "subtitle": "Walang kailangang coding. I-scan at i-sync lang.",
+      "steps": {
+        "step1": {
+          "title": "1. Magdagdag ng Bagong Channel",
+          "description": "Pumunta sa <strong>Seasalt.ai Workspace</strong>. Piliin ang \"Channels\" at pumili ng bagong \"WhatsApp Coexistence\" option."
+        },
+        "step2": {
+          "title": "2. I-link ang Meta Account",
+          "description": "Mag-login gamit ang iyong Facebook account. Piliin ang iyong business portfolio. Mahalaga, pumili ng <strong>\"Connect a WhatsApp Business App\"</strong> option."
+        },
+        "step3": {
+          "title": "3. I-scan & I-sync",
+          "description": "Lalabas ang isang QR code. Buksan ang <strong>Linked Devices</strong> sa iyong telepono at i-scan ito. Agad naming sinisimulan ang pag-sync ng hanggang <span class=\"text-green-600 font-bold\">6 na buwan</span> ng chat history."
+        }
+      },
+      "ui": {
+        "bestOffering": "Pinakamahusay na alok",
+        "connect": "Konektahin",
+        "createWABA": "Gumawa ng bagong WABA Account",
+        "scanInstruction": "I-scan gamit ang iyong telepono",
+        "syncing": "Nag-uupdate ng history...",
+        "historyLabel": "180 araw ng chat history"
+      }
+    }
+  }
+}

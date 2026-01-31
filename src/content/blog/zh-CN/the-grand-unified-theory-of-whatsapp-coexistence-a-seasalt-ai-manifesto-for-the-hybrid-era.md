@@ -22,13 +22,13 @@ image:
 
 ## **1. 引言：“非此即彼”时代的终结**  
 
-近十年来，商业消息领域被一种鲜明而令人沮丧的二元对立所分割。一边是**WhatsApp Business App**——深受小企业主喜爱的工具，可直接通过智能手机访问，亲密、手动且免费。另一边则是**WhatsApp Business Platform (API)**——企业级的强大工具，能够实现大规模运营、自动化和深度CRM集成，但在功能上无法感知人类代理在移动设备上的手动操作。  
+近十年来，商业消息领域被一种鲜明而令人沮丧的二元对立所分割。一边是**WhatsApp Business App**——深受小企业主喜爱的工具，可直接通过智能手机访问，亲密、手动且免费。另一边则是**WhatsApp Business Platform (API)**——企业级的强大工具，能够实现大规模运营、自动化和深度CRM集成，但在功能上无法感知人类Agent在移动设备上的手动操作。  
 
 企业被迫做出选择。他们想要的是人际连接的同理心，还是机器的效率？他们想要将聊天记录保存在手机上，还是为了使用聊天机器人而清空记录？这种二分法扼杀了增长。它迫使不断扩张的企业放弃客户信任的电话号码，或者更糟的是，陷入无法扩展的手动工作流程中。  
 
 但潮流已经转变。我们已进入**WhatsApp共存**时代。  
 
-这不仅仅是一次功能更新；它是我们对客户体验（CX）概念的范式转变。在**Seasalt.ai**，我们长期以来一直倡导这样一种理念：未来不是“人类*对抗*人工智能”，而是“人类*加*人工智能”。共存是这一信念的技术体现。它允许单个电话号码同时在WhatsApp Business App和Cloud API上运行。1 它弥合了分歧，创建了一个统一的生态系统，小企业主可以在口袋里回复VIP客户，而SeaChat AI代理则在后台处理数千张支持工单。3  
+这不仅仅是一次功能更新；它是我们对客户体验（CX）概念的范式转变。在**Seasalt.ai**，我们长期以来一直倡导这样一种理念：未来不是“人类*对抗*人工智能”，而是“人类*加*人工智能”。共存是这一信念的技术体现。它允许单个电话号码同时在WhatsApp Business App和Cloud API上运行。1 它弥合了分歧，创建了一个统一的生态系统，小企业主可以在口袋里回复VIP客户，而SeaChat AIAgent则在后台处理数千张支持工单。3  
 
 在这份详尽的报告中，我们将深入探讨共存最深入的技术细节和最高层次的战略要点。我们将剖析“镜像”架构、webhook路由的复杂性、新定价模型的经济性，以及定义**Seasalt.ai**协作联络中心的“人机协作”工作流程。我们是这些信息的掌控者，现在将通往王国的钥匙交到你手中。  
 
@@ -36,7 +36,7 @@ image:
 
 共存为何重要？因为客户并不关心你的技术栈；他们关心的是问题解决。当客户向企业发送消息时，他们期望的是机器人的速度和人类的理解。  
 
-**Seasalt.ai**平台建立在“协作智能”的前提下。我们认为，人工智能代理应被视为数字员工——一个永不睡觉、能立即从知识库（KB）中调取每一次交互记录，并能无缝地将复杂的情感任务交给人类同事的员工。4 共存通过让人类代理实际“参与其中”来实现这一点。与传统的API设置不同，在传统设置中，企业主除非登录网络仪表板，否则无法看到机器人的对话，而共存会将每一次机器人交互都镜像回手机上的WhatsApp Business App。1 人类可以实时观察人工智能的工作，仅在必要时进行干预。这种透明度建立了对自动化的信任，并确保没有客户会陷入循环而无人问津。  
+**Seasalt.ai**平台建立在“协作智能”的前提下。我们认为，人工智能Agent应被视为数字员工——一个永不睡觉、能立即从知识库（KB）中调取每一次交互记录，并能无缝地将复杂的情感任务交给人类同事的员工。4 共存通过让人类Agent实际“参与其中”来实现这一点。与传统的API设置不同，在传统设置中，企业主除非登录网络仪表板，否则无法看到机器人的对话，而共存会将每一次机器人交互都镜像回手机上的WhatsApp Business App。1 人类可以实时观察人工智能的工作，仅在必要时进行干预。这种透明度建立了对自动化的信任，并确保没有客户会陷入循环而无人问津。  
 
 
 ## **2. 共存的架构：镜像如何工作 🪞**  
@@ -50,10 +50,10 @@ image:
 
 （注：原文中 footnote 1、3、4 等编号已按原文保留，未做翻译处理）
 
-1. **入站镜像（用户![][image1]企业）**：当客户发送消息时，Meta 的服务器会同时将其投递到两个目的地。首先，它会被推送到安装在物理设备（或链接的 companion 设备）上的**WhatsApp 商业应用**。其次，包含消息详细信息的 JSON 有效负载会被 POST 到为 Cloud API 配置的**Webhook URL**。1 这确保了手持手机的人工代理和监听服务器的 AI 代理都能立即知晓新的查询。  
+1. **入站镜像（用户![][image1]企业）**：当客户发送消息时，Meta 的服务器会同时将其投递到两个目的地。首先，它会被推送到安装在物理设备（或链接的 companion 设备）上的**WhatsApp 商业应用**。其次，包含消息详细信息的 JSON 有效负载会被 POST 到为 Cloud API 配置的**Webhook URL**。1 这确保了手持手机的人工Agent和监听服务器的 AI Agent都能立即知晓新的查询。  
 2. **出站镜像（企业![][image1]用户）**：  
    * **通过应用程序**：如果人工使用商业应用程序手动回复，消息将被投递到用户。至关重要的是，一个特定的 webhook 事件——smb_message_echoes——会被发送到 API，以通知后端系统已发生手动回复。5 这个“回声”是同步的心跳，使 AI 知道它应该暂停。  
-   * **通过 API**：如果 AI 通过 Cloud API 回复，消息将被发送到用户，并且还会“回声”回到商业应用程序的聊天记录中。1 这确保人工代理拥有机器人所承诺或解释内容的完整记录。
+   * **通过 API**：如果 AI 通过 Cloud API 回复，消息将被发送到用户，并且还会“回声”回到商业应用程序的聊天记录中。1 这确保人工Agent拥有机器人所承诺或解释内容的完整记录。
 
 ### **2.2 吞吐量限制：20 MPS 上限**
 
@@ -97,7 +97,7 @@ Facebook 登录配置中的 extras 对象必须包含 featureType 参数，且�
 然而，这并非永久的访问状态，而是一个**临时操作窗口**。  
 
 * **计时器：** 一旦用户完成嵌入式注册流程，合作伙伴（开发者）有整整**24 小时**的时间来请求初始历史记录同步。1  
-* **机遇：** 这个 24 小时窗口对 AI 训练至关重要。在 **Seasalt.ai**，我们利用这个窗口将历史交互数据摄入我们的 **SeaChat** RAG（检索增强生成）系统。3 通过分析 6 个月的人工主导对话，AI 代理可以在发送第一条自动消息之前“学习”企业的特定语气、常见问题和产品细节。  
+* **机遇：** 这个 24 小时窗口对 AI 训练至关重要。在 **Seasalt.ai**，我们利用这个窗口将历史交互数据摄入我们的 **SeaChat** RAG（检索增强生成）系统。3 通过分析 6 个月的人工主导对话，AI Agent可以在发送第一条自动消息之前“学习”企业的特定语气、常见问题和产品细节。  
 
 **技术说明：** 历史记录同步包括文本和媒体，但不包括隐私敏感的临时消息。开发者必须准备好高吞吐量的摄入管道（例如，使用 **Supabase** 或 **MongoDB**），以便在入职时立即处理这种数据峰值。9  
 
@@ -230,7 +230,7 @@ Seasalt.ai 的理念建立在 AI 到人类的无缝过渡之上。在共存设�
 
 最可靠的交接信号是 smb_message_echoes webhook。  
 
-* *事件：* 人工代理通过移动应用发送“你好，我可以帮忙处理这个问题”。  
+* *事件：* 人工Agent通过移动应用发送“你好，我可以帮忙处理这个问题”。  
 * *Webhook：* API 接收 smb_message_echoes。  
 * *操作：* 后端为该电话号码在 Redis 缓存中设置标志位 bot_paused: true 以及 pause_expiry: 时间戳 + 2 小时。¹⁸  
 
@@ -256,7 +256,7 @@ Seasalt.ai 的理念建立在 AI 到人类的无缝过渡之上。在共存设�
 交接后，人类需要上下文。如果机器人已经收集了订单号，他们就不想再问“你的订单号是多少？”。  
 
 * **上下文提取：** SeaChat 使用 NLP 从机器人的对话中提取实体（订单 ID、电子邮件、意图）。这些实体同步到 Seasalt.ai 仪表板，甚至可以注入到 CRM 备注中。²¹  
-* **总结：** 当人类打开聊天时，Seasalt.ai 可以生成机器人交互的 3 点摘要，以内部备注或系统消息的形式显示，确保代理能够立即投入工作。⁴  
+* **总结：** 当人类打开聊天时，Seasalt.ai 可以生成机器人交互的 3 点摘要，以内部备注或系统消息的形式显示，确保Agent能够立即投入工作。⁴  
 
 
 ## **8. 合作伙伴生态系统：迷宫导航 🧭**  
@@ -288,16 +288,16 @@ Seasalt.ai 的理念建立在 AI 到人类的无缝过渡之上。在共存设�
 
 ### **9.1 “幽灵”对话**  
 
-* *场景：* 用户发送消息。机器人已暂停。人工代理的手机已关机。用户得不到任何回应。  
-* *修复：* 在中间件中实现“外出办公”逻辑层。如果在交接后 15 分钟内未检测到 smb_message_echoes（人工回复），系统会发送一个 fallback 模板：“我们的人工代理当前正忙。我们已收到您的查询，将尽快回复。”。¹⁸  
+* *场景：* 用户发送消息。机器人已暂停。人工Agent的手机已关机。用户得不到任何回应。  
+* *修复：* 在中间件中实现“外出办公”逻辑层。如果在交接后 15 分钟内未检测到 smb_message_echoes（人工回复），系统会发送一个 fallback 模板：“我们的人工Agent当前正忙。我们已收到您的查询，将尽快回复。”。¹⁸  
 
 
 ### **9.2 封锁率蔓延**
 
-* *场景：* 人工代理在应用程序上强行推销，向50名未选择加入的用户发送消息。用户举报/屏蔽该号码。  
+* *场景：* 人工Agent在应用程序上强行推销，向50名未选择加入的用户发送消息。用户举报/屏蔽该号码。  
 * *后果：* 该电话号码的质量评级降至“低”。  
 * *影响：* **API** 受到处罚。营销模板的吞吐量被限制，或号码被完全封禁。  
-* *教训：* 共存将应用程序和 API 的命运联系在一起。人工端的不良行为会破坏自动化端的可扩展性。对人工代理的严格培训必不可少。24  
+* *教训：* 共存将应用程序和 API 的命运联系在一起。人工端的不良行为会破坏自动化端的可扩展性。对人工Agent的严格培训必不可少。24  
 
 ### **9.3 “未验证”名称显示**  
 
@@ -310,17 +310,17 @@ Seasalt.ai 的理念建立在 AI 到人类的无缝过渡之上。在共存设�
 
 共存只是开始。大型语言模型（LLMs）、语音 AI 和全渠道路由的融合正在创造一个未来，其中“应用程序”和“API”之间的区别将完全消失。  
 
-### **10.1 多代理编排**  
+### **10.1 多Agent编排**  
 
-我们正在向这样的系统迈进：一个“路由代理”（由 GPT-4o-mini 等快速模型提供支持）位于入口处。它分析用户的意图，并将对话路由到“ specialist 代理”（例如，预订机器人、支持机器人）或“人工代理”。  
+我们正在向这样的系统迈进：一个“路由Agent”（由 GPT-4o-mini 等快速模型提供支持）位于入口处。它分析用户的意图，并将对话路由到“ specialist Agent”（例如，预订机器人、支持机器人）或“人工Agent”。  
 
-* **Seasalt.ai 创新：** 我们正在构建编排层，使这些代理能够在后端“对话”，在用户看到回复之前传递上下文 JSON。26  
+* **Seasalt.ai 创新：** 我们正在构建编排层，使这些Agent能够在后端“对话”，在用户看到回复之前传递上下文 JSON。26  
 
 ### **10.2 语音-文本连续体**  
 
 通过 **SeaVoice**，我们正在将语音功能直接集成到共存流程中。  
 
-* *愿景：* 用户在 WhatsApp 上聊天。他们遇到了障碍。AI 发送一条消息：“您希望我打电话给您解释吗？” 用户点击“是”。SeaVoice 代理立即致电他们，并参考聊天上下文。然后，通话记录被转录并作为摘要推回 WhatsApp 聊天中。4  
+* *愿景：* 用户在 WhatsApp 上聊天。他们遇到了障碍。AI 发送一条消息：“您希望我打电话给您解释吗？” 用户点击“是”。SeaVoice Agent立即致电他们，并参考聊天上下文。然后，通话记录被转录并作为摘要推回 WhatsApp 聊天中。4  
 
 ### **10.3 结论：敞开的大门**  
 
@@ -373,7 +373,7 @@ Seasalt.ai 的理念建立在 AI 到人类的无缝过渡之上。在共存设�
 4. 欢迎使用 Seasalt.ai，一个协作式云联络中心 - Seasalt.ai，访问日期：2026年1月28日，[https://seasalt.ai/en/blog/18-Seasalt.ai-collab-cloud-contact-center/](https://seasalt.ai/en/blog/18-seax-collab-cloud-contact-center/)  
 5. Webhooks | 开发者文档，访问日期：2026年1月28日，[https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/overview/](https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/overview/)  
 6. 如何在多租户应用程序中管理具有唯一电话号码的多个租户的自动化 WhatsApp 机器人？ - Stack Overflow，访问日期：2026年1月28日，[https://stackoverflow.com/questions/79271628/how-to-manage-automated-whatsapp-bots-for-multiple-tenants-with-unique-phone-num](https://stackoverflow.com/questions/79271628/how-to-manage-automated-whatsapp-bots-for-multiple-tenants-with-unique-phone-num)  
-7. 关于多代理 | WhatsApp 帮助中心，访问日期：2026年1月28日，[https://faq.whatsapp.com/395911122612120](https://faq.whatsapp.com/395911122612120)  
+7. 关于多Agent | WhatsApp 帮助中心，访问日期：2026年1月28日，[https://faq.whatsapp.com/395911122612120](https://faq.whatsapp.com/395911122612120)  
 8. WhatsApp 共存：使用它进行 WhatsApp 通信的终极指南 - Zixflow，访问日期：2026年1月28日，[https://zixflow.com/blog/whatsapp-coexistence/](https://zixflow.com/blog/whatsapp-coexistence/)  
 9. 使用 Gemini、Twilio 和 Supabase RAG 实现带有人工交接的 AI WhatsApp 支持 - N8N，访问日期：2026年1月28日，[https://n8n.io/workflows/11648-ai-whatsapp-support-with-human-handoff-using-gemini-twilio-and-supabase-rag/](https://n8n.io/workflows/11648-ai-whatsapp-support-with-human-handoff-using-gemini-twilio-and-supabase-rag/)  
 10. WhatsApp 共存 - 360Dialog，访问日期：2026年1月28日，[https://docs.360dialog.com/partner/waba-management/whatsapp-coexistence](https://docs.360dialog.com/partner/waba-management/whatsapp-coexistence)  
@@ -385,11 +385,11 @@ Seasalt.ai 的理念建立在 AI 到人类的无缝过渡之上。在共存设�
 16. WhatsApp 共存：将 WhatsApp 商业应用号码与 WhatsApp API 结合使用 - WANotifier，访问日期：2026年1月28日，[https://wanotifier.com/whatsapp-coexistence-guide/](https://wanotifier.com/whatsapp-coexistence-guide/)  
 17. WhatsApp 商业平台定价 - Meta 开发者平台 - Facebook，访问日期：2026年1月28日，[https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing)  
 18. 11月14日：改进的人工-机器人交接 - Turn.io 学习中心，访问日期：2026年1月28日，[https://learn.turn.io/l/en/article/jynv5tspbm-14-nov-inbox-routing-improvements](https://learn.turn.io/l/en/article/jynv5tspbm-14-nov-inbox-routing-improvements)  
-19. 用于人工智能代理的人工交接的最佳替代方案是什么？：r/n8n - Reddit，访问日期：2026年1月28日，[https://www.reddit.com/r/n8n/comments/1ko70xz/best_alternative_for_human_handover_with_ai_agents/](https://www.reddit.com/r/n8n/comments/1ko70xz/best_alternative_for_human_handover_with_ai_agents/)  
+19. 用于人工智能Agent的人工交接的最佳替代方案是什么？：r/n8n - Reddit，访问日期：2026年1月28日，[https://www.reddit.com/r/n8n/comments/1ko70xz/best_alternative_for_human_handover_with_ai_agents/](https://www.reddit.com/r/n8n/comments/1ko70xz/best_alternative_for_human_handover_with_ai_agents/)  
 20. [Bug]：WhatsApp 渠道 - 竞态条件在启动包含多张图片（相册）的聊天时创建多个对话 · Issue #13261 - GitHub，访问日期：2026年1月28日，[https://github.com/chatwoot/chatwoot/issues/13261](https://github.com/chatwoot/chatwoot/issues/13261)  
 21. Seasalt.ai 与 WhatsApp 的集成 - Seasalt.ai，访问日期：2026年1月28日，[https://wiki.seasalt.ai/en/seachat/integrations/seax-seachat-whatsapp/](https://wiki.seasalt.ai/en/seachat/integrations/seax-seachat-whatsapp/)  
 22. 多合作伙伴解决方案 | 开发者文档，访问日期：2026年1月28日，[https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/multi-partner-solutions/](https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/multi-partner-solutions/)  
 23. 共享和非共享 WhatsApp 商业账户（WABAs）之间的区别，访问日期：2026年1月28日，[https://api.support.vonage.com/hc/en-us/articles/21336595205532-Difference-Between-Shared-and-Non-Shared-WhatsApp-Business-Accounts-WABAs](https://api.support.vonage.com/hc/en-us/articles/21336595205532-Difference-Between-Shared-and-Non-Shared-WhatsApp-Business-Accounts-WABAs)  
 24. Twilio 的 WhatsApp 商业平台概述，访问日期：2026年1月28日，[https://www.twilio.com/docs/whatsapp/api](https://www.twilio.com/docs/whatsapp/api)  
 25. 关于 WhatsApp 商业平台 - Meta 开发者平台 - Facebook，访问日期：2026年1月28日，[https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform](https://developers.facebook.com/documentation/business-messaging/whatsapp/about-the-platform)  
-26. 如何使用 OWL 在 WhatsApp 上启用实时代理回复 - Camel AI，访问日期：2026年1月28日，[https://www.camel-ai.org/blogs/mcp-servers-whatsapp-owl](https://www.camel-ai.org/blogs/mcp-servers-whatsapp-owl)
+26. 如何使用 OWL 在 WhatsApp 上启用实时Agent回复 - Camel AI，访问日期：2026年1月28日，[https://www.camel-ai.org/blogs/mcp-servers-whatsapp-owl](https://www.camel-ai.org/blogs/mcp-servers-whatsapp-owl)

@@ -29,7 +29,7 @@ draft: false
 
 1. [為什麼小型企業需要外撥/電話行銷服務](https://seasalt.ai/blog/why-outbound-call-sm-business/)：了解外撥服務的重要性和優勢。
 
-2. [電話行銷外撥的內部與外包](https://seasalt.ai/blog/live-outbound-inhouse-outsourced/)：什麼是即時外撥代理？您應該外包還是內部招聘？
+2. [電話行銷外撥的內部與外包](https://seasalt.ai/blog/live-outbound-inhouse-outsourced/)：什麼是即時外撥Agent？您應該外包還是內部招聘？
 
 3. [外撥自動撥號器](https://seasalt.ai/blog/auto-dialer-outbound/)：什麼是自動撥號器？Power Dialer、Progressive Dialer 和 Predictive Dialer 之間有什麼區別？哪種服務適合您的業務？
 

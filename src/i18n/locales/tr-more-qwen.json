@@ -1,0 +1,122 @@
+{
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "İmkansız",
+      "impossibleChoice": "Seçim",
+      "subtitlePart1": "Telefon uygulamanızı saklayın",
+      "or": "VEYA",
+      "subtitlePart2": "Kurumsal araçlarla ölçekleyin?",
+      "untilNow": "Bugüne kadar, birini diğeri için fedakarlık yapmak zorundaydın.",
+      "vs": "VS",
+      "whatYouGet": "✓ Aldığınız şey",
+      "dealbreaker": "✗ Kritik etken",
+      "businessApp": {
+        "badge": "Küçük kalın",
+        "title": "WhatsApp Business Uygulaması",
+        "subtitle": "Sadece mobil tuzak",
+        "pros": {
+          "mobile": "Yerel mobil deneyim",
+          "free": "Ücretsiz mesajlaşma"
+        },
+        "cons": {
+          "devices": "Maksimum 4 bağlı cihaz",
+          "fifthMember": "5. ekip üyesi? Mümkün değil.",
+          "fourDevices": "Sadece 4 cihaz maksimum",
+          "cannotAdd": "Büyüdükçe ajan ekleyemezsiniz",
+          "noAutomation": "Otomasyon veya CRM yok"
+        }
+      },
+      "cloudAPI": {
+        "badge": "Mobiliteyi kaybedin",
+        "title": "Bulut API",
+        "subtitle": "Sadece masaüstü tuzak",
+        "pros": {
+          "unlimited": "Sınırsız ajanlar",
+          "automation": "Yapay zeka otomasyonu & CRM"
+        },
+        "cons": {
+          "lockedOut": "Telefonunuz kilitli",
+          "noMobile": "Hiçbir mobil erişim yok",
+          "noApp": "Telefonunuzda mobil uygulama yok",
+          "desktopOnly": "Sadece masaüstü/kontrol paneli ile sınırlı"
+        }
+      },
+      "summary": {
+        "part1": "Ya sınırlı ekip kapasitesiyle takılı kalırsınız,",
+        "part2": "ya da işinizin bağlı olduğu esnekliği kaybedersiniz.",
+        "dilemma": "Bu, her büyüyen işin karşılaştığı ikilemdir."
+      }
+    },
+    "solution": {
+      "title": "Şimdi,",
+      "worryNoMore": "Artık endişelenmeyin.",
+      "subtitle1": "Tanıtım",
+      "metaCoexistence": "Meta WhatsApp Coexistence",
+      "subtitle2": "Seasalt.ai ile. Telefonunuzu bırakmadan API'nin ölçeklenebilirliğini sunan tek çözümdür.",
+      "coexistenceTitle": "WhatsApp Coexistence",
+      "tagline": "İki platform. Bir telefon numarası. Sıfır ödün.",
+      "businessApp": {
+        "title": "WhatsApp Business Uygulaması",
+        "subtitle": "Mobil deneyim"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "Kurumsal ölçek"
+      },
+      "bestBadge": "EN İYİ",
+      "result": {
+        "title": "Ortak Varlık",
+        "subtitle": "İki dünyanın en iyisi"
+      }
+    },
+    "whatIs": {
+      "title": "WhatsApp Coexistence nedir?",
+      "description": "WhatsApp Coexistence, işletmelere aynı telefon numarasında hem WhatsApp Business Uygulaması hem de WhatsApp Cloud API kullanma izni veren devrimci bir özelliktir,",
+      "simultaneously": "aynı anda",
+      "before": {
+        "title": "Ortak Varlık'tan önce",
+        "point1": "API'ye geçişte sohbet geçmişi kaybolur",
+        "point2": "Telefon numarasını değiştirin veya yeni bir tane alın",
+        "point3": "Kişisel uygulama ile kurumsal otomasyon arasında seçim yapın",
+        "point4": "Geçiş sırasında müşteri ilişkilerini bozun"
+      },
+      "after": {
+        "title": "Ortak Varlık'tan sonra",
+        "point1": "Aynı telefon numarasını saklayın",
+        "point2": "180 gün sohbet geçmişini senkronize edin",
+        "point3": "Uygulamayı ve API'yi aynı anda kullanın",
+        "point4": "Sıfır kesintiyle geçiş"
+      },
+      "omnichannel": {
+        "title": "Birleşik bir Omni-Kanal motoru",
+        "subtitle": "Sadece senkronizasyon değil; tüm müşteri destek altyapınızı yükseltmekle ilgilidir."
+      },
+      "features": {
+        "sync": {
+          "title": "3-Yönlü Senkronizasyon",
+          "description": "Mesajlar telefonunuz, Seasalt Web Paneli ve Seasalt Mobil Uygulaması arasında anında senkronize olur. Her yerden gönderin, her yerde görün."
+        },
+        "agents": {
+          "title": "Sınırsız Ajanlar",
+          "description": "4 cihaz sınırını kırın. Aynı WhatsApp numarasına 10, 50 veya 100 ajan ekleyin. Görüşmeleri insan ajanlara veya yapay zeka botlara sorunsuz şekilde atayın."
+        },
+        "aiHandoff": {
+          "title": "Yapay Zeka Ajan Devri",
+          "description": "AI Ajanların platformda mesai dışı sorguları işlemesini sağlayın, sonuçları kişisel telefonunuzda doğrudan izleyin."
+        },
+        "history": {
+          "title": "6 Aylık Geçmiş İçe Aktarma",
+          "description": "Sıfırdan başlamayın. Son 6 ayın sohbet geçmişini otomatik olarak çekeriz, böylece ekibinizin tam bağlamı hemen olur."
+        },
+        "mobileApp": {
+          "title": "Seasalt Mobil Uygulama",
+          "description": "Çalışanların fiziksel telefonunuza erişmesine gerek yoktur. Seyahat ederken müşterilere yanıt vermek için kendi cihazlarında Seasalt.ai Uygulamasını kullanabilirler."
+        },
+        "unifiedInbox": {
+          "title": "Birleştirilmiş Gelen Kutusu",
+          "description": "WhatsApp'ı SMS, Messenger, LINE ve Instagram ile tek bir görünümde birleştirin. Sekme değiştirme işlemini bırakın ve çözüme başlayın."
+        }
+      }
+    }
+  }
+}

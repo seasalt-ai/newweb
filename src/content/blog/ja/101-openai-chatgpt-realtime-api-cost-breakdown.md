@@ -113,7 +113,7 @@ chatgpt-4o-realtime APIとの5分間の音声会話を行い、5.38ドルかか�
 
 フロントデスクの受付係など、社内で雇用する場合、最低賃金（連邦政府の7.25ドルからカリフォルニアの16ドル）から、おそらく1時間あたり20ドルから30ドルの間になる可能性があります。
 
-外部の代理店を利用する場合、価格は異なる場合があります。一部は200分で月額349ドルから始まり、セットアップ料金が追加されます。Seasalt.aiはこれに関して詳細な調査を書いています：[ライブ受付の費用：社内 vs. アウトソーシング](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/?utm_source=crossblog)。
+外部のAgent店を利用する場合、価格は異なる場合があります。一部は200分で月額349ドルから始まり、セットアップ料金が追加されます。Seasalt.aiはこれに関して詳細な調査を書いています：[ライブ受付の費用：社内 vs. アウトソーシング](https://seasalt.ai/blog/97-live-receptionist-inhouse-outbound/?utm_source=crossblog)。
 
 
 <br/>

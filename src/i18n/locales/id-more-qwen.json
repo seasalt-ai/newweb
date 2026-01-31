@@ -1,0 +1,122 @@
+{
+  "whatsappCoexistence": {
+    "problem": {
+      "title": "Pilihan",
+      "impossibleChoice": "Yang Mustahil",
+      "subtitlePart1": "Pertahankan Aplikasi Telepon Anda",
+      "or": "ATAU",
+      "subtitlePart2": "Skala dengan Alat Perusahaan?",
+      "untilNow": "Hingga kini, Anda harus mengorbankan satu demi yang lain.",
+      "vs": "VS",
+      "whatYouGet": "✓ Yang Anda Dapatkan",
+      "dealbreaker": "✗ Faktor Penghenti",
+      "businessApp": {
+        "badge": "Tetap Kecil",
+        "title": "Aplikasi WhatsApp Business",
+        "subtitle": "Jebakan Hanya Ponsel",
+        "pros": {
+          "mobile": "Pengalaman ponsel asli",
+          "free": "Pesan gratis"
+        },
+        "cons": {
+          "devices": "Maksimal 4 perangkat terhubung",
+          "fifthMember": "Anggota tim kelima? Tidak mungkin.",
+          "fourDevices": "Hanya 4 perangkat maks",
+          "cannotAdd": "Tidak bisa menambahkan agen saat berkembang",
+          "noAutomation": "Tidak ada otomasi atau CRM"
+        }
+      },
+      "cloudAPI": {
+        "badge": "Kehilangan Mobilitas",
+        "title": "API Cloud",
+        "subtitle": "Jebakan Hanya Desktop",
+        "pros": {
+          "unlimited": "Agen tak terbatas",
+          "automation": "Otomasi AI & CRM"
+        },
+        "cons": {
+          "lockedOut": "Telepon Anda terkunci",
+          "noMobile": "Tidak ada akses ponsel sama sekali",
+          "noApp": "Tidak ada aplikasi ponsel di telepon Anda",
+          "desktopOnly": "Terjebak hanya dengan desktop/dashboard"
+        }
+      },
+      "summary": {
+        "part1": "Anda tetap terjebak dengan kapasitas tim terbatas,",
+        "part2": "atau Anda kehilangan fleksibilitas yang menjadi andalan bisnis Anda.",
+        "dilemma": "Inilah dilema yang dihadapi setiap bisnis yang berkembang."
+      }
+    },
+    "solution": {
+      "title": "Sekarang,",
+      "worryNoMore": "Tidak perlu khawatir lagi.",
+      "subtitle1": "Memperkenalkan",
+      "metaCoexistence": "Meta WhatsApp Coexistence",
+      "subtitle2": "dengan Seasalt.ai. Satu-satunya solusi yang menutup kesenjangan, memberi Anda skalabilitas API tanpa harus melepaskan telepon Anda.",
+      "coexistenceTitle": "WhatsApp Coexistence",
+      "tagline": "Dua platform. Satu nomor telepon. Nol kompromi.",
+      "businessApp": {
+        "title": "Aplikasi WhatsApp Business",
+        "subtitle": "Pengalaman ponsel"
+      },
+      "cloudAPI": {
+        "title": "WhatsApp Cloud API",
+        "subtitle": "Skala perusahaan"
+      },
+      "bestBadge": "TERBAIK",
+      "result": {
+        "title": "Koeksistensi",
+        "subtitle": "Yang terbaik dari dua dunia"
+      }
+    },
+    "whatIs": {
+      "title": "Apa itu WhatsApp Coexistence?",
+      "description": "WhatsApp Coexistence adalah fitur revolusioner yang memungkinkan bisnis menggunakan aplikasi WhatsApp Business dan WhatsApp Cloud API pada nomor telepon yang sama,",
+      "simultaneously": "secara bersamaan",
+      "before": {
+        "title": "Sebelum Koeksistensi",
+        "point1": "Kehilangan riwayat obrolan saat migrasi ke API",
+        "point2": "Ubah nomor telepon atau dapatkan yang baru",
+        "point3": "Pilih antara aplikasi pribadi atau otomasi perusahaan",
+        "point4": "Ganggu hubungan pelanggan selama transisi"
+      },
+      "after": {
+        "title": "Setelah Koeksistensi",
+        "point1": "Pertahankan nomor telepon yang sama",
+        "point2": "Sinkronkan 180 hari riwayat obrolan",
+        "point3": "Gunakan aplikasi dan API secara bersamaan",
+        "point4": "Migrasi tanpa gangguan"
+      },
+      "omnichannel": {
+        "title": "Mesin Omni-Channel Terpadu",
+        "subtitle": "Ini bukan hanya tentang sinkronisasi; ini tentang meningkatkan seluruh infrastruktur dukungan pelanggan Anda."
+      },
+      "features": {
+        "sync": {
+          "title": "Sinkronisasi 3 Arah",
+          "description": "Pesan disinkronkan secara instan antara Telepon, Dasbor Web Seasalt, dan Aplikasi Seluler Seasalt Anda. Kirim dari mana saja, lihat di mana saja."
+        },
+        "agents": {
+          "title": "Agen Tak Terbatas",
+          "description": "Pecahkan batas 4 perangkat. Tambahkan 10, 50, atau 100 agen ke nomor WhatsApp yang sama. Tetapkan percakapan ke agen manusia atau bot AI secara mulus."
+        },
+        "aiHandoff": {
+          "title": "Penyerahan Agen AI",
+          "description": "Aktifkan Agen AI untuk menangani pertanyaan di luar jam kerja di platform, sementara Anda memonitor hasil langsung di ponsel pribadi Anda."
+        },
+        "history": {
+          "title": "Impor Riwayat 6 Bulan",
+          "description": "Jangan mulai dari nol. Kami secara otomatis menarik 6 bulan terakhir riwayat obrolan sehingga tim Anda memiliki konteks lengkap segera."
+        },
+        "mobileApp": {
+          "title": "Aplikasi Seluler Seasalt",
+          "description": "Karyawan tidak perlu mengakses ponsel fisik Anda. Mereka dapat menggunakan aplikasi Seasalt.ai di perangkat mereka sendiri untuk membalas pelanggan saat bepergian."
+        },
+        "unifiedInbox": {
+          "title": "Kotak Masuk Terpadu",
+          "description": "Gabungkan WhatsApp dengan SMS, Messenger, LINE, dan Instagram dalam satu tampilan. Berhenti berganti tab dan mulai menyelesaikan."
+        }
+      }
+    }
+  }
+}

@@ -21,7 +21,7 @@ draft: false
 
 现在可用，[SeaX](https://seax.seasalt.ai/?utm_source=blog/) 将任何联络中心的核心功能打包在一起，例如节假日和工作时间、呼叫处置、冷热转接以及教练和介入。我们还支持全渠道消息传递，包括但不限于网页聊天、短信、Messenger、WhatsApp、Line 和 Google Business Messages。SeaX 还与 Zendesk、Salesforce、HubSpot 和 Microsoft Dynamics 365 等常见 CRM 软件集成。
 
-在 Seasalt.ai，我们为您提供坚实的基础，以在多个地理区域构建云联络中心或 [Seasalt.ai 托管联络中心](https://seasalt.ai/managed-contact-center/)，这是一个为您的联络中心提供的一体化解决方案：Seasalt.ai 提供软件、人工代理和联络中心运营。
+在 Seasalt.ai，我们为您提供坚实的基础，以在多个地理区域构建云联络中心或 [Seasalt.ai 托管联络中心](https://seasalt.ai/managed-contact-center/)，这是一个为您的联络中心提供的一体化解决方案：Seasalt.ai 提供软件、人工Agent和联络中心运营。
 
 我们的总部位于华盛顿州西雅图，并在台北设有亚太地区办事处。我们很高兴能向全球任何地方的客户推出我们由 Twilio 提供支持的解决方案。今天就来了解我们吧——我们很乐意向您展示添加一点 Seasalt.ai 能为您的业务带来什么。
 

@@ -47,7 +47,7 @@ Shopify 以其专注于电子商务的平台而闻名。可以将其视为您的
 
 - 可扩展性：轻松处理从小型商店到大型企业的一切事务。
 - 销售功能：废弃购物车恢复、多币种销售、与市场集成等等。
-- 应用商店：一个庞大的应用商店扩展了几乎所有可想象的需求的功能，包括满足您客户服务需求的聊天代理。
+- 应用商店：一个庞大的应用商店扩展了几乎所有可想象的需求的功能，包括满足您客户服务需求的聊天Agent。
 - POS 集成：简化面对面和在线销售系统。
 
 
@@ -80,9 +80,9 @@ Squarespace 最著名的是一个具有强大电子商务功能的网站建设�
 
 ## 使用 SeaChat 您可以做得更多
 
-无论您为在线业务选择哪种解决方案，[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 都能与大多数电子商务网站建设工具良好集成。在10分钟内构建并启动 AI 聊天代理。支持多语言。实时代理转接。与网页聊天、短信、Line、CRM、Shopify、日历、Twilio、ZenDesk 和电话集成。发送电子邮件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 获取更多详细信息或[预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+无论您为在线业务选择哪种解决方案，[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 都能与大多数电子商务网站建设工具良好集成。在10分钟内构建并启动 AI 聊天Agent。支持多语言。实时Agent转接。与网页聊天、短信、Line、CRM、Shopify、日历、Twilio、ZenDesk 和电话集成。发送电子邮件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 获取更多详细信息或[预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
 
-SeaChat 提供与 Shopify 和 Squarespace 的无缝集成。立即了解如何将 AI 聊天和代理添加到您的 Shopify 和 Squarespace 商店：
+SeaChat 提供与 Shopify 和 Squarespace 的无缝集成。立即了解如何将 AI 聊天和Agent添加到您的 Shopify 和 Squarespace 商店：
 
 - [如何在 Shopify 上集成 SeaChat](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/02-seachat-shopify-integration/)
 - [如何在 Squarespace 上集成 SeaChat](https://wiki.seasalt.ai/seachat/seachat-manual/05-integrations/03-seachat-squarespace-integration/)

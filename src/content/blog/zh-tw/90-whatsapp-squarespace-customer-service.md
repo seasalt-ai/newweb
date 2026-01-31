@@ -18,10 +18,10 @@ draft: false
 在當今快節奏的數位環境中，有效的客戶服務和用戶參與對企業至關重要。客戶期望即時互動、快速響應和個人化支持。將聊天解決方案整合到您的網站可以顯著增強這些方面。在這篇部落格中，我們將探討如何將 AI 聊天機器人添加到您的 Squarespace 網站並徹底改變您的客戶溝通。
 
 # LiveChat：一個方便的選項
-[LiveChat] 允許您管理 Squarespace 網站上的對話。它是一個有用的工具，用於與訪客互動並解決他們的疑問。但是，它有一個限制：它缺乏 AI 代理的複雜性。雖然 LiveChat 提供即時通信，但您可能仍然需要 AI 驅動的解決方案來 24/7 處理客戶查詢。
+[LiveChat] 允許您管理 Squarespace 網站上的對話。它是一個有用的工具，用於與訪客互動並解決他們的疑問。但是，它有一個限制：它缺乏 AI Agent的複雜性。雖然 LiveChat 提供即時通信，但您可能仍然需要 AI 驅動的解決方案來 24/7 處理客戶查詢。
 
 # 引入 SeaChat：您的 AI 助手
-[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 通過提供可以無縫處理對話的 AI 代理來彌補這一差距。無論是回答常見問題、提供產品資訊還是協助故障排除，SeaChat 始終可用。但最令人興奮的是：您不僅可以將 SeaChat 直接與 Squarespace 整合，還可以與 WhatsApp 整合。
+[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 通過提供可以無縫處理對話的 AI Agent來彌補這一差距。無論是回答常見問題、提供產品資訊還是協助故障排除，SeaChat 始終可用。但最令人興奮的是：您不僅可以將 SeaChat 直接與 Squarespace 整合，還可以與 WhatsApp 整合。
 
 
 ## 在 Squarespace 上使用 SeaChat
@@ -45,8 +45,8 @@ draft: false
 - **複製 SeaChat 代碼**：從 SeaChat 上的 Squarespace 整合設置中檢索 SeaChat 代碼片段。將其粘貼到 Squarespace 中的 HEADER 文本框中。不要忘記點擊「保存」。
   <img width="100%" style="border-radius: 0.4rem" src="/images/blog/90-whatsapp-squarespace-customer-service/squarespace-integration-step4.png" alt="從 SeaChat 上的 Squarespace 整合設置中檢索 SeaChat 代碼片段。">
 
-- **測試和預覽**：使用「預覽」功能測試 AI 代理。準備就緒後啟動網站。
-  <img width="100%" style="border-radius: 0.4rem" src="/images/blog/90-whatsapp-squarespace-customer-service/squarespace-integration-step5.png" alt="使用「預覽」功能測試 AI 代理。">
+- **測試和預覽**：使用「預覽」功能測試 AI Agent。準備就緒後啟動網站。
+  <img width="100%" style="border-radius: 0.4rem" src="/images/blog/90-whatsapp-squarespace-customer-service/squarespace-integration-step5.png" alt="使用「預覽」功能測試 AI Agent。">
 
 ## 結論：用於客戶服務的 SeaChat 聊天機器人
    

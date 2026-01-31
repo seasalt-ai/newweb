@@ -30,7 +30,7 @@ draft: false
     - [实施障碍](#barriers-for-implementation)
 - [3. 使用 Near Me Messaging 的 Google 地图聊天](#3-google-maps-chat-with-near-me-messaging)
     - [Near Me Messaging 的优势](#benefits-of-near-me-messaging)
-    - [使用 Near Me Messaging 启动虚拟代理的分步指南](#step-by-step-guide-to-launching-your-virtual-agent-with-near-me-messaging)
+    - [使用 Near Me Messaging 启动虚拟Agent的分步指南](#step-by-step-guide-to-launching-your-virtual-agent-with-near-me-messaging)
 
 # 什么是 Google 地图聊天以及为什么要启用它
 
@@ -134,7 +134,7 @@ Google Business Profile 是一种工具，使企业能够创建免费的商家�
 
 # 2. 使用 Google Business Messages 的 Google 地图聊天
 
-[Google Business Messages](https://businessmessages.google/) 是一种下一代对话体验，它解决了在人工不可用时向客户提供实时响应的问题。虽然 Google Business Profile 允许企业主通过 Google 地图上的聊天按钮直接与客户聊天，但 Google Business Messages 更进一步，通过与虚拟代理集成来实现。根据 [chatbots.org](https://www.google.com/url?q=https://www.chatbots.org/virtual_agent/&sa=D&source=docs&ust=1648605707733291&usg=AOvVaw1v4dJFgDD-5SmpSNZBu3J6)，虚拟代理是“一个由计算机生成、动画化、人工智能虚拟角色（通常具有拟人化外观），作为在线客户服务代表”。
+[Google Business Messages](https://businessmessages.google/) 是一种下一代对话体验，它解决了在人工不可用时向客户提供实时响应的问题。虽然 Google Business Profile 允许企业主通过 Google 地图上的聊天按钮直接与客户聊天，但 Google Business Messages 更进一步，通过与虚拟Agent集成来实现。根据 [chatbots.org](https://www.google.com/url?q=https://www.chatbots.org/virtual_agent/&sa=D&source=docs&ust=1648605707733291&usg=AOvVaw1v4dJFgDD-5SmpSNZBu3J6)，虚拟Agent是“一个由计算机生成、动画化、人工智能虚拟角色（通常具有拟人化外观），作为在线客户服务代表”。
 
 
 <center>
@@ -144,7 +144,7 @@ Google Business Profile 是一种工具，使企业能够创建免费的商家�
 </center>
 
 
-虚拟代理通常被称为数字助理。虚拟代理使用一种称为自然语言处理 (NLP) 的技术来提供自动回复。虚拟代理可以通过减少回复时间、提供 24/7 可用性和改善客户体验来使您的业务受益。这就是 Google Business Messages 如何帮助您向客户提供高质量的自动回复。
+虚拟Agent通常被称为数字助理。虚拟Agent使用一种称为自然语言处理 (NLP) 的技术来提供自动回复。虚拟Agent可以通过减少回复时间、提供 24/7 可用性和改善客户体验来使您的业务受益。这就是 Google Business Messages 如何帮助您向客户提供高质量的自动回复。
 
 Google Business Messages 的其他优势包括：
 - 为您的客户查询提供即时答复
@@ -152,9 +152,9 @@ Google Business Messages 的其他优势包括：
 - 与客户建立信任
 
 <center>
-<img src="/images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/4-GBM_bridgepoint_runners.png" alt="Google Business Messages 将虚拟代理直接集成到 Google 地图上的聊天按钮中"/>
+<img src="/images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/4-GBM_bridgepoint_runners.png" alt="Google Business Messages 将虚拟Agent直接集成到 Google 地图上的聊天按钮中"/>
 
-*Google Business Messages 将虚拟代理直接集成到您的聊天按钮中。*
+*Google Business Messages 将虚拟Agent直接集成到您的聊天按钮中。*
 </center>
 
 
@@ -174,7 +174,7 @@ Walmart 是首批实施 Business Messages 的公司之一（[Google 博客](http
 
 
 <center>
-<img src="/images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/6-walmart_va.png" alt="客户可以向 Walmart 的虚拟代理询问商店营业时间、产品、口罩政策、COVID-19 疫苗等问题"/>
+<img src="/images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/6-walmart_va.png" alt="客户可以向 Walmart 的虚拟Agent询问商店营业时间、产品、口罩政策、COVID-19 疫苗等问题"/>
 
 *客户可以询问商店营业时间、产品、口罩政策、COVID-19 疫苗等问题。*
 </center>
@@ -194,9 +194,9 @@ Levi's 是一家以 Levi's 牛仔裤闻名的服装公司，在全球 110 个国
 
 
 <center>
-<img src="/images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/8-levi_va.png" alt="客户在 Google 地图上与 Levi’s 虚拟代理互动时可以查看 Levi’s 产品"/>
+<img src="/images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/8-levi_va.png" alt="客户在 Google 地图上与 Levi’s 虚拟Agent互动时可以查看 Levi’s 产品"/>
 
-*客户在与 Levi’s 虚拟代理互动时可以查看 Levi’s 产品。*
+*客户在与 Levi’s 虚拟Agent互动时可以查看 Levi’s 产品。*
 </center>
 
 
@@ -205,7 +205,7 @@ Levi's 是一家以 Levi's 牛仔裤闻名的服装公司，在全球 110 个国
 Albertsons Co. 在美国拥有多家药店，包括 Safeway、Jewel-Osco、Vons、Albertsons、Shaw’s 等。2020 年底，在 COVID-19 疫苗首次发布期间，疫苗的在线搜索量有所增加。关于疫苗资格、预约以及人们可以在哪里接种疫苗的问题也更多。Albertsons Co. 决定激活 Google Business Messages，以提供有关资格标准、预约、可用性等最新信息。结果，他们能够减少来电数量，防止可能的错误信息，并为客户提供 24/7 服务。
 
 <center>
-<img src="/images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/9-albertsons_chat.png" alt="客户可以直接从 Albertsons Co. 的虚拟代理处获取疫苗资格信息并预约"/>
+<img src="/images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/9-albertsons_chat.png" alt="客户可以直接从 Albertsons Co. 的虚拟Agent处获取疫苗资格信息并预约"/>
 
 *客户可以获取疫苗资格信息并预约。*
 </center>
@@ -217,18 +217,18 @@ Google Business Messages 是节省时间、金钱，回复重复性查询、建�
 
 如上所示，Google Business Messages 的常见实现存在两个主要限制。
 
-首先，[创建和维护一个优秀的虚拟代理并非易事](https://developers.google.com/business-communications/business-messages/guides/how-it-works)；它需要对话式 AI 的高级知识和大量的开发时间。使用 Google Business Messages 的企业需要向专业的咨询机构付费，从头开始为他们创建完全定制的体验。这通常很昂贵，可能需要数月时间。像 Levi's、Walmart 和 Albertsons Companies 这样的大型企业才能负担得起这种特殊服务。咨询机构通常也完全控制产品的开发和维护。如果您需要进行更改，则必须通过该机构，这会花费额外的时间。
+首先，[创建和维护一个优秀的虚拟Agent并非易事](https://developers.google.com/business-communications/business-messages/guides/how-it-works)；它需要对话式 AI 的高级知识和大量的开发时间。使用 Google Business Messages 的企业需要向专业的咨询机构付费，从头开始为他们创建完全定制的体验。这通常很昂贵，可能需要数月时间。像 Levi's、Walmart 和 Albertsons Companies 这样的大型企业才能负担得起这种特殊服务。咨询机构通常也完全控制产品的开发和维护。如果您需要进行更改，则必须通过该机构，这会花费额外的时间。
 
-其次，Google Business Messages 是 Google Business Profile 中内置的消息传递功能的替代品。作为企业主，您可以在 Google Business Profile 上启用聊天按钮，并在有空时回复。但是，当您实施 Google Business Messages 时，您的传入消息会路由到您的实时代理，并且您将无法在 Google Business Profile 中或使用 Google My Business 应用直接与客户聊天。
+其次，Google Business Messages 是 Google Business Profile 中内置的消息传递功能的替代品。作为企业主，您可以在 Google Business Profile 上启用聊天按钮，并在有空时回复。但是，当您实施 Google Business Messages 时，您的传入消息会路由到您的实时Agent，并且您将无法在 Google Business Profile 中或使用 Google My Business 应用直接与客户聊天。
 
 <center>
 <img src="/images/blog/10-use-Google-Business-Messages-to-engage-with-customers-off-hours/10-live_agent.png" alt="实时聊天解决方案允许企业主直接与客户交谈"/>
 
-*如果启用了实时聊天解决方案，客户可以点击“向实时代理发送消息”以直接与企业主交谈。*
+*如果启用了实时聊天解决方案，客户可以点击“向实时Agent发送消息”以直接与企业主交谈。*
 </center>
 
 
-如果您仍想在使用 Google Business Messages 的同时直接与客户交谈，则需要[要求咨询机构](https://developers.google.com/business-communications/business-messages/partners)提供实时聊天解决方案。如果启用了此功能，客户可以点击“向实时代理发送消息”按钮，然后您就可以加入对话并直接与客户交谈。从实时代理的角度来看，对话将在咨询机构选择集成的任何平台上进行；这可能是通过文本、WhatsApp、Messenger、现有客户服务软件（如 Zendesk）或定制的网站或手机应用程序。
+如果您仍想在使用 Google Business Messages 的同时直接与客户交谈，则需要[要求咨询机构](https://developers.google.com/business-communications/business-messages/partners)提供实时聊天解决方案。如果启用了此功能，客户可以点击“向实时Agent发送消息”按钮，然后您就可以加入对话并直接与客户交谈。从实时Agent的角度来看，对话将在咨询机构选择集成的任何平台上进行；这可能是通过文本、WhatsApp、Messenger、现有客户服务软件（如 Zendesk）或定制的网站或手机应用程序。
 
 现在您可能想知道，有没有一种解决方案可以克服这些障碍，同时仍然获得 Google Business Messages 的好处？这就是为什么我们想向您展示我们的最新解决方案 Near Me Messaging，以及如何利用它最大限度地利用您的 Google 地图聊天！
 
@@ -242,34 +242,34 @@ Near Me Messaging 将最先进的对话式 AI 与 Google Business Messages 集�
 *Near Me Messaging 将 Google Business Messages 与 Google 地图个人资料上的聊天按钮集成。*
 </center>
 
-首先，当企业集成 Google Business Messages 时，他们需要向专业的咨询机构付费，从头开始为他们创建完全定制的体验。这通常很昂贵且耗时。我们理解，利用 Google Business Messages 的典型时间和资源投入是许多小型企业的入门障碍。Near Me Messaging 通过为中小企业提供经济实惠的解决方案来解决这一限制。您可以在不到 5 分钟的时间内获得一个可用的虚拟代理。此外，您可以随时从 Near Me Messaging 网站持续更新和定制您的虚拟代理。您在 Near Me Messaging 网站上所做的更改将立即对与您的代理互动的客户生效。
+首先，当企业集成 Google Business Messages 时，他们需要向专业的咨询机构付费，从头开始为他们创建完全定制的体验。这通常很昂贵且耗时。我们理解，利用 Google Business Messages 的典型时间和资源投入是许多小型企业的入门障碍。Near Me Messaging 通过为中小企业提供经济实惠的解决方案来解决这一限制。您可以在不到 5 分钟的时间内获得一个可用的虚拟Agent。此外，您可以随时从 Near Me Messaging 网站持续更新和定制您的虚拟Agent。您在 Near Me Messaging 网站上所做的更改将立即对与您的Agent互动的客户生效。
 
-此外，当您在 Google Business Profile 上启用聊天按钮时，您可以在有空时回复客户。但是，当您集成 Google Business Messages 时，您的传入消息会路由到您的实时代理，并且您将无法在 Google Business Profile 中直接与客户聊天。Near Me Messaging 通过提供实时代理功能来解决此限制，无需额外费用或设置时间。通过实时代理功能，客户可以随时请求转接给真人。当您看到实时代理请求时，或者如果您想接管虚拟代理，您可以加入对话并直接与客户交谈。
+此外，当您在 Google Business Profile 上启用聊天按钮时，您可以在有空时回复客户。但是，当您集成 Google Business Messages 时，您的传入消息会路由到您的实时Agent，并且您将无法在 Google Business Profile 中直接与客户聊天。Near Me Messaging 通过提供实时Agent功能来解决此限制，无需额外费用或设置时间。通过实时Agent功能，客户可以随时请求转接给真人。当您看到实时Agent请求时，或者如果您想接管虚拟Agent，您可以加入对话并直接与客户交谈。
 
 ## Near Me Messaging 的优势
 
 ### 1. 节省提供卓越客户服务的时间和人力
 
-当您使用 Near Me Messaging 时，对最基本问题的回复会根据您的 Google Business Profile 中的信息自动处理。您的 Google Business Profile 中的信息越多，代理回复基本问题的能力就越强。如果您想更新您的 Google Business Profile，您可以将您的更改与 Near Me 同步，以自动更新机器人回复。虚拟代理还将根据您的 Google 地图个人资料中具有高星级评分的相关用户评论生成回复。除了自动生成的回复之外，您还可以通过常见问题解答和知识库添加更多自定义内容，我们将在下一节中详细讨论。
+当您使用 Near Me Messaging 时，对最基本问题的回复会根据您的 Google Business Profile 中的信息自动处理。您的 Google Business Profile 中的信息越多，Agent回复基本问题的能力就越强。如果您想更新您的 Google Business Profile，您可以将您的更改与 Near Me 同步，以自动更新机器人回复。虚拟Agent还将根据您的 Google 地图个人资料中具有高星级评分的相关用户评论生成回复。除了自动生成的回复之外，您还可以通过常见问题解答和知识库添加更多自定义内容，我们将在下一节中详细讨论。
 
-登录 Near Me 网站后 5 分钟内，您就可以测试自己的虚拟代理。您的虚拟代理可以 24/7 为客户的重复性查询提供即时答复。通过这种方式，您可以建立并维护与客户的关系。
+登录 Near Me 网站后 5 分钟内，您就可以测试自己的虚拟Agent。您的虚拟Agent可以 24/7 为客户的重复性查询提供即时答复。通过这种方式，您可以建立并维护与客户的关系。
 
 <center>
-<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/2-custom-FAQ.png" alt="Near Me Messaging 提供自定义常见问题解答功能以个性化虚拟代理"/>
+<img src="/images/blog/12-near-me-messaging-complements-google-business-messages/2-custom-FAQ.png" alt="Near Me Messaging 提供自定义常见问题解答功能以个性化虚拟Agent"/>
 
 *我们自定义常见问题解答功能的示例。*
 </center>
 
 ### 2. 自助服务和可定制功能。
 
-除了根据您的商家资料和客户评论生成回复外，Near Me Messaging 还配备了自助服务定制功能。为了个性化您的虚拟代理，您可以定制的一些基本功能包括虚拟代理名称、欢迎消息和徽标。更重要的是，您可以为特定于您业务的用户查询制作自定义回复。这可以通过创建常见问题解答 (FAQ) 并将有关您业务的更多信息（例如您网站上的文本）添加到知识库中来完成。
+除了根据您的商家资料和客户评论生成回复外，Near Me Messaging 还配备了自助服务定制功能。为了个性化您的虚拟Agent，您可以定制的一些基本功能包括虚拟Agent名称、欢迎消息和徽标。更重要的是，您可以为特定于您业务的用户查询制作自定义回复。这可以通过创建常见问题解答 (FAQ) 并将有关您业务的更多信息（例如您网站上的文本）添加到知识库中来完成。
 
-定制代理后，您可以私下测试它，直到您对性能满意为止。准备就绪后，您可以直接从 Near Me Messaging 网站将其公开发布。一旦您公开发布虚拟代理，您可以继续进行更改并进一步定制您的虚拟代理。当您进行更改时，您可以转到“私人测试”选项卡，在公开发布之前对其进行测试。当您对更改满意时，您可以从“公开发布”页面单击“重新发布”以立即更新虚拟代理的公共版本。
+定制Agent后，您可以私下测试它，直到您对性能满意为止。准备就绪后，您可以直接从 Near Me Messaging 网站将其公开发布。一旦您公开发布虚拟Agent，您可以继续进行更改并进一步定制您的虚拟Agent。当您进行更改时，您可以转到“私人测试”选项卡，在公开发布之前对其进行测试。当您对更改满意时，您可以从“公开发布”页面单击“重新发布”以立即更新虚拟Agent的公共版本。
 
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/9-relaunch.png" alt="Near Me Messaging 将 Google Business Messages 与 Google 地图个人资料上的聊天按钮集成。"/>
 
-*完成对虚拟代理的更改/改进后，您可以单击“重新发布”按钮。*
+*完成对虚拟Agent的更改/改进后，您可以单击“重新发布”按钮。*
 </center>
 
 

@@ -29,7 +29,7 @@ SeaChat 是一款先進的 AI 聊天機器人平台，專為希望提升客戶�
 
 ## Google DialogFlow：科技巨頭的解決方案
 
-Google DialogFlow 是由 Google Cloud 支援的熱門聊天機器人平台，能利用 NLP 與機器學習打造高階對話代理。主要功能：
+Google DialogFlow 是由 Google Cloud 支援的熱門聊天機器人平台，能利用 NLP 與機器學習打造高階對話Agent。主要功能：
 
 - 整合 Google Cloud
 - 語音與文字辨識
