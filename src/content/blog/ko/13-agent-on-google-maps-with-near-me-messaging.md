@@ -29,7 +29,7 @@ draft: false
 
 ### 1단계. 내 주변 메시징 웹사이트 방문 (업데이트: 제품을 옴니채널 챗봇 빌더로 전환했습니다. 이제 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)이라고 합니다!).
 
-내 주변 메시징 웹사이트 (업데이트: 제품을 옴니채널 챗봇 빌더로 전환했습니다. 이제 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)이라고 합니다!)로 이동하여 *“로그인”* 버튼을 클릭합니다. Google 비즈니스 프로필에 사용하는 계정으로 로그인한 후, 사용 가능한 모든 상자를 선택하고 Seasalt AI에 가상 에이전트를 시작할 권한을 부여했는지 확인하십시오. Seasalt.ai는 [공식 Google 파트너](https://developers.google.com/business-communications/business-messages/partners)이므로, 이 권한을 책임감 있게 사용할 것임을 확신할 수 있습니다. **저희는 이 권한을 두 가지 기능에 사용합니다. 첫째, 가상 에이전트가 정확한 응답을 제공할 수 있도록 Google 비즈니스 프로필에서 정보에 액세스하고, 둘째, 귀하를 대신하여 에이전트를 귀하의 비즈니스 Google 지도 페이지에 시작할 수 있도록 합니다.**
+내 주변 메시징 웹사이트 (업데이트: 제품을 옴니채널 챗봇 빌더로 전환했습니다. 이제 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)이라고 합니다!)로 이동하여 *“로그인”* 버튼을 클릭합니다. Google 비즈니스 프로필에 사용하는 계정으로 로그인한 후, 사용 가능한 모든 상자를 선택하고 Seasalt.ai에 가상 에이전트를 시작할 권한을 부여했는지 확인하십시오. Seasalt.ai는 [공식 Google 파트너](https://developers.google.com/business-communications/business-messages/partners)이므로, 이 권한을 책임감 있게 사용할 것임을 확신할 수 있습니다. **저희는 이 권한을 두 가지 기능에 사용합니다. 첫째, 가상 에이전트가 정확한 응답을 제공할 수 있도록 Google 비즈니스 프로필에서 정보에 액세스하고, 둘째, 귀하를 대신하여 에이전트를 귀하의 비즈니스 Google 지도 페이지에 시작할 수 있도록 합니다.**
 
 저희는 이 권한을 사용하여 귀하의 비즈니스 프로필을 편집하거나 삭제하지 않습니다. Google은 *“보기”*, *“편집”*, *“삭제”*에 대한 별도의 권한을 제공하지 않으므로, 모든 권한을 부여해야 합니다. 저희는 *“보기”* 권한만 사용합니다.
 
@@ -42,7 +42,7 @@ draft: false
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Seasalt AI에 권한을 부여하면 귀하를 대신하여 브랜드의 가상 에이전트를 Google 지도 페이지에 공개적으로 시작할 수 있습니다.*
+*Seasalt.ai에 권한을 부여하면 귀하를 대신하여 브랜드의 가상 에이전트를 Google 지도 페이지에 공개적으로 시작할 수 있습니다.*
 </center>
 
 

@@ -341,7 +341,7 @@ Pentru a începe cu Mesageria Near Me, urmați acest ghid pas cu pas despre cum 
 
 ### Pasul 1. Vizitați site-ul web Mesageria Near Me și conectați-vă cu contul pe care îl utilizați pentru Profilul Companiei pe Google.
 
-Accesați site-ul web Mesageria Near Me și faceți clic pe butonul *„Conectați-vă”*. Odată ce vă conectați cu contul pe care îl utilizați pentru Profilul Companiei pe Google, asigurați-vă că bifați toate casetele disponibile și acordați permisiunea Seasalt AI să lanseze agentul dvs. virtual. Seasalt.ai este un [partener oficial Google](https://developers.google.com/business-communications/business-messages/partners), așa că puteți fi siguri că vom folosi aceste permisiuni în mod responsabil. **Folosim aceste permisiuni pentru două funcții: în primul rând, pentru a accesa informații din Profilul Companiei pe Google, astfel încât agentul dvs. virtual să poată oferi răspunsuri exacte, și în al doilea rând, pentru a putea lansa agentul pe pagina Google Maps a afacerii dvs. în numele dvs.**
+Accesați site-ul web Mesageria Near Me și faceți clic pe butonul *„Conectați-vă”*. Odată ce vă conectați cu contul pe care îl utilizați pentru Profilul Companiei pe Google, asigurați-vă că bifați toate casetele disponibile și acordați permisiunea Seasalt.ai să lanseze agentul dvs. virtual. Seasalt.ai este un [partener oficial Google](https://developers.google.com/business-communications/business-messages/partners), așa că puteți fi siguri că vom folosi aceste permisiuni în mod responsabil. **Folosim aceste permisiuni pentru două funcții: în primul rând, pentru a accesa informații din Profilul Companiei pe Google, astfel încât agentul dvs. virtual să poată oferi răspunsuri exacte, și în al doilea rând, pentru a putea lansa agentul pe pagina Google Maps a afacerii dvs. în numele dvs.**
 
 Nu vom folosi niciodată aceste permisiuni pentru a edita sau șterge profilul afacerii dvs. Încă avem nevoie să acordați permisiunea pentru toate, deoarece Google nu oferă permisiuni separate pentru *„vizualizare”*, *„editare”* și *„ștergere”*. Vom folosi doar permisiunea de *„vizualizare”*.
 
@@ -354,7 +354,7 @@ Nu vom folosi niciodată aceste permisiuni pentru a edita sau șterge profilul a
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Acordarea de permisiuni pentru Seasalt AI ne oferă posibilitatea de a lansa public agentul virtual al mărcii dvs. pe pagina dvs. Google Maps în numele dvs.*
+*Acordarea de permisiuni pentru Seasalt.ai ne oferă posibilitatea de a lansa public agentul virtual al mărcii dvs. pe pagina dvs. Google Maps în numele dvs.*
 </center>
 
 

@@ -1,10 +1,10 @@
-# SeaSalt.ai Website - New Astro Implementation
+# Seasalt.ai Website - New Astro Implementation
 
-基於 Astro 的全新 SeaSalt.ai 官方網站實現，具備多語言支援、現代化架構和優化的性能。
+基於 Astro 的全新 Seasalt.ai 官方網站實現，具備多語言支援、現代化架構和優化的性能。
 
 ## 📋 專案概述
 
-本專案是 SeaSalt.ai 官網的全面重構，從舊的 Hugo 架構遷移至現代化的 Astro 框架。
+本專案是 Seasalt.ai 官網的全面重構，從舊的 Hugo 架構遷移至現代化的 Astro 框架。
 
 ### 🎯 主要特色
 - **多語言支援**: 支援 20 種語言

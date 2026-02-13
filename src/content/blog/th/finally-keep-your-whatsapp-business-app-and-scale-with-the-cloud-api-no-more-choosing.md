@@ -99,7 +99,7 @@ image:
 
 อย่าให้ขีดจำกัดของอุปกรณ์ขัดขวางธุรกิจของคุณ  
 
-**[ลงทะเบียน SeaSalt.ai วันนี้](https://seasalt.ai)** เพื่อเปิดใช้งาน WhatsApp Coexistence และเริ่มขยายขนาดโดยไม่มีขีดจำกัด  
+**[ลงทะเบียน Seasalt.ai วันนี้](https://seasalt.ai)** เพื่อเปิดใช้งาน WhatsApp Coexistence และเริ่มขยายขนาดโดยไม่มีขีดจำกัด  
 
 
 *สำหรับรายละเอียดทางเทคนิคเกี่ยวกับการตั้งค่า แบบจำหน่าย และกฎการซิงโครไนซ์ โปรดอ้างอิงถึง **[คู่มือวิกิอย่างเป็นทางการเกี่ยวกับ WhatsApp Coexistence](https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-coexistence/)** ของเรา*

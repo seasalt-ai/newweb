@@ -30,7 +30,7 @@ Kami saat ini mencari penguji beta untuk Pesan Dekat Saya. Untuk penguji beta ka
 
 ### Langkah 1. Kunjungi situs web Pesan Dekat Saya (Pembaruan: Kami telah memutar produk menjadi pembuat chatbot omni-channel. Sekarang disebut [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!).
 
-Pergi ke situs web Pesan Dekat Saya (Pembaruan: Kami telah memutar produk menjadi pembuat chatbot omni-channel. Sekarang disebut [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) dan klik tombol *“Masuk”*. Setelah Anda masuk dengan akun yang Anda gunakan untuk Google Business Profile, pastikan Anda mencentang semua kotak yang tersedia dan memberikan izin kepada Seasalt AI untuk meluncurkan agen virtual Anda. Seasalt.ai adalah [Mitra Google resmi](https://developers.google.com/business-communications/business-messages/partners), jadi Anda dapat yakin bahwa kami akan menggunakan izin ini secara bertanggung jawab. **Kami menggunakan izin ini untuk dua fungsi: pertama, untuk mengakses informasi dari Google Business Profile Anda sehingga agen virtual Anda dapat memberikan respons yang akurat, dan kedua agar kami dapat meluncurkan agen ke halaman Google Maps Bisnis Anda atas nama Anda.**
+Pergi ke situs web Pesan Dekat Saya (Pembaruan: Kami telah memutar produk menjadi pembuat chatbot omni-channel. Sekarang disebut [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) dan klik tombol *“Masuk”*. Setelah Anda masuk dengan akun yang Anda gunakan untuk Google Business Profile, pastikan Anda mencentang semua kotak yang tersedia dan memberikan izin kepada Seasalt.ai untuk meluncurkan agen virtual Anda. Seasalt.ai adalah [Mitra Google resmi](https://developers.google.com/business-communications/business-messages/partners), jadi Anda dapat yakin bahwa kami akan menggunakan izin ini secara bertanggung jawab. **Kami menggunakan izin ini untuk dua fungsi: pertama, untuk mengakses informasi dari Google Business Profile Anda sehingga agen virtual Anda dapat memberikan respons yang akurat, dan kedua agar kami dapat meluncurkan agen ke halaman Google Maps Bisnis Anda atas nama Anda.**
 
 Kami tidak akan pernah menggunakan izin ini untuk mengedit atau menghapus profil bisnis Anda. Kami masih membutuhkan Anda untuk memberikan izin untuk semuanya karena Google tidak memberikan izin terpisah untuk *“melihat”*, *“mengedit”*, dan *“menghapus”*. Kami hanya akan menggunakan izin *“melihat”*.
 
@@ -43,7 +43,7 @@ Kami tidak akan pernah menggunakan izin ini untuk mengedit atau menghapus profil
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Memberikan izin untuk Seasalt AI memberi kami kemampuan untuk meluncurkan agen virtual merek Anda secara publik ke halaman Google Maps Anda atas nama Anda.*
+*Memberikan izin untuk Seasalt.ai memberi kami kemampuan untuk meluncurkan agen virtual merek Anda secara publik ke halaman Google Maps Anda atas nama Anda.*
 </center>
 
 

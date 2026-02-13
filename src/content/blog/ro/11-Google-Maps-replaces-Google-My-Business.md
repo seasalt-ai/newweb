@@ -122,7 +122,7 @@ Dacă utilizați contul corect asociat cu listarea afacerii dvs., ar trebui să 
 
 ### 3. Selectați afacerea pe care doriți să o actualizați.
 
-Dacă aveți mai multe afaceri, ar trebui să puteți vedea toate afacerile dvs. Selectați afacerea pe care doriți să o actualizați sau să o gestionați în acest moment. În exemplul nostru, dorim să gestionăm Seasalt AI.
+Dacă aveți mai multe afaceri, ar trebui să puteți vedea toate afacerile dvs. Selectați afacerea pe care doriți să o actualizați sau să o gestionați în acest moment. În exemplul nostru, dorim să gestionăm Seasalt.ai.
 
 
 <center>

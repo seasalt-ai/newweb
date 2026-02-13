@@ -2,7 +2,7 @@
 
 ## Overview
 
-The SeaSalt.ai website implements a sophisticated multi-stage language detection and redirect system that automatically directs users to their preferred language version of the site. This system supports 21 languages and handles complex browser language scenarios with fallback mechanisms.
+The Seasalt.ai website implements a sophisticated multi-stage language detection and redirect system that automatically directs users to their preferred language version of the site. This system supports 21 languages and handles complex browser language scenarios with fallback mechanisms.
 
 ## Architecture
 
@@ -428,4 +428,4 @@ hasLocalePrefix()            # Checks if path already localized
 curl -I http://localhost:4321/pricing
 ```
 
-This comprehensive redirect system ensures users always see the SeaSalt.ai website in their preferred language with minimal friction and maximum compatibility.
+This comprehensive redirect system ensures users always see the Seasalt.ai website in their preferred language with minimal friction and maximum compatibility.

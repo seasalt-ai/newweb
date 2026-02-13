@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Vercel Deployment Script for Seasalt AI Website
+# Vercel Deployment Script for Seasalt.ai Website
 # This script deploys the website to Vercel
 #
 # ⚠️  IMPORTANT WARNING ABOUT --skip-build FLAG:

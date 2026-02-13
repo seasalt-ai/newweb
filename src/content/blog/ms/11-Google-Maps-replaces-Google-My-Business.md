@@ -123,7 +123,7 @@ Jika anda menggunakan akaun yang betul yang berkaitan dengan penyenaraian pernia
 
 ### 3. Pilih perniagaan yang ingin anda kemas kini.
 
-Jika anda mempunyai berbilang perniagaan, anda sepatutnya dapat melihat semua perniagaan anda. Pilih perniagaan yang ingin anda kemas kini atau uruskan pada masa ini. Dalam contoh kami, kami ingin menguruskan Seasalt AI.
+Jika anda mempunyai berbilang perniagaan, anda sepatutnya dapat melihat semua perniagaan anda. Pilih perniagaan yang ingin anda kemas kini atau uruskan pada masa ini. Dalam contoh kami, kami ingin menguruskan Seasalt.ai.
 
 
 <center>

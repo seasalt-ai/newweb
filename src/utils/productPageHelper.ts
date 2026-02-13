@@ -46,7 +46,7 @@ export function generateSeaChatTranslations(seaxTranslations: any): ProductTrans
   return {
     navigation: {
       features: seaxTranslations.navigation?.features || 'Features',
-      solutions: seaxTranslations.navigation?.solutions || 'Solutions', 
+      solutions: seaxTranslations.navigation?.solutions || 'Solutions',
       integrations: 'Integrations',
       pricing: seaxTranslations.navigation?.pricing || 'Pricing'
     },
@@ -68,7 +68,7 @@ export function generateSeaChatTranslations(seaxTranslations: any): ProductTrans
     },
     footer: {
       logoAlt: 'SeaChat',
-      copyright: '© 2024 SeaSalt.ai. All rights reserved.',
+      copyright: '© 2024 Seasalt.ai. All rights reserved.',
       privacyPolicy: 'Privacy Policy',
       termsOfService: 'Terms of Service',
       madeWithText: 'Made with',
@@ -106,7 +106,7 @@ export function generateSeaVoiceTranslations(seaxTranslations: any): ProductTran
     },
     company: {
       title: 'Company',
-      features: 'Features', 
+      features: 'Features',
       pricing: 'Pricing',
       blog: 'Blog',
       compareUs: 'Compare Us',
@@ -117,7 +117,7 @@ export function generateSeaVoiceTranslations(seaxTranslations: any): ProductTran
     },
     footer: {
       logoAlt: 'SeaVoice',
-      copyright: '© 2024 SeaSalt.ai. All rights reserved.',
+      copyright: '© 2024 Seasalt.ai. All rights reserved.',
       privacyPolicy: 'Privacy Policy',
       termsOfService: 'Terms of Service',
       madeWithText: 'Made with',
@@ -145,14 +145,14 @@ export function generateSeaVoiceTranslations(seaxTranslations: any): ProductTran
  * @returns SEO 數據對象
  */
 export function generateSEOData(
-  product: ProductType, 
-  pageTitle: string, 
-  pageDescription: string, 
+  product: ProductType,
+  pageTitle: string,
+  pageDescription: string,
   lang: string = 'en'
 ) {
   const productNames = {
     seax: 'SeaX',
-    seachat: 'SeaChat', 
+    seachat: 'SeaChat',
     seavoice: 'SeaVoice'
   };
 
@@ -160,9 +160,9 @@ export function generateSEOData(
   const baseUrl = `https://seasalt.ai/${lang}/${product}`;
 
   return {
-    title: `${pageTitle} | ${productName} - SeaSalt.ai`,
+    title: `${pageTitle} | ${productName} - Seasalt.ai`,
     description: pageDescription,
-    keywords: `${productName}, AI, SeaSalt.ai, automation, ${product}`,
+    keywords: `${productName}, AI, Seasalt.ai, automation, ${product}`,
     canonical: baseUrl,
     ogImage: `/og-${product}.jpg`
   };
@@ -175,12 +175,12 @@ export function generateSEOData(
  */
 export function parseProductPath(pathname: string) {
   const pathSegments = pathname.split('/').filter(Boolean);
-  
+
   // 預期格式: /en/seax/... 或 /zh-TW/seachat/...
   if (pathSegments.length >= 2) {
     const lang = pathSegments[0];
     const product = pathSegments[1];
-    
+
     if (['seax', 'seachat', 'seavoice'].includes(product)) {
       return {
         product: product as ProductType,
@@ -189,6 +189,6 @@ export function parseProductPath(pathname: string) {
       };
     }
   }
-  
+
   return null;
 }

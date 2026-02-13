@@ -30,7 +30,7 @@ Obecnie poszukujemy beta-testerów dla Wiadomości Near Me. Dla naszych beta-tes
 
 ### Krok 1. Odwiedź stronę internetową Near Me Messaging (Aktualizacja: Od tego czasu zmieniliśmy produkt na kreator chatbota wielokanałowego. Teraz nazywa się [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!).
 
-Przejdź do strony internetowej Near Me Messaging (Aktualizacja: Od tego czasu zmieniliśmy produkt na kreator chatbota wielokanałowego. Teraz nazywa się [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) i kliknij przycisk *„Zaloguj się”*. Po zalogowaniu się na konto, którego używasz do Profilu Firmy w Google, upewnij się, że zaznaczyłeś wszystkie dostępne pola i udzieliłeś Seasalt AI pozwolenia na uruchomienie Twojego wirtualnego agenta. Seasalt.ai jest [oficjalnym partnerem Google](https://developers.google.com/business-communications/business-messages/partners), więc możesz być pewien, że będziemy używać tych uprawnień odpowiedzialnie. **Używamy tych uprawnień do dwóch funkcji: po pierwsze, aby uzyskać dostęp do informacji z Twojego Profilu Firmy w Google, aby Twój wirtualny agent mógł udzielać dokładnych odpowiedzi, a po drugie, abyśmy mogli uruchomić agenta na stronie Google Maps Twojej firmy w Twoim imieniu.**
+Przejdź do strony internetowej Near Me Messaging (Aktualizacja: Od tego czasu zmieniliśmy produkt na kreator chatbota wielokanałowego. Teraz nazywa się [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) i kliknij przycisk *„Zaloguj się”*. Po zalogowaniu się na konto, którego używasz do Profilu Firmy w Google, upewnij się, że zaznaczyłeś wszystkie dostępne pola i udzieliłeś Seasalt.ai pozwolenia na uruchomienie Twojego wirtualnego agenta. Seasalt.ai jest [oficjalnym partnerem Google](https://developers.google.com/business-communications/business-messages/partners), więc możesz być pewien, że będziemy używać tych uprawnień odpowiedzialnie. **Używamy tych uprawnień do dwóch funkcji: po pierwsze, aby uzyskać dostęp do informacji z Twojego Profilu Firmy w Google, aby Twój wirtualny agent mógł udzielać dokładnych odpowiedzi, a po drugie, abyśmy mogli uruchomić agenta na stronie Google Maps Twojej firmy w Twoim imieniu.**
 
 Nigdy nie będziemy używać tych uprawnień do edytowania lub usuwania Twojego profilu firmy. Nadal musisz udzielić nam wszystkich uprawnień, ponieważ Google nie zapewnia oddzielnych uprawnień dla *„widoku”*, *„edycji”* i *„usuwania”*. Będziemy używać tylko uprawnienia *„widoku”*.
 
@@ -43,7 +43,7 @@ Nigdy nie będziemy używać tych uprawnień do edytowania lub usuwania Twojego 
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Udzielenie Seasalt AI uprawnień daje nam możliwość publicznego uruchomienia wirtualnego agenta Twojej marki na Twojej stronie Google Maps w Twoim imieniu.*
+*Udzielenie Seasalt.ai uprawnień daje nam możliwość publicznego uruchomienia wirtualnego agenta Twojej marki na Twojej stronie Google Maps w Twoim imieniu.*
 </center>
 
 

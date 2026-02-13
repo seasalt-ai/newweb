@@ -123,7 +123,7 @@ Wenn Sie das richtige Konto verwenden, das mit Ihrem Unternehmenseintrag verknü
 
 ### 3. Wählen Sie das Unternehmen aus, das Sie aktualisieren möchten.
 
-Wenn Sie mehrere Unternehmen haben, sollten Sie alle Ihre Unternehmen sehen können. Wählen Sie das Unternehmen aus, das Sie gerade aktualisieren oder verwalten möchten. In unserem Beispiel möchten wir Seasalt AI verwalten.
+Wenn Sie mehrere Unternehmen haben, sollten Sie alle Ihre Unternehmen sehen können. Wählen Sie das Unternehmen aus, das Sie gerade aktualisieren oder verwalten möchten. In unserem Beispiel möchten wir Seasalt.ai verwalten.
 
 
 <center>

@@ -123,7 +123,7 @@ Si está utilizando la cuenta correcta asociada con su listado de negocios, debe
 
 ### 3. Seleccione el negocio que desea actualizar.
 
-Si tiene varios negocios, debería poder ver todos sus negocios. Seleccione el negocio que desea actualizar o administrar en este momento. En nuestro ejemplo, queremos administrar Seasalt AI.
+Si tiene varios negocios, debería poder ver todos sus negocios. Seleccione el negocio que desea actualizar o administrar en este momento. En nuestro ejemplo, queremos administrar Seasalt.ai.
 
 
 <center>

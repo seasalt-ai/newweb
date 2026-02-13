@@ -30,7 +30,7 @@ Wir suchen derzeit Beta-Tester für Near Me Messaging. Für unsere Beta-Tester b
 
 ### Schritt 1. Besuchen Sie die Near Me Messaging-Website (Update: Wir haben das Produkt inzwischen zu einem Omnichannel-Chatbot-Builder umfunktioniert. Es heißt jetzt [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!).
 
-Gehen Sie zur Near Me Messaging-Website (Update: Wir haben das Produkt inzwischen zu einem Omnichannel-Chatbot-Builder umfunktioniert. Es heißt jetzt [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) und klicken Sie auf die Schaltfläche *„Anmelden“*. Sobald Sie sich mit dem Konto angemeldet haben, das Sie für Ihr Google My Business-Profil verwenden, stellen Sie sicher, dass Sie alle verfügbaren Kästchen ankreuzen und Seasalt AI die Berechtigung erteilen, Ihren virtuellen Agenten zu starten. Seasalt.ai ist ein [offizieller Google-Partner](https://developers.google.com/business-communications/business-messages/partners), sodass Sie sicher sein können, dass wir diese Berechtigungen verantwortungsvoll nutzen werden. **Wir verwenden diese Berechtigungen für zwei Funktionen: erstens, um auf Informationen aus Ihrem Google My Business-Profil zuzugreifen, damit Ihr virtueller Agent genaue Antworten geben kann, und zweitens, damit wir den Agenten in Ihrem Namen auf der Google Maps-Seite Ihres Unternehmens starten können.**
+Gehen Sie zur Near Me Messaging-Website (Update: Wir haben das Produkt inzwischen zu einem Omnichannel-Chatbot-Builder umfunktioniert. Es heißt jetzt [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) und klicken Sie auf die Schaltfläche *„Anmelden“*. Sobald Sie sich mit dem Konto angemeldet haben, das Sie für Ihr Google My Business-Profil verwenden, stellen Sie sicher, dass Sie alle verfügbaren Kästchen ankreuzen und Seasalt.ai die Berechtigung erteilen, Ihren virtuellen Agenten zu starten. Seasalt.ai ist ein [offizieller Google-Partner](https://developers.google.com/business-communications/business-messages/partners), sodass Sie sicher sein können, dass wir diese Berechtigungen verantwortungsvoll nutzen werden. **Wir verwenden diese Berechtigungen für zwei Funktionen: erstens, um auf Informationen aus Ihrem Google My Business-Profil zuzugreifen, damit Ihr virtueller Agent genaue Antworten geben kann, und zweitens, damit wir den Agenten in Ihrem Namen auf der Google Maps-Seite Ihres Unternehmens starten können.**
 
 Wir werden diese Berechtigungen niemals verwenden, um Ihr Unternehmensprofil zu bearbeiten oder zu löschen. Wir benötigen weiterhin Ihre Zustimmung zu allen, da Google keine separaten Berechtigungen für *„Anzeigen“*, *„Bearbeiten“* und *„Löschen“* bereitstellt. Wir werden nur die Berechtigung *„Anzeigen“* verwenden.
 
@@ -43,7 +43,7 @@ Wir werden diese Berechtigungen niemals verwenden, um Ihr Unternehmensprofil zu 
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Die Erteilung von Berechtigungen für Seasalt AI gibt uns die Möglichkeit, den virtuellen Agenten Ihrer Marke in Ihrem Namen öffentlich auf Ihrer Google Maps-Seite zu starten.*
+*Die Erteilung von Berechtigungen für Seasalt.ai gibt uns die Möglichkeit, den virtuellen Agenten Ihrer Marke in Ihrem Namen öffentlich auf Ihrer Google Maps-Seite zu starten.*
 </center>
 
 

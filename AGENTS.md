@@ -1,4 +1,4 @@
-# AGENTS.md - SeaSalt.ai Website Development Guide
+# AGENTS.md - Seasalt.ai Website Development Guide
 
 This document provides coding guidelines and build commands for agentic development in this Astro-based website project.
 

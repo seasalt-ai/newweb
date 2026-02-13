@@ -30,7 +30,7 @@ Kasalukuyan kaming naghahanap ng mga beta tester para sa Near Me Messaging. Para
 
 ### Hakbang 1. Bisitahin ang website ng Near Me Messaging (Update: Kami ay nagbago ng produkto upang maging isang omni-channel chatbot builder. Ngayon ay tinatawag na [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!).
 
-Pumunta sa website ng Near Me Messaging (Update: Kami ay nagbago ng produkto upang maging isang omni-channel chatbot builder. Ngayon ay tinatawag na [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) at i-click ang *“Mag-sign in”* na button. Kapag nag-sign in ka na gamit ang account na ginagamit mo para sa Google Business Profile, siguraduhin na i-check mo ang lahat ng available na box at bigyan ng pahintulot ang Seasalt AI na ilunsad ang iyong virtual agent. Ang Seasalt.ai ay isang [opisyal na Google Partner](https://developers.google.com/business-communications/business-messages/partners), kaya makakasiguro ka na gagamitin namin ang mga pahintulot na ito nang responsable. **Ginagamit namin ang mga pahintulot na ito para sa dalawang function: una, upang ma-access ang impormasyon mula sa iyong Google Business Profile upang ang iyong virtual agent ay makapagbigay ng tumpak na mga tugon, at pangalawa upang mailunsad namin ang agent sa Google Maps page ng iyong Negosyo sa iyong ngalan.**
+Pumunta sa website ng Near Me Messaging (Update: Kami ay nagbago ng produkto upang maging isang omni-channel chatbot builder. Ngayon ay tinatawag na [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) at i-click ang *“Mag-sign in”* na button. Kapag nag-sign in ka na gamit ang account na ginagamit mo para sa Google Business Profile, siguraduhin na i-check mo ang lahat ng available na box at bigyan ng pahintulot ang Seasalt.ai na ilunsad ang iyong virtual agent. Ang Seasalt.ai ay isang [opisyal na Google Partner](https://developers.google.com/business-communications/business-messages/partners), kaya makakasiguro ka na gagamitin namin ang mga pahintulot na ito nang responsable. **Ginagamit namin ang mga pahintulot na ito para sa dalawang function: una, upang ma-access ang impormasyon mula sa iyong Google Business Profile upang ang iyong virtual agent ay makapagbigay ng tumpak na mga tugon, at pangalawa upang mailunsad namin ang agent sa Google Maps page ng iyong Negosyo sa iyong ngalan.**
 
 Hindi namin kailanman gagamitin ang mga pahintulot na ito upang i-edit o tanggalin ang iyong profile ng negosyo. Kailangan pa rin namin na bigyan mo kami ng pahintulot sa lahat ng ito dahil hindi nagbibigay ang Google ng hiwalay na pahintulot para sa *“tingnan”*, *“i-edit”*, at *“tanggalin”*. Gagamitin lang namin ang pahintulot na *“tingnan”*.
 
@@ -43,7 +43,7 @@ Hindi namin kailanman gagamitin ang mga pahintulot na ito upang i-edit o tanggal
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Ang pagbibigay ng pahintulot sa Seasalt AI ay nagbibigay sa amin ng kakayahang ilunsad sa publiko ang virtual agent ng iyong brand sa iyong Google Maps page sa iyong ngalan.*
+*Ang pagbibigay ng pahintulot sa Seasalt.ai ay nagbibigay sa amin ng kakayahang ilunsad sa publiko ang virtual agent ng iyong brand sa iyong Google Maps page sa iyong ngalan.*
 </center>
 
 

@@ -4,7 +4,7 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
 
 ## Repository Overview
 
-This is the SeaSalt.ai official website built with **Astro 5.x** framework, featuring:
+This is the Seasalt.ai official website built with **Astro 5.x** framework, featuring:
 - **Multi-language support**: 20 languages with i18n routing
 - **Static Site Generation (SSG)**: All pages pre-rendered for optimal performance
 - **React Islands**: Interactive components using React with selective hydration
@@ -299,4 +299,4 @@ npm run preview  # Test built site locally before deploy
 5. **SEO Optimization**: Built-in SEO best practices with structured data
 6. **Performance Focus**: Optimized build process and runtime performance
 
-This architecture supports SeaSalt.ai's global presence with excellent performance, SEO, and maintainability.
+This architecture supports Seasalt.ai's global presence with excellent performance, SEO, and maintainability.

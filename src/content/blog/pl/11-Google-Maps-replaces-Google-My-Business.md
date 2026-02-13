@@ -121,7 +121,7 @@ Jeśli używasz prawidłowego konta powiązanego z Twoim wpisem firmowym, powini
 
 ### 3. Wybierz firmę, którą chcesz zaktualizować.
 
-Jeśli masz wiele firm, powinieneś zobaczyć wszystkie swoje firmy. Wybierz firmę, którą chcesz zaktualizować lub zarządzać w tej chwili. W naszym przykładzie chcemy zarządzać Seasalt AI.
+Jeśli masz wiele firm, powinieneś zobaczyć wszystkie swoje firmy. Wybierz firmę, którą chcesz zaktualizować lub zarządzać w tej chwili. W naszym przykładzie chcemy zarządzać Seasalt.ai.
 
 
 <center>

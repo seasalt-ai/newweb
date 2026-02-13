@@ -342,7 +342,7 @@ Untuk bermula dengan Near Me Messaging, ikuti panduan langkah demi langkah ini t
 
 ### Langkah 1. Lawati laman web Near Me Messaging dan log masuk dengan akaun yang anda gunakan untuk Google Business Profile.
 
-Pergi ke laman web Near Me Messaging dan klik butang *“Log masuk”*. Setelah anda log masuk dengan akaun yang anda gunakan untuk Google Business Profile, pastikan anda menyemak semua kotak yang tersedia dan memberikan kebenaran kepada Seasalt AI untuk melancarkan ejen maya anda. Seasalt.ai adalah [Rakan Kongsi Google rasmi](https://developers.google.com/business-communications/business-messages/partners), jadi anda boleh yakin bahawa kami akan menggunakan kebenaran ini secara bertanggungjawab. **Kami menggunakan kebenaran ini untuk dua fungsi: pertama, untuk mengakses maklumat dari Google Business Profile anda supaya ejen maya anda dapat memberikan respons yang tepat, dan kedua supaya kami dapat melancarkan ejen ke halaman Google Maps Perniagaan anda bagi pihak anda.** 
+Pergi ke laman web Near Me Messaging dan klik butang *“Log masuk”*. Setelah anda log masuk dengan akaun yang anda gunakan untuk Google Business Profile, pastikan anda menyemak semua kotak yang tersedia dan memberikan kebenaran kepada Seasalt.ai untuk melancarkan ejen maya anda. Seasalt.ai adalah [Rakan Kongsi Google rasmi](https://developers.google.com/business-communications/business-messages/partners), jadi anda boleh yakin bahawa kami akan menggunakan kebenaran ini secara bertanggungjawab. **Kami menggunakan kebenaran ini untuk dua fungsi: pertama, untuk mengakses maklumat dari Google Business Profile anda supaya ejen maya anda dapat memberikan respons yang tepat, dan kedua supaya kami dapat melancarkan ejen ke halaman Google Maps Perniagaan anda bagi pihak anda.** 
 
 Kami tidak akan sekali-kali menggunakan kebenaran ini untuk mengedit atau memadam profil perniagaan anda. Kami masih memerlukan anda untuk memberikan kebenaran kepada semua kerana Google tidak menyediakan kebenaran berasingan untuk *“lihat”*, *“edit”*, dan *“padam”*. Kami hanya akan menggunakan kebenaran *“lihat”*.
 
@@ -355,7 +355,7 @@ Kami tidak akan sekali-kali menggunakan kebenaran ini untuk mengedit atau memada
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Memberikan kebenaran kepada Seasalt AI memberi kami keupayaan untuk melancarkan ejen maya jenama anda secara terbuka ke halaman Google Maps anda bagi pihak anda.*
+*Memberikan kebenaran kepada Seasalt.ai memberi kami keupayaan untuk melancarkan ejen maya jenama anda secara terbuka ke halaman Google Maps anda bagi pihak anda.*
 </center>
 
 

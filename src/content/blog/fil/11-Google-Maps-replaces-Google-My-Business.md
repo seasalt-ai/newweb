@@ -123,7 +123,7 @@ Kung ginagamit mo ang tamang account na nauugnay sa iyong listahan ng negosyo, d
 
 ### 3. Piliin ang negosyo na nais mong i-update.
 
-Kung mayroon kang maraming negosyo, dapat mong makita ang lahat ng iyong negosyo. Piliin ang negosyo na nais mong i-update o pamahalaan sa kasalukuyan. Sa aming halimbawa, nais naming pamahalaan ang Seasalt AI.
+Kung mayroon kang maraming negosyo, dapat mong makita ang lahat ng iyong negosyo. Piliin ang negosyo na nais mong i-update o pamahalaan sa kasalukuyan. Sa aming halimbawa, nais naming pamahalaan ang Seasalt.ai.
 
 
 <center>

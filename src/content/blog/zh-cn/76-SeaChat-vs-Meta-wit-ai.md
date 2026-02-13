@@ -2,7 +2,7 @@
 title: SeaChat 与 Meta wit.ai：哪个 AI 聊天机器人平台更好？
 description: 比较 SeaChat 和 Meta wit.ai，选择最适合企业的 AI 聊天机器人解决方案。了解功能、优势及适用场景。
 publishDate: '2023-09-15'
-author: SeaSalt.ai 团队
+author: Seasalt.ai 团队
 image:
   url: /images/blog/76-seachat-vs-meta-wit-ai/cover.png
   alt: SeaChat 与 Meta wit.ai：哪个 AI 聊天机器人平台更好？

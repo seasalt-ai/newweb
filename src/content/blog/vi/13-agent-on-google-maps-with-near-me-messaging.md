@@ -30,7 +30,7 @@ Chúng tôi hiện đang tìm kiếm người thử nghiệm beta cho Tin nhắn
 
 ### Bước 1. Truy cập trang web Tin nhắn gần tôi (Cập nhật: Chúng tôi đã chuyển sản phẩm thành trình tạo chatbot đa kênh. Bây giờ được gọi là [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!).
 
-Truy cập trang web Tin nhắn gần tôi (Cập nhật: Chúng tôi đã chuyển sản phẩm thành trình tạo chatbot đa kênh. Bây giờ được gọi là [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) và nhấp vào nút *“Đăng nhập”*. Sau khi bạn đăng nhập bằng tài khoản bạn sử dụng cho Hồ sơ doanh nghiệp trên Google, hãy đảm bảo rằng bạn đã chọn tất cả các ô có sẵn và cấp quyền cho Seasalt AI để ra mắt đại lý ảo của bạn. Seasalt.ai là [Đối tác chính thức của Google](https://developers.google.com/business-communications/business-messages/partners), vì vậy bạn có thể yên tâm rằng chúng tôi sẽ sử dụng các quyền này một cách có trách nhiệm. **Chúng tôi đang sử dụng các quyền này cho hai chức năng: thứ nhất, để truy cập thông tin từ Hồ sơ doanh nghiệp trên Google của bạn để đại lý ảo của bạn có thể cung cấp phản hồi chính xác, và thứ hai để chúng tôi có thể ra mắt đại lý trên trang Google Maps của doanh nghiệp bạn thay mặt bạn.**
+Truy cập trang web Tin nhắn gần tôi (Cập nhật: Chúng tôi đã chuyển sản phẩm thành trình tạo chatbot đa kênh. Bây giờ được gọi là [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) và nhấp vào nút *“Đăng nhập”*. Sau khi bạn đăng nhập bằng tài khoản bạn sử dụng cho Hồ sơ doanh nghiệp trên Google, hãy đảm bảo rằng bạn đã chọn tất cả các ô có sẵn và cấp quyền cho Seasalt.ai để ra mắt đại lý ảo của bạn. Seasalt.ai là [Đối tác chính thức của Google](https://developers.google.com/business-communications/business-messages/partners), vì vậy bạn có thể yên tâm rằng chúng tôi sẽ sử dụng các quyền này một cách có trách nhiệm. **Chúng tôi đang sử dụng các quyền này cho hai chức năng: thứ nhất, để truy cập thông tin từ Hồ sơ doanh nghiệp trên Google của bạn để đại lý ảo của bạn có thể cung cấp phản hồi chính xác, và thứ hai để chúng tôi có thể ra mắt đại lý trên trang Google Maps của doanh nghiệp bạn thay mặt bạn.**
 
 Chúng tôi sẽ không bao giờ sử dụng các quyền này để chỉnh sửa hoặc xóa hồ sơ doanh nghiệp của bạn. Chúng tôi vẫn cần bạn cấp quyền cho tất cả chúng vì Google không cung cấp các quyền riêng biệt cho *“xem”*, *“chỉnh sửa”* và *“xóa”*. Chúng tôi sẽ chỉ sử dụng quyền *“xem”*.
 
@@ -43,7 +43,7 @@ Chúng tôi sẽ không bao giờ sử dụng các quyền này để chỉnh s�
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Cấp quyền cho Seasalt AI cho phép chúng tôi công khai ra mắt đại lý ảo của thương hiệu bạn trên trang Google Maps của bạn thay mặt bạn.*
+*Cấp quyền cho Seasalt.ai cho phép chúng tôi công khai ra mắt đại lý ảo của thương hiệu bạn trên trang Google Maps của bạn thay mặt bạn.*
 </center>
 
 

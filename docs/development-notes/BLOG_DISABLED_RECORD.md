@@ -59,7 +59,7 @@ const blogCollection = defineCollection({
     description: z.string(),
     publishDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    author: z.string().default('SeaSalt.ai Team'),
+    author: z.string().default('Seasalt.ai Team'),
     image: z.object({
       url: z.string(),
       alt: z.string(),

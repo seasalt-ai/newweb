@@ -89,7 +89,7 @@ export interface OrganizationInfo {
 
 export const ORGANIZATION_INFO: OrganizationInfo = {
   name: 'Seasalt.ai',
-  alternateName: 'Seasalt AI',
+  alternateName: 'Seasalt.ai',
   url: 'https://seasalt.ai',
   description: 'Leading AI conversation intelligence platform offering omnichannel customer communication solutions for businesses of all sizes.',
   industry: 'Software Development',
@@ -309,6 +309,33 @@ export function getLocalizedOrganizationDescription(language: string): string {
   return LOCALIZED_ORGANIZATION_DESCRIPTIONS[language] || LOCALIZED_ORGANIZATION_DESCRIPTIONS['en'];
 }
 
+export const LOCALIZED_MOBILE_APP_DESCRIPTIONS: Record<string, string> = {
+  'en': 'AI-powered customer engagement platform for automated support, voice agents, and omnichannel communication',
+  'zh-TW': 'AI 驅動的客戶互動平台，提供自動化支援、語音機器人和全通路溝通功能',
+  'zh-CN': 'AI 驱动的客户互动平台，提供自动化支持、语音机器人和全渠道沟通功能',
+  'es': 'Plataforma de compromiso con el cliente impulsada por IA para soporte automatizado, agentes de voz y comunicación omnicanal',
+  'fr': 'Plateforme d\'engagement client alimentée par l\'IA pour le support automatisé, les agents vocaux et la communication omnicanale',
+  'de': 'KI-gestützte Kundenbindungsplattform für automatisierten Support, Sprachagenten und Omnichannel-Kommunikation',
+  'ja': '自動化サポート、音声エージェント、オムニチャネルコミュニケーションのためのAI搭載顧客エンゲージメントプラットフォーム',
+  'ko': '자동화된 지원, 음성 에이전트 및 옴니채널 커뮤니케이션을 위한 AI 기반 고객 참여 플랫폼',
+  'ar': 'منصة تفاعل العملاء المدعومة بالذكاء الاصطناعي للدعم الآلي ووكلاء الصوت والتواصل متعدد القنوات',
+  'fa': 'پلتفرم تعامل مشتری مبتنی بر هوش مصنوعی برای پشتیبانی خودکار، عوامل صوتی و ارتباطات چندکاناله',
+  'fil': 'AI-powered na customer engagement platform para sa automated support, voice agents, at omnichannel communication',
+  'hi': 'स्वचालित समर्थन, वॉयस एजेंट और ओमनीचैनल संचार के लिए AI-संचालित ग्राहक एंगेजमेंट प्लेटफॉर्म',
+  'id': 'Platform keterlibatan pelanggan berbasis AI untuk dukungan otomatis, agen suara, dan komunikasi omnichannel',
+  'ms': 'Platform penglibatan pelanggan berkuasa AI untuk sokongan automatik, ejen suara, dan komunikasi omnichannel',
+  'pl': 'Platforma zaangażowania klienta oparta na AI do zautomatyzowanego wsparcia, agentów głosowych i komunikacji omnichannel',
+  'pt': 'Plataforma de engajamento do cliente alimentada por IA para suporte automatizado, agentes de voz e comunicação omnichannel',
+  'ru': 'Платформа вовлечения клиентов на основе ИИ для автоматизированной поддержки, голосовых агентов и омниканальной коммуникации',
+  'ta': 'தானியங்கு ஆதரவு, குரல் முகவர்கள் மற்றும் பல்வேறு சேனல் தகவல்தொடர்புக்கான AI-இயங்கும் வாடிக்கையாளர் ஈடுபாடு தளம்',
+  'th': 'แพลตฟอร์มการมีส่วนร่วมของลูกค้าที่ขับเคลื่อนด้วย AI สำหรับการสนับสนุนอัตโนมัติ เอเจนต์เสียง และการสื่อสารแบบหลายช่องทาง',
+  'vi': 'Nền tảng tương tác khách hàng được hỗ trợ bởi AI để hỗ trợ tự động, đại lý giọng nói và giao tiếp đa kênh'
+};
+
+export function getLocalizedMobileAppDescription(language: string): string {
+  return LOCALIZED_MOBILE_APP_DESCRIPTIONS[language] || LOCALIZED_MOBILE_APP_DESCRIPTIONS['en'];
+}
+
 // =============================================================================
 // Localized Service Schemas
 // =============================================================================
@@ -317,7 +344,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
   seachat: {
     'en': {
       name: 'SeaChat',
-      description: 'SeaChat: AI-powered chat automation and agent-assist platform by Seasalt AI, enabling multilingual, live-agent-transfer, webchat, SMS, WhatsApp, and CRM integrations for 24/7 conversational support.',
+      description: 'SeaChat: AI-powered chat automation and agent-assist platform by Seasalt.ai, enabling multilingual, live-agent-transfer, webchat, SMS, WhatsApp, and CRM integrations for 24/7 conversational support.',
       keywords: 'AI chatbot, live agent transfer, multilingual, webchat, SMS, WhatsApp, CRM integration',
       featureList: [
         'No-code setup in 10 minutes',
@@ -329,7 +356,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'zh-TW': {
       name: 'SeaChat',
-      description: 'SeaChat：Seasalt AI 推出的 AI 聊天自動化和客服輔助平台，支援多語言、真人客服轉接、網頁聊天、簡訊、WhatsApp 和 CRM 整合，提供 24/7 對話支援。',
+      description: 'SeaChat：Seasalt.ai 推出的 AI 聊天自動化和客服輔助平台，支援多語言、真人客服轉接、網頁聊天、簡訊、WhatsApp 和 CRM 整合，提供 24/7 對話支援。',
       keywords: 'AI 聊天機器人, 真人客服轉接, 多語言, 網頁聊天, 簡訊, WhatsApp, CRM 整合',
       featureList: [
         '10 分鐘免程式設定',
@@ -341,7 +368,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'zh-CN': {
       name: 'SeaChat',
-      description: 'SeaChat：Seasalt AI 推出的 AI 聊天自动化和客服辅助平台，支持多语言、真人客服转接、网页聊天、短信、WhatsApp 和 CRM 整合，提供 24/7 对话支持。',
+      description: 'SeaChat：Seasalt.ai 推出的 AI 聊天自动化和客服辅助平台，支持多语言、真人客服转接、网页聊天、短信、WhatsApp 和 CRM 整合，提供 24/7 对话支持。',
       keywords: 'AI 聊天机器人, 真人客服转接, 多语言, 网页聊天, 短信, WhatsApp, CRM 整合',
       featureList: [
         '10 分钟免程序设定',
@@ -353,7 +380,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'es': {
       name: 'SeaChat',
-      description: 'SeaChat: Plataforma de automatización de chat con IA y asistencia de agentes de Seasalt AI, que permite soporte conversacional 24/7 con capacidades multilingües, transferencia a agentes en vivo, webchat, SMS, WhatsApp e integraciones CRM.',
+      description: 'SeaChat: Plataforma de automatización de chat con IA y asistencia de agentes de Seasalt.ai, que permite soporte conversacional 24/7 con capacidades multilingües, transferencia a agentes en vivo, webchat, SMS, WhatsApp e integraciones CRM.',
       keywords: 'chatbot IA, transferencia agente en vivo, multilingüe, webchat, SMS, WhatsApp, integración CRM',
       featureList: [
         'Configuración sin código en 10 minutos',
@@ -365,7 +392,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'fr': {
       name: 'SeaChat',
-      description: 'SeaChat : Plateforme d\'automatisation de chat IA et d\'assistance d\'agents par Seasalt AI, permettant un support conversationnel 24/7 avec capacités multilingues, transfert d\'agent en direct, webchat, SMS, WhatsApp et intégrations CRM.',
+      description: 'SeaChat : Plateforme d\'automatisation de chat IA et d\'assistance d\'agents par Seasalt.ai, permettant un support conversationnel 24/7 avec capacités multilingues, transfert d\'agent en direct, webchat, SMS, WhatsApp et intégrations CRM.',
       keywords: 'chatbot IA, transfert agent direct, multilingue, webchat, SMS, WhatsApp, intégration CRM',
       featureList: [
         'Configuration sans code en 10 minutes',
@@ -377,7 +404,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'de': {
       name: 'SeaChat',
-      description: 'SeaChat: KI-gestützte Chat-Automatisierung und Agent-Assistenz-Plattform von Seasalt AI, die mehrsprachigen 24/7-Konversationssupport mit Live-Agent-Transfer, Webchat, SMS, WhatsApp und CRM-Integrationen ermöglicht.',
+      description: 'SeaChat: KI-gestützte Chat-Automatisierung und Agent-Assistenz-Plattform von Seasalt.ai, die mehrsprachigen 24/7-Konversationssupport mit Live-Agent-Transfer, Webchat, SMS, WhatsApp und CRM-Integrationen ermöglicht.',
       keywords: 'KI-Chatbot, Live-Agent-Transfer, mehrsprachig, Webchat, SMS, WhatsApp, CRM-Integration',
       featureList: [
         'No-Code-Setup in 10 Minuten',
@@ -389,7 +416,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ja': {
       name: 'SeaChat',
-      description: 'SeaChat：Seasalt AIによるAI搭載チャット自動化とエージェント支援プラットフォーム。多言語、ライブエージェント転送、ウェブチャット、SMS、WhatsApp、CRM統合により24/7会話サポートを提供。',
+      description: 'SeaChat：Seasalt.aiによるAI搭載チャット自動化とエージェント支援プラットフォーム。多言語、ライブエージェント転送、ウェブチャット、SMS、WhatsApp、CRM統合により24/7会話サポートを提供。',
       keywords: 'AIチャットボット, ライブエージェント転送, 多言語, ウェブチャット, SMS, WhatsApp, CRM統合',
       featureList: [
         '10分でノーコードセットアップ',
@@ -401,7 +428,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ko': {
       name: 'SeaChat',
-      description: 'SeaChat: Seasalt AI의 AI 기반 채팅 자동화 및 상담원 지원 플랫폼으로, 다국어, 실시간 상담원 연결, 웹채팅, SMS, WhatsApp, CRM 통합을 통해 24/7 대화 지원을 제공합니다.',
+      description: 'SeaChat: Seasalt.ai의 AI 기반 채팅 자동화 및 상담원 지원 플랫폼으로, 다국어, 실시간 상담원 연결, 웹채팅, SMS, WhatsApp, CRM 통합을 통해 24/7 대화 지원을 제공합니다.',
       keywords: 'AI 챗봇, 실시간 상담원 연결, 다국어, 웹채팅, SMS, WhatsApp, CRM 통합',
       featureList: [
         '10분 내 노코드 설정',
@@ -413,7 +440,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ar': {
       name: 'SeaChat',
-      description: 'SeaChat: منصة أتمتة الدردشة ومساعدة الوكلاء المدعومة بالذكاء الاصطناعي من Seasalt AI، تمكن الدعم التحادثي متعدد اللغات على مدار الساعة مع نقل الوكيل المباشر وتكامل الويب والرسائل النصية وWhatsApp وCRM.',
+      description: 'SeaChat: منصة أتمتة الدردشة ومساعدة الوكلاء المدعومة بالذكاء الاصطناعي من Seasalt.ai، تمكن الدعم التحادثي متعدد اللغات على مدار الساعة مع نقل الوكيل المباشر وتكامل الويب والرسائل النصية وWhatsApp وCRM.',
       keywords: 'روبوت دردشة بالذكاء الاصطناعي, نقل وكيل مباشر, متعدد اللغات, دردشة ويب, رسائل نصية, واتساب, تكامل CRM',
       featureList: [
         'إعداد بلا كود في 10 دقائق',
@@ -425,7 +452,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'fa': {
       name: 'SeaChat',
-      description: 'SeaChat: پلتفرم اتوماسیون چت و کمک عامل مبتنی بر هوش مصنوعی توسط Seasalt AI، پشتیبانی مکالمه‌ای 24/7 چندزبانه با انتقال عامل زنده، وب‌چت، پیامک، واتساپ و ادغام CRM را فراهم می‌کند.',
+      description: 'SeaChat: پلتفرم اتوماسیون چت و کمک عامل مبتنی بر هوش مصنوعی توسط Seasalt.ai، پشتیبانی مکالمه‌ای 24/7 چندزبانه با انتقال عامل زنده، وب‌چت، پیامک، واتساپ و ادغام CRM را فراهم می‌کند.',
       keywords: 'چت‌بات هوش مصنوعی, انتقال عامل زنده, چندزبانه, وب‌چت, پیامک, واتساپ, ادغام CRM',
       featureList: [
         'راه‌اندازی بدون کد در 10 دقیقه',
@@ -437,7 +464,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'fil': {
       name: 'SeaChat',
-      description: 'SeaChat: AI-powered na chat automation at agent-assist platform ng Seasalt AI, nagbibigay ng 24/7 conversational support na multilingual, may live-agent-transfer, webchat, SMS, WhatsApp, at CRM integrations.',
+      description: 'SeaChat: AI-powered na chat automation at agent-assist platform ng Seasalt.ai, nagbibigay ng 24/7 conversational support na multilingual, may live-agent-transfer, webchat, SMS, WhatsApp, at CRM integrations.',
       keywords: 'AI chatbot, live agent transfer, multilingual, webchat, SMS, WhatsApp, CRM integration',
       featureList: [
         'No-code setup sa loob ng 10 minuto',
@@ -449,7 +476,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'hi': {
       name: 'SeaChat',
-      description: 'SeaChat: Seasalt AI का AI-संचालित चैट स्वचालन और एजेंट-सहायक प्लेटफॉर्म, जो बहुभाषी, लाइव-एजेंट-ट्रांसफर, वेबचैट, SMS, WhatsApp, और CRM एकीकरण के साथ 24/7 वार्तालाप समर्थन प्रदान करता है।',
+      description: 'SeaChat: Seasalt.ai का AI-संचालित चैट स्वचालन और एजेंट-सहायक प्लेटफॉर्म, जो बहुभाषी, लाइव-एजेंट-ट्रांसफर, वेबचैट, SMS, WhatsApp, और CRM एकीकरण के साथ 24/7 वार्तालाप समर्थन प्रदान करता है।',
       keywords: 'AI चैटबॉट, लाइव एजेंट ट्रांसफर, बहुभाषी, वेबचैट, SMS, WhatsApp, CRM एकीकरण',
       featureList: [
         '10 मिनट में नो-कोड सेटअप',
@@ -461,7 +488,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'id': {
       name: 'SeaChat',
-      description: 'SeaChat: Platform otomatisasi chat dan bantuan agen bertenaga AI oleh Seasalt AI, memberikan dukungan percakapan 24/7 multibahasa dengan transfer agen langsung, webchat, SMS, WhatsApp, dan integrasi CRM.',
+      description: 'SeaChat: Platform otomatisasi chat dan bantuan agen bertenaga AI oleh Seasalt.ai, memberikan dukungan percakapan 24/7 multibahasa dengan transfer agen langsung, webchat, SMS, WhatsApp, dan integrasi CRM.',
       keywords: 'chatbot AI, transfer agen langsung, multibahasa, webchat, SMS, WhatsApp, integrasi CRM',
       featureList: [
         'Setup tanpa kode dalam 10 menit',
@@ -473,7 +500,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ms': {
       name: 'SeaChat',
-      description: 'SeaChat: Platform automasi sembang dan bantuan ejen berkuasa AI oleh Seasalt AI, membolehkan sokongan perbualan 24/7 berbilang bahasa dengan pemindahan ejen langsung, webchat, SMS, WhatsApp, dan integrasi CRM.',
+      description: 'SeaChat: Platform automasi sembang dan bantuan ejen berkuasa AI oleh Seasalt.ai, membolehkan sokongan perbualan 24/7 berbilang bahasa dengan pemindahan ejen langsung, webchat, SMS, WhatsApp, dan integrasi CRM.',
       keywords: 'chatbot AI, pemindahan ejen langsung, berbilang bahasa, webchat, SMS, WhatsApp, integrasi CRM',
       featureList: [
         'Persediaan tanpa kod dalam 10 minit',
@@ -485,7 +512,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'pl': {
       name: 'SeaChat',
-      description: 'SeaChat: Platforma automatyzacji czatu i wsparcia agentów oparta na AI od Seasalt AI, umożliwiająca wielojęzyczne wsparcie konwersacyjne 24/7 z transferem do żywego agenta, webchat, SMS, WhatsApp i integracjami CRM.',
+      description: 'SeaChat: Platforma automatyzacji czatu i wsparcia agentów oparta na AI od Seasalt.ai, umożliwiająca wielojęzyczne wsparcie konwersacyjne 24/7 z transferem do żywego agenta, webchat, SMS, WhatsApp i integracjami CRM.',
       keywords: 'chatbot AI, transfer do żywego agenta, wielojęzyczny, webchat, SMS, WhatsApp, integracja CRM',
       featureList: [
         'Konfiguracja bez kodu w 10 minut',
@@ -497,7 +524,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'pt': {
       name: 'SeaChat',
-      description: 'SeaChat: Plataforma de automação de chat e assistência de agentes com IA da Seasalt AI, permitindo suporte conversacional multilíngue 24/7 com transferência de agente ao vivo, webchat, SMS, WhatsApp e integrações CRM.',
+      description: 'SeaChat: Plataforma de automação de chat e assistência de agentes com IA da Seasalt.ai, permitindo suporte conversacional multilíngue 24/7 com transferência de agente ao vivo, webchat, SMS, WhatsApp e integrações CRM.',
       keywords: 'chatbot IA, transferência agente ao vivo, multilíngue, webchat, SMS, WhatsApp, integração CRM',
       featureList: [
         'Configuração sem código em 10 minutos',
@@ -509,7 +536,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ru': {
       name: 'SeaChat',
-      description: 'SeaChat: Платформа автоматизации чата и помощи агентов на основе ИИ от Seasalt AI, обеспечивающая многоязычную разговорную поддержку 24/7 с переводом на живого агента, веб-чат, SMS, WhatsApp и интеграциями CRM.',
+      description: 'SeaChat: Платформа автоматизации чата и помощи агентов на основе ИИ от Seasalt.ai, обеспечивающая многоязычную разговорную поддержку 24/7 с переводом на живого агента, веб-чат, SMS, WhatsApp и интеграциями CRM.',
       keywords: 'ИИ чатбот, перевод живого агента, многоязычный, веб-чат, SMS, WhatsApp, интеграция CRM',
       featureList: [
         'Настройка без кода за 10 минут',
@@ -521,7 +548,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ta': {
       name: 'SeaChat',
-      description: 'SeaChat: Seasalt AI இன் AI-இயங்கும் அரட்டை தானியங்கு மற்றும் முகவர்-உதவி தளம், பலமொழி, நேரடி-முகவர்-மாற்றம், வலைஅரட்டை, SMS, WhatsApp, மற்றும் CRM ஒருங்கிணைப்புகளுடன் 24/7 உரையாடல் ஆதரவை வழங்குகிறது.',
+      description: 'SeaChat: Seasalt.ai இன் AI-இயங்கும் அரட்டை தானியங்கு மற்றும் முகவர்-உதவி தளம், பலமொழி, நேரடி-முகவர்-மாற்றம், வலைஅரட்டை, SMS, WhatsApp, மற்றும் CRM ஒருங்கிணைப்புகளுடன் 24/7 உரையாடல் ஆதரவை வழங்குகிறது.',
       keywords: 'AI அரட்டைபோட், நேரடி முகவர் மாற்றம், பலமொழி, வலைஅரட்டை, SMS, WhatsApp, CRM ஒருங்கிணைப்பு',
       featureList: [
         '10 நிமிடங்களில் கோட் இல்லாத அமைப்பு',
@@ -533,7 +560,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'th': {
       name: 'SeaChat',
-      description: 'SeaChat: แพลตฟอร์มการทำงานอัตโนมัติของแชทและช่วยเหลือเอเจนต์ที่ขับเคลื่อนด้วย AI จาก Seasalt AI ให้การสนับสนุนการสนทนาแบบหลายภาษา 24/7 พร้อมการโอนเอเจนต์สด เว็บแชท SMS WhatsApp และการรวม CRM',
+      description: 'SeaChat: แพลตฟอร์มการทำงานอัตโนมัติของแชทและช่วยเหลือเอเจนต์ที่ขับเคลื่อนด้วย AI จาก Seasalt.ai ให้การสนับสนุนการสนทนาแบบหลายภาษา 24/7 พร้อมการโอนเอเจนต์สด เว็บแชท SMS WhatsApp และการรวม CRM',
       keywords: 'แชทบอท AI, การโอนเอเจนต์สด, หลายภาษา, เว็บแชท, SMS, WhatsApp, การรวม CRM',
       featureList: [
         'ตั้งค่าแบบไม่ต้องเขียนโค้ดใน 10 นาที',
@@ -545,7 +572,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'vi': {
       name: 'SeaChat',
-      description: 'SeaChat: Nền tảng tự động hóa chat và hỗ trợ đại lý được hỗ trợ bởi AI của Seasalt AI, cho phép hỗ trợ đối thoại đa ngôn ngữ 24/7 với chuyển đại lý trực tiếp, webchat, SMS, WhatsApp và tích hợp CRM.',
+      description: 'SeaChat: Nền tảng tự động hóa chat và hỗ trợ đại lý được hỗ trợ bởi AI của Seasalt.ai, cho phép hỗ trợ đối thoại đa ngôn ngữ 24/7 với chuyển đại lý trực tiếp, webchat, SMS, WhatsApp và tích hợp CRM.',
       keywords: 'chatbot AI, chuyển đại lý trực tiếp, đa ngôn ngữ, webchat, SMS, WhatsApp, tích hợp CRM',
       featureList: [
         'Thiết lập không cần mã trong 10 phút',
@@ -559,7 +586,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
   seax: {
     'en': {
       name: 'SeaX',
-      description: 'SeaX: Cloud communication platform for mass outreach by Seasalt AI, enabling businesses to send millions of SMS messages, make thousands of voice calls, and run WhatsApp campaigns at scale with AI automation and real-time analytics.',
+      description: 'SeaX: Cloud communication platform for mass outreach by Seasalt.ai, enabling businesses to send millions of SMS messages, make thousands of voice calls, and run WhatsApp campaigns at scale with AI automation and real-time analytics.',
       keywords: 'bulk SMS, mass communication, WhatsApp campaigns, voice calls, lead generation, marketing automation, omnichannel outreach',
       featureList: [
         'Send millions of SMS messages daily',
@@ -575,7 +602,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'zh-TW': {
       name: 'SeaX',
-      description: 'SeaX：Seasalt AI 大規模推廣雲端通訊平台，讓企業能夠發送數百萬條簡訊、撥打數千通語音電話，並透過 AI 自動化和即時分析大規模執行 WhatsApp 行銷活動。',
+      description: 'SeaX：Seasalt.ai 大規模推廣雲端通訊平台，讓企業能夠發送數百萬條簡訊、撥打數千通語音電話，並透過 AI 自動化和即時分析大規模執行 WhatsApp 行銷活動。',
       keywords: '大量簡訊, 大規模通訊, WhatsApp 行銷活動, 語音通話, 潛在客戶開發, 行銷自動化, 全通路推廣',
       featureList: [
         '每日發送數百萬條簡訊',
@@ -591,7 +618,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'zh-CN': {
       name: 'SeaX',
-      description: 'SeaX：Seasalt AI 大规模推广云端通讯平台，让企业能够发送数百万条短信、拨打数千通语音电话，并通过 AI 自动化和实时分析大规模执行 WhatsApp 营销活动。',
+      description: 'SeaX：Seasalt.ai 大规模推广云端通讯平台，让企业能够发送数百万条短信、拨打数千通语音电话，并通过 AI 自动化和实时分析大规模执行 WhatsApp 营销活动。',
       keywords: '大量短信, 大规模通讯, WhatsApp 营销活动, 语音通话, 潜在客户开发, 营销自动化, 全渠道推广',
       featureList: [
         '每日发送数百万条短信',
@@ -607,7 +634,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'es': {
       name: 'SeaX',
-      description: 'SeaX: Plataforma de comunicación en la nube para alcance masivo de Seasalt AI, que permite a las empresas enviar millones de mensajes SMS, realizar miles de llamadas de voz y ejecutar campañas de WhatsApp a escala con automatización IA y análisis en tiempo real.',
+      description: 'SeaX: Plataforma de comunicación en la nube para alcance masivo de Seasalt.ai, que permite a las empresas enviar millones de mensajes SMS, realizar miles de llamadas de voz y ejecutar campañas de WhatsApp a escala con automatización IA y análisis en tiempo real.',
       keywords: 'SMS masivo, comunicación masiva, campañas WhatsApp, llamadas de voz, generación de leads, automatización marketing, alcance omnicanal',
       featureList: [
         'Enviar millones de mensajes SMS diarios',
@@ -623,7 +650,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'fr': {
       name: 'SeaX',
-      description: 'SeaX : Plateforme de communication cloud pour diffusion massive par Seasalt AI, permettant aux entreprises d\'envoyer des millions de SMS, passer des milliers d\'appels vocaux et exécuter des campagnes WhatsApp à grande échelle avec automatisation IA et analyses en temps réel.',
+      description: 'SeaX : Plateforme de communication cloud pour diffusion massive par Seasalt.ai, permettant aux entreprises d\'envoyer des millions de SMS, passer des milliers d\'appels vocaux et exécuter des campagnes WhatsApp à grande échelle avec automatisation IA et analyses en temps réel.',
       keywords: 'SMS en masse, communication massive, campagnes WhatsApp, appels vocaux, génération leads, automatisation marketing, diffusion omnicanale',
       featureList: [
         'Envoyer des millions de SMS quotidiens',
@@ -639,7 +666,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'de': {
       name: 'SeaX',
-      description: 'SeaX: Cloud-Kommunikationsplattform für Massenkommunikation von Seasalt AI, die es Unternehmen ermöglicht, Millionen von SMS zu senden, Tausende von Sprachanrufen zu tätigen und WhatsApp-Kampagnen mit KI-Automatisierung und Echtzeit-Analysen zu skalieren.',
+      description: 'SeaX: Cloud-Kommunikationsplattform für Massenkommunikation von Seasalt.ai, die es Unternehmen ermöglicht, Millionen von SMS zu senden, Tausende von Sprachanrufen zu tätigen und WhatsApp-Kampagnen mit KI-Automatisierung und Echtzeit-Analysen zu skalieren.',
       keywords: 'Massen-SMS, Massenkommunikation, WhatsApp-Kampagnen, Sprachanrufe, Lead-Generierung, Marketing-Automatisierung, Omnichannel-Reichweite',
       featureList: [
         'Millionen von SMS täglich senden',
@@ -655,7 +682,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ja': {
       name: 'SeaX',
-      description: 'SeaX：Seasalt AIによる大規模アウトリーチ向けクラウドコミュニケーションプラットフォーム。企業が数百万のSMSメッセージ送信、数千の音声通話実行、WhatsAppキャンペーンをAI自動化とリアルタイム分析で大規模展開することを可能にします。',
+      description: 'SeaX：Seasalt.aiによる大規模アウトリーチ向けクラウドコミュニケーションプラットフォーム。企業が数百万のSMSメッセージ送信、数千の音声通話実行、WhatsAppキャンペーンをAI自動化とリアルタイム分析で大規模展開することを可能にします。',
       keywords: '一括SMS, 大規模コミュニケーション, WhatsAppキャンペーン, 音声通話, リード生成, マーケティング自動化, オムニチャネルアウトリーチ',
       featureList: [
         '毎日数百万のSMSメッセージを送信',
@@ -671,7 +698,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ko': {
       name: 'SeaX',
-      description: 'SeaX: Seasalt AI의 대규모 아웃리치를 위한 클라우드 커뮤니케이션 플랫폼으로, 기업이 수백만 개의 SMS 메시지 발송, 수천 번의 음성 통화 실행, AI 자동화와 실시간 분석을 통한 대규모 WhatsApp 캠페인을 가능하게 합니다.',
+      description: 'SeaX: Seasalt.ai의 대규모 아웃리치를 위한 클라우드 커뮤니케이션 플랫폼으로, 기업이 수백만 개의 SMS 메시지 발송, 수천 번의 음성 통화 실행, AI 자동화와 실시간 분석을 통한 대규모 WhatsApp 캠페인을 가능하게 합니다.',
       keywords: '대량 SMS, 대규모 커뮤니케이션, WhatsApp 캠페인, 음성 통화, 리드 생성, 마케팅 자동화, 옴니채널 아웃리치',
       featureList: [
         '매일 수백만 개의 SMS 메시지 발송',
@@ -687,7 +714,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ar': {
       name: 'SeaX',
-      description: 'SeaX: منصة اتصالات سحابية للوصول الجماعي من Seasalt AI، تمكن الشركات من إرسال ملايين رسائل SMS وإجراء آلاف المكالمات الصوتية وتشغيل حملات WhatsApp على نطاق واسع مع الأتمتة بالذكاء الاصطناعي والتحليلات في الوقت الفعلي.',
+      description: 'SeaX: منصة اتصالات سحابية للوصول الجماعي من Seasalt.ai، تمكن الشركات من إرسال ملايين رسائل SMS وإجراء آلاف المكالمات الصوتية وتشغيل حملات WhatsApp على نطاق واسع مع الأتمتة بالذكاء الاصطناعي والتحليلات في الوقت الفعلي.',
       keywords: 'رسائل SMS مجمعة, اتصالات جماعية, حملات واتساب, مكالمات صوتية, توليد العملاء المحتملين, أتمتة التسويق, الوصول متعدد القنوات',
       featureList: [
         'إرسال ملايين رسائل SMS يومياً',
@@ -703,7 +730,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'fa': {
       name: 'SeaX',
-      description: 'SeaX: پلتفرم ارتباطات ابری برای دسترسی انبوه توسط Seasalt AI، که شرکت‌ها را قادر می‌سازد میلیون‌ها پیام SMS ارسال کنند، هزاران تماس صوتی برقرار کنند و کمپین‌های واتساپ را در مقیاس وسیع با اتوماسیون هوش مصنوعی و تحلیل‌های بلادرنگ اجرا کنند.',
+      description: 'SeaX: پلتفرم ارتباطات ابری برای دسترسی انبوه توسط Seasalt.ai، که شرکت‌ها را قادر می‌سازد میلیون‌ها پیام SMS ارسال کنند، هزاران تماس صوتی برقرار کنند و کمپین‌های واتساپ را در مقیاس وسیع با اتوماسیون هوش مصنوعی و تحلیل‌های بلادرنگ اجرا کنند.',
       keywords: 'پیامک انبوه, ارتباطات انبوه, کمپین‌های واتساپ, تماس‌های صوتی, تولید مشتری بالقوه, اتوماسیون بازاریابی, دسترسی چندکاناله',
       featureList: [
         'ارسال میلیون‌ها پیام SMS روزانه',
@@ -719,7 +746,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'fil': {
       name: 'SeaX',
-      description: 'SeaX: Cloud communication platform para sa mass outreach ng Seasalt AI, nagbibigay-daan sa mga negosyo na magpadala ng milyun-milyong SMS messages, gumawa ng libu-libong voice calls, at magpatakbo ng WhatsApp campaigns sa malaking sukat gamit ang AI automation at real-time analytics.',
+      description: 'SeaX: Cloud communication platform para sa mass outreach ng Seasalt.ai, nagbibigay-daan sa mga negosyo na magpadala ng milyun-milyong SMS messages, gumawa ng libu-libong voice calls, at magpatakbo ng WhatsApp campaigns sa malaking sukat gamit ang AI automation at real-time analytics.',
       keywords: 'bulk SMS, mass communication, WhatsApp campaigns, voice calls, lead generation, marketing automation, omnichannel outreach',
       featureList: [
         'Magpadala ng milyun-milyong SMS messages araw-araw',
@@ -735,7 +762,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'hi': {
       name: 'SeaX',
-      description: 'SeaX: Seasalt AI का व्यापक पहुंच के लिए क्लाउड संचार प्लेटफॉर्म, जो व्यवसायों को लाखों SMS संदेश भेजने, हजारों आवाज कॉल करने और AI स्वचालन और वास्तविक समय विश्लेषण के साथ बड़े पैमाने पर WhatsApp अभियान चलाने में सक्षम बनाता है।',
+      description: 'SeaX: Seasalt.ai का व्यापक पहुंच के लिए क्लाउड संचार प्लेटफॉर्म, जो व्यवसायों को लाखों SMS संदेश भेजने, हजारों आवाज कॉल करने और AI स्वचालन और वास्तविक समय विश्लेषण के साथ बड़े पैमाने पर WhatsApp अभियान चलाने में सक्षम बनाता है।',
       keywords: 'बल्क SMS, व्यापक संचार, WhatsApp अभियान, आवाज कॉल, लीड जनरेशन, मार्केटिंग स्वचालन, ओमनीचैनल पहुंच',
       featureList: [
         'प्रतिदिन लाखों SMS संदेश भेजें',
@@ -751,7 +778,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'id': {
       name: 'SeaX',
-      description: 'SeaX: Platform komunikasi cloud untuk jangkauan massal oleh Seasalt AI, memungkinkan bisnis mengirim jutaan pesan SMS, melakukan ribuan panggilan suara, dan menjalankan kampanye WhatsApp dalam skala besar dengan otomatisasi AI dan analitik real-time.',
+      description: 'SeaX: Platform komunikasi cloud untuk jangkauan massal oleh Seasalt.ai, memungkinkan bisnis mengirim jutaan pesan SMS, melakukan ribuan panggilan suara, dan menjalankan kampanye WhatsApp dalam skala besar dengan otomatisasi AI dan analitik real-time.',
       keywords: 'SMS massal, komunikasi massal, kampanye WhatsApp, panggilan suara, generasi prospek, otomatisasi pemasaran, jangkauan omnichannel',
       featureList: [
         'Kirim jutaan pesan SMS harian',
@@ -767,7 +794,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ms': {
       name: 'SeaX',
-      description: 'SeaX: Platform komunikasi awan untuk jangkauan besar-besaran oleh Seasalt AI, membolehkan perniagaan menghantar berjuta-juta mesej SMS, membuat beribu-ribu panggilan suara, dan menjalankan kempen WhatsApp pada skala besar dengan automasi AI dan analitik masa nyata.',
+      description: 'SeaX: Platform komunikasi awan untuk jangkauan besar-besaran oleh Seasalt.ai, membolehkan perniagaan menghantar berjuta-juta mesej SMS, membuat beribu-ribu panggilan suara, dan menjalankan kempen WhatsApp pada skala besar dengan automasi AI dan analitik masa nyata.',
       keywords: 'SMS pukal, komunikasi besar-besaran, kempen WhatsApp, panggilan suara, penjanaan prospek, automasi pemasaran, jangkauan omnichannel',
       featureList: [
         'Hantar berjuta-juta mesej SMS harian',
@@ -783,7 +810,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'pl': {
       name: 'SeaX',
-      description: 'SeaX: Platforma komunikacji chmurowej do masowego zasięgu od Seasalt AI, umożliwiająca firmom wysyłanie milionów wiadomości SMS, wykonywanie tysięcy połączeń głosowych i prowadzenie kampanii WhatsApp na dużą skalę z automatyzacją AI i analizami w czasie rzeczywistym.',
+      description: 'SeaX: Platforma komunikacji chmurowej do masowego zasięgu od Seasalt.ai, umożliwiająca firmom wysyłanie milionów wiadomości SMS, wykonywanie tysięcy połączeń głosowych i prowadzenie kampanii WhatsApp na dużą skalę z automatyzacją AI i analizami w czasie rzeczywistym.',
       keywords: 'masowe SMS, komunikacja masowa, kampanie WhatsApp, połączenia głosowe, generowanie leadów, automatyzacja marketingu, zasięg omnichannel',
       featureList: [
         'Wysyłaj miliony wiadomości SMS dziennie',
@@ -799,7 +826,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'pt': {
       name: 'SeaX',
-      description: 'SeaX: Plataforma de comunicação em nuvem para alcance em massa da Seasalt AI, permitindo que empresas enviem milhões de mensagens SMS, façam milhares de chamadas de voz e executem campanhas do WhatsApp em grande escala com automação de IA e análises em tempo real.',
+      description: 'SeaX: Plataforma de comunicação em nuvem para alcance em massa da Seasalt.ai, permitindo que empresas enviem milhões de mensagens SMS, façam milhares de chamadas de voz e executem campanhas do WhatsApp em grande escala com automação de IA e análises em tempo real.',
       keywords: 'SMS em massa, comunicação em massa, campanhas WhatsApp, chamadas de voz, geração de leads, automação de marketing, alcance omnichannel',
       featureList: [
         'Enviar milhões de mensagens SMS diariamente',
@@ -815,7 +842,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ru': {
       name: 'SeaX',
-      description: 'SeaX: Облачная коммуникационная платформа для массового охвата от Seasalt AI, позволяющая предприятиям отправлять миллионы SMS-сообщений, совершать тысячи голосовых звонков и проводить кампании WhatsApp в большом масштабе с автоматизацией ИИ и аналитикой в реальном времени.',
+      description: 'SeaX: Облачная коммуникационная платформа для массового охвата от Seasalt.ai, позволяющая предприятиям отправлять миллионы SMS-сообщений, совершать тысячи голосовых звонков и проводить кампании WhatsApp в большом масштабе с автоматизацией ИИ и аналитикой в реальном времени.',
       keywords: 'массовые SMS, массовые коммуникации, кампании WhatsApp, голосовые звонки, генерация лидов, автоматизация маркетинга, омниканальный охват',
       featureList: [
         'Отправлять миллионы SMS-сообщений ежедневно',
@@ -831,7 +858,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ta': {
       name: 'SeaX',
-      description: 'SeaX: Seasalt AI இன் பெரிய அளவிலான வெளியீட்டுக்கான மேக தொடர்பு தளம், வணிகங்கள் கோடிக்கணக்கான SMS செய்திகளை அனுப்பவும், ஆயிரக்கணக்கான குரல் அழைப்புகளை மேற்கொள்ளவும், AI தானியங்கு மற்றும் நேரடி ஆய்வுகளுடன் பெரிய அளவில் WhatsApp பிரச்சாரங்களை இயக்கவும் உதவுகிறது.',
+      description: 'SeaX: Seasalt.ai இன் பெரிய அளவிலான வெளியீட்டுக்கான மேக தொடர்பு தளம், வணிகங்கள் கோடிக்கணக்கான SMS செய்திகளை அனுப்பவும், ஆயிரக்கணக்கான குரல் அழைப்புகளை மேற்கொள்ளவும், AI தானியங்கு மற்றும் நேரடி ஆய்வுகளுடன் பெரிய அளவில் WhatsApp பிரச்சாரங்களை இயக்கவும் உதவுகிறது.',
       keywords: 'மொத்த SMS, பெரிய அளவு தொடர்பு, WhatsApp பிரச்சாரங்கள், குரல் அழைப்புகள், வாய்ப்பு உருவாக்கம், சந்தைப்படுத்தல் தானியங்கு, பல்வேறு சேனல் வெளியீடு',
       featureList: [
         'தினமும் கோடிக்கணக்கான SMS செய்திகளை அனுப்பவும்',
@@ -847,7 +874,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'th': {
       name: 'SeaX',
-      description: 'SeaX: แพลตฟอร์มการสื่อสารบนคลาวด์สำหรับการเข้าถึงมวลชนจาก Seasalt AI ช่วยให้ธุรกิจส่งข้อความ SMS หลายล้านข้อความ โทรเสียงหลายพันสาย และดำเนินแคมเปญ WhatsApp ในระดับใหญ่ด้วยระบบอัตโนมัติ AI และการวิเคราะห์แบบเรียลไทม์',
+      description: 'SeaX: แพลตฟอร์มการสื่อสารบนคลาวด์สำหรับการเข้าถึงมวลชนจาก Seasalt.ai ช่วยให้ธุรกิจส่งข้อความ SMS หลายล้านข้อความ โทรเสียงหลายพันสาย และดำเนินแคมเปญ WhatsApp ในระดับใหญ่ด้วยระบบอัตโนมัติ AI และการวิเคราะห์แบบเรียลไทม์',
       keywords: 'SMS จำนวนมาก, การสื่อสารมวลชน, แคมเปญ WhatsApp, การโทรเสียง, การสร้างลูกค้าเป้าหมาย, ระบบอัตโนมัติการตลาด, การเข้าถึงแบบหลายช่องทาง',
       featureList: [
         'ส่งข้อความ SMS หลายล้านข้อความต่อวัน',
@@ -863,7 +890,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'vi': {
       name: 'SeaX',
-      description: 'SeaX: Nền tảng truyền thông đám mây cho tiếp cận hàng loạt của Seasalt AI, cho phép doanh nghiệp gửi hàng triệu tin nhắn SMS, thực hiện hàng nghìn cuộc gọi thoại và chạy các chiến dịch WhatsApp quy mô lớn với tự động hóa AI và phân tích thời gian thực.',
+      description: 'SeaX: Nền tảng truyền thông đám mây cho tiếp cận hàng loạt của Seasalt.ai, cho phép doanh nghiệp gửi hàng triệu tin nhắn SMS, thực hiện hàng nghìn cuộc gọi thoại và chạy các chiến dịch WhatsApp quy mô lớn với tự động hóa AI và phân tích thời gian thực.',
       keywords: 'SMS hàng loạt, truyền thông đại chúng, chiến dịch WhatsApp, cuộc gọi thoại, tạo khách hàng tiềm năng, tự động hóa marketing, tiếp cận đa kênh',
       featureList: [
         'Gửi hàng triệu tin nhắn SMS hàng ngày',
@@ -881,7 +908,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
   seavoice: {
     'en': {
       name: 'SeaVoice',
-      description: 'SeaVoice: AI-powered voice communication platform by Seasalt AI, enabling intelligent call routing, voice analytics, automated responses, and seamless integration with CRM systems for 24/7 voice support.',
+      description: 'SeaVoice: AI-powered voice communication platform by Seasalt.ai, enabling intelligent call routing, voice analytics, automated responses, and seamless integration with CRM systems for 24/7 voice support.',
       keywords: 'AI voice agents, call automation, voice analytics, intelligent routing, speech-to-text, text-to-speech, voice AI',
       featureList: [
         'AI voice agents',
@@ -897,7 +924,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'zh-TW': {
       name: 'SeaVoice',
-      description: 'SeaVoice：Seasalt AI 推出的 AI 語音通訊平台，提供智能通話路由、語音分析、自動回應，並與 CRM 系統無縫整合，提供 24/7 語音支援。',
+      description: 'SeaVoice：Seasalt.ai 推出的 AI 語音通訊平台，提供智能通話路由、語音分析、自動回應，並與 CRM 系統無縫整合，提供 24/7 語音支援。',
       keywords: 'AI 語音Agent, 通話自動化, 語音分析, 智能路由, 語音轉文字, 文字轉語音, 語音 AI',
       featureList: [
         'AI語音Agent',
@@ -913,7 +940,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'zh-CN': {
       name: 'SeaVoice',
-      description: 'SeaVoice：Seasalt AI 推出的 AI 语音通信平台，提供智能通话路由、语音分析、自动响应，并与 CRM 系统无缝整合，提供 24/7 语音支持。',
+      description: 'SeaVoice：Seasalt.ai 推出的 AI 语音通信平台，提供智能通话路由、语音分析、自动响应，并与 CRM 系统无缝整合，提供 24/7 语音支持。',
       keywords: 'AI 语音Agent, 通话自动化, 语音分析, 智能路由, 语音转文字, 文字转语音, 语音 AI',
       featureList: [
         'AI语音Agent',
@@ -929,7 +956,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'es': {
       name: 'SeaVoice',
-      description: 'SeaVoice: Plataforma de comunicación de voz impulsada por IA de Seasalt AI, que permite enrutamiento inteligente de llamadas, análisis de voz, respuestas automatizadas e integración perfecta con sistemas CRM para soporte de voz 24/7.',
+      description: 'SeaVoice: Plataforma de comunicación de voz impulsada por IA de Seasalt.ai, que permite enrutamiento inteligente de llamadas, análisis de voz, respuestas automatizadas e integración perfecta con sistemas CRM para soporte de voz 24/7.',
       keywords: 'agentes de voz IA, automatización de llamadas, análisis de voz, enrutamiento inteligente, voz a texto, texto a voz, IA de voz',
       featureList: [
         'Agentes de voz IA',
@@ -945,7 +972,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'fr': {
       name: 'SeaVoice',
-      description: 'SeaVoice : Plateforme de communication vocale alimentée par l\'IA de Seasalt AI, permettant le routage intelligent d\'appels, l\'analyse vocale, les réponses automatisées et l\'intégration transparente avec les systèmes CRM pour un support vocal 24/7.',
+      description: 'SeaVoice : Plateforme de communication vocale alimentée par l\'IA de Seasalt.ai, permettant le routage intelligent d\'appels, l\'analyse vocale, les réponses automatisées et l\'intégration transparente avec les systèmes CRM pour un support vocal 24/7.',
       keywords: 'agents vocaux IA, automatisation d\'appels, analyse vocale, routage intelligent, parole vers texte, texte vers parole, IA vocale',
       featureList: [
         'Agents vocaux IA',
@@ -961,7 +988,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'de': {
       name: 'SeaVoice',
-      description: 'SeaVoice: KI-gestützte Sprachkommunikationsplattform von Seasalt AI, die intelligentes Anrufrouting, Sprachanalyse, automatisierte Antworten und nahtlose Integration mit CRM-Systemen für 24/7-Sprachsupport ermöglicht.',
+      description: 'SeaVoice: KI-gestützte Sprachkommunikationsplattform von Seasalt.ai, die intelligentes Anrufrouting, Sprachanalyse, automatisierte Antworten und nahtlose Integration mit CRM-Systemen für 24/7-Sprachsupport ermöglicht.',
       keywords: 'KI-Sprachagenten, Anrufautomatisierung, Sprachanalyse, intelligentes Routing, Sprache zu Text, Text zu Sprache, Sprach-KI',
       featureList: [
         'KI-Sprachagenten',
@@ -977,7 +1004,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ja': {
       name: 'SeaVoice',
-      description: 'SeaVoice：Seasalt AIによるAI搭載音声通信プラットフォーム。インテリジェントコールルーティング、音声分析、自動応答、CRMシステムとのシームレス統合により24/7音声サポートを実現。',
+      description: 'SeaVoice：Seasalt.aiによるAI搭載音声通信プラットフォーム。インテリジェントコールルーティング、音声分析、自動応答、CRMシステムとのシームレス統合により24/7音声サポートを実現。',
       keywords: 'AI音声エージェント, 通話自動化, 音声分析, インテリジェントルーティング, 音声テキスト変換, テキスト音声変換, 音声AI',
       featureList: [
         'AI音声エージェント',
@@ -993,7 +1020,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ko': {
       name: 'SeaVoice',
-      description: 'SeaVoice: Seasalt AI의 AI 기반 음성 통신 플랫폼으로, 지능형 통화 라우팅, 음성 분석, 자동 응답 및 CRM 시스템과의 원활한 통합을 통해 24/7 음성 지원을 제공합니다.',
+      description: 'SeaVoice: Seasalt.ai의 AI 기반 음성 통신 플랫폼으로, 지능형 통화 라우팅, 음성 분석, 자동 응답 및 CRM 시스템과의 원활한 통합을 통해 24/7 음성 지원을 제공합니다.',
       keywords: 'AI 음성 에이전트, 통화 자동화, 음성 분석, 지능형 라우팅, 음성-텍스트 변환, 텍스트-음성 변환, 음성 AI',
       featureList: [
         'AI 음성 에이전트',
@@ -1009,7 +1036,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ar': {
       name: 'SeaVoice',
-      description: 'SeaVoice: منصة اتصالات صوتية مدعومة بالذكاء الاصطناعي من Seasalt AI، تتيح توجيه المكالمات الذكي، وتحليل الصوت، والاستجابات الآلية، والتكامل السلس مع أنظمة CRM لدعم صوتي على مدار الساعة طوال أيام الأسبوع.',
+      description: 'SeaVoice: منصة اتصالات صوتية مدعومة بالذكاء الاصطناعي من Seasalt.ai، تتيح توجيه المكالمات الذكي، وتحليل الصوت، والاستجابات الآلية، والتكامل السلس مع أنظمة CRM لدعم صوتي على مدار الساعة طوال أيام الأسبوع.',
       keywords: 'وكلاء صوتيون بالذكاء الاصطناعي، أتمتة المكالمات، تحليل الصوت، التوجيه الذكي، الكلام إلى نص، النص إلى كلام، ذكاء اصطناعي صوتي',
       featureList: [
         'وكلاء الصوت بالذكاء الاصطناعي',
@@ -1025,7 +1052,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'fa': {
       name: 'SeaVoice',
-      description: 'SeaVoice: پلتفرم ارتباطات صوتی مبتنی بر هوش مصنوعی توسط Seasalt AI که مسیریابی هوشمند تماس، تحلیل صوت، پاسخ‌های خودکار و ادغام یکپارچه با سیستم‌های CRM را برای پشتیبانی صوتی 24/7 فراهم می‌کند.',
+      description: 'SeaVoice: پلتفرم ارتباطات صوتی مبتنی بر هوش مصنوعی توسط Seasalt.ai که مسیریابی هوشمند تماس، تحلیل صوت، پاسخ‌های خودکار و ادغام یکپارچه با سیستم‌های CRM را برای پشتیبانی صوتی 24/7 فراهم می‌کند.',
       keywords: 'عوامل صوتی هوش مصنوعی، اتوماسیون تماس، تحلیل صوت، مسیریابی هوشمند، گفتار به متن، متن به گفتار، هوش مصنوعی صوتی',
       featureList: [
         'عوامل صوتی هوش مصنوعی',
@@ -1041,7 +1068,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'fil': {
       name: 'SeaVoice',
-      description: 'SeaVoice: AI-powered voice communication platform ng Seasalt AI na nagbibigay-daan sa intelligent call routing, voice analytics, automated responses, at seamless integration sa CRM systems para sa 24/7 voice support.',
+      description: 'SeaVoice: AI-powered voice communication platform ng Seasalt.ai na nagbibigay-daan sa intelligent call routing, voice analytics, automated responses, at seamless integration sa CRM systems para sa 24/7 voice support.',
       keywords: 'AI voice agents, call automation, voice analytics, intelligent routing, speech-to-text, text-to-speech, voice AI',
       featureList: [
         'AI voice agents',
@@ -1057,7 +1084,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'hi': {
       name: 'SeaVoice',
-      description: 'SeaVoice: Seasalt AI का AI-संचालित वॉयस कम्युनिकेशन प्लेटफॉर्म जो बुद्धिमान कॉल राउटिंग, वॉयस एनालिटिक्स, स्वचालित प्रतिक्रियाओं और CRM सिस्टम के साथ सहज एकीकरण के माध्यम से 24/7 वॉयस सपोर्ट प्रदान करता है।',
+      description: 'SeaVoice: Seasalt.ai का AI-संचालित वॉयस कम्युनिकेशन प्लेटफॉर्म जो बुद्धिमान कॉल राउटिंग, वॉयस एनालिटिक्स, स्वचालित प्रतिक्रियाओं और CRM सिस्टम के साथ सहज एकीकरण के माध्यम से 24/7 वॉयस सपोर्ट प्रदान करता है।',
       keywords: 'AI वॉयस एजेंट, कॉल ऑटोमेशन, वॉयस एनालिटिक्स, बुद्धिमान राउटिंग, भाषण-से-पाठ, पाठ-से-भाषण, वॉयस AI',
       featureList: [
         'AI वॉयस एजेंट',
@@ -1073,7 +1100,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'id': {
       name: 'SeaVoice',
-      description: 'SeaVoice: Platform komunikasi suara bertenaga AI oleh Seasalt AI yang memungkinkan routing panggilan cerdas, analitik suara, respons otomatis, dan integrasi mulus dengan sistem CRM untuk dukungan suara 24/7.',
+      description: 'SeaVoice: Platform komunikasi suara bertenaga AI oleh Seasalt.ai yang memungkinkan routing panggilan cerdas, analitik suara, respons otomatis, dan integrasi mulus dengan sistem CRM untuk dukungan suara 24/7.',
       keywords: 'agen suara AI, otomatisasi panggilan, analitik suara, routing cerdas, ucapan-ke-teks, teks-ke-ucapan, AI suara',
       featureList: [
         'Agen suara AI',
@@ -1089,7 +1116,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ms': {
       name: 'SeaVoice',
-      description: 'SeaVoice: Platform komunikasi suara berkuasa AI oleh Seasalt AI yang membolehkan penghalaan panggilan pintar, analitik suara, respons automatik, dan integrasi lancar dengan sistem CRM untuk sokongan suara 24/7.',
+      description: 'SeaVoice: Platform komunikasi suara berkuasa AI oleh Seasalt.ai yang membolehkan penghalaan panggilan pintar, analitik suara, respons automatik, dan integrasi lancar dengan sistem CRM untuk sokongan suara 24/7.',
       keywords: 'ejen suara AI, automasi panggilan, analitik suara, penghalaan pintar, pertuturan-ke-teks, teks-ke-pertuturan, AI suara',
       featureList: [
         'Ejen suara AI',
@@ -1105,7 +1132,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'pl': {
       name: 'SeaVoice',
-      description: 'SeaVoice: Platforma komunikacji głosowej napędzana przez AI od Seasalt AI, umożliwiająca inteligentne routowanie połączeń, analizę głosu, automatyczne odpowiedzi i bezproblemową integrację z systemami CRM dla całodobowego wsparcia głosowego.',
+      description: 'SeaVoice: Platforma komunikacji głosowej napędzana przez AI od Seasalt.ai, umożliwiająca inteligentne routowanie połączeń, analizę głosu, automatyczne odpowiedzi i bezproblemową integrację z systemami CRM dla całodobowego wsparcia głosowego.',
       keywords: 'agenci głosowi AI, automatyzacja połączeń, analiza głosu, inteligentne routowanie, mowa na tekst, tekst na mowę, AI głosowe',
       featureList: [
         'Agenci głosowi AI',
@@ -1121,7 +1148,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'pt': {
       name: 'SeaVoice',
-      description: 'SeaVoice: Plataforma de comunicação de voz alimentada por IA da Seasalt AI que permite roteamento inteligente de chamadas, análise de voz, respostas automatizadas e integração perfeita com sistemas CRM para suporte de voz 24/7.',
+      description: 'SeaVoice: Plataforma de comunicação de voz alimentada por IA da Seasalt.ai que permite roteamento inteligente de chamadas, análise de voz, respostas automatizadas e integração perfeita com sistemas CRM para suporte de voz 24/7.',
       keywords: 'agentes de voz IA, automação de chamadas, análise de voz, roteamento inteligente, fala-para-texto, texto-para-fala, IA de voz',
       featureList: [
         'Agentes de voz IA',
@@ -1137,7 +1164,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ru': {
       name: 'SeaVoice',
-      description: 'SeaVoice: Платформа голосовой связи на основе ИИ от Seasalt AI, обеспечивающая интеллектуальную маршрутизацию звонков, анализ голоса, автоматизированные ответы и бесшовную интеграцию с системами CRM для круглосуточной голосовой поддержки.',
+      description: 'SeaVoice: Платформа голосовой связи на основе ИИ от Seasalt.ai, обеспечивающая интеллектуальную маршрутизацию звонков, анализ голоса, автоматизированные ответы и бесшовную интеграцию с системами CRM для круглосуточной голосовой поддержки.',
       keywords: 'голосовые агенты ИИ, автоматизация звонков, анализ голоса, интеллектуальная маршрутизация, речь в текст, текст в речь, голосовой ИИ',
       featureList: [
         'Голосовые агенты ИИ',
@@ -1153,7 +1180,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'ta': {
       name: 'SeaVoice',
-      description: 'SeaVoice: Seasalt AI இன் AI-இயங்கும் குரல் தொடர்பு தளம் புத்திசாலித்தனமான அழைப்பு வழிகாட்டல், குரல் பகுப்பாய்வு, தானியங்கு பதில்கள் மற்றும் 24/7 குரல் ஆதரவுக்கான CRM அமைப்புகளுடன் தடையில்லா ஒருங்கிணைப்பை செயல்படுத்துகிறது.',
+      description: 'SeaVoice: Seasalt.ai இன் AI-இயங்கும் குரல் தொடர்பு தளம் புத்திசாலித்தனமான அழைப்பு வழிகாட்டல், குரல் பகுப்பாய்வு, தானியங்கு பதில்கள் மற்றும் 24/7 குரல் ஆதரவுக்கான CRM அமைப்புகளுடன் தடையில்லா ஒருங்கிணைப்பை செயல்படுத்துகிறது.',
       keywords: 'AI குரல் முகவர்கள், அழைப்பு தானியங்கு, குரல் பகுப்பாய்வு, புத்திசாலித்தனமான வழிகாட்டல், பேச்சு-செய்-உரை, உரை-செய்-பேச்சு, குரல் AI',
       featureList: [
         'AI குரல் முகவர்கள்',
@@ -1169,7 +1196,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'th': {
       name: 'SeaVoice',
-      description: 'SeaVoice: แพลตฟอร์มการสื่อสารด้วยเสียงที่ขับเคลื่อนด้วย AI จาก Seasalt AI ที่ช่วยในการกำหนดเส้นทางการโทรอัจฉริยะ, การวิเคราะห์เสียง, การตอบสนองอัตโนมัติ และการผสานรวมกับระบบ CRM อย่างไร้รอยต่อสำหรับการสนับสนุนด้วยเสียง 24/7',
+      description: 'SeaVoice: แพลตฟอร์มการสื่อสารด้วยเสียงที่ขับเคลื่อนด้วย AI จาก Seasalt.ai ที่ช่วยในการกำหนดเส้นทางการโทรอัจฉริยะ, การวิเคราะห์เสียง, การตอบสนองอัตโนมัติ และการผสานรวมกับระบบ CRM อย่างไร้รอยต่อสำหรับการสนับสนุนด้วยเสียง 24/7',
       keywords: 'เอเจนต์เสียง AI, การทำให้การโทรเป็นอัตโนมัติ, การวิเคราะห์เสียง, การกำหนดเส้นทางอัจฉริยะ, การแปลงเสียงเป็นข้อความ, การแปลงข้อความเป็นเสียง, AI เสียง',
       featureList: [
         'เอเจนต์เสียง AI',
@@ -1185,7 +1212,7 @@ export const LOCALIZED_SERVICE_SCHEMAS = {
     },
     'vi': {
       name: 'SeaVoice',
-      description: 'SeaVoice: Nền tảng giao tiếp bằng giọng nói được hỗ trợ bởi AI của Seasalt AI cho phép định tuyến cuộc gọi thông minh, phân tích giọng nói, phản hồi tự động và tích hợp liền mạch với hệ thống CRM để hỗ trợ giọng nói 24/7.',
+      description: 'SeaVoice: Nền tảng giao tiếp bằng giọng nói được hỗ trợ bởi AI của Seasalt.ai cho phép định tuyến cuộc gọi thông minh, phân tích giọng nói, phản hồi tự động và tích hợp liền mạch với hệ thống CRM để hỗ trợ giọng nói 24/7.',
       keywords: 'đại lý giọng nói AI, tự động hóa cuộc gọi, phân tích giọng nói, định tuyến thông minh, giọng nói-sang-văn bản, văn bản-sang-giọng nói, AI giọng nói',
       featureList: [
         'Đại lý giọng nói AI',

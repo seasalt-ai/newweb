@@ -4,247 +4,311 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting | SeaSalt.ai</title>
-    <meta name="description" content="Redirecting to your preferred language...">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://seasalt.ai/en/">
-    
-    <!-- 預加載最可能的語言頁面 -->
-    <link rel="preload" href="/en/" as="document">
-    
-    <!-- Hreflang 標籤 -->
-    <link rel="alternate" hreflang="en" href="https://seasalt.ai/en/">
-    <link rel="alternate" hreflang="es" href="https://seasalt.ai/es/">
-    <link rel="alternate" hreflang="zh-TW" href="https://seasalt.ai/zh-TW/">
-    <link rel="alternate" hreflang="zh-CN" href="https://seasalt.ai/zh-CN/">
-    <link rel="alternate" hreflang="ja" href="https://seasalt.ai/ja/">
-    <link rel="alternate" hreflang="ko" href="https://seasalt.ai/ko/">
-    <link rel="alternate" hreflang="fr" href="https://seasalt.ai/fr/">
-    <link rel="alternate" hreflang="de" href="https://seasalt.ai/de/">
-    <link rel="alternate" hreflang="ar" href="https://seasalt.ai/ar/">
-    <link rel="alternate" hreflang="fa" href="https://seasalt.ai/fa/">
-    <link rel="alternate" hreflang="fil" href="https://seasalt.ai/fil/">
-    <link rel="alternate" hreflang="hi" href="https://seasalt.ai/hi/">
-    <link rel="alternate" hreflang="id" href="https://seasalt.ai/id/">
-    <link rel="alternate" hreflang="ms" href="https://seasalt.ai/ms/">
-    <link rel="alternate" hreflang="pl" href="https://seasalt.ai/pl/">
-    <link rel="alternate" hreflang="pt" href="https://seasalt.ai/pt/">
-    <link rel="alternate" hreflang="ru" href="https://seasalt.ai/ru/">
-    <link rel="alternate" hreflang="ta" href="https://seasalt.ai/ta/">
-    <link rel="alternate" hreflang="th" href="https://seasalt.ai/th/">
-    <link rel="alternate" hreflang="vi" href="https://seasalt.ai/vi/">
-    <link rel="alternate" hreflang="ro" href="https://seasalt.ai/ro/">
-    <link rel="alternate" hreflang="x-default" href="https://seasalt.ai/en/">
-    
-    <!-- 強化語言偵測與任意路徑重導向（支援 sessionStorage redirectPath/spa_redirect） -->
-    <script>
-        (function() {
-            // 支援的語言列表（需與 astro.config.mjs 同步）
-            const supportedLocales = [
-                'en', 'es', 'zh-TW', 'zh-CN', 'ja', 'ko', 'fr', 'de', 'ar', 'fa',
-                'fil', 'hi', 'id', 'ms', 'pl', 'pt', 'ru', 'ta', 'th', 'vi', 'ro'
-            ];
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Redirecting | Seasalt.ai</title>
+        <meta
+            name="description"
+            content="Redirecting to your preferred language..."
+        />
 
-            // 語言映射表（瀏覽器/地區變體 → 專案語言碼）
-            const languageMap = {
-                'zh-Hans': 'zh-CN',
-                'zh-Hant': 'zh-TW',
-                'zh-HK': 'zh-TW',
-                'zh-MO': 'zh-TW',
-                'zh-SG': 'zh-CN',
-                'zh': 'zh-TW',
-                'fil-PH': 'fil',
-                'tl': 'fil',
-                'fa-IR': 'fa',
-                'ms-MY': 'ms',
-                'ta-IN': 'ta',
-                'hi-IN': 'hi',
-                'id-ID': 'id',
-                'th-TH': 'th',
-                'vi-VN': 'vi'
-            };
+        <!-- Canonical URL -->
+        <link rel="canonical" href="https://seasalt.ai/en/" />
 
-            // 時區 → 語言推測（簡化版）
-            const timezoneToLanguage = {
-                'Asia/Tokyo': 'ja',
-                'Asia/Seoul': 'ko',
-                'Asia/Shanghai': 'zh-CN',
-                'Asia/Hong_Kong': 'zh-TW',
-                'Asia/Taipei': 'zh-TW',
-                'Asia/Singapore': 'zh-CN',
-                'Asia/Bangkok': 'th',
-                'Asia/Ho_Chi_Minh': 'vi',
-                'Asia/Jakarta': 'id',
-                'Asia/Kuala_Lumpur': 'ms',
-                'Asia/Manila': 'fil',
-                'Asia/Kolkata': 'hi',
-                'Asia/Karachi': 'hi',
-                'Asia/Tehran': 'fa',
-                'Asia/Dubai': 'ar',
-                'Asia/Riyadh': 'ar',
-                'Europe/London': 'en',
-                'Europe/Berlin': 'de',
-                'Europe/Paris': 'fr',
-                'Europe/Madrid': 'es',
-                'Europe/Rome': 'es',
-                'Europe/Warsaw': 'pl',
-                'Europe/Moscow': 'ru',
-                'America/New_York': 'en',
-                'America/Los_Angeles': 'en',
-                'America/Chicago': 'en',
-                'America/Toronto': 'en',
-                'America/Mexico_City': 'es',
-                'America/Sao_Paulo': 'pt',
-                'Australia/Sydney': 'en',
-                'Africa/Cairo': 'ar'
-            };
+        <!-- 預加載最可能的語言頁面 -->
+        <link rel="preload" href="/en/" as="document" />
 
-            function isSupportedLocale(code) {
-                return supportedLocales.includes(code);
-            }
+        <!-- Hreflang 標籤 -->
+        <link rel="alternate" hreflang="en" href="https://seasalt.ai/en/" />
+        <link rel="alternate" hreflang="es" href="https://seasalt.ai/es/" />
+        <link
+            rel="alternate"
+            hreflang="zh-TW"
+            href="https://seasalt.ai/zh-TW/"
+        />
+        <link
+            rel="alternate"
+            hreflang="zh-CN"
+            href="https://seasalt.ai/zh-CN/"
+        />
+        <link rel="alternate" hreflang="ja" href="https://seasalt.ai/ja/" />
+        <link rel="alternate" hreflang="ko" href="https://seasalt.ai/ko/" />
+        <link rel="alternate" hreflang="fr" href="https://seasalt.ai/fr/" />
+        <link rel="alternate" hreflang="de" href="https://seasalt.ai/de/" />
+        <link rel="alternate" hreflang="ar" href="https://seasalt.ai/ar/" />
+        <link rel="alternate" hreflang="fa" href="https://seasalt.ai/fa/" />
+        <link rel="alternate" hreflang="fil" href="https://seasalt.ai/fil/" />
+        <link rel="alternate" hreflang="hi" href="https://seasalt.ai/hi/" />
+        <link rel="alternate" hreflang="id" href="https://seasalt.ai/id/" />
+        <link rel="alternate" hreflang="ms" href="https://seasalt.ai/ms/" />
+        <link rel="alternate" hreflang="pl" href="https://seasalt.ai/pl/" />
+        <link rel="alternate" hreflang="pt" href="https://seasalt.ai/pt/" />
+        <link rel="alternate" hreflang="ru" href="https://seasalt.ai/ru/" />
+        <link rel="alternate" hreflang="ta" href="https://seasalt.ai/ta/" />
+        <link rel="alternate" hreflang="th" href="https://seasalt.ai/th/" />
+        <link rel="alternate" hreflang="vi" href="https://seasalt.ai/vi/" />
+        <link rel="alternate" hreflang="ro" href="https://seasalt.ai/ro/" />
+        <link
+            rel="alternate"
+            hreflang="x-default"
+            href="https://seasalt.ai/en/"
+        />
 
-            function detectLanguage() {
-                const urlParams = new URLSearchParams(window.location.search);
-                const debug = urlParams.get('debug') === '1';
-                const log = [];
+        <!-- 強化語言偵測與任意路徑重導向（支援 sessionStorage redirectPath/spa_redirect） -->
+        <script>
+            (function () {
+                // 支援的語言列表（需與 astro.config.mjs 同步）
+                const supportedLocales = [
+                    "en",
+                    "es",
+                    "zh-TW",
+                    "zh-CN",
+                    "ja",
+                    "ko",
+                    "fr",
+                    "de",
+                    "ar",
+                    "fa",
+                    "fil",
+                    "hi",
+                    "id",
+                    "ms",
+                    "pl",
+                    "pt",
+                    "ru",
+                    "ta",
+                    "th",
+                    "vi",
+                    "ro",
+                ];
 
-                // 1) URL 參數
-                const urlLang = urlParams.get('lang');
-                if (urlLang && isSupportedLocale(urlLang)) {
-                    log.push(`URL param: ${urlLang}`);
-                    debug && console.log(log.join('\n'));
-                    return urlLang;
+                // 語言映射表（瀏覽器/地區變體 → 專案語言碼）
+                const languageMap = {
+                    "zh-Hans": "zh-CN",
+                    "zh-Hant": "zh-TW",
+                    "zh-HK": "zh-TW",
+                    "zh-MO": "zh-TW",
+                    "zh-SG": "zh-CN",
+                    zh: "zh-TW",
+                    "fil-PH": "fil",
+                    tl: "fil",
+                    "fa-IR": "fa",
+                    "ms-MY": "ms",
+                    "ta-IN": "ta",
+                    "hi-IN": "hi",
+                    "id-ID": "id",
+                    "th-TH": "th",
+                    "vi-VN": "vi",
+                };
+
+                // 時區 → 語言推測（簡化版）
+                const timezoneToLanguage = {
+                    "Asia/Tokyo": "ja",
+                    "Asia/Seoul": "ko",
+                    "Asia/Shanghai": "zh-CN",
+                    "Asia/Hong_Kong": "zh-TW",
+                    "Asia/Taipei": "zh-TW",
+                    "Asia/Singapore": "zh-CN",
+                    "Asia/Bangkok": "th",
+                    "Asia/Ho_Chi_Minh": "vi",
+                    "Asia/Jakarta": "id",
+                    "Asia/Kuala_Lumpur": "ms",
+                    "Asia/Manila": "fil",
+                    "Asia/Kolkata": "hi",
+                    "Asia/Karachi": "hi",
+                    "Asia/Tehran": "fa",
+                    "Asia/Dubai": "ar",
+                    "Asia/Riyadh": "ar",
+                    "Europe/London": "en",
+                    "Europe/Berlin": "de",
+                    "Europe/Paris": "fr",
+                    "Europe/Madrid": "es",
+                    "Europe/Rome": "es",
+                    "Europe/Warsaw": "pl",
+                    "Europe/Moscow": "ru",
+                    "America/New_York": "en",
+                    "America/Los_Angeles": "en",
+                    "America/Chicago": "en",
+                    "America/Toronto": "en",
+                    "America/Mexico_City": "es",
+                    "America/Sao_Paulo": "pt",
+                    "Australia/Sydney": "en",
+                    "Africa/Cairo": "ar",
+                };
+
+                function isSupportedLocale(code) {
+                    return supportedLocales.includes(code);
                 }
 
-                // 2) localStorage 偏好
-                try {
-                    const savedLang = localStorage.getItem('seasalt-preferred-language');
-                    if (savedLang && isSupportedLocale(savedLang)) {
-                        log.push(`Saved preference: ${savedLang}`);
-                        debug && console.log(log.join('\n'));
-                        return savedLang;
-                    }
-                } catch {}
+                function detectLanguage() {
+                    const urlParams = new URLSearchParams(
+                        window.location.search
+                    );
+                    const debug = urlParams.get("debug") === "1";
+                    const log = [];
 
-                // 3) 瀏覽器語言清單
-                const browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
-                for (const browserLang of browserLangs) {
-                    const normalized = String(browserLang || '').trim();
-                    const lower = normalized.toLowerCase();
-
-                    if (isSupportedLocale(lower)) {
-                        log.push(`Browser direct: ${lower}`);
-                        debug && console.log(log.join('\n'));
-                        return lower;
+                    // 1) URL 參數
+                    const urlLang = urlParams.get("lang");
+                    if (urlLang && isSupportedLocale(urlLang)) {
+                        log.push(`URL param: ${urlLang}`);
+                        debug && console.log(log.join("\n"));
+                        return urlLang;
                     }
-                    if (languageMap[normalized]) {
-                        const mapped = languageMap[normalized];
-                        if (isSupportedLocale(mapped)) {
-                            log.push(`Browser mapped: ${normalized} → ${mapped}`);
-                            debug && console.log(log.join('\n'));
-                            return mapped;
+
+                    // 2) localStorage 偏好
+                    try {
+                        const savedLang = localStorage.getItem(
+                            "seasalt-preferred-language"
+                        );
+                        if (savedLang && isSupportedLocale(savedLang)) {
+                            log.push(`Saved preference: ${savedLang}`);
+                            debug && console.log(log.join("\n"));
+                            return savedLang;
+                        }
+                    } catch {}
+
+                    // 3) 瀏覽器語言清單
+                    const browserLangs = navigator.languages || [
+                        navigator.language || navigator.userLanguage,
+                    ];
+                    for (const browserLang of browserLangs) {
+                        const normalized = String(browserLang || "").trim();
+                        const lower = normalized.toLowerCase();
+
+                        if (isSupportedLocale(lower)) {
+                            log.push(`Browser direct: ${lower}`);
+                            debug && console.log(log.join("\n"));
+                            return lower;
+                        }
+                        if (languageMap[normalized]) {
+                            const mapped = languageMap[normalized];
+                            if (isSupportedLocale(mapped)) {
+                                log.push(
+                                    `Browser mapped: ${normalized} → ${mapped}`
+                                );
+                                debug && console.log(log.join("\n"));
+                                return mapped;
+                            }
+                        }
+                        const prefix = lower.split("-")[0];
+                        if (isSupportedLocale(prefix)) {
+                            log.push(`Browser prefix: ${lower} → ${prefix}`);
+                            debug && console.log(log.join("\n"));
+                            return prefix;
+                        }
+                        if (prefix === "zh") {
+                            const zh =
+                                lower.includes("cn") || lower.includes("hans")
+                                    ? "zh-CN"
+                                    : "zh-TW";
+                            log.push(`Browser zh variant: ${lower} → ${zh}`);
+                            debug && console.log(log.join("\n"));
+                            return zh;
                         }
                     }
-                    const prefix = lower.split('-')[0];
-                    if (isSupportedLocale(prefix)) {
-                        log.push(`Browser prefix: ${lower} → ${prefix}`);
-                        debug && console.log(log.join('\n'));
-                        return prefix;
-                    }
-                    if (prefix === 'zh') {
-                        const zh = (lower.includes('cn') || lower.includes('hans')) ? 'zh-CN' : 'zh-TW';
-                        log.push(`Browser zh variant: ${lower} → ${zh}`);
-                        debug && console.log(log.join('\n'));
-                        return zh;
-                    }
+
+                    // 4) 時區推測
+                    try {
+                        const tz =
+                            Intl.DateTimeFormat().resolvedOptions().timeZone;
+                        const tzLang = timezoneToLanguage[tz];
+                        if (tzLang && isSupportedLocale(tzLang)) {
+                            log.push(`Timezone: ${tz} → ${tzLang}`);
+                            debug && console.log(log.join("\n"));
+                            return tzLang;
+                        }
+                    } catch {}
+
+                    // 5) 預設英文
+                    log.push("Fallback: en");
+                    debug && console.log(log.join("\n"));
+                    return "en";
                 }
 
-                // 4) 時區推測
-                try {
-                    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-                    const tzLang = timezoneToLanguage[tz];
-                    if (tzLang && isSupportedLocale(tzLang)) {
-                        log.push(`Timezone: ${tz} → ${tzLang}`);
-                        debug && console.log(log.join('\n'));
-                        return tzLang;
+                function buildRedirectTarget(preferredLang) {
+                    // 支援 404.html 的回跳（目前專案使用 redirectPath，相鄰專案使用 spa_redirect）
+                    // 另外也支援 404 透過 ?p= 傳遞完整路徑，避免某些環境下 sessionStorage 取不到
+                    const params = new URLSearchParams(window.location.search);
+                    const paramPath = params.get("p");
+                    const saved =
+                        sessionStorage.getItem("redirectPath") ||
+                        sessionStorage.getItem("spa_redirect") ||
+                        (paramPath ? decodeURIComponent(paramPath) : "/") ||
+                        "/";
+
+                    let originalPath =
+                        typeof saved === "string" && saved.length > 0
+                            ? saved
+                            : "/";
+
+                    // 若誤傳了絕對 URL，轉回相對路徑（只保留 path + query + hash）
+                    try {
+                        if (/^https?:/i.test(originalPath)) {
+                            const u = new URL(
+                                originalPath,
+                                window.location.origin
+                            );
+                            originalPath =
+                                (u.pathname || "/") +
+                                (u.search || "") +
+                                (u.hash || "");
+                        }
+                    } catch {}
+
+                    // 標準化
+                    if (!originalPath.startsWith("/"))
+                        originalPath = "/" + originalPath;
+
+                    // 若原始就是根 /，直接導到 /{lang}/
+                    if (originalPath === "/") {
+                        return `/${preferredLang}/`;
                     }
+
+                    // 判斷第一段是否已是語言碼
+                    const parts = originalPath.split("/").filter(Boolean);
+                    const first = (parts[0] || "").toLowerCase();
+                    if (isSupportedLocale(first)) {
+                        // 已含語言前綴，尊重原始路徑
+                        return originalPath;
+                    }
+
+                    // 否則加上語言前綴
+                    return `/${preferredLang}${originalPath}`;
+                }
+
+                const detectedLang = detectLanguage();
+                const target = buildRedirectTarget(detectedLang);
+
+                // 保存偏好語言
+                try {
+                    localStorage.setItem(
+                        "seasalt-preferred-language",
+                        detectedLang
+                    );
                 } catch {}
 
-                // 5) 預設英文
-                log.push('Fallback: en');
-                debug && console.log(log.join('\n'));
-                return 'en';
-            }
-
-            function buildRedirectTarget(preferredLang) {
-                // 支援 404.html 的回跳（目前專案使用 redirectPath，相鄰專案使用 spa_redirect）
-                // 另外也支援 404 透過 ?p= 傳遞完整路徑，避免某些環境下 sessionStorage 取不到
-                const params = new URLSearchParams(window.location.search);
-                const paramPath = params.get('p');
-                const saved = sessionStorage.getItem('redirectPath')
-                    || sessionStorage.getItem('spa_redirect')
-                    || (paramPath ? decodeURIComponent(paramPath) : '/')
-                    || '/';
-
-                let originalPath = typeof saved === 'string' && saved.length > 0 ? saved : '/';
-
-                // 若誤傳了絕對 URL，轉回相對路徑（只保留 path + query + hash）
+                // 清理暫存路徑
                 try {
-                    if (/^https?:/i.test(originalPath)) {
-                        const u = new URL(originalPath, window.location.origin);
-                        originalPath = (u.pathname || '/') + (u.search || '') + (u.hash || '');
-                    }
+                    sessionStorage.removeItem("redirectPath");
+                    sessionStorage.removeItem("spa_redirect");
                 } catch {}
 
-                // 標準化
-                if (!originalPath.startsWith('/')) originalPath = '/' + originalPath;
+                // 立即重導向
+                window.location.replace(target);
+            })();
+        </script>
 
-                // 若原始就是根 /，直接導到 /{lang}/
-                if (originalPath === '/') {
-                    return `/${preferredLang}/`;
-                }
-
-                // 判斷第一段是否已是語言碼
-                const parts = originalPath.split('/').filter(Boolean);
-                const first = (parts[0] || '').toLowerCase();
-                if (isSupportedLocale(first)) {
-                    // 已含語言前綴，尊重原始路徑
-                    return originalPath;
-                }
-
-                // 否則加上語言前綴
-                return `/${preferredLang}${originalPath}`;
-            }
-
-            const detectedLang = detectLanguage();
-            const target = buildRedirectTarget(detectedLang);
-
-            // 保存偏好語言
-            try { localStorage.setItem('seasalt-preferred-language', detectedLang); } catch {}
-
-            // 清理暫存路徑
-            try {
-                sessionStorage.removeItem('redirectPath');
-                sessionStorage.removeItem('spa_redirect');
-            } catch {}
-
-            // 立即重導向
-            window.location.replace(target);
-        })();
-    </script>
-    
-    <!-- SEO 友好的 noscript 回退 -->
-    <noscript>
-        <meta http-equiv="refresh" content="0; url=/en/">
-    </noscript>
-</head>
-<body>
-    <!-- 載入指示器 -->
-    <div id="redirect-container" style="
+        <!-- SEO 友好的 noscript 回退 -->
+        <noscript>
+            <meta http-equiv="refresh" content="0; url=/en/" />
+        </noscript>
+    </head>
+    <body>
+        <!-- 載入指示器 -->
+        <div
+            id="redirect-container"
+            style="
         display: flex;
         justify-content: center;
         align-items: center;
@@ -252,8 +316,10 @@
         background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         transition: opacity 0.3s ease;
-    ">
-        <div style="
+    "
+        >
+            <div
+                style="
             text-align: center;
             max-width: 400px;
             padding: 2rem;
@@ -262,14 +328,18 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
             position: relative;
             z-index: 10;
-        ">
-            <div style="
+        "
+            >
+                <div
+                    style="
                 width: 60px;
                 height: 60px;
                 margin: 0 auto 1.5rem;
                 position: relative;
-            ">
-                <div style="
+            "
+                >
+                    <div
+                        style="
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -280,8 +350,11 @@
                     border-radius: 50%;
                     animation: spin 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
                     box-sizing: border-box;
-                "></div>
-                <div style="
+                "
+                    >
+                    </div>
+                    <div
+                        style="
                     position: absolute;
                     top: 50%;
                     left: 50%;
@@ -291,63 +364,80 @@
                     background: #3B82F6;
                     border-radius: 50%;
                     opacity: 0.8;
-                "></div>
-            </div>
+                "
+                    >
+                    </div>
+                </div>
 
-            <h1 style="
+                <h1
+                    style="
                 font-size: 1.5rem;
                 font-weight: 600;
                 color: #1f2937;
                 margin: 0 0 0.5rem;
                 letter-spacing: -0.025em;
-            ">Redirecting...</h1>
+            "
+                >
+                    Redirecting...
+                </h1>
 
-            <p style="
+                <p
+                    style="
                 color: #6b7280;
                 margin: 0 0 1.5rem;
                 font-size: 1rem;
                 line-height: 1.5;
-            ">We're taking you to the best version of our site for your language and region.</p>
+            "
+                >
+                    We're taking you to the best version of our site for your
+                    language and region.
+                </p>
 
-            <div style="
+                <div
+                    style="
                 display: flex;
                 justify-content: center;
                 gap: 0.5rem;
                 font-size: 0.875rem;
                 color: #9ca3af;
-            ">
-                <span style="opacity: 0.7;">Detecting</span>
-                <span style="opacity: 0.7;">•</span>
-                <span style="opacity: 0.7;">Redirecting</span>
-                <span style="opacity: 0.7;">•</span>
-                <span style="opacity: 0.7;">Loading</span>
+            "
+                >
+                    <span style="opacity: 0.7;">Detecting</span>
+                    <span style="opacity: 0.7;">•</span>
+                    <span style="opacity: 0.7;">Redirecting</span>
+                    <span style="opacity: 0.7;">•</span>
+                    <span style="opacity: 0.7;">Loading</span>
+                </div>
             </div>
         </div>
-    </div>
 
-    <style>
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
+        <style>
+            @keyframes spin {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
 
-        body {
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-        }
+            body {
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+            }
 
-        /* Smooth fade out when redirect happens */
-        body.redirecting #redirect-container {
-            opacity: 0;
-            pointer-events: none;
-        }
-    </style>
-    <script>
-        // Add redirecting class to body to trigger fade-out animation
-        setTimeout(() => {
-            document.body.classList.add('redirecting');
-        }, 500);
-    </script>
-</body>
+            /* Smooth fade out when redirect happens */
+            body.redirecting #redirect-container {
+                opacity: 0;
+                pointer-events: none;
+            }
+        </style>
+        <script>
+            // Add redirecting class to body to trigger fade-out animation
+            setTimeout(() => {
+                document.body.classList.add("redirecting");
+            }, 500);
+        </script>
+    </body>
 </html>

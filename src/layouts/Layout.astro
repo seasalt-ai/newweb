@@ -1,8 +1,8 @@
 ---
-import '../styles/global.css';
-import VersionManager from '../components/versions/VersionManager.astro';
-import SEO from '../components/SEO.astro';
-import SeaChatWidget from '../components/SeaChatWidget.astro';
+import "../styles/global.css";
+import VersionManager from "../components/versions/VersionManager.astro";
+import SEO from "../components/SEO.astro";
+import SeaChatWidget from "../components/SeaChatWidget.astro";
 
 export interface Props {
 	title: string;
@@ -11,7 +11,7 @@ export interface Props {
 	keywords?: string;
 	image?: string;
 	canonical?: string;
-	type?: 'website' | 'article' | 'product' | 'software' | 'service';
+	type?: "website" | "article" | "product" | "software" | "service";
 	article?: {
 		publishedTime?: string;
 		modifiedTime?: string;
@@ -78,18 +78,18 @@ export interface Props {
 	customJsonLd?: Record<string, any>[];
 	alternateUrls?: Record<string, string>;
 	// Version management props
-	headerVersion?: 'default' | 'seachat' | 'seax' | 'seavoice';
-	footerVersion?: 'default' | 'seachat' | 'seax' | 'seavoice';
+	headerVersion?: "default" | "seachat" | "seax" | "seavoice";
+	footerVersion?: "default" | "seachat" | "seax" | "seavoice";
 }
 
-const { 
-	title, 
-	description = 'SeaSalt.ai - AI-Powered Contact Center Solutions', 
-	lang = 'en',
+const {
+	title,
+	description = "Seasalt.ai - AI-Powered Contact Center Solutions",
+	lang = "en",
 	keywords,
 	image,
 	canonical,
-	type = 'website',
+	type = "website",
 	article,
 	service,
 	faqs,
@@ -100,14 +100,14 @@ const {
 	customJsonLd,
 	headerVersion,
 	footerVersion,
-	alternateUrls
+	alternateUrls,
 } = Astro.props;
 ---
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang={lang}>
 	<head>
-		<SEO 
+		<SEO
 			title={title}
 			description={description}
 			lang={lang}
@@ -128,29 +128,32 @@ const {
 		<meta name="generator" content={Astro.generator} />
 	</head>
 	<body>
-		<VersionManager type="header" version={headerVersion} lang={lang} currentPath={Astro.url.pathname} />
+		<VersionManager
+			type="header"
+			version={headerVersion}
+			lang={lang}
+			currentPath={Astro.url.pathname}
+		/>
 		<main>
 			<slot />
 		</main>
-		<VersionManager type="footer" version={footerVersion} lang={lang} currentPath={Astro.url.pathname} />
+		<VersionManager
+			type="footer"
+			version={footerVersion}
+			lang={lang}
+			currentPath={Astro.url.pathname}
+		/>
 		<!-- SeaChat Webchat Widget -->
 		<SeaChatWidget />
+		<style is:global>
+			html {
+				font-family: system-ui, sans-serif;
+			}
+			code {
+				font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+					DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
+					monospace;
+			}
+		</style>
 	</body>
 </html>
-
-<style is:global>
-	html {
-		font-family: system-ui, sans-serif;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
-</style>

@@ -337,7 +337,7 @@ Near Me Messaging を始めるには、Near Me Messaging で仮想エージェ�
 
 ### ステップ1. Near Me Messaging のウェブサイトにアクセスし、Google Business Profile で使用しているアカウントでサインインします。
 
-Near Me Messaging のウェブサイトにアクセスし、*「サインイン」* ボタンをクリックします。Google Business Profile で使用しているアカウントでサインインしたら、利用可能なすべてのチェックボックスをオンにし、Seasalt AI に仮想エージェントを起動する許可を与えていることを確認してください。Seasalt.ai は[Google の公式パートナー](https://developers.google.com/business-communications/business-messages/partners)であるため、これらの許可を責任を持って使用することを保証します。**これらの許可は2つの機能に使用しています。1つ目は、仮想エージェントが正確な応答を提供できるように、Google Business Profile から情報にアクセスするため、2つ目は、お客様のビジネスの Google マップ ページにエージェントをAgentで起動できるようにするためです。** 
+Near Me Messaging のウェブサイトにアクセスし、*「サインイン」* ボタンをクリックします。Google Business Profile で使用しているアカウントでサインインしたら、利用可能なすべてのチェックボックスをオンにし、Seasalt.ai に仮想エージェントを起動する許可を与えていることを確認してください。Seasalt.ai は[Google の公式パートナー](https://developers.google.com/business-communications/business-messages/partners)であるため、これらの許可を責任を持って使用することを保証します。**これらの許可は2つの機能に使用しています。1つ目は、仮想エージェントが正確な応答を提供できるように、Google Business Profile から情報にアクセスするため、2つ目は、お客様のビジネスの Google マップ ページにエージェントをAgentで起動できるようにするためです。** 
 
 これらの許可をビジネス プロフィールを編集または削除するために使用することはありません。Google は *「表示」*、*「編集」*、*「削除」* の個別の許可を提供していないため、すべてに許可を与える必要があります。*「表示」* の許可のみを使用します。
 
@@ -350,7 +350,7 @@ Near Me Messaging のウェブサイトにアクセスし、*「サインイン�
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Seasalt AI に許可を与えることで、お客様のブランドの仮想エージェントを Google マップ ページにAgentで公開する機能が与えられます。*
+*Seasalt.ai に許可を与えることで、お客様のブランドの仮想エージェントを Google マップ ページにAgentで公開する機能が与えられます。*
 </center>
 
 

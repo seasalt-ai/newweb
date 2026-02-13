@@ -337,7 +337,7 @@ Near Me Messaging을 시작하려면 Near Me Messaging으로 가상 에이전트
 
 ### 1단계. Near Me Messaging 웹사이트를 방문하여 Google Business Profile에 사용하는 계정으로 로그인합니다.
 
-Near Me Messaging 웹사이트로 이동하여 *“로그인”* 버튼을 클릭합니다. Google Business Profile에 사용하는 계정으로 로그인한 후, 사용 가능한 모든 상자를 확인하고 Seasalt AI에 가상 에이전트를 시작할 권한을 부여했는지 확인하십시오. Seasalt.ai는 [공식 Google 파트너](https://developers.google.com/business-communications/business-messages/partners)이므로, 이 권한을 책임감 있게 사용할 것임을 확신할 수 있습니다. **우리는 이 권한을 두 가지 기능에 사용합니다. 첫째, 가상 에이전트가 정확한 응답을 제공할 수 있도록 Google Business Profile에서 정보에 액세스하기 위함이며, 둘째, 귀사를 대신하여 귀사의 Google Maps 페이지에 에이전트를 시작할 수 있도록 하기 위함입니다.** 
+Near Me Messaging 웹사이트로 이동하여 *“로그인”* 버튼을 클릭합니다. Google Business Profile에 사용하는 계정으로 로그인한 후, 사용 가능한 모든 상자를 확인하고 Seasalt.ai에 가상 에이전트를 시작할 권한을 부여했는지 확인하십시오. Seasalt.ai는 [공식 Google 파트너](https://developers.google.com/business-communications/business-messages/partners)이므로, 이 권한을 책임감 있게 사용할 것임을 확신할 수 있습니다. **우리는 이 권한을 두 가지 기능에 사용합니다. 첫째, 가상 에이전트가 정확한 응답을 제공할 수 있도록 Google Business Profile에서 정보에 액세스하기 위함이며, 둘째, 귀사를 대신하여 귀사의 Google Maps 페이지에 에이전트를 시작할 수 있도록 하기 위함입니다.** 
 
 우리는 이 권한을 귀사의 비즈니스 프로필을 편집하거나 삭제하는 데 사용하지 않을 것입니다. Google은 *“보기”*, *“편집”*, *“삭제”*에 대한 별도의 권한을 제공하지 않으므로 여전히 모든 권한을 부여해야 합니다. 우리는 *“보기”* 권한만 사용할 것입니다.
 
@@ -350,7 +350,7 @@ Near Me Messaging 웹사이트로 이동하여 *“로그인”* 버튼을 클�
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Seasalt AI에 권한을 부여하면 귀사를 대신하여 귀사의 브랜드 가상 에이전트를 Google Maps 페이지에 공개적으로 시작할 수 있는 기능이 제공됩니다.*
+*Seasalt.ai에 권한을 부여하면 귀사를 대신하여 귀사의 브랜드 가상 에이전트를 Google Maps 페이지에 공개적으로 시작할 수 있는 기능이 제공됩니다.*
 </center>
 
 
