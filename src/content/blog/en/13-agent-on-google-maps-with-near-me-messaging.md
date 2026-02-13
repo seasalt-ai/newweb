@@ -28,7 +28,7 @@ We are currently looking for beta testers for Near Me Messaging. For our beta te
 
 ### Step 1. Visit the Near Me Messaging website (Update: We've since pivoted the product to be an omni-channel chatbot builder. Now called [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!).
 
-Go to the Near Me Messaging website (Update: We've since pivoted the product to be an omni-channel chatbot builder. Now called [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) and click the *“Sign in”* button. Once you sign in with the account that you use for Google Business Profile, make sure that you check all of the available boxes and give permission to Seasalt AI to launch your virtual agent. Seasalt.ai is an [official Google Partner](https://developers.google.com/business-communications/business-messages/partners), so you can rest assured that we will use these permissions responsibly. **We are using these permissions for two functions: first, to access information from your Google Business Profile so that your virtual agent can provide accurate responses, and second so that we can launch the agent to your Business’ Google Maps page on your behalf.** 
+Go to the Near Me Messaging website (Update: We've since pivoted the product to be an omni-channel chatbot builder. Now called [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) and click the *“Sign in”* button. Once you sign in with the account that you use for Google Business Profile, make sure that you check all of the available boxes and give permission to Seasalt.ai to launch your virtual agent. Seasalt.ai is an [official Google Partner](https://developers.google.com/business-communications/business-messages/partners), so you can rest assured that we will use these permissions responsibly. **We are using these permissions for two functions: first, to access information from your Google Business Profile so that your virtual agent can provide accurate responses, and second so that we can launch the agent to your Business’ Google Maps page on your behalf.** 
 
 We will never use these permissions to edit or delete your business profile. We still need you to grant permission to all of them because Google does not provide separate permissions for *“view”*, *“edit”*, and *“delete”*. We will only use the *“view”* permission.
 
@@ -41,7 +41,7 @@ We will never use these permissions to edit or delete your business profile. We 
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Granting permissions for Seasalt AI gives us the ability to publicly launch your brand's virtual agent to your Google Maps page on your behalf.*
+*Granting permissions for Seasalt.ai gives us the ability to publicly launch your brand's virtual agent to your Google Maps page on your behalf.*
 </center>
 
 

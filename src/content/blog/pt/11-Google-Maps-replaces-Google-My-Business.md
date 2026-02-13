@@ -121,7 +121,7 @@ Se você estiver usando a conta correta associada à sua listagem de empresas, v
 
 ### 3. Selecione a empresa que você deseja atualizar.
 
-Se você tiver várias empresas, você deverá ver todas as suas empresas. Selecione a empresa que você deseja atualizar ou gerenciar no momento. Em nosso exemplo, queremos gerenciar a Seasalt AI.
+Se você tiver várias empresas, você deverá ver todas as suas empresas. Selecione a empresa que você deseja atualizar ou gerenciar no momento. Em nosso exemplo, queremos gerenciar a Seasalt.ai.
 
 
 <center>

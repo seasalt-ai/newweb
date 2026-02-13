@@ -1,6 +1,6 @@
 # Modern Platform Deployment Guide
 
-This guide covers deploying the Seasalt AI website to modern hosting platforms: Vercel, Netlify, and Cloudflare Pages.
+This guide covers deploying the Seasalt.ai website to modern hosting platforms: Vercel, Netlify, and Cloudflare Pages.
 
 ## Overview
 

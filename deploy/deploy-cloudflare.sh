@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Cloudflare Pages Deployment Script for Seasalt AI Website
+# Cloudflare Pages Deployment Script for Seasalt.ai Website
 # This script deploys the website to Cloudflare Pages
 #
 # Prerequisites:

@@ -4,7 +4,7 @@ description: Vergleichen Sie SeaChat und Meta wit.ai als KI-Chatbot-Lösung für
   Unternehmen. Erfahren Sie mehr über Funktionen, Vorteile und die beste Wahl für
   Ihre Anforderungen.
 publishDate: '2023-09-15'
-author: SeaSalt.ai Team
+author: Seasalt.ai Team
 image:
   url: /images/blog/76-seachat-vs-meta-wit-ai/cover.png
   alt: 'SeaChat vs Meta wit.ai: Welche KI-Chatbot-Plattform ist besser?'

@@ -29,7 +29,7 @@ Actualmente estamos buscando probadores beta para Near Me Messaging. Para nuestr
 
 ### Paso 1. Visite el sitio web de Near Me Messaging (Actualización: ¡Desde entonces hemos cambiado el enfoque del producto para que sea un creador de chatbots omnicanal. Ahora se llama [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!).
 
-Vaya al sitio web de Near Me Messaging (Actualización: ¡Desde entonces hemos cambiado el enfoque del producto para que sea un creador de chatbots omnicanal. Ahora se llama [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) y haga clic en el botón *“Iniciar sesión”*. Una vez que inicie sesión con la cuenta que utiliza para Google Business Profile, asegúrese de marcar todas las casillas disponibles y otorgar permiso a Seasalt AI para lanzar su agente virtual. Seasalt.ai es un [socio oficial de Google](https://developers.google.com/business-communications/business-messages/partners), por lo que puede estar seguro de que utilizaremos estos permisos de manera responsable. **Estamos utilizando estos permisos para dos funciones: primero, para acceder a la información de su perfil de Google Business para que su agente virtual pueda proporcionar respuestas precisas, y segundo, para que podamos lanzar el agente a la página de Google Maps de su negocio en su nombre.**
+Vaya al sitio web de Near Me Messaging (Actualización: ¡Desde entonces hemos cambiado el enfoque del producto para que sea un creador de chatbots omnicanal. Ahora se llama [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!) y haga clic en el botón *“Iniciar sesión”*. Una vez que inicie sesión con la cuenta que utiliza para Google Business Profile, asegúrese de marcar todas las casillas disponibles y otorgar permiso a Seasalt.ai para lanzar su agente virtual. Seasalt.ai es un [socio oficial de Google](https://developers.google.com/business-communications/business-messages/partners), por lo que puede estar seguro de que utilizaremos estos permisos de manera responsable. **Estamos utilizando estos permisos para dos funciones: primero, para acceder a la información de su perfil de Google Business para que su agente virtual pueda proporcionar respuestas precisas, y segundo, para que podamos lanzar el agente a la página de Google Maps de su negocio en su nombre.**
 
 Nunca utilizaremos estos permisos para editar o eliminar su perfil comercial. Todavía necesitamos que otorgue permiso a todos ellos porque Google no proporciona permisos separados para *“ver”*, *“editar”* y *“eliminar”*. Solo utilizaremos el permiso *“ver”*.
 
@@ -42,7 +42,7 @@ Nunca utilizaremos estos permisos para editar o eliminar su perfil comercial. To
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*Otorgar permisos a Seasalt AI nos da la capacidad de lanzar públicamente el agente virtual de su marca a su página de Google Maps en su nombre.*
+*Otorgar permisos a Seasalt.ai nos da la capacidad de lanzar públicamente el agente virtual de su marca a su página de Google Maps en su nombre.*
 </center>
 
 

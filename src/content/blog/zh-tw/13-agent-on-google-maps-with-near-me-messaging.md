@@ -29,7 +29,7 @@ draft: false
 
 ### 步驟 1. 造訪鄰近訊息網站（更新：我們已將產品轉向全通路聊天機器人建置工具。現在稱為 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)！）。
 
-造訪鄰近訊息網站（更新：我們已將產品轉向全通路聊天機器人建置工具。現在稱為 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)！）並點擊 *「登入」* 按鈕。使用您用於 Google 商家檔案的帳戶登入後，請確保您已勾選所有可用方塊並授予 Seasalt AI 啟動您的虛擬Agent的權限。Seasalt.ai 是 [Google 官方合作夥伴](https://developers.google.com/business-communications/business-messages/partners)，因此您可以放心，我們將負責任地使用這些權限。**我們使用這些權限有兩個功能：首先，存取您的 Google 商家檔案中的資訊，以便您的虛擬Agent可以提供準確的回應；其次，以便我們代表您將Agent啟動到您的商家 Google 地圖頁面。**
+造訪鄰近訊息網站（更新：我們已將產品轉向全通路聊天機器人建置工具。現在稱為 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)！）並點擊 *「登入」* 按鈕。使用您用於 Google 商家檔案的帳戶登入後，請確保您已勾選所有可用方塊並授予 Seasalt.ai 啟動您的虛擬Agent的權限。Seasalt.ai 是 [Google 官方合作夥伴](https://developers.google.com/business-communications/business-messages/partners)，因此您可以放心，我們將負責任地使用這些權限。**我們使用這些權限有兩個功能：首先，存取您的 Google 商家檔案中的資訊，以便您的虛擬Agent可以提供準確的回應；其次，以便我們代表您將Agent啟動到您的商家 Google 地圖頁面。**
 
 我們絕不會使用這些權限編輯或刪除您的商家檔案。我們仍然需要您授予所有權限，因為 Google 不提供 *「檢視」*、*「編輯」* 和 *「刪除」* 的單獨權限。我們只會使用 *「檢視」* 權限。
 
@@ -42,7 +42,7 @@ draft: false
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*授予 Seasalt AI 權限使我們能夠代表您將品牌的虛擬Agent公開發布到您的 Google 地圖頁面。*
+*授予 Seasalt.ai 權限使我們能夠代表您將品牌的虛擬Agent公開發布到您的 Google 地圖頁面。*
 </center>
 
 

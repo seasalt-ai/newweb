@@ -120,7 +120,7 @@ Jika Anda menggunakan akun yang benar yang terkait dengan daftar bisnis Anda, An
 
 ### 3. Pilih bisnis yang ingin Anda perbarui.
 
-Jika Anda memiliki beberapa bisnis, Anda akan dapat melihat semua bisnis Anda. Pilih bisnis yang ingin Anda perbarui atau kelola saat ini. Dalam contoh kami, kami ingin mengelola Seasalt AI.
+Jika Anda memiliki beberapa bisnis, Anda akan dapat melihat semua bisnis Anda. Pilih bisnis yang ingin Anda perbarui atau kelola saat ini. Dalam contoh kami, kami ingin mengelola Seasalt.ai.
 
 
 <center>

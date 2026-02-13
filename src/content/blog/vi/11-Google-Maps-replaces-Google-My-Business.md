@@ -123,7 +123,7 @@ Nếu bạn đang sử dụng đúng tài khoản được liên kết với dan
 
 ### 3. Chọn doanh nghiệp bạn muốn cập nhật.
 
-Nếu bạn có nhiều doanh nghiệp, bạn sẽ có thể thấy tất cả các doanh nghiệp của mình. Chọn doanh nghiệp bạn muốn cập nhật hoặc quản lý vào lúc này. Trong ví dụ của chúng tôi, chúng tôi muốn quản lý Seasalt AI.
+Nếu bạn có nhiều doanh nghiệp, bạn sẽ có thể thấy tất cả các doanh nghiệp của mình. Chọn doanh nghiệp bạn muốn cập nhật hoặc quản lý vào lúc này. Trong ví dụ của chúng tôi, chúng tôi muốn quản lý Seasalt.ai.
 
 
 <center>

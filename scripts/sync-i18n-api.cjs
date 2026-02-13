@@ -134,12 +134,12 @@ class I18nApiSyncer {
   // 顯示同步狀態統計
   displaySyncStats() {
     if (!this.syncState) return;
-    
+
     const completedLangs = Object.keys(this.syncState.completedLanguages)
       .filter(lang => this.syncState.completedLanguages[lang]?.completed);
     const failedLangs = Object.keys(this.syncState.completedLanguages)
       .filter(lang => this.syncState.completedLanguages[lang]?.error);
-      
+
     console.log(`📊 Sync Statistics:`);
     console.log(`  - ✅ Completed languages: ${completedLangs.length}`);
     console.log(`  - ❌ Failed languages: ${failedLangs.length}`);
@@ -167,9 +167,9 @@ class I18nApiSyncer {
       console.log(`🔄 Force sync enabled for ${langCode}`);
       return true;
     }
-    
+
     const englishHash = this.generateHash(englishData);
-    
+
     // 檢查英文源文件是否有變更
     if (this.syncState.englishHash !== englishHash) {
       console.log(`🔄 English source changed, full sync required`);
@@ -370,17 +370,17 @@ class I18nApiSyncer {
           try {
             // 將目前累積的翻譯結果轉換回嵌套結構
             const currentTranslations = this.unflattenObject(allTranslations);
-            
+
             // 與現有資料合併並保持英文結構
             const mergedData = this.mergeWithEnglishStructure(
               englishData,
               currentTranslations,
               existingTranslations
             );
-            
+
             // 寫入文件
             await fs.writeFile(filePath, JSON.stringify(mergedData, null, 2), "utf8");
-            
+
             const currentCount = Object.keys(this.flattenObject(currentTranslations)).length;
             console.log(`💾 Updated file with ${currentCount} translations so far...`);
           } catch (writeError) {
@@ -507,7 +507,7 @@ class I18nApiSyncer {
           "utf8"
         );
         console.log(`🔄 Reordered ${fileName} to match English structure`);
-        
+
         // 標記該語言同步完成(只是重新排序)
         const reorderedKeyCount = Object.keys(this.flattenObject(reorderedData)).length;
         this.syncState.completedLanguages[langCode] = {
@@ -538,13 +538,13 @@ class I18nApiSyncer {
         console.log(`🎉 Successfully completed all translations for ${langCode}`);
       } catch (translationError) {
         console.error(`❌ Translation process failed for ${langCode}:`, translationError.message);
-        
+
         // 嘗試讀取最後一次儲存的文件，可能已經有部分翻譯內容
         try {
           const currentContent = await fs.readFile(filePath, "utf8");
           const currentData = JSON.parse(currentContent);
           const currentTranslations = this.findMissingKeys(currentData, existingData);
-          
+
           if (Object.keys(this.flattenObject(currentTranslations)).length > 0) {
             console.log(`💾 Found ${Object.keys(this.flattenObject(currentTranslations)).length} partially completed translations`);
             translations = currentTranslations;
@@ -552,7 +552,7 @@ class I18nApiSyncer {
         } catch (readError) {
           console.warn(`⚠️  Could not recover partial translations:`, readError.message);
         }
-        
+
         // 重新拋出錯誤，但至少保留了部分結果
         throw translationError;
       }
@@ -581,17 +581,17 @@ class I18nApiSyncer {
         addedKeys: missingCount
       };
       await this.saveSyncState();
-      
+
     } catch (error) {
       console.error(`❌ Failed to process ${langCode}:`, error.message);
-      
+
       // 標記該語言同步失敗
       if (this.syncState.completedLanguages[langCode]) {
         this.syncState.completedLanguages[langCode].completed = false;
         this.syncState.completedLanguages[langCode].error = error.message;
         await this.saveSyncState();
       }
-      
+
       // Log more details for debugging
       if (error.stack) {
         console.error(error.stack);
@@ -628,24 +628,24 @@ class I18nApiSyncer {
         console.log(
           `\n--- Processing ${langCode} (${languageTr[langCode]}) ---`
         );
-        
+
         try {
-          const beforeCount = Object.keys(this.syncState.completedLanguages).filter(k => 
+          const beforeCount = Object.keys(this.syncState.completedLanguages).filter(k =>
             this.syncState.completedLanguages[k]?.completed
           ).length;
-          
+
           await this.processLanguage(langCode, englishData);
-          
-          const afterCount = Object.keys(this.syncState.completedLanguages).filter(k => 
+
+          const afterCount = Object.keys(this.syncState.completedLanguages).filter(k =>
             this.syncState.completedLanguages[k]?.completed
           ).length;
-          
+
           if (afterCount > beforeCount) {
             processedCount++;
           } else {
             skippedCount++;
           }
-          
+
         } catch (error) {
           failedCount++;
           console.error(`❌ Failed to process ${langCode}:`, error.message);
@@ -668,7 +668,7 @@ class I18nApiSyncer {
       console.log("\n🎉 I18n API sync completed!");
       console.log(`📁 Backups saved in: ${this.backupDir}`);
       console.log(`📊 Summary: ✅ ${processedCount} processed, ⏭️ ${skippedCount} skipped, ❌ ${failedCount} failed`);
-      
+
       // 顯示詳細統計
       console.log('');
       this.displaySyncStats();
@@ -686,11 +686,11 @@ if (require.main === module) {
   const options = {
     force: args.includes('--force') || args.includes('-f')
   };
-  
+
   if (options.force) {
     console.log('🔄 Force sync mode enabled - all languages will be processed');
   }
-  
+
   // 清理命令
   if (args.includes('--clear')) {
     const syncer = new I18nApiSyncer();
@@ -699,7 +699,7 @@ if (require.main === module) {
     });
     return;
   }
-  
+
   // 狀態命令
   if (args.includes('--status')) {
     const syncer = new I18nApiSyncer();
@@ -708,10 +708,10 @@ if (require.main === module) {
     });
     return;
   }
-  
+
   if (args.includes('--help') || args.includes('-h')) {
     console.log(`
-SeaSalt.ai I18n API Sync Tool
+Seasalt.ai I18n API Sync Tool
 
 Usage:
   node sync-i18n-api.cjs [options]
@@ -730,7 +730,7 @@ Examples:
 `);
     process.exit(0);
   }
-  
+
   const syncer = new I18nApiSyncer(options);
   syncer.run().catch(console.error);
 }

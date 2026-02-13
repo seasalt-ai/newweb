@@ -1,8 +1,8 @@
-# Sitemap Implementation for Astro SeaSalt.ai Website
+# Sitemap Implementation for Astro Seasalt.ai Website
 
 ## Overview
 
-The sitemap generation system has been completely rebuilt for the Astro version of the SeaSalt.ai website. The new implementation generates comprehensive sitemaps that properly handle the multi-language structure and include all pages.
+The sitemap generation system has been completely rebuilt for the Astro version of the Seasalt.ai website. The new implementation generates comprehensive sitemaps that properly handle the multi-language structure and include all pages.
 
 ## Generated Files
 
@@ -41,7 +41,7 @@ The sitemap generation system has been completely rebuilt for the Astro version 
 - **x-default**: English as default language
 
 ### ✅ External URLs
-Includes important external SeaSalt.ai properties:
+Includes important external Seasalt.ai properties:
 - `https://voice.seasalt.ai/discord/`
 - `https://voice.seasalt.ai/discord/zh-tw`
 - `https://suite.seasalt.ai/`

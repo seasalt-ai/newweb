@@ -123,7 +123,7 @@ Si vous utilisez le bon compte associé à votre fiche d'entreprise, vous devrie
 
 ### 3. Sélectionnez l'entreprise que vous souhaitez mettre à jour.
 
-Si vous avez plusieurs entreprises, vous devriez pouvoir voir toutes vos entreprises. Sélectionnez l'entreprise que vous souhaitez mettre à jour ou gérer actuellement. Dans notre exemple, nous voulons gérer Seasalt AI.
+Si vous avez plusieurs entreprises, vous devriez pouvoir voir toutes vos entreprises. Sélectionnez l'entreprise que vous souhaitez mettre à jour ou gérer actuellement. Dans notre exemple, nous voulons gérer Seasalt.ai.
 
 
 <center>

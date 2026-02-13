@@ -119,7 +119,7 @@ If you are using the correct account associated with your business listing, you 
 
 ### 3. Select the business you want to update.
 
-If you have multiple businesses, you should be able to see all of your businesses. Select the business you want to update or manage at the moment. In our example, we want to manage Seasalt AI. 
+If you have multiple businesses, you should be able to see all of your businesses. Select the business you want to update or manage at the moment. In our example, we want to manage Seasalt.ai. 
 
 
 <center>

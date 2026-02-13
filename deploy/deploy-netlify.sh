@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Netlify Deployment Script for Seasalt AI Website
+# Netlify Deployment Script for Seasalt.ai Website
 # This script deploys the website to Netlify
 #
 # Prerequisites:

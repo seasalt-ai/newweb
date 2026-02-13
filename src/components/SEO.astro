@@ -225,8 +225,8 @@ interface Props {
 }
 
 const {
-  title = 'SeaSalt.ai - AI-Powered Omnichannel Customer Communication Platform',
-  description = 'Transform your customer communications with SeaSalt.ai\'s AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.',
+  title = 'Seasalt.ai - AI-Powered Omnichannel Customer Communication Platform',
+  description = 'Transform your customer communications with Seasalt.ai\'s AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.',
   keywords = 'AI customer service, omnichannel platform, WhatsApp business, customer support software, contact center solutions, conversational AI, customer communication',
   image = '/seasalt-ai-logo.png',
   canonical,
@@ -434,7 +434,7 @@ structuredDataArray.push(organizationData);
 const mobileAppSchema = {
   "@context": "https://schema.org",
   "@type": "MobileApplication",
-  "name": "SeaSalt AI",
+  "name": "Seasalt.ai",
   "description": getLocalizedMobileAppDescription(lang),
   "applicationCategory": "BusinessApplication",
   "operatingSystem": ["Android", "iOS"],
@@ -445,7 +445,7 @@ const mobileAppSchema = {
   },
   "downloadUrl": [
     "https://play.google.com/store/apps/details?id=ai.seasalt.app",
-    "https://apps.apple.com/ms/app/seasalt-ai/id6757783344"
+    "https://apps.apple.com/app/seasalt-ai/id6757783344"
   ],
   "softwareVersion": "1.0",
   "author": { "@id": SCHEMA_IDS.ORGANIZATION },
@@ -464,7 +464,7 @@ if (type === 'article' && article) {
     "dateModified": article.modifiedTime || article.publishedTime,
     "author": {
       "@type": "Organization",
-      "name": article.author || "SeaSalt.ai"
+      "name": article.author || "Seasalt.ai"
     },
     "publisher": organizationData,
     "articleSection": article.section,
@@ -523,7 +523,7 @@ if (type === 'service' && service) {
     "serviceType": service.serviceType,
     "provider": {
       "@type": "Organization",
-      "name": service.provider || "SeaSalt.ai"
+      "name": service.provider || "Seasalt.ai"
     },
     "areaServed": service.areaServed,
     "availableChannel": service.availableChannel,
@@ -758,7 +758,7 @@ if (customJsonLd && customJsonLd.length > 0) {
 <title>{title}</title>
 <meta name="description" content={description} />
 {keywords && <meta name="keywords" content={keywords} />}
-<meta name="author" content="SeaSalt.ai" />
+<meta name="author" content="Seasalt.ai" />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalUrl} />
@@ -775,7 +775,7 @@ if (customJsonLd && customJsonLd.length > 0) {
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonicalUrl} />
 <meta property="og:image" content={absoluteImageUrl} />
-<meta property="og:site_name" content="SeaSalt.ai" />
+<meta property="og:site_name" content="Seasalt.ai" />
 
 <!-- Additional Open Graph images -->
 {images && images.map((image, index) => (
@@ -832,7 +832,7 @@ if (customJsonLd && customJsonLd.length > 0) {
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-<meta name="apple-mobile-web-app-title" content="SeaSalt.ai" />
+<meta name="apple-mobile-web-app-title" content="Seasalt.ai" />
 
 <!-- DNS Prefetch and Preconnect -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />

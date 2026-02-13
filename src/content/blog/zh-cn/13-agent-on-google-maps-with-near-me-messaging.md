@@ -29,7 +29,7 @@ Near Me Messaging 的优势包括：
 
 ### 步骤 1. 访问 Near Me Messaging 网站（更新：我们已将产品重心转向全渠道聊天机器人构建器。现在称为 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)！）。
 
-访问 Near Me Messaging 网站（更新：我们已将产品重心转向全渠道聊天机器人构建器。现在称为 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)！）并点击 *“登录”* 按钮。使用您用于 Google 商家资料的帐户登录后，请确保选中所有可用框并授予 Seasalt AI 启动您的虚拟Agent的权限。Seasalt.ai 是 [Google 官方合作伙伴](https://developers.google.com/business-communications/business-messages/partners)，因此您可以放心，我们将负责任地使用这些权限。**我们使用这些权限有两个功能：首先，访问您的 Google 商家资料中的信息，以便您的虚拟Agent可以提供准确的响应；其次，以便我们可以代表您将Agent启动到您的商家的 Google 地图页面。**
+访问 Near Me Messaging 网站（更新：我们已将产品重心转向全渠道聊天机器人构建器。现在称为 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)！）并点击 *“登录”* 按钮。使用您用于 Google 商家资料的帐户登录后，请确保选中所有可用框并授予 Seasalt.ai 启动您的虚拟Agent的权限。Seasalt.ai 是 [Google 官方合作伙伴](https://developers.google.com/business-communications/business-messages/partners)，因此您可以放心，我们将负责任地使用这些权限。**我们使用这些权限有两个功能：首先，访问您的 Google 商家资料中的信息，以便您的虚拟Agent可以提供准确的响应；其次，以便我们可以代表您将Agent启动到您的商家的 Google 地图页面。**
 
 我们绝不会使用这些权限编辑或删除您的商家资料。我们仍然需要您授予所有权限，因为 Google 不提供 *“查看”*、*“编辑”* 和 *“删除”* 的单独权限。我们只会使用 *“查看”* 权限。
 
@@ -42,7 +42,7 @@ Near Me Messaging 的优势包括：
 <center>
 <img src="/images/blog/13-launch-your-virtual-agent-on-Google-Maps-with-Near-Me-Messaging/3-permissions.png"/>
 
-*授予 Seasalt AI 权限使我们能够代表您将您的品牌的虚拟Agent公开发布到您的 Google 地图页面。*
+*授予 Seasalt.ai 权限使我们能够代表您将您的品牌的虚拟Agent公开发布到您的 Google 地图页面。*
 </center>
 
 

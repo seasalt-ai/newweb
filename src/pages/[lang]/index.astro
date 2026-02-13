@@ -1,34 +1,46 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import Hero from '../../components/Hero.astro';
-import ProblemSolution from '../../components/ProblemSolution.astro';
-import Features from '../../components/Features.astro';
-import HowItWorks from '../../components/HowItWorks.astro';
-import UseCases from '../../components/UseCases.astro';
-import Industries from '../../components/Industries.astro';
-import Channels from '../../components/Channels.astro';
-import Comparison from '../../components/Comparison.astro';
-import { getTranslationHelpers, supportedLocales, type SupportedLanguage } from '../../i18n/helpers';
-import { getLocalizedServiceSchema, getLocalizedFaqSchema } from '../../config/schemaData';
+import Layout from "../../layouts/Layout.astro";
+import Hero from "../../components/Hero.astro";
+import ProblemSolution from "../../components/ProblemSolution.astro";
+import Features from "../../components/Features.astro";
+import HowItWorks from "../../components/HowItWorks.astro";
+import UseCases from "../../components/UseCases.astro";
+import Industries from "../../components/Industries.astro";
+import Channels from "../../components/Channels.astro";
+import Comparison from "../../components/Comparison.astro";
+import {
+  getTranslationHelpers,
+  supportedLocales,
+  type SupportedLanguage,
+} from "../../i18n/helpers";
+import {
+  getLocalizedServiceSchema,
+  getLocalizedFaqSchema,
+} from "../../config/schemaData";
 
 // 為所有支持的語言生成靜態路徑
 export async function getStaticPaths() {
   return supportedLocales.map((lang) => ({
-    params: { lang }
+    params: { lang },
   }));
 }
 
 // 取得動態語言參數
 const { lang } = Astro.params;
-const currentLang = (lang as SupportedLanguage) || 'en';
+const currentLang = (lang as SupportedLanguage) || "en";
 
 // 獲取翻譯幫助函數
 const { t } = await getTranslationHelpers(currentLang);
 
 // 使用翻譯的標題和描述
-const title = t('seo.homepage.title') || 'SeaSalt.ai - AI-Powered Contact Center Solutions';
-const description = t('seo.homepage.description') || 'Transform your customer communications with SeaSalt.ai\'s AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.';
-const keywords = t('seo.homepage.keywords') || 'omni-channel contact center, small business communication, unified inbox, customer service software, WhatsApp business, voice calls, chat support';
+const title =
+  t("seo.homepage.title") || "Seasalt.ai - AI-Powered Contact Center Solutions";
+const description =
+  t("seo.homepage.description") ||
+  "Transform your customer communications with Seasalt.ai's AI-powered omnichannel platform. Unify WhatsApp, SMS, voice calls, and chat in one intelligent solution.";
+const keywords =
+  t("seo.homepage.keywords") ||
+  "omni-channel contact center, small business communication, unified inbox, customer service software, WhatsApp business, voice calls, chat support";
 
 // 首頁的 FAQ 結構化資料 (本地化)
 const homepageFaqs = getLocalizedFaqSchema(currentLang);
@@ -37,119 +49,135 @@ const homepageFaqs = getLocalizedFaqSchema(currentLang);
 const homepageBreadcrumbs = [
   {
     name: "Home",
-url: `/${currentLang}/`
-  }
+    url: `/${currentLang}/`,
+  },
 ];
 
 // 完整的 Organization 資訊
 const enhancedOrganization = {
   name: "Seasalt.ai",
-  alternateName: "Seasalt AI",
+  alternateName: "Seasalt.ai",
   url: "https://seasalt.ai",
   logo: "https://seasalt.ai/seasalt-ai-logo.png",
   sameAs: [
     "https://www.linkedin.com/company/seasalt-ai/",
     "https://twitter.com/SeasaltAI",
     "https://www.youtube.com/@seasaltai",
-    "https://discord.gg/VgAWg3c7rU"
+    "https://discord.gg/VgAWg3c7rU",
   ],
   contactPoint: {
     telephone: "+1-SMB-AI-AGENT",
     contactType: "customer service",
     availableLanguage: [
-      "Arabic", "German", "English", "Spanish", "Persian", "Filipino", 
-      "French", "Hindi", "Indonesian", "Japanese", "Korean", "Malay", 
-      "Polish", "Portuguese", "Russian", "Tamil", "Thai", "Vietnamese", 
-      "Chinese (Simplified)", "Chinese (Traditional)"
-    ]
+      "Arabic",
+      "German",
+      "English",
+      "Spanish",
+      "Persian",
+      "Filipino",
+      "French",
+      "Hindi",
+      "Indonesian",
+      "Japanese",
+      "Korean",
+      "Malay",
+      "Polish",
+      "Portuguese",
+      "Russian",
+      "Tamil",
+      "Thai",
+      "Vietnamese",
+      "Chinese (Simplified)",
+      "Chinese (Traditional)",
+    ],
   },
   address: {
     streetAddress: "Downtown",
     addressLocality: "Bellevue",
     addressRegion: "WA",
     postalCode: "98004",
-    addressCountry: "US"
-  }
+    addressCountry: "US",
+  },
 };
 
 // 自訂 JSON-LD 結構化資料 (本地化)
-const seaChatSchema = getLocalizedServiceSchema('seachat', currentLang);
-const seaXSchema = getLocalizedServiceSchema('seax', currentLang);
-const seaVoiceSchema = getLocalizedServiceSchema('seavoice', currentLang);
+const seaChatSchema = getLocalizedServiceSchema("seachat", currentLang);
+const seaXSchema = getLocalizedServiceSchema("seax", currentLang);
+const seaVoiceSchema = getLocalizedServiceSchema("seavoice", currentLang);
 
 const customJsonLd = [
   // SeaChat Service 結構化資料 (本地化)
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": seaChatSchema.name,
-    "description": seaChatSchema.description,
-    "url": "https://chat.seasalt.ai/",
-    "provider": {
+    name: seaChatSchema.name,
+    description: seaChatSchema.description,
+    url: "https://chat.seasalt.ai/",
+    provider: {
       "@type": "Organization",
-      "name": "Seasalt AI",
-      "url": "https://seasalt.ai/"
+      name: "Seasalt.ai",
+      url: "https://seasalt.ai/",
     },
-    "applicationCategory": "ChatBot",
-    "isAccessibleForFree": "True",
-    "keywords": seaChatSchema.keywords,
-    "featureList": seaChatSchema.featureList,
-    "availableOnDevice": "Web",
-    "audience": {
+    applicationCategory: "ChatBot",
+    isAccessibleForFree: "True",
+    keywords: seaChatSchema.keywords,
+    featureList: seaChatSchema.featureList,
+    availableOnDevice: "Web",
+    audience: {
       "@type": "Audience",
-      "audienceType": seaChatSchema.audienceType
-    }
+      audienceType: seaChatSchema.audienceType,
+    },
   },
   // SeaX Service 結構化資料 (本地化)
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": seaXSchema.name,
-    "description": seaXSchema.description,
-    "url": "https://seasalt.ai/seax",
-    "provider": {
+    name: seaXSchema.name,
+    description: seaXSchema.description,
+    url: "https://seasalt.ai/seax",
+    provider: {
       "@type": "Organization",
-      "name": "Seasalt AI",
-      "url": "https://seasalt.ai/"
+      name: "Seasalt.ai",
+      url: "https://seasalt.ai/",
     },
-    "applicationCategory": "Communication Platform",
-    "isAccessibleForFree": "False",
-    "keywords": seaXSchema.keywords,
-    "featureList": seaXSchema.featureList,
-    "availableOnDevice": "Web",
-    "audience": {
+    applicationCategory: "Communication Platform",
+    isAccessibleForFree: "False",
+    keywords: seaXSchema.keywords,
+    featureList: seaXSchema.featureList,
+    availableOnDevice: "Web",
+    audience: {
       "@type": "Audience",
-      "audienceType": seaXSchema.audienceType
-    }
+      audienceType: seaXSchema.audienceType,
+    },
   },
   // SeaVoice Service 結構化資料 (本地化)
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": seaVoiceSchema.name,
-    "description": seaVoiceSchema.description,
-    "url": "https://seasalt.ai/seavoice",
-    "provider": {
+    name: seaVoiceSchema.name,
+    description: seaVoiceSchema.description,
+    url: "https://seasalt.ai/seavoice",
+    provider: {
       "@type": "Organization",
-      "name": "Seasalt AI",
-      "url": "https://seasalt.ai/"
+      name: "Seasalt.ai",
+      url: "https://seasalt.ai/",
     },
-    "applicationCategory": "Voice Communication Platform",
-    "isAccessibleForFree": "False",
-    "keywords": seaVoiceSchema.keywords,
-    "featureList": seaVoiceSchema.featureList,
-    "availableOnDevice": "Web",
-    "audience": {
+    applicationCategory: "Voice Communication Platform",
+    isAccessibleForFree: "False",
+    keywords: seaVoiceSchema.keywords,
+    featureList: seaVoiceSchema.featureList,
+    availableOnDevice: "Web",
+    audience: {
       "@type": "Audience",
-      "audienceType": seaVoiceSchema.audienceType
-    }
-  }
+      audienceType: seaVoiceSchema.audienceType,
+    },
+  },
 ];
 ---
 
-<Layout 
-  title={title} 
-  description={description} 
+<Layout
+  title={title}
+  description={description}
   lang={currentLang}
   keywords={keywords}
   type="website"
@@ -161,52 +189,70 @@ const customJsonLd = [
   customJsonLd={customJsonLd}
 >
   <!-- WhatsApp Coexistence Announcement Banner -->
-  <div class="bg-gradient-to-r from-green-500 via-green-600 to-emerald-600 text-white py-3 px-4 sm:px-6 lg:px-8">
-    <div class="max-w-7xl mx-auto flex items-center justify-center gap-3 flex-wrap">
-      <span class="inline-flex items-center gap-2 bg-white/20 px-3 py-1 rounded-full text-sm font-semibold">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+  <div
+    class="bg-gradient-to-r from-green-500 via-green-600 to-emerald-600 text-white py-3 px-4 sm:px-6 lg:px-8"
+  >
+    <div
+      class="max-w-7xl mx-auto flex items-center justify-center gap-3 flex-wrap"
+    >
+      <span
+        class="inline-flex items-center gap-2 bg-white/20 px-3 py-1 rounded-full text-sm font-semibold"
+      >
+        <svg
+          class="w-4 h-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13 10V3L4 14h7v7l9-11h-7z"></path>
         </svg>
-        {t('banner.new')}
+        {t("banner.new")}
       </span>
       <p class="text-sm sm:text-base font-medium">
-        <a 
+        <a
           href={`/${currentLang}/channels/whatsapp-coexistence`}
           class="underline underline-offset-4 decoration-2 decoration-yellow-300 hover:decoration-white font-bold hover:text-yellow-200 transition-all"
         >
-          {t('banner.whatsappCoexistence')}
+          {t("banner.whatsappCoexistence")}
         </a>
         <span class="mx-2">|</span>
-        {t('banner.description')}
+        {t("banner.description")}
       </p>
     </div>
   </div>
 
-	<Hero lang={currentLang} />
-	<ProblemSolution lang={currentLang} />
-	<Features lang={currentLang} />
-	<HowItWorks lang={currentLang} />
-	<UseCases lang={currentLang} />
-	<Industries lang={currentLang} />
-	<Channels lang={currentLang} />
-	
-	<!-- Agentic Send Section -->
-	<section class="py-12 md:py-16 bg-white">
-		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-			<a 
-				href="/en/integrations/"
-				class="block group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02]"
-			>
-				<img 
-					src="/agentic-send-images/agentic-send-section.png" 
-					alt="Agentic Send - Connect Your Apps" 
-					class="w-full h-auto"
-					loading="lazy"
-				/>
-				<div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-			</a>
-		</div>
-	</section>
-	
-	<Comparison lang={currentLang} />
+  <Hero lang={currentLang} />
+  <ProblemSolution lang={currentLang} />
+  <Features lang={currentLang} />
+  <HowItWorks lang={currentLang} />
+  <UseCases lang={currentLang} />
+  <Industries lang={currentLang} />
+  <Channels lang={currentLang} />
+
+  <!-- Agentic Send Section -->
+  <section class="py-12 md:py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <a
+        href="/en/integrations/"
+        class="block group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02]"
+      >
+        <img
+          src="/agentic-send-images/agentic-send-section.png"
+          alt="Agentic Send - Connect Your Apps"
+          class="w-full h-auto"
+          loading="lazy"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        >
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <Comparison lang={currentLang} />
 </Layout>
