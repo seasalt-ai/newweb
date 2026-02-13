@@ -1,6 +1,6 @@
 ---
 import { defaultLang, languages } from '../i18n/helpers';
-import { SCHEMA_IDS, ORGANIZATION_INFO, PRODUCTS_INFO, getLocalizedProductInfo, getLocalizedOrganizationDescription, type ProductKey } from '../config/schemaData';
+import { SCHEMA_IDS, ORGANIZATION_INFO, PRODUCTS_INFO, getLocalizedProductInfo, getLocalizedOrganizationDescription, getLocalizedMobileAppDescription, type ProductKey } from '../config/schemaData';
 import { getProductKeyFromPath } from '../utils/schemaGenerator';
 
 interface Props {
@@ -430,6 +430,29 @@ organizationData.availableLanguage = ORGANIZATION_INFO.availableLanguage.map(lan
 }));
 
 structuredDataArray.push(organizationData);
+
+const mobileAppSchema = {
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "SeaSalt AI",
+  "description": getLocalizedMobileAppDescription(lang),
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": ["Android", "iOS"],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "downloadUrl": [
+    "https://play.google.com/store/apps/details?id=ai.seasalt.app",
+    "https://apps.apple.com/ms/app/seasalt-ai/id6757783344"
+  ],
+  "softwareVersion": "1.0",
+  "author": { "@id": SCHEMA_IDS.ORGANIZATION },
+  "publisher": { "@id": SCHEMA_IDS.ORGANIZATION }
+};
+
+structuredDataArray.push(mobileAppSchema);
 
 // Article data
 if (type === 'article' && article) {

@@ -309,6 +309,33 @@ export function getLocalizedOrganizationDescription(language: string): string {
   return LOCALIZED_ORGANIZATION_DESCRIPTIONS[language] || LOCALIZED_ORGANIZATION_DESCRIPTIONS['en'];
 }
 
+export const LOCALIZED_MOBILE_APP_DESCRIPTIONS: Record<string, string> = {
+  'en': 'AI-powered customer engagement platform for automated support, voice agents, and omnichannel communication',
+  'zh-TW': 'AI 驅動的客戶互動平台，提供自動化支援、語音機器人和全通路溝通功能',
+  'zh-CN': 'AI 驱动的客户互动平台，提供自动化支持、语音机器人和全渠道沟通功能',
+  'es': 'Plataforma de compromiso con el cliente impulsada por IA para soporte automatizado, agentes de voz y comunicación omnicanal',
+  'fr': 'Plateforme d\'engagement client alimentée par l\'IA pour le support automatisé, les agents vocaux et la communication omnicanale',
+  'de': 'KI-gestützte Kundenbindungsplattform für automatisierten Support, Sprachagenten und Omnichannel-Kommunikation',
+  'ja': '自動化サポート、音声エージェント、オムニチャネルコミュニケーションのためのAI搭載顧客エンゲージメントプラットフォーム',
+  'ko': '자동화된 지원, 음성 에이전트 및 옴니채널 커뮤니케이션을 위한 AI 기반 고객 참여 플랫폼',
+  'ar': 'منصة تفاعل العملاء المدعومة بالذكاء الاصطناعي للدعم الآلي ووكلاء الصوت والتواصل متعدد القنوات',
+  'fa': 'پلتفرم تعامل مشتری مبتنی بر هوش مصنوعی برای پشتیبانی خودکار، عوامل صوتی و ارتباطات چندکاناله',
+  'fil': 'AI-powered na customer engagement platform para sa automated support, voice agents, at omnichannel communication',
+  'hi': 'स्वचालित समर्थन, वॉयस एजेंट और ओमनीचैनल संचार के लिए AI-संचालित ग्राहक एंगेजमेंट प्लेटफॉर्म',
+  'id': 'Platform keterlibatan pelanggan berbasis AI untuk dukungan otomatis, agen suara, dan komunikasi omnichannel',
+  'ms': 'Platform penglibatan pelanggan berkuasa AI untuk sokongan automatik, ejen suara, dan komunikasi omnichannel',
+  'pl': 'Platforma zaangażowania klienta oparta na AI do zautomatyzowanego wsparcia, agentów głosowych i komunikacji omnichannel',
+  'pt': 'Plataforma de engajamento do cliente alimentada por IA para suporte automatizado, agentes de voz e comunicação omnichannel',
+  'ru': 'Платформа вовлечения клиентов на основе ИИ для автоматизированной поддержки, голосовых агентов и омниканальной коммуникации',
+  'ta': 'தானியங்கு ஆதரவு, குரல் முகவர்கள் மற்றும் பல்வேறு சேனல் தகவல்தொடர்புக்கான AI-இயங்கும் வாடிக்கையாளர் ஈடுபாடு தளம்',
+  'th': 'แพลตฟอร์มการมีส่วนร่วมของลูกค้าที่ขับเคลื่อนด้วย AI สำหรับการสนับสนุนอัตโนมัติ เอเจนต์เสียง และการสื่อสารแบบหลายช่องทาง',
+  'vi': 'Nền tảng tương tác khách hàng được hỗ trợ bởi AI để hỗ trợ tự động, đại lý giọng nói và giao tiếp đa kênh'
+};
+
+export function getLocalizedMobileAppDescription(language: string): string {
+  return LOCALIZED_MOBILE_APP_DESCRIPTIONS[language] || LOCALIZED_MOBILE_APP_DESCRIPTIONS['en'];
+}
+
 // =============================================================================
 // Localized Service Schemas
 // =============================================================================
