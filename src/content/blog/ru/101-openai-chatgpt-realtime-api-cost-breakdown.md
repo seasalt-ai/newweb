@@ -177,7 +177,7 @@ API Realtime ChatGPT-4o представляет собой значительн
 
 
 ## Узнать больше
-Если вы хотите сначала изучить технологию голосового ИИ для обслуживания клиентов по разумной цене, вы можете посетить [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) или можете [записаться на демонстрацию у нас](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Если вы хотите сначала изучить технологию голосового ИИ для обслуживания клиентов по разумной цене, вы можете посетить [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) или можете [записаться на демонстрацию у нас](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 
 ## Об этой серии

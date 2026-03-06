@@ -19,7 +19,7 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
       // SSR 模式：從 props 獲取翻譯
       const keys = key.split('.');
       let result: any = translations;
-      
+
       for (const k of keys) {
         if (result && typeof result === 'object' && k in result) {
           result = result[k];
@@ -28,10 +28,10 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
           return fallback;
         }
       }
-      
+
       return typeof result === 'string' ? result : fallback;
     }
-    
+
     // 如果沒有 translations prop，直接回傳 fallback
     return fallback;
   };
@@ -42,7 +42,7 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
   const humanCallCost = humanMinutes * 0.015;
   const totalMonthly = basePlan + phoneNumberCost + voiceAICost + humanCallCost;
 
-  const meetingUrl = `https://calendly.com/seasalt-ai/seasalt-ai-demo?utm_source=website&utm_medium=footer&utm_campaign=cta&utm_content=demo_${lang}`;
+  const meetingUrl = `https://calendar.app.google/FLjCxzbYLqG6CkNs9?utm_source=website&utm_medium=footer&utm_campaign=cta&utm_content=demo_${lang}`;
 
   return (
     <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
@@ -68,7 +68,7 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
               {getText('seavoice.priceCalculator.configure.title', 'Configure Your Plan')}
             </h3>
-            
+
             {/* Plan Type Selection */}
             <div className="mb-8">
               <label className="block text-sm font-semibold text-gray-700 mb-4">
@@ -77,11 +77,10 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
               <div className="grid grid-cols-1 gap-3">
                 <button
                   onClick={() => setPlanType('inbound')}
-                  className={`p-4 rounded-lg border-2 transition-all text-left ${
-                    planType === 'inbound'
+                  className={`p-4 rounded-lg border-2 transition-all text-left ${planType === 'inbound'
                       ? 'border-teal-500 bg-teal-50 text-teal-900'
                       : 'border-gray-200 bg-white text-gray-700 hover:border-gray-300'
-                  }`}
+                    }`}
                 >
                   <div className="font-semibold">
                     {getText('seavoice.priceCalculator.planType.inbound.title', 'Inbound Only ($29.99/month)')}
@@ -92,11 +91,10 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
                 </button>
                 <button
                   onClick={() => setPlanType('inbound-outbound')}
-                  className={`p-4 rounded-lg border-2 transition-all text-left ${
-                    planType === 'inbound-outbound'
+                  className={`p-4 rounded-lg border-2 transition-all text-left ${planType === 'inbound-outbound'
                       ? 'border-blue-500 bg-blue-50 text-blue-900'
                       : 'border-gray-200 bg-white text-gray-700 hover:border-gray-300'
-                  }`}
+                    }`}
                 >
                   <div className="font-semibold">
                     {getText('seavoice.priceCalculator.planType.inboundOutbound.title', 'Inbound + Outbound ($99/month)')}
@@ -224,18 +222,18 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
               {getText('seavoice.priceCalculator.breakdown.title', 'Monthly Cost Breakdown')}
             </h3>
-            
+
             <div className="space-y-4 mb-8">
               <div className="flex justify-between items-center py-3 border-b border-gray-200">
                 <span className="text-gray-700">
-                  {planType === 'inbound' 
+                  {planType === 'inbound'
                     ? getText('seavoice.priceCalculator.breakdown.inboundPlan', 'Inbound Only Plan')
                     : getText('seavoice.priceCalculator.breakdown.inboundOutboundPlan', 'Inbound + Outbound Plan')
                   }
                 </span>
                 <span className="font-semibold text-lg">${basePlan.toFixed(2)}</span>
               </div>
-              
+
               {(localNumbers > 0 || tollFreeNumbers > 0) && (
                 <div className="flex justify-between items-center py-3 border-b border-gray-200">
                   <div>
@@ -251,7 +249,7 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
                   <span className="font-semibold text-lg">${phoneNumberCost.toFixed(2)}</span>
                 </div>
               )}
-              
+
               {voiceAIMinutes > 0 && (
                 <div className="flex justify-between items-center py-3 border-b border-gray-200">
                   <div>
@@ -265,7 +263,7 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
                   <span className="font-semibold text-lg">${voiceAICost.toFixed(2)}</span>
                 </div>
               )}
-              
+
               {humanMinutes > 0 && (
                 <div className="flex justify-between items-center py-3 border-b border-gray-200">
                   <div>
@@ -288,7 +286,7 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
                 </span>
                 <span className="text-3xl font-bold text-blue-600">${totalMonthly.toFixed(2)}</span>
               </div>
-              
+
               <div className="bg-white rounded-lg p-4 mb-6">
                 <div className="text-sm text-gray-600 space-y-1">
                   <div>✅ {getText('seavoice.priceCalculator.features.usaCanada', 'USA & Canada calling included')}</div>
@@ -306,11 +304,10 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
                   href={planType === 'inbound' ? 'https://chat.seasalt.ai/signup' : 'https://seax.seasalt.ai/signup'}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`w-full py-4 px-6 rounded-lg font-semibold text-white text-center inline-block transition-all transform hover:scale-105 ${
-                    planType === 'inbound' ? 'bg-teal-600 hover:bg-teal-700' : 'bg-blue-600 hover:bg-blue-700'
-                  }`}
+                  className={`w-full py-4 px-6 rounded-lg font-semibold text-white text-center inline-block transition-all transform hover:scale-105 ${planType === 'inbound' ? 'bg-teal-600 hover:bg-teal-700' : 'bg-blue-600 hover:bg-blue-700'
+                    }`}
                 >
-                  {planType === 'inbound' 
+                  {planType === 'inbound'
                     ? getText('seavoice.priceCalculator.cta.getStartedInbound', 'Get Started - Inbound Only')
                     : getText('seavoice.priceCalculator.cta.getStartedInboundOutbound', 'Get Started - Inbound + Outbound')
                   }

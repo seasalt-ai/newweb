@@ -105,4 +105,4 @@ Mailchimp là một cái tên lớn hơn. Đây có thể là một yếu tố n
 
 Bất kể bạn chọn dịch vụ tiếp thị qua email nào, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) đều tích hợp tốt với phần lớn các nền tảng tiếp thị qua email. Bạn có thể thu thập email và khách hàng tiềm năng từ đại lý SeaChat AI và đồng bộ hóa trực tiếp với danh sách tiếp thị qua email của mình.
 
-Xây dựng và khởi chạy đại lý trò chuyện AI trong 10 phút. Hỗ trợ đa ngôn ngữ. Chuyển giao cho nhân viên trực tiếp. Tích hợp với webchat, SMS, Line, CRM, Shopify, lịch, Twilio, ZenDesk và các cuộc gọi điện thoại. Gửi email cho chúng tôi để biết thêm chi tiết tại [seachat@seasalt.ai](mailto:seachat@seasalt.ai) hoặc [đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Xây dựng và khởi chạy đại lý trò chuyện AI trong 10 phút. Hỗ trợ đa ngôn ngữ. Chuyển giao cho nhân viên trực tiếp. Tích hợp với webchat, SMS, Line, CRM, Shopify, lịch, Twilio, ZenDesk và các cuộc gọi điện thoại. Gửi email cho chúng tôi để biết thêm chi tiết tại [seachat@seasalt.ai](mailto:seachat@seasalt.ai) hoặc [đặt lịch demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

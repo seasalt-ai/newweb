@@ -85,4 +85,4 @@ Dalam siri blog ini, kami akan menyelami lebih mendalam ciri-ciri hebat platform
 
 **Pemantauan Pentadbir** - Alat terbina dalam untuk memantau komunikasi pelanggan dan prestasi ejen
 
-Untuk demo peribadi, dan untuk melihat bagaimana SeaX dapat membantu dengan keperluan pusat hubungan pelanggan anda, sila isi borang "[Tempah Demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)" kami.
+Untuk demo peribadi, dan untuk melihat bagaimana SeaX dapat membantu dengan keperluan pusat hubungan pelanggan anda, sila isi borang "[Tempah Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)" kami.

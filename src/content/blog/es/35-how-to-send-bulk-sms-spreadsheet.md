@@ -136,4 +136,4 @@ El envío masivo de SMS a contactos en programas de hojas de cálculo como Excel
 
 ## Contáctenos
 
-Si desea obtener más información sobre 10DLC o explorar sus opciones para el marketing por SMS, [reserve una demostración](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) con nosotros. ¡Siempre estamos felices de hablar!
+Si desea obtener más información sobre 10DLC o explorar sus opciones para el marketing por SMS, [reserve una demostración](https://calendar.app.google/FLjCxzbYLqG6CkNs9) con nosotros. ¡Siempre estamos felices de hablar!

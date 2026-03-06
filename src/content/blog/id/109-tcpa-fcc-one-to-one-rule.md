@@ -94,7 +94,7 @@ Jika Anda ingin berada di depan kurva, silakan ambil tindakan sekarang. 27 Janua
 Perubahan aturan TCPA 2025 akan secara signifikan memengaruhi cara bisnis melakukan jangkauan mereka. Panggilan dan teks yang menggunakan teknologi yang diatur akan memerlukan persetujuan opt-in eksplisit. Bagi mereka yang tidak memiliki opt-in, panggilan manual dan pengiriman teks setelah pembersihan akan diperlukan. Hubungan bisnis yang ada dapat memberikan beberapa pengecualian, tetapi tetap terinformasi dan patuh sangat penting. Selalu bicarakan dengan penasihat hukum Anda sebelum membuat perubahan apa pun.
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Pesan Konsultasi Gratis dengan Kami</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Pesan Konsultasi Gratis dengan Kami</a>
 </center>
 
 

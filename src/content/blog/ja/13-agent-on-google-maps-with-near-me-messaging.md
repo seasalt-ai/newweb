@@ -106,7 +106,7 @@ draft: false
 *バーチャルエージェントの変更/改善が完了したら、「再起動」ボタンをクリックできます。*
 </center>
 
-[デモを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)してください。喜んでお手伝いさせていただきます！
+[デモを予約](https://calendar.app.google/FLjCxzbYLqG6CkNs9)してください。喜んでお手伝いさせていただきます！
 
 更新：製品はオムニチャネルチャットボットビルダーにピボットしました。現在は[SeaChat](https://chat.seasalt.ai/?utm_source=blog)と呼ばれています！
 

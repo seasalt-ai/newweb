@@ -40,4 +40,4 @@ Seasalt.ai에서는 실제 비즈니스 문제점을 해결할 수 있는 대화
 ChatGPT 또는 Meta AI와 단편적인 대화를 많이 할 수 있지만, 이러한 대화를 쉽게 관리할 수는 없습니다. 정말 필요한 것은 고객이 선호하는 채널에서 자체 AI 비서를 제공하는 것이며, 그러면 [모든 대화를 중앙 위치에서 관리](https://chat.seasalt.ai/?utm_source=blog)할 수 있습니다. SeaChat은 이제 **WhatsApp, Meta Facebook Messenger, LINE, 웹 채팅**(자체 웹사이트, Shopify, Squarespace, Wix 웹사이트 포함)과 통합됩니다. 우리는 모든 종류의 채널에서 고객(AI 비서 또는 인간 비서)과 상호 작용할 수 있는 중앙 위치를 제공합니다. 따라서 최고의 고객 경험을 제공하는 데 집중할 수 있습니다. Meta AI 및 기타 기술 거대 기업은 본질적으로 사람들이 자신의 통신 채널에 머물기를 원하기 때문에 옴니채널 통신 기능을 제공할 수 없으며 아마도 제공하지 않을 것입니다.
 
 
-읽어주셔서 감사합니다. 대화형 AI로 무엇을 할 수 있는지 자세히 알아보려면 언제든지 [데모를 예약](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)하십시오.
+읽어주셔서 감사합니다. 대화형 AI로 무엇을 할 수 있는지 자세히 알아보려면 언제든지 [데모를 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)하십시오.

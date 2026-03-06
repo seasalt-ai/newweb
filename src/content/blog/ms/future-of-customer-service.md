@@ -285,4 +285,4 @@ Masa depan perkhidmatan pelanggan adalah cerah, cekap, dan lebih manusiawi darip
 
 ---
 
-*Ingin meneroka bagaimana AI boleh mengubah perkhidmatan pelanggan anda? [Jadualkan perundingan](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) untuk melihat bagaimana Seasalt.ai membantu perniagaan bersedia untuk masa depan pengalaman pelanggan.*
+*Ingin meneroka bagaimana AI boleh mengubah perkhidmatan pelanggan anda? [Jadualkan perundingan](https://calendar.app.google/FLjCxzbYLqG6CkNs9) untuk melihat bagaimana Seasalt.ai membantu perniagaan bersedia untuk masa depan pengalaman pelanggan.*

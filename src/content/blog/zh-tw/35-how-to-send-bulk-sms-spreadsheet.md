@@ -118,4 +118,4 @@ Excel 或 Google 試算表本身不支援簡訊發送，但可用 ClickSend、Za
 
 ## 聯絡我們
 
-如需了解更多 10DLC 或簡訊行銷方案，[預約演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。我們隨時為您服務！
+如需了解更多 10DLC 或簡訊行銷方案，[預約演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。我們隨時為您服務！

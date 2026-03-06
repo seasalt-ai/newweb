@@ -285,4 +285,4 @@ AI가 일상적인 작업에 탁월하지만, 인간은 다음을 위해 필수�
 
 ---
 
-*AI가 고객 서비스를 어떻게 변화시킬 수 있는지 탐구하고 싶으십니까? [상담을 예약](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)하여 Seasalt.ai가 기업이 미래의 고객 경험을 준비하는 데 어떻게 도움을 주는지 확인하십시오.*
+*AI가 고객 서비스를 어떻게 변화시킬 수 있는지 탐구하고 싶으십니까? [상담을 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)하여 Seasalt.ai가 기업이 미래의 고객 경험을 준비하는 데 어떻게 도움을 주는지 확인하십시오.*

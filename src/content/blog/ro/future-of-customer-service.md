@@ -285,4 +285,4 @@ Viitorul serviciului clienți este luminos, eficient și mai uman ca niciodată.
 
 ---
 
-*Vrei să vezi cum AI-ul transformă serviciul tău clienți? [Programează o consultație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pentru a vedea cum Seasalt.ai ajută companiile să se pregătească pentru viitorul experienței clienți.* 
+*Vrei să vezi cum AI-ul transformă serviciul tău clienți? [Programează o consultație](https://calendar.app.google/FLjCxzbYLqG6CkNs9) pentru a vedea cum Seasalt.ai ajută companiile să se pregătească pentru viitorul experienței clienți.* 

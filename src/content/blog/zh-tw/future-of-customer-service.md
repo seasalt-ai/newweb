@@ -285,4 +285,4 @@ draft: false
 
 ---
 
-*想了解AI如何改變您的客戶服務嗎？[安排諮詢](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)以查看Seasalt.ai如何幫助企業為未來的客戶體驗做準備。*
+*想了解AI如何改變您的客戶服務嗎？[安排諮詢](https://calendar.app.google/FLjCxzbYLqG6CkNs9)以查看Seasalt.ai如何幫助企業為未來的客戶體驗做準備。*

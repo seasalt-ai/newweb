@@ -120,4 +120,4 @@ Google 商家消息是节省时间和金钱来回答重复性查询、与客户�
 
 如果您在使用 Google 商家消息的同时仍想直接与您的客户交谈，则需要请咨询机构提供即时聊天解决方案。如果启用此功能，客户可以点击"向在线客服发送消息"按钮，然后您就可以加入对话并与客户聊天。在在线客服方面，对话将在咨询机构选择整合的任何平台上进行；这可以通过短信、WhatsApp、Messenger、Zendesk 等现有客户服务软件或定制的网站或手机应用程序进行。
 
-这就是为什么我们想向您介绍我们的解决方案 Near Me Messaging（更新：我们此后将产品转变为全渠道聊天机器人构建器。现在称为 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)！），它为中小企业提供了经济实惠、快速且易于实施的 Google 商家消息，具有完全可定制、自助服务和即时聊天功能。请继续关注我们关于 Near Me Messaging 及其卓越功能的下一篇文章。[与我们预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)并成为第一个使用 Near Me Messaging 的人！
+这就是为什么我们想向您介绍我们的解决方案 Near Me Messaging（更新：我们此后将产品转变为全渠道聊天机器人构建器。现在称为 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)！），它为中小企业提供了经济实惠、快速且易于实施的 Google 商家消息，具有完全可定制、自助服务和即时聊天功能。请继续关注我们关于 Near Me Messaging 及其卓越功能的下一篇文章。[与我们预约演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)并成为第一个使用 Near Me Messaging 的人！

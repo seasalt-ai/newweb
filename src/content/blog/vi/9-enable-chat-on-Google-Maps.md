@@ -126,4 +126,4 @@ Google sẽ gửi mã xác minh đến số điện thoại của bạn. Nhập 
 
 Bây giờ bạn đã biết cách kích hoạt nút Trò chuyện trên danh sách của mình và lợi ích của nó, làm thế nào để bạn đảm bảo doanh nghiệp của mình có thể theo kịp số lượng yêu cầu của khách hàng ngày càng tăng? Mất rất nhiều thời gian và tiền bạc để trả lời các cuộc trò chuyện lặp đi lặp lại. Hãy xem bài đăng tiếp theo của chúng tôi về Tin nhắn doanh nghiệp trên Google và cách nó có thể giúp bạn tiết kiệm thời gian và tiền bạc trong việc cung cấp dịch vụ khách hàng xuất sắc.
 
-[Đặt lịch demo với chúng tôi](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) và là người đầu tiên nhận được bản dùng thử miễn phí sản phẩm của chúng tôi!
+[Đặt lịch demo với chúng tôi](https://calendar.app.google/FLjCxzbYLqG6CkNs9) và là người đầu tiên nhận được bản dùng thử miễn phí sản phẩm của chúng tôi!

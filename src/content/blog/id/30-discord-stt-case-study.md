@@ -171,7 +171,7 @@ Terakhir, masalah terakhir yang kami lihat adalah beberapa pengguna merasa sanga
 
 Kami berharap fitur-fitur yang direncanakan ini akan memungkinkan kami untuk terus membuat saluran suara lebih mudah diakses oleh semua orang sambil memberi pengguna agensi untuk berinteraksi dengan Bot SeaVoice pada tingkat yang mereka rasa nyaman. Ke depan kami akan terus berupaya untuk secara proaktif mengatasi masalah-masalah yang menantang ini untuk membuat SeaVoice menjadi yang terbaik!
 
-Terima kasih atas minat Anda pada Bot Discord kami dan terima kasih kepada pengguna kami atas dukungan Anda yang berkelanjutan! Anda dapat mempelajari lebih lanjut tentang produk STT kami di [Halaman Beranda Ucapan-ke-Teks SeaVoice](https://suite.seasalt.ai/tts) kami. Untuk demo satu lawan satu dari salah satu produk Kecerdasan Suara kami, isi [Formulir Pesan Demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Terima kasih atas minat Anda pada Bot Discord kami dan terima kasih kepada pengguna kami atas dukungan Anda yang berkelanjutan! Anda dapat mempelajari lebih lanjut tentang produk STT kami di [Halaman Beranda Ucapan-ke-Teks SeaVoice](https://suite.seasalt.ai/tts) kami. Untuk demo satu lawan satu dari salah satu produk Kecerdasan Suara kami, isi [Formulir Pesan Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 Jika Anda belum mencoba bot SeaVoice, Anda dapat mempelajari lebih lanjut tentang bot kami dan menambahkannya ke server Anda dari [Wiki Bot Discord SeaVoice](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/). Jangan ragu juga untuk bergabung dengan [Server Discord SeaVoice Resmi](https://discord.gg/dfAYfwBQ) kami.
 

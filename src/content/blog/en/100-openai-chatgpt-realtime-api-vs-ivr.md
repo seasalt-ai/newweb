@@ -73,4 +73,4 @@ For most businesses, OpenAI's new voice technology is probably too expensive to 
 The most advanced technology isn't always the best choice for your business needs. Consider your budget, the quality of customer service you need, and how well a solution integrates with your existing systems before making any changes.
 
 ## Learn More
-If you'd like to first explore the AI voice technology for customer service at a reasonable price, you can visit [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) or you can [book a demo with us](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 
+If you'd like to first explore the AI voice technology for customer service at a reasonable price, you can visit [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) or you can [book a demo with us](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 

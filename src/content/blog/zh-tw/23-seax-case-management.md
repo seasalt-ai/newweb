@@ -123,4 +123,4 @@ draft: false
 
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/xwZla3ftWLk" title="YouTube 影片播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-感謝您花時間閱讀 SeaX 案例管理系統如何支援您的Agent與客戶互動。請繼續關注我們的下一篇部落格文章，該文章將深入探討使用 SeaX 平台發送批量簡訊的過程。如果您有興趣立即了解更多資訊，請填寫我們的 [預約演示表單](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)，以親身體驗 SeaX 平台。
+感謝您花時間閱讀 SeaX 案例管理系統如何支援您的Agent與客戶互動。請繼續關注我們的下一篇部落格文章，該文章將深入探討使用 SeaX 平台發送批量簡訊的過程。如果您有興趣立即了解更多資訊，請填寫我們的 [預約演示表單](https://calendar.app.google/FLjCxzbYLqG6CkNs9)，以親身體驗 SeaX 平台。

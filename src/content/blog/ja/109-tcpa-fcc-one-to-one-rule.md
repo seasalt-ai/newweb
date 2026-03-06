@@ -91,7 +91,7 @@ FCCのワンツーワン裁定があなたに影響するかどうかを判断�
 2025年のTCPA規則変更は、企業がアウトリーチを行う方法に大きな影響を与えるでしょう。規制されたテクノロジーを使用する電話やテキストには、明示的なオプトイン同意が必要になります。オプトインがない場合は、スクラブ後に手動でダイヤルしたりテキストを送信したりする必要があります。既存のビジネス関係は一部の免除を提供する可能性がありますが、情報収集とコンプライアンスの維持が重要です。変更を行う前に、必ず弁護士に相談してください。
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">無料相談を予約する</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">無料相談を予約する</a>
 </center>
 
 

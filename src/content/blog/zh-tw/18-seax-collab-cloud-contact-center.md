@@ -83,4 +83,4 @@ SeaX 簡化了座席的工作空間，將他們日常所需的一切都整合到
 
 **管理員監控** - 內建工具，用於監控客戶通訊和座席績效
 
-如需個人演示，並了解 SeaX 如何幫助您滿足聯絡中心需求，請填寫我們的「[預約演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)」表格。
+如需個人演示，並了解 SeaX 如何幫助您滿足聯絡中心需求，請填寫我們的「[預約演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)」表格。

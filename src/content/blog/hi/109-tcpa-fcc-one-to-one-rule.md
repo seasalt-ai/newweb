@@ -94,7 +94,7 @@ TCPA अधिनियम, जो 1990 के दशक में उत्प�
 2025 TCPA नियम परिवर्तन व्यवसायों द्वारा अपने आउटरीच को कैसे संचालित करते हैं, इस पर महत्वपूर्ण प्रभाव डालेंगे। विनियमित तकनीक का उपयोग करने वाले कॉल और टेक्स्ट के लिए स्पष्ट ऑप्ट-इन सहमति की आवश्यकता होगी। ऑप्ट-इन के बिना वालों के लिए, स्क्रबिंग के बाद मैन्युअल डायलिंग और टेक्स्टिंग आवश्यक होगा। मौजूदा व्यावसायिक संबंध कुछ छूट प्रदान कर सकते हैं, लेकिन सूचित और अनुपालन में रहना महत्वपूर्ण है। कोई भी बदलाव करने से पहले हमेशा अपने कानूनी सलाहकार से बात करें।
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">हमारे साथ एक मुफ्त परामर्श बुक करें</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">हमारे साथ एक मुफ्त परामर्श बुक करें</a>
 </center>
 
 

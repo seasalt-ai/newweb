@@ -162,7 +162,7 @@ Deci, aceste puncte, împreună cu modul în care am văzut utilizatorii reali f
 Acestea sunt întrebări la care nu se poate răspunde, sau chiar explora pe deplin, într-o singură postare pe blog.
 Cu toate acestea, compania simte o obligație de a lua în considerare continuu aceste probleme pe măsură ce avansăm cu proiectul nostru Discord și continuăm să lucrăm cu actorii noștri vocali.
 
-Vă mulțumim pentru interesul acordat proiectelor noastre Discord Bot și Voice Intelligence! Puteți afla mai multe despre produsul nostru STT pe [pagina noastră de pornire Speech-to-Text](https://suite.seasalt.ai/tts). Pentru o demonstrație individuală a oricărui produs Voice Intelligence, completați [Formularul de rezervare a unei demonstrații](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Vă mulțumim pentru interesul acordat proiectelor noastre Discord Bot și Voice Intelligence! Puteți afla mai multe despre produsul nostru STT pe [pagina noastră de pornire Speech-to-Text](https://suite.seasalt.ai/tts). Pentru o demonstrație individuală a oricărui produs Voice Intelligence, completați [Formularul de rezervare a unei demonstrații](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 Pe partea Discord, puteți afla mai multe despre botul nostru și îl puteți adăuga la serverul dvs. din [Wiki-ul botului Discord SeaVoice](https://wiki.seasalt.ai/seavoice/discord/6-community/). De asemenea, nu ezitați să vă alăturați [Serverului nostru oficial Discord SeaVoice](https://discord.gg/dfAYfwBQ).
 

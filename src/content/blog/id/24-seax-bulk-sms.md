@@ -121,4 +121,4 @@ Sama seperti semua fitur SeaX, kami berusaha memberdayakan agen atau manajer kam
 
 # Penutup
 
-Terima kasih telah meluangkan waktu untuk membaca tentang bagaimana Sistem Bulk SMS SeaX memberdayakan agen untuk mengirim komunikasi keluar selain menangani permintaan pesan masuk. Nantikan segmen berikutnya dalam seri blog kami, yang akan membahas beberapa alat manajemen dan analitik yang dibangun ke dalam platform SeaX. Jika Anda tertarik untuk mempelajari lebih lanjut segera, isi [formulir Pesan Demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) kami untuk melihat langsung platform SeaX.
+Terima kasih telah meluangkan waktu untuk membaca tentang bagaimana Sistem Bulk SMS SeaX memberdayakan agen untuk mengirim komunikasi keluar selain menangani permintaan pesan masuk. Nantikan segmen berikutnya dalam seri blog kami, yang akan membahas beberapa alat manajemen dan analitik yang dibangun ke dalam platform SeaX. Jika Anda tertarik untuk mempelajari lebih lanjut segera, isi [formulir Pesan Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) kami untuk melihat langsung platform SeaX.

@@ -162,7 +162,7 @@ TTS 로그에서 제가 아는 모든 욕설(그리고 아마도 이전에 들�
 이러한 질문들은 단일 블로그 게시물에서 답변하거나 완전히 탐구할 수 없습니다.
 그러나 회사는 디스코드 프로젝트를 진행하고 성우들과 계속 협력하면서 이러한 문제들을 지속적으로 고려해야 할 의무를 느낍니다.
 
-저희 디스코드 봇 및 음성 지능 프로젝트에 관심을 가져주셔서 감사합니다! STT 제품에 대한 자세한 내용은 [음성 텍스트 변환 홈페이지](https://suite.seasalt.ai/tts)에서 확인할 수 있습니다. 음성 지능 제품 중 하나에 대한 일대일 데모를 원하시면 [데모 예약 양식](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)을 작성하십시오.
+저희 디스코드 봇 및 음성 지능 프로젝트에 관심을 가져주셔서 감사합니다! STT 제품에 대한 자세한 내용은 [음성 텍스트 변환 홈페이지](https://suite.seasalt.ai/tts)에서 확인할 수 있습니다. 음성 지능 제품 중 하나에 대한 일대일 데모를 원하시면 [데모 예약 양식](https://calendar.app.google/FLjCxzbYLqG6CkNs9)을 작성하십시오.
 
 디스코드 측에서는 [SeaVoice 디스코드 봇 위키](https://wiki.seasalt.ai/seavoice/discord/6-community/)에서 저희 봇에 대해 자세히 알아보고 서버에 추가할 수 있습니다. 또한 [공식 SeaVoice 디스코드 서버](https://discord.gg/dfAYfwBQ)에 자유롭게 참여하십시오.
 

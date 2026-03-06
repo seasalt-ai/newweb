@@ -94,7 +94,7 @@ Si vous voulez être en avance sur la courbe, agissez maintenant. Le 27 janvier 
 Les modifications de la règle TCPA de 2025 auront un impact significatif sur la manière dont les entreprises mènent leurs activités de prospection. Les appels et les messages texte utilisant une technologie réglementée nécessiteront un consentement explicite d'opt-in. Pour ceux qui n'ont pas opté, la composition manuelle et l'envoi de messages texte après le nettoyage seront nécessaires. Les relations commerciales existantes peuvent offrir certaines exemptions, mais rester informé et conforme est crucial. Parlez toujours à votre conseiller juridique avant d'apporter des modifications.
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Réservez une consultation gratuite avec nous</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Réservez une consultation gratuite avec nous</a>
 </center>
 
 

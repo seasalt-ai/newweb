@@ -159,4 +159,4 @@ Sending batch SMS to contacts in spreadsheet tools like Excel, Google Sheets, an
 
 ## Get in touch
 
-If you’re interested in learning more about 10DLC or learn more about your options for SMS marketing, [book a demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) with us. We are always happy to chat!
+If you’re interested in learning more about 10DLC or learn more about your options for SMS marketing, [book a demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) with us. We are always happy to chat!

@@ -91,7 +91,7 @@ TCPA 法案起源于 1990 年代，经历了多次修订，并在 2010 年代初
 2025 年 TCPA 规则变更将显著影响企业开展外联活动的方式。使用受监管技术的电话和短信将需要明确的选择加入同意。对于没有选择加入的，在清理后需要手动拨号和发短信。现有的业务关系可以提供一些豁免，但保持知情和合规至关重要。在进行任何更改之前，请务必咨询您的法律顾问。
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">与我们预约免费咨询</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">与我们预约免费咨询</a>
 </center>
 
 

@@ -98,4 +98,4 @@ draft: false
 
 ไม่ว่าคุณจะเลือกบริการการตลาดอีเมลใด [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ก็สามารถผสานรวมกับแพลตฟอร์มการตลาดอีเมลส่วนใหญ่ได้เป็นอย่างดี คุณสามารถรวบรวมอีเมลและลูกค้าเป้าหมายจาก AI agent ของ SeaChat และซิงค์โดยตรงกับรายชื่อการตลาดอีเมลของคุณ
 
-สร้างและเปิดตัว AI chat agent ได้ใน 10 นาที รองรับหลายภาษา การโอนสาย agent แบบสด ผสานรวมกับ webchat, SMS, Line, CRM, Shopify, ปฏิทิน, Twilio, ZenDesk และการโทรศัพท์ ส่งอีเมลถึงเราสำหรับรายละเอียดเพิ่มเติมที่ [seachat@seasalt.ai](mailto:seachat@seasalt.ai) หรือ [จองการสาธิต](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)
+สร้างและเปิดตัว AI chat agent ได้ใน 10 นาที รองรับหลายภาษา การโอนสาย agent แบบสด ผสานรวมกับ webchat, SMS, Line, CRM, Shopify, ปฏิทิน, Twilio, ZenDesk และการโทรศัพท์ ส่งอีเมลถึงเราสำหรับรายละเอียดเพิ่มเติมที่ [seachat@seasalt.ai](mailto:seachat@seasalt.ai) หรือ [จองการสาธิต](https://calendar.app.google/FLjCxzbYLqG6CkNs9)

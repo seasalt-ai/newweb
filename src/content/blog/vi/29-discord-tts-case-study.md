@@ -165,7 +165,7 @@ Vì vậy, những điểm này, cùng với cách chúng tôi đã thấy ngư�
 Những câu hỏi này không thể được trả lời, hoặc thậm chí được khám phá đầy đủ, trong một bài đăng blog duy nhất.
 Tuy nhiên, công ty cảm thấy có nghĩa vụ phải liên tục xem xét các vấn đề này khi chúng tôi tiến hành dự án Discord của mình và tiếp tục làm việc với các diễn viên lồng tiếng của chúng tôi.
 
-Cảm ơn bạn đã quan tâm đến dự án Bot Discord và Trí tuệ giọng nói của chúng tôi! Bạn có thể tìm hiểu thêm về sản phẩm STT của chúng tôi trên [Trang chủ Chuyển giọng nói thành văn bản](https://suite.seasalt.ai/tts) của chúng tôi. Để được demo trực tiếp một trong các sản phẩm Trí tuệ giọng nói của chúng tôi, hãy điền vào [Biểu mẫu Đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Cảm ơn bạn đã quan tâm đến dự án Bot Discord và Trí tuệ giọng nói của chúng tôi! Bạn có thể tìm hiểu thêm về sản phẩm STT của chúng tôi trên [Trang chủ Chuyển giọng nói thành văn bản](https://suite.seasalt.ai/tts) của chúng tôi. Để được demo trực tiếp một trong các sản phẩm Trí tuệ giọng nói của chúng tôi, hãy điền vào [Biểu mẫu Đặt lịch demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 Trên Discord, bạn có thể tìm hiểu thêm về bot của chúng tôi và thêm nó vào máy chủ của bạn từ [Wiki Bot Discord SeaVoice](https://wiki.seasalt.ai/seavoice/discord/6-community/). Ngoài ra, hãy thoải mái tham gia [Máy chủ Discord SeaVoice chính thức](https://discord.gg/dfAYfwBQ) của chúng tôi.
 

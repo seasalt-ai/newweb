@@ -1,120 +1,142 @@
 ---
-import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
-import { getTranslationHelpers, languages, getLocalizedPath } from '../../../../i18n/helpers';
+import SeaxLayout from "../../../../layouts/SeaxLayout.astro";
+import {
+  getTranslationHelpers,
+  languages,
+  getLocalizedPath,
+} from "../../../../i18n/helpers";
 
 const { lang } = Astro.params;
 const { t, translations } = await getTranslationHelpers(lang);
 
 // Generate SEO data using SMS Short Code specific keys
 const seoData = {
-  title: t('seax.channels.smsShortCode.seo.title'),
-  description: t('seax.channels.smsShortCode.seo.description'),
-  keywords: 'SMS Short Code, high-volume SMS, enterprise messaging, premium short code, mass communications',
-  canonical: 'https://seasalt.ai' + getLocalizedPath('/seax/channels/sms-short-code', lang),
-  ogImage: '/seax-sms-short-code.png'
+  title: t("seax.channels.smsShortCode.seo.title"),
+  description: t("seax.channels.smsShortCode.seo.description"),
+  keywords:
+    "SMS Short Code, high-volume SMS, enterprise messaging, premium short code, mass communications",
+  canonical:
+    "https://seasalt.ai" +
+    getLocalizedPath("/seax/channels/sms-short-code", lang),
+  ogImage: "/seax-sms-short-code.png",
 };
 
 // Breadcrumbs
 const breadcrumbs = [
-  { name: 'Home', url: getLocalizedPath('/', lang) },
-  { name: 'SeaX', url: getLocalizedPath('/seax', lang) },
-  { name: 'Channels', url: getLocalizedPath('/seax/channels', lang) },
-  { name: t('seax.channels.smsShortCode.title'), url: getLocalizedPath('/seax/channels/sms-short-code', lang) }
+  { name: "Home", url: getLocalizedPath("/", lang) },
+  { name: "SeaX", url: getLocalizedPath("/seax", lang) },
+  { name: "Channels", url: getLocalizedPath("/seax/channels", lang) },
+  {
+    name: t("seax.channels.smsShortCode.title"),
+    url: getLocalizedPath("/seax/channels/sms-short-code", lang),
+  },
 ];
 
 // Features - get from i18n
-const featuresObj = t('seax.channels.smsShortCode.features.items', { returnObjects: true }) as Record<string, string>;
+const featuresObj = t("seax.channels.smsShortCode.features.items", {
+  returnObjects: true,
+}) as Record<string, string>;
 const features = Object.values(featuresObj || {});
 
 // Use cases - get from i18n
-const useCasesObj = t('seax.channels.smsShortCode.useCases.items', { returnObjects: true }) as Record<string, string>;
+const useCasesObj = t("seax.channels.smsShortCode.useCases.items", {
+  returnObjects: true,
+}) as Record<string, string>;
 const useCases = Object.values(useCasesObj || {});
 
 // Stats data
 const stats = [
   {
-    value: t('seax.channels.smsShortCode.stats.messagesPerSecondValue'),
-    label: t('seax.channels.smsShortCode.stats.messagesPerSecond'),
-    icon: 'lightning'
+    value: t("seax.channels.smsShortCode.stats.messagesPerSecondValue"),
+    label: t("seax.channels.smsShortCode.stats.messagesPerSecond"),
+    icon: "lightning",
   },
   {
-    value: t('seax.channels.smsShortCode.stats.deliveryRateValue'),
-    label: t('seax.channels.smsShortCode.stats.deliveryRate'),
-    icon: 'shield'
+    value: t("seax.channels.smsShortCode.stats.deliveryRateValue"),
+    label: t("seax.channels.smsShortCode.stats.deliveryRate"),
+    icon: "shield",
   },
   {
-    value: t('seax.channels.smsShortCode.stats.digitNumbersValue'),
-    label: t('seax.channels.smsShortCode.stats.digitNumbers'),
-    icon: 'trending-up'
-  }
+    value: t("seax.channels.smsShortCode.stats.digitNumbersValue"),
+    label: t("seax.channels.smsShortCode.stats.digitNumbers"),
+    icon: "trending-up",
+  },
 ];
 
 // Pricing data
-const pricingRaw = t('seax.channels.smsShortCode.pricing', { returnObjects: true }) as any;
+const pricingRaw = t("seax.channels.smsShortCode.pricing", {
+  returnObjects: true,
+}) as any;
 const pricing = {
-  setup: pricingRaw?.setup?.value ?? '',
-  monthly: pricingRaw?.monthly?.value ?? '',
-  perMessage: pricingRaw?.perMessage?.value ?? '',
-  note: pricingRaw?.note ?? ''
+  setup: pricingRaw?.setup?.value ?? "",
+  monthly: pricingRaw?.monthly?.value ?? "",
+  perMessage: pricingRaw?.perMessage?.value ?? "",
+  note: pricingRaw?.note ?? "",
 };
 
 const pricingLabels = {
-  setup: pricingRaw?.setup?.label ?? 'Setup',
-  monthly: pricingRaw?.monthly?.label ?? 'Monthly',
-  perMessage: pricingRaw?.perMessage?.label ?? 'Per Message'
+  setup: pricingRaw?.setup?.label ?? "Setup",
+  monthly: pricingRaw?.monthly?.label ?? "Monthly",
+  perMessage: pricingRaw?.perMessage?.label ?? "Per Message",
 };
 
 // Testimonial
 const testimonial = {
-  quote: t('seax.channels.smsShortCode.testimonial.quote'),
-  author: t('seax.channels.smsShortCode.testimonial.author'),
-  company: t('seax.channels.smsShortCode.testimonial.company'),
-  results: t('seax.channels.smsShortCode.testimonial.results')
+  quote: t("seax.channels.smsShortCode.testimonial.quote"),
+  author: t("seax.channels.smsShortCode.testimonial.author"),
+  company: t("seax.channels.smsShortCode.testimonial.company"),
+  results: t("seax.channels.smsShortCode.testimonial.results"),
 };
 
 // FAQs
 const faqs = [
   {
     question: "What is a dedicated short code?",
-    answer: "A dedicated short code is a premium 5-6 digit number exclusively assigned to your business for high-volume SMS messaging, offering maximum deliverability and brand recognition."
+    answer:
+      "A dedicated short code is a premium 5-6 digit number exclusively assigned to your business for high-volume SMS messaging, offering maximum deliverability and brand recognition.",
   },
   {
     question: "How does short code throughput compare to other SMS options?",
-    answer: "Short codes can handle up to 10,000+ messages per second, significantly outperforming toll-free numbers (25 msg/sec) and 10DLC local numbers (10 msg/sec)."
+    answer:
+      "Short codes can handle up to 10,000+ messages per second, significantly outperforming toll-free numbers (25 msg/sec) and 10DLC local numbers (10 msg/sec).",
   },
   {
     question: "What is the setup process for short codes?",
-    answer: "Short code setup involves carrier approval, number provisioning, and compliance verification, typically taking 2-3 weeks to complete with our managed service."
-  }
+    answer:
+      "Short code setup involves carrier approval, number provisioning, and compliance verification, typically taking 2-3 weeks to complete with our managed service.",
+  },
 ];
 
 export async function getStaticPaths() {
-  return Object.keys(languages).map(lang => ({
+  return Object.keys(languages).map((lang) => ({
     params: { lang },
   }));
 }
 
 // Helper function to get demo URL
 const getDemoUrl = () => {
-  return `https://calendly.com/seasalt-ai/seasalt-ai-demo?lang=${lang}`;
+  return `https://calendar.app.google/FLjCxzbYLqG6CkNs9?lang=${lang}`;
 };
 
 // Helper function to get icon SVG
 const getIconSVG = (iconName: string) => {
   const icons = {
-    lightning: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>',
-    shield: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>',
-    'trending-up': '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>'
+    lightning:
+      '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>',
+    shield:
+      '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>',
+    "trending-up":
+      '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>',
   };
   return icons[iconName] || icons.lightning;
 };
 ---
 
-<SeaxLayout 
-  {seoData} 
-  productKey="seax" 
-  breadcrumbs={breadcrumbs} 
-  faqs={faqs} 
+<SeaxLayout
+  {seoData}
+  productKey="seax"
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
   lang={lang}
   headerVersion="seax"
   footerVersion="seax"
@@ -125,15 +147,17 @@ const getIconSVG = (iconName: string) => {
       <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
         <div>
           <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-            {t('seax.channels.smsShortCode.subtitle')}
-            <span class="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent block">
-              {t('seax.channels.smsShortCode.title')}
+            {t("seax.channels.smsShortCode.subtitle")}
+            <span
+              class="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent block"
+            >
+              {t("seax.channels.smsShortCode.title")}
             </span>
           </h1>
           <p class="text-xl text-gray-600 mb-8">
-            {t('seax.channels.smsShortCode.description')}
+            {t("seax.channels.smsShortCode.description")}
           </p>
-          
+
           <div class="flex flex-col sm:flex-row gap-4">
             <a
               href="https://seax.seasalt.ai/signup"
@@ -141,9 +165,18 @@ const getIconSVG = (iconName: string) => {
               rel="noopener noreferrer"
               class="bg-purple-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>{t('seax.channels.smsShortCode.hero.primaryCta')}</span>
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              <span>{t("seax.channels.smsShortCode.hero.primaryCta")}</span>
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
               </svg>
             </a>
             <a
@@ -152,67 +185,97 @@ const getIconSVG = (iconName: string) => {
               rel="noopener noreferrer"
               class="border-2 border-purple-600 text-purple-600 hover:bg-purple-600 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200"
             >
-              {t('seax.channels.smsShortCode.hero.secondaryCta')}
+              {t("seax.channels.smsShortCode.hero.secondaryCta")}
             </a>
           </div>
         </div>
-        
+
         <!-- Premium Campaign Dashboard -->
         <div class="mt-12 lg:mt-0">
           <div class="bg-white rounded-2xl shadow-2xl p-8">
             <div class="space-y-6">
               <div class="flex items-center justify-between">
                 <div class="text-lg font-semibold text-gray-900">
-                  {t('seax.channels.smsShortCode.hero.campaign.title')}
+                  {t("seax.channels.smsShortCode.hero.campaign.title")}
                 </div>
-                <div class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
-                  {t('seax.channels.smsShortCode.hero.campaign.status')}
+                <div
+                  class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium"
+                >
+                  {t("seax.channels.smsShortCode.hero.campaign.status")}
                 </div>
               </div>
 
               <div class="grid grid-cols-2 gap-4">
                 <div class="bg-blue-50 rounded-lg p-4">
                   <div class="text-2xl font-bold text-blue-600 mb-1">
-                    {t('seax.channels.smsShortCode.hero.campaign.messagesSentValue')}
+                    {
+                      t(
+                        "seax.channels.smsShortCode.hero.campaign.messagesSentValue",
+                      )
+                    }
                   </div>
                   <div class="text-sm text-gray-600">
-                    {t('seax.channels.smsShortCode.hero.campaign.messagesSent')}
+                    {t("seax.channels.smsShortCode.hero.campaign.messagesSent")}
                   </div>
                 </div>
                 <div class="bg-green-50 rounded-lg p-4">
                   <div class="text-2xl font-bold text-green-600 mb-1">
-                    {t('seax.channels.smsShortCode.hero.campaign.deliveryRateValue')}
+                    {
+                      t(
+                        "seax.channels.smsShortCode.hero.campaign.deliveryRateValue",
+                      )
+                    }
                   </div>
                   <div class="text-sm text-gray-600">
-                    {t('seax.channels.smsShortCode.hero.campaign.deliveryRate')}
+                    {t("seax.channels.smsShortCode.hero.campaign.deliveryRate")}
                   </div>
                 </div>
               </div>
 
               <div class="space-y-3">
                 <div class="text-sm font-medium text-gray-700">
-                  {t('seax.channels.smsShortCode.hero.recentActivity.title')}
+                  {t("seax.channels.smsShortCode.hero.recentActivity.title")}
                 </div>
                 <div class="space-y-2">
-                  <div class="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
+                  <div
+                    class="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg"
+                  >
                     <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
                     <div class="flex-1 text-sm">
                       <div class="font-medium">
-                        {t('seax.channels.smsShortCode.hero.recentActivity.marketing.title')}
+                        {
+                          t(
+                            "seax.channels.smsShortCode.hero.recentActivity.marketing.title",
+                          )
+                        }
                       </div>
                       <div class="text-gray-500">
-                        {t('seax.channels.smsShortCode.hero.recentActivity.marketing.details')}
+                        {
+                          t(
+                            "seax.channels.smsShortCode.hero.recentActivity.marketing.details",
+                          )
+                        }
                       </div>
                     </div>
                   </div>
-                  <div class="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
+                  <div
+                    class="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg"
+                  >
                     <div class="w-2 h-2 bg-green-500 rounded-full"></div>
                     <div class="flex-1 text-sm">
                       <div class="font-medium">
-                        {t('seax.channels.smsShortCode.hero.recentActivity.appointment.title')}
+                        {
+                          t(
+                            "seax.channels.smsShortCode.hero.recentActivity.appointment.title",
+                          )
+                        }
                       </div>
                       <div class="text-gray-500">
-                        {t('seax.channels.smsShortCode.hero.recentActivity.appointment.details')}
+                        {
+                          t(
+                            "seax.channels.smsShortCode.hero.recentActivity.appointment.details",
+                          )
+                        }
                       </div>
                     </div>
                   </div>
@@ -229,23 +292,32 @@ const getIconSVG = (iconName: string) => {
   <div class="py-16 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {stats.map((stat, index) => (
-          <div class="text-center">
-            <div class={`${index === 0 ? 'bg-blue-50' : index === 1 ? 'bg-green-50' : 'bg-purple-50'} rounded-lg p-6`}>
-              <div class="flex justify-center mb-4">
-                <svg class={`w-8 h-8 ${index === 0 ? 'text-blue-600' : index === 1 ? 'text-green-600' : 'text-purple-600'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <Fragment set:html={getIconSVG(stat.icon)} />
-                </svg>
-              </div>
-              <div class={`text-3xl font-bold mb-2 ${index === 0 ? 'text-blue-600' : index === 1 ? 'text-green-600' : 'text-purple-600'}`}>
-                {stat.value}
-              </div>
-              <div class="text-gray-600 font-medium">
-                {stat.label}
+        {
+          stats.map((stat, index) => (
+            <div class="text-center">
+              <div
+                class={`${index === 0 ? "bg-blue-50" : index === 1 ? "bg-green-50" : "bg-purple-50"} rounded-lg p-6`}
+              >
+                <div class="flex justify-center mb-4">
+                  <svg
+                    class={`w-8 h-8 ${index === 0 ? "text-blue-600" : index === 1 ? "text-green-600" : "text-purple-600"}`}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <Fragment set:html={getIconSVG(stat.icon)} />
+                  </svg>
+                </div>
+                <div
+                  class={`text-3xl font-bold mb-2 ${index === 0 ? "text-blue-600" : index === 1 ? "text-green-600" : "text-purple-600"}`}
+                >
+                  {stat.value}
+                </div>
+                <div class="text-gray-600 font-medium">{stat.label}</div>
               </div>
             </div>
-          </div>
-        ))}
+          ))
+        }
       </div>
     </div>
   </div>
@@ -255,24 +327,36 @@ const getIconSVG = (iconName: string) => {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">
-          {t('seax.channels.smsShortCode.features.title')}
+          {t("seax.channels.smsShortCode.features.title")}
         </h2>
         <p class="text-lg text-gray-600">
-          {t('seax.channels.smsShortCode.features.subtitle')}
+          {t("seax.channels.smsShortCode.features.subtitle")}
         </p>
       </div>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {features.map((feature, index) => (
-          <div class="bg-white rounded-lg p-6 shadow-sm">
-            <div class="flex items-start space-x-3">
-              <svg class="w-6 h-6 text-green-500 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-              </svg>
-              <span class="text-gray-800 font-medium">{feature}</span>
+        {
+          features.map((feature, index) => (
+            <div class="bg-white rounded-lg p-6 shadow-sm">
+              <div class="flex items-start space-x-3">
+                <svg
+                  class="w-6 h-6 text-green-500 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span class="text-gray-800 font-medium">{feature}</span>
+              </div>
             </div>
-          </div>
-        ))}
+          ))
+        }
       </div>
     </div>
   </div>
@@ -282,24 +366,36 @@ const getIconSVG = (iconName: string) => {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">
-          {t('seax.channels.smsShortCode.useCases.title')}
+          {t("seax.channels.smsShortCode.useCases.title")}
         </h2>
         <p class="text-lg text-gray-600">
-          {t('seax.channels.smsShortCode.useCases.subtitle')}
+          {t("seax.channels.smsShortCode.useCases.subtitle")}
         </p>
       </div>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {useCases.map((useCase, index) => (
-          <div class="bg-purple-50 rounded-lg p-6">
-            <div class="flex items-start space-x-3">
-              <svg class="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
-              </svg>
-              <span class="text-gray-800 font-medium">{useCase}</span>
+        {
+          useCases.map((useCase, index) => (
+            <div class="bg-purple-50 rounded-lg p-6">
+              <div class="flex items-start space-x-3">
+                <svg
+                  class="w-6 h-6 text-purple-600 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                  />
+                </svg>
+                <span class="text-gray-800 font-medium">{useCase}</span>
+              </div>
             </div>
-          </div>
-        ))}
+          ))
+        }
       </div>
     </div>
   </div>
@@ -309,53 +405,105 @@ const getIconSVG = (iconName: string) => {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">
-          {t('seax.channels.smsShortCode.premiumFeatures.title')}
+          {t("seax.channels.smsShortCode.premiumFeatures.title")}
         </h2>
         <p class="text-lg text-gray-600">
-          {t('seax.channels.smsShortCode.premiumFeatures.description')}
+          {t("seax.channels.smsShortCode.premiumFeatures.description")}
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-white rounded-lg p-6 shadow-sm">
           <div class="bg-blue-100 p-3 rounded-lg w-fit mb-4">
-            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            <svg
+              class="w-6 h-6 text-blue-600"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
             </svg>
           </div>
           <h3 class="text-lg font-semibold text-gray-900 mb-2">
-            {t('seax.channels.smsShortCode.premiumFeatures.ultraThroughput.title')}
+            {
+              t(
+                "seax.channels.smsShortCode.premiumFeatures.ultraThroughput.title",
+              )
+            }
           </h3>
           <p class="text-gray-600">
-            {t('seax.channels.smsShortCode.premiumFeatures.ultraThroughput.description')}
+            {
+              t(
+                "seax.channels.smsShortCode.premiumFeatures.ultraThroughput.description",
+              )
+            }
           </p>
         </div>
 
         <div class="bg-white rounded-lg p-6 shadow-sm">
           <div class="bg-green-100 p-3 rounded-lg w-fit mb-4">
-            <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            <svg
+              class="w-6 h-6 text-green-600"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+              ></path>
             </svg>
           </div>
           <h3 class="text-lg font-semibold text-gray-900 mb-2">
-            {t('seax.channels.smsShortCode.premiumFeatures.premiumRoutes.title')}
+            {
+              t(
+                "seax.channels.smsShortCode.premiumFeatures.premiumRoutes.title",
+              )
+            }
           </h3>
           <p class="text-gray-600">
-            {t('seax.channels.smsShortCode.premiumFeatures.premiumRoutes.description')}
+            {
+              t(
+                "seax.channels.smsShortCode.premiumFeatures.premiumRoutes.description",
+              )
+            }
           </p>
         </div>
 
         <div class="bg-white rounded-lg p-6 shadow-sm">
           <div class="bg-purple-100 p-3 rounded-lg w-fit mb-4">
-            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+            <svg
+              class="w-6 h-6 text-purple-600"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
             </svg>
           </div>
           <h3 class="text-lg font-semibold text-gray-900 mb-2">
-            {t('seax.channels.smsShortCode.premiumFeatures.brandRecognition.title')}
+            {
+              t(
+                "seax.channels.smsShortCode.premiumFeatures.brandRecognition.title",
+              )
+            }
           </h3>
           <p class="text-gray-600">
-            {t('seax.channels.smsShortCode.premiumFeatures.brandRecognition.description')}
+            {
+              t(
+                "seax.channels.smsShortCode.premiumFeatures.brandRecognition.description",
+              )
+            }
           </p>
         </div>
       </div>
@@ -367,53 +515,93 @@ const getIconSVG = (iconName: string) => {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">
-          {t('seax.channels.smsShortCode.pricing.title')}
+          {t("seax.channels.smsShortCode.pricing.title")}
         </h2>
         <p class="text-lg text-gray-600">
-          {t('seax.channels.smsShortCode.pricing.subtitle')}
+          {t("seax.channels.smsShortCode.pricing.subtitle")}
         </p>
       </div>
-      
-      <div class="bg-white rounded-2xl p-8 shadow-lg max-w-2xl mx-auto border-2 border-purple-200">
+
+      <div
+        class="bg-white rounded-2xl p-8 shadow-lg max-w-2xl mx-auto border-2 border-purple-200"
+      >
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="text-center">
             <div class="bg-green-100 p-3 rounded-lg w-fit mx-auto mb-4">
-              <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              <svg
+                class="w-6 h-6 text-green-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.031 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                ></path>
               </svg>
             </div>
-            <div class="text-lg font-semibold text-gray-900 mb-2">{pricingLabels.setup}</div>
+            <div class="text-lg font-semibold text-gray-900 mb-2">
+              {pricingLabels.setup}
+            </div>
             <div class="text-2xl font-bold text-green-600">{pricing.setup}</div>
           </div>
-          
+
           <div class="text-center">
             <div class="bg-blue-100 p-3 rounded-lg w-fit mx-auto mb-4">
-              <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              <svg
+                class="w-6 h-6 text-blue-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
             </div>
-            <div class="text-lg font-semibold text-gray-900 mb-2">{pricingLabels.monthly}</div>
-            <div class="text-2xl font-bold text-blue-600">{pricing.monthly}</div>
+            <div class="text-lg font-semibold text-gray-900 mb-2">
+              {pricingLabels.monthly}
+            </div>
+            <div class="text-2xl font-bold text-blue-600">
+              {pricing.monthly}
+            </div>
           </div>
-          
+
           <div class="text-center">
             <div class="bg-purple-100 p-3 rounded-lg w-fit mx-auto mb-4">
-              <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+              <svg
+                class="w-6 h-6 text-purple-600"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
               </svg>
             </div>
-            <div class="text-lg font-semibold text-gray-900 mb-2">{pricingLabels.perMessage}</div>
-            <div class="text-2xl font-bold text-purple-600">{pricing.perMessage}</div>
+            <div class="text-lg font-semibold text-gray-900 mb-2">
+              {pricingLabels.perMessage}
+            </div>
+            <div class="text-2xl font-bold text-purple-600">
+              {pricing.perMessage}
+            </div>
           </div>
         </div>
-        
-        {pricing.note && (
-          <div class="mt-8 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-            <p class="text-sm text-yellow-800 text-center">
-              {pricing.note}
-            </p>
-          </div>
-        )}
+
+        {
+          pricing.note && (
+            <div class="mt-8 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
+              <p class="text-sm text-yellow-800 text-center">{pricing.note}</p>
+            </div>
+          )
+        }
       </div>
     </div>
   </div>
@@ -426,7 +614,9 @@ const getIconSVG = (iconName: string) => {
       </blockquote>
       <div class="text-lg font-semibold text-white">{testimonial.author}</div>
       <div class="text-purple-200">{testimonial.company}</div>
-      <div class="text-sm text-purple-100 mt-2 bg-white/10 rounded-lg p-4 max-w-md mx-auto">
+      <div
+        class="text-sm text-purple-100 mt-2 bg-white/10 rounded-lg p-4 max-w-md mx-auto"
+      >
         <div class="text-white font-bold text-lg">
           {testimonial.results}
         </div>
@@ -438,10 +628,10 @@ const getIconSVG = (iconName: string) => {
   <div class="py-20 bg-gradient-to-r from-purple-600 to-indigo-600">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">
-        {t('seax.channels.smsShortCode.cta.title')}
+        {t("seax.channels.smsShortCode.cta.title")}
       </h2>
       <p class="text-xl text-white opacity-90 mb-8 max-w-2xl mx-auto">
-        {t('seax.channels.smsShortCode.cta.description')}
+        {t("seax.channels.smsShortCode.cta.description")}
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a
@@ -450,17 +640,17 @@ const getIconSVG = (iconName: string) => {
           rel="noopener noreferrer"
           class="bg-white text-purple-600 hover:bg-gray-50 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
         >
-          {t('seax.channels.smsShortCode.cta.primary')}
+          {t("seax.channels.smsShortCode.cta.primary")}
         </a>
         <a
-          href={getLocalizedPath('/seax/channels/sms-toll-free', lang)}
+          href={getLocalizedPath("/seax/channels/sms-toll-free", lang)}
           class="border-2 border-white text-white hover:bg-white hover:text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200"
         >
-          {t('seax.channels.smsShortCode.cta.secondary')}
+          {t("seax.channels.smsShortCode.cta.secondary")}
         </a>
       </div>
       <p class="text-sm text-white opacity-75 mt-4 max-w-2xl mx-auto">
-        {t('seax.channels.smsShortCode.cta.alternative')}
+        {t("seax.channels.smsShortCode.cta.alternative")}
       </p>
     </div>
   </div>

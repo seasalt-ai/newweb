@@ -118,4 +118,4 @@ Din această pagină puteți adăuga o singură intrare nouă în baza de cunoș
 Dacă doriți să vedeți o prezentare mai aprofundată a sistemului de baze de cunoștințe și a modului în care se integrează cu platforma SeaX, vă rugăm să vizionați webinarul nostru pe acest subiect:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Pentru o demonstrație individuală sau pentru a afla mai multe despre cum Seasalt.ai își poate adapta soluțiile la nevoile afacerii dvs., vă rugăm să completați formularul nostru [Rezervați o demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Pentru o demonstrație individuală sau pentru a afla mai multe despre cum Seasalt.ai își poate adapta soluțiile la nevoile afacerii dvs., vă rugăm să completați formularul nostru [Rezervați o demonstrație](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

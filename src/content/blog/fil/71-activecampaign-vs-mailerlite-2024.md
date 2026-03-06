@@ -99,4 +99,4 @@ Piliin ang **ActiveCampaign** kung: Kailangan mo ng matatag na automation, isang
 
 Anuman ang piliin mo para sa iyong serbisyo ng email marketing, mahusay na isinasama ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog) sa karamihan ng mga platform ng email marketing. Maaari mong kolektahin ang mga email at lead mula sa ahente ng AI SeaChat at direktang i-sync sa iyong listahan ng email marketing. 
 
-Bumuo at maglunsad ng AI chat agent sa 10 minuto. Suporta sa maraming wika. Live agent transfer. Isama sa webchat, SMS, Line, CRM, Shopify, mga kalendaryo, Twilio, ZenDesk, at mga tawag sa telepono. Mag-email sa amin para sa higit pang mga detalye sa [seachat@seasalt.ai](mailto:seachat@seasalt.ai) o [mag-book ng demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 
+Bumuo at maglunsad ng AI chat agent sa 10 minuto. Suporta sa maraming wika. Live agent transfer. Isama sa webchat, SMS, Line, CRM, Shopify, mga kalendaryo, Twilio, ZenDesk, at mga tawag sa telepono. Mag-email sa amin para sa higit pang mga detalye sa [seachat@seasalt.ai](mailto:seachat@seasalt.ai) o [mag-book ng demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 

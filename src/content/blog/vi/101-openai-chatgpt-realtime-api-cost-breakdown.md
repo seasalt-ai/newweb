@@ -177,7 +177,7 @@ Với tư cách là một người thực hành trong lĩnh vực nhận dạng 
 
 
 ## Tìm hiểu thêm
-Nếu bạn muốn khám phá công nghệ giọng nói AI cho dịch vụ khách hàng với giá cả hợp lý, bạn có thể truy cập [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) hoặc bạn có thể [đặt lịch demo với chúng tôi](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Nếu bạn muốn khám phá công nghệ giọng nói AI cho dịch vụ khách hàng với giá cả hợp lý, bạn có thể truy cập [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) hoặc bạn có thể [đặt lịch demo với chúng tôi](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 
 ## Về chuỗi này

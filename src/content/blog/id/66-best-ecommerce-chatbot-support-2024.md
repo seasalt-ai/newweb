@@ -135,7 +135,7 @@ Opsi Chatbot: Anda dapat membawa agen AI SeaChat ke toko Ecwid Anda. Ecwid juga 
 
 Pertimbangkan faktor-faktor ini saat memutuskan platform e-commerce terbaik:
 
-- Fitur Chatbot: Apakah Anda memerlukan penanganan FAQ sederhana atau pembuatan prospek yang kompleks? Apakah Anda ingin menggunakan agen obrolan yang sama untuk beberapa saluran? Mungkin mudah untuk memulai tetapi perencanaan yang baik dapat menghemat banyak masalah operasional di kemudian hari. [Kami senang membantu](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) jika Anda ingin berbicara tentang perencanaan chatbot untuk toko web Anda.
+- Fitur Chatbot: Apakah Anda memerlukan penanganan FAQ sederhana atau pembuatan prospek yang kompleks? Apakah Anda ingin menggunakan agen obrolan yang sama untuk beberapa saluran? Mungkin mudah untuk memulai tetapi perencanaan yang baik dapat menghemat banyak masalah operasional di kemudian hari. [Kami senang membantu](https://calendar.app.google/FLjCxzbYLqG6CkNs9) jika Anda ingin berbicara tentang perencanaan chatbot untuk toko web Anda.
 - Anggaran: Pertimbangkan biaya aplikasi dan biaya transaksi. Skala adalah faktor besar. Banyak pembuat e-commerce murah atau bahkan gratis untuk memulai, tetapi biaya transaksi dan peningkatan paket dapat meningkatkan biaya Anda secara signifikan seiring waktu. Lakukan penelitian menyeluruh sebelum memulai untuk menghindari kejutan.
 - Kemudahan Penggunaan: Jika Anda membangun toko sendiri, Anda harus merasa nyaman dengan alat-alatnya. Tingkat kenyamanan dan preferensi setiap orang untuk alat teknis berbeda, jadi pastikan untuk menguji alat tersebut sebelum mengunci solusi.
 
@@ -149,4 +149,4 @@ Pertimbangkan faktor-faktor ini saat memutuskan platform e-commerce terbaik:
 
 ## Anda dapat melakukan lebih banyak dengan SeaChat
 
-Tidak peduli apa yang Anda pilih untuk bisnis online Anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) terintegrasi dengan baik dengan sebagian besar pembuat situs web e-commerce. Bangun dan luncurkan agen obrolan AI dalam 10 menit. Dukungan multibahasa. Transfer agen langsung. Integrasikan dengan obrolan web, SMS, Line, CRM, Shopify, kalender, Twilio, ZenDesk, dan panggilan telepon. Kirim email kepada kami untuk detail lebih lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [pesan demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Tidak peduli apa yang Anda pilih untuk bisnis online Anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) terintegrasi dengan baik dengan sebagian besar pembuat situs web e-commerce. Bangun dan luncurkan agen obrolan AI dalam 10 menit. Dukungan multibahasa. Transfer agen langsung. Integrasikan dengan obrolan web, SMS, Line, CRM, Shopify, kalender, Twilio, ZenDesk, dan panggilan telepon. Kirim email kepada kami untuk detail lebih lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [pesan demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

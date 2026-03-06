@@ -177,7 +177,7 @@ ChatGPT-4o का रियलटाइम API वॉयस AI तकनीक �
 
 
 ## और जानें
-यदि आप पहले उचित मूल्य पर ग्राहक सेवा के लिए AI वॉयस टेक्नोलॉजी का पता लगाना चाहते हैं, तो आप [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) पर जा सकते हैं या आप [हमारे साथ एक डेमो बुक कर सकते हैं](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)।
+यदि आप पहले उचित मूल्य पर ग्राहक सेवा के लिए AI वॉयस टेक्नोलॉजी का पता लगाना चाहते हैं, तो आप [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) पर जा सकते हैं या आप [हमारे साथ एक डेमो बुक कर सकते हैं](https://calendar.app.google/FLjCxzbYLqG6CkNs9)।
 
 
 ## इस श्रृंखला के बारे में

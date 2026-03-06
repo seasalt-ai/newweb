@@ -85,4 +85,4 @@ Trong loạt blog này, chúng tôi sẽ đi sâu hơn vào các tính năng tuy
 
 **Giám sát quản trị viên** - Các công cụ tích hợp sẵn để giám sát giao tiếp khách hàng và hiệu suất đại lý
 
-Để có bản demo cá nhân, và để xem SeaX có thể giúp gì cho nhu cầu trung tâm liên lạc của bạn, vui lòng điền vào biểu mẫu "[Đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)" của chúng tôi.
+Để có bản demo cá nhân, và để xem SeaX có thể giúp gì cho nhu cầu trung tâm liên lạc của bạn, vui lòng điền vào biểu mẫu "[Đặt lịch demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)" của chúng tôi.

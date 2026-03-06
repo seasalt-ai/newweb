@@ -288,4 +288,4 @@ async def receive_discord_message(request: Request, response: Response):
 
 # 總結
 總而言之，在本博客系列中，我們討論了 Discord 的日益普及以及它作為品牌與客戶互動的新平台所帶來的機會。我們介紹了 Discord 的一些基本功能，以展示品牌如何建立自己的在線社區，以及更高級的功能，這些功能允許品牌使用 Discord 機器人自動化其服務器上的審核和客戶支持。最後，我們分享了我們如何將 Discord 與我們的客戶服務平台 SeaX 集成，從而為 Discord 社區帶來高級功能，例如實時Agent轉接、案例管理和 AI 驅動的知識庫搜索。
-如需個人演示，或了解 Seasalt.ai 如何幫助滿足您的特定業務需求，請填寫我們的“[預訂演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)”表格。有關 Flex/Discord 集成的更多信息或聯繫我們，請訪問 [Seasalt.ai 的 Twilio 合作夥伴列表](https://showcase.twilio.com/partner-listing/a8E8Z000000PDCQUA4)。
+如需個人演示，或了解 Seasalt.ai 如何幫助滿足您的特定業務需求，請填寫我們的“[預訂演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)”表格。有關 Flex/Discord 集成的更多信息或聯繫我們，請訪問 [Seasalt.ai 的 Twilio 合作夥伴列表](https://showcase.twilio.com/partner-listing/a8E8Z000000PDCQUA4)。

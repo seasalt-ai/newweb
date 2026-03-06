@@ -85,4 +85,4 @@ In dieser Blog-Serie werden wir tiefer in die großartigen Funktionen der SeaX-P
 
 **Administrator-Überwachung** - Integrierte Tools zur Überwachung der Kundenkommunikation und der Agentenleistung
 
-Für eine persönliche Demo und um zu sehen, wie SeaX Ihnen bei Ihren Contact Center-Anforderungen helfen kann, füllen Sie bitte unser Formular „[Demo buchen](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)“ aus.
+Für eine persönliche Demo und um zu sehen, wie SeaX Ihnen bei Ihren Contact Center-Anforderungen helfen kann, füllen Sie bitte unser Formular „[Demo buchen](https://calendar.app.google/FLjCxzbYLqG6CkNs9)“ aus.

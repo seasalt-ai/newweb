@@ -9,7 +9,7 @@ interface PhoneBannerProps {
 
 const PhoneBanner = ({ lang, translations }: PhoneBannerProps) => {
   const { t, isLoading } = useTranslation(lang);
-  
+
   // Use passed translations or fall back to hook
   const getText = (key: string, fallback: string) => {
     if (translations) {
@@ -25,7 +25,7 @@ const PhoneBanner = ({ lang, translations }: PhoneBannerProps) => {
   const [isVisible, setIsVisible] = useState(true);
 
   if (!isVisible) return null;
-  
+
   // 載入狀態時顯示預設內容
   if (isLoading && !translations) {
     return (
@@ -36,7 +36,7 @@ const PhoneBanner = ({ lang, translations }: PhoneBannerProps) => {
             🎉 Get a free consultation call - Book now!
           </span>
           <a
-            href="https://calendly.com/seasalt-ai/seasalt-ai-demo"
+            href="https://calendar.app.google/FLjCxzbYLqG6CkNs9"
             className="ml-3 text-sm underline hover:no-underline"
           >
             Book Call
@@ -56,15 +56,15 @@ const PhoneBanner = ({ lang, translations }: PhoneBannerProps) => {
     <div className="bg-blue-600 text-white py-2 px-4 relative">
       <div className="max-w-7xl mx-auto flex items-center justify-center">
         <Phone className="w-4 h-4 mr-2" />
-          <span className="text-sm font-medium">
-            🎉 {getText('banner.phone.text', 'Get a free consultation call - Book now!')}
-          </span>
-          <a
-            href="https://calendly.com/seasalt-ai/seasalt-ai-demo"
-            className="ml-3 text-sm underline hover:no-underline"
-          >
-            {getText('banner.phone.cta', 'Book Call')}
-          </a>
+        <span className="text-sm font-medium">
+          🎉 {getText('banner.phone.text', 'Get a free consultation call - Book now!')}
+        </span>
+        <a
+          href="https://calendar.app.google/FLjCxzbYLqG6CkNs9"
+          className="ml-3 text-sm underline hover:no-underline"
+        >
+          {getText('banner.phone.cta', 'Book Call')}
+        </a>
       </div>
       <button
         onClick={() => setIsVisible(false)}

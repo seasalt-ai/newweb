@@ -106,7 +106,7 @@ El botón de chat puede tardar hasta cuatro horas en aparecer en Google Maps. Un
 *Puede hacer clic en el botón "Relanzar" una vez que haya terminado de realizar cambios/mejoras en su agente virtual.*
 </center>
 
-[Reserve una demostración con nosotros](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) y estaremos encantados de ayudarle.
+[Reserve una demostración con nosotros](https://calendar.app.google/FLjCxzbYLqG6CkNs9) y estaremos encantados de ayudarle.
 
 Actualización: ¡Desde entonces hemos cambiado el enfoque del producto para que sea un creador de chatbots omnicanal. Ahora se llama [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!
 

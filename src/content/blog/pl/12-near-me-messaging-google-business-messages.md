@@ -119,4 +119,4 @@ Właściciel może dołączyć do dowolnej rozmowy w dowolnym momencie, o ile u�
 *Interfejs funkcji agenta na żywo Near Me.*
 </center>
 
-Czy jesteś gotowy, aby rozpocząć korzystanie z Near Me Messaging? Bądź na bieżąco z naszym następnym postem o tym, jak uruchomić swojego wirtualnego agenta za pomocą Near Me Messaging. [Zarezerwuj demo z nami](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) już dziś i bądź jednym z pierwszych, którzy otrzymają bezpłatną wersję próbną Near Me Messaging!
+Czy jesteś gotowy, aby rozpocząć korzystanie z Near Me Messaging? Bądź na bieżąco z naszym następnym postem o tym, jak uruchomić swojego wirtualnego agenta za pomocą Near Me Messaging. [Zarezerwuj demo z nami](https://calendar.app.google/FLjCxzbYLqG6CkNs9) już dziś i bądź jednym z pierwszych, którzy otrzymają bezpłatną wersję próbną Near Me Messaging!

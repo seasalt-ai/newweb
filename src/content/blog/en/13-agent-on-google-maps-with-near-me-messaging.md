@@ -105,7 +105,7 @@ It can take up to four hours for the chat button to appear on Google Maps. Once 
 *You can click "Re-Launch" button once you are done making changes/improvements to your virtual agent.*
 </center>
 
-[Book a demo with us](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) and we will be more than happy to help you!
+[Book a demo with us](https://calendar.app.google/FLjCxzbYLqG6CkNs9) and we will be more than happy to help you!
 
 Update: We've since pivoted the product to be an omni-channel chatbot builder. Now called [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!
 

@@ -133,7 +133,7 @@ Ecwid是一个流行的电子商务平台，以其简单性和易用性而闻名
 
 在决定最佳电子商务平台时，请考虑以下因素：
 
-- 聊天机器人功能：您需要简单的常见问题解答处理还是复杂的潜在客户开发？您想为多个渠道使用相同的聊天座席吗？开始可能很容易，但良好的规划可以为您节省大量的运营麻烦。如果您想讨论您的网店的聊天机器人规划，[我们很乐意提供帮助](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+- 聊天机器人功能：您需要简单的常见问题解答处理还是复杂的潜在客户开发？您想为多个渠道使用相同的聊天座席吗？开始可能很容易，但良好的规划可以为您节省大量的运营麻烦。如果您想讨论您的网店的聊天机器人规划，[我们很乐意提供帮助](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。
 - 预算：考虑应用程序成本和交易费用。扩展是一个重要因素。许多电子商务建设者开始时便宜甚至免费，但交易费用和套餐升级可能会随着时间的推移显著增加您的成本。在开始之前进行彻底的研究，以避免意外。
 - 易用性：如果您自己构建商店，您需要熟悉这些工具。每个人对技术工具的舒适度和偏好都不同，因此在锁定解决方案之前务必测试该工具。
 
@@ -147,4 +147,4 @@ Ecwid是一个流行的电子商务平台，以其简单性和易用性而闻名
 
 ## 使用SeaChat您可以做更多
 
-无论您最终为您的在线业务选择什么，[SeaChat](https://chat.seasalt.ai/?utm_source=blog)都能与大多数电子商务网站建设者良好集成。在10分钟内构建并启动AI聊天座席。多语言支持。实时座席转接。与网络聊天、短信、Line、CRM、Shopify、日历、Twilio、ZenDesk和电话集成。如需更多详细信息，请发送电子邮件至[seachat@seasalt.ai](mailto:seachat@seasalt.ai)或[预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+无论您最终为您的在线业务选择什么，[SeaChat](https://chat.seasalt.ai/?utm_source=blog)都能与大多数电子商务网站建设者良好集成。在10分钟内构建并启动AI聊天座席。多语言支持。实时座席转接。与网络聊天、短信、Line、CRM、Shopify、日历、Twilio、ZenDesk和电话集成。如需更多详细信息，请发送电子邮件至[seachat@seasalt.ai](mailto:seachat@seasalt.ai)或[预约演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。

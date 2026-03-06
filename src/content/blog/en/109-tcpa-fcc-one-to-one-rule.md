@@ -93,7 +93,7 @@ If you want to be ahead of the curve, please take action now. Jan 27, 2025 is ap
 The 2025 TCPA rule changes will significantly impact how businesses conduct their outreach. Calls and texts using regulated technology will require explicit opt-in consent. For those without opt-in, manual dialing and texting after scrubbing will be necessary. Existing business relationships can provide some exemptions, but staying informed and compliant is crucial. Always talk to your legal counsel before making any changes. 
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Book a Free Consultation with Us</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Book a Free Consultation with Us</a>
 </center>
 
 

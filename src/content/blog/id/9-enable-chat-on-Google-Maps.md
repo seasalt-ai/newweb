@@ -125,4 +125,4 @@ Google akan mengirimkan kode verifikasi ke nomor telepon Anda. Masukkan kode ver
 
 Sekarang setelah Anda tahu cara mengaktifkan tombol Obrolan di daftar Anda dan manfaatnya, bagaimana Anda memastikan bisnis Anda dapat mengikuti jumlah pertanyaan pelanggan yang terus bertambah? Dibutuhkan banyak waktu dan uang untuk membalas obrolan yang berulang. Lihat postingan kami berikutnya tentang Pesan Bisnis Google dan bagaimana ini dapat membantu Anda menghemat waktu dan uang dalam memberikan layanan pelanggan yang sangat baik.
 
-[Pesan demo dengan kami](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) dan jadilah yang pertama menerima uji coba gratis produk kami!
+[Pesan demo dengan kami](https://calendar.app.google/FLjCxzbYLqG6CkNs9) dan jadilah yang pertama menerima uji coba gratis produk kami!

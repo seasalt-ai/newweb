@@ -121,4 +121,4 @@ Mengirim SMS massal dengan alat seperti Excel atau Google Sheets sangat efisien,
 
 ## Hubungi Kami
 
-Jika ingin tahu lebih lanjut tentang 10DLC atau opsi SMS marketing, [jadwalkan demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) bersama kami. Kami siap membantu!
+Jika ingin tahu lebih lanjut tentang 10DLC atau opsi SMS marketing, [jadwalkan demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) bersama kami. Kami siap membantu!

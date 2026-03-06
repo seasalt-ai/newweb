@@ -106,6 +106,6 @@ Near Me Messaging จะเริ่มสร้างตัวแทนเส�
 *คุณสามารถคลิกปุ่ม "เปิดตัวใหม่" เมื่อคุณทำการเปลี่ยนแปลง/ปรับปรุงตัวแทนเสมือนของคุณเสร็จแล้ว.*
 </center>
 
-[จองการสาธิตกับเรา](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) และเรายินดีที่จะช่วยเหลือคุณ!
+[จองการสาธิตกับเรา](https://calendar.app.google/FLjCxzbYLqG6CkNs9) และเรายินดีที่จะช่วยเหลือคุณ!
 
 อัปเดต: เราได้เปลี่ยนผลิตภัณฑ์ให้เป็นเครื่องมือสร้างแชทบอทแบบ Omnichannel แล้ว ตอนนี้เรียกว่า [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!

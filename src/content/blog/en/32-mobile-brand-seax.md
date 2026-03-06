@@ -45,4 +45,4 @@ In conclusion, the successful deployment of the omni-channel contact center for 
 
 ## Get in touch
 
-If you’re interested in learning more about SeaX, fill out our [Book a Demo form](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) to get a first hand look at the SeaX platform. We are always happy to chat!
+If you’re interested in learning more about SeaX, fill out our [Book a Demo form](https://calendar.app.google/FLjCxzbYLqG6CkNs9) to get a first hand look at the SeaX platform. We are always happy to chat!

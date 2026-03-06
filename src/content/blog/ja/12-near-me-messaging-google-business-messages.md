@@ -118,4 +118,4 @@ Near Me Messaging にはライブエージェント機能も搭載されてい�
 *Near Me ライブエージェント機能のインターフェース。*
 </center>
 
-Near Me Messaging を始める準備はできましたか？Near Me Messaging で仮想エージェントを起動する方法に関する次の投稿にご期待ください。[今すぐデモを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)して、Near Me Messaging の無料トライアルをいち早く手に入れましょう！
+Near Me Messaging を始める準備はできましたか？Near Me Messaging で仮想エージェントを起動する方法に関する次の投稿にご期待ください。[今すぐデモを予約](https://calendar.app.google/FLjCxzbYLqG6CkNs9)して、Near Me Messaging の無料トライアルをいち早く手に入れましょう！

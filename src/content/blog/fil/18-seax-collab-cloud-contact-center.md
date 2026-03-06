@@ -85,4 +85,4 @@ Sa serye ng mga blog na ito, susuriin namin nang mas malalim ang mahusay na mga 
 
 **Administrator Monitoring** - Built in na mga tool para sa pagsubaybay sa komunikasyon ng customer at pagganap ng ahente
 
-Para sa isang personal na demo, at upang makita kung paano makakatulong ang SeaX sa iyong mga pangangailangan sa contact center, mangyaring punan ang aming "[Mag-book ng Demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)" na form.
+Para sa isang personal na demo, at upang makita kung paano makakatulong ang SeaX sa iyong mga pangangailangan sa contact center, mangyaring punan ang aming "[Mag-book ng Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)" na form.

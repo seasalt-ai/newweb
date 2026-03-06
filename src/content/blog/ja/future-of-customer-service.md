@@ -285,4 +285,4 @@ AIはルーチンなタスクに優れていますが、人間は以下の点で
 
 ---
 
-*AIがカスタマーサービスをどのように変革できるかを探りたいですか？[コンサルティングを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)して、Seasalt.aiが企業が顧客体験の未来に備えるのをどのように支援しているかをご覧ください。*
+*AIがカスタマーサービスをどのように変革できるかを探りたいですか？[コンサルティングを予約](https://calendar.app.google/FLjCxzbYLqG6CkNs9)して、Seasalt.aiが企業が顧客体験の未来に備えるのをどのように支援しているかをご覧ください。*

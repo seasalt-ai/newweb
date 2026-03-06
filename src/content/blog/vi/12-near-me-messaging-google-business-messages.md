@@ -118,4 +118,4 @@ Chủ sở hữu có thể tham gia bất kỳ cuộc trò chuyện nào bất c
 *Giao diện tính năng đại lý trực tiếp của Near Me.*
 </center>
 
-Bạn đã sẵn sàng bắt đầu với Near Me Messaging chưa? Hãy theo dõi bài đăng tiếp theo của chúng tôi về cách khởi chạy đại lý ảo của bạn với Near Me Messaging. [Đặt lịch demo với chúng tôi](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) ngay hôm nay và là một trong những người đầu tiên nhận được bản dùng thử miễn phí Near Me Messaging!
+Bạn đã sẵn sàng bắt đầu với Near Me Messaging chưa? Hãy theo dõi bài đăng tiếp theo của chúng tôi về cách khởi chạy đại lý ảo của bạn với Near Me Messaging. [Đặt lịch demo với chúng tôi](https://calendar.app.google/FLjCxzbYLqG6CkNs9) ngay hôm nay và là một trong những người đầu tiên nhận được bản dùng thử miễn phí Near Me Messaging!

@@ -40,4 +40,4 @@ Meta AI 剛剛發布了 Llama 3，現在您可以直接從 Instagram、Facebook�
 您可能與 ChatGPT 或 Meta AI 有很多零散的對話，但您無法輕鬆管理這些對話。您真正需要的是在客戶首選的渠道上提供您自己的 AI 助手，然後您就可以 [在一個中心位置管理所有對話](https://chat.seasalt.ai/?utm_source=blog)。SeaChat 現在集成了 **WhatsApp、Meta Facebook Messenger、LINE、網絡聊天**（包括您自己的網站、Shopify、Squarespace、Wix 網站）。我們為您提供一個中心位置，以便您可以通過各種渠道（無論是通過 AI Agent還是人工Agent）與客戶互動。因此，您可以專注於提供最佳客戶體驗。Meta AI 以及其他科技巨頭無法也可能永遠不會為您提供全渠道通訊功能，因為它們本質上只希望人們留在自己的通訊渠道上。
 
 
-感謝您的閱讀。歡迎隨時與我們 [安排演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)，了解更多關於您可以使用對話式 AI 做些什麼。
+感謝您的閱讀。歡迎隨時與我們 [安排演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)，了解更多關於您可以使用對話式 AI 做些什麼。

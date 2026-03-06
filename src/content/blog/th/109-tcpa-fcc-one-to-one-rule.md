@@ -93,7 +93,7 @@ TCPA เป็นกฎหมายของรัฐบาลกลางที
 การเปลี่ยนแปลงกฎ TCPA ปี 2025 จะส่งผลกระทบอย่างมีนัยสำคัญต่อวิธีที่ธุรกิจดำเนินการเข้าถึงลูกค้า การโทรและข้อความที่ใช้เทคโนโลยีที่ได้รับการควบคุมจะต้องได้รับความยินยอมแบบเลือกรับอย่างชัดเจน สำหรับผู้ที่ไม่มีการเลือกรับ การโทรออกด้วยตนเองและการส่งข้อความหลังจากทำความสะอาดจะเป็นสิ่งจำเป็น ความสัมพันธ์ทางธุรกิจที่มีอยู่สามารถให้ข้อยกเว้นบางประการได้ แต่การรับทราบข้อมูลและปฏิบัติตามข้อกำหนดเป็นสิ่งสำคัญอย่างยิ่ง ควรปรึกษาที่ปรึกษาทางกฎหมายของคุณก่อนทำการเปลี่ยนแปลงใดๆ เสมอ
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">จองการปรึกษาฟรีกับเรา</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">จองการปรึกษาฟรีกับเรา</a>
 </center>
 
 

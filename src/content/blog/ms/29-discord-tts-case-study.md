@@ -163,7 +163,7 @@ Jadi perkara-perkara ini, digabungkan dengan bagaimana kami telah melihat penggu
 Soalan-soalan ini tidak dapat dijawab, atau bahkan diterokai sepenuhnya, dalam satu catatan blog.
 Walau bagaimanapun, syarikat merasakan kewajipan untuk terus mempertimbangkan isu-isu ini semasa kami meneruskan projek Discord kami dan terus bekerjasama dengan pelakon suara kami.
 
-Terima kasih atas minat anda terhadap projek Bot Discord dan Kecerdasan Suara kami! Anda boleh mengetahui lebih lanjut tentang produk STT kami di [Halaman Utama Pertuturan-ke-Teks](https://suite.seasalt.ai/tts) kami. Untuk demo satu-satu mana-mana produk Kecerdasan Suara kami, isi [Borang Tempahan Demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Terima kasih atas minat anda terhadap projek Bot Discord dan Kecerdasan Suara kami! Anda boleh mengetahui lebih lanjut tentang produk STT kami di [Halaman Utama Pertuturan-ke-Teks](https://suite.seasalt.ai/tts) kami. Untuk demo satu-satu mana-mana produk Kecerdasan Suara kami, isi [Borang Tempahan Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 Di sisi Discord, anda boleh mengetahui lebih lanjut tentang bot kami dan menambahkannya ke pelayan anda dari [Wiki Bot Discord SeaVoice](https://wiki.seasalt.ai/seavoice/discord/6-community/). Juga jangan ragu untuk menyertai [Pelayan Discord SeaVoice Rasmi](https://discord.gg/dfAYfwBQ) kami.
 

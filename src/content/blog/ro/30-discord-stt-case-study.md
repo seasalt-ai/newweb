@@ -171,7 +171,7 @@ Nu sunt sigur dacă există vreo modalitate de a îmbunătăți experiența util
 
 Sperăm că aceste funcționalități planificate ne vor permite să continuăm să facem canalele vocale mai accesibile tuturor, oferind în același timp utilizatorilor posibilitatea de a interacționa cu botul SeaVoice la un nivel cu care se simt confortabil. Vom continua să depunem eforturi pentru a aborda proactiv aceste probleme dificile pentru a face SeaVoice cel mai bun posibil!
 
-Vă mulțumim pentru interesul acordat botului nostru Discord și mulțumim utilizatorilor noștri pentru sprijinul continuu! Puteți afla mai multe despre produsul nostru STT pe [pagina de pornire SeaVoice Speech-to-Text](https://suite.seasalt.ai/tts). Pentru o demonstrație individuală a oricăruia dintre produsele noastre AI vocale, completați [formularul de programare a demonstrației](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Vă mulțumim pentru interesul acordat botului nostru Discord și mulțumim utilizatorilor noștri pentru sprijinul continuu! Puteți afla mai multe despre produsul nostru STT pe [pagina de pornire SeaVoice Speech-to-Text](https://suite.seasalt.ai/tts). Pentru o demonstrație individuală a oricăruia dintre produsele noastre AI vocale, completați [formularul de programare a demonstrației](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 Dacă nu ați încercat încă botul SeaVoice, puteți afla mai multe despre botul nostru și îl puteți adăuga la serverul dvs. pe [Wiki-ul Botului SeaVoice Discord](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/). Nu ezitați să vă alăturați [serverului oficial Discord SeaVoice](https://discord.gg/dfAYfwBQ).
 

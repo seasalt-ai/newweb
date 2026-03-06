@@ -107,6 +107,6 @@ Mungkin diperlukan waktu hingga empat jam agar tombol obrolan muncul di Google M
 *Anda dapat mengklik tombol "Luncurkan Kembali" setelah Anda selesai melakukan perubahan/perbaikan pada agen virtual Anda.*
 </center>
 
-[Pesan demo dengan kami](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) dan kami akan dengan senang hati membantu Anda!
+[Pesan demo dengan kami](https://calendar.app.google/FLjCxzbYLqG6CkNs9) dan kami akan dengan senang hati membantu Anda!
 
 Pembaruan: Kami telah memutar produk menjadi pembuat chatbot omni-channel. Sekarang disebut [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!

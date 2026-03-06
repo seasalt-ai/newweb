@@ -141,4 +141,4 @@ MailerLite duy trì tỷ lệ gửi email xuất sắc. Theo [Khả năng gửi 
 
 Bất kể bạn chọn dịch vụ tiếp thị email nào, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) đều tích hợp tốt với hầu hết các nền tảng tiếp thị email. Bạn có thể thu thập email và khách hàng tiềm năng từ đại lý AI SeaChat và đồng bộ hóa trực tiếp vào danh sách tiếp thị email của mình.
 
-Xây dựng và khởi chạy đại lý trò chuyện AI trong 10 phút. Hỗ trợ đa ngôn ngữ. Chuyển giao đại lý trực tiếp. Tích hợp với webchat, SMS, Line, CRM, Shopify, lịch, Twilio, ZenDesk và cuộc gọi điện thoại. Gửi email cho chúng tôi để biết thêm chi tiết tại [seachat@seasalt.ai](mailto:seachat@seasalt.ai) hoặc [đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Xây dựng và khởi chạy đại lý trò chuyện AI trong 10 phút. Hỗ trợ đa ngôn ngữ. Chuyển giao đại lý trực tiếp. Tích hợp với webchat, SMS, Line, CRM, Shopify, lịch, Twilio, ZenDesk và cuộc gọi điện thoại. Gửi email cho chúng tôi để biết thêm chi tiết tại [seachat@seasalt.ai](mailto:seachat@seasalt.ai) hoặc [đặt lịch demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

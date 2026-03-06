@@ -1,9 +1,9 @@
 // External URLs used throughout the application
 export const MEETING_URL =
-  "https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/";
+  "https://calendar.app.google/FLjCxzbYLqG6CkNs9/";
 export const HUBSPOT_DEMO_ZH_TW =
   "https://calendar.app.google/3w9kgPpkjHKqgJsN7";
-  // "https://meetings.hubspot.com/seasalt-ai/seasalt-meeting-taiwan";
+  // "https://calendar.app.google/FLjCxzbYLqG6CkNs9-taiwan";
 
 // Helper function to get the appropriate meeting URL based on language
 export const getMeetingUrl = (language: string): string => {

@@ -163,7 +163,7 @@ Jadi poin-poin ini, dipasangkan dengan bagaimana kami melihat pengguna nyata men
 Pertanyaan-pertanyaan ini tidak dapat dijawab, atau bahkan dieksplorasi sepenuhnya, dalam satu posting blog.
 Namun perusahaan merasa berkewajiban untuk terus mempertimbangkan masalah ini saat kami bergerak maju dengan proyek Discord kami dan terus bekerja dengan pengisi suara kami.
 
-Terima kasih atas minat Anda pada proyek Bot Discord dan Kecerdasan Suara kami! Anda dapat mempelajari lebih lanjut tentang produk STT kami di [Beranda Suara-ke-Teks](https://suite.seasalt.ai/tts) kami. Untuk demo satu-satu dari salah satu produk Kecerdasan Suara kami, isi [Formulir Pesan Demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Terima kasih atas minat Anda pada proyek Bot Discord dan Kecerdasan Suara kami! Anda dapat mempelajari lebih lanjut tentang produk STT kami di [Beranda Suara-ke-Teks](https://suite.seasalt.ai/tts) kami. Untuk demo satu-satu dari salah satu produk Kecerdasan Suara kami, isi [Formulir Pesan Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 Di sisi Discord, Anda dapat mempelajari lebih lanjut tentang bot kami dan menambahkannya ke server Anda dari [Wiki Bot Discord SeaVoice](https://wiki.seasalt.ai/seavoice/discord/6-community/). Juga jangan ragu untuk bergabung dengan [Server Discord SeaVoice Resmi](https://discord.gg/dfAYfwBQ) kami.
 

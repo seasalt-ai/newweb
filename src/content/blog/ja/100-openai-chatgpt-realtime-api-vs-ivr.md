@@ -73,4 +73,4 @@ OpenAIの技術は印象的ですが、現在他のオプションよりもは�
 最も高度な技術が、必ずしもビジネスニーズに最適な選択肢であるとは限りません。変更を加える前に、予算、必要な顧客サービスの品質、およびソリューションが既存のシステムとどの程度うまく統合されるかを検討してください。
 
 ## もっと詳しく知る
-手頃な価格で顧客サービス向けのAI音声技術を最初に探求したい場合は、[SeaChat](https://chat.seasalt.ai/?utm_source=blog/)にアクセスするか、[デモを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)できます。
+手頃な価格で顧客サービス向けのAI音声技術を最初に探求したい場合は、[SeaChat](https://chat.seasalt.ai/?utm_source=blog/)にアクセスするか、[デモを予約](https://calendar.app.google/FLjCxzbYLqG6CkNs9)できます。

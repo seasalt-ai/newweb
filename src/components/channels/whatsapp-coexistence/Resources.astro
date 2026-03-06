@@ -1,6 +1,14 @@
 ---
-import { Book, Code, FileText, ChevronRight, ChevronDown, ExternalLink, ArrowRight } from 'lucide-react';
-import { getTranslationHelpers } from '../../../i18n/helpers';
+import {
+  Book,
+  Code,
+  FileText,
+  ChevronRight,
+  ChevronDown,
+  ExternalLink,
+  ArrowRight,
+} from "lucide-react";
+import { getTranslationHelpers } from "../../../i18n/helpers";
 
 export interface Props {
   lang: string;
@@ -17,10 +25,10 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
       <!-- Section Header -->
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold text-gray-900 mb-4">
-          {t('whatsappCoexistence.resources.title')}
+          {t("whatsappCoexistence.resources.title")}
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          {t('whatsappCoexistence.resources.subtitle')}
+          {t("whatsappCoexistence.resources.subtitle")}
         </p>
       </div>
 
@@ -31,15 +39,21 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
           href="https://wiki.seasalt.ai/en/seax/seax-omni/whatsapp-coexistence/"
           class="group bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6 border-2 border-green-200 hover:shadow-xl transition-all hover:-translate-y-1 block"
         >
-          <div class="w-14 h-14 bg-green-500 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-green-600 transition-colors">
+          <div
+            class="w-14 h-14 bg-green-500 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-green-600 transition-colors"
+          >
             <Book class="w-8 h-8 text-white" />
           </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.resources.cards.wiki.title')}</h3>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">
+            {t("whatsappCoexistence.resources.cards.wiki.title")}
+          </h3>
           <p class="text-gray-600 mb-4">
-            {t('whatsappCoexistence.resources.cards.wiki.description')}
+            {t("whatsappCoexistence.resources.cards.wiki.description")}
           </p>
-          <div class="flex items-center text-green-600 font-semibold group-hover:text-green-700">
-            {t('whatsappCoexistence.resources.cards.wiki.cta')}
+          <div
+            class="flex items-center text-green-600 font-semibold group-hover:text-green-700"
+          >
+            {t("whatsappCoexistence.resources.cards.wiki.cta")}
             <ChevronRight class="w-5 h-5 ml-2" />
           </div>
         </a>
@@ -49,15 +63,21 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
           href="https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/onboarding-business-app-users/"
           class="group bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 border-2 border-blue-200 hover:shadow-xl transition-all hover:-translate-y-1 block"
         >
-          <div class="w-14 h-14 bg-blue-500 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
+          <div
+            class="w-14 h-14 bg-blue-500 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors"
+          >
             <Code class="w-8 h-8 text-white" />
           </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.resources.cards.developer.title')}</h3>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">
+            {t("whatsappCoexistence.resources.cards.developer.title")}
+          </h3>
           <p class="text-gray-600 mb-4">
-            {t('whatsappCoexistence.resources.cards.developer.description')}
+            {t("whatsappCoexistence.resources.cards.developer.description")}
           </p>
-          <div class="flex items-center text-blue-600 font-semibold group-hover:text-blue-700">
-            {t('whatsappCoexistence.resources.cards.developer.cta')}
+          <div
+            class="flex items-center text-blue-600 font-semibold group-hover:text-blue-700"
+          >
+            {t("whatsappCoexistence.resources.cards.developer.cta")}
             <ChevronRight class="w-5 h-5 ml-2" />
           </div>
         </a>
@@ -67,15 +87,21 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
           href="#use-cases"
           class="group bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 border-2 border-purple-200 hover:shadow-xl transition-all hover:-translate-y-1 block"
         >
-          <div class="w-14 h-14 bg-purple-500 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-purple-600 transition-colors">
+          <div
+            class="w-14 h-14 bg-purple-500 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-purple-600 transition-colors"
+          >
             <FileText class="w-8 h-8 text-white" />
           </div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">{t('whatsappCoexistence.resources.cards.caseStudies.title')}</h3>
+          <h3 class="text-xl font-bold text-gray-900 mb-2">
+            {t("whatsappCoexistence.resources.cards.caseStudies.title")}
+          </h3>
           <p class="text-gray-600 mb-4">
-            {t('whatsappCoexistence.resources.cards.caseStudies.description')}
+            {t("whatsappCoexistence.resources.cards.caseStudies.description")}
           </p>
-          <div class="flex items-center text-purple-600 font-semibold group-hover:text-purple-700">
-            {t('whatsappCoexistence.resources.cards.caseStudies.cta')}
+          <div
+            class="flex items-center text-purple-600 font-semibold group-hover:text-purple-700"
+          >
+            {t("whatsappCoexistence.resources.cards.caseStudies.cta")}
             <ChevronRight class="w-5 h-5 ml-2" />
           </div>
         </a>
@@ -84,95 +110,127 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
       <!-- FAQ Section -->
       <div class="max-w-4xl mx-auto">
         <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">
-          {t('whatsappCoexistence.resources.faq.title')}
+          {t("whatsappCoexistence.resources.faq.title")}
         </h3>
 
         <div class="space-y-4">
           <!-- FAQ 1 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
-            <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              {t('whatsappCoexistence.resources.faq.questions.q1.question')}
-              <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
+            <summary
+              class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors"
+            >
+              {t("whatsappCoexistence.resources.faq.questions.q1.question")}
+              <ChevronDown
+                class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0"
+              />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              {t('whatsappCoexistence.resources.faq.questions.q1.answer')}
+              {t("whatsappCoexistence.resources.faq.questions.q1.answer")}
             </div>
           </details>
 
           <!-- FAQ 2 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
-            <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              {t('whatsappCoexistence.resources.faq.questions.q2.question')}
-              <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
+            <summary
+              class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors"
+            >
+              {t("whatsappCoexistence.resources.faq.questions.q2.question")}
+              <ChevronDown
+                class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0"
+              />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              {t('whatsappCoexistence.resources.faq.questions.q2.answer')}
+              {t("whatsappCoexistence.resources.faq.questions.q2.answer")}
             </div>
           </details>
 
           <!-- FAQ 3 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
-            <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              {t('whatsappCoexistence.resources.faq.questions.q3.question')}
-              <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
+            <summary
+              class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors"
+            >
+              {t("whatsappCoexistence.resources.faq.questions.q3.question")}
+              <ChevronDown
+                class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0"
+              />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              {t('whatsappCoexistence.resources.faq.questions.q3.answer')}
+              {t("whatsappCoexistence.resources.faq.questions.q3.answer")}
             </div>
           </details>
 
           <!-- FAQ 4 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
-            <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              {t('whatsappCoexistence.resources.faq.questions.q4.question')}
-              <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
+            <summary
+              class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors"
+            >
+              {t("whatsappCoexistence.resources.faq.questions.q4.question")}
+              <ChevronDown
+                class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0"
+              />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              {t('whatsappCoexistence.resources.faq.questions.q4.answer')}
+              {t("whatsappCoexistence.resources.faq.questions.q4.answer")}
             </div>
           </details>
 
           <!-- FAQ 5 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
-            <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              {t('whatsappCoexistence.resources.faq.questions.q5.question')}
-              <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
+            <summary
+              class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors"
+            >
+              {t("whatsappCoexistence.resources.faq.questions.q5.question")}
+              <ChevronDown
+                class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0"
+              />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              {t('whatsappCoexistence.resources.faq.questions.q5.answer')}
+              {t("whatsappCoexistence.resources.faq.questions.q5.answer")}
             </div>
           </details>
 
           <!-- FAQ 6 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
-            <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              {t('whatsappCoexistence.resources.faq.questions.q6.question')}
-              <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
+            <summary
+              class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors"
+            >
+              {t("whatsappCoexistence.resources.faq.questions.q6.question")}
+              <ChevronDown
+                class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0"
+              />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              {t('whatsappCoexistence.resources.faq.questions.q6.answer')}
+              {t("whatsappCoexistence.resources.faq.questions.q6.answer")}
             </div>
           </details>
 
           <!-- FAQ 7 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
-            <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              {t('whatsappCoexistence.resources.faq.questions.q7.question')}
-              <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
+            <summary
+              class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors"
+            >
+              {t("whatsappCoexistence.resources.faq.questions.q7.question")}
+              <ChevronDown
+                class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0"
+              />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              {t('whatsappCoexistence.resources.faq.questions.q7.answer')}
+              {t("whatsappCoexistence.resources.faq.questions.q7.answer")}
             </div>
           </details>
 
           <!-- FAQ 8 -->
           <details class="bg-gray-50 rounded-xl overflow-hidden">
-            <summary class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors">
-              {t('whatsappCoexistence.resources.faq.questions.q8.question')}
-              <ChevronDown class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0" />
+            <summary
+              class="px-6 py-4 font-semibold text-gray-900 cursor-pointer flex items-center justify-between hover:bg-gray-100 transition-colors"
+            >
+              {t("whatsappCoexistence.resources.faq.questions.q8.question")}
+              <ChevronDown
+                class="w-5 h-5 text-gray-500 transition-transform flex-shrink-0"
+              />
             </summary>
             <div class="px-6 pb-4 text-gray-700 leading-relaxed">
-              {t('whatsappCoexistence.resources.faq.questions.q8.answer')}
+              {t("whatsappCoexistence.resources.faq.questions.q8.answer")}
             </div>
           </details>
         </div>
@@ -181,13 +239,13 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
       <!-- Bottom CTA -->
       <div class="mt-16 text-center">
         <p class="text-lg text-gray-600 mb-6">
-          {t('whatsappCoexistence.resources.cta.title')}
+          {t("whatsappCoexistence.resources.cta.title")}
         </p>
         <a
-          href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting/"
+          href="https://calendar.app.google/FLjCxzbYLqG6CkNs9/"
           class="inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
         >
-          {t('whatsappCoexistence.resources.cta.button')}
+          {t("whatsappCoexistence.resources.cta.button")}
           <ArrowRight class="ml-2 w-5 h-5" />
         </a>
       </div>
@@ -200,24 +258,26 @@ const uniqueId = `resources-${crypto.randomUUID()}`;
   const root = document.getElementById(uniqueId);
   if (root) {
     // FAQ accordion behavior
-    root.querySelectorAll('details').forEach(detail => {
-      detail.addEventListener('toggle', () => {
-        const icon = detail.querySelector('summary svg');
+    root.querySelectorAll("details").forEach((detail) => {
+      detail.addEventListener("toggle", () => {
+        const icon = detail.querySelector("summary svg");
         if (icon) {
           if (detail.open) {
-            icon.style.transform = 'rotate(180deg)';
+            icon.style.transform = "rotate(180deg)";
           } else {
-            icon.style.transform = 'rotate(0deg)';
+            icon.style.transform = "rotate(0deg)";
           }
         }
       });
     });
 
     // Smooth scroll to resources section
-    document.querySelectorAll('a[href="#use-cases"]').forEach(link => {
-      link.addEventListener('click', (e) => {
+    document.querySelectorAll('a[href="#use-cases"]').forEach((link) => {
+      link.addEventListener("click", (e) => {
         e.preventDefault();
-        document.getElementById('use-cases')?.scrollIntoView({ behavior: 'smooth' });
+        document
+          .getElementById("use-cases")
+          ?.scrollIntoView({ behavior: "smooth" });
       });
     });
   }

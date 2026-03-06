@@ -95,4 +95,4 @@ Jednakże, zgodnie z [​​Email Deliverability June 2023](https://www.emailtoo
 
 Niezależnie od tego, co wybierzesz dla swojej usługi e-mail marketingu, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) dobrze integruje się z większością platform e-mail marketingowych. Możesz zbierać e-maile i leady od agenta AI SeaChat i synchronizować je bezpośrednio z listą e-mail marketingową. 
 
-Zbuduj i uruchom agenta czatu AI w 10 minut. Obsługa wielu języków. Przekazywanie agenta na żywo. Integracja z czatem internetowym, SMS-ami, Line, CRM, Shopify, kalendarzami, Twilio, ZenDesk i połączeniami telefonicznymi. Napisz do nas, aby uzyskać więcej szczegółów na [seachat@seasalt.ai](mailto:seachat@seasalt.ai) lub [zarezerwuj demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Zbuduj i uruchom agenta czatu AI w 10 minut. Obsługa wielu języków. Przekazywanie agenta na żywo. Integracja z czatem internetowym, SMS-ami, Line, CRM, Shopify, kalendarzami, Twilio, ZenDesk i połączeniami telefonicznymi. Napisz do nas, aby uzyskać więcej szczegółów na [seachat@seasalt.ai](mailto:seachat@seasalt.ai) lub [zarezerwuj demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

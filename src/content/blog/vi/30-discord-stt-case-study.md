@@ -173,7 +173,7 @@ Cuối cùng, vấn đề cuối cùng mà chúng tôi thấy là một số ng�
 
 Chúng tôi hy vọng rằng các tính năng được lên kế hoạch này sẽ cho phép chúng tôi tiếp tục làm cho các kênh thoại dễ tiếp cận hơn cho mọi người trong khi vẫn trao quyền cho người dùng tương tác với Bot SeaVoice ở mức độ mà họ cảm thấy thoải mái. Trong tương lai, chúng tôi sẽ tiếp tục nỗ lực chủ động giải quyết những vấn đề đầy thách thức này để làm cho SeaVoice trở nên tốt nhất có thể!
 
-Cảm ơn bạn đã quan tâm đến Bot Discord của chúng tôi và cảm ơn người dùng của chúng tôi đã tiếp tục hỗ trợ! Bạn có thể tìm hiểu thêm về sản phẩm STT của chúng tôi trên [Trang chủ Chuyển lời nói thành văn bản của SeaVoice](https://suite.seasalt.ai/tts). Để có bản demo trực tiếp một đối một về bất kỳ sản phẩm Trí tuệ giọng nói nào của chúng tôi, hãy điền vào [Biểu mẫu Đặt lịch demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Cảm ơn bạn đã quan tâm đến Bot Discord của chúng tôi và cảm ơn người dùng của chúng tôi đã tiếp tục hỗ trợ! Bạn có thể tìm hiểu thêm về sản phẩm STT của chúng tôi trên [Trang chủ Chuyển lời nói thành văn bản của SeaVoice](https://suite.seasalt.ai/tts). Để có bản demo trực tiếp một đối một về bất kỳ sản phẩm Trí tuệ giọng nói nào của chúng tôi, hãy điền vào [Biểu mẫu Đặt lịch demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 Nếu bạn chưa thử bot SeaVoice, bạn có thể tìm hiểu thêm về bot của chúng tôi và thêm nó vào máy chủ của bạn từ [Wiki Bot Discord SeaVoice](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/). Ngoài ra, hãy thoải mái tham gia [Máy chủ Discord SeaVoice chính thức](https://discord.gg/dfAYfwBQ) của chúng tôi.
 

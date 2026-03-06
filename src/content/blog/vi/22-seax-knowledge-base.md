@@ -116,4 +116,4 @@ Trên trang này, bạn có thể thêm các mục cơ sở kiến thức mới 
 Nếu bạn muốn tìm hiểu sâu hơn về hệ thống cơ sở kiến thức và cách nó tích hợp với nền tảng SeaX, hãy xem hội thảo trên web của chúng tôi về chủ đề này:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Để có một bản trình diễn trực tiếp hoặc để tìm hiểu cách Seasalt.ai có thể tùy chỉnh một giải pháp cho nhu cầu kinh doanh của bạn, hãy điền vào [biểu mẫu lên lịch trình diễn](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) của chúng tôi.
+Để có một bản trình diễn trực tiếp hoặc để tìm hiểu cách Seasalt.ai có thể tùy chỉnh một giải pháp cho nhu cầu kinh doanh của bạn, hãy điền vào [biểu mẫu lên lịch trình diễn](https://calendar.app.google/FLjCxzbYLqG6CkNs9) của chúng tôi.

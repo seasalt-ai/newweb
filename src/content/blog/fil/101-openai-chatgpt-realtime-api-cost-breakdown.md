@@ -177,7 +177,7 @@ Bilang isang practitioner sa larangan ng speech recognition at natural language 
 
 
 ## Matuto Nang Higit Pa
-Kung nais mong unang tuklasin ang teknolohiya ng boses ng AI para sa serbisyo sa customer sa isang makatwirang presyo, maaari mong bisitahin ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) o maaari kang [mag-book ng demo sa amin](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Kung nais mong unang tuklasin ang teknolohiya ng boses ng AI para sa serbisyo sa customer sa isang makatwirang presyo, maaari mong bisitahin ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) o maaari kang [mag-book ng demo sa amin](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 
 ## Tungkol sa Seryeng Ito

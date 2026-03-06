@@ -106,6 +106,6 @@ Agent构建完成后，屏幕上将出现二维码。使用您的手机扫描二
 *完成对虚拟Agent的更改/改进后，您可以点击“重新启动”按钮。*
 </center>
 
-[与我们预订演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)，我们将非常乐意为您提供帮助！
+[与我们预订演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)，我们将非常乐意为您提供帮助！
 
 更新：我们已将产品重心转向全渠道聊天机器人构建器。现在称为 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)！

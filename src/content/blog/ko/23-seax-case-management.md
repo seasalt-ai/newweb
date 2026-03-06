@@ -124,4 +124,4 @@ draft: false
 
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/xwZla3ftWLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-SeaX 사례 관리 시스템이 고객과 상호 작용할 때 에이전트를 어떻게 지원하는지에 대해 시간을 내어 읽어주셔서 감사합니다. SeaX 플랫폼을 사용하여 대량 SMS 메시지를 보내는 프로세스를 자세히 다룰 다음 블로그 게시물을 기대해 주십시오. 즉시 더 자세히 알고 싶다면, [데모 예약 양식](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)을 작성하여 SeaX 플랫폼을 직접 경험해 보십시오.
+SeaX 사례 관리 시스템이 고객과 상호 작용할 때 에이전트를 어떻게 지원하는지에 대해 시간을 내어 읽어주셔서 감사합니다. SeaX 플랫폼을 사용하여 대량 SMS 메시지를 보내는 프로세스를 자세히 다룰 다음 블로그 게시물을 기대해 주십시오. 즉시 더 자세히 알고 싶다면, [데모 예약 양식](https://calendar.app.google/FLjCxzbYLqG6CkNs9)을 작성하여 SeaX 플랫폼을 직접 경험해 보십시오.

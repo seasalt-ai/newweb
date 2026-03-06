@@ -107,4 +107,4 @@ Excel, Google Sheets जैसे टूल्स से बल्क SMS भे
 
 ## संपर्क करें
 
-अगर आप 10DLC या SMS मार्केटिंग के बारे में और जानना चाहते हैं, तो [डेमो बुक करें](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)। हमसे बात करके खुशी होगी!
+अगर आप 10DLC या SMS मार्केटिंग के बारे में और जानना चाहते हैं, तो [डेमो बुक करें](https://calendar.app.google/FLjCxzbYLqG6CkNs9)। हमसे बात करके खुशी होगी!

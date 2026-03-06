@@ -85,4 +85,4 @@ SeaX permet également de définir des messages personnalisés d’indisponibili
 
 Un centre de contact traditionnel ne peut desservir efficacement que sa zone géographique immédiate. Le modèle distribué étend la portée mais complexifie l’intégration. Avec SeaX, vous bénéficiez d’une plateforme unifiée tout en servant efficacement une clientèle mondiale grâce à des agents répartis.
 
-Merci d’avoir lu cet article sur comment SeaX prend en charge les centres de contact distribués via une plateforme unique. Restez à l’écoute pour notre prochain article sur la synthèse et reconnaissance vocale. En attendant, vous pouvez remplir notre formulaire “[Réserver une Démo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)” pour découvrir SeaX de première main.
+Merci d’avoir lu cet article sur comment SeaX prend en charge les centres de contact distribués via une plateforme unique. Restez à l’écoute pour notre prochain article sur la synthèse et reconnaissance vocale. En attendant, vous pouvez remplir notre formulaire “[Réserver une Démo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)” pour découvrir SeaX de première main.

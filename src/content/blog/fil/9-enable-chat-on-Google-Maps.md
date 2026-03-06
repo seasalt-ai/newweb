@@ -128,4 +128,4 @@ Magpapadala sa iyo ang Google ng verification code sa iyong numero ng telepono. 
 
 Ngayon na alam mo na kung paano i-activate ang isang Chat button sa iyong listahan at ang mga benepisyo nito, paano mo masisiguro na ang iyong negosyo ay makakasabay sa dumaraming bilang ng mga katanungan ng customer? Malaking oras at pera ang kinakailangan upang tumugon sa mga paulit-ulit na chat. Tingnan ang aming susunod na post sa Google Business Messages at kung paano ito makakatulong sa iyo na makatipid ng oras at pera sa pagbibigay ng mahusay na serbisyo sa customer.
 
-[Mag-book ng demo sa amin](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) at maging una na makatanggap ng libreng trial ng aming produkto!
+[Mag-book ng demo sa amin](https://calendar.app.google/FLjCxzbYLqG6CkNs9) at maging una na makatanggap ng libreng trial ng aming produkto!

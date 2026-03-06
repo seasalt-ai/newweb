@@ -85,4 +85,4 @@ W tej serii blogów zagłębimy się w wspaniałe funkcje platformy SeaX, omawia
 
 **Monitorowanie administratora** - Wbudowane narzędzia do monitorowania komunikacji z klientami i wydajności agentów
 
-Aby uzyskać osobistą demonstrację i zobaczyć, jak SeaX może pomóc w Twoich potrzebach centrum kontaktowego, wypełnij nasz formularz „[Zarezerwuj demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)”.
+Aby uzyskać osobistą demonstrację i zobaczyć, jak SeaX może pomóc w Twoich potrzebach centrum kontaktowego, wypełnij nasz formularz „[Zarezerwuj demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)”.

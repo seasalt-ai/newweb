@@ -171,7 +171,7 @@ Finalmente, el último problema que vimos es que algunos usuarios se sienten tan
 
 Esperamos que estas características planificadas nos permitan seguir haciendo que los canales de voz sean más accesibles para todos, al tiempo que brindamos a los usuarios la capacidad de interactuar con el bot SeaVoice a un nivel con el que se sientan cómodos. ¡En el futuro, continuaremos esforzándonos por abordar proactivamente estos problemas desafiantes para que SeaVoice sea lo mejor posible!
 
-¡Gracias por su interés en nuestro bot de Discord y gracias a nuestros usuarios por su continuo apoyo! Puede obtener más información sobre nuestro producto STT en nuestra [página de inicio de SeaVoice Speech-to-Text](https://suite.seasalt.ai/tts). Para una demostración individual de cualquiera de nuestros productos de inteligencia de voz, complete el [formulario de reserva de demostración](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+¡Gracias por su interés en nuestro bot de Discord y gracias a nuestros usuarios por su continuo apoyo! Puede obtener más información sobre nuestro producto STT en nuestra [página de inicio de SeaVoice Speech-to-Text](https://suite.seasalt.ai/tts). Para una demostración individual de cualquiera de nuestros productos de inteligencia de voz, complete el [formulario de reserva de demostración](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 Si aún no ha probado el bot SeaVoice, puede obtener más información sobre nuestro bot y agregarlo a su servidor desde la [wiki del bot Discord SeaVoice](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/). No dude también en unirse a nuestro [servidor oficial de Discord SeaVoice](https://discord.gg/dfAYfwBQ).
 

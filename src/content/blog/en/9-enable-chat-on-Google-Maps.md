@@ -124,4 +124,4 @@ Google will send you a verification code to your phone number. Enter the verific
 
 Now that you know how to activate a Chat button on your listing and its benefits, how do you make sure your business can keep up with a growing number of customer inquiries? It takes a lot of time and money to reply to repetitive chats. Check out our next post on Google Business Messages and how this can help you save time and money in delivering excellent customer service.
 
-[Book a demo with us](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) and be the first to receive a free trial of our product!
+[Book a demo with us](https://calendar.app.google/FLjCxzbYLqG6CkNs9) and be the first to receive a free trial of our product!

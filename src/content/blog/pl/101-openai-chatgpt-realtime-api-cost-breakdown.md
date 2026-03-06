@@ -179,7 +179,7 @@ Jako praktyk w dziedzinie rozpoznawania mowy i przetwarzania języka naturalnego
 
 
 ## Dowiedz się więcej
-Jeśli chcesz najpierw zapoznać się z technologią głosowej sztucznej inteligencji do obsługi klienta w rozsądnej cenie, możesz odwiedzić [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) lub [zarezerwować u nas demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Jeśli chcesz najpierw zapoznać się z technologią głosowej sztucznej inteligencji do obsługi klienta w rozsądnej cenie, możesz odwiedzić [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) lub [zarezerwować u nas demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 
 ## O tej serii

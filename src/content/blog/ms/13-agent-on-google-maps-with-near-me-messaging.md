@@ -107,7 +107,7 @@ Butang sembang mungkin mengambil masa sehingga empat jam untuk muncul di Google 
 *Anda boleh mengklik butang "Lancarkan Semula" setelah anda selesai membuat perubahan/penambahbaikan pada ejen maya anda.*
 </center>
 
-[Tempah demo dengan kami](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) dan kami akan dengan senang hati membantu anda!
+[Tempah demo dengan kami](https://calendar.app.google/FLjCxzbYLqG6CkNs9) dan kami akan dengan senang hati membantu anda!
 
 Kemas kini: Kami telah mengubah produk untuk menjadi pembina chatbot omni-saluran. Kini dipanggil [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!
 

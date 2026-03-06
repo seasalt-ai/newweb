@@ -16,15 +16,15 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
-  const { t: hookT, isLoading } = translations ? 
-    { t: null, isLoading: false } : 
+  const { t: hookT, isLoading } = translations ?
+    { t: null, isLoading: false } :
     useTranslation(lang);
 
   const getText = (key: string, fallback: string = key): string => {
     if (translations) {
       const keys = key.split('.');
       let result: any = translations;
-      
+
       for (const k of keys) {
         if (result && typeof result === 'object' && k in result) {
           result = result[k];
@@ -33,10 +33,10 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
           return fallback;
         }
       }
-      
+
       return typeof result === 'string' ? result : fallback;
     }
-    
+
     return hookT ? hookT(key) : fallback;
   };
 
@@ -147,9 +147,9 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
 
             {/* Main headline matching SeaX style */}
             <div className="space-y-4 w-full">
-              <h1 
+              <h1
                 className="font-bold text-white w-full text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
-                style={{ 
+                style={{
                   lineHeight: '1.1',
                   fontWeight: 'bold',
                   color: 'white'
@@ -161,7 +161,7 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
                 </span>
               </h1>
             </div>
-            
+
             <p className="text-xl text-blue-100 leading-relaxed">
               {getText('seachat.hero.description', 'Transform customer support with our omnichannel platform. Begin with human agents at zero cost, then seamlessly integrate AI automation as you grow.')}
             </p>
@@ -172,7 +172,7 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
                   {getText('seachat.hero.startFree', 'Start Free Now')}
                 </button>
               </a>
-              <a href="https://calendly.com/seasalt-ai/seasalt-ai-demo" className="block">
+              <a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" className="block">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all w-full">
                   {getText('seachat.hero.exploreAI', 'Book A Demo')}
                 </button>
@@ -204,17 +204,16 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
                   <h3 className="text-white font-semibold">{getText('seachat.hero.animationSection.title', 'SeaChat in Action')}</h3>
                   <button
                     onClick={() => setAutoRotate(!autoRotate)}
-                    className={`flex items-center space-x-2 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-                      autoRotate 
-                        ? 'bg-teal-500 text-white' 
+                    className={`flex items-center space-x-2 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${autoRotate
+                        ? 'bg-teal-500 text-white'
                         : 'bg-white/20 text-white hover:bg-white/30'
-                    }`}
+                      }`}
                   >
                     <RefreshCw className={`w-4 h-4 ${autoRotate ? 'animate-spin' : ''}`} />
                     <span>{autoRotate ? getText('seachat.hero.animationSection.autoMode', 'Auto') : getText('seachat.hero.animationSection.manualMode', 'Manual')}</span>
                   </button>
                 </div>
-                
+
                 {/* Animation Selector */}
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                   {animations.map((animation) => (
@@ -224,11 +223,10 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
                         setActiveAnimation(animation.id);
                         setAutoRotate(false);
                       }}
-                      className={`p-3 rounded-lg text-sm text-left transition-all duration-300 ${
-                        activeAnimation === animation.id
+                      className={`p-3 rounded-lg text-sm text-left transition-all duration-300 ${activeAnimation === animation.id
                           ? 'bg-teal-500 text-white transform scale-105'
                           : 'bg-white/20 text-white hover:bg-white/30'
-                      }`}
+                        }`}
                     >
                       <div className="font-medium mb-1">{animation.name}</div>
                       <div className="text-xs opacity-80">{animation.description}</div>

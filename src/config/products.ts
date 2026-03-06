@@ -21,7 +21,7 @@ export const seaxConfig: ProductConfig = {
     return `https://wiki.seasalt.ai/${wikiLanguage}/seax/seax-omni/seax-intro/`;
   },
   meetingUrl: (language: string) => {
-    return `https://calendly.com/seasalt-ai/seasalt-ai-demo?lang=${language}`;
+    return `https://calendar.app.google/FLjCxzbYLqG6CkNs9?lang=${language}`;
   },
   enableFeatures: {
     topBar: false,
